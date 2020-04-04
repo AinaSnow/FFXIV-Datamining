@@ -1,0 +1,11 @@
+﻿key,0,1,2
+#,Type,Objective,Help
+int32,str,LeveString,LeveString
+0,"","",""
+1,"CompanyLeveProtection","対象を守りつつ敵を撃退せよ","失敗条件：<Sheet(BNpcName,IntegerParameter(1),0)/>が全て失われる"
+2,"CompanyLeveInterception","制限時間内に、より多くの敵を倒せ","失敗条件：目標討伐数に達しない"
+3,"CompanyLevePenetration","<Sheet(EventItem,IntegerParameter(1),0)/>の保有者を発見し
+正体を見破って倒せ","エモート「<If(Equal(IntegerParameter(1),1))>つつく<Else/>問い詰める</If>」に反応した敵を倒し
+<Sheet(EventItem,IntegerParameter(2),0)/>を入手せよ"
+4,"","",""
+5,"CompanyLeveSummon","増援を呼び出す敵を倒せ",""
