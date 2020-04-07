@@ -2281,7 +2281,7 @@ int32,str,str,Image,byte,byte,byte,StatusHitEffect,StatusLoopVFX,bit&01,bit&02,b
 2244,"竜巻形態","小型罪喰いの群体が竜巻型の形状を成している状態。","ui/icon/015000/015671.tex",0,1,1,"dk05th_stup0t","",False,False,False,False,True,False,False,True,True,0,False,False,0,2,False,0,False,False,0,0,False
 2245,"雷神の呪い","ラムウの呪いを受けた状態。一定時間ごとに放電し、周囲に雷属性ダメージをまき散らす。
 また効果時間が終了すると、パニック状態になる。","ui/icon/015000/015252.tex",0,1,2,"dk05th_stdn0t","",False,False,False,False,False,False,False,False,False,200,False,False,0,0,False,0,False,False,0,0,False
-2246,"","",,0,0,0,"","",False,False,False,False,False,False,False,False,False,0,False,False,0,0,False,0,False,False,0,0,False
+2246,"スロウ","オートアタックの攻撃間隔と、ウェポンスキルおよび魔法のキャストタイムとリキャストタイムが延長された状態。","ui/icon/015000/015009.tex",0,1,2,"dk05ht_slow0t","",False,False,False,False,False,False,False,False,False,50,False,False,15,0,False,0,False,False,0,0,False
 2247,"突進標的","突進の標的として狙われた状態。この状態の効果が切れた際に、スタンが発動する。","ui/icon/015000/015026.tex",0,1,2,"dk05th_stdn0t","",False,False,False,False,False,False,False,False,False,200,False,False,0,0,True,0,False,False,0,0,False
 2248,"打属性耐性低下","打属性に対する耐性が低下した状態。","ui/icon/015000/015064.tex",0,1,2,"dk05th_stdn0t","",False,False,False,False,False,False,False,False,False,50,False,False,-12,0,False,0,False,False,0,0,False
 2249,"不安定","体勢を崩して不安定な状態。被ダメージが上昇する。","ui/icon/015000/015225.tex",0,1,2,"dk05th_stdn0t","",True,False,True,True,False,False,False,False,False,0,False,False,100,0,False,0,False,False,0,0,False
@@ -2307,7 +2307,7 @@ int32,str,str,Image,byte,byte,byte,StatusHitEffect,StatusLoopVFX,bit&01,bit&02,b
 2267,"ミートシールド","配下が肉の盾になった状態。母王に対するあらゆるダメージが無効化される。","ui/icon/015000/015024.tex",0,1,1,"dk05th_stup0t","",False,False,False,False,False,False,False,True,True,200,False,False,0,0,False,0,False,False,0,12,False
 2268,"","",,0,0,0,"","",False,False,False,False,False,False,False,False,False,0,False,False,0,0,False,0,False,False,0,0,False
 2269,"F.A.T.E.参加","特定のF.A.T.E.に参加している状態。通常アクションが実行できなくなり、専用コンテンツアクションが使用可能になる。","ui/icon/016000/016214.tex",0,1,1,"dk05th_stup0t","",False,False,False,False,False,False,False,False,False,100,False,False,0,2,False,0,False,False,0,0,False
-2270,"","",,0,0,0,"","",False,False,False,False,False,False,False,False,False,0,False,False,0,0,False,0,False,False,0,0,False
+2270,"","",,0,1,2,"","",True,False,True,False,False,False,False,True,True,200,False,True,0,0,True,0,False,False,0,32,False
 2271,"パニック","パニックに陥った状態。特定の敵から遠ざかるように移動してしまう。","ui/icon/015000/015253.tex",0,1,2,"dk05th_stdn0t","",False,False,False,False,False,False,False,False,False,199,False,False,0,0,False,0,False,False,0,9,False
 2272,"","",,0,1,2,"dk05th_stdn0t","",False,False,False,False,False,False,False,False,False,199,False,True,0,0,False,0,False,False,0,0,False
 2273,"","",,0,1,1,"dk05th_stup0t","",False,False,False,False,True,False,False,True,True,200,False,True,0,2,False,0,False,False,0,0,False
@@ -2320,9 +2320,9 @@ int32,str,str,Image,byte,byte,byte,StatusHitEffect,StatusLoopVFX,bit&01,bit&02,b
 2280,"巨大化","身体が巨大化している状態。","ui/icon/019000/019541.tex",3,1,1,"dk05th_stup0t","",False,False,False,False,True,False,False,False,False,199,False,False,20,26,False,0,False,False,0,0,False
 2281,"最大化","身体が最大化した状態。","ui/icon/015000/015971.tex",0,1,1,"dk05th_stup0t","",False,False,False,False,True,False,False,True,False,200,False,False,100,26,False,0,False,False,0,0,False
 2282,"エンボルデン","与ダメージが上昇した状態。","ui/icon/018000/018921.tex",5,112,1,"dk05th_stup0t","",False,False,False,False,False,False,False,False,False,0,False,False,3,0,True,0,False,False,0,0,False
-2283,"","",,0,0,0,"","",False,False,False,False,False,False,False,False,False,0,False,False,0,0,False,0,False,False,0,0,False
+2283,"運命の輪","被ダメージを軽減するシールドを発生させている状態。","ui/icon/013000/013227.tex",0,1,1,"dk05th_stup0t","",False,False,False,False,False,False,False,True,True,0,False,False,0,4,True,0,False,False,0,27,False
 2284,"","",,0,0,0,"","",False,False,False,False,False,False,False,False,False,0,False,False,0,0,False,0,False,False,0,0,False
-2285,"","",,0,0,0,"","",False,False,False,False,False,False,False,False,False,0,False,False,0,0,False,0,False,False,0,0,False
+2285,"拘束","行動できなくなり、ＨＰが徐々に失われる状態。","ui/icon/015000/015545.tex",0,1,2,"dk05th_stdn0t","",True,False,True,True,False,False,False,True,True,100,False,False,20,0,False,0,False,False,3,0,False
 2286,"拘束","行動できなくなった状態。","ui/icon/015000/015545.tex",0,1,2,"dk05th_stdn0t","kousoku04t",True,False,True,True,False,False,False,True,False,100,False,False,0,4,False,0,False,False,0,0,False
 2287,"","",,0,0,0,"","",False,False,False,False,False,False,False,False,False,0,False,False,0,0,False,0,False,False,0,0,False
 2288,"","",,0,0,0,"","",False,False,False,False,False,False,False,False,False,0,False,False,0,0,False,0,False,False,0,0,False
