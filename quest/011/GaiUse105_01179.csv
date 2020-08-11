@@ -2,7 +2,9 @@
 #,,
 int32,str,str
 0,"TEXT_GAIUSE105_01179_SEQ_00","砂の家のミンフィリアは、冒険者に頼みたいことがあるようだ。"
-1,"TEXT_GAIUSE105_01179_SEQ_01","ついに心を決めたミンフィリアだが、母フ・ラミンの様子が気になっているようだ。砂の家の「フ・ラミン」に話しかけよう。"
+1,"TEXT_GAIUSE105_01179_SEQ_01","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/>本クエストは調整されました。一度破棄し、砂の家の「ミンフィリア」から再受注してください。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+
+※次のメインクエストは、「メインクエストガイド」からも確認することができます。メインクエストガイドの表示/非表示は、メインコマンドの「キャラクターコンフィグ」から「ユーザーインターフェース設定」を選び、変更してください。"
 2,"TEXT_GAIUSE105_01179_SEQ_02","フ・ラミンがずっと大事にしていた耳飾りが壊れてしまったらしい。ウルダハの彫金師ギルドにいる「メメデス」に「<Sheet(EventItem,2001074,0)/>」を渡そう。"
 3,"TEXT_GAIUSE105_01179_SEQ_03","耳飾りは、天才彫金師ニエルフレーヌが恋人に贈ったものであるらしい。メメデスの代わりに鉱石を受け取るため、南ザナラーンの採掘施設にいる「オディネル」に話しかけよう。"
 4,"TEXT_GAIUSE105_01179_SEQ_04","オディネルから<Sheet(EventItem,2001075,0)/>を受け取ることができた。ウルダハの彫金師ギルドにいる「メメデス」に「<Sheet(EventItem,2001075,0)/>」を渡そう。"
@@ -25,12 +27,18 @@ int32,str,str
 21,"TEXT_GAIUSE105_01179_SEQ_21",""
 22,"TEXT_GAIUSE105_01179_SEQ_22",""
 23,"TEXT_GAIUSE105_01179_SEQ_23",""
-24,"TEXT_GAIUSE105_01179_TODO_00","フ・ラミンと話す"
-25,"TEXT_GAIUSE105_01179_TODO_01","彫金師ギルドのメメデスに<Sheet(EventItem,2001074,0)/>を渡す"
-26,"TEXT_GAIUSE105_01179_TODO_02","南ザナラーンの採掘施設のオディネルと話す"
-27,"TEXT_GAIUSE105_01179_TODO_03","彫金師ギルドのメメデスに<Sheet(EventItem,2001075,0)/>を渡す"
-28,"TEXT_GAIUSE105_01179_TODO_04","砂の家のフ・ラミンに<Sheet(EventItem,2001076,0)/>を渡す"
-29,"TEXT_GAIUSE105_01179_TODO_05","ミンフィリアに報告"
+24,"TEXT_GAIUSE105_01179_TODO_00","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/>本クエストは調整されました。一度破棄し、
+砂の家のミンフィリアから再受注してください<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+25,"TEXT_GAIUSE105_01179_TODO_01","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/>本クエストは調整されました。一度破棄し、
+砂の家のミンフィリアから再受注してください<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+26,"TEXT_GAIUSE105_01179_TODO_02","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/>本クエストは調整されました。一度破棄し、
+砂の家のミンフィリアから再受注してください<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+27,"TEXT_GAIUSE105_01179_TODO_03","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/>本クエストは調整されました。一度破棄し、
+砂の家のミンフィリアから再受注してください<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+28,"TEXT_GAIUSE105_01179_TODO_04","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/>本クエストは調整されました。一度破棄し、
+砂の家のミンフィリアから再受注してください<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+29,"TEXT_GAIUSE105_01179_TODO_05","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/>本クエストは調整されました。一度破棄し、
+砂の家のミンフィリアから再受注してください<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 30,"TEXT_GAIUSE105_01179_TODO_06",""
 31,"TEXT_GAIUSE105_01179_TODO_07",""
 32,"TEXT_GAIUSE105_01179_TODO_08",""
@@ -163,11 +171,12 @@ int32,str,str
 95,"TEXT_GAIUSE105_01179_FLHAMINN_000_086","アシリアにも、礼を言っておかなきゃね！
 あなたも、報告に行くといいわ。
 心配しているでしょうから。"
-96,"TEXT_GAIUSE105_01179_MINFILIA_000_090","ありがとう、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
-ラミンの悩みを解決してくれたのね。
-彼女に笑顔が戻って、わたしもうれしいわ。"
-97,"TEXT_GAIUSE105_01179_ALPHINAUD_000_091","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>も居たのか。
-ちょうど良い。"
+96,"TEXT_GAIUSE105_01179_MINFILIA_000_090","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、少しは休めたかしら？
+今しがた、アルフィノから連絡があったの。
+報告があるらしいから「暁の間」に来てくれるかしら。"
+97,"TEXT_GAIUSE105_01179_ALPHINAUD_000_091","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>も居てくれたようだね。
+では、報告を始めようか。
+まずは私から……。"
 98,"TEXT_GAIUSE105_01179_ALPHINAUD_000_092","ミンフィリア、冒険者ギルドとの話し合いが付いたぞ。"
 99,"TEXT_GAIUSE105_01179_MINFILIA_000_093","まぁ、どうだったの？"
 100,"TEXT_GAIUSE105_01179_ALPHINAUD_000_094","冒険者ギルドからの全面的な協力を得ることで合意したよ。

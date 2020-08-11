@@ -84,7 +84,11 @@ int32,str
 37,"対象に物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>100
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>コンボ条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>ヘヴィスウィング　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>コンボ時威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>300<If(GreaterThanOrEqualTo(PlayerParameter(72),30))><If(Equal(PlayerParameter(68),21))><If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),35))>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>コンボボーナス：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「インナービースト」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を10上昇させる<Else/></If><Else/></If><Else/></If><Else/></If>"
-38,"一定時間、自身の攻撃が必ずクリティカルヒットかつダイレクトヒットする。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>10秒"
+38,"一定時間、自身の攻撃が必ずクリティカルヒットかつダイレクトヒットする。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>10秒<If(GreaterThanOrEqualTo(PlayerParameter(72),50))><If(Equal(PlayerParameter(68),3))>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「シュトルムブレハ」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>の効果時間を15秒延長する。
+最大60秒まで延長することができる。<Else/><If(Equal(PlayerParameter(68),21))>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「シュトルムブレハ」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>の効果時間を15秒延長する。
+最大60秒まで延長することができる。<Else/></If></If><Else/></If>"
 39,"対象に物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>100
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>対象をスタンさせる　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(GreaterThanOrEqualTo(PlayerParameter(72),32))><If(Equal(PlayerParameter(68),3))>5<Else/><If(Equal(PlayerParameter(68),21))>5<Else/>3</If></If><Else/>3</If>秒<If(GreaterThanOrEqualTo(PlayerParameter(72),32))><If(Equal(PlayerParameter(68),3))>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>※PvPエリアでの効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>3秒<Else/><If(Equal(PlayerParameter(68),21))>
@@ -106,7 +110,10 @@ int32,str
 45,"対象に物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>100
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>コンボ条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>メイム　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>コンボ時威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>380
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>コンボボーナス：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身の与ダメージを10％上昇させる
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>30秒<If(GreaterThanOrEqualTo(PlayerParameter(72),30))><If(Equal(PlayerParameter(68),21))>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>30秒
+既に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「シュトルムブレハ」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>が付与されている場合は、その効果時間を30秒延長する。
+最大60秒まで延長することができる。
+また、<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「シュトルムブレハ」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>はバーサク<If(GreaterThanOrEqualTo(PlayerParameter(72),30))><If(Equal(PlayerParameter(68),21))>およびミスリルテンペスト<Else/></If><Else/></If>でも延長することができる。<If(GreaterThanOrEqualTo(PlayerParameter(72),30))><If(Equal(PlayerParameter(68),21))>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>コンボボーナス：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「インナービースト」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を10上昇させる<Else/></If><Else/></If>"
 46,"対象に遠隔物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>140
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>敵視アップ"
@@ -721,8 +728,7 @@ int32,str
 釣った魚をエサにして、キャスティングを実行する。"
 298,"自分の移動速度が下がり、モンスターに襲われなくなる。
 効果が有効なモンスターの最大レベル：<If(Equal(PlayerParameter(68),18))><If(GreaterThanOrEqualTo(PlayerParameter(69),76))>80<Else/><If(GreaterThanOrEqualTo(PlayerParameter(69),73))>77<Else/><If(GreaterThanOrEqualTo(PlayerParameter(69),70))>74<Else/><If(GreaterThanOrEqualTo(PlayerParameter(69),66))>70<Else/><If(GreaterThanOrEqualTo(PlayerParameter(69),63))>67<Else/><If(GreaterThanOrEqualTo(PlayerParameter(69),60))>64<Else/><If(GreaterThanOrEqualTo(PlayerParameter(69),56))>60<Else/><If(GreaterThanOrEqualTo(PlayerParameter(69),53))>57<Else/><If(GreaterThanOrEqualTo(PlayerParameter(69),50))>54<Else/><If(GreaterThanOrEqualTo(PlayerParameter(69),38))>50<Else/><If(GreaterThanOrEqualTo(PlayerParameter(69),28))>40<Else/><If(GreaterThanOrEqualTo(PlayerParameter(69),18))>30<Else/>20</If></If></If></If></If></If></If></If></If></If></If></If><Else/>20</If>"
-299,"<If(Equal(PlayerParameter(68),18))><If(GreaterThanOrEqualTo(PlayerParameter(69),61))><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>釣り・刺突漁<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>釣り<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/></If>
-<If(Equal(PlayerParameter(68),18))><If(GreaterThanOrEqualTo(PlayerParameter(69),61))>釣竿や銛をしまい、採集を終了する。<Else/>釣竿をしまい、釣りを終了する。</If><Else/></If>"
+299,"漁道具をしまい、採集を終了する。"
 300,"<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>釣り<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 釣り上げた魚を逃がし、釣り場に戻す。
 リリースした魚は、その釣りの最中は釣り上げるたびに自動的にリリースされ続ける。"
@@ -4485,7 +4491,7 @@ int32,str
 3562,"対象に物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>100
 自身が対象に<If(GreaterThanOrEqualTo(PlayerParameter(72),64))><If(Equal(PlayerParameter(68),23))>コースティックバイトやストームバイト<Else/>ベノムバイトやウィンドバイト</If><Else/>ベノムバイトやウィンドバイト</If>の効果を付与している場合、威力が上昇する。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>継続ダメージ数1つのとき威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>200
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>継続ダメージ数2つのとき威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>300<If(Equal(PlayerParameter(68),23))><If(GreaterThanOrEqualTo(PlayerParameter(72),72))>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>継続ダメージ数2つのとき威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>350<If(Equal(PlayerParameter(68),23))><If(GreaterThanOrEqualTo(PlayerParameter(72),72))>
 リキャストタイマーを<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「シャドウバイト」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>と共有する。<Else/></If><Else/></If>"
 3563,"対象に物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>100
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>側面攻撃時威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>160
@@ -4539,7 +4545,7 @@ int32,str
 3578,"対象とその周囲の敵に無属性範囲魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>130
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「エーテルフロー」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 3579,"対象に無属性魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>200"
-3580,"対象に無属性魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>300
+3580,"対象に無属性魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>150
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>対象に<If(GreaterThanOrEqualTo(PlayerParameter(72),66))><If(Equal(PlayerParameter(68),27))><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「バイオガ」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>と<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ミアズガ」<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「バイオラ」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>と<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ミアズマ」<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「バイオラ」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>と<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ミアズマ」<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If>の継続ダメージ効果を付与する"
 3581,"一定時間、魔法の詠唱時間を2.5秒短縮する。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>15秒
@@ -4571,7 +4577,8 @@ int32,str
 3588,""
 3589,""
 3590,"カードをドローする。
-<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「プレイ」<UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),33))><If(GreaterThanOrEqualTo(PlayerParameter(72),50))>および<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「マイナーアルカナ」<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/></If><Else/></If>が引いたカードに応じたアクションに変化する。"
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「プレイ」<UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(Equal(PlayerParameter(68),33))><If(GreaterThanOrEqualTo(PlayerParameter(72),50))>および<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「マイナーアルカナ」<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/></If><Else/></If>が引いたカードに応じたアクションに変化する。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身のＭＰを最大ＭＰの8％分回復する。"
 3591,"ドローしたカードを消費して、次に実行する1回のカードの効果を変化させる。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>アーゼマの均衡または世界樹の幹：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>効果を1.5倍にする
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>オシュオンの矢またはハルオーネの槍：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>効果時間を2倍にする
@@ -4629,7 +4636,7 @@ int32,str
 <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ダイアーナルセクト」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>とは同時に使えない。
 リキャストタイマーを<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ダイアーナルセクト」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>と共有する。
 自身が戦闘状態の場合は<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ダイアーナルセクト」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>への切り替えや解除をすることはできない。"
-3606,"一定時間、魔法の詠唱時間を2.5秒短縮し、さらに消費ＭＰを50％軽減させて詠唱することができる。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>15秒"
+3606,"一定時間、魔法の詠唱時間を2.5秒短縮させて詠唱することができる。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>15秒"
 3607,"一定時間、自身の敵視上昇を抑える。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身のＭＰを継続回復する
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果量：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><If(GreaterThanOrEqualTo(PlayerParameter(72),48))><If(Equal(PlayerParameter(68),33))>80<Else/>60</If><Else/>60</If>　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>24秒"
@@ -5238,8 +5245,7 @@ int32,str
 4100,"<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>釣り<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 仕掛けにアシストフックを追加し、
 釣り餌やルアーでは釣れない魚やアイテムを狙う。"
-4101,"<If(Equal(PlayerParameter(68),18))><If(GreaterThanOrEqualTo(PlayerParameter(69),61))><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>釣り・刺突漁<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>釣り<UIGlow>01</UIGlow><UIForeground>01</UIForeground></If><Else/></If>
-釣り上げた魚のコンディションをキープして、
+4101,"釣り上げた魚のコンディションをキープして、
 収集品として入手できる状態にする。"
 4102,"<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>釣り<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 狙った魚のHQ率を50％アップする。
@@ -5429,7 +5435,7 @@ int32,str
 4261,""
 4262,"自身に付与されている型を次の段階へ進める。
 自身に型が付与されていない場合は<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「壱の型」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与する。
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>参の型効果中追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身に付与されている<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「疾風迅雷」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>の効果時間を最大まで延長する。"
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身に付与されている<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「疾風迅雷」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>の効果時間を最大まで延長する。"
 4263,""
 4264,""
 4265,""
@@ -5818,7 +5824,9 @@ int32,str
 アクションを使用した時点で、
 最後に獲得していた魚と同じ魚が採れる。
 その漁場で採集している間は効果が継続する。
-ただし、効果のない魚もいる。"
+ただし、効果のない魚もいる。
+
+ステータス「ベテラントレード」の効果を上書きする。"
 4592,"変身の呪いを掃き取って使用不能にするおまじない
 ※演出用アクション。特に効果は発生しない。"
 4593,"アイテムを選別する。
@@ -8684,7 +8692,9 @@ int32,str
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>15秒"
 7389,"一定時間、インナービーストを消費することなくそれらのアクションを実行することができるようになり、さらに自身の攻撃が必ずクリティカルヒットかつダイレクトヒットする。
 加えて、自身はスタン、睡眠、バインド、ヘヴィおよび一部を除くすべてのノックバックと引き寄せの効果を受け付けない。
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>10秒"
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>10秒
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「シュトルムブレハ」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>の効果時間を15秒延長する。
+最大60秒まで延長することができる。"
 7390,"一定時間、クワイタスとブラッドスピラーを<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ブラックブラッド」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>の消費無しで実行できるようにする。
 さらに、それらの命中時に自身のＭＰを回復する。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>10秒"
@@ -8753,7 +8763,7 @@ int32,str
 7408,"自身またはパーティメンバーひとりを対象とする。
 対象が受けるＨＰ回復効果を20％上昇させる。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>15秒"
-7409,"対象に物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>330
+7409,"対象に物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>340
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ストレートショット実行可」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>効果中"
 7410,"対象に物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>220
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>ガウスラウンドとリコシェットのリキャストタイムを15秒短縮する
@@ -8894,11 +8904,10 @@ int32,str
 自身が実行するサンダー系魔法の継続ダメージ効果は、同時に1種類のみ付与される。<If(GreaterThanOrEqualTo(PlayerParameter(72),28))><If(Equal(PlayerParameter(68),7))>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果（継続ダメージヒット時、発動確率3％）：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>次に詠唱するサンダー系魔法の詠唱時間と消費ＭＰを0にし、かつ命中時に継続ダメージの総威力を上乗せする　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>18秒<Else/><If(Equal(PlayerParameter(68),25))>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果（継続ダメージヒット時、発動確率3％）：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>次に詠唱するサンダー系魔法の詠唱時間と消費ＭＰを0にし、かつ命中時に継続ダメージの総威力を上乗せする　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>18秒<Else/></If></If><Else/></If>"
-7448,"カードをドローする。
+7448,"自身に付与されていないディヴィネーションシンボルを持つカードをドローする。
+ディヴィネーションシンボルが付与されていない場合、もしくは3種類すべてが付与されている場合は、6枚のカードからランダムで1枚をドローする。
 <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「プレイ」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>および<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「マイナーアルカナ」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>が引いたカードに応じたアクションに変化する。
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身に2スタックの<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「スリーヴドロー」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与する
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>スリーヴドロー効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>プレイおよびマイナーアルカナを実行する、またはカードを破棄すると即座にカードがドローされる。
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>30秒"
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身のＭＰを最大ＭＰの8％分回復する。"
 7449,"対象とその周囲の敵に無属性範囲魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>650
 2体目以降の対象への威力は50％減少する。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>デミ・バハムートが顕現している
@@ -9492,7 +9501,7 @@ int32,str
 7853,""
 7854,""
 7855,"自身の被ダメージを50％軽減させ、かつ自身が攻撃を受けた場合に反撃ダメージを与える。
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>1000　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>6秒
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>1200　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>6秒
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>反撃効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「剣気」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を5上昇させる。
 効果時間が経過するか効果が5回発動すると効果が切れる。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「剣気」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>25"
@@ -9589,7 +9598,9 @@ int32,str
 アクションを使用した時点で、
 最後に獲得していた魚を採れなくする。
 その漁場で採集している間は効果が継続する。
-ただし、効果のない魚もいる。"
+ただし、効果のない魚もいる。
+
+ステータス「セイムギギング」の効果を上書きする。"
 7907,"<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>刺突漁<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 次の採集時の獲得数をアップする。
 獲得力に応じて、獲得数が増加する。
@@ -10483,13 +10494,14 @@ int32,str
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身の魔法詠唱によるＭＰ消費が0になり、さらに魔法を詠唱時間なしで詠唱することができる。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>6秒"
 8755,"自身に一部を除くすべてのダメージを無効化するバリアを張る。
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>6秒"
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>5秒"
 8756,"対象のパーティメンバーが受ける攻撃を肩代わりする。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>6秒
 効果中は受けるダメージが10％増加する。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>対象が10m以内に存在"
 8757,"かばうを解除する。"
 8758,"対象に物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>1000
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「インナービースト」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を10増加させる。
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※このアクションはホットバーに登録することはできない。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 8759,"対象に物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>コンボ時威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>1000
@@ -10623,12 +10635,12 @@ int32,str
 バインド中は実行不可。"
 8788,"自身の被ダメージを10％減少させる。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>6秒
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身に一定量のダメージを防ぐバリアを張る。
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>バリア量：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>回復力2000相当
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>バリア量：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>回復力2500相当
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>6秒"
-8789,"対象に物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>1800
+8789,"対象に物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>2000
 実行時に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「疾風迅雷」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>の効果が切れる。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「疾風迅雷」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>最大時"
-8790,"対象に物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>1800
+8790,"対象に物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>2000
 実行時に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「闘気」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>の効果が切れる。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「闘気V」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>効果中"
 8791,"対象に物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>1000
@@ -10833,11 +10845,11 @@ int32,str
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>200　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>18秒
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※このアクションはホットバーに登録することはできない。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
-8838,"対象に物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>800
+8838,"対象に物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>1000
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>旅神のメヌエットおよび軍神のパイオン中追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 自身に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「詩心」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与し、さらに<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ソウルボイスゲージ」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を10上昇させる。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>最大チャージ数：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>2"
-8839,"対象に物理攻撃を与えつつ10m後方に飛び退く。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>400
+8839,"対象に物理攻撃を与えつつ10m後方に飛び退く。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>800
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>旅神のメヌエットおよび軍神のパイオン中追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 自身に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「詩心」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与し、さらに<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ソウルボイスゲージ」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を20上昇させる。
 バインド中は実行不可。"
@@ -10901,12 +10913,12 @@ int32,str
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※このアクションはホットバーに登録することはできない。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 8852,""
-8853,"対象に物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>600
+8853,"対象に物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>800
 自身が対象にワイルドファイアの効果を付与している場合、威力が3倍になる。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>対象を15mノックバックさせる。"
 8854,"対象に50％ヘヴィを付与する。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>3秒"
 8855,"対象に時限爆弾を付与する。
-効果時間中に自身が対象にダメージを与えるたびに、その25％分のダメージを蓄積し、効果時間終了時にまとめて与える。
+効果時間中に自身が対象にダメージを与えるたびに、その33％分のダメージを蓄積し、効果時間終了時にまとめて与える。
 一部の攻撃によるダメージは蓄積効果の対象外とする。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>6秒"
 8856,"武器にガウスバレルを装着し、与ダメージを5％上昇させる。
@@ -10920,12 +10932,12 @@ int32,str
 8857,""
 8858,"対象に魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>1200
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「アストラルファイア」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与する。
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>アストラルファイア効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>与ダメージを10％上昇させる。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>アストラルファイア効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>与ダメージを20％上昇させる。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>15秒"
 8859,"対象に魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>800
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身のＭＰを2000回復する。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「アンブラルブリザード」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与する。
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>アンブラルブリザード効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>魔法のキャストタイムとリキャストタイムを10％短縮させる。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>15秒"
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>アンブラルブリザード効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>魔法のキャストタイムとリキャストタイムを20％短縮させる。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>15秒"
 8860,"対象に魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>400
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>対象に継続ダメージを付与する。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>400　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>15秒
@@ -10942,7 +10954,7 @@ int32,str
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※このアクションはホットバーに登録することはできない。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 8862,"<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「アストラルファイア」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>効果中はファイジャを、<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「アンブラルブリザード」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>効果中はブリザジャを詠唱することができるようになる。
-<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「アストラルファイア」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>または<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「アンブラルブリザード」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>の効果を30秒間継続すると、自身に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ポリグロット」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>が付与される。
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「アストラルファイア」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>または<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「アンブラルブリザード」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>の効果を15秒間継続すると、自身に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ポリグロット」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>が付与される。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>永続
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※「アストラルファイア」効果中は、「ファイジャ」に変化する。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -10956,18 +10968,18 @@ int32,str
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「アンブラルブリザード」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>効果中
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※このアクションはホットバーに登録することはできない。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
-8865,"対象とその周囲の敵に範囲魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>2400
+8865,"対象とその周囲の敵に範囲魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>1800
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ポリグロット」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>効果中
 実行後に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ポリグロット」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>が解除される。"
 8866,"対象とその周囲の敵に範囲魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>1800
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「アストラルファイア」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与する。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>15秒
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>アストラルファイア効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>与えるダメージを10％上昇させる。"
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>アストラルファイア効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>与えるダメージを20％上昇させる。"
 8867,"対象とその周囲の敵に範囲魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>1200
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>1ヒットにつき自身のＭＰを2000回復する。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「アンブラルブリザード」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与する。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>15秒
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>アンブラルブリザード効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>魔法のキャストタイムとリキャストタイムを10％短縮させる。"
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>アンブラルブリザード効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>魔法のキャストタイムとリキャストタイムを20％短縮させる。"
 8868,"対象に睡眠を付与する。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>3秒"
 8869,"パーティメンバーひとりを対象として、自身を対象の目前まで素早く移動する。
 バインド中は実行不可。"
@@ -10988,7 +11000,7 @@ int32,str
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身に最大スタック分のエーテルフローを付与する。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>最大スタック数：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>3　　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>永続
 トランス・バハムート中は使用できない。"
-8877,"対象に魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>800
+8877,"対象に魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>1000
 自身が対象にバイオガの効果を付与している場合、威力が2倍になる。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「エーテルフロー」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 8878,"デミ・バハムートを顕現させる。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>顕現時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>15秒
@@ -12264,15 +12276,15 @@ int32,str
 9969,""
 9970,""
 9971,"指定した地面の周囲に攻撃。
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>対人・対機工兵器威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>5000
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>対オブジェクト・対オートマトン威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>500"
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>対人・対機工兵器威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>7500
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>対オブジェクト・対オートマトン威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>750"
 9972,""
 9973,"自身の前方に向かって扇範囲攻撃。
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>対人・対オブジェクト・対オートマトン威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>750
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>対機工兵器威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>7500"
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>対人・対オブジェクト・対オートマトン威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>1000
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>対機工兵器威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>10000"
 9974,"自身の前方に向かって扇範囲攻撃。
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>対人・対機工兵器威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>10000
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>対オブジェクト・対オートマトン威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>1000"
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>対人・対機工兵器威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>12500
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>対オブジェクト・対オートマトン威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>1250"
 9975,"指定した地面の周囲に攻撃。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>対人・対機工兵器・対オートマトン威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>5000
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>対オブジェクト威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>250000
@@ -12285,17 +12297,17 @@ int32,str
 9978,"自身の前方に向かって扇範囲攻撃。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>対人・対機工兵器威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>10000
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>対人・対機工兵器追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>対象に火傷を付与する。
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>1000　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>15秒
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>2500　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>12秒
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>対オブジェクト・対オートマトン威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>1000"
 9979,"指定した地面の周囲に攻撃。
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>対人・対機工兵器・対オートマトン威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>5000
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>対オブジェクト威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>100000
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>対人・対機工兵器・対オートマトン威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>7500
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>対オブジェクト威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>150000
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>対象をスタンさせる。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>3秒"
 9980,"自身の前方に向かって前方直線範囲攻撃。
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>対人・対機工兵器威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>12500
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>対オブジェクト・対オートマトン威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>1250
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>対人・対機工兵器威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>15000
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>対オブジェクト・対オートマトン威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>1500
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>対象を30mノックバックする。"
-9981,"自身が搭乗している機工兵器のEPを500回復する。
+9981,"自身が搭乗している機工兵器のEPを5000回復する。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「CE」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>25"
 9982,"指定した地面の周囲に攻撃。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>対人・対機工兵器威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>5000
@@ -18802,10 +18814,10 @@ int32,str
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>20秒"
 16139,"対象に物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>100
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>コンボ条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>キーンエッジ　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>コンボ時威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>300
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>コンボボーナス：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身のＨＰを回復する　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>回復力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>150<If(Equal(PlayerParameter(68),37))><If(GreaterThanOrEqualTo(PlayerParameter(72),52))>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>コンボボーナス：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身のＨＰを回復する　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>回復力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>200<If(Equal(PlayerParameter(68),37))><If(GreaterThanOrEqualTo(PlayerParameter(72),52))>
 さらに、自身に一定量のダメージを防ぐバリアを張る。
 このバリアは回復量の100％分のダメージを軽減する。
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>10秒<Else/></If><Else/></If>"
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>30秒<Else/></If><Else/></If>"
 16140,"一定時間、自身の受け流し発動率を50％上昇させ、かつ自身の被ダメージを10％軽減させる。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>20秒"
 16141,"自身の周囲の敵に範囲物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>150"
 16142,"戦闘中の敵から自身に向けられる敵視を非常に大きく上昇させる。
@@ -19255,9 +19267,11 @@ int32,str
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>最大チャージ数：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>2
 バインド中は実行不可。"
 16462,"自身の周囲の敵に範囲物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>100
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>コンボ条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>オーバーパワー　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>コンボ時威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>200<If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),50))>
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>コンボボーナス：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「シュトルムブレハ」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>の効果時間を10秒延長する
-最大30秒まで延長することができる。<Else/></If><Else/></If><If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>コンボ条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>オーバーパワー　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>コンボ時威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>200<If(GreaterThanOrEqualTo(PlayerParameter(72),50))><If(Equal(PlayerParameter(68),3))>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>コンボボーナス：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「シュトルムブレハ」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>の効果時間を30秒延長する。
+最大60秒まで延長することができる。<Else/><If(Equal(PlayerParameter(68),21))>
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>コンボボーナス：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「シュトルムブレハ」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>の効果時間を30秒延長する。
+最大60秒まで延長することができる。<Else/></If></If><Else/></If><If(Equal(PlayerParameter(68),21))><If(GreaterThanOrEqualTo(PlayerParameter(72),74))>
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>コンボボーナス：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「インナービースト」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を20上昇させる<Else/></If><Else/></If>"
 16463,"自身の周囲の敵に範囲物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>400
 このアクションは必ずクリティカルヒットかつダイレクトヒットする。
@@ -19266,8 +19280,8 @@ int32,str
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「原初の混沌」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>効果中かつ<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「インナービースト」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>50
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※このアクションはホットバーに登録することはできない。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
-16464,"パーティメンバーひとりを対象とする。
-自身に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「原初の猛り」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与し、対象には<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「原初の猛り［被］」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与する。
+16464,"自身に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「原初の猛り」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与する。
+パーティメンバーひとりを対象として実行した場合は、自身に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「原初の猛り」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与し、対象には<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「原初の猛り［被］」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与する。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>原初の猛り効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身の物理攻撃が命中するとＨＰを吸収する。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>原初の猛り［被］効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>戦士自身の回復量の50％分のＨＰを回復する。
 さらに、被ダメージを10％軽減する。
@@ -19420,7 +19434,7 @@ int32,str
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>継続ダメージ数1つのとき威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>160
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>継続ダメージ数2つのとき威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>220
 リキャストタイマーを<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「サイドワインダー」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>と共有する。"
-16495,"対象に物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>230
+16495,"対象に物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>240
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果（発動確率35％）：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ストレートショット実行可」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与する。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>10秒"
 16496,"対象に向かって前方直線範囲物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>120～600
 実行時に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ソウルボイス」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を全て消費する。
@@ -19551,7 +19565,7 @@ int32,str
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ホワイトマナ」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を7上昇させる"
 16526,"対象とその周囲の敵に無属性範囲魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>220
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ブラックマナ」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>と<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ホワイトマナ」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を3上昇させる"
-16527,"対象に物理攻撃　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>150
+16527,"対象に物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>150
 リキャストタイマーを<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「デプラスマン」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>と共有する。"
 16528,"対象に無属性魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>300
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ブラックマナ」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>5と<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ホワイトマナ」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>5
@@ -19684,7 +19698,7 @@ int32,str
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ダイアーナルセクト」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>または<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ノクターナルセクト」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>効果中"
 16557,"自身と周囲のパーティメンバーに<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ホロスコープ」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与する。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>10秒
 ホロスコープの効果時間中に、自身が実行するヘリオスおよびアスペクト・ヘリオスを受けると、ホロスコープは<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ホロスコープ・ヘリオス」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>に変化する。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>30秒
-効果時間中に再使用すると、ホロスコープおよびホロスコープ・ヘリオスの効果を受けている自身と周囲のパーティメンバーを回復する。
+ホロスコープおよびホロスコープ・ヘリオスの効果時間が経過するか、効果時間中に再使用すると、ホロスコープおよびホロスコープ・ヘリオスの効果を受けている自身と周囲のパーティメンバーを回復する。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>ホロスコープ効果中の回復力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>200
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>ホロスコープ・ヘリオス効果中の回復力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>400"
 16558,"自身と周囲のパーティメンバーのＨＰを回復する。
@@ -20451,6 +20465,7 @@ int32,str
 17208,""
 17209,"オーバーヒート状態になる。
 効果時間中に実行する単体対象ウェポンスキルの威力を20上昇させる。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>8秒
+ただし、機工士のジョブアクションにのみ有効。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ヒート」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>50"
 17210,""
 17211,""
@@ -20942,20 +20957,21 @@ int32,str
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>6秒"
 17682,"自身と周囲のパーティメンバーの移動速度を上昇させる。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>10秒"
-17683,"対象に魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>600～1800
+17683,"対象に魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>600～2400
 自身の残りＨＰが少ないほど威力が上昇する。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>与ダメージの200％分のＨＰを吸収する。"
 17684,"対象に魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>1000
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>対象が受けるダメージを20％増加させる。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>6秒"
 17685,"次の1回の魔法詠唱について、詠唱時間無しで詠唱することができる。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>5秒"
-17686,"対象の与ダメージを20％減少させる。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>6秒"
+17686,"対象の与ダメージを40％減少させる。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>6秒"
 17687,"自身に一定量のダメージを防ぐバリアを張る。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>バリア量：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>回復力2500相当
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>10秒
 バリアがダメージを完全に吸収して消滅すると、自身のＭＰが2500回復する。"
 17688,"パーティメンバーひとりを対象として、自身の近くに引き寄せる。
-対象がノックバック無効や一部の状態異常を受けている場合は効果無し。"
+この効果はノックバック無効の影響を受けない。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>対象が受けているホルムギャングの効果を解除する。"
 17689,"自身のＨＰを回復する。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>回復力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>3000～6000
 自身の残りＨＰが少ないほど回復力が上昇する。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身の被ダメージを99％軽減させる代わりに、移動と行動ができなくなる。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>3秒"
@@ -20967,7 +20983,7 @@ int32,str
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※このアクションはホットバーに登録することはできない。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 17692,"対象とその周囲の敵に魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>2000
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>対象の与ダメージを10％減少させる。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>対象が与えるダメージと回復効果を10％減少させる。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>10秒
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「オウス」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>50"
 17693,"自身の周囲の敵に魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>1000
@@ -20990,7 +21006,7 @@ int32,str
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※このアクションはホットバーに登録することはできない。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 17697,"自身の周囲の敵に物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>1200
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>対象が受けるダメージを5％増加させる。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>対象が受けるダメージを10％増加させる。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>10秒
 実行時に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「原初の混沌」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>の効果が切れる。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「原初の混沌」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>効果中
@@ -21009,8 +21025,8 @@ int32,str
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「暗黒」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与する。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>15秒
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>暗黒効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身の与ダメージを10％上昇させる。
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>対象が受ける回復効果を20％減少させる。
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>6秒
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>対象が受ける回復効果を10％減少させる。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>10秒
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>暗黒効果中追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「暗黒」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>の効果時間を15秒延長する。
 最大30秒まで延長することができる。"
 17702,"クワイタスとブラッドスピラーを<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ブラックブラッド」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>の消費無しで実行できるようにする。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>6秒"
@@ -21029,9 +21045,7 @@ int32,str
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※このアクションはホットバーに登録することはできない。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 17706,"対象に物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>1400
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「トリガーハッピー」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与する。最大3スタックする。
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>トリガーハッピー効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身のウェポンスキルのリキャストタイムを5％短縮させる。
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>15秒
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>与えたダメージの100％分のＨＰを吸収する。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ジャギュラーリップ実行可」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与する。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>5秒
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ソイル」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -21040,33 +21054,23 @@ int32,str
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※このアクションはホットバーに登録することはできない。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 17707,"対象に物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>コンボ時威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>1600
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>コンボ条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>ビートファング
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「トリガーハッピー」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与する。最大3スタックする。
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>トリガーハッピー効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身のウェポンスキルのリキャストタイムを5％短縮させる。
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>15秒
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「アブドメンテアー実行可」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与する。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>コンボボーナス：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>与えたダメージの100％分のＨＰを吸収する。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>コンボボーナス：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「アブドメンテアー実行可」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与する。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>5秒
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※このアクションはホットバーに登録することはできない。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 17708,"対象に物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>コンボ時威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>1800
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>コンボ条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>サベッジクロウ
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「トリガーハッピー」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与する。最大3スタックする。
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>トリガーハッピー効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身のウェポンスキルのリキャストタイムを5％短縮させる。
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>15秒
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「アイガウジ実行可」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与する。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>コンボボーナス：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>与えたダメージの100％分のＨＰを吸収する。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>コンボボーナス：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「アイガウジ実行可」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与する。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>5秒
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※このアクションはホットバーに登録することはできない。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 17709,"対象に物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>1800
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>与えたダメージの100％分のＨＰを吸収する。
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「トリガーハッピー」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与する。最大3スタックする。
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>トリガーハッピー効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身のウェポンスキルのリキャストタイムを5％短縮させる。
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>15秒
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ソイル」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 17710,"自身の周囲の敵に範囲物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>1200
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>与えたダメージの100％分のＨＰを吸収する。
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「トリガーハッピー」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与する。最大3スタックする。
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>トリガーハッピー効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身のウェポンスキルのリキャストタイムを5％短縮させる。
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>15秒
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ソイル」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 17711,"対象に追撃アクションによる攻撃を行う。
 ビートファングの実行直後にはジャギュラーリップを、サベッジクロウの実行直後にはアブドメンテアーを、ウィケッドタロンの実行直後にはアイガウジを実行することができる。"
@@ -21091,7 +21095,8 @@ int32,str
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>最大チャージ数：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>2
 バインド中は実行不可。"
 17717,"対象に遠隔物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>800
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>トリガーハッピー中追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「トリガーハッピー」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>の効果時間を最大まで延長する。"
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>効果時間中に実行する1回のウェポンスキルの与ダメージを50％上昇させる。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>5秒"
 17718,"対象とその周囲の敵に範囲魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>600
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>対象にバインドを付与する。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>3秒
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>この魔法を詠唱時間を有する状態で実行した場合、自身に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「連続魔」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与する。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>10秒
@@ -21235,21 +21240,24 @@ int32,str
 <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ソウルボイスゲージ」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>の消費量が高いほど威力が上昇する。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ソウルボイスゲージ」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>50以上"
 17748,"自身の周囲の敵に範囲物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>1000
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>対象の継続回復効果とバリア効果をすべて解除する。"
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>ブラッドドロー[近]中追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>対象に50％ヘヴィを付与する。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>5秒
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>ブラッドドロー[遠]中追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>対象にバインドを付与する。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>3秒"
 17749,"対象に物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>2000
 このウェポンスキルは固有のリキャストタイマーを持つ。"
-17750,"対象に物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>1600
+17750,"対象に物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>2000
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ヒート」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を20上昇させる。
 このウェポンスキルは固有のリキャストタイマーを持つ。"
-17751,"対象に向かって前方範囲物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>1400
+17751,"対象に向かって前方範囲物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>1600
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「オーバーヒート」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>状態
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※このアクションはホットバーに登録することはできない。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
-17752,"対象に向かって前方扇範囲物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>1400
+17752,"対象に向かって前方扇範囲物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>1600
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>対象が受けるダメージを10％増加させる。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>10秒
 このウェポンスキルは固有のリキャストタイマーを持つ。"
-17753,"対象とその周囲の敵に範囲物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>600
+17753,"対象とその周囲の敵に範囲物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>800
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>最大チャージ数：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>3"
 17754,"オーバーヒート状態になる。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>5秒
 既にオーバーヒート状態の場合は、その効果時間を5秒延長する。
@@ -21373,7 +21381,7 @@ int32,str
 このアクションを実行するとウェポンスキルにリキャストタイムが発生する。
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※このアクションはホットバーに登録することはできない。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
-17774,"対象に魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>3200
+17774,"対象に魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>2400
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ポリグロット」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>効果中
 実行後に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ポリグロット」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>が解除される。"
 17775,"対象とその周囲の敵に睡眠を付与する。
@@ -21443,7 +21451,7 @@ int32,str
 17795,"対象に魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>1200
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「フェイエーテル」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を20上昇させる。"
 17796,"対象に魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>800
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>対象が受ける回復効果を20％減少させる。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>対象が受ける回復効果を15％減少させる。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>15秒
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「フェイエーテル」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を20上昇させる。"
 17797,"自身の周囲の敵に魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>1600
@@ -21477,7 +21485,7 @@ int32,str
 17805,"対象に魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>1200
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>非略式詠唱時追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>次の1回の魔法詠唱について、詠唱時間無しで詠唱することができる。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>10秒"
 17806,"対象に魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>800
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>対象のウェポンスキルおよび魔法のキャストタイムとリキャストタイムを10％延長させる。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>対象が与えるダメージと回復効果を10％減少させる。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>15秒"
 17807,"対象とその周囲の敵に範囲魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>800～3200
 対象の残りＨＰが多いほど威力が上昇する。
@@ -21613,7 +21621,7 @@ int32,str
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>20　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>30秒"
 17865,"対象に無属性の継続ダメージを付与する。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>40　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>30秒"
-17866,"自身の周囲の敵の与ダメージを10％減少させる。
+17866,"自身の周囲の敵の与ダメージを20％減少させる。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>10秒"
 17867,""
 17868,""
@@ -21644,8 +21652,9 @@ int32,str
 さらに、被ダメージを10％軽減する。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>6秒"
 17890,"対象を弱体化させ、自身には強化効果を付与する。
-対象が近接攻撃を主体とするクラス・ジョブの場合、対象の与ダメージを10％減少させ、自身の与ダメージを10％上昇させる。
-対象が遠隔攻撃を主体とするクラス・ジョブの場合、対象の被ダメージを10％増加させ、自身の被ダメージを10％軽減させる。
+すでに強化効果が付与されている場合、その効果を上書きする。
+対象が近接攻撃を主体とするジョブの場合、対象の被ダメージを10％増加させ、自身の被ダメージを10％軽減させる。
+対象が遠隔攻撃を主体とするジョブの場合、対象の与ダメージと回復効果を10％減少させ、自身の与ダメージと回復効果を10％上昇させる。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>弱体効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>10秒
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>強化効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>60秒"
 17891,"対象のＨＰを回復する。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>回復力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>3000
@@ -21750,7 +21759,7 @@ int32,str
 17987,""
 17988,""
 17989,""
-17990,"自身からのＨＰ回復効果を50％上昇させる。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>6秒
+17990,"自身からのＨＰ回復効果を40％上昇させる。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>6秒
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>生命活性法と不撓不屈の策のリキャストタイムを15秒短縮する
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「フェイエーテル」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>50"
 17991,"自身の周囲の敵の継続回復効果とバリア効果をすべて解除する。
@@ -22861,7 +22870,7 @@ int32,str
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>15秒
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>暗黒効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身の与ダメージを10％上昇させる。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>対象が受ける回復効果を10％減少させる。
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>6秒
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>10秒
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>暗黒効果中追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「暗黒」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>の効果時間を15秒延長する。
 最大30秒まで延長することができる。"
 18909,"自身と周囲のパーティメンバーの被ダメージを10％軽減させ、さらに受ける回復効果を10％上昇させる。
@@ -22942,12 +22951,12 @@ int32,str
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>スタック数3のとき威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>2400
 実行時に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「剣圧」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を全て消費する。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「剣圧」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>1スタック以上"
-18930,"対象に向かって前方扇範囲物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>600
+18930,"対象に向かって前方扇範囲物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>800
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>旅神のメヌエット中および軍神のパイオン中追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 1ヒットにつき<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ソウルボイスゲージ」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を10上昇させる。"
 18931,"対象とその周囲の敵に範囲物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>600～1800
 対象の残りＨＰが多いほど威力が上昇する。"
-18932,"対象に向かって前方扇範囲物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>600
+18932,"対象に向かって前方扇範囲物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>800
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>1ヒットにつき<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ヒート」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を5上昇させる。
 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※「オーバーヒート」中は、「オートボウガン」に変化する。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
@@ -24275,8 +24284,9 @@ int32,str
 20118,""
 20119,""
 20120,""
-20121,""
-20122,""
+20121,"主砲を放つ"
+20122,"主砲を放つ
+※演出用アクション。特に効果は発生しない。"
 20123,""
 20124,""
 20125,""
@@ -24644,14 +24654,21 @@ int32,str
 20486,""
 20487,""
 20488,""
-20489,""
+20489,"対象に無属性魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>600"
 20490,""
 20491,""
 20492,""
-20493,""
-20494,""
-20495,""
-20496,""
+20493,"対象に向かって前方直線範囲無属性魔法攻撃。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>1200
+このウェポンスキルは固有のリキャストタイマーを持ち、実行すると他のウェポンスキルと魔法にこのアクションと同じリキャストタイムが発生する。"
+20494,"ウェポンスキルのアクションのキャストタイムとリキャストタイムを25％短縮させ、かつ移動速度を25％上昇させる代わりに、ＨＰを消費し続ける。
+再使用で解除する。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>永続"
+20495,"自身の被ダメージを50％軽減する代わりに、ＥＰを消費し続ける。
+ＥＰが0になるか再使用で解除する。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>永続"
+20496,"対象とその周囲の敵に無属性範囲魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>300
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>対象の被ダメージを20％上昇させる。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>60秒
+このウェポンスキルは固有のリキャストタイマーを持つ。"
 20497,""
 20498,""
 20499,""
@@ -25095,7 +25112,9 @@ int32,str
 20937,""
 20938,""
 20939,""
-20940,""
+20940,"自身のＨＰとＥＰを回復する。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>ＨＰ回復力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>最大値の40％分
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>ＥＰ回復力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>最大値の30％分 "
 20941,""
 20942,""
 20943,""
@@ -25156,3 +25175,1303 @@ int32,str
 20998,""
 20999,""
 21000,""
+21001,""
+21002,""
+21003,""
+21004,""
+21005,""
+21006,""
+21007,""
+21008,""
+21009,""
+21010,""
+21011,""
+21012,""
+21013,""
+21014,""
+21015,""
+21016,""
+21017,""
+21018,""
+21019,""
+21020,""
+21021,""
+21022,""
+21023,""
+21024,""
+21025,""
+21026,""
+21027,""
+21028,""
+21029,""
+21030,""
+21031,""
+21032,""
+21033,""
+21034,""
+21035,""
+21036,""
+21037,""
+21038,""
+21039,""
+21040,""
+21041,""
+21042,""
+21043,""
+21044,""
+21045,""
+21046,""
+21047,""
+21048,""
+21049,""
+21050,""
+21051,""
+21052,""
+21053,""
+21054,""
+21055,""
+21056,""
+21057,""
+21058,""
+21059,""
+21060,""
+21061,""
+21062,""
+21063,""
+21064,""
+21065,""
+21066,""
+21067,""
+21068,""
+21069,""
+21070,""
+21071,""
+21072,""
+21073,""
+21074,""
+21075,""
+21076,""
+21077,""
+21078,""
+21079,""
+21080,""
+21081,""
+21082,""
+21083,""
+21084,""
+21085,""
+21086,""
+21087,""
+21088,""
+21089,""
+21090,""
+21091,""
+21092,""
+21093,""
+21094,""
+21095,""
+21096,""
+21097,""
+21098,""
+21099,""
+21100,""
+21101,""
+21102,""
+21103,""
+21104,""
+21105,""
+21106,""
+21107,""
+21108,""
+21109,""
+21110,""
+21111,""
+21112,""
+21113,""
+21114,""
+21115,""
+21116,""
+21117,""
+21118,""
+21119,""
+21120,""
+21121,""
+21122,""
+21123,""
+21124,""
+21125,""
+21126,""
+21127,""
+21128,""
+21129,""
+21130,""
+21131,""
+21132,""
+21133,""
+21134,""
+21135,""
+21136,""
+21137,""
+21138,""
+21139,""
+21140,""
+21141,""
+21142,""
+21143,""
+21144,""
+21145,""
+21146,""
+21147,""
+21148,""
+21149,""
+21150,""
+21151,""
+21152,""
+21153,""
+21154,""
+21155,""
+21156,""
+21157,""
+21158,""
+21159,""
+21160,""
+21161,""
+21162,""
+21163,""
+21164,""
+21165,""
+21166,""
+21167,""
+21168,""
+21169,""
+21170,""
+21171,""
+21172,""
+21173,""
+21174,""
+21175,""
+21176,""
+21177,""
+21178,""
+21179,""
+21180,""
+21181,""
+21182,""
+21183,""
+21184,""
+21185,""
+21186,""
+21187,""
+21188,""
+21189,""
+21190,""
+21191,""
+21192,""
+21193,""
+21194,""
+21195,""
+21196,""
+21197,""
+21198,""
+21199,""
+21200,""
+21201,""
+21202,""
+21203,""
+21204,""
+21205,""
+21206,""
+21207,""
+21208,""
+21209,""
+21210,""
+21211,""
+21212,""
+21213,""
+21214,""
+21215,""
+21216,""
+21217,""
+21218,""
+21219,""
+21220,""
+21221,""
+21222,""
+21223,""
+21224,""
+21225,""
+21226,""
+21227,""
+21228,""
+21229,""
+21230,""
+21231,""
+21232,""
+21233,""
+21234,""
+21235,""
+21236,""
+21237,""
+21238,""
+21239,""
+21240,""
+21241,""
+21242,""
+21243,""
+21244,""
+21245,""
+21246,""
+21247,""
+21248,""
+21249,""
+21250,""
+21251,""
+21252,""
+21253,""
+21254,""
+21255,""
+21256,""
+21257,""
+21258,""
+21259,""
+21260,""
+21261,""
+21262,""
+21263,""
+21264,""
+21265,""
+21266,""
+21267,""
+21268,""
+21269,""
+21270,""
+21271,""
+21272,""
+21273,""
+21274,""
+21275,""
+21276,""
+21277,""
+21278,""
+21279,""
+21280,""
+21281,""
+21282,""
+21283,""
+21284,""
+21285,""
+21286,""
+21287,""
+21288,""
+21289,""
+21290,""
+21291,""
+21292,""
+21293,""
+21294,""
+21295,""
+21296,""
+21297,""
+21298,""
+21299,""
+21300,""
+21301,""
+21302,""
+21303,""
+21304,""
+21305,""
+21306,""
+21307,""
+21308,""
+21309,""
+21310,""
+21311,""
+21312,""
+21313,""
+21314,""
+21315,""
+21316,""
+21317,""
+21318,""
+21319,""
+21320,""
+21321,""
+21322,""
+21323,""
+21324,"人工ボンバードを鼓舞する舞"
+21325,"人工ボンバードに自己回復を促す舞"
+21326,""
+21327,""
+21328,""
+21329,""
+21330,""
+21331,""
+21332,""
+21333,""
+21334,""
+21335,""
+21336,""
+21337,""
+21338,""
+21339,""
+21340,""
+21341,""
+21342,""
+21343,""
+21344,""
+21345,""
+21346,""
+21347,""
+21348,""
+21349,""
+21350,""
+21351,""
+21352,""
+21353,""
+21354,""
+21355,""
+21356,""
+21357,""
+21358,""
+21359,""
+21360,""
+21361,""
+21362,""
+21363,""
+21364,""
+21365,""
+21366,""
+21367,""
+21368,""
+21369,""
+21370,""
+21371,""
+21372,""
+21373,""
+21374,""
+21375,""
+21376,""
+21377,""
+21378,""
+21379,""
+21380,""
+21381,""
+21382,""
+21383,""
+21384,""
+21385,""
+21386,""
+21387,""
+21388,""
+21389,""
+21390,""
+21391,""
+21392,""
+21393,""
+21394,""
+21395,""
+21396,""
+21397,""
+21398,""
+21399,""
+21400,""
+21401,""
+21402,""
+21403,""
+21404,""
+21405,""
+21406,""
+21407,""
+21408,""
+21409,""
+21410,""
+21411,""
+21412,""
+21413,""
+21414,""
+21415,""
+21416,""
+21417,""
+21418,""
+21419,""
+21420,""
+21421,""
+21422,""
+21423,""
+21424,""
+21425,""
+21426,""
+21427,""
+21428,""
+21429,""
+21430,""
+21431,""
+21432,""
+21433,""
+21434,""
+21435,""
+21436,""
+21437,""
+21438,""
+21439,""
+21440,""
+21441,""
+21442,""
+21443,""
+21444,""
+21445,""
+21446,""
+21447,""
+21448,""
+21449,""
+21450,""
+21451,""
+21452,""
+21453,""
+21454,""
+21455,""
+21456,""
+21457,""
+21458,""
+21459,""
+21460,""
+21461,""
+21462,""
+21463,""
+21464,""
+21465,""
+21466,""
+21467,""
+21468,""
+21469,""
+21470,""
+21471,""
+21472,""
+21473,""
+21474,""
+21475,""
+21476,""
+21477,""
+21478,""
+21479,""
+21480,""
+21481,""
+21482,""
+21483,""
+21484,""
+21485,""
+21486,""
+21487,""
+21488,""
+21489,""
+21490,""
+21491,""
+21492,""
+21493,""
+21494,""
+21495,""
+21496,""
+21497,""
+21498,""
+21499,""
+21500,""
+21501,""
+21502,""
+21503,""
+21504,""
+21505,""
+21506,""
+21507,""
+21508,""
+21509,""
+21510,""
+21511,""
+21512,""
+21513,""
+21514,""
+21515,""
+21516,""
+21517,""
+21518,""
+21519,""
+21520,""
+21521,""
+21522,""
+21523,""
+21524,""
+21525,""
+21526,""
+21527,""
+21528,""
+21529,""
+21530,""
+21531,""
+21532,""
+21533,""
+21534,""
+21535,""
+21536,""
+21537,""
+21538,""
+21539,""
+21540,""
+21541,""
+21542,""
+21543,""
+21544,""
+21545,""
+21546,""
+21547,""
+21548,""
+21549,""
+21550,""
+21551,""
+21552,""
+21553,""
+21554,""
+21555,""
+21556,""
+21557,""
+21558,""
+21559,""
+21560,""
+21561,""
+21562,""
+21563,""
+21564,""
+21565,""
+21566,""
+21567,""
+21568,""
+21569,""
+21570,""
+21571,""
+21572,""
+21573,""
+21574,""
+21575,""
+21576,""
+21577,""
+21578,""
+21579,""
+21580,""
+21581,""
+21582,""
+21583,""
+21584,""
+21585,""
+21586,""
+21587,""
+21588,""
+21589,""
+21590,""
+21591,""
+21592,""
+21593,""
+21594,""
+21595,""
+21596,""
+21597,""
+21598,""
+21599,""
+21600,""
+21601,""
+21602,""
+21603,""
+21604,""
+21605,""
+21606,""
+21607,""
+21608,""
+21609,""
+21610,""
+21611,""
+21612,""
+21613,""
+21614,""
+21615,""
+21616,""
+21617,""
+21618,""
+21619,""
+21620,""
+21621,""
+21622,""
+21623,""
+21624,""
+21625,""
+21626,""
+21627,""
+21628,""
+21629,""
+21630,""
+21631,""
+21632,""
+21633,""
+21634,""
+21635,""
+21636,""
+21637,""
+21638,""
+21639,""
+21640,""
+21641,""
+21642,""
+21643,""
+21644,""
+21645,""
+21646,""
+21647,""
+21648,""
+21649,""
+21650,""
+21651,""
+21652,""
+21653,""
+21654,""
+21655,""
+21656,""
+21657,""
+21658,""
+21659,""
+21660,""
+21661,""
+21662,""
+21663,""
+21664,""
+21665,""
+21666,""
+21667,""
+21668,""
+21669,""
+21670,""
+21671,""
+21672,""
+21673,""
+21674,""
+21675,""
+21676,""
+21677,""
+21678,""
+21679,""
+21680,""
+21681,""
+21682,""
+21683,""
+21684,""
+21685,""
+21686,""
+21687,""
+21688,""
+21689,""
+21690,""
+21691,""
+21692,""
+21693,""
+21694,""
+21695,""
+21696,""
+21697,""
+21698,""
+21699,""
+21700,""
+21701,""
+21702,""
+21703,""
+21704,""
+21705,""
+21706,""
+21707,""
+21708,""
+21709,""
+21710,""
+21711,""
+21712,""
+21713,""
+21714,""
+21715,""
+21716,""
+21717,""
+21718,""
+21719,""
+21720,""
+21721,""
+21722,""
+21723,""
+21724,""
+21725,""
+21726,""
+21727,""
+21728,""
+21729,""
+21730,""
+21731,""
+21732,""
+21733,""
+21734,""
+21735,""
+21736,""
+21737,""
+21738,""
+21739,""
+21740,""
+21741,""
+21742,""
+21743,""
+21744,""
+21745,""
+21746,""
+21747,""
+21748,""
+21749,""
+21750,""
+21751,""
+21752,""
+21753,""
+21754,""
+21755,""
+21756,""
+21757,""
+21758,""
+21759,""
+21760,""
+21761,""
+21762,""
+21763,""
+21764,""
+21765,""
+21766,""
+21767,""
+21768,""
+21769,""
+21770,""
+21771,""
+21772,""
+21773,""
+21774,""
+21775,""
+21776,""
+21777,""
+21778,""
+21779,""
+21780,""
+21781,""
+21782,""
+21783,""
+21784,""
+21785,""
+21786,""
+21787,""
+21788,""
+21789,""
+21790,""
+21791,""
+21792,""
+21793,""
+21794,""
+21795,""
+21796,""
+21797,""
+21798,""
+21799,""
+21800,""
+21801,""
+21802,""
+21803,""
+21804,""
+21805,""
+21806,""
+21807,""
+21808,""
+21809,""
+21810,""
+21811,""
+21812,""
+21813,""
+21814,""
+21815,""
+21816,""
+21817,""
+21818,""
+21819,""
+21820,""
+21821,""
+21822,""
+21823,""
+21824,""
+21825,""
+21826,""
+21827,""
+21828,""
+21829,""
+21830,""
+21831,""
+21832,""
+21833,""
+21834,""
+21835,""
+21836,""
+21837,""
+21838,""
+21839,""
+21840,""
+21841,""
+21842,""
+21843,""
+21844,""
+21845,""
+21846,""
+21847,""
+21848,""
+21849,""
+21850,""
+21851,""
+21852,""
+21853,""
+21854,""
+21855,""
+21856,""
+21857,""
+21858,""
+21859,""
+21860,""
+21861,""
+21862,""
+21863,""
+21864,""
+21865,""
+21866,""
+21867,""
+21868,""
+21869,""
+21870,""
+21871,""
+21872,""
+21873,""
+21874,""
+21875,""
+21876,""
+21877,""
+21878,""
+21879,""
+21880,""
+21881,""
+21882,""
+21883,""
+21884,""
+21885,""
+21886,""
+21887,""
+21888,""
+21889,""
+21890,""
+21891,""
+21892,""
+21893,""
+21894,""
+21895,""
+21896,""
+21897,""
+21898,""
+21899,""
+21900,""
+21901,""
+21902,""
+21903,""
+21904,""
+21905,""
+21906,""
+21907,""
+21908,""
+21909,""
+21910,""
+21911,""
+21912,""
+21913,""
+21914,""
+21915,""
+21916,""
+21917,""
+21918,""
+21919,""
+21920,""
+21921,""
+21922,""
+21923,""
+21924,""
+21925,""
+21926,""
+21927,""
+21928,""
+21929,""
+21930,""
+21931,""
+21932,""
+21933,""
+21934,""
+21935,""
+21936,""
+21937,""
+21938,""
+21939,""
+21940,""
+21941,""
+21942,""
+21943,""
+21944,""
+21945,""
+21946,""
+21947,""
+21948,""
+21949,""
+21950,""
+21951,""
+21952,""
+21953,""
+21954,""
+21955,""
+21956,""
+21957,""
+21958,""
+21959,""
+21960,""
+21961,""
+21962,""
+21963,""
+21964,""
+21965,""
+21966,""
+21967,""
+21968,""
+21969,""
+21970,""
+21971,""
+21972,""
+21973,""
+21974,""
+21975,""
+21976,""
+21977,""
+21978,""
+21979,""
+21980,""
+21981,""
+21982,""
+21983,""
+21984,""
+21985,""
+21986,""
+21987,""
+21988,""
+21989,""
+21990,""
+21991,""
+21992,""
+21993,""
+21994,""
+21995,""
+21996,""
+21997,""
+21998,""
+21999,""
+22000,""
+22001,""
+22002,""
+22003,""
+22004,""
+22005,""
+22006,""
+22007,""
+22008,""
+22009,""
+22010,""
+22011,""
+22012,""
+22013,""
+22014,""
+22015,""
+22016,""
+22017,""
+22018,""
+22019,""
+22020,""
+22021,""
+22022,""
+22023,""
+22024,""
+22025,""
+22026,""
+22027,""
+22028,""
+22029,""
+22030,""
+22031,""
+22032,""
+22033,""
+22034,""
+22035,""
+22036,""
+22037,""
+22038,""
+22039,""
+22040,""
+22041,""
+22042,""
+22043,""
+22044,""
+22045,""
+22046,""
+22047,""
+22048,""
+22049,""
+22050,""
+22051,""
+22052,""
+22053,""
+22054,""
+22055,""
+22056,""
+22057,""
+22058,""
+22059,""
+22060,""
+22061,""
+22062,""
+22063,""
+22064,""
+22065,""
+22066,""
+22067,""
+22068,""
+22069,""
+22070,""
+22071,""
+22072,""
+22073,""
+22074,""
+22075,""
+22076,""
+22077,""
+22078,""
+22079,""
+22080,""
+22081,""
+22082,""
+22083,""
+22084,""
+22085,""
+22086,""
+22087,""
+22088,""
+22089,""
+22090,""
+22091,""
+22092,""
+22093,""
+22094,""
+22095,""
+22096,""
+22097,""
+22098,""
+22099,""
+22100,""
+22101,""
+22102,""
+22103,""
+22104,""
+22105,""
+22106,""
+22107,""
+22108,""
+22109,""
+22110,""
+22111,""
+22112,""
+22113,""
+22114,""
+22115,""
+22116,""
+22117,""
+22118,""
+22119,""
+22120,""
+22121,""
+22122,""
+22123,""
+22124,""
+22125,""
+22126,""
+22127,""
+22128,""
+22129,""
+22130,""
+22131,""
+22132,""
+22133,""
+22134,""
+22135,""
+22136,""
+22137,""
+22138,""
+22139,""
+22140,""
+22141,""
+22142,""
+22143,""
+22144,""
+22145,""
+22146,""
+22147,""
+22148,""
+22149,""
+22150,""
+22151,""
+22152,""
+22153,""
+22154,""
+22155,""
+22156,""
+22157,""
+22158,""
+22159,""
+22160,""
+22161,""
+22162,""
+22163,""
+22164,""
+22165,""
+22166,""
+22167,""
+22168,""
+22169,""
+22170,""
+22171,""
+22172,""
+22173,""
+22174,""
+22175,""
+22176,""
+22177,""
+22178,""
+22179,""
+22180,""
+22181,""
+22182,""
+22183,""
+22184,""
+22185,""
+22186,""
+22187,""
+22188,""
+22189,""
+22190,""
+22191,""
+22192,""
+22193,""
+22194,""
+22195,""
+22196,""
+22197,""
+22198,""
+22199,""
+22200,""
+22201,""
+22202,""
+22203,""
+22204,""
+22205,""
+22206,""
+22207,""
+22208,""
+22209,""
+22210,""
+22211,""
+22212,""
+22213,""
+22214,""
+22215,""
+22216,""
+22217,""
+22218,""
+22219,""
+22220,""
+22221,""
+22222,""
+22223,""
+22224,""
+22225,""
+22226,""
+22227,""
+22228,""
+22229,""
+22230,""
+22231,""
+22232,""
+22233,""
+22234,""
+22235,""
+22236,""
+22237,""
+22238,""
+22239,""
+22240,""
+22241,""
+22242,""
+22243,""
+22244,""
+22245,""
+22246,""
+22247,""
+22248,""
+22249,""
+22250,""
+22251,""
+22252,""
+22253,""
+22254,""
+22255,""
+22256,""
+22257,""
+22258,""
+22259,""
+22260,""
+22261,""
+22262,""
+22263,""
+22264,""
+22265,""
+22266,""
+22267,""
+22268,""
+22269,""
+22270,""
+22271,""
+22272,""
+22273,""
+22274,""
+22275,""
+22276,""
+22277,""
+22278,""
+22279,""
+22280,""
+22281,""
+22282,""
+22283,""
+22284,""
+22285,""
+22286,""
+22287,""
+22288,""
+22289,""
+22290,""
+22291,""
+22292,""
+22293,""
+22294,""
+22295,""
+22296,""
+22297,""
+22298,""
+22299,""
+22300,""

@@ -2,7 +2,7 @@
 #,,
 int32,str,str
 0,"TEXT_LUCKSA050_03844_SEQ_00","<UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>特殊ルール： クラス・ジョブ固定<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-ガンゴッシュのゲロルトは、「グンヒルドの剣」の複刻に取り掛かろうとしているようだ。"
+ガンゴッシュのゲロルトは、「グンヒルドの剣」の復刻に取り掛かろうとしているようだ。"
 1,"TEXT_LUCKSA050_03844_SEQ_01","※本クエストには「<UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow><UIGlow>01</UIGlow><UIForeground>01</UIForeground> クラス・ジョブ固定」が、
 　設定されています。
 　受注時と同じクラス・ジョブでのみ進行できます。
@@ -62,16 +62,16 @@ int32,str,str
 50,"TEXT_LUCKSA050_03844_GEROLT_000_000","おお、来たか！
 まさに今、「レジスタンス・ウェポン」の、
 試作に挑もうとしているところだぜ！"
-51,"TEXT_LUCKSA050_03844_SYSTEM_800_000","クエスト『「グンヒルドの剣」の複刻』にて入手できる武器は、
+51,"TEXT_LUCKSA050_03844_SYSTEM_800_000","クエスト『「グンヒルドの剣」の復刻』にて入手できる武器は、
 現在のジョブ「<If(LessThan(PlayerParameter(68),8))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(GreaterThan(PlayerParameter(68),18))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/></If></If>」のレジスタンス・ウェポンとなります。
-『「グンヒルドの剣」の複刻』を「<If(LessThan(PlayerParameter(68),8))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(GreaterThan(PlayerParameter(68),18))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/></If></If>」で受けますか？"
+『「グンヒルドの剣」の復刻』を「<If(LessThan(PlayerParameter(68),8))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(GreaterThan(PlayerParameter(68),18))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/></If></If>」で受けますか？"
 52,"TEXT_LUCKSA050_03844_Q1_800_000","<If(LessThan(PlayerParameter(68),8))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(GreaterThan(PlayerParameter(68),18))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/></If></If>のレジスタンス・ウェポンを作成しますか？"
 53,"TEXT_LUCKSA050_03844_A1_800_000","もう少し考える"
 54,"TEXT_LUCKSA050_03844_A2_800_000","<If(LessThan(PlayerParameter(68),8))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(GreaterThan(PlayerParameter(68),18))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/></If></If>のレジスタンス・ウェポンを作成する"
 55,"TEXT_LUCKSA050_03844_SYSTEM_800_001","作成したいレジスタンス・ウェポンに応じたジョブとなり、
 再度、ゲロルトに声をかけてください。"
 56,"TEXT_LUCKSA050_03844_GEROLT_000_001","「レジスタンス・ウェポン」ってのは、
-これから複刻する「グンヒルドの剣」に新たにつけた名前だ。"
+これから復刻する「グンヒルドの剣」に新たにつけた名前だ。"
 57,"TEXT_LUCKSA050_03844_GEROLT_000_002","「グンヒルドの剣」って言葉には、
 女王の親衛隊とその武器、両方の意味があるからな。
 全部同じように呼ンでちゃ、ややこしいだろう？"
@@ -132,7 +132,7 @@ int32,str,str
 もちろん、追って対価を請求するけどね！"
 80,"TEXT_LUCKSA050_03844_ROWENA_000_075","ああ、もちろん、それはあなたも同様よ。
 冒険者なら、ひとつの戦いに固執することもないでしょうしね。
-別の武器を複刻させたいときは、いつでも取引に応じるわ。"
+別の武器を復刻させたいときは、いつでも取引に応じるわ。"
 81,"TEXT_LUCKSA050_03844_ROWENA_000_076","今後は、レヴナンツトールやイディルシャイアの子たちにも、
 「<Sheet(EventItem,2002994,0)/>」を取引させるつもりだから。
 それじゃ……またご贔屓にね。"
@@ -164,7 +164,7 @@ int32,str,str
 バイシャーエン様、ひいては我らの望みでございます。"
 92,"TEXT_LUCKSA050_03844_GEROLT_000_125","さて、この勢いのままもう一振り……といきたいが、
 「<Sheet(EventItem,2002994,0)/>」は、ぴったり使い切っちまった。
-続けての複刻には、またロウェナと取引をしなけりゃな。"
+続けての復刻には、またロウェナと取引をしなけりゃな。"
 93,"TEXT_LUCKSA050_03844_ZLATAN_000_126","……「グンヒルドの剣」の復活は我らの悲願。
 そのために必要な経費だと、バイシャーエン様に伝えておきます。
 なるべく、最低限に抑えたいところですがね。"

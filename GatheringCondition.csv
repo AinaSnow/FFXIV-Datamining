@@ -18,6 +18,7 @@ int32,str
 14,"獲得力 <Value>IntegerParameter(1)</Value>以上"
 15,"識質力 <Value>IntegerParameter(1)</Value>以上"
 16,"獲得力 <Value>IntegerParameter(1)</Value>未満"
-17,"識質力 <Value>IntegerParameter(1)</Value>未満"
+17,"識質力 <Value>IntegerParameter(1)</Value><If(IntegerParameter(2))>以上<Else/>未満</If>"
 18,"「<Sheet(Status,IntegerParameter(1),0)/>」付与"
 19,"GPmax <Value>IntegerParameter(1)</Value>以上"
+20,"<Sheet(Item,IntegerParameter(1),0)/><If(IntegerParameter(2))>装備時<Else/>非装備時</If>"
