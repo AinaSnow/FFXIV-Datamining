@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSALC101_00580_SEQ_00","It seems some unexpected matter has Guildmaster Severian more agitated than usual."
-1,"TEXT_CLSALC101_00580_SEQ_01","Severian has placed you square in the path of an incoming guild task meant for his workbench. Synthesize twelve lumps of beeswax and deliver them to the guildmaster."
-2,"TEXT_CLSALC101_00580_SEQ_02","Able to focus on his personal research undisturbed, Guildmaster Severian seems overjoyed at your competent handling of his “bothersome” task. Continue to improve your skills through the completion of tradecraft leves, and prepare for whatever role the unpredictable alchemist has in store for you.
+0,"TEXT_CLSALC101_00580_SEQ_00","錬金術師ギルドのセヴェリアンは、何やら憤慨しているようだ。"
+1,"TEXT_CLSALC101_00580_SEQ_01","セヴェリアンから仕事を押し付けられた。「<Sheet(Item,5515,0)/>」を12個作って、錬金術師ギルドの「セヴェリアン」に渡そう。"
+2,"TEXT_CLSALC101_00580_SEQ_02","「<Sheet(Item,5515,0)/>」を納品し、セヴェリアンから大いに褒められた。冒険者ギルドのユースタスから受けられるギルドリーヴの「製作稼業」なども活用しながら、更に腕を磨いていこう。
 
-※The next alchemist quest will be available from Severian upon reaching level 15."
+※錬金術師のレベルが15以上になると、セヴェリアンから次の錬金術師クエストを受注することができます。"
 3,"TEXT_CLSALC101_00580_SEQ_03",""
 4,"TEXT_CLSALC101_00580_SEQ_04",""
 5,"TEXT_CLSALC101_00580_SEQ_05",""
@@ -27,7 +27,7 @@ int32,str,str
 21,"TEXT_CLSALC101_00580_SEQ_21",""
 22,"TEXT_CLSALC101_00580_SEQ_22",""
 23,"TEXT_CLSALC101_00580_SEQ_23",""
-24,"TEXT_CLSALC101_00580_TODO_00","Deliver lumps of beeswax to Severian."
+24,"TEXT_CLSALC101_00580_TODO_00","セヴェリアンに<Sheet(Item,5515,0)/>を納品"
 25,"TEXT_CLSALC101_00580_TODO_01",""
 26,"TEXT_CLSALC101_00580_TODO_02",""
 27,"TEXT_CLSALC101_00580_TODO_03",""
@@ -51,18 +51,37 @@ int32,str,str
 45,"TEXT_CLSALC101_00580_TODO_21",""
 46,"TEXT_CLSALC101_00580_TODO_22",""
 47,"TEXT_CLSALC101_00580_TODO_23",""
-48,"TEXT_CLSALC101_00580_SEVERIAN_000","Ah, I remember your face <Emphasis>this</Emphasis> time, my most helpful assistant! And it is most fortuitous that I do, for the irksome effort I have expended in grooming your budding skills is about to be rewarded!"
-49,"TEXT_CLSALC101_00580_SEVERIAN_001","My mewling subordinates have requested that I put aside my personal research “for but a moment or two” and shoulder a portion of the guild's workload, even going so far as to force upon me some other alchemist's petty task."
-50,"TEXT_CLSALC101_00580_SEVERIAN_002","What fools to think I am the sort of guildmaster that contributes in such a mundane capacity! If they had wanted an accommodating drudge to head the guild, then they should not have elected me to the post!"
-51,"TEXT_CLSALC101_00580_SEVERIAN_003","Gods know there are others about the Phrontistery who would have been better suited to the leadership position. <sigh> It is times such as these that I curse my blood ties to the Syndicate. I would personally be content to eschew such tedious duties in favor of mine own work."
-52,"TEXT_CLSALC101_00580_SEVERIAN_004","...Which, of course, brings us to this moment! It is with great relief that I entrust this matter of beeswax to you. Twelve lumps of beeswax, to be precise."
-53,"TEXT_CLSALC101_00580_SEVERIAN_005","Haha, yes... I knew you would prove your worth before long. Now, to work, to work!"
-54,"TEXT_CLSALC101_00580_SEVERIAN_010","Mwahaha! Such bliss that my research might progress unhindered by bothersome requests! Speaking of which, have you created the beeswax as I asked?"
-55,"TEXT_CLSALC101_00580_SEVERIAN_020","Hmmm... These will never be used for the sultana's bedchamber candles, but the quality is passable, I suppose."
-56,"TEXT_CLSALC101_00580_SEVERIAN_021","This is indeed a wonderful arrangement! Perhaps I should pass on to <Emphasis>you</Emphasis> the mantle of guildmaster in its vexatious entirety..."
-57,"TEXT_CLSALC101_00580_SEVERIAN_022","Now, the beeswax you have brought me is, as you must surely realize, the purified form of the substance honeybees use to build their hives."
-58,"TEXT_CLSALC101_00580_SEVERIAN_023","Candles are the most obvious use for this refined material, but beeswax may also be used to enhance leather goods, or be mixed with dye to create painting supplies."
-59,"TEXT_CLSALC101_00580_SEVERIAN_024","It is not the most difficult material to create, though keeping the quality consistent for such a large batch speaks well of your attention to detail."
-60,"TEXT_CLSALC101_00580_SEVERIAN_025","I had thought to be content with naught more than a convenient lackey at hand, but mayhap with further training... Hmmm."
-61,"TEXT_CLSALC101_00580_SEVERIAN_026","We must somehow supplement your studies, but I am loath to be parted from my workbench. Thankfully, I am aware of the perfect solution to this quandary: tradecraft leves."
-62,"TEXT_CLSALC101_00580_SEVERIAN_027","A selection of alchemical odd jobs should be available to you at the Adventurers' Guild. Simply speak with...the fellow at the desk. Eustace, I think it was? In any case, you should be provided with ample opportunity to practice your discipline, and even receive payment while doing so. Remember: your improvement is my utmost concern!"
+48,"TEXT_CLSALC101_00580_SEVERIAN_000","おお、今度は忘れずに待っていたぞ！
+今こそお前に、小間使いの本領を発揮してもらいたい！"
+49,"TEXT_CLSALC101_00580_SEVERIAN_001","錬金術師ギルドの奴らめ、
+「たまにはギルドの運営に貢献しろ」などと言って
+別の錬金術師が投げ出した仕事を押し付けてきたのだ。"
+50,"TEXT_CLSALC101_00580_SEVERIAN_002","馬鹿め、私にギルドマスターらしさを求めるなど愚の骨頂！
+不満があるなら人選からやり直せ！"
+51,"TEXT_CLSALC101_00580_SEVERIAN_003","そもそも資質で選んだわけでもなしに……。
+砂蠍衆に通じる我が血筋を、これほど面倒に思ったことはないぞ。"
+52,"TEXT_CLSALC101_00580_SEVERIAN_004","というわけで、要求された「<Sheet(Item,5515,0)/>」12個の調達は、
+全てお前に任せた。"
+53,"TEXT_CLSALC101_00580_SEVERIAN_005","うむ、お前になら安心して押し付けられると思っていた。
+頼んだぞ！"
+54,"TEXT_CLSALC101_00580_SEVERIAN_010","ふはは、おかげで私の研究は滞りないぞ。
+そちらは「<Sheet(Item,5515,0)/>」を12個、用意できたか？"
+55,"TEXT_CLSALC101_00580_SEVERIAN_020","ほう……数はそろっているな。
+特上品とはいかんが、質も申し分ない……。"
+56,"TEXT_CLSALC101_00580_SEVERIAN_021","ふふ……素晴らしい、実に素晴らしいぞ！
+働きに敬意を表して、ギルドマスターの座を譲りたいほどだ！"
+57,"TEXT_CLSALC101_00580_SEVERIAN_022","今更語るまでもないが、
+<Sheet(Item,5515,0)/>とは蜜蜂の巣を構成する蝋を純化したもの。"
+58,"TEXT_CLSALC101_00580_SEVERIAN_023","蝋燭の材料とすることはもちろん、
+染料と混ぜて画材にしたり、革製品の手入れにも使う。
+用途も需要も多い品というわけだ。"
+59,"TEXT_CLSALC101_00580_SEVERIAN_024","難易度は高くないが、
+これほど安定した質で大量に作れるとなると、
+作り手の技術は疑いようもない。"
+60,"TEXT_CLSALC101_00580_SEVERIAN_025","せいぜい小間使いと思ってたが、
+もっと鍛えれば……ひょっとして……いや…………。"
+61,"TEXT_CLSALC101_00580_SEVERIAN_026","何はともあれ、技術を磨くことを怠るなよ。
+ギルドリーヴの製作稼業が研鑽にいいと聞いたが、知っているか？"
+62,"TEXT_CLSALC101_00580_SEVERIAN_027","なんでも、冒険者ギルドで受けることができるらしい。
+担当者はユース……なんといったかな、忘れたが。
+練習に報酬がつくと思えば、悪くなかろう。"

@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDY503_03141_SEQ_00","Kozakura has a proposition for you."
-1,"TEXT_STMBDY503_03141_SEQ_01","The organization charged with overseeing the reconstruction of Doma, the Shazenkai, is poised to set their ambitious plans in motion. However, they will need the support of wealthy individuals like you if they are to succeed. Before you commit to a decision, Kozakura would have you visit one of their work sites and learn more about what the Shazenkai hopes to achieve."
-2,"TEXT_STMBDY503_03141_SEQ_02","Mitsuba, the overseer of what is to become the Ten Thousand Stalls, tells you of her vision for a one-stop venue that will serve every imaginable cuisine to the people of Doma. In so doing, she hopes to improve the quality of life for one and all, and motivate them to work harder. Although they have only just begun to prepare the site, it is clear that they will not rest until this first small victory is achieved."
-3,"TEXT_STMBDY503_03141_SEQ_03","As Kozakura explains, the Ten Thousand Stalls are but one example of what the Shazenkai hopes to achieve. Alas, it will take much time and effort, not to mention tremendous resources. Anything and everything you can afford to part with will be welcomed, and perhaps, with sufficient contributions, you will eventually see their dream of a Doma reborn realized."
+0,"TEXT_STMBDY503_03141_SEQ_00","ドマ町人地のコザクラは、再び仕事に励んでいるようだ。"
+1,"TEXT_STMBDY503_03141_SEQ_01","コザクラから、町人地の新たな復興計画に協力してほしいと頼まれた。ドマ町人地の万市場にいる「ミツバ」と話そう。"
+2,"TEXT_STMBDY503_03141_SEQ_02","ミツバと話した。車前会所の「コザクラ」と話そう。"
+3,"TEXT_STMBDY503_03141_SEQ_03","コザクラと話した。不要なものを彼女たちに譲って、ドマ町人地の復興に貢献しよう！"
 4,"TEXT_STMBDY503_03141_SEQ_04",""
 5,"TEXT_STMBDY503_03141_SEQ_05",""
 6,"TEXT_STMBDY503_03141_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_STMBDY503_03141_SEQ_21",""
 22,"TEXT_STMBDY503_03141_SEQ_22",""
 23,"TEXT_STMBDY503_03141_SEQ_23",""
-24,"TEXT_STMBDY503_03141_TODO_00","Speak with Mitsuba."
-25,"TEXT_STMBDY503_03141_TODO_01","Speak with Kozakura."
+24,"TEXT_STMBDY503_03141_TODO_00","ミツバと話す"
+25,"TEXT_STMBDY503_03141_TODO_01","コザクラと話す"
 26,"TEXT_STMBDY503_03141_TODO_02",""
 27,"TEXT_STMBDY503_03141_TODO_03",""
 28,"TEXT_STMBDY503_03141_TODO_04",""
@@ -49,51 +49,117 @@ int32,str,str
 45,"TEXT_STMBDY503_03141_TODO_21",""
 46,"TEXT_STMBDY503_03141_TODO_22",""
 47,"TEXT_STMBDY503_03141_TODO_23",""
-48,"TEXT_STMBDY503_03141_KOZAKURA_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! Kami be praised! I was hoping you might pay us a visit. It is, as ever, an honor..."
-49,"TEXT_STMBDY503_03141_KOZAKURA_000_001","Once again, I must thank you for helping our brothers and sisters secure passage back home."
-50,"TEXT_STMBDY503_03141_KOZAKURA_000_002","With so many skilled craftsmen soon to be at our disposal, we of the Shazenkai are ready to proceed to the next stage of our plan to rebuild the enclave."
-51,"TEXT_STMBDY503_03141_KOZAKURA_000_003","Which brings me to a...a rather delicate matter. Perhaps you will find this shameless, but circumstances being what they are...I see no other way."
-52,"TEXT_STMBDY503_03141_KOZAKURA_000_004","The reconstruction and revitalization of the enclave cannot hope to succeed without the contributions of wealthy individuals such as yourself."
-53,"TEXT_STMBDY503_03141_KOZAKURA_000_005","I understand if you wish to refuse outright, but I beg of you, please listen to our proposal in full before you decide."
-54,"TEXT_STMBDY503_03141_Q1_000_006","What will you say?"
-55,"TEXT_STMBDY503_03141_A1_000_007","For the sake of Doma and her people, I should be glad to lend a hand."
-56,"TEXT_STMBDY503_03141_A1_000_008","It's no bother, really. Let's hear it."
-57,"TEXT_STMBDY503_03141_A1_000_009","...What's in it for me?"
-58,"TEXT_STMBDY503_03141_KOZAKURA_000_010","It warms my heart to hear you say that! Truly, Doma has no greater friend."
-59,"TEXT_STMBDY503_03141_KOZAKURA_000_011","Thank you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I shall endeavor to be brief."
-60,"TEXT_STMBDY503_03141_KOZAKURA_000_012","W-Well, I... We have no desire to impose upon you beyond reason, to be clear, and I should like to think that there are benefits tangible and intangible... But first, pray allow me to explain!"
-61,"TEXT_STMBDY503_03141_KOZAKURA_000_013","Where to begin... Ah, of course. It is important that you understand the state of the enclave at present."
-62,"TEXT_STMBDY503_03141_KOZAKURA_000_014","I am sure you recall how everything was when you first arrived. Rubble in the streets, buildings in ruin and so forth. While we have made some superficial progress since the castle fell and Doma was liberated, the scars of the occupation are far from healed."
-63,"TEXT_STMBDY503_03141_KOZAKURA_000_015","Since antiquity, the kingdom of Doma has prospered from the gifts of the One River. The success of our agriculture and industry is intricately tied to our position here."
-64,"TEXT_STMBDY503_03141_KOZAKURA_000_016","Alas, in our struggle against the Garleans over the decades, much of what was built over centuries was lost. Fertile farmlands that once yielded produce for export were despoiled, and what little remained could barely feed our people..."
-65,"TEXT_STMBDY503_03141_KOZAKURA_000_017","Our foreign rulers did not hesitate to impose their will on local industry as well. Not only were we forced to purchase goods from imperial concerns, regardless of quality or cost, but our merchants were also forced to sell their wares to Garleans at a loss─assuming they received compensation at all."
-66,"TEXT_STMBDY503_03141_KOZAKURA_000_018","While those dark days are behind us, many of our former trading partners are reluctant to engage us in trade agreements, for fear of the Empire's wrath."
-67,"TEXT_STMBDY503_03141_KOZAKURA_000_019","And so, for the most part, we must continue to fend for ourselves and craft what tools and so forth we require. Or so we would...had we the facilities."
-68,"TEXT_STMBDY503_03141_KOZAKURA_000_020","...Forgive me. It is not so dire as it may sound. Our problems may be many, but we are all wholly committed to the challenge before us."
-69,"TEXT_STMBDY503_03141_KOZAKURA_000_021","We are not unlike the shazenso─a hardy herb that can thrive in even the most inhospitable of conditions. I took inspiration from its strength and stubbornness when deciding upon a name for our organization, in fact."
-70,"TEXT_STMBDY503_03141_KOZAKURA_000_022","No matter the struggle! No matter the cost! The Shazenkai will do everything in its power to overcome every hurdle and rebuild this home of ours!"
-71,"TEXT_STMBDY503_03141_KOZAKURA_000_023","Ah! Please excuse my sudden fit of passion─ It was most unbecoming. Anyway, I have spoken of the general state of the enclave. Let us discuss more specific concerns."
-72,"TEXT_STMBDY503_03141_KOZAKURA_000_024","Though, having said that, it would be simpler if you were to see things with your own eyes. Please head to the work site north of the aetheryte and speak with Mitsuba. I shall join you shortly."
-73,"TEXT_STMBDY503_03141_KOZAKURA_000_030","I need a moment to finish some paperwork, so perhaps you might go and speak with Mitsuba? I shouldn't be much longer, but I do not wish to keep you waiting."
-74,"TEXT_STMBDY503_03141_MITSUBA_000_040","Well, well. You're <Highlight>ObjectParameter(1)</Highlight>, aren't you? In need of a hot meal?"
-75,"TEXT_STMBDY503_03141_KOZAKURA_000_041","Actually, <If(PlayerParameter(4))>she<Else/>he</If> is here at my behest. I thought it would be best if a potential patron saw our efforts firsthand."
-76,"TEXT_STMBDY503_03141_KOZAKURA_000_042","If you would be so kind as to explain to <If(PlayerParameter(4))>her<Else/>him</If> what you do..."
-77,"TEXT_STMBDY503_03141_MITSUBA_000_043","Oho, foisting the burden onto me, are we? Very well, if you insist."
-78,"TEXT_STMBDY503_03141_MITSUBA_000_044","Allow me to properly introduce myself. I'm Mitsuba. Once upon a time I owned and operated the largest tavern in the enclave. I had a hand in everything─from balancing the ledgers to stirring the cookpots."
-79,"TEXT_STMBDY503_03141_MITSUBA_000_045","Owing to my experience, I've been asked to oversee the work here, in the Ten Thousand Stalls."
-80,"TEXT_STMBDY503_03141_MITSUBA_000_046","Hah! That was the exact same look I gave Kozakura when she showed me this place. “Ten Thousand Stalls? By the kami, there's not even ten!”"
-81,"TEXT_STMBDY503_03141_MITSUBA_000_047","But mark me─there will be. When we're through, this place will have on offer every imaginable cuisine. Just thinking about it's enough to set my heart racing─and my mouth watering."
-82,"TEXT_STMBDY503_03141_KOZAKURA_000_048","As I explained earlier, however, trade─or lack thereof─is a major problem at present. We simply aren't getting enough shipments of consumables from outside Yanxia, and so our people are forced to eat the same simple fare, day after day."
-83,"TEXT_STMBDY503_03141_KOZAKURA_000_049","However, once our negotiations with foreign concerns bear fruit, we should be able to exchange whatever surplus we produce for a wider variety of ingredients, bringing us closer to realizing Mitsuba's vision."
-84,"TEXT_STMBDY503_03141_KOZAKURA_000_050","This may seem like a silly goal to strive for, but by improving the quality of life for our people in a clear, understandable manner, we can motivate them to work harder and tackle more difficult tasks. Doma will not be rebuilt in a fortnight, and we need every victory, however small."
-85,"TEXT_STMBDY503_03141_MITSUBA_000_051","We've a bloody long road ahead of us, but we need only take it one step at a time. Whatever help you can contribute to the cause would be welcome."
-86,"TEXT_STMBDY503_03141_KOZAKURA_100_051","Thank you for taking the time to speak with us, Mitsuba."
-87,"TEXT_STMBDY503_03141_KOZAKURA_000_052","We should head back to the Shazenkai and continue our conversation there, so as not to get in the way of their work."
-88,"TEXT_STMBDY503_03141_KOZAKURA_000_053","There is not too much left to explain, but if you would indulge me a little longer, I would be grateful."
-89,"TEXT_STMBDY503_03141_MITSUBA_000_070","It's not much to look at right now, but believe you me: it will be."
-90,"TEXT_STMBDY503_03141_KOZAKURA_000_080","The Ten Thousand Stalls are but one example of what we hope to build here in the enclave. Alas, it will take much time and effort..."
-91,"TEXT_STMBDY503_03141_KOZAKURA_000_081","And...it will also take tremendous resources. Resources that I pray you will be willing to contribute."
-92,"TEXT_STMBDY503_03141_KOZAKURA_000_082","Raw materials, foodstuffs, linens, medicines─all this and more would be of use. Anything and everything you can afford to part with would be welcome."
-93,"TEXT_STMBDY503_03141_KOZAKURA_000_083","Furthermore, as a token of our appreciation, we will provide a small gratuity relative to the value of the items you relinquish."
-94,"TEXT_STMBDY503_03141_KOZAKURA_000_084","You need only place these items in the donation basket to my left. I will calculate the gratuity and pay you immediately."
-95,"TEXT_STMBDY503_03141_SYSTEM_000_100","You may now use the donation basket to contribute unneeded items to the Shazenkai! These items will be used to supply and finance the reconstruction of the Doman Enclave. Further details can be had by speaking with Kozakura."
+48,"TEXT_STMBDY503_03141_KOZAKURA_000_000","これは、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>殿……！
+再びお立ち寄りいただいて、恐縮にございまする……！"
+49,"TEXT_STMBDY503_03141_KOZAKURA_000_001","先頃は、同胞の帰還に向けてお力添えいただき、
+本当にありがとうございました。"
+50,"TEXT_STMBDY503_03141_KOZAKURA_000_002","おかげさまで人手の当てができ、
+わたくしども「車前会」による町人地の復興も、
+新たな段階へ進むことになったのでございまする！"
+51,"TEXT_STMBDY503_03141_KOZAKURA_000_003","それで……その……
+まことに厚かましいと……存じているのですが……"
+52,"TEXT_STMBDY503_03141_KOZAKURA_000_004","次の復興計画には、あなた様のような、
+たくさんの「物」をお持ちの方が必要なのでございまする。"
+53,"TEXT_STMBDY503_03141_KOZAKURA_000_005","ですので……よろしければ、またお力を……
+せめて話だけでも、聞いてはいただけませぬでしょうか……っ！"
+54,"TEXT_STMBDY503_03141_Q1_000_006","何と答える？"
+55,"TEXT_STMBDY503_03141_A1_000_007","ドマのためなら協力しよう"
+56,"TEXT_STMBDY503_03141_A1_000_008","くるしゅうない、申してみよ！"
+57,"TEXT_STMBDY503_03141_A1_000_009","……報酬は？"
+58,"TEXT_STMBDY503_03141_KOZAKURA_000_010","あ、ありがとうございますっ……！
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>殿は、まっこと、
+たのもしき御仁でございまする！"
+59,"TEXT_STMBDY503_03141_KOZAKURA_000_011","ははーっ！　ありがたき幸せ！！
+ではこのコザクラめが、心して、ご説明させていただきまする！"
+60,"TEXT_STMBDY503_03141_KOZAKURA_000_012","も、もちろん、あなた様に損はさせませぬ……！
+金一封とはいきませぬが、わたくしめにも考えがありますれば、
+まずは説明をさせていただきたくっ！"
+61,"TEXT_STMBDY503_03141_KOZAKURA_000_013","ええと、では……コホン。
+まずは、町人地にかぎらず、ドマ全体の状況について、
+簡単にお話させていただきまする。"
+62,"TEXT_STMBDY503_03141_KOZAKURA_000_014","生活と経済の面から見たとき、
+ドマはまだ、帝国による支配の影響から、
+抜け出せてはおりませぬ……。"
+63,"TEXT_STMBDY503_03141_KOZAKURA_000_015","この国は古来より、無二江の恵みを受け、
+農業とともに栄えてきました。"
+64,"TEXT_STMBDY503_03141_KOZAKURA_000_016","戦で多くの犠牲を出し、土地が荒廃した今でも、
+民が日々食すだけの収穫量は、どうにか……。
+ただ……。"
+65,"TEXT_STMBDY503_03141_KOZAKURA_000_017","農作物だけでは、暮らしは保てませぬ。
+こと、帝国主導の交易で得ていた品については、
+領内で獲得する手立てがございませぬ。"
+66,"TEXT_STMBDY503_03141_KOZAKURA_000_018","改めて交易路を拓こうにも、
+帝国との関係悪化を恐れる国は多く、門戸を閉じられ……。"
+67,"TEXT_STMBDY503_03141_KOZAKURA_000_019","代用品を作ろうにも、ものづくりのための環境が、
+いまだ整っていない状況なのでございまする。"
+68,"TEXT_STMBDY503_03141_KOZAKURA_000_020","……ご心配なさらず。
+困難は多けれど、ドマの民は何も諦めておりませぬ。"
+69,"TEXT_STMBDY503_03141_KOZAKURA_000_021","指揮をとるわたくしたちが「車前会」と名付けられたのも、
+車前草……車輪に轢かれてなお天へと葉を広げる草の、
+根気と強さにあやかってのこと。"
+70,"TEXT_STMBDY503_03141_KOZAKURA_000_022","ゆえに、しぶとく！　たくましく！
+この国が抱える問題を、ドマ町人地の街づくりでもって、
+ひとつずつ取り払っていきたいのでございまするッ！"
+71,"TEXT_STMBDY503_03141_KOZAKURA_000_023","ハッ……つい熱くなって……！
+こ、志については、おわかりいただけたようなので、
+具体的な計画の話に進みましょう……っ！"
+72,"TEXT_STMBDY503_03141_KOZAKURA_000_024","実際に場を見るのがよろしいかと存じますので、
+町の北側にある広場に、移動をお願いできますでしょうか？
+「ミツバ」という女性にお声がけくださいませ。"
+73,"TEXT_STMBDY503_03141_KOZAKURA_000_030","町の北側にある広場に、移動をお願いできますでしょうか？
+「ミツバ」という女性にお声がけくださいませ。"
+74,"TEXT_STMBDY503_03141_MITSUBA_000_040","おや、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>さんじゃないか。
+……どうした？　腹が空いたのかい？"
+75,"TEXT_STMBDY503_03141_KOZAKURA_000_041","こんにちは、ミツバさん。
+実は、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>殿に、
+此度の計画へのご協力をお願いしているのです。"
+76,"TEXT_STMBDY503_03141_KOZAKURA_000_042","それで、この場所について、
+ご説明いただければと思って……。"
+77,"TEXT_STMBDY503_03141_MITSUBA_000_043","なんと！
+そいつは責任もって売り込まなきゃならないね。"
+78,"TEXT_STMBDY503_03141_MITSUBA_000_044","改めて、あたしはミツバ。
+もともとは、この街で一番おおきな食堂をやっていたのさ。
+食材の買い付けから調理まで、何でもね。"
+79,"TEXT_STMBDY503_03141_MITSUBA_000_045","んで今は、この「万市場」の責任者をさせてもらってるんだ。"
+80,"TEXT_STMBDY503_03141_MITSUBA_000_046","あはは、首をかしげる気持ちもわかるさ。
+万市場なんていいながら、
+今はほとんどなーんにもないんだからね！"
+81,"TEXT_STMBDY503_03141_MITSUBA_000_047","……けど、あたしは本気でここを、
+よろずの食材と料理が楽しめる場所にしたいんだ。
+涎のあふれる、いい夢だろう？"
+82,"TEXT_STMBDY503_03141_KOZAKURA_000_048","さきほどお話しした、
+十分な交易ができていないという問題……
+それによって、民の食卓は今、かなり偏ってしまっています。"
+83,"TEXT_STMBDY503_03141_KOZAKURA_000_049","新たな交易先は探し続けるとして、
+まずはドマの民同士で作物の交換をしたり、
+食材を持ち寄って、少しでも違う料理を食べてほしい……。"
+84,"TEXT_STMBDY503_03141_KOZAKURA_000_050","なにせ、復興は長丁場でありますれば。
+民の心身に活を入れるべく、復興計画の第一弾として、
+市場の建設を進めることにしたのでございまする。"
+85,"TEXT_STMBDY503_03141_MITSUBA_000_051","まだまだ、場所を整えてる段階だけどね。
+先は長いから、あんたが協力してくれたら、
+とても助かるよ。"
+86,"TEXT_STMBDY503_03141_KOZAKURA_100_051","ミツバさん、お話ありがとうございました。"
+87,"TEXT_STMBDY503_03141_KOZAKURA_000_052","それでは、実際に<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>殿にお願いしたいことを、
+「車前会所」に戻って、ご説明いたしまする。"
+88,"TEXT_STMBDY503_03141_KOZAKURA_000_053","たびたびご足労をおかけして恐縮ですが……
+先に戻って、お待ちしておりますね。"
+89,"TEXT_STMBDY503_03141_MITSUBA_000_070","あんたが協力してくれたら、とても助かるよ。
+詳しいことは、車前会所のコザクラから聞いておくれ。"
+90,"TEXT_STMBDY503_03141_KOZAKURA_000_080","お付き合い、まことにありがとうございました。
+あれが、わたくしたちの復興の、先端でございまする。"
+91,"TEXT_STMBDY503_03141_KOZAKURA_000_081","……ご覧になられたとおり、まだほぼ更地でありますれば、
+何をするにも物資が必要となりまする。
+そこについて、あなた様に協力をお願いしたいのです。"
+92,"TEXT_STMBDY503_03141_KOZAKURA_000_082","資材、食材、衣類に薬……どういったものでも構いませぬ。
+あなた様が使わぬものを、わたくしどもに、
+譲ってはいただけぬでしょうか？"
+93,"TEXT_STMBDY503_03141_KOZAKURA_000_083","無論、タダでとは申しませぬ。
+日々の活動資金のうちから、いただいたものに相応の金額を、
+お渡しさせていただきます。"
+94,"TEXT_STMBDY503_03141_KOZAKURA_000_084","ご協力いただけるのでしたら、
+不要な品を、わたくしの隣の「<Sheet(EObj,2009567,0)/>」へ。
+何卒、よろしくお願いいたしまする……！"
+95,"TEXT_STMBDY503_03141_SYSTEM_000_100","ドマ町人地の「<Sheet(EObj,2009567,0)/>」が利用できるようになりました！
+不要なアイテムを譲り、復興に貢献していきましょう。
+詳しい説明は「コザクラ」から聞くことができます。"

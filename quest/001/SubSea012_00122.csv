@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBSEA012_00122_SEQ_00","S'dhodjbi needs your help to prepare a treat for Baderon."
-1,"TEXT_SUBSEA012_00122_SEQ_01","S'dhodjbi wants to present several aurelia umbrellas to Baderon as a gesture of appreciation for all his hard work. Speak with Klindrael for more information about where to find the creatures."
-2,"TEXT_SUBSEA012_00122_SEQ_02","Though repulsed by the thought of eating aureliae, Klindrael directs you to the river past the Tempest Gate and to the east. Slay the creatures and obtain four of their umbrellas."
-3,"TEXT_SUBSEA012_00122_SEQ_03","You remove four slimy umbrellas from the carcasses of the foul beasts. Present them to Baderon on behalf of S'dhodjbi."
-4,"TEXT_SUBSEA012_00122_SEQ_04","It seems S'dhodjbi misinterpreted her employer's drunken ramblings, as Baderon states that aurelia umbrellas are the most vile, disgusting food he has ever tasted. Even so, the former sellsword cannot help but laugh as he reflects on his glory days."
+0,"TEXT_SUBSEA012_00122_SEQ_00","溺れた海豚亭の給仕ス・ホジュビは、食材の調達を依頼したいようだ。"
+1,"TEXT_SUBSEA012_00122_SEQ_01","溺れた海豚亭の給仕ス・ホジュビは、浮クラゲの刺身をバデロンにたべさせてやりたいという。アフトカースルにいる衛兵「クリンドレール」から、料理の材料となるクラゲの場所を聞き出そう。"
+2,"TEXT_SUBSEA012_00122_SEQ_02","テンペスト陸門からリムサ・ロミンサを出発し低地ラノシアにいるオーレリアを討伐して、浮クラゲの切り身を4つ手に入れよう。"
+3,"TEXT_SUBSEA012_00122_SEQ_03","浮クラゲの刺身の材料となる食材を集めることができた。溺れた海豚亭のバデロンに「浮クラゲの切り身」を届けよう。"
+4,"TEXT_SUBSEA012_00122_SEQ_04","実は、浮クラゲの刺身はバデロンの好物ではなかったようだ。しかし、依頼主のス・ホジュビの心づかいは、バデロンに届いただろう。"
 5,"TEXT_SUBSEA012_00122_SEQ_05",""
 6,"TEXT_SUBSEA012_00122_SEQ_06",""
 7,"TEXT_SUBSEA012_00122_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_SUBSEA012_00122_SEQ_21",""
 22,"TEXT_SUBSEA012_00122_SEQ_22",""
 23,"TEXT_SUBSEA012_00122_SEQ_23",""
-24,"TEXT_SUBSEA012_00122_TODO_00","Speak with Klindrael."
-25,"TEXT_SUBSEA012_00122_TODO_01","Slay aureliae."
-26,"TEXT_SUBSEA012_00122_TODO_02","Deliver the aurelia umbrellas to Baderon."
+24,"TEXT_SUBSEA012_00122_TODO_00","クリンドレールと話す"
+25,"TEXT_SUBSEA012_00122_TODO_01","オーレリアを討伐し、浮クラゲの切り身を入手"
+26,"TEXT_SUBSEA012_00122_TODO_02","冒険者ギルドのバデロンに浮クラゲの切り身を渡す"
 27,"TEXT_SUBSEA012_00122_TODO_03",""
 28,"TEXT_SUBSEA012_00122_TODO_04",""
 29,"TEXT_SUBSEA012_00122_TODO_05",""
@@ -49,13 +49,31 @@ int32,str,str
 45,"TEXT_SUBSEA012_00122_TODO_21",""
 46,"TEXT_SUBSEA012_00122_TODO_22",""
 47,"TEXT_SUBSEA012_00122_TODO_23",""
-48,"TEXT_SUBSEA012_00122_SDHODJBI_000_0","These days, poor Baderon's so busy looking after others, he hasn't been able to look after himself. He deserves something for his efforts."
-49,"TEXT_SUBSEA012_00122_SDHODJBI_000_1","Whenever he's in his cups and starts speaking of the old days, he never fails to mention aureliae. Seems he and his mates used to eat the creatures on occasion."
-50,"TEXT_SUBSEA012_00122_SDHODJBI_000_2","It's obvious he still has fond memories of that life, so I'm thinking a few aurelia umbrellas might be something he'd appreciate. Could you help me by procuring four of them?"
-51,"TEXT_SUBSEA012_00122_SDHODJBI_000_3","If you're willing to help, speak with Klindrael, by the Aftcastle. She knows where various wild beasts congregate."
-52,"TEXT_SUBSEA012_00122_KLINDRAEL_000_10","Baderon actually <Emphasis>likes</Emphasis> aurelia umbrellas!? Gods, I'd never even considered <Emphasis>trying</Emphasis> to eat one of those foul things!"
-53,"TEXT_SUBSEA012_00122_KLINDRAEL_000_11","Nevertheless, if it's aureliae you seek, you ought to find plenty by the river just past the Tempest Gate and to the east."
-54,"TEXT_SUBSEA012_00122_BADERON_000_20","S'dhodjbi said an adventurer might be droppin' by to deliver somethin' special. That you, <If(PlayerParameter(4))>lass<Else/>lad</If>?"
-55,"TEXT_SUBSEA012_00122_BADERON_000_21","Ah, 'ells, <If(PlayerParameter(4))>lass<Else/>lad</If>, ye didn't 'ave to go to all this trouble!"
-56,"TEXT_SUBSEA012_00122_BADERON_000_22","Ahahaha! This <Emphasis>godsdamned</Emphasis> smell! I've 'ated aurelia umbrellas since I was a sellsword. 'Tis only the nastiest shite I ever put in me mouth!"
-57,"TEXT_SUBSEA012_00122_BADERON_000_23","We tried sprinklin' it with salt and cookin' it o'er a campfire, but 'twas still little better than chewin' on driftwood. Try it fer yerself, <If(PlayerParameter(4))>lass<Else/>lad</If>─ye'll see what I mean!"
+48,"TEXT_SUBSEA012_00122_SDHODJBI_000_0","ウチの店主、バデロンは
+自分のことそっちのけで、人の世話焼いちまう口でね。
+日頃の礼として、彼の好物を用意してやりたいんだ。"
+49,"TEXT_SUBSEA012_00122_SDHODJBI_000_1","なんでも、傭兵時代に食材がなくて、やむなく食った
+「浮クラゲの刺身」の味が忘れられないんだとか……。
+酔うと、必ずその話をするんだよね。"
+50,"TEXT_SUBSEA012_00122_SDHODJBI_000_2","なもんで、材料になる「浮クラゲの切り身」を
+4つ集めて、バデロンに届けてやってくれないか？
+オーレリアを倒せば手に入るよ。"
+51,"TEXT_SUBSEA012_00122_SDHODJBI_000_3","「オーレリア」の生息場所は、
+アフトカースルにいる「クリンドレール」が詳しいらしい。"
+52,"TEXT_SUBSEA012_00122_KLINDRAEL_000_10","浮クラゲの切り身がバデロンさんの好物だって？
+まさか、あんな噛み切れない代物を食っちまうのか？
+いやはや、味覚は人それぞれだが……。"
+53,"TEXT_SUBSEA012_00122_KLINDRAEL_000_11","おっと、オーレリアの生息地だよな。
+それなら、この先のテンペスト陸門から出て、
+すぐのところに群れているだろう。"
+54,"TEXT_SUBSEA012_00122_BADERON_000_20","「浮クラゲの切り身」を4つほど用立てたと、
+給仕のス・ホジュビが、嬉しそうに言ってきたんだが……"
+55,"TEXT_SUBSEA012_00122_BADERON_000_21","おお、おまえさんが持ってきてくれたのか！
+おまえさんとス・ホジュビ、ふたりの好意は
+ありがたく受け取っておくぜ！"
+56,"TEXT_SUBSEA012_00122_BADERON_000_22","浮クラゲの刺身ねぇ……
+あれは確かに忘れられねえ味だったぜ。
+ただし、好物とは逆の意味でな。はっはっはっ。"
+57,"TEXT_SUBSEA012_00122_BADERON_000_23","生じゃ噛みきれたもんじゃねぇが、
+食塩とアルメンで漬け込みゃ、食えんことはねぇぞ。
+勇気があれば、試してみるこったな。"

@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNY804_02098_SEQ_00","Lydirlona would like to reassure you that the rumors you have heard are true."
-1,"TEXT_HEAVNY804_02098_SEQ_01","Rowena's House of Splendors has expanded its operations and established an outpost in Idyllshire, far to the west in the Dravanian hinterlands. Should you find yourself passing through, Lydirlona thinks it would be prudent for you to make yourself known to the representatives there. Present her letter of introduction to Geimlona, her older sister, in Idyllshire."
-2,"TEXT_HEAVNY804_02098_SEQ_02","With the help of you and your fellow suppliers, Geimlona and her comrades aim to become the premier source of collectables in the region. As was the case in Mor Dhona, you will be duly compensated for your contributions...in scrips issued by the House of Splendors, that is."
+0,"TEXT_HEAVNY804_02098_SEQ_00","レヴナンツトールのリディルロナは、優れた職人である冒険者に新たな仕事場所を紹介したいようだ。"
+1,"TEXT_HEAVNY804_02098_SEQ_01","リディルロナから、イディルシャイアで「収集品」を取り扱っていることを聞き、ゲイムロナ宛の紹介状を書いてもらった。イディルシャイアの「ゲイムロナ」に「<Sheet(EventItem,2001787,0)/>」を渡そう。"
+2,"TEXT_HEAVNY804_02098_SEQ_02","ゲイムロナから、イディルシャイアでの「ロウェナ商会取引」の紹介を受けた。収集品の仕事をこなし、職人としての腕を磨いていこう。"
 3,"TEXT_HEAVNY804_02098_SEQ_03",""
 4,"TEXT_HEAVNY804_02098_SEQ_04",""
 5,"TEXT_HEAVNY804_02098_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_HEAVNY804_02098_SEQ_21",""
 22,"TEXT_HEAVNY804_02098_SEQ_22",""
 23,"TEXT_HEAVNY804_02098_SEQ_23",""
-24,"TEXT_HEAVNY804_02098_TODO_00","Deliver the letter to Geimlona in Idyllshire."
+24,"TEXT_HEAVNY804_02098_TODO_00","イディルシャイアのゲイムロナに<Sheet(EventItem,2001787,0)/>を渡す"
 25,"TEXT_HEAVNY804_02098_TODO_01",""
 26,"TEXT_HEAVNY804_02098_TODO_02",""
 27,"TEXT_HEAVNY804_02098_TODO_03",""
@@ -49,29 +49,55 @@ int32,str,str
 45,"TEXT_HEAVNY804_02098_TODO_21",""
 46,"TEXT_HEAVNY804_02098_TODO_22",""
 47,"TEXT_HEAVNY804_02098_TODO_23",""
-48,"TEXT_HEAVNY804_02098_LYDIRLONA_000_000","Mayhap you have heard that Rowena's House of Splendors is expanding its operations. I am proud to say that these rumors are true."
-49,"TEXT_HEAVNY804_02098_LYDIRLONA_000_001","We have established a presence in Idyllshire, far to the west in the Dravanian hinterlands."
-50,"TEXT_HEAVNY804_02098_LYDIRLONA_000_002","Should you find yourself passing through, it may be prudent to introduce yourself to our representatives."
-51,"TEXT_HEAVNY804_02098_LYDIRLONA_000_003","Should you find yourself passing through, it may be prudent to introduce yourself to our representatives."
-52,"TEXT_HEAVNY804_02098_LYDIRLONA_000_004","Present this letter to them, and they will know you for one of our suppliers."
-53,"TEXT_HEAVNY804_02098_LYDIRLONA_000_005","Should you find yourself in Idyllshire and wish to avail yourself of our services, pray present that letter to my sister Geimlona."
-54,"TEXT_HEAVNY804_02098_GEIMLONA_000_010","Beggin' your pardons, <If(PlayerParameter(4))>miss<Else/>sir</If>, but I haven't got the time to chat right now..."
-55,"TEXT_HEAVNY804_02098_GEIMLONA_000_011","One of my little sister's suppliers, eh? Well now, that's different."
-56,"TEXT_HEAVNY804_02098_GEIMLONA_000_012","Pleased to make your acquaintance. As you can see, the House has come to Idyllshire─but we've only just gotten started."
-57,"TEXT_HEAVNY804_02098_GEIMLONA_000_013","It is our hope that with the help of hardworkin' folk like yourself, it won't be long before we're the center of trade in these parts."
-58,"TEXT_HEAVNY804_02098_GEIMLONA_000_014","And we'll do it by becomin' the premier source of collectables. Bring us whatever you've got, and we'll pay you fair value in scrips."
-59,"TEXT_HEAVNY804_02098_GEIMLONA_000_015","May this be the beginnin' of a long and prosperous relationship."
-60,"TEXT_HEAVNY804_02098_SYSTEM_000_016","You can now trade collectables to Rowena's House of Splendors in Idyllshire."
-61,"TEXT_HEAVNY804_02098_SYSTEM_000_017","You may also exchange scrips for items usable by Disciples of the Land or Hand by speaking with the nearby representative."
-62,"TEXT_HEAVNY804_02098_DICKON_000_000",""
-63,"TEXT_HEAVNY804_02098_DICKON_000_001",""
-64,"TEXT_HEAVNY804_02098_DICKON_000_002",""
-65,"TEXT_HEAVNY804_02098_DICKON_000_003",""
-66,"TEXT_HEAVNY804_02098_DICKON_000_004",""
-67,"TEXT_HEAVNY804_02098_DICKON_000_005",""
-68,"TEXT_HEAVNY804_02098_DIGGIN_000_010",""
-69,"TEXT_HEAVNY804_02098_DIGGIN_000_011",""
-70,"TEXT_HEAVNY804_02098_DIGGIN_000_012",""
-71,"TEXT_HEAVNY804_02098_DIGGIN_000_013",""
-72,"TEXT_HEAVNY804_02098_DIGGIN_000_014",""
-73,"TEXT_HEAVNY804_02098_DIGGIN_000_015",""
+48,"TEXT_HEAVNY804_02098_LYDIRLONA_000_000","超一流の職人である冒険者様に、
+この街は狭くなってきたのではないか……。
+近ごろ、私はそう思うのです。"
+49,"TEXT_HEAVNY804_02098_LYDIRLONA_000_001","冒険者様、そろそろ上を目指してみたいと思いませんか？
+低地ドラヴァニアの「イディルシャイア」に出店した新店舗で、
+どうか、腕を振るっていただきたいのです。"
+50,"TEXT_HEAVNY804_02098_LYDIRLONA_000_002","私が提供した情報の成果を、
+ぜひ「イディルシャイア」での活躍をもって、
+我が商会の利益へ還元していただければ幸いです。"
+51,"TEXT_HEAVNY804_02098_LYDIRLONA_000_003","ぜひ「イディルシャイア」での活躍をもって、
+我が商会の利益へ還元していただければ幸いです。"
+52,"TEXT_HEAVNY804_02098_LYDIRLONA_000_004","この「紹介状」を、「イディルシャイア」にいる姉……
+「ゲイムロナ」へお渡しください。
+ロウェナ様と、我らが商会のため、よろしくお願いします。"
+53,"TEXT_HEAVNY804_02098_LYDIRLONA_000_005","この「紹介状」を、「イディルシャイア」にいる姉……
+「ゲイムロナ」へお渡しください。
+ロウェナ様と、我らが商会のため、よろしくお願いします。"
+54,"TEXT_HEAVNY804_02098_GEIMLONA_000_010","申し訳ありません、冒険者様……。
+こちらの窓口は、
+紹介状をお持ちの方のみ、ご案内しております。"
+55,"TEXT_HEAVNY804_02098_GEIMLONA_000_011","……あら、これはリディルロナの紹介状。
+どうやら、妹がお世話になったようですね。
+遠くよりご足労いただき、ありがとうございます。"
+56,"TEXT_HEAVNY804_02098_GEIMLONA_000_012","すでに妹から、お聞きのことと存じますが、
+「ロウェナ商会イディルシャイア支店」でも、
+「収集品」を扱っております。"
+57,"TEXT_HEAVNY804_02098_GEIMLONA_000_013","妹の紹介を受けた冒険者様の腕があれば、
+十二分に通用することでしょう。
+ぜひ、我々ロウェナ商会へ「収集品」をお納めください。"
+58,"TEXT_HEAVNY804_02098_GEIMLONA_000_014","なお、「収集品」を納品していただける職人の方々のため、
+道具や素材などの商品も取り扱っております。
+ぜひ、ご利用ください。"
+59,"TEXT_HEAVNY804_02098_GEIMLONA_000_015","それでは、冒険者様……
+末永くお取引いただけますよう、お願い申し上げます。"
+60,"TEXT_HEAVNY804_02098_SYSTEM_000_016","イディルシャイアで「ロウェナ商会取引」が開放されました！
+これ以降、イディルシャイアの「収集品納品窓口」でも、
+「収集品」を納品することができます。"
+61,"TEXT_HEAVNY804_02098_SYSTEM_000_017","また、イディルシャイアの「特殊品交換窓口」から、
+クラフターやギャザラー用のアイテムを、
+さまざまな品と交換できるようになりました。"
+62,"TEXT_HEAVNY804_02098_DICKON_000_000","（★未使用／削除予定★）"
+63,"TEXT_HEAVNY804_02098_DICKON_000_001","（★未使用／削除予定★）"
+64,"TEXT_HEAVNY804_02098_DICKON_000_002","（★未使用／削除予定★）"
+65,"TEXT_HEAVNY804_02098_DICKON_000_003","（★未使用／削除予定★）"
+66,"TEXT_HEAVNY804_02098_DICKON_000_004","（★未使用／削除予定★）"
+67,"TEXT_HEAVNY804_02098_DICKON_000_005","（★未使用／削除予定★）"
+68,"TEXT_HEAVNY804_02098_DIGGIN_000_010","（★未使用／削除予定★）"
+69,"TEXT_HEAVNY804_02098_DIGGIN_000_011","（★未使用／削除予定★）"
+70,"TEXT_HEAVNY804_02098_DIGGIN_000_012","（★未使用／削除予定★）"
+71,"TEXT_HEAVNY804_02098_DIGGIN_000_013","（★未使用／削除予定★）"
+72,"TEXT_HEAVNY804_02098_DIGGIN_000_014","（★未使用／削除予定★）"
+73,"TEXT_HEAVNY804_02098_DIGGIN_000_015","（★未使用／削除予定★）"

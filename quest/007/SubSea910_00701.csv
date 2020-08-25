@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBSEA910_00701_SEQ_00","R'ashaht Rhiki suggests you look into having a personal chocobo issued."
-1,"TEXT_SUBSEA910_00701_SEQ_01","To obtain your personal chocobo, you must present Fraegeim with a Storm Chocobo Issuance. This document can be obtained by exchanging company seals with the storm quartermaster. Here's hoping you have been setting aside your seals..."
-2,"TEXT_SUBSEA910_00701_SEQ_02","Fraegeim brings you your bird, and it is love at first sight. Name your new companion, and make it official."
-3,"TEXT_SUBSEA910_00701_SEQ_03","After much deliberation, you decide on a name worthy of the noblest steed. Inform Fraegeim to complete the last of the formalities."
-4,"TEXT_SUBSEA910_00701_SEQ_04","And so begins the adventures of <Highlight>ObjectParameter(1)</Highlight> and <Highlight>ObjectParameter(55)</Highlight>. May their friendship last for eternity!"
+0,"TEXT_SUBSEA910_00701_SEQ_00","ル・アシャ大甲佐は冒険者にマイチョコボの入手方法を教えたい。"
+1,"TEXT_SUBSEA910_00701_SEQ_01","補給担当官から、軍票と引き換えに「<Sheet(Item,6017,0)/>」を受け取り、「チョコボ屋 フレーゲイム」に渡すと「マイチョコボ」が手に入る。頑張って軍票を貯めよう。"
+2,"TEXT_SUBSEA910_00701_SEQ_02","フレーゲイムが「マイチョコボ」を連れてきた。チョコボに素敵な名前をつけてあげよう。"
+3,"TEXT_SUBSEA910_00701_SEQ_03","チョコボに<Highlight>ObjectParameter(55)</Highlight>とつけた。「チョコボ屋 フレーゲイム」と話そう。"
+4,"TEXT_SUBSEA910_00701_SEQ_04","チョコボ屋 フレーゲイムと話して、チョコボ支給手続きを済ませた。<Highlight>ObjectParameter(55)</Highlight>は、これからよい旅の友になるだろう。"
 5,"TEXT_SUBSEA910_00701_SEQ_05",""
 6,"TEXT_SUBSEA910_00701_SEQ_06",""
 7,"TEXT_SUBSEA910_00701_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_SUBSEA910_00701_SEQ_21",""
 22,"TEXT_SUBSEA910_00701_SEQ_22",""
 23,"TEXT_SUBSEA910_00701_SEQ_23",""
-24,"TEXT_SUBSEA910_00701_TODO_00","Present a Storm Chocobo Issuance to Fraegeim."
-25,"TEXT_SUBSEA910_00701_TODO_01","Name your chocobo."
-26,"TEXT_SUBSEA910_00701_TODO_02","Speak with Fraegeim."
+24,"TEXT_SUBSEA910_00701_TODO_00","フレーゲイムに<Sheet(Item,6017,0)/>を渡す"
+25,"TEXT_SUBSEA910_00701_TODO_01","チョコボに名前をつける"
+26,"TEXT_SUBSEA910_00701_TODO_02","フレーゲイムと話す"
 27,"TEXT_SUBSEA910_00701_TODO_03",""
 28,"TEXT_SUBSEA910_00701_TODO_04",""
 29,"TEXT_SUBSEA910_00701_TODO_05",""
@@ -49,27 +49,55 @@ int32,str,str
 45,"TEXT_SUBSEA910_00701_TODO_21",""
 46,"TEXT_SUBSEA910_00701_TODO_22",""
 47,"TEXT_SUBSEA910_00701_TODO_23",""
-48,"TEXT_SUBSEA910_00701_Rashaht_000","Well, if it isn't <Clickable(<If(GreaterThan(PlayerParameter(52),0))><Sheet(GCRankLimsaMaleText,PlayerParameter(52),8)/><Else/></If><If(GreaterThan(PlayerParameter(53),0))><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),8)/><Else/></If><If(GreaterThan(PlayerParameter(54),0))><Sheet(GCRankUldahMaleText,PlayerParameter(54),8)/><Else/></If>)/> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>! I must say, the tales of your deeds have been an inspiration to the troops."
-49,"TEXT_SUBSEA910_00701_Rashaht_001","Our duties take us far and wide, and I'll wager you've slogged across quite a few malms of countryside on naught but your own two feet."
-50,"TEXT_SUBSEA910_00701_Rashaht_002","Such a sterling soldier of the Maelstrom deserves <If(PlayerParameter(4))>her<Else/>his</If> own steed. Let us see about having one issued for you."
-51,"TEXT_SUBSEA910_00701_Rashaht_003","All you need do is obtain a Storm Chocobo Issuance by exchanging company seals with the quartermaster. Once you have this deed, present it to Fraegeim, and she will see you saddled up on one of our trusty birds."
-52,"TEXT_SUBSEA910_00701_Rashaht_010","To be issued a personal chocobo, you must first obtain a Storm Chocobo Issuance by exchanging company seals with the quartermaster. Once you have this deed, present it to Fraegeim, and she will see you saddled up on one of our trusty birds."
-53,"TEXT_SUBSEA910_00701_Fraegeim_000","Want a bird issued, you say? Then I'll need to see your Storm Chocobo Issuance."
-54,"TEXT_SUBSEA910_00701_Fraegeim_010","Yes, everything appears to be in order."
-55,"TEXT_SUBSEA910_00701_Fraegeim_011","A moment please. I'll be right back with your chocobo."
-56,"TEXT_SUBSEA910_00701_Fraegeim_012","And here he is! The fellow has been in high spirits the past few bells. He must have sensed that his master was coming!"
-57,"TEXT_SUBSEA910_00701_Fraegeim_013","Now then, to make it official, you'll want to give your noble steed a name."
-58,"TEXT_SUBSEA910_00701_Fraegeim_020","Want a bird issued, you say? Then I'll need to see your Storm Chocobo Issuance. You can get one from the storm quartermaster, over at Maelstrom Command."
-59,"TEXT_SUBSEA910_00701_Fraegeim_021","Of course, you will need to exchange Storm Seals for it. You can earn these by completing tasks for the Maelstrom, Limsa Lominsa's Grand Company."
-60,"TEXT_SUBSEA910_00701_CHOCOBO_000","Kweh!"
-61,"TEXT_SUBSEA910_00701_Fraegeim_030","Now then, to make it official, you'll want to give your noble steed a name."
-62,"TEXT_SUBSEA910_00701_Fraegeim_040","Heh heh! I daresay he likes his name!"
-63,"TEXT_SUBSEA910_00701_Fraegeim_041","Here is your very own chocobo whistle. Simply blow into it, and your feathered friend will come bounding to your side."
-64,"TEXT_SUBSEA910_00701_Fraegeim_042","But do forgive him if he doesn't respond when summoned in crowded city areas or monster-infested lairs. Chocobos are stout-hearted creatures, but they have their limits."
-65,"TEXT_SUBSEA910_00701_Fraegeim_043","And lastly, I present you with your chocobo rider's license, as is required by law."
-66,"TEXT_SUBSEA910_00701_Fraegeim_044","And that concludes all the formalities! I wish you and your chocobo long years of fulfilling companionship!"
-67,"TEXT_SUBSEA910_00701_CHOCOBO_PROMPT_TITLE","Name Your Chocobo"
-68,"TEXT_SUBSEA910_00701_CHOCOBO_PROMPT_CAPTION","Name"
-69,"TEXT_SUBSEA910_00701_CHOCOBO_PROMPT_MES0","Names must be between 2 and 20 alphabetic characters."
+48,"TEXT_SUBSEA910_00701_Rashaht_000","やあ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/><If(GreaterThan(PlayerParameter(52),0))><Sheet(GCRankLimsaMaleText,PlayerParameter(52),0)/><Else/></If>だね？
+任務御苦労！　キミの活躍ぶりは聞いているよ。
+中々の腕前だそうじゃないか。"
+49,"TEXT_SUBSEA910_00701_Rashaht_001","そんなキミなら、任務の際に、
+もっと速く移動できたらって感じることもあるだろ？"
+50,"TEXT_SUBSEA910_00701_Rashaht_002","そんな時に役立つのが、
+自分用のチョコボ「マイチョコボ」さ。
+キミほどの隊士なら、直ぐにでも取得すべきだよ。"
+51,"TEXT_SUBSEA910_00701_Rashaht_003","補給担当官へ軍票を払って交換した「<Sheet(Item,6017,0)/>」を
+ゼファー陸門にいる「チョコボ屋 フレーゲイム」に渡すんだ。
+そうすれば、キミぴったりの相棒を用意してくれるはずさ。"
+52,"TEXT_SUBSEA910_00701_Rashaht_010","補給担当官へ軍票を払って交換した「<Sheet(Item,6017,0)/>」を
+ゼファー陸門にいる「チョコボ屋 フレーゲイム」に渡すんだ。
+そうすれば、キミぴったりの相棒を用意してくれるはずさ。"
+53,"TEXT_SUBSEA910_00701_Fraegeim_000","「マイチョコボ」が欲しいですって？
+それでは、「<Sheet(Item,6017,0)/>」を渡してください。"
+54,"TEXT_SUBSEA910_00701_Fraegeim_010","確かに、こちらはグランドカンパニーが発行した
+「<Sheet(Item,6017,0)/>」のようですね。"
+55,"TEXT_SUBSEA910_00701_Fraegeim_011","それでは、お客様に相応しい
+素敵なチョコボを連れてきますから、少々お待ちください。"
+56,"TEXT_SUBSEA910_00701_Fraegeim_012","お客様が来る少し前から、この子、嬉しそうに騒いでました。
+お客様との対面を、予感していたのかもしれませんね。"
+57,"TEXT_SUBSEA910_00701_Fraegeim_013","さあ、さあ、お客様！
+早速、このオスのチョコボに名前をつけてあげてください。"
+58,"TEXT_SUBSEA910_00701_Fraegeim_020","「マイチョコボ」が欲しいですって？
+それでしたら、グランドカンパニーの補給担当官から、
+「<Sheet(Item,6017,0)/>」をご提示ください。"
+59,"TEXT_SUBSEA910_00701_Fraegeim_021","「<Sheet(Item,6017,0)/>」は、
+グランドカンパニーの任務でもらえる「軍票」を貯めると、
+交換できるらしいですよ。"
+60,"TEXT_SUBSEA910_00701_CHOCOBO_000","クェ～ッ！"
+61,"TEXT_SUBSEA910_00701_Fraegeim_030","さあ、さあ、お客様！
+早速、このオスのチョコボに名前をつけてあげてください。"
+62,"TEXT_SUBSEA910_00701_Fraegeim_040","あなたのつけた名前を、
+チョコボも気に入ってくれたみたいですね。"
+63,"TEXT_SUBSEA910_00701_Fraegeim_041","さあ、こちらの「<Sheet(Item,6001,0)/>」を受け取ってください。
+こいつを吹き鳴らせば「マイチョコボ」が、
+駆けつけてくれますよ。"
+64,"TEXT_SUBSEA910_00701_Fraegeim_042","ただし、人通りが多い都市内や、
+魔物が巣くう洞窟など、チョコボが嫌がる場所には
+来てくれませんから、注意してくださいね。"
+65,"TEXT_SUBSEA910_00701_Fraegeim_043","それから、もうひとつ各都市が発行している
+「初級騎乗免許」もお渡ししておきます。"
+66,"TEXT_SUBSEA910_00701_Fraegeim_044","さあ、これで手続きは完了ですよ。
+さっそく都市の外へと出て、マイチョコボとの旅を
+楽しんでみてはいかがですか？"
+67,"TEXT_SUBSEA910_00701_CHOCOBO_PROMPT_TITLE","マイチョコボの名前を入力してください"
+68,"TEXT_SUBSEA910_00701_CHOCOBO_PROMPT_CAPTION","名前"
+69,"TEXT_SUBSEA910_00701_CHOCOBO_PROMPT_MES0","アルファベット及びアポストロフィが使えます。
+2文字以上20文字以内の名前を入力してください。"
 70,"TEXT_SUBSEA910_00701_CHOCOBO_PROMPT_MES1",""
 71,"TEXT_SUBSEA910_00701_CHOCOBO_PROMPT_MES2",""

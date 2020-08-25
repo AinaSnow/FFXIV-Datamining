@@ -1,8 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKZD002_03409_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Gyuf Daen isn't in the mood for pixie mischief."
+0,"TEXT_LUCKZD002_03409_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+プラ・エンニ茸窟のギュフ＝ダエンは、厄介な隣人に困っているようだ。"
 1,"TEXT_LUCKZD002_03409_SEQ_01",""
 2,"TEXT_LUCKZD002_03409_SEQ_02",""
 3,"TEXT_LUCKZD002_03409_SEQ_03",""
@@ -26,9 +26,9 @@ Gyuf Daen isn't in the mood for pixie mischief."
 21,"TEXT_LUCKZD002_03409_SEQ_21",""
 22,"TEXT_LUCKZD002_03409_SEQ_22",""
 23,"TEXT_LUCKZD002_03409_SEQ_23",""
-24,"TEXT_LUCKZD002_03409_TODO_00","Deliver numbcap spores to Jul Feo."
-25,"TEXT_LUCKZD002_03409_TODO_01","Gather flower seeds."
-26,"TEXT_LUCKZD002_03409_TODO_02","Deliver the flower seeds to Gyuf Daen."
+24,"TEXT_LUCKZD002_03409_TODO_00","リダ・ラーンのユル＝フェオに<Sheet(EventItem,2002640,0)/>を渡す"
+25,"TEXT_LUCKZD002_03409_TODO_01","<Sheet(EventItem,2002641,0)/>を集める"
+26,"TEXT_LUCKZD002_03409_TODO_02","プラ・エンニ茸窟のギュフ＝ダエンに<Sheet(EventItem,2002641,0)/>を渡す"
 27,"TEXT_LUCKZD002_03409_TODO_03",""
 28,"TEXT_LUCKZD002_03409_TODO_04",""
 29,"TEXT_LUCKZD002_03409_TODO_05",""
@@ -50,24 +50,55 @@ Gyuf Daen isn't in the mood for pixie mischief."
 45,"TEXT_LUCKZD002_03409_TODO_21",""
 46,"TEXT_LUCKZD002_03409_TODO_22",""
 47,"TEXT_LUCKZD002_03409_TODO_23",""
-48,"TEXT_LUCKZD002_03409_GYUFDAEN_000_000","Gah, what a quandary this is... The mere thought of going makes me wince..."
-49,"TEXT_LUCKZD002_03409_GYUFDAEN_000_001","What ails me? I'm supposed to take myself to Lydha Lran to trade, but I have a strong aversion to the pixies and their antics. I realize this is sudden, but won't you go in my stead?"
-50,"TEXT_LUCKZD002_03409_GYUFDAEN_000_002","If you are willing, please see this bag of numbcap spores to a pixie named Jul Feo. In return, they should give you some flower seeds."
-51,"TEXT_LUCKZD002_03409_GYUFDAEN_000_003","Oh, and if they try any tricks on you, incant the word “law.” It will allow you to exact some small revenge."
-52,"TEXT_LUCKZD002_03409_GYUFDAEN_000_004","I pray that you won't have to resort to it, however..."
-53,"TEXT_LUCKZD002_03409_GYUFDAEN_000_005","The pixie's name is Jul Feo. Give them the numbcap spores, and you should receive flower seeds in return. If they try any tricks on you, incant the word “law.”"
-54,"TEXT_LUCKZD002_03409_JULFEO_000_010","You're late! And there I thought Nu Mou were supposed to be punc─ Wait, you're Feo Ul's sapling! Come on, let's play, let's play!"
-55,"TEXT_LUCKZD002_03409_JULFEO_000_011","Oh, the numbcap spores! Tee hee! These are going to be sooo much fun!"
-56,"TEXT_LUCKZD002_03409_JULFEO_000_012","I'm going to throw these at other pixies. And do you know what will happen? It'll make them go numb all over! They won't be able to move a finger! Ahahaha!"
-57,"TEXT_LUCKZD002_03409_JULFEO_000_013","Ah, but I mustn't forget my side of the bargain. You may collect your bags of flower seeds from the fields. I've taken the liberty of leaving them here, there, and everywhere!"
-58,"TEXT_LUCKZD002_03409_JULFEO_000_014","After all, I never made any promises about handing the seeds to you here! Tee hee hee!"
-59,"TEXT_LUCKZD002_03409_Q1_000_000","What will you do?"
-60,"TEXT_LUCKZD002_03409_A1_000_001","Incant the word “law.”"
-61,"TEXT_LUCKZD002_03409_A1_000_002","Exercise forbearance."
-62,"TEXT_LUCKZD002_03409_JULFEO_000_015","Uwaaaaaah! It tingles, it prickles, it stings! All right, I'm sorry, I'm sorry!"
-63,"TEXT_LUCKZD002_03409_JULFEO_000_016","Tee hee! Lovely doing business, and send my regards to the good folk of Pla Enni!"
-64,"TEXT_LUCKZD002_03409_JULFEO_000_017","Hm? Shouldn't you be collecting your flower seeds? If you take too long, they might sprout where they lie."
-65,"TEXT_LUCKZD002_03409_GYUFDAEN_000_020","Ah, you've returned. Do you have the flower seeds?"
-66,"TEXT_LUCKZD002_03409_GYUFDAEN_000_021","Six bags of seeds as agreed upon. Excellent. I won't ask whether you had to incant the word, but I hope the experience wasn't too troublesome."
-67,"TEXT_LUCKZD002_03409_GYUFDAEN_000_022","Lest you wonder, from these seeds we will extract an oil for use in food and medicine. In the old days, we traded with the men of Voeburt for it, but now we must turn to the pixies. <sigh>"
-68,"TEXT_LUCKZD002_03409_GYUFDAEN_000_023","Yet though they can be vexing neighbors, the pixies play an important role in the protection of Il Mheg. We must learn to live with each other for the common good. But I digress. My thanks for your help. Please accept this as fitting payment."
+48,"TEXT_LUCKZD002_03409_GYUFDAEN_000_000","はぁ……私困っています。
+なぜかって、悪戯ばかりするピクシーが苦手だからです。
+何をされるか、わかったものではありません。"
+49,"TEXT_LUCKZD002_03409_GYUFDAEN_000_001","はぁ……困っている私の代わりに、
+あなたがピクシーの元にお使いに行ってくれたら嬉しいのですが。
+もちろん、きっちりきっかり、対価はお支払いしますので。"
+50,"TEXT_LUCKZD002_03409_GYUFDAEN_000_002","依頼は安心安全、この「<Sheet(EventItem,2002640,0)/>」を、
+リダ・ラーンの「ユル＝フェオ」に渡して、
+注文した花の種を受け取るダケ。"
+51,"TEXT_LUCKZD002_03409_GYUFDAEN_000_003","あ……そうそうそう。
+もしも、ピクシーがふざけた悪戯をしようとしたら、
+魔法の合言葉「ロウ！」と唱えるといいです。"
+52,"TEXT_LUCKZD002_03409_GYUFDAEN_000_004","きっと、ささやかな復讐ができるでしょう。
+願わくば、その魔法を使わなくても済みますよう……。
+いってらっしゃい。"
+53,"TEXT_LUCKZD002_03409_GYUFDAEN_000_005","「<Sheet(EventItem,2002640,0)/>」をリダ・ラーンの「ユル＝フェオ」に渡し、
+注文した花の種を受け取ってください。
+ピクシーが悪戯しようとしたら「ロウ！」ですよ……。"
+54,"TEXT_LUCKZD002_03409_JULFEO_000_010","ちょっとー！
+ン・モゥのくせに遅いじゃない……って、フェオの若木が来た！
+なになに、何の用？　遊ぶ？　遊ぶ？"
+55,"TEXT_LUCKZD002_03409_JULFEO_000_011","あら、アンタがこれを持ってきてくれたのね！
+ウシシ……この胞子嚢があればイイコトできちゃうんだ！"
+56,"TEXT_LUCKZD002_03409_JULFEO_000_012","この胞子をね、他のピクシーたちにぶつけるの！
+そしたら、そしたら、どうなると思う？
+みんなビリビリビリ～って、動けなくなっちゃうの……最っ高！"
+57,"TEXT_LUCKZD002_03409_JULFEO_000_013","そうそう、注文した花の種ならその辺にあるよ。
+花畑のあちこちに、6袋バラッバラに置いたの！
+欲しかったら、探して集めなきゃね！"
+58,"TEXT_LUCKZD002_03409_JULFEO_000_014","ウシシ……だって、種の所有権を渡す約束はしたけど、
+運んで一箇所に集めるとは、約束してないもんねー！
+あれあれ、怒った、怒った？"
+59,"TEXT_LUCKZD002_03409_Q1_000_000","どうする？"
+60,"TEXT_LUCKZD002_03409_A1_000_001","ロウ！"
+61,"TEXT_LUCKZD002_03409_A1_000_002","広い心で許す"
+62,"TEXT_LUCKZD002_03409_JULFEO_000_015","ひぎゃあああああああああああ！？
+しびれるぅうううううう！"
+63,"TEXT_LUCKZD002_03409_JULFEO_000_016","ウシシ……毎度、ありがと！
+ン・モゥによろしくねー！"
+64,"TEXT_LUCKZD002_03409_JULFEO_000_017","ま、まだいたの？
+「<Sheet(EventItem,2002641,0)/>」は6つあるから、頑張って集めることね！"
+65,"TEXT_LUCKZD002_03409_GYUFDAEN_000_020","おかえりなさい。
+「<Sheet(EventItem,2002641,0)/>」は受け取れましたか？"
+66,"TEXT_LUCKZD002_03409_GYUFDAEN_000_021","……うん、きっちり6袋ありました。
+あえて、魔法の合言葉を使ったかどうかはききません。
+とにかくご苦労様でした。"
+67,"TEXT_LUCKZD002_03409_GYUFDAEN_000_022","この種を絞って油にして、香油や料理に使うのです。
+かつては、油はフッブート王国の人々から仕入れていたのに、
+今はピクシーと取引しなくてはいけないのです……はぁ。"
+68,"TEXT_LUCKZD002_03409_GYUFDAEN_000_023","やれやれ……やっかいな隣人ですが、
+それでもイル・メグを護るのに一役買っていることも確かです。
+それでは、あなたへの対価をきっちりお支払いしましょう。"

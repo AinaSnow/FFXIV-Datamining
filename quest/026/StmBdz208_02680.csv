@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ208_02680_SEQ_00","Kaizan is looking for a <If(PlayerParameter(4))>woman<Else/>man</If> of true grit."
+0,"TEXT_STMBDZ208_02680_SEQ_00","筋違砦のカイザンは、度胸ある者を探しているようだ。"
 1,"TEXT_STMBDZ208_02680_SEQ_01",""
 2,"TEXT_STMBDZ208_02680_SEQ_02",""
 3,"TEXT_STMBDZ208_02680_SEQ_03",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_STMBDZ208_02680_SEQ_21",""
 22,"TEXT_STMBDZ208_02680_SEQ_22",""
 23,"TEXT_STMBDZ208_02680_SEQ_23",""
-24,"TEXT_STMBDZ208_02680_TODO_00","Use large burlap sacks to capture weakened sea serpents."
-25,"TEXT_STMBDZ208_02680_TODO_01","Deliver the weakened sea serpents to Kaizan."
+24,"TEXT_STMBDZ208_02680_TODO_00","弱らせた<Sheet(BNpcName,5738,0)/>に<Sheet(EventItem,2002281,0)/>を使い捕獲"
+25,"TEXT_STMBDZ208_02680_TODO_01","カイザンに<Sheet(EventItem,2002282,0)/>を渡す"
 26,"TEXT_STMBDZ208_02680_TODO_02",""
 27,"TEXT_STMBDZ208_02680_TODO_03",""
 28,"TEXT_STMBDZ208_02680_TODO_04",""
@@ -49,12 +49,27 @@ int32,str,str
 45,"TEXT_STMBDZ208_02680_TODO_21",""
 46,"TEXT_STMBDZ208_02680_TODO_22",""
 47,"TEXT_STMBDZ208_02680_TODO_23",""
-48,"TEXT_STMBDZ208_02680_KAIZAN_000_000","Ha! You look to be a <If(PlayerParameter(4))>woman<Else/>man</If> of great strength and courage, besides! How would you like to do me a favor?"
-49,"TEXT_STMBDZ208_02680_KAIZAN_000_001","To the west of Shoal Rock are sea serpents. I need for you to weaken three and bring them back to me in these sacks."
-50,"TEXT_STMBDZ208_02680_KAIZAN_000_002","You are a brave <If(PlayerParameter(4))>woman<Else/>man</If>─far braver than the spineless cowards what inhabit this island. To think they call themselves pirates when a little serpent venom is enough to scare them. Ha! What a sorry lot!"
-51,"TEXT_STMBDZ208_02680_KAIZAN_000_003","To the west of Shoal Rock are some sea serpents. I need you to weaken three, put them in the burlap sacks I gave you, and deliver them to me."
-52,"TEXT_STMBDZ208_02680_KAIZAN_000_010","Have you brought me my sea serpents?"
-53,"TEXT_STMBDZ208_02680_KAIZAN_000_011","Well, color me impressed! You actually managed to capture three! While that is the number I asked for, they are extremely vicious creatures, and I expected you would only be able to return with one."
-54,"TEXT_STMBDZ208_02680_KAIZAN_000_012","I am also glad to see you also took care not to kill them. Sea serpent steak is incredibly tasty but only if prepared fresh."
-55,"TEXT_STMBDZ208_02680_KAIZAN_000_013","Before I get to grilling these buggers, however, I must milk them for their venom. We use it to spike the drinks of Confederate traitors."
-56,"TEXT_STMBDZ208_02680_KAIZAN_000_014","Nine out of ten times they will die, but the lucky survivors─like me─are given the chance to redeem themselves."
+48,"TEXT_STMBDZ208_02680_KAIZAN_000_000","なあ、<If(PlayerParameter(4))>姉ちゃん<Else/>兄ちゃん</If>。
+ひとつ、度胸がいる仕事を引き受けてくれないか？"
+49,"TEXT_STMBDZ208_02680_KAIZAN_000_001","沖之岩の西に、「<Sheet(BNpcName,5738,0)/>」がいる。
+そいつを3匹、ある程度弱らせてから、
+「<Sheet(EventItem,2002281,0)/>」を使って捕獲してくれ。"
+50,"TEXT_STMBDZ208_02680_KAIZAN_000_002","うちの腕利きたちに頼んだが、揃いも揃って、
+<Sheet(BNpcName,5738,0)/>の毒を怖れて、首を縦にふらねぇんだよ。
+まったく、度胸のない奴らだぜ……。"
+51,"TEXT_STMBDZ208_02680_KAIZAN_000_003","沖之岩の西に、「<Sheet(BNpcName,5738,0)/>」がいる。
+そいつを3匹、ある程度弱らせてから、
+「<Sheet(EventItem,2002281,0)/>」を使って捕獲してくれ。"
+52,"TEXT_STMBDZ208_02680_KAIZAN_000_010","「<Sheet(BNpcName,5738,0)/>」を3匹、生け捕りできたか？"
+53,"TEXT_STMBDZ208_02680_KAIZAN_000_011","ありがとな、<If(PlayerParameter(4))>姉ちゃん<Else/>兄ちゃん</If>。
+精鋭でも1匹がやっとな<Sheet(BNpcName,5738,0)/>を、
+あっという間に3匹獲ってくるとは、驚きだぜ。"
+54,"TEXT_STMBDZ208_02680_KAIZAN_000_012","<Sheet(BNpcName,5738,0)/>は、すぐに捌かないと肉質が落ちるんだ。
+その上、牙は武器の、肝は丸薬の材料にってな具合で、
+余すところなく使える役立つ存在なのさ。"
+55,"TEXT_STMBDZ208_02680_KAIZAN_000_013","そのほかにも、海賊衆特有の使い方もあるぞ。
+重大な掟破りが出たときに、
+ソイツに、<Sheet(BNpcName,5738,0)/>の毒を混ぜた酒を呑ませるんだよ。"
+56,"TEXT_STMBDZ208_02680_KAIZAN_000_014","十中八九死ぬが、運良く生き残ったら、
+掟破りの罪を許され、再び同胞として、受け入れてもらえる。
+まあ……俺も、その悪運の強いひとりだったりしてな。"

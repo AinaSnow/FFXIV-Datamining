@@ -1,12 +1,12 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ606_02784_SEQ_00","Esugen has finished all his tasks for today."
-1,"TEXT_STMBDZ606_02784_SEQ_01","Jelme, a young Oroniri boy informs Esugen and you of an upcoming tournament to be held among the brothers of the tribe. While reluctant to do so, the culinarian is required to participate and hastens off to train. As soon as your friend leaves, Jelme turns to you with a request on the tip of his tongue."
-2,"TEXT_STMBDZ606_02784_SEQ_02","As Esugen continuously places last in all strength-based tournaments, in the days leading up to the match he often becomes depressed. Jelme, wanting to help lift his spirits, has written a letter of encouragement. He feels too embarrassed to deliver it himself, however, and requests that you take it to the culinarian in his stead."
-3,"TEXT_STMBDZ606_02784_SEQ_03","Esugen is visibly moved by the touching words penned upon the letter. He would like to thank the young boy in person for the kind gesture and begins making his way back to the Dawn Throne with you in tow."
-4,"TEXT_STMBDZ606_02784_SEQ_04","Esugen's joy is short-lived for not soon after you return to where Jelme is, you are joined by his brother, Kuzuku. After directing a few scathing remarks at the culinarian, he warns the young boy against associating with Esugen then leaves. More than Kuzuku's harsh words, however, Jelme is upset by Esugen's passive attitude. Begging him to learn to stand up for himself, the orphan storms off, leaving you and the stunned culinarian in his wake."
-5,"TEXT_STMBDZ606_02784_SEQ_05","Seeing how upset Jelme was by Kuzuku's comments and his passive reaction to them, Esugen vows to no longer let people to walk all over him. He has steeled his resolve and intends to do his very best in the upcoming tournament."
+0,"TEXT_STMBDZ606_02784_SEQ_00","明けの玉座のエスゲンは、料理の準備が終わったようだ。"
+1,"TEXT_STMBDZ606_02784_SEQ_01","エスゲンと話した。料理の準備が終わり、冒険者にやることはないと思われたが、ジェルメという子どもから「今度、兄弟闘技を行なう」との知らせがもたらされた。エスゲンは鍛錬に行ったが、ジェルメから相談に乗ってほしいと頼まれた。明けの玉座の「ジェルメ」と話そう。"
+2,"TEXT_STMBDZ606_02784_SEQ_02","ジェルメと話した。どうやらジェルメは、落ち込むエスゲンを励ましたいようだ。刃の海周辺にいる「エスゲン」に、ジェルメが書いた「<Sheet(EventItem,2002363,0)/>」を渡そう。"
+3,"TEXT_STMBDZ606_02784_SEQ_03","エスゲンに<Sheet(EventItem,2002363,0)/>を渡した。励ましと、料理を褒められたことに感動したエスゲンは、ジェルメにお礼を言わねばと明けの玉座に戻っていった。明けの玉座の「ジェルメ」に報告しよう。"
+4,"TEXT_STMBDZ606_02784_SEQ_04","ジェルメに報告した。すると、ジェルメの兄だというクズクがやってきて、ジェルメへ「エスゲンと仲良くするのはやめろ」と言った。エスゲンは笑って流そうとしたが、ジェルメはその反応が嫌だったようで、走り去ってしまった。明けの玉座の「エスゲン」と話そう。"
+5,"TEXT_STMBDZ606_02784_SEQ_05","エスゲンと話した。ジェルメの気持ちを受けて、エスゲンは、嫌なことがあってもごまかさないと決めたようだ。世話になっているお礼がしたいと言うエスゲンと、もう少し話を続けてみよう。"
 6,"TEXT_STMBDZ606_02784_SEQ_06",""
 7,"TEXT_STMBDZ606_02784_SEQ_07",""
 8,"TEXT_STMBDZ606_02784_SEQ_08",""
@@ -25,10 +25,10 @@ int32,str,str
 21,"TEXT_STMBDZ606_02784_SEQ_21",""
 22,"TEXT_STMBDZ606_02784_SEQ_22",""
 23,"TEXT_STMBDZ606_02784_SEQ_23",""
-24,"TEXT_STMBDZ606_02784_TODO_00","Speak with Jelme."
-25,"TEXT_STMBDZ606_02784_TODO_01","Deliver Jelme's letter to Esugen."
-26,"TEXT_STMBDZ606_02784_TODO_02","Report to Jelme."
-27,"TEXT_STMBDZ606_02784_TODO_03","Speak with Esugen."
+24,"TEXT_STMBDZ606_02784_TODO_00","ジェルメと話す"
+25,"TEXT_STMBDZ606_02784_TODO_01","エスゲンに<Sheet(EventItem,2002363,0)/>を渡す"
+26,"TEXT_STMBDZ606_02784_TODO_02","ジェルメに報告"
+27,"TEXT_STMBDZ606_02784_TODO_03","エスゲンと話す"
 28,"TEXT_STMBDZ606_02784_TODO_04",""
 29,"TEXT_STMBDZ606_02784_TODO_05",""
 30,"TEXT_STMBDZ606_02784_TODO_06",""
@@ -49,35 +49,87 @@ int32,str,str
 45,"TEXT_STMBDZ606_02784_TODO_21",""
 46,"TEXT_STMBDZ606_02784_TODO_22",""
 47,"TEXT_STMBDZ606_02784_TODO_23",""
-48,"TEXT_STMBDZ606_02784_ESUGEN_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, how kind of you to come by and check in on me. I have, however, already finished everything that needs to be done for today."
-49,"TEXT_STMBDZ606_02784_JELME_000_001","Mister Esugen! Mister Esugen! Did you hear the news? There is to be a tournament among the brothers to determine who will be participating in the upcoming Naadam!"
-50,"TEXT_STMBDZ606_02784_JELME_000_002","Mister Esugen! Mister Esugen! Did you hear the news? There is to be a tournament among the brothers. Ever since we lost to the Mol, morale has been low and the elders thought this would be the perfect way to motivate everyone to train harder."
-51,"TEXT_STMBDZ606_02784_ESUGEN_000_003","A-A tournament among the brothers!? <sigh> No doubt I will finish last again and humiliate myself in front of everyone. Bah! As much as I would like to slither my way out of this, upon my honor as an Oroniri man, I cannot."
-52,"TEXT_STMBDZ606_02784_ESUGEN_000_004","I must give it my all or risk being forsaken by Father Azim. I shall leave now to go and train at the Steppe."
-53,"TEXT_STMBDZ606_02784_JELME_000_005","Are you Mister Esugen's friend? Do you think you could do me a small favor?"
-54,"TEXT_STMBDZ606_02784_JELME_000_010","These tournaments are used to determine an Oronir's skill in combat. Every time we have one, Mister Esugen always places last, and because of this, he is often miserable in the days leading up to the match."
-55,"TEXT_STMBDZ606_02784_JELME_000_011","I wrote him a letter to cheer him up. Without him, strays like me would starve. I wanted to return the kindness he has shown me throughout the years."
-56,"TEXT_STMBDZ606_02784_JELME_000_012","Do you think you could deliver it to him for me? I am far too embarrassed to do it myself."
-57,"TEXT_STMBDZ606_02784_JELME_000_013","You should be able to find him quite easily. He never wanders too far from the Dawn Throne to train."
-58,"TEXT_STMBDZ606_02784_ESUGEN_000_020","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>...<pant>... What brings you...<pant>...here?"
-59,"TEXT_STMBDZ606_02784_ESUGEN_000_021","You come bearing a letter from little Jelme, you say? Well, let us have a look, then."
-60,"TEXT_STMBDZ606_02784_JELME_000_022","(-Letter from Jelme-)Dear Mister Esugen,
-I am writing this letter to thank you. Your delicious food was one of the few things that helped me to overcome the pain of losing my parents."
-61,"TEXT_STMBDZ606_02784_JELME_000_023","(-Letter from Jelme-)While you may not be the strongest or the bravest, you are the kindest. I really hope you will do well in the upcoming tournament. Please know that I will be cheering you on the whole way."
-62,"TEXT_STMBDZ606_02784_JELME_000_024","(-Letter from Jelme-)P.S. The stew you made last night was scrumptious. I hope you will make it again sometime."
-63,"TEXT_STMBDZ606_02784_ESUGEN_000_025","What a touching letter. Jelme─he is a good boy. I shall be making him that stew as soon as I am removed from the competition."
-64,"TEXT_STMBDZ606_02784_ESUGEN_000_026","Hahaha! His words have put me in such a fine mood that even thoughts of finishing last cannot get me down. I must go to thank the young boy. Come, let us return to the camp."
-65,"TEXT_STMBDZ606_02784_JELME_000_035","Please can you deliver my letter to Mister Esugen for me? He usually trains in the area below the Dawn Throne. He should not be too hard to find."
-66,"TEXT_STMBDZ606_02784_JELME_000_040","Thank you for delivering my letter. Mister Esugen looks far less glum, now. Would you not agree?"
-67,"TEXT_STMBDZ606_02784_JELME_000_041","Oh, look! There's my brother! Kuzuku! Oi, Kuzuku!"
-68,"TEXT_STMBDZ606_02784_KUZHUK_000_042","Jelme, what are you doing here? You need to be training. In a few years you, too, will be required to join the tournaments."
-69,"TEXT_STMBDZ606_02784_KUZHUK_000_043","Remember the reason this fool has yet to be accepted as a warrior is because he wasted all his time cooking. Unless you wish to end up a failure like him, I suggest you pick up a spear and begin working on your aim."
-70,"TEXT_STMBDZ606_02784_ESUGEN_000_044","<sigh> Sadly, he is right, Jelme. Associating with me will not do you any good. If you wish to become strong, you best follow your brother's advice."
-71,"TEXT_STMBDZ606_02784_JELME_000_045","No! I do not care to be strong. Your friendship is far more important to me, but that is beside the point!"
-72,"TEXT_STMBDZ606_02784_JELME_000_046","How can you just stand there and smile when people insult you!? Just because you are weak does not mean you should let them treat you like dirt! Argh!"
-73,"TEXT_STMBDZ606_02784_ESUGEN_000_055","I think I will keep Jelme's letter. It is perhaps one of the nicest things anyone has ever done for me."
-74,"TEXT_STMBDZ606_02784_ESUGEN_000_060","Kuzuku's remarks seemed to have upset Jelme more than they have me. I am so accustomed to being mocked that I have grown a rather thick skin."
-75,"TEXT_STMBDZ606_02784_ESUGEN_000_061","<sigh> I should have realized sooner that such comments could also hurt the people close to me..."
-76,"TEXT_STMBDZ606_02784_ESUGEN_000_062","While I shall never come to be respected among our brothers for my strength, perhaps I can at least learn to stand up for myself."
-77,"TEXT_STMBDZ606_02784_ESUGEN_000_063","In the meantime, I must find a way to undo the pain I have caused Jelme."
-78,"TEXT_STMBDZ606_02784_ESUGEN_000_064","I suspect the only way to accomplish that, however, would be to not place last in the upcoming tournament..."
+48,"TEXT_STMBDZ606_02784_ESUGEN_000_000","あ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/><If(PlayerParameter(4))>さん<Else/>くん</If>。
+料理の仕込みはあらかた終わったよ。
+今日のところは、特に頼むことはないかな。"
+49,"TEXT_STMBDZ606_02784_JELME_000_001","あのー、エスゲンおじさん。
+今度、「兄弟闘技」をやるらしいよ。
+「終節の合戦」に向けて、みんなの力を確認するんだって。"
+50,"TEXT_STMBDZ606_02784_JELME_000_002","あのー、エスゲンおじさん。
+今度、「兄弟闘技」をやるらしいよ。
+「終節の合戦」の反省で、みんなの力を確認したいんだって。"
+51,"TEXT_STMBDZ606_02784_ESUGEN_000_003","えっ、ええっ！？
+兄弟闘技か……どうせ負けて「末弟」のままなんだろうけど、
+オロニルの男としては、出ないわけにもいかないし……。"
+52,"TEXT_STMBDZ606_02784_ESUGEN_000_004","何より、全力で戦わないと、太陽神アジムに申し訳が立たない。
+……ちょっと、外で鍛えてくるよ。"
+53,"TEXT_STMBDZ606_02784_JELME_000_005","あの、<If(PlayerParameter(4))>お姉さん<Else/>お兄さん</If>は、おじさんの友達？
+ちょっと、聞いてほしいことがあるんだけど、いいかな？"
+54,"TEXT_STMBDZ606_02784_JELME_000_010","あのね、兄弟闘技っていうのは、兄弟の序列を決める試合なんだ。
+でも、おじさんは毎回、最下位だから、
+闘技の前になると、すっごく落ち込んじゃって……。"
+55,"TEXT_STMBDZ606_02784_JELME_000_011","僕、そんなおじさんを励ましたいんだ！
+おじさんは、僕のような「親なし子」にも、
+ご飯を作ってくれる、とっても優しい人なんだ！"
+56,"TEXT_STMBDZ606_02784_JELME_000_012","それでね、僕、おじさんを励ます手紙を書いたんだ。
+<If(PlayerParameter(4))>お姉さん<Else/>お兄さん</If>、この「手紙」を届けてくれる？
+面と向かって渡すのは、ちょっと照れくさいからさ……。"
+57,"TEXT_STMBDZ606_02784_JELME_000_013","おじさんが鍛錬するとしたら、明けの玉座の下に行って、
+そんなに離れてないところだと思うよ。
+よろしくお願いね！"
+58,"TEXT_STMBDZ606_02784_ESUGEN_000_020","あ、ああ、君か……。
+やっぱりすぐに、息が上がっちゃって、休んでたんだ。
+それで、何か用かい？"
+59,"TEXT_STMBDZ606_02784_ESUGEN_000_021","えっ、ジェルメくんからの手紙？
+な、なんだろうな……。"
+60,"TEXT_STMBDZ606_02784_JELME_000_022","(-ジェルメからの手紙-)おじさん、いつもおいしいご飯をありがとう。
+お父さんとお母さんが死んじゃって、
+つらかったとき、作ってくれたご飯があっためてくれました。"
+61,"TEXT_STMBDZ606_02784_JELME_000_023","(-ジェルメからの手紙-)僕は、そんな優しいおじさんが、大好きです。
+今度の兄弟闘技も、僕は応援しています。
+がんばってください。"
+62,"TEXT_STMBDZ606_02784_JELME_000_024","(-ジェルメからの手紙-)おじさんの作ってくれる料理も、大好きです。
+これからも作ってくれると、嬉しいです。"
+63,"TEXT_STMBDZ606_02784_ESUGEN_000_025","……嬉しいね。
+料理とはいえ、人から褒められて、求められたのは初めてだ。
+まあ、末弟から抜け出したら、調理の役目じゃなくなるけど……。"
+64,"TEXT_STMBDZ606_02784_ESUGEN_000_026","うん、でも、なんだか元気が出たよ！
+鍛錬も調理も、気合を入れないとね。
+でも、まずは「ジェルメ」くんに、お礼を言ってくるよ！"
+65,"TEXT_STMBDZ606_02784_JELME_000_035","おじさんに、僕の「手紙」を渡してくれる？
+明けの玉座の下に行って、
+そんなに離れてないところにいるはずだよ。"
+66,"TEXT_STMBDZ606_02784_JELME_000_040","<If(PlayerParameter(4))>お姉さん<Else/>お兄さん</If>、手紙を渡してくれてありがとう！
+おじさん、ちょっと元気になったみたい！"
+67,"TEXT_STMBDZ606_02784_JELME_000_041","あっ、クズク兄ちゃんだ！
+おーい！"
+68,"TEXT_STMBDZ606_02784_KUZHUK_000_042","ジェルメか、何してるんだここで？
+末弟なんかと遊ぶ暇があったら、お前も鍛錬したほうがいいぞ。
+数年すれば、兄弟闘技に出る年齢になるんだからな。"
+69,"TEXT_STMBDZ606_02784_KUZHUK_000_043","そいつは、ずっと調理をやらされてる末弟だ。
+弱いやつと付き合っていても、時間の無駄だろ。
+弓でも槍でもいい、鍛錬をしておくんだ。"
+70,"TEXT_STMBDZ606_02784_ESUGEN_000_044","い、いやー、言われちゃったね！
+確かに私は最弱だし、一緒にいても強くなれやしない……
+クズクくんの言うことを聞いたほうがいいかもね、ハハハ！"
+71,"TEXT_STMBDZ606_02784_JELME_000_045","そんなこと、どうでもいい！！
+僕は、おじさんが好きだから、仲良くしてるんだ！"
+72,"TEXT_STMBDZ606_02784_JELME_000_046","おじさんも、あんなこと言われて、悔しくないの！？
+身体が丈夫じゃないことは知ってるけど……
+笑ってごまかすおじさんは、嫌いだ！"
+73,"TEXT_STMBDZ606_02784_ESUGEN_000_055","あの手紙は、一生の思い出だね。
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/><If(PlayerParameter(4))>さん<Else/>くん</If>、届けてくれてありがとう。"
+74,"TEXT_STMBDZ606_02784_ESUGEN_000_060","ジェルメくんを、怒らせてしまったようだね……。
+長年、末弟をやってるから、あんな言われ方にも慣れちゃってね。
+いつもどおり、笑ってやり過ごすつもりだったんだが……。"
+75,"TEXT_STMBDZ606_02784_ESUGEN_000_061","でも、私のことを考えて、傷ついてくれる人がいるんだなぁ……
+こう言うと不謹慎かもしれないけど、嬉しいよ。"
+76,"TEXT_STMBDZ606_02784_ESUGEN_000_062","けど、認められるくらい強くなるのは無理だ。
+それは、自分が一番わかってる。
+ただ……せめて、笑ってごまかすのは、やめないとね。"
+77,"TEXT_STMBDZ606_02784_ESUGEN_000_063","ああ、ごめんよ……君はなんだか話しやすくて、
+自分の想いを、ついつい語ってしまうんだよ。
+ジェルメくんからの激励といい、人に世話になってばかりだ。"
+78,"TEXT_STMBDZ606_02784_ESUGEN_000_064","そうだ、ふたりに何かお礼がしたいな。
+もちろん、私が兄弟闘技に勝利して、
+末弟を脱するのが、一番のお礼なんだろうけどね……。"

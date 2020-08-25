@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNA202_01600_SEQ_00","Higiri is eager to assist you."
-1,"TEXT_HEAVNA202_01600_SEQ_01","Higiri informs you that the 3rd Unit Braves, led by Yuyuhase, have recently left the Rising Stones. Their purpose: to escort Raubahn to his execution. Make your way to Highbridge and seek out Doware, who will apprise you of the unit's movements."
-2,"TEXT_HEAVNA202_01600_SEQ_02","According to Doware, Yuyuhase and the 3rd are bound for Halatali. Make your way to the training grounds in eastern Thanalan, and join Hozan at the entrance."
-3,"TEXT_HEAVNA202_01600_SEQ_03","Hozan informs you that Ilberd was seen entering Halatali mere moments before your arrival─proof positive that Raubahn is being held within."
+0,"TEXT_HEAVNA202_01600_SEQ_00","ロウェナ記念会館のヒギリは、冒険者の望みを知りたいようだ。"
+1,"TEXT_HEAVNA202_01600_SEQ_01","ヒギリから話を聞いた。ラウバーン移送と前後して動いたユユハセ率いる第三分隊を、ドマの忍びが追っているそうだ。東ザナラーンのハイブリッジにいる「ドウワレ」と話そう。"
+2,"TEXT_HEAVNA202_01600_SEQ_02","ドウワレから話を聞いた。ユユハセらはハラタリ修練所へ向かったそうだ。東ザナラーンのハラタリ修練所付近にいる「ホウザン」と話そう。"
+3,"TEXT_HEAVNA202_01600_SEQ_03","ホウザンから話を聞いた。イルベルドがハラタリ修練所に入ったそうだ。ラウバーンは、ハラタリ修練所に囚われているとみて間違いないだろう。"
 4,"TEXT_HEAVNA202_01600_SEQ_04",""
 5,"TEXT_HEAVNA202_01600_SEQ_05",""
 6,"TEXT_HEAVNA202_01600_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_HEAVNA202_01600_SEQ_21",""
 22,"TEXT_HEAVNA202_01600_SEQ_22",""
 23,"TEXT_HEAVNA202_01600_SEQ_23",""
-24,"TEXT_HEAVNA202_01600_TODO_00","Speak with Doware at Highbridge."
-25,"TEXT_HEAVNA202_01600_TODO_01","Speak with Hozan."
+24,"TEXT_HEAVNA202_01600_TODO_00","ハイブリッジのドウワレと話す"
+25,"TEXT_HEAVNA202_01600_TODO_01","ホウザンと話す"
 26,"TEXT_HEAVNA202_01600_TODO_02",""
 27,"TEXT_HEAVNA202_01600_TODO_03",""
 28,"TEXT_HEAVNA202_01600_TODO_04",""
@@ -49,20 +49,48 @@ int32,str,str
 45,"TEXT_HEAVNA202_01600_TODO_21",""
 46,"TEXT_HEAVNA202_01600_TODO_22",""
 47,"TEXT_HEAVNA202_01600_TODO_23",""
-48,"TEXT_HEAVNA202_01600_HIGIRI_000_000","Shortly before you arrived, I received word from Limsa Lominsa that you were searching for General Raubahn."
-49,"TEXT_HEAVNA202_01600_HIGIRI_000_001","As the Admiral will have informed you, he was recently moved from his cell in the Marasaja Pit."
-50,"TEXT_HEAVNA202_01600_HIGIRI_000_002","At the same juncture, Yuyuhase and the 3rd Unit were observed leaving the Rising Stones."
-51,"TEXT_HEAVNA202_01600_HIGIRI_000_003","This can be no simple coincidence. Their purpose, we believe, is to escort the Flame General to the scene of his execution."
-52,"TEXT_HEAVNA202_01600_HIGIRI_000_004","Suffice it to say, we have people shadowing the 3rd. If you would join the hunt, pray seek out Doware at Highbridge, where I too am bound."
-53,"TEXT_HEAVNA202_01600_HIGIRI_000_005","My comrades pursue the 3rd Unit Braves, even as we speak. If you would join the hunt, pray seek out Doware at Highbridge, where I too am bound."
-54,"TEXT_HEAVNA202_01600_ALPHINAUD_000_006","Yet again, our Doman friends prove their worth... Lolorito was a fool to refuse them asylum."
-55,"TEXT_HEAVNA202_01600_ALPHINAUD_000_007","Could she be the Doman contact of whom the Admiral spoke?"
-56,"TEXT_HEAVNA202_01600_DOUWARE_000_010","I have been expecting you. Time is of the essence, so I shall be direct."
-57,"TEXT_HEAVNA202_01600_DOUWARE_000_011","Yuyuhase and his men are bound for Halatali."
-58,"TEXT_HEAVNA202_01600_DOUWARE_000_012","We believe that this is where they intend to carry out the execution."
-59,"TEXT_HEAVNA202_01600_DOUWARE_000_013","Hozan is presently keeping watch over the entrance. Let us make haste and join him."
-60,"TEXT_HEAVNA202_01600_ALPHINAUD_000_014","Yuyuhase... The mere mention of the name calls to mind the moment I felt the kiss of cold steel against my neck..."
-61,"TEXT_HEAVNA202_01600_HIGIRI_000_015","It has been a while since last I wore this garb. Since I came to Revenant's Toll, my days have been spent in kitchens. Fear not, however: though I have learned to wield a skillet, I have not forgotten the use of a dagger."
-62,"TEXT_HEAVNA202_01600_HOUZAN_000_020","You come at a good time, my friends. But moments ago, the traitor Ilberd arrived and entered Halatali."
-63,"TEXT_HEAVNA202_01600_HOUZAN_000_021","From this, we may be certain that General Raubahn is being held within."
-64,"TEXT_HEAVNA202_01600_ALPHINAUD_000_022","Raubahn's ties to Halatali are well known. That Ilberd should choose this of all places to stage his execution is no coincidence. The <Emphasis>fiend</Emphasis>... Are there no depths to which he will not stoop?"
+48,"TEXT_HEAVNA202_01600_HIGIRI_000_000","なるほど、ラウバーン局長の行方を追っているのですね。
+この件に関しては、メルウィブ提督からの依頼もあって、
+私たちも追っていたところなのです。"
+49,"TEXT_HEAVNA202_01600_HIGIRI_000_001","ウルダハの「マラサジャ収容所」から、
+ラウバーン局長と思われる囚人が移送されるのと前後して、
+ここ、レヴナンツトールでも動きがありました。"
+50,"TEXT_HEAVNA202_01600_HIGIRI_000_002","「石の家」に居座っていたユユハセ分隊長以下、
+クリスタルブレイブ第三分隊が、いずこかに出立したのです。"
+51,"TEXT_HEAVNA202_01600_HIGIRI_000_003","私たちは、この行動の目的が、
+ラウバーン局長護送のためだと睨んでいます。"
+52,"TEXT_HEAVNA202_01600_HIGIRI_000_004","現在、私たちの仲間が、第三分隊を追跡中です。
+私も向かうつもりですので、「ハイブリッジ」に赴き、
+「ドウワレ」さんと合流してください。"
+53,"TEXT_HEAVNA202_01600_HIGIRI_000_005","現在、私たちの仲間が、第三分隊を追跡中です。
+私も向かうつもりですので、「ハイブリッジ」に赴き、
+「ドウワレ」さんと合流してください。"
+54,"TEXT_HEAVNA202_01600_ALPHINAUD_000_006","さすがは、ドマの忍び……。
+その追跡術と情報網は頼りになるな。"
+55,"TEXT_HEAVNA202_01600_ALPHINAUD_000_007","厨房で働く「東方風の女性」……
+まさか、彼女が「忍びの連絡役」なのか？"
+56,"TEXT_HEAVNA202_01600_DOUWARE_000_010","……そろったようだな。
+こうして「暁」のお二方とともに、「士道」に背きし、
+裏切り者に立ち向かえること、心の底より喜んでいる次第だ。"
+57,"TEXT_HEAVNA202_01600_DOUWARE_000_011","肝心の「ユユハセ」らの行方だが……
+奴らは、南の「ハラタリ修練所」に向かったようだ。"
+58,"TEXT_HEAVNA202_01600_DOUWARE_000_012","かの地は「コロセウム財団」の施設だが、
+例の一件以後は、砂蠍衆のロロリト殿が管理していたらしい。
+そんな場所に武装兵が向かったとなると、いよいよ怪しい。"
+59,"TEXT_HEAVNA202_01600_DOUWARE_000_013","「ハラタリ修練所」の様子は、
+我が同志「ホウザン」が見張っている。
+彼の下に急ごう。"
+60,"TEXT_HEAVNA202_01600_ALPHINAUD_000_014","ユユハセか……。
+彼はあの日、私に刃を向けてきた。
+思い起こしただけで、心がざわついてしまうよ。"
+61,"TEXT_HEAVNA202_01600_HIGIRI_000_015","この装束に身を包むのも久しぶりです。
+でも、私だって忍びの端くれ……お役に立って見せますよ。"
+62,"TEXT_HEAVNA202_01600_HOUZAN_000_020","良いところに来てくださいました。
+先ほど、クリスタルブレイブ総隊長、イルベルドがやって来て、
+修練所に入ったところです。"
+63,"TEXT_HEAVNA202_01600_HOUZAN_000_021","これはもう「アタリ」ですな。
+ラウバーン殿は、「ハラタリ修練所」に収監されていると見て、
+まず間違いないでしょう……。"
+64,"TEXT_HEAVNA202_01600_ALPHINAUD_000_022","ラウバーン局長の「コロセウム財団」が保有する場所を、
+処刑場所に選ぶとは……イルベルドめ、何と趣味が悪い。
+失権したことを思い知らせつつ始末するつもりか……！"

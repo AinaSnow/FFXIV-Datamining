@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSC104_00955_SEQ_00","Professor Lamberteint is about to show you something you will never forget."
-1,"TEXT_GAIUSC104_00955_SEQ_01","Professor Lamberteint is delighted to encounter one of the few people with an interest in corrupted crystals, although he doubts your ability to handle such dangerous materials. As luck would have it, he is in possession of a specially warded containment device for such an occasion, which he is prepared to lend to you, in spite of your apparent shortcomings. Duly armed, proceed to Highbridge and introduce yourself to Hahasako, one of Professor Lamberteint's dedicated pupils."
-2,"TEXT_GAIUSC104_00955_SEQ_02","Hahasako's annoyance turns to delight as he realizes that the professor bade you seek him out. Interpreting his mentor's decision as a tacit acknowledgement of his expertise, Hahasako struggles to regain his composure so that he might aid you."
+0,"TEXT_GAIUSC104_00955_SEQ_00","キャンプ・ドライボーンのエーテル学者ランベルタンは、冒険者にクリスタル収集方法を教えてくれるそうだ。"
+1,"TEXT_GAIUSC104_00955_SEQ_01","ランベルタンから偏属性クリスタルを入れる「<Sheet(EventItem,2000741,0)/>」を受け取った。ハイブリッジにいる彼の弟子「ハハサコ」に渡し、話を聞こう。"
+2,"TEXT_GAIUSC104_00955_SEQ_02","ハハサコはハイブリッジでクリスタルについての研究をしているらしい。冒険者の偏属性クリスタル探索に協力してくれるそうだ。"
 3,"TEXT_GAIUSC104_00955_SEQ_03",""
 4,"TEXT_GAIUSC104_00955_SEQ_04",""
 5,"TEXT_GAIUSC104_00955_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_GAIUSC104_00955_SEQ_21",""
 22,"TEXT_GAIUSC104_00955_SEQ_22",""
 23,"TEXT_GAIUSC104_00955_SEQ_23",""
-24,"TEXT_GAIUSC104_00955_TODO_00","Deliver the warded pot to Hahasako."
+24,"TEXT_GAIUSC104_00955_TODO_00","ハイブリッジのハハサコに<Sheet(EventItem,2000741,0)/>を渡す"
 25,"TEXT_GAIUSC104_00955_TODO_01",""
 26,"TEXT_GAIUSC104_00955_TODO_02",""
 27,"TEXT_GAIUSC104_00955_TODO_03",""
@@ -49,13 +49,33 @@ int32,str,str
 45,"TEXT_GAIUSC104_00955_TODO_21",""
 46,"TEXT_GAIUSC104_00955_TODO_22",""
 47,"TEXT_GAIUSC104_00955_TODO_23",""
-48,"TEXT_GAIUSC104_00955_SYSTEM_100_000","To accept this quest, you must abandon the current main scenario quest. Open the corresponding entry in the journal or duty list and select “Abandon.”"
-49,"TEXT_GAIUSC104_00955_LAMBERTEINT_000_000","Ahhh, so rare it is to find fellow intellectuals in this region. 'Tis even rarer to find one capable of comprehending the nature of corrupted crystals."
-50,"TEXT_GAIUSC104_00955_LAMBERTEINT_000_001","Come to think of it, there was another─a hermit to whom the church had given sanctuary. Curious fellow. Unsociable, rather daft at first impression, yet possessed of an amazing affinity towards the scientific pursuits..."
-51,"TEXT_GAIUSC104_00955_LAMBERTEINT_000_002","But to the matter at hand─did you say you wish not to conduct field observations, but to <Emphasis>harvest</Emphasis> a corrupted crystal?"
-52,"TEXT_GAIUSC104_00955_LAMBERTEINT_000_003","Egads, <If(PlayerParameter(4))>woman<Else/>man</If>! At least take the necessary precautions so that you do not suffer from exposure to its harmful energies! I'm beginning to wonder if you've sufficient qualifications to handle such hazardous materials..."
-53,"TEXT_GAIUSC104_00955_LAMBERTEINT_000_004","Still, your ignorance is somehow endearing. Luckily for you, I have precisely the means by which these inherent dangers may be averted. Simply store the crystal you seek within this warded pot to protect yourself from its deleterious effects. Though I suppose you will be bombarded with its energies until you place it within the vessel..."
-54,"TEXT_GAIUSC104_00955_LAMBERTEINT_000_005","Well, perhaps it shall motivate you to work quickly. In any case, take the pot to Hahasako, a student of mine monitoring the flow of aether at Highbridge. Explain to him your quest, and he shall instruct you in the finer points of crystal harvesting."
-55,"TEXT_GAIUSC104_00955_HAHASAKO_000_010","How many times must I be made to explain myself!? I am not contemplating suicide, you imbecile─I have chosen this precise position to perform scientific measurements!"
-56,"TEXT_GAIUSC104_00955_HAHASAKO_000_020","What have we here...a containment vessel!? Why, this is the handiwork of Professor Lamberteint! You thieving knave, I shall call for the─ Oh, you say the man himself lent it to you..."
-57,"TEXT_GAIUSC104_00955_HAHASAKO_000_021","Then you must have sought me out per his instruction...which means he believes me experienced enough to expound upon his explanations! At last, the recognition I so rightfully deserve!"
+48,"TEXT_GAIUSC104_00955_SYSTEM_100_000","受注するには、進行中のメインクエストを破棄する必要があります。
+メインコマンドの「コンテンツ情報」から、
+「ジャーナル」を選び、破棄してください。"
+49,"TEXT_GAIUSC104_00955_LAMBERTEINT_000_000","はァん、それにしても「偏属性クリスタル」が、
+話題にのぼるとは珍しいねぇ。
+この土地に来て、この話をする相手は君が2人目だよ。"
+50,"TEXT_GAIUSC104_00955_LAMBERTEINT_000_001","ひとり目は、聖アダマ・ランダマ教会にいた、
+マルケズ君だったかな？
+エオルゼアではみないタイプの、神秘的な男だったねぇ。"
+51,"TEXT_GAIUSC104_00955_LAMBERTEINT_000_002","……さて、偏属性クリスタルを探しているんだったか。
+名前が表すとおり、これは不安定なクリスタルなんだ。
+エーテルの干渉を受けると性質が変わることもある。"
+52,"TEXT_GAIUSC104_00955_LAMBERTEINT_000_003","性質が変化しないように「容器」が必要だねぇ。
+それも、エーテル伝導率が低い「絶霊体」という
+特殊な素材でできたものが。"
+53,"TEXT_GAIUSC104_00955_LAMBERTEINT_000_004","ちょうどここに、私が作った、
+「<Sheet(EventItem,2000741,0)/>」がある。
+これを君にあげよう。ふゥ～。"
+54,"TEXT_GAIUSC104_00955_LAMBERTEINT_000_005","この壺を、「ハイブリッジ」にいる「ハハサコ」君に渡して、
+「偏属性クリスタル」の採り方を聞いてみてくれるかい？
+彼は僕の弟子だから、ちゃんと教えてくれるはずだよ。"
+55,"TEXT_GAIUSC104_00955_HAHASAKO_000_010","おうおうおう！
+こちとら、こう見えても学者なんでい！
+研究の邪魔だぜ、どいたどいたッ！"
+56,"TEXT_GAIUSC104_00955_HAHASAKO_000_020","おおッ、この壺は……ランベルタン先生の仕上げか！
+もしやてめえ、先生から壺を盗みやがったのか！？
+……あれ、違うのかい？"
+57,"TEXT_GAIUSC104_00955_HAHASAKO_000_021","……なるほど、偏属性クリスタルを探してるってか！
+で、一番弟子の俺に白羽の矢が立ったってワケだな？
+う～ん、先生もわかってらっしゃるぜ！"

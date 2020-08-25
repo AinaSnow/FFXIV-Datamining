@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNA117_01596_SEQ_00","Lord Emmanellain appears to be rather pleased with himself."
-1,"TEXT_HEAVNA117_01596_SEQ_01","Ever quick to see the glass half full, Lord Emmanellain has convinced himself that he should rightly be lauded for uncovering the existence of a Vanu primal. Report to Lady Laniaitte and see if she agrees."
-2,"TEXT_HEAVNA117_01596_SEQ_02","Lady Laniaitte is shocked to hear that the Vanu have summoned a primal, and all agree that its presence must be behind the recent rise in Vanu hostility. Sensing his moment, Lord Emmanellain rather bluntly demands that the true hero of the hour be recognized, and for once, Lady Laniaitte agrees...and praises you for rescuing the young lord from a doom of his own making. More than satisfied with your efforts, she then invites you to return to Ishgard with Lord Haurchefant, prompting Lord Emmanellain to conclude that he too is no longer needed. Make your journey back to the city and speak with Lord Haurchefant once you have arrived."
-3,"TEXT_HEAVNA117_01596_SEQ_03","Lord Haurchefant is a man who knows how to appreciate the simple pleasures in life, particularly after cheating death in battle yet again. In spite of this, he cannot help but be concerned for the welfare of Lord Emmanellain, and suggests that you visit him back at the manor."
-4,"TEXT_HEAVNA117_01596_SEQ_04","For once, Lord Emmanellain is not his effervescent self, having received a dressing-down from his father for his recklessness. But will he take this lesson to heart? Only time will tell..."
+0,"TEXT_HEAVNA117_01596_SEQ_00","キャンプ・クラウドトップのエマネランは、なぜか期待に胸をふくらませている。"
+1,"TEXT_HEAVNA117_01596_SEQ_01","エマネランは、蛮神ビスマルクの発見が自分の手柄になると信じているようだ。アバラシア雲海のローズハウスにいる「ラニエット」と話そう。"
+2,"TEXT_HEAVNA117_01596_SEQ_02","ラニエットにこれまでの経緯を話した。彼女は新たな蛮神の出現を脅威に感じているとともに、お気楽な調子のエマネランに呆れていた。ともかく、アバラシア雲海での任務はこれで終了だ。イシュガルド・ランディングの「オルシュファン」と話そう。"
+3,"TEXT_HEAVNA117_01596_SEQ_03","オルシュファンと話した。イシュガルドのフォルタン伯爵邸にいる「エマネラン」と話そう。"
+4,"TEXT_HEAVNA117_01596_SEQ_04","エマネランと話した。彼は、エドモン・ド・フォルタン伯爵に殴られ、叱責を受けたようだ。それでもエマネランに、反省する様子は見られない。彼が、自分の行動を省みる日は、やってくるのだろうか……。"
 5,"TEXT_HEAVNA117_01596_SEQ_05",""
 6,"TEXT_HEAVNA117_01596_SEQ_06",""
 7,"TEXT_HEAVNA117_01596_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_HEAVNA117_01596_SEQ_21",""
 22,"TEXT_HEAVNA117_01596_SEQ_22",""
 23,"TEXT_HEAVNA117_01596_SEQ_23",""
-24,"TEXT_HEAVNA117_01596_TODO_00","Speak with Laniaitte."
-25,"TEXT_HEAVNA117_01596_TODO_01","Speak with Haurchefant in Ishgard."
-26,"TEXT_HEAVNA117_01596_TODO_02","Speak with Emmanellain in Fortemps Manor."
+24,"TEXT_HEAVNA117_01596_TODO_00","ラニエットと話す"
+25,"TEXT_HEAVNA117_01596_TODO_01","イシュガルド・ランディングのオルシュファンと話す"
+26,"TEXT_HEAVNA117_01596_TODO_02","フォルタン伯爵邸のエマネランと話す"
 27,"TEXT_HEAVNA117_01596_TODO_03",""
 28,"TEXT_HEAVNA117_01596_TODO_04",""
 29,"TEXT_HEAVNA117_01596_TODO_05",""
@@ -49,30 +49,64 @@ int32,str,str
 45,"TEXT_HEAVNA117_01596_TODO_21",""
 46,"TEXT_HEAVNA117_01596_TODO_22",""
 47,"TEXT_HEAVNA117_01596_TODO_23",""
-48,"TEXT_HEAVNA117_01596_EMMANELLAIN_000_000","Very well, I admit it: it was an incredibly harrowing experience. I could very well have <Emphasis>died</Emphasis>, you know! Me! <Emphasis>Dead</Emphasis>!"
-49,"TEXT_HEAVNA117_01596_EMMANELLAIN_000_001","On the other hand, by risking life and limb in the line of duty, I did succeed in uncovering the existence of a new primal. And that, old <If(PlayerParameter(4))>girl<Else/>boy</If>, is no small feat!"
-50,"TEXT_HEAVNA117_01596_EMMANELLAIN_000_002","I have made <Emphasis>an historic discovery</Emphasis>─a fact even Lady Laniaitte will have no choice but to acknowledge! Yeeesss, I am rather looking forward to basking in the sunshine of her praise. Speaking of which─isn't it time we made our triumphant return?"
-51,"TEXT_HEAVNA117_01596_EMMANELLAIN_000_003","How do I look? Dashing as always, with a suitable sprinkling of dirt and sweat? Excellent. Let us return to Lady Laniaitte at once!"
-52,"TEXT_HEAVNA117_01596_HAURCHEFANT_000_004","Even after everything he has been through, he manages to remain so...optimistic."
-53,"TEXT_HEAVNA117_01596_HONOROIT_000_005","Thank you, <If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>, <Emphasis>thank you</Emphasis>! If you had not rushed to his aid, I dare not think what would have happened!"
-54,"TEXT_HEAVNA117_01596_LANIAITTE_000_010","Praise Halone, I feared the worst! What happened out there?"
-55,"TEXT_HEAVNA117_01596_LANIAITTE_000_011","A <Emphasis>primal</Emphasis>!? Are you sure!?"
-56,"TEXT_HEAVNA117_01596_LANIAITTE_000_012","Yet...now that I think on it, this Bismarck is reminiscent of the white whale of Vanu legend─a massive creature said to “swim” in the Sea of Clouds."
-57,"TEXT_HEAVNA117_01596_HAURCHEFANT_000_013","From what I have learned of comparable summonings, the presence of the Vanu's god would certainly explain the sudden change in their behavior toward the people of Camp Cloudtop."
-58,"TEXT_HEAVNA117_01596_HONOROIT_000_014","Ah, you mean to say that they have fallen under the primal's influence? I recall reading of such things in the documents provided by Master Alphinaud..."
-59,"TEXT_HEAVNA117_01596_EMMANELLAIN_000_015","Aren't we forgetting something important, Lady Laniaitte? A little recognition for the hero of the hour? A few choice expressions of gratitude, respect, admiration, and so on...?"
-60,"TEXT_HEAVNA117_01596_LANIAITTE_000_016","...Why <Emphasis>yes</Emphasis>. You are right, of course. <If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/> deserves all that and more for having risked <If(PlayerParameter(4))>her<Else/>his</If> life to rescue such an...esteemed personage."
-61,"TEXT_HEAVNA117_01596_HAURCHEFANT_000_017","Well, if there is naught else to discuss, I would depart for Ishgard forthwith. The Holy See and the Temple Knights must be informed of this new threat without delay."
-62,"TEXT_HEAVNA117_01596_LANIAITTE_000_018","But of course.
-<If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>, you have done more than enough here. Pray return to Ishgard with Lord Haurchefant and give my warmest regards to the count."
-63,"TEXT_HEAVNA117_01596_EMMANELLAIN_000_019","So that's it, then? No more forays into enemy territory? Very well, I can see my services are no longer needed. Take care, Lady Laniaitte. May our next meeting take place under more...felicitous circumstances."
-64,"TEXT_HEAVNA117_01596_HAURCHEFANT_000_020","All's well that ends well, eh? To the airship landing, then! We can speak on the journey home."
-65,"TEXT_HEAVNA117_01596_LANIAITTE_000_021","All things considered, Emmanellain came through relatively unscathed. More's the pity─he might have learned something otherwise."
-66,"TEXT_HEAVNA117_01596_HAURCHEFANT_000_030","I confess, I have always been rather fond of airship travel. The chill of the wind upon your face, the warmth of the blood pumping in your veins from the excitement...! I find the whole experience indescribably invigorating!"
-67,"TEXT_HEAVNA117_01596_HAURCHEFANT_000_031","Or mayhap it is simply the joy of having cheated death yet again!? Ha ha! In any event, I must make for the Congregation and inform Ser Aymeric of all that has occurred."
-68,"TEXT_HEAVNA117_01596_HAURCHEFANT_000_032","Emmanellain should have returned to the manor by now. Why not go and see if he has recovered from his ordeal?"
-69,"TEXT_HEAVNA117_01596_EMMANELLAIN_000_040","Oh, it's you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>...
-<whimper> Gods, did he have to strike me so hard?"
-70,"TEXT_HEAVNA117_01596_EMMANELLAIN_000_041","Father, he...he did not approve of how I handled matters in Camp Cloudtop─how I endangered the lives of others through my own...<sniff>...recklessness and incompetence."
-71,"TEXT_HEAVNA117_01596_EMMANELLAIN_000_042","It's not easy playing the hero, is it..."
-72,"TEXT_HEAVNA117_01596_HONOROIT_000_043","(My lord the count was utterly beside himself, <If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>. 'Tis a mercy you were not here to witness it.)"
+48,"TEXT_HEAVNA117_01596_EMMANELLAIN_000_000","いやあ、まいったね、こりゃ。
+さすがのオレも、死ぬかと思ったぜ。"
+49,"TEXT_HEAVNA117_01596_EMMANELLAIN_000_001","しかし、オレ様の活躍があったからこそ、
+「新たな蛮神」の脅威を発見できたんだ。
+こいつは、お手柄といっても過言じゃねーだろ。"
+50,"TEXT_HEAVNA117_01596_EMMANELLAIN_000_002","よし、「ラニエット」に報告しようぜ！
+ムフフフフ、きっと、すんごい褒められるんだろうなぁ……。"
+51,"TEXT_HEAVNA117_01596_EMMANELLAIN_000_003","よし、「ラニエット」に報告しようぜ！
+ムフフフフ、きっと、すんごい褒められるんだろうなぁ……。"
+52,"TEXT_HEAVNA117_01596_HAURCHEFANT_000_004","しかし、エマネランの脳天気ぶりには、
+あきれ果てて物も言えん……。"
+53,"TEXT_HEAVNA117_01596_HONOROIT_000_005","ありがとうございます、ありがとうございます！
+エマネラン様を助け出してくださって……
+ほ、本当に嬉しいです、はい！"
+54,"TEXT_HEAVNA117_01596_LANIAITTE_000_010","無事に戻ってきてくれたか！
+いったい、何があったというのだ！？"
+55,"TEXT_HEAVNA117_01596_LANIAITTE_000_011","な、なんと……雲神「ビスマルク」だと！？"
+56,"TEXT_HEAVNA117_01596_LANIAITTE_000_012","ビスマルクと言えば、
+雲海を遊弋すると伝わる「伝説の白鯨」だぞ……。
+それを、バヌバヌ族が蛮神として呼び降ろしたということか。"
+57,"TEXT_HEAVNA117_01596_HAURCHEFANT_000_013","以前は友好的であったというバヌバヌ族が、
+一転して態度を翻したのも、今となっては理解できる。
+蛮神の影響を受けていた、ということだろう。"
+58,"TEXT_HEAVNA117_01596_HONOROIT_000_014","神は、信徒となるテンパードの心をねじ曲げる……。
+「暁」から提供された資料で読んだことがあります、はい。"
+59,"TEXT_HEAVNA117_01596_EMMANELLAIN_000_015","なぁなぁ、お手柄だろ？
+これでオレ様も、男爵位くらいもらえるはずさ。
+そしたら、ラニエット、オレの嫁さんになってくれよ！"
+60,"TEXT_HEAVNA117_01596_LANIAITTE_000_016","…………はぁ。
+こんな男のために、命を賭けさせてしまうとは……
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>殿には、何と詫びて良いものやら。"
+61,"TEXT_HEAVNA117_01596_HAURCHEFANT_000_017","ともかく、蛮神の件を上に報告せねばなるまい。
+教皇庁と神殿騎士団には、私から伝えておこう。"
+62,"TEXT_HEAVNA117_01596_LANIAITTE_000_018","助かる、オルシュファン卿。
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>殿も、助かったよ。
+当地での任務を終了とし、皇都に戻るといい。"
+63,"TEXT_HEAVNA117_01596_EMMANELLAIN_000_019","えっ、なに、任務もう終わり？
+それじゃ、オレも疲れたから帰るわ。
+……ラニエット、色よい返事を待ってるぜ？　じゃあな！"
+64,"TEXT_HEAVNA117_01596_HAURCHEFANT_000_020","では、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
+我々も、皇都「イシュガルド」へ戻るとしよう。"
+65,"TEXT_HEAVNA117_01596_LANIAITTE_000_021","助力に感謝するぞ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>殿。
+エマネランについては、適当に殴ってくれて構わない。
+問題になったときは、私が責任を持つゆえ。"
+66,"TEXT_HEAVNA117_01596_HAURCHEFANT_000_030","それにしても、久しぶりの共闘……イイ戦いであったな！
+この胸の熱さ、未だに冷めぬぞ！"
+67,"TEXT_HEAVNA117_01596_HAURCHEFANT_000_031","では私は、これより神殿騎士団本部に向かい、
+アイメリク卿に事の次第を報告してくる。"
+68,"TEXT_HEAVNA117_01596_HAURCHEFANT_000_032","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>は、
+「フォルタン家」の屋敷に戻るといい。
+「エマネラン」が帰宅しているかどうか、確認しておいてくれ。"
+69,"TEXT_HEAVNA117_01596_EMMANELLAIN_000_040","痛てぇ……。
+痛てぇよ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>……。"
+70,"TEXT_HEAVNA117_01596_EMMANELLAIN_000_041","何があったのかって……
+親父に、思いっきりブン殴られたんだよ……。
+大切な客人を危険にさらすとは、何事かってな……。"
+71,"TEXT_HEAVNA117_01596_EMMANELLAIN_000_042","どうも、オレの手柄はパーらしい……。
+はぁ……ついてねぇなぁ……。"
+72,"TEXT_HEAVNA117_01596_HONOROIT_000_043","実に美しい、流れるような一撃でした。
+さすがは名騎士と呼ばれた、エドモン様です、はい。
+……何があったのかは、エマネラン様よりお聞きください。"

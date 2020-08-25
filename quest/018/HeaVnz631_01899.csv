@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNZ631_01899_SEQ_00","Gildon stares off into the distance, his brow furrowed and stomach grumbling."
-1,"TEXT_HEAVNZ631_01899_SEQ_01","Your presence recalls Gildon from his fretful pondering, and also brings to mind a request for assistance. The paissas found north of Camp Cloudtop, known for their mischief and antics, have struck a nerve with Gildon by spoiling the cuisine of their resident Rose Knight cook. He asks that you slay three of the paissas to both thin their numbers and make clear the men of Camp Cloudtop will not tolerate their devilment."
-2,"TEXT_HEAVNZ631_01899_SEQ_02","You slay three paissas to the north of Camp Cloudtop. Return to Gildon and let him know the deed is done."
-3,"TEXT_HEAVNZ631_01899_SEQ_03","Gildon thanks you for your hard work. He tells you the cause for their recent roguery is their search for trees to build a nest. Camp Cloudtop has an adequate number of trees to suit the needs of Gildon and his comrades, and thanks to your help, the paissas will think twice before trying to take them as their own."
+0,"TEXT_HEAVNZ631_01899_SEQ_00","ローズハウスのギルドンは、なにやら怒っている。"
+1,"TEXT_HEAVNZ631_01899_SEQ_01","ギルドンから、悪事を働く<Sheet(BNpcName,3507,0)/>の討伐を頼まれた。アバラシア雲海のラストステップにいる「<Sheet(BNpcName,3507,0)/>」を3体討伐しよう。"
+2,"TEXT_HEAVNZ631_01899_SEQ_02","<Sheet(BNpcName,3507,0)/>を討伐した。ローズハウスの「ギルドン」に報告しよう。"
+3,"TEXT_HEAVNZ631_01899_SEQ_03","ギルドンに報告した。<Sheet(BNpcName,3507,0)/>が悪事を働くのは、木に巣を作るためだったようだ。"
 4,"TEXT_HEAVNZ631_01899_SEQ_04",""
 5,"TEXT_HEAVNZ631_01899_SEQ_05",""
 6,"TEXT_HEAVNZ631_01899_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_HEAVNZ631_01899_SEQ_21",""
 22,"TEXT_HEAVNZ631_01899_SEQ_22",""
 23,"TEXT_HEAVNZ631_01899_SEQ_23",""
-24,"TEXT_HEAVNZ631_01899_TODO_00","Slay wily paissas."
-25,"TEXT_HEAVNZ631_01899_TODO_01","Report to Gildon."
+24,"TEXT_HEAVNZ631_01899_TODO_00","<Sheet(BNpcName,3507,0)/>を討伐"
+25,"TEXT_HEAVNZ631_01899_TODO_01","ギルドンに報告"
 26,"TEXT_HEAVNZ631_01899_TODO_02",""
 27,"TEXT_HEAVNZ631_01899_TODO_03",""
 28,"TEXT_HEAVNZ631_01899_TODO_04",""
@@ -49,10 +49,23 @@ int32,str,str
 45,"TEXT_HEAVNZ631_01899_TODO_21",""
 46,"TEXT_HEAVNZ631_01899_TODO_22",""
 47,"TEXT_HEAVNZ631_01899_TODO_23",""
-48,"TEXT_HEAVNZ631_01899_GILDON_000_000","Hm? Ah, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! If there was ever a time I needed your help, surely it is now."
-49,"TEXT_HEAVNZ631_01899_GILDON_000_001","The paissas inhabiting the lands north of camp have been giving us trouble. They're a mischievous sort by nature, but this time they've gone too far. They...they laid waste to the supplies of our beloved cook, and <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>supper<Else/>this morning's meal</If><Else/><If(LessThan(PlayerParameter(11),17))>this afternoon's meal<Else/>supper</If></If> was ruined!"
-50,"TEXT_HEAVNZ631_01899_GILDON_000_002","They must learn that we are not to be trifled with, and so I ask you put down three of the beasts. That should prove sufficient to thin their numbers and discourage their antics."
-51,"TEXT_HEAVNZ631_01899_GILDON_000_010","No need to trouble yourself with more than three of them. That should be enough to make our intentions clear."
-52,"TEXT_HEAVNZ631_01899_GILDON_000_020","So the paissas have been dealt with, then? At last, we can enjoy a short reprieve from their roguery."
-53,"TEXT_HEAVNZ631_01899_GILDON_000_021","I fear they're searching for trees to build a nest. Though sparse when looking at these islands as a whole, Camp Cloudtop is fortunate to have its fair share."
-54,"TEXT_HEAVNZ631_01899_GILDON_000_022","If it truly is trees they're after, they will have to seek elsewhere. Just the thought of those furry fiends swinging down from the trees in the middle of a meal makes my blood boil. I will not allow it!"
+48,"TEXT_HEAVNZ631_01899_GILDON_000_000","……歩哨任務がなければ自分が駆除してやるものを！
+むむっ、ちょうど良いところに！
+あなたに、お願いしたいことがあ～る！"
+49,"TEXT_HEAVNZ631_01899_GILDON_000_001","最近、この辺りに住む「<Sheet(BNpcName,3507,0)/>」が、
+悪事を働くようになったのである！
+オバちゃんの弁当をダメにしおって、断じて許せ～ん！"
+50,"TEXT_HEAVNZ631_01899_GILDON_000_002","「<Sheet(BNpcName,3507,0)/>」に、
+人を舐めると大変だと思い知らせていただきたい！
+ひとまず、3匹ほど討伐していただければ十分であ～る！"
+51,"TEXT_HEAVNZ631_01899_GILDON_000_010","「<Sheet(BNpcName,3507,0)/>」に、
+人を舐めると大変だと思い知らせていただきたい！
+ひとまず、3匹ほど討伐していただければ十分であ～る！"
+52,"TEXT_HEAVNZ631_01899_GILDON_000_020","<Sheet(BNpcName,3507,0)/>を駆除していただけたか！
+感謝するのであ～る！"
+53,"TEXT_HEAVNZ631_01899_GILDON_000_021","……もしかしたらあいつらは、
+ここに巣を作ろうとしていたのかもしれぬ。
+アバラシア雲海で大きな木は貴重だからな。"
+54,"TEXT_HEAVNZ631_01899_GILDON_000_022","だからといって、この地を譲るわけにはいかん！
+人の食事中に襲いかかってくるような魔物と、
+仲良くするのは無理なのであ～る！"

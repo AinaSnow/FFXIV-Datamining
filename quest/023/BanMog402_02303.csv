@@ -1,16 +1,17 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANMOG402_02303_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Mogek has need of a <If(PlayerParameter(4))>woman<Else/>man</If> with a silver tongue."
-1,"TEXT_BANMOG402_02303_SEQ_01","Unable to perform the heavy lifting required to proceed with construction, the Mogmenders now turn to the dragons for aid. Mogek, however, is concerned their representative may make promises they cannot keep. He implores you to meet with them at Zenith before any rash decisions are made.
+0,"TEXT_BANMOG402_02303_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+バール・レス広場のお利口のモグエクは、冒険者の話術を頼りたいようだ。"
+1,"TEXT_BANMOG402_02303_SEQ_01","※本クエストには「<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow><UIGlow>01</UIGlow><UIForeground>01</UIForeground> レベルアジャスト」が、
+　設定されています。
 
-※Please note that the difficulty of this quest has been synced to your current level."
-2,"TEXT_BANMOG402_02303_SEQ_02","You are greeted by a moogle who is all smiles, telling you a deal was made just moments before your arrival. If only the dragons had interest in what was offered. Rather than the cloud mallow or kupo nuts one would expect of moogles, they demanded a number of gratuitous items that only one of your expertise could hope to craft. Supplied with materials, the moogle representative implores you to fulfill the dragons' request.
+モグエクと話した。力仕事をドラゴン族に依頼したく、その交渉を手伝ってほしいと頼んできた。白亜の宮殿にいる「交渉役のモーグリ族」と話そう。"
+2,"TEXT_BANMOG402_02303_SEQ_02","交渉役のモーグリ族と話したところ、交渉の結果、報酬があればドラゴン族は手伝いに応じてくれるそうだ。「<Sheet(Item,15761,0)/>」をもとに「<Sheet(ItemHQ,15735,0)/>」を製作し、白亜の宮殿の「新米交渉役のモーグリ族」に納品しよう。
 
-※In the event you lose the materials or the synthesis ends in failure, you may try again by speaking with the mediating moogle."
-3,"TEXT_BANMOG402_02303_SEQ_03","You craft two masterpieces which are then offered up to appease the dragons. Satisfied with your work, they consent to lend their strength to the moogles. Return to Bahrr Lehs and inform Mogek the crisis he anticipated has been averted."
-4,"TEXT_BANMOG402_02303_SEQ_04","Mogek is relieved to know the dragons have agreed to help. With the Mogmenders now able to focus on the beauty of their work, he suspects the monument may turn out to be more magnificent than even your favorite moogle overseer."
+※「<Sheet(Item,15761,0)/>」を失った場合は、交渉役のモーグリ族に話しかけましょう。材料を入手し、再挑戦が可能になります。"
+3,"TEXT_BANMOG402_02303_SEQ_03","新米交渉役のモーグリ族に<Sheet(ItemHQ,15735,0)/>を納品した。ドラゴン族たちも、これで協力に応じてくれそうだ。バール・レス広場の「お利口のモグエク」に報告しよう。"
+4,"TEXT_BANMOG402_02303_SEQ_04","モグエクに報告した。ドラゴン族に巨大な石材を運搬してもらえれば納期も守られるはずだと安心すると同時に、ドラゴン族がいるからこそ、この雲海に壮麗な建物を建てられたのだろうと強く実感するモグエクであった。"
 5,"TEXT_BANMOG402_02303_SEQ_05",""
 6,"TEXT_BANMOG402_02303_SEQ_06",""
 7,"TEXT_BANMOG402_02303_SEQ_07",""
@@ -30,9 +31,9 @@ Mogek has need of a <If(PlayerParameter(4))>woman<Else/>man</If> with a silver t
 21,"TEXT_BANMOG402_02303_SEQ_21",""
 22,"TEXT_BANMOG402_02303_SEQ_22",""
 23,"TEXT_BANMOG402_02303_SEQ_23",""
-24,"TEXT_BANMOG402_02303_TODO_00","Meet with the mediating moogle at Zenith."
-25,"TEXT_BANMOG402_02303_TODO_01","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Synthesize the austere offerings <Sheet(Addon,9,0)/>.<Else/>Deliver the austere offerings <Sheet(Addon,9,0)/> to the helpmeet moogle.</If>"
-26,"TEXT_BANMOG402_02303_TODO_02","Report to Mogek the Marvelous."
+24,"TEXT_BANMOG402_02303_TODO_00","交渉役のモーグリ族と合流"
+25,"TEXT_BANMOG402_02303_TODO_01","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>製作手帳 蛮族クエスト：<Sheet(ItemHQ,15735,0)/>を製作<Else/>新米交渉役のモーグリ族に<Sheet(ItemHQ,15735,0)/>を納品</If>"
+26,"TEXT_BANMOG402_02303_TODO_02","お利口のモグエクに報告"
 27,"TEXT_BANMOG402_02303_TODO_03",""
 28,"TEXT_BANMOG402_02303_TODO_04",""
 29,"TEXT_BANMOG402_02303_TODO_05",""
@@ -54,30 +55,64 @@ Mogek has need of a <If(PlayerParameter(4))>woman<Else/>man</If> with a silver t
 45,"TEXT_BANMOG402_02303_TODO_21",""
 46,"TEXT_BANMOG402_02303_TODO_22",""
 47,"TEXT_BANMOG402_02303_TODO_23",""
-48,"TEXT_BANMOG402_02303_MOGEK_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! Perfect. We are sorely in need of one with your gift for negotiation."
-49,"TEXT_BANMOG402_02303_MOGEK_000_001","With every passing day we find the stones that must be moved for construction to be larger and larger. The Mogmenders are at their wit's end, kupo! Thankfully, Whei Ahf has agreed to introduce us to dragons willing to help."
-50,"TEXT_BANMOG402_02303_MOGEK_000_002","That is, of course, if we can agree on proper payment. There is little we can offer at present, and the Mogmenders are like to be intimidated by the dragons' imposing presence. We need someone who can look them in the eye and strike a fair deal."
-51,"TEXT_BANMOG402_02303_MOGEK_000_003","No doubt they're at Zenith discussing terms even as we speak. Please hurry, before we're up to our poms in debt, kupo!"
-52,"TEXT_BANMOG402_02303_NEGOTIATEMOOGLEA02303_000_010","Oh, I wasn't expecting Mogek to send anyone. No need to worry, though. A pact has been made, and the dragons will soon be ready to work, kupo!"
-53,"TEXT_BANMOG402_02303_NEGOTIATEMOOGLEA02303_000_011","Except, well...they have no interest in what we had to offer."
-54,"TEXT_BANMOG402_02303_NEGOTIATEMOOGLEA02303_000_012",""
-55,"TEXT_BANMOG402_02303_NEGOTIATEMOOGLEA02303_000_013","Instead, they ask for metal covers fitted for their claws, kupo! They say their claws are chipped, and must be kept safe until they regrow."
-56,"TEXT_BANMOG402_02303_NEGOTIATEMOOGLEA02303_000_014","Instead, they ask for nests of sorts made of soft materials, that they may rest easy whenever they come to Zenith."
-57,"TEXT_BANMOG402_02303_NEGOTIATEMOOGLEA02303_000_015","Instead, they ask for ointments to heal their wounds. Though dragons are wont to sleep when injured, they wish to experience the healing arts of man."
-58,"TEXT_BANMOG402_02303_NEGOTIATEMOOGLEA02303_000_016","I fear none of us have the skill to produce goods suitable to their high standards. I know this is sudden, but we could really use your help, kupo! When you've crafted the offerings, take them to my assistant."
-59,"TEXT_BANMOG402_02303_NEGOTIATEMOOGLEA02303_000_017","If you're running low on materials, just say the word and I'll track down more. Don't take too long, though. My assistant can only placate the dragons for so long, kupo."
-60,"TEXT_BANMOG402_02303_NEGOTIATEMOOGLEA02303_000_018","That was fast, kupo! And not a moment too soon. The dragons are growing restless. Take them the offerings, quickly!"
-61,"TEXT_BANMOG402_02303_NEGOTIATEMOOGLEB02303_000_019","If you would kindly wait just a short while longer, we have our very best moogles working to prepare your payment."
-62,"TEXT_BANMOG402_02303_PARTTIMEDRAGONA02303_000_020","Such puny creatures. These massive stones you speak of are but pebbles to us."
-63,"TEXT_BANMOG402_02303_PARTTIMEDRAGONB02303_000_021","The pact has been made, moogle. If you cannot provide what was agreed upon, then we will take our leave."
-64,"TEXT_BANMOG402_02303_NEGOTIATEMOOGLEB02303_000_030","Oh, thank goodness. A <Emphasis>real</Emphasis> <If(PlayerParameter(4))>craftswoman<Else/>craftsman</If>. The day may yet be saved, kupo! Please tell me you have what the dragons have demanded of us."
-65,"TEXT_BANMOG402_02303_NEGOTIATEMOOGLEB02303_000_031","Yes, yes, I am sure they will be most pleased."
-66,"TEXT_BANMOG402_02303_NEGOTIATEMOOGLEB02303_100_031","O mighty dragons, I humbly offer this as payment for your services. I hope it meets with your expectations."
-67,"TEXT_BANMOG402_02303_PARTTIMEDRAGONA02303_000_032","Hmmm... Well done. Perhaps there is merit in working with you moogles after all."
-68,"TEXT_BANMOG402_02303_PARTTIMEDRAGONB02303_000_033","You have honored the pact, and so we shall do the same. Our strength is yours."
-69,"TEXT_BANMOG402_02303_NEGOTIATEMOOGLEB02303_000_034","Phew. I shudder to think what would've happened if they didn't approve. Thanks, kupo!"
-70,"TEXT_BANMOG402_02303_NEGOTIATEMOOGLEA02303_000_035","I daresay we wouldn't be able to finish the plaza without them. With the dragons handling the heavy lifting, things should move along much more smoothly, kupo!"
-71,"TEXT_BANMOG402_02303_MOGEK_000_040","The Mogmenders tell me a certain someone's help was vital in negotiating with the dragons. Naturally, I assumed they meant yours truly. Imagine my embarrassment when I remembered I'd sent you on that errand! Well done, kupo!"
-72,"TEXT_BANMOG402_02303_MOGEK_000_041","I really cannot thank you enough. Do you have any idea how many moogles it would take to carry even one of those boulders? Neither do I. Just trying to imagine it leaves me exhausted."
-73,"TEXT_BANMOG402_02303_MOGEK_000_042","But with dragons handling the more strenuous labor, the Mogmenders can give more attention to detail. I daresay the monument may even turn out more marvelous than me, kupo!"
-74,"TEXT_BANMOG402_02303_SYSTEM_000_043","Normal-quality items crafted in the course of this quest serve no purpose and cannot be sold. It is recommended that you discard them."
+48,"TEXT_BANMOG402_02303_MOGEK_000_000","冒険者さんなら、巧みな話術を持っていると見込んで、
+お願いしたいことがありますくぽ。"
+49,"TEXT_BANMOG402_02303_MOGEK_000_001","最近、重い石材を扱うことが増えてきたので、
+ウェイ・アフさんに紹介してもらったドラゴンさんに、
+お手伝いを頼んでいるところなのですくぽ。"
+50,"TEXT_BANMOG402_02303_MOGEK_000_002","……その大事な交渉を、
+冒険者さんに手伝っていただきたいのですくぽ！
+モグたちの仲間が、すでに交渉に向かいましたくぽ。"
+51,"TEXT_BANMOG402_02303_MOGEK_000_003","「白亜の宮殿」で、ドラゴンさんと交渉しているはずですくぽ。
+なんとか協力を取り付けてほしいので、
+よろしくお願いしますくぽ。"
+52,"TEXT_BANMOG402_02303_NEGOTIATEMOOGLEA02303_000_010","冒険者さんも来てくれたくぽ？
+安心してほしいくぽ、このモグさまが見事に交渉を済ませたくぽ！"
+53,"TEXT_BANMOG402_02303_NEGOTIATEMOOGLEA02303_000_011","……ただ、ちょっぴり困ったことがあるくぽ。
+お礼の品として、モグが用意していた報酬はいらないから、
+別のものが欲しいと言われてしまったくぽ……。"
+54,"TEXT_BANMOG402_02303_NEGOTIATEMOOGLEA02303_000_012","（★未使用／削除予定★）"
+55,"TEXT_BANMOG402_02303_NEGOTIATEMOOGLEA02303_000_013","なんでも、この前、鋭い爪が欠けてしまったそうくぽ。
+だから、その代わりになる「金属の爪」が欲しいらしいくぽ……。
+冒険者さん、作ってくれないくぽ？"
+56,"TEXT_BANMOG402_02303_NEGOTIATEMOOGLEA02303_000_014","なんでも、翼を休める場所を、もっと快適にしたいそうくぽ。
+だから、やわらか～い台座が欲しいらしいくぽ……。
+冒険者さん、作ってくれないくぽ？"
+57,"TEXT_BANMOG402_02303_NEGOTIATEMOOGLEA02303_000_015","なんでも、最近、古傷がズキズキ痛むそうくぽ。
+だから、ヒトが薬草を使って作る、軟膏が欲しいそうくぽ。
+冒険者さん、作ってくれないくぽ？"
+58,"TEXT_BANMOG402_02303_NEGOTIATEMOOGLEA02303_000_016","材料なら、モグがたんまり持ってるから安心するくぽ。
+作成できたら、新米交渉役のモーグリ族に渡してあげてくぽ～。"
+59,"TEXT_BANMOG402_02303_NEGOTIATEMOOGLEA02303_000_017","材料なら、モグがたんまり持ってるから安心するくぽ。
+作成できたら、「新米交渉役のモーグリ族」に渡してあげてくぽ～。"
+60,"TEXT_BANMOG402_02303_NEGOTIATEMOOGLEA02303_000_018","もう作成できてるようくぽ！
+善は急げくぽ、「新米交渉役のモーグリ族」に渡してあげてくぽ～。"
+61,"TEXT_BANMOG402_02303_NEGOTIATEMOOGLEB02303_000_019","集まってくれてありがとうくぽ～！
+報酬は鋭意準備中なので、もう少しお待ちくださいくぽ！"
+62,"TEXT_BANMOG402_02303_PARTTIMEDRAGONA02303_000_020","お前たちにとっては重い石材でも、
+俺たちからしたら、綿毛のようなものさ！"
+63,"TEXT_BANMOG402_02303_PARTTIMEDRAGONB02303_000_021","モーグリとの盟約は結ばれた。
+要求した報酬と引き換えならば、我らの力を貸そう。"
+64,"TEXT_BANMOG402_02303_NEGOTIATEMOOGLEB02303_000_030","<Sheet(ItemHQ,15735,0)/>は、出来ましたくぽ！？"
+65,"TEXT_BANMOG402_02303_NEGOTIATEMOOGLEB02303_000_031","す、すんばらしい出来くぽ！"
+66,"TEXT_BANMOG402_02303_NEGOTIATEMOOGLEB02303_100_031","みなさん、こちらが報酬品ですくぽ～！！"
+67,"TEXT_BANMOG402_02303_PARTTIMEDRAGONA02303_000_032","確かに見事な出来栄えだ……。
+協力の求めに応じた甲斐があったというものだな。"
+68,"TEXT_BANMOG402_02303_PARTTIMEDRAGONB02303_000_033","うむ、要求どおりの品である。
+ならば、盟約にしたがい、この力を貸そうではないか！"
+69,"TEXT_BANMOG402_02303_NEGOTIATEMOOGLEB02303_000_034","ドラゴン族に報酬品を気に入ってもらえてよかったくぽ！
+作ってくれて、どうもありがとうくぽ～♪"
+70,"TEXT_BANMOG402_02303_NEGOTIATEMOOGLEA02303_000_035","ドラゴン族たちが協力してくれるお陰で、
+モグたちの作業も、すこぶる捗るに違いないくぽ！"
+71,"TEXT_BANMOG402_02303_MOGEK_000_040","交渉を手伝ってくれて、どうもありがとうございますくぽ。
+お手伝いに来てくれたドラゴンさんのおかげで、
+納期もバッチリ守られますくぽ。"
+72,"TEXT_BANMOG402_02303_MOGEK_000_041","もしドラゴン族がいなかったら、石材を運ぶだけでも、
+物凄い時間と手間がかかるはずですくぽ。
+想像しただけで疲れてしまいますくぽ……。"
+73,"TEXT_BANMOG402_02303_MOGEK_000_042","ドラゴン族がいるからこそ、
+この雲海に、こんなに壮麗な建物を建てられたのだと、
+修復団いち賢いモグも、強く実感しますくぽ。"
+74,"TEXT_BANMOG402_02303_SYSTEM_000_043","本クエストで製作した「NQアイテム」を所持しています。
+このアイテムは、使用することはありません。
+売却もできませんので、不用でしたら破棄してください。"

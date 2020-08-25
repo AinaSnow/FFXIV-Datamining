@@ -49,26 +49,56 @@ int32,str,str
 45,"TEXT_CLSROG001_00101_TODO_21",""
 46,"TEXT_CLSROG001_00101_TODO_22",""
 47,"TEXT_CLSROG001_00101_TODO_23",""
-48,"TEXT_CLSROG001_00101_LONWOERD_000_000","There's naught behind these convent doors for a worldly type like you, <If(PlayerParameter(4))>missus<Else/>guv</If>. We're the Dutiful Sisters o' the Edelweiss─all pure an' saintly, like. Now bugger off."
-49,"TEXT_CLSROG001_00101_LONWOERD_000_010","There's naught behind these convent doors for a worldly type like you, <If(PlayerParameter(4))>missus<Else/>guv</If>. We're the Dutiful Sisters o' the Edelweiss─all pure an' saintly, like. Now bugger off."
-50,"TEXT_CLSROG001_00101_LONWOERD_000_011","...Hang about. Ain't ye that <If(PlayerParameter(4))>lass<Else/>cove</If> as goes by the name o' <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>?"
-51,"TEXT_CLSROG001_00101_LONWOERD_100_011","...Hang about. I thought ye was just some simple errand <If(PlayerParameter(4))>lass<Else/>lad</If>, but now I've had a proper look─yer <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, ain't ye?"
-52,"TEXT_CLSROG001_00101_LONWOERD_000_020","Heh, I knew it. Somethin' about millin' primals leaves its mark on a <If(PlayerParameter(4))>person<Else/>cove</If>, it does."
-53,"TEXT_CLSROG001_00101_LONWOERD_000_021","Anyway, you bein' who you are, ye must have an inklin' as to what goes on here, eh? The Admiral sent ye to meet with one o' me associates after that business with Leviathan, if ye recall."
-54,"TEXT_CLSROG001_00101_LONWOERD_000_022","That's right, <If(PlayerParameter(4))>lass<Else/>mate</If>─ye stand at the entrance to the Rogues' Guild. 'Course, 'twould be a poor sort of underground organization if we put a bleedin' sign up on the front door."
-55,"TEXT_CLSROG001_00101_LONWOERD_000_023","Anyway...from what Lady Yugiri told me, yer pretty handy in a scrap."
-56,"TEXT_CLSROG001_00101_LONWOERD_000_024","She's off seein' to some private business right now, but I reckon we might have some use for a <If(PlayerParameter(4))>prime lass<Else/>bang-up cove</If> like you."
-57,"TEXT_CLSROG001_00101_LONWOERD_000_025","If ye've an interest in joinin' us, tip us yer daddles an' we'll put a hilt in each one, just like the gods intended. ...So what do ye say? Fancy learnin' a new trade?"
-58,"TEXT_CLSROG001_00101_LONWOERD_000_030","Heh, I knew it. We like to snilch all the risin' talent, an' from what I hear, yer head an' shoulders above the rest."
-59,"TEXT_CLSROG001_00101_LONWOERD_000_031","If ye can handle yerself half as well as they say, ye might well be of use to us."
-60,"TEXT_CLSROG001_00101_LONWOERD_000_032","...Ah, forget all that “Sisters o' the Edelweiss” bollocks. That's just a bit o' fun to fob off the curious culls. We're a guild o' rogues, <If(PlayerParameter(4))>lass<Else/>mate</If>, an' it's mainly our marks as does the prayin'."
-61,"TEXT_CLSROG001_00101_LONWOERD_000_033","Me an' mine work in the shadows o' Limsa, takin' a keen edge to the rooks an' cacklers what've earned 'emselves a millin'. We don't tout for members, but every now an' again, we might offer a promisin' young cove a place in the ranks."
-62,"TEXT_CLSROG001_00101_LONWOERD_000_034","If ye've an interest in joinin' us, tip us yer daddles an' we'll put a hilt in each one, just like the gods intended. ...So what do ye say? Fancy learnin' a new trade?"
-63,"TEXT_CLSROG001_00101_Q1_000_040","Do you wish to join the Rogues' Guild?"
-64,"TEXT_CLSROG001_00101_A1_000_041","Yes"
-65,"TEXT_CLSROG001_00101_A1_000_042","No"
-66,"TEXT_CLSROG001_00101_LONWOERD_000_050","Good to see yer keen. But I should probably warn ye on a few points afore ye dive in."
-67,"TEXT_CLSROG001_00101_LONWOERD_000_051","Where most guilds take pride in turnin' their members into the best bloody candlestick makers they can be, we only care about gettin' the job done."
-68,"TEXT_CLSROG001_00101_LONWOERD_000_052","An' the job ain't pretty. Ye become one of us, an' ye'll soon be neck-deep in scum an' knife fights."
-69,"TEXT_CLSROG001_00101_LONWOERD_000_053","So if yer lookin' to scamper across rooftops an' bilk dandies o' their blunt, ye'd best take up with a different crew. Think on that, an' come back if yer still keen."
-70,"TEXT_CLSROG001_00101_LONWOERD_000_060","Not for you, eh? Suit yerself. Me an' me chaste sisters'll pray for yer immortal soul an' so on."
+48,"TEXT_CLSROG001_00101_LONWOERD_000_000","ここは「エーデルワイス商会」の倉庫だ。
+関係者以外は、立ち入りが禁じられている……。"
+49,"TEXT_CLSROG001_00101_LONWOERD_000_010","ここは「エーデルワイス商会」の倉庫だ。
+関係者以外は、立ち入りが禁じられている……。"
+50,"TEXT_CLSROG001_00101_LONWOERD_000_011","……いや、待てよ。
+その風体、もしや……<Highlight>ObjectParameter(1)</Highlight>か？"
+51,"TEXT_CLSROG001_00101_LONWOERD_100_011","……いや、待てよ。
+その風体、よく見ると単なる荷運び人ではないな。
+もしや……<Highlight>ObjectParameter(1)</Highlight>か？"
+52,"TEXT_CLSROG001_00101_LONWOERD_000_020","やはりそうだったか……。
+妙に覇気があると思ったが、蛮神殺しの猛者とあらば頷ける。"
+53,"TEXT_CLSROG001_00101_LONWOERD_000_021","お前も、俺たちのことは、すでに知っているはず。
+蛮神「リヴァイアサン」討伐の直後、
+提督が渡りをつけた地下組織の存在を覚えているか？"
+54,"TEXT_CLSROG001_00101_LONWOERD_000_022","そう、ここはあの地下組織……「双剣士ギルド」の拠点だ。
+表向きは、「エーデルワイス商会」の倉庫になっているがな。"
+55,"TEXT_CLSROG001_00101_LONWOERD_000_023","……お前についての噂は聞いている。
+特にユウギリは、お前の実力を絶賛していたぞ。"
+56,"TEXT_CLSROG001_00101_LONWOERD_000_024","彼女は今、自身の目的のためにギルドを離れているが、
+俺たちとしても、噂の冒険者には興味がある……。"
+57,"TEXT_CLSROG001_00101_LONWOERD_000_025","もし、お前にその気があるのなら……
+気配を絶ち、双振りの短剣で敵を征する「双剣士」として、
+俺たちとともに「仕事」をしないか？"
+58,"TEXT_CLSROG001_00101_LONWOERD_000_030","やはりそうだったか……。
+風のつてで、お前のことを聞いていた。
+なかなか見どころのある奴が現れたらしい、とな……。"
+59,"TEXT_CLSROG001_00101_LONWOERD_000_031","実際、戦いの素養はありそうだ……。
+お前……俺たちの仲間になるつもりはないか？"
+60,"TEXT_CLSROG001_00101_LONWOERD_000_032","なに、商売を手伝わせたいんじゃない。
+そもそも「エーデルワイス商会」というのは表向きの偽名……
+俺たちの真の名は「双剣士ギルド」という。"
+61,"TEXT_CLSROG001_00101_LONWOERD_000_033","「双剣士ギルド」は、リムサ・ロミンサの影の存在として、
+厄介な依頼を請ける武装組織だ……。
+公然と人を募ってはいないが、優秀な人材には興味がある。"
+62,"TEXT_CLSROG001_00101_LONWOERD_000_034","もし、お前にその気があるのなら……
+気配を絶ち、双振りの短剣で敵を征する「双剣士」として、
+俺たちとともに「仕事」をしないか？"
+63,"TEXT_CLSROG001_00101_Q1_000_040","双剣士ギルドに入門する？"
+64,"TEXT_CLSROG001_00101_A1_000_041","はい"
+65,"TEXT_CLSROG001_00101_A1_000_042","いいえ"
+66,"TEXT_CLSROG001_00101_LONWOERD_000_050","……いい返事だ。
+さっそく歓迎といきたいところだが、
+念押しで忠告させてくれ。"
+67,"TEXT_CLSROG001_00101_LONWOERD_000_051","「双剣士ギルド」は、ほかのギルドと違って、
+技術向上のための互助組織じゃない……。
+目的とするのは、表沙汰にはできない「仕事」の遂行だ。"
+68,"TEXT_CLSROG001_00101_LONWOERD_000_052","お前にしたって、「双剣士」になれば、
+難題の解決や、命がけの戦いに関わることになるだろう。"
+69,"TEXT_CLSROG001_00101_LONWOERD_000_053","物見遊山のつもりなら、何も言わずに引き返した方がいい。
+それでもやる気があるなら……もう一度、俺に声をかけな。"
+70,"TEXT_CLSROG001_00101_LONWOERD_000_060","……そうか。
+無理に強いるようなことでもない。
+倉庫番の戯言だと思って、忘れてくれ。"

@@ -1,15 +1,16 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_JOBAST601_02409_SEQ_00","Jannequinard has something to say, and that glint behind his monocle suggests it is important."
-1,"TEXT_JOBAST601_02409_SEQ_01","Leveva, daughter of disgraced (and deceased) astrologian Rufin, granddaughter of eccentric (yet powerful) Mace, came to Ishgard from faraway Sharlayan to preach the virtues of her homeland's school of astrology. However, forces in both the Holy See and the island nation of scholars to the north would work to prevent her from accomplishing that very thing. Yet, with your aid and (to a far lesser extent) that of the nobleman Jannequinard de Durendaire, Leveva is able to thwart her enemies and open the door for bringing Ishgard into an all new era of astrological studies.
+0,"TEXT_JOBAST601_02409_SEQ_00","聖ガンリオル占星院のジャンヌキナルは、冒険者に知らせたいことがあるようだ。"
+1,"TEXT_JOBAST601_02409_SEQ_01","前回までの冒険録：
+シャーレアン式「占星術」を広めんとするレヴェヴァ。冒険者は占星術を学びつつ、彼女の活動を支援するも、占星術の独占を目指すシャーレアンの「哲学者議会」司書長セヴェスターに妨害される。しかし、冒険者たちは占星術により運命を切り開き、セヴェスターを退け、イシュガルドで占星術を広める端緒を開いたのだった。
+　　　　　　　　　　　　*　*　*
+ジャンヌキナルに、レヴェヴァの講話会を手伝うよう依頼された。クルザス中央高地のアドネール占星台にいる「レヴェヴァ」と話そう。"
+2,"TEXT_JOBAST601_02409_SEQ_02","レヴェヴァと話していたところ、東方からやってきたキョクホウと出会った。占星術を学ぶキョクホウを指導するため、南部森林の根渡り沼にいる「キョクホウ」と話そう。"
+3,"TEXT_JOBAST601_02409_SEQ_03","キョクホウとともに、土天座の門を開いた。イシュガルドの聖ガンリオル占星院にいる「レヴェヴァ」に報告しよう。"
+4,"TEXT_JOBAST601_02409_SEQ_04","レヴェヴァに報告した。彼女は、キョクホウの向上心に感心しているようだ。彼の熱意にこたえられるよう、占星術の鍛練に励もう。
 
-A quick chat with Jannequinard reveals that Lady Leveva, now going by the name of her father, is currently awaiting your arrival at the First Dicasterial Observatorium of Aetherial and Astrological Phenomena."
-2,"TEXT_JOBAST601_02409_SEQ_02","Was it chance? Was it fate? Does it matter? When visiting your old mentor, Leveva, the Observatorium receives a most unexpected visitor in Kyokuho, a traveler from the Far East. Kyokuho expresses his interest in learning the art of Sharlayan astrology, to which Leveva begrudgingly agrees to help─or rather, agrees to let <Emphasis>you</Emphasis> help by accompanying the man to Rootslake in the South Shroud where you will guide him in opening the gate to the first heaven."
-3,"TEXT_JOBAST601_02409_SEQ_03","Much to Jannequinard's chagrin, Kyokuho is able to open the first gate with what appeared to be great ease. Now that your work is complete, it is time you return to the Athenaeum Astrologicum where Leveva continues her preparations for the symposium."
-4,"TEXT_JOBAST601_02409_SEQ_04","Leveva is pleasantly surprised by the outcome of your trip to Rootslake with Kyokuho...and (not so) humbly asks that you continue your and the Hingan's training while she furthers her preparations for the symposium.
-
-※The next astrologian quest will be available from Leveva in the Athenaeum Astrologicum upon reaching level 63."
+※占星術師のレベルが63以上になると、聖ガンリオル占星院のレヴェヴァから次の占星術師クエストを受注することができます。"
 5,"TEXT_JOBAST601_02409_SEQ_05",""
 6,"TEXT_JOBAST601_02409_SEQ_06",""
 7,"TEXT_JOBAST601_02409_SEQ_07",""
@@ -29,9 +30,9 @@ A quick chat with Jannequinard reveals that Lady Leveva, now going by the name o
 21,"TEXT_JOBAST601_02409_SEQ_21",""
 22,"TEXT_JOBAST601_02409_SEQ_22",""
 23,"TEXT_JOBAST601_02409_SEQ_23",""
-24,"TEXT_JOBAST601_02409_TODO_00","Speak with Leveva at the Observatorium."
-25,"TEXT_JOBAST601_02409_TODO_01","Find Kyokuho at Rootslake in the South Shroud."
-26,"TEXT_JOBAST601_02409_TODO_02","Return to the Athenaeum Astrologicum in Ishgard and speak with Leveva."
+24,"TEXT_JOBAST601_02409_TODO_00","アドネール占星台のレヴェヴァと話す"
+25,"TEXT_JOBAST601_02409_TODO_01","根渡り沼のキョクホウと話す"
+26,"TEXT_JOBAST601_02409_TODO_02","聖ガンリオル占星院のレヴェヴァと話す"
 27,"TEXT_JOBAST601_02409_TODO_03",""
 28,"TEXT_JOBAST601_02409_TODO_04",""
 29,"TEXT_JOBAST601_02409_TODO_05",""
@@ -53,88 +54,195 @@ A quick chat with Jannequinard reveals that Lady Leveva, now going by the name o
 45,"TEXT_JOBAST601_02409_TODO_21",""
 46,"TEXT_JOBAST601_02409_TODO_22",""
 47,"TEXT_JOBAST601_02409_TODO_23",""
-48,"TEXT_JOBAST601_02409_JANNEQUINARD_000_000","Top of the morning to you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Or is it the evening? It is so hard to tell locked up here in the Athenaeum day and night. Alright, <Emphasis>technically speaking</Emphasis> I can leave at any time of my choosing, but it is as if some strange force prevents me for stepping forth into the light... But enough of that. You are here to learn what became of your humble companions while you were off saving the realm."
-49,"TEXT_JOBAST601_02409_JANNEQUINARD_000_001","Well, since Ishgard's quite abrupt change in leadership, the Vault has become somewhat more receptive to the contemporary ideas of Lady Leve─er, Master Rufin. They have even asked our compatriot-in-disguise to hold for them another symposium on Sharlayan astrology...and this time within the city–state proper, and not at some forsaken hamlet! (Nothing against the fine citizenry of Falcon's Nest, mind you.)"
-50,"TEXT_JOBAST601_02409_JANNEQUINARD_000_002","In fact, the good Rufin has foreseen your arrival in the stars, and awaits you in the Observatorium."
-51,"TEXT_JOBAST601_02409_JANNEQUINARD_000_003","The look on your face tells me you are less than convinced. Still the skeptic after all we have been through together, eh? Allow me to recreate this morning's reading."
-52,"TEXT_JOBAST601_02409_JANNEQUINARD_000_004","In the center of the Dawn Cross we have the Spear. To its left, the inverted Arrow. To its right, the inverted Balance. Beneath, we have the inverted Spire and the inverted Bole. And finally at the crown, is the Ewer."
-53,"TEXT_JOBAST601_02409_JANNEQUINARD_000_005","Well...? Do you not see it? It is as plain as the stench of day-old piss in the Brume on a balmy summer's eve. “Though peace hath settled upon our great land, it will be along the path of coming destruction that friends new and old shall discover the bush that doth bear the fruit of knowledge and hope.” And to think it was <Emphasis>you</Emphasis> who attuned to all six heavens!"
-54,"TEXT_JOBAST601_02409_JANNEQUINARD_000_006","In other words, <If(PlayerParameter(4))>she<Else/>he</If> who brought peace to Ishgard (that would be you) will walk the road south to the Observatorium where...I don't know, you shall read some books with Lady Leveva to discover a new spell for delivering excruciating pain to your enemies and their families? It all sounded more convincing when she explained it to me this morning over that bottle of wine. Or was it two bottles...?"
-55,"TEXT_JOBAST601_02409_JANNEQUINARD_000_007","At any rate, I would suggest you make haste. You know how our little protégée does not take kindly to those who make her wait. It was good seeing you again, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. And something tells me you will be back again soon. <wink>"
-56,"TEXT_JOBAST601_02409_JANNEQUINARD_000_008","The Dawn Cross uses all six of the major arcana to tell a person's fortune. The cards are shuffled and drawn one at a time. The first card drawn is placed face up in the scrying table's center. This card is also known as the “core” and represents the subject's present state. The second card is placed immediately to the core's left and represents what, in the past, has exerted influence over the subject."
-57,"TEXT_JOBAST601_02409_JANNEQUINARD_000_009","The third card is placed immediately to the right of the core and represents what will most affect the subject in the near future. The fourth card is placed below the core, with the fifth card placed immediately below that one. These cards represent misfortune the subject may face in the foreseeable future and the root of that misfortune respectively. The sixth and final card is placed directly above the core to form the cross, and is representative of the subject's overall fortune... Or at least that is what it said in that tome I copied it from on introductory astrology."
-58,"TEXT_JOBAST601_02409_LEVEVA_000_010","Friend and fellow astrologian! It is so good to see you again. What has it been? Two...? Three...? Ah, let us just say that it has been too long."
-59,"TEXT_JOBAST601_02409_LEVEVA_000_011","Did Jannequinard speak to you of my reading? Well, then there is hope for that well-dressed dullard yet, though I've learned the key to success is not entrusting him with more than one task at a time, and making certain that task does not require much in the way of thinking...or acting, for that matter."
-60,"TEXT_JOBAST601_02409_LEVEVA_000_012","As for the reading, I believe it instructs as to my─as to <Emphasis>our</Emphasis>─next step in spreading the knowledge of─"
-61,"TEXT_JOBAST601_02409_HEISHI_000_013","(-???-)Master Rufin! An injured traveler has arrived at our gates seeking succor!"
-62,"TEXT_JOBAST601_02409_LEVEVA_000_014","An ill omen... With me, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
-63,"TEXT_JOBAST601_02409_KYOKUHOU_000_015",""
-64,"TEXT_JOBAST601_02409_KYOKUHO_000_015","(-Far Eastern Traveler-)Please... I can walk no further..."
-65,"TEXT_JOBAST601_02409_LEVEVA_000_016","The stars were kind in guiding you to this place. The astrologians here have ways of easing one's hurts."
-66,"TEXT_JOBAST601_02409_KYOKUHOU_000_017",""
-67,"TEXT_JOBAST601_02409_KYOKUHO_000_017","(-Far Eastern Traveler-)Astrologians!? I have no need of prophecy or prognosticatio─"
-68,"TEXT_JOBAST601_02409_KYOKUHO_100_017","(-Far Eastern Traveler-)Or...I could stay my tongue and allow you to tend to my wounds... My apologies."
-69,"TEXT_JOBAST601_02409_HEISHI_000_018","May you have a quick recovery, friend. In time you will come to believe the power the stars wield."
-70,"TEXT_JOBAST601_02409_JANNEQUINARD_000_019","Lady Levev─er, Master <Emphasis>Rufin</Emphasis>! <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>'s felicitous return inspires me to step out for a breath of fresh air, and behold! Already does it appear a new adventure is upon us!"
-71,"TEXT_JOBAST601_02409_LEVEVA_000_020","Ah, and here I was thinking you made the journey south to lend your talents in preparing for the forthcoming symposium."
-72,"TEXT_JOBAST601_02409_KYOKUHOU_000_021",""
-73,"TEXT_JOBAST601_02409_KYOKUHO_000_021","(-Far Eastern Traveler-)Master Rufin. Or was it Lady Leveva? If I may, allow me to give you my thanks...and my apologies for earlier."
-74,"TEXT_JOBAST601_02409_KYOKUHOU_000_022",""
-75,"TEXT_JOBAST601_02409_KYOKUHO_000_022","(-Far Eastern Traveler-)I have a tendency to─"
-76,"TEXT_JOBAST601_02409_LEVEVA_000_023","Allow your unbridled emotions to get the best of you?"
-77,"TEXT_JOBAST601_02409_KYOKUHOU_000_024",""
-78,"TEXT_JOBAST601_02409_KYOKUHO_000_024","That was amazing! You knew what I was going to say...<Emphasis>before I even said it</Emphasis>! But where are my manners. I am Kyokuho of Hingashi, and have braved storm and sea to learn of the many wonders it is said are to be found in this magnificent realm...but you already <Emphasis>knew that</Emphasis>, didn't you!?"
-79,"TEXT_JOBAST601_02409_LEVEVA_000_025","No. I did not. Now, if you would excuse me, I must get back to...um, matters...which are important."
-80,"TEXT_JOBAST601_02409_KYOKUHOU_000_026",""
-81,"TEXT_JOBAST601_02409_KYOKUHO_000_026","Important matters? Such as...<Emphasis>astrological</Emphasis> matters? Could you show me? I wouldn't be a burden. I'd stand in the corner. In the shadows. Behind a curtain."
-82,"TEXT_JOBAST601_02409_LEVEVA_000_027","While I appreciate the somewhat forced enthusiasm, I'm afraid that won't be po─"
-83,"TEXT_JOBAST601_02409_KYOKUHOU_000_028",""
-84,"TEXT_JOBAST601_02409_KYOKUHO_000_028","Oh, I was merely hoping that we might be able to share insight into each other's fields."
-85,"TEXT_JOBAST601_02409_LEVEVA_000_029","Each other's fields...? You wouldn't happen to be a <Emphasis>geomancer</Emphasis>, would you!?"
-86,"TEXT_JOBAST601_02409_JANNEQUINARD_000_030","A geomancer?"
-87,"TEXT_JOBAST601_02409_LEVEVA_000_031","So-called masters of wind and water. My grandfather had a tome written on the Far Eastern art of elemental and directional divination. Though much of it seemed little more than folklore."
-88,"TEXT_JOBAST601_02409_JANNEQUINARD_000_032","Lady Leveva, did not the morning's reading mention “friends new and old”? What if <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> were the friend old, and this peculiar little man the friend new?"
-89,"TEXT_JOBAST601_02409_LEVEVA_000_033","The Spear pointing west, the Balance pointing east, the Arrow pointing in all  directions and none... It might just mean..."
-90,"TEXT_JOBAST601_02409_LEVEVA_000_034","Kyokuho. Though it pains me so to admit as much, it appears your arrival has been foretold."
-91,"TEXT_JOBAST601_02409_LEVEVA_000_035","Perhaps there is much that I can learn from you─nay, that we can learn from <Emphasis>each other</Emphasis>."
-92,"TEXT_JOBAST601_02409_KYOKUHOU_000_035",""
-93,"TEXT_JOBAST601_02409_KYOKUHO_000_035","Hah hah! Oh, but there is! Soon you will learn the push and pull of the elements brings together those who require companionship most."
-94,"TEXT_JOBAST601_02409_LEVEVA_000_036","Er, yes... The elements... We will have to discuss that further at another juncture. For the time being, I am placing you in the care of my first and foremost pupil, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
-95,"TEXT_JOBAST601_02409_JANNEQUINARD_000_037","An excellent proposal...or as I believe the Hingans say, “keikaku.” I dabbled a bit in the language when I was younger but for the life of me that ebon-haired emissary would not afford me even a sidelong glan─"
-96,"TEXT_JOBAST601_02409_JANNEQUINARD_000_038","Ahem! Then might I hazard that there is no finer place to begin unlocking the secrets of the stars than under the Bole near Rootslake? I shall even lead good Kyokuho to the South Shroud myself...if, ah, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> agrees to do the rest."
-97,"TEXT_JOBAST601_02409_KYOKUHOU_000_039",""
-98,"TEXT_JOBAST601_02409_KYOKUHO_000_039","After you, then!"
-99,"TEXT_JOBAST601_02409_LEVEVA_000_040","Next we meet, Kyokuho, you will have opened the first gate and better understand the influence the stars hold over all of us. Safe journeys."
-100,"TEXT_JOBAST601_02409_LEVEVA_000_049","If this all goes according to plan...or keikaku, or whatever, then not only will the Easterner teach me his people's secrets, but he will help spread the art of my homeland across the Three Great Continents to the far shores of Othard!"
-101,"TEXT_JOBAST601_02409_JANNEQUINARD_000_048","You most certainly do not need <Emphasis>me</Emphasis> telling <Emphasis>you</Emphasis> that Rootslake is located in the South Shroud near Camp Tranquil. You obviously remember the whereabouts of that particular location from that time that you, yourself opened the first gate. <wink>"
-102,"TEXT_JOBAST601_02409_JANNEQUINARD_000_049","It all begins here, under the earthly stars. By opening the gate to the first heaven, we embark on a journey to self-enlightenment, to self-betterment, to unlock secrets untold... Finishing that journey, now, is another matter altogether. Hah hah...hah... <sigh>"
-103,"TEXT_JOBAST601_02409_QUIMPERAIN_000_049","My <If(PlayerParameter(4))>lady<Else/>lord</If>, it is an honor to defend you once again."
-104,"TEXT_JOBAST601_02409_KYOKUHOU_000_050",""
-105,"TEXT_JOBAST601_02409_KYOKUHO_000_050","There you are! I was beginning to wonder if you hadn't been eaten by the hoverflies on your way here! But I jest. Jannequinard tells me that you are quite the authority on all things relating the Bole. So enlighten me, oh, honorable sensei. I am, as you Westerners say, all eyes...or was it ears?"
-106,"TEXT_JOBAST601_02409_Q1_000_000","What will you explain?"
-107,"TEXT_JOBAST601_02409_A1_000_001","The Bole's origin."
-108,"TEXT_JOBAST601_02409_A1_000_003","The Bole's blessing."
-109,"TEXT_JOBAST601_02409_KYOKUHOU_000_051",""
-110,"TEXT_JOBAST601_02409_KYOKUHO_000_051","And Eorzeans believe it is from this tree planted by your gods in the very heavens that all life was born? Fascinating..."
-111,"TEXT_JOBAST601_02409_KYOKUHOU_000_052",""
-112,"TEXT_JOBAST601_02409_KYOKUHO_000_052","So say you the Bole offers strength to the weak? Intriguing..."
-113,"TEXT_JOBAST601_02409_KYOKUHOU_000_060",""
-114,"TEXT_JOBAST601_02409_KYOKUHO_000_060","So this is your <Emphasis>Bole</Emphasis>..."
-115,"TEXT_JOBAST601_02409_KYOKUHOU_000_061",""
-116,"TEXT_JOBAST601_02409_KYOKUHO_000_061","In the Far East we know of the constellation as something different, but know it all the same. I must admit, however, that seeing it under a different sky than my own fills my heart with a sense of both wonderment...and now confusion knowing what it represents to your people."
-117,"TEXT_JOBAST601_02409_KYOKUHOU_000_062",""
-118,"TEXT_JOBAST601_02409_KYOKUHO_000_062","What I cannot wrap my head around is that you would truly believe a notion so foolish as that the power of <Emphasis>earth</Emphasis>─a word that by your own definition means “soil”─would not come from the land itself, but rather from six tiny lights flickering in the night skies."
-119,"TEXT_JOBAST601_02409_KYOKUHOU_000_063",""
-120,"TEXT_JOBAST601_02409_KYOKUHO_000_063","We students of geomancy believe that such power naturally lies beneath our feet, ever flowing through creation, as blood does through our veins. Yet, despite the differences in our thinking, the similarities are encouraging. All trees are born of the earth, and their protection is universal."
-121,"TEXT_JOBAST601_02409_JANNEQUINARD_000_064","A most thought-provoking opinion that I am certain Lady Leveva will be delighted to hear...though might I suggest you withhold the part about being unable to wrap your head around our “foolish notions”...unless you enjoy having a steel-toed boot wedged firmly 'twixt the bollocks."
-122,"TEXT_JOBAST601_02409_JANNEQUINARD_000_065","Ahem! Shall we be going then? By this hour, Lady Leveva will have already made the journey back to the Athenaeum."
-123,"TEXT_JOBAST601_02409_JANNEQUINARD_000_069","Our Far Eastern friend has quickly become acquainted with many of the Athenaeum's female apprentices, who all seem smitten with his exotic locks and trappings. Not that I am jealous. Why would I be jealous? I am of House Durendaire! Third in line to my uncle's title! Or was it second? The most eligible bachelor in all the See! Hm? Leveva? Over there."
-124,"TEXT_JOBAST601_02409_KYOKUHOU_000_069",""
-125,"TEXT_JOBAST601_02409_KYOKUHO_000_069","I was just speaking with these fine ladies regarding their thoughts on the Sharlayan school of astrology. Your name came up quite often. Everyone here seems to think very highly of you. Of Jannequinard? Er..."
-126,"TEXT_JOBAST601_02409_LEVEVA_000_070","My thanks for taking the Hingan off my hands. And not because I think our visitor an annoying little braggart with all the manners of a kobold foundling, which I still do, but because I needed the time to finish my work without distraction. So tell me, what did I miss?"
-127,"TEXT_JOBAST601_02409_LEVEVA_000_071","I see. Perhaps I judged Kyokuho too hastily. I still have my reservations, but I shall afford him the benefit of the doubt...for now."
-128,"TEXT_JOBAST601_02409_LEVEVA_000_072","The teachings of geomancy may be grounded in faerie tales and falsehoods, but my grandfather told me that every lie is born of the truth. If I can find the truth within Kyokuho's backwards beliefs, it may provide insight into our own school of thought."
-129,"TEXT_JOBAST601_02409_LEVEVA_000_073","I see now that my choice to assign you as his tutor was a wise decision. Might I ask this of you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>?"
-130,"TEXT_JOBAST601_02409_LEVEVA_000_074","I promise that once the symposium has ended, I shall assume the duties of Kyokuho's tutelage. I sense good fortune in our stars, my friend. Good fortune, indeed."
-131,"TEXT_JOBAST601_02409_SYSTEM_000_300","The next astrologian quest will be available from Leveva upon reaching level 63."
-132,"TEXT_JOBAST601_02409_SYSTEM_000_301","The requirements for undertaking subsequent quests can be reviewed in your journal."
+48,"TEXT_JOBAST601_02409_JANNEQUINARD_000_000","おや、ごきげんよう、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん。
+占星術の学びは、順調ですか？
+レヴェヴァ師も、父ルフィンの名を継いで、活躍していますよ。"
+49,"TEXT_JOBAST601_02409_JANNEQUINARD_000_001","竜詩戦争の終結により、占星術に求められることも変わり、
+にわかにシャーレアン式占星術が注目されつつあります……。
+そのため、皇都にて講話会が開催されることになりました。"
+50,"TEXT_JOBAST601_02409_JANNEQUINARD_000_002","そして今、分かたれた運命が、再び交わりました……。
+レヴェヴァ師が、貴方の到来を予期して、
+協力を要請しているのです。"
+51,"TEXT_JOBAST601_02409_JANNEQUINARD_000_003","なぜ師が貴方の来訪を知ったのか、不思議ですよね？
+その答えは、「アルカナ占い」……
+ドーンクルスという方式で、占星術の未来を占われたのです。"
+52,"TEXT_JOBAST601_02409_JANNEQUINARD_000_004","一枚目は正位置の「槍」、二枚目に逆位置の「矢」、
+三枚目に逆位置の「均衡」、四枚目に逆位置の「塔」、
+五枚目に逆位置の「幹」、六枚目に正位置の「水瓶」……。"
+53,"TEXT_JOBAST601_02409_JANNEQUINARD_000_005","この結果をレヴェヴァ師は、次のように解釈しました。
+冒険者たる貴方により、イシュガルドの戦争が平定された今、
+破壊の災難に関わることで、占星術は新たな知を得る、と。"
+54,"TEXT_JOBAST601_02409_JANNEQUINARD_000_006","私は、占いが本当に未来を暗示しているのかはわかりません。
+ともかく、ここは「レヴェヴァ」師から話を伺ってください。
+師は講話会の準備のため、アドネール占星台におられます。"
+55,"TEXT_JOBAST601_02409_JANNEQUINARD_000_007","そうそう、師は公式にはルフィンと名乗っています。
+ですが、苦難を共に乗り越えた貴方には、
+昔のまま、レヴェヴァと呼んでほしいそうですよ。"
+56,"TEXT_JOBAST601_02409_JANNEQUINARD_000_008","ドーンクルス式「アルカナ占い」では、一枚目は現在、
+二枚目は過去、三枚目は未来、四枚目は起こりうる災難や不運、
+五枚目はその要因、六枚目はすべてを包括した運命を暗示します。"
+57,"TEXT_JOBAST601_02409_JANNEQUINARD_000_009","そして、各アルカナには、暗示する方角があり、
+「均衡」は東、「槍」は西、「水瓶」は南、「塔」は北、
+「幹」は中央、「矢」は定まらぬ方角を示すとされるのです。"
+58,"TEXT_JOBAST601_02409_LEVEVA_000_010","よく来てくれた、元気そうで何より。
+ここに来たということは、ジャンヌキナルから、
+「アルカナ占い」の結果を聞いたからなのだろう？"
+59,"TEXT_JOBAST601_02409_LEVEVA_000_011","やはり、わしの占いは正しいようだな。
+居所定まらぬ旅人である汝が、竜を屠る槍となり戦を鎮め、
+古き過去にまつわる破壊の災難と交差し、新たな知を生む。"
+60,"TEXT_JOBAST601_02409_LEVEVA_000_012","その中心にある者こそ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>……。
+汝が、今日ここに来たということは、占星術が新たな段階に、
+発展する時期に入ったという運命を示している……。"
+61,"TEXT_JOBAST601_02409_HEISHI_000_013","(-緊迫した叫び声-)けが人だ！！
+魔物に襲われた人がいる！
+誰か、手当てをしてくれ！！"
+62,"TEXT_JOBAST601_02409_LEVEVA_000_014","む……一大事のようじゃ。
+どれ、占星術にて、けが人の運命を切り開くとしよう。"
+63,"TEXT_JOBAST601_02409_KYOKUHOU_000_015","（★未使用／削除予定★）"
+64,"TEXT_JOBAST601_02409_KYOKUHO_000_015","(-東方風のけが人-)いてててて……誰か、助けて……。"
+65,"TEXT_JOBAST601_02409_LEVEVA_000_016","われらは、シャーレアン式占星術を扱う者。
+けが人の処置は、われらが引き受けよう。"
+66,"TEXT_JOBAST601_02409_KYOKUHOU_000_017","（★未使用／削除予定★）"
+67,"TEXT_JOBAST601_02409_KYOKUHO_000_017","(-東方風のけが人-)せ、占星術だって……！？
+こりゃ、幸先いい！！"
+68,"TEXT_JOBAST601_02409_KYOKUHO_100_017","(-東方風のけが人-)って、いってててて……。
+と、とにかく早いところ癒しを頼む……！"
+69,"TEXT_JOBAST601_02409_HEISHI_000_018","偶然、占星術師の先生がいらっしゃって、命拾いしたな。
+きちんと礼をしろよ。
+では、私は持ち場に戻る。"
+70,"TEXT_JOBAST601_02409_JANNEQUINARD_000_019","おや、レヴェヴァ師に<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん。
+こんなところで、どうされましたか？
+講話会の準備は、終わられたのですか？"
+71,"TEXT_JOBAST601_02409_LEVEVA_000_020","いや、ちょっとした騒動があり、準備はこれからだが、
+手伝いの名乗りをあげてくれた有志も多く、心配ない。
+さあ、みなのもの、会場に出向くとしよう。"
+72,"TEXT_JOBAST601_02409_KYOKUHOU_000_021","（★未使用／削除予定★）"
+73,"TEXT_JOBAST601_02409_KYOKUHO_000_021","(-東方風の男-)おーーっと、お待ちを！
+レヴェヴァ師に<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>殿……
+危ないところを助けていただき、かたじけない！"
+74,"TEXT_JOBAST601_02409_KYOKUHOU_000_022","（★未使用／削除予定★）"
+75,"TEXT_JOBAST601_02409_KYOKUHO_000_022","(-東方風の男-)いきなり占星術師に会えるなんて、
+こりゃ、いい風吹いてるぜ！"
+76,"TEXT_JOBAST601_02409_LEVEVA_000_023","……馴れ馴れしく、やかましい男だな。
+それに、その見慣れぬ出で立ち……東方の者か？"
+77,"TEXT_JOBAST601_02409_KYOKUHOU_000_024","（★未使用／削除予定★）"
+78,"TEXT_JOBAST601_02409_KYOKUHO_000_024","さっすが星読みの先生は、人相まで読めるらしい！
+いかにも俺は、はるか東の果てからやって来たキョクホウだ！
+「星読みの知識」を得るためにな！！"
+79,"TEXT_JOBAST601_02409_LEVEVA_000_025","それは遠路はるばる、ご苦労だったな。
+ギルドに入りたくば、イシュガルドの聖ガンリオル占星院にて、
+手続きをするがいい。"
+80,"TEXT_JOBAST601_02409_KYOKUHOU_000_026","（★未使用／削除予定★）"
+81,"TEXT_JOBAST601_02409_KYOKUHO_000_026","だから、お待ちをって！
+ここで師に会えたのも、何かの縁！
+俺は、いますぐ占星術をご教授願いたい！！"
+82,"TEXT_JOBAST601_02409_LEVEVA_000_027","……暑苦しいほどの熱意だな……いや、待てよ。
+汝、東方から来たといったな……？"
+83,"TEXT_JOBAST601_02409_KYOKUHOU_000_028","（★未使用／削除予定★）"
+84,"TEXT_JOBAST601_02409_KYOKUHO_000_028","ああ、故郷「ひんがしの国」では、風水士をしてる。
+風脈、地脈を読む風水術……これをさらに発展させたくて、
+星読みの知識を学びたいんだ。"
+85,"TEXT_JOBAST601_02409_LEVEVA_000_029","風水術か……。
+故郷シャーレアンにて、東方の学問と聞いたことがある。
+実際に風水士に会えるとは、実に興味深い……。"
+86,"TEXT_JOBAST601_02409_JANNEQUINARD_000_030","レヴェヴァ師、講話会で増えるであろう入門者に備え、
+すでにソウルクリスタルも用意できています。
+必要なら、今すぐ彼にも渡せますが？"
+87,"TEXT_JOBAST601_02409_LEVEVA_000_031","なんたる偶然……！
+現在を示したアルカナが「槍」で、未来を示すのが「均衡」、
+となれば……これぞ星の導きか！"
+88,"TEXT_JOBAST601_02409_JANNEQUINARD_000_032","例のアルカナ占いの結果というやつですか？"
+89,"TEXT_JOBAST601_02409_LEVEVA_000_033","いかにも。
+各アルカナには、それぞれ方角の暗示があってな……。
+「槍」は西を、「均衡」は東を示すと言われている。"
+90,"TEXT_JOBAST601_02409_LEVEVA_000_034","西がエオルゼアの占星術、東が東方の風水術を表すなら、
+定まらぬ方位を示す「矢」が暗示するのは、旅人たる冒険者。
+これらが交わるとき、占星術のさらなる発展があると見た！"
+91,"TEXT_JOBAST601_02409_LEVEVA_000_035","よし、キョクホウとやら……
+汝の望みどおり、早速、占星術を教えてやろう！"
+92,"TEXT_JOBAST601_02409_KYOKUHOU_000_035","（★未使用／削除予定★）"
+93,"TEXT_JOBAST601_02409_KYOKUHO_000_035","ひゃっほー！
+占いってのが何なのかは知らないが、こいつは幸先いい！
+やっぱり、いい風吹いてるぜ！"
+94,"TEXT_JOBAST601_02409_LEVEVA_000_036","とはいえ、わしは講話会の準備で手を放せぬ身……。
+ゆえに、汝の指導にあたるのは、
+この<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>だ。"
+95,"TEXT_JOBAST601_02409_JANNEQUINARD_000_037","名案です、後輩の指導は自身の学びにもつながりますから。
+では、さっそく、学びの土台を固めるため、
+土天座を見に、南部森林の根渡り沼へまいりましょう。"
+96,"TEXT_JOBAST601_02409_JANNEQUINARD_000_038","キョクホウ君は、私たちが案内しますので、
+現地での解説は、<If(PlayerParameter(4))>姉<Else/>兄</If>弟子となる、
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さんにお任せしますね。"
+97,"TEXT_JOBAST601_02409_KYOKUHOU_000_039","（★未使用／削除予定★）"
+98,"TEXT_JOBAST601_02409_KYOKUHO_000_039","<If(PlayerParameter(4))>姉者<Else/>兄者</If>、ご指導、よろしく頼みます！"
+99,"TEXT_JOBAST601_02409_LEVEVA_000_040","さあキョクホウよ、占星術の扉を開き、
+汝の、そして我らの未来を切り開け！"
+100,"TEXT_JOBAST601_02409_LEVEVA_000_049","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
+占星術の発展のためにも、キョクホウの指導をよろしく頼む。"
+101,"TEXT_JOBAST601_02409_JANNEQUINARD_000_048","南部森林の根渡り沼へ向かってください。
+シャーレアン式の占星術を学びはじめた者は、
+まず土天座を開き、学びの基礎、つまり土台を固めますから。"
+102,"TEXT_JOBAST601_02409_JANNEQUINARD_000_049","シャーレアン式の占星術を学びはじめた者は、
+まず、この地にて、土天座を開き、
+学びの基礎、つまり土台を固めるのです。"
+103,"TEXT_JOBAST601_02409_QUIMPERAIN_000_049","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>様のご活躍は、かねがね耳にしております。
+再び、こうして旅にお供することができて光栄です。"
+104,"TEXT_JOBAST601_02409_KYOKUHOU_000_050","（★未使用／削除予定★）"
+105,"TEXT_JOBAST601_02409_KYOKUHO_000_050","<If(PlayerParameter(4))>姉者<Else/>兄者</If>、無事だったか！
+あとは、「土天の門」との対峙のときを待つばかり。
+その前に、「土天」について解説願いたい！"
+106,"TEXT_JOBAST601_02409_Q1_000_000","「土天」について何を説明する？"
+107,"TEXT_JOBAST601_02409_A1_000_001","土天にそびえる世界樹について"
+108,"TEXT_JOBAST601_02409_A1_000_003","土天の祝福について"
+109,"TEXT_JOBAST601_02409_KYOKUHOU_000_051","（★未使用／削除予定★）"
+110,"TEXT_JOBAST601_02409_KYOKUHO_000_051","なるほど、土の天界の「土天」には、
+地神が植え、時神が育てた世界樹があるのか……。
+その力に抱かれ、己が地力を超えた攻撃を行えるんだな！"
+111,"TEXT_JOBAST601_02409_KYOKUHOU_000_052","（★未使用／削除予定★）"
+112,"TEXT_JOBAST601_02409_KYOKUHO_000_052","ふむふむ……土天の祝福を暗示したアルカナは「幹」。
+その力を用いることで、世界樹に抱かれ、
+己が地力を超えた攻撃を行えるんだな！"
+113,"TEXT_JOBAST601_02409_KYOKUHOU_000_060","（★未使用／削除予定★）"
+114,"TEXT_JOBAST601_02409_KYOKUHO_000_060","おお、これがエオルゼアの「土天座」……。"
+115,"TEXT_JOBAST601_02409_KYOKUHOU_000_061","（★未使用／削除予定★）"
+116,"TEXT_JOBAST601_02409_KYOKUHO_000_061","故郷「ひんがしの国」でも、日々、「土天座」を見ていたが、
+ところ変われば、輝きも印象も変わるものだな。"
+117,"TEXT_JOBAST601_02409_KYOKUHOU_000_062","（★未使用／削除予定★）"
+118,"TEXT_JOBAST601_02409_KYOKUHO_000_062","だからこそ、土天特有の普遍なる力もよくわかる。
+土天にそびえる世界樹に抱かれ、大いなる力を得るという、
+土天座のアルカナ「幹」の力を……。"
+119,"TEXT_JOBAST601_02409_KYOKUHOU_000_063","（★未使用／削除予定★）"
+120,"TEXT_JOBAST601_02409_KYOKUHO_000_063","天の星々と繋がることで、力を得ながらも、
+その本質は、大地に根ざす力を借りた大いなる加護……。
+地脈から力を得る風水術と似ている気がする……。"
+121,"TEXT_JOBAST601_02409_JANNEQUINARD_000_064","おや、それは興味深い発見ですね。
+レヴェヴァ師にも知らせると、喜ばれるでしょう。"
+122,"TEXT_JOBAST601_02409_JANNEQUINARD_000_065","さて、これでキョクホウ君は「土天」の門を開かれました。
+そろそろ、聖ガンリオル占星院に帰還しましょう。
+貴方は、「レヴェヴァ」師への報告をお願いします。"
+123,"TEXT_JOBAST601_02409_JANNEQUINARD_000_069","キョクホウ君の向学心は素晴らしいです。
+占星院の者たちのやる気と能力を後押しする、
+追い風の如き存在となってくれそうです……。"
+124,"TEXT_JOBAST601_02409_KYOKUHOU_000_069","（★未使用／削除予定★）"
+125,"TEXT_JOBAST601_02409_KYOKUHO_000_069","シャーレアン式占星術が、
+イシュガルドに根付くまでの苦労話を聞かせてもらったぞ。
+貴方がたの活躍あってこその、今なんだな。"
+126,"TEXT_JOBAST601_02409_LEVEVA_000_070","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、戻ったか。
+この度は、キョクホウへの指導、ご苦労だった。
+手応えはどうであったか？"
+127,"TEXT_JOBAST601_02409_LEVEVA_000_071","なるほど、キョクホウの向学心と吸収力は見事なものだな。
+あやつの存在は、占星院のほかの者たちにも、
+良き影響を与えるだろう。"
+128,"TEXT_JOBAST601_02409_LEVEVA_000_072","特に、風水術と占星術の相似点は興味深い。
+後程、キョクホウに風水術について聞いてみることにしよう。"
+129,"TEXT_JOBAST601_02409_LEVEVA_000_073","今後も、キョクホウの指導を頼んだぞ。
+成長著しいあやつを導くために、
+汝も、いっそう占星術の学びを深めてくれ。"
+130,"TEXT_JOBAST601_02409_LEVEVA_000_074","アルカナ占いが示した東方の知、キョクホウと、
+イシュガルドの今に影響を与えた、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
+その双方が交わる未来……楽しみにしているぞ。"
+131,"TEXT_JOBAST601_02409_SYSTEM_000_300","「占星術師」の新たなジョブクエストが開始されました。
+次のクエストは「レベル63」以上で、
+聖ガンリオル占星院のレヴェヴァから受注可能です。"
+132,"TEXT_JOBAST601_02409_SYSTEM_000_301","今後の「占星術師」のジョブクエスト受注条件は、
+コンプリート後のジャーナルで確認できます。"

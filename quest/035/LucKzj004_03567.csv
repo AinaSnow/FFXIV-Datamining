@@ -1,8 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKZJ004_03567_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-The drill instructor is concerned about one of his recent recruits."
+0,"TEXT_LUCKZJ004_03567_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+バリスティクス造兵館前の衛兵団の小隊長は、新兵の指導に悩んでいるようだ。"
 1,"TEXT_LUCKZJ004_03567_SEQ_01",""
 2,"TEXT_LUCKZJ004_03567_SEQ_02",""
 3,"TEXT_LUCKZJ004_03567_SEQ_03",""
@@ -26,8 +26,8 @@ The drill instructor is concerned about one of his recent recruits."
 21,"TEXT_LUCKZJ004_03567_SEQ_21",""
 22,"TEXT_LUCKZJ004_03567_SEQ_22",""
 23,"TEXT_LUCKZJ004_03567_SEQ_23",""
-24,"TEXT_LUCKZJ004_03567_TODO_00","Give the consolatory sandwich to the novice guard at Sweetsieve."
-25,"TEXT_LUCKZJ004_03567_TODO_01","Speak with the drill instructor in Ballistics."
+24,"TEXT_LUCKZJ004_03567_TODO_00","スウィートシーヴ果実園の衛兵団の新兵に<Sheet(EventItem,2002758,0)/>を渡す"
+25,"TEXT_LUCKZJ004_03567_TODO_01","バリスティクス造兵館付近の衛兵団の小隊長と話す"
 26,"TEXT_LUCKZJ004_03567_TODO_02",""
 27,"TEXT_LUCKZJ004_03567_TODO_03",""
 28,"TEXT_LUCKZJ004_03567_TODO_04",""
@@ -50,24 +50,47 @@ The drill instructor is concerned about one of his recent recruits."
 45,"TEXT_LUCKZJ004_03567_TODO_21",""
 46,"TEXT_LUCKZJ004_03567_TODO_22",""
 47,"TEXT_LUCKZJ004_03567_TODO_23",""
-48,"TEXT_LUCKZJ004_03567_PLATOONLEADER03567_000_000","Maybe a sandwich... Everyone likes sandwiches..."
-49,"TEXT_LUCKZJ004_03567_PLATOONLEADER03567_000_001","Oh! If it isn't the Warrior of Darkness! What fortuitous timing."
-50,"TEXT_LUCKZJ004_03567_PLATOONLEADER03567_000_002","I'm worried about one of our recruits, you see. He was one of the residents of Holminster Switch, and after the attack, he thought to join up, the better to protect those he loves..."
-51,"TEXT_LUCKZJ004_03567_PLATOONLEADER03567_000_003","Alas, it's not so easy as all that, is it? And because his training isn't having as immediate an effect as he wished, he's become rather depressed. I know not what to say to him─as his superior, I fear that he will take my encouragement as chastisement."
-52,"TEXT_LUCKZJ004_03567_PLATOONLEADER03567_000_004","If you spoke with him, however, he might take your words to heart. Can I ask you to attempt it? You will find him sighing to himself in Sweetsieve, like as not. Take him this, as well─I find that nothing so reliably lifts the spirits as a full stomach."
-53,"TEXT_LUCKZJ004_03567_PLATOONLEADER03567_000_005","He needs to know that these things take time for everyone, I think. Heroes aren't made in a day!"
-54,"TEXT_LUCKZJ004_03567_RECRUIT03567_000_010","Th-The Warrior of Darkness? You must be mistaken, you can't possibly have reason to speak with <Emphasis>me</Emphasis>..."
-55,"TEXT_LUCKZJ004_03567_RECRUIT03567_000_011","I... I don't know what to say. I don't deserve your kindness. I don't deserve your sandwich..."
-56,"TEXT_LUCKZJ004_03567_Q1_000_000","What will you say?"
-57,"TEXT_LUCKZJ004_03567_A1_000_001","Nonsense. You've been working hard."
-58,"TEXT_LUCKZJ004_03567_A1_000_002","Your instructor is worried about you."
-59,"TEXT_LUCKZJ004_03567_RECRUIT03567_000_012","H-How do you know that!? I mean, I <Emphasis>have</Emphasis> tried, but..."
-60,"TEXT_LUCKZJ004_03567_RECRUIT03567_000_013","He is!? I never expected him to notice that I..."
-61,"TEXT_LUCKZJ004_03567_RECRUIT03567_000_015","Well, I had hoped that this would go differently, I suppose. I'm in the guard now, yes, but my spear still feels heavy and awkward in my hands. My knees still shake when I'm in combat. It wasn't meant to be like this."
-62,"TEXT_LUCKZJ004_03567_RECRUIT03567_000_016","It sounds pathetic when I say it out loud, doesn't it? I had resolved to be like you, who came to our rescue when everything was at its most hopeless. Yet here I am, discouraged at the first sign of difficulty."
-63,"TEXT_LUCKZJ004_03567_RECRUIT03567_000_017","There's nothing for it but to face my own weakness, is there? To overcome it. It won't make me a hero, but...it's a step on that path. And seeing you again has reminded me that that's the path I want to follow, no matter what."
-64,"TEXT_LUCKZJ004_03567_PLATOONLEADER03567_000_020","It seems that your mere presence was enough to restore his fighting spirit! I cannot thank you enough."
-65,"TEXT_LUCKZJ004_03567_RECRUIT03567_000_021","Nor can I. Thank you for coming to me when I most needed it. I swear that I will do my utmost to follow your example in future!"
-66,"TEXT_LUCKZJ004_03567_RECRUIT03567_000_023","Sir, may I join you on patrol? Quite frankly, I need the practice."
-67,"TEXT_LUCKZJ004_03567_PLATOONLEADER03567_000_024","And you shall have it! With me, guardsman!"
-68,"TEXT_LUCKZJ004_03567_RECRUIT03567_000_022","Thank you for reminding me where I ought to be."
+48,"TEXT_LUCKZJ004_03567_PLATOONLEADER03567_000_000","どう言って聞かせればよいものか……。"
+49,"TEXT_LUCKZJ004_03567_PLATOONLEADER03567_000_001","こ、これは闇の戦士殿！
+気づかずに失礼を……いや、これは絶好の好機なのでは？
+実は最近、新人の指導で悩んでいましてね……。"
+50,"TEXT_LUCKZJ004_03567_PLATOONLEADER03567_000_002","ホルミンスターの生き残りである彼は、
+家族を守るためにと、この衛兵団に志願してきたものの、
+思うようにいかず、落ち込んでいるようなのです。"
+51,"TEXT_LUCKZJ004_03567_PLATOONLEADER03567_000_003","上官である私が、何か言っても重圧をかけるだけでしょう。
+ですが、故郷を救った貴方であれば……。"
+52,"TEXT_LUCKZJ004_03567_PLATOONLEADER03567_000_004","もしよければ、この「<Sheet(EventItem,2002758,0)/>」を渡して、
+「衛兵団の新兵」を励ましてやってはいただけないでしょうか？
+きっと彼は、スウィートシーヴ果実園にいるはずです。"
+53,"TEXT_LUCKZJ004_03567_PLATOONLEADER03567_000_005","もしよければ、この「<Sheet(EventItem,2002758,0)/>」を渡して、
+「衛兵団の新兵」を励ましてやってはいただけないでしょうか？
+きっと彼は、スウィートシーヴ果実園にいるはずです。"
+54,"TEXT_LUCKZJ004_03567_RECRUIT03567_000_010","ええっ、あなたは闇の戦士殿！
+ぼ、僕に御用ですか？"
+55,"TEXT_LUCKZJ004_03567_RECRUIT03567_000_011","……ますます、状況が把握できません。
+なんだって、闇の戦士殿が僕なんかに差し入れを？"
+56,"TEXT_LUCKZJ004_03567_Q1_000_000","何と言う？"
+57,"TEXT_LUCKZJ004_03567_A1_000_001","悩んでいるように見えた"
+58,"TEXT_LUCKZJ004_03567_A1_000_002","小隊長が心配していた"
+59,"TEXT_LUCKZJ004_03567_RECRUIT03567_000_012","すごいや！
+闇の戦士殿は、なんでもお見通しなんですね……。"
+60,"TEXT_LUCKZJ004_03567_RECRUIT03567_000_013","あの鬼みたいな小隊長殿が、僕を心配！？
+そうですか……。"
+61,"TEXT_LUCKZJ004_03567_RECRUIT03567_000_015","実は、衛兵団に入ったものの、全然うまくいかなくて……。
+敵を前にすると怖くて、手が震えてしまう……
+そんな自分に、嫌気が差していたんです。"
+62,"TEXT_LUCKZJ004_03567_RECRUIT03567_000_016","でも……戦い続けているあなたに励まされて、
+弱音を吐いていた自分が恥ずかしくなりました……。
+あなたに命を救われた僕が、今度はみんなを護れるようになるんだ！"
+63,"TEXT_LUCKZJ004_03567_RECRUIT03567_000_017","……小隊長殿に、心配かけたことを謝罪してきます。
+憧れのあなたに会えて、勇気をもらいました！
+差し入れ、本当にありがとうございました！"
+64,"TEXT_LUCKZJ004_03567_PLATOONLEADER03567_000_020","貴方のおかげで、新兵の顔付きが一変しましたよ。
+本当に、ありがとうございました。"
+65,"TEXT_LUCKZJ004_03567_RECRUIT03567_000_021","闇の戦士殿、僕はもう逃げません！
+小隊長殿について、どんな任務も頑張りますよ！"
+66,"TEXT_LUCKZJ004_03567_RECRUIT03567_000_023","小隊長殿！
+次の見回り任務、僕も参加させてください！"
+67,"TEXT_LUCKZJ004_03567_PLATOONLEADER03567_000_024","……ああ！
+しっかりついてこいよ。"
+68,"TEXT_LUCKZJ004_03567_RECRUIT03567_000_022","本当に、ありがとうございました！"

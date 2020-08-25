@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB905_00928_SEQ_00","For some like the pushful Ser Oncenedl, an adventurer is naught but a scullion for a task most macabre."
-1,"TEXT_GAIUSB905_00928_SEQ_01","With no small disdain, Ser Oncenedl bids you search the body of a heretic for personal items and deliver these to the Gates of Judgement. Apparently, some in the Holy See believe they will yield valuable information."
-2,"TEXT_GAIUSB905_00928_SEQ_02","An adventurer once said that there are no dirty jobs, only dirty memories─and you sense that you may be testing this theory quite soon. Take the sack of effects to Ser Chaunollet at the Gates of Judgement."
-3,"TEXT_GAIUSB905_00928_SEQ_03","Ser Chaunollet commends you for looting the dead, and appears hopeful that this sad detritus of an interrupted life will further the cause of Ishgard. You know not what to think, but the work is done and a wash awaits..."
+0,"TEXT_GAIUSB905_00928_SEQ_00","ホワイトブリム前哨地のオンセネデルは、届け物をしてほしいようだ。"
+1,"TEXT_GAIUSB905_00928_SEQ_01","ドラゴン族や異端者の情報を得るため、異端者の遺品を大審門に届ける必要があるらしい。異端者の死体を調べてみよう。"
+2,"TEXT_GAIUSB905_00928_SEQ_02","異端者の死体から「<Sheet(EventItem,2000726,0)/>」を見つけた。大審門の「ショノーレー」に届けよう。"
+3,"TEXT_GAIUSB905_00928_SEQ_03","大審門のショノーレーに<Sheet(EventItem,2000726,0)/>を届けた。はたして異端者の遺品が、ドラゴン族との聖戦の手がかりになるのだろうか……。"
 4,"TEXT_GAIUSB905_00928_SEQ_04",""
 5,"TEXT_GAIUSB905_00928_SEQ_05",""
 6,"TEXT_GAIUSB905_00928_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSB905_00928_SEQ_21",""
 22,"TEXT_GAIUSB905_00928_SEQ_22",""
 23,"TEXT_GAIUSB905_00928_SEQ_23",""
-24,"TEXT_GAIUSB905_00928_TODO_00","Check the body for personal items."
-25,"TEXT_GAIUSB905_00928_TODO_01","Deliver the sack of effects to Chaunollet."
+24,"TEXT_GAIUSB905_00928_TODO_00","異端者の死体から遺物を入手"
+25,"TEXT_GAIUSB905_00928_TODO_01","ショノーレーに<Sheet(EventItem,2000726,0)/>を渡す"
 26,"TEXT_GAIUSB905_00928_TODO_02",""
 27,"TEXT_GAIUSB905_00928_TODO_03",""
 28,"TEXT_GAIUSB905_00928_TODO_04",""
@@ -49,11 +49,20 @@ int32,str,str
 45,"TEXT_GAIUSB905_00928_TODO_21",""
 46,"TEXT_GAIUSB905_00928_TODO_22",""
 47,"TEXT_GAIUSB905_00928_TODO_23",""
-48,"TEXT_GAIUSB905_00928_ONCENEDL_000_000","O adventurer! I claim your time in the name of the Holy See. Search the body downstairs for personal effects and deliver the lot to the Gates of Judgement. He was a heretic in life; you need not be gentle."
-49,"TEXT_GAIUSB905_00928_ONCENEDL_000_001","Usually we leave the carcass for the crows, but...as you well know, there has been some trouble of late and now we're told to rifle through these lousy pockets."
-50,"TEXT_GAIUSB905_00928_ONCENEDL_000_002","Low work it is, and I leave you to it. You'll find naught but nits, I'll warrant."
-51,"TEXT_GAIUSB905_00928_DUMMY_000_000",""
-52,"TEXT_GAIUSB905_00928_SYSTEM_000_000",""
-53,"TEXT_GAIUSB905_00928_CHAUNOLLET_000_010","State your business!"
-54,"TEXT_GAIUSB905_00928_CHAUNOLLET_000_020","Ah, the leavings of unbelievers, most excellent. You have served with honor. Let us hope there is to be found here a clue..."
-55,"TEXT_GAIUSB905_00928_CHAUNOLLET_000_021","Long have I hated unbelievers, but no more, for they too serve the Fury─if not in life, then in death. What ruth has Halone to grant them such a chance!"
+48,"TEXT_GAIUSB905_00928_ONCENEDL_000_000","ちょいと手伝っておくれでないかい？
+そこに異端者の死体があるからさ、
+そいつを探って、出てきた物を大審門まで届けてほしいんだ。"
+49,"TEXT_GAIUSB905_00928_ONCENEDL_000_001","異端者の死体なんて、普通はほっぽっておくもんだけど。
+今はいろいろ問題が起きてるだろう？
+それで、異端者の持ち物を調べるっていうのさ。"
+50,"TEXT_GAIUSB905_00928_ONCENEDL_000_002","汚れ仕事だから、冒険者にお願いしようと思ってね。
+……どうせなにも出やしないってのに、
+お偉い方々の考えることはわからないねえ。"
+51,"TEXT_GAIUSB905_00928_DUMMY_000_000","牢屋地下に並べられた異端者の死体にアクセス、異端者の荷物入手"
+52,"TEXT_GAIUSB905_00928_SYSTEM_000_000","（★未使用／削除予定★）"
+53,"TEXT_GAIUSB905_00928_CHAUNOLLET_000_010","ふむ、貴様、何用か？"
+54,"TEXT_GAIUSB905_00928_CHAUNOLLET_000_020","<Sheet(EventItem,2000726,0)/>を運んできたのか、ご苦労。
+さて、この中に有用な情報があれば良いのだがな……。"
+55,"TEXT_GAIUSB905_00928_CHAUNOLLET_000_021","異端者とは、人の風上にもおけぬ奴らだが。
+我らが聖戦の役に立つと思えば、
+クク……むしろかわゆいものよ。"

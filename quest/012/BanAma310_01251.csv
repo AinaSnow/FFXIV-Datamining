@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANAMA310_01251_SEQ_00","Yadovv Gah demands that the fires of Ifrit's beacons be quenched."
-1,"TEXT_BANAMA310_01251_SEQ_01","The beacons of the Flamefangs are symbols of power and prestige─none more so than those which bear the Lord of the Inferno's name. Yadovv Gah would have you destroy these abominations, and in so doing irreparably damage the reputation of the zealots."
-2,"TEXT_BANAMA310_01251_SEQ_02","The Flamefangs will rue this day, and rue it hard. Return to the Ring of Ash and report to Yadovv Gah."
-3,"TEXT_BANAMA310_01251_SEQ_03","The howls of the Flamefangs heard for malms around informed Yadovv Gah of your success. He declares that the Brotherhood's sworn enemies will soon lie broken at their feet, thanks to your tireless efforts."
+0,"TEXT_BANAMA310_01251_SEQ_00","灰の陣営のヤドヴ・ガーは、冒険者を信じて任せたいことがあるようだ。"
+1,"TEXT_BANAMA310_01251_SEQ_01","ヤドヴ・ガーの依頼を受けた。ザハラク戦陣にある「<Sheet(BNpcName,1878,0)/>」を2基破壊しよう。"
+2,"TEXT_BANAMA310_01251_SEQ_02","<Sheet(BNpcName,1878,0)/>を破壊した。灰の陣営の「ヤドヴ・ガー」に報告しよう。"
+3,"TEXT_BANAMA310_01251_SEQ_03","ヤドヴ・ガーに報告した。彼は冒険者が鮮やかに「<Sheet(BNpcName,1878,0)/>」を破壊したことを誉め称えた。炎牙衆に勝利する日も遠くないと、上機嫌なようだ。またの機会に協力しよう。"
 4,"TEXT_BANAMA310_01251_SEQ_04",""
 5,"TEXT_BANAMA310_01251_SEQ_05",""
 6,"TEXT_BANAMA310_01251_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_BANAMA310_01251_SEQ_21",""
 22,"TEXT_BANAMA310_01251_SEQ_22",""
 23,"TEXT_BANAMA310_01251_SEQ_23",""
-24,"TEXT_BANAMA310_01251_TODO_00","Destroy Ifrit's beacons."
-25,"TEXT_BANAMA310_01251_TODO_01","Report to Yadovv Gah."
+24,"TEXT_BANAMA310_01251_TODO_00","ザハラク戦陣の<Sheet(BNpcName,1878,0)/>を破壊"
+25,"TEXT_BANAMA310_01251_TODO_01","ヤドヴ・ガーに報告"
 26,"TEXT_BANAMA310_01251_TODO_02",""
 27,"TEXT_BANAMA310_01251_TODO_03",""
 28,"TEXT_BANAMA310_01251_TODO_04",""
@@ -49,12 +49,26 @@ int32,str,str
 45,"TEXT_BANAMA310_01251_TODO_21",""
 46,"TEXT_BANAMA310_01251_TODO_22",""
 47,"TEXT_BANAMA310_01251_TODO_23",""
-48,"TEXT_BANAMA310_01251_YADOVVGAH_000_000","The beacons of the Flamefangs are a blight upon Zahar'ak─none more so than those which bear the Lord of the Inferno's name."
-49,"TEXT_BANAMA310_01251_YADOVVGAH_000_001",""
-50,"TEXT_BANAMA310_01251_YADOVVGAH_000_002","Each one is a symbol of power and prestige. By destroying them, we will deprive the zealots of both."
-51,"TEXT_BANAMA310_01251_YADOVVGAH_000_003","Know that your mission will not be easy, for the beacons burn in the heart of Zahar'ak, defended by the most devoted followers of Ifrit."
-52,"TEXT_BANAMA310_01251_YADOVVGAH_000_004","Moreover, the abominations defend themselves with ware sorcery, hurling flame at anything they deem to be a threat."
-53,"TEXT_BANAMA310_01251_YADOVVGAH_000_005","Few are capable of undertaking such a dangerous task, but I am confident that you will bring much glory to the Brotherhood."
-54,"TEXT_BANAMA310_01251_YADOVVGAH_000_010","When the howls of the zealots echo throughout Zahar'ak, I will know that the beacons are no more."
-55,"TEXT_BANAMA310_01251_YADOVVGAH_000_020","The wind carried word of your success, honored ally. How the ground quaked, how the Flamefangs wept!"
-56,"TEXT_BANAMA310_01251_YADOVVGAH_000_021","Every victory brings us closer to the day of reckoning, when our sworn enemies will lie broken at our feet!"
+48,"TEXT_BANAMA310_01251_YADOVVGAH_000_000","「炎牙衆」め、懲りぬ奴らなり！
+ザハラク戦陣の奥深くに、いまだ焔神の炎の種を隠し、
+「<Sheet(BNpcName,1878,0)/>」を掲げている様子。"
+49,"TEXT_BANAMA310_01251_YADOVVGAH_000_001","(カット)"
+50,"TEXT_BANAMA310_01251_YADOVVGAH_000_002","画竜点睛、敵地の奥まで攻め込んで破壊し、
+完全なる勝利を我が手に掴みとるのであり申す！"
+51,"TEXT_BANAMA310_01251_YADOVVGAH_000_003","冒険者殿、お頼み申す。
+ザハラク戦陣の奥に攻め入り、
+そこにある「<Sheet(BNpcName,1878,0)/>」を破壊されよ。"
+52,"TEXT_BANAMA310_01251_YADOVVGAH_000_004","なれど、聖火台には強力な「まじない」あり。
+敵対者に牙を剥く、罠のごとき卑劣な魔法よ。
+そして聖火台を守る宿敵、「炎牙衆」も侮りがたし！"
+53,"TEXT_BANAMA310_01251_YADOVVGAH_000_005","聖火台は数あれど、2基ほど打ち壊せば充分！
+敵は強大なれど、貴殿は我らが認めた武人。
+信じておりますぞ、任せてし損じることなしと！"
+54,"TEXT_BANAMA310_01251_YADOVVGAH_000_010","ザハラク戦陣の奥に攻め入り、
+そこにある「<Sheet(BNpcName,1878,0)/>」を破壊されよ。
+目標たる聖火台は2基なり！"
+55,"TEXT_BANAMA310_01251_YADOVVGAH_000_020","まさしく勇往邁進。
+聖火台を見事、破壊されたようにお見受けいたす。"
+56,"TEXT_BANAMA310_01251_YADOVVGAH_000_021","ここまで追い詰めれば、
+ザハラク戦陣の者どもを打ち破るのは
+いずれ時間の問題となりましょうぞ！"

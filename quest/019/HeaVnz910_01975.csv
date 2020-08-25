@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNZ910_01975_SEQ_00","Kupli Kuki wants you to help search for the last missing moogle."
-1,"TEXT_HEAVNZ910_01975_SEQ_01","Kupli Kuki and the other moogle have resolved to go find their friend, who ran off somewhere to the eastern part of the Sea of Clouds. Meet with Kupli Kuki at Ok' Vundu Vana to join in on this terribly long game of hide-and-seek."
-2,"TEXT_HEAVNZ910_01975_SEQ_02","Upon meeting with Kupli Kuki, he tells you that the lost moogle is nowhere in the area, but he also makes a ghastly discovery. On the ground is a kupo nut, one of the several that the moogles brought to share at their meeting in Moghome. You see the rest of the kupo nuts scattered around the area, and Kupli Kuki asks you to collect them in his stead so that he doesn't fall victim to any of the many hungry monsters stalking the area."
-3,"TEXT_HEAVNZ910_01975_SEQ_03","You have braved the griffins and other angry beasts and gathered the precious kupo nuts. Return them to Kupli Kuki so their gift to Moghome will not go to waste."
-4,"TEXT_HEAVNZ910_01975_SEQ_04","Kupli Kuki is glad that the kupo nuts were recovered intact, but worries for his lost friend. Aid the two moogles in their desperate search for their companion."
+0,"TEXT_HEAVNZ910_01975_SEQ_00","ブルーウィンドウのクプリ・クキは、再びはぐれた仲間を探したがっている。"
+1,"TEXT_HEAVNZ910_01975_SEQ_01","クプリ・クキたちは、もうひとりのはぐれた仲間を探しにいった。アバラシア雲海のガントレット諸島で、「クプリ・クキ」と合流しよう。"
+2,"TEXT_HEAVNZ910_01975_SEQ_02","クプリ・クキと合流したが、彼らは持ってきたおみやげを、周囲に落としてしまったようだ。オク・ブンド・ヴァナの島を探索し、散乱している「<Sheet(EventItem,2001781,0)/>」を4つ集めよう。"
+3,"TEXT_HEAVNZ910_01975_SEQ_03","<Sheet(EventItem,2001781,0)/>を集めた。オク・ブンド・ヴァナにいる「クプリ・クキ」に、「<Sheet(EventItem,2001781,0)/>」を渡そう。"
+4,"TEXT_HEAVNZ910_01975_SEQ_04","クプリ・クキに<Sheet(EventItem,2001781,0)/>を渡した。改めて、はぐれた仲間を探す彼らに協力しよう。"
 5,"TEXT_HEAVNZ910_01975_SEQ_05",""
 6,"TEXT_HEAVNZ910_01975_SEQ_06",""
 7,"TEXT_HEAVNZ910_01975_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_HEAVNZ910_01975_SEQ_21",""
 22,"TEXT_HEAVNZ910_01975_SEQ_22",""
 23,"TEXT_HEAVNZ910_01975_SEQ_23",""
-24,"TEXT_HEAVNZ910_01975_TODO_00","Meet with Kupli Kuki at Ok' Vundu Vana."
-25,"TEXT_HEAVNZ910_01975_TODO_01","Gather the kupo nuts."
-26,"TEXT_HEAVNZ910_01975_TODO_02","Give the kupo nuts to Kupli Kuki."
+24,"TEXT_HEAVNZ910_01975_TODO_00","オク・ズンド東でクプリ・クキと合流"
+25,"TEXT_HEAVNZ910_01975_TODO_01","<Sheet(EventItem,2001781,0)/>を入手"
+26,"TEXT_HEAVNZ910_01975_TODO_02","クプリ・クキに<Sheet(EventItem,2001781,0)/>を渡す"
 27,"TEXT_HEAVNZ910_01975_TODO_03",""
 28,"TEXT_HEAVNZ910_01975_TODO_04",""
 29,"TEXT_HEAVNZ910_01975_TODO_05",""
@@ -49,15 +49,28 @@ int32,str,str
 45,"TEXT_HEAVNZ910_01975_TODO_21",""
 46,"TEXT_HEAVNZ910_01975_TODO_22",""
 47,"TEXT_HEAVNZ910_01975_TODO_23",""
-48,"TEXT_HEAVNZ910_01975_FORRESTMOG0201974_000_005","I hope our friend's okay, kupo!"
-49,"TEXT_HEAVNZ910_01975_KUPLIKUKI_000_000","Only one more missing moogle... Adventurer, you've seen all the scary beasts out there. We need to find him before something terrible happens!"
-50,"TEXT_HEAVNZ910_01975_FORRESTMOG0201974_000_001","It seems the moogle fluttered off to the east when the giant bird attacked, kupo."
-51,"TEXT_HEAVNZ910_01975_KUPLIKUKI_000_002","We better hurry! That's right, <Emphasis>we</Emphasis>─ We'll all be going this time!"
-52,"TEXT_HEAVNZ910_01975_FORRESTMOG0201974_000_012","I don't see him anywhere, kupo. I hope he's not..."
-53,"TEXT_HEAVNZ910_01975_KUPLIKUKI_000_010","Hmmm... I don't see any sign of a pom-pom here..."
-54,"TEXT_HEAVNZ910_01975_KUPLIKUKI_000_011","Oh no! What's that...? It's a kupo nut! We brought some from the Twelveswood to give to the Moghome moogles. What could they be doing here? We'd best pick them up─it'd be a shame to let them go to waste, kupo."
-55,"TEXT_HEAVNZ910_01975_KUPLIKUKI_000_012","But, look at all these monsters... Adventurer, you look like you can handle them─why don't you gather the kupo nuts?"
-56,"TEXT_HEAVNZ910_01975_KUPLIKUKI_000_020","The kupo nuts are scattered all over the place. We need to pick them up, kupo!"
-57,"TEXT_HEAVNZ910_01975_KUPLIKUKI_000_030","Well, were you able to find the kupo nuts?"
-58,"TEXT_HEAVNZ910_01975_KUPLIKUKI_000_031","Ah, thank you, adventurer! We brought five kupo nuts with us, so there should be one more somewhere..."
-59,"TEXT_HEAVNZ910_01975_KUPLIKUKI_000_032","But, if our lost companion isn't here, then where could he be? He couldn't have run far... Well, we'll just have to brave these wilds a little longer, kupo! "
+48,"TEXT_HEAVNZ910_01975_FORRESTMOG0201974_000_005","クポポ～！
+合流できて嬉しいクポ！"
+49,"TEXT_HEAVNZ910_01975_KUPLIKUKI_000_000","残る迷子は、あとひとりクポ。
+きっと不安なはずクポ……早く見つけてあげるクポ！"
+50,"TEXT_HEAVNZ910_01975_FORRESTMOG0201974_000_001","クプリ・クキの話では、
+大きな怪鳥に襲われて、はるか東に逃げたらしいクポ！"
+51,"TEXT_HEAVNZ910_01975_KUPLIKUKI_000_002","さっそく行ってみるクポ！
+今度はみんなで行くクポ！"
+52,"TEXT_HEAVNZ910_01975_FORRESTMOG0201974_000_012","ここにはいないみたいクポ……。
+仲間は、どこにいったクポ～？"
+53,"TEXT_HEAVNZ910_01975_KUPLIKUKI_000_010","うーん、このあたりにはいないクポ……？"
+54,"TEXT_HEAVNZ910_01975_KUPLIKUKI_000_011","……むむっ、これは……大変クポ！
+おみやげに持ってきた「<Sheet(EventItem,2001781,0)/>」を落としたクポ……。
+拾って集めるクポ！"
+55,"TEXT_HEAVNZ910_01975_KUPLIKUKI_000_012","でも、このあたりは魔物だらけで危険クポ……
+冒険者さん、落ちてる「<Sheet(EventItem,2001781,0)/>」を集めてほしいクポ！"
+56,"TEXT_HEAVNZ910_01975_KUPLIKUKI_000_020","おみやげに持ってきた「<Sheet(EventItem,2001781,0)/>」が散乱してるクポ……。
+拾って集めるクポ！"
+57,"TEXT_HEAVNZ910_01975_KUPLIKUKI_000_030","「<Sheet(EventItem,2001781,0)/>」は集まったクポ？"
+58,"TEXT_HEAVNZ910_01975_KUPLIKUKI_000_031","どうもありがとうクポ！
+全部で5個持ってきたはずだけど……
+このあたりに落ちてたのは、これで全部クポ。"
+59,"TEXT_HEAVNZ910_01975_KUPLIKUKI_000_032","はぐれた仲間は、ここらへんにはいなかったクポ。
+いったいどこまで逃げていったクポ……？
+もうちょっと遠くまで、探してみたいクポ～！"

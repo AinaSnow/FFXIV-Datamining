@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANSAH110_01388_SEQ_00","Fyuu has learned of an ill-considered Coral Trident scheme."
-1,"TEXT_BANSAH110_01388_SEQ_01","Fyuu informs you that several Sahagin warriors have slipped past the tidegates and now lurk in the shadows of the shorewalker encampments. Conduct a search of the area around Camp Skull Valley, and neutralize the infiltrators before they can endanger Novv's cause with their impatiently planned assault."
-2,"TEXT_BANSAH110_01388_SEQ_02","After a series of spectacularly unsuccessful negotiations, you have removed the threat of the Sahagin infiltrators by force. Return to Novv's Nursery and report to Fyuu."
-3,"TEXT_BANSAH110_01388_SEQ_03","Fyuu appears saddened but unsurprised by the bloody conclusion to your encounter beyond the tidegates. Though the thick-scaled Tridents seem immune to the barbs of reason, the young Sahagin hopes that the continued failure of their operations will one day help them to see the futility of their course."
+0,"TEXT_BANSAH110_01388_SEQ_00","ノォヴの育成地のフュウは、「珊瑚の銛」の作戦を察知したようだ。"
+1,"TEXT_BANSAH110_01388_SEQ_01","フュウから、スカルバレー付近に潜伏した「珊瑚の銛」の構成員を説得するよう頼まれた。スカルバレーの付近に潜む「<Sheet(BNpcName,2726,0)/>」と話し、襲われたら討伐しよう。"
+2,"TEXT_BANSAH110_01388_SEQ_02","交渉は決裂し、襲い掛かってきた<Sheet(BNpcName,2726,0)/>を討伐した。ノォヴの育成地の「フュウ」に報告しよう。"
+3,"TEXT_BANSAH110_01388_SEQ_03","フュウに顛末を報告すると、同族を説得できなかったことに残念そうな様子を見せた。しかし、地道に「珊瑚の銛」の作戦を潰していけば、いつかは諦めてくれると信じているそうだ。「珊瑚の銛」が争いを諦めるまで、フュウと共に頑張ろう。"
 4,"TEXT_BANSAH110_01388_SEQ_04",""
 5,"TEXT_BANSAH110_01388_SEQ_05",""
 6,"TEXT_BANSAH110_01388_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_BANSAH110_01388_SEQ_21",""
 22,"TEXT_BANSAH110_01388_SEQ_22",""
 23,"TEXT_BANSAH110_01388_SEQ_23",""
-24,"TEXT_BANSAH110_01388_TODO_00","Confront the Sahagin infiltrators in Skull Valley."
-25,"TEXT_BANSAH110_01388_TODO_01","Report to Fyuu."
+24,"TEXT_BANSAH110_01388_TODO_00","スカルバレー付近の<Sheet(BNpcName,2726,0)/>と話し襲われたら討伐"
+25,"TEXT_BANSAH110_01388_TODO_01","フュウに報告"
 26,"TEXT_BANSAH110_01388_TODO_02",""
 27,"TEXT_BANSAH110_01388_TODO_03",""
 28,"TEXT_BANSAH110_01388_TODO_04",""
@@ -49,15 +49,31 @@ int32,str,str
 45,"TEXT_BANSAH110_01388_TODO_21",""
 46,"TEXT_BANSAH110_01388_TODO_22",""
 47,"TEXT_BANSAH110_01388_TODO_23",""
-48,"TEXT_BANSAH110_01388_FYUU_000_000","Pshhh... Ill news, finless one. My watchful ssspawnbrothers witnessed a group of young Trident warriors sssneaking around the coassstline in an attempt to bypass the defenses of the tidegates."
-49,"TEXT_BANSAH110_01388_FYUU_000_001","Assuming they have been successful, these impatient infiltrators will have already taken up position in the shhhadows around the shhhorewalker camp. Now they await but the opportunity to ssstrike."
-50,"TEXT_BANSAH110_01388_FYUU_000_002","If you are quick about tracking them down, perhapsss you can convince them to abandon this folly before any real damage is done."
-51,"TEXT_BANSAH110_01388_FYUU_000_003","Should they refuse to heed your warnings, then do what mussst be done. I will not long grieve for kin that place our entire race in jeopardy."
-52,"TEXT_BANSAH110_01388_FYUU_000_005","Pshhh... Sssearch the shhhorewalker encampment beyond the tidegates for these eager fools. If they do not abandon their ssscheme upon being dissscovered, then use whatever force is necessary to end this incident before it is begun."
-53,"TEXT_BANSAH110_01388_POPMESSAGE_000_000","You are under attack!"
-54,"TEXT_BANSAH110_01388_MOBA01388_000_010","Our ssscheme is uncovered? Pshhhahaha! Then yours shhhall be the firssst blood I ssspill!"
-55,"TEXT_BANSAH110_01388_MOBB01388_000_020","Pshhh... Any who oppose the will of the Tridentshhh mushhht fall!"
-56,"TEXT_BANSAH110_01388_MOBC01388_000_030","You think to command me, finless one!? I will teach you to tessst the might of the Sssahagin!"
-57,"TEXT_BANSAH110_01388_MOBD01388_000_040","Are you sssun-touched, shhhorewalker? We will abandon our purpose when the sssea runs dry!"
-58,"TEXT_BANSAH110_01388_FYUU_000_060","Pshhh... Ssso, the infiltrators all lie ssslain? I expected as much, but I had hoped they would listen to reason."
-59,"TEXT_BANSAH110_01388_FYUU_000_061","Perhapsss if my kin continue to fail in this manner, they will one day reconsssider their warmongering ways..."
+48,"TEXT_BANSAH110_01388_FYUU_000_000","フスィーッ……「珊瑚の銛」の連中が数人ほど、
+夜陰に乗じて、海から壁向こうに上陸したみてぇだ！"
+49,"TEXT_BANSAH110_01388_FYUU_000_001","今はまだ潜伏しているようだが……。
+用意ができ次第、攻撃を開始するに違いねぇぜ。"
+50,"TEXT_BANSAH110_01388_FYUU_000_002","フスィーッ……今ならまだ引き返せるだろう、
+何もせずに黙って帰れと、警告してもらえねぇか？"
+51,"TEXT_BANSAH110_01388_FYUU_000_003","言うことを聞かないようだったら、しかたがねぇ。
+強制的に、お帰り願うしかあるめぇよ。"
+52,"TEXT_BANSAH110_01388_FYUU_000_005","フスィーッ……壁向こうに上陸した「珊瑚の銛」の連中に、
+何もせずに黙って帰れと、警告してもらえねぇか？
+言うことを聞かないようなら……そん時はわかるな？"
+53,"TEXT_BANSAH110_01388_POPMESSAGE_000_000","敵が襲いかかってきた！！"
+54,"TEXT_BANSAH110_01388_MOBA01388_000_010","フスィーッ……うるせぇうるせぇ！
+ヒレナシの言うことなんざ聞くわけねえだろ！
+てめぇからぶっ殺してやるよ！"
+55,"TEXT_BANSAH110_01388_MOBB01388_000_020","フスィーッ……。
+俺たちの作戦を邪魔する奴は……除外してやる！"
+56,"TEXT_BANSAH110_01388_MOBC01388_000_030","フスィーッ……ヒレナシ風情が偉そうに！
+誇り高き「珊瑚の銛」の力、舐めるんじゃねぇぞ！"
+57,"TEXT_BANSAH110_01388_MOBD01388_000_040","フスィーッ！　テメーは馬鹿かぁ！？
+俺たち「珊瑚の銛」が、黙って帰るわけねぇだろうが！
+テメーを殺して、作戦は続行だ！"
+58,"TEXT_BANSAH110_01388_FYUU_000_060","フスィーッ……そうか、結局全て倒したか。
+サハギン族のいざこざに付き合ってもらって、わりぃな。
+感謝しているぜ。"
+59,"TEXT_BANSAH110_01388_FYUU_000_061","しかし、「珊瑚の銛」の連中も、
+こういう失敗が続けば、いずれは諦めてくれるだろう。
+……そう信じてぇところだぜ、フスィーッ。"

@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANKOB303_01366_SEQ_00","789th Order Dustman Bo Bu is not enamored with the eating habits of his digmate."
-1,"TEXT_BANKOB303_01366_SEQ_01","Bo Bu's dream of serving a feast atop his treasured doblyn-shell plate has been dashed by his fellow dustman Bo Zu, who─his already-lacking wits further addled by hunger─has greedily gorged himself upon the selfsame plate. While Bo Bu looks into his digmate's well-being, head to U'Ghamaro, scare doblyns from their shadows with the boom tosses furnished to you by Bo Bu, and retrieve their shells, that the dustman may restore his tableware."
-2,"TEXT_BANKOB303_01366_SEQ_02","You have swiftly and efficiently relieved three doblyns of their carapaces. Return to the 789th Order Dig and deliver the fruits of your labor to Bo Bu."
-3,"TEXT_BANKOB303_01366_SEQ_03","Heartened by your return and the knowledge that his fellow dustman is paying the price for his gluttony, Bo Bu takes the doblyn shells into hand. Will the day soon come when the 789th Order feasts in triumph?"
+0,"TEXT_BANKOB303_01366_SEQ_00","第789洞穴団の採掘地のダストマン789 ボ・ブは、冒険者に頼みごとがあるようだ。"
+1,"TEXT_BANKOB303_01366_SEQ_01","ダストマン789 ボ・ブが大切にしていた皿を、アコライト789 バ・ゴが爆弾の材料にしてしまったらしい。代わりの皿にするため、ウ・ガマロ武装鉱山の「<Sheet(EObj,2003697,0)/>」に「<Sheet(EventItem,2001230,0)/>」を使い、おびき寄せた「<Sheet(BNpcName,2706,0)/>」を討伐して「<Sheet(EventItem,2001229,0)/>」を入手しよう。"
+2,"TEXT_BANKOB303_01366_SEQ_02","<Sheet(EventItem,2001229,0)/>を入手した。第789洞穴団の採掘地の「ダストマン789 ボ・ブ」に「<Sheet(EventItem,2001229,0)/>」を渡そう。"
+3,"TEXT_BANKOB303_01366_SEQ_03","ダストマン789 ボ・ブに<Sheet(EventItem,2001229,0)/>を渡した。気を良くした彼は、厚かましくも皿に盛る食事まで催促してきた。冒険者が根気よく慈悲をかけ続ければ、彼の性根は直るのだろうか……？"
 4,"TEXT_BANKOB303_01366_SEQ_04",""
 5,"TEXT_BANKOB303_01366_SEQ_05",""
 6,"TEXT_BANKOB303_01366_SEQ_06",""
@@ -25,8 +25,9 @@ int32,str,str
 21,"TEXT_BANKOB303_01366_SEQ_21",""
 22,"TEXT_BANKOB303_01366_SEQ_22",""
 23,"TEXT_BANKOB303_01366_SEQ_23",""
-24,"TEXT_BANKOB303_01366_TODO_00","Use boom tosses on the shadows, then slay shard doblyns for their shells."
-25,"TEXT_BANKOB303_01366_TODO_01","Deliver doblyn shells to 789th Order Dustman Bo Bu."
+24,"TEXT_BANKOB303_01366_TODO_00","<Sheet(EObj,2003697,0)/>に<Sheet(EventItem,2001230,0)/>を使い<Sheet(BNpcName,2706,0)/>から
+<Sheet(EventItem,2001229,0)/>を入手"
+25,"TEXT_BANKOB303_01366_TODO_01","ダストマン789 ボ・ブに<Sheet(EventItem,2001229,0)/>を渡す"
 26,"TEXT_BANKOB303_01366_TODO_02",""
 27,"TEXT_BANKOB303_01366_TODO_03",""
 28,"TEXT_BANKOB303_01366_TODO_04",""
@@ -49,20 +50,36 @@ int32,str,str
 45,"TEXT_BANKOB303_01366_TODO_21",""
 46,"TEXT_BANKOB303_01366_TODO_22",""
 47,"TEXT_BANKOB303_01366_TODO_23",""
-48,"TEXT_BANKOB303_01366_BOBU_000_000","Stupid Bo Zu─brainless, witless, stupid Bo Zu! That plate was my prized possession. Yes, yes, my treasure!"
-49,"TEXT_BANKOB303_01366_BOBU_000_001","At this dig, we do not eat well. No, no, we are near to starving. But some of us hold out hope that better days still await us. It is for the feasts to come─and come they will─that I fashioned that plate from a doblyn shell─crafted, shaped, fashioned with care..."
-50,"TEXT_BANKOB303_01366_BOBU_000_002","And what does Bo Zu do? He swallows my work whole─engulfs, ingests, swallows! I care not how hungry you are─no, no, not at all─surely you can tell the difference between food and food-vessel."
-51,"TEXT_BANKOB303_01366_BOBU_000_003","You will take boom toss, yes? Scare doblyns from the shadows, cut shells from their backs? I must give Bo Zu a good talking to─a pummeling, a beating, a talking to."
-52,"TEXT_BANKOB303_01366_BOBU_000_004","You will take boom toss, yes? Scare doblyns from the shadows, cut shells from their backs? I must give Bo Zu a good talking to─a pummeling, a beating, a talking to."
-53,"TEXT_BANKOB303_01366_BAGO_000_010",""
-54,"TEXT_BANKOB303_01366_BAGO_000_011",""
-55,"TEXT_BANKOB303_01366_BAGO_000_012",""
-56,"TEXT_BANKOB303_01366_BAGO_000_013",""
-57,"TEXT_BANKOB303_01366_BAGO_000_020",""
-58,"TEXT_BANKOB303_01366_BAGO_000_021",""
-59,"TEXT_BANKOB303_01366_BAGO_000_022",""
-60,"TEXT_BANKOB303_01366_BOBU_000_030","You return from the depths with the shells I seek, yes? Yes, yes, say you do."
-61,"TEXT_BANKOB303_01366_BOBU_000_031","Such exquisite shells─beautiful, elegant, exquisite! These will make lovely plates, indeed. Yes, yes, the finest utensils our dig has seen."
-62,"TEXT_BANKOB303_01366_BOBU_000_032","Bo Zu suffers from stomach pains most severe─wrenching, stinging, severe. That will teach him a lesson. Yes, yes, teach him not to take others' handiwork for his dinner."
-63,"TEXT_BANKOB303_01366_POPMESSAGE_000_000","With a chitter and a clack, the shadows shift before your eyes..."
-64,"TEXT_BANKOB303_01366_POP_MESSAGE",""
+48,"TEXT_BANKOB303_01366_BOBU_000_000","アコライト789 バ・ゴの　ヤツーめ！
+ワガハイが大事にしてーる「<Sheet(EventItem,2001229,0)/>」を
+勝手に爆弾の材料にしてしまったのであーる。"
+49,"TEXT_BANKOB303_01366_BOBU_000_001","アレは　ゴハンを食べーるのに　必要不可欠な皿……。
+あれがないと　美味しいミミズ料理も　味がしないのであーる。
+そう　ワガハイはグルメなのであーる。"
+50,"TEXT_BANKOB303_01366_BOBU_000_002","オヌーシ　代わりの皿を　調達してきてほしいのであーる。
+「ウ・ガマロ武装鉱山」の「<Sheet(EObj,2003697,0)/>」で
+「<Sheet(EventItem,2001230,0)/>」を　使うのであーる。"
+51,"TEXT_BANKOB303_01366_BOBU_000_003","そうすれーば「<Sheet(BNpcName,2706,0)/>」がでてくーる。
+やっつけーて　「<Sheet(EventItem,2001229,0)/>」を　持ってくるのであーる。
+ワガハイは　空腹でご立腹なのであーる！"
+52,"TEXT_BANKOB303_01366_BOBU_000_004","「ウ・ガマロ武装鉱山」の「<Sheet(EObj,2003697,0)/>」で
+「<Sheet(EventItem,2001230,0)/>」を使えば「<Sheet(BNpcName,2706,0)/>」がでーる。
+やっつけーて　「<Sheet(EventItem,2001229,0)/>」を　持ってくるのであーる。"
+53,"TEXT_BANKOB303_01366_BAGO_000_010","（★未使用／削除予定★）"
+54,"TEXT_BANKOB303_01366_BAGO_000_011","（★未使用／削除予定★）"
+55,"TEXT_BANKOB303_01366_BAGO_000_012","（★未使用／削除予定★）"
+56,"TEXT_BANKOB303_01366_BAGO_000_013","（★未使用／削除予定★）"
+57,"TEXT_BANKOB303_01366_BAGO_000_020","（★未使用／削除予定★）"
+58,"TEXT_BANKOB303_01366_BAGO_000_021","（★未使用／削除予定★）"
+59,"TEXT_BANKOB303_01366_BAGO_000_022","（★未使用／削除予定★）"
+60,"TEXT_BANKOB303_01366_BOBU_000_030","ワガハイは　空腹でご立腹なのであーる！
+早く　「<Sheet(EventItem,2001229,0)/>」で
+山盛りの料理を　食べたいのであーる。"
+61,"TEXT_BANKOB303_01366_BOBU_000_031","そうそう　コレ　コレなのであーる。
+でかしたのであーる！
+さぁ次は　この皿に盛るミミズ料理を　持ってくるのであーる。"
+62,"TEXT_BANKOB303_01366_BOBU_000_032","……あれ　そのウンザリした顔は　何であるーか？
+そもそーも　ワガハイの仕事は　頭脳労働であるからしーて
+こう見えて　ちゃんと働いてるのであーる！　文句あーる？"
+63,"TEXT_BANKOB303_01366_POPMESSAGE_000_000","<Sheet(EObj,2003697,0)/>から敵が飛びだした！！"
+64,"TEXT_BANKOB303_01366_POP_MESSAGE","（★未使用／削除予定★）"

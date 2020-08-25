@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB605_00887_SEQ_00","Jocea is attempting to attract your attention."
-1,"TEXT_GAIUSB605_00887_SEQ_01","Having overheard your conversation with the chief astrologian, Jocea understands that your quest is one of great import. She is willing to assist you, but requires that you first help her by locating a missing colleague and confirming his safety. The astrologian in question was planning to conduct observations at a cliff to the east of the Observatorium, but he may have run afoul of Ixal said to be in the area. Proceed with caution and locate the missing man."
-2,"TEXT_GAIUSB605_00887_SEQ_02","At first, the missing astrologian rejoices at your coming. However, his mood abruptly changes upon realizing that you are not an Ishgardian knight. Declaring that a man of House Durendaire cannot be seen in the company of an unbeliever, he abruptly storms off, presumably to return to the safety of the Observatorium. Return to Jocea and inform her that her associate is safe."
-3,"TEXT_GAIUSB605_00887_SEQ_03","Making no effort to conceal her disdain, Jocea tells you that the highborn astrologian feels disgraced to have been rescued by an unbeliever. True to her word, she offers you an alternative means by which you might locate the <Emphasis>Enterprise</Emphasis>. Approach Lord Portelaine and petition him for formal introductions to the other High Houses, who may have information that can help you locate the missing airship."
-4,"TEXT_GAIUSB605_00887_SEQ_04","Lord Portelaine does not deny that you have helped House Durendaire twice. However, as there are three High Houses to which you have requested formal introductions, he requires that you perform a third act before he will oblige you. Unable to deny his logic, you brace yourself for the duty to come."
+0,"TEXT_GAIUSB605_00887_SEQ_00","アドネール占星台のヨシアは、冒険者にこっそり仕事を頼みたいようだ。"
+1,"TEXT_GAIUSB605_00887_SEQ_01","ヨシアは危険な場所へ観測に行った仲間を連れ戻したいらしい。アドネール占星台の東の崖へ行き「気品ある占星術士」を救助しよう。"
+2,"TEXT_GAIUSB605_00887_SEQ_02","気品ある占星術士と話し、身の安全を確認した。彼は「デュランデル家」というイシュガルド名家の縁者らしい。アドネール占星台の「ヨシア」に報告しよう。"
+3,"TEXT_GAIUSB605_00887_SEQ_03","「デュランデル家」は四大名家のひとつで、排他主義を掲げる家柄らしい。クルザスをもっと知るため、詰所にいる「ポルトゥレーン」に話しを聞こう。"
+4,"TEXT_GAIUSB605_00887_SEQ_04","ポルトゥレーンと話した。くわしい情報を聞きだすには、彼からの仕事を請けないといけないらしいが……。"
 5,"TEXT_GAIUSB605_00887_SEQ_05",""
 6,"TEXT_GAIUSB605_00887_SEQ_06",""
 7,"TEXT_GAIUSB605_00887_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_GAIUSB605_00887_SEQ_21",""
 22,"TEXT_GAIUSB605_00887_SEQ_22",""
 23,"TEXT_GAIUSB605_00887_SEQ_23",""
-24,"TEXT_GAIUSB605_00887_TODO_00","Search for the missing astrologian."
-25,"TEXT_GAIUSB605_00887_TODO_01","Speak with Jocea."
-26,"TEXT_GAIUSB605_00887_TODO_02","Speak with Portelaine."
+24,"TEXT_GAIUSB605_00887_TODO_00","東の崖の気品ある占星術士を救助"
+25,"TEXT_GAIUSB605_00887_TODO_01","アドネール占星台のヨシアに報告"
+26,"TEXT_GAIUSB605_00887_TODO_02","詰所のポルトゥレーンと話す"
 27,"TEXT_GAIUSB605_00887_TODO_03",""
 28,"TEXT_GAIUSB605_00887_TODO_04",""
 29,"TEXT_GAIUSB605_00887_TODO_05",""
@@ -49,15 +49,36 @@ int32,str,str
 45,"TEXT_GAIUSB605_00887_TODO_21",""
 46,"TEXT_GAIUSB605_00887_TODO_22",""
 47,"TEXT_GAIUSB605_00887_TODO_23",""
-48,"TEXT_GAIUSB605_00887_JOCEA_000_000","You there, <If(PlayerParameter(4))>madam<Else/>sir</If>! I could not help but overhear your conversation with the chief astrologian. There may be a way I can assist you, but it would require that you perform for me a favor in exchange."
-49,"TEXT_GAIUSB605_00887_JOCEA_000_001","An associate of mine has yet to return from his expedition to the cliffs east of the Observatorium. He was adamant that he could conduct his observations alone, despite the presence of Ixal in that vicinity. If you would seek out this astrologian and confirm that he is well, it would be a great comfort to me."
-50,"TEXT_GAIUSB605_00887_NPC_000_010","What a relief to see someone other than a godsdamned birdman! I thought I could finish my work whilst the Ixal were away, but they returned far quicker than I anticipated. It was all I could do to hide and hope they might leave again before I froze to─"
-51,"TEXT_GAIUSB605_00887_NPC_000_011","Wait, who are you!? You are not one of our knights!"
-52,"TEXT_GAIUSB605_00887_NPC_000_012","A man of House Durendaire cannot be seen in the company of an unbeliever! Good day, <If(PlayerParameter(4))>madam<Else/>sir</If>!"
-53,"TEXT_GAIUSB605_00887_JOCEA_000_020","The arrogant fool returned not long before you arrived, muttering about the disgrace of having been rescued by an unbeliever. Serves him right for underestimating the dangers our knights face every day."
-54,"TEXT_GAIUSB605_00887_JOCEA_000_021","Ah, but you are eager to locate your airship. It may surprise you that by saving him, you have already aided your own cause."
-55,"TEXT_GAIUSB605_00887_JOCEA_000_022","House Durendaire is quick to regard outsiders with suspicion, as it is their duty to sound the alarm at the first sign of Dravanian aggression. Yet you have already aided them twice, for which they are honor-bound to repay you."
-56,"TEXT_GAIUSB605_00887_JOCEA_000_023","Even so, they will <Emphasis>not</Emphasis> grant you access to the Observatorium's records. That is just as well, for there are other ways you might locate your missing airship."
-57,"TEXT_GAIUSB605_00887_JOCEA_000_024","What I propose is that you petition Lord Portelaine for an official introduction to the other High Houses. The word of House Durendaire carries tremendous weight in Ishgard. Should the captain consent, you would have little trouble obtaining information from the other High Houses."
-58,"TEXT_GAIUSB605_00887_PORTELAINE_000_030","You've caused quite a stir in your short time here. First you slay two heretics and save a knight, and now I hear you have rescued a man of our house. I imagine you must desire something for your troubles."
-59,"TEXT_GAIUSB605_00887_PORTELAINE_000_031","An introduction to the other High Houses? I cannot deny that you have given us no cause to distrust you. But while you have performed <Emphasis>two</Emphasis> acts, you would have me endorse you to <Emphasis>three</Emphasis> High Houses. It is only fitting that you aid us one final time, wouldn't you agree?"
+48,"TEXT_GAIUSB605_00887_JOCEA_000_000","うう、この頼みごとをしにくい雰囲気……。
+だけど、こんなこと冒険者さんにしか頼めないし、
+背に腹は替えられません！"
+49,"TEXT_GAIUSB605_00887_JOCEA_000_001","東の崖へ観測に行った仲間を、連れ戻してくれませんか？
+あの周辺は、イクサル族が徘徊する危険な場所なんです。
+本人は平気だと言っていましたが、どうしても心配で……。"
+50,"TEXT_GAIUSB605_00887_NPC_000_010","助かった……！
+隙を見て観測を済ませようとしたら、
+イクサル族が戻ってきて、もう駄目かと……！"
+51,"TEXT_GAIUSB605_00887_NPC_000_011","って、オマエ冒険者か！？
+早く言えよ、危うく借りを作るところだった……！"
+52,"TEXT_GAIUSB605_00887_NPC_000_012","オレだって、デュランデル家の男。
+外から厄介ごとを持ち込んでくる冒険者とは、
+関わらないんだからな！　フンッ！"
+53,"TEXT_GAIUSB605_00887_JOCEA_000_020","ああ、お待ちしてました！
+おかげさまで彼が戻ってきたのですが、
+冒険者に助けられたと、ひどく不機嫌で……。"
+54,"TEXT_GAIUSB605_00887_JOCEA_000_021","イシュガルドには、四大名家という大貴族がいます。
+中でも、デュランデル家は排他的性格の強い一族……
+彼はその縁者なのです。"
+55,"TEXT_GAIUSB605_00887_JOCEA_000_022","騎兵たちの盾に刻まれた、警鐘の意匠を見ましたか？
+あれこそデュランデル家の紋章……
+このアドネール占星台は、彼らの管轄地なのです。"
+56,"TEXT_GAIUSB605_00887_JOCEA_000_023","……聞けば、冒険者さんは飛空艇を探しているとか。
+クルザスを調べたいなら、早々にほかをあたるべきです。"
+57,"TEXT_GAIUSB605_00887_JOCEA_000_024","詰所にいる「ポルトゥレーン」隊長なら、
+ほかの家にも顔が利くはずです。
+相談してみてはいかがでしょう？"
+58,"TEXT_GAIUSB605_00887_PORTELAINE_000_030","デュランデル家以外の名家を紹介して欲しいと？
+なるほど、その程度の礼儀は心得ているのだな。"
+59,"TEXT_GAIUSB605_00887_PORTELAINE_000_031","お膳立てしてやる理由はないが……
+ここに長居されても厄介だ。
+ちょうどいい雑務を、お前にくれてやろう。"

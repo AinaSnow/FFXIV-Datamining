@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSROG011_00102_SEQ_00","Lonwoerd would have you reaffirm your desire to join the Rogues' Guild."
-1,"TEXT_CLSROG011_00102_SEQ_01","Lonwoerd suggests that you meet with the master of the Rogues' Guild. Head inside and speak with Jacke."
-2,"TEXT_CLSROG011_00102_SEQ_02","After listening to Jacke's explanation of “the job,” you convince the guildmaster that you're willing to embrace the shadowy life of a rogue. Equip the weathered daggers, and speak with Jacke once more."
+0,"TEXT_CLSROG011_00102_SEQ_00","倉庫番のロンヴルドは、ギルドへの入門手続きをするにあたって、冒険者の心を確かめようとしているようだ。"
+1,"TEXT_CLSROG011_00102_SEQ_01","ロンヴルドから、ギルドマスター「ジャック」に入門の意思を伝えるよう言われた。双剣士ギルドの中にいる「ジャック」に声をかけてみよう。"
+2,"TEXT_CLSROG011_00102_SEQ_02","双剣士ギルドマスターのジャックに、双剣士として仕事をする意思を伝えた。彼から受け取った「<Sheet(Item,　7952,0)/>」を装備して、もう一度「ジャック」に声をかけよう。"
 3,"TEXT_CLSROG011_00102_SEQ_03",""
 4,"TEXT_CLSROG011_00102_SEQ_04",""
 5,"TEXT_CLSROG011_00102_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_CLSROG011_00102_SEQ_21",""
 22,"TEXT_CLSROG011_00102_SEQ_22",""
 23,"TEXT_CLSROG011_00102_SEQ_23",""
-24,"TEXT_CLSROG011_00102_TODO_00","Speak with Jacke."
+24,"TEXT_CLSROG011_00102_TODO_00","双剣士ギルドのジャックと話す"
 25,"TEXT_CLSROG011_00102_TODO_01",""
 26,"TEXT_CLSROG011_00102_TODO_02",""
 27,"TEXT_CLSROG011_00102_TODO_03",""
@@ -49,33 +49,65 @@ int32,str,str
 45,"TEXT_CLSROG011_00102_TODO_21",""
 46,"TEXT_CLSROG011_00102_TODO_22",""
 47,"TEXT_CLSROG011_00102_TODO_23",""
-48,"TEXT_CLSROG011_00102_LONWOERD_000_000","I didn't scare you off, then? Bene. They told me ye was a mettlesome <If(PlayerParameter(4))>lass<Else/>cove</If>, an' so it's proved."
-49,"TEXT_CLSROG011_00102_LONWOERD_000_001","Ye'll need every onze o' that mettle soon enough. Now step inside an' have a prattle with Jacke. He's our Upright Man─the master o' the guild."
-50,"TEXT_CLSROG011_00102_SYSTEM_000_002","You may now freely enter the Rogues' Guild. Speak with Lonwoerd whenever you wish to gain admittance to the guild's headquarters."
-51,"TEXT_CLSROG011_00102_JACKE_000_010","Aye, I'm the one they call “Jacke”─though I'm surprised ye've heard o' me. Perhaps ye'd be good enough to tell me <Emphasis>yer</Emphasis> name...along with that o' the kindly cove as told ye mine?"
-52,"TEXT_CLSROG011_00102_JACKE_000_011","Ahhh! The famous <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! Ol' Lonny Left-patch let you in, did he?"
-53,"TEXT_CLSROG011_00102_JACKE_000_012","Hmmm... He can't throw a blade for shite, but that one eye don't miss naught when it comes to sizin' up a dimber <If(PlayerParameter(4))>mort<Else/>colt</If> for the stallin'."
-54,"TEXT_CLSROG011_00102_JACKE_000_013","Just one thing... You ain't a pirate, are ye?"
-55,"TEXT_CLSROG011_00102_JACKE_000_014","Well, then, it's time ye was stalled to the rogue! Pull on yer best beater cases an' I'll swear ye in meself when yer ready."
-56,"TEXT_CLSROG011_00102_JACKE_000_015","Now, I could fill yer wattles with the storied history of our guild, but that's just whids an' wind. The most important thing─the <Emphasis>only</Emphasis> thing─we care about is gettin' the job done."
-57,"TEXT_CLSROG011_00102_JACKE_000_016","Now, most folk, an' I'm assumin' yer among 'em, know that not long after Limsa's foundin', the city was overrun by a motley collection o' pirates an' thieves."
-58,"TEXT_CLSROG011_00102_JACKE_000_017","But as wild as that lot were, it soon became clear that they'd all end up killin' each other if they didn't lay down a few rules─an unspoken code o' conduct, as it were."
-59,"TEXT_CLSROG011_00102_JACKE_000_018","One, ye don't bite the purses o' yer fellow Lominsans; two, ye don't rook a crew out o' their spoils; an' three, ye don't trade culls like they was chattel. I'll admit the finer points o' the code are a mite murky, but most agree on those three, at least."
-60,"TEXT_CLSROG011_00102_JACKE_000_019","Now, ye might be thinkin' none o' that amounts to a sack o' dilberries now the Admiral's outlawed piracy, but in the back alleys an' black markets where Merlwyb's grip ain't so tight, the code's still alive an' well."
-61,"TEXT_CLSROG011_00102_JACKE_000_020","An' just as the law is enforced by the Yellowjackets, the code is regulated by us rogues."
-62,"TEXT_CLSROG011_00102_JACKE_000_021","We go where the shadows are darkest, an' hand out justice to them as break the code. Some rum-soaked cove steals goods from the wrong cull, an' we steal 'em back. That's the job, my natty <If(PlayerParameter(4))>lass<Else/>lad</If>."
-63,"TEXT_CLSROG011_00102_JACKE_000_022","'Course, we don't hop the twig when bladework's called for, neither."
-64,"TEXT_CLSROG011_00102_JACKE_000_023","Ye'll see there's more to our daggerplay than just stickin' culls with the pointy end. We'll weaken a mark with poison, fade away an' strike in the darkmans─whatever it takes to get the work done."
-65,"TEXT_CLSROG011_00102_JACKE_000_024","Well, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>? What do ye say to that? Got the guts to do a rogue's job?"
-66,"TEXT_CLSROG011_00102_Q1_000_030","<Emphasis>Do</Emphasis> you have the guts to do a rogue's job?"
-67,"TEXT_CLSROG011_00102_A1_000_031","Yes"
-68,"TEXT_CLSROG011_00102_A1_000_032","No"
-69,"TEXT_CLSROG011_00102_JACKE_000_040","All right, then! First off, we'll have to get yer kit sorted out."
-70,"TEXT_CLSROG011_00102_JACKE_000_041","A rogue needs to be light on <If(PlayerParameter(4))>her<Else/>his</If> dew beaters to stay on a mark's trail. The job might have ye fightin' across a deck or weavin' through a mob, an' the last thing ye want is a bleedin' great battleaxe what hooks itself on every rope an' post."
-71,"TEXT_CLSROG011_00102_JACKE_000_042","That's why we stick to daggers─they let ye slip through the streets just as easily as they slip through a rook's ribs."
-72,"TEXT_CLSROG011_00102_JACKE_000_043","Here, take these stabbers an' let's see how they look on ye. ...Just don't get so excited with yer new toys that ye forget to dress for the role. Ye'd be surprised at how many colts come back to me in their bloody smallclothes..."
-73,"TEXT_CLSROG011_00102_JACKE_000_050","A pity, but it's your choice to make, <If(PlayerParameter(4))>lass<Else/>lad</If>. The life of a rogue ain't for the pigeon-livered."
-74,"TEXT_CLSROG011_00102_LONWOERD_000_900","Ye lookin' to head inside?"
-75,"TEXT_CLSROG011_00102_Q9_000_901","Enter the Rogues' Guild?"
-76,"TEXT_CLSROG011_00102_A9_000_902","Yes"
-77,"TEXT_CLSROG011_00102_A9_000_903","No"
+48,"TEXT_CLSROG011_00102_LONWOERD_000_000","やはり、双剣士ギルドへの入門を望むか。
+……その勇気も、噂に違わないようだな。"
+49,"TEXT_CLSROG011_00102_LONWOERD_000_001","いいだろう……。
+建物の中に入って、「ジャック」という男に声をかけろ。
+奴こそ「双剣士ギルド」を仕切る、ギルドマスターだ。"
+50,"TEXT_CLSROG011_00102_SYSTEM_000_002","「双剣士ギルド」に入る許可を得ました。
+ギルド内に入る場合は、
+「倉庫番 ロンヴルド」に声をかけましょう！"
+51,"TEXT_CLSROG011_00102_JACKE_000_010","……ああ、ギルドマスターのジャックなら俺だぜ。
+そういうお前は、どちら様だ？"
+52,"TEXT_CLSROG011_00102_JACKE_000_011","へぇ、お前が<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>か！
+噂の冒険者が、まさかうちに入門しに来るとはな。"
+53,"TEXT_CLSROG011_00102_JACKE_000_012","なるほど、ただのド素人とは違う……。
+ロンヴルドが通しただけあって、期待できそうだ。"
+54,"TEXT_CLSROG011_00102_JACKE_000_013","ちなみに……お前、海賊ではないよな？"
+55,"TEXT_CLSROG011_00102_JACKE_000_014","ならいい、双剣士ギルドに入る資格は万全だ。
+お前にその意思があるなら、仲間として歓迎するぜ。"
+56,"TEXT_CLSROG011_00102_JACKE_000_015","そもそも、双剣士ギルドは………………。
+……まあ、由来とか細けぇことはいい。
+俺たちには、やるべき「仕事」があるってことだけ覚えとけ。"
+57,"TEXT_CLSROG011_00102_JACKE_000_016","お前は、ここリムサ・ロミンサが、
+海賊の拠点として発展してきた都市だって知ってるか？"
+58,"TEXT_CLSROG011_00102_JACKE_000_017","海賊っていうのは無法者の集まりだが、
+略奪品を売買したり、同じ島に居座るにあたって、
+守るべき暗黙の「掟」が存在してたんだよ。"
+59,"TEXT_CLSROG011_00102_JACKE_000_018","曰く、リムサ・ロミンサの民からは略奪するべからず。
+曰く、略奪品の取引で詐欺を行うべからず。
+曰く、奴隷は売買するべからず……とかな！"
+60,"TEXT_CLSROG011_00102_JACKE_000_019","今じゃメルウィブ提督が海賊行為そのものを禁止してるが、
+その目が届かない裏社会では、
+相変わらず「掟」こそが、唯一のルールなのさ。"
+61,"TEXT_CLSROG011_00102_JACKE_000_020","その「掟」の番人といわれる存在が、俺たち双剣士だ。"
+62,"TEXT_CLSROG011_00102_JACKE_000_021","リムサ・ロミンサの暗部に目を光らせ、掟破りには制裁を下す。
+不当な略奪が行われたなら、略奪品を奪還する。
+……それが、双剣士の「仕事」なんだよ。"
+63,"TEXT_CLSROG011_00102_JACKE_000_022","俺たちの戦い方もまた、
+仕事を遂行するために磨かれてきたもんだ。"
+64,"TEXT_CLSROG011_00102_JACKE_000_023","攻撃に特化してるだけでなく、毒を使って標的を弱らせたり、
+姿をかくして不意打ちを仕掛けたり……。
+あの手この手を組み合わせ、ひたすら勝利をぶんどるんだぜ！"
+65,"TEXT_CLSROG011_00102_JACKE_000_024","……で、どうするよ？
+双剣士として、俺たちと仕事をする気はあるか？"
+66,"TEXT_CLSROG011_00102_Q1_000_030","双剣士として仕事をする？"
+67,"TEXT_CLSROG011_00102_A1_000_031","はい"
+68,"TEXT_CLSROG011_00102_A1_000_032","いいえ"
+69,"TEXT_CLSROG011_00102_JACKE_000_040","よし！
+それじゃ、まずは格好を整えねぇとな。"
+70,"TEXT_CLSROG011_00102_JACKE_000_041","双剣士に必要なのは、標的をどこまでも追跡する身軽さだ。
+せまい船上で戦ったり、市民に紛れ込むこともあるから、
+デカい武器は邪魔になる……。"
+71,"TEXT_CLSROG011_00102_JACKE_000_042","だから、船乗りがロープの切断に使う短剣を得物とするんだ。
+それを双振りそろえて「双剣」と呼ぶ……
+双剣士って名前の由来でもあるな。"
+72,"TEXT_CLSROG011_00102_JACKE_000_043","お前にこの「<Sheet(Item,　7952,0)/>」をやるよ。
+それを装備して、双剣士らしくしてみな。
+……ああ、焦らなくていいから、服もちゃんと着とけよ？"
+73,"TEXT_CLSROG011_00102_JACKE_000_050","……そうか、仕方ねぇな。
+俺たちの役目を知ったうえで判断したなら、それでいいさ。"
+74,"TEXT_CLSROG011_00102_LONWOERD_000_900","「双剣士ギルド」の中へ入るか……？"
+75,"TEXT_CLSROG011_00102_Q9_000_901","「双剣士ギルド」へ入りますか？"
+76,"TEXT_CLSROG011_00102_A9_000_902","はい"
+77,"TEXT_CLSROG011_00102_A9_000_903","いいえ"

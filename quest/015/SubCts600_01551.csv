@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBCTS600_01551_SEQ_00","Geimlona is concerned for the pecuniary fortunes of a friend."
-1,"TEXT_SUBCTS600_01551_SEQ_01","Your arrival heartens Geimlona, who had been looking to ask a personal favor of an accomplished crafter like yourself. As she tells it, an enterprising young trader formerly employed at the House of Splendors recently paid off her debt to Rowena and struck out on her own, and the sisters would see to it that the girl's new venture is a success. Vowing to offer what aid you can, you set out for the Hard Place to seek out one Zhloe Aliapoh."
-2,"TEXT_SUBCTS600_01551_SEQ_02","The enthusiastic─if easily distracted─Zhloe Aliapoh eagerly regales you with stories of her dream of running an orphanage, while lamenting the financial woes that have thwarted her plans thus far. She asks for your aid in procuring exotic treasures that she might then unload on her most affluent customers, thus securing the necessary funds to keep Menphina's Arms thriving. To ensure a mutually beneficial arrangement, she offers to pay for every item you deliver in scrips that can be redeemed at her good friend and associate Rowena's House of Splendors. Seeing no cause to doubt her zeal and business acumen, you resolve to do your part to help the girl achieve her most admirable goal."
+0,"TEXT_SUBCTS600_01551_SEQ_00","イディルシャイアのゲイムロナは、物思いに耽っているようだ。"
+1,"TEXT_SUBCTS600_01551_SEQ_01","ゲイムロナから、シロ・アリアポーの商売を後押ししてほしいと頼まれた。崖っぷち亭の「シロ・アリアポー」と話そう。"
+2,"TEXT_SUBCTS600_01551_SEQ_02","シロ・アリアポーは、孤児院の運営費用を稼ぐために頑張っているという。今後は彼女のお得意様として、取引をこなしていこう。"
 3,"TEXT_SUBCTS600_01551_SEQ_03",""
 4,"TEXT_SUBCTS600_01551_SEQ_04",""
 5,"TEXT_SUBCTS600_01551_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_SUBCTS600_01551_SEQ_21",""
 22,"TEXT_SUBCTS600_01551_SEQ_22",""
 23,"TEXT_SUBCTS600_01551_SEQ_23",""
-24,"TEXT_SUBCTS600_01551_TODO_00","Speak with Zhloe Aliapoh at the Hard Place."
+24,"TEXT_SUBCTS600_01551_TODO_00","崖っぷち亭のシロ・アリアポーと話す"
 25,"TEXT_SUBCTS600_01551_TODO_01",""
 26,"TEXT_SUBCTS600_01551_TODO_02",""
 27,"TEXT_SUBCTS600_01551_TODO_03",""
@@ -49,25 +49,61 @@ int32,str,str
 45,"TEXT_SUBCTS600_01551_TODO_21",""
 46,"TEXT_SUBCTS600_01551_TODO_22",""
 47,"TEXT_SUBCTS600_01551_TODO_23",""
-48,"TEXT_SUBCTS600_01551_GEIMLONA_000_001","Well, if it ain't one of our most reliable collectors. Got anythin' good for us <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>this evening<Else/>today</If><Else/><If(LessThan(PlayerParameter(11),17))>today<Else/>this evening</If></If>? ...Actually, hold that thought. Just remembered that <Emphasis>I've</Emphasis> got somethin' for <Emphasis>you</Emphasis> for a change─a favor to ask."
-49,"TEXT_SUBCTS600_01551_GEIMLONA_000_002","You wouldn't happen to know a girl by the name of Zhloe Aliapoh, would you? Sweet little thing. Born into poverty, she worked her tail off for my sister until she'd paid off every last gil of her family's debts. Recently, she struck out on her own, rentin' out a corner of the Hard Place to run her own shop."
-50,"TEXT_SUBCTS600_01551_GEIMLONA_000_003","Girl's got a nose for coin that's a match for anyone in the realm. But she can also be a bit scatterbrained, which is what's keepin' us up at night. We'd like nothin' more than to stick by her side till she gets her new operation off the ground, but needless to say, we've got plenty on our own plates."
-51,"TEXT_SUBCTS600_01551_GEIMLONA_000_004","That's where you come in. So what do you say? Think you could pay Zhloe a visit and see that the girl's makin' ends meet? It'd mean a whole lot to Rowena and me."
-52,"TEXT_SUBCTS600_01551_ZHLOEALIAPOH_000_010","Why, yes, I'm Zhloe Aliapoh! However did you know? Am I famous? That's so exciting! And also somewhat terrifying. But most certainly exciting! Oh, but pray tell, whoever might you be?"
-53,"TEXT_SUBCTS600_01551_ZHLOEALIAPOH_000_011","Mistress Geimlona sent you to look after me? Why, how sweet of her to ask! And you to come, of course! Speaking of sweets, have you tried Adkiragh's pineapple pudding? It's so smooth and sensuous and...but where was I? Oh, of course! I'm doing quite well─thank you for asking!"
-54,"TEXT_SUBCTS600_01551_ZHLOEALIAPOH_100_011","With a loan I took out from Mistress Rowena, I rented out a room here in the cellars of the Hard Place. Can you guess what I'm using it for? Actually, let me just tell you! I'm running an orphanage! I call it Menphina's Arms! Because it's like, She's holding the orphans and keeping them safe─in Her arms. Get it?"
-55,"TEXT_SUBCTS600_01551_ZHLOEALIAPOH_000_012","I'm still new to this, but I've already learned so much! For one thing, running an orphanage is really expensive! So I've had to skimp on a few luxuries─food, clothing, and the like. Why, the last thing <Emphasis>I</Emphasis> ate was Adkiragh's pineapple pudding, and I had to make a single bowl last the week! It <Emphasis>was</Emphasis> a rather <Emphasis>large</Emphasis> bowl, mind you. But still!"
-56,"TEXT_SUBCTS600_01551_ZHLOEALIAPOH_000_013","But this isn't about me! It's about the children, and everything I could be doing for them if only I had more gil in my coffers! Don't worry, though─Zhloe has a plan!"
-57,"TEXT_SUBCTS600_01551_ZHLOEALIAPOH_000_014","What sort of plan, you ask? You're looking at it! I've started my trading business, right here in this little corner of the Hard Place! I acquire rare treasures and relics from the realm over, and sell them to wealthy collectors for princely sums! Oh, if only I could marry a prince, all my worries would be─wait, what were we talking about?"
-58,"TEXT_SUBCTS600_01551_ZHLOEALIAPOH_000_015","Hm? What's in it for my suppliers, you ask? I was just getting to that! Seeing as how I'm on such good terms with Mistress Rowena, you see, I was thinking I could pay them back in scrips they could spend at the House of Splendors! I haven't actually <Emphasis>asked</Emphasis> her yet, of course, but I'm sure she'll say yes. Did I mention that we were really, really good friends?"
-59,"TEXT_SUBCTS600_01551_ZHLOEALIAPOH_000_016","You know a thing about crafting, too? I knew this was Zhloe's lucky day! Almost as lucky as the day when that nice old man paid ten times what that stone was worth─a whole 100 gil!─just because I reminded him of his granddaughter! Anyhow, what do you say? You can be Zhloe's number one procurement specialist! You'll do it, won't you? For the children?"
-60,"TEXT_SUBCTS600_01551_ZHLOEALIAPOH_000_017","Oh, you're the best! The absolute best! I knew it the moment I saw your face. With you on my side, Zhloe's House of Almost-splendors─I'm still working on the name─will be turning a profit in no time, and Menphina's Arms will spread wide to hold every poor orphan in a loving embrace!"
-61,"TEXT_SUBCTS600_01551_ZHLOEALIAPOH_000_018","Anyhow, let's make this official. <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, was it? Zhloe is oh so looking forward to doing business with you!"
-62,"TEXT_SUBCTS600_01551_ZHLOEALIAPOH_000_019","Did I say that for every collectable you bring to me, I'll pay you in scrips redeemable at Rowena's House of Splendors? I did? Good! Because that's exactly what I'll be doing! Provided Rowena approves, of course. Which she will. I promise!"
-63,"TEXT_SUBCTS600_01551_ZHLOEALIAPOH_000_020","That's how Rowena pays <Emphasis>her</Emphasis> hardworking employees, after all. No gil, just scrips. Why, I can still remember her counting them out─one scrip, two scrips, red scrips, blue scrips! She'll be positively thrilled that Zhloe's following in her footsteps. I just know it!"
-64,"TEXT_SUBCTS600_01551_ZHLOEALIAPOH_000_021","I see the sparkle of curiosity in your eye! “But, Zhloe,” you ask. “Without any gil to your name, however did you purchase food, drink, and other basic essentials of daily life?” You weren't wondering that? Well, Zhloe will tell you anyway!"
-65,"TEXT_SUBCTS600_01551_ZHLOEALIAPOH_100_021","At Rowena's House of Splendors, you can purchase an enormous flagon of pineapple juice for the low, low price of only one hundred and thirty scrips! And who needs food when you have pineapple juice? Not Zhloe, that's for sure! Mmm, pineapples..."
-66,"TEXT_SUBCTS600_01551_ZHLOEALIAPOH_000_022","But where were we? Oh, you're probably wondering exactly what sort of treasures I'm looking for. Well, I'd be happy to explain! Zhloe has her eyes set on exotic treasures of Near Eastern make and design!"
-67,"TEXT_SUBCTS600_01551_ZHLOEALIAPOH_000_023","A little bird told Zhloe that Near Eastern culture is all the rage among the Ishgardian nobility these days, and who is Zhloe to disappoint such potentially <Emphasis>generous</Emphasis> customers? I'm counting on you, friend! And remember─so are the children!"
-68,"TEXT_SUBCTS600_01551_SYSTEM_000_030","This quest will become available on <ResetTime>1203</ResetTime><Switch(TopLevelParameter(220))><Case(1)>Sunday</Case><Case(2)>Monday</Case><Case(3)>Tuesday</Case><Case(4)>Wednesday</Case><Case(5)>Thursday</Case><Case(6)>Friday</Case><Case(7)>Saturday</Case></Switch> at <If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>1</Case><Case(14)>2</Case><Case(15)>3</Case><Case(16)>4</Case><Case(17)>5</Case><Case(18)>6</Case><Case(19)>7</Case><Case(20)>8</Case><Case(21)>9</Case><Case(22)>10</Case><Case(23)>11</Case></Switch><Else/>12</If> <If(GreaterThanOrEqualTo(TopLevelParameter(218),12))>p.m.<Else/>a.m.</If> (Earth time)."
-69,"TEXT_SUBCTS600_01551_GEIMLONA_000_025",""
+48,"TEXT_SUBCTS600_01551_GEIMLONA_000_001","……あら、これは冒険者様。
+いつもお世話になっております。"
+49,"TEXT_SUBCTS600_01551_GEIMLONA_000_002","ところで、冒険者様はシロ・アリアポーという者をご存知ですか？
+以前、ロウェナ商会で働いていた女商人なのですが、
+この度、独立して自分の店を持ったのです。"
+50,"TEXT_SUBCTS600_01551_GEIMLONA_000_003","シロは目利きの技術には優れておりますが、
+他人のためならば、自分のことを顧みない傾向がありましてね。
+そういう所を、ロウェナ様は心配に思っているようです。"
+51,"TEXT_SUBCTS600_01551_GEIMLONA_000_004","そこで、熟練の職人であるあなた様にお願いがあります。
+崖っぷち亭の「シロ・アリアポー」の店をお訪ねください。
+あの子の商売が上手くいくよう、後押ししてやってほしいのです。"
+52,"TEXT_SUBCTS600_01551_ZHLOEALIAPOH_000_010","ええ、確かに私がシロ・アリアポーですが……。
+どちら様でしょうか？"
+53,"TEXT_SUBCTS600_01551_ZHLOEALIAPOH_000_011","ゲイムロナさんから頼まれて様子を見に？
+私はこのとおり、とっても元気ですよ！"
+54,"TEXT_SUBCTS600_01551_ZHLOEALIAPOH_100_011","崖っぷち亭階下の一室をお借りすることができたので、
+この度、かねてからの夢だった、孤児院の運営を始めたんです！
+その名も「メネフィナの家」！！"
+55,"TEXT_SUBCTS600_01551_ZHLOEALIAPOH_000_012","運営には、思っていたよりもお金がかかって大変ですけどね。
+今日のごはんは、一週間前に作ったフラットブレッドでしたし。
+すっかり湿気てしまって、岩のように硬かったですけど……。"
+56,"TEXT_SUBCTS600_01551_ZHLOEALIAPOH_000_013","でもでも、困っている子どもたちのためなら、
+どれだけ辛くたって頑張れます！
+彼らに安心できる居場所を作ってあげるのが、私の目標ですから！"
+57,"TEXT_SUBCTS600_01551_ZHLOEALIAPOH_000_014","孤児院の運営費を稼ぐために、収集品取引も始めたんですよ。
+職人さんから集めた珍しい品を、
+好事家の方たちに買い取ってもらうんです。"
+58,"TEXT_SUBCTS600_01551_ZHLOEALIAPOH_000_015","職人さんには、納品してくれた報酬として、
+ロウェナ商会のスクリップをお渡ししているんです。
+ですが、なかなか収集品の集まりが悪くて……。"
+59,"TEXT_SUBCTS600_01551_ZHLOEALIAPOH_000_016","見たところ、熟練の職人さんのようですが、
+よろしければ、私をあなたの「お得意様」にしていただけませんか？
+いーっぱい、頑張りますから！"
+60,"TEXT_SUBCTS600_01551_ZHLOEALIAPOH_000_017","よ、よかったぁ……。
+実は立ち上げ以来、ずっと赤字続きで、
+このままだと孤児院の運営が立ち行かなくなる所だったんです。"
+61,"TEXT_SUBCTS600_01551_ZHLOEALIAPOH_000_018","でも、引き受けていただけて安心しました。
+これからよろしくお願いしますね！"
+62,"TEXT_SUBCTS600_01551_ZHLOEALIAPOH_000_019","先ほどもご説明したかと思いますが、
+収集品を納品していただく報酬として、
+冒険者さんにはロウェナ商会のスクリップをお支払いします。"
+63,"TEXT_SUBCTS600_01551_ZHLOEALIAPOH_000_020","ギルは少ないですが、スクリップならたくさん持っていますから！
+ロウェナ商会では、お給料がギルではなく、
+スクリップで支払われるのですよ。"
+64,"TEXT_SUBCTS600_01551_ZHLOEALIAPOH_000_021","ギルを貰えないのに、
+今までどうやって生きてきたか気になります？"
+65,"TEXT_SUBCTS600_01551_ZHLOEALIAPOH_100_021","なんと！
+ロウェナ商会では、
+スクリップ130個をパインジュースと交換できるんですよ！"
+66,"TEXT_SUBCTS600_01551_ZHLOEALIAPOH_000_022","それでは、まず最初に、
+冒険者さんに取引をお願いしたい収集品は、
+「近東風の収集品」です！"
+67,"TEXT_SUBCTS600_01551_ZHLOEALIAPOH_000_023","今、貴族の間で、近東風の物が流行していると聞きましたので！
+商人として、市場の流行に乗らないという考えはありません！
+これは……黒字化待ったなしの予感がしますよ！"
+68,"TEXT_SUBCTS600_01551_SYSTEM_000_030","本クエストは、（地球時間）<ResetTime>1203</ResetTime><Switch(TopLevelParameter(220))><Case(1)>日</Case><Case(2)>月</Case><Case(3)>火</Case><Case(4)>水</Case><Case(5)>木</Case><Case(6)>金</Case><Case(7)>土</Case></Switch>曜日の<If(GreaterThanOrEqualTo(TopLevelParameter(218),12))>午後<Else/>午前</If><If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>0</Case><Case(13)>1</Case><Case(14)>2</Case><Case(15)>3</Case><Case(16)>4</Case><Case(17)>5</Case><Case(18)>6</Case><Case(19)>7</Case><Case(20)>8</Case><Case(21)>9</Case><Case(22)>10</Case><Case(23)>11</Case></Switch><Else/>0</If>時以降に、
+受注可能になる予定です。"
+69,"TEXT_SUBCTS600_01551_GEIMLONA_000_025","（★未使用／削除予定★）"

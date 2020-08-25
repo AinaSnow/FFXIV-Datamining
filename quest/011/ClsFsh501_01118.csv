@@ -1,15 +1,17 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSFSH501_01118_SEQ_00","Sisipu needs your help with an emergency."
-1,"TEXT_CLSFSH501_01118_SEQ_01","The recent sighting of a gigantic sea serpent off the coast of La Noscea has prompted the Maelstrom to ban all fishing until further notice. Sisipu has bid you speak with Sybell, who may possess more information, as the Brugaire Consortium has close ties to the Maelstrom."
-2,"TEXT_CLSFSH501_01118_SEQ_02","Sybell relates to you the legend of Swallowtail Roam, in which Llymlaen imprisoned a fearsome sea serpent that threatened to flood the whole of creation, thus giving rise to the Lominsan motto “till sea swallows all.” Though it is unlikely that the serpent spotted was the beast of eld, it has nevertheless sparked a panic to which the Maelstrom has been forced to respond. To discern the true nature of the beast, Sybell suggests seeking out the source of the sea serpent rumors, Chuchuroon."
-3,"TEXT_CLSFSH501_01118_SEQ_03","Chuchuroon mentions having shared his story with Wawalago, who has a demonstrated knack for deciphering the Qiqirn's observations. Speak with the netmaster and see what he has to say."
-4,"TEXT_CLSFSH501_01118_SEQ_04","Wawalago believes a Mazlaya marlin can clear up the misunderstanding. However, the act of catching one will require double mooching, one of the most difficult techniques a fisher<If(PlayerParameter(4))>woman<Else/>man</If> can employ. Use a goby ball to catch a quality harbor herring along north Bloodshore, recast the herring to catch an ogre barracuda, then recast the barracuda to at last catch a Mazlaya marlin. Once accomplished, deliver your prize to Sisipu at the Fishermen's Guild."
-5,"TEXT_CLSFSH501_01118_SEQ_05","You and your associates meet with Grand Storm Marshal Eynzahr Slafyrsyn aboard one of the Brugaire Consortium's vessels, where you present to him the Mazlaya marlin. The grand storm marshal subsequently reveals that while he never believed the rumors to be true, he required evidence before he could lift the ban─evidence which you so skillfully acquired. Having put an end to the sea serpent panic, speak with Sisipu to hear her thoughts on what has transpired."
-6,"TEXT_CLSFSH501_01118_SEQ_06","Sisipu is uncharacteristically grateful and complimentary, noting that you have saved the Lominsan fishing industry from financial ruin at the hands of an imaginary sea serpent. She is especially pleased by what she believes might be your single greatest contribution to the Fishermen's Guild: luring Wawalago back to work.
+0,"TEXT_CLSFSH501_01118_SEQ_00","漁師ギルドのシシプは、緊急事態に冒険者の力を借りたいようだ。"
+1,"TEXT_CLSFSH501_01118_SEQ_01","シシプから依頼を受けた。リムサ・ロミンサの漁師ギルドにいる「シベル」と話そう。"
+2,"TEXT_CLSFSH501_01118_SEQ_02","シベルと話した。リムサ・ロミンサの漁師ギルドにいる「チュチュルン」と話そう。"
+3,"TEXT_CLSFSH501_01118_SEQ_03","チュチュルンと話した。リムサ・ロミンサの漁師ギルドにいる「ワワラゴ」と話そう。"
+4,"TEXT_CLSFSH501_01118_SEQ_04","ワワラゴと話した。リムサ・ロミンサの漁師ギルドにいる「シシプ」に「<Sheet(Item,　4917,0)/>」を1匹納品しよう。「<Sheet(Item,　4917,0)/>」は、東ラノシアの北ブラッドショアの釣り場で「<Sheet(Item,　2589,0)/>」で釣り上げる「<Sheet(Item,　4874,0)/>」を「泳がせ釣り」をして釣り上げた「<Sheet(Item,　4888,0)/>」でさらに「泳がせ釣り」することで釣ることができる。"
+5,"TEXT_CLSFSH501_01118_SEQ_05","シシプに<Sheet(Item,　4917,0)/>を納品した。リムサ・ロミンサの漁師ギルドにいる「シシプ」に報告しよう。"
+6,"TEXT_CLSFSH501_01118_SEQ_06","シシプに報告した。冒険者の活躍によって、漁師ギルドを危機に陥れた、禁漁命令は解除された。彼女は冒険者の大活躍を大いに感謝し、今や冒険者のことをギルドで一番の漁師だとまで言ってくれた。その賞賛に恥じることないよう、これからも漁師の仕事に励もう。
 
-※The next fisher quest will be available from Sisipu once you have completed the main scenario quest “Before the Dawn.”"
+※以下の条件を満たすと、漁師ギルドのシシプから、新たなクラスクエストを受注することができます。
+1.「メインクエスト：第七星暦ストーリー」の、
+　「希望の灯火」を完了する。"
 7,"TEXT_CLSFSH501_01118_SEQ_07",""
 8,"TEXT_CLSFSH501_01118_SEQ_08",""
 9,"TEXT_CLSFSH501_01118_SEQ_09",""
@@ -27,11 +29,11 @@ int32,str,str
 21,"TEXT_CLSFSH501_01118_SEQ_21",""
 22,"TEXT_CLSFSH501_01118_SEQ_22",""
 23,"TEXT_CLSFSH501_01118_SEQ_23",""
-24,"TEXT_CLSFSH501_01118_TODO_00","Speak with Sybell."
-25,"TEXT_CLSFSH501_01118_TODO_01","Speak with Chuchuroon."
-26,"TEXT_CLSFSH501_01118_TODO_02","Speak with Wawalago."
-27,"TEXT_CLSFSH501_01118_TODO_03","Deliver a Mazlaya marlin to Sisipu."
-28,"TEXT_CLSFSH501_01118_TODO_04","Report to Sisipu."
+24,"TEXT_CLSFSH501_01118_TODO_00","シベルと話す"
+25,"TEXT_CLSFSH501_01118_TODO_01","チュチュルンと話す"
+26,"TEXT_CLSFSH501_01118_TODO_02","ワワラゴと話す"
+27,"TEXT_CLSFSH501_01118_TODO_03","シシプに<Sheet(Item,　4917,0)/>を納品"
+28,"TEXT_CLSFSH501_01118_TODO_04","シシプに報告"
 29,"TEXT_CLSFSH501_01118_TODO_05",""
 30,"TEXT_CLSFSH501_01118_TODO_06",""
 31,"TEXT_CLSFSH501_01118_TODO_07",""
@@ -51,75 +53,186 @@ int32,str,str
 45,"TEXT_CLSFSH501_01118_TODO_21",""
 46,"TEXT_CLSFSH501_01118_TODO_22",""
 47,"TEXT_CLSFSH501_01118_TODO_23",""
-48,"TEXT_CLSFSH501_01118_SISIPU_000_000","Gods, this is unbelievable! According to the age-old adage, “When the going gets tough, the tough go fishing.” Unfortunately, the adage is of little use when the “tough going” happens to be a fishing ban!"
-49,"TEXT_CLSFSH501_01118_SISIPU_000_001","<sigh> You haven't heard, have you? Eynzahr Slafyrsyn has closed all docks and ports for fishing vessels on the authority of Admiral Merlwyb."
-50,"TEXT_CLSFSH501_01118_SISIPU_000_002","Some sorry sailor supposedly spotted a serpent at sea, and so Slafyrsyn stated that, for our safety, all our services must cease."
-51,"TEXT_CLSFSH501_01118_SISIPU_000_003","It's all so frustrating! Well, we may be a group of sedentary fishers, but we're not about to take this sitting down!"
-52,"TEXT_CLSFSH501_01118_SISIPU_000_004","First, we'll need to know what we're up against. The Brugaire Consortium maintains ties to the Maelstrom, so Sybell may know something we do not. It is time to go fishing...for information."
-53,"TEXT_CLSFSH501_01118_SYBELL_000_010","It's certainly a pleasure to see you again, though I wish it were under happier circumstances. The news came as a shock to us, as well."
-54,"TEXT_CLSFSH501_01118_SYBELL_000_011","Any Lominsan who's ever boarded a boat has heard the tale. Back when the world was naught but a dry, lifeless rock, Llymlaen created a giant serpent. From its massive maw, the creature spat forth water until the land was filled."
-55,"TEXT_CLSFSH501_01118_SYBELL_000_012","But it would not stop. To prevent the world from being completely submerged, the Navigator trapped the serpent in a floating island with the warning that if it were ever to be freed, the seas would rise until the world ended. This is from where the thalassocratic motto “till sea swallows all” comes. You can imagine the Admiral's surprise upon learning a sailor claims to actually have <Emphasis>seen</Emphasis> the serpent in question."
-56,"TEXT_CLSFSH501_01118_SYBELL_000_013","While you and I may recognize it as a faerie tale aimed to scare children, the panic in the streets is real, and so Slafyrsyn hasn't any choice but to take drastic measures in order to maintain the peace. Regrettably, those drastic measures have dire consequences for both your guild and my consortium."
-57,"TEXT_CLSFSH501_01118_SYBELL_000_014","And the Maelstrom is too occupied with ship inaugurations to conduct a proper inquiry, meaning our only hope is to take matters into our own firm yet supple hands. Ahem."
-58,"TEXT_CLSFSH501_01118_SYBELL_000_015","It may be impossible to prove the sea serpent does not exist, but perhaps the testimony of the eyewitness could be impugned."
-59,"TEXT_CLSFSH501_01118_SYBELL_000_016","I believe you have met the sailor responsible for the sighting─the one known as Chuchuroon."
-60,"TEXT_CLSFSH501_01118_CHUCHUROON_000_020","Chuchuroon see big fish at sea, some say see sea serpent!"
-61,"TEXT_CLSFSH501_01118_CHUCHUROON_000_021","Chuchuroon just want fish to fish, see fisherman Wawalago about fishing fish in sea."
-62,"TEXT_CLSFSH501_01118_SYBELL_000_025","Unless we can disprove the existence of that serpent, I fear this bodes ill for Limsa."
-63,"TEXT_CLSFSH501_01118_WAWALAGO_000_030","I've seen enough at sea to know when sailors are seeing things, and what Chuchuroon saw was no sea serpent, for sure."
-64,"TEXT_CLSFSH501_01118_WAWALAGO_000_031","Missing your marks will make mountains out of molehills─distances deceive and delude the minds of men at sea."
-65,"TEXT_CLSFSH501_01118_WAWALAGO_000_032","My money says your serpent is a Mazlaya marlin─a fairly big fish, but by no means a monster."
-66,"TEXT_CLSFSH501_01118_WAWALAGO_000_033","You can see them barreling back and forth along the north of Bloodshore."
-67,"TEXT_CLSFSH501_01118_WAWALAGO_000_034","But if spied from the shore, people will just shrug their shoulders. You need to make them meet that marlin up close and personal."
-68,"TEXT_CLSFSH501_01118_WAWALAGO_000_035","I'll admit it's easier expressed than executed, and I've never nabbed one. If you don't loosen up your line, they'll rip your rod right out of your hands!"
-69,"TEXT_CLSFSH501_01118_WAWALAGO_000_036","But first, you need a bite! They won't waste their breath on worms from other waters. Mazlaya marlin demand mooching─more familiar to you as fishwheeling, perhaps."
-70,"TEXT_CLSFSH501_01118_WAWALAGO_000_037","And not just any mean act of mooching, but the daunting duty of the dramatic <Emphasis>double</Emphasis> mooch! I reckon you're ready for it."
-71,"TEXT_CLSFSH501_01118_WAWALAGO_000_038","Get a goby ball and haul in a harbor herring. Once you've hitched your herring, offer it up to an ogre barracuda, then bait that beast to make the Mazlaya marlin bite."
-72,"TEXT_CLSFSH501_01118_WAWALAGO_000_039","Makes me want to sail out myself, but Slafyrsyn would slay any guildmaster who slights him."
-73,"TEXT_CLSFSH501_01118_WAWALAGO_000_040","Besides, I'm sure Sisipu would sooner see you succeed at it."
-74,"TEXT_CLSFSH501_01118_SISIPU_000_40","Gah! I can't believe we're reduced to this! Still, while Wawalago's never been right for running a guild, he's never been wrong about a fish. If he says our serpent is a Mazlaya marlin, that's what it is."
-75,"TEXT_CLSFSH501_01118_SISIPU_000_41","<Emphasis>That's</Emphasis> the marlin!? I can see how some might mistake it for a monster!"
-76,"TEXT_CLSFSH501_01118_SISIPU_000_42","Hopefully, Slafyrsyn will see it the same. Come─Sybell arranged for us to speak with the grand storm marshal."
-77,"TEXT_CLSFSH501_01118_EYNZAHRSLAFYRSYN_000_50","So many moons has it been, I can scarcely remember the last time I boarded a merchant ship for anything other than an inspection."
-78,"TEXT_CLSFSH501_01118_EYNZAHRSLAFYRSYN_000_51","Quite comfortable indeed aboard the luxurious fleet of the Brugaire Consortium. No doubt to put crooked mongers and traffickers at ease while making illicit deals at sea?"
-79,"TEXT_CLSFSH501_01118_SYBELL_000_52","Perish the thought! We would never dream of calling the grand storm marshal to a vessel where such roguery took place."
-80,"TEXT_CLSFSH501_01118_EYNZAHRSLAFYRSYN_000_53","A shame─I'd imagine those sort of vessels were the most fun. I suppose we'd then best tend to business."
-81,"TEXT_CLSFSH501_01118_SYBELL_000_54","Of course, sir."
-82,"TEXT_CLSFSH501_01118_SISIPU_000_55","Allow me to introduce to you the Mazlaya marlin."
-83,"TEXT_CLSFSH501_01118_EYNZAHRSLAFYRSYN_000_56","Great Llymlaen's Ghost! The blary thing is massive! However did you catch it?"
-84,"TEXT_CLSFSH501_01118_EYNZAHRSLAFYRSYN_000_58","...Though I suppose that doesn't matter. At any rate, it is your contention that this marlin is our sea serpent?"
-85,"TEXT_CLSFSH501_01118_WAWALAGO_000_59","You can sing yourself to sleep with that silly sea serpent story, but it still won't hold water!"
-86,"TEXT_CLSFSH501_01118_SISIPU_000_60","I knew things were proceeding too smoothly. You always know just the wrong time to act the guildmaster, don't you?"
-87,"TEXT_CLSFSH501_01118_EYNZAHRSLAFYRSYN_000_61","Never you mind. I've known Wawalago long enough not to mind his manners. Unlike his fish, I know when I'm being baited."
-88,"TEXT_CLSFSH501_01118_WAWALAGO_000_62","Boy, you've been baiting and bullying us with your ban─will you let up and lift it?"
-89,"TEXT_CLSFSH501_01118_EYNZAHRSLAFYRSYN_000_63","A fine question. To lift the fishing ban? Or to not lift the fishing ban...? What to do, what to do, what to do...?"
-90,"TEXT_CLSFSH501_01118_EYNZAHRSLAFYRSYN_000_64","On one hand, I could lift the ban... But on the other..."
-91,"TEXT_CLSFSH501_01118_SISIPU_000_65","Now who's the one baiting?"
-92,"TEXT_CLSFSH501_01118_EYNZAHRSLAFYRSYN_000_66","Why not? Of course, there are formalities we must observe, so I'm afraid the declaration will have to wait until the morrow."
-93,"TEXT_CLSFSH501_01118_SYBELL_000_67","And...the ban <Emphasis>will</Emphasis> be lifted, won't it?"
-94,"TEXT_CLSFSH501_01118_EYNZAHRSLAFYRSYN_000_68","Unless you'd prefer it weren't."
-95,"TEXT_CLSFSH501_01118_SYBELL_000_69","By no means, it's just... I feared that simply bringing you a large fish might fail to serve as adequate evidence in overturning a formal military promulgation."
-96,"TEXT_CLSFSH501_01118_EYNZAHRSLAFYRSYN_000_70","Well, I never really believed all this sea serpent silliness in the first place. It was more about putting Lominsans' minds at ease than anything else, and the marlin you've brought me should accomplish just that."
-97,"TEXT_CLSFSH501_01118_EYNZAHRSLAFYRSYN_000_71","A few of our more paranoid conspiracy theorists in the Maelstrom alleged the serpent to be part of an elaborate Sahagin plot, so this should make for a nice laugh at their expense, as well."
-98,"TEXT_CLSFSH501_01118_EYNZAHRSLAFYRSYN_000_72","And to think, this all started because someone spotted a “large fish.”"
-99,"TEXT_CLSFSH501_01118_EYNZAHRSLAFYRSYN_000_73","And because fish tales are wont to grow in size, the “large fish” became “serpent-sized,” and then ceased to be a fish altogether!"
-100,"TEXT_CLSFSH501_01118_EYNZAHRSLAFYRSYN_000_74","It makes you wonder about what other sorts of overblown fantasies we've all been led to believe."
-101,"TEXT_CLSFSH501_01118_SISIPU_000_75","It sounds like you were ready to lift the ban whether we brought you the marlin or not."
-102,"TEXT_CLSFSH501_01118_EYNZAHRSLAFYRSYN_000_76","If only it were that simple! A fine grand storm marshal I would be if I went lifting bans willy-nilly without any evidence the problem had been solved! This marlin is essential to assuaging the irrational fears of the public."
-103,"TEXT_CLSFSH501_01118_SISIPU_000_77","Well, then I suppose <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>'s efforts weren't for naught, after all. I only wonder how the fish tale grew out of proportion in the first place."
-104,"TEXT_CLSFSH501_01118_WAWALAGO_000_78","I don't delight in delving into details, but that deed might have been my doing..."
-105,"TEXT_CLSFSH501_01118_SISIPU_000_79","Why am I not surprised?"
-106,"TEXT_CLSFSH501_01118_WAWALAGO_000_80","When I mentioned to Chuchuroon that the Mazlaya marlin was a monster, I meant it metaphorically, but mayhap he misunderstood..."
-107,"TEXT_CLSFSH501_01118_EYNZAHRSLAFYRSYN_000_81","I think it would be in the best interests of all involved if I don't hear any more of this story."
-108,"TEXT_CLSFSH501_01118_EYNZAHRSLAFYRSYN_000_82","The Maelstrom expresses its gratitude for your efforts in bringing this evidence to light. Your guild will be notified when the fishing ban is formally lifted. I bid you good day."
-109,"TEXT_CLSFSH501_01118_SISIPU_000_090","Terrifying to think a little exaggeration can get out of hand, particularly when you consider how often fishermen exaggerate."
-110,"TEXT_CLSFSH501_01118_SISIPU_000_091","But it sounds like Slafyrsyn knew something was fishy all along."
-111,"TEXT_CLSFSH501_01118_SISIPU_000_092","Nevertheless, you saved our guild from destruction at the hands of an imaginary sea serpent!"
-112,"TEXT_CLSFSH501_01118_SISIPU_000_093","Funny how N'nmulika delivered you to our doorstep just when we needed you most."
-113,"TEXT_CLSFSH501_01118_SISIPU_000_094","And I certainly can't consider you a guppy anymore, now that you've caught a marlin the guildmaster himself never quite reeled in."
-114,"TEXT_CLSFSH501_01118_SISIPU_000_095","I'd say we name you the guildmaster, but then Wawalago would have nothing to dodge, and I'm not ready to let that fish off the hook so easily."
-115,"TEXT_CLSFSH501_01118_SISIPU_000_096","But I suppose we could at least let him know he has a rival."
-116,"TEXT_CLSFSH501_01118_SISIPU_000_097","And that might be your finest fishing accomplishment of all: luring Wawalago back to work!"
-117,"TEXT_CLSFSH501_01118_SYSTEM_000_500","This concludes the fisher quests for FINAL FANTASY XIV: A Realm Reborn. In order to undertake the next series of quests, you must first meet the following requirements:"
-118,"TEXT_CLSFSH501_01118_SYSTEM_000_501","※ You must have completed the main scenario quest “Before the Dawn.”"
-119,"TEXT_CLSFSH501_01118_SYSTEM_000_502","Once you have done so, the next fisher quest will be available from Sisipu."
+48,"TEXT_CLSFSH501_01118_SISIPU_000_000","大変！　大変なの、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>！
+まずいことになっちゃったわ！！
+禁漁よ、禁漁！"
+49,"TEXT_CLSFSH501_01118_SISIPU_000_001","漁師ギルドが海に出てはいけなくなってしまったの。
+メルウィブ提督の意を受けた、
+エインザル・スラフィルシン大甲将の命令でね……。"
+50,"TEXT_CLSFSH501_01118_SISIPU_000_002","なんでも伝説の「大海蛇」が出たとか、出ないとか。
+ともかく危険だから、当面は禁漁しろっていうのよ。
+ああ、なんてことなの……。"
+51,"TEXT_CLSFSH501_01118_SISIPU_000_003","なんでこんなことになっちゃったのかしら……？
+あまりにも一方的で、状況がわからないの。
+詳しい人にイロイロ確かめないと。"
+52,"TEXT_CLSFSH501_01118_SISIPU_000_004","うーん……あっ、そうだ！
+シベルさんに話を聞いてみて。
+商会は黒渦団とも取引してるし、何か知っているかも。"
+53,"TEXT_CLSFSH501_01118_SYBELL_000_010","ああ、どうも……。
+なにやら大変なことになっているようですね。
+禁漁の連絡は、私のところにも来ています。"
+54,"TEXT_CLSFSH501_01118_SYBELL_000_011","海神リムレーンによって封印された大海蛇。
+それが復活したとき、リムサ・ロミンサは滅ぶ……！
+船乗りの間で、まことしやかに語られている伝説です。"
+55,"TEXT_CLSFSH501_01118_SYBELL_000_012","伝説は伝説、と割り切ることができればいいのですが、
+目撃証言もあるせいか、みんな浮き足だってます。
+治安維持のため、禁漁はやむを得ないのかもしれません。"
+56,"TEXT_CLSFSH501_01118_SYBELL_000_013","ですが、理解はできても商売人としては困ります。
+早く漁を再開できなければ、漁師も商人もじり貧です。"
+57,"TEXT_CLSFSH501_01118_SYBELL_000_014","それなのに、黒渦団も今はまだ新造船の就航前で、
+本格的な調査ができないようでして……。
+このままでは、いつ禁漁が解けるかわかりません。"
+58,"TEXT_CLSFSH501_01118_SYBELL_000_015","海の安全を証明できればいいのですが……。
+しかし、こればかりは我が商会でもなんとも。"
+59,"TEXT_CLSFSH501_01118_SYBELL_000_016","ただ、大海蛇の目撃者をつきとめました。
+漁師ギルドにチュチュルンさんという方がいますよね。
+彼が目撃者らしいのです……話を聞いてみては？"
+60,"TEXT_CLSFSH501_01118_CHUCHUROON_000_020","チュチュルン、見たっちゃ、でっかい、お魚っちゃ！
+みんな、みんな「大海蛇」、言ってるっちゃ！
+チュチュルン、ガクブルっちゃ。"
+61,"TEXT_CLSFSH501_01118_CHUCHUROON_000_021","でも、チュチュルン、お魚、食べたいっちゃ。
+ギルドマスター、相談っちゃ。"
+62,"TEXT_CLSFSH501_01118_SYBELL_000_025","禁漁が解除されるには、やはり海の安全を証明するしか……。"
+63,"TEXT_CLSFSH501_01118_WAWALAGO_000_030","話は聞いておるよ、冒険者クン。
+しかし……「大海蛇」が出たという話はどうも信じられん。
+チュチュルンクンが、別の魚影を見間違えたんぢやろう。"
+64,"TEXT_CLSFSH501_01118_WAWALAGO_000_031","海の上では距離感が掴み辛いからのう……
+熟練の漁師でも、大きさを見誤ることはあるんぢやよ。
+ある程度以上でかい場合はとくに、のう。"
+65,"TEXT_CLSFSH501_01118_WAWALAGO_000_032","そしてこの時期、リムサ・ロミンサ近海には、
+非常にでっかいお魚さんが出現することがあってな……。
+でかさに驚き、冷静な判断ができんかったに違いない！"
+66,"TEXT_CLSFSH501_01118_WAWALAGO_000_033","その名は「<Sheet(Item,　4917,0)/>」。
+東ラノシア「北ブラッドショア」の釣り場に出没する、
+そらもうチビってしまうほど、大きなお魚さんぢや。"
+67,"TEXT_CLSFSH501_01118_WAWALAGO_000_034","ぢやが、この魚のことを口で説明しただけでは、
+スラフィルシンの石頭はダメなのぢや。
+ここは……「<Sheet(Item,　4917,0)/>」を釣り上げるしかない！"
+68,"TEXT_CLSFSH501_01118_WAWALAGO_000_035","しかし、「<Sheet(Item,　4917,0)/>」は一筋縄ではいかぬ相手。
+かつてわしは一度だけ、戦ったことがあるのぢやが、
+釣り糸をぶち切り、逃げられてしまったのぢや。"
+69,"TEXT_CLSFSH501_01118_WAWALAGO_000_036","その上、巨体に似合わず奴は用心深い。
+……ぢやが案ずるなかれ、そんなお魚さんを釣り上げる、
+必殺の漁法がある……そう、「泳がせ釣り」ぢや！！"
+70,"TEXT_CLSFSH501_01118_WAWALAGO_000_037","お魚さんの食物連鎖を利用するのぢや、冒険者クン！
+チミはまず、「<Sheet(Item,　2589,0)/>」を用意して、
+「<Sheet(Item,　4874,0)/>」を釣り上げたまえ。"
+71,"TEXT_CLSFSH501_01118_WAWALAGO_000_038","そして釣り上げた「<Sheet(Item,　4874,0)/>」を泳がせ、
+「<Sheet(Item,　4888,0)/>」を釣り上げ……そして！
+それを泳がせて「<Sheet(Item,　4917,0)/>」を釣るんぢや！"
+72,"TEXT_CLSFSH501_01118_WAWALAGO_000_039","実を言えば、わしも再挑戦したいところぢやが……
+禁漁中に、ギルドマスターが堂々と釣りはできん。
+ここは冒険者クン、チミの出番ぢやよ！"
+73,"TEXT_CLSFSH501_01118_WAWALAGO_000_040","わしらは、全力でヒマそうに遊び回る！
+その間に「<Sheet(Item,　4917,0)/>」を釣り上げて、
+シシプちゃんに届けるのぢや！"
+74,"TEXT_CLSFSH501_01118_SISIPU_000_40","「<Sheet(Item,　4917,0)/>」が要るの！
+親分がいるって言うなら絶対いるはずだから……
+頑張って釣り上げてきてね！"
+75,"TEXT_CLSFSH501_01118_SISIPU_000_41","きた！
+これが「<Sheet(Item,　4917,0)/>」なの！？
+ちょ、ちょっと予想以上におっきいわね……！"
+76,"TEXT_CLSFSH501_01118_SISIPU_000_42","ともかく、これをスラフィルシン大甲将に見せないと。
+シベルさんに頼んで、段取りはもう済んでるの。
+商会のツテを使ってもらったのよ。"
+77,"TEXT_CLSFSH501_01118_EYNZAHRSLAFYRSYN_000_50","フッフフ……。
+臨検以外で商船に乗るのは、随分久しぶりだぜ。"
+78,"TEXT_CLSFSH501_01118_EYNZAHRSLAFYRSYN_000_51","いい船持ってるじゃあねぇか、ブルゲール商会よ。
+なんか悪ィことして貯めた金だったりしねぇか？"
+79,"TEXT_CLSFSH501_01118_SYBELL_000_52","め、めっそうもない！
+閣下におかれましてはお忙しい中、
+お時間を割いていただけたことを大変感謝……。"
+80,"TEXT_CLSFSH501_01118_EYNZAHRSLAFYRSYN_000_53","冗談だ、マジになるんじゃあないぜ。
+それにそういうのはいい、堅っ苦しいのは苦手だ。
+やるべきことをさっさとやろうぜ、なぁ。"
+81,"TEXT_CLSFSH501_01118_SYBELL_000_54","ひゃ、ひゃいっ！"
+82,"TEXT_CLSFSH501_01118_SISIPU_000_55","あの、スラフィルシンさん。
+「<Sheet(Item,　4917,0)/>」を見てください！"
+83,"TEXT_CLSFSH501_01118_EYNZAHRSLAFYRSYN_000_56","おうよ、そいつが「<Sheet(Item,　4917,0)/>」だな？
+でけぇ魚だぜ、こんなもん釣り上げるとは大したもんだ。"
+84,"TEXT_CLSFSH501_01118_EYNZAHRSLAFYRSYN_000_58","それで……お前さんたちゃ、
+その<Sheet(Item,　4917,0)/>こそ、巷を騒がせる
+大海蛇騒ぎの元凶だって主張するわけだな？"
+85,"TEXT_CLSFSH501_01118_WAWALAGO_000_59","いかにも、そうぢや。
+他に理由なぞ考えられん、
+わかったらさっさと禁漁を解除するのぢや！"
+86,"TEXT_CLSFSH501_01118_SISIPU_000_60","ちょっと親分！
+スラフィルシンさんに失礼でしょ！？"
+87,"TEXT_CLSFSH501_01118_EYNZAHRSLAFYRSYN_000_61","はっはっは、気にすんなお嬢ちゃん。
+ワワラゴの爺さんのことは昔から知ってる、
+この程度で腹立てたりはしねぇよ。"
+88,"TEXT_CLSFSH501_01118_WAWALAGO_000_62","うむ……それで、どうなのぢや？
+禁漁を解除するのか、しないのか、はっきりせい！"
+89,"TEXT_CLSFSH501_01118_EYNZAHRSLAFYRSYN_000_63","そうだなぁ……。"
+90,"TEXT_CLSFSH501_01118_EYNZAHRSLAFYRSYN_000_64","禁漁の解除を……。"
+91,"TEXT_CLSFSH501_01118_SISIPU_000_65","禁漁の解除を？"
+92,"TEXT_CLSFSH501_01118_EYNZAHRSLAFYRSYN_000_66","認めようじゃないか。
+手続きもあるが……まぁ明日までには布告させるぜ。"
+93,"TEXT_CLSFSH501_01118_SYBELL_000_67","あ、あれ？
+それだけでしょうか、閣下？"
+94,"TEXT_CLSFSH501_01118_EYNZAHRSLAFYRSYN_000_68","そうだが……どうかしたか？"
+95,"TEXT_CLSFSH501_01118_SYBELL_000_69","いえ、その……こんなものは証拠にならん、
+とか言われるかもしれないと思っていたもので。"
+96,"TEXT_CLSFSH501_01118_EYNZAHRSLAFYRSYN_000_70","そんなことはないぜ、オレたち黒渦団が探していたものを、
+代わりに見つけ出してくれたようなものだ。
+大いに証拠になったとも、冒険者さまさまだ。"
+97,"TEXT_CLSFSH501_01118_EYNZAHRSLAFYRSYN_000_71","「大海蛇」の出没の陰に、サハギン族の関与を疑った
+我ら黒渦団は、極秘に調査していたんだが……
+この一件、実は誤解ってやつだったのさ。"
+98,"TEXT_CLSFSH501_01118_EYNZAHRSLAFYRSYN_000_72","なんでも黒渦団の調べによれば、最初は
+単純に「でかい魚を見つけた」という話だったんだろ？
+お前さんたちのとこの、ギルド員が言うには。"
+99,"TEXT_CLSFSH501_01118_EYNZAHRSLAFYRSYN_000_73","噂ってのは、ホント怖いよなぁ。
+人の口に上るうちに、「大海蛇のようにでかい」になって、
+最後にゃ「大海蛇を見つけた」になったらしい。"
+100,"TEXT_CLSFSH501_01118_EYNZAHRSLAFYRSYN_000_74","まったく人騒がせなこったぜ。
+噂ってのはそういうもんだから、しょうがねぇけどよ。"
+101,"TEXT_CLSFSH501_01118_SISIPU_000_75","ええと……じゃあ何もしなくても、
+もしかして禁漁は解除されてたの？"
+102,"TEXT_CLSFSH501_01118_EYNZAHRSLAFYRSYN_000_76","いいや、一度出した布告を撤回するにゃ理由がいる。
+冒険者が釣った「<Sheet(Item,　4917,0)/>」がなかったら、
+こんなに早く禁漁は解除できなかったさ。"
+103,"TEXT_CLSFSH501_01118_SISIPU_000_77","そうなんだ……<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>には感謝しないとダメね。
+あ、そういえばひとつ、気になってることがあるのよ。
+どうして、噂が変化しちゃったのかしら？"
+104,"TEXT_CLSFSH501_01118_WAWALAGO_000_78","ううん……。
+もしかするとわしのせいかもしれんのぢや、それ。"
+105,"TEXT_CLSFSH501_01118_SISIPU_000_79","ど、どーゆーこと、親分？"
+106,"TEXT_CLSFSH501_01118_WAWALAGO_000_80","実はちょっと前、チュチュルンクンに、
+大きなお魚さんのことを知らないかって聞かれてのう。
+「大海蛇のようにでかいのがいる」と答えた気が……。"
+107,"TEXT_CLSFSH501_01118_EYNZAHRSLAFYRSYN_000_81","うぉっほん！
+ま、まぁ……今のは聞かなかったことにするぜ。
+とにもかくにも、協力ご苦労だった。"
+108,"TEXT_CLSFSH501_01118_EYNZAHRSLAFYRSYN_000_82","黒渦団を仕切る身として、感謝する。
+禁漁解除は、手続きが終わり次第ギルドに知らせよう。
+戻って連絡を待つといい。"
+109,"TEXT_CLSFSH501_01118_SISIPU_000_090","まったく……噂って怖いのね。
+噂ひとつで、危うく漁師ギルドが破産するところだったわ。"
+110,"TEXT_CLSFSH501_01118_SISIPU_000_091","でも、もう大丈夫ね。
+スラフィルシン大甲将も保証してくれたし、
+明日っからは元通りの毎日よ。"
+111,"TEXT_CLSFSH501_01118_SISIPU_000_092","それもこれも、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>のおかげね。
+閣下も言ってたけど、あなたの釣ったお魚さんが、
+決め手になったわけじゃない？"
+112,"TEXT_CLSFSH501_01118_SISIPU_000_093","漁師ギルドにあなたが入ってくれて、本当によかった。
+あなたに目をつけたン・ンムリカのお手柄よね。"
+113,"TEXT_CLSFSH501_01118_SISIPU_000_094","ちょっと前まで初心者だと思ったら、
+今では親分にも釣れなかったお魚さん、
+<Sheet(Item,　4917,0)/>を釣り上げちゃうんだもんね。"
+114,"TEXT_CLSFSH501_01118_SISIPU_000_095","もう、名実ともにギルドいちの漁師はあなたね。
+でも親分はまだまだ若いつもりだから、
+きっと悔しがるなぁ……負けず嫌いだから、あれでもね。"
+115,"TEXT_CLSFSH501_01118_SISIPU_000_096","あなたと親分の二人で、
+ずーっとずーっと頑張って競い合って、
+漁師ギルドを盛り上げていってほしいな。"
+116,"TEXT_CLSFSH501_01118_SISIPU_000_097","そうすれば、みんなももっと盛り上がるに違いないの。
+一番であるあなたの背中を、追いかけてね。"
+117,"TEXT_CLSFSH501_01118_SYSTEM_000_500","「漁師」の物語が、ひとつの区切りを迎えました！
+次の「漁師」のクラスクエストを開始するためには、
+以下の条件を満たす必要があります。"
+118,"TEXT_CLSFSH501_01118_SYSTEM_000_501","1.「メインクエスト：第七星暦ストーリー」の、
+　「希望の灯火」を完了する。"
+119,"TEXT_CLSFSH501_01118_SYSTEM_000_502","条件を満たし、漁師ギルドの、
+「シシプ」に話しかけ、
+新たなクラスクエストを開始しましょう！"

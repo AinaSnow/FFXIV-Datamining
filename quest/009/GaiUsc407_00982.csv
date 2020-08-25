@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSC407_00982_SEQ_00","Wedge is gravely concerned for his missing companion."
-1,"TEXT_GAIUSC407_00982_SEQ_01","Wedge has implored you to search for Biggs, who is still alone in the cold with the enemy on his trail. Perhaps one of the Ishgardians stationed at Monument Tower has seen something. Begin by asking Abelie."
-2,"TEXT_GAIUSC407_00982_SEQ_02","While Abelie has not seen Biggs, she suggests that he might have taken refuge within the Fury's Gaze, south of Monument Tower. For want of a better lead, make your way there and investigate."
-3,"TEXT_GAIUSC407_00982_SEQ_03","Your search of the Fury's Gaze yields nothing but a confrontation with vengeful ghosts. Report back to Wedge, who awaits you in Monument Tower."
-4,"TEXT_GAIUSC407_00982_SEQ_04","Wedge sinks in disappointment upon hearing your report, but the Lalafell is no less determined to find his companion."
+0,"TEXT_GAIUSC407_00982_SEQ_00","ウェッジは冒険者に、人探しをお願いしたいようだ。"
+1,"TEXT_GAIUSC407_00982_SEQ_01","ウェッジは、はぐれた相棒ビッグスを探している。秘石の塔の「アベリ」なら何か知っているかもしれない。話を聞いてみよう。"
+2,"TEXT_GAIUSC407_00982_SEQ_02","アベリは彼の居場所を知らなかったが、身を隠せそうな洞窟の情報を教えてくれた。「ハルオーネの射目」の<Sheet(EObj,2002265,0)/>を調べてみよう。"
+3,"TEXT_GAIUSC407_00982_SEQ_03","残念ながらハルオーネの射目にビッグスはいなかった。秘石の塔に戻り「ウェッジ」に報告しよう。"
+4,"TEXT_GAIUSC407_00982_SEQ_04","ビッグスがいなかったことを知ったウェッジは、落ちこんでしまったようだ。いったい、ビッグスはどこに行ってしまったのだろうか……。"
 5,"TEXT_GAIUSC407_00982_SEQ_05",""
 6,"TEXT_GAIUSC407_00982_SEQ_06",""
 7,"TEXT_GAIUSC407_00982_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_GAIUSC407_00982_SEQ_21",""
 22,"TEXT_GAIUSC407_00982_SEQ_22",""
 23,"TEXT_GAIUSC407_00982_SEQ_23",""
-24,"TEXT_GAIUSC407_00982_TODO_00","Speak with Abelie."
-25,"TEXT_GAIUSC407_00982_TODO_01","Go to the Fury's Gaze and investigate."
-26,"TEXT_GAIUSC407_00982_TODO_02","Report to Wedge."
+24,"TEXT_GAIUSC407_00982_TODO_00","アベリと話す"
+25,"TEXT_GAIUSC407_00982_TODO_01","<Sheet(EObj,2002265,0)/>を調べる"
+26,"TEXT_GAIUSC407_00982_TODO_02","ウェッジに報告"
 27,"TEXT_GAIUSC407_00982_TODO_03",""
 28,"TEXT_GAIUSC407_00982_TODO_04",""
 29,"TEXT_GAIUSC407_00982_TODO_05",""
@@ -49,13 +49,27 @@ int32,str,str
 45,"TEXT_GAIUSC407_00982_TODO_21",""
 46,"TEXT_GAIUSC407_00982_TODO_22",""
 47,"TEXT_GAIUSC407_00982_TODO_23",""
-48,"TEXT_GAIUSC407_00982_WEDGE_000_000","I'm fine now, thanks to you, but I can't bear to think that Biggs is still all alone in the cold, with Garleans on his heels."
-49,"TEXT_GAIUSC407_00982_WEDGE_000_001","He lured the enemy away for my sake, and now he's suffering for it. I hate to have to rely on you again, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, but do you think you could search for Biggs?"
-50,"TEXT_GAIUSC407_00982_WEDGE_000_002","I haven't the slightest notion where he might be at the moment, but maybe─just maybe─the people here have seen something."
-51,"TEXT_GAIUSC407_00982_ABELIE_000_010","A Roegadyn gentleman dressed in the same manner as your companion? I'm sorry, but he did not come by here. Hmmm, let me think a moment..."
-52,"TEXT_GAIUSC407_00982_ABELIE_000_011","I would not raise your hopes unduly, but there is a cave situated a short distance to the south. We call it the Fury's Gaze, and it may be worth the while to investigate."
-53,"TEXT_GAIUSC407_00982_ABELIE_000_012","I make this suggestion only because your friend seems like a selfless sort. Rather than drawing the enemy to this tower, mayhap he elected to pass us by."
-54,"TEXT_GAIUSC407_00982_DUMMY_000_020","//: Examine spot at the Fury's Gaze, ghosts pop."
-55,"TEXT_GAIUSC407_00982_WEDGE_000_030","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! Were you able to learn anything!?"
-56,"TEXT_GAIUSC407_00982_WEDGE_000_031","...Not in this area? Well, that stands to reason, I suppose, seeing as he was trying to lure the Garleans <Emphasis>away</Emphasis> from me. But where within this vast sea of snow and ice could he be?"
-57,"TEXT_GAIUSC407_00982_POP_MESSAGE_000","You feel a chill run down your spine!"
+48,"TEXT_GAIUSC407_00982_WEDGE_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>、お願いがあるッス！
+ビッグスを助けてほしいッス！
+……きっと、あいつは今もひとりで逃走中ッス……。"
+49,"TEXT_GAIUSC407_00982_WEDGE_000_001","あいつは、帝国の飛空艇から脱出するときに、
+オイラを助けるために、帝国兵の注意を引いて
+別方向へ逃げていったッス……。"
+50,"TEXT_GAIUSC407_00982_WEDGE_000_002","でも、バラバラに逃げることになったから、
+どこに行ったのかまではわからないッス……。
+……そこのアベリさんなら、何か見てないッス？"
+51,"TEXT_GAIUSC407_00982_ABELIE_000_010","……そちらのお連れの方ですか？
+残念ですが、見ておりませんわ。"
+52,"TEXT_GAIUSC407_00982_ABELIE_000_011","そうね……この「秘石の塔」の近くに、
+「ハルオーネの射目」という洞窟があります。"
+53,"TEXT_GAIUSC407_00982_ABELIE_000_012","あそこなら、身を隠すことができるかもしれません。
+もし、こちらの方に逃げているとするならですけど……。
+物は試し、行ってみてはいかがかしら？"
+54,"TEXT_GAIUSC407_00982_DUMMY_000_020","（ハルオーネの射目の指定地点にアクセス、
+　ゴーストが３体ＰＯＰ）"
+55,"TEXT_GAIUSC407_00982_WEDGE_000_030","ど、どうだったッス！？
+ビッグスは見つかったッス！？"
+56,"TEXT_GAIUSC407_00982_WEDGE_000_031","……ダメだったッス……？
+きっと、こっちの方には逃げてきてないッス……。
+……ビッグス、いったいどこに行ったッス……。"
+57,"TEXT_GAIUSC407_00982_POP_MESSAGE_000","敵の気配を感じた！！"

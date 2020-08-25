@@ -1,10 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANQIQ111_03816_SEQ_00","Qhoterl Pasol wants to bring a touch of style to some otherwise drab textiles.
+0,"TEXT_BANQIQ111_03816_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト受注クラス・ジョブ制限<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+※本クエストは受注時のクラスでのみ進行します。
 
-※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
-1,"TEXT_BANQIQ111_03816_SEQ_01","Deliver the requested items to Qhoterl Pasol."
+ホパル古盤のコテルリ・パソリは、伝統織物に使う染料の素材がほしいようだ。"
+1,"TEXT_BANQIQ111_03816_SEQ_01","コテルリ・パソリに依頼された品を納品"
 2,"TEXT_BANQIQ111_03816_SEQ_02",""
 3,"TEXT_BANQIQ111_03816_SEQ_03",""
 4,"TEXT_BANQIQ111_03816_SEQ_04",""
@@ -27,7 +28,7 @@ int32,str,str
 21,"TEXT_BANQIQ111_03816_SEQ_21",""
 22,"TEXT_BANQIQ111_03816_SEQ_22",""
 23,"TEXT_BANQIQ111_03816_SEQ_23",""
-24,"TEXT_BANQIQ111_03816_TODO_00","<If(Equal(IntegerParameter(4),16))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Mine splendid purple pigment in the Blind Forest of Yx'Maja<Else/>Deliver the splendid purple pigment to Qhoterl Pasol</If><Else/><If(Equal(IntegerParameter(4),17))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Gather splendid turmeric in the Blind Forest of Yx'Maja<Else/>Deliver the splendid turmeric to Qhoterl Pasol</If><Else/><If(Equal(IntegerParameter(4),18))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Catch a splendid spiralshell in south Mjrl's Regret<Else/>Deliver the splendid spiralshell to Qhoterl Pasol</If><Else/></If></If></If>."
+24,"TEXT_BANQIQ111_03816_TODO_00","<If(Equal(IntegerParameter(4),16))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>イキス・マヤエの森の採掘場で<Sheet(Item,IntegerParameter(5),0)/>を採掘<Else/>コテルリ・パソリに<Sheet(Item,IntegerParameter(5),0)/>を納品</If><Else/><If(Equal(IntegerParameter(4),17))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>イキス・マヤエの森の草刈場で<Sheet(Item,IntegerParameter(5),0)/>を草刈<Else/>コテルリ・パソリに<Sheet(Item,IntegerParameter(5),0)/>を納品</If><Else/><If(Equal(IntegerParameter(4),18))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>ミュリルの郷愁南で<Sheet(Item,IntegerParameter(5),0)/>を釣る<Else/>コテルリ・パソリに<Sheet(Item,IntegerParameter(5),0)/>を納品</If><Else/></If></If></If>"
 25,"TEXT_BANQIQ111_03816_TODO_01",""
 26,"TEXT_BANQIQ111_03816_TODO_02",""
 27,"TEXT_BANQIQ111_03816_TODO_03",""
@@ -51,16 +52,38 @@ int32,str,str
 45,"TEXT_BANQIQ111_03816_TODO_21",""
 46,"TEXT_BANQIQ111_03816_TODO_22",""
 47,"TEXT_BANQIQ111_03816_TODO_23",""
-48,"TEXT_BANQIQ111_03816_QHOTERLPASOL_000_000","We Qitari are experts at weaving clothes, bags, and so on, which we decorate in the traditional manner using various colors."
-49,"TEXT_BANQIQ111_03816_QHOTERLPASOL_000_001","But with so many of us preoccupied with excavating the caves, we've had little time to gather the raw ingredients for producing the dyes we need."
-50,"TEXT_BANQIQ111_03816_QHOTERLPASOL_000_010","Were an altruistic volunteer to bring me a small quantity of purple pigment, I think a reward of some sort would be in order."
-51,"TEXT_BANQIQ111_03816_QHOTERLPASOL_000_020","Were an altruistic volunteer to bring me a small quantity of turmeric, I think a reward of some sort would be in order."
-52,"TEXT_BANQIQ111_03816_QHOTERLPASOL_000_030","Were an altruistic volunteer to bring me a spiralshell, I think a reward of some sort would be in order. And were said volunteer to use fruit worms as bait, I'm sure they'd snag one in a jiffy!"
-53,"TEXT_BANQIQ111_03816_QHOTERLPASOL_000_040","The Blind Forest of Yx'Maja would be an excellent place to begin your search, but watch out for beasties, especially those tarichuks. Oh, I can't stand them!"
-54,"TEXT_BANQIQ111_03816_QHOTERLPASOL_000_050","The Blind Forest of Yx'Maja would be an excellent place to begin your search, but watch out for beasties, especially those tarichuks. Oh, I can't stand them!"
-55,"TEXT_BANQIQ111_03816_QHOTERLPASOL_000_060","The southern part of Mjrl's Regret is where you're most likely to find one, but don't let those caracals catch you by surprise!"
-56,"TEXT_BANQIQ111_03816_QHOTERLPASOL_000_070","Do you have something for me, by any chance? I'm <Emphasis>dye</Emphasis>-ing to see it! <snort>"
-57,"TEXT_BANQIQ111_03816_QHOTERLPASOL_000_080","A superlative effort, indeed!"
-58,"TEXT_BANQIQ111_03816_QHOTERLPASOL_000_081","With this, we'll be able to bring a touch of Ronkan elegance to our textiles. The patterns with which we adorn ourselves come from their ancient culture, you see."
-59,"TEXT_BANQIQ111_03816_QHOTERLPASOL_000_082","Those that feature a pair of straight, parallel lines represent harmony, whereas spirals are a symbol of the never-ending cycle of nature, for example."
-60,"TEXT_BANQIQ111_03816_QHOTERLPASOL_000_083","Perhaps you would consider wearing some of our traditional garments yourself? I think you'd look rather fetching in one of our hats!"
+48,"TEXT_BANQIQ111_03816_QHOTERLPASOL_000_000","わたくしどもの伝統織物、キタリ織りはご存知でしょか～？
+これは、森の天然素材を使った染料で鮮やかに染めた織物で、
+出土した遺物を持ち運ぶのに重宝しておりまする～。"
+49,"TEXT_BANQIQ111_03816_QHOTERLPASOL_000_001","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>殿には、このキタリ織りに使用する、
+染料の素材を、調達していただけないでしょか～？"
+50,"TEXT_BANQIQ111_03816_QHOTERLPASOL_000_010","染料の素材となるのは、イキス・マヤエの森で採れる、
+「<Sheet(Item,29525,0)/>」でございまする～。
+それを3つ、調達してくださいましな～。"
+51,"TEXT_BANQIQ111_03816_QHOTERLPASOL_000_020","染料の素材となるのは、イキス・マヤエの森で採れる、
+「<Sheet(Item,29551,0)/>」でございまする～。
+それを3つ、調達してくださいましな～。"
+52,"TEXT_BANQIQ111_03816_QHOTERLPASOL_000_030","染料の素材となるのは、ミュリルの郷愁南に生息する、
+「<Sheet(Item,29577,0)/>」でございまする～。
+<Sheet(Item,27582,0)/>を餌にすれば、釣れましょ～。"
+53,"TEXT_BANQIQ111_03816_QHOTERLPASOL_000_040","染料の素材として、イキス・マヤエの森で採れる、
+「<Sheet(Item,29525,0)/>」を3つ、
+調達してくださいましな～。"
+54,"TEXT_BANQIQ111_03816_QHOTERLPASOL_000_050","染料の素材として、イキス・マヤエの森で採れる、
+「<Sheet(Item,29551,0)/>」を3つ、
+調達してくださいましな～。"
+55,"TEXT_BANQIQ111_03816_QHOTERLPASOL_000_060","染料の素材として、ミュリルの郷愁南に生息する、
+「<Sheet(Item,29577,0)/>」を、
+<Sheet(Item,27582,0)/>を餌に、釣ってきてくださいましな～。"
+56,"TEXT_BANQIQ111_03816_QHOTERLPASOL_000_070","おつかれさまでございまする～。
+キタリ織りに使う染料の素材は、集まりましたでしょか～？"
+57,"TEXT_BANQIQ111_03816_QHOTERLPASOL_000_080","助かりまする～。
+これならば、用途に応じた幾何学模様を描くのに必要な、
+キタリ織り用の染料が作れることでしょ～！"
+58,"TEXT_BANQIQ111_03816_QHOTERLPASOL_000_081","ところで、キタリ族は口伝にて、
+キタリ織りの図案となる、ロンカの幾何学模様と、
+その模様の意味を受け継いでおりまする～。"
+59,"TEXT_BANQIQ111_03816_QHOTERLPASOL_000_082","たとえば、二本の線が交わる図案は協力や交流を、
+渦巻の図案は永遠や強い力を、意味するのでございまする～。"
+60,"TEXT_BANQIQ111_03816_QHOTERLPASOL_000_083","渦巻が示すように末永く、交差が示すように交流を、
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>殿にはお願いいたしましょ～！"

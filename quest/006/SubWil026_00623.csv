@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBWIL026_00623_SEQ_00","Momodi of the Quicksand has word of work for a willing adventurer."
-1,"TEXT_SUBWIL026_00623_SEQ_01","Momodi informs you that Dadanen, a merchant who deals in precious stones, is seeking the aid of an able adventurer. Travel to the settlement of Horizon in western Thanalan and see what work he offers."
-2,"TEXT_SUBWIL026_00623_SEQ_02","Dadanen tells you that Horizon's role as a center for trade means there is always work to be found. Look around the settlement and see what it has to offer."
+0,"TEXT_SUBWIL026_00623_SEQ_00","クイックサンドのモモディは、冒険者に新たな冒険の依頼をしたいようだ。"
+1,"TEXT_SUBWIL026_00623_SEQ_01","モモディ曰く、宝石商「ダダネン」が冒険者を探しているらしい。西ザナラーンの集落「ホライズン」に向かい「ダダネン」から仕事をもらおう。"
+2,"TEXT_SUBWIL026_00623_SEQ_02","ダダネンによれば「ホライズン」は交易の要所であるため、冒険者向きの仕事が沢山あるのだという。ホライズンを見てまわり、仕事を探してみよう。"
 3,"TEXT_SUBWIL026_00623_SEQ_03",""
 4,"TEXT_SUBWIL026_00623_SEQ_04",""
 5,"TEXT_SUBWIL026_00623_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_SUBWIL026_00623_SEQ_21",""
 22,"TEXT_SUBWIL026_00623_SEQ_22",""
 23,"TEXT_SUBWIL026_00623_SEQ_23",""
-24,"TEXT_SUBWIL026_00623_TODO_00","Speak with Dadanen at Horizon."
+24,"TEXT_SUBWIL026_00623_TODO_00","ホライズンのダダネンと話す"
 25,"TEXT_SUBWIL026_00623_TODO_01",""
 26,"TEXT_SUBWIL026_00623_TODO_02",""
 27,"TEXT_SUBWIL026_00623_TODO_03",""
@@ -49,16 +49,38 @@ int32,str,str
 45,"TEXT_SUBWIL026_00623_TODO_21",""
 46,"TEXT_SUBWIL026_00623_TODO_22",""
 47,"TEXT_SUBWIL026_00623_TODO_23",""
-48,"TEXT_SUBWIL026_00623_MOMODI_000_1","Look what the coeurl dragged in. Good to see you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I'd ask what brings you, but I reckon we both know the answer to that already."
-49,"TEXT_SUBWIL026_00623_MOMODI_000_2","Well, have I ever let you down before? Wait, don't answer that... "
-50,"TEXT_SUBWIL026_00623_MOMODI_000_3","So happens I know a fella by the name of Dadanen who needs a hand. He's a merchant by trade, sellin' precious stones to those in Ul'dah with the means to buy them."
-51,"TEXT_SUBWIL026_00623_MOMODI_000_4","He's asked that I send any lookin' for work his way. You can find him over in Horizon, if you fancy."
-52,"TEXT_SUBWIL026_00623_MOMODI_000_5","That's in western Thanalan, mind you. Just cross the bridge north of Scorpion Crossing and the road will take you there."
-53,"TEXT_SUBWIL026_00623_MOMODI_100_5","Knowin' the circles he deals in, might be he'll have some talk of the royal family that'll interest you, as well."
-54,"TEXT_SUBWIL026_00623_MOMODI_000_6","And why not make use of a chocobo porter for the journey to Horizon? If you've the gil for it, that is."
-55,"TEXT_SUBWIL026_00623_MOMODI_000_7","You'll find the chocobo stables just across the way from my Quicksand. Find Mimigun─he'll set you straight."
-56,"TEXT_SUBWIL026_00623_MOMODI_000_8","Well, off you go, then. I haven't got all day to be holdin' your bloody hand!"
-57,"TEXT_SUBWIL026_00623_DADANEN_000_10","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, I presume? Aye, Momodi said to expect you, and so I have."
-58,"TEXT_SUBWIL026_00623_DADANEN_000_11","Welcome to Horizon. Ours is a trading settlement that sees goods in from the port of Vesper Bay to the west─and trade we do. Nary a day goes by that Horizon isn't bustling with some manner of merchants and officials."
-59,"TEXT_SUBWIL026_00623_DADANEN_000_12","They keep us running about busy, they do. Enough so that I wish I had chocobo legs in place of my own. And that's why I've asked Momodi to send me any souls looking for work."
-60,"TEXT_SUBWIL026_00623_DADANEN_000_13","Twelve know there is plenty of it to be done around here. Speak to me again when you are ready to make yourself of some use."
+48,"TEXT_SUBWIL026_00623_MOMODI_000_1","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>さん、元気かしら？
+わたしに話しかけたってことは、
+きっと新たな冒険を求めているってことよね？"
+49,"TEXT_SUBWIL026_00623_MOMODI_000_2","ふふふ、そうこなくっちゃ。
+ちょうどあなたにピッタリな仕事があるの。"
+50,"TEXT_SUBWIL026_00623_MOMODI_000_3","依頼人は、ダダネンさんっていう方よ。
+主にウルダハの貴族や富豪たちに、
+高価な装飾品を卸している宝石商なの。"
+51,"TEXT_SUBWIL026_00623_MOMODI_000_4","彼は今「ホライズン」という集落にいて、
+どうやら冒険者を探しているらしいの。
+行って、彼の力になってあげて。"
+52,"TEXT_SUBWIL026_00623_MOMODI_000_5","ホライズンは、西ザナラーンにあるわ。
+「スコーピオン交易所」の北、橋を渡った街道の先よ。"
+53,"TEXT_SUBWIL026_00623_MOMODI_100_5","……もしかして、ダダネンさんなら、
+王家の王冠の話も知っているかしら……。
+……あら、なんでもないわ、こっちの話よ。"
+54,"TEXT_SUBWIL026_00623_MOMODI_000_6","あ、そうそう、もし財布に余裕があるなら、
+ホライズンまでの旅に「チョコボポーター」を
+利用してみるっていうのはどう？"
+55,"TEXT_SUBWIL026_00623_MOMODI_000_7","クイックサンドのすぐ前にチョコボ留があるから、
+そこにいるチョコボ屋「ミミグン」さんに話を聞いてみて。"
+56,"TEXT_SUBWIL026_00623_MOMODI_000_8","じゃあ、新たな冒険の旅に、
+いってらっしゃい！"
+57,"TEXT_SUBWIL026_00623_DADANEN_000_10","お前が冒険者の<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>だな。
+モモディから話は聞いてるぜ。
+よく来てくれたな、待ってたぜ！"
+58,"TEXT_SUBWIL026_00623_DADANEN_000_11","この「ホライズン」は、
+西の港町ベスパーベイから物資が集まる交易の要所。
+商人や役人たちで、いつも大賑わいさ！"
+59,"TEXT_SUBWIL026_00623_DADANEN_000_12","お陰でいつも忙しくてな。
+チョコボの脚だって借りたいくらいだ。
+さっそく手伝ってもらおうか！"
+60,"TEXT_SUBWIL026_00623_DADANEN_000_13","冒険者の仕事もわんさかあるぜ。
+お前も上手くやってガッポリ稼ぎな！
+準備ができたら声をかけてくれ。"

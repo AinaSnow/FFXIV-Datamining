@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ623_02801_SEQ_00","Bujeg is busy preparing to make an offering."
+0,"TEXT_STMBDZ623_02801_SEQ_00","モル・イローのブジェグは、儀礼の準備に取りかかりたいようだ。"
 1,"TEXT_STMBDZ623_02801_SEQ_01",""
 2,"TEXT_STMBDZ623_02801_SEQ_02",""
 3,"TEXT_STMBDZ623_02801_SEQ_03",""
@@ -25,10 +25,11 @@ int32,str,str
 21,"TEXT_STMBDZ623_02801_SEQ_21",""
 22,"TEXT_STMBDZ623_02801_SEQ_22",""
 23,"TEXT_STMBDZ623_02801_SEQ_23",""
-24,"TEXT_STMBDZ623_02801_TODO_00","Obtain holy water at the designated location."
-25,"TEXT_STMBDZ623_02801_TODO_01","Obtain the offering of food from Masgud."
-26,"TEXT_STMBDZ623_02801_TODO_02","Deliver the Mol sword, vial of holy water, and offering of food to the Chakha Zoh guard."
-27,"TEXT_STMBDZ623_02801_TODO_03","Report to Bujeg."
+24,"TEXT_STMBDZ623_02801_TODO_00","指定地点で<Sheet(EventItem,2002119,0)/>を入手"
+25,"TEXT_STMBDZ623_02801_TODO_01","マスグッドから<Sheet(EventItem,2002118,0)/>を入手"
+26,"TEXT_STMBDZ623_02801_TODO_02","チャカ・ゾーの守人に<Sheet(EventItem,2002117,0)/>、
+<Sheet(EventItem,2002119,0)/>、<Sheet(EventItem,2002118,0)/>を渡す"
+27,"TEXT_STMBDZ623_02801_TODO_03","ブジェグに報告"
 28,"TEXT_STMBDZ623_02801_TODO_04",""
 29,"TEXT_STMBDZ623_02801_TODO_05",""
 30,"TEXT_STMBDZ623_02801_TODO_06",""
@@ -49,18 +50,43 @@ int32,str,str
 45,"TEXT_STMBDZ623_02801_TODO_21",""
 46,"TEXT_STMBDZ623_02801_TODO_22",""
 47,"TEXT_STMBDZ623_02801_TODO_23",""
-48,"TEXT_STMBDZ623_02801_BUJEG_000_000","Good <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>evening<Else/>morning</If><Else/><If(LessThan(PlayerParameter(11),17))>afternoon<Else/>evening</If></If>, khagan. Should you have the time, there is something I would ask of you."
-49,"TEXT_STMBDZ623_02801_BUJEG_000_001","Tradition dictates that the tribe which triumphs in the Naadam makes an offering at the westerly altar. This is done by the individual who contributed most greatly to their tribe's victory."
-50,"TEXT_STMBDZ623_02801_BUJEG_000_002","You are no Mol, but we could not have succeeded without you. I would like you to collect our three offerings and deliver them to the guard in front of Chakha Zoh."
-51,"TEXT_STMBDZ623_02801_BUJEG_000_003","Here is the first of our offerings, a sword crafted specially for the occasion. Next you will need to collect holy water from Azim Khaat, the lake below the Dawn Throne."
-52,"TEXT_STMBDZ623_02801_BUJEG_000_005","Speak to Masgud in Reunion and he will give you the final offering. Thank you for your continued support, khagan."
-53,"TEXT_STMBDZ623_02801_BUJEG_000_006",""
-54,"TEXT_STMBDZ623_02801_BUJEG_000_007","Once you have all of the offerings please deliver them to the guard in front of Chakha Zoh."
-55,"TEXT_STMBDZ623_02801_BUJEG_000_008","Collect the holy water from Azim Khaat, the lake below the Dawn Throne. I have asked Masgud in Reunion to prepare our offering of food. Thank you for your continued support, khagan."
-56,"TEXT_STMBDZ623_02801_MASGUD_000_010","Ah, have you come for Bujeg's order? It is rather hefty so do be careful when carrying it."
-57,"TEXT_STMBDZ623_02801_MONK02801_000_020","Do you have the offerings?"
-58,"TEXT_STMBDZ623_02801_MONK02801_000_021","Yes, everything seems to be in order. Tell me, are you familiar with the meaning behind what you have brought here?"
-59,"TEXT_STMBDZ623_02801_MONK02801_000_023","These items represent our united wish that we shall be blessed with peace until the next Tsagaan Sar, and that those who lost their lives during the Naadam are able to rest well."
-60,"TEXT_STMBDZ623_02801_MONK02801_000_022","Thank you for making the offering. I wish you well on your future travels. Please tell Bujeg that you have done what was asked of you."
-61,"TEXT_STMBDZ623_02801_BUJEG_000_030","Thank you, khagan. This year's Naadam has at last come to a close."
-62,"TEXT_STMBDZ623_02801_BUJEG_000_031","Now we are free to return to our regular lives. May the gods continue to smile upon you."
+48,"TEXT_STMBDZ623_02801_BUJEG_000_000","モル族を勝利へと導いた英雄よ。
+お前に、ぜひやってもらいたいことがあるのだ。"
+49,"TEXT_STMBDZ623_02801_BUJEG_000_001","合戦に勝利した部族は、西の祠へ供物を奉納するしきたりなのだが、
+それは、一番の功労者が行なうようにと決まっていてな。
+満場一致で、お前が選ばれたゆえ、よろしく頼む。"
+50,"TEXT_STMBDZ623_02801_BUJEG_000_002","奉納するのは、「<Sheet(EventItem,2002117,0)/>」、
+そして「<Sheet(EventItem,2002119,0)/>」と「<Sheet(EventItem,2002118,0)/>」の3つだ。
+これらを揃え、祠にいる「チャカ・ゾーの守人」へ渡してくれ。"
+51,"TEXT_STMBDZ623_02801_BUJEG_000_003","まずは「<Sheet(EventItem,2002117,0)/>」をお前に渡そう。
+「<Sheet(EventItem,2002119,0)/>」は、明けの玉座の下にある湖、
+アジム・カートから汲むといい。"
+52,"TEXT_STMBDZ623_02801_BUJEG_000_005","「<Sheet(EventItem,2002118,0)/>」の手配は、再会の市の「マスグッド」に頼んだ。
+英雄よ、手間をかけるが、奉納をよろしくお願いする。"
+53,"TEXT_STMBDZ623_02801_BUJEG_000_006","（★未使用／削除予定★）"
+54,"TEXT_STMBDZ623_02801_BUJEG_000_007","祠の「チャカ・ゾーの守人」へ奉納すべき物は、
+「<Sheet(EventItem,2002117,0)/>」と、「<Sheet(EventItem,2002119,0)/>」、
+「<Sheet(EventItem,2002118,0)/>」の3つだ。"
+55,"TEXT_STMBDZ623_02801_BUJEG_000_008","明けの玉座の下にある湖から「<Sheet(EventItem,2002119,0)/>」が、
+再会の市の「マスグッド」から「<Sheet(EventItem,2002118,0)/>」が手に入る。
+手間をかけるが、よろしく頼んだぞ。"
+56,"TEXT_STMBDZ623_02801_MASGUD_000_010","ブジェグさんからのお使いかい？
+「<Sheet(EventItem,2002118,0)/>」なら用意できてるよ。
+量が多くて重たいから、気をつけてな。"
+57,"TEXT_STMBDZ623_02801_MONK02801_000_020","待っておりましたぞ。
+「<Sheet(EventItem,2002117,0)/>」と「<Sheet(EventItem,2002119,0)/>」、
+「<Sheet(EventItem,2002118,0)/>」は、用意できましたかな？"
+58,"TEXT_STMBDZ623_02801_MONK02801_000_021","確かに、受け取りました……。
+そういえば、あなたは異国から来たそうですが、
+功労者が供物を奉納することの意味はご存知ですか？"
+59,"TEXT_STMBDZ623_02801_MONK02801_000_023","この儀礼は、剣を置き、次の季節までの安寧を祈りつつ、
+合戦で失われた命に安らぎあれと、供養するものなのです。
+どうかあなたも、祈りを捧げてあげてください……。"
+60,"TEXT_STMBDZ623_02801_MONK02801_000_022","その祈りに感謝を……そして、あなたの旅路に祝福を……。
+これで儀礼は無事に終わりました。
+モル・イローの「ブジェグ」へ、そのことを伝えてあげてください。"
+61,"TEXT_STMBDZ623_02801_BUJEG_000_030","そうか、儀礼を終えてくれたか。
+お前のおかげで、合戦は本当の意味で終わりを告げた。"
+62,"TEXT_STMBDZ623_02801_BUJEG_000_031","礼を言うぞ、我ら、モル族の英雄よ。
+これで我らも悔いなく、新しい季節へと歩みだすことができる。
+お前の旅路に、よき風が吹くよう祈っているぞ。"

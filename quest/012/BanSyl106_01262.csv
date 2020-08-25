@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANSYL106_01262_SEQ_00","Tonaxia suspects that the touched ones are once again up to no good."
-1,"TEXT_BANSYL106_01262_SEQ_01","Tonaxia has spotted sylphs performing a sinister ritual, and fears for the consequences if they are allowed to continue. Seek out the mysterious sylph in Larkscall and learn how you might put a stop to their foul sorcery."
-2,"TEXT_BANSYL106_01262_SEQ_02","The mysterious sylph works her magic to render you transparent. Seek out the area where the ritual is being performed and steal the evil sylphs' artifacts.
+0,"TEXT_BANSYL106_01262_SEQ_00","シルフの仮宿のトナクシアは、悪い子シルフの所業に腹を立てているようだ。"
+1,"TEXT_BANSYL106_01262_SEQ_01","トナクシアの依頼を受けた。ラークスコールにいる「神秘的なシルフ」と話そう。"
+2,"TEXT_BANSYL106_01262_SEQ_02","神秘的なシルフと話し「隠れ身のおまぢない」をかけてもらった。ラークスコールの「<Sheet(EObj,2003075,0)/>」を調べて、「<Sheet(EObj,2003075,0)/>」を入手しよう。
 
-※You must complete the task before the enchantment expires. The fragrant blooms you encounter on your path will extend the duration of the spell."
-3,"TEXT_BANSYL106_01262_SEQ_03","You have successfully stolen away with the touched sylphs' artifacts, preventing them from continuing with their foul hexcraft. Deliver the baubles to Tonaxia and inform her that the deed is done."
-4,"TEXT_BANSYL106_01262_SEQ_04","Upon receiving the ritual artifacts, Tonaxia expresses her relief that the touched ones' rituals will continue no more. Your efforts on behalf of Little Solace continue to earn you the trust of its denizens."
+※透明状態は、一定時間が過ぎると効果を失います。「<Sheet(EObj,2003079,0)/>」に触れることで、透明状態の効果時間を延長できます。"
+3,"TEXT_BANSYL106_01262_SEQ_03","<Sheet(EObj,2003075,0)/>を入手した。シルフの仮宿の「トナクシア」に「<Sheet(EObj,2003075,0)/>」を渡そう。"
+4,"TEXT_BANSYL106_01262_SEQ_04","トナクシアに<Sheet(EObj,2003075,0)/>を渡した。これでトナクシアの思惑通り、悪い子シルフの儀式を止めることができたようだ。トナクシアからこれからもよろしくと頼まれた。冒険者は信頼されてきたようだ。またの機会に協力しよう。"
 5,"TEXT_BANSYL106_01262_SEQ_05",""
 6,"TEXT_BANSYL106_01262_SEQ_06",""
 7,"TEXT_BANSYL106_01262_SEQ_07",""
@@ -27,9 +27,9 @@ int32,str,str
 21,"TEXT_BANSYL106_01262_SEQ_21",""
 22,"TEXT_BANSYL106_01262_SEQ_22",""
 23,"TEXT_BANSYL106_01262_SEQ_23",""
-24,"TEXT_BANSYL106_01262_TODO_00","Speak with the mysterious sylph in Larkscall."
-25,"TEXT_BANSYL106_01262_TODO_01","While transparent, retrieve the ritual artifacts."
-26,"TEXT_BANSYL106_01262_TODO_02","Deliver the ritual artifacts to Tonaxia."
+24,"TEXT_BANSYL106_01262_TODO_00","ラークスコールの神秘的なシルフと話す"
+25,"TEXT_BANSYL106_01262_TODO_01","透明状態で<Sheet(EObj,2003075,0)/>を入手"
+26,"TEXT_BANSYL106_01262_TODO_02","トナクシアに<Sheet(EObj,2003075,0)/>を渡す"
 27,"TEXT_BANSYL106_01262_TODO_03",""
 28,"TEXT_BANSYL106_01262_TODO_04",""
 29,"TEXT_BANSYL106_01262_TODO_05",""
@@ -51,21 +51,48 @@ int32,str,str
 45,"TEXT_BANSYL106_01262_TODO_21",""
 46,"TEXT_BANSYL106_01262_TODO_22",""
 47,"TEXT_BANSYL106_01262_TODO_23",""
-48,"TEXT_BANSYL106_01262_TONAXIA_000_000","This one is frightened! This one saw touched ones dancing strange dances and singing scary songs."
-49,"TEXT_BANSYL106_01262_TONAXIA_000_001",""
-50,"TEXT_BANSYL106_01262_TONAXIA_000_002","This one knows not what scary ones are up to, but knows it is no good. Walking one must stop those ones!"
-51,"TEXT_BANSYL106_01262_TONAXIA_000_003","These ones will help. Mysterious one knows mysterious magicks that will keep walking one safe. Walking one should talk to mysterious one."
-52,"TEXT_BANSYL106_01262_ZEXIA_000_010","Walking one will stop scary ones from working scary magicks, yes?"
-53,"TEXT_BANSYL106_01262_ZEXIA_000_011","Walking one must steal touched ones' scentpowders and sparklebeads."
-54,"TEXT_BANSYL106_01262_ZEXIA_000_012","This one will make walking one see-through one, keep walking one safe."
-55,"TEXT_BANSYL106_01262_TONAXIA_000_020","Walking one must steal scentpowders and sparklebeads from Larkscall, stop touched ones from working nasty magicks. Walking one should speak to mysterious one before setting off, become one that touched ones cannot see."
-56,"TEXT_BANSYL106_01262_DECRIPT_000_001","A sylphic incantation is about to render you transparent. Hurry and steal the touched sylphs' hex baubles before the magic is lifted."
-57,"TEXT_BANSYL106_01262_DECRIPT_000_002","The incantation will expire in thirty-five seconds. If you become visible, you will be unable to complete your task. Return to the mysterious sylph and have the spell cast anew."
-58,"TEXT_BANSYL106_01262_DECRIPT_000_003","The fragrant blooms you encounter on the way will extend the duration of the incantation. Seek them out if the spell's power begins to wane."
-59,"TEXT_BANSYL106_01262_ZEXIA_000_030","Sweet-smelling flowers make magic stronger. Walking one should remember!"
-60,"TEXT_BANSYL106_01262_RECOVER_000_001","A fragrant mist envelops you!"
-61,"TEXT_BANSYL106_01262_NOTRECOVER_000_001","It is not safe to perform this action while visible. Return to the mysterious sylph to have the incantation cast anew."
-62,"TEXT_BANSYL106_01262_GUARD_000_001","(-Wary Sylph-)Sneaky ones abound, but no one will get by this one!"
-63,"TEXT_BANSYL106_01262_GUARD_000_002","(-Wary Sylph-)Scentpowders and sparklebeads are...gone!? Uh-oh, this one is in trouble..."
-64,"TEXT_BANSYL106_01262_TONAXIA_000_040","Walking one returns! Did walking one steal scentpowders and sparklebeads from touched ones?"
-65,"TEXT_BANSYL106_01262_TONAXIA_000_041","No more magic for touched ones, tee hee! This one wishes one could see the look on touched ones' faces. Walking one is friend to these ones once more."
+48,"TEXT_BANSYL106_01262_TONAXIA_000_000","悪い子シルフがシルフ領の奥で、
+なにやら「ギシキ」の準備をしてるらしいのでふっち。"
+49,"TEXT_BANSYL106_01262_TONAXIA_000_001","(カット)"
+50,"TEXT_BANSYL106_01262_TONAXIA_000_002","きっと何か、よからぬことを企んでるでふっち……。
+だから「ギシキ」を邪魔してやるのでふっち。
+わたぴたちも協力するから、手伝ってほしいでふっち。"
+51,"TEXT_BANSYL106_01262_TONAXIA_000_003","わたぴのお友達の「神秘的なシルフ」が
+あんたに「隠れ身のおまぢない」をするから、
+そのままこっそり「<Sheet(EObj,2003075,0)/>」を取り上げるふっち。"
+52,"TEXT_BANSYL106_01262_ZEXIA_000_010","あんたがお手伝いの冒険者でふっち？
+さっそく「隠れ身のおまぢない」をかけるでふっち、
+そしたら「<Sheet(EObj,2003075,0)/>」を取ってくるふっち。"
+53,"TEXT_BANSYL106_01262_ZEXIA_000_011","場所は「ラークスコール」の奥でふっち。
+もし途中で「隠れ身のおまぢない」が切れそうになったら、
+「<Sheet(EObj,2003079,0)/>」を探すでふっち。"
+54,"TEXT_BANSYL106_01262_ZEXIA_000_012","花蜜の香りには、「隠れ身のおまぢない」を
+回復させるチカラがあるのでふっち。
+しっかりと覚えておくでふっち～。"
+55,"TEXT_BANSYL106_01262_TONAXIA_000_020","「<Sheet(EObj,2003075,0)/>」は「ラークスコール」にあるでふっち。
+行くときは「隠れ身のおまぢない」を忘れちゃダメだふっち。"
+56,"TEXT_BANSYL106_01262_DECRIPT_000_001","「隠れ身のおまぢない」により、透明状態になりました。
+悪い子シルフに見つからないよう、制限時間内に、
+ラークスコールの「<Sheet(EObj,2003075,0)/>」を入手しましょう。"
+57,"TEXT_BANSYL106_01262_DECRIPT_000_002","透明状態の効果時間は「35秒」です。
+時間切れになった場合は、目的を達成できなくなるため、
+もう一度「神秘的なシルフ」に話しかけ、再挑戦しましょう。"
+58,"TEXT_BANSYL106_01262_DECRIPT_000_003","透明状態の残り時間が少なくなってきたら、
+道中の「<Sheet(EObj,2003079,0)/>」に触れて、
+効果時間を回復しましょう。"
+59,"TEXT_BANSYL106_01262_ZEXIA_000_030","<Sheet(EObj,2003079,0)/>には、
+「隠れ身のおまぢない」を回復させるチカラがあるのでふっち。
+覚えておくでふっち～。"
+60,"TEXT_BANSYL106_01262_RECOVER_000_001","透明状態の効果時間が延長された！"
+61,"TEXT_BANSYL106_01262_NOTRECOVER_000_001","透明状態でなければ効果はありません。
+もう一度「神秘的なシルフ」に話しかけ、
+透明状態にしてもらいましょう。"
+62,"TEXT_BANSYL106_01262_GUARD_000_001","(-悪い子シルフ-)怪しいやつでふっち！
+これは渡さないでふっち！"
+63,"TEXT_BANSYL106_01262_GUARD_000_002","(-悪い子シルフ-)あわわ、なくなってるでふっち？
+ささ、探さないと怒られるでふっち！"
+64,"TEXT_BANSYL106_01262_TONAXIA_000_040","おかえりでふっち！
+「<Sheet(EObj,2003075,0)/>」は、もってこれたでふっち？"
+65,"TEXT_BANSYL106_01262_TONAXIA_000_041","これでふっち、ありがとでふっち！
+きっと「ギシキ」の邪魔ができたでふっち。
+これからも協力、よろしくお願いでふっち。"

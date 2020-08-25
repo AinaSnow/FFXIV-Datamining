@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBCTS811_01432_SEQ_00","Something weighs heavily on the adventurer's mind..."
-1,"TEXT_SUBCTS811_01432_SEQ_01","You have been asked to investigate the disappearance of a retainer gone afield on a so-called “venture.” Journey to Nine Ivies in the East Shroud, her last known location."
-2,"TEXT_SUBCTS811_01432_SEQ_02","You find and rescue the missing retainer from a grisly death at the hands of wild beasts, thus earning her gratitude. Rather than reward you herself, the retainer bids you return to Gridania and speak with her supervisor, Parnell, in the Shaded Bower."
-3,"TEXT_SUBCTS811_01432_SEQ_03","Recognizing that you are unfamiliar with the latest services provided by retainers, Parnell explains that ventures are procurement expeditions which you may ask your retainers to undertake. She then gifts you several ventures, a unique scrip used to pay for these services. Duly informed, you may now speak with your retainers and assign them these tasks at your leisure."
+0,"TEXT_SUBCTS811_01432_SEQ_00","グリダニアの困った様子の冒険者は、気がかりなことがあるようだ。"
+1,"TEXT_SUBCTS811_01432_SEQ_01","困った様子の冒険者から、彼のリテイナ－を探すように頼まれた。東部森林のナインアイビーで「新米のリテイナー」を探し、困っていたら救助しよう。"
+2,"TEXT_SUBCTS811_01432_SEQ_02","新米のリテイナーを救助した。彼女が手配してくれた謝礼を受け取るため、グリダニアでリテイナー雇用窓口をしている「パーネル」と話そう。"
+3,"TEXT_SUBCTS811_01432_SEQ_03","パーネルを介して、謝礼の「ベンチャースクリップ」を受け取った。この代替貨幣をリテイナーに支払うことで「リテイナーベンチャー」を依頼できるようだ。呼び鈴からリテイナーを呼び出し、「リテイナーベンチャー」を活用しよう。"
 4,"TEXT_SUBCTS811_01432_SEQ_04",""
 5,"TEXT_SUBCTS811_01432_SEQ_05",""
 6,"TEXT_SUBCTS811_01432_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_SUBCTS811_01432_SEQ_21",""
 22,"TEXT_SUBCTS811_01432_SEQ_22",""
 23,"TEXT_SUBCTS811_01432_SEQ_23",""
-24,"TEXT_SUBCTS811_01432_TODO_00","Search Nine Ivies for the missing retainer."
-25,"TEXT_SUBCTS811_01432_TODO_01","Speak with Parnell in Old Gridania."
+24,"TEXT_SUBCTS811_01432_TODO_00","ナインアイビーで新米のリテイナーを救助する"
+25,"TEXT_SUBCTS811_01432_TODO_01","グリダニアのリテイナー雇用窓口のパーネルと話す"
 26,"TEXT_SUBCTS811_01432_TODO_02",""
 27,"TEXT_SUBCTS811_01432_TODO_03",""
 28,"TEXT_SUBCTS811_01432_TODO_04",""
@@ -49,28 +49,66 @@ int32,str,str
 45,"TEXT_SUBCTS811_01432_TODO_21",""
 46,"TEXT_SUBCTS811_01432_TODO_22",""
 47,"TEXT_SUBCTS811_01432_TODO_23",""
-48,"TEXT_SUBCTS811_01432_SYSTEM_000_000","Several adventurers are having difficulty summoning their retainers. Should you wish to offer your assistance, you will find these troubled souls in Limsa Lominsa, Gridania, and Ul'dah."
-49,"TEXT_SUBCTS811_01432_SYSTEM_000_001","The rewards will be the same regardless of whom you help, so do not hesitate to aid the adventurer of your choice."
-50,"TEXT_SUBCTS811_01432_MASTER01432_000_009","She's never ignored a summons before..."
-51,"TEXT_SUBCTS811_01432_MASTER01432_000_010","Beg your pardon, <If(PlayerParameter(4))>madam<Else/>sir</If>, but would you be willing to aid a fellow adventurer?"
-52,"TEXT_SUBCTS811_01432_MASTER01432_000_011","It's about my retainer. She hasn't returned from her latest venture to Nine Ivies, and I fear something terrible may have happened."
-53,"TEXT_SUBCTS811_01432_MASTER01432_000_012","I would track her down myself if I could, but I've an important appointment I must needs keep. Mayhap you could go and search in my stead?"
-54,"TEXT_SUBCTS811_01432_MASTER01432_000_020","I dispatched my retainer to Nine Ivies not long ago. It was to be a routine venture, but she has yet to return..."
-55,"TEXT_SUBCTS811_01432_RETAINER01432_000_030","Twelve bless you, adventurer! So focused was I on my task that I took no notice of the buzzards at my back."
-56,"TEXT_SUBCTS811_01432_RETAINER01432_000_031","You seem confused. Have you heard naught of ventures? It is a service in which we retainers carry out procurement expeditions on behalf of our employers."
-57,"TEXT_SUBCTS811_01432_RETAINER01432_000_032","Alas, some are not wont to furnish us with sufficient equipment, despite the obvious benefits it would afford both parties─"
-58,"TEXT_SUBCTS811_01432_RETAINER01432_000_033","Ah! Has he been summoning me this entire time? Pray excuse me."
-59,"TEXT_SUBCTS811_01432_RETAINER01432_000_034","Forgive me, Master, I was waylaid by beasts. ...Yes, by <Switch(PlayerParameter(71))><Case(1)>a Hyuran</Case><Case(2)>an Elezen</Case><Case(3)>a Lalafellin</Case><Case(4)>a Miqo'te</Case><Case(5)>a Roegadyn</Case><Case(6)>an Auri</Case><Case(7)>a Hrothgar</Case><Case(8)>a Viera</Case></Switch> <Sheet(ClassJob,PlayerParameter(68),0)/>! How did you know? ...Of course, as you wish."
-60,"TEXT_SUBCTS811_01432_RETAINER01432_000_035","<sigh> It seems I must take my leave at once. But before I go, pray allow me to thank you."
-61,"TEXT_SUBCTS811_01432_RETAINER01432_000_036","I have naught to recompense you with, but should you inform my supervisor, Parnell, of your deeds, I am confident she will see fit to reward you."
-62,"TEXT_SUBCTS811_01432_RETAINER01432_000_037","May we meet again, my friend! And do not forget to visit Parnell in the Shaded Bower!"
-63,"TEXT_SUBCTS811_01432_PARNELL_000_040","Greetings, <If(PlayerParameter(4))>madam<Else/>sir</If>. I have been expecting you. The retainer you rescued was most effusive in her praise."
-64,"TEXT_SUBCTS811_01432_PARNELL_000_041","Retainers are of course permitted to refuse a venture which they determine to be too dangerous. Alas, this particular young woman is new to the profession and was thus easily persuaded by her employer to accept."
-65,"TEXT_SUBCTS811_01432_PARNELL_000_042","Beg your pardon? You would like to know more about ventures? Certainly, it would be my pleasure to explain!"
-66,"TEXT_SUBCTS811_01432_PARNELL_000_043","In cooperation with the Adventurers' Guild, we have established a new system through which retainers may be dispatched to procure items for their employers."
-67,"TEXT_SUBCTS811_01432_PARNELL_000_044","Should you wish to avail yourself of this additional service, you will need to pay your retainer in advance with ventures─scrip issued by the Adventurers' Guild. Here, pray accept these complimentary ventures with my thanks."
-68,"TEXT_SUBCTS811_01432_PARNELL_000_045","Bear in mind that most retainers lack the skill to carry out all but the most menial of tasks. Of course, as they grow more experienced, that will change. If this sounds daunting, let me assure you that it's simple in practice. Why not speak with your retainers and see what they think?"
-69,"TEXT_SUBCTS811_01432_SYSTEM_000_0050","You may now dispatch the retainers in your employ on ventures."
-70,"TEXT_SUBCTS811_01432_SYSTEM_000_0051","Summon the retainer you wish to send afield and follow the instructions to begin."
-71,"TEXT_SUBCTS811_01432_POPMESSAGE_000_000","The enemy is still about!"
-72,"TEXT_SUBCTS811_01432_POPMESSAGE_000_001","You sense a hostile presence!"
+48,"TEXT_SUBCTS811_01432_SYSTEM_000_000","本クエストは、リムサ・ロミンサ、グリダニア、ウルダハの
+いずれか1都市で受注することができます。"
+49,"TEXT_SUBCTS811_01432_SYSTEM_000_001","どの都市で受注しても、同じ報酬が得られるので、
+お気に入りの都市でクエストを始めてみましょう！"
+50,"TEXT_SUBCTS811_01432_MASTER01432_000_009","まいったな……リテイナーの奴、どこで道草食ってるんだ？
+リンクシェルにも応答しないなんて……。"
+51,"TEXT_SUBCTS811_01432_MASTER01432_000_010","……おっ、あんた手空きなのか？
+だったら、素材の渉猟に行かせたきり戻らない、
+うちのリテイナーを探してきてくれよ。"
+52,"TEXT_SUBCTS811_01432_MASTER01432_000_011","あいつは「ナインアイビー」あたりに向かったはずなんだが、
+予定の時間になっても戻ってこないんだ。
+俺は仲間との待ち合わせで動けないし……。"
+53,"TEXT_SUBCTS811_01432_MASTER01432_000_012","……リテイナーを都市外に派遣していいのかって？
+ちゃ、ちゃんと契約を結んでのことさ！
+とにかく、頼んだからな！"
+54,"TEXT_SUBCTS811_01432_MASTER01432_000_020","あいつは「ナインアイビー」あたりに向かったはずなんだが、
+予定の時間になっても戻ってこないんだ。
+とにかく、頼んだからな！"
+55,"TEXT_SUBCTS811_01432_RETAINER01432_000_030","た、助かりました……。
+ご主人様に言われた素材を集めていたら、
+いつのまにか囲まれてしまって……。"
+56,"TEXT_SUBCTS811_01432_RETAINER01432_000_031","あ、いえ……ご主人様のイジワルではありません。
+これは、渉猟や採集を代行する
+「リテイナーベンチャー」というサービスなのです。"
+57,"TEXT_SUBCTS811_01432_RETAINER01432_000_032","とはいえ、こんな装備で渉猟の依頼をしてくるなんて、
+ご主人様ったらあんまりです……。
+依頼にあった装備じゃなきゃ、成果を上げようにも……。"
+58,"TEXT_SUBCTS811_01432_RETAINER01432_000_033","ひゃっ、ご主人様からの呼び出しだ！
+……ちょっと失礼しますね。"
+59,"TEXT_SUBCTS811_01432_RETAINER01432_000_034","……はい……はい……親切な方のおかげで無事です。
+えっ？　今すぐ帰ってこい？
+またシャードを出品なさるんですか？"
+60,"TEXT_SUBCTS811_01432_RETAINER01432_000_035","すみません、急いで帰らないと……。
+うちのご主人様は、少々せっかちでいらっしゃいますからね。
+こちらが冒険の最中でも、呼び鈴リンリン待ったなし！"
+61,"TEXT_SUBCTS811_01432_RETAINER01432_000_036","よろしければ、あとでグリダニアの
+リテイナー雇用窓口を訪ねてみてください。
+あなたに謝礼をお渡しするよう、私から手配しておきます。"
+62,"TEXT_SUBCTS811_01432_RETAINER01432_000_037","それでは、助けてくださって本当にありがとうございました。
+……失礼いたします！"
+63,"TEXT_SUBCTS811_01432_PARNELL_000_040","ああ、お待ちしておりました。
+この度は、当都市に所属するリテイナーを助けてくださり、
+ありがとうございました。"
+64,"TEXT_SUBCTS811_01432_PARNELL_000_041","今回のような事故は、普段ならば起こりえないことです。
+雇い主が、規約違反の無理を申し付けたのでしょう。"
+65,"TEXT_SUBCTS811_01432_PARNELL_000_042","「リテイナーベンチャー」は本来、危険のない範囲で行うもの。
+資産管理の合間に依頼を請ける冒険的事業のことで、
+我々リテイナーを、さらに活用していただくための試みです。"
+66,"TEXT_SUBCTS811_01432_PARNELL_000_043","その費用として、冒険者ギルドが発行する代替貨幣
+「ベンチャースクリップ」が必要になるのですが……。"
+67,"TEXT_SUBCTS811_01432_PARNELL_000_044","あなたが助けたリテイナーが、
+ベンチャースクリップを、お譲りしたいとのこと。
+……これを使って、さっそくリテイナーを派遣なさっては？"
+68,"TEXT_SUBCTS811_01432_PARNELL_000_045","冒険には不慣れなリテイナーのこと、
+最初は、思うように成果がでないかもしれません。
+ですが経験を積めば、きっとあなたのお役にたちますよ！"
+69,"TEXT_SUBCTS811_01432_SYSTEM_000_0050","「リテイナーベンチャー」が開放されました。
+雇用中のリテイナーに「ベンチャースクリップ」を払うことで、
+アイテムの渉猟や採集を依頼することができます。"
+70,"TEXT_SUBCTS811_01432_SYSTEM_000_0051","まずは、近くの「呼び鈴」から、
+リテイナーを呼び出してみましょう！"
+71,"TEXT_SUBCTS811_01432_POPMESSAGE_000_000","その行動は出現した敵を倒さないと実行できません"
+72,"TEXT_SUBCTS811_01432_POPMESSAGE_000_001","敵の気配を感じた！！"

@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ402_02725_SEQ_00","Hojo is searching for a strapping specimen to help with some heavy lifting."
+0,"TEXT_STMBDZ402_02725_SEQ_00","玄水連山のホジョウは、力仕事に自信のある協力者を探しているようだ。"
 1,"TEXT_STMBDZ402_02725_SEQ_01",""
 2,"TEXT_STMBDZ402_02725_SEQ_02",""
 3,"TEXT_STMBDZ402_02725_SEQ_03",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_STMBDZ402_02725_SEQ_21",""
 22,"TEXT_STMBDZ402_02725_SEQ_22",""
 23,"TEXT_STMBDZ402_02725_SEQ_23",""
-24,"TEXT_STMBDZ402_02725_TODO_00","Retrieve the piles of stones."
-25,"TEXT_STMBDZ402_02725_TODO_01","Place the piles of stones in the designated areas."
-26,"TEXT_STMBDZ402_02725_TODO_02","Report to Hojo."
+24,"TEXT_STMBDZ402_02725_TODO_00","<Sheet(EventItem,2002242,0)/>を回収"
+25,"TEXT_STMBDZ402_02725_TODO_01","<Sheet(EObj,2008471,0)/>に<Sheet(EventItem,2002242,0)/>を置く"
+26,"TEXT_STMBDZ402_02725_TODO_02","ホジョウに報告"
 27,"TEXT_STMBDZ402_02725_TODO_03",""
 28,"TEXT_STMBDZ402_02725_TODO_04",""
 29,"TEXT_STMBDZ402_02725_TODO_05",""
@@ -49,12 +49,24 @@ int32,str,str
 45,"TEXT_STMBDZ402_02725_TODO_21",""
 46,"TEXT_STMBDZ402_02725_TODO_22",""
 47,"TEXT_STMBDZ402_02725_TODO_23",""
-48,"TEXT_STMBDZ402_02725_HOJO_000_000","There's so many frivolous things in this world. We all obsess ourselves with meaningless trinkets and no one stops to consider important things like terraced paddy fields."
-49,"TEXT_STMBDZ402_02725_HOJO_000_001","The stones that support each field are in need of constant repair, and yet no one seems to care. It is a tough job for one man alone."
-50,"TEXT_STMBDZ402_02725_HOJO_000_002","From the look of you I would say you are capable of lifting a stone or two. Would you mind lending me your strength?"
-51,"TEXT_STMBDZ402_02725_HOJO_000_003","I will take care of the repair work itself. I simply need you to move several piles of stones to the south closer to the rice paddies."
-52,"TEXT_STMBDZ402_02725_HOJO_000_010","Please move those piles of stones to the south closer to the rice paddies."
-53,"TEXT_STMBDZ402_02725_HOJO_000_020","Thank you very much."
-54,"TEXT_STMBDZ402_02725_HOJO_000_021","Now begins the hard work. One does not simply pile the stones aimlessly─there is a special technique that must be employed."
-55,"TEXT_STMBDZ402_02725_HOJO_000_022","I had been training an apprentice, but they were conscripted by that blasted imperial army. Not a day goes by that I do not long for their return."
-56,"TEXT_STMBDZ402_02725_HOJO_000_023","Ah, but there I go sharing my entire life story with a total stranger yet again! Here is your reward."
+48,"TEXT_STMBDZ402_02725_HOJO_000_000","お前さん、棚田には興味あるかい？
+頑丈そうに見えるが、災害だったり獣が暴れたりで、
+法面（のりめん）の石積みが崩れることも、珍しくない。"
+49,"TEXT_STMBDZ402_02725_HOJO_000_001","だから、こいつを日々補修しないといけないんだが、
+こいつはなかなか大変でな……。"
+50,"TEXT_STMBDZ402_02725_HOJO_000_002","見たところ、力仕事には自信がありそうな感じじゃないか。
+もしよかったら、手伝っておくれよ。"
+51,"TEXT_STMBDZ402_02725_HOJO_000_003","石積みの補修には、専門の技術がいるから俺がやる。
+お前さんは、南に置いてある「<Sheet(EventItem,2002242,0)/>」を集めて、
+俺が指定した場所に運んでくれ。"
+52,"TEXT_STMBDZ402_02725_HOJO_000_010","南にある「<Sheet(EventItem,2002242,0)/>」を集めて、
+俺が指定した場所に運んでくれ。"
+53,"TEXT_STMBDZ402_02725_HOJO_000_020","<Sheet(EventItem,2002242,0)/>を運んでくれたか。
+お前さんのおかげで、助かったよ。"
+54,"TEXT_STMBDZ402_02725_HOJO_000_021","石積みは、ただ積むだけじゃなく、
+しっかりとした技術が必要だ。"
+55,"TEXT_STMBDZ402_02725_HOJO_000_022","きちんと伝えていかなきゃいけない技術だってのに、
+鍛えてた弟子は、帝国に徴兵されちまってよ。
+早く無事に戻ってくるよう、祈るしかできねぇってもんでな……。"
+56,"TEXT_STMBDZ402_02725_HOJO_000_023","……おっと、こんなしんみりした話は、よくないよな。
+手伝ってくれてありがとよ、<If(PlayerParameter(4))>姉ちゃん<Else/>兄ちゃん</If>！"

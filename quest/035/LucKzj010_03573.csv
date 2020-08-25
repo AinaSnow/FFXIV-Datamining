@@ -1,8 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKZJ010_03573_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Chora-Kai of Weed has a pensive look about her."
+0,"TEXT_LUCKZJ010_03573_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+ウィード島のチョラ・カイは、悩みがあるようだ。"
 1,"TEXT_LUCKZJ010_03573_SEQ_01",""
 2,"TEXT_LUCKZJ010_03573_SEQ_02",""
 3,"TEXT_LUCKZJ010_03573_SEQ_03",""
@@ -26,8 +26,8 @@ Chora-Kai of Weed has a pensive look about her."
 21,"TEXT_LUCKZJ010_03573_SEQ_21",""
 22,"TEXT_LUCKZJ010_03573_SEQ_22",""
 23,"TEXT_LUCKZJ010_03573_SEQ_23",""
-24,"TEXT_LUCKZJ010_03573_TODO_00","Confront the mopish man with a /furious anger."
-25,"TEXT_LUCKZJ010_03573_TODO_01","Speak with Chora-Kai."
+24,"TEXT_LUCKZJ010_03573_TODO_00","無気力な男に「怒る」をする"
+25,"TEXT_LUCKZJ010_03573_TODO_01","チョラ・カイと話す"
 26,"TEXT_LUCKZJ010_03573_TODO_02",""
 27,"TEXT_LUCKZJ010_03573_TODO_03",""
 28,"TEXT_LUCKZJ010_03573_TODO_04",""
@@ -50,19 +50,42 @@ Chora-Kai of Weed has a pensive look about her."
 45,"TEXT_LUCKZJ010_03573_TODO_21",""
 46,"TEXT_LUCKZJ010_03573_TODO_22",""
 47,"TEXT_LUCKZJ010_03573_TODO_23",""
-48,"TEXT_LUCKZJ010_03573_CHORAKAI_000_000","Well, hello there! Don't you look like an imposing individual! Forgive me for being so forward, but could I trouble you to do me a favor?"
-49,"TEXT_LUCKZJ010_03573_CHORAKAI_000_001","It's my worthless, slacking sop of a brother! He promised me that he'd help tend to the chocobos today, but I'll bet you gil to gysahl greens that he's lounging about in bed doing absolutely nothing of import!"
-50,"TEXT_LUCKZJ010_03573_CHORAKAI_000_002","I've told him time and again that he must shoulder his fair share of the workload, but it's like talking to a stone wall. I beg of you, friend, unleash the full fury of your anger on that listless lout!"
-51,"TEXT_LUCKZJ010_03573_CHORAKAI_000_003","Oh, how I wish I could be there to see you give my sluggardly sop of a brother what for! But alas, the chocobos need tending to..."
-52,"TEXT_LUCKZJ010_03573_ANEMIC03573_000_010","<yawn> Hmmm...? You need something...? Sorry, I'm─<yawn>─rather busy here..."
-53,"TEXT_LUCKZJ010_03573_SYSTEM_100_010","This man strikes you as one of the most sluggish, slothful wretches you've ever had the misfortune to meet. It would seem that nothing short of a <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>furious<UIGlow>01</UIGlow><UIForeground>01</UIForeground> exhortation will suffice to convince him of the value of honest work."
-54,"TEXT_LUCKZJ010_03573_ANEMIC03573_000_011","H-Hey! Wh-What's with all the shouting!? I...I don't even know you! "
-55,"TEXT_LUCKZJ010_03573_ANEMIC03573_000_012","<Emphasis>Chora</Emphasis> sent you!? Well, if she was trying to scare the living wits out of me, you can tell her she's done a bloody good job! Where in the hells did she find someone like you, anyway?"
-56,"TEXT_LUCKZJ010_03573_ANEMIC03573_000_013","Hah! You come from the same place as the Crystal Exarch, you say? That's ri─ Er, I mean, pleasure to meet you. You won't yell at me anymore, right?"
-57,"TEXT_LUCKZJ010_03573_ANEMIC03573_100_013","Some men dream of being heroes or going on grand adventures, but I'm a fisherman's son, and I reckon the slow life suits me just fine. Yes, just sitting─<yawn>─by the still waters, and..."
-58,"TEXT_LUCKZJ010_03573_ANEMIC03573_000_014","R-R-Right! Time to go help Chora brush the chocobos! Just stop looking at me like that, okay!?"
-59,"TEXT_LUCKZJ010_03573_CHORAKAI_000_020","Oh, it's you! I was hoping you'd come back so I could properly thank you. I don't know what you said to him, but ever since he got back, he's been brushing the chocobos like a man possessed!"
-60,"TEXT_LUCKZJ010_03573_CHORAKAI_000_021","I know! I couldn't believe it either! But, truth be told, he wasn't always like this. Believe it or not, for a time he even served in the Crystarium guard. But over time, the sheer terror of the sin eater attacks got the better of him, and..."
-61,"TEXT_LUCKZJ010_03573_CHORAKAI_000_022","One day, he just packed up his things and came home. He said the realm has enough heroes already, and he was happy to live out his time here until the end inevitably comes."
-62,"TEXT_LUCKZJ010_03573_CHORAKAI_000_023","I don't imagine he'll ever again be like he was as a boy, dressed in play armor made of buckets and frying pans, pretending to be the sellsword Radisca bravely defending his companions..."
-63,"TEXT_LUCKZJ010_03573_CHORAKAI_000_024","But he's still my brother, and I'm thankful to have him here with me─provided he pulls his own weight, of course! Anyhow, I should be getting back to work myself. Here's a little something by way of thanks. Safe travels, friend!"
+48,"TEXT_LUCKZJ010_03573_CHORAKAI_000_000","貴方、かなり強そうだね！
+お願いがあるの、あたしの弟を怒ってきてくれない？
+最近、あたしの小言くらいじゃ、言うこと聞かなくて……。"
+49,"TEXT_LUCKZJ010_03573_CHORAKAI_000_001","仕事をサボってばっかりで、
+今日もチョコボの世話があるのに、全然来ないんだから！
+貴方みたいな強そうな方に怒られたら、さすがに反省すると思うの。"
+50,"TEXT_LUCKZJ010_03573_CHORAKAI_000_002","ね、お願い！
+「ラップ島」にいる「無気力な男」が弟だから、
+一発、ガツンと「怒って」やって！"
+51,"TEXT_LUCKZJ010_03573_CHORAKAI_000_003","「ラップ島」にいる「無気力な男」が弟だから、
+一発、ガツンと「怒って」やって！"
+52,"TEXT_LUCKZJ010_03573_ANEMIC03573_000_010","ふわぁ……何か用？"
+53,"TEXT_LUCKZJ010_03573_SYSTEM_100_010","たしかに、仕事をしている様子はない。
+エモート「怒る」をして、無気力な男を叱りつけよう。"
+54,"TEXT_LUCKZJ010_03573_ANEMIC03573_000_011","うわっ、い、いきなり何だ！？"
+55,"TEXT_LUCKZJ010_03573_ANEMIC03573_000_012","……姉貴の代わりに？
+それにしても、アンタ……かなり強そうだな。
+いったい何者なんだ？"
+56,"TEXT_LUCKZJ010_03573_ANEMIC03573_000_013","す、水晶公と同郷の……？
+そうかよ、特別な存在ってわけだ。"
+57,"TEXT_LUCKZJ010_03573_ANEMIC03573_100_013","やっぱり漁民の子は、
+英雄なんて夢見ずに生きていくのがちょうどいい……。"
+58,"TEXT_LUCKZJ010_03573_ANEMIC03573_000_014","……な、なんでもない！
+姉貴を手伝うよ、それじゃあ。"
+59,"TEXT_LUCKZJ010_03573_CHORAKAI_000_020","貴方が怒ってくれたおかげで、弟が仕事をし始めたの！
+ありがとう、助かったわ！
+いったいどんな話をしたの？"
+60,"TEXT_LUCKZJ010_03573_CHORAKAI_000_021","……そう、弟がそんなことを。
+弟はもともと、クリスタリウムの衛兵だったのよ。
+でも、押し寄せる罪喰いに怖気づいてしまったようでね……。"
+61,"TEXT_LUCKZJ010_03573_CHORAKAI_000_022","それで、故郷のこの村に戻ってきたの。
+クリスタリウムにいた方が安全なのに、
+「どこにいても同じ、どうせ死ぬなら故郷で」なんて言って……。"
+62,"TEXT_LUCKZJ010_03573_CHORAKAI_000_023","小さい頃は、チャンバラをしながら、よく叫んでいたものよ。
+「仲間を守って死んだ、衛兵ラディスカのようになるんだ」って。
+でも、もうすっかり心が折れちゃったみたい……。"
+63,"TEXT_LUCKZJ010_03573_CHORAKAI_000_024","……まあ、生きて戻ってくれたんだから、
+家族としては嬉しいんだけどね。
+忙しそうにしていたのに、手伝ってくれてありがとう。"

@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANAMA103_01224_SEQ_00","Fibubb Gah seeks aid to replenish the Brotherhood's stock of healing salves."
-1,"TEXT_BANAMA103_01224_SEQ_01","Fibubb Gah explains that a true warrior needs to be as concerned with the arts of healing as with the arts of war. Seek out succulents within Zanr'ak and harvest their rejuvenating sap."
-2,"TEXT_BANAMA103_01224_SEQ_02","You have obtained a supply of rejuvenating sap. Return to the Ring of Ash and deliver the healing salve to Fibubb Gah."
-3,"TEXT_BANAMA103_01224_SEQ_03","You have delivered the rejuvenating sap to Fibubb Gah. The proud warrior commends your efforts, claiming that a Brotherhood soldier would sooner die in battle than on a sickbed."
+0,"TEXT_BANAMA103_01224_SEQ_00","灰の陣営のフィブブ・ガーは、冒険者に頼みがあるようだ。"
+1,"TEXT_BANAMA103_01224_SEQ_01","フィブブ・ガーの依頼を受けた。ザンラクの「<Sheet(EObj,2002979,0)/>」から「<Sheet(EventItem,2001138,0)/>」を入手しよう。"
+2,"TEXT_BANAMA103_01224_SEQ_02","<Sheet(EventItem,2001138,0)/>を入手した。灰の陣営の「フィブブ・ガー」に「<Sheet(EventItem,2001138,0)/>」を渡そう。"
+3,"TEXT_BANAMA103_01224_SEQ_03","フィブブ・ガーに<Sheet(EventItem,2001138,0)/>を渡した。フィブブ・ガーは冒険者の働きをねぎらった。彼らが戦いを続けられるよう、またの機会に協力しよう。"
 4,"TEXT_BANAMA103_01224_SEQ_04",""
 5,"TEXT_BANAMA103_01224_SEQ_05",""
 6,"TEXT_BANAMA103_01224_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_BANAMA103_01224_SEQ_21",""
 22,"TEXT_BANAMA103_01224_SEQ_22",""
 23,"TEXT_BANAMA103_01224_SEQ_23",""
-24,"TEXT_BANAMA103_01224_TODO_00","Obtain vials of rejuvenating sap from succulents in Zanr'ak."
-25,"TEXT_BANAMA103_01224_TODO_01","Deliver the rejuvenating sap to Fibubb Gah."
+24,"TEXT_BANAMA103_01224_TODO_00","ザンラクの<Sheet(EObj,2002979,0)/>から<Sheet(EventItem,2001138,0)/>を入手"
+25,"TEXT_BANAMA103_01224_TODO_01","フィブブ・ガーに<Sheet(EventItem,2001138,0)/>を渡す"
 26,"TEXT_BANAMA103_01224_TODO_02",""
 27,"TEXT_BANAMA103_01224_TODO_03",""
 28,"TEXT_BANAMA103_01224_TODO_04",""
@@ -49,10 +49,23 @@ int32,str,str
 45,"TEXT_BANAMA103_01224_TODO_21",""
 46,"TEXT_BANAMA103_01224_TODO_22",""
 47,"TEXT_BANAMA103_01224_TODO_23",""
-48,"TEXT_BANAMA103_01224_FIBUBBGAH_000_001","We of the Brotherhood of Ash are proud soldiers all. Yet even the greatest soldier can starve without sustenance, or be crippled by injury."
-49,"TEXT_BANAMA103_01224_FIBUBBGAH_000_002","We bear our battle wounds as badges of honor, but a festering cut can take one's life as surely as the blade of one's foe. A true warrior neglects not the arts of healing."
-50,"TEXT_BANAMA103_01224_FIBUBBGAH_000_003","My task for you, honored ally, is simple yet needful: gather from the desert plants of Zanr'ak the rejuvenating sap we use to salve our hurts."
-51,"TEXT_BANAMA103_01224_FIBUBBGAH_000_004","Though our foes make no use of such remedies, they will nevertheless be loath to relinquish them to you. Have a care you do not sustain such injuries that you fail to return!"
-52,"TEXT_BANAMA103_01224_FIBUBBGAH_000_011","Gather the clear sap of the Zanr'ak desert plants, and aid us in keeping our warriors hale."
-53,"TEXT_BANAMA103_01224_FIBUBBGAH_000_021","Welcome, honored ally. Have you the sap we require?"
-54,"TEXT_BANAMA103_01224_FIBUBBGAH_000_022","Yes, this will allow our wounded to return to the front lines of battle where a glorious death awaits. No true warrior wishes to wither away on a sickbed..."
+48,"TEXT_BANAMA103_01224_FIBUBBGAH_000_001","我ら「灰の一党」は、一騎当千の兵（つわもの）なり。
+……されど、飢不択食。
+我らとて食事もすれば怪我もする。"
+49,"TEXT_BANAMA103_01224_FIBUBBGAH_000_002","刻まれた傷は戦士の勲章。
+しかれども、傷治らなく死に至れば、これすなわち敗北。
+癒しの術を軽んじる輩に、真なる戦士なし。"
+50,"TEXT_BANAMA103_01224_FIBUBBGAH_000_003","そこで強き者よ、実践躬行。
+ザンラクの大地に生える<Sheet(EObj,2002979,0)/>より、
+丸薬の元となる「<Sheet(EventItem,2001138,0)/>」を集めよ。"
+51,"TEXT_BANAMA103_01224_FIBUBBGAH_000_004","真の戦士にあらざるザンラクの一党に、
+癒しの術を譲る道理もなし……。
+迅速なる収集で、汝の真なる戦士たるを示さん。"
+52,"TEXT_BANAMA103_01224_FIBUBBGAH_000_011","ザンラクの大地に生える<Sheet(EObj,2002979,0)/>より、
+丸薬の元となる「<Sheet(EventItem,2001138,0)/>」集めてはもらえぬか。
+迅速なる収集で、汝の真なる戦士たるを示さん。"
+53,"TEXT_BANAMA103_01224_FIBUBBGAH_000_021","御苦労であった、強き者よ。
+「<Sheet(EventItem,2001138,0)/>」は集め終わりしか？"
+54,"TEXT_BANAMA103_01224_FIBUBBGAH_000_022","……確かに「<Sheet(EventItem,2001138,0)/>」。
+不撓不屈、これあらば、我らが戦を続けること難くなし。
+我、貴公の働きに、真なる戦士の資質を見出さん。"

@@ -1,8 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKZD011_03418_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Wyd Lad has another request for you."
+0,"TEXT_LUCKZD011_03418_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+プラ・エンニ茸窟のウィド＝ラドは、またもや頼みたいことがあるようだ。"
 1,"TEXT_LUCKZD011_03418_SEQ_01",""
 2,"TEXT_LUCKZD011_03418_SEQ_02",""
 3,"TEXT_LUCKZD011_03418_SEQ_03",""
@@ -26,8 +26,8 @@ Wyd Lad has another request for you."
 21,"TEXT_LUCKZD011_03418_SEQ_21",""
 22,"TEXT_LUCKZD011_03418_SEQ_22",""
 23,"TEXT_LUCKZD011_03418_SEQ_23",""
-24,"TEXT_LUCKZD011_03418_TODO_00","Deliver the pack of mushrooms to the tall Fuath."
-25,"TEXT_LUCKZD011_03418_TODO_01","Deliver the alchemical concoction to Wyd Lad."
+24,"TEXT_LUCKZD011_03418_TODO_00","背の高いフーア族？に<Sheet(EventItem,2002870,0)/>を渡す"
+25,"TEXT_LUCKZD011_03418_TODO_01","ウィド＝ラドに<Sheet(EventItem,2002871,0)/>を渡す"
 26,"TEXT_LUCKZD011_03418_TODO_02",""
 27,"TEXT_LUCKZD011_03418_TODO_03",""
 28,"TEXT_LUCKZD011_03418_TODO_04",""
@@ -50,26 +50,56 @@ Wyd Lad has another request for you."
 45,"TEXT_LUCKZD011_03418_TODO_21",""
 46,"TEXT_LUCKZD011_03418_TODO_22",""
 47,"TEXT_LUCKZD011_03418_TODO_23",""
-48,"TEXT_LUCKZD011_03418_WYDLAD_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, I know you've already given me your patronage, but will you not consider doing so again?"
-49,"TEXT_LUCKZD011_03418_WYDLAD_000_001","Thank you! I ask that you deliver this pack of mushrooms to Longmirror Lake. The recipient is a Fuath, and he should give you an alchemical concoction in return."
-50,"TEXT_LUCKZD011_03418_WYDLAD_000_002","Now, though the Fuath are a strange folk as a whole, I must warn you that this one is stranger than most. He is far taller than his kindred, for one, and I cannot help but feel unsettled in his presence."
-51,"TEXT_LUCKZD011_03418_WYDLAD_000_003","He can provide us with what we need, and so we trade with him. But if truth be told, I would sooner not deal with him in person. Hence my request to you. My thanks in advance."
-52,"TEXT_LUCKZD011_03418_WYDLAD_000_004","The Fuath you seek is far taller than his kindred, so he shouldn't be hard to identify. Give him the mushrooms, and he will give you an alchemical concoction in return."
-53,"TEXT_LUCKZD011_03418_SYSTEM_000_010","You do not see any Fuath in the area. There is, however, an elf wearing what appears to be a toad costume..."
-54,"TEXT_LUCKZD011_03418_TALLFUATH03418_000_011","Top of the morning to you, mortal! Wait, is it even morning? Bah, what does it matter? 'Tis a fine day to be a Fuath! Pain, pain, go away! Ohohoho!"
-55,"TEXT_LUCKZD011_03418_Q1_000_000","What will you say?"
-56,"TEXT_LUCKZD011_03418_A1_000_001","Are you really a Fuath?"
-57,"TEXT_LUCKZD011_03418_A1_000_002","You're the one trading with Wyd Lad?"
-58,"TEXT_LUCKZD011_03418_TALLFUATH03418_000_012","What an odd thing to ask! But of course I'm a Fuath!"
-59,"TEXT_LUCKZD011_03418_TALLFUATH03418_000_013","Some mistake me for an elf, and I do not blame them, statuesque as I am. But I assure you, I am a Fuath through and through and through!"
-60,"TEXT_LUCKZD011_03418_TALLFUATH03418_000_014","Aye, that I am! Wyd Lad and I engage in much trading to our mutual benefit!"
-61,"TEXT_LUCKZD011_03418_TALLFUATH03418_000_015","But tell me, what brings a good mortal such as yourself here? What business have you with this humble Fuath?"
-62,"TEXT_LUCKZD011_03418_TALLFUATH03418_000_016","Ah, the mushrooms I've been expecting! I shall enjoy these, oh yes!"
-63,"TEXT_LUCKZD011_03418_TALLFUATH03418_000_017","And yet...I cannot help but feel disappointed. For rather than coming themself, Wyd Lad sent you instead. <sigh> It was inevitable, I suppose. I knew that, one day, they too would go over to the other side. And you, my friend, are but another brick in the wall. Another cog in the machine, ever grinding..."
-64,"TEXT_LUCKZD011_03418_TALLFUATH03418_000_018","That's what you came for, yes? So take it and leave me be. I would think upon the state of the new world."
-65,"TEXT_LUCKZD011_03418_TALLFUATH03418_000_019","You have what you came for, so leave me be. I would think upon the state of the new world."
-66,"TEXT_LUCKZD011_03418_WYDLAD_000_030","Ah, there you are. Did you receive the concoction?"
-67,"TEXT_LUCKZD011_03418_WYDLAD_000_031","Yes, this is it! My thanks for collecting it! But tell me: what did you think of that Fuath? He's a strange one, yes?"
-68,"TEXT_LUCKZD011_03418_WYDLAD_000_032","This concoction works wonders on mushrooms─makes them shoot up as nothing else does. It's something that only mortals can make, and in the old days we traded with the Voeburtites for it."
-69,"TEXT_LUCKZD011_03418_WYDLAD_000_033","Yet here is a Fuath who is capable of working mortal alchemy... He truly is a mystery wrapped in a mystery."
-70,"TEXT_LUCKZD011_03418_WYDLAD_000_034","Though at first I found him novel, I began developing headaches when dealing with him. So from hereon, I intend to send others in my stead. Thank you for sparing me the pain this time!"
+48,"TEXT_LUCKZD011_03418_WYDLAD_000_000","実は、またまたお願いしたいことがあるんすけど、
+お力を貸してくれないっすか……？
+も、もちろん取引にふさわしいだけの対価はあるっす！"
+49,"TEXT_LUCKZD011_03418_WYDLAD_000_001","どうもっす……！
+「<Sheet(EventItem,2002870,0)/>」を「姿見の湖」にいる、
+「背の高いフーア族」に渡して、錬金薬を貰ってきてほしいっす。"
+50,"TEXT_LUCKZD011_03418_WYDLAD_000_002","フーア族は、変わったヤツが多いっすけど、
+中でもアイツは、ずば抜けておかしいやつなんっすよ。
+妙に背も高いし、ヤバい感じがプンプンするっす……。"
+51,"TEXT_LUCKZD011_03418_WYDLAD_000_003","むっちゃ良い錬金薬を作ってくれるんで、取引してるんすけど、
+正直、苦手なんで、なるべく会いたくなくって……。
+どうか、こんなキノコ野郎の自分の代わりにお願いっす！"
+52,"TEXT_LUCKZD011_03418_WYDLAD_000_004","「<Sheet(EventItem,2002870,0)/>」を「姿見の湖」にいる、
+「背の高いフーア族」に渡してほしいんっす。
+どうか、こんなキノコ野郎の自分の代わりにお願いっす！"
+53,"TEXT_LUCKZD011_03418_SYSTEM_000_010","周辺に、フーア族の姿は見当たらない。
+トード風の着ぐるみを着た、エルフ族らしき人物が立っている……。"
+54,"TEXT_LUCKZD011_03418_TALLFUATH03418_000_011","イヤッホォーーーーーウ！
+今日のボクちゃんも、最高に幸せだなァン！
+いたいの、いたいの、飛んでけェ……アハッ、アハハッー！！"
+55,"TEXT_LUCKZD011_03418_Q1_000_000","何と言う？"
+56,"TEXT_LUCKZD011_03418_A1_000_001","あなたは本当にフーア族？"
+57,"TEXT_LUCKZD011_03418_A1_000_002","あなたがウィド＝ラドの取引相手？"
+58,"TEXT_LUCKZD011_03418_TALLFUATH03418_000_012","ほーーっほっほっ、本当だともォ♪
+純度100パーセント、正真正銘、フーア族さァ！"
+59,"TEXT_LUCKZD011_03418_TALLFUATH03418_000_013","エルフなわけが……エルフなわけが、ないじゃないかァァッ！！"
+60,"TEXT_LUCKZD011_03418_TALLFUATH03418_000_014","そうそう、そのとおり！　ご明答ーッ！！
+ボクちゃんこそが、その取引相手ですよォ～～～！
+イーッヒャッヒャッヒャ！！"
+61,"TEXT_LUCKZD011_03418_TALLFUATH03418_000_015","…………で、このボクにいったい何の用？"
+62,"TEXT_LUCKZD011_03418_TALLFUATH03418_000_016","ほぉ、この「<Sheet(EventItem,2002870,0)/>」をぉ……。
+ボクに、だってぇ？"
+63,"TEXT_LUCKZD011_03418_TALLFUATH03418_000_017","で、キミが、代わりに運んできたってワケ？
+そうか、ついにヤツも向こう側にいったか……
+そしてキミが、ヤツの歯車の一部になった、そういうことねェ！"
+64,"TEXT_LUCKZD011_03418_TALLFUATH03418_000_018","ほら、どうせそいつを欲しがってるんだろ？
+やるからどっかに行ってくれないか！
+ボクは、新世界の在り方について考えるので忙しいんだよ……。"
+65,"TEXT_LUCKZD011_03418_TALLFUATH03418_000_019","さっさとどっかに行ってくれないか！
+ボクは、新世界の在り方について考えるので忙しいんだよ……。"
+66,"TEXT_LUCKZD011_03418_WYDLAD_000_030","どうっすか？
+錬金薬、貰えたっすか？"
+67,"TEXT_LUCKZD011_03418_WYDLAD_000_031","お、これっすよ！　代わりに行ってくれて、感謝感激っす！
+アイツ、変な奴じゃなかったっすか……？"
+68,"TEXT_LUCKZD011_03418_WYDLAD_000_032","この錬金薬には、キノコの成長を促す効果があるっす。
+ヒトの錬金術師にしか造れないもので、
+かつてはフッブート王国の人々から仕入れていたらしいんすよ。"
+69,"TEXT_LUCKZD011_03418_WYDLAD_000_033","でもアイツ、フーア族なのに、
+ヒトの薬を作れちゃうなんて、凄いヤツっすよね。
+なんだか、いろいろと不思議なヤツっす……。"
+70,"TEXT_LUCKZD011_03418_WYDLAD_000_034","アイツと話してると、なんだか頭が痛くなってくるんで、
+これからも、誰かに代わりに行ってもらうとするっす。
+とにかく、ありがとっすよ！"

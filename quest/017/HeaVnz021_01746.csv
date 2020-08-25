@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNZ021_01746_SEQ_00","Redwald wants to make the next move in his investigation."
-1,"TEXT_HEAVNZ021_01746_SEQ_01","Redwald wants you to go to Auriaune and show her the bottle that contained the poisoned wine. She is in charge of logistics at Falcon's Nest and should be able to determine who would have had chance to poison the wine."
-2,"TEXT_HEAVNZ021_01746_SEQ_02","Auriaune realizes that the poisoned wine was in the crate of stolen supplies that you previously recovered for her. She posits that the thieves poisoned the wine under the assumption that the crate would be recovered. It has since come to light that these men were not working alone. They had accomplices who have been sighted several times at Camp Riversmeet. Go there, find these heretics, and question them."
-3,"TEXT_HEAVNZ021_01746_SEQ_03","The heretics attack you, but not before gloating that the poison they used was made from dragon venom. There is no known antidote. Report to Redwald with this grim news."
-4,"TEXT_HEAVNZ021_01746_SEQ_04","Redwald, having been informed of the situation by Auriaune, was ready and waiting for your report. He is not surprised to hear of the heretics' involvement and is resolved to finding an antidote to the poison before it is too late."
+0,"TEXT_HEAVNZ021_01746_SEQ_00","レッドワルドは、次の一手を打つべく動き出そうとしている。"
+1,"TEXT_HEAVNZ021_01746_SEQ_01","レッドワルドと話した。ファルコンネストにいる「オリオーヌ」に「<Sheet(EventItem,2001739,0)/>」を渡そう。"
+2,"TEXT_HEAVNZ021_01746_SEQ_02","オリオーヌに<Sheet(EventItem,2001739,0)/>を渡した。謎の急病の原因となった毒は、奪還した物資に、異端者が仕込んでいたものだったようだ。クルザス西部高地のキャンプ・リバーズミートで異端者を探し、情報を引き出そう。"
+3,"TEXT_HEAVNZ021_01746_SEQ_03","異端者を発見し、情報を引き出した。彼らの使った毒は、ドラゴン族の分泌液から作ったものらしい。ファルコンネストの「レッドワルド」に報告しよう。"
+4,"TEXT_HEAVNZ021_01746_SEQ_04","レッドワルドに報告した。彼は急いで毒への対策を考えるようだ。"
 5,"TEXT_HEAVNZ021_01746_SEQ_05",""
 6,"TEXT_HEAVNZ021_01746_SEQ_06",""
 7,"TEXT_HEAVNZ021_01746_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_HEAVNZ021_01746_SEQ_21",""
 22,"TEXT_HEAVNZ021_01746_SEQ_22",""
 23,"TEXT_HEAVNZ021_01746_SEQ_23",""
-24,"TEXT_HEAVNZ021_01746_TODO_00","Deliver the bottle to Auriaune."
-25,"TEXT_HEAVNZ021_01746_TODO_01","Speak with the heretics at Camp Riversmeet."
-26,"TEXT_HEAVNZ021_01746_TODO_02","Report to Redwald."
+24,"TEXT_HEAVNZ021_01746_TODO_00","オリオーヌに<Sheet(EventItem,2001739,0)/>を渡す"
+25,"TEXT_HEAVNZ021_01746_TODO_01","キャンプ・リバーズミートで異端者を探す"
+26,"TEXT_HEAVNZ021_01746_TODO_02","レッドワルドに報告"
 27,"TEXT_HEAVNZ021_01746_TODO_03",""
 28,"TEXT_HEAVNZ021_01746_TODO_04",""
 29,"TEXT_HEAVNZ021_01746_TODO_05",""
@@ -49,15 +49,37 @@ int32,str,str
 45,"TEXT_HEAVNZ021_01746_TODO_21",""
 46,"TEXT_HEAVNZ021_01746_TODO_22",""
 47,"TEXT_HEAVNZ021_01746_TODO_23",""
-48,"TEXT_HEAVNZ021_01746_REDWALD_000_000","We may have confirmed that poison was causing the illness that struck the fort, but there's still one thing left to do─find those responsible for this reprehensible crime and bring them to justice."
-49,"TEXT_HEAVNZ021_01746_REDWALD_000_001","Auriaune is in charge of logistics here. I suspect that if you show her this bottle, she should be able to tell you where it came from."
-50,"TEXT_HEAVNZ021_01746_REDWALD_000_016","Show that bottle to Auriaune. She should be able to find out where it came from."
-51,"TEXT_HEAVNZ021_01746_AURIAUNE_000_010","Hello there. Is there something I can help you with?"
-52,"TEXT_HEAVNZ021_01746_AURIAUNE_000_011","What? The wine that was in this bottle was the cause of the sickness plaguing the fortress!? Our records should show where this came from, who handled it, and─wait!"
-53,"TEXT_HEAVNZ021_01746_AURIAUNE_000_012","The crate of supplies that you recovered for me previously─the one that had been stolen by heretics─it was full of wine. I'm almost certain that this bottle was in that crate. I'd wager that those heretics poisoned the wine, counting on us recovering it."
-54,"TEXT_HEAVNZ021_01746_AURIAUNE_000_013","As a matter of fact, I've been looking into that case lately. It seems that the culprits had accomplices. They've been seen several times at Camp Riversmeet lately."
-55,"TEXT_HEAVNZ021_01746_AURIAUNE_000_014","I wouldn't be surprised if they're still looking for another opportunity to poison us. See if you can't press them for any information. Report to Redwald with anything you're able to find out."
-56,"TEXT_HEAVNZ021_01746_AURIAUNE_000_021","Try questioning the heretics' accomplices at Camp Riversmeet. Report back to Redwald with whatever you find out."
-57,"TEXT_HEAVNZ021_01746_HERETIC_000_020","Ahah! So you found out about the poison and came here looking for answers? Well, give up! The poison is made from dragon venom. There is no antidote. Everyone who drank it will die...and so will you!"
-58,"TEXT_HEAVNZ021_01746_REDWALD_000_030","Greetings, <If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>. Auriaune has already apprised me of the situation. She tells me you might have information regarding the poisonings?"
-59,"TEXT_HEAVNZ021_01746_REDWALD_000_031","I see. So it was the heretics after all. And poison made from dragon venom? This is very bad indeed. We will need to find an antidote as quickly as possible..."
+48,"TEXT_HEAVNZ021_01746_REDWALD_000_000","病の出処は掴めた。
+となれば、次にするべきことはひとつしかない……。
+そう、これを仕込んだ犯人を突き止めることだ。"
+49,"TEXT_HEAVNZ021_01746_REDWALD_000_001","ファルコンネストの物流管理は、オリオーヌに任せてある。
+彼女に問題の酒瓶を渡し、
+ワインの出処を調査してみてくれないだろうか？"
+50,"TEXT_HEAVNZ021_01746_REDWALD_000_016","ファルコンネストの物流管理は、オリオーヌに任せてある。
+彼女に先ほどの酒瓶を渡し、
+ワインの出処を調査してみてくれないだろうか？"
+51,"TEXT_HEAVNZ021_01746_AURIAUNE_000_010","おや、どうしたんだい？"
+52,"TEXT_HEAVNZ021_01746_AURIAUNE_000_011","……なんだって！？
+この酒瓶に入っていたワインが、近ごろの病の原因だった！？
+待ってくれ、納品記録から調べれば……わかったぞ！"
+53,"TEXT_HEAVNZ021_01746_AURIAUNE_000_012","以前、君に奪還してもらった物資があるだろう？
+あの木箱の中身こそ、この酒瓶のワインだったんだ。
+異端者の奴ら、回収される前提で毒を盛っていたのか……。"
+54,"TEXT_HEAVNZ021_01746_AURIAUNE_000_013","実は、先日の物資強奪犯の背後関係を洗っていたんだが、
+さらなる仲間の存在が明らかになってきてね……。
+キャンプ・リバーズミートで、たびたび奴らが目撃されている。"
+55,"TEXT_HEAVNZ021_01746_AURIAUNE_000_014","もしかしたら、また毒を仕込もうと隙を覗っているのかも……。
+異端者に、仕込んだ毒について問い詰めてくれないか？
+事が済んだら、「レッドワルド」様に報告を頼む！"
+56,"TEXT_HEAVNZ021_01746_AURIAUNE_000_021","キャンプ・リバーズミートで、たびたび異端者が目撃されている。
+さらなる被害が出ないよう、奴らを問い詰めてくれないか？
+事が済んだら、「レッドワルド」様に報告を頼む！"
+57,"TEXT_HEAVNZ021_01746_HERETIC_000_020","……毒に気付いて、慌てて調べに来たか。
+諦めな、あれはドラゴン族の分泌液から作った毒薬だ。
+解毒は適わず、死が待つのみ……貴様もここで死ねぇっ！"
+58,"TEXT_HEAVNZ021_01746_REDWALD_000_030","オリオーヌから話は聞いたぞ。
+異端者に毒について聞きにいってくれたそうだが……
+結果はどうであった？"
+59,"TEXT_HEAVNZ021_01746_REDWALD_000_031","なるほど、やはり異端者の仕業であったか……！
+ドラゴン族の分泌液から作った毒薬だったとは……。
+……早急に治療法を検討しなければならんな。"

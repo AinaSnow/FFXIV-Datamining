@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ908_02864_SEQ_00","Berehta is ready to read her son's parting words."
-1,"TEXT_STMBDZ908_02864_SEQ_01","Berehta confesses she is too distraught to read Erart's letter, handing it to you to read in her stead. According to the missive, Erart left a gift for his mother with J'dyalani of Ala Ghiri. She has been instructed to hand over the package upon telling her it is time to “rekindle the flames of hope.” Unfit to make the journey herself, Berehta asks you to retrieve her son's parting gift. "
-2,"TEXT_STMBDZ908_02864_SEQ_02","You relay the secret message to J'dyalani as described in the letter, and she presents you with a small pouch. Berehta will be excited to see what is inside."
-3,"TEXT_STMBDZ908_02864_SEQ_03","Berehta opens the pouch to reveal seeds and an accompanying note. It says they are date seeds from Garlemald, and will grow even in the most barren soil. As she leaves to inform the others of what she received, a mysterious figure steps in from the shadows, and reveals himself to be the allegedly deceased Erart. He believes his countrymen will not forgive his actions, even if they were for the sake of the Resistance, and so he faked his own death. He has resigned himself to traveling abroad to continue the fight against Garlemald in a distant land. To that end, he takes his leave, knowing Coldhearth rests in good hands."
-4,"TEXT_STMBDZ908_02864_SEQ_04","You find Berehta in good spirits, ready to begin planting seeds. She invites you to return to Coldhearth when the date palms have grown, to partake of the fruit born from Erart's sacrifice."
+0,"TEXT_STMBDZ908_02864_SEQ_00","コールドハースのベレータは、息子からの手紙を読もうとしている。"
+1,"TEXT_STMBDZ908_02864_SEQ_01","ベレータとともに、エラートからの手紙を読んだ。それによると、彼は贈り物を預けていたようだ。チャットの会話モードを「Say」モードにして、キーボードやソフトウェアキーボードで『冷えた暖炉に希望の火を』を含む言葉を入力し、ギラバニア山岳地帯のアラギリにいる「ジャ・ヤーラニ」に合言葉を言おう。"
+2,"TEXT_STMBDZ908_02864_SEQ_02","ジャ・ヤーラニに合言葉を伝え、贈り物を受け取った。コールドハースの「ベレータ」に「<Sheet(EventItem,2002331,0)/>」を渡そう。"
+3,"TEXT_STMBDZ908_02864_SEQ_03","ベレータに<Sheet(EventItem,2002331,0)/>を渡した。贈り物の中身であるデーツの栽培について、相談に向かったベレータと入れ替わり、エラートが現れる。彼は自分を戦死したことにしたまま、二度と故郷に戻らないことを冒険者に伝え、去ってしまった。コールドハースの「ベレータ」と話そう。"
+4,"TEXT_STMBDZ908_02864_SEQ_04","ベレータと話した。デーツは、コールドハースで栽培されることになったようだ。きっと、丈夫に育つことだろう。"
 5,"TEXT_STMBDZ908_02864_SEQ_05",""
 6,"TEXT_STMBDZ908_02864_SEQ_06",""
 7,"TEXT_STMBDZ908_02864_SEQ_07",""
@@ -25,9 +25,10 @@ int32,str,str
 21,"TEXT_STMBDZ908_02864_SEQ_21",""
 22,"TEXT_STMBDZ908_02864_SEQ_22",""
 23,"TEXT_STMBDZ908_02864_SEQ_23",""
-24,"TEXT_STMBDZ908_02864_TODO_00","With the chat mode in <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Say<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, enter any phrase containing “rekindle the flames of hope” to receive a package from J'dyalani."
-25,"TEXT_STMBDZ908_02864_TODO_01","Deliver Erart's parting gift to Berehta."
-26,"TEXT_STMBDZ908_02864_TODO_02","Speak with Berehta."
+24,"TEXT_STMBDZ908_02864_TODO_00","チャットの「Say」モードで『冷えた暖炉に希望の火を』を
+含む言葉を入力してジャ・ヤーラニに合言葉を言う"
+25,"TEXT_STMBDZ908_02864_TODO_01","ベレータに<Sheet(EventItem,2002331,0)/>を渡す"
+26,"TEXT_STMBDZ908_02864_TODO_02","ベレータと話す"
 27,"TEXT_STMBDZ908_02864_TODO_03",""
 28,"TEXT_STMBDZ908_02864_TODO_04",""
 29,"TEXT_STMBDZ908_02864_TODO_05",""
@@ -49,45 +50,105 @@ int32,str,str
 45,"TEXT_STMBDZ908_02864_TODO_21",""
 46,"TEXT_STMBDZ908_02864_TODO_22",""
 47,"TEXT_STMBDZ908_02864_TODO_23",""
-48,"TEXT_STMBDZ908_02864_BEREHTA_000_000","Sorry about before. Deep down I always knew something had happened, but I didn't want to believe it."
-49,"TEXT_STMBDZ908_02864_BEREHTA_000_001","Whatever he had to say must've been terribly important..."
-50,"TEXT_STMBDZ908_02864_BEREHTA_100_001","I'm sorry. I thought I was ready, but I can't. Would you mind takin' a look at it first? If I start tearin' up again I'll never make it to the bottom of the page."
-51,"TEXT_STMBDZ908_02864_BEREHTA_000_002","(-Erart's Letter-)Dear mother,
-If you're reading this letter, then I'm very sorry, but I won't be returning home. Please don't be mad, and don't be sad. Just know that I did what I had to for the sake of Ala Mhigo."
-52,"TEXT_STMBDZ908_02864_BEREHTA_000_003","(-Erart's Letter-)I had hoped to deliver this to you in person, but I have a gift waiting for you in Ala Ghiri in the care of J'dyalani."
-53,"TEXT_STMBDZ908_02864_BEREHTA_000_004","(-Erart's Letter-)Go to her, and tell her it is time to rekindle the flames of hope. She will know what to do. I pray this brings you the same happiness you brought me and so many others over the years."
-54,"TEXT_STMBDZ908_02864_BEREHTA_000_005","What did my boy have to say?"
-55,"TEXT_STMBDZ908_02864_BEREHTA_100_005","<sniffle> Even when he's gone, he's lookin' out for us. I know I've been nothin' but a nuisance to you, but... Do you think you could go and pick up that package for me?"
-56,"TEXT_STMBDZ908_02864_BEREHTA_000_006","Thank you. <sniffle> Thank you so much..."
-57,"TEXT_STMBDZ908_02864_BEREHTA_000_007","I wonder what it is he left me. Whatever it is, I'll cherish it till my dying day."
-58,"TEXT_STMBDZ908_02864_JDYALANI_000_010","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! What a pleasant surprise. What brings you to Ala Ghiri?"
-59,"TEXT_STMBDZ908_02864_SYSTEM_000_011","With the chat mode in <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Say<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, use your keyboard or the software keyboard to enter any expression that contains the phrase “rekindle the flames of hope” to let J'dyalani know why you've come."
-60,"TEXT_STMBDZ908_02864_SAYTODO_000_000","rekindle the flames of hope"
-61,"TEXT_STMBDZ908_02864_JDYALANI_000_020","Ah! Yes, for our hearths and homes have been cold for far too long. I assumed this was meant for some nefarious end when that soldier from the Skulls gave this to me. I've always kept it close out of habit, but no one ever came to claim it."
-62,"TEXT_STMBDZ908_02864_JDYALANI_000_021","I see... So he sacrificed himself for the Resistance. Please give his family my condolences."
-63,"TEXT_STMBDZ908_02864_JDYALANI_000_022","The Skulls were always a rather belligerent bunch, but I remember he was different than the rest. We could have used more people like him back then."
-64,"TEXT_STMBDZ908_02864_BEREHTA_000_030","There you are. My nerves have had me up an' walkin' about all over waiting for you to get back. So, did you get the package?"
-65,"TEXT_STMBDZ908_02864_BEREHTA_000_031","Now, let's see... Hm? There are seeds in here. And a note."
-66,"TEXT_STMBDZ908_02864_BEREHTA_000_032","It says these are date palm seeds from Garlemald, and they'll grow even in soil as barren as ours.
-“May the fruit of these trees bring you health and happiness always.”"
-67,"TEXT_STMBDZ908_02864_BEREHTA_000_033","Oh, that boy of mine... I have to tell the others. There's plantin' to be done!"
-68,"TEXT_STMBDZ908_02864_ERART_000_034","(-Furtive-looking Fellow-)So the package made it here safely. You've done well, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
-69,"TEXT_STMBDZ908_02864_ERART_000_035","(-Furtive-looking Fellow-)Forgive me. The name's Erart, though you probably already knew that. Mother always did have a gift for finding good help."
-70,"TEXT_STMBDZ908_02864_ERART_000_036","I'm sure you have a lot of questions. Hopefully I can clear things up."
-71,"TEXT_STMBDZ908_02864_ERART_000_037","As you likely already know, I've been working undercover in the Garlean army as a member of the Skulls. I provided the Resistance with intelligence and, if the situation presented itself, swayed battles in their favor."
-72,"TEXT_STMBDZ908_02864_ERART_000_038","At the battle of Castellum Velodyna, for instance, I urged my superiors to speak with Fordola, and convince her it would be in their best interest to retreat. I believe you were there as well, yes?"
-73,"TEXT_STMBDZ908_02864_ERART_000_039","Sadly it was not always so easy as whispering a few choice words into the right ear. If I was to convince them of my loyalty, I had to follow all orders. No matter how horrible..."
-74,"TEXT_STMBDZ908_02864_ERART_000_040","I've cut down more than my fair share of friends and countrymen, convincing myself it was for the greater good. For the Resistance."
-75,"TEXT_STMBDZ908_02864_ERART_000_041","I still believe that, but I know full well there are those who will never forgive the things I've done. I thought it better they believe I died in battle."
-76,"TEXT_STMBDZ908_02864_ERART_000_042","And with Erart gone, it's time for me to move on."
-77,"TEXT_STMBDZ908_02864_ERART_000_043","What will I do now? Well, this war is far from over. But I cannot continue my fight here. No, I will assume a new identity, and find another land whose people long to be free from the Garleans' grasp."
-78,"TEXT_STMBDZ908_02864_ERART_000_044","I will miss this place... Thankfully it's in good hands now."
-79,"TEXT_STMBDZ908_02864_ERART_000_045","Farewell, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. When next we meet, I look forward to fighting with you on the same side of the battlefield."
-80,"TEXT_STMBDZ908_02864_BEREHTA_000_050","You should have seen the looks on everyone's faces. They practically snatched the seeds out of my hands. If only Erart could be here to help us plant them..."
-81,"TEXT_STMBDZ908_02864_Q1_000_000","What will you say?"
-82,"TEXT_STMBDZ908_02864_QA_000_001","Erart is alive!"
-83,"TEXT_STMBDZ908_02864_QA_000_002","..."
-84,"TEXT_STMBDZ908_02864_BEREHTA_000_060","You're absolutely right. He is alive─in our hearts, and in these seeds."
-85,"TEXT_STMBDZ908_02864_BEREHTA_000_070","Somethin' the matter? You're not still worryin' about me, are you? I promise you I'm fine."
-86,"TEXT_STMBDZ908_02864_BEREHTA_000_080","You've given me so much, I wish I knew how to thank you. Tell you what, when these palms get to growin', you can have all the dates you can eat."
-87,"TEXT_STMBDZ908_02864_BEREHTA_000_081","Speakin' of which, I best be goin'. Those seeds won't plant themselves. You take care now."
+48,"TEXT_STMBDZ908_02864_BEREHTA_000_000","……ふう、もう大丈夫。
+ごめんなさいね、冒険者さん。
+歳を取ると、どうしても涙もろくなっちゃって。"
+49,"TEXT_STMBDZ908_02864_BEREHTA_000_001","さて、エラートが書き残した手紙だけど……。"
+50,"TEXT_STMBDZ908_02864_BEREHTA_100_001","申し訳ないけど、冒険者さんが先に手紙を読んでおくれ。
+なんだか、上手く言葉にできないけど、怖くて……
+冒険者さんの後なら、ちゃんと向き合えると思うから……頼むよ。"
+51,"TEXT_STMBDZ908_02864_BEREHTA_000_002","(-ベレータ宛の手紙-)この手紙を読んでいるということは、
+僕はもう二度と、故郷に帰れないということだろう。
+心配をかけどおしの不出来な息子で、ごめん。"
+52,"TEXT_STMBDZ908_02864_BEREHTA_000_003","(-ベレータ宛の手紙-)そのお詫びというわけではないけれど、
+アラギリに住むジャ・ヤーラニというミコッテ族の女性に、
+贈り物を預けておいた。"
+53,"TEXT_STMBDZ908_02864_BEREHTA_000_004","(-ベレータ宛の手紙-)「冷えた暖炉に希望の火を」という合言葉を伝えれば、
+目的の物を渡してくれる手はずになっている。
+信頼できる人に頼み、受け取ってもらってくれ。"
+54,"TEXT_STMBDZ908_02864_BEREHTA_000_005","……冒険者さん、息子は……
+ううん……息子からの手紙には、なんて書いてあったんだい？"
+55,"TEXT_STMBDZ908_02864_BEREHTA_100_005","……そうかい、あの子は最後まで……
+冒険者さん、もうひとつお願いしていいかい？
+息子が預けた物を、取ってきてほしいんだよ。"
+56,"TEXT_STMBDZ908_02864_BEREHTA_000_006","ありがとうねえ……本当に、ありがとうねえ……。
+オバチャン、ここでずっと待ってるからね。"
+57,"TEXT_STMBDZ908_02864_BEREHTA_000_007","アラギリの「ジャ・ヤーラニ」さんから、
+息子が預けた物を、受け取ってきておくれ。
+オバチャン、ここでずっと……待ってるからね。"
+58,"TEXT_STMBDZ908_02864_JDYALANI_000_010","あらあら、冒険者さま……。
+本日はどのようなご用件で？"
+59,"TEXT_STMBDZ908_02864_SYSTEM_000_011","チャットの会話モードを「Say」モードにして、
+キーボードやソフトウェアキーボードで、
+『冷えた暖炉に希望の火を』と合言葉を入力しましょう。"
+60,"TEXT_STMBDZ908_02864_SAYTODO_000_000","冷えた暖炉に希望の火を"
+61,"TEXT_STMBDZ908_02864_JDYALANI_000_020","……私が経営する宿のお客様だった、髑髏連隊の若い兵隊さんから、
+このような袋を預かっておりました。
+合言葉を言った方に、お渡しするように、と。"
+62,"TEXT_STMBDZ908_02864_JDYALANI_000_021","これを受け取りに来たということは、彼は……。
+どうか、ご遺族の方には、お悔やみ申し上げますと、
+お伝えください……。"
+63,"TEXT_STMBDZ908_02864_JDYALANI_000_022","髑髏連隊は、私の宿でも横暴な態度でしたが、
+彼だけは、礼儀が正しかったのを覚えています。
+あの方はきっと……いえ、もうすべて過去のことでしょう。"
+64,"TEXT_STMBDZ908_02864_BEREHTA_000_030","お帰り、冒険者さん。
+心配……というか、待ちきれなくてね。
+エラートが預けた物は、受け取れたかい？"
+65,"TEXT_STMBDZ908_02864_BEREHTA_000_031","……これが、エラートが残してくれたもの。
+どれどれ、中身は……何かの種、みたいだ。
+おや、メモも一緒に入ってるのかい……ええっと……。"
+66,"TEXT_STMBDZ908_02864_BEREHTA_000_032","コールドハースの痩せた土地でも育てられそうな、
+デーツという果実の種を、帝国本土から取り寄せた。
+少しでも実りが増えることを願う……と、書いてあったよ。"
+67,"TEXT_STMBDZ908_02864_BEREHTA_000_033","まったく、あの子は最後まで……。
+どれ、みんなと種を植える相談をしてくるかね。
+冒険者さん、またあとで。"
+68,"TEXT_STMBDZ908_02864_ERART_000_034","(-頬に傷のある青年-)……無事に贈り物は届いたようですね。
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さんに、骨を折っていただき、
+感謝の念に堪えません。"
+69,"TEXT_STMBDZ908_02864_ERART_000_035","ああ、すみません、自己紹介が遅れました。
+初めまして、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん。
+僕があなたの探していた、エラートです。"
+70,"TEXT_STMBDZ908_02864_ERART_000_036","……いろいろと、疑問がお有りでしょうね。
+それに答えるためにも、お恥ずかしい内容ですが、
+少しだけ自分語りをさせてください。"
+71,"TEXT_STMBDZ908_02864_ERART_000_037","すでにお聞き及びかと思いますが、僕は髑髏連隊に潜入し、
+解放軍のためにさまざまな工作を行っていました。"
+72,"TEXT_STMBDZ908_02864_ERART_000_038","たとえば……ベロジナ大橋での戦いでは、
+フォルドラ隊長に早期撤退を進言して、兵を退かせたり……。
+そういえば、あの場には、あなたもいましたね。"
+73,"TEXT_STMBDZ908_02864_ERART_000_039","潜入工作で重要なことは、疑われないこと。
+ですから僕は、自分が工作員だと露見しないよう、
+髑髏連隊の悪行にも、手を貸していました。"
+74,"TEXT_STMBDZ908_02864_ERART_000_040","任務のためと言い聞かせ、解放軍の仲間を幾人も殺しました。
+それどころか、無辜の民を手にかけたこともありました。
+ラールガーズリーチの襲撃でも……僕は……。"
+75,"TEXT_STMBDZ908_02864_ERART_000_041","ですから、僕を憎み、許さない人も多い。
+生きていれば、必ず禍根となるでしょう……。
+ならば、僕は「戦死」していた方が、誰にとっても幸せです。"
+76,"TEXT_STMBDZ908_02864_ERART_000_042","……少し話しすぎましたね。
+僕はそろそろ行くことにします。"
+77,"TEXT_STMBDZ908_02864_ERART_000_043","……このあと、どうするのか？
+そうですね、まずはギラバニアを出て、名前を変えて……
+たぶん、帝国との戦いを続けるんだと思います。"
+78,"TEXT_STMBDZ908_02864_ERART_000_044","そしてもう二度と、この村に……ギラバニアに、戻りません。"
+79,"TEXT_STMBDZ908_02864_ERART_000_045","……では冒険者さん、いずれまたどこかの戦場で。
+願わくは、次は味方として、一緒に戦いたいですね。"
+80,"TEXT_STMBDZ908_02864_BEREHTA_000_050","ああ、冒険者さん。
+みんなと相談して、デーツを栽培することになったよ。
+あの子がくれた種だ、きっと丈夫に育ってくれるさ。"
+81,"TEXT_STMBDZ908_02864_Q1_000_000","何と言う？"
+82,"TEXT_STMBDZ908_02864_QA_000_001","エラートは生きている"
+83,"TEXT_STMBDZ908_02864_QA_000_002","…………"
+84,"TEXT_STMBDZ908_02864_BEREHTA_000_060","……ああ、そうだね。
+デーツの種の中に、あの子の意思は生きていた。
+オバチャン、しっかり受け取ったよ。"
+85,"TEXT_STMBDZ908_02864_BEREHTA_000_070","おや、冒険者さん、そんな変な顔をして……
+もしかして、オバチャンを心配してるのかい？
+ふふふ、まったく……もう大丈夫だよ。"
+86,"TEXT_STMBDZ908_02864_BEREHTA_000_080","さて、冒険者さんのおかげで、エラートの行方がわかった。
+こんなオバチャンの依頼を受けてくれて、感謝するよ。
+本当に、ありがとうね。"
+87,"TEXT_STMBDZ908_02864_BEREHTA_000_081","オバチャンはそろそろ行かなくちゃ。
+栽培方法について、打ち合わせがあるからさ。
+それじゃあ、またね、冒険者さん。"

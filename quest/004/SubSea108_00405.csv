@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBSEA108_00405_SEQ_00","Lyulf, a farmer at the Swiftperch settlement, needs your assistance with another part of his restoration scheme."
-1,"TEXT_SUBSEA108_00405_SEQ_01","To help Lyulf begin his dodo-raising endeavor, seek out the dodo nests scattered throughout the Flock and gather three fertilized eggs."
-2,"TEXT_SUBSEA108_00405_SEQ_02","You have gathered three fertilized dodo eggs. Return to Swiftperch and deliver them to the waiting Lyulf."
-3,"TEXT_SUBSEA108_00405_SEQ_03","Ready now to begin raising dodos in earnest, Lyulf is giddy with the thought of restoring Swiftperch to its former heights of agricultural glory. You can only hope that the eggs you acquired for the farmer will help contribute to the salvation of this Calamity-ravaged land."
+0,"TEXT_SUBSEA108_00405_SEQ_00","スウィフトパーチ入植地のリウルフは、入植地復興の準備を依頼したいようだ。"
+1,"TEXT_SUBSEA108_00405_SEQ_01","ドードーの繁殖を開始するため、ドードー営巣地に点在している「ドードーの巣」の中を探って、「ドードーの有精卵」を3個集めよう。"
+2,"TEXT_SUBSEA108_00405_SEQ_02","「ドードーの有精卵」を3個集めることができた。「スウィフトパーチ入植地」で待つ「リウルフ」に届けよう。"
+3,"TEXT_SUBSEA108_00405_SEQ_03","リウルフは、ドードーの有精卵を手にいれられたことで、入植地の復興を改めて決意した。<Highlight>ObjectParameter(1)</Highlight>が取ってきた卵が、この枯れた地に、かつての繁栄を生み出すことを願うばかりだ。"
 4,"TEXT_SUBSEA108_00405_SEQ_04",""
 5,"TEXT_SUBSEA108_00405_SEQ_05",""
 6,"TEXT_SUBSEA108_00405_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_SUBSEA108_00405_SEQ_21",""
 22,"TEXT_SUBSEA108_00405_SEQ_22",""
 23,"TEXT_SUBSEA108_00405_SEQ_23",""
-24,"TEXT_SUBSEA108_00405_TODO_00","Gather fertilized eggs from dodo nests."
-25,"TEXT_SUBSEA108_00405_TODO_01","Deliver the dodo eggs to Lyulf at Swiftperch."
+24,"TEXT_SUBSEA108_00405_TODO_00","ドードーの巣を調べてドードーの有精卵を手に入れる"
+25,"TEXT_SUBSEA108_00405_TODO_01","スウィフトパーチ入植地のリウルフにドードーの有精卵を届ける"
 26,"TEXT_SUBSEA108_00405_TODO_02",""
 27,"TEXT_SUBSEA108_00405_TODO_03",""
 28,"TEXT_SUBSEA108_00405_TODO_04",""
@@ -49,13 +49,29 @@ int32,str,str
 45,"TEXT_SUBSEA108_00405_TODO_21",""
 46,"TEXT_SUBSEA108_00405_TODO_22",""
 47,"TEXT_SUBSEA108_00405_TODO_23",""
-48,"TEXT_SUBSEA108_00405_LYULF_000_1","All these wild dodos you see about the place were actually once domesticated birds, bred by my father. They broke loose during the chaos of the Calamity and gradually became the feral, ill-tempered creatures we now do our best to avoid."
-49,"TEXT_SUBSEA108_00405_LYULF_000_2","But if I am to restore Swiftperch to the very same settlement it was when my father was alive, then I must also try my hand at dodo-raising. And, as you have likely surmised, I shall require your adventurer's resourcefulness in this endeavor."
-50,"TEXT_SUBSEA108_00405_LYULF_000_3","For the initial stage of my dodo-rearing enterprise, I need you to head into the Flock and seek out dodo nests. You'll be looking for fertilized eggs─three of them should do nicely for now."
-51,"TEXT_SUBSEA108_00405_LYULF_000_4","But pray be careful when liberating the eggs. The adult dodos will not take kindly to an intruder making off with their offspring!"
-52,"TEXT_SUBSEA108_00405_TALK_SCENE00005_000","You find nothing of interest."
-53,"TEXT_SUBSEA108_00405_LYULF_000_11","With three eggs, I should be able to experiment with breeding. Success or failure is not terribly important─to begin with, I mean only to gain some practical experience with the birds."
-54,"TEXT_SUBSEA108_00405_LYULF_000_12","Yes, you did exceptionally well in selecting only fertilized eggs! Now that I consider it, I'm not entirely sure how you managed to tell... In any case, I must raise the naturally aggressive dodo from the egg if I am to have any chance of surviving the breeding process."
-55,"TEXT_SUBSEA108_00405_LYULF_000_13","Apart from encouraging a more docile behavior while the bird is but a chick, it is imperative that I remove the gland that produces that infamous poisonous breath. My father's notes quite graphically depict the consequences of failing to do so."
-56,"TEXT_SUBSEA108_00405_LYULF_000_14","This really is rather exciting! Every day I take another step closer to my vision of a Swiftperch surrounded by golden fields of wheat and echoing with the calls of plump, waddling dodos!"
-57,"TEXT_SUBSEA108_00405_POP_MESSAGE","You sense a hostile presence!"
+48,"TEXT_SUBSEA108_00405_LYULF_000_1","実はこのあたりのファットドードーは、
+かつて生前の父が飼っていた家畜なんです。
+それが逃げ出し、野生化して増えてしまいました。"
+49,"TEXT_SUBSEA108_00405_LYULF_000_2","父が健在だったころの入植地を目指すからには、
+ドードーの飼育にも挑戦しようと思います。
+そのために、あなたの力をお貸しください。"
+50,"TEXT_SUBSEA108_00405_LYULF_000_3","ドードー営巣地には、いくつもの「ドードーの巣」があります。
+この巣を探り、「ドードーの有精卵」を3個取ってきてください。
+まずは、そこから始めてみようと思います。"
+51,"TEXT_SUBSEA108_00405_LYULF_000_4","ただし、卵を取るときは、十分お気をつけください。
+親ドードーに気づかれでもしたら、
+襲われてしまうやもしれませんから。"
+52,"TEXT_SUBSEA108_00405_TALK_SCENE00005_000","何も無かった"
+53,"TEXT_SUBSEA108_00405_LYULF_000_11","「ドードーの有精卵」が3個もあれば
+繁殖を試してみるには十分です。
+飼育の経験を積むのが、今の目的ですから。"
+54,"TEXT_SUBSEA108_00405_LYULF_000_12","……実に見事な卵です。あなたにお任せしてよかった。
+凶暴なドードーを、大人しい家畜にするには、
+どうしても卵から育てる必要があるんです。"
+55,"TEXT_SUBSEA108_00405_LYULF_000_13","幼鳥のうちに、毒のブレスを作る「毒腺」という器官を
+切除する必要があるものですから。
+ぜんぶ父の受け売りですけどね。"
+56,"TEXT_SUBSEA108_00405_LYULF_000_14","さあ、やってみせますとも。
+黄金色の小麦畑と、丸々太ったドードーたちがいる
+あの希望に満ちた入植地を再建するためにね！"
+57,"TEXT_SUBSEA108_00405_POP_MESSAGE","敵の気配を感じた！！"

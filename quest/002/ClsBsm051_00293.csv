@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSBSM051_00293_SEQ_00","Forgemaster Brithael would like to evaluate your progress."
-1,"TEXT_CLSBSM051_00293_SEQ_01","Satisfied with your recent progress, Brithael has tasked you with crafting three bronze cross-pein hammers. He has also suggested a number of ways to acquire materials, such as mining and hunting. Craft three bronze cross-pein hammers and present them to the forgemaster."
-2,"TEXT_CLSBSM051_00293_SEQ_02","Your hammers have met with Brithael's approval, and he rewards your efforts with an amateur's file, which should prove most useful in the days to come. He urges you to familiarize yourself with the tool, and return once you have gained more experience.
+0,"TEXT_CLSBSM051_00293_SEQ_00","鍛冶師ギルドのブリサエルは、冒険者に鍛冶師の基礎を教えようとしているようだ。"
+1,"TEXT_CLSBSM051_00293_SEQ_01","ブリサエルは冒険者の基礎力を磨くため、<Sheet(Item,2341,0)/>を作らせようとしている。「<Sheet(Item,2341,0)/>」を3個製作し、鍛冶師ギルドの「ブリサエル」に渡そう。"
+2,"TEXT_CLSBSM051_00293_SEQ_02","冒険者が製作した「<Sheet(Item,2341,0)/>」を、ブリサエルは絶賛してくれた。課題が簡単過ぎたかもしれないと、ブリサエルは次はより難しい課題を用意するつもりらしい。課題につまずかぬよう、鍛冶師としての経験を積もう。
 
-※The next blacksmith quest will be available from Brithael upon reaching level 10."
+※鍛冶師のレベルが10以上になると、ブリサエルから次の鍛冶師クエストを受注することができます。"
 3,"TEXT_CLSBSM051_00293_SEQ_03",""
 4,"TEXT_CLSBSM051_00293_SEQ_04",""
 5,"TEXT_CLSBSM051_00293_SEQ_05",""
@@ -27,7 +27,7 @@ int32,str,str
 21,"TEXT_CLSBSM051_00293_SEQ_21",""
 22,"TEXT_CLSBSM051_00293_SEQ_22",""
 23,"TEXT_CLSBSM051_00293_SEQ_23",""
-24,"TEXT_CLSBSM051_00293_TODO_00","Deliver bronze cross-pein hammers to Brithael."
+24,"TEXT_CLSBSM051_00293_TODO_00","ブリサエルに<Sheet(Item,2341,0)/>を納品"
 25,"TEXT_CLSBSM051_00293_TODO_01",""
 26,"TEXT_CLSBSM051_00293_TODO_02",""
 27,"TEXT_CLSBSM051_00293_TODO_03",""
@@ -51,25 +51,57 @@ int32,str,str
 45,"TEXT_CLSBSM051_00293_TODO_21",""
 46,"TEXT_CLSBSM051_00293_TODO_22",""
 47,"TEXT_CLSBSM051_00293_TODO_23",""
-48,"TEXT_CLSBSM051_00293_BRITHAEL_000_1","Praise the Builder, I was afraid ye might've joined up with another crew! The thought of it pained me so much, I was down at the Wench till the mornin' bells, I was."
-49,"TEXT_CLSBSM051_00293_BRITHAEL_000_2","But here you are, still brimmin' with potential─an' with some extra meat on yer smittin' arm, if me eyes don't deceive me!"
-50,"TEXT_CLSBSM051_00293_BRITHAEL_000_3","So, errr...somethin' new, somethin' new... O' course, how could I forget? <Highlight>ObjectParameter(1)</Highlight>, I bid ye craft three bronze cross-pein hammers─jus' like the ones all our apprentice smitties use."
-51,"TEXT_CLSBSM051_00293_BRITHAEL_000_4","Fer this ye'll need bronze, maple lumber, an' hempen cloth. Now, I know makin' the bronze won't pose ye no trouble, but allow me to offer ye a bit of advice regardin' the materials."
-52,"TEXT_CLSBSM051_00293_BRITHAEL_000_5","If ye want to save yerself some coin, ye might consider minin' yer own copper an' tin out in the wilds."
-53,"TEXT_CLSBSM051_00293_BRITHAEL_000_6","An' if that don't tickle yer fancy, ye might consider whackin' the odd coblyn till it stops movin'. They lug ore 'round with 'em, see. An' it ain't as if swingin' a sword's all that different from poundin' a lump o' metal into shape, is it?"
-54,"TEXT_CLSBSM051_00293_BRITHAEL_000_7","At the end o' the day, though, how ye go about gettin' the bits an' pieces don't matter to me. I jus' want to see if ye can make a decent hammer. Do what needs doin' an' come back when it's done."
-55,"TEXT_CLSBSM051_00293_BRITHAEL_000_10","Where are them hammers I asked for, <If(PlayerParameter(4))>lass<Else/>lad</If>?"
-56,"TEXT_CLSBSM051_00293_BRITHAEL_000_11","Heh heh...seems last time weren't no fluke. This here's some impressive work, <If(PlayerParameter(4))>lass<Else/>lad</If>."
-57,"TEXT_CLSBSM051_00293_BRITHAEL_000_12","Now, a layman might look at this an' think ye'd jus' stuck a piece o' bronze on a maple stick, but ye've done a damn sight more than that─whether ye know it or not."
-58,"TEXT_CLSBSM051_00293_BRITHAEL_000_13","A hammer's a tool, after all, an' the head's got to grip the shaft fer tens o' thousands o' strikes."
-59,"TEXT_CLSBSM051_00293_BRITHAEL_000_14","What's more, when a smitty's poundin' a red-hot piece o' metal, <If(PlayerParameter(4))>her<Else/>his</If> hammer takes up some o' the heat an' swells a touch. Which ain't a problem─unless it's a poorly made piece o' shite."
-60,"TEXT_CLSBSM051_00293_BRITHAEL_000_15","Take it from me, <If(PlayerParameter(4))>lass<Else/>lad</If>─there's few things more embarrassin' than flingin' a glowin' hammerhead over yer shoulder, straight into the eye o' yer newest apprentice...even if he <Emphasis>did</Emphasis> eventually get his sight back."
-61,"TEXT_CLSBSM051_00293_BRITHAEL_000_16","But I reckon your hammers won't lead to any incidents like that!"
-62,"TEXT_CLSBSM051_00293_BRITHAEL_000_17","In short, I'm happy with what ye've done. Now, I'll spare us both the “don't rest on yer laurels” speech if it's all the same to you. Statin' the bleedin' obvious is best done with a drink in yer hand, I find."
-63,"TEXT_CLSBSM051_00293_BRITHAEL_000_18","But well done, anyroad."
-64,"TEXT_CLSBSM051_00293_BRITHAEL_000_19","Here, ye'll be needin' this."
-65,"TEXT_CLSBSM051_00293_BRITHAEL_000_20","A hammer'll suffice fer simple smithin', but complex jobs call fer a more delicate touch─which is what a file gives ye. Usin' one alongside yer hammer'll make yer life a good deal easier, whatever yer craftin'."
-66,"TEXT_CLSBSM051_00293_BRITHAEL_000_21","Try smithin' somethin' simple─I guarantee ye'll see the difference. An' when ye've done that, do it again. I want ye to practice till ye can wield that file as well as yer hammer! Once ye've got the hang of it, come back here fer another task!"
-67,"TEXT_CLSBSM051_00293_SYSTEM_000_8","Certain gear grants bonuses to your <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>craftsmanship<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>control<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>CP<UIGlow>01</UIGlow><UIForeground>01</UIForeground> values."
-68,"TEXT_CLSBSM051_00293_SYSTEM_000_9","A higher craftsmanship rating hastens the progress of synthesis; greater control increases the chance of creating high-quality items; and additional CP improves your crafting stamina."
-69,"TEXT_CLSBSM051_00293_SYSTEM_000_10","Outfitting yourself with an eye to your current objective will increase the efficiency of your crafting endeavors."
+48,"TEXT_CLSBSM051_00293_BRITHAEL_000_1","おおっ、キミを待ちかねていましたよ！
+もう来てくれないんじゃないかと心配で、
+胃薬の量が増える増える……。"
+49,"TEXT_CLSBSM051_00293_BRITHAEL_000_2","ですが、こうして来てくれたのですからね……。
+キミの才能を、必ずや磨き上げてみせましょう。"
+50,"TEXT_CLSBSM051_00293_BRITHAEL_000_3","というわけで、キミの基礎をしっかり固めますよ。
+「<Sheet(Item,2341,0)/>」を3個製作してみてください。
+これは、僕たち鍛冶師が使う道具のひとつですね。"
+51,"TEXT_CLSBSM051_00293_BRITHAEL_000_4","材料は「ブロンズインゴット」と「メープル材」と「草布」。
+ブロンズインゴットの製作は、もうお手の物ですよね？
+では、材料調達はいかがでしょう？"
+52,"TEXT_CLSBSM051_00293_BRITHAEL_000_5","「採掘師」ならば、「銅鉱」や「錫鉱」のような
+鍛冶師がよく使う材料をザナラーン地方で採集できます。"
+53,"TEXT_CLSBSM051_00293_BRITHAEL_000_6","あるいは、鉱物を好む「コブラン」という魔物を
+討伐することでも、手に入れられることがありますよ。"
+54,"TEXT_CLSBSM051_00293_BRITHAEL_000_7","それでは、キミがどう青銅を加工してみせるのか……
+期待して待っています。頑張ってくださいね。"
+55,"TEXT_CLSBSM051_00293_BRITHAEL_000_10","どうですか？
+「<Sheet(Item,2341,0)/>」は完成しましたか？
+3個でいいですからね？"
+56,"TEXT_CLSBSM051_00293_BRITHAEL_000_11","ほっほう、これはこれは見事なものですなぁ。
+いやはや感服いたしましたよ。
+これほどの完成度を見せていただけるとは。"
+57,"TEXT_CLSBSM051_00293_BRITHAEL_000_12","青銅でハンマーの頭を作り、
+メープル材の柄と組み合わせるだけ……。
+シンプルな作りですが、これがなかなか奥が深い。"
+58,"TEXT_CLSBSM051_00293_BRITHAEL_000_13","接合部分の精度をきっちりと出さないと、
+ハンマーとして使用に足る強度が出せません。"
+59,"TEXT_CLSBSM051_00293_BRITHAEL_000_14","それに青銅の熱による伸縮まで計算に入れなければ、
+ハンマーの柄が緩み、頭がすっぽ抜けたりする事故に
+繋がってしまうんですよ。"
+60,"TEXT_CLSBSM051_00293_BRITHAEL_000_15","実は僕も昔、そういう失敗をしました。
+なかなか、最適な状態を覚えられなかったんですよ。"
+61,"TEXT_CLSBSM051_00293_BRITHAEL_000_16","その点、この「<Sheet(Item,2341,0)/>」は完璧です。
+微塵の欠点も見当たりませんよ。"
+62,"TEXT_CLSBSM051_00293_BRITHAEL_000_17","流石は僕の見込んだ方と言うべきか
+それとも末恐ろしいと言うべきか。
+お見事です、としか言いようがありません。"
+63,"TEXT_CLSBSM051_00293_BRITHAEL_000_18","どうやらこんな初級、こんな初歩の課題では
+キミにとっては物足りなかったみたいですね。
+次の機会には、もう少し上を目指していただきましょう。"
+64,"TEXT_CLSBSM051_00293_BRITHAEL_000_19","そのために、この「<Sheet(Item,2355,0)/>」をお持ちください。"
+65,"TEXT_CLSBSM051_00293_BRITHAEL_000_20","これは「副道具」といいまして、
+ハンマーのような「主道具」と併せて装備することで、
+作業がやりやすくなる、というものです。"
+66,"TEXT_CLSBSM051_00293_BRITHAEL_000_21","新しい鍛錬をお教えするのは……そうですね。
+そのファイルの扱いに慣れた頃にしましょうか。
+では、その時にまた会いましょう。"
+67,"TEXT_CLSBSM051_00293_SYSTEM_000_8","装備を変更することによって「作業精度」「加工精度」「CP」を
+上昇させることができます。"
+68,"TEXT_CLSBSM051_00293_SYSTEM_000_9","「作業精度」は作業の進む量がアップし、
+「加工精度」は品質の上がる量がアップし、
+「CP」はCPの最大値がアップします。"
+69,"TEXT_CLSBSM051_00293_SYSTEM_000_10","製作の目的に合わせて、装備を整えていきましょう。"

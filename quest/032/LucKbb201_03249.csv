@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKBB201_03249_SEQ_00","This Lominsan gentleman appears just a tad too excited about something.
+0,"TEXT_LUCKBB201_03249_SEQ_00","※本クエストは、ジョブ「踊り子」の修得クエストです。
 
-※This quest will unlock the dancer job."
-1,"TEXT_LUCKBB201_03249_SEQ_01","The eager Lominsan shares with you the news that has him jumping out of his boots. As he tells it, a troupe of dancers has arrived in town from far-off Radz–at–Han, and their singularly sublime movements both delight the eyes and stir one's very soul. So smitten is he with their performance that he positively insists that you see it for yourself. Should you be inclined to humor the excitable fellow, make your way to the lower decks and see for yourself what all the fuss is."
-2,"TEXT_LUCKBB201_03249_SEQ_02","You arrive at the lower decks and speak with a young woman who introduces herself as a dancer of Troupe Falsiam. She explains to you that she is making her final preparations before taking the stage, and cordially invites you to stay around and enjoy the show. If you have no other pressing business to attend to, why not do just that?"
-3,"TEXT_LUCKBB201_03249_SEQ_03","In the midst of appreciating the performance, you appear to have caught the attention of one Mistress Nashmeira, Troupe Falsiam's principal dancer, who approaches you with an enticing offer. In exchange for your assistance with the troupe's tour of Eorzea, she will personally instruct you in the art of the Kriegstanz, the ancient war dance passed down from her ancestors, which she promises will avail you not only on the stage, but in your adventures as well."
-4,"TEXT_LUCKBB201_03249_SEQ_04","Nashmeira is overjoyed at your acceptance of her offer, and promptly outfits you with the fundamental tools of your new trade: a soul crystal which will impart to you basic knowledge in the art of the dance, and suitable attire to wear upon the stage. She encourages you to promptly dress yourself in the latter, and bids you speak with her again when you are ready to receive your first lesson."
+リムサ・ロミンサの下甲板層にいる興奮した様子の海都民は、冒険者に勧めたい興行があるようだ。"
+1,"TEXT_LUCKBB201_03249_SEQ_01","ラザハンから踊り子の一座がやってきているらしい。リムサ・ロミンサの下甲板層で、一座の花形である「踊り子」と話そう。"
+2,"TEXT_LUCKBB201_03249_SEQ_02","踊り子ラナー・ミーゴは、公演に備え準備をしていた。リムサ・ロミンサの下甲板層の「<Sheet(EObj,2009763,0)/>」で待機して開演を待とう。"
+3,"TEXT_LUCKBB201_03249_SEQ_03","ファルシャム一座の座長ナシュメラから踊り子にスカウトされた。リムサ・ロミンサの下甲板層で「ナシュメラ」と話そう。"
+4,"TEXT_LUCKBB201_03249_SEQ_04","「踊り子」としてファルシャム一座の興行に参加することになった。渡された「<Sheet(Item,27358,0)/>」を装備し、もう一度「ナシュメラ」と話そう。"
 5,"TEXT_LUCKBB201_03249_SEQ_05",""
 6,"TEXT_LUCKBB201_03249_SEQ_06",""
 7,"TEXT_LUCKBB201_03249_SEQ_07",""
@@ -27,9 +27,9 @@ int32,str,str
 21,"TEXT_LUCKBB201_03249_SEQ_21",""
 22,"TEXT_LUCKBB201_03249_SEQ_22",""
 23,"TEXT_LUCKBB201_03249_SEQ_23",""
-24,"TEXT_LUCKBB201_03249_TODO_00","Speak with the troupe's dancer."
-25,"TEXT_LUCKBB201_03249_TODO_01","Wait for the show to begin."
-26,"TEXT_LUCKBB201_03249_TODO_02","Speak with Nashmeira."
+24,"TEXT_LUCKBB201_03249_TODO_00","一座の踊り子と話す"
+25,"TEXT_LUCKBB201_03249_TODO_01","<Sheet(EObj,2009763,0)/>で待機"
+26,"TEXT_LUCKBB201_03249_TODO_02","ナシュメラと話す"
 27,"TEXT_LUCKBB201_03249_TODO_03",""
 28,"TEXT_LUCKBB201_03249_TODO_04",""
 29,"TEXT_LUCKBB201_03249_TODO_05",""
@@ -51,39 +51,100 @@ int32,str,str
 45,"TEXT_LUCKBB201_03249_TODO_21",""
 46,"TEXT_LUCKBB201_03249_TODO_22",""
 47,"TEXT_LUCKBB201_03249_TODO_23",""
-48,"TEXT_LUCKBB201_03249_EXCITEDTOWNSMAN03249_000_000","Good <If(PlayerParameter(4))>madam<Else/>sir</If>! Oh, good <If(PlayerParameter(4))>madam<Else/>sir</If>! You can spare a moment, yes? Of course you can! You see, I've just witnessed a performance most marvelous, and I simply <Emphasis>must</Emphasis> tell someone about it!"
-49,"TEXT_LUCKBB201_03249_EXCITEDTOWNSMAN03249_000_001","What sort of performance, you ask? Why, none other than a troupe of traveling dancers hailing from Radz–at–Han across the sea! I daresay their bold, exotically beautiful motions are like nothing our realm has ever seen!"
-50,"TEXT_LUCKBB201_03249_EXCITEDTOWNSMAN03249_000_002","Adventurers like you are always on the lookout for stimulating new experiences, are you not? You simply must witness this spectacle for yourself! Just follow this road toward the convent of the Dutiful Sisters, and you'll run smack dab into the stage they've set up in the square."
-51,"TEXT_LUCKBB201_03249_EXCITEDTOWNSMAN03249_000_010","My good <If(PlayerParameter(4))>woman<Else/>man</If>! Whyever are you wasting your time with silly old me when one of the greatest spectacles the realm has seen awaits you!? Hurry to the square and feast your eyes on those beauties from Radz–at–Han. I promise that you won't regret it!"
-52,"TEXT_LUCKBB201_03249_KUIHLUD_000_015","What have we here? An adventurer...and an imposing one, at that. Ah, but where are my manners? I am Kuihlud, Troupe Falsiam's humble instrumentalist. If you're looking for the star of our little company, you'll find her just over there."
-53,"TEXT_LUCKBB201_03249_RANAAMIHGO_000_030","Greetings, traveler. Come to see our little show, have you? On behalf of Troupe Falsiam, I welcome you."
-54,"TEXT_LUCKBB201_03249_RANAAMIHGO_000_031","My troupemates are seeing to the final preparations even as we speak. Don't wander too far─the curtain will be rising any minute now!"
-55,"TEXT_LUCKBB201_03249_RANAAMIHGO_000_032","It's been quite some time since we brought our art to these shores, or so our fearless leader tells us. I've been practicing day and night ever since we arrived to bring you and your countrymen the performance of a lifetime!"
-56,"TEXT_LUCKBB201_03249_RANAAMIHGO_000_040","As for yours truly, believe it or not, this is actually my first time in Eorzea! I'm still a newcomer to the troupe, you see... Oh, but would you look at the time! We'll be taking the stage shortly, so pray sit back and enjoy the show."
-57,"TEXT_LUCKBB201_03249_KUIHLUD_000_200","So close, and yet so far... For all who cannot make the voyage to our home, we bring our art to yours... Hailing from Radz–at–Han across the sea, I present the incomparable, transcendent...Troupe Falsiam!"
-58,"TEXT_LUCKBB201_03249_KUIHLUD_000_201","Today, we have prepared a sumptuous feast for your eyes and ears. Let the soaring melodies and the stirring, striking steps of our dancers reach your heart and spirit you away to a distant world!"
-59,"TEXT_LUCKBB201_03249_NASHMEIRA_000_202","(-Elegant Easterner-)Yes... Just so, Ranaa... Betray not your trembling heart... Dance your dance till the last, and let them fall under your spell..."
-60,"TEXT_LUCKBB201_03249_NASHMEIRA_000_203","(-Elegant Easterner-)My apologies. I did not mean to intrude upon your experience. Pray ignore my mutterings and enjoy the girl's performance. She's trained quite hard for this day, after all."
-61,"TEXT_LUCKBB201_03249_NASHMEIRA_000_204","(-Elegant Easterner-)I must say, you carry yourself with a certain grace, don't you? Ah, but do excuse me. I forget myself..."
-62,"TEXT_LUCKBB201_03249_NASHMEIRA_000_250","Forgive me for not having properly introduced myself. I am Nashmeira, principal dancer and leader of Troupe Falsiam. Ranaa, the girl whose performance you were admiring, is my number one student and protégé."
-63,"TEXT_LUCKBB201_03249_NASHMEIRA_000_251","This may seem a bit forward, but pray tell: have you ever harbored aspirations of stepping on stage? Of losing yourself in a whirlwind of music and motion, and enchanting your audience with your every movement?"
-64,"TEXT_LUCKBB201_03249_NASHMEIRA_100_252","Forgive me...I know this is all quite sudden. And yet, I could not help myself. From the first moment I laid eyes on you, I saw─how can I put it?─a poise that could only be honed on the field of battle. Yes, there is no doubt in my mind...you would make a fine dancer."
-65,"TEXT_LUCKBB201_03249_NASHMEIRA_000_252","I see you are confused, and for good reason. Allow me to explain: there are forms of dance meant merely to grace a stage, and then there is the art of Troupe Falsiam. We dance the Kriegstanz─a dance of war so ancient it is said to predate even the founding of our city."
-66,"TEXT_LUCKBB201_03249_NASHMEIRA_000_253","Our dancers train primarily in two techniques, each with applications both ornamental and martial. For one, we are proficient in tossing throwing weapons which are most dazzling to the eyes─and even more damaging to any unfortunate foes they strike."
-67,"TEXT_LUCKBB201_03249_NASHMEIRA_000_254","The second is, of course, dancing itself. Perhaps you have already felt it, but it is believed that there are mystical powers to our movements, which can serve to heighten senses, lift spirits, and drive weakness and worry from people's hearts."
-68,"TEXT_LUCKBB201_03249_NASHMEIRA_000_255","The people of Eorzea have done well to rebuild this realm in the Calamity's wake. Yet there are scars that still go unhealed, and the specter of war still looms large over the land."
-69,"TEXT_LUCKBB201_03249_NASHMEIRA_000_256","If our art of dance might serve in some small way to ease worries and fears, and offer succor to the hearts of Eorzeans far and wide, nothing would bring our humble troupe greater honor. And so did I decide to lead Troupe Falsiam on a tour of this realm."
-70,"TEXT_LUCKBB201_03249_NASHMEIRA_000_257","There is, however, a bit of a rub. We have come with only two dancers─Ranaa and myself─and I am still nursing an injury I suffered on the voyage over. My protégé is a talented one, but I can hardly ask her to bear the burden of tour alone. And so I felt compelled to reach out to you."
-71,"TEXT_LUCKBB201_03249_NASHMEIRA_000_258","I can assure you that the arrangement would be to our mutual benefit. Should you offer us your aid, I will personally instruct you in the art of the Kriegstanz─an art that will avail you not only on the stage, but on the field of battle as well."
-72,"TEXT_LUCKBB201_03249_NASHMEIRA_000_259","Worry not...I will not force you to rush your decision. We must begin rehearsal for our next performance. Do give some thought to my offer, and seek me out again should you be so inclined."
-73,"TEXT_LUCKBB201_03249_RANAAMIHGO_000_300","Thank you ever so much─I could see you cheering me on to the final curtain call! It's always a bit scary coming to new lands, but that just makes a successful performance like today's all the more satisfying!"
-74,"TEXT_LUCKBB201_03249_KUIHLUD_000_305","I could not help but notice that our fearless leader took an interest in you. While we do not lack for talented dancers─Ranaa is certainly one of them─none can hold a candle to Nashmeira. She is our pillar of strength...our guiding star."
-75,"TEXT_LUCKBB201_03249_NASHMEIRA_000_320","You return, friend. Have you taken the time to think over my offer?"
-76,"TEXT_LUCKBB201_03249_Q1_000_000","Accept Nashmeira's offer to train as a dancer?"
-77,"TEXT_LUCKBB201_03249_NASHMEIRA_000_325","I see...a shame, that. And yet no one can be forced to take the stage against <If(PlayerParameter(4))>her<Else/>his</If> will. My troupe and I will sojourn in this city for a while still. Should you have a change of heart, pray do not hesitate to return."
-78,"TEXT_LUCKBB201_03249_NASHMEIRA_000_330","Splendid! To tell the truth, I had feared your answer would be no, but fortune smiles upon Troupe Falsiam today. As principal dancer and company leader, allow me to officially welcome you to our ranks."
-79,"TEXT_LUCKBB201_03249_RANAAMIHGO_000_331","Wait, don't tell me─Nashmeira has handpicked you to join our troupe and become a dancer. Is Ranaa right, or is Ranaa right!?"
-80,"TEXT_LUCKBB201_03249_RANAAMIHGO_000_332","I knew it! I haven't been doing this for as long as Mistress Nashmeira, but even I can see that your poise and posture is anything but ordinary. But don't get your hopes up too high─you're going to have to work your arse off to outshine Ranaa Mihgo!"
-81,"TEXT_LUCKBB201_03249_NASHMEIRA_000_333","Let it suffice to say that I will be watching <Emphasis>both</Emphasis> of your careers with great interest. Oh, but where are my manners? I haven't even asked my student <If(PlayerParameter(4))>her<Else/>his</If> name!"
-82,"TEXT_LUCKBB201_03249_NASHMEIRA_000_334","An elegant name indeed. Very well then, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>...this is for you. This crystal houses the amassed knowledge and memories of generations of our forebears─butterflies of the battlefield who have fluttered their way into history and legend. Take it, and treasure it."
-83,"TEXT_LUCKBB201_03249_NASHMEIRA_000_335","And of course, you'll also be needing a change of clothes. Here, this outfit should do. Go ahead, put it on! You'll be amazed at the freedom of movement the pliant fabric affords you."
+48,"TEXT_LUCKBB201_03249_EXCITEDTOWNSMAN03249_000_000","<If(PlayerParameter(4))>姉ちゃん<Else/>兄ちゃん</If>！　急ぎじゃなけりゃ、必見の興行があるぜ！
+今、リムサ・ロミンサに近東の都市ラザハンから、
+「踊り子」の一座がやってきているんだ！"
+49,"TEXT_LUCKBB201_03249_EXCITEDTOWNSMAN03249_000_001","なんでも、世界各国で興行している人気一座だとか！
+その踊りも、俺たちがよく目にしているエオルゼアの踊りとは、
+だいぶ違った華やかなものらしいぜ。"
+50,"TEXT_LUCKBB201_03249_EXCITEDTOWNSMAN03249_000_002","あんたら冒険者は、そうした物珍しいモンが大好物だろう？
+この道を、エーデルワイス商会の方へと下っていった広場で、
+公演を行うそうだから、観に行っちゃどうだい？"
+51,"TEXT_LUCKBB201_03249_EXCITEDTOWNSMAN03249_000_010","近東のラザハンから、「踊り子」の一座がやってきているんだ！
+この道を、エーデルワイス商会の方へと下っていった広場で、
+公演を行うそうだから、観に行っちゃどうだい？"
+52,"TEXT_LUCKBB201_03249_KUIHLUD_000_015","おや、これはまた腕っぷしの強そうな方ですね。
+アタシは一座の楽士でして、
+花形の「踊り子」は、そっちの嬢ちゃんです。"
+53,"TEXT_LUCKBB201_03249_RANAAMIHGO_000_030","あーっ！　もしかしてお客さんかな？
+私たち「ファルシャム一座」の公演を、
+観に来てくれてありがとう！"
+54,"TEXT_LUCKBB201_03249_RANAAMIHGO_000_031","今はまだ準備中なんだけど、
+もうすぐ着替えて開演するから、ちょっと待っててね！"
+55,"TEXT_LUCKBB201_03249_RANAAMIHGO_000_032","エオルゼアでの興行は、一座としても久しぶりらしくてさ。
+座員一同、いい公演にしようと気合はバッチリ！
+キミも、期待していてね！"
+56,"TEXT_LUCKBB201_03249_RANAAMIHGO_000_040","私は、エオルゼアを訪れるのは初めてなんだ！
+……って、いつまでも話していないで準備しなくちゃ！
+もうすぐ開演するから、ちょっと待っていてね。"
+57,"TEXT_LUCKBB201_03249_KUIHLUD_000_200","近いようで、通うにゃ遠い……。
+なれば、こちらから参りましょう！
+我ら、近東の島国ラザハンより来たりし「ファルシャム一座」！"
+58,"TEXT_LUCKBB201_03249_KUIHLUD_000_201","さて、此度、披露いたしますのは、
+楽器の音色に合わせて弾む、一座が誇る「踊り子」の舞！
+皆様の、心に響けと踊りますゆえ、どうか拍手喝采を！"
+59,"TEXT_LUCKBB201_03249_NASHMEIRA_000_202","(-指導者らしき女性-)そう、そのまま……
+緊張を見せないで、ラナー……。
+最後まで踊りきってこそ、観衆の心を動かすことができるのよ。"
+60,"TEXT_LUCKBB201_03249_NASHMEIRA_000_203","(-指導者らしき女性-)あら、ごめんなさい。
+せっかくご覧いただいているのに、気を散らすようなことを……。
+どうぞ、彼女の舞に目を向けてくださいな。"
+61,"TEXT_LUCKBB201_03249_NASHMEIRA_000_204","(-指導者らしき女性-)ところで…………あなた、素敵ね。"
+62,"TEXT_LUCKBB201_03249_NASHMEIRA_000_250","先ほどは突然、失礼。
+私はファルシャム一座の座長、ナシュメラ。
+舞いを披露していた踊り子、ラナー・ミーゴの師匠でもあるわ。"
+63,"TEXT_LUCKBB201_03249_NASHMEIRA_000_251","さて、あなたにひとつ質問……。
+うちのラナーと一緒に、
+「踊り子」として、舞台に立ってみる気はない？"
+64,"TEXT_LUCKBB201_03249_NASHMEIRA_100_252","戸惑うのも当然よね……でも、あなたを見た瞬間、感じたの。
+数多の戦闘をこなし、身につけたであろうその立ち振る舞い。
+きっと、いい舞を踊るんだろうな、って。"
+65,"TEXT_LUCKBB201_03249_NASHMEIRA_000_252","もう少し、詳しく説明するわ……。
+私たちは、近東地域の自由民から生まれた武の舞踏、
+「クリークタンツ」を継承している一座なの。"
+66,"TEXT_LUCKBB201_03249_NASHMEIRA_000_253","その特徴は、大きくふたつ……。
+ひとつは、武の舞踏という名のとおり、
+各地を旅する上で身につけた、投擲武器を振るう戦いの術。"
+67,"TEXT_LUCKBB201_03249_NASHMEIRA_000_254","そして、もうひとつは「舞」そのもの……。
+クリークタンツの舞には、ある魔法的な力が宿っているの。
+観る者の心を鼓舞し、己の内に抱える不安を追い出す力が、ね。"
+68,"TEXT_LUCKBB201_03249_NASHMEIRA_000_255","エオルゼアは、霊災以後めざましい速度で復興を遂げているわ。
+けれど、未だに災厄の爪痕は残り、戦乱が人々を脅かしている。"
+69,"TEXT_LUCKBB201_03249_NASHMEIRA_000_256","私たち一座は、今回の巡業で各国の民に舞を披露することで、
+人々が抱える不安を、少しでも和らげていきたいと思っているの。"
+70,"TEXT_LUCKBB201_03249_NASHMEIRA_000_257","ただ、私が怪我で引退して以来、一座の踊り子はラナーだけ。
+エオルゼア諸国をまわる間だけでも、手を貸してくれたら助かるわ。
+それに……あなたにもメリットのある話だと思う。"
+71,"TEXT_LUCKBB201_03249_NASHMEIRA_000_258","さっきも言ったように、
+私たちのクリークタンツは、戦うための力にもなる……。
+冒険者として、新たな戦闘術の修得には興味があるんじゃない？"
+72,"TEXT_LUCKBB201_03249_NASHMEIRA_000_259","さて、私は座員たちに今の公演の講評をしなくちゃ。
+しばらくは、この広場にいるだろうから、
+「踊り子」の件、興味が出たら私に話しかけてね。"
+73,"TEXT_LUCKBB201_03249_RANAAMIHGO_000_300","公演を観てくれて、ありがとうね！
+いやぁ……緊張したけど、無事に終わってよかったよ。
+新しい土地での初演は、いっつも胸がドキドキのバクバクでさ。"
+74,"TEXT_LUCKBB201_03249_KUIHLUD_000_305","うちの座長と話してらっしゃいましたね。
+彼女は、先代の「踊り子」にして、今は一座の大黒柱。
+ラナーはもちろん、座員はみな頭が上がりませんよ。"
+75,"TEXT_LUCKBB201_03249_NASHMEIRA_000_320","あら、声をかけてくれたということは……
+「踊り子」になることを了承してくれるのかしら？"
+76,"TEXT_LUCKBB201_03249_Q1_000_000","「踊り子」となり、ファルシャム一座の一員となりますか？"
+77,"TEXT_LUCKBB201_03249_NASHMEIRA_000_325","それは残念……。
+私たちは、ここでしばらく次の公演の題材を検討しているから、
+気が変わったら、また声をかけて。"
+78,"TEXT_LUCKBB201_03249_NASHMEIRA_000_330","ありがとう！　実は断られたらどうしようかと思っていたの。
+これから一緒に、一座を盛り立てていきましょう。"
+79,"TEXT_LUCKBB201_03249_RANAAMIHGO_000_331","「踊り子」に、ってことは……
+キミ、ナシュメラ先生にスカウトされたの！？"
+80,"TEXT_LUCKBB201_03249_RANAAMIHGO_000_332","たしかに、改めて見ると、すごく綺麗な立ち姿……。
+キミなら踊り子として、かなりの存在になりそう！"
+81,"TEXT_LUCKBB201_03249_NASHMEIRA_000_333","一座の座長としては、
+切磋琢磨して、ふたりともに成長していってほしいものね。
+さあ、あなたの名前を教えてくれるかしら？"
+82,"TEXT_LUCKBB201_03249_NASHMEIRA_000_334","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>……それじゃあ、これを受け取って。
+武の舞踏「クリークタンツ」の技と知識が込められた、
+「<Sheet(Item,25217,0)/>」よ。"
+83,"TEXT_LUCKBB201_03249_NASHMEIRA_000_335","それと、初歩的な装備一式も渡しておくわ。
+これらを身につければ、あなたも立派な「踊り子」よ！
+さあ、さっそく身につけてみてちょうだい！"

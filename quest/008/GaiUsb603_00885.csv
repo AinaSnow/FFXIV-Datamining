@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB603_00885_SEQ_00","Idristan is searching for an adventurer to undertake a distasteful task."
-1,"TEXT_GAIUSB603_00885_SEQ_01","You learn that voracious jackals have been spotted near Florentel's Spire. Having fled from snow-covered Coerthas, they are likely to be a danger to travelers. Idristan has given you a chunk of fetid dodo flesh to be used to draw out the beasts. Find a suitable place to set down the meat, and slay the jackals that appear."
-2,"TEXT_GAIUSB603_00885_SEQ_02","You have slain the jackals and made the area that much safer. Return to Idristan and inform him the deed is done."
-3,"TEXT_GAIUSB603_00885_SEQ_03","Idristan is pleased at the outcome, but remains frustrated about the situation. The Calamity has left Coerthas nigh uninhabitable, and the local wildlife have become more dangerous as a result. If you plan on heading northwest, the Quiverman warns you to be prepared."
+0,"TEXT_GAIUSB603_00885_SEQ_00","フロランテル監視哨の神勇隊イドリスタンは、冒険者に魔物退治の仕事を頼みたいようだ。"
+1,"TEXT_GAIUSB603_00885_SEQ_01","クルザスからやってきた「<Sheet(BNpcName,399,0)/>」を駆除したいというイドリスタン。フロランテル監視哨の南にある「<Sheet(EObj,2002106,0)/>」に「<Sheet(EventItem,2000690,0)/>」を設置し、現れた「<Sheet(BNpcName,399,0)/>」を討伐しよう。"
+2,"TEXT_GAIUSB603_00885_SEQ_02","<Sheet(BNpcName,399,0)/>を討伐した。フロランテル監視哨の「イドリスタン」に報告しよう。"
+3,"TEXT_GAIUSB603_00885_SEQ_03","第七霊災によって大豪雪地帯となったクルザス地方では、魔物が凶暴化しているらしい。クルザスへ行くときは、十分な準備が必要そうだ……。"
 4,"TEXT_GAIUSB603_00885_SEQ_04",""
 5,"TEXT_GAIUSB603_00885_SEQ_05",""
 6,"TEXT_GAIUSB603_00885_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSB603_00885_SEQ_21",""
 22,"TEXT_GAIUSB603_00885_SEQ_22",""
 23,"TEXT_GAIUSB603_00885_SEQ_23",""
-24,"TEXT_GAIUSB603_00885_TODO_00","Use the dodo meat as bait and slay jackals."
-25,"TEXT_GAIUSB603_00885_TODO_01","Report to Idristan. "
+24,"TEXT_GAIUSB603_00885_TODO_00","<Sheet(EObj,2002106,0)/>に<Sheet(EventItem,2000690,0)/>を使い<Sheet(BNpcName,399,0)/>を討伐"
+25,"TEXT_GAIUSB603_00885_TODO_01","イドリスタンに報告"
 26,"TEXT_GAIUSB603_00885_TODO_02",""
 27,"TEXT_GAIUSB603_00885_TODO_03",""
 28,"TEXT_GAIUSB603_00885_TODO_04",""
@@ -49,11 +49,20 @@ int32,str,str
 45,"TEXT_GAIUSB603_00885_TODO_21",""
 46,"TEXT_GAIUSB603_00885_TODO_22",""
 47,"TEXT_GAIUSB603_00885_TODO_23",""
-48,"TEXT_GAIUSB603_00885_IDRISTAN_000_000","The freeze that came in the Calamity's wake has rendered Coerthas nigh inhospitable. Many of the creatures that once made their homes there have been forced to migrate lest they starve."
-49,"TEXT_GAIUSB603_00885_IDRISTAN_000_001","Some arrive on our doorstep with naught else on their mind but to feed. The worst of the beasts are the jackals, who've been spotted not far from this very spire."
-50,"TEXT_GAIUSB603_00885_IDRISTAN_000_002","Adventurer, we call upon your skill to dispatch these beasts before they make a meal of some unguarded traveler. This f-fet<Emphasis>urrrgh</Emphasis>─begging your pardons─<Emphasis>fetid</Emphasis> dodo meat will serve admirably as bait."
-51,"TEXT_GAIUSB603_00885_DUMMY_000_010",""
-52,"TEXT_GAIUSB603_00885_DUMMYTODO_000_010",""
-53,"TEXT_GAIUSB603_00885_IDRISTAN_000_020","We are most grateful. This kind of situation would not have arisen ere the Calamity came and made Coerthas nigh uninhabitable to its local fauna."
-54,"TEXT_GAIUSB603_00885_IDRISTAN_000_021","With their water hoarded in vaults of ice and their herbage held under the snow, the larger beasts have become positively infernal in their need to survive. Take heed if you head northbound, for know that you are riding into battle."
-55,"TEXT_GAIUSB603_00885_POP_MESSAGE_000","A pair of ravenous jackals approach!"
+48,"TEXT_GAIUSB603_00885_IDRISTAN_000_000","クルザス地方では第七霊災以降に、
+魔物による被害が問題になっていると聞いたが……。
+この周辺にも、その影響が出始めてきた。"
+49,"TEXT_GAIUSB603_00885_IDRISTAN_000_001","エサに飢えた「<Sheet(BNpcName,399,0)/>」が、
+クルザス方面から流れてきているとの報告を受けてね。"
+50,"TEXT_GAIUSB603_00885_IDRISTAN_000_002","冒険者よ、この「<Sheet(EventItem,2000690,0)/>」で、
+奴等をおびき寄せ、退治してくれないか。
+旅人に被害が出る前に駆除しておきたいんだ。"
+51,"TEXT_GAIUSB603_00885_DUMMY_000_010","指定地点に「<Sheet(EventItem,2000690,0)/>」を設置しポップしたウルフ2匹を討伐。"
+52,"TEXT_GAIUSB603_00885_DUMMYTODO_000_010","（★未使用／削除予定★）"
+53,"TEXT_GAIUSB603_00885_IDRISTAN_000_020","助かったよ、ありがとう。
+……霊災によって環境が激変したクルザスは、
+今や、雪と氷で閉ざされた大豪雪地帯でな。"
+54,"TEXT_GAIUSB603_00885_IDRISTAN_000_021","エサになるような小動物や植物が減り、
+魔物の凶暴化に繋がっているという。
+クルザスへ赴くなら、相応の準備と覚悟が必要だぞ。"
+55,"TEXT_GAIUSB603_00885_POP_MESSAGE_000","敵の気配を感じた！！"

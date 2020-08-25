@@ -1,14 +1,14 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNZ107_01756_SEQ_00","Gildon is at a complete loss."
-1,"TEXT_HEAVNZ107_01756_SEQ_01","Unable to make neither heads nor tails of the bone, Gildon asks you to show it to others in the hopes that they might offer some insight into its meaning. Present the bone to the knights of Camp Cloudtop and see what they have to say."
-2,"TEXT_HEAVNZ107_01756_SEQ_02","Alas, none of the Rose Knights know what to make of the bone's markings─or, in the case of Fabrellet, are inclined to care. On the bright side, the quartermaster mentions that a shipment of provisions is scheduled to arrive soon. Perhaps this news will serve to lift Gildon's spirits."
-3,"TEXT_HEAVNZ107_01756_SEQ_03","Upon hearing of the shipment, Gildon has an epiphany: the Vanu were using the bone to count the days between shipments, which always include a substantial quantity of crystals. Believing that the beastmen intend to launch an attack, he goes to warn Lady Laniaitte, and bids you warn Fabrellet in his stead."
-4,"TEXT_HEAVNZ107_01756_SEQ_04","Fabrellet is unwilling to lend credence to Gildon's fears, and suggests that you make for the <Emphasis>Protector</Emphasis> if you are so concerned for the shipment's welfare."
-5,"TEXT_HEAVNZ107_01756_SEQ_05","You board the <Emphasis>Protector</Emphasis> and find a Vanu preparing to flee with his prize. However, you make quick work of him and his allies. Examine the shipment to see that everything is accounted for."
-6,"TEXT_HEAVNZ107_01756_SEQ_06","So far as you can tell, the Vanu were unable to steal any of the provisions. Return to Fabrellet and inform him that there was indeed a Vanu raid, and that you have foiled it."
-7,"TEXT_HEAVNZ107_01756_SEQ_07","Fabrellet and Lady Laniaitte are pleased to learn that, thanks to you, the shipment is secure. At your insistence, the commander recognizes Gildon for his part in uncovering the Vanu's plans, offering him the opportunity to serve elsewhere, should it be his desire. Gildon declines, however, stating that his sole desire is to rekindle the spirits of his fellow knights. To that end, he proposes that he and the others partake of the provisions in celebration. Though Fabrellet scoffs at the idea, Lady Laniaitte agrees, and bids the quartermaster make it known whom the Rose Knights have to thank for their boon."
+0,"TEXT_HEAVNZ107_01756_SEQ_00","ローズハウスのギルドンは、バヌバヌ族の落とした骨について頭を悩ませている。"
+1,"TEXT_HEAVNZ107_01756_SEQ_01","バヌバヌ族が落とした骨について、意見を聞いて回るよう、ギルドンに頼まれた。アバラシア雲海のキャンプ・クラウドトップとローズハウスにいる騎兵たちに、「<Sheet(EventItem,2001745,0)/>」を見せよう。"
+2,"TEXT_HEAVNZ107_01756_SEQ_02","騎兵から情報を集めた。ローズハウスの「ギルドン」に、「<Sheet(EventItem,2001745,0)/>」を渡し、結果を報告しよう。"
+3,"TEXT_HEAVNZ107_01756_SEQ_03","ギルドンに結果を報告した。今回の補給物資が狙われるかもしれないというギルドンの懸念を、キャンプ・クラウドトップの「ファブルレー」に伝えよう。"
+4,"TEXT_HEAVNZ107_01756_SEQ_04","ファブルレーから、補給物資の確認を頼まれた。キャンプ・クラウドトップのプロテクトゥール号で、「<Sheet(EObj,2006004,0)/>」を探そう。"
+5,"TEXT_HEAVNZ107_01756_SEQ_05","プロテクトゥール号で補給物資を見つけたが、バヌバヌ族が襲ってきた。妨害を退けて、「<Sheet(EObj,2006004,0)/>」を調べよう。"
+6,"TEXT_HEAVNZ107_01756_SEQ_06","<Sheet(EObj,2006004,0)/>を調べ、無事を確認した。キャンプ・クラウドトップの「ファブルレー」に報告しよう。"
+7,"TEXT_HEAVNZ107_01756_SEQ_07","バヌバヌ族を撃退したことについて、ラニエットから礼を言われた。栄転の申し出を断り、現在の所属部隊への忠誠を誓ったギルドンは、これからも熱意を持って働き続けることだろう。"
 8,"TEXT_HEAVNZ107_01756_SEQ_08",""
 9,"TEXT_HEAVNZ107_01756_SEQ_09",""
 10,"TEXT_HEAVNZ107_01756_SEQ_10",""
@@ -25,12 +25,12 @@ int32,str,str
 21,"TEXT_HEAVNZ107_01756_SEQ_21",""
 22,"TEXT_HEAVNZ107_01756_SEQ_22",""
 23,"TEXT_HEAVNZ107_01756_SEQ_23",""
-24,"TEXT_HEAVNZ107_01756_TODO_00","Show the gnawed bone to knights around the camp."
-25,"TEXT_HEAVNZ107_01756_TODO_01","Return the gnawed bone to Gildon."
-26,"TEXT_HEAVNZ107_01756_TODO_02","Speak with Fabrellet."
-27,"TEXT_HEAVNZ107_01756_TODO_03","Head to the <Emphasis>Protector</Emphasis> and see that the shipment is safe."
-28,"TEXT_HEAVNZ107_01756_TODO_04","Check that nothing is missing from the shipment."
-29,"TEXT_HEAVNZ107_01756_TODO_05","Report to Fabrellet."
+24,"TEXT_HEAVNZ107_01756_TODO_00","騎兵に<Sheet(EventItem,2001745,0)/>を見せる"
+25,"TEXT_HEAVNZ107_01756_TODO_01","ギルドンに<Sheet(EventItem,2001745,0)/>を渡す"
+26,"TEXT_HEAVNZ107_01756_TODO_02","ファブルレーと話す"
+27,"TEXT_HEAVNZ107_01756_TODO_03","妨害を退け<Sheet(EObj,2006004,0)/>を調べる"
+28,"TEXT_HEAVNZ107_01756_TODO_04","妨害を退け<Sheet(EObj,2006004,0)/>を調べる"
+29,"TEXT_HEAVNZ107_01756_TODO_05","ファブルレーに報告"
 30,"TEXT_HEAVNZ107_01756_TODO_06",""
 31,"TEXT_HEAVNZ107_01756_TODO_07",""
 32,"TEXT_HEAVNZ107_01756_TODO_08",""
@@ -49,49 +49,115 @@ int32,str,str
 45,"TEXT_HEAVNZ107_01756_TODO_21",""
 46,"TEXT_HEAVNZ107_01756_TODO_22",""
 47,"TEXT_HEAVNZ107_01756_TODO_23",""
-48,"TEXT_HEAVNZ107_01756_GILDON_000_000","Three sets of fourteen lines...two crossed out entirely, the third halfway..."
-49,"TEXT_HEAVNZ107_01756_GILDON_000_001","Bah, it's no use. I still haven't the foggiest what the markings on this bone could mean."
-50,"TEXT_HEAVNZ107_01756_GILDON_000_002","Would you show it to the others? Perhaps they will know what to make of it."
-51,"TEXT_HEAVNZ107_01756_GILDON_000_033","If we're fortunate, one of the other knights might know what the markings mean─if anything..."
-52,"TEXT_HEAVNZ107_01756_MARIELLE_000_010","Can I assist you with something?"
-53,"TEXT_HEAVNZ107_01756_MARIELLE_000_011","Hmmm... What an odd pattern. I've never seen its like."
-54,"TEXT_HEAVNZ107_01756_MARIELLE_000_012","If it holds any meaning, I couldn't tell you. My apologies."
-55,"TEXT_HEAVNZ107_01756_MARIELLE_000_043","If I think of anything, I will let you know."
-56,"TEXT_HEAVNZ107_01756_LANIAITTE_000_020","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, how good to see you. What can I do for you?"
-57,"TEXT_HEAVNZ107_01756_LANIAITTE_000_021","...Seems to me that the scouts were counting something. The question is, what?"
-58,"TEXT_HEAVNZ107_01756_LANIAITTE_000_044","Should there be any developments, pray inform me immediately."
-59,"TEXT_HEAVNZ107_01756_FABRELLET_000_030","I have no time for idle chatter."
-60,"TEXT_HEAVNZ107_01756_FABRELLET_000_031","...This isn't another of Gildon's errands, is it?"
-61,"TEXT_HEAVNZ107_01756_FABRELLET_000_032","I haven't time to waste entertaining his requests. A shipment of provisions should be arriving any moment."
-62,"TEXT_HEAVNZ107_01756_FABRELLET_000_045","I told you, not now. Gildon and his bone are not my concern."
-63,"TEXT_HEAVNZ107_01756_GILDON_000_040","Ah, there you are. Did you learn anything of value?"
-64,"TEXT_HEAVNZ107_01756_GILDON_000_041","A shipment of provisions!? Truly? Oh, how I've longed for a reprieve from salted meats..."
-65,"TEXT_HEAVNZ107_01756_GILDON_000_042","Ahem! Didn't mean to get carried away. It's just that I often find myself counting the days until─"
-66,"TEXT_HEAVNZ107_01756_GILDON_000_043","By the Fury, that's it! The shipment is their target!"
-67,"TEXT_HEAVNZ107_01756_GILDON_000_044","The Vanu scouts must have been spying on our shipments. They know they come once a fortnight!"
-68,"TEXT_HEAVNZ107_01756_GILDON_000_045","But they couldn't care less about the foodstuffs. They mean to seize the crystals and offer them up to the white whale!"
-69,"TEXT_HEAVNZ107_01756_GILDON_000_046","Go and tell Fabrellet what we discovered. I will speak with Lady Laniaitte."
-70,"TEXT_HEAVNZ107_01756_GILDON_000_053","We cannot let the Vanu get their hands on those crystals. You must hurry!"
-71,"TEXT_HEAVNZ107_01756_FABRELLET_000_050","Hm? What is it now?"
-72,"TEXT_HEAVNZ107_01756_FABRELLET_000_051","The Vanu mean to steal our crystals? I can't imagine how they intend to accomplish that."
-73,"TEXT_HEAVNZ107_01756_FABRELLET_000_052","Well, if you truly believe there is merit to Gildon's claims, by all means, go to the <Emphasis>Protector</Emphasis>. The provisions are being unloaded as we speak."
-74,"TEXT_HEAVNZ107_01756_FABRELLET_000_061","If you are so concerned for the shipment's welfare, I suggest you make for the <Emphasis>Protector</Emphasis>."
-75,"TEXT_HEAVNZ107_01756_BALLOON_000_060","Netherlings are no match for mighty Gundu!"
-76,"TEXT_HEAVNZ107_01756_WOUNDED01756_000_063","The...the provisions!"
-77,"TEXT_HEAVNZ107_01756_SYSTEM_000_070","All the provisions appear to be accounted for."
-78,"TEXT_HEAVNZ107_01756_WOUNDED01756_000_073","Wh-What of the provisions!?"
-79,"TEXT_HEAVNZ107_01756_FABRELLET_000_080","Well, it would seem that the threat was indeed legitimate..."
-80,"TEXT_HEAVNZ107_01756_LANIAITTE_000_081","Time and again you have risked your life to protect our camp, and for that you have my sincerest thanks."
-81,"TEXT_HEAVNZ107_01756_LANIAITTE_000_082","Ah, yes, you are right. 'Twas Gildon who uncovered the Vanu's plot."
-82,"TEXT_HEAVNZ107_01756_LANIAITTE_000_083","Perhaps a man of your intelligence could better serve House Haillenarte elsewhere. Should it be your desire, I could arrange for a transfer."
-83,"TEXT_HEAVNZ107_01756_FABRELLET_000_084","Well, well! To think that I might one day salute <Emphasis>you</Emphasis>!"
-84,"TEXT_HEAVNZ107_01756_GILDON_000_085","I am honored, Lady Laniaitte. Truly, I am. But with all due respect, I would rather remain in Camp Cloudtop."
-85,"TEXT_HEAVNZ107_01756_GILDON_000_086","All I want─all I have ever wanted─is to rekindle our men's spirits. To see them walk with their heads held high once more!"
-86,"TEXT_HEAVNZ107_01756_GILDON_000_087","Were I to leave, that dream might never become a reality..."
-87,"TEXT_HEAVNZ107_01756_GILDON_000_089","But, if I may, I do have one small request."
-88,"TEXT_HEAVNZ107_01756_GILDON_000_090","All this running about has left me quite famished. Might I─ahem, might <Emphasis>we</Emphasis> partake of the recovered provisions? A celebratory meal─or a celebratory snack, perhaps?"
-89,"TEXT_HEAVNZ107_01756_FABRELLET_000_091","Even now, all you can think of is your stomach?"
-90,"TEXT_HEAVNZ107_01756_LANIAITTE_000_092","A <Emphasis>snack</Emphasis>─and a few casks of wine besides. That much we can afford to spare, no?"
-91,"TEXT_HEAVNZ107_01756_LANIAITTE_000_093","Aye, the men could do with a bit of meat and mead. Make sure they know that Gildon is to thank for it."
-92,"TEXT_HEAVNZ107_01756_GILDON_000_094","Th-Thank you, Lady Laniaitte! Thank you!"
-93,"TEXT_HEAVNZ107_01756_WOUNDED01756_000_095","Praise...praise Halone... Pray inform Fabrellet that all is well."
+48,"TEXT_HEAVNZ107_01756_GILDON_000_000","ああ、御客人……う～む、まいった。
+バヌバヌ族が持っていた「骨の傷」が意味するところ……
+いろいろと考えてはみたものの、さっぱりなのであ～る！"
+49,"TEXT_HEAVNZ107_01756_GILDON_000_001","刻まれた傷は、タテ線が14本ずつ、全部で3列……。
+その内の2列は、ヨコ線で消されているが、
+3列目は、半分ほどまでヨコ線が止まってい～る。"
+50,"TEXT_HEAVNZ107_01756_GILDON_000_002","やはり、自分にはわからぬな。
+すまぬが、この「<Sheet(EventItem,2001745,0)/>」をほかの騎兵に見せて、
+意見を聞いてきてもらえぬ～か？"
+51,"TEXT_HEAVNZ107_01756_GILDON_000_033","やはり、自分にはわからぬな。
+すまぬが、この「<Sheet(EventItem,2001745,0)/>」を他の騎兵に見せて、
+意見を聞いてきてもらえぬ～か？"
+52,"TEXT_HEAVNZ107_01756_MARIELLE_000_010","あら、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん。
+私にご用ですか？"
+53,"TEXT_HEAVNZ107_01756_MARIELLE_000_011","バヌバヌ族が落とした骨ですって？
+ふむ、規則的な傷がついていますね……。"
+54,"TEXT_HEAVNZ107_01756_MARIELLE_000_012","うーん……私にも、意味はわかりません。
+お役に立てず、申し訳ないです。"
+55,"TEXT_HEAVNZ107_01756_MARIELLE_000_043","うーん……私にも、傷の意味はわかりません。
+お役に立てず、申し訳ないです。"
+56,"TEXT_HEAVNZ107_01756_LANIAITTE_000_020","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>殿、壮健なようでなによりだ。
+して、今回は何用かな？"
+57,"TEXT_HEAVNZ107_01756_LANIAITTE_000_021","ふむ、この骨についた傷は……
+数を数える時の印に見えるが……わからんな。
+確かに、意味があるように思えるが……。"
+58,"TEXT_HEAVNZ107_01756_LANIAITTE_000_044","数を数える時の印に見えるが……わからんな。
+確かに、意味があるように思えるが……。"
+59,"TEXT_HEAVNZ107_01756_FABRELLET_000_030","忙しいんだ、用があるなら手短にしてくれよ。"
+60,"TEXT_HEAVNZ107_01756_FABRELLET_000_031","見たことのない骨だな……俺にはさっぱりだ。
+お前さん、またギルドンに言われて走り回ってるのか？"
+61,"TEXT_HEAVNZ107_01756_FABRELLET_000_032","ああ、ギルドンのところに行くなら、ついでに伝えてくれ。
+そろそろ、「補給物資」を積んだ飛空艇が来るってな。
+明日の食事は、期待できるぞ！"
+62,"TEXT_HEAVNZ107_01756_FABRELLET_000_045","ああ、ギルドンのところに行くなら、ついでに伝えてくれ。
+そろそろ、「補給物資」を積んだ飛空艇が来るってな。
+明日の食事は、期待できるぞ！"
+63,"TEXT_HEAVNZ107_01756_GILDON_000_040","待っていたぞ！
+まずは「<Sheet(EventItem,2001745,0)/>」を、預かろう。
+それで……情報はあったか！？"
+64,"TEXT_HEAVNZ107_01756_GILDON_000_041","おお、補給物資を積んだ飛空艇が来るのであれば、
+久々に干し肉じゃない、美味い肉にありつけそうだな！！"
+65,"TEXT_HEAVNZ107_01756_GILDON_000_042","って、ちが～う！！
+自分は武勲を立て、兵の士気をあげたいのだ！
+補給物資の情報などで、一喜一憂するなど……！！"
+66,"TEXT_HEAVNZ107_01756_GILDON_000_043","……待てよ、何か引っかかるぞ。
+「補給物資」を積んだ飛空艇の情報……？"
+67,"TEXT_HEAVNZ107_01756_GILDON_000_044","そうか、それだ……！
+バヌバヌ族は、「補給物資」を狙って襲撃するつもりだ！
+「骨の傷」は14本……補給の周期と一致するのであ～る！"
+68,"TEXT_HEAVNZ107_01756_GILDON_000_045","「補給物資」には、飛空艇整備用の「クリスタル」もある！
+彼らの目的は、蛮神「ビスマルク」へ捧げるために、
+クリスタルを強奪することであろ～う！"
+69,"TEXT_HEAVNZ107_01756_GILDON_000_046","さっそく、今回の「補給物資」が狙われるかもしれん。
+「ファブルレー」殿に、このことを伝えてくれ！
+自分は、ラニエット様と共に迎撃態勢を整え～る！"
+70,"TEXT_HEAVNZ107_01756_GILDON_000_053","さっそく、今回の「補給物資」が狙われるかもしれん。
+「ファブルレー」殿に、このことを伝えてくれ！
+自分は、ラニエット様と共に迎撃態勢を整え～る！"
+71,"TEXT_HEAVNZ107_01756_FABRELLET_000_050","焦った様子でどうしたんだ？
+なにか、問題でも起きたのか？"
+72,"TEXT_HEAVNZ107_01756_FABRELLET_000_051","バヌバヌ族が、「補給物資」を狙ってる？
+あの太っちょ鳥どもが、どうやって襲撃するんだ。
+……いや、でも「プロテクトゥール号」の方が騒がしいな。"
+73,"TEXT_HEAVNZ107_01756_FABRELLET_000_052","お前さん、悪いんだが「プロテクトゥール号」へ行って、
+集積してる「<Sheet(EObj,2006004,0)/>」が無事か、確認してくれないか？
+もしも敵に襲われたら、倒してくれ……もしも、の話だがな。"
+74,"TEXT_HEAVNZ107_01756_FABRELLET_000_061","お前さん、悪いんだが「プロテクトゥール号」へ行って、
+集積してる「<Sheet(EObj,2006004,0)/>」が無事か、確認してくれないか？
+もしも敵に襲われたら、倒してくれ……もしも、の話だがな。"
+75,"TEXT_HEAVNZ107_01756_BALLOON_000_060","まだ、まだ、抵抗するか！"
+76,"TEXT_HEAVNZ107_01756_WOUNDED01756_000_063","変な生き物に乗って、バヌバヌ族が空から……っ！
+頼む、「<Sheet(EObj,2006004,0)/>」を守ってくれ！"
+77,"TEXT_HEAVNZ107_01756_SYSTEM_000_070","バヌバヌ族に荒らされているが、
+補給物資に問題はなさそうだ……。"
+78,"TEXT_HEAVNZ107_01756_WOUNDED01756_000_073","「<Sheet(EObj,2006004,0)/>」が無事か、
+確かめてもらえるか？"
+79,"TEXT_HEAVNZ107_01756_FABRELLET_000_080","話は、退避してきた騎兵から聞いたよ。
+お前さん、補給物資を狙ったバヌバヌ族を撃退したらしいな。
+ちょっと待っててくれ、いまラニエット様がいらっしゃるから。"
+80,"TEXT_HEAVNZ107_01756_LANIAITTE_000_081","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>殿、援軍が遅れて申し訳ない。
+そして、補給物資を守り切っていただき感謝する。
+前回といい、今回といい、貴公の働きには頭が下がる思いだ。"
+81,"TEXT_HEAVNZ107_01756_LANIAITTE_000_082","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>殿の言うとおり、
+今回の一件は、ギルドンの働きが大きかった。
+お前の熱意が、物資を守る大きな要因となったのは間違いない。"
+82,"TEXT_HEAVNZ107_01756_LANIAITTE_000_083","斜陽のアインハルト家でも、その熱意を活かせる場所へ、
+お前ひとり、ねじ込んでやることぐらいはできる。
+吉報を、楽しみに待っているといい。"
+83,"TEXT_HEAVNZ107_01756_FABRELLET_000_084","栄転じゃないか！
+よかったな、ギルドン！"
+84,"TEXT_HEAVNZ107_01756_GILDON_000_085","……いえ、せっかくのお話ですが、
+転属の件は、お断りしたいのであります！"
+85,"TEXT_HEAVNZ107_01756_GILDON_000_086","自分は、ラニエット様を尊敬しております！
+ファブルレー殿は文句をいいながらも優しくしてくれる御方！
+部隊の仲間だって、本来は素晴らしい騎兵ばかり！"
+86,"TEXT_HEAVNZ107_01756_GILDON_000_087","自分は己の栄転のために武勲をあげたのでなく、
+この部隊の、皆の士気を高めたかったのであります！！"
+87,"TEXT_HEAVNZ107_01756_GILDON_000_089","し……しかし、ラニエット様。
+僭越ながら、ひとつだけよろしいでしょうか。"
+88,"TEXT_HEAVNZ107_01756_GILDON_000_090","久しぶりに駆けまわったので腹が減りました！
+奪い返した補給物資を使い、そろそろ飯にしませんか？"
+89,"TEXT_HEAVNZ107_01756_FABRELLET_000_091","お、お前なぁ、何も今それを言わなくても……。"
+90,"TEXT_HEAVNZ107_01756_LANIAITTE_000_092","……ファブルレー。
+備蓄物資の開放を許可する。ワイン樽も開けてやれ。
+美味い飯と酒を囲み、ギルドンの心意気を共有しよう。"
+91,"TEXT_HEAVNZ107_01756_LANIAITTE_000_093","さすれば彼の熱意は広まり、皆の士気も高まるだろう。
+なに、宴の予算ぐらい、私が都合をつけるさ。
+……そのかわり、今後も頼むぞ、ギルドン？"
+92,"TEXT_HEAVNZ107_01756_GILDON_000_094","ありがとうございます！！
+これからも粉骨砕身、努力していく所存でありま～す！"
+93,"TEXT_HEAVNZ107_01756_WOUNDED01756_000_095","……補給物資を守っていただき、感謝する。
+すまないが、「ファブルレー」にも物資の無事を伝えてほしい。"

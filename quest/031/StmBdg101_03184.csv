@@ -1,10 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDG101_03184_SEQ_00","Hoary Boulder's sullen expression suggests he has no news to share, which in this case may not mean good news."
-1,"TEXT_STMBDG101_03184_SEQ_01","Sadly there has been no change in the Scions' condition. Before Hoary can expound further, however, Maxima arrives asking after Alphinaud. Consoled by the fact that he is safe and well cared for, Maxima prepares to take his leave, inviting you to meet with a man he claims to be an acquaintance of yours. "
-2,"TEXT_STMBDG101_03184_SEQ_02","After a short trek to north Silvertear, you find Maxima in the company of your good friend Cid. Your reunion is cut brief when an Alliance soldier arrives bearing a message for the Warrior of Light. Raubahn requests your presence in Ala Mhigo to discuss strategy. To that end, Cid offers you transportation aboard the <Emphasis>Excelsior</Emphasis>."
-3,"TEXT_STMBDG101_03184_SEQ_03","You arrive at Ala Mhigo in a timely fashion, where Cid offers a few words of encouragement before sending you off to your meeting with Raubahn. "
+0,"TEXT_STMBDG101_03184_SEQ_00","石の家のホーリー・ボルダーは、賢人たちの快復を祈っているようだ。"
+1,"TEXT_STMBDG101_03184_SEQ_01","前回までの冒険録：
+クルルとマトーヤの協力を得ても、賢人たちの昏倒の謎は解明できなかった。一方、ザ・バーンに防御フィールド「青龍壁」を展開することに成功するが、影の狩人が昏睡したアルフィノを抱えて現れる。彼の正体は、かつての第XIV軍団軍団長のガイウス。ガイウスは暗躍するアシエンの情報を伝えると、帝国へと去っていく。そして、停戦交渉に応じたヴァリス帝との会談が行われる。帝国がアシエンによって建国されたこと、ヴァリス帝が故意に霊災を起こそうとしていることが判明し、交渉は決裂。国境地帯ギムリトにてエオルゼア同盟軍と帝国軍との戦端が開かれる。冒険者や東方連合の活躍によって、帝国軍の第一陣は退けるが、またも謎の声が響き渡り、アリゼーが倒れてしまうのだった。
+　　　　　　　　　　　　*　*　*
+ホーリー・ボルダーと話したところ、マキシマがアルフィノの見舞いに訪れた。とある人物が冒険者に会いたがっているという。モードゥナの銀泪湖北岸にいる「マキシマ」と話そう。"
+2,"TEXT_STMBDG101_03184_SEQ_02","マキシマと話したところ、とある人物とはシドのことだった。同盟軍の伝令が来て、同盟軍本陣へと向かうことになり、エンタープライズで送ってもらった。ギラバニア湖畔地帯のポルタ・プレトリアにいる「シド」と話そう。"
+3,"TEXT_STMBDG101_03184_SEQ_03","シドと話し、激励してもらった。気を引き締めて、同盟軍本陣へと向かおう。"
 4,"TEXT_STMBDG101_03184_SEQ_04",""
 5,"TEXT_STMBDG101_03184_SEQ_05",""
 6,"TEXT_STMBDG101_03184_SEQ_06",""
@@ -25,8 +28,8 @@ int32,str,str
 21,"TEXT_STMBDG101_03184_SEQ_21",""
 22,"TEXT_STMBDG101_03184_SEQ_22",""
 23,"TEXT_STMBDG101_03184_SEQ_23",""
-24,"TEXT_STMBDG101_03184_TODO_00","Speak with Maxima in north Silvertear."
-25,"TEXT_STMBDG101_03184_TODO_01","Speak with Cid."
+24,"TEXT_STMBDG101_03184_TODO_00","銀泪湖北岸のマキシマと話す"
+25,"TEXT_STMBDG101_03184_TODO_01","シドと話す"
 26,"TEXT_STMBDG101_03184_TODO_02",""
 27,"TEXT_STMBDG101_03184_TODO_03",""
 28,"TEXT_STMBDG101_03184_TODO_04",""
@@ -49,46 +52,111 @@ int32,str,str
 45,"TEXT_STMBDG101_03184_TODO_21",""
 46,"TEXT_STMBDG101_03184_TODO_22",""
 47,"TEXT_STMBDG101_03184_TODO_23",""
-48,"TEXT_STMBDG101_03184_HOARYBOULDER_000_000","Ah, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Yours is a welcome face indeed in these troubled times. Though if you've come to inquire about our stricken brothers and sisters, I am afraid I have naught to report."
-49,"TEXT_STMBDG101_03184_HOARYBOULDER_000_001","Coultenet and the others continue their tireless search for answers, and I too have done all in my power to assist them. Alas..."
-50,"TEXT_STMBDG101_03184_MAXIMA_000_002","(-???-)My apologies for the intrusion. I was told Master Alphinaud had been brought here, and wished to see if his condition had improved."
-51,"TEXT_STMBDG101_03184_MAXIMA_000_003","<If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I have heard about the part you played in driving back the Empire's forces...
-...Thank you. That you were able to stop them, if only for a short while, gives me hope."
-52,"TEXT_STMBDG101_03184_MAXIMA_000_004","I realize how strange such words must sound coming from a Garlean's lips, but I speak them out of the love I bear for my homeland─because I wish to see an end to the bloodshed."
-53,"TEXT_STMBDG101_03184_MAXIMA_000_005","That is why I chose to share all that I know with the Alliance. Though I will surely be branded a traitor, I am content to bear that ignominy. 'Twill seem a small price to pay if it helps to prevent this conflict from escalating any further."
-54,"TEXT_STMBDG101_03184_MAXIMA_000_006","But enough of my prattling. The war is not what brought me all this way. I came to see Master Alphinaud."
-55,"TEXT_STMBDG101_03184_HOARYBOULDER_000_007","An acquaintance of <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> and Alphinaud, are you? Well, far be it from me to turn away good company. If you will follow me, sir..."
-56,"TEXT_STMBDG101_03184_MAXIMA_000_008","When word reached me that Alphinaud had returned, it seemed only right that I visit him. Poor lad... It pains me to see him thus. But I take solace in the knowledge that he is safe and well cared for."
-57,"TEXT_STMBDG101_03184_MAXIMA_000_009","He fought valiantly at the Burn. The Populares could not have wished for a more committed ally."
-58,"TEXT_STMBDG101_03184_MAXIMA_000_010","I know not how he came to be so afflicted, but I pray a cure will be found soon."
-59,"TEXT_STMBDG101_03184_MAXIMA_000_011","On an unrelated note, you may be interested to know that I traveled here in the company of another acquaintance of yours."
-60,"TEXT_STMBDG101_03184_MAXIMA_000_012","He awaits my return at north Silvertear, and I am certain he would be glad to see you. Assuming you can spare the time, that is."
-61,"TEXT_STMBDG101_03184_HOARYBOULDER_000_015","Who do you suppose is waiting for him at north Silvertear?"
-62,"TEXT_STMBDG101_03184_MAXIMA_000_020","Ah, there you are. I was beginning to think you would not come."
-63,"TEXT_STMBDG101_03184_CID_000_021","It sounds like you've been through the mill. You should have called me."
-64,"TEXT_STMBDG101_03184_CID_000_022","Though I must confess, tracking down missing souls isn't exactly within my field of expertise."
-65,"TEXT_STMBDG101_03184_MAXIMA_000_023","As you may have surmised, I heard much of Master Garlond growing up in Garlemald. Indeed, he has long been a source of inspiration to me."
-66,"TEXT_STMBDG101_03184_MAXIMA_000_024","Most Garleans would say he is a traitor, that he turned his back on his country. We of the Populares, however, consider him a revolutionary─a man willing to defy the Empire's dreams of subjugation, that his inventions might bring about a better future for all mankind."
-67,"TEXT_STMBDG101_03184_CID_000_025","<Emphasis>Please</Emphasis>─“revolutionary” is a term best reserved for my work. I am but an imperial defector who thought to aid another imperial defector."
-68,"TEXT_STMBDG101_03184_CID_000_026","Whatever Master Garlond says, I am humbled to find myself in such distinguished company."
-69,"TEXT_STMBDG101_03184_CID_000_027","Speaking of distinguished company, we heard from Raubahn that you ran into an old friend in the Burn. Is it true? Gaius still lives?"
-70,"TEXT_STMBDG101_03184_MAXIMA_000_028","Like most in the army, I never had the privilege of seeing the legatus without his mask. To think I walked halfway across the Burn in the presence of the Black Wolf..."
-71,"TEXT_STMBDG101_03184_CID_000_029","And he claimed to have severed ties with the Empire to hunt Ascians, did he?"
-72,"TEXT_STMBDG101_03184_CID_000_030","Hmph. After his humbling at the Praetorium, one would think he'd have the good sense to stay dead."
-73,"TEXT_STMBDG101_03184_CID_000_031","Should we meet again, I shall be sure to tell him so."
-74,"TEXT_STMBDG101_03184_MAXIMA_000_032","Commander Aldynn also spoke of the Alliance's meeting with the Emperor...though I still labor to believe what he told us. Did His Radiance <Emphasis>really</Emphasis> claim that Garlemald was founded by the Ascians?"
-75,"TEXT_STMBDG101_03184_MAXIMA_000_033","But that is <Emphasis>madness</Emphasis>. The very notion is absurd! Every fiber of my being rails against it... And yet I see there is no escaping the truth. From the very founding of my homeland, my brothers and sisters have laid down their lives in service to a lie."
-76,"TEXT_STMBDG101_03184_MAXIMA_000_034","The Ascians must be stopped. To save my people, to save all peoples."
-77,"TEXT_STMBDG101_03184_CID_000_035","For all the Empire's many crimes, even I did not suspect. Had I known, I would have left a lot sooner."
-78,"TEXT_STMBDG101_03184_CID_000_036","But that is in the past. Here in the present, we must apply ourselves to the problem of how the Empire's ambitions may be thwarted, not only in Eorzea, but in the Far East as well."
-79,"TEXT_STMBDG101_03184_CID_000_037","The Ironworks will spare no effort to achieve that end. Seiryu's Wall was a good start, but we can do more─and we will. We'll show them what it means to achieve “Freedom through Technology”!"
-80,"TEXT_STMBDG101_03184_ALLIANCERECRUIT03184_000_038","Begging your pardons! I bear a message for the Warrior of Light!"
-81,"TEXT_STMBDG101_03184_ALLIANCERECRUIT03184_000_039","Commander Aldynn requests your presence at Alliance Headquarters in Ala Mhigo. He would discuss matters of strategy at your earliest convenience."
-82,"TEXT_STMBDG101_03184_CID_000_040","Ah yes. The inevitable messenger. I knew it wouldn't be long before duty called you away."
-83,"TEXT_STMBDG101_03184_CID_000_041","Time no doubt being of the essence, could I tempt you to a ride aboard the <Emphasis>Excelsior</Emphasis>? If there's a faster way to Raubahn's side, I will personally apologize to the commander for keeping him waiting."
-84,"TEXT_STMBDG101_03184_MAXIMA_000_045","I too will make for the border anon. If there is aught I can do to help, I consider it my duty to see it done."
-85,"TEXT_STMBDG101_03184_RESISTANCEGATEKEEPER_100_046","Commander Aldynn awaits your arrival. I am to escort you to Alliance Headquarters as soon as you are ready."
-86,"TEXT_STMBDG101_03184_CID_000_050","I swear, every time you board my airship, you seem to be barreling headlong into danger. And every time, you somehow contrive to emerge victorious. Which, of course, is an admirable skill."
-87,"TEXT_STMBDG101_03184_CID_000_051","But no one is invincible, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Not even you. So please, take care of yourself out there."
-88,"TEXT_STMBDG101_03184_MAXIMA_000_052","I pray you remain safe on the front lines. Though ill-equipped to join the fray, I shall do all I can to assist from headquarters."
-89,"TEXT_STMBDG101_03184_CID_000_053","My colleagues and I have been tasked with evacuating casualties by air. See that you aren't among them, eh?"
+48,"TEXT_STMBDG101_03184_HOARYBOULDER_000_000","おつかれさまです、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>さん。
+せっかく、足を運んでいただいたのですが、
+賢人の皆さんは、相変わらずです。"
+49,"TEXT_STMBDG101_03184_HOARYBOULDER_000_001","クルトゥネを中心に、我らも独自に調査を進めていたものの、
+いまのところ、これといった成果は……。"
+50,"TEXT_STMBDG101_03184_MAXIMA_000_002","(-？？？？-)失礼いたします。
+こちらにアルフィノさんが運ばれたと聞き、
+お見舞いさせていただきたく……。"
+51,"TEXT_STMBDG101_03184_MAXIMA_000_003","これは、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん。
+先の戦闘でのご武勇、聞き及んでおります。
+帝国の侵攻を防いでいただき、誠にありがとうございました。"
+52,"TEXT_STMBDG101_03184_MAXIMA_000_004","ガレアン人が、何をと思われるかもしれませんが、
+私は祖国を愛するがゆえに、この戦争を止めたいのです。"
+53,"TEXT_STMBDG101_03184_MAXIMA_000_005","そのために私は、同盟軍への情報提供も行うことにしました。
+むろん同胞からすれば、利敵行為に映るでしょうが、
+私なりの決意の証でもあるのです。"
+54,"TEXT_STMBDG101_03184_MAXIMA_000_006","おっと、自分の話ばかり……失礼しました。
+ともかく、前線が膠着状態に陥ったようでしたので、
+その合間に、アルフィノさんの見舞いをと参った次第です。"
+55,"TEXT_STMBDG101_03184_HOARYBOULDER_000_007","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>さんの、お知りあいでしたか。
+アルフィノさんのお見舞いということですね。
+それでは、奥の部屋へとご案内いたしましょう。"
+56,"TEXT_STMBDG101_03184_MAXIMA_000_008","急な訪問にもかかわらず、ありがとうございました。
+昏睡状態とはいえ、生きて戻ってくれた姿を、
+どうしても、この目で確認しておきたかったのです。"
+57,"TEXT_STMBDG101_03184_MAXIMA_000_009","アルフィノさんは、私たち民衆派を信じ、
+ともに手を取り合おうとしてくださいました。
+ザ・バーンでは、ともに戦い部下を救ってもくれたのです。"
+58,"TEXT_STMBDG101_03184_MAXIMA_000_010","昏睡の原因は不明とのことですが、
+ともかく快復するよう、願っています……。"
+59,"TEXT_STMBDG101_03184_MAXIMA_000_011","ところで……。
+ここには<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さんのよく知る、
+とある人物に連れてきてもらいました。"
+60,"TEXT_STMBDG101_03184_MAXIMA_000_012","彼には、銀泪湖北岸で待ってもらっています。
+あなたに会いたがっていると思うので、
+よかったら、そこまで来ていただけませんか？"
+61,"TEXT_STMBDG101_03184_HOARYBOULDER_000_015","銀泪湖北岸で待つ、お知り合いとはどなたでしょう？
+それにしても、帝国にもマキシマさんのような、
+穏やかな方がいらっしゃるんですね……。"
+62,"TEXT_STMBDG101_03184_MAXIMA_000_020","ご足労、感謝いたします。
+とある人物とは、ご存知、エンタープライズ号の船長です。"
+63,"TEXT_STMBDG101_03184_CID_000_021","よう、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>！
+いろいろと大変だったようだが、
+俺に声をかけないなんて水臭いじゃないか。"
+64,"TEXT_STMBDG101_03184_CID_000_022","もっとも、賢人たちの原因不明の昏倒なんて、
+俺にとっては専門外ではあるんだが……。"
+65,"TEXT_STMBDG101_03184_MAXIMA_000_023","シドさんのことは、以前より存じ上げていました。
+一方的にではありましたが……。
+私もずいぶんと影響を受けたものです。"
+66,"TEXT_STMBDG101_03184_MAXIMA_000_024","帝国内では、シドさんは裏切りの逃亡者と呼ばれていました。
+ですが、民衆派にとっては、侵略政策に反発して亡命し、
+異国で活動を続ける革命の旗手そのものでしたよ。"
+67,"TEXT_STMBDG101_03184_CID_000_025","へっ、よしてくれよ。
+帝国からの亡命者が来たと聞いて、
+力になれればと、コンタクトを取ってみたんだ。"
+68,"TEXT_STMBDG101_03184_CID_000_026","こうして、密かに尊敬していた人物に、
+亡命先で会えるなんて、不思議なものです。"
+69,"TEXT_STMBDG101_03184_CID_000_027","ところで、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
+牛親父から聞いたが、ガイウスの野郎が生きていたようだな……。"
+70,"TEXT_STMBDG101_03184_MAXIMA_000_028","あの影の狩人が、かつての第XIV軍団の軍団長、
+ガイウス・ヴァン・バエサルだとは、思いもよりませんでした。
+何分、素顔を見たことがなかったもので……。"
+71,"TEXT_STMBDG101_03184_CID_000_029","だが、ヤツはいまや忠誠を誓った祖国を捨てて、
+アシエンを狩りつくすことに躍起になっていたそうだな。"
+72,"TEXT_STMBDG101_03184_CID_000_030","お前に負けたうえに、アシエンにたぶらかされていたと知って、
+あのクソ親父も思うところがあったか……。"
+73,"TEXT_STMBDG101_03184_CID_000_031","もし、もう一度会うことがあったら……
+ツラを張り飛ばしてやりたいぜ。"
+74,"TEXT_STMBDG101_03184_MAXIMA_000_032","そしてもうひとつ。
+ヴァリス帝は会談の席で、帝国がアシエンによって建国され、
+霊災を引き起こそうとしていると語ったそうですね……。"
+75,"TEXT_STMBDG101_03184_MAXIMA_000_033","にわかに信じられず、とても受け入れがたい話ですが……
+現皇帝の口から出た話ならば、残念ながら真実なのでしょう。"
+76,"TEXT_STMBDG101_03184_MAXIMA_000_034","帝国の民は、そんなことは露ほども知らされておりません。
+世界のためにも、何も知らない同胞のためにも、
+アシエンの野望を打ち砕かねば……。"
+77,"TEXT_STMBDG101_03184_CID_000_035","まったく……。
+亡命したとはいえ、生まれ育った祖国が、
+化け物によって造られたなんてよ……悪い冗談だぜ。"
+78,"TEXT_STMBDG101_03184_CID_000_036","とにかく、エオルゼアだろうが東方だろうが、
+帝国の再侵攻を許すわけにはいかない。"
+79,"TEXT_STMBDG101_03184_CID_000_037","ガーロンド・アイアンワークスとしても、
+「青龍壁」の件を含めて、防衛のために協力するつもりだ。
+「技術は自由のために」ってのが社訓なもんでね。"
+80,"TEXT_STMBDG101_03184_ALLIANCERECRUIT03184_000_038","失礼いたします！
+「石の家」にて、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>様が、
+こちらにいらっしゃると聞いて参りました！"
+81,"TEXT_STMBDG101_03184_ALLIANCERECRUIT03184_000_039","折を見て、国境地帯の同盟軍本陣へご足労願いたいと、
+ラウバーン閣下より、要請を言付かっております！
+戦況について、共有したいとのこと！"
+82,"TEXT_STMBDG101_03184_CID_000_040","相変わらず、我らが英雄は引っ張りだこだな。
+確かにいまこそ、エオルゼアはお前の力を必要としている。"
+83,"TEXT_STMBDG101_03184_CID_000_041","よしきた！
+エンタープライズに乗ってくれ、アラミゴまでひとっ飛びだ！"
+84,"TEXT_STMBDG101_03184_MAXIMA_000_045","私も国境地帯に向かいましょう。
+何かできることがあるかもしれません……。"
+85,"TEXT_STMBDG101_03184_RESISTANCEGATEKEEPER_100_046","ご足労いただき感謝いたします、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん！
+ラウバーン様がお待ちしておりますので、
+よきときに、お声がけください。"
+86,"TEXT_STMBDG101_03184_CID_000_050","こうして、エンタープライズに乗せて、
+お前を決戦の地へ送り届けるのは、何度目だろうな……。"
+87,"TEXT_STMBDG101_03184_CID_000_051","その度に、お前は偉業を成し遂げてきたもんだが……
+いいか、無茶だけはしてくれるなよ。
+何より、生きて戻ってくることを願っているぜ。"
+88,"TEXT_STMBDG101_03184_MAXIMA_000_052","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん、どうかご無事で……。
+私も国境地帯へ向かい、できることをしてみます。"
+89,"TEXT_STMBDG101_03184_CID_000_053","俺は社員たちと飛空艇を使って、負傷兵の搬送でも手伝うさ。
+それじゃあな、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>！"

@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBFST060_00381_SEQ_00","Eylgar would like to impose upon the kindness of an adventurer."
-1,"TEXT_SUBFST060_00381_SEQ_01","Eylgar has asked you to verify the claims of a Lalafellin peddler, who swears that winged beasts attacked him on the road south of Bentbranch. Retrace his steps and search for any evidence to support his story."
-2,"TEXT_SUBFST060_00381_SEQ_02","After stumbling upon a large vulture egg, two northern vultures descend to defend their nest. Now that you have slain the beasts, seek out Lothaire at Galvanth's Spire and tell him what transpired."
-3,"TEXT_SUBFST060_00381_SEQ_03","Lothaire is shocked to learn of the nest hidden less than twenty yalms from his post. He implores you to keep its existence a secret, and vows that similar incidents will never happen again."
+0,"TEXT_SUBFST060_00381_SEQ_00","鬼哭隊のエイルガルは、魔物の調査に手を貸してくれる者を探しているようだ。"
+1,"TEXT_SUBFST060_00381_SEQ_01","エイルガルから、街道で目撃されたという生き物の調査を頼まれた。指定された場所を探り、魔物の痕跡を探そう。"
+2,"TEXT_SUBFST060_00381_SEQ_02","街道の脇に産み付けられていた卵を調べると、ノーザン・ヴァルチャーが襲いかかってきた。「ガルヴァンス監視哨」の「ロテール」に報告しよう。"
+3,"TEXT_SUBFST060_00381_SEQ_03","魔物が棲みついていたことを知らされて、ロテールは驚いたようだ。これに懲りて、念入りに警備を行うと言う。"
 4,"TEXT_SUBFST060_00381_SEQ_04",""
 5,"TEXT_SUBFST060_00381_SEQ_05",""
 6,"TEXT_SUBFST060_00381_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_SUBFST060_00381_SEQ_21",""
 22,"TEXT_SUBFST060_00381_SEQ_22",""
 23,"TEXT_SUBFST060_00381_SEQ_23",""
-24,"TEXT_SUBFST060_00381_TODO_00","Search for signs of the winged beasts."
-25,"TEXT_SUBFST060_00381_TODO_01","Speak with Lothaire."
+24,"TEXT_SUBFST060_00381_TODO_00","魔物の痕跡を探す"
+25,"TEXT_SUBFST060_00381_TODO_01","ロテールに報告"
 26,"TEXT_SUBFST060_00381_TODO_02",""
 27,"TEXT_SUBFST060_00381_TODO_03",""
 28,"TEXT_SUBFST060_00381_TODO_04",""
@@ -49,12 +49,25 @@ int32,str,str
 45,"TEXT_SUBFST060_00381_TODO_21",""
 46,"TEXT_SUBFST060_00381_TODO_22",""
 47,"TEXT_SUBFST060_00381_TODO_23",""
-48,"TEXT_SUBFST060_00381_SYSTEM_100_000","To accept this quest, you must abandon the current main scenario quest. Open the corresponding entry in the journal or duty list and select “Abandon.”"
-49,"TEXT_SUBFST060_00381_EYLGAR_000_1","You're quite the compassionate adventurer, by the sound of it. Well far be it from me to look a gift chocobo in the mouth─I have need of a capable <If(PlayerParameter(4))>woman<Else/>man</If> like yourself."
-50,"TEXT_SUBFST060_00381_EYLGAR_000_2","We received a peddler at the gates the other day─an excitable Lalafell that was sweating and swearing that he had been attacked by large winged beasts. Yet other than hornets, I know of no flying creatures in this region."
-51,"TEXT_SUBFST060_00381_EYLGAR_000_3","If there's any truth to what he said, it might prove problematic for other travelers. Follow the road south and see if you can find any evidence to support his claim."
-52,"TEXT_SUBFST060_00381_EYLGAR_000_4","And, should you find something, kindly tell Lothaire to patrol his area sometime instead of just standing beneath the spire and staring at the godsdamned road. In those words."
-53,"TEXT_SUBFST060_00381_LOTHAIRE_000_11","...A northern vulture? Two? And they were defending a <Emphasis>nest</Emphasis>!?"
-54,"TEXT_SUBFST060_00381_LOTHAIRE_000_12","Well, I, uh...perhaps we could omit that last detail from any official reports. I would rather not give Eylgar any further cause to be cross."
-55,"TEXT_SUBFST060_00381_LOTHAIRE_000_13","Thank you for slaying the beasts. You may rest assured that I will not permit this to happen again."
-56,"TEXT_SUBFST060_00381_POP_MESSAGE","You hear the beating of wings..."
+48,"TEXT_SUBFST060_00381_SYSTEM_100_000","受注するには、進行中のメインクエストを破棄する必要があります。
+メインコマンドの「コンテンツ情報」から、
+「ジャーナル」を選び、破棄してください。"
+49,"TEXT_SUBFST060_00381_EYLGAR_000_1","なかなか目端が利く冒険者のようだな。
+その機転を買って、頼みがある。
+南の街道沿いで、ある魔物の痕跡を探してほしいのだ。"
+50,"TEXT_SUBFST060_00381_EYLGAR_000_2","ある旅商が、街道沿いで
+空を飛ぶ魔物に襲われたと、報告してきてな。
+あの辺りに、そんな魔物はいないはずなのだが……。"
+51,"TEXT_SUBFST060_00381_EYLGAR_000_3","すまないが、街道沿いを探ってみてくれ。
+もしも魔物の痕跡を発見したら、
+「ガルヴァンス監視哨」の「ロテール」に報告と……"
+52,"TEXT_SUBFST060_00381_EYLGAR_000_4","そうだな、街道だけでなく周りも見張れ、と、
+俺からの小言も伝えてやってくれ。"
+53,"TEXT_SUBFST060_00381_LOTHAIRE_000_11","……何？
+街道沿いに「ノーザン・ヴァルチャー」が現れた？
+しかも卵を産み付けていたって？"
+54,"TEXT_SUBFST060_00381_LOTHAIRE_000_12","まいったな……少しも気が付かなかった。
+エイルガル殿が怒るのも当然だと思うよ。"
+55,"TEXT_SUBFST060_00381_LOTHAIRE_000_13","ノーザン・ヴァルチャーを倒してくれて、助かった。
+これからはもっと念入りに警備をしなければな。"
+56,"TEXT_SUBFST060_00381_POP_MESSAGE","敵の気配を感じた！！"

@@ -1,9 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANNAM507_03121_SEQ_00","Seigetsu the Enlightened would enlist your talent for enlisting others.
+0,"TEXT_BANNAM507_03121_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト受注クラス・ジョブ制限<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+※本クエストは受注時のクラスでのみ進行します。
 
-※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
+ドーロ・イローの光風院セイゲツは、人手を集めたいようだ。"
 1,"TEXT_BANNAM507_03121_SEQ_01",""
 2,"TEXT_BANNAM507_03121_SEQ_02",""
 3,"TEXT_BANNAM507_03121_SEQ_03",""
@@ -27,9 +28,10 @@ int32,str,str
 21,"TEXT_BANNAM507_03121_SEQ_21",""
 22,"TEXT_BANNAM507_03121_SEQ_22",""
 23,"TEXT_BANNAM507_03121_SEQ_23",""
-24,"TEXT_BANNAM507_03121_TODO_00","Speak with Gyotaku."
-25,"TEXT_BANNAM507_03121_TODO_01","Ride a mikoshi to the edges of Nhaama's Retreat and use the Wasshoi ability for the Namazu gatherers."
-26,"TEXT_BANNAM507_03121_TODO_02","Report to Seigetsu the Enlightened."
+24,"TEXT_BANNAM507_03121_TODO_00","ギョタクと話す"
+25,"TEXT_BANNAM507_03121_TODO_01","オオナマズ御輿に騎乗してナーマ砂漠北端に向かい
+<Sheet(EObj,2009500,0)/>でわっしょいわっしょいを行う"
+26,"TEXT_BANNAM507_03121_TODO_02","光風院セイゲツに報告"
 27,"TEXT_BANNAM507_03121_TODO_03",""
 28,"TEXT_BANNAM507_03121_TODO_04",""
 29,"TEXT_BANNAM507_03121_TODO_05",""
@@ -51,22 +53,51 @@ int32,str,str
 45,"TEXT_BANNAM507_03121_TODO_21",""
 46,"TEXT_BANNAM507_03121_TODO_22",""
 47,"TEXT_BANNAM507_03121_TODO_23",""
-48,"TEXT_BANNAM507_03121_KOFUINSEIGETSU_000_000","The mikoshi you helped us construct has made quite an impact on our people. We are currently in the process of building several more, but I fear their worth is significantly reduced if there are no bearers to parade them around..."
-49,"TEXT_BANNAM507_03121_KOFUINSEIGETSU_000_001","Thankfully, in this case, my people are a simple breed. By merely demonstrating the majestic spectacle of our mikoshi in their immediate vicinity, they will soon clamor for the honor of bearing the load."
-50,"TEXT_BANNAM507_03121_KOFUINSEIGETSU_000_002","Go now to Gyotaku, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Claim a mikoshi, and soar across the steppe to where our gatherers toil on the edges of Nhaama's Retreat. The allure of your resounding “wasshoi” will not be denied!"
-51,"TEXT_BANNAM507_03121_DAILYNAMAZUO03121A_000_011",""
-52,"TEXT_BANNAM507_03121_DAILYNAMAZUO03121B_000_012",""
-53,"TEXT_BANNAM507_03121_DAILYNAMAZUO03121C_000_013",""
-54,"TEXT_BANNAM507_03121_GYOTAKU_000_020","Ready for your mikoshi? Up you go, then! Give those boys and girls a good “wasshoi” from me!"
-55,"TEXT_BANNAM507_03121_GYOTAKU_000_021","When the others returned with the mikoshi, I had thought your task successfully completed. But it seems you simply hopped down...or tumbled off. Here, why don't you try again, and keep a tighter grip this time, yes, yes?"
-56,"TEXT_BANNAM507_03121_DAILYNAMAZUO03121A_000_022","How colorful and festive! When do <Emphasis>we</Emphasis> ever get to scatter confetti with wild abandon?"
-57,"TEXT_BANNAM507_03121_DAILYNAMAZUO03121B_000_023","All we earn from this job is dry skin and skinned fins! We should head back and sign up to be mikoshi bearers!"
-58,"TEXT_BANNAM507_03121_DAILYNAMAZUO03121C_000_024","Oh, have you come to lift our spirits!? Banish the drabness? There truly is nothing worth collecting around here..."
-59,"TEXT_BANNAM507_03121_DAILYNAMAZUO03121D_000_025","Just Namazu-colored sand...and more Namazu-colored sand. I can't take this anymore! I quit! “Mikoshi bearer” is my true calling!"
-60,"TEXT_BANNAM507_03121_DAILYNAMAZUO03121E_000_026","Oho! What a lively crew! Rambunctious! And here we are working our fins to the gristle..."
-61,"TEXT_BANNAM507_03121_DAILYNAMAZUO03121F_000_027","Why don't <Emphasis>we</Emphasis> join the mikoshi bearers and enjoy ourselves for a change? Anything's better than grubbing in the mud! Yes, yes!"
-62,"TEXT_BANNAM507_03121_DAILYNAMAZUO03121G_100_027","We Namazu were hatched to enjoy life─not slave away at these dreary chores! I want an exciting job like the mikoshi bearers!"
-63,"TEXT_BANNAM507_03121_DAILYNAMAZUO03121H_110_027","Me too! This gathering nonsense can sink in the river for all I care!"
-64,"TEXT_BANNAM507_03121_SYSTEM_000_028","These Namazu are busy harvesting supplies for the festival. Speak with Gyotaku at Dhoro Iloh to mount a mikoshi, and perform a rousing Wasshoi for the Namazu gatherers."
-65,"TEXT_BANNAM507_03121_KOFUINSEIGETSU_000_030","The effect of your demonstration has been all but instantaneous─we have already accepted several applications for our bearer positions. <sigh> The fact that my kin are so easily influenced is a blessing on occasion."
-66,"TEXT_BANNAM507_03121_KOFUINSEIGETSU_000_031","I have it on good authority, however, that the physical labor of a mikoshi bearer takes a terrible toll on the body. We shall have shirkers and deserters aplenty within the week, and will soon be calling again upon your powers of persuasion..."
+48,"TEXT_BANNAM507_03121_KOFUINSEIGETSU_000_000","貴君の助力のおかげで完成した御輿は、評判が上々でな。
+現在、多くの者の目につくよう増産を進めているのだが、
+困ったことに、肝心の担ぎ手が不足しているのだ。"
+49,"TEXT_BANNAM507_03121_KOFUINSEIGETSU_000_001","しかし単純なナマズオたちのことだ。
+御輿の華々しくも文明的な威容を目撃すれば、
+我先にと担ぎたいと騒ぎ出すに違いない。"
+50,"TEXT_BANNAM507_03121_KOFUINSEIGETSU_000_002","貴君は「ギョタク」に声をかけて、御輿に乗り、
+ナーマ砂漠北端の「採集中のナマズオ」たちの元へと急ぐのだ。
+そして、奴らに渾身の「わっしょいわっしょい」を披露したまえ！"
+51,"TEXT_BANNAM507_03121_DAILYNAMAZUO03121A_000_011","（★未使用／削除予定★）"
+52,"TEXT_BANNAM507_03121_DAILYNAMAZUO03121B_000_012","（★未使用／削除予定★）"
+53,"TEXT_BANNAM507_03121_DAILYNAMAZUO03121C_000_013","（★未使用／削除予定★）"
+54,"TEXT_BANNAM507_03121_GYOTAKU_000_020","御輿の上に乗りたいっぺか？
+任せろっぺなー！
+いっぺーわっしょいしてきておくれっぺよー！"
+55,"TEXT_BANNAM507_03121_GYOTAKU_000_021","御輿を担ぐ連中が帰ってきたと思ったら、
+降りちゃってたんだっぺな。
+もういっかい乗って、わっしょいしてきておくれっぺよー！"
+56,"TEXT_BANNAM507_03121_DAILYNAMAZUO03121A_000_022","紙吹雪、華やかで羨ましいっぺなぁ。
+あたしも、紙吹雪ふわぁーって撒きたいっぺよー。"
+57,"TEXT_BANNAM507_03121_DAILYNAMAZUO03121B_000_023","こんなところにいちゃ、あたいたち自慢のぬるぬるお肌が、
+かぴかぴお肌になっちゃうっぺな！
+帰って、担ぎ手をやらせてもらえるように頼むっぺよ！"
+58,"TEXT_BANNAM507_03121_DAILYNAMAZUO03121C_000_024","さては、楽しいのを見せびらかしにきたっぺな？
+ずるいっぺよ！"
+59,"TEXT_BANNAM507_03121_DAILYNAMAZUO03121D_000_025","このあたりは全然めぼしい採集物がなくて、
+ナマズオ色の砂だらけで、気分がうつろになっていくっぺな。
+こーんなところ逃げ出して、オイラたちも担ぎ手やるっぺよー！"
+60,"TEXT_BANNAM507_03121_DAILYNAMAZUO03121E_000_026","うぺぺっ！
+なんだか、賑やかな一団がやってきたっぺな！
+そっちの方が楽しそうっぺよー。"
+61,"TEXT_BANNAM507_03121_DAILYNAMAZUO03121F_000_027","おいらたちも、お御輿担いで、
+楽しい気分になりたいっぺな！
+ちまちま採集なんてしてられないっぺよ！"
+62,"TEXT_BANNAM507_03121_DAILYNAMAZUO03121G_100_027","おらは、うぺぺなナマズオっぺな！
+地味な採集仕事なんて似合わないっぺよ！
+その御輿みたいな、派手な仕事をさせてもらうっぺな！"
+63,"TEXT_BANNAM507_03121_DAILYNAMAZUO03121H_110_027","それはいいっぺな！
+こんなつまんないお仕事、放り出しちゃおっぺよー！"
+64,"TEXT_BANNAM507_03121_SYSTEM_000_028","ナマズオたちが採集をしている……。
+ドーロ・イローの「ギョタク」に話しかけ、
+オオナマズ御輿に騎乗し、「わっしょいわっしょい」を披露しよう。"
+65,"TEXT_BANNAM507_03121_KOFUINSEIGETSU_000_030","貴君のおかげで、ナマズオたちがさっそく、
+担ぎ手になりたいと申し出てきたぞ。
+こんなときばかりは、影響を受けやすい連中ばかりで助かるな。"
+66,"TEXT_BANNAM507_03121_KOFUINSEIGETSU_000_031","だが、御輿の担ぎ手は想像以上に過酷なのだと聞く。
+なまけたナマズオたちのことだ、
+どうせまた脱落者が出るだろうから、そのときは再度頼むぞ。"

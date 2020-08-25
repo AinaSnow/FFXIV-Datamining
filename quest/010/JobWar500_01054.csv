@@ -1,13 +1,15 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_JOBWAR500_01054_SEQ_00","Curious Gorge has received an urgent distress call."
-1,"TEXT_JOBWAR500_01054_SEQ_01","The village of Wineport is under attack once more, this time by the vicious beast that Curious Gorge had been tracking. Hasten to the village and receive a briefing from the captain of the militia."
-2,"TEXT_JOBWAR500_01054_SEQ_02","After the captain finishes telling you the situation, you immediately begin your defense of the hamlet from the invading fiends. Though you make short work of the crazed beasts, you are given little time to celebrate, as you hear further sounds of trouble within Wineport. Heading in, you are unexpectedly challenged by Curious Gorge, whom you are then forced to defeat. Thankfully, your blows knocked the sense back into him, and he has realized the folly of his ways. With the fighting at an end, speak with the militia captain before taking your leave."
-3,"TEXT_JOBWAR500_01054_SEQ_03","The militia captain expresses his thanks for your aid, and assures you that the people of Wineport bear no ill will against Curious Gorge. Rather, they have a newfound respect for warriors and would ask for his continued protection. Return to your mentor and tell him that all has ended well."
-4,"TEXT_JOBWAR500_01054_SEQ_04","Curious Gorge is deeply repentant for his misdeeds, and resolves to devote himself anew to the way of the warrior. His soul crystal shining once more, he vows to never again allow anger or thirst for power to cause him to lose sight of who he is. Recognizing you as the worthy successor of his ancestors and a truer warrior than he could ever be, he entrusts to you the final piece of his ancestors' armor, urging you to go forth and do his people proud.
+0,"TEXT_JOBWAR500_01054_SEQ_00","隠れ滝のキュリアス・ゴージは、なにやら緊急の依頼を抱えているようだ。"
+1,"TEXT_JOBWAR500_01054_SEQ_01","キュリアス・ゴージから依頼を受けた。東ラノシアのワインポートにいる「ワインポートの自警団長」と話そう。"
+2,"TEXT_JOBWAR500_01054_SEQ_02","ワインポートの自警団長と話した。東ラノシアのワインポートにいる「ワインポートの自警団長」と話そう。"
+3,"TEXT_JOBWAR500_01054_SEQ_03","ワインポートの自警団長と話した。東ラノシアの隠れ滝にいる「キュリアス・ゴージ」に報告しよう。"
+4,"TEXT_JOBWAR500_01054_SEQ_04","正気に戻ったキュリアス・ゴージは、冒険者に「古の戦装束」の鎧を譲ってくれた。冒険者に追いつくという新しい夢を持ったことで、彼の「<Sheet(Item,　4544,0)/>」も光を取り戻したようだ。キュリアス・ゴージは、怪我を負った兄とともに、一から戦士の鍛錬をやりなおすという。冒険者と対等に戦う日を目指して。
 
-※The next warrior quest will be available from Curious Gorge once you have completed the main scenario quest “Before the Dawn.”"
+※以下の条件を満たすと、隠れ滝のキュリアス・ゴージから、新たなジョブクエストを受注することができます。
+1.「メインクエスト：第七星暦ストーリー」の、
+　「希望の灯火」を完了する。"
 5,"TEXT_JOBWAR500_01054_SEQ_05",""
 6,"TEXT_JOBWAR500_01054_SEQ_06",""
 7,"TEXT_JOBWAR500_01054_SEQ_07",""
@@ -27,9 +29,9 @@ int32,str,str
 21,"TEXT_JOBWAR500_01054_SEQ_21",""
 22,"TEXT_JOBWAR500_01054_SEQ_22",""
 23,"TEXT_JOBWAR500_01054_SEQ_23",""
-24,"TEXT_JOBWAR500_01054_TODO_00","Speak with the Wineport militia captain."
-25,"TEXT_JOBWAR500_01054_TODO_01","Speak with the militia captain."
-26,"TEXT_JOBWAR500_01054_TODO_02","Speak with Curious Gorge."
+24,"TEXT_JOBWAR500_01054_TODO_00","ワインポートの自警団長と話す"
+25,"TEXT_JOBWAR500_01054_TODO_01","再度、ワインポートの自警団長と話す"
+26,"TEXT_JOBWAR500_01054_TODO_02","キュリアス・ゴージに報告"
 27,"TEXT_JOBWAR500_01054_TODO_03",""
 28,"TEXT_JOBWAR500_01054_TODO_04",""
 29,"TEXT_JOBWAR500_01054_TODO_05",""
@@ -51,62 +53,126 @@ int32,str,str
 45,"TEXT_JOBWAR500_01054_TODO_21",""
 46,"TEXT_JOBWAR500_01054_TODO_22",""
 47,"TEXT_JOBWAR500_01054_TODO_23",""
-48,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! There is much we must discuss, but now is not the time!"
-49,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_001","You surely recall my mention of the hunt for the bloodthirsty creature terrorizing the smallfolk. I've just received word that selfsame monster has been sighted near Wineport!"
-50,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_002","What is more, according to those who managed to escape the carnage, the creature appeared more man than beast."
-51,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_003","If this is true, then our quarry could be far more dangerous than any wild animal. We must find a way to stop it... <Emphasis>I</Emphasis> must find a way."
-52,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_004","This is my chance! To prove to the people of Wineport─nay, the world─that my tribe and my art have been wrongly judged!"
-53,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_005","Perhaps <Emphasis>then</Emphasis> my ancestors will deem me worthy! I think even my brother would, too!"
-54,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_006","There is no time to lose. We must arrive in the hamlet before any of the villagers fall prey to the beast. Let us leave at once!"
-55,"TEXT_JOBWAR500_01054_LAEDER_000_010","Thank the gods for your presence! Wineport is in your debt once more."
-56,"TEXT_JOBWAR500_01054_LAEDER_000_011","Fell creatures bear down upon our village in hordes, as if drawn by that great hairy beast. You must stop them!"
-57,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_011","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! You fend off these creatures!"
-58,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_012","I will see to the beast. This is my battle to fight."
-59,"TEXT_JOBWAR500_01054_VILLAGERA_000_020","(-Panicked Villager-)It's the m-monster!"
-60,"TEXT_JOBWAR500_01054_VILLAGERB_000_021","(-Fleeing Villager-)It's the beast! Run for your lives!"
-61,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_022","Stop! These people are not your enemy! The enemy lies within!"
-62,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_023","You are stronger than this! Take control of the beast! Do not let it consume you!"
-63,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_024","Brother!"
-64,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_025","Look what you are doing! You are destroying all that I worked to restore! The fate of our people rests in our hands, brother! Your weakness would cost us everything!"
-65,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_026","I cannot let that happen! I <Emphasis>will</Emphasis> not! Our ancestors have chosen <Emphasis>me</Emphasis> to lead our people to glory...and no one shall stop me!"
-66,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_027","No one... No one... No one..."
-67,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_028","It was I who unlocked the secrets of the chronicles; I who trained you in their ways; I who uncovered the locations of the legendary artifacts..."
-68,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_029","...I who defeated my tribe's greatest warrior! <Emphasis>I</Emphasis> am the master now!
-<Emphasis>I am the master</Emphasis>! Return to me what is rightfully mine!"
-69,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_030","Give me the armor!"
-70,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_031","Or I shall tear it from your bloody corpse!"
-71,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_040","I have failed..."
-72,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_041","I failed you, I failed my people, I failed my ancestors...and I failed my own kin..."
-73,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_042","I found out long ago what had become of my brother, but did everything I could to deny it."
-74,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_043","I thought that if only I could prove myself stronger than he, the people would see his madness as the product of a weak mind... That they would believe the problem lay in him, not in our tribe."
-75,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_044","Yet, all the while, my own soul was growing weaker and weaker... The inner beast had taken hold, and it would not let go. It drove me, as it drove my ancestors, the keeper of the armor, and my brother."
-76,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_045","Our tribe had lost sight of who we were. In seeking ever more strength, we allowed ourselves to fall victim to that which we had long scorned in others as weakness. Instead of learning to harden our wills with resolve, we steeled them with anger─and therein lay our folly."
-77,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_046","Like a bonfire, anger burns hot and bright, but when the fuel that feeds it is spent, all that remains is ash. By accepting anger as our guide, we left our wills at the mercy of the inner beast."
-78,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_047","But not you. Your will is more akin to the lava which courses through the mountains of my homeland. It burns as strong─nay, <Emphasis>stronger</Emphasis>─than any bonfire, and when it cools, it becomes hard and firm, unbreakable. This quality allowed you to keep your inner beast at bay."
-79,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_048","My people were once as you are now, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>...and I believe that is why my ancestors chose to speak to you."
-80,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_049","They sensed true strength within you. Such strength as could rightly represent our people and our art."
-81,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_050","Had I but realized that myself...none of this need have happened. <sigh> Well, what's done is done. If I am to have any hope of restoring my people's name, I must start over from the beginning..."
-82,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_051","...And this time, I mustn't try to do it alone."
-83,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_052","It may take time, but together, my brother and I will restore our village to its former glory. And when we have, I shall remember <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, my friend and fellow warrior, and how <If(PlayerParameter(4))>she<Else/>he</If> saved me from myself, that my dream might become reality."
-84,"TEXT_JOBWAR500_01054_LAEDER_000_070","Wineport is in your debt once more, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. And what is more, we have seen the truth with our own eyes."
-85,"TEXT_JOBWAR500_01054_LAEDER_000_071","Pray tell Curious Gorge as much, and that we will be relying on him for his protection. He is a true warrior, and our humble hamlet would be lost without his strength."
-86,"TEXT_JOBWAR500_01054_LAEDER_000_075","Tell Curious Gorge that the people of Wineport have seen the truth, and are indebted to him for his protection. He is a true warrior, and our humble hamlet would be lost without his strength."
-87,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_080","Welcome back, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Hm? Despite all that transpired, the captain at Wineport would entrust his village's defenses to me? I... I know not what to say."
-88,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_081","It has been a long road, but thanks to you, I have rediscovered what I lost so many years ago. I will see to my brother's wounds, and once he is well, we will embark on the path of the warrior again─engraving the lessons we have learned in our souls, never to be forgotten."
-89,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_082","Curiously, the moment I did avow this to myself, my soul crystal began to shimmer anew. I see yours, too, grows stronger than ever. It would seem my ancestors have once more bestowed their knowledge upon you."
-90,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_083","This... This power. Why, this is a power that I have only read about in the tomes─nay, a power entirely beyond my comprehension."
-91,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_084","To think that I once doubted your resolve. No, you have truly conquered your inner beast, and become a truer warrior than I could ever hope to be."
-92,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_085","Know that you stand before me the equal of my tribe's greatest heroes. Ever steel your resolve, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, and go forth into the realm and protect those who need your strength. With you representing us, the redemption of my people─the new era I seek─is surely close at hand."
-93,"TEXT_JOBWAR500_01054_SYSTEM_100_000","This concludes the warrior quests for FINAL FANTASY XIV: A Realm Reborn. In order to undertake the next series of quests, you must first meet the following requirements:"
-94,"TEXT_JOBWAR500_01054_SYSTEM_100_001","※ You must have completed the main scenario quest “Before the Dawn.”"
-95,"TEXT_JOBWAR500_01054_SYSTEM_100_002","Once you have done so, the next warrior quest will be available from Curious Gorge."
-96,"TEXT_JOBWAR500_01054_QIB_001_TODO_1","Defend Wineport from the fiends!"
-97,"TEXT_JOBWAR500_01054_QIB_001_TODO_2","Defeat Curious Gorge!"
-98,"TEXT_JOBWAR500_01054_QIB_001_GUARD_A_BATTLETALK_DEAD","Urgh! Who heals...the healers?"
-99,"TEXT_JOBWAR500_01054_QIB_001_GUARD_B_BATTLETALK_DEAD","Wineport... I have failed you..."
-100,"TEXT_JOBWAR500_01054_QIB_001_CURIOUSGORGE_BATTLETALK_01","Your strength is no match for mine, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>!
-I am the true warrior!"
-101,"TEXT_JOBWAR500_01054_QIB_001_CURIOUSGORGE_BATTLETALK_03","Graaaghhh! The beast rages within me!
-I can fight it no longer!"
-102,"TEXT_JOBWAR500_01054_QIB_001_CURIOUSGORGE_BATTLETALK_04","Gaaarrrghhh! <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>!
-You must...stop me!"
+48,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_000","おお、オメ、いいとこに来てくれた！！
+大変だ、またワインポートが魔物に襲われたらしい！！"
+49,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_001","襲った相手は、例の「毛もじゃの怪物」だ！
+怪物の殺気にあてられて、
+周囲の魔物も暴れちまってるらしいんだ。"
+50,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_002","オラ、その「毛もじゃの怪物」の話を聞くたびによ……
+とてつもなく嫌な予感がしてたんだ……
+「毛もじゃ」は、もしかすっとオラの……"
+51,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_003","いや、そんなことはどうでもいいな。
+早いとこ「毛もじゃ」を始末しねえと。"
+52,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_004","オラたちがやりゃ、ワインポートの人たちの誤解や
+昔から続く戦士への誤解も解けるかもしれねえ！
+戦士を復興させる、すごい機会だ！！"
+53,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_005","オラとオメ、どっちが「古の戦装束」にふさわしいか。
+それを決めるのは、これを片づけた後だ！"
+54,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_006","準備ができたら、オラ、すぐに出る。
+オメも、急いで「ワインポートの自警団長」と合流してくれ。"
+55,"TEXT_JOBWAR500_01054_LAEDER_000_010","応援、ありがとうございますっ！"
+56,"TEXT_JOBWAR500_01054_LAEDER_000_011","魔物がワインポートへ押し寄せています。
+……「毛もじゃの怪物」を追うように。"
+57,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_011","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>！
+オメはここで、寄ってくる魔物を片付けろ！"
+58,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_012","「毛もじゃ」は……オラが押さえる！
+オラが……オラが止めてやんなきゃなんねえんだ！！"
+59,"TEXT_JOBWAR500_01054_VILLAGERA_000_020","(-怯える住民-)か、怪物だぁッ！"
+60,"TEXT_JOBWAR500_01054_VILLAGERB_000_021","(-逃げ惑う住民-)また「毛もじゃの怪物」が出たぁ！！
+た、助けてくれぇッ！"
+61,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_022","なあ、頼む……やめろよ、やめてくれ！
+そんな怪物みたいなマネ、よすんだ！！
+これじゃ、戦士はまた……里に帰るしかなくなるぞ？"
+62,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_023","「原初の魂」に負けちまうなんて。
+己の「弱さ」に負けちまうなんて。
+しっかりしてくれ、目を覚ましてくれよ……。"
+63,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_024","兄者！
+いや、ブロークン・マウンテン！！"
+64,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_025","オラたちの、戦士を復興させるって夢、踏みにじんのか！？
+いくら兄者でも、そんなの……そんなの許せねえ！！"
+65,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_026","「弱い」オメなんて！　兄者じゃねえ！！
+オラの夢は！　誰にも邪魔させねえ！！"
+66,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_027","許さねえ……邪魔させねえ……。
+許さねえ……邪魔させねえ……。"
+67,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_028","許さねえ……邪魔させねえ……。
+「古の戦装束」は……全部、オラんだ……。"
+68,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_029","オメのじゃねえ！
+今すぐ返せ！！"
+69,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_030","オラ、兄者に勝った！
+「古の戦装束」は、オラのものだ！"
+70,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_031","最強の戦士は、オラだ！！"
+71,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_040","やっぱり……オメが一番「強い」戦士だったな……。"
+72,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_041","オラ、本当は怖くて仕方なかったんだ……。
+強くなりたくても、思いどおりに強くなれねえし。
+代々続く戦士なのに、簡単にオメに抜かれちまうし。"
+73,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_042","ホントはな……。
+「毛もじゃの怪物」が、兄者かもしれねえって、
+オラ、心の底じゃ、気づいてたんだ……。"
+74,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_043","でも、認めたくなくて……気づかないフリしてた。
+怖くて……ずっと、真実から逃げてたんだ……。"
+75,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_044","そういう「弱さ」のマグマが、オラの中で渦巻いて
+オラ……「原初の魂」に飲み込まれちまった。
+戦士失格だ……クリスタルが黙っちまうのも当然だな。"
+76,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_045","頑丈な体……頑丈な装束……
+そんなもんカネや時間をかけりゃ、いつかは手に入る。
+でも戦士の「強さ」ってのは、そういうんじゃねえ。"
+77,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_046","斧でぶったぎられるより、痛くて、苦しいけど、
+それでも、逃げずに己の「弱さ」に立ち向かう……
+戦士の「強さ」ってのは、そういう「心の強さ」だ！"
+78,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_047","オメは、ひるまず全力でオラに立ち向かってくれた。
+オラのためだと、心から信じて。"
+79,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_048","それが、オメの「強さ」だ。
+うんと厳しくて、うんと優しい……「強さ」だ！
+だから、オメは「原初の魂」に飲みこまれなかったんだな。"
+80,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_049","それこそ「戦士の強さ」の源だ。
+ありがとな、オメがブン殴ってくれて……やっとわかった。
+「古の戦装束」にふさわしいのは……オメだけだ！"
+81,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_050","オラ、決めたぞ。
+一から戦士の鍛錬をやりなおす！
+大怪我させちまった兄者の世話をしながらな。"
+82,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_051","オラの夢は所詮、兄者のマネだった……
+だから決意がすぐグラついて「弱さ」に飲まれた。
+でも、オメのおかげで本当の夢ができたぞ！"
+83,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_052","オラ、いつか必ずオメの「強さ」に追いつく！
+どれだけ時間がかかるかわからねえが、待ってろよ！！"
+84,"TEXT_JOBWAR500_01054_LAEDER_000_070","ワインポートの人々の誤解は、これで晴れました。
+「キュリアス・ゴージ」さんに、そう伝えてください。"
+85,"TEXT_JOBWAR500_01054_LAEDER_000_071","今後もワインポートの護衛の支援をお願いします、とも。
+我々は、戦士の力を頼りにしています！"
+86,"TEXT_JOBWAR500_01054_LAEDER_000_075","今後も、キュリアス・ゴージさんには
+ワインポートの護衛の支援をお願いしたく思います。
+我々は、戦士の力を頼りにしているのです……！"
+87,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_080","おお、来てくれたのか。
+なに、自警団のリーダーが礼を？
+こちらこそ、ありがてえ話だっ！"
+88,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_081","オラ、決めたんだ、これからのこと。
+兄者の介護をしながら、戦士を一から学び直すよ。"
+89,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_082","そう決めたら、オラの「<Sheet(Item,　4544,0)/>」が、また光ったんだ！
+……そういや、オメの「<Sheet(Item,　4544,0)/>」もさっき光ってたな。
+また新しい技を覚えたんじゃねえのか？"
+90,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_083","やっぱりだ……すげぇ、すげぇぞ！
+オメは、古の戦士にしか使えないという
+伝説の奥義を身につけちまったんだっ！！"
+91,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_084","オラ、「原初の魂」に飲み込まれたとき、
+この技の記憶を感じたぞ……。
+肝がちぢみあがるほど、壮大な力だった！"
+92,"TEXT_JOBWAR500_01054_CURIOUSGORGE_000_085","そいつを覚えちまうなんて……オメはすごい戦士だな！
+オメと出会えて、本当によかった。
+オラがオメに追いついたとき、また本気で戦ってくれ！"
+93,"TEXT_JOBWAR500_01054_SYSTEM_100_000","「戦士」の物語が、ひとつの区切りを迎えました！
+次の「戦士」のジョブクエストを開始するためには、
+以下の条件を満たす必要があります。"
+94,"TEXT_JOBWAR500_01054_SYSTEM_100_001","1.「メインクエスト：第七星暦ストーリー」の、
+　「希望の灯火」を完了する。"
+95,"TEXT_JOBWAR500_01054_SYSTEM_100_002","条件を満たし、隠れ滝の、
+「キュリアス・ゴージ」に話しかけ、
+新たなジョブクエストを開始しましょう！"
+96,"TEXT_JOBWAR500_01054_QIB_001_TODO_1","押し寄せる魔物を討伐せよ！"
+97,"TEXT_JOBWAR500_01054_QIB_001_TODO_2","キュリアス・ゴージを倒せ！"
+98,"TEXT_JOBWAR500_01054_QIB_001_GUARD_A_BATTLETALK_DEAD","すまん……癒し手が先に倒れるとは……。"
+99,"TEXT_JOBWAR500_01054_QIB_001_GUARD_B_BATTLETALK_DEAD","くっ……後は任せた。"
+100,"TEXT_JOBWAR500_01054_QIB_001_CURIOUSGORGE_BATTLETALK_01","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>……オメも消えろっ！"
+101,"TEXT_JOBWAR500_01054_QIB_001_CURIOUSGORGE_BATTLETALK_03","ぐおおおおお……オラの中で、魔物が暴れてるみてえだっ！
+あらがえねぇ……完全に飲み込まれちまう……！！　"
+102,"TEXT_JOBWAR500_01054_QIB_001_CURIOUSGORGE_BATTLETALK_04","ぐおおおおお……<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>
+このままじゃ、オメを……！！　"

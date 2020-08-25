@@ -1,8 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKZE013_03447_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Alsa is excited to see you."
+0,"TEXT_LUCKZE013_03447_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+スリザーバウのアルサは、マトーヤの客人に頼みたいことがあるようだ。"
 1,"TEXT_LUCKZE013_03447_SEQ_01",""
 2,"TEXT_LUCKZE013_03447_SEQ_02",""
 3,"TEXT_LUCKZE013_03447_SEQ_03",""
@@ -26,8 +26,8 @@ Alsa is excited to see you."
 21,"TEXT_LUCKZE013_03447_SEQ_21",""
 22,"TEXT_LUCKZE013_03447_SEQ_22",""
 23,"TEXT_LUCKZE013_03447_SEQ_23",""
-24,"TEXT_LUCKZE013_03447_TODO_00","Place the blue-flamed candles."
-25,"TEXT_LUCKZE013_03447_TODO_01","Speak with Alsa."
+24,"TEXT_LUCKZE013_03447_TODO_00","<Sheet(EventItem,2002526,0)/>を使う"
+25,"TEXT_LUCKZE013_03447_TODO_01","アルサと話す"
 26,"TEXT_LUCKZE013_03447_TODO_02",""
 27,"TEXT_LUCKZE013_03447_TODO_03",""
 28,"TEXT_LUCKZE013_03447_TODO_04",""
@@ -50,32 +50,62 @@ Alsa is excited to see you."
 45,"TEXT_LUCKZE013_03447_TODO_21",""
 46,"TEXT_LUCKZE013_03447_TODO_22",""
 47,"TEXT_LUCKZE013_03447_TODO_23",""
-48,"TEXT_LUCKZE013_03447_ALSA_000_001","Ah, one of Master Matoya's guests. You've come at an opportune time."
-49,"TEXT_LUCKZE013_03447_ALSA_000_002","I was preparing to take a walk and tend to the candles about Slitherbough, and I would ask you assist me. I can think of no finer opportunity to learn more of our people."
-50,"TEXT_LUCKZE013_03447_ALSA_000_003","Take these three candles, and replace any that appear to be nearly spent. A simple task, I know, but I believe it will prove most illuminating."
-51,"TEXT_LUCKZE013_03447_ALSA_000_004","You need only place the three candles I gave you. I will take care of the rest."
-52,"TEXT_LUCKZE013_03447_PRAYINGMAN03447_000_010","A fresh candle. How thoughtful of you."
-53,"TEXT_LUCKZE013_03447_PRAYINGMAN03447_000_011","Whenever I'm feeling stressed, watching the flames helps settle my nerves. Something about the way they flicker and dance is so soothing to me. Perhaps you should give it a try sometime."
-54,"TEXT_LUCKZE013_03447_PRAYINGMAN03447_000_012","Pay me no mind. I'll be returning to work soon enough."
-55,"TEXT_LUCKZE013_03447_HELPFULGIRL03447_000_020","Thanks, <If(PlayerParameter(4))>miss<Else/>mister</If>. You're real good at placing candles."
-56,"TEXT_LUCKZE013_03447_HELPFULGIRL03447_000_021","Mama says the night sky has candles. Lots and lots of candles. So many you can't count them all. I bet I could, though!"
-57,"TEXT_LUCKZE013_03447_HELPFULGIRL03447_000_022","Have you seen the candles outside, in the sky? There's so many! Mama said there's too many to count, but I bet I could if I wanted."
-58,"TEXT_LUCKZE013_03447_HELPFULGIRL03447_000_023","They're really pretty, but I think I like the candles in here more."
-59,"TEXT_LUCKZE013_03447_HELPFULGIRL03447_000_024","Hey <If(PlayerParameter(4))>miss<Else/>mister</If>, why do you dress so funny? Is it for your work? Mama makes medicine and Papa is a guard. He's always busy outside, so I try to help lots and lots inside. "
-60,"TEXT_LUCKZE013_03447_CANDLEWOMAN03447_000_030","Beautiful, aren't they? Like the souls of the departed, burning bright in the sunless sea above."
-61,"TEXT_LUCKZE013_03447_CANDLEWOMAN03447_000_031","I often come here to pay respects to our forebears, reflecting on the sacrifices that allowed us to live as we do now."
-62,"TEXT_LUCKZE013_03447_CANDLEWOMAN03447_000_032","What do you see when you look into the flames?"
-63,"TEXT_LUCKZE013_03447_ALSA_000_040","You are returned, and enlightened by the experience, I trust. We are a quiet people, but conversation comes easy in the presence of the candles."
-64,"TEXT_LUCKZE013_03447_ALSA_000_041","Before the Flood, our worship would no doubt have been seen as profane. Sacrilege..."
-65,"TEXT_LUCKZE013_03447_ALSA_000_042","But it is the expression of our faith that defines us, not the object of our worship."
-66,"TEXT_LUCKZE013_03447_ALSA_000_045","I can but imagine what change may come to the Night's Blessed should the night ever return to us."
-67,"TEXT_LUCKZE013_03447_ALSA_000_046","I can but imagine what change will come to the Night's Blessed now that the night has returned to us."
-68,"TEXT_LUCKZE013_03447_PRIESTWOMAN03447_000_001",""
-69,"TEXT_LUCKZE013_03447_PRIESTWOMAN03447_000_002",""
-70,"TEXT_LUCKZE013_03447_PRIESTWOMAN03447_000_003",""
-71,"TEXT_LUCKZE013_03447_PRIESTWOMAN03447_000_004",""
-72,"TEXT_LUCKZE013_03447_PRIESTWOMAN03447_000_040",""
-73,"TEXT_LUCKZE013_03447_PRIESTWOMAN03447_000_041",""
-74,"TEXT_LUCKZE013_03447_PRIESTWOMAN03447_000_042",""
-75,"TEXT_LUCKZE013_03447_PRIESTWOMAN03447_000_045",""
-76,"TEXT_LUCKZE013_03447_PRIESTWOMAN03447_000_046",""
+48,"TEXT_LUCKZE013_03447_ALSA_000_001","あら、マトーヤ様のお客様ではありませんか。
+ちょうど、古いロウソクを交換して回っていたのですが……
+そうだ……もしよければ、貴方もいっしょにどうですか？"
+49,"TEXT_LUCKZE013_03447_ALSA_000_002","雑用を押し付けようというのではありませんよ。
+私たち「夜の民」を知る、いい機会だと思ったのです。"
+50,"TEXT_LUCKZE013_03447_ALSA_000_003","3本ほど「<Sheet(EventItem,2002526,0)/>」をお渡ししておきますので、
+気が向いたら「短くなったロウソク」と交換してくださいな。
+それでは、また……ごきげんよう。"
+51,"TEXT_LUCKZE013_03447_ALSA_000_004","3本ほど「<Sheet(EventItem,2002526,0)/>」をお渡ししておきますので、
+「短くなったロウソク」と交換してくださいな。"
+52,"TEXT_LUCKZE013_03447_PRAYINGMAN03447_000_010","おや……新しいロウソクかな？
+ありがとう。"
+53,"TEXT_LUCKZE013_03447_PRAYINGMAN03447_000_011","洞窟の薄暗がりで、こうしてロウソクの灯火を見ていると、
+なんだか心が落ち着くよね……。
+だから、日に一度は、ここにやって来てしまうんだよ。"
+54,"TEXT_LUCKZE013_03447_PRAYINGMAN03447_000_012","荷運びの仕事中なんだが……少し息抜きにね。"
+55,"TEXT_LUCKZE013_03447_HELPFULGIRL03447_000_020","<If(PlayerParameter(4))>お姉さん<Else/>お兄さん</If>も、ロウソク替えのお手伝いをしてるの？
+私もなの！"
+56,"TEXT_LUCKZE013_03447_HELPFULGIRL03447_000_021","本物の夜ってどんなかなぁ……。
+空が全部、ここの天井みたいに真っ黒で、
+星っていう小さな灯りが、数えきれないくらい光るんでしょう？"
+57,"TEXT_LUCKZE013_03447_HELPFULGIRL03447_000_022","本物の夜ってすごいなぁ……。
+空が全部、ここの天井みたいに真っ黒で、
+星っていう小さな灯りが、数えきれないくらい光ってて。"
+58,"TEXT_LUCKZE013_03447_HELPFULGIRL03447_000_023","でもね……お空がどうなっても、
+私にとっては、この洞窟のロウソクの灯りが心の夜空なんだ。
+きっと、お母さんも、お父さんも、そう言うと思うよ。"
+59,"TEXT_LUCKZE013_03447_HELPFULGIRL03447_000_024","ここではみんな、スリザーバウのためにお仕事しているわ。
+お母さんは薬作り、お父さんは集落の警護で忙しいの。
+だから私もね、いつもお手伝いできること探してるんだ！"
+60,"TEXT_LUCKZE013_03447_CANDLEWOMAN03447_000_030","おや……お客人もロウソクの交換を？
+でしたら、不思議に思いませんか、青い焔を灯すのを……。
+これは天の暗き海の、水底で輝く命を表しているのです。"
+61,"TEXT_LUCKZE013_03447_CANDLEWOMAN03447_000_031","水底とはつまり、遠い夜の彼方のこと……。
+旅立った命の輝きが、海の青を透かして届く……
+そう考えると、先立たれた家族に会えた気がするのですよ。"
+62,"TEXT_LUCKZE013_03447_CANDLEWOMAN03447_000_032","青い焔の揺らぎに……あなたなら、誰を思い浮かべますか？"
+63,"TEXT_LUCKZE013_03447_ALSA_000_040","いかがでしたか？
+あの優しいロウソクの灯火を見ていると、
+私たちは不思議と、おしゃべりになってしまうんです。"
+64,"TEXT_LUCKZE013_03447_ALSA_000_041","言い伝えによれば「光の氾濫」以前は、
+今とはかなり違う形で、闇を信仰していたそうです。"
+65,"TEXT_LUCKZE013_03447_ALSA_000_042","しかし罪喰いたちが現れて、光と闇の価値が変わり……
+いえ、信仰とは心の在り方であり、常に形を変えていくもの。"
+66,"TEXT_LUCKZE013_03447_ALSA_000_045","もし、夜の闇が昔のように訪れるようになれば、
+「夜の民」の姿も、変わっていくのかもしれません。
+それもまた、素敵な未来なのでしょうね。"
+67,"TEXT_LUCKZE013_03447_ALSA_000_046","もし、夜の闇がこれからも巡り続ければ、
+「夜の民」の姿も、変わっていくのかもしれません。
+それもまた、素敵な未来なのでしょうね。"
+68,"TEXT_LUCKZE013_03447_PRIESTWOMAN03447_000_001","（★未使用／削除予定★）"
+69,"TEXT_LUCKZE013_03447_PRIESTWOMAN03447_000_002","（★未使用／削除予定★）"
+70,"TEXT_LUCKZE013_03447_PRIESTWOMAN03447_000_003","（★未使用／削除予定★）"
+71,"TEXT_LUCKZE013_03447_PRIESTWOMAN03447_000_004","（★未使用／削除予定★）"
+72,"TEXT_LUCKZE013_03447_PRIESTWOMAN03447_000_040","（★未使用／削除予定★）"
+73,"TEXT_LUCKZE013_03447_PRIESTWOMAN03447_000_041","（★未使用／削除予定★）"
+74,"TEXT_LUCKZE013_03447_PRIESTWOMAN03447_000_042","（★未使用／削除予定★）"
+75,"TEXT_LUCKZE013_03447_PRIESTWOMAN03447_000_045","（★未使用／削除予定★）"
+76,"TEXT_LUCKZE013_03447_PRIESTWOMAN03447_000_046","（★未使用／削除予定★）"

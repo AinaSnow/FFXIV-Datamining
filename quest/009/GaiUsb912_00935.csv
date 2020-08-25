@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB912_00935_SEQ_00","What Charmine the chirurgeon seeks is an infusion for her ailing infirmary, but she will settle for an adventurer instead."
-1,"TEXT_GAIUSB912_00935_SEQ_01","Charmine's patient is past all help that can be provided by the undersupplied infirmary. Raging at her own helplessness, the chirurgeon ministers to her charge in the only way left─by bidding you send word to her betrothed, Laurence, a deserter condemned to the dungeons."
-2,"TEXT_GAIUSB912_00935_SEQ_02","Roused from his gloom by the shocking news, Laurence urges you out after only a few hurried words. Your destination must be the forest to the southeast, for when the music of love and death plays, there is naught to do but dance."
-3,"TEXT_GAIUSB912_00935_SEQ_03","Laurence's treasure turns out to be an alchemic concoction of Ul'dahn origin. What you hold in your hand cost a man his freedom, and may save a woman's life. Deliver it to Charmine forthwith, and the Fury take you if you drop it."
-4,"TEXT_GAIUSB912_00935_SEQ_04","Charmine's eyes widen at the sight of medicine so precious, and she immediately deduces Laurence's sacrifice. You sense in her fury and even disgust at the cruelty of war, and an iron determination to keep alight this guttering candle..."
+0,"TEXT_GAIUSB912_00935_SEQ_00","ホワイトブリム前哨地の治療師シャルミヌは、病が篤い患者を案じているようだ。"
+1,"TEXT_GAIUSB912_00935_SEQ_01","患者の命がもう長くないらしい。投獄されている患者の恋人「ローレンス」に患者の容態を伝えよう。"
+2,"TEXT_GAIUSB912_00935_SEQ_02","ローレンスは、恋人に渡したいものがあるようだ。彼の言葉に従い、南東の森の中を調べよう。"
+3,"TEXT_GAIUSB912_00935_SEQ_03","「<Sheet(EventItem,2000731,0)/>」を入手した。ホワイトブリム前哨地の「シャルミヌ」に渡そう。"
+4,"TEXT_GAIUSB912_00935_SEQ_04","シャルミヌに<Sheet(EventItem,2000731,0)/>を渡した。冒険者が届けた薬があれば、患者を助けられるかもしれないとシャルミヌは言うが……。"
 5,"TEXT_GAIUSB912_00935_SEQ_05",""
 6,"TEXT_GAIUSB912_00935_SEQ_06",""
 7,"TEXT_GAIUSB912_00935_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_GAIUSB912_00935_SEQ_21",""
 22,"TEXT_GAIUSB912_00935_SEQ_22",""
 23,"TEXT_GAIUSB912_00935_SEQ_23",""
-24,"TEXT_GAIUSB912_00935_TODO_00","Speak with Laurence."
-25,"TEXT_GAIUSB912_00935_TODO_01","Search the forest."
-26,"TEXT_GAIUSB912_00935_TODO_02","Deliver the alchemic concoction to Charmine."
+24,"TEXT_GAIUSB912_00935_TODO_00","ローレンスと話す"
+25,"TEXT_GAIUSB912_00935_TODO_01","森の中を調べる"
+26,"TEXT_GAIUSB912_00935_TODO_02","シャルミヌに<Sheet(EventItem,2000731,0)/>を渡す"
 27,"TEXT_GAIUSB912_00935_TODO_03",""
 28,"TEXT_GAIUSB912_00935_TODO_04",""
 29,"TEXT_GAIUSB912_00935_TODO_05",""
@@ -49,15 +49,30 @@ int32,str,str
 45,"TEXT_GAIUSB912_00935_TODO_21",""
 46,"TEXT_GAIUSB912_00935_TODO_22",""
 47,"TEXT_GAIUSB912_00935_TODO_23",""
-48,"TEXT_GAIUSB912_00935_CHARMINE_000_000","Ah, the poor soul! She has a betrothed, yet she will die without hearing his voice speak the words of passing."
-49,"TEXT_GAIUSB912_00935_CHARMINE_000_001","He deserted, you see, on the eve of a battle with the dragons... He now languishes in the dungeons."
-50,"TEXT_GAIUSB912_00935_CHARMINE_000_002","I cannot give her more time! Not with such medicines as I possess, at any rate. At the very least, take word to her love, Laurence, that he might say such prayers as he is able."
-51,"TEXT_GAIUSB912_00935_LAURENCE_000_010","What can an adventurer want with a man whose purse is empty and name besmirched? What? The words of passing!? No, they said she was on the mend!"
-52,"TEXT_GAIUSB912_00935_LAURENCE_000_011","If you have ever loved, hear me. There is something hid in the forest southeast of here; you shall know it by the sign. Take it to her chirurgeon, I beg you."
-53,"TEXT_GAIUSB912_00935_LAURENCE_000_015","My curse upon this place, that condemns a man for doing what becomes a man. Leave me now, hurry!"
-54,"TEXT_GAIUSB912_00935_DUMMY_000_020",""
-55,"TEXT_GAIUSB912_00935_DUMMYTODO_000_020",""
-56,"TEXT_GAIUSB912_00935_CHARMINE_000_030","Ah, the poor soul, she still breathes, but... Adventurer! Does he pray for her soul?"
-57,"TEXT_GAIUSB912_00935_CHARMINE_000_040","An alchemic concoction! As costly as it is hard to obtain... You say 'twas hid in the forest?"
-58,"TEXT_GAIUSB912_00935_CHARMINE_000_041","...This bottle holds the truth of Laurence's desertion. He ran that he might find it for her. And when he knew he was to be captured, he took great pains to hide it, knowing his pursuers would have simply destroyed it as a traitor's refuse."
-59,"TEXT_GAIUSB912_00935_CHARMINE_000_042","I cannot thank you enough for keeping faith in him. Now, if you will pardon me, I have a patient to save!"
+48,"TEXT_GAIUSB912_00935_CHARMINE_000_000","かわいそうに……どうしたらいいのかしら。
+この患者さんには、将来を誓いあった恋人がいるの。"
+49,"TEXT_GAIUSB912_00935_CHARMINE_000_001","でも、彼はドラゴン族との戦いを控えた砦から
+逃亡しようとして失敗し、今は投獄されているのよ。"
+50,"TEXT_GAIUSB912_00935_CHARMINE_000_002","彼女は、もう長くはないわ。
+……そこで、自由な立場の冒険者さんにお願いがあるの。
+獄中の彼女の恋人に、病状を伝えてちょうだい。"
+51,"TEXT_GAIUSB912_00935_LAURENCE_000_010","冒険者が罪人に何の用だ。
+……何だって、彼女がもう長くない！？"
+52,"TEXT_GAIUSB912_00935_LAURENCE_000_011","君、ここから南東にある森の中を調べて、
+そこに隠されているものを彼女の治療師に届けてくれ！
+これは僕の最期の願い……頼む、急いでくれ！"
+53,"TEXT_GAIUSB912_00935_LAURENCE_000_015","ここでは、人であろうとすればするほど、
+人だとは認められなくなってしまうんだ。
+聖戦……そんなもの、彼女の命より重いものかっ！"
+54,"TEXT_GAIUSB912_00935_DUMMY_000_020","指定地点を調べ、「<Sheet(EventItem,2000731,0)/>」をゲット"
+55,"TEXT_GAIUSB912_00935_DUMMYTODO_000_020","（★未使用／削除予定★）"
+56,"TEXT_GAIUSB912_00935_CHARMINE_000_030","かわいそうな患者さん……。
+獄中の恋人さんは、何か仰っていましたか？"
+57,"TEXT_GAIUSB912_00935_CHARMINE_000_040","これは……「<Sheet(EventItem,2000731,0)/>」ではありませんか！
+……患者さんの恋人がこれを？
+こんなに貴重な薬をどこから……。"
+58,"TEXT_GAIUSB912_00935_CHARMINE_000_041","まさか、砦から逃亡しようとしたのは、
+この薬を手に入れるためなのでは……。
+……なるほど、捕まる前に埋めて隠したのですね……。"
+59,"TEXT_GAIUSB912_00935_CHARMINE_000_042","と、とにかく、届けてくれてありがとうございます。
+この薬があれば、彼女を助けられるかもしれません！"

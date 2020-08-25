@@ -1,12 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDD101_03070_SEQ_00","Alphinaud has important news to share."
-1,"TEXT_STMBDD101_03070_SEQ_01","Alphinaud informs you that a letter has arrived from Lord Hien, and after he helpfully summarizes its contents, you glean that your presence is required at the Doman Enclave. Tataru duly promises to mind the fort while you are away, and as you prepare to leave with Alphinaud and Alisaie, you pause to wonder what will unfold across the Ruby Sea: a declaration of peace between Doma and the Empire...or an all-too-predictable return to hostilities."
-2,"TEXT_STMBDD101_03070_SEQ_02","You meet Lord Hien at the enclave as planned, only to learn that his letter had omitted mention of a worrying incident involving an ailing Gosetsu. Upon visiting the bedridden samurai, however, you are relieved to find him well on the path to recovery. Yotsuyu, meanwhile, seems much the same as when you last saw her─a child in a woman's body.
-
-Some time later, a tale told by Yugiri convinces Lord Hien that Yotsuyu's plight is genuine, and he decides to allow her to live out her days in Doma as “Tsuyu.” The only obstacle remaining is to present proof of her condition to Asahi, and with this in mind, your allies agree to rendezvous at the enclave docks."
-3,"TEXT_STMBDD101_03070_SEQ_03","After an uneventful wait by the skiff, a breathless Lord Hien rushes into view, and it is plain that something is amiss. It seems that Yotsuyu has left the safety of the Kienkan, and according to the testimony of the skiff captain, she has already crossed the river..."
+0,"TEXT_STMBDD101_03070_SEQ_00","ウルダハ商館のアルフィノは、冒険者に報せたいことがあるようだ。"
+1,"TEXT_STMBDD101_03070_SEQ_01","前回までの冒険録：
+冒険者たちは生還したゴウセツと再会を果たすが、彼は記憶を失ったヨツユを連れていた。そんな折、帝国から全権大使と名乗るアサヒがやって来る。ヨツユの義弟である彼は、和平交渉に来たと語り、信頼関係の構築のためと、捕虜交換を提案してくる。ヒエンはアサヒを訝しみながらも、ドマの徴用兵たちを取り戻すため、捕虜交換に合意。ヨツユは交換のときまでに記憶が戻らなければ、ドマ人として留め置く取り決めとなる。終始友好的なアサヒだが、別れの際、彼がゼノスの信奉者であり、冒険者を恨んでいるという本性を明かすのだった。
+　　　　　　　　　　　　*　*　*
+ドマと帝国の捕虜交換が迫ってきたので、冒険者も立ち会うことになった。ドマ町人地の帰燕館にいる「ヒエン」と話そう。"
+2,"TEXT_STMBDD101_03070_SEQ_02","ヒエンと話し、倒れたゴウセツを見舞った。彼は元気そうで、ヨツユも記憶を取り戻していないようだった。捕虜交換の前にヨツユをアサヒと対面させることになった。ドマ町人地の「アルフィノ」と話そう。"
+3,"TEXT_STMBDD101_03070_SEQ_03","アルフィノと話したところ、ヒエンが駆けて来て、ヨツユが姿を消したことを告げられた。ドマ町人地から出てしまったようだが、果たして……。"
 4,"TEXT_STMBDD101_03070_SEQ_04",""
 5,"TEXT_STMBDD101_03070_SEQ_05",""
 6,"TEXT_STMBDD101_03070_SEQ_06",""
@@ -27,8 +28,8 @@ Some time later, a tale told by Yugiri convinces Lord Hien that Yotsuyu's plight
 21,"TEXT_STMBDD101_03070_SEQ_21",""
 22,"TEXT_STMBDD101_03070_SEQ_22",""
 23,"TEXT_STMBDD101_03070_SEQ_23",""
-24,"TEXT_STMBDD101_03070_TODO_00","Speak with Hien at the Kienkan."
-25,"TEXT_STMBDD101_03070_TODO_01","Speak with Alphinaud."
+24,"TEXT_STMBDD101_03070_TODO_00","帰燕館のヒエンと話す"
+25,"TEXT_STMBDD101_03070_TODO_01","ドマ町人地のアルフィノと話す"
 26,"TEXT_STMBDD101_03070_TODO_02",""
 27,"TEXT_STMBDD101_03070_TODO_03",""
 28,"TEXT_STMBDD101_03070_TODO_04",""
@@ -51,62 +52,136 @@ Some time later, a tale told by Yugiri convinces Lord Hien that Yotsuyu's plight
 45,"TEXT_STMBDD101_03070_TODO_21",""
 46,"TEXT_STMBDD101_03070_TODO_22",""
 47,"TEXT_STMBDD101_03070_TODO_23",""
-48,"TEXT_STMBDD101_03070_ALPHINAUD_000_000","Ah, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, impeccable timing. We have just received a letter from Lord Hien."
-49,"TEXT_STMBDD101_03070_ALPHINAUD_000_001","He writes that the Domans are coordinating their efforts with the Blue Kojin to maintain a constant watch over the Red."
-50,"TEXT_STMBDD101_03070_ALPHINAUD_000_002","By staying on the lookout for signs of crystal hoarding and the like, they mean to nip any summoning attempts in the bud, thereby satisfying the conditions for peace set down by the ambassador."
-51,"TEXT_STMBDD101_03070_ALPHINAUD_000_003",""
-52,"TEXT_STMBDD101_03070_ALPHINAUD_000_004","For the Garleans' part, the Populares have sent word that a vessel bearing Doman conscripts is soon to arrive in Yanxia. 'Twould seem that the prisoner exchange is to proceed as planned."
-53,"TEXT_STMBDD101_03070_ALPHINAUD_000_005","Lord Hien requests your presence, and I share his view that you should be on hand at this critical juncture."
-54,"TEXT_STMBDD101_03070_ALISAIE_000_006","According to the letter, Yotsuyu's memory has yet to return, so it looks like she'll be living out the rest of her days in Doma─assuming the ambassador means to honor the agreement, of course."
-55,"TEXT_STMBDD101_03070_ALISAIE_000_007","Before we get to that, however, I think it would be wise to assess her condition one last time. If the Domans have missed any change in her mental state, however slight, it would be better if Asahi weren't the one to spot it."
-56,"TEXT_STMBDD101_03070_ALPHINAUD_000_008","Agreed. Let us make straightways for the enclave, then. Lord Hien will be waiting."
-57,"TEXT_STMBDD101_03070_ALPHINAUD_000_009","I trust you will cope in our absence, Tataru?"
-58,"TEXT_STMBDD101_03070_TATARU_000_010","Don't worry about me─I'll be fine! Just be sure to come back safely!"
-59,"TEXT_STMBDD101_03070_TATARU_000_015","Alphinaud's been keeping a <Emphasis>very</Emphasis> careful count of his coins lately. I doubt he'd ask for a sip of water without asking the price first! Hee hee hee!"
-60,"TEXT_STMBDD101_03070_HANCOCK_000_016","I am very much in favor of a peace agreement between Doma and the Empire. Loosen that imperial grip, I say, and let the trade routes breathe freely!"
-61,"TEXT_STMBDD101_03070_ALPHINAUD_000_017","We know the broad strokes from his letter, but I would hear the details of our Doman friends' progress from Lord Hien himself."
-62,"TEXT_STMBDD101_03070_ALISAIE_000_018","Ever since he drained our coffers dry buying that sword, Alphinaud has had his purse strings in a death grip. I can't even buy a cup of tea without him going on about the “dangers of frivolous spending.”"
-63,"TEXT_STMBDD101_03070_KIENKANGATEKEEPER03028_100_026","Lord Hien is expecting you. May I show you in?"
-64,"TEXT_STMBDD101_03070_EVENTAREA_WARP_100_027","Enter the Kienkan?"
-65,"TEXT_STMBDD101_03070_HIEN_000_020","Ah, I see my letter reached you across the Ruby Sea! Thank you for coming so swiftly."
-66,"TEXT_STMBDD101_03070_HIEN_000_021","Though I wrote at some length on the subject of the forthcoming exchange, there was one other matter I neglected to mention..."
-67,"TEXT_STMBDD101_03070_HIEN_000_022","It concerns Gosetsu. As you may have observed, he returned from his ordeal rather the worse for wear, and despite his best efforts to conceal his condition─or perhaps because of them─he recently collapsed."
-68,"TEXT_STMBDD101_03070_ALPHINAUD_000_023","Good gods! Is he all right!?"
-69,"TEXT_STMBDD101_03070_HIEN_000_024","Confined to bed and grumbling without cease, but he has shown signs of recovery. He made me promise not to tell you, lest you worry unduly. Which was all very well when you weren't here."
-70,"TEXT_STMBDD101_03070_HIEN_000_025","Now that you <Emphasis>are</Emphasis>, however, I think it high time he received some visitors. Might you spare him a moment? Yotsuyu has scarce left his side, and I imagine you are curious to see what has become of her as well."
-71,"TEXT_STMBDD101_03070_ALPHINAUD_100_026","We will visit him at once. <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, Alisaie─shall we?"
-72,"TEXT_STMBDD101_03070_HIEN_000_030","They make a convincing pair, do they not? On first acquaintance, I would think him a doting grandsire and her a model grandchild."
-73,"TEXT_STMBDD101_03070_ALPHINAUD_000_031","Indeed. Had someone told me a year ago that I would live to bear witness to such a scene, I would have declared them mad. That aside, I am relieved to see Gosetsu has lost none of his spirit."
-74,"TEXT_STMBDD101_03070_ALISAIE_000_032","But what a turn of events... I mean, for <Emphasis>her</Emphasis> to suddenly be watching over <Emphasis>him</Emphasis>. You couldn't make it up. Although I suppose Gosetsu <Emphasis>is</Emphasis> an old man. With the way he charges through life, it can be easy to forget..."
-75,"TEXT_STMBDD101_03070_HIEN_000_033","Aye, he has resisted decrepitude with the same defiance he showed the enemies of Doma."
-76,"TEXT_STMBDD101_03070_HIEN_000_034","But no matter how adamant his will, no man can carry on forever. He has pushed himself beyond the limits of endurance too many times─even if his health returns, the fact remains: he will never again be the warrior he once was."
-77,"TEXT_STMBDD101_03070_HIEN_000_035","He has given his all for liege and land, and we will ask no more."
-78,"TEXT_STMBDD101_03070_ALISAIE_000_036","And what of his nurse? If Yotsuyu is feigning <Emphasis>that</Emphasis>─well, she certainly has me fooled."
-79,"TEXT_STMBDD101_03070_YUGIRI_000_037","(-???-)This is no pretense."
-80,"TEXT_STMBDD101_03070_ALISAIE_000_038","Yugiri. Out of all of us, I would think you the hardest to convince. So...what makes you so sure?"
-81,"TEXT_STMBDD101_03070_YUGIRI_000_039","I have been spying on Yotsuyu from the shadows─waiting for the misstep that would betray her charade for what it was."
-82,"TEXT_STMBDD101_03070_YUGIRI_000_040","But her mask has never slipped. Not once. She has remained in character from the first. One evening, I watched her as she sat in her chambers, unguarded and alone..."
-83,"TEXT_STMBDD101_03070_YUGIRI_000_041","She had taken the dishes from the cupboard, and was pretending to prepare dinner right there on the tatami. A child's game."
-84,"TEXT_STMBDD101_03070_YUGIRI_000_042","Even the wariest shinobi would not go to such lengths. I can but conclude that her mind is truly broken."
-85,"TEXT_STMBDD101_03070_ALISAIE_000_043","...Well, that's good enough for me─and everyone else, I would hazard."
-86,"TEXT_STMBDD101_03070_HIEN_000_044","Aye, the matter is settled. Yotsuyu will become “Tsuyu,” and begin a new life here in Doma."
-87,"TEXT_STMBDD101_03070_HIEN_000_045","Before that can happen, however, we will need to present her to the ambassador one last time, to prove that her memory is truly gone."
-88,"TEXT_STMBDD101_03070_HIEN_000_046","But I would not risk parading her in front of our returning conscripts. Her presence at the exchange would only stir up mutinous thoughts."
-89,"TEXT_STMBDD101_03070_ALISAIE_000_047","Understandably. She as good as fastened the chains around their necks."
-90,"TEXT_STMBDD101_03070_HIEN_000_048","Aye─which is why I mean to conclude this business with Tsuyu first, out of the sight of my countrymen. Will you help me?"
-91,"TEXT_STMBDD101_03070_ALPHINAUD_000_049","We are at your service. There is no higher purpose than the pursuit of peace."
-92,"TEXT_STMBDD101_03070_HIEN_000_050","My thanks. The Garleans are on their way, and we must prepare to welcome the ambassador. We will meet you at the docks with Tsuyu."
-93,"TEXT_STMBDD101_03070_HIEN_000_055","The skiff will take us to our meeting with the ambassador. We will join you at the docks once preparations have been made."
-94,"TEXT_STMBDD101_03070_YUGIRI_000_051","Even after weeks of surveillance, it was difficult for me to accept that Yotsuyu's condition was genuine... But not as difficult as accepting Gosetsu's affection for her."
-95,"TEXT_STMBDD101_03070_ALISAIE_000_052","Can you imagine Yotsuyu playing with bowls on the floor? I don't know that we can think of her as the same person anymore..."
-96,"TEXT_STMBDD101_03070_ALPHINAUD_000_060","Shall we wait here, then? Lord Hien should not be long."
-97,"TEXT_STMBDD101_03070_HIEN_000_061","My friends! Have you seen Tsuyu!? She is nowhere to be found!"
-98,"TEXT_STMBDD101_03070_ALPHINAUD_000_062","<Emphasis>What</Emphasis>? But the Garleans will be landing in a matter of moments!"
-99,"TEXT_STMBDD101_03070_ALISAIE_000_063","If she's fled... Could it mean her memories have returned?"
-100,"TEXT_STMBDD101_03070_HIEN_000_064","I know not. Yugiri is scouring the streets as we speak, but it is possible Tsuyu has left the enclave altogether."
-101,"TEXT_STMBDD101_03070_HIEN_000_065","Captain─a word. Did you perchance carry a fair-skinned woman across the river?"
-102,"TEXT_STMBDD101_03070_DOMANFERRYMAN_000_066","A fair-skinned woman, my lord? I...I do not rightly know... I think─ Y-Yes! Yes, my lord! Now that you mention it, there <Emphasis>was</Emphasis> a lady among the passengers whom I do not recall having seen before."
-103,"TEXT_STMBDD101_03070_DOMANFERRYMAN_000_067","Her face was hidden by the brim of her hat, but I remember taking her hand to help her onto the boat. White as new-fallen snow, it was... Was she someone important, my lord? Have I done something wrong?"
-104,"TEXT_STMBDD101_03070_HIEN_000_068","Wrong? ...No. No, I was merely hoping to catch our guest before she departed. Be at ease, Captain."
-105,"TEXT_STMBDD101_03070_HIEN_000_069","'Twould seem that Tsuyu has crossed the river.
-Kami help me... No good can come of this."
+48,"TEXT_STMBDD101_03070_ALPHINAUD_000_000","やあ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
+ちょうど良い折にきてくれたね。
+今さっき、ヒエン殿から手紙が届いたところなんだ。"
+49,"TEXT_STMBDD101_03070_ALPHINAUD_000_001","帝国の全権大使、アサヒが持ちかけてきた和平交渉。
+その条件である、蛮神スサノオの召喚を押さえ込むため、
+ドマは碧甲羅のコウジン族と連携し、監視体制を敷いたそうだ。"
+50,"TEXT_STMBDD101_03070_ALPHINAUD_000_002","これで、あらたな神器や大量のクリスタルを集積しようとする、
+紅甲羅の動きがあれば、先手を打って対処することも可能となる。
+和平の条件は満たせたわけだね。"
+51,"TEXT_STMBDD101_03070_ALPHINAUD_000_003","（★未使用／削除予定★）"
+52,"TEXT_STMBDD101_03070_ALPHINAUD_000_004","一方、帝国側からも準備完了の報せがあり、
+ほどなく、徴用兵を乗せた飛空艇がヤンサに到着するとのことだ。
+いよいよ、帝国との和平がかかった捕虜交換が迫ってきたんだよ。"
+53,"TEXT_STMBDD101_03070_ALPHINAUD_000_005","ヒエン殿たっての希望でもあるので、
+その重要な場には、ぜひ君にも立ち会ってもらいたい。"
+54,"TEXT_STMBDD101_03070_ALISAIE_000_006","それと、ヨツユの記憶なんだけど、相変わらず戻ってないみたい。
+先の取り決めに従うなら、帝国に引き渡すことなく、
+ドマ人として生きさせることになるわ。"
+55,"TEXT_STMBDD101_03070_ALISAIE_000_007","その前に、私たちの目でも真偽を確かめておきたいところね。
+もし、記憶が戻っているのに、ドマに置いておいたら、
+何をしでかすかわかったもんじゃないもの。"
+56,"TEXT_STMBDD101_03070_ALPHINAUD_000_008","よし、それではドマ町人地の「帰燕館」へ向かおう。
+ヒエン殿が待っているはずだ。"
+57,"TEXT_STMBDD101_03070_ALPHINAUD_000_009","タタル、我々はしばらくここを空けることになる。
+君も何かと忙しいだろうが、留守を頼んでもいいかい？"
+58,"TEXT_STMBDD101_03070_TATARU_000_010","もちろんでっす！
+皆さん、お気をつけていってらっしゃいませ！"
+59,"TEXT_STMBDD101_03070_TATARU_000_015","アルフィノさんは、「暁」の資金を浪費してしまったことを反省し、
+しばらく、質素な倹約生活を送っているようでっす。"
+60,"TEXT_STMBDD101_03070_HANCOCK_000_016","ドマと帝国の和平が成立することを願っていますよ。
+東アルデナード商会としても、自由な貿易のため、
+帝国には大人しくしてもらいたいのデ～ス！"
+61,"TEXT_STMBDD101_03070_ALPHINAUD_000_017","さあ、ヒエン殿から、
+改めてドマの近況を聞くとしよう。"
+62,"TEXT_STMBDD101_03070_ALISAIE_000_018","アルフィノったら、「暁」の資金を浪費しちゃってから、
+やたらとケチになって、お茶代まで出し渋るのよ。"
+63,"TEXT_STMBDD101_03070_KIENKANGATEKEEPER03028_100_026","ヒエン様の館「帰燕館」へ入られますか？"
+64,"TEXT_STMBDD101_03070_EVENTAREA_WARP_100_027","「帰燕館」へ入りますか？"
+65,"TEXT_STMBDD101_03070_HIEN_000_020","おお、来てくれたか！
+遠いところを、わざわざかたじけない。"
+66,"TEXT_STMBDD101_03070_HIEN_000_021","捕虜交換への立ち会いを含め、
+大方のことは、文にしたためたとおりだ。
+が、ひとつだけ報せていなかったことがあってな……。"
+67,"TEXT_STMBDD101_03070_HIEN_000_022","かねてより体調が思わしくなかったゴウセツが、
+少し前に倒れてしまい、床に臥せっておるのだ。"
+68,"TEXT_STMBDD101_03070_ALPHINAUD_000_023","なんですって！？
+それで、彼の容態は……？"
+69,"TEXT_STMBDD101_03070_HIEN_000_024","幸いなことに、快方に向かっておる。
+心配させたくないという、あやつの意向もあって、
+すぐには伝えなかったのだが……。"
+70,"TEXT_STMBDD101_03070_HIEN_000_025","せっかくここまで来てくれたのだ、見舞ってやってはくれんか？
+それに、ツユも熱心に看病してくれている……。
+彼女の様子も、気になるところであろう？"
+71,"TEXT_STMBDD101_03070_ALPHINAUD_100_026","もちろんです。
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、アリゼー、
+ゴウセツを元気付けてあげようじゃないか。"
+72,"TEXT_STMBDD101_03070_HIEN_000_030","どうだ、傑作であったろう？
+あの、ゴウセツとヨツユが、
+まるで、祖父と孫娘の如き様相ときた。"
+73,"TEXT_STMBDD101_03070_ALPHINAUD_000_031","ドマ奪還以前であれば、想像すらできない光景ですね。
+何はともあれ、ゴウセツ殿が元気そうで安心しました。"
+74,"TEXT_STMBDD101_03070_ALISAIE_000_032","本来、面倒を見るべき側が、世話を焼かれちゃってまぁ……。
+とはいえ、つい忘れがちだけど、思えばゴウセツって、
+おじいちゃんと呼ばれても、おかしくない歳だものね。"
+75,"TEXT_STMBDD101_03070_HIEN_000_033","そう……あやつは老齢でありながら、
+ドマに忠義を尽くし、無理を重ねて戦い続けてきたのだ。"
+76,"TEXT_STMBDD101_03070_HIEN_000_034","寄る年波も、気合ひとつで乗り越えてきたが、
+それもついに、限界がきたということだろう。
+おそらく快復したところで、もう以前のようには戦えん……。"
+77,"TEXT_STMBDD101_03070_HIEN_000_035","ゴウセツには、充分すぎるほど尽くしてもらった。
+これを機に、ゆっくり休んでもらいたい。"
+78,"TEXT_STMBDD101_03070_ALISAIE_000_036","ヨツユの記憶の方は、どう見ても戻ってなさそうね。
+もし、あれで演技だったらお手上げよ。"
+79,"TEXT_STMBDD101_03070_YUGIRI_000_037","(-？？？？-)その点は、もう疑う余地はなさそうだ……。"
+80,"TEXT_STMBDD101_03070_ALISAIE_000_038","ユウギリ……。
+慎重なあなたにしては珍しいわね。
+そう思うに至った経緯、聞かせてくれない……？"
+81,"TEXT_STMBDD101_03070_YUGIRI_000_039","あれから私は、ヨツユのことをずっと陰から監視していた。
+もし、記憶喪失を装っているのであれば、
+そのうち、必ずあらが出るはずだと……。"
+82,"TEXT_STMBDD101_03070_YUGIRI_000_040","だが、彼女は一瞬たりとも、あの調子を崩すことはなかった。
+さらには、座敷でひとりになったときのこと……。"
+83,"TEXT_STMBDD101_03070_YUGIRI_000_041","ヨツユは戸棚にあった食器をみつけると、
+畳に並べ立てて、無邪気にままごと遊びを始めたのだ。"
+84,"TEXT_STMBDD101_03070_YUGIRI_000_042","潜入工作をする忍びであっても、あれほどの芝居は打てまい。
+よって、本当に記憶を失っていると認めざるを得ない。"
+85,"TEXT_STMBDD101_03070_ALISAIE_000_043","……なるほどね。
+あなたがそう言うのなら、確証が持てるわ。"
+86,"TEXT_STMBDD101_03070_HIEN_000_044","うむ、わしの腹も決まった。
+ヨツユの振る舞いは芝居にあらず、記憶なきことを認める。
+よって、彼女はツユとして、ドマにて新たな人生を歩ませよう。"
+87,"TEXT_STMBDD101_03070_HIEN_000_045","だが、帝国に彼女の記憶喪失を了承させるためには、
+少なくとも、もう一度、ツユとアサヒを対面させねばならん。"
+88,"TEXT_STMBDD101_03070_HIEN_000_046","さりとて、捕虜交換の折にツユを伴えば、
+ドマの徴用兵たちに、かつての代理総督を見せることになる。
+大事な和平の場には、できるだけ混乱の種は持ち込みたくない。"
+89,"TEXT_STMBDD101_03070_ALISAIE_000_047","ヨツユの命によって徴用された彼らにとっては、
+人生を狂わせられた元凶そのものだものね……。"
+90,"TEXT_STMBDD101_03070_HIEN_000_048","ゆえに、ツユとアサヒの対面を、
+捕虜交換に先だって済ませてしまおうと思う。
+すまんが秘密裏に行うためにも、同行を頼めるか？"
+91,"TEXT_STMBDD101_03070_ALPHINAUD_000_049","承知しました。
+和平のためとあれば、最善を尽くしましょう。"
+92,"TEXT_STMBDD101_03070_HIEN_000_050","助かる……。
+さて、そろそろ帝国の飛空戦艦が到着する頃合いだろう。
+我らはツユを連れ出す準備をするので、船着場で待っていてくれ。"
+93,"TEXT_STMBDD101_03070_HIEN_000_055","我らはツユを連れ出す準備をする。
+そなたらは、船着場で待っていてくれ。"
+94,"TEXT_STMBDD101_03070_YUGIRI_000_051","ヨツユの記憶喪失は認めるほかないが、
+ゴウセツの好々爺ぶりは……何とも受け入れがたい。"
+95,"TEXT_STMBDD101_03070_ALISAIE_000_052","あの、ヨツユがままごとだなんて……。
+彼女はもはや、ツユという名の別人なのね。"
+96,"TEXT_STMBDD101_03070_ALPHINAUD_000_060","さて、ヒエン殿たちを待つとしよう。"
+97,"TEXT_STMBDD101_03070_HIEN_000_061","大変だ！
+ツユが……ツユが、館から姿を消してしまった！"
+98,"TEXT_STMBDD101_03070_ALPHINAUD_000_062","なんてことだ！
+一大事ではありませんか……！"
+99,"TEXT_STMBDD101_03070_ALISAIE_000_063","ま、まさか……
+記憶が戻って……逃げた！？"
+100,"TEXT_STMBDD101_03070_HIEN_000_064","……わからん。
+いま、ユウギリが町中を捜し回っているが、
+ことによると、町人地から出てしまったのやもしれん。"
+101,"TEXT_STMBDD101_03070_HIEN_000_065","船頭、そなたに聞きたい。
+見慣れぬ……色白の娘を船に乗せなんだか？"
+102,"TEXT_STMBDD101_03070_DOMANFERRYMAN_000_066","これは、ヒエン様。
+そういえば……先ほど渡した客に、見慣れぬ娘がおりました。"
+103,"TEXT_STMBDD101_03070_DOMANFERRYMAN_000_067","笠を被っていたので、顔はあまり見えませんでしたが、
+乗船の際に掴んだ手は、雪のように白かったです。
+あれはいったい、どなたでしょう……？"
+104,"TEXT_STMBDD101_03070_HIEN_000_068","いや……ちょっとした客人でな、気にせんでくれ。
+そうか、娘は対岸に渡ったということだな。"
+105,"TEXT_STMBDD101_03070_HIEN_000_069","どうやら、ツユは対岸にいる可能性が高そうだ。
+まずいことになったぞ……。"

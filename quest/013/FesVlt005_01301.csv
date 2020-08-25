@@ -1,12 +1,16 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_FESVLT005_01301_SEQ_00","Lisette would hear a full report of your efforts as an emissary of love.
-※This quest is available for a limited time only."
-1,"TEXT_FESVLT005_01301_SEQ_01","Lisette commends your service on House Valentione's behalf, her ancestral senses telling her that your deeds have provided no small degree of solace to those lost in love. To reward you for your efforts, she deigns to offer you the opportunity to find love of your own. Trade with a <If(PlayerParameter(4))>dashing gentleman<Else/>lovely lady</If> to obtain two types of chocolate─bitter and pure heart─and deliver the pair of confections to Lisette.
+0,"TEXT_FESVLT005_01301_SEQ_00","※本クエストは、期間限定のクエストとなります。
 
-※Please note that you will be unable to complete this quest after the seasonal event has ended. For details, please check the Lodestone."
-2,"TEXT_FESVLT005_01301_SEQ_02","Lisette gladly accepts your chocolates, seemingly quite relieved that the Valentione's Day festivities may now draw gradually to a close. For all of her efforts on behalf of lovers the realm over, it would appear that the fiery Ishgardian has had considerably less fortune in her own romantic endeavors..."
+リムサ・ロミンサのリゼットは、冒険者に「愛の伝道師の助手」としての仕事の結果を報告してほしいようだ。"
+1,"TEXT_FESVLT005_01301_SEQ_01","※本クエストは、シーズナルイベント開催中にかぎり、
+　受注、進行できます。
+　開催期間終了後は進行できませんので、ご注意ください。
+　期間等の詳細についてはLodestoneをご覧ください。
+
+冒険者の「愛の伝道師の助手」としての仕事ぶりにご満悦のリゼット。彼女は冒険者自身にも「愛」を伝えるべく、「<Sheet(Item,　6998,0)/>」と「<Sheet(Item,　6999,0)/>」を持ってくるように言った。しかし、冒険者は<If(PlayerParameter(4))><Sheet(Item,　6999,0)/><Else/><Sheet(Item,　6998,0)/></If>しか持っていない。ほかの冒険者と「トレード」を行うなどして、もう一方のチョコを手に入れよう。"
+2,"TEXT_FESVLT005_01301_SEQ_02","リゼットに「<Sheet(Item,　6998,0)/>」と「<Sheet(Item,　6999,0)/>」の2種類を渡した。彼女は冒険者に「愛」を伝えられて満足したようだ。愛の伝道師は仕事を終え、催しも一段落した。引き続き、愛の祭典「ヴァレンティオンデー」を楽しもう。"
 3,"TEXT_FESVLT005_01301_SEQ_03",""
 4,"TEXT_FESVLT005_01301_SEQ_04",""
 5,"TEXT_FESVLT005_01301_SEQ_05",""
@@ -28,7 +32,8 @@ int32,str,str
 21,"TEXT_FESVLT005_01301_SEQ_21",""
 22,"TEXT_FESVLT005_01301_SEQ_22",""
 23,"TEXT_FESVLT005_01301_SEQ_23",""
-24,"TEXT_FESVLT005_01301_TODO_00","Deliver bitter heart chocolate and pure heart chocolate to Lisette de Valentione."
+24,"TEXT_FESVLT005_01301_TODO_00","リゼット・ド・ヴァレンティオンに<Sheet(Item,　6998,0)/>と
+<Sheet(Item,　6999,0)/>を渡す"
 25,"TEXT_FESVLT005_01301_TODO_01",""
 26,"TEXT_FESVLT005_01301_TODO_02",""
 27,"TEXT_FESVLT005_01301_TODO_03",""
@@ -52,21 +57,53 @@ int32,str,str
 45,"TEXT_FESVLT005_01301_TODO_21",""
 46,"TEXT_FESVLT005_01301_TODO_22",""
 47,"TEXT_FESVLT005_01301_TODO_23",""
-48,"TEXT_FESVLT005_01301_LISSETE_000_000","I swear, is it always this bloody hot here? No wonder the whole city smells of sweat and watered-down ale."
-49,"TEXT_FESVLT005_01301_LISSETE_000_001","“Oh, Lisette! Pray honor me with a piece of your chocolate!”
-I'd just as soon <Emphasis>honor</Emphasis> the lot of them with a swift kick to the face."
-50,"TEXT_FESVLT005_01301_LISSETE_000_002","Hour after tireless hour do I slave to bring the joys of love to these uncultured boors. What, I ask, is in it for <Emphasis>me</Emphasis>? Hm? Hmmmmmm!?"
-51,"TEXT_FESVLT005_01301_LISSETE_000_003","...Hm?"
-52,"TEXT_FESVLT005_01301_LISSETE_000_004","Well, if it isn't my dutiful adventuring friend! How fare you in spreading my boundless love across the land?♪"
-53,"TEXT_FESVLT005_01301_LISSETE_000_005","...I require no answer, of course! As a lady of House Valentione, I am ever attuned to the hearts of would-be lovers the realm over!"
-54,"TEXT_FESVLT005_01301_LISSETE_001_006","Yes, though not all romances can end in happiness, it is clear that many a heart rests easier after your efforts. I am proud to declare you a worthy retainer to House Valentione!"
-55,"TEXT_FESVLT005_01301_LISSETE_000_006","And what of <Emphasis>yourself</Emphasis>, adventurer? Do you long for the company of another? As you have served me with such loyalty, I would deign to return the favor."
-56,"TEXT_FESVLT005_01301_LISSETE_000_007","This is my final order to thee: deliver one morsel each of bitter heart and pure heart chocolate to me, and do so with all haste!"
-57,"TEXT_FESVLT005_01301_LISSETE_000_008","And how might you go about this? Why, you need only seek out a <If(PlayerParameter(4))>strapping lad<Else/>fair maiden</If> willing to make a trade─a task which I am sure is well within the powers of one as brave and <If(PlayerParameter(4))>becoming<Else/>handsome</If> as yourself."
-58,"TEXT_FESVLT005_01301_LISSETE_000_009","What if your offer is spurned, you say? Are you an adventurer or a chocobo chick!? Begone from my sight, and don't return until you have both chocolates in hand!"
-59,"TEXT_FESVLT005_01301_LISSETE_000_010","I command you to bring me one morsel each of bitter heart and pure heart chocolate. Yes, I, the Lady Lisette bestow upon you the perfect opportunity to seek out that special someone. Dishonor my house by wasting it, and I can assure you that you will rue this day!"
-60,"TEXT_FESVLT005_01301_LISSETE_000_020","I command you to bring me one morsel each of bitter heart and pure heart chocolate. Yes, I, the Lady Lisette bestow upon you the perfect opportunity to seek out that special someone. Dishonor my house by wasting it, and I can assure you that you will rue this day!"
-61,"TEXT_FESVLT005_01301_LISSETE_000_021","Well, what have we here? Yes, this is truly a glorious day! Yes, you must tell me all about the special young <If(PlayerParameter(4))>man<Else/>woman</If> from whom you obtained this chocolate."
-62,"TEXT_FESVLT005_01301_LISSETE_000_022","...Oh, would you look at the time! I fear I must prepare to be on my way. Yes, time simply flies when you are spreading love to hundreds─nay, thousands!─of solitary, godsforsaken souls."
-63,"TEXT_FESVLT005_01301_LISSETE_000_023","Till next we meet, adventurer, may your days─and nights─never want for ardor and affection!"
-64,"TEXT_FESVLT005_01301_LISSETE_000_024","...Phew. I thought it would never end. I swear, next Valentione's Day will be the one I spend in the company of my <Emphasis>own</Emphasis> true love, whoever and wherever he might be..."
+48,"TEXT_FESVLT005_01301_LISSETE_000_000","……あ～あ、クソ暑ちィぜ。
+なんだよ、このアホみてぇな陽気はよぉ！
+チョコじゃなくても溶けるっつーの！"
+49,"TEXT_FESVLT005_01301_LISSETE_000_001","まったく、アイドルも楽じゃねーよなァ。
+ワザワザ、こんなド田舎くんだりまで来てやったのに、
+イイ男のひとりもいやしねぇ！"
+50,"TEXT_FESVLT005_01301_LISSETE_000_002","……ああん？　テメェ、遅ぇんだよ！
+5秒でメシ買ってこいっつっただろ？
+チョーシ乗ってっと、クルザスの雪山に埋めんぞ、ゴラァ！"
+51,"TEXT_FESVLT005_01301_LISSETE_000_003","……………………はっ！
+…………な、な～んて、じょうだんで～す♪"
+52,"TEXT_FESVLT005_01301_LISSETE_000_004","だ、誰かと思ったらぁ、冒険者さんだったんですかぁ！
+んもぅ、アイドルにイキナリ話しかけちゃダメだぞっ！
+リゼット怒っちゃうからっ！　もぉ～、プン☆プン！"
+53,"TEXT_FESVLT005_01301_LISSETE_000_005","そんなことより、お仕事終わった？
+……うんうん、世界には色々な愛のカタチがあるんだねぇ～。
+「愛の伝道師の助手」合格でぇ～～～っす！"
+54,"TEXT_FESVLT005_01301_LISSETE_001_006","たくさんもらって、あまったチョコは、
+私たちの仲間、「ヴァレンティオン家の執事」に渡せば、
+ステキな記念品と交換してあげるよ☆"
+55,"TEXT_FESVLT005_01301_LISSETE_000_006","そういえば、冒険者さん……。
+アナタ自身は「愛」してる？
+最近、ステキな出会いはあったかしら？"
+56,"TEXT_FESVLT005_01301_LISSETE_000_007","そうだ、いいこと考えた♪
+私のトコロに「<Sheet(Item,　6998,0)/>」と、
+「<Sheet(Item,　6999,0)/>」を1個ずつもってきて！"
+57,"TEXT_FESVLT005_01301_LISSETE_000_008","アナタのもってるのは<If(PlayerParameter(4))>「<Sheet(Item,　6999,0)/>」<Else/>「<Sheet(Item,　6998,0)/>」</If>だけだから、
+誰かと交換して、「愛」のキッカケを作っちゃおうよ！
+ヒュ～☆ヒュ～！"
+58,"TEXT_FESVLT005_01301_LISSETE_000_009","人と話すのは恥ずかしい……って？
+……テメェ、カマトトぶってんじゃねぇぞ、ゴラァ！
+さっさといきやがれ！！"
+59,"TEXT_FESVLT005_01301_LISSETE_000_010","私のトコロに「<Sheet(Item,　6998,0)/>」と、
+「<Sheet(Item,　6999,0)/>」を1個ずつもってきて！
+気になる相手とチョコを交換して、愛の思い出にしよっ☆"
+60,"TEXT_FESVLT005_01301_LISSETE_000_020","私のトコロに「<Sheet(Item,　6998,0)/>」と、
+「<Sheet(Item,　6999,0)/>」を1個ずつもってきて！
+気になる相手とチョコを交換して、愛の思い出にしよっ☆"
+61,"TEXT_FESVLT005_01301_LISSETE_000_021","よかったっ！　アナタにもステキな出会いがあったのね♪
+世界中が愛につつまれる、それがリゼットの願いで～す！
+そう、世の中を動かすのは「愛」のチカラなのだから！"
+62,"TEXT_FESVLT005_01301_LISSETE_000_022","……そろそろお別れの時間なのです、クスン☆
+楽しいときも、悲しいときも。
+甘くても苦くても、美味しいチョコを食べてがんばろ～☆"
+63,"TEXT_FESVLT005_01301_LISSETE_000_023","んじゃ、次の「ヴァレンティオンデー」の季節でね♪
+リゼット、冒険者さんにまた逢えるのを、
+すっごくすっごく楽しみにしてるからね！　バイ☆バイ！"
+64,"TEXT_FESVLT005_01301_LISSETE_000_024","……………………あ～、やっと終わったぜ。
+ったくタリィなぁ……終わり終わりっと。
+ヴァレンティオン家の名を売るのも楽じゃねぇなぁ、オイ。"

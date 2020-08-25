@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANSAH301_01400_SEQ_00","Seww needs your help to curtail a Sahagin strike force."
-1,"TEXT_BANSAH301_01400_SEQ_01","Seww has caught word of a Coral Trident strike force assembling for a concerted attack on the Maelstrom's defenses. He reasons that eliminating the leaders of the operation will steal the momentum from the assault. Defeat members of the Sapsa shelfscale, shelfclaw, and shelftooth clans, then slay the clan chiefs when they come forth to avenge their fallen kin."
-2,"TEXT_BANSAH301_01400_SEQ_02","You have eliminated the clan chiefs. Return to Novv's Nursery and report to Seww."
-3,"TEXT_BANSAH301_01400_SEQ_03","You report your success to Seww, and the young Sahagin is relieved to hear of his violent kin's demise. Though the Sahagin have once again narrowly avoided the threat of full-scale war, Novv's spawnling cautions that the next crop of leaders may very well take up where their shortsighted predecessors left off."
+0,"TEXT_BANSAH301_01400_SEQ_00","ノォヴの育成地のセェウは、冒険者に頼みがあるようだ。"
+1,"TEXT_BANSAH301_01400_SEQ_01","セェウから、サプサ産卵地にて、「珊瑚の銛」を率いる幹部3人を倒してほしいと依頼された。「<Sheet(BNpcName,1827,0)/>」を討伐すると「<Sheet(BNpcName,2734,0)/>」が、「<Sheet(BNpcName,1828,0)/>」を討伐すると「<Sheet(BNpcName,2735,0)/>」が、「<Sheet(BNpcName,1830,0)/>」を討伐すると「<Sheet(BNpcName,2736,0)/>」が現れるので、討伐しよう。"
+2,"TEXT_BANSAH301_01400_SEQ_02","「珊瑚の銛」の幹部を討伐した。ノォヴの育成地の「セェウ」に報告しよう。"
+3,"TEXT_BANSAH301_01400_SEQ_03","セェウに報告した。冒険者が幹部を討ったことで、ひとまずは「珊瑚の銛」と黒渦団の全面戦争を防げそうだ。セェウは、安易に戦いを起こそうとする「珊瑚の銛」の視野の狭さを非難した。幹部が再び戦いを先導しようとしたら、冒険者の力でそれを阻もう。"
 4,"TEXT_BANSAH301_01400_SEQ_04",""
 5,"TEXT_BANSAH301_01400_SEQ_05",""
 6,"TEXT_BANSAH301_01400_SEQ_06",""
@@ -25,10 +25,13 @@ int32,str,str
 21,"TEXT_BANSAH301_01400_SEQ_21",""
 22,"TEXT_BANSAH301_01400_SEQ_22",""
 23,"TEXT_BANSAH301_01400_SEQ_23",""
-24,"TEXT_BANSAH301_01400_TODO_00","Defeat a Sapsa shelfscale, then slay the shelfscale chief when he appears."
-25,"TEXT_BANSAH301_01400_TODO_01","Defeat a Sapsa shelfclaw, then slay the shelfclaw chief when he appears."
-26,"TEXT_BANSAH301_01400_TODO_02","Defeat a Sapsa shelftooth, then slay the shelftooth chief when he appears."
-27,"TEXT_BANSAH301_01400_TODO_03","Report to Seww."
+24,"TEXT_BANSAH301_01400_TODO_00","サプサ産卵地の<Sheet(BNpcName,1827,0)/>を討伐し
+おびき寄せた<Sheet(BNpcName,2734,0)/>を討伐"
+25,"TEXT_BANSAH301_01400_TODO_01","サプサ産卵地の<Sheet(BNpcName,1828,0)/>を討伐し
+おびき寄せた<Sheet(BNpcName,2735,0)/>を討伐"
+26,"TEXT_BANSAH301_01400_TODO_02","サプサ産卵地の<Sheet(BNpcName,1830,0)/>を討伐し
+おびき寄せた<Sheet(BNpcName,2736,0)/>を討伐"
+27,"TEXT_BANSAH301_01400_TODO_03","セェウに報告"
 28,"TEXT_BANSAH301_01400_TODO_04",""
 29,"TEXT_BANSAH301_01400_TODO_05",""
 30,"TEXT_BANSAH301_01400_TODO_06",""
@@ -49,15 +52,24 @@ int32,str,str
 45,"TEXT_BANSAH301_01400_TODO_21",""
 46,"TEXT_BANSAH301_01400_TODO_22",""
 47,"TEXT_BANSAH301_01400_TODO_23",""
-48,"TEXT_BANSAH301_01400_SEWW_000_000","Pshhh... The Coral Tridentshhh are rallying their warriors to make a pushhh on the shhhorewalker position! They mean to shhhtart open warfare!"
-49,"TEXT_BANSAH301_01400_SEWW_000_001","We cannot allow them to shhhteer our race towards oblivion. You mushhht find the three chiefshhh in charge of the operation and end their mad rushhh for glory!"
-50,"TEXT_BANSAH301_01400_SEWW_000_002","The shhhwiftest way to force a confrontation with these leaders is to launch an attack againshhht their clans. Defeat members of the Shhhapsa shelfscales, shelfclaws, and shelfteeth, and you will shhhoon draw the ire of their chiefshhh. Quickly now, before their momentum becomes unshhhtoppable!"
-51,"TEXT_BANSAH301_01400_BALLOON_000_010","Pshhh! You dare!?"
-52,"TEXT_BANSAH301_01400_BALLOON_000_011","Shhhlay my kin, will you!?"
-53,"TEXT_BANSAH301_01400_BALLOON_000_012","Pshhh! Perishhh, finless one!"
+48,"TEXT_BANSAH301_01400_SEWW_000_000","フスィーッ……「珊瑚の銛」の連中め！
+黒渦団に戦いを仕掛けるため、奴らが動き出したんだ。
+このままでは、黒渦団と全面対決になっちまう。"
+49,"TEXT_BANSAH301_01400_SEWW_000_001","フスィーッ……こりゃ種族存続の危機だぜ！
+頼む、本件を主導する幹部3人を倒してくれ。"
+50,"TEXT_BANSAH301_01400_SEWW_000_002","サプサ産卵地の「<Sheet(BNpcName,1827,0)/>」に
+「<Sheet(BNpcName,1828,0)/>」「<Sheet(BNpcName,1830,0)/>」を
+傷めつければ、報復のために幹部が姿を現すはずだぜ！"
+51,"TEXT_BANSAH301_01400_BALLOON_000_010","フスィーッ、許さん！"
+52,"TEXT_BANSAH301_01400_BALLOON_000_011","フスィーッ、よくも仲間を！"
+53,"TEXT_BANSAH301_01400_BALLOON_000_012","フスィーッ、ヒレナシがっ！"
 54,"TEXT_BANSAH301_01400_POP_MESSAGE","（★未使用／削除予定★）"
-55,"TEXT_BANSAH301_01400_POP_MESSAGE_000_000","A shelfscale chief comes forth to avenge his kin!"
-56,"TEXT_BANSAH301_01400_POP_MESSAGE_000_001","A shelfclaw chief comes forth to avenge his kin!"
-57,"TEXT_BANSAH301_01400_POP_MESSAGE_000_002","A shelftooth chief comes forth to avenge his kin!"
-58,"TEXT_BANSAH301_01400_SEWW_000_020","Pshhh... The chiefshhh are vanquishhhed? That is good. Our people will never find shhhalvation with such shhhortsighted warmongers in control."
-59,"TEXT_BANSAH301_01400_SEWW_000_021","But I fear that those who shhhtep up to fill thishhh void of authority will offer ushhh little better. We mushhht remain vigilant..."
+55,"TEXT_BANSAH301_01400_POP_MESSAGE_000_000","<Sheet(BNpcName,2734,0)/>が姿を現した！"
+56,"TEXT_BANSAH301_01400_POP_MESSAGE_000_001","<Sheet(BNpcName,2735,0)/>が姿を現した！"
+57,"TEXT_BANSAH301_01400_POP_MESSAGE_000_002","<Sheet(BNpcName,2736,0)/>が姿を現した！"
+58,"TEXT_BANSAH301_01400_SEWW_000_020","フスィーッ、やってくれたか。
+まったく魚眼のくせに、視野の狭い連中だ。
+種族全体を考えぬ連中は、切り捨てるのもやむなしだぜ。"
+59,"TEXT_BANSAH301_01400_SEWW_000_021","フスィーッ、いつまたバカなマネしでかすかわからん。
+注意しておかないとな！
+今回は、ありがとうよ！　フスィーッ！"

@@ -1,9 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANANA302_03043_SEQ_00","Eshana believes Castellum Velodyna is sorely in need of repairs.
+0,"TEXT_BANANA302_03043_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト受注クラス・ジョブ制限<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+※本クエストは受注時のクラス・ジョブでのみ進行します。
 
-※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
+カステッルム・ベロジナのエシャナは、建物の修理がしたいようだ。"
 1,"TEXT_BANANA302_03043_SEQ_01",""
 2,"TEXT_BANANA302_03043_SEQ_02",""
 3,"TEXT_BANANA302_03043_SEQ_03",""
@@ -27,8 +28,9 @@ int32,str,str
 21,"TEXT_BANANA302_03043_SEQ_21",""
 22,"TEXT_BANANA302_03043_SEQ_22",""
 23,"TEXT_BANANA302_03043_SEQ_23",""
-24,"TEXT_BANANA302_03043_TODO_00","Collect sheets of cermet plating from Pike Falls."
-25,"TEXT_BANANA302_03043_TODO_01","Deliver the sheets of cermet plating to Eshana."
+24,"TEXT_BANANA302_03043_TODO_00","パイクフォールズの<Sheet(EObj,2009318,0)/>から
+<Sheet(EventItem,2002432)/>を入手"
+25,"TEXT_BANANA302_03043_TODO_01","エシャナに<Sheet(EventItem,2002432)/>を渡す"
 26,"TEXT_BANANA302_03043_TODO_02",""
 27,"TEXT_BANANA302_03043_TODO_03",""
 28,"TEXT_BANANA302_03043_TODO_04",""
@@ -51,9 +53,18 @@ int32,str,str
 45,"TEXT_BANANA302_03043_TODO_21",""
 46,"TEXT_BANANA302_03043_TODO_22",""
 47,"TEXT_BANANA302_03043_TODO_23",""
-48,"TEXT_BANANA302_03043_ESHANA_000_000","As I'm sure you recall, the battle to reclaim Castellum Velodyna was quite fierce. Naturally, the bridge did not remain unssscathed, and it is our resssponsibility to tend to its repair and maintenance. The problem, however, is we lack the proper materials to do so."
-49,"TEXT_BANANA302_03043_ESHANA_000_001","The Garleans erected this bridge using materials not often found in this region, but the cermet plating from their war machines has ssserved well in our work. If you could retrieve, say, three sheets of this plating, your effortsss would be greatly appreciated."
-50,"TEXT_BANANA302_03043_ESHANA_000_020","Were you able to find any machina worthy of sssalvaging?"
-51,"TEXT_BANANA302_03043_ESHANA_000_021","Yesss, this will suffice."
-52,"TEXT_BANANA302_03043_ESHANA_000_022","Truth be told, I find the architecture of this place to be quite crude, but for a blessing it is comprised mostly of metal. It makes for good practice of our metal-shaping magicksss."
-53,"TEXT_BANANA302_03043_ESHANA_000_023","Even still, it will take no sssmall amount of plating to see these repairs to completion. I sssuspect we will have need of your help again soon."
+48,"TEXT_BANANA302_03043_ESHANA_000_000","シュー……このベロジナ大橋だが、
+奪還時に戦闘が行われたこともあってか、少し傷んでいてな。
+これを修繕し、維持管理するのも、我が隊の重要な任務であろう。"
+49,"TEXT_BANANA302_03043_ESHANA_000_001","だが、修繕をしようにも、肝心の金属材が不足していてな。
+パイクフォールズまで赴き、<Sheet(EObj,2009318,0)/>から、
+<Sheet(EventItem,2002432)/>を3個ほど回収してきてくれ……頼んだぞ。"
+50,"TEXT_BANANA302_03043_ESHANA_000_020","シュー……<Sheet(EventItem,2002432)/>は回収できたか？"
+51,"TEXT_BANANA302_03043_ESHANA_000_021","シュー……ありがとう、助かった。
+これだけあれば、充分に修繕できそうだ。"
+52,"TEXT_BANANA302_03043_ESHANA_000_022","帝国式の建築物は、見た目が無骨すぎるとも思うが、
+金属材が多く用いられているゆえ、修繕がしやすくて助かる。
+我らアナンタは、魔力で金属を錬る技を持つゆえにな。"
+53,"TEXT_BANANA302_03043_ESHANA_000_023","さて、さっそく工兵出身の姉妹へ渡すとしよう。
+しかし維持管理には、多くの労力と素材が必要になるもの……
+また同様の依頼を出すこともあろうが、よろしく頼むぞ。"

@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ414_02737_SEQ_00","Fukudo would have you speak to Kurobana once more."
-1,"TEXT_STMBDZ414_02737_SEQ_01","Fukudo thanks you for deciding to remain in Namai and help Kurobana. He has come to the conclusion that the Lupin boy might be suited to work which requires strength, but is not of an aggressive nature─specifically, transporting sacks of rice. Fukudo says he shall go inform his friend who monitors the rice storehouse of his idea and bids you talk to Kurobana."
-2,"TEXT_STMBDZ414_02737_SEQ_02","Kurobana is initially caught off guard by Fukudo's suggestion, but he eventually agrees to transport rice if it will help the village as a whole. You follow Kurobana as he heads off to talk with Shirojishi, Fukudo's friend."
-3,"TEXT_STMBDZ414_02737_SEQ_03","You are greeted by a jovial Shirojishi who wastes no time assigning Kurobana his first task. Kurobana remarks that while he is no fighter, he is certainly strong enough to carry the rice as far as the village storehouse. After watching Kurobana set off, rice sack in hand, Shirojishi bids you monitor his progress and encourage him if he tires on his way to his destination."
-4,"TEXT_STMBDZ414_02737_SEQ_04","When you catch up to Kurobana, it is evident that he is struggling under the weight of the local produce. You do your best to lift his spirits, hoping it will give him the strength for one final push. Kurobana seems to regain some of his lost stamina and embarks on the last stretch of his journey to the storehouse."
-5,"TEXT_STMBDZ414_02737_SEQ_05","Kurobana triumphantly drops his rice sack thinking his work for the day is done. When Hachiboku lets him know that there are still three more sacks to be transported, the Lupin boy decides enough is enough. You prepare to go and inform Fukudo of yet another failure."
-6,"TEXT_STMBDZ414_02737_SEQ_06","You find that Fukudo has already gotten a hold of Kurobana and remonstrated with the boy. The young Lupin is forced to promise that he shall not give up the next time he is faced with another challenge. Fukudo muses that Kurobana might be better suited to a job that requires little strength."
+0,"TEXT_STMBDZ414_02737_SEQ_00","ナマイ村のフクドは、冒険者に協力を依頼したいことがあるようだ。"
+1,"TEXT_STMBDZ414_02737_SEQ_01","フクドと話した。フクドは、クロバナに俵運びをやらせてみようと思っているのだという。ナマイ村の「クロバナ」に、このことを伝えよう。"
+2,"TEXT_STMBDZ414_02737_SEQ_02","クロバナと話した。村の役に立てるならやらない手はないと言い、シロジシのところへ向かっていった。クロバナを追い、ヤンサの玄水連山にいる「シロジシ」と話そう。"
+3,"TEXT_STMBDZ414_02737_SEQ_03","シロジシと話した。クロバナは、意気揚々と俵を担いで倉へ向かっていったが、シロジシ曰く、俵運びは想像以上にキツいものだそうだ。玄水連山の「クロバナ」を見つけ、疲れているようであれば「活を入れ」るとしよう。"
+4,"TEXT_STMBDZ414_02737_SEQ_04","クロバナに活を入れた。すると、少し元気が出たようで、倉に向けて俵運びを再開した。ナマイ村にいる「クロバナ」と話そう。"
+5,"TEXT_STMBDZ414_02737_SEQ_05","クロバナと話した。やりきった様子のクロバナだったが、あと3往復はしてほしいとのハチボクの話を聞くと、それはできないと音を上げてどこかへ行ってしまった。ナマイ村の「フクド」に事の顛末を報告しよう。"
+6,"TEXT_STMBDZ414_02737_SEQ_06","フクドに報告した。ちょうどフクドは、音を上げたクロバナを捕まえて話を聞いていたところだった。もう逃げ出さないと誓うクロバナ。一方フクドは、次は力のいらない仕事をやらせてみるとしようと呟くのであった。"
 7,"TEXT_STMBDZ414_02737_SEQ_07",""
 8,"TEXT_STMBDZ414_02737_SEQ_08",""
 9,"TEXT_STMBDZ414_02737_SEQ_09",""
@@ -25,11 +25,11 @@ int32,str,str
 21,"TEXT_STMBDZ414_02737_SEQ_21",""
 22,"TEXT_STMBDZ414_02737_SEQ_22",""
 23,"TEXT_STMBDZ414_02737_SEQ_23",""
-24,"TEXT_STMBDZ414_02737_TODO_00","Speak with Kurobana."
-25,"TEXT_STMBDZ414_02737_TODO_01","Speak with Shirojishi."
-26,"TEXT_STMBDZ414_02737_TODO_02","Go to Kurobana and /psych him up."
-27,"TEXT_STMBDZ414_02737_TODO_03","Speak with Kurobana."
-28,"TEXT_STMBDZ414_02737_TODO_04","Report to Fukudo."
+24,"TEXT_STMBDZ414_02737_TODO_00","クロバナと話す"
+25,"TEXT_STMBDZ414_02737_TODO_01","シロジシと話す"
+26,"TEXT_STMBDZ414_02737_TODO_02","クロバナに「活を入れる」をする"
+27,"TEXT_STMBDZ414_02737_TODO_03","クロバナと話す"
+28,"TEXT_STMBDZ414_02737_TODO_04","フクドに報告"
 29,"TEXT_STMBDZ414_02737_TODO_05",""
 30,"TEXT_STMBDZ414_02737_TODO_06",""
 31,"TEXT_STMBDZ414_02737_TODO_07",""
@@ -49,43 +49,99 @@ int32,str,str
 45,"TEXT_STMBDZ414_02737_TODO_21",""
 46,"TEXT_STMBDZ414_02737_TODO_22",""
 47,"TEXT_STMBDZ414_02737_TODO_23",""
-48,"TEXT_STMBDZ414_02737_FUKUDO_000_000","I see you have chosen to stay and help. You have my thanks. I believe Kurobana may be best suited to work that involves heavy lifting."
-49,"TEXT_STMBDZ414_02737_FUKUDO_000_001","As you are doubtless aware, this village's economy is entirely supported by rice farming. All harvested rice is stuffed into straw bags and carried to a nearby storehouse."
-50,"TEXT_STMBDZ414_02737_FUKUDO_000_002","While Kurobana may not be a fighter, he is still a Lupin, and as such possesses strength greater than most men. I imagine he could put this to use by transporting rice."
-51,"TEXT_STMBDZ414_02737_FUKUDO_000_003","I will inform the storehouse manager, Shirojishi, of the situation. Could you discuss this with Kurobana for me?"
-52,"TEXT_STMBDZ414_02737_FUKUDO_000_004","I am sure your word will carry more weight with him than mine would."
-53,"TEXT_STMBDZ414_02737_FUKUDO_000_005","I will tell Shirojishi about Kurobana. Could you discuss my idea with the boy?"
-54,"TEXT_STMBDZ414_02737_KUROBANA_000_010","Ah, I see you have not yet left Namai. I hope you have not come to ask me to fight again."
-55,"TEXT_STMBDZ414_02737_KUROBANA_000_011","Fukudo wants me to try carrying rice? There he goes again meddling in the affairs of others."
-56,"TEXT_STMBDZ414_02737_KUROBANA_000_012","That said, if it will help the village, then I can hardly refuse. I shall go and talk to Shirojishi."
-57,"TEXT_STMBDZ414_02737_KUROBANA_000_013","It seems Fukudo has already talked to Shirojishi. Honestly, once he has a plan, he wastes no time in putting it into action."
-58,"TEXT_STMBDZ414_02737_SHIROJISHI_000_020","Kurobana, good to see you! My thanks for your help as well, adventurer. Fukudo has already told me all I need to know."
-59,"TEXT_STMBDZ414_02737_SHIROJISHI_000_021","Let us start by having you carry this sack right here. It is a bit on the heavy side, but do you think you can handle it?"
-60,"TEXT_STMBDZ414_02737_KUROBANA_000_022","Do not worry, Shirojishi. I may not be much of a warrior, but I am confident in my strength!"
-61,"TEXT_STMBDZ414_02737_KUROBANA_000_023","Oof!"
-62,"TEXT_STMBDZ414_02737_SHIROJISHI_000_025","Whatever you do, do <Emphasis>not</Emphasis> drop it!"
-63,"TEXT_STMBDZ414_02737_SYSTEM_000_024","Kurobana strides off towards the village storehouse with a spring in his step."
-64,"TEXT_STMBDZ414_02737_SHIROJISHI_000_026","I do hope he is up to the task. I have seen many a man struggle to complete their first journey to the storehouse."
-65,"TEXT_STMBDZ414_02737_SHIROJISHI_000_027","Pray do me a favor. If he struggles along the way, give him some encouragement on my behalf. It may seem like a test of strength, but carrying rice is ultimately a mental battle."
-66,"TEXT_STMBDZ414_02737_SHIROJISHI_000_028","If he struggles along the way, give him some encouragement on my behalf. It may seem like a test of strength, but carrying rice is ultimately a mental battle."
-67,"TEXT_STMBDZ414_02737_KUROBANA_000_030","<pant> <pant> I...I did not expect the rice would be quite so heavy."
-68,"TEXT_STMBDZ414_02737_KUROBANA_100_030","Leave me be. I need to...<pant>...rest."
-69,"TEXT_STMBDZ414_02737_SYSTEM_100_030","<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Psych<UIGlow>01</UIGlow><UIForeground>01</UIForeground> up Kurobana."
-70,"TEXT_STMBDZ414_02737_KUROBANA_000_031","Thank...<pant>...you."
-71,"TEXT_STMBDZ414_02737_KUROBANA_000_032","I really wonder if there is no better way rice could be transported. I have had to check multiple times that it was straw and not a knife that was cutting into my shoulder!"
-72,"TEXT_STMBDZ414_02737_KUROBANA_000_033","But thanks to your encouragement, I think I may just be able to make it to the storehouse."
-73,"TEXT_STMBDZ414_02737_KUROBANA_100_023","Oof!"
-74,"TEXT_STMBDZ414_02737_SYSTEM_000_032","Summoning the last of his strength, Kurobana once again sets off in the direction of the village storehouse."
-75,"TEXT_STMBDZ414_02737_HACHIBOKU_000_033","I had heard from Shirojishi that Kurobana was going to try his hand at this, but I never expected him to succeed!"
-76,"TEXT_STMBDZ414_02737_KUROBANA_000_040","It took every fiber of my being, but I did it! Who knew this would be such tiring work..."
-77,"TEXT_STMBDZ414_02737_HACHIBOKU_000_041","Good work, Kurobana. As you have noticed, transporting rice is not quite as easy as it looks. But given time, I am sure you too will become quite good at it!"
-78,"TEXT_STMBDZ414_02737_HACHIBOKU_000_042","Now, you have had ample time for a rest. Make another three trips to and from the storehouse and your work will be done for the day."
-79,"TEXT_STMBDZ414_02737_KUROBANA_000_043","Three trips!? I thought that was it... Sorry, I do not think I am suited to this after all."
-80,"TEXT_STMBDZ414_02737_HACHIBOKU_000_044","Hmph. If <Emphasis>that</Emphasis> is how he responds to the slightest hardship then I do not think we will have any use for him. Pray tell Fukudo as much."
-81,"TEXT_STMBDZ414_02737_HACHIBOKU_000_045","Tell Fukudo that we no longer require Kurobana's help."
-82,"TEXT_STMBDZ414_02737_KUROBANA_000_046","How could anyone carry so much rice in one day?"
-83,"TEXT_STMBDZ414_02737_FUKUDO_000_050","Ah, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I just caught Kurobana trying to abandon his duties."
-84,"TEXT_STMBDZ414_02737_FUKUDO_000_051","It seems he was able to carry one sack of rice, but shirked from the idea of carrying three more. Admittedly, he is not wrong to think it grueling work. I too struggled to carry even my first load of rice."
-85,"TEXT_STMBDZ414_02737_FUKUDO_000_052","However, if you continue like this, the whole village will think you a weak-willed coward!"
-86,"TEXT_STMBDZ414_02737_KUROBANA_000_053","I am sorry, Fukudo. You have my word that I will not give up like this again."
-87,"TEXT_STMBDZ414_02737_FUKUDO_000_054","Perhaps next time we should have you try a job that does not require great strength..."
+48,"TEXT_STMBDZ414_02737_FUKUDO_000_000","まだ付き合ってくれるのだな、かたじけない。
+手始めに、俵運びをやらせてみようかと思うのだ。"
+49,"TEXT_STMBDZ414_02737_FUKUDO_000_001","見てのとおり、この村は稲作で生計を立てている。
+収穫した米は、稲わらで作った俵に入れて、
+この近くにある倉まで運んでくるのだ。"
+50,"TEXT_STMBDZ414_02737_FUKUDO_000_002","武の才はなくとも、クロバナは人狼族だ。
+人並み外れた力を持っているだろうから、
+荷運びが向いているやもしれん。"
+51,"TEXT_STMBDZ414_02737_FUKUDO_000_003","倉の管理を担っているシロジシという者には、
+私から話をつけておくので、「クロバナ」のやつに、
+この件を伝えておいてくれないだろうか？"
+52,"TEXT_STMBDZ414_02737_FUKUDO_000_004","なに、心配はいらないさ。
+村の者でない、そなたが話をした方が、
+あいつも聞き入れてくれるだろうしな。"
+53,"TEXT_STMBDZ414_02737_FUKUDO_000_005","倉の管理を担っているシロジシという者には、
+私から話をつけておくので、「クロバナ」のやつに、
+この件を伝えておいてくれないだろうか？"
+54,"TEXT_STMBDZ414_02737_KUROBANA_000_010","あぁ、旅の人か。
+まだ村にいたんだな……で、まだ俺に何か用でも？"
+55,"TEXT_STMBDZ414_02737_KUROBANA_000_011","俵運びをやってみないか、だって！？
+あの人も、本当に世話焼きというか、おせっかいというか……。"
+56,"TEXT_STMBDZ414_02737_KUROBANA_000_012","けど、村の役に立てるなら、やらない手はないな。
+わかった、「シロジシ」さんのところに行くとするよ。"
+57,"TEXT_STMBDZ414_02737_KUROBANA_000_013","いつの間にかシロジシさんに話をつけてるだなんて、
+あの人も、本当に世話焼きというか、おせっかいというか……。
+けど、村の役に立てるなら、やらない手はないからな。"
+58,"TEXT_STMBDZ414_02737_SHIROJISHI_000_020","よく来たな、クロバナ！
+旅の方も、わざわざすまない。
+いきさつはフクドさんから、しかと聞いてるぜ！"
+59,"TEXT_STMBDZ414_02737_SHIROJISHI_000_021","運んで貰いたいのは、この俵よ！
+こいつを、村の倉まで運んでくれ。
+結構な重さだが、やれそうか？"
+60,"TEXT_STMBDZ414_02737_KUROBANA_000_022","戦いはともかく、力にはそれなりの自信があるよ。
+ちゃちゃっと運び終えてみせるさ！"
+61,"TEXT_STMBDZ414_02737_KUROBANA_000_023","おらよっと！"
+62,"TEXT_STMBDZ414_02737_SHIROJISHI_000_025","間違っても落としたりするんじゃねぇぞ～！"
+63,"TEXT_STMBDZ414_02737_SYSTEM_000_024","クロバナは、意気揚々と俵を担いで倉へ向かっていった…。"
+64,"TEXT_STMBDZ414_02737_SHIROJISHI_000_026","クロバナのやつ、ちゃんと運びきれるだろうな？
+あの俵、慣れてないやつが倉まで運ぶとなると、
+想像以上に結構キツいもんなんだが……。"
+65,"TEXT_STMBDZ414_02737_SHIROJISHI_000_027","旅の方や、もし道中でクロバナがへばってたりしたら、
+イッパツ「活を入れ」てやってくれよ！
+ああいう力仕事に必要なのは、何よりも気合だぜ、気合ッ！"
+66,"TEXT_STMBDZ414_02737_SHIROJISHI_000_028","もし道中でクロバナがへばってたりしたら、
+イッパツ「活を入れ」てやってくれよ！
+ああいう力仕事に必要なのは、何よりも気合だぜ、気合ッ！"
+67,"TEXT_STMBDZ414_02737_KUROBANA_000_030","ハァハァ……。
+こ、こんなに重いとは思ってなかった……！"
+68,"TEXT_STMBDZ414_02737_KUROBANA_100_030","な、なんだい……？
+思ってたより重いんだ……少し休ませてよ……！"
+69,"TEXT_STMBDZ414_02737_SYSTEM_100_030","クロバナにエモート「活を入れる」をして、
+気合を注入しよう。"
+70,"TEXT_STMBDZ414_02737_KUROBANA_000_031","ハァハァ……。
+どうもありがとう、少し元気が出たよ……！"
+71,"TEXT_STMBDZ414_02737_KUROBANA_000_032","まさか、こんなに重いとは思ってなかったよ。
+それに俵の稲わらが、肩に食い込むわ擦れるわで、
+痛ってぇのなんの……！"
+72,"TEXT_STMBDZ414_02737_KUROBANA_000_033","だけど、励ましてくれたお陰か、元気が出たよ。
+もう倉も見えてるし、運びきってみせるさ……！"
+73,"TEXT_STMBDZ414_02737_KUROBANA_100_023","おらよっと！"
+74,"TEXT_STMBDZ414_02737_SYSTEM_000_032","クロバナは、力を振り絞りながら俵を担ぎ、
+再び倉へ向かっていった……。"
+75,"TEXT_STMBDZ414_02737_HACHIBOKU_000_033","話は聞いてたが、クロバナのやつ、
+ちゃんと俵を運びきったじゃないか！
+感心、感心！"
+76,"TEXT_STMBDZ414_02737_KUROBANA_000_040","た、大変だった……。
+はたから見ていると、軽々運んでいるように見えてたけど、
+こんなに疲れる仕事だとは思ってもなかったよ。"
+77,"TEXT_STMBDZ414_02737_HACHIBOKU_000_041","お疲れさん！
+そりゃあお前、みんな手慣れてるから楽そうに見えるだけで、
+慣れるまでは大変ってもんよ！"
+78,"TEXT_STMBDZ414_02737_HACHIBOKU_000_042","ところでクロバナよ、やりきったようなツラしてるが、
+まだまだ運ばないといけない俵は沢山あるんだぜ。
+お前にも、あと3往復はしてほしいところなんだが？"
+79,"TEXT_STMBDZ414_02737_KUROBANA_000_043","あと3往復だって！？
+さすがにそれは無理だ……
+お、お先に失礼するよ！"
+80,"TEXT_STMBDZ414_02737_HACHIBOKU_000_044","クロバナのやつ、あっさり音を上げやがって……！
+こんなことなら、手伝いなんて、もう結構だよ。
+「フクド」さんに、そう言ってやってくれ。"
+81,"TEXT_STMBDZ414_02737_HACHIBOKU_000_045","クロバナのやつ、あっさり音を上げやがって……。
+こんなことなら、手伝いなんて、もう結構だよ。
+「フクド」さんに、そう言ってやってくれ。"
+82,"TEXT_STMBDZ414_02737_KUROBANA_000_046","あと3往復なんて、さすがに無理だ……。"
+83,"TEXT_STMBDZ414_02737_FUKUDO_000_050","走り去ろうとしていたクロバナのやつをとっ捕まえて、
+ちょうど話を聞いていたところよ。"
+84,"TEXT_STMBDZ414_02737_FUKUDO_000_051","ひとつは運べたが、3往復と聞いてたじろいでしまった、とな。
+たしかに、俵運びは慣れるまでは大変だ。
+かくいう私も、始めのうちは、なかなか苦労したものよ。"
+85,"TEXT_STMBDZ414_02737_FUKUDO_000_052","……だが、途中で逃げ出すのは見逃せぬ！
+そんなことでは、村の皆に根性なしだと笑われてしまうぞ？"
+86,"TEXT_STMBDZ414_02737_KUROBANA_000_053","わ、悪かったよ、フクドさん。
+これからは、もう途中で投げたりはしないからさ。"
+87,"TEXT_STMBDZ414_02737_FUKUDO_000_054","はぁ、まったく。
+俵運びがダメとなると、
+次は、力のいらない仕事をやらせてみるとするか……。"

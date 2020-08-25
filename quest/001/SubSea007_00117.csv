@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBSEA007_00117_SEQ_00","Latisha needs someone to report a bilking patron."
-1,"TEXT_SUBSEA007_00117_SEQ_01","A first-time patron has left without settling his bill, and Latisha wants you to report the incident to the Yellowjackets. First, speak with R'sushmo and receive her sketch of the criminal."
-2,"TEXT_SUBSEA007_00117_SEQ_02","A visibly shaken R'sushmo entrusts you with her rendition of the offender. Deliver it to Godebert at the Coral Tower."
-3,"TEXT_SUBSEA007_00117_SEQ_03","Unfortunately, the artist's rendition alone will not suffice to identify the offender. Instead, Godebert bids you tell R'sushmo to present herself at the Coral Tower for questioning."
-4,"TEXT_SUBSEA007_00117_SEQ_04","R'sushmo cannot comprehend what the problem is with her handiwork. You do not have the heart to tell her the truth."
+0,"TEXT_SUBSEA007_00117_SEQ_00","レストラン「ビスマルク」の会計係ラティシャは、食い逃げ犯を通報したいようだ。"
+1,"TEXT_SUBSEA007_00117_SEQ_01","ラティシャによると、レストラン「ビスマルク」は食い逃げの被害を受けたという。被害をイエロージャケットへ通報するため、「ル・スーシモ」から「食い逃げ犯の人相書き」を受け取ろう。"
+2,"TEXT_SUBSEA007_00117_SEQ_02","ル・スーシモから受け取った人相書きを、コーラルタワーにいる「ゴードバート」へ届けよう。"
+3,"TEXT_SUBSEA007_00117_SEQ_03","ゴードバートによると、人相書きが下手なため、犯人の手がかりにはならないという。事情聴取のため、レストラン「ビスマルク」の「ル・スーシモ」にイエロージャケットへ出頭するよう伝えよう。"
+4,"TEXT_SUBSEA007_00117_SEQ_04","下手な人相書きは、ル・スーシモの筆によるものだった。彼女が事情聴取に呼び出された真の理由については、伏せておくのが思いやりだろう。"
 5,"TEXT_SUBSEA007_00117_SEQ_05",""
 6,"TEXT_SUBSEA007_00117_SEQ_06",""
 7,"TEXT_SUBSEA007_00117_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_SUBSEA007_00117_SEQ_21",""
 22,"TEXT_SUBSEA007_00117_SEQ_22",""
 23,"TEXT_SUBSEA007_00117_SEQ_23",""
-24,"TEXT_SUBSEA007_00117_TODO_00","Receive R'sushmo's artist's rendition."
-25,"TEXT_SUBSEA007_00117_TODO_01","Deliver the artist's rendition to Godebert at the Coral Tower."
-26,"TEXT_SUBSEA007_00117_TODO_02","Speak with R'sushmo."
+24,"TEXT_SUBSEA007_00117_TODO_00","ル・スーシモから食い逃げ犯の人相書きを受け取る"
+25,"TEXT_SUBSEA007_00117_TODO_01","ゴードバートに食い逃げ犯の人相書きを渡す"
+26,"TEXT_SUBSEA007_00117_TODO_02","ル・スーシモと話す"
 27,"TEXT_SUBSEA007_00117_TODO_03",""
 28,"TEXT_SUBSEA007_00117_TODO_04",""
 29,"TEXT_SUBSEA007_00117_TODO_05",""
@@ -49,16 +49,35 @@ int32,str,str
 45,"TEXT_SUBSEA007_00117_TODO_21",""
 46,"TEXT_SUBSEA007_00117_TODO_22",""
 47,"TEXT_SUBSEA007_00117_TODO_23",""
-48,"TEXT_SUBSEA007_00117_LATISHA_000_0","We spare no effort to ensure that all our patrons enjoy the finest food and hospitality. And so it is doubly hurtful when someone decides to leave without settling the bill. Nary a bell ago, a first-time patron did just that."
-49,"TEXT_SUBSEA007_00117_LATISHA_000_1","R'sushmo is the one who lovingly prepared the man's meal. She is quite upset by the whole affair, and has taken it upon herself to draw an illustration of the offender. Might I trouble you to deliver it to the Yellowjackets on our behalf? R'sushmo should be done adding the finishing touches by now."
-50,"TEXT_SUBSEA007_00117_RSUSHMO_000_10","Grrr... I poured my heart and soul into that grilled dodo... If I ever get my hands on that scoundrel, I'll grind his bones to make my bread!"
-51,"TEXT_SUBSEA007_00117_RSUSHMO_000_11","Here it is, my rendition of the criminal! Please deliver it to Godebert at the Coral Tower─he will know what to do!"
-52,"TEXT_SUBSEA007_00117_TALK_SCENE00003_000","Textless"
-53,"TEXT_SUBSEA007_00117_GODEBERT_000_20","A bilker at the Bismarck, and you have an artist's rendition of the man?"
-54,"TEXT_SUBSEA007_00117_GODEBERT_000_21","Er...what in the seven hells is this supposed to be? It looks more like the prow of a ship than a man's face!"
-55,"TEXT_SUBSEA007_00117_GODEBERT_000_22","Look, we would like nothing more than to bring the offender to justice─'tis our duty, after all. However, we will need a little bit more to go on than this piece of...art."
-56,"TEXT_SUBSEA007_00117_GODEBERT_000_23","It would be easiest for all involved if R'sushmo were to come here and answer some questions. Please relay to her as much."
-57,"TEXT_SUBSEA007_00117_TALK_SCENE00005_000","Textless"
-58,"TEXT_SUBSEA007_00117_RSUSHMO_000_30","Ah, so you've spoken with Godebert? Bwahahaha! Within the bell, the Yellowjackets will have that swindling scoundrel locked in a dungeon cell, and then I'll take my filleting knife and─"
-59,"TEXT_SUBSEA007_00117_RSUSHMO_000_31","Huh? Godebert wants me to go to the Coral Tower for <Emphasis>questioning</Emphasis>!?"
-60,"TEXT_SUBSEA007_00117_RSUSHMO_000_32","But what more information does he want that my drawing doesn't already provide!? Isn't a picture supposed to paint a thousand words!?"
+48,"TEXT_SUBSEA007_00117_LATISHA_000_0","私たちが心をこめて、お客様をおもてなししても、
+心ないお客様というのは、少なからずいらっしゃるもので
+……実は、無銭飲食が起きました。"
+49,"TEXT_SUBSEA007_00117_LATISHA_000_1","うちの調理師「ル・スーシモ」が用意した
+「食い逃げ犯の人相書き」を受け取り、
+イエロージャケットへ通報願います。"
+50,"TEXT_SUBSEA007_00117_RSUSHMO_000_10","私たちが愛情込めて作った料理を
+食い逃げするなんて、許せません！"
+51,"TEXT_SUBSEA007_00117_RSUSHMO_000_11","この「食い逃げ犯の人相書き」を
+コーラルタワーにつめてるイエロージャケットの
+「ゴードバート」へ突きつけてやってください！！"
+52,"TEXT_SUBSEA007_00117_TALK_SCENE00003_000",""
+53,"TEXT_SUBSEA007_00117_GODEBERT_000_20","レストラン「ビスマルク」の
+「食い逃げ犯の人相書き」を持ってきたって……？"
+54,"TEXT_SUBSEA007_00117_GODEBERT_000_21","こ、この人相書きは……
+通報があった以上、全力は尽くそう。
+それが、我らイエロージャケットの務めであるからな。"
+55,"TEXT_SUBSEA007_00117_GODEBERT_000_22","ただ……せっかくの人相書きだが、これは何だ？
+ヒューランなのか、ララフェルなのか、ルガディンなのか、
+それすらさっぱり分からんぞ。"
+56,"TEXT_SUBSEA007_00117_GODEBERT_000_23","これでは、らちがあかない。
+直接、事情聴取をした方が早そうだから、
+「ル・スーシモ」に、出頭するよう伝えてくれ。"
+57,"TEXT_SUBSEA007_00117_TALK_SCENE00005_000",""
+58,"TEXT_SUBSEA007_00117_RSUSHMO_000_30","ご苦労さまです、人相書きを渡せたようですね。
+これで、犯人は捕まったも同然です！
+私、料理の次に絵が得意だったんですよ！"
+59,"TEXT_SUBSEA007_00117_RSUSHMO_000_31","……って、なんですって！？
+私が、イエロージャケットへ出頭しろと！？"
+60,"TEXT_SUBSEA007_00117_RSUSHMO_000_32","今さら何を話せばいいのでしょう……？
+私が描いた傑作の人相書きさえあれば、
+ほかの情報なんて不要だと思うのですが……。"

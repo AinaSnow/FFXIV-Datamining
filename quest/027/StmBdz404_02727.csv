@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ404_02727_SEQ_00","Sentei has more work if you are willing."
+0,"TEXT_STMBDZ404_02727_SEQ_00","酔いどれ蛙の船小屋のセンテイは、また冒険者に頼みたいことがあるようだ。"
 1,"TEXT_STMBDZ404_02727_SEQ_01",""
 2,"TEXT_STMBDZ404_02727_SEQ_02",""
 3,"TEXT_STMBDZ404_02727_SEQ_03",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_STMBDZ404_02727_SEQ_21",""
 22,"TEXT_STMBDZ404_02727_SEQ_22",""
 23,"TEXT_STMBDZ404_02727_SEQ_23",""
-24,"TEXT_STMBDZ404_02727_TODO_00","Obtain firewood."
-25,"TEXT_STMBDZ404_02727_TODO_01","Obtain a tasty trout from Sentei's net."
-26,"TEXT_STMBDZ404_02727_TODO_02","Deliver firewood and a tasty trout to Kohagi."
+24,"TEXT_STMBDZ404_02727_TODO_00","<Sheet(EventItem,2002246,0)/>を入手"
+25,"TEXT_STMBDZ404_02727_TODO_01","<Sheet(EObj,2008514,0)/>から<Sheet(EventItem,2002247,0)/>を入手"
+26,"TEXT_STMBDZ404_02727_TODO_02","コハギに<Sheet(EventItem,2002246,0)/>と<Sheet(EventItem,2002247,0)/>を渡す"
 27,"TEXT_STMBDZ404_02727_TODO_03",""
 28,"TEXT_STMBDZ404_02727_TODO_04",""
 29,"TEXT_STMBDZ404_02727_TODO_05",""
@@ -49,12 +49,26 @@ int32,str,str
 45,"TEXT_STMBDZ404_02727_TODO_21",""
 46,"TEXT_STMBDZ404_02727_TODO_22",""
 47,"TEXT_STMBDZ404_02727_TODO_23",""
-48,"TEXT_STMBDZ404_02727_SENTEI_000_000","Hello again, kind traveler. If you are up to it, there is something else I would like to ask of you."
-49,"TEXT_STMBDZ404_02727_SENTEI_000_001","I need the firewood you see behind me delivered to my wife, Kohagi, in Namai."
-50,"TEXT_STMBDZ404_02727_SENTEI_000_002","I also need you to check if the net I placed in the nearby stream caught any fish. If it did, pray take the spoils to Kohagi as well."
-51,"TEXT_STMBDZ404_02727_SENTEI_000_003","Please deliver this firewood and any fish my net may have caught to my wife in Namai."
-52,"TEXT_STMBDZ404_02727_KOHAGI_000_010","Oh, hello there. Have we met before?"
-53,"TEXT_STMBDZ404_02727_KOHAGI_000_011","Ah, my husband asked you to bring me these? Thank you for your kindness."
-54,"TEXT_STMBDZ404_02727_KOHAGI_000_012","I shall exchange the firewood and trout for rice. Our family does not own a paddy, so we put rice on our table by trading with those in Namai who do."
-55,"TEXT_STMBDZ404_02727_KOHAGI_000_013","We must be thankful for the spring water that flows from the heart of the Gensui Chain. Without the life it sustains, we would have nothing to trade, and no way of feeding ourselves."
-56,"TEXT_STMBDZ404_02727_KOHAGI_000_014",""
+48,"TEXT_STMBDZ404_02727_SENTEI_000_000","こんな俺を助けてくれる、優しい<If(PlayerParameter(4))>姉ちゃん<Else/>兄ちゃん</If>に、
+もうひとつ、お願いしたいことがあるんだ。
+聞いてくれねぇか？"
+49,"TEXT_STMBDZ404_02727_SENTEI_000_001","ナマイ村にいる、俺の嫁さんの「コハギ」に、
+ふたつ、届けてほしいものがあるんだ。
+ひとつは、俺の後ろに置いてある、「<Sheet(EventItem,2002246,0)/>」だ。"
+50,"TEXT_STMBDZ404_02727_SENTEI_000_002","ふたつ目は、小川の途中に俺がしかけた罠を調べて、
+「<Sheet(EventItem,2002247,0)/>」でも引っかかっていたら、
+それを持っていってやってほしい……頼んだぜ。"
+51,"TEXT_STMBDZ404_02727_SENTEI_000_003","ナマイ村にいる、俺の嫁さんの「コハギ」に、
+「<Sheet(EventItem,2002246,0)/>」と、「<Sheet(EventItem,2002247,0)/>」を、
+持っていってやってくれ。"
+52,"TEXT_STMBDZ404_02727_KOHAGI_000_010","まあ、ミズヘビの件はありがとうございました。
+私に何かご用でも？"
+53,"TEXT_STMBDZ404_02727_KOHAGI_000_011","あら、ウチの旦那のお使いを引き受けてくださったと？
+わざわざ、ありがとうございます……。"
+54,"TEXT_STMBDZ404_02727_KOHAGI_000_012","この薪と魚は、お米と交換してもらうんです。
+ウチは田んぼを持っていませんから、ナマイ村の人たちが、
+必要としている物を集めてきて、生計を立てているんですよ。"
+55,"TEXT_STMBDZ404_02727_KOHAGI_000_013","それにしても、この魚もお米も、
+全部、玄水連山の綺麗な湧き水の賜物……。
+この恵みがなければ、私たちは生きていけませんわ。"
+56,"TEXT_STMBDZ404_02727_KOHAGI_000_014","（★未使用／削除予定★）"

@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSA505_00757_SEQ_00","Hihibaru has a suggestion to help you with your investigation."
-1,"TEXT_GAIUSA505_00757_SEQ_01","In light of your run-in with an Ala Mhigan bandit, Hihibaru recommends that you next take your investigation to Little Ala Mhigo. His daughter, a lass named Hihira, has taken up residence there, and should be able to lend you a hand."
-2,"TEXT_GAIUSA505_00757_SEQ_02","Hihira has no knowledge of Lahabrea. She recommends you speak with a man named Gundobald, the leader of the refugee settlement."
-3,"TEXT_GAIUSA505_00757_SEQ_03","As forewarned, you receive a cold welcome from Gundobald. It seems that some effort will be required on your part if the residents of Little Ala Mhigo are to warm to you."
+0,"TEXT_GAIUSA505_00757_SEQ_00","ハイブリッジの商人ヒヒバルは、冒険者に何か提案があるようだ。"
+1,"TEXT_GAIUSA505_00757_SEQ_01","ヒヒバルは冒険者に「リトルアラミゴ」に行くことを薦めてくれた。南ザナラーンのリトルアラミゴに住む彼の娘「ヒヒラ」に話しかけよう。"
+2,"TEXT_GAIUSA505_00757_SEQ_02","ヒヒラは、仮面の男に心あたりがないらしい。彼女の紹介するリトルアラミゴの顔役「グンドバルド」に話しかけよう。"
+3,"TEXT_GAIUSA505_00757_SEQ_03","グンドバルドは、よそ者である冒険者の来訪をあまり歓迎していないようだ。閉鎖的なアラミゴ人の心を開くのは、まだ難しいのだろうか。"
 4,"TEXT_GAIUSA505_00757_SEQ_04",""
 5,"TEXT_GAIUSA505_00757_SEQ_05",""
 6,"TEXT_GAIUSA505_00757_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSA505_00757_SEQ_21",""
 22,"TEXT_GAIUSA505_00757_SEQ_22",""
 23,"TEXT_GAIUSA505_00757_SEQ_23",""
-24,"TEXT_GAIUSA505_00757_TODO_00","Speak with Hihira at Little Ala Mhigo."
-25,"TEXT_GAIUSA505_00757_TODO_01","Speak with Gundobald."
+24,"TEXT_GAIUSA505_00757_TODO_00","リトルアラミゴのヒヒラと話す"
+25,"TEXT_GAIUSA505_00757_TODO_01","グンドバルドと話す"
 26,"TEXT_GAIUSA505_00757_TODO_02",""
 27,"TEXT_GAIUSA505_00757_TODO_03",""
 28,"TEXT_GAIUSA505_00757_TODO_04",""
@@ -49,17 +49,38 @@ int32,str,str
 45,"TEXT_GAIUSA505_00757_TODO_21",""
 46,"TEXT_GAIUSA505_00757_TODO_22",""
 47,"TEXT_GAIUSA505_00757_TODO_23",""
-48,"TEXT_GAIUSA505_00757_HIHIBARU_000_000","The Ala Mhigan bandit you had a run-in with is somehow connected to your masked man of mystery."
-49,"TEXT_GAIUSA505_00757_HIHIBARU_000_001","So, it stands to reason that if you want to pick up the trail again, you should head toward Little Ala Mhigo, over in southern Thanalan."
-50,"TEXT_GAIUSA505_00757_HIHIBARU_000_002","Just so you know what to expect, the settlement is the favored destination for those refugees who couldn't...well, <Emphasis>adapt</Emphasis> to life in Ul'dah."
-51,"TEXT_GAIUSA505_00757_HIHIBARU_000_003","The hearts of the denizens are said to be as barren as the wasteland they live in. And for all intents and purposes, it's a lawless place. Be prepared for a not-so-warm welcome."
-52,"TEXT_GAIUSA505_00757_HIHIBARU_000_004","Now, I'm not certain how much a help she will be, but it just so happens I have a daughter who has, er...<Emphasis>relocated</Emphasis> to Little Ala Mhigo. Her name is Hihira, and it shouldn't hurt to seek her out first."
-53,"TEXT_GAIUSA505_00757_HIHIBARU_000_005","And while you have her attention...I'd be obliged if you could send my love. Not a day goes by that I don't think of her."
-54,"TEXT_GAIUSA505_00757_HIHIBARU_000_006","I suppose this is it, then! I had hoped that you would linger here a while─cull some fiends, spend some coin, what have you─but something tells me you're destined for greater things. Wherever it is you end up, I wish you the best!"
-55,"TEXT_GAIUSA505_00757_HIHIRA_000_010","...Hm? Why, yes, Hihibaru's my father... He said <Emphasis>what</Emphasis>?
-<sigh> I wish I could be a better daughter to him. It's just that─ Oh, I'm sorry... I shouldn't bother you with family matters. But I am grateful to you for delivering the message. Now then, what brings you here?"
-56,"TEXT_GAIUSA505_00757_HIHIRA_000_011","A masked man? I'm afraid the description doesn't ring any bells, but one of the others here may have seen something. I would recommend you first speak with Gundobald, the leader of the settlement. I must warn you, though, he isn't exactly...accommodating to outsiders."
-57,"TEXT_GAIUSA505_00757_GUNDOBALD_000_020","Who are you? State your business, and be quick about it."
-58,"TEXT_GAIUSA505_00757_GUNDOBALD_000_021","Looking for a masked villain, you say? And why should we help you, pray?"
-59,"TEXT_GAIUSA505_00757_GUNDOBALD_000_022","We struggle enough without having to answer the whim of every outsider."
-60,"TEXT_GAIUSA505_00757_GUNDOBALD_000_023","You are not welcome here. Begone."
+48,"TEXT_GAIUSA505_00757_HIHIBARU_000_000","……私ね、あの場にアラミゴ人が現れたってのが、
+あれからどうにも気になってましてねぇ。"
+49,"TEXT_GAIUSA505_00757_HIHIBARU_000_001","冒険者さん、例の「仮面の男」について調べるなら、
+「リトルアラミゴ」へ行ってみてはいかがでしょう？
+アラミゴ人を探るなら、あそこに行くのが手っ取り早い。"
+50,"TEXT_GAIUSA505_00757_HIHIBARU_000_002","……ただ、あそこはアラミゴの流民の中でも、
+ウルダハに馴染めなかった連中が集まる場所でしてね。
+人心も大地も荒れはてた、無法地帯と呼んでもいい場所だ。"
+51,"TEXT_GAIUSA505_00757_HIHIBARU_000_003","流民たちはひどく閉鎖的で、よそ者を嫌うと聞きます。
+冒険者といえど、軽い気持ちで入ったら
+どんな扱いを受けるかわかりませんよ。"
+52,"TEXT_GAIUSA505_00757_HIHIBARU_000_004","……ヒヒラという娘を訪ねてください。
+私の娘なんですがね、家を飛び出したと思ったら、
+今は「リトルアラミゴ」に住んでいるようでして。"
+53,"TEXT_GAIUSA505_00757_HIHIBARU_000_005","不肖の娘ですが、きっと何かのお役に立てると思います。
+ついでに、私が心配していたとお伝えください。"
+54,"TEXT_GAIUSA505_00757_HIHIBARU_000_006","あんたさんには、このハイブリッジに滞在してもらって、
+バシバシお金を使ってもらいたかったんですがねぇ。
+……まったく、我ながら商売に向かない性格ですよ。"
+55,"TEXT_GAIUSA505_00757_HIHIRA_000_010","ええ、ヒヒラは私ですが？
+……そうですか、父がそんなことを……。
+父がお世話になったようで、ありがとうございます。"
+56,"TEXT_GAIUSA505_00757_HIHIRA_000_011","……「仮面の男」ですか？　いえ、私には心当たりが……。
+もしかしたら、顔役のグンドバルドさんでしたら
+何かご存知かもしれません。"
+57,"TEXT_GAIUSA505_00757_GUNDOBALD_000_020","お前は……冒険者か。
+このリトルアラミゴに、よそ者が何の用だ。"
+58,"TEXT_GAIUSA505_00757_GUNDOBALD_000_021","「仮面の男」を追っているだと？
+……私からお前に話せることは何もない。"
+59,"TEXT_GAIUSA505_00757_GUNDOBALD_000_022","帝国の侵略により祖国を追われた我らアラミゴ人が、
+捲土重来を期すべく雌伏のときを過ごす場所……
+それがここ、リトルアラミゴだ。"
+60,"TEXT_GAIUSA505_00757_GUNDOBALD_000_023","私たちは、よそ者の立ち入りを望まない。
+仮面の男についても教えるようなことはない。
+……早々に立ち去るがいい。"

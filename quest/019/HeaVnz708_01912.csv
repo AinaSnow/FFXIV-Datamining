@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNZ708_01912_SEQ_00","Hinu Vali has decided to have someone embark on a dangerous mission."
-1,"TEXT_HEAVNZ708_01912_SEQ_01","Hinu Vali has asked you to steal supplies from the Vundu tribe. She assures you that the success of this request will affect all the Vanu of Ok' Zundu. Go to Ok' Vundu and steal three Zundu offerings."
-2,"TEXT_HEAVNZ708_01912_SEQ_02","You have gathered up the supplies from Ok' Vundu territory, though you cannot at the moment reconcile why they seem to be of Zundu origin. Take them back to Hinu Vali to see what she has to say."
-3,"TEXT_HEAVNZ708_01912_SEQ_03","You have delivered the offerings to Hinu Vali, and she explains to you that they were traditionally given to the Vundu tribe to ensure safety for the Zundu. However, the Vundu sometimes do not acknowledge these offerings and attack anyway. Given that the offerings are essentially meaningless, they would be most useful if they were returned to the stores of Ok' Zundu."
+0,"TEXT_HEAVNZ708_01912_SEQ_00","オク・ズンドのヒヌバリは、冒険者へ危険な頼みがあるようだ。"
+1,"TEXT_HEAVNZ708_01912_SEQ_01","ヒヌバリから、<Sheet(EventItem,2001671,0)/>を奪ってくるよう頼まれた。アバラシア雲海のオク・ブンド・ヴァナにある「<Sheet(EventItem,2001671,0)/>」を3個入手しよう。"
+2,"TEXT_HEAVNZ708_01912_SEQ_02","<Sheet(EventItem,2001671,0)/>を3個奪った。オク・ズンドの「ヒヌバリ」に「<Sheet(EventItem,2001671,0)/>」を渡そう。"
+3,"TEXT_HEAVNZ708_01912_SEQ_03","ヒヌバリに<Sheet(EventItem,2001671,0)/>を渡した。ズンド族はブンド族に貢物をすることで安全を買っているそうだ。しかし、その安全もブンド族の気分次第なので、貢物を奪い返し、蓄えておきたいというのが依頼の理由だった。"
 4,"TEXT_HEAVNZ708_01912_SEQ_04",""
 5,"TEXT_HEAVNZ708_01912_SEQ_05",""
 6,"TEXT_HEAVNZ708_01912_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_HEAVNZ708_01912_SEQ_21",""
 22,"TEXT_HEAVNZ708_01912_SEQ_22",""
 23,"TEXT_HEAVNZ708_01912_SEQ_23",""
-24,"TEXT_HEAVNZ708_01912_TODO_00","Steal Zundu offerings from Ok' Vundu."
-25,"TEXT_HEAVNZ708_01912_TODO_01","Deliver Zundu offerings to Hinu Vali."
+24,"TEXT_HEAVNZ708_01912_TODO_00","<Sheet(EventItem,2001671,0)/>を入手"
+25,"TEXT_HEAVNZ708_01912_TODO_01","ヒヌバリに<Sheet(EventItem,2001671,0)/>を渡す"
 26,"TEXT_HEAVNZ708_01912_TODO_02",""
 27,"TEXT_HEAVNZ708_01912_TODO_03",""
 28,"TEXT_HEAVNZ708_01912_TODO_04",""
@@ -49,12 +49,27 @@ int32,str,str
 45,"TEXT_HEAVNZ708_01912_TODO_21",""
 46,"TEXT_HEAVNZ708_01912_TODO_22",""
 47,"TEXT_HEAVNZ708_01912_TODO_23",""
-48,"TEXT_HEAVNZ708_01912_HINUVALI_000_000","Tribe of Zundu faces great distress! Hinu Vali makes foolish request of netherling, like asking <If(PlayerParameter(4))>her<Else/>him</If> to stand on mountain during thunderstorm."
-49,"TEXT_HEAVNZ708_01912_HINUVALI_000_001","Netherling steals into Ok' Vundu like silent breeze, makes away with supplies. Netherling can only carry so much─three baskets enough."
-50,"TEXT_HEAVNZ708_01912_HINUVALI_000_002","Hinu Vali makes dangerous request of netherling, but fate of Zundu tribe relies on success."
-51,"TEXT_HEAVNZ708_01912_HINUVALI_000_010","Within Ok' Vundu lies a collection of supplies, ripe for taking. Netherling brings back three for benefit of all Ok' Zundu."
-52,"TEXT_HEAVNZ708_01912_HINUVALI_000_020","Netherling brings supplies on zephyr winds. Is weight of three too much to bear?"
-53,"TEXT_HEAVNZ708_01912_HINUVALI_000_021","Ah! Netherling carries salvation to tribe of Zundu! Tribe forever in netherling's debt."
-54,"TEXT_HEAVNZ708_01912_HINUVALI_000_022","For many moons, Zundu tribe gives offerings to Vundu, guarantees safety of tribe from violent storm of aggression."
-55,"TEXT_HEAVNZ708_01912_HINUVALI_000_023","But tribe of Vundu fickle like summer breeze, attacks innocent Zundu tribe as mood dictates. Since offerings mean little to Vundu, Hinu Vali decides to take back offerings."
-56,"TEXT_HEAVNZ708_01912_HINUVALI_000_024","With netherling's help, stores of Ok' Zundu are restored, just as bountiful harvests after lush rains."
+48,"TEXT_HEAVNZ708_01912_HINUVALI_000_000","絶対に、絶対に、このままじゃいけないわ。
+雷雲を通り抜けるほどの愚かなことだけど、
+旅のおヒト、お願いがあるの。"
+49,"TEXT_HEAVNZ708_01912_HINUVALI_000_001","「オク・ブンド・ヴァナ」に保管されている、
+「<Sheet(EventItem,2001671,0)/>」を奪ってきてほしい。
+とても、とても、全部は無理だけど、3つだけでも。"
+50,"TEXT_HEAVNZ708_01912_HINUVALI_000_002","すごく、すごく、危ないことだとわかってる。
+ただ……このままじゃ、ズンド族は滅びてしまうわ。"
+51,"TEXT_HEAVNZ708_01912_HINUVALI_000_010","「オク・ブンド・ヴァナ」に保管されている、
+「<Sheet(EventItem,2001671,0)/>」を奪ってきてほしい。
+とても、とても、全部は無理だけど、3つだけでも。"
+52,"TEXT_HEAVNZ708_01912_HINUVALI_000_020","「オク・ブンド・ヴァナ」に保管されている、
+「<Sheet(EventItem,2001671,0)/>」を奪ってきてほしい。
+とても、とても、全部は無理だけど、3つだけでも。"
+53,"TEXT_HEAVNZ708_01912_HINUVALI_000_021","本当に、本当に、取ってきてくれたのね。
+これで、これで、当面物資には困らないわ。
+ありがとう、ありがとう。"
+54,"TEXT_HEAVNZ708_01912_HINUVALI_000_022","もともと、これはズンド族からの貢物。
+毎回、毎回、ブンド族から安全を買っているのよ。"
+55,"TEXT_HEAVNZ708_01912_HINUVALI_000_023","それも、それも、ブンド族の気分次第。
+約束を破ることだって考えられるわ。
+だったら取り返して、蓄えておきたいの。"
+56,"TEXT_HEAVNZ708_01912_HINUVALI_000_024","旅のおヒト、本当にありがとう。
+大地がくれる恵みのような感謝をしてるわ。"

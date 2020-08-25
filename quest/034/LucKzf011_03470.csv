@@ -1,8 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKZF011_03470_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-This subdued sentinel seems eager to get moving."
+0,"TEXT_LUCKZF011_03470_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+ファノヴの里の物静かなヴィースは、冒険者に頼みたいことがあるようだ。"
 1,"TEXT_LUCKZF011_03470_SEQ_01",""
 2,"TEXT_LUCKZF011_03470_SEQ_02",""
 3,"TEXT_LUCKZF011_03470_SEQ_03",""
@@ -26,9 +26,9 @@ This subdued sentinel seems eager to get moving."
 21,"TEXT_LUCKZF011_03470_SEQ_21",""
 22,"TEXT_LUCKZF011_03470_SEQ_22",""
 23,"TEXT_LUCKZF011_03470_SEQ_23",""
-24,"TEXT_LUCKZF011_03470_TODO_00","Speak with the honey-blonde baker."
-25,"TEXT_LUCKZF011_03470_TODO_01","Deliver the provisions to Mjrl's Regret."
-26,"TEXT_LUCKZF011_03470_TODO_02","Deliver the heartfelt letter to the honey-blonde baker."
+24,"TEXT_LUCKZF011_03470_TODO_00","蜂蜜色の髪のヴィースと話す"
+25,"TEXT_LUCKZF011_03470_TODO_01","物静かなヴィースに<Sheet(EventItem,2002889,0)/>を渡す"
+26,"TEXT_LUCKZF011_03470_TODO_02","蜂蜜色の髪のヴィースに<Sheet(EventItem,2002890,0)/>を渡す"
 27,"TEXT_LUCKZF011_03470_TODO_03",""
 28,"TEXT_LUCKZF011_03470_TODO_04",""
 29,"TEXT_LUCKZF011_03470_TODO_05",""
@@ -50,20 +50,49 @@ This subdued sentinel seems eager to get moving."
 45,"TEXT_LUCKZF011_03470_TODO_21",""
 46,"TEXT_LUCKZF011_03470_TODO_22",""
 47,"TEXT_LUCKZF011_03470_TODO_23",""
-48,"TEXT_LUCKZF011_03470_QUIETVIIS03470_000_000","Might I ask you to deliver a package?"
-49,"TEXT_LUCKZF011_03470_QUIETVIIS03470_000_001","To whom? I...I am not at liberty to say. A package will be made ready for you across the way. When you have it, see it is delivered to Mjrl's Regret."
-50,"TEXT_LUCKZF011_03470_QUIETVIIS03470_000_010","Provisions? Oh, yes of course. Here you are."
-51,"TEXT_LUCKZF011_03470_QUIETVIIS03470_000_011","I apologize for this. There is no reason anyone should ask you of all people to make such a simple delivery."
-52,"TEXT_LUCKZF011_03470_QUIETVIIS03470_000_015","I realize this is a needless burden, but it is not far."
-53,"TEXT_LUCKZF011_03470_QUIETVIIS03470_000_020","You came... Thank you. You brought the provisions, then?"
-54,"TEXT_LUCKZF011_03470_QUIETVIIS03470_000_021","Ah, I never tire of this bread. <sniff> <sniff> It smells of home."
-55,"TEXT_LUCKZF011_03470_QUIETVIIS03470_000_022","No, I should not think of home. I cannot go back. Not now..."
-56,"TEXT_LUCKZF011_03470_QUIETVIIS03470_000_023","Would you take this letter back to Fanow for me? A word of gratitude for the provisions."
-57,"TEXT_LUCKZF011_03470_QUIETVIIS03470_000_024","Farewell. May the blessings of the wood be upon you."
-58,"TEXT_LUCKZF011_03470_QUIETVIIS03470_000_030","You are returned. Were you able to deliver the provisions?"
-59,"TEXT_LUCKZF011_03470_QUIETVIIS03470_000_031","She really did it then. She always spoke of leaving Yx'Maja, of living free. But I didn't think..."
-60,"TEXT_LUCKZF011_03470_QUIETVIIS03470_000_032","Fitting that she would choose to leave at Mjrl's Regret. It is said the river was born from the tears of those who chose to leave the village."
-61,"TEXT_LUCKZF011_03470_QUIETVIIS03470_000_033","Before long they could no longer hear the call of the woods. They became strangers. That is the fate of all Viis who leave these woods, and still she chose to leave."
-62,"TEXT_LUCKZF011_03470_QUIETVIIS03470_000_034","She has ever been strong of will, and she will need that strength if she truly means to begin her life anew. "
-63,"TEXT_LUCKZF011_03470_QUIETVIIS03470_000_035","I think your presence here inspired her. No doubt she was glad it was you who saw her off. She would want you to have this."
-64,"TEXT_LUCKZF011_03470_QUIETVIIS03470_000_036","Now if you'll excuse me, I have more provisions to prepare."
+48,"TEXT_LUCKZF011_03470_QUIETVIIS03470_000_000","あ、同盟者の旅人さん、いいところに。
+あなたにしか、お願いできないことがあるの。"
+49,"TEXT_LUCKZF011_03470_QUIETVIIS03470_000_001","あのね、「蜂蜜色の髪のヴィース」から、
+「<Sheet(EventItem,2002889,0)/>」を受け取って……
+それを持って「ミュリルの郷愁」まできてくれると、嬉しいわ。"
+50,"TEXT_LUCKZF011_03470_QUIETVIIS03470_000_010","<Sheet(EventItem,2002889,0)/>？
+ええ、もちろん用意してあるから、持っていって。"
+51,"TEXT_LUCKZF011_03470_QUIETVIIS03470_000_011","それにしてもあの子ったら、
+お忙しい同盟者さんにお願いなんてして……。
+直接、受け取りにくればいいのに、どうしたのかしらね。"
+52,"TEXT_LUCKZF011_03470_QUIETVIIS03470_000_015","あら、「<Sheet(EventItem,2002889,0)/>」を、
+あの子のところへ持っていかなくていいの？"
+53,"TEXT_LUCKZF011_03470_QUIETVIIS03470_000_020","きてくれたのね、ありがとう。
+「<Sheet(EventItem,2002889,0)/>」は、もらってきてくれた？"
+54,"TEXT_LUCKZF011_03470_QUIETVIIS03470_000_021","ああ、いい匂い。
+あなたも、彼女に作ってもらうといいわ。
+私はもうこれっきり、食べられないけれど……。"
+55,"TEXT_LUCKZF011_03470_QUIETVIIS03470_000_022","ああ、だめね。
+やっと一歩踏み出したのに、感傷に浸っていては……。
+もうあと一歩が、踏み出せなくなってしまうわ。"
+56,"TEXT_LUCKZF011_03470_QUIETVIIS03470_000_023","ごめんね、最後に、この「<Sheet(EventItem,2002890,0)/>」を、
+「蜂蜜色の髪のヴィース」に渡してもらえるかしら。
+フラットブレッドのお礼なの。"
+57,"TEXT_LUCKZF011_03470_QUIETVIIS03470_000_024","私、もう行かなくちゃ。
+あなたにも、どうかイキス・マヤエの加護があるよう、
+遠くから祈っているわ。"
+58,"TEXT_LUCKZF011_03470_QUIETVIIS03470_000_030","あら、おかえりなさい。
+もうあの子に、フラットブレッドを渡してきたの？"
+59,"TEXT_LUCKZF011_03470_QUIETVIIS03470_000_031","そう……あの子はついに、行ってしまったのね……。
+「森を出て、自由に生きたい」と言っていたから、
+いつかこうなるだろうと、覚悟はしていたけれど……。"
+60,"TEXT_LUCKZF011_03470_QUIETVIIS03470_000_032","「ミュリルの郷愁」という川辺の名前は、
+遠い昔、里を離れることを決めたヴィースが郷愁に泣き、
+その涙が川になったという由来があるの。"
+61,"TEXT_LUCKZF011_03470_QUIETVIIS03470_000_033","ヴィースは森から出ていくと、
+イキス・マヤエの森の声が、どんどん聞こえなくなるの。
+そしていつかぱたりと止み、その者は森の者でなくなる。"
+62,"TEXT_LUCKZF011_03470_QUIETVIIS03470_000_034","ミュリルも、あの子も、
+そんな覚悟を負って、出ていったのね。
+その強さがあれば、きっと外の世界でも生きていけるわ。"
+63,"TEXT_LUCKZF011_03470_QUIETVIIS03470_000_035","あの子も、一番なりたかった「旅人」に見送られて、
+きっとどんなに勇気をもらったことでしょう。
+私から、お礼をさせてちょうだい。"
+64,"TEXT_LUCKZF011_03470_QUIETVIIS03470_000_036","…………さて。
+じゃあ私は、またフラットブレッドでも焼こうかしら。
+手を動かしていないと、私も川を作ってしまいそう。"

@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ321_02717_SEQ_00","Zansetsu's mouth is set in a hard line."
+0,"TEXT_STMBDZ321_02717_SEQ_00","イサリ村のザンセツは、なにやら悩んでいるようだ。"
 1,"TEXT_STMBDZ321_02717_SEQ_01",""
 2,"TEXT_STMBDZ321_02717_SEQ_02",""
 3,"TEXT_STMBDZ321_02717_SEQ_03",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_STMBDZ321_02717_SEQ_21",""
 22,"TEXT_STMBDZ321_02717_SEQ_22",""
 23,"TEXT_STMBDZ321_02717_SEQ_23",""
-24,"TEXT_STMBDZ321_02717_TODO_00","Search the wildfowl nests and obtain wildfowl treasure."
-25,"TEXT_STMBDZ321_02717_TODO_01","Deliver the wildfowl treasure to Zansetsu."
+24,"TEXT_STMBDZ321_02717_TODO_00","<Sheet(EObj,2008145,0)/>を調べて<Sheet(EventItem,2002105,0)/>を入手"
+25,"TEXT_STMBDZ321_02717_TODO_01","ザンセツに<Sheet(EventItem,2002105,0)/>を渡す"
 26,"TEXT_STMBDZ321_02717_TODO_02",""
 27,"TEXT_STMBDZ321_02717_TODO_03",""
 28,"TEXT_STMBDZ321_02717_TODO_04",""
@@ -49,18 +49,39 @@ int32,str,str
 45,"TEXT_STMBDZ321_02717_TODO_21",""
 46,"TEXT_STMBDZ321_02717_TODO_22",""
 47,"TEXT_STMBDZ321_02717_TODO_23",""
-48,"TEXT_STMBDZ321_02717_ZANSETSU_000_000","Regardless of what it takes, I must find a way to lay my hands on─"
-49,"TEXT_STMBDZ321_02717_ZANSETSU_000_001","Aha! You! Yes, <Emphasis>you</Emphasis>, my friend─there is no mistaking that daring glint in your eye. You must be an adventurer! Might you agree to lend this fellow a hand?"
-50,"TEXT_STMBDZ321_02717_ZANSETSU_000_002","You see, the wildfowl that settle in this area at around this time like to collect shiny objects for their nests. While most would consider what they gather to be rubbish, there are some who see it as incredibly valuable─treasure, even."
-51,"TEXT_STMBDZ321_02717_ZANSETSU_000_003","As can be expected of birds, wildfowl tend to build their nests upon plateaus or other extremely high and hard-to-reach places."
-52,"TEXT_STMBDZ321_02717_ZANSETSU_000_004","Added to that, should there happen to be eggs in the nest you are looking through, you risk raising the ire of the mother bird... <shudder>"
-53,"TEXT_STMBDZ321_02717_ZANSETSU_000_005","For a <If(PlayerParameter(4))>woman<Else/>man</If> of your caliber, however, neither of those things should pose any challenge. Please, search the nests and bring me back some of their treasure. About three sparkly trinkets should do nicely."
-54,"TEXT_STMBDZ321_02717_ZANSETSU_000_006","Do not tell me you have returned to decline my request? Please, my friend, I need your help to obtain some wildfowl treasure."
-55,"TEXT_STMBDZ321_02717_SYSTEM_000_010","As you sift through the nest your hand brushes up against something hard and gold. You have found treasure!"
-56,"TEXT_STMBDZ321_02717_SYSTEM_000_011","You root about the nest and find nothing but hornbill eggs."
-57,"TEXT_STMBDZ321_02717_SYSTEM_000_012","This is not the wildfowl treasure you are looking for. Try searching somewhere else."
-58,"TEXT_STMBDZ321_02717_ZANSETSU_100_020","I simply must find a way to acqui─"
-59,"TEXT_STMBDZ321_02717_ZANSETSU_000_020","Ah! You are back, and would you look at that─you have brought me wildfowl treasure! Thank you. With this I might finally be able to extract an answer from those miserly Blue Kojin."
-60,"TEXT_STMBDZ321_02717_ZANSETSU_000_021","Lately, we have faced a sudden surge of beasts in this region. This has scared our fish away and, as people of the sea, the Kojin are the only ones who know where they might have migrated to."
-61,"TEXT_STMBDZ321_02717_ZANSETSU_000_022","While generally an amicable people, they are merchants to the core and will take any opportunity they can get to earn a bit of extra coin."
-62,"TEXT_STMBDZ321_02717_ZANSETSU_000_023","Thankfully, they never ask for too much. This, to us, may be junk but to them they are priceless treasures. Hahaha!"
+48,"TEXT_STMBDZ321_02717_ZANSETSU_000_000","うーむ、やはり……あれを手に入れるしか。"
+49,"TEXT_STMBDZ321_02717_ZANSETSU_000_001","おや、<If(PlayerParameter(4))>お嬢さん<Else/>お兄さん</If>、ひょっとして旅の方かい？
+ああ、ずいぶん遠くからきたもんだね。
+いや……それなら、少し話を聞いていただけんか。"
+50,"TEXT_STMBDZ321_02717_ZANSETSU_000_002","このあたりを飛び交う渡り鳥は、光り物を集める習性がある。
+だから、奴らの巣には、キラキラと輝く物が含まれているそうなんだ。
+大抵はガラクタなんだが……それは問題ない。"
+51,"TEXT_STMBDZ321_02717_ZANSETSU_000_003","とにかく、その<Sheet(EventItem,2002105,0)/>が必要なんだ。
+だが、奴らの巣は、このあたりの高台にあるから、
+空でも飛ばない限りは、探しにいけやしない……。"
+52,"TEXT_STMBDZ321_02717_ZANSETSU_000_004","仮に、探しに行けたとしても、その巣に運悪く卵があれば、
+我が子を守ろうとする親鳥に襲われちまう……。"
+53,"TEXT_STMBDZ321_02717_ZANSETSU_000_005","もしや、<If(PlayerParameter(4))>お嬢さん<Else/>お兄さん</If>、高台に登れたりしないか？
+できるなら、「<Sheet(EObj,2008145,0)/>」を調べて、「<Sheet(EventItem,2002105,0)/>」を、
+3つ取ってきてほしいんだ。"
+54,"TEXT_STMBDZ321_02717_ZANSETSU_000_006","もしも、<If(PlayerParameter(4))>お嬢さん<Else/>お兄さん</If>が高台に登れるなら、
+「<Sheet(EObj,2008145,0)/>」を調べて、「<Sheet(EventItem,2002105,0)/>」を、
+3つ取ってきてほしいんだ。"
+55,"TEXT_STMBDZ321_02717_SYSTEM_000_010","「<Sheet(EventItem,2002105,0)/>」をみつけた！"
+56,"TEXT_STMBDZ321_02717_SYSTEM_000_011","「ベニツノの卵」をみつけた。
+「<Sheet(EventItem,2002105,0)/>」はないようだ。
+ほかの場所を探してみよう。"
+57,"TEXT_STMBDZ321_02717_SYSTEM_000_012","「<Sheet(EventItem,2002105,0)/>」はないようだ。
+ほかの場所を探してみよう。"
+58,"TEXT_STMBDZ321_02717_ZANSETSU_100_020","<Sheet(EventItem,2002105,0)/>さえ、手に入れば……。"
+59,"TEXT_STMBDZ321_02717_ZANSETSU_000_020","おお！　まさか、本当に取ってきてくれたとは……。
+これで、碧甲羅のコウジン族と取引に踏み切れるぞ。"
+60,"TEXT_STMBDZ321_02717_ZANSETSU_000_021","最近は、魔物のせいでめっきり魚が減ってしまってな。
+だから、魚の群れがどこに移動したのか、
+海に住む彼らしか知らないような情報が欲しかったのさ。"
+61,"TEXT_STMBDZ321_02717_ZANSETSU_000_022","碧甲羅は、穏やかで人とのつきあいも多い種族だが、
+同時に根っからの商売人でもある。
+交渉材料として、<Sheet(EventItem,2002105,0)/>を取ってきてもらったわけだ。"
+62,"TEXT_STMBDZ321_02717_ZANSETSU_000_023","ガラクタであっても、碧甲羅の連中はお宝だと喜ぶからね。
+これで、実りのある取引ができるだろう。
+旅の方……ありがとうな。"

@@ -1,8 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKZH004_03514_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Haraldur has found a piece of lost property."
+0,"TEXT_LUCKZH004_03514_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+ヌベイ旧鉱山のハラルドゥルは、落とし物を届けてほしいようだ。"
 1,"TEXT_LUCKZH004_03514_SEQ_01",""
 2,"TEXT_LUCKZH004_03514_SEQ_02",""
 3,"TEXT_LUCKZH004_03514_SEQ_03",""
@@ -26,8 +26,8 @@ Haraldur has found a piece of lost property."
 21,"TEXT_LUCKZH004_03514_SEQ_21",""
 22,"TEXT_LUCKZH004_03514_SEQ_22",""
 23,"TEXT_LUCKZH004_03514_SEQ_23",""
-24,"TEXT_LUCKZH004_03514_TODO_00","Give the extravagant pipe to the chiseled miner."
-25,"TEXT_LUCKZH004_03514_TODO_01","Speak with the chiseled miner."
+24,"TEXT_LUCKZH004_03514_TODO_00","少年の父親に<Sheet(EventItem,2002735,0)/>を渡す"
+25,"TEXT_LUCKZH004_03514_TODO_01","少年の父親と話す"
 26,"TEXT_LUCKZH004_03514_TODO_02",""
 27,"TEXT_LUCKZH004_03514_TODO_03",""
 28,"TEXT_LUCKZH004_03514_TODO_04",""
@@ -50,22 +50,46 @@ Haraldur has found a piece of lost property."
 45,"TEXT_LUCKZH004_03514_TODO_21",""
 46,"TEXT_LUCKZH004_03514_TODO_22",""
 47,"TEXT_LUCKZH004_03514_TODO_23",""
-48,"TEXT_LUCKZH004_03514_HARALDUR_000_000","'Scuse me, <If(PlayerParameter(4))>miss<Else/>mate</If>. That bloke you were talking to dropped his pipe."
-49,"TEXT_LUCKZH004_03514_HARALDUR_000_001","It seems sort of old. Might be worth something."
-50,"TEXT_LUCKZH004_03514_HARALDUR_000_002","I'd run over and give it back to him, but I've got a job to do. Maybe you could do it instead?"
-51,"TEXT_LUCKZH004_03514_HARALDUR_000_010","It don't look like the sort of pipe you'd throw away."
-52,"TEXT_LUCKZH004_03514_FATHER03514_000_020","Let me guess, my boy's up to his old tricks again?"
-53,"TEXT_LUCKZH004_03514_FATHER03514_000_021","My pipe! I've been looking for this. I can't thank you enough for bringing it back to me!"
-54,"TEXT_LUCKZH004_03514_FATHER03514_000_022","There's a bit of a story behind it, you see."
-55,"TEXT_LUCKZH004_03514_FATHER03514_000_023","If you have the time, please come and meet me in the graveyard. I'd like to tell you a tale, if I may."
-56,"TEXT_LUCKZH004_03514_FATHER03514_000_030","I'm glad you decided to join me. You see, this pipe was once owned by a much loved and respected member of our community, who now rests beneath this very soil."
-57,"TEXT_LUCKZH004_03514_FATHER03514_000_031","He was a good friend to many of us, myself included, and came from a long line of Ronso going all the way back to the great Nuvy. The mine was named after his ancestor."
-58,"TEXT_LUCKZH004_03514_FATHER03514_000_032","He always felt a sense of pride in his work, and led digs that went deeper and deeper into the rock."
-59,"TEXT_LUCKZH004_03514_FATHER03514_000_033","No matter what happened, he never gave up. After the Talos masters left fifteen years ago, we ran into all sorts of problems. We lost so many good workers to cave-ins, sin eater attacks, injury, and simply leaving for better prospects elsewhere. Even then, he kept digging."
-60,"TEXT_LUCKZH004_03514_FATHER03514_000_034","Though he is no longer with us, we try to follow the example he set. I always carry his old pipe with me as a memento of the days we spent together."
-61,"TEXT_LUCKZH004_03514_FATHER03514_000_035","I'm grateful to you for taking the time to listen. It's good to know that someone from outside of Twine has an interest in the work we do and the reasons why we keep going, in spite of everything."
-62,"TEXT_LUCKZH004_03514_FATHER03514_000_036","Which reminds me, I need to see the others about getting rid of those wretched gnomes, but I hope I will have the chance to speak with you again one day. Fare thee well."
-63,"TEXT_LUCKZH004_03514_PLAYER03514_000_000",""
-64,"TEXT_LUCKZH004_03514_PLAYER03514_000_001",""
-65,"TEXT_LUCKZH004_03514_PLAYER03514_000_002",""
-66,"TEXT_LUCKZH004_03514_PLAYER03514_000_010",""
+48,"TEXT_LUCKZH004_03514_HARALDUR_000_000","あんた、さっき元気な少年の父親と話してたろ？
+彼が、この「<Sheet(EventItem,2002735,0)/>」を落としていったようなんだ。"
+49,"TEXT_LUCKZH004_03514_HARALDUR_000_001","パイプには、あの父親とは別の名前が刻まれている。
+誰かの遺品か何か……なんにせよ、大切なものだろう。"
+50,"TEXT_LUCKZH004_03514_HARALDUR_000_002","届けてやりたいが、俺はこれから採掘の当番でな……。
+すまないが、俺の代わりに落とし物のパイプを、
+トゥワインにいる「少年の父親」へ届けてくれ。"
+51,"TEXT_LUCKZH004_03514_HARALDUR_000_010","俺の代わりに、「<Sheet(EventItem,2002735,0)/>」を、
+トゥワインにいる「少年の父親」へ届けてくれ。"
+52,"TEXT_LUCKZH004_03514_FATHER03514_000_020","おや、あなたは……。
+息子がまた何かしたのでしょうか？"
+53,"TEXT_LUCKZH004_03514_FATHER03514_000_021","おお、これは私のパイプです！
+どこに落としたものかと探していたのですが、
+届けてくださって、ありがとうございます。"
+54,"TEXT_LUCKZH004_03514_FATHER03514_000_022","そうですね、せっかく届けてくださったのですから、
+少しだけこのパイプについて話させてください。"
+55,"TEXT_LUCKZH004_03514_FATHER03514_000_023","ここで話すのもなんですし、
+墓地の方まで来ていただけますか？
+お待ちしていますね。"
+56,"TEXT_LUCKZH004_03514_FATHER03514_000_030","ああ、旅人さん。
+来てくださって、ありがとうございます。
+では、パイプについてお話を……。"
+57,"TEXT_LUCKZH004_03514_FATHER03514_000_031","パイプの本来の持ち主は、私の友人でしてね。
+鉱山の由来になってるロンゾ族の偉人、
+ヌベイの血を引く、それは剛毅な人物でしたよ。"
+58,"TEXT_LUCKZH004_03514_FATHER03514_000_032","彼は鉱山を拓いた先祖に恥じぬよう、
+アム・アレーンの鉱業を支えてみせると豪語し、
+皆の先頭に立って採掘を続けていました。"
+59,"TEXT_LUCKZH004_03514_FATHER03514_000_033","それは、15年前にタロースの技師が去った後も……
+落盤事故や罪喰いの襲撃で仲間を失い、自身が怪我をした後も……
+夢を諦めた仲間が町を去った後も、同じでした。"
+60,"TEXT_LUCKZH004_03514_FATHER03514_000_034","そんな彼も、いまは土の下……。
+ですが、遺された我々が鉱業を続けていられるのは、
+間違いなく、彼のおかげでしょう。"
+61,"TEXT_LUCKZH004_03514_FATHER03514_000_035","いきなりこんなことを喋ってしまい、すみません。
+友人が死した今、この想いを誰かに知ってほしかったのです。"
+62,"TEXT_LUCKZH004_03514_FATHER03514_000_036","さて、私はヌベイ旧鉱山に巣食うノームたちへの対策を、
+仲間たちと考えなければ……。
+それでは失礼しますね、ありがとうございました……。"
+63,"TEXT_LUCKZH004_03514_PLAYER03514_000_000","（★未使用／削除予定★）"
+64,"TEXT_LUCKZH004_03514_PLAYER03514_000_001","（★未使用／削除予定★）"
+65,"TEXT_LUCKZH004_03514_PLAYER03514_000_002","（★未使用／削除予定★）"
+66,"TEXT_LUCKZH004_03514_PLAYER03514_000_010","（★未使用／削除予定★）"

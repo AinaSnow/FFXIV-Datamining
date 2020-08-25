@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_MANSEA009_00545_SEQ_00","Baderon wants you to let him know when you are ready to depart for the banquet."
-1,"TEXT_MANSEA009_00545_SEQ_01","The banquet is soon to begin. Put on your dress shoes, and speak with Zanthael in Bulwark Hall."
-2,"TEXT_MANSEA009_00545_SEQ_02","At the banquet, Merlwyb recounts the deeds of the half-remembered heroes whom Eorzeans now call the Warriors of Light. The tale triggers inside your mind a vision of the final moments of the Battle of Carteneau. When you subsequently come to your senses, you are surprised to find yourself in a room at the Drowning Wench, with no idea how you got there. Baderon, who apparently carried you back from the Bridge himself, explains that you collapsed, and mentions that the Admiral would like to see you. Make your way to Bulwark Hall, and request admission to the command room."
-3,"TEXT_MANSEA009_00545_SEQ_03","Merlwyb has a task for you─one which she would entrust to no other. Speak to her again when you are ready to hear what it entails."
+0,"TEXT_MANSEA009_00545_SEQ_00","溺れた海豚亭のバデロンは、心の準備を整えた冒険者に……"
+1,"TEXT_MANSEA009_00545_SEQ_01","そろそろ晩餐会が始まる。「<Sheet(Item,3760,0)/>」を履いて、ブルワークホールにいる「ザントヘール甲軍曹」に話しかけよう。"
+2,"TEXT_MANSEA009_00545_SEQ_02","かつて、エオルゼアには「光の戦士」と伝えられる英雄が存在したらしい。彼らはカルテノーの戦いで、人々のために命を賭して戦ったのだという。その戦いをずいぶん生々しく見たような気がするが……。メルウィブ提督が冒険者に伝えたいことがあるようだ。アドミラルブリッジ：提督室の「メルウィブ」に話を聞こう。"
+3,"TEXT_MANSEA009_00545_SEQ_03","信頼を置く冒険者にメルウィブから頼みごとがあるようだ。どんな頼みも受けられるよう冒険の準備を整え、メルウィブから詳しい話を聞こう。"
 4,"TEXT_MANSEA009_00545_SEQ_04",""
 5,"TEXT_MANSEA009_00545_SEQ_05",""
 6,"TEXT_MANSEA009_00545_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_MANSEA009_00545_SEQ_21",""
 22,"TEXT_MANSEA009_00545_SEQ_22",""
 23,"TEXT_MANSEA009_00545_SEQ_23",""
-24,"TEXT_MANSEA009_00545_TODO_00","Put on the dress shoes and speak with Zanthael."
-25,"TEXT_MANSEA009_00545_TODO_01","Speak with Merlwyb in the command room."
+24,"TEXT_MANSEA009_00545_TODO_00","<Sheet(Item,3760,0)/>を履いてザントヘール甲軍曹と話す"
+25,"TEXT_MANSEA009_00545_TODO_01","アドミラルブリッジ：提督室のメルウィブと話す"
 26,"TEXT_MANSEA009_00545_TODO_02",""
 27,"TEXT_MANSEA009_00545_TODO_03",""
 28,"TEXT_MANSEA009_00545_TODO_04",""
@@ -49,56 +49,115 @@ int32,str,str
 45,"TEXT_MANSEA009_00545_TODO_21",""
 46,"TEXT_MANSEA009_00545_TODO_22",""
 47,"TEXT_MANSEA009_00545_TODO_23",""
-48,"TEXT_MANSEA009_00545_BADERON_000_1","Yer ready, then, are ye? Good. The banquet'll be startin' soon. If ye'd waited any longer, I'd've considered it me civic duty to 'it ye over the 'ead an' drag ye there."
-49,"TEXT_MANSEA009_00545_BADERON_000_2","Now, make sure yer <Emphasis>wearin'</Emphasis> them fancy shoes when ye turn up, all right? Carryin' 'em won't do no good. They're meant to make ye look like a <If(PlayerParameter(4))>lady<Else/>gentleman</If>, remember, not a <If(PlayerParameter(4))>lady<Else/>gentleman</If>'s bleedin' lackey."
-50,"TEXT_MANSEA009_00545_BADERON_000_3","As fer directions, the feast's bein' 'eld on the Bridge, in the Admiral's briefin' room."
-51,"TEXT_MANSEA009_00545_BADERON_000_4","Speak with Zanthael in Bulwark Hall, an' 'e'll show ye the way."
-52,"TEXT_MANSEA009_00545_BADERON_000_5","Just keep that 'ead 'eld 'igh, <If(PlayerParameter(4))>lass<Else/>lad</If>. After everythin' ye've done fer Limsa, ye've good reason to be proud─an' don't let no 'ighborn bugger tell ye different."
-53,"TEXT_MANSEA009_00545_ZANTHAEL_000_10","Dress shoes... Fancy dress shoes. An adventurer wearing fancy dress shoes..."
-54,"TEXT_MANSEA009_00545_ZANTHAEL_000_11","Godsdammit, Baderon, why could you not have told me this mysterious guest's name, or their hair color, or even their bloody <Emphasis>gender</Emphasis>!? I'd have settled for a distinctive facial scar! I know nothing about shoes, much less fancy─ What? You say <Emphasis>you're</Emphasis> the adventurer I'm looking for?"
-55,"TEXT_MANSEA009_00545_ZANTHAEL_000_12","Then where are these “fancy dress shoes” that Baderon described to me in such <Emphasis>excruciatingly</Emphasis> unhelpful detail? Surely you didn't...? Ahem. He mentioned that if you were so careless as to misplace them, I was supposed to tell you to “get your arse back to J'nasshym, and beg fer another pair.” I never imagined I'd actually have to say it, though..."
-56,"TEXT_MANSEA009_00545_ZANTHAEL_000_13","Oh! Now <Emphasis>those</Emphasis> are some fancy dress shoes. Come, adventurer, I will show you to the briefing room."
-57,"TEXT_MANSEA009_00545_000010_MERLWYB","Brothers and sisters of the sea!"
-58,"TEXT_MANSEA009_00545_000020_MERLWYB","Join me now in honoring this <If(PlayerParameter(4))>woman<Else/>man</If> for <If(PlayerParameter(4))>her<Else/>his</If> services to our great nation!"
-59,"TEXT_MANSEA009_00545_000030_MERLWYB","May the Navigator guide and protect <If(PlayerParameter(4))>her<Else/>him</If> on <If(PlayerParameter(4))>her<Else/>his</If> journey till sea swallows all!"
-60,"TEXT_MANSEA009_00545_000040_MERLWYB","These pirates you encountered with the tattooed faces... They call themselves the “Serpent Reavers.” Their ranks are formed of cutthroats and madmen who have pledged themselves body and soul to the primal Leviathan."
-61,"TEXT_MANSEA009_00545_000050_MERLWYB","From what we have gathered, they sought to swell their numbers by spiriting away any soul unfortunate enough to cross their path."
-62,"TEXT_MANSEA009_00545_000060_MERLWYB","I need not tell you the depth of the animosity between us and the Sahagin. How any seaman worth his salt could devote himself to the fishbacks' god is a question for a more temperate mind than mine."
-63,"TEXT_MANSEA009_00545_000070_MERLWYB","But thanks to you, our citizens may once more go about their daily lives, safe in the knowledge that they will not be dragged into the darkness by those execrable curs."
-64,"TEXT_MANSEA009_00545_000080_YSHTOLA","Such an extraordinary glow..."
-65,"TEXT_MANSEA009_00545_000090_YSHTOLA","This...is one of the Crystals of Light."
-66,"TEXT_MANSEA009_00545_000100_MERLWYB","By the Navigator..."
-67,"TEXT_MANSEA009_00545_000110_YSHTOLA","After our encounter with the goobbue, you had a vision, did you not? Of a towering crystal?"
-68,"TEXT_MANSEA009_00545_000120_YSHTOLA","You bathed in Her Light..."
-69,"TEXT_MANSEA009_00545_000130_MERLWYB","Y'shtola's conclusion is clear, and I see no reason to doubt it. You are the vessel of a higher power."
-70,"TEXT_MANSEA009_00545_000140_MERLWYB","This...being from your vision was the Mothercrystal. Your description matches what little we know of Her."
-71,"TEXT_MANSEA009_00545_000150_MERLWYB","And if She has chosen you, then your deeds may yet shape the fate of nations."
-72,"TEXT_MANSEA009_00545_000160_MERLWYB","As once did the deeds of the Warriors of Light."
-73,"TEXT_MANSEA009_00545_000170_MERLWYB","Know you the tale? Like you, they were not of these lands, yet they fought to protect us all 'gainst the corruption of the primals."
-74,"TEXT_MANSEA009_00545_000180_MERLWYB","When the Garlean Empire began its conquest of the realm, these heroes joined the Grand Companies, and helped reforge the Eorzean Alliance."
-75,"TEXT_MANSEA009_00545_000190_MERLWYB","And at the Battle of Carteneau, they took the field beneath our banners, to fight for everything we hold dear."
-76,"TEXT_MANSEA009_00545_000200_MERLWYB","It was on that day, in the midst of that hell...that we lost them."
-77,"TEXT_MANSEA009_00545_000210_MERLWYB","Every soul who survived that battle will never forget how it was to fight beside them. We are proud to call them our comrades."
-78,"TEXT_MANSEA009_00545_000220_MERLWYB","Yet, whenever we try to shout their names, the sound dies in our throats."
-79,"TEXT_MANSEA009_00545_000230_MERLWYB","And whenever we strain to see their faces with our mind's eye, naught but their shadows appear to us, set against a blinding light."
-80,"TEXT_MANSEA009_00545_000240_MERLWYB","Ask any true Eorzean who knew them, and the story will be the same. It is for this reason that we call them “the Warriors of Light.”"
-81,"TEXT_MANSEA009_00545_000250_MERLWYB","When I look upon you, I cannot help but be reminded of them."
-82,"TEXT_MANSEA009_00545_000260_MERLWYB","Keep that Crystal safe."
-83,"TEXT_MANSEA009_00545_000270_MERLWYB","In time, I believe the Mothercrystal will make clear Her reasons for bestowing it upon you."
-84,"TEXT_MANSEA009_00545_000280_MERLWYB","Heed well Her words, adventurer. For it is Hydaelyn Herself who speaks."
-85,"TEXT_MANSEA009_00545_BADERON_000_30","Mornin', sunshine. All a bit much fer ye, was it?"
-86,"TEXT_MANSEA009_00545_BADERON_000_31","...What 'appened? Ah, ye don't remember, then."
-87,"TEXT_MANSEA009_00545_BADERON_000_32","Ye keeled over in the middle o' the banquet, an' caused a right stir. 'Ad to carry ye back to the Wench meself. Well, I say “carry”...'twas more a matter o' draggin' an' rollin'. Too much cake, I reckon."
-88,"TEXT_MANSEA009_00545_BADERON_000_33","Anyroad, don't fret─'tis little wonder ye was exhausted after everythin' ye've been through lately."
-89,"TEXT_MANSEA009_00545_BADERON_000_34","Yer little nap seems to 'ave put some color back in yer cheeks, though, so I'll leave ye to it."
-90,"TEXT_MANSEA009_00545_BADERON_000_35","...Bugger! I almost forgot: the Admiral wants to 'ave a word with ye."
-91,"TEXT_MANSEA009_00545_BADERON_000_36","When ye feel up to it, talk to Zanthael an' 'e'll let ye in to the command room. Oh, an' stay awake, eh? I'm told ol' Merlwyb was in the middle o' tellin' ye a story when ye started snorin' last time, an' I doubt she'd look kindly on it if ye repeated the trick!"
-92,"TEXT_MANSEA009_00545_ZANTHAEL_000_40","Greetings, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Admiral Bloefhiswyn awaits you in the command room. Shall I announce you?"
-93,"TEXT_MANSEA009_00545_Q1_000_1","Enter the command room?"
-94,"TEXT_MANSEA009_00545_A1_000_1","Yes"
-95,"TEXT_MANSEA009_00545_A1_000_2","No"
-96,"TEXT_MANSEA009_00545_ZANTHAEL_000_41","Still not recovered from your...er...sudden illness? I find a brisk walk along the waterfront always helps to blow away the cobwebs. The smell down there could wake the dead..."
-97,"TEXT_MANSEA009_00545_MERLWYB_000_50","Ah, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, it is good to see you on your feet again. You are recovered?"
-98,"TEXT_MANSEA009_00545_MERLWYB_000_51","Then let us waste no time. I have a task that needs doing─one I would entrust to no other."
-99,"TEXT_MANSEA009_00545_JNASSHYM_000_60","What's this? Are you struggling to tell me you have <Emphasis>lost</Emphasis> the fine pair of shoes I chose <Emphasis>especially</Emphasis> for you?"
-100,"TEXT_MANSEA009_00545_JNASSHYM_000_61","Fortunately, I have another such pair available. You may have them out of the kindness of my heart...and the loathing in my soul I bear for your usual “attire.”"
+48,"TEXT_MANSEA009_00545_BADERON_000_1","よしよし、心の準備もできたみたいだな。
+晩餐会のほうも、ちょうど始まる頃合いだ。"
+49,"TEXT_MANSEA009_00545_BADERON_000_2","「<Sheet(Item,3760,0)/>」は、きちんと履いてるか？
+ただ持ってるだけじゃ、<If(PlayerParameter(4))>淑女<Else/>紳士</If>とは言えねえぞ。
+俺たちからの心づくしを無駄にしないでくれよな。"
+50,"TEXT_MANSEA009_00545_BADERON_000_3","さて、肝心の晩餐会場は
+アドミラルブリッジの「作戦会議室」だ。"
+51,"TEXT_MANSEA009_00545_BADERON_000_4","ブルワークホールのザントヘール甲軍曹って野郎に頼めば、
+作戦会議室まで案内してくれるだろう。"
+52,"TEXT_MANSEA009_00545_BADERON_000_5","さあ、胸張って行ってきな。
+リムサ・ロミンサを救った英雄様の晴れ姿、
+ひとつ、皆々様に披露してこいや！"
+53,"TEXT_MANSEA009_00545_ZANTHAEL_000_10","ううむ……。
+「<Sheet(Item,3760,0)/>」を履いた冒険者……
+「<Sheet(Item,3760,0)/>」を履いた冒険者……"
+54,"TEXT_MANSEA009_00545_ZANTHAEL_000_11","バデロンめ、面倒な目印を指定しおって！
+足元の見すぎで、首が凝ってかなわんわ！
+……なに、自分がその招待された冒険者だって？"
+55,"TEXT_MANSEA009_00545_ZANTHAEL_000_12","ならば「<Sheet(Item,3760,0)/>」を履いて見せてくれ。
+もし、失くしてしまったのなら、
+八分儀広場のジャ・ナッシムに相談するんだな。"
+56,"TEXT_MANSEA009_00545_ZANTHAEL_000_13","……っと、お前が履いているのは「<Sheet(Item,3760,0)/>」！
+話はバデロンから聞いているぞ！
+さあ、作戦会議室へ案内しよう！！"
+57,"TEXT_MANSEA009_00545_000010_MERLWYB","誇り高き海の民よ！"
+58,"TEXT_MANSEA009_00545_000020_MERLWYB","この冒険者は、リムサ・ロミンサのために
+魂揺さぶる働きで尽くしてくれた英雄だ！"
+59,"TEXT_MANSEA009_00545_000030_MERLWYB","英雄に、海洋と航海の女神リムレーンの祝福を！"
+60,"TEXT_MANSEA009_00545_000040_MERLWYB","顔に入れ墨のある者たち。
+奴らは蛮神「リヴァイアサン」に忠誠を誓った、
+海賊団「海蛇の舌」だ。"
+61,"TEXT_MANSEA009_00545_000050_MERLWYB","奴らは蛮神「リヴァイアサン」の信徒を増やすために、
+人拐いを繰り返していたようだ。"
+62,"TEXT_MANSEA009_00545_000060_MERLWYB","サハギン族は、長年、我らと敵対してきた蛮族……。
+その仇敵に、いいように使われるとは情けない。"
+63,"TEXT_MANSEA009_00545_000070_MERLWYB","君のお陰で、奴らの動きが解ったのだ。
+感謝しているぞ。"
+64,"TEXT_MANSEA009_00545_000080_YSHTOLA","その輝きは一体……？"
+65,"TEXT_MANSEA009_00545_000090_YSHTOLA","これは……。
+もしや、光のクリスタル……！？"
+66,"TEXT_MANSEA009_00545_000100_MERLWYB","これが……。"
+67,"TEXT_MANSEA009_00545_000110_YSHTOLA","あなた、前にクリスタルを見たと言っていたわね……。"
+68,"TEXT_MANSEA009_00545_000120_YSHTOLA","光の意思に……。"
+69,"TEXT_MANSEA009_00545_000130_MERLWYB","やはり、ヤ・シュトラ殿の推察どおり、
+君は「超える力」を持っているようだな……。"
+70,"TEXT_MANSEA009_00545_000140_MERLWYB","君の触れた存在。
+それは、おそらく母なるクリスタル……。
+マザークリスタルだ。"
+71,"TEXT_MANSEA009_00545_000150_MERLWYB","君は、一介の冒険者で終わらず、
+いずれは世界を左右する大物になるやもしれん。"
+72,"TEXT_MANSEA009_00545_000160_MERLWYB","そう、あの「光の戦士たち」のようにな……。"
+73,"TEXT_MANSEA009_00545_000170_MERLWYB","かつて、このエオルゼアには、
+蛮神と戦った者たちがいた。"
+74,"TEXT_MANSEA009_00545_000180_MERLWYB","その者たちは、
+エオルゼア諸国が「グランドカンパニー」を設立すると、
+その一員となり「ガレマール帝国」とも戦った。"
+75,"TEXT_MANSEA009_00545_000190_MERLWYB","世界を救うため、「エオルゼア同盟軍」の一員として、
+5年前の「カルテノーの戦い」にも参加していた。"
+76,"TEXT_MANSEA009_00545_000200_MERLWYB","しかし、カルテノーを最後に、
+その英雄たちは姿を消したのだ……。"
+77,"TEXT_MANSEA009_00545_000210_MERLWYB","残された人々は、英雄が自分たちのために、
+命を賭して戦ったことを覚えている。
+……確かに彼らはそこに居たのだ。"
+78,"TEXT_MANSEA009_00545_000220_MERLWYB","しかし、その名を口に出そうとすると、
+日に焼けた書物を読み上げることができぬよう
+声に出すことができず……。"
+79,"TEXT_MANSEA009_00545_000230_MERLWYB","その顔を思い出そうとすると、閃光の中にあるように、
+輪郭が影に包まれてしまう。"
+80,"TEXT_MANSEA009_00545_000240_MERLWYB","この不可思議な現象から、
+人々は英雄たちのことを「光の戦士たち」と
+呼ぶようになった。"
+81,"TEXT_MANSEA009_00545_000250_MERLWYB","光の意思に導かれた君を見ていると
+かつての英雄の話を思い出すよ。"
+82,"TEXT_MANSEA009_00545_000260_MERLWYB","……冒険者。
+そのクリスタルを大事にすることだ。"
+83,"TEXT_MANSEA009_00545_000270_MERLWYB","マザークリスタル……ハイデリンが、
+君にそれを持たせた意味……それが解るまではな。"
+84,"TEXT_MANSEA009_00545_000280_MERLWYB","君は星の声……ハイデリンの意思に、
+直接導かれたのだから。"
+85,"TEXT_MANSEA009_00545_BADERON_000_30","よう、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
+気が付いたか？"
+86,"TEXT_MANSEA009_00545_BADERON_000_31","おいおい、覚えてないのか？"
+87,"TEXT_MANSEA009_00545_BADERON_000_32","おまえさんは晩餐会の会場でぶっ倒れたんだ。
+気を失っていてな。
+慌てて俺が宿まで運んだってわけさ。"
+88,"TEXT_MANSEA009_00545_BADERON_000_33","ここのところ、事件に次ぐ事件だったからな。
+疲れていたのかもしれない。"
+89,"TEXT_MANSEA009_00545_BADERON_000_34","もう大丈夫のようだな。
+俺も戻るとしよう。"
+90,"TEXT_MANSEA009_00545_BADERON_000_35","……そうそう。
+メルウィブ提督が、おまえさんに、
+伝えたいことがあるそうだ。"
+91,"TEXT_MANSEA009_00545_BADERON_000_36","今はアドミラルブリッジの「提督室」に
+いらっしゃるはずだ。
+ザントヘール甲軍曹に頼んで、通してもらいな。"
+92,"TEXT_MANSEA009_00545_ZANTHAEL_000_40","おお、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>ではないか。
+メルウィブ提督との謁見の件で来たのだろう？
+さっそくアドミラルブリッジの「提督室」へ向かうか？"
+93,"TEXT_MANSEA009_00545_Q1_000_1","アドミラルブリッジ：提督室へ行く？"
+94,"TEXT_MANSEA009_00545_A1_000_1","はい"
+95,"TEXT_MANSEA009_00545_A1_000_2","いいえ"
+96,"TEXT_MANSEA009_00545_ZANTHAEL_000_41","まだ調子が悪いのか？
+ならば、無理をせずに宿屋に戻るがいい。"
+97,"TEXT_MANSEA009_00545_MERLWYB_000_50","君か、待っていたぞ。
+具合はもういいようだな。"
+98,"TEXT_MANSEA009_00545_MERLWYB_000_51","実は……。
+冒険者の君に、頼みがあるのだ。
+この仕事を託せるのは、君しかいないのだよ……。"
+99,"TEXT_MANSEA009_00545_JNASSHYM_000_60","おや、もしや、私が特別に見繕った
+「<Sheet(Item,3760,0)/>」をなくされたのですか？"
+100,"TEXT_MANSEA009_00545_JNASSHYM_000_61","今回は、<Sheet(Item,3760,0)/>を差しあげますが……
+次になくされたら、手間賃をいただきたいぐらいです……。"

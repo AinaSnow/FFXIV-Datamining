@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSTAN000_00105_SEQ_00","Randall wishes you to reaffirm your desire to join the Leatherworkers' Guild."
-1,"TEXT_CLSTAN000_00105_SEQ_01","You must receive Guildmaster Geva's permission if you wish to join the Leatherworkers' Guild. Seek her out in the workshop and impress upon her your desire to learn."
-2,"TEXT_CLSTAN000_00105_SEQ_02","Though you have been accepted into the Leatherworkers' Guild, you have much to prove if you are to meet their high standard of craftsmanship. To embark upon your journey as a leatherworker, equip the knife Geva gave you and speak to her again."
+0,"TEXT_CLSTAN000_00105_SEQ_00","革細工師として革細工師ギルドで学ぶためには、所定の手続きを行わなければならない。革細工師ギルドの受付のランダルは、冒険者の覚悟を確認したいようだ。"
+1,"TEXT_CLSTAN000_00105_SEQ_01","革細工師ギルドに入門するには、ギルドマスターのゲヴァに認められる必要がある。作業場にいる「ゲヴァ」に声をかけよう。"
+2,"TEXT_CLSTAN000_00105_SEQ_02","革細工師ギルドマスターのゲヴァに、ギルドへの入門を許可してもらった冒険者。ギルドの一員として指導を受けるため、彼女から受け取った「<Sheet(Item,　2416,0)/>」を装備し、もういちど「ゲヴァ」に声をかけよう。"
 3,"TEXT_CLSTAN000_00105_SEQ_03",""
 4,"TEXT_CLSTAN000_00105_SEQ_04",""
 5,"TEXT_CLSTAN000_00105_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_CLSTAN000_00105_SEQ_21",""
 22,"TEXT_CLSTAN000_00105_SEQ_22",""
 23,"TEXT_CLSTAN000_00105_SEQ_23",""
-24,"TEXT_CLSTAN000_00105_TODO_00","Speak with Guildmaster Geva."
+24,"TEXT_CLSTAN000_00105_TODO_00","ゲヴァと話す"
 25,"TEXT_CLSTAN000_00105_TODO_01",""
 26,"TEXT_CLSTAN000_00105_TODO_02",""
 27,"TEXT_CLSTAN000_00105_TODO_03",""
@@ -49,25 +49,55 @@ int32,str,str
 45,"TEXT_CLSTAN000_00105_TODO_21",""
 46,"TEXT_CLSTAN000_00105_TODO_22",""
 47,"TEXT_CLSTAN000_00105_TODO_23",""
-48,"TEXT_CLSTAN000_00105_RANDALL_000_1","Have you decided to join the Leatherworkers' Guild?"
-49,"TEXT_CLSTAN000_00105_RANDALL_000_2","Regrettable...though I am pleased to see the gravity of the decision is not lost on you."
-50,"TEXT_CLSTAN000_00105_RANDALL_000_3","Few are resolute enough to work with leather, knowing full well the source."
-51,"TEXT_CLSTAN000_00105_RANDALL_000_4","Very well. I invite you to speak with Guildmaster Geva."
-52,"TEXT_CLSTAN000_00105_RANDALL_000_5","She is a brilliant artisan, personally responsible for the creation of countless Fen–Yll products. You have doubtless heard her name before."
-53,"TEXT_CLSTAN000_00105_RANDALL_000_6","The guildmaster's patterns are uniformly elegant, and with them even novice craftsmen can cut their materials with minimal waste."
-54,"TEXT_CLSTAN000_00105_RANDALL_000_7","It is for her to decide if you are fit to join us."
-55,"TEXT_CLSTAN000_00105_RANDALL_000_8","She can be found in the work area within. Present yourself to her and do not waver in your determination."
-56,"TEXT_CLSTAN000_00105_GEVA_000_10","So you wish to become a leatherworker?"
-57,"TEXT_CLSTAN000_00105_GEVA_000_11","If you've spoken with Randall, then you've been told what it means to work with leather─the weight you must carry, the responsibility you must bear."
-58,"TEXT_CLSTAN000_00105_GEVA_000_12","Not just to the elementals, mind you, but also to the guild. Our craftsmanship is unrivaled, and each member is expected to live up to that reputation."
-59,"TEXT_CLSTAN000_00105_GEVA_000_13","Once you join, there is no turning back. If you dishonor us, I shall flay you myself and make a chocobo saddle from your hide."
-60,"TEXT_CLSTAN000_00105_GEVA_000_14","Will you swear to uphold our traditions and be the best leatherworker you can be?"
-61,"TEXT_CLSTAN000_00105_Q1_000_1","Swear to uphold the traditions of the Leatherworkers' Guild?"
-62,"TEXT_CLSTAN000_00105_A1_000_1","Yes"
-63,"TEXT_CLSTAN000_00105_A1_000_2","No"
-64,"TEXT_CLSTAN000_00105_GEVA_000_15","A shame. You might have made a halfway decent leatherworker─or a serviceable saddle at worst."
-65,"TEXT_CLSTAN000_00105_GEVA_000_16","Very well, you may learn our craft within these walls..."
-66,"TEXT_CLSTAN000_00105_GEVA_000_17","...though you seem ill equipped to do even that."
-67,"TEXT_CLSTAN000_00105_GEVA_000_18","I will give you a head knife to help you on your way, but the rest is up to you."
-68,"TEXT_CLSTAN000_00105_GEVA_000_19","Do not presume that your association with us means your work will bear the Fen–Yll name. Until you prove yourself worthy, you will not be permitted to so much as <Emphasis>touch</Emphasis> a Fen–Yll product, much less craft one."
-69,"TEXT_CLSTAN000_00105_GEVA_000_20","Now then, if we're to continue with your initiation, you'll need to put that knife in your hand first. Talk to me when you're ready to begin."
+48,"TEXT_CLSTAN000_00105_RANDALL_000_1","我が「革細工師ギルド」に入門して、
+革細工を学ぶ覚悟が決まったということですね？"
+49,"TEXT_CLSTAN000_00105_RANDALL_000_2","まだ覚悟ができていない、と……。
+ええ、ええ、しっかりとお悩みください。"
+50,"TEXT_CLSTAN000_00105_RANDALL_000_3","革細工師は「命」を扱うという言葉の重み、
+よくお考えになった上で決めた方がよいでしょう。
+さもないと、あなたの命が……ぶるるっ。"
+51,"TEXT_CLSTAN000_00105_RANDALL_000_4","かしこまりました。
+では入門の手続きを進めるにあたって
+ギルドマスターの「ゲヴァ」様をご紹介しましょう。"
+52,"TEXT_CLSTAN000_00105_RANDALL_000_5","ゲヴァ様は、革細工に並々ならぬ情熱を抱くお方。
+あの「フェン・イル」にも数多く品を出し、
+エオルゼア中に彼女のファンがいるのです。"
+53,"TEXT_CLSTAN000_00105_RANDALL_000_6","もちろん、革細工師としての腕も超一級。
+彼女の設計した型紙は無駄が少ないことで有名で、
+「ゲヴァパターン」として知られているのです。"
+54,"TEXT_CLSTAN000_00105_RANDALL_000_7","我が「革細工師ギルド」に入門するには、
+ギルドマスターであるゲヴァ様に
+認めていただかねばなりません。"
+55,"TEXT_CLSTAN000_00105_RANDALL_000_8","さあ、作業室に向かい、その意思を伝えてください。
+……無事をお祈りしていますよ。"
+56,"TEXT_CLSTAN000_00105_GEVA_000_10","ふうん……入門希望者、ね。"
+57,"TEXT_CLSTAN000_00105_GEVA_000_11","受付のランダルから聞いてると思うけど、
+革細工師の仕事は「命」を扱うもの。
+その責任は果てしなく重いわ。"
+58,"TEXT_CLSTAN000_00105_GEVA_000_12","エオルゼアに名を成す
+「革細工師ギルド」の一員になるってことは、
+代々ウチの革細工師が背負ってきた責任を受け継ぐってこと。"
+59,"TEXT_CLSTAN000_00105_GEVA_000_13","言っておくけど、指導は容赦しないわよ。
+途中で逃げ出すようなら、そうねぇ
+皮をひんむいてチョコボの鞍にでもしてやるわ。"
+60,"TEXT_CLSTAN000_00105_GEVA_000_14","あんた、本当にウチのギルドでやっていく覚悟はあるの？
+今ならまだ、チョコボの鞍にするのは待ってあげるわよ？"
+61,"TEXT_CLSTAN000_00105_Q1_000_1","革細工師ギルドに入門しますか？"
+62,"TEXT_CLSTAN000_00105_A1_000_1","はい"
+63,"TEXT_CLSTAN000_00105_A1_000_2","いいえ"
+64,"TEXT_CLSTAN000_00105_GEVA_000_15","素直でいいわね。
+じゃあ今すぐそこのドアから帰ってくれる？
+アタシもいちいち相手してられるほどヒマじゃないのよ。"
+65,"TEXT_CLSTAN000_00105_GEVA_000_16","……そう。
+覚悟は決めてきたってことね。
+いいわ、革細工師ギルドへの入門を認めてあげる。"
+66,"TEXT_CLSTAN000_00105_GEVA_000_17","とはいえ、今のあんたはずぶの素人。
+教えるための準備すらできていないって状態よ。"
+67,"TEXT_CLSTAN000_00105_GEVA_000_18","まずはこの「<Sheet(Item,　2416,0)/>」をあげるから
+きちんと装備して「革細工師」らしくなってごらんなさい。"
+68,"TEXT_CLSTAN000_00105_GEVA_000_19","ナイフを装備すれば誰だって「革細工師」になれるわ。
+けどね、ウチの革細工師を名乗っていいのは
+アタシが認めたヤツだけよ。"
+69,"TEXT_CLSTAN000_00105_GEVA_000_20","装備ができたら、アタシに声をかけなさい。
+あんたが口先だけのヤツじゃないか、
+確かめさせてもらうわね。"

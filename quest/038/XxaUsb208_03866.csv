@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_XXAUSB208_03866_SEQ_00","Wheiskaet would like to congratulate you on a job well done."
-1,"TEXT_XXAUSB208_03866_SEQ_01","Wheiskaet applauds your performance, but still refuses to tell you of Titan's secrets. Before you can face the Lord of Crags in battle, you must procure a bottle of the very finest wine from Shamani Lohmani, a former member of the Company. Wheiskaet hands you a note to explain the details of the order, which should save you the trouble of remembering any difficult-to-pronounce wine names."
-2,"TEXT_XXAUSB208_03866_SEQ_02","Shamani Lohmani immediately deduces your intent with his impressive sense of smell. Having explained why he did so, he is now ready to discuss business."
+0,"TEXT_XXAUSB208_03866_SEQ_00","コスタ・デル・ソルのヴェイスケートは、冒険者に最高の酒を用意してほしいようだ。"
+1,"TEXT_XXAUSB208_03866_SEQ_01","ヴェイスケートと話した。次は最高のワインを調達することになった。東ラノシアのワインポートにいる「シャマニ・ローマニ」に、「<Sheet(EventItem,2003011,0)/>」を渡そう。"
+2,"TEXT_XXAUSB208_03866_SEQ_02","シャマニ・ローマニは、視覚以外の感覚を研ぎ澄ますことで、注文票の内容を理解した。もう一度シャマニ・ローマニに話しかけてみよう。"
 3,"TEXT_XXAUSB208_03866_SEQ_03",""
 4,"TEXT_XXAUSB208_03866_SEQ_04",""
 5,"TEXT_XXAUSB208_03866_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_XXAUSB208_03866_SEQ_21",""
 22,"TEXT_XXAUSB208_03866_SEQ_22",""
 23,"TEXT_XXAUSB208_03866_SEQ_23",""
-24,"TEXT_XXAUSB208_03866_TODO_00","Hand the note to Shamani Lohmani in Wineport."
+24,"TEXT_XXAUSB208_03866_TODO_00","ワインポートのシャマニ・ローマニに<Sheet(EventItem,2003011,0)/>を渡す"
 25,"TEXT_XXAUSB208_03866_TODO_01",""
 26,"TEXT_XXAUSB208_03866_TODO_02",""
 27,"TEXT_XXAUSB208_03866_TODO_03",""
@@ -49,15 +49,37 @@ int32,str,str
 45,"TEXT_XXAUSB208_03866_TODO_21",""
 46,"TEXT_XXAUSB208_03866_TODO_22",""
 47,"TEXT_XXAUSB208_03866_TODO_23",""
-48,"TEXT_XXAUSB208_03866_SYSTEM_100_000","To accept this quest, you must abandon the current main scenario quest. Open the corresponding entry in the journal or duty list and select “Abandon.”"
-49,"TEXT_XXAUSB208_03866_WHEISKAET_000_000","Bravo, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Thanks to you, our guests shall be honored with a marvelous banquet."
-50,"TEXT_XXAUSB208_03866_WHEISKAET_000_001","But what good is an exotic feast without an equally exquisite aperitif?"
-51,"TEXT_XXAUSB208_03866_WHEISKAET_000_002","Luckily, I know just the person to ask. Make your way to Wineport and seek out Shamani Lohmani, another former member of the Company."
-52,"TEXT_XXAUSB208_03866_WHEISKAET_000_003","All you have to do is give him this order slip. He'll take care of the rest."
-53,"TEXT_XXAUSB208_03866_WHEISKAET_000_004","Oh, and if you're wondering if this is merely a ploy to test your patience, I assure you I <Emphasis>do</Emphasis> actually need that wine. And while you're there, give Shamani Lohmani my regards."
-54,"TEXT_XXAUSB208_03866_SHAMANILOHMANI_000_020","...Sweat, grime, and blood. Aye, you reek of blood. An adventurer, unless I am mistaken. What brings you to Wineport?"
-55,"TEXT_XXAUSB208_03866_SHAMANILOHMANI_000_021","An order? Let me guess─a request for the finest vintage I can muster."
-56,"TEXT_XXAUSB208_03866_SHAMANILOHMANI_000_022","<sniff> <sniff> The paper smells of loam and perfume. Costa del Sol. And there is also the─<cough>─unmistakable odor of goblin cheese..."
-57,"TEXT_XXAUSB208_03866_SHAMANILOHMANI_000_023","Yes, Master Gegeruju would not settle for anything less than the best. Dyrstweitz and his crew must be quite busy preparing an exotic feast, hence his decision to rely on an adventurer."
-58,"TEXT_XXAUSB208_03866_SHAMANILOHMANI_000_024","Ah, but perhaps you are confused. This display of deduction was not intended to impress you."
-59,"TEXT_XXAUSB208_03866_SHAMANILOHMANI_000_025","When one loses his vision, he is forced to compensate in other ways. But you've no interest in my affairs─you wish only to discuss the wine, I suspect."
+48,"TEXT_XXAUSB208_03866_SYSTEM_100_000","受注するには、進行中のメインクエストを破棄する必要があります。
+メインコマンドの「コンテンツ情報」から、
+「ジャーナル」を選び、破棄してください。"
+49,"TEXT_XXAUSB208_03866_WHEISKAET_000_000","これで「エオルゼア三大珍味」である……
+「<Sheet(EventItem,2000641,0)/>」「<Sheet(EventItem,2000833,0)/>」
+そして「<Sheet(EventItem,2000864,0)/>」が集まったわけだ。"
+50,"TEXT_XXAUSB208_03866_WHEISKAET_000_001","そして、次はいよいよ最後。
+最初にも言ったとおり、
+晩餐に合う最高のワインを探してもらいたい。"
+51,"TEXT_XXAUSB208_03866_WHEISKAET_000_002","まずは、これまでと同じく、俺の元部下と会ってほしい。
+会うべき元部下の名は「シャマニ・ローマニ」……
+ワインポートで醸造家として働いている。"
+52,"TEXT_XXAUSB208_03866_WHEISKAET_000_003","この「<Sheet(EventItem,2003011,0)/>」を持っていけ。
+ヤツに渡せば、話が通じるはずだ。"
+53,"TEXT_XXAUSB208_03866_WHEISKAET_000_004","……ながながと探し物をさせられて、不満かもしれん。
+だがこれは、蛮神討伐にとっても重要なことなのだ。
+不満を堪えて、最高のワインを探してきてくれ。"
+54,"TEXT_XXAUSB208_03866_SHAMANILOHMANI_000_020","陽と土に祝福されし匂いと……幾多の戦いの匂い。
+……貴方は、冒険者さんですね？
+何か私にご用でしょうか？"
+55,"TEXT_XXAUSB208_03866_SHAMANILOHMANI_000_021","……注文票ですか。
+ああ、封は開けないでください、
+私は目が見えないので、どのみち読めません。"
+56,"TEXT_XXAUSB208_03866_SHAMANILOHMANI_000_022","注文票の内容は……最高のワインの注文ですね。
+ウフフ、なぜわかったかですって？"
+57,"TEXT_XXAUSB208_03866_SHAMANILOHMANI_000_023","封書から香るほのかな「潮の香り」は、
+コスタ・デル・ソルのもの……
+そして、鼻の曲るようなチーズの匂い……。"
+58,"TEXT_XXAUSB208_03866_SHAMANILOHMANI_000_024","依頼主はヴェイスケート副団長ですか？
+そうとなれば、「三大珍味」を使った晩餐に相応しい、
+食前酒用の最高のワイン……そんなところでしょう？"
+59,"TEXT_XXAUSB208_03866_SHAMANILOHMANI_000_025","ウフフ、目が見えないお陰で、
+視覚以外の感覚が、研ぎ澄まされていましてね。
+今や目で見る以上に、世界がよく見えるのですよ。"

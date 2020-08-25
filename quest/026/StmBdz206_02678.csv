@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ206_02678_SEQ_00","Hayama anxiously surveys the seas."
+0,"TEXT_STMBDZ206_02678_SEQ_00","紅玉台場のハヤマは、海を心配そうに眺めているようだ。"
 1,"TEXT_STMBDZ206_02678_SEQ_01",""
 2,"TEXT_STMBDZ206_02678_SEQ_02",""
 3,"TEXT_STMBDZ206_02678_SEQ_03",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_STMBDZ206_02678_SEQ_21",""
 22,"TEXT_STMBDZ206_02678_SEQ_22",""
 23,"TEXT_STMBDZ206_02678_SEQ_23",""
-24,"TEXT_STMBDZ206_02678_TODO_00","Look for the pirate boy."
-25,"TEXT_STMBDZ206_02678_TODO_01","Speak with the pirate boy."
-26,"TEXT_STMBDZ206_02678_TODO_02","Speak with the guardian pirate."
+24,"TEXT_STMBDZ206_02678_TODO_00","海賊の童子を探す"
+25,"TEXT_STMBDZ206_02678_TODO_01","海賊の童子と話す"
+26,"TEXT_STMBDZ206_02678_TODO_02","後見役の海賊と話す"
 27,"TEXT_STMBDZ206_02678_TODO_03",""
 28,"TEXT_STMBDZ206_02678_TODO_04",""
 29,"TEXT_STMBDZ206_02678_TODO_05",""
@@ -49,15 +49,36 @@ int32,str,str
 45,"TEXT_STMBDZ206_02678_TODO_21",""
 46,"TEXT_STMBDZ206_02678_TODO_22",""
 47,"TEXT_STMBDZ206_02678_TODO_23",""
-48,"TEXT_STMBDZ206_02678_HAYAMA_000_000","You! Yes, you! Come here. I need to speak with you."
-49,"TEXT_STMBDZ206_02678_HAYAMA_000_001","I was surveying these waters just now and spied a young pirate boy being attacked by sea monsters. While he made it back to the coast of Sakazuki, they have followed him. I fear he will not last for long without help."
-50,"TEXT_STMBDZ206_02678_HAYAMA_000_002","I know what you are thinking. He is a pirate, so why should I care? Indeed, normally I would not. He is, however, a boy before a pirate and I cannot in good conscience turn a blind eye to a child in danger."
-51,"TEXT_STMBDZ206_02678_HAYAMA_000_003","In informing you of his plight, however, I have already done my part. Whether the boy lives or not is now up to you."
-52,"TEXT_STMBDZ206_02678_HAYAMA_000_004","There is need to report back to me on whether the child survives or not. In informing you of his plight, I have already done my part."
-53,"TEXT_STMBDZ206_02678_LITTLEPIRATES_000_010","What's the big idea!? Who said you could kill my monsters? Now how am I supposed to prove to everyone I am a full-fledged pirate!?"
-54,"TEXT_STMBDZ206_02678_LITTLEPIRATES_000_011","Don't you get it? I was not being chased, rather I was attempting to lure them into this trap. As soon as they got close to these firecrackers─BAM! They were as good as dead."
-55,"TEXT_STMBDZ206_02678_LITTLEPIRATES_000_012","Now because of you, I have to start all over again! <sigh> Could you at least go and tell the pirate watching me from up there that I will be late to return?"
-56,"TEXT_STMBDZ206_02678_PIRATES_000_020","Aye, friend. I saw everything─you rescued our boy. Thank you for that."
-57,"TEXT_STMBDZ206_02678_PIRATES_000_021","You were sent at the behest of a Ruby Price soldier? Well, isn't that something. Such a compassionate gesture must be repaid in kind."
-58,"TEXT_STMBDZ206_02678_PIRATES_000_022","I will find a way to send him a token of our gratitude. And, of course, we must give you something for your help, as well."
-59,"TEXT_STMBDZ206_02678_PIRATES_000_023","The boy is still learning and tends to bite off more than he can chew. Earlier he baited far too many beasts to handle alone. Had you not been there, he would have severely injured himself."
+48,"TEXT_STMBDZ206_02678_HAYAMA_000_000","貴様、いつぞやの旅人ではないか。
+ちょうどよい、話を聞いていけ。"
+49,"TEXT_STMBDZ206_02678_HAYAMA_000_001","先ほど海を眺めていたら、向こうの浅瀬で、
+なにやら生意気そうな童子が、魔物に襲われておったのだ。
+サカズキ島の方へ逃げていったが、助けが来る気配もない。"
+50,"TEXT_STMBDZ206_02678_HAYAMA_000_002","……防人たる俺が、海賊の童子を心配するいわれもないのだが、
+見殺しにしたとあっては、寝覚めが悪い。
+前にも話したが、使命がある故、俺はここを離れられん。"
+51,"TEXT_STMBDZ206_02678_HAYAMA_000_003","貴様、ちょっと行って見てこい。
+「海賊の童子」は、サカズキ島の方向へ逃げていった。
+報告はいらん、海賊がどうなろうと知ったことではないからな。"
+52,"TEXT_STMBDZ206_02678_HAYAMA_000_004","「海賊の童子」は、サカズキ島に逃げていった。
+貴様、ちょっと行って見てこい。
+報告はいらん、海賊がどうなろうと知ったことではないからな。"
+53,"TEXT_STMBDZ206_02678_LITTLEPIRATES_000_010","なにすんだよ、<If(PlayerParameter(4))>姉ちゃん<Else/>兄ちゃん</If>！
+一人前だって、島のみんなに証明できるとこだったのに！"
+54,"TEXT_STMBDZ206_02678_LITTLEPIRATES_000_011","追われてたんじゃなくて、罠に誘い込んだんだよ。
+この特製の癇癪玉を使えば、力なんかなくても、
+魔物をやっつけられるんだ！"
+55,"TEXT_STMBDZ206_02678_LITTLEPIRATES_000_012","あーあ、いい感じに岩陰まで追い込んだのになぁ。
+もう一回挑戦するから、帰るのが遅くなるって、
+砦から見守ってる海賊に伝えておいてよ。"
+56,"TEXT_STMBDZ206_02678_PIRATES_000_020","お前さん、さっきうちのボウズを助けてくれたろ。
+心配かけちまったようで、すまないね。"
+57,"TEXT_STMBDZ206_02678_PIRATES_000_021","防人からの依頼とは、珍しいこともあったもんだ。
+クガネを守ることを至上の任務にしてる奴らが、
+わざわざ人に頼むなんて、変わったというか、親切な奴だな。"
+58,"TEXT_STMBDZ206_02678_PIRATES_000_022","奴らにも矜恃があるだろうから、
+それとわからない形で、後で礼でも送ることにするよ。
+アンタも、ボウズの件で改めて礼を言わせてくれ。"
+59,"TEXT_STMBDZ206_02678_PIRATES_000_023","あいつはまだ若いから、加減ってもんを知らなくてな。
+魔物を集めすぎて、下手すりゃ怪我するところだった。
+ありがとうな、旅の人。"

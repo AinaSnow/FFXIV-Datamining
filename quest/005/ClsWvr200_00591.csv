@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSWVR200_00591_SEQ_00","Redolent Rose has a momentous task in mind for you."
-1,"TEXT_CLSWVR200_00591_SEQ_01","The guildmaster believes you are finally ready to undertake your first Sunsilk commission. Your client awaits you outside Sunsilk Tapestries on the Steps of Nald."
-2,"TEXT_CLSWVR200_00591_SEQ_02","Your client, a wealthy Lalafell named Mamajaru, bids you make a materia-enhanced cotton acton that will not hinder his training in the gladiatorial arts. However, he neglects to specify the type of materia he needs. Consult with the guildmaster to determine the best course of action."
-3,"TEXT_CLSWVR200_00591_SEQ_03","The guildmaster expresses doubt as to Mamajaru's ability to distinguish between different types of materia, and suggests you use whichever kind comes readily to hand. He adds that if you wish to learn more about materia, you should seek the counsel of a scholar who dwells in a camp near the Bonfire in central Thanalan. Prepare the materia-enhanced cotton acton and deliver it to Redolent Rose."
-4,"TEXT_CLSWVR200_00591_SEQ_04","In what apparently passes for a show of approval, Mamajaru takes your acton and departs with nary a word of thanks. Redolent Rose, however, is happy to praise your work, adding that it is a weaver's task to make the world see the client as the client wishes to be seen─even if that wish has no basis in reality.
+0,"TEXT_CLSWVR200_00591_SEQ_00","裁縫師ギルドのレドレント・ローズは冒険者に仕事を与えたいようだ。"
+1,"TEXT_CLSWVR200_00591_SEQ_01","冒険者にぴったりの仕事があるという。まずは、「サンシルク」に行き、注文主の「ママジャル」から詳しい注文内容を聞こう。"
+2,"TEXT_CLSWVR200_00591_SEQ_02","ママジャルが欲しいのは「マテリア」という付加価値のついたアクトンのようだ。一旦「裁縫師ギルド」に戻り「レドレント・ローズ」と相談しよう。"
+3,"TEXT_CLSWVR200_00591_SEQ_03","レドレント・ローズと相談した。ママジャルは付加価値のついた服が欲しいそうだ。どんな属性でもよいので「マテリア」のついた「<Sheet(Item,3039,0)/>」を作って「裁縫師ギルド」の「レドレント・ローズ」に納品しよう。マテリアについてわからない場合は、中央ザナラーンの「狼煙の丘」で詳しい職人にきいてみよう。材料となる素材は、自力で入手するか、「サファイアアベニュー国際市場」のマーケットボードで探そう。"
+4,"TEXT_CLSWVR200_00591_SEQ_04","冒険者の納品した<Sheet(Item,3039,0)/>はママジャルのお気に召したようだ。お客の欠点をうまく覆い隠して、魅力的な紳士に見せるのが洋服の役目だとレドレント・ローズは語る。ママジャルの修行ははかどるのだろうか……。
 
-※The next weaver quest will be available from Redolent Rose upon reaching level 25."
+※裁縫師のレベルが25以上になると、レドレント・ローズから次の裁縫師クエストを受注することができます。"
 5,"TEXT_CLSWVR200_00591_SEQ_05",""
 6,"TEXT_CLSWVR200_00591_SEQ_06",""
 7,"TEXT_CLSWVR200_00591_SEQ_07",""
@@ -27,9 +27,9 @@ int32,str,str
 21,"TEXT_CLSWVR200_00591_SEQ_21",""
 22,"TEXT_CLSWVR200_00591_SEQ_22",""
 23,"TEXT_CLSWVR200_00591_SEQ_23",""
-24,"TEXT_CLSWVR200_00591_TODO_00","Speak with Mamajaru on the Steps of Nald."
-25,"TEXT_CLSWVR200_00591_TODO_01","Speak with Redolent Rose."
-26,"TEXT_CLSWVR200_00591_TODO_02","Deliver a materia-enhanced cotton acton to Redolent Rose."
+24,"TEXT_CLSWVR200_00591_TODO_00","サンシルクのママジャルと話す"
+25,"TEXT_CLSWVR200_00591_TODO_01","裁縫師ギルドのレドレント・ローズと話す"
+26,"TEXT_CLSWVR200_00591_TODO_02","レドレント・ローズにマテリア付きの<Sheet(Item,3039,0)/>を渡す"
 27,"TEXT_CLSWVR200_00591_TODO_03",""
 28,"TEXT_CLSWVR200_00591_TODO_04",""
 29,"TEXT_CLSWVR200_00591_TODO_05",""
@@ -51,30 +51,64 @@ int32,str,str
 45,"TEXT_CLSWVR200_00591_TODO_21",""
 46,"TEXT_CLSWVR200_00591_TODO_22",""
 47,"TEXT_CLSWVR200_00591_TODO_23",""
-48,"TEXT_CLSWVR200_00591_REDOLENTROSE_000","Your time has come, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Today you will work on behalf of Sunsilk Tapestries."
-49,"TEXT_CLSWVR200_00591_REDOLENTROSE_001","Your client is heir to a vast fortune─a <Emphasis>rare</Emphasis> sort of individual in this city, I know."
-50,"TEXT_CLSWVR200_00591_REDOLENTROSE_002","Like many men of means, ever does he seek new epicurean delights. I can only imagine what he desires this time."
-51,"TEXT_CLSWVR200_00591_REDOLENTROSE_003","I thought it best for you to go and meet with the man yourself, so I've taken the liberty of scheduling an appointment for you at the Sunsilk Tapestries shop on the Steps of Nald. As I'm sure you're aware, that's on the other side of the city─and men like Mamajaru are not fond of waiting. In short: <Emphasis>hurry</Emphasis>."
-52,"TEXT_CLSWVR200_00591_MAMAJARU_010","No, I can <Emphasis>not</Emphasis> spare a gil, you disgusting parasite! Really, if your kind put <Emphasis>half</Emphasis> as much effort into finding a job as sponging off upstanding─"
-53,"TEXT_CLSWVR200_00591_MAMAJARU_011","...Oh, the weaver. Ahem. 'Twas a reflex. I have had to fend off far too many beggars this day."
-54,"TEXT_CLSWVR200_00591_MAMAJARU_012","I should warn you that I have very specific requirements which must needs be fulfilled to the letter. I but recently discovered that I possess a prodigious talent for the gladiatorial arts, and am reliably informed that only the most expertly crafted equipment will allow me to realize my full potential."
-55,"TEXT_CLSWVR200_00591_MAMAJARU_013","I want a cotton acton─but not just any! It must be enhanced with materia. The ordinary kind is fit to be worn only by peasants."
-56,"TEXT_CLSWVR200_00591_MAMAJARU_014","Understood? Good."
-57,"TEXT_CLSWVR200_00591_MAMAJARU_015","Now then, I believe you have a job to do."
-58,"TEXT_CLSWVR200_00591_REDOLENTROSE_020","Back so soon? Tell me, what would our esteemed client have you make for him?
-...I see. When did materia-enhanced garments become essential for gladiators, I wonder... Mayhap the talents of the exceedingly wealthy differ from those of the rest of us. Yes, that must be the way of it."
-59,"TEXT_CLSWVR200_00591_REDOLENTROSE_021","And you say he didn't even bother to specify what <Emphasis>type</Emphasis> of materia he'd prefer?"
-60,"TEXT_CLSWVR200_00591_REDOLENTROSE_022","Feel free to use any kind─I highly doubt he will be able to tell the difference. Ah, but a question occurs to me: are <Emphasis>you</Emphasis> familiar with materia?"
-61,"TEXT_CLSWVR200_00591_REDOLENTROSE_023","If not, consider paying a visit to the Bonfire in central Thanalan. A goblin scholar resides there who is well versed in the ways of materia. I, meanwhile, am but a simple weaver and wholly <Emphasis>unversed</Emphasis> in the ways of materia, so you can expect no such wisdom from me."
-62,"TEXT_CLSWVR200_00591_REDOLENTROSE_024","Oh, and in case it wasn't obvious, I'm afraid we shan't be able to provide you with all of the necessary materials."
-63,"TEXT_CLSWVR200_00591_REDOLENTROSE_025","I suggest you search the markets. Or you could travel all the way to Vylbrand, I suppose. There's no shortage of dodos there..."
-64,"TEXT_CLSWVR200_00591_REDOLENTROSE_026","I leave the matter in your capable hands, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
-65,"TEXT_CLSWVR200_00591_MAMAJARU_030","I've come for my acton, weaver, and I do not care to be kept waiting."
-66,"TEXT_CLSWVR200_00591_REDOLENTROSE_040","Pray do not keep your honored client waiting any longer than necessary─for both our sakes."
-67,"TEXT_CLSWVR200_00591_REDOLENTROSE_050","Sir, your acton is ready. If you would..."
-68,"TEXT_CLSWVR200_00591_MAMAJARU_051","Well...it appears to be satisfactory. I only hope it will survive my rigorous training regimen."
-69,"TEXT_CLSWVR200_00591_MAMAJARU_052","I shall have one of my manservants deliver the payment on the morrow."
-70,"TEXT_CLSWVR200_00591_REDOLENTROSE_053","...In lieu of your customer's gratitude, allow me to express mine. Thank you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
-71,"TEXT_CLSWVR200_00591_REDOLENTROSE_054","I don't doubt that this has been an unenjoyable experience for you. But remember: while we are under no obligation to respect such clients, we must always be seen to respect their wishes."
-72,"TEXT_CLSWVR200_00591_REDOLENTROSE_055","As I suspect you have begun to realize, appearances are akin to reality in this city. It is for this reason that our work is in such great demand. It is, after all, the weaver's task to make the world see the client as the client wishes to be seen."
-73,"TEXT_CLSWVR200_00591_REDOLENTROSE_056","With that in mind, I must congratulate you on a job well done. When I watched that little turd saunter out of here, I almost mistook him for a gladiator."
+48,"TEXT_CLSWVR200_00591_REDOLENTROSE_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>ちゃん、来たわね！
+今日はとってもお勉強になる依頼があるの。"
+49,"TEXT_CLSWVR200_00591_REDOLENTROSE_001","依頼者はお金持ちの御令息よ。
+普通のお洋服に飽きたみたいで、
+付加価値のある服が欲しいらしいわ。"
+50,"TEXT_CLSWVR200_00591_REDOLENTROSE_002","ちょっとクセのあるお客様だけど、
+腕をあげてきたあなたなら大丈夫！"
+51,"TEXT_CLSWVR200_00591_REDOLENTROSE_003","お客様の名前は「ママジャル」、
+「サンシルク」のお店の近くにいるはずよ。
+まずは細かい注文を本人からきいてちょうだい。"
+52,"TEXT_CLSWVR200_00591_MAMAJARU_010","ママジャルはオレだけど、
+お前みたいな貧乏人がオレに何の用だ？
+オレは忙しいんだ、さっさと話せ。"
+53,"TEXT_CLSWVR200_00591_MAMAJARU_011","……ああ、裁縫師ギルドの職人か、
+オレの服を作れることを光栄に思うんだな。"
+54,"TEXT_CLSWVR200_00591_MAMAJARU_012","才能あふれるオレには、剣術の稽古程度にも
+相応の品質の装備が必要なんだ。
+オレに釣り合う「<Sheet(Item,3039,0)/>」をひとつ作れ。"
+55,"TEXT_CLSWVR200_00591_MAMAJARU_013","言っておくが、ただのアクトンではダメだ、
+庶民の装備と一線を画すため「マテリア」をつけて作れ。
+マテリアくらいないと、装備がオレの才能に吊り合わん。"
+56,"TEXT_CLSWVR200_00591_MAMAJARU_014","わかったら「裁縫師ギルド」に戻って
+「レドレント・ローズ」にさっさと作るよう伝えろ。"
+57,"TEXT_CLSWVR200_00591_MAMAJARU_015","オレはお前のような貧乏人と違って
+忙しい身なんだからな。"
+58,"TEXT_CLSWVR200_00591_REDOLENTROSE_020","おかえりなさい、
+ママジャルぼっちゃまのご注文は何だった？
+「マテリア」のついた「<Sheet(Item,3039,0)/>」ね。"
+59,"TEXT_CLSWVR200_00591_REDOLENTROSE_021","ただ単純に人と違ったものが欲しいだけだから
+マテリアの効果は何でもいいみたいね。"
+60,"TEXT_CLSWVR200_00591_REDOLENTROSE_022","マテリアを使ったことはある？
+もし、マテリアについてわからないことがあったら
+中央ザナラーンに行ってみるといいわ。"
+61,"TEXT_CLSWVR200_00591_REDOLENTROSE_023","「狼煙の丘」に、とっても詳しい職人が住んでるの。
+彼らに聞けば、マテリアの使い方がわかるはずよ。"
+62,"TEXT_CLSWVR200_00591_REDOLENTROSE_024","そうそう、マテリア以外の材料にも注意が必要ね。
+ギギマから買えないものもあるから、
+調達がちょっと大変よ。"
+63,"TEXT_CLSWVR200_00591_REDOLENTROSE_025","サファイアアベニュー国際市場の、
+「マーケットボード」を利用するのもひとつの手かしら。
+ウルダハ以外で採集された素材も売られているの。"
+64,"TEXT_CLSWVR200_00591_REDOLENTROSE_026","さあ、あなたの手で付加価値のたっぷりついた
+「<Sheet(Item,3039,0)/>」を作ってらっしゃい。"
+65,"TEXT_CLSWVR200_00591_MAMAJARU_030","オレのためにさっさと「<Sheet(Item,3039,0)/>」を作れ！
+「マテリア」がついていないと
+受け取らないからな！"
+66,"TEXT_CLSWVR200_00591_REDOLENTROSE_040","どう？　「マテリア」のついた「<Sheet(Item,3039,0)/>」はできた？"
+67,"TEXT_CLSWVR200_00591_REDOLENTROSE_050","早速ママジャルぼっちゃまに着てもらいましょうか。"
+68,"TEXT_CLSWVR200_00591_MAMAJARU_051","ふむ……悪くない出来だな。
+もっとも、才能あふれるオレには修行着程度にしかならんが。"
+69,"TEXT_CLSWVR200_00591_MAMAJARU_052","代金はあとで使用人に届けさせる。
+これはもらっていくぞ。"
+70,"TEXT_CLSWVR200_00591_REDOLENTROSE_053","これであなたのお仕事は完了ね。
+ふふ……ちょっと大変だったかしら。"
+71,"TEXT_CLSWVR200_00591_REDOLENTROSE_054","でもね、裁縫師にとっては
+欠点が大きい依頼者ほどおもしろいお客なのよ。"
+72,"TEXT_CLSWVR200_00591_REDOLENTROSE_055","彼らの欠点をうまく覆い隠して
+魅力的な紳士に見せるのがお洋服の役目なの。"
+73,"TEXT_CLSWVR200_00591_REDOLENTROSE_056","あなたの作った服を着たママジャルぼっちゃまは
+すご技を使う剣士に見えたわよ。
+……修行がはかどるといいんだけど。"

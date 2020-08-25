@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB312_00853_SEQ_00","The maidservant P'ebaloh comes to you for assistance, for her own fighting days are long past."
-1,"TEXT_GAIUSB312_00853_SEQ_01","A mysterious monstrosity has been spotted on the beach. Proceed to the spot and slay three of the pugils that seem to flock to it."
-2,"TEXT_GAIUSB312_00853_SEQ_02","A ripening carcass has been drawing the pugils to the area. Haul away the monster banquet, and all shall be well."
-3,"TEXT_GAIUSB312_00853_SEQ_03","You have hauled the carcass away. Report to P'ebaloh, and try to stay downwind of her."
-4,"TEXT_GAIUSB312_00853_SEQ_04","You speak to P'ebaloh and discover that groundskeepers have only recently tidied the beach. Dangerous visitors clearly grow more commonplace."
+0,"TEXT_GAIUSB312_00853_SEQ_00","コスタ・デル・ソルの執事ペ・エバローは、片を付けてほしいことがあるようだ。"
+1,"TEXT_GAIUSB312_00853_SEQ_01","浜辺の先端で気味の悪い魚が目撃されたらしい。コスタ・デル・ソルの浜辺へ行って、「スニッパーの遺骸」に群がる怪魚を3体討伐しよう。"
+2,"TEXT_GAIUSB312_00853_SEQ_02","怪魚の正体は<Sheet(BNpcName,642,0)/>だった。原因となった「スニッパーの遺骸」を除去しよう。"
+3,"TEXT_GAIUSB312_00853_SEQ_03","スニッパーの遺骸を除去した。コスタ・デル・ソルの「ペ・エバロー」に報告しよう。"
+4,"TEXT_GAIUSB312_00853_SEQ_04","ペ・エバローに報告した。<Sheet(BNpcName,642,0)/>は、浜辺の清掃が行き届かなかったために現れたようだ。"
 5,"TEXT_GAIUSB312_00853_SEQ_05",""
 6,"TEXT_GAIUSB312_00853_SEQ_06",""
 7,"TEXT_GAIUSB312_00853_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_GAIUSB312_00853_SEQ_21",""
 22,"TEXT_GAIUSB312_00853_SEQ_22",""
 23,"TEXT_GAIUSB312_00853_SEQ_23",""
-24,"TEXT_GAIUSB312_00853_TODO_00","Slay the pugils."
-25,"TEXT_GAIUSB312_00853_TODO_01","Remove the carcass."
-26,"TEXT_GAIUSB312_00853_TODO_02","Report to P'ebaloh."
+24,"TEXT_GAIUSB312_00853_TODO_00","スニッパーの遺骸に群がる怪魚を討伐"
+25,"TEXT_GAIUSB312_00853_TODO_01","スニッパーの遺骸を除去"
+26,"TEXT_GAIUSB312_00853_TODO_02","ペ・エバローに報告"
 27,"TEXT_GAIUSB312_00853_TODO_03",""
 28,"TEXT_GAIUSB312_00853_TODO_04",""
 29,"TEXT_GAIUSB312_00853_TODO_05",""
@@ -49,10 +49,18 @@ int32,str,str
 45,"TEXT_GAIUSB312_00853_TODO_21",""
 46,"TEXT_GAIUSB312_00853_TODO_22",""
 47,"TEXT_GAIUSB312_00853_TODO_23",""
-48,"TEXT_GAIUSB312_00853_PEBALOH_000_000","Good <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>evening<Else/>morning</If><Else/><If(LessThan(PlayerParameter(11),17))>day<Else/>evening</If></If>, <If(PlayerParameter(4))>ma'am<Else/>sir</If>, a word if I may. A visiting danseuse spotted strange fish on the beach and came screaming back to the house. She is a level-headed young person, so I fear 'tis no vapors."
-49,"TEXT_GAIUSB312_00853_PEBALOH_000_001","The beach is no place for any frolics until the truth is ascertained. I turn to you once again. May we trouble you to check the beach?"
-50,"TEXT_GAIUSB312_00853_DUMMY_000_010",""
-51,"TEXT_GAIUSB312_00853_DUMMY_000_020",""
-52,"TEXT_GAIUSB312_00853_PEBALOH_000_030","Pugils, on the beaches of Costa del Sol! We live in strange times. The carcass must have drifted ashore, for it seems to have been dead longer than a day or two, and that is when the beach was last tidied by the keepers."
-53,"TEXT_GAIUSB312_00853_PEBALOH_000_031","Thank you, <If(PlayerParameter(4))>ma'am<Else/>sir</If>. You need not stay downwind─I have smelled that smell before. We must step up the groundskeeping, I fear. Master Gegeruju is likely to have one of his ideas otherwise."
-54,"TEXT_GAIUSB312_00853_POP_MESSAGE_000","You sense amphibious aggression nearby! "
+48,"TEXT_GAIUSB312_00853_PEBALOH_000_000","先ほど、踊り子の娘が悲鳴をあげて戻って参りまして。
+なんでも……浜辺の先端で、
+「スニッパーの遺骸」に群がる、気味の悪い魚を見たとか。"
+49,"TEXT_GAIUSB312_00853_PEBALOH_000_001","冒険者さんには、頼りきりで申し訳ないのですが……
+踊り子の娘たちが安心できるように、
+きっちり片を付けてきてはいただけませんか。"
+50,"TEXT_GAIUSB312_00853_DUMMY_000_010","（指定地点のレクトにふれるとプジルが３匹ＰＯＰ、倒す）"
+51,"TEXT_GAIUSB312_00853_DUMMY_000_020","（レクトの中心にある生き物の死体にアクセスして除去）"
+52,"TEXT_GAIUSB312_00853_PEBALOH_000_030","……気味の悪い魚とは、<Sheet(BNpcName,642,0)/>だったのですね。
+スニッパーの遺骸は、おそらく流れ着いたものでしょう。
+どうやら、清掃に不備があったようですね……。"
+53,"TEXT_GAIUSB312_00853_PEBALOH_000_031","わたくしどもの手抜かりで、お手数をおかけしました。
+子猫ちゃんが遊んでくれないと拗ねていたゲゲルジュ様も、
+きっとお喜びになることでしょう。"
+54,"TEXT_GAIUSB312_00853_POP_MESSAGE_000","敵の気配を感じた！！"

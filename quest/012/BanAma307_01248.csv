@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANAMA307_01248_SEQ_00","Yadovv Gah would burn the heart out of his enemies."
-1,"TEXT_BANAMA307_01248_SEQ_01","It is tradition for Amalj'aa to be buried with their weapons, for they are warriors in death as well as in life. Conversely, it is considered sacrilege for the weapons of the dead to be removed from their graves. Yadovv Gah has already seen to that dark deed; all that remains is for you to place the stolen weapons on display in Zahar'ak and show the Flamefangs that their fallen brothers have been disgraced."
-2,"TEXT_BANAMA307_01248_SEQ_02","As the cries of the Flamefangs echo in your ears, you realize that your monuments to their misery have achieved the desired effect. Report your success to Yadovv Gah."
-3,"TEXT_BANAMA307_01248_SEQ_03","Recognizing that others may find his methods distasteful, Yadovv Gah asserts that by breaking the spirits of his sworn enemies, he ensures that they are less like to seek vengeance. Should his strategy prove effective, the conflict between the Brotherhood and the Flamefangs may end more quickly than anticipated."
+0,"TEXT_BANAMA307_01248_SEQ_00","灰の陣営のヤドヴ・ガーは、炎牙衆の士気を挫きたいようだ。"
+1,"TEXT_BANAMA307_01248_SEQ_01","ヤドヴ・ガーの依頼を受けた。ザハラク戦陣にある5箇所の「<Sheet(EObj,2003205,0)/>」に「<Sheet(EventItem,2001194,0)/>」を突き刺そう。また、敵のアマルジャ族に武器を刺すことを妨害される可能性があるらしい。現れた「<Sheet(BNpcName,2309,0)/>」を討伐しよう。"
+2,"TEXT_BANAMA307_01248_SEQ_02","<Sheet(EObj,2003205,0)/>に<Sheet(EventItem,2001194,0)/>を突き刺した。灰の陣営の「ヤドヴ・ガー」に報告しよう。"
+3,"TEXT_BANAMA307_01248_SEQ_03","ヤドヴ・ガーに報告した。冒険者が<Sheet(EObj,2003205,0)/>に武器を突き刺したことで、炎牙衆の士気を挫くことができたようだ。彼はきたる炎牙衆との決戦に向けて、闘志を燃やしているらしい。またの機会に協力しよう。"
 4,"TEXT_BANAMA307_01248_SEQ_04",""
 5,"TEXT_BANAMA307_01248_SEQ_05",""
 6,"TEXT_BANAMA307_01248_SEQ_06",""
@@ -25,8 +25,9 @@ int32,str,str
 21,"TEXT_BANAMA307_01248_SEQ_21",""
 22,"TEXT_BANAMA307_01248_SEQ_22",""
 23,"TEXT_BANAMA307_01248_SEQ_23",""
-24,"TEXT_BANAMA307_01248_TODO_00","<If(LessThan(IntegerParameter(1),IntegerParameter(3)))>Make monuments with the stolen weapons in Zahar'ak.<Else/>Make the final monument in Zahar'ak.</If>"
-25,"TEXT_BANAMA307_01248_TODO_01","Report to Yadovv Gah."
+24,"TEXT_BANAMA307_01248_TODO_00","<If(LessThan(IntegerParameter(1),IntegerParameter(3)))>ザハラク戦陣の5箇所の<Sheet(EObj,2003205,0)/>に<Sheet(EventItem,2001194,0)/>を設置<Else/>5つ目の<Sheet(EObj,2003205,0)/>に<Sheet(EventItem,2001194,0)/>を設置し、
+妨害するものが現れれば討伐</If>"
+25,"TEXT_BANAMA307_01248_TODO_01","ヤドヴ・ガーに報告"
 26,"TEXT_BANAMA307_01248_TODO_02",""
 27,"TEXT_BANAMA307_01248_TODO_03",""
 28,"TEXT_BANAMA307_01248_TODO_04",""
@@ -49,14 +50,27 @@ int32,str,str
 45,"TEXT_BANAMA307_01248_TODO_21",""
 46,"TEXT_BANAMA307_01248_TODO_22",""
 47,"TEXT_BANAMA307_01248_TODO_23",""
-48,"TEXT_BANAMA307_01248_YADOVVGAH_000_000","Amalj'aa are warriors in death, as in life. For this reason, it is custom to be buried with one's weapons─"
-49,"TEXT_BANAMA307_01248_YADOVVGAH_000_001",""
-50,"TEXT_BANAMA307_01248_YADOVVGAH_000_002","Weapons such as these, which were taken from the graves of the Flamefangs. Aye, by this sacrilege we have brought great shame upon their fallen. But I would not have it end there."
-51,"TEXT_BANAMA307_01248_YADOVVGAH_000_003","Make monuments of that which was stolen for all Zahar'ak to see! Show that no glory awaits them─in this life or the next."
-52,"TEXT_BANAMA307_01248_YADOVVGAH_000_004",""
-53,"TEXT_BANAMA307_01248_YADOVVGAH_000_010","There is no greater disgrace than that which has been inflicted upon the dead. Should you be taken, you will receive no quarter."
-54,"TEXT_BANAMA307_01248_AMALJAA_000_011","This...this is an abomination!"
-55,"TEXT_BANAMA307_01248_YADOVVGAH_000_020","The Flamefangs weep for their dishonored brothers! They curse us; they hate us. More importantly: they fear us!"
-56,"TEXT_BANAMA307_01248_YADOVVGAH_000_021","Break a warrior's body, and he will thirst for vengeance. Break his spirit, and he will clamor for peace. Judge my methods distasteful if you will─but know that I seek to end this conflict, not prolong it."
-57,"TEXT_BANAMA307_01248_POP_MESSAGE","A mournful cry echoes across the desert... "
-58,"TEXT_BANAMA307_01248_POP_MESSAGE_000_000","The enemy is still about!"
+48,"TEXT_BANAMA307_01248_YADOVVGAH_000_000","ザハラク戦陣のアマルジャ族の虎の子、「炎牙衆」。
+不倶戴天の敵なれど、相手に不足なし！
+我らが武を思い知らし、その高慢な牙をへし折ってやり申す！"
+49,"TEXT_BANAMA307_01248_YADOVVGAH_000_001","(カット)"
+50,"TEXT_BANAMA307_01248_YADOVVGAH_000_002","よろしいか、冒険者殿。
+「<Sheet(EventItem,2001194,0)/>」を、
+ザハラク戦陣の「<Sheet(EObj,2003205,0)/>」に突き刺すべし！"
+51,"TEXT_BANAMA307_01248_YADOVVGAH_000_003","アマルジャにとって、得物は命の次に大事な宝であり申す。
+その遺品を野に捨て晒すは、すなわち最大の羞恥にして屈辱。
+さらにこれを妨害するものあれば、叩き伏せていただきたい！"
+52,"TEXT_BANAMA307_01248_YADOVVGAH_000_004","(カット)"
+53,"TEXT_BANAMA307_01248_YADOVVGAH_000_010","「<Sheet(EventItem,2001194,0)/>」を、
+戦陣の「<Sheet(EObj,2003205,0)/>」に突き刺すべし！
+炎牙衆にとって、これ以上の屈辱はありますまい！"
+54,"TEXT_BANAMA307_01248_AMALJAA_000_011","こ、これは……
+奪われた我らの武具！？"
+55,"TEXT_BANAMA307_01248_YADOVVGAH_000_020","戻られたか、冒険者殿。
+危なげない足取りは、万事うまくいったと見える。
+奴らめ、今ごろ切歯扼腕しているに違いない。円転滑脱！"
+56,"TEXT_BANAMA307_01248_YADOVVGAH_000_021","戦わずして敵を屈するは善の善なる者なり。
+敵の士気を挫き、戦わずして勝つ、これこそが至強の武。
+我らが「灰の一党」の兵法であり申す！"
+57,"TEXT_BANAMA307_01248_POP_MESSAGE","敵の気配を感じた！！"
+58,"TEXT_BANAMA307_01248_POP_MESSAGE_000_000","その行動は出現した敵を倒さないと実行できません"

@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNA301_01602_SEQ_00","Alphinaud is distracted by a call on his linkpearl."
-1,"TEXT_HEAVNA301_01602_SEQ_01","Tataru sends grave tidings from the Holy See. It would seem the Horde gathers once more to renew its assault upon the city. Return to Ishgard, and rendezvous with the receptionist outside Fortemps Manor."
-2,"TEXT_HEAVNA301_01602_SEQ_02","After welcoming you back to Ishgard, Tataru bids you enter Fortemps Manor, where Lord Haurchefant and Count Edmont wait to discuss the looming threat."
-3,"TEXT_HEAVNA301_01602_SEQ_03","Your Ishgardian allies confirm that a Dravanian invasion is indeed imminent. Concerned for your safety, the count urges you to consider seeking sanctuary elsewhere. Speak with Alphinaud, and decide what the Scions will do."
-4,"TEXT_HEAVNA301_01602_SEQ_04","After discussing the matter with Alphinaud, you resolve to do all in your power to aid your friends and allies. Faced with the assembled might of the Horde, however, how can the Holy See's exhausted defenders hope to prevail...?"
+0,"TEXT_HEAVNA301_01602_SEQ_00","砂の家のアルフィノは、冒険者に話があるようだ。"
+1,"TEXT_HEAVNA301_01602_SEQ_01","アルフィノが、タタルから連絡を受けた。ドラゴン族によるイシュガルド再攻撃の予兆があったようだ。イシュガルドのフォルタン伯爵邸付近にいる「タタル」と話そう。"
+2,"TEXT_HEAVNA301_01602_SEQ_02","タタルと話した。屋敷内のオルシュファンから、状況を聞けるようだ。「フォルタン伯爵邸」へ向かおう。"
+3,"TEXT_HEAVNA301_01602_SEQ_03","フォルタン家の人々から、状況を聞いた。エドモン・ド・フォルタン伯爵からは、イシュガルドからの避難も含めて、今後の身の振り方を考えるよう言われた。フォルタン伯爵邸の「アルフィノ」と話そう。"
+4,"TEXT_HEAVNA301_01602_SEQ_04","アルフィノと話した。彼は、皇都を捨てて逃げるようでは、「暁」の再興など夢のまた夢だと言うが……。"
 5,"TEXT_HEAVNA301_01602_SEQ_05",""
 6,"TEXT_HEAVNA301_01602_SEQ_06",""
 7,"TEXT_HEAVNA301_01602_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_HEAVNA301_01602_SEQ_21",""
 22,"TEXT_HEAVNA301_01602_SEQ_22",""
 23,"TEXT_HEAVNA301_01602_SEQ_23",""
-24,"TEXT_HEAVNA301_01602_TODO_00","Speak with Tataru outside Fortemps Manor."
-25,"TEXT_HEAVNA301_01602_TODO_01","Enter Fortemps Manor."
-26,"TEXT_HEAVNA301_01602_TODO_02","Speak with Alphinaud."
+24,"TEXT_HEAVNA301_01602_TODO_00","イシュガルドのタタルと話す"
+25,"TEXT_HEAVNA301_01602_TODO_01","フォルタン伯爵邸に向かう"
+26,"TEXT_HEAVNA301_01602_TODO_02","アルフィノと話す"
 27,"TEXT_HEAVNA301_01602_TODO_03",""
 28,"TEXT_HEAVNA301_01602_TODO_04",""
 29,"TEXT_HEAVNA301_01602_TODO_05",""
@@ -49,43 +49,87 @@ int32,str,str
 45,"TEXT_HEAVNA301_01602_TODO_21",""
 46,"TEXT_HEAVNA301_01602_TODO_22",""
 47,"TEXT_HEAVNA301_01602_TODO_23",""
-48,"TEXT_HEAVNA301_01602_ALPHINAUD_000_000","Tataru? ...Yes, General Raubahn is now in safe hands."
-49,"TEXT_HEAVNA301_01602_ALPHINAUD_000_001","What? ...<Emphasis>Another assault</Emphasis>? Very well. We shall return at once. Pray notify the count of our coming."
-50,"TEXT_HEAVNA301_01602_ALPHINAUD_000_002","It would seem we face another crisis. The Dravanians are preparing to resume their siege of the Holy See."
-51,"TEXT_HEAVNA301_01602_ALPHINAUD_000_003","...Though I am loath to abandon the sultana to her fate, we lack the necessary evidence to act upon Dewlala's claims."
-52,"TEXT_HEAVNA301_01602_ALPHINAUD_000_004","That being the case, I propose we leave Marshal Tarupin and the others to investigate, and return with all haste to Ishgard."
+48,"TEXT_HEAVNA301_01602_ALPHINAUD_000_000","……ああ、タタルか。
+こちらは、無事にラウバーン局長を救出できたよ。"
+49,"TEXT_HEAVNA301_01602_ALPHINAUD_000_001","何ッ、ドラゴン族に動きが！？
+すぐに、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>と戻る。
+フォルタン伯爵には、その旨を伝えてくれ……それでは。"
+50,"TEXT_HEAVNA301_01602_ALPHINAUD_000_002","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、緊急事態だ。
+どうやら、ドラゴン族による皇都再攻撃の予兆があったらしい。"
+51,"TEXT_HEAVNA301_01602_ALPHINAUD_000_003","ナナモ陛下の安否については心配ではあるが、
+情報が少ない状況で、我々にできることは少ない。"
+52,"TEXT_HEAVNA301_01602_ALPHINAUD_000_004","ここは、デュララ女史やピピン少闘将に任せ、
+我々は「イシュガルド」に戻ろう。"
 53,"TEXT_HEAVNA301_01602_ALPHINAUD_000_005","（★未使用／削除予定★）"
-54,"TEXT_HEAVNA301_01602_TATARU_000_010","Ah, there you are! Sorry for cutting your reunion with General Raubahn short."
-55,"TEXT_HEAVNA301_01602_TATARU_000_011","I wouldn't have bothered you, but the city's awash with rumors of another Dravanian attack, and Lord Haurchefant was desperate to get hold of you. Speaking of whom, he and the others are waiting for you inside, so you'd better head in!"
-56,"TEXT_HEAVNA301_01602_TATARU_000_012","We can talk later! Everyone's waiting for you inside!"
-57,"TEXT_HEAVNA301_01602_ALPHINAUD_000_013","Let us hear what the count has to say."
-58,"TEXT_HEAVNA301_01602_HAURCHEFANT_000_014","I believe Mistress Tataru wished a word with you. Pray do not take long, however, as we have much to discuss."
-59,"TEXT_HEAVNA301_01602_EDMONT_000_015","Ah, you are returned..."
-60,"TEXT_HEAVNA301_01602_ARTOIREL_000_016","The hour has come..."
-61,"TEXT_HEAVNA301_01602_EMMANELLAIN_000_017","There you are, old <If(PlayerParameter(4))>girl<Else/>boy</If>! Tell me, do you want the good news first or the bad news? Actually, don't bother. There isn't any good news."
-62,"TEXT_HEAVNA301_01602_PIPPIN_100_017","Pray do not tarry for my father's sake. I will see that he is well looked after. And should we uncover any information on Her Grace's whereabouts, I promise you will be the first to know."
-63,"TEXT_HEAVNA301_01602_DEWLALA_100_018","I have taken charge of matters here. Consider yourself free to tend to other, more pressing tasks."
-64,"TEXT_HEAVNA301_01602_HAURCHEFANT_000_020","My friend! I thank you for answering our call with such alacrity! As I am sure you are now aware, the Dravanians are once more gathering for war."
-65,"TEXT_HEAVNA301_01602_EDMONT_000_021","<If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>, Master Leveilleur─I must apologize for this abrupt summons, but we thought it best to have Mistress Tataru contact you by the most direct means available."
-66,"TEXT_HEAVNA301_01602_ARTOIREL_000_022","When the Observatorium's bells toll, 'tis a warning that cannot be ignored. The Holy See has ordered that we make ready for battle."
-67,"TEXT_HEAVNA301_01602_EMMANELLAIN_000_023","In case you haven't heard, a band of trappers returning from the west claim they saw a cloud of dragons big enough to dim the midday sky!"
-68,"TEXT_HEAVNA301_01602_EDMONT_100_023","Nidhogg's minions gather once more for war..."
-69,"TEXT_HEAVNA301_01602_EDMONT_000_024","But I would not have you take up arms in another of our conflicts. When first you came to Ishgard, I offered you my protection. If I cannot ensure your safety here, I cannot well accept your aid, much less ask for it."
-70,"TEXT_HEAVNA301_01602_EDMONT_000_025","Scions of the Seventh Dawn, you are faced with a choice: to remain in a besieged Ishgard, or seek sanctuary elsewhere. I would not presume to influence your decision, but I must ask that you make it swiftly, lest our enemies force your hand."
-71,"TEXT_HEAVNA301_01602_HAURCHEFANT_000_026","The coming of the Horde spells ruin for Ishgard...but her knights shall fight to the last to shield her citizens from harm!"
-72,"TEXT_HEAVNA301_01602_EDMONT_000_027","I confess, I know not where else you might seek sanctuary, but few places are like to be more perilous than a city under siege."
-73,"TEXT_HEAVNA301_01602_ARTOIREL_000_028","The Observatorium bells have tolled. Either flee this place or make ready for war."
-74,"TEXT_HEAVNA301_01602_EMMANELLAIN_000_029","How many dragons would it take to darken the midday sky, do you think? A thousand? More? Too many, at any rate..."
-75,"TEXT_HEAVNA301_01602_ALPHINAUD_000_030","Though we flee to the ends of the world, 'twould seem that no place in this troubled age is free of strife. Once more the Horde descends upon Ishgard, and once more her weary defenders must take up spear and bow."
+54,"TEXT_HEAVNA301_01602_TATARU_000_010","お帰りなさいでっす！
+急に呼び戻してしまって、すみませんでっす。"
+55,"TEXT_HEAVNA301_01602_TATARU_000_011","すんごい緊急事態らしく、
+フォルタン伯爵から協力要請があったのでっす。
+屋敷内の「オルシュファン」卿から話を聞いてほしいでっす！"
+56,"TEXT_HEAVNA301_01602_TATARU_000_012","すんごい緊急事態らしく、
+フォルタン伯爵から協力要請があったのでっす。
+屋敷内の「オルシュファン」卿から話を聞いてほしいでっす！"
+57,"TEXT_HEAVNA301_01602_ALPHINAUD_000_013","まずは、詳しい話を聞いてからだ。"
+58,"TEXT_HEAVNA301_01602_HAURCHEFANT_000_014","む、表で「タタル」嬢を見かけなかったか？"
+59,"TEXT_HEAVNA301_01602_EDMONT_000_015","おぉ、戻られたか……。"
+60,"TEXT_HEAVNA301_01602_ARTOIREL_000_016","ついに来るべき時が来たか……。"
+61,"TEXT_HEAVNA301_01602_EMMANELLAIN_000_017","こいつは一大事だぜ！
+いや、だから、ほんとに一大事なんだって！"
+62,"TEXT_HEAVNA301_01602_PIPPIN_100_017","義父上のことはお任せを！"
+63,"TEXT_HEAVNA301_01602_DEWLALA_100_018","この場は、ワタクシに任せておきなさい。
+冒険者殿は、貴方にしかできないことをおやりなさいな。"
+64,"TEXT_HEAVNA301_01602_HAURCHEFANT_000_020","我が友よ、よくぞ駆けつけてくれた！
+すでに聞いていると思うが、ドラゴン族に動きがあったのだ。"
+65,"TEXT_HEAVNA301_01602_EDMONT_000_021","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>殿、アルフィノ殿。
+急に呼び戻す形になってすまない。
+緊急事態ゆえ、タタル嬢に無理を言って連絡してもらったのだ。"
+66,"TEXT_HEAVNA301_01602_ARTOIREL_000_022","アドネール占星台より、
+ドラゴン族に皇都再攻撃の動きありと、警鐘が発せられてな。
+これを受け、教皇庁は、臨戦態勢への移行を命じたのだ。"
+67,"TEXT_HEAVNA301_01602_EMMANELLAIN_000_023","皇都の噂好きどもから聞いたんだがよ……。
+ドラヴァニアの空を覆いつくさんばかりの竜の群れを、
+西の方に向かった猟師たちが目撃したそうだぜ！"
+68,"TEXT_HEAVNA301_01602_EDMONT_100_023","……うむ、さらにそれらドラゴン族は、
+「七大天竜」の一翼、邪竜「ニーズヘッグ」配下のものと聞く。"
+69,"TEXT_HEAVNA301_01602_EDMONT_000_024","貴殿らを、我らの戦争に巻き込む訳にはいかん。
+客人として招くと言っておきながら申し訳ないが……
+場合によっては、皇都からの避難を願うことになるだろう。"
+70,"TEXT_HEAVNA301_01602_EDMONT_000_025","「暁」のお三方には、待避先を含めて、
+今後の身の振り方を考えてもらわねばならん。
+すまぬが、早急に結論を出していただけるかな？"
+71,"TEXT_HEAVNA301_01602_HAURCHEFANT_000_026","皇都再攻撃が現実のものとなれば、
+かなりの被害が予想されるだろう……。
+だが、イイ騎士たるもの、民を護りきってみせる！"
+72,"TEXT_HEAVNA301_01602_EDMONT_000_027","貴殿らを、我らの戦争に巻き込む訳にはいかん。
+客人として招くと言っておきながら申し訳ないが……
+場合によっては、皇都からの避難を願うことになるだろう。"
+73,"TEXT_HEAVNA301_01602_ARTOIREL_000_028","アドネール占星台より、
+ドラゴン族に皇都再攻撃の動きありと、警鐘が発せられてな。
+これを受け、教皇庁は、臨戦態勢への移行を命じたのだ。"
+74,"TEXT_HEAVNA301_01602_EMMANELLAIN_000_029","皇都の噂好きどもから聞いたんだがよ……。
+ドラヴァニアの空を覆いつくさんばかりの竜の群れを、
+西の方に向かった猟師たちが目撃したそうだぜ！"
+75,"TEXT_HEAVNA301_01602_ALPHINAUD_000_030","直近の二度に渡る攻撃によって、
+イシュガルドの防衛能力は、著しく低下しているだろう。
+そこに来て、ドラゴン族による皇都再攻撃とは……。"
 76,"TEXT_HEAVNA301_01602_ALPHINAUD_000_031","（★未使用／削除予定★）"
-77,"TEXT_HEAVNA301_01602_ALPHINAUD_000_032","The count would have us seek shelter from this storm, but I, for one, grow tired of running. If we are to shine the light of dawn, we must do so in the sight of our fellow man, not hunkered in a hole."
-78,"TEXT_HEAVNA301_01602_ALPHINAUD_000_033","What say you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>?"
-79,"TEXT_HEAVNA301_01602_Q1_000_000","What say you?"
-80,"TEXT_HEAVNA301_01602_A1_000_001","I would stay and fight."
-81,"TEXT_HEAVNA301_01602_A1_000_002","We cannot stay here."
-82,"TEXT_HEAVNA301_01602_A1_000_003","Hmph."
-83,"TEXT_HEAVNA301_01602_ALPHINAUD_000_040","Then fight we shall! Let it never be said that we abandoned our allies in their hour of need!"
-84,"TEXT_HEAVNA301_01602_ALPHINAUD_000_050","...That is your answer? By the Twelve, how could you─ But, wait. Mayhap remaining in the city would not best serve our friends and allies. Mayhap there is another choice..."
-85,"TEXT_HEAVNA301_01602_PAPASHAN_000_060","Thank you for rescuing General Raubahn. From the bottom of my heart. To behold him now, gaunt and unkempt... It pains me to think of all the hardship he has endured."
-86,"TEXT_HEAVNA301_01602_PAPASHAN_000_061","From the bottom of my heart, thank you for rescuing General Raubahn."
-87,"TEXT_HEAVNA301_01602_TATARU_000_062","What will become of this place...and us?"
+77,"TEXT_HEAVNA301_01602_ALPHINAUD_000_032","フォルタン伯爵は、我々に避難を勧めてはくれたが……。
+ここで逃げているようでは、
+「暁」の再興など、夢のまた夢だと私は思うのだ。"
+78,"TEXT_HEAVNA301_01602_ALPHINAUD_000_033","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、君はどう思う？"
+79,"TEXT_HEAVNA301_01602_Q1_000_000","皇都再攻撃に対して、どうすべき？"
+80,"TEXT_HEAVNA301_01602_A1_000_001","イシュガルドのために戦うべき"
+81,"TEXT_HEAVNA301_01602_A1_000_002","イシュガルドから避難すべき"
+82,"TEXT_HEAVNA301_01602_A1_000_003","答えない"
+83,"TEXT_HEAVNA301_01602_ALPHINAUD_000_040","そう言ってくれると思っていたよ！
+やはり、恩人や盟友たちを見捨てることはできない！
+我々として、できるかぎりのことをしよう！"
+84,"TEXT_HEAVNA301_01602_ALPHINAUD_000_050","馬鹿な……君らしくもない！
+いや……皇都に留まることだけが、戦い方ではないと。
+何か別の方法があるということか……！？"
+85,"TEXT_HEAVNA301_01602_PAPASHAN_000_060","よくぞ、ラウバーン殿を救い出してくださった。
+心より感謝しますぞ……。
+しかし、局長のあの姿……なんと痛ましい……。"
+86,"TEXT_HEAVNA301_01602_PAPASHAN_000_061","よくぞ、ラウバーン殿を救い出してくださった。
+心より感謝しますぞ……。"
+87,"TEXT_HEAVNA301_01602_TATARU_000_062","……本当に、皇都が戦場になってしまうのでっすか？"

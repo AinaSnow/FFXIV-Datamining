@@ -1,8 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKZB003_03381_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-The guard quartermaster seems a bit overwhelmed."
+0,"TEXT_LUCKZB003_03381_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+ジョッブ砦にいる衛兵団の補給担当官は、復興の準備に手間取っているようだ。"
 1,"TEXT_LUCKZB003_03381_SEQ_01",""
 2,"TEXT_LUCKZB003_03381_SEQ_02",""
 3,"TEXT_LUCKZB003_03381_SEQ_03",""
@@ -26,10 +26,10 @@ The guard quartermaster seems a bit overwhelmed."
 21,"TEXT_LUCKZB003_03381_SEQ_21",""
 22,"TEXT_LUCKZB003_03381_SEQ_22",""
 23,"TEXT_LUCKZB003_03381_SEQ_23",""
-24,"TEXT_LUCKZB003_03381_TODO_00","Speak with the guard quartermaster."
-25,"TEXT_LUCKZB003_03381_TODO_01","Search for usable supplies at the Northern Staging Point."
-26,"TEXT_LUCKZB003_03381_TODO_02","Deliver the knobbly cane to the guard quartermaster."
-27,"TEXT_LUCKZB003_03381_TODO_03","Speak with the guard quartermaster."
+24,"TEXT_LUCKZB003_03381_TODO_00","衛兵団の補給担当官と話す"
+25,"TEXT_LUCKZB003_03381_TODO_01","北の集結地で物資を確認する"
+26,"TEXT_LUCKZB003_03381_TODO_02","衛兵団の補給担当官に<Sheet(EventItem,2002854,0)/>を渡す"
+27,"TEXT_LUCKZB003_03381_TODO_03","衛兵団の補給担当官と話す"
 28,"TEXT_LUCKZB003_03381_TODO_04",""
 29,"TEXT_LUCKZB003_03381_TODO_05",""
 30,"TEXT_LUCKZB003_03381_TODO_06",""
@@ -50,21 +50,45 @@ The guard quartermaster seems a bit overwhelmed."
 45,"TEXT_LUCKZB003_03381_TODO_21",""
 46,"TEXT_LUCKZB003_03381_TODO_22",""
 47,"TEXT_LUCKZB003_03381_TODO_23",""
-48,"TEXT_LUCKZB003_03381_SUPPLYOFFICER03881_000_000","I hate to be abrupt, but─can you help me?"
-49,"TEXT_LUCKZB003_03381_SUPPLYOFFICER03881_000_001","Thank y─ Oh goodness, it's you! The one who turned the tide at Holminster Switch! Well, I feel doubly bad about this now, but I have little choice. I need any help that I can get."
-50,"TEXT_LUCKZB003_03381_SUPPLYOFFICER03881_100_001","Thanks to the eaters, everything not in ruins is in disarray, and I'm working to determine what materiel we have, but that requires sifting through it all! And if I don't know what we <Emphasis>need</Emphasis> it will be fruitless, as I won't be able to order, and─"
-51,"TEXT_LUCKZB003_03381_SUPPLYOFFICER03881_000_002","Ahem. In short, I need you to meet me at the Northern Staging Point. Please."
-52,"TEXT_LUCKZB003_03381_SUPPLYOFFICER03881_000_010","We'll be assessing the situation out here. Though it may save time if you were to first tell me what destruction you personally witnessed?"
-53,"TEXT_LUCKZB003_03381_SUPPLYOFFICER03881_000_011","Many structures burned or otherwise damaged in the fighting... Yes, I thought as much. I may look into procuring tents so that the laborers come to assist in the reconstruction need not journey back and forth each day─that ought to save time."
-54,"TEXT_LUCKZB003_03381_SUPPLYOFFICER03881_000_012","I'd be curious to know whether anything out here actually has survived. Might I ask you to survey the northern area and tell me if you find any materiel or other supplies that might still be fit for use?"
-55,"TEXT_LUCKZB003_03381_SUPPLYOFFICER03881_000_013","Thank you. Please meet me here when you've finished."
-56,"TEXT_LUCKZB003_03381_SYSTEM_000_020","You pick up the cane, and see that it has been weathered by what must have been many years of use."
-57,"TEXT_LUCKZB003_03381_SYSTEM_000_021","You peer into the crate to find that it, fortuitously, contains several undamaged tents."
-58,"TEXT_LUCKZB003_03381_SYSTEM_000_022","You examine the rack, and notice that many of the weapons that remain are, as yet, undamaged."
-59,"TEXT_LUCKZB003_03381_SUPPLYOFFICER03881_000_030","Finished your inspection, have you? What did you find?"
-60,"TEXT_LUCKZB003_03381_SUPPLYOFFICER03881_000_031","Oh, shepherds around here use this sort of cane. It must belong to one of the residents. Or former residents, now, I suppose..."
-61,"TEXT_LUCKZB003_03381_SUPPLYOFFICER03881_000_032","We can return it to them, though I imagine they'd rather have their land and livestock back. What else was there?"
-62,"TEXT_LUCKZB003_03381_SUPPLYOFFICER03881_000_033","Good to hear that I shouldn't need to procure any fresh tents. The weapons are less immediately useful, though I will of course have them collected. It seems that I'll primarily need to order tools, as there were none to be found in the areas I checked, either."
-63,"TEXT_LUCKZB003_03381_SUPPLYOFFICER03881_000_034","I very much appreciate your help─this has gone much more swiftly for your presence. Would you accept a small reward? I have a bit of coin stored for just such an occasion back at the fort."
-64,"TEXT_LUCKZB003_03381_SUPPLYOFFICER03881_000_040","And now the real work begins. Fighting off the sin eaters was no small feat, but the task of rebuilding seems almost more daunting."
-65,"TEXT_LUCKZB003_03381_SUPPLYOFFICER03881_000_041","Nothing for it but to grit our teeth and get to it, however. For the sake of everyone in Lakeland."
+48,"TEXT_LUCKZB003_03381_SUPPLYOFFICER03881_000_000","……貴方、ひょっとして、
+ホルミンスターに救援に向かわれたという、
+旅人の方ではありませんか？"
+49,"TEXT_LUCKZB003_03381_SUPPLYOFFICER03881_000_001","おお、やはり！
+襲撃時の協力、本当にありがとうございました！"
+50,"TEXT_LUCKZB003_03381_SUPPLYOFFICER03881_100_001","そんな恩人である貴方に、
+恐縮ではあるのですが、助力いただきたい件があるのです。"
+51,"TEXT_LUCKZB003_03381_SUPPLYOFFICER03881_000_002","ホルミンスター復興に要する、物資の見積もりをするため、
+襲撃時の状況について、詳しい方に意見を伺いたいのです。
+よろしければ「北の集結地」まで、お越しくださいませ。"
+52,"TEXT_LUCKZB003_03381_SUPPLYOFFICER03881_000_010","ご足労いただき、ありがとうございます！
+改めて、貴方が目撃した、
+ホルミンスターの状況をお聞かせいただけますか？"
+53,"TEXT_LUCKZB003_03381_SUPPLYOFFICER03881_000_011","……なるほど。
+襲撃の混乱で焼けたり、破壊された建物も多いようですね。
+作業員が寝泊まりできる、天幕などが必要かもしれません。"
+54,"TEXT_LUCKZB003_03381_SUPPLYOFFICER03881_000_012","何にせよ、まずは現状を確認しなくては……。
+お手数ですが、ここにある物資を確認しつつ、
+復興に利用できそうか、意見をくださいませんか？"
+55,"TEXT_LUCKZB003_03381_SUPPLYOFFICER03881_000_013","確認が終わったら、ここで合流しましょう。
+それでは、またのちほど。"
+56,"TEXT_LUCKZB003_03381_SYSTEM_000_020","使い古された杖が落ちている。
+ホルミンスターからの避難民が落としたものだろう。"
+57,"TEXT_LUCKZB003_03381_SYSTEM_000_021","この木箱には天幕が収められているようだ。
+復興作業に役立つだろう。"
+58,"TEXT_LUCKZB003_03381_SYSTEM_000_022","この木箱には武具が収められているようだ。
+復興作業には、武具よりも工具が必要だろう。"
+59,"TEXT_LUCKZB003_03381_SUPPLYOFFICER03881_000_030","おお、貴方も戻られましたか。
+どうでしょう、なにか見つかりましたか？"
+60,"TEXT_LUCKZB003_03381_SUPPLYOFFICER03881_000_031","これは……おそらく、避難民が落としたものでしょう。
+ホルミンスターは、牧畜が盛んでしたから……
+放牧中に、襲撃にあったのかもしれません。"
+61,"TEXT_LUCKZB003_03381_SUPPLYOFFICER03881_000_032","彼らのためにも、早く復興させなくてはなりませんね。
+ほかに何か見つかりましたか？"
+62,"TEXT_LUCKZB003_03381_SUPPLYOFFICER03881_000_033","ふむ……天幕の用意は必要なさそうですが、
+代わりに工具が必要そうですね。"
+63,"TEXT_LUCKZB003_03381_SUPPLYOFFICER03881_000_034","やはり貴方に、意見を伺えてよかった！
+お礼をお渡ししますので「ジョッブ砦」に戻りましょう。"
+64,"TEXT_LUCKZB003_03381_SUPPLYOFFICER03881_000_040","改めて、ご協力ありがとうございました。
+あの戦いでは、何者かによって大罪喰いが討たれたそうですが、
+故郷から逃れてきた避難民にとっては、これからが正念場です。"
+65,"TEXT_LUCKZB003_03381_SUPPLYOFFICER03881_000_041","さて、こちらがお礼となります、お受け取りを！"

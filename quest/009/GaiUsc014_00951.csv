@@ -1,12 +1,12 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSC014_00951_SEQ_00","Ser Briannaix is concerned for a comrade who has taken a tumble off of a snow-covered cliff."
-1,"TEXT_GAIUSC014_00951_SEQ_01","Ser Briannaix needs help rescuing a comrade who has fallen over a cliff. There is a length of thick rope to be found in the keep which would be perfect for the job."
-2,"TEXT_GAIUSC014_00951_SEQ_02","The rope is of goodly length, and reassuringly heavy in your hands. On the cliff top, another dragoon keeps watch as Ser Briannaix said. He will no doubt be glad to speak to you."
-3,"TEXT_GAIUSC014_00951_SEQ_03","Aside from being trapped at the base of a steep cliff, the dragoon seems to be in fine shape. All he needs is one end of the rope in his hands, and he can climb out. The question is how to do so, with the high winds snapping the rope up and away as soon as you drop it."
-4,"TEXT_GAIUSC014_00951_SEQ_04","What a soldier denies, an adventurer tries. Securing one end of the rope at the top of the cliff, you leap down with the other. The trapped dragoon is trapped no more, though he will feel the exertion tomorrow. Ser Briannaix will surely be gratified to hear of the rescue."
-5,"TEXT_GAIUSC014_00951_SEQ_05","The rough-hewn knight is indeed appreciative, and shows himself to be blunt in speech. The gap between those who actually fight the war and those in command seems to be growing, with the pride of the latter trumping the needs of the former..."
+0,"TEXT_GAIUSC014_00951_SEQ_00","ホワイトブリム前哨地のブリアネは、仲間の救助を手伝う者を探しているようだ。"
+1,"TEXT_GAIUSC014_00951_SEQ_01","崖の下に落ちてしまった騎兵の救助を依頼された。まずは城の中で救助に必要な「<Sheet(EventItem,2000739,0)/>」を入手しよう。"
+2,"TEXT_GAIUSC014_00951_SEQ_02","<Sheet(EventItem,2000739,0)/>を入手した。崖の上にいる「救助に来た騎兵」に話しかけよう。"
+3,"TEXT_GAIUSC014_00951_SEQ_03","崖の下にいる滑落した騎兵に「<Sheet(EventItem,2000739,0)/>」を渡そう。「<Sheet(EventItem,2000739,0)/>」を確実に届けるには、どうすればいいだろうか……。"
+4,"TEXT_GAIUSC014_00951_SEQ_04","冒険者が持ってきた<Sheet(EventItem,2000739,0)/>のおかげで、滑落した騎兵は助かりそうだ。ホワイトブリム前哨地の「ブリアネ」に報告しよう。"
+5,"TEXT_GAIUSC014_00951_SEQ_05","ホワイトブリム前哨地のブリアネに報告した。ブリアネは冒険者に感謝してくれたようだ。"
 6,"TEXT_GAIUSC014_00951_SEQ_06",""
 7,"TEXT_GAIUSC014_00951_SEQ_07",""
 8,"TEXT_GAIUSC014_00951_SEQ_08",""
@@ -25,10 +25,10 @@ int32,str,str
 21,"TEXT_GAIUSC014_00951_SEQ_21",""
 22,"TEXT_GAIUSC014_00951_SEQ_22",""
 23,"TEXT_GAIUSC014_00951_SEQ_23",""
-24,"TEXT_GAIUSC014_00951_TODO_00","Collect a length of thick rope."
-25,"TEXT_GAIUSC014_00951_TODO_01","Speak with the knight in shining armor."
-26,"TEXT_GAIUSC014_00951_TODO_02","Hand the rope to the trapped dragoon."
-27,"TEXT_GAIUSC014_00951_TODO_03","Report to Briannaix."
+24,"TEXT_GAIUSC014_00951_TODO_00","<Sheet(EventItem,2000739,0)/>を入手"
+25,"TEXT_GAIUSC014_00951_TODO_01","救助に来た騎兵と話す"
+26,"TEXT_GAIUSC014_00951_TODO_02","滑落した騎兵に<Sheet(EventItem,2000739,0)/>を渡す"
+27,"TEXT_GAIUSC014_00951_TODO_03","ブリアネに報告"
 28,"TEXT_GAIUSC014_00951_TODO_04",""
 29,"TEXT_GAIUSC014_00951_TODO_05",""
 30,"TEXT_GAIUSC014_00951_TODO_06",""
@@ -49,18 +49,41 @@ int32,str,str
 45,"TEXT_GAIUSC014_00951_TODO_21",""
 46,"TEXT_GAIUSC014_00951_TODO_22",""
 47,"TEXT_GAIUSC014_00951_TODO_23",""
-48,"TEXT_GAIUSC014_00951_BRIANNAIX_000_000","You're that <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, aren't you? Well met, well met! Give us a hand─one of the dragoons has fallen clean over the cliff!"
-49,"TEXT_GAIUSC014_00951_BRIANNAIX_000_001","He lives, praise the Fury. We could tell that much from the top."
-50,"TEXT_GAIUSC014_00951_BRIANNAIX_000_002","A brother knight stayed behind on the cliff, and awaits a coil of rope. See here, can you go to the keep for the rope, and deliver it thither? I'm for the infirmary!"
-51,"TEXT_GAIUSC014_00951_DUMMY_000_010",""
-52,"TEXT_GAIUSC014_00951_DUMMYTODO_000_010",""
-53,"TEXT_GAIUSC014_00951_NPCA_000_020","What do <Emphasis>you</Emphasis> want? You bring rope for the rescue? Excuse my churlishness, I have been stymied at every turn in helping my brother knight─it has made me forget my courtesy."
-54,"TEXT_GAIUSC014_00951_NPCA_000_021","But with both our coils tied end-on-end, it may just be long enough! Throw the end of it down to him!"
-55,"TEXT_GAIUSC014_00951_NPCA_000_022","The Fury help us! It will not fall─the wind blows it out of his reach, yet again. What are we to do, jump down with it?"
-56,"TEXT_GAIUSC014_00951_NPCA_000_023","Halone preserve us! The rope is long enough, but this cursed cliff is ever buffeted by the winds. What are we to do, jump down with it?"
-57,"TEXT_GAIUSC014_00951_NPCB_000_025","You too, huh? What do you mean you came to rescue me? You're on the wrong floor, friend! What do you plan to do, throw me up the cliff!?"
-58,"TEXT_GAIUSC014_00951_NPCB_000_030","So...you jumped down a cliff. On purpose. I can certainly respect that. You are a <If(PlayerParameter(4))>woman<Else/>man</If> with a plan. You do have a plan, don't you?"
-59,"TEXT_GAIUSC014_00951_NPCB_000_040","Rope? High winds, huh? But this rope will hang straight with the weight of a man upon it? So we shall both climb back and over the precipice..."
-60,"TEXT_GAIUSC014_00951_NPCB_000_041","A simple enough plan, and well tested. Ahem. I fear it'll take me a while to complete the climb. I hope you don't mind the wait."
-61,"TEXT_GAIUSC014_00951_BRIANNAIX_000_050","Unhurt, was he? The infirmary'll be relieved to hear of it. Always short on something, they are."
-62,"TEXT_GAIUSC014_00951_BRIANNAIX_000_051","Ishgard scolds us for using 'venturers for too many things, but I say sod 'em. They won't send reinforcements and threatened to denounce any knight who asked for them. The way I see it, a good 'venturer is worth more than their words."
+48,"TEXT_GAIUSC014_00951_BRIANNAIX_000_000","ちょうどいいところに来てくれた！
+どうやら仲間が崖下に落ちちまったらしいんだ。
+あんた、悪いが手を貸してくれないか。"
+49,"TEXT_GAIUSC014_00951_BRIANNAIX_000_001","幸い、落ちた仲間は生きているらしい。
+すでに別の仲間が救助に向かい、崖の上から確認したんだ。"
+50,"TEXT_GAIUSC014_00951_BRIANNAIX_000_002","救助に向かった仲間が、崖の上で控えてる。
+城にある「<Sheet(EventItem,2000739,0)/>」を拾って、
+そいつに届けてやってくれ！"
+51,"TEXT_GAIUSC014_00951_DUMMY_000_010","城に置いてあるeobjロープにアクセス(「ロープ」ゲット)"
+52,"TEXT_GAIUSC014_00951_DUMMYTODO_000_010","（★未使用／削除予定★）"
+53,"TEXT_GAIUSC014_00951_NPCA_000_020","あんた、何の用だ？
+……救助に手を貸してくれるのか、助かるよ！
+俺の持ってる縄じゃ、長さが足りなかったんだ。"
+54,"TEXT_GAIUSC014_00951_NPCA_000_021","お前と俺の縄を繋げりゃ、十分だ！
+はやく「<Sheet(EventItem,2000739,0)/>」を、
+崖下の仲間に渡してやってくれないか！"
+55,"TEXT_GAIUSC014_00951_NPCA_000_022","……だが、どうやって渡せばいいんだ？
+ただぶら提げたんじゃ、風に流れちまうだろうし。
+まさか、飛び降りていくわけには……いかないよなあ？"
+56,"TEXT_GAIUSC014_00951_NPCA_000_023","クソ、縄の長さは十分だってのに、
+あいつにどうやって渡せばいいんだ！？
+まさか、飛び降りるわけにもいかないしなぁ……。"
+57,"TEXT_GAIUSC014_00951_NPCB_000_025","おわっ、お前も崖から落ちちまったのかよ！？
+……俺を助けにきただぁ？
+助ける側が落ちちまって、どーするんだよ！"
+58,"TEXT_GAIUSC014_00951_NPCB_000_030","おわっ、お前、崖を飛び降りてきたのか！
+でもさ……救助者まで飛び降りてどーすんだ！
+とーぜん、何か考えがあるんだよな！？　な！？"
+59,"TEXT_GAIUSC014_00951_NPCB_000_040","……なるほど、縄が風に流されちまうから運んできたと。
+考えたじゃねぇか、冒険者さんよ。
+こいつがあれば崖の上まで登れそうだ。ありがとな！"
+60,"TEXT_GAIUSC014_00951_NPCB_000_041","うう……とはいっても、意外と高ぇなぁ。
+この高さ、登れんのかよ、俺……。"
+61,"TEXT_GAIUSC014_00951_BRIANNAIX_000_050","落っこちた仲間の様子はどうだった？
+……よかった、無事に戻ることができそうだな。"
+62,"TEXT_GAIUSC014_00951_BRIANNAIX_000_051","冒険者の手を借りたと知れたら、
+あとでお叱りを受けそうだが、仲間の無事には代えられん。
+あんたには素直に礼を言うよ、ありがとうな。"

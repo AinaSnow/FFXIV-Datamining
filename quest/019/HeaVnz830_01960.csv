@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNZ830_01960_SEQ_00","Feltsmox is still fishing, same as always..."
-1,"TEXT_HEAVNZ830_01960_SEQ_01","Feltsmox is still trying to catch a fish and is still having no luck. This time, she suspects the nearby sun bears are the cause of her troubles. She claims they have been coming down into the river, eating some of the fish and scaring the rest away. She asks you to slay four of these bothersome beasts and collect their meat for her."
-2,"TEXT_HEAVNZ830_01960_SEQ_02","You put the sun bears down and gather thick slices of bear meat from them. Hopefully any of them that are left learn their lesson and stay away from the river. Deliver the meat to Feltsmox."
-3,"TEXT_HEAVNZ830_01960_SEQ_03","Feltsmox thanks you for slaying the bears that have been keeping the fish away. Eager though she is to confirm that the fish have returned─by catching a big fat fish to eat─she is too hungry to wait for a bite, and leaves to eat the sun bear meat you gathered for her."
+0,"TEXT_HEAVNZ830_01960_SEQ_00","クイックスピル・デルタのフェルトスモクスは、相変わらず釣り糸をたらしている。"
+1,"TEXT_HEAVNZ830_01960_SEQ_01","フェルトスモクスの話を聞いた。魚が釣れないのは、この辺りに生息する<Sheet(BNpcName,3606,0)/>が原因のようだ。低地ドラヴァニアのシャーレアン学士街で、「<Sheet(BNpcName,3606,0)/>」を討伐し、「<Sheet(EventItem,2001698,0)/>」を4つ入手しよう。"
+2,"TEXT_HEAVNZ830_01960_SEQ_02","<Sheet(EventItem,2001698,0)/>を入手した。クイックスピル・デルタの「フェルトスモクス」に「<Sheet(EventItem,2001698,0)/>」を渡そう。"
+3,"TEXT_HEAVNZ830_01960_SEQ_03","フェルトスモクスに<Sheet(EventItem,2001698,0)/>を渡した。腹をすかせたフェルトスモクスは、魚が釣れないため、渡した<Sheet(EventItem,2001698,0)/>で我慢するようだ"
 4,"TEXT_HEAVNZ830_01960_SEQ_04",""
 5,"TEXT_HEAVNZ830_01960_SEQ_05",""
 6,"TEXT_HEAVNZ830_01960_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_HEAVNZ830_01960_SEQ_21",""
 22,"TEXT_HEAVNZ830_01960_SEQ_22",""
 23,"TEXT_HEAVNZ830_01960_SEQ_23",""
-24,"TEXT_HEAVNZ830_01960_TODO_00","Slay sun bears and obtain bear meat."
-25,"TEXT_HEAVNZ830_01960_TODO_01","Deliver bear meat to Feltsmox."
+24,"TEXT_HEAVNZ830_01960_TODO_00","<Sheet(BNpcName,3606,0)/>から<Sheet(EventItem,2001698,0)/>を入手"
+25,"TEXT_HEAVNZ830_01960_TODO_01","フェルトスモクスに<Sheet(EventItem,2001698,0)/>を渡す"
 26,"TEXT_HEAVNZ830_01960_TODO_02",""
 27,"TEXT_HEAVNZ830_01960_TODO_03",""
 28,"TEXT_HEAVNZ830_01960_TODO_04",""
@@ -49,12 +49,22 @@ int32,str,str
 45,"TEXT_HEAVNZ830_01960_TODO_21",""
 46,"TEXT_HEAVNZ830_01960_TODO_22",""
 47,"TEXT_HEAVNZ830_01960_TODO_23",""
-48,"TEXT_HEAVNZ830_01960_FELTSMOX_000_000","Pshhh... Shkohhh...
-Adventurer! Remember Feltsmox? Feltsmox still not catch even one fish! Feltsmox start to become very hungry..."
-49,"TEXT_HEAVNZ830_01960_FELTSMOX_000_001","Nearby sun bears are reason. They come down to river and eat fish and scare them away!"
-50,"TEXT_HEAVNZ830_01960_FELTSMOX_000_002","Please slay bothersome sun bears. Slay four bears, bring bearmeat to Feltsmox."
-51,"TEXT_HEAVNZ830_01960_FELTSMOX_000_010","Sun bears scare fish away, Feltsmox cannot catch supper! Please slay troublesome bears for Feltsmox and bring their meat."
-52,"TEXT_HEAVNZ830_01960_FELTSMOX_000_020","You kill sun bears? You collect bearmeat for Feltsmox?"
-53,"TEXT_HEAVNZ830_01960_FELTSMOX_000_021","Pshhh... Shkohhh...
-Bears are gone, fishingwaters are calm now. Feltsmox want to catch fish, but first fill belly with bearmeat."
-54,"TEXT_HEAVNZ830_01960_FELTSMOX_000_022","Feltsmox really want to eat fish, but too hungry to wait. Thank you for meat, uplander─first tastymeat for Feltsmox in very long time!"
+48,"TEXT_HEAVNZ830_01960_FELTSMOX_000_000","シュコォ……シュコォ……
+お久しぶりの冒険者　けれども　あれから　魚は釣れず
+いよいよ　腹が減ってきた……。"
+49,"TEXT_HEAVNZ830_01960_FELTSMOX_000_001","思うに　原因　「<Sheet(BNpcName,3606,0)/>」……
+川に入って　魚を獲って　釣り場荒らしてるに　違いない……。"
+50,"TEXT_HEAVNZ830_01960_FELTSMOX_000_002","「<Sheet(BNpcName,3606,0)/>」　倒して狩って　討ち倒し
+その肉　4頭ぶんほど　持ってきて……
+どうか　頼むぞ　お願いぞ……。"
+51,"TEXT_HEAVNZ830_01960_FELTSMOX_000_010","「<Sheet(BNpcName,3606,0)/>」　倒して狩って　討ち倒し
+その肉　4頭ぶんほど　持ってきて……
+どうか　頼むぞ　お願いぞ……。"
+52,"TEXT_HEAVNZ830_01960_FELTSMOX_000_020","「<Sheet(BNpcName,3606,0)/>」　倒して狩って　討ち倒し
+その肉　4頭ぶんほど　持ってきて……
+どうか　頼むぞ　お願いぞ……。"
+53,"TEXT_HEAVNZ830_01960_FELTSMOX_000_021","シュコォ……シュコォ……
+釣場　荒らしが消え去って　すぐにも釣りをしたいけど
+まずは　「<Sheet(EventItem,2001698,0)/>」で　腹ごしらえ！"
+54,"TEXT_HEAVNZ830_01960_FELTSMOX_000_022","ホントは魚が　食べたいが　冒険者には　感謝ぞな！
+…………久しぶりの　肉だぞな！"

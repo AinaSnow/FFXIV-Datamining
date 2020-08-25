@@ -1,8 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKZG015_03500_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-The two brothers from Twine are hoping you will stick around Mount Biran Mines to help."
+0,"TEXT_LUCKZG015_03500_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+ビラン大鉱山の大柄なガルジェント族は、冒険者に協力してほしいようだ。"
 1,"TEXT_LUCKZG015_03500_SEQ_01",""
 2,"TEXT_LUCKZG015_03500_SEQ_02",""
 3,"TEXT_LUCKZG015_03500_SEQ_03",""
@@ -26,9 +26,9 @@ The two brothers from Twine are hoping you will stick around Mount Biran Mines t
 21,"TEXT_LUCKZG015_03500_SEQ_21",""
 22,"TEXT_LUCKZG015_03500_SEQ_22",""
 23,"TEXT_LUCKZG015_03500_SEQ_23",""
-24,"TEXT_LUCKZG015_03500_TODO_00","Obtain discarded timber."
-25,"TEXT_LUCKZG015_03500_TODO_01","Deliver the discarded timber to the stocky miner."
-26,"TEXT_LUCKZG015_03500_TODO_02","Report to Annine."
+24,"TEXT_LUCKZG015_03500_TODO_00","<Sheet(EventItem,2002897,0)/>を入手"
+25,"TEXT_LUCKZG015_03500_TODO_01","大柄なガルジェント族に<Sheet(EventItem,2002897,0)/>を渡す"
+26,"TEXT_LUCKZG015_03500_TODO_02","アンニーヌに報告"
 27,"TEXT_LUCKZG015_03500_TODO_03",""
 28,"TEXT_LUCKZG015_03500_TODO_04",""
 29,"TEXT_LUCKZG015_03500_TODO_05",""
@@ -50,19 +50,36 @@ The two brothers from Twine are hoping you will stick around Mount Biran Mines t
 45,"TEXT_LUCKZG015_03500_TODO_21",""
 46,"TEXT_LUCKZG015_03500_TODO_22",""
 47,"TEXT_LUCKZG015_03500_TODO_23",""
-48,"TEXT_LUCKZG015_03500_BROTHERB03500_000_000","Without someone to keep an eye out for us, we may as well pack up and go home!"
-49,"TEXT_LUCKZG015_03500_BROTHERA03500_000_010","If you're willing to take on some more work, we'd be glad for your assistance."
-50,"TEXT_LUCKZG015_03500_BROTHERA03500_000_011","We actually came here not to gather rocks and such, as you might expect in a mine, but timber. We're hoping to repair our house, and we'll take whatever we can get our hands on."
-51,"TEXT_LUCKZG015_03500_BROTHERA03500_000_012","In fact, rather than have you guard us, it might be more efficient to have you collect wood too. Let's split up, but keep a close eye on each other, and try not to wander."
-52,"TEXT_LUCKZG015_03500_BROTHERB03500_000_020","We'd be grateful for anything you can bring us!"
-53,"TEXT_LUCKZG015_03500_BROTHERA03500_000_030","What have you found?"
-54,"TEXT_LUCKZG015_03500_BROTHERA03500_000_031","Nice and strong, free from rot. That should be enough for now."
-55,"TEXT_LUCKZG015_03500_BROTHERA03500_000_032","The two of us will carry this back to Twine. By the sounds of it, Annine was planning on paying you for coming to our rescue, so I'll tell her to throw in the coin for helping us with the timber too."
-56,"TEXT_LUCKZG015_03500_ANNINE_000_040","There you are! The boys told me what you did for them."
-57,"TEXT_LUCKZG015_03500_ANNINE_000_041","Now, you might think that they're idiots for going to Mount Biran Mines to collect timber of all things. I mean, they're still idiots, don't get me wrong, but the idea isn't entirely without merit."
-58,"TEXT_LUCKZG015_03500_ANNINE_000_042","You see, the closure of Daedalus Stoneworks meant that we had to rely on goods brought in from other lands, and the prices range from expensive to ludicrous."
-59,"TEXT_LUCKZG015_03500_ANNINE_000_043","That's why we try to make do with what's available. Which, as you can tell, is not an awful lot. But no matter how hard up we may be, we still have each other. I can't thank you enough for seeing my brothers got home safe and sound."
-60,"TEXT_LUCKZG015_03500_WAREHOUSE03500_000_040",""
-61,"TEXT_LUCKZG015_03500_WAREHOUSE03500_000_041",""
-62,"TEXT_LUCKZG015_03500_WAREHOUSE03500_000_042",""
-63,"TEXT_LUCKZG015_03500_WAREHOUSE03500_000_043",""
+48,"TEXT_LUCKZG015_03500_BROTHERB03500_000_000","資材集めに協力してもらえませんか？"
+49,"TEXT_LUCKZG015_03500_BROTHERA03500_000_010","手を貸してくれるのか？
+ありがてえ！"
+50,"TEXT_LUCKZG015_03500_BROTHERA03500_000_011","集めてほしいのは、「<Sheet(EventItem,2002897,0)/>」だ。
+劣化した家の修理に必要なんだ。"
+51,"TEXT_LUCKZG015_03500_BROTHERA03500_000_012","それじゃ、手分けして探そう。
+集め終わったら、ここに戻ってきてくれ。"
+52,"TEXT_LUCKZG015_03500_BROTHERB03500_000_020","木材集めに協力してくださって、
+ありがとうございます！"
+53,"TEXT_LUCKZG015_03500_BROTHERA03500_000_030","おつかれさん！
+「<Sheet(EventItem,2002897,0)/>」は集まったか？"
+54,"TEXT_LUCKZG015_03500_BROTHERA03500_000_031","おお、ありがとう！
+俺たちの方で集めた分と合わせれば、
+これで十分だ。"
+55,"TEXT_LUCKZG015_03500_BROTHERA03500_000_032","俺たちは先に、トゥワインへ戻るよ。
+あんたは姉貴の「アンニーヌ」に声をかけてくれないか。
+謝礼を出すよう頼んでおくからさ。"
+56,"TEXT_LUCKZG015_03500_ANNINE_000_040","おかえりなさい。
+話は弟たちから聞いたわ。
+木材集めまで手伝ってもらったようで、感謝してるよ！"
+57,"TEXT_LUCKZG015_03500_ANNINE_000_041","荒野が広がるアム・アレーンでは、木材が貴重でね。
+この集落の建物や、鉱山がらみの施設に使われている木材は、
+全部、ダイダロス社がコルシア島から運んできたものなのよ。"
+58,"TEXT_LUCKZG015_03500_ANNINE_000_042","ダイダロス社が撤退したいまじゃ、
+交易商から買うしかないのだけれど、
+これがとても高くて……。"
+59,"TEXT_LUCKZG015_03500_ANNINE_000_043","だから、放棄された鉱山から木材を剥ぎ取って、
+再利用しているってわけよ。
+……さあ、お礼を受け取ってちょうだい。"
+60,"TEXT_LUCKZG015_03500_WAREHOUSE03500_000_040","（★未使用／削除予定★）"
+61,"TEXT_LUCKZG015_03500_WAREHOUSE03500_000_041","（★未使用／削除予定★）"
+62,"TEXT_LUCKZG015_03500_WAREHOUSE03500_000_042","（★未使用／削除予定★）"
+63,"TEXT_LUCKZG015_03500_WAREHOUSE03500_000_043","（★未使用／削除予定★）"

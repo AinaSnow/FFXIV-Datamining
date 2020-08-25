@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_MANSEA006_00689_SEQ_00","Ghimthota wishes to entrust you with an important task."
-1,"TEXT_MANSEA006_00689_SEQ_01","Among the possessions of Ahtzapfyn, the pirate behind the plot to sabotage the <Emphasis>Victory</Emphasis>, a missive written in some manner of code has been discovered. Unable to find anyone capable of deciphering the curious lettering, Ghimthota wishes to enlist the help of Baderon and his colorful circle of acquaintance. Deliver the missive to the proprietor of the Drowning Wench."
-2,"TEXT_MANSEA006_00689_SEQ_02","After reading the contents of the missive, a visibly worried Baderon bids you prepare for the worst. Summon up your courage, and speak with him once more."
+0,"TEXT_MANSEA006_00689_SEQ_00","ギムトータは冒険者の腕を見込んで、頼みたいことがあるようだ。"
+1,"TEXT_MANSEA006_00689_SEQ_01","ヴィクトリー号爆破未遂事件の主導者アーツァフィンの所持品から、暗号のような文字のつづられた怪しい書簡が見つかった。ギムトータたちでは解読ができないため、バデロンに協力してほしいようだ。「怪しい書簡」を溺れた海豚亭の「バデロン」に届けよう。"
+2,"TEXT_MANSEA006_00689_SEQ_02","書簡を解読したバデロンの顔色が変わってしまった。書簡には、なにやら重要なことが書かれていたらしいが……。どんな事態にも対応できるよう準備を整えたら、バデロンから詳しい話を聞こう。"
 3,"TEXT_MANSEA006_00689_SEQ_03",""
 4,"TEXT_MANSEA006_00689_SEQ_04",""
 5,"TEXT_MANSEA006_00689_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_MANSEA006_00689_SEQ_21",""
 22,"TEXT_MANSEA006_00689_SEQ_22",""
 23,"TEXT_MANSEA006_00689_SEQ_23",""
-24,"TEXT_MANSEA006_00689_TODO_00","Deliver the arcane epistle to Baderon in Limsa Lominsa."
+24,"TEXT_MANSEA006_00689_TODO_00","リムサ・ロミンサのバデロンに怪しい書簡を渡す"
 25,"TEXT_MANSEA006_00689_TODO_01",""
 26,"TEXT_MANSEA006_00689_TODO_02",""
 27,"TEXT_MANSEA006_00689_TODO_03",""
@@ -49,20 +49,43 @@ int32,str,str
 45,"TEXT_MANSEA006_00689_TODO_21",""
 46,"TEXT_MANSEA006_00689_TODO_22",""
 47,"TEXT_MANSEA006_00689_TODO_23",""
-48,"TEXT_MANSEA006_00689_GHIMTHOTA_000_1","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. In light of your role in recent events, there are few others to whom I would entrust this task."
-49,"TEXT_MANSEA006_00689_GHIMTHOTA_000_2","Since last we spoke, a curious missive has been discovered amongst the personal effects of Ahtzapfyn, the pirate behind the plot to sabotage the <Emphasis>Victory</Emphasis>."
-50,"TEXT_MANSEA006_00689_GHIMTHOTA_000_3","This missive was penned in the most unusual script─a script we believe to be some manner of code."
-51,"TEXT_MANSEA006_00689_GHIMTHOTA_000_4","Needless to say, anything which a proven enemy of Limsa Lominsa deems worthy of enciphering is like to be of great interest to the Maelstrom. Unfortunately, none among us can make any sense of the message."
-52,"TEXT_MANSEA006_00689_GHIMTHOTA_000_5","In cases such as this, I am told the Yellowjackets are wont to turn to Baderon and his convenient...connections."
-53,"TEXT_MANSEA006_00689_GHIMTHOTA_000_6","Thus I would have you deliver this missive to the proprietor of the Drowning Wench. Into his hand, and no other, do you understand?"
-54,"TEXT_MANSEA006_00689_BADERON_000_20","Ahoy there, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! I've been 'earin' about your deeds at the Drydocks!"
-55,"TEXT_MANSEA006_00689_BADERON_000_21","Ahtbyrm laid out the entire tale fer me. Poor sod was still reelin' at 'is old man's part in the business, but at least ye kept the <Emphasis>Victory</Emphasis> from bein' sunk afore she'd sailed."
-56,"TEXT_MANSEA006_00689_BADERON_000_22","An' fer that, I owe ye me thanks!"
-57,"TEXT_MANSEA006_00689_BADERON_000_23","Ye've really made a name fer yerself 'ere in Limsa, <If(PlayerParameter(4))>lass<Else/>lad</If>. Folk know that when they need summat doin'─"
-58,"TEXT_MANSEA006_00689_BADERON_000_24","Eh? <Emphasis>You</Emphasis> need summat doin'? An' what might that be?"
-59,"TEXT_MANSEA006_00689_BADERON_000_30","...Ye want someone to read a message writ in funny letters fer ye? An' Ghimthota thought I might know a man as could? Well, let's see it, then!"
-60,"TEXT_MANSEA006_00689_BADERON_000_31","Aye..."
-61,"TEXT_MANSEA006_00689_BADERON_000_32","...I reckon I might know a canny bugger what can read stuff like this. Ugly sod by the name o' Baderon."
-62,"TEXT_MANSEA006_00689_BADERON_000_33","Ye know, yer like one o' me regulars now, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
-63,"TEXT_MANSEA006_00689_BADERON_000_34","Ye've never let me down yet, an', Navigator 'elp me, I reckon I can trust ye."
-64,"TEXT_MANSEA006_00689_BADERON_000_35","Ghimthota was right to want this message deciphered... We've got us some trouble brewin', 'ere, an' no mistake. Get ready fer action, an' I'll explain."
+48,"TEXT_MANSEA006_00689_GHIMTHOTA_000_1","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
+君を見込んで、頼みたいことがある。"
+49,"TEXT_MANSEA006_00689_GHIMTHOTA_000_2","ヴィクトリー号の爆破を主導していたアーツァフィンの
+所持品を確認したところ、一通の書簡を見つけたのだ。"
+50,"TEXT_MANSEA006_00689_GHIMTHOTA_000_3","この書簡には、まるで暗号のような……
+奇妙な文字がつづられていてな。"
+51,"TEXT_MANSEA006_00689_GHIMTHOTA_000_4","重要な機密が書かれている可能性が高いが、
+解読できる者がここにはいなかった。"
+52,"TEXT_MANSEA006_00689_GHIMTHOTA_000_5","イエロージャケットの者がいうには、
+この手の解読に関しては、
+いつもバデロンに協力を仰いでいるそうだ。"
+53,"TEXT_MANSEA006_00689_GHIMTHOTA_000_6","そこで、この「怪しい書簡」を
+溺れた海豚亭の「バデロン」へ届けてほしい。
+よろしく頼んだぞ。"
+54,"TEXT_MANSEA006_00689_BADERON_000_20","よう、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>。
+モラビー造船廠じゃ、大活躍だったそうじゃないか。"
+55,"TEXT_MANSEA006_00689_BADERON_000_21","アートビルムから話は聞いたぜ。
+奴も父親のせいで災難だったが……。
+なんにせよ、ヴィクトリー号の爆破を事前に防げたんだ。"
+56,"TEXT_MANSEA006_00689_BADERON_000_22","俺からも、礼を言わせてもらおう。
+ありがとうな！"
+57,"TEXT_MANSEA006_00689_BADERON_000_23","おまえさんも、すっかり、
+リムサ・ロミンサに慣れたようだな。
+これからも……。"
+58,"TEXT_MANSEA006_00689_BADERON_000_24","……おや、なんだって？
+俺に頼み事だって？"
+59,"TEXT_MANSEA006_00689_BADERON_000_30","……奇妙な文字を解読できる人物ねぇ。
+いったい、どんな文字なんだ？
+その書簡とやらを見せてみろ。"
+60,"TEXT_MANSEA006_00689_BADERON_000_31","これは……。"
+61,"TEXT_MANSEA006_00689_BADERON_000_32","この文字を解読できる人物に心当たりがある。
+……この俺だ。"
+62,"TEXT_MANSEA006_00689_BADERON_000_33","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>。
+……いや、もう余所余所しいのは止めよう。
+おまえさんは俺たちの仲間だ。"
+63,"TEXT_MANSEA006_00689_BADERON_000_34","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
+おまえさんの腕を見込んで頼みたいことがある。"
+64,"TEXT_MANSEA006_00689_BADERON_000_35","この書簡には、重要なことが書かれていてな……。
+ちと厄介なことになるかもしれない。
+準備ができたら、声をかけてくれ。"

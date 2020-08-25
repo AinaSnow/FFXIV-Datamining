@@ -1,8 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANKJN306_02984_SEQ_00","Zukin knows the way to a Confederate's heart.
-※The difficulty of this quest will be synced to your current level."
+0,"TEXT_BANKJN306_02984_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト受注クラス・ジョブ制限<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+※本クエストは受注時のクラス・ジョブでのみ進行します。
+
+碧のタマミズのズキンは、御機嫌な依頼があるようだ。"
 1,"TEXT_BANKJN306_02984_SEQ_01",""
 2,"TEXT_BANKJN306_02984_SEQ_02",""
 3,"TEXT_BANKJN306_02984_SEQ_03",""
@@ -26,8 +28,8 @@ int32,str,str
 21,"TEXT_BANKJN306_02984_SEQ_21",""
 22,"TEXT_BANKJN306_02984_SEQ_22",""
 23,"TEXT_BANKJN306_02984_SEQ_23",""
-24,"TEXT_BANKJN306_02984_TODO_00","Deliver the Kojin pickles to Confederates at the Coral Banquet."
-25,"TEXT_BANKJN306_02984_TODO_01","Report to Zukin."
+24,"TEXT_BANKJN306_02984_TODO_00","珊瑚台の海賊衆に<Sheet(EventItem,2002426,0)/>を渡す"
+25,"TEXT_BANKJN306_02984_TODO_01","ズキンに報告"
 26,"TEXT_BANKJN306_02984_TODO_02",""
 27,"TEXT_BANKJN306_02984_TODO_03",""
 28,"TEXT_BANKJN306_02984_TODO_04",""
@@ -50,19 +52,41 @@ int32,str,str
 45,"TEXT_BANKJN306_02984_TODO_21",""
 46,"TEXT_BANKJN306_02984_TODO_22",""
 47,"TEXT_BANKJN306_02984_TODO_23",""
-48,"TEXT_BANKJN306_02984_ZUKIN_000_000","The key to a man's heart is through his stomach, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. With this in mind, I would ask your help in maintaining an important partnership."
-49,"TEXT_BANKJN306_02984_ZUKIN_000_001","I have here two pots of our finest pickles, which I would gift to the sentries at the Coral Banquet. Pray see to it they are delivered."
-50,"TEXT_BANKJN306_02984_RIKUFU_000_010","You are far from home, adventurer. What business have you here?"
-51,"TEXT_BANKJN306_02984_RIKUFU_000_011","Hah, if it isn't Kojin pickles! I had been looking forward to this! My thanks, friend!"
-52,"TEXT_BANKJN306_02984_RIKUFU_000_012","Zukin has been sending us pickles on a regular basis. They bring much welcomed flavor to an otherwise bland day."
-53,"TEXT_BANKJN306_02984_MIDROVER02984_000_013","If you require something, please make it quick. I'm on patrol."
-54,"TEXT_BANKJN306_02984_MIDROVER02984_000_014","Well now, more pickles from the Kojin! There's been more contact between us of late, and I must say I appreciate these little gestures."
-55,"TEXT_BANKJN306_02984_MIDROVER02984_000_015","Please send them my thanks along with this message: should we turn up aught of note, they'll be the first to know."
-56,"TEXT_BANKJN306_02984_MIDROVER02984_000_016","Now, if you'll excuse me, I must be moving along."
-57,"TEXT_BANKJN306_02984_RUGAROVER02984_000_017","You better have a good reason for distractin' me on watch! Might be as I drink hard, but I work hard as well! <hic>"
-58,"TEXT_BANKJN306_02984_RUGAROVER02984_000_018","Oh, shite, pickles from the Kojin!? You're a good sort, adventurer! A bloody good sort! <hic>"
-59,"TEXT_BANKJN306_02984_RUGAROVER02984_000_019","Let me tell you, these pickles and rice wine are a match made in heaven! Gah, this watch can't end soon enough! <hic>"
-60,"TEXT_BANKJN306_02984_RUGAROVER02984_000_020","Oh, I know─I'll move quicker! That way the watch'll end sooner! Haha, what a bloody brilliant idea! <hic>"
-61,"TEXT_BANKJN306_02984_ZUKIN_000_030","Delivered the pickles, have you? Tell me, how did our Confederate friends respond?"
-62,"TEXT_BANKJN306_02984_ZUKIN_000_031","...So we continue to be held in good standing. That is well. A little kindness indeed goes a long way."
-63,"TEXT_BANKJN306_02984_ZUKIN_000_032","In the past, we Kojin would purchase such treasures as the Confederacy seized in lieu of the Ruby Tithe. By maintaining amicable relations, we have first pick of the merchandise. A fine arrangement, I'm sure you'll agree."
+48,"TEXT_BANKJN306_02984_ZUKIN_000_000","<If(PlayerParameter(4))>姉<Else/>兄</If>さん、ご機嫌いかがかぁ～？
+今日は、大切な縁を繋いでくための、
+大事な仕事を任せてぇんだぁ～！"
+49,"TEXT_BANKJN306_02984_ZUKIN_000_001","珊瑚台の海賊衆に、日頃のお礼として、
+とっておきの差し入れを2人前作ったんだぁ～！
+この「<Sheet(EventItem,2002426,0)/>」を、海賊衆に届けてくれぇ～！"
+50,"TEXT_BANKJN306_02984_RIKUFU_000_010","おや、こんなところを訪れるとは、何事か？"
+51,"TEXT_BANKJN306_02984_RIKUFU_000_011","おお、これは「<Sheet(EventItem,2002426,0)/>」じゃないか！？
+碧甲羅からの差し入れとは、ありがたい！
+これがあると、辛い仕事もはかどるんだ！！"
+52,"TEXT_BANKJN306_02984_RIKUFU_000_012","ズキンが、定期的に「<Sheet(EventItem,2002426,0)/>」を届けてくれるんだ。
+これがあると、辛い仕事もはかどるんだ！！"
+53,"TEXT_BANKJN306_02984_MIDROVER02984_000_013","何かご用でしょうか？
+巡回の最中ですので、手短に願います。"
+54,"TEXT_BANKJN306_02984_MIDROVER02984_000_014","まあ、コウジン族からの届け物ですって？
+彼らとは、最近、交流が増えているんですが、
+こうして定期的に差し入れを贈ってくれて、感謝しています。"
+55,"TEXT_BANKJN306_02984_MIDROVER02984_000_015","彼らのもとに戻られるなら、伝言をお願いします。
+今回と日頃の礼とともに、「いい品が出たら、すぐ知らせる」と。"
+56,"TEXT_BANKJN306_02984_MIDROVER02984_000_016","それでは、そろそろ報告の時間ですので。
+失礼します。"
+57,"TEXT_BANKJN306_02984_RUGAROVER02984_000_017","おっと、何か用か？
+酒は抜けてねえが、監視だって手を抜かねえぞ！"
+58,"TEXT_BANKJN306_02984_RUGAROVER02984_000_018","これは、「<Sheet(EventItem,2002426,0)/>」じゃないか！
+碧甲羅の使いってわけかい、感謝するぜ！"
+59,"TEXT_BANKJN306_02984_RUGAROVER02984_000_019","酒の肴としちゃ、最高の漬物だからな、
+いつも届くのを楽しみにしてんだ。
+次の晩酌が、今から待ち遠しくなってきやがったぜ！"
+60,"TEXT_BANKJN306_02984_RUGAROVER02984_000_020","いっけねぇ、次の監視場所に移動しねぇと！
+それじゃ、またよろしくな！"
+61,"TEXT_BANKJN306_02984_ZUKIN_000_030","さすがは<If(PlayerParameter(4))>姉<Else/>兄</If>さん、早かったなぁ～！
+みんな、差し入れを喜んでくれたかぁ～？"
+62,"TEXT_BANKJN306_02984_ZUKIN_000_031","よし、いちだんと、縁が深まったみたいだぜぇ～！
+以前、珊瑚台の海賊衆が帆別銭代わりに巻き上げたお宝を、
+彼らから買い取ったことがあってなぁ～。"
+63,"TEXT_BANKJN306_02984_ZUKIN_000_032","こうして仲良くしておけば、またお宝が手に入ったとき、
+俺たちのことを思い出して、売ってくれんだろぉ～？
+縁を深めれば、お宝も吸い寄せられるってわけさぁ～！"

@@ -1,15 +1,14 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDR104_02931_SEQ_00","Cid looks expectantly in your direction."
-1,"TEXT_STMBDR104_02931_SEQ_01","With Biggs and Wedge not expected to report back for some time, Cid proposes that you move ahead with the tests. Your next opponent, Delta III, is apparently a being known as Halicarnassus, which Nero reveals to be the antagonist from a tale dating back to the Fourth Astral Era. Hearing this, Cid expresses surprise at the thought that Omega is deriving its subjects from works of fiction, at which moment Midgardsormr manifests to provide some timely insight. Omega, the Father of Dragons explains, has no soul and is therefore incapable of imagination; be it from fact or fiction, it must draw upon historic material in order to create. While the revelation excites Nero, it gives Cid a moment's pause, but he sets his questions aside in favor of focusing on the task at hand: defeating Halicarnassus. As has now become traditional, Alpha is waiting patiently for your signal to proceed.
+0,"TEXT_STMBDR104_02931_SEQ_00","次元の狭間のシドは、相談したいことがあるようだ。"
+1,"TEXT_STMBDR104_02931_SEQ_01","シドたちと話し、デルタIIIとの戦いに進むことにした。次元の狭間の「アルファ」と話そう。
+一度外に出た場合は、ヤーンの大穴にいる「ガーロンド社の調査員」が、次元の狭間へ案内してくれるようだ。"
+2,"TEXT_STMBDR104_02931_SEQ_02","アルファと話した。しっかりと準備を整えて、被検世界デルタに乗りこみ、待ち受けるハリカルナッソスを撃破しよう！
 
-※In the event that you leave the Interdimensional Rift, you may re-enter by speaking with the Ironworks hand at the Yawn."
-2,"TEXT_STMBDR104_02931_SEQ_02","Alpha kwehs to you his readiness to enter the Deltascape. Once your own preparations are in order, you may step through the portal to do battle with Halicarnassus.
-
-※Deltascape V3.0 can be accessed via the Duty Finder."
-3,"TEXT_STMBDR104_02931_SEQ_03","In the Deltascape, you confront Halicarnassus, the flamboyant and formidable Queen of Dimension Castle. Yet all her pomp and pageantry avails her naught as you succeed in dethroning her, your victory and her demise a recreation of the ages-old tale."
-4,"TEXT_STMBDR104_02931_SEQ_04","With each new foe more dangerous than the last, Cid seems especially glad of your safe return. Thanks to your tireless efforts, but one test subject remains in the Deltascape. Take what rest you may, lest your next encounter prove a battle too far."
+※コンテンツファインダーから攻略に参加できます。"
+3,"TEXT_STMBDR104_02931_SEQ_03","デルタIII、ハリカルナッソスを撃破した。次元の狭間の「シド」と話そう。"
+4,"TEXT_STMBDR104_02931_SEQ_04","シドと話した。冒険者の無事に、大いに安堵したようだ。次は、被検世界デルタでの、最後の闘いになるという。しっかりと休息をとってから、再度声をかけよう。"
 5,"TEXT_STMBDR104_02931_SEQ_05",""
 6,"TEXT_STMBDR104_02931_SEQ_06",""
 7,"TEXT_STMBDR104_02931_SEQ_07",""
@@ -29,9 +28,9 @@ int32,str,str
 21,"TEXT_STMBDR104_02931_SEQ_21",""
 22,"TEXT_STMBDR104_02931_SEQ_22",""
 23,"TEXT_STMBDR104_02931_SEQ_23",""
-24,"TEXT_STMBDR104_02931_TODO_00","Speak with Alpha."
-25,"TEXT_STMBDR104_02931_TODO_01","Use the Duty Finder to enter Deltascape V3.0."
-26,"TEXT_STMBDR104_02931_TODO_02","Speak with Cid."
+24,"TEXT_STMBDR104_02931_TODO_00","アルファと話す"
+25,"TEXT_STMBDR104_02931_TODO_01","「次元の狭間オメガ：デルタ編3」を攻略"
+26,"TEXT_STMBDR104_02931_TODO_02","シドと話す"
 27,"TEXT_STMBDR104_02931_TODO_03",""
 28,"TEXT_STMBDR104_02931_TODO_04",""
 29,"TEXT_STMBDR104_02931_TODO_05",""
@@ -53,36 +52,76 @@ int32,str,str
 45,"TEXT_STMBDR104_02931_TODO_21",""
 46,"TEXT_STMBDR104_02931_TODO_22",""
 47,"TEXT_STMBDR104_02931_TODO_23",""
-48,"TEXT_STMBDR104_02931_ALPHA_000_000","Kweh!"
-49,"TEXT_STMBDR104_02931_NERO_000_005","It would seem a shame to squander the momentum we have generated...and you are <Emphasis>fighting</Emphasis> fit."
-50,"TEXT_STMBDR104_02931_GARLONDGATEKEEPER_000_006","Good <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>evening<Else/>morrow</If><Else/><If(LessThan(PlayerParameter(11),17))>day<Else/>evening</If></If> to you, <If(PlayerParameter(4))>madam<Else/>sir</If>. Will you be descending into the Yawn?"
-51,"TEXT_STMBDR104_02931_SYSTEM_000_007","Enter the Interdimensional Rift?"
-52,"TEXT_STMBDR104_02931_CID_000_010","I doubt we'll be hearing from Biggs and Wedge for a while yet. Shall we push on here in the meantime?"
-53,"TEXT_STMBDR104_02931_CID_000_011","Reliable as ever. Without further ado, then, let us move things along."
-54,"TEXT_STMBDR104_02931_CID_000_012","According to the analysis, your next opponent, Delta III, is a being named Halicarnassus."
-55,"TEXT_STMBDR104_02931_NERO_000_013","Halicarnassus, you say? The Queen of Dimension Castle?"
-56,"TEXT_STMBDR104_02931_CID_000_014","What's this? You know of her?"
-57,"TEXT_STMBDR104_02931_NERO_000_015","You mean you don't? Well, I suppose a blue-blooded brat such as you would have no interest in humble folktales."
-58,"TEXT_STMBDR104_02931_NERO_000_016","<sigh> It appears a lesson is in order. Halicarnassus is a character from an ancient fable. In the tale, she is one of the chief antagonists, and as such things are wont to unfold, she meets her end at the hands of the heroes─incurably valiant youths not unlike our adventurer friend here."
-59,"TEXT_STMBDR104_02931_NERO_000_017","Literary historians have speculated that the tale could be loosely based on events which took place in the Fourth Astral Era, but little remains of that age, and there is no way to verify the claim. Indeed, most now assume the story to be a work of pure fiction."
-60,"TEXT_STMBDR104_02931_CID_000_018","...You mean to tell me that Omega is populating its grand experiment with <Emphasis>fictional characters</Emphasis>?"
-61,"TEXT_STMBDR104_02931_MIDGARDSORMR_000_019","'Twould seem your understanding is yet lacking. Scant grasp have I of that which men know and know not..."
-62,"TEXT_STMBDR104_02931_MIDGARDSORMR_000_020","Mark me, then. Omega hath no soul. No mind's eye in which to envision a rival."
-63,"TEXT_STMBDR104_02931_MIDGARDSORMR_000_021","To bring forth new life, it must needs draw upon that which hath already been─its every creation being another's conception."
-64,"TEXT_STMBDR104_02931_MIDGARDSORMR_000_022","This limitation is concealed by the breadth of its experience. It possesseth the means to retain the knowledge of entire eras─and not only of this reflection. Yet it perceiveth not this knowledge as we do."
-65,"TEXT_STMBDR104_02931_MIDGARDSORMR_000_023","Fact...fiction...the distinction holdeth no meaning for Omega. All is equal in its eyes. If a thing is logical, it can be created."
-66,"TEXT_STMBDR104_02931_NERO_000_024","Hahaha! That such a wondrous weapon should exist!"
-67,"TEXT_STMBDR104_02931_NERO_000_025","It surpasses my wildest imaginings, and they were <Emphasis>wild</Emphasis> indeed!"
-68,"TEXT_STMBDR104_02931_NERO_000_026","But I gather not everyone shares my excitement. What's the matter, Garlond? Lost your nerve?"
-69,"TEXT_STMBDR104_02931_CID_000_027","Quiet, Nero. We adults are thinking."
-70,"TEXT_STMBDR104_02931_CID_000_028","...But mayhap now is not the time. <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> said <If(PlayerParameter(4))>she<Else/>he</If> was ready to continue, and so am I. Let's deal with Halicarnassus."
-71,"TEXT_STMBDR104_02931_CID_000_030","My musings will keep. For now, we should concentrate on defeating Halicarnassus."
-72,"TEXT_STMBDR104_02931_NERO_000_035","So dangerous─and wondrous─a thing cannot well be left alone. We must reach Omega, no matter the cost."
-73,"TEXT_STMBDR104_02931_ALPHA_000_040","Kweh? Kweh!"
-74,"TEXT_STMBDR104_02931_SYSTEM_000_041","Alpha appears eager to proceed. You may enter Deltascape V3.0 whenever you are ready."
-75,"TEXT_STMBDR104_02931_ALPHA_000_050","Kweh? Kweh!"
-76,"TEXT_STMBDR104_02931_ALPHA_000_060","Kw...kwibbit?"
-77,"TEXT_STMBDR104_02931_NERO_000_065","So that was Halicarnassus. I must congratulate Omega on her appearance. She looked exactly as I imagined her."
-78,"TEXT_STMBDR104_02931_NERO_000_066","Though, if I were to pick fault, it <Emphasis>did</Emphasis> take certain liberties with her character. The queen of the tale was rather more restrained."
-79,"TEXT_STMBDR104_02931_CID_000_070","I'm glad you're safe, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. For a moment there, I feared you might croak."
-80,"TEXT_STMBDR104_02931_CID_000_071","Forgive me. You deserve better than that. Thanks to you, we are but one victory away from clearing the Deltascape. Take as much rest as you need, old friend. You've earned it."
+48,"TEXT_STMBDR104_02931_ALPHA_000_000","クエッ！"
+49,"TEXT_STMBDR104_02931_NERO_000_005","さて、お前も無事だったことだし、
+ちゃっちゃと次に行くかねぇ……。"
+50,"TEXT_STMBDR104_02931_GARLONDGATEKEEPER_000_006","「次元の狭間」の調査、おつかれさまです！
+大穴の中に降りますか？"
+51,"TEXT_STMBDR104_02931_SYSTEM_000_007","「次元の狭間」に移動しますか？"
+52,"TEXT_STMBDR104_02931_CID_000_010","ビッグスとウェッジから調査結果がくるまで、
+もう少し時間がかかりそうだが……
+このまま「デルタIII」との対決に進むか？"
+53,"TEXT_STMBDR104_02931_CID_000_011","……頼もしいな。
+では、遠慮なく進めさせてもらうとしよう。"
+54,"TEXT_STMBDR104_02931_CID_000_012","次の敵、デルタIIIについては、
+今しがた名前が判明したところだ。
+その名も「ハリカルナッソス」というらしい。"
+55,"TEXT_STMBDR104_02931_NERO_000_013","ハリカルナッソス……？
+あの、次元城の女王「ハリカルナッソス」か？"
+56,"TEXT_STMBDR104_02931_CID_000_014","なんだ、知ってるのか？"
+57,"TEXT_STMBDR104_02931_NERO_000_015","知らないお前の方が驚きだ！
+いいとこ出の秀才様は、安価な娯楽に興味がないンだな！"
+58,"TEXT_STMBDR104_02931_NERO_000_016","やれやれ……。
+「ハリカルナッソス」ってのは、古典小説の登場人物なンだよ。
+主人公である青年たちに敗れる、敵側の一角だがな。"
+59,"TEXT_STMBDR104_02931_NERO_000_017","その小説は、第四星暦ごろの史実に基づいた話だと、
+作者が自称してるが……あれは「忘れられた時代」だからな。
+真偽はわからず、今じゃ創作とするのが一般的だ。"
+60,"TEXT_STMBDR104_02931_CID_000_018","ふむ……小説の登場人物……。
+オメガは、そんなものまで被検者にしているのか？"
+61,"TEXT_STMBDR104_02931_MIDGARDSORMR_000_019","……なるほど、ヒトの子には、まだ前提が足りておらぬのか。
+我にはもはや、到底わからぬ機微よ……。"
+62,"TEXT_STMBDR104_02931_MIDGARDSORMR_000_020","よいか……オメガめには、心がない。
+ゆえに、想像を広げることができない。
+己に匹敵する新たな生命体など、自力で描けはせぬのだ。"
+63,"TEXT_STMBDR104_02931_MIDGARDSORMR_000_021","ゆえに、すでに在るものから、標的を探そうとする……。
+造られた被検者たちは皆、何らかの形で、
+いつかどこかに在った者であろうよ。"
+64,"TEXT_STMBDR104_02931_MIDGARDSORMR_000_022","……ただし、汝らと奴とでは、視点がまるで違う。
+あの性能をもってすれば、この世界の数千年におよぶ歴史も、
+重なりあう鏡像世界の出来事でさえ、把握できるであろう。"
+65,"TEXT_STMBDR104_02931_MIDGARDSORMR_000_023","ヒトにとっての真贋など、オメガにとっては無意味……。
+すべては等しく、生命の言動が織りなす事例にすぎぬ。
+奴の理屈で正当とみなされれば、なんであれ再現されよう。"
+66,"TEXT_STMBDR104_02931_NERO_000_024","おいおいおい！
+そンなことができる兵器が実在するってか！"
+67,"TEXT_STMBDR104_02931_NERO_000_025","ああ、オメガ！　まさに規格外！
+最っ高に愉快じゃあないか、なあ！"
+68,"TEXT_STMBDR104_02931_NERO_000_026","……反応が薄いじゃないか。
+さてはビビったか、ガーロンドォ？"
+69,"TEXT_STMBDR104_02931_CID_000_027","いや、今の話……何か引っかかった気がしてな。"
+70,"TEXT_STMBDR104_02931_CID_000_028","無論、怖気づいたわけじゃない。
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>もやると言っているんだ、
+デルタIII「ハリカルナッソス」の攻略に進もう。"
+71,"TEXT_STMBDR104_02931_CID_000_030","細かい理屈を考えるのは後回しだ。
+今は「ハリカルナッソス」を倒すことに集中しないとな。"
+72,"TEXT_STMBDR104_02931_NERO_000_035","規格外の兵器、オメガ……。
+面白い、何がなンでも辿りついてやらなきゃなぁ！"
+73,"TEXT_STMBDR104_02931_ALPHA_000_040","クエッ？
+……クエーッ！"
+74,"TEXT_STMBDR104_02931_SYSTEM_000_041","アルファも、準備は万全のようだ。
+被検世界「デルタ」第三層へ、ともに突入しよう！"
+75,"TEXT_STMBDR104_02931_ALPHA_000_050","クエッ？
+……クエーッ！"
+76,"TEXT_STMBDR104_02931_ALPHA_000_060","クルルルル……クエッ？"
+77,"TEXT_STMBDR104_02931_NERO_000_065","あれが、ハリカルナッソスねぇ……。
+いや、小説に書かれている特徴は、実によく押さえてるぜ？"
+78,"TEXT_STMBDR104_02931_NERO_000_066","だが、なンだかな……この違和感は……。
+あんなに敵を弄ぶだけの奴だったか……？
+まあ、些細な印象の違い程度ではあるが。"
+79,"TEXT_STMBDR104_02931_CID_000_070","よくぞ無事に戻ってきてくれた。
+勝敗もだが、お前が人の形に戻れなくなるんじゃないかと、
+ハラハラしたぞ……。"
+80,"TEXT_STMBDR104_02931_CID_000_071","体に不調はないか？　ちゃんと声は出るか？
+おかげで、次は「デルタ」での最終決戦だ……
+しっかりと休憩をとってから、再開するとしよう。"

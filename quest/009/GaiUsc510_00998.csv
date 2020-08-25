@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSC510_00998_SEQ_00","Looking brighter-eyed than when last you saw her, Guolgeim is ready to do a little moneymaking."
-1,"TEXT_GAIUSC510_00998_SEQ_01","The mudpuppy may like its liver right where it is, but the organ is worth a great deal more on the market, where it enjoys a certain reputation with goatish men. Guolgeim bids you slay five mudpuppies in the Fogfens and harvest their livers."
-2,"TEXT_GAIUSC510_00998_SEQ_02","You have five livers from five mudpuppies, and the Fogfens is not getting any drier. Squelch back to dry land and present Guolgeim with the organs."
-3,"TEXT_GAIUSC510_00998_SEQ_03","Guolgeim gives you a generous payment in return for the mudpuppy livers. Your feet are wet but your purse is heavy, and your heart is lighter for having seen Guolgeim much recovered."
+0,"TEXT_GAIUSC510_00998_SEQ_00","レヴナンツトールの冒険者グオルゲイムは、ひと儲けしようとしている。"
+1,"TEXT_GAIUSC510_00998_SEQ_01","「<Sheet(EventItem,2000763,0)/>」が幻の薬として高値で取引されるらしい。レヴナンツトールの西の「迷霧湿原」で「<Sheet(BNpcName,645,0)/>」から「<Sheet(EventItem,2000763,0)/>」を5匹分入手しよう。"
+2,"TEXT_GAIUSC510_00998_SEQ_02","<Sheet(EventItem,2000763,0)/>は手に入れた。レヴナンツトールに戻って「グオルゲイム」に渡そう。"
+3,"TEXT_GAIUSC510_00998_SEQ_03","グオルゲイムに<Sheet(EventItem,2000763,0)/>を渡した。薬の効能については、深く知らないほうがよさそうだ……。"
 4,"TEXT_GAIUSC510_00998_SEQ_04",""
 5,"TEXT_GAIUSC510_00998_SEQ_05",""
 6,"TEXT_GAIUSC510_00998_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSC510_00998_SEQ_21",""
 22,"TEXT_GAIUSC510_00998_SEQ_22",""
 23,"TEXT_GAIUSC510_00998_SEQ_23",""
-24,"TEXT_GAIUSC510_00998_TODO_00","Harvest livers from mudpuppies."
-25,"TEXT_GAIUSC510_00998_TODO_01","Give the mudpuppy livers to Guolgeim."
+24,"TEXT_GAIUSC510_00998_TODO_00","<Sheet(BNpcName,645,0)/>から<Sheet(EventItem,2000763,0)/>を入手"
+25,"TEXT_GAIUSC510_00998_TODO_01","グオルゲイムに<Sheet(EventItem,2000763,0)/>を渡す"
 26,"TEXT_GAIUSC510_00998_TODO_02",""
 27,"TEXT_GAIUSC510_00998_TODO_03",""
 28,"TEXT_GAIUSC510_00998_TODO_04",""
@@ -49,11 +49,22 @@ int32,str,str
 45,"TEXT_GAIUSC510_00998_TODO_21",""
 46,"TEXT_GAIUSC510_00998_TODO_22",""
 47,"TEXT_GAIUSC510_00998_TODO_23",""
-48,"TEXT_GAIUSC510_00998_GUOLGEIM_000_000","Don't get me wrong, there's more to these parts than just nasties and sad mem'ries. I was on a mudpuppy run myself afore I took the salvage job, and now I aim to reap twice as many livers."
-49,"TEXT_GAIUSC510_00998_GUOLGEIM_000_001","What's it for? Physicking for the ol' touch-trap, of course. Mudpuppy liver fetches a very pretty price on the market─as pretty as the petticoats that's the cause of the demand, I'll wager!"
-50,"TEXT_GAIUSC510_00998_GUOLGEIM_000_002","Here, how about you give me a little hand? I'm still a little done in, it'll be worth the gil to have someone else helping me. You can fetch five livers, can't you?"
-51,"TEXT_GAIUSC510_00998_DUMMY_000_010",""
-52,"TEXT_GAIUSC510_00998_DUMMYTODO_000_010",""
-53,"TEXT_GAIUSC510_00998_GUOLGEIM_000_020","How'd you like the Fogfens? Free leechings every day of the year. But you got the livers, didn't you?"
-54,"TEXT_GAIUSC510_00998_GUOLGEIM_000_030","There's the slimy gold. Nicely cut─here's your gil. You didn't try to eat the mudpuppies, did you? Don't. Poisoned or muddy, those're the only flavors."
-55,"TEXT_GAIUSC510_00998_GUOLGEIM_000_031","Do they work? Oh, <If(PlayerParameter(4))>lassie<Else/>lad</If>, everything works and nothing's good enough for them that's got the kind of gil to spend on such things."
+48,"TEXT_GAIUSC510_00998_GUOLGEIM_000_000","迷霧湿原に棲む「<Sheet(BNpcName,645,0)/>」から採れる、
+「<Sheet(EventItem,2000763,0)/>」は、
+幻の薬として、金持ち連中に法外な値段で売れるんだ。"
+49,"TEXT_GAIUSC510_00998_GUOLGEIM_000_001","この薬を手に入れるためだけに、
+わざわざこの地を訪れる冒険者もいるくらいでね。
+……もとは、あたしもそのひとりってわけさ。"
+50,"TEXT_GAIUSC510_00998_GUOLGEIM_000_002","あんたも同業者だろう？　よければ手伝っておくれよ。
+「<Sheet(EventItem,2000763,0)/>」を5つほど、
+持ってきてくれればいいからさ。"
+51,"TEXT_GAIUSC510_00998_DUMMY_000_010","「<Sheet(BNpcName,645,0)/>」を倒して「<Sheet(EventItem,2000763,0)/>」をゲット
+5匹。"
+52,"TEXT_GAIUSC510_00998_DUMMYTODO_000_010","（★未使用／削除予定★）"
+53,"TEXT_GAIUSC510_00998_GUOLGEIM_000_020","よう、どうだい？
+幻の薬は手に入ったかい？"
+54,"TEXT_GAIUSC510_00998_GUOLGEIM_000_030","……ふむふむ、ちゃぁんと取ってこれたようだね。
+ほら、分前だ。取っときな。"
+55,"TEXT_GAIUSC510_00998_GUOLGEIM_000_031","……いったい、何の効力があるのかって？
+アハハ、バカな男どもが大金を払ってまで欲しい薬なんて、
+ひとつしかないだろ？"

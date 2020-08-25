@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANSYL109_01265_SEQ_00","Tonaxia eyes you warily."
-1,"TEXT_BANSYL109_01265_SEQ_01","As Tonaxia tells it, the touched sylphs have mastered an incantation that allows them to conceal their identity, and have been putting it to liberal use to conduct surprise attacks on the sylphs of Little Solace. Employ the truesight scalebombs that she has furnished you with to put an end to their malicious ruse."
-2,"TEXT_BANSYL109_01265_SEQ_02","The shifty sylpheeds are no more. Inform Tonaxia that the deed is done."
-3,"TEXT_BANSYL109_01265_SEQ_03","Pleased that the malicious masquerade has come to an end, Tonaxia thanks you for your efforts. Fearing that it is only a matter of time before the touched sylphs devise a new ruse, she begs you not to venture far from Little Solace."
+0,"TEXT_BANSYL109_01265_SEQ_00","シルフの仮宿のトナクシアは、困りごとを抱えているようだ。"
+1,"TEXT_BANSYL109_01265_SEQ_01","トナクシアの依頼を受けた。ラークスコールの怪しいものに「<Sheet(EventItem,2001153,0)/>」を使い、現れた「<Sheet(BNpcName,2313,0)/>」を3体討伐しよう。"
+2,"TEXT_BANSYL109_01265_SEQ_02","怪しいものに化けていた<Sheet(BNpcName,2313,0)/>を討伐した。シルフの仮宿の「トナクシア」に報告しよう。"
+3,"TEXT_BANSYL109_01265_SEQ_03","トナクシアに報告した。トナクシアは冒険者の戦果に満足しているようだ。悪い子シルフのおまぢないは厄介だが、しばらくは彼らも大人しくしていることだろう。"
 4,"TEXT_BANSYL109_01265_SEQ_04",""
 5,"TEXT_BANSYL109_01265_SEQ_05",""
 6,"TEXT_BANSYL109_01265_SEQ_06",""
@@ -25,8 +25,9 @@ int32,str,str
 21,"TEXT_BANSYL109_01265_SEQ_21",""
 22,"TEXT_BANSYL109_01265_SEQ_22",""
 23,"TEXT_BANSYL109_01265_SEQ_23",""
-24,"TEXT_BANSYL109_01265_TODO_00","Throw truesight scalebombs at the suspicious objects and defeat sylpheed chuckles."
-25,"TEXT_BANSYL109_01265_TODO_01","Report to Tonaxia."
+24,"TEXT_BANSYL109_01265_TODO_00","ラークスコールの怪しいものに<Sheet(EventItem,2001153,0)/>を使い
+<Sheet(BNpcName,2313,0)/>を討伐"
+25,"TEXT_BANSYL109_01265_TODO_01","トナクシアに報告"
 26,"TEXT_BANSYL109_01265_TODO_02",""
 27,"TEXT_BANSYL109_01265_TODO_03",""
 28,"TEXT_BANSYL109_01265_TODO_04",""
@@ -49,22 +50,41 @@ int32,str,str
 45,"TEXT_BANSYL109_01265_TODO_21",""
 46,"TEXT_BANSYL109_01265_TODO_22",""
 47,"TEXT_BANSYL109_01265_TODO_23",""
-48,"TEXT_BANSYL109_01265_TONAXIA_000_000","Friendly one! Wait...is friendly one really friendly one? This one cannot trust any one anymore!"
-49,"TEXT_BANSYL109_01265_TONAXIA_000_001","Why? Because touched ones have learned sneaky skin-changing spell! Sneaky ones change skin, then jump out and hurt these ones! This one is afraid to leave Little Solace."
-50,"TEXT_BANSYL109_01265_TONAXIA_000_002","...Friendly one does not hurt this one. Good, this one can trust friendly one, give friendly one see-boom."
-51,"TEXT_BANSYL109_01265_TONAXIA_000_003","See-boom will let friendly one see through changed skin, see sneaky ones' sneaky selves."
-52,"TEXT_BANSYL109_01265_TONAXIA_000_004","Friendly one will search for sneaky ones, yes? Bring an end to sneaky ones' sneaking?"
-53,"TEXT_BANSYL109_01265_TONAXIA_000_010","Friendly one will use see-boom to bring an end to sneaky ones' sneaking, yes?"
-54,"TEXT_BANSYL109_01265_OLDMAN_000_015","Ah, so this is Larkscall, primeval home of the august sylphs! This one...er, this <Emphasis>old man</Emphasis> has never seen such beauty!"
-55,"TEXT_BANSYL109_01265_OLDWOMAN_000_015","Greetings, walking─ah, <Emphasis>adventurer</Emphasis>. Would you be so kind as to show this old lady to Little Solace?"
-56,"TEXT_BANSYL109_01265_SUIMMER_000_015","Ah, nothing like a wade in a forest stream. The crisp, cool waters send a most pleasant shiver up my wings─er, spine?"
-57,"TEXT_BANSYL109_01265_RUGAO_000_015","Many weapons for sale have I. Stabby ones, slicy ones, pokey ones, prickly ones..."
-58,"TEXT_BANSYL109_01265_SYLPHENEMY_000_016","How did walking one know!?"
-59,"TEXT_BANSYL109_01265_SYLPHENEMY_000_017","But this one's disguise was perfect!"
-60,"TEXT_BANSYL109_01265_SYLPHENEMY_000_018","Walking one is no fun! Die, boring one!"
-61,"TEXT_BANSYL109_01265_SYLPHENEMY_000_019","Walking one should mind one's own business!"
-62,"TEXT_BANSYL109_01265_TONAXIA_000_020","Oh, thank you, friendly one! Maybe that will teach sneaky ones that these ones are not so easily fooled."
-63,"TEXT_BANSYL109_01265_TONAXIA_000_021","This one has no doubt that touched ones are planning more sneakiness. Pray do not leave these ones yet, friendly one."
-64,"TEXT_BANSYL109_01265_POP_MESSAGE","The skin-changing spell is broken!"
-65,"TEXT_BANSYL109_01265_RECTERROR_MESSAGE","The enemy is still about!"
-66,"TEXT_BANSYL109_01265_SYSTEM_000_030","You sense something amiss..."
+48,"TEXT_BANSYL109_01265_TONAXIA_000_000","うむむ……怪しいでふっち。
+あんたは、本物の冒険者でふっち？"
+49,"TEXT_BANSYL109_01265_TONAXIA_000_001","……ふっちっち、これは失礼でふっち。
+悪い子シルフが「変化のおまぢない」で変装して、
+森や仮宿の様子を調べてるみたいなんでふっち。"
+50,"TEXT_BANSYL109_01265_TONAXIA_000_002","森の中で怪しいものがあったら、
+きっと、それが悪い子シルフが変装しているものでふっち。
+やつらの変装を見破って、こらしめてほしいのでふっち。"
+51,"TEXT_BANSYL109_01265_TONAXIA_000_003","この「<Sheet(EventItem,2001153,0)/>」を使ってほしいでふっち。
+どんなに変装してても、たちまち見破れるはずでふっち。
+見破ったら、遠慮なしでオシオキしてやるでふっち！"
+52,"TEXT_BANSYL109_01265_TONAXIA_000_004","調べ回っている悪い子シルフは、3人ほどいるはずでふっち。
+がんばって見つけて、やっつけてほしいのでふっち。"
+53,"TEXT_BANSYL109_01265_TONAXIA_000_010","怪しいものに変装している悪い子シルフを見つけて、
+「<Sheet(EventItem,2001153,0)/>」で見破ったら、
+こらしめてやるでのふっち！"
+54,"TEXT_BANSYL109_01265_OLDMAN_000_015","おお、よくきなさった。
+ここは、伝説の森ラークスコールじゃ……でふっち。"
+55,"TEXT_BANSYL109_01265_OLDWOMAN_000_015","冒険者様、おはようございます……。
+長い道中、さぞやお疲れでしょう。
+我が家の床をお使いください……でふっち。"
+56,"TEXT_BANSYL109_01265_SUIMMER_000_015","うっふ～ん！
+ようこそ、森の楽園ラークスコールへ！
+いっしょに楽しみましょう……でふっち。"
+57,"TEXT_BANSYL109_01265_RUGAO_000_015","ようこそ、いらっしゃいませ！
+私は旅の行商人……。
+武具にポーション、なんでもござれです……でふっち。"
+58,"TEXT_BANSYL109_01265_SYLPHENEMY_000_016","バレたでふっち！"
+59,"TEXT_BANSYL109_01265_SYLPHENEMY_000_017","見つかったでふっち！"
+60,"TEXT_BANSYL109_01265_SYLPHENEMY_000_018","なんでバレたでふっち！？"
+61,"TEXT_BANSYL109_01265_SYLPHENEMY_000_019","邪魔すんなでふっち！"
+62,"TEXT_BANSYL109_01265_TONAXIA_000_020","よくやったでふっち！
+しばらくは、悪い子シルフも大人しくするはずでふっち。"
+63,"TEXT_BANSYL109_01265_TONAXIA_000_021","もしも、悪い子シルフが戻ってきて同じことをしたら、
+また手伝ってほしいのでふっち。"
+64,"TEXT_BANSYL109_01265_POP_MESSAGE","敵の気配を感じた！！"
+65,"TEXT_BANSYL109_01265_RECTERROR_MESSAGE","その行動は出現した敵を倒さないと実行できません"
+66,"TEXT_BANSYL109_01265_SYSTEM_000_030","見るからに怪しいものがある……。"

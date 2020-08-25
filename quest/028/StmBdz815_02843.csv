@@ -1,14 +1,14 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ815_02843_SEQ_00","Baut is ready to get to the root of his problem."
-1,"TEXT_STMBDZ815_02843_SEQ_01","Before trying to convince the townsfolk of anything, Baut would first learn why they choose to defend him so fiercely. To that end, he suggests the two of you split up and learn what you can about why they adore him so."
-2,"TEXT_STMBDZ815_02843_SEQ_02","The people you speak with tell you of Baut's kindness and willingness to defend them from his fellow Garlean soldiers. One man, preoccupied with carrying cargo, suggests you speak with J'dyalani to learn more."
-3,"TEXT_STMBDZ815_02843_SEQ_03","J'dyalani agrees to tell you about Baut under one condition: you must accompany her outside of town to exterminate spinners that have built a nest close by. With no other options, you concede and follow her out into the barren lands of Wightrock."
-4,"TEXT_STMBDZ815_02843_SEQ_04","It is not long before you arrive at your destination. As you approach, she directs your attention to the spinner's nest, taking care to remain at a safe distance. You ready your blade and prepare to flush the beasts out of hiding."
-5,"TEXT_STMBDZ815_02843_SEQ_05","Despite their numbers, the spinners are no match for you. Perhaps now you can finally learn why the villagers are so protective of Baut."
-6,"TEXT_STMBDZ815_02843_SEQ_06","J'dyalani explains to you the hopeless situation the people of Ala Ghiri found themselves in, and how their living conditions quickly improved when Baut assumed command there. You wonder how he will react, knowing his actions are the source of their adoration."
-7,"TEXT_STMBDZ815_02843_SEQ_07","When you explain to Baut the villagers' reasons for defending him, he begins by asserting he merely grew tired of his men abusing them. As his explanation continues, it becomes clear the real reason for his compassion: their suffering reminded him of his deceased wife and children who he had been fighting to rescue from life under Garlean rule. Putting his recollections aside, Baut is ready to move on to the next step of his plan─convincing the townsfolk that he is not worth protecting."
+0,"TEXT_STMBDZ815_02843_SEQ_00","アラギリのバウトは、説得を手伝ってほしいようだ。"
+1,"TEXT_STMBDZ815_02843_SEQ_01","アラギリの住人を説得するために、情報を集めることになった。アラギリでバウトが慕われる理由について情報を集めよう。"
+2,"TEXT_STMBDZ815_02843_SEQ_02","情報を集めた。さらにくわしい話を聞くため、アラギリの「ジャ・ヤーラニ」と話そう。"
+3,"TEXT_STMBDZ815_02843_SEQ_03","ジャ・ヤーラニと話した。バウトを知るためにと、<Sheet(BNpcName,5923,0)/>の駆除を頼まれた。アラギリ付近の「ジャ・ヤーラニ」と合流しよう。"
+4,"TEXT_STMBDZ815_02843_SEQ_04","ジャ・ヤーラニと合流した。アラギリ付近の「<Sheet(EObj,2008804,0)/>」を調べて、現れた「<Sheet(BNpcName,5923,0)/>」を討伐しよう。"
+5,"TEXT_STMBDZ815_02843_SEQ_05","<Sheet(BNpcName,5923,0)/>を討伐した。アラギリ付近の「ジャ・ヤーラニ」に報告しよう。"
+6,"TEXT_STMBDZ815_02843_SEQ_06","ジャ・ヤーラニに報告した。帝国軍の横暴を減らしたことが、バウトを慕う理由だった。アラギリの「バウト」に報告しよう。"
+7,"TEXT_STMBDZ815_02843_SEQ_07","バウトに報告した。彼は、死んだ家族とアラギリの住人が重なって見えたため、帝国軍の横暴を見過ごせなかったと語った。引き続き、この事態を解決するため、バウトに協力しよう。"
 8,"TEXT_STMBDZ815_02843_SEQ_08",""
 9,"TEXT_STMBDZ815_02843_SEQ_09",""
 10,"TEXT_STMBDZ815_02843_SEQ_10",""
@@ -25,12 +25,12 @@ int32,str,str
 21,"TEXT_STMBDZ815_02843_SEQ_21",""
 22,"TEXT_STMBDZ815_02843_SEQ_22",""
 23,"TEXT_STMBDZ815_02843_SEQ_23",""
-24,"TEXT_STMBDZ815_02843_TODO_00","Gather information about Baut."
-25,"TEXT_STMBDZ815_02843_TODO_01","Speak with J'dyalani."
-26,"TEXT_STMBDZ815_02843_TODO_02","Rendezvous with J'dyalani."
-27,"TEXT_STMBDZ815_02843_TODO_03","Examine the spinner's web and slay the spitting spinners."
-28,"TEXT_STMBDZ815_02843_TODO_04","Speak with J'dyalani."
-29,"TEXT_STMBDZ815_02843_TODO_05","Report to Baut."
+24,"TEXT_STMBDZ815_02843_TODO_00","バウトが慕われる理由について情報を集める"
+25,"TEXT_STMBDZ815_02843_TODO_01","ジャ・ヤーラニと話す"
+26,"TEXT_STMBDZ815_02843_TODO_02","アラギリ付近のジャ・ヤーラニと合流"
+27,"TEXT_STMBDZ815_02843_TODO_03","<Sheet(EObj,2008804,0)/>を調べて<Sheet(BNpcName,5923,0)/>を討伐"
+28,"TEXT_STMBDZ815_02843_TODO_04","ジャ・ヤーラニに報告"
+29,"TEXT_STMBDZ815_02843_TODO_05","バウトに報告"
 30,"TEXT_STMBDZ815_02843_TODO_06",""
 31,"TEXT_STMBDZ815_02843_TODO_07",""
 32,"TEXT_STMBDZ815_02843_TODO_08",""
@@ -49,34 +49,92 @@ int32,str,str
 45,"TEXT_STMBDZ815_02843_TODO_21",""
 46,"TEXT_STMBDZ815_02843_TODO_22",""
 47,"TEXT_STMBDZ815_02843_TODO_23",""
-48,"TEXT_STMBDZ815_02843_BAUT_000_000","So you'll help, then? Good, good."
-49,"TEXT_STMBDZ815_02843_BAUT_000_001","For a start, it'd be nice to know why they're so insistent on protecting me in the first place."
-50,"TEXT_STMBDZ815_02843_BAUT_000_002","Though I'd love to spare my blushes and leave this all to you, we need to hear from as many people as we can. How about we both make a sweep of the village and meet back here?"
-51,"TEXT_STMBDZ815_02843_BAUT_000_003","You go on ahead. I need to figure out a good way to broach the subject without embarrassing myself."
-52,"TEXT_STMBDZ815_02843_JDYALANI_000_004","<sigh> I suppose if the spinners are to be exterminated I'll have to seek help from the soldiers after all."
-53,"TEXT_STMBDZ815_02843_CITIZENA02843_000_010","I never did anything wrong, but the Garlemans would always hit me. Mister Baut was different, though. He was always there to cheer me up, and he'd play with me sometimes. Do you think these new people will play with me too?"
-54,"TEXT_STMBDZ815_02843_CITIZENB02843_000_020","If Baut hadn't stopped his men, I wouldn't be standing here before you. He was hard, but fair, and now these Resistance fighters have taken over the place. Sure, they seem friendly now, but just you wait..."
-55,"TEXT_STMBDZ815_02843_CITIZENB02843_000_030","I think it's fair to say we all owe Baut a great debt. I'd tell you more, but as you can see, I'm a little busy. Why not go talk to J'dyalani?"
-56,"TEXT_STMBDZ815_02843_JDYALANI_000_040","Ah, the adventurer from before. <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, was it? You wish to know more about Baut?"
-57,"TEXT_STMBDZ815_02843_JDYALANI_000_041","I would love to tell you all about him, but first, I must ask a favor."
-58,"TEXT_STMBDZ815_02843_JDYALANI_000_042","The village has been plagued by spitting spinners as of late. I took a look around, and discovered they've built a nest close by."
-59,"TEXT_STMBDZ815_02843_JDYALANI_000_043","I considered petitioning the soldiers for aid, but you seem more than capable of the job. Help me get rid of the nest and I'll tell you everything you want to know. Agreed?"
-60,"TEXT_STMBDZ815_02843_JDYALANI_000_044","Excellent. Let's get going, then. I'll lead the way."
-61,"TEXT_STMBDZ815_02843_JDYALANI_000_045","There you are. The nest is just ahead."
-62,"TEXT_STMBDZ815_02843_JDYALANI_100_045","Be careful. Their spit is quite poisonous."
-63,"TEXT_STMBDZ815_02843_JDYALANI_000_050","Thank you ever so much. I can't tell you how many we've nearly lost trying to do away with those horrible things."
-64,"TEXT_STMBDZ815_02843_JDYALANI_000_051","Sadly this isn't the first time they've caused us trouble. When the Garleans first took Ala Ghiri, these lands were rife with spinners for a time. Though we begged for help, our pleas fell on deaf ears."
-65,"TEXT_STMBDZ815_02843_JDYALANI_000_052","Our village is meant to be a trading hub, so you'd think they would protect such a place, but no. They would come only to get deep in their cups, or take out their frustrations on whoever happened to be present at the time."
-66,"TEXT_STMBDZ815_02843_JDYALANI_000_053","If we weren't suffering at the hands of drunken soldiers, we were fending for our lives against all manner of beast with whatever makeshift weapons we could find. There was nothing we could do but endure their mocking laughter as we struggled to survive. "
-67,"TEXT_STMBDZ815_02843_JDYALANI_000_054","Baut changed all that. After he came and assumed command, he immediately put an end to our misery. The difference in our treatment was like night and day."
-68,"TEXT_STMBDZ815_02843_JDYALANI_000_055","He gave us our lives back, which is more than I can say for what the Allied forces are like to do for us."
-69,"TEXT_STMBDZ815_02843_JDYALANI_000_056","Baut is a good man, and I hope in time you'll come to see him as we do."
-70,"TEXT_STMBDZ815_02843_BAUT_000_060","No matter who I talked to, there was too much beating around the bush to get any clear answers. Did they tell you anything useful?"
-71,"TEXT_STMBDZ815_02843_BAUT_000_061","They said all that? Well, I'm no saint. I was just tired of seeing my men beat them bloody all the time. I'd seen enough of it before coming here."
-72,"TEXT_STMBDZ815_02843_BAUT_000_062","It's amazing how treatment of the Empire's subjects can vary from place to place. There are territories where life is unchanged by the Garleans' presence, and yet there are others whose denizens would welcome death with open arms."
-73,"TEXT_STMBDZ815_02843_BAUT_000_063","The only escape from either is to join their armies. If you manage to survive twenty years of service, you and your family can earn citizenship, a chance to have a good life."
-74,"TEXT_STMBDZ815_02843_BAUT_000_064","Needless to say I jumped at the opportunity. I fought and I fought until before I knew it, I was an imperial centurion."
-75,"TEXT_STMBDZ815_02843_BAUT_000_065","But it was too late. Shortly after my promotion, I received word of my family's death, snatched away by some widespread illness."
-76,"TEXT_STMBDZ815_02843_BAUT_000_066","The suffering of these people only served to remind me of my loss, so I put an end to it. Simple as that."
-77,"TEXT_STMBDZ815_02843_BAUT_000_067","Yet still they thank me, after I've killed so many. I'll never understand such nonsense."
-78,"TEXT_STMBDZ815_02843_BAUT_000_068","At least now we know for certain the reason for their adoration. Now we just have to convince them I'm not worth protecting."
+48,"TEXT_STMBDZ815_02843_BAUT_000_000","おお、みんなの説得を手伝ってくれるってのか、冒険者！
+ありがてェ、恩に着るぜ！"
+49,"TEXT_STMBDZ815_02843_BAUT_000_001","さて、どうやって説得するかなんだが……
+そもそも、俺っちはどうしてあんなに慕われてるんだ？
+……自分で言ってて、恥ずかしいなァ、これ！"
+50,"TEXT_STMBDZ815_02843_BAUT_000_002","ともかく、原因を調べなきゃ、対処は不可能だ。
+俺っちの方でも聞いてみるから、
+アンタも、慕われる理由をみんなから聞いてみてくれ。"
+51,"TEXT_STMBDZ815_02843_BAUT_000_003","自分で言うのは、かなり恥ずかしいんだが、
+俺っちが慕われている理由を、みんなから聞いてみてくれ。
+恥ずかしいの我慢して、俺っちの方でも聞いてみるからよ。"
+52,"TEXT_STMBDZ815_02843_JDYALANI_000_004","……やはり、駆除は解放軍の方を頼るしかありませんね。
+露見に繋がる危険はありますが、背に腹は変えられません。"
+53,"TEXT_STMBDZ815_02843_CITIZENA02843_000_010","テイコクヘイは、何もしてないのにアタシのこと叩いたけれど、
+バウトおじさんは、優しくて、一緒に遊んでくれたんだよ！
+だから、大好き！"
+54,"TEXT_STMBDZ815_02843_CITIZENB02843_000_020","この老いぼれが、帝国兵に殺されかけたとき、
+バウト殿は我が身を顧みず、助けてくださったんじゃ。
+本当に尊敬できる方じゃて。"
+55,"TEXT_STMBDZ815_02843_CITIZENB02843_000_030","アラギリの住人は、ほぼ全員があの人の世話になってる。
+どれくらい感謝してるか、くわしく知りたいなら、
+「ジャ・ヤーラニ」に聞いてみるといい。"
+56,"TEXT_STMBDZ815_02843_JDYALANI_000_040","あら、あなたはこの前の冒険者さま……。
+バウトさまのことをお知りになりたいと！？
+まあ、まあ、まあ！"
+57,"TEXT_STMBDZ815_02843_JDYALANI_000_041","私でよろしいのであれば、喜んでお話しましょう！
+……と、言いたいところですが、その前に。
+あの方を知るため、ひとつ依頼を受けていただけませんか？"
+58,"TEXT_STMBDZ815_02843_JDYALANI_000_042","最近、<Sheet(BNpcName,5923,0)/>が、
+街の中へ侵入してくるようになりました。
+調べてみたところ、アラギリの近くに巣を作ったようでして。"
+59,"TEXT_STMBDZ815_02843_JDYALANI_000_043","解放軍に駆除を依頼しようかと迷っていましたが……
+バウトさまを知りたいというのでしたら、
+ぜひあなたに、駆除していただきたいのです。"
+60,"TEXT_STMBDZ815_02843_JDYALANI_000_044","ありがとうございます。
+では、巣の近くまでご案内しましょう。
+こちらです……。"
+61,"TEXT_STMBDZ815_02843_JDYALANI_000_045","ああ、冒険者さま……。
+<Sheet(BNpcName,5923,0)/>の巣は、
+あちらでございます。"
+62,"TEXT_STMBDZ815_02843_JDYALANI_100_045","<Sheet(BNpcName,5923,0)/>の巣は、
+あちらでございます。
+どうかお気をつけて。"
+63,"TEXT_STMBDZ815_02843_JDYALANI_000_050","駆除できたようですね。
+冒険者様、ありがとうございます。
+私たちでは対処しきれず、大怪我を負っていたでしょう。"
+64,"TEXT_STMBDZ815_02843_JDYALANI_000_051","実は、帝国の占領時代にも、似た出来事がありました。
+そのときは、帝国軍に助けを求めましたが、なしのつぶて……。"
+65,"TEXT_STMBDZ815_02843_JDYALANI_000_052","もともと、アラギリは東方交易路に作られた宿場街でした。
+ですが、帝国の支配下では、その役目をほとんど果たせず、
+帝国軍の兵士に酒を振る舞い、宿を提供するしかありません。"
+66,"TEXT_STMBDZ815_02843_JDYALANI_000_053","帝国軍に依存し、従う以外、アラギリが生きる道はなかった……。
+ありあわせの道具で魔物に挑み、大怪我をする様子を、
+愉快そうに見物されても、受け入れるしか、なかったのです。"
+67,"TEXT_STMBDZ815_02843_JDYALANI_000_054","そんな状況を変えてくれたのが、バウトさまです。
+あの方が、アラギリに駐屯する部隊の隊長になって以降、
+帝国軍の横暴はウソのように減りました。"
+68,"TEXT_STMBDZ815_02843_JDYALANI_000_055","あの方のおかげで、この街の住人は、人として生きていけたのです。
+そんな恩人が自ら死にに行こうとするのを止めるのは、
+ごく自然なことでしょう？"
+69,"TEXT_STMBDZ815_02843_JDYALANI_000_056","私たちの想いは、これで理解していただけたと思います。
+冒険者さまがあの方の味方であることを、重ねて祈りますわ。
+それでは……。"
+70,"TEXT_STMBDZ815_02843_BAUT_000_060","おお、戻ったか冒険者！
+どうよどうよ、説得の材料になりそうな話は聞けたか？"
+71,"TEXT_STMBDZ815_02843_BAUT_000_061","オイオイオイ、みんな買いかぶり過ぎだって……。
+俺っちは、ただ自分の身勝手で、
+アラギリのみんなが傷つくのを、見たくなかっただけだ。"
+72,"TEXT_STMBDZ815_02843_BAUT_000_062","帝国の属州統治ってのは、総督の方針で大きく変わる。
+属州人が暮らしやすい場所もあれば、
+死んだ方がマシって場所もある……俺っちは後者の出身でね。"
+73,"TEXT_STMBDZ815_02843_BAUT_000_063","そんな属州で人として生きたければ、軍に入るしかない。
+20年間の兵役を耐え抜けば、市民権を得られて、
+家族にも、まともな生活をさせてやれる……。"
+74,"TEXT_STMBDZ815_02843_BAUT_000_064","だから俺っちは、軍に入ることにした。
+ひたすら戦って、戦って、戦って……。
+おかげで気がついたら、百人隊長になってたよ。"
+75,"TEXT_STMBDZ815_02843_BAUT_000_065","でも、遅かった。
+家族の訃報が届いたのは、百人隊長に昇進した直後さ。
+みんな、流行病で死んだって……紙切れ一枚だけだった……。"
+76,"TEXT_STMBDZ815_02843_BAUT_000_066","その後くらいからか、
+アラギリの住民が、死んだ家族と重なってね。
+どうにも、苦境を見過ごすことができなかった。"
+77,"TEXT_STMBDZ815_02843_BAUT_000_067","……どうだい、情けないにも程があるだろ？
+だいたい、帝国兵としてアラミゴ人を殺したこともあるのに、
+そんな奴のことを感謝してるだなんて、ちょっと呑気すぎだっての！"
+78,"TEXT_STMBDZ815_02843_BAUT_000_068","まあでも、俺っちが聞いた話も同じような内容だったし、
+これで原因はハッキリしたみてェだな！
+ありがとよ、助かったぜ冒険者！"

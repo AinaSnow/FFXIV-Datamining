@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNZ019_01744_SEQ_00","Ingaret is muttering something about bridge repairs."
-1,"TEXT_HEAVNZ019_01744_SEQ_01","Ingaret has been tasked with driving away the upland mylodons on the far side of the Black Iron Bridge. The bridge needs repairs, but the craftsmen cannot work safely when there are monsters within pouncing distance. Ingaret is not confident that she can take on so many beasts at once, so kill three of the monsters and she will finish off the rest."
-2,"TEXT_HEAVNZ019_01744_SEQ_02","You make short work of the mylodons. Return to Ingaret so she can do her part."
-3,"TEXT_HEAVNZ019_01744_SEQ_03","Ingaret thanks you for your help and pays you your share of the bounty on the beasts. She also tells you about a farm on the far side of the bridge. It has fallen into disrepair, but if the mylodons are driven away completely, it might be possible to rebuild it."
+0,"TEXT_HEAVNZ019_01744_SEQ_00","ファルコンネストのインガレットは、なにか思い悩んでいるようだ。"
+1,"TEXT_HEAVNZ019_01744_SEQ_01","インガレットに<Sheet(BNpcName,3474,0)/>の討伐を頼まれた。クルザス西部高地のブラックアイアン・ブリッジの北で、「<Sheet(BNpcName,3474,0)/>」を3体討伐しよう。"
+2,"TEXT_HEAVNZ019_01744_SEQ_02","<Sheet(BNpcName,3474,0)/>を討伐した。ファルコンネストの「インガレット」に報告しよう。"
+3,"TEXT_HEAVNZ019_01744_SEQ_03","インガレットに<Sheet(BNpcName,3474,0)/>の討伐を報告した。彼女は、ブラックアイアン・ブリッジの補修工事のため、ミロドンの駆除を続けていくようだ。"
 4,"TEXT_HEAVNZ019_01744_SEQ_04",""
 5,"TEXT_HEAVNZ019_01744_SEQ_05",""
 6,"TEXT_HEAVNZ019_01744_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_HEAVNZ019_01744_SEQ_21",""
 22,"TEXT_HEAVNZ019_01744_SEQ_22",""
 23,"TEXT_HEAVNZ019_01744_SEQ_23",""
-24,"TEXT_HEAVNZ019_01744_TODO_00","Slay upland mylodons."
-25,"TEXT_HEAVNZ019_01744_TODO_01","Report to Ingaret."
+24,"TEXT_HEAVNZ019_01744_TODO_00","<Sheet(BNpcName,3474,0)/>を討伐"
+25,"TEXT_HEAVNZ019_01744_TODO_01","インガレットに報告"
 26,"TEXT_HEAVNZ019_01744_TODO_02",""
 27,"TEXT_HEAVNZ019_01744_TODO_03",""
 28,"TEXT_HEAVNZ019_01744_TODO_04",""
@@ -49,11 +49,23 @@ int32,str,str
 45,"TEXT_HEAVNZ019_01744_TODO_21",""
 46,"TEXT_HEAVNZ019_01744_TODO_22",""
 47,"TEXT_HEAVNZ019_01744_TODO_23",""
-48,"TEXT_HEAVNZ019_01744_INGARET_000_000","Do you have a moment to talk? A short while ago, one of the workers from House Dzemael asked me to go and deal with some mylodons that have been causing trouble."
-49,"TEXT_HEAVNZ019_01744_INGARET_000_001","The Black Iron Bridge barely survived the Calamity. It's in desperate need of repairs, but the upland mylodons roam far too close to it─the craftsmen can't work safely. Someone needs to kill them... The mylodons, that is! Not the craftsmen!
-I'd ask the dragoons to do it, but they're so busy it'd be weeks before they found the time. I'd do it myself, but there're so many of the beasts that I fear I'd be swarmed and outnumbered."
-50,"TEXT_HEAVNZ019_01744_INGARET_000_002","You're a capable <If(PlayerParameter(4))>woman<Else/>man</If>. Would you be so kind as to thin them out somewhat? If you were to kill, say, three of them, I think I'd be able to finish off the rest myself."
-51,"TEXT_HEAVNZ019_01744_INGARET_000_010","The mylodons are just to the north of the Black Iron Bridge. If you were to slay three of the beasts, that should be enough for me to finish them off. Please do be careful."
-52,"TEXT_HEAVNZ019_01744_INGARET_000_030","You've already killed three of them? Thank you ever so much. You're not injured, are you? Here, please take this. It's your cut of the fee for the work."
-53,"TEXT_HEAVNZ019_01744_INGARET_000_031","Incidentally, did you happen to see the farm on the far side of the bridge? Those mylodons have made it difficult to access that area, and the bridge has been left to fall apart."
-54,"TEXT_HEAVNZ019_01744_INGARET_000_032","After we repair the bridge, one day we might be able to rebuild that farm."
+48,"TEXT_HEAVNZ019_01744_INGARET_000_000","あなたは……えっ、お話を聞いてくれるんですか……？
+実は、先ほどゼーメル家の石工たちに詰め寄られまして、
+ミロドンどもを討伐せよと、迫られていたんです。"
+49,"TEXT_HEAVNZ019_01744_INGARET_000_001","「ブラックアイアン・ブリッジ」の補修工事のためには、
+あの辺りの魔獣が脅威になっているのはわかります……。
+ですが、騎兵団を派遣してもらうには、時間もかかって……。"
+50,"TEXT_HEAVNZ019_01744_INGARET_000_002","冒険者さんができるなら、ぜひお願いしたいんです。
+「<Sheet(BNpcName,3474,0)/>」を3体ほど倒してもらえれば、
+後はこっちでがんばりますので……よろしくお願いします。"
+51,"TEXT_HEAVNZ019_01744_INGARET_000_010","えっと……「ブラックアイアン・ブリッジ」の辺りにいる、
+「<Sheet(BNpcName,3474,0)/>」を3体倒してきてください。
+気をつけてくださいね。"
+52,"TEXT_HEAVNZ019_01744_INGARET_000_030","ミロドンを倒してきてくれたんですね、ありがとうございます！
+これでゼーメル家の石工たちも、少しは安心して、
+作業に挑むことができるでしょう。"
+53,"TEXT_HEAVNZ019_01744_INGARET_000_031","ブラックアイアン・ブリッジの修繕が進めば、
+どんな大軍勢でも、心配なく橋を渡ることができます。
+そうすれば、橋向こうの一帯の安全性も増しますからね。"
+54,"TEXT_HEAVNZ019_01744_INGARET_000_032","いずれ、ゴルガニュ牧場やヘムロックといった場所を、
+再興するためにも、ミロドンの駆除を続けなくては……！"

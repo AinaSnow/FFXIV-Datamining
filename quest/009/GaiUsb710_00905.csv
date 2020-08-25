@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB710_00905_SEQ_00","Belmont requires your service, and his air of command is hard to resist."
-1,"TEXT_GAIUSB710_00905_SEQ_01","Belmont desires contact with his former comrade in the Gods' Quiver in order to quickly begin a campaign against the Ixal in Coerthas. Travel to the North Shroud and take Belmont's letter to Isaudorel at the Bobbing Cork in Fallgourd Float."
-2,"TEXT_GAIUSB710_00905_SEQ_02","The White Rams appear to have a particular interest in the Ixal, and Isaudorel is quick to pledge the levy to Belmont's campaign. Isaudorel also lets drop that Belmont inexplicably traded an honored place in the White Rams for the life of a sellsword..."
+0,"TEXT_GAIUSB710_00905_SEQ_00","キャンプ・ドラゴンヘッドの傭兵ベルモントは、折り入って頼みたいことがあるようだ。"
+1,"TEXT_GAIUSB710_00905_SEQ_01","ベルモントはイクサル族の動きに対抗するため、昔の同僚に連絡を取りたいようだ。黒衣森・北部森林にあるフォールゴウドの「浮かぶコルク亭」にいる「イゾドレール」に「<Sheet(EventItem,2000708,0)/>」を渡そう。"
+2,"TEXT_GAIUSB710_00905_SEQ_02","イゾドレールは、イクサル族を宿敵と憎む「白羊師団」に所属しているらしい。どうやらベルモントの依頼に応えてくれるようだ。"
 3,"TEXT_GAIUSB710_00905_SEQ_03",""
 4,"TEXT_GAIUSB710_00905_SEQ_04",""
 5,"TEXT_GAIUSB710_00905_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_GAIUSB710_00905_SEQ_21",""
 22,"TEXT_GAIUSB710_00905_SEQ_22",""
 23,"TEXT_GAIUSB710_00905_SEQ_23",""
-24,"TEXT_GAIUSB710_00905_TODO_00","Deliver the letter to Isaudorel in Fallgourd Float."
+24,"TEXT_GAIUSB710_00905_TODO_00","フォールゴウドのイゾドレールに<Sheet(EventItem,2000708,0)/>を渡す"
 25,"TEXT_GAIUSB710_00905_TODO_01",""
 26,"TEXT_GAIUSB710_00905_TODO_02",""
 27,"TEXT_GAIUSB710_00905_TODO_03",""
@@ -49,11 +49,24 @@ int32,str,str
 45,"TEXT_GAIUSB710_00905_TODO_21",""
 46,"TEXT_GAIUSB710_00905_TODO_22",""
 47,"TEXT_GAIUSB710_00905_TODO_23",""
-48,"TEXT_GAIUSB710_00905_BELMONT_000_000","The Ixal are moving into Coerthas in a lasting way. It's no small task to bring those logs from the Twelveswood this far west."
-49,"TEXT_GAIUSB710_00905_BELMONT_000_001","They must be using their cursed balloons, those shite–birds. Even their supplies have wings, and what comes out of the balloons goes into the ground of Coerthas. We need to hit 'em now before their settlement gets bigger."
-50,"TEXT_GAIUSB710_00905_BELMONT_000_002","The Ishgardians won't give a swive till it's too late. I need my own people. Take this letter to a reprobate named Isaudorel; we fought together in the Quiver, once. His levy's garrisoned at Fallgourd Float."
-51,"TEXT_GAIUSB710_00905_BELMONT_000_003","I fight not for Ishgard in this matter, but if they want to consider it a debt, fine by me. It goads me that the Ixal are waltzing into Coerthas right under my nose."
-52,"TEXT_GAIUSB710_00905_ISAUDOREL_000_020","Damn and blast, that hurts! I hate being wounded worse than being dead! They call me “the Ram that batters,” not the “battered sheep”!
-...<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, eh? Well, state your business."
-53,"TEXT_GAIUSB710_00905_ISAUDOREL_000_030","A letter for me? From Belmont, well, well! I tell you, how the best tactics officer the White Rams ever had can suffer to be a moilin' sellsword, that one I'll never understand."
-54,"TEXT_GAIUSB710_00905_ISAUDOREL_000_031","Hm, the roads haven't rusted that bucket of his. If he says the shite–birds are moving into Coerthas, that's good enough. We White Rams owe the Ixal pain─tell him whatever we can do, just name it."
+48,"TEXT_GAIUSB710_00905_BELMONT_000_000","クルザスで暗躍しているイクサル族の奴らは、
+どうも黒衣森の木々を伐採して、
+資材をこっちに搬送しているようだ。"
+49,"TEXT_GAIUSB710_00905_BELMONT_000_001","奴らは「気球」で物資を空輸することができるからな。
+うかうかしてると、クルザスに築かれている
+イクサルどもの入植地が、さらに拡大しちまう。"
+50,"TEXT_GAIUSB710_00905_BELMONT_000_002","なあ、あんた。俺の同僚だった「イゾドレール」という男に、
+この書簡を渡して、イクサル族の動向を報告してくれないか。
+奴の部隊は、今「フォールゴウド」に駐屯中のはずだ。"
+51,"TEXT_GAIUSB710_00905_BELMONT_000_003","イシュガルドのためってわけじゃねぇが、
+イクサル族の思いどおりってのも業腹なんでな。
+ここはひとつ、貸しを作っておくとするさ。"
+52,"TEXT_GAIUSB710_00905_ISAUDOREL_000_020","あ～痛たたたた。
+「白羊師団の切り込み隊長」と呼ばれたこの俺が、
+怪我をしちまうとは不覚だぜ。"
+53,"TEXT_GAIUSB710_00905_ISAUDOREL_000_030","オレ宛に書簡……？
+誰かと思えば、ベルモントからじゃねぇか。
+「白羊師団」の元軍師殿が、何が楽しくて雑用やってんだか。"
+54,"TEXT_GAIUSB710_00905_ISAUDOREL_000_031","……なるほどねぇ、クルザスにイクサル族か。
+オレたち神勇隊「白羊師団」にとってヤツらは宿敵だ。
+俺たちにできることがあれば、力を貸すぜ！"

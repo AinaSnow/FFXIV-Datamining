@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSBSM550_02009_SEQ_00","Fremondain's brow is deeply furrowed."
-1,"TEXT_CLSBSM550_02009_SEQ_01","Baroness Laurisse has sent Fremondain a note to the effect that she means to hone her skills further in the Dravanian forelands. Her loyal steward is shocked, for that way lie dragons in great number. However, he cannot believe she would be so rash as to charge alone into the Horde, and reasons that she will stop once in Tailfeather. He pleads that you intercept her there, and dissuade her from this risky plan."
-2,"TEXT_CLSBSM550_02009_SEQ_02","You find Baroness Laurisse together with a wounded chocobo hunter. As it happens, the man was attacked, and the daughter of House Jervaint defended him. However, this was not without cost─her beloved sword has snapped in two, either due to the ferocity of her attack, or the age of the blade. Upon arriving and learning the news, a distraught Fremondain asks that you forge a weapon worthy of the grand tournament─a high-quality titanium bastard sword. Deliver it to him at the Jeweled Crozier when it is complete."
-3,"TEXT_CLSBSM550_02009_SEQ_03","You hand over the titanium bastard sword to a most gratified Fremondain just in time for the trial round of the tournament. Knowing you will wish to know the outcome, the steward asks that you wait in front of the Lightfeather Proving Grounds."
-4,"TEXT_CLSBSM550_02009_SEQ_04","Baroness Laurisse appears shortly after you, leading Fremondain to fear for the worst. However, in fact, her early release signifies a stunning victory. With two bouts won, one tie, and five forfeits, she will move on to the next round of the tournament. The baroness reveals that it is not for her own sake that she seeks knighthood. Her father believed that the nobility should lead the people with actions, not words─a conviction that cost him his position. Now, the daughter of House Jervaint wishes to join the Temple Knights so that she may serve the people of Ishgard.
+0,"TEXT_CLSBSM550_02009_SEQ_00","宝杖通りのフレモンダンは、ロリスから伝言を受け取ったようだ。"
+1,"TEXT_CLSBSM550_02009_SEQ_01","フレモンダンと話した。ロリスが腕試しのため、今度は高地ドラヴァニアに向かったらしい。当地の集落「テイルフェザー」に赴き、ロリスを見つけたら合流しよう。"
+2,"TEXT_CLSBSM550_02009_SEQ_02","ロリスと合流した。彼女の話によれば、負傷した猟師を助けた際、愛用の剣が折れたらしい。上覧試合の予選に出場するために、かわりの剣が必要なようだ。「<Sheet(ItemHQ,10588,0)/>」を製作し、イシュガルドの宝杖通りにいる「フレモンダン」に納品しよう。"
+3,"TEXT_CLSBSM550_02009_SEQ_03","フレモンダンと話した。上覧試合の予選が始まるという。ロリスの出場結果を聞くため、イシュガルドにあるライトフェザー闘技場前の「<Sheet(EObj,2005898,0)/>」で待機しよう。"
+4,"TEXT_CLSBSM550_02009_SEQ_04","ロリスの神殿騎士団入りがかかった「上覧試合」の予選が始まった。彼女は驚異的な幸運に助けられ、本戦進出を果たしたようだ。神殿騎士となり、故国の民を救いたいという彼女の誓いに応えるため、引き続きロリスを支援していこう。
 
-※The next blacksmith quest will be available from Fremondain upon reaching level 58."
+※鍛冶師のレベルが58以上になると、宝杖通りのフレモンダンから次の鍛冶師クエストを受注することができます。"
 5,"TEXT_CLSBSM550_02009_SEQ_05",""
 6,"TEXT_CLSBSM550_02009_SEQ_06",""
 7,"TEXT_CLSBSM550_02009_SEQ_07",""
@@ -27,9 +27,9 @@ int32,str,str
 21,"TEXT_CLSBSM550_02009_SEQ_21",""
 22,"TEXT_CLSBSM550_02009_SEQ_22",""
 23,"TEXT_CLSBSM550_02009_SEQ_23",""
-24,"TEXT_CLSBSM550_02009_TODO_00","Speak with Laurisse at Tailfeather."
-25,"TEXT_CLSBSM550_02009_TODO_01","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Forge a titanium bastard sword <Sheet(Addon,9,0)/><Else/>Deliver the titanium bastard sword <Sheet(Addon,9,0)/> to Fremondain in Ishgard</If>."
-26,"TEXT_CLSBSM550_02009_TODO_02","Wait in front of the Lightfeather Proving Grounds."
+24,"TEXT_CLSBSM550_02009_TODO_00","テイルフェザーのロリスと話す"
+25,"TEXT_CLSBSM550_02009_TODO_01","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))><Sheet(ItemHQ,10588,0)/>を製作<Else/>イシュガルドのフレモンダンに<Sheet(ItemHQ,10588,0)/>を納品</If>"
+26,"TEXT_CLSBSM550_02009_TODO_02","ライトフェザー闘技場前の<Sheet(EObj,2005898,0)/>で待機"
 27,"TEXT_CLSBSM550_02009_TODO_03",""
 28,"TEXT_CLSBSM550_02009_TODO_04",""
 29,"TEXT_CLSBSM550_02009_TODO_05",""
@@ -51,44 +51,106 @@ int32,str,str
 45,"TEXT_CLSBSM550_02009_TODO_21",""
 46,"TEXT_CLSBSM550_02009_TODO_22",""
 47,"TEXT_CLSBSM550_02009_TODO_23",""
-48,"TEXT_CLSBSM550_02009_FREMONDAIN_000_000","Hm? Oh, excuse me, <If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>. I received a missive from milady, and was just starting to read it."
-49,"TEXT_CLSBSM550_02009_FREMONDAIN_000_001","“Must test skills... Worry not... Gone to...<Emphasis>the Dravanian forelands</Emphasis>”!?"
-50,"TEXT_CLSBSM550_02009_FREMONDAIN_000_002","Halone forfend─straight into the Horde!"
-51,"TEXT_CLSBSM550_02009_FREMONDAIN_000_003","No, surely even <Emphasis>she</Emphasis> would not be that reckless just before the tourney's trial round is set to begin. At the very least, she will stop once at Tailfeather to rest."
-52,"TEXT_CLSBSM550_02009_FREMONDAIN_000_004","Please, <If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>─find her! Stop her if you can, and delay her if you cannot. I will follow as soon as I can finish here."
-53,"TEXT_CLSBSM550_02009_FREMONDAIN_000_010","I...I cannot comprehend why the baroness would choose <Emphasis>now</Emphasis>, of all times, to test herself against the dragons..."
-54,"TEXT_CLSBSM550_02009_FREMONDAIN_000_011","Please, <If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>, ensure she gets no closer to the Dravanian Horde than Tailfeather!"
-55,"TEXT_CLSBSM550_02009_WOUNDEDHUNTER02009_000_020","I'm fine... 'Tis only a flesh wound..."
-56,"TEXT_CLSBSM550_02009_LAURISSE_000_030","...Halone above, did that man send you after me <Emphasis>again</Emphasis>?"
-57,"TEXT_CLSBSM550_02009_WOUNDEDHUNTER02009_000_031","Ungh... So yer one of hers, eh? Ye needn't worry, <If(PlayerParameter(4))>miss<Else/>sir</If>─yer mistress fights like a behemoth ten times her size! Saved me from a wild chocobo. But what's...who's bellowin' at us?"
-58,"TEXT_CLSBSM550_02009_FREMONDAIN_000_032","(-Fremondain-)Baroness! Baroness Laurisse!"
-59,"TEXT_CLSBSM550_02009_FREMONDAIN_000_033","<pant> Mistress! Mistress, are...are you hurt!? <pant> Tell me where...and I shall..."
-60,"TEXT_CLSBSM550_02009_LAURISSE_000_034","Fremondain! Did you run all the way here? Come, man, save your breath! I am perfectly fine."
-61,"TEXT_CLSBSM550_02009_WOUNDEDHUNTER02009_000_035","Er...<Emphasis>you</Emphasis> might be fine, m'lady, but what about yer sword? Beggin' yer pardon, but didn't it break off in the chocobo?"
-62,"TEXT_CLSBSM550_02009_FREMONDAIN_000_036","N-Not the brass viking sword!? That is milady's favorite!"
-63,"TEXT_CLSBSM550_02009_WOUNDEDHUNTER02009_000_037","That piece of shite? Er... Sorry, m'lady. Ain't the kind of steel that highborn normally wield. Anyroad, I've an extra blade lyin' about. I'll give it to ye as thanks for savin' me, if ye'd like."
-64,"TEXT_CLSBSM550_02009_LAURISSE_000_039","Yes, thank you. Even a dagger will suffice."
-65,"TEXT_CLSBSM550_02009_FREMONDAIN_000_040","M-Milady, it...it is most unlike you to borrow."
-66,"TEXT_CLSBSM550_02009_LAURISSE_000_041","The road to Ishgard is perilous without steel. And I...I cannot risk any harm coming to my loyal steward."
-67,"TEXT_CLSBSM550_02009_FREMONDAIN_000_042","Th-Thank you, Baroness Laurisse!"
-68,"TEXT_CLSBSM550_02009_LAURISSE_000_043","Forgive me for troubling you, too, <If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>. It does not behoove a future Temple Knight to act so rashly. Shall we, Fremondain?"
-69,"TEXT_CLSBSM550_02009_FREMONDAIN_000_044","Ungh... <If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>, the baroness must enter the tourney with a weapon befitting House Jervaint─<Emphasis>not</Emphasis> a borrowed dagger."
-70,"TEXT_CLSBSM550_02009_FREMONDAIN_000_045","Titanium bastard swords are all the talk these days─weightless and keen. Can I count on you to forge one? Your payment will be...er, milady's smile when she wins the tourney!"
-71,"TEXT_CLSBSM550_02009_FREMONDAIN_100_045","I will see you in Ishgard! W-Wait for me, milady!"
-72,"TEXT_CLSBSM550_02009_FREMONDAIN_000_060","Thank you for everything back in Tailfeather. I was also wondering if you had, ah...made any progress on the sword I requested."
-73,"TEXT_CLSBSM550_02009_FREMONDAIN_000_070","Halone's breath... Light as a feather, sharp as a wyrm's fang─even I can tell this blade is a masterpiece! Thank you, <If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>. Milady will be overjoyed to learn you made it for her!"
-74,"TEXT_CLSBSM550_02009_FREMONDAIN_000_071","The trial round will begin shortly, and I daresay she will be nigh invincible with this sword in hand. I will take it to her as soon as I can."
-75,"TEXT_CLSBSM550_02009_FREMONDAIN_000_072","I fear we cannot watch Baroness Laurisse─only gentry may attend the grand tourney─but we are free to listen from outside the Lightfeather Proving Grounds. I will be there anon, if you care to wait."
-76,"TEXT_CLSBSM550_02009_FREMONDAIN_000_080","You must hurry to the Lightfeather Proving Grounds if you wish to hear Baroness Laurisse's matches."
-77,"TEXT_CLSBSM550_02009_FREMONDAIN_000_100","My mistress was most pleased with your creation, <If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>! I daresay she is proving her mettle with it even as we speak!"
-78,"TEXT_CLSBSM550_02009_FREMONDAIN_000_101","B-Baroness! That you would be out of the arena in so short a time... D–Did something ill befall...?"
-79,"TEXT_CLSBSM550_02009_LAURISSE_000_102","Haha, Fremondain, ever the worrier! I won this round! And it was all thanks to your sword, <If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>! The balance of the blade is perfect! Why, I could have wielded it all day, and still slain a wyrm to boot!"
-80,"TEXT_CLSBSM550_02009_FREMONDAIN_000_103","A splendid start to the tourney, Mistress! Please, regale us─how many bouts did you take part in?"
-81,"TEXT_CLSBSM550_02009_LAURISSE_000_104","Three. Two, I won, and the third was a draw. But I was declared winner in five more, as my challengers forfeited."
-82,"TEXT_CLSBSM550_02009_FREMONDAIN_000_105","A full five, milady? Surely Halone Herself smiles upon you! Did your lord father not say that good luck is an ally of success?"
-83,"TEXT_CLSBSM550_02009_LAURISSE_000_106","And that bad luck does not absolve failure. Ask only victory of your leaders, he told me. A commander can apologize for his defeat, but what need do his fallen soldiers have of apologies?"
-84,"TEXT_CLSBSM550_02009_LAURISSE_000_107","He lived by that ideal. He gave the order's food to the starving, only to be tried for pilferage, convicted, and stripped of knighthood. But he never recanted. Not <Emphasis>once</Emphasis>!"
-85,"TEXT_CLSBSM550_02009_FREMONDAIN_000_108","Milady, is...is this why you work to restore House Jervaint? To clear your father's name?"
-86,"TEXT_CLSBSM550_02009_LAURISSE_000_109","No, Fremondain. I do it for Ishgard. Noble blood grants privilege, but only to save the unprivileged─another of my father's pet sayings."
-87,"TEXT_CLSBSM550_02009_LAURISSE_000_110","It is why I have entered this tourney, and why I wish to become a knight. And I will. For my father, for our people, and for everyone who has helped me along the way."
-88,"TEXT_CLSBSM550_02009_SYSTEM_000_901","deleted"
+48,"TEXT_CLSBSM550_02009_FREMONDAIN_000_000","おお、鍛冶師どの！
+実はついさきほど、ロリスお嬢様からの伝言を、
+受け取ったところでしてな……さて、中身のほどは……。"
+49,"TEXT_CLSBSM550_02009_FREMONDAIN_000_001","ふむ……なっ、これはいけませぬ！
+お嬢様がまたも、腕試しに出かけた模様！
+目的地は、あろうことか「高地ドラヴァニア」……！"
+50,"TEXT_CLSBSM550_02009_FREMONDAIN_000_002","ドラゴン族の根拠地として知られる、まさに危険地帯ですぞ！
+上覧試合の予選出場を控えた、大切な時期に！"
+51,"TEXT_CLSBSM550_02009_FREMONDAIN_000_003","鍛冶師どの、まことに、まことに申し訳ありませぬが……
+高地ドラヴァニアまで、向かってもらえませぬか！
+私めもこの副業が片づきしだい、すぐに向かいますゆえ。"
+52,"TEXT_CLSBSM550_02009_FREMONDAIN_000_004","いくらお嬢様でも、敵の本拠まで直行するとは考えにくく、
+道中、猟師の集う「テイルフェザー」に立ち寄るはず。
+そこにロリス様がまだおりましたら、戻るよう説得してくだされ！"
+53,"TEXT_CLSBSM550_02009_FREMONDAIN_000_010","鍛冶師どの、まことに、まことに申し訳ありませぬが……
+高地ドラヴァニアまで、向かってもらえませぬか！
+私めもこの副業が片づきしだい、すぐに向かいますゆえ。"
+54,"TEXT_CLSBSM550_02009_FREMONDAIN_000_011","いくらお嬢様でも、敵の本拠まで直行するとは考えにくく、
+道中、猟師の集う「テイルフェザー」に立ち寄るはず。
+そこにロリス様がまだおりましたら、戻るよう説得してくだされ！"
+55,"TEXT_CLSBSM550_02009_WOUNDEDHUNTER02009_000_020","大丈夫だ、傷は浅い……。"
+56,"TEXT_CLSBSM550_02009_LAURISSE_000_030","鍛冶師の<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>……？
+こんなところで、偶然会うわけがないわよね。
+私を連れ戻すよう頼まれた……というところかしら。"
+57,"TEXT_CLSBSM550_02009_WOUNDEDHUNTER02009_000_031","君はお嬢さんのお知り合いか？
+……いや、なりこそ小さいが、実に勇敢な娘さんだな！
+野生のチョコボに苦戦中、窮地を救われたんだ……おや？"
+58,"TEXT_CLSBSM550_02009_FREMONDAIN_000_032","(-？？？？-)お嬢様、ロリスお嬢様～！"
+59,"TEXT_CLSBSM550_02009_FREMONDAIN_000_033","ロリス様！
+ご無事でいらっしゃいますかっ！？"
+60,"TEXT_CLSBSM550_02009_LAURISSE_000_034","……むしろ、じいのほうが、息も絶えだえに見えるのだけど？
+見てのとおり、私は平気よ。"
+61,"TEXT_CLSBSM550_02009_WOUNDEDHUNTER02009_000_035","お嬢さん……。
+たしかに怪我はないようだが、オレを助けたとき、
+剣がポッキリ逝っただろ？"
+62,"TEXT_CLSBSM550_02009_FREMONDAIN_000_036","むっ……！？
+愛用の<Sheet(Item,1609,0)/>が折れてしまったと！？"
+63,"TEXT_CLSBSM550_02009_WOUNDEDHUNTER02009_000_037","い、意外と安……いや、庶民的な剣を使ってたんだな。
+よし、使ってない剣をやろう、助けてくれた礼だ。
+あとでオレのところに寄りな。"
+64,"TEXT_CLSBSM550_02009_LAURISSE_000_039","ありがとう。
+短剣でいいから、いただけると嬉しいわ。"
+65,"TEXT_CLSBSM550_02009_FREMONDAIN_000_040","お嬢様……。
+てっきり「他人の剣など借りぬ！」と、
+お断りになるかと思いました。"
+66,"TEXT_CLSBSM550_02009_LAURISSE_000_041","丸腰のままでは、じいを皇都まで送り届けられない。
+決死の覚悟で来たのでしょう？
+その想いには、報いないと。"
+67,"TEXT_CLSBSM550_02009_FREMONDAIN_000_042","お、お嬢様……！？
+なんとお優しいお言葉……。"
+68,"TEXT_CLSBSM550_02009_LAURISSE_000_043","あなたにも迷惑をかけたわね。
+これからは、無茶はしないようにするわ……な、なるべくね！"
+69,"TEXT_CLSBSM550_02009_FREMONDAIN_000_044","……鍛冶師どの、ちょいと困ったことになり申した。
+先に申しあげたとおり、まもなく上覧試合の予選が始まります。
+さすがに、短剣で出場するわけにも参りませぬ。"
+70,"TEXT_CLSBSM550_02009_FREMONDAIN_000_045","ここはひとつ、「軽量にして剛鋭」と噂に高い新型剣……
+「<Sheet(ItemHQ,10588,0)/>」など、ご製作いただけませぬか？
+……お代はその……例のごとく、出世払いで…………。"
+71,"TEXT_CLSBSM550_02009_FREMONDAIN_100_045","お、お嬢様、お待ちください～！
+さぁ、皇都まで帰りましょうぞ～！"
+72,"TEXT_CLSBSM550_02009_FREMONDAIN_000_060","おお、鍛冶師どの！
+先だっては、大変お世話になり申した！
+それで、その……お願いした剣ですが……。"
+73,"TEXT_CLSBSM550_02009_FREMONDAIN_000_070","おおおっ……これは、素人目にもわかるほどの業物ですな！
+副業が終わりましたら、さっそくお嬢様にお届けします！
+鍛冶師どのが用意したものと知れば、お嬢様も喜びましょう！"
+74,"TEXT_CLSBSM550_02009_FREMONDAIN_000_071","そう……上覧試合の予選が、いよいよ始まるのでございます！
+ロリス様の実力に、この剣が加われば、向かうところ敵なし！"
+75,"TEXT_CLSBSM550_02009_FREMONDAIN_000_072","試合は、「ライトフェザー闘技場」で行われまする。
+闘技場の前で結果を待ちましょうぞ！"
+76,"TEXT_CLSBSM550_02009_FREMONDAIN_000_080","試合は、「ライトフェザー闘技場」で行われまする。
+闘技場の前で結果を待ちましょうぞ！"
+77,"TEXT_CLSBSM550_02009_FREMONDAIN_000_100","鍛冶師どの！
+剣は無事に、ロリス様にお届けしましたぞ！
+お嬢様は今まさに、上覧試合の予選に出場中のはず。"
+78,"TEXT_CLSBSM550_02009_FREMONDAIN_000_101","おや、お嬢様？
+これはまた、ずいぶんとお早いお帰りで！
+して、結果のほうは……"
+79,"TEXT_CLSBSM550_02009_LAURISSE_000_102","本戦出場、一番乗りよ！
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、あなたの剣のおかげ。
+刀身のバランスが絶妙で、いくら振っても疲れないの！"
+80,"TEXT_CLSBSM550_02009_FREMONDAIN_000_103","おお、最高の滑り出しですな！
+ちなみに、何戦して何勝でございまするか？"
+81,"TEXT_CLSBSM550_02009_LAURISSE_000_104","3戦して、2勝1引き分け。
+でも不戦勝が5つもあったから、あっという間に終わっちゃった。"
+82,"TEXT_CLSBSM550_02009_FREMONDAIN_000_105","5つも不戦勝を拾うとは……大きな幸運に恵まれましたな！
+なに、亡き先代も、よく言っておられました。
+「強運も実力の一部」と……！"
+83,"TEXT_CLSBSM550_02009_LAURISSE_000_106","……「不運を言い訳にするな」ともね。
+人の上に立つ者に求められるのは、勝利という結果のみ。
+敗軍の将の釈明など、死者にはなんの意味もなさぬのだからって。"
+84,"TEXT_CLSBSM550_02009_LAURISSE_000_107","お父様は、餓えた民に、隊の糧食を分けあたえたことで、
+横領の罪に問われ……騎士団を追われたわ。
+そのときすら黙って処罰を受け入れ、釈明は一切しなかった……。"
+85,"TEXT_CLSBSM550_02009_FREMONDAIN_000_108","ロリス様が、ジェルヴァン家の再興を強く願う理由……
+それはやはり、先代の無念を晴らすためでございましょうか？"
+86,"TEXT_CLSBSM550_02009_LAURISSE_000_109","故国の民を救うためよ。
+「お前の内に流れる高貴の血は、そのためにあるのだ」……
+お父様は、いつもそう言っていたもの。"
+87,"TEXT_CLSBSM550_02009_LAURISSE_000_110","だから……上覧試合で優勝を勝ち取って、
+必ず騎士になってみせる。
+素晴らしい剣を提供してくれた、あなたのためにもね！"
+88,"TEXT_CLSBSM550_02009_SYSTEM_000_901","（★未使用／削除予定★）"

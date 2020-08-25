@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNC103_02233_SEQ_00","Alphinaud has reached a decision."
-1,"TEXT_HEAVNC103_02233_SEQ_01","Although Alphinaud intends to inform Tataru and Urianger of Minfilia's fate, he asks that you share with no one else what you have learned─especially F'lhaminn. He then states that you have more than earned a rest, only to suddenly recall that he but recently received a missive from Ser Aymeric. It would seem that the lord commander is planning a ceremony of some sort and would like you to attend. However, he neglected to provide details, and so a visit to the Congregation appears to be in order."
-2,"TEXT_HEAVNC103_02233_SEQ_02","Never one to let an opportunity pass him by, Ser Aymeric wishes to take advantage of the recent shift in public sentiment towards the Dravanians to reestablish relations with their neighbors. To that end, he has begun making formal arrangements for a peace conference in Falcon's Nest, to be attended by Vidofnir...and by you, if possible. He admits that your presence would be more than a symbolic gesture, as he fears that Nidhogg and his followers may attempt to disrupt the proceedings. Moved by his passion, you agree, and prepare to leave for Falcon's Nest and speak with Lucia. In that moment, however, Ser Aymeric calls out, asking that you share a drink once the conference has concluded─doubtless a gesture of gratitude and camaraderie. Yet, in that moment, a thought unbidden of a woman in white floating before a great crystal gives you pause...and though you accept his invitation, it is with a heavy heart."
-3,"TEXT_HEAVNC103_02233_SEQ_03","Most are blessed with precious few chances to choose their course in life, and Lucia is no different. Dispatched to a foreign nation as a spy, it was her duty to infiltrate Ishgardian society for her masters' ends. In the end, however, she chose a different path─to pledge herself to another nation's cause, and to join in their war. As she watches the masons of Falcon's Nest put the finishing touches on a relief, she reflects on what that war's resolution could mean for her...and for the country whose faith she has come to share."
+0,"TEXT_HEAVNC103_02233_SEQ_00","マトーヤの洞窟のアルフィノは、考え込んでいるようだ。"
+1,"TEXT_HEAVNC103_02233_SEQ_01","アルフィノから、しばし休むことを勧められた。息抜きのため、アイメリクから招待されている「式典」に参加してはどうかという。イシュガルドの神殿騎士団本部にいる「神殿騎士団の衛兵」と話し、神殿騎士団総長室へ向かおう。"
+2,"TEXT_HEAVNC103_02233_SEQ_02","神殿騎士団総長室で、アイメリクと話した。式典は、聖竜の眷属と和平を契るものらしい。会場となるクルザス西部高地のファルコンネストで準備をしている「ルキア」と話そう。"
+3,"TEXT_HEAVNC103_02233_SEQ_03","ルキアと話した。式典の準備は滞りなく進んでいるようだ。彼女の言葉にあまえて、しばしゆっくり過ごすとしよう。"
 4,"TEXT_HEAVNC103_02233_SEQ_04",""
 5,"TEXT_HEAVNC103_02233_SEQ_05",""
 6,"TEXT_HEAVNC103_02233_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_HEAVNC103_02233_SEQ_21",""
 22,"TEXT_HEAVNC103_02233_SEQ_22",""
 23,"TEXT_HEAVNC103_02233_SEQ_23",""
-24,"TEXT_HEAVNC103_02233_TODO_00","Speak with Aymeric at the Congregation of Our Knights Most Heavenly."
-25,"TEXT_HEAVNC103_02233_TODO_01","Speak with Lucia in Falcon's Nest."
+24,"TEXT_HEAVNC103_02233_TODO_00","神殿騎士団本部の神殿騎士団総長室に向かう"
+25,"TEXT_HEAVNC103_02233_TODO_01","ファルコンネストのルキアと話す"
 26,"TEXT_HEAVNC103_02233_TODO_02",""
 27,"TEXT_HEAVNC103_02233_TODO_03",""
 28,"TEXT_HEAVNC103_02233_TODO_04",""
@@ -49,28 +49,62 @@ int32,str,str
 45,"TEXT_HEAVNC103_02233_TODO_21",""
 46,"TEXT_HEAVNC103_02233_TODO_22",""
 47,"TEXT_HEAVNC103_02233_TODO_23",""
-48,"TEXT_HEAVNC103_02233_ALPHINAUD_000_000","I must ask that you not breathe a word of this to any of the others at the Rising Stones─especially F'lhaminn."
-49,"TEXT_HEAVNC103_02233_ALPHINAUD_000_001","I will brief Tataru on what we have learned, as well as Urianger. He may have insight into what the Word told us."
-50,"TEXT_HEAVNC103_02233_ALPHINAUD_000_002","As for you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>...after all you have done, I would say you have earned a rest."
-51,"TEXT_HEAVNC103_02233_ALPHINAUD_000_003","Ah, but speaking of well-earned rewards─I received a missive from Ser Aymeric while you were away. 'Twould seem he is planning a ceremony of some sort, and would like you to attend."
-52,"TEXT_HEAVNC103_02233_ALPHINAUD_000_004","He did not divulge the details, preferring instead to explain in person. Mayhap you should pay him a visit?"
-53,"TEXT_HEAVNC103_02233_ALPHINAUD_000_010","Pray take some time to rest. I think I may as well. Oh, and should you decide to visit Ser Aymeric at the Congregation, do be sure to give him my regards."
-54,"TEXT_HEAVNC103_02233_HANDELOUP_000_015","The first commander is tending to the preparations at Falcon's Nest. If all goes to plan, this will mark a new day for Ishgard!"
-55,"TEXT_HEAVNC103_02233_TEMPLEKIGHTGATE_000_020","Ah, <If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>. The lord commander left instructions that you were to be shown inside."
-56,"TEXT_HEAVNC103_02233_Q1_000_021","Proceed to the Seat of the Lord Commander?"
-57,"TEXT_HEAVNC103_02233_ARTOIREL_000_025","Well met, <If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>. Have you spoken with the first commander yet?"
-58,"TEXT_HEAVNC103_02233_EMMANELLAIN_000_030","Oh! Fancy running into you here, old <If(PlayerParameter(4))>girl<Else/>boy</If>. Gave me a bit of a shock. We'll talk later, yes?"
-59,"TEXT_HEAVNC103_02233_HONOROIT_000_035","(Thank the Fury you are here, <If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>. I am not sure what my lord intends...and that troubles me far more than when I do.)"
-60,"TEXT_HEAVNC103_02233_CITIZENA02233_000_040","By the Fury, would you look at the size of it! Got any idea what it'll look like when they've finished?"
-61,"TEXT_HEAVNC103_02233_CITIZENB02233_000_045","Peace between dragon and man. I would have scoffed at it not long ago but now, after seeing that dragon pluck that girl from the sky, well... If this is to be the moment, then my wife and I would witness it firsthand."
-62,"TEXT_HEAVNC103_02233_CITIZENC02233_000_050","I don't envy them poor sods what have to work atop that scaffolding, exposed to the wind and all. Aye, it's for a good cause, but better them than me!"
-63,"TEXT_HEAVNC103_02233_LUCIA_000_060","The lord commander said you would come, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
-64,"TEXT_HEAVNC103_02233_LUCIA_000_061","As you can see, preparations for the conference are proceeding apace."
-65,"TEXT_HEAVNC103_02233_LUCIA_100_061","Mark well the curtain above."
-66,"TEXT_HEAVNC103_02233_LUCIA_000_062","It conceals a relief that will be unveiled during the conference. The masons labor day and night to see it finished on schedule."
-67,"TEXT_HEAVNC103_02233_LUCIA_000_063","Ser Aymeric wanted a symbol which would endure long after this conference is concluded. I think he will be pleased with the result."
-68,"TEXT_HEAVNC103_02233_LUCIA_000_064","'Twas not my war, but I made it mine...and to see it draw closer to a resolution fills me with a strange hope."
-69,"TEXT_HEAVNC103_02233_LUCIA_000_065","His faith is infectious, is it not? His certainty that we can be better than we are..."
-70,"TEXT_HEAVNC103_02233_LUCIA_000_066","Forgive me, I am rambling. You must be tired from your journey. Go, rest. I will not keep you."
-71,"TEXT_HEAVNC103_02233_A1_000_022",""
-72,"TEXT_HEAVNC103_02233_A1_000_023",""
+48,"TEXT_HEAVNC103_02233_ALPHINAUD_000_000","……ミンフィリアのことは、私からタタルに伝えよう。
+ただ、彼女が消えてしまったことが本当に定かになるまで、
+フ・ラミンや「暁」の仲間には言わずにおきたいんだ……。"
+49,"TEXT_HEAVNC103_02233_ALPHINAUD_000_001","それから、「ゾディアーク」の件をウリエンジェとも共有して、
+今まで以上に、アシエンの動向に対して、
+注意を払ってもらわなければ…………。"
+50,"TEXT_HEAVNC103_02233_ALPHINAUD_000_002","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、君には少し休んでいてほしい。
+あまりにつらい役回りだっただろうから、心配なんだ……。
+後のことくらい、私に任せてくれ。"
+51,"TEXT_HEAVNC103_02233_ALPHINAUD_000_003","……そういえば、アイメリク卿から「暁」宛に、
+近々行われるという「式典」の招待が来ているんだ。"
+52,"TEXT_HEAVNC103_02233_ALPHINAUD_000_004","息抜きだと思って、行ってみてはどうだろう？
+詳しいことは、イシュガルドの神殿騎士団本部にいる、
+アイメリク卿に尋ねてみてくれ。"
+53,"TEXT_HEAVNC103_02233_ALPHINAUD_000_010","アイメリク卿に、よろしく伝えてほしい。
+私も、自分のやるべきことが終わったら、
+足を運んでみることにするよ。"
+54,"TEXT_HEAVNC103_02233_HANDELOUP_000_015","ルキア殿なら、重大な任務のために出ているぞ。
+イシュガルドの今後を担う、実に栄えある任務なのだ。"
+55,"TEXT_HEAVNC103_02233_TEMPLEKIGHTGATE_000_020","アイメリク総長に御用ですか？
+取り次ぎますので、こちらへどうぞ！"
+56,"TEXT_HEAVNC103_02233_Q1_000_021","「神殿騎士団総長室」へ移動しますか？"
+57,"TEXT_HEAVNC103_02233_ARTOIREL_000_025","ああ、君か。
+ルキア殿には、もう挨拶を済ませたのか？"
+58,"TEXT_HEAVNC103_02233_EMMANELLAIN_000_030","ん……オマエ…………
+な、なんだ、相棒かよ。
+急に話しかけてくるから驚いたぜ。"
+59,"TEXT_HEAVNC103_02233_HONOROIT_000_035","す、すみません、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>様。
+最近のエマネラン様ときたら、ちっとも似合わないのに、
+考え事ばかりしているようなのです、はい……。"
+60,"TEXT_HEAVNC103_02233_CITIZENA02233_000_040","見てみろよ、あの門の上！
+はぁ～、どんなレリーフが飾られるんだろうなぁ！"
+61,"TEXT_HEAVNC103_02233_CITIZENB02233_000_045","竜との和平など、信じられないと思っていたが……
+私は、皇都で白き竜が子どもを救うのを目の当たりにした。
+だからこそ、妻を連れて、はるばる式典を見に来たのだ。"
+62,"TEXT_HEAVNC103_02233_CITIZENC02233_000_050","ここの寒さと来たら、相変わらず骨まで凍っちまいそうだよ。
+でも、だんだんと式典の見物人が増えてきた。
+こりゃあ、私ら技師も、はりきらずにはいられないね！"
+63,"TEXT_HEAVNC103_02233_LUCIA_000_060","ああ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>じゃないか。
+アイメリク様からの招待を受けてくれたのか？"
+64,"TEXT_HEAVNC103_02233_LUCIA_000_061","そう、間もなくこの場所で、
+人と竜の和平を契る「式典」が開催される。
+準備の方も、滞りなく順調だ。"
+65,"TEXT_HEAVNC103_02233_LUCIA_100_061","ほら、あれを見てくれ。"
+66,"TEXT_HEAVNC103_02233_LUCIA_000_062","幕の向こうに、式典でお披露目する「レリーフ」がある。
+間もなく、取り付けの工事が終わるところでな。"
+67,"TEXT_HEAVNC103_02233_LUCIA_000_063","この先、どれほどの月日が流れたとしても、
+交わした和平の契りを違えないようにと、
+アイメリク様が、設置を提案なさったものなのだ。"
+68,"TEXT_HEAVNC103_02233_LUCIA_000_064","……イシュガルドの生まれではない私でさえ、
+今回の式典には、感慨深いものがある。
+間違いなく、この国の大きな転機になるだろう。"
+69,"TEXT_HEAVNC103_02233_LUCIA_000_065","その準備を、アイメリク様が任せてくださったのだ。
+何事も決してぬかることなく、式典当日を迎えてみせよう。"
+70,"TEXT_HEAVNC103_02233_LUCIA_000_066","それまで、しばし時間がある。
+普段は何かと忙しい貴公のことだ、
+よければゆっくりと、羽を休めていってくれ。"
+71,"TEXT_HEAVNC103_02233_A1_000_022","（★未使用／削除予定★）"
+72,"TEXT_HEAVNC103_02233_A1_000_023","（★未使用／削除予定★）"

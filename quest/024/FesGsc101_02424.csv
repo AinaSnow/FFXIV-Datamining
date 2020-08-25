@@ -1,13 +1,17 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_FESGSC101_02424_SEQ_00","This beggarly bloke seems to want for an ear to listen to his woes.
-※This quest is available for a limited time only."
-1,"TEXT_FESGSC101_02424_SEQ_01","The beggarly bloke jumps at the chance to start up a conversation, promptly regaling you with tiresome tales of his financial woes. Just as you reach for your coinpurse to toss him a gil and move on, he mentions that the Gold Saucer is currently hosting the Make It Rain campaign, an annual festival where guests have the chance to win magnificent prizes galore. Interest piqued, you make your way to the Ruby Road Exchange to find out more from the Saucer attendant.
+0,"TEXT_FESGSC101_02424_SEQ_00","※本クエストは、期間限定のクエストとなります。
 
-※Please note that you will be unable to complete this quest after the seasonal event has ended. For details, please check the Lodestone."
-2,"TEXT_FESGSC101_02424_SEQ_02","The Saucer attendant has barely begun her explanation of the festivities when she is interrupted by none other than the Saucer's esteemed owner, Godbert Manderville. Greeting you with all the flair one would expect from a Manderville man, he offers you a limited-edition VIP card bearing the stamp of House Manderville. His duty done, Godbert returns to the Saucer and the attendant instructs you to present your card to Ollier in Wonder Square."
-3,"TEXT_FESGSC101_02424_SEQ_03","You show your VIP card to an enthusiastic Ollier, who informs you of the myriad of spectacular prizes now within your reach─should the Spinner smile upon you, of course. With clouds of untold riches billowing on the horizon, you stride confidently into the Saucer, knowing that the time has come to <Emphasis>make it rain</Emphasis>."
+ウルダハの羽振りがよくない中年は、話を聞いてもらいたいようだ。"
+1,"TEXT_FESGSC101_02424_SEQ_01","※本クエストは、シーズナルイベント開催中にかぎり、
+　受注、進行できます。
+　開催期間終了後は進行できませんので、ご注意ください。
+　期間等の詳細についてはLodestoneをご覧ください。
+
+羽振りがよくない中年によると、現在ゴールドソーサーでは、ゴールドソーサー・フェスティバルという催しを行っているようだ。詳しい話を聞くために、ルビーロード国際市場の「ゴールドソーサーの従業員」と話そう。"
+2,"TEXT_FESGSC101_02424_SEQ_02","ゴールドソーサーの従業員から話を聞いていると、ゴッドベルトが現れ、催し期間中にしか入手できない特別な景品について教えてくれた。特別な景品を扱う「特設景品交換窓口」を利用するために、ゴールドソーサーのワンダースクウェアにいる「オリアー」に「<Sheet(EventItem,2002056,0)/>」を渡そう。"
+3,"TEXT_FESGSC101_02424_SEQ_03","オリアーに<Sheet(EventItem,2002056,0)/>を渡した。ゴールドソーサー・フェスティバルの期間中、「特設景品交換窓口」を利用できるようになったようだ。MGPをたくさん集めて、マンダヴィル＆マンダヴィル社の逸品を手に入れよう！"
 4,"TEXT_FESGSC101_02424_SEQ_04",""
 5,"TEXT_FESGSC101_02424_SEQ_05",""
 6,"TEXT_FESGSC101_02424_SEQ_06",""
@@ -28,8 +32,8 @@ int32,str,str
 21,"TEXT_FESGSC101_02424_SEQ_21",""
 22,"TEXT_FESGSC101_02424_SEQ_22",""
 23,"TEXT_FESGSC101_02424_SEQ_23",""
-24,"TEXT_FESGSC101_02424_TODO_00","Speak with the Saucer attendant."
-25,"TEXT_FESGSC101_02424_TODO_01","Present the stamped Gold Saucer VIP card to Ollier."
+24,"TEXT_FESGSC101_02424_TODO_00","ゴールドソーサーの従業員と話す"
+25,"TEXT_FESGSC101_02424_TODO_01","ゴールドソーサーのオリアーに<Sheet(EventItem,2002056,0)/>を渡す"
 26,"TEXT_FESGSC101_02424_TODO_02",""
 27,"TEXT_FESGSC101_02424_TODO_03",""
 28,"TEXT_FESGSC101_02424_TODO_04",""
@@ -52,26 +56,63 @@ int32,str,str
 45,"TEXT_FESGSC101_02424_TODO_21",""
 46,"TEXT_FESGSC101_02424_TODO_22",""
 47,"TEXT_FESGSC101_02424_TODO_23",""
-48,"TEXT_FESGSC101_02424_LOSER02424_000_001","A gil for your thoughts, <If(PlayerParameter(4))>madam<Else/>sir</If>─oh, what am I saying!? Ever since I was forced to close my armor shop, gil's been harder to come by than an honest member of the Mirage Trust. Whatever is a penniless pauper like myself to do!?"
-49,"TEXT_FESGSC101_02424_LOSER02424_000_002","I'm not asking for boundless riches here! If only I had a few gil, I could head to the Gold Saucer and reclaim all that I've lost. They say it's as if MGP is raining down from the heavens these days! "
-50,"TEXT_FESGSC101_02424_LOSER02424_000_003","Mind you, if you're as well-to-do as you appear, you should really speak to the attendant come to the Ruby Road Exchange to promote the festivities. I'm sure she'll be much more keen to help those who are less...destitute."
-51,"TEXT_FESGSC101_02424_LOSER02424_000_004","What's with that puzzled look? Don't tell me you've never been to the Gold Saucer! If that's the case, go and speak to that well-heeled youth over yonder─the one that looks like a foppish dandy of sorts. He'll furnish you with a ticket. Sadly for me, that's where his generosity ends."
-52,"TEXT_FESGSC101_02424_GSFESSTAFF_000_010","Interested in visiting the Gold Saucer? Why, you could not have picked a better time! We are currently in the midst of our annual festival, where our honored guests can look forward to basking in a veritable downpour of spectacular prizes!"
-53,"TEXT_FESGSC101_02424_GSFESSTAFF_000_011","You say this will be your first trip to the Saucer? All the more reason for you to make the journey and see all the wonders our establishment has to offer!"
-54,"TEXT_FESGSC101_02424_SYSTEM_000_015","In order to undertake this quest, you must first complete the quest “It Could Happen to You,” which can be undertaken at level 15."
-55,"TEXT_FESGSC101_02424_GSFESSTAFF_000_020","That's why we have dubbed the festivities the <Emphasis>Make It Rain</Emphasis> campaign. But it's not just about the prizes, oh no! You can also look forward to─"
-56,"TEXT_FESGSC101_02424_GODBERT_000_021","Well, if it isn't <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> from Thanalan! The way you lifted your legs and put up your hands, you were the very image of a Manderville man! Tell me, have you had a chance to partake in the festivities at my darling Gold Saucer?"
-57,"TEXT_FESGSC101_02424_GODBERT_000_022","Oho, look who we have here! My muscles have not forgotten the tender touch of those soothing fingers. Why, if we were not both otherwise occupied, I would ask you to crack open a fine bottle of salamander oil and get to work once more! Hahaha. Now tell me, have you had the chance to partake in the festivities at my darling Gold Saucer?"
-58,"TEXT_FESGSC101_02424_GODBERT_000_023","Oho, what have we here? Another adventurer come to make their dreams come true in my hall of wonders? I am Godbert Manderville, proprietor of the Saucer, to which I most heartily welcome you. Mayhap you have already partaken in the festivities?"
-59,"TEXT_FESGSC101_02424_GODBERT_000_024","I can personally assure you that Manderville & Manderville has spared no expense in procuring a selection of prizes that is sure to tantalize and titillate fortune seekers of all stripes."
-60,"TEXT_FESGSC101_02424_GODBERT_000_025","Fortune may rule in the halls of my Gold Saucer, but it was by no mere chance that our paths crossed today. And that is why I would present you with a gift befitting this most momentous occasion!"
-61,"TEXT_FESGSC101_02424_GODBERT_000_026","Use it, and use it well. And with that, I must be off─countless guests are waiting for the firm handshake and stimulating discourse that only a Manderville man can deliver!"
-62,"TEXT_FESGSC101_02424_GSFESSTAFF_000_027","Well, I do believe Lord Manderville said it all! Once you arrive at the Gold Saucer, seek out my fellow attendant Ollier in Wonder Square. Simply present to him your VIP card, and he will see to it that you are well looked after."
-63,"TEXT_FESGSC101_02424_LOSER02424_000_030","Oh, don't worry yourself on my account. I'll just be standing here, penniless and half-starved, taking the smallest of solace in the knowledge that at least some complete stranger is out there making <If(PlayerParameter(4))>her<Else/>his</If> dreams come true."
-64,"TEXT_FESGSC101_02424_LOSER02424_000_035","If you've never been to the Gold Saucer before, try speaking with that well-heeled youth over yonder─the foppish dandy who's wearing that shite-eating grin. I'm sure he'll furnish you with a ticket. If only gil were as easy to come by..."
-65,"TEXT_FESGSC101_02424_OLLIER_000_040","Dearest adventurer, allow me to extend a most heartfelt and sincere welcome to the Gold Saucer! I trust you are finding the festivities to your liking? Whatever you have experienced thus far, let me assure you that the wonders have only begun."
-66,"TEXT_FESGSC101_02424_OLLIER_000_041","Why, is that what I think it is? A VIP card, and one personally stamped by Lord Manderville himself, no less!? It would be my absolute pleasure to redeem that on your behalf, <If(PlayerParameter(4))>madam<Else/>sir</If>."
-67,"TEXT_FESGSC101_02424_OLLIER_000_042","Ah, seeing that signet always inspires me to redouble my efforts on behalf of our distinguished guests. But pray forgive me─I have strayed quite far from the topic at hand. I am pleased to announce that the services of our campaign attendant─and a host of spectacular prizes─are now at your disposal."
-68,"TEXT_FESGSC101_02424_OLLIER_000_043","Now, I daresay I've delayed you long enough. Enjoy the festivities, and may the Spinner guide you to fortunes beyond your wildest dreams!"
-69,"TEXT_FESGSC101_02424_SYSTEM_000_044","You can now purchase seasonal items from the campaign attendant. Please note that you will be unable to do so after the seasonal event has ended. For details, please check the Lodestone."
-70,"TEXT_FESGSC101_02424_GSFESSTAFF_000_045","Once you arrive at the Gold Saucer, seek out my fellow attendant Ollier in Wonder Square. Simply present to him the card you received from Lord Manderville, and he will see to it that you are well attended to."
+48,"TEXT_FESGSC101_02424_LOSER02424_000_001","聞いてくれよ、俺のツイてない話を……。
+今、ゴールドソーサーでは、
+「ゴールドソーサー・フェスティバル」を開催してるんだが……"
+49,"TEXT_FESGSC101_02424_LOSER02424_000_002","MGPを買うためのギルが足りなくて、
+遊ぶことができねえんだ……。"
+50,"TEXT_FESGSC101_02424_LOSER02424_000_003","あんたは冒険者のようだし、そんな心配はないだろうが……
+興味があるなら、ルビーロード国際市場にいる、
+「ゴールドソーサーの従業員」から話を聞いてみな。"
+51,"TEXT_FESGSC101_02424_LOSER02424_000_004","もし「ゴールドソーサー」に行ったことがないなら、
+その辺りにいる「羽振りのいい若者」に声をかけてみな。
+たぶん、チケットをもらえるはずだからさ。"
+52,"TEXT_FESGSC101_02424_GSFESSTAFF_000_010","ただいまゴールドソーサーでは、
+「ゴールドソーサー・フェスティバル」を開催中です。"
+53,"TEXT_FESGSC101_02424_GSFESSTAFF_000_011","お客様はまだゴールドソーサーへ行かれたことがないようですね。
+これを機会に、ぜひ一度お越しください。"
+54,"TEXT_FESGSC101_02424_SYSTEM_000_015","本クエストを進行するには、ウルダハ：ナル回廊にて、
+レベル15から受注できるクエスト「いざ、魅惑の遊技場へ」を、
+受注している必要があります。"
+55,"TEXT_FESGSC101_02424_GSFESSTAFF_000_020","ゴールドソーサー・フェスティバルの開催中は、
+従来より多くのMGPを手に入れるチャンスがあるほか……"
+56,"TEXT_FESGSC101_02424_GODBERT_000_021","ホゥ！？
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>殿ではありませんか！
+ゴールドソーサー・フェスティバルには、もう参加されましたかな？"
+57,"TEXT_FESGSC101_02424_GODBERT_000_022","ホゥ！？
+これはこれは、油塗りの達人殿ではありませんか！
+ゴールドソーサー・フェスティバルには、もう参加されましたかな？"
+58,"TEXT_FESGSC101_02424_GODBERT_000_023","おや、見たところ冒険者のようですが、
+ゴールドソーサー・フェスティバルには、もう参加されましたかな？"
+59,"TEXT_FESGSC101_02424_GODBERT_000_024","この度の祝祭期間中、我がマンダヴィル＆マンダヴィル社が、
+精魂込めて用意した特別な景品を用意しておりますぞ！"
+60,"TEXT_FESGSC101_02424_GODBERT_000_025","ここで会ったのも何かの縁……。
+「特設景品交換窓口」をご利用頂くための、
+「<Sheet(EventItem,2002056,0)/>」を、私から進呈いたしましょう！"
+61,"TEXT_FESGSC101_02424_GODBERT_000_026","では、私はこれよりオーナーとして、
+招待客たちに挨拶回りをしなければなりませんので……。
+またお目にかかりましょうぞ！"
+62,"TEXT_FESGSC101_02424_GSFESSTAFF_000_027","……ほとんど説明されてしまいましたが、
+いただいた「<Sheet(EventItem,2002056,0)/>」をお持ちになって、
+ワンダースクウェアの「オリアー」をおたずねください。"
+63,"TEXT_FESGSC101_02424_LOSER02424_000_030","ゴールドソーサー・フェスティバルに興味があるなら、
+ルビーロード国際市場にいる、
+「ゴールドソーサーの従業員」から話を聞いてみな。"
+64,"TEXT_FESGSC101_02424_LOSER02424_000_035","もし「ゴールドソーサー」に行ったことがないなら、
+その辺りにいる「羽振りのいい若者」に声をかけてみな。
+たぶん、チケットをもらえるはずだからさ。"
+65,"TEXT_FESGSC101_02424_OLLIER_000_040","これはこれは、冒険者さん！
+「ゴールドソーサー・フェスティバル」は、
+楽しんでいただけていますか？"
+66,"TEXT_FESGSC101_02424_OLLIER_000_041","おや……「<Sheet(EventItem,2002056,0)/>」をお持ちのようですね。
+では、さっそく頂戴いたしましょう。"
+67,"TEXT_FESGSC101_02424_OLLIER_000_042","はい、確かに頂戴いたしました！
+以降、ゴールドソーサー・フェスティバルの開催中は、
+「特設景品交換窓口」をご利用いただけますよ！"
+68,"TEXT_FESGSC101_02424_OLLIER_000_043","それでは引き続き、
+「ゴールドソーサー・フェスティバル」をお楽しみください！"
+69,"TEXT_FESGSC101_02424_SYSTEM_000_044","「特設景品交換窓口」が開放されました！
+シーズナルイベント開催中にかぎり、ご利用いただけます。
+期間等の詳細についてはLodestoneをご覧ください。"
+70,"TEXT_FESGSC101_02424_GSFESSTAFF_000_045","「<Sheet(EventItem,2002056,0)/>」をお持ちになって、
+ワンダースクウェアの「オリアー」をおたずねください。"

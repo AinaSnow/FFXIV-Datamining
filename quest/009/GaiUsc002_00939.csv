@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSC002_00939_SEQ_00","Alphinaud appears to be in deep thought."
-1,"TEXT_GAIUSC002_00939_SEQ_01","Ser Joellaut, the injured knight currently recuperating in the infirmary, previously told you of the night when Inquisitor Guillaime first arrived. When you relayed this account to Alphinaud, he found several questionable details which he cannot reconcile. He asks that you retrace the path the inquisitor is said to have taken that night, and see if it sheds any light on this mystery."
-2,"TEXT_GAIUSC002_00939_SEQ_02","Your investigation leads you to a frozen corpse in the chasm which bears a striking resemblance to Inquisitor Guillaime. If you inspect the body, perhaps you will find some clue to his identity."
-3,"TEXT_GAIUSC002_00939_SEQ_03","You find a bloody encyclical on the corpse which suggests that the man was a newly appointed inquisitor. Present the document to Alphinaud and see what he makes of it."
-4,"TEXT_GAIUSC002_00939_SEQ_04","Alphinaud declares that your discoveries prove that the Inquisitor Guillaime you know is an impostor. However, his true identity and objectives remain unknown."
+0,"TEXT_GAIUSC002_00939_SEQ_00","アルフィノは冒険者に、異端審問官のギイェームを追い詰める手助けをしてほしいようだ。"
+1,"TEXT_GAIUSC002_00939_SEQ_01","ギイェームの行動には不審な点があるという。彼が行ったとされる「ホワイトブリム前哨地」の「東門の先」を調べよう。"
+2,"TEXT_GAIUSC002_00939_SEQ_02","<Sheet(EObj,2002170,0)/>から謎の「死体」を見つけた。何か手がかりがあるかもしれない、調べてみよう。"
+3,"TEXT_GAIUSC002_00939_SEQ_03","死体から「<Sheet(EventItem,2000733,0)/>」を見つけた。これが決定的な証拠となればいいのだが……。ホワイトブリム前哨地の「アルフィノ」に渡そう。"
+4,"TEXT_GAIUSC002_00939_SEQ_04","異端審問官のギイェームは偽者だった。本物のギイェームは、ホワイトブリム前哨地での着任前に殺害されていたようだ……。"
 5,"TEXT_GAIUSC002_00939_SEQ_05",""
 6,"TEXT_GAIUSC002_00939_SEQ_06",""
 7,"TEXT_GAIUSC002_00939_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_GAIUSC002_00939_SEQ_21",""
 22,"TEXT_GAIUSC002_00939_SEQ_22",""
 23,"TEXT_GAIUSC002_00939_SEQ_23",""
-24,"TEXT_GAIUSC002_00939_TODO_00","Search the area outside Whitebrim Front for clues."
-25,"TEXT_GAIUSC002_00939_TODO_01","Inspect the corpse."
-26,"TEXT_GAIUSC002_00939_TODO_02","Show the bloody encyclical to Alphinaud."
+24,"TEXT_GAIUSC002_00939_TODO_00","ホワイトブリム前哨地で手がかりを探す"
+25,"TEXT_GAIUSC002_00939_TODO_01","死体を調べる"
+26,"TEXT_GAIUSC002_00939_TODO_02","アルフィノに<Sheet(EventItem,2000733,0)/>を渡す"
 27,"TEXT_GAIUSC002_00939_TODO_03",""
 28,"TEXT_GAIUSC002_00939_TODO_04",""
 29,"TEXT_GAIUSC002_00939_TODO_05",""
@@ -49,16 +49,32 @@ int32,str,str
 45,"TEXT_GAIUSC002_00939_TODO_21",""
 46,"TEXT_GAIUSC002_00939_TODO_22",""
 47,"TEXT_GAIUSC002_00939_TODO_23",""
-48,"TEXT_GAIUSC002_00939_ALPHINAUD_000_000","Something troubles me about that wounded knight's account. He claims he fell chasing a figure in the darkness that he saw outside the <Emphasis>eastern</Emphasis> gate, yes? But the main road leads to the <Emphasis>southwestern</Emphasis> gate."
-49,"TEXT_GAIUSC002_00939_ALPHINAUD_000_001","Since we've arrived in Whitebrim Front, I've seen no travelers arrive by the eastern gate. Moreover, he said he glimpsed a “silhouette illuminated by the light of the city,” which would imply that the inquisitor came from <Emphasis>north</Emphasis> of the eastern gate, not south.
-But it cannot be so─that way lies naught but a deep chasm."
-50,"TEXT_GAIUSC002_00939_ALPHINAUD_000_002","Assuming Ser Joellaut is not misremembering, the inquisitor's behavior that night makes absolutely no sense, at least to me. Mayhap retracing his steps will shed light on this mystery."
-51,"TEXT_GAIUSC002_00939_DUMMY_000_010",""
-52,"TEXT_GAIUSC002_00939_DUMMY_000_020",""
-53,"TEXT_GAIUSC002_00939_ALPHINAUD_000_030","You found something, didn't you? Well, don't keep me waiting in suspense. Let's see it."
-54,"TEXT_GAIUSC002_00939_ALPHINAUD_000_031","Hmmm... Given the contents of this encyclical, I believe you have just made the acquaintance of the <Emphasis>real</Emphasis> Inquisitor Guillaime."
-55,"TEXT_GAIUSC002_00939_ALPHINAUD_000_032","Newly come to Coerthas and murdered on the day of his arrival... Yes, it would have been a simple thing to assume his identity, for even if he were to behave oddly, who would dare question the wisdom of a papal appointment?"
-56,"TEXT_GAIUSC002_00939_ALPHINAUD_000_033","Still, while this is incontrovertible proof that the inquisitor is an impostor, we have yet to discern his true identity, or why he has decided to oppose us."
-57,"TEXT_GAIUSC002_00939_ALPHINAUD_000_034","We must proceed quickly, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, before he learns that his deception has been discovered!"
-58,"TEXT_GAIUSC002_00939_POP_MESSAGE_000","The air begins to crackle with aetherial energies..."
-59,"TEXT_GAIUSC002_00939_ACCESS_MESSAGE","The enemy is still about!"
+48,"TEXT_GAIUSC002_00939_ALPHINAUD_000_000","君が得た証言によると、着任した異端審問官は、
+任も早々に基地の裏手に行ったということだが……
+衛士の制止も聞かず、慌てて為すこととは思えない。"
+49,"TEXT_GAIUSC002_00939_ALPHINAUD_000_001","しかも、彼が着任した夜は吹雪……。
+この地の天候事情を鑑みれば、
+その行動は、正気の沙汰ではない。"
+50,"TEXT_GAIUSC002_00939_ALPHINAUD_000_002","……異端審問官が向かった裏手とは、恐らく東門の先だ。
+私がここで観察していたかぎり、あちらは人通りがなく、
+秘密が潜むのに最適だ。調査を頼むぞ。 "
+51,"TEXT_GAIUSC002_00939_DUMMY_000_010","（ワイバーンの死体付近に近寄るとウィスプ×３がポップ
+数箇所あるEobjもりあがった雪にアクセス、
+うち１つはアクセス後Epbj死体となる）"
+52,"TEXT_GAIUSC002_00939_DUMMY_000_020","（Eobj死体にアクセスし、任命書を入手）"
+53,"TEXT_GAIUSC002_00939_ALPHINAUD_000_030","手がかりは見つかったかい？
+もう振り出しに戻ってはいられない……頼んだよ。"
+54,"TEXT_GAIUSC002_00939_ALPHINAUD_000_031","……なるほど、決定的だな。
+雪に埋もれた異端審問官の死体と、
+<Sheet(EventItem,2000733,0)/>……これには何て書いてあると思う？"
+55,"TEXT_GAIUSC002_00939_ALPHINAUD_000_032","異端審問官ギイェームを、
+ホワイトブリム前哨地に配属する……だそうだ。
+もっとも、本物は1日たりとも働けなかったようだけどね。"
+56,"TEXT_GAIUSC002_00939_ALPHINAUD_000_033","あのギイェームは偽者だよ。
+着任した本物のギイェームを呼び出して殺し、
+彼になりすました……というところだろうね。"
+57,"TEXT_GAIUSC002_00939_ALPHINAUD_000_034","フフ……罪なき民を消して隠すことはできても、
+君の前では、真相を隠せなかったようだね。
+さあ、仕上げといこう、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>！"
+58,"TEXT_GAIUSC002_00939_POP_MESSAGE_000","敵の気配を感じた！！"
+59,"TEXT_GAIUSC002_00939_ACCESS_MESSAGE","その行動は出現した敵を倒さないと実行できません"

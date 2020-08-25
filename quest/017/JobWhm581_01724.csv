@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_JOBWHM581_01724_SEQ_00","Eschiva is ready to return to the Twelveswood to petition the Seedseers' aid."
-1,"TEXT_JOBWHM581_01724_SEQ_01","Eschiva has given the hunk of tainted flesh over to your keeping. Make your way to Camp Tranquil in the South Shroud, and present it to Raya–O–Senna."
-2,"TEXT_JOBWHM581_01724_SEQ_02","Having dared to hope that the Seedseers will bestir themselves, Eschiva is furious when it becomes evident that they mean to have you bear the burden of dealing with Alaqa. She storms off, and the two Seedseers are left to ponder her words. Though the law binds them to the forest, they concede that it will all count for naught if the people lose faith in them. For the time being, sit tight while A–Ruhn examines the piece of tainted flesh for clues.
+0,"TEXT_JOBWHM581_01724_SEQ_00","エシヴァは、黒衣森に戻る決意を固めたようだ。"
+1,"TEXT_JOBWHM581_01724_SEQ_01","エシヴァから「<Sheet(EventItem,2001688,0)/>」を託された。南部森林のキャンプ・トランキルの「ラヤ・オ・センナ」に「死霊の肉片」を渡そう。"
+2,"TEXT_JOBWHM581_01724_SEQ_02","エシヴァは、煮え切らぬ角尊の態度に、怒りを露わにし去っていった。その姿を見た角尊の2人は、改めて自分たちの使命に悩むも、「死霊の肉片」の調査を引き受けてくれた。調査の結果が出るのを待とう。
 
-※The next white mage quest will be available from Raya–O–Senna upon reaching level 60."
+※白魔道士のレベルが60以上になると、キャンプ・トランキルのラヤ・オ・センナから、次の白魔道士クエストを受注することができます。"
 3,"TEXT_JOBWHM581_01724_SEQ_03",""
 4,"TEXT_JOBWHM581_01724_SEQ_04",""
 5,"TEXT_JOBWHM581_01724_SEQ_05",""
@@ -27,7 +27,7 @@ int32,str,str
 21,"TEXT_JOBWHM581_01724_SEQ_21",""
 22,"TEXT_JOBWHM581_01724_SEQ_22",""
 23,"TEXT_JOBWHM581_01724_SEQ_23",""
-24,"TEXT_JOBWHM581_01724_TODO_00","Deliver the tainted flesh to Raya–O–Senna at Camp Tranquil."
+24,"TEXT_JOBWHM581_01724_TODO_00","キャンプ・トランキルのラヤ・オ・センナに<Sheet(EventItem,2001688,0)/>を渡す"
 25,"TEXT_JOBWHM581_01724_TODO_01",""
 26,"TEXT_JOBWHM581_01724_TODO_02",""
 27,"TEXT_JOBWHM581_01724_TODO_03",""
@@ -51,28 +51,66 @@ int32,str,str
 45,"TEXT_JOBWHM581_01724_TODO_21",""
 46,"TEXT_JOBWHM581_01724_TODO_22",""
 47,"TEXT_JOBWHM581_01724_TODO_23",""
-48,"TEXT_JOBWHM581_01724_ESCHIVA_000_000","Please hold on to the hunk of flesh. It is, er...<Emphasis>safer</Emphasis> in your keeping."
-49,"TEXT_JOBWHM581_01724_ESCHIVA_100_000","Now then, let us return to Camp Tranquil and explain the situation to the Seedseers."
-50,"TEXT_JOBWHM581_01724_ARUHNSENNA_000_005","The great one's warnings have not abated. On the contrary, they have become more fervent."
-51,"TEXT_JOBWHM581_01724_ESCHIVA_000_006","The situation grows ever more dire, but will it be enough to spur the Seedseers to action?"
-52,"TEXT_JOBWHM581_01724_RAYAOSENNA_000_010","Ah, you are returned! How fares the effort to purge the taint?
-...Hm? You wish to show us something?"
-53,"TEXT_JOBWHM581_01724_RAYAOSENNA_000_012","What does it tell us, Brother?"
-54,"TEXT_JOBWHM581_01724_ARUHNSENNA_000_013","The elementals are in trepidation of the flesh. It is infused with befouled aether, of this there can be no doubt."
-55,"TEXT_JOBWHM581_01724_ARUHNSENNA_000_014","And with the great one's warnings growing ever more fervent, it seems plain that this Alaqa continues to sow the taint."
-56,"TEXT_JOBWHM581_01724_RAYAOSENNA_000_015","Whatever it is she seeks to do, we must put a stop to it!"
-57,"TEXT_JOBWHM581_01724_RAYAOSENNA_000_016","A–Ruhn and I shall take a closer look at the flesh. In the meantime, you must resume your journey of purification."
-58,"TEXT_JOBWHM581_01724_ESCHIVA_000_017","What!? With all due respect─ Oh, to hells with respect! I can't believe what I'm hearing! You would send us back into the midst of danger, and with nary a word of counsel!?"
-59,"TEXT_JOBWHM581_01724_RAYAOSENNA_000_018","I know full well that we ask much of you, but there is none other upon whom we can depend."
-60,"TEXT_JOBWHM581_01724_ESCHIVA_000_019","Depend, you say? Instead of depending upon others, why don't you <Emphasis>do</Emphasis> something for a change!? We all know that you both have the power to do so!"
-61,"TEXT_JOBWHM581_01724_ESCHIVA_000_021","Do you realize how much <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> has been through in your names?"
-62,"TEXT_JOBWHM581_01724_ESCHIVA_000_022","Oh, but of course you don't, because while <If(PlayerParameter(4))>she<Else/>he</If> bled for you, you were hiding here with your heads in the treetops!"
-63,"TEXT_JOBWHM581_01724_ESCHIVA_000_023","If Master A–Towa were to see this, he would be turning in his grave!"
-64,"TEXT_JOBWHM581_01724_RAYAOSENNA_000_0025","Heads in the treetops? What is the matter with her?"
-65,"TEXT_JOBWHM581_01724_ARUHNSENNA_000_026","To think that our own people see us in such a light..."
-66,"TEXT_JOBWHM581_01724_RAYAOSENNA_000_027","It cannot be helped, Brother─we are bound to remain in the forest. Things are not as they were during Master A–Towa's time."
-67,"TEXT_JOBWHM581_01724_ARUHNSENNA_000_028","Be that as it may, were the people to lose faith in us, for whom shall we convey the will of the elementals?"
-68,"TEXT_JOBWHM581_01724_ARUHNSENNA_000_029","Forgive me, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, but I would be alone. Rest assured I will take a closer look at the tainted flesh."
-69,"TEXT_JOBWHM581_01724_RAYAOSENNA_000_030","A-Ruhn has the right of it. It is our duty to facilitate harmony between man and elemental. All the laws of the forest count for naught if we fail in this."
-70,"TEXT_JOBWHM581_01724_RAYAOSENNA_000_031","At any rate, we must needs stop Alaqa's dark designs. And fear not, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Henceforth, we will not leave you to bear the burden alone. Pray allow us the time to consider our next step."
-71,"TEXT_JOBWHM581_01724_SYSTEM_000_040",""
+48,"TEXT_JOBWHM581_01724_ESCHIVA_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん。
+アラカさんが残していった「<Sheet(EventItem,2001688,0)/>」は、
+あなたが持っていてください。"
+49,"TEXT_JOBWHM581_01724_ESCHIVA_100_000","「キャンプ・トランキル」に戻って、
+「ラヤ・オ・センナ」様に事情を説明し、
+詳しく調べてもらいましょう。"
+50,"TEXT_JOBWHM581_01724_ARUHNSENNA_000_005","大精霊によると、「不浄なるもの」の流入は、
+いまだに増しているらしいんだ……。"
+51,"TEXT_JOBWHM581_01724_ESCHIVA_000_006","世界を揺るがすような事態に対して、
+角尊がどう答えを出すのか……。
+そして、私は……。"
+52,"TEXT_JOBWHM581_01724_RAYAOSENNA_000_010","おかえりなさい、エシヴァ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>！
+「不浄なるもの」を浄化する旅は順調かしら……？
+……えっ、私に見てほしい物があるの？"
+53,"TEXT_JOBWHM581_01724_RAYAOSENNA_000_012","……どう、ア・ルン。
+それから何かわかりそう？"
+54,"TEXT_JOBWHM581_01724_ARUHNSENNA_000_013","精霊たちが、この欠片に怯えている……。
+「不浄なるもの」によって生み出された存在と見て、
+まず間違いないだろうね。"
+55,"TEXT_JOBWHM581_01724_ARUHNSENNA_000_014","それに、大精霊の発する警告も、日増しに強くなっている。
+アラカという人の「実験」が進みつつあるんだ。
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>の力でも対処できるかどうか……。"
+56,"TEXT_JOBWHM581_01724_RAYAOSENNA_000_015","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>！
+早く、元凶のアラカって女をどうにかしないとマズいわ。"
+57,"TEXT_JOBWHM581_01724_RAYAOSENNA_000_016","そうね……。
+この<Sheet(EventItem,2001688,0)/>は、こっちで調べておくから、
+あなたには、もう一度旅に出てもらって……。"
+58,"TEXT_JOBWHM581_01724_ESCHIVA_000_017","待ってください！
+ただでさえ過酷な旅だというのに、
+手がかりもない状態で放り出すおつもりですか！？"
+59,"TEXT_JOBWHM581_01724_RAYAOSENNA_000_018","……選択肢として考えただけよ。
+今は、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>の癒しの力が頼りなの。
+多少の危険は、きっと乗り越えてくれるわ。"
+60,"TEXT_JOBWHM581_01724_ESCHIVA_000_019","この期に及んで人任せなんて……。
+癒しの力を持つ者というなら、角尊とて同じでしょうに……！"
+61,"TEXT_JOBWHM581_01724_ESCHIVA_000_021","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さんは、全力を尽くしてます！
+私は、それをこの目で見てきました！"
+62,"TEXT_JOBWHM581_01724_ESCHIVA_000_022","傷つき息絶えようとしていた騎士を癒し、
+「不浄なるもの」にあてられた魔物にも怯むことなく、
+過酷な旅の中で、浄化を行ってきたんです！"
+63,"TEXT_JOBWHM581_01724_ESCHIVA_000_023","……だというのに、黒衣森で待っていただけの人が、
+策もなく、ふたたび危地へ赴いて来いと命じるのですか！
+少しはア・トワ様を見習い、それらしく振る舞いなさい！"
+64,"TEXT_JOBWHM581_01724_RAYAOSENNA_000_0025","……なんなの、あの子は？
+ア・トワ様を見習えって……。"
+65,"TEXT_JOBWHM581_01724_ARUHNSENNA_000_026","そんな…………。
+森の民から、そういう目で見られていたなんて……。"
+66,"TEXT_JOBWHM581_01724_RAYAOSENNA_000_027","でも、私たちは森の掟がある……。
+簡単に黒衣森を離れられないんだから、仕方ないじゃない。
+今は、ア・トワ様の時代とは違うんだから……。"
+67,"TEXT_JOBWHM581_01724_ARUHNSENNA_000_028","そうだけど……。
+でも、守るべき森の民に幻滅されてまで、
+僕たちは何のために、森との対話を行っているんだろう……。"
+68,"TEXT_JOBWHM581_01724_ARUHNSENNA_000_029","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
+この<Sheet(EventItem,2001688,0)/>は、確かに調べておくよ……。
+……ごめん、少しひとりで考えさせて。"
+69,"TEXT_JOBWHM581_01724_RAYAOSENNA_000_030","……ア・ルンの言うとおりね。
+森と民を仲介し、調和へと導くのが角尊の役目。
+そのために優先すべきは、掟ではないのかもしれない……。"
+70,"TEXT_JOBWHM581_01724_RAYAOSENNA_000_031","とにかく、そのアラカとかいう女を止めないとね。
+……大丈夫、本当にあんたを放り出しなんかしないわ。
+対策を練るために、少しだけ時間をちょうだい……。"
+71,"TEXT_JOBWHM581_01724_SYSTEM_000_040","（★未使用／削除予定★）"

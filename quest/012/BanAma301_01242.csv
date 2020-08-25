@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANAMA301_01242_SEQ_00","Yadovv Gah is eager to seize upon his foe's miscalculation."
-1,"TEXT_BANAMA301_01242_SEQ_01","Though he often counsels measured action, Yadovv Gah appears hungry for blood this day. It seems that certain of Zagozz Teh's elite troops have left his side, with orders to participate in upcoming raids. Take advantage of their vulnerability, and strike down the Zahar'ak lancers and archers."
-2,"TEXT_BANAMA301_01242_SEQ_02","You have slain the lancers and archers of Zahar'ak, leaving their corpses as a stark warning to Zagozz Teh and his arrogance. Return to the Ring of Ash and report to Yadovv Gah."
-3,"TEXT_BANAMA301_01242_SEQ_03","You return to Yadovv Gah with news of your unrestrained slaughter. Though cheered by the thought of such fangs pulled from his enemy's maw, the Brotherhood warrior warns that your attacks may provoke retaliation. Stand ready to offer your assistance should the need arise."
+0,"TEXT_BANAMA301_01242_SEQ_00","灰の陣営のヤドヴ・ガーは、冒険者に役目を果たしてほしいようだ。"
+1,"TEXT_BANAMA301_01242_SEQ_01","ヤドヴ・ガーの依頼を受けた。ザハラク戦陣にいる「<Sheet(BNpcName,1837,0)/>」と「<Sheet(BNpcName,1838,0)/>」を3体ずつ討伐しよう。"
+2,"TEXT_BANAMA301_01242_SEQ_02","<Sheet(BNpcName,1837,0)/>と<Sheet(BNpcName,1838,0)/>を討伐した。灰の陣営の「ヤドヴ・ガー」に報告しよう。"
+3,"TEXT_BANAMA301_01242_SEQ_03","ヤドヴ・ガーに報告した。冒険者の活躍に感じ入ったと語るヤドヴ・ガー。今後の戦いに備え、冒険者に負けぬよう己を鍛えるつもりだそうだ。またの機会に協力しよう。"
 4,"TEXT_BANAMA301_01242_SEQ_04",""
 5,"TEXT_BANAMA301_01242_SEQ_05",""
 6,"TEXT_BANAMA301_01242_SEQ_06",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_BANAMA301_01242_SEQ_21",""
 22,"TEXT_BANAMA301_01242_SEQ_22",""
 23,"TEXT_BANAMA301_01242_SEQ_23",""
-24,"TEXT_BANAMA301_01242_TODO_00","Slay Zahar'ak lancers."
-25,"TEXT_BANAMA301_01242_TODO_01","Slay Zahar'ak archers."
-26,"TEXT_BANAMA301_01242_TODO_02","Report to Yadovv Gah."
+24,"TEXT_BANAMA301_01242_TODO_00","<Sheet(BNpcName,1837,0)/>を討伐"
+25,"TEXT_BANAMA301_01242_TODO_01","<Sheet(BNpcName,1838,0)/>を討伐"
+26,"TEXT_BANAMA301_01242_TODO_02","ヤドヴ・ガーに報告"
 27,"TEXT_BANAMA301_01242_TODO_03",""
 28,"TEXT_BANAMA301_01242_TODO_04",""
 29,"TEXT_BANAMA301_01242_TODO_05",""
@@ -49,11 +49,23 @@ int32,str,str
 45,"TEXT_BANAMA301_01242_TODO_21",""
 46,"TEXT_BANAMA301_01242_TODO_22",""
 47,"TEXT_BANAMA301_01242_TODO_23",""
-48,"TEXT_BANAMA301_01242_YADOVVGAH_000_000","Honored ally, the greed of our foes has led them into grave error."
-49,"TEXT_BANAMA301_01242_YADOVVGAH_000_001","In his frantic quest to gather victims for tempering, Zagozz Teh has allowed certain of his personal bodyguards to join the Flamefang raiding efforts."
-50,"TEXT_BANAMA301_01242_YADOVVGAH_000_002","Never again will his elite soldiers be so vulnerable! I urge you to strike now, and remove these pieces from the board."
-51,"TEXT_BANAMA301_01242_YADOVVGAH_000_003","You will find the high-ranked lancers and archers prowling the canyons of Zahar'ak, awaiting the call to action. Spare these fools neither words nor mercy."
-52,"TEXT_BANAMA301_01242_YADOVVGAH_000_004","This day is a day for blood! May the fortune of battle be yours."
-53,"TEXT_BANAMA301_01242_YADOVVGAH_000_010","Hunt down the Flamefang elites, and leave them bleeding in the dust. Zagozz Teh will pay for his mad ambition."
-54,"TEXT_BANAMA301_01242_YADOVVGAH_000_020","You have dealt a telling blow, honored ally. The enemy has been deprived of some of his sharpest fangs."
-55,"TEXT_BANAMA301_01242_YADOVVGAH_000_021","But the wounded cur is most like to bite. Be on guard, and prepared to move at a moment's notice!"
+48,"TEXT_BANAMA301_01242_YADOVVGAH_000_000","冒険者殿。
+「炎牙衆」の動きについて、御相談があり申す。"
+49,"TEXT_BANAMA301_01242_YADOVVGAH_000_001","どうにも近頃、炎牙衆も必死と見えまする。
+頭目ザゴズ・テーを守る侍衛の一部までをも、
+人拐いの隊列に参加させているほどゆえ。"
+50,"TEXT_BANAMA301_01242_YADOVVGAH_000_002","これは、まさに好機！
+今こそ攻め立て、奴らの戦力を削る時でありましょう。"
+51,"TEXT_BANAMA301_01242_YADOVVGAH_000_003","今、この周辺で暗躍するのは「<Sheet(BNpcName,1837,0)/>」と
+「<Sheet(BNpcName,1838,0)/>」……。
+こやつらを倒せば、炎牙衆の力を削ぐことができましょうぞ。"
+52,"TEXT_BANAMA301_01242_YADOVVGAH_000_004","各々3名も討てば、十分でありましょう。
+御役目、よろしくお頼み申す。"
+53,"TEXT_BANAMA301_01242_YADOVVGAH_000_010","炎牙衆の精鋭、「<Sheet(BNpcName,1837,0)/>」と
+「<Sheet(BNpcName,1838,0)/>」を討ってくだされ。
+御役目、よろしくお頼み申す。"
+54,"TEXT_BANAMA301_01242_YADOVVGAH_000_020","見事なお手並み、さすがは冒険者殿。
+これでしばらくは「炎牙衆」どもの動きも鈍くなりましょう。"
+55,"TEXT_BANAMA301_01242_YADOVVGAH_000_021","されど油断大敵、決して気を緩めてはなりませぬな。
+百錬成鋼、自分も冒険者殿を見習い、
+「灰の一党」として恥じぬよう、己を磨く所存でありまする。"

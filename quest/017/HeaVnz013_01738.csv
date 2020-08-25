@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNZ013_01738_SEQ_00","Caribault is taking stock of the pumpkin patch, but with an odd sense of dejection."
-1,"TEXT_HEAVNZ013_01738_SEQ_01","You speak with Caribault, asking what work there is to be done about Camp Cloudtop. He tells you all about the trouble being caused by wild gastornis, which have destroyed the camp's crops on a number of occasions. In the hopes of thinning their numbers, he asks that you slay three of the feathered fiends in his stead. And not wanting to waste the opportunity, he also asks you to retrieve the meat from the gastornis you fell."
-2,"TEXT_HEAVNZ013_01738_SEQ_02","You have dispatched the gastornis and obtained three chunks of their meat. Report back to Caribault with your bounty."
-3,"TEXT_HEAVNZ013_01738_SEQ_03","Caribault is relieved to hear of your success in culling the gastornis population. The gastornis meat, he tells you, will be a much-needed reprieve from the dreary salt-cured meats the men about camp are accustomed to. The merits of your work are twofold: a safer harvest and more appetizing provisions for the men of Camp Cloudtop."
+0,"TEXT_HEAVNZ013_01738_SEQ_00","キャンプ・クラウドトップのカリボーは、畑の世話をしながら手隙の者を探している。"
+1,"TEXT_HEAVNZ013_01738_SEQ_01","カリボーに<Sheet(BNpcName,3495,0)/>を討伐し、モモ肉を取ってくるよう頼まれた。アバラシア雲海のクラウドトップにいる「<Sheet(BNpcName,3495,0)/>」から「<Sheet(EventItem,2001597,0)/>」を3つ入手しよう。"
+2,"TEXT_HEAVNZ013_01738_SEQ_02","<Sheet(EventItem,2001597,0)/>を手に入れた。キャンプ・クラウドトップの「カリボー」に「<Sheet(EventItem,2001597,0)/>」を渡そう。"
+3,"TEXT_HEAVNZ013_01738_SEQ_03","カリボーに<Sheet(EventItem,2001597,0)/>を渡した。彼は支給品の塩漬け肉ばかりでは物足りず、<Sheet(EventItem,2001597,0)/>をたっぷりと味わうつもりのようだ。"
 4,"TEXT_HEAVNZ013_01738_SEQ_04",""
 5,"TEXT_HEAVNZ013_01738_SEQ_05",""
 6,"TEXT_HEAVNZ013_01738_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_HEAVNZ013_01738_SEQ_21",""
 22,"TEXT_HEAVNZ013_01738_SEQ_22",""
 23,"TEXT_HEAVNZ013_01738_SEQ_23",""
-24,"TEXT_HEAVNZ013_01738_TODO_00","Slay gastornis and obtain their meat."
-25,"TEXT_HEAVNZ013_01738_TODO_01","Deliver the gastornis thighs to Caribault."
+24,"TEXT_HEAVNZ013_01738_TODO_00","<Sheet(BNpcName,3495,0)/>から<Sheet(EventItem,2001597,0)/>を入手"
+25,"TEXT_HEAVNZ013_01738_TODO_01","カリボーに<Sheet(EventItem,2001597,0)/>を渡す"
 26,"TEXT_HEAVNZ013_01738_TODO_02",""
 27,"TEXT_HEAVNZ013_01738_TODO_03",""
 28,"TEXT_HEAVNZ013_01738_TODO_04",""
@@ -49,10 +49,22 @@ int32,str,str
 45,"TEXT_HEAVNZ013_01738_TODO_21",""
 46,"TEXT_HEAVNZ013_01738_TODO_22",""
 47,"TEXT_HEAVNZ013_01738_TODO_23",""
-48,"TEXT_HEAVNZ013_01738_CARIBAULT_000_000","Hm? Looking for work, are you? Then you've come to the right place. The name's Caribault, and I have the honor of serving Lady Laniaitte. When I'm free of duty, I try to make myself useful by helping out with the farmwork, as I am now."
-49,"TEXT_HEAVNZ013_01738_CARIBAULT_000_001","Of late, we've been having a problem with wild gastornis. You might recognize them as the colorful dodo creatures you've seen about the place. Try as we might to keep them away, they always manage to get at our crops before we can harvest them."
-50,"TEXT_HEAVNZ013_01738_CARIBAULT_000_002","It would mean much to the camp if you could dispatch some of them. Three should be sufficient, I think. Also, if it's not too much trouble, would you mind bringing back some of the meat from the beasts you fell? No sense in letting perfectly good poultry go to waste."
-51,"TEXT_HEAVNZ013_01738_CARIBAULT_000_010","Slaying three gastornis should be more than enough. Oh, and do be sure to bring back their meat."
-52,"TEXT_HEAVNZ013_01738_CARIBAULT_000_020","You've taken care of the gastornis? Splendid! Were you able to procure the meat as well?"
-53,"TEXT_HEAVNZ013_01738_CARIBAULT_000_021","My thanks, friend! My men will be glad for this bounty of fresh meat!"
-54,"TEXT_HEAVNZ013_01738_CARIBAULT_000_022","Salted meats are perfectly fine in moderation, but we often long for foods with a bit more flavor. And thanks to you, we have struck two birds with one stone─our men have fresh meat for the fire, and we've earned a respite from the gastornis."
+48,"TEXT_HEAVNZ013_01738_CARIBAULT_000_000","……何か仕事はあるかって？
+ちょうど、人手を探していたところだ。"
+49,"TEXT_HEAVNZ013_01738_CARIBAULT_000_001","俺はカリボー、アインハルト家の薔薇騎兵団に所属している。
+この畑は薔薇騎兵団で世話をしてるんだけど、
+<Sheet(BNpcName,3495,0)/>に荒らされて、困っていてさ。"
+50,"TEXT_HEAVNZ013_01738_CARIBAULT_000_002","悪さをする「<Sheet(BNpcName,3495,0)/>」を駆除してくれるかい？
+3匹ほど狩ってくれれば十分だ。
+そうそう……ついでに、奴らのモモ肉もとってきてくれよ。"
+51,"TEXT_HEAVNZ013_01738_CARIBAULT_000_010","悪さをする「<Sheet(BNpcName,3495,0)/>」を倒してほしいんだ。
+3匹ほど狩ってくれれば十分だ。
+そうそう……ついでに、奴らのモモ肉もとってきてくれよ。"
+52,"TEXT_HEAVNZ013_01738_CARIBAULT_000_020","悪さをする「<Sheet(BNpcName,3495,0)/>」を倒してほしいんだ。
+3匹ほど狩ってくれれば十分だ。
+そうそう……ついでに、奴らのモモ肉もとってきてくれよ。"
+53,"TEXT_HEAVNZ013_01738_CARIBAULT_000_021","おお！　よくやってくれたね。
+「<Sheet(EventItem,2001597,0)/>」は、煮込むとなかなかいけるんだ。"
+54,"TEXT_HEAVNZ013_01738_CARIBAULT_000_022","補給の回数が限られるここで支給されるのは、
+日持ちする塩漬け肉ばかりだから、流石に味気なくてね。
+畑を守った上に美味い肉も食える……これこそ、一石二鳥だろ？"

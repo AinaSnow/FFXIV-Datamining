@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ720_02823_SEQ_00","M'gizzoh is itching to go hunting."
+0,"TEXT_STMBDZ720_02823_SEQ_00","ピーリングストーンズのメ・ギゾは、狩場のことで困ったことがあるようだ。"
 1,"TEXT_STMBDZ720_02823_SEQ_01",""
 2,"TEXT_STMBDZ720_02823_SEQ_02",""
 3,"TEXT_STMBDZ720_02823_SEQ_03",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_STMBDZ720_02823_SEQ_21",""
 22,"TEXT_STMBDZ720_02823_SEQ_22",""
 23,"TEXT_STMBDZ720_02823_SEQ_23",""
-24,"TEXT_STMBDZ720_02823_TODO_00","Survey the designated location and slay any broken bhoots that appear."
-25,"TEXT_STMBDZ720_02823_TODO_01","Report to M'gizzoh."
+24,"TEXT_STMBDZ720_02823_TODO_00","<Sheet(EObj,2008749,0)/>で見渡して<Sheet(BNpcName,5942,0)/>を討伐"
+25,"TEXT_STMBDZ720_02823_TODO_01","メ・ギゾに報告"
 26,"TEXT_STMBDZ720_02823_TODO_02",""
 27,"TEXT_STMBDZ720_02823_TODO_03",""
 28,"TEXT_STMBDZ720_02823_TODO_04",""
@@ -49,12 +49,28 @@ int32,str,str
 45,"TEXT_STMBDZ720_02823_TODO_21",""
 46,"TEXT_STMBDZ720_02823_TODO_22",""
 47,"TEXT_STMBDZ720_02823_TODO_23",""
-48,"TEXT_STMBDZ720_02823_MGIZZOH_000_000","<If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>Nice night<Else/>Good day</If><Else/><If(LessThan(PlayerParameter(11),17))>Good day<Else/>Nice night</If></If> for hunting isn't it? Especially now that the Garleans have turned tail and fled. Before you couldn't step foot from the Peering Stones without being dragged into a fight between them and the Resistance."
-49,"TEXT_STMBDZ720_02823_MGIZZOH_000_001","Now that we're back to our usual haunts, I've run into a bit of trouble. It seems in our absence a horde of bhoots have taken a liking to my favorite place to hunt."
-50,"TEXT_STMBDZ720_02823_MGIZZOH_000_002","They're always hiding on the cliff tops just out of range of my arrows, and swooping down when I'm not looking. Would that I had wings to fly up after them."
-51,"TEXT_STMBDZ720_02823_MGIZZOH_000_003","Word has it you have a knack for handling seemingly insurmountable problems. It'd mean the world to me if you could scale the cliffs southwest of here and do away with the bhoots."
-52,"TEXT_STMBDZ720_02823_MGIZZOH_000_004","You may not see them at first, but if you wait around long enough, they're sure to turn up. Be careful, though. They can be pretty nasty."
-53,"TEXT_STMBDZ720_02823_MGIZZOH_000_010","The bhoots are gone? So you did scale the cliffs! That's quite the feat."
-54,"TEXT_STMBDZ720_02823_MGIZZOH_100_010","A pity you're not part of our tribe. We could do with more capable hunters like you."
-55,"TEXT_STMBDZ720_02823_MGIZZOH_000_011","But what are ghosts doing there to begin with? By all rights they should be busy brooding about a cemetery somewhere."
-56,"TEXT_STMBDZ720_02823_MGIZZOH_000_012","Then again, Virdjala has seen more than its fair share of death lately. Hopefully any other spirits still lingering there will soon move on."
+48,"TEXT_STMBDZ720_02823_MGIZZOH_000_000","帝国がいなくなったおかげで、生活が楽になったよ。
+前までは、ひとけのない穴場で狩りをしているだけで、
+「反帝国活動」だとか疑われて、面倒臭かったんだよね。"
+49,"TEXT_STMBDZ720_02823_MGIZZOH_000_001","ただ、帝国がいなくなった後にも困ったことはあってね。
+私のお気に入りの狩場に、<Sheet(BNpcName,5942,0)/>が棲みついちゃってさ。
+いつ襲われるかわからなくて、狩りができないんだよ。"
+50,"TEXT_STMBDZ720_02823_MGIZZOH_000_002","追い出そうにも、奴は高い崖の上にいて、
+私の弓じゃ届かないしね……。
+空が飛べるなら、すぐ退治しに行けるのになあ。"
+51,"TEXT_STMBDZ720_02823_MGIZZOH_000_003","そこで、君にお願いがあるんだよ。
+崖の上の「<Sheet(BNpcName,5942,0)/>」を退治してほしいんだ。
+面倒かもしれないけど、よろしく頼むよ……。"
+52,"TEXT_STMBDZ720_02823_MGIZZOH_000_004","崖の上の「<Sheet(BNpcName,5942,0)/>」を退治してほしいんだ。
+面倒かもしれないけど、よろしく頼むよ……。"
+53,"TEXT_STMBDZ720_02823_MGIZZOH_000_010","<Sheet(BNpcName,5942,0)/>を倒したって？
+ということは、あの高い崖を越えたってこと？
+へえ、すごいなあ。"
+54,"TEXT_STMBDZ720_02823_MGIZZOH_100_010","<If(PlayerParameter(4))>もったいないなあ。
+君が男なら、きっといい「ヌン」になれたのに……。<Else/>私、君みたいな強い男は好きだよ。
+もちろん、「ヌン」の次にだけどね。</If>"
+55,"TEXT_STMBDZ720_02823_MGIZZOH_000_011","でも、<Sheet(BNpcName,5942,0)/>はどうして崖の上なんかにいたんだ？
+普段は、墓地などの暗い場所にいるはずなんだけど。"
+56,"TEXT_STMBDZ720_02823_MGIZZOH_000_012","……そうか、ここは、昔たくさんの人が死んだ場所だから、
+死者の魂が彷徨っているのかもしれないね。
+……早く、彼らの帰る場所が見つかるといいな……。"

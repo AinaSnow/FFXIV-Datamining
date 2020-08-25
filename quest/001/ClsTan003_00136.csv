@@ -1,12 +1,12 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSTAN003_00136_SEQ_00","Guildmaster Geva requires your assistance due to an unanticipated setback."
-1,"TEXT_CLSTAN003_00136_SEQ_01","You have been instructed to make a pair of hard leather caligae and a hard leather choker in place of a fellow guild member who has run away. Craft the two items and present them to Geva for inspection."
-2,"TEXT_CLSTAN003_00136_SEQ_02","Despite your best efforts, your caligae and choker are not quite up to Fen–Yll standards. Geva must make additional adjustments, which means the delivery will be delayed. Geva asks that you /kneel in apology before the customer, a gentleman by the name of Sosobati, who awaits in the reception area."
-3,"TEXT_CLSTAN003_00136_SEQ_03","Much to your relief, Sosobati turns out to be an understanding fellow. He believes that Geva favors you highly, even if her words may not always make this wholly apparent. Taking the episode's lessons to heart, you continue to apply yourself to mastering your craft.
+0,"TEXT_CLSTAN003_00136_SEQ_00","革細工師ギルドのゲヴァは、冒険者に、ある重要な仕事を任せようとしている。"
+1,"TEXT_CLSTAN003_00136_SEQ_01","仕事を放棄して逃げ出した革細工師の代わりに、「<Sheet(Item,3772,0)/>」と「<Sheet(Item,4308,0)/>」をひとつずつ作り、革細工師ギルドの「ゲヴァ」に届けよう。"
+2,"TEXT_CLSTAN003_00136_SEQ_02","冒険者の作った<Sheet(Item,3772,0)/>と<Sheet(Item,4308,0)/>は、ゲヴァが手直しをするため納品が遅れることになった。代わりに、依頼人である「ソソバチ」に謝りに行かなければならない。革細工師ギルドの「ソソバチ」に「ひざまずき」、誠意を示そう。"
+3,"TEXT_CLSTAN003_00136_SEQ_03","依頼人のソソバチ曰く、ゲヴァは冒険者のことを買っているらしい。中々そうは見えないが、彼女の期待に応えるためにも、今回の経験を活かし、いっそう革細工師の鍛錬に励もう。
 
-※The next leatherworker quest will be available from Geva upon reaching level 20."
+※革細工師のレベルが20以上になると、ゲヴァから次の革細工師クエストを受注することができます。"
 4,"TEXT_CLSTAN003_00136_SEQ_04",""
 5,"TEXT_CLSTAN003_00136_SEQ_05",""
 6,"TEXT_CLSTAN003_00136_SEQ_06",""
@@ -27,8 +27,8 @@ int32,str,str
 21,"TEXT_CLSTAN003_00136_SEQ_21",""
 22,"TEXT_CLSTAN003_00136_SEQ_22",""
 23,"TEXT_CLSTAN003_00136_SEQ_23",""
-24,"TEXT_CLSTAN003_00136_TODO_00","Deliver a pair of hard leather caligae and a hard leather choker to Geva."
-25,"TEXT_CLSTAN003_00136_TODO_01","/kneel before Sosobati and apologize."
+24,"TEXT_CLSTAN003_00136_TODO_00","ゲヴァに依頼品を納品"
+25,"TEXT_CLSTAN003_00136_TODO_01","ソソバチに「ひざまずく」"
 26,"TEXT_CLSTAN003_00136_TODO_02",""
 27,"TEXT_CLSTAN003_00136_TODO_03",""
 28,"TEXT_CLSTAN003_00136_TODO_04",""
@@ -51,35 +51,78 @@ int32,str,str
 45,"TEXT_CLSTAN003_00136_TODO_21",""
 46,"TEXT_CLSTAN003_00136_TODO_22",""
 47,"TEXT_CLSTAN003_00136_TODO_23",""
-48,"TEXT_CLSTAN003_00136_GEVA_000_1","Ah, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. You couldn't have come at a better time. We urgently need someone to craft a pair of hard leather caligae and a hard leather choker. Do you think you could handle both?"
-49,"TEXT_CLSTAN003_00136_GEVA_000_2","To explain the situation, I had entrusted the commission to another leatherworker, but found the quality of his work so wholly <Emphasis>unacceptable</Emphasis> that I had no choice but to demand that he start again. Naturally, I gave the fellow a sound dressing-down, reminding him that he had dishonored the name of Fen–Yll and so on, only for him to run off, <Emphasis>bawling</Emphasis>, leaving a trail of snot and tears in his wake!"
-50,"TEXT_CLSTAN003_00136_GEVA_000_3","Needless to say, I was more than a little concerned─after all, there was a very real possibility that I was going to have to keep a customer waiting. But thanks to your timely arrival, everything will be put to rights."
-51,"TEXT_CLSTAN003_00136_GEVA_000_4","As I've already mentioned, I need you to craft the two articles in your overly sensitive colleague's stead."
-52,"TEXT_CLSTAN003_00136_GEVA_000_5","This will be your first task undertaken for Fen–Yll Fineries."
-53,"TEXT_CLSTAN003_00136_GEVA_000_6","This is an opportunity few leatherworkers receive. See that you don't squander it."
-54,"TEXT_CLSTAN003_00136_GEVA_000_7","...What is it? Troubled by the crushing weight of expectation?"
-55,"TEXT_CLSTAN003_00136_GEVA_000_8","Well, you may cast your fears aside. You've done yourself credit thus far, carrying out my instructions with nary a complaint and taking all my criticism on the chin. I know that you won't shame us."
-56,"TEXT_CLSTAN003_00136_GEVA_000_9","And even should the worst come to the worst, I know you'll have the good grace to go before the customer and apologize in person."
-57,"TEXT_CLSTAN003_00136_GEVA_000_10","But enough talk. You had best get started if you're to complete the order on time."
-58,"TEXT_CLSTAN003_00136_GEVA_000_20","The two pieces are ready, you say? Hm! <Emphasis>That</Emphasis> remains to be seen."
-59,"TEXT_CLSTAN003_00136_GEVA_000_21","Hmmm..."
-60,"TEXT_CLSTAN003_00136_GEVA_000_22","The leather used is well made, and the articles look as they should."
-61,"TEXT_CLSTAN003_00136_GEVA_000_23","The construction is solid. Good."
-62,"TEXT_CLSTAN003_00136_GEVA_000_24","As you know, this type of leather is valued for its toughness and durability. Yet these same qualities make it troublesome to work."
-63,"TEXT_CLSTAN003_00136_GEVA_000_25","An inexperienced leatherworker often ruins the material with shoddy stitching and poor molding, resulting in a final product that is misshapen, brittle, and liable to fall apart."
-64,"TEXT_CLSTAN003_00136_GEVA_000_26","Your caligae and choker, however, bear none of the hallmarks of amateurism. Your construction is solid, and your leather has retained its strength."
-65,"TEXT_CLSTAN003_00136_GEVA_000_27","You have grown considerably as a leatherworker, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>─your latest creations attest to this."
-66,"TEXT_CLSTAN003_00136_GEVA_000_28","...But you still have some way to go. The clasps aren't securely fastened, and the stitching needs to be tighter. In short, you must learn to pay more attention to the details."
-67,"TEXT_CLSTAN003_00136_GEVA_000_29","These articles aren't quite fit to be placed into the customer's hands, but they <Emphasis>can</Emphasis> be salvaged. You have done your part well enough─I will see to the rest."
-68,"TEXT_CLSTAN003_00136_GEVA_000_30","In the meantime, I would have you attend to something else. It is an important duty, and one that is all too often overlooked by artisans. Namely, taking responsibility for falling short of expectations."
-69,"TEXT_CLSTAN003_00136_GEVA_000_31","In the guild's reception area you will find an Ul'dahn gentleman named Sosobati, one of our regular customers. It is he who placed the order for the caligae and choker. I would have you go to him and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>kneel<UIGlow>01</UIGlow><UIForeground>01</UIForeground> in apology for the delay."
-70,"TEXT_CLSTAN003_00136_SOSOBATI_000_40","My son's nameday is fast approaching, so I thought I would gift him the finest protectives money can buy─and none are finer in all the realm than Fen–Yll!"
-71,"TEXT_CLSTAN003_00136_SOSOBATI_000_41","Huh? Wh-What in the name of the Twelve are you doing!? Do get up!"
-72,"TEXT_CLSTAN003_00136_SOSOBATI_000_42","What's that? My order is delayed, you say? Is <Emphasis>that</Emphasis> all? Hah hah hah! And there I was thinking something terrible had happened!"
-73,"TEXT_CLSTAN003_00136_SOSOBATI_000_43","It's quite all right, truly. I came here precisely <Emphasis>because</Emphasis> the Leatherworkers' Guild has never compromised on quality. This trifling delay only confirms to me that the principle still endures. Anyway, it is very kind of you to bring me word."
-74,"TEXT_CLSTAN003_00136_SOSOBATI_000_44","By the by, your face isn't familiar to me. Are you new to the guild?"
-75,"TEXT_CLSTAN003_00136_SOSOBATI_000_45","...So Geva herself is applying the finishing touches to your handiwork even as we speak! Well!"
-76,"TEXT_CLSTAN003_00136_SOSOBATI_000_46","I daresay the guildmaster sees promise in you. Why else would she consider your work worthy of her personal attention? She is famous for having cut up far more experienced leatherworkers' efforts for scraps─and that before their very eyes!"
-77,"TEXT_CLSTAN003_00136_SOSOBATI_000_47","As for encouraging you to come and apologize... Some may think that Geva goes too far, but it is simply her way of educating her own on the finer points of business. As a native of Ul'dah, I may say with some confidence that it is an education worth enduring."
-78,"TEXT_CLSTAN003_00136_SOSOBATI_000_48","Well, it has been a pleasure to meet a rising star of the Leatherworkers' Guild. And that is no hollow flattery I speak."
-79,"TEXT_CLSTAN003_00136_SOSOBATI_000_49","Your name is <Highlight>ObjectParameter(1)</Highlight>, yes? I shall observe your career here with great interest. In fact, the next time I place an order at Fen–Yll Fineries, I shall make a point of insisting that you are given the job!"
+48,"TEXT_CLSTAN003_00136_GEVA_000_1","ああ、いいところに来たわね！
+ちょっと手を貸してちょうだい。"
+49,"TEXT_CLSTAN003_00136_GEVA_000_2","大急ぎで「<Sheet(Item,3772,0)/>」と
+「<Sheet(Item,4308,0)/>」を作ってきてほしいのよ。"
+50,"TEXT_CLSTAN003_00136_GEVA_000_3","別の革細工師に製作を任せてたんだけど、
+出来があまりに酷いから、ちょっと文句をつけたら、
+逃げ出しちゃって。"
+51,"TEXT_CLSTAN003_00136_GEVA_000_4","代わりに任せられそうな革細工師を探していたのよ。
+あんた、やれるわよね？"
+52,"TEXT_CLSTAN003_00136_GEVA_000_5","ああ、大切なことを言い忘れてたわ。
+これは、工芸「フェン・イル」に依頼された品よ。"
+53,"TEXT_CLSTAN003_00136_GEVA_000_6","あんたも腕を上げたみたいだし、
+そろそろ、ひと仕事、任せてみようってわけ。
+革細工師ギルドの名にかけて、失敗のできない仕事よ。"
+54,"TEXT_CLSTAN003_00136_GEVA_000_7","不安になった？
+「フェン・イル」の名を背負う、自信がない？"
+55,"TEXT_CLSTAN003_00136_GEVA_000_8","大丈夫、しっかりしなさい。
+散々アタシにしごかれて逃げ出さなかったのよ。
+あんたの根性は、アタシが一番知ってるわ。"
+56,"TEXT_CLSTAN003_00136_GEVA_000_9","たとえ依頼品がうまくできなくても、
+キッチリ客に頭下げに行く根性があるってことを、ね。"
+57,"TEXT_CLSTAN003_00136_GEVA_000_10","それじゃ、任せたわよ！"
+58,"TEXT_CLSTAN003_00136_GEVA_000_20","「<Sheet(Item,3772,0)/>」と
+「<Sheet(Item,4308,0)/>」は、できたの？"
+59,"TEXT_CLSTAN003_00136_GEVA_000_21","あら、これは…………"
+60,"TEXT_CLSTAN003_00136_GEVA_000_22","ちゃんとハードレザーが使ってあって、
+ちゃんとカリガとチョーカーの形をしていて、
+それから…………"
+61,"TEXT_CLSTAN003_00136_GEVA_000_23","…………すごく、丈夫、ね。"
+62,"TEXT_CLSTAN003_00136_GEVA_000_24","知ってのとおり、ハードレザーは硬さがウリよ。
+だからこそ、丈夫な製品ができるわけだけど、
+曲げたり縫ったりするのも難しいってわけ。"
+63,"TEXT_CLSTAN003_00136_GEVA_000_25","下手な職人では、加工の途中で失敗して、
+最大の利点である「丈夫さ」を殺してしまうことがあるわ。"
+64,"TEXT_CLSTAN003_00136_GEVA_000_26","でもこのカリガとチョーカーは、
+ちゃんと革の性質を見極めて加工してる。
+だから、素材の持つ「丈夫さ」が保たれているわ。"
+65,"TEXT_CLSTAN003_00136_GEVA_000_27","……成長したわね、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。"
+66,"TEXT_CLSTAN003_00136_GEVA_000_28","でも、金具の埋め込みは甘いし、
+折り返しの処理は不十分だし、全体のバランスは
+イマイチだし、なんだかちょっと……獣臭いわ。"
+67,"TEXT_CLSTAN003_00136_GEVA_000_29","「フェン・イル」の品にするには不十分ね。
+仕方ないわ、アタシが手直ししておくから、
+その間に、アンタは、別の仕事を頼まれてくれる？"
+68,"TEXT_CLSTAN003_00136_GEVA_000_30","これも、ひとりの職人として、重要な仕事よ。
+仕事をほっぽって逃げ出すようなヤツには任せられない、
+あんただからできること。"
+69,"TEXT_CLSTAN003_00136_GEVA_000_31","依頼人の「ソソバチ」さんに、
+納品が遅れます、ごめんなさいっ、て、
+誠心誠意、敬意をもって謝ってらっしゃい。"
+70,"TEXT_CLSTAN003_00136_SOSOBATI_000_40","今回は、我が愛息子のために、
+一級の防具を整えてやろうと思ってね。
+こうして、完成を待ちわびているというわけだよ。"
+71,"TEXT_CLSTAN003_00136_SOSOBATI_000_41","おわっ！？
+なんだね、どうしたんだね！？"
+72,"TEXT_CLSTAN003_00136_SOSOBATI_000_42","…………ふむ。
+依頼していた<Sheet(Item,3772,0)/>と
+<Sheet(Item,4308,0)/>の納品が遅れる、と。"
+73,"TEXT_CLSTAN003_00136_SOSOBATI_000_43","そうかそうか、いや、構わんよ。
+中途半端なものを渡すくらいなら潔く謝罪する、
+革細工師ギルドの姿勢は、昔から変わっとらんな。"
+74,"TEXT_CLSTAN003_00136_SOSOBATI_000_44","しかし、君は見ない顔だね。
+新入りの革細工師かい？"
+75,"TEXT_CLSTAN003_00136_SOSOBATI_000_45","……ほう！
+チョーカーとカリガは君が作って、その手直しを
+ゲヴァが行うから、納品が遅れると！"
+76,"TEXT_CLSTAN003_00136_SOSOBATI_000_46","なるほど、なるほど。
+君はずいぶんゲヴァに気に入られているみたいだね。"
+77,"TEXT_CLSTAN003_00136_SOSOBATI_000_47","客に謝罪に行かせるなんて、乱暴なようだけど、
+こうやって顔なじみの客に革細工師を紹介するのは
+彼女なりの気遣いだ。"
+78,"TEXT_CLSTAN003_00136_SOSOBATI_000_48","ゲヴァが手直しして
+品になるだけのモノを作れるなら、腕も確かだろう。"
+79,"TEXT_CLSTAN003_00136_SOSOBATI_000_49","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>君と言ったか？
+君の成長、楽しみにしているよ。ハッハッハ！"

@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_MANWIL008_00641_SEQ_00","Owyne would like to speak with you regarding the sultana's invitation."
-1,"TEXT_MANWIL008_00641_SEQ_01","Owyne states that there are certain protocols that must be observed by guests attending a royal banquet. He directs you to speak with Momodi, who will explain precisely what is expected of you."
-2,"TEXT_MANWIL008_00641_SEQ_02","According to Momodi, all who attend the royal banquet are obliged to wear a pair of ceremonial earrings. She instructs you to visit the Goldsmiths' Guild and speak with Serendipity to obtain yours."
-3,"TEXT_MANWIL008_00641_SEQ_03","Serendipity presents you with a very beautiful and very <Emphasis>locked</Emphasis> rosewood box. For reasons of royal security, she explains, the earring cases are intended to be opened only by designated individuals. In this instance, the designated individual is apparently Momodi. Return to the Quicksand, hand over the box, and she will do the rest."
-4,"TEXT_MANWIL008_00641_SEQ_04","You now have the ceremonial earrings needed to gain entry to the banquet. Speak with Momodi when you are ready to join the festivities."
+0,"TEXT_MANWIL008_00641_SEQ_00","銀冑団本部のオワインは、冒険者に伝えたいことがあるようだ。"
+1,"TEXT_MANWIL008_00641_SEQ_01","女王ナナモからじきじきに晩餐会へ招待された冒険者。晩餐会に出席するためには、なにか必要なものがあるようだ。クイックサンドの「モモディ」に相談してみよう。"
+2,"TEXT_MANWIL008_00641_SEQ_02","晩餐会に出席するには、王室から下賜される装飾品を身に着ける必要があるらしい。モモディによれば、装飾品の製作は彫金師ギルドが担っているそうだ。彫金師ギルドの「セレンディピティー」に会い、装飾品を受け取ろう。"
+3,"TEXT_MANWIL008_00641_SEQ_03","セレンディピティーから「紫檀の木箱」を受け取った。クイックサンドの「モモディ」に「紫檀の木箱」を見せてみよう。"
+4,"TEXT_MANWIL008_00641_SEQ_04","木箱には「<Sheet(Item,4196,0)/>」という品が入っていた。これで晩餐会へ行く準備は整った。晩餐会が始まるのを楽しみに待とう。"
 5,"TEXT_MANWIL008_00641_SEQ_05",""
 6,"TEXT_MANWIL008_00641_SEQ_06",""
 7,"TEXT_MANWIL008_00641_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_MANWIL008_00641_SEQ_21",""
 22,"TEXT_MANWIL008_00641_SEQ_22",""
 23,"TEXT_MANWIL008_00641_SEQ_23",""
-24,"TEXT_MANWIL008_00641_TODO_00","Speak with Momodi at the Quicksand."
-25,"TEXT_MANWIL008_00641_TODO_01","Collect the earrings from Serendipity."
-26,"TEXT_MANWIL008_00641_TODO_02","Deliver the wooden lockbox to Momodi."
+24,"TEXT_MANWIL008_00641_TODO_00","クイックサンドのモモディと話す"
+25,"TEXT_MANWIL008_00641_TODO_01","セレンディピティーから晩餐会に必要な品を受け取る"
+26,"TEXT_MANWIL008_00641_TODO_02","モモディに紫檀の木箱を見せる"
 27,"TEXT_MANWIL008_00641_TODO_03",""
 28,"TEXT_MANWIL008_00641_TODO_04",""
 29,"TEXT_MANWIL008_00641_TODO_05",""
@@ -49,24 +49,55 @@ int32,str,str
 45,"TEXT_MANWIL008_00641_TODO_21",""
 46,"TEXT_MANWIL008_00641_TODO_22",""
 47,"TEXT_MANWIL008_00641_TODO_23",""
-48,"TEXT_MANWIL008_00641_OWYNE_000_1","By the Twelve, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! For an adventurer to receive a personal invitation from Her Grace is unprecedented!"
-49,"TEXT_MANWIL008_00641_OWYNE_000_2","Seats at these banquets are offered only to the most distinguished individuals. You will be dining with some of the most influential people in Ul'dah."
-50,"TEXT_MANWIL008_00641_OWYNE_000_3","There are, of course, certain protocols that must be observed."
-51,"TEXT_MANWIL008_00641_OWYNE_000_4","...But I am no authority on them. Fear not, however─Mistress Momodi has long been responsible for familiarizing foreign guests with our customs."
-52,"TEXT_MANWIL008_00641_OWYNE_000_5","Pray return to the Quicksand and speak with her. She will tell you all you need know."
-53,"TEXT_MANWIL008_00641_OWYNE_000_10","My fellow Sultansworn and I must see to our own preparations. In the meantime, you should speak with Mistress Momodi. She will explain to you the protocols that must be observed by all in attendance."
-54,"TEXT_MANWIL008_00641_MOMODI_000_20","Welcome back, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, and congratulations on your invite to the big soirée!"
-55,"TEXT_MANWIL008_00641_MOMODI_000_21","To be honest, I never imagined I'd be explainin' these procedures to you. It's usually only foreign dignitaries who get to hear me prattle on and on about royal traditions. Anyroad, I know you're a busy <If(PlayerParameter(4))>woman<Else/>man</If>, so I'll keep it short and sweet."
-56,"TEXT_MANWIL008_00641_MOMODI_000_22","In accordance with ancient custom, all guests to this banquet are required to wear a pair of ceremonial earrin's, made 'specially for the occasion. They're meant to symbolize─ Actually, forget about that. This was meant to be the short version. Ahem. Bein' of a design unique to the occasion, the earrin's serve as a security measure. The Sultansworn won't let you near the hall without 'em."
-57,"TEXT_MANWIL008_00641_MOMODI_000_23","Your set should be ready and waitin' for you at the Goldsmiths' Guild. Mistress Serendipity is expectin' you, so you'll want to head down there now."
-58,"TEXT_MANWIL008_00641_MOMODI_000_24","Once you've got them, bring them back here and we'll continue."
-59,"TEXT_MANWIL008_00641_SERENDIPITY_000_30","Greetings! Is there something I can help you with?"
-60,"TEXT_MANWIL008_00641_SERENDIPITY_000_31","Ah, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! Your earrings are right here. I crafted them myself, I'll have you know. I think you'll be very pleased!"
-61,"TEXT_MANWIL008_00641_SERENDIPITY_000_32","In case Mistress Momodi didn't warn you, the box is locked, and I am not permitted to give you the key. It's a final safeguard, you see─only designated individuals are authorized to distribute the earrings to guests. In this instance, the person in question is none other than Mistress Momodi, so you will need to ask her to open the box on your behalf. Pardon the inconvenience, but the Sultansworn take Her Grace's safety <Emphasis>very</Emphasis> seriously."
-62,"TEXT_MANWIL008_00641_MOMODI_000_40","Picked up your earrin's yet, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>?"
-63,"TEXT_MANWIL008_00641_MOMODI_000_41","Let me just... <gasp> Well, now, looks like the guildmaster outdid herself with this pair!"
-64,"TEXT_MANWIL008_00641_MOMODI_000_42","You'd best take good care of these earrin's! If they fell into the wrong hands, gods only know what might happen!"
-65,"TEXT_MANWIL008_00641_MOMODI_000_43","Now then, I hope you're feelin' sociable, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, 'cause you're about to hobnob with Ul'dah's elite! Let me know when you're ready to head to the banquet."
-66,"TEXT_MANWIL008_00641_Q1_000_050","Proceed into the Heart of the Sworn?"
-67,"TEXT_MANWIL008_00641_A1_000_051","Yes"
-68,"TEXT_MANWIL008_00641_A1_000_052","No"
+48,"TEXT_MANWIL008_00641_OWYNE_000_1","冒険者が王宮の晩餐会に招待されるとは……！
+凄いではないか！
+ウルダハの歴史始まって以来の快挙だぞ！"
+49,"TEXT_MANWIL008_00641_OWYNE_000_2","いいかね？
+間違っても女王陛下に対し、粗相があってはならんぞ！
+万全の準備をして出席するがいい。"
+50,"TEXT_MANWIL008_00641_OWYNE_000_3","いいか、よく聞け。
+晩餐会に出席するために必要なものとは……！"
+51,"TEXT_MANWIL008_00641_OWYNE_000_4","……いや、すまん。
+私は生粋の武人でな。
+そっち方面には、とんと疎いのだ。"
+52,"TEXT_MANWIL008_00641_OWYNE_000_5","そうだ。
+クイックサンドのモモディ女史に相談したまえ。
+きっと、便宜を図ってくれるだろう。"
+53,"TEXT_MANWIL008_00641_OWYNE_000_10","晩餐会開催中の警備は、我ら銀冑団に任せてくれたまえ。
+お前は早く、モモディ女史のところへ行くがいい。"
+54,"TEXT_MANWIL008_00641_MOMODI_000_20","話は聞いてるわ！
+ナナモ女王陛下から、晩餐会に招待されたんでしょう。
+凄いわ。さすがは<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>ね。"
+55,"TEXT_MANWIL008_00641_MOMODI_000_21","昔から、晩餐会に招待される人たちは、
+王室から下賜される装飾品を身につけて
+出席することが習わしなの。"
+56,"TEXT_MANWIL008_00641_MOMODI_000_22","これは、晩餐会という出入りの激しい行事中に
+女王陛下の命を狙うような不審者が
+王宮に侵入するのを防ぐためでもあるわ。"
+57,"TEXT_MANWIL008_00641_MOMODI_000_23","装飾品の製作は、彫金師ギルドが行っているの。
+ギルドマスターの
+「セレンディピティー」さんを訪ねてみて。"
+58,"TEXT_MANWIL008_00641_MOMODI_000_24","装飾品を受け取ったら、
+一度、わたしのところへ戻ってくるのよ。
+晩餐会について、色々と教えてあげるわ。"
+59,"TEXT_MANWIL008_00641_SERENDIPITY_000_30","はい、どうもこんにちは！
+彫金師ギルドにようこそ！"
+60,"TEXT_MANWIL008_00641_SERENDIPITY_000_31","王宮の晩餐会に必要な装飾品ですか？
+はい、確かに承っております。"
+61,"TEXT_MANWIL008_00641_SERENDIPITY_000_32","華やかな晩餐会の成功を祈って、
+マスターである私が、心をこめて作った品です！
+どうか、楽しんできてくださいね。"
+62,"TEXT_MANWIL008_00641_MOMODI_000_40","おかえりなさい、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
+ちゃんと受け取ってこれたみたいね。
+ちょっと、その小箱を見せてくれない？"
+63,"TEXT_MANWIL008_00641_MOMODI_000_41","まぁ、キレイな耳飾り。
+これが今年の晩餐会に招待された人の証なのね。"
+64,"TEXT_MANWIL008_00641_MOMODI_000_42","証がどんなものになるかは、毎年違うの。
+去年は首飾り、一昨年は指輪だったわ。
+でも今年の耳飾りは、とびきり素敵！"
+65,"TEXT_MANWIL008_00641_MOMODI_000_43","これで準備は万端ね！
+心の準備も整ったら、またわたしに話しかけて。
+晩餐会に出席するための手順を教えてあげる。"
+66,"TEXT_MANWIL008_00641_Q1_000_050","「銀冑団総長室」へ移動しますか？"
+67,"TEXT_MANWIL008_00641_A1_000_051","はい"
+68,"TEXT_MANWIL008_00641_A1_000_052","いいえ"

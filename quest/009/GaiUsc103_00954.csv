@@ -1,12 +1,12 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSC103_00954_SEQ_00","Professor Lamberteint is eager to tell you anything and everything of corrupted crystals."
-1,"TEXT_GAIUSC103_00954_SEQ_01","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/> This quest has been adjusted. Please abandon the quest and restart it by speaking to Lamberteint in Camp Drybone.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+0,"TEXT_GAIUSC103_00954_SEQ_00","キャンプ・ドライボーンのエーテル学者ランベルタンは、冒険者の質問に興味をひかれているようだ。"
+1,"TEXT_GAIUSC103_00954_SEQ_01","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/>本クエストは調整されました。一度破棄し、キャンプ・ドライボーンの「ランベルタン」から再受注してください。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
-※The Main Scenario Guide shows the next available quest. You can toggle it on and off in Character Configuration, under UI Settings."
-2,"TEXT_GAIUSC103_00954_SEQ_02","In yet another curious twist of fate, you come upon a merchant forcing passersby to accept his old pots free of charge. Conceal your delight lest he changes his mind and deliver the pot to Professor Lamberteint."
-3,"TEXT_GAIUSC103_00954_SEQ_03","The “unremarkable piece of rubbish,” so dubbed by the good professor, will suffice for your purposes. Now, watch and be amazed as he uses science to transform the pot into something far greater."
+※次のメインクエストは、「メインクエストガイド」からも確認することができます。メインクエストガイドの表示/非表示は、メインコマンドの「キャラクターコンフィグ」から「ユーザーインターフェース設定」を選び、変更してください。"
+2,"TEXT_GAIUSC103_00954_SEQ_02","「<Sheet(EventItem,2000740,0)/>」を手に入れた。キャンプ・ドライボーンの「ランベルタン」に渡そう。"
+3,"TEXT_GAIUSC103_00954_SEQ_03","ランベルタンに<Sheet(EventItem,2000740,0)/>を渡した。これで本当に「偏属性クリスタル」を手に入れられるのだろうか……？"
 4,"TEXT_GAIUSC103_00954_SEQ_04",""
 5,"TEXT_GAIUSC103_00954_SEQ_05",""
 6,"TEXT_GAIUSC103_00954_SEQ_06",""
@@ -27,8 +27,10 @@ int32,str,str
 21,"TEXT_GAIUSC103_00954_SEQ_21",""
 22,"TEXT_GAIUSC103_00954_SEQ_22",""
 23,"TEXT_GAIUSC103_00954_SEQ_23",""
-24,"TEXT_GAIUSC103_00954_TODO_00","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/> This quest has been adjusted. Please abandon the quest and restart it by speaking to Lamberteint in Camp Drybone.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
-25,"TEXT_GAIUSC103_00954_TODO_01","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/> This quest has been adjusted. Please abandon the quest and restart it by speaking to Lamberteint in Camp Drybone.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+24,"TEXT_GAIUSC103_00954_TODO_00","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/>本クエストは調整されました。一度破棄し、
+キャンプ・ドライボーンのランベルタンから再受注してください<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+25,"TEXT_GAIUSC103_00954_TODO_01","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/>本クエストは調整されました。一度破棄し、
+キャンプ・ドライボーンのランベルタンから再受注してください<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 26,"TEXT_GAIUSC103_00954_TODO_02",""
 27,"TEXT_GAIUSC103_00954_TODO_03",""
 28,"TEXT_GAIUSC103_00954_TODO_04",""
@@ -51,13 +53,32 @@ int32,str,str
 45,"TEXT_GAIUSC103_00954_TODO_21",""
 46,"TEXT_GAIUSC103_00954_TODO_22",""
 47,"TEXT_GAIUSC103_00954_TODO_23",""
-48,"TEXT_GAIUSC103_00954_LAMBERTEINT_000_000","Ahhh, so rare it is to find fellow intellectuals in this region. 'Tis even rarer to find one capable of comprehending the nature of corrupted crystals."
-49,"TEXT_GAIUSC103_00954_LAMBERTEINT_000_001","Come to think of it, there was another─a hermit to whom the church had given sanctuary. Curious fellow. Unsociable, rather daft at first impression, yet possessed of an amazing affinity towards the scientific pursuits..."
-50,"TEXT_GAIUSC103_00954_LAMBERTEINT_000_002","But to the matter at hand─did you say you wish not to conduct field observations, but to <Emphasis>harvest</Emphasis> a corrupted crystal?"
-51,"TEXT_GAIUSC103_00954_LAMBERTEINT_000_003","Egads, <If(PlayerParameter(4))>woman<Else/>man</If>! At least take the necessary precautions so that you do not suffer from exposure to its harmful energies! I'm beginning to wonder if you've sufficient qualifications to handle such hazardous materials..."
-52,"TEXT_GAIUSC103_00954_LAMBERTEINT_000_004","Still, your ignorance is somehow endearing. If you bring me a suitable vessel─say, a common clay pot─I shall coat it with an alchemical sealant of mine own design. Simply store the crystal you seek within this pot to protect yourself from its deleterious effects."
-53,"TEXT_GAIUSC103_00954_LAMBERTEINT_000_005","Hm? Where might you find a clay pot? Well, I'm hardly a merchant, but surely some fellow at the Golden Bazaar has some for sale."
-54,"TEXT_GAIUSC103_00954_ENPC_000_010","You get a pot! And you get a pot! <Emphasis>Everyone</Emphasis> gets a pot! Ahem, sorry─I get a bit carried away when disposing of old merchandise. Anyroad, take my pot, please."
-55,"TEXT_GAIUSC103_00954_ENPC_000_015","If this is about the pot, bugger off. I'm not taking it back."
-56,"TEXT_GAIUSC103_00954_LAMBERTEINT_000_020","Fascinating...even accounting for the unusually strong aetherial currents in this region, the crystalline formations are─ Oh, you've returned! Any luck finding a pot like I suggested?"
-57,"TEXT_GAIUSC103_00954_LAMBERTEINT_000_030","Well, this is indeed an unremarkable piece of rubbish! But for our purposes, it shall suffice."
+48,"TEXT_GAIUSC103_00954_LAMBERTEINT_000_000","はァん、それにしても「偏属性クリスタル」の話が
+話題にのぼるとは珍しいねぇ。
+この土地に来て、この話をする相手は君が2人目だよ。"
+49,"TEXT_GAIUSC103_00954_LAMBERTEINT_000_001","ひとり目は、聖アダマ・ランダマ教会にいた、
+マルケズ君だったかな？
+エオルゼアではみないタイプの、神秘的な男だったねぇ。"
+50,"TEXT_GAIUSC103_00954_LAMBERTEINT_000_002","……ふゥん、偏属性クリスタルを探してるのねぇ。
+名前が表すとおり、これは不安定なクリスタルなんだ。
+エーテルの干渉を受けると性質が変わることもある。"
+51,"TEXT_GAIUSC103_00954_LAMBERTEINT_000_003","性質が変化しないように「容器」が必要だねぇ。
+それも、エーテル伝導率が低い「絶霊体」という
+特殊な素材でできたものが。"
+52,"TEXT_GAIUSC103_00954_LAMBERTEINT_000_004","まずは、適当な壺を用意しようかねぇ。
+それに錬金薬を塗布して、偏属性クリスタルを収納できる
+容器にしようじゃないか。"
+53,"TEXT_GAIUSC103_00954_LAMBERTEINT_000_005","はァン……そうだ。
+「ゴールドバザー」に行くといいよ。
+たしか手ごろな壺を売っていた商人がいたはずだ。"
+54,"TEXT_GAIUSC103_00954_ENPC_000_010","いらっしゃい！　なになに、壺が欲しいって？
+オンボロの壺でよければ残ってるぜ。
+いいよ、売れ残りの在庫処分だ、もってけもってけ！"
+55,"TEXT_GAIUSC103_00954_ENPC_000_015","在庫を仕舞うのも一苦労だ……。
+今日はもう店じまいだな。"
+56,"TEXT_GAIUSC103_00954_LAMBERTEINT_000_020","そそり立つクリスタル群、ほとばしるエーテル地脈。
+はァん……この地はまさに天国だね。
+まったくほれぼれするよ。ふゥ～。"
+57,"TEXT_GAIUSC103_00954_LAMBERTEINT_000_030","はァん、壺を持ってきたのかい？
+どれどれ……あははははは！　こりゃボロい、ボロボロだ！
+ゴメン、ツボに入っちゃったよ。壺だけにね！　あははは！"

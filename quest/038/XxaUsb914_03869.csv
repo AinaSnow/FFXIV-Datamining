@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_XXAUSB914_03869_SEQ_00","Cid would like to furnish the infirmary with a new alembic."
-1,"TEXT_XXAUSB914_03869_SEQ_01","Having observed that the infirmary lacks sufficient alembics, Cid has resolved to furnish the chirurgeons with an additional, more advanced device. His work is nearly complete, but there is one final component that he cannot obtain on his own: three ice sprite cores, which he has asked you to bring to him."
-2,"TEXT_XXAUSB914_03869_SEQ_02","You obtain the requisite cores with little difficulty. Return to the infirmary and deliver the cores to Cid."
-3,"TEXT_XXAUSB914_03869_SEQ_03","Cid's efforts are ultimately for naught, as Inquisitor Guillaime makes another unannounced visit and warns the chirurgeons against accepting gifts from foreigners who have interfered with the trial of an accused heretic. The revelation shocks the chirurgeons, who immediately reject Cid's newly constructed alembic. The inquisitor appears to have developed a hatred for you and your associates, and it has become increasingly clear that he will do his utmost to prevent you from achieving your goals."
+0,"TEXT_XXAUSB914_03869_SEQ_00","野戦病院にいるシドは、冒険者に協力してほしいことがあるようだ。"
+1,"TEXT_XXAUSB914_03869_SEQ_01","シドによると、調薬用の蒸留器を改良するための材料が必要だという。「<Sheet(BNpcName,114,0)/>」を倒して「<Sheet(EventItem,2003018,0)/>」を3つ集めよう。"
+2,"TEXT_XXAUSB914_03869_SEQ_02","シドに指定された材料が集まった。ホワイトブリム前哨地にいる「シド」に「<Sheet(EventItem,2003018,0)/>」を渡そう。"
+3,"TEXT_XXAUSB914_03869_SEQ_03","蒸留器を改良することで、野戦病院の信頼を勝ち取ろうとしたが、異端審問官ギイェームに水を注されてしまった。異端審問官をどうにかしないと、らちが明かないようだ。"
 4,"TEXT_XXAUSB914_03869_SEQ_04",""
 5,"TEXT_XXAUSB914_03869_SEQ_05",""
 6,"TEXT_XXAUSB914_03869_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_XXAUSB914_03869_SEQ_21",""
 22,"TEXT_XXAUSB914_03869_SEQ_22",""
 23,"TEXT_XXAUSB914_03869_SEQ_23",""
-24,"TEXT_XXAUSB914_03869_TODO_00","Slay ice sprites and obtain their cores."
-25,"TEXT_XXAUSB914_03869_TODO_01","Deliver the cores to Cid."
+24,"TEXT_XXAUSB914_03869_TODO_00","<Sheet(BNpcName,114,0)/>から<Sheet(EventItem,2003018,0)/>を入手"
+25,"TEXT_XXAUSB914_03869_TODO_01","シドに<Sheet(EventItem,2003018,0)/>を渡す"
 26,"TEXT_XXAUSB914_03869_TODO_02",""
 27,"TEXT_XXAUSB914_03869_TODO_03",""
 28,"TEXT_XXAUSB914_03869_TODO_04",""
@@ -49,18 +49,43 @@ int32,str,str
 45,"TEXT_XXAUSB914_03869_TODO_21",""
 46,"TEXT_XXAUSB914_03869_TODO_22",""
 47,"TEXT_XXAUSB914_03869_TODO_23",""
-48,"TEXT_XXAUSB914_03869_SYSTEM_100_000","To accept this quest, you must abandon the current main scenario quest. Open the corresponding entry in the journal or duty list and select “Abandon.”"
-49,"TEXT_XXAUSB914_03869_CID_000_000","Might I have a word with you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>? It concerns the chirurgeons. After speaking with them earlier, I learned that they lack sufficient alembics for their needs, you see..."
-50,"TEXT_XXAUSB914_03869_CID_000_001","So I used some of their broken equipment to craft a more advanced alembic─both as a gesture of goodwill, and as a means to help me recover my memories, since working with my hands kindles familiar feelings."
-51,"TEXT_XXAUSB914_03869_CID_000_002","All I require to complete the device are the cores of three ice sprites. Though commonly used to reduce the temperatures of alchemical mixtures, there is a way to alter their properties so that they draw the cold within rather than radiate it without."
-52,"TEXT_XXAUSB914_03869_CID_000_003","It must sound ridiculous to you─impossible, even. Yet somehow I <Emphasis>know</Emphasis> it will work."
-53,"TEXT_XXAUSB914_03869_CID_000_020","Have you obtained the cores? If so, please show them to me."
-54,"TEXT_XXAUSB914_03869_CENOTA_000_031","What an amazing device! But...is it truly an alembic, sir? I've never seen its like before."
-55,"TEXT_XXAUSB914_03869_ASTIDIEN_000_032","I too am unsure what to make of this machine. While certainly impressive, I've no idea how to make use of it."
-56,"TEXT_XXAUSB914_03869_CENOTA_000_033","Nevertheless, if it is as effective as he claims, it will be a great boon to the infirmary! Think of the medicines we could create, the lives we could save!"
-57,"TEXT_XXAUSB914_03869_ASTIDIEN_000_034","Even so, I wonder..."
-58,"TEXT_XXAUSB914_03869_GUILLAIME_000_035","Ware thee the kindly stranger, bearer of gifts wondrous and strange, for his generosity comes at cost."
-59,"TEXT_XXAUSB914_03869_GUILLAIME_000_036","Their earnest efforts are but a means to an as-yet-unknown end. Moreover, you should be wary of associating with individuals who have interfered with the questioning of a suspected heretic."
-60,"TEXT_XXAUSB914_03869_ASTIDIEN_000_037","They did <Emphasis>what</Emphasis>!? Bless you, Inquisitor, for coming along when you did! We almost succumbed to the temptation proffered by these...these <Emphasis>unbelievers</Emphasis>!"
-61,"TEXT_XXAUSB914_03869_CID_000_038","Why does that man detest us so? Is it all because we interrupted Lord Francel's trial?"
-62,"TEXT_XXAUSB914_03869_CID_000_039","Whatever his reasons, he clearly means to oppose us at every turn..."
+48,"TEXT_XXAUSB914_03869_SYSTEM_100_000","受注するには、進行中のメインクエストを破棄する必要があります。
+メインコマンドの「コンテンツ情報」から、
+「ジャーナル」を選び、破棄してください。"
+49,"TEXT_XXAUSB914_03869_CID_000_000","ああ、お前か……。
+俺にできることはないかと思って、
+ここで調薬用の蒸留器の修理を手伝っていたんだ。"
+50,"TEXT_XXAUSB914_03869_CID_000_001","……道具の直し方は、はっきりわかるというのに、
+エンタープライズでここへ来たことも思い出せない……
+もどかしいな。"
+51,"TEXT_XXAUSB914_03869_CID_000_002","飛空艇を取り戻すことに繋がると信じて、お前に頼みがある。
+「<Sheet(BNpcName,114,0)/>」を倒して、
+「<Sheet(EventItem,2003018,0)/>」を3つ集めてきてくれないか？"
+52,"TEXT_XXAUSB914_03869_CID_000_003","蒸留器を使いやすく改造してやろうと思ったが、
+この寒さでは、すぐに凍りついてしまうからな……。
+<Sheet(BNpcName,114,0)/>の力を、凍結防止に利用するんだ。"
+53,"TEXT_XXAUSB914_03869_CID_000_020","「<Sheet(EventItem,2003018,0)/>」は集まったか？
+それがあれば作業は終わる。
+大改造は、無性にたぎるな……ふぅ……。"
+54,"TEXT_XXAUSB914_03869_CENOTA_000_031","院長～！？
+うちの蒸留器が、何だかよくわからないけど、
+スッゴイことになってますー！？"
+55,"TEXT_XXAUSB914_03869_ASTIDIEN_000_032","ええ……使い方すらわかりませんが、
+スッゴイことになっていますね……。
+こんな技術、イシュガルドでは見たことがありません……！"
+56,"TEXT_XXAUSB914_03869_CENOTA_000_033","この人たち、スッゴイ献身的だって話題なんですよぅ！
+わたしも差し入れを届けてもらったし……
+ドリユモン卿に、信頼できる人だってオススメしません！？"
+57,"TEXT_XXAUSB914_03869_ASTIDIEN_000_034","うーん……そうですね……。"
+58,"TEXT_XXAUSB914_03869_GUILLAIME_000_035","オヤオヤ……ずいぶん地道な活動をしているのですね。
+いけませんよ、無垢な民をたぶらかすのは。"
+59,"TEXT_XXAUSB914_03869_GUILLAIME_000_036","この冒険者は、異端嫌疑者をかばい、審問の邪魔をした。
+そんな人物を信じていいのか……
+神民の誇りをもって、考えてみなさい。"
+60,"TEXT_XXAUSB914_03869_ASTIDIEN_000_037","なんと、そんな危険人物だったとは！
+スッゴイ技術を前に、冷静さを欠いていたようですね……。
+ありがとうございます、異端審問官様。"
+61,"TEXT_XXAUSB914_03869_CID_000_038","くっ……あと一歩だったってのに！
+あいつは、俺たちに恨みでもあるのか！？"
+62,"TEXT_XXAUSB914_03869_CID_000_039","あの異端審問官がいるかぎり、らちが明かない……。
+……何か、対策を立てる必要があるだろう。"

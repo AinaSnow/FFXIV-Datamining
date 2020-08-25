@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ407_02730_SEQ_00","Kohagi would like you to whack slow, then fast."
+0,"TEXT_STMBDZ407_02730_SEQ_00","ナマイ村のコハギは、冒険者に頼みたいことがあるようだ。"
 1,"TEXT_STMBDZ407_02730_SEQ_01",""
 2,"TEXT_STMBDZ407_02730_SEQ_02",""
 3,"TEXT_STMBDZ407_02730_SEQ_03",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_STMBDZ407_02730_SEQ_21",""
 22,"TEXT_STMBDZ407_02730_SEQ_22",""
 23,"TEXT_STMBDZ407_02730_SEQ_23",""
-24,"TEXT_STMBDZ407_02730_TODO_00","Obtain water serpent livers from the water serpents."
-25,"TEXT_STMBDZ407_02730_TODO_01","Deliver the water serpent livers to Sentei."
+24,"TEXT_STMBDZ407_02730_TODO_00","<Sheet(BNpcName,5762,0)/>から<Sheet(EventItem,2002239,0)/>を入手"
+25,"TEXT_STMBDZ407_02730_TODO_01","センテイに<Sheet(EventItem,2002239,0)/>を渡す"
 26,"TEXT_STMBDZ407_02730_TODO_02",""
 27,"TEXT_STMBDZ407_02730_TODO_03",""
 28,"TEXT_STMBDZ407_02730_TODO_04",""
@@ -49,14 +49,31 @@ int32,str,str
 45,"TEXT_STMBDZ407_02730_TODO_21",""
 46,"TEXT_STMBDZ407_02730_TODO_22",""
 47,"TEXT_STMBDZ407_02730_TODO_23",""
-48,"TEXT_STMBDZ407_02730_KOHAGI_000_000","Could I ask you to help with a problem of mine? It concerns some water serpents that have recently infested the One River."
-49,"TEXT_STMBDZ407_02730_KOHAGI_000_001","They used to only be found further to the west, but, for one reason or another, some have found their way closer to Namai."
-50,"TEXT_STMBDZ407_02730_KOHAGI_000_002","If prepared properly, they are quite delectable. However, there are far more in the river than one could ever hope to cook. No, their numbers must be controlled by other means."
-51,"TEXT_STMBDZ407_02730_KOHAGI_000_003","Please slay a few of them for me. Enough to stop them from taking the whole river for their own. Oh, and should you happen to get your hands on a few of their livers, please deliver them to my husband, Sentei."
-52,"TEXT_STMBDZ407_02730_KOHAGI_000_004","You will find him in the Drunken Toad to the east."
-53,"TEXT_STMBDZ407_02730_KOHAGI_000_005","Should you happen to get your hands on a few of their livers, please deliver them to my husband, Sentei, in the Drunken Toad."
-54,"TEXT_STMBDZ407_02730_SENTEI_000_010","Do you have business with me, traveler?"
-55,"TEXT_STMBDZ407_02730_SENTEI_000_011","Water serpent livers! But why did you think to bring these to me?"
-56,"TEXT_STMBDZ407_02730_SENTEI_000_012","Ah, my wife put you up to it, did she? My sincerest thanks. I shall boil these and eat them shortly."
-57,"TEXT_STMBDZ407_02730_SENTEI_000_013","Back in the days when I made my living transporting rice up and down the river, I used to slay any water serpents I saw and take them home to cook. Of course, that all stopped once the Empire blocked off the One River."
-58,"TEXT_STMBDZ407_02730_SENTEI_000_014","It is thanks to nature and kind strangers like you that I am able to put food on my table these days. Thank you so much."
+48,"TEXT_STMBDZ407_02730_KOHAGI_000_000","よろしければ、頼まれごとを引き受けてくれませんか？
+実は「無二江」に、<Sheet(BNpcName,5762,0)/>が棲みついてしまったようなのです。"
+49,"TEXT_STMBDZ407_02730_KOHAGI_000_001","以前は、もっと西の方が棲息地だったんですけれど、
+天敵が出たのか、逃げてきたようでして……。"
+50,"TEXT_STMBDZ407_02730_KOHAGI_000_002","食べると美味しいので、うれしくもあるのですが、
+あまり増えてしまっても、それはそれで困るもの……。
+そこで、3匹ほど「<Sheet(BNpcName,5762,0)/>」を倒していただきたいのです。"
+51,"TEXT_STMBDZ407_02730_KOHAGI_000_003","もし、倒した際に「<Sheet(EventItem,2002239,0)/>」を手に入れたら、
+私の旦那の「センテイ」に届けていただけないでしょうか？
+あの人の大好物なんです。"
+52,"TEXT_STMBDZ407_02730_KOHAGI_000_004","この村の東にある、酔いどれ蛙の船小屋にいるはずですから。
+手間をかけさせてしまいますが、よろしくお願いいたします。"
+53,"TEXT_STMBDZ407_02730_KOHAGI_000_005","無二江にいる「<Sheet(BNpcName,5762,0)/>」を3匹倒していただけますか？
+また、その際に「<Sheet(EventItem,2002239,0)/>」が手に入ったら、
+村の東の小屋にいる「センテイ」に届けてあげてください。"
+54,"TEXT_STMBDZ407_02730_SENTEI_000_010","なんだい？
+俺に何か用でも？"
+55,"TEXT_STMBDZ407_02730_SENTEI_000_011","おっ、こいつは<Sheet(EventItem,2002239,0)/>じゃねえか！
+どうしてこれを俺にくれるんだい？"
+56,"TEXT_STMBDZ407_02730_SENTEI_000_012","なるほど、コハギがあんたに頼んでたってわけか。
+そいつはありがたい。
+鍋で煮て食うのが大好きなんだよ。"
+57,"TEXT_STMBDZ407_02730_SENTEI_000_013","昔は、川船で米を運んで生計を立てながら、
+たまに<Sheet(BNpcName,5762,0)/>を見つけたら、斧で仕留めて土産にしてたもんだ。
+……帝国軍がやってきて、無二江を封鎖しちまう前の話だがね。"
+58,"TEXT_STMBDZ407_02730_SENTEI_000_014","とはいえ、豊かな自然と、あんたみたいな、
+親切な人のおかげで、どうにか食っていけている……。
+ありがたい話だよ、まったくな……。"

@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANSYL305_01281_SEQ_00","Moxia wears an oddly coy expression on her face."
-1,"TEXT_BANSYL305_01281_SEQ_01","The touched sylphs of the Sylphlands have fashioned devices to inundate the forest air with a constant stream of milkroot mist, imparting an altered state of mind on all sylphs who draw near─the uncharacteristically amorous Moxia included. Moxia entrusts to you two phials of morbol gall, an acidic substance derived from morbol bile, and urges you to speak with the mysterious sylph at the entrance to the Sylphlands before embarking on your mission."
-2,"TEXT_BANSYL305_01281_SEQ_02","The mysterious sylph works her magic to render you transparent. Seek out the milkmist makers and destroy them using Moxia's morbol gall.
+0,"TEXT_BANSYL305_01281_SEQ_00","シルフの仮宿のモキシアは、問題の解決を冒険者に任せたいようだ。"
+1,"TEXT_BANSYL305_01281_SEQ_01","モキシアの依頼を受けた。シルフ領の入口にいる「神秘的なシルフ」と話そう。"
+2,"TEXT_BANSYL305_01281_SEQ_02","神秘的なシルフと話し「隠れ身のおまぢない」をかけてもらった。シルフ領の「<Sheet(EObj,2003280,0)/>」に「<Sheet(EventItem,2001183,0)/>」を使おう。透明状態になれば、シルフ領の<Sheet(EObj,2003280,0)/>に簡単に近づくことができるようだ。
 
-※You must complete the task before the enchantment expires. The fragrant blooms you encounter on your path will extend the duration of the spell."
-3,"TEXT_BANSYL305_01281_SEQ_03","With the milkmist makers dissolved by the power of morbol bile, the forest air begins to clear. Report your success to Moxia."
-4,"TEXT_BANSYL305_01281_SEQ_04","Moxia thanks you for your efforts, making sure to reiterate that her odd behavior before was solely due to milkmist exposure. That said, she will doubtless have occasion to call upon your aid again."
+※透明状態は、一定時間が過ぎると効果を失います。「<Sheet(EObj,2003276,0)/>」に触れることで、透明状態の効果時間を延長できます。"
+3,"TEXT_BANSYL305_01281_SEQ_03","<Sheet(EventItem,2001183,0)/>を使って<Sheet(EObj,2003280,0)/>を破壊した。シルフの仮宿の「モキシア」に報告しよう。"
+4,"TEXT_BANSYL305_01281_SEQ_04","モキシアに報告した。冒険者の手によって<Sheet(EObj,2003280,0)/>が破壊されたことで、モキシアも安堵したようだ。またの機会に協力しよう。"
 5,"TEXT_BANSYL305_01281_SEQ_05",""
 6,"TEXT_BANSYL305_01281_SEQ_06",""
 7,"TEXT_BANSYL305_01281_SEQ_07",""
@@ -27,9 +27,9 @@ int32,str,str
 21,"TEXT_BANSYL305_01281_SEQ_21",""
 22,"TEXT_BANSYL305_01281_SEQ_22",""
 23,"TEXT_BANSYL305_01281_SEQ_23",""
-24,"TEXT_BANSYL305_01281_TODO_00","Speak with the mysterious sylph by the entrance to the Sylphlands."
-25,"TEXT_BANSYL305_01281_TODO_01","Use morbol gall on milkmist makers."
-26,"TEXT_BANSYL305_01281_TODO_02","Report to Moxia."
+24,"TEXT_BANSYL305_01281_TODO_00","シルフ領の入口の神秘的なシルフと話す"
+25,"TEXT_BANSYL305_01281_TODO_01","<Sheet(EObj,2003280,0)/>に<Sheet(EventItem,2001183,0)/>を使う"
+26,"TEXT_BANSYL305_01281_TODO_02","モキシアに報告"
 27,"TEXT_BANSYL305_01281_TODO_03",""
 28,"TEXT_BANSYL305_01281_TODO_04",""
 29,"TEXT_BANSYL305_01281_TODO_05",""
@@ -51,19 +51,42 @@ int32,str,str
 45,"TEXT_BANSYL305_01281_TODO_21",""
 46,"TEXT_BANSYL305_01281_TODO_22",""
 47,"TEXT_BANSYL305_01281_TODO_23",""
-48,"TEXT_BANSYL305_01281_MOXIA_000_000","Brave one is back to see this one, yes? Tee hee! This one sees how brave one looks at this one's wings. Tee hee! Brave one need not be such a shy one..."
-49,"TEXT_BANSYL305_01281_MOXIA_000_001","...F-Forgive this one! Ever since coming back from Sylphlands, this one feels tipsy."
-50,"TEXT_BANSYL305_01281_MOXIA_000_002","Why? Touched ones fill forest air with mist of milkroot, this is why! These ones cannot draw near without one's head becoming a muddled mess."
-51,"TEXT_BANSYL305_01281_MOXIA_000_004","Brave one feels nothing from milkroot, yes? Perfect! Brave one must take bottles of burny-goo, burn touched ones' mist-makers and stop those ones from making more mist."
-52,"TEXT_BANSYL305_01281_MOXIA_000_005","Touched ones will not take kindly to meddling ones. Brave one must take care not to be seen─mysterious one near entrance to Sylphlands will see to that."
-53,"TEXT_BANSYL305_01281_ZEXIA_000_010","Walking one need say nothing. This one knows why walking one comes to this one."
-54,"TEXT_BANSYL305_01281_ZEXIA_000_011","Walking one remembers, yes? If walking one starts to be seen, walking one should seek out sweet-blooms. Sweet-blooms are walking one's friend."
-55,"TEXT_BANSYL305_01281_MOXIA_000_020","Brave one must take bottles of burny-goo, stop mist-makers from making more mist."
-56,"TEXT_BANSYL305_01281_MIHARI_000_020",""
-57,"TEXT_BANSYL305_01281_MIHARI_000_021",""
-58,"TEXT_BANSYL305_01281_DECRIPT_000_001","A sylphic incantation is about to render you transparent. Hurry and destroy the milkmist makers before the magic is lifted."
-59,"TEXT_BANSYL305_01281_DECRIPT_000_002","The incantation will expire in thirty-five seconds, after which time you will be unable to complete your task. To have the spell cast anew, return and speak with the mysterious sylph."
-60,"TEXT_BANSYL305_01281_DECRIPT_000_003","The fragrant blooms you encounter on the way will extend the duration of the incantation. Seek them out if the spell's power begins to wane."
-61,"TEXT_BANSYL305_01281_RECOVER_000_001","A fragrant mist envelops you!"
-62,"TEXT_BANSYL305_01281_NOTRECOVER_000_001","It is not safe to perform this action while visible. Return to the mysterious sylph to have the incantation cast anew."
-63,"TEXT_BANSYL305_01281_MOXIA_000_030","Mist-makers are no more, yes? Brave one is a true friend to these ones. But just a friend, yes? Brave one should not dwell overmuch on what this one said before..."
+48,"TEXT_BANSYL305_01281_MOXIA_000_000","悪い子シルフがちょっとヤバいのでふっち。
+ミルクルートをガバガバ使って暴れまくって、
+わたぴたち、もう見てらんないでふっち。"
+49,"TEXT_BANSYL305_01281_MOXIA_000_001","あいつら「<Sheet(EObj,2003280,0)/>」で、
+霧にしたミルクルートを吸いまくってるでふっち。"
+50,"TEXT_BANSYL305_01281_MOXIA_000_002","このままじゃ、森がミルクルート臭くなって、
+わたぴたちまで、目がグルグルしちゃうでふっち！"
+51,"TEXT_BANSYL305_01281_MOXIA_000_004","この「<Sheet(EventItem,2001183,0)/>」をぶっかけて、
+ヤツラの「<Sheet(EObj,2003280,0)/>」を壊すでふっち。
+よろぴくお願いするふっち！"
+52,"TEXT_BANSYL305_01281_MOXIA_000_005","あ、出かける前に「神秘的なシルフ」のところに寄って、
+「隠れ身のおまぢない」をかけてもらうといいでふっち。
+こっそり近づけるから、楽できるのでふっち！"
+53,"TEXT_BANSYL305_01281_ZEXIA_000_010","ふふん、わたぴの出番でふっち？
+たっぷり「隠れ身のおまぢない」をかけるでふっち。"
+54,"TEXT_BANSYL305_01281_ZEXIA_000_011","「おまぢない」が切れそうになったら、
+「<Sheet(EObj,2003276,0)/>」を探すでふっち。
+「おまぢない」の効果が回復するのでふっち。"
+55,"TEXT_BANSYL305_01281_MOXIA_000_020","「<Sheet(EventItem,2001183,0)/>」をぶっかけて、
+「<Sheet(EObj,2003280,0)/>」を壊すでふっち。
+よろぴくお願いするふっち！"
+56,"TEXT_BANSYL305_01281_MIHARI_000_020","(カット)"
+57,"TEXT_BANSYL305_01281_MIHARI_000_021","(カット)"
+58,"TEXT_BANSYL305_01281_DECRIPT_000_001","「隠れ身のおまぢない」により、透明状態になりました。
+透明状態になれば、シルフ領の<Sheet(EObj,2003280,0)/>に
+簡単に近づくことができます。"
+59,"TEXT_BANSYL305_01281_DECRIPT_000_002","透明状態の効果時間は「35秒」です。
+時間切れになっても、「神秘的なシルフ」に話しかければ、
+再び透明状態になることができます。"
+60,"TEXT_BANSYL305_01281_DECRIPT_000_003","透明状態の残り時間が少なくなってきたら、
+道中の「<Sheet(EObj,2003276,0)/>」に触れると、
+効果時間を回復することができます。"
+61,"TEXT_BANSYL305_01281_RECOVER_000_001","透明状態の効果時間が延長された！"
+62,"TEXT_BANSYL305_01281_NOTRECOVER_000_001","透明状態でなければ効果はありません。
+もう一度「神秘的なシルフ」に話しかけ、
+透明状態にしてもらいましょう。"
+63,"TEXT_BANSYL305_01281_MOXIA_000_030","壊してくれて、ありがとうでふっち！
+ミルクルートはたしなむ程度がよいのでふっち。
+悪い子シルフめ、思い知ったかでふっち！"

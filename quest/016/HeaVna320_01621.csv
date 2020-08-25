@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNA320_01621_SEQ_00","Mogmug would test your trustworthiness with a trial."
-1,"TEXT_HEAVNA320_01621_SEQ_01","You speak with Mogmug, one of the three trial-givers named by Moglin, and the preening moogle bids you beat some manners into his overeager Dravanian “admirers.” Head out to Eil Tohm, and defeat the archaeosaurs."
-2,"TEXT_HEAVNA320_01621_SEQ_02","You track down the archaeosaurs, and administer a tough lesson on personal boundaries. Return to Moghome and report to Mogmug."
-3,"TEXT_HEAVNA320_01621_SEQ_03","Mogmug thanks you for your efforts in educating the Dravanians, but continues to lament his adorable appearance. From his description of the archaeosaurs' pursuit, however, it would seem their interest in Mogmug was more gastronomical than aesthetic..."
+0,"TEXT_HEAVNA320_01621_SEQ_00","モグモグホームのモグムグは、冒険者に試練をあたえたいようだ。"
+1,"TEXT_HEAVNA320_01621_SEQ_01","モグムグから、自分を追い回す竜の眷属をこらしめてほしいと頼まれた。ドラヴァニア雲海のエイル・トームで竜の眷属を討伐しよう。"
+2,"TEXT_HEAVNA320_01621_SEQ_02","竜の眷属をこらしめた。モグモグホームの「モグムグ」に報告しよう。"
+3,"TEXT_HEAVNA320_01621_SEQ_03","モグムグに報告した。こらしめた竜の眷属は、お腹を鳴らし、口を大きく開けてモグムグを追い回していたらしい。どうやらモグムグは、自分が喰われかけたことに気がついていないようだ。"
 4,"TEXT_HEAVNA320_01621_SEQ_04",""
 5,"TEXT_HEAVNA320_01621_SEQ_05",""
 6,"TEXT_HEAVNA320_01621_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_HEAVNA320_01621_SEQ_21",""
 22,"TEXT_HEAVNA320_01621_SEQ_22",""
 23,"TEXT_HEAVNA320_01621_SEQ_23",""
-24,"TEXT_HEAVNA320_01621_TODO_00","Defeat archaeosaurs."
-25,"TEXT_HEAVNA320_01621_TODO_01","Report to Mogmug."
+24,"TEXT_HEAVNA320_01621_TODO_00","エイル・トームで竜の眷属を討伐"
+25,"TEXT_HEAVNA320_01621_TODO_01","モグムグに報告"
 26,"TEXT_HEAVNA320_01621_TODO_02",""
 27,"TEXT_HEAVNA320_01621_TODO_03",""
 28,"TEXT_HEAVNA320_01621_TODO_04",""
@@ -49,13 +49,27 @@ int32,str,str
 45,"TEXT_HEAVNA320_01621_TODO_21",""
 46,"TEXT_HEAVNA320_01621_TODO_22",""
 47,"TEXT_HEAVNA320_01621_TODO_23",""
-48,"TEXT_HEAVNA320_01621_MOGMUG_000_000","Hm? Yes, you have the pleasure of speaking with Mogmug. I know, I know, I am the fluffiest, most enchanting creature you have ever laid eyes upon, kupo."
-49,"TEXT_HEAVNA320_01621_MOGMUG_000_001","It isn't easy being this adorable! I can barely take a stroll outside without those relentless Dravanians throwing themselves at me... Why, they look as if they might just gobble me right up!"
-50,"TEXT_HEAVNA320_01621_MOGMUG_000_002","In any case, fleeing their overbearing adulation is growing a bit tiresome. Your trial, <If(PlayerParameter(4))>madam<Else/>sir</If>, is this: find these ardent archaeosaurs, and slap some manners into them, kupo."
-51,"TEXT_HEAVNA320_01621_MOGMUG_000_003","Perhaps a firm smack on the snout will teach them to appreciate my charm from afar!"
-52,"TEXT_HEAVNA320_01621_MOGMUG_000_004","Those archaeosaurs need a good trouncing, I say! It's the only way they'll learn to respect my boundaries."
-53,"TEXT_HEAVNA320_01621_MOGMUG_000_005","I do appreciate my admirers, but enough is enough, kupo!"
-54,"TEXT_HEAVNA320_01621_MOGMUG_000_010","You were able to humble my Dravanian devotees? Wonderful! You are as capable as I am captivating, kupo!"
-55,"TEXT_HEAVNA320_01621_MOGMUG_000_011","Still, my precious perfection does not excuse those louts from pursuing me so mercilessly, their tongues lolling and bellies rumbling!"
-56,"TEXT_HEAVNA320_01621_MOGMUG_000_012","The Dravanians and their ilk have much to learn about acceptable acts of admiration!"
-57,"TEXT_HEAVNA320_01621_SYSTEM_000_900","You have completed the Trials of Trustworthiness. Return to Chieftain Moglin and await his judgment."
+48,"TEXT_HEAVNA320_01621_MOGMUG_000_000","はじめましての、くーぽくぽ。
+村一番の美人と評判の「モグムグ」とは、モグのことくぽ。"
+49,"TEXT_HEAVNA320_01621_MOGMUG_000_001","なんだか最近、「エイル・トーム」にお散歩に出るたびに、
+竜の眷属たちに追いかけ回されて、困っているくぽ。
+きっと美しいモグムグと、お近づきになりたいくぽね……。"
+50,"TEXT_HEAVNA320_01621_MOGMUG_000_002","そうはいっても、逃げ回るのは大変くぽ。
+そこで、モグムグのファンの「竜の眷属」たちを、
+バシビシっとこらしめてほしいくぽ。"
+51,"TEXT_HEAVNA320_01621_MOGMUG_000_003","痛い目に合わせれば、人気者のモグに気安く近づこうなんて、
+甘い夢を見ることはなくなるハズくぽ！"
+52,"TEXT_HEAVNA320_01621_MOGMUG_000_004","モグムグのファンの「竜の眷属」たちを、
+バシビシっとこらしめてほしいくぽ。"
+53,"TEXT_HEAVNA320_01621_MOGMUG_000_005","痛い目に合わせれば、人気者のモグに気安く近づこうなんて、
+甘い夢を見ることはなくなるハズくぽ！"
+54,"TEXT_HEAVNA320_01621_MOGMUG_000_010","お帰りなさいで、くーぽくぽ！
+無事にモグムグのファンを鎮めてくれたようくぽね？
+あの猛り狂った竜たちを黙らせるなんて、すごいくぽ！"
+55,"TEXT_HEAVNA320_01621_MOGMUG_000_011","それにしても、いくらモグムグが美し過ぎるからと言って、
+お腹をグーグー鳴らしながら、
+大きく口を開けて追い回すのは、良くないと思うくぽ。"
+56,"TEXT_HEAVNA320_01621_MOGMUG_000_012","竜の皆さんには、
+もう少し礼儀を勉強してほしいくぽね。"
+57,"TEXT_HEAVNA320_01621_SYSTEM_000_900","モグリンから言い渡された試練を、すべて達成しました！
+モグモグホームの「モグリン」に報告に行きましょう。"

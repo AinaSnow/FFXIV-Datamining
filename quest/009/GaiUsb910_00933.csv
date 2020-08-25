@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB910_00933_SEQ_00","Unlike other more menial tasks, Ser Faucillien would set to you a mission of some importance."
-1,"TEXT_GAIUSB910_00933_SEQ_01","There are large troop movements around Whitebrim Front, and Faucillien requests that you slay the Dravanian outwatches that slow the column. He bids you go deep into the forest northwest of the Front, and bait these dragon thralls with dragon scales."
-2,"TEXT_GAIUSB910_00933_SEQ_02","The Dravanian outwatches are dead. Moved by instinct rather than belief, they die without any lurid displays, ponderous words, or─the Twelve help you for you have seen it and cannot unsee it─poetry. Return to Ser Faucillien and report your success."
-3,"TEXT_GAIUSB910_00933_SEQ_03","Ser Faucillien commends you and reveals that Ishgard marches on the Stone Vigil, the stronghold lost to the Dravanians. A bold and glorious assault, but you cannot suppress your misgivings... "
+0,"TEXT_GAIUSB910_00933_SEQ_00","ホワイトブリム前哨地の騎兵フォシリアンは、邪魔者を排除したいようだ。"
+1,"TEXT_GAIUSB910_00933_SEQ_01","ドラゴンの眷属<Sheet(BNpcName,685,0)/>の討伐を依頼された。ホワイトブリム前哨地の北西にある「<Sheet(EObj,2002164,0)/>」で「<Sheet(EventItem,2000729,0)/>」を使い、現れた「<Sheet(BNpcName,685,0)/>」を倒そう。"
+2,"TEXT_GAIUSB910_00933_SEQ_02","<Sheet(BNpcName,685,0)/>を倒した。ホワイトブリム前哨地の騎兵「フォシリアン」に報告しよう。"
+3,"TEXT_GAIUSB910_00933_SEQ_03","フォシリアンに報告した。ストーンヴィジルのドラゴン族討伐に向けて、彼は戦意を高揚させているようだ。"
 4,"TEXT_GAIUSB910_00933_SEQ_04",""
 5,"TEXT_GAIUSB910_00933_SEQ_05",""
 6,"TEXT_GAIUSB910_00933_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSB910_00933_SEQ_21",""
 22,"TEXT_GAIUSB910_00933_SEQ_22",""
 23,"TEXT_GAIUSB910_00933_SEQ_23",""
-24,"TEXT_GAIUSB910_00933_TODO_00","Use the dragon scale at the destination and slay Dravanian outwatches."
-25,"TEXT_GAIUSB910_00933_TODO_01","Report to Faucillien."
+24,"TEXT_GAIUSB910_00933_TODO_00","<Sheet(EObj,2002164,0)/>に<Sheet(EventItem,2000729,0)/>を使い<Sheet(BNpcName,685,0)/>を討伐"
+25,"TEXT_GAIUSB910_00933_TODO_01","フォシリアンに報告"
 26,"TEXT_GAIUSB910_00933_TODO_02",""
 27,"TEXT_GAIUSB910_00933_TODO_03",""
 28,"TEXT_GAIUSB910_00933_TODO_04",""
@@ -49,10 +49,18 @@ int32,str,str
 45,"TEXT_GAIUSB910_00933_TODO_21",""
 46,"TEXT_GAIUSB910_00933_TODO_22",""
 47,"TEXT_GAIUSB910_00933_TODO_23",""
-48,"TEXT_GAIUSB910_00933_FAUCILLIEN_000_000","Adventurer. I hear some of my brother knights have made of you a drudge. Fie! By the Fury, set your sights higher! I have for you a gallant mission: slay the Dravanian outwatches that trammel our steps."
-49,"TEXT_GAIUSB910_00933_FAUCILLIEN_000_001","They are as dogs, cherishing the Dravanians in the wordless forests of their minds, every thought a faerie ring that vanishes by nightfall. Brandish these dragon scales when the outwatches are near, and they will come."
-50,"TEXT_GAIUSB910_00933_DUMMY_000_010",""
-51,"TEXT_GAIUSB910_00933_DUMMYTODO_000_010",""
-52,"TEXT_GAIUSB910_00933_FAUCILLIEN_000_020","The dragon-minions are dead? Now, do you not feel like a <If(PlayerParameter(4))>woman<Else/>man</If> grown, with honor intact? Know that you removed one of the obstacles to the retaking of the Stone Vigil."
-53,"TEXT_GAIUSB910_00933_FAUCILLIEN_000_021","How like the Dravanians to send their mindless servants to do their dirty work! We have the advantage over them, for all who serve Ishgard do so free, proud, and clear of thought."
-54,"TEXT_GAIUSB910_00933_POP_MESSAGE_000","You hear an adoring whine close by!"
+48,"TEXT_GAIUSB910_00933_FAUCILLIEN_000_000","冒険者よ、貴様に我ら騎士団の手伝いをさせてやろう。
+我らの進軍の妨げになっているドラゴン族の眷属、
+「<Sheet(BNpcName,685,0)/>」を討伐してくるのだ。"
+49,"TEXT_GAIUSB910_00933_FAUCILLIEN_000_001","奴らはドラゴン族のような知性もない、獣同然の魔物だが、
+主であるドラゴン族に付き従う習性がある。
+森の中で「<Sheet(EventItem,2000729,0)/>」を使えば寄ってくるだろう。"
+50,"TEXT_GAIUSB910_00933_DUMMY_000_010","指定地点に「<Sheet(EventItem,2000729,0)/>」を置く。ポップしてきたプークを2匹ほど討伐"
+51,"TEXT_GAIUSB910_00933_DUMMYTODO_000_010","（★未使用／削除予定★）"
+52,"TEXT_GAIUSB910_00933_FAUCILLIEN_000_020","<Sheet(BNpcName,685,0)/>を倒してきたか。
+これで多少なりとも、ストーンヴィジル攻略の障害を
+取り除くことができたな。"
+53,"TEXT_GAIUSB910_00933_FAUCILLIEN_000_021","眷属を使役して我らの行く手を阻むとは、
+いかにもドラゴン族らしい、姑息な策よ。
+……今度こそ、我ら騎士団が駆逐してくれる！"
+54,"TEXT_GAIUSB910_00933_POP_MESSAGE_000","敵の気配を感じた！！"

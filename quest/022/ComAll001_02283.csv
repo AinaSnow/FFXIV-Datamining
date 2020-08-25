@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_COMALL001_02283_SEQ_00","Alys wishes to pass on a message."
-1,"TEXT_COMALL001_02283_SEQ_01","You learn from Alys that your martial prowess has caught the attention of Storm Captain Berkoeya Loetahlsyn. It seems that you have been invited to participate in a new military exercise─a war game designed to test the mettle of only the most battle-hardened adventurers. Board the ferry from the Moraby Drydocks in lower La Noscea, and report to Captain Loetahlsyn at the Wolves' Den."
-2,"TEXT_COMALL001_02283_SEQ_02","Captain Loetahlsyn welcomes you to the Wolves' Den with an ear-splitting barrage of lupine metaphor. Appealing to your savage side, the Maelstrom officer urges you to participate in the Den's newest war game─the Feast. Speak with the captain again if you wish to learn more."
+0,"TEXT_COMALL001_02283_SEQ_00","セブンスヘブンのアリスは、冒険者に言伝を伝えたいようだ。"
+1,"TEXT_COMALL001_02283_SEQ_01","冒険者は、ウルヴズジェイルにて新たに始まった軍事演習への参加要請を受けた。ウルヴズジェイル係船場の対戦受付にいる「ベルクーヤ大甲士」と話そう。"
+2,"TEXT_COMALL001_02283_SEQ_02","ベルクーヤ大甲士と話した。彼は、新たな演習「ザ・フィースト」への参加資格を得た冒険者をほめたたえ、演習でさらに腕を磨くよう、激励してくれた。"
 3,"TEXT_COMALL001_02283_SEQ_03",""
 4,"TEXT_COMALL001_02283_SEQ_04",""
 5,"TEXT_COMALL001_02283_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_COMALL001_02283_SEQ_21",""
 22,"TEXT_COMALL001_02283_SEQ_22",""
 23,"TEXT_COMALL001_02283_SEQ_23",""
-24,"TEXT_COMALL001_02283_TODO_00","Report to Berkoeya Loetahlsyn at the Wolves' Den."
+24,"TEXT_COMALL001_02283_TODO_00","ウルヴズジェイルのベルクーヤ大甲士と話す"
 25,"TEXT_COMALL001_02283_TODO_01",""
 26,"TEXT_COMALL001_02283_TODO_02",""
 27,"TEXT_COMALL001_02283_TODO_03",""
@@ -49,16 +49,32 @@ int32,str,str
 45,"TEXT_COMALL001_02283_TODO_21",""
 46,"TEXT_COMALL001_02283_TODO_22",""
 47,"TEXT_COMALL001_02283_TODO_23",""
-48,"TEXT_COMALL001_02283_ALYS_000_000","Ah, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, I was hoping you'd come by."
-49,"TEXT_COMALL001_02283_ALYS_000_001","A Maelstrom messenger was here in search of you a while ago─poor timing, as it turns out. The lad seemed resigned to sit and watch the door for you until the end of days, so I finally offered to pass on the message for him."
-50,"TEXT_COMALL001_02283_ALYS_000_002","From what I understand of it, you've been invited to participate in some manner of military exercise at the Wolves' Den."
-51,"TEXT_COMALL001_02283_ALYS_000_003","The messenger wished to be clear that only the most battle-hardened adventurers have been asked to take part, and that to even receive the offer should be considered a great honor."
-52,"TEXT_COMALL001_02283_ALYS_000_004","Well, whatever you might think of it, it appears that you've caught the attention of one Storm Captain Berkoeya Loetahlsyn. You are to report to him at the Wolves' Den should you wish to “bloody your fangs.” Those were his exact words, apparently..."
-53,"TEXT_COMALL001_02283_ALYS_000_009","Oh yes, the messenger also asked me to remind you that the ferry for the Wolves' Den can be boarded from the Moraby Drydocks...in case you'd been “away too long from the slaughter.”
-...Do take care, won't you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>?"
-54,"TEXT_COMALL001_02283_BERKOEYA_000_010","Well, it's about bloody time a proper wolf loped in! I've had it up to me eyeballs with yowlin' pups what piss themselves at the tiniest scratch!"
-55,"TEXT_COMALL001_02283_BERKOEYA_000_011","I don't give a wharf rat's arse who ye salute or what yer rank is─yer pretty titles amount to a handful of shite in <Emphasis>my</Emphasis> den! Yer a maggot until proven otherwise!"
-56,"TEXT_COMALL001_02283_BERKOEYA_000_012","But yer a different breed, ain't ye? Ye've hunted yer foes across a hundred different fields; torn their flesh, and heard their bones crack in yer jaws!"
-57,"TEXT_COMALL001_02283_BERKOEYA_000_013","That's the sort of beast I want slaverin' at the table I'm settin'. Aye, there's a new game afoot, and ye'll need a killer's instinct to claim the best chair at the “Feast.”"
-58,"TEXT_COMALL001_02283_BERKOEYA_000_014","So bare those fangs and sharpen those claws! Gorge yer belly on the banquet afore ye! But watch yer hindquarters─the meat on this platter is like to bite ye back!"
-59,"TEXT_COMALL001_02283_BERKOEYA_000_015","Are ye snarlin' for the chance to show the realm who's top wolf? Then lend me yer ear, and I'll brief ye on the most brutal war game to ever grace the Den!"
+48,"TEXT_COMALL001_02283_ALYS_000_000","あら、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>様。
+ちょうど貴方様を探していたところなのです。"
+49,"TEXT_COMALL001_02283_ALYS_000_001","黒渦団の伝令さんが、貴方様を訪ねていらっしゃいまして、
+不在だと伝えると言伝を残していかれたのですよ。"
+50,"TEXT_COMALL001_02283_ALYS_000_002","何でも、ウルヴズジェイルにて、
+練度の高い熟練兵向けの高度な演習を行うそうで、
+ぜひ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>様をお招きしたいのだとか。"
+51,"TEXT_COMALL001_02283_ALYS_000_003","この演習に参加できるのは、選ばれし精兵のみ……。
+参加資格を有するだけでも、大変な栄誉なのだそうです。"
+52,"TEXT_COMALL001_02283_ALYS_000_004","ご興味がおありでしたら、ウルヴズジェイル係船場を訪れ、
+「ベルクーヤ大甲士」より、詳細を聞かれるといいでしょう。
+これを機に、貴方様の名声が高まることを願っておりますよ。"
+53,"TEXT_COMALL001_02283_ALYS_000_009","ご興味がおありでしたら、ウルヴズジェイル係船場を訪れ、
+「ベルクーヤ大甲士」より、詳細を聞かれるといいでしょう。
+これを機に、貴方様の名声が高まることを願っておりますよ。"
+54,"TEXT_COMALL001_02283_BERKOEYA_000_010","よく来たな、貴様という狼を待ちわびていたぞ！
+私の呼び掛けに応じてくれたことに感謝する！"
+55,"TEXT_COMALL001_02283_BERKOEYA_000_011","ここでは、所属も階級も、ましてや過去の名声も、
+等しくクソのひと掴みほどに価値がない！！"
+56,"TEXT_COMALL001_02283_BERKOEYA_000_012","だが、貴様は違う！
+すでに肉を喰らい、骨を噛み砕く狼であることを証明した者！"
+57,"TEXT_COMALL001_02283_BERKOEYA_000_013","そんな狼だけを集めて、狼王を決める饗宴を開催する！！
+これぞ、新たな演習「ザ・フィースト」だ！"
+58,"TEXT_COMALL001_02283_BERKOEYA_000_014","牙を剥け！　爪を研げ！
+目の前の饗膳をむさぼりつくせ！
+だが、気を付けろ……食卓に並ぶ肉は、どれも獰猛な狼ばかり！"
+59,"TEXT_COMALL001_02283_BERKOEYA_000_015","さあ、今すぐ貴様のたぎる闘志を、私にぶちまけろ！
+歴戦の猛者すら、過酷さに震え上がる演習について、
+嫌というほど説明してやる！"

@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNA113_01592_SEQ_00","Lady Laniaitte is eager to get to more important business."
-1,"TEXT_HEAVNA113_01592_SEQ_01","Instead of listening to her expound at greater length, Lady Laniaitte would rather have you gain firsthand experience of the Vanu Vanu. To that end, she sends you to speak with Ser Marielle, who could use your assistance."
-2,"TEXT_HEAVNA113_01592_SEQ_02","Though Ser Marielle describes the Vanu as birdmen, she is quick to clarify that they are nothing like the Ixal. She marks several locations on your map and bids you stand watch in case the Vanu are nearby."
-3,"TEXT_HEAVNA113_01592_SEQ_03","As expected, you spy several Vanu during your patrol and are forced to drive them off. Report all that has transpired to Ser Marielle."
-4,"TEXT_HEAVNA113_01592_SEQ_04","Another day, another foiled attack by the Vanu. Ser Marielle is somewhat disappointed to learn that your patrol was not uneventful, but glad that you had no difficulty dispatching your foes."
+0,"TEXT_HEAVNA113_01592_SEQ_00","ローズハウスのラニエットは、冒険者に協力を頼みたいことがあるようだ。"
+1,"TEXT_HEAVNA113_01592_SEQ_01","ラニエットから、バヌバヌ族対策を進めているマリエルへの協力を頼まれた。ローズハウスの「マリエル」と話そう。"
+2,"TEXT_HEAVNA113_01592_SEQ_02","マリエルから、周辺の巡回を頼まれた。アバラシア雲海のクラウドトップにある「<Sheet(EObj,2005409,0)/>」で見張り、バヌバヌ族が現れたら討伐しよう。"
+3,"TEXT_HEAVNA113_01592_SEQ_03","すべての<Sheet(EObj,2005409,0)/>で見張りを終えた。ローズハウスの「マリエル」に報告しよう。"
+4,"TEXT_HEAVNA113_01592_SEQ_04","マリエルに報告した。巡回中、バヌバヌ族を撃退したことを話すと、マリエルは冒険者の実力に安心したようだ。"
 5,"TEXT_HEAVNA113_01592_SEQ_05",""
 6,"TEXT_HEAVNA113_01592_SEQ_06",""
 7,"TEXT_HEAVNA113_01592_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_HEAVNA113_01592_SEQ_21",""
 22,"TEXT_HEAVNA113_01592_SEQ_22",""
 23,"TEXT_HEAVNA113_01592_SEQ_23",""
-24,"TEXT_HEAVNA113_01592_TODO_00","Speak with Marielle."
-25,"TEXT_HEAVNA113_01592_TODO_01","Keep watch for Vanu."
-26,"TEXT_HEAVNA113_01592_TODO_02","Report to Marielle."
+24,"TEXT_HEAVNA113_01592_TODO_00","マリエルと話す"
+25,"TEXT_HEAVNA113_01592_TODO_01","<Sheet(EObj,2005409,0)/>で見張り、バヌバヌ族が現れたら討伐"
+26,"TEXT_HEAVNA113_01592_TODO_02","マリエルに報告"
 27,"TEXT_HEAVNA113_01592_TODO_03",""
 28,"TEXT_HEAVNA113_01592_TODO_04",""
 29,"TEXT_HEAVNA113_01592_TODO_05",""
@@ -49,16 +49,36 @@ int32,str,str
 45,"TEXT_HEAVNA113_01592_TODO_21",""
 46,"TEXT_HEAVNA113_01592_TODO_22",""
 47,"TEXT_HEAVNA113_01592_TODO_23",""
-48,"TEXT_HEAVNA113_01592_LANIAITTE_000_000","Now that Emmanellain is out of harm's way, we are free to discuss matters of actual import, such as our struggles with the Vanu Vanu."
-49,"TEXT_HEAVNA113_01592_LANIAITTE_000_001","We first encountered the Vanu several years ago, when we had just begun to explore the Sea of Clouds. After an exchange of pleasantries and gifts, we received permission to construct a permanent lookout post."
-50,"TEXT_HEAVNA113_01592_LANIAITTE_000_002","There was peace between our peoples for half a year, until suddenly, for reasons unknown, their attitudes towards us changed. They began to attack our foraging parties without provocation, forcing us to rely more heavily on supplies flown in from Ishgard."
-51,"TEXT_HEAVNA113_01592_LANIAITTE_000_003","...But words are no substitute for firsthand experience. Go and see Ser Marielle─she could use your assistance."
-52,"TEXT_HEAVNA113_01592_LANIAITTE_000_004","Rather than listening to me go on and on, I think you would benefit from firsthand experience with the Vanu. Speak with Ser Marielle─she'll be expecting you."
-53,"TEXT_HEAVNA113_01592_MARIELLE_000_010","<If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>, I presume? Lady Laniaitte told me you were coming."
-54,"TEXT_HEAVNA113_01592_MARIELLE_000_011","I hear tell you've never faced a Vanu before? Well, spend enough time on patrol and you're sure to cross paths with them eventually."
-55,"TEXT_HEAVNA113_01592_MARIELLE_000_012","These birdmen are native to the floating isles. I say “birdmen,” but they're not at all like the Ixal─unless that Ixal's mother was a gigas."
-56,"TEXT_HEAVNA113_01592_MARIELLE_000_013","Here, let me mark several locations on your map. If you discover any Vanu in these areas, kill or drive them away."
-57,"TEXT_HEAVNA113_01592_MARIELLE_000_014","For all I know, you may find nothing. If so, let us consider it an auspicious omen..."
-58,"TEXT_HEAVNA113_01592_SYSTEM_000_020","You steel yourself for a mighty struggle, yet find no Vanu lying in wait."
-59,"TEXT_HEAVNA113_01592_MARIELLE_000_030","Finished with your patrol? Anything to report?"
-60,"TEXT_HEAVNA113_01592_MARIELLE_000_031","Heh, maybe it was too much to hope for a day without a skirmish. At least I can take solace in the fact that Halone has blessed us with a mighty ally."
+48,"TEXT_HEAVNA113_01592_LANIAITTE_000_000","さて、ここからが本番だ。
+まずは貴公に、我々の敵を知ってもらおうと思う。
+そう、先ほども話題に出した原住民、「バヌバヌ族」だ。"
+49,"TEXT_HEAVNA113_01592_LANIAITTE_000_001","数年前、この地にやって来て彼らと出会った我々は、
+彼らに贈り物を渡し、ここに監視所を設ける許可を得た。
+それから半年ほどの間は、友好的な関係を維持していたのだ。"
+50,"TEXT_HEAVNA113_01592_LANIAITTE_000_002","……だが、彼らは突然に態度を一変させた。
+今や人と見ると無差別に襲ってくる有様で、
+必要物資の調達さえ一苦労なのだ。"
+51,"TEXT_HEAVNA113_01592_LANIAITTE_000_003","そこで貴公には、「バヌバヌ族」対策を進めている、
+「マリエル」に手を貸してやってもらいたい。
+頼んだぞ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>殿。"
+52,"TEXT_HEAVNA113_01592_LANIAITTE_000_004","貴公には、「バヌバヌ族」対策を進めている、
+「マリエル」に手を貸してやってもらいたい。
+頼んだぞ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>殿。"
+53,"TEXT_HEAVNA113_01592_MARIELLE_000_010","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さんですね？
+ラニエット隊長から連絡は受けております。"
+54,"TEXT_HEAVNA113_01592_MARIELLE_000_011","私たちの部隊の任務は、
+この拠点に接近するバヌバヌ族を警戒し、追い払うことです。"
+55,"TEXT_HEAVNA113_01592_MARIELLE_000_012","バヌバヌ族というのは、この浮島の原住民でして、
+「太っちょの鳥」とでもいいましょうか、そんな姿をしています。"
+56,"TEXT_HEAVNA113_01592_MARIELLE_000_013","地図に書き記した地点を巡回して、
+もし、バヌバヌ族が現れたら、撃退してください。
+見た目に反して素早い相手ですから、油断しないでくださいね。"
+57,"TEXT_HEAVNA113_01592_MARIELLE_000_014","地図に書き記した地点を巡回して、
+もし、バヌバヌ族が現れたら、撃退してください。
+見た目に反して素早い相手ですから、油断しないでくださいね。"
+58,"TEXT_HEAVNA113_01592_SYSTEM_000_020","この周辺に、バヌバヌ族の姿はないようだ……。"
+59,"TEXT_HEAVNA113_01592_MARIELLE_000_030","ご苦労さまでした、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん。
+バヌバヌ族は現れましたか？"
+60,"TEXT_HEAVNA113_01592_MARIELLE_000_031","……なるほど、これは少し警戒を強めないと。
+でも、その様子では、後れを取ることはなかったようですね。
+心強い助っ人が来てくれて、本当に良かったです。"

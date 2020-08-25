@@ -1,12 +1,12 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKME111_03640_SEQ_00","The Crystal Exarch has efficiency on his mind."
-1,"TEXT_LUCKME111_03640_SEQ_01","Desiring to use your time efficiently, the Crystal Exarch suggests splitting up for the tasks to come. While he transports the earthseed to Chai-Nuzz in Amity, he asks that you see your young dwarven companion, Korutt, safely back to Tomra."
-2,"TEXT_LUCKME111_03640_SEQ_02","Xamott is pleased that young Korutt was of help to you, and informs you that other dwarves have also come forward wishing to aid your cause. To that end, anticipating that you will have need of mining tools to procure the stone for the Talos, they have modified their spare pickaxes for use by bigger folk. Thus generously furnished, you set out to rejoin your comrades at Top Rung."
-3,"TEXT_LUCKME111_03640_SEQ_03","You arrive at Top Rung to find Alisaie and Alphinaud returned, along with the help they promised. Yet while there is no shortage of willing hands, there is a shortage of pickaxes for them to wield. How very fortunate, then, that you should be carrying a small mountain of the mining tools with you. Equal parts pleased and incredulous, Alisaie bids you distribute them among the gathered helpers."
-4,"TEXT_LUCKME111_03640_SEQ_04","As you go about doling out the pickaxes, you meet many a familiar face. Though each has walked a different path to reach this point, all are united in their desire to do their part for Norvrandt. With the last of the volunteers equipped and on their way, you turn your steps back to Alisaie."
-5,"TEXT_LUCKME111_03640_SEQ_05","After thanking you for your efforts, Alisaie declares that she will take her place alongside the soldiers tasked with defending the laborers while they work. There is much and more still to be done, but in such determined company, you cannot help feeling optimistic."
+0,"TEXT_LUCKME111_03640_SEQ_00","ドヴェルグの煙突の水晶公は、何かを考えついたようだ。"
+1,"TEXT_LUCKME111_03640_SEQ_01","水晶公から、コルットを村まで送るよう頼まれた。コルシア島のトメラの村にいる「ザモット」と話そう。"
+2,"TEXT_LUCKME111_03640_SEQ_02","ザモットから<Sheet(EventItem,2002611,0)/>をもらった。コルシア島のトップラングにいる「アリゼー」と話そう。"
+3,"TEXT_LUCKME111_03640_SEQ_03","アリゼーと話した。トップラングに集っている仲間たちに「<Sheet(EventItem,2002611,0)/>」を渡そう。"
+4,"TEXT_LUCKME111_03640_SEQ_04","仲間たちにピックを渡した。トップラングのアリゼーと話そう。"
+5,"TEXT_LUCKME111_03640_SEQ_05","アリゼーと話した。ほかの仲間が無事に出発できたことで、彼女もまた、現場に向かうようだ。これまで出会ってきたノルヴラントの人々に懸けて、作戦を成功させよう。"
 6,"TEXT_LUCKME111_03640_SEQ_06",""
 7,"TEXT_LUCKME111_03640_SEQ_07",""
 8,"TEXT_LUCKME111_03640_SEQ_08",""
@@ -25,12 +25,12 @@ int32,str,str
 21,"TEXT_LUCKME111_03640_SEQ_21",""
 22,"TEXT_LUCKME111_03640_SEQ_22",""
 23,"TEXT_LUCKME111_03640_SEQ_23",""
-24,"TEXT_LUCKME111_03640_TODO_00","Speak with Xamott."
-25,"TEXT_LUCKME111_03640_TODO_01","Speak with Alisaie."
-26,"TEXT_LUCKME111_03640_TODO_02","Deliver pickaxes to Magnus."
-27,"TEXT_LUCKME111_03640_TODO_03","Deliver pickaxes to Rhon Ron."
-28,"TEXT_LUCKME111_03640_TODO_04","Deliver pickaxes to Kai-Shirr."
-29,"TEXT_LUCKME111_03640_TODO_05","Speak with Alisaie."
+24,"TEXT_LUCKME111_03640_TODO_00","ザモットと話す"
+25,"TEXT_LUCKME111_03640_TODO_01","アリゼーと話す"
+26,"TEXT_LUCKME111_03640_TODO_02","マグヌスに<Sheet(EventItem,2002611,0)/>を渡す"
+27,"TEXT_LUCKME111_03640_TODO_03","ローンロンに<Sheet(EventItem,2002611,0)/>を渡す"
+28,"TEXT_LUCKME111_03640_TODO_04","カイ・シルに<Sheet(EventItem,2002611,0)/>を渡す"
+29,"TEXT_LUCKME111_03640_TODO_05","アリゼーと話す"
 30,"TEXT_LUCKME111_03640_TODO_06",""
 31,"TEXT_LUCKME111_03640_TODO_07",""
 32,"TEXT_LUCKME111_03640_TODO_08",""
@@ -49,69 +49,153 @@ int32,str,str
 45,"TEXT_LUCKME111_03640_TODO_21",""
 46,"TEXT_LUCKME111_03640_TODO_22",""
 47,"TEXT_LUCKME111_03640_TODO_23",""
-48,"TEXT_LUCKME111_03640_KORUTT_000_000","I'm glad I could be of help! If you need any more earthseed, just let me know!"
-49,"TEXT_LUCKME111_03640_GLAGG_000_005","<snore> <snore>"
-50,"TEXT_LUCKME111_03640_MYSTERYVOICE_000_010","Well, my friend, much as I have enjoyed our time together, I think it best we split up, that we might accomplish our tasks more swiftly."
-51,"TEXT_LUCKME111_03640_MYSTERYVOICE_000_011","I shall see the earthseed safely into the hands of Chai-Nuzz."
-52,"TEXT_LUCKME111_03640_MYSTERYVOICE_000_012","While I am thus employed, would you be so good as to deliver Korutt back to Tomra?"
-53,"TEXT_LUCKME111_03640_MYSTERYVOICE_000_013","My thanks, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Brief though it was, 'twas an honor to go adventuring with you. I shall see you back in Amity."
-54,"TEXT_LUCKME111_03640_MYSTERYVOICE_000_020","Leave the earthseed to me, my friend, and see Korutt safely back to Tomra. While you are there, a word of thanks to Chief Xamott would not go astray."
-55,"TEXT_LUCKME111_03640_KORUTT_000_025","Phew! Not a single brush with death! Thanks for coming back with me!"
-56,"TEXT_LUCKME111_03640_XAMOTT_000_030","Lali-ho! Glad you're back, and in one piece! How did you fare with the earthseed, then?"
-57,"TEXT_LUCKME111_03640_KORUTT_000_031","I got them all they needed! The Exarch's on his way to Amity with it now!"
-58,"TEXT_LUCKME111_03640_XAMOTT_000_032","Good to hear that young Korutt was of help. As it happens, a few others came forward while you were gone sayin' they wanted to do their bit as well."
-59,"TEXT_LUCKME111_03640_XAMOTT_000_033","Given that you're buildin' a Talos, we reckoned you'd be needin' some minin' tools. So we went and modified our spare pickaxes for use by bigger folk."
-60,"TEXT_LUCKME111_03640_XAMOTT_000_034","Here, take these with you. Should be plenty to go 'round."
-61,"TEXT_LUCKME111_03640_XAMOTT_000_035","From what our scouts tell me, there's a crowd gathered at Top Rung already. Go and see that everyone has a pickaxe to swing, eh?"
-62,"TEXT_LUCKME111_03640_XAMOTT_000_040","We did the folk of Amity a kind turn in case we needed a kind turn ourselves one day. Can't say as I expected things to pan out like they have, but I don't regret makin' friends!"
-63,"TEXT_LUCKME111_03640_KORUTT_000_045","This is just the start! I'm going to go and see what else I can do!"
-64,"TEXT_LUCKME111_03640_ALPHINAUD_000_050","Ah, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, you are come at a good time."
-65,"TEXT_LUCKME111_03640_KAISHIRR_000_055","Alphinaud came and rounded all of us up. It's funny, I used to be afraid of Eulmorans, and yet here we all are..."
-66,"TEXT_LUCKME111_03640_EMPLOYEE03287_000_060","No few free citizens wanted to help, but years of leisure meant that most were in no condition to contribute. Instead, they send their fervent hopes for our success."
-67,"TEXT_LUCKME111_03640_IRVITHE_000_065","As if restoring the Ladder weren't enough of a task, you're trying to build a giant Talos! I love it!"
-68,"TEXT_LUCKME111_03640_GRITHIL_000_070","Did you doubt that we'd be back for more? We've got motivation to spare!"
-69,"TEXT_LUCKME111_03640_MAGNUS_000_075","There I was thinking you lot had come up with the stupidest plan known to man, when I find out you've managed to drag old Chai-Nuzz into it. Once the job's done, I'll have to go and give the lazy sod a good heckling."
-70,"TEXT_LUCKME111_03640_THAFFE_000_080","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, good to see you again! How have you been keeping?"
-71,"TEXT_LUCKME111_03640_JERYK_000_085","A-A giant Talos? Can such a thing be done...? Oh, be still my beating heart!"
-72,"TEXT_LUCKME111_03640_RHONRON_000_090","Worms! Get your worms! They're the best you'll taste this side of the Bright Cliff! Live and juicy or cured and crunchy, there is something for everyone!"
-73,"TEXT_LUCKME111_03640_JOURNEYSHEADNURSE_000_095","Alisaie came looking for willing workers...so here I am!"
-74,"TEXT_LUCKME111_03640_ALISAIE_000_100","Look, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! People from all over have come to help us quarry stone!"
-75,"TEXT_LUCKME111_03640_ALISAIE_000_101","And this isn't even all of them. As we speak, the volunteers Thancred and Ryne recruited are being escorted to the work site─and by both Crystarium and Eulmoran soldiers, no less."
-76,"TEXT_LUCKME111_03640_ALISAIE_000_102","So as you can see, we have plenty of hands. There's just one problem─we don't have enough tools to put in them. We've been desperately trying to round up more, but we haven't had much luck so far."
-77,"TEXT_LUCKME111_03640_ALISAIE_000_103","Pickaxes from the dwarves!? Trust you to have exactly what we need, exactly when we need it!"
-78,"TEXT_LUCKME111_03640_ALISAIE_000_104","Well, what are you waiting for? Go and hand them out to everyone so they can get to work!"
-79,"TEXT_LUCKME111_03640_ALISAIE_000_110","Honestly, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, you can already slay gods. You could at least have left the uncanny sense of timing for one of us. It's greedy is what it is."
-80,"TEXT_LUCKME111_03640_KAISHIRR_000_120","We're ready to do our bit, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! We just, er...need tools to do it with."
-81,"TEXT_LUCKME111_03640_KAISHIRR_000_121","Pickaxes! Loads of 'em!"
-82,"TEXT_LUCKME111_03640_EMPLOYEE03287_000_122","Now we may all work to our hearts' content!"
-83,"TEXT_LUCKME111_03640_EMPLOYEE03287_000_123","While I don't have many talents, I do have a strong back. And what strength I have, I'll gladly use for the sake of peace."
-84,"TEXT_LUCKME111_03640_IRVITHE_000_124","We got the Ladder moving again, didn't we? If we join hands, there's no Talos we can't build!"
-85,"TEXT_LUCKME111_03640_KAISHIRR_000_125","I still haven't repaid you and Alphinaud for saving me, and I'm not sure I ever could."
-86,"TEXT_LUCKME111_03640_KAISHIRR_000_126","But that ain't going to stop me trying! I'm with you to the end!"
-87,"TEXT_LUCKME111_03640_KAISHIRR_000_127","Come on, you lot! Look lively!"
-88,"TEXT_LUCKME111_03640_MAGNUS_000_128","We've come, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. In case you're wondering, Guthjon is here too."
-89,"TEXT_LUCKME111_03640_MAGNUS_000_129","Couldn't wait to start breaking rocks, though, so he's gone on ahead. Bah, he could've at least left us a spare set of tools..."
-90,"TEXT_LUCKME111_03640_MAGNUS_000_130","Ah, wonderful! Now we can be about it too!"
-91,"TEXT_LUCKME111_03640_MAGNUS_000_131","Quarrying isn't exactly my stock-in-trade, but this time...this time I feel as though my wife will be with me, guiding my hand..."
-92,"TEXT_LUCKME111_03640_MAGNUS_000_132","So let's make it happen. Let's build a world where everyone can live without fear. Where everyone has a place they can go home to."
-93,"TEXT_LUCKME111_03640_MAGNUS_000_133","Right, then, let's be on our way.
-...Hm? What are you still doing here, Thaffe? I thought you'd brought your own tools."
-94,"TEXT_LUCKME111_03640_THAFFE_000_134","I did. And I was just about to head off, when I saw Jeryk..."
-95,"TEXT_LUCKME111_03640_JERYK_000_135","Oh gods, oh gods... If this plan works and the giant Talos comes to life..."
-96,"TEXT_LUCKME111_03640_JERYK_000_136","Just imagine the size of the trolley it could push! <Emphasis>Imagine it!</Emphasis>"
-97,"TEXT_LUCKME111_03640_THAFFE_000_137","<sigh> Are you <Emphasis>still</Emphasis> raving on about that? How many times do I have to tell you, that's not what the Talos is for! Where the hells would the tracks even go?"
-98,"TEXT_LUCKME111_03640_JERYK_000_138","There's bound to be somewhere! You just need a little imagination! Seeing as the Stoneworks is involved, maybe we could have a trolley added to the design..."
-99,"TEXT_LUCKME111_03640_MAGNUS_000_139","Enough! We're going to work! And if I hear any more about trolleys from you, I'll have you pushing one yourself!"
-100,"TEXT_LUCKME111_03640_RHONRON_000_140","Long time no see, traveler! Are you waiting to be issued a pickaxe too?"
-101,"TEXT_LUCKME111_03640_RHONRON_000_141","Oho, you clearly weren't, and now neither are we! Rest assured, we will put these to good use and work very, very hard!"
-102,"TEXT_LUCKME111_03640_RHONRON_000_142","Of course, one cannot work on an empty stomach─which is why I brought some tasty worms to share!"
-103,"TEXT_LUCKME111_03640_JOURNEYSHEADNURSE_000_143","Er, as much as we would all enjoy a treat, perhaps the worms are best saved for...afterwards?"
-104,"TEXT_LUCKME111_03640_JOURNEYSHEADNURSE_000_144","Greetings, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. You may not remember me, but I'm one of the carers from the Inn at Journey's Head."
-105,"TEXT_LUCKME111_03640_JOURNEYSHEADNURSE_000_145","After night returned to Amh Araeng, we noticed a change in our patients. The transformation had halted in every one of them."
-106,"TEXT_LUCKME111_03640_JOURNEYSHEADNURSE_000_146","I can't express what it did to the mood of the place. We were still celebrating, days later, when who should come along but Alisaie. She said that she sought the aid of those who believed in the Warrior of Darkness."
-107,"TEXT_LUCKME111_03640_JOURNEYSHEADNURSE_000_147","We all answered her call right there and then. Of course, some few carers had to remain behind, but as many of us came as could be spared."
-108,"TEXT_LUCKME111_03640_RHONRON_000_148","I too have great respect for the Warrior of Darkness! When we meet, I'll be sure to treat them to a nice, plump worm!"
-109,"TEXT_LUCKME111_03640_ALPHINAUD_000_150","Everything appears to be in order here. In all my time in this world, I do not recall seeing so many optimistic faces."
-110,"TEXT_LUCKME111_03640_ALISAIE_000_160","My thanks, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. With that, everyone is now equipped to work."
-111,"TEXT_LUCKME111_03640_ALISAIE_000_161","I think I'll go and join the soldiers standing guard over the volunteers. It would be a shame if they fell prey to sin eaters after all the trouble we've gone to."
-112,"TEXT_LUCKME111_03640_ALISAIE_000_162","Right! Let us see that this plan is a resounding success─for the sake of all in Norvrandt!"
+48,"TEXT_LUCKME111_03640_KORUTT_000_000","お役に立てて、何よりす！
+あっしの掘った「大地の種」、存分に使ってほしいす！"
+49,"TEXT_LUCKME111_03640_GLAGG_000_005","ずー……むにゃ……ずー……。"
+50,"TEXT_LUCKME111_03640_MYSTERYVOICE_000_010","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、提案があるんだ。
+ここから先は、手分けをして迅速に進めよう。"
+51,"TEXT_LUCKME111_03640_MYSTERYVOICE_000_011","私は、コルットの掘り出した「大地の種」を集め、
+チャイ・ヌズのところへと運んでおく。"
+52,"TEXT_LUCKME111_03640_MYSTERYVOICE_000_012","あなたには、コルットを村まで送り届けてほしい。
+行きに道中の罪喰いを掃討してあるとはいえ、
+ひとりで帰らせるのは心配だ……。"
+53,"TEXT_LUCKME111_03640_MYSTERYVOICE_000_013","よし、それでは任せた。
+……短い時間だったが、ともに冒険できて光栄だったよ。
+またのちほど、アミティーで。"
+54,"TEXT_LUCKME111_03640_MYSTERYVOICE_000_020","コルットが掘りだした石は、集めてアミティーに運んでおこう。
+あなたは「トメラの村」に戻り、「ザモット」に報告を……。"
+55,"TEXT_LUCKME111_03640_KORUTT_000_025","帰りは襲われなかったすね！
+一緒に戻ってきてくれて、ありがとうございます！"
+56,"TEXT_LUCKME111_03640_XAMOTT_000_030","ラリホー！
+おみゃーら、無事に戻ったか！
+んで、どうだった？　「大地の種」は？"
+57,"TEXT_LUCKME111_03640_KORUTT_000_031","そりゃあもう、ガッツリガッポリ！
+必要な分に足りそうってことだったので、
+水晶公に運んでもらいました！"
+58,"TEXT_LUCKME111_03640_XAMOTT_000_032","コルットの腕が役立ったようで、何よりだ！
+実は、おみゃーらの計画に協力したいって奴が、
+ほかにもおってなぁ。"
+59,"TEXT_LUCKME111_03640_XAMOTT_000_033","そいつらと一緒に、ワシらの予備のピックを改造して、
+大きなヒトでも使えるようにしておいた！
+ほれ、タロースを造るときに、山肌を崩すって言ってたからな！"
+60,"TEXT_LUCKME111_03640_XAMOTT_000_034","ということで、持っていけ！
+作れるだけ作ったから、数はかなりあるぞ！"
+61,"TEXT_LUCKME111_03640_XAMOTT_000_035","巡回に行ってた仲間が言うに、
+すでに「トップラング」に大勢が集まっておるらしい。
+行って、配ってやるのだ！"
+62,"TEXT_LUCKME111_03640_XAMOTT_000_040","今アミティーにいる連中を助けたのは、いざってときのために、
+ドワーフ以外の協力者がほしかったからなのだが……
+そこから、こんな縁が結ばれるなんてな！"
+63,"TEXT_LUCKME111_03640_KORUTT_000_045","あっしも、折を見て手伝いに行くす！
+みんなで必ずタロースを作り上げましょう！"
+64,"TEXT_LUCKME111_03640_ALPHINAUD_000_050","ああ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>！
+いいところに来てくれたね。"
+65,"TEXT_LUCKME111_03640_KAISHIRR_000_055","アルフィノさんの呼びかけで、みんな、集まって来たんです。
+いつの間にか、ユールモア市民のことも、
+怖いと思わなくなってて……こんなことってあるんですね。"
+66,"TEXT_LUCKME111_03640_EMPLOYEE03287_000_060","自由市民の中にも立候補された方はいらっしゃったのですが、
+体力や腕力が足りず、来られなかった方も多いのです。
+代わりに、今も作戦の成功を祈ってくださっているでしょう。"
+67,"TEXT_LUCKME111_03640_IRVITHE_000_065","大昇降機を動かすだけでも一大事だったのに、
+さらにデカブツを動かそうだなんて、すげぇよな！"
+68,"TEXT_LUCKME111_03640_GRITHIL_000_070","俺たちヴェンモント造船所の職人も、引き続き手伝おう。
+体力は、いつでも余ってるしな！"
+69,"TEXT_LUCKME111_03640_MAGNUS_000_075","とんでもねぇ計画が始まってると思えば、
+まさかあの、ダイダロス社の御曹司が噛んでるとはなぁ……。
+おわったあとに、冷やかしにでも行ってみるか。"
+70,"TEXT_LUCKME111_03640_THAFFE_000_080","あ、ああ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>！
+あれから調子はどうだ？
+挨拶もなく帰っちゃって、ちょっと寂しかったんだぞ！"
+71,"TEXT_LUCKME111_03640_JERYK_000_085","ああ……まさか……そんな……
+どうしよう、この計画ったら……本当に……！？"
+72,"TEXT_LUCKME111_03640_RHONRON_000_090","お弁当～、お弁当はいかがかネ！
+大好評の白ミミズは、生も乾燥もあるヨ！"
+73,"TEXT_LUCKME111_03640_JOURNEYSHEADNURSE_000_095","こ、この度は、皆さんと一緒にがんばります……！"
+74,"TEXT_LUCKME111_03640_ALISAIE_000_100","あっ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>！
+見て見て、各地からみんなが来てくれたのよ！
+タロースの身体となる、石材を山から切り崩すためにね。"
+75,"TEXT_LUCKME111_03640_ALISAIE_000_101","これでも、第一陣はもう、サンクレッドとリーンの先導で、
+ユールモアやクリスタリウムの衛兵に護られながら、
+現場に向けて出発したのよ。"
+76,"TEXT_LUCKME111_03640_ALISAIE_000_102","けど、想像以上の人数に、用意してた道具が尽きちゃって……
+今、代替品がないか調べてもらってるの。"
+77,"TEXT_LUCKME111_03640_ALISAIE_000_103","えっ、ドワーフ族からピックを預かってきてる！？
+さっすが<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、バッチリね！"
+78,"TEXT_LUCKME111_03640_ALISAIE_000_104","それじゃあ、あなたから彼らに道具を配ってあげて。
+準備が整った人たちから、出発してもらうわ！"
+79,"TEXT_LUCKME111_03640_ALISAIE_000_110","それにしても、いいタイミングで来てくれたわね。
+あなたのそういうとこ……本当にズルイんだから！"
+80,"TEXT_LUCKME111_03640_KAISHIRR_000_120","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん、俺たちもがんばります！
+って、まだ道具を探してるところなんですけど……。"
+81,"TEXT_LUCKME111_03640_KAISHIRR_000_121","わっ、こんなにたくさん！？
+これがあれば俺たちも……！"
+82,"TEXT_LUCKME111_03640_EMPLOYEE03287_000_122","ええ、存分に働けますとも！"
+83,"TEXT_LUCKME111_03640_EMPLOYEE03287_000_123","この力、我が主のためのみならず、
+大恩ある<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さんたちのため……
+今度こそ、真なる平穏のために振るいましょう！"
+84,"TEXT_LUCKME111_03640_IRVITHE_000_124","そのとおり！
+大昇降機だって動かせたんだ、
+力を合わせりゃ、巨大タロースだって動くさ！"
+85,"TEXT_LUCKME111_03640_KAISHIRR_000_125","俺、ふたりに助けてもらった恩を、まだまだ返せてません。"
+86,"TEXT_LUCKME111_03640_KAISHIRR_000_126","だから、精一杯がんばりますッ！
+今度こそ……最後まで！"
+87,"TEXT_LUCKME111_03640_KAISHIRR_000_127","それじゃ、俺たちも出発しましょう！"
+88,"TEXT_LUCKME111_03640_MAGNUS_000_128","おう、来たぜ。
+ちなみにグスジョンもいたんだが、あいつ、
+採掘師としての血が滾っちまったらしくてな……。"
+89,"TEXT_LUCKME111_03640_MAGNUS_000_129","採掘師仲間を連れて、いのいちばんに出発しやがった。
+ったく、予備の道具のひとつくらい、置いて行けよな……。"
+90,"TEXT_LUCKME111_03640_MAGNUS_000_130","おっ、ありがてぇ！
+これで俺たちも現場に行けるな！"
+91,"TEXT_LUCKME111_03640_MAGNUS_000_131","石を切ったり砕いたりは、俺の本業じゃねぇけどな。
+今回ばかりは、うちの最高な嫁がついててくれてる……
+そんな気がしてるんだ。"
+92,"TEXT_LUCKME111_03640_MAGNUS_000_132","だからよ、必ず掴み取ろうぜ。
+誰も罪喰いに脅かされない、帰る場所を失うことのない、
+そんな、上出来な世界をよ！"
+93,"TEXT_LUCKME111_03640_MAGNUS_000_133","そんじゃ、出発……って、
+よく考えたら、サーフは道具を持ってたんじゃねぇか？"
+94,"TEXT_LUCKME111_03640_THAFFE_000_134","あー、その……それはそうなんですけど……
+なんていうか、ジェリックをこの状態で置いていくのは、
+ちょっと……どうかなーと……。"
+95,"TEXT_LUCKME111_03640_JERYK_000_135","どうしよう……どうしよう……
+ヤバい……ヤバい計画だよ、これ……！"
+96,"TEXT_LUCKME111_03640_JERYK_000_136","ねえっ、超巨大タロースがトロッコ引いたらすごくない！？
+夢、まさにグルグ火山級じゃない！？！？"
+97,"TEXT_LUCKME111_03640_THAFFE_000_137","だーかーらー、そういう用途じゃないって言ってるだろ……。
+っていうか、そんなデカいトロッコ用の線路、
+この島のどこに引くんだよ……。"
+98,"TEXT_LUCKME111_03640_JERYK_000_138","えー、どうしても……？
+せっかくダイダロス社が噛んでるなら、タロースの設計に、
+ちょっとだけトロッコ要素を入れてもらわない……？"
+99,"TEXT_LUCKME111_03640_MAGNUS_000_139","入れるか馬鹿！
+オラ、出発だ、とっとと現場に向かうぞ！"
+100,"TEXT_LUCKME111_03640_RHONRON_000_140","旅人さん、久しぶりネ！
+もしかして、そっちも道具待ちネ？"
+101,"TEXT_LUCKME111_03640_RHONRON_000_141","道具、ありがとネ！
+ローンロンたちも、一生懸命がんばるヨ！"
+102,"TEXT_LUCKME111_03640_RHONRON_000_142","そのためには、元気、必要ネ。
+旅人さんも、白ミミズ……いっとくネ？"
+103,"TEXT_LUCKME111_03640_JOURNEYSHEADNURSE_000_143","ロ、ローンロンさん、それはほら……
+戦勝記念のときに、とっておきましょう？"
+104,"TEXT_LUCKME111_03640_JOURNEYSHEADNURSE_000_144","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん、ご無沙汰しております。
+私は、「旅立ちの宿」の世話人をしている者です。"
+105,"TEXT_LUCKME111_03640_JOURNEYSHEADNURSE_000_145","アム・アレーンに夜の闇が戻ってから、
+まだそれほど時は経っていませんが、
+みんなの罪喰い化の症状が、進まなくなったんです。"
+106,"TEXT_LUCKME111_03640_JOURNEYSHEADNURSE_000_146","奇跡だって喜んでたら、アリゼーが来て……
+「闇の戦士」に賛同する人を募ってるって、言われたんです。"
+107,"TEXT_LUCKME111_03640_JOURNEYSHEADNURSE_000_147","私たち、絶対に行かなくっちゃって……！
+すべての世話人が宿を離れるわけにはいきませんでしたが、
+来られる者は皆、こちらに参上しました！"
+108,"TEXT_LUCKME111_03640_RHONRON_000_148","「闇の戦士」、ローンロンも会ってみたいネ！
+そのためにも、がんばって働くヨ！"
+109,"TEXT_LUCKME111_03640_ALPHINAUD_000_150","こちらはもう大丈夫かな。
+……皆、いい顔をしていたね！"
+110,"TEXT_LUCKME111_03640_ALISAIE_000_160","道具の配布、ありがとう。
+おかげさまで、全員出発できたみたいね。"
+111,"TEXT_LUCKME111_03640_ALISAIE_000_161","それじゃあ私も、彼らの護衛に行ってくるわ。
+作業中、罪喰いが襲ってくることもあり得そうだし。"
+112,"TEXT_LUCKME111_03640_ALISAIE_000_162","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>……
+この作戦、必ず成功させないとね。
+集まってくれた、ノルヴラント中のみんなに懸けて！"

@@ -1,8 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKZH009_03519_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Aarner is staring mournfully over the railing."
+0,"TEXT_LUCKZH009_03519_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+グランド・デイム付近のアーナーは、廃船街に大事なものを落としてしまったようだ。"
 1,"TEXT_LUCKZH009_03519_SEQ_01",""
 2,"TEXT_LUCKZH009_03519_SEQ_02",""
 3,"TEXT_LUCKZH009_03519_SEQ_03",""
@@ -26,8 +26,9 @@ Aarner is staring mournfully over the railing."
 21,"TEXT_LUCKZH009_03519_SEQ_21",""
 22,"TEXT_LUCKZH009_03519_SEQ_22",""
 23,"TEXT_LUCKZH009_03519_SEQ_23",""
-24,"TEXT_LUCKZH009_03519_TODO_00","Collect tearstained letters in the Derelicts."
-25,"TEXT_LUCKZH009_03519_TODO_01","Deliver the tearstained letters to Aarner near the Grand Dame's Parlor."
+24,"TEXT_LUCKZH009_03519_TODO_00","廃船街で<Sheet(EventItem,2002599,0)/>を集める"
+25,"TEXT_LUCKZH009_03519_TODO_01","グランドデイム・パーラー付近のアーナーに
+<Sheet(EventItem,2002599,0)/>を渡す"
 26,"TEXT_LUCKZH009_03519_TODO_02",""
 27,"TEXT_LUCKZH009_03519_TODO_03",""
 28,"TEXT_LUCKZH009_03519_TODO_04",""
@@ -50,15 +51,33 @@ Aarner is staring mournfully over the railing."
 45,"TEXT_LUCKZH009_03519_TODO_21",""
 46,"TEXT_LUCKZH009_03519_TODO_22",""
 47,"TEXT_LUCKZH009_03519_TODO_23",""
-48,"TEXT_LUCKZH009_03519_AARNER_000_000","My letters! Scattered by the winds! Whose idea was it to build this city with so many breezy walkways?"
-49,"TEXT_LUCKZH009_03519_AARNER_000_001","<sigh> No. In this, too, I have no one to blame but myself. They are important to me, though, so might I ask you to search for them? There are three, all told. They likely came to rest in the Derelicts, as these things tend to."
-50,"TEXT_LUCKZH009_03519_AARNER_000_002","I would fetch the letters myself, but I'm meant to be meeting someone here, and I don't believe I could stand to disappoint yet another person."
-51,"TEXT_LUCKZH009_03519_AARNER_000_010","Ah, there you are. Did you have any luck?"
-52,"TEXT_LUCKZH009_03519_AARNER_000_011","You found all three! Wonderful! I cannot possibly express how difficult it would have been for me to rewrite them."
-53,"TEXT_LUCKZH009_03519_AARNER_000_012","Wait... Now I've had a good look at you─are you perchance one of those responsible for freeing us from Vauthry's influence?"
-54,"TEXT_LUCKZH009_03519_AARNER_000_013","I thought as much. You have my thanks, for opening my eyes."
-55,"TEXT_LUCKZH009_03519_AARNER_000_014","I used to reside in the Crystarium, you know. But the moment that I saw for myself what happens when the eaters take a person... I truly understood, for the first time, that our world teeters on the brink of destruction. I was terrified."
-56,"TEXT_LUCKZH009_03519_AARNER_000_015","I knew I could do nothing to change fate. So I came to Eulmore, hoping to forget it instead. Abandoned my work, my family...everything. And I felt no guilt for it, convinced as I was that nothing mattered."
-57,"TEXT_LUCKZH009_03519_AARNER_000_016","Now, though, the scales have fallen from my eyes. I've always been a coward, and what I did was a betrayal of the highest order. And I know...I know there's no going back."
-58,"TEXT_LUCKZH009_03519_AARNER_000_017","If nothing else, however, I can apologize for what I've done. So I labored over these letters, hoping to convey my contrition. I don't expect forgiveness, but I hope it might mean something, at least, to those I left behind."
-59,"TEXT_LUCKZH009_03519_AARNER_000_018","I cannot alter what has been done, but I can change myself. Try to be better. And you will always have my gratitude for giving me the ability to see that─you and your elven friend, both. Thank you."
+48,"TEXT_LUCKZH009_03519_AARNER_000_000","強風に煽られて、手紙を廃船街まで落としてしまってな……。
+価値はないが……私にとっては大事なものなのだ。"
+49,"TEXT_LUCKZH009_03519_AARNER_000_001","すぐに取りに行きたいが、商売があってここを動けぬ……。
+すまんが、「廃船街」に立ち寄ることがあれば、
+「<Sheet(EventItem,2002599,0)/>」を3通、拾ってきてくれないだろうか？"
+50,"TEXT_LUCKZH009_03519_AARNER_000_002","すまんが、「廃船街」に立ち寄ることがあれば、
+「<Sheet(EventItem,2002599,0)/>」を3通、拾ってきてくれないだろうか？"
+51,"TEXT_LUCKZH009_03519_AARNER_000_010","待っていたよ！
+「<Sheet(EventItem,2002599,0)/>」は、すべて集まっただろうか？"
+52,"TEXT_LUCKZH009_03519_AARNER_000_011","そう、これだよ！
+ありがとう……本当にありがとう……！"
+53,"TEXT_LUCKZH009_03519_AARNER_000_012","ところで君……もしかして、
+先日の騒乱のときの中心人物じゃないか？"
+54,"TEXT_LUCKZH009_03519_AARNER_000_013","やはりそうか……。
+君たちのおかげで、私は目が覚めたのだ……。"
+55,"TEXT_LUCKZH009_03519_AARNER_000_014","私は、元々はクリスタリウムの住人だったのだ。
+数年前、罪喰いが人を襲うところを目の当たりにして、
+いよいよ、この世界も終わりなのだと、実感してしまった……。"
+56,"TEXT_LUCKZH009_03519_AARNER_000_015","この世に未来などない……
+そう思った私は、恐怖から逃れて快楽にふけるため、
+家族や従業員たちを捨て……ユールモアへ……。"
+57,"TEXT_LUCKZH009_03519_AARNER_000_016","そして今、憑き物が取れたかのように、
+後悔の念が押し寄せてきて……ううっ……。
+私はとんでもない…裏切り者だ……！"
+58,"TEXT_LUCKZH009_03519_AARNER_000_017","今さら家族や従業員たちに、合わせる顔もない……。
+だが、どうしても謝りたくて……
+思いの丈を、この手紙に綴ったのだ……。"
+59,"TEXT_LUCKZH009_03519_AARNER_000_018","本当に、ありがとう。
+騒乱の中にいた、あのエルフ族の少年にも、
+どうか心からの礼を伝えてほしい。"

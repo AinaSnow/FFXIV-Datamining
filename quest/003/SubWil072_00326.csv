@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBWIL072_00326_SEQ_00","Zezeda needs someone to procure hammer beak ribs."
-1,"TEXT_SUBWIL072_00326_SEQ_01","Eshtaime's Lapidaries has ordered silver ingots for the production of ceremonial silverware. However, Zezeda has long neglected to restock the hammer beak ribs that are needed to refine the silver ore. Assist her by slaying hammer beaks and gathering their ribs."
-2,"TEXT_SUBWIL072_00326_SEQ_02","You have obtained the requested number of ribs. Deliver them to Beringaer at Black Brush Station."
-3,"TEXT_SUBWIL072_00326_SEQ_03","According to Beringaer, using the ribs to refine silver is time-consuming and needlessly expensive. Funerary rites must be profitable indeed if Arrzaneth Ossuary is willing to pay for this method."
+0,"TEXT_SUBWIL072_00326_SEQ_00","ブラックブラッシュ停留所のゼゼダは、ナル・ザル教団に頼まれた銀器を作るために、銀を製錬するときに必要な「ハンマービークの骨片」を集めてほしいようだ。"
+1,"TEXT_SUBWIL072_00326_SEQ_01","ゼゼダは、施設の受付をしているベリンゲルが銀の製錬に使うハンマービークの骨片を求めていると言っている。ブラックブラッシュ停留所の周辺で「ハンマービーク」を討伐し、「ハンマービークの骨片」を8個集めよう。"
+2,"TEXT_SUBWIL072_00326_SEQ_02","ハンマービークを討伐し、「ハンマービークの骨片」を入手することができた。ブラックブラッシュ停留所の「ベリンゲル」に報告しよう。"
+3,"TEXT_SUBWIL072_00326_SEQ_03","ベリンゲルによると、集めた「ハンマービークの骨片」で銀を製錬する方法は、コストと手間がかかるらしい。注文してきたナル・ザル教団は、相当に儲かっているようだ……。"
 4,"TEXT_SUBWIL072_00326_SEQ_04",""
 5,"TEXT_SUBWIL072_00326_SEQ_05",""
 6,"TEXT_SUBWIL072_00326_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_SUBWIL072_00326_SEQ_21",""
 22,"TEXT_SUBWIL072_00326_SEQ_22",""
 23,"TEXT_SUBWIL072_00326_SEQ_23",""
-24,"TEXT_SUBWIL072_00326_TODO_00","Slay hammer beaks and obtain their ribs."
-25,"TEXT_SUBWIL072_00326_TODO_01","Deliver the hammer beak ribs to Beringaer."
+24,"TEXT_SUBWIL072_00326_TODO_00","ハンマービークからハンマービークの骨片を入手"
+25,"TEXT_SUBWIL072_00326_TODO_01","べリンゲルにハンマービークの骨片を渡す"
 26,"TEXT_SUBWIL072_00326_TODO_02",""
 27,"TEXT_SUBWIL072_00326_TODO_03",""
 28,"TEXT_SUBWIL072_00326_TODO_04",""
@@ -49,14 +49,27 @@ int32,str,str
 45,"TEXT_SUBWIL072_00326_TODO_21",""
 46,"TEXT_SUBWIL072_00326_TODO_22",""
 47,"TEXT_SUBWIL072_00326_TODO_23",""
-48,"TEXT_SUBWIL072_00326_ZEZEDA_000_1","Looking to help out around the station, are you? Well then, how about hunting some hammer beaks?"
-49,"TEXT_SUBWIL072_00326_ZEZEDA_000_2","We just received an order from Eshtaime's Lapidaries for silver ingots. They need it to make ceremonial silverware, or so I'm told."
-50,"TEXT_SUBWIL072_00326_ZEZEDA_000_3","However, we've been instructed to refine the ore by melting it in a furnace lined with a layer of bone ash. Since we don't normally smelt silver this way, I've long neglected to restock our stores of hammer beak ribs."
-51,"TEXT_SUBWIL072_00326_ZEZEDA_000_4","Alas, there's no time to order more. If you would slay several of the fiends and take their bones to Beringaer in my stead, I'd be forever grateful."
-52,"TEXT_SUBWIL072_00326_BERINGAER_000_5",""
-53,"TEXT_SUBWIL072_00326_BERINGAER_000_10","I told her so, I told her! What the hells is that incompetent little runt doin' anyway!? Rare as orders like this may be, we should always be keepin' hammer beak ribs on hand!"
-54,"TEXT_SUBWIL072_00326_BERINGAER_000_11","Well I'll be damned─guess the girl found a way after all. Thanks for the help, 'venturer."
-55,"TEXT_SUBWIL072_00326_BERINGAER_000_12","Don't quite understand it myself, but 'em fellas straight said to do it the old way─even though we could be usin' shards to refine silver faster and cheaper."
-56,"TEXT_SUBWIL072_00326_BERINGAER_000_13","Well it ain't my gil, so if that's how they want it... Just goes to show that the Thaumaturges' Guild has more money than it knows what to do with. Gods, what I wouldn't do to have that kind o' problem!"
-57,"TEXT_SUBWIL072_00326_BERINGAER_000_14",""
-58,"TEXT_SUBWIL072_00326_BERINGAER_000_15",""
+48,"TEXT_SUBWIL072_00326_ZEZEDA_000_1","あっ！　あんたが最近
+ここらで活躍してるって噂の冒険者ね！
+ちょっと、ついでにハンマービークを倒してくれない？"
+49,"TEXT_SUBWIL072_00326_ZEZEDA_000_2","っていうのもさ、さっきナル・ザル教団から
+いきなり儀式用の銀器の依頼があったみたいでさぁ。"
+50,"TEXT_SUBWIL072_00326_ZEZEDA_000_3","儀式用の銀器を作るときって、不純物の混じった銀を
+ハンマービークの骨灰を使って加熱し製錬するんだけど……。
+でも、肝心の「ハンマービークの骨片」の在庫が無いのよ！"
+51,"TEXT_SUBWIL072_00326_ZEZEDA_000_4","だからお願いっ「ハンマービーク」を倒して、
+「ハンマービークの骨片」を8個集めてきて！
+それを施設の受付の「べリンゲル」に届けて欲しいの！"
+52,"TEXT_SUBWIL072_00326_BERINGAER_000_5","空ラベル "
+53,"TEXT_SUBWIL072_00326_BERINGAER_000_10","まったく、ゼゼダは何をやっているのでしょう……。
+早く「ハンマービークの骨片」を持ってこいと言ったのに。"
+54,"TEXT_SUBWIL072_00326_BERINGAER_000_11","ああ、貴方が代わりに用意してくださったのですか！
+確かに「ハンマービークの骨片」ですね。"
+55,"TEXT_SUBWIL072_00326_BERINGAER_000_12","これで骨灰を使った「灰吹法」で銀が精錬できます！
+クリスタルを使った「シャード法」が確立された今、
+こんな手間のかかる方法は、普通、使わないんですがね。"
+56,"TEXT_SUBWIL072_00326_BERINGAER_000_13","高くて時間のかかる製錬方法を指定するということは、
+ナル・ザル教団も儲かってらっしゃるんでしょうね……。
+全く、羨ましい話です。"
+57,"TEXT_SUBWIL072_00326_BERINGAER_000_14","空ラベル"
+58,"TEXT_SUBWIL072_00326_BERINGAER_000_15","空ラベル"

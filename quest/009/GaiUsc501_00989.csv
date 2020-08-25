@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSC501_00989_SEQ_00","Word is that Guolgeim seeks an extra pair of hands."
-1,"TEXT_GAIUSC501_00989_SEQ_01","Guolgeim bids you salvage whatever usable provisions still remain at a ruined camp nearby. Open the crates with a sledgehammer and collect the boxes of abandoned supplies."
-2,"TEXT_GAIUSC501_00989_SEQ_02","The area yields three boxes of supplies, none the worse for wear even after five years. Perhaps Guolgeim will tell you more when you deliver the haul."
-3,"TEXT_GAIUSC501_00989_SEQ_03","After taking hold of the supplies, Guolgeim reveals to you her reluctance to visit the ruined Camp Revenant's Toll. It does one no good to pick through the detritus of a place that was dear to the heart..."
+0,"TEXT_GAIUSC501_00989_SEQ_00","レヴナンツトールのグオルゲイムには、運んでほしいものがあるようだ。"
+1,"TEXT_GAIUSC501_00989_SEQ_01","「崩壊したキャンプ」の物資をレヴナンツトールへ運ぶことが、グオルゲイムの仕事らしい。「崩壊したキャンプ」の「<Sheet(EObj,2002208,0)/>」に「<Sheet(EventItem,2000868,0)/>」を使い、「<Sheet(EventItem,2000758,0)/>」を集めよう。"
+2,"TEXT_GAIUSC501_00989_SEQ_02","<Sheet(EventItem,2000758,0)/>を集めることができた。レヴナンツトールへ戻り「グオルゲイム」に「<Sheet(EventItem,2000758,0)/>」を渡そう。"
+3,"TEXT_GAIUSC501_00989_SEQ_03","レヴナンツトールの起こりには、悲しい事故があったらしい。とてもつかれている様子のグオルゲイム。彼女は大丈夫なのだろうか……。"
 4,"TEXT_GAIUSC501_00989_SEQ_04",""
 5,"TEXT_GAIUSC501_00989_SEQ_05",""
 6,"TEXT_GAIUSC501_00989_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSC501_00989_SEQ_21",""
 22,"TEXT_GAIUSC501_00989_SEQ_22",""
 23,"TEXT_GAIUSC501_00989_SEQ_23",""
-24,"TEXT_GAIUSC501_00989_TODO_00","Open the crates with a sledgehammer."
-25,"TEXT_GAIUSC501_00989_TODO_01","Give the boxes of supplies to Guolgeim."
+24,"TEXT_GAIUSC501_00989_TODO_00","<Sheet(EObj,2002208,0)/>に<Sheet(EventItem,2000868,0)/>を使う"
+25,"TEXT_GAIUSC501_00989_TODO_01","グオルゲイムに<Sheet(EventItem,2000758,0)/>を渡す"
 26,"TEXT_GAIUSC501_00989_TODO_02",""
 27,"TEXT_GAIUSC501_00989_TODO_03",""
 28,"TEXT_GAIUSC501_00989_TODO_04",""
@@ -49,15 +49,29 @@ int32,str,str
 45,"TEXT_GAIUSC501_00989_TODO_21",""
 46,"TEXT_GAIUSC501_00989_TODO_22",""
 47,"TEXT_GAIUSC501_00989_TODO_23",""
-48,"TEXT_GAIUSC501_00989_GUOLGEIM_000_000","There's a ruined camp to the west of here. You know the place?"
-49,"TEXT_GAIUSC501_00989_GUOLGEIM_000_001","What I do is recover what I can from the site and bring it back here. The gil's good and the work is plentiful, but...I'm feeling a bit done in, to tell the truth."
-50,"TEXT_GAIUSC501_00989_GUOLGEIM_000_002","I could use a little help, if you're looking for some honest work. Use this sledgehammer to break the locks on the crates, and bring back a few of the boxes inside─say, three."
-51,"TEXT_GAIUSC501_00989_SYSTEM_000_010","You obtain a box of abandoned supplies."
-52,"TEXT_GAIUSC501_00989_DUMMY_000_010",""
-53,"TEXT_GAIUSC501_00989_TODO_000_010",""
-54,"TEXT_GAIUSC501_00989_GUOLGEIM_000_020","You find the crates? Good, good. Let's have what you found inside."
-55,"TEXT_GAIUSC501_00989_GUOLGEIM_000_030","I ought to be ashamed of myself for hiring another to do my own job, but...there's no cozening myself─it makes me heartsore to go there. The Calamity made it thus."
-56,"TEXT_GAIUSC501_00989_GUOLGEIM_000_031","In case you didn't already know, that was Camp Revenant's Toll, a hub for 'venturers. Many a merry day and night I've spent there. 'Twas my abode at the crossroads."
-57,"TEXT_GAIUSC501_00989_GUOLGEIM_000_032","Never paid much mind to the name of these parts until the Calamity, but...Revenant's Toll. Not exactly a lucky sort of name."
-58,"TEXT_GAIUSC501_00989_GUOLGEIM_000_033","I wish to the Twelve that they had changed it to something else when they built this new camp."
-59,"TEXT_GAIUSC501_00989_GUOLGEIM_000_034","It wearies me, is all...going there and sorting through the mess. Sometimes, I come across something I know well, and I... <sigh> It weighs on my heart."
+48,"TEXT_GAIUSC501_00989_GUOLGEIM_000_000","ここから西に行ったところに、
+「崩壊したキャンプ」があるんだが、知ってるかい？"
+49,"TEXT_GAIUSC501_00989_GUOLGEIM_000_001","そのキャンプ跡から荷物を回収し、
+ここまで持ち帰るのが、今のあたしの仕事でね。
+でも……ちょっと最近つかれてきちまってさ。"
+50,"TEXT_GAIUSC501_00989_GUOLGEIM_000_002","悪いんだけど、手を貸してくれないかい？
+この「<Sheet(EventItem,2000868,0)/>」で「<Sheet(EObj,2002208,0)/>」をこじ開けて、
+中身を運んできてくれ。3つほどで十分さ。"
+51,"TEXT_GAIUSC501_00989_SYSTEM_000_010","「<Sheet(EventItem,2000758,0)/>」を手に入れた！"
+52,"TEXT_GAIUSC501_00989_DUMMY_000_010","崩壊キャンプの巨大な木箱にバールを使用"
+53,"TEXT_GAIUSC501_00989_TODO_000_010","（★未使用／削除予定★）"
+54,"TEXT_GAIUSC501_00989_GUOLGEIM_000_020","ああ、あんたか。
+ちゃんと集めてこれたかい？"
+55,"TEXT_GAIUSC501_00989_GUOLGEIM_000_030","悪かったね、こんな雑用を頼んじまって。
+でもねえ、あのキャンプ跡へ行くたび……つかれてさ。"
+56,"TEXT_GAIUSC501_00989_GUOLGEIM_000_031","霊災で落ちてきた火の玉のせいで、あんなになったけど、
+あそこは、もともとちゃんとした冒険者ギルドの拠点で
+「キャンプ・レヴナンツトール」と呼ばれていたんだ。"
+57,"TEXT_GAIUSC501_00989_GUOLGEIM_000_032","そう、ここと同じ名前。
+「レヴナンツトール」……亡者の弔鐘だなんて、
+不吉な地名が、不幸を呼びこんじまったのかねぇ。"
+58,"TEXT_GAIUSC501_00989_GUOLGEIM_000_033","この新しい拠点が、あのキャンプ跡みたいな不幸に
+見舞われないよう祈るばかりだよ。"
+59,"TEXT_GAIUSC501_00989_GUOLGEIM_000_034","それにしても……
+本当につかれるんだよねぇ、あのキャンプ跡に行くと。
+……つかれてたまらないんだよ。"

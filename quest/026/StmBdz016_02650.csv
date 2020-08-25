@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ016_02650_SEQ_00","This hungry Hyur does not know where his next meal is coming from."
+0,"TEXT_STMBDZ016_02650_SEQ_00","バイロンズブレッドのアラガーナ出身の男は、途方に暮れているようだ。"
 1,"TEXT_STMBDZ016_02650_SEQ_01",""
 2,"TEXT_STMBDZ016_02650_SEQ_02",""
 3,"TEXT_STMBDZ016_02650_SEQ_03",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_STMBDZ016_02650_SEQ_21",""
 22,"TEXT_STMBDZ016_02650_SEQ_22",""
 23,"TEXT_STMBDZ016_02650_SEQ_23",""
-24,"TEXT_STMBDZ016_02650_TODO_00","Speak with the hungry Hyur."
-25,"TEXT_STMBDZ016_02650_TODO_01","Place the smoke bombs at the designated locations and disperse the midge clouds."
-26,"TEXT_STMBDZ016_02650_TODO_02","Report to the hungry Hyur."
+24,"TEXT_STMBDZ016_02650_TODO_00","アラガーナ出身の男と話す"
+25,"TEXT_STMBDZ016_02650_TODO_01","<Sheet(EventItem,2002179,0)/>を使い羽虫の群れを駆除"
+26,"TEXT_STMBDZ016_02650_TODO_02","アラガーナ出身の男に報告"
 27,"TEXT_STMBDZ016_02650_TODO_03",""
 28,"TEXT_STMBDZ016_02650_TODO_04",""
 29,"TEXT_STMBDZ016_02650_TODO_05",""
@@ -49,15 +49,27 @@ int32,str,str
 45,"TEXT_STMBDZ016_02650_TODO_21",""
 46,"TEXT_STMBDZ016_02650_TODO_22",""
 47,"TEXT_STMBDZ016_02650_TODO_23",""
-48,"TEXT_STMBDZ016_02650_MAN02650_000_000","Good <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>evening<Else/>morning</If><Else/><If(LessThan(PlayerParameter(11),17))>afternoon<Else/>evening</If></If>. Fancy helping me with an errand?"
-49,"TEXT_STMBDZ016_02650_MAN02650_000_001","I'd come here from Ala Gannha to buy food, but I was just told there's been no harvest here either."
-50,"TEXT_STMBDZ016_02650_MAN02650_000_002","I thought I might see what wild plants I could pick up instead. However, the area I had my eye on is home to a swarm of midges."
-51,"TEXT_STMBDZ016_02650_MAN02650_000_003","If you think you're up to it, I'd like to ask you to take care of these bugs. Meet me back in Ala Gannha if you're willing."
-52,"TEXT_STMBDZ016_02650_MAN02650_000_010","Thanks for coming."
-53,"TEXT_STMBDZ016_02650_MAN02650_000_011","As you're doubtless aware, insects aren't too fond of smoke. I decided to create smoke bombs to scare them off with the gunpowder we use for quarrying."
-54,"TEXT_STMBDZ016_02650_MAN02650_000_012","Use them to deal with the creatures. You'll find them west of the village."
-55,"TEXT_STMBDZ016_02650_MAN02650_000_020","Use the smoke bombs to deal with the creatures. You'll find them west of the village."
-56,"TEXT_STMBDZ016_02650_MAN02650_000_040","Finished are you? Fantastic."
-57,"TEXT_STMBDZ016_02650_MAN02650_000_041","Here's your reward for helping. I'll head off now to collect what plants I can."
-58,"TEXT_STMBDZ016_02650_MAN02650_000_014",""
-59,"TEXT_STMBDZ016_02650_MAN02650_000_030",""
+48,"TEXT_STMBDZ016_02650_MAN02650_000_000","おや、見知らぬ私に声をかけてくるとは、
+ずいぶんと肝が据わったお方のようだね。
+そうだ、報酬は弾むから、私に力を貸してくれないか？"
+49,"TEXT_STMBDZ016_02650_MAN02650_000_001","私は、食糧の買い出しで、アラガーナからやってきた。
+だが、ここにも、ろくな収穫がないらしい。"
+50,"TEXT_STMBDZ016_02650_MAN02650_000_002","仕方ないので、野草でも集めようと思うのだが……
+あたりに大量の羽虫が湧いていて、近づけなくてね。"
+51,"TEXT_STMBDZ016_02650_MAN02650_000_003","そこで肝が据わったきみに、羽虫退治をお願いしたい。
+ただし、私にいい考えがあるんだ。
+まずは、いったん「アラガーナ」に来てくれ。"
+52,"TEXT_STMBDZ016_02650_MAN02650_000_010","来てくれたか。
+ちょうど、準備が終わったところだ。"
+53,"TEXT_STMBDZ016_02650_MAN02650_000_011","虫は、煙を嫌うというだろう？
+そこで、採石作業で使う発破の火薬で、煙玉をこしらえてみた。"
+54,"TEXT_STMBDZ016_02650_MAN02650_000_012","この「<Sheet(EventItem,2002179,0)/>」を、
+村の西にいる「羽虫の群れ」に使って、駆除してくれ。"
+55,"TEXT_STMBDZ016_02650_MAN02650_000_020","この村の西にいる「羽虫の群れ」に、「<Sheet(EventItem,2002179,0)/>」を使って、
+駆除してくれ。"
+56,"TEXT_STMBDZ016_02650_MAN02650_000_040","そうか、すべての羽虫どもを駆除してくれたか！
+ありがとう、きみに頼んで正解だった！！"
+57,"TEXT_STMBDZ016_02650_MAN02650_000_041","さあ、約束の報酬を受け取ってくれ。
+私は、さっそく野草を採りに向かうとするよ。"
+58,"TEXT_STMBDZ016_02650_MAN02650_000_014","（★未使用／削除予定★）"
+59,"TEXT_STMBDZ016_02650_MAN02650_000_030","（★未使用／削除予定★）"

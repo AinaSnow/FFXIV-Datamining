@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSC108_00959_SEQ_00","Professor Lamberteint knows where you might find the crystal you seek."
-1,"TEXT_GAIUSC108_00959_SEQ_01","Betraying no signs of remorse for his previous oversight, Professor Lamberteint tells you of another location where corrupted crystals might be found. Another pupil of his, Ceana, claims to have discovered a promising site in western La Noscea on the Isles of Umbra. Journey to Aleport and search for the scholar."
-2,"TEXT_GAIUSC108_00959_SEQ_02","Ceana, like Hahasako, claims to be the greatest pupil of the good professor. Like the Lalafell before her, the accuracy of this bold claim remains to be seen."
+0,"TEXT_GAIUSC108_00959_SEQ_00","キャンプ・ドライボーンのエーテル学者ランベルタンは、冒険者に次なるクリスタルの情報を教えたいようだ。"
+1,"TEXT_GAIUSC108_00959_SEQ_01","西ラノシアの幻影諸島にある「シリウス大灯台」のクリスタルを薦められた。まずは「エールポート」にいる彼の弟子で「零組」のメンバー「シアーナ」に話しかけよう。"
+2,"TEXT_GAIUSC108_00959_SEQ_02","研究のため、エールポートに来ているというシアーナ。さっそく事情を話し、協力を求めてみよう。"
 3,"TEXT_GAIUSC108_00959_SEQ_03",""
 4,"TEXT_GAIUSC108_00959_SEQ_04",""
 5,"TEXT_GAIUSC108_00959_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_GAIUSC108_00959_SEQ_21",""
 22,"TEXT_GAIUSC108_00959_SEQ_22",""
 23,"TEXT_GAIUSC108_00959_SEQ_23",""
-24,"TEXT_GAIUSC108_00959_TODO_00","Speak with Ceana in Aleport."
+24,"TEXT_GAIUSC108_00959_TODO_00","エールポートのシアーナに<Sheet(EventItem,2000839,0)/>を渡す"
 25,"TEXT_GAIUSC108_00959_TODO_01",""
 26,"TEXT_GAIUSC108_00959_TODO_02",""
 27,"TEXT_GAIUSC108_00959_TODO_03",""
@@ -49,12 +49,30 @@ int32,str,str
 45,"TEXT_GAIUSC108_00959_TODO_21",""
 46,"TEXT_GAIUSC108_00959_TODO_22",""
 47,"TEXT_GAIUSC108_00959_TODO_23",""
-48,"TEXT_GAIUSC108_00959_LAMBERTEINT_000_000","Corrupted crystals of sufficient size and strength are not all that common, I fear. Fortunately, one of my other students, Ceana, claims to have discovered another promising site in eastern La Noscea."
-49,"TEXT_GAIUSC108_00959_LAMBERTEINT_000_001","Wait, that's not correct. Eastern La Noscea was where she was nearly killed when wandering too close to an imperial castrum. Hah hah, now <Emphasis>that</Emphasis> made for an amusing anecdote!"
-50,"TEXT_GAIUSC108_00959_LAMBERTEINT_000_002","It was <Emphasis>western</Emphasis> La Noscea─Pharos Sirius, on the Isles of Umbra, to be precise."
-51,"TEXT_GAIUSC108_00959_LAMBERTEINT_000_003","I can't recall her exact reasoning─something to do with one of Dalamud's Talons or some such nonsense. What I can say for certain is that she is still in Aleport, attempting to gain access to the isles."
-52,"TEXT_GAIUSC108_00959_LAMBERTEINT_000_004","Why not travel there and see if Ceana's inquiries bear fruit? If you can look past the crass and violent ways of the local pirates, you might find your time there to be quite pleasurable. Oh, and do not forget to take your makeshift warded pot, lest she think you unprepared for the task."
-53,"TEXT_GAIUSC108_00959_CEANA_000_010","Eh? Corrupted crystals!? <If(PlayerParameter(4))>Madam<Else/>Sir</If>, I've no interest in being the butt of your jokes, so if you've no other reason for addressing me, kindly leave me be."
-54,"TEXT_GAIUSC108_00959_CEANA_000_020","Well, I'll be damned, Professor Lamberteint <Emphasis>did</Emphasis> send you! Beg your pardon, it seems we got off on the wrong foot."
-55,"TEXT_GAIUSC108_00959_CEANA_000_021","I'm Ceana─greatest of the professor's pupils, which is doubtless why he bid you seek me out. Indeed, I am an accomplished scholar with an extensive background in─"
-56,"TEXT_GAIUSC108_00959_CEANA_000_022","<yawn> Oh <Emphasis>gods</Emphasis>, just listen to me prattle on and on. I must have given this introduction a dozen times by now..."
+48,"TEXT_GAIUSC108_00959_LAMBERTEINT_000_000","はァン、次のクリスタルを探しにいこうか。
+ほかに「偏属性クリスタル」のある場所はっ……と。
+東ラノシアにあったような気がするな。"
+49,"TEXT_GAIUSC108_00959_LAMBERTEINT_000_001","あ、いや、あそこは駄目だね、駄目。
+帝国軍の皆さんがいるんだったよ。ふゥ～。
+危うく君を死地に送りこむとこだった。あははは！"
+50,"TEXT_GAIUSC108_00959_LAMBERTEINT_000_002","う～ん……ほかの場所というと……
+そうだ、西ラノシアの「幻影諸島」なんかどうだい？
+あそこの「シリウス大灯台」のクリスタルはオススメだ。"
+51,"TEXT_GAIUSC108_00959_LAMBERTEINT_000_003","たしか……島の近くにある「エールポート」にも
+私の優秀なる弟子の1人がいた気がするよ。
+「シアーナ」君といったかな？　彼女に話を聞くといい。"
+52,"TEXT_GAIUSC108_00959_LAMBERTEINT_000_004","「<Sheet(EventItem,2000839,0)/>」を忘れないようにね。
+いいなァ、ちょっとしたバカンス気分ってやつだね。
+私は潮の匂いが大嫌いだけどね。ふゥ～。"
+53,"TEXT_GAIUSC108_00959_CEANA_000_010","はーい！　君だーれ？
+あれー、もしかして遊び相手を探してるのー！？
+ざーんねん、私は仕事でこの街にきてるのでーす。"
+54,"TEXT_GAIUSC108_00959_CEANA_000_020","あら、これ、先生の壺じゃない？
+私が「零組」の一員だと知って、わざわざ来たの？
+ありがとー！　私、シアーナっていいます！"
+55,"TEXT_GAIUSC108_00959_CEANA_000_021","「零組」っていうのは、エーテル学の権威、
+ランベルタン先生の3人の高弟を指す言葉なの。
+あ、ちなみに私がブッチギリの一番弟子だかんね！"
+56,"TEXT_GAIUSC108_00959_CEANA_000_022","というわけで、私は研究のためエールポートに来てるの！
+でも、ちょっとだけ開放的な気分になってまーす！
+あーん、水着持ってくればよかったなー！"

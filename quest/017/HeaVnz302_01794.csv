@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNZ302_01794_SEQ_00","The Vath strongarm is in a frightful panic."
-1,"TEXT_HEAVNZ302_01794_SEQ_01","The Vath strongarm was ambushed by Gnath and forced to abandon his wain. Though the cargo held within is of great value, he fears his attackers still lurk thereabouts, and he asks that you recover it in his stead. Search near the river west of Loth ast Gnath for the abandoned goods."
-2,"TEXT_HEAVNZ302_01794_SEQ_02","As expected, the Gnath were lying in ambush and waiting for someone to try to recover the Vath strongarm's property. You promptly dispatch the assailants and recover the cargo. Take it back to Loth ast Vath."
-3,"TEXT_HEAVNZ302_01794_SEQ_03","The Vath strongarm's cargo included a special gift for a lady Vath he has had his eye on. He is elated that you have recovered it for him, and grateful that you have avenged the Gnath's attack on him."
+0,"TEXT_HEAVNZ302_01794_SEQ_00","ヴァスの塚のニモツハコビは、慌てているようだ。"
+1,"TEXT_HEAVNZ302_01794_SEQ_01","ニモツハコビに、<Sheet(EventItem,2001621,0)/>を回収してくるよう頼まれた。高地ドラヴァニアのアヴァロニア・フォールンで、「<Sheet(EObj,2005641,0)/>」を調べ「<Sheet(EventItem,2001621,0)/>」を入手しよう。"
+2,"TEXT_HEAVNZ302_01794_SEQ_02","<Sheet(EventItem,2001621,0)/>を入手した。ヴァスの塚で「ニモツハコビ」に「<Sheet(EventItem,2001621,0)/>」を渡そう。"
+3,"TEXT_HEAVNZ302_01794_SEQ_03","ニモツハコビに<Sheet(EventItem,2001621,0)/>を渡した。誰よりも早く荷車を牽き、誰よりも早く荷物を運ぶことが自慢なニモツハコビにとって、荷物を奪われたと知られることは、死活問題だったようだ。"
 4,"TEXT_HEAVNZ302_01794_SEQ_04",""
 5,"TEXT_HEAVNZ302_01794_SEQ_05",""
 6,"TEXT_HEAVNZ302_01794_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_HEAVNZ302_01794_SEQ_21",""
 22,"TEXT_HEAVNZ302_01794_SEQ_22",""
 23,"TEXT_HEAVNZ302_01794_SEQ_23",""
-24,"TEXT_HEAVNZ302_01794_TODO_00","Obtain the abandoned cargo."
-25,"TEXT_HEAVNZ302_01794_TODO_01","Deliver the cargo to the Vath strongarm."
+24,"TEXT_HEAVNZ302_01794_TODO_00","<Sheet(EObj,2005641,0)/>から<Sheet(EventItem,2001621,0)/>を入手"
+25,"TEXT_HEAVNZ302_01794_TODO_01","ニモツハコビに<Sheet(EventItem,2001621,0)/>を渡す"
 26,"TEXT_HEAVNZ302_01794_TODO_02",""
 27,"TEXT_HEAVNZ302_01794_TODO_03",""
 28,"TEXT_HEAVNZ302_01794_TODO_04",""
@@ -49,10 +49,23 @@ int32,str,str
 45,"TEXT_HEAVNZ302_01794_TODO_21",""
 46,"TEXT_HEAVNZ302_01794_TODO_22",""
 47,"TEXT_HEAVNZ302_01794_TODO_23",""
-48,"TEXT_HEAVNZ302_01794_CRUSTACEANSLOVERGNATH01794_000_000","We were attacked by Gnath from the Onemind! We fled in a hurry. We left behind our wain. The wain is full of goods. We must recover those goods. <click> <click> The goods are very precious. Very, very precious."
-49,"TEXT_HEAVNZ302_01794_CRUSTACEANSLOVERGNATH01794_000_001","But the Gnath may still be waiting! <click> <click> Generous hunter, you are strong. Could you recover our goods for us? We were attacked at the riverside, west of Loth ast Gnath. Our wain should still be there. Please recover our precious goods for us."
-50,"TEXT_HEAVNZ302_01794_CRUSTACEANSLOVERGNATH01794_000_010","Our wain should be near Loth ast Gnath. To the west of Loth ast Gnath."
-51,"TEXT_HEAVNZ302_01794_BALLOON_100_020","<click> <click> This is ours! <click> <click>"
-52,"TEXT_HEAVNZ302_01794_CRUSTACEANSLOVERGNATH01794_000_020","Hunter, do you have our cargo?"
-53,"TEXT_HEAVNZ302_01794_CRUSTACEANSLOVERGNATH01794_000_021","Ah, yes. This is it─delicious algae! We collected it as a gift. A gift for a special Vath. We are fond of her. Very fond of her."
-54,"TEXT_HEAVNZ302_01794_CRUSTACEANSLOVERGNATH01794_000_022","So the Gnath were indeed lying in wait? Treacherous Gnath... <click> <click> Thank you for slaying them. You have given us not just our algae. You have also given us our revenge."
+48,"TEXT_HEAVNZ302_01794_CRUSTACEANSLOVERGNATH01794_000_000","シシシシシ……「繋がりし者たち」に襲われた！
+慌てて逃げ出したもんだから、荷車を置いてきてしまった……。
+なんとかして、物資を回収しなきゃ……。"
+49,"TEXT_HEAVNZ302_01794_CRUSTACEANSLOVERGNATH01794_000_001","狩人の腕を見込んで頼みがあるんだ……シシシシシ。
+「グナースの塚」の西の川辺に荷車がある。
+そこから「<Sheet(EventItem,2001621,0)/>」を回収してくれないか……。"
+50,"TEXT_HEAVNZ302_01794_CRUSTACEANSLOVERGNATH01794_000_010","狩人の腕を見込んで頼みがあるんだ……シシシシシ。
+「グナースの塚」の西の川辺に荷車がある。
+そこから「<Sheet(EventItem,2001621,0)/>」を回収してくれないか……。"
+51,"TEXT_HEAVNZ302_01794_BALLOON_100_020","シシシシシ…
+これは俺たちのものだ！"
+52,"TEXT_HEAVNZ302_01794_CRUSTACEANSLOVERGNATH01794_000_020","狩人の腕を見込んで頼みがあるんだ……シシシシシ。
+「グナースの塚」の西の川辺に荷車がある。
+そこから「<Sheet(EventItem,2001621,0)/>」を回収してくれないか……。"
+53,"TEXT_HEAVNZ302_01794_CRUSTACEANSLOVERGNATH01794_000_021","シシシシシ……これで間違いない、ありがとう。
+「ニモツハコビ」である僕の自慢は、誰よりも早く荷車を牽き、
+誰よりも早く荷物を運ぶことなんだ。"
+54,"TEXT_HEAVNZ302_01794_CRUSTACEANSLOVERGNATH01794_000_022","それなのに荷物を奪われたと皆に知られたら、
+「ニモツハコビ」どころか「ニモツナクシ」になってしまう！
+皆と意識が繋がっていなくて本当に良かったよ……シシシシシ。"

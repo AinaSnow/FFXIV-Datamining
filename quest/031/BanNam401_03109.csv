@@ -1,12 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANNAM401_03109_SEQ_00","Seigetsu the Enlightened needs an errant fisher to return to his duties.
+0,"TEXT_BANNAM401_03109_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト受注クラス・ジョブ制限<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+※本クエストは受注時のクラスでのみ進行します。
 
-※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
-1,"TEXT_BANNAM401_03109_SEQ_01","Speak with the Namazu fisher."
-2,"TEXT_BANNAM401_03109_SEQ_02","Deliver the requested supplies to the Namazu fisher."
-3,"TEXT_BANNAM401_03109_SEQ_03","Report to Seigetsu the Enlightened."
+ドーロ・イローの光風院セイゲツは、巨大ナマズが気になるようだ。"
+1,"TEXT_BANNAM401_03109_SEQ_01","アジム・カート南東の釣り道楽のナマズオと話す"
+2,"TEXT_BANNAM401_03109_SEQ_02","釣り道楽のナマズオに依頼された品を納品"
+3,"TEXT_BANNAM401_03109_SEQ_03","光風院セイゲツに報告"
 4,"TEXT_BANNAM401_03109_SEQ_04",""
 5,"TEXT_BANNAM401_03109_SEQ_05",""
 6,"TEXT_BANNAM401_03109_SEQ_06",""
@@ -27,9 +28,9 @@ int32,str,str
 21,"TEXT_BANNAM401_03109_SEQ_21",""
 22,"TEXT_BANNAM401_03109_SEQ_22",""
 23,"TEXT_BANNAM401_03109_SEQ_23",""
-24,"TEXT_BANNAM401_03109_TODO_00","Speak with the Namazu fisher."
-25,"TEXT_BANNAM401_03109_TODO_01","<If(Equal(IntegerParameter(4),9))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Synthesize <SheetEn(Item,3,IntegerParameter(5),2,1)/><Else/>Deliver <SheetEn(Item,2,IntegerParameter(5),2,1)/> to the Namazu fisher</If><Else/><If(Equal(IntegerParameter(4),10))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Synthesize <SheetEn(Item,3,IntegerParameter(5),2,1)/><Else/>Deliver <SheetEn(Item,2,IntegerParameter(5),2,1)/> to the Namazu fisher</If><Else/><If(Equal(IntegerParameter(4),11))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Synthesize <SheetEn(Item,3,IntegerParameter(5),2,1)/><Else/>Deliver <SheetEn(Item,2,IntegerParameter(5),2,1)/> to the Namazu fisher</If><Else/><If(Equal(IntegerParameter(4),8))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Synthesize <SheetEn(Item,3,IntegerParameter(5),2,1)/><Else/>Deliver <SheetEn(Item,2,IntegerParameter(5),2,1)/> to the Namazu fisher</If><Else/><If(Equal(IntegerParameter(4),12))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Synthesize <SheetEn(Item,3,IntegerParameter(5),2,1)/><Else/>Deliver <SheetEn(Item,2,IntegerParameter(5),2,1)/> to the Namazu fisher</If><Else/><If(Equal(IntegerParameter(4),13))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Synthesize <SheetEn(Item,3,IntegerParameter(5),2,1)/><Else/>Deliver <SheetEn(Item,2,IntegerParameter(5),2,1)/> to the Namazu fisher</If><Else/><If(Equal(IntegerParameter(4),14))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Synthesize <SheetEn(Item,3,IntegerParameter(5),2,1)/><Else/>Deliver <SheetEn(Item,2,IntegerParameter(5),2,1)/> to the Namazu fisher</If><Else/><If(Equal(IntegerParameter(4),15))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Synthesize <SheetEn(Item,3,IntegerParameter(5),2,1)/><Else/>Deliver <SheetEn(Item,2,IntegerParameter(5),2,1)/> to the Namazu fisher</If><Else/><If(Equal(IntegerParameter(4),16))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Mine <SheetEn(Item,3,IntegerParameter(5),2,1)/> to the northeast of the Dawn Throne<Else/>Deliver <SheetEn(Item,2,IntegerParameter(5),2,1)/> to the Namazu fisher</If><Else/><If(Equal(IntegerParameter(4),17))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Gather <SheetEn(Item,3,IntegerParameter(5),2,1)/> to the northeast of the Dawn Throne<Else/>Deliver <SheetEn(Item,2,IntegerParameter(5),2,1)/> the Namazu fisher</If><Else/><If(Equal(IntegerParameter(4),18))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Catch <SheetEn(Item,1,IntegerParameter(5),1,1)/> at Azim Khaat<Else/>Deliver <SheetEn(Item,2,IntegerParameter(5),1,1)/> to the Namazu fisher</If><Else/></If></If></If></If></If></If></If></If></If></If></If>."
-26,"TEXT_BANNAM401_03109_TODO_02","Report to Seigetsu the Enlightened."
+24,"TEXT_BANNAM401_03109_TODO_00","アジム・カート南東の釣り道楽のナマズオと話す"
+25,"TEXT_BANNAM401_03109_TODO_01","<If(Equal(IntegerParameter(4),9))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>製作手帳 蛮族クエスト：<Sheet(Item,IntegerParameter(5),0)/>を製作<Else/>アジム・カート南東の釣り道楽のナマズオに<Sheet(Item,IntegerParameter(5),0)/>を納品</If><Else/><If(Equal(IntegerParameter(4),10))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>製作手帳 蛮族クエスト：<Sheet(Item,IntegerParameter(5),0)/>を製作<Else/>アジム・カート南東の釣り道楽のナマズオに<Sheet(Item,IntegerParameter(5),0)/>を納品</If><Else/><If(Equal(IntegerParameter(4),11))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>製作手帳 蛮族クエスト：<Sheet(Item,IntegerParameter(5),0)/>を製作<Else/>アジム・カート南東の釣り道楽のナマズオに<Sheet(Item,IntegerParameter(5),0)/>を納品</If><Else/><If(Equal(IntegerParameter(4),8))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>製作手帳 蛮族クエスト：<Sheet(Item,IntegerParameter(5),0)/>を製作<Else/>アジム・カート南東の釣り道楽のナマズオに<Sheet(Item,IntegerParameter(5),0)/>を納品</If><Else/><If(Equal(IntegerParameter(4),12))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>製作手帳 蛮族クエスト：<Sheet(Item,IntegerParameter(5),0)/>を製作<Else/>アジム・カート南東の釣り道楽のナマズオに<Sheet(Item,IntegerParameter(5),0)/>を納品</If><Else/><If(Equal(IntegerParameter(4),13))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>製作手帳 蛮族クエスト：<Sheet(Item,IntegerParameter(5),0)/>を製作<Else/>アジム・カート南東の釣り道楽のナマズオに<Sheet(Item,IntegerParameter(5),0)/>を納品</If><Else/><If(Equal(IntegerParameter(4),14))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>製作手帳 蛮族クエスト：<Sheet(Item,IntegerParameter(5),0)/>を製作<Else/>アジム・カート南東の釣り道楽のナマズオに<Sheet(Item,IntegerParameter(5),0)/>を納品</If><Else/><If(Equal(IntegerParameter(4),15))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>製作手帳 蛮族クエスト：<Sheet(Item,IntegerParameter(5),0)/>を製作<Else/>アジム・カート南東の釣り道楽のナマズオに<Sheet(Item,IntegerParameter(5),0)/>を納品</If><Else/><If(Equal(IntegerParameter(4),16))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>明けの玉座北東の岩場で<Sheet(Item,IntegerParameter(5),0)/>を砕岩<Else/>アジム・カート南東の釣り道楽のナマズオに<Sheet(Item,IntegerParameter(5),0)/>を納品</If><Else/><If(Equal(IntegerParameter(4),17))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>明けの玉座北東の草刈場で<Sheet(Item,IntegerParameter(5),0)/>を草刈<Else/>アジム・カート南東の釣り道楽のナマズオに<Sheet(Item,IntegerParameter(5),0)/>を納品</If><Else/><If(Equal(IntegerParameter(4),18))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>アジム・カートで<Sheet(Item,IntegerParameter(5),0)/>を釣る<Else/>アジム・カート南東の釣り道楽のナマズオに<Sheet(Item,IntegerParameter(5),0)/>を納品</If><Else/></If></If></If></If></If></If></If></If></If></If></If>"
+26,"TEXT_BANNAM401_03109_TODO_02","光風院セイゲツに報告"
 27,"TEXT_BANNAM401_03109_TODO_03",""
 28,"TEXT_BANNAM401_03109_TODO_04",""
 29,"TEXT_BANNAM401_03109_TODO_05",""
@@ -51,42 +52,96 @@ int32,str,str
 45,"TEXT_BANNAM401_03109_TODO_21",""
 46,"TEXT_BANNAM401_03109_TODO_22",""
 47,"TEXT_BANNAM401_03109_TODO_23",""
-48,"TEXT_BANNAM401_03109_KOFUINSEIGETSU_000_000","As we prepare for the festival, the committee members strive to outdo each other by procuring ever more unusual offerings. Some have started looking to local folktales for inspiration."
-49,"TEXT_BANNAM401_03109_KOFUINSEIGETSU_000_001","One such story speaks of an enormous catfish which lurks in Azim Khaat. A self-proclaimed “master fisher” has left in search of the beast."
-50,"TEXT_BANNAM401_03109_KOFUINSEIGETSU_000_002","However, this was some time ago, and he should have either caught it or conceded defeat by now. I would have him return posthaste, preferably with something to show for his expedition."
-51,"TEXT_BANNAM401_03109_KOFUINSEIGETSU_000_003","Assist him with any means at your disposal. Or failing that, a swift kick in the direction of Dhoro Iloh will suffice."
-52,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_000_010","Seigetsu is growing impatient is he? But I can't go back now! I've finally found the “Great Barbeled One!” The trouble is, she's taken a liking to my lures and has eaten them all."
-53,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_100_010","So Seigetsu sent you to help me land this freshwater leviathan, the “Great Barbeled One,” did he?"
-54,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_000_011","Perhaps you could wiggle those digits of yours and make me parts for some more catfish lures? You'll find the raw materials and whatnot in that crate."
-55,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_000_012","Perhaps you could wiggle those digits of yours and make me parts for some more catfish lures? You'll find the raw materials and whatnot in that crate."
-56,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_000_013","Perhaps you could make the scented, smelly things we attach to catfish lures? You'll find the raw materials and whatnot in that crate."
-57,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_000_014","To make matters worse, I've run out of the shiny steppe geodes needed to make more lures! Wait─ Is that a pickaxe you've got there? Maybe you'd like to help a master fisher pursue his prey by mining the necessary twinkly things, yes, yes?"
-58,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_000_015","To make matters worse, I've run out of the pretty yol feathers needed to make more lures! You smell like you're used to scrabbling around in the dirt, yes, yes? And good at finding things among the plants, I'll wager! Maybe your green fingers can gather some feathers for me!"
-59,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_000_016","Think you can catch her all by yourself, do you? I don't suppose you'll fare any better than me, but I'd like to see you try, yes, yes! And since I'm feeling generous, I'll give you some advice: She seems to enjoy salmon roe..."
-60,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_000_017","Bring them to me when you've finished!"
-61,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_100_017","On the off chance you manage to land the “Great Barbeled One” before I do, bring her to me for inspection. I'll know if you try to deceive me!"
-62,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_000_018","I brought a crate full of metallic, shiny bits for lures, forgetting that I can't make them myself. Very silly of me, yes, yes."
-63,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_000_019","I brought a crate full of bits and pieces for making lures, forgetting that I can't do it myself. Very silly of me, yes, yes."
-64,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_000_020","Ingredients for the smelly things I have, yes, yes. Knowledge and dexterity needed to make use of them, I have not. Quite the oversight, I'm sure you will agree."
-65,"TEXT_BANNAM401_03109_SYSTEM_000_021","The crate appears to be filled to the brim with sundry materials─none of which you require at this time."
-66,"TEXT_BANNAM401_03109_SYSTEM_000_022","The crate appears to be filled to the brim with sundry materials─none of which you require at this time."
-67,"TEXT_BANNAM401_03109_SYSTEM_000_023","The crate appears to be filled to the brim with sundry materials─none of which you require at this time."
-68,"TEXT_BANNAM401_03109_SYSTEM_000_024","The crate appears to be filled to the brim with sundry materials─none of which you require at this time."
-69,"TEXT_BANNAM401_03109_SYSTEM_000_025","You sift through the cornucopia of crafting materials and retrieve all you require for your work."
-70,"TEXT_BANNAM401_03109_SYSTEM_000_026","You sift through the cornucopia of crafting materials and retrieve all you require for your work."
-71,"TEXT_BANNAM401_03109_SYSTEM_000_027","You sift through the cornucopia of crafting materials and retrieve all you require for your work."
-72,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_000_028","Having trouble finding the shinies? There should be some to the northeast of Azim Khaat. Yes, yes."
-73,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_000_029","Having trouble finding the feathers? There should be some to the northeast of Azim Khaat. Yes, yes."
-74,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_000_030","Be careful not to fall into the lake. The “Great Barbeled One” will lose her appetite if she eats you, and I can't have that. No, no."
-75,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_000_031",""
-76,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_000_032","So, do you have something to show me?"
-77,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_000_033","How goes your fishing? Caught something noteworthy, have you?"
-78,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_000_034","Splendid! My success is all but a foregone conclusion now, yes, yes. You can run along to Seigetsu and tell him I'll be back with an offering so auspicious, he'll regret ever doubting me!"
-79,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_000_035","Such a vast and impressive fish! I must admit, you've outdone me on this occasion."
-80,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_000_036","But it's not over yet! As big as your catch is, I believe she is still a juvenile, judging by the growth rings on the fins. That means that larger adults must be nearby, yes, yes. The real “Great Barbeled One” yet lurks in these waters!"
-81,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_000_037","I'll keep your fish here so that I can measure it against my own catches. Tell Seigetsu that I will only return when I have triumphed over a catfish fit for the festival!"
-82,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_000_038","My true prize yet evades me. You go on ahead and tell Seigetsu to stop fretting!"
-83,"TEXT_BANNAM401_03109_KOFUINSEIGETSU_000_040","So, anything to report?"
-84,"TEXT_BANNAM401_03109_KOFUINSEIGETSU_000_041","He is still out there!? Instead of bringing him back, you have provided him with the means to waste even more time. And as for this so-called “Great Barbeled One,” I will believe it when I see it!"
-85,"TEXT_BANNAM401_03109_KOFUINSEIGETSU_000_042","This is not the outcome I was hoping for. He now pursues a fish even larger and more elusive than his original target!"
-86,"TEXT_BANNAM401_03109_KOFUINSEIGETSU_000_043","If this catfish is as gargantuan as he claims, he is likely to find himself dragged into the lake and swallowed whole. Not that it is any concern of mine, of course, but having one less pair of fins to deal with menial tasks would interfere with my plans to some degree."
+48,"TEXT_BANNAM401_03109_KOFUINSEIGETSU_000_000","よいかね、栄養豊富な水を湛えるアジム・カートには、
+巨大ナマズが生息しているという伝説があるのだ。
+貴君も供物として捧げるため、是が非でも釣り上げたいだろう？"
+49,"TEXT_BANNAM401_03109_KOFUINSEIGETSU_000_001","そうだろうとも、誰しも釣り上げたいに決まっている！
+巨大な供物は、それを入手できるだけの力があることを示し、
+より文明的であることの証左となるのだからな。"
+50,"TEXT_BANNAM401_03109_KOFUINSEIGETSU_000_002","巨大ナマズに挑むため、アジム・カート南東のほとりへ向かった、
+「釣り道楽のナマズオ」がいるのだが、帰りが遅い。
+おおかた、なかなか釣れずに困ってでもいるのだろう。"
+51,"TEXT_BANNAM401_03109_KOFUINSEIGETSU_000_003","貴君には、あやつに協力してやってほしい。
+よろしく頼んだぞ。"
+52,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_000_010","光風院セイゲツに言われてきたっぺか？
+巨大ナマズがいるから、釣りに来たんだけど、
+釣り餌を取られるばっかりで、まったくの坊主っぺな。"
+53,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_100_010","光風院セイゲツに言われてきたっぺか？
+巨大ナマズを釣りに来たんだけど、
+なかなか釣れないから、冒険者さんも釣れるか試してほしいっぺな！"
+54,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_000_011","職人さん、そこの荷箱に入ってる素材を使って、
+「<Sheet(Item,22730,0)/>」の疑似餌を2つ、作ってくれないっぺか？
+おいらはヒレが不器用なもんで、上手く作れなくて困ってたっぺよ。"
+55,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_000_012","職人さん、そこの荷箱に入ってる素材を使って、
+「<Sheet(Item,22730,0)/>」の疑似餌を2つ、作ってくれないっぺか？
+おいらはヒレが不器用なもんで、上手く作れなくて困ってたっぺよ。"
+56,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_000_013","職人さん、そこの荷箱に入ってる素材を使って、
+「<Sheet(Item,22730,0)/>」の疑似餌を2つ、作ってくれないっぺか？
+おいらはヒレが不器用なもんで、上手く作れなくて困ってたっぺよ。"
+57,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_000_014","ナマズ釣りの疑似餌にできる、
+「<Sheet(Item,22626,0)/>」が足りなくなっちゃったんだっぺよ。
+明けの玉座の北東あたりで、3つ採ってきておくれっぺな。"
+58,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_000_015","ナマズ釣りの疑似餌にできる、
+「<Sheet(Item,22652,0)/>」が足りなくなっちゃったんだっぺよ。
+明けの玉座の北東あたりで、3つ採ってきておくれっぺな。"
+59,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_000_016","見たところ、なかなかの腕の漁師みたいっぺな？
+ここ「アジム・カート」で<Sheet(Item,20613,0)/>なんかを使って、
+「<Sheet(Item,22678,0)/>」を、ペペッと釣り上げてみてほしいっぺよ！"
+60,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_000_017","用意できたら、
+おいらのところまで持ってきてほしいっぺよ。
+待ってるっぺな！"
+61,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_100_017","見事釣れたら、おいらに見せてほしいっぺよ。
+おいらもここで、
+なんとか釣れないか、頑張ってみるっぺな！"
+62,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_000_018","素材は、隣の箱に入ってるものを自由に使っていいっぺな！
+よろしく頼むっぺよ！"
+63,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_000_019","素材は、隣の箱に入ってるものを自由に使っていいっぺな！
+よろしく頼むっぺよ！"
+64,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_000_020","素材は、隣の箱に入ってるものを自由に使っていいっぺな！
+よろしく頼むっぺよ！"
+65,"TEXT_BANNAM401_03109_SYSTEM_000_021","素材が入った荷箱がある。
+今は、必要なさそうだ……。"
+66,"TEXT_BANNAM401_03109_SYSTEM_000_022","素材が入った荷箱がある。
+今は、必要なさそうだ……。"
+67,"TEXT_BANNAM401_03109_SYSTEM_000_023","素材が入った荷箱がある。
+今は、必要なさそうだ……。"
+68,"TEXT_BANNAM401_03109_SYSTEM_000_024","素材が入った荷箱がある。
+今は、必要なさそうだ……。"
+69,"TEXT_BANNAM401_03109_SYSTEM_000_025","荷箱から必要な素材を取りだした！"
+70,"TEXT_BANNAM401_03109_SYSTEM_000_026","荷箱から必要な素材を取りだした！"
+71,"TEXT_BANNAM401_03109_SYSTEM_000_027","荷箱から必要な素材を取りだした！"
+72,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_000_028","伝えたものは採れたっぺか？
+採れたらおいらに渡してほしいっぺよー。"
+73,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_000_029","伝えたものは採れたっぺか？
+採れたらおいらに渡してほしいっぺよー。"
+74,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_000_030","見事釣れたら、おいらに見せてほしいっぺよ。
+おいらも、なんとか釣れないか、諦めずに頑張ってみるっぺな！"
+75,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_000_031","（★未使用／削除予定★）"
+76,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_000_032","伝えたものは用意できたっぺか？"
+77,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_000_033","伝説の巨大ナマズは、釣れたっぺか？"
+78,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_000_034","いい餌っぺな、ありがとうっぺよ！
+おいらは、これで巨大ナマズを釣り上げてみるっぺな！
+職人さんには、先に「光風院セイゲツ」へ報告してほしいっぺよ。"
+79,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_000_035","こりゃあ、でっかいナマズっぺなぁ！
+おいらじゃ、釣り上げられるかわからない大きさっぺよ……。
+さすがヒトの漁師さんっぺな。"
+80,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_000_036","いいや、釣り道楽たる者、負けてられないっぺよ……！
+もっと大きなナマズを釣らなきゃ、名折れっぺな！
+おいらはここに残って、ナマズ釣りを続けるっぺよ！"
+81,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_000_037","このナマズは、大きさを比べるために貸してほしいっぺな。
+職人さんは、
+先に「光風院セイゲツ」のところに戻って構わないっぺよ。"
+82,"TEXT_BANNAM401_03109_DAILYNAMAZUO03109_000_038","おいら、絶対に巨大ナマズを釣り上げてみせるっぺな！
+職人さんは、
+先に戻って「光風院セイゲツ」へ報告してほしいっぺよ。"
+83,"TEXT_BANNAM401_03109_KOFUINSEIGETSU_000_040","釣り道楽のナマズオの件だが、
+奴はどうしていたかね？"
+84,"TEXT_BANNAM401_03109_KOFUINSEIGETSU_000_041","やれやれ、はたしてあいつが、
+巨大ナマズを釣り上げることができるか見ものだな。
+過度な期待は、よしておくとしよう。"
+85,"TEXT_BANNAM401_03109_KOFUINSEIGETSU_000_042","奴がそんなに悔しがるほどの、
+巨大ナマズを見事釣り上げるとは……。
+さすがは熟練の漁師、恐れ入る。"
+86,"TEXT_BANNAM401_03109_KOFUINSEIGETSU_000_043","それにしても、そのような巨大魚にナマズオが挑もうものなら、
+釣り上げるどころか、逆に水中に引きずり込まれそうだ……。
+まあ、文明化に犠牲は付きものゆえ、構わぬがな！"

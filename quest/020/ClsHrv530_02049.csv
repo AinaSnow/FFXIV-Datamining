@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSHRV530_02049_SEQ_00","Mujih Mewrilah has received word of a task from Basyle."
-1,"TEXT_CLSHRV530_02049_SEQ_01","In excited tones, Mujih informs you that Basyle has sent word of your very first task. Make your way to Camp Cloudtop in the Sea of Clouds, and ask the botanist what he requires of you."
-2,"TEXT_CLSHRV530_02049_SEQ_02","The supply situation is grim at Camp Cloudtop, and Basyle begs your advice on a suitable crop to cultivate. Based on your response, he decides to try his luck on cyclops onions, which grow wild in the Dravanian forelands. Gather ten bulbs of the onion and bring them to Basyle."
-3,"TEXT_CLSHRV530_02049_SEQ_03","You have delivered ten cyclops onions to Basyle, who declares that he will try growing them in the test plot. Satisfied that she has sufficient material for her first article, Mujih returns to Ishgard. Make your own way back and join her at the aetheryte plaza."
-4,"TEXT_CLSHRV530_02049_SEQ_04","With evident pleasure, Mujih informs you that the first installment of her story will soon grace an edition of <Emphasis>The Raven</Emphasis>. As before, she will remain in Ishgard to await further instructions from Basyle.
+0,"TEXT_CLSHRV530_02049_SEQ_00","エーテライト・プラザのムジ・ミュリラーのもとに依頼が届いたようだ。"
+1,"TEXT_CLSHRV530_02049_SEQ_01","イシュガルドの園芸師バジールから依頼が届いたらしい。アバラシア雲海のキャンプ・クラウドトップにいる「バジール」と話そう。"
+2,"TEXT_CLSHRV530_02049_SEQ_02","バジールから、この土地に馴染む可能性のある種、<Sheet(Item,12878,0)/>の調達を頼まれた。「<Sheet(ItemHQ,12878,0)/>」を10個調達し、キャンプ・クラウドトップの「バジール」に納品しよう。<Sheet(ItemHQ,12878,0)/>は、高地ドラヴァニアの草刈場で草刈できる。"
+3,"TEXT_CLSHRV530_02049_SEQ_03","バジールに<Sheet(ItemHQ,12878,0)/>を10個納品した。イシュガルドのエーテライト・プラザで「ムジ・ミュリラー」と話そう。"
+4,"TEXT_CLSHRV530_02049_SEQ_04","ムジ・ミュリラーの書いた記事は、好評のようだ。新たなバジールからの依頼に備えて、園芸師の腕を磨いておこう。
 
-※The next botanist quest will be available from Mujih Mewrilah upon reaching level 55."
+※園芸師のレベルが55以上になると、エーテライト・プラザのムジ・ミュリラーから次の園芸師クエストを受注することができます。"
 5,"TEXT_CLSHRV530_02049_SEQ_05",""
 6,"TEXT_CLSHRV530_02049_SEQ_06",""
 7,"TEXT_CLSHRV530_02049_SEQ_07",""
@@ -27,9 +27,9 @@ int32,str,str
 21,"TEXT_CLSHRV530_02049_SEQ_21",""
 22,"TEXT_CLSHRV530_02049_SEQ_22",""
 23,"TEXT_CLSHRV530_02049_SEQ_23",""
-24,"TEXT_CLSHRV530_02049_TODO_00","Speak with Basyle at Camp Cloudtop."
-25,"TEXT_CLSHRV530_02049_TODO_01","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Harvest cyclops onions <Sheet(Addon,9,0)/> in the Dravanian forelands<Else/>Deliver the cyclops onions <Sheet(Addon,9,0)/> to Basyle at Camp Cloudtop</If>."
-26,"TEXT_CLSHRV530_02049_TODO_02","Speak with Mujih Mewrilah at the aetheryte plaza in Ishgard."
+24,"TEXT_CLSHRV530_02049_TODO_00","キャンプ・クラウドトップのバジールと話す"
+25,"TEXT_CLSHRV530_02049_TODO_01","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>高地ドラヴァニアで<Sheet(ItemHQ,12878,0)/>を草刈<Else/>キャンプ・クラウドトップのバジールに<Sheet(ItemHQ,12878,0)/>を納品</If>"
+26,"TEXT_CLSHRV530_02049_TODO_02","イシュガルドのムジ・ミュリラーと話す"
 27,"TEXT_CLSHRV530_02049_TODO_03",""
 28,"TEXT_CLSHRV530_02049_TODO_04",""
 29,"TEXT_CLSHRV530_02049_TODO_05",""
@@ -51,38 +51,82 @@ int32,str,str
 45,"TEXT_CLSHRV530_02049_TODO_21",""
 46,"TEXT_CLSHRV530_02049_TODO_22",""
 47,"TEXT_CLSHRV530_02049_TODO_23",""
-48,"TEXT_CLSHRV530_02049_MUJIHMEWRILAH_000_000","Perfect timing, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! Word arrived from Basyle not a moment ago."
-49,"TEXT_CLSHRV530_02049_MUJIHMEWRILAH_000_001","He has a task, and bids you come to Camp Cloudtop. Let us go at once!"
-50,"TEXT_CLSHRV530_02049_MUJIHMEWRILAH_000_010","“Seeds of Hope Sprout in the Sea of Clouds”... What do you think? Pretty inspired, even if I do say so myself!"
-51,"TEXT_CLSHRV530_02049_BASYLE_000_020","My thanks for coming on such short notice. To begin with, I'd like to ask your advice on crops that would thrive in this environment."
-52,"TEXT_CLSHRV530_02049_BASYLE_000_021","Right now, our principal crop is a strain of pumpkin native to these isles. With some experimentation, we've succeeded in cultivating it."
-53,"TEXT_CLSHRV530_02049_BASYLE_000_022","Unfortunately, hardly anything else grows that's a viable food source. It has something to do with the ratio of wind- to earth-aspected aether up here. There's a much higher concentration of the former, you see, and hardly any of the latter."
-54,"TEXT_CLSHRV530_02049_BASYLE_000_023","Gysahl greens are just about the only other thing that has worked out, and these aren't the same as what we have in Coerthas, either. It may interest you to know that the seeds came to us from Gridania, from the Botanists' Guild."
-55,"TEXT_CLSHRV530_02049_BASYLE_000_024","Roiteloin urged me to give them a try, and lo and behold, they cropped up like weeds. Strange things do happen, eh?"
-56,"TEXT_CLSHRV530_02049_BASYLE_000_025","But in the end, gysahl greens are fit only for chocobos, and what little I'm managing to grow at the moment doesn't make up for the shortfall of supplies."
-57,"TEXT_CLSHRV530_02049_BASYLE_000_026","If we're to keep feeding the garrison, we need to find more crops that grow, and set about growing them as soon as possible, or soon we'll all be supping on bird fodder. And so I'd like to ask your opinion: in selecting a crop, what quality is the most critical?"
-58,"TEXT_CLSHRV530_02049_Q1_000_000","What quality is the most critical?"
-59,"TEXT_CLSHRV530_02049_A1_000_001","Hardiness to cold."
-60,"TEXT_CLSHRV530_02049_A1_000_002","Hardiness to elevation."
-61,"TEXT_CLSHRV530_02049_BASYLE_000_030","I see... In that case, we might try our luck with onions."
-62,"TEXT_CLSHRV530_02049_BASYLE_000_040","I see... In that case, we might try a plant that's native to highland regions."
-63,"TEXT_CLSHRV530_02049_BASYLE_000_050","Ah, that reminds me! A hunter I spoke with recently mentioned having seen wild onions in the Dravanian forelands!"
-64,"TEXT_CLSHRV530_02049_BASYLE_000_051","Cyclops onions, they're called, and I fancy our chances of cultivating them. If we succeed, they would make a welcome addition to our rations. I'd be grateful if you could gather and bring me ten bulbs of the best specimens you can find."
-65,"TEXT_CLSHRV530_02049_BASYLE_000_060","Have you gathered the cyclops onions? They can be found growing wild in the Dravanian forelands."
-66,"TEXT_CLSHRV530_02049_BASYLE_000_070","My, they're far larger than I had dared hope! My thanks, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I shall try growing them in our test plot right away."
-67,"TEXT_CLSHRV530_02049_MUJIHMEWRILAH_000_071","A test plot, you say?"
-68,"TEXT_CLSHRV530_02049_BASYLE_000_072","That's right, miss. Before we grow something in earnest, we need to make certain that it won't be a detriment to other crops."
-69,"TEXT_CLSHRV530_02049_BASYLE_000_073","Though sustenance is important, so too is sustainability. If we don't think ahead, we're liable to damage the environment, and that would leave us with nothing."
-70,"TEXT_CLSHRV530_02049_MUJIHMEWRILAH_000_074","I see! Pioneers must be at once bold <Emphasis>and</Emphasis> cautious─a delicate balancing act!"
-71,"TEXT_CLSHRV530_02049_MUJIHMEWRILAH_000_075","With that, I believe I have sufficient material for my first article! I'll go on back to Ishgard to send my notes to the chief editor. See you at the aetheryte plaza, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>!"
-72,"TEXT_CLSHRV530_02049_BASYLE_000_080","My thanks for your advice as well as the onions. When I have another task for you, I'll send word to your retainer as before."
-73,"TEXT_CLSHRV530_02049_MUJIHMEWRILAH_000_090","Glad tidings, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! The chief editor was utterly taken by my draft, and the first installment of my series will soon grace <Emphasis>The Raven</Emphasis>!"
-74,"TEXT_CLSHRV530_02049_MUJIHMEWRILAH_000_091","Oh, and lest you worry, I'll make sure to withhold names and locations. It's an Ishgardian outpost, after all, and we can't well have such details known to all and sundry. Ah, but have a listen to this:"
-75,"TEXT_CLSHRV530_02049_MUJIHMEWRILAH_000_092","“So it was that the dilemma of a suitable crop was solved, thanks to the ingenuity of one humble botanist."
-76,"TEXT_CLSHRV530_02049_MUJIHMEWRILAH_000_093","“It shall not be long ere this azure frontier is blanketed in life-giving cyclops onions.”
-...That's how I'm planning to close the article!"
-77,"TEXT_CLSHRV530_02049_MUJIHMEWRILAH_000_094","I see you're not entirely convinced that the dilemma is “solved.” Well, it practically is! Only I can't write “practically”─the statement would lose something for it."
-78,"TEXT_CLSHRV530_02049_MUJIHMEWRILAH_000_095","As before, I'll remain in Ishgard to await word from Basyle. I look forward to the next task!"
-79,"TEXT_CLSHRV530_02049_SYSTEM_000_096","In blazing new trails as a botanist, you have learned “Tree Whisperer V”!"
-80,"TEXT_CLSHRV530_02049_BASYLE_000_052",""
-81,"TEXT_CLSHRV530_02049_SYSTEM_000_097",""
+48,"TEXT_CLSHRV530_02049_MUJIHMEWRILAH_000_000","よくぞ、いらしてくださいました！
+バジールさんから依頼が舞い込んできましたよ～！
+アバラシア雲海まで来てほしいそうですっ。"
+49,"TEXT_CLSHRV530_02049_MUJIHMEWRILAH_000_001","さっそく取材開始ですっ。
+キャンプ・クラウドトップの「バジール」さんに、
+突撃しちゃいましょう～！"
+50,"TEXT_CLSHRV530_02049_MUJIHMEWRILAH_000_010","「空の果ての最前線、雲海の栽培事情
+　開拓魂、ここにあり」……。
+どうです、連載第一回にふさわしい題名じゃないですか？"
+51,"TEXT_CLSHRV530_02049_BASYLE_000_020","ああ、よくぞいらしてくださいました。
+ご依頼したいことは、この土地に適した農作物の調達です。"
+52,"TEXT_CLSHRV530_02049_BASYLE_000_021","現在、栽培している主要な作物は、パンプキンの近縁種……。
+元から浮島に自生していた品種を、どうにか栽培化し、
+作物として活用することに成功しました。"
+53,"TEXT_CLSHRV530_02049_BASYLE_000_022","しかし、雲海は風属性のエーテルが濃い地域……。
+クルザスの土壌と比較すると、土属性のエーテルが弱く、
+人が食するに足る栄養価を持った作物が育たないのです。"
+54,"TEXT_CLSHRV530_02049_BASYLE_000_023","パンプキン以外で、なんとか畑に根付いたのは、
+あちらにたくさん植わっている、ギサールの野菜だけ……。
+それも、不思議なことに、クルザス原産種ではないんです。"
+55,"TEXT_CLSHRV530_02049_BASYLE_000_024","物は試しと、ロアトゥロアンに頼んで、
+グリダニアの園芸師ギルドから取り寄せた品種なんですよ。
+……ですが、ギサールの野菜は、あくまでチョコボの飼料。"
+56,"TEXT_CLSHRV530_02049_BASYLE_000_025","浮島という土地柄、物資の支援は乏しく、
+駐屯部隊である「薔薇騎兵団」の食糧事情は深刻。
+補給が遅れれば、ギサールの野菜を食わねばならぬ有様……。"
+57,"TEXT_CLSHRV530_02049_BASYLE_000_026","どうにか対処したいのですが、何を重視して作物を選ぶべきか、
+助言を願えたらと思いまして……。"
+58,"TEXT_CLSHRV530_02049_Q1_000_000","何を重視すべき？"
+59,"TEXT_CLSHRV530_02049_A1_000_001","寒冷地への適応力"
+60,"TEXT_CLSHRV530_02049_A1_000_002","高地への適応力"
+61,"TEXT_CLSHRV530_02049_BASYLE_000_030","なるほど、まずは寒冷地への適応力のみを考えよと。
+寒さに強いと言えば……オニオンあたりですな。"
+62,"TEXT_CLSHRV530_02049_BASYLE_000_040","やはり、標高が問題というご意見ですか。
+となると、標高の高い地域に自生する品種にかぎられますな。"
+63,"TEXT_CLSHRV530_02049_BASYLE_000_050","はっ、そういえば……！
+高地ドラヴァニアで、オニオンの球根に似た植物を見たという話を、
+猟師の方から聞いたことがあります！"
+64,"TEXT_CLSHRV530_02049_BASYLE_000_051","食することができれば、調理の幅も広がりますし、
+高地に原生している種なら、この地にも根付く可能性は高い。
+この「<Sheet(ItemHQ,12878,0)/>」を10個ほど探してくれませんか？"
+65,"TEXT_CLSHRV530_02049_BASYLE_000_060","高地ドラヴァニアに生息しているという、
+「<Sheet(ItemHQ,12878,0)/>」を10個ほど探してくれませんか？"
+66,"TEXT_CLSHRV530_02049_BASYLE_000_070","ありがとうございます、なんとも大粒な品種ですね！
+さっそく、実験畑で栽培を試みてみます！"
+67,"TEXT_CLSHRV530_02049_MUJIHMEWRILAH_000_071","えっ、ここに畑を作るんじゃないんですか？"
+68,"TEXT_CLSHRV530_02049_BASYLE_000_072","<Sheet(ItemHQ,12878,0)/>が、隣接する畑や周辺の植生に、
+悪影響をあたえないともかぎりません。
+まずは、隔離しながら慎重に試してみる必要があります。"
+69,"TEXT_CLSHRV530_02049_BASYLE_000_073","食事情を改善するのも大事ですが、
+焦って、この土地の環境を壊してしまっては、
+元も子もありませんからね。"
+70,"TEXT_CLSHRV530_02049_MUJIHMEWRILAH_000_074","なるほど、なるほど……。
+開拓には、慎重さも肝心なのですね！"
+71,"TEXT_CLSHRV530_02049_MUJIHMEWRILAH_000_075","よーし！　取材結果をまとめて、グリダニアに送らないと！
+わたしは一足先にイシュガルドに戻ります。
+「エーテライト・プラザ」で待ってますね～！"
+72,"TEXT_CLSHRV530_02049_BASYLE_000_080","依頼のときには、また「エーテライト・プラザ」を訪ねます。
+しかし、彼女は本当に元気ですね……。"
+73,"TEXT_CLSHRV530_02049_MUJIHMEWRILAH_000_090","連載第一回ですが、無事に週刊レイヴンに採用されそうです！
+概要を編集長に伝えてみたのですが、
+と～っても好評でした！"
+74,"TEXT_CLSHRV530_02049_MUJIHMEWRILAH_000_091","あ、もちろん、詳しい場所については秘密ですよ。
+曲がりなりにもイシュガルドの軍事拠点ですからね。
+バジールさんの名前も、しっかり匿名にしてありますっ！"
+75,"TEXT_CLSHRV530_02049_MUJIHMEWRILAH_000_092","「……かくして、彼の地での品種適応に伴う技術的困難は、
+　ひとりの園芸師の才覚によって、事実上克服された」"
+76,"TEXT_CLSHRV530_02049_MUJIHMEWRILAH_000_093","「開拓地にもたらされた<Sheet(ItemHQ,12878,0)/>が、
+　雲上の畑を覆う日は近いだろう……」
+……連載第一回の締めは、こんな感じですっ！"
+77,"TEXT_CLSHRV530_02049_MUJIHMEWRILAH_000_094","……まだ、克服はされてないぞ、って顔ですね？
+大丈夫ですっ、ちゃんと「事実上」って書いてあります。
+あなたが採ってきた球根なら間違いありませんって！"
+78,"TEXT_CLSHRV530_02049_MUJIHMEWRILAH_000_095","私はここで、引き続きバジールさんの依頼を待ちますので、
+また、よろしくお願いします～！"
+79,"TEXT_CLSHRV530_02049_SYSTEM_000_096","園芸師として、これまでにない境地を感得し、
+「ツリーウィスパラーV」を修得しました！"
+80,"TEXT_CLSHRV530_02049_BASYLE_000_052","（★未使用／削除予定★）"
+81,"TEXT_CLSHRV530_02049_SYSTEM_000_097","（★未使用／削除予定★）"

@@ -1,12 +1,16 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_FESPDY304_02406_SEQ_00","Masha looks at you, confused.
-※This quest is available for a limited time only."
-1,"TEXT_FESPDY304_02406_SEQ_01","While Masha is initially stunned to learn that you have chosen her to lead the upcoming performance, she is quick to recover. Telling you she will do her absolute best to ensure a great performance, she thanks you for not only helping their ensemble through a few rough patches, but also goes on to say that she believes the time you spent together─however brief─was very valuable to her. She believes it has helped her to grow as a person and see her goals with greater clarity. No doubt the royal seneschal is dying to hear who is to be the brightest star. Make your way back to the Ruby Road Exchange and let him know your Songbird of choice.
+0,"TEXT_FESPDY304_02406_SEQ_00","※本クエストは、期間限定のクエストとなります。
 
-※Please note that you will be unable to complete this quest after the seasonal event has ended. For details, please check the Lodestone."
-2,"TEXT_FESPDY304_02406_SEQ_02","The royal seneschal is delighted when he hears that you chose Masha to star in the upcoming show and is just as excited to inform you that Redolent Rose has made good upon his promise. Having received the girls' costumes while you were away, he tells you that they are every bit as glamorous as he had hoped they would be."
+ウルダハのマシャ・マカラッカは、冒険者が今回の公演の主役を誰にするのか気にしているようだ。"
+1,"TEXT_FESPDY304_02406_SEQ_01","※本クエストは、シーズナルイベント開催中にかぎり、
+　受注、進行できます。
+　開催期間終了後は進行できませんので、ご注意ください。
+　期間等の詳細についてはLodestoneをご覧ください。
+
+マシャ・マカラッカと話をして、彼女に今回の公演の主役を務めてもらうことに決めた。ウルダハのルビーロード国際市場にいる「執事王」に報告しよう。"
+2,"TEXT_FESPDY304_02406_SEQ_02","執事王に報告した。マシャ・マカラッカが主役を務める、新衣装お披露目公演の開演がいよいよ間近に迫ったようだ。"
 3,"TEXT_FESPDY304_02406_SEQ_03",""
 4,"TEXT_FESPDY304_02406_SEQ_04",""
 5,"TEXT_FESPDY304_02406_SEQ_05",""
@@ -28,7 +32,7 @@ int32,str,str
 21,"TEXT_FESPDY304_02406_SEQ_21",""
 22,"TEXT_FESPDY304_02406_SEQ_22",""
 23,"TEXT_FESPDY304_02406_SEQ_23",""
-24,"TEXT_FESPDY304_02406_TODO_00","Speak with the royal seneschal."
+24,"TEXT_FESPDY304_02406_TODO_00","執事王に報告"
 25,"TEXT_FESPDY304_02406_TODO_01",""
 26,"TEXT_FESPDY304_02406_TODO_02",""
 27,"TEXT_FESPDY304_02406_TODO_03",""
@@ -52,19 +56,41 @@ int32,str,str
 45,"TEXT_FESPDY304_02406_TODO_21",""
 46,"TEXT_FESPDY304_02406_TODO_22",""
 47,"TEXT_FESPDY304_02406_TODO_23",""
-48,"TEXT_FESPDY304_02406_SYSTEM_000_000","Please note that once you accept this quest, you will be unable to accept the quests “Ulala's Grand Performance” and “Narumi's Grand Performance.”"
-49,"TEXT_FESPDY304_02406_SYSTEM_000_001","While the reward will remain the same, the outcome of this event will change based upon which of these quests you decide to accept."
-50,"TEXT_FESPDY304_02406_Q1_000_000","By accepting this quest, you will be choosing Masha. Are you sure you would like to proceed?"
-51,"TEXT_FESPDY304_02406_A1_000_001","Yes. Masha deserves the spotlight!"
-52,"TEXT_FESPDY304_02406_A1_000_002","I'd like to have a moment to think things over."
-53,"TEXT_FESPDY304_02406_MASHAMHAKARACCA_000_002","T-Truly? You want for <Emphasis>me</Emphasis> to take the lead at the upcoming performance? I hardly dare believe it!"
-54,"TEXT_FESPDY304_02406_MASHAMHAKARACCA_000_003","Thank you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. While I'd be lying if I said I'm not the slightest bit nervous, I will do whatever it takes to ensure the Songbirds deliver their best performance to date!"
-55,"TEXT_FESPDY304_02406_MASHAMHAKARACCA_000_004","I owe it to you for not only granting me this wonderful opportunity, but also for all your earlier help. Had you not come to find me when you did, I'm afraid there would have been no show for me to lead!"
-56,"TEXT_FESPDY304_02406_MASHAMHAKARACCA_000_005","<sigh> I should have never allowed myself to get so distracted by something so trivial─and right before such an important event of all times!"
-57,"TEXT_FESPDY304_02406_MASHAMHAKARACCA_000_006","It did serve to remind me, however, that I mustn't lose sight of what's before me. Nor forget why I chose to become a Songbird."
-58,"TEXT_FESPDY304_02406_MASHAMHAKARACCA_000_007","That is, to do what I am about to do─take the stage and dance my way into the people's hearts!"
-59,"TEXT_FESPDY304_02406_MASHAMHAKARACCA_000_008","I-I suppose we're getting a touch too sentimental now! And while that doesn't make anything I said earlier any less true, I shall leave it at that. <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, I certainly hope to see you at our performance later─it wouldn't be the same without you!"
-60,"TEXT_FESPDY304_02406_BUTLER_000_010","So, my friend, have you decided who will be taking center stage?"
-61,"TEXT_FESPDY304_02406_BUTLER_000_011","Masha? Indeed, you make a convincing case. When she dances, the whole world stops to gaze upon her grace. No doubt our audience will be left breathless after such a display!"
-62,"TEXT_FESPDY304_02406_BUTLER_000_012","And speaking of breathtaking displays, while you were out speaking with Masha, Redolent Rose came by with a very special delivery. You guessed it! The girls' costumes have finally arrived and they're absolutely gorgeous!"
-63,"TEXT_FESPDY304_02406_BUTLER_000_013","While organizing this event has been a grueling task, to say the least, one cannot say it wasn't worth it when they look upon these! Haha!"
+48,"TEXT_FESPDY304_02406_SYSTEM_000_000","本クエストを受注すると「ウララが主役のプリンセスデー」と、
+「ナルミが主役のプリンセスデー」を、
+受注することができません。"
+49,"TEXT_FESPDY304_02406_SYSTEM_000_001","どのクエストを受注しても、報酬などに差はありませんが、
+異なる結末を見ることができます。"
+50,"TEXT_FESPDY304_02406_Q1_000_000","メンバーの決定は、一度しか行うことができません。
+マシャ・マカラッカを今回の公演の主役に選んでよいですか？"
+51,"TEXT_FESPDY304_02406_A1_000_001","マシャ・マカラッカにする"
+52,"TEXT_FESPDY304_02406_A1_000_002","考え直す"
+53,"TEXT_FESPDY304_02406_MASHAMHAKARACCA_000_002","アタシが今回の公演の主役を？
+……本当にアタシでいいの？
+抜てきしてくれたことは嬉しいけど……。"
+54,"TEXT_FESPDY304_02406_MASHAMHAKARACCA_000_003","……わかったわ、選んでもらえたからには全力で頑張るわ。
+公演を心待ちにしているお客さんや、
+アタシたちを支えてくださっている裏方さんのためにも、ね。"
+55,"TEXT_FESPDY304_02406_MASHAMHAKARACCA_000_004","そういえば、グリダニアで困っていた荷物だけれど、
+無事にウルダハまで届いたって、さっき連絡をもらったわ。"
+56,"TEXT_FESPDY304_02406_MASHAMHAKARACCA_000_005","もしあのまま、あそこで悩んでいたら、
+公演に間に合わなかったかもしれない。
+アタシ、どうも目の前のことに夢中になってしまうようで……。"
+57,"TEXT_FESPDY304_02406_MASHAMHAKARACCA_000_006","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さんが来てくれたお陰で、
+あの場をみなさんに任せるという判断ができたと思うの。
+だから、今更だけれど……どうもありがとう。"
+58,"TEXT_FESPDY304_02406_MASHAMHAKARACCA_000_007","……さて、湿っぽいのはここまでにするわ。
+アタシたちのことを待ってくれている人たちのために、
+全力で、そして最高の歌と踊りを届けないと！"
+59,"TEXT_FESPDY304_02406_MASHAMHAKARACCA_000_008","いつも以上に気合を入れて頑張るから、
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さんも、ぜひ見ていってよね？"
+60,"TEXT_FESPDY304_02406_BUTLER_000_010","誰を主役に据えるか、決めていただけましたか？"
+61,"TEXT_FESPDY304_02406_BUTLER_000_011","そうですか、マシャ・マカラッカに任せることにしたのですね。
+彼女が主役であれば、歌に踊りに全力の、
+気合の感じられる公演となること間違いなしでしょう！"
+62,"TEXT_FESPDY304_02406_BUTLER_000_012","冒険者さんが誰を主役に据えるか決められている間に、
+裁縫師ギルドの方がいらして、新衣装をいただけましたよ。
+遅くなりましたが、いよいよ公演の幕開けです！"
+63,"TEXT_FESPDY304_02406_BUTLER_000_013","いろいろとお世話になりましたし、
+冒険者さんが見守る中で、始めたいと思っております。
+準備が整いましたら、お声がけくださいね。"

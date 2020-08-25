@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBSEA055_00467_SEQ_00","Gurcant seeks fertile soil to improve the yields of his newly plowed fields."
-1,"TEXT_SUBSEA055_00467_SEQ_01","It would appear that Rhotwyda is knowledgeable about blackloam. Seek her in the orchard and ask her about this special soil."
-2,"TEXT_SUBSEA055_00467_SEQ_02","While Rhotwyda knows where blackloam may be found, she refuses to do the obtaining herself. In her stead, gather three bushels of blackloam from the lair of aurochs known as the Cookpot."
-3,"TEXT_SUBSEA055_00467_SEQ_03","You have obtained the required quantity of blackloam. Deliver it to Pfrewahl at Tiller's Rest."
-4,"TEXT_SUBSEA055_00467_SEQ_04","Pfrewahl is overjoyed upon seeing the blackloam, but becomes coy when you express your curiosity at the soil's origins. Hopefully it is nothing to soil oneself over."
+0,"TEXT_SUBSEA055_00467_SEQ_00","サマーフォード庄のお雇い園芸師ガーカントは、開拓した農地の収穫量を増やすため、良質な土を欲しているようだ。"
+1,"TEXT_SUBSEA055_00467_SEQ_01","作物を育てるのに適した「湿り気のある黒土」の詳細な情報については、ロットウィダが詳しいようだ。果樹園で作業中の「ロットウィダ」に話しかけよう。"
+2,"TEXT_SUBSEA055_00467_SEQ_02","「湿り気のある黒土」3袋分を、「クックポット」にて集めよう。ただし、クックポットは、オーロックスの住処になっているという。くれぐれも気をつけよう。"
+3,"TEXT_SUBSEA055_00467_SEQ_03","必要な量の「湿り気のある黒土」を集めることができた。これを、「開拓者の納屋」にいる「フルーアール」に届けよう。"
+4,"TEXT_SUBSEA055_00467_SEQ_04","芳しい土をフルーアールに届けたところ、過剰と思えるほどに感謝された。その理由は、手渡した土に関係があるようだが、真相について、フルーアールはかたくなに口を閉ざす。はたして、この土の秘密とは、いったい……？"
 5,"TEXT_SUBSEA055_00467_SEQ_05",""
 6,"TEXT_SUBSEA055_00467_SEQ_06",""
 7,"TEXT_SUBSEA055_00467_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_SUBSEA055_00467_SEQ_21",""
 22,"TEXT_SUBSEA055_00467_SEQ_22",""
 23,"TEXT_SUBSEA055_00467_SEQ_23",""
-24,"TEXT_SUBSEA055_00467_TODO_00","Speak with Rhotwyda."
-25,"TEXT_SUBSEA055_00467_TODO_01","Obtain the blackloam in the Cookpot."
-26,"TEXT_SUBSEA055_00467_TODO_02","Take the blackloam to Pfrewahl at Tiller's Rest."
+24,"TEXT_SUBSEA055_00467_TODO_00","ロットウィダに話を聞く"
+25,"TEXT_SUBSEA055_00467_TODO_01","湿り気のある黒土を入手"
+26,"TEXT_SUBSEA055_00467_TODO_02","フルーアールに湿り気のある黒土を届ける"
 27,"TEXT_SUBSEA055_00467_TODO_03",""
 28,"TEXT_SUBSEA055_00467_TODO_04",""
 29,"TEXT_SUBSEA055_00467_TODO_05",""
@@ -49,15 +49,36 @@ int32,str,str
 45,"TEXT_SUBSEA055_00467_TODO_21",""
 46,"TEXT_SUBSEA055_00467_TODO_22",""
 47,"TEXT_SUBSEA055_00467_TODO_23",""
-48,"TEXT_SUBSEA055_00467_SYSTEM_100_000","To accept this quest, you must abandon the current main scenario quest. Open the corresponding entry in the journal or duty list and select “Abandon.”"
-49,"TEXT_SUBSEA055_00467_GURCANT_000_1","Blast! At this rate, the crops will never be ready for harvest."
-50,"TEXT_SUBSEA055_00467_GURCANT_000_2","If only we had blackloam... Just a bit could send our stalks soaring!"
-51,"TEXT_SUBSEA055_00467_GURCANT_000_3","I'll bet Rhotwyda knows where you might find some. Perhaps you might pay her a visit in the orchard?"
-52,"TEXT_SUBSEA055_00467_RHOTWYDA_000_11","That Gurcant's got a head of cabbage if he thinks I'm fetchin' him any blackloam! "
-53,"TEXT_SUBSEA055_00467_RHOTWYDA_000_12","But if you dare to pinch some from the Cookpot, then be my guest. Just mind you don't get trampled upon by the aurochs that dwell there."
-54,"TEXT_SUBSEA055_00467_RHOTWYDA_000_13","Once you've three bushels' worth, take the blackloam to Pfrewahl at Tiller's Rest. He'll know what to do."
-55,"TEXT_SUBSEA055_00467_PFREWAHL_000_21","Argh, even the weeds wither and die in this desolate dirt."
-56,"TEXT_SUBSEA055_00467_PFREWAHL_000_22","But a bit of this blackloam ought to change all that! I haven't seen any in ages. Gathering blackloam's not for the weak of will...nor the weak of stomach, eh? Hahaha!"
-57,"TEXT_SUBSEA055_00467_PFREWAHL_000_23","...Oh, don't tell me Gurcant and Rhotwyda neglected to mention where blackloam comes from."
-58,"TEXT_SUBSEA055_00467_PFREWAHL_000_24","Well, surely you figured it out on your own from the cloying stench! It comes from the aurochs' <Emphasis>lair</Emphasis>, of all places!"
-59,"TEXT_SUBSEA055_00467_PFREWAHL_000_25","Ahem, well, why dwell on who misled whom about what? What matters is that your efforts have brought us the blackloam, and we can expect a bountiful harvest as a result. Thank you!"
+48,"TEXT_SUBSEA055_00467_SYSTEM_100_000","受注するには、進行中のメインクエストを破棄する必要があります。
+メインコマンドの「コンテンツ情報」から、
+「ジャーナル」を選び、破棄してください。"
+49,"TEXT_SUBSEA055_00467_GURCANT_000_1","うーむ、困ったのう……
+このままじゃ、計画通りの収穫なんぞ、
+どだい無理な話じゃわい。"
+50,"TEXT_SUBSEA055_00467_GURCANT_000_2","だが、「湿り気のある黒土」さえありゃ……
+これを畑に混ぜれば、開拓したての痩せた土地でも、
+作物がぐんぐん育つんじゃがのう……"
+51,"TEXT_SUBSEA055_00467_GURCANT_000_3","お前さん、すまんが「湿り気のある黒土」を集めてくれんか？
+詳しい話は、果樹園で作業中の「ロットウィダ」に聞いとくれ。"
+52,"TEXT_SUBSEA055_00467_RHOTWYDA_000_11","ガーカントに、「湿り気のある黒土」集めを頼まれたの？
+それは気の毒に……まあ、あなたが気にしないなら、
+こっちは大歓迎よ。"
+53,"TEXT_SUBSEA055_00467_RHOTWYDA_000_12","「湿り気のある黒土」は「クックポット」に、たっくさんあるよ。
+ただ、あそこはオーロックスの住処だから
+踏み潰されないように気をつけてね。"
+54,"TEXT_SUBSEA055_00467_RHOTWYDA_000_13","「湿り気のある黒土」を3袋ほど集められたら、
+「開拓者の納屋」にいる「フルーアール」へ届けてあげて。
+それじゃ、よろしくね。"
+55,"TEXT_SUBSEA055_00467_PFREWAHL_000_21","うーむ、このままじゃ収穫は期待できないな。
+せめて「湿り気のある黒土」があれば………。"
+56,"TEXT_SUBSEA055_00467_PFREWAHL_000_22","おお、これは「湿り気のある黒土」！
+まさか、これほど危険で、汚い仕事を
+引き受けてくれる人がいるとは。"
+57,"TEXT_SUBSEA055_00467_PFREWAHL_000_23","……おや、もしやあんたは、ガーカントからも
+ロットウィダからも、この土の正体について、
+何も聞かされていないのかい？"
+58,"TEXT_SUBSEA055_00467_PFREWAHL_000_24","このずっしり湿り気を帯びた塊、
+そして、ねっとり粘り着くような臭気……
+そう、これはオーロックスの……"
+59,"TEXT_SUBSEA055_00467_PFREWAHL_000_25","いや、世の中には、知らない方が幸せなこともある。
+とにかく、あんたの自己犠牲の精神に感謝するよ！"

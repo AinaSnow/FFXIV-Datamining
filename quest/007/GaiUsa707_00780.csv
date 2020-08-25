@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSA707_00780_SEQ_00","Amelot needs something, and needs it now."
-1,"TEXT_GAIUSA707_00780_SEQ_01","Amelot needs to prepare an antidote─and quickly─but lacks for a vital ingredient. Use the bottle of leoformic acid she has entrusted to you to slay a rockskin peiste and obtain its poison."
-2,"TEXT_GAIUSA707_00780_SEQ_02","You have obtained a secretion of peiste poison. Deliver it to Amelot with due haste."
-3,"TEXT_GAIUSA707_00780_SEQ_03","As Amelot tells it, the poisons employed by the Corpse Brigade have grown increasingly potent of late, and antidote has been in short supply. Your efforts have made it possible for the Resistance to continue fighting the good fight."
+0,"TEXT_GAIUSA707_00780_SEQ_00","リトルアラミゴのアメロットには、欲しいものがあるようだ。"
+1,"TEXT_GAIUSA707_00780_SEQ_01","解毒剤の材料である「<Sheet(EventItem,2000615,0)/>」を手に入れるため、協力を求めてきたアメロット。「<Sheet(EventItem,2000829,0)/>」を使って「<Sheet(BNpcName,1993,0)/>」を倒そう。"
+2,"TEXT_GAIUSA707_00780_SEQ_02","<Sheet(EventItem,2000615,0)/>を手に入れることができた。リトルアラミゴへ戻って「アメロット」に「<Sheet(EventItem,2000615,0)/>」を渡そう。"
+3,"TEXT_GAIUSA707_00780_SEQ_03","解毒剤は「骸旅団」に対抗するために必要なものであったらしい。今後とも、アラミゴ解放軍の人々へ協力していこう。"
 4,"TEXT_GAIUSA707_00780_SEQ_04",""
 5,"TEXT_GAIUSA707_00780_SEQ_05",""
 6,"TEXT_GAIUSA707_00780_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSA707_00780_SEQ_21",""
 22,"TEXT_GAIUSA707_00780_SEQ_22",""
 23,"TEXT_GAIUSA707_00780_SEQ_23",""
-24,"TEXT_GAIUSA707_00780_TODO_00","Use the leoformic acid and slay a rockskin peiste."
-25,"TEXT_GAIUSA707_00780_TODO_01","Deliver the peiste poison to Amelot."
+24,"TEXT_GAIUSA707_00780_TODO_00","<Sheet(EventItem,2000829,0)/>を使って<Sheet(BNpcName,1993,0)/>を討伐"
+25,"TEXT_GAIUSA707_00780_TODO_01","アメロットに<Sheet(EventItem,2000615,0)/>を渡す"
 26,"TEXT_GAIUSA707_00780_TODO_02",""
 27,"TEXT_GAIUSA707_00780_TODO_03",""
 28,"TEXT_GAIUSA707_00780_TODO_04",""
@@ -49,14 +49,26 @@ int32,str,str
 45,"TEXT_GAIUSA707_00780_TODO_21",""
 46,"TEXT_GAIUSA707_00780_TODO_22",""
 47,"TEXT_GAIUSA707_00780_TODO_23",""
-48,"TEXT_GAIUSA707_00780_AMELOT_000_000","Adventurer. I fear I've no time for pleasantries, but I would be much in your debt if you could perform for me a simple task."
-49,"TEXT_GAIUSA707_00780_AMELOT_000_001","To wit, I need you to slay a rockskin peiste and obtain for me a secretion of its poison."
-50,"TEXT_GAIUSA707_00780_AMELOT_000_002","If you've seen one of those fearsome reptiles─as I reckon you have─you know that their scales are as hard as solid stone."
-51,"TEXT_GAIUSA707_00780_AMELOT_000_003","This acid I give you, however, will cut right through it─I haven't much, so pray use it well."
-52,"TEXT_GAIUSA707_00780_AMELOT_000_004","Some of my countrymen are not quick to trust outsiders, but I've no time to entertain foolish prejudices─this is a matter of life and death."
-53,"TEXT_GAIUSA707_00780_TODO_000_010","//: kill peiste, get poison"
-54,"TEXT_GAIUSA707_00780_AMELOT_000_020","You return, adventurer. Have you brought me the poison I seek?"
-55,"TEXT_GAIUSA707_00780_AMELOT_000_025","On behalf of my countrymen, you have my thanks."
-56,"TEXT_GAIUSA707_00780_AMELOT_000_026","Forgive me for my brusqueness before. Our skirmishes with the Corpse Brigade have taken a great toll on us of late. They employ poisons ever more lethal, and our antidote stores were running low."
-57,"TEXT_GAIUSA707_00780_AMELOT_000_027","I must attend to my potion-brewing, but thank you, outsider. Because of you, the men and women of the Resistance live to fight another day."
-58,"TEXT_GAIUSA707_00780_POP_MESSAGE_000","With a savage hiss, the scaled beast strikes at you!"
+48,"TEXT_GAIUSA707_00780_AMELOT_000_000","解毒剤作りを頼まれたんだが、材料がひとつ足りないんだ。
+必要なのは「<Sheet(EventItem,2000615,0)/>」さ。"
+49,"TEXT_GAIUSA707_00780_AMELOT_000_001","こいつは「<Sheet(BNpcName,1993,0)/>」っていう
+凶暴な魔物からしか取れないんだ。"
+50,"TEXT_GAIUSA707_00780_AMELOT_000_002","やっかいなのは、奴の皮膚が岩のように硬いことさ。
+でも、この「<Sheet(EventItem,2000829,0)/>」を使えば、
+自慢の皮膚を溶かすことができる。"
+51,"TEXT_GAIUSA707_00780_AMELOT_000_003","なんとか、<Sheet(BNpcName,1993,0)/>を倒して、
+「<Sheet(EventItem,2000615,0)/>」を手に入れてきてくれ。"
+52,"TEXT_GAIUSA707_00780_AMELOT_000_004","よそ者だなんて気にしないでくれよ。
+あたしは、腕利きのあんたに仕事を頼みたいだけだ。"
+53,"TEXT_GAIUSA707_00780_TODO_000_010","指定地点で「見まわす」と強バジリスクＰＯＰ
+（バトルアイテム使用で倒す＊1→バジリスクの毒を入手"
+54,"TEXT_GAIUSA707_00780_AMELOT_000_020","よう、冒険者さん。
+頼んでたものは、手に入ったかい？"
+55,"TEXT_GAIUSA707_00780_AMELOT_000_025","ありがたい！
+これで「骸旅団」と戦える！"
+56,"TEXT_GAIUSA707_00780_AMELOT_000_026","……あれ、説明してなかったか？
+「骸旅団」の奴らは、殺しに毒を使うことがあるんだ。
+だから、解毒剤がなきゃ危なくって戦えないのさ。"
+57,"TEXT_GAIUSA707_00780_AMELOT_000_027","あんたのおかげで、解毒剤の材料はそろった。
+……あとは、あたしの腕と勘次第だな。"
+58,"TEXT_GAIUSA707_00780_POP_MESSAGE_000","敵の気配を感じた！！"

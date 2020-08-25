@@ -1,9 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANPIX126_03714_SEQ_00","Uin Nee has porxie problems.
+0,"TEXT_BANPIX126_03714_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト受注クラス・ジョブ制限<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+※本クエストは受注時のクラス・ジョブでのみ進行します。
 
-※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
+リダ・ラーンのウィン＝ニイは、ポークシーの体調を心配しているようだ。"
 1,"TEXT_BANPIX126_03714_SEQ_01",""
 2,"TEXT_BANPIX126_03714_SEQ_02",""
 3,"TEXT_BANPIX126_03714_SEQ_03",""
@@ -27,9 +28,10 @@ int32,str,str
 21,"TEXT_BANPIX126_03714_SEQ_21",""
 22,"TEXT_BANPIX126_03714_SEQ_22",""
 23,"TEXT_BANPIX126_03714_SEQ_23",""
-24,"TEXT_BANPIX126_03714_TODO_00","Speak with Lugg Aenc."
-25,"TEXT_BANPIX126_03714_TODO_01","Direct the porxie to use Siphon Snout on Voeburtwort in southern Pla Enni."
-26,"TEXT_BANPIX126_03714_TODO_02","Report to Uin Nee."
+24,"TEXT_BANPIX126_03714_TODO_00","ラグ＝インクと話す"
+25,"TEXT_BANPIX126_03714_TODO_01","ポークシーに騎乗してプラ・エンニ茸窟の南にある、
+フッブートハーブの傍ですいこみを使う"
+26,"TEXT_BANPIX126_03714_TODO_02","ウィン＝ニイに報告"
 27,"TEXT_BANPIX126_03714_TODO_03",""
 28,"TEXT_BANPIX126_03714_TODO_04",""
 29,"TEXT_BANPIX126_03714_TODO_05",""
@@ -51,16 +53,36 @@ int32,str,str
 45,"TEXT_BANPIX126_03714_TODO_21",""
 46,"TEXT_BANPIX126_03714_TODO_22",""
 47,"TEXT_BANPIX126_03714_TODO_23",""
-48,"TEXT_BANPIX126_03714_UINNEE_000_001","Mortal! Our nectar porxie has a problem! And the porxie's problem is making the porxie itself a problem! For me!"
-49,"TEXT_BANPIX126_03714_UINNEE_000_002","I think its nose is stuffed. I keep pointing it at the flowers, but it only bumps its face into them. Repeatedly. Without siphoning a single drop of nectar!"
-50,"TEXT_BANPIX126_03714_UINNEE_000_003","Can you take it out to sniff some Voeburtwort? The Nu Mou are always telling me how it clears the sinuses─and they would know!"
-51,"TEXT_BANPIX126_03714_UINNEE_000_004","I would go myself, but I'd really rather not. It's rather...snotty. I've given it over to Lugg Aenc to deal with for now."
-52,"TEXT_BANPIX126_03714_LUGGAENC_000_010","I am told that you are here to take the porxie out for a good nasal clearing? Wonderful. I'm sure that will come as something of a relief to it─the herbs and the respite from Uin Nee both."
-53,"TEXT_BANPIX126_03714_LUGGAENC_000_011","You need only guide it toward the fresh Voeburtwort that grows wild near Pla Enni. The plants shall do the rest."
-54,"TEXT_BANPIX126_03714_LUGGAENC_000_015","Yes, the porxie returned safely. It still appears to have something of an issue with discerning scents, however. Tried to eat my satchel. You may need to have another go at the Voeburtwort."
-55,"TEXT_BANPIX126_03714_SYSTEM_000_020","The porxie unceremoniously snorts sprigs of Voeburtwort into both nostrils and, after a moment, sneezes out a large quantity of snot. Presumably this is a good sign."
-56,"TEXT_BANPIX126_03714_SYSTEM_000_021","The porxie inhales deeply, accidentally sucking a few herbs and grasses into its nose. However, it does seem to be breathing more freely now."
-57,"TEXT_BANPIX126_03714_SYSTEM_100_021","The Voeburtwort is indeed quite fragrant, and you feel your sinuses clearing instantaneously. Guide the suffering porxie to experience the same sweet relief."
-58,"TEXT_BANPIX126_03714_UINNEE_000_030","Thank you for taking care of that disgusting issue! I'll admit, when we shoved all of that stuff up its nose, I didn't expe─"
-59,"TEXT_BANPIX126_03714_UINNEE_000_031","Oh, come to think of it, I neglected to explain, didn't I? You see, I took the porxie into the Garden of Dreams so that the children could play with it. But, well, they discovered that it could inhale just about anything, and one thing led to another..."
-60,"TEXT_BANPIX126_03714_UINNEE_000_032","Ah, it was hilarious! You should join us next time! ...What?"
+48,"TEXT_BANPIX126_03714_UINNEE_000_001","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん、たいへん！
+ポークシーが鼻づまりを起こしちゃったの！
+このままだと、花蜜を吸って集めることができないわ……。"
+49,"TEXT_BANPIX126_03714_UINNEE_000_002","ン・モゥに相談したら、プラ・エンニ茸窟のそばに生えている、
+フッブートハーブの香りを吸わせれば、鼻がスッキリするそうなの。"
+50,"TEXT_BANPIX126_03714_UINNEE_000_003","でも、なぜかワタシは、ポークシーに嫌われているみたいで、
+乗ろうとすると逃げられちゃうのよね……。"
+51,"TEXT_BANPIX126_03714_UINNEE_000_004","だから、アナタだけが頼りよ！
+「ラグ＝インク」と話して、ポークシーに乗って、
+フッブートハーブの香りを吸わせにいってちょうだい！"
+52,"TEXT_BANPIX126_03714_LUGGAENC_000_010","どうも、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん、
+ウィン＝ニイから話は聞いていますよ。
+あなたが乗るのならば、ポークシーも安心でしょう。"
+53,"TEXT_BANPIX126_03714_LUGGAENC_000_011","それでは、ポークシーに乗ってプラ・エンニ茸窟のそばへ向かい、
+自生している、フッブートハーブの香りを吸わせてあげてください。"
+54,"TEXT_BANPIX126_03714_LUGGAENC_000_015","ポークシーが戻ってきましたが、まだ鼻がつまっているようです。
+すみませんが、もう一度、プラ・エンニ茸窟のそばへ向かい、
+フッブートハーブの香りを吸わせてあげてくれませんか？"
+55,"TEXT_BANPIX126_03714_SYSTEM_000_020","ポークシーはフッブートハーブの香りを吸い込んだ！
+鼻がスースーしたようで気持ちよさそうだ！"
+56,"TEXT_BANPIX126_03714_SYSTEM_000_021","ポークシーはフッブートハーブの香りを吸い込んだ！
+爽やかな香りにウットリとしている！"
+57,"TEXT_BANPIX126_03714_SYSTEM_100_021","フッブートハーブの爽やかな香りがする。
+リダ・ラーンの「ラグ＝インク」に話しかけ、
+ポークシーに騎乗して、「すいこみ」を行わせよう。"
+58,"TEXT_BANPIX126_03714_UINNEE_000_030","ポークシーの鼻づまりが治ったみたいだわ、どうもありがとう！
+ところで、鼻がつまってしまった原因なんだけど……"
+59,"TEXT_BANPIX126_03714_UINNEE_000_031","子供たちが喜ぶと思って、ポークシーを夢の中に連れ込んだの。
+そしたらみんな、なんでも吸い込む鼻を面白がっちゃって、
+イロイロなモノを吸わせてしまったのよ！"
+60,"TEXT_BANPIX126_03714_UINNEE_000_032","ワタシも見ていたのだけれど、
+吸い込むモノによって反応が変わって、ホント面白かったわ！
+アナタにも見せてあげたかったなぁ、フフフ♪"

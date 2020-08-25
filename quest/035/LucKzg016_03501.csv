@@ -1,8 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKZG016_03501_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-The taciturn miner is planning a journey of great personal importance."
+0,"TEXT_LUCKZG016_03501_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+トゥワインの大柄なロンゾ族は、冒険者に護衛を頼みたいようだ。"
 1,"TEXT_LUCKZG016_03501_SEQ_01",""
 2,"TEXT_LUCKZG016_03501_SEQ_02",""
 3,"TEXT_LUCKZG016_03501_SEQ_03",""
@@ -26,9 +26,9 @@ The taciturn miner is planning a journey of great personal importance."
 21,"TEXT_LUCKZG016_03501_SEQ_21",""
 22,"TEXT_LUCKZG016_03501_SEQ_22",""
 23,"TEXT_LUCKZG016_03501_SEQ_23",""
-24,"TEXT_LUCKZG016_03501_TODO_00","Speak with the taciturn miner."
-25,"TEXT_LUCKZG016_03501_TODO_01","Cast a commemorative flower into the ravine."
-26,"TEXT_LUCKZG016_03501_TODO_02","Speak with the taciturn miner."
+24,"TEXT_LUCKZG016_03501_TODO_00","大柄なロンゾ族と話す"
+25,"TEXT_LUCKZG016_03501_TODO_01","<Sheet(EObj,2010745,0)/>に<Sheet(EventItem,2002899,0)/>を投げる"
+26,"TEXT_LUCKZG016_03501_TODO_02","大柄なロンゾ族と話す"
 27,"TEXT_LUCKZG016_03501_TODO_03",""
 28,"TEXT_LUCKZG016_03501_TODO_04",""
 29,"TEXT_LUCKZG016_03501_TODO_05",""
@@ -50,24 +50,50 @@ The taciturn miner is planning a journey of great personal importance."
 45,"TEXT_LUCKZG016_03501_TODO_21",""
 46,"TEXT_LUCKZG016_03501_TODO_22",""
 47,"TEXT_LUCKZG016_03501_TODO_23",""
-48,"TEXT_LUCKZG016_03501_RONSO03501_000_000","Excuse me, sinner. I am planning a journey into dangerous territory and need a bodyguard. Can you help me?"
-49,"TEXT_LUCKZG016_03501_RONSO03501_000_001","My destination is the bridge that stretches across the northern chasm. I should be able to reach it but I will need you to watch my back once I arrive. There is something I must do..."
-50,"TEXT_LUCKZG016_03501_RONSO03501_000_010","This is where a close friend of mine lost his life. He was a miner, one of the best. Until the day he was attacked by a sin eater."
-51,"TEXT_LUCKZG016_03501_RONSO03501_000_011","After Daedalus Stoneworks closed and the Talos fell into disrepair, he tried to find alternative methods for operating the trolleys, such as having them pulled by lizards. It was during one of these trials that he met his end."
-52,"TEXT_LUCKZG016_03501_RONSO03501_000_012","Though you are an outsider and never met him, it would mean a lot to me if you could join me in paying respects. Here, cast this flower into the ravine."
-53,"TEXT_LUCKZG016_03501_RONSO03501_000_020","Do you have customs like this where you come from?"
-54,"TEXT_LUCKZG016_03501_SYSTEM_000_030","You pay your respects by offering a flower for the lost miner."
-55,"TEXT_LUCKZG016_03501_RONSO03501_000_031","I wonder if he is watching us now, alongside all of the other great Ronso of the past. Many of the villages and mountains in Amh Araeng bear their names."
-56,"TEXT_LUCKZG016_03501_RONSO03501_000_032","My friend and I once dreamed of opening mines and naming them after ourselves. I still hold on to that hope, even though he is no longer with us."
-57,"TEXT_LUCKZG016_03501_RONSO03501_000_033","I can tell you too have lost loved ones. What do you do to overcome the grief?"
-58,"TEXT_LUCKZG016_03501_Q1_000_000","What will you say?"
-59,"TEXT_LUCKZG016_03501_A1_000_001","I try to concentrate on the here and now."
-60,"TEXT_LUCKZG016_03501_A1_000_002","When the tears come, I let them flow."
-61,"TEXT_LUCKZG016_03501_A1_000_003","We each find our own way. You must find yours."
-62,"TEXT_LUCKZG016_03501_RONSO03501_000_040","Yes, there are others that still need us. Deeds that must be done."
-63,"TEXT_LUCKZG016_03501_RONSO03501_000_050","Yes, only by accepting the pain in our hearts can we hope to move on."
-64,"TEXT_LUCKZG016_03501_RONSO03501_000_060","Yes, you are right. True strength must come from within."
-65,"TEXT_LUCKZG016_03501_RONSO03501_000_070","I am grateful for your kind words."
-66,"TEXT_LUCKZG016_03501_RONSO03501_000_071","I shall reflect on them as we journey back to Twine."
-67,"TEXT_LUCKZG016_03501_RONSO03501_000_080","I was glad to have someone to hear my friend's tale. For in the telling, I was able to look back on happier times. From this day forth, I will strive to uphold the ideals that we once shared and in so doing, honor his memory. "
-68,"TEXT_LUCKZG016_03501_RONSO03501_000_081","Please accept this as a small token of my thanks."
+48,"TEXT_LUCKZG016_03501_RONSO03501_000_000","すまない、旅人よ。
+亡くなった友人を弔いに行きたいので、
+護衛を頼めないだろうか。"
+49,"TEXT_LUCKZG016_03501_RONSO03501_000_001","このあたりは人口も少なく、魔物がはびこる一方でな。
+町の外に出るだけでも、一苦労なのだ。
+よろしく頼む。"
+50,"TEXT_LUCKZG016_03501_RONSO03501_000_010","鉱山労働者仲間だった友人は、ここで亡くなった。
+罪喰いに襲われたのだ。"
+51,"TEXT_LUCKZG016_03501_RONSO03501_000_011","彼はダイダロス社が撤退し、タロースが使えなくなっても、
+リザードにトロッコを牽かせることができないか、
+試行錯誤していて……そのさなかに、な……。"
+52,"TEXT_LUCKZG016_03501_RONSO03501_000_012","旅人よ、よければ君も弔ってくれ。
+この「<Sheet(EventItem,2002899,0)/>」をアンバーヒルに向かって、
+投げてくれればいい。"
+53,"TEXT_LUCKZG016_03501_RONSO03501_000_020","「<Sheet(EventItem,2002899,0)/>」をアンバーヒルに向かって投げ、
+友人を弔ってくれ。"
+54,"TEXT_LUCKZG016_03501_SYSTEM_000_030","<Sheet(EventItem,2002899,0)/>を投げ、亡くなった鉱山労働者を弔った……。"
+55,"TEXT_LUCKZG016_03501_RONSO03501_000_031","……知っているか？
+昔、このあたりで採掘業を営んでいたロンゾ族は、
+集落や山に、歴史的な偉人の名前をつけていた。"
+56,"TEXT_LUCKZG016_03501_RONSO03501_000_032","俺と友人は、この線路の上で、
+いつか自分たちで鉱山を拓き、かつての偉人のように、
+そこへ自分たちの名前をつけようと話していたんだ。"
+57,"TEXT_LUCKZG016_03501_RONSO03501_000_033","……君も旅人なんかをやっていると、
+幾度となく別れを体験しているだろう。
+どうやってそれを乗り越えたのだ？"
+58,"TEXT_LUCKZG016_03501_Q1_000_000","何と答える？"
+59,"TEXT_LUCKZG016_03501_A1_000_001","やるべきことを見つける"
+60,"TEXT_LUCKZG016_03501_A1_000_002","思いっきり悲しむ"
+61,"TEXT_LUCKZG016_03501_A1_000_003","…………"
+62,"TEXT_LUCKZG016_03501_RONSO03501_000_040","やるべきこと、か……。
+なるほどなあ……。
+俺にはそんなことすら、思いつかなかった。"
+63,"TEXT_LUCKZG016_03501_RONSO03501_000_050","そうか、たしかにそのとおりだ。
+悲しめるだけ悲しむ……。
+俺にはそんなことも、できなかった。"
+64,"TEXT_LUCKZG016_03501_RONSO03501_000_060","答えることはできない？
+乗り越え方はひとそれぞれ、ということか。"
+65,"TEXT_LUCKZG016_03501_RONSO03501_000_070","……すまない、つまらない話を長々としてしまった。
+こんなことを話せる奴はいないものでね。"
+66,"TEXT_LUCKZG016_03501_RONSO03501_000_071","さあ、目的は果たしたし、
+トゥワインへもどろう。"
+67,"TEXT_LUCKZG016_03501_RONSO03501_000_080","ありがとう、旅人よ。
+君のおかげで、友人を弔うことができた。"
+68,"TEXT_LUCKZG016_03501_RONSO03501_000_081","……くたびれた中年男の昔話に、
+つきあわせてしまって悪かったな。
+さあ、報酬を受け取ってくれ。"

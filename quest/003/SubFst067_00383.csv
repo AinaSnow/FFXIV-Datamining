@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBFST067_00383_SEQ_00","Finnea has work for a meddlesome adventurer."
-1,"TEXT_SUBFST067_00383_SEQ_01","While Finnea cares little for the adventurers of Gridania, she is willing to direct you to someone who may have need of your services. Seek out Balarr, the groundskeeper of the Tam–Tara Deepcroft."
-2,"TEXT_SUBFST067_00383_SEQ_02","Balarr is indeed happy to receive you, and he asks you to make offerings to pacify the spirits of those interred in the Deepcroft. Lay the Nymeia lilies at the top of each barrow."
-3,"TEXT_SUBFST067_00383_SEQ_03","You respectfully lay the lilies on each barrow. Return to Balarr and let him know that the task is complete."
-4,"TEXT_SUBFST067_00383_SEQ_04","Balarr thanks you for helping him to soothe the restless souls of Gridania's dead. However, it remains to be seen how effective your gesture will be..."
+0,"TEXT_SUBFST067_00383_SEQ_00","ガルヴァンス監視哨のフィンネアは、冒険者に仕事を紹介してくれるようだ。"
+1,"TEXT_SUBFST067_00383_SEQ_01","「タムタラの墓所」の墓守、バラルが仕事を紹介してくれると言う。彼の住む小屋を訪れ「バラル」から話を聞こう。"
+2,"TEXT_SUBFST067_00383_SEQ_02","祭壇にニメーヤリリーの花束を供えるよう頼まれた。「タムタラの墓所」に向かい、3箇所の「祭壇」に「ニメーヤリリーの花束」を供えよう。"
+3,"TEXT_SUBFST067_00383_SEQ_03","すべての祭壇に花を供えることができた。小屋で待つ、墓守の「バラル」に報告しよう。"
+4,"TEXT_SUBFST067_00383_SEQ_04","ニメーヤリリーの花束を捧げたことに感謝を述べるバラル。冒険者の捧げたニメーヤリリーの花束が、墓所に眠る者たちを慰めてくれるといいのだが。"
 5,"TEXT_SUBFST067_00383_SEQ_05",""
 6,"TEXT_SUBFST067_00383_SEQ_06",""
 7,"TEXT_SUBFST067_00383_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_SUBFST067_00383_SEQ_21",""
 22,"TEXT_SUBFST067_00383_SEQ_22",""
 23,"TEXT_SUBFST067_00383_SEQ_23",""
-24,"TEXT_SUBFST067_00383_TODO_00","Speak with Balarr."
-25,"TEXT_SUBFST067_00383_TODO_01","Lay the Nymeia lilies atop the barrows."
-26,"TEXT_SUBFST067_00383_TODO_02","Report to Balarr."
+24,"TEXT_SUBFST067_00383_TODO_00","バラルと話す"
+25,"TEXT_SUBFST067_00383_TODO_01","祭壇にニメーヤリリーの花束を供える"
+26,"TEXT_SUBFST067_00383_TODO_02","バラルに報告"
 27,"TEXT_SUBFST067_00383_TODO_03",""
 28,"TEXT_SUBFST067_00383_TODO_04",""
 29,"TEXT_SUBFST067_00383_TODO_05",""
@@ -49,13 +49,27 @@ int32,str,str
 45,"TEXT_SUBFST067_00383_TODO_21",""
 46,"TEXT_SUBFST067_00383_TODO_22",""
 47,"TEXT_SUBFST067_00383_TODO_23",""
-48,"TEXT_SUBFST067_00383_FINNEA_000_1","Another godsdamned adventurer desperate to stick <If(PlayerParameter(4))>her<Else/>his</If> nose in everyone's business, is it? Then seek out the groundskeeper of the Tam–Tara Deepcroft."
-49,"TEXT_SUBFST067_00383_FINNEA_000_2","You'll find him in a shack just outside the entrance, as the hermit is all too happy to live close to his work."
-50,"TEXT_SUBFST067_00383_FINNEA_000_3","When last I patrolled that area, I could hear him swearing inside his shack from the road. I know not what vexes the man, but I suspect he'll welcome your presence more than I."
-51,"TEXT_SUBFST067_00383_BALARR_000_11","After a bit o' work, are ye? Aye, I've a task what needs doin'. Take these Nymeia lilies and leave 'em at the top of each barrow."
-52,"TEXT_SUBFST067_00383_BALARR_000_12","Ye've doubtless seen the bones returned to life by <Emphasis>foul</Emphasis> magicks, shamblin' around and harassin' their survivin' comrades. It hurts me <Emphasis>soul</Emphasis> to see it, adventurer─I cannae abide such <Emphasis>blasphemy</Emphasis>!"
-53,"TEXT_SUBFST067_00383_BALARR_000_13","'Tis me hope that these lilies soothe their spirits and help 'em return to the Matron's bosom. See me when ye've finished."
-54,"TEXT_SUBFST067_00383_BALARR_000_21","Ye've done holy work <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>this eve<Else/>this morn'</If><Else/><If(LessThan(PlayerParameter(11),17))>today<Else/>this eve</If></If>, <If(PlayerParameter(4))>lass<Else/>lad</If>."
-55,"TEXT_SUBFST067_00383_BALARR_000_22","I cannae fathom what could drive the dead to rise up and seek to do us harm, but I pray that this helps put an end to it."
-56,"TEXT_SUBFST067_00383_BALARR_000_23","May the Matron watch over and keep ye safe."
-57,"TEXT_SUBFST067_00383_POP_MESSAGE","An eerie light catches your eye..."
+48,"TEXT_SUBFST067_00383_FINNEA_000_1","お前、仕事が欲しいのだろう？
+ならばこの奥の「タムタラの墓所」の
+近くに建っている小屋に行ってみるといい。"
+49,"TEXT_SUBFST067_00383_FINNEA_000_2","小屋には「バラル」という墓守が住んでいて、
+タムタラの墓所の手入れをしている。"
+50,"TEXT_SUBFST067_00383_FINNEA_000_3","この間、様子を見に行ったら
+人手が足らないとぼやいていた。
+行けば何かしらの仕事はあるだろう。"
+51,"TEXT_SUBFST067_00383_BALARR_000_11","フィンネアから話を聞いて来てくれたんだな。
+それじゃ、この「ニメーヤリリーの花束」を
+墓所の上の祭壇に供えてきてくれないか。"
+52,"TEXT_SUBFST067_00383_BALARR_000_12","このところ、祭壇の周りに、
+妙な魔物が現れるようになってね。
+こう騒がしくては、墓所に眠る者たちも落ち着かないだろう。"
+53,"TEXT_SUBFST067_00383_BALARR_000_13","森のことを心配せず、安らかに眠れるよう、
+3箇所の祭壇にニメーヤリリーの花束を手向けてやってくれ。"
+54,"TEXT_SUBFST067_00383_BALARR_000_21","ニメーヤリリーの花束を供えてきてくれたか。
+ご苦労だったね。"
+55,"TEXT_SUBFST067_00383_BALARR_000_22","それにしても、近頃現れるようになった魔物は
+いったい何なのだろうか。
+早く元の静かな墓所に戻るといいのだが……。"
+56,"TEXT_SUBFST067_00383_BALARR_000_23","まあ、とにかく手伝ってくれてありがとう。
+これは礼だ。"
+57,"TEXT_SUBFST067_00383_POP_MESSAGE","敵の気配を感じた！！"

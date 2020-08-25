@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSA208_00731_SEQ_00","Rolandaix seeks a helping hand in his examination of Issom–Har."
-1,"TEXT_GAIUSA208_00731_SEQ_01","Rolandaix is surveying the ruins of Gelmorra, but finds that he has overestimated the amount of ground he can cover alone. Aid the researcher in his work by scouring the area around Issom–Har for domestic artifacts."
-2,"TEXT_GAIUSA208_00731_SEQ_02","You have uncovered a number of domestic relics. Present the objects to Rolandaix for examination."
-3,"TEXT_GAIUSA208_00731_SEQ_03","Rolandaix reveals that the items you uncovered were pieces of Gelmorran tableware, confirming his theory that the ruins are indeed what remains of Gelmorra's residential district. He goes on to express his fervent hope that the remnants of the city can one day be reestablished as a settlement for the displaced Duskwight Elezen."
+0,"TEXT_GAIUSA208_00731_SEQ_00","「イソム・ハーの穴蔵」のロランデは、遺跡調査を手伝ってくれる者を探しているようだ。"
+1,"TEXT_GAIUSA208_00731_SEQ_01","ロランデは地下都市ゲルモラの遺跡調査をしている。彼の調査を手伝うため、「イソム・ハーの穴蔵」周囲を調べよう。"
+2,"TEXT_GAIUSA208_00731_SEQ_02","いくつかの「<Sheet(EventItem,2000585,0)/>」を見つけた。「イソム・ハーの穴蔵」の「ロランデ」に見せてみよう。"
+3,"TEXT_GAIUSA208_00731_SEQ_03","冒険者の見つけた「<Sheet(EventItem,2000585,0)/>」は、ゲルモラの「食器」だった。この遺跡が地下都市ゲルモラの居住区であることを示す、有力な証拠となるようだ。ロランデは、この地にシェーダー族の集落を築くことを夢見ているという。"
 4,"TEXT_GAIUSA208_00731_SEQ_04",""
 5,"TEXT_GAIUSA208_00731_SEQ_05",""
 6,"TEXT_GAIUSA208_00731_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSA208_00731_SEQ_21",""
 22,"TEXT_GAIUSA208_00731_SEQ_22",""
 23,"TEXT_GAIUSA208_00731_SEQ_23",""
-24,"TEXT_GAIUSA208_00731_TODO_00","Scour the area for possible relics."
-25,"TEXT_GAIUSA208_00731_TODO_01","Deliver the muddy potsherds to Rolandaix."
+24,"TEXT_GAIUSA208_00731_TODO_00","周囲を調べて遺跡の遺留品を探す"
+25,"TEXT_GAIUSA208_00731_TODO_01","ロランデに<Sheet(EventItem,2000585,0)/>を渡す"
 26,"TEXT_GAIUSA208_00731_TODO_02",""
 27,"TEXT_GAIUSA208_00731_TODO_03",""
 28,"TEXT_GAIUSA208_00731_TODO_04",""
@@ -49,11 +49,21 @@ int32,str,str
 45,"TEXT_GAIUSA208_00731_TODO_21",""
 46,"TEXT_GAIUSA208_00731_TODO_22",""
 47,"TEXT_GAIUSA208_00731_TODO_23",""
-48,"TEXT_GAIUSA208_00731_ROLANDAIX_000_000","Ah, you are an adventurer, are you not? Tell me, have you any experience in the field of relic hunting? I am currently attempting to catalog all of the artifacts in this area, you see, but am finding the task rather more time-consuming than I had initially anticipated..."
-49,"TEXT_GAIUSA208_00731_ROLANDAIX_000_001","I am all but convinced that we stand in what was once Gelmorra's residential district. Alas, I have yet to recover a sufficiency of domestic objects to confirm my theory. Should you happen upon any such items while wandering the area, I would be most grateful if you'd bring them to me."
-50,"TEXT_GAIUSA208_00731_SYSTEM_000_000",""
-51,"TEXT_GAIUSA208_00731_ROLANDAIX_000_010","Back so soon? Are you quite certain you exercised the appropriate amount of care and delicacy in your search? These artifacts are hundreds of years─oh, never mind. Show me what you found."
-52,"TEXT_GAIUSA208_00731_ROLANDAIX_000_020","<Emphasis>Yes</Emphasis>...these are most certainly examples of Gelmorran tableware. Judging by the shape and ornamentation, they appear to be cups of the kind once used to serve herbal infusions...or possibly vegetable broth. Perfect!"
-53,"TEXT_GAIUSA208_00731_ROLANDAIX_000_021","My work here is far from done, but this discovery brings me one tantalizing step closer to realizing my dream: the restoration of these ruins, and their reestablishment as a settlement for the Duskwight Elezen."
-54,"TEXT_GAIUSA208_00731_ROLANDAIX_000_022","Gridanians have long perceived my people as outcasts and brigands, yet if we Duskwights can return a measure of prosperity to this fallen city, we would no longer need to resort to common theft or banditry in order to make ends meet. Imagine it!
-...But I am rambling. Thank you for your help."
+48,"TEXT_GAIUSA208_00731_ROLANDAIX_000_000","君、遺跡調査を手伝わないかい。
+このあたりの遺物を収集しているんだけど、
+範囲が広すぎて、僕ひとりでは手が足りないんだ。"
+49,"TEXT_GAIUSA208_00731_ROLANDAIX_000_001","僕はこの辺りが、地下都市「ゲルモラ」の
+住居跡だったと睨んでいる。
+何か証拠が見つかってくれるといいんだけど……。"
+50,"TEXT_GAIUSA208_00731_SYSTEM_000_000","穴蔵周辺の遺留品を集める"
+51,"TEXT_GAIUSA208_00731_ROLANDAIX_000_010","どうだい？
+何か証拠になりそうな物は見つかったかな。"
+52,"TEXT_GAIUSA208_00731_ROLANDAIX_000_020","ああ、これはゲルモラの食器だよ。
+この形と装飾……おそらくこれは食事用のカップだね。
+ご苦労様、これ以上ない有力な証拠だ。"
+53,"TEXT_GAIUSA208_00731_ROLANDAIX_000_021","調査には、まだまだ時間がかかるだろうけど……
+僕はいつか、この住居跡を復興させて、
+新たなシェーダー族の集落を作ろうと思っているんだ。"
+54,"TEXT_GAIUSA208_00731_ROLANDAIX_000_022","グリダニアの人は僕らを「ならず者」と見ているようだけど、
+僕らだって、住む場所と仕事がちゃんとあれば
+盗賊まがいのことをしなくてすむはずさ。"

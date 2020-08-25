@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSA807_00791_SEQ_00","Oriane needs your help in obtaining something not easily come by."
-1,"TEXT_GAIUSA807_00791_SEQ_01","Pumice golems─creatures of living stone that have sprung up from the sundered landscape─have overrun the area, and Oriane would know their origins. Weaken one of the creatures to some degree, then capture its soul with a sealing vessel."
-2,"TEXT_GAIUSA807_00791_SEQ_02","You have obtained the living soulstone of a pumice golem. The researcher Yhom Epocan at the Bobbing Cork in Fallgourd Float should be able to shed light on the creature's origins."
-3,"TEXT_GAIUSA807_00791_SEQ_03","Yhom Epocan is overjoyed to receive a soulstone in such pristine condition, and vows to begin her analysis straightaway."
+0,"TEXT_GAIUSA807_00791_SEQ_00","フロランテル監視哨の鬼哭隊オリアヌは、手に入れてほしいものがあるようだ。"
+1,"TEXT_GAIUSA807_00791_SEQ_01","オリアヌは、<Sheet(BNpcName,2188,0)/>が急増した原因を特定してほしいようだ。「<Sheet(BNpcName,2188,0)/>」の体力を減らした状態で「<Sheet(EventItem,2000621,0)/>」を使い、「<Sheet(EventItem,2000622,0)/>」を入手しよう。"
+2,"TEXT_GAIUSA807_00791_SEQ_02","<Sheet(EventItem,2000622,0)/>を入手することができた。フォールゴウドの浮かぶコルク亭にいる博物学者「ヨム・エポカン」に「<Sheet(EventItem,2000622,0)/>」を渡そう。"
+3,"TEXT_GAIUSA807_00791_SEQ_03","博物学者ヨム・エポカンは、<Sheet(EventItem,2000622,0)/>の保存状態に満足しているようだ。<Sheet(BNpcName,2188,0)/>の急増の原因がわかればよいのだが……。"
 4,"TEXT_GAIUSA807_00791_SEQ_04",""
 5,"TEXT_GAIUSA807_00791_SEQ_05",""
 6,"TEXT_GAIUSA807_00791_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSA807_00791_SEQ_21",""
 22,"TEXT_GAIUSA807_00791_SEQ_22",""
 23,"TEXT_GAIUSA807_00791_SEQ_23",""
-24,"TEXT_GAIUSA807_00791_TODO_00","Use the sealing vessel on a weakened pumice golem."
-25,"TEXT_GAIUSA807_00791_TODO_01","Deliver the living soulstone to Yhom Epocan."
+24,"TEXT_GAIUSA807_00791_TODO_00","弱らせた<Sheet(BNpcName,2188,0)/>に<Sheet(EventItem,2000621,0)/>を使う"
+25,"TEXT_GAIUSA807_00791_TODO_01","ヨム・エポカンに<Sheet(EventItem,2000622,0)/>を渡す"
 26,"TEXT_GAIUSA807_00791_TODO_02",""
 27,"TEXT_GAIUSA807_00791_TODO_03",""
 28,"TEXT_GAIUSA807_00791_TODO_04",""
@@ -49,12 +49,25 @@ int32,str,str
 45,"TEXT_GAIUSA807_00791_TODO_21",""
 46,"TEXT_GAIUSA807_00791_TODO_22",""
 47,"TEXT_GAIUSA807_00791_TODO_23",""
-48,"TEXT_GAIUSA807_00791_ORIANE_000_000","As you have proven yourself a capable ally, I would entrust to you a task more ambitious than the slaying of hares."
-49,"TEXT_GAIUSA807_00791_ORIANE_000_001","Mayhap you have encountered curious constructs of living stone in these parts. They emerged from the sundered landscape in the wake of the Calamity, and their numbers have only burgeoned thenceforth."
-50,"TEXT_GAIUSA807_00791_ORIANE_000_002","For each one we slay, another rises to the surface to take its place─my comrades and I are at wit's end. It is clear that we must take this battle to the source."
-51,"TEXT_GAIUSA807_00791_ORIANE_000_003","There is a researcher by the name of Yhom Epocan who frequents the Bobbing Cork in Fallgourd Float. I suspect she might be able to shed light on the matter."
-52,"TEXT_GAIUSA807_00791_ORIANE_000_004","Take this sealing vessel and capture the living soulstone of one of the golems─mind you, you will have to weaken the brute first. Deliver the soulstone to Yhom Epocan, and see if she cannot ascertain the golems' origin."
-53,"TEXT_GAIUSA807_00791_BATTLE_000_010","//: fight golems, capture their souls"
-54,"TEXT_GAIUSA807_00791_YHOMEPOCAN_000_020","Yhom Epocan? Why, that's me! At least, that's who I think I am! Ah, er, did you need something from me?"
-55,"TEXT_GAIUSA807_00791_YHOMEPOCAN_000_025","Gummice pollums? I fear I'm not familiar with them. <Emphasis>Pumice golems</Emphasis>, on the other hand─Oriane has told me all about them. Let us see what you've brought me, now..."
-56,"TEXT_GAIUSA807_00791_YHOMEPOCAN_000_026","Ooh, I can just feel it pulsing with energy! You've certainly found a live one, haven't you? I must begin my analysis straightaway. Now where did I put my glasses?"
+48,"TEXT_GAIUSA807_00791_ORIANE_000_000","あなたって、なかなか腕の立つ冒険者みたいね。
+その力を見込んで、頼みたいことがあるのよ。"
+49,"TEXT_GAIUSA807_00791_ORIANE_000_001","第七霊災の直後から、この辺りで、
+「<Sheet(BNpcName,2188,0)/>」が出没するようになったの。
+これがまた、倒しても倒しても湧きだすのよね……。"
+50,"TEXT_GAIUSA807_00791_ORIANE_000_002","そこで道士様から、発生原因の特定を依頼されたのだけど、
+調査のためには「<Sheet(EventItem,2000622,0)/>」が必要なの。"
+51,"TEXT_GAIUSA807_00791_ORIANE_000_003","この「<Sheet(EventItem,2000621,0)/>」をひとつ持っていって。
+弱った「<Sheet(BNpcName,2188,0)/>」に使えば、
+「<Sheet(EventItem,2000622,0)/>」の性質を損なわずに保存できるはず。"
+52,"TEXT_GAIUSA807_00791_ORIANE_000_004","無事に採れたら、フォールゴウドの
+「浮かぶコルク亭」に宿泊している博物学者……
+「ヨム・エポカン」さんに渡してちょうだい。"
+53,"TEXT_GAIUSA807_00791_BATTLE_000_010","ゴーレムを一定HP以下にし、アイテムを使って核をget×1"
+54,"TEXT_GAIUSA807_00791_YHOMEPOCAN_000_020","ヨム・エポカンは私ですが……。
+何か、ご用ですか？"
+55,"TEXT_GAIUSA807_00791_YHOMEPOCAN_000_025","ああ、「<Sheet(BNpcName,2188,0)/>」の件ですね。
+オリアヌさんから話は聞いています。
+これが「<Sheet(EventItem,2000622,0)/>」ですか……ちょっと失礼。"
+56,"TEXT_GAIUSA807_00791_YHOMEPOCAN_000_026","うん、保存状態良好です、傷ひとつありませんね。
+これなら「<Sheet(EventItem,2000622,0)/>」を分析できます。
+ありがとうございました。"

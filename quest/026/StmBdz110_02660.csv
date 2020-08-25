@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ110_02660_SEQ_00","Lucinne is in need of an extra pair of hands."
+0,"TEXT_STMBDZ110_02660_SEQ_00","カストルム・オリエンスのルシヌ准牙士は、再び冒険者に頼みたいことがあるようだ。"
 1,"TEXT_STMBDZ110_02660_SEQ_01",""
 2,"TEXT_STMBDZ110_02660_SEQ_02",""
 3,"TEXT_STMBDZ110_02660_SEQ_03",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_STMBDZ110_02660_SEQ_21",""
 22,"TEXT_STMBDZ110_02660_SEQ_22",""
 23,"TEXT_STMBDZ110_02660_SEQ_23",""
-24,"TEXT_STMBDZ110_02660_TODO_00","Obtain soil samples from the Comet's Tail."
-25,"TEXT_STMBDZ110_02660_TODO_01","Obtain a water sample from the Comet's Tail."
-26,"TEXT_STMBDZ110_02660_TODO_02","Deliver the samples to Lucinne."
+24,"TEXT_STMBDZ110_02660_TODO_00","<Sheet(EObj,2008826,0)/>から<Sheet(EventItem,2002336,0)/>を入手"
+25,"TEXT_STMBDZ110_02660_TODO_01","<Sheet(EObj,2008829,0)/>から<Sheet(EventItem,2002337,0)/>を入手"
+26,"TEXT_STMBDZ110_02660_TODO_02","ルシヌ准牙士に<Sheet(EventItem,2002336,0)/>と<Sheet(EventItem,2002337,0)/>を渡す"
 27,"TEXT_STMBDZ110_02660_TODO_03",""
 28,"TEXT_STMBDZ110_02660_TODO_04",""
 29,"TEXT_STMBDZ110_02660_TODO_05",""
@@ -49,15 +49,35 @@ int32,str,str
 45,"TEXT_STMBDZ110_02660_TODO_21",""
 46,"TEXT_STMBDZ110_02660_TODO_22",""
 47,"TEXT_STMBDZ110_02660_TODO_23",""
-48,"TEXT_STMBDZ110_02660_LUCINNE_000_000","Oh, you're the adventurer from before. Have you come for more work? Because I could certainly do with an extra hand or two."
-49,"TEXT_STMBDZ110_02660_LUCINNE_000_001","My analysis of the samples you brought me is coming along quite nicely, but there is one more area I would have you investigate."
-50,"TEXT_STMBDZ110_02660_LUCINNE_000_002","There's a cavern southeast of here, the Comet's Tail, so named for the glowing ore covering its walls and ceiling, as if the gods themselves captured starlight and placed it there."
-51,"TEXT_STMBDZ110_02660_LUCINNE_000_003","Despite its supposed beauty, however, I have heard reports that the area has been adversely affected by pollution. As before I need you to procure three samples of the soil and one of the water so I can ascertain the truth of what has happened there."
-52,"TEXT_STMBDZ110_02660_LUCINNE_000_004","Whatever damage has been done to that cavern, I pray it is not irreversible. I will require samples of both the soil and water there to be certain."
-53,"TEXT_STMBDZ110_02660_LUCINNE_000_010","Did you have trouble procuring the samples?"
-54,"TEXT_STMBDZ110_02660_LUCINNE_000_011","Yes, this is perfect. Perhaps someday soon we can restore the cave to what it once was."
-55,"TEXT_STMBDZ110_02660_LUCINNE_000_012","You see, the Comet's Tail was once a place of worship. Legend has it that, as the great flood of the Sixth Umbral Calamity swept across Eorzea, Rhalgr cast a great beacon into the sky to lead His people to safety. That beacon would one day fall to earth, and its remains are what illuminate that cave."
-56,"TEXT_STMBDZ110_02660_LUCINNE_000_013","The Ala Mhigans placed altars within, and would often visit to offer up prayers to Rhalgr. Of course, that all changed when the Garleans came..."
-57,"TEXT_STMBDZ110_02660_LUCINNE_000_014","No one is certain for what purpose the cave was closed off, but some say it was used as a crude weapons research facility."
-58,"TEXT_STMBDZ110_02660_LUCINNE_000_015","Whatever the truth may be, I will find it, and restore what was taken from the Ala Mhigans."
-59,"TEXT_STMBDZ110_02660_LUCINNE_000_016","When that day comes, I hope you'll go and pay the Comet's Tail a visit."
+48,"TEXT_STMBDZ110_02660_LUCINNE_000_000","あ、この前の冒険者さん。
+ちょうど、いいところに来てくれました。
+また、私のお願いを聞いていただけませんか？"
+49,"TEXT_STMBDZ110_02660_LUCINNE_000_001","以前採ってきていただいたサンプルは、
+現在、分析を進めているところです。
+それとは別に、新たに調査を行いたい場所がありまして……。"
+50,"TEXT_STMBDZ110_02660_LUCINNE_000_002","ここから南東に、「流星の尾」と呼ばれる洞窟があります。
+壁や天井を、輝く鉱石が覆い尽くす窟内は大変美しく、
+まるで、星の瞬く夜空を閉じ込めたようだと、伝えられています。"
+51,"TEXT_STMBDZ110_02660_LUCINNE_000_003","しかし、その内部が汚染されているという噂があるのです。
+その調査のため、「<Sheet(EventItem,2002336,0)/>」を3つと、
+「<Sheet(EventItem,2002337,0)/>」を1つ、採ってきていただけませんか？"
+52,"TEXT_STMBDZ110_02660_LUCINNE_000_004","ここから南東に、「流星の尾」と呼ばれる洞窟があります。
+調査のため、「<Sheet(EventItem,2002336,0)/>」を3つと、「<Sheet(EventItem,2002337,0)/>」を1つ、
+採ってきていただけませんか。"
+53,"TEXT_STMBDZ110_02660_LUCINNE_000_010","サンプルは、採ってきていただけましたか？"
+54,"TEXT_STMBDZ110_02660_LUCINNE_000_011","ありがとうございます。
+これで、分析が進められます。"
+55,"TEXT_STMBDZ110_02660_LUCINNE_000_012","そういえば……あの洞窟には、次のような逸話があるんですよ。
+流星の尾は、第六霊災の際に人々を大洪水から救った、導きの星。
+壊神ラールガーが民を導くために放った、彗星の軌跡である……と。"
+56,"TEXT_STMBDZ110_02660_LUCINNE_000_013","神を奉る地として、アラミゴ人は内部に祭壇を設け、
+供物を捧げ、大切にしてきたそうです。
+しかし、帝国軍は祭壇を撤去し、立ち入り禁止を徹底しました。"
+57,"TEXT_STMBDZ110_02660_LUCINNE_000_014","信仰が心の拠り所となることを、恐れたためでしょう。
+しかし、別の狙いがあるのではないか、と考える者もいました。
+内部で、兵器の実験が行われていた、という……噂です。"
+58,"TEXT_STMBDZ110_02660_LUCINNE_000_015","この噂の真相を確かめ、必要とあらば汚染を取り除き、
+かつてのような素朴な信仰の場へと戻す……。
+そのためにも調査を進めたいと思います。"
+59,"TEXT_STMBDZ110_02660_LUCINNE_000_016","ありがとうございました……冒険者さん。
+度重なる協力に感謝します！"

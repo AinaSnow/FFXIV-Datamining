@@ -1,12 +1,12 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNZ805_01935_SEQ_00","Slowfix needs your help in solving a problem."
-1,"TEXT_HEAVNZ805_01935_SEQ_01","Idyllshire is to be a new, free nation─a utopia for goblins and any who wish to join them. But founding a nation is not without monetary costs. Slowfix explains that, since taxing the citizens of their hard-earned gil would fly in the face of all that this fledgling nation stands for, funds are raised through rental of vital tools and equipment. Unfortunately, a goblin has borrowed a pickaxe and left Idyllshire without returning it. Find this ungracious goblin and retrieve the pickaxe."
-2,"TEXT_HEAVNZ805_01935_SEQ_02","You find the goblin, but she is under attack by tarantula hawks! Slay these beasts and rescue the defenseless goblin such that you may ascertain the whereabouts of the missing pickaxe."
-3,"TEXT_HEAVNZ805_01935_SEQ_03","The beleaguered goblin thanks you before explaining that she forgot about the rental pickaxe she borrowed before leaving on her journey. While she can't return to Idyllshire herself to return the pickaxe, she entrusts it to you, requesting that you return it to its rightful owner in her stead. Go back to Idyllshire and give the pickaxe back to Drydox."
-4,"TEXT_HEAVNZ805_01935_SEQ_04","Drydox is ecstatic that you have found the pickaxe─she had given it up for lost. Report to Slowfix that the missing rental equipment is now accounted for."
-5,"TEXT_HEAVNZ805_01935_SEQ_05","Slowfix is glad to see the missing equipment returned. He pays you what he considers to be a fair market price for your work."
+0,"TEXT_HEAVNZ805_01935_SEQ_00","イディルシャイアのスローフィクスは、問題解決に冒険者の力を借りたいようだ。"
+1,"TEXT_HEAVNZ805_01935_SEQ_01","スローフィクスから、貸し出した道具を返さないゴブリン族から事情を聞いてくるよう頼まれた。低地ドラヴァニアのシャーレアン工匠街で「粗忽者のゴブリン族」を探そう。"
+2,"TEXT_HEAVNZ805_01935_SEQ_02","襲われていた粗忽者のゴブリン族を見つけた。妨害を退けて、「粗忽者のゴブリン族」を救助しよう。"
+3,"TEXT_HEAVNZ805_01935_SEQ_03","粗忽者のゴブリン族を救助したところ、自分のかわりに<Sheet(EventItem,2001769,0)/>を返してほしいと頼まれた。イディルシャイアの「ドライドクス」に「<Sheet(EventItem,2001769,0)/>」を渡そう。"
+4,"TEXT_HEAVNZ805_01935_SEQ_04","ドライドクスに<Sheet(EventItem,2001769,0)/>を返した。イディルシャイアの「スローフィクス」に報告しよう。"
+5,"TEXT_HEAVNZ805_01935_SEQ_05","スローフィクスに報告した。貸した道具を回収した冒険者に、スローフィクスは感激したようだ。"
 6,"TEXT_HEAVNZ805_01935_SEQ_06",""
 7,"TEXT_HEAVNZ805_01935_SEQ_07",""
 8,"TEXT_HEAVNZ805_01935_SEQ_08",""
@@ -25,10 +25,11 @@ int32,str,str
 21,"TEXT_HEAVNZ805_01935_SEQ_21",""
 22,"TEXT_HEAVNZ805_01935_SEQ_22",""
 23,"TEXT_HEAVNZ805_01935_SEQ_23",""
-24,"TEXT_HEAVNZ805_01935_TODO_00","Search for the ungracious goblin."
-25,"TEXT_HEAVNZ805_01935_TODO_01","Rescue the ungracious goblin."
-26,"TEXT_HEAVNZ805_01935_TODO_02","Deliver the pickaxe to Drydox."
-27,"TEXT_HEAVNZ805_01935_TODO_03","Report to Slowfix."
+24,"TEXT_HEAVNZ805_01935_TODO_00","シャーレアン工匠街で粗忽者のゴブリン族を探す"
+25,"TEXT_HEAVNZ805_01935_TODO_01","粗忽者のゴブリン族を救助"
+26,"TEXT_HEAVNZ805_01935_TODO_02","イディルシャイアのドライドクスに
+<Sheet(EventItem,2001769,0)/>を渡す"
+27,"TEXT_HEAVNZ805_01935_TODO_03","スローフィクスに報告"
 28,"TEXT_HEAVNZ805_01935_TODO_04",""
 29,"TEXT_HEAVNZ805_01935_TODO_05",""
 30,"TEXT_HEAVNZ805_01935_TODO_06",""
@@ -49,24 +50,43 @@ int32,str,str
 45,"TEXT_HEAVNZ805_01935_TODO_21",""
 46,"TEXT_HEAVNZ805_01935_TODO_22",""
 47,"TEXT_HEAVNZ805_01935_TODO_23",""
-48,"TEXT_HEAVNZ805_01935_SLOWFIX_000_000","Pshhh... Shkohhh...
-In this place we gobbies are founding nation. Free nation for free people!"
-49,"TEXT_HEAVNZ805_01935_SLOWFIX_000_001","Founding nation takes much jinglyshine. But this is <Emphasis>free</Emphasis> nation! We cannot take jinglyshine from noble, hardworking gobbies!"
-50,"TEXT_HEAVNZ805_01935_SLOWFIX_000_002","So Slowfix thought: We have tools; gobbies need tools. We can rent tools to fund nation!"
-51,"TEXT_HEAVNZ805_01935_SLOWFIX_000_003","Plan is sound, but we already have problem. One gobbie borrowed pickaxe and does not give it back!"
-52,"TEXT_HEAVNZ805_01935_SLOWFIX_000_004","This ungracious gobbie has left! And took borrowthing with her. Uplander, please find this gobbie and find out what happened."
-53,"TEXT_HEAVNZ805_01935_SLOWFIX_000_005","Gobbie with borrowthing was traveling towards Makers' Quarter. Please find her!"
-54,"TEXT_HEAVNZ805_01935_SLOWFIX_000_010","Gobbie was traveling towards Makers' Quarter, but did not return borrowthing. Please find her!"
-55,"TEXT_HEAVNZ805_01935_GOBLIN01935_000_020","Pshhh... Shkohhh...
-Thank you, uplander! Your actions are appreciated! But what brings you here?"
-56,"TEXT_HEAVNZ805_01935_GOBLIN01935_000_021","Oh! Pickaxe! I forgot to return pickaxe!"
-57,"TEXT_HEAVNZ805_01935_GOBLIN01935_000_022","I am leaving on journey now─cannot return to Idyllshire. Please take borrowthing and return to Drydox. Thank you."
-58,"TEXT_HEAVNZ805_01935_GOBLIN01935_000_025","Sorry, I must leave on journey now. Please return borrowthing to Drydox. Thank you."
-59,"TEXT_HEAVNZ805_01935_DRYDOX_000_030","Pshhh... Shkohhh...
-What brings uplander to Drydox?"
-60,"TEXT_HEAVNZ805_01935_DRYDOX_000_031","Pshhh... Shkohhh...
-This pickaxe! Drydox thought it stolen! Thank you for recovering it."
-61,"TEXT_HEAVNZ805_01935_DRYDOX_000_032","Pshhh... Shkohhh...
-Drydox thought pickaxe stolen. Thank you for recovering it."
-62,"TEXT_HEAVNZ805_01935_SLOWFIX_000_040","Pshhh... Shkohhh...
-Taken borrowthing─you found it!? You have Slowfix's greatest gratitude."
+48,"TEXT_HEAVNZ805_01935_SLOWFIX_000_000","シュコォ……シュコォ……
+ゴブたち　ここに　建国中
+「自由民のための自由の都市」　建設中！"
+49,"TEXT_HEAVNZ805_01935_SLOWFIX_000_001","国作りには　お金が　必要～
+でもでも　ここは　自由の都市～！
+自由にくらす　都市民から　無理やりお金は　とれぬゴブ！！"
+50,"TEXT_HEAVNZ805_01935_SLOWFIX_000_002","だから　ゴブたち　考えた～
+みんなに道具　貸し出して　代わりにお金　もらうゴブ！"
+51,"TEXT_HEAVNZ805_01935_SLOWFIX_000_003","でもでも　残念　問題発生～
+貸した物を　返さない　困った都市民　いるんだゴブ！"
+52,"TEXT_HEAVNZ805_01935_SLOWFIX_000_004","持ち出し　去ったは　「粗忽者のゴブリン族」～
+彼に　事情を　聞いてほしいゴブ～！"
+53,"TEXT_HEAVNZ805_01935_SLOWFIX_000_005","「粗忽者のゴブリン族」は
+「シャーレアン工匠街」に　行ってるはずゴブ～
+どうにか　よろしく　お願いゴブ！"
+54,"TEXT_HEAVNZ805_01935_SLOWFIX_000_010","「粗忽者のゴブリン族」は
+「シャーレアン工匠街」に　行ってるはずゴブ～
+どうにか　よろしく　お願いゴブ！"
+55,"TEXT_HEAVNZ805_01935_GOBLIN01935_000_020","シュコォ……シュコォ……
+ありがと～　あにたは　命の恩人！
+ゴブに　いったい　なにか用？"
+56,"TEXT_HEAVNZ805_01935_GOBLIN01935_000_021","あらあら　すっかり　忘れてた！
+「<Sheet(EventItem,2001769,0)/>」　返すの　忘れてた！"
+57,"TEXT_HEAVNZ805_01935_GOBLIN01935_000_022","わなしは　これから　旅に出る～
+わるいんだけど　貸出係の「ドライドクス」に
+このツルハシを　返してほしい～！"
+58,"TEXT_HEAVNZ805_01935_GOBLIN01935_000_025","わなしは　これから　旅に出る～
+わるいんだけど　貸出係の「ドライドクス」に
+このツルハシを　返してほしい～！"
+59,"TEXT_HEAVNZ805_01935_DRYDOX_000_030","シュコォ……シュコォ……
+ヒトが　あたしに　なにかよ～？"
+60,"TEXT_HEAVNZ805_01935_DRYDOX_000_031","シュコォ……シュコォ……
+期限　過ぎても　戻らなかった　<Sheet(EventItem,2001769,0)/>！
+あなたが回収～　ありがと～！"
+61,"TEXT_HEAVNZ805_01935_DRYDOX_000_032","シュコォ……シュコォ……
+期限　過ぎても　戻らなかった　<Sheet(EventItem,2001769,0)/>！
+あなたが回収～　ありがと～！"
+62,"TEXT_HEAVNZ805_01935_SLOWFIX_000_040","シュコォ……シュコォ……
+貸してた道具　返した　ゴブ！？
+とっても　いっぱい　ありがとさん！"

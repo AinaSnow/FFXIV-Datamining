@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBWIL151_00688_SEQ_00","Poponagu, the local levequest representative in Camp Drybone, is seeking an adventurer to undertake guildleves."
-1,"TEXT_SUBWIL151_00688_SEQ_01","In order to gauge your ability to handle the various guildleves he has to offer, Poponagu requires that you carry out a preliminary task."
-2,"TEXT_SUBWIL151_00688_SEQ_02","You have successfully completed the trial guildleve. Report to Poponagu in Camp Drybone."
-3,"TEXT_SUBWIL151_00688_SEQ_03","Poponagu is now confident that you are capable of handling any of the trials and tribulations you might encounter around Camp Drybone. Prove your worth as an adventurer, and continue to undertake the guildleves he has to offer."
+0,"TEXT_SUBWIL151_00688_SEQ_00","キャンプ・ドライボーンのギルドリーヴ発行窓口、ポポナグは、ギルドリーヴを引き受ける冒険者を探しているようだ。"
+1,"TEXT_SUBWIL151_00688_SEQ_01","ポポナグからギルドリーヴを受注するためには、依頼を遂行できる実力があると認めてもらわねばならない。まずは、ギルドリーヴ『誘導任務：ゴブゴブ行商中止命令』を攻略しよう。"
+2,"TEXT_SUBWIL151_00688_SEQ_02","無事、ポポナグから引き受けたギルドリーヴを遂行することができた。「キャンプ・ドライボーン」の「ポポナグ」に報告しよう。"
+3,"TEXT_SUBWIL151_00688_SEQ_03","ポポナグは、依頼を遂行した冒険者の実力を認めたようだ。今後、ドライボーン周辺の依頼を、彼女から引き受けることができる。ポポナグの期待に応えられるよう、積極的にギルドリーヴを引き受けていこう。"
 4,"TEXT_SUBWIL151_00688_SEQ_04",""
 5,"TEXT_SUBWIL151_00688_SEQ_05",""
 6,"TEXT_SUBWIL151_00688_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_SUBWIL151_00688_SEQ_21",""
 22,"TEXT_SUBWIL151_00688_SEQ_22",""
 23,"TEXT_SUBWIL151_00688_SEQ_23",""
-24,"TEXT_SUBWIL151_00688_TODO_00","Complete Poponagu's trial guildleve."
-25,"TEXT_SUBWIL151_00688_TODO_01","Report to Poponagu."
+24,"TEXT_SUBWIL151_00688_TODO_00","『誘導任務：ゴブゴブ行商中止命令』を攻略"
+25,"TEXT_SUBWIL151_00688_TODO_01","ポポナグに報告"
 26,"TEXT_SUBWIL151_00688_TODO_02",""
 27,"TEXT_SUBWIL151_00688_TODO_03",""
 28,"TEXT_SUBWIL151_00688_TODO_04",""
@@ -49,14 +49,30 @@ int32,str,str
 45,"TEXT_SUBWIL151_00688_TODO_21",""
 46,"TEXT_SUBWIL151_00688_TODO_22",""
 47,"TEXT_SUBWIL151_00688_TODO_23",""
-48,"TEXT_SUBWIL151_00688_POPONAGU_000_1","Good <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>evening<Else/>morning</If><Else/><If(LessThan(PlayerParameter(11),17))>day<Else/>evening</If></If> to you, adventurer. I am Poponagu, representative of the Adventurers' Guild."
-49,"TEXT_SUBWIL151_00688_POPONAGU_000_2","I have a number of fine guildleves in my possession, which I will gladly allow you to undertake─if you prove yourself sufficiently capable, that is."
-50,"TEXT_SUBWIL151_00688_POPONAGU_000_3","You see, protocol dictates that I administer a trial guildleve. Until you complete it, I can grant you no more."
-51,"TEXT_SUBWIL151_00688_POPONAGU_000_4","How about this task? Review the details and tell me if you are up for the challenge."
-52,"TEXT_SUBWIL151_00688_POPONAGU_000_5","Very good. You need merely <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>beckon<UIGlow>01</UIGlow><UIForeground>01</UIForeground> to the gullible goblin, Guttrix Sliverpicks, to help lead him to his destination."
-53,"TEXT_SUBWIL151_00688_SYS_000_6","Use the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>beckon<UIGlow>01</UIGlow><UIForeground>01</UIForeground> emote to lead Guttrix Sliverpicks safely to the destination. You may find it convenient to add the emote to your hotbar before beginning the guildleve."
-54,"TEXT_SUBWIL151_00688_POPONAGU_000_10","You may begin the levequest at any time."
-55,"TEXT_SUBWIL151_00688_POPONAGU_000_15","I see the desert heat wasn't too much for you. Here is your reward. See that you don't spend it all at the pub!"
-56,"TEXT_SUBWIL151_00688_POPONAGU_000_20","Oh, haven't you already initiated the trial? Shouldn't you attend to your goblin ward, then?"
-57,"TEXT_SUBWIL151_00688_POPONAGU_000_25","And with that, you have fulfilled the requirements. You are free to partake of my guildleves at will."
-58,"TEXT_SUBWIL151_00688_POPONAGU_000_26","There is always work to be done here in Camp Drybone. Whatever your talents, I have no doubt that you will find someone in need and willing to pay."
+48,"TEXT_SUBWIL151_00688_POPONAGU_000_1","仕事をお探しですか？
+私はポポナグ。冒険者ギルドの一員です。"
+49,"TEXT_SUBWIL151_00688_POPONAGU_000_2","こちらでは、魔物討伐や物資の調達など
+「ドライボーン」周辺から寄せられた依頼を
+ご紹介しております。"
+50,"TEXT_SUBWIL151_00688_POPONAGU_000_3","とはいえ、ここで扱っている依頼は、
+危険を伴う内容のものも多いのです。
+まずはあなたの実力を確かめさせてください。"
+51,"TEXT_SUBWIL151_00688_POPONAGU_000_4","私が取り扱っている依頼をひとつお見せします。
+まずは、このリーヴをこなしていただけますか？"
+52,"TEXT_SUBWIL151_00688_POPONAGU_000_5","ありがとうございます。
+ゴブリンは「手まねき」してあげれば
+誘導することができますよ。よろしくお願いします。"
+53,"TEXT_SUBWIL151_00688_SYS_000_6","エモート「手まねき」を使うことで誘導できます。
+前もってホットバーに入れておくと、
+誘導操作が便利になります。"
+54,"TEXT_SUBWIL151_00688_POPONAGU_000_10","準備が整いましたら、ギルドリーヴを開始してください。
+依頼の遂行、よろしくお願いします。"
+55,"TEXT_SUBWIL151_00688_POPONAGU_000_15","依頼したリーヴを達成していただけたのですね。
+では、報酬をお受け取りください。"
+56,"TEXT_SUBWIL151_00688_POPONAGU_000_20","ギルドリーヴを開始されたようですね。
+依頼遂行、頑張ってください。"
+57,"TEXT_SUBWIL151_00688_POPONAGU_000_25","あなたの働きぶり、素晴らしいものでした。
+安心してお仕事をお任せできそうです。"
+58,"TEXT_SUBWIL151_00688_POPONAGU_000_26","この集落は、東に棲むアマルジャ族など
+多くの危険にさらされています。
+あなたの力、頼りにしていますよ！"

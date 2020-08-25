@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKHA001_03672_SEQ_00","Prominently posted, the notice fairly jumps out at you."
-1,"TEXT_LUCKHA001_03672_SEQ_01","Glancing over the notice, you learn that a large-scale reconstruction project has commenced in the Ishgardian district called the Firmament, and able hands are being sought for the works. Interested parties are invited to seek out a man named Thomelin in the Brume to be shown to the district."
-2,"TEXT_LUCKHA001_03672_SEQ_02","In the middle of your conversation with Thomelin, an old acquaintance arrives on the scene─Lord Francel de Haillenarte, whom you saved from a heretic's fate once upon a time. It is revealed that he was chosen to be lord overseer of the project, and thanks to his influence, you are given an exemption from requiring a work permit. Having informed you of his plan to survey the citizens to learn what they envision for the Firmament, he asks for the pleasure of your company before setting out for the Jeweled Crozier, where he expects to find a diverse assortment of people."
-3,"TEXT_LUCKHA001_03672_SEQ_03","By a twist of fate, those citizens whom you surveyed were all your prior acquaintances─the ever-saucy Hilda, the ever-unflappable Briardien, and the ever-hopeless Emmanellain. Satisfied that he has heard enough, Francel turns to you to review what you have learned."
-4,"TEXT_LUCKHA001_03672_SEQ_04","Your information gathering complete, Francel invites you to join him for an inspection of the Firmament, and directs you to present yourself to Thomelin to be shown in. You are entrusted with a bottle of mulled wine, which you are to present to the man when you see him."
-5,"TEXT_LUCKHA001_03672_SEQ_05","Thomelin is deeply touched by the gift from Francel, which was delivered by the hands of a great hero, no less. Having expressed his profuse thanks, he offers to show you to the Firmament, where Francel awaits."
-6,"TEXT_LUCKHA001_03672_SEQ_06","Bidding you welcome to the Firmament, Francel provides you with an overview of the reconstruction effort. Though determined to make the district into a vibrant, thriving place for highborn and lowborn alike, the young lord is all too keenly aware of the immensity of his task. It is then, as he is expressing self-doubt, that Edmont makes an unannounced appearance, and thanks to the retired count's sage advice, Francel finds a way forward once more. After Edmont takes his leave, you are introduced to a fellow named Augebert, the chief foreman of the project, with whom you may speak for directions on site. Thus informed, you resolve to aid Francel and do your part to make the Firmament into a district for a new Ishgard."
+0,"TEXT_LUCKHA001_03672_SEQ_00","イシュガルド下層の街中に、見慣れぬ<Sheet(EObj,2010850,0)/>が貼られている。"
+1,"TEXT_LUCKHA001_03672_SEQ_01","<Sheet(EObj,2010850,0)/>によると、イシュガルド復興事業における就労者を募集しているようだ。雲霧街にいる案内役の「トメリン」に詳細を聞こう。"
+2,"TEXT_LUCKHA001_03672_SEQ_02","トメリンと話し、イシュガルド復興事業の総監であるフランセルから就労の許可を得た。イシュガルドの人々が新たな街に求めていることを聞き込みするため、イシュガルドの上層の「宝杖通り」へ向かおう。"
+3,"TEXT_LUCKHA001_03672_SEQ_03","ヒルダ、ブリアルディアン、エマネランたちから、それぞれ違う意見を聞いた。宝杖通りで、ともに話を聞いていた「フランセル」に声をかけよう。"
+4,"TEXT_LUCKHA001_03672_SEQ_04","フランセルが、復興事業の対象である蒼天街を案内してくれるらしい。雲霧街にいる案内役の「トメリン」へ「<Sheet(EventItem,2002954,0)/>」を差し入れし、蒼天街へ連れて行ってもらおう。"
+5,"TEXT_LUCKHA001_03672_SEQ_05","トメリンは差し入れに感謝し、蒼天街へ案内してくれた。名も無き者たちの広場にいる「フランセル」と話そう。"
+6,"TEXT_LUCKHA001_03672_SEQ_06","フランセルは蒼天街の運用について悩んでいたが、冒険者とエドモン・ド・フォルタン元伯爵と話したことで、解決の糸口をつかんだようだ。今後もフランセルに協力し、蒼天街をよい街にしていこう。"
 7,"TEXT_LUCKHA001_03672_SEQ_07",""
 8,"TEXT_LUCKHA001_03672_SEQ_08",""
 9,"TEXT_LUCKHA001_03672_SEQ_09",""
@@ -25,11 +25,11 @@ int32,str,str
 21,"TEXT_LUCKHA001_03672_SEQ_21",""
 22,"TEXT_LUCKHA001_03672_SEQ_22",""
 23,"TEXT_LUCKHA001_03672_SEQ_23",""
-24,"TEXT_LUCKHA001_03672_TODO_00","Speak with Thomelin."
-25,"TEXT_LUCKHA001_03672_TODO_01","Wait for passersby at the Jeweled Crozier."
-26,"TEXT_LUCKHA001_03672_TODO_02","Speak with Francel."
-27,"TEXT_LUCKHA001_03672_TODO_03","Deliver the mulled wine to Thomelin."
-28,"TEXT_LUCKHA001_03672_TODO_04","Speak with Francel in the Firmament."
+24,"TEXT_LUCKHA001_03672_TODO_00","トメリンと話す"
+25,"TEXT_LUCKHA001_03672_TODO_01","宝杖通りの<Sheet(EObj,2010920,0)/>で待機"
+26,"TEXT_LUCKHA001_03672_TODO_02","フランセルと話す"
+27,"TEXT_LUCKHA001_03672_TODO_03","雲霧街のトメリンに<Sheet(EventItem,2002954,0)/>を渡す"
+28,"TEXT_LUCKHA001_03672_TODO_04","名も無き者たちの広場のフランセルと話す"
 29,"TEXT_LUCKHA001_03672_TODO_05",""
 30,"TEXT_LUCKHA001_03672_TODO_06",""
 31,"TEXT_LUCKHA001_03672_TODO_07",""
@@ -49,147 +49,327 @@ int32,str,str
 45,"TEXT_LUCKHA001_03672_TODO_21",""
 46,"TEXT_LUCKHA001_03672_TODO_22",""
 47,"TEXT_LUCKHA001_03672_TODO_23",""
-48,"TEXT_LUCKHA001_03672_SYSTEM_000_000","The notice reads: “Workers Sought for the Firmament Reconstruction Project.” In smaller letters, it continues..."
-49,"TEXT_LUCKHA001_03672_POSTER03672_000_001","“Let it be known that large-scale reconstruction works aimed at revitalizing the Holy See of Ishgard have been approved by the Houses of Lords and Commons."
-50,"TEXT_LUCKHA001_03672_POSTER03672_100_001","“Selected as the principal site for the project is the Firmament district, which sustained extensive damage during the war."
-51,"TEXT_LUCKHA001_03672_POSTER03672_110_001","“Willing and able hands are now sought to contribute to the reconstruction effort, regardless of birth and origin."
-52,"TEXT_LUCKHA001_03672_POSTER03672_120_001","“From those skilled in gathering from the land to those adept at creating with their hands, the project's needs are great and diverse."
-53,"TEXT_LUCKHA001_03672_POSTER03672_000_002","“Contributions will not go unrewarded. Interested parties are invited to present themselves in the Firmament.”"
-54,"TEXT_LUCKHA001_03672_SYSTEM_000_003","According to the note at the bottom of the notice, a man named Thomelin in the Brume will show you to the district."
-55,"TEXT_LUCKHA001_03672_SYSTEM_000_010","The notice reads: “Workers Sought for the Firmament Reconstruction Project.” If you are interested, a man named Thomelin in the Brume will show you to the district."
-56,"TEXT_LUCKHA001_03672_THOMELIN_000_020","Well met, friend. Answering the call of the Firmament, are you? Wonderful, wonderful!"
-57,"TEXT_LUCKHA001_03672_THOMELIN_000_021","...Wait! I-I know you! You're the savior of Ishgard!"
-58,"TEXT_LUCKHA001_03672_THOMELIN_000_022","Are you saying that you would contribute to the reconstruction project!?"
-59,"TEXT_LUCKHA001_03672_Q1_000_000","What will you say?"
-60,"TEXT_LUCKHA001_03672_A1_000_001","Yes, I'm ready and willing!"
-61,"TEXT_LUCKHA001_03672_A1_000_002","I chanced to see the notice..."
-62,"TEXT_LUCKHA001_03672_THOMELIN_000_023","To think that a fabled hero such as you would help to rebuild our city... We are grateful beyond words!"
-63,"TEXT_LUCKHA001_03672_THOMELIN_000_024","There is, er...just one trifling matter. Do you perchance possess a work permit? It is a requirement for non-Ishgardians, you see..."
-64,"TEXT_LUCKHA001_03672_THOMELIN_000_025","Is that so... As I recall, you are a ward of House Fortemps. In which case, perhaps an exception can be made. Alas, I don't have the authority to make such a decision."
-65,"TEXT_LUCKHA001_03672_FRANCEL_000_026","(-???-)Well, <Emphasis>I</Emphasis> do─and I believe the permit can be overlooked in <If(PlayerParameter(4))>her<Else/>his</If> case."
-66,"TEXT_LUCKHA001_03672_THOMELIN_000_027","L-Lord Overseer! That you should grace us again!"
-67,"TEXT_LUCKHA001_03672_FRANCEL_000_028","Greetings, my friend. It has been quite a while. Indeed, I shouldn't be surprised if you have forgotten me."
-68,"TEXT_LUCKHA001_03672_Q2_000_000","What will you say?"
-69,"TEXT_LUCKHA001_03672_A2_000_001","Of course I haven't forgotten you!"
-70,"TEXT_LUCKHA001_03672_A2_000_002","Sorry, but I'm drawing a blank..."
-71,"TEXT_LUCKHA001_03672_FRANCEL_000_029","Honored am I that you should remember me. Much and more has happened since first we met, not least of all the war's end and Ishgard's transformation."
-72,"TEXT_LUCKHA001_03672_FRANCEL_000_030","You needn't apologize. Fairly buried in snow at Skyfire Locks as I was, I've had precious little opportunity to return to the Holy See."
-73,"TEXT_LUCKHA001_03672_FRANCEL_000_031","It shall be my pleasure to reintroduce myself. I am Francel, youngest son of House Haillenarte. You delivered me from a most dire predicament, once upon a time."
-74,"TEXT_LUCKHA001_03672_FRANCEL_000_032","It feels like an age ago that you and Lord Haurchefant saved me from a heretic's fate. You had proven your worth to me then. Even so, little did I expect that you would go on to save our entire nation."
-75,"TEXT_LUCKHA001_03672_FRANCEL_000_033","You are a hero to us all, and no amount of words could express my gratitude. No, only through action could I begin to repay the debt."
-76,"TEXT_LUCKHA001_03672_FRANCEL_000_034","Thus did I resolve to do my part for Ishgard, that I might honor those noble souls who risked life and limb to protect the nation─souls such as you and Lord Haurchefant."
-77,"TEXT_LUCKHA001_03672_FRANCEL_000_035","And so, when an overseer was being sought for the restoration project, I put forth my candidacy as the representative of my house. Our workshops and engineers could be put to good use, I reasoned."
-78,"TEXT_LUCKHA001_03672_FRANCEL_000_036","It was by no means unanimous, but the Fury saw fit to see me elected to the office. Honored am I for this opportunity to serve the nation─and to redeem House Haillenarte's good name."
-79,"TEXT_LUCKHA001_03672_FRANCEL_000_037","Yet the work has not been without its challenges. As the runt of a fallen house, I am somewhat lacking in repute, and this has made it a struggle to attract cooperation. We have had to rely heavily upon outside help, while I myself have been performing such odd tasks as I could."
-80,"TEXT_LUCKHA001_03672_FRANCEL_000_038","Owing to the contribution of artisans hailing from far and wide, the reconstruction itself proceeds apace. However, we are still shorthanded in the area of administration, on account of which I have been performing such odd tasks as I could."
+48,"TEXT_LUCKHA001_03672_SYSTEM_000_000","「蒼天街にて職人募集」と大きく書かれた、張り紙がある。
+イシュガルドの公共事業について、
+書かれているようだ……。"
+49,"TEXT_LUCKHA001_03672_POSTER03672_000_001","此度、「イシュガルド復興」の事業計画が、
+貴族院、庶民院の両議院で承認された。"
+50,"TEXT_LUCKHA001_03672_POSTER03672_100_001","事業計画の中心区域に指定されたのは、
+かつて、竜の襲撃で壊滅的な被害を受け、
+立ち入りが禁止されていた「蒼天街」である。"
+51,"TEXT_LUCKHA001_03672_POSTER03672_110_001","上記を開発特区とし、
+身分出身を問わず、就労者を大々的に募集する。"
+52,"TEXT_LUCKHA001_03672_POSTER03672_120_001","土木作業に自信のある者、
+資源採集の知識を有する者、
+専門的技能を有する職人など、ありとあらゆる人材を求む。"
+53,"TEXT_LUCKHA001_03672_POSTER03672_000_002","功労者には、特別な褒賞あり。
+腕や体力に自信のある者は「蒼天街」へ。"
+54,"TEXT_LUCKHA001_03672_SYSTEM_000_003","張り紙に記載されている要項によると、
+雲霧街にいる「トメリン」が、
+「蒼天街」へ案内してくれるようだ……。"
+55,"TEXT_LUCKHA001_03672_SYSTEM_000_010","「蒼天街にて職人募集」と大きく書かれた、張り紙がある……。
+雲霧街にいる「トメリン」が、
+「蒼天街」へ案内してくれるようだ。"
+56,"TEXT_LUCKHA001_03672_THOMELIN_000_020","「蒼天街」へは、こちらからご案内していますよー！
+傭人や、技術指導にいらした職人さん方は、
+就労査証をご提示くださいね！"
+57,"TEXT_LUCKHA001_03672_THOMELIN_000_021","…………って、あれっ！？
+あなたは、救国の英雄殿！？"
+58,"TEXT_LUCKHA001_03672_THOMELIN_000_022","ま、まさか、
+蒼天街での公共事業に、興味がおありで……！？"
+59,"TEXT_LUCKHA001_03672_Q1_000_000","何と言う？"
+60,"TEXT_LUCKHA001_03672_A1_000_001","事業に参加したい！"
+61,"TEXT_LUCKHA001_03672_A1_000_002","求人広告が目に留まって……"
+62,"TEXT_LUCKHA001_03672_THOMELIN_000_023","それは、ありがたい限りです……！
+竜詩戦争を終結に導いてくださったばかりか、
+蒼天街を再建する事業にも、ご協力いただけるとは……！"
+63,"TEXT_LUCKHA001_03672_THOMELIN_000_024","ただ、外部からの就労には査証が必要で……
+そちらはご用意されていますか？"
+64,"TEXT_LUCKHA001_03672_THOMELIN_000_025","そうですか……。
+でも英雄殿なら、フォルタン家の御客人でありますし、
+査証は必要ないかもしれないけど、うーん、どうしたものか……。"
+65,"TEXT_LUCKHA001_03672_FRANCEL_000_026","(-？？？？-)<If(PlayerParameter(4))>彼女<Else/>彼</If>が我らの事業に参加してくれるのなら、
+それほどありがたい話はない。
+無論、査証など必要ないよ。"
+66,"TEXT_LUCKHA001_03672_THOMELIN_000_027","総監殿……！
+今日もこのようなところまで、ご足労いただいて……！"
+67,"TEXT_LUCKHA001_03672_FRANCEL_000_028","やあ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、久しぶり。
+キミが復興事業に興味を持ってくれたなんて、すごく嬉しいよ。
+ええと、僕のことは覚えてるかな……？"
+68,"TEXT_LUCKHA001_03672_Q2_000_000","何と言う？"
+69,"TEXT_LUCKHA001_03672_A2_000_001","もちろん！"
+70,"TEXT_LUCKHA001_03672_A2_000_002","ごめん、誰だっけ……"
+71,"TEXT_LUCKHA001_03672_FRANCEL_000_029","そうか、忘れずにいてくれて嬉しいよ。
+竜詩戦争が終わって、この国も大きく変わって……
+キミに窮地を救われたのが、なんだか遠い昔のようでさ。"
+72,"TEXT_LUCKHA001_03672_FRANCEL_000_030","いいんだ、気にしないでくれ。
+雪深いアートボルグ砦群に駐在していて、
+なかなか皇都へは顔を出せなかったから、無理もないよ。"
+73,"TEXT_LUCKHA001_03672_FRANCEL_000_031","かつてキミに窮地を救われた、
+アインハルト家の末子、フランセルさ。"
+74,"TEXT_LUCKHA001_03672_FRANCEL_000_032","当時、一介の冒険者だったキミが、オルシュファンと共に、
+異端の嫌疑をかけられた僕を救ってくれたこと、
+そして、後に祖国をも救ってくれたこと……"
+75,"TEXT_LUCKHA001_03672_FRANCEL_000_033","いくら礼を尽くしても足りないよ。
+キミは、国の英雄でもあり、僕の英雄でもあるんだ。"
+76,"TEXT_LUCKHA001_03672_FRANCEL_000_034","だからこそ、キミやオルシュファンが、
+イシュガルドにもたらしてくれた、人々の笑顔を……
+今度は僕が、守っていく番だと思っている。"
+77,"TEXT_LUCKHA001_03672_FRANCEL_000_035","そんな決意もあって、貴族院で復興事業の統括人事を決める際、
+アインハルト家の代表として、迷わずに名乗りをあげたんだ。
+ほら、うちは機工房や工兵部隊も有しているしね。"
+78,"TEXT_LUCKHA001_03672_FRANCEL_000_036","そして満場一致とはいかないが、
+総監を任せてもらえることになって……
+家名挽回のチャンスをもらえたともいえる。"
+79,"TEXT_LUCKHA001_03672_FRANCEL_000_037","ただ、落ち目貴族の末っ子の人望なんて、たかが知れていてね。
+未だ協力者は少なく、外部から職人や労働者を募集したり、
+僕自身も、できることから動いている状態なのさ。"
+80,"TEXT_LUCKHA001_03672_FRANCEL_000_038","ありがたいことに、外部からの職人たちのおかげで、
+復興事業の方は滞りないんだが……
+街の運用については、未だに協力者が少ない状態でね。"
 81,"TEXT_LUCKHA001_03672_FRANCEL_000_039",""
-82,"TEXT_LUCKHA001_03672_FRANCEL_000_040","Which is what brings me here today, as a matter of fact. I am about to go and survey our citizens in order to learn what they envision for the Firmament."
-83,"TEXT_LUCKHA001_03672_FRANCEL_000_041","If you can spare a moment, might I have the pleasure of your company? Well traveled as you are, your opinion would be of great interest to me, and I believe folk would be more willing to share their thoughts with you."
-84,"TEXT_LUCKHA001_03672_FRANCEL_000_042","You have my gratitude. Without further ado, then, let us take ourselves to the Jeweled Crozier. We are bound to find a diverse assortment of people there."
-85,"TEXT_LUCKHA001_03672_THOMELIN_000_050","You're still here, my <If(PlayerParameter(4))>lady<Else/>lord</If>? I thought you were accompanying Lord Francel to the Jeweled Crozier?"
-86,"TEXT_LUCKHA001_03672_FRANCEL_000_055","Yes, this should be a suitable spot."
-87,"TEXT_LUCKHA001_03672_SYSTEM_000_060","Join Francel as he surveys passersby to learn their opinion of the Firmament."
-88,"TEXT_LUCKHA001_03672_SYSTEM_000_061","As the survey may take several minutes, you may wish to cancel any pending Duty Finder registrations."
-89,"TEXT_LUCKHA001_03672_Q3_000_000","Wait for passersby?"
-90,"TEXT_LUCKHA001_03672_HILDA_000_062","Well, well. I come here to get supplies for the watch, and what should I find but a familiar face."
-91,"TEXT_LUCKHA001_03672_HILDA_000_063","Well, well. I come here to get supplies for my Hounds, and what should I find but a familiar face."
-92,"TEXT_LUCKHA001_03672_HILDA_000_064","And if that ain't a pretty lad you've got with you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, and a highborn one besides. You've done well for yourself."
-93,"TEXT_LUCKHA001_03672_Q4_000_000","What will you say?"
-94,"TEXT_LUCKHA001_03672_A4_000_001","You know me─I always aim high."
-95,"TEXT_LUCKHA001_03672_A4_000_002","It's not what it looks like."
-96,"TEXT_LUCKHA001_03672_HILDA_000_065","Heh, I'm teasin', is all. Anyroad, it's good to see you, my friend. What brings you here?"
-97,"TEXT_LUCKHA001_03672_FRANCEL_000_066","Lady Hilda, your reputation precedes you. As you may be aware, approval was recently passed for the restoration of the Firmament. In order to build a district that best serves its residents, we would know what good citizens such as yourself envision for it. Will you not share with us your thoughts?"
-98,"TEXT_LUCKHA001_03672_HILDA_000_067","Ahhh, so you're the one they appointed overseer. Well then, you won't mind if I speak freely."
-99,"TEXT_LUCKHA001_03672_HILDA_000_068","Now, this ain't hardly revolutionary, but I want the Firmament to be a place we can all make an honest livin'. Where, if a man works hard enough, he can have a roof over his head and food in his belly."
-100,"TEXT_LUCKHA001_03672_EUDESTAND_000_069","Aye, might be as the war's over, but for a lot of us the struggle continues, same as afore. The sort o' struggle blue bloods will never know."
-101,"TEXT_LUCKHA001_03672_HILDA_000_070","Remember, Ishgard don't belong only to the high and the holy now. If the nation's to prosper, <Emphasis>all</Emphasis> her citizens need to prosper."
-102,"TEXT_LUCKHA001_03672_HILDA_000_071","Well, we must be gettin' on. But if you've need of guards, feel free to send word. If the coin's fair, I reckon we can come to an arrangement."
-103,"TEXT_LUCKHA001_03672_HILDA_110_071","Well, we must be gettin' on. But if you've need of guards, feel free to send word. It's our job to preserve the peace, after all."
-104,"TEXT_LUCKHA001_03672_BRIARDIEN_100_071",""
-105,"TEXT_LUCKHA001_03672_FRANCEL_000_072","Ah, that there is Lord Briardien. I had heard that he was traveling the realm in his capacity as a consulting inspector, but it appears he has returned to Ishgard."
-106,"TEXT_LUCKHA001_03672_FRANCEL_000_073","Like your good self, he is a well-traveled individual, and I should like to inquire after his opinion. Do you suppose we could beg a moment of his time?"
-107,"TEXT_LUCKHA001_03672_Q5_000_000","What will you say?"
-108,"TEXT_LUCKHA001_03672_A5_000_001","We meet again, Inspector!"
-109,"TEXT_LUCKHA001_03672_A5_000_002","A moment, good inspector!"
-110,"TEXT_LUCKHA001_03672_A5_000_003","You, there! The one with the spectacles!"
-111,"TEXT_LUCKHA001_03672_BRIARDIEN_000_074","Well, if it isn't <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I did not expect to see you here, busy as you have supposedly been of late."
-112,"TEXT_LUCKHA001_03672_BRIARDIEN_000_075","If it is an inspector you seek, you shan't find one more capable. Indeed, you could do worse─<Emphasis>far</Emphasis> worse."
-113,"TEXT_LUCKHA001_03672_BRIARDIEN_000_076","To reduce the realm's preeminent inspector to a pair of spectacles... You are an impudent one indeed."
-114,"TEXT_LUCKHA001_03672_FRANCEL_000_077","Lord Briardien, a pleasure to make your acquaintance. I am Francel de Haillenarte, and I have the honor of overseeing the reconstruction of the Firmament."
-115,"TEXT_LUCKHA001_03672_FRANCEL_000_078","It is known that you are intimately familiar with all the city-states of Eorzea, and I should be much obliged for your insights. In your expert opinion, what is the one thing you believe that the Firmament needs most?"
-116,"TEXT_LUCKHA001_03672_BRIARDIEN_000_079","Hm... If the district is to thrive, then it must have a thriving economy. As I have oft observed in my travels, the flow of goods and people is as lifeblood to a city and should be encouraged."
-117,"TEXT_LUCKHA001_03672_BRIARDIEN_000_080","Ishgard has long been insular, but the recent changes present a great opportunity. Given the right planning, I am hopeful that ours may become a nation where no citizen lives in want."
-118,"TEXT_LUCKHA001_03672_BRIARDIEN_000_081","I bid you the very best in your endeavors. And should you have need of my investigative prowess, do not hesitate to call upon me. By your leave."
-119,"TEXT_LUCKHA001_03672_BRIARDIEN_000_082","Ah, one other matter, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. How fares your dim-witted friend? Still living a charmed life, no doubt, and somehow managing to solve cases despite his bumbling."
-120,"TEXT_LUCKHA001_03672_BRIARDIEN_000_083","...Actually, let us not speak of the imbecile. I feel my intellect draining away to simply think about him."
-121,"TEXT_LUCKHA001_03672_Q6_000_000","What will you say?"
-122,"TEXT_LUCKHA001_03672_A6_000_001","Ho there, old boy!"
-123,"TEXT_LUCKHA001_03672_A6_000_002","My brave and dashing Lord Emmanellain!"
-124,"TEXT_LUCKHA001_03672_A6_000_003","..."
-125,"TEXT_LUCKHA001_03672_EMMANELLAIN_000_084","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, I was wondering when you would notice me! Ever a pleasure to see you, old <If(PlayerParameter(4))>girl<Else/>boy</If>!"
-126,"TEXT_LUCKHA001_03672_EMMANELLAIN_000_085","And there I thought a distressed damsel was crying out for the comfort of mine arms! You surely know how to get a man's hopes up, old <If(PlayerParameter(4))>girl<Else/>boy</If>!"
-127,"TEXT_LUCKHA001_03672_EMMANELLAIN_000_086","What's this? How could you notice a comrade on the street and not say a word? You wound me, old <If(PlayerParameter(4))>girl<Else/>boy</If>!"
-128,"TEXT_LUCKHA001_03672_EMMANELLAIN_000_087","And if it isn't my dear Lord Francel! How fares your lovely sister? Has she perchance spoken of me of late?"
-129,"TEXT_LUCKHA001_03672_FRANCEL_000_088","If Laniaitte has spoken of you, I fear it has not been in our conversations."
-130,"TEXT_LUCKHA001_03672_FRANCEL_000_089","Now, if I may change the subject, Lord Emmanellain, you will have heard that the restoration of the Firmament has commenced. Is there aught that you envision for the district?"
-131,"TEXT_LUCKHA001_03672_EMMANELLAIN_000_090","What <Emphasis>I</Emphasis> envision? I can't say I've given it much thought..."
-132,"TEXT_LUCKHA001_03672_EMMANELLAIN_000_091","Well, what with the war finally come to an end, what is in order if not festivities? Yes, make the Firmament into a festive place, I say! A place where one and all may engage in revelry each and every day!"
-133,"TEXT_LUCKHA001_03672_HONOROIT_000_092","Beg pardons, my lord, but I believe Lord Francel seeks something more specific and, dare I say, <Emphasis>constructive</Emphasis>."
-134,"TEXT_LUCKHA001_03672_FRANCEL_000_093","No, no, the advice comes from the heart, and I shall take it to heart. You have my gratitude, Lord Emmanellain."
-135,"TEXT_LUCKHA001_03672_EMMANELLAIN_000_094","Always a pleasure to aid a fellow man! Now then, we must be on our way. Take care, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, and don't do anything I wouldn't do!"
-136,"TEXT_LUCKHA001_03672_EMMANELLAIN_100_094","Oh, and Lord Francel─do send my fondest regards to your sister. Tell her...how very helpful I was. Yes, that's good."
-137,"TEXT_LUCKHA001_03672_FRANCEL_000_095","Well, I daresay we have spoken with enough people. Shall we conclude the surveying and review what we have learned?"
-138,"TEXT_LUCKHA001_03672_FRANCEL_000_100","Thanks to your presence, we were able to hear a diverse variety of opinions. Each one has merit─the question is whether the visions can be made reality..."
-139,"TEXT_LUCKHA001_03672_FRANCEL_000_101","No, no, such pessimism will not serve. I must have faith and try my earnest best."
-140,"TEXT_LUCKHA001_03672_FRANCEL_000_102","Now then, for all this talk of the Firmament, you haven't even seen it, have you? Would you care to inspect it with me?"
-141,"TEXT_LUCKHA001_03672_FRANCEL_000_103","I will be there for a while hence, so please join me at your leisure. Thomelin by the entrance will show you to the district."
-142,"TEXT_LUCKHA001_03672_FRANCEL_000_104","Oh, and when you see the man, would you mind giving him this? 'Tis bone-chilling work, standing there as he does, and it is a little something to keep him warm."
-143,"TEXT_LUCKHA001_03672_FRANCEL_000_105","I could as easily hand it to him, to be sure, but it would be all the more warming coming from the savior of Ishgard."
-144,"TEXT_LUCKHA001_03672_FRANCEL_000_106","With that, I shall go on ahead. See you in the Firmament, my friend."
-145,"TEXT_LUCKHA001_03672_THOMELIN_000_110","Welcome back, my <If(PlayerParameter(4))>lady<Else/>lord</If>! Will you be heading to the Firmament?"
-146,"TEXT_LUCKHA001_03672_THOMELIN_000_111","From the lord overseer, you say? He truly is too kind!"
-147,"TEXT_LUCKHA001_03672_THOMELIN_000_112","Before I began working under Lord Francel, I had thought as little of highborns as I assumed they thought of us commoners. But my lord not only treats everyone as equals─he shows kindness to everyone."
-148,"TEXT_LUCKHA001_03672_THOMELIN_000_114","And to receive this gift from the hands of the savior of Ishgard <If(PlayerParameter(4))>herself<Else/>himself</If>... I am touched beyond words. <sniff>"
-149,"TEXT_LUCKHA001_03672_THOMELIN_000_115","Thank you, my <If(PlayerParameter(4))>lady<Else/>lord</If>! I shall enjoy the wine when I find a quiet moment!"
-150,"TEXT_LUCKHA001_03672_THOMELIN_000_116","Now then, I believe Lord Francel is expecting you in the Firmament. Just say the word, and I will show you through."
-151,"TEXT_LUCKHA001_03672_EVENTAREA_WARP_000_117","Proceed to the Firmament?"
-152,"TEXT_LUCKHA001_03672_THOMELIN_000_120","Will you be heading to the Firmament, my <If(PlayerParameter(4))>lady<Else/>lord</If>? Just say the word, and I will show you through."
-153,"TEXT_LUCKHA001_03672_EVENTAREA_WARP_000_121","Proceed to the Firmament?"
-154,"TEXT_LUCKHA001_03672_FRANCEL_000_130","There you are, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I bid you welcome to the Firmament!"
-155,"TEXT_LUCKHA001_03672_FRANCEL_000_131","The area in which we stand is named the Mendicant's Court, and we are presently preparing it for future works."
-156,"TEXT_LUCKHA001_03672_FRANCEL_000_132","Presently, we are in the midst of rebuilding the New Nest, a residential quarter for citizens."
+82,"TEXT_LUCKHA001_03672_FRANCEL_000_040","いまもこれから、新しい街に求めることを、
+人々に聞いて回ろうとしていたんだ。"
+83,"TEXT_LUCKHA001_03672_FRANCEL_000_041","そうだ、よかったら一緒にきてくれないかい？
+冒険者として、様々な街を見てきたキミの見解も気になるし、
+みんなも、キミだからこそ話してくれることがあるかもしれない。"
+84,"TEXT_LUCKHA001_03672_FRANCEL_000_042","ああ、ありがとう、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>……！
+じゃあ「宝杖通り」へ行ってみようか。
+あそこは人通りが多いから、いろんな人に話が聞けると思うんだ。"
+85,"TEXT_LUCKHA001_03672_THOMELIN_000_050","英雄殿、「宝杖通り」に向かわなくてよろしいのですか？
+フランセル卿がお待ちなのでは……。"
+86,"TEXT_LUCKHA001_03672_FRANCEL_000_055","うん、このあたりがいいんじゃないかな。"
+87,"TEXT_LUCKHA001_03672_SYSTEM_000_060","新しい街に求めることを街行く人に聞くため、
+フランセルと共に、この場所で待機しましょう。"
+88,"TEXT_LUCKHA001_03672_SYSTEM_000_061","イベントには数分の時間がかかりますので、
+コンテンツファインダー申請中の場合などは、ご注意ください。"
+89,"TEXT_LUCKHA001_03672_Q3_000_000","この場所で待機しますか？"
+90,"TEXT_LUCKHA001_03672_HILDA_000_062","自警団の備品の発注にきたら、
+なんとまあ、見知った顔があるじゃないか！"
+91,"TEXT_LUCKHA001_03672_HILDA_000_063","銃士隊の備品の発注にきたら、
+なんとまあ、見知った顔があるじゃないか！"
+92,"TEXT_LUCKHA001_03672_HILDA_000_064","可愛らしい貴族の坊ちゃんと一緒とは、
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>もやるねぇ。
+こんなところで逢瀬かい？"
+93,"TEXT_LUCKHA001_03672_Q4_000_000","何と言う？"
+94,"TEXT_LUCKHA001_03672_A4_000_001","ばれたか"
+95,"TEXT_LUCKHA001_03672_A4_000_002","冗談はよせ"
+96,"TEXT_LUCKHA001_03672_HILDA_000_065","ふっ、冗談だよ。
+変わらず元気そうで、なによりだ。
+それにしてもこんなところで、なにしてたんだい？"
+97,"TEXT_LUCKHA001_03672_FRANCEL_000_066","ヒルダ嬢、お噂はかねがね。
+僕たちはいま、理想とする蒼天街像を聞いて回っています。
+よければあなたのご意見を、お聞かせ願えませんか。"
+98,"TEXT_LUCKHA001_03672_HILDA_000_067","ああ、あんたもしかして、
+蒼天街の新しい総監になったっていう坊ちゃんかい。
+なるほど、そういうことか。"
+99,"TEXT_LUCKHA001_03672_HILDA_000_068","それなら遠慮なく言わせてもらうが、
+そりゃあもちろん、平民たちの誰もが、
+「暖かい家と、滋養のつく飯」にありつけることだよ。"
+100,"TEXT_LUCKHA001_03672_EUDESTAND_000_069","俺たち平民のなかには、戦争が終わったいまでも、
+そんなものが手に入らないやつらがいるんだ。
+お貴族様の目に、入っているかはわからんが。"
+101,"TEXT_LUCKHA001_03672_HILDA_000_070","この国はもう、聖職者や貴族たちだけのものじゃない。
+本当にいい街をつくっていきたいなら、
+そこんとこを忘れるんじゃないよ。"
+102,"TEXT_LUCKHA001_03672_HILDA_000_071","じゃあアタシたちは、これで失礼するよ。
+警備なんかに人員がほしくなったら、声をかけな。
+待遇次第では考えてやろうじゃないか。"
+103,"TEXT_LUCKHA001_03672_HILDA_110_071","じゃあアタシたちは、これで失礼するよ。
+警備なんかに人員がほしくなったら、声をかけな。
+皇都の治安を守るのが、銃士隊の役目だからね。"
+104,"TEXT_LUCKHA001_03672_BRIARDIEN_100_071","（★未使用／削除予定★）"
+105,"TEXT_LUCKHA001_03672_FRANCEL_000_072","あの人は……かの有名な事件屋男爵、ブリアルディアン卿だ。
+エオルゼア各地で事件を解決していると聞いていたけど、
+イシュガルドに帰ってきていたんだね。"
+106,"TEXT_LUCKHA001_03672_FRANCEL_000_073","諸国を見て回っている彼にも、話を聞いてみたいんだけど、
+声をかけられそうかな……？"
+107,"TEXT_LUCKHA001_03672_Q5_000_000","何と言う？"
+108,"TEXT_LUCKHA001_03672_A5_000_001","久しぶり、事件屋男爵！"
+109,"TEXT_LUCKHA001_03672_A5_000_002","おーい、事件屋男爵！"
+110,"TEXT_LUCKHA001_03672_A5_000_003","ちょっとそこのメガネの人ー"
+111,"TEXT_LUCKHA001_03672_BRIARDIEN_000_074","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>じゃないか。
+こんな場所で会うとは、奇遇だな。
+ずいぶん忙しそうにしていると、巷で聞いたが……"
+112,"TEXT_LUCKHA001_03672_BRIARDIEN_000_075","いかにも、エオルゼアを守る「事件屋」とは、ぼくのことだ。
+同じく「事件屋」を名乗る珍妙な奴らもいて、
+困っているがね。"
+113,"TEXT_LUCKHA001_03672_BRIARDIEN_000_076","エオルゼアを守る「事件屋」のこのぼくを、
+メガネの人呼ばわりとは……。
+嵩高な人だな、君は。"
+114,"TEXT_LUCKHA001_03672_FRANCEL_000_077","初めまして、ブリアルディアン卿。
+エオルゼア諸国に通じ、多数の都市をご存知の貴方に、
+お聞きしたいことがあるのです。"
+115,"TEXT_LUCKHA001_03672_FRANCEL_000_078","復興計画の対象となり、生まれ変わる蒼天街について……
+あなたが必要だと思うものは、なんでしょうか？"
+116,"TEXT_LUCKHA001_03672_BRIARDIEN_000_079","ふむ……それは無論「活発な経済活動」だろうな。
+物や人の往来が多ければ、街や人々が活気づくのは、
+諸都市を見ても明らかだ。"
+117,"TEXT_LUCKHA001_03672_BRIARDIEN_000_080","この国は閉鎖的で辟易するが、ようやく変革の兆しが見えた。
+これからは人々が豊かに生きられる国になるよう、
+願うばかりだ。"
+118,"TEXT_LUCKHA001_03672_BRIARDIEN_000_081","なにか事件が起こって困っていたら、
+ぜひ依頼をよこしてくれたまえ。
+ではな。"
+119,"TEXT_LUCKHA001_03672_BRIARDIEN_000_082","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
+そういえば「あいつ」はどうしている……？
+相変わらず、愚かだが実直に、事件を解決しているんだろうか？"
+120,"TEXT_LUCKHA001_03672_BRIARDIEN_000_083","いや、すまない。
+聞かなかったことにしてくれ。
+きっと言わずもがな、だろうからな。"
+121,"TEXT_LUCKHA001_03672_Q6_000_000","何と言う？"
+122,"TEXT_LUCKHA001_03672_A6_000_001","よっ、相棒！"
+123,"TEXT_LUCKHA001_03672_A6_000_002","もし、麗しのエマネラン様"
+124,"TEXT_LUCKHA001_03672_A6_000_003","…………"
+125,"TEXT_LUCKHA001_03672_EMMANELLAIN_000_084","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>！
+お前から声かけてくれるなんて嬉しいぜー！"
+126,"TEXT_LUCKHA001_03672_EMMANELLAIN_000_085","なんだ、どこぞの令嬢かと思ったらお前か、相棒！
+紛らわしいことするなよなー！"
+127,"TEXT_LUCKHA001_03672_EMMANELLAIN_000_086","おいおいおいおい！
+こっちを見てるの気づいてたぜ！？
+声をかけてくれないとはつれないな、相棒！"
+128,"TEXT_LUCKHA001_03672_EMMANELLAIN_000_087","それにフランセルじゃねぇか！
+ラニエット姉さんは、元気にしてるか？
+俺がかっこいいとか、俺が好きとか、なんか言ってない？"
+129,"TEXT_LUCKHA001_03672_FRANCEL_000_088","いや、姉上は特になにも……。"
+130,"TEXT_LUCKHA001_03672_FRANCEL_000_089","そんなことより、聞きたいことがあるんです。
+エマネランさんは、復興した蒼天街に、
+なにか求めることはありますか？"
+131,"TEXT_LUCKHA001_03672_EMMANELLAIN_000_090","蒼天街に求めること～～～～？
+なんだよ、そんなふわっとしたこと聞かれても……。"
+132,"TEXT_LUCKHA001_03672_EMMANELLAIN_000_091","まぁでも、戦争も終わったんだし、
+「華やかな街」にしてぇよな。
+みんなが毎日楽しく暮らせるようなさ！"
+133,"TEXT_LUCKHA001_03672_HONOROIT_000_092","エマネラン様……。
+フランセル様がお聞きしたいのは、
+もっと具体的で建設的な意見だと思います、はい。"
+134,"TEXT_LUCKHA001_03672_FRANCEL_000_093","いや、率直な意見がもらえて、感謝します。
+ふたりとも、ありがとう。"
+135,"TEXT_LUCKHA001_03672_EMMANELLAIN_000_094","おう！　これくらい、お安い御用さ！
+じゃあ俺たちはもう行くぜ！
+またな、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>！"
+136,"TEXT_LUCKHA001_03672_EMMANELLAIN_100_094","あっ、フランセルは、
+ラニエット姉さんによろしく伝えてくれよな！"
+137,"TEXT_LUCKHA001_03672_FRANCEL_000_095","よし。
+キミのおかげで、いろんな人に話が聞けたね。
+そろそろ、切り上げようか。"
+138,"TEXT_LUCKHA001_03672_FRANCEL_000_100","みな、求めることはバラバラだったな……。
+僕はどの意見も正しいように思えたが、
+そのすべてを聞き入れることなんて、できるだろうか……。"
+139,"TEXT_LUCKHA001_03672_FRANCEL_000_101","…………いいや、うじうじ考えていてはダメだな！
+何事も、やってみなきゃわからないんだから。"
+140,"TEXT_LUCKHA001_03672_FRANCEL_000_102","そうだ、キミを蒼天街へ案内していなかったね。
+せっかくだから、見ていかないかい？"
+141,"TEXT_LUCKHA001_03672_FRANCEL_000_103","蒼天街へは、
+さっき話していた「トメリン」が案内してくれるよ。
+そうだ、ついでにお願いしちゃおうかな……"
+142,"TEXT_LUCKHA001_03672_FRANCEL_000_104","案内役を、彼に任せっぱなしにしているから、
+キミがくる前に、差し入れに<Sheet(EventItem,2002954,0)/>を買っておいたんだ。
+うん、まだ冷めてなさそうだな。"
+143,"TEXT_LUCKHA001_03672_FRANCEL_000_105","よかったら、キミから渡してあげてくれるかい？
+憧れの英雄からもらったほうが、彼も喜ぶと思うんだ。"
+144,"TEXT_LUCKHA001_03672_FRANCEL_000_106","じゃあ僕は、先に蒼天街へ向かっているね！"
+145,"TEXT_LUCKHA001_03672_THOMELIN_000_110","英雄殿、おかえりなさい！
+「蒼天街」へ向かわれますか？"
+146,"TEXT_LUCKHA001_03672_THOMELIN_000_111","えっ？　総監殿がこれを？
+自分のような使用人に、お気遣いは無用なのに……！
+ありがとうございます！"
+147,"TEXT_LUCKHA001_03672_THOMELIN_000_112","戦争が終わって、この仕事に就くまで、
+貴族なんて、自分勝手な人ばかりだと思っていましたが……
+総監殿は、自分たちのような者にまでお優しいんですよ。"
+148,"TEXT_LUCKHA001_03672_THOMELIN_000_114","しかも、先ほどお通りになった際には、
+何事もないように振る舞われ……。
+英雄殿から直々にいただけるなんて、自分は果報者ですね。"
+149,"TEXT_LUCKHA001_03672_THOMELIN_000_115","じゃあこの<Sheet(EventItem,2002954,0)/>は、職務が一段落したらいただきます。
+英雄殿はまだ「蒼天街」をごらんになっていないでしょう？
+自分がご案内いたしますよ！"
+150,"TEXT_LUCKHA001_03672_THOMELIN_000_116","きっと総監殿も、待っておられると思います！"
+151,"TEXT_LUCKHA001_03672_EVENTAREA_WARP_000_117","「蒼天街」へ移動しますか？"
+152,"TEXT_LUCKHA001_03672_THOMELIN_000_120","英雄殿も「蒼天街」へ向かわれるのですか？
+それなら自分に、ご案内させてください！"
+153,"TEXT_LUCKHA001_03672_EVENTAREA_WARP_000_121","「蒼天街」へ移動しますか？"
+154,"TEXT_LUCKHA001_03672_FRANCEL_000_130","ようこそ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>！
+ここが「蒼天街」だよ！"
+155,"TEXT_LUCKHA001_03672_FRANCEL_000_131","まずは、ここ「名も無き者たちの広場」の整備をして、
+本格的な復興への体制を整えようと考えているんだ。"
+156,"TEXT_LUCKHA001_03672_FRANCEL_000_132","いまは「ニューネスト居住区」の整備計画中なんだ。
+土地や住居の整備はもちろんのこと、
+移住者の住みやすい環境を整えたりね。"
 157,"TEXT_LUCKHA001_03672_FRANCEL_000_133",""
 158,"TEXT_LUCKHA001_03672_FRANCEL_100_133",""
-159,"TEXT_LUCKHA001_03672_FRANCEL_000_134","We have much and more to do, but speaking to the people has stoked the fires of my determination. I want to make the Firmament into a vibrant, thriving district where highborn and lowborn alike may live side by side in harmony."
-160,"TEXT_LUCKHA001_03672_FRANCEL_000_135","Yet I would be lying were I to say the task does not daunt me. There is a limit to what I can achieve, especially given House Haillenarte's diminished influence..."
-161,"TEXT_LUCKHA001_03672_EDMONT_000_136","(-???-)Have I come at a bad time?"
-162,"TEXT_LUCKHA001_03672_FRANCEL_000_137","C-Count Edmont!"
-163,"TEXT_LUCKHA001_03672_FRANCEL_100_137","To what do we owe the honor...?"
-164,"TEXT_LUCKHA001_03672_EDMONT_000_138","Lest you forget, I am the Count de Fortemps no more. Just a retired old man."
-165,"TEXT_LUCKHA001_03672_EDMONT_000_139","As for my presence here, Emmanellain reported that <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> was in Ishgard, and I thought I would make a social call."
-166,"TEXT_LUCKHA001_03672_EDMONT_000_140","You will forgive me my eavesdropping, but it seems the reconstruction project is not immune to the uncertainty that has accompanied our nation's transition to a republic."
-167,"TEXT_LUCKHA001_03672_EDMONT_000_141","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>─I am given to understand that the other nations have established residential districts for adventurer use. Is this true?"
-168,"TEXT_LUCKHA001_03672_Q7_000_000","What will you say?"
-169,"TEXT_LUCKHA001_03672_A7_000_001","Yes, I have a house in one."
-170,"TEXT_LUCKHA001_03672_A7_000_002","Yes, I've heard of such places."
-171,"TEXT_LUCKHA001_03672_A7_000_003","Sorry, I've been living under a rock..."
-172,"TEXT_LUCKHA001_03672_FRANCEL_000_142","There are districts specifically for adventurer use, and you possess an abode in one such place? I should like to pay you a visit one day, my friend!"
-173,"TEXT_LUCKHA001_03672_FRANCEL_000_143","Districts specifically for adventurer use, where they might possess their own abode? Intriguing..."
-174,"TEXT_LUCKHA001_03672_FRANCEL_000_144","I believe I have heard of such places in passing─districts specifically for adventurer use, where they might possess their own abode."
-175,"TEXT_LUCKHA001_03672_EDMONT_000_145","The truth is, our nation is divided by a gulf. While the redistribution of wealth may go some ways towards closing this gulf, it shall not lead to true independence for the masses."
-176,"TEXT_LUCKHA001_03672_EDMONT_000_146","We must ask ourselves, in this new age in which we live, what role should each one of us play? In pondering this dilemma, I believe that we may draw inspiration from adventurers and their independent lives."
-177,"TEXT_LUCKHA001_03672_FRANCEL_000_147","Independent lives... If we were to translate this into the Firmament, might it not assume the form of self-administration?"
-178,"TEXT_LUCKHA001_03672_EDMONT_000_148","It seems you have found a spark. In which case, this old man's ramblings have served their purpose. I shall pray for your success, Lord Francel."
-179,"TEXT_LUCKHA001_03672_FRANCEL_000_149","Your words are as a beacon in the dark, my lord. Thank you."
-180,"TEXT_LUCKHA001_03672_EDMONT_000_150","Well, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, you seem to be occupied at present, so I will leave you to your tasks. But when next we meet, I hope to be regaled with your recent adventures. As ever, our Fortemps Manor is at your disposal should you need a rest."
-181,"TEXT_LUCKHA001_03672_AUGEBERT_000_151","(-???-)You done talkin', Francel? 'Cause I'm itchin' to meet your hero friend."
-182,"TEXT_LUCKHA001_03672_FRANCEL_000_152","Yes, forgive me for the wait."
-183,"TEXT_LUCKHA001_03672_FRANCEL_000_153","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, permit me to introduce you to Augebert. Formerly an engineer of our house, he now serves as the project's chief foreman."
-184,"TEXT_LUCKHA001_03672_FRANCEL_000_154","It is thanks to his leadership on site that I am able to focus my energies on the administrative aspects of the reconstruction."
-185,"TEXT_LUCKHA001_03672_AUGEBERT_000_155","Francel's told me all about you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. First you save the whole bleedin' nation, now you're helping us rebuild it brick by brick. What can I say except it's great to have you on board."
-186,"TEXT_LUCKHA001_03672_AUGEBERT_000_156","If you have any questions about the work, I'd be happy to field them. Just save the tedious stuff like the budget for Francel, eh?"
-187,"TEXT_LUCKHA001_03672_FRANCEL_000_157",""
-188,"TEXT_LUCKHA001_03672_FRANCEL_000_158","Indeed, the work here takes precedent above all else, and it is my chief concern to facilitate it. In the course of which, I may well need to consult you again."
-189,"TEXT_LUCKHA001_03672_FRANCEL_000_159","With all the little tasks demanding my time, I cannot always be present on site, but I endeavor to visit as often as possible─and I hope to see you often too!"
-190,"TEXT_LUCKHA001_03672_SYSTEM_000_160","You now have access to the Firmament. An option has been added to teleport here from the Foundation aetheryte."
-191,"TEXT_LUCKHA001_03672_SYSTEM_000_161","Speak with Augebert to learn about how you may contribute to the reconstruction effort."
+159,"TEXT_LUCKHA001_03672_FRANCEL_000_134","キミのおかげで、様々な意見を聞いて……
+僕はここを、貴族も平民も垣根なく暮らせる、
+明るい街にしたいと、改めて思ったよ。"
+160,"TEXT_LUCKHA001_03672_FRANCEL_000_135","だが、それにしたって、
+僕ひとりではできることに限界がある。
+アインハルト家は、影響力も弱いし、どうしたものか……。"
+161,"TEXT_LUCKHA001_03672_EDMONT_000_136","(-？？？？-)おや、なにやら折の悪い時に、お邪魔しましたかな？"
+162,"TEXT_LUCKHA001_03672_FRANCEL_000_137","フォルタン伯爵……！"
+163,"TEXT_LUCKHA001_03672_FRANCEL_100_137","いいえ、その、お見苦しいところを……。"
+164,"TEXT_LUCKHA001_03672_EDMONT_000_138","なに、いまは爵位を息子に譲った、ただの隠居。
+ただのエドモン、とお呼びくだされ。"
+165,"TEXT_LUCKHA001_03672_EDMONT_000_139","実はエマネランから、英雄殿とお会いしたと聞き、
+よければ茶飲み話などをと思っていたのだが……。"
+166,"TEXT_LUCKHA001_03672_EDMONT_000_140","この国が共和制となり、新たな環境に悩んでいるのはみな同じ。
+アインハルト家が新たに管轄する、蒼天街の運用も、
+例外ではないようですな。"
+167,"TEXT_LUCKHA001_03672_EDMONT_000_141","ときに、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>殿。
+エオルゼア諸国には、「冒険者居住区」なるものがあるとか？"
+168,"TEXT_LUCKHA001_03672_Q7_000_000","何と言う？"
+169,"TEXT_LUCKHA001_03672_A7_000_001","そこに家を所持している"
+170,"TEXT_LUCKHA001_03672_A7_000_002","聞いたことがある"
+171,"TEXT_LUCKHA001_03672_A7_000_003","聞いたことがない"
+172,"TEXT_LUCKHA001_03672_FRANCEL_000_142","へぇ！　エオルゼア諸国には、キミのような冒険者が家を持ち、
+各々で運用、生活できる区域があるのか！
+すごいな、いつかお邪魔してみたいものだ。"
+173,"TEXT_LUCKHA001_03672_FRANCEL_000_143","なるほど……
+エオルゼア諸国では、冒険者たちが家を持ち、
+各々で運用、生活している区域があるのか。"
+174,"TEXT_LUCKHA001_03672_FRANCEL_000_144","そういえば……僕は聞いたことが……。
+確か、エオルゼア諸国には、異邦の冒険者たちが家を持ち、
+各々で運用、生活している区域があると……。"
+175,"TEXT_LUCKHA001_03672_EDMONT_000_145","事実として、我が国には様々な格差がある。
+それを正してゆくとして、持てる者が持たざる者に、
+一方的に与えるという図式は、真の自立にはほど遠い……。"
+176,"TEXT_LUCKHA001_03672_EDMONT_000_146","では、新時代の貴族、聖職者、平民の在り方とは……？
+私は、この難しい問題を考える上で、己の在り方を己で決める、
+冒険者の生き方が参考になるように思えるのです。"
+177,"TEXT_LUCKHA001_03672_FRANCEL_000_147","冒険者のような、己の在り方を己で決める生き方……
+なるほど、それをこの街にあてはめるなら、
+「住人による自治」が、近いか……？"
+178,"TEXT_LUCKHA001_03672_EDMONT_000_148","なにか、ひらめきがあったようですな。
+では、隠居の爺の長話はここまでとしましょう。
+フランセル殿、蒼天街の飛躍を祈っておりますぞ。"
+179,"TEXT_LUCKHA001_03672_FRANCEL_000_149","ご提言感謝いたします、エドモン殿。
+暗中を進むなかで、灯火を見つけたような心地です。"
+180,"TEXT_LUCKHA001_03672_EDMONT_000_150","では、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>殿。
+お忙しいようだし、茶はまた今度にいたそう。
+羽を休めたいときには、いつでも我が家に寄られよ。"
+181,"TEXT_LUCKHA001_03672_AUGEBERT_000_151","(-？？？？-)どうも、フランセル坊ちゃん。
+お偉方の話は終わりましたかい？
+それなら、そこの英雄さんを紹介しちゃくれませんかね？"
+182,"TEXT_LUCKHA001_03672_FRANCEL_000_152","ああ、すまない。
+待たせてしまったかな？"
+183,"TEXT_LUCKHA001_03672_FRANCEL_000_153","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、紹介するよ。
+彼はうちの工兵部隊出身の、オーグベルトさんだ。
+いまは復興事業の現場監督を任せていてね。"
+184,"TEXT_LUCKHA001_03672_FRANCEL_000_154","僕が、運用面での仕事に注力できているのは、
+復興事業を、彼に取り仕切ってもらっているおかげなんだ。"
+185,"TEXT_LUCKHA001_03672_AUGEBERT_000_155","よろしく、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
+フランセル坊ちゃんから話は聞いてるぜ。
+まさか国ひとつ救った英雄が、職人として帰ってくるなんてな。"
+186,"TEXT_LUCKHA001_03672_AUGEBERT_000_156","復興事業に関することは、遠慮なく聞いてくれ。
+その代わり、運用だ予算だと小難しいことは、
+フランセル坊ちゃんへな。"
+187,"TEXT_LUCKHA001_03672_FRANCEL_000_157","（★未使用／削除予定★）"
+188,"TEXT_LUCKHA001_03672_FRANCEL_000_158","そうだね、とにかく今はここの復興が最優先だ。
+僕もでき得る限りのことを考えておくので、
+また困ったときには、ぜひキミの意見を聞かせてほしいな。"
+189,"TEXT_LUCKHA001_03672_FRANCEL_000_159","僕も雑務が多くて、ずっとここにいるわけにはいかないけど……
+頻繁に蒼天街へ出入りするつもりだから、
+会えたらぜひ声をかけてね！"
+190,"TEXT_LUCKHA001_03672_SYSTEM_000_160","「蒼天街」への出入りが可能になりました！
+職人として参加できる開発計画について、
+「オーグベルト」に話を聞いてみましょう！"
+191,"TEXT_LUCKHA001_03672_SYSTEM_000_161","また、「イシュガルド：下層」のエーテライトから、
+「蒼天街」への転送が可能になりました！"

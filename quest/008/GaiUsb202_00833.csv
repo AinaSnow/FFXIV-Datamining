@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB202_00833_SEQ_00","Many a quarrel has been started over empty larders, and Kuzai Tazai fears that soon, acrimony will be the order of the day in Costa del Sol."
-1,"TEXT_GAIUSB202_00833_SEQ_01","Kobolds have been making free with Costa del Sol's food supply, pilfering those morsels tastiest to their fastidious palates. Set a trap for them using the bloodstained sacks that Kuzai Tazai has given you."
-2,"TEXT_GAIUSB202_00833_SEQ_02","You have laid the bloody trap. Wait at the specified location and strike when the kobolds come for the meaty bounty."
-3,"TEXT_GAIUSB202_00833_SEQ_03","The kobolds perished hungry and surprised─not the worst way to go, all things considered. Return to Kuzai Tazai and tell him that the deed is done."
-4,"TEXT_GAIUSB202_00833_SEQ_04","Kuzai Tazai is relieved to hear your report, but he is not as happy as you expected. There is news far more disturbing than a few missing bits of headcheese: the kobolds are apparently arming themselves for war."
+0,"TEXT_GAIUSB202_00833_SEQ_00","コスタ・デル・ソルのクザイ・タザイには、困っていることがあるようだ。"
+1,"TEXT_GAIUSB202_00833_SEQ_01","コスタ・デル・ソルの食料を、コボルド族が盗んでいるらしい。<Sheet(EObj,2002050,0)/>に<Sheet(EventItem,2000650,0)/>を仕掛けよう。"
+2,"TEXT_GAIUSB202_00833_SEQ_02","<Sheet(EventItem,2000650,0)/>を仕掛けた。<Sheet(EObj,2002051,0)/>で待機し、現れたコボルド族を倒そう。"
+3,"TEXT_GAIUSB202_00833_SEQ_03","現れたコボルド族をすべて倒した。コスタ・デル・ソルのクザイ・タザイに報告しよう。"
+4,"TEXT_GAIUSB202_00833_SEQ_04","報告を受けて安心した様子のクザイ・タザイ。彼によれば、コボルド族が戦いの準備をしているということだが……。"
 5,"TEXT_GAIUSB202_00833_SEQ_05",""
 6,"TEXT_GAIUSB202_00833_SEQ_06",""
 7,"TEXT_GAIUSB202_00833_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_GAIUSB202_00833_SEQ_21",""
 22,"TEXT_GAIUSB202_00833_SEQ_22",""
 23,"TEXT_GAIUSB202_00833_SEQ_23",""
-24,"TEXT_GAIUSB202_00833_TODO_00","Place bloodstained sacks at the specified locations."
-25,"TEXT_GAIUSB202_00833_TODO_01","Lie in wait and defeat the kobolds."
-26,"TEXT_GAIUSB202_00833_TODO_02","Report to Kuzai Tazai."
+24,"TEXT_GAIUSB202_00833_TODO_00","<Sheet(EObj,2002050,0)/>に<Sheet(EventItem,2000650,0)/>を使う"
+25,"TEXT_GAIUSB202_00833_TODO_01","<Sheet(EObj,2002051,0)/>で待機し、現れたコボルド族を討伐"
+26,"TEXT_GAIUSB202_00833_TODO_02","クザイ・タザイに報告"
 27,"TEXT_GAIUSB202_00833_TODO_03",""
 28,"TEXT_GAIUSB202_00833_TODO_04",""
 29,"TEXT_GAIUSB202_00833_TODO_05",""
@@ -49,12 +49,21 @@ int32,str,str
 45,"TEXT_GAIUSB202_00833_TODO_21",""
 46,"TEXT_GAIUSB202_00833_TODO_22",""
 47,"TEXT_GAIUSB202_00833_TODO_23",""
-48,"TEXT_GAIUSB202_00833_KUZAITAZAI_000_000","I'm sorry, <If(PlayerParameter(4))>ma'am<Else/>sir</If>, we've no headcheese today. Why ever not? Because the kobolds are stealing food everywhere in Costa del Sol, that's why! The tomato pies, the mashed popotoes, and now the headcheese to boot!"
-49,"TEXT_GAIUSB202_00833_KUZAITAZAI_000_001","Now, I've an idea for ambushing those beady-eyed furballs, but I can't go off in case Master Dyrstweitz needs me. And I can't stand here and do nothing about it, either, as <Emphasis>I'm</Emphasis> the one getting blamed for the missing eats!"
-50,"TEXT_GAIUSB202_00833_KUZAITAZAI_000_002","Might you be willing to solve this problem for me, adventurer? You look to have some spare time! I've placed the meats the kobolds like best in these five sacks. Line them up along the pier to the north, and they should come scurrying."
-51,"TEXT_GAIUSB202_00833_DUMMY_000_010",""
-52,"TEXT_GAIUSB202_00833_DUMMY_000_020",""
-53,"TEXT_GAIUSB202_00833_KUZAITAZAI_000_030","Those filthy ground dwellers fell for it? Hah, I knew it! I owe you a debt. Master Dyrstweitz will be pleased, too. And, more importantly, he shan't be hitting me with the pickle ladle so much!"
-54,"TEXT_GAIUSB202_00833_KUZAITAZAI_000_031","...Though between the two of us, it was I who ate the tomato pies... <cough> If Master Dyrstweitz actually knew anything about the kobolds, he would never have believed the creatures would eat such a thing!"
-55,"TEXT_GAIUSB202_00833_KUZAITAZAI_000_032","I do hope this is the end of their mischief...but I think not. From what I've observed, they seem to be readying for battle. And considering we've already got the Sahagin to deal with, I don't know that we need <Emphasis>that</Emphasis> kind of trouble."
-56,"TEXT_GAIUSB202_00833_POP_MESSAGE_000","Ravenous kobolds have found the meat!"
+48,"TEXT_GAIUSB202_00833_KUZAITAZAI_000_000","このところ、コスタ・デル・ソルの食糧が
+「コボルド族」に盗まれているんです。"
+49,"TEXT_GAIUSB202_00833_KUZAITAZAI_000_001","コボルド族を退治したいけど、ぼくじゃムリだし……。
+でも、食料が盗まれると、
+ディルストヴェイツさんがぼくを怒るし……。"
+50,"TEXT_GAIUSB202_00833_KUZAITAZAI_000_002","冒険者さん、コボルド族の退治をお願いできませんか？
+この「<Sheet(EventItem,2000650,0)/>」を囮に使えば、
+奴らを誘き寄せられると思うんです……。"
+51,"TEXT_GAIUSB202_00833_DUMMY_000_010","（指定地点に「食料が入った袋」を設置）"
+52,"TEXT_GAIUSB202_00833_DUMMY_000_020","（指定地点で「待機」コボルドが３匹ＰＯＰ、倒す）"
+53,"TEXT_GAIUSB202_00833_KUZAITAZAI_000_030","ありがとうございました！
+これでディルストヴェイツさんに怒られずにすみます！"
+54,"TEXT_GAIUSB202_00833_KUZAITAZAI_000_031","いつもボクが、食糧のつまみ食いをしているから、
+ディルストヴェイツさんの沸点も低くなってて……アハハ。"
+55,"TEXT_GAIUSB202_00833_KUZAITAZAI_000_032","コボルド族も余計な仕事を増やさないでほしいなあ。
+……なんでも奴ら、戦いの準備をしてるみたいなんです。
+これ以上、何も起こらなきゃいいけど……。"
+56,"TEXT_GAIUSB202_00833_POP_MESSAGE_000","敵の気配を感じた！！"

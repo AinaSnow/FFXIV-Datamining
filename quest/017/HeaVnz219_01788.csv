@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNZ219_01788_SEQ_00","Cibleroit stares longingly into the distance."
-1,"TEXT_HEAVNZ219_01788_SEQ_01","Cibleroit has become enraptured with the thought of eating the meat of the nearby loaghtans. He asks you to cross the nearby river and hunt these loaghtans, collecting three flanks of their succulent meat."
-2,"TEXT_HEAVNZ219_01788_SEQ_02","You slaughter the loaghtans like cattle. Return to Loth ast Vath with your haul."
-3,"TEXT_HEAVNZ219_01788_SEQ_03","Cibleroit and the Hungerer both agree: the meat is exquisite. One advantage of being of the Nonmind is the right of individuals to decide for themselves what they will eat. In the Onemind, only members of the warrior caste have the privilege of eating meat."
+0,"TEXT_HEAVNZ219_01788_SEQ_00","ヴァスの塚のシブルロアは、遠くを見ているようだ。"
+1,"TEXT_HEAVNZ219_01788_SEQ_01","シブルロアに<Sheet(EventItem,2001613,0)/>の調達を頼まれた。高地ドラヴァニアのスモーキングウェイストにいる「<Sheet(BNpcName,3571,0)/>」を討伐して「<Sheet(EventItem,2001613,0)/>」を3つ入手しよう。"
+2,"TEXT_HEAVNZ219_01788_SEQ_02","<Sheet(EventItem,2001613,0)/>を入手した。ヴァスの塚の「シブルロア」に「<Sheet(EventItem,2001613,0)/>」を渡そう。"
+3,"TEXT_HEAVNZ219_01788_SEQ_03","シブルロアに<Sheet(EventItem,2001613,0)/>を渡した。<Sheet(EventItem,2001613,0)/>は、シブルロアとウマソウの大好物だったようだ。「グナースの塚」にいるグナース族たちは、兵隊しか肉を食べることができず、自由に肉を食べることができるのは、「分かたれし者たち」の特権らしい。"
 4,"TEXT_HEAVNZ219_01788_SEQ_04",""
 5,"TEXT_HEAVNZ219_01788_SEQ_05",""
 6,"TEXT_HEAVNZ219_01788_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_HEAVNZ219_01788_SEQ_21",""
 22,"TEXT_HEAVNZ219_01788_SEQ_22",""
 23,"TEXT_HEAVNZ219_01788_SEQ_23",""
-24,"TEXT_HEAVNZ219_01788_TODO_00","Kill loaghtans and obtain their meat."
-25,"TEXT_HEAVNZ219_01788_TODO_01","Deliver the meat to Cibleroit."
+24,"TEXT_HEAVNZ219_01788_TODO_00","<Sheet(BNpcName,3571,0)/>から<Sheet(EventItem,2001613,0)/>を入手"
+25,"TEXT_HEAVNZ219_01788_TODO_01","シブルロアに<Sheet(EventItem,2001613,0)/>を渡す"
 26,"TEXT_HEAVNZ219_01788_TODO_02",""
 27,"TEXT_HEAVNZ219_01788_TODO_03",""
 28,"TEXT_HEAVNZ219_01788_TODO_04",""
@@ -49,16 +49,30 @@ int32,str,str
 45,"TEXT_HEAVNZ219_01788_TODO_21",""
 46,"TEXT_HEAVNZ219_01788_TODO_22",""
 47,"TEXT_HEAVNZ219_01788_TODO_23",""
-48,"TEXT_HEAVNZ219_01788_CIBLEROIT_000_000","Hunter, we have another request to make of you. The loaghtans on the far side of the river─their meat is delicious. Please bring us some of their delicious meat. <click> <click>"
-49,"TEXT_HEAVNZ219_01788_UMASOU_000_001","<click> <click> We overheard your conversation. The loaghtan's meat truly is delicious. But that you would try to keep it to yourself? We think it is not fair."
-50,"TEXT_HEAVNZ219_01788_CIBLEROIT_000_002","We were not talking to you, Hungerer. Do you so miss hearing the thoughts of others? But you are right. It is not fair. Very well. Hunter, please bring us three flanks of delicious loaghtan meat. <click> <click>"
-51,"TEXT_HEAVNZ219_01788_CIBLEROIT_000_010","Please bring us three flanks of loaghtan meat. Our mandibles itch at the thought of it. <click> <click>"
-52,"TEXT_HEAVNZ219_01788_UMASOU_000_000",""
-53,"TEXT_HEAVNZ219_01788_UMASOU_000_002",""
-54,"TEXT_HEAVNZ219_01788_CIBLEROIT_000_020","Do you have the delicious meat? <click> <click>"
-55,"TEXT_HEAVNZ219_01788_CIBLEROIT_000_021","Yes. This is it. This meat is very good. You have brought us very good meat. <click> <click> I cannot wait to eat it."
-56,"TEXT_HEAVNZ219_01788_UMASOU_000_022","Yes. The smell of this meat is very good. We do not remember the last time we saw such fresh, juicy meat."
-57,"TEXT_HEAVNZ219_01788_CIBLEROIT_000_022","In the Onemind, only warriors are fed meat. But for ones such as us, to be able to eat meat─and whenever the mood takes us... <click> <click> <click> There are very real advantages to being of the Nonmind!"
-58,"TEXT_HEAVNZ219_01788_GNATHMOBA01614_000_020",""
-59,"TEXT_HEAVNZ219_01788_GNATHMOBA01614_000_021",""
-60,"TEXT_HEAVNZ219_01788_GNATHMOBA01614_000_022",""
+48,"TEXT_HEAVNZ219_01788_CIBLEROIT_000_000","シシシシシ……狩人、またお前に頼みたい。
+「<Sheet(EventItem,2001613,0)/>」がほしいのだ……。
+あれは、途方もなく美味いからな。"
+49,"TEXT_HEAVNZ219_01788_UMASOU_000_001","……話は聞かせてもらったわ……シシシシシ。
+確かに「<Sheet(EventItem,2001613,0)/>」は、とてもウマいわね。
+でも、独り占めはズルいというものよ？"
+50,"TEXT_HEAVNZ219_01788_CIBLEROIT_000_002","目ざといな、ウマソウよ。
+仕方あるまい、「<Sheet(EventItem,2001613,0)/>」を3つ頼む。
+「<Sheet(BNpcName,3571,0)/>」なら南に進んだ平原にいるゆえな……シシシシシ。"
+51,"TEXT_HEAVNZ219_01788_CIBLEROIT_000_010","仕方あるまい、「<Sheet(EventItem,2001613,0)/>」を3つ頼む。
+「<Sheet(BNpcName,3571,0)/>」なら南に進んだ平原にいるゆえな……シシシシシ。"
+52,"TEXT_HEAVNZ219_01788_UMASOU_000_000","（★未使用／削除予定★）"
+53,"TEXT_HEAVNZ219_01788_UMASOU_000_002","（★未使用／削除予定★）"
+54,"TEXT_HEAVNZ219_01788_CIBLEROIT_000_020","仕方あるまい、「<Sheet(EventItem,2001613,0)/>」を3つ頼む。
+「<Sheet(BNpcName,3571,0)/>」なら南に進んだ平原にいるゆえな……シシシシシ。"
+55,"TEXT_HEAVNZ219_01788_CIBLEROIT_000_021","シシシシシ……間違いない、「<Sheet(EventItem,2001613,0)/>」だ。
+それも、脂ののりきった上質な肉……さすがは腕利きの狩人だ。
+食べる前から、気持ちがたかぶるというものよな！"
+56,"TEXT_HEAVNZ219_01788_UMASOU_000_022","……その言葉には共感を覚えるわ……シシシシシ。
+したたる血の香りといい、こんなウマソウな生肉は久しぶり。
+嗚呼、私の自慢の唾液が、とめどなく湧き出してくるわ！"
+57,"TEXT_HEAVNZ219_01788_CIBLEROIT_000_022","哀れな「繋がりし者たち」は、兵隊しか肉を食えない。
+だが、我らは「繋ぎ止めし者」の意思に縛られず、肉を食う。
+なにせ「分かたれし者たち」なのだからな……シシシシシ。"
+58,"TEXT_HEAVNZ219_01788_GNATHMOBA01614_000_020","（★未使用／削除予定★）"
+59,"TEXT_HEAVNZ219_01788_GNATHMOBA01614_000_021","（★未使用／削除予定★）"
+60,"TEXT_HEAVNZ219_01788_GNATHMOBA01614_000_022","（★未使用／削除予定★）"

@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_MANFST006_00446_SEQ_00","Luquelot appears to be in need of assistance."
-1,"TEXT_MANFST006_00446_SEQ_01","At Bentbranch Meadows, you learn from Luquelot that Ixali dirigibles have been crossing the Twelveswood's borders seemingly at will. Concerned that something may be amiss with the elementals, he has committed the details of his sightings to parchment, and bids you deliver the document to Miounne."
-2,"TEXT_MANFST006_00446_SEQ_02","Miounne's face turns deathly pale as she reads Luquelot's letter. It would seem trouble is brewing, and that your aid is needed once more. Prepare yourself for a mission of grave import, and then request further orders from Miounne."
+0,"TEXT_MANFST006_00446_SEQ_00","ベントブランチ牧場の飼育員ルクロは、何か「気になるもの」を見たというが……？"
+1,"TEXT_MANFST006_00446_SEQ_01","黒衣森でイクサル族の気球が飛んでいるのを目撃したルクロ。彼はその目撃場所を、手紙にしたためたのだという。グリダニアへ戻り、カーラインカフェの「ミューヌ」に「ルクロの封書」を渡そう。"
+2,"TEXT_MANFST006_00446_SEQ_02","ルクロの手紙には、なにか厄介なことが書かれていたようだ。どんな事態にも対応できるよう準備を整え、ミューヌから詳しい話を聞こう。"
 3,"TEXT_MANFST006_00446_SEQ_03",""
 4,"TEXT_MANFST006_00446_SEQ_04",""
 5,"TEXT_MANFST006_00446_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_MANFST006_00446_SEQ_21",""
 22,"TEXT_MANFST006_00446_SEQ_22",""
 23,"TEXT_MANFST006_00446_SEQ_23",""
-24,"TEXT_MANFST006_00446_TODO_00","Deliver Luquelot's letter to Miounne."
+24,"TEXT_MANFST006_00446_TODO_00","グリダニアのミューヌにルクロの封書を渡す"
 25,"TEXT_MANFST006_00446_TODO_01",""
 26,"TEXT_MANFST006_00446_TODO_02",""
 27,"TEXT_MANFST006_00446_TODO_03",""
@@ -49,18 +49,35 @@ int32,str,str
 45,"TEXT_MANFST006_00446_TODO_21",""
 46,"TEXT_MANFST006_00446_TODO_22",""
 47,"TEXT_MANFST006_00446_TODO_23",""
-48,"TEXT_MANFST006_00446_LUQUELOT_000_1","My thanks for your kindness earlier. I hate to impose again, but I have need of your assistance in another matter─one of grave import, I fear."
-49,"TEXT_MANFST006_00446_LUQUELOT_000_2","Of late, I have noticed that Ixali dirigibles have been appearing over the Twelveswood with increasing regularity. The frequency, however, does not bother me near so much as <Emphasis>where</Emphasis> they choose to fly─the patch of sky directly above the Guardian Tree."
-50,"TEXT_MANFST006_00446_LUQUELOT_000_3","The tree is a sacred site, or so I was given to believe when first I came to Gridania, and thus I naturally assumed that the elementals would not suffer the Ixal to profane it. Yet the birdmen have been coming and going as they please, with nary a sign of protest from the guardians of the Twelveswood."
-51,"TEXT_MANFST006_00446_LUQUELOT_000_4","And it was that which set me to thinking... Ever since the appearance of the much-talked-about “suspicious individual,” many and more strange things have been occurring in the forest. Could it be that he did something to the elementals?"
-52,"TEXT_MANFST006_00446_LUQUELOT_000_5","In case it proved useful, I have committed the details of my sightings to parchment, and would ask that you deliver the document to Mother Miounne."
-53,"TEXT_MANFST006_00446_LUQUELOT_000_6","Please make all haste─I have an irrepressible feeling that something terrible is about to happen."
-54,"TEXT_MANFST006_00446_MIOUNNE_000_10","Hello there, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Word of your tireless efforts at Bentbranch Meadows has reached my ears. The folk there have naught but the highest praise for you!"
-55,"TEXT_MANFST006_00446_MIOUNNE_000_11","You certainly have a knack for making Mother proud."
-56,"TEXT_MANFST006_00446_MIOUNNE_100_11","Keep up the good work, you hear?"
-57,"TEXT_MANFST006_00446_MIOUNNE_000_12","Hm? A letter...from Luquelot?"
-58,"TEXT_MANFST006_00446_MIOUNNE_000_13","I haven't the slightest inkling what this could be about..."
-59,"TEXT_MANFST006_00446_MIOUNNE_000_14","Gods be good..."
-60,"TEXT_MANFST006_00446_MIOUNNE_000_15","I have a mission for you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Suffice it to say, it is urgent."
-61,"TEXT_MANFST006_00446_MIOUNNE_100_15","I fear it may also prove dangerous, however, so you <Emphasis>must</Emphasis> be prepared."
-62,"TEXT_MANFST006_00446_MIOUNNE_000_16","Make what arrangements you can, and report back to me the moment you are ready."
+48,"TEXT_MANFST006_00446_LUQUELOT_000_1","おつかれさまです。
+実は、お願いがあるのですが、聞いていただけませんか。"
+49,"TEXT_MANFST006_00446_LUQUELOT_000_2","先日、この黒衣森にある「長老の木」の上空を、
+イクサル族の気球が飛んでいるのを何度か見かけまして。"
+50,"TEXT_MANFST006_00446_LUQUELOT_000_3","普段だったら、森の精霊様は、
+イクサル族など追い返してしまうのですが……。"
+51,"TEXT_MANFST006_00446_LUQUELOT_000_4","ここ最近は、例の「不審者」騒ぎの影響で
+精霊様の力も不安定らしく、そんな気配がないのです。"
+52,"TEXT_MANFST006_00446_LUQUELOT_000_5","なんだか嫌な予感がしたので、ヤツらを見かけた場所を
+手紙にしたためておきました。"
+53,"TEXT_MANFST006_00446_LUQUELOT_000_6","グリダニアへ戻ったら、カーラインカフェのミューヌへ
+この手紙を渡していただけませんか。
+よろしくお願いします。"
+54,"TEXT_MANFST006_00446_MIOUNNE_000_10","やあ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>。
+ベントブランチでは、大活躍だったそうじゃないか。
+ケーシャに喜んでもらえて、君を紹介した僕も鼻が高いよ。"
+55,"TEXT_MANFST006_00446_MIOUNNE_000_11","僕からも礼を言わせてもらうよ。
+ありがとう！"
+56,"TEXT_MANFST006_00446_MIOUNNE_100_11","すっかりグリダニアに慣れたようだね。
+これからも……。"
+57,"TEXT_MANFST006_00446_MIOUNNE_000_12","……おや、なんだい？
+僕に届け物だって？"
+58,"TEXT_MANFST006_00446_MIOUNNE_000_13","……ルクロから、僕に手紙？
+一体なんだろう。"
+59,"TEXT_MANFST006_00446_MIOUNNE_000_14","これは……。"
+60,"TEXT_MANFST006_00446_MIOUNNE_000_15","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>。
+……いや、もう余所余所しいのは止めよう。
+君は僕たちの仲間だ。"
+61,"TEXT_MANFST006_00446_MIOUNNE_100_15","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
+君の腕を見込んで頼みたいことがある。"
+62,"TEXT_MANFST006_00446_MIOUNNE_000_16","少し厄介なことになるかもしれない。
+準備ができたら、声をかけておくれよ。"

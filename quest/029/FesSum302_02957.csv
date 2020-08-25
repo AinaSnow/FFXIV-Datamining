@@ -1,13 +1,17 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_FESSUM302_02957_SEQ_00","P'obyano requires an adventurer to aid in the fireworks festivities of the Moonfire Faire.
-※This quest is available for a limited time only."
-1,"TEXT_FESSUM302_02957_SEQ_01","P'obyano asks that you help light fireworks for the Moonfire Faire. Use the summer firework at three firework mortars located in the vicinity of the Isle of Endless Summer.
+0,"TEXT_FESSUM302_02957_SEQ_00","※本クエストは、期間限定のクエストとなります。
 
-※Please note that you will be unable to complete this quest after the seasonal event has ended. For details, please check the Lodestone."
-2,"TEXT_FESSUM302_02957_SEQ_02","You used the summer firework on the firework mortars. Report back to P'obyano on the Isle of Endless Summer."
-3,"TEXT_FESSUM302_02957_SEQ_03","You took word of your deeds back to P'obyano. Speak to her again if you wish to help further with the Moonfire Faire fireworks."
+常夏の島の紅蓮祭実行委員ペ・オビヤノは、冒険者に海上花火の催しを手伝ってほしいようだ。"
+1,"TEXT_FESSUM302_02957_SEQ_01","※本クエストは、シーズナルイベント開催中にかぎり、
+　受注、進行できます。
+　開催期間終了後は進行できませんので、ご注意ください。
+　期間等の詳細についてはLodestoneをご覧ください。
+
+ペ・オビヤノから、花火の点火を頼まれた。常夏の島付近にある3箇所の「<Sheet(EObj,2009015,0)/>」に「<Sheet(EventItem,2002395,0)/>」を使おう。"
+2,"TEXT_FESSUM302_02957_SEQ_02","<Sheet(EObj,2009015,0)/>に<Sheet(EventItem,2002395,0)/>を使い、花火を点火した。常夏の島の「紅蓮祭実行委員ペ・オビヤノ」に報告しよう。"
+3,"TEXT_FESSUM302_02957_SEQ_03","ペ・オビヤノに報告した。気が向いたら、また彼女に声をかけて、海上花火の催しを手伝うのもよいだろう。"
 4,"TEXT_FESSUM302_02957_SEQ_04",""
 5,"TEXT_FESSUM302_02957_SEQ_05",""
 6,"TEXT_FESSUM302_02957_SEQ_06",""
@@ -28,8 +32,8 @@ int32,str,str
 21,"TEXT_FESSUM302_02957_SEQ_21",""
 22,"TEXT_FESSUM302_02957_SEQ_22",""
 23,"TEXT_FESSUM302_02957_SEQ_23",""
-24,"TEXT_FESSUM302_02957_TODO_00","Use the summer firework on a firework mortar."
-25,"TEXT_FESSUM302_02957_TODO_01","Report back to P'obyano."
+24,"TEXT_FESSUM302_02957_TODO_00","<Sheet(EObj,2009015,0)/>に<Sheet(EventItem,2002395,0)/>を使う"
+25,"TEXT_FESSUM302_02957_TODO_01","紅蓮祭実行委員ペ・オビヤノに報告"
 26,"TEXT_FESSUM302_02957_TODO_02",""
 27,"TEXT_FESSUM302_02957_TODO_03",""
 28,"TEXT_FESSUM302_02957_TODO_04",""
@@ -52,10 +56,22 @@ int32,str,str
 45,"TEXT_FESSUM302_02957_TODO_21",""
 46,"TEXT_FESSUM302_02957_TODO_22",""
 47,"TEXT_FESSUM302_02957_TODO_23",""
-48,"TEXT_FESSUM302_02957_POBYANO_000_000","Back for more, are you? I'll not turn away an offer to help. Would you see fit to light some more fireworks for us?"
-49,"TEXT_FESSUM302_02957_POBYANO_000_001","Just in case you'd forgotten how it is done─you need only throw a summer firework into a firework mortar near where the faire-goers are gathered."
-50,"TEXT_FESSUM302_02957_POBYANO_000_002","There is no need for you to speak to Jiriri any further. But this time, I ask that you light fireworks in three locations rather than just the one. Don't overheat out there!"
-51,"TEXT_FESSUM302_02957_POBYANO_000_010","You simply cannot get enough of these fireworks, can you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>? Very well, you'll hear no complaints from me."
-52,"TEXT_FESSUM302_02957_POBYANO_000_011","The task is the same as before. Light the fireworks by throwing a summer firework into a firework mortar near where our faire-goers are gathered. I will keep an eye to the skies."
-53,"TEXT_FESSUM302_02957_POBYANO_000_020","Remember now─you must throw the summer fireworks into three firework mortars. The faire-goers await. Hurry along, now!"
-54,"TEXT_FESSUM302_02957_POBYANO_000_030","Yet another job well done. Thank you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. If you care to help further, you know where to find me. Until then, have a merry Moonfire Faire!"
+48,"TEXT_FESSUM302_02957_POBYANO_000_000","あら、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん！
+また協力してくれるのね。
+それじゃ、今回も花火の点火をお願いできる？"
+49,"TEXT_FESSUM302_02957_POBYANO_000_001","やり方はもうわかってると思うけど、念のためにもう一度。
+お客さんが集まっている場所の近くにある「<Sheet(EObj,2009015,0)/>」に、
+この「<Sheet(EventItem,2002395,0)/>」を投入してちょうだい。"
+50,"TEXT_FESSUM302_02957_POBYANO_000_002","今回はジリリさんのところへ寄らなくて大丈夫だけど、
+代わりに、3箇所の「<Sheet(EObj,2009015,0)/>」で花火を点火して。
+よろしく頼んだわよ！"
+51,"TEXT_FESSUM302_02957_POBYANO_000_010","あら、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん！
+声をかけてくれたってことは、また手伝ってくれるのよね？"
+52,"TEXT_FESSUM302_02957_POBYANO_000_011","それじゃあ、前回と同じく、
+「<Sheet(EventItem,2002395,0)/>」を3箇所の「<Sheet(EObj,2009015,0)/>」に投入して。
+よろしく頼んだわよ！"
+53,"TEXT_FESSUM302_02957_POBYANO_000_020","「<Sheet(EventItem,2002395,0)/>」を3箇所の「<Sheet(EObj,2009015,0)/>」に投入して。
+よろしく頼んだわよ！"
+54,"TEXT_FESSUM302_02957_POBYANO_000_030","花火の点火、お疲れさま！
+本当に助かったわ。
+よければ、また手伝ってちょうだい。"

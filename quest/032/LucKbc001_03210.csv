@@ -1,11 +1,14 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKBC001_03210_SEQ_00","Jenlyns has something─or someone─on his mind."
-1,"TEXT_LUCKBC001_03210_SEQ_01","You learn from Jenlyns that something appears to be troubling Mylla of late. As a close friend of the First Sword, the paladin encourages you to seek her out and inquire after the source of her consternation."
-2,"TEXT_LUCKBC001_03210_SEQ_02","Speaking with Mylla, you learn that it is none other than Aldis, recently returned to Ul'dah, who is causing her grief. Before she can go into detail, however, the man himself appears. Having explained that he has been to the Far East to train in the way of the samurai, he challenges you to a duel for old times' sake. The stage is set for Scorpion Crossing in western Thanalan, and you set out to join Aldis there."
-3,"TEXT_LUCKBC001_03210_SEQ_03","You and Aldis square off. As he prepares to draw his blade, however, a look of awe sweeps over his face. To simply confront you, it would seem, is enough to convince him that he is no match for you, and he abruptly abandons the duel and excuses himself. His uncharacteristic behavior leaves Mylla at a loss for words, and she turns her steps back to the Gladiators' Guild, more confounded than when she left."
-4,"TEXT_LUCKBC001_03210_SEQ_04","Eventually joining you and Mylla, Aldis apologizes for his behavior. Having thought long and hard on the reason for your strength, he has finally come to realize that which is dearest to him: the Gladiators' Guild. To that end, Aldis declares that he will give up the itinerant life and henceforth remain in Ul'dah to watch over the guild. Though Mylla appears none too impressed by his presumptuousness, you know that, deep down, she is glad for his presence. Thus do you take your leave, assured in the knowledge that all will be well in the end."
+0,"TEXT_LUCKBC001_03210_SEQ_00","ウルダハ王政庁のジェンリンスは、気になることがあるようだ。"
+1,"TEXT_LUCKBC001_03210_SEQ_01","前回までの冒険録：
+ウル王杯闘技会に参加し、ブラック・ロータスことアルディスとの決勝戦に勝利した冒険者。ナナモ女王から、ウルダハ追放放免を言い渡されたアルディスだったが、まだ見ぬ戦い方を会得するため、再び旅に出た。エオルゼアの剣術士たちは、この闘技会をきっかけに、さらなる剣術の高みを目指すのであった。
+　　　　　　　　　　　　*　*　*
+ジェンリンスは、ミラの様子に異変を感じているようだ。剣術士ギルドの「ミラ」と話そう。"
+2,"TEXT_LUCKBC001_03210_SEQ_02","ミラと話した。ミラと話している最中、ウルダハに戻ってきたアルディスと再会する。彼は、東方の剣術を会得するため、東方で修行していたのだという。アルディスからの戦いの申し出に応えた冒険者。西ザナラーンの金槌台地で「アルディス」と話そう。"
+3,"TEXT_LUCKBC001_03210_SEQ_03","アルディスと話した。剣を構えた冒険者とアルディスだが、面と向かっただけで冒険者との差を痛感したアルディスは、剣を交えることなく、戦いをやめてしまう。戦わずして剣を収めたアルディスに驚くミラは、かける言葉が見つからないが、ひとまず剣術士ギルドに戻ろうと提案する。ウルダハの剣術士ギルドで「ミラ」と話そう。"
+4,"TEXT_LUCKBC001_03210_SEQ_04","ミラと話した。アルディスも剣術士ギルドにやってきて、自分が失いたくないもの、守りたいものは剣術士ギルドだと語る。そして、これからは剣術士ギルドに居続けると話すアルディスを怒りながら、嬉しさも滲み出るミラなのであった。"
 5,"TEXT_LUCKBC001_03210_SEQ_05",""
 6,"TEXT_LUCKBC001_03210_SEQ_06",""
 7,"TEXT_LUCKBC001_03210_SEQ_07",""
@@ -25,9 +28,9 @@ int32,str,str
 21,"TEXT_LUCKBC001_03210_SEQ_21",""
 22,"TEXT_LUCKBC001_03210_SEQ_22",""
 23,"TEXT_LUCKBC001_03210_SEQ_23",""
-24,"TEXT_LUCKBC001_03210_TODO_00","Speak with Mylla."
-25,"TEXT_LUCKBC001_03210_TODO_01","Speak with Aldis in Hammerlea."
-26,"TEXT_LUCKBC001_03210_TODO_02","Speak with Mylla in Ul'dah."
+24,"TEXT_LUCKBC001_03210_TODO_00","剣術士ギルドのミラと話す"
+25,"TEXT_LUCKBC001_03210_TODO_01","金槌台地のアルディスと話す"
+26,"TEXT_LUCKBC001_03210_TODO_02","剣術士ギルドのミラと話す"
 27,"TEXT_LUCKBC001_03210_TODO_03",""
 28,"TEXT_LUCKBC001_03210_TODO_04",""
 29,"TEXT_LUCKBC001_03210_TODO_05",""
@@ -49,89 +52,189 @@ int32,str,str
 45,"TEXT_LUCKBC001_03210_TODO_21",""
 46,"TEXT_LUCKBC001_03210_TODO_22",""
 47,"TEXT_LUCKBC001_03210_TODO_23",""
-48,"TEXT_LUCKBC001_03210_JENLYNS_000_000","Ah, if it isn't <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. How fare you, my friend? Still keeping up your training, I trust?"
-49,"TEXT_LUCKBC001_03210_JENLYNS_000_001","The Sultansworn have not been idle either. Seeking ways to better serve our nation, we have joined hands with the Gladiators' Guild."
-50,"TEXT_LUCKBC001_03210_JENLYNS_000_002","We train with one another, helping to hone each other's sword arms. The guild even dispatches its members to assist us in guarding the palace."
-51,"TEXT_LUCKBC001_03210_JENLYNS_000_003","None of this would have been possible without First Sword Mylla's cooperation. She is a dedicated woman─dedicated to her art and to her own─and I have the utmost respect and admiration for her."
-52,"TEXT_LUCKBC001_03210_JENLYNS_000_004","...So it was with deep concern that I noticed that something troubles her of late. Whereas before she was amiable, she has become given to brooding silences."
-53,"TEXT_LUCKBC001_03210_JENLYNS_000_005","I considered offering to lend an ear, but as a relatively new acquaintance, I did not wish to appear overly familiar."
-54,"TEXT_LUCKBC001_03210_JENLYNS_000_006","But you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>─you are her close friend. Will you not seek her out and inquire after the source of her consternation?"
-55,"TEXT_LUCKBC001_03210_JENLYNS_000_007","As I mentioned, something seems to be troubling First Sword Mylla of late. If you have a moment, pray seek her out and inquire after the source of her consternation."
-56,"TEXT_LUCKBC001_03210_MYLLA_000_010","...Oh, it's you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. It's been a while. What brings you here today?"
-57,"TEXT_LUCKBC001_03210_Q1_000_000","What will you say?"
-58,"TEXT_LUCKBC001_03210_A1_000_001","Jenlyns is worried about you."
-59,"TEXT_LUCKBC001_03210_A1_000_002","Is everything all right?"
-60,"TEXT_LUCKBC001_03210_MYLLA_000_011","H-He is? Gods, was I being that obvious? <sigh> Forgive me, I don't mean to sound ungrateful. It's kind of Jenlyns to worry about me."
-61,"TEXT_LUCKBC001_03210_MYLLA_000_012","Wh-What's this all of a sudden? Of course I'm─ <sigh> Nay, I won't insult your intelligence by lying to you."
-62,"TEXT_LUCKBC001_03210_MYLLA_000_013","You see, it's Aldis... He's returned to Ul'dah. He's been pardoned, so he has every right to be here."
-63,"TEXT_LUCKBC001_03210_MYLLA_000_014","But it's just...I just don't understand what's going through his mind."
-64,"TEXT_LUCKBC001_03210_ALDIS_000_015","(-???-)Oho, if it isn't the very <If(PlayerParameter(4))>woman<Else/>man</If> I've been longing to see!"
-65,"TEXT_LUCKBC001_03210_ALDIS_000_016","Greetings, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! You look well─for someone who's been raising hells the world over!"
-66,"TEXT_LUCKBC001_03210_ALDIS_000_017","...Hm? I see my attire intrigues you."
-67,"TEXT_LUCKBC001_03210_ALDIS_000_018","When I took my leave after the Ul Cup, I believe I said something to the effect of still having much to learn. That's what I've been doing─learning."
-68,"TEXT_LUCKBC001_03210_ALDIS_000_019","I remembered hearing tell of the fearsome swordsmen of the Far East. And so I decided to journey there and train in their style."
-69,"TEXT_LUCKBC001_03210_ALDIS_000_020","I remembered the elderly samurai who was making short work of our gladiators. And so I decided to journey to the Far East and train in his style."
-70,"TEXT_LUCKBC001_03210_MYLLA_000_021","You never cared for convention or tradition. Is it any wonder we're confused to see you actually look the part?"
-71,"TEXT_LUCKBC001_03210_ALDIS_000_022","Hah, I suppose you're right. But you have to admit, Mylla─I look pretty good in this."
-72,"TEXT_LUCKBC001_03210_ALDIS_000_023","So, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. How about you and I have a bout? For old times' sake?"
-73,"TEXT_LUCKBC001_03210_Q2_000_000","What will you say?"
-74,"TEXT_LUCKBC001_03210_A2_000_001","Gladly!"
-75,"TEXT_LUCKBC001_03210_A2_000_002","..."
-76,"TEXT_LUCKBC001_03210_ALDIS_000_024","Heh heh, we're of a kind, you and I. When we see a mighty foe, we can't resist the urge to test ourselves!"
-77,"TEXT_LUCKBC001_03210_ALDIS_000_025","Not wont to bare steel needlessly, is that it? But I know you <Emphasis>need</Emphasis> this, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>─as much as I do. We're of a kind, you and I. When we see a mighty foe, we can't resist the urge to test ourselves!"
-78,"TEXT_LUCKBC001_03210_ALDIS_000_026","Now, as much as I fancy a rematch in the Coliseum, we'll have to settle for a humbler venue this time. Hmmm, let's see..."
-79,"TEXT_LUCKBC001_03210_ALDIS_000_027","How about Scorpion Crossing, outside of the Gate of the Sultana? There's space there, if not a lot of people to watch our glorious match."
-80,"TEXT_LUCKBC001_03210_MYLLA_000_028","Oh, don't you even think about fighting in the city!"
-81,"TEXT_LUCKBC001_03210_MYLLA_100_028","If you must feed your vanity, I'll attend as witness. At the very least, I can explain the situation to the Brass Blades should they appear."
-82,"TEXT_LUCKBC001_03210_ALDIS_000_029","Thanks, I appreciate it."
-83,"TEXT_LUCKBC001_03210_ALDIS_100_030","And there you have it, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I'll see you at Scorpion Crossing."
-84,"TEXT_LUCKBC001_03210_MYLLA_110_030","<sigh> I can't believe this... Go on ahead, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I'll follow in a moment."
-85,"TEXT_LUCKBC001_03210_MYLLA_120_030","I hope he's satisfied."
-86,"TEXT_LUCKBC001_03210_ALDIS_000_030","Heh heh, I've been looking forward to this. Come, my friend, let's begin!"
-87,"TEXT_LUCKBC001_03210_ALDIS_000_031","Impossible..."
-88,"TEXT_LUCKBC001_03210_ALDIS_000_032","How? How did you become so <Emphasis>strong</Emphasis>?"
-89,"TEXT_LUCKBC001_03210_Q3_000_000","What will you say?"
-90,"TEXT_LUCKBC001_03210_A3_000_001","I found something worth protecting..."
-91,"TEXT_LUCKBC001_03210_A3_000_002","I found something I couldn't bear to lose..."
-92,"TEXT_LUCKBC001_03210_ALDIS_000_033","You journeyed to another world...and found something you wished to protect?"
-93,"TEXT_LUCKBC001_03210_ALDIS_000_034","You journeyed to another world...and found something you couldn't bear to lose?"
-94,"TEXT_LUCKBC001_03210_MYLLA_000_035","Aldis? What's the meaning of this?"
-95,"TEXT_LUCKBC001_03210_ALDIS_000_036","There's no point. As I am, I don't stand a chance against <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
-96,"TEXT_LUCKBC001_03210_MYLLA_000_037","You would admit defeat before you've even fought?"
-97,"TEXT_LUCKBC001_03210_ALDIS_000_038","It's unseemly, aye. But because of my training, I've come to know, Mylla─come to know the power of resolve and the difference it makes."
-98,"TEXT_LUCKBC001_03210_ALDIS_000_039","Forgive me, I need a moment alone."
-99,"TEXT_LUCKBC001_03210_MYLLA_000_040","This isn't the Aldis I know. He's never once backed down from a fight."
-100,"TEXT_LUCKBC001_03210_MYLLA_000_041","I don't doubt that you've grown stronger since last we met."
-101,"TEXT_LUCKBC001_03210_MYLLA_000_042","But so has Aldis. That's why he challenged you─to put his training to the proof."
-102,"TEXT_LUCKBC001_03210_MYLLA_000_043","Yet, by that selfsame training, he could see that he was no match for you. I...I don't know what to say."
-103,"TEXT_LUCKBC001_03210_MYLLA_000_044","Well, there's no use pondering things here. Let's return to the guild."
-104,"TEXT_LUCKBC001_03210_MYLLA_000_060","Aldis hasn't returned."
-105,"TEXT_LUCKBC001_03210_MYLLA_000_061","I wouldn't be surprised if he's left Ul'dah again. It wouldn't be the first time he's disappeared as quickly as he's arrived..."
-106,"TEXT_LUCKBC001_03210_MYLLA_000_062","Don't blame yourself. The problem is Aldis's and Aldis's alone. It's up to him to resolve it, however long that may take."
-107,"TEXT_LUCKBC001_03210_MYLLA_000_063","At any rate, don't feel compelled to linger on his account. I'm sure you have much demands on your time. Come and visit again when you have the chance."
-108,"TEXT_LUCKBC001_03210_ALDIS_000_064","Sorry for taking off like that."
-109,"TEXT_LUCKBC001_03210_ALDIS_000_065","Truth be told, I'm ashamed to show my face, but there's something I needed to tell you."
-110,"TEXT_LUCKBC001_03210_ALDIS_000_066","After I left, I thought long and hard on your words. On that which you said made you strong."
-111,"TEXT_LUCKBC001_03210_ALDIS_000_067","It led me to ask myself, what is it that <Emphasis>I</Emphasis> wish to protect?"
-112,"TEXT_LUCKBC001_03210_MYLLA_000_068","And you found your answer?"
-113,"TEXT_LUCKBC001_03210_ALDIS_000_069","Aye, I did. Fool that I am, it took me a long time, but I finally realized that it was always close by."
-114,"TEXT_LUCKBC001_03210_MYLLA_000_070","Aldis..."
-115,"TEXT_LUCKBC001_03210_ALDIS_000_071","Mylla. This is embarrassing for me to say, but that which is dearest to me, that I cannot bear to lose..."
-116,"TEXT_LUCKBC001_03210_ALDIS_000_072","...Is the Gladiators' Guild."
-117,"TEXT_LUCKBC001_03210_MYLLA_000_073","...What?"
-118,"TEXT_LUCKBC001_03210_ALDIS_000_074","The old guildmaster, he was as a father to me. And this place is as a home."
-119,"TEXT_LUCKBC001_03210_ALDIS_000_075","No matter where my path may lead, the guild will always welcome me with open arms. I realize that now."
-120,"TEXT_LUCKBC001_03210_MYLLA_000_076","Aldis! You...you...!"
-121,"TEXT_LUCKBC001_03210_ALDIS_000_077","So, if I'm to protect the guild, it means...well, you know..."
-122,"TEXT_LUCKBC001_03210_ALDIS_000_078","It means...I have to <Emphasis>be</Emphasis> at the guild. So from today, I'm giving up the itinerant life."
-123,"TEXT_LUCKBC001_03210_MYLLA_000_079","After all these years coming and going as you please, sending nary a word, you think you can just stay here!? You've got a lot of nerve!"
-124,"TEXT_LUCKBC001_03210_ALDIS_000_080","Why, Mylla, if I didn't know better, I'd say you were worried about me."
-125,"TEXT_LUCKBC001_03210_MYLLA_000_081","Sh-Shut your mouth! If you wish to stay, then do as you like! That's what you're good at!"
-126,"TEXT_LUCKBC001_03210_ALDIS_000_082","Ah, there's the grimace I know and love. There truly is no place like home."
-127,"TEXT_LUCKBC001_03210_ALDIS_000_083","But jests aside... <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>─because of you, I've finally realized what's important to me."
-128,"TEXT_LUCKBC001_03210_ALDIS_000_084","For that, I give you my thanks."
-129,"TEXT_LUCKBC001_03210_ALDIS_000_085","From hereon, I'll watch over the guild while I continue honing my skills."
-130,"TEXT_LUCKBC001_03210_ALDIS_000_086","Who knows? If I work hard, I might even become the First Sword one day."
-131,"TEXT_LUCKBC001_03210_MYLLA_000_087","Not on your life! No one would entrust the guild to a selfish bastard such as you! And skills or no, you're starting from the bottom like the rest!"
-132,"TEXT_LUCKBC001_03210_ALDIS_000_088","Aye, aye, whatever you say..."
-133,"TEXT_LUCKBC001_03210_ALDIS_000_089","It was good seeing you, my friend. Do come and visit again. From now on, you know where to find me."
+48,"TEXT_LUCKBC001_03210_JENLYNS_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>ではないか。
+近頃はどうだ？　剣の腕に磨きをかけているか？"
+49,"TEXT_LUCKBC001_03210_JENLYNS_000_001","我々「銀冑団」はというと、先の「ウル王杯闘技会」以降、
+剣術士ギルドと交流するようになったのだよ。"
+50,"TEXT_LUCKBC001_03210_JENLYNS_000_002","合同で訓練を行い、互いに剣の腕を競い合うのはもちろん、
+傭兵に頼っていた王宮警護の任にも、人を出してもらってな。
+ウルダハの未来のため、連携を強化しているのだ。"
+51,"TEXT_LUCKBC001_03210_JENLYNS_000_003","特にギルドマスターのミラには、大いに世話になっている。
+剣の道に対する姿勢はもちろん、
+荒くれ揃いの剣術士たちをまとめる手腕は、敬服に値するよ。"
+52,"TEXT_LUCKBC001_03210_JENLYNS_000_004","……だが、ここ最近、
+どうも彼女の様子がおかしい気がするのだ。
+悩み事でもあるのか、物思いに耽ることが多くてな……。"
+53,"TEXT_LUCKBC001_03210_JENLYNS_000_005","だが、まだ付き合いの浅い私が、
+ずけずけとあれこれ聞くのもどうかと思うのだ。"
+54,"TEXT_LUCKBC001_03210_JENLYNS_000_006","もし剣術士ギルドに立ち寄ることがあれば、
+それとなく「ミラ」に話しかけ、様子を窺ってみてくれないか？
+すまないが、よろしく頼むぞ。"
+55,"TEXT_LUCKBC001_03210_JENLYNS_000_007","もし剣術士ギルドに立ち寄ることがあれば、
+それとなく「ミラ」に話しかけ、様子を窺ってみてくれないか？
+すまないが、よろしく頼むぞ。"
+56,"TEXT_LUCKBC001_03210_MYLLA_000_010","……おっと、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>じゃないか。
+久しぶりだな、今日はどうした？"
+57,"TEXT_LUCKBC001_03210_Q1_000_000","何と答える？"
+58,"TEXT_LUCKBC001_03210_A1_000_001","ジェンリンスが心配していた"
+59,"TEXT_LUCKBC001_03210_A1_000_002","最近、何かあった？"
+60,"TEXT_LUCKBC001_03210_MYLLA_000_011","やれやれ、あの御仁に悩みありと悟られるなんて、
+我ながら情けない話だな。
+いや、まずは気を遣ってくれたことに感謝すべきか……。"
+61,"TEXT_LUCKBC001_03210_MYLLA_000_012","やぶから棒に何を……
+と、言いたいところだが、さすがにお前は騙せないか。
+ここだけの話だが、少し悩みがあってな……。"
+62,"TEXT_LUCKBC001_03210_MYLLA_000_013","実は最近、アルディスのやつが戻ってきたのだ。
+ウル王杯の一件で、ナナモ様に恩赦をいただいたからには、
+それ自体は、何ら問題はないのだが……。"
+63,"TEXT_LUCKBC001_03210_MYLLA_000_014","だが……あれはいったい……
+あいつは何を考えているのか……。"
+64,"TEXT_LUCKBC001_03210_ALDIS_000_015","(-？？？？-)こいつぁ、ツイてるな。
+待ち人来るとは、まさにこの事だぜ……！"
+65,"TEXT_LUCKBC001_03210_ALDIS_000_016","よぉ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>！
+各地で派手に暴れてるって噂は聞いていたが、
+お互い、まだ生きていたようじゃないか！"
+66,"TEXT_LUCKBC001_03210_ALDIS_000_017","おっと、このナリが気になるのか？
+……前回の別れ際、俺はこう言っていたはずだぜ？"
+67,"TEXT_LUCKBC001_03210_ALDIS_000_018","お前に勝つためには、より多くの経験を積み、
+まだ見ぬ戦い方を会得する必要がある、と。"
+68,"TEXT_LUCKBC001_03210_ALDIS_000_019","東方のひんがしの国には、
+とんでもない剣豪たちがいると聞いていたからな。
+ちょっくら彼らの剣術を会得するために修行してきたのさ。"
+69,"TEXT_LUCKBC001_03210_ALDIS_000_020","以前、コロセウムで派手な興行をやっていた、
+東方の老侍のことを思い出してな。
+ちょっくら、その剣術を会得するために修行してきたのさ。"
+70,"TEXT_LUCKBC001_03210_MYLLA_000_021","元から型にはまらないヤツではあったが、
+いきなり、こんな格好で現れれば、驚くに決まっている……。"
+71,"TEXT_LUCKBC001_03210_ALDIS_000_022","へへっ、悪ぃ悪ぃ。
+でもよ、ミラ……
+このナリ、なかなか似合ってると思わねェか？"
+72,"TEXT_LUCKBC001_03210_ALDIS_000_023","さて、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>よ。
+さっそくだが、俺と一戦交えてくれないか？"
+73,"TEXT_LUCKBC001_03210_Q2_000_000","何と答える？"
+74,"TEXT_LUCKBC001_03210_A2_000_001","受けて立とう！"
+75,"TEXT_LUCKBC001_03210_A2_000_002","…………"
+76,"TEXT_LUCKBC001_03210_ALDIS_000_024","そう言ってくれると信じていたぜ。
+強者と見れば理屈を抜きに競いたくなるのが、
+剣に惚れちまったバカ野郎ってもんだからな……！"
+77,"TEXT_LUCKBC001_03210_ALDIS_000_025","安易に剣を抜くつもりはないってか？
+だが、強者と競いたくなるのが、剣に惚れたバカ野郎ってもんさ。
+そうだろう、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>？"
+78,"TEXT_LUCKBC001_03210_ALDIS_000_026","前回は闘技会の試合ではあったが、今回は個人的な試合だ。
+さすがにコロセウムを借りるわけにもいかねェ。
+そうだな……。"
+79,"TEXT_LUCKBC001_03210_ALDIS_000_027","……ナナモ新門から出た先、
+スコーピオン交易所の辺りでどうだ？
+都市内で、派手にやらかす訳にもいかないからな。"
+80,"TEXT_LUCKBC001_03210_MYLLA_000_028","当然だ！
+街中で剣を交えるなど、もってのほか……！"
+81,"TEXT_LUCKBC001_03210_MYLLA_100_028","……はぁ、仕方ない、その勝負の立会人を務めてやる。
+刃傷沙汰と間違われて、銅刃団を呼ばれたら目も当てられん。"
+82,"TEXT_LUCKBC001_03210_ALDIS_000_029","すまねェな、助かるぜ。"
+83,"TEXT_LUCKBC001_03210_ALDIS_100_030","じゃ、俺は先に向かってるぜ。
+いいか、「スコーピオン交易所」の外れにある荒野だ。
+間違えるなよ？"
+84,"TEXT_LUCKBC001_03210_MYLLA_110_030","はぁ、全く……。
+私もすぐに向かう、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>は先に行っててくれ。"
+85,"TEXT_LUCKBC001_03210_MYLLA_120_030","仕方ない、この勝負の立会人を務めてやる。
+刃傷沙汰と間違われて、銅刃団を呼ばれたら目も当てられん。"
+86,"TEXT_LUCKBC001_03210_ALDIS_000_030","待ってたぜ。
+じゃ、さっそくだが……やるとするか！"
+87,"TEXT_LUCKBC001_03210_ALDIS_000_031","なぜだ……。"
+88,"TEXT_LUCKBC001_03210_ALDIS_000_032","なぜ、それほどの強さを手に入れられた？
+何がお前の背を押してきた……！？"
+89,"TEXT_LUCKBC001_03210_Q3_000_000","何と答える？"
+90,"TEXT_LUCKBC001_03210_A3_000_001","異世界での旅の中で、守りたいものを見つけた"
+91,"TEXT_LUCKBC001_03210_A3_000_002","異世界での旅の中で、失いたくないものを見つけた"
+92,"TEXT_LUCKBC001_03210_ALDIS_000_033","異世界を旅してきた……だと？
+そして、その旅路で、守りたいものを見つけた、とな……。"
+93,"TEXT_LUCKBC001_03210_ALDIS_000_034","異世界を旅してきた……だと？
+そして、その旅路で、失いたくないものを見つけた、とな……。"
+94,"TEXT_LUCKBC001_03210_MYLLA_000_035","なっ……アルディス！？
+いったい、どうしたというのだ！？"
+95,"TEXT_LUCKBC001_03210_ALDIS_000_036","ダメだ……。
+今の俺じゃ、どうしたって勝てねェ。"
+96,"TEXT_LUCKBC001_03210_MYLLA_000_037","……戦わずして、負けを認めると？"
+97,"TEXT_LUCKBC001_03210_ALDIS_000_038","最高にカッコ悪ぃよな。
+だが、東方で修行を積んできたからこそ、わかっちまったんだ。
+剣を構える覚悟の……魂の差ってヤツを……！"
+98,"TEXT_LUCKBC001_03210_ALDIS_000_039","……少しばかり、ひとりで考えさせてくれねェか。"
+99,"TEXT_LUCKBC001_03210_MYLLA_000_040","どんな戦いも、真っ向勝負を挑んできたアルディスが、
+戦わずして剣を収めるだなんて……。"
+100,"TEXT_LUCKBC001_03210_MYLLA_000_041","もちろん私だって、
+お前が腕を上げてきたであろうとは思っていたさ。"
+101,"TEXT_LUCKBC001_03210_MYLLA_000_042","だが、アルディスだって、
+遠く離れた東方にまで足を運び、修行してきたのだ。
+己の成長に自信があったからこそ、勝負を挑んだに違いない。"
+102,"TEXT_LUCKBC001_03210_MYLLA_000_043","それが、新たな剣を学んできたからこそ、
+相対したときに、実力差を感じ得たのだとしたら……。
+正直、私も、かけるべき言葉が見つからない。"
+103,"TEXT_LUCKBC001_03210_MYLLA_000_044","……まあ、ここに留まっていても仕方がない。
+ひとまず「剣術士ギルド」に戻るとしよう。"
+104,"TEXT_LUCKBC001_03210_MYLLA_000_060","まだ、アルディスのやつは帰ってきていない……。"
+105,"TEXT_LUCKBC001_03210_MYLLA_000_061","このまま、また風のように、
+ウルダハから去ってしまうのかもしれないな……。"
+106,"TEXT_LUCKBC001_03210_MYLLA_000_062","なに、お前が責任を感じる必要はないさ。
+これは、どれだけ時が掛かろうとも、アルディス自身が、
+自ら答えを出して、乗り越えなければいけない問題だからな。"
+107,"TEXT_LUCKBC001_03210_MYLLA_000_063","ともかく、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>に、
+やつを待ち続けてもらうわけにもいくまい。
+またいずれ、何かの折に様子を見に来てくれ。"
+108,"TEXT_LUCKBC001_03210_ALDIS_000_064","よぉ、ふたりとも戻ってたか。"
+109,"TEXT_LUCKBC001_03210_ALDIS_000_065","……さっきは、なんだか、らしくねェ姿を見せちまったな。
+正直、どの面下げてって気分ではあるんだが……
+お前には、しっかり宣言しておきたくてな。"
+110,"TEXT_LUCKBC001_03210_ALDIS_000_066","あの後、お前の言葉を……
+その背を押した、強さの理由について考えていたんだ。"
+111,"TEXT_LUCKBC001_03210_ALDIS_000_067","俺にとって、守りたいもの……
+決して失いたくないものとは、何かってな。"
+112,"TEXT_LUCKBC001_03210_MYLLA_000_068","その答えが出たとでも……？"
+113,"TEXT_LUCKBC001_03210_ALDIS_000_069","ああ……ようやくな。
+ずいぶんと回り道しちまったが、
+こんなにも近くに、大切なものがあったと気づいたんだ。"
+114,"TEXT_LUCKBC001_03210_MYLLA_000_070","アルディス…………。"
+115,"TEXT_LUCKBC001_03210_ALDIS_000_071","ミラ……こっ恥ずかしいが、お前にも……
+いや、お前にこそ聞いてほしい！
+俺が真に守り、失いたくないもの……それは…………。"
+116,"TEXT_LUCKBC001_03210_ALDIS_000_072","…………剣術士ギルドだ。"
+117,"TEXT_LUCKBC001_03210_MYLLA_000_073","…………は？"
+118,"TEXT_LUCKBC001_03210_ALDIS_000_074","だから、ここ……剣術士ギルドさ。
+俺にとって、先代ギルドマスターは親も同然……
+そして、ここは家みたいなもんだった。"
+119,"TEXT_LUCKBC001_03210_ALDIS_000_075","どんなに放浪しても、ここだけは必ず俺を迎え入れてくれる。
+いつでも戻ってくることができる、家のような場所だと、
+今更ながらに気づいたのさ！"
+120,"TEXT_LUCKBC001_03210_MYLLA_000_076","お、お、お前という男は…………！"
+121,"TEXT_LUCKBC001_03210_ALDIS_000_077","まぁあと、あれだ。
+ギルドを守るってことはだ、ようするに、なんつうかさ……
+あとは察してくれや。"
+122,"TEXT_LUCKBC001_03210_ALDIS_000_078","そういうことでさ、ミラ。
+これからは、俺はここに居続けることにするぜ。
+もう、放浪の旅はおしまいだ。"
+123,"TEXT_LUCKBC001_03210_MYLLA_000_079","アルディス、貴様という男は！
+長らく音信不通になって、人を心配させたかと思えば、
+今度は、ギルドに居座り続けるつもりだと……！？"
+124,"TEXT_LUCKBC001_03210_ALDIS_000_080","ん……ミラ、今なんつった？
+もしかして俺のことを心配してくれてたのか？"
+125,"TEXT_LUCKBC001_03210_MYLLA_000_081","う、うるさい！
+いたいならいろ……勝手にすればいい！"
+126,"TEXT_LUCKBC001_03210_ALDIS_000_082","お～お、怒っちゃって、まァ……。
+そのすぐ怒るのがなくなれば、
+もっといい女になれると思うんだぜ？"
+127,"TEXT_LUCKBC001_03210_ALDIS_000_083","何はともあれ、だ。
+お前のおかげで、俺にとって、
+何が大事で、何を守りたいのか、気づけたぜ。"
+128,"TEXT_LUCKBC001_03210_ALDIS_000_084","礼を言わせてくれ。
+ありがとうな、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。"
+129,"TEXT_LUCKBC001_03210_ALDIS_000_085","これからは、この剣術士ギルドを守りながら、
+己の剣の腕を磨き続けるとするぜ。"
+130,"TEXT_LUCKBC001_03210_ALDIS_000_086","そして、機が熟したときにはまた……
+いや、そん時は、剣術士ギルドの看板を背負うことにも、
+なっちまってるかもしれないからな。"
+131,"TEXT_LUCKBC001_03210_MYLLA_000_087","黙れ……。
+誰がお前のような男に、ギルドマスターの座を譲るものか。
+お前は、今日から剣術士ギルドの新人から、やり直しだッ！"
+132,"TEXT_LUCKBC001_03210_ALDIS_000_088","へいへい……。"
+133,"TEXT_LUCKBC001_03210_ALDIS_000_089","じゃあな、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>！
+また気軽に顔をみせてくれや……。
+これからは、ここに来れば、いつでも会えるんだからな！"

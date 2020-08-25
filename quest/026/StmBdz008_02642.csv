@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ008_02642_SEQ_00","This Resistance fighter seems to be waiting for someone."
-1,"TEXT_STMBDZ008_02642_SEQ_01","Speak with the Resistance fighter."
-2,"TEXT_STMBDZ008_02642_SEQ_02","Use the firecrackers at the designated location."
-3,"TEXT_STMBDZ008_02642_SEQ_03","Speak with the Resistance fighter."
-4,"TEXT_STMBDZ008_02642_SEQ_04","Jump down into the cave and slay any gorged spinners that appear."
-5,"TEXT_STMBDZ008_02642_SEQ_05","Speak with the Resistance fighter."
-6,"TEXT_STMBDZ008_02642_SEQ_06","Speak with the Resistance fighter."
+0,"TEXT_STMBDZ008_02642_SEQ_00","カストルム・オリエンスの熟練の下士は、冒険者に助けを求めたいようだ。"
+1,"TEXT_STMBDZ008_02642_SEQ_01","熟練の下士と話す"
+2,"TEXT_STMBDZ008_02642_SEQ_02","<Sheet(EObj,2008260,0)/>に<Sheet(EventItem,2002184,0)/>を使う"
+3,"TEXT_STMBDZ008_02642_SEQ_03","熟練の下士と話す"
+4,"TEXT_STMBDZ008_02642_SEQ_04","印に向かって飛び降りて、現れた<Sheet(BNpcName,5868,0)/>を討伐"
+5,"TEXT_STMBDZ008_02642_SEQ_05","熟練の下士と話す"
+6,"TEXT_STMBDZ008_02642_SEQ_06","熟練の下士と再度話す"
 7,"TEXT_STMBDZ008_02642_SEQ_07",""
 8,"TEXT_STMBDZ008_02642_SEQ_08",""
 9,"TEXT_STMBDZ008_02642_SEQ_09",""
@@ -25,13 +25,13 @@ int32,str,str
 21,"TEXT_STMBDZ008_02642_SEQ_21",""
 22,"TEXT_STMBDZ008_02642_SEQ_22",""
 23,"TEXT_STMBDZ008_02642_SEQ_23",""
-24,"TEXT_STMBDZ008_02642_TODO_00","Speak with the Resistance fighter."
-25,"TEXT_STMBDZ008_02642_TODO_01","Use the firecrackers at the designated location."
-26,"TEXT_STMBDZ008_02642_TODO_02","Speak with the Resistance fighter."
-27,"TEXT_STMBDZ008_02642_TODO_03","Jump down into the cave and slay any gorged spinners that appear."
-28,"TEXT_STMBDZ008_02642_TODO_04","Jump down into the cave and slay any gorged spinners that appear."
-29,"TEXT_STMBDZ008_02642_TODO_05","Speak with the Resistance fighter."
-30,"TEXT_STMBDZ008_02642_TODO_06","Speak with the Resistance fighter."
+24,"TEXT_STMBDZ008_02642_TODO_00","熟練の下士と話す"
+25,"TEXT_STMBDZ008_02642_TODO_01","<Sheet(EObj,2008260,0)/>に<Sheet(EventItem,2002184,0)/>を使う"
+26,"TEXT_STMBDZ008_02642_TODO_02","熟練の下士と話す"
+27,"TEXT_STMBDZ008_02642_TODO_03","印に向かって飛び降りて、現れた<Sheet(BNpcName,5868,0)/>を討伐"
+28,"TEXT_STMBDZ008_02642_TODO_04","印に向かって飛び降りて、現れた<Sheet(BNpcName,5868,0)/>を討伐"
+29,"TEXT_STMBDZ008_02642_TODO_05","熟練の下士と話す"
+30,"TEXT_STMBDZ008_02642_TODO_06","熟練の下士と再度話す"
 31,"TEXT_STMBDZ008_02642_TODO_07",""
 32,"TEXT_STMBDZ008_02642_TODO_08",""
 33,"TEXT_STMBDZ008_02642_TODO_09",""
@@ -49,27 +49,62 @@ int32,str,str
 45,"TEXT_STMBDZ008_02642_TODO_21",""
 46,"TEXT_STMBDZ008_02642_TODO_22",""
 47,"TEXT_STMBDZ008_02642_TODO_23",""
-48,"TEXT_STMBDZ008_02642_OLDSOLDIER02642_000_000","You're one o' those adventurers, right? Always runnin' about offerin' help to those in need? Good, because I could certainly use some right about now."
-49,"TEXT_STMBDZ008_02642_OLDSOLDIER02642_000_001","One of our new recruits was supposed to make a short patrol around the Comet's Tail, an' he should've been back at least a few bells ago. I want you to come with me an' make sure he's alright. Follow me."
-50,"TEXT_STMBDZ008_02642_OLDSOLDIER02642_000_010","There you are. I found him, but it seems we've got another problem.
-Go on, tell <If(PlayerParameter(4))>her<Else/>him</If> what you told me."
-51,"TEXT_STMBDZ008_02642_YOUNGSOLDIER02642_000_011","R-Right. I was making my rounds, as I always do, when I was assaulted by a group of giant spiders! I panicked and ran, but in my haste I dropped my satchel, which contained a rather important set of documents."
-52,"TEXT_STMBDZ008_02642_YOUNGSOLDIER02642_000_012","I came back here to retrieve them, but...the spiders... <shudder> They took the bag and went down into that rather large hole over there. I meant to go after them, but I considered having to fight them off in the dark, and soon thought better of it."
-53,"TEXT_STMBDZ008_02642_OLDSOLDIER02642_000_013","I think I know how to flush 'em out. They don't take too kindly to loud noises. Here, take a few o' these firecrackers an' toss 'em down there."
-54,"TEXT_STMBDZ008_02642_YOUNGSOLDIER02642_000_014","...Legs... So many legs..."
-55,"TEXT_STMBDZ008_02642_OLDSOLDIER02642_000_015","Those fireworks are sure to flush the bastards out o' hiding."
-56,"TEXT_STMBDZ008_02642_SYSTEM_000_016","The firecrackers snap and pop as they fall into the hole."
-57,"TEXT_STMBDZ008_02642_OLDSOLDIER02642_000_017","Used all of 'em? Good."
-58,"TEXT_STMBDZ008_02642_OLDSOLDIER02642_000_018","When the spiders skitter out into the open, that'll be your chance to strike. You'll need to be quick. Otherwise they're like to retreat to the shadows. If you jump down, you can get the drop on 'em."
-59,"TEXT_STMBDZ008_02642_SYSTEM_100_018","To flush the gorged spinners out of hiding, you must jump down to the designated location while dismounted."
-60,"TEXT_STMBDZ008_02642_OLDSOLDIER02642_000_019","If you jump down quick, you can strike before they can skitter back to the shadows."
-61,"TEXT_STMBDZ008_02642_SYSTEM_100_019","To flush the gorged spinners out of hiding, you must jump down to the designated location while dismounted."
-62,"TEXT_STMBDZ008_02642_SYSTEM_000_020","You see no sign of spiders, but you can feel their eyes upon you. Perhaps you should jump down from above and take them by surprise."
-63,"TEXT_STMBDZ008_02642_OLDSOLDIER02642_000_030","Holy hells, I didn't think you'd actually do it!"
-64,"TEXT_STMBDZ008_02642_YOUNGSOLDIER02642_000_031","That was incredible! Thank you, <If(PlayerParameter(4))>miss<Else/>sir</If>. Now we can go and retrieve my satchel."
-65,"TEXT_STMBDZ008_02642_OLDSOLDIER02642_000_032","Ahem. Well, there's no need to rush. It's been a long day, an' I'm sure the satchel's not goin' anywhere. For now let's head back to Castrum Oriens where I can give you proper thanks."
-66,"TEXT_STMBDZ008_02642_YOUNGSOLDIER02642_000_035","deleted"
-67,"TEXT_STMBDZ008_02642_OLDSOLDIER02642_000_040","Thanks again for your help. All that's left is to go an' retrieve those documents, an' hopefully forget all this ever happened."
-68,"TEXT_STMBDZ008_02642_OLDSOLDIER02642_000_041","You see, this isn't the first time I've dealt with those spiders. I was born an' raised in these parts, an' I've hunted more than my fair share o' those eight-legged nightmares in my time. It's why I knew to use those firecrackers."
-69,"TEXT_STMBDZ008_02642_OLDSOLDIER02642_000_042","East End used to be teemin' with 'em, an' I thought we'd wiped 'em all out. <sigh> Apparently not..."
-70,"TEXT_STMBDZ008_02642_OLDSOLDIER02642_000_043","I can only hope this doesn't mean we've got an infestation on our hands. If more o' those things start turnin' up again, you can bet I'll be ready."
+48,"TEXT_STMBDZ008_02642_OLDSOLDIER02642_000_000","すまない、手を貸してくれないか？
+実は新兵がひとり、定期巡回に行ったきり、
+連絡が取れなくなってしまったんだ。"
+49,"TEXT_STMBDZ008_02642_OLDSOLDIER02642_000_001","予定では、南東の「流星の尾」辺りを、
+一巡りして、戻ってくるはずだったんだが……。
+頼む……あいつを助けるために一緒に来てくれ。"
+50,"TEXT_STMBDZ008_02642_OLDSOLDIER02642_000_010","冒険者殿、よく来てくれた。
+新米は見つかったんだが……ひとつ問題が発生してな。
+おい、もう一度さっきの話をしてくれ。"
+51,"TEXT_STMBDZ008_02642_YOUNGSOLDIER02642_000_011","ハ、ハイ……巡回中に巨大なスピナーに襲われたんです。
+どうにか応戦して、逃げ出すことはできたものの、
+その際に機密情報である作戦図が入った背嚢を奪われまして……。"
+52,"TEXT_STMBDZ008_02642_YOUNGSOLDIER02642_000_012","取り返そうとは思ったんですが、
+奴は地中に潜ってしまって、手も足も出せません。
+それに、あんな化け物……もう一度戦っても勝てるかどうか……。"
+53,"TEXT_STMBDZ008_02642_OLDSOLDIER02642_000_013","「<Sheet(BNpcName,5868,0)/>」は、大きな音が苦手だったはずだな……
+よし、まずは「<Sheet(EventItem,2002184,0)/>」を崖上からばら撒くんだ。
+それが完了したら、また話を聞きに来てくれ。"
+54,"TEXT_STMBDZ008_02642_YOUNGSOLDIER02642_000_014","……あんな、でかいスピナー……初めて見た……。"
+55,"TEXT_STMBDZ008_02642_OLDSOLDIER02642_000_015","「<Sheet(BNpcName,5868,0)/>」は、大きな音が苦手だったはずだな……
+よし、まずは「<Sheet(EventItem,2002184,0)/>」を崖上からばら撒くんだ。
+それが完了したら、また話を聞きに来てくれ。"
+56,"TEXT_STMBDZ008_02642_SYSTEM_000_016","<Sheet(EventItem,2002184,0)/>は、穴の底へと落ちていった。
+再度、熟練の下士と話そう。"
+57,"TEXT_STMBDZ008_02642_OLDSOLDIER02642_000_017","<Sheet(EventItem,2002184,0)/>を撒き終わったようだな。"
+58,"TEXT_STMBDZ008_02642_OLDSOLDIER02642_000_018","次は、崖上から<Sheet(EventItem,2002184,0)/>を撒いた地点へ飛び降りるんだ！
+落下の衝撃で<Sheet(EventItem,2002184,0)/>を爆発させ、
+<Sheet(BNpcName,5868,0)/>を誘い出すのさ！"
+59,"TEXT_STMBDZ008_02642_SYSTEM_100_018","マウントから降りた状態で、崖上から印に向かって飛び降り、
+<Sheet(EventItem,2002184,0)/>を爆発させましょう。"
+60,"TEXT_STMBDZ008_02642_OLDSOLDIER02642_000_019","次は、崖上から<Sheet(EventItem,2002184,0)/>を撒いた地点へ飛び降りるんだ！
+落下の衝撃で<Sheet(EventItem,2002184,0)/>を爆発させ、
+<Sheet(BNpcName,5868,0)/>を誘い出すのさ！"
+61,"TEXT_STMBDZ008_02642_SYSTEM_100_019","マウントから降りた状態で、崖上から印に向かって飛び降り、
+<Sheet(EventItem,2002184,0)/>を爆発させましょう。"
+62,"TEXT_STMBDZ008_02642_SYSTEM_000_020","周囲に<Sheet(BNpcName,5868,0)/>の姿はない。
+どうやら接近を悟られ、隠れられてしまったらしい。
+高い場所から飛び降りて、一気に近づこう。"
+63,"TEXT_STMBDZ008_02642_OLDSOLDIER02642_000_030","まさか、本当に飛び降りるとは思わなかったが……
+と、とにかくありがとう。"
+64,"TEXT_STMBDZ008_02642_YOUNGSOLDIER02642_000_031","すごい勇気ですね！
+でも、おかげでスピナーの死骸から、
+奪われた背嚢を回収できそうです！"
+65,"TEXT_STMBDZ008_02642_OLDSOLDIER02642_000_032","いやはや、さすがは冒険者……だな。
+基地に戻ったら、礼をさせてほしい。
+……待っているよ。"
+66,"TEXT_STMBDZ008_02642_YOUNGSOLDIER02642_000_035","（★未使用／削除予定★）"
+67,"TEXT_STMBDZ008_02642_OLDSOLDIER02642_000_040","君のおかげで、新兵も無事に戻り、
+そして、機密情報の流出も未然に防ぐことができた。
+急な応援要請に応えてくれて、ありがとう。"
+68,"TEXT_STMBDZ008_02642_OLDSOLDIER02642_000_041","実は、私はここイーストエンド混交林の出身でね。
+<Sheet(EventItem,2002184,0)/>で引っ張り出す方法は、
+20年前、猟師をしていた頃に学んだのさ。"
+69,"TEXT_STMBDZ008_02642_OLDSOLDIER02642_000_042","地元じゃ有名な魔物だったが、まだ生きていたとは驚きだ。
+腹の辺りに、傷痕があっただろ？
+あれは、俺がつけたんだ。"
+70,"TEXT_STMBDZ008_02642_OLDSOLDIER02642_000_043","結局仕留めきれなかったわけだから、褒められたもんじゃない。
+アイツを倒してくれた君には、感謝しても仕切れないな。
+これが礼だ、受け取ってくれ。"

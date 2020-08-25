@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ520_02771_SEQ_00","Sukegei has been abandoned by his favorite sheep."
+0,"TEXT_STMBDZ520_02771_SEQ_00","モル・イローのスケゲイは、羊が逃げて困っているようだ。"
 1,"TEXT_STMBDZ520_02771_SEQ_01",""
 2,"TEXT_STMBDZ520_02771_SEQ_02",""
 3,"TEXT_STMBDZ520_02771_SEQ_03",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_STMBDZ520_02771_SEQ_21",""
 22,"TEXT_STMBDZ520_02771_SEQ_22",""
 23,"TEXT_STMBDZ520_02771_SEQ_23",""
-24,"TEXT_STMBDZ520_02771_TODO_00","Use the blowgun to shoot the lost lamb from the designated location."
-25,"TEXT_STMBDZ520_02771_TODO_01","Capture the lost lamb."
-26,"TEXT_STMBDZ520_02771_TODO_02","Deliver the lost lamb to Sukegei."
+24,"TEXT_STMBDZ520_02771_TODO_00","<Sheet(EObj,2008318,0)/>に向かい、吹き矢で羊を眠らせる"
+25,"TEXT_STMBDZ520_02771_TODO_01","<Sheet(EventItem,2002173,0)/>を捕獲"
+26,"TEXT_STMBDZ520_02771_TODO_02","スケゲイに<Sheet(EventItem,2002173,0)/>を渡す"
 27,"TEXT_STMBDZ520_02771_TODO_03",""
 28,"TEXT_STMBDZ520_02771_TODO_04",""
 29,"TEXT_STMBDZ520_02771_TODO_05",""
@@ -49,16 +49,33 @@ int32,str,str
 45,"TEXT_STMBDZ520_02771_TODO_21",""
 46,"TEXT_STMBDZ520_02771_TODO_22",""
 47,"TEXT_STMBDZ520_02771_TODO_23",""
-48,"TEXT_STMBDZ520_02771_SUKEGEI_000_000","Don't suppose you have time to chase after a sheep do you? My most cowardly one just ran off after hearing a nearby beast's roar."
-49,"TEXT_STMBDZ520_02771_SUKEGEI_000_001","She is so timid she is likely to run away if you try to approach her normally."
-50,"TEXT_STMBDZ520_02771_SUKEGEI_000_002","Take this blowgun and these darts that I've laced with a sedative. One hit and she will be out in an instant. She ran off somewhere to the west. Best of luck!"
-51,"TEXT_STMBDZ520_02771_SUKEGEI_000_010","Use that blowgun I gave you to put my sheep to sleep. She ran off somewhere to the west. Best of luck!"
-52,"TEXT_STMBDZ520_02771_SHEEP_100_011",""
-53,"TEXT_STMBDZ520_02771_SYSTEM_000_030","The lost lamb is wary of your presence."
-54,"TEXT_STMBDZ520_02771_SUKEGEI_000_020","You are going to need to put her to sleep first if you are to have any chance of catching her."
-55,"TEXT_STMBDZ520_02771_SUKEGEI_000_040","Did you manage to catch my sheep?"
-56,"TEXT_STMBDZ520_02771_SUKEGEI_000_041","Oh, thank you! You had me worried sick you did, deary."
-57,"TEXT_STMBDZ520_02771_SUKEGEI_000_042","This job means everything to me. It truly does."
-58,"TEXT_STMBDZ520_02771_SUKEGEI_000_043","I was just a lonely orphan with nowhere to call my own when the Mol took me in. I said I would look after our sheep in an attempt to show my gratitude."
-59,"TEXT_STMBDZ520_02771_SUKEGEI_000_044","My heart nearly stopped when this little one ran away. Sheep are the cornerstone of our tribe's way of life."
-60,"TEXT_STMBDZ520_02771_SUKEGEI_000_045","I fear I will never be able to truly express my thanks to you, but know I am grateful."
+48,"TEXT_STMBDZ520_02771_SUKEGEI_000_000","ねえ、ボクの羊を探すのを手伝ってくれないかな？
+さっき、獣の遠吠えが聞こえたとき、
+一番臆病な子が逃げ出しちゃったんだよ。"
+49,"TEXT_STMBDZ520_02771_SUKEGEI_000_001","目を凝らしてるんだけど、なかなか見つからなくて……。
+ただ、あの羊は、すごく臆病だから、
+知らない人が近づくと、警戒しちゃうかもしれない。"
+50,"TEXT_STMBDZ520_02771_SUKEGEI_000_002","だから、この眠り薬を塗った「吹き矢」を渡すね。
+これを遠くから吹いて、眠らせてから捕まえてみて。
+あの子なら、西のほうへ逃げていったはずだから、よろしくね。"
+51,"TEXT_STMBDZ520_02771_SUKEGEI_000_010","さっき渡した、眠り薬を塗った「吹き矢」を、
+遠くから吹いて、眠らせてから捕まえてみて。
+あの子なら、西のほうへ逃げていったはずだから、よろしくね。"
+52,"TEXT_STMBDZ520_02771_SHEEP_100_011","（★未使用／削除予定★）"
+53,"TEXT_STMBDZ520_02771_SYSTEM_000_030","子羊は警戒しているのか、その場から動こうとしない。"
+54,"TEXT_STMBDZ520_02771_SUKEGEI_000_020","ボクの羊が見つかったら、
+眠らせて、捕まえてきてくれるかな？"
+55,"TEXT_STMBDZ520_02771_SUKEGEI_000_040","ボクの羊、見つかった？"
+56,"TEXT_STMBDZ520_02771_SUKEGEI_000_041","ありがとう！
+この子が、逃げ出した子羊だよ！
+捕まらなかったら、どうしようかと思ったよ……。"
+57,"TEXT_STMBDZ520_02771_SUKEGEI_000_042","実は、もともとボクは孤児でね。
+移動中のモル族が見つけて、拾ってくれたんだ。"
+58,"TEXT_STMBDZ520_02771_SUKEGEI_000_043","だから、早くなにかしらのお礼をしたいと思って、
+羊飼いの仕事を引き受けたんだけど、
+ボクってば、羊を逃がしちゃって……。"
+59,"TEXT_STMBDZ520_02771_SUKEGEI_000_044","モル族にとって、羊は生きるために大切な糧だから、
+もしも見つからなかったら、お礼をするどころか、
+みんなに迷惑をかけちゃうところだったよ。"
+60,"TEXT_STMBDZ520_02771_SUKEGEI_000_045","本当、あなたには感謝してもしきれないよ！
+どうぞ、お礼にこれを持っていって。"

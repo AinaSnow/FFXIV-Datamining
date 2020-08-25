@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNZ012_01737_SEQ_00","The hot-tempered knight is trying to catch his breath."
-1,"TEXT_HEAVNZ012_01737_SEQ_01","A knight was attacked by a large swarm of frost grenades. He escaped unharmed, but they tore apart his magic talisman and escaped with the pieces! Slay these thieving critters and recover the three pieces of the magic talisman."
-2,"TEXT_HEAVNZ012_01737_SEQ_02","You successfully recover the pieces of the talisman. Return them to the knight at Gorgagne Mills."
-3,"TEXT_HEAVNZ012_01737_SEQ_03","The knight is relieved that you were able to recover all the pieces of his talisman. He tells you how his family made it for him from an ice crystal. Realizing that the freezing Coerthan snowdrifts are hardly the ideal place to carry ice crystals on one's person, he decides to leave the talisman in the barracks next time he goes on duty."
+0,"TEXT_HEAVNZ012_01737_SEQ_00","ゴルガニュ牧場の怒りに震える騎兵は、とても興奮しているようだ。"
+1,"TEXT_HEAVNZ012_01737_SEQ_01","怒りに震える騎兵に<Sheet(EventItem,2001596,0)/>を取り返してほしいと頼まれた。クルザス西部高地のゴルガニュ牧草地にいる「<Sheet(BNpcName,3476,0)/>」から、まれに得られる「<Sheet(EventItem,2001596,0)/>」を3個入手しよう。"
+2,"TEXT_HEAVNZ012_01737_SEQ_02","<Sheet(EventItem,2001596,0)/>をすべて入手した。ゴルガニュ牧場の「怒りに震える騎兵」に「<Sheet(EventItem,2001596,0)/>」を渡そう。"
+3,"TEXT_HEAVNZ012_01737_SEQ_03","怒りに震える騎兵に<Sheet(EventItem,2001596,0)/>を渡した。お守りはアイスクリスタルを加工して作られており、そのため<Sheet(BNpcName,3476,0)/>はエサだと思ったようだ。"
 4,"TEXT_HEAVNZ012_01737_SEQ_04",""
 5,"TEXT_HEAVNZ012_01737_SEQ_05",""
 6,"TEXT_HEAVNZ012_01737_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_HEAVNZ012_01737_SEQ_21",""
 22,"TEXT_HEAVNZ012_01737_SEQ_22",""
 23,"TEXT_HEAVNZ012_01737_SEQ_23",""
-24,"TEXT_HEAVNZ012_01737_TODO_00","Slay frost grenades and obtain talisman fragments."
-25,"TEXT_HEAVNZ012_01737_TODO_01","Deliver the fragments to the knight."
+24,"TEXT_HEAVNZ012_01737_TODO_00","<Sheet(BNpcName,3476,0)/>からまれに得られる<Sheet(EventItem,2001596,0)/>を入手"
+25,"TEXT_HEAVNZ012_01737_TODO_01","怒りに震える騎兵に<Sheet(EventItem,2001596,0)/>を渡す"
 26,"TEXT_HEAVNZ012_01737_TODO_02",""
 27,"TEXT_HEAVNZ012_01737_TODO_03",""
 28,"TEXT_HEAVNZ012_01737_TODO_04",""
@@ -49,11 +49,27 @@ int32,str,str
 45,"TEXT_HEAVNZ012_01737_TODO_21",""
 46,"TEXT_HEAVNZ012_01737_TODO_22",""
 47,"TEXT_HEAVNZ012_01737_TODO_23",""
-48,"TEXT_HEAVNZ012_01737_SOLDIER01737_000_000","Gods be cursed! Mere moments ago I was mobbed by a huge swarm of frost grenades. I made away with my life, but dropped my magic talisman in the confusion. It was a gift from my family, but the instant those monsters saw it, they lost all interest in me─they tore the thing apart and fled with the pieces!"
-49,"TEXT_HEAVNZ012_01737_SOLDIER01737_000_001","That talisman carries a lot of sentimental value for me. I have to get it back, but I can't leave my post. Hmmm...you strike me as quite the capable sort. Be a good <If(PlayerParameter(4))>lass<Else/>lad</If> and recover it for me, would you?"
-50,"TEXT_HEAVNZ012_01737_SOLDIER01737_000_002","It looked like the talisman was broken into three separate pieces. I didn't see which of the beasts nabbed the pieces, mind you. I was more concerned with escaping before they regained their interest in me. But please, slay the frost grenades and recover my talisman for me!"
-51,"TEXT_HEAVNZ012_01737_SOLDIER01737_000_010","Please recover my talisman. It was torn into three pieces and taken by frost grenades."
-52,"TEXT_HEAVNZ012_01737_SOLDIER01737_000_020","Have you the pieces of my magic talisman?"
-53,"TEXT_HEAVNZ012_01737_SOLDIER01737_000_021","Oh, you found them! Words cannot fully express my gratitude. My family made the talisman from an ice crystal. It was meant to protect me, but to be honest, there's more than enough cold around here without me carrying this thing. Still, it carries no small amount of sentimental value for me."
-54,"TEXT_HEAVNZ012_01737_SOLDIER01737_000_022","I wonder what made the frost grenades swarm over it so. Did they plan to <Emphasis>eat</Emphasis> it? For something that's supposed to protect me, this talisman is doing a dreadful job."
-55,"TEXT_HEAVNZ012_01737_SOLDIER01737_000_023","Whatever the reason, I'd much prefer not getting attacked again. I'll be sure to put this somewhere safe in the barracks rather than carrying it on my person. Thank you again for recovering it for me."
+48,"TEXT_HEAVNZ012_01737_SOLDIER01737_000_000","ちくしょう、「<Sheet(BNpcName,3476,0)/>」の大群に襲われて、
+家族からもらった、大事なお守りをブチ壊されちまった！
+しかも奴ら、ご丁寧に破片まで丸呑みにしやがって！"
+49,"TEXT_HEAVNZ012_01737_SOLDIER01737_000_001","あ、あんた、冒険者だよな？
+俺は任務で動けないんだ……
+代わりに取り戻してきてくれないか？"
+50,"TEXT_HEAVNZ012_01737_SOLDIER01737_000_002","お守りの破片を食った「<Sheet(BNpcName,3476,0)/>」は、全部で3体。
+だけど、どいつが食ったヤツなのかはわからねぇ……。
+片っ端から倒して、「<Sheet(EventItem,2001596,0)/>」を3つ集めてきてくれ！"
+51,"TEXT_HEAVNZ012_01737_SOLDIER01737_000_010","お守りの破片を食った「<Sheet(BNpcName,3476,0)/>」は、全部で3体。
+だけど、どいつが食ったヤツなのかはわからねぇ……。
+片っ端から倒して、「<Sheet(EventItem,2001596,0)/>」を3つ集めてきてくれ！"
+52,"TEXT_HEAVNZ012_01737_SOLDIER01737_000_020","お守りの破片を食った「<Sheet(BNpcName,3476,0)/>」は、全部で3体。
+だけど、どいつが食ったヤツなのかはわからねぇ……。
+片っ端から倒して、「<Sheet(EventItem,2001596,0)/>」を3つ集めてきてくれ！"
+53,"TEXT_HEAVNZ012_01737_SOLDIER01737_000_021","おぉ、見つけてきてくれたのか！　感謝の言葉もねぇ！
+こいつは、俺が寒さにやられないようにって願掛けで、
+家族がアイスクリスタルを加工して、作ってくれた物なんだ。"
+54,"TEXT_HEAVNZ012_01737_SOLDIER01737_000_022","しかし、ヤツらは、どうしてこれに群がったりなんか……。
+……まさか、ヤツらは文字通りエサだと思ったのか？
+お守りどころか、逆効果だったってことかよ。"
+55,"TEXT_HEAVNZ012_01737_SOLDIER01737_000_023","とにかく、ありがとう！
+また襲われたらたまらねえし……
+こいつは、宿舎に大切に保管しておくよ。"

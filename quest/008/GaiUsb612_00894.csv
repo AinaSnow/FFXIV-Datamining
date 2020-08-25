@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB612_00894_SEQ_00","Stephannot has no love for adventurers, but beggars cannot be choosers and your help is urgently needed."
-1,"TEXT_GAIUSB612_00894_SEQ_01","One of Stephannot's young recruits has gone missing after leaving for Camp Dragonhead. He is likely lost on the north road where wild creatures sometimes stalk soft prey. Follow the recruit's trail while it is still fresh."
-2,"TEXT_GAIUSB612_00894_SEQ_02","After a brutal battle in which you nearly lost <If(PlayerParameter(4))>the source of your roguish charm<Else/>your most precious appendage</If>, the croc is dispatched. Like any good sleuth, you search the body and find a scarred silver ring, the least unspeakable of the creature's visceral cargo. See it to Stephannot's hands."
-3,"TEXT_GAIUSB612_00894_SEQ_03","Stephannot confirms that the ring belonged to the young recruit. You are surprised to initially find him so resistant to the obvious truth, for he struck you as a pragmatic man. It seems that in Ishgard, being devoured by beastkin shames the eaten..."
+0,"TEXT_GAIUSB612_00894_SEQ_00","アートボルグ砦群のステファノーは、深刻そうな表情をしている……。"
+1,"TEXT_GAIUSB612_00894_SEQ_01","キャンプ・ドラゴンヘッドへ遣いに行った新兵が戻らないのだという。北の街道周辺にはどう猛な魔物も出るらしい。急いで新兵の痕跡を追おう。"
+2,"TEXT_GAIUSB612_00894_SEQ_02","<Sheet(BNpcName,784,0)/>の腹の中から<Sheet(EventItem,2000701,0)/>が出てきた。アートボルグ砦群の「ステファノー」に「<Sheet(EventItem,2000701,0)/>」を渡そう。"
+3,"TEXT_GAIUSB612_00894_SEQ_03","やはり、指輪は新兵のものだったようだ。ステファノ―によれば、新兵の少年はドラゴン族と戦う日を待ち望んでいたという……。"
 4,"TEXT_GAIUSB612_00894_SEQ_04",""
 5,"TEXT_GAIUSB612_00894_SEQ_05",""
 6,"TEXT_GAIUSB612_00894_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSB612_00894_SEQ_21",""
 22,"TEXT_GAIUSB612_00894_SEQ_22",""
 23,"TEXT_GAIUSB612_00894_SEQ_23",""
-24,"TEXT_GAIUSB612_00894_TODO_00","Follow the recruit's trail."
-25,"TEXT_GAIUSB612_00894_TODO_01","Deliver the ring to Stephannot."
+24,"TEXT_GAIUSB612_00894_TODO_00","新兵の痕跡を追う"
+25,"TEXT_GAIUSB612_00894_TODO_01","ステファノーに<Sheet(EventItem,2000701,0)/>を渡す"
 26,"TEXT_GAIUSB612_00894_TODO_02",""
 27,"TEXT_GAIUSB612_00894_TODO_03",""
 28,"TEXT_GAIUSB612_00894_TODO_04",""
@@ -49,11 +49,22 @@ int32,str,str
 45,"TEXT_GAIUSB612_00894_TODO_21",""
 46,"TEXT_GAIUSB612_00894_TODO_22",""
 47,"TEXT_GAIUSB612_00894_TODO_23",""
-48,"TEXT_GAIUSB612_00894_STEPHANNOT_000_000","He should be back by now, even if he had to wait out the worst of this storm. Could he have wandered onto the north road? That way roam feral crocs..."
-49,"TEXT_GAIUSB612_00894_STEPHANNOT_000_001","Ahem...adventurer. I sent a runner to Camp Dragonhead, but he is many hours overdue. I fear he has lost his way, green recruit that he is. I would prevail upon you to fetch him back."
-50,"TEXT_GAIUSB612_00894_DUMMY_000_010",""
-51,"TEXT_GAIUSB612_00894_DUMMYTODO_000_010",""
-52,"TEXT_GAIUSB612_00894_STEPHANNOT_000_020","Ah, adventurer. Where is the tomfool? If he's lost something to frostbite, he has none to blame but himself."
-53,"TEXT_GAIUSB612_00894_STEPHANNOT_000_030","This is the boy's ring. What is the meaning of this? A feral croc... Are you certain? He could simply have dropped it! I'll not stand for surmise when the boy's honor...what? Yes. He had ginger hair. Oh, for the ruth of Halone..."
-54,"TEXT_GAIUSB612_00894_STEPHANNOT_000_031","He was a good lad, afire to take his place in the war against the dragons. To die so ignominiously instead...I cannot tell his sire, yet to lie to a fellow knight about his own son─'tis more than I can tease out right now."
-55,"TEXT_GAIUSB612_00894_POP_MESSAGE_000","You sense a creature swift and massive!"
+48,"TEXT_GAIUSB612_00894_STEPHANNOT_000_000","それにしても遅い……。
+まさか、吹雪の中で道を誤ったのではあるまいな。
+北の街道は、獰猛な<Sheet(BNpcName,784,0)/>がいて危険だぞ……。"
+49,"TEXT_GAIUSB612_00894_STEPHANNOT_000_001","……む、冒険者か。新兵をキャンプ・ドラゴンヘッドへ
+遣いに出したのだが、いっこうに戻ってこないのだ。
+悪いが、迎えに行ってくれないだろうか。"
+50,"TEXT_GAIUSB612_00894_DUMMY_000_010","北の街道沿いに落ちているeobjをたどる(3つほど)
+最後のeobj(刺さってる剣)を調べると「<Sheet(BNpcName,784,0)/>」がポップ
+倒すと「<Sheet(EventItem,2000701,0)/>」をゲット"
+51,"TEXT_GAIUSB612_00894_DUMMYTODO_000_010","（★未使用／削除予定★）"
+52,"TEXT_GAIUSB612_00894_STEPHANNOT_000_020","……む、冒険者か。
+あいつは、いただろうか？"
+53,"TEXT_GAIUSB612_00894_STEPHANNOT_000_030","……「<Sheet(BNpcName,784,0)/>」の腹に、この指輪が？
+何ということだ、まだ未来ある少年の命を
+こんな形で失うことになるとは……。"
+54,"TEXT_GAIUSB612_00894_STEPHANNOT_000_031","ドラゴン族と戦う日がくることを、
+あんなに待ち望んでいたというのに、無念だったろう……。
+……報告感謝する。のちほど遺族にも伝えておかねばな……。"
+55,"TEXT_GAIUSB612_00894_POP_MESSAGE_000","敵の気配を感じた！！"

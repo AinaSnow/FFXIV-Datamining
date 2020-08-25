@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNZ607_01875_SEQ_00","Mogzun is eyeing a rusty sword with a satisfied grin on his face."
-1,"TEXT_HEAVNZ607_01875_SEQ_01","Mogzun has given you the exciting news that a moogle named Mogoon is giving away weapons that once belonged to the landlords. Visit the area near the Mother of the Sheave statue for more information on this exciting giveaway."
-2,"TEXT_HEAVNZ607_01875_SEQ_02","After speaking to Mogoon, you find out that his giveaway was a farce, meant only to get annoying visitors to go away so he can pay his respects in silence. However, moogles are not the only thing proving to be a nuisance. He asks you to slay three of the dragons in the area so that he might have the peace he desires."
-3,"TEXT_HEAVNZ607_01875_SEQ_03","You have slain the dragons, and the area becomes noticeably quieter. Return to Mogoon with news of your deed."
-4,"TEXT_HEAVNZ607_01875_SEQ_04","Mogoon is pleased that he can finally show his reverence to the Mother of the Sheave in silence. The statue is made in the image of Shiva when she fell in love with the great wyrm Hraesvelgr, so it should be treated with the utmost respect."
+0,"TEXT_HEAVNZ607_01875_SEQ_00","飛竜泊のモグズンは、満面の笑みを浮かべている。"
+1,"TEXT_HEAVNZ607_01875_SEQ_01","モグズンの話を聞いた。人の武具をモグーンからもらったらしい。ドラヴァニア雲海の聖女シヴァ像付近の「モグーン」の話を聞いてみよう。"
+2,"TEXT_HEAVNZ607_01875_SEQ_02","モグーンの話を聞いた。<Sheet(BNpcName,3631,0)/>がうるさいようだ。聖女シヴァ像付近の「<Sheet(BNpcName,3631,0)/>」を3体討伐しよう。"
+3,"TEXT_HEAVNZ607_01875_SEQ_03","<Sheet(BNpcName,3631,0)/>を討伐した。聖女シヴァ像付近の「モグーン」に報告しよう。"
+4,"TEXT_HEAVNZ607_01875_SEQ_04","モグーンに報告した。聖女シヴァ像はその名のとおり「聖女シヴァ」を象ったもの。かつて聖竜「フレースヴェルグ」と恋に落ちた「聖女シヴァ」の像のため、聖竜もきれいに保ちたいはずと考えているようだ。"
 5,"TEXT_HEAVNZ607_01875_SEQ_05",""
 6,"TEXT_HEAVNZ607_01875_SEQ_06",""
 7,"TEXT_HEAVNZ607_01875_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_HEAVNZ607_01875_SEQ_21",""
 22,"TEXT_HEAVNZ607_01875_SEQ_22",""
 23,"TEXT_HEAVNZ607_01875_SEQ_23",""
-24,"TEXT_HEAVNZ607_01875_TODO_00","Speak with Mogoon."
-25,"TEXT_HEAVNZ607_01875_TODO_01","Slay cloud aevis."
-26,"TEXT_HEAVNZ607_01875_TODO_02","Report to Mogoon."
+24,"TEXT_HEAVNZ607_01875_TODO_00","モグーンと話す"
+25,"TEXT_HEAVNZ607_01875_TODO_01","<Sheet(BNpcName,3631,0)/>を討伐"
+26,"TEXT_HEAVNZ607_01875_TODO_02","モグーンに報告"
 27,"TEXT_HEAVNZ607_01875_TODO_03",""
 28,"TEXT_HEAVNZ607_01875_TODO_04",""
 29,"TEXT_HEAVNZ607_01875_TODO_05",""
@@ -49,14 +49,34 @@ int32,str,str
 45,"TEXT_HEAVNZ607_01875_TODO_21",""
 46,"TEXT_HEAVNZ607_01875_TODO_22",""
 47,"TEXT_HEAVNZ607_01875_TODO_23",""
-48,"TEXT_HEAVNZ607_01875_MOGZUN_000_000","Oh, Comma─I mean adventurer! Over here! Even though the Mog Squad went their separate ways, I'd still like to thank you for everything you did for us. In fact, I'd like to repay you by sharing an interesting bit of recent news. Look here, kupo!"
-49,"TEXT_HEAVNZ607_01875_MOGZUN_000_001","...That's right, it's a weapon of the fabled landlords! Mogoon was kind enough to give it to me─for free! If you want one for yourself, go visit him near the Mother of the Sheave statue!"
-50,"TEXT_HEAVNZ607_01875_MOGZUN_000_010","Mogoon is just giving these away─how generous of him, kupo! If you want one for yourself, go talk to him near the Mother of the Sheave statue."
-51,"TEXT_HEAVNZ607_01875_MOGOON_000_020","...Weapons from the landlords? Oh, that was just some old thing I picked up off of a dragon's corpse. That Mogzun is quite...<Emphasis>enthusiastic</Emphasis>. I just gave him the weapon so I could have some peace and quiet."
-52,"TEXT_HEAVNZ607_01875_MOGOON_000_021","The Mother of the Sheave statue, in my opinion, is one of the most serene places that was built by the landlords, but I prefer to show my reverence in silence. Lately, though, it's become more difficult to pray in quietude, kupo."
-53,"TEXT_HEAVNZ607_01875_MOGOON_000_022","Since you're here, maybe you can help me attain the solitude I seek. The cries of the cloud aevis make silent contemplation difficult. If there were a few less of those beasts around, I might be able to show the Mother of the Sheave the respect she deserves, kupo."
-54,"TEXT_HEAVNZ607_01875_MOGZUN_000_030","Mogoon has so many of these amazing tools! You'd better get some for yourself before he runs out of them, kupopo!"
-55,"TEXT_HEAVNZ607_01875_MOGOON_000_031","Adventurer, please help me to show my devotion to the Mother of the Sheave statue. Slay the dragons stalking the area to silence their deafening roars, kupo."
-56,"TEXT_HEAVNZ607_01875_MOGZUN_000_040","Did Mogoon give you a weapon, too? I can't believe he's just giving them away free of charge, kupo!"
-57,"TEXT_HEAVNZ607_01875_MOGOON_000_050","Many thanks, adventurer─the statue grounds have become markedly more serene. This statue was carved in the image of Shiva, the beloved Mother of the Sheave. We must always protect it and keep the grounds safe."
-58,"TEXT_HEAVNZ607_01875_MOGOON_000_051","The statue depicts the great wyrm Hraesvelgr's true love─he would surely want to preserve the statue as well, kupo."
+48,"TEXT_HEAVNZ607_01875_MOGZUN_000_000","あ、冒険者！　先にはお世話になったくぽ。
+にやにや、これを見てほしいくぽ……かっこいいくぽ～？"
+49,"TEXT_HEAVNZ607_01875_MOGZUN_000_001","「聖女シヴァ像」の近くにいる「モグーン」から、
+ヒトの武具をもらったくぽ！
+冒険者も興味があるなら、行ってみたらいいくぽ～。"
+50,"TEXT_HEAVNZ607_01875_MOGZUN_000_010","「聖女シヴァ像」の近くにいる「モグーン」から、
+ヒトの武具をもらったくぽ！
+冒険者も興味があるなら、行ってみたらいいくぽ～。"
+51,"TEXT_HEAVNZ607_01875_MOGOON_000_020","……ヒトの武具くぽ？
+少し前に、ドラゴン族の死骸の中から拾ったくぽ。
+モグズンはうるさいから、武具をあげて黙らせたくぽ。"
+52,"TEXT_HEAVNZ607_01875_MOGOON_000_021","モグは、この「聖女シヴァ像」が好きなんだくぽ。
+静かに愛でていたいんだくぽ～。
+でも最近は、ほかにもうるさいやつがいるくぽ……。"
+53,"TEXT_HEAVNZ607_01875_MOGOON_000_022","冒険者にお願いくぽ。
+「<Sheet(BNpcName,3631,0)/>」を3体ほど倒して、
+ここを静かにさせてほしいくぽ。"
+54,"TEXT_HEAVNZ607_01875_MOGZUN_000_030","「聖女シヴァ像」の近くにいる「モグーン」から、
+ヒトの武具をもらったくぽ！
+冒険者も興味があるなら、行ってみたらいいくぽ～。"
+55,"TEXT_HEAVNZ607_01875_MOGOON_000_031","冒険者にお願いくぽ。
+「<Sheet(BNpcName,3631,0)/>」を3体ほど倒して、
+ここを静かにさせてほしいくぽ。"
+56,"TEXT_HEAVNZ607_01875_MOGZUN_000_040","「聖女シヴァ像」の近くにいる「モグーン」から、
+ヒトの武具をもらったくぽ！
+冒険者も興味があるなら、行ってみたらいいくぽ～。"
+57,"TEXT_HEAVNZ607_01875_MOGOON_000_050","ありがとうくぽ！　少し静かになったくぽ！
+このおっきな像は、「聖女シヴァ」を象ったものくぽ。
+かつて聖竜様と恋に落ちた、女の人くぽ。"
+58,"TEXT_HEAVNZ607_01875_MOGOON_000_051","きっと、聖竜様もきれいに保っておきたいと思っているくぽ。
+だからモグは、像をお掃除して、静かに愛でていたいくぽ。"

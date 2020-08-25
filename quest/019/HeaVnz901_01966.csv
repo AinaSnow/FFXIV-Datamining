@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNZ901_01966_SEQ_00","Saro Roggo is a picture of nervous energy."
-1,"TEXT_HEAVNZ901_01966_SEQ_01","One of Matoya's servants, the poroggo Saro Roggo, has tasked you with eliminating the bugs that are threatening to destroy his mistress's herbs. Examine the medicinal herbs outside Matoya's Cave and dispatch the bugs that appear."
-2,"TEXT_HEAVNZ901_01966_SEQ_02","The bugs will bother Matoya's herbs no more. Return to her cave and report your success to Saro Roggo."
-3,"TEXT_HEAVNZ901_01966_SEQ_03","Saro Roggo is elated to hear that the herb garden is once again safe from pests. However, his troubles are far from over. As a self-confessed failed creation, he fears that it is only a matter of time before his mistress casts him aside. As such, he wishes to prove himself useful to her, and to this end he bids you speak with the brooms in the cave, that you might learn Matoya's desires."
+0,"TEXT_HEAVNZ901_01966_SEQ_00","マトーヤの洞窟のサロ・ロッゴは、憂鬱そうにつぶやいている。"
+1,"TEXT_HEAVNZ901_01966_SEQ_01","サロ・ロッゴから、マトーヤの薬草についた虫の駆除を依頼された。低地ドラヴァニアのマトーヤの洞窟前にある「<Sheet(EObj,2006061,0)/>」3つを調べ、「<Sheet(BNpcName,4069,0)/>」を駆除しよう。"
+2,"TEXT_HEAVNZ901_01966_SEQ_02","<Sheet(BNpcName,4069,0)/>を駆除した。マトーヤの洞窟の「サロ・ロッゴ」に報告しよう。"
+3,"TEXT_HEAVNZ901_01966_SEQ_03","サロ・ロッゴに、虫を駆除したことを伝えた。これでお茶が淹れられると喜んだサロ・ロッゴだったが、一転、ほとんどマトーヤの役に立てていないことを嘆きはじめた。マトーヤの洞窟内のホウキたちから、マトーヤの望みを聞き出してみよう。"
 4,"TEXT_HEAVNZ901_01966_SEQ_04",""
 5,"TEXT_HEAVNZ901_01966_SEQ_05",""
 6,"TEXT_HEAVNZ901_01966_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_HEAVNZ901_01966_SEQ_21",""
 22,"TEXT_HEAVNZ901_01966_SEQ_22",""
 23,"TEXT_HEAVNZ901_01966_SEQ_23",""
-24,"TEXT_HEAVNZ901_01966_TODO_00","Examine medicinal herbs and defeat the bugs that appear."
-25,"TEXT_HEAVNZ901_01966_TODO_01","Report to Saro Roggo."
+24,"TEXT_HEAVNZ901_01966_TODO_00","<Sheet(EObj,2006061,0)/>を調べて<Sheet(BNpcName,4069,0)/>を討伐"
+25,"TEXT_HEAVNZ901_01966_TODO_01","マトーヤの洞窟のサロ・ロッゴに報告"
 26,"TEXT_HEAVNZ901_01966_TODO_02",""
 27,"TEXT_HEAVNZ901_01966_TODO_03",""
 28,"TEXT_HEAVNZ901_01966_TODO_04",""
@@ -49,17 +49,43 @@ int32,str,str
 45,"TEXT_HEAVNZ901_01966_TODO_21",""
 46,"TEXT_HEAVNZ901_01966_TODO_22",""
 47,"TEXT_HEAVNZ901_01966_TODO_23",""
-48,"TEXT_HEAVNZ901_01966_SAROROGGO_000_000","Woe is me, ribbit! Mistress Matoya will have my hide!"
-49,"TEXT_HEAVNZ901_01966_SAROROGGO_000_001","You...you are our guest, and yet you would lend me your aid? Oh, thank you, kind adventurer! I am in your debt!"
-50,"TEXT_HEAVNZ901_01966_SAROROGGO_000_002","Permit me to introduce myself, ribbit. I am Saro Roggo, a humble servant of Mistress Matoya."
-51,"TEXT_HEAVNZ901_01966_SAROROGGO_000_003","I am tasked with picking leaves from her herb garden, from which I make her her tea."
-52,"TEXT_HEAVNZ901_01966_SAROROGGO_000_004","Alas, drawn to their medicinal properties, bugs have recently taken to ravaging the herbs."
-53,"TEXT_HEAVNZ901_01966_SAROROGGO_000_005","I attempted to get rid of the pests, but they are too much for a lone poroggo to handle. I would be grateful if you could eliminate them in my stead, ribbit."
-54,"TEXT_HEAVNZ901_01966_SAROROGGO_000_010","The herb garden is right outside the cave. Please hurry and eliminate the bugs, ribbit!"
-55,"TEXT_HEAVNZ901_01966_SAROROGGO_000_020","The bugs are no more? Oh, thank you! Not only are you kind, but you are strong as well, ribbit!"
-56,"TEXT_HEAVNZ901_01966_SAROROGGO_000_021","Now I can resume my duties again: harvesting and making tea. It is all I am capable of..."
-57,"TEXT_HEAVNZ901_01966_SAROROGGO_000_022","I'm a failed creation, you see. Unlike my mistress's other children, I'm incompetent and clumsy."
-58,"TEXT_HEAVNZ901_01966_SAROROGGO_000_023","For want of a task I could perform, she bade me serve her tea seven times daily. But even in this, I needed assistance, ribbit..."
-59,"TEXT_HEAVNZ901_01966_SAROROGGO_000_024","Unless I make myself more useful, 'tis only a matter of time before my mistress removes my enchantment. Then I would revert to an ordinary toad, incapable of speech. I cannot bear the thought of that."
-60,"TEXT_HEAVNZ901_01966_SAROROGGO_000_025","I must become a better servant, and I believe that I can do so...if only I knew what my mistress desires. Having received of her blessing, the brooms here are bound to possess this knowledge. Alas, they refuse to talk to me."
-61,"TEXT_HEAVNZ901_01966_SAROROGGO_000_026","But as you are our guest, they cannot willfully ignore you, even if they are not entirely cooperative or forthright. Please speak with them, ribbit, and acquire the information I need to survive!"
+48,"TEXT_HEAVNZ901_01966_SAROROGGO_000_000","ゲコゲコォ……。
+なんてこった、おしまいだ……！
+マトーヤ様の怒りの炎で、干物にされてしまうんだケロ……。"
+49,"TEXT_HEAVNZ901_01966_SAROROGGO_000_001","ゲコッ……？
+お、お客人様、わたくしめに力を貸してくださるので？
+嬉しい……嬉しい……なんて優しいお方だケロ！"
+50,"TEXT_HEAVNZ901_01966_SAROROGGO_000_002","わたくし、「ポロッゴ」と呼ばれる使い魔トードの1匹……
+名を「サロ・ロッゴ」と申しますケロ。"
+51,"TEXT_HEAVNZ901_01966_SAROROGGO_000_003","この洞窟の前に茂る薬草をつんでは、
+マトーヤ様にお茶を淹れるのが、わたくしの役目……。
+ですが、その役目が果たせなくなり、困り果てておりますケロ。"
+52,"TEXT_HEAVNZ901_01966_SAROROGGO_000_004","というのも……
+あの薬草は、マトーヤ様が研究を重ねた逸品なのですが、
+めでたき薬効を狙ってか、虫が寄りついてしまったのだケロ。"
+53,"TEXT_HEAVNZ901_01966_SAROROGGO_000_005","虫は手ごわく、わたくしめでは、杖もベロも出ないケロ。
+お客人様、どうかどうか……！
+薬草から、憎き虫めを駆除してくださいませんか、ゲコォ！"
+54,"TEXT_HEAVNZ901_01966_SAROROGGO_000_010","この洞窟の前に茂る薬草から、
+憎き虫めを追い払ってほしいケロ！
+どうか、よろしくおねがいしますケロ！"
+55,"TEXT_HEAVNZ901_01966_SAROROGGO_000_020","ゲコゲーコ！
+ああ、強くて優しい、お客人様！
+憎き虫めを、ベロリと駆除してくださったのですね！"
+56,"TEXT_HEAVNZ901_01966_SAROROGGO_000_021","おかげさまで、お茶を淹れることができるケロ。
+それこそ、わたくしめの唯一の役目。
+そう、唯一の…………ゲコォ……。"
+57,"TEXT_HEAVNZ901_01966_SAROROGGO_000_022","……実はわたくし、使い魔としてあるまじき、
+ドジでグズなポロッゴなのでございますケロ。"
+58,"TEXT_HEAVNZ901_01966_SAROROGGO_000_023","マトーヤ様に任された役目をことごとく失敗し、
+仕方なく命じられたのが、日に7度のお茶くみ係。
+それすらも、此度はお客人様の力を、お借りしたケロ……。"
+59,"TEXT_HEAVNZ901_01966_SAROROGGO_000_024","このままでは、魔法を解かれ、
+物言わぬトードに戻されるのも時間の問題ケロ……。
+お客人様、後生ですから、再び力をお貸しくださいませんか！"
+60,"TEXT_HEAVNZ901_01966_SAROROGGO_000_025","マトーヤ様の「望み」さえわかれば、
+わたくしめでも、お役に立てることがあるはずケロ……！
+そこらのホウキから、それを聞き出してほしいケロ。"
+61,"TEXT_HEAVNZ901_01966_SAROROGGO_000_026","彼らは、マトーヤ様から知識を授かった、魔法のホウキ。
+小難しいことを言いたがりますが、
+お客人様ならきっと、聞き出せると信じてますケロ！"

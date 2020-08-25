@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSFSH201_01112_SEQ_00","Sisipu would teach you the advantages of fishing without live bait."
-1,"TEXT_CLSFSH201_01112_SEQ_01","While Chuchuroon is capable of catching fish himself, he lacks the patience to do so without first consuming his supply of bait. To show him that lures can be just as effective as live bait, Sisipu would have you catch five warmwater trout off the shores of Oakwood in upper La Noscea using crow flies. When you've done so, show Chuchuroon your catch."
-2,"TEXT_CLSFSH201_01112_SEQ_02","Your lure-fishing exploits have taught Chuchuroon a valuable lesson about the deceptive nature of your profession.
+0,"TEXT_CLSFSH201_01112_SEQ_00","漁師ギルドのシシプは、冒険者に頼みごとがあるようだ。"
+1,"TEXT_CLSFSH201_01112_SEQ_01","シシプから依頼を受けた。リムサ・ロミンサの漁師ギルドにいる「チュチュルン」に「<Sheet(Item,　4955,0)/>」を5匹納品しよう。「<Sheet(Item,　4955,0)/>」は高地ラノシア、サラオスの亡骸近くの釣り場「オークウッド」で「<Sheet(Item,　2614,0)/>」を釣り餌にして釣ることができる。「<Sheet(Item,　2614,0)/>」は、釣り場の近くにある「メメルン交易商店」で購入しよう。"
+2,"TEXT_CLSFSH201_01112_SEQ_02","チュチュルンに<Sheet(Item,　4955,0)/>を納品した。チュチュルンは大層喜び、冒険者のような漁師になりたいと語った。彼の憧れを裏切ることがないよう、さらに立派な漁師を目指し努力しよう。
 
-※The next fisher quest will be available from Sisipu upon reaching level 25."
+※漁師のレベルが25以上になると、シシプから次の漁師クエストを受注することができます。"
 3,"TEXT_CLSFSH201_01112_SEQ_03",""
 4,"TEXT_CLSFSH201_01112_SEQ_04",""
 5,"TEXT_CLSFSH201_01112_SEQ_05",""
@@ -27,7 +27,7 @@ int32,str,str
 21,"TEXT_CLSFSH201_01112_SEQ_21",""
 22,"TEXT_CLSFSH201_01112_SEQ_22",""
 23,"TEXT_CLSFSH201_01112_SEQ_23",""
-24,"TEXT_CLSFSH201_01112_TODO_00","Deliver warmwater trout to Chuchuroon."
+24,"TEXT_CLSFSH201_01112_TODO_00","チュチュルンに<Sheet(Item,　4955,0)/>を納品"
 25,"TEXT_CLSFSH201_01112_TODO_01",""
 26,"TEXT_CLSFSH201_01112_TODO_02",""
 27,"TEXT_CLSFSH201_01112_TODO_03",""
@@ -51,16 +51,40 @@ int32,str,str
 45,"TEXT_CLSFSH201_01112_TODO_21",""
 46,"TEXT_CLSFSH201_01112_TODO_22",""
 47,"TEXT_CLSFSH201_01112_TODO_23",""
-48,"TEXT_CLSFSH201_01112_SISIPU_000_000","You might recall Chuchuroon, the babble-spewing fish connoisseur? Perhaps not, but he certainly recalls you."
-49,"TEXT_CLSFSH201_01112_SISIPU_000_001","Apparently, there aren't enough fish in the sea, so he's set his sights on freshwater fish. He's even tried catching them himself, though that's proved problematic so far."
-50,"TEXT_CLSFSH201_01112_SISIPU_000_002","While Qiqirn possess a healthy appetite for fish, they lack the necessary patience, and often end up eating their own bait."
-51,"TEXT_CLSFSH201_01112_SISIPU_000_003","The problem has a relatively straightforward solution─employing a lure in place of live bait."
-52,"TEXT_CLSFSH201_01112_SISIPU_000_004","Unfortunately, this straightforward solution requires a roundabout demonstration, as Chuchuroon does not readily accept the concept of inedible bait."
-53,"TEXT_CLSFSH201_01112_SISIPU_000_005","If only you might snag five warmwater trout with crow flies, he might come to see the light."
-54,"TEXT_CLSFSH201_01112_SISIPU_000_006","The fish are said to populate the shores of Oakwood in upper La Noscea, though I can't say I've been recently─I consider it inauspicious to cast one's line under the watchful gaze of a giant sea serpent."
-55,"TEXT_CLSFSH201_01112_CHUCHUROON_000_010","How can <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> bait fish without bait!?"
-56,"TEXT_CLSFSH201_01112_CHUCHUROON_000_011","You truly fish trout using fake food?"
-57,"TEXT_CLSFSH201_01112_SISIPU_000_012","Indeed! For all the fish know, the lure may as well be live."
-58,"TEXT_CLSFSH201_01112_SISIPU_000_013","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> skillfully used them to catch these tasty tasties. You see, Chuchuroon, deception lies at the heart of fishing."
-59,"TEXT_CLSFSH201_01112_CHUCHUROON_000_014","Yes, yes, lies lie at heart of fishing. Chuchuroon no fool, Chuchuroon fool fish!"
-60,"TEXT_CLSFSH201_01112_SISIPU_000_015","Precisely. Well, I trust that we've managed to lure─ahem...guide you to the path of self-sufficient fishing."
+48,"TEXT_CLSFSH201_01112_SISIPU_000_000","この間のチュチュルンさんのこと、覚えている？
+彼ってば釣ってくれたあなたに、すっごく感動してね。
+自分でも釣りたいって言いだして、ギルドに入ったの。"
+49,"TEXT_CLSFSH201_01112_SISIPU_000_001","それでね、今度は川の魚を食べてみたいって言うのよ。
+元船乗りだけに海に出ることが多いから、
+川魚が珍しいのかしら。"
+50,"TEXT_CLSFSH201_01112_SISIPU_000_002","でも、ちょっと問題があって……。
+キキルン族って悪食で、何でも食べちゃうの。
+そのせいで、ついつい釣り餌を食べちゃうんだってさ。"
+51,"TEXT_CLSFSH201_01112_SISIPU_000_003","それで私は考えたのよ、食べられない釣り餌……
+つまりルアーを使えばいいんじゃないかって。"
+52,"TEXT_CLSFSH201_01112_SISIPU_000_004","それでね、あなたが先輩として、
+ルアーを使った釣りのお手本を示してくれない？
+「<Sheet(Item,　4955,0)/>」を釣れば、ルアーの良さが伝わるはず！"
+53,"TEXT_CLSFSH201_01112_SISIPU_000_005","「<Sheet(Item,　4955,0)/>」は水に落ちた虫を食べるから、
+「<Sheet(Item,　2614,0)/>」みたいなルアーで釣るのが最適なの。
+5匹くらい釣って、チュチュルンさんに届けてあげてね。"
+54,"TEXT_CLSFSH201_01112_SISIPU_000_006","釣れるのは……
+高地ラノシアの「オークウッド」あたりかな？
+あのあたり、私もあんまり行ったことないんだけど。"
+55,"TEXT_CLSFSH201_01112_CHUCHUROON_000_010","あなた、お魚、くれるっちゃ？
+「<Sheet(Item,　4955,0)/>」、5匹もくれるっちゃ？"
+56,"TEXT_CLSFSH201_01112_CHUCHUROON_000_011","ピチピチ「<Sheet(Item,　4955,0)/>」、げんきっちゃ！
+これ、フサフサルアーで、釣ったっちゃ？
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>すごいっちゃ！"
+57,"TEXT_CLSFSH201_01112_SISIPU_000_012","そうよ～、見事なもんでしょ？
+あなたのために、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>が釣ってくれたの。
+身が引き締まってて、塩焼とかにするとよさそうね。"
+58,"TEXT_CLSFSH201_01112_SISIPU_000_013","チュチュルンさん、ルアー釣りができるようになれば、
+こんなにおいしそうなお魚さんだって、
+自分で釣れるようになるわよ？"
+59,"TEXT_CLSFSH201_01112_CHUCHUROON_000_014","本当っちゃ？
+チュチュルン、お魚、釣りたいっちゃ！
+ワカダイショーみたいに、釣りたいっちゃ！"
+60,"TEXT_CLSFSH201_01112_SISIPU_000_015","うふふ、そう言うと思った。
+じゃあワカダイショーのような腕前を目指して、
+ルアー釣りについて、お勉強しましょうね？"

@@ -1,13 +1,16 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_JOBSMN501_02100_SEQ_00","Y'mhitra has glad tidings she would share with you."
-1,"TEXT_JOBSMN501_02100_SEQ_01","Y'mhitra has presented her findings on the art of summoning to her peers, and tells you of the overwhelmingly positive reaction. In addition to a flood of offers to assist with her research, she has also been promised a contribution of several rare Allagan tomestones. Join Y'mhitra on her journey to Saint Coinach's Find, and speak with Rammbroes about the newly unearthed relics."
-2,"TEXT_JOBSMN501_02100_SEQ_02","You call on Rammbroes at the scholars' camp in Mor Dhona, and he gladly surrenders several Allagan tomestones to Y'mhitra. After mentioning your role in defeating Leviathan, Ramuh, and Shiva, the anthropogeographer subsequently theorizes that you should now be capable of summoning forth new egi. Y'mhitra, jumping excitedly at this realization, presses her colleague for suggestions of suitable locations at which to attempt the rituals. Head to the Singing Shards, and join the researcher in the north of the area."
-3,"TEXT_JOBSMN501_02100_SEQ_03","Your attempt to summon Ramuh-Egi in the Singing Shards has ended in failure. Return to Apkallu Falls, and discuss this unexpected development with Y'mhitra."
-4,"TEXT_JOBSMN501_02100_SEQ_04","Even after examining her previous findings, Y'mhitra has been unable to ascertain the reason behind the failed ritual. She then promises to begin her study of the Allagan tomestones she received from Rammbroes, and asks that you prepare yourself, body and spirit, for the unknown challenges that lie ahead.
+0,"TEXT_JOBSMN501_02100_SEQ_00","アプカル滝のヤ・ミトラは、冒険者と一緒に行きたいところがあるようだ。"
+1,"TEXT_JOBSMN501_02100_SEQ_01","前回までの冒険録：
+聖コイナク財団に属するヤ・ミトラと共に、召喚獣を使役する荒行に挑む冒険者。各地でソウルクリスタルを強奪していた、召喚士トリスタンを討伐したものの、彼に力を与えていたアシエンは、姿を消してしまうのだった。
+　　　　　　　　　　　　*　*　*
+ヤ・ミトラは、冒険者と一緒にラムブルースを訪ねたいようだ。モードゥナの聖コイナク財団の調査地にいる「ラムブルース」と話そう。"
+2,"TEXT_JOBSMN501_02100_SEQ_02","ラムブルースから、召喚魔法に関するアラグの遺物を受け取るとともに、新たなエギの創造について指摘された。モードゥナの唄う裂谷北にいる「ヤ・ミトラ」と話そう。"
+3,"TEXT_JOBSMN501_02100_SEQ_03","ラムウ・エギを召喚しようとしたが、なにも起こらなかった。アプカル滝の「ヤ・ミトラ」と話そう。"
+4,"TEXT_JOBSMN501_02100_SEQ_04","ラムウ・エギの召喚に失敗した理由は、ヤ・ミトラにもわからなかった。ヤ・ミトラがアラグの遺物を調べる間、冒険者は召喚士の術を磨いておこう。
 
-※The next summoner quest will be available from Y'mhitra upon reaching level 52."
+※召喚士のレベルが52以上になると、アプカル滝のヤ・ミトラから次の召喚士クエストを受注することができます。"
 5,"TEXT_JOBSMN501_02100_SEQ_05",""
 6,"TEXT_JOBSMN501_02100_SEQ_06",""
 7,"TEXT_JOBSMN501_02100_SEQ_07",""
@@ -27,9 +30,9 @@ int32,str,str
 21,"TEXT_JOBSMN501_02100_SEQ_21",""
 22,"TEXT_JOBSMN501_02100_SEQ_22",""
 23,"TEXT_JOBSMN501_02100_SEQ_23",""
-24,"TEXT_JOBSMN501_02100_TODO_00","Speak with Rammbroes at Saint Coinach's Find."
-25,"TEXT_JOBSMN501_02100_TODO_01","Speak with Y'mhitra."
-26,"TEXT_JOBSMN501_02100_TODO_02","Speak with Y'mhitra at Apkallu Falls."
+24,"TEXT_JOBSMN501_02100_TODO_00","聖コイナク財団の調査地のラムブルースと話す"
+25,"TEXT_JOBSMN501_02100_TODO_01","唄う裂谷北のヤ・ミトラと話す"
+26,"TEXT_JOBSMN501_02100_TODO_02","アプカル滝のヤ・ミトラと話す"
 27,"TEXT_JOBSMN501_02100_TODO_03",""
 28,"TEXT_JOBSMN501_02100_TODO_04",""
 29,"TEXT_JOBSMN501_02100_TODO_05",""
@@ -51,33 +54,75 @@ int32,str,str
 45,"TEXT_JOBSMN501_02100_TODO_21",""
 46,"TEXT_JOBSMN501_02100_TODO_22",""
 47,"TEXT_JOBSMN501_02100_TODO_23",""
-48,"TEXT_JOBSMN501_02100_YMHITRA_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! You visit me at a most opportune moment─I have tidings that you of all people should hear."
-49,"TEXT_JOBSMN501_02100_YMHITRA_000_001","After our last encounter, I presented our findings on the art of summoning to my fellow scholars. Suffice it to say that the response has been enthusiastic─in addition to a flood of offers to assist with my research, I have also been promised a contribution of several rare Allagan tomestones."
-50,"TEXT_JOBSMN501_02100_YMHITRA_000_002","I imagine that any summoning knowledge hidden within those relics would prove of great benefit to us both. Shall we journey out to Mor Dhona now, and pay a visit to Rammbroes?"
-51,"TEXT_JOBSMN501_02100_YMHITRA_000_003","'Twould seem that I am to be the recipient of several Allagan tomestones. I suggest we call on Rammbroes at Saint Coinach's Find, and take possession of these valuable relics."
-52,"TEXT_JOBSMN501_02100_YMHITRA_000_005","There are so many aspects of summoning that we are yet to fully understand. I wonder what incredible secrets might lurk within these newly unearthed relics..."
-53,"TEXT_JOBSMN501_02100_RAMMBROES_000_010","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! How do you fare, my friend? As ever, we here at Saint Coinach's Find remain firmly entrenched in our efforts to excavate the secrets of the Allagan Empire. The members of NOAH must be armed with knowledge if they are truly to pave the way to the future..."
-54,"TEXT_JOBSMN501_02100_RAMMBROES_000_015","Well met! Without your invaluable cooperation, our research in the region would have ground to a highly unsatisfying halt."
-55,"TEXT_JOBSMN501_02100_RAMMBROES_000_020","Ah, I see you are here with the intrepid Y'mhitra. Might I assume you have come to collect your promised tomestones?"
-56,"TEXT_JOBSMN501_02100_YMHITRA_000_021","Aye, I am most eager to sink my scholar's teeth into something new..."
-57,"TEXT_JOBSMN501_02100_RAMMBROES_000_022","Then allow me to feed your fervor. We have uncovered a number of relics which, on cursory inspection, appear to contain detailed methodology for several summoner incantations. Who better than you to decipher their mysteries?"
-58,"TEXT_JOBSMN501_02100_RAMMBROES_000_023","Leviathan, Ramuh, Shiva... With every new primal that appears, the importance of a thorough study of summoning magicks becomes ever more apparent."
-59,"TEXT_JOBSMN501_02100_RAMMBROES_000_024","Speaking of those particular deities, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, I am given to understand that you had a hand in defeating every one of them. Your name features quite prominently in the reports we receive from the Scions of the Seventh Dawn."
-60,"TEXT_JOBSMN501_02100_RAMMBROES_000_025","And as you were present at each of their downfalls, it then follows that your aura was infused with the essences of those primals. Could it be possible that you now have the potential to call forth new egi?"
-61,"TEXT_JOBSMN501_02100_YMHITRA_000_026","By the Twelve, of course! The most trying of the requisite conditions has already been met... All that remains is to perform the summoning rituals at locations charged with the appropriate elemental energies!"
-62,"TEXT_JOBSMN501_02100_YMHITRA_000_027","Master Rammbroes! Can you suggest any places in which the aetheric balance tips heavily towards either water, lightning, or ice?"
-63,"TEXT_JOBSMN501_02100_RAMMBROES_000_028","The Singing Shards should adequately serve your needs for lightning─the area is alive with the constant discharge of crackling energy."
-64,"TEXT_JOBSMN501_02100_YMHITRA_000_029","The Singing Shards it is, then! Let us perform the Austerities of Lightning, and attempt to bring Ramuh-Egi into this world!"
-65,"TEXT_JOBSMN501_02100_RAMMBROES_000_030","If you wish to begin with Ramuh-Egi, then the nearby Singing Shards should serve your needs most admirably."
-66,"TEXT_JOBSMN501_02100_YMHITRA_000_035","I missed you at the Singing Shards, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Shall we return there now, and perform the Austerities of Lightning?"
-67,"TEXT_JOBSMN501_02100_YMHITRA_000_040","Let us then begin the Austerities of Lightning. Concentrate on shifting your aetheric energies towards the desired element..."
-68,"TEXT_JOBSMN501_02100_YMHITRA_100_040","..."
-69,"TEXT_JOBSMN501_02100_YMHITRA_000_041","Hm? I sense...nothing."
-70,"TEXT_JOBSMN501_02100_YMHITRA_000_042","I do not understand─all of the conditions have been fulfilled."
-71,"TEXT_JOBSMN501_02100_YMHITRA_000_043","This summoning ritual has never failed us before! Whatever could we be missing...?"
-72,"TEXT_JOBSMN501_02100_YMHITRA_000_044","...Well, there is little point in us remaining here if Ramuh-Egi will not answer your call. Shall we return to Gridania?"
-73,"TEXT_JOBSMN501_02100_YMHITRA_000_050","Hello, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I scoured my research notes for a hint as to why the summoning failed, but there were no revelations to be found."
-74,"TEXT_JOBSMN501_02100_YMHITRA_000_051","I am forced to conclude that the cause must lie outside our current understanding of the art. Thus shall I begin studying the tomestones we received from Rammbroes, and hope they contain some heretofore unknown wisdom."
-75,"TEXT_JOBSMN501_02100_YMHITRA_000_052","Mayhap these new egi require a different manner of catalyst...? While I delve into this mystery, I suggest you continue practicing your art─we enter an uncharted realm of summoning and you must be prepared, body and spirit."
-76,"TEXT_JOBSMN501_02100_SYSTEM_000_060","The next summoner quest will be available from Y'mhitra upon reaching level 52."
-77,"TEXT_JOBSMN501_02100_SYSTEM_000_061","The requirements for undertaking subsequent quests can be reviewed in your journal."
+48,"TEXT_JOBSMN501_02100_YMHITRA_000_000","いいところに来てくれたわね、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
+あなたと一緒に行きたいところがあるのよ。"
+49,"TEXT_JOBSMN501_02100_YMHITRA_000_001","今までにわかった、召喚魔法についての研究結果を、
+聖コイナク財団経由で発表したら、大きな反響があってね。
+研究への協力や資料提供の申し出を、沢山いただいたの！"
+50,"TEXT_JOBSMN501_02100_YMHITRA_000_002","新たな発見があれば、あなたにとっても有益なはずよ。
+「聖コイナク財団の調査地」へ行って、
+「ラムブルース」のことを訪ねてみない？"
+51,"TEXT_JOBSMN501_02100_YMHITRA_000_003","新たな発見があれば、あなたにとっても有益なはずよ。
+「聖コイナク財団の調査地」へ行って、
+「ラムブルース」のことを訪ねてみない？"
+52,"TEXT_JOBSMN501_02100_YMHITRA_000_005","召喚魔法については、まだわからないことも多い……。
+研究が進展するような資料が見つかるといいわね。"
+53,"TEXT_JOBSMN501_02100_RAMMBROES_000_010","やあ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>じゃないか！
+私たちは、変わらず古代アラグ文明の遺産を調査する日々さ。
+いつか「ノア」が、再び未来へと歩み出すためにね……。"
+54,"TEXT_JOBSMN501_02100_RAMMBROES_000_015","やあ、よく訪ねてきてくれたね！
+君の協力のお陰で、調査は順調にすすんでいるよ。"
+55,"TEXT_JOBSMN501_02100_RAMMBROES_000_020","……ヤ・ミトラと一緒ということは、
+召喚士に関する資料を受け取りに来たのかな？"
+56,"TEXT_JOBSMN501_02100_YMHITRA_000_021","ええ、私たちに提供したいという資料があると聞いたから。"
+57,"TEXT_JOBSMN501_02100_RAMMBROES_000_022","アラグの遺跡から、
+いくつか召喚魔法に関係がありそうな遺物が発掘された。
+ぜひとも、君たちに役立ててほしいのだ。"
+58,"TEXT_JOBSMN501_02100_RAMMBROES_000_023","リヴァイアサンにラムウ、シヴァといった蛮神が、
+次々と顕現している今、召喚魔法の研究は重要性を増し、
+各方面から注目されているからね……。"
+59,"TEXT_JOBSMN501_02100_RAMMBROES_000_024","……そういえば、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>は、
+これらの蛮神の討伐にも、参加していたそうだな。
+「暁」から提供された資料で見たのだよ。"
+60,"TEXT_JOBSMN501_02100_RAMMBROES_000_025","だとすれば、君はこれら三蛮神のエーテルも浴びているはず。
+もしや、新たな「エギ」を創造できるのではないか？"
+61,"TEXT_JOBSMN501_02100_YMHITRA_000_026","確かに……条件は揃っているわね。
+あとは、呼び出したい召喚獣と同じ属性を宿した地域で、
+「荒行」を行えば、あるいは……！"
+62,"TEXT_JOBSMN501_02100_YMHITRA_000_027","ラムブルース！　水神、雷神、氷神……。
+これらの蛮神と同じ属性を、強く宿す地域を知らない？"
+63,"TEXT_JOBSMN501_02100_RAMMBROES_000_028","……ふむ、この近くだと「唄う裂谷」が最適だろう。
+「雷」の属性が強く、終始、放電現象を起こしている場所だ。"
+64,"TEXT_JOBSMN501_02100_YMHITRA_000_029","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、「唄う裂谷」に向かいましょう。
+「雷の荒行」を行い、「ラムウ・エギ」を呼び出せるか、
+挑戦する価値はあると思うわ。"
+65,"TEXT_JOBSMN501_02100_RAMMBROES_000_030","この近くだと「唄う裂谷」が最適だろう。
+「雷」の属性が強く、終始、放電現象を起こしている場所だ。"
+66,"TEXT_JOBSMN501_02100_YMHITRA_000_035","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、「唄う裂谷」に向かいましょう。
+「雷の荒行」を行い、「ラムウ・エギ」を呼び出せるか、
+挑戦する価値はあると思うわ。"
+67,"TEXT_JOBSMN501_02100_YMHITRA_000_040","それじゃあ、「雷の荒行」を始めましょう……。
+自分のエーテルを、雷に近づけるように瞑想してみて……。"
+68,"TEXT_JOBSMN501_02100_YMHITRA_100_040","……………………。"
+69,"TEXT_JOBSMN501_02100_YMHITRA_000_041","そんな、何も起きない……？"
+70,"TEXT_JOBSMN501_02100_YMHITRA_000_042","「荒行」を行う条件は揃っているはず。
+いったい、どういうことかしら……？"
+71,"TEXT_JOBSMN501_02100_YMHITRA_000_043","今までと同じ方法を試しているのに、召喚できないなんて。
+もしかして、何かこれまでと違う要因が……？"
+72,"TEXT_JOBSMN501_02100_YMHITRA_000_044","……ともかく「ラムウ・エギ」が召喚できないのなら、
+ここにいても仕方ないわ。
+一度、「アプカル滝」へと戻りましょう。"
+73,"TEXT_JOBSMN501_02100_YMHITRA_000_050","お疲れさま、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>……。
+何故、今回の「雷の荒行」が失敗したのか……
+いろいろと考えてみたのだけれど、明確な答えは見えてこないわ。"
+74,"TEXT_JOBSMN501_02100_YMHITRA_000_051","どうやら、私の知らない原因がありそうね……。
+ラムブルースから貰ったアラグの遺物に手がかりがないか、
+調査をしてみるつもりよ。"
+75,"TEXT_JOBSMN501_02100_YMHITRA_000_052","もしかしたら、今までとは違う「力」が必要なのかも……。
+研究を進めておくから、あなたも全力を発揮できるよう、
+修行を積んでおいてちょうだいね。"
+76,"TEXT_JOBSMN501_02100_SYSTEM_000_060","「召喚士」の新たなジョブクエストが開始されました。
+次のクエストは「レベル52」以上で、
+アプカル滝のヤ・ミトラから受注可能です。"
+77,"TEXT_JOBSMN501_02100_SYSTEM_000_061","今後の「召喚士」のジョブクエスト受注条件は、
+コンプリート後のジャーナルで確認できます。"

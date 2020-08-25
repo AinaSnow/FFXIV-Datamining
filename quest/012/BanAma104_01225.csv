@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANAMA104_01225_SEQ_00","Fibubb Gah seeks your aid in preserving the Amalj'aa holy land."
-1,"TEXT_BANAMA104_01225_SEQ_01","You have accepted the duty of removing a dire threat to the sacred lands of Zanr'ak. Slaughter bronze tortoises until Lacovie appears, then slay the ever-spawning matriarch herself."
-2,"TEXT_BANAMA104_01225_SEQ_02","You have defeated the ground-shaking Lacovie. Return to the Ring of Ash and report to Fibubb Gah."
-3,"TEXT_BANAMA104_01225_SEQ_03","You have delivered news of your success to Fibubb Gah. Though pleased with your deeds, the Brotherhood soldier warns that the emergence of a new matriarch is only a matter of time."
+0,"TEXT_BANAMA104_01225_SEQ_00","灰の陣営のフィブブ・ガーは、どうしても許せないことがあるようだ。"
+1,"TEXT_BANAMA104_01225_SEQ_01","フィブブ・ガーの依頼を受けた。まずはザンラクにいる「<Sheet(BNpcName,2511,0)/>」を3体討伐し、現れた群れのリーダー「<Sheet(BNpcName,2360,0)/>」を討伐しよう。"
+2,"TEXT_BANAMA104_01225_SEQ_02","<Sheet(BNpcName,2511,0)/>と、群れのリーダーである<Sheet(BNpcName,2360,0)/>を討伐した。灰の陣営の「フィブブ・ガー」に報告しよう。"
+3,"TEXT_BANAMA104_01225_SEQ_03","フィブブ・ガーに報告した。<Sheet(BNpcName,2360,0)/>を討伐したことで、しばらくは<Sheet(BNpcName,2511,0)/>たちも大人しくなるだろう。"
 4,"TEXT_BANAMA104_01225_SEQ_04",""
 5,"TEXT_BANAMA104_01225_SEQ_05",""
 6,"TEXT_BANAMA104_01225_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_BANAMA104_01225_SEQ_21",""
 22,"TEXT_BANAMA104_01225_SEQ_22",""
 23,"TEXT_BANAMA104_01225_SEQ_23",""
-24,"TEXT_BANAMA104_01225_TODO_00","Slay three bronze tortoises, then defeat Lacovie when she appears."
-25,"TEXT_BANAMA104_01225_TODO_01","Report to Fibubb Gah."
+24,"TEXT_BANAMA104_01225_TODO_00","<Sheet(BNpcName,2511,0)/>を3匹討伐し、おびき寄せた<Sheet(BNpcName,2360,0)/>を討伐"
+25,"TEXT_BANAMA104_01225_TODO_01","フィブブ・ガーに報告"
 26,"TEXT_BANAMA104_01225_TODO_02",""
 27,"TEXT_BANAMA104_01225_TODO_03",""
 28,"TEXT_BANAMA104_01225_TODO_04",""
@@ -49,12 +49,23 @@ int32,str,str
 45,"TEXT_BANAMA104_01225_TODO_21",""
 46,"TEXT_BANAMA104_01225_TODO_22",""
 47,"TEXT_BANAMA104_01225_TODO_23",""
-48,"TEXT_BANAMA104_01225_FIBUBBGAH_000_001","For we Amalj'aa, Zanr'ak is more than merely dust and rock─it is sacred ground. The preservation of this holy land is our duty and our privilege."
-49,"TEXT_BANAMA104_01225_FIBUBBGAH_000_002","One of the greatest threats to its delicate balance are the voracious bronze tortoises. These insatiable creatures wander as their appetite leads them, feeding without surcease. Slaughtering them brings little respite, for they multiply at a seemingly unnatural pace."
-50,"TEXT_BANAMA104_01225_FIBUBBGAH_000_003","No, honored ally, I would have you dispatch their matriarch─the mighty Lacovie. It is she that spawns her shell-backed children in such uncontrollable numbers."
-51,"TEXT_BANAMA104_01225_FIBUBBGAH_000_004","To draw out the mother, however, you must first endanger her offspring. Slay the lesser tortoises, and the matriarch will soon appear. With her crushing weight and snapping jaws, you will find Lacovie a worthy adversary."
-52,"TEXT_BANAMA104_01225_FIBUBBGAH_000_011","Slay the bronze tortoises that ravage Zanr'ak, and Lacovie will come seeking vengeance. May glory and honor guide your arm."
-53,"TEXT_BANAMA104_01225_FIBUBBGAH_000_021","With the death of Lacovie, you have slain a great threat to our holy land. It should be many years before another tortoise attains her size and claims the matriarch's name."
-54,"TEXT_BANAMA104_01225_FIBUBBGAH_000_022","But we must not grow complacent. The sky-fires that seared the realm have shaken the foundations of all that we knew to be true..."
-55,"TEXT_BANAMA104_01225_TORTOISE_BALLOON_001","Lacovie has come to avenge her offspring!"
-56,"TEXT_BANAMA104_01225_POP_MESSAGE","The ground trembles violently!"
+48,"TEXT_BANAMA104_01225_FIBUBBGAH_000_001","ここザンラク一帯は、我らアマルジャ族の聖地。
+その保全は、我らの当然の務め。"
+49,"TEXT_BANAMA104_01225_FIBUBBGAH_000_002","難儀なるは「<Sheet(BNpcName,2511,0)/>」なり。
+きゃつらは、食欲赴くままに大地の恵みを食い荒らし、
+節操なく増え続ける……まさしく大地の憂患。"
+50,"TEXT_BANAMA104_01225_FIBUBBGAH_000_003","かくなる上は、増殖の要因たる群れの頭目、
+巨亀「<Sheet(BNpcName,2360,0)/>」を滅せねばなるまい。"
+51,"TEXT_BANAMA104_01225_FIBUBBGAH_000_004","よしんば「<Sheet(BNpcName,2360,0)/>」が見つからねば、
+「<Sheet(BNpcName,2511,0)/>」を狩りて、おびき寄せるが肝要。
+強き者よ……この使命、貴公にしかと託したぞ。"
+52,"TEXT_BANAMA104_01225_FIBUBBGAH_000_011","仇敵は「<Sheet(BNpcName,2511,0)/>」と、その頭目「<Sheet(BNpcName,2360,0)/>」なり。
+強き者よ、<Sheet(BNpcName,2511,0)/>を間引き、
+<Sheet(BNpcName,2360,0)/>を誘い出すのだ！"
+53,"TEXT_BANAMA104_01225_FIBUBBGAH_000_021","「<Sheet(BNpcName,2360,0)/>」の討伐、見事なり。
+<Sheet(BNpcName,2511,0)/>め、その増殖に歯止めなし。
+されど<Sheet(BNpcName,2360,0)/>を倒したなら、しばし落ちつこう。"
+54,"TEXT_BANAMA104_01225_FIBUBBGAH_000_022","……油断大敵、いつまた群れが現れるやもしれぬ。
+次なる機会にも、貴公にこの役目を任せることもあろう。"
+55,"TEXT_BANAMA104_01225_TORTOISE_BALLOON_001","<Sheet(BNpcName,2360,0)/>が姿を現した！"
+56,"TEXT_BANAMA104_01225_POP_MESSAGE","敵の気配を感じた！！"

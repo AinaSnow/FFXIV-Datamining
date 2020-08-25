@@ -1,12 +1,12 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ610_02788_SEQ_00","The Dotharli warrior wants to see just how capable you are."
-1,"TEXT_STMBDZ610_02788_SEQ_01","Speak with the Dotharli warrior."
-2,"TEXT_STMBDZ610_02788_SEQ_02","Head for the Dusk Throne without straying from the designated path."
-3,"TEXT_STMBDZ610_02788_SEQ_03","Obtain the small leather sack."
-4,"TEXT_STMBDZ610_02788_SEQ_04","Present the small leather sack to the Dotharli warrior."
-5,"TEXT_STMBDZ610_02788_SEQ_05","Speak with the Dotharli warrior."
+0,"TEXT_STMBDZ610_02788_SEQ_00","ドタール・カーのドタール族の戦士は、優秀な戦士に興味があるようだ。"
+1,"TEXT_STMBDZ610_02788_SEQ_01","ドタール族の戦士と話す"
+2,"TEXT_STMBDZ610_02788_SEQ_02","線の外へ出ず暮れの玉座の胸元に向かう"
+3,"TEXT_STMBDZ610_02788_SEQ_03","<Sheet(EventItem,2002367,0)/>を入手"
+4,"TEXT_STMBDZ610_02788_SEQ_04","ドタール族の戦士に<Sheet(EventItem,2002367,0)/>を渡す"
+5,"TEXT_STMBDZ610_02788_SEQ_05","ドタール族の戦士と話す"
 6,"TEXT_STMBDZ610_02788_SEQ_06",""
 7,"TEXT_STMBDZ610_02788_SEQ_07",""
 8,"TEXT_STMBDZ610_02788_SEQ_08",""
@@ -25,12 +25,12 @@ int32,str,str
 21,"TEXT_STMBDZ610_02788_SEQ_21",""
 22,"TEXT_STMBDZ610_02788_SEQ_22",""
 23,"TEXT_STMBDZ610_02788_SEQ_23",""
-24,"TEXT_STMBDZ610_02788_TODO_00","Speak with the Dotharli warrior."
-25,"TEXT_STMBDZ610_02788_TODO_01","Speak with the Dotharli warrior."
-26,"TEXT_STMBDZ610_02788_TODO_02","Head for the Dusk Throne without straying from the designated path."
-27,"TEXT_STMBDZ610_02788_TODO_03","Obtain the small leather sack."
-28,"TEXT_STMBDZ610_02788_TODO_04","Present the small leather sack to the Dotharli warrior."
-29,"TEXT_STMBDZ610_02788_TODO_05","Speak with the Dotharli warrior."
+24,"TEXT_STMBDZ610_02788_TODO_00","ドタール族の戦士と話す"
+25,"TEXT_STMBDZ610_02788_TODO_01","ドタール族の戦士のもとに向かう"
+26,"TEXT_STMBDZ610_02788_TODO_02","線の外へ出ず暮れの玉座の胸元に向かう"
+27,"TEXT_STMBDZ610_02788_TODO_03","<Sheet(EventItem,2002367,0)/>を入手"
+28,"TEXT_STMBDZ610_02788_TODO_04","ドタール族の戦士に<Sheet(EventItem,2002367,0)/>を渡す"
+29,"TEXT_STMBDZ610_02788_TODO_05","ドタール族の戦士と話す"
 30,"TEXT_STMBDZ610_02788_TODO_06",""
 31,"TEXT_STMBDZ610_02788_TODO_07",""
 32,"TEXT_STMBDZ610_02788_TODO_08",""
@@ -49,17 +49,40 @@ int32,str,str
 45,"TEXT_STMBDZ610_02788_TODO_21",""
 46,"TEXT_STMBDZ610_02788_TODO_22",""
 47,"TEXT_STMBDZ610_02788_TODO_23",""
-48,"TEXT_STMBDZ610_02788_INSTRUCTOR02788_000_000","You are a <If(PlayerParameter(4))>woman<Else/>man</If> that has danced with death many a time. I can tell from your eyes."
-49,"TEXT_STMBDZ610_02788_INSTRUCTOR02788_000_001","We Dotharl respect all skilled warriors equally. Race does not come into it. I would very much like to witness your strength firsthand."
-50,"TEXT_STMBDZ610_02788_INSTRUCTOR02788_000_002","Should you be willing, I would have you participate in a trial. It should be no trouble for you─it is a test made for our tribe's youngest. You simply need head to the Dusk Throne and collect a small package."
-51,"TEXT_STMBDZ610_02788_INSTRUCTOR02788_000_003","Speak with me if you feel up to the challenge."
-52,"TEXT_STMBDZ610_02788_INSTRUCTOR02788_000_010","Ready to test your might? Head for the Dusk Throne's chest and bring back the sack I have placed there."
-53,"TEXT_STMBDZ610_02788_INSTRUCTOR02788_000_011","Deviate from the path and you shall fail the trial. You may attempt the test as many times as you like."
-54,"TEXT_STMBDZ610_02788_SYSTEM_000_012","Head for the goal, taking care not to step outside of the designated path. Riding on a mount shall also cause you to fail the trial. Talk with the Dotharli warrior if you wish to reattempt the test."
-55,"TEXT_STMBDZ610_02788_INSTRUCTOR02788_000_015","Do not lose heart. You may attempt the trial as many times as you wish."
-56,"TEXT_STMBDZ610_02788_INSTRUCTOR02788_000_016","Do you have the sack? Only it can serve as proof that you have passed the test."
-57,"TEXT_STMBDZ610_02788_INSTRUCTOR02788_100_020","Do you have the sack? Only it can serve as proof that you have passed the test."
-58,"TEXT_STMBDZ610_02788_INSTRUCTOR02788_000_020","Skillfully done. Let us return to Dotharl Khaa."
-59,"TEXT_STMBDZ610_02788_INSTRUCTOR02788_000_021","The trial tests participants' bravery and their ability to cope with unforeseen obstacles. As I expected, it did not trouble you in the slightest."
-60,"TEXT_STMBDZ610_02788_INSTRUCTOR02788_000_022","Dotharl who complete the trial receive no rewards, but as you are an outsider, I will make an exception."
-61,"TEXT_STMBDZ610_02788_INSTRUCTOR02788_000_023","I shall not forget you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. You will always be welcome in Dotharl Khaa."
+48,"TEXT_STMBDZ610_02788_INSTRUCTOR02788_000_000","貴殿は……よい目をしている。
+死線をくぐり抜けた数も、一度や二度では済むまい。"
+49,"TEXT_STMBDZ610_02788_INSTRUCTOR02788_000_001","ドタールは、優れた戦士が好きだ。
+異国の出であろうと、魂に違いはないからな。
+よければ、貴殿の力を見せてくれないか？"
+50,"TEXT_STMBDZ610_02788_INSTRUCTOR02788_000_002","なに、若い衆が行う訓練で、難しいことではない。
+貴殿であれば、この者たちのように、
+疲れてしまうこともなく、たやすく終えられるはずだ。"
+51,"TEXT_STMBDZ610_02788_INSTRUCTOR02788_000_003","興味があるのなら、私のもとまで来るがいい。
+ここから東の砂漠で待っているぞ。"
+52,"TEXT_STMBDZ610_02788_INSTRUCTOR02788_000_010","よく来たな。
+これは力を示すための儀……「暮れの玉座の胸元」まで向かい、
+<Sheet(EventItem,2002367,0)/>を取ってくるのだ！"
+53,"TEXT_STMBDZ610_02788_INSTRUCTOR02788_000_011","横道に逸れたら、やり直しとなるため、注意しろ。
+やる気があるのなら、何度でも挑戦するがよい。
+それでは、始め！"
+54,"TEXT_STMBDZ610_02788_SYSTEM_000_012","地面に書かれた線の外へ出ずに、目的地へ向かいましょう。
+途中でマウントに乗ったり、線の外に出たりすると失敗になりますが、
+「ドタール族の戦士」のもとへ戻れば、訓練を再開できます。"
+55,"TEXT_STMBDZ610_02788_INSTRUCTOR02788_000_015","やる気があるのなら、何度でも挑戦するがよい。
+ここから「暮れの玉座の胸元」へ向かうのだ！"
+56,"TEXT_STMBDZ610_02788_INSTRUCTOR02788_000_016","「<Sheet(EventItem,2002367,0)/>」は、手に入れたか？
+あの包みこそが、この訓練を終えた証なのだ。"
+57,"TEXT_STMBDZ610_02788_INSTRUCTOR02788_100_020","「<Sheet(EventItem,2002367,0)/>」は、手に入れたか？
+あの包みこそが、この訓練を終えた証なのだ。"
+58,"TEXT_STMBDZ610_02788_INSTRUCTOR02788_000_020","無事に持ち帰れたようだな。
+ここで立ち止まれば、いらぬ獣が寄ってこよう。
+ドタール・カーへ戻るぞ。"
+59,"TEXT_STMBDZ610_02788_INSTRUCTOR02788_000_021","うむ、戻ってきたようだな。
+恐れることなく敵に向かう勇猛さと、
+障害を撥ね退ける力……見事であった。"
+60,"TEXT_STMBDZ610_02788_INSTRUCTOR02788_000_022","本来なら、訓練に成功した者に報酬など与えないのだが、
+貴殿は外から来た旅人だ。
+我らも、外の流儀に従うことにしよう。"
+61,"TEXT_STMBDZ610_02788_INSTRUCTOR02788_000_023","<Highlight>ObjectParameter(1)</Highlight>。
+名は覚えたぞ。
+ドタールはいつでも、貴殿を歓迎するだろう。"

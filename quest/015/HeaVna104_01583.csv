@@ -1,12 +1,12 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNA104_01583_SEQ_00","Lord Artoirel is less than eager to brief you on his mission."
-1,"TEXT_HEAVNA104_01583_SEQ_01","Ser Artoirel de Fortemps, eldest son of Count Edmont de Fortemps, did not expect to have company on his mission to aid houses Durendaire and Dzemael─a prospect he was not particularly enthusiastic about in the first place, given the ancient rivalries between Ishgard's noble families. Worse, in electing to install you at his son's side, the count has given Artoirel cause to believe that his father does not trust him to carry out his duties alone. Regardless, the knight means to respect Edmont's wishes, and bids you join him at the chocobo stables in Foundation, where you will secure transport to Falcon's Nest."
-2,"TEXT_HEAVNA104_01583_SEQ_02","You learn that Ser Artoirel has already procured a pair of black chocobo porters to carry the two of you beyond Snowcloak and into the western highlands. Secure your belongings and brace yourself for what promises to be a memorable journey."
-3,"TEXT_HEAVNA104_01583_SEQ_03","You arrive in Falcon's Nest none the worse for wear. Speak with Lord Artoirel and see what he would have you do next."
-4,"TEXT_HEAVNA104_01583_SEQ_04","After cursory small talk, Lord Artoirel strides off to look for Ser Redwald, who has command in Falcon's Nest. Follow the young lord and introduce yourself to the knight in charge."
-5,"TEXT_HEAVNA104_01583_SEQ_05","Ser Redwald recounts the tragic fate of Falcon's Nest, which was abandoned during the Ishgardian withdrawal shortly after the Calamity. Happily, it seems the time has come to reclaim what was lost, and through deeds great and small, the House Durendaire knight hopes you will help to facilitate the settlement's reconstruction."
+0,"TEXT_HEAVNA104_01583_SEQ_00","フォルタン伯爵邸のアルトアレールは、冒険者に協力してもらう任務について説明したいようだ。"
+1,"TEXT_HEAVNA104_01583_SEQ_01","アルトアレールから、任務について説明を受けた。任務の内容は、デュランデル、ゼーメルの両家が行っている事業への協力だそうだ。イシュガルドのチョコボ留にいる厩務員と話し、クルザス西部高地の「ファルコンネスト」へ向かおう。"
+2,"TEXT_HEAVNA104_01583_SEQ_02","チョコボ厩務員と話した。黒チョコボで、ファルコンネストへ向かおう。"
+3,"TEXT_HEAVNA104_01583_SEQ_03","ファルコンネストに到着した。ファルコンネストの「アルトアレール」と話そう。"
+4,"TEXT_HEAVNA104_01583_SEQ_04","アルトアレールと話した。ファルコンネストの「レッドワルド」と話そう。"
+5,"TEXT_HEAVNA104_01583_SEQ_05","レッドワルドから、任務について聞いた。彼らの事業は、ファルコンネストの再建だという。冒険者たちには、「各施設の再建作業」と「異端者勢力の捜索」に協力してほしいそうだ。十全に成し遂げ、ライバル関係にある名家にも、冒険者の実力を見せつけよう。"
 6,"TEXT_HEAVNA104_01583_SEQ_06",""
 7,"TEXT_HEAVNA104_01583_SEQ_07",""
 8,"TEXT_HEAVNA104_01583_SEQ_08",""
@@ -25,10 +25,10 @@ int32,str,str
 21,"TEXT_HEAVNA104_01583_SEQ_21",""
 22,"TEXT_HEAVNA104_01583_SEQ_22",""
 23,"TEXT_HEAVNA104_01583_SEQ_23",""
-24,"TEXT_HEAVNA104_01583_TODO_00","Speak with the chocobokeep in Foundation and journey to Falcon's Nest."
-25,"TEXT_HEAVNA104_01583_TODO_01","Speak with the chocobokeep in Foundation and journey to Falcon's Nest."
-26,"TEXT_HEAVNA104_01583_TODO_02","Speak with Artoirel."
-27,"TEXT_HEAVNA104_01583_TODO_03","Speak with Redwald."
+24,"TEXT_HEAVNA104_01583_TODO_00","チョコボ留の厩務員と話し、ファルコンネストへ向かう"
+25,"TEXT_HEAVNA104_01583_TODO_01","チョコボ留の厩務員と話し、ファルコンネストへ向かう"
+26,"TEXT_HEAVNA104_01583_TODO_02","アルトアレールと話す"
+27,"TEXT_HEAVNA104_01583_TODO_03","レッドワルドと話す"
 28,"TEXT_HEAVNA104_01583_TODO_04",""
 29,"TEXT_HEAVNA104_01583_TODO_05",""
 30,"TEXT_HEAVNA104_01583_TODO_06",""
@@ -49,32 +49,75 @@ int32,str,str
 45,"TEXT_HEAVNA104_01583_TODO_21",""
 46,"TEXT_HEAVNA104_01583_TODO_22",""
 47,"TEXT_HEAVNA104_01583_TODO_23",""
-48,"TEXT_HEAVNA104_01583_ARTOIREL_000_000","Let us begin anew, <If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>. I am Ser Artoirel de Fortemps, eldest son of Count Edmont de Fortemps."
-49,"TEXT_HEAVNA104_01583_ARTOIREL_000_001","You will forgive me my outburst, I hope. I meant no disrespect. I merely consider myself equal to the duties entrusted to me...unlike some."
-50,"TEXT_HEAVNA104_01583_ARTOIREL_000_002","...Haurchefant has spoken of you often. If you are even half the <If(PlayerParameter(4))>woman<Else/>man</If> he claims, I shall be glad to have you at my side."
-51,"TEXT_HEAVNA104_01583_ARTOIREL_000_003","To the matter at hand, then: we will be assisting my <Emphasis>esteemed</Emphasis> compatriots of houses Durendaire and Dzemael."
-52,"TEXT_HEAVNA104_01583_ARTOIREL_000_004","You are aware of our <Emphasis>friendly rivalry</Emphasis>, I take it? Aye, well, suffice it to say, the prospect of assisting said houses does not fill me with joy."
-53,"TEXT_HEAVNA104_01583_ARTOIREL_000_005","However, it is the will of the Holy See that we set aside our differences at this crucial juncture. But we shall speak more of that anon."
-54,"TEXT_HEAVNA104_01583_ARTOIREL_000_006","First, we must needs secure transport to Falcon's Nest. Let us make for the chocobo stables in Foundation."
-55,"TEXT_HEAVNA104_01583_STABLEHAND01583_000_010","Greetings, <If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>. I've saddled a black chocobo for your journey to the western highlands, as per Lord Artoirel's instruction."
-56,"TEXT_HEAVNA104_01583_STABLEHAND01583_000_011","Will this be your first time riding a black chocobo, may I ask? If so, you're in for a treat. As I daresay you know, this particular breed can <Emphasis>fly</Emphasis>. Given the right conditions, they can carry you quite high, too─even over Snowcloak."
-57,"TEXT_HEAVNA104_01583_STABLEHAND01583_000_012","You needn't worry about directing the bird, of course. Like all porters, she's trained to carry you to your destination all by herself─so just relax and enjoy the view! Oh, but be sure not to relax your <Emphasis>grip</Emphasis>, will you? Two hands on the reins at all times, if you please."
-58,"TEXT_HEAVNA104_01583_STABLEHAND01583_000_013",""
-59,"TEXT_HEAVNA104_01583_SCENE00005_EVENTAREA_WARP_YESNO_TITLE","Travel to Falcon's Nest?"
-60,"TEXT_HEAVNA104_01583_SCENE00005_EVENTAREA_WARP_YESNO_YES","Yes"
-61,"TEXT_HEAVNA104_01583_SCENE00005_EVENTAREA_WARP_YESNO_NO","No"
-62,"TEXT_HEAVNA104_01583_ARTOIREL_000_014","I've secured chocobo porters for the two of us. The chocobokeep has yours."
-63,"TEXT_HEAVNA104_01583_ARTOIREL_000_020","The world looks quite different when viewed from the back of an airborne chocobo, does it not? I still find the experience strangely liberating..."
-64,"TEXT_HEAVNA104_01583_ARTOIREL_000_021","To business. Ser Redwald is in charge here. He should be expecting us."
-65,"TEXT_HEAVNA104_01583_REDWALD_000_030","It has been far, far too long, Lord Artoirel. And who might your companion be?"
-66,"TEXT_HEAVNA104_01583_ARTOIREL_000_031","Pray forgive us our lateness, Ser Redwald. I present to you <Highlight>ObjectParameter(1)</Highlight>, ward of House Fortemps."
-67,"TEXT_HEAVNA104_01583_REDWALD_000_032","Ahhh, yes, of course! Lord Drillemont spoke of you. I, Ser Redwald of House Durendaire, do bid you welcome to Falcon's Nest."
-68,"TEXT_HEAVNA104_01583_ARTOIREL_000_033","We are both eager to contribute to the settlement's restoration. How may we be of service?"
-69,"TEXT_HEAVNA104_01583_REDWALD_000_034","Before we speak of that─would I be correct in assuming that <If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/> is unfamiliar with our recent history? Then, with your permission, I shall recount the tale for <If(PlayerParameter(4))>her<Else/>his</If> benefit."
-70,"TEXT_HEAVNA104_01583_REDWALD_000_035","As you may know, Falcon's Nest was once a hamlet with a small garrison of knights and some few villagers. And then came the Calamity."
-71,"TEXT_HEAVNA104_01583_REDWALD_000_036","When it became clear that the snow would not stop falling, we had no choice but to order a complete withdrawal. The settlement─and the entirety of the western highlands─were to be abandoned."
-72,"TEXT_HEAVNA104_01583_ARTOIREL_000_037","...Abandoned to the heretics. Lady Iceheart and her kind have walked these lands with impunity ever since."
-73,"TEXT_HEAVNA104_01583_REDWALD_000_038","Aye, but no longer. The Holy See has commanded the reclamation of the western highlands and the expulsion of heretical elements."
-74,"TEXT_HEAVNA104_01583_REDWALD_000_039","Falcon's Nest is key to accomplishing these objectives. But, as you can see, rebuilding the hamlet will be no small undertaking."
-75,"TEXT_HEAVNA104_01583_REDWALD_000_040","Our craftsmen require support and protection. Any assistance you can offer will be greatly appreciated."
-76,"TEXT_HEAVNA104_01583_ARTOIREL_000_041","As promised, we of House Fortemps are at your disposal, Ser Redwald. You need but tell us where to begin."
+48,"TEXT_HEAVNA104_01583_ARTOIREL_000_000","……では、改めて自己紹介させてもらおう。
+我が名は、アルトアレール・ド・フォルタン。
+フォルタン家の長子にして、誇り高きイシュガルドの騎士だ。"
+49,"TEXT_HEAVNA104_01583_ARTOIREL_000_001","先ほどは失礼した……。
+己に与えられた任務は、己の手で……
+そう考えたゆえの言葉でな。"
+50,"TEXT_HEAVNA104_01583_ARTOIREL_000_002","貴殿の実力は、あの男……オルシュファンから聞いている。
+ぜひとも、その力を貸してくれ。"
+51,"TEXT_HEAVNA104_01583_ARTOIREL_000_003","……といっても、力を貸す相手は、
+小憎たらしい「デュランデル家」と「ゼーメル家」なのだがな。"
+52,"TEXT_HEAVNA104_01583_ARTOIREL_000_004","四大名家のうち、デュランデル、ゼーメルの両家は、
+我がフォルタン家とは、歴史的に対立してきた経緯がある。
+ライバル関係にあると言えばいいだろうか。"
+53,"TEXT_HEAVNA104_01583_ARTOIREL_000_005","今回は、教皇庁からの依頼で、
+彼らが進めている事業の手伝いをすることになった。
+癪ではあるが、せいぜい貸しを作ってやるとしよう。"
+54,"TEXT_HEAVNA104_01583_ARTOIREL_000_006","さあ、イシュガルド下層に向かうぞ。
+任地はクルザス西部高地の「ファルコンネスト」……
+チョコボ留の厩務員に声をかけ、現地までの足を手に入れよう。"
+55,"TEXT_HEAVNA104_01583_STABLEHAND01583_000_010","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>様でございますね？
+アルトアレール様から、お話は伺っております。
+貴方様のために、とびきりの黒チョコボを用意しておりますよ。"
+56,"TEXT_HEAVNA104_01583_STABLEHAND01583_000_011","おや、黒チョコボをご存知ないので？
+黒い毛並みが特徴的なフライヤー種という品種なのですが、
+特別な訓練により、なんと空を舞うことができるのです。"
+57,"TEXT_HEAVNA104_01583_STABLEHAND01583_000_012","「ファルコンネスト」まで、氷壁を超えてひとっ飛び！
+最初は、ちょっぴり怖いかもしれませんが、
+緊張なさらずに、黒チョコボでの空旅をお楽しみください。"
+58,"TEXT_HEAVNA104_01583_STABLEHAND01583_000_013","（★未使用／削除予定★）"
+59,"TEXT_HEAVNA104_01583_SCENE00005_EVENTAREA_WARP_YESNO_TITLE","「ファルコンネスト」に移動しますか？"
+60,"TEXT_HEAVNA104_01583_SCENE00005_EVENTAREA_WARP_YESNO_YES","はい"
+61,"TEXT_HEAVNA104_01583_SCENE00005_EVENTAREA_WARP_YESNO_NO","いいえ"
+62,"TEXT_HEAVNA104_01583_ARTOIREL_000_014","ここのチョコボ厩務員に声をかければ、
+「ファルコンネスト」までの足を用意してくれるはずだ。
+向こうで、また会おう。"
+63,"TEXT_HEAVNA104_01583_ARTOIREL_000_020","無事に着いたようだな。
+ここと皇都を行き来する際は、黒チョコボを利用するといい。"
+64,"TEXT_HEAVNA104_01583_ARTOIREL_000_021","ともあれ、ここは冷える……。
+ひとまず「ファルコンネスト」を指揮する、
+「レッドワルド」卿のところに行こうじゃないか。"
+65,"TEXT_HEAVNA104_01583_REDWALD_000_030","ご無沙汰しております、アルトアレール卿。
+応援に来ていただけると聞き、お待ちしておりましたよ。
+……おや、そちらの御仁は？"
+66,"TEXT_HEAVNA104_01583_ARTOIREL_000_031","よろしく頼む、レッドワルド卿。
+こちらは、我が家の客人、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>殿……。
+今回の応援要請に対し、力添えをしてくれることになった。"
+67,"TEXT_HEAVNA104_01583_REDWALD_000_032","おぉ、そうであったか！
+私の名は「レッドワルド」、デュランデル家に仕える騎士だ。
+貴公の活躍は、我が友、ドリユモン卿からも聞いているぞ！"
+68,"TEXT_HEAVNA104_01583_ARTOIREL_000_033","我らふたりで、こちらの任務に助力させていただく。
+何をなすべきか、担当を指示していただけるか？"
+69,"TEXT_HEAVNA104_01583_REDWALD_000_034","うむ、冒険者殿もいることだ。
+少し背景事情も含めて説明させてもらおう。"
+70,"TEXT_HEAVNA104_01583_REDWALD_000_035","……「第七霊災」以前、ここファルコンネストは、
+哨兵の一隊が駐留するだけの寒村に過ぎなかった。"
+71,"TEXT_HEAVNA104_01583_REDWALD_000_036","だが、霊災を境に巻き起こった大寒波により、
+雪と氷に閉ざされ、住民たちは皇都へ避難を余儀なくされた。
+かくして西部高地は放棄されたのだが、その結果どうなったか。"
+72,"TEXT_HEAVNA104_01583_ARTOIREL_000_037","クルザス西部高地全体が、
+「氷の巫女」率いる、異端者たちの根城と化した……。"
+73,"TEXT_HEAVNA104_01583_REDWALD_000_038","そのとおりだ。
+教皇庁が西部高地の奪還を決定したのも、
+活発化の一途を辿る異端者勢力への対処を進めるため……。"
+74,"TEXT_HEAVNA104_01583_REDWALD_000_039","ファルコンネストの再建は、その足掛かりだ。
+だが、そうはいっても5年もの間、放棄されていたからな。
+再拠点化には、大変な手間が掛かっている。"
+75,"TEXT_HEAVNA104_01583_REDWALD_000_040","応援として来てもらった貴殿らには、
+「各施設の再建作業」と「異端者勢力の捜索」……。
+この二点について、協力してもらいたいのだ。"
+76,"TEXT_HEAVNA104_01583_ARTOIREL_000_041","任されよう、レッドワルド卿。
+フォルタン家の名にかけ、必ずや務めを果たす覚悟だ。
+何なりと指示してくれ。"

@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBSEA161_01147_SEQ_00","Commander Falkbryda has a task for you, it seems. It is gratifying to know that at least one person in the encampment welcomes your presence."
-1,"TEXT_SUBSEA161_01147_SEQ_01","A bird in hand may be worth two in the bush, but the surfeit of nesting dodos draws predators to the camp. You are bid to remove the nest and smite any dodos that object."
-2,"TEXT_SUBSEA161_01147_SEQ_02","The nest is now but a memory. Deliver word of your success to Falkbryda. "
-3,"TEXT_SUBSEA161_01147_SEQ_03","Falkbryda commends you on your speed, and proceeds to thank you with a tale of her encampment. Something tells you that there is still work to be done here."
+0,"TEXT_SUBSEA161_01147_SEQ_00","キャンプ・スカルバレーのファルクブリダ中甲佐は、冒険者に簡単な雑務を頼みたいようだ。"
+1,"TEXT_SUBSEA161_01147_SEQ_01","キャンプ・スカルバレーにドードーが巣をつくり迷惑しているという。「<Sheet(EObj,2002532,0)/>」を撤去し、邪魔をする「<Sheet(BNpcName,393,0)/>」を退治しよう。"
+2,"TEXT_SUBSEA161_01147_SEQ_02","<Sheet(BNpcName,393,0)/>を退治し、<Sheet(EObj,2002532,0)/>を撤去した。キャンプ・スカルバレーの「ファルクブリダ中甲佐」に報告しよう。"
+3,"TEXT_SUBSEA161_01147_SEQ_03","ファルクブリダ中甲佐は、冒険者の迅速な仕事に満足しているようだ。"
 4,"TEXT_SUBSEA161_01147_SEQ_04",""
 5,"TEXT_SUBSEA161_01147_SEQ_05",""
 6,"TEXT_SUBSEA161_01147_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_SUBSEA161_01147_SEQ_21",""
 22,"TEXT_SUBSEA161_01147_SEQ_22",""
 23,"TEXT_SUBSEA161_01147_SEQ_23",""
-24,"TEXT_SUBSEA161_01147_TODO_00","Remove the dodo's nest and dispatch dodos."
-25,"TEXT_SUBSEA161_01147_TODO_01","Report to Falkbryda."
+24,"TEXT_SUBSEA161_01147_TODO_00","<Sheet(EObj,2002532,0)/>を撤去し<Sheet(BNpcName,393,0)/>を討伐"
+25,"TEXT_SUBSEA161_01147_TODO_01","ファルクブリダに報告"
 26,"TEXT_SUBSEA161_01147_TODO_02",""
 27,"TEXT_SUBSEA161_01147_TODO_03",""
 28,"TEXT_SUBSEA161_01147_TODO_04",""
@@ -49,12 +49,22 @@ int32,str,str
 45,"TEXT_SUBSEA161_01147_TODO_21",""
 46,"TEXT_SUBSEA161_01147_TODO_22",""
 47,"TEXT_SUBSEA161_01147_TODO_23",""
-48,"TEXT_SUBSEA161_01147_FALKBRYDA_000_000","Tarry a while, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. 'Twill not be said that an adventurer came to Camp Skull Valley and left without honest pay for honest work."
-49,"TEXT_SUBSEA161_01147_FALKBRYDA_000_001","We have a problem that other encampments may well find enviable. The dodos are so plentiful that they even nest within the barracks. The nest must be removed forthwith, before it draws beasts dangerous to men as well as birds."
-50,"TEXT_SUBSEA161_01147_DUMMYTODO_000_010",""
-51,"TEXT_SUBSEA161_01147_DUMMY_000_010",""
-52,"TEXT_SUBSEA161_01147_FALKBRYDA_000_020","Swiftly done! They do say that where a soldier dallies, an adventurer hurries."
-53,"TEXT_SUBSEA161_01147_FALKBRYDA_000_021","Peaceful as it may seem now, this encampment was built to ward against the kobolds of O'Ghomoro, to the north. We do not forget our purpose─you only need to look to our name."
-54,"TEXT_SUBSEA161_01147_FALKBRYDA_000_022","The valley floor was once lined with the skulls of kobolds we slew, so that no invader might reach its southern mouth and the settlements beyond without treading on death with every step."
-55,"TEXT_SUBSEA161_01147_FALKBRYDA_000_023","Nowadays, it seems we are in danger of treading on dodo eggs at every turn─or on the adders that feast on them. The dodos brought by settlers now run feral, and keep us in meat, eggs, and headaches."
-56,"TEXT_SUBSEA161_01147_POP_MESSAGE_000","You sense an angry parental presence!"
+48,"TEXT_SUBSEA161_01147_FALKBRYDA_000_000","せっかく、このキャンプ・スカルバレーまで来たんだ。
+仕事のひとつでも任せるとしよう。"
+49,"TEXT_SUBSEA161_01147_FALKBRYDA_000_001","最近、この周辺に住み着いた「<Sheet(BNpcName,393,0)/>」が、
+巣を作って困っているのだ。
+「<Sheet(EObj,2002532,0)/>」を速やかに撤去してもらいたい。"
+50,"TEXT_SUBSEA161_01147_DUMMYTODO_000_010","<Sheet(EObj,2002532,0)/>にアクセスし、ポップした<Sheet(BNpcName,393,0)/>2体を倒す。"
+51,"TEXT_SUBSEA161_01147_DUMMY_000_010","（★未使用／削除予定★）"
+52,"TEXT_SUBSEA161_01147_FALKBRYDA_000_020","……もう終わったのか。
+やはり冒険者は、仕事の迅速さが一番だな。"
+53,"TEXT_SUBSEA161_01147_FALKBRYDA_000_021","このキャンプ・スカルバレーは、
+もともとは、北方のオ・ゴモロ山に棲む蛮族……
+コボルド族の動きを警戒するために作られた拠点なのだ。"
+54,"TEXT_SUBSEA161_01147_FALKBRYDA_000_022","その名は、南下するコボルド族に警告するため、
+討ち取ったコボルド族の頭骨を
+谷間に並べていたことに由来する。"
+55,"TEXT_SUBSEA161_01147_FALKBRYDA_000_023","そうまでして、この地を守ったのは入植者のためさ。
+だが、今や彼らが飼っていたドードーが野生化し、
+この始末なんだよ……卵は美味いがな。"
+56,"TEXT_SUBSEA161_01147_POP_MESSAGE_000","敵の気配を感じた！！"

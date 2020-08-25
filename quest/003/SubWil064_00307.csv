@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBWIL064_00307_SEQ_00","Warin has work for an adventurer willing to exterminate the coblyns attacking ore wagons."
-1,"TEXT_SUBWIL064_00307_SEQ_01","A swarm of coblyns has taken to attacking ore wagons inside a tunnel south of Black Brush Station. Warin has given you a silver ore cluster, which you must use to lure out the creatures and slay them."
-2,"TEXT_SUBWIL064_00307_SEQ_02","You have purged the tunnel of coblyn presence, thus ensuring the security of future shipments. Return to Black Brush Station and inform Warin of your success."
-3,"TEXT_SUBWIL064_00307_SEQ_03","Thanks to your martial prowess, the ore will continue to flow and feed Ul'dah's insatiable hunger for ore."
+0,"TEXT_SUBWIL064_00307_SEQ_00","ブラックブラッシュ停留所のウォーリンは、トンネル内の資材置き場に潜むシルバーコブランたちを殲滅してほしいようだ。"
+1,"TEXT_SUBWIL064_00307_SEQ_01","シルバーコブランが、ナナワ銀山からやってくる列車のトンネルに侵入したらしい。列車の安全を守るため、トンネル内にある「岩盤の裂け目」に「大ぶりの銀鉱」を利用し、トンネル内に潜んでいる「シルバーコブラン」をおびき寄せ、殲滅しよう。"
+2,"TEXT_SUBWIL064_00307_SEQ_02","トンネル内のシルバーコブランを全て討伐することができた。ブラックブラッシュ停留所の「ウォーリン」に報告しよう。"
+3,"TEXT_SUBWIL064_00307_SEQ_03","トンネル内のシルバーコブランを退治したことによって、鉱石を運ぶ列車の安全は確保された。これでしばらくの間、安心して列車を動かすことができるだろう。"
 4,"TEXT_SUBWIL064_00307_SEQ_04",""
 5,"TEXT_SUBWIL064_00307_SEQ_05",""
 6,"TEXT_SUBWIL064_00307_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_SUBWIL064_00307_SEQ_21",""
 22,"TEXT_SUBWIL064_00307_SEQ_22",""
 23,"TEXT_SUBWIL064_00307_SEQ_23",""
-24,"TEXT_SUBWIL064_00307_TODO_00","Lure out and slay coblyns."
-25,"TEXT_SUBWIL064_00307_TODO_01","Report to Warin."
+24,"TEXT_SUBWIL064_00307_TODO_00","岩盤の裂け目に大ぶりの銀鉱を仕掛ける"
+25,"TEXT_SUBWIL064_00307_TODO_01","ウォーリンに報告"
 26,"TEXT_SUBWIL064_00307_TODO_02",""
 27,"TEXT_SUBWIL064_00307_TODO_03",""
 28,"TEXT_SUBWIL064_00307_TODO_04",""
@@ -49,12 +49,21 @@ int32,str,str
 45,"TEXT_SUBWIL064_00307_TODO_21",""
 46,"TEXT_SUBWIL064_00307_TODO_22",""
 47,"TEXT_SUBWIL064_00307_TODO_23",""
-48,"TEXT_SUBWIL064_00307_WARIN_000_1","Let's get to it then, shall we?"
-49,"TEXT_SUBWIL064_00307_WARIN_000_2","Ore wagons pass through this station every day─but not without incident."
-50,"TEXT_SUBWIL064_00307_WARIN_000_3","Wagons coming and going from the Dispatch Yard to the south must pass through a tunnel by Fesca's Watch─a tunnel in which some <Emphasis>genius</Emphasis> saw fit to put an ore storehouse, creating ideal conditions for a coblyn nest!"
-51,"TEXT_SUBWIL064_00307_WARIN_000_4","So now the ore-loving beasts have taken up residence in a tunnel <Emphasis>we</Emphasis> dug, and we're practically delivering meals to their doorstep!"
-52,"TEXT_SUBWIL064_00307_WARIN_000_5","But no more. Inside the tunnel in question, you will find a narrow fissure where the coblyns hide. Use this silver ore cluster to lure out the creatures, then slay them."
-53,"TEXT_SUBWIL064_00307_WARIN_000_10","Well done! It shan't be easy work to keep the tunnel free of coblyns, but our wagons should be able to go unmolested for a time."
-54,"TEXT_SUBWIL064_00307_WARIN_000_11","Disruptions to ore shipments threaten not only the interests of Amajina & Sons Mineral Concern, but of Ul'dah herself. One might liken these train tracks to veins that bear our nation's lifeblood."
-55,"TEXT_SUBWIL064_00307_WARIN_000_12","If only we had more <If(PlayerParameter(4))>women<Else/>men</If> like you to lend a hand."
-56,"TEXT_SUBWIL064_00307_POP_MESSAGE","A soft skittering sound begins to echo in the tunnel..."
+48,"TEXT_SUBWIL064_00307_WARIN_000_1","準備も万端だ、早速仕事を頼もうじゃねーか！"
+49,"TEXT_SUBWIL064_00307_WARIN_000_2","ここは鉱石を積んだ列車が行き来してんだがな、
+ま、道中安全……ってわけにいかねーわけさ。"
+50,"TEXT_SUBWIL064_00307_WARIN_000_3","列車が「ヘルズブレード洞穴」を通過する時に、
+「シルバーコブラン」たちが荷台に飛び込んできて、
+大切な鉱石を喰っちまうんだ……。"
+51,"TEXT_SUBWIL064_00307_WARIN_000_4","そこでだ、トンネルに隠れたシルバーコブランを誘い出す、
+シルバーコブラン好みの「大ぶりの銀鉱」を用意したぜ！"
+52,"TEXT_SUBWIL064_00307_WARIN_000_5","これをトンネル内の「岩盤の裂け目」に仕掛け、
+誘い出されたシルバーコブラン共を殲滅してきてくれ！"
+53,"TEXT_SUBWIL064_00307_WARIN_000_10","ほほーう、シルバーコブランを殲滅できたようじゃねーか。
+これでしばらくは、安心して列車を運行できそうだ！"
+54,"TEXT_SUBWIL064_00307_WARIN_000_11","鉱山と都市の物流をつなぐここの列車は、
+アマジナ鉱山社が運営する重要な存在だからな、
+一帯の経済を担っていると言っても過言じゃねーぜ。"
+55,"TEXT_SUBWIL064_00307_WARIN_000_12","まぁ、その重要な列車様を守るために、
+俺らの人手が足りなくなっているわけだけどな……。"
+56,"TEXT_SUBWIL064_00307_POP_MESSAGE","敵の気配を感じた！！"

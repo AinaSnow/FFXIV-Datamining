@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ721_02824_SEQ_00","M'rahz Nunh is in need of a skilled warrior."
-1,"TEXT_STMBDZ721_02824_SEQ_01","An unruly young Seeker of the Sun has been challenging M'rahz Nunh to combat without cease, each attempt more futile than the last. While most would find these duels to be an annoyance, M'rahz Nunh sees this persistence as admirable. That is why he asks you to train this would-be warrior. He says your new student can be found idling about Virdjala."
-2,"TEXT_STMBDZ721_02824_SEQ_02","The young Miqo'te scoffs at the idea of you instructing him, and a fight between the two of you quickly ensues. When you defeat him with a single blow, however, he concedes to your offer, introducing himself as M'zhet. Before you begin training him, he wishes to observe your fighting form, suggesting you pit yourself against a gazelle. To that end, he sets off in search of your prey."
-3,"TEXT_STMBDZ721_02824_SEQ_03","You find a gazelle and promptly defeat it with a display of skill befitting your reputation. M'zhet has no doubt been enlightened after watching you fight."
-4,"TEXT_STMBDZ721_02824_SEQ_04","Bearing witness to your battle against the gazelle has left M'zhet duly inspired. So much so, he is confident he can defeat M'rahz Nunh at this very moment. But first, he would ponder his plan of attack."
+0,"TEXT_STMBDZ721_02824_SEQ_00","ピーリングストーンズのメ・ラツ・ヌンは、冒険者に頼みたいことがあるようだ。"
+1,"TEXT_STMBDZ721_02824_SEQ_01","メ・ラツ・ヌンから、素性の知れないサンシーカー族の若者に修行をつけるよう頼まれた。ギラバニア辺境地帯のヴィルジャラの涸れ谷の南部で、「サンシーカー族の若者」を探そう。"
+2,"TEXT_STMBDZ721_02824_SEQ_02","サンシーカー族の若者は、メ・ゼト・ティアと名乗った。メ・ラツ・ヌンから「ヌン」の座を奪おうとする彼のために、修行をつけることになった。まずは冒険者の強さを見せるため、ピーリングストーンズ付近の「<Sheet(EObj,2008763,0)/>」で見渡し、現れた「<Sheet(BNpcName,5907,0)/>」を討伐しよう。"
+3,"TEXT_STMBDZ721_02824_SEQ_03","<Sheet(BNpcName,5907,0)/>を討伐した。「メ・ゼト・ティア」と話そう。"
+4,"TEXT_STMBDZ721_02824_SEQ_04","メ・ゼト・ティアは、冒険者の戦いを見て、なぜか自信をつけたようだ。心の準備が整い次第、メ・ラツ・ヌンに再戦を挑むという。"
 5,"TEXT_STMBDZ721_02824_SEQ_05",""
 6,"TEXT_STMBDZ721_02824_SEQ_06",""
 7,"TEXT_STMBDZ721_02824_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_STMBDZ721_02824_SEQ_21",""
 22,"TEXT_STMBDZ721_02824_SEQ_22",""
 23,"TEXT_STMBDZ721_02824_SEQ_23",""
-24,"TEXT_STMBDZ721_02824_TODO_00","Speak with the swaggering Seeker of the Sun."
-25,"TEXT_STMBDZ721_02824_TODO_01","Survey the specified location and defeat the gazelle. "
-26,"TEXT_STMBDZ721_02824_TODO_02","Speak with M'zhet Tia."
+24,"TEXT_STMBDZ721_02824_TODO_00","サンシーカー族の若者を探す"
+25,"TEXT_STMBDZ721_02824_TODO_01","<Sheet(EObj,2008763,0)/>で見渡して<Sheet(BNpcName,5907,0)/>を討伐"
+26,"TEXT_STMBDZ721_02824_TODO_02","メ・ゼト・ティアと話す"
 27,"TEXT_STMBDZ721_02824_TODO_03",""
 28,"TEXT_STMBDZ721_02824_TODO_04",""
 29,"TEXT_STMBDZ721_02824_TODO_05",""
@@ -49,28 +49,57 @@ int32,str,str
 45,"TEXT_STMBDZ721_02824_TODO_21",""
 46,"TEXT_STMBDZ721_02824_TODO_22",""
 47,"TEXT_STMBDZ721_02824_TODO_23",""
-48,"TEXT_STMBDZ721_02824_MRAHZNUN_000_001","Ah, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Might I trouble you for a moment of your time?"
-49,"TEXT_STMBDZ721_02824_MRAHZNUN_000_002","In recent days, a young Seeker of the Sun has seen fit to issue me several challenges to combat."
-50,"TEXT_STMBDZ721_02824_MRAHZNUN_000_003","I can only assume he means to assume the role of nunh and leader of our people. Tradition dictates the strongest among us must take the position, so I gladly face any who believe they are fit to lead."
-51,"TEXT_STMBDZ721_02824_MRAHZNUN_000_004","The problem, however, is this challenger is decidedly weak. Yet no matter how many times I put him down, he refuses to concede."
-52,"TEXT_STMBDZ721_02824_MRAHZNUN_000_005","His invitations to duel were a mild annoyance at first, but I've come to find his single-minded determination to be intriguing. In fact, I was hoping you would consider training him."
-53,"TEXT_STMBDZ721_02824_MRAHZNUN_000_006","I realize how absurd it sounds to help my rival-to-be, but I am curious of his potential. If you would take him under your wing, he's likely loitering about Virdjala. Safe travels."
-54,"TEXT_STMBDZ721_02824_MZHETTIA_000_010","(-Swaggering Seeker of the Sun-)You! You're that adventurer that's been sauntering about the village. What do you want?"
-55,"TEXT_STMBDZ721_02824_MZHETTIA_000_011","(-Swaggering Seeker of the Sun-)M'rahz asked you to train me? Hmph! I don't need his pity, and I certainly don't need you!"
-56,"TEXT_STMBDZ721_02824_MZHETTIA_000_012","(-Swaggering Seeker of the Sun-)And I'll prove it! After I beat you bloody, I'll defeat M'rahz and take my rightful place as nunh!"
-57,"TEXT_STMBDZ721_02824_MZHETTIA_000_013","(-Swaggering Seeker of the Sun-)Damn it all! Why? Why am I so weak!?"
-58,"TEXT_STMBDZ721_02824_MZHETTIA_000_014","(-Swaggering Seeker of the Sun-)...Alright, fine!"
-59,"TEXT_STMBDZ721_02824_MZHETTIA_000_015","(-Swaggering Seeker of the Sun-)If you mean to train me, then...then get on with it! That's what you came here for, isn't it?"
-60,"TEXT_STMBDZ721_02824_MZHETTIA_000_016","(-Swaggering Seeker of the Sun-)Good. After a few lessons from you, M'rahz'll wish he never sent you to me."
-61,"TEXT_STMBDZ721_02824_MZHETTIA_000_017","(-Swaggering Seeker of the Sun-)I refuse to end up like my father. I <Emphasis>will</Emphasis> become stronger, even if it means accepting help from my enemy."
-62,"TEXT_STMBDZ721_02824_MZHETTIA_100_017","(-M'zhet Tia-)...Where were we? Ah, I should probably introduce myself. You can call me M'zhet."
-63,"TEXT_STMBDZ721_02824_MZHETTIA_000_018","(-M'zhet Tia-)Now, how about you show me what you can do?"
-64,"TEXT_STMBDZ721_02824_MZHETTIA_000_019","(-M'zhet Tia-)H-Hold on a minute! I didn't mean I want to fight again! I want to observe, preferably from a safe distance."
-65,"TEXT_STMBDZ721_02824_MZHETTIA_000_020","(-M'zhet Tia-)Hmmm... A gazelle would make for a good fight, and they graze near by."
-66,"TEXT_STMBDZ721_02824_MZHETTIA_000_021","(-M'zhet Tia-)Let's be off."
-67,"TEXT_STMBDZ721_02824_MRAHZNUN_000_025","There was a time when I was the weakest of the males in the M tribe. It wasn't easy, but through rigorous training, I eventually grew to become the man you see before you."
-68,"TEXT_STMBDZ721_02824_MRAHZNUN_000_030","I see much of myself in that young Miqo'te. Our tribe could stand to have more like him."
-69,"TEXT_STMBDZ721_02824_POPMESSAGE_100_040","deleted"
-70,"TEXT_STMBDZ721_02824_MZHETTIA_000_040","They should be close by. Do you see anything?"
-71,"TEXT_STMBDZ721_02824_MZHETTIA_000_050","Well, now I can see why my beating earlier was so swift. I feel stronger just for having watched you fight."
-72,"TEXT_STMBDZ721_02824_MZHETTIA_000_051","Maybe I can put some of those moves to use against M'rahz. I need a moment to think."
+48,"TEXT_STMBDZ721_02824_MRAHZNUN_000_001","……時に、冒険者の客人よ。
+多忙の身とは思うが、私の頼みを聞いてはもらえんだろうか。"
+49,"TEXT_STMBDZ721_02824_MRAHZNUN_000_002","近頃、素性の知れないサンシーカー族の若者から、
+幾度も決闘を申し込まれていてな。"
+50,"TEXT_STMBDZ721_02824_MRAHZNUN_000_003","どうやら、私の「ヌン」の座……
+つまりメ族を仕切る族長の立場を狙う者のようだ。
+強い者が「ヌン」となるのが伝統ゆえ、その点は問題ない。"
+51,"TEXT_STMBDZ721_02824_MRAHZNUN_000_004","ところが、これがまた話にならないぐらい弱くてな。
+何度も何度も、叩きのめして追い返しているのだ。
+最初の頃は、面倒なヤツだと思っていたが……"
+52,"TEXT_STMBDZ721_02824_MRAHZNUN_000_005","そのうちに、決して諦めず立ち向かってくる、
+あの若者の気概を気に入ってしまってな。
+お前さえよければ、修行をつけてやってはもらえないだろうか。"
+53,"TEXT_STMBDZ721_02824_MRAHZNUN_000_006","敵を助けるなど馬鹿げたことだが、まぁ、酔狂だと思ってくれ。
+奴の根城は、ヴィルジャラの涸れ谷の南部にあるようだ。
+手間をかけるが、よろしく頼む。"
+54,"TEXT_STMBDZ721_02824_MZHETTIA_000_010","貴様、最近メ族の集落に出入りしている冒険者だな。
+オレに何の用だ。"
+55,"TEXT_STMBDZ721_02824_MZHETTIA_000_011","メ族の「ヌン」に頼まれて、このオレに修行をつけに来ただと？
+……ククク、敵に塩を送るなど、見くびられたものだな！"
+56,"TEXT_STMBDZ721_02824_MZHETTIA_000_012","面白いッ！
+ならば、貴様の力を見せてもらおうか！"
+57,"TEXT_STMBDZ721_02824_MZHETTIA_000_013","(-サンシーカー族の若者-)ぐ、ぐぞぉぉぉぉ……こんなはずじゃ……
+どうして、どうしてオレはこんなにも弱いんだぁぁぁぁ！！"
+58,"TEXT_STMBDZ721_02824_MZHETTIA_000_014","……お、おい、お前！！"
+59,"TEXT_STMBDZ721_02824_MZHETTIA_000_015","あ……いや……し、師匠！
+今日からあなたを師と仰がせてください！
+だって、そのために来たんですよね！？"
+60,"TEXT_STMBDZ721_02824_MZHETTIA_000_016","や、やったー！　ククク、見てろよメ族の「ヌン」め！
+師匠の武を学び、必ずやその座を奪ってやる！"
+61,"TEXT_STMBDZ721_02824_MZHETTIA_000_017","……そう、オレは親父のような弱い男では終わらない……。
+絶対に、強くなるんだ……。
+そのためには、敵の差し金だろうと利用する……。"
+62,"TEXT_STMBDZ721_02824_MZHETTIA_100_017","……そういえば、まだ名乗っていませんでしたね。
+オレ、メ・ゼトっていいます。
+これからよろしくっす、師匠！"
+63,"TEXT_STMBDZ721_02824_MZHETTIA_000_018","(-メ・ゼト・ティア-)それじゃ早速、師匠の戦い方をオレに見せてもらえますか？
+さっきは一瞬で倒されて、よく見えなかったので……。"
+64,"TEXT_STMBDZ721_02824_MZHETTIA_000_019","(-メ・ゼト・ティア-)ちょ、ちょっと待ってください！
+戦う相手は、オレじゃないです！"
+65,"TEXT_STMBDZ721_02824_MZHETTIA_000_020","(-メ・ゼト・ティア-)ピーリングストーンズ周辺に、大物のガゼルがいるので、
+そいつにしましょう！"
+66,"TEXT_STMBDZ721_02824_MZHETTIA_000_021","(-メ・ゼト・ティア-)それじゃ、出発しますよー！"
+67,"TEXT_STMBDZ721_02824_MRAHZNUN_000_025","かつて私も、一族でもっとも弱い男と呼ばれていた時がある。
+だが、厳しい修行を越えて、「ヌン」の座まで上り詰めたのだ。"
+68,"TEXT_STMBDZ721_02824_MRAHZNUN_000_030","あの若者のひたむきさは、私に懐古の情を起こさせる……
+彼のような男が増えればいいのだがな。"
+69,"TEXT_STMBDZ721_02824_POPMESSAGE_100_040","（★未使用／削除予定★）"
+70,"TEXT_STMBDZ721_02824_MZHETTIA_000_040","例のガゼルは、この辺りを餌場にしてるようです。
+周りを「見渡して」、姿を探してみましょう！"
+71,"TEXT_STMBDZ721_02824_MZHETTIA_000_050","さすがは師匠！　見事な戦いぶりでした！
+オレも、見ているだけで何だか強くなった気がします！"
+72,"TEXT_STMBDZ721_02824_MZHETTIA_000_051","もしかして、今ならメ族の「ヌン」にも勝てるかもしれない……？
+いやでも待てよ、まだ心の準備が……。"

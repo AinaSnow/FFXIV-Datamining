@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDA135_02465_SEQ_00","Rhalgr's Reach is no longer safe, as Pipin well knows."
+0,"TEXT_STMBDA135_02465_SEQ_00","ラールガーズリーチのピピンは、沈んだ様子だ。"
 1,"TEXT_STMBDA135_02465_SEQ_01",""
 2,"TEXT_STMBDA135_02465_SEQ_02",""
 3,"TEXT_STMBDA135_02465_SEQ_03",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_STMBDA135_02465_SEQ_21",""
 22,"TEXT_STMBDA135_02465_SEQ_22",""
 23,"TEXT_STMBDA135_02465_SEQ_23",""
-24,"TEXT_STMBDA135_02465_TODO_00","Speak with Orella."
-25,"TEXT_STMBDA135_02465_TODO_01","Search the infirmary for medical supplies."
-26,"TEXT_STMBDA135_02465_TODO_02","Give the medical supplies to the Flame courier."
+24,"TEXT_STMBDA135_02465_TODO_00","オレラと話す"
+25,"TEXT_STMBDA135_02465_TODO_01","<Sheet(EObj,2008158,0)/>を入手"
+26,"TEXT_STMBDA135_02465_TODO_02","不滅隊の輸送兵に<Sheet(EventItem,2002110,0)/>を渡す"
 27,"TEXT_STMBDA135_02465_TODO_03",""
 28,"TEXT_STMBDA135_02465_TODO_04",""
 29,"TEXT_STMBDA135_02465_TODO_05",""
@@ -49,37 +49,64 @@ int32,str,str
 45,"TEXT_STMBDA135_02465_TODO_21",""
 46,"TEXT_STMBDA135_02465_TODO_22",""
 47,"TEXT_STMBDA135_02465_TODO_23",""
-48,"TEXT_STMBDA135_02465_ALISAIE_000_001",""
-49,"TEXT_STMBDA135_02465_ALPHINAUD_000_005",""
-50,"TEXT_STMBDA135_02465_CONRAD_000_010","I'll recover. My injuries aren't serious─though that was clearly by choice and not happenstance. They meant to take me alive."
-51,"TEXT_STMBDA135_02465_KRILE_000_015","You're worried about Y'shtola, aren't you? <sigh> It's too early to make any kind of prognosis, but...she's alive. For now."
-52,"TEXT_STMBDA135_02465_LYSE_000_020","If it wasn't for her, it'd be me lying there...
-<Emphasis>...I wish it was.</Emphasis>"
-53,"TEXT_STMBDA135_02465_YSHTOLA_000_025","..."
-54,"TEXT_STMBDA135_02465_PIPIN_000_030","Our defeat was no near thing. It was total─a humiliation. We were powerless to withstand our enemy's assault."
-55,"TEXT_STMBDA135_02465_PIPIN_000_031","But we cannot afford to dwell on our failure. As Alphinaud said, it is those who survived whom we must think of now."
-56,"TEXT_STMBDA135_02465_PIPIN_000_032","Rhalgr's Reach is no longer safe. The imperials may have withdrawn, but they could return at any time to finish what they began. We dare not remain here."
-57,"TEXT_STMBDA135_02465_PIPIN_000_033","Those who are not fit to make the journey to Castrum Oriens will need to be taken by chocobo carriage. Agreed?"
-58,"TEXT_STMBDA135_02465_PIPIN_000_034","Good. I shall oversee preparations for the carriages. In the meantime, I would have you scour the infirmary for any supplies that might prove useful during the journey."
-59,"TEXT_STMBDA135_02465_ORELLA_100_040","Forgive me, but it is imperative that I continue preparing medicines for the wounded. If you desire treatment, I must ask that you seek it elsewhere."
-60,"TEXT_STMBDA135_02465_ORELLA_100_041","Oh, I see... In that case, you are free to search the Barber and take that which you require. I would not have our people dying en route."
-61,"TEXT_STMBDA135_02465_ORELLA_100_042","I would assist you, but this process demands my undivided attention."
-62,"TEXT_STMBDA135_02465_ORELLA_200_042","Take whatever you require for your needs. I will replenish the stock after."
-63,"TEXT_STMBDA135_02465_PIPIN_000_040",""
-64,"TEXT_STMBDA135_02465_ALISAIE_000_045","We're to move the wounded to Castrum Oriens? Understood. I'll go and see if anyone requires assistance."
-65,"TEXT_STMBDA135_02465_ALPHINAUD_000_050","I will accompany Commander Kemp in one of the carriages."
-66,"TEXT_STMBDA135_02465_CONRAD_000_055","No, no, I'd hate to be a burden..."
-67,"TEXT_STMBDA135_02465_KRILE_000_060","We'll need to carry Y'shtola to the carriage. Could you give me a hand, Lyse?"
-68,"TEXT_STMBDA135_02465_LYSE_000_065","As if you need to ask!"
-69,"TEXT_STMBDA135_02465_FLAMECOURIER_000_070","<If(GreaterThan(PlayerParameter(54),0))><If(LessThan(PlayerParameter(54),127))><Clickable(<If(GreaterThan(PlayerParameter(52),0))><Sheet(GCRankLimsaMaleText,PlayerParameter(52),8)/><Else/></If><If(GreaterThan(PlayerParameter(53),0))><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),8)/><Else/></If><If(GreaterThan(PlayerParameter(54),0))><Sheet(GCRankUldahMaleText,PlayerParameter(54),8)/><Else/></If>)/> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/><Else/><If(PlayerParameter(4))>Miss<Else/>Sir</If></If><Else/><If(PlayerParameter(4))>Miss<Else/>Sir</If></If>. Marshal Tarupin said you might have something for me?"
-70,"TEXT_STMBDA135_02465_FLAMECOURIER_000_071","Twelve be praised. This should put the drivers' hearts at ease. Tell the vice marshal we await his orders."
-71,"TEXT_STMBDA135_02465_FLAMECOURIER_000_075",""
-72,"TEXT_STMBDA135_02465_PIPIN_000_080",""
-73,"TEXT_STMBDA135_02465_PIPIN_000_081",""
-74,"TEXT_STMBDA135_02465_KRILE_000_082","Y'shtola and the others are safely strapped in. Don't worry─I'll be by her side the entire time."
-75,"TEXT_STMBDA135_02465_ALPHINAUD_000_083","Thank you, Krile."
-76,"TEXT_STMBDA135_02465_LYSE_000_084","I'll walk alongside. They'll need protection in case the Garleans try anything."
-77,"TEXT_STMBDA135_02465_LYSE_000_085","Hang on. You're injured too, aren't you? Shouldn't you be in one of the carriages?"
-78,"TEXT_STMBDA135_02465_CONRAD_000_086","I'm not so frail that I can't make the trip on my own. Besides, there's still work to be done here. I'll see you at the Wall when it's finished."
-79,"TEXT_STMBDA135_02465_PIPIN_000_087","As you wish. Then let us set forth at once. We shall move as quickly as our comrades' health allows."
-80,"TEXT_STMBDA135_02465_PIPIN_000_088","To Castrum Oriens!"
+48,"TEXT_STMBDA135_02465_ALISAIE_000_001","（★未使用／削除予定★）"
+49,"TEXT_STMBDA135_02465_ALPHINAUD_000_005","（★未使用／削除予定★）"
+50,"TEXT_STMBDA135_02465_CONRAD_000_010","ワシの方は、お若いのの治癒魔法のおかげで、大丈夫じゃよ。
+敵は、ワシを指導者と見抜いて、殺すのではなく、
+生きて捕らえようとしたらしいのう……。"
+51,"TEXT_STMBDA135_02465_KRILE_000_015","ヤ・シュトラのこと、やっぱり心配よね？
+まだまだ油断はできないけれど、今のところは安定してるわ。"
+52,"TEXT_STMBDA135_02465_LYSE_000_020","アタシを守って、ヤ・シュトラは……。"
+53,"TEXT_STMBDA135_02465_YSHTOLA_000_025","…………。"
+54,"TEXT_STMBDA135_02465_PIPIN_000_030","先ほどの戦いでは、無様なところを見せてしまったな。
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>殿を援護するどころか、
+敵の注意を引き付けることさえできなかった……。"
+55,"TEXT_STMBDA135_02465_PIPIN_000_031","だが、アルフィノ殿の言葉ではないが、
+今は後悔するよりも、生き残った者たちを救うことが先決だ。"
+56,"TEXT_STMBDA135_02465_PIPIN_000_032","帝国軍は撤退してくれたが、襲撃があった以上、
+もはや「ラールガーズリーチ」は安全とは言えない。"
+57,"TEXT_STMBDA135_02465_PIPIN_000_033","せめて重傷者だけでも、チョコボ・キャリッジを使って、
+同盟軍の本陣、カストルム・オリエンスに移送させるべきだろう。
+すまないが、手伝ってくれるか？"
+58,"TEXT_STMBDA135_02465_PIPIN_000_034","それでは、私は出発の準備を急がせてくる。
+その間、治療師の「オレラ」女史から錬金薬をもらい、
+「不滅隊の輸送兵」に渡してくれ……移送中の容態急変に備えてな。"
+59,"TEXT_STMBDA135_02465_ORELLA_100_040","重傷者用の錬金薬を調合しないと……。
+……あら、あなたも怪我を？"
+60,"TEXT_STMBDA135_02465_ORELLA_100_041","負傷者の搬送に備えて錬金薬を……。
+わかりました、保管場所を教えますので、
+病院内にある「<Sheet(EventItem,2002110,0)/>」を持っていってください。"
+61,"TEXT_STMBDA135_02465_ORELLA_100_042","薬の調合で忙しく、手が放せないのです。
+よろしくお願いしますね。"
+62,"TEXT_STMBDA135_02465_ORELLA_200_042","病院内にある「<Sheet(EventItem,2002110,0)/>」を持っていってください。"
+63,"TEXT_STMBDA135_02465_PIPIN_000_040","（★未使用／削除予定★）"
+64,"TEXT_STMBDA135_02465_ALISAIE_000_045","負傷者をカストルム・オリエンスに移すのね？
+わかった、私も移動準備を手伝うわ。"
+65,"TEXT_STMBDA135_02465_ALPHINAUD_000_050","コンラッド隊長の付き添いをさせてもらうよ。"
+66,"TEXT_STMBDA135_02465_CONRAD_000_055","迷惑ばかりかけて、すまないの……。"
+67,"TEXT_STMBDA135_02465_KRILE_000_060","さあ、ヤ・シュトラも搬送させるわよ。
+リセ、手伝ってちょうだい？"
+68,"TEXT_STMBDA135_02465_LYSE_000_065","わかった。
+力仕事なら任せて！"
+69,"TEXT_STMBDA135_02465_FLAMECOURIER_000_070","私が、負傷兵の移送を担当させて頂きます。
+「応急処置用の錬金薬」をお持ち頂けましたか？"
+70,"TEXT_STMBDA135_02465_FLAMECOURIER_000_071","ありがとうございます、これだけあれば充分でしょう。
+それでは、「ピピン」少闘将にキャリッジの準備が完了したと、
+お伝えいただけますでしょうか？"
+71,"TEXT_STMBDA135_02465_FLAMECOURIER_000_075","（★未使用／削除予定★）"
+72,"TEXT_STMBDA135_02465_PIPIN_000_080","（★未使用／削除予定★）"
+73,"TEXT_STMBDA135_02465_PIPIN_000_081","（★未使用／削除予定★）"
+74,"TEXT_STMBDA135_02465_KRILE_000_082","ヤ・シュトラたち重傷者は、全員キャリッジに乗せたわ。
+搬送中は私が看ているから、心配しないでちょうだい。"
+75,"TEXT_STMBDA135_02465_ALPHINAUD_000_083","ありがとう、クルルさん。"
+76,"TEXT_STMBDA135_02465_LYSE_000_084","アタシも同行させてもらう。
+護衛も必要だし、今は何よりヤ・シュトラの側にいたいから……。"
+77,"TEXT_STMBDA135_02465_LYSE_000_085","コンラッド隊長も、怪我をしているんでしょう？
+キャリッジに乗って、同盟軍の本陣に向かった方が……。"
+78,"TEXT_STMBDA135_02465_CONRAD_000_086","まだ動ける仲間たちに、指示をせんといかんからの。
+カストルム・オリエンスには、後ほど向かわせてもらうぞい。
+同盟軍の方々と、今後について相談せねばなるまいて……。"
+79,"TEXT_STMBDA135_02465_PIPIN_000_087","了解です。
+では、さっそくですが出発しましょう。
+時間をかけて、負傷者たちに負担を強いたくはありませんから。"
+80,"TEXT_STMBDA135_02465_PIPIN_000_088","出発だ！"

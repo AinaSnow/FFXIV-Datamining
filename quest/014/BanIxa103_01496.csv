@@ -1,17 +1,20 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANIXA103_01496_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-As ablest of Ixal, Yazel Ahuatan has a reputation to maintain.
-※The crafting portion of this quest is recommended for Disciples of the Hand level 1 and above, and the battle portion for Disciples of War or Magic level 41 and above."
-1,"TEXT_BANIXA103_01496_SEQ_01","The recent loss of starboard hull component materials has placed Yazel Ahuatan in a precarious position. So that none may have cause to doubt his ableness, recover the materials his courier abandoned when attacked by Ixal in Treespeak.
+0,"TEXT_BANIXA103_01496_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+※本クエストは、クラフタークラス：レベル1以上、
+　バトルクラス：レベル41以上推奨です。 
 
-※Please note that the difficulty of this quest has been synced to your current level."
-2,"TEXT_BANIXA103_01496_SEQ_02","After a brief skirmish, the materials are yours. However, returning the materials will not suffice to redeem Yazel Ahuatan. Visit the crafting facility at Treespeak Stables, and present the component materials to Nellemond, so that you may use the facilities to construct the requisite components."
-3,"TEXT_BANIXA103_01496_SEQ_03","You have handed over the component materials to Nellemond, and gained access to the crafting facility. Synthesize two starboard hull components, and deliver them to Yazel Ahuatan at Ehcatl.
+エカトル実験場の職工のヤゼル・アファタンは、冒険者に危急の依頼があるようだ。"
+1,"TEXT_BANIXA103_01496_SEQ_01","※本クエストには「<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow><UIGlow>01</UIGlow><UIForeground>01</UIForeground> レベルアジャスト」が、
+　設定されています。
 
-※In the event that the status <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Facility Access: Finishing<UIGlow>01</UIGlow><UIForeground>01</UIForeground> wears off or the synthesis ends in failure, you may try again by speaking with Nellemond."
-4,"TEXT_BANIXA103_01496_SEQ_04","The squa-hawk which echoes throughout Ehcatl is one of ultimate relief, as Yazel Ahuatan's comrades no longer have cause to doubt his competence. Maintaining an image as an able Ixal can be difficult at times, but the adulation of Ixali maidens more than justifies the effort─or so Yazel Ahuatan would doubtless say, if the question were put to him."
+職工のヤゼル・アファタンから「<Sheet(Item,　8093,0)/>」の製作を依頼された。まずはひそひそ木立に向かい、<Sheet(BNpcName,2985,0)/>を退けて、奪われた「<Sheet(EObj,2004456,0)/>」から「<Sheet(EventItem,2001379,0)/>」を入手しよう。"
+2,"TEXT_BANIXA103_01496_SEQ_02","<Sheet(EventItem,2001379,0)/>を奪い返した。ツリースピーク厩舎の「ネルモン」に「<Sheet(EventItem,2001379,0)/>」を渡し、製作施設の使用許可をもらおう。"
+3,"TEXT_BANIXA103_01496_SEQ_03","製作施設の準備が整った。「<Sheet(Item,　8054,0)/>」をもとに「<Sheet(Item,　8093,0)/>」を2つ製作し、エカトル実験場の「職工のヤゼル・アファタン」に納品しよう。
+
+※バフステータス「製作施設：精密工作」が終了した場合や、「<Sheet(Item,　8054,0)/>」を失った場合は、再びネルモンに話しかけましょう。バフステータスと材料が付与され、再挑戦が可能になります。"
+4,"TEXT_BANIXA103_01496_SEQ_04","職工のヤゼル・アファタンに<Sheet(Item,　8093,0)/>を納品した。イクサル軍伐採所との仁義なき抗争は、解決のきざしすら見えない。彼らの嫌がらせに屈することなく、エカトル空力団の仲間を応援していこう。"
 5,"TEXT_BANIXA103_01496_SEQ_05",""
 6,"TEXT_BANIXA103_01496_SEQ_06",""
 7,"TEXT_BANIXA103_01496_SEQ_07",""
@@ -31,9 +34,10 @@ As ablest of Ixal, Yazel Ahuatan has a reputation to maintain.
 21,"TEXT_BANIXA103_01496_SEQ_21",""
 22,"TEXT_BANIXA103_01496_SEQ_22",""
 23,"TEXT_BANIXA103_01496_SEQ_23",""
-24,"TEXT_BANIXA103_01496_TODO_00","Obtain starboard hull component materials from the Ehcatl Nine storage pots in Treespeak."
-25,"TEXT_BANIXA103_01496_TODO_01","Present the starboard hull component materials to Nellemond at Treespeak Stables."
-26,"TEXT_BANIXA103_01496_TODO_02","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Synthesize starboard hull components<Else/>Deliver the starboard hull components to Yazel Ahuatan the Able</If>."
+24,"TEXT_BANIXA103_01496_TODO_00","ひそひそ木立の<Sheet(EObj,2004456,0)/>から<Sheet(EventItem,2001379,0)/>を
+妨害を退け入手"
+25,"TEXT_BANIXA103_01496_TODO_01","ツリースピーク厩舎のネルモンに<Sheet(EventItem,2001379,0)/>を渡す"
+26,"TEXT_BANIXA103_01496_TODO_02","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>製作手帳 蛮族クエストLv1：<Sheet(Item,　8093,0)/>を製作<Else/>職工のヤゼル・アファタンに<Sheet(Item,　8093,0)/>を納品</If>"
 27,"TEXT_BANIXA103_01496_TODO_03",""
 28,"TEXT_BANIXA103_01496_TODO_04",""
 29,"TEXT_BANIXA103_01496_TODO_05",""
@@ -55,21 +59,45 @@ As ablest of Ixal, Yazel Ahuatan has a reputation to maintain.
 45,"TEXT_BANIXA103_01496_TODO_21",""
 46,"TEXT_BANIXA103_01496_TODO_22",""
 47,"TEXT_BANIXA103_01496_TODO_23",""
-48,"TEXT_BANIXA103_01496_YAZELAHUATAN_000_000","Squaaawk! Able though I am, cursed with terrible fortune, I am too! Lost to Garuda-worshipping buzzards, materials for constructing urgently required starboard hull components are!"
-49,"TEXT_BANIXA103_01496_YAZELAHUATAN_000_010","Precious materials for constructing the hull, lost to our enemies in Treespeak! Squa-hawk!"
-50,"TEXT_BANIXA103_01496_YAZELAHUATAN_000_020","Precious materials for preparing an essential finish for the hull, lost to our enemies in Treespeak! Squa-hawk!"
-51,"TEXT_BANIXA103_01496_YAZELAHUATAN_000_030","Precious materials for preparing leather-backed plywood for the hull, lost to our enemies in Treespeak! Squa-hawk!"
-52,"TEXT_BANIXA103_01496_YAZELAHUATAN_000_040","Retrieve the materials myself, I would, but able <Emphasis>lover</Emphasis>, Yazel is─not able fighter. Featherless <If(PlayerParameter(4))>craftswoman<Else/>craftsman</If> and fighter both, you are, and more than capable of recovering materials."
-53,"TEXT_BANIXA103_01496_YAZELAHUATAN_000_041","From storage pots, retrieve the materials, then for crafting, to Treespeak Stables you must go. Open to all featherless, the facilities there are. Squahaha! Need for special favors, there is not."
-54,"TEXT_BANIXA103_01496_YAZELAHUATAN_000_050","Materials enough for two components, you must recover! Without components, Yazel will fall out of favor. Able to suffer much, Yazel is, except that!"
-55,"TEXT_BANIXA103_01496_POP_MESSAGE","With a cacophony of squawking, the enemy appears!"
-56,"TEXT_BANIXA103_01496_BALOON_000_080","Unfeathered! Fly!"
-57,"TEXT_BANIXA103_01496_BALOON_000_081","Squaaawk! Friend of Ehcatl, you die!"
-58,"TEXT_BANIXA103_01496_NELLEMOND_000_090","Greetings, friend! Our doors─assuming we had any─are open to all! You wish to process those materials, yes? Hmmm... If you would first permit me to conduct an inspection...?"
-59,"TEXT_BANIXA103_01496_NELLEMOND_000_091","Ah, my concern was for naught. These materials are both quality and plentiful! In fact, I have calculated the optimum amount required to craft the components you have in mind. I shall hold on to the excess while you work your synthesizing magic! Pray let me know if you require any replacements."
-60,"TEXT_BANIXA103_01496_NELLEMOND_000_100","The use of the crafting facility here at Treespeak Stables is entirely free of charge! Pray put concerns of sordid coin from your mind and concentrate on your wondrous creation!"
-61,"TEXT_BANIXA103_01496_NELLEMOND_100_100","Your crafting endeavor was a success? Then you must waste no time in returning to your client. Ah, and should something unfortunate befall your commission─accidental loss, theft, act of primal─you always have the option of retrieving from me the remaining materials and trying again!"
-62,"TEXT_BANIXA103_01496_YAZELAHUATAN_000_130","Squaaawk! Suffer the barbs of his comrades, the Able cannot! Bring me the starboard hull components, you must!"
-63,"TEXT_BANIXA103_01496_YAZELAHUATAN_000_131","Squa-hawk! Safe, my reputation is! To featherless <If(PlayerParameter(4))>craftswoman<Else/>craftsman</If>, much and more is owed!"
-64,"TEXT_BANIXA103_01496_YAZELAHUATAN_000_132","Rejoin the ranks of the buzzards, I wish not to do. Much more beloved by maidens, Yazel is, as able revolutionary!"
-65,"TEXT_BANIXA103_01496_POPMESSAGE_000_200","You now have access to the crafting facility."
+48,"TEXT_BANIXA103_01496_YAZELAHUATAN_000_000","困った、このままじゃ「<Sheet(Item,　8093,0)/>」が2つ足らんわッァ！
+材料を運んでた仲間が伐採所の連中に襲われて、
+荷を落としちまったんだッァ！"
+49,"TEXT_BANIXA103_01496_YAZELAHUATAN_000_010","頼むッゥ！　材料を取り戻してッェ、
+右舷船体に使う軽金属板を製作してくれッェ！
+頑丈な船体を作るには、どうしても必要なんじゃッァ！"
+50,"TEXT_BANIXA103_01496_YAZELAHUATAN_000_020","頼むッゥ！　材料を取り戻してッェ、
+右舷船体の仕上げに使う上塗り剤を製作してくれッェ！
+長持ちする船体を作るには、どうしても必要なんじゃッァ！"
+51,"TEXT_BANIXA103_01496_YAZELAHUATAN_000_030","頼むッゥ！　材料を取り戻してッェ、
+右舷船体に使う、革張りの合板を製作してくれッェ！
+軽量な船体を作るには、どうしても必要なんじゃッァ！"
+52,"TEXT_BANIXA103_01496_YAZELAHUATAN_000_040","材料が入った「<Sheet(EObj,2004456,0)/>」はッァ、
+仲間が襲われた「ひそひそ木立」に落ちているはずだッァ！
+襲った連中に警戒しながら、探してくれッェ！"
+53,"TEXT_BANIXA103_01496_YAZELAHUATAN_000_041","材料を取り戻したら、その足で製作も頼むぜッェ！
+「ネルモン」って男が仕切る、
+ツリースピーク厩舎の施設を使えッェ！"
+54,"TEXT_BANIXA103_01496_YAZELAHUATAN_000_050","「<Sheet(Item,　8093,0)/>」を2つッゥ……
+<If(PlayerParameter(4))>ネエチャン<Else/>アンチャン</If>、お願いじゃッァ！
+頼めるのは、ケンカが強くて技も冴えたアンタだけじゃッァ！"
+55,"TEXT_BANIXA103_01496_POP_MESSAGE","敵の気配を感じた！！"
+56,"TEXT_BANIXA103_01496_BALOON_000_080","このハネナシがッァ！"
+57,"TEXT_BANIXA103_01496_BALOON_000_081","ギャハーッァ、渡すかッァ！"
+58,"TEXT_BANIXA103_01496_NELLEMOND_000_090","こちらの製作施設は、冒険者の方にも広く開放しております。
+利用される前に、持ち込んだ材料を私にお預けください。"
+59,"TEXT_BANIXA103_01496_NELLEMOND_000_091","ふむ……材料袋のほう、たしかに預かりました。
+多めに入っていますので、製作に必要なだけお渡ししますね。
+準備はできておりますので、作業台はご自由にお使いください。"
+60,"TEXT_BANIXA103_01496_NELLEMOND_000_100","材料が足りなかったり、
+またこの製作施設を使いたくなったら声をかけてくださいね。"
+61,"TEXT_BANIXA103_01496_NELLEMOND_100_100","仕事はお済みのようですから、納品に行くとよいでしょう。
+製作した品を紛失するなどして、
+再度この施設を使用したいときは、私にお申し出ください。"
+62,"TEXT_BANIXA103_01496_YAZELAHUATAN_000_130","「<Sheet(Item,　8093,0)/>」はまだかッァ？
+完成したら、ワシに見せてくれッェ！"
+63,"TEXT_BANIXA103_01496_YAZELAHUATAN_000_131","……これは、見事な出来ばえッェ！　恩に着るわッァ！
+親方と<If(PlayerParameter(4))>ネエチャン<Else/>アンチャン</If>に、どこまでもついていくわッァ！"
+64,"TEXT_BANIXA103_01496_YAZELAHUATAN_000_132","それにしても伐採所の連中めッェ……
+卑怯な嫌がらせをしやがってッェ！
+あんな連中に、親方の夢を邪魔させてなるもんかッァー！"
+65,"TEXT_BANIXA103_01496_POPMESSAGE_000_200","製作の準備が整った。"

@@ -1,9 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANANA301_03042_SEQ_00","Eshana longs to know what tomorrow brings.
+0,"TEXT_BANANA301_03042_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト受注クラス・ジョブ制限<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+※本クエストは受注時のクラス・ジョブでのみ進行します。
 
-※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
+カステッルム・ベロジナのエシャナは、国境警備隊の武運が気になるようだ。"
 1,"TEXT_BANANA301_03042_SEQ_01",""
 2,"TEXT_BANANA301_03042_SEQ_02",""
 3,"TEXT_BANANA301_03042_SEQ_03",""
@@ -27,9 +28,10 @@ int32,str,str
 21,"TEXT_BANANA301_03042_SEQ_21",""
 22,"TEXT_BANANA301_03042_SEQ_22",""
 23,"TEXT_BANANA301_03042_SEQ_23",""
-24,"TEXT_BANANA301_03042_TODO_00","Gather prophetic stones from Pike Falls."
-25,"TEXT_BANANA301_03042_TODO_01","Deliver the prophetic stones to the Ananta whispermaid."
-26,"TEXT_BANANA301_03042_TODO_02","Report to Eshana."
+24,"TEXT_BANANA301_03042_TODO_00","パイクフォールズで<Sheet(EventItem,2002431,0)/>を入手"
+25,"TEXT_BANANA301_03042_TODO_01","カステッルム・ベロジナのアナンタ族の占い師に
+<Sheet(EventItem,2002431,0)/>を渡す"
+26,"TEXT_BANANA301_03042_TODO_02","エシャナに報告"
 27,"TEXT_BANANA301_03042_TODO_03",""
 28,"TEXT_BANANA301_03042_TODO_04",""
 29,"TEXT_BANANA301_03042_TODO_05",""
@@ -51,23 +53,55 @@ int32,str,str
 45,"TEXT_BANANA301_03042_TODO_21",""
 46,"TEXT_BANANA301_03042_TODO_22",""
 47,"TEXT_BANANA301_03042_TODO_23",""
-48,"TEXT_BANANA301_03042_ESHANA_000_000","The Velodyna Gatekeepers have done excellent work thus far monitoring our borders, but Alpa fears they grow complacent for lack of any serious threatsss."
-49,"TEXT_BANANA301_03042_ESHANA_000_001","In the hopesss of motivating them, I thought we might revive one of the Ananta's more ancient traditions─divinationsss."
-50,"TEXT_BANANA301_03042_ESHANA_000_002","To divine the fortunes of war, custom dictates one versssed in its art gather three precious stones required for the ritual. I can think of none better than you for this task."
-51,"TEXT_BANANA301_03042_ESHANA_100_002","When you have procured the gems we require, deliver them to the Ananta whissspermaid."
-52,"TEXT_BANANA301_03042_ANANTAREADER03042_000_003","To read the fortunes of war I require three prophetic ssstones. No more, no lesss. Bring them to me and all shall be revealed."
-53,"TEXT_BANANA301_03042_ANANTAREADER03042_000_010","You are returned. Have you the prophetic ssstones I require?"
-54,"TEXT_BANANA301_03042_ANANTAREADER03042_000_011","These shall do nicely. Now, let us sssee what the future holds for the Velodyna Gatekeepers."
-55,"TEXT_BANANA301_03042_ANANTAREADER03042_100_011","Yesss, the misssts are clearing."
-56,"TEXT_BANANA301_03042_ANANTAREADER03042_000_012","Great peril awaits in the days ahead. Calamity born from carelessness. They would do well not to lose focusss lest this future come to pass."
-57,"TEXT_BANANA301_03042_ANANTAREADER03042_000_013","Ah! I see great successs for the Gatekeepers! The efforts of their training shall be returned three─nay, four-fold!"
-58,"TEXT_BANANA301_03042_ANANTAREADER03042_100_013","Ahem. My apologies. 'Tis not often fortune sssmiles so favorably upon us."
-59,"TEXT_BANANA301_03042_ANANTAREADER03042_000_014","Ah! Great fortune awaits the Gatekeepers! An unexpected windfall for the benefit of all!"
-60,"TEXT_BANANA301_03042_ANANTAREADER03042_100_014","Ahem. Forgive me. It has been too long since fortune has sssmiled upon us so favorably."
-61,"TEXT_BANANA301_03042_ANANTAREADER03042_000_015","Hmmm... The future is riddled with uncertainty, but I sssense the potential for discord within our ranksss. Geniality is more important now than ever. "
-62,"TEXT_BANANA301_03042_ANANTAREADER03042_000_016","I foresee a fortuitous meeting. Newly formed ties should be treated with the greatessst of care. In doing so we shall not want for allies in times of strife."
-63,"TEXT_BANANA301_03042_ANANTAREADER03042_000_017","The power of the stones is spent, and thusss the vision ends."
-64,"TEXT_BANANA301_03042_ANANTAREADER03042_000_018","I would stay, but my sisters in Vira Nilya have need of my insssight. Pray tell Eshana what I have seen."
-65,"TEXT_BANANA301_03042_ESHANA_000_020","Welcome back, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. What did she have to say of our future? What fortune awaitsss the Gatekeepers?"
-66,"TEXT_BANANA301_03042_ESHANA_000_021","Interesting... I will make certain my sssisters hear of this and act accordingly. The word of a whissspermaid is not to be taken lightly."
-67,"TEXT_BANANA301_03042_ESHANA_000_022","Though not always clear, their divinations remain in our thoughts, guiding our actions in the hopes of a desirable outcome. I daresay you too would do well to adhere to her words. It may prove to your benefit."
+48,"TEXT_BANANA301_03042_ESHANA_000_000","シュー……国境警備隊も、結成からしばらく経過し、
+任務にも慣れてきたのだが、一方で油断が生まれつつある。
+そのことを、アルパ隊長が心配していてな。"
+49,"TEXT_BANANA301_03042_ESHANA_000_001","そこでだ、我らアナンタには、古くから占いを行う風習がある。
+我が隊の武運を占うことで、
+気の緩んだ隊士たちに、活が入るのではないかと思うのだ。"
+50,"TEXT_BANANA301_03042_ESHANA_000_002","君に頼みたいのは、占いに必要な道具の調達だ。
+我らの占いには、石を用いるゆえ、
+パイクフォールズで、「<Sheet(EventItem,2002431,0)/>」を3つ拾ってきてほしい。"
+51,"TEXT_BANANA301_03042_ESHANA_100_002","武運を占いたくば、武に長けた者の選んだ石を用いるべし、
+というのが我らの習わしゆえ、君が適任なのだ。
+石は、この橋に呼んだ「アナンタ族の占い師」に渡してくれ。"
+52,"TEXT_BANANA301_03042_ANANTAREADER03042_000_003","シュー……エシャナから話は聞いている。
+「<Sheet(EventItem,2002431,0)/>」を3つ持ってこないと、
+占いはできないぞ……。"
+53,"TEXT_BANANA301_03042_ANANTAREADER03042_000_010","シュー……<Sheet(EventItem,2002431,0)/>は手に入ったか？
+では、こちらに……。"
+54,"TEXT_BANANA301_03042_ANANTAREADER03042_000_011","シュー……そなたほどの武人が選んだ石を用いると、
+どのような結果が出るのか、とても興味深い。
+さっそく、国境警備隊の武運を占ってみるとするか……。"
+55,"TEXT_BANANA301_03042_ANANTAREADER03042_100_011","シュシューッ！"
+56,"TEXT_BANANA301_03042_ANANTAREADER03042_000_012","これは、失態の相だな。
+小さな過失が、大きな被害につながりかねない。
+気を引き締める必要があろう。"
+57,"TEXT_BANANA301_03042_ANANTAREADER03042_000_013","おお、飛躍の相だ！
+訓練を重ねて武の技を鍛えれば、成果に結びつくだろう。"
+58,"TEXT_BANANA301_03042_ANANTAREADER03042_100_013","シュシュ、失礼。
+良い相を見ると、つい取り乱してしまうゆえ……。"
+59,"TEXT_BANANA301_03042_ANANTAREADER03042_000_014","これは、幸運の相だ！
+思いがけない幸運が、我らの味方をしてくれるだろう！"
+60,"TEXT_BANANA301_03042_ANANTAREADER03042_100_014","シュー……！
+こんなに良い相を見たのは久しぶりで、
+つい舞い上がってしまった。"
+61,"TEXT_BANANA301_03042_ANANTAREADER03042_000_015","波乱の相か。
+仲間内で揉め事が起こる予感がある。
+今日は温和に過ごすことを心がけるべきだ。"
+62,"TEXT_BANANA301_03042_ANANTAREADER03042_000_016","良縁の相だな。
+関わり合いになる者たちを大事にしなくては。"
+63,"TEXT_BANANA301_03042_ANANTAREADER03042_000_017","シュー……以上になる。
+結果を「エシャナ」に伝えてくれ。"
+64,"TEXT_BANANA301_03042_ANANTAREADER03042_000_018","では、私は帰らせてもらうぞ……。
+ウィルラ・ニリヤにも、
+私の占いを待っている者たちがいるのでな。"
+65,"TEXT_BANANA301_03042_ESHANA_000_020","シュー……占いの結果はどうだった？
+彼女は良く当たると有名な占い師でな。
+部隊の姉妹たちも、結果を楽しみにしているのだ。"
+66,"TEXT_BANANA301_03042_ESHANA_000_021","シュー……なるほど、姉妹たちには私が伝えておこう。
+占いは、我らの文化において、
+生活の指針となる重要なものゆえにな。"
+67,"TEXT_BANANA301_03042_ESHANA_000_022","なにより明日について考える、良いきっかけにもなる。
+今回の結果、君も試しに頭の片隅においてみたらどうだろう？
+もしかしたら、君にも当てはまるかもしれないぞ。"

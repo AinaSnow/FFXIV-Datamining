@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB512_00881_SEQ_00","Ilcum would like to offer succor to the priests at the Church of Saint Adama Landama."
-1,"TEXT_GAIUSB512_00881_SEQ_01","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/> This quest has been adjusted. Please abandon the quest and restart it by speaking to Eluned at the Church of Saint Adama Landama.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+0,"TEXT_GAIUSB512_00881_SEQ_00","聖アダマ・ランダマ教会のイルカムは、贈り物の手伝いをして欲しいようだ。"
+1,"TEXT_GAIUSB512_00881_SEQ_01","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/>本クエストは調整されました。一度破棄し、聖アダマ・ランダマ教会の「エルネド」から再受注してください。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
-※The Main Scenario Guide shows the next available quest. You can toggle it on and off in Character Configuration, under UI Settings."
-2,"TEXT_GAIUSB512_00881_SEQ_02","As is often the case in your adventures, you quickly hunt down and slay your quarry. Deliver the brazo del sol to Ilcum at the lichyard."
-3,"TEXT_GAIUSB512_00881_SEQ_03","Wasting no time, Ilcum prepares a sample of Aqua del Sol─but not for you. She insists that Marques be the first to receive the drink, and asks that you give it to him on her behalf."
-4,"TEXT_GAIUSB512_00881_SEQ_04","Marques is puzzled by the gesture, but grateful. However, believing that Father Iliud is in greater need of the juice, he decides to offer it to the priest instead."
+※次のメインクエストは、「メインクエストガイド」からも確認することができます。メインクエストガイドの表示/非表示は、メインコマンドの「キャラクターコンフィグ」から「ユーザーインターフェース設定」を選び、変更してください。"
+2,"TEXT_GAIUSB512_00881_SEQ_02","<Sheet(EventItem,2000688,0)/>を入手した。聖アダマ・ランダマ教会の「イルカム」に渡そう。"
+3,"TEXT_GAIUSB512_00881_SEQ_03","イルカムは、手作りの<Sheet(EventItem,2000689,0)/>をマルケズに渡したいらしい。聖アダマ・ランダマ教会の「マルケズ」に「<Sheet(EventItem,2000689,0)/>」を渡そう。"
+4,"TEXT_GAIUSB512_00881_SEQ_04","マルケズに<Sheet(EventItem,2000689,0)/>を渡した。しかし、マルケズはイリュドに渡してしまうようだ……。"
 5,"TEXT_GAIUSB512_00881_SEQ_05",""
 6,"TEXT_GAIUSB512_00881_SEQ_06",""
 7,"TEXT_GAIUSB512_00881_SEQ_07",""
@@ -27,9 +27,12 @@ int32,str,str
 21,"TEXT_GAIUSB512_00881_SEQ_21",""
 22,"TEXT_GAIUSB512_00881_SEQ_22",""
 23,"TEXT_GAIUSB512_00881_SEQ_23",""
-24,"TEXT_GAIUSB512_00881_TODO_00","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/> This quest has been adjusted. Please abandon the quest and restart it by speaking to Eluned at the Church of Saint Adama Landama.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
-25,"TEXT_GAIUSB512_00881_TODO_01","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/> This quest has been adjusted. Please abandon the quest and restart it by speaking to Eluned at the Church of Saint Adama Landama.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
-26,"TEXT_GAIUSB512_00881_TODO_02","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/> This quest has been adjusted. Please abandon the quest and restart it by speaking to Eluned at the Church of Saint Adama Landama.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+24,"TEXT_GAIUSB512_00881_TODO_00","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/>本クエストは調整されました。一度破棄し、
+聖アダマ・ランダマ教会のエルネドから再受注してください<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+25,"TEXT_GAIUSB512_00881_TODO_01","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/>本クエストは調整されました。一度破棄し、
+聖アダマ・ランダマ教会のエルネドから再受注してください<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+26,"TEXT_GAIUSB512_00881_TODO_02","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/>本クエストは調整されました。一度破棄し、
+聖アダマ・ランダマ教会のエルネドから再受注してください<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 27,"TEXT_GAIUSB512_00881_TODO_03",""
 28,"TEXT_GAIUSB512_00881_TODO_04",""
 29,"TEXT_GAIUSB512_00881_TODO_05",""
@@ -51,20 +54,44 @@ int32,str,str
 45,"TEXT_GAIUSB512_00881_TODO_21",""
 46,"TEXT_GAIUSB512_00881_TODO_22",""
 47,"TEXT_GAIUSB512_00881_TODO_23",""
-48,"TEXT_GAIUSB512_00881_ILCUM_000_000","Excuse me, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. You don't know me, but I've observed you assisting the priests with their work. I too would like to offer what succor I might."
-49,"TEXT_GAIUSB512_00881_ILCUM_000_001","Since tending the lichyard in this heat can quickly sap one's energies, perhaps a restorative drink made to combat fatigue would be ideal."
-50,"TEXT_GAIUSB512_00881_ILCUM_000_002","Of course, Aqua del Sol! That would surely do the trick!"
-51,"TEXT_GAIUSB512_00881_ILCUM_000_003","To make it, I would need a freshly cut brazo del sol. I've not the skill at arms to slay a wild sabotender del sol─but you do, so..."
-52,"TEXT_GAIUSB512_00881_ILCUM_000_004","You need only go as far as the spring east of Camp Drybone─the beasts are often sighted in that vicinity. If you brought me one of their arms, I could make enough Aqua del Sol for everyone!"
-53,"TEXT_GAIUSB512_00881_DUMMY_000_010",""
-54,"TEXT_GAIUSB512_00881_ILCUM_000_020","Have you considered my request, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>?"
-55,"TEXT_GAIUSB512_00881_ILCUM_000_021","I never imagined that you would return so quickly! Thank you so much."
-56,"TEXT_GAIUSB512_00881_ILCUM_000_022","It's an incredibly simple beverage to prepare. If you would wait but one moment..."
-57,"TEXT_GAIUSB512_00881_ILCUM_000_023","There! This should serve as a sample of─wait, don't drink it! I mean, I...I was hoping you might give the first glass to Marques on my behalf."
-58,"TEXT_GAIUSB512_00881_ILCUM_000_024","Of course, I intend to provide everyone with a glass eventually. It's just that Marques is so..."
-59,"TEXT_GAIUSB512_00881_ILCUM_000_025","<If(PlayerParameter(4))>Well, surely you've noticed what a handsome man he is...<Else/>He's such a...hard worker, don't you think?</If>"
-60,"TEXT_GAIUSB512_00881_MARQUEZ_000_030","Oh, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. What is it?"
-61,"TEXT_GAIUSB512_00881_MARQUEZ_000_031","For me? I... Thank you."
-62,"TEXT_GAIUSB512_00881_MARQUEZ_000_032","Was it perhaps the girl who...? No, no, it couldn't have been her."
-63,"TEXT_GAIUSB512_00881_MARQUEZ_000_033","I appreciate Ilcum's kind gesture, but Father Iliud is in far greater need of this juice. His work places great strain on his body and soul, yet he continues to neglect his health..."
-64,"TEXT_GAIUSB512_00881_POP_MESSAGE_000","You hear the pitter-patter of tiny feet..."
+48,"TEXT_GAIUSB512_00881_ILCUM_000_000","ここのところ、司祭様方がお忙しそうでね。
+最近はみなさん、少しお疲れのご様子だったの。
+そこでわたし、何かお手伝いできないかと考えて……"
+49,"TEXT_GAIUSB512_00881_ILCUM_000_001","……思いついたのよ！
+特製の飲み物を作って、英気を養っていただこうって！"
+50,"TEXT_GAIUSB512_00881_ILCUM_000_002","せっかくですもの。
+太陽をさんさんと浴びたサボテンダーの果肉で、
+ジュースを作ってみたいわ。"
+51,"TEXT_GAIUSB512_00881_ILCUM_000_003","この時期なら、「アラグ陽道」の辺りなんて絶好の場所ね。
+あそこは人の往来が少ないから、きっと、
+太陽を浴びまくっているサボテンダーがいるはずよ。"
+52,"TEXT_GAIUSB512_00881_ILCUM_000_004","冒険者さん、お願い！
+「<Sheet(EventItem,2000688,0)/>」を、
+手に入れてきてくれないかしら！"
+53,"TEXT_GAIUSB512_00881_DUMMY_000_010","（アラグ陽道南の荒野で辺りを見回す、
+　サボテンダーがＰＯＰするので倒すと果肉が手に入る）"
+54,"TEXT_GAIUSB512_00881_ILCUM_000_020","どうかな、冒険者さん？
+「<Sheet(EventItem,2000688,0)/>」は手に入りそう？"
+55,"TEXT_GAIUSB512_00881_ILCUM_000_021","えっ、もう手に入れてきてくれたの！？
+サボテンダーより、ずっとはやい！！"
+56,"TEXT_GAIUSB512_00881_ILCUM_000_022","じゃ、急いでジュースを作らなきゃ！
+……これを、こうして、こうやって……。
+………………できたわ！"
+57,"TEXT_GAIUSB512_00881_ILCUM_000_023","冒険者さん、この「<Sheet(EventItem,2000689,0)/>」を、
+墓守のマルケズさんに届けてきてくれるかしら。
+……わたし、恥ずかしくって。"
+58,"TEXT_GAIUSB512_00881_ILCUM_000_024","……え、司祭様方に？
+もちろん、お渡しするわよ。
+でも、最初はマルケズさんに渡したいの！"
+59,"TEXT_GAIUSB512_00881_ILCUM_000_025","うふふ、これでお近付きになれるかしら……。
+フードの下の素顔がステキな、マルケズさん……。"
+60,"TEXT_GAIUSB512_00881_MARQUEZ_000_030","……<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>か。
+どうしたんだ？"
+61,"TEXT_GAIUSB512_00881_MARQUEZ_000_031","これは……ジュースか。
+どうして、こんなものを俺に？"
+62,"TEXT_GAIUSB512_00881_MARQUEZ_000_032","……お手伝いのイルカムさんから……。
+悪いが、今の俺に必要なのは……ああ、いや……。"
+63,"TEXT_GAIUSB512_00881_MARQUEZ_000_033","……そうだ。
+このジュースは、イリュド神父にお渡ししておこう。
+神父は大変お忙しいようだ、きっと喜ぶだろう。"
+64,"TEXT_GAIUSB512_00881_POP_MESSAGE_000","敵の気配を感じた！！"

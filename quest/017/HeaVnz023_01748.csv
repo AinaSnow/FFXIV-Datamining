@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNZ023_01748_SEQ_00","Laniaitte seeks an adventurer with a delicate touch."
-1,"TEXT_HEAVNZ023_01748_SEQ_01","Laniaitte asks you to obtain a wing sample from a gaelicat, an adorable yet ferocious cloudkin native to the surrounding area. She warns you, however, that these creatures are very delicate. Only a perfectly preserved sample will suffice, and she doubts that she or her men could fell them while leaving their leathery appendages intact. No matter how many gaelicats it takes, she implores you to retrieve one of their wings."
-2,"TEXT_HEAVNZ023_01748_SEQ_02","You have slain several gaelicats to no avail. But as Laniaitte said, you must not grow disheartened. Continue slaying gaelicats in search of a suitable sample."
-3,"TEXT_HEAVNZ023_01748_SEQ_03","You obtain an undamaged wing from the gaelicats. Deliver the specimen to Laniaitte."
-4,"TEXT_HEAVNZ023_01748_SEQ_04","You return to the Rosehouse with the sample, and Laniaitte is more than impressed by your delicate precision. As it turns out, the wing sample was requested by Atelloune, a naturalist of no small renown, who is hard at work on an article for <Emphasis>New Eorzean Geographic</Emphasis>. Her piece on cloudkin physiology is sure to be a smashing success due in no small part to your assistance."
+0,"TEXT_HEAVNZ023_01748_SEQ_00","ローズハウスのラニエットは、仕事を頼める者を探している。"
+1,"TEXT_HEAVNZ023_01748_SEQ_01","ラニエットから<Sheet(BNpcName,3494,0)/>の飛膜を獲ってくるよう頼まれた。アバラシア雲海のクラウドトップにいる「<Sheet(BNpcName,3494,0)/>」を討伐し、まれに得られる「<Sheet(EventItem,2001599,0)/>」を入手しよう。"
+2,"TEXT_HEAVNZ023_01748_SEQ_02","<Sheet(BNpcName,3494,0)/>から、<Sheet(EventItem,2001599,0)/>を得られなかった。さらに「<Sheet(BNpcName,3494,0)/>」を討伐し、まれに得られる「<Sheet(EventItem,2001599,0)/>」を入手しよう。"
+3,"TEXT_HEAVNZ023_01748_SEQ_03","<Sheet(EventItem,2001599,0)/>を入手した。ローズハウスの「ラニエット」に「<Sheet(EventItem,2001599,0)/>」を渡そう。"
+4,"TEXT_HEAVNZ023_01748_SEQ_04","ラニエットに<Sheet(EventItem,2001599,0)/>を渡した。彼女の知人のアテルーネという博物学者が、「新エオルゼア博物誌」という書籍の執筆のために、飛膜を欲していたようだ。"
 5,"TEXT_HEAVNZ023_01748_SEQ_05",""
 6,"TEXT_HEAVNZ023_01748_SEQ_06",""
 7,"TEXT_HEAVNZ023_01748_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_HEAVNZ023_01748_SEQ_21",""
 22,"TEXT_HEAVNZ023_01748_SEQ_22",""
 23,"TEXT_HEAVNZ023_01748_SEQ_23",""
-24,"TEXT_HEAVNZ023_01748_TODO_00","Obtain an untorn gaelicat wing."
-25,"TEXT_HEAVNZ023_01748_TODO_01","Continue your search for an undamaged gaelicat wing."
-26,"TEXT_HEAVNZ023_01748_TODO_02","Deliver the sample to Laniaitte."
+24,"TEXT_HEAVNZ023_01748_TODO_00","<Sheet(BNpcName,3494,0)/>からまれに得られる<Sheet(EventItem,2001599,0)/>を入手"
+25,"TEXT_HEAVNZ023_01748_TODO_01","<Sheet(BNpcName,3494,0)/>からまれに得られる<Sheet(EventItem,2001599,0)/>を入手"
+26,"TEXT_HEAVNZ023_01748_TODO_02","ラニエットに<Sheet(EventItem,2001599,0)/>を渡す"
 27,"TEXT_HEAVNZ023_01748_TODO_03",""
 28,"TEXT_HEAVNZ023_01748_TODO_04",""
 29,"TEXT_HEAVNZ023_01748_TODO_05",""
@@ -49,12 +49,29 @@ int32,str,str
 45,"TEXT_HEAVNZ023_01748_TODO_21",""
 46,"TEXT_HEAVNZ023_01748_TODO_22",""
 47,"TEXT_HEAVNZ023_01748_TODO_23",""
-48,"TEXT_HEAVNZ023_01748_LANIAITTE_000_000","Excuse me, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. A moment of your time, if I may? I recently received a special request for assistance with zoological research, but am at a loss as to how to fulfill it."
-49,"TEXT_HEAVNZ023_01748_LANIAITTE_000_001","Are you familiar with gaelicats? They bear a striking resemblance to kittens, but with wings. An acquaintance of mine is writing an article on their physiology and requires a sample of their wings for her work."
-50,"TEXT_HEAVNZ023_01748_LANIAITTE_000_002","Their sweet appearance belies a rather nasty temperament, and if it were simply a matter of slaying them I would handle it myself. The problem, however, is that taking a proper sample requires a delicate touch. A certain finesse that is beyond the capabilities of my men and myself."
-51,"TEXT_HEAVNZ023_01748_LANIAITTE_000_003","Because they are so fragile, you may not obtain a proper sample from the first you fell. But I have no doubt a <If(PlayerParameter(4))>woman<Else/>man</If> of your talents can procure a wing of immaculate quality. I realize this is a rather personal request, but I would be forever in your debt."
-52,"TEXT_HEAVNZ023_01748_LANIAITTE_000_010","You should find gaelicats easily enough in the areas surrounding the camp. Do not be discouraged should you fail to obtain a suitable sample right away."
-53,"TEXT_HEAVNZ023_01748_LANIAITTE_000_020","How fares your search? I realize obtaining an undamaged gaelicat wing is no easy feat."
-54,"TEXT_HEAVNZ023_01748_LANIAITTE_000_021","My, what an extraordinary find! I am pleased to see your persistence has paid off. With this, she can resume her work on cloudkin!"
-55,"TEXT_HEAVNZ023_01748_LANIAITTE_000_022","Ah, how forgetful of me not to mention it sooner. This sample is meant for Atelloune, the renowned naturalist. She's hard at work on a new article for <Emphasis>New Eorzean Geographic</Emphasis> and requested a sample be delivered with the utmost haste."
-56,"TEXT_HEAVNZ023_01748_LANIAITTE_000_023","You can be sure she will hear it was the incomparable <Highlight>ObjectParameter(1)</Highlight> who made possible her latest work on cloudkin."
+48,"TEXT_HEAVNZ023_01748_LANIAITTE_000_000","ふむ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>殿に依頼できる仕事か……。
+あるにはあるが、少々、特殊なものであることを許してほしい。"
+49,"TEXT_HEAVNZ023_01748_LANIAITTE_000_001","「<Sheet(BNpcName,3494,0)/>」という珍妙な生き物をご存知か？
+翼が生えた猫のような、不可思議な魔物なのだが、
+知人が、その飛膜を欲しているのだ。"
+50,"TEXT_HEAVNZ023_01748_LANIAITTE_000_002","<Sheet(BNpcName,3494,0)/>は、その愛らしさとは裏腹に狂暴……
+飛膜を傷つけずに仕留めるとなると、一筋縄ではいかん。
+兵を束ねる者として、狩りにいそしむ訳にもいかなくてな。"
+51,"TEXT_HEAVNZ023_01748_LANIAITTE_000_003","初めから成功させるのは難しいだろうが、
+貴公の腕なら、「<Sheet(EventItem,2001599,0)/>」を獲ることもできよう。
+私用に近い依頼で恐縮だが、何卒、よろしくお願いしたい。"
+52,"TEXT_HEAVNZ023_01748_LANIAITTE_000_010","「<Sheet(BNpcName,3494,0)/>」から、
+「<Sheet(EventItem,2001599,0)/>」を獲ってきてもらいたいのだ。
+私用に近い依頼で恐縮だが、何卒、よろしくお願いしたい。"
+53,"TEXT_HEAVNZ023_01748_LANIAITTE_000_020","「<Sheet(BNpcName,3494,0)/>」から、
+「<Sheet(EventItem,2001599,0)/>」を獲ってきてもらいたいのだ。
+私用に近い依頼で恐縮だが、何卒、よろしくお願いしたい。"
+54,"TEXT_HEAVNZ023_01748_LANIAITTE_000_021","ありがたい、さすが<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>殿だ。
+こうも容易く「<Sheet(EventItem,2001599,0)/>」を獲ってくるとは、
+見事としか言いようがないな。"
+55,"TEXT_HEAVNZ023_01748_LANIAITTE_000_022","この飛膜は、知人のアテルーネに送っておこう。
+現在取り組んでいる「新エオルゼア博物誌」の執筆に、
+是が非でも必要だそうだからな。"
+56,"TEXT_HEAVNZ023_01748_LANIAITTE_000_023","無論、この飛膜の採取にあたっては、
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>殿の功績があったことも、
+知人には伝えさせていただくぞ！"

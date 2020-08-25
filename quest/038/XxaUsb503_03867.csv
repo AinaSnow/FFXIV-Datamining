@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_XXAUSB503_03867_SEQ_00","Marques has a personal request to make of you."
-1,"TEXT_XXAUSB503_03867_SEQ_01","When tending to the bodies of the recently deceased, Marques came across a broken horologe. The contraption is strangely familiar to the refugee, and he hopes that, by tinkering with it, he will recall its significance. Marques requests that you assist him by acquiring the necessary tools: a bull-point chisel, and a pair of needle-nose pincers, both of which should be available in Camp Drybone."
-2,"TEXT_XXAUSB503_03867_SEQ_02","Your inquiries in Camp Drybone lead you to the tools you seek. Deliver the tools to Marques at the Church of Saint Adama Landama."
-3,"TEXT_XXAUSB503_03867_SEQ_03","Upon receiving the tools, Marques immediately sets to work and repairs the horologe, as if by instinct─an act that only serves to unnerve the troubled refugee. Apologizing for the inconvenience, he bids you take the device to Sister Eluned, who is currently tending to the body of its owner outside the church."
-4,"TEXT_XXAUSB503_03867_SEQ_04","Sister Eluned has never before seen an intricate device like the horologe, which is reminiscent of the technological marvels Garlemald is said to possess. The brief association causes her to suspect that the deceased owner may have been a Garlean spy, and she considers informing the Immortal Flames stationed in Camp Drybone. However, Marques's ability to repair the horologe appears to be an even more stunning revelation, one which also bears further investigation."
+0,"TEXT_XXAUSB503_03867_SEQ_00","聖アダマ・ランダマ教会のマルケズは、修理に必要な道具を探しているようだ。"
+1,"TEXT_XXAUSB503_03867_SEQ_01","マルケズから、時計の修理に必要な道具を譲ってもらえるよう、交渉してきてほしいと頼まれた。東ザナラーンのキャンプ・ドライボーンにいる「旅の彫金師」に「<Sheet(EventItem,2003014,0)/>」を渡そう。"
+2,"TEXT_XXAUSB503_03867_SEQ_02","旅の彫金師から、道具を2つとも譲ってもらった。聖アダマ・ランダマ教会の「マルケズ」に、「<Sheet(EventItem,2003012,0)/>」と「<Sheet(EventItem,2003013,0)/>」を渡そう。"
+3,"TEXT_XXAUSB503_03867_SEQ_03","時計の修理が終わった。マルケズは、自身がなぜ時計の修理方法に長けているのか、わからないようだ。聖アダマ・ランダマ教会の「エルネド」に「<Sheet(EventItem,2003015,0)/>」を渡そう。"
+4,"TEXT_XXAUSB503_03867_SEQ_04","エルネドによると、この時計は帝国製のようだ。そんなものをいとも簡単に直してしまう、マルケズとはいったい何者なのだろうか……？"
 5,"TEXT_XXAUSB503_03867_SEQ_05",""
 6,"TEXT_XXAUSB503_03867_SEQ_06",""
 7,"TEXT_XXAUSB503_03867_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_XXAUSB503_03867_SEQ_21",""
 22,"TEXT_XXAUSB503_03867_SEQ_22",""
 23,"TEXT_XXAUSB503_03867_SEQ_23",""
-24,"TEXT_XXAUSB503_03867_TODO_00","Hand the weighty coinpurse to the traveling goldsmith."
-25,"TEXT_XXAUSB503_03867_TODO_01","Deliver the tools to Marques."
-26,"TEXT_XXAUSB503_03867_TODO_02","Give the horologe to Eluned."
+24,"TEXT_XXAUSB503_03867_TODO_00","旅の彫金師に<Sheet(EventItem,2003014,0)/>を渡す"
+25,"TEXT_XXAUSB503_03867_TODO_01","聖アダマ・ランダマ教会のマルケズに道具を渡す"
+26,"TEXT_XXAUSB503_03867_TODO_02","エルネドに<Sheet(EventItem,2003015,0)/>を渡す"
 27,"TEXT_XXAUSB503_03867_TODO_03",""
 28,"TEXT_XXAUSB503_03867_TODO_04",""
 29,"TEXT_XXAUSB503_03867_TODO_05",""
@@ -49,24 +49,60 @@ int32,str,str
 45,"TEXT_XXAUSB503_03867_TODO_21",""
 46,"TEXT_XXAUSB503_03867_TODO_22",""
 47,"TEXT_XXAUSB503_03867_TODO_23",""
-48,"TEXT_XXAUSB503_03867_SYSTEM_100_000","To accept this quest, you must abandon the current main scenario quest. Open the corresponding entry in the journal or duty list and select “Abandon.”"
-49,"TEXT_XXAUSB503_03867_MARQUEZ_000_000","Excuse me, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>...do you have a moment? It concerns this broken horologe which was found in the pocket of a man brought here for burial."
-50,"TEXT_XXAUSB503_03867_MARQUEZ_000_001","There is something...familiar about it...but just what I cannot say. Perhaps if I tinker with the device, it will come to me."
-51,"TEXT_XXAUSB503_03867_MARQUEZ_000_002","However, I lack the proper tools to do so. I would ask that you journey to Camp Drybone in my stead to obtain a bull-point chisel and a pair of needle-nose pincers."
-52,"TEXT_XXAUSB503_03867_MARQUEZ_000_003","They are often used by goldsmiths, so perhaps they would be the best people to ask."
-53,"TEXT_XXAUSB503_03867_MARQUEZ_000_004","Of course, I do not expect you to foot the bill. Here, take this coinpurse. That should cover it."
-54,"TEXT_XXAUSB503_03867_GOLGSMITHXXXXX_000_010","A bull-point chisel, you say? And a pair of needle-nose pincers? Those things don't come cheap, you know..."
-55,"TEXT_XXAUSB503_03867_GOLGSMITHXXXXX_000_011","Thal's balls! I mean, yes, that should be sufficient payment. Nice doing business with you. Heh heh..."
-56,"TEXT_XXAUSB503_03867_GOLGSMITHXXXXX_000_020","Erk! You again? Before you ask, no, I don't do refunds. Not that there's anything wrong with the fine tools I sold you!"
-57,"TEXT_XXAUSB503_03867_MARQUEZ_000_030","Have you brought the tools I requested?"
-58,"TEXT_XXAUSB503_03867_MARQUEZ_000_031","Hmmm...something occurs to me. Please wait here for a moment."
-59,"TEXT_XXAUSB503_03867_MARQUEZ_000_032","It was for naught. Though I repaired the device easily, this sensation that stirs within me remains a mystery."
-60,"TEXT_XXAUSB503_03867_MARQUEZ_000_033","But how...how did I do it?"
-61,"TEXT_XXAUSB503_03867_MARQUEZ_000_034","These hands...my hands, they moved with a mind of their own, deftly manipulating the clockwork mechanisms..."
-62,"TEXT_XXAUSB503_03867_MARQUEZ_000_035","There was no doubt or uncertainty. I knew exactly what to do, as though I had performed the same motions countless times before..."
-63,"TEXT_XXAUSB503_03867_MARQUEZ_000_036","P-Pardon me, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>─this was a mistake. Please give the horologe to Sister Eluned. The man who once owned it is currently in her care, and I think it best that it be returned to him."
-64,"TEXT_XXAUSB503_03867_ELUNED_000_040","Good <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>evening<Else/>morrow</If><Else/><If(LessThan(PlayerParameter(11),17))>day<Else/>evening</If></If> to you, <If(PlayerParameter(4))>madam<Else/>sir</If>. Have you come to pay your respects to this man?"
-65,"TEXT_XXAUSB503_03867_ELUNED_000_041","Never before have I seen such a queer device. You say that it measures the passing of time?"
-66,"TEXT_XXAUSB503_03867_ELUNED_000_042","Mayhap they are more common in Garlemald. I am given to understand that its cities are filled with all manner of amazing technologies."
-67,"TEXT_XXAUSB503_03867_ELUNED_000_043","Marques said that it belonged to the deceased? Oh dear... You don't suppose that the owner might have been a Garlean spy? It may behoove us to notify the authorities in Camp Drybone."
-68,"TEXT_XXAUSB503_03867_ELUNED_000_044","But...mayhap more importantly, how did Marques manage to repair this device? I knew he had a talent for the trades, but this goes far beyond mending fences and thatching rooves..."
+48,"TEXT_XXAUSB503_03867_SYSTEM_100_000","受注するには、進行中のメインクエストを破棄する必要があります。
+メインコマンドの「コンテンツ情報」から、
+「ジャーナル」を選び、破棄してください。"
+49,"TEXT_XXAUSB503_03867_MARQUEZ_000_000","……なぁ、これを見てくれ。
+こいつは時計、しかも持ち運べる「懐中時計」ってやつだ。
+ドライボーンに収容された遺体が持っていたんだが……。"
+50,"TEXT_XXAUSB503_03867_MARQUEZ_000_001","でも、壊れてしまっている……。
+……持ち主の死とともに、時計の時間も止まってしまった。
+死者を生き返らせるのは無理だが、これなら俺が……。"
+51,"TEXT_XXAUSB503_03867_MARQUEZ_000_002","……修理するには、専用の道具が必要だ。
+「<Sheet(EventItem,2003012,0)/>」と「<Sheet(EventItem,2003013,0)/>」。
+これをどうにかして、手に入れたい。"
+52,"TEXT_XXAUSB503_03867_MARQUEZ_000_003","この手の道具を使うのは、エオルゼアなら彫金師だろう。
+そして折よく、キャンプ・ドライボーンに、
+「旅の彫金師」が来ているらしい。"
+53,"TEXT_XXAUSB503_03867_MARQUEZ_000_004","すまないが、「<Sheet(EventItem,2003012,0)/>」と「<Sheet(EventItem,2003013,0)/>」を、
+譲ってもらえるよう、「旅の彫金師」と交渉してきてくれ。
+代金はこの「<Sheet(EventItem,2003014,0)/>」に入れてある……よろしく頼むぞ。"
+54,"TEXT_XXAUSB503_03867_GOLGSMITHXXXXX_000_010","えっ……<Sheet(EventItem,2003012,0)/>と、
+<Sheet(EventItem,2003013,0)/>がほしい？
+予備があるから、代金さえ支払ってくれれば譲れるけど……。"
+55,"TEXT_XXAUSB503_03867_GOLGSMITHXXXXX_000_011","ふむ……このくらいの金額なら妥当だろう。
+ほら、お望みの道具だよ。
+持っていきな！"
+56,"TEXT_XXAUSB503_03867_GOLGSMITHXXXXX_000_020","……おや、どうしたんだい？
+誰が使うのかわからないけど、
+早く道具を渡しに行きなよ。"
+57,"TEXT_XXAUSB503_03867_MARQUEZ_000_030","……おかえり。
+道具は譲ってもらえたか？"
+58,"TEXT_XXAUSB503_03867_MARQUEZ_000_031","……ありがとう、感謝する。
+すぐ修理に取りかかってみよう。"
+59,"TEXT_XXAUSB503_03867_MARQUEZ_000_032","……時計は直ったぞ。
+持ち主の時は止まっても、世界の時は動き続けている……。"
+60,"TEXT_XXAUSB503_03867_MARQUEZ_000_033","しかし……なぜだ？
+どうしてなんだ？"
+61,"TEXT_XXAUSB503_03867_MARQUEZ_000_034","……なぜ俺は……時計を直せる？
+精巧に重なりあうゼンマイやアンクル……。
+緻密なトゥールビヨン脱進器の鼓動……。"
+62,"TEXT_XXAUSB503_03867_MARQUEZ_000_035","すべての構造を……なぜか俺は知っている。
+そして俺の手が、修理法を憶えている。
+……なぜなんだ……。"
+63,"TEXT_XXAUSB503_03867_MARQUEZ_000_036","……すまん、少し疲れたようだ。
+この時計を「エルネド」に渡してくれ。
+彼女は今、この時計の持ち主を弔っているところだ。"
+64,"TEXT_XXAUSB503_03867_ELUNED_000_040","あら、冒険者様。
+どうかなさいましたか？"
+65,"TEXT_XXAUSB503_03867_ELUNED_000_041","……これは時計、ですか？
+まあ、なんて小さい……。
+こんなものは生まれて初めて見ました。"
+66,"TEXT_XXAUSB503_03867_ELUNED_000_042","きっと、ガレマール帝国で作られたものでしょう。
+帝国の機械技術は、エオルゼアの技術よりも
+はるかに優れていると聞いたことがあります。"
+67,"TEXT_XXAUSB503_03867_ELUNED_000_043","もしかしたら、この持ち主は帝国人……。
+「ガレマール帝国」の密偵だったのかもしれませんね。
+念のため「不滅隊」に報告した方がいいでしょうか……。"
+68,"TEXT_XXAUSB503_03867_ELUNED_000_044","……それにしても、こんなものを修理できるだなんて。
+マルケズさん、彼はいったい……？"

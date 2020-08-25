@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBSEA166_01152_SEQ_00","When the commander of Skull Valley herself wants a word with a humble adventurer before <If(PlayerParameter(4))>she<Else/>he</If> takes to the road, all indications are that something unusual is afoot."
-1,"TEXT_SUBSEA166_01152_SEQ_01","Commander Falkbryda is a happy woman, for Maelstrom Command has relieved her men of investigating the Sastasha Seagrot. Of course, what she learned this morn, you knew some time ago for the replacement is none other than yourself. You must now find Sergeant Catguistl near the cave and relieve him."
-2,"TEXT_SUBSEA166_01152_SEQ_02","Your conversation with Catguistl has left you if not apprehensive, then certainly contemplative of entering the Seagrot."
+0,"TEXT_SUBSEA166_01152_SEQ_00","キャンプ・スカルバレーのファルクブリダ中甲佐は、冒険者に報告したい案件があるようだ。"
+1,"TEXT_SUBSEA166_01152_SEQ_01","イエロージャケットのレイナーから依頼されたサスタシャ浸食洞の調査は、冒険者に委ねられた。黒渦団はこの件から手を引くらしい。「サスタシャ浸食洞」の入口にいる黒渦団「カトグイストル准甲士」に声をかけ、任務完了を告げよう。"
+2,"TEXT_SUBSEA166_01152_SEQ_02","カトグイストル准甲士と話すことができた。彼の様子から察するに「サスタシャ浸食洞」には、大変な危険が潜んでいるようだ……。"
 3,"TEXT_SUBSEA166_01152_SEQ_03",""
 4,"TEXT_SUBSEA166_01152_SEQ_04",""
 5,"TEXT_SUBSEA166_01152_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_SUBSEA166_01152_SEQ_21",""
 22,"TEXT_SUBSEA166_01152_SEQ_22",""
 23,"TEXT_SUBSEA166_01152_SEQ_23",""
-24,"TEXT_SUBSEA166_01152_TODO_00","Speak with Sergeant Catguistl."
+24,"TEXT_SUBSEA166_01152_TODO_00","カトグイストル准甲士と話す"
 25,"TEXT_SUBSEA166_01152_TODO_01",""
 26,"TEXT_SUBSEA166_01152_TODO_02",""
 27,"TEXT_SUBSEA166_01152_TODO_03",""
@@ -49,13 +49,29 @@ int32,str,str
 45,"TEXT_SUBSEA166_01152_TODO_21",""
 46,"TEXT_SUBSEA166_01152_TODO_22",""
 47,"TEXT_SUBSEA166_01152_TODO_23",""
-48,"TEXT_SUBSEA166_01152_FALKBRYDA_000_000","I hear you're leaving us, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>─news travels fast in an encampment. Mayhap you can assist us one last time on your journey out. I have a dispatch here from Maelstrom Command─from Commodore Reyner of the Yellowjackets."
-49,"TEXT_SUBSEA166_01152_FALKBRYDA_000_001","We have been investigating the Sastasha Seagrot on their orders, but it seems they have taken on an adventurer─“of excellent repute and pleasing manner,” the commodore writes─to complete the work."
-50,"TEXT_SUBSEA166_01152_FALKBRYDA_000_002","Now, if you...yes?
-Ha! This is <Emphasis>you</Emphasis> he speaks of? Of course! Well, Camp Skull Valley would be glad to add to the burnish of your repute. You have carried out your commissions admirably well."
-51,"TEXT_SUBSEA166_01152_FALKBRYDA_000_003","Commodore Reyner and many others in command are of the same mind as I, that we have spread our forces too thin with these tasks. I am all too happy to withdraw our men from the caves, truth be told."
-52,"TEXT_SUBSEA166_01152_FALKBRYDA_000_004","Chief Sergeant Catguistl is the ranking officer at the Sastasha Seagrot. Locate him and tell him that his mission is complete, and he is ordered to report back to Skull Valley."
-53,"TEXT_SUBSEA166_01152_CATGUISTL_000_000","Halt, adventurer! Do you mean to enter the Sastasha Seagrot? I would advise against it. You'll likely perish in its labyrinthine depth. Trust me─were it not for sheer strength of will, I'd not be standing here."
-54,"TEXT_SUBSEA166_01152_CATGUISTL_000_001","What am I doing out here, you ask? This is a comely spot for strategizing, I find. Far better than the labyrinthine depth of the cave, friend. In there, none shall hear you scream─particularly since everybody else has been reassigned."
-55,"TEXT_SUBSEA166_01152_CATGUISTL_000_002","Me, as well, you say? Back to Camp Skull Valley, and away from the labyrinthine depth of that hellhole? Most excellent. I have my principles and would willingly have sacrificed my life for the mission, but I am not grieved to cede that prospect to you─and bid this grot good day!"
-56,"TEXT_SUBSEA166_01152_CATGUISTL_000_003","My place is at a fort or on the battlefield, not crawling around a dank cave with coils of rope and sheaves of paper, fearing I shall never see daylight again. I warn you friend, there is much danger in those depths. It is─what is the word─<Emphasis>labyrinthine</Emphasis>, I tell you."
+48,"TEXT_SUBSEA166_01152_FALKBRYDA_000_000","色々と世話になったな、冒険者。
+リムサ・ロミンサの黒渦団軍令部から報告があってな。"
+49,"TEXT_SUBSEA166_01152_FALKBRYDA_000_001","イエロージャケットのレイナー司令からの伝令だ。
+内容は「サスタシャ浸食洞」の調査について。
+司令は調査に腕利きの冒険者を雇ったらしい。"
+50,"TEXT_SUBSEA166_01152_FALKBRYDA_000_002","おや……もしかして、その冒険者というのが貴公なのか？
+ははははは！　そういうことか！
+いや、縁というものは奇なものだ。"
+51,"TEXT_SUBSEA166_01152_FALKBRYDA_000_003","実は我々も、この調査に人員を割いていたのだ。
+とはいえ、我々の本分はあくまで砦の防衛。
+この件からは手を引き、あとは貴公に任せるとしよう。"
+52,"TEXT_SUBSEA166_01152_FALKBRYDA_000_004","サスタシャに赴く道中に、私の派遣した者がいるはずだ。
+彼……「カトグイストル准甲士」に声をかけ、
+任務完了を告げてくれるとありがたい。よろしく頼む。"
+53,"TEXT_SUBSEA166_01152_CATGUISTL_000_000","お前「サスタシャ浸食洞」に行くのか？
+やめとけやめとけ！　お前弱そうだし、絶対死ぬぜ？
+だって俺、死にそうになったもん。"
+54,"TEXT_SUBSEA166_01152_CATGUISTL_000_001","今はここで作戦会議よ！　ひとり作戦会議！
+俺は「黒渦団」のエリートで期待の新人だからして～。
+ホンキ出せば余裕なんだけどね～。"
+55,"TEXT_SUBSEA166_01152_CATGUISTL_000_002","……キャンプ・スカルバレーに帰れって？
+ファルクブリダ中甲佐が言ってたの？
+任務完了ってことは、お役御免ってこと……？"
+56,"TEXT_SUBSEA166_01152_CATGUISTL_000_003","あ、あははは、そうかあ～。
+わかった、後はまかせたわ！
+いや～残念だなぁ、俺のホンキ見せたかったなぁ……。"

@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNZ323_01815_SEQ_00","Kal Myhk wishes to hear his mother's request."
-1,"TEXT_HEAVNZ323_01815_SEQ_01","You finally tell Kal Myhk what his mother requests of him─to hunt for the day's meal. He makes for the nearby river without delay, and asks you to accompany him. Head south and meet with Kal Myhk."
-2,"TEXT_HEAVNZ323_01815_SEQ_02","You meet Kal Myhk down at the river. He confesses that he has never taken charge in hunting by himself, but he explains to you the way his elders catch their prey. Slay a clearwater nanka to use as bait."
-3,"TEXT_HEAVNZ323_01815_SEQ_03","You slay a clearwater nanka and are ready to catch your prey. According to Kal Myhk, his elders would lay their bait along the nearby rocks and wait for their prey to come biting. Do as his elders do, and strike down any beast that comes looking for an easy meal."
-4,"TEXT_HEAVNZ323_01815_SEQ_04","A jagil leaps up from the river to claim your bait, but you slay it with swift precision. Speak with Kal Myhk and show him what you caught."
-5,"TEXT_HEAVNZ323_01815_SEQ_05","You show Kal Myhk your freshly caught jagil. He is impressed with your hunting skills. So much so, that he decides to try by himself. Take your catch to Gullinkambi while he tries his hand at catching fish."
-6,"TEXT_HEAVNZ323_01815_SEQ_06","You bring the jagil to Gullinkambi. Realizing you carried out the hunt in her son's stead, she apologizes. At a mere thirty years of age, Kal Myhk is but a dragonling and lacks experience. She is glad, however, to see that he has grown to trust you."
+0,"TEXT_HEAVNZ323_01815_SEQ_00","カル・ミークは、母親からの伝言を知りたいようだ。"
+1,"TEXT_HEAVNZ323_01815_SEQ_01","カル・ミークに食糧を狩るよう伝えたところ、ひとりで南のほうへ行ってしまった。高地ドラヴァニアのウィロームリバーで、「カル・ミーク」を探そう。"
+2,"TEXT_HEAVNZ323_01815_SEQ_02","カル・ミークを見つけた。狩りをするためには、獲物をおびき寄せるエサが必要だという。ウィロームリバーにいる「<Sheet(BNpcName,3570,0)/>」を討伐し、「<Sheet(EventItem,2001752,0)/>」を手に入れよう。"
+3,"TEXT_HEAVNZ323_01815_SEQ_03","<Sheet(EventItem,2001752,0)/>を手に入れた。ウィロームリバーの「<Sheet(EObj,2006029,0)/>」に「<Sheet(EventItem,2001752,0)/>」を置いて、現れた獲物を討伐し、カル・ミークたちの食糧を入手しよう。"
+4,"TEXT_HEAVNZ323_01815_SEQ_04","<Sheet(EventItem,2001753,0)/>を手に入れた。ウィロームリバーの「カル・ミーク」に報告しよう。"
+5,"TEXT_HEAVNZ323_01815_SEQ_05","カル・ミークに報告した。ひと足先に、高地ドラヴァニアの不浄の三塔に戻り、「グリンカムビ」に「<Sheet(EventItem,2001753,0)/>」を渡そう。"
+6,"TEXT_HEAVNZ323_01815_SEQ_06","グリンカムビに<Sheet(EventItem,2001753,0)/>を渡した。グリンカムビは、子どもが冒険者になついたことを喜び、感謝の気持ちを表すのだった。"
 7,"TEXT_HEAVNZ323_01815_SEQ_07",""
 8,"TEXT_HEAVNZ323_01815_SEQ_08",""
 9,"TEXT_HEAVNZ323_01815_SEQ_09",""
@@ -25,11 +25,11 @@ int32,str,str
 21,"TEXT_HEAVNZ323_01815_SEQ_21",""
 22,"TEXT_HEAVNZ323_01815_SEQ_22",""
 23,"TEXT_HEAVNZ323_01815_SEQ_23",""
-24,"TEXT_HEAVNZ323_01815_TODO_00","Meet Kal Myhk at the river."
-25,"TEXT_HEAVNZ323_01815_TODO_01","Slay a clearwater nanka to use as bait."
-26,"TEXT_HEAVNZ323_01815_TODO_02","Place your bait along the rocks, then slay the monster that appears."
-27,"TEXT_HEAVNZ323_01815_TODO_03","Speak with Kal Myhk."
-28,"TEXT_HEAVNZ323_01815_TODO_04","Deliver your catch to Gullinkambi."
+24,"TEXT_HEAVNZ323_01815_TODO_00","カル・ミークを探す"
+25,"TEXT_HEAVNZ323_01815_TODO_01","<Sheet(BNpcName,3570,0)/>を討伐する"
+26,"TEXT_HEAVNZ323_01815_TODO_02","<Sheet(EObj,2006029,0)/>に<Sheet(EventItem,2001752,0)/>を使い現れた魔物を討伐"
+27,"TEXT_HEAVNZ323_01815_TODO_03","カル・ミークと話す"
+28,"TEXT_HEAVNZ323_01815_TODO_04","グリンカムビに<Sheet(EventItem,2001753,0)/>を渡す"
 29,"TEXT_HEAVNZ323_01815_TODO_05",""
 30,"TEXT_HEAVNZ323_01815_TODO_06",""
 31,"TEXT_HEAVNZ323_01815_TODO_07",""
@@ -49,12 +49,26 @@ int32,str,str
 45,"TEXT_HEAVNZ323_01815_TODO_21",""
 46,"TEXT_HEAVNZ323_01815_TODO_22",""
 47,"TEXT_HEAVNZ323_01815_TODO_23",""
-48,"TEXT_HEAVNZ323_01815_KALMYHK_000_000","What word do you bring from Mother?"
-49,"TEXT_HEAVNZ323_01815_KALMYHK_000_001","I see. She bids me hunt for today's meal? Then hunt I must. Come. We will catch fish at the river."
-50,"TEXT_HEAVNZ323_01815_KALMYHK_000_010","Mother asks that I hunt, but I have never dared to hunt alone."
-51,"TEXT_HEAVNZ323_01815_KALMYHK_000_011","The elders would lie in wait for their prey, using the flesh of clearwater nankas as bait to draw them out."
-52,"TEXT_HEAVNZ323_01815_KALMYHK_000_012","Pluck one from the river and lay it along the rocks. When suitable prey approaches, strike it down!"
-53,"TEXT_HEAVNZ323_01815_KALMYHK_000_020","Clearwater nankas have always proven effective as bait. Lay one along the rocks and our prey is sure to appear before long."
-54,"TEXT_HEAVNZ323_01815_KALMYHK_000_030","You make a fine hunter, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Take this meat to Mother. I wish to try hunting alone."
-55,"TEXT_HEAVNZ323_01815_GULLINKAMBI_000_040","Did you find Kal Myhk? Has he taken up the hunt?"
-56,"TEXT_HEAVNZ323_01815_GULLINKAMBI_000_041","You hunted in his stead? I apologize. He is but thirty years old, and still has much to learn. But I see you have gained his trust. Very good, very good indeed."
+48,"TEXT_HEAVNZ323_01815_KALMYHK_000_000","えーっと、伝言だっけ？
+おかあさん、ボクに何をしてほしいって言ってたの？"
+49,"TEXT_HEAVNZ323_01815_KALMYHK_000_001","ふむ、ごはんの調達？
+そんなことか～、かんたんかんたん！
+狩りぐらい、ボクにまかせてよ！　いっくぞ～～！"
+50,"TEXT_HEAVNZ323_01815_KALMYHK_000_010","お、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>！
+……そういえばボク、ひとりで狩りしたことなかったや。
+いつも、お手伝いしてただけだったから……えへへっ。"
+51,"TEXT_HEAVNZ323_01815_KALMYHK_000_011","んっと、いつもどうやってたっけな……
+そうだ、エサをおいて、エモノが来るのを待ってるんだった！
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、エサを持ってきて、あの岩においてよ！"
+52,"TEXT_HEAVNZ323_01815_KALMYHK_000_012","たしか、川にいる「<Sheet(BNpcName,3570,0)/>」の肉をエサにしてたはず！
+そんじゃあ、よろしくね～！"
+53,"TEXT_HEAVNZ323_01815_KALMYHK_000_020","エサを持ってきて、あの岩においてよ！
+たしか、川にいる「<Sheet(BNpcName,3570,0)/>」の肉をエサにしてたはず！"
+54,"TEXT_HEAVNZ323_01815_KALMYHK_000_030","おぉぉ～！　やるじゃん、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>！
+よーし、ボクもやるぞー！
+あ、それ、おかあさんにわたしといて！　狩るぞぉ～！"
+55,"TEXT_HEAVNZ323_01815_GULLINKAMBI_000_040","冒険者よ、
+あの子に言伝をしてきては、もらえたかい？"
+56,"TEXT_HEAVNZ323_01815_GULLINKAMBI_000_041","おやまぁ、ずいぶんと手間をかけさせてしまったね。
+すまないね、ほんの30才の子どもの事ゆえ、許しておくれ。
+ともかく仲良くしてくれたこと、感謝するよ……ありがとう。"

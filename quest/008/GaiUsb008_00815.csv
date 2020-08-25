@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB008_00815_SEQ_00","Landenel needs to explain a few things to you."
-1,"TEXT_GAIUSB008_00815_SEQ_01","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/> This quest has been adjusted. Please abandon the quest and restart it by speaking to Landenel at Camp Tranquil.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+0,"TEXT_GAIUSB008_00815_SEQ_00","キャンプ・トランキルの鬼哭隊ランドゥネルは、珍味の入手方法について助言してくれるようだ。"
+1,"TEXT_GAIUSB008_00815_SEQ_01","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/>本クエストは調整されました。一度破棄し、キャンプ・トランキルの「ランドゥネル」から再受注してください。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
-※The Main Scenario Guide shows the next available quest. You can toggle it on and off in Character Configuration, under UI Settings."
-2,"TEXT_GAIUSB008_00815_SEQ_02","As Landenel feared, agaric flies have already taken notice of the brownie brushes. Having slain a swarm of the vilekin, collect a brownie brush as evidence."
-3,"TEXT_GAIUSB008_00815_SEQ_03","You harvest a single succulent brownie brush. Deliver it to Landenel and tell him of the agaric fly infestation."
-4,"TEXT_GAIUSB008_00815_SEQ_04","Landenel is unsurprisingly horrified to hear that you encountered agaric flies in the Lower Paths. All that remains is to inform his sentries..."
+※次のメインクエストは、「メインクエストガイド」からも確認することができます。メインクエストガイドの表示/非表示は、メインコマンドの「キャラクターコンフィグ」から「ユーザーインターフェース設定」を選び、変更してください。"
+2,"TEXT_GAIUSB008_00815_SEQ_02","<Sheet(BNpcName,2058,0)/>を討伐した。「<Sheet(EventItem,2000638,0)/>」を入手しよう。"
+3,"TEXT_GAIUSB008_00815_SEQ_03","<Sheet(EventItem,2000638,0)/>を入手した。キャンプ・トランキルの「ランドゥネル」に渡そう。"
+4,"TEXT_GAIUSB008_00815_SEQ_04","ランドゥネルは、<Sheet(BNpcName,2058,0)/>が現れたという情報に驚愕しているようだ。すぐにロウアーパス付近の警備を強化する必要があるというが……。"
 5,"TEXT_GAIUSB008_00815_SEQ_05",""
 6,"TEXT_GAIUSB008_00815_SEQ_06",""
 7,"TEXT_GAIUSB008_00815_SEQ_07",""
@@ -27,9 +27,12 @@ int32,str,str
 21,"TEXT_GAIUSB008_00815_SEQ_21",""
 22,"TEXT_GAIUSB008_00815_SEQ_22",""
 23,"TEXT_GAIUSB008_00815_SEQ_23",""
-24,"TEXT_GAIUSB008_00815_TODO_00","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/> This quest has been adjusted. Please abandon the quest and restart it by speaking to Landenel at Camp Tranquil.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
-25,"TEXT_GAIUSB008_00815_TODO_01","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/> This quest has been adjusted. Please abandon the quest and restart it by speaking to Landenel at Camp Tranquil.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
-26,"TEXT_GAIUSB008_00815_TODO_02","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/> This quest has been adjusted. Please abandon the quest and restart it by speaking to Landenel at Camp Tranquil.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+24,"TEXT_GAIUSB008_00815_TODO_00","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/>本クエストは調整されました。一度破棄し、
+キャンプ・トランキルのランドゥネルから再受注してください<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+25,"TEXT_GAIUSB008_00815_TODO_01","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/>本クエストは調整されました。一度破棄し、
+キャンプ・トランキルのランドゥネルから再受注してください<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+26,"TEXT_GAIUSB008_00815_TODO_02","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/>本クエストは調整されました。一度破棄し、
+キャンプ・トランキルのランドゥネルから再受注してください<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 27,"TEXT_GAIUSB008_00815_TODO_03",""
 28,"TEXT_GAIUSB008_00815_TODO_04",""
 29,"TEXT_GAIUSB008_00815_TODO_05",""
@@ -51,18 +54,41 @@ int32,str,str
 45,"TEXT_GAIUSB008_00815_TODO_21",""
 46,"TEXT_GAIUSB008_00815_TODO_22",""
 47,"TEXT_GAIUSB008_00815_TODO_23",""
-48,"TEXT_GAIUSB008_00815_LANDENEL_000_000","Let me be clear: this business between you, me, and the captain must remain a secret."
-49,"TEXT_GAIUSB008_00815_LANDENEL_000_001","See, I don't regret my time spent with the Company in the slightest. Traveling the world, meeting interesting people, killing them─it was all jolly good fun."
-50,"TEXT_GAIUSB008_00815_LANDENEL_000_002","Alas, Gridanians are, by and large, an unforgiving lot─Detoh here being a rare exception."
-51,"TEXT_GAIUSB008_00815_LANDENEL_000_003","I've had to go to great lengths to ensure that I am seen as a model citizen, with no taste for drinking, whoring, gambling, and all those other activities I so dearly miss."
-52,"TEXT_GAIUSB008_00815_LANDENEL_000_004","So understand that if you ruin my little charade by wagging your tongue, I'll fashion a noose with your entrails and hang you from the nearest heavenspillar."
-53,"TEXT_GAIUSB008_00815_LANDENEL_000_005","Now then, where were we...ah, yes, the egg. The first thing you must do is deal with the sentries patrolling the adamantoise breeding grounds. Poaching is illegal in Gridania, in case you were unaware."
-54,"TEXT_GAIUSB008_00815_LANDENEL_000_006","A shame we have so few Wailers to spare─especially with brownie brushes almost in season. Matron forfend if agaric flies claim the crop before we receive additional sentries..."
-55,"TEXT_GAIUSB008_00815_LANDENEL_000_007","Aye, we will also soon need barrels of stingbrew to weaken and ward off the pests."
-56,"TEXT_GAIUSB008_00815_LANDENEL_100_008","But if any of the vilekin were found near the shrooms before we can take preventative measures, we would be forced to shift our patrols immediately..."
-57,"TEXT_GAIUSB008_00815_LANDENEL_000_008","You will, of course, notify me if you encounter any agaric flies in the vicinity of the Lower Paths, yes?"
-58,"TEXT_GAIUSB008_00815_LANDENEL_000_010",""
-59,"TEXT_GAIUSB008_00815_LANDENEL_000_021","I pray this year's crop of brownie brushes comes late..."
-60,"TEXT_GAIUSB008_00815_LANDENEL_000_022","Oh my, is this a brownie brush? And you say you slew a whole swarm of agaric flies!?"
-61,"TEXT_GAIUSB008_00815_LANDENEL_000_023","Matron's teats, we cannot wait for reinforcements! We must do something!"
-62,"TEXT_GAIUSB008_00815_POP_MESSAGE_000","You sense a hostile presence!"
+48,"TEXT_GAIUSB008_00815_LANDENEL_000_000","へへッ、準備万端ってかァ！？
+おうおう、挨拶がまだだったなァ！？
+俺ァ、鬼哭隊六番槍隊長、ランドゥネルッつーもんだ！"
+49,"TEXT_GAIUSB008_00815_LANDENEL_000_001","海雄旅団が解散したあと、地元のグリダニアに戻ってよォ。
+鬼哭隊としてビシバシ活躍してるっつーわけ……
+あー、ゴホン。"
+50,"TEXT_GAIUSB008_00815_LANDENEL_000_002","……私が海雄旅団員だったことは、仲間には秘密ですよ？
+真面目で礼儀正しい鬼哭隊の面々に合わせるべく、
+私はもとの性格を隠しているのですから。"
+51,"TEXT_GAIUSB008_00815_LANDENEL_000_003","さぁ、珍味「<Sheet(EventItem,2000641,0)/>」の話でしたね。
+<Sheet(BNpcName,34,0)/>は非常に凶暴な魔物でして、
+卵に近づく人を見境なく襲う習性があります。"
+52,"TEXT_GAIUSB008_00815_LANDENEL_000_004","そのため、クソ真面目な鬼哭隊の部下たちが、
+付近の警備をギチギチに固めやがったのですよ。"
+53,"TEXT_GAIUSB008_00815_LANDENEL_000_005","……ですが、私も元海雄旅団員ですから、
+冒険者が強敵に挑む浪漫は、大変によく理解できます。
+それを止めようとは、実に興ざめ……ですよねェ？"
+54,"TEXT_GAIUSB008_00815_LANDENEL_000_006","ここからは、私の独り言なのですが。
+……そろそろ、この時期の「ロウアーパス」に生える、
+「<Sheet(EventItem,2000638,0)/>」が食べてぇなァ。"
+55,"TEXT_GAIUSB008_00815_LANDENEL_000_007","あー、でも「<Sheet(BNpcName,2058,0)/>」が卵を産んでたら、
+危険だなァ……この「<Sheet(EventItem,2000959,0)/>」で弱らせとかないと、
+まともに戦えやしねぇからなァ。"
+56,"TEXT_GAIUSB008_00815_LANDENEL_100_008","部下は<Sheet(BNpcName,34,0)/>の監視してっから、
+ロウアーパスの辺りは警備が手薄なんだよなァ。"
+57,"TEXT_GAIUSB008_00815_LANDENEL_000_008","もし、<Sheet(BNpcName,2058,0)/>が羽化していたら、
+警備の配置を変更して、ロウアーパスの警備しなきゃなァ。
+でも、まだ報告がないから、動けないんだよなァ……。"
+58,"TEXT_GAIUSB008_00815_LANDENEL_000_010","キノコに近づくと、蝿の群れpop。"
+59,"TEXT_GAIUSB008_00815_LANDENEL_000_021","うーん、<Sheet(EventItem,2000638,0)/>が食べてぇなァ……。
+誰か持ってきてくれねェかなァ……。"
+60,"TEXT_GAIUSB008_00815_LANDENEL_000_022","これは……<Sheet(EventItem,2000638,0)/>ではないですか！
+ま、ままま、魔物は大丈夫でしたかッ？
+……な、なんですって！？"
+61,"TEXT_GAIUSB008_00815_LANDENEL_000_023","<Sheet(BNpcName,2058,0)/>が羽化していたのですか！？
+なんということでしょう！
+すぐにでも、ロウアーパスの警備を強化せねば！"
+62,"TEXT_GAIUSB008_00815_POP_MESSAGE_000","敵の気配を感じた！！"

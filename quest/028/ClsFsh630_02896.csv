@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSFSH630_02896_SEQ_00","Master Wawalago is drastically degenerating into disquiet."
-1,"TEXT_CLSFSH630_02896_SEQ_01","As the visibly galled guildmaster tells it, Govv had an epiphany of sorts and took off on his own towards Gyr Abania, heading towards the Velodyna River which flows through the valley. Wawalago can only assume the river has some connection with the shooting stars' disappearance from La Noscean waters, but he is worried for the beastman's safety in distant lands where his kind rarely venture. He implores you to give chase after Govv to ensure that the spirited Sahagin does not get into trouble. Before that, however, the two of you decide to make for Pike Falls to meet one of your angler acquaintances from Coerthas, whose help Wawalago has beseeched in the business of tracking down the disappearing fish."
-2,"TEXT_CLSFSH630_02896_SEQ_02","The capable cooperator enlisted by Wawalago happens to be none other than Reyna, fisher by day and assassin by night. While her investigation has turned up valid insights into the disappearance of the shooting stars, Govv dismisses her findings as a fabrication, on the basis that shorewalkers like you and Reyna possess only a superficial understanding of matters of the sea. Seeking to give Govv a taste of humility, Reyna proposes a contest to demonstrate the full depths of your angling expertise. Reel in three deep Velodyna carp before Govv does to prove that you are as capable a fisher as he."
-3,"TEXT_CLSFSH630_02896_SEQ_03","You easily win your fishing contest against Govv, who─as an ocean-dweller─is not acclimated to freshwater fishing. With the humbled Sahagin now offering a more receptive ear, Reyna elaborates on her findings, that the Sahagins' so-called shooting stars are likely the same schools of migratory fish that can be found further east, although the actual location of their spawning beds remains unknown. As she seeks further information from fishers in the region, she asks you to relay the news in full to Guildmaster Wawalago."
-4,"TEXT_CLSFSH630_02896_SEQ_04","You relay the details of Reyna's investigations to Wawalago, along with the story of your little contest with Govv, which amuses the old guildmaster greatly. After spending a moment to fawn over Reyna's formidable faculty for fishing─along with her many other alluring assets─Wawalago bids you bide your time until she contacts the guild with any further information.
+0,"TEXT_CLSFSH630_02896_SEQ_00","漁師ギルドのワワラゴは、ひどく慌てているようだ。"
+1,"TEXT_CLSFSH630_02896_SEQ_01","ゴォヴが、急に飛び出していってしまったらしい。ギラバニア辺境地帯のパイクフォールズに向かい、ワワラゴが呼んだ釣り道楽の協力者と合流しよう。"
+2,"TEXT_CLSFSH630_02896_SEQ_02","釣り道楽の協力者とは、レイナのことだった。ゴォヴを連れ戻すため、彼と勝負することになった。「<Sheet(Item,17949,0)/>」を3匹釣り上げ、パイクフォールズの「レイナ」に納品しよう。<Sheet(Item,17949,0)/>は、ベロジナ川で釣ることができるようだ。"
+3,"TEXT_CLSFSH630_02896_SEQ_03","ゴォヴとの勝負に勝利した。「海の流星」は東方で産卵をする回遊魚の可能性が高そうだ。漁師ギルドに戻り、「ワワラゴ」に報告しよう。"
+4,"TEXT_CLSFSH630_02896_SEQ_04","ワワラゴに、レイナが東方へ調査に向かってくれたことを報告した。レイナの推理力に感服したワワラゴは、彼女と出会える日が待ち遠しいようだ。
 
-※The next fisher quest will be available from Wawalago upon reaching level 65."
+※漁師のレベルが65以上になると、漁師ギルドのワワラゴから次の漁師クエストを受注することができます。"
 5,"TEXT_CLSFSH630_02896_SEQ_05",""
 6,"TEXT_CLSFSH630_02896_SEQ_06",""
 7,"TEXT_CLSFSH630_02896_SEQ_07",""
@@ -27,9 +27,9 @@ int32,str,str
 21,"TEXT_CLSFSH630_02896_SEQ_21",""
 22,"TEXT_CLSFSH630_02896_SEQ_22",""
 23,"TEXT_CLSFSH630_02896_SEQ_23",""
-24,"TEXT_CLSFSH630_02896_TODO_00","Meet with the fishing enthusiast at Pike Falls."
-25,"TEXT_CLSFSH630_02896_TODO_01","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Catch three deep Velodyna carp<Else/>Deliver the deep Velodyna carp to Reyna at Pike Falls</If>."
-26,"TEXT_CLSFSH630_02896_TODO_02","Report to Wawalago at Fisherman's Bottom."
+24,"TEXT_CLSFSH630_02896_TODO_00","パイクフォールズに向かい、釣り道楽の協力者と合流"
+25,"TEXT_CLSFSH630_02896_TODO_01","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>ベロジナ川で<Sheet(Item,17949,0)/>を釣る<Else/>パイクフォールズのレイナに<Sheet(Item,17949,0)/>を納品</If>"
+26,"TEXT_CLSFSH630_02896_TODO_02","漁師ギルドのワワラゴに報告"
 27,"TEXT_CLSFSH630_02896_TODO_03",""
 28,"TEXT_CLSFSH630_02896_TODO_04",""
 29,"TEXT_CLSFSH630_02896_TODO_05",""
@@ -51,51 +51,128 @@ int32,str,str
 45,"TEXT_CLSFSH630_02896_TODO_21",""
 46,"TEXT_CLSFSH630_02896_TODO_22",""
 47,"TEXT_CLSFSH630_02896_TODO_23",""
-48,"TEXT_CLSFSH630_02896_WAWALAGO_000_000","Oh, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! Thank goodness you're here! Govv's gone off again! This time to Gyr Abania!"
-49,"TEXT_CLSFSH630_02896_WAWALAGO_000_001","We had a rendezvous regarding my research into the disappearance of the schools of scarlet fish when a look of realization swept across his scaly face. He dashed away and I could scarcely ask what was the matter before he shouted one word and dove into the deep waters─of the Velodyna, that is."
-50,"TEXT_CLSFSH630_02896_WAWALAGO_000_002","As you know, the Velodyna River rushes rapidly through the ravines of Gyr Abania. While I am not privy to the particulars of his epiphany, he appears determined to cross that dangerous divide."
-51,"TEXT_CLSFSH630_02896_WAWALAGO_000_010","A single young Sahagin in lands subjugated under the shackles of Garlemald? I fear for our friend's safety─you must find him before he gets entangled with the Empire."
-52,"TEXT_CLSFSH630_02896_WAWALAGO_000_020","The region may have been emancipated from the Empire's control, but that doesn't mean that people won't brandish their battle arms against a brash beastman from beyond the border! You must track him down before he gets into trouble!"
-53,"TEXT_CLSFSH630_02896_WAWALAGO_000_030","Young Govv's got guts, I'll give him that, and it may take more than one angler to reel him in if he gets rowdy. I've contacted our cohorts in Coerthas, and they've consented to send an apt acquaintance to accompany you."
-54,"TEXT_CLSFSH630_02896_WAWALAGO_000_031","We've preemptively planned a powwow at Pike Falls. Now fly, friend, and fetch Govv back before he finds himself in a frying pan─figurative or otherwise!"
-55,"TEXT_CLSFSH630_02896_WAWALAGO_000_040","I have it on good authority that our angler acquaintance will be arriving in Gyr Abania anon. Pray push on to Pike Falls and pursue Govv before he gets himself tangled up in terrific trouble!"
-56,"TEXT_CLSFSH630_02896_GOVV_000_045","You would dare gainsssay the judgment of a Sssahagin in sssuch matters!?"
-57,"TEXT_CLSFSH630_02896_REYNA_000_050","Well, well! If it isn't <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, angler extraordinaire! How fare you these days? Ansaulme mentioned that you were in need of a deft hand, and as he's tangled up as usual in his struggle for succession, I took it upon myself to accompany you on this little escapade."
-58,"TEXT_CLSFSH630_02896_REYNA_000_051","Ah, yes─the Sahagin fellow. We just made each other's acquaintance. I saw a large shadow swimming beneath the surface of the Velodyna and when I cast my line, I found him on the other end of it. I was rather surprised to see a beastman so far from home, and what's more one that took the bait. Primal instincts, I suppose."
-59,"TEXT_CLSFSH630_02896_REYNA_000_052","'Twould seem he got it in his head that this river is polluted with ceruleum runoff. He's been swimming to and fro for the gods know how long trying to find the source."
-60,"TEXT_CLSFSH630_02896_REYNA_000_053","Like as not he's right about the pollution─there's no shortage of imperial structures in these parts, after all. But as I've been trying to tell him, I'm all but certain it's entirely unrelated to the disappearance of his beloved shooting stars. For you see─"
-61,"TEXT_CLSFSH630_02896_GOVV_000_054","Pshhh! What could the finless know of the riversss and ssseas! There is only one shorewalker I know with the authority to ssspeak of such matters, and his name is Wawalago!"
-62,"TEXT_CLSFSH630_02896_REYNA_000_055","Stubborn little bugger, isn't he? He won't listen to a word I say! I've tried to explain to him countless times that me and my fellow fishing enthusiasts are every bit Wawalago's equal when it comes to knowledge of the waters, but to no avail."
-63,"TEXT_CLSFSH630_02896_GOVV_000_056","Pshhh! The day that a Sahagin heeds the counsssel of a shorewalker on sssuch matters is the day the ssseas dry up!"
-64,"TEXT_CLSFSH630_02896_REYNA_000_057","Is that so? Then we'll just have to prove here and now that we're worth our salt. To that end, I would propose a contest! As you may know, the deep Velodyna carp inhabit these waters. If we can reel in three before you can spear the same number, you'll agree that our angling acumen is the equal of your own. Do we have a deal?"
-65,"TEXT_CLSFSH630_02896_REYNA_000_058","...Well, he certainly took the bait easily enough. All right, I'm counting on you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>─go catch us three big ones!"
-66,"TEXT_CLSFSH630_02896_REYNA_000_059","Hm? You thought <Emphasis>I'd</Emphasis> be doing the fishing? Perish the thought! Going up against the spearfishing of a Sahagin isn't something I like my chances with. You're far more capable than I."
-67,"TEXT_CLSFSH630_02896_REYNA_000_060","Don't worry, though. If I'm right, our friend is likely to resort to the same methods he uses in saltwater fishing, as that's all he knows. But <Emphasis>we</Emphasis> both know that the appropriate angling techniques differ from river to river and sea to sea. Use this to your advantage, and godsspeed!"
-68,"TEXT_CLSFSH630_02896_REYNA_000_065","As I expected, Govv is having difficulty adapting to freshwater fishing. Even the water itself seems to be irritating his skin. Still, we mustn't underestimate him─hurry and catch those carp!"
-69,"TEXT_CLSFSH630_02896_REYNA_000_070","Fine work, as always! You never cease to amaze with how quickly you assess the swimming patterns of your prey, even in unfamiliar waters. Let's call Govv back and settle this once and for all."
-70,"TEXT_CLSFSH630_02896_REYNA_000_080","Well, would you look at this. <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> cast, hooked, and reeled in three carp before you even set your sights on a single one. How does it feel to lose to a land-dweller, Govv?"
-71,"TEXT_CLSFSH630_02896_GOVV_000_081","Pshhh... I did not expect fishing in fresh waters to be ssso arduousss. For a shhhorewalker like you to outfish a Sahagin─there are no wordsss to expresss my shame..."
-72,"TEXT_CLSFSH630_02896_REYNA_000_082","Maybe now you've realized there's some worth to what we have to say. Now, shall we return to the topic of the shooting stars?"
-73,"TEXT_CLSFSH630_02896_GOVV_000_083","Pshhh. Capable fishermen you may be, but I have already found my anssswer. The shooting ssstars have disappeared because this river has been sssullied by the ceruleum ssspilling out into its waters."
-74,"TEXT_CLSFSH630_02896_REYNA_000_084","And if you would let me finish a sentence for just once, I would tell you this isn't so. Why, your prized fish aren't even native to this river! I've discovered beyond a shadow of a doubt that they hail from further to the east!"
-75,"TEXT_CLSFSH630_02896_REYNA_000_085","You see, I came to these parts for business. As <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> knows, my true profession is to ensure that my clients' enemies, ah, sleep with the fish. In my spare time, I took a liking to reeling in those fish. Needless to say, I often have occasion to chat with the locals about their favorite fishing spots."
-76,"TEXT_CLSFSH630_02896_REYNA_000_086","So I asked around based upon information relayed to me by Wawalago, pressing anglers from Eastern lands on the whereabouts of fish resembling the shooting stars' description."
-77,"TEXT_CLSFSH630_02896_REYNA_000_087","I was able to gather that there are indeed massive schools of bright scarlet fish measuring sixty ilms in length swimming in the waters near the isle of Thavnair in the Near East. And so I─"
-78,"TEXT_CLSFSH630_02896_GOVV_000_088","Pshhh! Sssixty ilms!? Those are no shooting ssstars! The fish that my clutch so cherished dwarf even you in sssize, shorewalker!"
-79,"TEXT_CLSFSH630_02896_REYNA_000_089","Let me finish for once, would you? Furthermore, in East Othard, I found fish of the selfsame appearance as those in Thavnair. Red as blood, but this time a mere <Emphasis>twenty</Emphasis> ilms in length."
-80,"TEXT_CLSFSH630_02896_GOVV_000_090","P...pshhh!? It all makesss sssense now! The shooting ssstars my clutch saw were fully grown! They begin life in the Far East as ssslight hatchlings, gradually growing to gargantuan sssize as they journey to the wessst!"
-81,"TEXT_CLSFSH630_02896_REYNA_000_091","That's what I've been trying to tell you from the start! If the numbers that embark on that rite of passage have dwindled to all but nothing, it stands to reason that whatever happened, happened in the vicinity of their spawning beds."
-82,"TEXT_CLSFSH630_02896_REYNA_000_092","That said, we still have a lot of ground─and water─to cover before we can fully ascertain just where their nursery is located. While the fishers of the east have seen fish fitting the description of the shooting stars, they were no more knowledgeable about where those fish originate from than we are."
-83,"TEXT_CLSFSH630_02896_REYNA_000_093","Thankfully, I've already managed to establish good rapport with the anglers in these parts. Would you be so kind as to return to La Noscea to give Master Wawalago a report at length while I ask about in search for further clues? I will be in touch as soon as I can find a lead to go on."
-84,"TEXT_CLSFSH630_02896_REYNA_000_094","And you there! I do hope you've learned your lesson about underestimating the talents of shorewalkers. Try to avoid jumping to conclusions next time we meet, won't you?"
-85,"TEXT_CLSFSH630_02896_GOVV_000_095","Pshhh... Loath as I am to admit it, she is right. Forgive me for my arrogance, shhhorewalker. You can assure Massster Wawalago that you will have my ear in the future. I thank you for your aid."
-86,"TEXT_CLSFSH630_02896_WAWALAGO_000_100","Hoho! It sounds like you and this Reyna bird battered and buried Govv's bravado! I'd expect nothing less from one of the most promising piscators Eorzea has to offer!"
-87,"TEXT_CLSFSH630_02896_WAWALAGO_000_101","That Reyna sounds like quite the lass. And nothing gets the heart beating faster than a bonny baitcaster with a basket of bream, eh?"
-88,"TEXT_CLSFSH630_02896_Q1_000_000","What will you say?"
-89,"TEXT_CLSFSH630_02896_A1_000_001","Er...if you say so."
-90,"TEXT_CLSFSH630_02896_A1_000_002","If you're keen on women in waders..."
-91,"TEXT_CLSFSH630_02896_WAWALAGO_000_110","Hoho! A <If(PlayerParameter(4))>woman<Else/>man</If> after my own heart! A shame this Reyna doesn't frequent these parts more often─I could provide her with pointers on perfecting her fishing posture. Yes, just like so..."
-92,"TEXT_CLSFSH630_02896_WAWALAGO_000_120","Ha! You and I both know that all <Emphasis>real</Emphasis> women wear waders! ...Although I'd not mind if she removed those modest spectacles you speak of so I could see more of her fetching face. Mm-hmm!"
-93,"TEXT_CLSFSH630_02896_WAWALAGO_000_130","...Don't give me that grimace! Old Wawalago may be beyond his courting years, but like any La Noscean wine, my appeal is only augmented with age!"
-94,"TEXT_CLSFSH630_02896_WAWALAGO_000_131","Anyroad, so you say our lovely lady will drop us a line by linkpearl when she has a lead for us? Superb! I'll practice my powers of passionate persuasion in the meantime. Why don't you hone your casting hand at one of your favorite fishing holes in the meanwhile?"
-95,"TEXT_CLSFSH630_02896_SYSTEM_000_500","In testing new waters as a fisher, you have learned “Mooch II”!"
+48,"TEXT_CLSFSH630_02896_WAWALAGO_000_000","あ、冒険者クン、大変ぢやよ！
+ゴォヴクンが、急に飛び出して……
+いや、飛び込んでいってしまったのぢや！"
+49,"TEXT_CLSFSH630_02896_WAWALAGO_000_001","さっき、この間のようにゴォヴクンと落ち合ったら、
+急に、「海の流星」がいなくなった原因がわかったと……！
+ベロジナ川へ向かうと言い残し、泳いでいってしまっての。"
+50,"TEXT_CLSFSH630_02896_WAWALAGO_000_002","彼がどんな発見をしたのかわからぬが、
+ベロジナ川は、ギラバニア辺境地帯を通っておる……。"
+51,"TEXT_CLSFSH630_02896_WAWALAGO_000_010","帝国が支配している地域に、
+蛮族が泳いでいくなど、あまりにも危険すぎる！
+急いで、ゴォヴクンを止めねばならぬ！"
+52,"TEXT_CLSFSH630_02896_WAWALAGO_000_020","帝国から解放されたばかりで、安定しておらん土地に、
+蛮族が泳いでいくなど、あまりにも危険すぎる！
+急いで、ゴォヴクンを止めねばならぬ！"
+53,"TEXT_CLSFSH630_02896_WAWALAGO_000_030","ワシも行きたいのぢやが、こっそり向かうには遠すぎる……。
+そこで、ちょうど協力をお願いしていたクルザスの友人に、
+リンクパールで、動ける者がおらぬか連絡しておいたぞい！"
+54,"TEXT_CLSFSH630_02896_WAWALAGO_000_031","ひとり、とびっきりの「釣り道楽」が協力してくれるそうぢや。
+急ぎ、ギラバニア辺境地帯の「パイクフォールズ」へ向かい、
+その者と協力して、ゴォヴクンを連れ戻しておくれ！"
+55,"TEXT_CLSFSH630_02896_WAWALAGO_000_040","急ぎ、ギラバニア辺境地帯の「パイクフォールズ」へ向かい、
+その者と協力して、ゴォヴクンを連れ戻しておくれ！"
+56,"TEXT_CLSFSH630_02896_GOVV_000_045","水の中のことで、サハギン族にケチをつけるとは！"
+57,"TEXT_CLSFSH630_02896_REYNA_000_050","ハーイ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>！　久しぶり！
+アンソールムに、あたしの腕と経験が必要だって頼まれてね。
+所領争いで忙しいあいつの代わりに、やってきたよ～。"
+58,"TEXT_CLSFSH630_02896_REYNA_000_051","まずは、この先走りサハギンを連れ戻せばいいんだろ？
+ベロジナ川を泳ぎ回ってたんで、釣り針を放り投げたら、
+そのまま食いついてきたけど。"
+59,"TEXT_CLSFSH630_02896_REYNA_000_052","どうも、この川に青燐水が流れていると聞いたようでね。
+「海の流星」の消失は、青燐水による川の汚染が原因だって、
+ずっと、その出処を探していたらしいよ……。"
+60,"TEXT_CLSFSH630_02896_REYNA_000_053","おそらく、帝国の建造物から流れ出てるんだろう。
+しかし、青燐水が原因とは、ずいぶんな勘違いをしたもんさ。
+「海の流星」消失とは関係ないって言ったんだけど。"
+61,"TEXT_CLSFSH630_02896_GOVV_000_054","フスィーッ……ヒトに川や海のことなどわかるものか！
+ワワラゴ親分ならともかく、貴様ら程度が魚のことを語るな！"
+62,"TEXT_CLSFSH630_02896_REYNA_000_055","……とまあ、えらく頑固でねえ、こいつ。
+海に生きる種族だからって、お高くとまってさ。
+私たち釣り道楽の方が、魚を獲る技術や、知識は豊富なのに！"
+63,"TEXT_CLSFSH630_02896_GOVV_000_056","フスィーッ……サハギン族を侮辱するつもりか！？
+よかろう、貴様らが俺よりうまく魚が獲れると証明できるなら、
+その主張を聞き入れてやる！"
+64,"TEXT_CLSFSH630_02896_REYNA_000_057","なら、このベロジナ川に棲む魚、「<Sheet(Item,17949,0)/>」を、
+どっちが先に、3匹釣り上げられるか勝負よ！
+漁師の腕、たっぷり見せてあげようじゃないか。"
+65,"TEXT_CLSFSH630_02896_REYNA_000_058","……まさか、こんな簡単な挑発に引っかかるなんてねえ。
+そいじゃ、「<Sheet(Item,17949,0)/>」を釣り上げるのは頼んだよ！"
+66,"TEXT_CLSFSH630_02896_REYNA_000_059","いやー、さすがにあたしの腕じゃサハギン族には勝てないよ。
+なに、海に生きるあいつらも、川での漁となれば勝手が違うさ。
+あんたなら、きっと楽勝だって！"
+67,"TEXT_CLSFSH630_02896_REYNA_000_060","釣り場の適応力なら、あたしら釣り道楽の方が上だろう。
+ゴォヴが、ベロジナ川での漁に手間取っている隙に、
+「<Sheet(Item,17949,0)/>」を、3匹釣り上げちまいな！"
+68,"TEXT_CLSFSH630_02896_REYNA_000_065","ゴォヴも、川で魚を獲るのには慣れてないだろう。
+あいつより先に、「<Sheet(Item,17949,0)/>」を、
+3匹、ベロジナ川で釣り上げるんだ！"
+69,"TEXT_CLSFSH630_02896_REYNA_000_070","おつかれさま！　さすがの早業だったね！
+それじゃ、ゴォヴを呼んでこようじゃないか！"
+70,"TEXT_CLSFSH630_02896_REYNA_000_080","さあ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>はきっちり釣り上げたよ！
+ゴォヴは……残念ながら駄目だったみたいだねえ。"
+71,"TEXT_CLSFSH630_02896_GOVV_000_081","フスィーッ……海との違いに手間取り、うまく魚を探せなかった。
+まさか、こうも短時間で狙いの魚を釣り上げてみせるとは……。
+ワワラゴ親分以外にも、これだけの腕を持つヒトがいたのか。"
+72,"TEXT_CLSFSH630_02896_REYNA_000_082","さ、頭は冷えたみたいだね。
+それじゃ、あたしの言うことを聞いてもらうよ！"
+73,"TEXT_CLSFSH630_02896_GOVV_000_083","むう、確かにそういう約束だが……何故そう言い切れるのだ？
+「海の流星」が姿を消したのは、この川から海に流れる、
+青燐水が原因に違いないと信じていたのだが……。"
+74,"TEXT_CLSFSH630_02896_REYNA_000_084","言い切れるのは、私がその魚について聞いたことがあるからさ。
+ここではない、もっと東方の地で……！"
+75,"TEXT_CLSFSH630_02896_REYNA_000_085","あたしの本業は暗殺者でね、仕事のため各地を飛び回っては、
+その合間に、方々で釣りを楽しんできたのさ。
+もちろん、地元の漁師たちと話すことも多くてね……。"
+76,"TEXT_CLSFSH630_02896_REYNA_000_086","そうして、エオルゼアを離れ東の地域へ行ったときのことだ。
+あんたが言う「海の流星」と、特徴の一致する魚の情報を、
+いくつか耳にしたんだよ。"
+77,"TEXT_CLSFSH630_02896_REYNA_000_087","たとえば、近東のサベネア島沖では60イルム……。
+えっと……私よりひとまわり程小さな、紅い魚が獲れるとか。
+そして、サベネア島を……。"
+78,"TEXT_CLSFSH630_02896_GOVV_000_088","フスィーッ！　それは断じて「海の流星」ではない！
+「海の流星」は、貴様よりも大きい魚だったぞ！"
+79,"TEXT_CLSFSH630_02896_REYNA_000_089","話を最後まで聞く！
+そのサベネア島からさらに東、東州オサード小大陸の近くでは、
+20イルム程しかない、紅い魚がいると聞いたことがあるの！"
+80,"TEXT_CLSFSH630_02896_GOVV_000_090","フ、フスィーッ……そうか！
+東の果てで産卵をして誕生した「海の流星」が、
+海流とともに西へと旅しながら、成長しているというのだな！？"
+81,"TEXT_CLSFSH630_02896_REYNA_000_091","あたしは、「海の流星」は東方の海で産卵しているんだと思う。
+近年、回遊してくる数が急激に減ったのであれば、
+その産卵地で、問題が起きている可能性が高いだろうね。"
+82,"TEXT_CLSFSH630_02896_REYNA_000_092","ただ、この仮説が正しかったとしても、だ……。
+あたしも東方の住人から、話を聞いたことがあるだけでね。
+その魚の、実際の産卵地を知っているわけじゃないんだ。"
+83,"TEXT_CLSFSH630_02896_REYNA_000_093","だから、直接、あたしが東に向かって調べを進めてみるよ。
+あんたらは、一度ラノシアに戻りなさいな……。
+何かわかったら、ワワラゴ親分に伝えるからさ。"
+84,"TEXT_CLSFSH630_02896_REYNA_000_094","ヒトだって魚に詳しいってことは、よくわかっただろ？
+ドーンと任せて、勝手な行動は慎むんだよ！"
+85,"TEXT_CLSFSH630_02896_GOVV_000_095","フスィーッ……俺の行動は、無駄だったのだな……。
+今後は、なるべく暴走はしないと約束しよう……。
+「ワワラゴ」親分にも、そう伝えてくれ。"
+86,"TEXT_CLSFSH630_02896_WAWALAGO_000_100","……そうか、ゴォヴクンもションボリしておったか。
+まあ、それだけ冒険者クンとレイナちゃんの知識や腕前を、
+認めたということぢやろう。"
+87,"TEXT_CLSFSH630_02896_WAWALAGO_000_101","しかし、レイナちゃん、見事な推理ぢやの～。
+その推理力と行動力、さては相当な美人と見たぞい……！
+……その辺、どうなんぢや？"
+88,"TEXT_CLSFSH630_02896_Q1_000_000","レイナの外見をどう伝える？"
+89,"TEXT_CLSFSH630_02896_A1_000_001","美人だと思う"
+90,"TEXT_CLSFSH630_02896_A1_000_002","帽子と眼鏡でなんとも……"
+91,"TEXT_CLSFSH630_02896_WAWALAGO_000_110","ぬほ～っ！　美人で有能な味方……。
+おまけに釣り道楽なんて、ワシの好みど真ん中ぢゃの～！
+ますます、会うのが楽しみになってきたぞい！"
+92,"TEXT_CLSFSH630_02896_WAWALAGO_000_120","ほほ～！　ミステリアス系なのぢやな。
+いつかワシにだけ、素顔をみせてほしいものぢやの～！
+ますます、会うのが楽しみになってきたぞい！"
+93,"TEXT_CLSFSH630_02896_WAWALAGO_000_130","……って、なんぢや、その目は。
+別にいいじゃろ～、気になっちゃっても～。
+ワシにとっては大事なことなのぢやっ。"
+94,"TEXT_CLSFSH630_02896_WAWALAGO_000_131","しばらくは、レイナちゃんからの連絡待ちぢやな。
+連絡が来たら、ワシの口説きテクで、リンクパールごしに、
+レイナちゃんをメロメロにしてやるぞい～！"
+95,"TEXT_CLSFSH630_02896_SYSTEM_000_500","漁師として、新たな土地で新たな魚との出会いを経て、
+「泳がせ釣りII」が開放されました！"

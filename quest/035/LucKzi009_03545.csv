@@ -1,8 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKZI009_03545_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-The restless hunter is scanning the horizon."
+0,"TEXT_LUCKZI009_03545_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+アミティーの狩人らしき女性は、誰かを探しているようだ。"
 1,"TEXT_LUCKZI009_03545_SEQ_01",""
 2,"TEXT_LUCKZI009_03545_SEQ_02",""
 3,"TEXT_LUCKZI009_03545_SEQ_03",""
@@ -26,9 +26,9 @@ The restless hunter is scanning the horizon."
 21,"TEXT_LUCKZI009_03545_SEQ_21",""
 22,"TEXT_LUCKZI009_03545_SEQ_22",""
 23,"TEXT_LUCKZI009_03545_SEQ_23",""
-24,"TEXT_LUCKZI009_03545_TODO_00","Search for the lanky lass."
-25,"TEXT_LUCKZI009_03545_TODO_01","Aid the lanky lass."
-26,"TEXT_LUCKZI009_03545_TODO_02","Report to the restless hunter."
+24,"TEXT_LUCKZI009_03545_TODO_00","背の高い女性を探す"
+25,"TEXT_LUCKZI009_03545_TODO_01","背の高い女性を救助する"
+26,"TEXT_LUCKZI009_03545_TODO_02","狩人らしき女性に報告"
 27,"TEXT_LUCKZI009_03545_TODO_03",""
 28,"TEXT_LUCKZI009_03545_TODO_04",""
 29,"TEXT_LUCKZI009_03545_TODO_05",""
@@ -50,18 +50,41 @@ The restless hunter is scanning the horizon."
 45,"TEXT_LUCKZI009_03545_TODO_21",""
 46,"TEXT_LUCKZI009_03545_TODO_22",""
 47,"TEXT_LUCKZI009_03545_TODO_23",""
-48,"TEXT_LUCKZI009_03545_HUNTER03545_000_000","Excuse me, <If(PlayerParameter(4))>miss<Else/>sir</If>, have you seen a tall, skinny Hume girl on your travels?"
-49,"TEXT_LUCKZI009_03545_HUNTER03545_000_001","...No? Do you think you might lend a hand in finding her, then? She has a terrible habit of wandering away when left to her own devices─not the safest pastime when you consider the wildlife around here."
-50,"TEXT_LUCKZI009_03545_HUNTER03545_000_002","I'll start looking near the Ladder, but it would make me feel better if I knew someone was searching along the cliff at the same time. Would you do that for me?"
-51,"TEXT_LUCKZI009_03545_HUNTER03545_000_003","Thank you! I've seen her walk off to the southeast before, so you might want to try that way first. If you do find her, please send her back to Amity!"
-52,"TEXT_LUCKZI009_03545_FRIEND03545_000_010","N-No! Leave me alone!"
-53,"TEXT_LUCKZI009_03545_FRIEND03545_000_020","Oh, thank you! Thank you, uh... Who are you?"
-54,"TEXT_LUCKZI009_03545_FRIEND03545_000_021","...Ah. Sent you to find me, did she? My little brother lives down there, you see, and this place offers the best view of Gatetown."
-55,"TEXT_LUCKZI009_03545_FRIEND03545_000_022","I'd wanted us to leave together─to give up on being chosen─but he'd become obsessed with the idea of Eulmore. And when I heard about the fighting and such, I got so worried..."
-56,"TEXT_LUCKZI009_03545_FRIEND03545_000_023","And now here I am, causing the same kind of worry for my neighbors. My apologies─I'll be more careful in the future."
-57,"TEXT_LUCKZI009_03545_HUNTER03545_000_030","My friend came back safe and sound, saying how she was saved by a stranger. I assume that was you!"
-58,"TEXT_LUCKZI009_03545_HUNTER03545_000_031","She seemed...less brooding than usual. What did you two talk about?"
-59,"TEXT_LUCKZI009_03545_HUNTER03545_000_032","...I never knew she had a brother. Many here have lost their families─maybe that's why she thought to keep it secret."
-60,"TEXT_LUCKZI009_03545_HUNTER03545_000_034","But now that things in Eulmore have changed, we shouldn't have to creep around the lowlands like thieves anymore. She'll be able to visit her brother openly! No more stealing away to peer over cliffs!"
-61,"TEXT_LUCKZI009_03545_HUNTER03545_000_035","Who knows, maybe I'll even go along. She might need company on the road, and what else are friends for?"
-62,"TEXT_LUCKZI009_03545_HUNTER03545_000_036","Aye, I think I'll have a word with her right now. Thank you again, <If(PlayerParameter(4))>miss<Else/>sir</If>!"
+48,"TEXT_LUCKZI009_03545_HUNTER03545_000_000","あ、ねえ貴方、この辺りで私の友達を見なかった？
+背の高い、ヒュム族の女性なんだけど……。"
+49,"TEXT_LUCKZI009_03545_HUNTER03545_000_001","そう……突然で悪いけど、彼女を探すのを手伝ってくれない？
+時々こうやって、フラっといなくなっちゃうの。
+この辺りには、魔物も多いから心配で……。"
+50,"TEXT_LUCKZI009_03545_HUNTER03545_000_002","私は昇降機の方を探すから、
+貴方は、崖の方を探してきてくれないかしら？
+彼女を見つけたら、ここに連れ帰ってくれると嬉しいわ。"
+51,"TEXT_LUCKZI009_03545_HUNTER03545_000_003","ありがとう、頼もしいわ！
+それじゃあ、南東の方で「背の高い女性」を探してね。
+よろしくお願いするわ！"
+52,"TEXT_LUCKZI009_03545_FRIEND03545_000_010","ひ、ひいい……！
+お願い、来ないでぇ……！"
+53,"TEXT_LUCKZI009_03545_FRIEND03545_000_020","あ……ありがとうございます、助かりました！
+えっと……旅のお方ですか？"
+54,"TEXT_LUCKZI009_03545_FRIEND03545_000_021","そうですか……彼女には、心配をかけてしまいましたね。
+ゲートタウンに住んでいる弟が心配で、
+ついここに来てしまうんです。"
+55,"TEXT_LUCKZI009_03545_FRIEND03545_000_022","ユールモアに移住するのは諦め、一緒に逃げようと言ったのに、
+あの子は、絶対に「上がって」みせるんだって……。
+街で大きな騒動があったと聞いて、心配で心配で。"
+56,"TEXT_LUCKZI009_03545_FRIEND03545_000_023","弟を心配する私が、隣人を心配させていたら仕方ないですね。
+これからは、もっと気を付けるようにします。
+旅人さん、ありがとうございました。"
+57,"TEXT_LUCKZI009_03545_HUNTER03545_000_030","さっき、彼女が戻ってきたわ！
+貴方がいてくれて助かった……本当にありがとう！"
+58,"TEXT_LUCKZI009_03545_HUNTER03545_000_031","……彼女、いつもより晴れ晴れとした顔をしていたわ。
+もしかして貴方、なにか話でもしたの？"
+59,"TEXT_LUCKZI009_03545_HUNTER03545_000_032","そう、そんな事情が……。
+きっと、ここには家族のいない人の方が多いから、
+気を遣って、弟さんのことを内緒にしていたのね……。"
+60,"TEXT_LUCKZI009_03545_HUNTER03545_000_034","それに、今までは低地側には隠れてしか行けなかったけど、
+ユールモアの情勢が変わったなら、状況も好転するはず……。
+崖から見守るだけじゃなく、直接、弟さんに会いに行くことだって！"
+61,"TEXT_LUCKZI009_03545_HUNTER03545_000_035","もしそうなったら、私も彼女についていこうかしら。
+せっかく友達になれたんだもの、それくらいはしてあげなきゃね。"
+62,"TEXT_LUCKZI009_03545_HUNTER03545_000_036","そうと決まれば、早く彼女に話してこなくちゃ！
+旅人さん、いろいろとありがとう！"

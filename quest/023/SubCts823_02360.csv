@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBCTS823_02360_SEQ_00","Thubyrgeim desires your help with an experiment."
-1,"TEXT_SUBCTS823_02360_SEQ_01","Having read through Y'mhitra's research on summoners, Thubyrgeim requests your assistance with an experiment in the guild's practice area."
-2,"TEXT_SUBCTS823_02360_SEQ_02","Thubyrgeim theorizes that you may be able use the technique required for summoning egi to alter the appearance of your various egi. You succeed in summoning an Ifrit-Egi that takes the form of a Ruby Carbuncle─marking the experiment a success! Thubyrgeim bids you head upstairs once more to discuss the implications of the experiment."
-3,"TEXT_SUBCTS823_02360_SEQ_03","An enthused Thubyrgeim tells you that this experiment suggests there may still be much to learn about arcane entities. She bids you farewell and encourages you to make use of your newfound ability."
+0,"TEXT_SUBCTS823_02360_SEQ_00","巴術士ギルドのトゥビルゲイムは、冒険者に話があるようだ。"
+1,"TEXT_SUBCTS823_02360_SEQ_01","聖コイナク財団のヤ・ミトラが編纂した「召喚士」についての論文を読んだトゥビルゲイムは、冒険者に頼みたいことがあるようだ。巴術士ギルドの階下の訓練場にある「<Sheet(EObj,2007639,0)/>」で、トゥビルゲイムを待とう。"
+2,"TEXT_SUBCTS823_02360_SEQ_02","炎のエーテルを宿したカーバンクルを召喚し、トゥビルゲイムの実験は成功に終わった。巴術士ギルドの「トゥビルゲイム」と話をしよう。"
+3,"TEXT_SUBCTS823_02360_SEQ_03","トゥビルゲイムは実験に協力した冒険者に対して、おかげで魔法生物の可能性がさらに広がったと、感謝の意を示した。"
 4,"TEXT_SUBCTS823_02360_SEQ_04",""
 5,"TEXT_SUBCTS823_02360_SEQ_05",""
 6,"TEXT_SUBCTS823_02360_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_SUBCTS823_02360_SEQ_21",""
 22,"TEXT_SUBCTS823_02360_SEQ_22",""
 23,"TEXT_SUBCTS823_02360_SEQ_23",""
-24,"TEXT_SUBCTS823_02360_TODO_00","Wait for Thubyrgeim in the guild's practice area."
-25,"TEXT_SUBCTS823_02360_TODO_01","Speak with Thubyrgeim."
+24,"TEXT_SUBCTS823_02360_TODO_00","「<Sheet(EObj,2007639,0)/>」で待機"
+25,"TEXT_SUBCTS823_02360_TODO_01","トゥビルゲイムと話す"
 26,"TEXT_SUBCTS823_02360_TODO_02",""
 27,"TEXT_SUBCTS823_02360_TODO_03",""
 28,"TEXT_SUBCTS823_02360_TODO_04",""
@@ -49,21 +49,50 @@ int32,str,str
 45,"TEXT_SUBCTS823_02360_TODO_21",""
 46,"TEXT_SUBCTS823_02360_TODO_22",""
 47,"TEXT_SUBCTS823_02360_TODO_23",""
-48,"TEXT_SUBCTS823_02360_THUBYRGEIM_000_001","Well, if it isn't <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Precisely the <If(PlayerParameter(4))>woman<Else/>man</If> I wished to see."
-49,"TEXT_SUBCTS823_02360_THUBYRGEIM_000_002","You will recall Y'mhitra of the Sons of Saint Coinach. Well, she has recently finished compiling her research into summoning, and was kind enough to send a copy of it to our guild. I was pleased to note that you are listed as a collaborator."
-50,"TEXT_SUBCTS823_02360_THUBYRGEIM_000_003","I must say it is <Emphasis>quite</Emphasis> a fascinating read, especially the section covering those essences of primals called egi. You are able to manifest the beings, yes?"
-51,"TEXT_SUBCTS823_02360_THUBYRGEIM_000_004","Wonderful. In which case, I should like your assistance with an experiment. If you are willing, pray join me in the practice area. I will reveal the details there."
-52,"TEXT_SUBCTS823_02360_THUBYRGEIM_000_005","Pray go on ahead to the practice area. I will reveal the details of the experiment there."
-53,"TEXT_SUBCTS823_02360_THUBYRGEIM_000_010","My apologies for the wait."
-54,"TEXT_SUBCTS823_02360_THUBYRGEIM_000_011","To begin with, might I ask you to call forth an egi? I should very much like to see one with mine own eyes. Mayhap the Ifrit-Egi would be suitable─I understand that it was the first such being to be summoned."
-55,"TEXT_SUBCTS823_02360_THUBYRGEIM_000_012","Yes, a most impressive being indeed. Created, according to Y'mhitra, in the image of the entity which one most closely associates with fire: Ifrit."
-56,"TEXT_SUBCTS823_02360_THUBYRGEIM_000_013","It is my hypothesis that the same fundamental principle could be employed to alter the form of an egi, by calling to mind another image."
-57,"TEXT_SUBCTS823_02360_THUBYRGEIM_000_014","Pray summon the Ifrit-Egi again, but this time focus your consciousness upon Carbuncle. It shouldn't be difficult, given the bond you share."
-58,"TEXT_SUBCTS823_02360_THUBYRGEIM_000_015","Brilliant! My theory holds!"
-59,"TEXT_SUBCTS823_02360_THUBYRGEIM_000_016","Whilst it takes the form of Carbuncle, there is no mistaking its aetherial composition."
-60,"TEXT_SUBCTS823_02360_THUBYRGEIM_000_017","I should not imagine that the abilities it wields have changed─for all intents and purposes, it is still an Ifrit-Egi. But now we know that there is no limit to an egi's appearance."
-61,"TEXT_SUBCTS823_02360_THUBYRGEIM_000_018","Well, I must be returning to my post. Let us continue this upstairs."
-62,"TEXT_SUBCTS823_02360_THUBYRGEIM_000_020","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, you have my thanks for indulging me. This experiment has unearthed a new world of possibility for arcane entities, and I hope you will find use for the discovery."
-63,"TEXT_SUBCTS823_02360_SYSTEM_000_021","An egi's outward appearance can now be altered by using “<UIForeground>F20222</UIForeground>/egiglamour<UIForeground>01</UIForeground>”."
-64,"TEXT_SUBCTS823_02360_SYSTEM_000_022","For example, if you want your Garuda-Egi to appear as if it were Ruby Carbuncle, use the text command <UIForeground>F20222</UIForeground>/egiglamour “garuda-egi” “ruby carbuncle”<UIForeground>01</UIForeground>."
-65,"TEXT_SUBCTS823_02360_SYSTEM_000_023","For details, enter “<UIForeground>F20222</UIForeground>/? /egiglamour<UIForeground>01</UIForeground>”."
+48,"TEXT_SUBCTS823_02360_THUBYRGEIM_000_001","おや、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>じゃないか。
+ちょうど、お前さんに会いたいと思ってたところでね。"
+49,"TEXT_SUBCTS823_02360_THUBYRGEIM_000_002","というのも、聖コイナク財団のヤ・ミトラから、
+彼女が編纂した「召喚士」についての論文が送られてきたのさ。
+共同研究者として、お前さんの名前も記されていたよ。"
+50,"TEXT_SUBCTS823_02360_THUBYRGEIM_000_003","いろいろと興味深い内容が記されていたけれど、
+疑似的な蛮神とも呼べる召喚獣……確かエギといったかい。
+お前さんは、それを使役できるそうだね？"
+51,"TEXT_SUBCTS823_02360_THUBYRGEIM_000_004","そんなお前さんに、試してもらいたいことがあるんだ。
+詳細は、階下の訓練場で話すとしよう。
+悪いけど、先に行っておいてくれるかい。"
+52,"TEXT_SUBCTS823_02360_THUBYRGEIM_000_005","詳細は、階下の訓練場で話すとしよう。
+悪いけど、先に行っておいてくれるかい。"
+53,"TEXT_SUBCTS823_02360_THUBYRGEIM_000_010","待たせて悪かったね。
+それじゃ、話の続きといこうか。"
+54,"TEXT_SUBCTS823_02360_THUBYRGEIM_000_011","まずは、エギの実物を見せてもらえるかい？
+そうだね……最初に召喚に成功したという、
+「イフリート・エギ」を見せておくれ。"
+55,"TEXT_SUBCTS823_02360_THUBYRGEIM_000_012","すばらしい召喚獣だね……。
+論文によれば、その姿は、お前さんが抱く「炎の力」の象徴、
+つまり、イフリートのイメージが具現化した結果なんだそうだ。"
+56,"TEXT_SUBCTS823_02360_THUBYRGEIM_000_013","だとすれば、召喚の過程で「力」に結びつく、
+別の強烈なイメージを練り上げることができれば、
+異なる姿をしたエギを創造可能なんじゃないかと思いついてね。"
+57,"TEXT_SUBCTS823_02360_THUBYRGEIM_000_014","ぜひ、あたしの発想が正しいのかどうか試してほしいのさ。
+例えば……お前さんにとっても馴染み深いカーバンクルを、
+強烈にイメージしながら、エギを再召喚してくれないかい？"
+58,"TEXT_SUBCTS823_02360_THUBYRGEIM_000_015","す、すごいじゃないか！
+どうやら、あたしの仮説は正しかったようだね！"
+59,"TEXT_SUBCTS823_02360_THUBYRGEIM_000_016","一見、カーバンクルの姿をしちゃいるが、
+このエギからは強力な「炎」のエーテルを感じるよ。
+性質はまさしく、イフリート・エギと共通しているようだ。"
+60,"TEXT_SUBCTS823_02360_THUBYRGEIM_000_017","能力自体に変化はないだろうが、この技術を応用していけば、
+さまざまな形態の「エギ」を生み出すことができそうだね。"
+61,"TEXT_SUBCTS823_02360_THUBYRGEIM_000_018","さて、実験はこれで終わりだ。
+ひとまず、上に戻るとしようかね。"
+62,"TEXT_SUBCTS823_02360_THUBYRGEIM_000_020","さて、今回はあたしの思いつきに付き合ってくれて、感謝するよ。
+お前さんのおかげで、またひとつ魔法生物の可能性が広がった。
+よかったら、この技術を使ってみておくれ。"
+63,"TEXT_SUBCTS823_02360_SYSTEM_000_021","テキストコマンド「<UIForeground>F20222</UIForeground><Sheet(TextCommand,226,8)/><UIForeground>01</UIForeground>」を使用することで、
+召喚するエギの外見を、変更することが可能になりました。"
+64,"TEXT_SUBCTS823_02360_SYSTEM_000_022","たとえば、ガルーダ・エギの姿をカーバンクル・ルビーにする場合、
+「<UIForeground>F20222</UIForeground><Sheet(TextCommand,226,8)/><UIForeground>01</UIForeground> ガルーダ・エギ カーバンクル・ルビー」と、
+入力することで、外見を変更することができます。"
+65,"TEXT_SUBCTS823_02360_SYSTEM_000_023","より詳細な解説は、
+「<UIForeground>F20222</UIForeground>/? <Sheet(TextCommand,226,8)/><UIForeground>01</UIForeground>」で確認できます。
+ぜひエギを好みの外見に変えてみましょう。"

@@ -1,45 +1,87 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_RAIDGUIDEENTRANCE32_LIGHTKIX_000_000","Pshhh... Shkohhh...
-Lightkix watchguards entrance to giant of whirlycog. But if uplander wants Lightkix to help fight, it will cost heaps of jinglyshine!"
-1,"TEXT_RAIDGUIDEENTRANCE32_Q1_000_010","What would you like to do?"
-2,"TEXT_RAIDGUIDEENTRANCE32_A1_000_011","Ask about Midas (Savage)."
-3,"TEXT_RAIDGUIDEENTRANCE32_A1_000_012","Enter <Sheet(InstanceContent,IntegerParameter(1),3)/> (Loot Rule: Normal)."
-4,"TEXT_RAIDGUIDEENTRANCE32_A1_100_012","Enter <Sheet(InstanceContent,IntegerParameter(1),3)/> (Loot Rule: Greed Only)."
-5,"TEXT_RAIDGUIDEENTRANCE32_A1_101_012","Enter <Sheet(InstanceContent,IntegerParameter(1),3)/> (Loot Rule: Lootmaster)."
-6,"TEXT_RAIDGUIDEENTRANCE32_A1_000_013","Nothing."
-7,"TEXT_RAIDGUIDEENTRANCE32_00105_Q3_000_015","What would you like to ask about?"
-8,"TEXT_RAIDGUIDEENTRANCE32_00105_A3_000_016","Entry requirements for Midas (Savage)."
-9,"TEXT_RAIDGUIDEENTRANCE32_00105_A3_000_017","Nothing."
-10,"TEXT_RAIDGUIDEENTRANCE32_LIGHTKIX_000_020","Pshhh... Shkohhh...
-Uplander wishes to enter metal giant again? Lightkix thinks idea is addlebrained, but he will not stop uplander."
-11,"TEXT_RAIDGUIDEENTRANCE32_SYSTEM_000_050","Midas (Savage) is comprised of multiple dungeons. Please be warned that the spell Return cannot be used in certain dungeons."
-12,"TEXT_RAIDGUIDEENTRANCE32_SYSTEM_000_051","Progress within Midas (Savage) is saved at specific locations for each player, and you may resume your foray where you left off."
-13,"TEXT_RAIDGUIDEENTRANCE32_SYSTEM_000_052","Progress is reset every <ResetTime>1203</ResetTime><Switch(TopLevelParameter(220))><Case(1)>Sunday</Case><Case(2)>Monday</Case><Case(3)>Tuesday</Case><Case(4)>Wednesday</Case><Case(5)>Thursday</Case><Case(6)>Friday</Case><Case(7)>Saturday</Case></Switch> at <If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>1</Case><Case(14)>2</Case><Case(15)>3</Case><Case(16)>4</Case><Case(17)>5</Case><Case(18)>6</Case><Case(19)>7</Case><Case(20)>8</Case><Case(21)>9</Case><Case(22)>10</Case><Case(23)>11</Case></Switch><Else/>12</If> <If(GreaterThanOrEqualTo(TopLevelParameter(218),12))>p.m.<Else/>a.m.</If> (Earth time)."
-14,"TEXT_RAIDGUIDEENTRANCE32_SYSTEM_000_053","To enter Midas (Savage), you must be in a party of eight Disciples of War or Magic with a level of 60 or higher."
-15,"TEXT_RAIDGUIDEENTRANCE32_SYSTEM_000_054","All members must also have completed the quest “A Refrain for the Undaunted.”"
-16,"TEXT_RAIDGUIDEENTRANCE32_SYSTEM_000_055","The starting point is determined by the party leader's progress."
-17,"TEXT_RAIDGUIDEENTRANCE32_SYSTEM_000_056","Even party members whose progress is different may participate, provided they meet the entry requirements."
-18,"TEXT_RAIDGUIDEENTRANCE32_SYSTEM_100_056","Those who have not advanced as far as the party leader will have their progress updated to be the same as that of the leader."
-19,"TEXT_RAIDGUIDEENTRANCE32_SYSTEM_000_057","Those who have advanced further than the party leader, on the other hand, will retain their progress."
-20,"TEXT_RAIDGUIDEENTRANCE32_SYSTEM_100_057","In this latter case, you will not receive rewards from dungeons that you have already completed, and the number of coffers that pop will be adjusted accordingly."
-21,"TEXT_RAIDGUIDEENTRANCE32_SYSTEM_000_058","All forays into Midas (Savage) are limited to 90 minutes (Earth time)."
-22,"TEXT_RAIDGUIDEENTRANCE32_SYSTEM_000_059","All items in a player's loot list will automatically be transferred to that player's inventory upon all other party members leaving the area."
-23,"TEXT_RAIDGUIDEENTRANCE32_SYSTEM_000_060","Items unable to be obtained will be lost."
-24,"TEXT_RAIDGUIDEENTRANCE32_Q2_000_100","Enter <Sheet(InstanceContent,IntegerParameter(1),3)/> (Loot Rule: Normal)?"
-25,"TEXT_RAIDGUIDEENTRANCE32_Q2_100_100","Enter <Sheet(InstanceContent,IntegerParameter(1),3)/> (Loot Rule: Greed Only)?"
-26,"TEXT_RAIDGUIDEENTRANCE32_Q2_101_100","Enter <Sheet(InstanceContent,IntegerParameter(1),3)/> (Loot Rule: Lootmaster)?"
-27,"TEXT_RAIDGUIDEENTRANCE32_A2_000_101","Yes"
-28,"TEXT_RAIDGUIDEENTRANCE32_A2_000_102","No"
-29,"TEXT_RAIDGUIDEENTRANCE32_SYSTEM_000_110","You were unable to enter <Sheet(InstanceContent,IntegerParameter(2),3)/>. Make sure that you and your party meet all the conditions."
-30,"TEXT_RAIDGUIDEENTRANCE32_LIGHTKIX_000_200","Pshhh... Shkohhh...
-Lightkix is skilled watchguard, and will let uplander know if Illuminati move one ilm out of colossus. But unfortunately, Lightkix is not so skilled with fightytools..."
-31,"TEXT_RAIDGUIDEENTRANCE32_SYSTEM_000_210","You have recently completed Midas (Savage), and cannot enter again until progress is reset."
-32,"TEXT_RAIDGUIDEENTRANCE32_SYSTEM_000_211","Progress is reset every <ResetTime>1203</ResetTime><Switch(TopLevelParameter(220))><Case(1)>Sunday</Case><Case(2)>Monday</Case><Case(3)>Tuesday</Case><Case(4)>Wednesday</Case><Case(5)>Thursday</Case><Case(6)>Friday</Case><Case(7)>Saturday</Case></Switch> at <If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>1</Case><Case(14)>2</Case><Case(15)>3</Case><Case(16)>4</Case><Case(17)>5</Case><Case(18)>6</Case><Case(19)>7</Case><Case(20)>8</Case><Case(21)>9</Case><Case(22)>10</Case><Case(23)>11</Case></Switch><Else/>12</If> <If(GreaterThanOrEqualTo(TopLevelParameter(218),12))>p.m.<Else/>a.m.</If> (Earth time)."
-33,"TEXT_RAIDGUIDEENTRANCE32_Q3_000_300","Awaiting entry confirmation from party members."
-34,"TEXT_RAIDGUIDEENTRANCE32_A3_000_301","Cancel"
-35,"TEXT_RAIDGUIDEENTRANCE32_A3_000_340","<If(Equal(IntegerParameter(2),1))>One member<Else/><Clickable(<If(IntegerParameter(2))><If(LessThanOrEqualTo(IntegerParameter(2),10))><Switch(IntegerParameter(2))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(2)</Value></If><Else/><Value>IntegerParameter(2)</Value></If>)/> members</If> of your party <If(Equal(IntegerParameter(2),1))>has<Else/>have</If> already progressed beyond <Sheet(InstanceContent,IntegerParameter(1),3)/>. As a result, <If(Equal(IntegerParameter(3),1))><If(IntegerParameter(3))><If(LessThanOrEqualTo(IntegerParameter(3),10))><Switch(IntegerParameter(3))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(3)</Value></If><Else/><Value>IntegerParameter(3)</Value></If> treasure coffer<Else/><If(IntegerParameter(3))><If(LessThanOrEqualTo(IntegerParameter(3),10))><Switch(IntegerParameter(3))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(3)</Value></If><Else/><Value>IntegerParameter(3)</Value></If> treasure coffers</If> will pop upon completion. Do you wish to proceed?"
-36,"TEXT_RAIDGUIDEENTRANCE32_A3_000_350","<If(Equal(IntegerParameter(2),1))>One member<Else/><Clickable(<If(IntegerParameter(2))><If(LessThanOrEqualTo(IntegerParameter(2),10))><Switch(IntegerParameter(2))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(2)</Value></If><Else/><Value>IntegerParameter(2)</Value></If>)/> members</If> of your party <If(Equal(IntegerParameter(2),1))>has<Else/>have</If> already progressed beyond <Sheet(InstanceContent,IntegerParameter(1),3)/>. As a result, <If(Equal(IntegerParameter(3),1))><If(IntegerParameter(3))><If(LessThanOrEqualTo(IntegerParameter(3),10))><Switch(IntegerParameter(3))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(3)</Value></If><Else/><Value>IntegerParameter(3)</Value></If> treasure coffer<Else/><If(IntegerParameter(3))><If(LessThanOrEqualTo(IntegerParameter(3),10))><Switch(IntegerParameter(3))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(3)</Value></If><Else/><Value>IntegerParameter(3)</Value></If> treasure coffers</If> will pop upon completion. Do you wish to proceed (Loot Rule: Normal)?"
-37,"TEXT_RAIDGUIDEENTRANCE32_A3_100_350","<If(Equal(IntegerParameter(2),1))>One member<Else/><Clickable(<If(IntegerParameter(2))><If(LessThanOrEqualTo(IntegerParameter(2),10))><Switch(IntegerParameter(2))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(2)</Value></If><Else/><Value>IntegerParameter(2)</Value></If>)/> members</If> of your party <If(Equal(IntegerParameter(2),1))>has<Else/>have</If> already progressed beyond <Sheet(InstanceContent,IntegerParameter(1),3)/>. As a result, <If(Equal(IntegerParameter(3),1))><If(IntegerParameter(3))><If(LessThanOrEqualTo(IntegerParameter(3),10))><Switch(IntegerParameter(3))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(3)</Value></If><Else/><Value>IntegerParameter(3)</Value></If> treasure coffer<Else/><If(IntegerParameter(3))><If(LessThanOrEqualTo(IntegerParameter(3),10))><Switch(IntegerParameter(3))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(3)</Value></If><Else/><Value>IntegerParameter(3)</Value></If> treasure coffers</If> will pop upon completion. Do you wish to proceed (Loot Rule: Greed Only)?"
-38,"TEXT_RAIDGUIDEENTRANCE32_A3_101_350","<If(Equal(IntegerParameter(2),1))>One member<Else/><Clickable(<If(IntegerParameter(2))><If(LessThanOrEqualTo(IntegerParameter(2),10))><Switch(IntegerParameter(2))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(2)</Value></If><Else/><Value>IntegerParameter(2)</Value></If>)/> members</If> of your party <If(Equal(IntegerParameter(2),1))>has<Else/>have</If> already progressed beyond <Sheet(InstanceContent,IntegerParameter(1),3)/>. As a result, <If(Equal(IntegerParameter(3),1))><If(IntegerParameter(3))><If(LessThanOrEqualTo(IntegerParameter(3),10))><Switch(IntegerParameter(3))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(3)</Value></If><Else/><Value>IntegerParameter(3)</Value></If> treasure coffer<Else/><If(IntegerParameter(3))><If(LessThanOrEqualTo(IntegerParameter(3),10))><Switch(IntegerParameter(3))><Case(1)>one</Case><Case(2)>two</Case><Case(3)>three</Case><Case(4)>four</Case><Case(5)>five</Case><Case(6)>six</Case><Case(7)>seven</Case><Case(8)>eight</Case><Case(9)>nine</Case><Case(10)>ten</Case></Switch><Else/><Value>IntegerParameter(3)</Value></If><Else/><Value>IntegerParameter(3)</Value></If> treasure coffers</If> will pop upon completion. Do you wish to proceed (Loot Rule: Lootmaster)?"
+0,"TEXT_RAIDGUIDEENTRANCE32_LIGHTKIX_000_000","シュコォ……シュコォ……
+オレは見張り屋　見張りが仕事！
+迎撃　撃退　別料金！"
+1,"TEXT_RAIDGUIDEENTRANCE32_Q1_000_010","どうする？"
+2,"TEXT_RAIDGUIDEENTRANCE32_A1_000_011","「機工城アレキサンダー零式：律動編」の開始条件について聞く"
+3,"TEXT_RAIDGUIDEENTRANCE32_A1_000_012","「<Sheet(InstanceContent,IntegerParameter(1),3)/>」を通常ロットで開始"
+4,"TEXT_RAIDGUIDEENTRANCE32_A1_100_012","「<Sheet(InstanceContent,IntegerParameter(1),3)/>」をGREED限定で開始"
+5,"TEXT_RAIDGUIDEENTRANCE32_A1_101_012","「<Sheet(InstanceContent,IntegerParameter(1),3)/>」をマスタールートで開始"
+6,"TEXT_RAIDGUIDEENTRANCE32_A1_000_013","キャンセル"
+7,"TEXT_RAIDGUIDEENTRANCE32_00105_Q3_000_015","聞きたいことはある？"
+8,"TEXT_RAIDGUIDEENTRANCE32_00105_A3_000_016","「機工城アレキサンダー零式：律動編」の開始条件について聞く"
+9,"TEXT_RAIDGUIDEENTRANCE32_00105_A3_000_017","キャンセル"
+10,"TEXT_RAIDGUIDEENTRANCE32_LIGHTKIX_000_020","シュコォ……シュコォ……
+オマエら　またまた　大突入～？
+入りたいヤツ　勝手にすベシ！"
+11,"TEXT_RAIDGUIDEENTRANCE32_SYSTEM_000_050","「機工城アレキサンダー零式：律動編」は、
+複数のダンジョンで構成されます。
+中には「デジョン」が使えないダンジョンも存在します。"
+12,"TEXT_RAIDGUIDEENTRANCE32_SYSTEM_000_051","「機工城アレキサンダー零式：律動編」の攻略進行度は、
+プレイヤーごとに、特定のタイミングで「記録」され、
+再開時に続きから攻略することができます。"
+13,"TEXT_RAIDGUIDEENTRANCE32_SYSTEM_000_052","攻略進行度の記録は、
+（地球時間）毎週<ResetTime>1203</ResetTime><Switch(TopLevelParameter(220))><Case(1)>日</Case><Case(2)>月</Case><Case(3)>火</Case><Case(4)>水</Case><Case(5)>木</Case><Case(6)>金</Case><Case(7)>土</Case></Switch>曜日の<If(GreaterThanOrEqualTo(TopLevelParameter(218),12))>午後<Else/>午前</If><If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>0</Case><Case(13)>1</Case><Case(14)>2</Case><Case(15)>3</Case><Case(16)>4</Case><Case(17)>5</Case><Case(18)>6</Case><Case(19)>7</Case><Case(20)>8</Case><Case(21)>9</Case><Case(22)>10</Case><Case(23)>11</Case></Switch><Else/>0</If>時にリセットされます。"
+14,"TEXT_RAIDGUIDEENTRANCE32_SYSTEM_000_053","「機工城アレキサンダー零式：律動編」を開始するためには、
+ファイター＆ソーサラーのレベル60以上のプレイヤー8名で、
+パーティを組む必要があります。"
+15,"TEXT_RAIDGUIDEENTRANCE32_SYSTEM_000_054","また、挑戦資格として、参加するプレイヤー全員が、
+クエスト「機工城の英雄夢想詩」を受注し、
+クリアしておく必要があります。"
+16,"TEXT_RAIDGUIDEENTRANCE32_SYSTEM_000_055","「機工城アレキサンダー零式：律動編」の攻略開始地点は、
+パーティリーダーの攻略進行度によって決定されます。"
+17,"TEXT_RAIDGUIDEENTRANCE32_SYSTEM_000_056","なお、開始条件を満たしていれば、
+パーティリーダーと進行度の異なるメンバーも、
+同行させることができます。"
+18,"TEXT_RAIDGUIDEENTRANCE32_SYSTEM_100_056","パーティリーダーより進行度が進んでいないメンバーの場合、
+パーティリーダーと同等の進行度に更新され、
+同じダンジョンから再開することができるようになります。"
+19,"TEXT_RAIDGUIDEENTRANCE32_SYSTEM_000_057","パーティリーダーより進行度が進んでいるメンバーの場合、
+その進行度よりも先にパーティリーダーが進むまでは、
+進行度が更新されません。"
+20,"TEXT_RAIDGUIDEENTRANCE32_SYSTEM_100_057","その際、自分の進行度未満の地点では、報酬を得られません。
+コンテンツを攻略済みのメンバーの数により、
+宝箱の出現数が変動します。"
+21,"TEXT_RAIDGUIDEENTRANCE32_SYSTEM_000_058","「機工城アレキサンダー零式：律動編」には制限時間が存在します。
+（地球時間）90分が経過すると、
+強制的に「機工城アレキサンダー零式：律動編」は終了します。"
+22,"TEXT_RAIDGUIDEENTRANCE32_SYSTEM_000_059","戦利品が残っている状態で、
+「機工城アレキサンダー零式：律動編」から退出すると、
+戦利品目録にある、すべてのアイテムを自動的に入手します。"
+23,"TEXT_RAIDGUIDEENTRANCE32_SYSTEM_000_060","その場合、持ちきれなかったアイテムは破棄されますので、
+ご注意ください。"
+24,"TEXT_RAIDGUIDEENTRANCE32_Q2_000_100","「<Sheet(InstanceContent,IntegerParameter(1),3)/>」を
+「通常ロット」で開始しますか？"
+25,"TEXT_RAIDGUIDEENTRANCE32_Q2_100_100","「<Sheet(InstanceContent,IntegerParameter(1),3)/>」を
+「GREED限定」で開始しますか？"
+26,"TEXT_RAIDGUIDEENTRANCE32_Q2_101_100","「<Sheet(InstanceContent,IntegerParameter(1),3)/>」を
+「マスタールート」で開始しますか？"
+27,"TEXT_RAIDGUIDEENTRANCE32_A2_000_101","はい"
+28,"TEXT_RAIDGUIDEENTRANCE32_A2_000_102","いいえ"
+29,"TEXT_RAIDGUIDEENTRANCE32_SYSTEM_000_110","<Sheet(InstanceContentTextData,IntegerParameter(1),0)/>「<Sheet(InstanceContent,IntegerParameter(2),3)/>」を開始できませんでした。
+開始条件を確認してください。"
+30,"TEXT_RAIDGUIDEENTRANCE32_LIGHTKIX_000_200","シュコォ……シュコォ……
+オレは見張り屋　見張りが仕事！
+「青の手」動いたら　知らせるが　知らせるだけで　何もしない～！"
+31,"TEXT_RAIDGUIDEENTRANCE32_SYSTEM_000_210","「機工城アレキサンダー零式：律動編」を、
+クリア（攻略進行度が最大に到達）しているため、
+次回は、リセット日後に再開することができます。"
+32,"TEXT_RAIDGUIDEENTRANCE32_SYSTEM_000_211","攻略進行度の記録は、
+（地球時間）毎週<ResetTime>1203</ResetTime><Switch(TopLevelParameter(220))><Case(1)>日</Case><Case(2)>月</Case><Case(3)>火</Case><Case(4)>水</Case><Case(5)>木</Case><Case(6)>金</Case><Case(7)>土</Case></Switch>曜日の<If(GreaterThanOrEqualTo(TopLevelParameter(218),12))>午後<Else/>午前</If><If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>0</Case><Case(13)>1</Case><Case(14)>2</Case><Case(15)>3</Case><Case(16)>4</Case><Case(17)>5</Case><Case(18)>6</Case><Case(19)>7</Case><Case(20)>8</Case><Case(21)>9</Case><Case(22)>10</Case><Case(23)>11</Case></Switch><Else/>0</If>時にリセットされます。
+次回の攻略は、リセット日までお待ちください。"
+33,"TEXT_RAIDGUIDEENTRANCE32_Q3_000_300","パーティメンバーに突入の確認をしています。
+確認を中断する場合は「中断」を選択してください。"
+34,"TEXT_RAIDGUIDEENTRANCE32_A3_000_301","中断"
+35,"TEXT_RAIDGUIDEENTRANCE32_A3_000_340","このコンテンツを攻略済みのメンバーが、<Value>IntegerParameter(2)</Value>名存在するため、宝箱の出現数は「<Value>IntegerParameter(3)</Value>個」となります。
+「<Sheet(InstanceContent,IntegerParameter(1),3)/>」を開始しますか？"
+36,"TEXT_RAIDGUIDEENTRANCE32_A3_000_350","このコンテンツを攻略済みのメンバーが、<Value>IntegerParameter(2)</Value>名存在するため、宝箱の出現数は「<Value>IntegerParameter(3)</Value>個」となります。
+「<Sheet(InstanceContent,IntegerParameter(1),3)/>」を
+「通常ロット」で開始しますか？"
+37,"TEXT_RAIDGUIDEENTRANCE32_A3_100_350","このコンテンツを攻略済みのメンバーが、<Value>IntegerParameter(2)</Value>名存在するため、宝箱の出現数は「<Value>IntegerParameter(3)</Value>個」となります。
+「<Sheet(InstanceContent,IntegerParameter(1),3)/>」を
+「GREED限定」で開始しますか？"
+38,"TEXT_RAIDGUIDEENTRANCE32_A3_101_350","このコンテンツを攻略済みのメンバーが、<Value>IntegerParameter(2)</Value>名存在するため、宝箱の出現数は「<Value>IntegerParameter(3)</Value>個」となります。
+「<Sheet(InstanceContent,IntegerParameter(1),3)/>」を
+「マスタールート」で開始しますか？"

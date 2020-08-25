@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNZ210_01779_SEQ_00","The forest is under threat, and Marcechamp needs your help to save it."
-1,"TEXT_HEAVNZ210_01779_SEQ_01","Slugs have infested the forest around Tailfeather, and Marcechamp requests your assistance in their extermination. Sprinkle the solution he gave you on trees in the south of the Chocobo Forest, and slay any slugs that appear."
-2,"TEXT_HEAVNZ210_01779_SEQ_02","You have slain your fair share of the slugs, thus preserving the health of the forest. Return to Marcechamp with the tale of your success."
-3,"TEXT_HEAVNZ210_01779_SEQ_03","Marcechamp thanks you for your assistance. He goes on to explain that a healthy forest means happy chocobos, which in turn means happy hunters─a mutually beneficial relationship."
+0,"TEXT_HEAVNZ210_01779_SEQ_00","テイルフェザーのマルスシャンは、樹木を気にかけているようだ。"
+1,"TEXT_HEAVNZ210_01779_SEQ_01","マルスシャンに<Sheet(BNpcName,4046,0)/>の駆除を頼まれた。高地ドラヴァニアのチョコボの森の「<Sheet(EObj,2005603,0)/>」で「<Sheet(EventItem,2001609,0)/>」を使い、寄ってきた「<Sheet(BNpcName,4046,0)/>」を3体討伐しよう。"
+2,"TEXT_HEAVNZ210_01779_SEQ_02","<Sheet(BNpcName,4046,0)/>を討伐した。テイルフェザーの「マルスシャン」に報告しよう。"
+3,"TEXT_HEAVNZ210_01779_SEQ_03","マルスシャンに報告した。<Sheet(BNpcName,4046,0)/>は木を蝕み、森を弱らせてしまうという。そうなると良いチョコボが寄り付かなくなるため、彼らは<Sheet(BNpcName,4046,0)/>を討伐して森を守っているらしい。"
 4,"TEXT_HEAVNZ210_01779_SEQ_04",""
 5,"TEXT_HEAVNZ210_01779_SEQ_05",""
 6,"TEXT_HEAVNZ210_01779_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_HEAVNZ210_01779_SEQ_21",""
 22,"TEXT_HEAVNZ210_01779_SEQ_22",""
 23,"TEXT_HEAVNZ210_01779_SEQ_23",""
-24,"TEXT_HEAVNZ210_01779_TODO_00","Use the solution on trees and slay slugs."
-25,"TEXT_HEAVNZ210_01779_TODO_01","Report to Marcechamp."
+24,"TEXT_HEAVNZ210_01779_TODO_00","<Sheet(EObj,2005603,0)/>で<Sheet(EventItem,2001609,0)/>を使い<Sheet(BNpcName,4046,0)/>を討伐"
+25,"TEXT_HEAVNZ210_01779_TODO_01","マルスシャンに報告"
 26,"TEXT_HEAVNZ210_01779_TODO_02",""
 27,"TEXT_HEAVNZ210_01779_TODO_03",""
 28,"TEXT_HEAVNZ210_01779_TODO_04",""
@@ -49,10 +49,22 @@ int32,str,str
 45,"TEXT_HEAVNZ210_01779_TODO_21",""
 46,"TEXT_HEAVNZ210_01779_TODO_22",""
 47,"TEXT_HEAVNZ210_01779_TODO_23",""
-48,"TEXT_HEAVNZ210_01779_MARCECHAMP_000_000","Ah, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, just the <If(PlayerParameter(4))>lass<Else/>lad</If> I was lookin' for! Slugs've taken to infestin' the surroundin' woods, an' I need your help gettin' rid of 'em."
-49,"TEXT_HEAVNZ210_01779_MARCECHAMP_000_001","I've already got some people on the job, but the slimy buggers multiply faster than they can kill 'em!"
-50,"TEXT_HEAVNZ210_01779_MARCECHAMP_000_002","At the moment, we're short on hands in the south of the Chocobo Forest. Go there quick as you can, an' use this here solution to lure the slugs out. I reckon you know what to do after that."
-51,"TEXT_HEAVNZ210_01779_MARCECHAMP_000_010","Hurry to the south of the Chocobo Forest, an' sprinkle that solution on trees to lure the slugs out. You know what to do after that."
-52,"TEXT_HEAVNZ210_01779_MARCECHAMP_000_020","Took care of the slugs, did you? My thanks, friend. I shudder to think what might've happened had they gotten out of control."
-53,"TEXT_HEAVNZ210_01779_MARCECHAMP_000_021","If the forest dies, the chocobos would stop comin' here. Needless to say that's bad news for us. By protectin' the forest, we keep the birds happy, which in turn makes us happy. A mutually beneficial relationship, no?"
-54,"TEXT_HEAVNZ210_01779_MARCECHAMP_000_022","What? What's the solution made of, you ask? Well, the main ingredient's chocobo─actually, never mind. Some things are best left unknown! Bwahaha!"
+48,"TEXT_HEAVNZ210_01779_MARCECHAMP_000_000","急ぎ頼みたい仕事があるんだが、やってみる気はないか？
+この辺りの樹木に、スラッグが棲み着いてるもんで、
+その駆除を頼みたいんだ。"
+49,"TEXT_HEAVNZ210_01779_MARCECHAMP_000_001","奴らは木を蝕み、森を弱らせてしまう。
+仲間にも頼んでいるが、なにぶん人手不足でな。"
+50,"TEXT_HEAVNZ210_01779_MARCECHAMP_000_002","ここから南に行った付近が手薄なんだ。
+樹木の根元に、この「<Sheet(EventItem,2001609,0)/>」を撒けば、
+「<Sheet(BNpcName,4046,0)/>」が姿を見せるはずだからよ。"
+51,"TEXT_HEAVNZ210_01779_MARCECHAMP_000_010","ここから南に行った付近が手薄なんだ。
+樹木の根元に、この「<Sheet(EventItem,2001609,0)/>」を撒けば、
+「<Sheet(BNpcName,4046,0)/>」が姿を見せるはずだからよ。"
+52,"TEXT_HEAVNZ210_01779_MARCECHAMP_000_020","おお、戻ってきたか。
+放っておいたら森が弱ってしまうからな、本当に助かった。"
+53,"TEXT_HEAVNZ210_01779_MARCECHAMP_000_021","この辺りにチョコボを含めた獣が多いのは、
+樹冠によって、上空のドラゴン族から守られているせいさ。
+だからこそ、森を守るのも、大切な仕事ってわけだ。"
+54,"TEXT_HEAVNZ210_01779_MARCECHAMP_000_022","……ところで、例の濁水で汚れたなら、手をよく洗っとけよ？
+なにせあれはチョコボの……いや、気にするな。
+ハハハハハ！"

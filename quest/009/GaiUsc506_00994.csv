@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSC506_00994_SEQ_00","Klynthota has a theory that is out of this world."
-1,"TEXT_GAIUSC506_00994_SEQ_01","Obsessed with the lesser moon since it fell to earth five years ago, Klynthota found, then lost, a fragment of the hammer of the Calamity in the Singing Shards. Lurk there and ambush the elder hapalit with a pepper bomb, and thus regain the fragment."
-2,"TEXT_GAIUSC506_00994_SEQ_02","The bomb proved even more effective than you had hoped, and the fragment is yours. It is an odd thing to hold a piece of the moon in your hands, and an ill one at that. It would be best to pass it on to Klynthota as soon as possible."
-3,"TEXT_GAIUSC506_00994_SEQ_03","Overjoyed at her specimen's return, Klynthota reveals a startling find─that Dalamud was made of the same curious material as those abundantly found in Allagan artifacts. If she is not mistaken, the implications are dizzying..."
+0,"TEXT_GAIUSC506_00994_SEQ_00","聖コイナク財団の調査地のクリントータは、冒険者に秘密の依頼をしたいらしい。"
+1,"TEXT_GAIUSC506_00994_SEQ_01","クリントータは月の衛星「ダラガブ」のことを調べたいという。聖コイナク財団の調査地の北にある「唄う裂谷」にある「<Sheet(EObj,2002211,0)/>」で待機し、現れた「<Sheet(BNpcName,2061,0)/>」から「<Sheet(EventItem,2000934,0)/>」を入手しよう。<Sheet(BNpcName,2061,0)/>は「<Sheet(EventItem,2000962,0)/>」を使うと弱らせることができるらしい。"
+2,"TEXT_GAIUSC506_00994_SEQ_02","<Sheet(BNpcName,2061,0)/>から「<Sheet(EventItem,2000934,0)/>」を入手した。「聖コイナク財団の調査地」の「クリントータ」に渡そう。"
+3,"TEXT_GAIUSC506_00994_SEQ_03","<Sheet(EventItem,2000934,0)/>の素材は、古代アラグ帝国時代の遺物のものと似ているらしい。ダラガブと古代アラグ帝国、そこには本当につながりがあるのだろうか……？"
 4,"TEXT_GAIUSC506_00994_SEQ_04",""
 5,"TEXT_GAIUSC506_00994_SEQ_05",""
 6,"TEXT_GAIUSC506_00994_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSC506_00994_SEQ_21",""
 22,"TEXT_GAIUSC506_00994_SEQ_22",""
 23,"TEXT_GAIUSC506_00994_SEQ_23",""
-24,"TEXT_GAIUSC506_00994_TODO_00","Wait at the specified location, then use the pepper bomb on the elder hapalit."
-25,"TEXT_GAIUSC506_00994_TODO_01","Deliver the Dalamud fragment to Klynthota."
+24,"TEXT_GAIUSC506_00994_TODO_00","<Sheet(EObj,2002211,0)/>で待機し現れた<Sheet(BNpcName,2061,0)/>に<Sheet(EventItem,2000962,0)/>を使い<Sheet(EventItem,2000934,0)/>を入手"
+25,"TEXT_GAIUSC506_00994_TODO_01","クリントータに<Sheet(EventItem,2000934,0)/>を渡す"
 26,"TEXT_GAIUSC506_00994_TODO_02",""
 27,"TEXT_GAIUSC506_00994_TODO_03",""
 28,"TEXT_GAIUSC506_00994_TODO_04",""
@@ -49,17 +49,34 @@ int32,str,str
 45,"TEXT_GAIUSC506_00994_TODO_21",""
 46,"TEXT_GAIUSC506_00994_TODO_22",""
 47,"TEXT_GAIUSC506_00994_TODO_23",""
-48,"TEXT_GAIUSC506_00994_KLYNTHOTA_000_000","You are <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>? I am called Klynthota. Is it true that adventurers are bound to secrecy whenever they undertake a commission? Excellent! You see, I am here for a reason of my own─the lesser moon, Dalamud."
-49,"TEXT_GAIUSC506_00994_KLYNTHOTA_000_001","The others may burrow ever deeper in the ground, but I look to the sky. Five years ago, Dalamud flushed like the face of an old king most wroth before its swelling bulk fell to earth. I am...consumed by the desire to know more."
-50,"TEXT_GAIUSC506_00994_KLYNTHOTA_000_002","One of the fragments of the baleful satellite landed in the Singing Shards, and there I took myself and have been excavating ever since...until an elder hapalit came and seized the precious artifact!"
-51,"TEXT_GAIUSC506_00994_KLYNTHOTA_000_003","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, I must have it back! It means everything. You must slay this hated hapalit and return the fragment to me."
-52,"TEXT_GAIUSC506_00994_KLYNTHOTA_000_004","I know its weakness well enough from that most dismal encounter. Here is a pepper bomb to use on the fell creature─it was only by flinging a basket of the same peppers in its face that I escaped with my life."
-53,"TEXT_GAIUSC506_00994_DUMMY_000_010",""
-54,"TEXT_GAIUSC506_00994_DUMMYTODO_000_010",""
-55,"TEXT_GAIUSC506_00994_KLYNTHOTA_000_020","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! Did you retrieve it? Have you the fragment?"
-56,"TEXT_GAIUSC506_00994_KLYNTHOTA_000_030","Ah, my precious specimen! There is much to learn, but see you this earth-shaking discovery of mine..."
-57,"TEXT_GAIUSC506_00994_KLYNTHOTA_000_031","The fragment is made of no material known to Eorzea─save for that which has been unearthed in those Allagan ruins!"
-58,"TEXT_GAIUSC506_00994_KLYNTHOTA_000_032","What if Dalamud was a thing man-made, created by the sons and daughters of Allag, then cast into the sky? This is a powerful piece of evidence I hold again in my hand..."
-59,"TEXT_GAIUSC506_00994_KLYNTHOTA_000_033","First the Crystal Tower, now Dalamud. That a civilization could exist capable of such creations makes my calculations shiver and all jadedness shrivel. Ah, it is a good time to be alive, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! Thank you for all you have done."
-60,"TEXT_GAIUSC506_00994_KLYNTHOTA_000_034",""
-61,"TEXT_GAIUSC506_00994_POP_MESSAGE_000","You sense a hostile presence!"
+48,"TEXT_GAIUSC506_00994_KLYNTHOTA_000_000","ここの調査員たちは、みんな遺跡発掘に夢中だよ。
+……でもね、実はボクには秘密の目的があるんだ。
+ボクが本当に知りたいのは月の衛星「ダラガブ」のことさ。"
+49,"TEXT_GAIUSC506_00994_KLYNTHOTA_000_001","5年前、赤く輝きはじめたと思う間に、
+巨大化して落ちてきたダラガブ……。
+挑むに値する研究課題だとは思わないかい？"
+50,"TEXT_GAIUSC506_00994_KLYNTHOTA_000_002","そこで、破片のひとつが落着した「唄う裂谷」で
+発掘調査を進めていたんだけど……その遺物のひとつを、
+「<Sheet(BNpcName,2061,0)/>」に奪われてしまったんだ。"
+51,"TEXT_GAIUSC506_00994_KLYNTHOTA_000_003","お願いだよ、冒険者さん。
+「<Sheet(BNpcName,2061,0)/>」を倒して、
+「<Sheet(EventItem,2000934,0)/>」を取り返してくれないかな？"
+52,"TEXT_GAIUSC506_00994_KLYNTHOTA_000_004","ただ、非常に大柄でどう猛な奴だからね……。
+この「<Sheet(EventItem,2000962,0)/>」を使ってよ。
+妖異が嫌う刺激物をたっぷり詰めこんであるからさ。"
+53,"TEXT_GAIUSC506_00994_DUMMY_000_010","パブリックのオーガに<Sheet(EventItem,2000962,0)/>をつかって倒す→<Sheet(EventItem,2000934,0)/>ゲット"
+54,"TEXT_GAIUSC506_00994_DUMMYTODO_000_010","（★未使用／削除予定★）"
+55,"TEXT_GAIUSC506_00994_KLYNTHOTA_000_020","お帰り、冒険者さん。
+……ダラガブの遺物は取り戻せたかい？"
+56,"TEXT_GAIUSC506_00994_KLYNTHOTA_000_030","おお、これは貴重な標本だよ！
+もっと詳しく調べてみないと解らないことも多いけど、
+構成素材ひとつ取っても、実に興味深い！"
+57,"TEXT_GAIUSC506_00994_KLYNTHOTA_000_031","見てごらん、この遺物の素材は、
+周辺のアラグ帝国の遺跡で発見されたものとそっくりだ。"
+58,"TEXT_GAIUSC506_00994_KLYNTHOTA_000_032","ダラガブとはアラグ文明が創りだした人工天体……
+そういう学説もあるんだけど、これは重要な証拠になるね。"
+59,"TEXT_GAIUSC506_00994_KLYNTHOTA_000_033","クリスタルタワーにダラガブ……
+そんな物を創りだしてしまう超文明が存在していたなんて、
+本当に挑みがいのある謎だよ！　ありがとね、冒険者さん！"
+60,"TEXT_GAIUSC506_00994_KLYNTHOTA_000_034","（★未使用／削除予定★）"
+61,"TEXT_GAIUSC506_00994_POP_MESSAGE_000","敵の気配を感じた！！"

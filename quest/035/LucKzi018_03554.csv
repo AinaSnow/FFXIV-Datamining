@@ -1,8 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKZI018_03554_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-The concerned townsdwarf is wrestling with her worries."
+0,"TEXT_LUCKZI018_03554_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+トメラの村の心配性なドワーフは、心配事があるようだ。"
 1,"TEXT_LUCKZI018_03554_SEQ_01",""
 2,"TEXT_LUCKZI018_03554_SEQ_02",""
 3,"TEXT_LUCKZI018_03554_SEQ_03",""
@@ -26,9 +26,9 @@ The concerned townsdwarf is wrestling with her worries."
 21,"TEXT_LUCKZI018_03554_SEQ_21",""
 22,"TEXT_LUCKZI018_03554_SEQ_22",""
 23,"TEXT_LUCKZI018_03554_SEQ_23",""
-24,"TEXT_LUCKZI018_03554_TODO_00","Speak with the sulking townsdwarf."
-25,"TEXT_LUCKZI018_03554_TODO_01","/cheer up the sulking townsdwarf."
-26,"TEXT_LUCKZI018_03554_TODO_02","Speak with the concerned townsdwarf."
+24,"TEXT_LUCKZI018_03554_TODO_00","塞ぎ込んだドワーフと話す"
+25,"TEXT_LUCKZI018_03554_TODO_01","塞ぎ込んだドワーフに「応援する」をする"
+26,"TEXT_LUCKZI018_03554_TODO_02","心配性なドワーフと話す"
 27,"TEXT_LUCKZI018_03554_TODO_03",""
 28,"TEXT_LUCKZI018_03554_TODO_04",""
 29,"TEXT_LUCKZI018_03554_TODO_05",""
@@ -50,27 +50,49 @@ The concerned townsdwarf is wrestling with her worries."
 45,"TEXT_LUCKZI018_03554_TODO_21",""
 46,"TEXT_LUCKZI018_03554_TODO_22",""
 47,"TEXT_LUCKZI018_03554_TODO_23",""
-48,"TEXT_LUCKZI018_03554_GOSSIP03554_000_000","I hope she'll be all right..."
-49,"TEXT_LUCKZI018_03554_GOSSIP03554_000_001","Oh, lali-ho! Sorry, I was off in my own little world there..."
-50,"TEXT_LUCKZI018_03554_GOSSIP03554_000_002","I just can't shake the sight of it─my best friend, meeting in secret with one of them filthy, no-good Goggs. If the others were to hear about this, her honor would be forfeit!"
-51,"TEXT_LUCKZI018_03554_GOSSIP03554_000_003","So can you believe I saw her heading out into Scree─alone─not a few moments ago? At least she had the decency to hang her head in shame. Please, stranger, I need you to convince her to stop this madness while I keep the chief's attention elsewhere."
-52,"TEXT_LUCKZI018_03554_DWARF03554_000_010","...Come back to the village? No, I bloody well will not! I need to be alone. Have you never felt the pain of heartbreak!?"
-53,"TEXT_LUCKZI018_03554_DWARF03554_000_011","Argh! I m-mean... Just go away!"
-54,"TEXT_LUCKZI018_03554_DWARF03554_000_012","...Bah, I might as well tell you now, eh? I was in love with a Gogg."
-55,"TEXT_LUCKZI018_03554_DWARF03554_000_013","It all began the day a cliffkite attacked me as I was coming home from the mines. <Emphasis>He</Emphasis> saved me from becoming its dinner. He was strapping and sweet, and so I learned his patrol route. Brought him iguana tails, talked about sediment─you know, the usual stuff."
-56,"TEXT_LUCKZI018_03554_DWARF03554_000_014","Then, once we'd gotten to know each other, I confessed my feelings. But he refused me, saying he could never court a Tholl. Said it was impossible..."
-57,"TEXT_LUCKZI018_03554_DWARF03554_000_015","<sniff> I almost wish he'd left me for the cliffkite... But he's probably right. Who in Tomra would recognize our love? Who is there to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>cheer<UIGlow>01</UIGlow><UIForeground>01</UIForeground> me on?"
-58,"TEXT_LUCKZI018_03554_DWARF03554_000_020","<sniff> Won't anyone <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>cheer<UIGlow>01</UIGlow><UIForeground>01</UIForeground> for our love...?"
-59,"TEXT_LUCKZI018_03554_DWARF03554_000_021","...Thank you. There'll be few enough kind words for me if news gets out. But I won't give up! I'll think of a way for my Gogg and I to be together!"
-60,"TEXT_LUCKZI018_03554_GOSSIP03554_000_030","I see you got my friend to come back, but she was in too much of a hurry to spare me a second glance. What happened out there?"
-61,"TEXT_LUCKZI018_03554_Q1_000_000","What will you do?"
-62,"TEXT_LUCKZI018_03554_A1_000_001","Explain the situation."
-63,"TEXT_LUCKZI018_03554_A1_000_002","Keep your mouth shut."
-64,"TEXT_LUCKZI018_03554_GOSSIP03554_000_031","She fell in <Emphasis>love</Emphasis> with him!? With a Gogg? Ugh, the chief can never know about this..."
-65,"TEXT_LUCKZI018_03554_GOSSIP03554_000_032","Not your place to say, eh? Well, I was meaning to talk to her about this anyway..."
-66,"TEXT_LUCKZI018_03554_GOSSIP03554_000_033","Thank you for your help, stranger. I'll do my best to keep her out of trouble!"
-67,"TEXT_LUCKZI018_03554_GOSSIP03554_000_011",""
-68,"TEXT_LUCKZI018_03554_GOSSIP03554_000_012",""
-69,"TEXT_LUCKZI018_03554_GOSSIP03554_000_013",""
-70,"TEXT_LUCKZI018_03554_GOSSIP03554_000_014",""
-71,"TEXT_LUCKZI018_03554_GOSSIP03554_000_015",""
+48,"TEXT_LUCKZI018_03554_GOSSIP03554_000_000","ああ、大丈夫かなあ……。"
+49,"TEXT_LUCKZI018_03554_GOSSIP03554_000_001","あら、ラリホー！
+ごめんなさい、考え事をしていて……。
+実はね、見ちゃったのよ、私……。"
+50,"TEXT_LUCKZI018_03554_GOSSIP03554_000_002","あの憎たらしいコグー一家のドワーフと、
+友人の女の子が密会するところをね……。
+そんなことが仲間にバレたら、名誉に関わる大問題よ！"
+51,"TEXT_LUCKZI018_03554_GOSSIP03554_000_003","さっきも、妙に神妙な顔でスクリー山地の方に出ていって……。
+ねえ、あなた、あたしが長老の気を引いている間に、
+友人の「塞ぎ込んだドワーフ」を連れ戻してくれないかしら。"
+52,"TEXT_LUCKZI018_03554_DWARF03554_000_010","……すぐに集落に戻れ？
+そんなの無理よ！　このフラれた悲しみが癒えるまで戻らない！"
+53,"TEXT_LUCKZI018_03554_DWARF03554_000_011","ハッ！　ち、違う！　なんでもないわ！"
+54,"TEXT_LUCKZI018_03554_DWARF03554_000_012","…………なんて、ごまかせないわよね。
+わたし、「コグー一家の若者」が好きだったの。"
+55,"TEXT_LUCKZI018_03554_DWARF03554_000_013","採掘の帰り道、魔物に襲われていたところを、彼が助けてくれてね。
+その優しさに惚れて、何度も彼を待ち伏せして、
+お弁当をあげたり、お話したり……。"
+56,"TEXT_LUCKZI018_03554_DWARF03554_000_014","やっと気さくに話せるようになったから、
+さっき、思い切って告白したんだけど……
+対立するトルー一家と、お付き合いはできないって……。"
+57,"TEXT_LUCKZI018_03554_DWARF03554_000_015","本気だったのに……。
+…………あーあ、誰かが「応援」してくれたら、
+立ち直れるかもしれないけど……優しいヒトはいないかなあ。"
+58,"TEXT_LUCKZI018_03554_DWARF03554_000_020","あーあ、どこかに「応援」してくれる、優しいヒトはいないかなあ。"
+59,"TEXT_LUCKZI018_03554_DWARF03554_000_021","……ふふっ、ありがとう、あなたも、とても優しいヒトなのね。
+この恋は絶対に諦めないわ、どうやって会いに行くか考えてみる！"
+60,"TEXT_LUCKZI018_03554_GOSSIP03554_000_030","さっき、あの子が戻ってきたわ、連れ戻してくれてありがとう。
+でも彼女、ずいぶんと真剣な顔つきだったわ。
+いったい何があったの？"
+61,"TEXT_LUCKZI018_03554_Q1_000_000","何と答える？"
+62,"TEXT_LUCKZI018_03554_A1_000_001","説明する"
+63,"TEXT_LUCKZI018_03554_A1_000_002","秘密は話せない"
+64,"TEXT_LUCKZI018_03554_GOSSIP03554_000_031","そんな！　よりによって、コグー一家の男に惚れるなんて！
+長老に知られたらどうなるか……
+これは他言できないわ……！"
+65,"TEXT_LUCKZI018_03554_GOSSIP03554_000_032","そっかぁ、あなた、口が堅いのね。
+確かに、直接聞いてみたほうがよさそう。
+今度あの子に、それとなく聞いてみるわ、心配だもの。"
+66,"TEXT_LUCKZI018_03554_GOSSIP03554_000_033","ともかく、あなたのおかげで助かったわ。
+ありがとう、それじゃあね！"
+67,"TEXT_LUCKZI018_03554_GOSSIP03554_000_011","（★未使用／削除予定★）"
+68,"TEXT_LUCKZI018_03554_GOSSIP03554_000_012","（★未使用／削除予定★）"
+69,"TEXT_LUCKZI018_03554_GOSSIP03554_000_013","（★未使用／削除予定★）"
+70,"TEXT_LUCKZI018_03554_GOSSIP03554_000_014","（★未使用／削除予定★）"
+71,"TEXT_LUCKZI018_03554_GOSSIP03554_000_015","（★未使用／削除予定★）"

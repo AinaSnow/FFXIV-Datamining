@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKMC101_03322_SEQ_00","The manager of suites is in a cheerful mood."
-1,"TEXT_LUCKMC101_03322_SEQ_01","In his usual, jovial tone, the manager of suites informs you the Scions and the Crystal Exarch are waiting for you in the Ocular."
-2,"TEXT_LUCKMC101_03322_SEQ_02","The tension in the room is palpable as you enter the Ocular, and it immediately becomes clear why when you see an unexpected face in the room─Emet-Selch. He continues to cling to the claim that he comes only to observe your efforts in defeating the Lightwardens, once more offering his hand in partnership. Seeing the Scions' icy─yet entirely expected─response, he takes his leave. Ascian schemes aside, the Scions decide it best to split up to search for the remaining Lightwardens of Norvrandt. You, along with Thancred, Minfilia, and Urianger, have been tasked with seeking out Y'shtola in the Rak'tika Greatwood."
-3,"TEXT_LUCKMC101_03322_SEQ_03","Before you set off, the Crystal Exarch makes a request. On the way to the Rak'tika Greatwood, he asks that you stop at Fort Jobb and search for a particular tablet in the ruins. It is a holy text he believes may be of interest to Y'shtola, who presently resides with worshipers of the Dark─the Night's Blessed."
-4,"TEXT_LUCKMC101_03322_SEQ_04","A short journey north from the Crystarium takes you to Fort Jobb. Urianger hopes to keep the search brief, that you might begin your journey to find Y'shtola and slay the Lightwarden in earnest."
+0,"TEXT_LUCKMC101_03322_SEQ_00","ペンダント居住館の管理人は、にこやかな様子だ。"
+1,"TEXT_LUCKMC101_03322_SEQ_01","ペンダント居住館の管理人から、伝言を聞いた。クリスタリウムの「星見の間」に向かおう。"
+2,"TEXT_LUCKMC101_03322_SEQ_02","仲間たちと手分けして、大罪喰いの捜索を行うことになった。星見の間の「水晶公」と話そう。"
+3,"TEXT_LUCKMC101_03322_SEQ_03","水晶公から、ヤ・シュトラへの手土産について聞いた。レイクランドのジョッブ砦にいる「ウリエンジェ」と話そう。"
+4,"TEXT_LUCKMC101_03322_SEQ_04","ウリエンジェと話した。水晶公の言っていた石板を探し、ヤ・シュトラの待つラケティカ大森林を目指そう！"
 5,"TEXT_LUCKMC101_03322_SEQ_05",""
 6,"TEXT_LUCKMC101_03322_SEQ_06",""
 7,"TEXT_LUCKMC101_03322_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_LUCKMC101_03322_SEQ_21",""
 22,"TEXT_LUCKMC101_03322_SEQ_22",""
 23,"TEXT_LUCKMC101_03322_SEQ_23",""
-24,"TEXT_LUCKMC101_03322_TODO_00","Proceed to the Ocular."
-25,"TEXT_LUCKMC101_03322_TODO_01","Speak with the Crystal Exarch."
-26,"TEXT_LUCKMC101_03322_TODO_02","Speak with Urianger at Fort Jobb."
+24,"TEXT_LUCKMC101_03322_TODO_00","星見の間に向かう"
+25,"TEXT_LUCKMC101_03322_TODO_01","水晶公と話す"
+26,"TEXT_LUCKMC101_03322_TODO_02","ジョッブ砦のウリエンジェと話す"
 27,"TEXT_LUCKMC101_03322_TODO_03",""
 28,"TEXT_LUCKMC101_03322_TODO_04",""
 29,"TEXT_LUCKMC101_03322_TODO_05",""
@@ -49,22 +49,49 @@ int32,str,str
 45,"TEXT_LUCKMC101_03322_TODO_21",""
 46,"TEXT_LUCKMC101_03322_TODO_22",""
 47,"TEXT_LUCKMC101_03322_TODO_23",""
-48,"TEXT_LUCKMC101_03322_GUIDEOFTHEPENDANTS_000_000","<If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>Good evening<Else/>Good morning</If><Else/><If(LessThan(PlayerParameter(11),17))>Good day<Else/>Good evening</If></If> to you, <If(PlayerParameter(4))>miss<Else/>sir</If>. I do hope you are well rested."
-49,"TEXT_LUCKMC101_03322_GUIDEOFTHEPENDANTS_000_001","The Exarch and your companions are presently gathered in the Ocular. He asks that you convene with them at your earliest convenience."
-50,"TEXT_LUCKMC101_03322_ALPHINAUD_000_010","I confess, a great deal of my time in Kholusia was spent befriending the people, but that is not to say I gave no thought to our primary goal."
-51,"TEXT_LUCKMC101_03322_ALPHINAUD_000_011","Once I have escorted the Exarch to Eulmore, you can be certain I will do all I can to discern the whereabouts of any Warden that may be hiding in Kholusia."
-52,"TEXT_LUCKMC101_03322_ALISAIE_000_015","There are so many ruins scattered throughout Amh Araeng... I'm honestly not even sure where to start."
-53,"TEXT_LUCKMC101_03322_THANCRED_000_020","Minfilia and I are no strangers to Rak'tika, but this is perhaps the first time we've bothered entering through the proverbial front door."
-54,"TEXT_LUCKMC101_03322_RYNE_000_025","At last I can finally meet Y'shtola. Thancred has told me so much about her."
-55,"TEXT_LUCKMC101_03322_URIANGER_000_030","I should be glad to apprise thee of Y'shtola's recent endeavors during our journey to Rak'tika."
-56,"TEXT_LUCKMC101_03322_MYSTERYVOICE_000_040","Before you leave, I would make a request of you."
-57,"TEXT_LUCKMC101_03322_MYSTERYVOICE_000_041","There is a church─or rather, the ruins of a church─at Fort Jobb. Might I ask that you go there before seeking out Y'shtola?"
-58,"TEXT_LUCKMC101_03322_MYSTERYVOICE_000_042","It was a place where people once gathered to worship the Light. Alas, it has long since fallen into disuse."
-59,"TEXT_LUCKMC101_03322_MYSTERYVOICE_000_043","Yet within that hall there remains a tablet whose writings I believe may prove of use to Y'shtola. At the very least, such a relic would make a suitable gift for your reunion."
-60,"TEXT_LUCKMC101_03322_URIANGER_000_044","A most considerate proposal. Very well. Ere we depart to Rak'tika, we shall journey unto Fort Jobb that we might secure this relic."
-61,"TEXT_LUCKMC101_03322_MYSTERYVOICE_000_050","Safe travels, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I pray that tablet and its contents prove of interest to Y'shtola."
-62,"TEXT_LUCKMC101_03322_THANCRED_000_055","I do not doubt this place may weather another assault by the sin eaters, but they cannot hope to hold it should the Eulmoran soldiers return."
-63,"TEXT_LUCKMC101_03322_THANCRED_000_056","Even with their limited numbers, the guard can use the terrain to their advantage. Perhaps I can convince the captain to lay a few traps out in the field."
-64,"TEXT_LUCKMC101_03322_RYNE_000_060","Thancred and I have come across these ruined churches before. I wish I could've seen them before the Flood. The windows were works of art, I'm told..."
-65,"TEXT_LUCKMC101_03322_URIANGER_000_070","Here amidst these ruins we will find the Church of the First Light, and within that hallowed hall the tablet we seek."
-66,"TEXT_LUCKMC101_03322_URIANGER_000_071","Time is of the essence, my friend. Let us be quick."
+48,"TEXT_LUCKMC101_03322_GUIDEOFTHEPENDANTS_000_000","おや、お目覚めになられたのですね。
+公からの差し入れも、お気に召しましたでしょうか？"
+49,"TEXT_LUCKMC101_03322_GUIDEOFTHEPENDANTS_000_001","お仲間の皆様から、疲れがとれたら、
+「星見の間」に集合してほしいと伝言を承っております。
+お気をつけて、いってらっしゃいませ。"
+50,"TEXT_LUCKMC101_03322_ALPHINAUD_000_010","以前、コルシア島に滞在していたときも、
+大罪喰いの居所について、調べなかったわけではないんだ。
+ただ、これといった成果はなくてね……。"
+51,"TEXT_LUCKMC101_03322_ALPHINAUD_000_011","今回は調べ方を変えてみるつもりだが、
+そう簡単には成果が出せないかもしれない。
+水晶公の補佐もあるし、深入りしすぎないように気を付けるよ。"
+52,"TEXT_LUCKMC101_03322_ALISAIE_000_015","さて、私はアム・アレーンのどこから捜索しようかしら。
+まだ行っていない廃墟がいくつかあったはずだから、
+そこから当たってみるか……。"
+53,"TEXT_LUCKMC101_03322_THANCRED_000_020","ラケティカ大森林は、とにかく広いんだ。
+俺とミンフィリアも、その一角に滞在したことはあるが、
+正面切って拠点を訪ねるのは初めてかもしれないな。"
+54,"TEXT_LUCKMC101_03322_RYNE_000_025","ヤ・シュトラさん……どんな人なんでしょう？"
+55,"TEXT_LUCKMC101_03322_URIANGER_000_030","かの地への案内役、承りました。
+道すがら、こちらでのヤ・シュトラの状況について、
+お話するといたしましょう。"
+56,"TEXT_LUCKMC101_03322_MYSTERYVOICE_000_040","では、それぞれ支度が整い次第、出立するとしよう。"
+57,"TEXT_LUCKMC101_03322_MYSTERYVOICE_000_041","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>たちは、大森林に入る前に、
+レイクランドの「ジョッブ砦」に立ち寄ってほしい。"
+58,"TEXT_LUCKMC101_03322_MYSTERYVOICE_000_042","そこには、光耀教会と呼ばれる、
+「光の氾濫」以前に盛んに信仰されていた教会の、遺跡がある。"
+59,"TEXT_LUCKMC101_03322_MYSTERYVOICE_000_043","今はもう立ち入る者もいないが……
+礼拝所の祭壇の中に、ある石板が置かれているはずだ。
+それを回収して、ヤ・シュトラへの手土産にするといい。"
+60,"TEXT_LUCKMC101_03322_URIANGER_000_044","ふむ……。
+それでは、私たちは、その「ジョッブ砦」で、
+再度合流するといたしましょう。"
+61,"TEXT_LUCKMC101_03322_MYSTERYVOICE_000_050","私たちも、じきここを発とう。
+件の石板があるのは、ジョッブ砦にある教会跡の祭壇の中だ。
+ヤ・シュトラが気に入ってくれることを祈っているよ。"
+62,"TEXT_LUCKMC101_03322_THANCRED_000_055","この砦、もう少し警備を厚くした方がいいかもしれないな。
+はぐれ罪喰いの討伐には十分かもしれないが、
+ユールモア軍が、再進攻してくる可能性だってあるんだ。"
+63,"TEXT_LUCKMC101_03322_THANCRED_000_056","衛兵の数はかぎられているとしても、罠を張る方法もある。
+折を見て、ライナに進言してみるか……。"
+64,"TEXT_LUCKMC101_03322_RYNE_000_060","光耀教会の廃墟なら、旅先でもいくつか見たことがあります。
+窓の形が、ちょっとだけ、かわいいんです。"
+65,"TEXT_LUCKMC101_03322_URIANGER_000_070","お待ちしておりました。
+この砦の北に、ラケティカ大森林へと続く道がございます。"
+66,"TEXT_LUCKMC101_03322_URIANGER_000_071","しかしまずは、水晶公に言われたとおり、
+手土産にせし石板を探すことにいたしましょう。"

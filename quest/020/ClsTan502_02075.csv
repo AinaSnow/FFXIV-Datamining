@@ -1,13 +1,16 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSTAN502_02075_SEQ_00","Geva has a task that demands your attention."
-1,"TEXT_CLSTAN502_02075_SEQ_01","Geva has received a rare request from Ishgard for a sample of Fen–Yll's finest work. The guildmaster needs you to take it to a merchant named Elde. However, she also wishes you to turn Elde down in no uncertain terms should she wish to make a substantial order. The toll of large-scale trade with Ishgard would simply be too costly for the life in the Black Shroud. Make your way to the Jeweled Crozier, and speak with the merchant."
-2,"TEXT_CLSTAN502_02075_SEQ_02","You meet with Elde, and deliver Geva's message. Nevertheless, the merchant sees a new opportunity in you, Geva's disciple. As her shop is newly opened, she asks that you serve as an advisor, and consult with her about leatherwork. Your first task, so to speak, is speaking with the shopkeeps along the Jeweled Crozier, for something is not right in the markets of Ishgard."
-3,"TEXT_CLSTAN502_02075_SEQ_03","After speaking to a number of merchants, you are left with the impression that the Jeweled Crozier has goods for either the very rich, or the very poor─but nothing in between. Return to Elde, and report your findings."
-4,"TEXT_CLSTAN502_02075_SEQ_04","Elde confirms your assessment of the Jeweled Crozier, and lays before you her mission. She means to provide high-quality products to everyone at reasonable prices, regardless of their station. She bids you to join her crusade if it speaks to you.
+0,"TEXT_CLSTAN502_02075_SEQ_00","革細工師ギルドのゲヴァは、冒険者に仕事を頼みたいようだ。"
+1,"TEXT_CLSTAN502_02075_SEQ_01","前回までの冒険録：
+革細工師ギルドマスター、ゲヴァの厳しい修行に耐え、冒険者は革細工師として大きな成長を見せていた。一方、ギルドを敵視する新興の革細工ブランド「アンクル・ボサ」は、「品評会」の最高賞獲得を狙って様々な陰謀を巡らせる。そして迎えた「品評会」の日。冒険者のラプトルジャーキンが「アンクル・ボサ」の品を破り、最高賞を獲得する。多くの命を奪って作られたライバルの品とは対照的に、最小限の素材で最高の評価を勝ち取った愛弟子の成長に、ゲヴァは目を細めるのだった……。
+　　　　　　　　　　　　*　*　*
+ゲヴァから届け物を頼まれた。イシュガルドの宝杖通りにいる「エルド」に「<Sheet(EventItem,2001717,0)/>」を渡そう。"
+2,"TEXT_CLSTAN502_02075_SEQ_02","エルドに<Sheet(EventItem,2001717,0)/>を渡したところ、エルドの商会の相談役になってほしいと頼まれた。街が抱える問題を知るため、宝杖通りの「商人たち」と話そう。"
+3,"TEXT_CLSTAN502_02075_SEQ_03","宝杖通りの商人たちと話した。宝杖通りの「エルド」に報告しよう。"
+4,"TEXT_CLSTAN502_02075_SEQ_04","エルドに報告した。どうやら、エルドは、街の商習慣を変えて、平民に良い品を適価で売りたいようだ。革細工師の見聞を広めるためにも、エルドの商会の相談役になって、腕を振るってみよう。
 
-※The next leatherworker quest will be available from Elde upon reaching level 53."
+※革細工師のレベルが53以上になると、宝杖通りのエルドから次の革細工師クエストを受注することができます。"
 5,"TEXT_CLSTAN502_02075_SEQ_05",""
 6,"TEXT_CLSTAN502_02075_SEQ_06",""
 7,"TEXT_CLSTAN502_02075_SEQ_07",""
@@ -27,9 +30,9 @@ int32,str,str
 21,"TEXT_CLSTAN502_02075_SEQ_21",""
 22,"TEXT_CLSTAN502_02075_SEQ_22",""
 23,"TEXT_CLSTAN502_02075_SEQ_23",""
-24,"TEXT_CLSTAN502_02075_TODO_00","Deliver the selection of guild samples to Elde at the Jeweled Crozier."
-25,"TEXT_CLSTAN502_02075_TODO_01","Speak with the merchants at the Jeweled Crozier."
-26,"TEXT_CLSTAN502_02075_TODO_02","Report to Elde."
+24,"TEXT_CLSTAN502_02075_TODO_00","イシュガルドのエルドに<Sheet(EventItem,2001717,0)/>を渡す"
+25,"TEXT_CLSTAN502_02075_TODO_01","宝杖通りの商人たちと話す"
+26,"TEXT_CLSTAN502_02075_TODO_02","エルドに報告"
 27,"TEXT_CLSTAN502_02075_TODO_03",""
 28,"TEXT_CLSTAN502_02075_TODO_04",""
 29,"TEXT_CLSTAN502_02075_TODO_05",""
@@ -51,45 +54,101 @@ int32,str,str
 45,"TEXT_CLSTAN502_02075_TODO_21",""
 46,"TEXT_CLSTAN502_02075_TODO_22",""
 47,"TEXT_CLSTAN502_02075_TODO_23",""
-48,"TEXT_CLSTAN502_02075_GEVA_000_000","Ah, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Good. Something has happened recently that has not happened in a long time─an order has come from Ishgard."
-49,"TEXT_CLSTAN502_02075_GEVA_000_001","A merchant named Elde has requested a selection of Fen–Yll's finest goods. I've seen to it personally that she will get our best."
-50,"TEXT_CLSTAN502_02075_GEVA_000_002","I want you to deliver the guild samples to her at the Jeweled Crozier, but only because I can trust the important part of this task to you and you alone."
-51,"TEXT_CLSTAN502_02075_GEVA_000_003","If I know anything of merchants, this is a prelude to a substantial order. The guild will not take it. Our production puts the balance of the Twelveswood in enough peril as it is."
-52,"TEXT_CLSTAN502_02075_GEVA_000_004","There. I believe you can turn her down without offering offense─and if she is insistent, you have learned how to say no from me. In any case, I trust I won't be hearing more about the matter."
-53,"TEXT_CLSTAN502_02075_GEVA_000_010","Have you forgotten where Elde is already? The Jeweled Crozier in Ishgard."
-54,"TEXT_CLSTAN502_02075_ELDE_000_020","Welcome, welcome to Elde's House of Excellence! Our signboard is newly hung, but I promise you'll find no finer leatherwork in all of Ishgard."
-55,"TEXT_CLSTAN502_02075_ELDE_000_021","Oh! The guild representative─I beg your pardon, <If(PlayerParameter(4))>miss<Else/>sir</If>! I did not expect you so soon. If you will allow me to look at your samples..."
-56,"TEXT_CLSTAN502_02075_ELDE_000_022","Goodness, Fen–Yll's finery puts my best to shame! These will sell splendidly! Please, deliver your guildmaster my compliments, and an order for...for one thousand circles of leather!"
-57,"TEXT_CLSTAN502_02075_ELDE_000_023","You...you can't!? ...No, no, you have the right of it. <sigh> I should've known filling such a large purchase would mean a great loss of life in the Black Shroud."
-58,"TEXT_CLSTAN502_02075_ELDE_000_024","I'm very new to this, honestly. Could you help me? Oh, excuse me, that was rather forward. It's just...your hands. They're the hands of a true artisan, calloused but strong. <Emphasis>Deft</Emphasis>."
-59,"TEXT_CLSTAN502_02075_ELDE_000_025","I'm a poor leatherworker myself, and I could use an experienced advisor, someone who can give me a fresh perspective. And we are all in dire need of a fresh perspective."
-60,"TEXT_CLSTAN502_02075_ELDE_000_026","...But I should let you draw your own conclusions, shouldn't I? Please, go and speak with the shopkeeps around here as a customer. I'm certain you'll see what I'm getting at."
-61,"TEXT_CLSTAN502_02075_ELDE_000_030","Lost as to where to begin? Well, what about Mathye? He's the fellow just behind my shop. Oh, but don't let him know I sent you!"
-62,"TEXT_CLSTAN502_02075_GEVA_000_035","deleted"
-63,"TEXT_CLSTAN502_02075_MATHYE_100_050","Ah, my dear <If(PlayerParameter(4))>miss<Else/>sir</If>, what house do you serve? Oh, I see─shopping for yourself, eh? Well, my wares are <Emphasis>most</Emphasis> reasonably priced! In fact, I take great pride in delivering the cheapest of goods to the lowborn! I will not be undersold!"
-64,"TEXT_CLSTAN502_02075_BOUGU02075_000_050","deleted"
-65,"TEXT_CLSTAN502_02075_ELAISSE_000_040","A warm welcome to you, <If(PlayerParameter(4))>miss<Else/>sir</If>! Please, feel free to visit our many, many shops."
-66,"TEXT_CLSTAN502_02075_ELAISSE_000_041","From highborn lords to working commoners, we strive to accommodate everyone's needs. But one word about the cheaper merchandise: if it seems too good to be true, it most likely is."
-67,"TEXT_CLSTAN502_02075_GERHARDT_000_060","...If you <Emphasis>must</Emphasis> go shopping, kindly do so in the Brume, sir!"
-68,"TEXT_CLSTAN502_02075_GERHARDT_000_061","What? Must I repeat myself again and again!? I do not have anything to sell to the likes of you! Do you understand!? You do not have the gil to buy what I have to offer!"
-69,"TEXT_CLSTAN502_02075_GERHARDT_000_062","Tch, I have wasted far too much time explaining myself. I have an appointment with the Count de Durendaire. Good day, <If(PlayerParameter(4))>miss<Else/>sir</If>!"
-70,"TEXT_CLSTAN502_02075_KYAKU02075_100_065","All I wanted was to give me daughter a nice dress for her nameday. I've even got the bloody gil! Why can't the poor get nothin' nice, even if we've got the coin to buy!?"
-71,"TEXT_CLSTAN502_02075_KYAKU02075_100_070","Bloody merchants. They're why we can't have nice things..."
-72,"TEXT_CLSTAN502_02075_ORTEFAUCHEL_000_070","Pardon me, madam─which of these is best? I need a present to charm my wife, and I can't choose between what all seem to be splendid bags."
-73,"TEXT_CLSTAN502_02075_ELDE_000_071","Thank you for saying so, sir. But if you aren't in a hurry, we're scheduled to get a shipment of far finer than these soon."
-74,"TEXT_CLSTAN502_02075_ORTEFAUCHEL_000_072","Finer, eh? Well, only the best for my bride. Could you hold your favorite for me, under the name Ortefauchel?"
-75,"TEXT_CLSTAN502_02075_ELDE_000_090","Ah, how did you find the shopkeeps? Something in their attitude struck you as amiss, yes?"
-76,"TEXT_CLSTAN502_02075_ELDE_000_091","Yes, the merchants are concerned only with the coin of nobles, and pay little heed to any need of the lowborn that is not low price."
-77,"TEXT_CLSTAN502_02075_ELDE_000_092","The artisans aren't much better. Those that fail to please the High Houses are overwhelmed with orders. They slap something shoddy together, and sell it to the commoners. As a result, it's difficult for many Ishgardians to find anything but the worst of goods."
-78,"TEXT_CLSTAN502_02075_ELDE_000_093","But why, I ask you? Is a commoner's coin lesser than a lord's? Shouldn't merchants offer high-quality products for <Emphasis>everyone</Emphasis>?"
-79,"TEXT_CLSTAN502_02075_ELDE_000_094","I believe we should. We all deserve well-made goods that are within our budgets. So I opened this shop for all Ishgard, from the Hoplon to the Brume."
-80,"TEXT_CLSTAN502_02075_ELDE_000_095","Not everyone shares my belief. But if you see the value in my ideas, I'd love to have your expert advice. I do hope we meet again, my friend."
-81,"TEXT_CLSTAN502_02075_SYSTEM_000_080","The next leatherworker quest will be available from Elde upon reaching level 53."
-82,"TEXT_CLSTAN502_02075_SYSTEM_000_081","The requirements for undertaking subsequent quests can be reviewed in your journal."
-83,"TEXT_CLSTAN502_02075_SYSTEM_000_100","Your skills as an artisan would be put to great use in crafting collectables. Speak with Morgayne at Saint Reinette's Forum in Ishgard to learn more of this lucrative business opportunity."
-84,"TEXT_CLSTAN502_02075_SYSTEM_000_101","If you seek even greater tests of your crafting prowess, you would do well to acquire master recipes."
-85,"TEXT_CLSTAN502_02075_SYSTEM_000_102","Speak with Guiding Star at Revenant's Toll to learn about them."
-86,"TEXT_CLSTAN502_02075_ORTEFAUCHEL_000_073","deleted"
-87,"TEXT_CLSTAN502_02075_ORTEFAUCHEL_000_074","deleted"
-88,"TEXT_CLSTAN502_02075_ORTEFAUCHEL_000_075","deleted"
-89,"TEXT_CLSTAN502_02075_ORTEFAUCHEL_000_076","deleted"
+48,"TEXT_CLSTAN502_02075_GEVA_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、いいところに来てくれたわ。
+実は、珍しいところから依頼がきてね、
+あんたに頼みたいのよ。"
+49,"TEXT_CLSTAN502_02075_GEVA_000_001","なめし革の見本が欲しいって依頼なんだけど、
+依頼主というのが、山の都「イシュガルド」の商人でね。"
+50,"TEXT_CLSTAN502_02075_GEVA_000_002","あんたに頼みたいのは、「<Sheet(EventItem,2001717,0)/>」の配送だけど……
+もちろん、それだけじゃないわ。"
+51,"TEXT_CLSTAN502_02075_GEVA_000_003","もし、先方が大口の取引を希望してきたら、断ってほしいの。
+黒衣森の環境を考えれば、これ以上の増産は無理だからね。
+あんたの実力なら、その辺りの事情も説明できるでしょう。"
+52,"TEXT_CLSTAN502_02075_GEVA_000_004","それじゃ、イシュガルドの「宝杖通り」にいる「エルド」さんに、
+その見本品を届けてちょうだい。
+頼んだわよ！"
+53,"TEXT_CLSTAN502_02075_GEVA_000_010","それじゃ、イシュガルドの「宝杖通り」にいる「エルド」さんに、
+その見本品を届けてちょうだい。
+頼んだわよ！"
+54,"TEXT_CLSTAN502_02075_ELDE_000_020","いらっしゃいませ！
+こちら看板を上げたばかりの、皮革用品店でございます。
+ぜひとも、お立ち寄りください。"
+55,"TEXT_CLSTAN502_02075_ELDE_000_021","……これは失礼しました！
+グリダニアの革細工師ギルドの方でしたか。
+では、さっそく見本品を拝見させていただきますね。"
+56,"TEXT_CLSTAN502_02075_ELDE_000_022","フムフム……さすがは本場の仕事、丹念になめされている。
+これでしたら、人気商品になること間違いなしですよ！
+では、千枚ほど、発注させていただきます！"
+57,"TEXT_CLSTAN502_02075_ELDE_000_023","えええっ……大量発注は無理！？
+……しかし、そういう事情なら仕方がないですね。
+黒衣森の資源を、枯渇させるわけにはいきませんし……。"
+58,"TEXT_CLSTAN502_02075_ELDE_000_024","ところで……あなた、かなり腕利きの革細工師ですね？
+見本品を受け取ったときに、手を見せていただいたのですが、
+あなたは「職人の手」をしていました！"
+59,"TEXT_CLSTAN502_02075_ELDE_000_025","どうです、我が商会の相談役になってもらえませんか？
+ちょうど、しがらみのない外部の人材を求めていたんですよ。"
+60,"TEXT_CLSTAN502_02075_ELDE_000_026","というのも、この街の商業界には、少々問題がありまして……。
+そうだ、客を装って、商人に取引を持ちかけてみてください。
+きっと現状を理解してもらえると思いますから。"
+61,"TEXT_CLSTAN502_02075_ELDE_000_030","客を装って、商人に取引を持ちかけてみてください。
+きっと現状を理解してもらえると思いますから。"
+62,"TEXT_CLSTAN502_02075_GEVA_000_035","（★未使用／削除予定★）"
+63,"TEXT_CLSTAN502_02075_MATHYE_100_050","おや、平民のお客さんですね？
+それなら、お安いものを揃えてますよ。
+手間と材料費を、絞れるだけ絞って実現した、低価格です。"
+64,"TEXT_CLSTAN502_02075_BOUGU02075_000_050","（★未使用／削除予定★）"
+65,"TEXT_CLSTAN502_02075_ELAISSE_000_040","いらっしゃいませ。
+お探しの物がございましたら、各店舗にお立ち寄りくださいな。"
+66,"TEXT_CLSTAN502_02075_ELAISSE_000_041","私どもは、幅広い層のお客さまに、商品をお売りしています。
+当然、その価格によって、品質も変わります。
+安い物には、安いなりの理由があるということですわ。"
+67,"TEXT_CLSTAN502_02075_GERHARDT_000_060","……だから、貧乏人に売る物などないと言ってるだろっ！"
+68,"TEXT_CLSTAN502_02075_GERHARDT_000_061","なにぃ……商品を見せてほしいだと？
+あんたが買えるような安物は、取り扱ってないもんでね。
+見るだけ無駄ってもんだ。"
+69,"TEXT_CLSTAN502_02075_GERHARDT_000_062","……いかんいかん、こんなことしてる場合ではなかった。
+デュランデル伯爵への納品を急がねば。"
+70,"TEXT_CLSTAN502_02075_KYAKU02075_100_065","まともな品が欲しいだけなのに……。
+やっぱり、平民は粗悪品を持つしかないのか。"
+71,"TEXT_CLSTAN502_02075_KYAKU02075_100_070","まともな品が欲しいだけなのに……。
+やっぱり、平民は粗悪品を持つしかないのか。"
+72,"TEXT_CLSTAN502_02075_ORTEFAUCHEL_000_070","カミさんにプレゼントする、カバンがほしいなと思ってさ。
+……さっきから物色してたんだが、どれも良さげで迷うね。"
+73,"TEXT_CLSTAN502_02075_ELDE_000_071","ありがとうございます！
+でも、今度さらに良い品が入荷する予定ですよ。
+お急ぎでなければ、それまで待つのも手かと。"
+74,"TEXT_CLSTAN502_02075_ORTEFAUCHEL_000_072","へぇ、良心的なお店だね。
+それじゃあ、その良い品とやらを予約させてもらおうかな。"
+75,"TEXT_CLSTAN502_02075_ELDE_000_090","……あら、お帰りなさい。
+どうです、少しはこの街の商業界が抱える問題が、
+おわかりになりましたか？"
+76,"TEXT_CLSTAN502_02075_ELDE_000_091","商売で財を成そうとすれば、
+貴族の顔色を覗う、御用商人になるしかないのです。
+その結果、平民が手にできる物は、粗悪な品ばかりという有様。"
+77,"TEXT_CLSTAN502_02075_ELDE_000_092","職人さんも、贅を尽くした高級品か、手抜きの安物を作るか、
+理不尽な二択を迫られている状況……。"
+78,"TEXT_CLSTAN502_02075_ELDE_000_093","商人の仕事は、お客様が望む品を適価で売ること……。
+だというのに、今の皇都では、
+平民向けに良い商品を届けることができなくなっています。"
+79,"TEXT_CLSTAN502_02075_ELDE_000_094","私は、皆が満足して買える商品を届けたい……。
+そう思って、この皮革用品店を立ち上げました。"
+80,"TEXT_CLSTAN502_02075_ELDE_000_095","もし、私の考えに賛同してくださり、
+我が商会の相談役を引き受けていただけるのなら、
+またここに来ていただけますか、よろしくお願いいたします。"
+81,"TEXT_CLSTAN502_02075_SYSTEM_000_080","「革細工師」の新たなクラスクエストが開始されました。
+次のクエストは「レベル53」以上で、
+宝杖通りのエルドから受注可能です。"
+82,"TEXT_CLSTAN502_02075_SYSTEM_000_081","今後の「革細工師」のクラスクエスト受注条件は、
+コンプリート後のジャーナルで確認できます。"
+83,"TEXT_CLSTAN502_02075_SYSTEM_000_100","また、新たな依頼「収集品取引」が受けられます。
+イシュガルドの聖レネット広場にいる、
+「モルゲイン」を訪ねてみましょう。"
+84,"TEXT_CLSTAN502_02075_SYSTEM_000_101","さらに、熟練の職人だけが製作可能な、
+難度の高い製品の製法が記されたレシピ帳、
+「秘伝書」が入手できるようになります。"
+85,"TEXT_CLSTAN502_02075_SYSTEM_000_102","レヴナンツトールにいる、
+「ガイディング・スター」を訪ねてみましょう。"
+86,"TEXT_CLSTAN502_02075_ORTEFAUCHEL_000_073","（★未使用／削除予定★）"
+87,"TEXT_CLSTAN502_02075_ORTEFAUCHEL_000_074","（★未使用／削除予定★）"
+88,"TEXT_CLSTAN502_02075_ORTEFAUCHEL_000_075","（★未使用／削除予定★）"
+89,"TEXT_CLSTAN502_02075_ORTEFAUCHEL_000_076","（★未使用／削除予定★）"

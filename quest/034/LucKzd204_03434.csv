@@ -1,8 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKZD204_03434_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Rispa has a hankering for eggshells."
+0,"TEXT_LUCKZD204_03434_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+ヴォレクドルフのリスパは、「卵の欠片」を探しているようだ。"
 1,"TEXT_LUCKZD204_03434_SEQ_01",""
 2,"TEXT_LUCKZD204_03434_SEQ_02",""
 3,"TEXT_LUCKZD204_03434_SEQ_03",""
@@ -26,8 +26,8 @@ Rispa has a hankering for eggshells."
 21,"TEXT_LUCKZD204_03434_SEQ_21",""
 22,"TEXT_LUCKZD204_03434_SEQ_22",""
 23,"TEXT_LUCKZD204_03434_SEQ_23",""
-24,"TEXT_LUCKZD204_03434_TODO_00","Obtain eggshells."
-25,"TEXT_LUCKZD204_03434_TODO_01","Deliver eggshells to Rispa."
+24,"TEXT_LUCKZD204_03434_TODO_00","<Sheet(EventItem,2002882,0)/>を入手"
+25,"TEXT_LUCKZD204_03434_TODO_01","リスパに<Sheet(EventItem,2002882,0)/>を渡す"
 26,"TEXT_LUCKZD204_03434_TODO_02",""
 27,"TEXT_LUCKZD204_03434_TODO_03",""
 28,"TEXT_LUCKZD204_03434_TODO_04",""
@@ -50,30 +50,50 @@ Rispa has a hankering for eggshells."
 45,"TEXT_LUCKZD204_03434_TODO_21",""
 46,"TEXT_LUCKZD204_03434_TODO_22",""
 47,"TEXT_LUCKZD204_03434_TODO_23",""
-48,"TEXT_LUCKZD204_03434_RISPA_000_001","Traveler, will you do me a favor? At the Church at Dammroen Field, you will find eggshells scattered about. I would have you gather them for me."
-49,"TEXT_LUCKZD204_03434_RISPA_000_002","Capable as you are, I understand you often find yourself drawn into grueling struggles. I daresay a little task such as this would come as a refreshing change."
-50,"TEXT_LUCKZD204_03434_Q1_000_020","What will you say?"
-51,"TEXT_LUCKZD204_03434_A1_000_021","Oh, so you're the one doing me a favor?"
-52,"TEXT_LUCKZD204_03434_A1_000_022","How very considerate of you."
-53,"TEXT_LUCKZD204_03434_RISPA_000_003","Heh heh heh... In the past, I asked a favor of another traveler in the selfsame way. He saw straight through my ploy."
-54,"TEXT_LUCKZD204_03434_RISPA_000_004","I was old then, and I am older now. My body does not move as it once did. Thus do I turn to healthy, young visitors such as you. If you would bring me the eggshells, I would be very grateful."
-55,"TEXT_LUCKZD204_03434_RISPA_000_005","The eggshells can be found at the Church at Dammroen Field. I would be very grateful if you could gather them for me."
-56,"TEXT_LUCKZD204_03434_RISPA_000_010","Back with the eggshells, are you?"
-57,"TEXT_LUCKZD204_03434_RISPA_000_011","Ah, these are fine shells. You have my thanks."
-58,"TEXT_LUCKZD204_03434_RISPA_000_012","You see, according to the Nu Mou, eggshells are good for strengthening one's bones. I have been feeding on them regularly in hopes that I become strong enough to travel once more."
-59,"TEXT_LUCKZD204_03434_RISPA_000_013","But tell me, while you were at the church, did you come upon an especially large egg? While it resembles our own, it belongs to a different species."
-60,"TEXT_LUCKZD204_03434_RISPA_000_014","Indeed, it was already here by the time my brethren and I came to abide in this land. What emerged from it remains a mystery, as does where the creature subsequently went."
-61,"TEXT_LUCKZD204_03434_RISPA_000_015","Yet one thing is clear: as a crossroads of aetherial currents, this land is ideal for hatching eggs. The parents of that creature were likely drawn here for that reason. And by the same token, we amaro continue to abide here."
-62,"TEXT_LUCKZD204_03434_RISPA_000_016","Ah, but listen to me prattle on like the old amaro that I am. I shall take no more of your time. Please accept this as a token of my thanks."
-63,"TEXT_LUCKZD204_03434_EGGAMARO03434_000_001",""
-64,"TEXT_LUCKZD204_03434_EGGAMARO03434_000_002",""
-65,"TEXT_LUCKZD204_03434_EGGAMARO03434_000_003",""
-66,"TEXT_LUCKZD204_03434_EGGAMARO03434_000_004",""
-67,"TEXT_LUCKZD204_03434_EGGAMARO03434_000_005",""
-68,"TEXT_LUCKZD204_03434_EGGAMARO03434_000_010",""
-69,"TEXT_LUCKZD204_03434_EGGAMARO03434_000_011",""
-70,"TEXT_LUCKZD204_03434_EGGAMARO03434_000_012",""
-71,"TEXT_LUCKZD204_03434_EGGAMARO03434_000_013",""
-72,"TEXT_LUCKZD204_03434_EGGAMARO03434_000_014",""
-73,"TEXT_LUCKZD204_03434_EGGAMARO03434_000_015",""
-74,"TEXT_LUCKZD204_03434_EGGAMARO03434_000_016",""
+48,"TEXT_LUCKZD204_03434_RISPA_000_001","旅人さん、ちょうどいい！
+頼みたいことがあったんだ。
+付近の「卵の欠片」を探してきて欲しいと思ってね。"
+49,"TEXT_LUCKZD204_03434_RISPA_000_002","いやいや……あなたは随分、過酷な戦いに巻き込まれたりだとか、
+たくさん厄介な頼まれごとを引き受けているみたいだから。
+たまには、こんな散歩気分のものも、いいだろう？"
+50,"TEXT_LUCKZD204_03434_Q1_000_020","何と答える？"
+51,"TEXT_LUCKZD204_03434_A1_000_021","手伝って欲しいんでしょう？"
+52,"TEXT_LUCKZD204_03434_A1_000_022","気遣いありがとう"
+53,"TEXT_LUCKZD204_03434_RISPA_000_003","はは、昔あなたと似た旅人にも、同じように頼んでみたら、
+「ようは、老いて体を動かすのも億劫だから手伝えってことだろう」
+……なんて、ずいぶん直球に返されてしまったけどね。"
+54,"TEXT_LUCKZD204_03434_RISPA_000_004","足腰が鈍くて、力を借りたいのは本当さ。
+「ダメルン巡礼教会跡」にある、
+アマロの「<Sheet(EventItem,2002882,0)/>」を探してきてもらえるかい？"
+55,"TEXT_LUCKZD204_03434_RISPA_000_005","「ダメルン巡礼教会跡」にある、
+アマロの「<Sheet(EventItem,2002882,0)/>」を探してきてもらえるかい？"
+56,"TEXT_LUCKZD204_03434_RISPA_000_010","「<Sheet(EventItem,2002882,0)/>」、見つけてきてくれたかい？"
+57,"TEXT_LUCKZD204_03434_RISPA_000_011","立派なものを持ってきてくれたね、ありがとう！
+ン・モゥ族から伝え聞いたところによれば、
+卵の欠片には、骨を強める効能があるらしくてね。"
+58,"TEXT_LUCKZD204_03434_RISPA_000_012","年老いて足腰が弱ってきたから、こいつを食べて、
+もう一度ひとりで遠出できるようになろうと思ってさ。"
+59,"TEXT_LUCKZD204_03434_RISPA_000_013","ところで同じ辺りで、ひときわ大きな卵を見かけただろう？
+あれは、アマロのものと似ているが、別種のものらしい。
+実のところ、その正体は謎でね。"
+60,"TEXT_LUCKZD204_03434_RISPA_000_014","我々、古の血が表に出たトゥパク・アマロが、
+この地にやって来た時には、すでに存在していたらしい。
+いったい何が生まれ、どこに行ったというのか……。"
+61,"TEXT_LUCKZD204_03434_RISPA_000_015","だが、卵を孵すには、この土地のように地脈や風脈が交差した、
+エーテルの濃い場所が適しているからね。
+そのため、あの卵の親も、かつてここで産卵と孵化を行ったのだろう。"
+62,"TEXT_LUCKZD204_03434_RISPA_000_016","私らがここで暮らし続けているのも、それが理由なのさ。
+おっと……年寄りは話が長くなりがちで困るね。
+さぁ、礼を受け取ってくれよ。"
+63,"TEXT_LUCKZD204_03434_EGGAMARO03434_000_001","（★未使用／削除予定★）"
+64,"TEXT_LUCKZD204_03434_EGGAMARO03434_000_002","（★未使用／削除予定★）"
+65,"TEXT_LUCKZD204_03434_EGGAMARO03434_000_003","（★未使用／削除予定★）"
+66,"TEXT_LUCKZD204_03434_EGGAMARO03434_000_004","（★未使用／削除予定★）"
+67,"TEXT_LUCKZD204_03434_EGGAMARO03434_000_005","（★未使用／削除予定★）"
+68,"TEXT_LUCKZD204_03434_EGGAMARO03434_000_010","（★未使用／削除予定★）"
+69,"TEXT_LUCKZD204_03434_EGGAMARO03434_000_011","（★未使用／削除予定★）"
+70,"TEXT_LUCKZD204_03434_EGGAMARO03434_000_012","（★未使用／削除予定★）"
+71,"TEXT_LUCKZD204_03434_EGGAMARO03434_000_013","（★未使用／削除予定★）"
+72,"TEXT_LUCKZD204_03434_EGGAMARO03434_000_014","（★未使用／削除予定★）"
+73,"TEXT_LUCKZD204_03434_EGGAMARO03434_000_015","（★未使用／削除予定★）"
+74,"TEXT_LUCKZD204_03434_EGGAMARO03434_000_016","（★未使用／削除予定★）"

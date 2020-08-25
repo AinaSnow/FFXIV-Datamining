@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDY005_03142_SEQ_00","Sawney has ventured far from his usual haunt to find you."
-1,"TEXT_STMBDY005_03142_SEQ_01","A familiar face finding himself in unfamiliar surroundings, Sawney has traveled to Rhalgr's Reach to petition your assistance. It seems that trouble is once again brewing in Saint Mocianne's Arboretum and you are the person most qualified to handle it. Not wanting Sawney to have made a wasted journey, you agree to meet him in the Dravanian hinterlands."
-2,"TEXT_STMBDY005_03142_SEQ_02","Sawney is soon joined by Midnight Dew, who has a grime-covered korpokkur in tow. The Idyllshire residents explain that this seedkin emerged from the Arboretum exhibiting erratic behavior, which local botanist Edgyth attributes to the layer of mud covering it from top to bottom. This strange substance seems to invigorate plant life, a property Midnight Dew believes could prove beneficial in efforts to cultivate produce in Greengrub Mudplots. Unfortunately, it also affects the korpokkur's more bellicose brethren in a similar fashion, rendering the inner reaches of the Arboretum a potential death trap for anyone foolhardy enough to enter. Ever eager to lend your assistance, you make ready to venture forth and whack some weeds.
+0,"TEXT_STMBDY005_03142_SEQ_00","ソーニーは、冒険者のことを探しているようだ。"
+1,"TEXT_STMBDY005_03142_SEQ_01","ソーニーと話した。聖モシャーヌ植物園で再び起きた問題を解決するため、冒険者に手を貸してほしいようだ。低地ドラヴァニアの聖モシャーヌ植物園前にいる「ソーニー」と合流しよう。"
+2,"TEXT_STMBDY005_03142_SEQ_02","ミッドナイト・デューから、詳しい話を聞いた。植物園を探索するため、園内地下の魔物を退治してほしいそうだ。「草木汚染 聖モシャーヌ植物園(Hard)」を攻略しよう。
 
-※Saint Mocianne's Arboretum (Hard) can be accessed via the Duty Finder."
-3,"TEXT_STMBDY005_03142_SEQ_03","After contending with the sweltering humidity and cutting swaths through the flesh-eating foliage, you emerge from the Arboretum victorious yet desperate for a bath. But before you can call it a day, one final task remains: You must report news of your triumph to Sawney."
-4,"TEXT_STMBDY005_03142_SEQ_04","Following your successful expedition into the deepest recesses of the Arboretum, Midnight Dew and Edgyth were able to carry out a thorough investigation of the mysterious, vitality-bestowing mud. Research materials found within reveal the Sharlayans had created a concoction that acts as a catalyst in the decomposition of plant matter into nutrient-rich compost. Having discovered the secret of the ooze, Edgyth is confident that she can use these findings to revitalize the depleted soil around Idyllshire. Perhaps it will not be long before the locals enjoy the fruits─and vegetables─of your labor."
+※コンテンツファインダーから攻略に参加できます。"
+3,"TEXT_STMBDY005_03142_SEQ_03","「草木汚染 聖モシャーヌ植物園(Hard)」を攻略し、魔物たちを退治した。聖モシャーヌ植物園前にいる「ソーニー」に報告しよう。"
+4,"TEXT_STMBDY005_03142_SEQ_04","ソーニーに報告した。聖モシャーヌ植物園の泥は、かつて研究されていた菌床だった。イディルシャイアの農業に大いなる恵みをもたらすことだろう。"
 5,"TEXT_STMBDY005_03142_SEQ_05",""
 6,"TEXT_STMBDY005_03142_SEQ_06",""
 7,"TEXT_STMBDY005_03142_SEQ_07",""
@@ -27,9 +27,9 @@ int32,str,str
 21,"TEXT_STMBDY005_03142_SEQ_21",""
 22,"TEXT_STMBDY005_03142_SEQ_22",""
 23,"TEXT_STMBDY005_03142_SEQ_23",""
-24,"TEXT_STMBDY005_03142_TODO_00","Rendezvous with Sawney at Saint Mocianne's Arboretum."
-25,"TEXT_STMBDY005_03142_TODO_01","Use the Duty Finder to enter Saint Mocianne's Arboretum (Hard). "
-26,"TEXT_STMBDY005_03142_TODO_02","Speak with Sawney at Saint Mocianne's Arboretum."
+24,"TEXT_STMBDY005_03142_TODO_00","聖モシャーヌ植物園前のソーニーと話す"
+25,"TEXT_STMBDY005_03142_TODO_01","「草木汚染 聖モシャーヌ植物園(Hard)」を攻略"
+26,"TEXT_STMBDY005_03142_TODO_02","聖モシャーヌ植物園前のソーニーと話す"
 27,"TEXT_STMBDY005_03142_TODO_03",""
 28,"TEXT_STMBDY005_03142_TODO_04",""
 29,"TEXT_STMBDY005_03142_TODO_05",""
@@ -51,40 +51,81 @@ int32,str,str
 45,"TEXT_STMBDY005_03142_TODO_21",""
 46,"TEXT_STMBDY005_03142_TODO_22",""
 47,"TEXT_STMBDY005_03142_TODO_23",""
-48,"TEXT_STMBDY005_03142_SAWNEY_000_001","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! You're a hard <If(PlayerParameter(4))>woman<Else/>bloke</If> to find! I heard you'd thrown in your lot with the Resistance, so I came here lookin' for you."
-49,"TEXT_STMBDY005_03142_SAWNEY_000_002","Truth is, we've run into a spot of bother back at the Arboretum and could use your help."
-50,"TEXT_STMBDY005_03142_SAWNEY_000_003","If you're not too busy breakin' your fast on Garleans─or whatever you've been doin' out here─we'd be glad of your expertise. If you fancy lendin' a hand, I'll be over at Saint Mocianne's."
-51,"TEXT_STMBDY005_03142_SAWNEY_000_010","I knew you couldn't resist! Now, before you go slayin' everything in sight, let Midnight Dew explain our predicament."
-52,"TEXT_STMBDY005_03142_MIDNIGHTDEW_000_011","It's good to see you back in Dravania, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. The place hasn't been the same without you!"
-53,"TEXT_STMBDY005_03142_MIDNIGHTDEW_000_012","You're probably wonderin' why I sent Sawney to fetch you. It's all down to this mucky little korpokkur."
-54,"TEXT_STMBDY005_03142_SAWNEY_000_013","When I saw it come boundin' out of the Arboretum, the first thing I noticed, besides it being covered in grime, was how bleedin' lively the little sod seemed to be."
-55,"TEXT_STMBDY005_03142_MIDNIGHTDEW_000_014","We had our old friend Edgyth take a look at it, and she reckons that layer of mud is what's makin' it so excitable."
-56,"TEXT_STMBDY005_03142_MIDNIGHTDEW_000_015","It's got this daft seedkin jumpin' around like a mad poroggo, so imagine what it could do for our crops at Greengrub Mudplots! And that's where you come in."
-57,"TEXT_STMBDY005_03142_MIDNIGHTDEW_000_016","There should be more of this gunk inside the Arboretum, but we have one small problem─ It also affects the more troublesome species of flora, makin' them downright lethal."
-58,"TEXT_STMBDY005_03142_SAWNEY_000_017","We want to send Edgyth to look into it, but it's not safe with a bunch of botanist-eatin' plants makin' a nuisance of themselves. What say you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>? Fancy givin' them a bit of prunin'?"
-59,"TEXT_STMBDY005_03142_MIDNIGHTDEW_000_020","Sawney managed to track you down, did he? He's waitin' for you by the entrance to the Arboretum. You go on ahead─I'll join you <If(PlayerParameter(4))>two<Else/>boys</If> in a bit."
-60,"TEXT_STMBDY005_03142_MIDNIGHTDEW_100_030",""
-61,"TEXT_STMBDY005_03142_MIDNIGHTDEW_100_035","You'd best be on your guard. Sounds like there'll be all sorts of crazed seedkin runnin' amok inside."
-62,"TEXT_STMBDY005_03142_MIDNIGHTDEW_000_040",""
-63,"TEXT_STMBDY005_03142_SAWNEY_100_041","Fresh air at last! I tell you, it's clammier than a goblin's arse crack in there! I got out a few moments ago, but I won't be goin' back in any time soon!"
-64,"TEXT_STMBDY005_03142_SAWNEY_100_042","I saw that you'd cleared a path for Midnight Dew and Edgyth, though. Hopefully they'll be on their way back about now."
-65,"TEXT_STMBDY005_03142_SAWNEY_000_041",""
-66,"TEXT_STMBDY005_03142_SAWNEY_100_043",""
-67,"TEXT_STMBDY005_03142_MIDNIGHTDEW_100_043","Sorry to have kept you waiting."
-68,"TEXT_STMBDY005_03142_EDGYTH_000_042","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! I was very impressed by the way you tackled all of that bothersome foliage! And thanks to you, we now know the truth of that gloopy substance."
-69,"TEXT_STMBDY005_03142_EDGYTH_100_042","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! How wonderful it is to see you again! Although I must say I'm dreadfully sorry for all the trouble we've put you through, especially considering how much you've helped us at Greengrub Mudplots already. Thanks to you, we've made a valuable discovery."
-70,"TEXT_STMBDY005_03142_EDGYTH_000_043","Oh, you must be <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I'm Edgyth, a botanist of sorts. Perhaps Sawney or Midnight Dew mentioned me? Or perhaps not... Anyway, I'm very grateful to you for helping us discover the secret of that bizarre ooze."
-71,"TEXT_STMBDY005_03142_EDGYTH_000_044",""
-72,"TEXT_STMBDY005_03142_EDGYTH_000_045","You see, the research materials we found mention a concoction for rapidly turning plant matter into compost. It seems the mud was used to cultivate the ingredients for the formula."
-73,"TEXT_STMBDY005_03142_EDGYTH_000_046","There was just one minor oversight. And by minor, I mean “quite major,” actually. This mud also causes alarming behavioral swings in seedkin, making them go positively berserk!"
-74,"TEXT_STMBDY005_03142_EDGYTH_100_046","According to the Sharlayan reports... Well, I'll spare you the details of its botanical jargon. Let's just say the mud makes seedkin, in a word, angry."
-75,"TEXT_STMBDY005_03142_MIDNIGHTDEW_000_047",""
-76,"TEXT_STMBDY005_03142_SAWNEY_100_048","Growth formula for plants is all well and good, unless they're the sort that's liable to bite your bloody head off."
-77,"TEXT_STMBDY005_03142_EDGYTH_000_048","Yes, I'm surprised the Sharlayans didn't keep it in a safer place. In any case, we can use their findings to breathe new life into the soil of Dravania. As for the seedkin, a little water washes the mud right off. Allow me to demonstrate!"
-78,"TEXT_STMBDY005_03142_Q1_000_000","What will you say?"
-79,"TEXT_STMBDY005_03142_A1_000_001","A shame you can't wash that stupid expression off its face as well."
-80,"TEXT_STMBDY005_03142_A1_000_002","How about a bit of <Emphasis>pruning</Emphasis> instead?"
-81,"TEXT_STMBDY005_03142_SAWNEY_000_050","I'm with <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> on this one. Covered in muck or not, it's a bleedin' nuisance either way."
-82,"TEXT_STMBDY005_03142_MIDNIGHTDEW_000_051","Now, now, leave the poor thing alone! I'm sure it'll behave itself. And more importantly, it looks like we've found a way to improve our dwindlin' harvests."
-83,"TEXT_STMBDY005_03142_MIDNIGHTDEW_000_052","And we couldn't have done it without you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! I'll make sure that when the locals start tuckin' into all those lovely crops, they'll know who to thank!"
-84,"TEXT_STMBDY005_03142_MIDNIGHTDEW_100_055","All finished? I hope those mud-covered menaces didn't give you too much trouble. Edgyth should be almost done in the Arboretum, so let's go and see how she got on!"
+48,"TEXT_STMBDY005_03142_SAWNEY_000_001","おお、冒険者！
+アンタがアラミゴの解放軍に協力してるって聞いて、
+はるばるイディルシャイアから探しに来たんだぜ！"
+49,"TEXT_STMBDY005_03142_SAWNEY_000_002","実は、魔物を掃除してもらった植物園で、
+また問題が発生しちまってな……。"
+50,"TEXT_STMBDY005_03142_SAWNEY_000_003","もしも、また力を貸してくれるのなら、
+低地ドラヴァニアの聖モシャーヌ植物園まで来てくれ。
+詳しい話は、現地でさせてもらうからよ！"
+51,"TEXT_STMBDY005_03142_SAWNEY_000_010","来てくれると信じていたぜ、冒険者！
+詳しい話は、ミッドナイト・デューにしてもらうから、
+彼女が来るまで、少し待ってくれるか？"
+52,"TEXT_STMBDY005_03142_MIDNIGHTDEW_000_011","久しぶりだな、冒険者。
+忙しいところだろうに、わざわざすまないな。
+イディルシャイアを代表して、感謝させてもらうよ。"
+53,"TEXT_STMBDY005_03142_MIDNIGHTDEW_000_012","それで、さっそく本題なんだが……。
+この泥まみれのコロポックルを見てくれ、珍しいだろう。"
+54,"TEXT_STMBDY005_03142_SAWNEY_000_013","植物園から出てきたこいつを俺が最初に見つけたんだが、
+やけに元気なコロポックルでな。"
+55,"TEXT_STMBDY005_03142_MIDNIGHTDEW_000_014","グリーングラブ菜園の園芸師、エドギスに調べてもらったんだが、
+どうやら元気の源は、この泥にあるらしい。"
+56,"TEXT_STMBDY005_03142_MIDNIGHTDEW_000_015","植物に活力を与える泥だなんて、なかなか有益そうだろう？
+そんなわけで、植物園を調べて泥の秘密を探ろうとしたんだが、
+これが上手くいかなくってね……。"
+57,"TEXT_STMBDY005_03142_MIDNIGHTDEW_000_016","元気が出すぎて凶暴化した泥まみれの魔物どもが、
+植物園の地下に、あふれかえっていたのさ。"
+58,"TEXT_STMBDY005_03142_SAWNEY_000_017","つまり、今回もまた魔物退治を依頼したいのさ！
+俺と園芸師のエドギスが安全に園内を探索できるよう、
+切り込み役を、よろしく頼むぜ！"
+59,"TEXT_STMBDY005_03142_MIDNIGHTDEW_000_020","よく来たな！
+ソーニーから話を聞いて、来てくれたんだろう？
+詳しい話は、聖モシャーヌ植物園の前でさせてくれ！"
+60,"TEXT_STMBDY005_03142_MIDNIGHTDEW_100_030","（★未使用／削除予定★）"
+61,"TEXT_STMBDY005_03142_MIDNIGHTDEW_100_035","魔物退治の件、ぜひともお願いしたい。
+聖モシャーヌ植物園でその武勇を見せてくれ！"
+62,"TEXT_STMBDY005_03142_MIDNIGHTDEW_000_040","（★未使用／削除予定★）"
+63,"TEXT_STMBDY005_03142_SAWNEY_100_041","助かったぜ！
+あいかわらず、とんでもなく強いんだな。
+おかげで不思議な泥のサンプルも入手することができたぜ。"
+64,"TEXT_STMBDY005_03142_SAWNEY_100_042","今、エドギスとミッドナイト・デューが、
+泥の解析を終えてこちらに向かっているところだ。
+すまないが、ちょっと待っててくれ。"
+65,"TEXT_STMBDY005_03142_SAWNEY_000_041","（★未使用／削除予定★）"
+66,"TEXT_STMBDY005_03142_SAWNEY_100_043","（★未使用／削除予定★）"
+67,"TEXT_STMBDY005_03142_MIDNIGHTDEW_100_043","待たせたな。"
+68,"TEXT_STMBDY005_03142_EDGYTH_000_042","冒険者さん、本当にありがとうございました。
+菜園だけじゃなく、泥の調査まで手伝ってもらっちゃって……。
+おかげさまで、ダメダメなウチでも、いろいろわかりました！"
+69,"TEXT_STMBDY005_03142_EDGYTH_100_042","冒険者さん、今回はありがとうございました。
+イディルシャイアの筆頭園芸師の名前に恥じないよう、
+きっちり調べて、泥の秘密を解き明かしましたよ！"
+70,"TEXT_STMBDY005_03142_EDGYTH_000_043","魔物退治を引き受けてくださった冒険者さんですね？
+今回は、ご協力ありがとうございました。
+おかげで泥の秘密がわかりましたよ。"
+71,"TEXT_STMBDY005_03142_EDGYTH_000_044","（★未使用／削除予定★）"
+72,"TEXT_STMBDY005_03142_EDGYTH_000_045","かつて植物園では、枯れ葉や刈り取った草などを短期間のうちに、
+堆肥に変えるための菌苗が研究されていました。
+どうやらこの泥こそがその菌床のようなのです。"
+73,"TEXT_STMBDY005_03142_EDGYTH_000_046","しかし、この菌には思わぬ副作用もありました。
+残された研究資料によると、この菌が草木綱の魔物に付着すると、
+爆発的な活力を与え、時に暴走させてしまうそうです！"
+74,"TEXT_STMBDY005_03142_EDGYTH_100_046","しかし、シャーレアンの研究資料によると、
+この菌が草木綱の魔物に付着すると、
+爆発的な活力を与え、時に暴走させてしまうらしいのです！"
+75,"TEXT_STMBDY005_03142_MIDNIGHTDEW_000_047","（★未使用／削除予定★）"
+76,"TEXT_STMBDY005_03142_SAWNEY_100_048","薬も過ぎれば毒になるって訳だな。"
+77,"TEXT_STMBDY005_03142_EDGYTH_000_048","ただ上手く使えば、土の痩せた低地ドラヴァニアの、
+農業を発展させることは間違いありません。
+この泥は、洗って取り除くこともできるようですしね。"
+78,"TEXT_STMBDY005_03142_Q1_000_000","何と答える？"
+79,"TEXT_STMBDY005_03142_A1_000_001","きれいなことはいいことだ"
+80,"TEXT_STMBDY005_03142_A1_000_002","まだ暴走してるように見えるけど……"
+81,"TEXT_STMBDY005_03142_SAWNEY_000_050","ま、まだ元気いっぱいなようだが……。
+襲ってくる気配はないし、まあ、いいのか……な？"
+82,"TEXT_STMBDY005_03142_MIDNIGHTDEW_000_051","ともかく、冒険者のおかげでまたイディルシャイアに、
+新たな希望がもたらされたってわけだ。"
+83,"TEXT_STMBDY005_03142_MIDNIGHTDEW_000_052","ありがとな！"
+84,"TEXT_STMBDY005_03142_MIDNIGHTDEW_100_055","見事、魔物を退治してくれたようだな。
+ぜひ聖モシャーヌ植物園の前で調査の結果を聞いてくれ！！"

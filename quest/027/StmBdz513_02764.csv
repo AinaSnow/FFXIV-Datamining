@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ513_02764_SEQ_00","This clumsy Mol maiden has broken something fairly important."
+0,"TEXT_STMBDZ513_02764_SEQ_00","モル・イローのモル族の若い女性は、大事な物を壊してしまったようだ。"
 1,"TEXT_STMBDZ513_02764_SEQ_01",""
 2,"TEXT_STMBDZ513_02764_SEQ_02",""
 3,"TEXT_STMBDZ513_02764_SEQ_03",""
@@ -25,8 +25,9 @@ int32,str,str
 21,"TEXT_STMBDZ513_02764_SEQ_21",""
 22,"TEXT_STMBDZ513_02764_SEQ_22",""
 23,"TEXT_STMBDZ513_02764_SEQ_23",""
-24,"TEXT_STMBDZ513_02764_TODO_00","Slay three matamata and obtain a matamata matron shell and claw from a matamata matron."
-25,"TEXT_STMBDZ513_02764_TODO_01","Deliver the matamata matron shell and claw to the Mol maiden."
+24,"TEXT_STMBDZ513_02764_TODO_00","<Sheet(BNpcName,5775,0)/>を3体討伐し、
+おびき寄せた<Sheet(BNpcName,5929,0)/>から大甲羅と大爪を入手"
+25,"TEXT_STMBDZ513_02764_TODO_01","モル族の若い女性に<Sheet(EventItem,2002322,0)/>と<Sheet(EventItem,2002323,0)/>を渡す"
 26,"TEXT_STMBDZ513_02764_TODO_02",""
 27,"TEXT_STMBDZ513_02764_TODO_03",""
 28,"TEXT_STMBDZ513_02764_TODO_04",""
@@ -49,15 +50,36 @@ int32,str,str
 45,"TEXT_STMBDZ513_02764_TODO_21",""
 46,"TEXT_STMBDZ513_02764_TODO_22",""
 47,"TEXT_STMBDZ513_02764_TODO_23",""
-48,"TEXT_STMBDZ513_02764_BRIDE02764_000_000","Please, you have to help me. I have broken the gifts I was supposed to give my soon-to-be husband's family. I need to fix them as soon as possible."
-49,"TEXT_STMBDZ513_02764_BRIDE02764_000_001","I require a matamata's shell and claw. However, I am incapable of obtaining them myself."
-50,"TEXT_STMBDZ513_02764_BRIDE02764_000_002","What is more, they must be taken from a matamata matron. A creature which is seldom seen."
-51,"TEXT_STMBDZ513_02764_BRIDE02764_000_003","Though, there is a way to draw one out into the open. Slay several matamata and one will appear eventually."
-52,"TEXT_STMBDZ513_02764_BRIDE02764_000_004","I was told to marry my husband by the elder gods themselves. This marriage <Emphasis>must</Emphasis> go ahead. "
-53,"TEXT_STMBDZ513_02764_BRIDE02764_000_005","Slay the matamata to the west and a matron will appear soon enough."
-54,"TEXT_STMBDZ513_02764_BRIDE02764_000_006","Please bring its shell and a claw back to me. Without those I cannot repair the gifts."
-55,"TEXT_STMBDZ513_02764_BRIDE02764_000_010","Were you successful?"
-56,"TEXT_STMBDZ513_02764_BRIDE02764_000_011","Oh, thank you! I do not know what I would have done without you."
-57,"TEXT_STMBDZ513_02764_BRIDE02764_000_012","Our tribe is smaller than most. We try to prevent ourselves from becoming alienated from the other tribes by marrying our members with theirs."
-58,"TEXT_STMBDZ513_02764_BRIDE02764_000_013","It will take a while for me to get used to a life that is not controlled by the elder gods, but I know everything will be fine─it was they who chose this path for me."
-59,"TEXT_STMBDZ513_02764_BRIDE02764_000_014","Now, it is time I began repairing the gifts. Should our paths cross again someday, I would very much like to introduce you to my new family."
+48,"TEXT_STMBDZ513_02764_BRIDE02764_000_000","旅のお方、どうか私のお願いを聞いてください！
+実は私、もうすぐ別の部族の方と結婚するのですが、
+あろうことに、大事な嫁入り道具を壊してしまったのです……。"
+49,"TEXT_STMBDZ513_02764_BRIDE02764_000_001","すぐにでも直したいのですが、修理に必要な、
+「<Sheet(EventItem,2002322,0)/>」と「<Sheet(EventItem,2002323,0)/>」は、
+手に入れるのが、とても難しく……。"
+50,"TEXT_STMBDZ513_02764_BRIDE02764_000_002","というのも、普通の<Sheet(BNpcName,5775,0)/>のものではなく、
+なかなか姿を見かけない、
+「<Sheet(BNpcName,5929,0)/>」の甲羅と爪が必要なのです。"
+51,"TEXT_STMBDZ513_02764_BRIDE02764_000_003","普段は姿を見せない「<Sheet(BNpcName,5929,0)/>」ですが、
+西にいる「<Sheet(BNpcName,5775,0)/>」を3体ほど狩れば、
+きっと怒って、現れるはずです。"
+52,"TEXT_STMBDZ513_02764_BRIDE02764_000_004","この結婚は、神が定められたもの。
+神託どおりに事を運ぶためにも、あなたの力を貸してください！"
+53,"TEXT_STMBDZ513_02764_BRIDE02764_000_005","西にいる「<Sheet(BNpcName,5775,0)/>」を3体ほど狩れば、
+怒った「<Sheet(BNpcName,5929,0)/>」が、きっと現れるはずです。"
+54,"TEXT_STMBDZ513_02764_BRIDE02764_000_006","そして、「<Sheet(EventItem,2002322,0)/>」と、
+「<Sheet(EventItem,2002323,0)/>」を手に入れてほしいのです。
+どうか、あなたの力を貸してください！"
+55,"TEXT_STMBDZ513_02764_BRIDE02764_000_010","お願いしていた「<Sheet(EventItem,2002322,0)/>」と、
+「<Sheet(EventItem,2002323,0)/>」は、入手できましたか？"
+56,"TEXT_STMBDZ513_02764_BRIDE02764_000_011","ああっ、ありがとうございます。
+壊した嫁入り道具は、他部族のもとへ嫁ぐ娘に必要なもの。
+用意できなければ、婚礼が破談していたことでしょう……。"
+57,"TEXT_STMBDZ513_02764_BRIDE02764_000_012","嫁いでいくのは少し寂しいですが、
+モルは少数部族なので、結婚相手が限られていますし……
+血が濃くなるのを避け、他所から嫁をもらうことが多いのです。"
+58,"TEXT_STMBDZ513_02764_BRIDE02764_000_013","逆に、私のように、嫁に出されることもあります。
+これまでは神託どおりに行動すればよかったですが、
+嫁いだあと、神託のない生活に馴染めるのかどうか……。"
+59,"TEXT_STMBDZ513_02764_BRIDE02764_000_014","……ほかにも、いろいろと不安はありますが、
+まずは嫁入り道具を直さないと始まりませんからね！
+力を貸していただいて、ありがとうございました。"

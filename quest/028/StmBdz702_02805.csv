@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ702_02805_SEQ_00","Yagoro needs hard-to-find supplies from hard-to-reach places."
+0,"TEXT_STMBDZ702_02805_SEQ_00","烈士庵のヤゴロは、冒険者に頼みたいことがあるようだ。"
 1,"TEXT_STMBDZ702_02805_SEQ_01",""
 2,"TEXT_STMBDZ702_02805_SEQ_02",""
 3,"TEXT_STMBDZ702_02805_SEQ_03",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_STMBDZ702_02805_SEQ_21",""
 22,"TEXT_STMBDZ702_02805_SEQ_22",""
 23,"TEXT_STMBDZ702_02805_SEQ_23",""
-24,"TEXT_STMBDZ702_02805_TODO_00","Obtain a crystal from the orange pond."
-25,"TEXT_STMBDZ702_02805_TODO_01","Obtain water from the green pond."
-26,"TEXT_STMBDZ702_02805_TODO_02","Deliver the crystal and water to Yagoro."
+24,"TEXT_STMBDZ702_02805_TODO_00","<Sheet(EventItem,2002301,0)/>を入手"
+25,"TEXT_STMBDZ702_02805_TODO_01","<Sheet(EventItem,2002302,0)/>を入手"
+26,"TEXT_STMBDZ702_02805_TODO_02","ヤゴロに<Sheet(EventItem,2002301,0)/>と<Sheet(EventItem,2002302,0)/>を渡す"
 27,"TEXT_STMBDZ702_02805_TODO_03",""
 28,"TEXT_STMBDZ702_02805_TODO_04",""
 29,"TEXT_STMBDZ702_02805_TODO_05",""
@@ -49,17 +49,40 @@ int32,str,str
 45,"TEXT_STMBDZ702_02805_TODO_21",""
 46,"TEXT_STMBDZ702_02805_TODO_22",""
 47,"TEXT_STMBDZ702_02805_TODO_23",""
-48,"TEXT_STMBDZ702_02805_YAGORO_000_000","You are <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, unless I'm mistaken? I have need of your help. Please hear me out."
-49,"TEXT_STMBDZ702_02805_YAGORO_000_001","You would never guess, but I'm in fact a craftsman by trade. With the Front being constantly shorthanded, however, I've become more of a jack-of-all-trades. Most recently, I've been tasked with procuring certain rare supplies, but it's quite beyond one of my humble abilities. Allow me to explain."
-50,"TEXT_STMBDZ702_02805_YAGORO_000_002","To the north of here, there lies a peculiar place called Prism Lake. There you'll find exposed deposits of high-purity crystals which, through some trick of the elements, have changed the waters into the colors of the rainbow."
-51,"TEXT_STMBDZ702_02805_YAGORO_000_003","Well, whatever is responsible for this phenomenon seems to have also made the local Namazu uncommonly savage, making it quite impossible for me to do my job."
-52,"TEXT_STMBDZ702_02805_YAGORO_000_004","However, I believe one of your prowess would have little difficulty. I would be most grateful were you to procure a crystal from the orange pond and some water from the green pond. Rest assured you will be compensated for your troubles."
-53,"TEXT_STMBDZ702_02805_YAGORO_000_005",""
-54,"TEXT_STMBDZ702_02805_YAGORO_000_010","Were you able to acquire what I asked for?"
-55,"TEXT_STMBDZ702_02805_YAGORO_000_011","Wonderful! I knew I was right to entrust the task to you."
-56,"TEXT_STMBDZ702_02805_YAGORO_000_012","But tell me, what did you think of the scenery? The place is quite surreal, is it not?"
-57,"TEXT_STMBDZ702_02805_YAGORO_000_013","Legend has it an angel once fell in love with a young nobleman of Doma. Wishing that he joined her in her heavenly domain, she fashioned for him a bridge out of a rainbow."
-58,"TEXT_STMBDZ702_02805_YAGORO_000_014","Alas, the gods were furious that she would bring a lowly mortal to their abode without their permission. And so they destroyed the bridge, reducing it to a thousand thousand pieces, before the nobleman could finish crossing."
-59,"TEXT_STMBDZ702_02805_YAGORO_000_015","The pieces of this bridge fell to the earth and into a lake, where it imbued the waters with their color. So it was that Prism Lake came to be."
-60,"TEXT_STMBDZ702_02805_YAGORO_000_016","Faerie tales aside, prism crystals are prized as an energy source, while prism water boasts potent healing properties. Both will serve us well in our fight."
-61,"TEXT_STMBDZ702_02805_YAGORO_000_017","Right now, we enjoy the lake for its practical gifts, but one day I hope to simply enjoy it for its beauty. My thanks for your help, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
+48,"TEXT_STMBDZ702_02805_YAGORO_000_000","貴殿に手伝ってもらいたいことがあるのだが、
+話を聞いてもらえぬだろうか？"
+49,"TEXT_STMBDZ702_02805_YAGORO_000_001","私は、しがない職人なのだが、
+人手が足りないせいで、なんでも屋みたいなこともしていてな。
+とある物資の調達を任されたのだが、少し厄介な仕事なのだ……。"
+50,"TEXT_STMBDZ702_02805_YAGORO_000_002","ここから北に、「七彩溝」と呼ばれる不思議な池がある。
+辺りに、良質な結晶の鉱脈が露出しているのだが、
+属性の力が妙な作用をして、水を虹のような七色に変えているという。"
+51,"TEXT_STMBDZ702_02805_YAGORO_000_003","とにかく霊気の影響が強い場所で、あのナマズオたちが、
+酔っ払ったように凶暴化してしまう、見た目に反して危険な所なのだ。
+そこで、貴殿の出番である。"
+52,"TEXT_STMBDZ702_02805_YAGORO_000_004","緑色の泉から「<Sheet(EventItem,2002302,0)/>」と、
+橙色の泉の脇から「<Sheet(EventItem,2002301,0)/>」を、手に入れてほしいのだ。
+報酬は出すから、よろしく頼む。"
+53,"TEXT_STMBDZ702_02805_YAGORO_000_005","（★未使用／削除予定★）"
+54,"TEXT_STMBDZ702_02805_YAGORO_000_010","頼んでいた<Sheet(EventItem,2002301,0)/>と、
+<Sheet(EventItem,2002302,0)/>は、手に入っただろうか？"
+55,"TEXT_STMBDZ702_02805_YAGORO_000_011","うむ……たしかに、<Sheet(EventItem,2002302,0)/>と<Sheet(EventItem,2002301,0)/>だ。
+貴殿に任せて、大正解だったようだな！"
+56,"TEXT_STMBDZ702_02805_YAGORO_000_012","風景を楽しむ暇があったかわからぬが、
+七彩溝はどうであった？
+幻想的な場所だっただろう。"
+57,"TEXT_STMBDZ702_02805_YAGORO_000_013","地元に古くから伝わる話に、こんなものがある。
+あるとき、ドマの若殿に恋をした天女が、
+愛しい人を天上に誘うために、空に虹の橋をかけたのだ。"
+58,"TEXT_STMBDZ702_02805_YAGORO_000_014","ところが天上に住まう神々は、
+下界に棲まう者を無断で招くことを許さず、
+若殿が登り切る前に、虹の橋を粉々に壊してしまった。"
+59,"TEXT_STMBDZ702_02805_YAGORO_000_015","川が七色になったのは、砕けた虹の橋の破片が、
+水に混じったせいだと言われている。
+……まあ、おとぎ話のようなものだな。"
+60,"TEXT_STMBDZ702_02805_YAGORO_000_016","ともかく大事なのは、そこで取れる資源の方だ。
+<Sheet(EventItem,2002301,0)/>は、資源として役立つし、
+<Sheet(EventItem,2002302,0)/>には、傷を癒やす効果がある。"
+61,"TEXT_STMBDZ702_02805_YAGORO_000_017","いつか、心からあの景色を楽しめるように、
+私たちは戦い続けよう……！
+此度の貴殿の協力に、心から感謝する！"

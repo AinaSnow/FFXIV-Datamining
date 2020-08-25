@@ -1,12 +1,12 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNA111_01590_SEQ_00","When a man like Lord Emmanellain is in high spirits, you can be sure that trouble is in store..."
-1,"TEXT_HEAVNA111_01590_SEQ_01","Emmanellain de Fortemps, second son of Count Edmont de Fortemps, has long dreamed of emerging from beneath his elder brother's shadow. Though he had always intended to use his mission to aid House Haillenarte to further this aim, he had not counted on having the famed Warrior of Light to assist him. Eager to take advantage of his good fortune, he makes haste for the airship landing and bids you follow."
-2,"TEXT_HEAVNA111_01590_SEQ_02","The attendant informs you that the airship bound for Camp Cloudtop will be departing shortly. Board it and journey to the Sea of Clouds."
-3,"TEXT_HEAVNA111_01590_SEQ_03","After an uneventful flight, you arrive in Camp Cloudtop. Speak with Lord Emmanellain and see what he would have you do next."
-4,"TEXT_HEAVNA111_01590_SEQ_04","After making mock of your loquacious nature, Lord Emmanellain bids you seek out and speak with Lady Laniaitte, the garrison commander in Camp Cloudtop."
-5,"TEXT_HEAVNA111_01590_SEQ_05","After treating you to an unexpectedly warm welcome, Lady Laniaitte explains that she is the elder sister of Lord Francel, whose unjust execution you prevented during your search for the <Emphasis>Enterprise</Emphasis> long ago. Her gladness at your presence does not extend to Lord Emmanellain, however, though the young lord seems oblivious to her low opinion of him."
+0,"TEXT_HEAVNA111_01590_SEQ_00","フォルタン伯爵邸のエマネランは、冒険者に協力してもらう任務について説明したいようだ。"
+1,"TEXT_HEAVNA111_01590_SEQ_01","エマネランから、任務について説明を受けた。任務の内容は、アバラシア雲海に駐屯するアインハルト家の支援だそうだ。イシュガルド・ランディングにいる「搭乗窓口」と話し、任地であるアバラシア雲海の「キャンプ・クラウドトップ」へ向かおう。"
+2,"TEXT_HEAVNA111_01590_SEQ_02","搭乗窓口と話した。飛空艇で、キャンプ・クラウドトップへ向かおう。"
+3,"TEXT_HEAVNA111_01590_SEQ_03","キャンプ・クラウドトップに到着した。キャンプ・クラウドトップの「エマネラン」と話そう。"
+4,"TEXT_HEAVNA111_01590_SEQ_04","エマネランと話した。アバラシア雲海のローズハウスにいる「ラニエット」と話そう。"
+5,"TEXT_HEAVNA111_01590_SEQ_05","ラニエットから、任務について聞いた。原住民のバヌバヌ族との小競り合いを始め、様々な問題が起きているらしく、手を貸してほしいそうだ。エマネランの動きが気になるところだが、最後までやり遂げよう。"
 6,"TEXT_HEAVNA111_01590_SEQ_06",""
 7,"TEXT_HEAVNA111_01590_SEQ_07",""
 8,"TEXT_HEAVNA111_01590_SEQ_08",""
@@ -25,10 +25,12 @@ int32,str,str
 21,"TEXT_HEAVNA111_01590_SEQ_21",""
 22,"TEXT_HEAVNA111_01590_SEQ_22",""
 23,"TEXT_HEAVNA111_01590_SEQ_23",""
-24,"TEXT_HEAVNA111_01590_TODO_00","Speak with the airship ticketer and travel to the Sea of Clouds."
-25,"TEXT_HEAVNA111_01590_TODO_01","Speak with the airship ticketer and travel to the Sea of Clouds."
-26,"TEXT_HEAVNA111_01590_TODO_02","Speak with Emmanellain."
-27,"TEXT_HEAVNA111_01590_TODO_03","Speak with Laniaitte."
+24,"TEXT_HEAVNA111_01590_TODO_00","イシュガルド・ランディングの搭乗窓口と話し
+キャンプ・クラウドトップへ向かう"
+25,"TEXT_HEAVNA111_01590_TODO_01","イシュガルド・ランディングの搭乗窓口と話し
+キャンプ・クラウドトップへ向かう"
+26,"TEXT_HEAVNA111_01590_TODO_02","エマネランと話す"
+27,"TEXT_HEAVNA111_01590_TODO_03","ラニエットと話す"
 28,"TEXT_HEAVNA111_01590_TODO_04",""
 29,"TEXT_HEAVNA111_01590_TODO_05",""
 30,"TEXT_HEAVNA111_01590_TODO_06",""
@@ -49,32 +51,76 @@ int32,str,str
 45,"TEXT_HEAVNA111_01590_TODO_21",""
 46,"TEXT_HEAVNA111_01590_TODO_22",""
 47,"TEXT_HEAVNA111_01590_TODO_23",""
-48,"TEXT_HEAVNA111_01590_EMMANELLAIN_000_000","Shall we be off then, old <If(PlayerParameter(4))>girl<Else/>boy</If>?"
-49,"TEXT_HEAVNA111_01590_EMMANELLAIN_000_001","Ah, but where are my manners. Emmanellain de Fortemps, second son of Count Edmont de Fortemps─<Emphasis>trueborn</Emphasis>, that is."
-50,"TEXT_HEAVNA111_01590_EMMANELLAIN_000_002","Yes, yes─I know what you're thinking, and you are absolutely right. What ill fortune to be born second in a society where the eldest inherits all."
-51,"TEXT_HEAVNA111_01590_EMMANELLAIN_000_003","Oh, my brother would never cut me off, 'tis true, but who could be satisfied subsisting on a meager allowance, forever overshadowed by his sibling? Not I, old <If(PlayerParameter(4))>girl<Else/>boy</If>, not I!"
-52,"TEXT_HEAVNA111_01590_EMMANELLAIN_000_004","Which is why I need <Emphasis>your</Emphasis> help to ensure that this business in the Sea of Clouds goes swimmingly, so that the tales of my great deeds can win me a place in the people's hearts─or better yet, raise me higher in their estimations than Artoirel! Ambitious, I grant you, but then I <Emphasis>do</Emphasis> have a legendary hero to do my bidding! Hah hah hah!"
-53,"TEXT_HEAVNA111_01590_EMMANELLAIN_000_005","Oh, don't look at me that way! I jest, I jest! Anyway, we are to aid the good men and women of House Haillenarte. They have ever been steadfast friends to our house─though they've fallen on hard times since the Calamity, poor blighters."
-54,"TEXT_HEAVNA111_01590_EMMANELLAIN_000_006","As for what precisely we will be doing, well... What fun would it be if I told you everything in advance?"
-55,"TEXT_HEAVNA111_01590_EMMANELLAIN_000_007","Just come along with me to the airship landing. We'll need to take the airship to Camp Cloudtop."
-56,"TEXT_HEAVNA111_01590_EMMANELLAIN_000_008","Everything has been taken care of, old <If(PlayerParameter(4))>girl<Else/>boy</If>. Simply tell the attendant when you are ready to board, and away we'll go!"
-57,"TEXT_HEAVNA111_01590_HONOROIT_000_008","Ah, my lord, there is still the matter of the bill..."
-58,"TEXT_HEAVNA111_01590_HONOROIT_000_009","Ah, <If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>! Lord Emmanellain would like to speak with you..."
-59,"TEXT_HEAVNA111_01590_WINDOW01590_000_010","Are you ready to depart, <If(PlayerParameter(4))>madam<Else/>sir</If>? The airship bound for Camp Cloudtop will be leaving shortly."
-60,"TEXT_HEAVNA111_01590_SCENE00007_EVENTAREA_WARP_YESNO_TITLE","Board the airship to Camp Cloudtop?"
-61,"TEXT_HEAVNA111_01590_SCENE00007_EVENTAREA_WARP_YESNO_YES","Yes"
-62,"TEXT_HEAVNA111_01590_SCENE00007_EVENTAREA_WARP_YESNO_NO","No"
-63,"TEXT_HEAVNA111_01590_EMMANELLAIN_000_020","Awfully cold up here... I mean, Coerthas may not be blessed with the warmest weather in the world, but compared to this, it seems positively <Emphasis>balmy</Emphasis>..."
-64,"TEXT_HEAVNA111_01590_EMMANELLAIN_000_021","...And, of course, our hero is wholly unperturbed. You don't have to maintain that strong, silent persona <Emphasis>all</Emphasis> of the time, you know."
-65,"TEXT_HEAVNA111_01590_EMMANELLAIN_000_022","...Never mind. We need to find Lady Laniaitte─she is in charge of the garrison here. Oh, and when we find her, just...just <Emphasis>follow my lead</Emphasis>, yes? Excellent!"
-66,"TEXT_HEAVNA111_01590_HONOROIT_000_023","My lord, you mustn't wear your belt so loose, or you'll trip over your own sword!"
-67,"TEXT_HEAVNA111_01590_LANIAITTE_000_030","<If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>! Welcome! I am Ser Laniaitte de Haillenarte, commander of the forces stationed here at Camp Cloudtop."
-68,"TEXT_HEAVNA111_01590_LANIAITTE_000_031","Strange though it may sound, I have long dreamed of meeting you. I am in your debt, you see, and shall ever remain so. Were it not for you, my younger brother Francel would have been executed upon the word of a false inquisitor."
-69,"TEXT_HEAVNA111_01590_LANIAITTE_000_032","Alas, a knight must go where duty demands, and thus have I been unable to seek you out. But by the grace of Halone, I have been granted an opportunity to thank my brother's savior in person, and to call upon <If(PlayerParameter(4))>her<Else/>his</If> generous aid besides. Truly, I know not what I have done to deserve this double blessing!"
-70,"TEXT_HEAVNA111_01590_EMMANELLAIN_000_033","Ahem! 'Tis a pleasure to see you again, my lady Laniaitte! You cut an elegant figure as always─a steel-clad rose, equally at home on a battlefield or in a ballroom."
-71,"TEXT_HEAVNA111_01590_LANIAITTE_000_034","...Lord Emmanellain, if it is not too much to ask, I should be grateful if you would allow me to finish speaking with <If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>."
-72,"TEXT_HEAVNA111_01590_LANIAITTE_000_035","Camp Cloudtop was established to provide early warning of impending Dravanian incursions. The high elevation afforded by the floating isles makes it ideal for this purpose."
-73,"TEXT_HEAVNA111_01590_LANIAITTE_000_036","Naturally, it also makes us a ready target for attack. We are not defenseless, however. The <Emphasis>Protector</Emphasis>, our largest and most advanced airship, is capable of downing all but the mightiest dragons."
-74,"TEXT_HEAVNA111_01590_LANIAITTE_000_037","Alas, as you may have noticed, it is currently undergoing repair. What is worse, our efforts have been hampered by an indigenous beast tribe known as the Vanu Vanu, with whom we have had several skirmishes already."
-75,"TEXT_HEAVNA111_01590_EMMANELLAIN_000_038","No beastman is a match for a man of Ishgard! Bring me a birdman and I'll show him a thing or two!"
-76,"TEXT_HEAVNA111_01590_LANIAITTE_000_039","<sigh> I fear much and more may be asked of you in the days to come, <If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>..."
+48,"TEXT_HEAVNA111_01590_EMMANELLAIN_000_000","噂の英雄が、しばらくオレの相棒ってわけか。
+ふふ、悪くないね。
+問題解決の糸口になりそうだ。"
+49,"TEXT_HEAVNA111_01590_EMMANELLAIN_000_001","おっと、自己紹介がまだだったな。
+オレの名はエマネラン、フォルタン家の次男だ。"
+50,"TEXT_HEAVNA111_01590_EMMANELLAIN_000_002","自慢じゃないが、ウチはイシュガルドでも指折りの大貴族。
+その家督と財産は、将来的に兄貴に受け継がれる……。
+……そう、問題ってのは、オレが「次男」だってことさ。"
+51,"TEXT_HEAVNA111_01590_EMMANELLAIN_000_003","次男であるオレ様は、功績を立てないと独立できない。
+それが、イシュガルド貴族社会の習わしってやつでね。
+……だが、小うるさい兄貴の居候になるなんて、まっぴら御免だ。"
+52,"TEXT_HEAVNA111_01590_EMMANELLAIN_000_004","そこで、相棒の出番ってわけ。
+英雄の力ってやつで、オレに手柄を立てさせてくれよ！
+なぁに、悪いようにはしないからさ。"
+53,"TEXT_HEAVNA111_01590_EMMANELLAIN_000_005","オレにあたえられた任務は、
+「アバラシア雲海」に出張ってる「アインハルト家」の支援だ。
+最近落ち目の家だけど……まぁ、ウチとは古い付き合いでね。"
+54,"TEXT_HEAVNA111_01590_EMMANELLAIN_000_006","それに、雲海の部隊を指揮してるのは……。
+ムフフフフ……まぁ、会ってみてのお楽しみだ。"
+55,"TEXT_HEAVNA111_01590_EMMANELLAIN_000_007","じゃ、さっそく雲海の「キャンプ・クラウドトップ」に行こうぜ。
+「イシュガルド・ランディング」の「搭乗窓口」に声をかければ、
+ひとっ飛びだからよ！"
+56,"TEXT_HEAVNA111_01590_EMMANELLAIN_000_008","そこの「搭乗窓口」には、オレから話を通しておいたからよ。
+さあ、「アバラシア雲海」にひとっ飛びしようぜ！"
+57,"TEXT_HEAVNA111_01590_HONOROIT_000_008","エマネラン様、
+ちゃんと搭乗手続きを済ませておきましたよ。"
+58,"TEXT_HEAVNA111_01590_HONOROIT_000_009","あっ、僕は一介の使用人に過ぎませんので、
+あまりお気になさらないでください、はい。"
+59,"TEXT_HEAVNA111_01590_WINDOW01590_000_010","お話は伺っております。
+「アバラシア雲海」までの飛空便をご利用なさいますか？"
+60,"TEXT_HEAVNA111_01590_SCENE00007_EVENTAREA_WARP_YESNO_TITLE","「キャンプ・クラウドトップ」に移動しますか？"
+61,"TEXT_HEAVNA111_01590_SCENE00007_EVENTAREA_WARP_YESNO_YES","はい"
+62,"TEXT_HEAVNA111_01590_SCENE00007_EVENTAREA_WARP_YESNO_NO","いいえ"
+63,"TEXT_HEAVNA111_01590_EMMANELLAIN_000_020","あー、やっぱ雲海の空気は冷えるわー。
+イシュガルドも寒いけど、なんかこう雲海の空気って、
+刺すような独特の寒さがあるんだよな。"
+64,"TEXT_HEAVNA111_01590_EMMANELLAIN_000_021","……なんか今、「物凄いどうでもいい」って顔しただろ。
+そういう態度してると、モテないぜ？"
+65,"TEXT_HEAVNA111_01590_EMMANELLAIN_000_022","…………ま、まぁ、いいや。
+「キャンプ・クラウドトップ」の指揮官に会いに行こうぜ。
+名前は「ラニエット」ってんだ、愛想良く頼むぜ？"
+66,"TEXT_HEAVNA111_01590_HONOROIT_000_023","エマネラン様、僕が用意した厚手の肌着、
+ちゃんと身に付けてきてくださいましたか？
+風邪を引いてしまいますよ。"
+67,"TEXT_HEAVNA111_01590_LANIAITTE_000_030","よく来てくれた、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>殿。
+我が名は、ラニエット・ド・アインハルト。
+当地の部隊を指揮する者だ……お初にお目に掛かる。"
+68,"TEXT_HEAVNA111_01590_LANIAITTE_000_031","貴公には、ぜひ一度、会いたいと願っていたのだ。
+「アートボルグ砦群」を指揮するフランセルは、我が弟……
+奴を異端疑惑から救ってくれた礼をしたくてな！"
+69,"TEXT_HEAVNA111_01590_LANIAITTE_000_032","任地を離れることができなかったとはいえ、
+今の今まで礼が遅れた無礼を、どうか許してほしい。
+そして、今回の助力の申し出、感謝するぞ！"
+70,"TEXT_HEAVNA111_01590_EMMANELLAIN_000_033","いやあ、久しぶりだね、麗しの「薔薇の騎士」ラニエット！
+君だけの騎士、エマネランが助けにきたぞ！
+オレ様が来たからには、もう安心してくれ！"
+71,"TEXT_HEAVNA111_01590_LANIAITTE_000_034","……すまん、いたのか、気付かなかった。
+今、取り込み中だから、少し黙っていてくれないか？"
+72,"TEXT_HEAVNA111_01590_LANIAITTE_000_035","さあ、話を続けよう。
+ここ「キャンプ・クラウドトップ」は、雲海に浮かぶ浮島を利用し、
+皇都に近づくドラゴン族を見張るために築かれた拠点だ。"
+73,"TEXT_HEAVNA111_01590_LANIAITTE_000_036","そして、有事の際には、あの巨大な新造飛空艇……
+「プロテクトゥール号」で上空から竜どもを叩く！
+それが、この拠点の存在意義だ。"
+74,"TEXT_HEAVNA111_01590_LANIAITTE_000_037","だが、肝心の「プロテクトゥール号」も故障続き……。
+その上、原住民の「バヌバヌ族」との小競り合いが絶えない。
+いろいろと手を貸してもらいたい状況なのだ。"
+75,"TEXT_HEAVNA111_01590_EMMANELLAIN_000_038","オレに任せてくれ！
+バヌバヌだか、パヌパヌだか知らんが、
+オレ様の剣で始末してやるぜ！"
+76,"TEXT_HEAVNA111_01590_LANIAITTE_000_039","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>殿……
+おわかりと思うが、貴公だけが頼りだ。
+どうか、よろしく頼む。"

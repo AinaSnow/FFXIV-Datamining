@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSA409_00751_SEQ_00","Helmhart of Highbridge could use an adventurer's assistance with a hair-raising problem."
-1,"TEXT_GAIUSA409_00751_SEQ_01","Helmhart has a grievous physical ailment which requires immediate treatment. Slay phurbles around Highbridge to obtain three bottles of phurble blood, and deliver them to Helmhart with all speed."
-2,"TEXT_GAIUSA409_00751_SEQ_02","You have successfully obtained the requisite bottles of phurble blood. Hasten back to Helmhart and deliver them before his condition deteriorates."
-3,"TEXT_GAIUSA409_00751_SEQ_03","Helmhart concocts a potent hair tonic with the phurble blood you retrieved. Apply it liberally to his head, that his locks might flow forth once more."
-4,"TEXT_GAIUSA409_00751_SEQ_04","Having applied the hair tonic to his shiny pate, Helmhart rejoices at the pleasant tingling sensation it affords. Whether it has any effect beyond this remains to be seen."
+0,"TEXT_GAIUSA409_00751_SEQ_00","ハイブリッジのヘルムハートには、どうしても手に入れたいものがあるようだ。"
+1,"TEXT_GAIUSA409_00751_SEQ_01","大至急の依頼のようだ。ハイブリッジ周辺にいる「<Sheet(BNpcName,272,0)/>」を討伐し、「<Sheet(EventItem,2000600,0)/>」を3個入手しよう。"
+2,"TEXT_GAIUSA409_00751_SEQ_02","<Sheet(EventItem,2000600,0)/>を入手した。ハイブリッジの「ヘルムハート」に渡そう。"
+3,"TEXT_GAIUSA409_00751_SEQ_03","冒険者が手に入れたものは、毛生え薬だったようだ。ヘルムハートの頭に<Sheet(EventItem,2000975,0)/>を使おう。"
+4,"TEXT_GAIUSA409_00751_SEQ_04","<Sheet(EventItem,2000975,0)/>により、ヘルムハートの頭皮はハゲしく熱くなったようだが……。はたして効果は、いかほどなのだろうか。"
 5,"TEXT_GAIUSA409_00751_SEQ_05",""
 6,"TEXT_GAIUSA409_00751_SEQ_06",""
 7,"TEXT_GAIUSA409_00751_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_GAIUSA409_00751_SEQ_21",""
 22,"TEXT_GAIUSA409_00751_SEQ_22",""
 23,"TEXT_GAIUSA409_00751_SEQ_23",""
-24,"TEXT_GAIUSA409_00751_TODO_00","Slay phurbles to obtain their blood."
-25,"TEXT_GAIUSA409_00751_TODO_01","Deliver the bottles of phurble blood to Helmhart."
-26,"TEXT_GAIUSA409_00751_TODO_02","Apply the hair tonic to Helmhart's head."
+24,"TEXT_GAIUSA409_00751_TODO_00","<Sheet(BNpcName,272,0)/>から<Sheet(EventItem,2000600,0)/>を入手"
+25,"TEXT_GAIUSA409_00751_TODO_01","ヘルムハートに<Sheet(EventItem,2000600,0)/>を渡す"
+26,"TEXT_GAIUSA409_00751_TODO_02","ヘルムハートの頭に<Sheet(EventItem,2000975,0)/>を使う"
 27,"TEXT_GAIUSA409_00751_TODO_03",""
 28,"TEXT_GAIUSA409_00751_TODO_04",""
 29,"TEXT_GAIUSA409_00751_TODO_05",""
@@ -49,12 +49,25 @@ int32,str,str
 45,"TEXT_GAIUSA409_00751_TODO_21",""
 46,"TEXT_GAIUSA409_00751_TODO_22",""
 47,"TEXT_GAIUSA409_00751_TODO_23",""
-48,"TEXT_GAIUSA409_00751_HELMHART_000_000","You! Yes, you! Adventurer! I need you to fetch three bottles of phurble blood, and do so with all haste!"
-49,"TEXT_GAIUSA409_00751_HELMHART_000_001","Where to find phurble blood, you ask? Why, from phurbles, of course! Now hurry! This is a matter of life and death!"
-50,"TEXT_GAIUSA409_00751_DUMMYTODO_000_010","//Kill monsters, get stuff."
-51,"TEXT_GAIUSA409_00751_HELMHART_000_020","Well? Have you brought the phurble blood I asked for? If so, then hand it over, and quickly now!"
-52,"TEXT_GAIUSA409_00751_HELMHART_000_025","At long last! My friend, you're a godssend! Now, how did it go? Ah, yes─stir twice, a dash of spittle, shake thrice more, and...voilà!"
-53,"TEXT_GAIUSA409_00751_HELMHART_000_026","Well, what are you waiting for, friend? Grab yourself a dollop and start spreading─my scalp cries out for succor! Oh, and do try not to miss a spot."
-54,"TEXT_GAIUSA409_00751_HELMHART_000_030","Ooh! Ahhh! Ahhhhhhhhh!!!"
-55,"TEXT_GAIUSA409_00751_HELMHART_000_031","My, that tingles! Why, I can already feel my pores opening! In no time at all, I'll have flowing locks a fulm long!"
-56,"TEXT_GAIUSA409_00751_HELMHART_000_032","I can't thank you enough, friend. What with the sun beating down the way it does in these parts, a bald pate is a potentially fatal affliction."
+48,"TEXT_GAIUSA409_00751_HELMHART_000_000","おい、そこのあんた！　冒険者のあんただよ！
+頼みがあるんだ！
+「<Sheet(EventItem,2000600,0)/>」を、3個ほど持ってきてくれないか！"
+49,"TEXT_GAIUSA409_00751_HELMHART_000_001","「<Sheet(BNpcName,272,0)/>」を倒せば手に入るはずだ！
+頼む、大至急だッ！　今すぐ必要なんだ！
+うおおおおおッ！　早くッ！　早くううううッ！！"
+50,"TEXT_GAIUSA409_00751_DUMMYTODO_000_010","「<Sheet(BNpcName,272,0)/>」を討伐
+「<Sheet(EventItem,2000600,0)/>」をゲット"
+51,"TEXT_GAIUSA409_00751_HELMHART_000_020","おい！　<Sheet(EventItem,2000600,0)/>は手に入ったか？
+早くしろッ！　早くッ！"
+52,"TEXT_GAIUSA409_00751_HELMHART_000_025","うおおおおおッ！　ありがてえッ！
+これだけあれば十分だ！　やっと集まったぜ！
+よし、こいつをマゼマゼして……できたあああッ！！"
+53,"TEXT_GAIUSA409_00751_HELMHART_000_026","さぁ、この「<Sheet(EventItem,2000975,0)/>」を、俺の頭にかけてくれッ！
+何だあんた、あの「サラサの伝承」を知らねェのか！？
+この薬はなぁ、最高級の毛生え薬なんだよ！！"
+54,"TEXT_GAIUSA409_00751_HELMHART_000_030","お、おおおおおおおお……！
+キタキタキタキターーーーッ！！"
+55,"TEXT_GAIUSA409_00751_HELMHART_000_031","これだよ、この頭皮が燃えあがるように熱い感覚ッ！
+いかにも効果バツグンって感じじゃねえか！"
+56,"TEXT_GAIUSA409_00751_HELMHART_000_032","この頭皮が脈打つ感じがたまらねえッ！
+うおおおおおッ！　生えろッ！　早くううううッ！！"

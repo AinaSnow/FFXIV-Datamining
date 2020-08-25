@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSCUL011_00271_SEQ_00","Charlys would have you reaffirm your desire to join the Culinarians' Guild."
-1,"TEXT_CLSCUL011_00271_SEQ_01","You have been referred to Lyngsath, the master of the Culinarians' Guild. Seek him out and impress upon him your desire to learn."
-2,"TEXT_CLSCUL011_00271_SEQ_02","Having welcomed you into the guild, Lyngsath presents you with a weathered skillet to help you on your way. Take up the tool of your new trade, and speak with the guildmaster again to be assigned your first task."
+0,"TEXT_CLSCUL011_00271_SEQ_00","調理師になり、調理師ギルドで学ぶためには、しかるべき手続きを行わなければならない。受付のチャーリスは、冒険者の情熱を確かめたいようだ。"
+1,"TEXT_CLSCUL011_00271_SEQ_01","受付から、調理師ギルドマスター、リングサスを紹介された。調理師ギルドにいる「リングサス」に挨拶に行こう。"
+2,"TEXT_CLSCUL011_00271_SEQ_02","リングサスは、冒険者の調理師ギルドへの所属を認めてくれた。彼にもらった「<Sheet(Item,　2493,0)/>」を装備し、再度リングサスに声をかけよう。"
 3,"TEXT_CLSCUL011_00271_SEQ_03",""
 4,"TEXT_CLSCUL011_00271_SEQ_04",""
 5,"TEXT_CLSCUL011_00271_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_CLSCUL011_00271_SEQ_21",""
 22,"TEXT_CLSCUL011_00271_SEQ_22",""
 23,"TEXT_CLSCUL011_00271_SEQ_23",""
-24,"TEXT_CLSCUL011_00271_TODO_00","Speak with Lyngsath."
+24,"TEXT_CLSCUL011_00271_TODO_00","リングサスと話す"
 25,"TEXT_CLSCUL011_00271_TODO_01",""
 26,"TEXT_CLSCUL011_00271_TODO_02",""
 27,"TEXT_CLSCUL011_00271_TODO_03",""
@@ -49,23 +49,48 @@ int32,str,str
 45,"TEXT_CLSCUL011_00271_TODO_21",""
 46,"TEXT_CLSCUL011_00271_TODO_22",""
 47,"TEXT_CLSCUL011_00271_TODO_23",""
-48,"TEXT_CLSCUL011_00271_CHARLYS_000_0","So, have you the resolve to walk the path of the culinarian?"
-49,"TEXT_CLSCUL011_00271_CHARLYS_000_1","Wonderful! Then you must speak to Guildmaster Lyngsath at once!"
-50,"TEXT_CLSCUL011_00271_CHARLYS_000_2","This will come as no surprise, but he is the finest chef in Limsa Lominsa. His skill and dedication are second to none."
-51,"TEXT_CLSCUL011_00271_CHARLYS_000_3","You will find the guildmaster up the stairs yonder, keeping a watchful eye on his charges. Impress upon him your desire to learn, and he will surely find a place for you in his stew─by which I mean the guild."
-52,"TEXT_CLSCUL011_00271_CHARLYS_000_5","Still unsure? Then I think it best that you do not go before the guildmaster."
-53,"TEXT_CLSCUL011_00271_CHARLYS_000_6","As I believe I mentioned, he is passionate about cookery, and has little patience for those who show anything less than absolute commitment to the craft. Such ingredients spoil the stew, you see...and he is <Emphasis>fiercely</Emphasis> protective of his stew."
-54,"TEXT_CLSCUL011_00271_LYNGSATH_000_11","Well met, 'venturer. I take it ye want to join our guild. Let's 'ave a good look at ye, then."
-55,"TEXT_CLSCUL011_00271_LYNGSATH_000_12","...Bah! What's an underfed whelp like you know about cookin'? Judgin' by them scrawny arms o' yours, ye'd struggle to lift a spoon, never mind a skillet!"
-56,"TEXT_CLSCUL011_00271_LYNGSATH_000_13","...Hahaha! I jest, I jest... <sigh> It don't take muscle to be a culinarian. 'Ells, it don't even take talent─'least not on its own."
-57,"TEXT_CLSCUL011_00271_LYNGSATH_000_14","No, <If(PlayerParameter(4))>lass<Else/>son</If>, more'n anythin' else, becomin' a good cook boils down to <Emphasis>passion</Emphasis>. If ye got that, there ain't nothin' ye can't achieve. So tell me...'ave ye got it?"
-58,"TEXT_CLSCUL011_00271_Q1_000_1","Have you the passion to become a culinarian?"
-59,"TEXT_CLSCUL011_00271_A1_000_1","Yes"
-60,"TEXT_CLSCUL011_00271_A1_000_2","No"
-61,"TEXT_CLSCUL011_00271_LYNGSATH_000_15","Well, then...assumin' you ain't got an overwhelmin' urge to scrub me pans neither, I suggest ye bugger off back to where the food's served, an' leave the makin' of it to folks as give a damn."
-62,"TEXT_CLSCUL011_00271_LYNGSATH_000_21","That's the spirit! Aye, yer passion fer the culinary arts is plain to see."
-63,"TEXT_CLSCUL011_00271_LYNGSATH_000_22","An' ye'll be needin' every bit of it if ye want to become a master culinarian. Why, if mastery was a twelve-course dinner, I'd 'ardly 'ave finished the soup."
-64,"TEXT_CLSCUL011_00271_LYNGSATH_000_23","Make no mistake, our trade's as tough as old mutton, an' passion's the only thing what gets us through the gristly bits. But enough talk─what do ye call yerself?"
-65,"TEXT_CLSCUL011_00271_LYNGSATH_000_24","Well then, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, welcome to the guild. To mark the occasion, I present ye with yer very own skillet."
-66,"TEXT_CLSCUL011_00271_LYNGSATH_000_25","Ain't much to look at, but it'll more'n serve a novice like yerself."
-67,"TEXT_CLSCUL011_00271_LYNGSATH_000_26","Now then, let's see whether ye can tell which end's which. Aye, aye...I know I said ye'd struggle to lift a spoon, but ye've won me over. Now, show me ye <Emphasis>can</Emphasis> 'old a skillet, an' I'll get ye started on yer first task."
+48,"TEXT_CLSCUL011_00271_CHARLYS_000_0","調理への情熱は、ますます燃えあがったか？
+だから話かけたんだよな、俺に？"
+49,"TEXT_CLSCUL011_00271_CHARLYS_000_1","そうかそうか、そいつはいい！
+その意気で、ギルドマスターにぶつかれば、
+必ず、迎え入れてくれるだろうさ。"
+50,"TEXT_CLSCUL011_00271_CHARLYS_000_2","マスター・リングサスはな、調理の腕も、調理にかける情熱も、
+リムサ・ロミンサ随一だからな。"
+51,"TEXT_CLSCUL011_00271_CHARLYS_000_3","マスター・リングサスは、この厨房の上から料理人を見守ってる。
+今すぐ、お前の情熱をぶつけに行きな！"
+52,"TEXT_CLSCUL011_00271_CHARLYS_000_5","なんだいなんだい。
+急に怖気づいちまったのかい？"
+53,"TEXT_CLSCUL011_00271_CHARLYS_000_6","いずれにせよ、その状態じゃ
+マスター・リングサスにゃ、会わせられないぜ。
+あの方の料理への情熱に、火傷しちまうからな。"
+54,"TEXT_CLSCUL011_00271_LYNGSATH_000_11","お前さんか？
+調理師ギルドに入りたいと言っているのは。
+どれどれ、そのツラをよく見せてみろ。"
+55,"TEXT_CLSCUL011_00271_LYNGSATH_000_12","才能の欠片も見当たらない……なんてな。
+顔見ただけじゃわからんさ、わははっ！"
+56,"TEXT_CLSCUL011_00271_LYNGSATH_000_13","それに、才能があろうがなかろうが関係ない。
+大事なのは料理に対する姿勢だ。
+そいつが燃えたぎってりゃ、問題ねぇ。"
+57,"TEXT_CLSCUL011_00271_LYNGSATH_000_14","それで、どうだいお前さん？
+お前さんは本当に熱い気持ちで、
+調理師ギルドに入門したいと思ってんのかい？"
+58,"TEXT_CLSCUL011_00271_Q1_000_1","調理師ギルドに入門したい？"
+59,"TEXT_CLSCUL011_00271_A1_000_1","はい"
+60,"TEXT_CLSCUL011_00271_A1_000_2","いいえ"
+61,"TEXT_CLSCUL011_00271_LYNGSATH_000_15","……おっと、どうしたんだ。
+やっぱり、料理は食べる専門ってか？
+だったら、外のテーブルで注文するんだな。"
+62,"TEXT_CLSCUL011_00271_LYNGSATH_000_21","んんっ、いい返事じゃねぇか。
+お前さんの料理への情熱が伝わってくるぜ。"
+63,"TEXT_CLSCUL011_00271_LYNGSATH_000_22","調理を究めるってのは、簡単なことじゃねぇ。
+俺にしたって、コース料理に例えりゃ、まだ前菜ぐらいだ。
+最後のデザートなんて、一生かかっても届くかどうか。"
+64,"TEXT_CLSCUL011_00271_LYNGSATH_000_23","それでも諦めずに取り組めるかは、情熱次第。
+情熱を持ってりゃ、教え甲斐もあるってもんだ。
+それで、お前さんの名は？"
+65,"TEXT_CLSCUL011_00271_LYNGSATH_000_24","……よし、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>よ、
+まずは、こいつを受け取れ。"
+66,"TEXT_CLSCUL011_00271_LYNGSATH_000_25","初心者用の調理道具、「<Sheet(Item,　2493,0)/>」だ。
+こいつを装備した瞬間から、お前さんは「調理師」となる。"
+67,"TEXT_CLSCUL011_00271_LYNGSATH_000_26","装備したら、また俺に声をかけるんだぞ。
+お前さんがちゃんと装備してるか、確かめるからよ。"

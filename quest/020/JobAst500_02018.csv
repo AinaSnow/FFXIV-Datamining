@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_JOBAST500_02018_SEQ_00","Jannequinard is nigh ready to burst with excitement. Make the viscount wait any longer and there is certain to be a wardrobe malfunction."
-1,"TEXT_JOBAST500_02018_SEQ_01","Jannequinard believes you are ready to open the gate to the sixth heaven. This, however, is not his decision to make. Speak with Leveva on the second floor of the Athenaeum Astrologicum and find out what she believes."
-2,"TEXT_JOBAST500_02018_SEQ_02","It turns out Leveva also believes you are ready to open the sixth gate, but before proceeding any further, she instructs you on the mysteries of the nocturnal sect and the powers they can provide."
+0,"TEXT_JOBAST500_02018_SEQ_00","聖ガンリオル占星院のジャンヌキナルは、冒険者の訪問を待ちわびているようだ。"
+1,"TEXT_JOBAST500_02018_SEQ_01","ついに六つめの天界の門を開くことになった。聖ガンリオル占星院の「レヴェヴァ」と話そう。"
+2,"TEXT_JOBAST500_02018_SEQ_02","レヴェヴァと話して、新たな術の伝授を受けた。身の危険を感じているらしい「レヴェヴァ」に、もう一度声をかけよう。"
 3,"TEXT_JOBAST500_02018_SEQ_03",""
 4,"TEXT_JOBAST500_02018_SEQ_04",""
 5,"TEXT_JOBAST500_02018_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_JOBAST500_02018_SEQ_21",""
 22,"TEXT_JOBAST500_02018_SEQ_22",""
 23,"TEXT_JOBAST500_02018_SEQ_23",""
-24,"TEXT_JOBAST500_02018_TODO_00","Speak with Leveva on the second floor."
+24,"TEXT_JOBAST500_02018_TODO_00","レヴェヴァと話す"
 25,"TEXT_JOBAST500_02018_TODO_01",""
 26,"TEXT_JOBAST500_02018_TODO_02",""
 27,"TEXT_JOBAST500_02018_TODO_03",""
@@ -49,10 +49,24 @@ int32,str,str
 45,"TEXT_JOBAST500_02018_TODO_21",""
 46,"TEXT_JOBAST500_02018_TODO_22",""
 47,"TEXT_JOBAST500_02018_TODO_23",""
-48,"TEXT_JOBAST500_02018_JANNEQUINARD_000_000","Lady Leveva tells me that you are nearly ready to open the sixth and final gate. Yes. I said final. We all know there are seven heavens, but opening the seventh is impossible...well, except upon death, of course. An attempt to attune to the pole star would be sheer madness and most certainly spell your doom. Ah, but look at me. Even now, attempting to tutor the great <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, when it is obvious your talent far surpasses mine. Forgive me."
-49,"TEXT_JOBAST500_02018_JANNEQUINARD_000_001","Lady Leveva has yet to depart for the location of the final gate. Doubtless she fears yet another bandit attack, but whatever the reason, she remains on the second floor and has asked that you visit her at your earliest convenience."
-50,"TEXT_JOBAST500_02018_JANNEQUINARD_000_009","Lady Leveva is on the second floor only because she refuses to accept the room I have offered her at Durendaire Manor. It is not as if I would make any untoward attempts at sullying her honor. Having seen but half the summers as I, she is far too young for my tastes."
-51,"TEXT_JOBAST500_02018_LEVEVA_000_010","You have come far since that fateful day our paths first crossed in the Black Shroud. And now, here we are, on the cusp of your attunement with the sixth heaven. Time truly waits for no <If(PlayerParameter(4))>woman<Else/>man</If>, does it?"
-52,"TEXT_JOBAST500_02018_LEVEVA_000_011","Before we set forth on this task, I wish to teach you of a second set of stars─the nocturnal sect."
-53,"TEXT_JOBAST500_02018_LEVEVA_000_012","The nocturnal sect contains those celestial bodies ruled by the two moons. I say two, because since the dawn of astrology, disciples of our field have used Dalamud in their readings. Now, even after the false moon's fall, its position...or should I say, its absence, yet has influence over our fates."
-54,"TEXT_JOBAST500_02018_LEVEVA_000_013","Whereas the sun and the diurnal stars represent the self, expression, the active─and the moon and the nocturnal stars represent the unconscious, the passive─Dalamud represents, and still does represent the uncontrollable. Its power has the ability to quicken the senses, as well as provide added protection from the unknown─things beneficial when pursuing one's fate."
+48,"TEXT_JOBAST500_02018_JANNEQUINARD_000_000","ごきげんよう、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん。
+これまでに、五つの天界の門を開いてきましたが、
+ついに、残された最後の「六天」の門を開く刻がきました。"
+49,"TEXT_JOBAST500_02018_JANNEQUINARD_000_001","修練に出向く前に、レヴェヴァ師が、
+貴方に話しておきたいことがあるそうです。
+二階にいらっしゃるので、声をかけて差し上げてください。"
+50,"TEXT_JOBAST500_02018_JANNEQUINARD_000_009","修練に出向く前に、レヴェヴァ師が、
+貴方に話しておきたいことがあるそうです。
+二階にいらっしゃるので、声をかけて差し上げてください。"
+51,"TEXT_JOBAST500_02018_LEVEVA_000_010","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、よく修練しているようだな。
+この調子であれば、最後の「氷天座」の門を開くこともできよう。
+だが、話しておきたいのは、そのことではない。"
+52,"TEXT_JOBAST500_02018_LEVEVA_000_011","……これまでの度重なる襲撃を考えると、
+いつ何が起こるかわからぬ状況だ。
+汝には、あらかじめ可能なかぎりの術を教えておきたい。"
+53,"TEXT_JOBAST500_02018_LEVEVA_000_012","此度、教えるのは「ノクターナルセクト」だ。
+これを用いれば、夜の宮に座す星から力を得て、
+癒やしの力に魔法障壁の効果を上乗せできる。"
+54,"TEXT_JOBAST500_02018_LEVEVA_000_013","昼の宮に座す星から力を得る「ダイアーナルセクト」が、
+持続性に優れた癒やしの力を発揮するのとは対極的だな。
+状況に応じて使い分け、運命を切り開くがいい。"

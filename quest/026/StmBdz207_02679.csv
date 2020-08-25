@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ207_02679_SEQ_00","Aranami is not a man accustomed to being kept waiting."
+0,"TEXT_STMBDZ207_02679_SEQ_00","筋違砦のアラナミは、新入りの帰りを気にしているようだ。"
 1,"TEXT_STMBDZ207_02679_SEQ_01",""
 2,"TEXT_STMBDZ207_02679_SEQ_02",""
 3,"TEXT_STMBDZ207_02679_SEQ_03",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_STMBDZ207_02679_SEQ_21",""
 22,"TEXT_STMBDZ207_02679_SEQ_22",""
 23,"TEXT_STMBDZ207_02679_SEQ_23",""
-24,"TEXT_STMBDZ207_02679_TODO_00","Search for the missing Confederate recruit."
-25,"TEXT_STMBDZ207_02679_TODO_01","Speak with the Confederate recruit."
-26,"TEXT_STMBDZ207_02679_TODO_02","Speak with Aranami."
+24,"TEXT_STMBDZ207_02679_TODO_00","<Sheet(EObj,2008475,0)/>で見渡す"
+25,"TEXT_STMBDZ207_02679_TODO_01","新入りの海賊と話す"
+26,"TEXT_STMBDZ207_02679_TODO_02","アラナミに報告"
 27,"TEXT_STMBDZ207_02679_TODO_03",""
 28,"TEXT_STMBDZ207_02679_TODO_04",""
 29,"TEXT_STMBDZ207_02679_TODO_05",""
@@ -49,20 +49,44 @@ int32,str,str
 45,"TEXT_STMBDZ207_02679_TODO_21",""
 46,"TEXT_STMBDZ207_02679_TODO_22",""
 47,"TEXT_STMBDZ207_02679_TODO_23",""
-48,"TEXT_STMBDZ207_02679_ARANAMI_000_000","You there─aye, you. Have you seen a bumbling clod of an Au Ra? A new recruit I ordered to patrol the northern edge of Onokoro. He is late in returning."
-49,"TEXT_STMBDZ207_02679_ARANAMI_000_001","A strange boy he was, quiet and brooding. Reluctant to speak unless spoken to first. Better that than a fool who never holds his tongue, perhaps."
-50,"TEXT_STMBDZ207_02679_ARANAMI_000_002","Much as I would enjoy dragging him back by the ear, I cannot. Duty compels me to remain. You, on the other hand, have no such obligations..."
-51,"TEXT_STMBDZ207_02679_ARANAMI_000_003","I sent the boy to patrol the region northwest of Heaven–on–High. If he is not there, then I know not where else he could be..."
-52,"TEXT_STMBDZ207_02679_SYSTEM_000_010","You cast about for the Confederate recruit, and at last spy a young Auri man lurking behind the rocks to the west..."
-53,"TEXT_STMBDZ207_02679_SYSTEM_000_011","You cast about for the Confederate recruit, but see no one matching his description."
-54,"TEXT_STMBDZ207_02679_ARANAMI_000_020","If you find my recruit, tell him to return to me at once. I have no shortage of tasks for him."
-55,"TEXT_STMBDZ207_02679_NEWCOMER02679_000_030","Who...who are you? You do not look like a <If(PlayerParameter(4))>woman<Else/>man</If> of the Confederacy."
-56,"TEXT_STMBDZ207_02679_NEWCOMER02679_000_031","...Forgive me. 'Twas but yesterday we bid farewell to one of our own, and I worried that she might have lost her way."
-57,"TEXT_STMBDZ207_02679_NEWCOMER02679_000_032","We laid her to rest in a boat and pushed her out till the current claimed it. For the sea is our home, now and ever after."
-58,"TEXT_STMBDZ207_02679_NEWCOMER02679_000_033","But those sent thither with burdened hearts may drift back to shore, it is said..."
-59,"TEXT_STMBDZ207_02679_NEWCOMER02679_000_034","Out of concern for her comrades, she strove to earn far more than her keep. She hunted rare and deadly game in treacherous waters, and lost her life for it."
-60,"TEXT_STMBDZ207_02679_NEWCOMER02679_000_035","But my vigil is ended─her vessel has not returned to Onokoro! She has made peace with this life and placed her faith in us to live on..."
-61,"TEXT_STMBDZ207_02679_ARANAMI_000_040","So, what of my recruit? Did you find him napping on the beach or some such?"
-62,"TEXT_STMBDZ207_02679_ARANAMI_000_041","What? All this time he was standing watch for the funerary vessel? Huh..."
-63,"TEXT_STMBDZ207_02679_ARANAMI_000_042","So rarely does he give voice to his thoughts. I had no idea our comrade's death had affected him so. Too quick was I to judge him."
-64,"TEXT_STMBDZ207_02679_ARANAMI_000_043","It is good that you went in my stead, else I might have misspoken and made a fool of myself. Please accept this as a token of my gratitude."
+48,"TEXT_STMBDZ207_02679_ARANAMI_000_000","オイ、そこのお前。
+うちの新入りを見なかったか？
+見回りを任せたんだが、帰りが遅くてな。"
+49,"TEXT_STMBDZ207_02679_ARANAMI_000_001","探しに出たいんだが、俺は見張りをしなきゃなんねえ。
+すまないが、この砦の北西のあたりで、
+「新入りの海賊」を探してきてくれ。"
+50,"TEXT_STMBDZ207_02679_ARANAMI_000_002","アイツには、ほとほと困っててな……。
+変に無口だから、なに考えてんだか、さっぱりわからん。"
+51,"TEXT_STMBDZ207_02679_ARANAMI_000_003","すまないが、この砦の北西のあたりで、
+「新入りの海賊」を探してきてくれ。"
+52,"TEXT_STMBDZ207_02679_SYSTEM_000_010","岩陰の辺りに、人影が見えた気がした。
+話しかけてみよう。"
+53,"TEXT_STMBDZ207_02679_SYSTEM_000_011","この周辺には、「新入りの海賊」はいないようだ。
+別の場所で、見渡してみよう。"
+54,"TEXT_STMBDZ207_02679_ARANAMI_000_020","「新入りの海賊」を見つけたら、
+早く戻ってくるよう、声をかけてくれ。"
+55,"TEXT_STMBDZ207_02679_NEWCOMER02679_000_030","ん……見ない顔だけど、お前は？"
+56,"TEXT_STMBDZ207_02679_NEWCOMER02679_000_031","おっと、すまねえ、もうそんな時間か……。
+先日、みんなで送り出した先輩が、
+迷わずあの世に行けたか心配で、海を眺めてたんだ。"
+57,"TEXT_STMBDZ207_02679_NEWCOMER02679_000_032","俺たち海賊衆は、死者を小舟に乗せて、海原へと送り出す。
+海に生きた者は、死んで海に還るってわけさ。"
+58,"TEXT_STMBDZ207_02679_NEWCOMER02679_000_033","だが、死者に未練がある場合、
+弔いの舟が陸に戻ってきちまうとも言われているんだ。"
+59,"TEXT_STMBDZ207_02679_NEWCOMER02679_000_034","先輩は、この苦境の中で少しでも稼ぎを得ようって、
+海獣が荒れ狂ってる海域に向かってさ……やられちまったんだ。
+そんなだから、未練なく漕ぎ出してくれたか心配でよ……。"
+60,"TEXT_STMBDZ207_02679_NEWCOMER02679_000_035","けど、先輩の舟は戻ってきてなかった！
+あの人のことだから、あとは任せたって笑ってるのかもな。
+……ありがとう、気もすんだし帰るよ。"
+61,"TEXT_STMBDZ207_02679_ARANAMI_000_040","手間掛けたな。
+さっき、新入りが戻ってきたよ。
+で、いったいアイツは、どこで道草食ってたんだ？"
+62,"TEXT_STMBDZ207_02679_ARANAMI_000_041","なに？
+弔った舟が戻ってないか、確認してたってか？"
+63,"TEXT_STMBDZ207_02679_ARANAMI_000_042","無口で、なに考えているか、わからねぇ奴だと思ってたが……
+心意気は立派な海賊衆だったか。
+俺たちゃ、国や主の代わりに、仲間を思いやるものだからな。"
+64,"TEXT_STMBDZ207_02679_ARANAMI_000_043","ガキの使いみたいなことをさせて、すまなかった。
+だが、おかげでイロイロと安心できたぜ。
+ささやかだが、礼を受け取ってくれ。"

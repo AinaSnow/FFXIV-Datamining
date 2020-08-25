@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBFST073_00387_SEQ_00","Armelle, a local at the Mirror Planks, wishes you to salvage cargo from a wreckage on the road."
-1,"TEXT_SUBFST073_00387_SEQ_01","Armelle has asked that you retrieve the cargo from a wagon that was attacked by some vicious denizen of the forest. Head to the site of the incident and salvage all that you can find."
-2,"TEXT_SUBFST073_00387_SEQ_02","You have salvaged the scattered cargo. Make your way to Bentbranch Meadows and deliver the goods to Keitha."
-3,"TEXT_SUBFST073_00387_SEQ_03","The spate of recent troubles in the surrounding woods has Keitha concerned for the fate of her ranch. She asks that you stand ready should Bentbranch Meadows have need of your skills."
+0,"TEXT_SUBFST073_00387_SEQ_00","鏡池桟橋のアルメルは、街道に取り残された荷物を集めてほしいようだ。"
+1,"TEXT_SUBFST073_00387_SEQ_01","アルメルから、魔物に襲われた荷車の積荷を集めるよう頼まれた。荷車が襲われたという場所に行き、積荷を拾おう。"
+2,"TEXT_SUBFST073_00387_SEQ_02","街道に取り残されていた積荷を拾った。届け先である「ベントブランチ牧場」の「ケーシャ」に渡そう。"
+3,"TEXT_SUBFST073_00387_SEQ_03","近頃、牧場周辺を騒がせる事件に不安をこぼすケーシャ。もしものときは、冒険者の力を貸してほしいとのことだ。"
 4,"TEXT_SUBFST073_00387_SEQ_04",""
 5,"TEXT_SUBFST073_00387_SEQ_05",""
 6,"TEXT_SUBFST073_00387_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_SUBFST073_00387_SEQ_21",""
 22,"TEXT_SUBFST073_00387_SEQ_22",""
 23,"TEXT_SUBFST073_00387_SEQ_23",""
-24,"TEXT_SUBFST073_00387_TODO_00","Salvage the cargo."
-25,"TEXT_SUBFST073_00387_TODO_01","Deliver the cargo to Keitha at Bentbranch Meadows."
+24,"TEXT_SUBFST073_00387_TODO_00","落ちた積荷を回収"
+25,"TEXT_SUBFST073_00387_TODO_01","ケーシャに落ちた積荷を渡す"
 26,"TEXT_SUBFST073_00387_TODO_02",""
 27,"TEXT_SUBFST073_00387_TODO_03",""
 28,"TEXT_SUBFST073_00387_TODO_04",""
@@ -49,12 +49,26 @@ int32,str,str
 45,"TEXT_SUBFST073_00387_TODO_21",""
 46,"TEXT_SUBFST073_00387_TODO_22",""
 47,"TEXT_SUBFST073_00387_TODO_23",""
-48,"TEXT_SUBFST073_00387_SYSTEM_100_000","To accept this quest, you must abandon the current main scenario quest. Open the corresponding entry in the journal or duty list and select “Abandon.”"
-49,"TEXT_SUBFST073_00387_ARMELLE_000_01","Might you assist me with another matter, <If(PlayerParameter(4))>milady<Else/>sir</If>? A wagon that departed from Quarrymill was overturned on the road when some large, ill-tempered forest beast chose that moment to defend its territory."
-50,"TEXT_SUBFST073_00387_ARMELLE_000_02","By Nophica's grace, the driver escaped without serious injury, but the wagon's cargo was not so fortunate. With none willing to risk another encounter with the creature, I can only assume the goods remain strewn across the ground where the incident occurred."
-51,"TEXT_SUBFST073_00387_ARMELLE_000_03","Simply follow the road here to the south and you should come across the wreckage. Salvage what cargo you can, and deliver it to Keitha at Bentbranch Meadows if you would be so kind."
-52,"TEXT_SUBFST073_00387_KEITHA_000_11","You have a delivery for me?"
-53,"TEXT_SUBFST073_00387_KEITHA_000_12","Ah, this's the shipment I was waitin' on from Quarrymill. I heard the wagon ran afoul o' some great monstrosity just up the path from the Mirror Planks, but I see you've managed to scrape together a few bits and pieces."
-54,"TEXT_SUBFST073_00387_KEITHA_000_13","Seems I can't get through two bells these days without hearin' some new tale o' horrors in the Deepcroft or bandit cutthroats prowlin' the woods hereabouts."
-55,"TEXT_SUBFST073_00387_KEITHA_000_14","Makes me wonder if me chocobos are safe at night, it does. If we're ever in need of a 'venturer's skills, I hope you'll be around to lend a hand."
-56,"TEXT_SUBFST073_00387_POP_MESSAGE","You feel the ground tremble beneath your feet..."
+48,"TEXT_SUBFST073_00387_SYSTEM_100_000","受注するには、進行中のメインクエストを破棄する必要があります。
+メインコマンドの「コンテンツ情報」から、
+「ジャーナル」を選び、破棄してください。"
+49,"TEXT_SUBFST073_00387_ARMELLE_000_01","申し訳ないけど、手を貸してほしいの。
+そこの街道で、クォーリーミルからの荷車が、
+魔物に襲われたのよ。"
+50,"TEXT_SUBFST073_00387_ARMELLE_000_02","運良く怪我人はいなかったけど、
+道に荷車が取り残されたままになってるわ。
+行って、無事な荷物を集めてちょうだい。"
+51,"TEXT_SUBFST073_00387_ARMELLE_000_03","目の前の街道にそって南に行けば荷車が見つかるはずよ。
+積荷は「ベントブランチ牧場」の「ケーシャ」宛てなの。
+荷物を集めたら、彼女に届けてあげてくれる？"
+52,"TEXT_SUBFST073_00387_KEITHA_000_11","私に届け物ですか？"
+53,"TEXT_SUBFST073_00387_KEITHA_000_12","クォーリーミルからの荷物ですか。
+途中で事故が起きたと聞き、心配していましたが、
+あなたが回収してくださったのですね。"
+54,"TEXT_SUBFST073_00387_KEITHA_000_13","近頃は、タムタラの墓所を騒がせる魔物や、
+付近で不審者が目撃されたといった
+不穏な話が絶えません。"
+55,"TEXT_SUBFST073_00387_KEITHA_000_14","なんだか、胸が騒ぎます。
+チョコボ達に何もなければいいのですが……
+もしものときは、是非、力を貸してください。"
+56,"TEXT_SUBFST073_00387_POP_MESSAGE","敵の気配を感じた！！"

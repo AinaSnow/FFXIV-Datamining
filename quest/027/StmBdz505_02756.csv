@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ505_02756_SEQ_00","Chambui is in need of meat."
+0,"TEXT_STMBDZ505_02756_SEQ_00","再会の市のチャンブイは、人手を探しているようだ。"
 1,"TEXT_STMBDZ505_02756_SEQ_01",""
 2,"TEXT_STMBDZ505_02756_SEQ_02",""
 3,"TEXT_STMBDZ505_02756_SEQ_03",""
@@ -25,10 +25,10 @@ int32,str,str
 21,"TEXT_STMBDZ505_02756_SEQ_21",""
 22,"TEXT_STMBDZ505_02756_SEQ_22",""
 23,"TEXT_STMBDZ505_02756_SEQ_23",""
-24,"TEXT_STMBDZ505_02756_TODO_00","Slay steppe dzos and obtain their meat."
-25,"TEXT_STMBDZ505_02756_TODO_01","Speak with Chambui."
-26,"TEXT_STMBDZ505_02756_TODO_02","Deliver the chunks of steppe dzo meat to Chambui's husband."
-27,"TEXT_STMBDZ505_02756_TODO_03","Report to Chambui."
+24,"TEXT_STMBDZ505_02756_TODO_00","<Sheet(BNpcName,5773,0)/>から<Sheet(EventItem,2002111,0)/>を入手"
+25,"TEXT_STMBDZ505_02756_TODO_01","チャンブイと話す"
+26,"TEXT_STMBDZ505_02756_TODO_02","チャンブイの夫に<Sheet(EventItem,2002111,0)/>を渡す"
+27,"TEXT_STMBDZ505_02756_TODO_03","チャンブイに報告"
 28,"TEXT_STMBDZ505_02756_TODO_04",""
 29,"TEXT_STMBDZ505_02756_TODO_05",""
 30,"TEXT_STMBDZ505_02756_TODO_06",""
@@ -49,20 +49,42 @@ int32,str,str
 45,"TEXT_STMBDZ505_02756_TODO_21",""
 46,"TEXT_STMBDZ505_02756_TODO_22",""
 47,"TEXT_STMBDZ505_02756_TODO_23",""
-48,"TEXT_STMBDZ505_02756_CHAMBUI_000_000","Fancy doing some hunting for me?"
-49,"TEXT_STMBDZ505_02756_CHAMBUI_000_001","I have been so busy trading today that I have had no time to go hunting. Which is an issue as I am nearly out of buuz ingredients."
-50,"TEXT_STMBDZ505_02756_CHAMBUI_000_002","I would like you to slay four steppe dzos for me and bring back their meat. You should be able to find some just outside of Reunion."
-51,"TEXT_STMBDZ505_02756_CHAMBUI_000_003",""
-52,"TEXT_STMBDZ505_02756_DAZCALHUSBAND02756_000_004","We are far too busy today. I am struggling to keep up."
-53,"TEXT_STMBDZ505_02756_CHAMBUI_000_010","Do you have my meat?"
-54,"TEXT_STMBDZ505_02756_CHAMBUI_000_011","We Dazkar are somewhat different to the other tribes in that all our hunting is done by our women. My little girls are already proving to be quite skilled with a bow and arrow."
-55,"TEXT_STMBDZ505_02756_CHAMBUI_000_012","I am sorry to take even more of your time, but could you deliver the dzo meat to my husband? You will find him just behind that nearby tent."
-56,"TEXT_STMBDZ505_02756_CHAMBUI_000_013",""
-57,"TEXT_STMBDZ505_02756_DAZCALHUSBAND02756_000_020","Why, hello! Can I help you with something?"
-58,"TEXT_STMBDZ505_02756_DAZCALHUSBAND02756_000_021","Ah, you have been hunting for my wife have you? You have my thanks."
-59,"TEXT_STMBDZ505_02756_DAZCALHUSBAND02756_000_022","I must say it is quite nice to have the chance to speak with someone that does not belong to my tribe!"
-60,"TEXT_STMBDZ505_02756_DAZCALHUSBAND02756_000_023","I would love to talk more, but it is really time I got back to cooking. Speak with my wife and I am sure she will see you are rewarded for your hard work. "
-61,"TEXT_STMBDZ505_02756_DAZCALHUSBAND02756_000_024","I would love to talk more, but I really need to focus on cooking. Speak with my wife and I am sure she will see you are rewarded for your hard work. "
-62,"TEXT_STMBDZ505_02756_CHAMBUI_000_020","You may not be aware of this, but those from outside our tribe seldom have the chance to speak with Dazkar men."
-63,"TEXT_STMBDZ505_02756_CHAMBUI_000_021","Usually we keep our men at home, but my husband's buuz are so much better than anything I could make. I felt I would be depriving my customers if I did not give them the opportunity to sample his cooking."
-64,"TEXT_STMBDZ505_02756_CHAMBUI_000_022","Regardless, it is time I got back to work. Thank you for all you have done."
+48,"TEXT_STMBDZ505_02756_CHAMBUI_000_000","そこのアンタ、見たところ、ただの旅人じゃないね。
+<If(PlayerParameter(4))>アタシと同じくらい腕も立ちそうだし、<Else/>男だろうと、腕が立つなら気にはしないから、</If>
+ちょっと、頼まれてくれるかい。"
+49,"TEXT_STMBDZ505_02756_CHAMBUI_000_001","今日は、いつもより客の入りがよくて、
+ボーズの材料が足りなくなりそうなんだ。
+娘たちも狩りに行かせてるが、それでも追いつかないほどさ。"
+50,"TEXT_STMBDZ505_02756_CHAMBUI_000_002","そこでだね、市の外をウロウロしてる「<Sheet(BNpcName,5773,0)/>」を倒して、
+「<Sheet(EventItem,2002111,0)/>」を4つ取ってきてもらえないかい？"
+51,"TEXT_STMBDZ505_02756_CHAMBUI_000_003","（★未使用／削除予定★）"
+52,"TEXT_STMBDZ505_02756_DAZCALHUSBAND02756_000_004","……今日は、やけに忙しいなぁ。
+この調子だと、餡がなくなっちゃうよ。"
+53,"TEXT_STMBDZ505_02756_CHAMBUI_000_010","仕事が早いじゃないか。
+<If(PlayerParameter(4))>こういうときに頼りになるのは、やっぱり女だね。<Else/>男にしとくのは、もったいないくらいだよ。</If>"
+54,"TEXT_STMBDZ505_02756_CHAMBUI_000_011","うちらダズカル族にとっちゃ、狩りは女の仕事。
+女衆のほうが鼻が利いて、狙った獲物を逃さないのさ。
+娘たちもまだ小さいが、立派な狩人として走り回ってるよ。"
+55,"TEXT_STMBDZ505_02756_CHAMBUI_000_012","手に入れてくれた「<Sheet(EventItem,2002111,0)/>」は、
+東の建物の裏にいる、アタシの夫に届けてくれるかい？
+店を空けるわけにはいかないからさ。"
+56,"TEXT_STMBDZ505_02756_CHAMBUI_000_013","（★未使用／削除予定★）"
+57,"TEXT_STMBDZ505_02756_DAZCALHUSBAND02756_000_020","えっ、旅人さんですよね……？
+その……私に何か用でしょうか？"
+58,"TEXT_STMBDZ505_02756_DAZCALHUSBAND02756_000_021","あっ、妻の手伝いをしてくれていたんですね？
+ありがとうございます。"
+59,"TEXT_STMBDZ505_02756_DAZCALHUSBAND02756_000_022","市に来るときくらいしか、
+部族外の人と話さないので、ちょっと緊張してしまって……。
+無礼な態度でしたら、すみません。"
+60,"TEXT_STMBDZ505_02756_DAZCALHUSBAND02756_000_023","……では、私は調理に戻りますね。
+報酬は妻から受け取ってくれますか？"
+61,"TEXT_STMBDZ505_02756_DAZCALHUSBAND02756_000_024","……私は調理に戻りますね。
+報酬は妻から受け取ってくれますか？"
+62,"TEXT_STMBDZ505_02756_CHAMBUI_000_020","ああ、肉を届けてくれたんだね。
+ダズカルの男と話せるなんて、めったにないことだから、
+自慢していいよ。"
+63,"TEXT_STMBDZ505_02756_CHAMBUI_000_021","いつもは、男を家の外へ出したりはしないんだが、
+夫が作るボーズは、生地はもっちり、具はホクホクの絶品でね。
+ぜひとも、たくさんの人に食べてほしくて、ここで売ってるんだ。"
+64,"TEXT_STMBDZ505_02756_CHAMBUI_000_022","さぁて、材料も手に入ったことだし、もうひと稼ぎするかね！
+今回は助かったよ、ありがとう。"

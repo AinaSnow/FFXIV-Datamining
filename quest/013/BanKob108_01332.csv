@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANKOB108_01332_SEQ_00","789th Order Dustman Bo Zu has an uncharacteristically eager glint in his eyes."
-1,"TEXT_BANKOB108_01332_SEQ_01","In one of the more shocking developments of the Seventh Astral Era, legendary laggard Bo Zu states a desire to turn over a new leaf and do some work for a change, though he would ask your aid in summoning the necessary resolve. To that end, travel to the Kobold Dig and fetch a handful of electrum from the 639th Order, that the dustman might witness firsthand the fruit of honest labor with his own eyes."
-2,"TEXT_BANKOB108_01332_SEQ_02","You have succeeded in “borrowing” a quantity of pristine electrum from the 639th's stock. Deliver it to Bo Zu, that it might serve to boost the dustman's morale."
-3,"TEXT_BANKOB108_01332_SEQ_03","To the surprise of absolutely no one, Bo Zu decides to appropriate the borrowed electrum in the 789th's name. Though the dustman's methods are questionable, no doubt it is the abuse and oppression he and his peers suffer at the hands of Zo Ga that has driven them to such desperate measures..."
+0,"TEXT_BANKOB108_01332_SEQ_00","第789洞穴団の採掘地のダストマン789 ボ・ズは、気になっていることがあるようだ。"
+1,"TEXT_BANKOB108_01332_SEQ_01","ダストマン789 ボ・ズは、第639洞穴団の掘り当てた青金鉱を、代わりに上納しようと企んでいるようだ。コボルド軍試掘地の「<Sheet(EObj,2003553,0)/>」から「<Sheet(EventItem,2001200,0)/>」を入手しよう。"
+2,"TEXT_BANKOB108_01332_SEQ_02","<Sheet(EventItem,2001200,0)/>を盗み出した。コボルド軍試掘地の「ダストマン789 ボ・ズ」に「<Sheet(EventItem,2001200,0)/>」を渡そう。"
+3,"TEXT_BANKOB108_01332_SEQ_03","ダストマン789 ボ・ズに<Sheet(EventItem,2001200,0)/>を渡した。彼は盗んだ青金鉱を、自分たちの成果として上納するそうだ。そうやって第789洞穴団が台頭しても、人の害にはなりそうもない……。次も協力してあげよう。"
 4,"TEXT_BANKOB108_01332_SEQ_04",""
 5,"TEXT_BANKOB108_01332_SEQ_05",""
 6,"TEXT_BANKOB108_01332_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_BANKOB108_01332_SEQ_21",""
 22,"TEXT_BANKOB108_01332_SEQ_22",""
 23,"TEXT_BANKOB108_01332_SEQ_23",""
-24,"TEXT_BANKOB108_01332_TODO_00","Search 639th Order pots for high-grade electrum ore."
-25,"TEXT_BANKOB108_01332_TODO_01","Deliver high-grade electrum ore to 789th Order Dustman Bo Zu."
+24,"TEXT_BANKOB108_01332_TODO_00","コボルド軍試掘地の<Sheet(EObj,2003553,0)/>から<Sheet(EventItem,2001200,0)/>を入手"
+25,"TEXT_BANKOB108_01332_TODO_01","ダストマン789 ボ・ズに<Sheet(EventItem,2001200,0)/>を渡す"
 26,"TEXT_BANKOB108_01332_TODO_02",""
 27,"TEXT_BANKOB108_01332_TODO_03",""
 28,"TEXT_BANKOB108_01332_TODO_04",""
@@ -49,11 +49,23 @@ int32,str,str
 45,"TEXT_BANKOB108_01332_TODO_21",""
 46,"TEXT_BANKOB108_01332_TODO_22",""
 47,"TEXT_BANKOB108_01332_TODO_23",""
-48,"TEXT_BANKOB108_01332_BOZU_000_000","Bo Zu has been a sluggard─a loafer, a slacker, a sluggard. But Bo Zu would be a sluggard no more─no, no, no more!"
-49,"TEXT_BANKOB108_01332_BOZU_000_001","Gi Gu says that the 639th finds shiny metals─yes, yes, the shiniest. Could this be true? The 639th was once as shabby as us─ratty, scruffy, shabby."
-50,"TEXT_BANKOB108_01332_BOZU_000_002","If the 639th can find shinies, then why not me? Yes, yes, why not me? Bo Zu can strike it rich, too!"
-51,"TEXT_BANKOB108_01332_BOZU_000_003","But I would know for certain─for true, for sure, for certain. You will go to the dig, yes? Bring back proof of the 639th's accomplishments for Bo Zu? Yes, yes, this you must do!"
-52,"TEXT_BANKOB108_01332_BOZU_000_004","I would know for certain─for true, for sure, for certain. You will go to the dig, yes? Bring back proof of the 639th's accomplishments for Bo Zu? Yes, yes, this you must do!"
-53,"TEXT_BANKOB108_01332_BOZU_000_010","Adventurer brings back shinies, yes? From the 639th to Bo Zu?"
-54,"TEXT_BANKOB108_01332_BOZU_000_011","See how it sparkles─shines, glimmers, sparkles! The 639th has dug up a fortune. Yes, yes, they strike true!"
-55,"TEXT_BANKOB108_01332_BOZU_000_012","Surely...they will not miss a shiny─no, no, not a shiny or two. Thank you─yes, thank you, adventurer! For today, wealth has also come to Bo Zu!"
+48,"TEXT_BANKOB108_01332_BOZU_000_000","「第639洞穴団」のヤツーら
+なかなかーの　青金鉱を掘り当てたって　言ってるんだーど。
+きっと　そのうち上納しーて　評価を上げるつもりだーど。"
+49,"TEXT_BANKOB108_01332_BOZU_000_001","そんなことーで　評価を上げるなんーて　小狡いーど！
+……でも　オイーラ　思ったんだーど。
+まだ上納してないなーら　もらってしまえばいーど！"
+50,"TEXT_BANKOB108_01332_BOZU_000_002","アイツーら　大壺に青金鉱をしまってるーど。
+アレをこっそり盗んで　オイーラたちが上納しちゃえば……
+評価が上がるーの　オイーラたちになるーど！"
+51,"TEXT_BANKOB108_01332_BOZU_000_003","第639洞穴団のヤツーら　「<Sheet(EventItem,2001200,0)/>」を
+「コボルド軍試掘地」に隠したらしいーど。
+「<Sheet(EObj,2003553,0)/>」かーら　とってきてほしいーど！"
+52,"TEXT_BANKOB108_01332_BOZU_000_004","第639洞穴団のヤツーら　「<Sheet(EventItem,2001200,0)/>」を
+「コボルド軍試掘地」に隠したらしいーど。
+「<Sheet(EObj,2003553,0)/>」かーら　とってきてほしいーど！"
+53,"TEXT_BANKOB108_01332_BOZU_000_010","<Sheet(EventItem,2001200,0)/>　見つかったーど？"
+54,"TEXT_BANKOB108_01332_BOZU_000_011","おおお！　取ってきてくれたーど！
+アンータ　やってくれたーど！　ありがとうだーど！"
+55,"TEXT_BANKOB108_01332_BOZU_000_012","この青金鉱は　今度の上納で納めるーど。
+オイーラたちの評価　ちょっとは上がるーど！"

@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSC611_01011_SEQ_00","Kerrich just wants to have some fun."
-1,"TEXT_GAIUSC611_01011_SEQ_01","The dread Ser Kerrich, Dark Rider of the Shroud, stands before you. Cower and /kneel before him."
-2,"TEXT_GAIUSC611_01011_SEQ_02","The dread Ser Kerrich, Dark Rider of the Shroud, would accept you as his vassal, but first demands that you prove your loyalty by doing his bidding. Fetch the wings from three keds as your master commands."
-3,"TEXT_GAIUSC611_01011_SEQ_03","You have procured three ked wings. Deliver them to Ser Kerrich with all speed."
-4,"TEXT_GAIUSC611_01011_SEQ_04","Most pleased with your efforts, the dread Ser Kerrich, Dark Rider of the Shroud, invites you to come play with─er, <Emphasis>serve</Emphasis> him whenever you desire."
+0,"TEXT_GAIUSC611_01011_SEQ_00","クォーリーミルのケリッヒは、冒険者に相手をしてもらいたいようだ。"
+1,"TEXT_GAIUSC611_01011_SEQ_01","恐ろしい亡霊騎士ケリッヒに、エモート「ひざまずく」をして許しを請おう。"
+2,"TEXT_GAIUSC611_01011_SEQ_02","亡霊騎士ケリッヒから新たな命令が下された。「<Sheet(BNpcName,8,0)/>」から「<Sheet(EventItem,2000774,0)/>」を3枚入手しよう。"
+3,"TEXT_GAIUSC611_01011_SEQ_03","<Sheet(EventItem,2000774,0)/>を入手した。クォーリーミルに戻り「ケリッヒ」に渡そう。"
+4,"TEXT_GAIUSC611_01011_SEQ_04","ケリッヒに<Sheet(EventItem,2000774,0)/>を渡した。ケリッヒ……いや、亡霊騎士は喜んでいるようだ。"
 5,"TEXT_GAIUSC611_01011_SEQ_05",""
 6,"TEXT_GAIUSC611_01011_SEQ_06",""
 7,"TEXT_GAIUSC611_01011_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_GAIUSC611_01011_SEQ_21",""
 22,"TEXT_GAIUSC611_01011_SEQ_22",""
 23,"TEXT_GAIUSC611_01011_SEQ_23",""
-24,"TEXT_GAIUSC611_01011_TODO_00","Show deference and /kneel to Kerrich."
-25,"TEXT_GAIUSC611_01011_TODO_01","Defeat keds and obtain their wings."
-26,"TEXT_GAIUSC611_01011_TODO_02","Deliver the ked wings to Kerrich."
+24,"TEXT_GAIUSC611_01011_TODO_00","ケリッヒに「ひざまずく」をする"
+25,"TEXT_GAIUSC611_01011_TODO_01","<Sheet(BNpcName,8,0)/>から<Sheet(EventItem,2000774,0)/>を入手"
+26,"TEXT_GAIUSC611_01011_TODO_02","ケリッヒに<Sheet(EventItem,2000774,0)/>を渡す"
 27,"TEXT_GAIUSC611_01011_TODO_03",""
 28,"TEXT_GAIUSC611_01011_TODO_04",""
 29,"TEXT_GAIUSC611_01011_TODO_05",""
@@ -49,15 +49,32 @@ int32,str,str
 45,"TEXT_GAIUSC611_01011_TODO_21",""
 46,"TEXT_GAIUSC611_01011_TODO_22",""
 47,"TEXT_GAIUSC611_01011_TODO_23",""
-48,"TEXT_GAIUSC611_01011_KERRICH_000_000","Boooooo～oooooo! I am the Dark Rider of the Shroud! Ooooooooo! Thou art scaredeth of me, art thou noteth!? If thou art not, thou art a fool! <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Kneel<UIGlow>01</UIGlow><UIForeground>01</UIForeground>eth before me! Noweth!"
-49,"TEXT_GAIUSC611_01011_KERRICH_000_010","Thou art scaredeth of me, art thou noteth!? If thou art not, thou art a fool! <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Kneel<UIGlow>01</UIGlow><UIForeground>01</UIForeground>eth before me! Noweth!"
-50,"TEXT_GAIUSC611_01011_KERRICH_000_015","Ahahaha! Yes, thou art wise to feareth me, adventurer! But the Dark Rider dost not forgiveth fools so easilyeth."
-51,"TEXT_GAIUSC611_01011_KERRICH_000_016","If thou wouldst serveth me, thou must doeth mine bidding! Doeth mine bidding, or I shall slayeth you for trees-on and insub...insub...not-doingeth-what-thy-master-telleth-you-to-doeth!"
-52,"TEXT_GAIUSC611_01011_KERRICH_000_017","The Dark Rider dost desireth three ked wings! ...Why!? It is not thine place to asketh why! Three ked wings! Not two, and not four─thou had best remembereth well, or I shall haveth your head!"
-53,"TEXT_GAIUSC611_01011_KERRICH_000_020","Dost thou mocketh me!? Mocketh me again, and I shalt have thy head! Now <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>kneel<UIGlow>01</UIGlow><UIForeground>01</UIForeground>eth! <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Kneel<UIGlow>01</UIGlow><UIForeground>01</UIForeground>eth and beggeth thy master's forgiveness!"
-54,"TEXT_GAIUSC611_01011_DUMMY_000_000","//: kill keds, get wings"
-55,"TEXT_GAIUSC611_01011_TODO_000_000",""
-56,"TEXT_GAIUSC611_01011_KERRICH_000_030","The Dark Rider dost desireth ked wings! Are thou too weak to slayeth mere keds?"
-57,"TEXT_GAIUSC611_01011_KERRICH_000_040","Wow! Are those really ked wings!? I can't wait to show them off to Father─er, ahem."
-58,"TEXT_GAIUSC611_01011_KERRICH_000_041","Ahem! Thou hast proven thy loyalty well! The Dark Rider of the Shroud hereby nameth you his loyal squire! That means you can come play with─er, that means thou canst <Emphasis>serveth</Emphasis> me whenever thou likest!"
-59,"TEXT_GAIUSC611_01011_KERRICH_000_042","Who knew it was so easy to boss around an adventurer? Methinks my spineless dad could learn a thing or two from me!"
+48,"TEXT_GAIUSC611_01011_KERRICH_000_000","ふはははは、わたしは亡霊騎士さまであるぞ！
+わたしの魔法にかかれば、貴様などひとひねりなのだー！
+こわかったら「ひざまずいて」許しをこうのだー！"
+49,"TEXT_GAIUSC611_01011_KERRICH_000_010","どうだー！　わたしは亡霊騎士さまであるぞ！
+わたしに「ひざまずいて」許しをこう気になったかー！"
+50,"TEXT_GAIUSC611_01011_KERRICH_000_015","うむ、くるしゅうないぞ！
+よーし、貴様は今からわたしのケライだ！"
+51,"TEXT_GAIUSC611_01011_KERRICH_000_016","ケライはジョウシのために仕事をするものだー！
+ジョウシを喜ばせたらキュウリョウがあがるぞ！
+さあ、荷運びチョコボみたいに働けー！"
+52,"TEXT_GAIUSC611_01011_KERRICH_000_017","いいか、ケライ！
+「<Sheet(BNpcName,8,0)/>」を3匹倒して、
+「<Sheet(EventItem,2000774,0)/>」をもいでくるのだー！"
+53,"TEXT_GAIUSC611_01011_KERRICH_000_020","貴様ー、おじけづいたかー！
+亡霊騎士さまの許しがほしければ「ひざまずく」のだー！"
+54,"TEXT_GAIUSC611_01011_DUMMY_000_000","ケッドを三体倒し、羽をゲット"
+55,"TEXT_GAIUSC611_01011_TODO_000_000","（★未使用／削除予定★）"
+56,"TEXT_GAIUSC611_01011_KERRICH_000_030","おい、ケライ！
+亡霊騎士さまは待ちくたびれたぞ！
+「<Sheet(EventItem,2000774,0)/>」はまだかー！"
+57,"TEXT_GAIUSC611_01011_KERRICH_000_040","やったー！
+ぼくの「百蟲図鑑」にかざろっとー！
+……あっ。"
+58,"TEXT_GAIUSC611_01011_KERRICH_000_041","……ゴッホン！
+ケライのものはジョウシのもの！
+<Sheet(EventItem,2000774,0)/>は、この亡霊騎士さまがもらっておくぞ！"
+59,"TEXT_GAIUSC611_01011_KERRICH_000_042","……ジョウシってすげー。
+万年ケライのとーちゃんも、
+早くジョウシになればいいのに。"

@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNY816_02393_SEQ_00","The nervous trembling of his legs suggests this Auri brawler may not be as tough as he appears."
-1,"TEXT_HEAVNY816_02393_SEQ_01","No sooner do you look in his direction than an Auri monk cowers away from you, begging for mercy. His fear soon gives way to relief after realizing you did not come to knock him on his backside. As he explains it, the Maelstrom has opened an arena where adventurers may freely challenge comrades-in-arms to combat. What has the Auri fighter so concerned, however, is that because these battles are not confined to the Pit of the Wolves' Den, he has been constantly harassed by strangers looking to pick a fight. Judging by the air of confidence about you, he suggests you pay a visit to the officer down on the docks, that you might learn more about this new fighting ring."
-2,"TEXT_HEAVNY816_02393_SEQ_02","You approach the Maelstrom officer, and at a glance she can tell you have a hunger for battle that cannot be sated in the Pit of the Wolves' Den. Before you rush headlong into the arena, however, she intends to explains the protocols one must follow when dueling on the Wolves' Den Pier."
+0,"TEXT_HEAVNY816_02393_SEQ_00","ウルヴズジェイル係船場の気弱そうな冒険者は、何やら尻込みしているようだ。"
+1,"TEXT_HEAVNY816_02393_SEQ_01","気弱そうな冒険者によると、黒渦団が「ウルヴズジェイル係船場」の一部を、訓練に来た者たちに開放しているようだ。興味があるなら、ウルヴズジェイル係船場の「黒渦団の訓練教官」と話そう。"
+2,"TEXT_HEAVNY816_02393_SEQ_02","黒渦団の訓練教官と話した。個人演習場では、対人戦訓練ができるようだ。彼女に「個人演習場」の使用方法を確認して、対人戦訓練に臨んでみよう。"
 3,"TEXT_HEAVNY816_02393_SEQ_03",""
 4,"TEXT_HEAVNY816_02393_SEQ_04",""
 5,"TEXT_HEAVNY816_02393_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_HEAVNY816_02393_SEQ_21",""
 22,"TEXT_HEAVNY816_02393_SEQ_22",""
 23,"TEXT_HEAVNY816_02393_SEQ_23",""
-24,"TEXT_HEAVNY816_02393_TODO_00","Speak with the Maelstrom drill sergeant."
+24,"TEXT_HEAVNY816_02393_TODO_00","黒渦団の訓練教官と話す"
 25,"TEXT_HEAVNY816_02393_TODO_01",""
 26,"TEXT_HEAVNY816_02393_TODO_02",""
 27,"TEXT_HEAVNY816_02393_TODO_03",""
@@ -49,12 +49,27 @@ int32,str,str
 45,"TEXT_HEAVNY816_02393_TODO_21",""
 46,"TEXT_HEAVNY816_02393_TODO_22",""
 47,"TEXT_HEAVNY816_02393_TODO_23",""
-48,"TEXT_HEAVNY816_02393_WOLF02393_000_000","P-Please, I beg of you! Stay those ferocious-looking fists! I'm not ready for full contact sparring! Why, I've only just begun to practice my One Ilm Punch!"
-49,"TEXT_HEAVNY816_02393_WOLF02393_000_001","S-So...you haven't come to duel me, then? My apologies. You have the look of a <If(PlayerParameter(4))>woman<Else/>man</If> who enjoys the thrill of a fight, and I thought perhaps you'd come to challenge me. "
-50,"TEXT_HEAVNY816_02393_WOLF02393_000_002","And for good reason, I might add! You see, the Maelstrom recently opened up a new sparring ground of sorts, right here on this pier. Now adventurers can go toe-to-toe without climbing down into the Pit."
-51,"TEXT_HEAVNY816_02393_WOLF02393_000_003","I was all but certain you were just like everyone else, eager to earn a notch on your belt. I haven't the skill nor the courage to put up a fight, but you've the look of a <If(PlayerParameter(4))>woman<Else/>man</If> who's weathered <If(PlayerParameter(4))>her<Else/>his</If> fair share of battles. Perhaps you'd like to test your mettle in the ring? N-Not with me, of course."
-52,"TEXT_HEAVNY816_02393_WOLF02393_000_004","The officer who oversees the arena is just over there. Doubtless she'd be happy to tell you all about it. Just look at that frightful stare─always on the lookout for fresh blood, or so they say!"
-53,"TEXT_HEAVNY816_02393_WOLF02393_000_008","If you're looking to test your skills in the arena, don't let me keep you. Hop down from here, head straight down the dock, and speak with the drill sergeant. You can't miss her."
-54,"TEXT_HEAVNY816_02393_WOLF02393_000_009","I'd accompany you down there, but I fear that crazed, bloodthirsty Lalafell from yesterday is still about. Just the thought of her beady little eyes, and that sinister grin─the stuff of nightmares, I tell you."
-55,"TEXT_HEAVNY816_02393_DUELOFFICER_000_010","What's this? Another wolf pup itchin' to get in the ring, are ye? Well, if it's blood yer after, and ye need it quick, might be ye can slake yer thirst here."
-56,"TEXT_HEAVNY816_02393_DUELOFFICER_000_011","Before ye go rushin' off to get yerself bludgeoned, though, there's rules to be learned. Don't ye worry none, <If(PlayerParameter(4))>lass<Else/>lad</If>. I'll teach ye all ye need to know."
+48,"TEXT_HEAVNY816_02393_WOLF02393_000_000","うわわああ！！
+こっ、心の準備がまだなので、お断りします！！"
+49,"TEXT_HEAVNY816_02393_WOLF02393_000_001","……もしや、私に対戦を挑んできたんじゃないんですね？
+これは、とんだ早とちりをしてしまいました。"
+50,"TEXT_HEAVNY816_02393_WOLF02393_000_002","実は、黒渦団が、ここウルヴズジェイル係船場に、
+「個人演習場」を開放しましてね。
+そこでは、冒険者同士で実戦演習ができるんですよ。"
+51,"TEXT_HEAVNY816_02393_WOLF02393_000_003","そんなこんなで、戦いを挑まれたのかと慌ててしまいました。
+私は、勇気が出ずに、まだ個人演習場に、
+足を踏み入れることができていないもので……。"
+52,"TEXT_HEAVNY816_02393_WOLF02393_000_004","「個人演習場」での対人戦訓練に興味があるならば、
+詳しい説明を聞いてみてはいかがでしょう？
+あそこの「黒渦団の訓練教官」が説明してくれますよ。"
+53,"TEXT_HEAVNY816_02393_WOLF02393_000_008","実は、黒渦団が、ここウルヴズジェイル係船場に、
+「個人演習場」を開放しましてね。
+そこでは、冒険者同士で実戦演習ができるんですよ。"
+54,"TEXT_HEAVNY816_02393_WOLF02393_000_009","「個人演習場」での対人戦訓練に興味があるならば、
+詳しい説明を聞いてみてはいかがでしょう？
+あそこの「黒渦団の訓練教官」が説明してくれますよ。"
+55,"TEXT_HEAVNY816_02393_DUELOFFICER_000_010","ほかの冒険者との対人戦訓練に興味があると？
+それは、もちろん大歓迎だ。
+「個人演習場」は、すべての訓練者に開かれた場だから。"
+56,"TEXT_HEAVNY816_02393_DUELOFFICER_000_011","いますぐ対人戦訓練に臨みたければ、再度、私に申し出よ。
+詳しい手順と掟を教えてやろう！"

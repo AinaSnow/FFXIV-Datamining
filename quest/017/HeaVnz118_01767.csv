@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNZ118_01767_SEQ_00","Jantellot will not stop moaning about his leg."
-1,"TEXT_HEAVNZ118_01767_SEQ_01","Jantellot tells you that, despite his remarkable combat abilities, he has suffered injury at the claws of a monstrous dragon. He bids you fetch some healing spring water from Dragonspit, supplying you with a bottle for the purpose."
-2,"TEXT_HEAVNZ118_01767_SEQ_02","You fill the bottle with water from the spring. Return it to Jantellot so that he might regain his strength."
-3,"TEXT_HEAVNZ118_01767_SEQ_03","You provide Jantellot with the spring's healing water. He explains that, while the Convictory's supplies─particularly of healing potions─are low, the water you retrieved is more effective than the strongest of potions...or so some people say."
+0,"TEXT_HEAVNZ118_01767_SEQ_00","聖フィネア連隊の露営地のジャントゥローは、傷が痛むようだ。"
+1,"TEXT_HEAVNZ118_01767_SEQ_01","ジャントゥローから<Sheet(EventItem,2001603,0)/>を渡された。クルザス西部高地のドラゴンスピットにある温泉で「<Sheet(EObj,2005591,0)/>」を汲もう。"
+2,"TEXT_HEAVNZ118_01767_SEQ_02","<Sheet(EventItem,2001603,0)/>に<Sheet(EventItem,2001604,0)/>を汲んだ。聖フィネア連隊の露営地の「ジャントゥロー」に「<Sheet(EventItem,2001604,0)/>」を渡そう。"
+3,"TEXT_HEAVNZ118_01767_SEQ_03","ジャントゥローに<Sheet(EventItem,2001604,0)/>を渡した。この温泉には、怪我の回復を早める効果があるようだ。"
 4,"TEXT_HEAVNZ118_01767_SEQ_04",""
 5,"TEXT_HEAVNZ118_01767_SEQ_05",""
 6,"TEXT_HEAVNZ118_01767_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_HEAVNZ118_01767_SEQ_21",""
 22,"TEXT_HEAVNZ118_01767_SEQ_22",""
 23,"TEXT_HEAVNZ118_01767_SEQ_23",""
-24,"TEXT_HEAVNZ118_01767_TODO_00","Obtain spring water at Dragonspit."
-25,"TEXT_HEAVNZ118_01767_TODO_01","Deliver the water to Jantellot."
+24,"TEXT_HEAVNZ118_01767_TODO_00","<Sheet(EObj,2005591,0)/>を入手"
+25,"TEXT_HEAVNZ118_01767_TODO_01","ジャントゥローに<Sheet(EventItem,2001604,0)/>を渡す"
 26,"TEXT_HEAVNZ118_01767_TODO_02",""
 27,"TEXT_HEAVNZ118_01767_TODO_03",""
 28,"TEXT_HEAVNZ118_01767_TODO_04",""
@@ -49,11 +49,25 @@ int32,str,str
 45,"TEXT_HEAVNZ118_01767_TODO_21",""
 46,"TEXT_HEAVNZ118_01767_TODO_22",""
 47,"TEXT_HEAVNZ118_01767_TODO_23",""
-48,"TEXT_HEAVNZ118_01767_JANTELLOT_000_000","Unnngh... My leg... That last dragon made quite a mess of it."
-49,"TEXT_HEAVNZ118_01767_JANTELLOT_000_001","Had it happened to anyone else, I daresay they'd have been made a meal of. Fortunately, I'm made of sterner stuff and got away with no more than a flesh wound to show for it."
-50,"TEXT_HEAVNZ118_01767_JANTELLOT_000_002","I'm keen to get back out there and hunt that bastard down, but I shan't be going anywhere until this leg heals up... Say, do you think you could fetch something for me?"
-51,"TEXT_HEAVNZ118_01767_JANTELLOT_000_003","The waters of Dragonspit are said to have healing properties. If I had some of that, I'd be back on my feet in no time. Take this bottle and fill it with water from that spring, would you?"
-52,"TEXT_HEAVNZ118_01767_JANTELLOT_000_010","Head up to Dragonspit and fetch me some of that renowned spring water. I can't stand to sit around here a moment longer!"
-53,"TEXT_HEAVNZ118_01767_JANTELLOT_100_020","Do you have that spring water? I need to get back out there. I'm sick of seeing those dragons strut about without a care in the realm!"
-54,"TEXT_HEAVNZ118_01767_JANTELLOT_000_020","Good, good. And not a moment too soon─I fear those dragons are starting to forget the taste of Ishgardian steel. After a few applications of this, I'll be ready to get back out there and give them a sharp reminder."
-55,"TEXT_HEAVNZ118_01767_JANTELLOT_000_021","They say this stuff is better than any potion. It's just as well, given how meager our supplies have been getting lately."
+48,"TEXT_HEAVNZ118_01767_JANTELLOT_000_000","イテテ……イテテテ……。
+……っと、情けないところを見せちまったな。
+ちっとばかし、ヘタを打っちまったのさ。"
+49,"TEXT_HEAVNZ118_01767_JANTELLOT_000_001","大物のドラゴン族を、運良く発見したまでは良かったが、
+仕留めそこなったうえに、手痛い反撃を食らってな。
+さっさと傷を治さんと、商売あがったりだ。"
+50,"TEXT_HEAVNZ118_01767_JANTELLOT_000_002","「ドラゴンスピット」に、温泉が湧く場所があるんだが……
+そこで、「<Sheet(EventItem,2001604,0)/>」を汲んできてもらえねえか？
+あそこの湯には、薬効があるっていうからな。"
+51,"TEXT_HEAVNZ118_01767_JANTELLOT_000_003","この「<Sheet(EventItem,2001603,0)/>」いっぱいに、
+汲んできてくれると助かるぜ。"
+52,"TEXT_HEAVNZ118_01767_JANTELLOT_000_010","「ドラゴンスピット」で、
+「<Sheet(EventItem,2001604,0)/>」を汲んできてくれよ。
+その「<Sheet(EventItem,2001603,0)/>」いっぱいにな！"
+53,"TEXT_HEAVNZ118_01767_JANTELLOT_100_020","「ドラゴンスピット」で、
+「<Sheet(EventItem,2001604,0)/>」を汲んできてくれよ。
+その「<Sheet(EventItem,2001603,0)/>」いっぱいにな！"
+54,"TEXT_HEAVNZ118_01767_JANTELLOT_000_020","おぉ、「<Sheet(EventItem,2001604,0)/>」じゃねぇか、助かったぜ！
+これさえありゃ、この程度の傷ならすぐに治らぁ。"
+55,"TEXT_HEAVNZ118_01767_JANTELLOT_000_021","この湯で傷を洗うと、治りが早まるって話でな。
+まぁ、生傷が絶えない「聖フィネア連隊」特有の知恵さ。
+助かったぜ、ありがとうよ。"

@@ -1,10 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANQIQ125_03830_SEQ_00","Qhoterl Pasol is on the lookout for uncommonly sturdy tools for uncommonly dangerous tasks.
+0,"TEXT_BANQIQ125_03830_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト受注クラス・ジョブ制限<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+※本クエストは受注時のクラスでのみ進行します。
 
-※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
-1,"TEXT_BANQIQ125_03830_SEQ_01","Deliver the requested supplies to Qhoterl Pasol."
+ホパル古盤のコテルリ・パソリは、道具の強度が気になるようだ。"
+1,"TEXT_BANQIQ125_03830_SEQ_01","コテルリ・パソリに依頼された品を納品"
 2,"TEXT_BANQIQ125_03830_SEQ_02",""
 3,"TEXT_BANQIQ125_03830_SEQ_03",""
 4,"TEXT_BANQIQ125_03830_SEQ_04",""
@@ -27,7 +28,7 @@ int32,str,str
 21,"TEXT_BANQIQ125_03830_SEQ_21",""
 22,"TEXT_BANQIQ125_03830_SEQ_22",""
 23,"TEXT_BANQIQ125_03830_SEQ_23",""
-24,"TEXT_BANQIQ125_03830_TODO_00","<If(Equal(IntegerParameter(4),16))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Mine a slab of splendid iron ore <Sheet(Addon,9,0)/> in the depths of Lake Tusi Mek'ta<Else/>Deliver the slab of splendid iron ore <Sheet(Addon,9,0)/> to Qhoterl Pasol</If><Else/><If(Equal(IntegerParameter(4),17))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Gather a bunch of splendid roots <Sheet(Addon,9,0)/> in the depths of Lake Tusi Mek'ta<Else/>Deliver the bunch of splendid roots <Sheet(Addon,9,0)/> to Qhoterl Pasol</If><Else/><If(Equal(IntegerParameter(4),18))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Catch a splendid diamondtongue at Lake Tusi Mek'ta<Else/>Deliver the splendid diamondtongue to Qhoterl Pasol</If><Else/></If></If></If>."
+24,"TEXT_BANQIQ125_03830_TODO_00","<If(Equal(IntegerParameter(4),16))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>トゥシ・メキタ湖の水中の岩場で<Sheet(Item,IntegerParameter(5),0)/>を砕岩<Else/>コテルリ・パソリに<Sheet(Item,IntegerParameter(5),0)/>を納品</If><Else/><If(Equal(IntegerParameter(4),17))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>トゥシ・メキタ湖の水中の草刈場で<Sheet(Item,IntegerParameter(5),0)/>を草刈<Else/>コテルリ・パソリに<Sheet(Item,IntegerParameter(5),0)/>を納品</If><Else/><If(Equal(IntegerParameter(4),18))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>トゥシ・メキタ湖で<Sheet(Item,IntegerParameter(5),0)/>を釣る<Else/>コテルリ・パソリに<Sheet(Item,IntegerParameter(5),0)/>を納品</If><Else/></If></If></If>"
 25,"TEXT_BANQIQ125_03830_TODO_01",""
 26,"TEXT_BANQIQ125_03830_TODO_02",""
 27,"TEXT_BANQIQ125_03830_TODO_03",""
@@ -51,16 +52,41 @@ int32,str,str
 45,"TEXT_BANQIQ125_03830_TODO_21",""
 46,"TEXT_BANQIQ125_03830_TODO_22",""
 47,"TEXT_BANQIQ125_03830_TODO_23",""
-48,"TEXT_BANQIQ125_03830_QHOTERLPASOL_000_000","As we dig deeper underground, we encounter ever more boulders obstructing our path. We must now refine our tools─reinforce them to withstand these harsh environs and those harsher still to come. I'd owe you a great debt indeed if you were to aid me in gathering the materials I need to do so. "
-49,"TEXT_BANQIQ125_03830_QHOTERLPASOL_000_001","In the waters of Lake Tusi Mek'ta you can mine a splendid iron ore, which should do nicely in improving our pickaxes. Take care, however, as you may find things more vicious than rocks barring your way!"
-50,"TEXT_BANQIQ125_03830_QHOTERLPASOL_000_002","In the waters of Lake Tusi Mek'ta you can find bunches of sturdy roots, which should come in handy when we have to haul material out of the caves. Take care, however, as you may find things more vicious than rocks barring your way!"
-51,"TEXT_BANQIQ125_03830_QHOTERLPASOL_000_003","In the waters of Lake Tusi Mek'ta you can catch the diamondtongue, whose scales can withstand the most extreme elemental stresses. Take care, however, as you may find things more vicious than rocks barring your way!"
-52,"TEXT_BANQIQ125_03830_QHOTERLPASOL_000_004","Remember, I need some of that oh-so-splendid iron ore from Lake Tusi Mek'ta. Safe mining, my friend!"
-53,"TEXT_BANQIQ125_03830_QHOTERLPASOL_000_005","Remember, I need a bunch of roots from the floor of Lake Tusi Mek'ta. Safe gathering, my friend!"
-54,"TEXT_BANQIQ125_03830_QHOTERLPASOL_000_006","Remember, I need a diamondtongue from the depths of Lake Tusi Mek'ta. I pray you don't fish up something you shouldn't have!"
-55,"TEXT_BANQIQ125_03830_QHOTERLPASOL_000_010","Ah, it's good to see you returned! Seeing as you have all your limbs and various extremities, I take it you were able to obtain the items I requested?"
-56,"TEXT_BANQIQ125_03830_QHOTERLPASOL_000_011","Splendid! With ore of this quality, I'll be able to construct pickaxes that are nigh indestructible─I daresay they'll last longer than our expedition will! "
-57,"TEXT_BANQIQ125_03830_QHOTERLPASOL_000_012","Splendid! These sturdy roots will make the perfect rope─strong enough to withstand the weight of even the most enormous boulders."
-58,"TEXT_BANQIQ125_03830_QHOTERLPASOL_000_013","Splendid! The scales of the diamondtongue are as enchanting as they are robust. With these I can make boots that will let us traverse the most rugged terrain with ease."
-59,"TEXT_BANQIQ125_03830_QHOTERLPASOL_000_014","These new tools will ensure that our younglings survive to dig well until their twilight years, should the need arise─perhaps they'll even pass them down to their children!"
-60,"TEXT_BANQIQ125_03830_SYSTEM_000_020","Normal-quality items gathered in the course of this quest serve no purpose and cannot be sold. It is recommended that you discard them."
+48,"TEXT_BANQIQ125_03830_QHOTERLPASOL_000_000","地下深くへと発掘が進むにつれ、環境も厳しくなって参りました～。
+専用の発掘道具がないと、進行が困難になることでしょ～。
+頑丈な道具を作るための素材を、採ってきてくださいましな～！"
+49,"TEXT_BANQIQ125_03830_QHOTERLPASOL_000_001","トゥシ・メキタ湖の水中で、
+「<Sheet(ItemHQ,29535,0)/>」が採れるはずでございまする～。
+安全な発掘作業のため、どうかよろしくお願いいたしまする～！"
+50,"TEXT_BANQIQ125_03830_QHOTERLPASOL_000_002","トゥシ・メキタ湖の水中で、
+「<Sheet(ItemHQ,29561,0)/>」が採集できるはずでございまする～。
+安全な発掘作業のため、どうかよろしくお願いいたしまする～！"
+51,"TEXT_BANQIQ125_03830_QHOTERLPASOL_000_003","トゥシ・メキタ湖に、<Sheet(Item,27582,0)/>で釣れる、
+「<Sheet(Item,29587,0)/>」が生息しておりまする～。
+安全な発掘作業のため、どうかよろしくお願いいたしまする～！"
+52,"TEXT_BANQIQ125_03830_QHOTERLPASOL_000_004","トゥシ・メキタ湖の水中で、
+「<Sheet(ItemHQ,29535,0)/>」が採れるはずでございまする～。
+安全な発掘作業のため、どうかよろしくお願いいたしまする～！"
+53,"TEXT_BANQIQ125_03830_QHOTERLPASOL_000_005","トゥシ・メキタ湖の水中で、
+「<Sheet(ItemHQ,29561,0)/>」が採集できるはずでございまする～。
+安全な発掘作業のため、どうかよろしくお願いいたしまする～！"
+54,"TEXT_BANQIQ125_03830_QHOTERLPASOL_000_006","トゥシ・メキタ湖に、<Sheet(Item,27582,0)/>で釣れる、
+「<Sheet(Item,29587,0)/>」が生息しておりまする～。
+安全な発掘作業のため、どうかよろしくお願いいたしまする～！"
+55,"TEXT_BANQIQ125_03830_QHOTERLPASOL_000_010","おつかれさまでございまする～。
+発掘道具用の素材は、調達していただけましたでしょか～？"
+56,"TEXT_BANQIQ125_03830_QHOTERLPASOL_000_011","ありがとうございまする～！
+これだけ大きくて質の良い硬鉄鉱であれば、
+ちょっとやそっとでは壊れぬ、頑丈なピックが作れましょ～！"
+57,"TEXT_BANQIQ125_03830_QHOTERLPASOL_000_012","ありがとうございまする～！
+これだけしっかりした質の良い樹根であれば、
+どんな重いものを括ってもほつれぬ、丈夫なロープが作れましょ～！"
+58,"TEXT_BANQIQ125_03830_QHOTERLPASOL_000_013","ありがとうございまする～！
+これだけ立派な鱗を持ったダイヤモンドアロワナであれば、
+どんな足場を歩いても壊れぬ、丈夫なブーツが作れましょ～！"
+59,"TEXT_BANQIQ125_03830_QHOTERLPASOL_000_014","小さなうちの子も、新しい道具があれば、
+難所を切り抜けて無事に帰還してくれることでございましょ～。
+発掘隊の帰りを待つ身としましては、一安心でございまする～！"
+60,"TEXT_BANQIQ125_03830_SYSTEM_000_020","本クエストで採取した「NQアイテム」を所持しています。
+このアイテムは、使用することはありません。
+売却もできませんので、不用でしたら破棄してください。"

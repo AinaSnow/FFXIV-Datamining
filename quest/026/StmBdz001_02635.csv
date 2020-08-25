@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ001_02635_SEQ_00","Beves is certain he has seen you somewhere before."
+0,"TEXT_STMBDZ001_02635_SEQ_00","ラールガーズリーチのベヴスは、この時代の動乱を後世に伝えたいようだ。"
 1,"TEXT_STMBDZ001_02635_SEQ_01",""
 2,"TEXT_STMBDZ001_02635_SEQ_02",""
 3,"TEXT_STMBDZ001_02635_SEQ_03",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_STMBDZ001_02635_SEQ_21",""
 22,"TEXT_STMBDZ001_02635_SEQ_22",""
 23,"TEXT_STMBDZ001_02635_SEQ_23",""
-24,"TEXT_STMBDZ001_02635_TODO_00","Question the people of Rhalgr's Reach."
-25,"TEXT_STMBDZ001_02635_TODO_01","Return the well-worn log to Beves."
+24,"TEXT_STMBDZ001_02635_TODO_00","闘士と話す"
+25,"TEXT_STMBDZ001_02635_TODO_01","ベヴスに<Sheet(EventItem,2002076,0)/>を渡す"
 26,"TEXT_STMBDZ001_02635_TODO_02",""
 27,"TEXT_STMBDZ001_02635_TODO_03",""
 28,"TEXT_STMBDZ001_02635_TODO_04",""
@@ -49,20 +49,53 @@ int32,str,str
 45,"TEXT_STMBDZ001_02635_TODO_21",""
 46,"TEXT_STMBDZ001_02635_TODO_22",""
 47,"TEXT_STMBDZ001_02635_TODO_23",""
-48,"TEXT_STMBDZ001_02635_BEVES_000_000","I-I-I beg your pardon? The <If(PlayerParameter(4))>woman<Else/>man</If> who bested Gaius van Baelsar wishes to offer me <If(PlayerParameter(4))>her<Else/>his</If> assistance!?"
-49,"TEXT_STMBDZ001_02635_BEVES_000_001","I say, this is highly irregular...though I have heard it said you had a penchant for aiding the common man. In which case..."
-50,"TEXT_STMBDZ001_02635_BEVES_000_002","Before the occupation I was a humble historian. While my duties leave me scarce time for aught else, I think it important that these momentous events be recorded for the benefit of future generations."
-51,"TEXT_STMBDZ001_02635_BEVES_000_003","Primary sources are indispensable, and I had a mind to question a number of my fellow freedom fighters─ask them their motivations for taking up this cause and so forth."
-52,"TEXT_STMBDZ001_02635_BEVES_000_004","You may take down their statements in this log. And...<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>...thank you for your service. Now and ever after."
-53,"TEXT_STMBDZ001_02635_BEVES_000_005","It matters not what their reasons are, only that they are honest and forthright. This is for posterity's sake, after all."
-54,"TEXT_STMBDZ001_02635_HROTMAR_000_010","Why'd I join the Resistance? Well, if you must know...it was to avenge a friend the imperials butchered before my very eyes, back in Ala Mhigo."
-55,"TEXT_STMBDZ001_02635_HROTMAR_000_011","We owned a stall in the markets, and a passing soldier snatched up a piece of fruit. He spoke out before I could stop him, only to get a fulm of steel in the gut for his troubles. I found my way here, and that was that."
-56,"TEXT_STMBDZ001_02635_ORELLA_000_012","Why? Why indeed... To save lives, perhaps. Or to make amends for the ones I couldn't."
-57,"TEXT_STMBDZ001_02635_ORELLA_000_013","My father and my brothers were worked to death while building a castrum. What did it matter to the Garleans, eh? More where that lot came from. After that, I couldn't keep on doing nothing."
-58,"TEXT_STMBDZ001_02635_HUGHOC_000_014","Hm? Aren't you the eikon-slayer? Damned if I know why you'd bother asking someone like me why I joined the Resistance, but it's simple: if I wasn't fighting for Ala Mhigo, I'd be fighting for the Empire."
-59,"TEXT_STMBDZ001_02635_HUGHOC_000_015","You're either with 'em or not, and if you're with 'em, you may as well make the most of it. Food, training, citizenship if you live long enough. You'll die stealing someone else's land, like as not, but that's the choice. But me? I'd rather die here."
-60,"TEXT_STMBDZ001_02635_AHELISSA_000_016","I was just a cook before all this. Simple fare, really. Had a chance to lend a hand and help feed some refugees one day..."
-61,"TEXT_STMBDZ001_02635_AHELISSA_000_017","I took a liking to the fighters. They...believed, you know? And there's always a need for cooks─or at least people who can work with whatever the foraging parties turn up..."
-62,"TEXT_STMBDZ001_02635_BEVES_000_030","Well met, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Have you spoken with the freedom fighters as I asked?"
-63,"TEXT_STMBDZ001_02635_BEVES_000_031","Hmm... As fascinating as they are varied... You have a knack for convincing others to bare their hearts to you. I could not have done better myself."
-64,"TEXT_STMBDZ001_02635_BEVES_000_032","Many years from now, when these tempestuous times pass into memory, their accounts will serve as a window into the struggle. We must never forget, my friend. Never."
+48,"TEXT_STMBDZ001_02635_BEVES_000_000","えっ、私をお手伝いいただけると？
+漆黒の王狼ガイウス・ヴァン・バエサルを退けた、
+英雄である貴方に……そんな……恐縮すぎます！"
+49,"TEXT_STMBDZ001_02635_BEVES_000_001","いや……ちょっと待ってください……。
+ひとつ貴方に、お願いしたいことがありました。"
+50,"TEXT_STMBDZ001_02635_BEVES_000_002","実は私、帝国による侵攻以前は、歴史家をしていまして……。
+今でも時間を見つけては、この動乱を後世に伝えようと、
+筆を取っているのです。"
+51,"TEXT_STMBDZ001_02635_BEVES_000_003","その一助として、ラールガーズリーチの闘士たちから、
+解放軍に参加した理由を聞き、書き集めていただけませんか？
+貴方が相手なら、本音を語ってくれると思うのですよ。"
+52,"TEXT_STMBDZ001_02635_BEVES_000_004","「<Sheet(EventItem,2002076,0)/>」をお渡ししますので、
+こちらに、聞いた内容を記していただければと……。
+どうか、よろしくお願いします。"
+53,"TEXT_STMBDZ001_02635_BEVES_000_005","解放軍の皆から、参加を決めた動機について聞き、
+お渡しした「<Sheet(EventItem,2002076,0)/>」に、
+記していただければと思います。"
+54,"TEXT_STMBDZ001_02635_HROTMAR_000_010","俺が解放軍にいる理由？
+……帝国兵に殺された、友人の仇を取るためさ。
+当時、俺と友人はアラミゴ市街地で露天商をしていてな。"
+55,"TEXT_STMBDZ001_02635_HROTMAR_000_011","果物を持ち去ろうとした帝国兵を咎めただけで、
+友人は反逆者の烙印を押され、その場でバッサリさ。
+そんな横暴、許せるものかよ！？"
+56,"TEXT_STMBDZ001_02635_ORELLA_000_012","従軍した動機を知りたいと？
+犠牲者をひとりでも減らすため……
+いえ、違いますね……罪滅ぼしなのかもしれません。"
+57,"TEXT_STMBDZ001_02635_ORELLA_000_013","父も、兄も、弟も……私は、誰ひとり救えなかった。
+皆、帝国軍の拠点を作るための強制労働の最中に死んだのです。
+だからせめて、自由のために戦う誰かを助けたいのですよ。"
+58,"TEXT_STMBDZ001_02635_HUGHOC_000_014","噂の英雄に、声をかけられるとはな！
+いいぜ、解放軍に参加した理由くらい話してやるさ。
+話は単純、帝国軍の強制徴募から逃げてきたのさ。"
+59,"TEXT_STMBDZ001_02635_HUGHOC_000_015","帝国軍は、市民権を持たない若者を、
+無理矢理に異国へ連れ去って、兵隊にしちまうんだよ。
+どうせ命がけで戦うなら、祖国の自由のためってなもんさ！"
+60,"TEXT_STMBDZ001_02635_AHELISSA_000_016","解放軍に協力を決めた動機ですって？
+もともと、私は料理人で、
+最初は炊き出しのお手伝いをしているだけだったの。"
+61,"TEXT_STMBDZ001_02635_AHELISSA_000_017","けれど、闘士たちと話をして事情を知っていくうちに、
+もっと力になりたい……と、心から思うようになったの。
+それで、解放軍の一員になったのよ。"
+62,"TEXT_STMBDZ001_02635_BEVES_000_030","いかがでしょう？
+皆が解放軍に協力することを決めた動機を、
+<Sheet(EventItem,2002076,0)/>に、記していただけましたか？"
+63,"TEXT_STMBDZ001_02635_BEVES_000_031","どれどれ……なるほど……
+私が見聞きしたのとは違う声が、散見されますね。
+やはり、貴方にお願いして正解でした、ありがとうございます。"
+64,"TEXT_STMBDZ001_02635_BEVES_000_032","今このときも続く、帝国軍との戦いが避けられぬものとしても、
+歴史を正しく記すことで、未来の過ちを正すことができれば……。
+そんな願いを込めて、闘士たちの声を後世に伝えたいと思います。"

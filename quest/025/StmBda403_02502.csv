@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDA403_02502_SEQ_00","Cirina knows where you might find Lord Hien."
-1,"TEXT_STMBDA403_02502_SEQ_01","Your search for the missing heir of Doma on the Azim Steppe has led you to Cirina, a young woman of the Mol tribe. Long ago, guided by a vision received by her grandmother, she ventured into the southern mountains and there found Hien, near death. Cirina brought the Doman lord to her village, where they nursed him back to health, and there he has remained ever since, until such time as he can repay his debt to them. He often accompanies her to Reunion, though he has a habit of frequenting a spot atop the cliff to the east of the marketplace..."
-2,"TEXT_STMBDA403_02502_SEQ_02","At long last you come face–to–face with the young heir to Doma's throne, who greets you as a friend. Yet even after you tell him of Doma's rekindled spirits, he states that he cannot go home─not until he has won the ceremonial battle known as the Naadam and thereby earned the right to bid the Xaela follow him to Doma. A daunting task, by any measure, but likely a necessary one, given the Liberation Front's depleted forces. Reluctantly, Yugiri departs to deliver the news to your comrades in the south, leaving you, Lyse, and Gosetsu to assist Lord Hien in his bold endeavor."
-3,"TEXT_STMBDA403_02502_SEQ_03","Being a man who puts great store by honor and respect, Hien thanks you once more for your many deeds in service to Doma. But he recognizes that you are also a practical <If(PlayerParameter(4))>woman<Else/>man</If>, disinclined to listen to long speeches and flowery words, and would gladly tell you more of his plan to win the Naadam."
+0,"TEXT_STMBDA403_02502_SEQ_00","再会の市のシリナは、ヒエンの行方について教えてくれるようだ。"
+1,"TEXT_STMBDA403_02502_SEQ_01","再会の市でヒエンの手がかりを探したところ、彼を知るモル族のシリナに出会った。シリナの買い物に協力したことで、ついにヒエンの居場所を知った冒険者たち。再会の市周辺で「ヒエン」を探そう。"
+2,"TEXT_STMBDA403_02502_SEQ_02","ヒエンを見つけた。彼は終節の合戦に参加し、アジムステップのアウラ族たちを仲間に引き入れるつもりのようだ。再会の市付近の「ヒエン」と話そう。"
+3,"TEXT_STMBDA403_02502_SEQ_03","ヒエンから、ドマ奪還を目指すひとりの同志として、ともに戦いたいと申し入れられた。力を合わせ、彼の言った驚天動地の大革命を成し遂げてみせよう！"
 4,"TEXT_STMBDA403_02502_SEQ_04",""
 5,"TEXT_STMBDA403_02502_SEQ_05",""
 6,"TEXT_STMBDA403_02502_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_STMBDA403_02502_SEQ_21",""
 22,"TEXT_STMBDA403_02502_SEQ_22",""
 23,"TEXT_STMBDA403_02502_SEQ_23",""
-24,"TEXT_STMBDA403_02502_TODO_00","Search for Hien."
-25,"TEXT_STMBDA403_02502_TODO_01","Speak with Hien."
+24,"TEXT_STMBDA403_02502_TODO_00","ヒエンを探す"
+25,"TEXT_STMBDA403_02502_TODO_01","ヒエンと話す"
 26,"TEXT_STMBDA403_02502_TODO_02",""
 27,"TEXT_STMBDA403_02502_TODO_03",""
 28,"TEXT_STMBDA403_02502_TODO_04",""
@@ -49,19 +49,43 @@ int32,str,str
 45,"TEXT_STMBDA403_02502_TODO_21",""
 46,"TEXT_STMBDA403_02502_TODO_22",""
 47,"TEXT_STMBDA403_02502_TODO_23",""
-48,"TEXT_STMBDA403_02502_LYSE_000_000","I like a good fight as much as anyone, but we should probably find Hien and head back to Doma as soon as we can."
-49,"TEXT_STMBDA403_02502_YUGIRI_000_005","The people have spoken, and Lord Hien will heed their words. He must."
-50,"TEXT_STMBDA403_02502_GOSETSU_000_010","If she knows where Lord Hien is, then what are you waiting for? Ask her!"
-51,"TEXT_STMBDA403_02502_CIRINA_000_020","Long ago, my grandmother, having received a vision from the gods, bade me go forth into the southern mountains. It was there that I found Hien, near death from many wounds."
-52,"TEXT_STMBDA403_02502_CIRINA_000_021","I brought him to our village, and there we nursed him back to health. Afterwards, he chose to remain, that he might repay us for our kindness."
-53,"TEXT_STMBDA403_02502_CIRINA_000_022","Domans set much store by honor and shame, so at first I did not question it..."
-54,"TEXT_STMBDA403_02502_CIRINA_000_023","Excuse me. If I could see your map for a moment... Here─he has grown fond of this place. It affords him a view of the markets and the Steppe."
-55,"TEXT_STMBDA403_02502_CIRINA_000_024","I would accompany you, but I must return to our village to prepare my grandmother's meal. Thank you again for your assistance!"
-56,"TEXT_STMBDA403_02502_YUGIRI_000_025","Our long-awaited reunion is at hand! Come, my friends─let us go and greet our lord and master!"
-57,"TEXT_STMBDA403_02502_LYSE_000_030","He's a lot more...straightforward than I expected? And he's certainly not short on confidence."
-58,"TEXT_STMBDA403_02502_LYSE_000_031","But maybe that's the kind of leader Doma needs if they're going to beat these odds. And hey─we've come this far, haven't we? Who's to say we can't go even further?"
-59,"TEXT_STMBDA403_02502_GOSETSU_000_040","Has he truly recovered from his wounds, I wonder? I believe a match may be in order..."
-60,"TEXT_STMBDA403_02502_HIEN_000_050","<Highlight>ObjectParameter(1)</Highlight>, was it? Once again, allow me to thank you for your many deeds in service to Doma."
-61,"TEXT_STMBDA403_02502_HIEN_000_051","For twenty-five years did my father rule in name only. My rule─if one would deign to call it that─has been naught in comparison."
-62,"TEXT_STMBDA403_02502_HIEN_000_052","That changes now. We have a purpose and a plan, and after we take to the battlefield together, we will have victory as well."
-63,"TEXT_STMBDA403_02502_HIEN_000_053","But you are a practical <If(PlayerParameter(4))>woman<Else/>man</If>. I can tell. Disinclined to trust in words when actions speak truer. I can relate..."
+48,"TEXT_STMBDA403_02502_LYSE_000_000","アウラ・ゼラの「合戦」も興味深いけど、
+まずはヒエンに会わなくちゃね。"
+49,"TEXT_STMBDA403_02502_YUGIRI_000_005","イッセたちが見せてくれた、揺るぎない覚悟……
+きちんとヒエン様に伝えられるだろうか。"
+50,"TEXT_STMBDA403_02502_GOSETSU_000_010","さあさあ、若の話を聞かせてくれぃ！"
+51,"TEXT_STMBDA403_02502_CIRINA_000_020","では、順を追ってお話ししますね。
+ずいぶん前に、祖母の言いつけで南の山間を見に行った私は、
+傷だらけのヒエンさんを見つけました。"
+52,"TEXT_STMBDA403_02502_CIRINA_000_021","連れ帰って手当てをし、今ではよくなられたのですが……
+彼は恩を返すと言って、働き手として残ってくれています。"
+53,"TEXT_STMBDA403_02502_CIRINA_000_022","本当にそれだけの理由なのかは、私にはわかりません……。
+ですから、直接お話ししてみてください。"
+54,"TEXT_STMBDA403_02502_CIRINA_000_023","ヒエンさんとは、この市まで一緒に来たんです。
+今頃は、お気に入りの場所にいると思うので、
+地図に印をつけますね。"
+55,"TEXT_STMBDA403_02502_CIRINA_000_024","……あっ、ついでですみませんが、ヒエンさんに、
+食事の支度があるから先に戻るとお伝えください。
+それでは……キンサイの件、ありがとうございました！"
+56,"TEXT_STMBDA403_02502_YUGIRI_000_025","ついに、このときがきた……。
+ゆくぞ、ヒエン様のもとへ！
+我らと民の想いを告げ、ドマ解放のためお戻りいただこう！"
+57,"TEXT_STMBDA403_02502_LYSE_000_030","……驚いたよ。
+みんながあれだけ諦めかけてたドマ奪還を、
+こんなに迷いなく口にする人がいるなんて。"
+58,"TEXT_STMBDA403_02502_LYSE_000_031","それを、無謀だとは思わない……不可能になんてしたくない。
+海賊衆にも、ナマイ村でも、そう約束したんだ。
+だからアタシも、めいっぱい協力する！"
+59,"TEXT_STMBDA403_02502_GOSETSU_000_040","まったく、若は大きくでられたものだ。
+それに見合う力があるか、怪我の癒え具合はどうか、
+おいおい試させてもらわねばな！"
+60,"TEXT_STMBDA403_02502_HIEN_000_050","改めて……わしの名は、ヒエン。
+ドマの国主を務めてきた一族の、現当主だ。"
+61,"TEXT_STMBDA403_02502_HIEN_000_051","しかし、知ってのとおり、ドマは帝国の属州になって久しい。
+わし自身も、先の反乱で父上が亡くなったことにより、
+なしくずしで当主を継いだ若造だ。"
+62,"TEXT_STMBDA403_02502_HIEN_000_052","ゆえに、今はただ、
+ドマ奪還を目指す、ひとりの同志と思ってはくれんか。
+そなたと同じ戦場に立ち、ともに戦ってゆきたい。"
+63,"TEXT_STMBDA403_02502_HIEN_000_053","……と、口でいうより、態度で見せねばな！
+よい風も吹いている、さっそく行くとするか！"

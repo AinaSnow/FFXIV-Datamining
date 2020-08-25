@@ -1,12 +1,16 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_FESHLW403_03013_SEQ_00","An investigator for the Adventurers' Guild has a lingering worry on his mind.
-※This quest is available for a limited time only."
-1,"TEXT_FESHLW403_03013_SEQ_01","The Adventurers' Guild investigator has recently heard that the preparations for the Continental Circus's haunted manor are now complete. Admittedly, given the failure of the troupe's plans in stoking the fears of the populace, this development is of less concern than before, but if you have a mind to investigate, a certain illusionist can tell you more.
+0,"TEXT_FESHLW403_03013_SEQ_00","※本クエストは、期間限定のクエストとなります。
 
-※Please note that you will be unable to complete this quest after the seasonal event has ended. For details, please check the Lodestone."
-2,"TEXT_FESHLW403_03013_SEQ_02","Though exhausted from having to distribute guises of the werewolf to the public day and night, the illusionist is pleased to confirm that the haunted manor is indeed now open to the public. Should you wish to experience the manor's “amusements” for yourself, you need only seek out one the troupe's harlequin guides."
+グリダニアの冒険者ギルドの調査員は、冒険者に知らせたいことがあるようだ。"
+1,"TEXT_FESHLW403_03013_SEQ_01","※本クエストは、シーズナルイベント開催中にかぎり、
+　受注、進行できます。
+　開催期間終了後は進行できませんので、ご注意ください。
+　期間等の詳細についてはLodestoneをご覧ください。
+
+冒険者ギルドの調査員から、屋敷で行われる「フシギな舞踏会」の準備ができたとの噂を聞いた。ミィ・ケット野外音楽堂の妖艶な奇術師から詳しい話を聞こう。"
+2,"TEXT_FESHLW403_03013_SEQ_02","妖艶な奇術師と話した。どうやら、フシギな舞踏会の準備が終わったらしい。グリダニアの旧市街のミィ・ケット野外音楽堂、もしくは新市街のどんぐり遊園にいる「案内役の道化師」に話しかけると、「亡霊屋敷 ホーンテッドマナー」に参加できるようだ。"
 3,"TEXT_FESHLW403_03013_SEQ_03",""
 4,"TEXT_FESHLW403_03013_SEQ_04",""
 5,"TEXT_FESHLW403_03013_SEQ_05",""
@@ -28,7 +32,7 @@ int32,str,str
 21,"TEXT_FESHLW403_03013_SEQ_21",""
 22,"TEXT_FESHLW403_03013_SEQ_22",""
 23,"TEXT_FESHLW403_03013_SEQ_23",""
-24,"TEXT_FESHLW403_03013_TODO_00","Speak with the uncanny illusionist."
+24,"TEXT_FESHLW403_03013_TODO_00","妖艶な奇術師と話す"
 25,"TEXT_FESHLW403_03013_TODO_01",""
 26,"TEXT_FESHLW403_03013_TODO_02",""
 27,"TEXT_FESHLW403_03013_TODO_03",""
@@ -52,16 +56,40 @@ int32,str,str
 45,"TEXT_FESHLW403_03013_TODO_21",""
 46,"TEXT_FESHLW403_03013_TODO_22",""
 47,"TEXT_FESHLW403_03013_TODO_23",""
-48,"TEXT_FESHLW403_03013_INVESTIGATOR03011_000_000","Ah, yes. I heard from the illusionist that the preparations for the haunted manor are finally complete."
-49,"TEXT_FESHLW403_03013_INVESTIGATOR03011_000_001","This too is but a means to a nefarious end, another method by which the Continental Circus plots to stoke the fears of the populace...but since no one seems to be particularly frightened of the werewolf costumes, maybe there's no need to worry."
-50,"TEXT_FESHLW403_03013_INVESTIGATOR03011_000_002","Anyway, if you've a mind to look into the haunted manor, you can go and speak with the illusionist yourself."
-51,"TEXT_FESHLW403_03013_WITCH03012_000_005","I will be happy to tell you all about the manor and its many amusements in a short while, my dear adventurer. But first, I must take a brief rest. Distributing guises of the werewolf all day can be quite exhausting, you know."
-52,"TEXT_FESHLW403_03013_WITCH03012_000_010","Oh, it's you! The adventurer to whom we owe so very, very much! I've barely had time to breathe what with all the people clamoring for guises of the werewolf."
-53,"TEXT_FESHLW403_03013_WITCH03012_000_011","But, more importantly, you will be pleased to hear that our haunted manor is now open to the public!"
-54,"TEXT_FESHLW403_03013_WITCH03012_000_012","Before you enter, however, you would do well to learn more of the various <Emphasis>amusements</Emphasis> that await you inside. One of our harlequin guides would be happy to assist you."
-55,"TEXT_FESHLW403_03013_WITCH03012_000_013","And when you have mustered your courage and are ready to brave the manor, you need only let them know!"
-56,"TEXT_FESHLW403_03013_WITCH03012_000_014","Much as I would love to lead you there myself, duty calls. The people yearn to dress themselves as wolves, and we must do our utmost to oblige them. Take care!"
-57,"TEXT_FESHLW403_03013_SYSTEM_000_015","You now have access to the Haunted Manor seasonal instance. To enter the manor, speak with the harlequin guide in either Mih Khetto's Amphitheatre or the Acorn Orchard."
-58,"TEXT_FESHLW403_03013_SYSTEM_000_016","The Haunted Manor is a light party instance (four players). There are no class, job, or level requirements for participation."
-59,"TEXT_FESHLW403_03013_SYSTEM_000_017","Parties that register for the instance with less than four members will be filled out automatically via the matching system."
-60,"TEXT_FESHLW403_03013_INVESTIGATOR03011_000_025","Be my guest if you want to explore the manor, but I'm happy to leave it well enough alone, if it's all the same to you."
+48,"TEXT_FESHLW403_03013_INVESTIGATOR03011_000_000","そうだ、奇術師の話を伝え聞いたのですが、
+そろそろ「フシギな舞踏会」の準備が終わるようです。"
+49,"TEXT_FESHLW403_03013_INVESTIGATOR03011_000_001","もちろんこの舞踏会も、コンチネンタル・サーカスの魔物たちが、
+恐怖の力を集めるために催すものなのですが……。
+驚きに慣れた今の市民たちなら、参加しても問題ないでしょう。"
+50,"TEXT_FESHLW403_03013_INVESTIGATOR03011_000_002","舞踏会に興味がおありでしたら、
+ミィ・ケット野外音楽堂に行けばいいようですよ。
+そこで「妖艶な奇術師」が、説明を行っているとのことです。"
+51,"TEXT_FESHLW403_03013_WITCH03012_000_005","あら、冒険者さま。
+まもなく、舞踏会への案内を始めますが、少々お待ちくださいね。
+仮装衣装を配り疲れたので、休憩したいんです……。"
+52,"TEXT_FESHLW403_03013_WITCH03012_000_010","あら、冒険者さま！
+アナタの宣伝のせいで……いえ、おかげで、
+息をつく暇もないほど、大忙しですよ！"
+53,"TEXT_FESHLW403_03013_WITCH03012_000_011","ですが、やっと舞踏会の準備が終わりましたの！
+この世のものとは思えないほどフシギで、
+楽しい楽しい舞踏会ですよ！"
+54,"TEXT_FESHLW403_03013_WITCH03012_000_012","館内ではトクベツな余興もご用意していますので、
+「案内役の道化師」に詳しいルールを聞いてから、
+向かわれることをオススメしますよ！"
+55,"TEXT_FESHLW403_03013_WITCH03012_000_013","屋敷でのフシギな舞踏会に参加したかったら、
+「案内役の道化師」にその旨を伝えてくださいね！
+会場まで、案内いたしますのでっ！"
+56,"TEXT_FESHLW403_03013_WITCH03012_000_014","それでは、ワタクシはこれにて……。
+体験入団を希望される方が、まだ増えそうですので、
+ウルフの仮装衣装を補充しないといけませんから……。"
+57,"TEXT_FESHLW403_03013_SYSTEM_000_015","「亡霊屋敷 ホーンテッドマナー」に挑戦できるようになりました！
+ミィ・ケット野外音楽堂か、新市街のどんぐり遊園にいる、
+「案内役の道化師」に話しかけることで、参加できます。"
+58,"TEXT_FESHLW403_03013_SYSTEM_000_016","「亡霊屋敷 ホーンテッドマナー」は、
+4人パーティで攻略するコンテンツです。
+ファイター・ソーサラー・レベルに関わらず、参加できます。"
+59,"TEXT_FESHLW403_03013_SYSTEM_000_017","3人以下のパーティを組んだ状態で参加申請した場合は、
+不足人数分がマッチングで補充され、突入することができます。"
+60,"TEXT_FESHLW403_03013_INVESTIGATOR03011_000_025","舞踏会に興味がおありでしたら、
+ミィ・ケット野外音楽堂に行けばいいようですよ。
+そこで「妖艶な奇術師」が、説明を行っているとのことです。"

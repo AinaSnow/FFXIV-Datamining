@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ801_02829_SEQ_00","Gerbod is looking to return to his craft."
+0,"TEXT_STMBDZ801_02829_SEQ_00","アラギリのゲルボッドは、凄腕の冒険者を探しているようだ。"
 1,"TEXT_STMBDZ801_02829_SEQ_01",""
 2,"TEXT_STMBDZ801_02829_SEQ_02",""
 3,"TEXT_STMBDZ801_02829_SEQ_03",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_STMBDZ801_02829_SEQ_21",""
 22,"TEXT_STMBDZ801_02829_SEQ_22",""
 23,"TEXT_STMBDZ801_02829_SEQ_23",""
-24,"TEXT_STMBDZ801_02829_TODO_00","Search for worn artisan's tools."
-25,"TEXT_STMBDZ801_02829_TODO_01","Deliver the worn artisan's tools to Gerbod."
+24,"TEXT_STMBDZ801_02829_TODO_00","箱や樽から<Sheet(EventItem,2002345,0)/>を探す"
+25,"TEXT_STMBDZ801_02829_TODO_01","ゲルボッドに<Sheet(EventItem,2002345,0)/>を渡す"
 26,"TEXT_STMBDZ801_02829_TODO_02",""
 27,"TEXT_STMBDZ801_02829_TODO_03",""
 28,"TEXT_STMBDZ801_02829_TODO_04",""
@@ -49,18 +49,35 @@ int32,str,str
 45,"TEXT_STMBDZ801_02829_TODO_21",""
 46,"TEXT_STMBDZ801_02829_TODO_22",""
 47,"TEXT_STMBDZ801_02829_TODO_23",""
-48,"TEXT_STMBDZ801_02829_GERBOD_000_000","Well, you've the look of a capable <If(PlayerParameter(4))>lass<Else/>lad</If> who don't blink in the face o' danger. Might you be willin' to help a man down on his luck?"
-49,"TEXT_STMBDZ801_02829_GERBOD_000_001","I used to be a carpenter, you see, an' I made my livin' fixin' the wagons of all the caravans what used to pass through Ala Ghiri. When the Garleans took over, the merchants fled, along with all my business."
-50,"TEXT_STMBDZ801_02829_GERBOD_000_002","I did what I could to make ends meet after that, but now that we're free o' those imperial dogs, I'd like to dust off my tools an' do what I can to help the resistance."
-51,"TEXT_STMBDZ801_02829_GERBOD_000_003","Trouble is, my tools aren't here─I hid them away at Goodblade, or what's left of it. I'd go myself, but the place has been overrun with all manner of unsightly creatures. I'd never make it out o' there alive."
-52,"TEXT_STMBDZ801_02829_GERBOD_000_004","That's where you come in. I want you to check the crates there an' bring back any o' my tools you can find. I'm countin' on you."
-53,"TEXT_STMBDZ801_02829_GERBOD_000_005","I hid my tools all over, so I'm afraid you'll have to do a bit o' searchin'. At the time I thought it a good idea not to put all my eggs─or I guess in this case, my tools─in one basket."
-54,"TEXT_STMBDZ801_02829_SYSTEM_000_010","You find a worn artisan's tool inside the splintered crate."
-55,"TEXT_STMBDZ801_02829_SYSTEM_000_011","You find a worn artisan's tool inside the rotting barrel."
-56,"TEXT_STMBDZ801_02829_SYSTEM_000_012","deleted"
-57,"TEXT_STMBDZ801_02829_SYSTEM_000_013","You look inside the rotting barrel, but find nothing."
-58,"TEXT_STMBDZ801_02829_GERBOD_000_020","Any luck out there?"
-59,"TEXT_STMBDZ801_02829_GERBOD_000_021","By the gods, you found 'em!"
-60,"TEXT_STMBDZ801_02829_GERBOD_000_022","Ah, this takes me back. I miss the hustle an' bustle this place used to be known for."
-61,"TEXT_STMBDZ801_02829_GERBOD_000_023","There was a time when all the trade between Ul'dah an' the Near East passed through these streets. An endless procession o' caravans, an' I made sure those wagons were in tip-top shape to make their journey."
-62,"TEXT_STMBDZ801_02829_GERBOD_000_024","Soon enough the Resistance'll get things back to the way they were, an' you can bet your left leg I'll help 'em any way I can."
+48,"TEXT_STMBDZ801_02829_GERBOD_000_000","すまない、そこの貫録ある冒険者殿。
+ひとつ、我が頼みを聞いてもらえないか？
+貴方ならば、魔物など恐れることもないだろうから。"
+49,"TEXT_STMBDZ801_02829_GERBOD_000_001","私は、木工職人でな。
+かつては隊商相手に、荷車の修理なんかを請け負っていたんだが、
+帝国がやって来てからというもの、商売あがったりでね。"
+50,"TEXT_STMBDZ801_02829_GERBOD_000_002","別の仕事で糊口を凌いでいたんだが、ようやく解放されたことだし、
+この腕を解放軍のために活かしたいと思っているんだ。"
+51,"TEXT_STMBDZ801_02829_GERBOD_000_003","だが、職人道具は、隊商宿グッドブレード跡に置いたままでね。
+放棄されて魔物の巣窟と化しているもんだから、
+とても自力では取りに行けなくてね……。"
+52,"TEXT_STMBDZ801_02829_GERBOD_000_004","そこで貴方に、隊商宿グッドブレード跡に向かい、
+箱や樽に隠した「<Sheet(EventItem,2002345,0)/>」を回収してきてほしい。
+手間をかけるが、よろしく頼むよ……。"
+53,"TEXT_STMBDZ801_02829_GERBOD_000_005","隊商宿グッドブレード跡に向かい、
+箱や樽に隠した「<Sheet(EventItem,2002345,0)/>」を回収してきてほしい。
+手間をかけるが、よろしく頼む。"
+54,"TEXT_STMBDZ801_02829_SYSTEM_000_010","箱の中には、<Sheet(EventItem,2002345,0)/>が入っていた！"
+55,"TEXT_STMBDZ801_02829_SYSTEM_000_011","樽の中には、<Sheet(EventItem,2002345,0)/>が入っていた！"
+56,"TEXT_STMBDZ801_02829_SYSTEM_000_012","（★未使用／削除予定★）"
+57,"TEXT_STMBDZ801_02829_SYSTEM_000_013","樽の中には、何も入っていないようだ……。"
+58,"TEXT_STMBDZ801_02829_GERBOD_000_020","「<Sheet(EventItem,2002345,0)/>」は見つかったかい？"
+59,"TEXT_STMBDZ801_02829_GERBOD_000_021","ああ、懐かしい……。
+この道具をまた、手にする日がくるとは……。"
+60,"TEXT_STMBDZ801_02829_GERBOD_000_022","この辺りは、帝国のせいですっかり寂れてしまったが、
+この道具を使っていた頃は、実に賑やかだったものだ……。"
+61,"TEXT_STMBDZ801_02829_GERBOD_000_023","ウルダハと、近東地域を結ぶ交易路だったもんで、
+ひっきりなしに商隊が行き交って、荷車の修理も次々と舞い込んだ。
+修理待ちの商人を相手にした屋台なんかも、ひしめいていた。"
+62,"TEXT_STMBDZ801_02829_GERBOD_000_024","これを機に、あの活気を取り戻す……これが、私の夢だ。
+まずは解放軍や同盟軍の荷車を修理して、恩返しするのが先だがね。
+もちろん今回の礼もあるぞ、ありがとう。"

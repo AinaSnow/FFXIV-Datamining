@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANSYL206_01272_SEQ_00","Ponnixia wears a disgusted expression on her face."
-1,"TEXT_BANSYL206_01272_SEQ_01","Ponnixia relates how the giant sporeshooter in the Sylphlands, crafted long ago to purify the forest air, has been modified by the touched sylphs to expel poisonous fumes, and bids you to restore the device to its original benign state. First, use the scalebombs she has provided you to destroy the lightning rods that are generating the sporeshooter's power."
-2,"TEXT_BANSYL206_01272_SEQ_02","You have succeeded in destroying the lightning rods that were powering the sporeshooter. Use the spring water to purify the crystal housed within."
-3,"TEXT_BANSYL206_01272_SEQ_03","Thanks to your efforts, the air of the Sylphlands has been restored to its original pristine state. Share tidings of your triumph with Ponnixia."
-4,"TEXT_BANSYL206_01272_SEQ_04","Ponnixia takes in the fresh air and thanks you profusely for your efforts. The sylphs of Little Solace clearly consider you a valuable ally, and will continue to rely on your protection."
+0,"TEXT_BANSYL206_01272_SEQ_00","シルフの仮宿のポニシアは、森の空気が悪いと感じているようだ。"
+1,"TEXT_BANSYL206_01272_SEQ_01","空気の汚染を食い止める依頼を受けた。シルフ領にある「モワモワ胞子袋」の周囲にある「<Sheet(EObj,2003142,0)/>」に「<Sheet(EventItem,2001175,0)/>」を使おう。"
+2,"TEXT_BANSYL206_01272_SEQ_02","<Sheet(EObj,2003142,0)/>が破壊され、モワモワ胞子袋から<Sheet(EObj,2003145,0)/>が取り除かれた。シルフ領にある「<Sheet(EObj,2003145,0)/>」に「<Sheet(EventItem,2001176,0)/>」を使おう。"
+3,"TEXT_BANSYL206_01272_SEQ_03","空気の汚染を食い止めることができた。シルフの仮宿の「ポニシア」に報告しよう。"
+4,"TEXT_BANSYL206_01272_SEQ_04","ポニシアに報告した。ポニシアは、空気が元通りになったことを喜んで深呼吸をしていた。またの機会に協力しよう。"
 5,"TEXT_BANSYL206_01272_SEQ_05",""
 6,"TEXT_BANSYL206_01272_SEQ_06",""
 7,"TEXT_BANSYL206_01272_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_BANSYL206_01272_SEQ_21",""
 22,"TEXT_BANSYL206_01272_SEQ_22",""
 23,"TEXT_BANSYL206_01272_SEQ_23",""
-24,"TEXT_BANSYL206_01272_TODO_00","Destroy lightning channelers with scalebombs."
-25,"TEXT_BANSYL206_01272_TODO_01","Pour spring water on the tainted crystal."
-26,"TEXT_BANSYL206_01272_TODO_02","Report to Ponnixia."
+24,"TEXT_BANSYL206_01272_TODO_00","シルフ領の<Sheet(EObj,2003142,0)/>に<Sheet(EventItem,2001175,0)/>を使う"
+25,"TEXT_BANSYL206_01272_TODO_01","<Sheet(EObj,2003145,0)/>に<Sheet(EventItem,2001176,0)/>を使う"
+26,"TEXT_BANSYL206_01272_TODO_02","ポニシアに報告"
 27,"TEXT_BANSYL206_01272_TODO_03",""
 28,"TEXT_BANSYL206_01272_TODO_04",""
 29,"TEXT_BANSYL206_01272_TODO_05",""
@@ -49,14 +49,32 @@ int32,str,str
 45,"TEXT_BANSYL206_01272_TODO_21",""
 46,"TEXT_BANSYL206_01272_TODO_22",""
 47,"TEXT_BANSYL206_01272_TODO_23",""
-48,"TEXT_BANSYL206_01272_PONNIXIA_000_000","This one cries for the forest. Long ago, the great sporeshooter in the Sylphlands spit out cleansing spores that kept the air of these ones' home pure and pristine."
-49,"TEXT_BANSYL206_01272_PONNIXIA_001_000","That was until touched ones worked nastiness, placed sick-making thing inside. Now sporeshooter spits out clouds of sickspores that make these ones choke and gag."
-50,"TEXT_BANSYL206_01272_PONNIXIA_000_001","But did touched ones stop there? Of course not! Touched ones use power of flash and boom to make sporeshooter spit out slews of sick-making spores. Those ones' mischief must be stopped before the whole forest shrivels and dies."
-51,"TEXT_BANSYL206_01272_PONNIXIA_000_002","This one will give brave one scalebombs. First, friendly one must take these and make flashboom sticks go boom."
-52,"TEXT_BANSYL206_01272_PONNIXIA_001_002","Then, brave one must remove sick-making thing from sporeshooter. Friendly one should pour clean water on shiny one inside, till it shines clear again."
-53,"TEXT_BANSYL206_01272_PONNIXIA_000_003","Brave one does all this, sporeshooter will stop spreading sickness. Only then can these ones breathe easy again."
-54,"TEXT_BANSYL206_01272_PONNIXIA_000_005","Friendly one must take scalebombs this one made and make flashboom sticks go boom."
-55,"TEXT_BANSYL206_01272_PONNIXIA_000_006","Then, brave one must pour clean water on shiny one inside, remove sick-making thing from sporeshooter. Only then can these ones breathe easy again."
-56,"TEXT_BANSYL206_01272_PONNIXIA_000_010","Brave one need not say a word. Yes, a single breath tells all this one needs to know!"
-57,"TEXT_BANSYL206_01272_PONNIXIA_000_012","Ahhh! Thanks to brave one, nastiness is gone, and the forest once again smells of fresh leaves and flowers. This one is forever in brave one's debt."
-58,"TEXT_BANSYL206_01272_SYSTEM_001_020","The poisonous spores disperse and the air around you clears!"
+48,"TEXT_BANSYL206_01272_PONNIXIA_000_000","シルフ領にある「モワモワ胞子袋」は、
+もともと、森の空気をキレイにする、
+とてもいいキノコだったのでふっち。"
+49,"TEXT_BANSYL206_01272_PONNIXIA_001_000","でも、悪い子シルフが「<Sheet(EObj,2003145,0)/>」を埋め込んで、
+悪い胞子をドバドバ出すように、
+キノコ袋を「カイゾー」してしまったんでふっち！"
+50,"TEXT_BANSYL206_01272_PONNIXIA_000_001","しかも、「<Sheet(EObj,2003142,0)/>」を使ってクリスタルを刺激して、
+胞子の発散をカッセー化させているのでふっち。
+キノコは落雷を受けると、よく育つのでふっち！"
+51,"TEXT_BANSYL206_01272_PONNIXIA_000_002","まずは「<Sheet(EObj,2003142,0)/>」を、
+「<Sheet(EventItem,2001175,0)/>」でブッ壊すのでふっち。"
+52,"TEXT_BANSYL206_01272_PONNIXIA_001_002","そしたら、キノコのカッセー化が止まって、
+キノコ袋の中で悪さをしていた、
+「<Sheet(EObj,2003145,0)/>」が取り除けるはずでふっち。"
+53,"TEXT_BANSYL206_01272_PONNIXIA_000_003","すかさず、そのクリスタルに、
+「<Sheet(EventItem,2001176,0)/>」をぶっかければ、
+毒気が中和されて、万事解決なのでふっち！　頼むでふっち！"
+54,"TEXT_BANSYL206_01272_PONNIXIA_000_005","まずは「<Sheet(EObj,2003142,0)/>」を、
+「<Sheet(EventItem,2001175,0)/>」でブッ壊すのでふっち。"
+55,"TEXT_BANSYL206_01272_PONNIXIA_000_006","そしたら「<Sheet(EObj,2003145,0)/>」に、
+「<Sheet(EventItem,2001176,0)/>」をぶっかければいいのでふっち！
+これで「モワモワ胞子袋」は元通りでふっち！"
+56,"TEXT_BANSYL206_01272_PONNIXIA_000_010","お帰りなのでふっち！
+……言わなくてもわかるのでふっち！"
+57,"TEXT_BANSYL206_01272_PONNIXIA_000_012","スーハースーハー……
+う～ん、空気がいつもどおりふっち！
+よくやってくれたのでふっち！"
+58,"TEXT_BANSYL206_01272_SYSTEM_001_020","「モワモワ胞子袋」の胞子の発散が止まり、
+周囲の空気が澄んでいく……。"

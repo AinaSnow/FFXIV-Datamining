@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_MANWIL001_00594_SEQ_00","To be recognized as an adventurer in the city–state of Ul'dah, you must register yourself with the Adventurers' Guild."
-1,"TEXT_MANWIL001_00594_SEQ_01","Wymond suggests that you speak with Quicksand proprietress Momodi before you begin exploring."
-2,"TEXT_MANWIL001_00594_SEQ_02","Now that you have successfully registered yourself as an adventurer, you are almost ready to begin exploring Ul'dah. Speak with Momodi again to learn more about the city and the basics of adventuring."
+0,"TEXT_MANWIL001_00594_SEQ_00","ワイモンドは<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>に、何か伝えたいことがあるようだ。"
+1,"TEXT_MANWIL001_00594_SEQ_01","ワイモンドから、冒険者としての登録を行うように促された。冒険者ギルドの窓口がある「クイックサンド」の「モモディ」に声をかけよう。"
+2,"TEXT_MANWIL001_00594_SEQ_02","無事、冒険者としての登録を済ませることができた。いよいよウルダハの冒険者として、旅が始まる。まずは街について知っておいた方が良いようだ。説明を受けるため、もう一度モモディに声をかけよう。"
 3,"TEXT_MANWIL001_00594_SEQ_03",""
 4,"TEXT_MANWIL001_00594_SEQ_04",""
 5,"TEXT_MANWIL001_00594_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_MANWIL001_00594_SEQ_21",""
 22,"TEXT_MANWIL001_00594_SEQ_22",""
 23,"TEXT_MANWIL001_00594_SEQ_23",""
-24,"TEXT_MANWIL001_00594_TODO_00","Speak with Momodi."
+24,"TEXT_MANWIL001_00594_TODO_00","クイックサンドのモモディと話す"
 25,"TEXT_MANWIL001_00594_TODO_01",""
 26,"TEXT_MANWIL001_00594_TODO_02",""
 27,"TEXT_MANWIL001_00594_TODO_03",""
@@ -49,54 +49,116 @@ int32,str,str
 45,"TEXT_MANWIL001_00594_TODO_21",""
 46,"TEXT_MANWIL001_00594_TODO_22",""
 47,"TEXT_MANWIL001_00594_TODO_23",""
-48,"TEXT_MANWIL001_00594_TALK_SCENE00000_000",""
-49,"TEXT_MANWIL001_00594_TALK_SCENE00001_000",""
-50,"TEXT_MANWIL001_00594_TALK_SCENE00002_000",""
-51,"TEXT_MANWIL001_00594_TALK_SCENE00003_000",""
-52,"TEXT_MANWIL001_00594_TALK_SCENE00004_000",""
-53,"TEXT_MANWIL001_00594_WYMOND_000_10","'Tis plain to anyone with eyes that you don't know your way around here."
-54,"TEXT_MANWIL001_00594_WYMOND_000_11","If I let you go wanderin' off down the nearest dark alley, you're certain to get mugged or worse, an' I don't want that on my conscience."
-55,"TEXT_MANWIL001_00594_WYMOND_000_12","So before you do anythin' else, you'll want to head over to the Quicksand, an' speak with Momodi. She's the master of the Adventurers' Guild, an' can set you on the right path."
-56,"TEXT_MANWIL001_00594_WYMOND_000_13","Just take those steps over yonder an' pass through the double doors. You'll find her inside."
-57,"TEXT_MANWIL001_00594_WYMOND_000_14","...An' that's as much as you're gettin' for free. Good luck with the adventurin', adventurer."
-58,"TEXT_MANWIL001_00594_SYSTEM_000_20","You have begun a quest!"
-59,"TEXT_MANWIL001_00594_SYSTEM_000_21","Use the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>duty list<UIGlow>01</UIGlow><UIForeground>01</UIForeground> to help you complete your task."
-60,"TEXT_MANWIL001_00594_MOMODI_000_30","Why, hello there! Who might you be?"
-61,"TEXT_MANWIL001_00594_MOMODI_000_31","If you're lookin' to join the Adventurers' Guild, you've come to the right place."
-62,"TEXT_MANWIL001_00594_MOMODI_000_32","My name's Momodi, and─ Pardon me, have we met before? There's somethin' awfully familiar about you..."
-63,"TEXT_MANWIL001_00594_MOMODI_000_33","<sigh> I don't know if it's the Calamity, or just the march of the bleedin' years, but I'm findin' it harder and harder to keep track of all the names and faces. Anyway, forget I mentioned it─I daresay I will... Ahem."
-64,"TEXT_MANWIL001_00594_MOMODI_000_34","Name's Momodi, and I own this fine establishment, if it please you."
-65,"TEXT_MANWIL001_00594_MOMODI_000_35","I also manage the Adventurers' Guild here in Ul'dah. So you might say that lookin' after green adventurers like yourself is my vocation."
-66,"TEXT_MANWIL001_00594_MOMODI_000_36","And lucky for you that it is. Without someone like me to steer you right, you'd soon find yourself out in the middle of nowhere, caught up in business you don't understand."
-67,"TEXT_MANWIL001_00594_MOMODI_000_37","Like our conflict with the Amalj'aa, for example. They've been plaguin' the sultanate for nigh on, oooh...<Emphasis>forever</Emphasis> now."
-68,"TEXT_MANWIL001_00594_MOMODI_000_38","Then there's the Garlean Empire. None can say for sure what they're plottin' these days, only that they <Emphasis>are</Emphasis>."
-69,"TEXT_MANWIL001_00594_MOMODI_000_39","Aye, the people drink and make merry...but underneath it all, there's worry. Worry and a lingerin' feelin' of loss."
-70,"TEXT_MANWIL001_00594_MOMODI_000_40","And little wonder. It's scarce been five years since the lesser moon cracked open like a giant egg, releasin' an abomination intent on turnin' the realm into an eighth hell..."
-71,"TEXT_MANWIL001_00594_MOMODI_000_41","So much was lost in the blink of an eye. 'Twas like the end of the world had come at last."
-72,"TEXT_MANWIL001_00594_MOMODI_000_42","But then things begin to get foggy. Everyone's got their own version of what happened next─some of 'em, two or three..."
-73,"TEXT_MANWIL001_00594_MOMODI_000_43","You'd think people would remember somethin' like that─but the fact is, they don't. Nobody does."
-74,"TEXT_MANWIL001_00594_MOMODI_000_44","There is one thing the survivors agree on, though: the part played by a band of adventurers who laid down their lives for a realm that wasn't their own."
-75,"TEXT_MANWIL001_00594_MOMODI_000_45","They fought valiantly, and like so many others, they never returned. Deeds worth rememberin', I'm sure you'll agree. It's just a shame our recollections of those brave heroes are as jumbled as those of the Calamity itself."
-76,"TEXT_MANWIL001_00594_MOMODI_000_46","Whenever we try to call their faces to mind, it's like they're standin' between us and the midday sun, permanently silhouetted... I'll bet that sounds poetic to you, doesn't it? Well it's not. It's bloody infuriatin'."
-77,"TEXT_MANWIL001_00594_MOMODI_000_47","But even if we can't remember them, we'll not let 'em be forgotten, and so we call 'em the Warriors of Light."
-78,"TEXT_MANWIL001_00594_MOMODI_000_48","And they'll forever stand as a shinin' example of what adventurers can achieve. That's why I welcome new arrivals like yourself to our fair city."
-79,"TEXT_MANWIL001_00594_MOMODI_000_49","All I ask is that you lend a helpin' hand, and try to leave Ul'dah in a better state than you found her. If you can promise that, I'd be happy to let you join the guild."
-80,"TEXT_MANWIL001_00594_MOMODI_000_50","All right, then! A promise is a promise, now!"
-81,"TEXT_MANWIL001_00594_MOMODI_000_51","I'm countin' on your help to put the past behind us. We need people workin' and spendin' and bickerin' like the old days!"
-82,"TEXT_MANWIL001_00594_MOMODI_000_52","And a happy and prosperous Ul'dah means more business for the Quicksand, too!"
-83,"TEXT_MANWIL001_00594_MOMODI_000_53","Anyroad, let's make this official."
-84,"TEXT_MANWIL001_00594_MOMODI_000_54","Go ahead and write your name in the register─neat as you can."
-85,"TEXT_MANWIL001_00594_MOMODI_000_55","...<Highlight>ObjectParameter(1)</Highlight>. Well, ain't that a charmin' name. Just rolls off the tongue, it does."
-86,"TEXT_MANWIL001_00594_MOMODI_000_56","All right, <If(PlayerParameter(4))>Miss<Else/>Mister</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>! On behalf of the Adventurers' Guild, I officially─"
-87,"TEXT_MANWIL001_00594_SHABBYMAN_000_57","Please, sir, be merciful! Twelve as my witness, I swear to you, I'll bring you your money!"
-88,"TEXT_MANWIL001_00594_BILLCOLLECTOR_000_58","In the East, it is said that even a merciful god might be driven to vengeance if thrice blasphemed."
-89,"TEXT_MANWIL001_00594_BILLCOLLECTOR_000_59","Be grateful you were given a fourth chance to offend. You two, attend to this scum."
-90,"TEXT_MANWIL001_00594_SHABBYMAN_000_60","No, please! Mercy!"
-91,"TEXT_MANWIL001_00594_MOMODI_000_61","Well, ain't that a sorry sight. Nor an uncommon one, if I'm honest. Don't worry, though─if you work hard, I doubt you'll end up like him."
-92,"TEXT_MANWIL001_00594_MOMODI_000_62","Just the same, if you ever need a bit of advice about one thing or another, pay me a visit. Just don't go botherin' me every time you stub your bloody toe, all right?"
-93,"TEXT_MANWIL001_00594_MOMODI_000_63","'Course, I <Emphasis>do</Emphasis> enjoy hearin' <If(PlayerParameter(4))>a lady muse on the many manhoods of her acquaintance<Else/>tell of a gentleman's woes with the womenfolk</If> from time to time..."
-94,"TEXT_MANWIL001_00594_MOMODI_000_64","Anyroad, welcome to Ul'dah, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>!"
-95,"TEXT_MANWIL001_00594_MOMODI_000_65","Take a moment to catch your breath, and I'll teach you a little about our fair city."
-96,"TEXT_MANWIL001_00594_SYSTEM_000_70","This concludes the introductory game tutorial."
-97,"TEXT_MANWIL001_00594_SYSTEM_000_71","You have taken the first step as an adventurer in the city of Ul'dah."
-98,"TEXT_MANWIL001_00594_SYSTEM_000_72","Listen well to the wisdom of Momodi Modi, then go forth and discover the incredible adventures that await you!"
+48,"TEXT_MANWIL001_00594_TALK_SCENE00000_000","受諾前"
+49,"TEXT_MANWIL001_00594_TALK_SCENE00001_000","受諾後1"
+50,"TEXT_MANWIL001_00594_TALK_SCENE00002_000","受諾キャンセル"
+51,"TEXT_MANWIL001_00594_TALK_SCENE00003_000","コンプ前"
+52,"TEXT_MANWIL001_00594_TALK_SCENE00004_000","コンプ後1"
+53,"TEXT_MANWIL001_00594_WYMOND_000_10","おいおい、大丈夫か？
+足元がフラついてるぞ？
+危なっかしい雛チョコボッ子だぜ。"
+54,"TEXT_MANWIL001_00594_WYMOND_000_11","まったく……しょうがねェな。
+お前が冒険者として、
+これからしなきゃいけねェことを教えてやるよ。"
+55,"TEXT_MANWIL001_00594_WYMOND_000_12","まずはラウンジ「クイックサンド」に行くんだ。
+あそこにゃ、冒険者ギルドの窓口があってね。
+冒険者として身を立てるってんなら、まずは登録だ。"
+56,"TEXT_MANWIL001_00594_WYMOND_000_13","「クイックサンド」は、
+すぐ目の前の階段を上った扉の奥だ。
+女将の「モモディ」に声をかけな。"
+57,"TEXT_MANWIL001_00594_WYMOND_000_14","がんばれよ、新米。
+冒険者として身を立てて、ガッポリ儲かったら、
+情報屋の俺にも、おこぼれを頂戴させてくれよな！"
+58,"TEXT_MANWIL001_00594_SYSTEM_000_20","クエストを開始しました！"
+59,"TEXT_MANWIL001_00594_SYSTEM_000_21","「目的リスト」を頼りに、クエストを進めていきましょう。"
+60,"TEXT_MANWIL001_00594_MOMODI_000_30","あら、いらっしゃい。"
+61,"TEXT_MANWIL001_00594_MOMODI_000_31","あなたは……。
+冒険者として、登録に来たのね。
+ウルダハを訪れてくれて嬉しいわ。"
+62,"TEXT_MANWIL001_00594_MOMODI_000_32","あなたは……。
+以前、どこかで会ったことがあるかしら……？
+……だめだわ、霞がかかったように……。"
+63,"TEXT_MANWIL001_00594_MOMODI_000_33","……第七霊災の後遺症ってやつでね。
+わたしも悩まされているのよ。
+あら失礼、自己紹介がまだだったわね。"
+64,"TEXT_MANWIL001_00594_MOMODI_000_34","わたしはモモディ。
+ここ「クイックサンド」の女将よ。"
+65,"TEXT_MANWIL001_00594_MOMODI_000_35","ここには「冒険者ギルド」の窓口があってね。
+ウルダハを訪れる冒険者の面倒を見ることが多いの。"
+66,"TEXT_MANWIL001_00594_MOMODI_000_36","そうね、ちょっとした顔役とでも
+思ってくれるといいわ。"
+67,"TEXT_MANWIL001_00594_MOMODI_000_37","ここウルダハは、蛮族である「アマルジャ族」との
+争いが絶えなくてね。"
+68,"TEXT_MANWIL001_00594_MOMODI_000_38","おまけに最近では、北方の大国「ガレマール帝国」も
+何やら動いているって話でしょ。"
+69,"TEXT_MANWIL001_00594_MOMODI_000_39","平和そうに見えるこの街だけど、
+皆、何らかの不安の種を持ったまま日々を過ごしているの。
+……霊災の後遺症も、そのひとつ。"
+70,"TEXT_MANWIL001_00594_MOMODI_000_40","5年前の「第七霊災」で、
+エオルゼアは甚大な被害を受けたわ。"
+71,"TEXT_MANWIL001_00594_MOMODI_000_41","月の衛星「ダラガブ」から現れた黒い龍が、
+壊滅的な被害をもたらしたのよ。"
+72,"TEXT_MANWIL001_00594_MOMODI_000_42","ザナラーンでもかなりの被害が出たんだけど、
+なぜか皆、そのあたりの記憶が曖昧でね。
+未だに原因も、よく解っていないの。"
+73,"TEXT_MANWIL001_00594_MOMODI_000_43","あの時、いったい何が起こったのか。
+証言も一致しないし、記憶も不確か……。
+……これが皆が感じる「第七霊災の後遺症」ってわけ。"
+74,"TEXT_MANWIL001_00594_MOMODI_000_44","そんな曖昧な記憶の中で、1つだけ確かなことがあるの。
+エオルゼアの危機を救うために戦ってくれた
+「英雄たち」がいたことよ。"
+75,"TEXT_MANWIL001_00594_MOMODI_000_45","彼らが成し遂げたことを、わたしたちは忘れていない。
+だけど「後遺症」の影響か、その名を呼ぼうとすると、
+日に焼けた書物の如く、読み上げられず……"
+76,"TEXT_MANWIL001_00594_MOMODI_000_46","その顔を思いだそうとしても、
+強烈な日差しの中にある影のように見えない……。"
+77,"TEXT_MANWIL001_00594_MOMODI_000_47","人々は、この光の中に佇む英雄を、
+敬意をもって「光の戦士たち」と呼んでいるわ。"
+78,"TEXT_MANWIL001_00594_MOMODI_000_48","わたしたちは、あなたたち冒険者の力を必要としているの。
+ウルダハに暮らす皆の不安を取り除くため、
+「光の戦士たち」のようになってくれることを期待してね。"
+79,"TEXT_MANWIL001_00594_MOMODI_000_49","ぜひ、あなたの力を貸してほしいの。
+その代わりと言ってはなんだけど、
+わたしたちは、冒険者への協力は惜しまないわよ。"
+80,"TEXT_MANWIL001_00594_MOMODI_000_50","ありがとう！
+あなたなら、そう言ってくれると思ってたわ。"
+81,"TEXT_MANWIL001_00594_MOMODI_000_51","冒険者が来れば、皆の不安が取り除かれる。
+それに、人が動き！　お金が動き！　揉め事が起こる！"
+82,"TEXT_MANWIL001_00594_MOMODI_000_52","結果、ウルダハは大繁盛！
+このクイックサンドは大黒字！
+だからウルダハは、あなたたちみたいな風来坊も大歓迎よ！"
+83,"TEXT_MANWIL001_00594_MOMODI_000_53","……あらやだ、ずいぶん前置きが長くなっちゃったわ。
+それじゃ、冒険者の登録を済ませましょうか。"
+84,"TEXT_MANWIL001_00594_MOMODI_000_54","ここに、あなたの名前をサインしてくれる？
+あなたにお仕事を頼む時も、あなたのお墓をつくる時も、
+名前がないと困るもの。"
+85,"TEXT_MANWIL001_00594_MOMODI_000_55","<Highlight>ObjectParameter(1)</Highlight>……。
+あら、ステキな名前ね。"
+86,"TEXT_MANWIL001_00594_MOMODI_000_56","よし、あなたは今から冒険者ギルドの一員よ。
+あらためて、よろしく頼むわね。"
+87,"TEXT_MANWIL001_00594_SHABBYMAN_000_57","ひ、ひいっ、謝るよ！
+金は今度返す！
+だから、な、な、今日は見逃してくれ！"
+88,"TEXT_MANWIL001_00594_BILLCOLLECTOR_000_58","ひんがしの国のコトワザを知ってるか？
+「破壊の神も3度までは慈悲をかける」ってな。"
+89,"TEXT_MANWIL001_00594_BILLCOLLECTOR_000_59","だが残念、これでお前は4回目だ。
+……連れていけ！"
+90,"TEXT_MANWIL001_00594_SHABBYMAN_000_60","ひいぃぃぃぃっ！"
+91,"TEXT_MANWIL001_00594_MOMODI_000_61","あらあら……また揉め事があったみたいね。
+でも、ここじゃ日常茶飯事なの。
+ウルダハでがんばるなら、ああいう風になっちゃだめよ？"
+92,"TEXT_MANWIL001_00594_MOMODI_000_62","あなたも、がんばってね。
+何かあれば相談に乗るわよ。"
+93,"TEXT_MANWIL001_00594_MOMODI_000_63","……でも、人生相談はお断り。
+恋愛相談なら考えてあげてもいいわ。
+ウフフ。"
+94,"TEXT_MANWIL001_00594_MOMODI_000_64","ようこそ、ウルダハへ！
+わたしたちは、あなたのような冒険者を歓迎するわ。
+活躍を期待してるわよ。"
+95,"TEXT_MANWIL001_00594_MOMODI_000_65","さて、この街を案内してあげなきゃ。
+準備ができたら、声をかけてね。"
+96,"TEXT_MANWIL001_00594_SYSTEM_000_70","これで基本的なゲーム操作のチュートリアルは終了です。"
+97,"TEXT_MANWIL001_00594_SYSTEM_000_71","砂の都ウルダハにて登録を終えたあなたは
+ついに、冒険者としての第一歩を踏み出しました。"
+98,"TEXT_MANWIL001_00594_SYSTEM_000_72","広い世界が、まだ見ぬ友が、あなたを待っています。
+さあ、この「エオルゼア」での冒険を楽しんでください！"

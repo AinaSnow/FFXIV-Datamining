@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNZ604_01872_SEQ_00","This unflinching Temple Knight seeks the aid of the adventurer who felled the mighty Nidhogg."
-1,"TEXT_HEAVNZ604_01872_SEQ_01","A knight standing calmly in the snowy Pillars has told you that Second Commander Handeloup of the Temple Knights seeks an audience with you. Go to the Congregation of Our Knights Most Heavenly and speak to Commander Handeloup to hear what he requires."
-2,"TEXT_HEAVNZ604_01872_SEQ_02","Once you arrive at the Congregation, Commander Handeloup explains that the Temple Knights would like to know more about the state of the Churning Mists since the fall of Nidhogg, and are planning a reconnaissance mission into the heart of the former dragon stronghold. Commander Handeloup has requested your strength and knowledge to aid Maenne, who will be leading the mission. Speak with her to find out more details of this dangerous mission."
-3,"TEXT_HEAVNZ604_01872_SEQ_03","Maenne introduces herself as the leader of the reconnaissance mission, and asks for you to share any knowledge of the Churning Mists that may be of aid. She determines that the best place to land will be at the Rookery, and bids you meet her there at your soonest convenience."
-4,"TEXT_HEAVNZ604_01872_SEQ_04","Maenne and her fellow dragoons have landed safely at the Rookery, and they await their orders hesitantly in this unfamiliar territory. Although she is troubled by a sense of trepidation, Maenne declares that their mission will begin shortly, and bids you aid them when you are ready. "
+0,"TEXT_HEAVNZ604_01872_SEQ_00","イシュガルドの精悍な神殿騎士は、ニーズヘッグを討った冒険者の力を貸してほしいようだ。"
+1,"TEXT_HEAVNZ604_01872_SEQ_01","精悍な神殿騎士は、ニーズヘッグを討った冒険者の力を貸してほしいようだ。イシュガルドの神殿騎士団本部にいる「アンドゥルー」と話そう。"
+2,"TEXT_HEAVNZ604_01872_SEQ_02","アンドゥルーから、ドラヴァニア雲海の強行偵察作戦への協力を頼まれた。神殿騎士団本部の「マエヌ」と話そう。"
+3,"TEXT_HEAVNZ604_01872_SEQ_03","マエヌと話し、強行偵察に協力することになった。ドラヴァニア雲海の「飛竜泊」にいる「マエヌ」と話そう。"
+4,"TEXT_HEAVNZ604_01872_SEQ_04","マエヌは無事に、飛竜泊に到着できたようだ。邪竜の眷属の動向を探る強行偵察を、本格的にスタートさせよう。"
 5,"TEXT_HEAVNZ604_01872_SEQ_05",""
 6,"TEXT_HEAVNZ604_01872_SEQ_06",""
 7,"TEXT_HEAVNZ604_01872_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_HEAVNZ604_01872_SEQ_21",""
 22,"TEXT_HEAVNZ604_01872_SEQ_22",""
 23,"TEXT_HEAVNZ604_01872_SEQ_23",""
-24,"TEXT_HEAVNZ604_01872_TODO_00","Speak with Handeloup at the Congregation."
-25,"TEXT_HEAVNZ604_01872_TODO_01","Speak with Maenne."
-26,"TEXT_HEAVNZ604_01872_TODO_02","Speak with Maenne at the Rookery."
+24,"TEXT_HEAVNZ604_01872_TODO_00","神殿騎士団本部のアンドゥルーと話す"
+25,"TEXT_HEAVNZ604_01872_TODO_01","マエヌと話す"
+26,"TEXT_HEAVNZ604_01872_TODO_02","飛竜泊のマエヌと話す"
 27,"TEXT_HEAVNZ604_01872_TODO_03",""
 28,"TEXT_HEAVNZ604_01872_TODO_04",""
 29,"TEXT_HEAVNZ604_01872_TODO_05",""
@@ -49,23 +49,49 @@ int32,str,str
 45,"TEXT_HEAVNZ604_01872_TODO_21",""
 46,"TEXT_HEAVNZ604_01872_TODO_22",""
 47,"TEXT_HEAVNZ604_01872_TODO_23",""
-48,"TEXT_HEAVNZ604_01872_TEMPLEKNIGHTA01872_000_000","Ah, I've been looking for you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Commander Handeloup of the Temple Knights has an urgent matter he'd like to discuss with you. It would seem your strength is required once again."
-49,"TEXT_HEAVNZ604_01872_TEMPLEKNIGHTA01872_000_001","Pray make your way to the Congregation of Our Knights Most Heavenly and lend an ear to his request."
-50,"TEXT_HEAVNZ604_01872_TEMPLEKNIGHTA01872_000_005","The strength of an adventurer such as you is invaluable at a time like this. Pray speak with Commander Handeloup."
-51,"TEXT_HEAVNZ604_01872_MAENNE_100_006","The Churning Mists... Whatever kind of place could it be?"
-52,"TEXT_HEAVNZ604_01872_HANDELOUP_000_010","Ah, the adventurer who felled the dread wyrm Nidhogg is here at last. I have a request that requires the strength of one such as you."
-53,"TEXT_HEAVNZ604_01872_HANDELOUP_000_011","We wish to know the current state of the Churning Mists, now that Nidhogg has been laid low. To that end, we have planned a reconnaissance mission that aims to gather information on the Churning Mists. "
-54,"TEXT_HEAVNZ604_01872_HANDELOUP_100_011","Maenne here will be leading the mission, and I would ask that you aid her with your knowledge, as well as your strength. If you wish to aid us, pray speak to her."
-55,"TEXT_HEAVNZ604_01872_HANDELOUP_000_028","Maenne is in charge of this mission and its planning. Pray speak to her to hear more."
-56,"TEXT_HEAVNZ604_01872_MAENNE_000_020","Ah, so you're the adventurer <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> I've heard so much about. Well met, friend, I am Maenne, and I'll be leading our mission into the Churning Mists. I know Ser Handeloup has spoken to you already─will you be lending us your assistance?"
-57,"TEXT_HEAVNZ604_01872_MAENNE_000_021","'Tis an honor to have the aid of the one who felled the mighty Nidhogg. As you already know, we hope to strike deep into the heart of what was once Nidhogg's domain."
-58,"TEXT_HEAVNZ604_01872_MAENNE_000_022","However, the Churning Mists remain an uncharted territory for us. I would ask that you teach us all you know of the place, of the beasts dwelling within, and any other information that could aid our mission."
-59,"TEXT_HEAVNZ604_01872_MAENNE_000_024",""
-60,"TEXT_HEAVNZ604_01872_MAENNE_000_025","...I see... You have my thanks, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. With this information to guide us we can plan a secure route to our destination. We shall take the airship and make anchor at the Rookery."
-61,"TEXT_HEAVNZ604_01872_MAENNE_000_026","We shall begin preparations for our departure shortly. Let us meet again at the Rookery, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>!"
-62,"TEXT_HEAVNZ604_01872_AIRPORTINVESTIGATOR01871_000_027","We are honored to have you with us, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>!"
-63,"TEXT_HEAVNZ604_01872_MAENNE_000_027",""
-64,"TEXT_HEAVNZ604_01872_MAENNE_000_030","So this is the Churning Mists. 'Tis the first time I've set foot in the Horde's stronghold."
-65,"TEXT_HEAVNZ604_01872_MAENNE_000_031","For the safety of the Holy See, we must needs ascertain the movements of the Horde, now that Nidhogg no longer guides them."
-66,"TEXT_HEAVNZ604_01872_MAENNE_000_032","Nonetheless, this place fills me with a sense of unease. It's as if someone─or something─is watching us..."
-67,"TEXT_HEAVNZ604_01872_MAENNE_000_033","...Ah, 'tis best not to pay nervous fancies any mind. <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, we shall begin our mission shortly. May it end without incident."
+48,"TEXT_HEAVNZ604_01872_TEMPLEKNIGHTA01872_000_000","おぉ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>殿……探しておりましたぞ。
+我が上官、神殿騎士団コマンドのアンドゥルー卿が、
+ぜひ、貴殿の協力を願いたいと仰せになっておりましてな。"
+49,"TEXT_HEAVNZ604_01872_TEMPLEKNIGHTA01872_000_001","よろしければ、神殿騎士団本部まで足を運び、
+「アンドゥルー」卿から、話を聞いてはもらえないでしょうか？"
+50,"TEXT_HEAVNZ604_01872_TEMPLEKNIGHTA01872_000_005","我らが神殿騎士団に、ぜひその力を……。
+よろしくお願い致します。"
+51,"TEXT_HEAVNZ604_01872_MAENNE_100_006","ドラヴァニア雲海か。
+いったい、どのような場所なのだろう……。"
+52,"TEXT_HEAVNZ604_01872_HANDELOUP_000_010","おぉ、来てくれたか！
+実は、ぜひ君に力を貸してもらいたい作戦があってな。"
+53,"TEXT_HEAVNZ604_01872_HANDELOUP_000_011","我々は、君たちが邪竜を退けた後、
+その眷属たちがどのような状況にあるのかを知りたい。
+そこで、ドラヴァニア雲海の強行偵察作戦が立案されたのだ。"
+54,"TEXT_HEAVNZ604_01872_HANDELOUP_100_011","もしよければ、偵察部隊を率いる竜騎士「マエヌ」に、
+声をかけて、力を貸してやってほしい。
+よろしく頼む。"
+55,"TEXT_HEAVNZ604_01872_HANDELOUP_000_028","今回の計画の指揮は、マエヌに任せることにした。
+どうか、力を貸してやってほしい。"
+56,"TEXT_HEAVNZ604_01872_MAENNE_000_020","やあ、君が噂の<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>か！
+今回の作戦指揮を任されている、竜騎士のマエヌだ。
+私に力を貸してくれるんだね？"
+57,"TEXT_HEAVNZ604_01872_MAENNE_000_021","邪竜「ニーズヘッグ」を退けた、君がいれば百人力だ。
+すでに聞き及んでいることと思うが、
+今回の主目的は、敵地に乗り込んでの強行偵察でね。"
+58,"TEXT_HEAVNZ604_01872_MAENNE_000_022","だが、「ドラヴァニア雲海」となると、
+我々にとっては、まさしく未知の領域なのだ。
+現地の様子を、できるだけ細かく教えてもらえないだろうか？"
+59,"TEXT_HEAVNZ604_01872_MAENNE_000_024","（★未使用／削除予定★）"
+60,"TEXT_HEAVNZ604_01872_MAENNE_000_025","……なるほど。
+その情報から、比較的リスクの少ない航路が割り出せそうだ。
+飛空艇を用いて、「飛竜泊」とやらを目指すとしよう。"
+61,"TEXT_HEAVNZ604_01872_MAENNE_000_026","さっそく出撃準備に取りかかるとするよ。
+向こうで落ち合おう、では！"
+62,"TEXT_HEAVNZ604_01872_AIRPORTINVESTIGATOR01871_000_027","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>殿のご協力に、感謝いたします！"
+63,"TEXT_HEAVNZ604_01872_MAENNE_000_027","（★未使用／削除予定★）"
+64,"TEXT_HEAVNZ604_01872_MAENNE_000_030","ここが、ドラヴァニア雲海……。
+ドラゴン族の本拠地に来るのは、初めてだ。"
+65,"TEXT_HEAVNZ604_01872_MAENNE_000_031","頭目であるニーズヘッグを失ったドラゴン族が、
+いかなる状態にあるのか……。
+皇都の安全のためにも、この目で確かめねばならない。"
+66,"TEXT_HEAVNZ604_01872_MAENNE_000_032","しかし、ここに来てからというもの……。
+何かに監視されているような気がする。
+これはいったい……。"
+67,"TEXT_HEAVNZ604_01872_MAENNE_000_033","すぐに調査を始めたほうがよさそうだな。
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、君の力に期待しているよ。"

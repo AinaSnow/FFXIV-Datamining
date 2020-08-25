@@ -1,8 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKZG021_03506_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Dalric has need of your eggspertise."
+0,"TEXT_LUCKZG021_03506_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+トゥワインのダルリックは、フォルスラコスの卵を買い取りたいようだ。"
 1,"TEXT_LUCKZG021_03506_SEQ_01",""
 2,"TEXT_LUCKZG021_03506_SEQ_02",""
 3,"TEXT_LUCKZG021_03506_SEQ_03",""
@@ -26,9 +26,9 @@ Dalric has need of your eggspertise."
 21,"TEXT_LUCKZG021_03506_SEQ_21",""
 22,"TEXT_LUCKZG021_03506_SEQ_22",""
 23,"TEXT_LUCKZG021_03506_SEQ_23",""
-24,"TEXT_LUCKZG021_03506_TODO_00","Find a pristine phorusrhacos egg."
-25,"TEXT_LUCKZG021_03506_TODO_01","Deliver the phorusrhacos egg to the warehouse custodian."
-26,"TEXT_LUCKZG021_03506_TODO_02","Report to Dalric."
+24,"TEXT_LUCKZG021_03506_TODO_00","フォルスラコスの卵を持ち上げる"
+25,"TEXT_LUCKZG021_03506_TODO_01","酒場の調理担当にフォルスラコスの卵を渡す"
+26,"TEXT_LUCKZG021_03506_TODO_02","ダルリックに報告"
 27,"TEXT_LUCKZG021_03506_TODO_03",""
 28,"TEXT_LUCKZG021_03506_TODO_04",""
 29,"TEXT_LUCKZG021_03506_TODO_05",""
@@ -50,30 +50,61 @@ Dalric has need of your eggspertise."
 45,"TEXT_LUCKZG021_03506_TODO_21",""
 46,"TEXT_LUCKZG021_03506_TODO_22",""
 47,"TEXT_LUCKZG021_03506_TODO_23",""
-48,"TEXT_LUCKZG021_03506_DALRIC_000_000","Twine used to be full of hunters, bringing in fresh meat, pelts, all sorts. Not these days, though. Most of them left to seek easier, more lucrative prey elsewhere."
-49,"TEXT_LUCKZG021_03506_DALRIC_000_001","Still, there's money to be made here, if you're brave enough. How about it? Fancy earning a bit of coin?"
-50,"TEXT_LUCKZG021_03506_DALRIC_000_002","I'm sure you have seen the phorusrhacos around here. Big, ugly, highly aggressive. What I want is not their meat, but their eggs."
-51,"TEXT_LUCKZG021_03506_DALRIC_000_003","They are a job to carry though, so you'll want to avoid any trouble on your way back from the nest. There's no use bringing a smashed one."
-52,"TEXT_LUCKZG021_03506_DALRIC_000_004","If you and the egg both make it back in one piece, bring it here, and the bloke in charge of the warehouse'll take it off your hands. There's gil in it for the both us."
-53,"TEXT_LUCKZG021_03506_DALRIC_000_010","The warehouse custodian pays good coin for any meat or eggs, what with them being so hard to come by. Just so you know, I'll be getting a cut for anything you bring, since it was my idea."
-54,"TEXT_LUCKZG021_03506_SYSTEM_000_020","This egg has a large crack along the shell. You should try to find one that is in better condition."
-55,"TEXT_LUCKZG021_03506_SYSTEM_000_021","A strong scent of ammonia emanates from the egg. No one in their right mind would accept this."
-56,"TEXT_LUCKZG021_03506_SYSTEM_000_022","A perfect specimen! Now you must keep it in pristine condition on your journey to the pub in Twine."
-57,"TEXT_LUCKZG021_03506_SYSTEM_100_022","Deliver the phorusrhacos egg to the warehouse custodian in Twine."
-58,"TEXT_LUCKZG021_03506_SYSTEM_200_022","You will have ninety seconds to complete the task. Should you fail, return to the starting location and begin anew."
-59,"TEXT_LUCKZG021_03506_SYSTEM_300_022","Be wary of attacks from enemies, which will sap your strength."
-60,"TEXT_LUCKZG021_03506_SYSTEM_000_030","You must keep the egg in pristine condition on your journey to the pub in Twine."
-61,"TEXT_LUCKZG021_03506_MINER03506_000_031","You must be the <If(PlayerParameter(4))>lass<Else/>lad</If> who's bringin' me a phorusrhacos egg. I'll know if you try to cheat me, so don't even think about it!"
-62,"TEXT_LUCKZG021_03506_DALRIC_000_032","It'll be easier if you bring the egg straight to the pub."
-63,"TEXT_LUCKZG021_03506_MINER03506_000_040","Oh yes, lovely! You don't see many like this! Well, that's Dalric's part of the bargain taken care of. He's got your share, so if you want payin', ask him."
-64,"TEXT_LUCKZG021_03506_DALRIC_000_050","Seems to me you've got a talent for this kind of work. I could use someone like you."
-65,"TEXT_LUCKZG021_03506_DALRIC_000_051","First of all, here's the coin I promised. If you've got a mind to take on another job, come and see me."
-66,"TEXT_LUCKZG021_03506_MASTER03506_000_000",""
-67,"TEXT_LUCKZG021_03506_MASTER03506_000_001",""
-68,"TEXT_LUCKZG021_03506_MASTER03506_000_002",""
-69,"TEXT_LUCKZG021_03506_MASTER03506_000_003",""
-70,"TEXT_LUCKZG021_03506_MASTER03506_000_004",""
-71,"TEXT_LUCKZG021_03506_MASTER03506_000_010",""
-72,"TEXT_LUCKZG021_03506_MASTER03506_000_032",""
-73,"TEXT_LUCKZG021_03506_MASTER03506_000_050",""
-74,"TEXT_LUCKZG021_03506_MASTER03506_000_051",""
+48,"TEXT_LUCKZG021_03506_DALRIC_000_000","昔はトゥワインにも狩人がいたもんだが、
+皆、他の地域に仕事や獲物を求めて移住しちまってな。
+食材の確保も、難しくなる一方だ。"
+49,"TEXT_LUCKZG021_03506_DALRIC_000_001","君は腕が立ちそうだな。
+よければ小遣い稼ぎをしてみないか？"
+50,"TEXT_LUCKZG021_03506_DALRIC_000_002","トゥワインの近くに、巨鳥フォルスラコスが、
+卵を埋めている場所がある。
+無傷の卵を持ってきたら、高く買い取らせてもらおう。"
+51,"TEXT_LUCKZG021_03506_DALRIC_000_003","ただし、フォルスラコスはとても凶暴で、
+人の姿を見たらすぐに襲いかかってくる。
+卵泥棒は十分に注意してやるんだな。"
+52,"TEXT_LUCKZG021_03506_DALRIC_000_004","「フォルスラコスの卵」を手に入れたら、
+ここまで戻ってきて「酒場の調理担当」に渡してくれ。
+君が帰ってくる頃までには、呼び出しておくのでな。"
+53,"TEXT_LUCKZG021_03506_DALRIC_000_010","「フォルスラコスの卵」を手に入れたら、
+ここまで戻ってきて「酒場の調理担当」に渡してくれ。
+君が帰ってくる頃までには、呼び出しておくのでな。"
+54,"TEXT_LUCKZG021_03506_SYSTEM_000_020","大きなヒビの入った卵を発見した。
+これは売ることができそうにない……。"
+55,"TEXT_LUCKZG021_03506_SYSTEM_000_021","異臭のする卵を発見した。
+これは売ることができそうにない……。"
+56,"TEXT_LUCKZG021_03506_SYSTEM_000_022","無傷の卵を発見した！
+トゥワインまで運んで、
+「酒場の調理担当」に渡そう。"
+57,"TEXT_LUCKZG021_03506_SYSTEM_100_022","「フォルスラコスの卵」を、制限時間内に、
+トゥワインにいる「酒場の調理担当」まで運搬しましょう。"
+58,"TEXT_LUCKZG021_03506_SYSTEM_200_022","運搬状態の効果時間は「90秒」です。
+時間切れになった場合、運搬は失敗になりますが、
+開始地点から再挑戦することができます。"
+59,"TEXT_LUCKZG021_03506_SYSTEM_300_022","なお、攻撃を受けると、効果時間が減ってしまいます。
+なるべく、攻撃を受けないように気をつけながら、
+「フォルスラコスの卵」を運搬しましょう。"
+60,"TEXT_LUCKZG021_03506_SYSTEM_000_030","無傷の卵を発見した！
+トゥワインまで運んで、
+「酒場の調理担当」に渡そう。"
+61,"TEXT_LUCKZG021_03506_MINER03506_000_031","「フォルスラコスの卵」を見つけたら、
+私のところまで運んでもらえますか？
+よろしくおねがいしますね。"
+62,"TEXT_LUCKZG021_03506_DALRIC_000_032","「酒場の調理担当」を呼んでおいたぞ。
+「フォルスラコスの卵」は彼に渡してくれ。"
+63,"TEXT_LUCKZG021_03506_MINER03506_000_040","おつかれさまです。
+無傷の卵、たしかに受け取りました。
+報酬は「ダルリック」からもらってください。"
+64,"TEXT_LUCKZG021_03506_DALRIC_000_050","卵泥棒に成功したようだな。
+どうやら君は、相当の腕利きらしい。
+もしかすると私の願いを叶えてくれるかも……。"
+65,"TEXT_LUCKZG021_03506_DALRIC_000_051","それよりも、まずは報酬だな。
+おつかれさん、これを受け取れ。
+そして、気が向いたらもう一度、私に声をかけてくれ。"
+66,"TEXT_LUCKZG021_03506_MASTER03506_000_000","（★未使用／削除予定★）"
+67,"TEXT_LUCKZG021_03506_MASTER03506_000_001","（★未使用／削除予定★）"
+68,"TEXT_LUCKZG021_03506_MASTER03506_000_002","（★未使用／削除予定★）"
+69,"TEXT_LUCKZG021_03506_MASTER03506_000_003","（★未使用／削除予定★）"
+70,"TEXT_LUCKZG021_03506_MASTER03506_000_004","（★未使用／削除予定★）"
+71,"TEXT_LUCKZG021_03506_MASTER03506_000_010","（★未使用／削除予定★）"
+72,"TEXT_LUCKZG021_03506_MASTER03506_000_032","（★未使用／削除予定★）"
+73,"TEXT_LUCKZG021_03506_MASTER03506_000_050","（★未使用／削除予定★）"
+74,"TEXT_LUCKZG021_03506_MASTER03506_000_051","（★未使用／削除予定★）"

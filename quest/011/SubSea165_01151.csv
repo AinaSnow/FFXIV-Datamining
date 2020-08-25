@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBSEA165_01151_SEQ_00","Sergeant Roehanth has the cross-eyed look of a man threading a needle, and none can doubt that you are the stitch in time that saves nine."
-1,"TEXT_SUBSEA165_01151_SEQ_01","Killer mantises have spawned near the Founder's Crypt, and despite the Maelstrom's best efforts, several still roam free. You are bid to slay the remaining four."
-2,"TEXT_SUBSEA165_01151_SEQ_02","The last of the mantises are dead. One hopes they did not leave an egg sac or two behind. Make your report to Sergeant Roehanth."
-3,"TEXT_SUBSEA165_01151_SEQ_03","The dead may sleep without hearing the scrape of gristly scythe. Sergeant Roehanth is pleased. This task being Maelstrom business, you must take yourself to Commander Falkbryda at Camp Skull Valley for your pay."
-4,"TEXT_SUBSEA165_01151_SEQ_04","You report the destruction of the mantises to Commander Falkbryda, who appears to see new value in having an adventurer undertake such missions. A job well done is often a prelude to another."
+0,"TEXT_SUBSEA165_01151_SEQ_00","北防波壁の黒渦団ルーハンド甲軍曹は、冒険者に魔物の討伐を頼みたいようだ。"
+1,"TEXT_SUBSEA165_01151_SEQ_01","「エールグヘームルの墓」の周囲に<Sheet(BNpcName,644,0)/>が繁殖してしまって困っているらしい。「<Sheet(BNpcName,644,0)/>」を4匹討伐しよう。"
+2,"TEXT_SUBSEA165_01151_SEQ_02","<Sheet(BNpcName,644,0)/>を討伐した。黒渦団「ルーハンド甲軍曹」に報告しよう。"
+3,"TEXT_SUBSEA165_01151_SEQ_03","ルーハンド甲軍曹は、墓の周囲が静かになり満足したようだ。報酬を受け取りに「キャンプ・スカルバレー」の「ファルクブリダ中甲佐」に報告しよう。"
+4,"TEXT_SUBSEA165_01151_SEQ_04","ファルクブリダ中甲佐に報告した。上官である彼女も冒険者の仕事に満足しているようだ。"
 5,"TEXT_SUBSEA165_01151_SEQ_05",""
 6,"TEXT_SUBSEA165_01151_SEQ_06",""
 7,"TEXT_SUBSEA165_01151_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_SUBSEA165_01151_SEQ_21",""
 22,"TEXT_SUBSEA165_01151_SEQ_22",""
 23,"TEXT_SUBSEA165_01151_SEQ_23",""
-24,"TEXT_SUBSEA165_01151_TODO_00","Slay the killer mantises."
-25,"TEXT_SUBSEA165_01151_TODO_01","Report to Roehanth."
-26,"TEXT_SUBSEA165_01151_TODO_02","Report to Falkbryda."
+24,"TEXT_SUBSEA165_01151_TODO_00","<Sheet(BNpcName,644,0)/>を討伐"
+25,"TEXT_SUBSEA165_01151_TODO_01","ルーハンド甲軍曹に報告"
+26,"TEXT_SUBSEA165_01151_TODO_02","ファルクブリダ中甲佐に報告"
 27,"TEXT_SUBSEA165_01151_TODO_03",""
 28,"TEXT_SUBSEA165_01151_TODO_04",""
 29,"TEXT_SUBSEA165_01151_TODO_05",""
@@ -49,13 +49,23 @@ int32,str,str
 45,"TEXT_SUBSEA165_01151_TODO_21",""
 46,"TEXT_SUBSEA165_01151_TODO_22",""
 47,"TEXT_SUBSEA165_01151_TODO_23",""
-48,"TEXT_SUBSEA165_01151_ROEHANTH_000_000","An adventurer, are ye? Seems a shame for you to come all the way out here without more to show for it. How about a bit of vilekin hunting?"
-49,"TEXT_SUBSEA165_01151_ROEHANTH_000_001","There's a few killer mantises about on account of a hatching we missed. The commander sent out hunting parties and collected ten and six heads. There's no more'n twenty in a clutch, think you can handle the last four?"
-50,"TEXT_SUBSEA165_01151_DUNMMYTODO_000_010",""
-51,"TEXT_SUBSEA165_01151_DUNMMY_000_010",""
-52,"TEXT_SUBSEA165_01151_ROEHANTH_000_020","Nasty critters, those killer mantises. I'm sure Aerghaemr wouldn't've wanted anyone dying near his resting place. Good hunting, adventurer."
-53,"TEXT_SUBSEA165_01151_ROEHANTH_000_021","Tsk, see <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>the birds fly to their nests<Else/>how high the sun climbs</If><Else/><If(LessThan(PlayerParameter(11),17))>how my shadow grows<Else/>the birds fly to their nests</If></If>, it's time I returned to the gate. Alyrloef said we'd be testing a new cannon. Like to blow himself to bits without me about."
-54,"TEXT_SUBSEA165_01151_ROEHANTH_000_022","You can collect your pay from Commander Falkbryda at Camp Skull Valley. Be well, adventurer. The Twelve go with ye."
-55,"TEXT_SUBSEA165_01151_FALKBRYDA_000_030","Ah, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, you've become a familiar face about these parts. What brings you here today?
-The rest of the killer mantises? Well done, and I must commend Sergeant Roehanth for his quick thinking."
-56,"TEXT_SUBSEA165_01151_FALKBRYDA_000_031","You have the thanks of this camp. Sometimes, I fear that we will lose the war against the Sahagin for having to deal with pests and beasts..."
+48,"TEXT_SUBSEA165_01151_ROEHANTH_000_000","貴公は冒険者なのであろう？
+墓参りのついでに、仕事を頼まれてくれないか？"
+49,"TEXT_SUBSEA165_01151_ROEHANTH_000_001","墓の周辺で、マンティスの卵が孵化してしまったようでな。
+周辺の「<Sheet(BNpcName,644,0)/>」を狩ってきてほしいのだ。
+そうだな、4匹ほどでいいだろう。よろしく頼む。"
+50,"TEXT_SUBSEA165_01151_DUNMMYTODO_000_010","「<Sheet(BNpcName,644,0)/>」を4匹討伐"
+51,"TEXT_SUBSEA165_01151_DUNMMY_000_010","（★未使用／削除予定★）"
+52,"TEXT_SUBSEA165_01151_ROEHANTH_000_020","ご苦労だったな、冒険者。
+これで墓の下のエールグヘームルも
+安らかに眠れるだろう。"
+53,"TEXT_SUBSEA165_01151_ROEHANTH_000_021","さて、そろそろ任務に戻らねばならないな。
+……そうか、たしか新型砲弾の試射をする予定だった。
+急いでアリルーフのもとへ向かわねば。"
+54,"TEXT_SUBSEA165_01151_ROEHANTH_000_022","この報酬はスカルバレーの隊長である、
+ファルクブリダ中甲佐殿から受け取ってくれたまえ。
+では達者でな、冒険者よ。"
+55,"TEXT_SUBSEA165_01151_FALKBRYDA_000_030","冒険者か、どうかしたのか？
+……「<Sheet(BNpcName,644,0)/>」を駆除しただと？"
+56,"TEXT_SUBSEA165_01151_FALKBRYDA_000_031","そうか、ご苦労だったな。
+部下に代わって上官である私が労おう。"

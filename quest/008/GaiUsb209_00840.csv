@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB209_00840_SEQ_00","Shamani Lohmani would like to discuss wine with you."
-1,"TEXT_GAIUSB209_00840_SEQ_01","Shamani Lohmani tells you that the only suitable wines for Master Gegeruju's banquet are in the possession of Byrglaent, who owns and operates the largest winery in Vylbrand. Introduce yourself to Byrglaent and explain your request."
-2,"TEXT_GAIUSB209_00840_SEQ_02","Byrglaent is less than receptive to your requests, and instead offers to serve you goobbue urine. Deliver the bad news to Shamani Lohmani."
-3,"TEXT_GAIUSB209_00840_SEQ_03","The neophyte vintner is disappointed but not surprised by Byrglaent's harsh refusal. It seems you must find another way to acquire wine for the banquet."
+0,"TEXT_GAIUSB209_00840_SEQ_00","ワインポートのシャマニ・ローマニは、冒険者に「最高のワイン」についての情報を教えたいらしい。"
+1,"TEXT_GAIUSB209_00840_SEQ_01","「最高のワイン」は、ワインポートのオーナー「ビルギレント」が所有しているらしい。「ビルギレント」に話しかけよう。"
+2,"TEXT_GAIUSB209_00840_SEQ_02","ビルギレントは高圧的な態度で、冒険者の話にまったく耳を貸してくれなかった。ワインポートの「シャマニ・ローマニ」に相談しよう。"
+3,"TEXT_GAIUSB209_00840_SEQ_03","どうやら新参者のシャマニ・ローマニは、あまり良い待遇を受けていないようだ。それでも彼には「最高のワイン」を探す算段があるようだが……？"
 4,"TEXT_GAIUSB209_00840_SEQ_04",""
 5,"TEXT_GAIUSB209_00840_SEQ_05",""
 6,"TEXT_GAIUSB209_00840_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSB209_00840_SEQ_21",""
 22,"TEXT_GAIUSB209_00840_SEQ_22",""
 23,"TEXT_GAIUSB209_00840_SEQ_23",""
-24,"TEXT_GAIUSB209_00840_TODO_00","Speak with Byrglaent."
-25,"TEXT_GAIUSB209_00840_TODO_01","Speak with Shamani Lohmani."
+24,"TEXT_GAIUSB209_00840_TODO_00","ビルギレントと話す"
+25,"TEXT_GAIUSB209_00840_TODO_01","シャマニ・ローマニと話す"
 26,"TEXT_GAIUSB209_00840_TODO_02",""
 27,"TEXT_GAIUSB209_00840_TODO_03",""
 28,"TEXT_GAIUSB209_00840_TODO_04",""
@@ -49,17 +49,38 @@ int32,str,str
 45,"TEXT_GAIUSB209_00840_TODO_21",""
 46,"TEXT_GAIUSB209_00840_TODO_22",""
 47,"TEXT_GAIUSB209_00840_TODO_23",""
-48,"TEXT_GAIUSB209_00840_SHAMANILOHMANI_000_000","Life can be so delightfully unpredictable. I always had a passion for wine, but it wasn't until I was forced to retire that I could pursue it as more than a mere hobby."
-49,"TEXT_GAIUSB209_00840_SHAMANILOHMANI_000_001","It wouldn't have been possible if not for the savings I amassed during my time as a mercenary, of course. Say what you will about the nature of that work─none can deny that it pays well."
-50,"TEXT_GAIUSB209_00840_SHAMANILOHMANI_000_002","Ah, but you grow impatient, and Wheiskaet must have his wine. Herein lies the problem: nothing in my possession is of sufficient quality for this occasion."
-51,"TEXT_GAIUSB209_00840_SHAMANILOHMANI_000_003","The best vintages in town are hoarded by Byrglaent, who owns and operates the largest winery in Vylbrand."
-52,"TEXT_GAIUSB209_00840_SHAMANILOHMANI_000_004","Somehow, I doubt he will be receptive to your request, but given these circumstances we must needs beg his assistance."
-53,"TEXT_GAIUSB209_00840_BYRGLAENT_000_010","What rank amateur bottled this wine? The impurities have rendered it nigh undrinkable. Dismissal is too good for the man responsible─he should be made to drink every drop of his polluted swill!"
-54,"TEXT_GAIUSB209_00840_BYRGLAENT_000_011","What is it? I am in the middle of an important discussion, and I do not care for interruptions.
-Hm? That neophyte vintner bid you speak with me? Hah!"
-55,"TEXT_GAIUSB209_00840_BYRGLAENT_000_012","Neither you nor your friend has the palate to appreciate the subtle qualities of my private stock."
-56,"TEXT_GAIUSB209_00840_BYRGLAENT_000_013","I would sooner serve you goobbue urine than sell you my worst vintage. Begone from my sight."
-57,"TEXT_GAIUSB209_00840_SHAMANILOHMANI_000_020","I take it he said no?
-...Really, in those words? Hm, well, I cannot say that I am surprised."
-58,"TEXT_GAIUSB209_00840_SHAMANILOHMANI_000_021","While there's no denying his passion and skill, the Wine Baron of Limsa Lominsa is not a man known for his tact."
-59,"TEXT_GAIUSB209_00840_SHAMANILOHMANI_000_022","Very well. We shall have to take an alternative approach."
+48,"TEXT_GAIUSB209_00840_SHAMANILOHMANI_000_000","私は戦いで光を失い「海雄旅団」を引退しました。
+……流れ着いたこのワインポートで
+ワイン造りに第二の人生を捧げようと思っております。"
+49,"TEXT_GAIUSB209_00840_SHAMANILOHMANI_000_001","ウフフ、ほかならぬヴェイスケート副団長の依頼です。
+すぐに最高のワインを用意しましょう。"
+50,"TEXT_GAIUSB209_00840_SHAMANILOHMANI_000_002","……と言いたいところなのですが。
+今現在、私の手元にあるワインは、
+どれもセカンドラベル……格下のものばかりなのです。"
+51,"TEXT_GAIUSB209_00840_SHAMANILOHMANI_000_003","一級品であるファーストラベルのワインは、
+醸造師であり、ワイナリーのオーナー……
+「ビルギレント」という男が独占しています。"
+52,"TEXT_GAIUSB209_00840_SHAMANILOHMANI_000_004","あまりお薦めはできないのですが……
+この際、仕方がないですね。
+ビルギレントに相談してきてもらえますか？"
+53,"TEXT_GAIUSB209_00840_BYRGLAENT_000_010","なんですか、このワインは！？
+すっかり酸化して、とても飲めたものではありません！
+これはワインへの冒涜！　保存管理者はクビにしなさい！"
+54,"TEXT_GAIUSB209_00840_BYRGLAENT_000_011","……うん？　誰ですかアナタは？
+シャマニ・ローマニからの遣いですって？
+ふん、あの新参者の醸造師ですか。"
+55,"TEXT_GAIUSB209_00840_BYRGLAENT_000_012","ワインを譲って欲しいとは……ンふふ、冗談でしょう。
+どうして、どこのチョコボの骨かもわからない輩に、
+高級ワインを差し上げなくてはならないのですか？"
+56,"TEXT_GAIUSB209_00840_BYRGLAENT_000_013","真の美を知る舌もないような者など、
+泥水でも飲んでいるのがお似合いですよ。
+ンふふふふ、さぁ、お帰りなさい！"
+57,"TEXT_GAIUSB209_00840_SHAMANILOHMANI_000_020","……やはり、追い返されましたか。
+彼は、このワインポートを支配する醸造師の権威。
+そしてリムサ・ロミンサのワイン王とも呼ばれる存在……。"
+58,"TEXT_GAIUSB209_00840_SHAMANILOHMANI_000_021","たしかにワインに賭ける情熱は素晴らしいのですが……
+ちょっと性格に難がありましてね。
+そのうえ、やっかいなことに、絶大な権力を持っています。"
+59,"TEXT_GAIUSB209_00840_SHAMANILOHMANI_000_022","……冒険者さん、私の光となって、
+少々手助けしてくれませんか？
+私たちで、最高のワインを見つけだしましょう。"

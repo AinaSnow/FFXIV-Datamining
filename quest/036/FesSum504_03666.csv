@@ -1,11 +1,18 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_FESSUM504_03666_SEQ_00","Hildelana is looking for a few good culinarians."
-1,"TEXT_FESSUM504_03666_SEQ_01","You have been invited to take part in the Iron Culinarian Challenge as part of the Moonfire Faire festivities. Procure yourself some freshly caught haddock, batter and fry it to a crisp golden brown, and deliver your culinary masterpiece back to Hildelana, who will see that it finds a proper home in the belly of a peckish faire-goer.
+0,"TEXT_FESSUM504_03666_SEQ_00","※本クエストは、期間限定のクエストとなります。
 
-※Please note that you will be unable to complete this quest after the seasonal event has ended. For details, please check the Lodestone."
-2,"TEXT_FESSUM504_03666_SEQ_02","You put your culinary skills to good use in preparing a prime piece of battered fish boasting flavor and texture fit for a king, and deliver it to Hildelana, who is duly impressed. She rewards your surpassing skill with a skillet with a single Faire voucher, and invites you to return to participate in the challenge again should you so desire."
+コスタ・デル・ソルの紅蓮祭調理担当ヒルドラナは、調理大会の参加者を待っているようだ。"
+1,"TEXT_FESSUM504_03666_SEQ_01","※本クエストは、シーズナルイベント開催中にかぎり、
+　受注、進行できます。
+　開催期間終了後は進行できませんので、ご注意ください。
+　期間等の詳細についてはLodestoneをご覧ください。
+
+ヒルドラナから「調理大会」の説明を聞き、<Sheet(Item,10332,0)/>を用意するように言われた。「<Sheet(Item,10332,0)/>」を入手し、コスタ・デル・ソルにいる「紅蓮祭調理担当ヒルドラナ」に納品しよう。
+
+※「<Sheet(Item,10332,0)/>」は、調理師が製作することができます。また、マーケットボードなどで購入することもできます。"
+2,"TEXT_FESSUM504_03666_SEQ_02","ヒルドラナに<Sheet(Item,10332,0)/>を納品した。紅蓮祭を盛り上げるために、また「調理大会」に参加するのもよいだろう。"
 3,"TEXT_FESSUM504_03666_SEQ_03",""
 4,"TEXT_FESSUM504_03666_SEQ_04",""
 5,"TEXT_FESSUM504_03666_SEQ_05",""
@@ -27,7 +34,7 @@ int32,str,str
 21,"TEXT_FESSUM504_03666_SEQ_21",""
 22,"TEXT_FESSUM504_03666_SEQ_22",""
 23,"TEXT_FESSUM504_03666_SEQ_23",""
-24,"TEXT_FESSUM504_03666_TODO_00","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Obtain a serving of battered fish<Else/>Deliver the serving of battered fish to Hildelana</If>."
+24,"TEXT_FESSUM504_03666_TODO_00","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))><Sheet(Item,10332,0)/>を入手<Else/>紅蓮祭調理担当ヒルドラナに<Sheet(Item,10332,0)/>を納品</If>"
 25,"TEXT_FESSUM504_03666_TODO_01",""
 26,"TEXT_FESSUM504_03666_TODO_02",""
 27,"TEXT_FESSUM504_03666_TODO_03",""
@@ -51,13 +58,30 @@ int32,str,str
 45,"TEXT_FESSUM504_03666_TODO_21",""
 46,"TEXT_FESSUM504_03666_TODO_22",""
 47,"TEXT_FESSUM504_03666_TODO_23",""
-48,"TEXT_FESSUM504_03666_HILDELANA_000_000","Greetings, my gourmet-inclined friend! Since you've stepped up to speak to me, I presume that you're looking to take part in the one and only Iron Culinarian Challenge? Oh, happy day!"
-49,"TEXT_FESSUM504_03666_HILDELANA_000_001","Don't fret if this is your first time, for the rules of the challenge are simple enough. First, I will prescribe for you a particular dish. Next, you'll procure the necessary ingredients and get cooking. Finally, you'll bring your creation back to me for inspection. If your culinary creation is up to snuff, you'll win yourself a Faire voucher for your efforts!"
-50,"TEXT_FESSUM504_03666_HILDELANA_000_002","And now, without further ado, the dish you'll be preparing for us is...battered fish! Never saw that one coming, did you?"
-51,"TEXT_FESSUM504_03666_HILDELANA_000_003","It's a simple yet tasty treat that really is all the rage among faire-goers at this time of year. Crispy on the outside, lightly flaky on the inside...if you've never had it yourself, you really owe it to yourself to give it a try!"
-52,"TEXT_FESSUM504_03666_HILDELANA_000_004","Back again to take part in the Iron Culinarian Challenge, are we? Well, then you've come to the right place! I'll spare you the details, as I know you're an old hand at this by now."
-53,"TEXT_FESSUM504_03666_HILDELANA_000_005","If you're in need of fresh haddock, the friendly fisherman just over yonder would be happy to part with one of his catches...for the right price, of course. Now go forth, friend, and fashion a culinary creation that will win the hearts of all who partake in it!"
-54,"TEXT_FESSUM504_03666_HILDELANA_000_006","I just can't wait to feast my eyes on the battered fish you whip up for us, friend!"
-55,"TEXT_FESSUM504_03666_HILDELANA_000_010","Take a whiff of that simply scrumptious aroma! I can only assume that you have what I think you have?"
-56,"TEXT_FESSUM504_03666_HILDELANA_000_011","Why, just look at it! Freshly caught haddock, battered and fried to a deep golden brown! Why, if I hadn't already wolfed down ten pieces just today, I doubt I could keep myself from devouring it on the spot!"
-57,"TEXT_FESSUM504_03666_HILDELANA_000_012","But I jest. You may rest assured that your most mouthwatering creation will find a good home in the tummy of one of your fellow festival-goers. Take this Faire voucher as your reward, and take pride in a job well done. Farewell, and should you ever be so inclined as to show off your skills with a skillet once more, you know where to find me!"
+48,"TEXT_FESSUM504_03666_HILDELANA_000_000","紅蓮祭へのご参加、誠にありがとうございます！
+ここでは、冒険者の製作技能をアピールするために、
+「調理大会」を開催しております。"
+49,"TEXT_FESSUM504_03666_HILDELANA_000_001","ルールは簡単です。
+これからお伝えするお題のお料理を製作し、
+担当である私にお渡しください！"
+50,"TEXT_FESSUM504_03666_HILDELANA_000_002","さあ、今回冒険者のみなさんに作っていただくのは……
+「<Sheet(Item,10332,0)/>」です！"
+51,"TEXT_FESSUM504_03666_HILDELANA_000_003","紅蓮祭会場に遊びに来てくださったお客さんにも、
+人気の料理なんですよ！"
+52,"TEXT_FESSUM504_03666_HILDELANA_000_004","再びの「調理大会」へのご参加、
+誠にありがとうございます。
+詳細な説明は省かせていただきますね！"
+53,"TEXT_FESSUM504_03666_HILDELANA_000_005","それでは、さっそく「<Sheet(Item,10332,0)/>」をご用意くださいね！
+材料となる「<Sheet(Item,12990,0)/>」は、
+「陽気な漁師」さんからご購入いただけますよ！"
+54,"TEXT_FESSUM504_03666_HILDELANA_000_006","「<Sheet(Item,10332,0)/>」をご用意くださいね！
+材料となる「<Sheet(Item,12990,0)/>」は、
+「陽気な漁師」さんからご購入いただけますよ！"
+55,"TEXT_FESSUM504_03666_HILDELANA_000_010","「<Sheet(Item,10332,0)/>」は、ご用意できましたか？
+材料となる「<Sheet(Item,12990,0)/>」は、
+「陽気な漁師」さんからご購入いただけますよ！"
+56,"TEXT_FESSUM504_03666_HILDELANA_000_011","……うわあ、なんて美味しそうな<Sheet(Item,10332,0)/>でしょう！
+お題はもちろんクリアです！"
+57,"TEXT_FESSUM504_03666_HILDELANA_000_012","提出いただいたお料理は、お客様にお配りして、
+冒険者の調理の腕を堪能してもらいますね！
+また挑戦をお待ちしています！"

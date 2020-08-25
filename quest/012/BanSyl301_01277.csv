@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANSYL301_01277_SEQ_00","Moxia believes milkroot is best used in moderation."
-1,"TEXT_BANSYL301_01277_SEQ_01","Moxia fears that excessive consumption of milkroot by the sylphs of the Sylphlands is contributing to their descent into madness. Get at the root of the problem by chopping down milkroot clusters or milkroot saplings, and harvest six bundles of fresh milkroot to prevent the substance from falling into the hands of those who would misuse it."
-2,"TEXT_BANSYL301_01277_SEQ_02","You have harvested six bundles of fresh milkroot, decimating the naughty ones' supply in the process. Deliver your haul to Moxia."
-3,"TEXT_BANSYL301_01277_SEQ_03","Moxia thanks you profusely for the milkroot, praising its exceptional freshness while giving nary a mention of her original aim in sending you to harvest it. For all her talk of moderation, it is evident that Moxia rather enjoys the root herself. Though it may not be the adventurer's place to begrudge the beleaguered sylph the occasional moment of levity, one can only hope that she knows when to say when."
+0,"TEXT_BANSYL301_01277_SEQ_00","シルフの仮宿のモキシアは、冒険者の力を借りたいようだ。"
+1,"TEXT_BANSYL301_01277_SEQ_01","モキシアからミルクルートの元になる魔物の討伐を頼まれた。シルフ領の西部にいる「<Sheet(BNpcName,162,0)/>」あるいは「<Sheet(BNpcName,165,0)/>」を討伐し、「<Sheet(EventItem,2001122,0)/>」を6つ集めよう。"
+2,"TEXT_BANSYL301_01277_SEQ_02","<Sheet(EventItem,2001122,0)/>を入手した。シルフの仮宿の「モキシア」に「<Sheet(EventItem,2001122,0)/>」を渡そう。"
+3,"TEXT_BANSYL301_01277_SEQ_03","モキシアに依頼品を渡した。モキシアは、一石二鳥の解決法にご満悦な様子で、冒険者に礼を言った。またの機会に協力しよう。"
 4,"TEXT_BANSYL301_01277_SEQ_04",""
 5,"TEXT_BANSYL301_01277_SEQ_05",""
 6,"TEXT_BANSYL301_01277_SEQ_06",""
@@ -25,8 +25,9 @@ int32,str,str
 21,"TEXT_BANSYL301_01277_SEQ_21",""
 22,"TEXT_BANSYL301_01277_SEQ_22",""
 23,"TEXT_BANSYL301_01277_SEQ_23",""
-24,"TEXT_BANSYL301_01277_TODO_00","Slay milkroot saplings or milkroot clusters and obtain fresh milkroot."
-25,"TEXT_BANSYL301_01277_TODO_01","Deliver the fresh milkroot to Moxia."
+24,"TEXT_BANSYL301_01277_TODO_00","<Sheet(BNpcName,162,0)/>か<Sheet(BNpcName,165,0)/>を討伐し
+<Sheet(EventItem,2001122,0)/>を入手"
+25,"TEXT_BANSYL301_01277_TODO_01","モキシアに<Sheet(EventItem,2001122,0)/>を渡す"
 26,"TEXT_BANSYL301_01277_TODO_02",""
 27,"TEXT_BANSYL301_01277_TODO_03",""
 28,"TEXT_BANSYL301_01277_TODO_04",""
@@ -49,12 +50,26 @@ int32,str,str
 45,"TEXT_BANSYL301_01277_TODO_21",""
 46,"TEXT_BANSYL301_01277_TODO_22",""
 47,"TEXT_BANSYL301_01277_TODO_23",""
-48,"TEXT_BANSYL301_01277_MOXIA_000_000","This one enjoys milkroot as much as any one. But naughty ones...some naughty ones enjoy milkroot a little too much. Turns naughty ones' minds to muck."
-49,"TEXT_BANSYL301_01277_MOXIA_000_001","Those ones forget once being like these ones, and become naughtier and naughtier. These ones' words no longer reach naughty ones."
-50,"TEXT_BANSYL301_01277_MOXIA_000_002","So these ones must cut this problem off at the─tee hee─root! Harvest milkroot before it falls into naughty ones' hands."
-51,"TEXT_BANSYL301_01277_MOXIA_000_003","Naughty ones' favorite milkroot comes from sappy ones and cluster ones. Brave one has seen those ones, yes? Brave one must bring back six bundles of the freshest, milkiest milkroot─just so this one knows the job is done. Tee hee hee!"
-52,"TEXT_BANSYL301_01277_MOXIA_000_004",""
-53,"TEXT_BANSYL301_01277_MOXIA_000_010","Brave one will chop down saplings and clusters, yes? Brave one will bring back six bundles of milkiest milkroot? This one will be waiting with wings aflutter. Tee hee hee!"
-54,"TEXT_BANSYL301_01277_MOXIA_000_020","<sniff> <sniff> ...Does brave one have something for this one?"
-55,"TEXT_BANSYL301_01277_MOXIA_000_021","<sniff> What lovely, milky milkroot! Tee hee! Yes... <sniff> ...This is the milky-wilky-milkiest milk-woot this one has ever milky-wilkied! Tee hee hee!"
-56,"TEXT_BANSYL301_01277_MOXIA_000_022","Naughty ones...? <sniff> Is brave one a naughty one? This one can be naughty, too, tee hee!"
+48,"TEXT_BANSYL301_01277_MOXIA_000_000","冒険者さん、聞いてほしいでふっち。
+悪い子シルフたちが、チョーシにのってるでふっち。"
+49,"TEXT_BANSYL301_01277_MOXIA_000_001","あいつら、「ミルクルート」をわんさか使ってるせいで、
+わたぴらがいくらイタズラしても
+へっちゃらなのでふっち。"
+50,"TEXT_BANSYL301_01277_MOXIA_000_002","でも、わたぴはいいこと思いついたのでふっち。
+「ミルクルート」の元になる魔物を倒せばいいのでふっち！"
+51,"TEXT_BANSYL301_01277_MOXIA_000_003","「<Sheet(BNpcName,162,0)/>」か、
+「<Sheet(BNpcName,165,0)/>」をやっつけて、
+「<Sheet(EventItem,2001122,0)/>」を6個持ってきてほしいでふっち！"
+52,"TEXT_BANSYL301_01277_MOXIA_000_004","(カット)"
+53,"TEXT_BANSYL301_01277_MOXIA_000_010","「<Sheet(BNpcName,162,0)/>」か、
+「<Sheet(BNpcName,165,0)/>」をやっつけて、
+「<Sheet(EventItem,2001122,0)/>」を6個持ってきてほしいでふっち！"
+54,"TEXT_BANSYL301_01277_MOXIA_000_020","冒険者さん！
+「ミルクルート」の元になる魔物は、
+やっつけたでふっち？"
+55,"TEXT_BANSYL301_01277_MOXIA_000_021","おお、よくやってくれたでふっち。
+これで悪い子シルフたちは、
+しばらくの間、「ミルクルート」を使えなくなるのでふっち！"
+56,"TEXT_BANSYL301_01277_MOXIA_000_022","そちて、わたぴの手には「<Sheet(EventItem,2001122,0)/>」がこんなに……
+ふちちち……一石二鳥でふっち。
+笑いが止まらんでふっち……ふちちち。"

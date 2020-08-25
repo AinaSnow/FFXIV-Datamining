@@ -1,9 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANPIX105_03693_SEQ_00","Uin Nee is anxious about their dealings with the Nu Mou.
+0,"TEXT_BANPIX105_03693_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト受注クラス・ジョブ制限<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+※本クエストは受注時のクラス・ジョブでのみ進行します。
 
-※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
+リダ・ラーンのウィン＝ニイは、ン・モゥ族との取引で悩みがあるようだ。"
 1,"TEXT_BANPIX105_03693_SEQ_01",""
 2,"TEXT_BANPIX105_03693_SEQ_02",""
 3,"TEXT_BANPIX105_03693_SEQ_03",""
@@ -27,8 +28,9 @@ int32,str,str
 21,"TEXT_BANPIX105_03693_SEQ_21",""
 22,"TEXT_BANPIX105_03693_SEQ_22",""
 23,"TEXT_BANPIX105_03693_SEQ_23",""
-24,"TEXT_BANPIX105_03693_TODO_00","Survey the designated location north of Phisor Lran and slay a sweet echevore for its tail."
-25,"TEXT_BANPIX105_03693_TODO_01","Deliver the echevore tail to Uin Nee."
+24,"TEXT_BANPIX105_03693_TODO_00","フィソー・ラーン北の<Sheet(EObj,2010864,0)/>で見渡し、
+現れた<Sheet(BNpcName,9164,0)/>から<Sheet(EventItem,2002926,0)/>を入手"
+25,"TEXT_BANPIX105_03693_TODO_01","ウィン＝ニイに<Sheet(EventItem,2002926,0)/>を渡す"
 26,"TEXT_BANPIX105_03693_TODO_02",""
 27,"TEXT_BANPIX105_03693_TODO_03",""
 28,"TEXT_BANPIX105_03693_TODO_04",""
@@ -51,12 +53,25 @@ int32,str,str
 45,"TEXT_BANPIX105_03693_TODO_21",""
 46,"TEXT_BANPIX105_03693_TODO_22",""
 47,"TEXT_BANPIX105_03693_TODO_23",""
-48,"TEXT_BANPIX105_03693_UINNEE_000_000","Well, if it isn't my favorite mortal! And do you know <Emphasis>why</Emphasis> you're my favorite? Why, it's because you have a knack for showing up <Emphasis>precisely</Emphasis> when I need something done. Like now, for example!"
-49,"TEXT_BANPIX105_03693_UINNEE_000_001","You see, I've asked a Nu Mou crafter to craft me a delightful new toy to bring to the children in their dreams, and I promised I'd repay them with something very, very special─an echevore tail, to be precise!"
-50,"TEXT_BANPIX105_03693_UINNEE_000_002","Have you ever seen an echevore tail? You can smell them or sip from them, and they have the taste and aroma of sweet, sweet honey! A bit <Emphasis>too</Emphasis> sweet for my liking, to tell the truth, but the Nu Mou just can't seem to get enough of them."
-51,"TEXT_BANPIX105_03693_UINNEE_000_003","But there's a bit of a rub. The sweetest of the sweet echevores can only be found distressingly close to the stomping grounds of those oh-so-nasty Fuath. Just imagining being gripped in those slimy, slippery, slobbery hands makes me─ick! Why did you make me think such unpleasant thoughts!?"
-52,"TEXT_BANPIX105_03693_UINNEE_000_004","Hmph! As penance, I demand that you go forth and fetch the echevore tail that I seek! And if you see any Fuath along the way, feel free to smack them in their smarmy faces with those stupid little hats of theirs!"
-53,"TEXT_BANPIX105_03693_UINNEE_000_010","<sniff> Is that sweet, sweet honey I smell? I knew you wouldn't come back empty-handed! Well, hand it over then, already!"
-54,"TEXT_BANPIX105_03693_UINNEE_000_011","Why, I say, this is the sweetest aroma I've ever had the pleasure of smelling! Perhaps those Nu Mou <Emphasis>do</Emphasis> know what they're talking about. Perhaps they won't mind if I take just a teeny-tiny smidgen..."
-55,"TEXT_BANPIX105_03693_UINNEE_000_012","Ahem! Which is to say, of <Emphasis>course</Emphasis> I'm not thinking of taking a sip! We pixies have <Emphasis>far</Emphasis> more refined palates than those silly Nu Mou. We're not ones to sit around all day sucking on these icky tails!"
-56,"TEXT_BANPIX105_03693_UINNEE_000_013","At any rate, thank you as always for being so subser─er, helpful! So helpful! Please come back again soon! Now, just a tiny little... Hmm? You're still here?"
+48,"TEXT_BANPIX105_03693_UINNEE_000_000","ねぇねぇ、お願いしたいことがあるの！
+ン・モゥ族に、夢の中に持っていくオモチャを、
+作ってもらいたいのだけれど……"
+49,"TEXT_BANPIX105_03693_UINNEE_000_001","当然、それには対価が必要になるの。
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さんに集めてほしいのは、
+彼らに対価として支払う「<Sheet(EventItem,2002926,0)/>」よ。"
+50,"TEXT_BANPIX105_03693_UINNEE_000_002","あれって、吸うと蜜の味がするでしょ？
+だから、好物にしてるン・モゥ族も多いみたいでね……。"
+51,"TEXT_BANPIX105_03693_UINNEE_000_003","ただ、やっかいなのは、蜜たっぷりの尾を持つエケボアは、
+フーア族の縄張りの近くにしか、出没しないってこと。
+連中に見つかったら、何をされるかわからないわ。"
+52,"TEXT_BANPIX105_03693_UINNEE_000_004","でも、強そうなアナタなら、襲われることも少ないはず！
+ここから東の方で「<Sheet(BNpcName,9164,0)/>」を探して、
+その尾を獲ってきてちょうだい！"
+53,"TEXT_BANPIX105_03693_UINNEE_000_010","「<Sheet(EventItem,2002926,0)/>」、手に入ったかしら？"
+54,"TEXT_BANPIX105_03693_UINNEE_000_011","まぁ、おいしそうな香りじゃない～！
+それじゃ、ちょっとだけ……。"
+55,"TEXT_BANPIX105_03693_UINNEE_000_012","……だ、大丈夫よ！
+ちゃんと、このままン・モゥ族に渡すわ！
+ちょっとだけいただこうなんて、思ってるわけないじゃない！"
+56,"TEXT_BANPIX105_03693_UINNEE_000_013","調達ありがとう、よかったらまたお願いね！
+…………さあて、ちょっとだけなら……。"

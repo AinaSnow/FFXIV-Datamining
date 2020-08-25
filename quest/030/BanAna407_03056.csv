@@ -1,9 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANANA407_03056_SEQ_00","Eshana needs you to deal with a monster at the Pall of Clarity.
+0,"TEXT_BANANA407_03056_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト受注クラス・ジョブ制限<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+※本クエストは受注時のクラス・ジョブでのみ進行します。
 
-※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
+カステッルム・ベロジナのエシャナは、迷悟橋に居座る魔物の討伐を頼みたいようだ。"
 1,"TEXT_BANANA407_03056_SEQ_01",""
 2,"TEXT_BANANA407_03056_SEQ_02",""
 3,"TEXT_BANANA407_03056_SEQ_03",""
@@ -27,8 +28,8 @@ int32,str,str
 21,"TEXT_BANANA407_03056_SEQ_21",""
 22,"TEXT_BANANA407_03056_SEQ_22",""
 23,"TEXT_BANANA407_03056_SEQ_23",""
-24,"TEXT_BANANA407_03056_TODO_00","Use the blood red eye drops on the formidable foper, then slay it."
-25,"TEXT_BANANA407_03056_TODO_01","Report to Eshana."
+24,"TEXT_BANANA407_03056_TODO_00","迷悟橋付近の<Sheet(BNpcName,7030,0)/>に<Sheet(EventItem,2002438,0)/>を使い討伐"
+25,"TEXT_BANANA407_03056_TODO_01","エシャナに報告"
 26,"TEXT_BANANA407_03056_TODO_02",""
 27,"TEXT_BANANA407_03056_TODO_03",""
 28,"TEXT_BANANA407_03056_TODO_04",""
@@ -51,9 +52,19 @@ int32,str,str
 45,"TEXT_BANANA407_03056_TODO_21",""
 46,"TEXT_BANANA407_03056_TODO_22",""
 47,"TEXT_BANANA407_03056_TODO_23",""
-48,"TEXT_BANANA407_03056_ESHANA_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, there is a foper of extraordinary sssize lurking near the Pall of Clarity."
-49,"TEXT_BANANA407_03056_ESHANA_000_001","That bridge is used to transssport goods from the western bank of the Velodyna River to Rhalgr's Reach, and we can't have sssome monssstrous fiend claiming the area as itsss territory. Pray head over there and <Emphasis>persssuade</Emphasis> it to leave."
-50,"TEXT_BANANA407_03056_ESHANA_000_002","Ordinary fopers are nasssty enough, ssso I've procured an alchemical concoction you can fling in that overgrown thing's eye. That should weaken the creature consssiderably, and give you an easier time of it."
-51,"TEXT_BANANA407_03056_ESHANA_000_010","Did the foper give you any trouble?"
-52,"TEXT_BANANA407_03056_ESHANA_000_011","My thanksss. That is one less threat we need worry about. There would be little chance of essscape if the monssster attacked anyone crossing that narrow bridge."
-53,"TEXT_BANANA407_03056_ESHANA_000_012","Hmmm. I know not if these creatures cherish the view from up there, but no matter how many times we drive them away, sssooner or later we always find another in the exact same place..."
+48,"TEXT_BANANA407_03056_ESHANA_000_000","シュー……君に、ある魔物の討伐をお願いしたい。
+ベロジナ川西岸とラールガーズリーチ方面とを繋ぐ迷悟橋に、
+大型のフォーパーがたびたび現れるのだ。"
+49,"TEXT_BANANA407_03056_ESHANA_000_001","物資運輸などでよく使う橋であるから、居座られては困る。
+我らの手が足りないゆえ、君に討伐を頼みたい。"
+50,"TEXT_BANANA407_03056_ESHANA_000_002","「<Sheet(BNpcName,7030,0)/>」は、そのままでは頑強だが、
+刺激物が含まれている、この「<Sheet(EventItem,2002438,0)/>」を使うとだいぶ弱る。
+討伐の際は、これを使ってから攻撃するといいだろう。"
+51,"TEXT_BANANA407_03056_ESHANA_000_010","シュー……同志よ、
+<Sheet(BNpcName,7030,0)/>は無事に討伐できただろうか？"
+52,"TEXT_BANANA407_03056_ESHANA_000_011","ありがとう、これでまたひとつ脅威を退けられた。
+民間人が、迷悟橋のような狭い橋で、
+あのフォーパーににらまれたら、逃げるのは至難の業だからな。"
+53,"TEXT_BANANA407_03056_ESHANA_000_012","奴は、荘厳な景色でも見ているのかどうかわからないが、
+何度討伐しても、あの場所にばかり現れるのだ。
+また現れたら、よろしく頼む。"

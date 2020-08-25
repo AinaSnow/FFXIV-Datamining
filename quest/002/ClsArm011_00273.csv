@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSARM011_00273_SEQ_00","G'wahnako wishes you to reaffirm your desire to join the Armorers' Guild."
-1,"TEXT_CLSARM011_00273_SEQ_01","G'wahnako has directed you to speak with Forgemaster H'naanza. She can be found outside, on the guild's work floor."
-2,"TEXT_CLSARM011_00273_SEQ_02","Forgemaster H'naanza has approved your request to join the Armorers' Guild. Equip the weathered doming hammer she has given you, and speak with her once more."
+0,"TEXT_CLSARM011_00273_SEQ_00","甲冑師になり、甲冑師ギルドで学ぶために、しかるべき手続きを行わなければならない。甲冑師ギルド受付のグ・ワナッコは、冒険者の決意を確かめたいようだ。"
+1,"TEXT_CLSARM011_00273_SEQ_01","受付から、甲冑師ギルドマスター、ハ・ナンザを紹介された。甲冑師ギルドの作業場にいる「ハ・ナンザ」に挨拶に行こう。"
+2,"TEXT_CLSARM011_00273_SEQ_02","ハ・ナンザは、冒険者の甲冑師ギルドへの所属を認めてくれた。彼女にもらった「<Sheet(Item,　2366,0)/>」を装備し、再度「ハ・ナンザ」に話しかけよう。"
 3,"TEXT_CLSARM011_00273_SEQ_03",""
 4,"TEXT_CLSARM011_00273_SEQ_04",""
 5,"TEXT_CLSARM011_00273_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_CLSARM011_00273_SEQ_21",""
 22,"TEXT_CLSARM011_00273_SEQ_22",""
 23,"TEXT_CLSARM011_00273_SEQ_23",""
-24,"TEXT_CLSARM011_00273_TODO_00","Speak with H'naanza."
+24,"TEXT_CLSARM011_00273_TODO_00","ハ・ナンザと話す"
 25,"TEXT_CLSARM011_00273_TODO_01",""
 26,"TEXT_CLSARM011_00273_TODO_02",""
 27,"TEXT_CLSARM011_00273_TODO_03",""
@@ -49,23 +49,43 @@ int32,str,str
 45,"TEXT_CLSARM011_00273_TODO_21",""
 46,"TEXT_CLSARM011_00273_TODO_22",""
 47,"TEXT_CLSARM011_00273_TODO_23",""
-48,"TEXT_CLSARM011_00273_GWAHNAKO_000_1","Your mind is made up? You're ready to throw your lot in with us armorers?"
-49,"TEXT_CLSARM011_00273_GWAHNAKO_000_2","Hmph. Seemin'ly not."
-50,"TEXT_CLSARM011_00273_GWAHNAKO_000_3","Well, I should commend you on not makin' a hasty decision─the meticulous work of an armorer is not for the impatient, <If(PlayerParameter(4))>lass<Else/>lad</If>."
-51,"TEXT_CLSARM011_00273_GWAHNAKO_000_4","Then it's time you made yourself known to the forgemaster."
-52,"TEXT_CLSARM011_00273_GWAHNAKO_000_5","That's no empty title, by the way─H'naanza's a renowned shipwright, an' one of the finest crafters in Limsa Lominsa."
-53,"TEXT_CLSARM011_00273_GWAHNAKO_000_6","Head outside an' you'll find her blisterin' the skins of our newest initiates."
-54,"TEXT_CLSARM011_00273_HNAANZA_000_11","Another aspiring armorer, are you? Welcome. I am H'naanza, forgemaster of this guild."
-55,"TEXT_CLSARM011_00273_HNAANZA_000_12","I take it G'wahnako has explained to you the history and nature of our craft? Good. I have little to add on that front, save this: the life of an armorer is not an easy one."
-56,"TEXT_CLSARM011_00273_HNAANZA_000_13","Day after day, you will pit flesh and blood against iron and flame. And without a passion for the forge, you will fail. But passion alone will not make an armorer of you."
-57,"TEXT_CLSARM011_00273_HNAANZA_000_14","To truly master this craft, you must be possessed of a will as unyielding as the metals you work. Knowing what lies before you, have you the fortitude to persevere?"
-58,"TEXT_CLSARM011_00273_Q1_000_1","Have you the fortitude to persevere?"
-59,"TEXT_CLSARM011_00273_A1_000_1","Yes"
-60,"TEXT_CLSARM011_00273_A1_000_2","No"
-61,"TEXT_CLSARM011_00273_HNAANZA_000_21","Hah! An honest <If(PlayerParameter(4))>woman<Else/>man</If>. There is no shame in admitting weakness─and no more for us to discuss. Fare you well, adventurer."
-62,"TEXT_CLSARM011_00273_HNAANZA_000_25","Hah! I see you have no fear of hard work."
-63,"TEXT_CLSARM011_00273_HNAANZA_000_26","That is well. Consider your request to join the guild approved."
-64,"TEXT_CLSARM011_00273_HNAANZA_000_27","But if you ever give me aught less than your best, you will be out the door before you realize my boot has connected with your backside. Are we clear on that?"
-65,"TEXT_CLSARM011_00273_HNAANZA_000_28","Good. Now that we understand each other, let us begin with the basics. What is your name?"
-66,"TEXT_CLSARM011_00273_HNAANZA_000_29","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>? Very well, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, this tool is called a doming hammer. Here, grip it firmly, note its weight."
-67,"TEXT_CLSARM011_00273_HNAANZA_000_30","Let me know when you feel comfortable with it in your hand─I'll tell you if you're holding it properly."
+48,"TEXT_CLSARM011_00273_GWAHNAKO_000_1","決心はついたのかしら？
+どうする、甲冑師ギルドに入門しちゃう？"
+49,"TEXT_CLSARM011_00273_GWAHNAKO_000_2","……ふぅ。
+仕方ないわね、もう。"
+50,"TEXT_CLSARM011_00273_GWAHNAKO_000_3","まあ、とことん悩みぬいて決めるといいわ。
+でないと、緻密な作業が多い甲冑師なんて、
+とても務まらないもの。"
+51,"TEXT_CLSARM011_00273_GWAHNAKO_000_4","ん……分かったわ。
+じゃあ、甲冑師ギルド入門の意思を、ギルドマスターに伝えてね。"
+52,"TEXT_CLSARM011_00273_GWAHNAKO_000_5","その名も、ハ・ナンザ姐さん。
+造船師としての顔も持つ、超一流の職人よ。"
+53,"TEXT_CLSARM011_00273_GWAHNAKO_000_6","今なら、外の作業場で、新米甲冑師たちの作業を指導しているわ。
+さっそく「ハ・ナンザ」姐さんに、声をかけてみて。"
+54,"TEXT_CLSARM011_00273_HNAANZA_000_11","入門希望の子かい？
+私がこの甲冑師ギルドのギルドマスターをやってるハ・ナンザさ。"
+55,"TEXT_CLSARM011_00273_HNAANZA_000_12","大まかな話は、グ・ワナッコから聞いたね？
+だったら、私から説明することはあんまりないが……
+まぁ、楽な商売じゃないってことは理解してほしいね。"
+56,"TEXT_CLSARM011_00273_HNAANZA_000_13","毎日毎日、炎と金属を相手にするキツい仕事さ。
+好きでなきゃ続かないし、好きなだけでも続かない。"
+57,"TEXT_CLSARM011_00273_HNAANZA_000_14","この道を究めるっていう、強い意志が必要さ。
+こう言われてもなお、甲冑師ギルドに入りたいかい？"
+58,"TEXT_CLSARM011_00273_Q1_000_1","甲冑師ギルドに入門したい？"
+59,"TEXT_CLSARM011_00273_A1_000_1","はい"
+60,"TEXT_CLSARM011_00273_A1_000_2","いいえ"
+61,"TEXT_CLSARM011_00273_HNAANZA_000_21","……なんだ、ビビっちまったのかい？
+ま、やっぱりやめるって言うなら、この話はここまでだね。"
+62,"TEXT_CLSARM011_00273_HNAANZA_000_25","へぇ……言いきったね。
+驚いたよ、私の話を聞いても動じないなんて。"
+63,"TEXT_CLSARM011_00273_HNAANZA_000_26","だったら、私はあんたの言葉を信じるだけだ。
+甲冑師ギルドへの入門、認めるよ。"
+64,"TEXT_CLSARM011_00273_HNAANZA_000_27","ただし、ちょっとでもへこたれたら、そんときゃクビだ。
+そのくらいの気持ちで接するから、覚悟しときな。"
+65,"TEXT_CLSARM011_00273_HNAANZA_000_28","……なんて、脅かすのはここまでにしようか。
+心が折れるかなんて、やってみなけりゃ分からないしね。
+それで、あんたの名は？"
+66,"TEXT_CLSARM011_00273_HNAANZA_000_29","……じゃあ<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、こいつを装備してみな。
+「<Sheet(Item,　2366,0)/>」、甲冑師の道具さ。"
+67,"TEXT_CLSARM011_00273_HNAANZA_000_30","装備したら、私に声をかけてくれ。
+おかしいところがないか、私が確かめてやるから。"

@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB204_00835_SEQ_00","Fyrilsunn has some makeshift explosives at his disposal. What could possibly go wrong?"
-1,"TEXT_GAIUSB204_00835_SEQ_01","In an act of aggression towards the people of Costa del Sol, the kobolds have begun moving their underground refiners closer to the settlement. Unwilling to take this antagonism sitting down, Fyrilsunn has prepared makeshift bombs, which he bids you throw at the kobolds' refiners to destroy them."
-2,"TEXT_GAIUSB204_00835_SEQ_02","You have blown up all of the kobolds' refiners and have dispatched the angry bombs that were powering them. Report to Fyrilsunn."
-3,"TEXT_GAIUSB204_00835_SEQ_03","Fyrilsunn gives you a warm welcome upon your return, having witnessed the refiners' demise from his location. He expresses concern, however, at the fact that Costa del Sol is likely ill equipped to deal with future antagonistic acts from the kobolds. It would seem as though you might be needed in the area a bit longer."
+0,"TEXT_GAIUSB204_00835_SEQ_00","コスタ・デル・ソルのフィリルスンは、なにやら考えがあるようだ。"
+1,"TEXT_GAIUSB204_00835_SEQ_01","コボルド族が<Sheet(EObj,2002053,0)/>を持ちだし、何かを画策しているらしい。<Sheet(EventItem,2000651,0)/>を使って「<Sheet(EObj,2002053,0)/>」を3つ爆破しよう。"
+2,"TEXT_GAIUSB204_00835_SEQ_02","<Sheet(EObj,2002053,0)/>をすべて爆破した。コスタ・デル・ソルの「フィリルスン」に報告しよう。"
+3,"TEXT_GAIUSB204_00835_SEQ_03","コボルド族の悪事は、タチが悪くなってきているらしい。フィリルスンは冒険者のことを頼りにしているようだ。"
 4,"TEXT_GAIUSB204_00835_SEQ_04",""
 5,"TEXT_GAIUSB204_00835_SEQ_05",""
 6,"TEXT_GAIUSB204_00835_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSB204_00835_SEQ_21",""
 22,"TEXT_GAIUSB204_00835_SEQ_22",""
 23,"TEXT_GAIUSB204_00835_SEQ_23",""
-24,"TEXT_GAIUSB204_00835_TODO_00","Throw makeshift bombs at the refiners and slay all foes."
-25,"TEXT_GAIUSB204_00835_TODO_01","Report to Fyrilsunn."
+24,"TEXT_GAIUSB204_00835_TODO_00","<Sheet(EObj,2002053,0)/>を<Sheet(EventItem,2000651,0)/>で破壊"
+25,"TEXT_GAIUSB204_00835_TODO_01","フィリルスンに報告"
 26,"TEXT_GAIUSB204_00835_TODO_02",""
 27,"TEXT_GAIUSB204_00835_TODO_03",""
 28,"TEXT_GAIUSB204_00835_TODO_04",""
@@ -49,9 +49,18 @@ int32,str,str
 45,"TEXT_GAIUSB204_00835_TODO_21",""
 46,"TEXT_GAIUSB204_00835_TODO_22",""
 47,"TEXT_GAIUSB204_00835_TODO_23",""
-48,"TEXT_GAIUSB204_00835_FYRILSUNN_000_000","The kobolds are up to something. See those contraptions out along the road to the west? They've gone so far as to set up their damn refiners within yalms of our beach! And you know what I say? It's time to blow them to kingdom come!"
-49,"TEXT_GAIUSB204_00835_FYRILSUNN_000_001","I just happen to have made some makeshift bombs for the occasion. But, uh...I've never thrown one before. Look, adventurer, I've seen you around here, and you seem a capable sort. Could you take these and pitch them at the refiners for me?"
-50,"TEXT_GAIUSB204_00835_DUMMY_000_010",""
-51,"TEXT_GAIUSB204_00835_FYRILSUNN_000_020","That was some right fine work! I could see those blasted machines light up from here. You've got talent, which is a good thing, 'cause the kobolds are too much for us to handle."
-52,"TEXT_GAIUSB204_00835_FYRILSUNN_000_021","But thanks to you, we got them this time! I only hope you're not planning on leaving us any time soon. I've no doubt we're going to need your help again before this is over."
-53,"TEXT_GAIUSB204_00835_POP_MESSAGE_000","A pair of angry grenades appear!"
+48,"TEXT_GAIUSB204_00835_FYRILSUNN_000_000","コボルド族が「<Sheet(EObj,2002053,0)/>」を持ちだして、
+何か企んでやがるみたいなんだ。
+これ以上、奴らの進出を許せば、ここも危ない。"
+49,"TEXT_GAIUSB204_00835_FYRILSUNN_000_001","その風貌からして、お前は冒険者だろ？
+この「<Sheet(EventItem,2000651,0)/>」を、
+「<Sheet(EObj,2002053,0)/>」に仕込んで、爆破してきてくれよ。"
+50,"TEXT_GAIUSB204_00835_DUMMY_000_010","（コボルド精錬機（可視）に「爆薬」を使う
+　ボムが２匹ポップ。それを倒す。※３匹）"
+51,"TEXT_GAIUSB204_00835_FYRILSUNN_000_020","おう、きっちり破壊してくれたみてぇだな！
+……コボルド族の悪事は、段々タチが悪くなってきててよ。
+もう、俺らだけじゃ手に負えねぇんだ……。"
+52,"TEXT_GAIUSB204_00835_FYRILSUNN_000_021","だが、お前のお陰で何事もなく済んだ。
+お前が腕利きで助かったぜ！
+また困ったことがあったら、頼らせてもらうぞ！"
+53,"TEXT_GAIUSB204_00835_POP_MESSAGE_000","敵の気配を感じた！！"

@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_MANWIL006_00628_SEQ_00","Fufulupa would entrust you with a matter of grave import."
-1,"TEXT_MANWIL006_00628_SEQ_01","Fufulupa reveals that he has found a sealed letter addressed to Sultansworn Owyne among his disgraced predecessor's belongings. Uncertain of what to make of his discovery, he bids you deliver the letter to Momodi of the Quicksand, a steadfast supporter of the royal family."
-2,"TEXT_MANWIL006_00628_SEQ_02","Momodi does not hesitate to brush aside your concerns, assuring you that Owyne would never betray the sultana. However, she has her own suspicions regarding the letter..."
+0,"TEXT_MANWIL006_00628_SEQ_00","ホライズンの新任隊長代理フフルパは、冒険者にある封書を届けてほしいようだ。"
+1,"TEXT_MANWIL006_00628_SEQ_01","重要事項が書かれていると推測される封書を発見したフフルパ。彼は「銀冑団のオワイン」に封書を届けてほしいと冒険者に依頼する。しかし、銀冑団本部に入ることは簡単なことではならしい。クイックサンドの「モモディ」に「オワイン宛の封書」を渡し、相談してみよう。"
+2,"TEXT_MANWIL006_00628_SEQ_02","封書の宛名を見た瞬間、モモディは考え込んでしまった。どうやら、冒険者の腕を見込んで頼みたいことがあるようだ。どんな事態にも対応できるよう準備を整え、モモディに声をかけよう。"
 3,"TEXT_MANWIL006_00628_SEQ_03",""
 4,"TEXT_MANWIL006_00628_SEQ_04",""
 5,"TEXT_MANWIL006_00628_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_MANWIL006_00628_SEQ_21",""
 22,"TEXT_MANWIL006_00628_SEQ_22",""
 23,"TEXT_MANWIL006_00628_SEQ_23",""
-24,"TEXT_MANWIL006_00628_TODO_00","Show the letter to Momodi."
+24,"TEXT_MANWIL006_00628_TODO_00","クイックサンドのモモディにオワイン宛の封書を渡す"
 25,"TEXT_MANWIL006_00628_TODO_01",""
 26,"TEXT_MANWIL006_00628_TODO_02",""
 27,"TEXT_MANWIL006_00628_TODO_03",""
@@ -49,23 +49,51 @@ int32,str,str
 45,"TEXT_MANWIL006_00628_TODO_21",""
 46,"TEXT_MANWIL006_00628_TODO_22",""
 47,"TEXT_MANWIL006_00628_TODO_23",""
-48,"TEXT_MANWIL006_00628_FUFULUPA_000_1","I salute you, honored friend. As acting captain, I should be much obliged if you would grant me a personal request."
-49,"TEXT_MANWIL006_00628_FUFULUPA_000_2","In our efforts to ascertain the full extent of the former captain's corruption, we have been poring over his personal correspondence."
-50,"TEXT_MANWIL006_00628_FUFULUPA_000_3","Our search unearthed this sealed letter addressed to a man named Owyne."
-51,"TEXT_MANWIL006_00628_FUFULUPA_000_4","But he is one of the Sultansworn elite! I can think of no reason why he should have any dealings with Baldewyn!"
-52,"TEXT_MANWIL006_00628_FUFULUPA_100_4","We now know that the former captain was consorting with a coalition of criminals... Could it be that Owyne was, too!?"
-53,"TEXT_MANWIL006_00628_FUFULUPA_000_5","This letter may well serve as evidence of their collusion, and so I dare not tamper with it myself."
-54,"TEXT_MANWIL006_00628_FUFULUPA_000_6","But given the events of recent days, I knew not whom to trust with this information─until now."
-55,"TEXT_MANWIL006_00628_FUFULUPA_000_7","I have chosen you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Pray bear the letter to Mistress Momodi of the Quicksand, and relate the circumstances of its discovery."
-56,"TEXT_MANWIL006_00628_FUFULUPA_000_8","Not only is she a staunch supporter of the sultana, but she is well acquainted with the Sultansworn. She will know how best to proceed."
-57,"TEXT_MANWIL006_00628_MOMODI_000_10","Ah, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! It's been too long! Dadanen tells me you've been keepin' busy in Horizon."
-58,"TEXT_MANWIL006_00628_MOMODI_000_11","I want you to know that I'm grateful for everythin' you've done for the people of Ul'dah."
-59,"TEXT_MANWIL006_00628_MOMODI_000_12","Even though you've seen the seedier side of our city, you've continued to help your fellow man. Believe me, the folk around here love you for it."
-60,"TEXT_MANWIL006_00628_MOMODI_000_13","Hmmm? What is it? You look like you've got somethin' to say."
-61,"TEXT_MANWIL006_00628_MOMODI_000_14","...So <Emphasis>that's</Emphasis> what this is all about."
-62,"TEXT_MANWIL006_00628_MOMODI_000_15","Fufulupa's thinkin' Owyne might've been in league with Baldewyn─that this letter could be proof of somethin' shady."
-63,"TEXT_MANWIL006_00628_MOMODI_000_16","Well he needn't worry. Owyne's as loyal a Sultansworn as I've ever known. I haven't the foggiest what this says, but─"
-64,"TEXT_MANWIL006_00628_MOMODI_000_17","Wait a minute. Wasn't Owyne the one who...?"
-65,"TEXT_MANWIL006_00628_MOMODI_000_18","Oh, hells... I've got a bad feelin' about this."
-66,"TEXT_MANWIL006_00628_MOMODI_000_19","Listen, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>─I think I know what this is all about, but I need you to swear to keep it quiet."
-67,"TEXT_MANWIL006_00628_MOMODI_000_20","If you'd rather wash your hands of this business, I won't hold it against you. But if you're determined to see it through to the bitter end, say the word and I'll explain."
+48,"TEXT_MANWIL006_00628_FUFULUPA_000_1","冒険者殿！
+是非とも貴公にお仕事をお願いしたいのであります！
+自分が隊長代理となって、初めての仕事であります！"
+49,"TEXT_MANWIL006_00628_FUFULUPA_000_2","実は先ほど、バルドウィンの不正を暴こうと
+隊長室にある彼の机を調べたのであります。
+そしたら、こんな手紙が出てきたのでありますが……。"
+50,"TEXT_MANWIL006_00628_FUFULUPA_000_3","どうやら未開封のようなのであります。
+しかも宛先は……「銀冑団のオワイン」……。"
+51,"TEXT_MANWIL006_00628_FUFULUPA_000_4","そうなのであります！
+「銀冑団」といえばウルダハ王家に仕える近衛隊。
+きっと内容は重要な用件に違いないのであります！"
+52,"TEXT_MANWIL006_00628_FUFULUPA_100_4","盗賊に密輸していたバルドウィンが持っていた手紙……。
+しかも宛先は近衛隊……。
+もしかしたら、例の王冠の件かもしれないのであります！"
+53,"TEXT_MANWIL006_00628_FUFULUPA_000_5","冒険者殿！　どうかこの手紙を
+オワイン殿に渡してほしいであります！"
+54,"TEXT_MANWIL006_00628_FUFULUPA_000_6","とはいえ、いきなり銀冑団の総長室に押しかけても、
+門前払いをされるだけだと思うであります。"
+55,"TEXT_MANWIL006_00628_FUFULUPA_000_7","ここは是非、顔の広いクイックサンドのモモディ女史に
+相談するとよいであります！"
+56,"TEXT_MANWIL006_00628_FUFULUPA_000_8","よろしくお願いするであります！
+我々ホライズン銅刃団ローズ連隊は、
+いつでも冒険者殿を歓迎しているでありますッ！"
+57,"TEXT_MANWIL006_00628_MOMODI_000_10","あら、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>さん。
+ダダネンさんから連絡があったわ。
+大活躍だったそうじゃない！"
+58,"TEXT_MANWIL006_00628_MOMODI_000_11","わたしからも、お礼を言わなきゃね！
+ありがとう！"
+59,"TEXT_MANWIL006_00628_MOMODI_000_12","ウルダハの両面を見た感想はいかが？
+あなたが少しでも、ウルダハのことを
+好きになってくれたら嬉しいのだけど。"
+60,"TEXT_MANWIL006_00628_MOMODI_000_13","……あら、わたしに頼み事？
+何かしら？"
+61,"TEXT_MANWIL006_00628_MOMODI_000_14","……この手紙を「銀冑団」へ届けるのね。"
+62,"TEXT_MANWIL006_00628_MOMODI_000_15","銀冑団は、王家に仕える近衛兵団……。
+確かに、冒険者のあなたが、
+いきなり渡しに行くのは無理かもしれないわね。"
+63,"TEXT_MANWIL006_00628_MOMODI_000_16","オワインさんって方に、渡せばいいのね。
+わかったわ、任せてちょうだい！"
+64,"TEXT_MANWIL006_00628_MOMODI_000_17","待って……オワインですって……？
+それって、もしかして……。"
+65,"TEXT_MANWIL006_00628_MOMODI_000_18","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>さん。
+……いえ、もう余所余所しいのは止めましょう。
+あなたはわたしたちの仲間ですもの。"
+66,"TEXT_MANWIL006_00628_MOMODI_000_19","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
+あなたの腕を見込んで頼みたいことがあるわ。"
+67,"TEXT_MANWIL006_00628_MOMODI_000_20","少し厄介なことになるかもしれない。
+準備ができたら、声をかけてくれるかしら。"

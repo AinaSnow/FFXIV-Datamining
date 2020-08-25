@@ -1,14 +1,14 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSC208_00967_SEQ_00","Davyd is sweating profusely..."
-1,"TEXT_GAIUSC208_00967_SEQ_01","Davyd informs you that Mimidoa has come to the Isles of Umbra in search of you. Return to the northern shore and greet the old man."
-2,"TEXT_GAIUSC208_00967_SEQ_02","According to Mimidoa, a siren is behind the recent troubles. Declaring that the two of you must stop the creature, he furnishes you with a pair of brass earplugs and bids you follow him to the Ship Graveyard."
-3,"TEXT_GAIUSC208_00967_SEQ_03","You arrive at the Ship Graveyard to find that the grizzled Lalafell has prepared a large campfire. Convinced that the flames will draw the siren to shore, he instructs you to wait with him by the fire until she appears."
-4,"TEXT_GAIUSC208_00967_SEQ_04","Just as you and Mimidoa are about to drift off to sleep, the siren emerges and begins to sing her beguiling song. Shocked into wakefulness, you plug your ears just in time to prevent the creature from luring you to a watery grave. Finding that her words have fallen on hastily deafened ears, she proceeds to send wave after wave of undead thralls to assail you in vain, before at last relenting and retreating to the depths whence she came. Find out if Mimidoa is still in possession of his wits."
-5,"TEXT_GAIUSC208_00967_SEQ_05","To your great relief, Mimidoa is unharmed and in good spirits. The redoubtable old Lalafell applauds you on your performance, and proclaims that the siren will not risk returning to the Isles of Umbra for some time. Return to Davyd and tell him that the siren is no longer a threat."
-6,"TEXT_GAIUSC208_00967_SEQ_06","Davyd is both shocked and relieved to hear your tale, and he rewards you with the corrupted shard as promised. Return to Aleport and present the shard to Ceana."
-7,"TEXT_GAIUSC208_00967_SEQ_07","Betraying no hint of sympathy, Ceana reveals that the corrupted shard is the manifestation of an over-abundance of the element of fire, and that it will do little if anything to tame the element of wind. It would seem that your adventures in Aleport have been a waste of time."
+0,"TEXT_GAIUSC208_00967_SEQ_00","シリウス大灯台のダヴィッドは鍛冶師を出迎えたいようだ。"
+1,"TEXT_GAIUSC208_00967_SEQ_01","ダヴィッドから出迎えを頼まれた。船着場に向かい、鍛冶師「ミミドア」と話そう。"
+2,"TEXT_GAIUSC208_00967_SEQ_02","「美しい歌声」の正体はセイレーンと呼ばれる魔物らしい。「船の墓場」に向かった鍛冶師「ミミドア」と話そう。"
+3,"TEXT_GAIUSC208_00967_SEQ_03","セイレーンを待ち伏せるため、船の墓場の「<Sheet(EObj,2002189,0)/>」で待機しよう。"
+4,"TEXT_GAIUSC208_00967_SEQ_04","セイレーンを撃退することができた。「船の墓場」の鍛冶師「ミミドア」と話そう。"
+5,"TEXT_GAIUSC208_00967_SEQ_05","ミミドアは去ったセイレーンを追うため、冒険者に別れを告げた。シリウス大灯台に戻り「ダヴィッド」に報告しよう。"
+6,"TEXT_GAIUSC208_00967_SEQ_06","ダヴィッドから「<Sheet(EventItem,2000841,0)/>」を受け取った。エールポートに戻り「シアーナ」に渡そう。"
+7,"TEXT_GAIUSC208_00967_SEQ_07","「風」属性を「水」属性に変換するクリスタルを手に入れた。もうひとつクリスタルを組み合わせれば、求める機能を飛空艇「エンタープライズ」に組みこめるはずだ。"
 8,"TEXT_GAIUSC208_00967_SEQ_08",""
 9,"TEXT_GAIUSC208_00967_SEQ_09",""
 10,"TEXT_GAIUSC208_00967_SEQ_10",""
@@ -25,12 +25,12 @@ int32,str,str
 21,"TEXT_GAIUSC208_00967_SEQ_21",""
 22,"TEXT_GAIUSC208_00967_SEQ_22",""
 23,"TEXT_GAIUSC208_00967_SEQ_23",""
-24,"TEXT_GAIUSC208_00967_TODO_00","Speak with Mimidoa."
-25,"TEXT_GAIUSC208_00967_TODO_01","Follow Mimidoa to the Ship Graveyard."
-26,"TEXT_GAIUSC208_00967_TODO_02","Wait by the campfire."
-27,"TEXT_GAIUSC208_00967_TODO_03","Speak with Mimidoa."
-28,"TEXT_GAIUSC208_00967_TODO_04","Speak with Davyd."
-29,"TEXT_GAIUSC208_00967_TODO_05","Show the corrupted crystal to Ceana."
+24,"TEXT_GAIUSC208_00967_TODO_00","幻影諸島船着場のミミドアと話す"
+25,"TEXT_GAIUSC208_00967_TODO_01","船の墓場のミミドアと話す"
+26,"TEXT_GAIUSC208_00967_TODO_02","<Sheet(EObj,2002189,0)/>で待機"
+27,"TEXT_GAIUSC208_00967_TODO_03","船の墓場のミミドアと話す"
+28,"TEXT_GAIUSC208_00967_TODO_04","ダヴィッドに報告"
+29,"TEXT_GAIUSC208_00967_TODO_05","エールポートのシアーナに「<Sheet(EventItem,2000841,0)/>」を渡す"
 30,"TEXT_GAIUSC208_00967_TODO_06",""
 31,"TEXT_GAIUSC208_00967_TODO_07",""
 32,"TEXT_GAIUSC208_00967_TODO_08",""
@@ -49,45 +49,97 @@ int32,str,str
 45,"TEXT_GAIUSC208_00967_TODO_21",""
 46,"TEXT_GAIUSC208_00967_TODO_22",""
 47,"TEXT_GAIUSC208_00967_TODO_23",""
-48,"TEXT_GAIUSC208_00967_DAVYD_000_000","...But if they <Emphasis>have</Emphasis> returned, that would mean─ Oh, beg your pardon, I was just, um...thinking about something."
-49,"TEXT_GAIUSC208_00967_DAVYD_000_001","Which reminds me─I received word that Master Mimidoa would be arriving any moment."
-50,"TEXT_GAIUSC208_00967_DAVYD_000_002","Apparently, he grew <If(PlayerParameter(4))>frustrated waiting for the “sweet young lass with skin as soft as phoenix down”<Else/>tired of waiting for the “lanky young lad with the thousand-yalm stare”</If> to return─which I'm assuming is you."
-51,"TEXT_GAIUSC208_00967_DAVYD_000_003","I don't know what sort of arrangement you had, but you should probably go and explain yourself."
-52,"TEXT_GAIUSC208_00967_MIMIDOA_000_010","What's been keepin' ye, 'nitiate? I ain't gettin' any younger, ye know..."
-53,"TEXT_GAIUSC208_00967_MIMIDOA_000_011","Eh? Some honey-voiced harlot's been callin' out to folk what wander near the Ship Graveyard? An' it's stirred up the dead an' all?"
-54,"TEXT_GAIUSC208_00967_MIMIDOA_000_012","Bloody hells... This takes me back to me days as a cannonboy, sailin' under ol' Mistbeard...
-...But they wouldn't dare, would they? Not after the lesson we learned 'em last time... Bah, they bloody <Emphasis>would</Emphasis>, though, wouldn't they, brazen ol' biddies..."
-55,"TEXT_GAIUSC208_00967_MIMIDOA_000_013","<sigh> Some folk said as the first purge would be the last, but I knew...knew deep down in me bones as this day would come. An' come it has. Aye...I'd bet me bum ear a siren's behind all this."
-56,"TEXT_GAIUSC208_00967_MIMIDOA_000_014","Nay, not one o' the Sanguine variety, 'nitiate. I speak o' the <Emphasis>other</Emphasis> kind─them what's got feathers, an' lure sailors to a watery grave with their sweet, sweet song."
-57,"TEXT_GAIUSC208_00967_MIMIDOA_000_015","Ohhh, but it don't end there... No, drownin's just the start. See, even in death, a man stays bound to the beast, forced to do her biddin' till his corpse can't do it no more."
-58,"TEXT_GAIUSC208_00967_MIMIDOA_000_016","'Tis a fate I wouldn't wish on me worst enemy─'cept maybe in drink, an' I'd regret it after. Anyroad, 'tis up to <Emphasis>us</Emphasis> to stop this hells-born hussy afore she takes another soul!"
-59,"TEXT_GAIUSC208_00967_MIMIDOA_000_017","'Course, we can't send ye marchin' off to war without these. The siren don't have no power o'er a man as can't hear her song. 'Tis lucky fer you I carry a spare pair─an' lucky fer the <Emphasis>both</Emphasis> of us I'm a superstitious ol' sod, eh?"
-60,"TEXT_GAIUSC208_00967_MIMIDOA_000_018","Well, she ain't comin' to us, so we'd best head o'er to her. To the Ship Graveyard, 'nitiate!"
-61,"TEXT_GAIUSC208_00967_MIMIDOA_000_060","If she passes near the shore, she's sure to spy the campfire an' come lookin'... Just a matter o' waitin', now."
-62,"TEXT_GAIUSC208_00967_SYSTEM_000_000","? tag ID says system but not showing as of 8/05"
-63,"TEXT_GAIUSC208_00967_MIMIDOA_100_016","<yawn> Hmph. I'm beginnin' to wonder if some sly bugger ain't spun us a yarn, here..."
-64,"TEXT_GAIUSC208_00967_MIMIDOA_100_017","Quiet! D'ye hear that? 'Tis her!"
-65,"TEXT_GAIUSC208_00967_MIMIDOA_100_018","Look! Out o'er the water! She's come, 'nitiate! She's <Emphasis>come</Emphasis>!"
-66,"TEXT_GAIUSC208_00967_MIMIDOA_100_019","Quick, <If(PlayerParameter(4))>lass<Else/>lad</If>─shove them plugs in yer ears, an' get ready fer a fight! Soon as she realizes yer deaf to her ditties, she'll call on her thralls, an' we'll be up to our necks in corpses afore ye know it!"
-67,"TEXT_GAIUSC208_00967_MIMIDOA_000_070","Eh? Am I all right? Hah! I'm better'n that, 'nitiate! Happy as a sailor in a whorehouse, I am! ...'Course, I'd be happy as a sailor with two wotsits if we'd gutted the songstress─but ye can't have everythin', can ye?"
-68,"TEXT_GAIUSC208_00967_MIMIDOA_000_071","She'll not come croonin' 'round here again, though─not fer a while, anyroad. An' if she does...well, we know what to do, don't we?"
-69,"TEXT_GAIUSC208_00967_MIMIDOA_000_072","Thanks for the help, uh... Bugger me, I've clean forgot yer name! Remind me. <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>? Don't recall havin' no 'nitiate by that name. But if yer not me ol' mate, er...wossname, why've ye been so bloody helpful? Ah, never mind. Be seein' ye, <If(PlayerParameter(4))>lassie<Else/>lad</If>."
-70,"TEXT_GAIUSC208_00967_DAVYD_000_020","You mean it <Emphasis>was</Emphasis> a siren!? But how were you able to resist her song? ...I see. I had heard that Master Mimidoa was involved in the first purge, but I never actually... Hm."
-71,"TEXT_GAIUSC208_00967_DAVYD_000_021","Having survived an ordeal like that, I can't blame him for carrying earplugs around with him..."
-72,"TEXT_GAIUSC208_00967_DAVYD_000_022","Anyway, I have something for you: the corrupted crystal you wanted, safely sealed within the pot, just as you requested. Please, take it with my compliments."
-73,"TEXT_GAIUSC208_00967_CEANA_000_030","Oh, it's you! Welcome back, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. You're looking remarkably hale, I must say─and, more importantly, alive! You <Emphasis>are</Emphasis> alive, aren't you?"
-74,"TEXT_GAIUSC208_00967_CEANA_000_040","Aha! The conquering hero returns bearing a gift! Might I have a closer look?"
-75,"TEXT_GAIUSC208_00967_CEANA_000_041","Impressive...<Emphasis>very</Emphasis> impressive indeed. Yes...I think you'll be <Emphasis>quite</Emphasis> pleased with this specimen."
-76,"TEXT_GAIUSC208_00967_CEANA_000_042","Congratulations, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! Seldom if ever have I encountered a corrupted crystal composed of such a <Emphasis>volatile</Emphasis> overabundance of fire-aspected aether."
-77,"TEXT_GAIUSC208_00967_CEANA_000_043","What? You wanted a corrupted crystal composed of <Emphasis>ice</Emphasis>-aspected aether to counteract the effects of a raging wind? Ah...ahaha. Well, this specimen won't help you there. Anyone who knows <Emphasis>anything</Emphasis> about the elements could tell you that. You'll just have to keep looking, I suppose!"
-78,"TEXT_GAIUSC208_00967_MIMIDOA_000_050",""
-79,"TEXT_GAIUSC208_00967_QIB_TODO001","Defeat the siren!"
-80,"TEXT_GAIUSC208_00967_QIB_TODO002","Defeat the siren's thralls!"
-81,"TEXT_GAIUSC208_00967_SEIREN_BATTLETALK_01","...hither...embrace...mine everything...all...♪"
-82,"TEXT_GAIUSC208_00967_SEIREN_BATTLETALK_02","...true love spurned...<If(PlayerParameter(4))>her<Else/>his</If> cruelty's reward...♪"
-83,"TEXT_GAIUSC208_00967_SEIREN_BATTLETALK_03","Cast out...callous soul...dead to desire...♪"
-84,"TEXT_GAIUSC208_00967_SEIREN_BATTLETALK_04","Spare...mournful mistress...distress...♪"
-85,"TEXT_GAIUSC208_00967_SEIREN_BATTLETALK_05","...melody...last breath...of death...the rhythm...♪"
-86,"TEXT_GAIUSC208_00967_SEIREN_BATTLETALK_06","Dost thou not...to relent...regret...forever alone...♪"
-87,"TEXT_GAIUSC208_00967_SEIREN_BATTLETALK_07","My love...a river...one look...soul shiver...♪"
-88,"TEXT_GAIUSC208_00967_SEIREN_BATTLETALK_08","No more...dark...eclipse...the heart...♪"
+48,"TEXT_GAIUSC208_00967_DAVYD_000_000","ううむ……。
+「歌声」はいったいどこから……ああ、君か。
+君が調査してくれた歌声のことが頭から離れなくてね。"
+49,"TEXT_GAIUSC208_00967_DAVYD_000_001","そうだ、ついさっきエールポートから、
+名匠の「ミミドア」さんが、到着したと連絡がきたんだ。"
+50,"TEXT_GAIUSC208_00967_DAVYD_000_002","ミミドアさんは、灯台の修復に派遣された技師だ。
+幽霊騒ぎで、復興計画が大幅に遅れているからな。
+関係者はやきもきしているだろう。"
+51,"TEXT_GAIUSC208_00967_DAVYD_000_003","幽霊騒ぎも気がかりだけど、
+復興も進めないといけないからね……。
+すまないが、ミミドアさんの出迎えに行ってくれないか。"
+52,"TEXT_GAIUSC208_00967_MIMIDOA_000_010","おう、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>どんか。
+……それで、島の様子はどうなっとるね？"
+53,"TEXT_GAIUSC208_00967_MIMIDOA_000_011","……魔物が溢れて灯台修復どころではなかか。
+思うたとおり……やはりそうじゃったか。"
+54,"TEXT_GAIUSC208_00967_MIMIDOA_000_012","「謎の歌声で巷に亡霊があふれかえる……」
+……実は以前、これと似たような事件に
+出くわしたことがあったのじゃぞい。"
+55,"TEXT_GAIUSC208_00967_MIMIDOA_000_013","……美しか歌声で船乗りを惑わせ、
+船を暗礁に導いて沈没させる……。
+伝説の魔物「セイレーン」の仕業に違いないぞい！"
+56,"TEXT_GAIUSC208_00967_MIMIDOA_000_014","セイレーンの歌声は聴く者を虜にして精気を吸い取り、
+その意のままに動く、生きた屍にするという話だぞい。"
+57,"TEXT_GAIUSC208_00967_MIMIDOA_000_015","今回の魔物たちも……
+海で死んだ船乗りや、海賊たちの亡霊だと思うぞい。"
+58,"TEXT_GAIUSC208_00967_MIMIDOA_000_016","こんままでは被害が拡大し、いずれはラノシア本土にも
+亡霊が溢れかえることになるぞい。
+そうなる前に、セイレーンを討たにゃならんぞい！"
+59,"TEXT_GAIUSC208_00967_MIMIDOA_000_017","……おう、大事なモンを忘れていたぞい。
+これは「<Sheet(EventItem,2000849,0)/>」じゃぞい。
+これがなければ、奴の歌声の虜になってしまうぞい！"
+60,"TEXT_GAIUSC208_00967_MIMIDOA_000_018","奴は「船の墓場」に現れるはず……。
+そこに張りこんで、セイレーンを退治するぞい！
+そんじゃ、わしはちっと先に行っとるぞい！！"
+61,"TEXT_GAIUSC208_00967_MIMIDOA_000_060","浜辺に焚き火を用意しといたからの。
+あそこでちくっと待って、様子を見るぞい。
+運が良ければ、セイレーンに会えるはずじゃぞい！"
+62,"TEXT_GAIUSC208_00967_SYSTEM_000_000","船の墓場の焚き火(指定地点)で待機→QIB"
+63,"TEXT_GAIUSC208_00967_MIMIDOA_100_016","ここに現れるというのは、
+やっぱり、ただの噂だったのかのう……。"
+64,"TEXT_GAIUSC208_00967_MIMIDOA_100_017","……ん？
+なんじゃ、この歌は……。"
+65,"TEXT_GAIUSC208_00967_MIMIDOA_100_018","……ほ、ほんとに出おったぞい！
+あ、あれが、伝説の魔物「セイレーン」じゃ！！"
+66,"TEXT_GAIUSC208_00967_MIMIDOA_100_019","あの時の事件と同じならば、奴は海上から動かず、
+下僕の亡霊たちをけしかけてくるはずじゃ……。
+……あとのことは任せたぞい！"
+67,"TEXT_GAIUSC208_00967_MIMIDOA_000_070","あっぱれだったぞい、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>どん！
+しかし……奴に逃げられてしもうたことは残念だのう。"
+68,"TEXT_GAIUSC208_00967_MIMIDOA_000_071","……わしの悲願は、憎きセイレーンを討滅することなのよ。
+かつて奴の歌声を聴き、海に還ってしもうた
+鍛冶師ギルドの者らの仇を討つまで、わしは絶対に諦めん。"
+69,"TEXT_GAIUSC208_00967_MIMIDOA_000_072","さてと、それじゃあ、ここらでさらばじゃぞい。
+どこかで会ったときには、また力を貸してほしいぞい！"
+70,"TEXT_GAIUSC208_00967_DAVYD_000_020","なんと……セイレーンだと！？
+あの伝説の魔物が黒幕だったか……。"
+71,"TEXT_GAIUSC208_00967_DAVYD_000_021","逃げられたのは惜しいけど……。
+島から去ったのなら、幽霊騒ぎも少しは落ち着けばよいが。
+ともかく、大灯台の修復には、じきに取りかかれるだろう。"
+72,"TEXT_GAIUSC208_00967_DAVYD_000_022","礼というわけではないけど、これは約束の品。
+大灯台で採れた「偏属性クリスタル」の欠片だよ。
+ちゃんと壺に入れておいたからな！　ありがとよ！"
+73,"TEXT_GAIUSC208_00967_CEANA_000_030","おかえりー！　どうだった、どうだった？
+……幽霊は怖くなかった？"
+74,"TEXT_GAIUSC208_00967_CEANA_000_040","おおっ！　「偏属性クリスタル」じゃん！
+でかしたーっ！"
+75,"TEXT_GAIUSC208_00967_CEANA_000_041","あ、でも……これって、
+「風属性を水属性に変換するクリスタル」じゃん？
+う～ん、君が欲しいのじゃなかったねー。"
+76,"TEXT_GAIUSC208_00967_CEANA_000_042","でも、あと「水を土に換えるクリスタル」があれば、
+目的達成ってわけじゃないっ！？
+あとひとつ！　がんばれーっ！"
+77,"TEXT_GAIUSC208_00967_CEANA_000_043","そうだ、さっきランベルタン先生から連絡があって、
+このクリスタルは壺ごと、グリダニア・ランディングまで
+送っておくようにと言われたよ！　任せといてー！"
+78,"TEXT_GAIUSC208_00967_MIMIDOA_000_050","（★未使用／削除予定★）"
+79,"TEXT_GAIUSC208_00967_QIB_TODO001","？？？？"
+80,"TEXT_GAIUSC208_00967_QIB_TODO002","亡者たちを倒せ！"
+81,"TEXT_GAIUSC208_00967_SEIREN_BATTLETALK_01","♪また　哀れな罪人が迷い込んだ　私を求めて……
+　いいわ　貴方の愛に寄り添ってあげる　私の歌で永遠に"
+82,"TEXT_GAIUSC208_00967_SEIREN_BATTLETALK_02","♪可哀想に貴方には　私の愛が届かないだなんて
+　いいわ　ならば罪人のまま亡者と踊れ　私の歌で延々と"
+83,"TEXT_GAIUSC208_00967_SEIREN_BATTLETALK_03","♪愛は亡者となりて朽ち果てず　とこしえに朽ち果てず
+　愛を求め　私を求め　踊り続ける運命の中で……"
+84,"TEXT_GAIUSC208_00967_SEIREN_BATTLETALK_04","♪哀れな罪人を駆り立てるは　憎悪か絶望か
+　踊り続ける宿命の中で　罪人の想いは消えていく……"
+85,"TEXT_GAIUSC208_00967_SEIREN_BATTLETALK_05","♪愛の歌声は潮風に乗り　亡者とともに届けられる
+　私を愛しすぎた　罪深き貴方のもとへ……"
+86,"TEXT_GAIUSC208_00967_SEIREN_BATTLETALK_06","♪恋に落ちて　愛に溺れ　哀れな罪人となった……
+　貴方の体は血を流し　貴方の心は血を啜る"
+87,"TEXT_GAIUSC208_00967_SEIREN_BATTLETALK_07","♪愛しすぎた私は　愛の歌を強く奏でる
+　哀しすぎた貴方を　最期に……"
+88,"TEXT_GAIUSC208_00967_SEIREN_BATTLETALK_08","♪時は終焉を告げ　亡者の舞踏会も幕が下りる……
+　いつかまた逢いましょう　愛の輪廻の輪の中で……"

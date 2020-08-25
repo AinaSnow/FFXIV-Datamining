@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANSYL102_01258_SEQ_00","Tonaxia is beside herself in giggling glee."
-1,"TEXT_BANSYL102_01258_SEQ_01","Despite her attempts to play innocent, it is evident that Tonaxia is in need of ingredients for her latest prank. Strike out for Larkscall; slay a morbol, an old-growth treant, and two molted ziz; and harvest the malodorous items she seeks─a phial of morbol bile, a rotting acorn, and two phials of ziz venom, respectively."
-2,"TEXT_BANSYL102_01258_SEQ_02","The unpleasant creatures are no more, and their unpleasant remains are yours. Deliver the aforementioned goods to Tonaxia."
-3,"TEXT_BANSYL102_01258_SEQ_03","Tonaxia is pleased to receive the items she requested, and promises that you will not be the victim of her foul-smelling plot─provided, of course, you continue to do her bidding."
+0,"TEXT_BANSYL102_01258_SEQ_00","シルフの仮宿のトナクシアは、新しいイタズラのネタを思いついたようだ。"
+1,"TEXT_BANSYL102_01258_SEQ_01","トナクシアの依頼を受けた。ラークスコールで「<Sheet(BNpcName,237,0)/>」を討伐し「<Sheet(EventItem,2001118,0)/>」を1個、「<Sheet(BNpcName,233,0)/>」を討伐し「<Sheet(EventItem,2001119,0)/>」を1個、「<Sheet(BNpcName,222,0)/>」を討伐し「<Sheet(EventItem,2001120,0)/>」を2個入手しよう。"
+2,"TEXT_BANSYL102_01258_SEQ_02","魔物を討伐し、依頼品を入手した。シルフの仮宿の「トナクシア」に「<Sheet(EventItem,2001118,0)/>」と「<Sheet(EventItem,2001119,0)/>」と「<Sheet(EventItem,2001120,0)/>」を渡そう。"
+3,"TEXT_BANSYL102_01258_SEQ_03","トナクシアに依頼品を渡した。イタズラの材料を手に入れたトナクシアは、とても喜んでいるようだ。冒険者は仕事ぶりを褒められ、また手伝ってほしいと頼まれてしまった。"
 4,"TEXT_BANSYL102_01258_SEQ_04",""
 5,"TEXT_BANSYL102_01258_SEQ_05",""
 6,"TEXT_BANSYL102_01258_SEQ_06",""
@@ -25,10 +25,10 @@ int32,str,str
 21,"TEXT_BANSYL102_01258_SEQ_21",""
 22,"TEXT_BANSYL102_01258_SEQ_22",""
 23,"TEXT_BANSYL102_01258_SEQ_23",""
-24,"TEXT_BANSYL102_01258_TODO_00","Defeat a morbol to obtain a phial of morbol bile."
-25,"TEXT_BANSYL102_01258_TODO_01","Defeat an old-growth treant to obtain a rotting acorn."
-26,"TEXT_BANSYL102_01258_TODO_02","Defeat molted ziz to obtain phials of ziz venom."
-27,"TEXT_BANSYL102_01258_TODO_03","Deliver the requested goods to Tonaxia."
+24,"TEXT_BANSYL102_01258_TODO_00","モルボルから<Sheet(EventItem,2001118,0)/>を入手"
+25,"TEXT_BANSYL102_01258_TODO_01","オールドグロウス・トレントから<Sheet(EventItem,2001119,0)/>を入手"
+26,"TEXT_BANSYL102_01258_TODO_02","モルテッド・ジズから<Sheet(EventItem,2001120,0)/>を入手"
+27,"TEXT_BANSYL102_01258_TODO_03","トナクシアに依頼品を渡す"
 28,"TEXT_BANSYL102_01258_TODO_04",""
 29,"TEXT_BANSYL102_01258_TODO_05",""
 30,"TEXT_BANSYL102_01258_TODO_06",""
@@ -49,13 +49,32 @@ int32,str,str
 45,"TEXT_BANSYL102_01258_TODO_21",""
 46,"TEXT_BANSYL102_01258_TODO_22",""
 47,"TEXT_BANSYL102_01258_TODO_23",""
-48,"TEXT_BANSYL102_01258_TONAXIA_000_000","This might be this one's most ingenious trick ever! This one cannot wait to see walking one's face when this one─oh?"
-49,"TEXT_BANSYL102_01258_TONAXIA_000_001","Trick? This one said nothing of the sort. This one thinks walking one's ears are the ones playing tricks."
-50,"TEXT_BANSYL102_01258_TONAXIA_000_002","But perhaps walking one could help this one gather some valuable ingredients...since walking one seems to have free hands."
-51,"TEXT_BANSYL102_01258_TONAXIA_000_003","This one requires one phial of morbol bile, one rotten treant acorn, and two phials of ziz venom─the stinkier, the better! Why, walking one asks? That is...ah, a secret."
-52,"TEXT_BANSYL102_01258_TONAXIA_000_004","Larkscall is full of stinky ones. Walking one will find everything this one needs there."
-53,"TEXT_BANSYL102_01258_TONAXIA_000_010","This one requires one phial of morbol bile, one rotten treant acorn, and two phials of ziz venom─the stinkier, the better! Why? Did this one not say it was a secret?"
-54,"TEXT_BANSYL102_01258_TONAXIA_000_011","Larkscall is full of stinky ones. Walking one will find everything this one needs there."
-55,"TEXT_BANSYL102_01258_TONAXIA_000_020","Well, did walking one find what this one needs from stinky ones?"
-56,"TEXT_BANSYL102_01258_TONAXIA_000_030","Perfect! Yes, this will be the stinkiest trick ever! Tee hee hee!"
-57,"TEXT_BANSYL102_01258_TONAXIA_000_031","Do not worry, walking one, this one will not play it on walking one. As long as walking one keeps doing what this one says. Tee hee!"
+48,"TEXT_BANSYL102_01258_TONAXIA_000_000","ふっちっち、こりゃケッサクでふっち。
+新しいイタズラを、思いついちゃったのでふっち！
+くさ～い魔物のくさ～いニオイを使って……はッ！？"
+49,"TEXT_BANSYL102_01258_TONAXIA_000_001","きき、聞かれたでふっち！？
+……仕方ない、あんたには、イタズラしないであげるでふっち。
+その代わり、わたぴのお手伝いをするのでふっち！"
+50,"TEXT_BANSYL102_01258_TONAXIA_000_002","魔物たちから、くさ～い品々を持ってきてほちいでふっち。
+わたぴには、それが必要なのでふっち！"
+51,"TEXT_BANSYL102_01258_TONAXIA_000_003","「<Sheet(BNpcName,237,0)/>」から「<Sheet(EventItem,2001118,0)/>」、
+「<Sheet(BNpcName,233,0)/>」から
+「<Sheet(EventItem,2001119,0)/>」を、それぞれ1個ずつ……。"
+52,"TEXT_BANSYL102_01258_TONAXIA_000_004","さらに、「<Sheet(BNpcName,222,0)/>」を2体やっつけて、
+「<Sheet(EventItem,2001120,0)/>」を手に入れてほしいのでふっち！
+魔物は「ラークスコール」にいるでふっち、頼むでふっち！"
+53,"TEXT_BANSYL102_01258_TONAXIA_000_010","「モルボル」から「<Sheet(EventItem,2001118,0)/>」、
+「オールドグロウス・トレント」から
+「<Sheet(EventItem,2001119,0)/>」を、それぞれ1個ずつ……。"
+54,"TEXT_BANSYL102_01258_TONAXIA_000_011","さらに、モルテッド・ジズを2体やっつけて、
+「<Sheet(EventItem,2001120,0)/>」を手に入れてほしいふっち！
+魔物は「ラークスコール」にいるでふっち、頼むでふっち！"
+55,"TEXT_BANSYL102_01258_TONAXIA_000_020","……どうでふっち、頼んだものは集まったでふっち？
+「<Sheet(EventItem,2001118,0)/>」と「<Sheet(EventItem,2001119,0)/>」、
+「<Sheet(EventItem,2001120,0)/>」が2個ほしいのでふっち。"
+56,"TEXT_BANSYL102_01258_TONAXIA_000_030","おお、これでふっち！
+ふっちっち……これで、イタズラもはかどるのでふっち！
+よくやってくれたでふっち！"
+57,"TEXT_BANSYL102_01258_TONAXIA_000_031","今日は、ごくろうさまでふっち。
+またわたぴのお願いを、聞いてくれると嬉しいでふっち。
+聞いてくれないと……イタズラしちゃうでふっち！"

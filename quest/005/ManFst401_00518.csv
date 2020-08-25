@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_MANFST401_00518_SEQ_00","Marques believes he is being watched."
-1,"TEXT_MANFST401_00518_SEQ_01","Marques cannot shake the feeling that he is being watched. Apparently, the sensation comes and goes, but he felt it quite strongly not long ago. Put his fears to rest by searching the surrounding area for hidden onlookers."
-2,"TEXT_MANFST401_00518_SEQ_02","While patrolling the lichyard, you come under attack from an unknown assailant. After slaying the man in self-defense, you note that his sword is unlike any you have seen before, and retrieve it in the hope that it might serve to identify him. Inform Marques that his fears were justified."
-3,"TEXT_MANFST401_00518_SEQ_03","Marques has no idea why the man would be monitoring his activities, but he suspects it may have something to do with his past─a past which he still cannot recall, despite his best efforts. As this may not be the last time dangerous men come in search of Marques, he asks that you inform Father Iliud of everything that has transpired. Perhaps you should show him the unusual sword you discovered as well."
-4,"TEXT_MANFST401_00518_SEQ_04","Recognizing the sword you found to be Garlean steel, Father Iliud concludes that the man observing Marques was an imperial soldier. Before he can dispatch you to inform the authorities, Alphinaud Leveilleur strides into the church and declares Marques to be none other than Master Cid Garlond, who has been missing since the Calamity five years ago. While he has yet to recover his lost memories, Cid senses that the boy speaks the truth, and decides to join him. Resigned, Father Iliud produces Cid's belongings, which the priest had stored for safekeeping. Alphinaud then reveals that the Ixal have summoned Garuda, and that Cid's lost airship, the <Emphasis>Enterprise</Emphasis>, will be required if the surviving Scions are to reach the primal. Together with Cid and Alphinaud, make for Gridania, where the <Emphasis>Enterprise</Emphasis> was last seen."
+0,"TEXT_MANFST401_00518_SEQ_00","聖アダマ・ランダマ教会のマルケズは、冒険者に調べてもらいたいことがあるようだ。"
+1,"TEXT_MANFST401_00518_SEQ_01","マルケズは、自分を監視する不審な気配を感じているらしい。怪しいものはないか、教会の周辺を調べよう。"
+2,"TEXT_MANFST401_00518_SEQ_02","周辺を調べていたところ、何者かに襲撃された。聖アダマ・ランダマ教会に戻り「マルケズ」に報告しよう。"
+3,"TEXT_MANFST401_00518_SEQ_03","やはり、マルケズは監視されていたようだ。聖アダマ・ランダマ教会の「イリュド」に「<Sheet(EventItem,2000850,0)/>」を渡そう。"
+4,"TEXT_MANFST401_00518_SEQ_04","聖アダマ・ランダマ教会に訪ねてきたアルフィノが言うには、墓守のマルケズの正体は「シド・ガーロンド」であるらしい。イクサル族が召喚した蛮神「ガルーダ」のいる祭壇に向かうため、シドと共に飛空艇「エンタープライズ」を探す必要がありそうだ。"
 5,"TEXT_MANFST401_00518_SEQ_05",""
 6,"TEXT_MANFST401_00518_SEQ_06",""
 7,"TEXT_MANFST401_00518_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_MANFST401_00518_SEQ_21",""
 22,"TEXT_MANFST401_00518_SEQ_22",""
 23,"TEXT_MANFST401_00518_SEQ_23",""
-24,"TEXT_MANFST401_00518_TODO_00","Search the lichyard for unseen observers."
-25,"TEXT_MANFST401_00518_TODO_01","Speak with Marques."
-26,"TEXT_MANFST401_00518_TODO_02","Show the sword to Father Iliud."
+24,"TEXT_MANFST401_00518_TODO_00","聖アダマ・ランダマ教会の周辺を調べる"
+25,"TEXT_MANFST401_00518_TODO_01","マルケズに報告"
+26,"TEXT_MANFST401_00518_TODO_02","イリュドに<Sheet(EventItem,2000850,0)/>を渡す"
 27,"TEXT_MANFST401_00518_TODO_03",""
 28,"TEXT_MANFST401_00518_TODO_04",""
 29,"TEXT_MANFST401_00518_TODO_05",""
@@ -49,50 +49,103 @@ int32,str,str
 45,"TEXT_MANFST401_00518_TODO_21",""
 46,"TEXT_MANFST401_00518_TODO_22",""
 47,"TEXT_MANFST401_00518_TODO_23",""
-48,"TEXT_MANFST401_00518_MARQUEZ_000_000","I...I'm not imagining it, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I <Emphasis>know</Emphasis> I'm being watched..."
-49,"TEXT_MANFST401_00518_MARQUEZ_000_001","This is different─sinister. It is as if I am...under observation."
-50,"TEXT_MANFST401_00518_MARQUEZ_000_002","The feeling comes and goes...but I felt it when last I ventured outside. Yes. I know I felt it. Will you look outside for me...<Emphasis>please</Emphasis>? It will only take a moment."
-51,"TEXT_MANFST401_00518_DUMMY_000_010",""
-52,"TEXT_MANFST401_00518_MARQUEZ_000_020","You were attacked, weren't you? Are you unharmed? Thank the gods."
-53,"TEXT_MANFST401_00518_MARQUEZ_000_021","I knew it. He <Emphasis>was</Emphasis> watching me. ...But why was he watching me?"
-54,"TEXT_MANFST401_00518_MARQUEZ_000_022","What did he <Emphasis>want</Emphasis> with me? Did he, perhaps...know something of my past? If only I could have asked him..."
-55,"TEXT_MANFST401_00518_MARQUEZ_000_023","I...I need to think. Please, allow me a moment alone. Wait. Father Iliud must hear of this. Will you tell him for me? It's important. I think others may come for me again."
-56,"TEXT_MANFST401_00518_ILIUD_000_030","Heavens forfend... That such a thing should happen on holy ground! Do you have any idea who this man was? Did you notice anything distinctive about his garb or possessions?"
-57,"TEXT_MANFST401_00518_ILIUD_000_031","This...this is Garlean steel. Which means the man who was watching Marques was..."
-58,"TEXT_MANFST401_00518_ILIUD_000_032","Make haste to Camp Drybone at once! We must summon the Immortal Flames before more imperials come!"
-59,"TEXT_MANFST401_00518_000010_ALPHINAUD","Hmph. I fondly hoped that I might be the first to speak with you... Would that I had been so fortunate."
-60,"TEXT_MANFST401_00518_000020_ALPHINAUD","At ease, adventurer─I come not on behalf of the Empire. On the contrary, I mean to revive the Scions of the Seventh Dawn."
-61,"TEXT_MANFST401_00518_000030_ALPHINAUD","And to that end..."
-62,"TEXT_MANFST401_00518_000040_ALPHINAUD","I have come in search of a legend─the greatest engineer of our time. Master Cid Garlond─I have come for <Emphasis>you</Emphasis>."
-63,"TEXT_MANFST401_00518_000050_PRIEST","I fear you are mistaken, child. He is but a poor soul who bore witness to the horrors at Carteneau."
-64,"TEXT_MANFST401_00518_000060_PRIEST","I beg of you, leave us in peace..."
-65,"TEXT_MANFST401_00518_000070_MARQUEZ","Wait... I..."
-66,"TEXT_MANFST401_00518_000080_MARQUEZ","<groan>"
-67,"TEXT_MANFST401_00518_000090_ALPHINAUD","Hear me, Cid! Eorzea needs you!"
-68,"TEXT_MANFST401_00518_000100_MARQUEZ","You... So familiar... We... It's... all a blur. "
-69,"TEXT_MANFST401_00518_000110_MARQUEZ","<groan>"
-70,"TEXT_MANFST401_00518_000120_PRIEST","Cid, was it? Here...these belong to you."
-71,"TEXT_MANFST401_00518_000130_PRIEST","I thought you bore the mark of greatness... It seems that I was right."
-72,"TEXT_MANFST401_00518_000140_PRIEST","Our time together was all too brief, but it felt as though my son had returned to me. You have brought joy to an old man's life."
-73,"TEXT_MANFST401_00518_000150_PRIEST","But it is time for you to help those who truly need you."
-74,"TEXT_MANFST401_00518_000160_CID","(-Cid-)Who...are you?"
-75,"TEXT_MANFST401_00518_000170_ALPHINAUD","Alphinaud Leveilleur, at your service."
-76,"TEXT_MANFST401_00518_000180_ALPHINAUD","As a Scion of the Seventh Dawn, I stand against our primal and imperial foes─as my grandfather once did."
-77,"TEXT_MANFST401_00518_000190_ALPHINAUD","'Tis no secret what befell our order at the Waking Sands. Word has already spread across Eorzea."
-78,"TEXT_MANFST401_00518_000200_ALPHINAUD","The repercussions are far greater than you realize. In the wake of the Calamity, the three city–states focused their efforts solely on reconstruction."
-79,"TEXT_MANFST401_00518_000210_ALPHINAUD","Leaving the Scions to combat the primal threat unaided."
-80,"TEXT_MANFST401_00518_000220_ALPHINAUD","And lo, we are all but destroyed. Yet even as the nations mourn our demise, and abandon what little hope they have left, we cannot forsake our duty─now least of all."
-81,"TEXT_MANFST401_00518_000230_ALPHINAUD","The Ixal have summoned Garuda once more, and she torments the people of Coerthas as we speak."
-82,"TEXT_MANFST401_00518_000240_ALPHINAUD","Her appetite for destruction far exceeds that of other primals."
-83,"TEXT_MANFST401_00518_000250_ALPHINAUD","Worse, in her present incarnation, our Baldesion colleagues believe she surpasses both Ifrit and Titan in strength."
-84,"TEXT_MANFST401_00518_000260_ALPHINAUD","Yet therein lies an opportunity. Were we somehow to defeat Garuda, it would serve as a warning to the other beast tribes that even their mightiest gods can be felled."
-85,"TEXT_MANFST401_00518_000270_ALPHINAUD","If we are to face our foe, we must first circumvent the tempest that shields her sanctuary."
-86,"TEXT_MANFST401_00518_000280_ALPHINAUD","And for that, we need an airship─<Emphasis>your</Emphasis> airship, Cid."
-87,"TEXT_MANFST401_00518_000290_CID","(-Cid-)I...I have...an airship?"
-88,"TEXT_MANFST401_00518_000300_ALPHINAUD","Yes, Cid, you do. Your very own airship."
-89,"TEXT_MANFST401_00518_000310_ALPHINAUD","It was last seen in the skies over Gridania, not long before the Calamity, so let us begin our search there."
-90,"TEXT_MANFST401_00518_000320_CID","(-Cid-)A-An airship...? My airship...?"
-91,"TEXT_MANFST401_00518_000330_CID","(-Cid-)W-Wait..."
-92,"TEXT_MANFST401_00518_000340_ALPHINAUD","Come, let us put an end to the primals! Together, we will show the world that the Scions are still a force to be reckoned with!"
-93,"TEXT_MANFST401_00518_000350_CID","They need my airship... They need...me."
-94,"TEXT_MANFST401_00518_POP_MESSAGE_000","You are being watched... "
+48,"TEXT_MANFST401_00518_MARQUEZ_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>……。
+……お前に相談がある。
+最近、どうも誰かに見られている気がするんだ……。"
+49,"TEXT_MANFST401_00518_MARQUEZ_000_001","……何と説明すべきかわからないが、
+女性からの視線ではない……と思う。
+……監視されている……という言葉が正しいだろう。"
+50,"TEXT_MANFST401_00518_MARQUEZ_000_002","ついさっきも視線を感じたんだ。
+そいつは、教会周辺の墓に潜んでいるようだ。
+すまないが、様子を見てきてもらえないか。"
+51,"TEXT_MANFST401_00518_DUMMY_000_010","（ひとけのなさそうな墓にアクセスし
+　襲ってきた帝国兵を討伐）"
+52,"TEXT_MANFST401_00518_MARQUEZ_000_020","どうだ、何かわかったか？
+……襲われただって？
+穏やかじゃないな……大丈夫だったか？"
+53,"TEXT_MANFST401_00518_MARQUEZ_000_021","……しかし、いきなり得物を振り回してくるとは、
+やはり俺は監視されていたのか……？"
+54,"TEXT_MANFST401_00518_MARQUEZ_000_022","しかし、記憶のない俺を見張るとは……。
+……まさか俺の過去に関係が……？"
+55,"TEXT_MANFST401_00518_MARQUEZ_000_023","……いずれにせよ、教会の周りに、
+そんな物騒なヤツが居るのは危険だ……。
+「イリュド」神父にも伝えておいたほうがいいな……。"
+56,"TEXT_MANFST401_00518_ILIUD_000_030","話は聞こえていましたよ。
+わかりました、こちらも気をつけておきます。
+……襲ってきた者の、手がかりなどはありませんか？"
+57,"TEXT_MANFST401_00518_ILIUD_000_031","これはもしや「ガレマール帝国」のものでは……。
+……マルケズは帝国軍に監視されているのでしょうか。
+彼はいったい……。"
+58,"TEXT_MANFST401_00518_ILIUD_000_032","何にせよ、礼拝される方々に万が一のことがないよう、
+「不滅隊」にも連絡を入れておきましょう。"
+59,"TEXT_MANFST401_00518_000010_ALPHINAUD","尋ね人を同時に2人も見つけることになろうとは。
+ゆくゆく、私はツイているな。"
+60,"TEXT_MANFST401_00518_000020_ALPHINAUD","こんなところで、帝国の影に怯えている場合ではないぞ。
+我々の手で「暁」を甦らせねばならん。"
+61,"TEXT_MANFST401_00518_000030_ALPHINAUD","そのためには……。"
+62,"TEXT_MANFST401_00518_000040_ALPHINAUD","ガーロンド・アイアンワークス代表……。
+伝説の機工師、シド！
+あなたの力も必要となる！"
+63,"TEXT_MANFST401_00518_000050_PRIEST","どなたか存じませんが、ここに居る男はマルケズと申す者。
+先の霊災で心に傷を負い、癒しが必要な状態です。"
+64,"TEXT_MANFST401_00518_000060_PRIEST","どうか、そっとしておいてください……。"
+65,"TEXT_MANFST401_00518_000070_MARQUEZ","……ああ……あああ……。"
+66,"TEXT_MANFST401_00518_000080_MARQUEZ","うう……ぐ、あああ……"
+67,"TEXT_MANFST401_00518_000090_ALPHINAUD","世界は今、あなたの力を欲しているのだ！
+こんなところで眠っている場合ではないぞ！"
+68,"TEXT_MANFST401_00518_000100_MARQUEZ","お前は……。
+俺はお前を……。
+……ああ……あ……。"
+69,"TEXT_MANFST401_00518_000110_MARQUEZ","くっ……"
+70,"TEXT_MANFST401_00518_000120_PRIEST","マルケズ……いや、シドと言ったかな。
+これを持っていきなさい。
+……あなたのものだ。"
+71,"TEXT_MANFST401_00518_000130_PRIEST","シド……いっしょに暮らすうちに、
+あなたはきっと、名のある人だと予想はしていた。"
+72,"TEXT_MANFST401_00518_000140_PRIEST","短い間だったが、息子が戻ってきてくれたようで
+嬉しかったよ。
+私はもう、充分に幸せな思いをさせてもらった。"
+73,"TEXT_MANFST401_00518_000150_PRIEST","あなたを、世界にお返しする時がきたのです。"
+74,"TEXT_MANFST401_00518_000160_CID","(-シド-)お前はいったい……。"
+75,"TEXT_MANFST401_00518_000170_ALPHINAUD","私の名は、アルフィノ・ルヴェユール。"
+76,"TEXT_MANFST401_00518_000180_ALPHINAUD","亡き祖父の意思を継ぎ、「暁の血盟」の一員として、
+蛮神、そして帝国と戦っている。"
+77,"TEXT_MANFST401_00518_000190_ALPHINAUD","「暁」が襲撃された件は知っている……。
+すでにエオルゼア中で噂になっているよ。"
+78,"TEXT_MANFST401_00518_000200_ALPHINAUD","エオルゼア諸国は、ここしばらく
+霊災からの復興と国内問題の解決に注力してきた。"
+79,"TEXT_MANFST401_00518_000210_ALPHINAUD","その間、手薄となった蛮神対策の担い手として、
+神狩りを引き受けていたのが「暁の血盟」だ。"
+80,"TEXT_MANFST401_00518_000220_ALPHINAUD","その「暁」が墜ちた……。
+各国上層部も動揺しているが、
+だからこそ、ここで戦いをやめる訳にはいかない。"
+81,"TEXT_MANFST401_00518_000230_ALPHINAUD","イクサル族が蛮神「ガルーダ」を召喚した。
+現在、クルザスで猛威を振るっている。"
+82,"TEXT_MANFST401_00518_000240_ALPHINAUD","蛮神「ガルーダ」は、数居る蛮神の中でも、
+特に好戦的で狂暴だ。"
+83,"TEXT_MANFST401_00518_000250_ALPHINAUD","委員会の調査によれば、それは「イフリート」や
+「タイタン」を軽く凌駕するほど……。
+ひとつ格上の存在といわれる程でね。"
+84,"TEXT_MANFST401_00518_000260_ALPHINAUD","つまり、その蛮神「ガルーダ」を狩れば、
+ほかの蛮族たちにあたえる影響も大きいということだ。
+蛮神が絶対的存在ではない証明になるのだからな。"
+85,"TEXT_MANFST401_00518_000270_ALPHINAUD","蛮神「ガルーダ」が控える祭壇は、
+暴風の壁に守られている。"
+86,"TEXT_MANFST401_00518_000280_ALPHINAUD","シド、あなたの出番だ。
+「エンタープライズ」を探しに行く。"
+87,"TEXT_MANFST401_00518_000290_CID","(-シド-)……エンタープライズ……だと？
+もしや、それは……？"
+88,"TEXT_MANFST401_00518_000300_ALPHINAUD","そうだ。
+シド、あなたの飛空艇だ。"
+89,"TEXT_MANFST401_00518_000310_ALPHINAUD","あの船は、霊災前に、
+グリダニアから飛び立ったのが最後のはず。
+その足取りを追う。"
+90,"TEXT_MANFST401_00518_000320_CID","(-シド-)俺の……飛空艇……。
+……ああ……あ……。"
+91,"TEXT_MANFST401_00518_000330_CID","(-シド-)……少し、待ってくれ。"
+92,"TEXT_MANFST401_00518_000340_ALPHINAUD","長く続いた蛮神との戦いも、いよいよ最後だ！
+我々は、エオルゼアは、まだ牙を失ったわけではないと、
+世界に見せてやろう！"
+93,"TEXT_MANFST401_00518_000350_CID","エンタープライズ……。
+そこに俺が居る……必要とされている俺が……。"
+94,"TEXT_MANFST401_00518_POP_MESSAGE_000","敵の気配を感じた！！"

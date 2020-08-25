@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNA409_01996_SEQ_00","Gibrillont has the look of a man weighing his words with the greatest of care."
-1,"TEXT_HEAVNA409_01996_SEQ_01","We cannot escape the legacy left to us by our parents. The Mongrel and her pups have chosen to embrace that inescapable truth...but how can that information lead you to her?"
-2,"TEXT_HEAVNA409_01996_SEQ_02","Having discerned the purpose of Gibrillont's errands, you surmise that the Mongrel is none other than the raven-haired, ruby-eyed child born of the Elezen nobleman and the Hyuran woman. The reaction of the peasant you press for information serves to confirm your suspicions. Share your discovery with Alphinaud in the Forgotten Knight."
-3,"TEXT_HEAVNA409_01996_SEQ_03","Though the whereabouts of the Mongrel are still unknown to you, Alphinaud feels confident that your newfound knowledge of her features will help greatly in your search."
+0,"TEXT_HEAVNA409_01996_SEQ_00","忘れられた騎士亭のジブリオンは、最後のヒントを与えようとしているようだ。"
+1,"TEXT_HEAVNA409_01996_SEQ_01","ジブリオンから話を聞いた。緋色の瞳と長い耳が素敵なエレゼン族の貴族と、黒髪が美しいヒューラン族の平民女性の娘が「長耳」なのだろうか？もう一度、イシュガルドの雲霧街で、事情を知っていそうな住民を探そう。"
+2,"TEXT_HEAVNA409_01996_SEQ_02","雲霧街の女から話を聞いた。どうやら、緋色の瞳と黒髪を持つ混血の女性が「長耳」で間違いなさそうだ。忘れられた騎士亭にいる「アルフィノ」に報告しよう。"
+3,"TEXT_HEAVNA409_01996_SEQ_03","アルフィノに「長耳」の容姿について報告した。居場所はわからなかったが、これで情報収集が前進したのは間違いないはずだ。"
 4,"TEXT_HEAVNA409_01996_SEQ_04",""
 5,"TEXT_HEAVNA409_01996_SEQ_05",""
 6,"TEXT_HEAVNA409_01996_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_HEAVNA409_01996_SEQ_21",""
 22,"TEXT_HEAVNA409_01996_SEQ_22",""
 23,"TEXT_HEAVNA409_01996_SEQ_23",""
-24,"TEXT_HEAVNA409_01996_TODO_00","Speak with the Brume starveling."
-25,"TEXT_HEAVNA409_01996_TODO_01","Speak with Alphinaud."
+24,"TEXT_HEAVNA409_01996_TODO_00","雲霧街で聞きこみをする"
+25,"TEXT_HEAVNA409_01996_TODO_01","アルフィノに報告"
 26,"TEXT_HEAVNA409_01996_TODO_02",""
 27,"TEXT_HEAVNA409_01996_TODO_03",""
 28,"TEXT_HEAVNA409_01996_TODO_04",""
@@ -49,19 +49,34 @@ int32,str,str
 45,"TEXT_HEAVNA409_01996_TODO_21",""
 46,"TEXT_HEAVNA409_01996_TODO_22",""
 47,"TEXT_HEAVNA409_01996_TODO_23",""
-48,"TEXT_HEAVNA409_01996_GIBRILLONT_000_000","Some bonds are thicker than blood...but blood still defines us─and divides us in the end."
-49,"TEXT_HEAVNA409_01996_GIBRILLONT_000_001","It's the legacy of our parents, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, and we can't escape it, no matter how hard we try."
-50,"TEXT_HEAVNA409_01996_GIBRILLONT_000_002","So the Mongrel and her pups chose to embrace theirs─to proclaim it to all and sundry."
-51,"TEXT_HEAVNA409_01996_GIBRILLONT_000_003","If you can understand that, then maybe you can find her on your own."
-52,"TEXT_HEAVNA409_01996_THEPOORA01996_000_010","Still looking for your mongrel? Like I said before, take your pick. Plenty around, if you know where to look. Or did you fancy someone specific?"
-53,"TEXT_HEAVNA409_01996_Q1_000_000","What will you say?"
-54,"TEXT_HEAVNA409_01996_A1_000_001","I'm looking for a mongrel with ruby red eyes and raven black hair."
-55,"TEXT_HEAVNA409_01996_A1_000_002","I'm looking for a mongrel with raven black eyes and ruby red hair."
-56,"TEXT_HEAVNA409_01996_A1_000_003","..."
-57,"TEXT_HEAVNA409_01996_THEPOORA01996_000_020","Ho, someone's got unusual tastes. Afraid I can't help you, though."
-58,"TEXT_HEAVNA409_01996_THEPOORA01996_000_021","<Emphasis>Won't</Emphasis>, rather. It's bloody obvious you ain't of the Brume. Did you think I'd just tell you 'cause you asked nicely?"
-59,"TEXT_HEAVNA409_01996_THEPOORA01996_000_030","Doesn't ring a bell, sorry."
-60,"TEXT_HEAVNA409_01996_THEPOORA01996_000_031","What, coeurl got your tongue? Off you trot, then."
-61,"TEXT_HEAVNA409_01996_ALPHINAUD_000_040","Have you made any progress, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>?"
-62,"TEXT_HEAVNA409_01996_ALPHINAUD_000_041","Hmm... So our mongrel was born of an Elezen nobleman and a Hyuran maidservant."
-63,"TEXT_HEAVNA409_01996_ALPHINAUD_000_042","Granted, it is no location, but it is far more information than we had before. Yes...now that her striking features are known to us, mayhap we need only remain vigilant."
+48,"TEXT_HEAVNA409_01996_GIBRILLONT_000_000","お前さんは、ふたりの人物から、
+ある母娘に関する昔話を聞いてきたはずだ。"
+49,"TEXT_HEAVNA409_01996_GIBRILLONT_000_001","<If(PlayerParameter(4))>姉さん<Else/>兄さん</If>が探しているのは「長耳」だったな？
+もちろん、すでに亡くなっている母親は「長耳」ではない。
+……そもそも、彼女は耳が短いヒューラン族だ。"
+50,"TEXT_HEAVNA409_01996_GIBRILLONT_000_002","緋色の瞳と長い耳が素敵な、エレゼン族の貴族。
+黒髪が美しい、ヒューラン族の平民女性……。
+その間に生まれた娘は、果たして……。"
+51,"TEXT_HEAVNA409_01996_GIBRILLONT_000_003","さあて、俺の話はここまでだ。
+後は自分で、聞き込みでも何でもしてみるこったな。"
+52,"TEXT_HEAVNA409_01996_THEPOORA01996_000_010","あんたもしつこい<If(PlayerParameter(4))>女<Else/>男</If>だね……。
+「長耳」のエレゼン族なんて、そこら中にいるだろ？"
+53,"TEXT_HEAVNA409_01996_Q1_000_000","何と答える？"
+54,"TEXT_HEAVNA409_01996_A1_000_001","緋色の瞳と黒髪の混血女性を探している"
+55,"TEXT_HEAVNA409_01996_A1_000_002","黒色の瞳と赤髪の混血女性を探している"
+56,"TEXT_HEAVNA409_01996_A1_000_003","答えない"
+57,"TEXT_HEAVNA409_01996_THEPOORA01996_000_020","へぇ……なるほどね。
+それなりに、お勉強してきたってわけだ。
+……とはいえ、悪いけど「彼女」の居場所は教えられないよ。"
+58,"TEXT_HEAVNA409_01996_THEPOORA01996_000_021","信用できない奴に、仲間の情報は売れないってことさ。
+さあ、あんたもお仲間のところに戻るこったね。"
+59,"TEXT_HEAVNA409_01996_THEPOORA01996_000_030","誰だい、そりゃ？
+あたしは、そんな女を知らないよ。"
+60,"TEXT_HEAVNA409_01996_THEPOORA01996_000_031","……用がないなら、どっかに行っとくれ。"
+61,"TEXT_HEAVNA409_01996_ALPHINAUD_000_040","やぁ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
+そっちは「長耳」について、何か情報は得られたかい？"
+62,"TEXT_HEAVNA409_01996_ALPHINAUD_000_041","エレゼン族の貴族と、ヒューラン族の平民との間に、
+生まれた混血の女性らしいということか……。"
+63,"TEXT_HEAVNA409_01996_ALPHINAUD_000_042","居場所がわからなかったのは残念だが、
+緋色の瞳に黒髪という外見は、有力な情報のようだね。
+ありがとう、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。"

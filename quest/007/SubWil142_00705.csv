@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBWIL142_00705_SEQ_00","Nedrick appears concerned about your equipment."
-1,"TEXT_SUBWIL142_00705_SEQ_01","Nedrick has introduced you to Rowena, an artifact collector who has set up shop at Revenant's Toll in Mor Dhona. If you are serious about your equipment, he recommends paying her a visit."
-2,"TEXT_SUBWIL142_00705_SEQ_02","Rowena tells you about a weaponsmith of no small repute named Gerolt, who she claims is skilled in the restoration of ancient relics. Find Gerolt at Hyrstmill in the North Shroud, and show him the promise of payment that Rowena has given you."
-3,"TEXT_SUBWIL142_00705_SEQ_03","You meet and speak with Gerolt. Shamelessly exploiting the prodigious debt he owes Rowena, you coerce the man into lending you his expertise in the restoration of a relic weapon. Do as Gerolt directs if you wish to become the proud owner of a legendary arm of yore."
+0,"TEXT_SUBWIL142_00705_SEQ_00","ネドリック・アイアンハートは、冒険者にある人物を紹介したいようだ。"
+1,"TEXT_SUBWIL142_00705_SEQ_01","ネドリックから、良い武具を融通してくれるという人物を紹介された。レヴナンツトールの「ロウェナ」に話しかけてみよう。"
+2,"TEXT_SUBWIL142_00705_SEQ_02","ロウェナに武具職人ゲロルトを紹介された。黒衣森：北部森林のハーストミルにいる「ゲロルト」に「<Sheet(EventItem,2000987,0)/>」を渡そう。"
+3,"TEXT_SUBWIL142_00705_SEQ_03","ゲロルトに「<Sheet(EventItem,2000987,0)/>」をつきつけたところ、借金の返済に充てる金がないため、代わりに「古の武器」を作ってくれるという。失われた「古の武器」を作ってもらいたければ、ゲロルトに話しかけよう。"
 4,"TEXT_SUBWIL142_00705_SEQ_04",""
 5,"TEXT_SUBWIL142_00705_SEQ_05",""
 6,"TEXT_SUBWIL142_00705_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_SUBWIL142_00705_SEQ_21",""
 22,"TEXT_SUBWIL142_00705_SEQ_22",""
 23,"TEXT_SUBWIL142_00705_SEQ_23",""
-24,"TEXT_SUBWIL142_00705_TODO_00","Speak with Rowena at Revenant's Toll."
-25,"TEXT_SUBWIL142_00705_TODO_01","Show the promise of payment to Gerolt."
+24,"TEXT_SUBWIL142_00705_TODO_00","レヴナンツトールのロウェナと話す"
+25,"TEXT_SUBWIL142_00705_TODO_01","ハーストミルにいるゲロルトに<Sheet(EventItem,2000987,0)/>を渡す"
 26,"TEXT_SUBWIL142_00705_TODO_02",""
 27,"TEXT_SUBWIL142_00705_TODO_03",""
 28,"TEXT_SUBWIL142_00705_TODO_04",""
@@ -49,22 +49,52 @@ int32,str,str
 45,"TEXT_SUBWIL142_00705_TODO_21",""
 46,"TEXT_SUBWIL142_00705_TODO_22",""
 47,"TEXT_SUBWIL142_00705_TODO_23",""
-48,"TEXT_SUBWIL142_00705_NEDRICK_050_000","How fares the adventuring of late? Your gear holding up against the rigors of the trade? Make no mistake, my friend, the quality of your weapon may well prove the difference between life and death."
-49,"TEXT_SUBWIL142_00705_NEDRICK_051_000","If you're serious about such things, there's someone I can introduce you to. Her name is Rowena, and she is a collector of all manner of rare artifacts. She just might have something in her stock to suit your martial prowess."
-50,"TEXT_SUBWIL142_00705_NEDRICK_052_000","Rowena used to do business in Ul'dah, but has since relocated to Revenant's Toll so as to be nearer to the ancient ruins from which she derives her livelihood. Should you ever have reason to go there, you'd do well to pay her a call."
-51,"TEXT_SUBWIL142_00705_ROWENA_060_000","A friend o' Nedrick's, are you? Then you must be an adventurer o' some skill. My business relies on capable people such as you. As a gesture o' goodwill, I'm goin' to share with you a morsel of information."
-52,"TEXT_SUBWIL142_00705_ROWENA_000_000","There's this bloke named Gerolt. Makes his livin' in weapons and armor and whatnot. They say his skill is the finest in all the realm. Might be as it's gone to his head, though. Folks don't take to the man, if you get my meanin'. Oh, and he likes a drink, and all."
-53,"TEXT_SUBWIL142_00705_ROWENA_000_001","Bloody Byregot Himself in the forge, though. As a young lad, he was cast out on his ear by his master for the crime o' craftin' finer wares─and that while piss-drunk. Ever since, he's roamed here and there, earnin' his keep day to day."
-54,"TEXT_SUBWIL142_00705_ROWENA_000_002","Aye, I've known Gerolt ever since I landed in this business. Ain't seen him for a while, though. And the last time I <Emphasis>did</Emphasis>, the ol' fool had tears in his eyes and snot drippin' from his nose. “Fallen on hard times,” he said. Asked for a bit o' coin to tide him over. Never paid me back, neither."
-55,"TEXT_SUBWIL142_00705_ROWENA_000_003","Couldn't say for sure where he is now. Seem to remember hearin' he was in the Black Shroud, puttin' up at Hyrstmill or some such place. You might do well to commission his work. He'll even reforge the relics of old if you make it worth his while, and there ain't no other in Eorzea as can do that."
-56,"TEXT_SUBWIL142_00705_ROWENA_000_004","If it's relics you care to know about, I've a promise o' payment what might catch your fancy. It don't look like much, but it'll get ol' Gerolt to fire up his forge. That much I promise."
-57,"TEXT_SUBWIL142_00705_GEROLT_000_010","Got business with me, have ye, adventurer? Then there'd better be coin or drink in it. Elsewise, bugger off back to wherever it was ye came from.
-...Restoration work on an old weapon, ye say? Hah! What makes ye think I'd fire up the forge for a grimy old─"
-58,"TEXT_SUBWIL142_00705_GEROLT_000_011","Egads! Wh-Where in the seven hells did ye get that promise of payment!? I ain't got no coin, I tell ye! Nay, not a single bloody gil!"
-59,"TEXT_SUBWIL142_00705_GEROLT_000_012","Gods, jus' look at me...at how far I've fallen! Me, the greatest weaponsmith of our age, hammerin' out dints in kettles to pay off a tavern debt! <sob>"
-60,"TEXT_SUBWIL142_00705_GEROLT_000_013","Can ye even begin to grasp me humiliation? Can ye!? Bah, 'course ye can't! Why did I even bother askin'!?"
-61,"TEXT_SUBWIL142_00705_GEROLT_000_014","<sigh> All right, all right... I'll restore yer bloody weapon. Jus' get that godsdamned slip of paper out of me sight."
-62,"TEXT_SUBWIL142_00705_SYSTEM_000_020","The quest “A Relic Reborn” is now available from Gerolt."
-63,"TEXT_SUBWIL142_00705_SYSTEM_000_021","This quest can only be undertaken when playing as one of the following jobs: Paladin, warrior, monk, dragoon, bard, ninja, black mage, summoner, white mage, or scholar."
-64,"TEXT_SUBWIL142_00705_SYSTEM_000_022","In order to accept “A Relic Reborn,” you must first complete the level 50 quest for one of the previously mentioned jobs. Each job has its own “A Relic Reborn” quest, the completion of which will earn you the relic weapon for that job."
-65,"TEXT_SUBWIL142_00705_SYSTEM_000_023","Please note that you can only undertake one “A Relic Reborn” quest at any given time. If you wish to acquire a different relic weapon, you must either complete or abandon the current quest."
+48,"TEXT_SUBWIL142_00705_NEDRICK_050_000","いよう、<If(PlayerParameter(4))>嬢ちゃん<Else/>ダンナ</If>。
+秘境や迷宮で頼りになるのは、己の腕と武具だけ……
+だからこそ、今回はある人物を紹介してやろう。"
+49,"TEXT_SUBWIL142_00705_NEDRICK_051_000","名前は「ロウェナ」。
+古代アラグの遺物みたいな珍品と引き替えに、
+上物の武具を融通してくれる商人さ。"
+50,"TEXT_SUBWIL142_00705_NEDRICK_052_000","今はたしか「モードゥナ」地方の
+「レヴナンツトール」で店を構えているはずだ。
+銀泪湖方面に出かける用でもあるなら、寄ってみるといい。"
+51,"TEXT_SUBWIL142_00705_ROWENA_060_000","ネドリックの知り合いですって？
+ということは、あんた、それなりの腕なんでしょ？
+お得意さんになってくれそうだから、ひとつ情報をあげる。"
+52,"TEXT_SUBWIL142_00705_ROWENA_000_000","「ゲロルト」って名前の武具職人がいるんだけど知ってる？
+その腕前は、エオルゼア随一といわれるほど。
+でも、性根のほうは最低のド腐れ野郎でね。"
+53,"TEXT_SUBWIL142_00705_ROWENA_000_001","若い頃に恩師でもある鍛冶屋の親方を、
+酔った勢いでタコ殴りにして破門されて以来……
+各地を流浪して、その日暮らしをしている流れの職人なの。"
+54,"TEXT_SUBWIL142_00705_ROWENA_000_002","彼とは、あたしが武器商人だった頃からの古い付き合いでね。
+ある時なんか、鼻水垂らしながら泣いて頼みこむもんだから、
+仕方なく金を貸してやったら……見事にとんずらされたわ。"
+55,"TEXT_SUBWIL142_00705_ROWENA_000_003","その「ゲロルト」が最近、黒衣森の「ハーストミル」に
+現れたらしいの。彼をまともに働かせることさえできれば、
+失われた「古の武器」だって、現代に復元できるはずよ。"
+56,"TEXT_SUBWIL142_00705_ROWENA_000_004","もし興味があるのなら、あたしの債権書を譲ってあげる。
+これさえあれば「ゲロルト」を働かせる口実は作れるだろうね。"
+57,"TEXT_SUBWIL142_00705_GEROLT_000_010","貧乏臭せぇ冒険者が、なンの用だ？　あぁン？
+「古の武器」を復元してほしいだとォ？
+なンでオレが、見ず知らずのテメェに、そンなことを……。"
+58,"TEXT_SUBWIL142_00705_GEROLT_000_011","ま、まさか、それは「<Sheet(EventItem,2000987,0)/>」！
+なンでそれを……いや、待て、ゼニはもうねぇ！"
+59,"TEXT_SUBWIL142_00705_GEROLT_000_012","見ての通り、酒代のツケを払うため、
+ヤカン作りをさせられているくれぇなンだ！"
+60,"TEXT_SUBWIL142_00705_GEROLT_000_013","当代随一の武具職人とまで呼ばれたゲロルト様が、
+酒場で使う真鍮のヤカンだぞ？　わかるか、この屈辱ッ！"
+61,"TEXT_SUBWIL142_00705_GEROLT_000_014","……チッ、仕方ねぇなぁ。
+「古の武器」とやらを作ってやらンでもねぇから、
+そのおっかねぇ、紙切れはしまってくれよな？"
+62,"TEXT_SUBWIL142_00705_SYSTEM_000_020","ゲロルトからクエスト「蘇る古の武器」を
+受注できるようになりました。"
+63,"TEXT_SUBWIL142_00705_SYSTEM_000_021","Lv50のジョブクエストをコンプリートした状態で
+「ハーストミル」にいるゲロルトに話しかけると、
+現在のジョブの武器を入手するクエストを受注できます。"
+64,"TEXT_SUBWIL142_00705_SYSTEM_000_022","なお、クエスト「蘇る古の武器」を同時に複数、
+受注することはできません。別の武器を入手したい場合は、
+該当クエストをコンプリートするか、破棄する必要があります。"
+65,"TEXT_SUBWIL142_00705_SYSTEM_000_023","本クエストを受注可能なジョブは次のとおりです。
+ナイト、戦士、モンク、竜騎士、吟遊詩人、忍者、
+黒魔道士、召喚士、白魔道士、学者。"

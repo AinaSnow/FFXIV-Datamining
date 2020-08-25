@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB610_00892_SEQ_00","Prairillot needs a favor of you, and the chagrin it causes him is almost payment enough for the job."
-1,"TEXT_GAIUSB610_00892_SEQ_01","As the relentless cold batters Skyfire Locks, Prairillot is vexed to discover that there are no men to spare for firewood duty, and he must avail himself of an adventurer's help. Your task is to gather eight bundles of firewood from the area around Skyfire Locks."
-2,"TEXT_GAIUSB610_00892_SEQ_02","You have eight bundles of firewood, dry and ready for the stove. They should be delivered to Stephannot on the east hill ere he and his men freeze to death."
-3,"TEXT_GAIUSB610_00892_SEQ_03","Stephannot's thanks has a forced ring to it, despite his obvious relief at having more fuel on hand for the killing chill of night. Many in these parts mistrust outlanders and mislike adventurers, a state of things that makes your stay in Coerthas an uneasy one."
+0,"TEXT_GAIUSB610_00892_SEQ_00","アートボルグ砦群の衛兵プレリオーは、冒険者に頼みたいことがあるようだ。"
+1,"TEXT_GAIUSB610_00892_SEQ_01","プレリオーは「<Sheet(EventItem,2000698,0)/>」の補充をしたいようだ。「<Sheet(EObj,2002113,0)/>」を探して、「<Sheet(EventItem,2000698,0)/>」を8つ集めよう。"
+2,"TEXT_GAIUSB610_00892_SEQ_02","<Sheet(EventItem,2000698,0)/>を集めた。アートボルグ砦群の西の高台にいる「ステファノー」に届けよう。"
+3,"TEXT_GAIUSB610_00892_SEQ_03","暖を取らねば死んでしまうというステファノ―。冒険者の働きには感謝をしているようだが、冒険者が外の者である点についてはやはり快く思っていないようだ。"
 4,"TEXT_GAIUSB610_00892_SEQ_04",""
 5,"TEXT_GAIUSB610_00892_SEQ_05",""
 6,"TEXT_GAIUSB610_00892_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSB610_00892_SEQ_21",""
 22,"TEXT_GAIUSB610_00892_SEQ_22",""
 23,"TEXT_GAIUSB610_00892_SEQ_23",""
-24,"TEXT_GAIUSB610_00892_TODO_00","Gather bundles of firewood from around Skyfire Locks."
-25,"TEXT_GAIUSB610_00892_TODO_01","Give the firewood to Stephannot."
+24,"TEXT_GAIUSB610_00892_TODO_00","<Sheet(EObj,2002113,0)/>から<Sheet(EventItem,2000698,0)/>を入手"
+25,"TEXT_GAIUSB610_00892_TODO_01","ステファノーに<Sheet(EventItem,2000698,0)/>を渡す"
 26,"TEXT_GAIUSB610_00892_TODO_02",""
 27,"TEXT_GAIUSB610_00892_TODO_03",""
 28,"TEXT_GAIUSB610_00892_TODO_04",""
@@ -49,11 +49,21 @@ int32,str,str
 45,"TEXT_GAIUSB610_00892_TODO_21",""
 46,"TEXT_GAIUSB610_00892_TODO_22",""
 47,"TEXT_GAIUSB610_00892_TODO_23",""
-48,"TEXT_GAIUSB610_00892_PRAIRILLOT_000_000","It galls me to ask for the help of an adventurer, yet I cannot leave the fort, not now...damn it! "
-49,"TEXT_GAIUSB610_00892_PRAIRILLOT_000_001","You are eager to do us service, is that not right, adventurer? There is some urgent need for firewood and you would gain much by assisting us."
-50,"TEXT_GAIUSB610_00892_PRAIRILLOT_000_002","The area around Skyfire Locks never lacks for firewood. Collect eight bundles and deliver them to Stephannot on the east hill."
-51,"TEXT_GAIUSB610_00892_DUMMY_000_010",""
-52,"TEXT_GAIUSB610_00892_DUMMYTODO_000_010",""
-53,"TEXT_GAIUSB610_00892_STEPHANNOT_000_020","Took your time, you sniveling whey-face! ...Firewood? Who told you to bring firewood, whelp!? What happened to the fresh supplies from Camp Dragonhead? And stand up straight when I address you!"
-54,"TEXT_GAIUSB610_00892_STEPHANNOT_000_021","Fie, I mistook you for another; I sent out a recruit some time ago to take delivery of relief supplies. You came all this way to bring more fuel? I bid you thanks."
-55,"TEXT_GAIUSB610_00892_STEPHANNOT_000_022","'Tis no comfort we seek, you understand, but life. The cold is too relentless to go long without fire. I give thanks for your service, but Coerthas is no place for those who lack discipline and faith. You will perish, and in so doing, mayhap endanger the crusade."
+48,"TEXT_GAIUSB610_00892_PRAIRILLOT_000_000","こんなことで、冒険者に依頼を……。
+……しかし、この砦を離れるわけにもいかん。クソ……。"
+49,"TEXT_GAIUSB610_00892_PRAIRILLOT_000_001","冒険者よ、どうせ仕事を探しているのだろう？
+ならば「<Sheet(EventItem,2000698,0)/>」を補充してきてくれ！"
+50,"TEXT_GAIUSB610_00892_PRAIRILLOT_000_002","その辺りで薪を8束ほど集め、
+西の高台にいる「ステファノー」に渡してほしいのだ。
+薪となる木は、雪に埋もれた木の辺りに落ちているはずだ。"
+51,"TEXT_GAIUSB610_00892_DUMMY_000_010","「雪に埋もれた木」にアクセスし、「<Sheet(EventItem,2000698,0)/>」を拾う(8つ)"
+52,"TEXT_GAIUSB610_00892_DUMMYTODO_000_010","（★未使用／削除予定★）"
+53,"TEXT_GAIUSB610_00892_STEPHANNOT_000_020","遅いぞ！　キャンプ・ドラゴンヘッドからの、
+補給物資はどうしたんだ！？
+……なに、薪を持ってきただと？"
+54,"TEXT_GAIUSB610_00892_STEPHANNOT_000_021","おっと、すまん……人違いだった。
+てっきり、食料調達に出かけた新兵だと思ってな。
+わざわざ「<Sheet(EventItem,2000698,0)/>」を届けてくれたのか。"
+55,"TEXT_GAIUSB610_00892_STEPHANNOT_000_022","この寒さだ、暖を取らないと凍え死んでしまうからな。
+今回は助かったが、このクルザスは冒険者が、
+ウロウロしていいような土地ではない。覚えておくことだ。"

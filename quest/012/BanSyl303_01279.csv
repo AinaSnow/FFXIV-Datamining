@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANSYL303_01279_SEQ_00","Moxia gazes wistfully in your direction."
-1,"TEXT_BANSYL303_01279_SEQ_01","Moxia relates to you the tragic tale of the ancient ones, guardians of the forest whose once-kindly hearts have been poisoned by the rampant contamination of the Sylphlands. Fighting back tears, she bids you slay the great trees and obtain three acorns."
-2,"TEXT_BANSYL303_01279_SEQ_02","You have put the sentinels out of their suffering, and obtained three acorns in the process. Next, obtain three phials of water from the springs in the vicinity of the Seedbed and the Hanging Barbs."
-3,"TEXT_BANSYL303_01279_SEQ_03","Water and acorns in hand, return to Little Solace and hand the items over to Moxia."
-4,"TEXT_BANSYL303_01279_SEQ_04","Though saddened at the sentinels' fate, Moxia is resolved to honor their memory by planting a new generation of gentle guardians. You have again proven yourself a friend to Little Solace, and this is surely not the last time the sylphs will beseech your aid."
+0,"TEXT_BANSYL303_01279_SEQ_00","シルフの仮宿のモキシアは、困ったことがあり冒険者を頼りたいようだ。"
+1,"TEXT_BANSYL303_01279_SEQ_01","モキシアの依頼を受けた。ハンギングバーブ南にいる「<Sheet(BNpcName,163,0)/>」を討伐し「<Sheet(EventItem,2001168,0)/>」を3個入手しよう。"
+2,"TEXT_BANSYL303_01279_SEQ_02","<Sheet(BNpcName,163,0)/>を討伐し<Sheet(EventItem,2001168,0)/>を入手した。ゆりかごの大樹やハンギングバーブの周辺で、「<Sheet(EObj,2003105,0)/>」から「<Sheet(EventItem,2001169,0)/>」を3杯汲もう。"
+3,"TEXT_BANSYL303_01279_SEQ_03","<Sheet(EventItem,2001169,0)/>を入手した。シルフの仮宿の「モキシア」に「<Sheet(EventItem,2001168,0)/>」と「<Sheet(EventItem,2001169,0)/>」を渡そう。"
+4,"TEXT_BANSYL303_01279_SEQ_04","モキシアに依頼品を渡した。受け取ったモキシアは、これでまた<Sheet(BNpcName,163,0)/>を育てられると喜んでいた。またの機会に協力しよう。"
 5,"TEXT_BANSYL303_01279_SEQ_05",""
 6,"TEXT_BANSYL303_01279_SEQ_06",""
 7,"TEXT_BANSYL303_01279_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_BANSYL303_01279_SEQ_21",""
 22,"TEXT_BANSYL303_01279_SEQ_22",""
 23,"TEXT_BANSYL303_01279_SEQ_23",""
-24,"TEXT_BANSYL303_01279_TODO_00","Slay Sylphlands sentinels and obtain sentinel acorns."
-25,"TEXT_BANSYL303_01279_TODO_01","Obtain deepspring water from the Sylphlands springs."
-26,"TEXT_BANSYL303_01279_TODO_02","Deliver the acorns and the water to Moxia."
+24,"TEXT_BANSYL303_01279_TODO_00","<Sheet(BNpcName,163,0)/>から<Sheet(EventItem,2001168,0)/>を入手"
+25,"TEXT_BANSYL303_01279_TODO_01","<Sheet(EObj,2003105,0)/>で<Sheet(EventItem,2001169,0)/>を入手"
+26,"TEXT_BANSYL303_01279_TODO_02","モキシアに<Sheet(EventItem,2001168,0)/>と<Sheet(EventItem,2001169,0)/>を渡す"
 27,"TEXT_BANSYL303_01279_TODO_03",""
 28,"TEXT_BANSYL303_01279_TODO_04",""
 29,"TEXT_BANSYL303_01279_TODO_05",""
@@ -49,14 +49,33 @@ int32,str,str
 45,"TEXT_BANSYL303_01279_TODO_21",""
 46,"TEXT_BANSYL303_01279_TODO_22",""
 47,"TEXT_BANSYL303_01279_TODO_23",""
-48,"TEXT_BANSYL303_01279_MOXIA_000_000","O, ancient ones, kindly ones... <sob> Forgive these ones..."
-49,"TEXT_BANSYL303_01279_MOXIA_000_001","Does brave one know? Since long before walking ones walked this place, these ones have kept the company of the trees. The gentlest of the trees were the ancient ones. The ancient ones watched over these ones, and kept these ones safe."
-50,"TEXT_BANSYL303_01279_MOXIA_000_002","...Then touched ones began to fill the forest with clouds of poison and hate. Ancient ones turned to gnarled, twisted ones, and once-gentle branches came crashing and lashing at these ones, that ancient ones once did love and protect."
-51,"TEXT_BANSYL303_01279_MOXIA_000_003","It is too late to save ancient ones, but there is still a way to save what ancient ones once were. First, though it pains this one's heart, this one must ask brave one to end ancient ones' suffering."
-52,"TEXT_BANSYL303_01279_MOXIA_000_004","After doing so, this one asks brave one to bring back ancient ones' seed-corns, along with three phials of deepspring water."
-53,"TEXT_BANSYL303_01279_MOXIA_000_005","The springs by the Seedbed or the Hanging Barbs should suffice, this one thinks, but be wary─naughty ones abound."
-54,"TEXT_BANSYL303_01279_MOXIA_000_010","This one asks that brave one bring back ancient ones' seed-corns, along with three phials of fresh water from deep spring. So will the cycle of life begin anew."
-55,"TEXT_BANSYL303_01279_MOXIA_000_020","Did brave one bring the...<sniffle>...acorns and water that this one seeks?"
-56,"TEXT_BANSYL303_01279_MOXIA_000_021","Brave one is strong indeed to quiet the ancient ones. This one is most grateful."
-57,"TEXT_BANSYL303_01279_MOXIA_000_022","These ones must never forget the ancient ones' kindness, but it is time for the cycle of life to begin anew. Yes, this one is certain."
-58,"TEXT_BANSYL303_01279_POP_MESSAGE_000","You sense a hostile presence!"
+48,"TEXT_BANSYL303_01279_MOXIA_000_000","ここいらには「<Sheet(BNpcName,163,0)/>」という、
+とても心のやさしい植物の魔物がいるでふっち。
+彼らは、わたぴら仮宿の「オトモダチ」なのでふっち。"
+49,"TEXT_BANSYL303_01279_MOXIA_000_001","……でも、悪い子シルフの作り出した、
+マガマガちい森の瘴気にあてられて、
+凶暴になっちゃったんでふっち……。"
+50,"TEXT_BANSYL303_01279_MOXIA_000_002","とてもとても、かわいそうだけど、
+「<Sheet(BNpcName,163,0)/>」をやっつけて、
+新しい種から、また育てなおさないといけないでふっち。"
+51,"TEXT_BANSYL303_01279_MOXIA_000_003","冒険者さん、「<Sheet(BNpcName,163,0)/>」をやっつけて、
+「<Sheet(EventItem,2001168,0)/>」を3個、
+集めてほしいでふっち。"
+52,"TEXT_BANSYL303_01279_MOXIA_000_004","種が集まったら、ついでにお願いがあるでふっち。
+ゆりかごの大樹やハンギングバーブの周辺で、
+「<Sheet(EObj,2003105,0)/>」から「<Sheet(EventItem,2001169,0)/>」を3杯汲むでふっち。"
+53,"TEXT_BANSYL303_01279_MOXIA_000_005","「<Sheet(EventItem,2001169,0)/>」は、「<Sheet(BNpcName,163,0)/>」の育成に
+必要になるのでふっち。
+泉には手強い悪い子シルフがいるから、気をつけるでふっち！"
+54,"TEXT_BANSYL303_01279_MOXIA_000_010","「<Sheet(EventItem,2001168,0)/>」と、
+「<Sheet(EventItem,2001169,0)/>」が必要でふっち。
+どっちも3つずついるでふっち！"
+55,"TEXT_BANSYL303_01279_MOXIA_000_020","……「<Sheet(BNpcName,163,0)/>」を倒して、
+どんぐりと泉の水をもってきたでふっち？"
+56,"TEXT_BANSYL303_01279_MOXIA_000_021","たしかに受け取ったでふっち！
+ありがとふっち、これで<Sheet(BNpcName,163,0)/>を
+また育てることができるでふっち。"
+57,"TEXT_BANSYL303_01279_MOXIA_000_022","今度は、悪い子シルフに邪魔されないように、
+大切に育てるでふっち。
+そして立派なオトモダチにするでふっち！"
+58,"TEXT_BANSYL303_01279_POP_MESSAGE_000","敵の気配を感じた！！"

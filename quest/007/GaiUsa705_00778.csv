@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSA705_00778_SEQ_00","Hremfing has a secret message for you."
-1,"TEXT_GAIUSA705_00778_SEQ_01","It seems a young fellow named Wilred wants a word with you in private. Make your way to the designated meeting point, a rocky area north of the settlement."
-2,"TEXT_GAIUSA705_00778_SEQ_02","Somewhat predictably, the rendezvous turns out to be a trap. Wilred and his cronies fall upon you, but you succeed in overpowering them. Question Wilred and learn of his agenda."
-3,"TEXT_GAIUSA705_00778_SEQ_03","Wilred manages to give you the slip, but not before mentioning a plan to bring down the Empire. Gundobald will want to know of this."
-4,"TEXT_GAIUSA705_00778_SEQ_04","Gundobald is troubled to learn that Wilred and his companions will stop at nothing for their plan. What could the young ones possibly mean to do?"
+0,"TEXT_GAIUSA705_00778_SEQ_00","リトルアラミゴのレムフィングは、冒険者宛の伝言を預かっているらしい。"
+1,"TEXT_GAIUSA705_00778_SEQ_01","手紙の主は「ウィルレッド」というリトルアラミゴの若者だった。北の岩地で待っているウィルレッドと話そう。"
+2,"TEXT_GAIUSA705_00778_SEQ_02","ウィルレッドの呼び出しは、冒険者を襲う罠だった。彼らを煽動した「ウィルレッド」に話そう。"
+3,"TEXT_GAIUSA705_00778_SEQ_03","ウィルレッドは「作戦」という言葉を残して逃走してしまった。リトルアラミゴの「グンドバルド」に報告しよう。"
+4,"TEXT_GAIUSA705_00778_SEQ_04","グンドバルドは若者たちの暴走に深く心を痛めているようだ。若者たちの目的とは、いったい何なのだろうか……？"
 5,"TEXT_GAIUSA705_00778_SEQ_05",""
 6,"TEXT_GAIUSA705_00778_SEQ_06",""
 7,"TEXT_GAIUSA705_00778_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_GAIUSA705_00778_SEQ_21",""
 22,"TEXT_GAIUSA705_00778_SEQ_22",""
 23,"TEXT_GAIUSA705_00778_SEQ_23",""
-24,"TEXT_GAIUSA705_00778_TODO_00","Rendezvous with Wilred."
-25,"TEXT_GAIUSA705_00778_TODO_01","Question Wilred."
-26,"TEXT_GAIUSA705_00778_TODO_02","Report to Gundobald."
+24,"TEXT_GAIUSA705_00778_TODO_00","ウィルレッドと話す"
+25,"TEXT_GAIUSA705_00778_TODO_01","もう一度ウィルレッドと話す"
+26,"TEXT_GAIUSA705_00778_TODO_02","グンドバルドに報告"
 27,"TEXT_GAIUSA705_00778_TODO_03",""
 28,"TEXT_GAIUSA705_00778_TODO_04",""
 29,"TEXT_GAIUSA705_00778_TODO_05",""
@@ -49,17 +49,34 @@ int32,str,str
 45,"TEXT_GAIUSA705_00778_TODO_21",""
 46,"TEXT_GAIUSA705_00778_TODO_22",""
 47,"TEXT_GAIUSA705_00778_TODO_23",""
-48,"TEXT_GAIUSA705_00778_HREMFING_000_000","Hey, adventurer. You done talking with the old bear?"
-49,"TEXT_GAIUSA705_00778_HREMFING_000_001","I've got a message for you from Wilred. Lad's something of a leader among the young ones here."
-50,"TEXT_GAIUSA705_00778_HREMFING_000_002","He's impressed that you've won over Gundobald, and wants a word with you. Says he'll be waiting over at the craggy area north of here."
-51,"TEXT_GAIUSA705_00778_WILRED_000_010","Thanks for coming, friend. 'Tis no ordinary outsider who can gain the trust of the old bear. That's why I wanted to meet you, to discuss something in private."
-52,"TEXT_GAIUSA705_00778_WILRED_000_011","Tell me...why are you snooping about? Did the Empire send you? Or someone else?"
-53,"TEXT_GAIUSA705_00778_WILRED_000_012","Coeurl got your tongue? Hmph, no matter. Whoever it is you work for, your meddling ends here. Get <If(PlayerParameter(4))>her<Else/>him</If>!"
-54,"TEXT_GAIUSA705_00778_WILRED_000_020","I won't let you foil our plan!"
-55,"TEXT_GAIUSA705_00778_DUMMY_000_030","(Defeat Ala Mhigan youths.)"
-56,"TEXT_GAIUSA705_00778_WILRED_000_040","Y-You're stronger than you look..."
-57,"TEXT_GAIUSA705_00778_WILRED_000_041","This changes nothing! Threaten us, beat us bloody all you like...but nothing short of death can make us give up our fight!"
-58,"TEXT_GAIUSA705_00778_WILRED_000_042","We're going to obtain the power to bring down the Empire, and with it we'll reclaim our homeland!"
-59,"TEXT_GAIUSA705_00778_GUNDOBALD_000_050","Attacked by Wilred and his cronies!? That they would go to such lengths for the sake of this plan of theirs..."
-60,"TEXT_GAIUSA705_00778_GUNDOBALD_000_051","Left to their own devices, the young fools are like to harm others, if not themselves. We must uncover their agenda and put an end to this madness."
-61,"TEXT_GAIUSA705_00778_POP_MESSAGE_000","You sense a hostile presence!"
+48,"TEXT_GAIUSA705_00778_HREMFING_000_000","おっ、グンドバルドさんとの話は終わったのかい？
+あんた宛に、伝言を預かってるんだよ。"
+49,"TEXT_GAIUSA705_00778_HREMFING_000_001","「ウィルレッド」ってガキからなんだが、
+あんたとこっそり話したいから、北の岩地で待ってるとさ。"
+50,"TEXT_GAIUSA705_00778_HREMFING_000_002","あいつは、ここの若い奴らをまとめてるんだ。
+グンドバルドさんに認められた冒険者なんて珍しいから、
+話を聞きたいんじゃないか？"
+51,"TEXT_GAIUSA705_00778_WILRED_000_010","待ってたよ、冒険者さん。
+あなたが信頼できる人だと見こんで、
+ひとつ聞きたいことがあるんだ。"
+52,"TEXT_GAIUSA705_00778_WILRED_000_011","なぁ……
+オレたちのことを嗅ぎまわって、どうするつもりだ？"
+53,"TEXT_GAIUSA705_00778_WILRED_000_012","帝国のスパイか、人拐いの手先か……。
+どちらにせよ、邪魔させるものかよ！
+おい、シメ上げろッ！"
+54,"TEXT_GAIUSA705_00778_WILRED_000_020","お前ら内地の者に、オレたちの屈辱は理解できないッ！
+解った気でいた自分を恨むんだな！"
+55,"TEXT_GAIUSA705_00778_DUMMY_000_030","（若いアラミゴ人を倒す）"
+56,"TEXT_GAIUSA705_00778_WILRED_000_040","くっ、腕も立つってワケかよ……！
+余裕ぶりやがって……くそぉぉぉッ！！"
+57,"TEXT_GAIUSA705_00778_WILRED_000_041","だが、作戦は続けるぞ！
+殴られたって止めるものか……
+薄暗い洞窟で死を待つだけが、オレたちの一生じゃない！"
+58,"TEXT_GAIUSA705_00778_WILRED_000_042","帝国を倒せば、こんな生活は終わるんだ。
+力を手に入れて、オレたちの敵を一掃してやるッ！"
+59,"TEXT_GAIUSA705_00778_GUNDOBALD_000_050","……なんだと？
+ウィルレッドが、そんなことを……。
+良からぬ企みとは思っていたが、まさか刃を向けるとは。"
+60,"TEXT_GAIUSA705_00778_GUNDOBALD_000_051","お前には、すまないことをしたな。
+若い衆が、そこまで追い詰められていたとは……。"
+61,"TEXT_GAIUSA705_00778_POP_MESSAGE_000","敵の気配を感じた！！"

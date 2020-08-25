@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSA307_00739_SEQ_00","Auphiliot is worried about Buscarron in light of recent events."
-1,"TEXT_GAIUSA307_00739_SEQ_01","Buscarron is vexed by the appearance of Garleans in the Twelveswood. To ease his mind, Auphiliot would have you speak with a Coeurlclaw poacher and a flyer for the Redbelly Wasps, and ask that they keep an eye out for any Garleans they might spy."
-2,"TEXT_GAIUSA307_00739_SEQ_02","You have asked for the vigilant eyes of both poachers and Wasps alike. Take word of your deeds back to Auphiliot at Buscarron's Druthers."
-3,"TEXT_GAIUSA307_00739_SEQ_03","It turns out that Auphiliot had more in mind than assuring Buscarron that the Garleans are being kept in check. He also had you meet the poacher and the flyer so that they would know who you are, and that you do not fear them. He hopes such meetings will serve to make you ever more useful to the proprietor and clientele of Buscarron's Druthers."
+0,"TEXT_GAIUSA307_00739_SEQ_00","酒房「バスカロンドラザーズ」のオフィリオーは、バスカロンのことで冒険者に相談があるようだ。"
+1,"TEXT_GAIUSA307_00739_SEQ_01","森の中にいた帝国兵のことでバスカロンが悩んでいるらしい。「密猟団の狩人」と「似我蜂団の伝令」に、帝国兵に警戒するよう伝えよう。"
+2,"TEXT_GAIUSA307_00739_SEQ_02","帝国兵を警戒するよう、無事に伝えることができた。酒房「バスカロンドラザーズ」へ戻り「オフィリオー」に報告しよう。"
+3,"TEXT_GAIUSA307_00739_SEQ_03","オフィリオーが冒険者に伝言を頼んだのは、賊や密猟団との顔つなぎをさせるためでもあったらしい。バスカロンドラザーズを取り巻く状況について、またひとつ知ることができた。経験を糧に、今後ともバスカロンドラザーズの人々の役に立とう。"
 4,"TEXT_GAIUSA307_00739_SEQ_04",""
 5,"TEXT_GAIUSA307_00739_SEQ_05",""
 6,"TEXT_GAIUSA307_00739_SEQ_06",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_GAIUSA307_00739_SEQ_21",""
 22,"TEXT_GAIUSA307_00739_SEQ_22",""
 23,"TEXT_GAIUSA307_00739_SEQ_23",""
-24,"TEXT_GAIUSA307_00739_TODO_00","Speak with a Coeurlclaw poacher."
-25,"TEXT_GAIUSA307_00739_TODO_01","Speak with a flyer for the Redbelly Wasps."
-26,"TEXT_GAIUSA307_00739_TODO_02","Report to Auphiliot."
+24,"TEXT_GAIUSA307_00739_TODO_00","密猟団の狩人と話す"
+25,"TEXT_GAIUSA307_00739_TODO_01","似我蜂団の伝令と話す"
+26,"TEXT_GAIUSA307_00739_TODO_02","オフィリオーに報告"
 27,"TEXT_GAIUSA307_00739_TODO_03",""
 28,"TEXT_GAIUSA307_00739_TODO_04",""
 29,"TEXT_GAIUSA307_00739_TODO_05",""
@@ -49,15 +49,32 @@ int32,str,str
 45,"TEXT_GAIUSA307_00739_TODO_21",""
 46,"TEXT_GAIUSA307_00739_TODO_22",""
 47,"TEXT_GAIUSA307_00739_TODO_23",""
-48,"TEXT_GAIUSA307_00739_AUPHILIOT_000_000","Yer word o' Garleans in the wood's got ol' Buscarron beside himself with worry."
-49,"TEXT_GAIUSA307_00739_AUPHILIOT_000_001","So, I came up with a bit of an idea, I did. Might be ye heard, there's a place near to here where poachers an' all other manner o' scum gather."
-50,"TEXT_GAIUSA307_00739_AUPHILIOT_000_002","They're no friends o' Gridania, to be sure, but they've even less love for Garlemald. So I got to thinkin', why not ask 'em to keep an eye on any Garleans in the wood? Enemy o' my enemy, an' all that."
-51,"TEXT_GAIUSA307_00739_MITSURYO_000_010","Buscarron is worried by Garleans in the wood, is he? Then the situation must be dire. Very well, I will see to it any imperials are watched with a close eye."
-52,"TEXT_GAIUSA307_00739_MITSURYO_000_011","By the by, you are the <Sheet(Race,PlayerParameter(71),0)/> making a name for <If(PlayerParameter(4))>her<Else/>him</If>self of late, are you not? It is good to finally put a face to the name."
-53,"TEXT_GAIUSA307_00739_READBERRY_000_020","Garleans in the wood? Buscarron would not lie of such things. Nor, I think, would you. Worry not─the Wasps are watching."
-54,"TEXT_GAIUSA307_00739_READBERRY_000_021","Tell me, are you the <Sheet(ClassJob,PlayerParameter(68),0)/> rumors speak of? Aye, I suspected as much."
-55,"TEXT_GAIUSA307_00739_READBERRY_000_022","Many Wasps are looking forward to the day they cross paths with you─myself included. Until then, friend."
-56,"TEXT_GAIUSA307_00739_AUPHILIOT_000_030","So, how's the hospitality of our enemies? Left a sour taste in yer mouth, did it? Pity, that."
-57,"TEXT_GAIUSA307_00739_AUPHILIOT_000_031","They've no respect for land or law, but they're not without their uses. Now they know who ye are, an' that ye ain't scared of 'em."
-58,"TEXT_GAIUSA307_00739_AUPHILIOT_000_032","Yer name's gettin' known o' late, for better or worse. Lotta folk takin' an interest in ye."
-59,"TEXT_GAIUSA307_00739_AUPHILIOT_000_033","Thought it best if ye went lookin' for 'em before they came lookin' for <Emphasis>you</Emphasis>."
+48,"TEXT_GAIUSA307_00739_AUPHILIOT_000_000","バスカロンの親父の奴、
+どうも森の中にいた帝国兵のことを心配してるらしい。"
+49,"TEXT_GAIUSA307_00739_AUPHILIOT_000_001","そこで相談なんだが……
+バスカロンドラザーズの近くに、
+この辺を根城にしてる賊や密猟者が集まる場所がある。"
+50,"TEXT_GAIUSA307_00739_AUPHILIOT_000_002","そいつらに、帝国兵に注意するよう伝えてきてくれ。
+そんじゃ、うまいこと頼んだぜ。"
+51,"TEXT_GAIUSA307_00739_MITSURYO_000_010","バスカロンが帝国兵のことを心配してるって？
+そうか……あの親父が心配するぐらいだ、
+警戒だけはしておいた方がよさそうだな。"
+52,"TEXT_GAIUSA307_00739_MITSURYO_000_011","……ところで、最近ここらで噂になってる
+<Sheet(Race,PlayerParameter(71),0)/>族の冒険者ってなぁお前だろ？
+そのうち「アイサツ」に行くからよ、そんときゃ頼まあ。"
+53,"TEXT_GAIUSA307_00739_READBERRY_000_020","……森の中に帝国兵がいた？
+バスカロンの情報なら、信じねえわけにはいかねえな。
+ひとまず兵隊の数増やして、警戒しといてやるよ。"
+54,"TEXT_GAIUSA307_00739_READBERRY_000_021","そういえば、ここのとこ噂になってる
+めっぽう強い<Sheet(ClassJob,PlayerParameter(68),0)/>の冒険者ってのは、お前だろ？"
+55,"TEXT_GAIUSA307_00739_READBERRY_000_022","ウチの若い奴が、お前と戦うのを楽しみにしてる。
+森でウチのに出くわしたときは、お手柔らかに頼むぜ。
+……もちろん、お互いにな。"
+56,"TEXT_GAIUSA307_00739_AUPHILIOT_000_030","よう、賊どもには会えたようだな。
+……ああいう奴らと顔をつなぐのはイヤだったか？"
+57,"TEXT_GAIUSA307_00739_AUPHILIOT_000_031","だけどよ、ここらでああいう連中と
+顔を合わせとくのも悪かねえと思ったんだよ。"
+58,"TEXT_GAIUSA307_00739_AUPHILIOT_000_032","最近のお前は、良かれ悪しかれ目立ちはじめてる。
+お前の噂を聞いて、興味を持ってる連中も多かったし……"
+59,"TEXT_GAIUSA307_00739_AUPHILIOT_000_033","面倒くせえことになる前に、
+顔合わせだけでもしといた方がいいと思ったのさ。"

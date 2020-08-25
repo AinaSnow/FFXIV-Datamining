@@ -1,12 +1,15 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSFSH502_02085_SEQ_00","Sisipu has a rod in her hand and a cloud on her brow."
-1,"TEXT_CLSFSH502_02085_SEQ_01","Sisipu entrusts you with an important mission─to return a forgotten fishing rod to its absent-minded owner. Ansaulme, the rodless rover in question, is an authority on far-flung fishing holes. Hurry to the Drowning Wench to return the rod to Ansaulme before he journeys on."
-2,"TEXT_CLSFSH502_02085_SEQ_02","Ansaulme is delighted to be reunited with his most faithful companion, and is fascinated to hear of your achievements in the field of fishing. He is eager to discuss the subject in more depth, but as he cannot linger in Limsa Lominsa as long as he would like, he invites you to his hometown to continue the conversation. Journey to Ishgard and meet with Ansaulme in the Forgotten Knight to learn more of the fishing holes of his homeland."
-3,"TEXT_CLSFSH502_02085_SEQ_03","Ansaulme welcomes you to Ishgard and promises to give you a guided tour of his homeland's best fishing holes─weather permitting, of course. Speak with Ansaulme again when the storms have settled in Coerthas, and he will show you the sights.
+0,"TEXT_CLSFSH502_02085_SEQ_00","漁師ギルドのシシプは冒険者に頼み事があるようだ。"
+1,"TEXT_CLSFSH502_02085_SEQ_01","前回までの冒険録：
+伝説の釣り人にして漁師ギルドマスターである、ワワラゴ。彼に代わって、けなげにギルドマスター代行の仕事をこなすシシプが、大弱りしていた。伝説の「大海蛇」が出たという噂が立ち、黒渦団から禁漁を命じられたのだ。冒険者はワワラゴの助言により、「大海蛇」と見間違えられた「マズラヤマーリン」を釣り上げ、みごと禁漁を取りやめさせる。漁師ギルドの危機を救った冒険者の腕前に、シシプは惜しみない賛辞を贈るのだった……。
+　　　　　　　　　　　　*　*　*
+シシプから、来客の忘れ物を届けるよう頼まれた。溺れた海豚亭の「アンソールム」に「<Sheet(EventItem,2001720,0)/>」を渡そう。"
+2,"TEXT_CLSFSH502_02085_SEQ_02","アンソールムに<Sheet(EventItem,2001720,0)/>を渡した。アンソールムは、冒険者の釣果に興味を示し、故国を尋ねるよう誘うと去っていった。イシュガルドの忘れられた騎士亭にいる「アンソールム」と話そう。"
+3,"TEXT_CLSFSH502_02085_SEQ_03","アンソールムは、冒険者に珍しい釣り場を紹介してくれるようだ。頃合いの時節が訪れるまで、釣りの腕を磨いておこう。
 
-※The next fisher quest will be available from Ansaulme upon reaching level 53."
+※漁師のレベルが53以上になると、忘れられた騎士亭のアンソールムから次の漁師クエストを受注することができます。"
 4,"TEXT_CLSFSH502_02085_SEQ_04",""
 5,"TEXT_CLSFSH502_02085_SEQ_05",""
 6,"TEXT_CLSFSH502_02085_SEQ_06",""
@@ -27,8 +30,8 @@ int32,str,str
 21,"TEXT_CLSFSH502_02085_SEQ_21",""
 22,"TEXT_CLSFSH502_02085_SEQ_22",""
 23,"TEXT_CLSFSH502_02085_SEQ_23",""
-24,"TEXT_CLSFSH502_02085_TODO_00","Return the rod to Ansaulme at the Drowning Wench."
-25,"TEXT_CLSFSH502_02085_TODO_01","Speak with Ansaulme at the Forgotten Knight in Ishgard."
+24,"TEXT_CLSFSH502_02085_TODO_00","溺れた海豚亭のアンソールムに<Sheet(EventItem,2001720,0)/>を渡す"
+25,"TEXT_CLSFSH502_02085_TODO_01","イシュガルドのアンソールムと話す"
 26,"TEXT_CLSFSH502_02085_TODO_02",""
 27,"TEXT_CLSFSH502_02085_TODO_03",""
 28,"TEXT_CLSFSH502_02085_TODO_04",""
@@ -51,24 +54,58 @@ int32,str,str
 45,"TEXT_CLSFSH502_02085_TODO_21",""
 46,"TEXT_CLSFSH502_02085_TODO_22",""
 47,"TEXT_CLSFSH502_02085_TODO_23",""
-48,"TEXT_CLSFSH502_02085_SISIPU_000_000","Well, if it isn't my old friend <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>─and not a minute too soon! Not that I don't appreciate your company or anything, but I need you to go and deliver something for me right away."
-49,"TEXT_CLSFSH502_02085_SISIPU_000_001","Wawalago's had a visitor, you see─not only did the poor fellow have to put up with our dear guildmaster blathering on about who-knows-what for hours on end, but he left his rod behind as well. Would you mind taking it back to him?"
-50,"TEXT_CLSFSH502_02085_SISIPU_000_002","If it was just the rod that was at stake, I'd get that lazy guildmaster of ours to take it back himself, but this fellow's a master fisherman who's traveled to every corner of the world. According to Wawalago, he knows all about these secret fishing spots that aren't on any of our charts."
-51,"TEXT_CLSFSH502_02085_SISIPU_000_003","Hence why you're the <If(PlayerParameter(4))>woman<Else/>man</If> for the job: not only can you be trusted to get his precious pole back to him in one piece, but you can have a chat with this chap and learn something useful in the bargain. It wouldn't do for our guild's angling ace to fall behind on <If(PlayerParameter(4))>her<Else/>his</If> studies."
-52,"TEXT_CLSFSH502_02085_SISIPU_100_003","Mayhap he'll tell you about some far-flung fishing holes that even the famous Wawalago's never heard of, and you'll be able to test your mettle against a whole new kettle of fish!"
-53,"TEXT_CLSFSH502_02085_SISIPU_000_004","The fisherman you're looking for is an Elezen fellow called Ansaulme─he's staying at the Drowning Wench. If you hurry, you should be able to catch him before he heads off on his travels again."
-54,"TEXT_CLSFSH502_02085_SISIPU_000_010","Chop-chop, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! The fellow who left his rod here should still be over at the Drowning Wench. You'd better get it back to him before it's too late!"
-55,"TEXT_CLSFSH502_02085_ANSAULME_000_020","Well, it's time I was on my way. Another pint of Baderon's Peculiar and I'm like to fall asleep in the snow. ...Oh, hello there. Is there aught I can assist you with?"
-56,"TEXT_CLSFSH502_02085_ANSAULME_000_025","Goodness, is that my rod? I left it in the Fishermen's Guild, you say? Dear me...I was having so much fun catching up with my old friend Wawalago that I forgot all about my most faithful companion!"
-57,"TEXT_CLSFSH502_02085_ANSAULME_000_026","I thank you for coming out of your way to return it to me. Are you a member of the guild, then? I don't recall seeing your face down in Fisherman's Bottom."
-58,"TEXT_CLSFSH502_02085_ANSAULME_000_027","You are? Good show, <If(PlayerParameter(4))>lass<Else/>lad</If>! It's always a pleasure to speak with a fellow fish fancier. So tell me, what's been your biggest catch so far?"
-59,"TEXT_CLSFSH502_02085_ANSAULME_000_030","...You caught a Mazlaya marlin? Hold on a moment, you're not <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, are you─the <If(PlayerParameter(4))>girl<Else/>fellow</If> who lifted the fishing ban and saved the guild? Wawalago told me all about you, and in the most glowing of terms!"
-60,"TEXT_CLSFSH502_02085_ANSAULME_000_035","...You caught the Nepto Dragon!? Twelve take me! I'd heard talk of an adventurer having lifted that beast out of the briny, but I never thought I would meet the legend in person!"
-61,"TEXT_CLSFSH502_02085_ANSAULME_000_040","It's a pleasure to have met you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I wish I could stick around and chat, but it's past time I was heading home to Ishgard─if you're ever in the area, you must come and visit me and tell me all about your adventures in angling."
-62,"TEXT_CLSFSH502_02085_ANSAULME_000_000","Like as not, you'll find me in the Forgotten Knight─you could say he's the Drowning Wench's long-lost lover. Drop in whenever you like, and I'll give you a guided tour of some of my homeland's best spots to drop a lure. Till then, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>!"
-63,"TEXT_CLSFSH502_02085_SISIPU_000_045","Did you get that rod back to Ansaulme? Good to hear it. You should go and have a proper chat with him sometime. I'm sure a couple of <If(PlayerParameter(4))>avid anglers<Else/>fishy fellows</If> like you would have plenty to talk about, and who knows─maybe you'd learn something new!"
-64,"TEXT_CLSFSH502_02085_ANSAULME_000_050","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, you came! A warm welcome to Ishgard! ...Well, as warm as it gets up here, anyway. So, are you ready to learn all about my favorite fishing holes?"
-65,"TEXT_CLSFSH502_02085_ANSAULME_000_051","It'll soon be the end of the stormy season in Coerthas, so we'll be able to fish to our hearts' content without being frozen solid. Come back in a little while and I'll show you some of the perfect places to catch the finest fish in the north!"
-66,"TEXT_CLSFSH502_02085_SYSTEM_000_055","The next fisher quest will be available from Ansaulme upon reaching level 53."
-67,"TEXT_CLSFSH502_02085_SYSTEM_000_056","The requirements for undertaking subsequent quests can be reviewed in your journal."
-68,"TEXT_CLSFSH502_02085_SYSTEM_000_060","Your skills as a forager would be put to great use in gathering collectables. Speak with Morgayne at Saint Reinette's Forum in Ishgard to learn more of this lucrative business opportunity."
+48,"TEXT_CLSFSH502_02085_SISIPU_000_000","あら、いいところに来てくれたわね！
+ちょっと用事を頼まれてもらえないかしら……？"
+49,"TEXT_CLSFSH502_02085_SISIPU_000_001","実は、さっきワワラゴ親分を訪ねてきたお客さんが、
+「<Sheet(EventItem,2001720,0)/>」を忘れていっちゃってね……。
+これを、そのお客さんに届けてほしいの。"
+50,"TEXT_CLSFSH502_02085_SISIPU_000_002","もちろん、ただのおつかいじゃないわよ？
+その人、世界中を釣り歩いてる旅の釣り人なんですって。
+親分とも、すごい秘境にある釣り場の話で盛り上がってたわ。"
+51,"TEXT_CLSFSH502_02085_SISIPU_000_003","ギルドいちの漁師である<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>なら、
+話も合うでしょうし、有益な情報も聞けるんじゃないかしら。"
+52,"TEXT_CLSFSH502_02085_SISIPU_100_003","もしかしたら、私たちの知らない、
+遠方の釣り場を教えてもらえるかも……。
+そうしたら、あなたの腕を十二分に振るってくるといいわよ！"
+53,"TEXT_CLSFSH502_02085_SISIPU_000_004","お客さんは「アンソールム」さんっていうエレゼン族の方よ。
+今なら、まだ「溺れた海豚亭」にいると思うわ！"
+54,"TEXT_CLSFSH502_02085_SISIPU_000_010","お客さんは「アンソールム」さんっていうエレゼン族の方よ。
+今なら、まだ「溺れた海豚亭」にいると思うわ！"
+55,"TEXT_CLSFSH502_02085_ANSAULME_000_020","さて、この街の眺めも見納めかね。
+…………ん、お前さん、オレに何か用かい？"
+56,"TEXT_CLSFSH502_02085_ANSAULME_000_025","おっと、こいつは愛用の釣り竿じゃねえか！
+久しぶりにワワラゴ親分と会えて、はしゃぎすぎたかね。
+オレとしたことが、相棒を忘れちまうとは！"
+57,"TEXT_CLSFSH502_02085_ANSAULME_000_026","いやあ、わざわざすまねぇなあ。
+ところで、お前さんも漁師ギルドの者かい？
+さっき、顔を見せたときにはいなかったようだが。"
+58,"TEXT_CLSFSH502_02085_ANSAULME_000_027","ほほう、なるほど！
+釣りを愛する者が、会いにきてくれるとは嬉しいねえ。
+今まで、どんな釣りをしてきたんだい？"
+59,"TEXT_CLSFSH502_02085_ANSAULME_000_030","……なんと、漁師ギルドの危機を救った英雄はお前さんか！
+ってぇことは、ワワラゴ親分にも劣らぬ腕の持ち主なんだな。"
+60,"TEXT_CLSFSH502_02085_ANSAULME_000_035","……なんと、「ネプトの竜」を釣り上げたのはお前さんか！
+伝説の巨大魚を釣った釣り人の噂は、あちこちで聞いてるぞ。"
+61,"TEXT_CLSFSH502_02085_ANSAULME_000_040","こいつは、面白い<If(PlayerParameter(4))>姉ちゃん<Else/>兄ちゃん</If>と知り合えたもんだぜ。
+実は、オレの故国はイシュガルドなんだ。
+しばらく里帰りしてる予定だから、ぜひ訪ねてきてくれ！"
+62,"TEXT_CLSFSH502_02085_ANSAULME_000_000","「忘れられた騎士亭」って酒場が、オレの行きつけだからよ。
+珍しい釣り場も紹介してやれると思うから、
+イシュガルドに来る機会があれば、よろしくな！"
+63,"TEXT_CLSFSH502_02085_SISIPU_000_045","「アンソールム」さんの忘れ物は届けられた？
+ギルドいちの漁師である<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>なら、
+話も合うでしょうし、有益な情報も聞けるんじゃないかしら。"
+64,"TEXT_CLSFSH502_02085_ANSAULME_000_050","おっ、よく来たな！
+へへへっ、お前さんの経験したことのない珍しい釣り場を、
+いろいろと教えてやろうじゃねえか。"
+65,"TEXT_CLSFSH502_02085_ANSAULME_000_051","ここんとこ、クルザスの気候も落ち着いてきてるらしい。
+頃合いの時節が到来したら、また教えるから、
+たまに、ここに顔を出してくれよ！"
+66,"TEXT_CLSFSH502_02085_SYSTEM_000_055","「漁師」の新たなクラスクエストが開始されました。
+次のクエストは「レベル53」以上で、
+忘れられた騎士亭のアンソールムから受注可能です。"
+67,"TEXT_CLSFSH502_02085_SYSTEM_000_056","今後の「漁師」のクラスクエスト受注条件は、
+コンプリート後のジャーナルで確認できます。"
+68,"TEXT_CLSFSH502_02085_SYSTEM_000_060","また、新たな依頼「収集品取引」が受けられます。
+イシュガルドの聖レネット広場にいる、
+「モルゲイン」を訪ねてみましょう。"

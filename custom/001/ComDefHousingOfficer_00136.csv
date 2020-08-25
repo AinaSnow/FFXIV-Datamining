@@ -1,158 +1,341 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_000","I pray this <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>eve<Else/>morn</If><Else/><If(LessThan(PlayerParameter(11),17))>day<Else/>eve</If></If> finds you well, <If(PlayerParameter(4))>miss<Else/>sir</If>. As caretaker of <Switch(IntegerParameter(1))><Case(1)>Mist</Case><Case(2)>the Lavender Beds</Case><Case(3)>the Goblet</Case><Case(4)>Shirogane</Case></Switch>, it would be my pleasure to answer any queries you may have."
-1,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2Q1_100_002","What would you like to ask about?"
-2,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A11_111_002","Nothing."
-3,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A1_101_002","This residential district."
-4,"TEXT_COMDEFHOUSINGOFFICER_00136_CATEGORYA1_100_002","Land ownership."
-5,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A2_102_002","What kinds of plots are available?"
-6,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A3_103_002","How do I purchase land?"
-7,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A4_104_002","How do I relinquish land?"
-8,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A4_121_002","What happens if I abandon my estate?"
-9,"TEXT_COMDEFHOUSINGOFFICER_00136_CATEGORYA1_101_002","Estate hall construction and exterior customization."
-10,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A5_105_002","How do I build an estate hall?"
-11,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A6_106_002","How do I customize the exterior of my estate hall?"
-12,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A7_107_002","How do I place outdoor furnishings?"
-13,"TEXT_COMDEFHOUSINGOFFICER_00136_CATEGORYA1_102_002","Interior customization."
-14,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A8_108_002","How do I customize the interior of my estate hall?"
-15,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A9_109_002","How do I place indoor furnishings?"
-16,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A4_122_002","How do I adjust the brightness of estate lighting?"
-17,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A10_110_002","Restrictions on the sale of used furnishings."
-18,"TEXT_COMDEFHOUSINGOFFICER_00136_CATEGORYA1_103_002","Free company estate features."
-19,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A12_112_002","How do I obtain private chambers?"
-20,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A13_113_002","How do I vacate private chambers?"
-21,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A13_114_002","What happens if I am dismissed from my free company?"
-22,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A13_115_002","What are aetherial wheels?"
-23,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A13_116_002","How do I demolish a company workshop?"
-24,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A13_117_002","What are company workshops?"
-25,"TEXT_COMDEFHOUSINGOFFICER_00136_CATEGORYQ1_100_000","What will you ask?"
-26,"TEXT_COMDEFHOUSINGOFFICER_00136_CATEGORYC1_100_000","Nothing."
-27,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A10_120_002","Estate retainers."
-28,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A10_123_002","Estate sharing."
-29,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A10_124_002","Apartments."
-30,"TEXT_COMDEFHOUSINGOFFICER_00136_CATEGORYA1_104_002","Relocation."
-31,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A25_125_002","Relocation."
-32,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A26_126_002","Moving furnishings."
-33,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A27_127_002","Additional notes."
-34,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A28_128_002","Storeroom."
-35,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_010","<Clickable(<Switch(IntegerParameter(1))><Case(1)>Mist</Case><Case(2)>The Lavender Beds</Case><Case(3)>The Goblet</Case><Case(4)>Shirogane</Case></Switch>)/> is <Switch(IntegerParameter(1))><Case(1)>Limsa Lominsa's</Case><Case(2)>Gridania's</Case><Case(3)>Ul'dah's</Case><Case(4)>Kugane's</Case></Switch> fastest growing community─a residential district exclusively for adventurers."
-36,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_011","Here, you and like-minded adventurers are free to purchase apartments, or secure plots of land on which to build estates."
-37,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_012","This district has been established under the auspices of the <Switch(IntegerParameter(1))><Case(1)>Maelstrom</Case><Case(2)>Order of the Twin Adder</Case><Case(3)>Immortal Flames</Case><Case(4)>Kugane government</Case></Switch>, of course. It is their fondest hope that these favorable policies will facilitate immigration to our great nation."
-38,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_013","In case you are concerned that your allegiance may bar you from residing here─do not be."
-39,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_014","We do not concern ourselves with the private affairs of our residents. You may live here regardless of your affiliation."
-40,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_015","In residential districts, you may purchase <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>plots<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, on which you may construct and maintain <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>estate halls<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
-41,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_016","To ensure that there are sufficient plots for players, multiple <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>instances<UIGlow>01</UIGlow><UIForeground>01</UIForeground> of these districts have been created. Therefore, when entering a residential district, you will be prompted to choose the instance you wish to enter."
-42,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_020","Some say a quality estate is built upon a quality foundation, but to them I would say, “What is a quality foundation built upon? Quality <Emphasis>land</Emphasis>, of course!”"
-43,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_021","<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Small<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>medium<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>large<UIGlow>01</UIGlow><UIForeground>01</UIForeground> plots are available for purchase in each residential district."
-44,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_022","Plot size determines the maximum number of furnishings that can be placed, as well as the type of estate hall that can be constructed. <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Cottages<UIGlow>01</UIGlow><UIForeground>01</UIForeground> can be built upon small plots, <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>houses<UIGlow>01</UIGlow><UIForeground>01</UIForeground> upon medium plots, and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>mansions<UIGlow>01</UIGlow><UIForeground>01</UIForeground> upon large plots."
-45,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_023","Please note that the estate hall must match the plot size; a cottage <Emphasis>cannot</Emphasis> be built upon a large plot, for example."
-46,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_030","The process is so simple that even a child could do it─well, an exceedingly wealthy child, but I digress. First of all, the requirements for purchasing land vary depending on whether you are a private buyer, or a representative of your free company."
-47,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_100_031","In order to purchase a plot of land privately, you must have at least one class at level 50."
-48,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_101_031","Furthermore, you must hold a rank of second lieutenant or above in one of the Grand Companies."
-49,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_102_031","In order to purchase a plot of land for your free company, you must be authorized to acquire land."
-50,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_103_031","In order to purchase a plot in Shirogane, you must first complete the main scenario quest “Not without Incident.”"
-51,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_031","In both cases, to purchase an unowned plot, select the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>placard<UIGlow>01</UIGlow><UIForeground>01</UIForeground> located at its entrance and select <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Purchase Land<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
-52,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_032","The listed price will be automatically reduced every six hours until it reaches a predetermined minimum."
-53,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_033","Though waiting may allow you to buy at a lower price, please keep in mind that plots are sold on a first come, first served basis."
-54,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_040","Relinquish? <Emphasis>Relinquish</Emphasis>!? Why ever would you wish to─ <sigh> Very well, if you must know, there is a strict procedure which must be followed."
-55,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_041","You cannot relinquish a plot until any private chambers have been vacated, and the estate hall and all furnishings have been removed. Once the plot is completely vacant, open the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Housing<UIGlow>01</UIGlow><UIForeground>01</UIForeground> menu, and select <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Estate Settings<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. Finally, select <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Relinquish Land<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
-56,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_100_041","Please be warned that you will not be refunded the purchase price of the plot."
-57,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_100_045","To ensure that our community remains active and thriving, we have deemed it necessary to seize estates which have been left abandoned for an extended period of time."
-58,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_182","Estate halls which have not been entered by their owner for <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>thirty days<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (Earth time) will be designated abandoned and scheduled for <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>auto-demolition<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
-59,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_001_182","Once the estate hall has not been entered for a total of <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>forty-five days<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (Earth time), it will be demolished, and the plot will be put up for sale."
-60,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_183","All members of a free company are considered owners of a company estate."
-61,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_001_183","However, private estates may only have a single recognized owner."
-62,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_184","Therefore, while any member of a free company may enter a company estate hall to prevent auto-demolition, the only individual who can prevent the auto-demolition of a private estate is its owner."
-63,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_185","In the event your estate is demolished and your plot is sold, you will be able to claim indemnification for 80% of the plot's value. Furthermore, furnishings which can be safely removed will be stored for safekeeping by the resident caretaker."
-64,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_186","However, please be advised that you will only be able to claim items and indemnification from the resident caretaker within <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>thirty-five days<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (Earth time) following the demolition of your estate hall."
-65,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_187","Only free company members who have been granted the authority to purchase and relinquish land for the free company may claim items and indemnification for company estates."
-66,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_188","However, only the former owner of a private estate may claim items and indemnification."
-67,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_050","A new home, full of hope and promise... The mere thought of it warms the cockles of my heart. Do understand, though, that there are certain regulations that must be observed before construction can proceed."
-68,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_051","All residents must first obtain a valid building permit─one which applies to their plot's exact specifications."
-69,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_052","Some find these restrictions arbitrary, but we feel them necessary to ensure proper land usage. Oh, and do bear in mind that permits are only valid in a given region─we will not recognize one issued by another city–state."
-70,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_053","To build an estate hall, open the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Housing<UIGlow>01</UIGlow><UIForeground>01</UIForeground> menu while on your property, select <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Estate Hall<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, select <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Build Estate Hall<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, then choose a valid permit from the list."
-71,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_060","Rare is the <If(PlayerParameter(4))>woman<Else/>man</If> satisfied with <If(PlayerParameter(4))>her<Else/>his</If> abode. Fortunately, there are innumerable ways in which one might remodel their estate hall."
-72,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_061","You can customize the roof, roof decorations, exterior walls, exterior wall decorations, windows, door, placard, and fence of your estate."
-73,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_062","To change any of these elements, open the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Housing<UIGlow>01</UIGlow><UIForeground>01</UIForeground> menu while on your property but outside your estate hall, and select <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Remodel Exterior<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
-74,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_063","Please note that, once confirmed, all changes are permanent. Items used for remodeling cannot be retrieved, as replaced elements will be discarded."
-75,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_070","Interested in flaunting your wealth, are you? Say no more, <If(PlayerParameter(4))>miss<Else/>sir</If>."
-76,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_071","Accentuating your estate with tasteful furnishings demonstrates culture and influence─both of which you have in abundance, I am certain."
-77,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_072","To place outdoor furnishings, open the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Housing<UIGlow>01</UIGlow><UIForeground>01</UIForeground> menu while on your property but outside your estate hall, and select <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Outdoor Furnishings<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
-78,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_080","Home is indeed where the heart is, which is why creating a space which reflects your individuality is so very important."
-79,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_081","You can customize the interior walls, flooring, and ceiling lights of your estate hall."
-80,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_082","To change any of these elements, open the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Housing<UIGlow>01</UIGlow><UIForeground>01</UIForeground> menu while inside your estate hall, and select <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Remodel Interior<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
-81,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_083","Please note that, once confirmed, all changes are permanent. Items used for remodeling cannot be retrieved, as replaced elements will be discarded."
-82,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_090","Veritable treatises have been written on the subject of interior decoration. I will not profess to be an expert, but, if you will allow, I should be glad to share with you what I know."
-83,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_091","To place indoor furnishings, open the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Housing<UIGlow>01</UIGlow><UIForeground>01</UIForeground> menu while inside your estate hall, and select <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Indoor Furnishings<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
-84,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_092","Please note that the locations where you may place a furnishing are dictated by its type."
-85,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_095","Well, I...I would have thought it a rather simple affair, but if you require an explanation..."
-86,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_191","To adjust the brightness of your estate hall or private chambers' lighting, open the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Housing<UIGlow>01</UIGlow><UIForeground>01</UIForeground> menu while inside and select <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Adjust Lighting<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
-87,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_192","You may select one of six different brightness levels. However, please note that certain furnishings will not be affected."
-88,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_100","Placing a furnishing will <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>bind<UIGlow>01</UIGlow><UIForeground>01</UIForeground> it to you, preventing future trade or sale to other players."
-89,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_101","Moreover, certain furnishings cannot be retrieved once placed, and will be permanently discarded upon removal."
-90,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_102","You will be prompted to confirm your decision before removing these furnishings."
-91,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_110","For a nominal fee, you can purchase your very own private chambers, which will be added to your free company's estate."
-92,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_111","Private chambers can be purchased and accessed from within your free company's estate."
-93,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_112","Please note that you cannot purchase private chambers until you have attained level 50 in a single class."
-94,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_113","Moreover, you must also have attained the rank of second lieutenant in the Maelstrom, the Order of the Twin Adder, or the Immortal Flames."
-95,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_120","If you no longer require the privacy afforded by private chambers, you may choose to vacate them─provided you follow the necessary procedures."
-96,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_121","In order to vacate your private chambers, you must first remove all furnishings."
-97,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_122","Once your private chambers are completely empty, open the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Housing<UIGlow>01</UIGlow><UIForeground>01</UIForeground> menu while on your property, select <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Estate Settings<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, select <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Private Chambers<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, and then select <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Vacate Chambers<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
-98,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_130","Should you be forced to part ways with your free company due to irreconcilable differences, you will no longer be able to avail yourself of your private chambers."
-99,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_131","Any furnishings in your chambers will be collected for safekeeping. However, please be advised that this service is only provided for a limited time."
-100,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_132","If you are dismissed from your free company, your private chambers will be demolished, and furnishings placed in your private chambers will be given into the care of the resident caretaker."
-101,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_133","Furnishings will be held by the resident caretaker for 35 days (Earth time), after which they will be permanently discarded."
-102,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_134","The time remaining until your furnishings are discarded can be confirmed by selecting <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Timers<UIGlow>01</UIGlow><UIForeground>01</UIForeground> located under <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Duty<UIGlow>01</UIGlow><UIForeground>01</UIForeground> in the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>main menu<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. "
-103,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_135","Please be advised that certain furnishings as well as all interior fixtures will not be given into the care of resident caretakers, and you will not be refunded any gil used to purchase your private chambers."
-104,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_140","If you are a member of a free company, then I presume you are aware of the benefits provided by company actions. Aetherial wheels are another means by which one may acquire said actions."
-105,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_141","However, before you can make use of aetherial wheels, you must first procure a suitable stand for your estate."
-106,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_142","<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Aetherial wheels<UIGlow>01</UIGlow><UIForeground>01</UIForeground> can be used to acquire company actions without the use of company credits. The aetherial wheel stands required to do so can be obtained from housing merchants in any residential district."
-107,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_143","To charge an aetherial wheel, simply place it in a stand, and it will gradually accumulate aether over a period of time."
-108,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_144","Once primed, you may remove the aetherial wheel and use the stand to convert it into a company action, or you may choose to store it until a later date."
-109,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_150","Residents are more than welcome to employ their retainers as merchants on their estate grounds─provided they obtain the necessary documentation in advance."
-110,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_151","<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Expansion of duties permits<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, which can be purchased from independent sutlers in any residential district, can be used to place a retainer on your estate grounds outside the hall."
-111,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_152","Items currently placed on the market by your retainer can then be purchased by anyone who speaks with them."
-112,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_153","When using a permit, you will be prompted to select a retainer to place. However, should you wish to change retainers afterwards, you may do so freely."
-113,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_154","If you are placing a retainer on a free company estate, please be advised that, in the event you leave or are discharged from your free company, your retainer will not be automatically removed."
-114,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_155","Once placed on a free company estate, retainers can only be removed by members who have the authority to do so."
-115,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_155","For quite some time, many of our residents have expressed a desire to formally share their estates with other individuals. After due consideration, we have enacted a new system to facilitate such arrangements."
-116,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_201","If you are the owner of a private estate, you may choose to share it with up to three friends, regardless of plot size."
-117,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_202","To welcome friends as tenants, open the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Housing<UIGlow>01</UIGlow><UIForeground>01</UIForeground> menu, select <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Private Estate<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, then select <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Shared Estate Settings<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, followed by <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>New Tenant<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
-118,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_203","You may then grant these friends─or tenants─access to certain estate features, such as gardening, stable tending, and estate customization."
-119,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_204","To grant or revoke authorizations, select a tenant, then select or deselect estate features as you see fit."
-120,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_205","Furthermore, you may evict tenants at any time by selecting their name, followed by <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Evict<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
-121,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_170","Should you and your fellow free company members have a mind to engage in more creative pursuits, you may consider purchasing a company workshop."
-122,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_171","These workshops are furnished with facilities for constructing airships, which can then be deployed on exploratory voyages into the Sea of Clouds."
-123,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_172","It's all rather popular these days, I'm told. However, I should warn you that it is also quite demanding. Without the cooperation of your fellow free company members, you may struggle to make progress."
-124,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_173","A <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>company workshop<UIGlow>01</UIGlow><UIForeground>01</UIForeground> can be purchased from within your free company's estate."
-125,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_174","After construction, it can be accessed in the same manner as private chambers."
-126,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_175","To learn more about the company workshop's facilities, speak with the mammet voyager #004A included with your purchase."
-127,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_160","D-Demolish a workshop!? I suppose you <Emphasis>could</Emphasis> do so, if you truly had no more use for it..."
-128,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_161","<Emphasis>Should</Emphasis> you do so, however, any time and gil spent will be for naught, as all records of your activities will be expunged."
-129,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_162","To demolish your company workshop, open the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Housing<UIGlow>01</UIGlow><UIForeground>01</UIForeground> menu while on your property, select <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Estate Settings<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, select <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Free Company Estate<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, and then select <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Demolish Workshop<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
-130,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_163","Please note that before you can demolish your company workshop, you must first complete or discontinue any projects in progress, as well as dismantle any airships currently in service."
-131,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_164","Moreover, please be advised that by choosing to demolish the company workshop, you will lose any progression made in company projects and exploratory voyages, and will not be refunded any gil used to purchase the facilities."
-132,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_156","Apartments are cozy, one-room properties developed for the use of individual adventurers. Not everyone who moves to our residential district wishes to live in some sprawling estate!"
-133,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_157","The Topmast, Lily Hills, Sultana's Breath, and Kobai Goten apartment buildings are found in the residential districts of Mist, the Lavender Beds, the Goblet, and Shirogane respectively."
-134,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_158","For more information on apartment prices and features, speak with the apartment caretakers stationed in the lobbies of the aforementioned buildings."
-135,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_210","What!? You wish to take your <Emphasis>entire</Emphasis> estate hall and <Emphasis>move</Emphasis> it to another location!? ...Actually, that is perfectly possible."
-136,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_211","It is possible to relocate your estate hall to a new plot. The destination plot can be situated in any residential area and be of any size."
-137,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_212","Private estates may be relocated by their owners at will, while free company estates require those with authority to purchase and relinquish land."
-138,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_213","To begin the process, inspect the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>placard<UIGlow>01</UIGlow><UIForeground>01</UIForeground> located at the entrance of the destination plot and select <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Purchase Land<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. A prompt for relocation will appear."
-139,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_214","When making the purchase, 30% of the minimum value of the old plot will be applied towards the price of the new."
-140,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_221","Upon relocation, placed furnishings will be put in the storeroom at the destination plot, save for the chocobo stables and the miniature aetheryte, which will be placed in the garden."
-141,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_222","Private chambers and company workshops will be moved in their entirety and retain their state."
-142,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_224","Exterior fixtures will be altered to match the new residential area and plot size, in the event that they are different."
-143,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_225","Interior fixtures, meanwhile, will remain intact, unless the relocation results in an estate hall with fewer floors. In this case, the fixtures will be lost alongside the floor."
-144,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_231","Estate halls which have not been entered by their owner for thirty days (Earth time) cannot be relocated."
-145,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_232","Furthermore, initiating a relocation has the same effect as the owner entering his or her estate hall, and resets the period until auto-demolition."
-146,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_240","From fully fledged estate halls to cozy apartments, all types of housing come with a storeroom for keeping one's furnishings. The larger the residence, the bigger the storeroom."
-147,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_241","Cottages have storage for 200 indoor and 20 garden furnishings. This increases to 300 and 30 for houses, and 400 and 40 for mansions."
-148,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_242","Apartments, meanwhile, have storage for 100 indoor furnishings."
-149,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_243","Please note that chocobo stables and miniature aetherytes alone cannot be stored."
-150,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_244","Certain items, meanwhile, are stored in stasis. For instance, plants will cease to grow and wheel stands will cease to charge."
-151,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_245","Upon relocation, placed furnishings will be put in the storeroom at the destination plot. If there is insufficient space, however, the relocation cannot proceed."
-152,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_246","An estate hall cannot be removed while items are in storage. In the event that your estate hall is demolished, you may reclaim stored items by speaking with the resident caretaker within 35 days of repossession."
-153,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_181",""
-154,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_193",""
+0,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_000","<Switch(IntegerParameter(1))><Case(1)>ミスト・ヴィレッジ</Case><Case(2)>ラベンダーベッド</Case><Case(3)>ゴブレットビュート</Case><Case(4)>シロガネ</Case></Switch>へようこそ。
+こちらでは、ハウジングに関するご案内をしております。"
+1,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2Q1_100_002","何を聞く？"
+2,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A11_111_002","キャンセル"
+3,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A1_101_002","冒険者居住区とは？"
+4,"TEXT_COMDEFHOUSINGOFFICER_00136_CATEGORYA1_100_002","土地の購入や破棄について知りたい"
+5,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A2_102_002","土地について"
+6,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A3_103_002","土地の購入"
+7,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A4_104_002","土地の破棄"
+8,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A4_121_002","土地の自動撤去について"
+9,"TEXT_COMDEFHOUSINGOFFICER_00136_CATEGORYA1_101_002","ハウスを建てて外観を飾りたい"
+10,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A5_105_002","ハウスの建築"
+11,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A6_106_002","外装の変更"
+12,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A7_107_002","ガーデンに庭具を置く"
+13,"TEXT_COMDEFHOUSINGOFFICER_00136_CATEGORYA1_102_002","ハウス内を飾りたい"
+14,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A8_108_002","内装の変更"
+15,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A9_109_002","ハウス内に調度品を置く"
+16,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A4_122_002","調光機能について"
+17,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A10_110_002","調度品や庭具の取引属性とは？"
+18,"TEXT_COMDEFHOUSINGOFFICER_00136_CATEGORYA1_103_002","フリーカンパニーのハウス専用の機能を知りたい"
+19,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A12_112_002","個室の増築"
+20,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A13_113_002","個室の撤去"
+21,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A13_114_002","個室の自動撤去について"
+22,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A13_115_002","エーテリアルホイールについて"
+23,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A13_116_002","地下工房の撤去"
+24,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A13_117_002","地下工房の増築"
+25,"TEXT_COMDEFHOUSINGOFFICER_00136_CATEGORYQ1_100_000","何を聞く？"
+26,"TEXT_COMDEFHOUSINGOFFICER_00136_CATEGORYC1_100_000","キャンセル"
+27,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A10_120_002","リテイナーの配置について"
+28,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A10_123_002","ハウスシェアリングについて"
+29,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A10_124_002","アパルトメントについて"
+30,"TEXT_COMDEFHOUSINGOFFICER_00136_CATEGORYA1_104_002","引越について知りたい"
+31,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A25_125_002","引越について知りたい"
+32,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A26_126_002","引越に伴う資産の移動について"
+33,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A27_127_002","引越についての補足"
+34,"TEXT_COMDEFHOUSINGOFFICER_00136_CHOICE2A28_128_002","倉庫について"
+35,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_010","<Switch(IntegerParameter(1))><Case(1)>グランドカンパニー「黒渦団」</Case><Case(2)>グランドカンパニー「双蛇党」</Case><Case(3)>グランドカンパニー「不滅隊」</Case><Case(4)>クガネ</Case></Switch>では、
+現在、冒険者招致活動を推進しています。"
+36,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_011","その一環として設けられた制度が、
+冒険者の皆様の活動拠点となる「土地」と「ハウス」、
+そして、アパルトメントの「部屋」を提供する制度です。"
+37,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_012","土地を獲得し、ハウスを建てることができるのは、
+ここ<Switch(IntegerParameter(1))><Case(1)>ミスト・ヴィレッジ</Case><Case(2)>ラベンダーベッド</Case><Case(3)>ゴブレットビュート</Case><Case(4)>シロガネ</Case></Switch>のような、
+「冒険者居住区」と呼ばれる地域になります。"
+38,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_013","冒険者居住区は各都市の領土内に、
+それぞれひとつずつ用意されています。"
+39,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_014","獲得可能な土地やアパルトメントの部屋は、
+グランドカンパニーの所属国に左右されませんので、
+好きな地域の居住区で獲得するといいでしょう。"
+40,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_015","冒険者居住区は、いくつもの「区」にわかれています。
+居住区へ移動する際は、まずどの区に行くのかを、
+居住区への入り口で選択する必要があります。"
+41,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_016","冒険者居住区には、同じエリアが並列して複数存在します。
+たとえば、第1区と第2区では、構造や景観こそ同じですが、
+それぞれ異なる場所であり、土地の利用状況も異なります。"
+42,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_020","ハウスを建てるには、
+冒険者居住区内にある「土地」を購入する必要があります。"
+43,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_021","土地の広さには、
+「Ｓサイズ」「Ｍサイズ」「Ｌサイズ」の3種類があります。"
+44,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_022","ハウスにも同じく3種類があり、ハウスの建築には、
+「Ｓサイズの土地にはＳサイズのハウス」のように、
+土地とハウスのサイズが合致している必要があります。"
+45,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_023","土地のサイズと、
+そこに配置可能な調度品や庭具の数は比例していますので、
+土地を購入する際は、よく考えて購入しましょう。"
+46,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_030","土地を購入するには、「個人」で購入する場合と、
+「フリーカンパニー」で購入する場合で、
+必要な条件が異なります。"
+47,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_100_031","「個人」で土地を購入する場合は、
+いずれかのクラスが、レベル50に達している必要があります。"
+48,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_101_031","また、所属しているグランドカンパニーの階級が、
+黒渦団の場合は「少甲士」、双蛇党の場合は「少牙士」、
+不滅隊の場合は「少闘士」以上である必要があります。"
+49,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_102_031","「フリーカンパニー」で土地を購入する場合は、
+「土地保有権」を獲得している必要があります。"
+50,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_103_031","「シロガネ」の土地を購入するには、
+メインクエスト「大洋を征く」を、
+コンプリートしている必要があります。"
+51,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_031","いずれの場合も、
+各土地の前に設置してある「サインボード」を調べると、
+その土地の価格を確認することができます。"
+52,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_032","土地はギルで購入することができ、
+販売開始時の金額を最高金額として、6時間に1回ずつ、
+決められた最低金額まで値下げが行われます。"
+53,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_033","土地の購入は、先着順となります。
+ほかのプレイヤーが所有している土地は購入できませんので、
+ご注意ください。"
+54,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_040","土地を破棄するには、すべての調度品、庭具、
+そして、ハウス自体を撤去する必要があります。"
+55,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_041","ハウスの撤去が完了した状態で、
+「ハウジング」メニューから「土地の放棄」を選択すると、
+土地を破棄することができます。"
+56,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_100_041","なお、土地の購入費用は返還されません。
+土地を破棄する場合は、十分に注意をしてください。"
+57,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_100_045","冒険者居住区の保全のため、
+長期間、ハウスのご利用がみとめられなかった場合、
+土地を自動的に撤去させていただいております。"
+58,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_182","「オーナーキャラクター」がハウス内に居ない状態が、
+（地球時間）30日間続いた場合、撤去の対象として、
+「自動撤去準備」の状態になります。"
+59,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_001_182","「オーナーキャラクター」がハウス内に居ない状態が、
+（地球時間）45日間続くと、自動撤去が実行されます。"
+60,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_183","この場合の「オーナーキャラクター」とは、
+「フリーカンパニーのハウス」では、
+「フリーカンパニーメンバー全員」を指します。"
+61,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_001_183","「個人のハウス」では、「ハウスのオーナー」を指します。"
+62,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_184","自動撤去前に、「オーナーキャラクター」の誰かが、
+ハウスに立ち入ることで、
+「自動撤去準備」を解除することができます。"
+63,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_185","土地の自動撤去が実行されると、
+土地、および土地に紐づく資産は、一部を除いて消滅します。"
+64,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_186","なお、一部の調度品・庭具、購入時の土地代のギルの8割は、
+自動撤去実行後、（地球時間）35日間のみ、
+「居住区担当官」から回収することが可能です。"
+65,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_187","この時、「フリーカンパニーのハウス」の資産の回収は、
+「土地の購入・放棄」の権限を持ったキャラクターに限られます。"
+66,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_188","また、「個人のハウス」の資産の回収は、
+「個人のハウス」のオーナーのみとなります。"
+67,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_050","ハウスを建てるには「建築物権利証書」が必要です。"
+68,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_051","この権利証書には、いくつかの種類があります。
+権利証書を入手する際には、
+権利証書のサイズ、居住区の地域をよくご確認ください。"
+69,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_052","入手した権利証書のサイズ、居住区の地域と、
+実際の土地のサイズ、居住区の地域が異なると、
+ハウスを建てることができませんので、ご注意願います。"
+70,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_053","「建築物権利証書」を所持品に入れた状態で、
+所有する土地にて「ハウジング」メニューから
+「ハウスの建築」を選ぶと、ハウスを建てることができます。"
+71,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_060","ハウスを建てたら、
+外観をカスタマイズしてみましょう。"
+72,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_061","ハウスの外装は、「屋根」「外壁」「窓」「扉」
+「看板」「塀」「屋根装飾」「外壁装飾」という、
+8種類の「外装建材」で構成されています。"
+73,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_062","外装建材を所持品に入れた状態で、所有する土地にて
+「ハウジング」メニューから「外装の変更」を選ぶと、
+外装を変更することができます。"
+74,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_063","一度取りつけた外装は、取り外すことができません。
+所持品の中の外装建材アイテムは消費されますので、
+外装を変更する際は、よく考えて実行しましょう。"
+75,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_070","所有する土地の中で、
+ハウスを除いたスペースのことを「ガーデン」といいます。"
+76,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_071","ガーデンには、「庭具」を設置することができます。
+ガーデンを飾りつけ、好みの見た目にして楽しみましょう。"
+77,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_072","庭具を所持品に入れた状態で、所有する土地にて
+「ハウジング」メニューから「庭具の配置」を選ぶと、
+庭具を配置することができます。"
+78,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_080","ハウスの中では、
+壁や床をカスタマイズすることができます。"
+79,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_081","ハウスの内装は、「内壁」「床」「天井照明」という、
+3種類の「内装建材」で構成されています。"
+80,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_082","内装建材を所持品に入れた状態で、所有するハウス内にて
+「ハウジング」メニューから「内装の変更」を選ぶと、
+内装を変更することができます。"
+81,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_083","一度取りつけた内装建材は、取り外すことができません。
+所持品の中の内装建材アイテムは消費されますので、
+内装を変更する際は、よく考えて実行しましょう。"
+82,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_090","ハウスの中には、「調度品」を設置することができます。
+ハウスを飾りつけ、好みの見た目にして楽しみましょう。"
+83,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_091","調度品を所持品に入れた状態で、所有するハウス内にて
+「ハウジング」メニューから「調度品の配置」を選ぶと、
+調度品を配置することができます。"
+84,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_092","調度品には、テーブルなどの卓上に置けるもの、
+壁にかけられるもの、床に敷くものなど、
+いくつかの設置バリエーションがあります。"
+85,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_095","ハウス内の「照明」の明るさを調整し、
+快適な環境を作りましょう。"
+86,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_191","ハウス内の「照明」の明るさは、
+フリーカンパニーのハウス、個人のハウス、個室のそれぞれで、
+5段階に調光することができます。"
+87,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_192","調光する場合は、
+メインコマンド「ハウジング」内の「照明の調整」から、
+実行することができます。"
+88,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_100","調度品、庭具アイテムは、
+ハウスやガーデンに設置した段階で中古品となり、
+トレード、マーケット出品不可の属性がつきます。"
+89,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_101","また、調度品、庭具アイテムの中には、
+一度設置すると、撤去の際に消滅してしまうものがあります。"
+90,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_102","対象のアイテムを設置、撤去する際は警告が出ますので、
+注意して設置しましょう。"
+91,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_110","フリーカンパニーのハウスには、
+メンバー用の個室を増築することができます。"
+92,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_111","自分の「個室」を増築するには、増築費用となるギルのほかに、
+いずれかのクラスがレベル50に達している必要があります。"
+93,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_112","また、所属しているグランドカンパニーの階級が、
+黒渦団の場合は「少甲士」、双蛇党の場合は「少牙士」、
+不滅隊の場合は「少闘士」以上である必要があります。"
+94,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_113","個室へは、ハウス内の扉に触れ、
+「別室へ移動する」から移動できます。"
+95,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_120","増築した「個室」が不要になった場合は、
+撤去することもできます。"
+96,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_121","所有する土地、またはフリーカンパニーのハウス内にて、
+「ハウジング」メニューから「個室の撤去」を選択すると、
+「個室」を撤去することができます。"
+97,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_122","ただし、「個室」を撤去する場合は、
+あらかじめ、室内の調度品をすべて撤去する必要があります。"
+98,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_130","「個室」を増築したあとに、
+所属フリーカンパニーから除名された場合、
+そのメンバーの個室は自動的に撤去されます。"
+99,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_131","その際、個室内に設置されていた資産は、
+こちらで一時的に保管しておきますので、
+期日までに受け取りにきてください。"
+100,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_132","「個室」に設置していたアイテムは、
+撤去から（地球時間）35日間まで保管されます。
+居住区担当官に話しかけて回収してください。"
+101,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_133","回収期限の残り日数は、
+メインコマンドの「コンテンツ情報一覧」から、
+確認することができます。"
+102,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_134","なお、個室の増築費用と、内装アイテム、
+撤去時に消滅してしまう調度品アイテムは、返還されません。"
+103,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_135","フリーカンパニーの除名の際は、
+十分に注意をしてください。"
+104,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_140","「エーテリアルホイール」は、
+カンパニーアクションを生み出すことができる装置です。"
+105,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_141","「エーテリアルホイール」でアクションを使用するには、
+調度品「ホイールスタンド」を用いて、
+魔力を充填させる必要があります。"
+106,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_142","調度品「ホイールスタンド」は、
+冒険者居住区内のよろず屋から購入できます。"
+107,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_143","配置した「ホイールスタンド」に
+「エーテリアルホイール」を設置後、一定時間が経過すると、
+魔力が充填され、「チャージドホイール」になります。"
+108,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_144","「チャージドホイール」を変換すると、
+対応したカンパニーアクションが使用可能になります。"
+109,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_150","「リテイナーの配置」に興味をお持ちですか？
+でしたら「営業証書：リテイナー」を利用するといいでしょう。"
+110,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_151","「営業証書：リテイナー」は、
+冒険者居住区内の酒保商人から購入できます。
+これをガーデンに配置することで、リテイナーを配置できます。"
+111,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_152","リテイナーを配置すると、
+マーケット出品中のアイテムを、ガーデンでも販売できます。"
+112,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_153","配置するリテイナーは、
+自分が雇用しているリテイナーの中から選択できますが、
+設置後にリテイナーを変更することも可能です。"
+113,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_154","なお、リテイナーが解雇されたり、
+雇用主がフリーカンパニーから除名されたり・脱退しても、
+配置されたリテイナーは、自動で撤去されません。"
+114,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_155","配置する必要がなくなったリテイナーは、
+権限を持っているカンパニーメンバーが撤去しましょう。"
+115,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_155","個人のハウスでは、ご友人とハウスを共有することができます。"
+116,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_201","「ハウスシェアリング」とは「個人のハウス」の機能で、
+自身のフレンドに、
+ハウスの機能を共有（シェア）することができます。"
+117,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_202","ハウスの機能を共有するフレンドのことを、
+「ハウスメイト」と呼びます。"
+118,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_203","ハウスのオーナーは「ハウスメイト」を「3人」まで設定でき、
+「ハウスメイト」は「2人」のオーナーと、
+ハウス機能を共有できます。"
+119,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_204","メインコマンド「ハウジング」からハウスの種類を選択し、
+「ハウスシェアリング設定」から「ハウスメイト」の登録、
+「ハウスメイト」の権限設定を行うことができます。"
+120,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_205","また、ハウスのオーナー、「ハウスメイト」は、
+自身で「ハウスシェアリング」を解除することもできます。"
+121,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_170","フリーカンパニーのハウスには、
+「地下工房」を増築することができます。"
+122,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_171","地下工房では、「カンパニークラフト」を行うことができます。
+また、「飛空艇」を建造し、
+「アバラシア雲海」の未踏破地域を探索することも可能です。"
+123,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_172","ただし、飛空艇の建造は非常に困難です。
+フリーカンパニーの仲間と力を合わせて、挑戦しましょう！"
+124,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_173","「地下工房」を増築するには、
+増築費用となるギルが必要となります。"
+125,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_174","地下工房へは、ハウス内の扉に触れ、
+「別室へ移動する」から移動できます。"
+126,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_175","地下工房内における各施設の利用方法は、
+工房内にいる「マメット014・アドベンチャラー」に、
+聞いてみましょう。"
+127,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_160","増築した「地下工房」が不要になった場合は、
+撤去することもできます。"
+128,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_161","ただし、撤去した場合、「地下工房」で行われた活動記録は、
+すべて消去されますので、ご注意ください。"
+129,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_162","「地下工房」を撤去するには、
+予めカンパニー製作設備の作業を完了させ、
+「飛空艇」をすべて「解体」しておく必要があります。"
+130,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_163","なお、撤去を実行しても、増築費用は返還されません。
+また、「地下工房」で行ったコンテンツの進行データは、
+すべてリセットされますのでご注意ください。"
+131,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_164","「地下工房」の撤去は、
+フリーカンパニーのハウス内で「ハウジング」メニューから、
+「地下工房の撤去」を選択すると、実行可能です。"
+132,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_156","アパルトメントは、
+冒険者向けに各冒険者居住区内に用意された、
+「個人用の居住施設」です。"
+133,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_157","各冒険者居住区に存在する、
+「トップマスト」や「リリーヒルズ」、「ナナモ大風車」、
+「紅梅御殿」という名の施設が、アパルトメントに該当します。"
+134,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_158","アパルトメントの部屋の購入など、
+詳しい利用方法は、各アパルトメント内にいる、
+「アパルトメント担当官」に聞いてみましょう。"
+135,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_210","土地を所有している場合、
+別の土地へと、引越することが出来ます。"
+136,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_211","「引越」とは、
+ハウスごと別の土地へ移転する機能です。
+別のハウジングエリア、異なるサイズの土地へも移転できます。"
+137,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_212","ハウス（個人）はオーナーが、
+ハウス（フリーカンパニー）は、「土地の購入・放棄」権限を、
+有しているメンバーが、引越を実行できます。"
+138,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_213","すでに土地を所有している状態で、
+「サインボード」を調べ、「土地を購入する」を選択すると、
+選択肢が表示され、引越を実行できます。"
+139,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_214","「引越先の土地代」から、
+「所有している土地代」の最低額の3割を引いた差額が、
+実行時に消費されます。"
+140,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_221","設置中の調度品、庭具は、引越先の倉庫に収納されます。
+ただし、チョコボ厩舎とプライベート・エーテライトは、
+例外として引越先の庭に配置されます。"
+141,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_222","なお、個室・地下工房のあるハウスの場合、
+それぞれ引越先に、そのままの状態で引き継がれます。"
+142,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_224","ハウスの外装は、引越先のハウジングエリア、
+土地のサイズに合ったものに、自動的に置き換えられます。"
+143,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_225","ハウスの内装は、引越先に引き継がれます。
+ただし、引越先によって、階層が無くなる場合、
+その階層に設定されていた内装は消滅します。"
+144,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_231","「オーナーキャラクター」の誰かが、ハウス内にいない状態が、
+30日以上続いている場合、引越は実行できません。"
+145,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_232","なお、引越を実行すると、
+ハウス内に「オーナーキャラクター」が入った時と同様に、
+自動撤去までの期日は、リセットされます。"
+146,"TEXT_COMDEFHOUSINGOFFICER_00136_HOUSINGOFFICER_000_240","すべてのハウス、個室、アパルトメントの部屋で、
+調度品・庭具を収納できる「倉庫」が利用できます。
+収納可能な調度品や庭具の数は、以下のとおりです。"
+147,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_241","Ｓサイズのハウスは、調度品200個、庭具20個まで、
+Ｍサイズのハウスは、調度品300個、庭具30個まで、
+Ｌサイズのハウスは、調度品400個、庭具40個まで。"
+148,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_242","個室とアパルトメントの部屋は、
+調度品100個まで収納可能です。"
+149,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_243","例外として、チョコボ厩舎、
+プライベート・エーテライトは、収納できません。
+また、倉庫にアイテムがあると、ハウスは撤去できません。"
+150,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_244","倉庫に「畑」「植木鉢」を入れた場合、作物の成長は停止します。
+同様に倉庫内では「ホイールスタンド」の魔力充填も停止します。"
+151,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_245","引越を実行すると、設置中の調度品、庭具は、
+引越先の倉庫に収納されます。
+ただし、倉庫に収納しきれない場合は、引越できません。"
+152,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_246","なお、ハウスが自動撤去された場合、
+撤去から35日以内であれば、居住区担当官から、
+倉庫内のアイテムを回収できます。"
+153,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_181","（★未使用／削除予定★）"
+154,"TEXT_COMDEFHOUSINGOFFICER_00136_SYSTEM_000_193","（★未使用／削除予定★）"

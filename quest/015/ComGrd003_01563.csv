@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_COMGRD003_01563_SEQ_00","One man's scourge is another man's chance to splurge, and Lieutenant Scarlet can help you find reason in this rhyme."
-1,"TEXT_COMGRD003_01563_SEQ_01","Lieutenant Scarlet informs you that the Eorzean Alliance has instituted a bounty system called the Hunt. For the finer points of this most profitable venture, you must speak with the Hunt billmaster within the Adders' Nest."
-2,"TEXT_COMGRD003_01563_SEQ_02","The Hunt billmaster has briefed you on the fundamentals of the Hunt. Whether you seek more advice or wish to spend your hard-earned Allied Seals, he is the man with whom you must speak. Do your part to preserve the peace, and you will be richly rewarded."
+0,"TEXT_COMGRD003_01563_SEQ_00","双蛇党：統合司令部のスカーレット少牙士は、冒険者に報せたいことがあるようだ。"
+1,"TEXT_COMGRD003_01563_SEQ_01","スカーレット少牙士から「モブハント」制度を紹介された。詳細な説明を受けるため、双蛇党：統合司令部の「モブハント担当官」と話そう。"
+2,"TEXT_COMGRD003_01563_SEQ_02","モブハント担当官から、「モブハント」制度に関する説明を受けた。詳細な説明や報酬の交換が必要なときは、「モブハント担当官」に声をかければいいようだ。手配中のモブを積極的に討伐し、エオルゼアの治安向上に貢献しよう。"
 3,"TEXT_COMGRD003_01563_SEQ_03",""
 4,"TEXT_COMGRD003_01563_SEQ_04",""
 5,"TEXT_COMGRD003_01563_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_COMGRD003_01563_SEQ_21",""
 22,"TEXT_COMGRD003_01563_SEQ_22",""
 23,"TEXT_COMGRD003_01563_SEQ_23",""
-24,"TEXT_COMGRD003_01563_TODO_00","Speak with the Hunt billmaster at the Adders' Nest."
+24,"TEXT_COMGRD003_01563_TODO_00","双蛇党：統合司令部のモブハント担当官と話す"
 25,"TEXT_COMGRD003_01563_TODO_01",""
 26,"TEXT_COMGRD003_01563_TODO_02",""
 27,"TEXT_COMGRD003_01563_TODO_03",""
@@ -49,15 +49,36 @@ int32,str,str
 45,"TEXT_COMGRD003_01563_TODO_21",""
 46,"TEXT_COMGRD003_01563_TODO_22",""
 47,"TEXT_COMGRD003_01563_TODO_23",""
-48,"TEXT_COMGRD003_01563_SCARLET_000_000","Gloryhounds such as yourself will be pleased to have this news from the powers that be: the Eorzean Alliance has established a new system known as the Hunt."
-49,"TEXT_COMGRD003_01563_SCARLET_000_001","We never lack for creatures and men that disturb the sylvan serenity. Henceforth these miscreants shall be <Emphasis>marked</Emphasis> for felling, and whoever deals the blow shall collect a reward. 'Tis a bounty system, when all's said and done."
-50,"TEXT_COMGRD003_01563_SCARLET_000_002","The Alliance makes much of this joining of sword hands, while allowing rivalries to go unchecked elsewhere. Small wonder that some see a bent branch where we claim a bough true and proud."
-51,"TEXT_COMGRD003_01563_SCARLET_100_002","But these are matters for our betters to ponder. For now, you may serve by offering the Hunt your considerable talent for slaughter."
-52,"TEXT_COMGRD003_01563_SCARLET_000_003","The bounty is rich, and you stand to gain much for your services. But don't take my word for it─speak with the Hunt billmaster to learn of rewards and other such details."
-53,"TEXT_COMGRD003_01563_SCARLET_000_005","The Hunt is a bounty system when all's said and done, and a rich bounty it is indeed. Ask the Hunt billmaster if you would know more."
-54,"TEXT_COMGRD003_01563_MOBOFFICER_000_010","Here to join the Hunt, are you? Excellent, excellent. I'll get right into the explanation."
-55,"TEXT_COMGRD003_01563_MOBOFFICER_000_011","First things first, you'll want to take a look at this Hunt board. There are bills for all sorts of marks here."
-56,"TEXT_COMGRD003_01563_MOBOFFICER_000_012","There are <Emphasis>two</Emphasis> kinds of bills. The kind for regular marks and the kind for elite marks. The second of these are the more <Emphasis>notorious</Emphasis> sort. Before you go after one of them, I recommend you consult a hunter-scholar. These people are veterans of the Hunt who can recite the Raimdelle Codex by heart."
-57,"TEXT_COMGRD003_01563_MOBOFFICER_000_013","Once the Hunt's done, you'll receive tokens called Allied Seals, which you can exchange for exclusive wares."
-58,"TEXT_COMGRD003_01563_MOBOFFICER_000_014","If any of that got stuck going down, you're welcome to come back and ask again...and again, no doubt. I can attend to any Allied Seals you'd like to spend as well."
-59,"TEXT_COMGRD003_01563_MOBOFFICER_000_015","Wood's will be done, <If(GreaterThan(PlayerParameter(52),0))>friend<Else/><If(GreaterThan(PlayerParameter(53),0))><Clickable(<If(GreaterThan(PlayerParameter(52),0))><Sheet(GCRankLimsaMaleText,PlayerParameter(52),8)/><Else/></If><If(GreaterThan(PlayerParameter(53),0))><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),8)/><Else/></If><If(GreaterThan(PlayerParameter(54),0))><Sheet(GCRankUldahMaleText,PlayerParameter(54),8)/><Else/></If>)/><Else/>friend</If></If>. If I don't hear from you soon, I'll take it you weren't Hunt material...or that a mark got the best of you. Oh, do cheer up. Better to die once than live ever in shame."
+48,"TEXT_COMGRD003_01563_SCARLET_000_000","活躍めざましい貴官に、ぜひ報せておきたいことがある。
+エオルゼア都市軍事同盟による「防衛条約審議会」で、
+「モブハント」制度が新たに制定されたんだ。"
+49,"TEXT_COMGRD003_01563_SCARLET_000_001","治安を脅かす魔物や悪党どもを「モブ」として定め、
+討伐者に対して、特別な報酬を支払う仕組み……。
+簡単に言えば、報奨金制度のようなものかな。"
+50,"TEXT_COMGRD003_01563_SCARLET_000_002","……表では、こうやって同盟間の協力を見せながら、
+裏では「アウトロー戦区」という盟約のもとで争う。
+都合が良いと思われても仕方のない状況だ。"
+51,"TEXT_COMGRD003_01563_SCARLET_100_002","しかし、我々軍人はともかく、民間人には関係のないこと。
+エオルゼアの治安を向上させるためにも、
+ぜひ、貴官の腕前を活かしてほしい。"
+52,"TEXT_COMGRD003_01563_SCARLET_000_003","「モブハント」制度には、冒険者にとって有益な品々が、
+報酬として用意されているとも聞く。
+詳しくは、奥の「モブハント担当官」に話を聞くといい。"
+53,"TEXT_COMGRD003_01563_SCARLET_000_005","「モブハント」制度には、冒険者にとって有益な品々が、
+報酬として用意されているとも聞く。
+詳しくは、奥の「モブハント担当官」に話を聞くといい。"
+54,"TEXT_COMGRD003_01563_MOBOFFICER_000_010","「モブハント」に参加していただけるんですね。
+貴官に加勢していただけるとは、大変心強いであります。
+早速、制度の説明をいたします。"
+55,"TEXT_COMGRD003_01563_MOBOFFICER_000_011","まずは、この「モブハントボード」を確認してください。
+討伐対象「モブ」の手配書が掲示されています。"
+56,"TEXT_COMGRD003_01563_MOBOFFICER_000_012","ここで注意すべきは、手配書が2種類あること。
+通常の「モブ手配書」と、より危険で悪名高い者が対象となる、
+「リスキーモブ手配書」です。"
+57,"TEXT_COMGRD003_01563_MOBOFFICER_000_013","いずれも、示された対象を倒せば任務は完了。
+特別な報酬と交換できる、「同盟記章」が支給されます。"
+58,"TEXT_COMGRD003_01563_MOBOFFICER_000_014","なお、報酬との交換や、
+詳細な「モブハント」に関する説明については、
+いつでも小官に尋ねてください。"
+59,"TEXT_COMGRD003_01563_MOBOFFICER_000_015","それでは、エオルゼアの治安を守る、
+気高き隊士の武運をお祈りします！"

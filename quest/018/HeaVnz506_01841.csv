@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNZ506_01841_SEQ_00","Something has Mogmont's pom-pom in a twist."
-1,"TEXT_HEAVNZ506_01841_SEQ_01","Mogmont's sense of duty has been highly offended by a brazen dragon who has built a nest just outside Zenith. The dutiful moogle bids you steal an egg from this nest, but does not say for what purpose. Go to the plaza in front of Zenith and take the egg from under the dragon's snout."
-2,"TEXT_HEAVNZ506_01841_SEQ_02","Understandably, the dragon attacks you when you attempt to steal the egg, but you manage to subdue it. Grab an egg from the nest before the dragon recovers."
-3,"TEXT_HEAVNZ506_01841_SEQ_03","The egg is warm to the touch, and you can feel the heat of the soon-to-be-born dragon within. Bring the egg back to Mogmont to finally find out what he plans to do with it."
-4,"TEXT_HEAVNZ506_01841_SEQ_04","After handing the dragon egg over to Mogmont, he reveals the final step in his master plan: he will return it. However, not before giving the thoughtless dragon an earful and lecturing him on the importance of keeping such a holy place as Zenith clean and tidy."
+0,"TEXT_HEAVNZ506_01841_SEQ_00","アサー天空廊のモグモンは、うろうろと落ち着かないようだ。"
+1,"TEXT_HEAVNZ506_01841_SEQ_01","モグモンから、<Sheet(EventItem,2001680,0)/>の奪取を頼まれた。ドラヴァニア雲海の白亜の宮殿前の広場にある「<Sheet(BNpcName,4282,0)/>」の巣へ向かおう。"
+2,"TEXT_HEAVNZ506_01841_SEQ_02","巣に近寄ったところ、<Sheet(BNpcName,4282,0)/>が襲ってきた。妨害を退けて、「<Sheet(EventItem,2001680,0)/>」を入手しよう。"
+3,"TEXT_HEAVNZ506_01841_SEQ_03","<Sheet(EventItem,2001680,0)/>を入手した。アサー天空廊の「モグモン」に渡そう。"
+4,"TEXT_HEAVNZ506_01841_SEQ_04","<Sheet(EventItem,2001680,0)/>をモグモンに渡した。白亜の宮殿は聖竜の大切な場所のため、邪竜配下のドラゴン族たちの横暴に怒っているようだ。モグモンは<Sheet(EventItem,2001680,0)/>を<Sheet(BNpcName,4282,0)/>に突き返して説教すると意気込んでいた。"
 5,"TEXT_HEAVNZ506_01841_SEQ_05",""
 6,"TEXT_HEAVNZ506_01841_SEQ_06",""
 7,"TEXT_HEAVNZ506_01841_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_HEAVNZ506_01841_SEQ_21",""
 22,"TEXT_HEAVNZ506_01841_SEQ_22",""
 23,"TEXT_HEAVNZ506_01841_SEQ_23",""
-24,"TEXT_HEAVNZ506_01841_TODO_00","Obtain a dragon egg."
-25,"TEXT_HEAVNZ506_01841_TODO_01","Obtain a dragon egg."
-26,"TEXT_HEAVNZ506_01841_TODO_02","Deliver the egg to Mogmont."
+24,"TEXT_HEAVNZ506_01841_TODO_00","<Sheet(EventItem,2001680,0)/>を入手"
+25,"TEXT_HEAVNZ506_01841_TODO_01","<Sheet(EventItem,2001680,0)/>を入手"
+26,"TEXT_HEAVNZ506_01841_TODO_02","モグモンに<Sheet(EventItem,2001680,0)/>を渡す"
 27,"TEXT_HEAVNZ506_01841_TODO_03",""
 28,"TEXT_HEAVNZ506_01841_TODO_04",""
 29,"TEXT_HEAVNZ506_01841_TODO_05",""
@@ -49,10 +49,19 @@ int32,str,str
 45,"TEXT_HEAVNZ506_01841_TODO_21",""
 46,"TEXT_HEAVNZ506_01841_TODO_22",""
 47,"TEXT_HEAVNZ506_01841_TODO_23",""
-48,"TEXT_HEAVNZ506_01841_MOGMONT_000_000","This aggression will not stand, kupo! Nidhogg's meddlesome minions have swarmed the plaza in front of Zenith."
-49,"TEXT_HEAVNZ506_01841_MOGMONT_000_001","We need to do <Emphasis>something</Emphasis> to teach them a lesson. One of them even had the gall to make a nest right in front of the holy place, if you can believe that. I need you to snatch an egg from it─that'll teach them to breed where they don't belong!"
-50,"TEXT_HEAVNZ506_01841_MOGMONT_000_010","We cannot tolerate Nidhogg's dragons <Emphasis>breeding</Emphasis> on holy ground. Steal an egg from the nest to show those dragons they're not welcome here!"
-51,"TEXT_HEAVNZ506_01841_MOGMONT_000_030","The nerve of that dragon, making a nest in such holy grounds. Did you have any trouble stealing the egg, kupo?"
-52,"TEXT_HEAVNZ506_01841_MOGMONT_000_031","That... That egg is larger than I imagined! Oh? You want to know what I plan on doing with it?"
-53,"TEXT_HEAVNZ506_01841_MOGMONT_000_032","Why, I'm going to march right back to that dragon and give it back the egg! But not before giving it an earful! I'll have it know this is Hraesvelgr's domain, and we won't tolerate untidy nests around here, kupo!"
-54,"TEXT_HEAVNZ506_01841_SYSTEM_000_010",""
+48,"TEXT_HEAVNZ506_01841_MOGMONT_000_000","白亜の宮殿前の広場が、
+邪竜様配下のドラゴン族に占拠されて、困ってるくぽ！
+このまま放っておくわけにはいかないくぽ！"
+49,"TEXT_HEAVNZ506_01841_MOGMONT_000_001","広場で巣作りした不届き者の<Sheet(BNpcName,4282,0)/>から、
+「<Sheet(EventItem,2001680,0)/>」を奪ってきてほしいくぽ！"
+50,"TEXT_HEAVNZ506_01841_MOGMONT_000_010","広場で巣作りした不届き者の<Sheet(BNpcName,4282,0)/>から、
+「<Sheet(EventItem,2001680,0)/>」を奪ってきてほしいくぽ！"
+51,"TEXT_HEAVNZ506_01841_MOGMONT_000_030","広場で巣作りした不届き者の<Sheet(BNpcName,4282,0)/>から、
+「<Sheet(EventItem,2001680,0)/>」を奪ってきてほしいくぽ！"
+52,"TEXT_HEAVNZ506_01841_MOGMONT_000_031","大きな<Sheet(EventItem,2001680,0)/>くぽ～！
+ありがとうくぽ！
+……どうするのか気になるくぽ？"
+53,"TEXT_HEAVNZ506_01841_MOGMONT_000_032","<Sheet(BNpcName,4282,0)/>に突き返して、説教するくぽ！
+あそこは聖竜様の大切な場所だから、
+大切にしろって言ってやるくぽ！"
+54,"TEXT_HEAVNZ506_01841_SYSTEM_000_010","（★未使用／削除予定★）"

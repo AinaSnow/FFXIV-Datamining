@@ -1,8 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKZC004_03387_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Mynes would be most obliged if you could make a delivery on his behalf."
+0,"TEXT_LUCKZC004_03387_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+ラディスカ物見塔のマインズは、冒険者に物資を運んでほしいようだ。"
 1,"TEXT_LUCKZC004_03387_SEQ_01",""
 2,"TEXT_LUCKZC004_03387_SEQ_02",""
 3,"TEXT_LUCKZC004_03387_SEQ_03",""
@@ -26,8 +26,8 @@ Mynes would be most obliged if you could make a delivery on his behalf."
 21,"TEXT_LUCKZC004_03387_SEQ_21",""
 22,"TEXT_LUCKZC004_03387_SEQ_22",""
 23,"TEXT_LUCKZC004_03387_SEQ_23",""
-24,"TEXT_LUCKZC004_03387_TODO_00","Speak with Roi-Tatch."
-25,"TEXT_LUCKZC004_03387_TODO_01","Deliver the supply box to Teanna."
+24,"TEXT_LUCKZC004_03387_TODO_00","ロイ・タッチと話す"
+25,"TEXT_LUCKZC004_03387_TODO_01","テアンナに<Sheet(EventItem,2002825,0)/>を渡す"
 26,"TEXT_LUCKZC004_03387_TODO_02",""
 27,"TEXT_LUCKZC004_03387_TODO_03",""
 28,"TEXT_LUCKZC004_03387_TODO_04",""
@@ -50,27 +50,44 @@ Mynes would be most obliged if you could make a delivery on his behalf."
 45,"TEXT_LUCKZC004_03387_TODO_21",""
 46,"TEXT_LUCKZC004_03387_TODO_22",""
 47,"TEXT_LUCKZC004_03387_TODO_23",""
-48,"TEXT_LUCKZC004_03387_MYNES_000_000","I trust that you are ready to depart? My man Roi-Tatch has readied the supplies for delivery to the Imperative, so pray speak with him before you take to the road. Once again, you have my gratitude."
-49,"TEXT_LUCKZC004_03387_MYNES_000_010","Decided to sojourn with us a bit longer? I'm sure my men appreciate the company. At any rate, whenever you are ready to return to the Imperative, Roi-Tatch can furnish you with the supplies to be delivered."
-50,"TEXT_LUCKZC004_03387_ROITATCH_000_020","Oh, hello there. I take it you're the good-natured dupe─er, the <Emphasis>kindly traveler</Emphasis> who's agreed to lug this hefty crate of supplies all the way to the bleedin' Ostall Imperative. Well, here are the goods!"
-51,"TEXT_LUCKZC004_03387_ROITATCH_000_021","Jests aside, you do us a great service. We were fortunate when a merchant caravan en route to Amh Araeng decided to sojourn here at the Round for a spell. We were able to restock all manner of supplies that we'd been short on for months."
-52,"TEXT_LUCKZC004_03387_ROITATCH_000_022","That's how the supply chain works in these parts: caravans pass through bound for far-flung locales, we restock supplies as best we can, and then we ship them out to outposts across Lakeland."
-53,"TEXT_LUCKZC004_03387_ROITATCH_000_023","'Course, we don't always have enough free hands to make the deliveries. That's why we're most obliged to the kindness of strangers like yourself. Anyhow, I won't keep you any longer. Be safe on the road, friend."
-54,"TEXT_LUCKZC004_03387_ROITATCH_000_031","Decided to stay with us a while longer? If you like this dreary place so much, perhaps you'd be interested in trading places? Ahaha, but I jest─once again, much obliged for your help with the delivery, friend."
-55,"TEXT_LUCKZC004_03387_TEANNA_000_040","Ah, you're back, greenhorn. Hm? What's that you have with you?"
-56,"TEXT_LUCKZC004_03387_TEANNA_000_041","A fresh crate of supplies! Perhaps you're not so useless after all! ...Actually, I have an apology to make. While you were away, my commanding officer informed me that not only are you not a greenhorn, you're not even a member of the guard."
-57,"TEXT_LUCKZC004_03387_TEANNA_000_042","I suppose I should have been able to tell by your...unconventional garb. Anyhow, rest assured that I got a good tongue-lashing for my presumptuousness. I won't let it happen again."
-58,"TEXT_LUCKZC004_03387_TEANNA_000_043","That said, I <Emphasis>am</Emphasis> most grateful for your service─you're a damn sight more useful than half of the men here. Perhaps you'd consider joining us someday? In the meantime, I've been instructed to pass along your reward. Don't be a stranger, now!"
-59,"TEXT_LUCKZC004_03387_CHIEF03387_000_000",""
-60,"TEXT_LUCKZC004_03387_CHIEF03387_000_010",""
-61,"TEXT_LUCKZC004_03387_CHIEF03387_000_030",""
-62,"TEXT_LUCKZC004_03387_PRIVATE03387_000_040",""
-63,"TEXT_LUCKZC004_03387_PRIVATE03387_000_041",""
-64,"TEXT_LUCKZC004_03387_PRIVATE03387_000_042",""
-65,"TEXT_LUCKZC004_03387_PRIVATE03387_000_043",""
-66,"TEXT_LUCKZC004_03387_GUARD03387_000_020",""
-67,"TEXT_LUCKZC004_03387_GUARD03387_000_021",""
-68,"TEXT_LUCKZC004_03387_GUARD03387_000_022",""
-69,"TEXT_LUCKZC004_03387_GUARD03387_000_023",""
-70,"TEXT_LUCKZC004_03387_GUARD03387_000_031",""
-71,"TEXT_LUCKZC004_03387_MYNES_000_030",""
+48,"TEXT_LUCKZC004_03387_MYNES_000_000","さて、君の方の準備はよいだろうか？
+よければ、「ロイ・タッチ」に声をかけ、
+オスタル厳命城へ運ぶ物資を受け取ってくれ。"
+49,"TEXT_LUCKZC004_03387_MYNES_000_010","「ロイ・タッチ」に声をかけ、
+オスタル厳命城へ運ぶ物資を受け取ってくれ。"
+50,"TEXT_LUCKZC004_03387_ROITATCH_000_020","君が物資を運んでくれる旅人だね。
+話は聞いているよ。
+木箱にまとめてあるから、持っていってくれ。"
+51,"TEXT_LUCKZC004_03387_ROITATCH_000_021","アム・アレーンへ物資調達へ向かっていた隊商が、
+ちょうど立ち寄ったところでね。
+どうにか在庫があって、助かったよ。"
+52,"TEXT_LUCKZC004_03387_ROITATCH_000_022","他地域からやってくる隊商は、ここに立ち寄って物資をおろす。
+その物資は、ここを基点にレイクランドの各拠点へ、
+配分されるのさ。"
+53,"TEXT_LUCKZC004_03387_ROITATCH_000_023","というわけで、オスタル厳命城へ、
+「<Sheet(EventItem,2002825,0)/>」を届けてくれよ。"
+54,"TEXT_LUCKZC004_03387_ROITATCH_000_031","「<Sheet(EventItem,2002825,0)/>」をオスタル厳命城へ届けてくれよ。"
+55,"TEXT_LUCKZC004_03387_TEANNA_000_040","おお、戻ったか。
+……「<Sheet(EventItem,2002825,0)/>」を持ってきた、だと？"
+56,"TEXT_LUCKZC004_03387_TEANNA_000_041","おお、まさしく発注した補給物資！
+私が新人と勘違いしたばかりに、
+ここまでしてもらってすまない。"
+57,"TEXT_LUCKZC004_03387_TEANNA_000_042","実は団長から、部外者に依頼するのもほどほどにしろと、
+怒られてしまってな。
+そこでようやっと、自分の勘違いに気がついたわけだ。"
+58,"TEXT_LUCKZC004_03387_TEANNA_000_043","「腕のいい新人」と伝え聞いていたから、てっきり……。
+お詫びとしてはなんだが、
+今回の報酬を受け取ってくれ。"
+59,"TEXT_LUCKZC004_03387_CHIEF03387_000_000","（★未使用／削除予定★）"
+60,"TEXT_LUCKZC004_03387_CHIEF03387_000_010","（★未使用／削除予定★）"
+61,"TEXT_LUCKZC004_03387_CHIEF03387_000_030","（★未使用／削除予定★）"
+62,"TEXT_LUCKZC004_03387_PRIVATE03387_000_040","（★未使用／削除予定★）"
+63,"TEXT_LUCKZC004_03387_PRIVATE03387_000_041","（★未使用／削除予定★）"
+64,"TEXT_LUCKZC004_03387_PRIVATE03387_000_042","（★未使用／削除予定★）"
+65,"TEXT_LUCKZC004_03387_PRIVATE03387_000_043","（★未使用／削除予定★）"
+66,"TEXT_LUCKZC004_03387_GUARD03387_000_020","（★未使用／削除予定★）"
+67,"TEXT_LUCKZC004_03387_GUARD03387_000_021","（★未使用／削除予定★）"
+68,"TEXT_LUCKZC004_03387_GUARD03387_000_022","（★未使用／削除予定★）"
+69,"TEXT_LUCKZC004_03387_GUARD03387_000_023","（★未使用／削除予定★）"
+70,"TEXT_LUCKZC004_03387_GUARD03387_000_031","（★未使用／削除予定★）"
+71,"TEXT_LUCKZC004_03387_MYNES_000_030","（★未使用／削除予定★）"

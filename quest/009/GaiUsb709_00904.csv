@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB709_00904_SEQ_00","Belmont affects a sellsword's cynicism, but the Gods' Quiver in him dies hard. So urgently does he seek a scout that he will hire one himself."
-1,"TEXT_GAIUSB709_00904_SEQ_01","A veteran of many skirmishes with the Ixal, Belmont suspects that there is more to the beastmen's presence in this part of the world than meets the eye. He bids you use your stealth and cunning to search their lair to the east."
-2,"TEXT_GAIUSB709_00904_SEQ_02","After a review of the Ixal's housekeeping and a battle to the death, you discover nothing more unusual than a pile of yew logs. Still, they grew not from these woods, and the birdmen hardly kept them as pets. Return to the camp and give one of the logs to Belmont."
-3,"TEXT_GAIUSB709_00904_SEQ_03","According to Belmont, the yew you brought back is found only in the Twelveswood and is much favored by the Ixal, who plant the tree to create living fortifications. Belmont believes that this is evidence that the Ixal are settling in Coerthas, seizing on the distraction afforded by Ishgard's many troubles."
+0,"TEXT_GAIUSB709_00904_SEQ_00","キャンプ・ドラゴンヘッドの傭兵ベルモントは、冒険者に仕事を手伝ってほしいようだ。"
+1,"TEXT_GAIUSB709_00904_SEQ_01","ベルモントはイクサル族の動向が気になるようだ。キャンプ・ドラゴンヘッドの東にある、イクサル族のアジトを探索しよう。"
+2,"TEXT_GAIUSB709_00904_SEQ_02","イクサル族のアジトを探索し、<Sheet(EventItem,2000707,0)/>を手に入れた。キャンプ・ドラゴンヘッドの「ベルモント」に入手した「<Sheet(EventItem,2000707,0)/>」を渡そう。"
+3,"TEXT_GAIUSB709_00904_SEQ_03","ベルモントによれば、シュラウドユーは黒衣森にのみ自生する樹であるという。イクサル族がクルザスの入植地を拡張しているというのが、彼の推測だが……。"
 4,"TEXT_GAIUSB709_00904_SEQ_04",""
 5,"TEXT_GAIUSB709_00904_SEQ_05",""
 6,"TEXT_GAIUSB709_00904_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSB709_00904_SEQ_21",""
 22,"TEXT_GAIUSB709_00904_SEQ_22",""
 23,"TEXT_GAIUSB709_00904_SEQ_23",""
-24,"TEXT_GAIUSB709_00904_TODO_00","Search the Ixali lair for clues."
-25,"TEXT_GAIUSB709_00904_TODO_01","Deliver the black yew log to Belmont."
+24,"TEXT_GAIUSB709_00904_TODO_00","イクサル族のアジトで証拠を探す"
+25,"TEXT_GAIUSB709_00904_TODO_01","ベルモントに<Sheet(EventItem,2000707,0)/>を渡す"
 26,"TEXT_GAIUSB709_00904_TODO_02",""
 27,"TEXT_GAIUSB709_00904_TODO_03",""
 28,"TEXT_GAIUSB709_00904_TODO_04",""
@@ -49,13 +49,26 @@ int32,str,str
 45,"TEXT_GAIUSB709_00904_TODO_21",""
 46,"TEXT_GAIUSB709_00904_TODO_22",""
 47,"TEXT_GAIUSB709_00904_TODO_23",""
-48,"TEXT_GAIUSB709_00904_BELMONT_000_000","I hail from Gridania, <Switch(PlayerParameter(70))><Case(1)><If(PlayerParameter(4))>sister<Else/>brother</If> from the sea</Case><Case(2)>same as you</Case><Case(3)>desert <If(PlayerParameter(4))>sister<Else/>brother</If></Case></Switch>. Fighting Ixal is what we do there, but I sure didn't expect to see them in these mountains."
-49,"TEXT_GAIUSB709_00904_BELMONT_000_001","I know those shite-birds, and they're up to something. It's nothing I can go to my employer with... It's just a feeling. But whenever I got this feeling in the Twelveswood and nothing got done, something bad bit us on the arse."
-50,"TEXT_GAIUSB709_00904_BELMONT_000_002","I've not had a moment to spare and the feeling grows stronger. It ill becomes a sellsword to part with his own gil in this manner, but will you enter the Ixali lair to the east and see if there are any clues to be found?"
-51,"TEXT_GAIUSB709_00904_DUMMYTODO_000_010",""
-52,"TEXT_GAIUSB709_00904_DUMMYTODO_000_011",""
-53,"TEXT_GAIUSB709_00904_BELMONT_000_020","What news, <If(PlayerParameter(4))>sister<Else/>brother</If>? What is it that you carry?"
-54,"TEXT_GAIUSB709_00904_BELMONT_000_030","This is black yew from the North Shroud, unknown in Coerthas. The Ixal make of it living blinds and walls. But the yew being slow to grow, why would they bother to cut it down and convey it west? Unless..."
-55,"TEXT_GAIUSB709_00904_BELMONT_000_031","The Ixal mean to stay here─this is the beginning of a settlement. While the Ishgardians busy themselves with dragons, the birdmen are stealing this patch of Coerthas from right under their noses."
-56,"TEXT_GAIUSB709_00904_BELMONT_000_032","I tell you, unless the Holy See acts now, the Ixal will rapidly gain a foothold in this area. That means more war. And though that means more work for the likes of me, I have enough as is."
-57,"TEXT_GAIUSB709_00904_POP_MESSAGE_000","A rush of wings announces the Ixal! "
+48,"TEXT_GAIUSB709_00904_BELMONT_000_000","俺はグリダニアから、出稼ぎにきているんだ。
+あそこではイクサル族との戦いに明け暮れていたんだが、
+まさか、こんな山奥でも同じ相手を敵にすることになるとは。"
+49,"TEXT_GAIUSB709_00904_BELMONT_000_001","そのイクサル族なんだが、最近どうにも動きが怪しいんだ。
+まるで黒衣森で奴らと一悶着あったときのような、
+妙な気配がする。"
+50,"TEXT_GAIUSB709_00904_BELMONT_000_002","なぁ、あんた。イクサル族の拠点に行って、
+何か手掛かりがないか探ってきてくれないか。
+俺は雑用で忙しくてね、任せたぜ。"
+51,"TEXT_GAIUSB709_00904_DUMMYTODO_000_010","イクサルの本拠地で「<Sheet(EventItem,2000707,0)/>」をゲット。ポップしたイクサルを倒す(2匹)"
+52,"TEXT_GAIUSB709_00904_DUMMYTODO_000_011","（★未使用／削除予定★）"
+53,"TEXT_GAIUSB709_00904_BELMONT_000_020","よう、どうだった？
+何か手掛かりはみつかったかい？"
+54,"TEXT_GAIUSB709_00904_BELMONT_000_030","……これは「<Sheet(EventItem,2000707,0)/>」じゃないか。
+しかも、クルザスでは見かけない樹木、
+黒衣森の北部森林にしか自生してないものだ！"
+55,"TEXT_GAIUSB709_00904_BELMONT_000_031","こいつがイクサル族の拠点にあったってことは……
+黒衣森で伐採した樹木を、
+クルザスへと運びこんでるってことだ。"
+56,"TEXT_GAIUSB709_00904_BELMONT_000_032","このまま、ドラゴン族との戦いにかまけていれば、
+クルザスのイクサル族入植地は、ますます大きくなるぞ。
+まあ……戦いは俺の飯の種。それはそれで結構な話だがな。"
+57,"TEXT_GAIUSB709_00904_POP_MESSAGE_000","敵の気配を感じた！！"

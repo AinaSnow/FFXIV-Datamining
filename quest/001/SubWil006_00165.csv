@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBWIL006_00165_SEQ_00","Zazarikku needs an adventurer to pick up an order from the Goldsmiths' Guild."
-1,"TEXT_SUBWIL006_00165_SEQ_01","In order to make a dazzling Coliseum debut, Zazarikku needs to look his best. Present his receipt of purchase to Jemime at the Goldsmiths' Guild and collect his circlet."
-2,"TEXT_SUBWIL006_00165_SEQ_02","Jemime explains that the circlet is not yet ready because the guild ran out of garnets. She asks you to explain the situation to Crooked Haft at the Miners' Guild so that he may expedite his next shipment of garnets."
-3,"TEXT_SUBWIL006_00165_SEQ_03","Crooked Haft scoffs at the gladiator's obsession with style, but agrees to do his best to ensure the Goldsmiths' Guild receives the necessary garnets."
+0,"TEXT_SUBWIL006_00165_SEQ_00","新米剣闘士ザザリックはデビュー戦を前に気分が浮ついている。"
+1,"TEXT_SUBWIL006_00165_SEQ_01","コロセウムで初めての試合を迎える新米剣闘士ザザリック。彼はデビュー戦を飾るにふさわしい、派手な装備を発注したいらしい。「彫金師ギルド」の受付に「装飾具の注文書」を渡そう。"
+2,"TEXT_SUBWIL006_00165_SEQ_02","「彫金師ギルド」にて、装飾具の注文書を渡したが、どうやら素材となる宝石の在庫がないらしい。「採掘師ギルド」へ行って「クルックド・ハフト」に原石を納品するよう伝えよう。"
+3,"TEXT_SUBWIL006_00165_SEQ_03","無事「採掘師ギルド」に宝石の注文が完了した。これでなんとか、ザザリックの納得するサークレットが出来上がりそうだ。ただ、この努力が彼のデビュー戦を勝利に導くかは……謎である。"
 4,"TEXT_SUBWIL006_00165_SEQ_04",""
 5,"TEXT_SUBWIL006_00165_SEQ_05",""
 6,"TEXT_SUBWIL006_00165_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_SUBWIL006_00165_SEQ_21",""
 22,"TEXT_SUBWIL006_00165_SEQ_22",""
 23,"TEXT_SUBWIL006_00165_SEQ_23",""
-24,"TEXT_SUBWIL006_00165_TODO_00","Present the receipt of purchase to Jemime."
-25,"TEXT_SUBWIL006_00165_TODO_01","Speak with Crooked Haft."
+24,"TEXT_SUBWIL006_00165_TODO_00","彫金師ギルドの受付に装飾具の注文書を渡す"
+25,"TEXT_SUBWIL006_00165_TODO_01","クルックド・ハフトと話す"
 26,"TEXT_SUBWIL006_00165_TODO_02",""
 27,"TEXT_SUBWIL006_00165_TODO_03",""
 28,"TEXT_SUBWIL006_00165_TODO_04",""
@@ -49,16 +49,32 @@ int32,str,str
 45,"TEXT_SUBWIL006_00165_TODO_21",""
 46,"TEXT_SUBWIL006_00165_TODO_22",""
 47,"TEXT_SUBWIL006_00165_TODO_23",""
-48,"TEXT_SUBWIL006_00165_ZAZARIKKU_000","Have you come to wish me luck? I appreciate the thought, but there's no need to worry."
-49,"TEXT_SUBWIL006_00165_ZAZARIKKU_001","What!? You don't know who I am!? The next biggest thing that's coming to the Coliseum!?"
-50,"TEXT_SUBWIL006_00165_ZAZARIKKU_002","Zazarikku is my name, and you'll be hearing all about my exploits in the coming days. I've even thought of a title for myself: the Garnet Gladiator!"
-51,"TEXT_SUBWIL006_00165_ZAZARIKKU_003","Ah, which reminds me─I have yet to collect the circlet I commissioned from the Goldsmiths' Guild. You wouldn't mind picking it up for me, would you?"
-52,"TEXT_SUBWIL006_00165_CROOKEDHAFT_000","I've a mind to drain a pint, so hurry up an' speak yer business."
-53,"TEXT_SUBWIL006_00165_CROOKEDHAFT_001","...She wants <Emphasis>how</Emphasis> many bloody garnets!? Seven hells, <If(PlayerParameter(4))>lass<Else/>man</If>, they don't grow on trees!"
-54,"TEXT_SUBWIL006_00165_CROOKEDHAFT_002","But more than that, this lad what fancies himself the next Franz the Fair ought to worry less about style an' more about swordplay!"
-55,"TEXT_SUBWIL006_00165_CROOKEDHAFT_003","Anyroad, I'll do my part to ensure the little bastard gets bedecked in all the godsdamned garnets he can afford. And if he dies in his first fight, well, at least he'll leave a pretty corpse."
-56,"TEXT_SUBWIL006_00165_TALK_JEMIME_000","Good <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>evening<Else/>morrow</If><Else/><If(LessThan(PlayerParameter(11),17))>day<Else/>evening</If></If> to you, adventurer. How may I be of service?"
-57,"TEXT_SUBWIL006_00165_TALK_JEMIME_001","Zazarikku's circlet? Just a moment, <If(PlayerParameter(4))>miss<Else/>sir</If>."
-58,"TEXT_SUBWIL006_00165_TALK_JEMIME_002","Oh dear, this is <Emphasis>so</Emphasis> embarrassing. I am afraid crafting the circlet to Zazarikku's exact specifications has proven somewhat difficult."
-59,"TEXT_SUBWIL006_00165_TALK_JEMIME_003","We ran out of garnets halfway through our work, and we are still waiting on the next shipment."
-60,"TEXT_SUBWIL006_00165_TALK_JEMIME_004","I hate to impose, but would you explain the situation to Crooked Haft at the Miners' Guild? My records indicate that he was supposed to deliver the gemstones yesterday. Mayhap it slipped his mind?"
+48,"TEXT_SUBWIL006_00165_ZAZARIKKU_000","やあやあ、気が早いね。
+すまないがサインは遠慮させてもらうよ。"
+49,"TEXT_SUBWIL006_00165_ZAZARIKKU_001","おや、僕を知らないだって……？
+今度剣闘士としてこのコロセウムでデビューする、
+噂の超大物ルーキー、ザザリックとはズバリ僕のことさ！"
+50,"TEXT_SUBWIL006_00165_ZAZARIKKU_002","そうだ君、将来の大スターであるこの僕の、
+華々しいデビュー戦を飾る装備が欲しいんだ。"
+51,"TEXT_SUBWIL006_00165_ZAZARIKKU_003","ちょっと「彫金師ギルド」の受付まで行って、
+この注文書どおり、カッコいいサークレットを、
+発注してきてくれよ。"
+52,"TEXT_SUBWIL006_00165_CROOKEDHAFT_000","仕事が終わって、気持ちよく一杯ってところを、
+なんだよイキナリ……。"
+53,"TEXT_SUBWIL006_00165_CROOKEDHAFT_001","ああん？　ガーネットの原石だってぇ？
+今日中じゃないとダメなのかよ！？"
+54,"TEXT_SUBWIL006_00165_CROOKEDHAFT_002","まったく、金持ちのボンボンってのはワガママだな。
+剣闘士だか何だか知らねェが、
+最近の若いヤツは、すぐにカタチから入りやがる。"
+55,"TEXT_SUBWIL006_00165_CROOKEDHAFT_003","まァ、依頼された仕事はキッチリ済ますぜ。
+剣闘士も採掘師も実力が第一だからな！"
+56,"TEXT_SUBWIL006_00165_TALK_JEMIME_000","本日はどのようなご用件でしょうか？"
+57,"TEXT_SUBWIL006_00165_TALK_JEMIME_001","アクセサリのご注文ですか？
+かしこまりました。"
+58,"TEXT_SUBWIL006_00165_TALK_JEMIME_002","ふむふむ、これはまた……
+ずいぶんと派手なサークレットですね。"
+59,"TEXT_SUBWIL006_00165_TALK_JEMIME_003","おや、このデザイン通りに作るには、
+装飾に使用するガーネットの在庫が足りないようです。"
+60,"TEXT_SUBWIL006_00165_TALK_JEMIME_004","すみませんが「採掘師ギルド」に行って、
+採掘師の「クルックド・ハフト」から
+加工前の原石を届けるよう伝えてくれませんか？"

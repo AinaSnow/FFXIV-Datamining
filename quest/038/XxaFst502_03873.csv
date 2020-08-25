@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_XXAFST502_03873_SEQ_00","Edelstein would send you forth to commence the penultimate phase of Operation Archon."
-1,"TEXT_XXAFST502_03873_SEQ_01","Lieutenant Edelstein once more expresses his gratitude for all you have done to lift the spirits of the troops─as well as his own. With morale high once more, the time is nigh to begin the third phase of Operation Archon. March forth to Castrum Meridianum and report for duty to General Raubahn."
-2,"TEXT_XXAFST502_03873_SEQ_02","So begins the penultimate phase of Operation Archon. While the main Alliance host wreaks havoc without, you must steal inside Castrum Meridianum and disable its magitek field generator.
+0,"TEXT_XXAFST502_03873_SEQ_00","青燐精製所のエデルスティーン少闘士は、冒険者に出陣してほしいようだ。"
+1,"TEXT_XXAFST502_03873_SEQ_01","エルスディーン少闘士から、カストルム・メリディアヌムへ向かうよう言われた。北ザナラーンのカストルム・メリディアヌム付近にいる「ラウバーン」と話そう。"
+2,"TEXT_XXAFST502_03873_SEQ_02","ラウバーンと話した。「マーチ・オブ・アルコンズ」の第3段階が開始された。「カストルム・メリディアヌム」を攻略しよう！
 
-※Castrum Meridianum can be accessed via the Duty Finder."
-3,"TEXT_XXAFST502_03873_SEQ_03","You have successfully disabled the magitek field generator protecting the Praetorium, and defeated Livia sas Junius into the bargain. Though you are eager to press on with the fourth and final phase of Operation Archon, you will require the use of an airship if you are to reach the Ultima Weapon's resting place. For now, make your way back outside and report to Raubahn."
-4,"TEXT_XXAFST502_03873_SEQ_04","After gruffly reaffirming his trust in your abilities, Raubahn declares the third phase of Operation Archon a success. All that remains is the small matter of finding and destroying the Ultima Weapon."
+※コンテンツファインダーから攻略に参加できます。"
+3,"TEXT_XXAFST502_03873_SEQ_03","地上からでは、アルテマウェポンが眠る「工房」への侵入が難しいようだ。カストルム・メリディアヌム前の「ラウバーン」に報告しよう。"
+4,"TEXT_XXAFST502_03873_SEQ_04","ラウバーンに報告した。次は飛空艇「エンタープライズ」に乗って「工房」へ乗り込もう。"
 5,"TEXT_XXAFST502_03873_SEQ_05",""
 6,"TEXT_XXAFST502_03873_SEQ_06",""
 7,"TEXT_XXAFST502_03873_SEQ_07",""
@@ -27,9 +27,9 @@ int32,str,str
 21,"TEXT_XXAFST502_03873_SEQ_21",""
 22,"TEXT_XXAFST502_03873_SEQ_22",""
 23,"TEXT_XXAFST502_03873_SEQ_23",""
-24,"TEXT_XXAFST502_03873_TODO_00","Speak with Raubahn."
-25,"TEXT_XXAFST502_03873_TODO_01","Use the Duty Finder to enter Castrum Meridianum."
-26,"TEXT_XXAFST502_03873_TODO_02","Report to Raubahn."
+24,"TEXT_XXAFST502_03873_TODO_00","ラウバーンと話す"
+25,"TEXT_XXAFST502_03873_TODO_01","「外郭攻略 カストルム・メリディアヌム」を攻略"
+26,"TEXT_XXAFST502_03873_TODO_02","ラウバーンに報告"
 27,"TEXT_XXAFST502_03873_TODO_03",""
 28,"TEXT_XXAFST502_03873_TODO_04",""
 29,"TEXT_XXAFST502_03873_TODO_05",""
@@ -51,16 +51,36 @@ int32,str,str
 45,"TEXT_XXAFST502_03873_TODO_21",""
 46,"TEXT_XXAFST502_03873_TODO_22",""
 47,"TEXT_XXAFST502_03873_TODO_23",""
-48,"TEXT_XXAFST502_03873_SYSTEM_100_000","To accept this quest, you must abandon the current main scenario quest. Open the corresponding entry in the journal or duty list and select “Abandon.”"
-49,"TEXT_XXAFST502_03873_EDELSTEIN_000_000","You have rekindled the flames of courage that burn within our brave men and women's hearts, and for this, I thank you."
-50,"TEXT_XXAFST502_03873_EDELSTEIN_000_001","And now, the time for battle is nigh. We must march forth with no worries or regrets."
-51,"TEXT_XXAFST502_03873_EDELSTEIN_000_002","General Raubahn awaits you at Castrum Meridianum. The battle will not be an easy one, but I trust that you are up to the task. Godsspeed, <Clickable(<If(GreaterThan(PlayerParameter(52),0))><Sheet(GCRankLimsaMaleText,PlayerParameter(52),8)/><Else/></If><If(GreaterThan(PlayerParameter(53),0))><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),8)/><Else/></If><If(GreaterThan(PlayerParameter(54),0))><Sheet(GCRankUldahMaleText,PlayerParameter(54),8)/><Else/></If>)/> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>!"
-52,"TEXT_XXAFST502_03873_EDELSTEIN_000_010","General Raubahn awaits you at Castrum Meridianum. Godsspeed, <Clickable(<If(GreaterThan(PlayerParameter(52),0))><Sheet(GCRankLimsaMaleText,PlayerParameter(52),8)/><Else/></If><If(GreaterThan(PlayerParameter(53),0))><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),8)/><Else/></If><If(GreaterThan(PlayerParameter(54),0))><Sheet(GCRankUldahMaleText,PlayerParameter(54),8)/><Else/></If>)/> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>!"
-53,"TEXT_XXAFST502_03873_RAUBAHN_000_010","Our hero returns. I trust that your visit has done much to lift the spirits of our garrison on the eve of our greatest battle yet."
-54,"TEXT_XXAFST502_03873_RAUBAHN_000_011","Time is of the essence. Let us commence the briefing at once."
-55,"TEXT_XXAFST502_03873_RAUBAHN_000_020","We will suffer the Black Wolf to prowl our lands no more! Let us teach the hunter what it is to be hunted!"
-56,"TEXT_XXAFST502_03873_ALPHINAUD_000_950","Go now, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, and bring us one step closer to the dawn!"
-57,"TEXT_XXAFST502_03873_MINFILIA_000_960","See that you come back to us, my friend. May the Crystal bless you and keep you."
-58,"TEXT_XXAFST502_03873_RAUBAHN_000_900","I knew you wouldn't let us down, soldier!"
-59,"TEXT_XXAFST502_03873_RAUBAHN_000_901","With the Praetorium stripped of its defenses, the way to the Ultima Weapon lies open."
-60,"TEXT_XXAFST502_03873_RAUBAHN_000_902","The time is come for the final phase of Operation Archon!"
+48,"TEXT_XXAFST502_03873_SYSTEM_100_000","受注するには、進行中のメインクエストを破棄する必要があります。
+メインコマンドの「コンテンツ情報」から、
+「ジャーナル」を選び、破棄してください。"
+49,"TEXT_XXAFST502_03873_EDELSTEIN_000_000","いま、私の心は貴殿に頂いた「活」により、
+ファイガよりも熱く、燃え盛っております！
+帝国め、何するものぞ！"
+50,"TEXT_XXAFST502_03873_EDELSTEIN_000_001","きっと兵たちも同じ気持ちでしょう！
+戦いを前にして、もう何も憂いはありません！"
+51,"TEXT_XXAFST502_03873_EDELSTEIN_000_002","さあ、貴殿は決戦の舞台となる、
+カストルム・メリディアヌムへお向かいください！
+先に出陣した「ラウバーン」局長がお待ちです！"
+52,"TEXT_XXAFST502_03873_EDELSTEIN_000_010","さあ、カストルム・メリディアヌムへお向かいください。
+先に出陣した「ラウバーン」局長がお待ちです！"
+53,"TEXT_XXAFST502_03873_RAUBAHN_000_010","……来たか。
+兵たちの鼓舞、ご苦労だったな。
+これで安心して、作戦を次の段階に進めることができる。"
+54,"TEXT_XXAFST502_03873_RAUBAHN_000_011","では、始めるとしよう！"
+55,"TEXT_XXAFST502_03873_RAUBAHN_000_020","この大地を、ガレマール帝国の……。
+ガイウスの好きにさせるな！
+エオルゼアの未来は、我々で守る！"
+56,"TEXT_XXAFST502_03873_ALPHINAUD_000_950","もはや迷うことはない。
+仲間と共に、力を尽くして前へと進むんだ。
+君の進む先こそが、エオルゼアの未来になる！"
+57,"TEXT_XXAFST502_03873_MINFILIA_000_960","みんなが力をあわせて、あなたの道を拓いてくれる。
+信じて進んで……そして、必ず勝利を……！"
+58,"TEXT_XXAFST502_03873_RAUBAHN_000_900","さすがは、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>だ。
+よくやってくれた！
+これで「マーチ・オブ・アルコンズ」の第3段階は成功だ！"
+59,"TEXT_XXAFST502_03873_RAUBAHN_000_901","「フィールド発生装置」を失ったメリディアヌムは裸も同然。
+それに、敵将「リウィア」を討ったとなれば、
+我輩たち「同盟軍本隊」の士気も上がろう！"
+60,"TEXT_XXAFST502_03873_RAUBAHN_000_902","いよいよ、最後の戦いだ。
+気合を入れて行くぞ！"

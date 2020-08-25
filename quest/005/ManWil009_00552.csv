@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_MANWIL009_00552_SEQ_00","Momodi wants to see you off to the banquet."
-1,"TEXT_MANWIL009_00552_SEQ_01","The banquet is soon to begin. Put on the Voice of the Just and make for the Royal Promenade where Bartholomew awaits."
-2,"TEXT_MANWIL009_00552_SEQ_02","At the banquet, Raubahn recounts the deeds of the half-remembered heroes whom Eorzeans now call the Warriors of Light. The tale triggers inside your mind a vision of the final moments of the Battle of Carteneau. When you subsequently come to your senses, you are surprised to find yourself in a room at the Hourglass, with no idea how you got there. Betraying a mixture of relief and glee, Momodi explains that you collapsed, and mentions that the General would like to see you. Make your way to the Hall of Flames and seek an audience with him."
-3,"TEXT_MANWIL009_00552_SEQ_03","The Flame General declares that there is work to be done─and that he would have you do it. Speak to him again when you are ready to begin."
+0,"TEXT_MANWIL009_00552_SEQ_00","モモディは冒険者に晩餐会の事で伝えたいことがあるようだ。"
+1,"TEXT_MANWIL009_00552_SEQ_01","そろそろ晩餐会が始まる。「<Sheet(Item,4196,0)/>」を身に着け、ロイヤルプロムナードにいる「バーソロミュー」に話しかけよう。"
+2,"TEXT_MANWIL009_00552_SEQ_02","かつてエオルゼアには「光の戦士」と伝えられる英雄が存在し、彼らはカルテノーの戦いで人々のために命を賭して戦ったという。その戦いをずいぶん生々しく見たような気がするが……。ラウバーン局長が伝えたいことがあるようだ。「不滅隊：作戦本部」に赴き、「ラウバーン」に話かけよう。"
+3,"TEXT_MANWIL009_00552_SEQ_03","ラウバーンの頼みは、信頼を置く冒険者にしか託せないことらしい。どんな頼みも受けられるよう、冒険の準備を整えて、ラウバーンから詳しい話を聞こう。"
 4,"TEXT_MANWIL009_00552_SEQ_04",""
 5,"TEXT_MANWIL009_00552_SEQ_05",""
 6,"TEXT_MANWIL009_00552_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_MANWIL009_00552_SEQ_21",""
 22,"TEXT_MANWIL009_00552_SEQ_22",""
 23,"TEXT_MANWIL009_00552_SEQ_23",""
-24,"TEXT_MANWIL009_00552_TODO_00","Put on the Voice of the Just and speak with Bartholomew."
-25,"TEXT_MANWIL009_00552_TODO_01","Speak with Raubahn in the Hall of Flames."
+24,"TEXT_MANWIL009_00552_TODO_00","<Sheet(Item,4196,0)/>を着けてバーソロミューと話す"
+25,"TEXT_MANWIL009_00552_TODO_01","不滅隊：作戦本部のラウバーンと話す"
 26,"TEXT_MANWIL009_00552_TODO_02",""
 27,"TEXT_MANWIL009_00552_TODO_03",""
 28,"TEXT_MANWIL009_00552_TODO_04",""
@@ -49,51 +49,109 @@ int32,str,str
 45,"TEXT_MANWIL009_00552_TODO_21",""
 46,"TEXT_MANWIL009_00552_TODO_22",""
 47,"TEXT_MANWIL009_00552_TODO_23",""
-48,"TEXT_MANWIL009_00552_MOMODI_000_1","This is it, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>─your big debut in Ul'dahn high society!"
-49,"TEXT_MANWIL009_00552_MOMODI_000_2","The banquet is bein' held in the Fragrant Chamber. Head over to the Royal Promenade and Bartholomew will show you in. Oh, but be sure to put on your earrin's first, or he'll send you packin'."
-50,"TEXT_MANWIL009_00552_MOMODI_000_3","Right, well, I reckon that's everythin'. Try not to let all the pomp and ceremony get to you. Just be yourself and you'll be fine!"
-51,"TEXT_MANWIL009_00552_BARTHOLOMEW_000_10","A banquet hosted by Her Grace the sultana is due to begin shortly. Attendance is by invitation only. Please make way for arriving guests."
-52,"TEXT_MANWIL009_00552_BARTHOLOMEW_000_11","We are honored to receive you, <If(PlayerParameter(4))>milady<Else/>milord</If>. Please proceed inside."
-53,"TEXT_MANWIL009_00552_BARTHOLOMEW_000_12","Ahem. I must ask that you step away from the doors, <If(PlayerParameter(4))>madam<Else/>sir</If>. If you have received an invitation, pray consider the terms of admission."
-54,"TEXT_MANWIL009_00552_BARTHOLOMEW_000_13","And Twelve save you if you have misplaced the relevant articles! I can only imagine how horrified Mistress Serendipity would be if she had to furnish you with another pair..."
-55,"TEXT_MANWIL009_00552_000010_RAUBAHN","All hail the sultana!"
-56,"TEXT_MANWIL009_00552_000020_RAUBAHN","Your Grace."
-57,"TEXT_MANWIL009_00552_000030_NANAMOULNAMO","Raubahn."
-58,"TEXT_MANWIL009_00552_000040_NANAMOULNAMO","By right of the Royal House of Ul, I, Nanamo, seventeenth of my line, have summoned you here."
-59,"TEXT_MANWIL009_00552_000050_NANAMOULNAMO","We are graced this day by the presence of a hero to Ul'dah, and dear friend to the crown."
-60,"TEXT_MANWIL009_00552_000060_NANAMOULNAMO","Honored guests, I give you our champion!"
-61,"TEXT_MANWIL009_00552_000070_NANAMOULNAMO","And with that, I bid you enjoy the feast."
-62,"TEXT_MANWIL009_00552_000080_RAUBAHN","Not to spoil your appetite, but Ul'dah is hardly so bountiful as this meal would have you believe. While we gorge ourselves, children starve in the streets."
-63,"TEXT_MANWIL009_00552_000090_RAUBAHN","Nor can Her Grace do aught to help them. She is thwarted at every turn by those on the Syndicate who derive their wealth from the workers' poverty."
-64,"TEXT_MANWIL009_00552_000100_RAUBAHN","Beneath her mask of stately serenity, she is aghast at the plight of her subjects."
-65,"TEXT_MANWIL009_00552_000110_RAUBAHN","But there will be no hope for the masses until the crown is restored to power."
-66,"TEXT_MANWIL009_00552_000120_RAUBAHN","I am truly grateful for all you have done for Ul'dah. But there is so much more to do."
-67,"TEXT_MANWIL009_00552_000130_RAUBAHN","That light─what is it?"
-68,"TEXT_MANWIL009_00552_000140_RAUBAHN","So bright... Almost like... By the Twelve!"
-69,"TEXT_MANWIL009_00552_000150_RAUBAHN","Tell me true─have you been troubled by strange dreams of late? Visions─of the Crystal?"
-70,"TEXT_MANWIL009_00552_000160_RAUBAHN","Mayhap you put them down to an excess of aether?"
-71,"TEXT_MANWIL009_00552_000170_RAUBAHN","Yes. You are like <Emphasis>they</Emphasis> were..."
-72,"TEXT_MANWIL009_00552_000180_RAUBAHN","Allow me to explain. Before you came to Eorzea, there were others like you who fought the primals."
-73,"TEXT_MANWIL009_00552_000190_RAUBAHN","Though they were not of this land, when the Garlean Empire threatened the realm, they helped bring together the three Grand Companies."
-74,"TEXT_MANWIL009_00552_000200_RAUBAHN","And they stood with us at Carteneau, that fateful day five years ago..."
-75,"TEXT_MANWIL009_00552_000210_RAUBAHN","...The day we lost them."
-76,"TEXT_MANWIL009_00552_000220_RAUBAHN","None who survived have forgotten the heroes' sacrifice, nor would any man deny they fought alongside us..."
-77,"TEXT_MANWIL009_00552_000230_RAUBAHN","But the names of these heroes come not to our lips. The once-familiar pages of their story are now blank to us."
-78,"TEXT_MANWIL009_00552_000240_RAUBAHN","And in our mind's eye, their faces are naught but silhouettes amid a blinding glare..."
-79,"TEXT_MANWIL009_00552_000250_RAUBAHN","It is for this reason that we have come to call them the Warriors of Light."
-80,"TEXT_MANWIL009_00552_000260_RAUBAHN","When I look at you, I cannot help but think of them, and of what you might achieve."
-81,"TEXT_MANWIL009_00552_000270_RAUBAHN","You must protect that crystal at all costs."
-82,"TEXT_MANWIL009_00552_000280_RAUBAHN","It is a gift from Hydaelyn, Mother of all─and one She gave to you for a reason."
-83,"TEXT_MANWIL009_00552_000290_RAUBAHN","Yours is no ordinary tale. If I am right, the fate of the realm may yet hang upon your deeds."
-84,"TEXT_MANWIL009_00552_000300_RAUBAHN","Only heroes and martyrs are fit to bear such a burden. Let us pray you are the former."
-85,"TEXT_MANWIL009_00552_MOMODI_000_50","How you feelin', <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>?"
-86,"TEXT_MANWIL009_00552_MOMODI_000_51","They said you fainted in the middle of one of the General's stories. I had to have you carried back to the Hourglass."
-87,"TEXT_MANWIL009_00552_MOMODI_000_52","I reckon you made quite an impression on your fellow guests─though probably not the sort you intended."
-88,"TEXT_MANWIL009_00552_MOMODI_000_53","You sure you're gettin' enough rest, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>? The life of an adventurer can be pretty taxin'."
-89,"TEXT_MANWIL009_00552_MOMODI_000_54","Anyroad, I'm glad to see you're back to normal. No offense, but lookin' after you was gettin' a bit tiresome."
-90,"TEXT_MANWIL009_00552_MOMODI_000_55","Oh, 'fore I forget, the General left a message for you. Said that when you're feelin' up to it, you should come and see him at the Hall of Flames."
-91,"TEXT_MANWIL009_00552_MOMODI_000_56","Probably wants to finish the story he was tellin' you when you fell asleep."
-92,"TEXT_MANWIL009_00552_RAUBAHN_000_60","I've been waiting for you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I trust you are fully recovered?"
-93,"TEXT_MANWIL009_00552_RAUBAHN_000_61","Good, because there is much work to be done─work that I would have you do..."
-94,"TEXT_MANWIL009_00552_SERENDIPITY_070","You want <Emphasis>what</Emphasis>!? You can't be serious! <Emphasis>Gods</Emphasis>..."
-95,"TEXT_MANWIL009_00552_SERENDIPITY_071","Just this once, but remember─life is not a minstrel's song, and you aren't some chosen hero. So don't go around expecting people to forgive you no matter the reckless, irresponsible things you do."
+48,"TEXT_MANWIL009_00552_MOMODI_000_1","どう？　晩餐会に出席する準備はできたかしら。
+「<Sheet(Item,4196,0)/>」は、ただ持ってるだけじゃ駄目。
+ちゃんと身につけるのが、<If(PlayerParameter(4))>淑女<Else/>紳士</If>のたしなみよ。"
+49,"TEXT_MANWIL009_00552_MOMODI_000_2","晩餐会の会場は「香煙の間」。
+ロイヤルプロムナードのバーソロミューさんに
+話しかければ、香煙の間まで案内してくれるわ。"
+50,"TEXT_MANWIL009_00552_MOMODI_000_3","ふふ、いよいよ社交界デビューかしら？
+顔が緊張してるわよ。
+リラックスして、いってらっしゃい！"
+51,"TEXT_MANWIL009_00552_BARTHOLOMEW_000_10","今宵は女王陛下主催の宮中晩餐会。
+ここから先は、冒険者には無縁の場所だ。
+早々に立ち去るがいい。"
+52,"TEXT_MANWIL009_00552_BARTHOLOMEW_000_11","……ややッ、その耳飾りはッ！
+し、失礼致しました。ご招待客であられましたか！
+どうぞ中にお入りくださいッ！"
+53,"TEXT_MANWIL009_00552_BARTHOLOMEW_000_12","招待客だと？　嘘をつけ。
+招待者の証「<Sheet(Item,4196,0)/>」をつけていないではないか！"
+54,"TEXT_MANWIL009_00552_BARTHOLOMEW_000_13","もし、耳飾りを失くしてしまったというのであれば、
+彫金師ギルドのセレンディピティー嬢に相談してみよ。
+もう一度「<Sheet(Item,4196,0)/>」を用意してくれるだろう。"
+55,"TEXT_MANWIL009_00552_000010_RAUBAHN","ナナモ女王陛下の御前である。"
+56,"TEXT_MANWIL009_00552_000020_RAUBAHN","ナナモ様。"
+57,"TEXT_MANWIL009_00552_000030_NANAMOULNAMO","苦しゅうない。"
+58,"TEXT_MANWIL009_00552_000040_NANAMOULNAMO","ウルダハ第十七代国王、
+ナナモ・ウル・ナモである。"
+59,"TEXT_MANWIL009_00552_000050_NANAMOULNAMO","今宵の晩餐には、ウルダハのため、わらわのために、
+奮闘した冒険者を呼んでおる。"
+60,"TEXT_MANWIL009_00552_000060_NANAMOULNAMO","この英雄に、拍手を！"
+61,"TEXT_MANWIL009_00552_000070_NANAMOULNAMO","では、皆の者。
+この晩餐会を楽しむがよいぞ。"
+62,"TEXT_MANWIL009_00552_000080_RAUBAHN","恥ずかしい話だが、このウルダハでは、
+我々王党派と、商人たちを中心とした
+共和派が対立していてな。"
+63,"TEXT_MANWIL009_00552_000090_RAUBAHN","国内は難民だの、蛮族、蛮神と、
+問題が山積みにも関わらず、
+内部闘争でゴタゴタしている状態だ。"
+64,"TEXT_MANWIL009_00552_000100_RAUBAHN","ナナモ様も健気にされているが、
+周りがこうでは、心休まれる日もあるまい……。"
+65,"TEXT_MANWIL009_00552_000110_RAUBAHN","国の平定に確たる意志で臨むため、
+より強い王室を作っていかねばならん。"
+66,"TEXT_MANWIL009_00552_000120_RAUBAHN","この度の件、ウルダハを代表して礼を言う。
+感謝しておるぞ。
+……我々には貴様のような冒険者の力が必要だな。"
+67,"TEXT_MANWIL009_00552_000130_RAUBAHN","その輝きは一体……？"
+68,"TEXT_MANWIL009_00552_000140_RAUBAHN","これは……。
+もしや、光のクリスタルか……！？"
+69,"TEXT_MANWIL009_00552_000150_RAUBAHN","貴様、以前に、母なるクリスタル……。
+マザークリスタルに導かれたことが、あるのではないか？"
+70,"TEXT_MANWIL009_00552_000160_RAUBAHN","そう、エーテル酔いに似た感覚を体験したことはないか？"
+71,"TEXT_MANWIL009_00552_000170_RAUBAHN","なんということだ、光の意思に……。"
+72,"TEXT_MANWIL009_00552_000180_RAUBAHN","かつて、このエオルゼアには、
+蛮神と戦った者たちがいた。"
+73,"TEXT_MANWIL009_00552_000190_RAUBAHN","その者たちは、
+エオルゼア諸国が「グランドカンパニー」を設立すると、
+その一員となり「ガレマール帝国」とも戦った。"
+74,"TEXT_MANWIL009_00552_000200_RAUBAHN","世界を救うため、「エオルゼア同盟軍」の一員として、
+5年前の「カルテノーの戦い」にも参加していた。"
+75,"TEXT_MANWIL009_00552_000210_RAUBAHN","しかし、カルテノーを最後に、
+その英雄たちは姿を消したのだ……。"
+76,"TEXT_MANWIL009_00552_000220_RAUBAHN","残された人々は、英雄が自分たちのために、
+命を賭して戦ったことを覚えている。
+……確かに彼らはそこに居たのだ。"
+77,"TEXT_MANWIL009_00552_000230_RAUBAHN","しかし、その名を口に出そうとすると、
+日に焼けた書物を読み上げることができぬよう
+声に出すことができず……。"
+78,"TEXT_MANWIL009_00552_000240_RAUBAHN","その顔を思い出そうとすると、閃光の中にあるように、
+輪郭が影に包まれてしまう。"
+79,"TEXT_MANWIL009_00552_000250_RAUBAHN","この不可思議な現象から、
+人々は英雄たちのことを「光の戦士たち」と
+呼ぶようになった。"
+80,"TEXT_MANWIL009_00552_000260_RAUBAHN","光の意思に導かれた貴様を見ていると
+かつての英雄の話を思い出す。"
+81,"TEXT_MANWIL009_00552_000270_RAUBAHN","そのクリスタルを大事にすることだ。"
+82,"TEXT_MANWIL009_00552_000280_RAUBAHN","マザークリスタル……ハイデリンが、
+貴様にそれを持たせた意味……それが解るまではな。"
+83,"TEXT_MANWIL009_00552_000290_RAUBAHN","貴様は一介の冒険者で終わらず、
+いずれは、世界をも左右する存在になるかもしれぬ。"
+84,"TEXT_MANWIL009_00552_000300_RAUBAHN","なぜなら……。
+貴様は「超える力」を持っているのだから。"
+85,"TEXT_MANWIL009_00552_MOMODI_000_50","あら、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
+気が付いた？"
+86,"TEXT_MANWIL009_00552_MOMODI_000_51","何があったか覚えていないの？
+あなたは、晩餐会の最中に倒れたの。
+慌てて、わたしが宿まで運んだのよ？"
+87,"TEXT_MANWIL009_00552_MOMODI_000_52","ナナモ女王が主催した晩餐会で気絶するなんて、
+冒険者の礼儀には驚かされるわ。"
+88,"TEXT_MANWIL009_00552_MOMODI_000_53","いろいろ大変だったみたいだから、
+疲れていたのかもしれないけどね。"
+89,"TEXT_MANWIL009_00552_MOMODI_000_54","うん、もう大丈夫のようね。
+わたしも店に戻るわ。"
+90,"TEXT_MANWIL009_00552_MOMODI_000_55","……そうそう。
+ラウバーン局長が、あなたに伝えたいことがあるそうよ。"
+91,"TEXT_MANWIL009_00552_MOMODI_000_56","今は「不滅隊」の作戦本部にいらっしゃるはず。
+局長も、あなたのことを心配していたわ。
+挨拶にいってらっしゃいな。"
+92,"TEXT_MANWIL009_00552_RAUBAHN_000_60","貴様か、待っていたぞ。
+具合はもういいようだな。"
+93,"TEXT_MANWIL009_00552_RAUBAHN_000_61","実は……。
+冒険者の貴様に、頼みがある。
+この仕事を託せるのは、貴様しかいないのだ……。"
+94,"TEXT_MANWIL009_00552_SERENDIPITY_070","ええええ！
+「招待者の証」をなくしちゃったですって！？
+んもう、しっかりしてくださいよっ！"
+95,"TEXT_MANWIL009_00552_SERENDIPITY_071","あれ作るの、結構大変だったんですよっ？
+もう、これっきりにしてくださいね。
+次なくしたら、怒っちゃいますからねっ！"

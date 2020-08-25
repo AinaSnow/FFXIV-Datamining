@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ119_02669_SEQ_00","A teahouse serving girl of Kugane is at her wit's end due to the incessant repetitions of an ebrious citizen."
+0,"TEXT_STMBDZ119_02669_SEQ_00","クガネの茶屋の娘は、酔っ払った男にうんざりしているようだ。"
 1,"TEXT_STMBDZ119_02669_SEQ_01",""
 2,"TEXT_STMBDZ119_02669_SEQ_02",""
 3,"TEXT_STMBDZ119_02669_SEQ_03",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_STMBDZ119_02669_SEQ_21",""
 22,"TEXT_STMBDZ119_02669_SEQ_22",""
 23,"TEXT_STMBDZ119_02669_SEQ_23",""
-24,"TEXT_STMBDZ119_02669_TODO_00","Speak with the teahouse hireling."
-25,"TEXT_STMBDZ119_02669_TODO_01","Dump the pail of cold well water on the fabulously foxed fellow."
-26,"TEXT_STMBDZ119_02669_TODO_02","Speak with the teahouse serving girl."
+24,"TEXT_STMBDZ119_02669_TODO_00","茶屋の下働きと話す"
+25,"TEXT_STMBDZ119_02669_TODO_01","酔っ払った男に<Sheet(EventItem,2002339,0)/>を使う"
+26,"TEXT_STMBDZ119_02669_TODO_02","茶屋の娘と話す"
 27,"TEXT_STMBDZ119_02669_TODO_03",""
 28,"TEXT_STMBDZ119_02669_TODO_04",""
 29,"TEXT_STMBDZ119_02669_TODO_05",""
@@ -49,18 +49,41 @@ int32,str,str
 45,"TEXT_STMBDZ119_02669_TODO_21",""
 46,"TEXT_STMBDZ119_02669_TODO_22",""
 47,"TEXT_STMBDZ119_02669_TODO_23",""
-48,"TEXT_STMBDZ119_02669_TEAHOUSE02669_000_000","Enough! I can't stand it anymore. How many times are you going to recant the same old tired tale!?"
-49,"TEXT_STMBDZ119_02669_DRANKER02669_000_001","Shut your mouth and open your earsh, you little bint! Thish shtatue is Zuiko of Clan Buhen─the greatesht warlord Hingashi has ever sheen! The founder of Suenokuni!"
-50,"TEXT_STMBDZ119_02669_DRANKER02669_000_002","Let's shee... How many yearsh ago were it that he...<burp>...were Lord of Suenokuni..."
-51,"TEXT_STMBDZ119_02669_TEAHOUSE02669_000_003","Excuse me there, <If(PlayerParameter(4))>milady<Else/>milord</If>. Would you please do something to cool off this hot-headed drunkard?"
-52,"TEXT_STMBDZ119_02669_TEAHOUSE02669_000_004","I've just now sent a teahouse hireling to fetch some water from the well. If you are able to find her, ask her for a pail of cold well water. I'll do what I can to keep this ale-soaked sod from bothering the other patrons until you return."
-53,"TEXT_STMBDZ119_02669_TEAHOUSE02669_000_005","I've just now sent a teahouse hireling to fetch some water from the well. If you are able to find her, ask her for a pail of cold well water. I'll do what I can to keep this ale-soaked sod from bothering the other patrons until you return."
-54,"TEXT_STMBDZ119_02669_DRANKER02669_000_006","And thish here'sh the besht part of all. There were... There were... Damn it all. What were I jusht about to shay?"
-55,"TEXT_STMBDZ119_02669_APPRENTICE02669_000_010","That drunkard is at it again, is he? Well, I've got just the thing for him. Here, take this pail of cold well water and give his head a good dousing. That always seems to do the trick."
-56,"TEXT_STMBDZ119_02669_APPRENTICE02669_000_011","Take that pail of cold well water and give that drunkard's head a good dousing. That always seems to do the trick."
-57,"TEXT_STMBDZ119_02669_DRANKER02669_000_020","Oh no, I've gone and got good and drunk again, aren't I? I'm sho shorry. It'sh jusht, I were a graveguard for the branch family of a branch family of a branch family of Clan Buhen, I were."
-58,"TEXT_STMBDZ119_02669_DRANKER02669_000_021","My love of the drink got me to where you shee me now. I didn't never mean to bother nobody. I'm shorry. Sho very, very shorry."
-59,"TEXT_STMBDZ119_02669_TEAHOUSE02669_000_022","Go ahead and dump that pail of cold well water square on that drunken mummer's head!"
-60,"TEXT_STMBDZ119_02669_TEAHOUSE02669_000_030","Thank you for your trouble, stranger. I hate to admit it, but as prominent and well-to-do an establishment as our Umineko Teahouse is, we do find ourselves a close neighbor to the Hostelry. Drunkards are not as few and far between as we would like."
-61,"TEXT_STMBDZ119_02669_TEAHOUSE02669_000_031","But that's not to say their lot is all bad. There are many whom the drink drives to be quite generous. Those souls are always willing to part with a pretty gil to buy whatever tea and sweets we recommend."
-62,"TEXT_STMBDZ119_02669_TEAHOUSE02669_000_032","That is just one of the many reasons why I have come to love this city. I hope you come to grow as fond of it as I have. Good day to you, then!"
+48,"TEXT_STMBDZ119_02669_TEAHOUSE02669_000_000","もう、それくらいにしてください！
+いったい、いつまで同じ話を繰り返す気なんですか？"
+49,"TEXT_STMBDZ119_02669_DRANKER02669_000_001","と、とくと見るがよい……この像を！
+これが、かの有名な武将……ブヘンのズイコウ様よぉ！
+さっすが……「末ノ国」を確立させた御方ぁ……渋い！"
+50,"TEXT_STMBDZ119_02669_DRANKER02669_000_002","さ、遡ること……何年だったかぁ？
+……末ノ国の、国主様はぁ……うっぷ。"
+51,"TEXT_STMBDZ119_02669_TEAHOUSE02669_000_003","あの、そちらの通りすがりのお方……。
+この困った方の頭を冷やすのを手伝っていただけませんか？"
+52,"TEXT_STMBDZ119_02669_TEAHOUSE02669_000_004","ちょうど、井戸の側に「茶屋の下働き」がいるので、
+言えば「<Sheet(EventItem,2002339,0)/>」をもらえるはずです。
+私は、この方がほかの人に絡まないよう相手をしておきます。"
+53,"TEXT_STMBDZ119_02669_TEAHOUSE02669_000_005","ちょうど、井戸の側に「茶屋の下働き」がいるので、
+言えば「<Sheet(EventItem,2002339,0)/>」をもらえるはずです。
+私は、この方がほかの人に絡まないよう相手をしておきます。"
+54,"TEXT_STMBDZ119_02669_DRANKER02669_000_006","ここからが……いいとこなんだぁ。
+あれぇ？　なんだっけ……えっとぉ……。"
+55,"TEXT_STMBDZ119_02669_APPRENTICE02669_000_010","また、あの酔っ払いか。
+そういうことなら、「<Sheet(EventItem,2002339,0)/>」をもってってくれ。
+頭から、勢いよくかけてやんな。"
+56,"TEXT_STMBDZ119_02669_APPRENTICE02669_000_011","「<Sheet(EventItem,2002339,0)/>」を頭から、勢いよくかけてやんな。
+そうすりゃ、酔いも醒めるだろうよ。"
+57,"TEXT_STMBDZ119_02669_DRANKER02669_000_020","す、すまねえ……俺ぁまた、酔っ払っちまったのか……。
+昔は、ブヘン家の分家の分家の、
+そのまた分家の墓守を、任されてたってのによ。"
+58,"TEXT_STMBDZ119_02669_DRANKER02669_000_021","……酒のせいで、今じゃこんな様だ。
+迷惑をかけるつもりは、なかったんだ。
+すまねぇ……ほんとに、すまねぇな。"
+59,"TEXT_STMBDZ119_02669_TEAHOUSE02669_000_022","景気よく、頭からかけてやってください！"
+60,"TEXT_STMBDZ119_02669_TEAHOUSE02669_000_030","お手数をおかけして、すみません。
+「ウミネコ茶屋」は、クガネでも指折りの待ち合わせ場所ですし、
+酒場からも近いので、ああいうお客さんも、少なくないんです。"
+61,"TEXT_STMBDZ119_02669_TEAHOUSE02669_000_031","もっとも、悪いことばかりじゃないんですよ。
+酔っ払って、気が大きくなってるものだから、
+勧められるままに、高いお団子を買ってくれたりしてね。"
+62,"TEXT_STMBDZ119_02669_TEAHOUSE02669_000_032","そんなところも含めて、私はこの街が好きなんです。
+あなたも、好きになってくれると嬉しいですけど。
+それでは、ありがとうございました。"

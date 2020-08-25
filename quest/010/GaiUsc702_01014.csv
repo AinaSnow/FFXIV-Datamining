@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSC702_01014_SEQ_00","Nedrick knows of a place where a skilled adventurer might hone <If(PlayerParameter(4))>her<Else/>his</If> skills."
-1,"TEXT_GAIUSC702_01014_SEQ_01","According to Nedrick, an area known as the Aurum Vale might hold a suitable challenge for an adventurer of your accomplishments. The vale may be found in the southwesterly reaches of the central highlands of Coerthas. Travel there and seek out a man by the name of Willielmus."
-2,"TEXT_GAIUSC702_01014_SEQ_02","Willielmus reluctantly grants you entry to the Aurum Vale. Take up the challenge, but be ever mindful of the lethal fumes within!
+0,"TEXT_GAIUSC702_01014_SEQ_00","ネドリック・アイアンハートは、冒険者に情報を提供しようとしているようだ。"
+1,"TEXT_GAIUSC702_01014_SEQ_01","ネドリックは、「オーラムヴェイル」という場所が穴場だと教えてくれた。<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>の活躍に、彼なりに敬意を表してのことだというが……。「クルザス中央高地」の南西、「オーラムヴェイル」の「ウィリーエルムス」に話を聞いてみよう。"
+2,"TEXT_GAIUSC702_01014_SEQ_02","オーラムヴェイルへの侵入を許された。腕を磨くため、積極的に挑んでみよう！
 
-※The Aurum Vale can be accessed via the Duty Finder."
+※コンテンツファインダーから攻略に参加できます。"
 3,"TEXT_GAIUSC702_01014_SEQ_03",""
 4,"TEXT_GAIUSC702_01014_SEQ_04",""
 5,"TEXT_GAIUSC702_01014_SEQ_05",""
@@ -27,7 +27,7 @@ int32,str,str
 21,"TEXT_GAIUSC702_01014_SEQ_21",""
 22,"TEXT_GAIUSC702_01014_SEQ_22",""
 23,"TEXT_GAIUSC702_01014_SEQ_23",""
-24,"TEXT_GAIUSC702_01014_TODO_00","Speak with Willielmus at the Aurum Vale."
+24,"TEXT_GAIUSC702_01014_TODO_00","オーラムヴェイルのウィリーエルムスに話す"
 25,"TEXT_GAIUSC702_01014_TODO_01",""
 26,"TEXT_GAIUSC702_01014_TODO_02",""
 27,"TEXT_GAIUSC702_01014_TODO_03",""
@@ -51,9 +51,21 @@ int32,str,str
 45,"TEXT_GAIUSC702_01014_TODO_21",""
 46,"TEXT_GAIUSC702_01014_TODO_22",""
 47,"TEXT_GAIUSC702_01014_TODO_23",""
-48,"TEXT_GAIUSC702_01014_NEDRICK_000_000","I can't take two steps around this place without hearing <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> this, or <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> that. Why, it's as if you're some kind of godsdamned hero!"
-49,"TEXT_GAIUSC702_01014_NEDRICK_000_001","...But I jest. Even I can see that you're just itching to find a new battleground to hone your skills. Fortunately, I know just the place: the Aurum Vale. Head southwest through the central highlands of Coerthas and seek out a man named Willielmus─and tell him that Nedrick sent you."
-50,"TEXT_GAIUSC702_01014_WILLIELMUS_000_020","Hail, adventurer. Wait, do not tell me─Nedrick sent you."
-51,"TEXT_GAIUSC702_01014_WILLIELMUS_000_021","Tell me this, adventurer─do you know how the Aurum Vale earned its most enticing name? Well, allow me to enlighten you."
-52,"TEXT_GAIUSC702_01014_WILLIELMUS_000_022","The cave is rich with sulphur and mythril ore which, through reactions with the groundwater, combine to exude golden-hued fumes. A beautiful sight─that is, until you realize the damned death clouds are burning your chest from within."
-53,"TEXT_GAIUSC702_01014_WILLIELMUS_000_023","If you still wish to take your life in your hands, I'll not be the one that stops you. But do try not to get killed─I've dragged enough corpses out of the vale to last me a lifetime."
+48,"TEXT_GAIUSC702_01014_NEDRICK_000_000","いよう、<If(PlayerParameter(4))>嬢ちゃん<Else/>ダンナ</If>。
+相変わらず、大活躍だと聞いてるぜ。
+奮闘に敬意を表して、新たな冒険の舞台を教えてやろう。"
+49,"TEXT_GAIUSC702_01014_NEDRICK_000_001","その舞台は、クルザス中央高地の南西「オーラムヴェイル」。
+入口にいる「ウィリーエルムス」に話しかけるといい。
+俺の名を出せば、くわしい話が聞けるだろうさ。"
+50,"TEXT_GAIUSC702_01014_WILLIELMUS_000_020","冒険者が何用か？
+……ほう、ネドリックの紹介か。
+この「オーラムヴェイル」へ入りたいというのか？"
+51,"TEXT_GAIUSC702_01014_WILLIELMUS_000_021","いくら凄腕の冒険者といえど、甘く見ると痛い目にあうぞ。
+ここは天然の洞穴、金の谷などと呼ばれているが……。
+その名の由来は、内部にある金色の毒の沼だ。"
+52,"TEXT_GAIUSC702_01014_WILLIELMUS_000_022","硫黄、霊銀鉱が、地下水によって反応し、
+美しくも恐ろしい黄金の有毒ガスを発生させている。
+吸い続けると呼吸困難を引き起こし、最悪死に至るぞ。"
+53,"TEXT_GAIUSC702_01014_WILLIELMUS_000_023","ここまで聞いておきながら、
+引き下がる気が無いのであれば、勝手にしろ。
+……せいぜい、無駄死にだけはするなよ。"

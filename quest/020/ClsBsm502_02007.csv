@@ -1,12 +1,15 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSBSM502_02007_SEQ_00","Forgemaster Brithael's eyes seem to shine with pride."
-1,"TEXT_CLSBSM502_02007_SEQ_01","Forgemaster Brithael thinks it is high time that a smith of your caliber earned realm-wide renown. He has even found you a potential employer: a noble house of Ishgard. Their representative, one Fremondain, awaits you at the Drowning Wench. Make your way there, and hear the man out."
-2,"TEXT_CLSBSM502_02007_SEQ_02","Fremondain, you learn, is a steward in the service of Baroness Laurisse de Jervaint. She is the lone daughter of House Jervaint, a family that has fallen from its once-lofty position within Ishgardian society. Thus, while the need for a blacksmith is great, the most that Fremondain can offer for your services is a healthy dose of “honor.” If this meager offer has not dissuaded you, seek out the steward in the Jeweled Crozier in Ishgard."
-3,"TEXT_CLSBSM502_02007_SEQ_03","After arriving in Ishgard, you speak with Fremondain. He introduces Baroness Laurisse to you, and explains the cause of House Jervaint's destitution─Ser Jervaint, the lady's father, lost his knighthood. Now, however, Ishgard's upcoming grand tournament may afford the baroness an opportunity to restore the family's good name─the champion of this event will be offered the knighthood her father lost. Before explaining how you fit into all of this, however, Fremondain notices that you are tired from your journey, and bids you seek him out again after you have recovered.
+0,"TEXT_CLSBSM502_02007_SEQ_00","鍛冶師ギルドのブリサエルは、胃袋が復調した喜びを伝えたいようだ。"
+1,"TEXT_CLSBSM502_02007_SEQ_01","前回までの冒険録：
+鍛冶師ギルドマスター、ブリサエルは造船会社の副社長として事業拡大を狙っている。だが気が小さく、胃薬を手放せない彼は、ドスの利いた仲介役、フェーズアールとの商談を苦手にしていた。そんな中、冒険者はフェーズアールからの依頼を着実にこなし、その信頼を得てゆく。冒険者という名工を傘下に得たブリサエルの胃薬の量は激減し、その胃痛が完治する日は、いよいよ目前に迫りつつあった……！
+　　　　　　　　　　　　*　*　*
+ブリサエルから依頼人を紹介された。溺れた海豚亭の「フレモンダン」と話そう。"
+2,"TEXT_CLSBSM502_02007_SEQ_02","フレモンダンと話した。かつての名門貴族「ジェルヴァン」家の家令である彼は、冒険者に、若き当主ロリスの鍛冶師となり、お家の再興を助けてほしいという。頼みを引き受けるなら、イシュガルドの宝杖通りにいる「フレモンダン」と話そう。"
+3,"TEXT_CLSBSM502_02007_SEQ_03","フレモンダンと話し、当主のロリスを紹介された。名門ジェルヴァン家は思いのほか落ちぶれているものの、ロリスは類まれなる剣技の素質の持ち主であるらしい。これからは鍛冶師として彼女の武者修行を助け、「神殿騎士団」への仕官を支援していこう。
 
-※The next blacksmith quest will be available from Fremondain upon reaching level 53."
+※鍛冶師のレベルが53以上になると、宝杖通りのフレモンダンから次の鍛冶師クエストを受注することができます。"
 4,"TEXT_CLSBSM502_02007_SEQ_04",""
 5,"TEXT_CLSBSM502_02007_SEQ_05",""
 6,"TEXT_CLSBSM502_02007_SEQ_06",""
@@ -27,8 +30,8 @@ int32,str,str
 21,"TEXT_CLSBSM502_02007_SEQ_21",""
 22,"TEXT_CLSBSM502_02007_SEQ_22",""
 23,"TEXT_CLSBSM502_02007_SEQ_23",""
-24,"TEXT_CLSBSM502_02007_TODO_00","Speak with Fremondain at the Drowning Wench."
-25,"TEXT_CLSBSM502_02007_TODO_01","Speak with Fremondain at the Jeweled Crozier in Ishgard."
+24,"TEXT_CLSBSM502_02007_TODO_00","溺れた海豚亭のフレモンダンと話す"
+25,"TEXT_CLSBSM502_02007_TODO_01","イシュガルドのフレモンダンと話す"
 26,"TEXT_CLSBSM502_02007_TODO_02",""
 27,"TEXT_CLSBSM502_02007_TODO_03",""
 28,"TEXT_CLSBSM502_02007_TODO_04",""
@@ -51,35 +54,86 @@ int32,str,str
 45,"TEXT_CLSBSM502_02007_TODO_21",""
 46,"TEXT_CLSBSM502_02007_TODO_22",""
 47,"TEXT_CLSBSM502_02007_TODO_23",""
-48,"TEXT_CLSBSM502_02007_BRITHAEL_000_000","Ever since ye came to me, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, it's been smooth sailin' fer the guild. But I fear it's time fer ye to spread yer wings, an' earn a taste o' the renown owed a smith o' yer talent."
-49,"TEXT_CLSBSM502_02007_BRITHAEL_000_001","It jus' so happens I've found the perfect job fer ye─with proper Ishgardian nobility! Some steward by the name o' Fremondain's here all sly-like, after me very best!"
-50,"TEXT_CLSBSM502_02007_BRITHAEL_000_002","Ain't no higher honor fer a smitty than winnin' a name in the land o' knights! So, I trust ye'll hear the man out? He's waitin' fer ye at the Wench."
-51,"TEXT_CLSBSM502_02007_BRITHAEL_000_010","Ah, to be a smitty in the Holy See... Opportunity of a lifetime, an' Fremondain's offerin' it down at the Wench!"
-52,"TEXT_CLSBSM502_02007_FREMONDAIN_000_020","Might you be Master Brithael's pupil? A pleasure, <If(PlayerParameter(4))>madam<Else/>sir</If>. I am Fremondain, steward to House Jervaint. How do you do?"
-53,"TEXT_CLSBSM502_02007_FREMONDAIN_000_021","I have come to secure the services of a blacksmith. Your guildmaster intimated that you are the best. And only the best will do for my mistress, Baroness Laurisse."
-54,"TEXT_CLSBSM502_02007_FREMONDAIN_000_022","In another age, her family formed the backbone of the Temple Knights. However, the house has fallen upon hard times, and milady has lost her lands, her power, and her father."
-55,"TEXT_CLSBSM502_02007_FREMONDAIN_000_023","Yet her resolve is pure steel. She practices daily with a blade to earn a place among the Temple Knights, and thus restore her house's good name. Aid her, and I daresay your talent will become famous throughout the realm!"
-56,"TEXT_CLSBSM502_02007_FREMONDAIN_000_024","I <Emphasis>should</Emphasis> mention that I cannot promise, er...traditional payment. But I am sure the <Emphasis>honor</Emphasis> of serving House Jervaint has intrigued you, at the very least, and I <Emphasis>do</Emphasis> hope you will join me at the Jeweled Crozier. I bid you good day, <If(PlayerParameter(4))>madam<Else/>sir</If>."
-57,"TEXT_CLSBSM502_02007_FREMONDAIN_000_025","...Not enough to hire a chocobo home. <sigh> Well, I can walk. And sleep outdo─"
-58,"TEXT_CLSBSM502_02007_FREMONDAIN_000_026","O-Oh! Please excuse me, <If(PlayerParameter(4))>madam<Else/>sir</If>─it's...it's nothing. Really! Er...good-bye."
-59,"TEXT_CLSBSM502_02007_FREMONDAIN_000_040","<If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>! Thank you! I promise, you will not regret the journey here. I hereby entrust the arms and armor of House Jervaint to your able care."
-60,"TEXT_CLSBSM502_02007_FREMONDAIN_000_041","Why meet here? I am employed at this shop─a second job, to pay the bills. Er...I am loath to ask, but would you keep this secret from Baroness Laurisse?"
-61,"TEXT_CLSBSM502_02007_LAURISSE_000_042","(-???-)I beg your pardon, Fremondain─keep what from me?"
-62,"TEXT_CLSBSM502_02007_FREMONDAIN_000_043","M-Milady! I...I was just saying you were keeping busy with your practice! Has it ended so soon?"
-63,"TEXT_CLSBSM502_02007_LAURISSE_000_044","It takes rather little time to defeat striking dummies. And who is this?"
-64,"TEXT_CLSBSM502_02007_FREMONDAIN_000_045","Ah, yes, allow me to present <If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>─a most excellent blacksmith come to serve you."
-65,"TEXT_CLSBSM502_02007_LAURISSE_000_046","Ah. The rumors of your skill precede you, smith. I am glad to have you."
-66,"TEXT_CLSBSM502_02007_LAURISSE_000_047","Fremondain, I am going home. Does the pantry need for anything?"
-67,"TEXT_CLSBSM502_02007_FREMONDAIN_000_048","Two pumpkins would be appreciated, milady. Unfortunately, I cannot leave to buy them myself in the middle of work─ A-Ah, I mean to say, I cannot leave before explaining the smith's duties to <If(PlayerParameter(4))>her<Else/>him</If>!"
-68,"TEXT_CLSBSM502_02007_LAURISSE_000_049","Very well. The shops of the Brume grow cheaper near closing, yes? Hopefully, the difference is worth the walk."
-69,"TEXT_CLSBSM502_02007_FREMONDAIN_000_050","<sigh> Milady should not have to worry about saving on foodstuffs..."
-70,"TEXT_CLSBSM502_02007_FREMONDAIN_000_051","Few noble lines have seen more of their own as lord commander than House Jervaint. Baroness Laurisse's father was himself a renowned knight, until..."
-71,"TEXT_CLSBSM502_02007_FREMONDAIN_000_052","Well, to give you an idea, the house once employed hundreds of servants. I am the only one left. Ser Jervaint did not tumble from knighthood─he was pushed, and his family lost much in his fall."
-72,"TEXT_CLSBSM502_02007_FREMONDAIN_000_053","To make matters worse, the Calamity claimed his life. But his dream of seeing his house's name restored did not die with him. Milady carries it within herself, and she is without parallel in her conviction. Why, in my eyes, she is Saint Finnea come again!"
-73,"TEXT_CLSBSM502_02007_FREMONDAIN_000_054","And she is so <Emphasis>close</Emphasis>, <If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>. Ishgard will hold its grand tourney soon, and the who's who of the Temple Knights will attend. They will extend knighthood to the champion. If that is the baroness..."
-74,"TEXT_CLSBSM502_02007_FREMONDAIN_000_055","Yet as good as she may be, she wants for refinement in her techniques and equipment both. But with a master smith's aid, I <Emphasis>know</Emphasis> she can shine. Ah, but you must be tired from your journey. All this can wait until you are rested."
-75,"TEXT_CLSBSM502_02007_SYSTEM_000_900","The next blacksmith quest will be available from Fremondain upon reaching level 53."
-76,"TEXT_CLSBSM502_02007_SYSTEM_000_901","The requirements for undertaking subsequent quests can be reviewed in your journal."
-77,"TEXT_CLSBSM502_02007_SYSTEM_000_910","Your skills as an artisan would be put to great use in crafting collectables. Speak with Morgayne at Saint Reinette's Forum in Ishgard to learn more of this lucrative business opportunity."
-78,"TEXT_CLSBSM502_02007_SYSTEM_000_911","If you seek even greater tests of your crafting prowess, you would do well to acquire master recipes."
-79,"TEXT_CLSBSM502_02007_SYSTEM_000_912","Speak with Guiding Star at Revenant's Toll to learn about them."
+48,"TEXT_CLSBSM502_02007_BRITHAEL_000_000","キミという名工を得て、僕の胃袋にも平穏な日々が訪れました。
+キミほどの腕前なら、より大きな「名声」を得てもいい頃……
+そういうことを考える、心の余裕も出てきたところです。"
+49,"TEXT_CLSBSM502_02007_BRITHAEL_000_001","そんな折、キミにふさわしい、栄えある仕事が舞い込みました。
+なんと騎士の国、イシュガルドの名門貴族からの依頼です！"
+50,"TEXT_CLSBSM502_02007_BRITHAEL_000_002","騎士道の本場で名をなす……まさに鍛冶師にとって最高の名誉！
+依頼人の「フレモンダン」様は、お忍びでこの街に滞在中です。
+「溺れた海豚亭」で、詳しい話をうかがってきてください。"
+51,"TEXT_CLSBSM502_02007_BRITHAEL_000_010","騎士道の本場で名をなす……まさに鍛冶師にとって最高の名誉！
+依頼人の「フレモンダン」様は、お忍びでこの街に滞在中です。
+「溺れた海豚亭」で、詳しい話をうかがってきてください。"
+52,"TEXT_CLSBSM502_02007_FREMONDAIN_000_020","ブリサエルどのより紹介いただいた、鍛冶師どのですな？
+私は、山の都イシュガルドの「ジェルヴァン家」にて、
+家令を務めまする、フレモンダンと申す者。"
+53,"TEXT_CLSBSM502_02007_FREMONDAIN_000_021","依頼とはほかでもない……
+わが主にして現当主、「ロリス・ド・ジェルヴァン」様を、
+鍛冶師として支えていただきたいのでございます！"
+54,"TEXT_CLSBSM502_02007_FREMONDAIN_000_022","当家は過去に名だたる騎士を幾人も輩出した、名門中の名門。
+しかしながら、今は往時の所領を失い、先代も霊災で急逝……
+ひとり娘のロリスお嬢様が、再起を期して奮闘中です。"
+55,"TEXT_CLSBSM502_02007_FREMONDAIN_000_023","ロリス様は栄えある「神殿騎士」をめざし、修行に励む毎日。
+みごと叙任がかない、いつかお家の再興なりし暁には……
+「英雄の陰に名工あり」と、国中が誉めたたえましょう！"
+56,"TEXT_CLSBSM502_02007_FREMONDAIN_000_024","遺憾ながら、かかる事情ゆえ、お約束できる報酬は「名誉」のみ。
+それでもこの話、お受けいただけるならば……
+どうか、イシュガルドの「宝杖通り」まで、お越しください。"
+57,"TEXT_CLSBSM502_02007_FREMONDAIN_000_025","……さて、帰りの路銀が尽きてしまったが、どうするか。
+まあ、帰途は野宿でしのげば……"
+58,"TEXT_CLSBSM502_02007_FREMONDAIN_000_026","……や、聞こえておりましたか！？
+いやいや、これはこちらの話……ただの独りごとにございまする！"
+59,"TEXT_CLSBSM502_02007_FREMONDAIN_000_040","おお、鍛冶師どの……先のお頼み、引き受けてくださるのですな！
+遠方よりご足労いただき、まことに恐縮至極……！
+わが主、ロリス様の武具周りのご後見、何卒お願い申しまする。"
+60,"TEXT_CLSBSM502_02007_FREMONDAIN_000_041","……実は私め、逼迫した家計を支えるため、
+そこの店で、副業をしておりましてな。
+このことはロリスお嬢様には、どうか内密にしていただきたく……"
+61,"TEXT_CLSBSM502_02007_LAURISSE_000_042","(-？？？？-)……何やら、私の名前が聞こえたようだけど？"
+62,"TEXT_CLSBSM502_02007_FREMONDAIN_000_043","ろろろ、ロリスお嬢様！？
+剣術の稽古に、出かけられたはずでは……！"
+63,"TEXT_CLSBSM502_02007_LAURISSE_000_044","……もう終わったわ。
+ところで、そちらの<If(PlayerParameter(4))>御婦人<Else/>御仁</If>は……？"
+64,"TEXT_CLSBSM502_02007_FREMONDAIN_000_045","これは失礼……この方こそ、
+先だって、お話させていただいた敏腕鍛冶師、
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>どのにございまする！"
+65,"TEXT_CLSBSM502_02007_LAURISSE_000_046","そう……あなたが噂の名工ね。
+これから、世話になるわ。"
+66,"TEXT_CLSBSM502_02007_LAURISSE_000_047","じい、私は宿に戻る。
+何か切らした食材があれば、途中で買っておくけれど？"
+67,"TEXT_CLSBSM502_02007_FREMONDAIN_000_048","それでしたら、パンプキンをふたつばかりお願い申しまする。
+何しろ、じいは、まだここで副業が……
+いやいやいや、鍛冶師どのとの打ち合わせがありますゆえ！"
+68,"TEXT_CLSBSM502_02007_LAURISSE_000_049","……だったら、下層の行商まで足を延ばすわ。
+遠まわりだけど、店じまい前を狙えば、2割も安く買えるし！"
+69,"TEXT_CLSBSM502_02007_FREMONDAIN_000_050","ジェルヴァン家の当主ともあろうお方に、
+食費節約の算段をさせるなど……不甲斐のうございます。"
+70,"TEXT_CLSBSM502_02007_FREMONDAIN_000_051","そもそもジェルヴァン家は代々、教皇庁直属の神殿騎士団に仕え、
+コマンドはもとより、最高位の総長をも輩出した尚武の血筋。
+ロリス様のお父上にあたる先代も、武名を馳せた騎士でしたが……"
+71,"TEXT_CLSBSM502_02007_FREMONDAIN_000_052","貴族どうしの鞘あてに足許をすくわれ、突然の失脚。
+再興を期すも、先の霊災にて、無念の最期を遂げられました。
+かつては3桁を下らなかった使用人も、今では私ひとり……。"
+72,"TEXT_CLSBSM502_02007_FREMONDAIN_000_053","しかしながら、お家再興の希望は、ついえておりませぬ！
+ロリス様は、類まれなる剣技の素質をお持ちの方。
+わが眼には、救国の聖人「聖フィネア」の再来と映るほど……！"
+73,"TEXT_CLSBSM502_02007_FREMONDAIN_000_054","近く、神殿騎士のお歴々を前に行われる「上覧試合」……
+各地の有望な若者が集うこの剣術試合にて、
+有力騎士の目に留まれば、ロリス様にも仕官の道が拓けまする！"
+74,"TEXT_CLSBSM502_02007_FREMONDAIN_000_055","ロリスお嬢様は、まだ鍛えられざる鋼の原石。
+いつかまばゆく輝く日まで、鍛冶師どのの力をお貸しください。
+具体的な依頼につきましては、また、この場所にて……。"
+75,"TEXT_CLSBSM502_02007_SYSTEM_000_900","「鍛冶師」の新たなクラスクエストが開始されました。
+次のクエストは「レベル53」以上で、
+宝杖通りのフレモンダンから受注可能です。"
+76,"TEXT_CLSBSM502_02007_SYSTEM_000_901","今後の「鍛冶師」のクラスクエスト受注条件は、
+コンプリート後のジャーナルで確認できます。"
+77,"TEXT_CLSBSM502_02007_SYSTEM_000_910","また、新たな依頼「収集品取引」が受けられます。
+イシュガルドの聖レネット広場にいる、
+「モルゲイン」を訪ねてみましょう。"
+78,"TEXT_CLSBSM502_02007_SYSTEM_000_911","さらに、熟練の職人だけが製作可能な、
+難度の高い製品の製法が記されたレシピ帳、
+「秘伝書」が入手できるようになります。"
+79,"TEXT_CLSBSM502_02007_SYSTEM_000_912","レヴナンツトールにいる、
+「ガイディング・スター」を訪ねてみましょう。"

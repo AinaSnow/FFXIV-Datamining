@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKTA210_03785_SEQ_00","Anogg would like to continue what may be charitably termed the discussion at hand."
-1,"TEXT_LUCKTA210_03785_SEQ_01","Anogg insists that it is in the village's best interest that you use the key to claim the androids' enigmatic weaponry as soon as possible so that the twins may study it. Forced to concede that she may have a point, Konogg agrees to help─though not without complaint. It seems you will be searching for that power source after all."
-2,"TEXT_LUCKTA210_03785_SEQ_02","According to Anogg, one of the crystals that comprises a knocker should provide enough energy to power the key. She sends you off to the Dwarven Hollows to seek one out while she and Konogg consider the problem of how said energy might be harnessed for your purposes."
-3,"TEXT_LUCKTA210_03785_SEQ_03","You pounce upon an unsuspecting knocker and bash it to pieces─all for the greater good, of course. Now with a sizable chunk of crystal in hand, you are ready to return to Anogg."
-4,"TEXT_LUCKTA210_03785_SEQ_04","Though you provide the crystal to Anogg, successful implementation will require an amount of experimentation. The twins are keen to begin, but unfortunately for them, they are interrupted before they can so much as connect a whatsit to a thingamabob by the dig site chief, who will brook no further delay in the completion of their preparations for the upcoming carnival. As they grudgingly leave their work in the tunnels behind, he encourages you to attend the event. What exactly it entails remains a mystery, but one thing is certain: there will be drinking."
+0,"TEXT_LUCKTA210_03785_SEQ_00","機械遺跡の坑道のアノッグは、話を進めたいようだ。"
+1,"TEXT_LUCKTA210_03785_SEQ_01","アノッグと話した。アノッグは、２Ｐが「鍵」と呼ぶ装置を使って、機械生命体の兵器を手に入れるべきだと主張する。そうすることで、機械生命体や黒いアンドロイドなどの未知の脅威から、コメラの村を守ることができると考えているようだ。コルシア島のコメラの村にいる「アノッグ」と話そう。"
+2,"TEXT_LUCKTA210_03785_SEQ_02","アノッグと話した。「鍵」にエネルギーを供給するために、エネルギー源となる鉱石を調達してきてもらいたいようだ。コルシア島のドワーフの洞窟にいる「<Sheet(BNpcName,8535,0)/>」を討伐して、「<Sheet(EventItem,2002972,0)/>」を入手しよう。"
+3,"TEXT_LUCKTA210_03785_SEQ_03","<Sheet(EventItem,2002972,0)/>を入手した。コメラの村にいる「アノッグ」に渡そう。"
+4,"TEXT_LUCKTA210_03785_SEQ_04","アノッグに<Sheet(EventItem,2002972,0)/>を渡した。「鍵」にエネルギーを補充するには、少し時間がかかるという。アノッグとコノッグの世話をしたことで、ドワーフ族の親方から感謝された。近々行われるという、コメラの村の祭りでは、ドワーフ族伝統の料理を振る舞ってくれるようだ。"
 5,"TEXT_LUCKTA210_03785_SEQ_05",""
 6,"TEXT_LUCKTA210_03785_SEQ_06",""
 7,"TEXT_LUCKTA210_03785_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_LUCKTA210_03785_SEQ_21",""
 22,"TEXT_LUCKTA210_03785_SEQ_22",""
 23,"TEXT_LUCKTA210_03785_SEQ_23",""
-24,"TEXT_LUCKTA210_03785_TODO_00","Speak with Anogg in Komra."
-25,"TEXT_LUCKTA210_03785_TODO_01","Obtain a chunk of knocker."
-26,"TEXT_LUCKTA210_03785_TODO_02","Deliver the chunk of knocker to Anogg."
+24,"TEXT_LUCKTA210_03785_TODO_00","コメラの村のアノッグと話す"
+25,"TEXT_LUCKTA210_03785_TODO_01","<Sheet(BNpcName,8535,0)/>から<Sheet(EventItem,2002972,0)/>を入手"
+26,"TEXT_LUCKTA210_03785_TODO_02","アノッグに<Sheet(EventItem,2002972,0)/>を渡す"
 27,"TEXT_LUCKTA210_03785_TODO_03",""
 28,"TEXT_LUCKTA210_03785_TODO_04",""
 29,"TEXT_LUCKTA210_03785_TODO_05",""
@@ -50,26 +50,59 @@ int32,str,str
 46,"TEXT_LUCKTA210_03785_TODO_22",""
 47,"TEXT_LUCKTA210_03785_TODO_23",""
 48,"TEXT_LUCKTA210_03785_KONOGG_000_001","（★未使用／削除予定★）"
-49,"TEXT_LUCKTA210_03785_ANOGG_000_010","What were we talking about?"
-50,"TEXT_LUCKTA210_03785_ANOGG_100_010","Ah, yes─why I'm right."
-51,"TEXT_LUCKTA210_03785_ANOGG_000_011","I agree that we still know too little about the machine lifeforms and androids. But that's precisely why we need to seize this opportunity!"
-52,"TEXT_LUCKTA210_03785_ANOGG_000_012","If we claim the weaponry for ourselves, we'll know exactly what the enemy's capabilities are. Then─and only then─can we protect the village from comparable technology."
-53,"TEXT_LUCKTA210_03785_KONOGG_000_013","Fine, fine. I see your point. We'll be safer in the long run if we activate the weaponry sooner rather than later. Or everyone else will─I'll probably have dropped dead from trying to keep up with you."
-54,"TEXT_LUCKTA210_03785_ANOGG_000_014","Hahaha! You say that, but you're far too stubborn to die. That's why I can always count on you!"
-55,"TEXT_LUCKTA210_03785_ANOGG_000_015","You too, most loyal and lethal assistant! Come along─we have a power source to find."
-56,"TEXT_LUCKTA210_03785_KONOGG_000_050","I'm never sure if Anogg has the better argument, or if she's just better at arguing. I guess it doesn't matter─she usually gets what she wants in the end."
-57,"TEXT_LUCKTA210_03785_ANOGG_000_060","It's about time!"
-58,"TEXT_LUCKTA210_03785_ANOGG_000_061","I've been considering what we need in order to power the key─a hefty chunk of crystal from a knocker ought to do it, though I haven't quite worked out how we'll divert its energy for our purposes."
-59,"TEXT_LUCKTA210_03785_ANOGG_000_062","Konogg and I will think on it while you head over to the hollows and liberate that crystal. Find us when you're back in Komra."
-60,"TEXT_LUCKTA210_03785_KONOGG_000_150","And another thing─why does Anogg's way always have to be so <Emphasis>fun</Emphasis>..."
-61,"TEXT_LUCKTA210_03785_ANOGG_000_160","Aha! You got one, right?"
-62,"TEXT_LUCKTA210_03785_ANOGG_000_161","Perfect. Now we can run some tests."
-63,"TEXT_LUCKTA210_03785_ANOGG_000_162","Yes, yes─it'll take a bit of experimentation to get the key powered up. It <Emphasis>is</Emphasis> science, you know."
-64,"TEXT_LUCKTA210_03785_ANOGG_000_163","Don't you worry, though─we'll have this thing in working order before you know it. While you wait, why not take some time for yourself? Have a nap, try some of our local delicacies, tell the chief to go bugger himself..."
-65,"TEXT_LUCKTA210_03785_DWARFMASTER03671_000_164","Anogg! Konogg!"
-66,"TEXT_LUCKTA210_03785_DWARFMASTER03671_000_165","Ah, and here's <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I knew you had roped <If(PlayerParameter(4))>her<Else/>him</If> into your schemes again."
-67,"TEXT_LUCKTA210_03785_ANOGG_000_166","They're good schemes! And anyway, you're the one who keeps sending <If(PlayerParameter(4))>her<Else/>him</If> to check on us."
-68,"TEXT_LUCKTA210_03785_DWARFMASTER03671_000_167","I wouldn't have to if you'd <Emphasis>do the work you were assigned</Emphasis>. The carnival won't wait on your pet projects!"
-69,"TEXT_LUCKTA210_03785_ANOGG_000_168","Fine, fine! Come on, Konogg. Let's get this over with."
-70,"TEXT_LUCKTA210_03785_DWARFMASTER03671_000_169","Frustrating as they are, you have to admire their enthusiasm for tinkering. If they can put even a tenth of that energy toward the carnival, we'll be ready in no time."
-71,"TEXT_LUCKTA210_03785_DWARFMASTER03671_000_170","I hope you'll be able to attend. You won't have seen the like before, I assure you. Not to mention that we're eager to show our appreciation for your helping us with those machines─and there's no better way to do that than with a dwarven toast to your health or two. Dozen."
+49,"TEXT_LUCKTA210_03785_ANOGG_000_010","あぁ、まだ話の途中だったな。
+とにかくワタシの意見を聞きたまえ。"
+50,"TEXT_LUCKTA210_03785_ANOGG_100_010","やはりワタシは、２Ｐが「鍵」と呼んだ装置を起動し、
+機械生命体の兵器を手に入れるべきだと思うのだ。"
+51,"TEXT_LUCKTA210_03785_ANOGG_000_011","なぜなら、機械生命体や黒いアンドロイド……
+それらはワレワレにとって、今もなお未知の脅威である。
+だから一刻も早く、相手の手の内を知らなければならない。"
+52,"TEXT_LUCKTA210_03785_ANOGG_000_012","つまり……
+「鍵」を起動し、機械生命体の兵器とやらを手に入れることは、
+敵の謎を暴き、この村を守るという目的の第一歩なのだ！"
+53,"TEXT_LUCKTA210_03785_KONOGG_000_013","…………はぁ、わかったよ。
+しかし、本当にアノッグには振り回されっぱなしだ……。
+付き合わされるこっちの身にもなってほしいよ。"
+54,"TEXT_LUCKTA210_03785_ANOGG_000_014","ハッハッハ！
+そう言いながらいつも助けてくれる弟よ、頼りにしているぞ！"
+55,"TEXT_LUCKTA210_03785_ANOGG_000_015","さぁ、旅の者もついてくるのだ！
+さっそく作戦を開始する！"
+56,"TEXT_LUCKTA210_03785_KONOGG_000_050","またアノッグに丸め込まれてしまいました……。"
+57,"TEXT_LUCKTA210_03785_ANOGG_000_060","おぉ来たか、状況を整理しよう。
+まず、２Ｐが「鍵」と呼んだ装置を動かす必要がある。
+そのためには、「鍵」にエネルギーを供給しなくてはならない。"
+58,"TEXT_LUCKTA210_03785_ANOGG_000_061","そこで、キミに頼みがある。
+ドワーフの洞窟に生息する、「<Sheet(BNpcName,8535,0)/>」を倒して、
+「<Sheet(EventItem,2002972,0)/>」を調達してきてもらいたいのだ。"
+59,"TEXT_LUCKTA210_03785_ANOGG_000_062","ワタシとコノッグは、キミが魔物を倒している間に、
+「鍵」にエネルギーを供給するための調査をしておく。
+やるべきことを終えたら、コメラの村で集合だ。"
+60,"TEXT_LUCKTA210_03785_KONOGG_000_150","アノッグの意見には反対しましたが……。
+新しい調査を始めると楽しくなってしまいますね。"
+61,"TEXT_LUCKTA210_03785_ANOGG_000_160","戻ったか、旅の者よ。
+「<Sheet(EventItem,2002972,0)/>」は、
+無事に手に入れることができたかな？"
+62,"TEXT_LUCKTA210_03785_ANOGG_000_161","ありがとう！
+これで次の作業に移ることができそうだ。"
+63,"TEXT_LUCKTA210_03785_ANOGG_000_162","うむ、ワレワレの計画は順調に進行しているぞ。
+「鍵」を動かすためのエネルギーは入手することができた。
+あとは「鍵」にエネルギーを供給しなくてはならないが……"
+64,"TEXT_LUCKTA210_03785_ANOGG_000_163","調べたところ、少し時間がかかりそうだ、
+旅の者はそのあいだに身体を休めてくれたまえ。
+そういえば、そろそろ祭りが催される時期だったか……。"
+65,"TEXT_LUCKTA210_03785_DWARFMASTER03671_000_164","あ、おい！　アノッグ、コノッグ！"
+66,"TEXT_LUCKTA210_03785_DWARFMASTER03671_000_165","はぁ、やっと見つけたぞ。
+祭りの準備でお前らに頼んでいたものがあったはずだが、
+ちゃんと出来上がっているか？"
+67,"TEXT_LUCKTA210_03785_ANOGG_000_166","げっ親方……。
+でも……ワレワレは今それどころでは……。"
+68,"TEXT_LUCKTA210_03785_DWARFMASTER03671_000_167","「でも……」じゃない！"
+69,"TEXT_LUCKTA210_03785_ANOGG_000_168","くっ……仕方ない……。
+親方からの依頼も片づけるとしよう……。
+いくぞ！　コノッグ！"
+70,"TEXT_LUCKTA210_03785_DWARFMASTER03671_000_169","アノッグとコノッグも頑張っているようだな。
+そうそう、祭りの件だが、
+旅の人も機会があったら是非参加してくれ。"
+71,"TEXT_LUCKTA210_03785_DWARFMASTER03671_000_170","あんたにはいろいろ世話になっているし、
+ドワーフ族伝統の料理でも振舞って、もてなそうと思ってな。
+楽しみにしておいてくれ。"

@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBCTS103_01410_SEQ_00","Hugubert has heard word of great deeds being done at Halatali, and would share with you the tales of triumph."
-1,"TEXT_SUBCTS103_01410_SEQ_01","According to Hugubert, the training grounds at Halatali have been reopened to challengers, and your reputation as a seasoned battler precedes you. If you would take Hugubert up on his offer, make your way back to the reinvigorated training arena and speak with its sentry, Arlh."
-2,"TEXT_SUBCTS103_01410_SEQ_02","Arlh informs you that the former death trap is now a well-oiled dungeon. While there are myriad calls on your talents, you cannot deny the appeal of proving yourself in Halatali.
+0,"TEXT_SUBCTS103_01410_SEQ_00","レヴナンツトールのヒュグベルトは、冒険者に教えたい話があるようだ。"
+1,"TEXT_SUBCTS103_01410_SEQ_01","ヒュグベルトから、ハラタリ修練所が挑戦者を求めているという話を聞いた。東ザナラーンのハラタリ修練所にいる「アール」と話そう。"
+2,"TEXT_SUBCTS103_01410_SEQ_02","アールと話した。ハラタリ修練所は再整備され、再び訓練施設としての役割を果たすようになったらしい。アールは、冒険者にも是非挑戦してほしいと思っているようだ。「剣闘領域 ハラタリ修練所 (Hard)」を攻略しよう。
 
-※Halatali (Hard) can be accessed via the Duty Finder."
+※コンテンツファインダーから攻略に参加できます。"
 3,"TEXT_SUBCTS103_01410_SEQ_03",""
 4,"TEXT_SUBCTS103_01410_SEQ_04",""
 5,"TEXT_SUBCTS103_01410_SEQ_05",""
@@ -27,7 +27,7 @@ int32,str,str
 21,"TEXT_SUBCTS103_01410_SEQ_21",""
 22,"TEXT_SUBCTS103_01410_SEQ_22",""
 23,"TEXT_SUBCTS103_01410_SEQ_23",""
-24,"TEXT_SUBCTS103_01410_TODO_00","Speak with Arlh at Halatali."
+24,"TEXT_SUBCTS103_01410_TODO_00","ハラタリ修練所のアールと話す"
 25,"TEXT_SUBCTS103_01410_TODO_01",""
 26,"TEXT_SUBCTS103_01410_TODO_02",""
 27,"TEXT_SUBCTS103_01410_TODO_03",""
@@ -51,13 +51,31 @@ int32,str,str
 45,"TEXT_SUBCTS103_01410_TODO_21",""
 46,"TEXT_SUBCTS103_01410_TODO_22",""
 47,"TEXT_SUBCTS103_01410_TODO_23",""
-48,"TEXT_SUBCTS103_01410_HUGUBERT_000_000","Ah, an adventurer who can hold <If(PlayerParameter(4))>her<Else/>his</If> own in battle. It just so happens I've gotten word of a new challenge for one of your talents. Requires a bit of travel and a dash of heroics, but it'd be worth your while."
-49,"TEXT_SUBCTS103_01410_HUGUBERT_000_001","Eastern Thanalan's lovely this time of the year. You've heard of the training grounds at Halatali, I'll wager. The place fell into...disuse after the Calamity, but some adventurer or another put it to rights."
-50,"TEXT_SUBCTS103_01410_HUGUBERT_000_002","Its owners aim to train gladiators and adventurers once more, just as in the old days. A little paint, a little mass burial, and now the place is ready to take on challengers."
-51,"TEXT_SUBCTS103_01410_HUGUBERT_000_003","If you're at all keen on the notion, go and talk with my friend Arlh down there. He'll get you in the door."
-52,"TEXT_SUBCTS103_01410_ARLH_000_000","Welcome to Halatali, where heroes are made! I am Arlh, and any friend of Hugubert is a warmly regarded acquaintance of mine!"
-53,"TEXT_SUBCTS103_01410_ARLH_000_001","Didn't mention he used to tread the sands, did he? Been trying to get that smooth-talking son of a hydra to take up the gladiator trade again, but...gets easily distracted, Hugubert does."
-54,"TEXT_SUBCTS103_01410_ARLH_000_002","Now, I'll wager he didn't put two and two together when he heard your name. You're the <If(PlayerParameter(4))>lass<Else/>lad</If> Fafajoni over there was talking about, aren't you?"
-55,"TEXT_SUBCTS103_01410_ARLH_000_003","Hah, I knew it! The liberator of Halatali <If(PlayerParameter(4))>herself<Else/>himself</If>! Thanks to you, we've made it nice and deadly in there again. Got to restore the Coliseum games to what they were!"
-56,"TEXT_SUBCTS103_01410_ARLH_000_004","It's no lap of luxury, I warn you. Place could use some more freshening up, and there are some lurking crawlies that need a good killing. But the Brass Blades are on that detail."
-57,"TEXT_SUBCTS103_01410_ARLH_000_005","So, what do you say? Care to experience the new and improved training grounds? We'd be honored to have the liberator of Halatali return as a challenger!"
+48,"TEXT_SUBCTS103_01410_HUGUBERT_000_000","昔の知り合いから、腕利きの冒険者に伝えてくれと
+頼まれた話があるんだが……聞いていかないか？"
+49,"TEXT_SUBCTS103_01410_HUGUBERT_000_001","東ザナラーンの「ハラタリ修練所」という場所なんだがな。
+第七霊災の混乱で放棄されていたが、
+少し前、冒険者の活躍によって開放されたのさ。"
+50,"TEXT_SUBCTS103_01410_HUGUBERT_000_002","そのあと、剣闘士や冒険者の訓練施設にするため、
+しばらく再整備が行われていたんだが……
+そいつが終わって、挑戦者を集めてるんだそうだ。"
+51,"TEXT_SUBCTS103_01410_HUGUBERT_000_003","興味があるなら、ハラタリ修練所の「アール」を訪ねろ。
+その男が、参加の便宜を図ってくれるだろう。"
+52,"TEXT_SUBCTS103_01410_ARLH_000_000","ようこそ、ハラタリ修練所へ！
+……ほう、ヒュグベルトから話を聞いて来てくれただと？
+そうか、あいつ本当に話を広めてくれているのか……。"
+53,"TEXT_SUBCTS103_01410_ARLH_000_001","奴は元々、コロセウムで戦う拳闘士でな。
+オレとしては、コロセウム財団に戻ってきてほしいのだが……
+……おっと、そんな話をしたい訳じゃないよな。"
+54,"TEXT_SUBCTS103_01410_ARLH_000_002","……ところで、君はもしかして、
+ファファジョニ上等闘兵が言っていた冒険者ではないか？
+ならば、いつか礼を言わねばと思っていたのだ。"
+55,"TEXT_SUBCTS103_01410_ARLH_000_003","我々「コロセウム財団」が、ここの再整備を進めて、
+修練所が真の役割を果たせるようになったのも、
+すべては、君が魔物から開放してくれたおかげなのだからな。"
+56,"TEXT_SUBCTS103_01410_ARLH_000_004","まぁ、いまだに見かけは古臭いままだし、
+一部の区画には、まだ魔獣も残っているのだが……
+対処は銅刃団に任せているし、修練所の運営に支障はないぞ。"
+57,"TEXT_SUBCTS103_01410_ARLH_000_005","さあ、どうだ？
+新しいハラタリ修練所に、挑戦してみる気はないか？
+君ほどの冒険者の挑戦ならば、我々は大歓迎だ。"

@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBGSC106_00576_SEQ_00","The chocobokeep cannot seem to decide if you are who she thinks you are."
-1,"TEXT_SUBGSC106_00576_SEQ_01","After recognizing you as an accomplished jockey and trainer, a chocobokeep encourages you to consider arranging a covering for your veteran race chocobo. If all goes well, the offspring produced from the union would have the potential to become an even greater race chocobo─yet there is also risk involved, for you would need to retire an experienced chocobo first. Should you wish to learn more, speak with Katering at Moogle's Gift Mounts in the Central Shroud."
-2,"TEXT_SUBGSC106_00576_SEQ_02","While Katering states that she can make arrangements for a covering at any time, she reminds you that any newborn fledglings would need to undergo basic training prior to entering their first race. Thus acquainted with the process, you now stand at a crossroads: will you rely upon an established veteran chocobo, or will you seek greater glory through its offspring?"
+0,"TEXT_SUBGSC106_00576_SEQ_00","チョコボレースカウンターのチョコボ厩務員は、冒険者にカップリングについて教えたいようだ。"
+1,"TEXT_SUBGSC106_00576_SEQ_01","チョコボ厩務員から、カップリングのことを教えてもらった。カップリングはケイトリングが担当しているようだ。中央森林のベントブランチ牧場にいる「ケイトリング」に話を聞こう。"
+2,"TEXT_SUBGSC106_00576_SEQ_02","カップリングについての話を聞いた。今後カップリングをしたいときは、ケイトリングに話しかけよう。"
 3,"TEXT_SUBGSC106_00576_SEQ_03",""
 4,"TEXT_SUBGSC106_00576_SEQ_04",""
 5,"TEXT_SUBGSC106_00576_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_SUBGSC106_00576_SEQ_21",""
 22,"TEXT_SUBGSC106_00576_SEQ_22",""
 23,"TEXT_SUBGSC106_00576_SEQ_23",""
-24,"TEXT_SUBGSC106_00576_TODO_00","Speak with Katering at Bentbranch Meadows."
+24,"TEXT_SUBGSC106_00576_TODO_00","ベントブランチ牧場のケイトリングと話す"
 25,"TEXT_SUBGSC106_00576_TODO_01",""
 26,"TEXT_SUBGSC106_00576_TODO_02",""
 27,"TEXT_SUBGSC106_00576_TODO_03",""
@@ -49,18 +49,42 @@ int32,str,str
 45,"TEXT_SUBGSC106_00576_TODO_21",""
 46,"TEXT_SUBGSC106_00576_TODO_22",""
 47,"TEXT_SUBGSC106_00576_TODO_23",""
-48,"TEXT_SUBGSC106_00576_AUPHREY_000_000","Wait...it's <Emphasis>you</Emphasis>, isn't it? You're quite the jockey, <If(PlayerParameter(4))>miss<Else/>sir</If>─and quite the trainer as well, from all indications."
-49,"TEXT_SUBGSC106_00576_AUPHREY_000_001","If you don't mind me asking, have you given any thought to arranging a covering?"
-50,"TEXT_SUBGSC106_00576_AUPHREY_000_002","Surely you know of what I speak─a union between two race chocobos for the purpose of producing fledglings of a higher pedigree."
-51,"TEXT_SUBGSC106_00576_AUPHREY_000_003","Simply put: if successful, these fledglings will have the potential to surpass their parents as race chocobos!"
-52,"TEXT_SUBGSC106_00576_AUPHREY_000_004","That being said, as a matter of policy, only retired chocobos are permitted to engage in these unions..."
-53,"TEXT_SUBGSC106_00576_AUPHREY_000_005","Aye, that's right. You must weigh the potential gains from a fledgling against the certain loss of a veteran bird."
-54,"TEXT_SUBGSC106_00576_AUPHREY_000_006","The Gold Saucer is well aware that this decision entails tremendous risk, hence is why they provide breeding chocobos to help alleviate the burden."
-55,"TEXT_SUBGSC106_00576_AUPHREY_000_007","In any case, if I have piqued your interest, pray speak with Katering of Moogle's Gift Mounts. She is responsible for making arrangements for race chocobo coverings."
-56,"TEXT_SUBGSC106_00576_SYSTEM_000_010","Upon retiring a race chocobo of rank 40 or higher, you will receive a <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>retired chocobo registration form<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. Two such forms are required for arranging a covering."
-57,"TEXT_SUBGSC106_00576_SYSTEM_000_011","If you do not have two suitable retired chocobos, you may use a <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>covering permission form<UIGlow>01</UIGlow><UIForeground>01</UIForeground> to requisition the services of breeding stock. However, please note that both sire and dam cannot be breeding stock."
-58,"TEXT_SUBGSC106_00576_SYSTEM_000_012","Covering permission forms can be purchased from the tack & feed trader at the race counter."
-59,"TEXT_SUBGSC106_00576_AUPHREY_000_015","'Twould be a shame if you let your race chocobo's talents go to waste, would it not? Why not have Katering arrange a covering so that a new generation can carry on your veteran's legacy?"
-60,"TEXT_SUBGSC106_00576_KATERING_000_020","Hm? Coverings? Aye, if you've a mind for it, we can make arrangements. Do bear in mind that any offspring will need to undergo basic training before entering the races, though."
-61,"TEXT_SUBGSC106_00576_KATERING_000_021","If an' when you decide to avail yourself of our services, just give the word. Or, if you have any questions, ask an' I'll be happy to answer."
-62,"TEXT_SUBGSC106_00576_SYSTEM_000_030","You can now arrange chocobo coverings."
+48,"TEXT_SUBGSC106_00576_AUPHREY_000_000","ねえ、最近ずいぶん調子よさそうじゃない！
+君の出走していたレースを観させてもらったんだけど……
+競走羽も、かなり育ってきたみたいだね！"
+49,"TEXT_SUBGSC106_00576_AUPHREY_000_001","それだけ成長した競走羽なら、
+「カップリング」を行うこともできるんじゃない？"
+50,"TEXT_SUBGSC106_00576_AUPHREY_000_002","「カップリング」っていうのは、
+競走羽を引退したチョコボをお見合いさせて、
+新たな「新羽チョコボ」を誕生させることなの。"
+51,"TEXT_SUBGSC106_00576_AUPHREY_000_003","そうして誕生した「新羽チョコボ」を、
+改めて、競走羽として育て直すことで、
+より優秀な競走羽を育てていくことができるのよ！"
+52,"TEXT_SUBGSC106_00576_AUPHREY_000_004","カップリングを行うには、競走羽を引退させたときに発行される、
+「引退チョコボ登録証」が必要になるわ。"
+53,"TEXT_SUBGSC106_00576_AUPHREY_000_005","でも、登録している競走羽を引退させるってことは、
+もうそのチョコボではレースができなくなるってこと……。"
+54,"TEXT_SUBGSC106_00576_AUPHREY_000_006","ともに戦いぬくか、引退して新しい世代に血統を繋ぐか……。
+悩ましい選択ではあるけど、いずれにせよ、
+カップリングするときは慎重にね。"
+55,"TEXT_SUBGSC106_00576_AUPHREY_000_007","カップリングを担当しているのは、
+「ベントブランチ牧場」の「ケイトリング」さんよ。
+興味があるなら、ぜひ話を聞きに行ってみて！"
+56,"TEXT_SUBGSC106_00576_SYSTEM_000_010","カップリングをするには、
+「ランク40以上」の競走羽を引退させると手に入る、
+「引退チョコボ登録証」が必要になります。"
+57,"TEXT_SUBGSC106_00576_SYSTEM_000_011","カップリングには、「オス」と「メス」が必要ですが、
+「カップリングチョコボ権利証」があれば、
+「引退チョコボ」が一羽だけでも、カップリングが行えます。"
+58,"TEXT_SUBGSC106_00576_SYSTEM_000_012","カップリング専用の「カップリングチョコボ権利証」は、
+「チョコボ用具商」から購入できます。"
+59,"TEXT_SUBGSC106_00576_AUPHREY_000_015","カップリングを担当しているのは、
+「ベントブランチ牧場」の「ケイトリング」さんよ。
+興味があるなら、ぜひ話を聞きに行ってみて！"
+60,"TEXT_SUBGSC106_00576_KATERING_000_020","……ええ、カップリングについては私が担当しているわ。
+生まれたばかりのチョコボの世話をするのは、
+ここのような専門の設備が必要なの。"
+61,"TEXT_SUBGSC106_00576_KATERING_000_021","この話を聞きにきたってことは、カップリングに興味があるのね。
+今後、実際にカップリングを行ったり、
+詳しい説明を聞いたりしたいときは、私に話しかけてね！"
+62,"TEXT_SUBGSC106_00576_SYSTEM_000_030","カップリングが行えるようになりました"

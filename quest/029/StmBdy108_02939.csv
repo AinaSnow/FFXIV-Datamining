@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDY108_02939_SEQ_00","Estrild of the Shiokaze Hostelry remains unwavering in keeping a close, enlisting eye on passersby."
+0,"TEXT_STMBDY108_02939_SEQ_00","潮風亭のエストリルドは、相変わらず道行く人を見定めているようだ。"
 1,"TEXT_STMBDY108_02939_SEQ_01",""
 2,"TEXT_STMBDY108_02939_SEQ_02",""
 3,"TEXT_STMBDY108_02939_SEQ_03",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_STMBDY108_02939_SEQ_21",""
 22,"TEXT_STMBDY108_02939_SEQ_22",""
 23,"TEXT_STMBDY108_02939_SEQ_23",""
-24,"TEXT_STMBDY108_02939_TODO_00","Speak with Wlveva."
+24,"TEXT_STMBDY108_02939_TODO_00","ウルヴィヴァと話す"
 25,"TEXT_STMBDY108_02939_TODO_01",""
 26,"TEXT_STMBDY108_02939_TODO_02",""
 27,"TEXT_STMBDY108_02939_TODO_03",""
@@ -49,17 +49,40 @@ int32,str,str
 45,"TEXT_STMBDY108_02939_TODO_21",""
 46,"TEXT_STMBDY108_02939_TODO_22",""
 47,"TEXT_STMBDY108_02939_TODO_23",""
-48,"TEXT_STMBDY108_02939_ESTRILD_000_001","So good to see you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. There is news I've been waiting to share with you."
-49,"TEXT_STMBDY108_02939_ESTRILD_000_002","It's that damnable Wlveva. She had the gall to chastise me for inviting passersby to join Clan Centurio. All I ever sought was to bring the thrill of the Hunt to all who cared to know it."
-50,"TEXT_STMBDY108_02939_ESTRILD_000_003","I grant you, no soul save you that I've recruited has ever reported back from their outings. We assume them all fallen. But such is the nature of the Hunt."
-51,"TEXT_STMBDY108_02939_ESTRILD_000_004","I've neither time nor patience for the weak. Let the Hunt cull them from our ranks, I say. If a hundred must die for Clan Centurio to find one such as you, so be it. Aye, I knew you to be of great ability. But never did I suspect you would climb so high."
-52,"TEXT_STMBDY108_02939_ESTRILD_000_005","You've done good by me, and made me proud to call you <If(PlayerParameter(4))>sister<Else/>brother</If>. From this day forth, I recognize you as one of Clan Centurio's most accomplished hunters."
-53,"TEXT_STMBDY108_02939_ESTRILD_000_006","With that, you have the Clan's leave to hunt the Far East's most fearsome quarry. I hazard you require no long-winded explanation, having already faced such beasts in Ishgard. Still, for sake of ceremony, go and speak with Wlveva."
-54,"TEXT_STMBDY108_02939_ESTRILD_000_007","Go well, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. And don't go dying on me now─the true fun has only just begun."
-55,"TEXT_STMBDY108_02939_WLVEVA_000_010","Hail, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I have had word from Estrild. It seems she has vouched for your promotion to Clan Centurio's elite."
-56,"TEXT_STMBDY108_02939_WLVEVA_000_011","I agree, you have proven yourself. There is nary a soul in the Clan who doubts your ability."
-57,"TEXT_STMBDY108_02939_WLVEVA_000_012","Be welcome to our highest rank, <If(PlayerParameter(4))>sister<Else/>brother</If>. We wish you good fortune on your future hunts. And you will need it, for now you hunt the fiercest prey the Far East has to offer."
-58,"TEXT_STMBDY108_02939_WLVEVA_000_013","On these hunts, we grade our quarry according to its strength. The higher the grade, the greater the bounty. But, of course, so too the greater the danger."
-59,"TEXT_STMBDY108_02939_WLVEVA_000_014","Never has Estrild thought so highly of one of her recruits. You have come far. So far, any further words of warning may be meaningless, but I will give them all the same. Now more than ever, do not overestimate yourself. "
-60,"TEXT_STMBDY108_02939_SYSTEM_000_015","You are now able to undertake elite Veteran Clan mark bills from the Clan Hunt boards in Kugane and Rhalgr's Reach."
-61,"TEXT_STMBDY108_02939_ESTRILD_000_020","You and I are bonded by the Clan, my <If(PlayerParameter(4))>sister<Else/>brother</If> of the Hunt. I'll not suffer you to die lightly now. Go and speak with Wlveva. The Hunt calls!"
+48,"TEXT_STMBDY108_02939_ESTRILD_000_001","あ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><If(PlayerParameter(4))>ちゃん<Else/>くん</If>！
+ねえねえ、聞いてよ！"
+49,"TEXT_STMBDY108_02939_ESTRILD_000_002","ウルヴィヴァったら、ひどいんだよ。
+通行人を、無闇やたらに「クラン・セントリオ」に勧誘するなって！
+私はただ、みんなで遊びたかっただけなのに……。"
+50,"TEXT_STMBDY108_02939_ESTRILD_000_003","ま、私が「モブハント」に誘った子たちは、
+キミ以外は、なぜか姿を現さなくなっちゃったんだけどね！
+アハハハハハ！"
+51,"TEXT_STMBDY108_02939_ESTRILD_000_004","ったく、どいつもこいつもクソ雑魚すぎて反吐が出るぜ。
+その点、テメェはしぶとく生き残りやがって。
+腕前は知っていたが、まさか「上級」を越えてきやがるとはな。"
+52,"TEXT_STMBDY108_02939_ESTRILD_000_005","……よし、いいだろう……合格だ！
+今日まで生き抜いてきたテメェを、
+「クラン・セントリオ」の正クラン員として認めてやる！"
+53,"TEXT_STMBDY108_02939_ESTRILD_000_006","同時に、テメェには「リスキーモブ」への挑戦権が与えられる！
+イシュガルドで「リスキーモブ」を狩っていたテメェに、
+説明はいらねェだろうが、一応「ウルヴィヴァ」から話を聞いとけ。"
+54,"TEXT_STMBDY108_02939_ESTRILD_000_007","それじゃ、頑張ってね！
+……<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><If(PlayerParameter(4))>ちゃん<Else/>くん</If>は、すぐに死んだらやだよ？"
+55,"TEXT_STMBDY108_02939_WLVEVA_000_010","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>か。
+エストリルドから、正クラン員昇格の件、伝え聞いたようだな。"
+56,"TEXT_STMBDY108_02939_WLVEVA_000_011","フフフ、今さら、お前の実力を疑う者はいまい。
+我々、「クラン・セントリオ」は、常に強者を求めている！
+歓迎するぞ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。"
+57,"TEXT_STMBDY108_02939_WLVEVA_000_012","さて、正クラン員となったことで、
+お前は、今後「リスキーモブ」に挑戦することができる。"
+58,"TEXT_STMBDY108_02939_WLVEVA_000_013","「リスキーモブ」には、強さに応じたランク付けがされている。
+高ランクになればなるほど、討伐時の報酬が増えるが、
+同時にリスクも高くなる。"
+59,"TEXT_STMBDY108_02939_WLVEVA_000_014","せいぜい、自身の実力を過信しないことだ。
+「エストリルド」が初めて認めた仲間であるお前に、
+今さら、つまらん忠告は不要かもしれないがな。"
+60,"TEXT_STMBDY108_02939_SYSTEM_000_015","クガネとラールガーズリーチの「セントリオボード」から、
+「ベテラン・リスキーモブ手配書」を入手できるようになりました。"
+61,"TEXT_STMBDY108_02939_ESTRILD_000_020","これで、私とテメェは正式に仲間となった。
+言っとくが、簡単に死んだら承知しねェからな。
+わかったら、さっさと「ウルヴィヴァ」と話してこい。"

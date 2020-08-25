@@ -1,10 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANQIQ119_03824_SEQ_00","Qhoterl Pasol is tapping her feet while reading a stone tablet.
+0,"TEXT_BANQIQ119_03824_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト受注クラス・ジョブ制限<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+※本クエストは受注時のクラスでのみ進行します。
 
-※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
-1,"TEXT_BANQIQ119_03824_SEQ_01","Deliver the requested supplies to Qhoterl Pasol."
+ホパル古盤のコテルリ・パソリは、石碑に刻まれた内容が気になるようだ。"
+1,"TEXT_BANQIQ119_03824_SEQ_01","コテルリ・パソリに依頼された品を納品"
 2,"TEXT_BANQIQ119_03824_SEQ_02",""
 3,"TEXT_BANQIQ119_03824_SEQ_03",""
 4,"TEXT_BANQIQ119_03824_SEQ_04",""
@@ -27,7 +28,7 @@ int32,str,str
 21,"TEXT_BANQIQ119_03824_SEQ_21",""
 22,"TEXT_BANQIQ119_03824_SEQ_22",""
 23,"TEXT_BANQIQ119_03824_SEQ_23",""
-24,"TEXT_BANQIQ119_03824_TODO_00","<If(Equal(IntegerParameter(4),16))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Mine splendid holey stones in the depths of Lake Tusi Mek'ta<Else/>Deliver the splendid holey stones to Qhoterl Pasol</If><Else/><If(Equal(IntegerParameter(4),17))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Gather splendid stalks at Lake Tusi Mek'ta<Else/>Deliver the splendid stalks to Qhoterl Pasol</If><Else/><If(Equal(IntegerParameter(4),18))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Catch a splendid treescale in Lake Tusi Mek'ta<Else/>Deliver the splendid treescale to Qhoterl Pasol</If><Else/></If></If></If>."
+24,"TEXT_BANQIQ119_03824_TODO_00","<If(Equal(IntegerParameter(4),16))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>トゥシ・メキタ湖の水中の岩場で<Sheet(Item,IntegerParameter(5),0)/>を砕岩<Else/>コテルリ・パソリに<Sheet(Item,IntegerParameter(5),0)/>を納品</If><Else/><If(Equal(IntegerParameter(4),17))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>トゥシ・メキタ湖の水中の草刈場で<Sheet(Item,IntegerParameter(5),0)/>を草刈<Else/>コテルリ・パソリに<Sheet(Item,IntegerParameter(5),0)/>を納品</If><Else/><If(Equal(IntegerParameter(4),18))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>トゥシ・メキタ湖で<Sheet(Item,IntegerParameter(5),0)/>を釣る<Else/>コテルリ・パソリに<Sheet(Item,IntegerParameter(5),0)/>を納品</If><Else/></If></If></If>"
 25,"TEXT_BANQIQ119_03824_TODO_01",""
 26,"TEXT_BANQIQ119_03824_TODO_02",""
 27,"TEXT_BANQIQ119_03824_TODO_03",""
@@ -51,16 +52,37 @@ int32,str,str
 45,"TEXT_BANQIQ119_03824_TODO_21",""
 46,"TEXT_BANQIQ119_03824_TODO_22",""
 47,"TEXT_BANQIQ119_03824_TODO_23",""
-48,"TEXT_BANQIQ119_03824_QHOTERLPASOL_000_000","Greetings, good <If(PlayerParameter(4))>madam<Else/>sir</If>! Our excavation proceeds apace, and just recently our workers unearthed a tablet inscribed with an ancient song."
-49,"TEXT_BANQIQ119_03824_QHOTERLPASOL_000_001","Oh, don't look so bewildered! Music has ever been a beloved pastime of the Qitari. As a matter of fact, this relic contains one of our great epics, immortalized in a captivating melody."
-50,"TEXT_BANQIQ119_03824_QHOTERLPASOL_000_002","I would see this culturally significant piece performed once again, that it may live on in the hearts of our children, and their children's children, and thus return to the rich tapestry of our history. And that, <If(PlayerParameter(4))>madam<Else/>sir</If>, is where you come in."
-51,"TEXT_BANQIQ119_03824_QHOTERLPASOL_000_003","Three holey stones from the waters of Lake Tusi Mek'ta ought to serve my needs. No two of these stones has holes in the same place, and the right ones make splendid flutes."
-52,"TEXT_BANQIQ119_03824_QHOTERLPASOL_000_004","I require three stalks taken from plants found in the waters of Lake Tusi Mek'ta. Hollow on the inside, they should produce just the sound we need to bring this melody to life. Don't worry about the name, you'll know them when you see them."
-53,"TEXT_BANQIQ119_03824_QHOTERLPASOL_000_005","Catch a treescale, which dwells in the waters of Lake Tusi Mek'ta. Their shells can be used to make all manner of instruments."
-54,"TEXT_BANQIQ119_03824_QHOTERLPASOL_000_006","While you may think it an instrument of a primitive sort, a stone flute can produce sounds most pleasing to the ear. The holey stones found in Lake Tusi Mek'ta are ideal for making them."
-55,"TEXT_BANQIQ119_03824_QHOTERLPASOL_000_007","Hollow stalks from the plants found in Lake Tusi Mek'ta make ideal wind instruments, and can produce a range of sounds to accompany most any refrain."
-56,"TEXT_BANQIQ119_03824_QHOTERLPASOL_000_008","The shells of the treescale─which are common in Lake Tusi Mek'ta─are versatile materials for crafting of all sorts, and musical instruments are no exception. And be sure to take some fruit worms to use as bait!"
-57,"TEXT_BANQIQ119_03824_QHOTERLPASOL_000_010","Ah, you're returned! I trust you've what I requested?"
-58,"TEXT_BANQIQ119_03824_QHOTERLPASOL_000_011","Yes, this will do splendidly! There is naught as stirring as an expertly crafted melody─even the Ronkans showed obeisance to Ox'Charl by composing songs of worship, that the moon and sky might remain firmly in their place."
-59,"TEXT_BANQIQ119_03824_QHOTERLPASOL_000_012","Music honors the gods eternal while also making timeless our most epic tales. And I daresay it is ever so slightly more entertaining than a dry narrative, wouldn't you agree?"
-60,"TEXT_BANQIQ119_03824_QHOTERLPASOL_000_013","Perhaps soon we'll put the deeds of the Warrior of Darkness to song, so that none forget the turnings of fate that restored night to the world."
+48,"TEXT_BANQIQ119_03824_QHOTERLPASOL_000_000","第二層の発掘調査により、
+古き旋律が刻まれた石碑が、発見されたのでございまする～。"
+49,"TEXT_BANQIQ119_03824_QHOTERLPASOL_000_001","どうやら、ご先祖様は石碑を彫るだけでなく、
+「書記の民」として、大切な出来事を記録する際に、
+音楽でも物語を伝えようとしたのでございましょ～！"
+50,"TEXT_BANQIQ119_03824_QHOTERLPASOL_000_002","どうか、この古の楽曲を復活させるため、
+わたくしどもに協力してくださいましな～。"
+51,"TEXT_BANQIQ119_03824_QHOTERLPASOL_000_003","トゥシ・メキタ湖の水中で、
+「<Sheet(Item,29531,0)/>」を3つ、採ってきてくださいましな～。
+穴あきの石なら笛作りに、都合がよろしいでしょな～。"
+52,"TEXT_BANQIQ119_03824_QHOTERLPASOL_000_004","トゥシ・メキタ湖の水中で、
+「<Sheet(Item,29557,0)/>」を3つ、採ってきてくださいましな～。
+中が空洞になっていれば笛作りに、都合がよろしいでしょな～。"
+53,"TEXT_BANQIQ119_03824_QHOTERLPASOL_000_005","トゥシ・メキタ湖で、餌となる<Sheet(Item,27582,0)/>を使って、
+「<Sheet(Item,29583,0)/>」を、釣ってきてくださいましな～。
+あの貝殻は楽器作りに、都合がよろしいでしょな～。"
+54,"TEXT_BANQIQ119_03824_QHOTERLPASOL_000_006","トゥシ・メキタ湖の水中で、
+「<Sheet(Item,29531,0)/>」を3つ、採ってきてくださいましな～。
+穴あきの石なら笛作りに、都合がよろしいでしょな～。"
+55,"TEXT_BANQIQ119_03824_QHOTERLPASOL_000_007","トゥシ・メキタ湖の水中で、
+「<Sheet(Item,29557,0)/>」を3つ、採ってきてくださいましな～。
+中が空洞になっていれば笛作りに、都合がよろしいでしょな～。"
+56,"TEXT_BANQIQ119_03824_QHOTERLPASOL_000_008","トゥシ・メキタ湖で、餌となる<Sheet(Item,27582,0)/>を使って、
+「<Sheet(Item,29583,0)/>」を、釣ってきてくださいましな～。
+あの貝殻は楽器作りに、都合がよろしいでしょな～。"
+57,"TEXT_BANQIQ119_03824_QHOTERLPASOL_000_010","おつかれさまでございまする～。
+楽器用の素材は、調達していただけましたでしょか～？"
+58,"TEXT_BANQIQ119_03824_QHOTERLPASOL_000_011","ご協力に感謝いたしまする～。
+ロンカでは、音楽は風と月を司るチャール神への、
+捧げものでございました～。"
+59,"TEXT_BANQIQ119_03824_QHOTERLPASOL_000_012","後世に物語を伝えると同時に、
+神々を称えるため、音楽を奏でたのでございましょな～。"
+60,"TEXT_BANQIQ119_03824_QHOTERLPASOL_000_013","いずれ、夜闇を取り戻した「闇の戦士」の物語も、
+わたくしどもが新たな旋律で、次代に伝えるべきでございましょ～！"

@@ -1,17 +1,20 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANIXA403_01500_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Tazel Meyean the Lettered has a mind to test his latest brainchild.
-※The crafting portion of this quest is recommended for Disciples of the Hand level 10 and above, and the battle portion for Disciples of War or Magic level 47 and above."
-1,"TEXT_BANIXA403_01500_SEQ_01","Tazel Meyean has asked you to craft for him a high-quality starboard wing control component, that he might test the revolutionary mechanism he has conceived. The requisite materials can be obtained from treasure pots found within the Ixali logging grounds.
+0,"TEXT_BANIXA403_01500_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+※本クエストは、クラフタークラス：レベル10以上、
+　バトルクラス：レベル47以上推奨です。 
 
-※Please note that the difficulty of this quest has been synced to your current level."
-2,"TEXT_BANIXA403_01500_SEQ_02","You have obtained several sets of starboard wing control component materials. Present them to Hildeyerd at the Bobbing Cork in order to gain access to the crafting facility under her care."
-3,"TEXT_BANIXA403_01500_SEQ_03","Hildeyerd has prepared the crafting facility for your use. With the materials you have obtained, synthesize a high-quality starboard wing control component, and deliver it to Tazel Meyean at Ehcatl.
+エカトル実験場の学究のタゼル・メイェアンは、冒険者に外道な依頼があるようだ。"
+1,"TEXT_BANIXA403_01500_SEQ_01","※本クエストには「<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow><UIGlow>01</UIGlow><UIForeground>01</UIForeground> レベルアジャスト」が、
+　設定されています。
 
-※In the event that the status <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Facility Access: Detailing<UIGlow>01</UIGlow><UIForeground>01</UIForeground> wears off or the synthesis ends in failure, you may try again by speaking with Hildeyerd."
-4,"TEXT_BANIXA403_01500_SEQ_04","You have delivered the starboard wing control component to Tazel Meyean, who squawks in sheer delight. The Ixal is most impressed by your ability to craft precisely to specification, and will doubtless request your services again as he conceives exciting new ideas."
+学究のタゼル・メイェアンから「<Sheet(ItemHQ,　8107,0)/>」の製作を依頼された。まずはイクサル軍伐採所に向かい、「<Sheet(EObj,2004472,0)/>」から材料を3つ入手しよう。"
+2,"TEXT_BANIXA403_01500_SEQ_02","<Sheet(EventItem,2001393,0)/>を入手した。フォールゴウドの浮かぶコルク亭にいる「ヒルデヤード」に「<Sheet(EventItem,2001393,0)/>」を渡し、製作施設の使用許可をもらおう。"
+3,"TEXT_BANIXA403_01500_SEQ_03","製作施設の準備が整った。「<Sheet(Item,　8068,0)/>」をもとに「<Sheet(ItemHQ,　8107,0)/>」を製作し、エカトル実験場の「学究のタゼル・メイェアン」に納品しよう。
+
+※バフステータス「製作施設：難関工作」が終了した場合や、「<Sheet(Item,　8068,0)/>」を失った場合は、再びヒルデヤードに話しかけましょう。バフステータスと材料が付与され、再挑戦が可能になります。"
+4,"TEXT_BANIXA403_01500_SEQ_04","学究のタゼル・メイェアンに<Sheet(ItemHQ,　8107,0)/>を納品した。敵地からの資材強奪を含むきわめて剣呑な依頼であったが、どうにか完遂することができた。これからも技術発展の犠牲にされない範囲で、彼の製作依頼に応えていこう。"
 5,"TEXT_BANIXA403_01500_SEQ_05",""
 6,"TEXT_BANIXA403_01500_SEQ_06",""
 7,"TEXT_BANIXA403_01500_SEQ_07",""
@@ -31,9 +34,10 @@ Tazel Meyean the Lettered has a mind to test his latest brainchild.
 21,"TEXT_BANIXA403_01500_SEQ_21",""
 22,"TEXT_BANIXA403_01500_SEQ_22",""
 23,"TEXT_BANIXA403_01500_SEQ_23",""
-24,"TEXT_BANIXA403_01500_TODO_00","Obtain starboard wing control component materials from treasure pots in the Ixali logging grounds."
-25,"TEXT_BANIXA403_01500_TODO_01","Present the starboard wing control component materials to Hildeyerd at Fallgourd Float."
-26,"TEXT_BANIXA403_01500_TODO_02","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Synthesize a starboard wing control component <Sheet(Addon,9,0)/><Else/>Deliver the starboard wing control component <Sheet(Addon,9,0)/> to Tazel Meyean the Lettered</If>."
+24,"TEXT_BANIXA403_01500_TODO_00","イクサル軍伐採所の<Sheet(EObj,2004472,0)/>から
+<Sheet(EventItem,2001393,0)/>を入手"
+25,"TEXT_BANIXA403_01500_TODO_01","フォールゴウドのヒルデヤードに<Sheet(EventItem,2001393,0)/>を渡す"
+26,"TEXT_BANIXA403_01500_TODO_02","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>製作手帳 蛮族クエストLv10：<Sheet(ItemHQ,　8107,0)/>を製作<Else/>学究のタゼル・メイェアンに<Sheet(ItemHQ,　8107,0)/>を納品</If>"
 27,"TEXT_BANIXA403_01500_TODO_03",""
 28,"TEXT_BANIXA403_01500_TODO_04",""
 29,"TEXT_BANIXA403_01500_TODO_05",""
@@ -55,18 +59,44 @@ Tazel Meyean the Lettered has a mind to test his latest brainchild.
 45,"TEXT_BANIXA403_01500_TODO_21",""
 46,"TEXT_BANIXA403_01500_TODO_22",""
 47,"TEXT_BANIXA403_01500_TODO_23",""
-48,"TEXT_BANIXA403_01500_TAZELMEYEAN_000_000","Squawk! Conceived new control mechanism for starboard wing, I have. Test my design, I would. To proceed, component of highest quality, I need."
-49,"TEXT_BANIXA403_01500_TAZELMEYEAN_000_010","Set of precision cogs, it is. Prepare it for me, you must."
-50,"TEXT_BANIXA403_01500_TAZELMEYEAN_000_020","Heavy-duty grease, it is. Prepare it for me, you must."
-51,"TEXT_BANIXA403_01500_TAZELMEYEAN_000_030","Set of heavy-duty joint parts, it is. Prepare it for me, you must."
-52,"TEXT_BANIXA403_01500_TAZELMEYEAN_000_040","Materials for crafting? Hoarded by Ixal of logging grounds. Inside treasure pots, they are kept. Take from no less than three, you must."
-53,"TEXT_BANIXA403_01500_TAZELMEYEAN_000_041","Attempt to stop you, screechy ones will. Knock them around, you can...but if you die, come for your bones, I won't. When materials, you have, use crafting facility at Fallgourd to make component, you can."
-54,"TEXT_BANIXA403_01500_TAZELMEYEAN_000_050","Squawk! Conceived new control mechanism for starboard wing, I have. Test my design, I would. To proceed, component of highest quality, I need. Make it, you shall."
-55,"TEXT_BANIXA403_01500_HILDEYERD_000_060","Hello again, adventurer! Come to avail yourself of our fine facility, I take it? Let's have a look at the materials you've brought."
-56,"TEXT_BANIXA403_01500_HILDEYERD_000_061","Ooh, yet another curious collection of odds and ends, and a goodly amount besides. So that they don't get in your way while you work, I'll hold on to any excess materials until you need them. The crafting space is ready for your use. You may begin whenever you like."
-57,"TEXT_BANIXA403_01500_HILDEYERD_000_100","Remember, I'm holding on to the excess materials. If the synthesis doesn't go well and you have need of them, you need but ask me."
-58,"TEXT_BANIXA403_01500_HILDEYERD_100_100","Finished crafting, have you? Well, don't keep the client waiting─run along and deliver your handiwork! Now, I doubt that you'd be so clumsy as to misplace your precious creations, but on the off chance that you do, know that I still have the excess materials in my keeping."
-59,"TEXT_BANIXA403_01500_TAZELMEYEAN_000_130","Alive and well, featherless one returns. Crafted component of my desire, you have, yes? Quickly show Tazel, you must!"
-60,"TEXT_BANIXA403_01500_TAZELMEYEAN_000_131","Squawk! Precisely to specification, it is! Test my design, now I can! My thanks, you have!"
-61,"TEXT_BANIXA403_01500_POPMESSAGE_000_200","You now have access to the crafting facility."
-62,"TEXT_BANIXA403_01500_SYSTEM_200_200","Normal-quality items crafted in the course of this quest serve no purpose and cannot be sold. It is recommended that you discard them."
+48,"TEXT_BANIXA403_01500_TAZELMEYEAN_000_000","ギェハハーッァ！
+オレ様の頭脳が、また画期的な機構を思いつきやがったッァ！
+あとは高品質な「<Sheet(ItemHQ,　8107,0)/>」があればッァ……！"
+49,"TEXT_BANIXA403_01500_TAZELMEYEAN_000_010","そう、高精度のギアさえあれば、新機構を試せるんだッァ！
+つーわけで、フォールゴウドの施設で製作してくれやッァ！
+ヒルデなんとかって女が仕切ってる例の場所だッァ！"
+50,"TEXT_BANIXA403_01500_TAZELMEYEAN_000_020","そう、高純度の潤滑油さえあれば、新機構を試せるんだッァ！
+つーわけで、フォールゴウドの施設で製作してくれやッァ！
+ヒルデなんとかって女が仕切ってる例の場所だッァ！"
+51,"TEXT_BANIXA403_01500_TAZELMEYEAN_000_030","そう、接合部の部品さえあれば、新機構を試せるんだッァ！
+つーわけで、フォールゴウドの施設で製作してくれやッァ！
+ヒルデなんとかって女が仕切ってる例の場所だッァ！"
+52,"TEXT_BANIXA403_01500_TAZELMEYEAN_000_040","材料なら「イクサル軍伐採所」の連中が貯め込んでるぜッェ！
+「<Sheet(EObj,2004472,0)/>」を開けて3つパクってこいッィ！"
+53,"TEXT_BANIXA403_01500_TAZELMEYEAN_000_041","邪魔するようなら、適当にシバいちまえッェ！
+だがよぉ、死んでも骨は拾わねえぜッェ！
+技術の発展に、犠牲はつきものだからなッァー！"
+54,"TEXT_BANIXA403_01500_TAZELMEYEAN_000_050","高品質な「<Sheet(ItemHQ,　8107,0)/>」を頼むぜッェ！
+材料は「イクサル軍伐採所」からパクってこいッィ！
+邪魔するようなら、適当にシバいちまえッェ！"
+55,"TEXT_BANIXA403_01500_HILDEYERD_000_060","こ～んに～ちは～！
+<If(PlayerParameter(4))>お嬢ちゃん<Else/>僕ちゃん</If>、また会いましたね～っ！
+ここを使いたいなら～、持ち込んだ材料を貸してごらんっ！"
+56,"TEXT_BANIXA403_01500_HILDEYERD_000_061","うんうん、たくさん運んでこれたね！
+必要な分だけ返してあげるから、もし失敗しちゃったら、
+泣かないで予備の材料を取りにおいでっ！"
+57,"TEXT_BANIXA403_01500_HILDEYERD_000_100","失敗しちゃっても、
+泣かないでお姉さんのところにまたおいでっ！"
+58,"TEXT_BANIXA403_01500_HILDEYERD_100_100","仕事が終わった子は、納品に行かなきゃだめだぞ～！
+途中でなくしちゃったりしたら、
+お姉さんのところにまた来て、作りなおせばいいからねっ！"
+59,"TEXT_BANIXA403_01500_TAZELMEYEAN_000_130","おう、オメエ生きてたかッァ！
+伐採所に送り出したときは、今生の別れかと思ったぜッェ！
+で、「<Sheet(ItemHQ,　8107,0)/>」はちゃんとできたんだろうなッァ！"
+60,"TEXT_BANIXA403_01500_TAZELMEYEAN_000_131","おう、注文どおりの出来だなコイツはッァ！
+オレ様考案による画期的機構が、ついに試せるぜッェ！
+ギェハハーッァ！"
+61,"TEXT_BANIXA403_01500_POPMESSAGE_000_200","製作の準備が整った。"
+62,"TEXT_BANIXA403_01500_SYSTEM_200_200","本クエストで製作した「NQアイテム」を所持しています。
+このアイテムは、使用することはありません。
+売却もできませんので、不用でしたら破棄してください。"

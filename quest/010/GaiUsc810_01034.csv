@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSC810_01034_SEQ_00","Sthalrhet hopes to send you out on a hunt."
-1,"TEXT_GAIUSC810_01034_SEQ_01","Sthalrhet asks you to eradicate sea wasps so that his brother will not have the opportunity to delight in them."
-2,"TEXT_GAIUSC810_01034_SEQ_02","Deliver the sea wasps you have culled to Sthalrhet."
-3,"TEXT_GAIUSC810_01034_SEQ_03","Sthalrhet savors his brother's misfortune, and is happy to give the sea wasps to anyone who is not Nortmoen."
+0,"TEXT_GAIUSC810_01034_SEQ_00","南防波壁の黒渦団員スタルレット大甲士には、調達したいものがあるようだ。"
+1,"TEXT_GAIUSC810_01034_SEQ_01","ノルトムーン大甲士の好物を横取りするよう依頼された。海蛇の巣穴に生息する「<Sheet(BNpcName,360,0)/>」を倒して「<Sheet(EventItem,2000848,0)/>」を8個入手しよう。"
+2,"TEXT_GAIUSC810_01034_SEQ_02","<Sheet(EventItem,2000848,0)/>を入手した。南防波壁に戻り、黒渦団員「スタルレット大甲士」に渡そう。"
+3,"TEXT_GAIUSC810_01034_SEQ_03","冒険者が調達した<Sheet(EventItem,2000848,0)/>を持て余したスタルレット大甲士は、部下に振る舞うことにしたようだ。彼は兄のノルトムーン大甲士が悔しがる様を想像して、悦に入っているようだが……。"
 4,"TEXT_GAIUSC810_01034_SEQ_04",""
 5,"TEXT_GAIUSC810_01034_SEQ_05",""
 6,"TEXT_GAIUSC810_01034_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSC810_01034_SEQ_21",""
 22,"TEXT_GAIUSC810_01034_SEQ_22",""
 23,"TEXT_GAIUSC810_01034_SEQ_23",""
-24,"TEXT_GAIUSC810_01034_TODO_00","Slay sea wasps and obtain their rotting umbrellas."
-25,"TEXT_GAIUSC810_01034_TODO_01","Deliver the rotting umbrellas to Sthalrhet."
+24,"TEXT_GAIUSC810_01034_TODO_00","<Sheet(BNpcName,360,0)/>から<Sheet(EventItem,2000848,0)/>を入手"
+25,"TEXT_GAIUSC810_01034_TODO_01","スタルレット大甲士に<Sheet(EventItem,2000848,0)/>を渡す"
 26,"TEXT_GAIUSC810_01034_TODO_02",""
 27,"TEXT_GAIUSC810_01034_TODO_03",""
 28,"TEXT_GAIUSC810_01034_TODO_04",""
@@ -49,11 +49,22 @@ int32,str,str
 45,"TEXT_GAIUSC810_01034_TODO_21",""
 46,"TEXT_GAIUSC810_01034_TODO_22",""
 47,"TEXT_GAIUSC810_01034_TODO_23",""
-48,"TEXT_GAIUSC810_01034_STHALRHET_000_000","You seem an adventurer in need of work, and here I am a man in need of dead sea wasps. Perhaps we might help each other."
-49,"TEXT_GAIUSC810_01034_STHALRHET_000_001","Mind you, I've no interest in chewing on the viscous vermin myself, but my brother can't seem to get enough of them, the uncouth cad."
-50,"TEXT_GAIUSC810_01034_STHALRHET_000_002","I'll not stand to watch him stuff his gob full of those prickly pests one more day! Ah, what I wouldn't give to see the look on his face when I tell him you've hunted down all his precious sea wasps! But don't expect me to reward you without proof─I'll need to see their rotting carcasses first."
-51,"TEXT_GAIUSC810_01034_DUMMY_000_000",""
-52,"TEXT_GAIUSC810_01034_SYSTEM_000_000",""
-53,"TEXT_GAIUSC810_01034_STHALRHET_000_010","I trust you're busy delivering those sea wasp souls to the deep? Just make sure you don't give their corpses to my brother!"
-54,"TEXT_GAIUSC810_01034_STHALRHET_000_020","Now this is what I deem a proper slaughter! Excellent."
-55,"TEXT_GAIUSC810_01034_STHALRHET_000_021","All that remains is to determine how to dispose of the wretched things. I suppose there must be somebody in my brigade that can stomach them..."
+48,"TEXT_GAIUSC810_01034_STHALRHET_000_000","お前、ちょっと手を貸してくれ！
+海蛇の巣穴に棲む「<Sheet(BNpcName,360,0)/>」を倒して
+珍味「<Sheet(EventItem,2000848,0)/>」を、8個用意してほしいんだ。"
+49,"TEXT_GAIUSC810_01034_STHALRHET_000_001","これがまた、信じられねぇくらいクソ不味い代物でな。
+でも、何故か兄貴は大好物らしいんだ。
+まったく舌が馬鹿になっちまってるのかね。"
+50,"TEXT_GAIUSC810_01034_STHALRHET_000_002","でも、あいつがウホウホ喜んで、
+浮クラゲを食ってる姿を想像すると、無性に腹が立ってくる！
+奴より先に、浮クラゲを狩りつくしてやるんだ！　イヒヒ。"
+51,"TEXT_GAIUSC810_01034_DUMMY_000_000","シーワスプを8匹倒して「<Sheet(EventItem,2000848,0)/>」をゲット"
+52,"TEXT_GAIUSC810_01034_SYSTEM_000_000","（★未使用／削除予定★）"
+53,"TEXT_GAIUSC810_01034_STHALRHET_000_010","どうだい、<Sheet(EventItem,2000848,0)/>は手に入ったかい？
+間違っても、ノルトムーン……兄貴に渡すんじゃねえぞ。"
+54,"TEXT_GAIUSC810_01034_STHALRHET_000_020","おうおう、ずいぶんはりきって捕ってきたなぁ。
+兄貴の悔しがる姿が目に浮かぶぜ！
+ありがとうよ！"
+55,"TEXT_GAIUSC810_01034_STHALRHET_000_021","……しかし、捕ってきてもらったはいいけど、
+どうするかな、この不味い浮クラゲ……
+よし、南防波壁を守るかわいい部下たちに振舞うか！"

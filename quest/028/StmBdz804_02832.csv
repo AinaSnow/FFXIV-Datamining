@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ804_02832_SEQ_00","This lonesome lass needs an adventurer with courage."
+0,"TEXT_STMBDZ804_02832_SEQ_00","アラギリの寂しげな美女は、冒険者に頼みたいことがあるようだ。"
 1,"TEXT_STMBDZ804_02832_SEQ_01",""
 2,"TEXT_STMBDZ804_02832_SEQ_02",""
 3,"TEXT_STMBDZ804_02832_SEQ_03",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_STMBDZ804_02832_SEQ_21",""
 22,"TEXT_STMBDZ804_02832_SEQ_22",""
 23,"TEXT_STMBDZ804_02832_SEQ_23",""
-24,"TEXT_STMBDZ804_02832_TODO_00","Survey the designated location and slay the stray gazelle for its horn."
-25,"TEXT_STMBDZ804_02832_TODO_01","Deliver the gazelle horn to the lonesome lass."
+24,"TEXT_STMBDZ804_02832_TODO_00","<Sheet(EObj,2008851,0)/>で見渡し、<Sheet(BNpcName,6280,0)/>から<Sheet(EventItem,2002346,0)/>を入手"
+25,"TEXT_STMBDZ804_02832_TODO_01","寂しげな美女に<Sheet(EventItem,2002346,0)/>を渡す"
 26,"TEXT_STMBDZ804_02832_TODO_02",""
 27,"TEXT_STMBDZ804_02832_TODO_03",""
 28,"TEXT_STMBDZ804_02832_TODO_04",""
@@ -49,14 +49,32 @@ int32,str,str
 45,"TEXT_STMBDZ804_02832_TODO_21",""
 46,"TEXT_STMBDZ804_02832_TODO_22",""
 47,"TEXT_STMBDZ804_02832_TODO_23",""
-48,"TEXT_STMBDZ804_02832_FLOWERVENDOR02832_000_000","By the look of those strange garments, I take it you're an adventurer? If you've a little time to spare, I could sure use your help."
-49,"TEXT_STMBDZ804_02832_FLOWERVENDOR02832_000_001","I was hoping to make a charm for a friend of mine, and I desperately need the horn of a gazelle. They're not easy to come by here in Ala Ghiri, and I could never hunt one on my own. For an adventurer like yourself, I bet it'd be as easy as kicking rocks."
-50,"TEXT_STMBDZ804_02832_FLOWERVENDOR02832_000_002","Normally you'd need to travel pretty far to even find a gazelles, but I've heard a stray was spotted near Miriam's Luck."
-51,"TEXT_STMBDZ804_02832_FLOWERVENDOR02832_000_003","I don't have much, but I'll gladly pay you for its horns if you can find it."
-52,"TEXT_STMBDZ804_02832_FLOWERVENDOR02832_000_004","The officers said they spotted a gazelle near Miriam's luck. I pray it's still there."
-53,"TEXT_STMBDZ804_02832_FLOWERVENDOR02832_000_010","Was it true? Was there really a gazelle up there?"
-54,"TEXT_STMBDZ804_02832_FLOWERVENDOR02832_000_011","Oh, this is wonderful. Thank you! She's going to love the charm I make with this."
-55,"TEXT_STMBDZ804_02832_FLOWERVENDOR02832_000_012","They say the horns of the gazelle are a symbol of strength, you know. She'll need it where she's headed."
-56,"TEXT_STMBDZ804_02832_FLOWERVENDOR02832_000_013","With Ala Ghiri finally liberated from the Garleans, she intends to move to Ul'dah and start a business."
-57,"TEXT_STMBDZ804_02832_FLOWERVENDOR02832_000_014","I could never do something so bold. After everything we've been through, the world seems like such a scary place. If fate should curse me to be taken by the Garleans again, I'd...I'd..."
-58,"TEXT_STMBDZ804_02832_FLOWERVENDOR02832_000_015","Never mind me. She's always been the brave one, and I know she'll be fine. Still, I'll feel better knowing she has my charm with her."
+48,"TEXT_STMBDZ804_02832_FLOWERVENDOR02832_000_000","あなた、冒険者よね？
+時間があるなら、手伝ってほしいことがあるの。"
+49,"TEXT_STMBDZ804_02832_FLOWERVENDOR02832_000_001","大事な友達にお守りを作りたいんだけど、
+それには、丈夫でしなやかな<Sheet(EventItem,2002346,0)/>が必要でね。
+私は狩りなんてできないし、代わりに獲ってきてもらいたいの。"
+50,"TEXT_STMBDZ804_02832_FLOWERVENDOR02832_000_002","<Sheet(BNpcName,6280,0)/>は、この辺りにはいないから、
+諦めてたんだけど、解放軍の人たちが話してるのを聞いたの。
+辺境地帯へと続く道に、1匹迷い込んだのがいるってね。"
+51,"TEXT_STMBDZ804_02832_FLOWERVENDOR02832_000_003","そのあたりで見渡して、「<Sheet(BNpcName,6280,0)/>」を探してみて。
+そいつから、「<Sheet(EventItem,2002346,0)/>」を手に入れてほしいの。
+報酬は出すから、お願いね。"
+52,"TEXT_STMBDZ804_02832_FLOWERVENDOR02832_000_004","辺境地帯へと続く道で見渡して、「<Sheet(BNpcName,6280,0)/>」を探してみて。
+そいつから、「<Sheet(EventItem,2002346,0)/>」を手に入れてほしいの。
+報酬は出すから、お願いね。"
+53,"TEXT_STMBDZ804_02832_FLOWERVENDOR02832_000_010","「<Sheet(EventItem,2002346,0)/>」は、獲ってきてくれたかしら？"
+54,"TEXT_STMBDZ804_02832_FLOWERVENDOR02832_000_011","まあ、とても立派な角だわ。
+これなら、力強いお守りが作れそうね。"
+55,"TEXT_STMBDZ804_02832_FLOWERVENDOR02832_000_012","大きな角は、力の象徴なのよ。
+災いは外へ、幸いは内へ。
+もうすぐこの地を離れる彼女を、きっと守ってくれるわ。"
+56,"TEXT_STMBDZ804_02832_FLOWERVENDOR02832_000_013","あの子は、この街が解放されたのを機に、
+ウルダハに渡って、商売を始めるんですって。
+そんな彼女のことを、心から尊敬して、応援しているのよ。"
+57,"TEXT_STMBDZ804_02832_FLOWERVENDOR02832_000_014","私には……外に飛び出す勇気がないの。
+辛い思いもたくさんしたけど、それにも慣れてしまったから。
+もう一度、あんな気持ちを味わうくらいなら……ここで……。"
+58,"TEXT_STMBDZ804_02832_FLOWERVENDOR02832_000_015","彼女には、私の代わりに、ウルダハで幸せになってほしい。
+そんな想いをこめて、これを贈りたかったの。
+ありがとう、冒険者さん。"

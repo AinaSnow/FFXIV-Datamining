@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNA106_01585_SEQ_00","Good help is hard to find─a sad truth that Rothe knows well."
-1,"TEXT_HEAVNA106_01585_SEQ_01","Disinclined to keep you to himself, Rothe implores you to pay a visit to Thierremont, a mason tending a gargantuan statue north of Falcon's Nest known as the Pike. Travel to the statue and see if the mason is in need of assistance."
-2,"TEXT_HEAVNA106_01585_SEQ_02","Thierremont has been tasked with the restoration of the sculpture, for which the dark bristles of deepeyes would be most useful. Slay three of the beasts and shear their bristles for the mason."
-3,"TEXT_HEAVNA106_01585_SEQ_03","With your customary flair, you dispatch several deepeyes and shear their bristles. Deliver them to Thierremont."
-4,"TEXT_HEAVNA106_01585_SEQ_04","More than a mere statue of Haldrath, the first Azure Dragoon, the Pike is a proud symbol of Ishgardian defiance. Though the work may be hard and the conditions harsh, Thierremont could ask for no greater honor than to tend the monument."
+0,"TEXT_HEAVNA106_01585_SEQ_00","ファルコンネストのロスは、冒険者にもうひとつ頼み事があるようだ。"
+1,"TEXT_HEAVNA106_01585_SEQ_01","ロスから、ティエルモンという石工の困り事を解決してほしいと頼まれた。クルザス西部高地のハルドラス像付近にいる「ティエルモン」と話そう。"
+2,"TEXT_HEAVNA106_01585_SEQ_02","ティエルモンから、石像の修繕に必要な<Sheet(EventItem,2001572,0)/>を集めてほしいと頼まれた。ハルドラス像付近にいる「<Sheet(BNpcName,3471,0)/>」を倒し、「<Sheet(EventItem,2001572,0)/>」を3つ入手しよう。"
+3,"TEXT_HEAVNA106_01585_SEQ_03","<Sheet(EventItem,2001572,0)/>を3個入手した。ハルドラス像付近にいる「ティエルモン」に、「<Sheet(EventItem,2001572,0)/>」を渡そう。"
+4,"TEXT_HEAVNA106_01585_SEQ_04","ティエルモンに<Sheet(EventItem,2001572,0)/>を渡した。渡した<Sheet(EventItem,2001572,0)/>は、ハルドラス像に付着した煤をこそげ落とすのに使用するそうだ。"
 5,"TEXT_HEAVNA106_01585_SEQ_05",""
 6,"TEXT_HEAVNA106_01585_SEQ_06",""
 7,"TEXT_HEAVNA106_01585_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_HEAVNA106_01585_SEQ_21",""
 22,"TEXT_HEAVNA106_01585_SEQ_22",""
 23,"TEXT_HEAVNA106_01585_SEQ_23",""
-24,"TEXT_HEAVNA106_01585_TODO_00","Speak with Thierremont at the Pike."
-25,"TEXT_HEAVNA106_01585_TODO_01","Slay deepeyes and obtain dark bristles."
-26,"TEXT_HEAVNA106_01585_TODO_02","Deliver the bristles to Thierremont."
+24,"TEXT_HEAVNA106_01585_TODO_00","ティエルモンと話す"
+25,"TEXT_HEAVNA106_01585_TODO_01","<Sheet(BNpcName,3471,0)/>から<Sheet(EventItem,2001572,0)/>を入手"
+26,"TEXT_HEAVNA106_01585_TODO_02","ティエルモンに<Sheet(EventItem,2001572,0)/>を渡す"
 27,"TEXT_HEAVNA106_01585_TODO_03",""
 28,"TEXT_HEAVNA106_01585_TODO_04",""
 29,"TEXT_HEAVNA106_01585_TODO_05",""
@@ -49,18 +49,43 @@ int32,str,str
 45,"TEXT_HEAVNA106_01585_TODO_21",""
 46,"TEXT_HEAVNA106_01585_TODO_22",""
 47,"TEXT_HEAVNA106_01585_TODO_23",""
-48,"TEXT_HEAVNA106_01585_ROTHE_000_000","You're a dab hand at warcraft, I can tell. Not that I've any skill at arms to speak of, mind, but it doesn't take an expert to recognize expertise."
-49,"TEXT_HEAVNA106_01585_ROTHE_000_001","Be a waste to keep you to myself when there're others out what need help same as me, so if you're keen to keep on doin' what you've done, I'd ask you to head north to the Pike─the bloody huge statue out in the wastes, if you've never been."
-50,"TEXT_HEAVNA106_01585_ROTHE_000_002","Mason by the name of Thierremont is out there tendin' to the thing. Good man, Thierremont, but I reckon he's taken on too much work for one. Might be there's somethin' you can do for him."
-51,"TEXT_HEAVNA106_01585_ROTHE_000_003","The Pike's due north of here. Just keep goin' and you'll see it in due time."
-52,"TEXT_HEAVNA106_01585_THIERREMONT_000_010","Hail to you, traveler! What brings you out this way?
-...Hm? Foreman Rothe bid you assist me? Well, far be it from me to turn down a helping hand!"
-53,"TEXT_HEAVNA106_01585_THIERREMONT_000_011","I've been tasked with the restoration of this sculpture. Five years of neglect have not been kind, to say the least."
-54,"TEXT_HEAVNA106_01585_THIERREMONT_000_012","Fortunately, I've just the thing for it─rather, those deepeyes have it. If you could slay three and bring me their bristles, I would be in your debt."
-55,"TEXT_HEAVNA106_01585_THIERREMONT_000_013","My work is far from finished, but if you could shear the bristles from three deepeyes for me, it would be a tremendous help."
-56,"TEXT_HEAVNA106_01585_THIERREMONT_000_020","There you are. Have you the bristles?"
-57,"TEXT_HEAVNA106_01585_THIERREMONT_000_021","Ahhh, feel how coarse that is? That's why they're perfect for scrubbing the soot from this statue."
-58,"TEXT_HEAVNA106_01585_THIERREMONT_000_022","Beautiful, isn't it? The spitting image of Haldrath, first of the Azure Dragoons and one of Ishgard's founding fathers..."
-59,"TEXT_HEAVNA106_01585_THIERREMONT_000_023","A symbol of everything the Dravanians despise, which is why they've taken to searing it with dragon fire every time they pass by."
-60,"TEXT_HEAVNA106_01585_THIERREMONT_000_024","But no longer will we suffer this desecration of our nation's hero. Soon this statue will be as it once was─a proud, shining testament to the determination of Ishgard, and a message to the heretics that we have returned."
-61,"TEXT_HEAVNA106_01585_THIERREMONT_000_025","The work may be hard and the conditions harsh, but as a proud Ishgardian, I could ask for no greater honor."
+48,"TEXT_HEAVNA106_01585_ROTHE_000_000","さては<If(PlayerParameter(4))>姉ちゃん<Else/>兄ちゃん</If>、かなりの手練れだなぁ？
+オレは戦いに関しちゃ素人だが、それでも<If(PlayerParameter(4))>姉ちゃん<Else/>兄ちゃん</If>が、
+並みじゃないことくらいはわかるぜぇ。"
+49,"TEXT_HEAVNA106_01585_ROTHE_000_001","その腕を見込んで、もういっこ頼みてぇことがあるんさぁ。
+ファルコンネストを出て、少し北に進んだ場所になぁ、
+「ハルドラス像」って大きな石像があるんさぁ。"
+50,"TEXT_HEAVNA106_01585_ROTHE_000_002","その足下に「ティエルモン」って名の石工がおるから、
+やっこさんの困り事を、解決してやってほしいんさぁ。
+<If(PlayerParameter(4))>姉ちゃん<Else/>兄ちゃん</If>や、頼んだぞぉ！"
+51,"TEXT_HEAVNA106_01585_ROTHE_000_003","「ハルドラス像」の足下にいる、
+「ティエルモン」の困り事を、解決してやってほしいんさぁ。
+<If(PlayerParameter(4))>姉ちゃん<Else/>兄ちゃん</If>や、頼んだぞぉ！"
+52,"TEXT_HEAVNA106_01585_THIERREMONT_000_010","おや……冒険者さん？
+ロス親方に頼まれて、手伝いに来てくれたんですか？
+ああ、これは助かりました！"
+53,"TEXT_HEAVNA106_01585_THIERREMONT_000_011","私は石工として、この巨大な石像の修繕を任されたのですが、
+これがなかなかの大仕事でしてね。"
+54,"TEXT_HEAVNA106_01585_THIERREMONT_000_012","周辺に出没する「<Sheet(BNpcName,3471,0)/>」を倒して、
+「<Sheet(EventItem,2001572,0)/>」を3体分、集めて来てはもらえませんか？
+石像の修繕に、どうしても必要なのです。"
+55,"TEXT_HEAVNA106_01585_THIERREMONT_000_013","周辺に出没する「<Sheet(BNpcName,3471,0)/>」を倒して、
+「<Sheet(EventItem,2001572,0)/>」を3体分、集めて来てはもらえませんか？
+石像の修繕に、どうしても必要なのです。"
+56,"TEXT_HEAVNA106_01585_THIERREMONT_000_020","周辺に出没する「<Sheet(BNpcName,3471,0)/>」を倒して、
+「<Sheet(EventItem,2001572,0)/>」を3体分、集めて来てはもらえませんか？
+石像の修繕に、どうしても必要なのです。"
+57,"TEXT_HEAVNA106_01585_THIERREMONT_000_021","ああ、これです、これです！
+このゴワゴワとした「<Sheet(EventItem,2001572,0)/>」があれば、
+石像の表面に付着した、煤をこそげ落とせます！"
+58,"TEXT_HEAVNA106_01585_THIERREMONT_000_022","……この石像は、
+イシュガルドの建国の英雄にして、史上初の「蒼の竜騎士」……
+ハルドラス様を象ったもの。"
+59,"TEXT_HEAVNA106_01585_THIERREMONT_000_023","ドラゴン族にとっては、目の敵にされる存在のようで、
+炎のブレスを吹かれたことがあったようです。
+おかげで、煤が凍り着いておりまして……。"
+60,"TEXT_HEAVNA106_01585_THIERREMONT_000_024","「ハルドラス像」は、イシュガルドの民の誇り。
+これを綺麗に磨き上げれば、兵たちの士気も高まりますし、
+何より異端者に、我々が戻ってきたことを示すことができます。"
+61,"TEXT_HEAVNA106_01585_THIERREMONT_000_025","だからこそ、寒くて辛い作業ではありますが、
+私は石工として、最高の仕事をしようと思うのですよ。"

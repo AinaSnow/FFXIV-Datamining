@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB707_00902_SEQ_00","Arthurioux is eager to ask a service on a cold and windy night."
-1,"TEXT_GAIUSB707_00902_SEQ_01","Wincing at the howl of the wind, Ser Arthurioux instructs you to ensure that none of the braziers around the camp have gone out. Use smoldering coals to light any unlit brazier."
-2,"TEXT_GAIUSB707_00902_SEQ_02","All the dark braziers are now aglow, and grateful men will soon warm their frozen hands and read their letters from home. Report to Ser Arthurioux."
-3,"TEXT_GAIUSB707_00902_SEQ_03","Ser Arthurioux is pleased to hear that, for the first windy night in some time, every brazier at Camp Dragonhead is lit. He may find his duty a dull one, but you have a sneaking suspicion that he is well content to drowse by the fire."
+0,"TEXT_GAIUSB707_00902_SEQ_00","キャンプ・ドラゴンヘッドのアルチュリューは、冒険者に頼みたいことがあるようだ。"
+1,"TEXT_GAIUSB707_00902_SEQ_01","アルチュリューは、消えてしまったかがり火に火を点けてほしいという。「<Sheet(EObj,2002126,0)/>」に「<Sheet(EventItem,2000706,0)/>」を使い、火を点けよう。"
+2,"TEXT_GAIUSB707_00902_SEQ_02","すべての<Sheet(EObj,2002126,0)/>に火を点けた。キャンプ・ドラゴンヘッドの「アルチュリュー」に報告しよう。"
+3,"TEXT_GAIUSB707_00902_SEQ_03","極寒の地では、明かりにもなり、暖も取れるかがり火は大事なものであるという。火の番は重要任務だというアルチュリューだが、地味な任務であることには不満を持っているようだ。"
 4,"TEXT_GAIUSB707_00902_SEQ_04",""
 5,"TEXT_GAIUSB707_00902_SEQ_05",""
 6,"TEXT_GAIUSB707_00902_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSB707_00902_SEQ_21",""
 22,"TEXT_GAIUSB707_00902_SEQ_22",""
 23,"TEXT_GAIUSB707_00902_SEQ_23",""
-24,"TEXT_GAIUSB707_00902_TODO_00","Light braziers using smoldering coals."
-25,"TEXT_GAIUSB707_00902_TODO_01","Report to Arthurioux."
+24,"TEXT_GAIUSB707_00902_TODO_00","<Sheet(EObj,2002126,0)/>に<Sheet(EventItem,2000706,0)/>を使う"
+25,"TEXT_GAIUSB707_00902_TODO_01","アルチュリューに報告"
 26,"TEXT_GAIUSB707_00902_TODO_02",""
 27,"TEXT_GAIUSB707_00902_TODO_03",""
 28,"TEXT_GAIUSB707_00902_TODO_04",""
@@ -49,18 +49,27 @@ int32,str,str
 45,"TEXT_GAIUSB707_00902_TODO_21",""
 46,"TEXT_GAIUSB707_00902_TODO_22",""
 47,"TEXT_GAIUSB707_00902_TODO_23",""
-48,"TEXT_GAIUSB707_00902_ARTHURIOUX_000_000","Truth is, I used to be galled when I pulled fire duty, but I've come to thank me lucky stars. In Coerthas, dull and warm beats dull and cold any time. I've no complaints about the warmth, to be certain!"
-49,"TEXT_GAIUSB707_00902_ARTHURIOUX_000_001","We're shorthanded here, though. So dim have our lights grown, 'tis no wonder a patrol mistook the wisps for the stronghold. The north wind blows hard tonight─will you patrol the braziers and light those that are dark?"
-50,"TEXT_GAIUSB707_00902_ARTHURIOUX_000_002","Brrr, listen to that shriek! Sometimes, I swear that the very climes have declared war against us. Here, take this bit of live coal to light the braziers with."
-51,"TEXT_GAIUSB707_00902_DUMMY_000_010",""
-52,"TEXT_GAIUSB707_00902_DUMMY_000_020",""
-53,"TEXT_GAIUSB707_00902_DUMMY_000_030",""
-54,"TEXT_GAIUSB707_00902_DUMMY_000_040",""
-55,"TEXT_GAIUSB707_00902_DUMMY_000_050",""
+48,"TEXT_GAIUSB707_00902_ARTHURIOUX_000_000","火の番なんてさぁ……地味でヤだなーって思ってたけど、
+外を巡回させられるのに比べりゃ、幸せってもんだぜ。
+ふ～あったけぇ～。"
+49,"TEXT_GAIUSB707_00902_ARTHURIOUX_000_001","風が荒れたとき、かがり火を点検するのが面倒だけど。
+……そうだ、あんた、砦内のかがり火を見てまわって、
+消えてるのがあったら、火を点けてきてくれねぇか？"
+50,"TEXT_GAIUSB707_00902_ARTHURIOUX_000_002","少し前にすっげぇ寒風が吹いてさぁ……頼むよ。
+火を点けるには、この「<Sheet(EventItem,2000706,0)/>」を使ってくれ。
+じゃ、よろしくな。う～さみぃさみぃ。"
+51,"TEXT_GAIUSB707_00902_DUMMY_000_010","eobj消えた松明にアクセスして火をつける。1個目"
+52,"TEXT_GAIUSB707_00902_DUMMY_000_020","eobj消えた松明にアクセスして火をつける。2個目"
+53,"TEXT_GAIUSB707_00902_DUMMY_000_030","eobj消えた松明にアクセスして火をつける。3個目"
+54,"TEXT_GAIUSB707_00902_DUMMY_000_040","eobj消えた松明にアクセスして火をつける。4個目"
+55,"TEXT_GAIUSB707_00902_DUMMY_000_050","eobj消えた松明にアクセスして火をつける。5個目"
 56,"TEXT_GAIUSB707_00902_DUMMYTODO_000_010",""
 57,"TEXT_GAIUSB707_00902_DUMMYTODO_000_020",""
 58,"TEXT_GAIUSB707_00902_DUMMYTODO_000_030",""
 59,"TEXT_GAIUSB707_00902_DUMMYTODO_000_040",""
-60,"TEXT_GAIUSB707_00902_DUMMYTODO_000_050",""
-61,"TEXT_GAIUSB707_00902_ARTHURIOUX_000_060","All done? Come closer to the fire─you're looking a mite blue. It gladdens my heart to know that all the braziers are lit tonight, giving freely of their light and warmth."
-62,"TEXT_GAIUSB707_00902_ARTHURIOUX_000_061","Yes, dull and warm, and of some import. And as I've said, I've no complaints about the warmth, not a one."
+60,"TEXT_GAIUSB707_00902_DUMMYTODO_000_050","（★未使用／削除予定★）"
+61,"TEXT_GAIUSB707_00902_ARTHURIOUX_000_060","終わったみたいだな、ありがとよ。
+明かりにもなるし、暖もとれるかがり火は、
+この風雪の中じゃ、欠かすことのできないものさ。"
+62,"TEXT_GAIUSB707_00902_ARTHURIOUX_000_061","火の番ってのは、案外、重要任務なんだぜ。
+……地味だけどな。ふ～あったけぇ～。"

@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ214_02686_SEQ_00","Aranami requires the assistance of an intimidating <If(PlayerParameter(4))>woman<Else/>man</If>."
+0,"TEXT_STMBDZ214_02686_SEQ_00","筋違砦のアラナミは、協力してほしいことがあるようだ。"
 1,"TEXT_STMBDZ214_02686_SEQ_01",""
 2,"TEXT_STMBDZ214_02686_SEQ_02",""
 3,"TEXT_STMBDZ214_02686_SEQ_03",""
@@ -25,10 +25,10 @@ int32,str,str
 21,"TEXT_STMBDZ214_02686_SEQ_21",""
 22,"TEXT_STMBDZ214_02686_SEQ_22",""
 23,"TEXT_STMBDZ214_02686_SEQ_23",""
-24,"TEXT_STMBDZ214_02686_TODO_00","Speak with Umibeta."
-25,"TEXT_STMBDZ214_02686_TODO_01","Take a /battlestance against the watchguard."
-26,"TEXT_STMBDZ214_02686_TODO_02","Report to Umibeta."
-27,"TEXT_STMBDZ214_02686_TODO_03","Report to Aranami."
+24,"TEXT_STMBDZ214_02686_TODO_00","ウミベタと話す"
+25,"TEXT_STMBDZ214_02686_TODO_01","見張り役の海賊に「戦いに備える」をする"
+26,"TEXT_STMBDZ214_02686_TODO_02","ウミベタに報告"
+27,"TEXT_STMBDZ214_02686_TODO_03","アラナミに報告"
 28,"TEXT_STMBDZ214_02686_TODO_04",""
 29,"TEXT_STMBDZ214_02686_TODO_05",""
 30,"TEXT_STMBDZ214_02686_TODO_06",""
@@ -49,23 +49,50 @@ int32,str,str
 45,"TEXT_STMBDZ214_02686_TODO_21",""
 46,"TEXT_STMBDZ214_02686_TODO_22",""
 47,"TEXT_STMBDZ214_02686_TODO_23",""
-48,"TEXT_STMBDZ214_02686_ARANAMI_000_000","Come here. I need you to do something for us. While it is by no means an exciting task, it is one of the more important things you could help us with."
-49,"TEXT_STMBDZ214_02686_ARANAMI_000_001","My comrade Umibeta will explain everything to you. Please go find him. He should be at the Coral Banquet."
-50,"TEXT_STMBDZ214_02686_ARANAMI_000_002","Head over to the Coral Banquet and speak with Umibeta. He will fill you in on the details."
-51,"TEXT_STMBDZ214_02686_UMIBETA_000_010","Aranami sent you? Well, it's about time."
-52,"TEXT_STMBDZ214_02686_UMIBETA_000_011","One of my men has been derelict in his duties. He has been allowing vessels to pass through the Ruby Sea free of charge. We suspect he is either a coward that is afraid of crossing swords with another...or he is taking bribes."
-53,"TEXT_STMBDZ214_02686_UMIBETA_000_012","We shall find out soon enough. You are to pose as a foreign merchant and approach the watchguard I speak of, who is stationed in the Shoal Rock area to the southeast of here, and threaten him."
-54,"TEXT_STMBDZ214_02686_UMIBETA_000_013","You are under no circumstances to harm him, however. Simply take a <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Battle Stance<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. I suspect that should be enough to elicit a reaction from him."
-55,"TEXT_STMBDZ214_02686_UMIBETA_000_014","We need for you to go to the Shoal Rock area to the southeast of here. Approach our watchguard, then take a <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Battle Stance<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and observe his reaction."
-56,"TEXT_STMBDZ214_02686_ARANAMI_000_020","I presume Umibeta has informed you of all you need to know? Good. We are counting on you."
-57,"TEXT_STMBDZ214_02686_WATCHMAN02686_000_030","All clear over here! Huh? As you can see, I am rather busy at the moment. If there is something you need, come ask me later."
-58,"TEXT_STMBDZ214_02686_WATCHMAN02686_000_031","Y-You want a fight? Th-Then, it is a fight you will get!"
-59,"TEXT_STMBDZ214_02686_WATCHMAN02686_000_032","<sigh> I have not the time to deal with you or your silly antics! Begone from my sight!"
-60,"TEXT_STMBDZ214_02686_UMIBETA_000_040","So tell me, what did our watchguard do when you pretended to attack him?"
-61,"TEXT_STMBDZ214_02686_UMIBETA_000_041","He scuttled off, shouting for reinforcements? Excellent."
-62,"TEXT_STMBDZ214_02686_UMIBETA_000_042","Ah, you must be confused. There is something I must confess. The real reason I asked you to confront him was not because he was being lax in his duties, but rather to test him."
-63,"TEXT_STMBDZ214_02686_UMIBETA_000_043","Whenever there is threat of an attack upon the Coral Banquet, our men stationed there are trained to drop everything and dash to the headquarters to call for reinforcements. We needed to ensure he would follow protocol."
-64,"TEXT_STMBDZ214_02686_UMIBETA_000_044","Had I told you the truth from the beginning, you would have held back and not come across nearly as menacing as you did. Haha! Thank you for your help. When you return to Aranami, please inform him that the recruit passed the test."
-65,"TEXT_STMBDZ214_02686_UMIBETA_000_045","I must apologize for lying to you but I hope you realize it was more out of necessity than anything else. You performed most remarkably, and for that you have our thanks."
-66,"TEXT_STMBDZ214_02686_ARANAMI_000_050","Welcome back. Training was a success, I take it. Earlier, one of our new watchguard came sprinting to us, shouting about an attack until he was blue in the face!"
-67,"TEXT_STMBDZ214_02686_ARANAMI_000_051","Bahaha! I hope one day you can teach me how to be so intimidating."
+48,"TEXT_STMBDZ214_02686_ARANAMI_000_000","おや、ちょうどいいところに声をかけてくれた。
+余所者のアンタに、ひとつ、頼みがある。"
+49,"TEXT_STMBDZ214_02686_ARANAMI_000_001","海賊衆には頼めない用件なものでね。
+詳しい話は、珊瑚台の「ウミベタ」から聞いてくれ。"
+50,"TEXT_STMBDZ214_02686_ARANAMI_000_002","詳しい話は、珊瑚台にいる「ウミベタ」から聞いてくれ。
+手間をかけるが、よろしく頼む。"
+51,"TEXT_STMBDZ214_02686_UMIBETA_000_010","アラナミに言われて、来てくれたのか。
+確かに、お前さんなら、頼りになりそうだ！"
+52,"TEXT_STMBDZ214_02686_UMIBETA_000_011","実は、部下が、帆別銭を払わない異国船を、
+故意に見逃しているらしくってな……。
+反撃にびびってるのか、まったく軟弱な輩だ……。"
+53,"TEXT_STMBDZ214_02686_UMIBETA_000_012","そこで、お前さんに、異国の船乗りを装い、
+沖之岩の南東にいる「見張り役の海賊」を脅してみてほしい。
+奴が、どんな反応をするのか、確かめてみたいのでな。"
+54,"TEXT_STMBDZ214_02686_UMIBETA_000_013","ただし、下手に出たら、なめられて、襲われかねない。
+「戦いに備え」て見せて威嚇し、震えあがらせてやれ！"
+55,"TEXT_STMBDZ214_02686_UMIBETA_000_014","沖之岩の南東にいる「見張り役の海賊」に、
+「戦いに備え」て見せて威嚇し、震えあがらせてやれ！"
+56,"TEXT_STMBDZ214_02686_ARANAMI_000_020","ウミベタから、話は聞けたか？
+アンタにしかできない仕事だ、頼んだぞ。"
+57,"TEXT_STMBDZ214_02686_WATCHMAN02686_000_030","異常な～し！
+む、仕事中だ、邪魔しないでくれよ。"
+58,"TEXT_STMBDZ214_02686_WATCHMAN02686_000_031","や、や、や、やろうってのか！？
+す、す、す、すぐにみんなに知らせねえと！！"
+59,"TEXT_STMBDZ214_02686_WATCHMAN02686_000_032","なんだ、なんだ、そんなに構ってほしいのか？
+俺はお仕事中で、お前の相手はしてやれねえの。"
+60,"TEXT_STMBDZ214_02686_UMIBETA_000_040","おう、脅してきてくれたか。
+それで、見張り役は、どんな様子だったか？"
+61,"TEXT_STMBDZ214_02686_UMIBETA_000_041","なるほど、勢いよく逃げていったか……。
+よし、ちゃんと正しい対応をしてるようだな。"
+62,"TEXT_STMBDZ214_02686_UMIBETA_000_042","おっと、すまない。
+実は、これはヤツの抜き打ち訓練だったのさ。"
+63,"TEXT_STMBDZ214_02686_UMIBETA_000_043","珊瑚台が敵襲を受けた場合は、
+筋違砦に援軍を要請することになっててな。
+だから、その場から逃げるのは、正しい対処なんだ。"
+64,"TEXT_STMBDZ214_02686_UMIBETA_000_044","本気で脅してもらいたかったんで、伏せてたんだ。
+おかげで訓練は大成功だったよ、ありがとな！
+「アラナミ」にも、この結果を伝えてくれ。"
+65,"TEXT_STMBDZ214_02686_UMIBETA_000_045","本気で威嚇してもらいたかったんで、伏せてたんだ。
+おかげで訓練は大成功だったよ、ありがとな！
+「アラナミ」にも、この結果を伝えてくれ。"
+66,"TEXT_STMBDZ214_02686_ARANAMI_000_050","お帰り、訓練はうまくいったようだな。
+さきほど見張り役が真っ青な顔で、駆け込んできたぞ！
+いったい、どんな脅かし方をしたのやら、気になるぜ。"
+67,"TEXT_STMBDZ214_02686_ARANAMI_000_051","おかげで、いい訓練ができたよ。
+騙す形になっちまって、申し訳なかった！
+思うところもあるだろうが、この礼で納めてくれ。"

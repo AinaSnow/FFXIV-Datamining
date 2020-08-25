@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ420_02743_SEQ_00","Gyoboku of Yuzuka Manor is looking for an able adventurer to aid in an errand."
+0,"TEXT_STMBDZ420_02743_SEQ_00","ユヅカ代官屋敷のギョボクは、腕利きのヒトを探しているようだ。"
 1,"TEXT_STMBDZ420_02743_SEQ_01",""
 2,"TEXT_STMBDZ420_02743_SEQ_02",""
 3,"TEXT_STMBDZ420_02743_SEQ_03",""
@@ -25,10 +25,10 @@ int32,str,str
 21,"TEXT_STMBDZ420_02743_SEQ_21",""
 22,"TEXT_STMBDZ420_02743_SEQ_22",""
 23,"TEXT_STMBDZ420_02743_SEQ_23",""
-24,"TEXT_STMBDZ420_02743_TODO_00","Use the Namazu neck bell and search for the terrified Namazu."
-25,"TEXT_STMBDZ420_02743_TODO_01","Survey the destination and slay any pescatarians you find."
-26,"TEXT_STMBDZ420_02743_TODO_02","Speak with the terrified Namazu."
-27,"TEXT_STMBDZ420_02743_TODO_03","Report back to Gyoboku."
+24,"TEXT_STMBDZ420_02743_TODO_00","<Sheet(EventItem,2002200,0)/>を使い、怯えたナマズオを探す"
+25,"TEXT_STMBDZ420_02743_TODO_01","<Sheet(EObj,2008127,0)/>で見渡して<Sheet(BNpcName,5802,0)/>を討伐"
+26,"TEXT_STMBDZ420_02743_TODO_02","怯えたナマズオと話す"
+27,"TEXT_STMBDZ420_02743_TODO_03","ギョボクに報告"
 28,"TEXT_STMBDZ420_02743_TODO_04",""
 29,"TEXT_STMBDZ420_02743_TODO_05",""
 30,"TEXT_STMBDZ420_02743_TODO_06",""
@@ -49,21 +49,45 @@ int32,str,str
 45,"TEXT_STMBDZ420_02743_TODO_21",""
 46,"TEXT_STMBDZ420_02743_TODO_22",""
 47,"TEXT_STMBDZ420_02743_TODO_23",""
-48,"TEXT_STMBDZ420_02743_SYSTEM_000_000","Should you choose to undertake this quest, you will receive no guidance from the journal or the duty list. You will need to read the text carefully and decipher the clues to determine your next course of action."
-49,"TEXT_STMBDZ420_02743_GYOBOKU_000_001","Oh yes, you will do nicely. Quite nicely. Please, you must help. My brother set out fishing and should have been back bells ago, but has yet to return."
-50,"TEXT_STMBDZ420_02743_GYOBOKU_000_002","I went looking for him and found his bell far, far to the north and east─on the opposite shore of the One River. No Namazu would ever be so careless as to drop their bell. It is the most important of all our possessions. I fear something must have happened to him. Something horrible, something dreadful."
-51,"TEXT_STMBDZ420_02743_GYOBOKU_000_003","We are always with our bells, and we bear a strong connection with them. Indeed, if you ring a Namazu's bell near its owner, it will sound a most beautiful note. Please, use my brother's bell to search for him!"
-52,"TEXT_STMBDZ420_02743_GYOBOKU_100_003","I looked downstream from where I found it, but there was no sign of him. I'd like you to search upstream, where that enormous wall lies."
-53,"TEXT_STMBDZ420_02743_SYSTEM_000_004","Sound the Namazu neck bell and use its ring to search for the terrified Namazu."
-54,"TEXT_STMBDZ420_02743_SYSTEM_000_005","I found my brother's bell far, far to the north and east─on the opposite shore of the One River. I looked downstream from where I found it, but there was no sign of him. I'd like you to search upstream, where that enormous wall lies."
-55,"TEXT_STMBDZ420_02743_SYSTEM_000_010","The bell rings faintly. Its owner is likely very far away."
-56,"TEXT_STMBDZ420_02743_SYSTEM_000_011","The bell rings normally. Its owner is likely not far away."
-57,"TEXT_STMBDZ420_02743_SYSTEM_000_012","The bell rings shrill and clear. Its owner is likely very nearby."
-58,"TEXT_STMBDZ420_02743_GYOBOKUBROTHER02743_000_020","Wh-Who are you? Please d-don't hurt me."
-59,"TEXT_STMBDZ420_02743_GYOBOKUBROTHER02743_000_021","Y-You have my bell! Wherever did you find it!?"
-60,"TEXT_STMBDZ420_02743_GYOBOKUBROTHER02743_000_022","You have done this much, perhaps you are willing to do a little more. There is a pack of pescatarians prowling nearby, and the mere thought of them has me too frightened to move. Could you patrol the area and put down any you might come across?"
-61,"TEXT_STMBDZ420_02743_GYOBOKUBROTHER02743_000_023","There is a pack of pescatarians prowling nearby, and the mere thought of them has me too frightened to move. Could you patrol the area and put down any you might come across?"
-62,"TEXT_STMBDZ420_02743_GYOBOKUBROTHER02743_000_025","Thank you, oh, thank you! I am forever in your debt. Now I can finally make my way back to the manor."
-63,"TEXT_STMBDZ420_02743_GYOBOKU_000_030","My brother returned safely, all thanks to you. You have my deepest gratitude, and his."
-64,"TEXT_STMBDZ420_02743_GYOBOKU_000_031","Namazu are a favorite food of pescatarians. More of my friends than I care to admit have found their way into a pescatarian belly."
-65,"TEXT_STMBDZ420_02743_GYOBOKU_000_032","But by your hand, that fate did not find my brother this day. Neither he nor I will ever be able to repay the debt we owe you."
+48,"TEXT_STMBDZ420_02743_SYSTEM_000_000","本クエストは「探索型クエスト」です。
+進行中、ジャーナルや目的リストや地図に、
+ヒントが表示されない場合があります。"
+49,"TEXT_STMBDZ420_02743_GYOBOKU_000_001","アンタ、腕っききっぺか？
+助けてくれっぺよい！
+実は、弟が漁に出たきり、戻ってこないんだっぺよい！"
+50,"TEXT_STMBDZ420_02743_GYOBOKU_000_002","アイツの鈴が、「東の水辺」で見つかったんだっぺよい。
+こんな大事なもんを落としちまうなんて、
+なにかあったに違いないんだっぺよい！"
+51,"TEXT_STMBDZ420_02743_GYOBOKU_000_003","肌身離さず付けてた鈴だから、結びつきも強いんだっぺよい。
+持ち主の近くで鳴らすと、キレイな音がするから、
+こいつを使って、弟を探してほしいんだっぺよい！"
+52,"TEXT_STMBDZ420_02743_GYOBOKU_100_003","鈴が落ちてた下流の方は見回ったから、もっと上流……
+でっかい壁のあたりや、対岸を探してほしいっぺよい！
+よろしく頼むっぺよい！"
+53,"TEXT_STMBDZ420_02743_SYSTEM_000_004","「<Sheet(EventItem,2002200,0)/>」を使用し、
+鈴の音の響きをヒントに、「怯えたナマズオ」を探しましょう。"
+54,"TEXT_STMBDZ420_02743_SYSTEM_000_005","弟の鈴は、「東の水辺」で見つかったんだっぺよい。
+鈴が落ちてた下流の方は見回ったから、もっと上流……
+でっかい壁のあたりや、対岸を探してほしいっぺよい！"
+55,"TEXT_STMBDZ420_02743_SYSTEM_000_010","ぼんやりとした鈴の音が響いた。
+持ち主は遠くにいるようだ。"
+56,"TEXT_STMBDZ420_02743_SYSTEM_000_011","鈴の音が響いた。
+持ち主とは、それほど離れていないようだ。"
+57,"TEXT_STMBDZ420_02743_SYSTEM_000_012","涼やかな鈴の音が響いた。
+持ち主が近くにいるようだ。"
+58,"TEXT_STMBDZ420_02743_GYOBOKUBROTHER02743_000_020","ど、どちらさまっぺか……？"
+59,"TEXT_STMBDZ420_02743_GYOBOKUBROTHER02743_000_021","オイラの鈴だっぺよ！
+どこでこれを？"
+60,"TEXT_STMBDZ420_02743_GYOBOKUBROTHER02743_000_022","そういうことなら、頼みがあるっぺよ！
+「<Sheet(BNpcName,5802,0)/>」が近くにいて、身動きがとれないっぺな！
+「見渡し」たらきっといるはずだから、やっつけてほしいっぺよ！"
+61,"TEXT_STMBDZ420_02743_GYOBOKUBROTHER02743_000_023","「<Sheet(BNpcName,5802,0)/>」が近くにいて、身動きがとれないっぺな！
+「見渡し」たらきっといるはずだから、やっつけてほしいっぺよ！"
+62,"TEXT_STMBDZ420_02743_GYOBOKUBROTHER02743_000_025","かたじけないっぺよ。
+これで安心して屋敷に帰れるっぺな！"
+63,"TEXT_STMBDZ420_02743_GYOBOKU_000_030","無事に弟が戻ってきたっぺよい！
+助かったっぺよい！"
+64,"TEXT_STMBDZ420_02743_GYOBOKU_000_031","<Sheet(BNpcName,5802,0)/>は、オイラたちナマズオが好物なもんで、
+多くの仲間が食われてきたんだっぺよい……。"
+65,"TEXT_STMBDZ420_02743_GYOBOKU_000_032","腕っききのアンタがいてくれて、弟も命拾いしたっぺよい！
+本当にありがとっぺよい！"

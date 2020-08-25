@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSGLD021_00610_SEQ_00","Serendipity would like to officially begin your training as a goldsmith."
-1,"TEXT_CLSGLD021_00610_SEQ_01","For your first lesson, the guildmaster bids you craft for her a single copper ingot. If needed, you may purchase the copper ore from Aistan, though wind shards must be obtained elsewhere."
-2,"TEXT_CLSGLD021_00610_SEQ_02","Although Serendipity is pleased with your copper ingot, her assistant, Gigi, declares it unfit to bear night soil. Nevertheless, the guildmaster declares that you have talent, and that you should return once you have gained more experience.
+0,"TEXT_CLSGLD021_00610_SEQ_00","彫金師ギルドへの入門を認められた冒険者。受け取ったウェザードチェーサーハンマーを装備して、セレンディピティーに声をかけよう。"
+1,"TEXT_CLSGLD021_00610_SEQ_01","ハンマーを使い、<Sheet(Item,5062,0)/>をひとつ作ってくるよう言われた。<Sheet(Item,5062,0)/>の材料となる「<Sheet(Item,5106,0)/>」は彫金師ギルド入り口の彫金師から購入できる。「<Sheet(Item,5062,0)/>」をひとつ製作し、彫金師ギルドの「セレンディピティー」に渡そう。"
+2,"TEXT_CLSGLD021_00610_SEQ_02","ハンマーを使い、<Sheet(Item,5062,0)/>を製作することができた冒険者。更に磨きのかかった彫金師になるため修行をしよう。
 
-※The next goldsmith quest will be available from Serendipity upon reaching level 5."
+※彫金師のレベルが5以上になると、セレンディピティーから次の彫金師クエストを受注することができます。"
 3,"TEXT_CLSGLD021_00610_SEQ_03",""
 4,"TEXT_CLSGLD021_00610_SEQ_04",""
 5,"TEXT_CLSGLD021_00610_SEQ_05",""
@@ -27,7 +27,7 @@ int32,str,str
 21,"TEXT_CLSGLD021_00610_SEQ_21",""
 22,"TEXT_CLSGLD021_00610_SEQ_22",""
 23,"TEXT_CLSGLD021_00610_SEQ_23",""
-24,"TEXT_CLSGLD021_00610_TODO_00","Deliver a copper ingot to Serendipity."
+24,"TEXT_CLSGLD021_00610_TODO_00","セレンディピティーに<Sheet(Item,5062,0)/>を渡す"
 25,"TEXT_CLSGLD021_00610_TODO_01",""
 26,"TEXT_CLSGLD021_00610_TODO_02",""
 27,"TEXT_CLSGLD021_00610_TODO_03",""
@@ -51,32 +51,65 @@ int32,str,str
 45,"TEXT_CLSGLD021_00610_TODO_21",""
 46,"TEXT_CLSGLD021_00610_TODO_22",""
 47,"TEXT_CLSGLD021_00610_TODO_23",""
-48,"TEXT_CLSGLD021_00610_SERENDIPITY_000_1","Great, let's get started! Though to be honest, I'd swear you've done this before by the way you wear that hammer on your hip."
-49,"TEXT_CLSGLD021_00610_SERENDIPITY_000_2","Mind you, even if you <Emphasis>do</Emphasis> have some experience, a <Emphasis>responsible</Emphasis> guildmaster must ensure that her charges have a firm grasp of the fundamentals. Therefore, I command you to craft me a copper ingot!"
-50,"TEXT_CLSGLD021_00610_SERENDIPITY_000_3","It's simple, really─all you need is copper ore and a wind shard."
-51,"TEXT_CLSGLD021_00610_SERENDIPITY_000_4","Our guild supplier, Aistan, can supply you with copper ore. And I gave you a few wind shards along with your hammer. At least, I think I did. If it turns out you don't have any, you'll need to get some yourself."
-52,"TEXT_CLSGLD021_00610_SERENDIPITY_000_5","Isn't this exciting, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>? Your first real challenge as a member of the Goldsmiths' Guild! Show me the ingot when you're done. Good luck!"
-53,"TEXT_CLSGLD021_00610_SYSTEM_000_6","To synthesize a copper ingot for Serendipity, select <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Logs<UIGlow>01</UIGlow><UIForeground>01</UIForeground> from the main menu, followed by <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Crafting Log<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
-54,"TEXT_CLSGLD021_00610_SERENDIPITY_000_7","A farewell to cut tags."
-55,"TEXT_CLSGLD021_00610_SERENDIPITY_000_8","Oh, did you forget what materials you need? Aistan over there can sell you copper ore, but I'm afraid he doesn't stock wind shards. Don't think too hard, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Just give it a try and see what happens!"
-56,"TEXT_CLSGLD021_00610_SERENDIPITY_000_9","Hmmm... You know, I think this is quite─"
-57,"TEXT_CLSGLD021_00610_GIGI_000_10","NE※GIGIGI★※...
-GIGIGI☆...BZZZT."
-58,"TEXT_CLSGLD021_00610_GIGI_000_11","UtTeR gArBaGe. ThE wOrSt. NoT eVeN fIt FoR mAkInG a ChAmBeR pOt."
-59,"TEXT_CLSGLD021_00610_SERENDIPITY_000_12","Quiet, Gigi! <Emphasis>I'm</Emphasis> the guildmaster. <Emphasis>I</Emphasis> get to decide what's fit for a chamber pot!"
-60,"TEXT_CLSGLD021_00610_SERENDIPITY_000_13","Ahem, please excuse me! He gets a bit overzealous at times."
-61,"TEXT_CLSGLD021_00610_SERENDIPITY_000_14","Gigi is my assistant, but he has a habit of butting in with his opinions."
-62,"TEXT_CLSGLD021_00610_SERENDIPITY_000_15","Most mammets are rather simple, capable of no more than rudimentary speech. They can be relied upon for menial tasks, but little else."
-63,"TEXT_CLSGLD021_00610_SERENDIPITY_000_16","Gigi, on the other hand, is quite intelligent. And quite <Emphasis>stubborn</Emphasis>, I might add."
-64,"TEXT_CLSGLD021_00610_SERENDIPITY_000_17","I suspect that's due to his age. He's been with the guild for an <Emphasis>eternity</Emphasis>, ever attending each guildmaster. But recently, he's been coming and going as he pleases."
-65,"TEXT_CLSGLD021_00610_SERENDIPITY_000_18","NE※GIGIGI★※...
-KnEeL bEfOrE GiGi, ThE oNe TrUe GuIlDmAsTeR. rEsPeCt My AuThOrItY, iGnOrAnT mOrTaL, oR sUfFeR mY wRaTh!"
-66,"TEXT_CLSGLD021_00610_SERENDIPITY_000_19","<sigh> It's like this <Emphasis>every</Emphasis> day, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I'm afraid the experience he's accumulated over a century of assisting guildmasters has made him arrogant."
-67,"TEXT_CLSGLD021_00610_SERENDIPITY_000_20","It's quite intimidating, really. I may be the guildmaster, but he's like a walking, talking archive of all knowledge to do with our craft."
-68,"TEXT_CLSGLD021_00610_SERENDIPITY_000_21","Oh! I completely forgot about your ingot! Sorry, sorry..."
-69,"TEXT_CLSGLD021_00610_SERENDIPITY_000_22","As I was about to say, I think this is very, very good for a beginner! It's reasonably pure and well formed."
-70,"TEXT_CLSGLD021_00610_SERENDIPITY_000_23","I daresay you've got a knack for this, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. What you need now is <Emphasis>practice</Emphasis>."
-71,"TEXT_CLSGLD021_00610_SERENDIPITY_000_24","So keep practicing with your hammer, and come back here when you've gotten more comfortable using it."
-72,"TEXT_CLSGLD021_00610_SERENDIPITY_000_25","NE※GIGIGI★※...
-BuGgEr OfF, gReEnHoRn."
-73,"TEXT_CLSGLD021_00610_SYSTEM_000_26","The next goldsmith quest will be available from Serendipity upon reaching level 5."
+48,"TEXT_CLSGLD021_00610_SERENDIPITY_000_1","ハンマーを装備できましたね。
+わぁ、とってもお似合いですよ！"
+49,"TEXT_CLSGLD021_00610_SERENDIPITY_000_2","では早速、彫金の初歩の初歩、
+「<Sheet(Item,5062,0)/>」作りに挑戦してみましょうか。"
+50,"TEXT_CLSGLD021_00610_SERENDIPITY_000_3","<Sheet(Item,5062,0)/>を作るのに必要なものは二つあります。
+素材となる「<Sheet(Item,5106,0)/>」と加工の力を生み出す「<Sheet(Item,4,0)/>」。"
+51,"TEXT_CLSGLD021_00610_SERENDIPITY_000_4","「<Sheet(Item,5106,0)/>」は、ギルドの受付にいる
+「アイスタン」さんから購入できます。
+「<Sheet(Item,4,0)/>」は、先ほど渡しましたよね。"
+52,"TEXT_CLSGLD021_00610_SERENDIPITY_000_5","いよいよ彫金師の課題スタートですっ！
+「<Sheet(Item,5062,0)/>」をひとつ作って、
+私のところへ持ってきてください！"
+53,"TEXT_CLSGLD021_00610_SYSTEM_000_6","「<Sheet(Item,5106,0)/>」から「<Sheet(Item,5062,0)/>」を製作してみましょう。
+メインコマンドの「手帳」から「製作手帳」を選び、
+製作を開始することができます。"
+54,"TEXT_CLSGLD021_00610_SERENDIPITY_000_7","(CUT)"
+55,"TEXT_CLSGLD021_00610_SERENDIPITY_000_8","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さんっ！　お待ちしてました！
+お願いしていた「<Sheet(Item,5062,0)/>」できましたかっ？"
+56,"TEXT_CLSGLD021_00610_SERENDIPITY_000_9","ふ～むふむ、これは……。"
+57,"TEXT_CLSGLD021_00610_GIGI_000_10","……ネジジジジ…………。
+ジジジ……ピー。"
+58,"TEXT_CLSGLD021_00610_GIGI_000_11","……全然ダメ、サイアク！
+「かっぱー」ダケニ、銅～デモイイ！"
+59,"TEXT_CLSGLD021_00610_SERENDIPITY_000_12","ってコラ、ネジっ！
+「<Sheet(Item,5062,0)/>」を鑑定するのは、
+マスターである私の役目なのっ！"
+60,"TEXT_CLSGLD021_00610_SERENDIPITY_000_13","あ！　ご、ごめんなさい……。
+びっくりしましたよね？"
+61,"TEXT_CLSGLD021_00610_SERENDIPITY_000_14","この子は、私のアシスタントを務めている
+「ネジ」っていう魔法人形です。"
+62,"TEXT_CLSGLD021_00610_SERENDIPITY_000_15","魔法人形は、超一流の彫金師が
+錬金術や呪術をはじめとする、様々な知識を
+注ぎ込んで創り上げた魔法のからくり人形です。"
+63,"TEXT_CLSGLD021_00610_SERENDIPITY_000_16","彼らはこのギルドで、
+彫金師たちの良きアシスタントとして活躍しています。"
+64,"TEXT_CLSGLD021_00610_SERENDIPITY_000_17","この「ネジ」は、そんな魔法人形の中でも特に古い個体。
+そして代々、マスターのアシスタントとして
+この彫金師ギルドに受け継がれている存在なんです。"
+65,"TEXT_CLSGLD021_00610_SERENDIPITY_000_18","……ネジジ！
+ネジ　ハ　コノぎるどノ、陰ノ支配者ナリ！
+ヒレ伏セ！　不器用ナ愚民ドモ……ネジジジジ……。"
+66,"TEXT_CLSGLD021_00610_SERENDIPITY_000_19","ちょっと性格に難アリなんですが……。
+彼の頭の中には、過去百年のギルドの歴史と、
+彫金技術の全てが詰め込まれています。"
+67,"TEXT_CLSGLD021_00610_SERENDIPITY_000_20","彫金師ギルドの生き字引、ってところですね。
+……生きているかどうかは微妙なラインですが……。"
+68,"TEXT_CLSGLD021_00610_SERENDIPITY_000_21","っと、そうそう！
+「<Sheet(Item,5062,0)/>」の話でしたね！
+忘れてましたっ、ごめんなさいっ！"
+69,"TEXT_CLSGLD021_00610_SERENDIPITY_000_22","というかすごいですよ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん！
+この「<Sheet(Item,5062,0)/>」とても丁寧に作られていて
+純度、輝きともに素晴らしい出来栄えです！"
+70,"TEXT_CLSGLD021_00610_SERENDIPITY_000_23","初心者なのに、これだけのものを創れるのは、
+なかなか才能があると思いますっ！"
+71,"TEXT_CLSGLD021_00610_SERENDIPITY_000_24","この調子でどんどん彫金に挑戦してみてください。
+ハンマーに慣れた頃、またギルドに顔を見せてくださいね。
+お待ちしていますっ！"
+72,"TEXT_CLSGLD021_00610_SERENDIPITY_000_25","……ネジジジ……
+オトトイ　キヤガレッテンダイ、バーロー！"
+73,"TEXT_CLSGLD021_00610_SYSTEM_000_26","「彫金師」のクラスクエストが開始されました。
+次のクエストは「レベル5」以上で受注可能になります。
+レベルを上げ、再度ギルドを訪れてください。"

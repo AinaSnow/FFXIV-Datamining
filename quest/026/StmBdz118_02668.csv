@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ118_02668_SEQ_00","A foreignly lass in Kugane is looking hither and yon with a noticeably stern countenance."
+0,"TEXT_STMBDZ118_02668_SEQ_00","クガネの異国風の少女は、真剣な眼差しで辺りを見回している。"
 1,"TEXT_STMBDZ118_02668_SEQ_01",""
 2,"TEXT_STMBDZ118_02668_SEQ_02",""
 3,"TEXT_STMBDZ118_02668_SEQ_03",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_STMBDZ118_02668_SEQ_21",""
 22,"TEXT_STMBDZ118_02668_SEQ_22",""
 23,"TEXT_STMBDZ118_02668_SEQ_23",""
-24,"TEXT_STMBDZ118_02668_TODO_00","Follow hints to search for the locations portrayed in the beautiful bell painting and glorious gate painting."
-25,"TEXT_STMBDZ118_02668_TODO_01","Speak with the foreignly lass."
+24,"TEXT_STMBDZ118_02668_TODO_00","<Sheet(EventItem,2002279,0)/>と<Sheet(EventItem,2002280,0)/>をヒントに絵が描かれた場所を探す"
+25,"TEXT_STMBDZ118_02668_TODO_01","異国風の少女と話す"
 26,"TEXT_STMBDZ118_02668_TODO_02",""
 27,"TEXT_STMBDZ118_02668_TODO_03",""
 28,"TEXT_STMBDZ118_02668_TODO_04",""
@@ -49,21 +49,47 @@ int32,str,str
 45,"TEXT_STMBDZ118_02668_TODO_21",""
 46,"TEXT_STMBDZ118_02668_TODO_22",""
 47,"TEXT_STMBDZ118_02668_TODO_23",""
-48,"TEXT_STMBDZ118_02668_PRETTYGIRL02668_100_000","Should you choose to undertake this quest, you will receive no guidance from the journal or the duty list. You will need to read the text carefully and decipher the clues to determine your next course of action."
-49,"TEXT_STMBDZ118_02668_PRETTYGIRL02668_000_000","Hey, stranger. Yes, you. The beady-eyed bumpkin with the oafish look on <If(PlayerParameter(4))>her<Else/>his</If> face."
-50,"TEXT_STMBDZ118_02668_PRETTYGIRL02668_000_001","Come and have a look at these paintings. I'm trying to find the places portrayed in them."
-51,"TEXT_STMBDZ118_02668_SYSTEM_100_002","The young woman shows you two paintings of scenes in Kugane."
-52,"TEXT_STMBDZ118_02668_PRETTYGIRL02668_000_002","Any fool with eyes can see they are both somewhere in Kugane. But for all my searching, I've yet to find either place."
-53,"TEXT_STMBDZ118_02668_PRETTYGIRL02668_000_003","These paintings are dear to me, but if I'm to ask for your help, I'll have to lend them to you for now. If and when you discover these places, see the paintings back safely to me, or there will be hells to pay."
-54,"TEXT_STMBDZ118_02668_PRETTYGIRL02668_000_004","Use hints in the beautiful bell painting and glorious gate painting to find the portrayed locations."
-55,"TEXT_STMBDZ118_02668_PRETTYGIRL02668_000_005","So long as you're out and about in Kugane, search for the places in the paintings I lent you. Let me know if you find them. And remember to see the paintings back safely to me."
-56,"TEXT_STMBDZ118_02668_SYSTEM_100_010","You have found the location portrayed in the beautiful bell painting!"
-57,"TEXT_STMBDZ118_02668_SYSTEM_101_010","You have found the location portrayed in the glorious gate painting!"
-58,"TEXT_STMBDZ118_02668_PRETTYGIRL02668_000_010","You found both places!? One in the Shiokaze Hostelry, and the other atop the roof of a building?"
-59,"TEXT_STMBDZ118_02668_PRETTYGIRL02668_000_011","I'm not of an age to enter where ales and wines are poured. And I've no desire to go climbing rooves lest I dirty my clothes. Small wonder I wasn't able to find these places."
-60,"TEXT_STMBDZ118_02668_PRETTYGIRL02668_000_012","Right then, let's have those paintings back. They're mementos of my mother, if you must know. She died when I was yet a babe. She painted them by her own hand."
-61,"TEXT_STMBDZ118_02668_PRETTYGIRL02668_000_013","I have no memory of my mother. But Father never missed a chance to tell me she was the most beautiful woman in all Hingashi. He claims to have fallen in love with her at first sight when he came to make his living here in Kugane."
-62,"TEXT_STMBDZ118_02668_PRETTYGIRL02668_000_014","His family was opposed to their marriage. But they swore themselves to each other all the same, and in the end eloped."
-63,"TEXT_STMBDZ118_02668_PRETTYGIRL02668_000_015","When I decided to come to Kugane to visit her grave, I thought to look for these places she saw fit to paint. I hoped they would bring me closer to her─to help me imagine what sort of person she was."
-64,"TEXT_STMBDZ118_02668_PRETTYGIRL02668_000_016","I heard she painted them when she was of the same age that I am now. So what the hells was she doing in an alehouse and up clambering around on rooftops?"
-65,"TEXT_STMBDZ118_02668_PRETTYGIRL02668_000_017","Hmph. I've come to feel like Kugane is a sort of home to me now. Enjoy it, wanderer, as I am. And thank you for helping me know a little more of my mother."
+48,"TEXT_STMBDZ118_02668_PRETTYGIRL02668_100_000","本クエストは「探索型クエスト」です。
+進行中、ジャーナルや目的リストや地図に、
+ヒントが表示されない場合があります。"
+49,"TEXT_STMBDZ118_02668_PRETTYGIRL02668_000_000","ちょっと、そこのアナタ。
+そう、間の抜けた顔でキョロキョロしてる、
+お上りさんみたいな、アナタのことよ。"
+50,"TEXT_STMBDZ118_02668_PRETTYGIRL02668_000_001","ちょっと、この絵を見てもらえるかしら。
+私、この絵が描かれた場所を探してるの。"
+51,"TEXT_STMBDZ118_02668_SYSTEM_100_002","少女が差し出した2枚の絵には、クガネの風景が描かれている。"
+52,"TEXT_STMBDZ118_02668_PRETTYGIRL02668_000_002","どこからどう見ても、クガネの絵なんだけど、
+この2枚と同じ風景を描ける場所が、どうしても見つけられないの。"
+53,"TEXT_STMBDZ118_02668_PRETTYGIRL02668_000_003","大切なものだけど……しょうがないから、貸してあげる。
+絵の「描かれた場所」がわかったら、返してね。
+……絶対だからね！"
+54,"TEXT_STMBDZ118_02668_PRETTYGIRL02668_000_004","「<Sheet(EventItem,2002279,0)/>」と「<Sheet(EventItem,2002280,0)/>」を使用し、
+表示された場所をヒントに、絵が「描かれた場所」を探しだそう。"
+55,"TEXT_STMBDZ118_02668_PRETTYGIRL02668_000_005","観光のついでに、貸してあげた絵が「描かれた場所」を探して、
+私に教えてよ。
+終わったら、絶対に返してもらうんだからね！"
+56,"TEXT_STMBDZ118_02668_SYSTEM_100_010","「<Sheet(EventItem,2002279,0)/>」が描かれた場所を見つけた！"
+57,"TEXT_STMBDZ118_02668_SYSTEM_101_010","「<Sheet(EventItem,2002280,0)/>」が描かれた場所を見つけた！"
+58,"TEXT_STMBDZ118_02668_PRETTYGIRL02668_000_010","絵が描かれた場所は、見つかった？
+え？　酒場の「潮風亭」と、建物の屋根の上？"
+59,"TEXT_STMBDZ118_02668_PRETTYGIRL02668_000_011","酒場には入っちゃダメって言われてるし、
+屋根なんて、服が汚れるから登ったりできないし……。
+私が見つけられなかったのも、トーゼンね。"
+60,"TEXT_STMBDZ118_02668_PRETTYGIRL02668_000_012","はい、絵は返してね。
+それは、私が小さいときに死んじゃった……
+お母さんが描いた形見なんだから。"
+61,"TEXT_STMBDZ118_02668_PRETTYGIRL02668_000_013","……私、お母さんのこと、ぜんぜん覚えてないんだ。
+お父さんはいつも、キレイな人だったよって、私に言うの。
+仕事でクガネに来たときに、一目惚れしたんだって。"
+62,"TEXT_STMBDZ118_02668_PRETTYGIRL02668_000_014","お母さんと結婚するときは、
+お父さんの家族がすごく反対したみたい。
+それでも一緒になるって、ふたりでカケオチしたんだよ。"
+63,"TEXT_STMBDZ118_02668_PRETTYGIRL02668_000_015","私ね、クガネにお墓参りに来るって決まってから、
+ずっと、この絵の場所を探そうって、思ってたんだ。
+どんな人だったんだろうって、いろいろ想像したりして……。"
+64,"TEXT_STMBDZ118_02668_PRETTYGIRL02668_000_016","お母さんがこの絵を描いたの、
+私と同じくらいの歳のときだって、聞いてたんだけど……。
+酒場とか屋上って、おテンバだったのかしら？"
+65,"TEXT_STMBDZ118_02668_PRETTYGIRL02668_000_017","えっと……クガネは私にとっても故郷みたいなものだし、
+楽しんでいって。
+それじゃ……その……ありがとね。"

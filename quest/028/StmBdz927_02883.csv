@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ927_02883_SEQ_00","J'zula Tia has a troublesome task for an adventurer."
+0,"TEXT_STMBDZ927_02883_SEQ_00","ポルタ・プレトリアのジャ・ズラ・ティアは、冒険者に頼みたいことがあるようだ。"
 1,"TEXT_STMBDZ927_02883_SEQ_01",""
 2,"TEXT_STMBDZ927_02883_SEQ_02",""
 3,"TEXT_STMBDZ927_02883_SEQ_03",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_STMBDZ927_02883_SEQ_21",""
 22,"TEXT_STMBDZ927_02883_SEQ_22",""
 23,"TEXT_STMBDZ927_02883_SEQ_23",""
-24,"TEXT_STMBDZ927_02883_TODO_00","Use sturdy hemp sacks to capture weakened yabbies."
-25,"TEXT_STMBDZ927_02883_TODO_01","Deliver the squirming hemp sacks to J'zula Tia."
+24,"TEXT_STMBDZ927_02883_TODO_00","弱らせた<Sheet(BNpcName,5719,0)/>に<Sheet(EventItem,2002315,0)/>を使い捕獲"
+25,"TEXT_STMBDZ927_02883_TODO_01","ジャ・ズラ・ティアに<Sheet(EventItem,2002316,0)/>を渡す"
 26,"TEXT_STMBDZ927_02883_TODO_02",""
 27,"TEXT_STMBDZ927_02883_TODO_03",""
 28,"TEXT_STMBDZ927_02883_TODO_04",""
@@ -49,12 +49,26 @@ int32,str,str
 45,"TEXT_STMBDZ927_02883_TODO_21",""
 46,"TEXT_STMBDZ927_02883_TODO_22",""
 47,"TEXT_STMBDZ927_02883_TODO_23",""
-48,"TEXT_STMBDZ927_02883_JZULATIA_000_000","You're <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, aren't you? The famous soldier and adventurer? It might be that I'm asking above my station, but I could use your help with a bit of a problem."
-49,"TEXT_STMBDZ927_02883_JZULATIA_000_001","I've been tasked with rounding up a couple of nasty wavekin, and I have to admit to the fact that they're too much for me to handle. For a hero like you, however, I suspect they'd be naught more than a spot of light exercise before <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>dinner<Else/>breakfast</If><Else/><If(LessThan(PlayerParameter(11),17))>lunch<Else/>dinner</If></If>."
-50,"TEXT_STMBDZ927_02883_JZULATIA_000_002","Have you seen those monstrous yabbies crawling about south of the White Aisle? I have some large hemp sacks you can use to drag them back here. Just be sure to tire them out a bit beforehand─any fight left in them and they'll rip right through the sack with those spiky tails of theirs."
-51,"TEXT_STMBDZ927_02883_JZULATIA_000_003","As I said, make certain to knock the fight out of those yabbies before you shove them in the sacks. And watch out for those tails!"
-52,"TEXT_STMBDZ927_02883_JZULATIA_000_010","Were you able to capture those yabbies for me?"
-53,"TEXT_STMBDZ927_02883_JZULATIA_000_011","Oho, these are some lively nippers─I'd best get them in a pen before they tear their way free. It's a good thing they're ill-tempered, though."
-54,"TEXT_STMBDZ927_02883_JZULATIA_000_012","Why is that, you ask? Well, just between you and me, we're planning on using the yabbies as a secret weapon to disrupt imperial military camps. I'd love to see the look on a Garlean officer's face to find one of these beauties running wild in his command tent."
-55,"TEXT_STMBDZ927_02883_JZULATIA_000_013","Why is that, you ask? Well, we're planning on using the yabbies to help train new recruits. You never know when the Empire might try to reclaim lost territory, and a little battle experience is better than none."
-56,"TEXT_STMBDZ927_02883_JZULATIA_000_014","Thank you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I was growing tired of sewing up the holes in those gigantic sacks..."
+48,"TEXT_STMBDZ927_02883_JZULATIA_000_000","お前さん、冒険者部隊の<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>だろ？
+ちょっと厄介な仕事を、頼みたいんだ。"
+49,"TEXT_STMBDZ927_02883_JZULATIA_000_001","とある任務のため、魔物を何匹か捕獲したいんだが、
+少しばかり手こずっていてね……。
+冒険者としても有名なあんたなら、魔物の捕獲もお手の物だろ？"
+50,"TEXT_STMBDZ927_02883_JZULATIA_000_002","獲物は、ホワイトアイル陸橋の南に棲む「<Sheet(BNpcName,5719,0)/>」だ。
+充分に弱らせてから「<Sheet(EventItem,2002315,0)/>」に入れないと、
+鋭く尖った尻尾に破られちまうだろうから、注意しろよ。"
+51,"TEXT_STMBDZ927_02883_JZULATIA_000_003","獲物は、ホワイトアイル陸橋の南に棲む「<Sheet(BNpcName,5719,0)/>」だ。
+充分に弱らせてから「<Sheet(EventItem,2002315,0)/>」に入れないと、
+鋭く尖った尻尾に破られちまうだろうから、注意しろよ。"
+52,"TEXT_STMBDZ927_02883_JZULATIA_000_010","どうだ、<Sheet(BNpcName,5719,0)/>は捕まえられたか？"
+53,"TEXT_STMBDZ927_02883_JZULATIA_000_011","おぉ、なんて活きのいいヤツだ！
+あつらえた袋が、今にも破られそうじゃないか……
+だが、それくらいじゃないと意味がない。"
+54,"TEXT_STMBDZ927_02883_JZULATIA_000_012","実は、こいつを使って、
+帝国軍を攪乱してやろうって作戦が、秘密裏に進んでいるんだ。
+帝国の奴らの慌てふためく姿が、今から想像できるさ。"
+55,"TEXT_STMBDZ927_02883_JZULATIA_000_013","実は、こいつを使って、新兵の訓練をしようと思ってるんだ。
+いつ帝国軍が属州を奪還に来るかもわからないからな、
+追い払ったからって、気は抜けないってわけさ。"
+56,"TEXT_STMBDZ927_02883_JZULATIA_000_014","ありがとよ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
+また何かあったら、頼むぜ。"

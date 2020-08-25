@@ -1,8 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKZG003_03488_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Ghon Gon is waiting impatiently for his nephew to return."
+0,"TEXT_LUCKZG003_03488_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+ガリク村のゴーンゴンは、冒険者に甥を探してほしいようだ。"
 1,"TEXT_LUCKZG003_03488_SEQ_01",""
 2,"TEXT_LUCKZG003_03488_SEQ_02",""
 3,"TEXT_LUCKZG003_03488_SEQ_03",""
@@ -26,9 +26,9 @@ Ghon Gon is waiting impatiently for his nephew to return."
 21,"TEXT_LUCKZG003_03488_SEQ_21",""
 22,"TEXT_LUCKZG003_03488_SEQ_22",""
 23,"TEXT_LUCKZG003_03488_SEQ_23",""
-24,"TEXT_LUCKZG003_03488_TODO_00","Search for Ghon Gon's nephew."
-25,"TEXT_LUCKZG003_03488_TODO_01","Give the gnawed water bottle to Ghon Gon's nephew."
-26,"TEXT_LUCKZG003_03488_TODO_02","Report to Ghon Gon."
+24,"TEXT_LUCKZG003_03488_TODO_00","使い走りのモルド族を探す"
+25,"TEXT_LUCKZG003_03488_TODO_01","使い走りのモルド族に<Sheet(EventItem,2002649,0)/>を渡す"
+26,"TEXT_LUCKZG003_03488_TODO_02","ゴーンゴンに報告"
 27,"TEXT_LUCKZG003_03488_TODO_03",""
 28,"TEXT_LUCKZG003_03488_TODO_04",""
 29,"TEXT_LUCKZG003_03488_TODO_05",""
@@ -50,32 +50,57 @@ Ghon Gon is waiting impatiently for his nephew to return."
 45,"TEXT_LUCKZG003_03488_TODO_21",""
 46,"TEXT_LUCKZG003_03488_TODO_22",""
 47,"TEXT_LUCKZG003_03488_TODO_23",""
-48,"TEXT_LUCKZG003_03488_GHONGON_000_000","Where is that nephew of mine? I sent him to Twine on an errand a while ago, and he has still not returned!"
-49,"TEXT_LUCKZG003_03488_GHONGON_000_001","If your travels happen to take you that way, could you keep an eye out for him?"
-50,"TEXT_LUCKZG003_03488_GHONGON_000_002","<sigh> Knowing him, he probably forgot to take any water and is lying in a ditch somewhere..."
-51,"TEXT_LUCKZG003_03488_GHONGON_000_003","Hmm... Perhaps you should take this, just in case. If he is thirsty, give him some to drink. And if he is sleeping, pour it on his head to wake him up!"
-52,"TEXT_LUCKZG003_03488_GHONGON_000_010","I knew it was a mistake to send that boy by himself. Where could he be?"
-53,"TEXT_LUCKZG003_03488_MORDERRAND03488_000_020","Why does this desert...have to be so...dry? Never been so...thirsty..."
-54,"TEXT_LUCKZG003_03488_GHONGON_000_030","You found him!? Did you give him the water, like I asked?"
-55,"TEXT_LUCKZG003_03488_MORDERRAND03488_000_040","Need...water..."
-56,"TEXT_LUCKZG003_03488_MORDERRAND03488_000_041","Pwaaah!"
-57,"TEXT_LUCKZG003_03488_MORDERRAND03488_000_042","You have saved me from certain death! Well, extreme thirst, at the very least! But how did you know?"
-58,"TEXT_LUCKZG003_03488_MORDERRAND03488_000_043","My uncle..."
-59,"TEXT_LUCKZG003_03488_MORDERRAND03488_000_044","I just wanted to make him proud, to show my gratitude to him for raising me. But all I do is cause problems."
-60,"TEXT_LUCKZG003_03488_MORDERRAND03488_000_045","No point moping about it, though! I'll have to do better next time. Thank you for the water, it was much appreciated!"
-61,"TEXT_LUCKZG003_03488_GHONGON_000_050","My nephew made it back alive! I was so relieved to see him!"
-62,"TEXT_LUCKZG003_03488_GHONGON_000_051","I only sent him to deliver some smoked lizard meat, but I had no idea it would end like this!"
-63,"TEXT_LUCKZG003_03488_GHONGON_000_052","Still, it is important for both Garik and Twine to send these kinds of supplies back and forth."
-64,"TEXT_LUCKZG003_03488_GHONGON_000_053","I wish we still had a Talos. Then my nephew would not have to go on such dangerous trips."
-65,"TEXT_LUCKZG003_03488_GHONGON_000_054","He might be a fool, but he is a good boy at heart. Thank you for helping him return safely!"
-66,"TEXT_LUCKZG003_03488_DAIRYFARMER03488_000_000",""
-67,"TEXT_LUCKZG003_03488_DAIRYFARMER03488_000_001",""
-68,"TEXT_LUCKZG003_03488_DAIRYFARMER03488_000_002",""
-69,"TEXT_LUCKZG003_03488_DAIRYFARMER03488_000_003",""
-70,"TEXT_LUCKZG003_03488_DAIRYFARMER03488_000_010",""
-71,"TEXT_LUCKZG003_03488_DAIRYFARMER03488_000_030",""
-72,"TEXT_LUCKZG003_03488_DAIRYFARMER03488_000_050",""
-73,"TEXT_LUCKZG003_03488_DAIRYFARMER03488_000_051",""
-74,"TEXT_LUCKZG003_03488_DAIRYFARMER03488_000_052",""
-75,"TEXT_LUCKZG003_03488_DAIRYFARMER03488_000_053",""
-76,"TEXT_LUCKZG003_03488_DAIRYFARMER03488_000_054",""
+48,"TEXT_LUCKZG003_03488_GHONGON_000_000","ううむ……遅いネ。
+南にある「トゥワイン」という町へ、使い走りに行かせた甥が、
+まだ帰ってこないネ。"
+49,"TEXT_LUCKZG003_03488_GHONGON_000_001","もし旅人さんが、トゥワイン方面へ行くのであれば、
+ついでに探してくれないかネ？"
+50,"TEXT_LUCKZG003_03488_GHONGON_000_002","あの子は、仕事熱心だけど、そそっかしくてネ。
+もしかしたら、飲み水を持ち忘れて干上がってるかも……？"
+51,"TEXT_LUCKZG003_03488_GHONGON_000_003","見つけた「使い走りのモルド族」が、
+喉の渇きで苦しんでいるようなら、
+この「<Sheet(EventItem,2002649,0)/>」の水を飲ませてやってネ。"
+52,"TEXT_LUCKZG003_03488_GHONGON_000_010","もし旅人さんがトゥワイン方面へ行くのであれば、
+ついでに「使い走りのモルド族」を探してみてヨ。"
+53,"TEXT_LUCKZG003_03488_MORDERRAND03488_000_020","ひぃ……ひぃ……み、水……。
+持っていたら……水が……ほしいヨ……。"
+54,"TEXT_LUCKZG003_03488_GHONGON_000_030","「使い走りのモルド族」が、
+喉の渇きで苦しんでいるようなら、
+「<Sheet(EventItem,2002649,0)/>」を渡して、水を飲ませてやってネ。"
+55,"TEXT_LUCKZG003_03488_MORDERRAND03488_000_040","ひぃ……ひぃ……み、水……。
+どうか水を……お恵みを……うう……。"
+56,"TEXT_LUCKZG003_03488_MORDERRAND03488_000_041","み、水ネ！
+ありがとネ、いただくネ！"
+57,"TEXT_LUCKZG003_03488_MORDERRAND03488_000_042","…………ぷはぁ！
+ふう、生き返ったネ。
+ところで、どうしてここに？"
+58,"TEXT_LUCKZG003_03488_MORDERRAND03488_000_043","……なるほど、叔父さんから頼まれたネ。
+わざわざここまでありがとネ。"
+59,"TEXT_LUCKZG003_03488_MORDERRAND03488_000_044","育ててくれた恩返ししようと頑張っているんだけど、
+そそっかしいせいか、結局いつも、
+叔父さんに助けられちゃうヨ……。"
+60,"TEXT_LUCKZG003_03488_MORDERRAND03488_000_045","ともかく、心配をかけたみたいだから、
+急いで帰ることにするヨ！
+じゃあネ！"
+61,"TEXT_LUCKZG003_03488_GHONGON_000_050","おお、旅人さん！
+君のおかげで甥は無事に帰ってこれたヨ！"
+62,"TEXT_LUCKZG003_03488_GHONGON_000_051","甥はトゥワインに「リザードの燻製肉」を届けた帰りに、
+君のお世話になったようネ。
+ちゃんと用事も果たせたようだし、よかったヨ！"
+63,"TEXT_LUCKZG003_03488_GHONGON_000_052","ガリク村とトゥワインは、こうやって物資を融通しあって、
+どうにかこうにか生きてるヨ。"
+64,"TEXT_LUCKZG003_03488_GHONGON_000_053","昔のように、「タロース」があれば、
+そそっかしい甥を、使いに出さなくてもいいんだけどネ……。"
+65,"TEXT_LUCKZG003_03488_GHONGON_000_054","ともかく助かったヨ。
+ありがとネ、旅人さん！"
+66,"TEXT_LUCKZG003_03488_DAIRYFARMER03488_000_000","（★未使用／削除予定★）"
+67,"TEXT_LUCKZG003_03488_DAIRYFARMER03488_000_001","（★未使用／削除予定★）"
+68,"TEXT_LUCKZG003_03488_DAIRYFARMER03488_000_002","（★未使用／削除予定★）"
+69,"TEXT_LUCKZG003_03488_DAIRYFARMER03488_000_003","（★未使用／削除予定★）"
+70,"TEXT_LUCKZG003_03488_DAIRYFARMER03488_000_010","（★未使用／削除予定★）"
+71,"TEXT_LUCKZG003_03488_DAIRYFARMER03488_000_030","（★未使用／削除予定★）"
+72,"TEXT_LUCKZG003_03488_DAIRYFARMER03488_000_050","（★未使用／削除予定★）"
+73,"TEXT_LUCKZG003_03488_DAIRYFARMER03488_000_051","（★未使用／削除予定★）"
+74,"TEXT_LUCKZG003_03488_DAIRYFARMER03488_000_052","（★未使用／削除予定★）"
+75,"TEXT_LUCKZG003_03488_DAIRYFARMER03488_000_053","（★未使用／削除予定★）"
+76,"TEXT_LUCKZG003_03488_DAIRYFARMER03488_000_054","（★未使用／削除予定★）"

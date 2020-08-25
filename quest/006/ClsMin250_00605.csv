@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSMIN250_00605_SEQ_00","Adalberta needs you to take on the work of an indisposed guild member."
-1,"TEXT_CLSMIN250_00605_SEQ_01","One of your fellow miners has been taken ill, and Adalberta needs you to procure fifteen bottles of high-quality effervescent water in his stead. She recommends you head to Buscarron's Scar in Gridania's South Shroud to find a particularly pure source. Once you have the required number, deliver them to the guildmaster."
-2,"TEXT_CLSMIN250_00605_SEQ_02","Adalberta thanks you for your timely assistance. Owing to your efforts, the guild can now fulfill an urgent order from a major client. With the guildmaster's praise still ringing in your ears, you continue along your chosen path.
+0,"TEXT_CLSMIN250_00605_SEQ_00","採掘師ギルドのアダルベルタは、抱えている問題の解決を冒険者に任せたいようだ。"
+1,"TEXT_CLSMIN250_00605_SEQ_01","アダルベルタは急に仕事がこなせなくなったギルド員の代わりに、<Sheet(ItemHQ,5491,0)/>の採掘を請け負ってほしいようだ。黒衣森の「バスカロン監視所跡」周辺で「<Sheet(ItemHQ,5491,0)/>」を15個採掘し、採掘師ギルドの「アダルベルタ」に納品しよう。"
+2,"TEXT_CLSMIN250_00605_SEQ_02","<Sheet(ItemHQ,5491,0)/>をアダルベルタに納品した。冒険者のおかげで採掘師ギルドは面目を保つことができたと、彼女は深く感謝していた。アダルベルタの話によると、冒険者は今、若手の中での注目株らしい。周囲からの期待に負けないよう、採掘師の技術を磨き続けよう。
 
-※The next miner quest will be available from Adalberta upon reaching level 30."
+※採掘師のレベルが30以上になると、アダルベルタから次の採掘師クエストを受注することができます。"
 3,"TEXT_CLSMIN250_00605_SEQ_03",""
 4,"TEXT_CLSMIN250_00605_SEQ_04",""
 5,"TEXT_CLSMIN250_00605_SEQ_05",""
@@ -27,7 +27,7 @@ int32,str,str
 21,"TEXT_CLSMIN250_00605_SEQ_21",""
 22,"TEXT_CLSMIN250_00605_SEQ_22",""
 23,"TEXT_CLSMIN250_00605_SEQ_23",""
-24,"TEXT_CLSMIN250_00605_TODO_00","Deliver bottles of effervescent water <Sheet(Addon,9,0)/> to Adalberta."
+24,"TEXT_CLSMIN250_00605_TODO_00","<Sheet(ItemHQ,5491,0)/>を採掘師ギルドのアダルベルタに納品"
 25,"TEXT_CLSMIN250_00605_TODO_01",""
 26,"TEXT_CLSMIN250_00605_TODO_02",""
 27,"TEXT_CLSMIN250_00605_TODO_03",""
@@ -51,23 +51,49 @@ int32,str,str
 45,"TEXT_CLSMIN250_00605_TODO_21",""
 46,"TEXT_CLSMIN250_00605_TODO_22",""
 47,"TEXT_CLSMIN250_00605_TODO_23",""
-48,"TEXT_CLSMIN250_00605_ADALBERTA_000_0","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! You couldn't have come at a better time!"
-49,"TEXT_CLSMIN250_00605_ADALBERTA_000_1","One of our number has been taken ill, you see, and I need someone to handle the work assigned to him."
-50,"TEXT_CLSMIN250_00605_ADALBERTA_000_2","Tell me, are you familiar with effervescent water? Alchemists use it to make a substance called natron."
-51,"TEXT_CLSMIN250_00605_ADALBERTA_000_3","And bakers use natron for leavening─that is, raising dough."
-52,"TEXT_CLSMIN250_00605_ADALBERTA_000_4","Without it, there'd be no ginger cookies, crumpets, blood currant tarts..."
-53,"TEXT_CLSMIN250_00605_ADALBERTA_000_5","...Ahem. As you may have gathered, I'm fond of the odd sweet or three."
-54,"TEXT_CLSMIN250_00605_ADALBERTA_000_6","'Course, effervescent water's good for more than just baking. A lot of miners ask for a drop of it in their drinks─makes the stronger stuff that bit more refreshing, see."
-55,"TEXT_CLSMIN250_00605_ADALBERTA_000_7","And let me tell you, there's nothing better to wash away the dust of a hard day's mining."
-56,"TEXT_CLSMIN250_00605_ADALBERTA_000_8","But you didn't come here to hear my thoughts on food and drink, you came here to learn about mining. And so you shall─by procuring some effervescent water for me."
-57,"TEXT_CLSMIN250_00605_ADALBERTA_000_9","The Alchemists' Guild needs fifteen bottles of high-quality stuff, and <Emphasis>urgently</Emphasis>─they couldn't stress that enough."
-58,"TEXT_CLSMIN250_00605_ADALBERTA_000_10","From what I can make out, they themselves are scrambling to fulfill an urgent order for natron from the Bismarck in Limsa Lominsa. It's one of Eorzea's finest restaurants, in case you didn't know."
-59,"TEXT_CLSMIN250_00605_ADALBERTA_000_11","Anyway, you'd best get going. You'll need to work fast to make up for all the time I wasted chattering about sweets and grog. Oh, and you'll have the best luck mining around Buscarron's Scar, over in the Black Shroud."
-60,"TEXT_CLSMIN250_00605_ADALBERTA_000_20","Fifteen bottles of high-quality effervescent water, quick as you can. And remember, you're like to find no better source of it than in Buscarron's Scar, over in Gridania's South Shroud."
-61,"TEXT_CLSMIN250_00605_ADALBERTA_000_21","Right in the nick of time! My thanks, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>!"
-62,"TEXT_CLSMIN250_00605_ADALBERTA_000_22","I'll see to it that these are sent over immediately. Ah, but before I do, I should probably expand a bit on what we were talking about earlier..."
-63,"TEXT_CLSMIN250_00605_ADALBERTA_000_23","Specifically, the part about mixing spirits with effervescent water... See, I wasn't lying when I told you a lot of folk find the combination refreshing. It <Emphasis>is</Emphasis> refreshing. In fact, adding a bit of bubbly water makes the stuff go down so easily, you have to be careful not to drink yourself under the table."
-64,"TEXT_CLSMIN250_00605_ADALBERTA_000_24","I say this partly for your own good...and partly because the lad whose task you just took care of <Emphasis>wasn't</Emphasis> careful."
-65,"TEXT_CLSMIN250_00605_ADALBERTA_000_25","Daft sod threw up right where you're standing. Oh, but it didn't end there..."
-66,"TEXT_CLSMIN250_00605_ADALBERTA_000_28","He then slipped in his own puke and split his head open on the bar on his way down. Suffice it to say, he won't be working for a while."
-67,"TEXT_CLSMIN250_00605_ADALBERTA_000_29","Thankfully, you took up the slack, and all is well with the guild once more. I could do with a few more like you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Keep up the good work, you hear?"
+48,"TEXT_CLSMIN250_00605_ADALBERTA_000_0","いいところに来てくれたわね！
+ひとつ頼まれてくれない？"
+49,"TEXT_CLSMIN250_00605_ADALBERTA_000_1","実はギルド員のひとりがぶっ倒れちゃってね。
+その人が請け負ってた仕事を、代わりにやってほしいのよ。
+今、ちょうどキミ以外に手が空いてなくて……。"
+50,"TEXT_CLSMIN250_00605_ADALBERTA_000_2","「<Sheet(ItemHQ,5491,0)/>」って知ってる？
+錬金術師が重曹を作ったりするのに使う素材なんだけど。"
+51,"TEXT_CLSMIN250_00605_ADALBERTA_000_3","あ、重曹っていうのはね、
+お菓子の生地とかをよく膨らませるために使われる粉よ。"
+52,"TEXT_CLSMIN250_00605_ADALBERTA_000_4","ジンジャークッキーやクランペット、
+ブラッドカーラントタルトとかに使われるわね。"
+53,"TEXT_CLSMIN250_00605_ADALBERTA_000_5","……あたしがお菓子の話をするのは意外？
+そりゃ、自分ではあんまりお菓子とか作らないけど、
+食べるのは結構好きなのよ、クッキーとか。"
+54,"TEXT_CLSMIN250_00605_ADALBERTA_000_6","もっとも、このカウンターにはクッキーなんて
+用意してなくて……出るのはお酒なんだけどね。"
+55,"TEXT_CLSMIN250_00605_ADALBERTA_000_7","酒こそ、採掘師の命の水ってやつだわ。
+仕事が終わった後の一杯は、何にも替えられないわね。"
+56,"TEXT_CLSMIN250_00605_ADALBERTA_000_8","……と、話が脱線しちゃったわ。"
+57,"TEXT_CLSMIN250_00605_ADALBERTA_000_9","それで、その重曹を作るために錬金術師ギルドから、
+「<Sheet(ItemHQ,5491,0)/>」の発注が来てたのよ。"
+58,"TEXT_CLSMIN250_00605_ADALBERTA_000_10","話を聞くとどうも、リムサ・ロミンサにある高級料理店、
+「ビスマルク」から重曹を注文されたみたいね。"
+59,"TEXT_CLSMIN250_00605_ADALBERTA_000_11","先方が待ってるからって、結構急かされてるの。
+悪いんだけど黒衣森の「バスカロン監視所跡」で採掘して、
+「<Sheet(ItemHQ,5491,0)/>」を15個、よろしくね？"
+60,"TEXT_CLSMIN250_00605_ADALBERTA_000_20","「<Sheet(ItemHQ,5491,0)/>」よ、「<Sheet(ItemHQ,5491,0)/>」。
+15個、採掘してきてくれるかしら？"
+61,"TEXT_CLSMIN250_00605_ADALBERTA_000_21","あーっ！
+そう、これよ、「<Sheet(ItemHQ,5491,0)/>」よ。
+ありがとう<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、助かっちゃったわ。"
+62,"TEXT_CLSMIN250_00605_ADALBERTA_000_22","この<Sheet(ItemHQ,5491,0)/>って、リムサ・ロミンサのほうでは
+お酒に入れて飲んだりもするらしいのよ。"
+63,"TEXT_CLSMIN250_00605_ADALBERTA_000_23","こっちでは、あんまり馴染みがないんで、
+ものは試しに、ギルド員がワインに入れて飲んだのよ。
+そしたら酔いがまわりすぎて、ぶっ倒れちゃってね……。"
+64,"TEXT_CLSMIN250_00605_ADALBERTA_000_24","……そう、そのぶっ倒れたのが、
+もともと<Sheet(ItemHQ,5491,0)/>を採掘するはずだった人よ。"
+65,"TEXT_CLSMIN250_00605_ADALBERTA_000_25","でね、酔っぱらっただけならマシだったんだけど……
+転び方が悪かったみたいで、足の骨折っちゃってさ。"
+66,"TEXT_CLSMIN250_00605_ADALBERTA_000_28","とにかく……キミのおかげで、
+採掘師ギルドの面目は立ちそうだわ。
+さすがは若手注目株ってところかしら？"
+67,"TEXT_CLSMIN250_00605_ADALBERTA_000_29","あら、知らない？
+キミって今、そんなふうに呼ばれてるわよ？
+採掘師ギルドの、内外からね。"

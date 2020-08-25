@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNY812_02121_SEQ_00","Yloise is eager for you to rise through the ranks in Clan Centurio."
-1,"TEXT_HEAVNY812_02121_SEQ_01","Yloise is pleased to meet the adventurer whose heroics have been the subject of much discussion in Clan Centurio, but is dismayed that as yet you have only been permitted to hunt mid-level marks. She instructs you to return to the Forgotten Knight, and demand that Ardolain allow you access to a higher tier of hunting."
-2,"TEXT_HEAVNY812_02121_SEQ_02","Ardolain defers to Yloise's judgment, and allows you access to more advanced marks. He suggests that you peruse the Clan Hunt board to examine the targets Clan Centurio reserve for their more advanced hunters."
-3,"TEXT_HEAVNY812_02121_SEQ_03","You examine the Clan Hunt board, and the level three bills posted thereon. For more information about the Clan Hunt, or to exchange Centurio Seals for exclusive items, speak with Ardolain in the Forgotten Knight. Otherwise, it is time to test your mettle against some of the most ferocious fiends that threaten the denizens of the north."
+0,"TEXT_HEAVNY812_02121_SEQ_00","イディルシャイアのイロアズは、冒険者に興味があるようだ。"
+1,"TEXT_HEAVNY812_02121_SEQ_01","イロアズから、「クラン・モブハント：上級」の仕事を紹介された。詳細な説明を受けるため、イシュガルドの忘れられた騎士亭の「アルドラン」と話そう。"
+2,"TEXT_HEAVNY812_02121_SEQ_02","アルドランに話したところ、「クラン・モブハント：上級」の手配書を回してもらえるようになった。忘れられた騎士亭の前にある「セントリオボード」を調べよう。"
+3,"TEXT_HEAVNY812_02121_SEQ_03","「セントリオボード」から「クラン・モブ手配書：上級」を入手できるようになった。詳細な説明や報酬の交換が必要なときは、アルドランに声をかければいいようだ。手配中のモブを積極的に討伐し、イシュガルドの治安向上に貢献しよう。"
 4,"TEXT_HEAVNY812_02121_SEQ_04",""
 5,"TEXT_HEAVNY812_02121_SEQ_05",""
 6,"TEXT_HEAVNY812_02121_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_HEAVNY812_02121_SEQ_21",""
 22,"TEXT_HEAVNY812_02121_SEQ_22",""
 23,"TEXT_HEAVNY812_02121_SEQ_23",""
-24,"TEXT_HEAVNY812_02121_TODO_00","Speak with Ardolain in the Forgotten Knight."
-25,"TEXT_HEAVNY812_02121_TODO_01","Examine the Clan Hunt board."
+24,"TEXT_HEAVNY812_02121_TODO_00","忘れられた騎士亭のアルドランと話す"
+25,"TEXT_HEAVNY812_02121_TODO_01","セントリオボードを調べる"
 26,"TEXT_HEAVNY812_02121_TODO_02",""
 27,"TEXT_HEAVNY812_02121_TODO_03",""
 28,"TEXT_HEAVNY812_02121_TODO_04",""
@@ -49,15 +49,27 @@ int32,str,str
 45,"TEXT_HEAVNY812_02121_TODO_21",""
 46,"TEXT_HEAVNY812_02121_TODO_22",""
 47,"TEXT_HEAVNY812_02121_TODO_23",""
-48,"TEXT_HEAVNY812_02121_YLOISE_000_000","So you're the famous <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, are you? Heh heh heh. The Clan's all abuzz with talk of the brave young adventurer who's joined our ranks."
-49,"TEXT_HEAVNY812_02121_YLOISE_000_001","But tell me: how is it a storied young <If(PlayerParameter(4))>lass<Else/>feller</If> like you's only approved to take on level two marks? Scared of getting that pretty face of yours scratched, are you?"
-50,"TEXT_HEAVNY812_02121_YLOISE_000_002","Well, it's up to you, but if you've got the stomach for a new challenge, you go back to that inn and tell Ardolain that Yloise says he's holding you back! If he doesn't approve you for more advanced marks, he'll have me to deal with!"
-51,"TEXT_HEAVNY812_02121_YLOISE_000_012","If you're happy taking on middling marks all your life, that's fine by me. But if you want to make a name for yourself in Clan Centurio, you'll get yourself down to the Forgotten Knight, and tell Ardolain that Yloise says you're ready for bigger things. That'll soften him up!"
-52,"TEXT_HEAVNY812_02121_ARDOLAIN_000_010","Oho... So you've met Yloise, then, have you? Well, if she says you're ready for level three marks, it ain't worth arguing."
-53,"TEXT_HEAVNY812_02121_ARDOLAIN_100_010","Just make sure you're well prepared before you go after one of these beasts. They're more dangerous than anything you've hunted so far. The rewards are bigger too, provided you make it back in one piece..."
-54,"TEXT_HEAVNY812_02121_ARDOLAIN_000_011","Anyroad, go and have a gander at the Clan Hunt board─so long as you understand the risks, I'll let you pick any level three mark that takes your fancy."
-55,"TEXT_HEAVNY812_02121_ARDOLAIN_000_024","The level three marks are up on the Clan Hunt board with the others. If you're sure you know what you're getting yourself into, go up and take a look at them."
-56,"TEXT_HEAVNY812_02121_SYSTEM_100_020","The Clan Hunt board is covered in bills showing the details of wanted monsters. If you are sure you are up to the challenge, try taking on one of the level 3 marks."
-57,"TEXT_HEAVNY812_02121_SYSTEM_000_020","Level 3 Clan marks are now available!"
-58,"TEXT_HEAVNY812_02121_SYSTEM_000_021","You are now permitted to take bills for level 3 Clan marks from the Clan Hunt board."
-59,"TEXT_HEAVNY812_02121_SYSTEM_000_022",""
+48,"TEXT_HEAVNY812_02121_YLOISE_000_000","お前さんが、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>かい。
+なかなか活きのいい冒険者がおると、方々で噂を聞いとるよ。"
+49,"TEXT_HEAVNY812_02121_YLOISE_000_001","どうだい、そろそろ「上級」のモブに手を出してみるかね？
+お前さんの腕なら、後れをとらんだろうて。"
+50,"TEXT_HEAVNY812_02121_YLOISE_000_002","ふふふ、進むも引くも自由……。
+興味があるなら、忘れられた騎士亭の「アルドラン」に、
+話を聞いてみなさいな。"
+51,"TEXT_HEAVNY812_02121_YLOISE_000_012","ふふふ、進むも引くも自由……。
+興味があるなら、忘れられた騎士亭の「アルドラン」に、
+話を聞いてみなさいな。"
+52,"TEXT_HEAVNY812_02121_ARDOLAIN_000_010","やれやれ、ついにイロアズの婆さんにも見込まれたか……。
+わかったわかった、「上級」の手配書を回してやる。"
+53,"TEXT_HEAVNY812_02121_ARDOLAIN_100_010","当然、これまでより手強い相手だから覚悟しろよ。
+……まぁ、その分、報酬もたんまりあるがな。"
+54,"TEXT_HEAVNY812_02121_ARDOLAIN_000_011","さぁ、表の「セントリオボード」から、
+「クラン・モブ手配書：上級」を選んで持っていきな。"
+55,"TEXT_HEAVNY812_02121_ARDOLAIN_000_024","さぁ、表の「セントリオボード」から、
+「クラン・モブ手配書：上級」を選んで持っていきな。"
+56,"TEXT_HEAVNY812_02121_SYSTEM_100_020","討伐対象「モブ」の手配書が掲示されている……。
+いよいよ、「上級」に挑戦してみよう。"
+57,"TEXT_HEAVNY812_02121_SYSTEM_000_020","「クラン・モブ手配書：上級」が開放された！"
+58,"TEXT_HEAVNY812_02121_SYSTEM_000_021","セントリオボードから、
+「クラン・モブ手配書：上級」を入手できるようになりました。"
+59,"TEXT_HEAVNY812_02121_SYSTEM_000_022","（★未使用／削除予定★）"

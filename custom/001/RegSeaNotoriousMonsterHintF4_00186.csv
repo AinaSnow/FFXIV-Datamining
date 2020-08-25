@@ -1,22 +1,41 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_REGSEANOTORIOUSMONSTERHINTF4_00186_MOBHUNTERS1F4_000_1","Company! I could use a friendly face around here. Well, a face at any rate. You adventurers aren't exactly known for your good looks, but I'll wager a yalm of ale you're bold enough to hunt an elite mark."
-1,"TEXT_REGSEANOTORIOUSMONSTERHINTF4_00186_Q1_000_1","What will you ask?"
-2,"TEXT_REGSEANOTORIOUSMONSTERHINTF4_00186_A1_000_1","What do you do here?"
-3,"TEXT_REGSEANOTORIOUSMONSTERHINTF4_00186_A1_000_2","Tell me about the rank B elite mark. (Dark Helmet)"
-4,"TEXT_REGSEANOTORIOUSMONSTERHINTF4_00186_A1_000_3","Tell me about the rank A elite mark. (Nahn)"
-5,"TEXT_REGSEANOTORIOUSMONSTERHINTF4_00186_A1_000_4","Tell me about the rank S elite mark. (Bonnacon)"
-6,"TEXT_REGSEANOTORIOUSMONSTERHINTF4_00186_A1_000_5","Nothing."
-7,"TEXT_REGSEANOTORIOUSMONSTERHINTF4_00186_MOBHUNTERS1F4_000_10","I wear the rocks down running after elite marks, what else? But someone's got to make the place safe for the commonfolk. And the rocks, well, there's too many of 'em anyway!"
-8,"TEXT_REGSEANOTORIOUSMONSTERHINTF4_00186_MOBHUNTERS1F4_000_11","Oh, don't go thinking I'm high-minded or nothing. I'm well paid when the marks are well killed! The bounty's in Allied Seals, and that's as good as gil these days."
-9,"TEXT_REGSEANOTORIOUSMONSTERHINTF4_00186_MOBHUNTERS1F4_000_12","You don't know much about the elite marks in these parts, I'll wager. Sure, I can help a <If(PlayerParameter(4))>sister<Else/>brother</If> hunter out if you're quick about it. Make your queries before the sun <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>comes up<Else/>climbs much higher</If><Else/><If(LessThan(PlayerParameter(11),17))>burns us to a crisp<Else/>comes up</If></If>."
-10,"TEXT_REGSEANOTORIOUSMONSTERHINTF4_00186_MOBHUNTERS1F4_000_13","But first things first: heed the ranks. Chase a rank S and it's like to be a fool's errand─and a dead fool, too, if you chase long enough. Try something less dangerous, like an A or, easier yet, a rank B elite mark."
-11,"TEXT_REGSEANOTORIOUSMONSTERHINTF4_00186_MOBHUNTERS1F4_000_20","“A hermit crab of less eremitic bent, Dark Helmet began its love affair with armor when it traded in its snail shell for some nameless Lalafell's helm."
-12,"TEXT_REGSEANOTORIOUSMONSTERHINTF4_00186_MOBHUNTERS1F4_000_21","“Its salvaging ways abandoned on the sands alongside outgrown and rusted headgear, Dark Helmet lives to acquire larger and finer heaumes─often still occupied by their former owners' grey matter.” "
-13,"TEXT_REGSEANOTORIOUSMONSTERHINTF4_00186_MOBHUNTERS1F4_000_30","“A native of the Indigo Deep, Nahn is a gargantuan man-eating crustacean. Its actual name is unpronounceable except under the crushing press of water."
-14,"TEXT_REGSEANOTORIOUSMONSTERHINTF4_00186_MOBHUNTERS1F4_000_31","“The Sahagin of the Sapsa Spawning Grounds are responsible for bringing Nahn to shore to serve as a living weapon against the Maelstrom and others inimical to the beastmen.”"
-15,"TEXT_REGSEANOTORIOUSMONSTERHINTF4_00186_MOBHUNTERS1F4_000_40","“Once known as a mild and even affectionate beast, Bonnacon is afflicted with a fit that comes upon him like a caul of fire."
-16,"TEXT_REGSEANOTORIOUSMONSTERHINTF4_00186_MOBHUNTERS1F4_000_41","“Tossing his great head in torment and rage, this bull gores to death his unfortunate victims, many of them greengrocers. Phrontists have implicated a rare variety of vegetable─its smell, to be precise─in triggering the violent attack.”"
-17,"TEXT_REGSEANOTORIOUSMONSTERHINTF4_00186_MOBHUNTERS1F4_000_42","The Maelstrom should worry a mite less about fish and a mite more about these other creatures, if you ask me─the kind that's killing folk right now in western La Noscea, for example."
-18,"TEXT_REGSEANOTORIOUSMONSTERHINTF4_00186_TALK_ACTOR",""
+0,"TEXT_REGSEANOTORIOUSMONSTERHINTF4_00186_MOBHUNTERS1F4_000_1","どうやら冒険者のようだね……。
+貴方も「リスキーモブ」を追っているのかい？"
+1,"TEXT_REGSEANOTORIOUSMONSTERHINTF4_00186_Q1_000_1","何を聞く？"
+2,"TEXT_REGSEANOTORIOUSMONSTERHINTF4_00186_A1_000_1","あなたのことを教えてほしい"
+3,"TEXT_REGSEANOTORIOUSMONSTERHINTF4_00186_A1_000_2","ランクB：動く鉄兜「ダークヘルメット」について"
+4,"TEXT_REGSEANOTORIOUSMONSTERHINTF4_00186_A1_000_3","ランクA：蒼茫の大蟹「ナン」について"
+5,"TEXT_REGSEANOTORIOUSMONSTERHINTF4_00186_A1_000_4","ランクS：狂熱の巨大牛「ボナコン」について"
+6,"TEXT_REGSEANOTORIOUSMONSTERHINTF4_00186_A1_000_5","キャンセル"
+7,"TEXT_REGSEANOTORIOUSMONSTERHINTF4_00186_MOBHUNTERS1F4_000_10","私は、モブハンターよ。
+地域の治安を乱す危険な敵、「リスキーモブ」を追っているの。"
+8,"TEXT_REGSEANOTORIOUSMONSTERHINTF4_00186_MOBHUNTERS1F4_000_11","討伐に成功すれば、エオルゼア都市軍事同盟から、
+「同盟記章」っていう報酬があたえられるわ。"
+9,"TEXT_REGSEANOTORIOUSMONSTERHINTF4_00186_MOBHUNTERS1F4_000_12","貴方も討伐に挑みたいというなら……
+この地域の「リスキーモブ」について、教えてあげてもいいわよ。"
+10,"TEXT_REGSEANOTORIOUSMONSTERHINTF4_00186_MOBHUNTERS1F4_000_13","ちなみに「リスキーモブ」は、
+危険度に応じて、ランク付けされているの。
+特に「ランクS」は、見つけるのさえ難しいでしょうね。"
+11,"TEXT_REGSEANOTORIOUSMONSTERHINTF4_00186_MOBHUNTERS1F4_000_20","鉄兜を背負うヤドカリがいるのを知っている？
+厳しい生存競争を勝ち抜いて、成長するうちに、
+貝殻では満足できなくなった猛者のようね。"
+12,"TEXT_REGSEANOTORIOUSMONSTERHINTF4_00186_MOBHUNTERS1F4_000_21","より大きく、より硬い兜を求め、
+次々と兵士や冒険者を襲う存在……。
+冗談のようだけど、実在するそうよ。"
+13,"TEXT_REGSEANOTORIOUSMONSTERHINTF4_00186_MOBHUNTERS1F4_000_30","サプサ産卵地のサハギン族が、
+蒼茫洋の海底都市から、秘密兵器を持ってきたらしいの。
+いえ、正しくは、連れて来たというべきかしら……。"
+14,"TEXT_REGSEANOTORIOUSMONSTERHINTF4_00186_MOBHUNTERS1F4_000_31","そいつは「ナン」という名の巨大肉食蟹よ。
+先日、現われたときは、黒渦団の精鋭たちが、
+どうにか退けたみたいだけど……かなりの難敵みたいね。"
+15,"TEXT_REGSEANOTORIOUSMONSTERHINTF4_00186_MOBHUNTERS1F4_000_40","サハギン族との緊張が続く西ラノシアで、
+黒渦団の将校たちの頭を悩ます存在がいるわ。"
+16,"TEXT_REGSEANOTORIOUSMONSTERHINTF4_00186_MOBHUNTERS1F4_000_41","巨大牛「ボナコン」……
+普段は温厚なんだけど、突然狂ったように暴れだし、
+長大な角を振りかざして人を襲うことがあるそうよ。"
+17,"TEXT_REGSEANOTORIOUSMONSTERHINTF4_00186_MOBHUNTERS1F4_000_42","被害者の共通点は、
+稀少な葉菜を扱う商人だったこと……。
+どうやら、その香りが「ボナコン」を興奮させたみたい。"
+18,"TEXT_REGSEANOTORIOUSMONSTERHINTF4_00186_TALK_ACTOR","（★未使用／削除予定★）"

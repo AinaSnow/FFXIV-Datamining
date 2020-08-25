@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANSAH107_01385_SEQ_00","Fyuu seeks your aid in broadening the culinary horizons of his spawnbrothers."
-1,"TEXT_BANSAH107_01385_SEQ_01","Concerned that his younger siblings' diet has been restricted to what can be caught in the waters near the nursery, Fyuu requests that you procure some ocean delicacies from somewhat further afield. Borrow an elbst from Pahh to cross the waves, and collect the whitecap clams found on the beach of Moonshade Isle."
-2,"TEXT_BANSAH107_01385_SEQ_02","You have gathered an armful of whitecap clams. Return to Novv's Nursery and deliver your haul to Fyuu."
-3,"TEXT_BANSAH107_01385_SEQ_03","Fyuu's eyes appear to bulge even further from his head when he beholds the bounty with which you have returned. Judging by his joyful reaction, it may not be long before you find yourself back on an elbst, headed for the sands of Moonshade Isle once more..."
+0,"TEXT_BANSAH107_01385_SEQ_00","ノォヴの育成地のフュウは、困り事があるようだ。"
+1,"TEXT_BANSAH107_01385_SEQ_01","フュウから、幼い弟たちに食べさせる食料を入手してほしいと依頼を受けた。月影島にある「<Sheet(EventItem,2001269,0)/>」を5個入手しよう。月影島へ行くためのエルブストは、ノォヴの育成地の「海獣使いのパァア」が手配してくれるそうだ。"
+2,"TEXT_BANSAH107_01385_SEQ_02","<Sheet(EventItem,2001269,0)/>を入手した。ノォヴの育成地の「フュウ」に「<Sheet(EventItem,2001269,0)/>」を渡そう。"
+3,"TEXT_BANSAH107_01385_SEQ_03","フュウに<Sheet(EventItem,2001269,0)/>を渡した。これで育成地の弟たちも新鮮な貝を食べられると、彼は喜んでいた。フュウの弟たちの健やかな成長のために、食料が必要になった際には協力しよう。"
 4,"TEXT_BANSAH107_01385_SEQ_04",""
 5,"TEXT_BANSAH107_01385_SEQ_05",""
 6,"TEXT_BANSAH107_01385_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_BANSAH107_01385_SEQ_21",""
 22,"TEXT_BANSAH107_01385_SEQ_22",""
 23,"TEXT_BANSAH107_01385_SEQ_23",""
-24,"TEXT_BANSAH107_01385_TODO_00","Gather whitecap clams on Moonshade Isle."
-25,"TEXT_BANSAH107_01385_TODO_01","Deliver the whitecap clams to Fyuu."
+24,"TEXT_BANSAH107_01385_TODO_00","月影島の<Sheet(EventItem,2001269,0)/>を入手"
+25,"TEXT_BANSAH107_01385_TODO_01","フュウに<Sheet(EventItem,2001269,0)/>を渡す"
 26,"TEXT_BANSAH107_01385_TODO_02",""
 27,"TEXT_BANSAH107_01385_TODO_03",""
 28,"TEXT_BANSAH107_01385_TODO_04",""
@@ -49,17 +49,33 @@ int32,str,str
 45,"TEXT_BANSAH107_01385_TODO_21",""
 46,"TEXT_BANSAH107_01385_TODO_22",""
 47,"TEXT_BANSAH107_01385_TODO_23",""
-48,"TEXT_BANSAH107_01385_FYUU_000_000","Pshhh... There are many duties that occupy my time here in the nursssery, not the leassst of which is keeping the hatchlings fed."
-49,"TEXT_BANSAH107_01385_FYUU_000_001","And though there are many fishhh to be had in the nearby waters, it would be nice to expose my little ssspawnbrothers to more of what the sssea has to offer."
-50,"TEXT_BANSAH107_01385_FYUU_000_002","Pshhh... If you could head over to Moonshhhade Isle and gather an armful of whitecap clams, it would do much for your ssstanding with the clutch."
-51,"TEXT_BANSAH107_01385_FYUU_000_003","The clams are a delicacy, you sssee, but we mussst often fight off other predators to claim them. Are you up to the tasssk?"
-52,"TEXT_BANSAH107_01385_FYUU_000_004","Pshhh... For this vital errand, I am shhhure Pahh will be glad to offer you the ssservices of his ssswiftest elbssst."
-53,"TEXT_BANSAH107_01385_FYUU_000_005","Head over to Moonshhhade Isle, and gather as many whitecap clams as you can find. Jussst be on the lookout for other predators ssseeking to contessst your claim!"
-54,"TEXT_BANSAH107_01385_TAMER01376_000_010","Pshhh... You go to Moonshhhade Isle for clams!? Ah, I can already tassste that sssucculent clam flesh..."
-55,"TEXT_BANSAH107_01385_Q1_000_000","Ride the elbst to Moonshade Isle?"
-56,"TEXT_BANSAH107_01385_A1_000_001","Yes"
-57,"TEXT_BANSAH107_01385_A1_000_002","No"
-58,"TEXT_BANSAH107_01385_POPMESSAGE_000_000","An uragnite contests your claim on the clams!"
-59,"TEXT_BANSAH107_01385_FYUU_000_020","Have you been to Moonshhhade Isle? Let me sssee your haul."
-60,"TEXT_BANSAH107_01385_FYUU_000_025","Pshhh! Thisss is a rare bounty! You have made many friends within the clutch this day."
-61,"TEXT_BANSAH107_01385_FYUU_000_026","I will drop these clams in a rock pool to keep them freshhh. <Emphasis>Cook</Emphasis> them? No, no, they mussst be eaten raw, shhhorewalker!"
+48,"TEXT_BANSAH107_01385_FYUU_000_000","フスィーッ……「ノォヴの育成地」はいい場所だ。
+その名の通り、親父が定めた「育成地」なんだからな。
+だが、ちぃーとばかし問題もある。"
+49,"TEXT_BANSAH107_01385_FYUU_000_001","食料になる魚介類が少ねぇんだ。
+成長期の弟たちには、腹いっぱい飯を食わせなきゃならねぇ！"
+50,"TEXT_BANSAH107_01385_FYUU_000_002","そこで、お前に頼みたいんだ。
+月影島に行って、弟たちの好物である
+「<Sheet(EventItem,2001269,0)/>」を取ってきてくれねぇか？"
+51,"TEXT_BANSAH107_01385_FYUU_000_003","あそこはちぃと危険でな、弟たちだけじゃ行かせられん。
+巻き貝の近くにゃ、ヤバい魔物が出るからな……。
+だが、冒険者のお前なら安心だ。"
+52,"TEXT_BANSAH107_01385_FYUU_000_004","月影島に行くときは、「海獣使いのパァア」に頼めばいい。
+それじゃ、よろしく頼んだぜ！"
+53,"TEXT_BANSAH107_01385_FYUU_000_005","月影島に行って、弟たちの好物である
+「<Sheet(EventItem,2001269,0)/>」を取ってきてくれねぇか？
+成長期の弟たちには、腹いっぱい飯を食わせなきゃならねぇ！"
+54,"TEXT_BANSAH107_01385_TAMER01376_000_010","フスィーッ……月影島に行きたいんだろ？
+エルブストは、今日も元気だ。"
+55,"TEXT_BANSAH107_01385_Q1_000_000","エルブストに乗り「月影島」へ行きますか？"
+56,"TEXT_BANSAH107_01385_A1_000_001","はい"
+57,"TEXT_BANSAH107_01385_A1_000_002","いいえ"
+58,"TEXT_BANSAH107_01385_POPMESSAGE_000_000","敵の気配を感じた！！"
+59,"TEXT_BANSAH107_01385_FYUU_000_020","フスィーッ……「<Sheet(EventItem,2001269,0)/>」を取ってこれたか？
+成長期の弟たちには、5個は必要だな。"
+60,"TEXT_BANSAH107_01385_FYUU_000_025","フスィーッ！
+おう、どっさり持ってきてくれたな。
+ありがとよ、これで弟たちの腹も膨れるだろう。"
+61,"TEXT_BANSAH107_01385_FYUU_000_026","集めた貝は、しばらく海水の中で生かしておける。
+弟たちは、この育成地でいつでも新鮮な貝が食えるんだ！
+でっかく、まっすぐ育ててやるぜ、弟たちよ！"

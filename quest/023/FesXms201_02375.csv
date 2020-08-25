@@ -1,13 +1,17 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_FESXMS201_02375_SEQ_00","'Tis the season, and Amh Garanjy seeks a kind-hearted soul to help her work miracles.
-※This quest is available for a limited time only."
-1,"TEXT_FESXMS201_02375_SEQ_01","Ever eager to fulfill her duty as a Starlight celebrant, Amh Garanjy is sparing no effort to bring happiness and good cheer to the children of the realm. Much to her chagrin, a parcel containing gifts for some unfortunate younglings has been mislaid or stolen, and she would seek your aid in retrieving it. So it is that you set forth for the Ruby Road Exchange, in hopes of delivering some much-needed joy to these boys and girls who are most wanting of smiles.
+0,"TEXT_FESXMS201_02375_SEQ_00","※本クエストは、期間限定のクエストとなります。
 
-※Please note that you will be unable to complete this quest after the seasonal event has ended. For details, please check the Lodestone."
-2,"TEXT_FESXMS201_02375_SEQ_02","The case of the missing parcel is solved: it was pilfered and hidden by one of the very younglings it was intended for, a boy who─unaware of the package's contents─stole away with it and hid it as a prank meant to rattle one of the physicians at the children's ward, where he is a patient. The raven-haired registrar there will surely be overjoyed to hear that the package has been retrieved safe and sound."
-3,"TEXT_FESXMS201_02375_SEQ_03","The raven-haired registrar rejoices at receiving the missing package, before asking you if he might ask you to work one more miracle this Starlight. Should you be in the giving mood, you need only speak with him anew."
+ルビーロード国際市場のアム・ガランジは、星芒祭の催しに関して困っているようだ。"
+1,"TEXT_FESXMS201_02375_SEQ_01","※本クエストは、シーズナルイベント開催中にかぎり、
+　受注、進行できます。
+　開催期間終了後は進行できませんので、ご注意ください。
+　期間等の詳細についてはLodestoneをご覧ください。
+
+アム・ガランジから星芒祭の催しで使用する荷物の捜索を頼まれた。ルビーロード国際市場で「<Sheet(EventItem,2002019,0)/>」を探そう。"
+2,"TEXT_FESXMS201_02375_SEQ_02","<Sheet(EventItem,2002019,0)/>を隠した犯人である少年と出会った。彼は、薬学院の医師たちへのイタズラとして、隠したようだが……。ウルダハのフロンデール歩廊にいる「黒髪の医師」に「<Sheet(EventItem,2002019,0)/>」を渡そう。"
+3,"TEXT_FESXMS201_02375_SEQ_03","黒髪の医師に<Sheet(EventItem,2002019,0)/>を渡した。彼は、冒険者に依頼したいことがあるようだ。時間があれば、話を聞いてみよう。"
 4,"TEXT_FESXMS201_02375_SEQ_04",""
 5,"TEXT_FESXMS201_02375_SEQ_05",""
 6,"TEXT_FESXMS201_02375_SEQ_06",""
@@ -28,8 +32,9 @@ int32,str,str
 21,"TEXT_FESXMS201_02375_SEQ_21",""
 22,"TEXT_FESXMS201_02375_SEQ_22",""
 23,"TEXT_FESXMS201_02375_SEQ_23",""
-24,"TEXT_FESXMS201_02375_TODO_00","Search for the special delivery."
-25,"TEXT_FESXMS201_02375_TODO_01","Deliver the special delivery to the raven-haired registrar at Frondale's Phrontistery."
+24,"TEXT_FESXMS201_02375_TODO_00","<Sheet(EventItem,2002019,0)/>を探す"
+25,"TEXT_FESXMS201_02375_TODO_01","フロンデール歩廊の黒髪の医師に
+<Sheet(EventItem,2002019,0)/>を渡す"
 26,"TEXT_FESXMS201_02375_TODO_02",""
 27,"TEXT_FESXMS201_02375_TODO_03",""
 28,"TEXT_FESXMS201_02375_TODO_04",""
@@ -52,17 +57,42 @@ int32,str,str
 45,"TEXT_FESXMS201_02375_TODO_21",""
 46,"TEXT_FESXMS201_02375_TODO_22",""
 47,"TEXT_FESXMS201_02375_TODO_23",""
-48,"TEXT_FESXMS201_02375_AMHGARANJY_000_000","Beg pardon, <If(PlayerParameter(4))>madam<Else/>sir</If>, but might you perchance be an adventurer? 'Tis Starlight season, and I'm searching for a <If(PlayerParameter(4))>woman<Else/>man</If> who might help me work miracles."
-49,"TEXT_FESXMS201_02375_AMHGARANJY_000_010","Why, if it isn't my favorite miracle worker from Starlights past! Might you be so kind as to lend me your aid once more? It would mean the world to the children."
-50,"TEXT_FESXMS201_02375_AMHGARANJY_000_020","As you know, the Starlight Celebration is a time to celebrate the children of the realm─our hope and our future. As a Starlight celebrant, it is my sworn duty to see happiness and good cheer duly doled out to all boys and girls, particularly those whose daily lives afford them few reasons to smile."
-51,"TEXT_FESXMS201_02375_AMHGARANJY_000_021","To that end, I've planned a special delivery for the younglings in the children's ward at Frondale's Phrontistery, but I fear things have hit a snag─the parcel has vanished!"
-52,"TEXT_FESXMS201_02375_AMHGARANJY_000_022","I trust it has only been misplaced and not stolen─what black-hearted wretch would deny those poor children a rare moment of good cheer? I would search for it myself, but I fear my duties as a celebrant keep me from leaving my post. Might you be so kind as to go looking in my stead?"
-53,"TEXT_FESXMS201_02375_AMHGARANJY_000_023","Oh, thank you, friend! With you on the job, I'm sure the children will be beaming with smiles within bells. The package is a large box engraved with the mark of Frondale's Phrontistery. One of my assistants says they saw a boy toting a similar box at the Ruby Road Exchange─perhaps you might begin your search there?"
-54,"TEXT_FESXMS201_02375_AMHGARANJY_000_024","Should you find the parcel, pray deliver it directly to the registrar at Frondale's. You have my heartfelt gratitude for your assistance─and remember, it's not just me that's counting on you to work miracles."
-55,"TEXT_FESXMS201_02375_REAUVERRE_000_040","H-Hey! Where are you taking that crate? I hid it there for a reason, you know!"
-56,"TEXT_FESXMS201_02375_REAUVERRE_000_041","It's wh-what? I saw the mark on it and assumed it belonged to one of the physicians from the children's ward! I was only trying to have a little fun, I promise!"
-57,"TEXT_FESXMS201_02375_REAUVERRE_000_042","I didn't mean to cause any trouble, honest! At least, not for you. So just...just take it and do whatever you want with it. And don't tell anyone you saw me here, okay? I don't want to get in trouble again!"
-58,"TEXT_FESXMS201_02375_DAMIELLIOT_000_060","Greetings, adventurer. Hm? You have a delivery for me?"
-59,"TEXT_FESXMS201_02375_DAMIELLIOT_000_061","Thank the heavens! When the goods the celebrant spoke of did not arrive at the designated time, I feared this Starlight would be a lonesome one for our poor children. Pray tell, wherever did it disappear to?"
-60,"TEXT_FESXMS201_02375_DAMIELLIOT_000_062","...I see. Thank you for your honesty, and fear not─we will not punish the boy. The younglings here do not live easy lives, but they have good hearts. I shall do what I can to see that they all have cause to smile today."
-61,"TEXT_FESXMS201_02375_DAMIELLIOT_000_063","On that subject, might I ask one more favor of you? I realize we have troubled you enough already, but I am certain it would bring the children no end of delight. If you would not be averse to helping us, pray speak with me again."
+48,"TEXT_FESXMS201_02375_AMHGARANJY_000_000","失礼ですが、もしやあなたは冒険者ではありませんか？
+……実は「星芒祭」の催しで、困ったことが起きまして、
+力を貸してくださる方を探していたのです。"
+49,"TEXT_FESXMS201_02375_AMHGARANJY_000_010","……ああ、冒険者さん！　お久しぶりです！
+いつぞやの「星芒祭」ではお世話になりました。
+よろしければ、今回も力をお借りできないでしょうか？"
+50,"TEXT_FESXMS201_02375_AMHGARANJY_000_020","ご存知のとおり、「星芒祭」は子どもたちのための祝祭。
+今回も子どもたちに楽しんでもらおうと、
+わたくしたち実行委員は、さまざまな催しを企画しました。"
+51,"TEXT_FESXMS201_02375_AMHGARANJY_000_021","そのひとつ、フロンデール薬学院の小児病棟にて、
+開催を予定していた催しで、問題が起きてしまいました。
+催しのために準備した荷物が、消えてしまったのです。"
+52,"TEXT_FESXMS201_02375_AMHGARANJY_000_022","件の荷物は、薬学院の印が刻まれた木箱に入っています。
+どうか、わたくしたちといっしょに、
+「<Sheet(EventItem,2002019,0)/>」を探していただけないでしょうか？"
+53,"TEXT_FESXMS201_02375_AMHGARANJY_000_023","ありがとうございます！
+では、ここ「ルビーロード国際市場」の近辺から、
+荷物の捜索を開始するとしましょう。"
+54,"TEXT_FESXMS201_02375_AMHGARANJY_000_024","そうそう、「<Sheet(EventItem,2002019,0)/>」が見つかりましたら、
+フロンデール歩廊にいる「黒髪の医師」にお渡しください。
+よろしくお願いしますね！"
+55,"TEXT_FESXMS201_02375_REAUVERRE_000_040","あっ……冒険者さん、その木箱を持っていかないで。
+僕がそこに隠しておいたんだから！"
+56,"TEXT_FESXMS201_02375_REAUVERRE_000_041","……え、その木箱、冒険者さんたちのものだったの？
+印が書かれてたから、薬学院のものだって思って、
+イタズラしちゃった……。"
+57,"TEXT_FESXMS201_02375_REAUVERRE_000_042","薬学院の先生たちが探しにくるって思ったんだ。
+冒険者さんに迷惑をかけるなんて、考えてなかった……
+困らせちゃって、ごめんなさい！"
+58,"TEXT_FESXMS201_02375_DAMIELLIOT_000_060","おや、なにか私にご用でしょうか？
+……その木箱を届けにきたですって？"
+59,"TEXT_FESXMS201_02375_DAMIELLIOT_000_061","……あぁ、よかった。
+これで子どもたちを、悲しませずにすみそうです。
+しかし、いったいこの木箱は、どちらにあったのでしょう？"
+60,"TEXT_FESXMS201_02375_DAMIELLIOT_000_062","少年が薬学院の医師たちへのイタズラとして、隠していた……と。
+なるほど……事情はわかりましたが……まさか……。"
+61,"TEXT_FESXMS201_02375_DAMIELLIOT_000_063","冒険者さん、この後のご予定はありますか？
+ひとつ、私の方から依頼したいことができまして……。
+受けていただけるのでしたら、私に声をおかけください。"

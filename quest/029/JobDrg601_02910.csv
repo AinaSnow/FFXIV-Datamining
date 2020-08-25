@@ -1,12 +1,15 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_JOBDRG601_02910_SEQ_00","Ser Alberic is pondering the flow of time."
-1,"TEXT_JOBDRG601_02910_SEQ_01","Having just heard news of Estinien's departure from Ishgard, Ser Alberic laments his aloof nature, but shows some understanding for his actions. As the topic of conversation turns to Heustienne's plight, her father, Montorgains appears. He mentions that he was recently handed a rather peculiar letter, bearing his daughter's name, that was a cry for your aid. You agree to help Heustienne once more and set off to meet her near Mare's Oath."
-2,"TEXT_JOBDRG601_02910_SEQ_02","Heustienne, having learned to suppress the dragon blood's effect on her to an extent, greets you cheerfully, mentioning she has made a new friend. Rather surprisingly, said friend is revealed to be a young dragon named Orn Khai. Heustienne explains that you were called to aid him in his search for his father's consort, who left Eorzea and flew to the east quite some time ago. You agree to help Orn Khai and are advised by Heustienne to try asking Ser Alberic about Dravanian legends concerning areas to the east."
-3,"TEXT_JOBDRG601_02910_SEQ_03","You tell Ser Alberic all you have learned speaking with Heustienne and Orn Khai. He notes that the priest affiliated with the Congregation of Our Knights Most Heavenly is somewhat of an authority of Dravanian legend, and says he shall talk to him on your behalf. You decide to bide your time until Ser Alberic is able to furnish you with a hint as to where to begin your search.
+0,"TEXT_JOBDRG601_02910_SEQ_00","アドネール占星台のアルベリクは、冒険者に話したいことがあるようだ。"
+1,"TEXT_JOBDRG601_02910_SEQ_01","前回までの冒険録：
+竜騎士ウスティエヌと協力し、血竜「グラウリー」を討伐した冒険者。しかし、ウスティエヌは異端者に飲まされた「竜の血」の影響が残るため、皇都を離れることを決意するのだった。
+　　　　　　　　　　　　*　*　*
+アルベリクと話していたところ、モントルガンが現れ、彼の娘、ウスティエヌからの助力の求めに応じるよう依頼された。高地ドラヴァニアのメアズオウス遺跡にある「<Sheet(EObj,2008547,0)/>」で待機し、ウスティエヌと会おう。"
+2,"TEXT_JOBDRG601_02910_SEQ_02","ウスティエヌから、子竜オーン・カイの頼みを聞くよう依頼された。オーン・カイの親竜にとっての、かつての番いを探してほしいという。アドネール占星台の「アルベリク」と話そう。"
+3,"TEXT_JOBDRG601_02910_SEQ_03","アルベリクと話した。東の空に去った竜の情報を集めるため、彼が協力してくれるという。調査結果が出るのを待とう。
 
-※The next dragoon quest will be available from Alberic upon reaching level 63."
+※竜騎士のレベルが63以上になると、アドネール占星台のアルベリクから次の竜騎士クエストを受注することができます。"
 4,"TEXT_JOBDRG601_02910_SEQ_04",""
 5,"TEXT_JOBDRG601_02910_SEQ_05",""
 6,"TEXT_JOBDRG601_02910_SEQ_06",""
@@ -27,8 +30,8 @@ int32,str,str
 21,"TEXT_JOBDRG601_02910_SEQ_21",""
 22,"TEXT_JOBDRG601_02910_SEQ_22",""
 23,"TEXT_JOBDRG601_02910_SEQ_23",""
-24,"TEXT_JOBDRG601_02910_TODO_00","Search for Heustienne at Mare's Oath."
-25,"TEXT_JOBDRG601_02910_TODO_01","Speak with Alberic."
+24,"TEXT_JOBDRG601_02910_TODO_00","メアズオウス遺跡の<Sheet(EObj,2008547,0)/>で待機"
+25,"TEXT_JOBDRG601_02910_TODO_01","アドネール占星台のアルベリクと話す"
 26,"TEXT_JOBDRG601_02910_TODO_02",""
 27,"TEXT_JOBDRG601_02910_TODO_03",""
 28,"TEXT_JOBDRG601_02910_TODO_04",""
@@ -51,44 +54,111 @@ int32,str,str
 45,"TEXT_JOBDRG601_02910_TODO_21",""
 46,"TEXT_JOBDRG601_02910_TODO_22",""
 47,"TEXT_JOBDRG601_02910_TODO_23",""
-48,"TEXT_JOBDRG601_02910_ALBERIC_000_001","Ah, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Word of Estinien's disappearance from the infirmary has reached mine ears."
-49,"TEXT_JOBDRG601_02910_ALBERIC_000_002","Whilst part of me is quite capable of sympathizing with his desire to abandon the Holy See, I do wish he had said something ere his departure."
-50,"TEXT_JOBDRG601_02910_ALBERIC_000_003","But then, I suppose it is only to be expected. With Nidhogg slain, the Horde's ranks have fallen into disarray, and they are not the threat they once were. Ishgard has scant need of an Azure Dragoon."
-51,"TEXT_JOBDRG601_02910_ALBERIC_000_004","Suffice it to say, one would imagine the role of the dragoon shall similarly be forced to change, as we enter this new era of relative peace."
-52,"TEXT_JOBDRG601_02910_ALBERIC_000_005","However, whilst you may have saved Estinien from the great wyrm, my mind is yet plagued by Heustienne's internal strife. May Halone lend her the strength needed to shake free from the dragon blood's fierce grip."
-53,"TEXT_JOBDRG601_02910_MONTORGAINS_000_006","You are looking quite well, Ser Alberic. And <If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! 'Tis a pleasure to see you too."
-54,"TEXT_JOBDRG601_02910_ALBERIC_000_007","Lord Montorgains! <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> and I were just speaking of your daughter."
-55,"TEXT_JOBDRG601_02910_MONTORGAINS_000_008","That daughter of mine is in fact why I have sought you out. I was recently handed a letter by a merchant that had passed through the Chocobo Forest; if his word is to be believed, he was entrusted with this message by Heustienne herself."
-56,"TEXT_JOBDRG601_02910_MONTORGAINS_000_009","The letter was a call for help. <If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, she bade you search for her."
-57,"TEXT_JOBDRG601_02910_ALBERIC_000_010","By the Fury, has she been set upon by heretics once more!?"
-58,"TEXT_JOBDRG601_02910_MONTORGAINS_000_011","Alas, there was no more information in her message. Oh, not a day goes by that I do not pray for her safe return..."
-59,"TEXT_JOBDRG601_02910_ALBERIC_000_012","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, I must ask that you take up your lance once more to aid your fellow dragoon. Are you willing?"
-60,"TEXT_JOBDRG601_02910_MONTORGAINS_000_013","Thank you, <If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Heustienne awaits you in the Dravanian forelands. Please, help her with whatever she requests."
-61,"TEXT_JOBDRG601_02910_ALBERIC_000_015","I entrust you with keeping Heustienne from harm. Head to the forelands and inquire as to her plight."
-62,"TEXT_JOBDRG601_02910_HEUSTIENNE_000_020","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>!"
-63,"TEXT_JOBDRG601_02910_HEUSTIENNE_000_021","So the letter reached my father. I am sorry for having you journey so far just to meet me. As you well know, I cannot return to Ishgard in my current condition."
-64,"TEXT_JOBDRG601_02910_HEUSTIENNE_000_022","That said, the blood's hold on me is not as firm as it once was. This is largely thanks to a new ally of mine. His help has been invaluable in learning to control the dragon within."
-65,"TEXT_JOBDRG601_02910_HEUSTIENNE_000_023","In fact, I have a mind to introduce him to you. Orn Khai, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> is arrived!"
-66,"TEXT_JOBDRG601_02910_ORNKHAI_000_024","It is an honor to meet you, hero of men. Much have I heard of you from my father. He would often talk of the warrior that boasts the strength of a dragon."
-67,"TEXT_JOBDRG601_02910_HEUSTIENNE_000_025","Orn Khai has been a great friend ever since he first came across me suffering from the blood's effects. I very much doubt I would be capable of standing here exchanging words with you were it not for his help."
-68,"TEXT_JOBDRG601_02910_HEUSTIENNE_000_026","I called you here in order to repay my debt to him. Orn Khai, tell <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> what troubles you."
-69,"TEXT_JOBDRG601_02910_ORNKHAI_000_027","Yes, thank you. Long before I came into this world, in the age when man and dragon were at peace, my father had a consort."
-70,"TEXT_JOBDRG601_02910_ORNKHAI_000_028","But the Dragonsong War tore them asunder. Father belonged to Hraesvelgr's brood, as do I, but his consort was part of Nidhogg's."
-71,"TEXT_JOBDRG601_02910_ORNKHAI_000_029","When Nidhogg demanded vengeance for the wrongs committed against him and Ratatoskr, Father asked his consort to fly far to the east."
-72,"TEXT_JOBDRG601_02910_ORNKHAI_000_030","She bore no ill will towards man, and while she wanted nothing more than to stay by Father's side, she accepted his request and fled the conflict."
-73,"TEXT_JOBDRG601_02910_ORNKHAI_000_031","However, your valiant actions have since put an end to the Dragonsong War. I am positive Father's consort will return if we inform her of the war's conclusion!"
-74,"TEXT_JOBDRG601_02910_HEUSTIENNE_000_032","Orn Khai requires your aid to search for his father's consort and bring her back home. However, as she left Dravania some thousand summers past, locating her shall be far from an easy task."
-75,"TEXT_JOBDRG601_02910_HEUSTIENNE_000_033","Under normal circumstances, I would help Orn Khai myself. But while I am somewhat recovered, I am yet far from being in complete control."
-76,"TEXT_JOBDRG601_02910_HEUSTIENNE_000_034","This is why I summoned you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Your knowledge of the realm is unparalleled. I beg of you, aid Orn Khai in his search!"
-77,"TEXT_JOBDRG601_02910_ORNKHAI_000_035","You have my sincerest thanks, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>!"
-78,"TEXT_JOBDRG601_02910_HEUSTIENNE_000_036","Thank you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I owe you a debt of gratitude once more. Regrettably, whilst we know she is somewhere to the east, we are entirely ignorant as to the consort's precise whereabouts."
-79,"TEXT_JOBDRG601_02910_HEUSTIENNE_000_037","I would suggest you first try asking Ser Alberic about Dravanian legends, specifically those concerning dragons in the East. Pray report back to me once you have learned something you deem pertinent."
-80,"TEXT_JOBDRG601_02910_HEUSTIENNE_000_040","See if Ser Alberic knows aught of Dravanian legends concerning the East. Pray report back to me once you have learned something pertinent."
-81,"TEXT_JOBDRG601_02910_ORNKHAI_000_045","Father often remarked that you would have made a fine Dravanian!"
-82,"TEXT_JOBDRG601_02910_ALBERIC_000_050","Glad to see you safely returned! Were you able to locate Heustienne?"
-83,"TEXT_JOBDRG601_02910_ALBERIC_000_051","Hmm, I see. She is correct to surmise that formidable dragons are oft made the subject of local legend."
-84,"TEXT_JOBDRG601_02910_ALBERIC_000_052","I shall discuss this with the Congregation priest. I have known him to be quite an authority on Dravanian legends."
-85,"TEXT_JOBDRG601_02910_ALBERIC_000_053","Although, to think that a dragoon once gripped by the sole desire to slay dragons should now wish to help one. 'Tis a queer new world indeed that we inhabit, though not one I dislike."
-86,"TEXT_JOBDRG601_02910_ALBERIC_000_054","But that matters not. I shall seek out the priest at once and raise your query with him. Pray return anon and I shall impart my findings unto you."
-87,"TEXT_JOBDRG601_02910_SYSTEM_000_055","The next dragoon quest will be available from Alberic upon reaching level 63."
-88,"TEXT_JOBDRG601_02910_SYSTEM_000_056","The requirements for undertaking subsequent quests can be reviewed in your journal."
+48,"TEXT_JOBDRG601_02910_ALBERIC_000_001","久しいな、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
+エスティニアンのことは聞いたよ……。
+神殿騎士団病院から姿を消したということはな。"
+49,"TEXT_JOBDRG601_02910_ALBERIC_000_002","何も告げずにイシュガルドを去るというのは、
+水くさいと思わないでもないが、一方で気持ちもわかるのだ。"
+50,"TEXT_JOBDRG601_02910_ALBERIC_000_003","ニーズヘッグが斃れた今、邪竜の眷属は統率を欠いている。
+散発的に襲ってくることはあっても、かつてほどの脅威ではない。
+もはや、蒼の竜騎士が必要な時代は終わったのだ……。"
+51,"TEXT_JOBDRG601_02910_ALBERIC_000_004","竜を狩る者たる竜騎士の役割も、
+新たな時代に応じて、自ずと変わりゆくのだろう。"
+52,"TEXT_JOBDRG601_02910_ALBERIC_000_005","そして、弟子であるエスティニアンを、君が救ってくれた今、
+残る心配事と言えば、ウスティエヌのことくらいか……。
+はやく竜の血の影響から脱してくれれば良いのだが。"
+53,"TEXT_JOBDRG601_02910_MONTORGAINS_000_006","ご無沙汰しております、アルベリク卿。
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さんも、
+こちらにいらっしゃったとは、なんたる幸運！"
+54,"TEXT_JOBDRG601_02910_ALBERIC_000_007","おや、お久しぶりですね。
+ちょうど貴方の娘さん、ウスティエヌについて、
+話していたところなのですよ。"
+55,"TEXT_JOBDRG601_02910_MONTORGAINS_000_008","その娘のことで相談したいことがあるのです！
+というのも、チョコボの森に出入りする行商人が、
+娘から託されたという手紙を、皇都まで届けにきましてな。"
+56,"TEXT_JOBDRG601_02910_MONTORGAINS_000_009","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さんの力をお借りしたいので、
+どうか探してほしいと、そう記されていたのです。"
+57,"TEXT_JOBDRG601_02910_ALBERIC_000_010","なんですって！？
+いったい彼女の身に何が……？"
+58,"TEXT_JOBDRG601_02910_MONTORGAINS_000_011","それが、詳しい事情は書かれておりませんでな。
+何か悪いことが起きてはいないかと、心配で心配で……。"
+59,"TEXT_JOBDRG601_02910_ALBERIC_000_012","ふむ……とにかく会ってみるしかないか……。
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>……私からも頼む。
+どうか「ウスティエヌ」の力になってやってくれまいか？"
+60,"TEXT_JOBDRG601_02910_MONTORGAINS_000_013","ありがとうございます。
+娘は高地ドラヴァニアの「メアズオウス遺跡」なる場所で、
+あなたを待っているそうで……どうか、よろしくお願いします。"
+61,"TEXT_JOBDRG601_02910_ALBERIC_000_015","ウスティエヌの力になってやってくれ。
+彼女は高地ドラヴァニアの「メアズオウス遺跡」にて、
+君のことを待っているそうだ。"
+62,"TEXT_JOBDRG601_02910_HEUSTIENNE_000_020","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>……来てくれたか！"
+63,"TEXT_JOBDRG601_02910_HEUSTIENNE_000_021","父上に手紙が届いたのだな？
+わざわざ、このような辺境の地へ呼び出してすまない。
+だが、頼りにできるのは君だけでね……。"
+64,"TEXT_JOBDRG601_02910_HEUSTIENNE_000_022","といっても、私の身に起きていることではない。
+竜の血の影響についても、新たにできた友人のおかげで、
+徐々にではあるが、克服しつつあるのだ。"
+65,"TEXT_JOBDRG601_02910_HEUSTIENNE_000_023","その友人を紹介しよう……。
+オーン・カイ、来てくれ！"
+66,"TEXT_JOBDRG601_02910_ORNKHAI_000_024","は、はじめまして……。
+うわぁ、本当にヒトの英雄だ！
+父ちゃんが言ってたとおり、竜みたいなヒトだなぁ！"
+67,"TEXT_JOBDRG601_02910_HEUSTIENNE_000_025","このとおり、オーン・カイはドラゴン族だ。
+私が竜の血の影響で、発作を起こして苦しんでいたときに、
+助けてくれてな……それ以来、親しくさせてもらっている。"
+68,"TEXT_JOBDRG601_02910_HEUSTIENNE_000_026","力を借りたい件というのは、彼に関わることでね……。
+オーン・カイ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>に相談してみろ。"
+69,"TEXT_JOBDRG601_02910_ORNKHAI_000_027","う、うん……僕が生まれるより、ずっと昔……。
+竜とヒトが仲良しだった頃のことなんだけど……
+僕の父ちゃんには、「番い（つがい）」の竜がいたんだ。"
+70,"TEXT_JOBDRG601_02910_ORNKHAI_000_028","でも、竜詩戦争が始まって、ふたりは別れたんだって……。
+僕も父ちゃんも、フレースヴェルグ様の眷属なんだけどさ、
+番いさんは、ニーズヘッグの眷属だったんだ。"
+71,"TEXT_JOBDRG601_02910_ORNKHAI_000_029","ニーズヘッグは、ヒトを殺せって自分の眷属に命じたんだけど、
+父ちゃんの番いさんは、仲がよかったヒトたちと、
+どうしても戦いたくなかった……。"
+72,"TEXT_JOBDRG601_02910_ORNKHAI_000_030","だから、父ちゃんは、番いさんを東の空に逃がしたんだ。
+ふたりは別れたくなかったけど、戦いから離れるためには、
+そうするしかなかったんだって……。"
+73,"TEXT_JOBDRG601_02910_ORNKHAI_000_031","でも、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>のおかげで、
+竜詩戦争は、もう終わったんでしょ？
+だったら、それを伝えれば、きっと番いさんは戻ってくれるはず！"
+74,"TEXT_JOBDRG601_02910_HEUSTIENNE_000_032","つまり、オーン・カイの願いというのは、
+千年の昔にドラヴァニアから去ったドラゴン族を見つけ出し、
+竜詩戦争が終結したことを伝え、帰還を促すことなのだ。"
+75,"TEXT_JOBDRG601_02910_HEUSTIENNE_000_033","私自身が力になってやりたいところだが、
+竜の血の影響が残る状況では、足手まといになりかねない。"
+76,"TEXT_JOBDRG601_02910_HEUSTIENNE_000_034","そこで、世界を股にかける冒険者たる、君の力を借りたいのだ。
+むろん君自身の冒険の合間で構わない……。
+どうか……どうか頼む！"
+77,"TEXT_JOBDRG601_02910_ORNKHAI_000_035","あ、ありがとう！
+僕もいっしょに探すから、よろしくね！"
+78,"TEXT_JOBDRG601_02910_HEUSTIENNE_000_036","感謝する、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
+ただし、何の手がかりもなく消えたドラゴン族を探すというのは、
+いかに熟練の冒険者であっても、難しいだろう。"
+79,"TEXT_JOBDRG601_02910_HEUSTIENNE_000_037","まずは、ドラヴァニアより東の地域に伝わる、
+竜にまつわる伝承を調べていくのが確実だと思う。
+「アルベリク」に相談し、情報を掴んだら、また来てくれ。"
+80,"TEXT_JOBDRG601_02910_HEUSTIENNE_000_040","まずは、ドラヴァニアより東の地域に伝わる、
+竜にまつわる伝承を調べていくのが確実だと思う。
+「アルベリク」に相談し、情報を掴んだら、また来てくれ。"
+81,"TEXT_JOBDRG601_02910_ORNKHAI_000_045","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>のことは、
+父ちゃんから聞いたことがあるんだ。
+すごい強くて、竜みたいなヒトだってさ！"
+82,"TEXT_JOBDRG601_02910_ALBERIC_000_050","おぉ、戻ったか！
+ウスティエヌには会えたのか？"
+83,"TEXT_JOBDRG601_02910_ALBERIC_000_051","なるほど……事情はわかった。
+確かに強大なドラゴン族が現れたとなれば、
+その土地に伝承として残り、語り継がれている可能性は高い。"
+84,"TEXT_JOBDRG601_02910_ALBERIC_000_052","私が神殿騎士団付きの司祭に問い合わせて、
+ドラヴァニアより東の地域における竜の伝承を調べておこう。"
+85,"TEXT_JOBDRG601_02910_ALBERIC_000_053","しかし、かつて竜狩りに心血を注いだ女竜騎士が、
+ドラゴン族の子の力になりたいと願うとはな……。
+時代は変わったよ、もちろん良い方向にな。"
+86,"TEXT_JOBDRG601_02910_ALBERIC_000_054","では、少しばかり時間をくれ。
+折を見て、また来てくれれば調査結果を伝えよう。"
+87,"TEXT_JOBDRG601_02910_SYSTEM_000_055","「竜騎士」の新たなジョブクエストが開始されました。
+次のクエストは「レベル63」以上で、
+アドネール占星台のアルベリクから受注可能です。"
+88,"TEXT_JOBDRG601_02910_SYSTEM_000_056","今後の「竜騎士」のジョブクエスト受注条件は、
+コンプリート後のジャーナルで確認できます。"

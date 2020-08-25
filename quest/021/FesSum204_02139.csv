@@ -1,14 +1,18 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_FESSUM204_02139_SEQ_00","J'nangho is riffling through a stack of papers.
-※This quest is available for a limited time only."
-1,"TEXT_FESSUM204_02139_SEQ_01","J'nangho tells you of how the Yellow Ranger has perfected a new and deadly attack and he swears its potency is such that it can easily take down any Bombards that have the misfortune to be on the receiving end. The problem? He has yet to test it out on actual Bombards. Requesting that you first weaken the voidsent beasts and then capture them using flame-resistant nets, J'nangho would then like you to release them in the general vicinity of the proud Ranger, so that both you and he can gauge just how effective his attack truly is.
+0,"TEXT_FESSUM204_02139_SEQ_00","※本クエストは、期間限定のクエストとなります。
 
-※Please note that you will be unable to complete this quest after the seasonal event has ended. For details, please check the Lodestone."
-2,"TEXT_FESSUM204_02139_SEQ_02","After a bit of hacking and slashing, you manage to weaken and then capture three Bygone Bombards with heat-resistant nets. With them in hand, travel to the area where the Yellow Ranger is training and release the voidsent beasts at the designated location."
-3,"TEXT_FESSUM204_02139_SEQ_03","Soon after you release the Bygone Bombards, the Yellow Ranger catches sight of the creatures and urges you to fall back as he unleashes his attack. He quickly takes care of them, emerging from the battle mostly unscathed. Return to Haermaga with an update on how training is progressing."
-4,"TEXT_FESSUM204_02139_SEQ_04","Haermaga is pleased to hear that the Yellow Ranger's training is progressing as desired, and that there have been no major complications along the way. He thanks you for your help and asks that you continue to lend your support."
+コスタ・デル・ソルのＡＢＵ隊員ジャ・ナンゴは、忙しそうに書類を確認している。"
+1,"TEXT_FESSUM204_02139_SEQ_01","※本クエストは、シーズナルイベント開催中にかぎり、
+　受注、進行できます。
+　開催期間終了後は進行できませんので、ご注意ください。
+　期間等の詳細についてはLodestoneをご覧ください。
+
+ＡＢＵ隊員ジャ・ナンゴから、火消しの戦士「イエローウォーリア」の手伝いを依頼された。東ラノシア北部にて、「<Sheet(BNpcName,4964,0)/>」を弱らせてから「<Sheet(EventItem,2001973,0)/>」を使い、3体捕獲しよう。"
+2,"TEXT_FESSUM204_02139_SEQ_02","<Sheet(BNpcName,4964,0)/>を捕獲した。火消しの戦士「イエローウォーリア」の特訓を手伝うため、東ラノシアの「<Sheet(EObj,2007166,0)/>」に、「<Sheet(EventItem,2001974,0)/>」を設置しよう。"
+3,"TEXT_FESSUM204_02139_SEQ_03","<Sheet(EventItem,2001974,0)/>を設置した。火消しの戦士「イエローウォーリア」は、大炎獣の業火に耐える特訓をしていた。コスタ・デル・ソルの「紅蓮祭実行委員長ヘールマガ」に報告しよう。"
+4,"TEXT_FESSUM204_02139_SEQ_04","紅蓮祭実行委員長ヘールマガに報告した。冒険者の協力のおかげで、「火消しの戦士」は成長しているようだ。大炎獣キングボンバードの再襲来を警戒しつつ、引き続き、「火消しの戦士」たちの特訓を手伝おう。"
 5,"TEXT_FESSUM204_02139_SEQ_05",""
 6,"TEXT_FESSUM204_02139_SEQ_06",""
 7,"TEXT_FESSUM204_02139_SEQ_07",""
@@ -28,9 +32,9 @@ int32,str,str
 21,"TEXT_FESSUM204_02139_SEQ_21",""
 22,"TEXT_FESSUM204_02139_SEQ_22",""
 23,"TEXT_FESSUM204_02139_SEQ_23",""
-24,"TEXT_FESSUM204_02139_TODO_00","Weaken and then capture the Bygone Bombards with flame-resistant nets."
-25,"TEXT_FESSUM204_02139_TODO_01","Release the bound Bombards at the designated location."
-26,"TEXT_FESSUM204_02139_TODO_02","Speak with Haermaga."
+24,"TEXT_FESSUM204_02139_TODO_00","<Sheet(BNpcName,4964,0)/>を弱らせてから<Sheet(EventItem,2001973,0)/>を使って捕獲"
+25,"TEXT_FESSUM204_02139_TODO_01","<Sheet(EObj,2007166,0)/>に<Sheet(EventItem,2001974,0)/>を使う"
+26,"TEXT_FESSUM204_02139_TODO_02","紅蓮祭実行委員長ヘールマガと話す"
 27,"TEXT_FESSUM204_02139_TODO_03",""
 28,"TEXT_FESSUM204_02139_TODO_04",""
 29,"TEXT_FESSUM204_02139_TODO_05",""
@@ -52,35 +56,82 @@ int32,str,str
 45,"TEXT_FESSUM204_02139_TODO_21",""
 46,"TEXT_FESSUM204_02139_TODO_22",""
 47,"TEXT_FESSUM204_02139_TODO_23",""
-48,"TEXT_FESSUM204_02139_JNANGHO_000_000","Hello, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! I'm so happy you're here! The Yellow Ranger has allegedly taught himself a new maneuver whereby he can, with a single well-placed strike, blast a Bombard to smithereens."
-49,"TEXT_FESSUM204_02139_JNANGHO_000_001","Indeed, this is exciting news, but he has yet to test this “death-blow” on actual Bombards. Despite his claims, I somehow doubt that swinging his axe at the air and yelling has done much to help him refine his technique."
-50,"TEXT_FESSUM204_02139_JNANGHO_000_002","To allow him to gauge just how effective this would be on a real target and assess what might need improvement, I ask that you weaken three Bygone Bombards, capture them with these flame-resistant nets, and then place them in his general vicinity."
-51,"TEXT_FESSUM204_02139_JNANGHO_000_003","...And if you could keep this between us, it would be for the best. I'm afraid if he were to learn of our plan, he'd become a tad overeager to prove the potency of this new attack, charge headfirst into a bevy of Bombards, and end up injured or worse."
-52,"TEXT_FESSUM204_02139_JNANGHO_000_008",""
-53,"TEXT_FESSUM204_02139_JNANGHO_000_009",""
-54,"TEXT_FESSUM204_02139_BEAUDEFOIN_000_009","So you have found me, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! I suppose this is a testament to your skill, for I purposely chose this secluded spot that I might practice away from prying eyes. Should the secrets of my Triple Majestic Slash Attack fall into the wrong hands, it could have disastrous and far-reaching consequences!"
-55,"TEXT_FESSUM204_02139_BEAUDEFOIN_000_010","You're here to see me in action, I presume? I'd love to indulge you, my friend, but I fear you'll have to wait until we face a sizable threat, that I might reveal to you the true potential of this most devastating attack."
-56,"TEXT_FESSUM204_02139_BEAUDEFOIN_000_011","Stand back, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! Those Bombards appear to be of a highly dangerous breed! I shall finish them off!"
-57,"TEXT_FESSUM204_02139_BEAUDEFOIN_000_012","Graaagh! Begone from whence you came, foul fiends!"
-58,"TEXT_FESSUM204_02139_BEAUDEFOIN_000_013","Hahaha! That wasn't a very stimulating fight. This must mean I have, through my training, grown to be that much more powerful!"
-59,"TEXT_FESSUM204_02139_BEAUDEFOIN_000_014","While my skills with an axe are nearly unrivaled, I must nevertheless find a way to counteract the blinding light which accompanies a Bombard's suicidal blast. In a true battle, it could prove most detrimental!"
-60,"TEXT_FESSUM204_02139_BEAUDEFOIN_000_015","Moreover, it would not be good for morale should the group's most talented member be seen to stumble blindly about the battlefield!"
-61,"TEXT_FESSUM204_02139_BEAUDEFOIN_000_016","Tell the Re─er, Haermaga─that I shall resume my training as soon as I have finished scrubbing the soot from my armor."
-62,"TEXT_FESSUM204_02139_BEAUDEFOIN_000_020","Watch out, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! They're back!"
-63,"TEXT_FESSUM204_02139_BEAUDEFOIN_000_021","Eager to meet your maker, are you!? Vile fiends!"
-64,"TEXT_FESSUM204_02139_BEAUDEFOIN_000_022","You, my friend, seem to draw these vicious monsters to you, like moths to a flame. Fortunately, your bad luck has afforded me an opportunity to confirm just how effective my training has been!"
-65,"TEXT_FESSUM204_02139_BEAUDEFOIN_000_023","Why, my reflexes have become such that I can predict when and what type of attack the Bombards will use, allowing me to avert my gaze and prevent myself from becoming dazed by their blasts!"
-66,"TEXT_FESSUM204_02139_BEAUDEFOIN_000_024","All this progress has me eager to return to training, so I shall do just that. Oh, and should you bump into Haermaga, do be sure to tell him of the astounding amount of progress I have made─he's certain to be impressed by the swiftness with which I eliminated the fiends!"
-67,"TEXT_FESSUM204_02139_BEAUDEFOIN_000_030","Your misfortune persists! Fall back, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, that I might do away with these fiends once and for all!"
-68,"TEXT_FESSUM204_02139_BEAUDEFOIN_000_031","Die, you fang-faced monstrosities!"
-69,"TEXT_FESSUM204_02139_BEAUDEFOIN_000_032","Th-There is no need to worry, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Ahem. I was simply caught off guard by the, er, bang that resounded through the area, and that caused me to...trip. Y-Yes, I tripped, but as you can see, I haven't a scratch on me!"
-70,"TEXT_FESSUM204_02139_BEAUDEFOIN_000_033","Accident or not, however, there is no room for error on the battlefield and I must focus on improving my concentration. The Red Ranger relies heavily on his right-hand man, and I cannot fail him."
-71,"TEXT_FESSUM204_02139_BEAUDEFOIN_000_034","He has toiled day and night to become the hero this realm so desperately needs, all for the sake of a promise he made to one little boy who wished for a masked man to banish the Bombards so his imaginary cat might frolic freely in the fields...or, at least, that's what I think he said."
-72,"TEXT_FESSUM204_02139_BEAUDEFOIN_000_035","Anyhow, my point simply is this: as our official leader, any promises he makes are, by extension, promises all Go Go Posing Rangers make!"
-73,"TEXT_FESSUM204_02139_BEAUDEFOIN_000_036","That is why I, too, must become strong enough to weather any trial that may come and not falter as I did today."
-74,"TEXT_FESSUM204_02139_BEAUDEFOIN_000_037","Now, I shall return to practicing, so I might do Red proud and the boy might finally meet the hero he so admires!"
-75,"TEXT_FESSUM204_02139_JNANGHO_000_039",""
-76,"TEXT_FESSUM204_02139_HAERMAGA_000_040","Thank you for taking the time to assist our Yellow Ranger with his training."
-77,"TEXT_FESSUM204_02139_HAERMAGA_000_041","I hope we can count on your continued support, for the Go Go Posing Rangers need all the help you can provide if they are to take down the Bombard King!"
-78,"TEXT_FESSUM204_02139_HAERMAGA_000_045","J'nangho shared the news with me earlier. Though...not to question the veracity of the Yellow Ranger's claim, but tell me, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, is this “death-blow” truly as grand as she says?"
-79,"TEXT_FESSUM204_02139_HAERMAGA_000_046","Haha! Wonderful! I can only hope all three of our Rangers will make as much progress as he has today. We've no shortage of burgeoning Bombards to attend to, after all!"
+48,"TEXT_FESSUM204_02139_JNANGHO_000_000","さらなる紅蓮祭への協力、ありがとう！
+今度は、火消しの戦士「イエローウォーリア」を
+手伝ってくれるのね？"
+49,"TEXT_FESSUM204_02139_JNANGHO_000_001","イエローウォーリアは、現在、北方にて、
+大炎獣の手下たちを駆除しているわ。
+これを手伝い、「<Sheet(BNpcName,4964,0)/>」を3体捕獲してほしいの。"
+50,"TEXT_FESSUM204_02139_JNANGHO_000_002","これが、捕まえたボンバードを入れる「<Sheet(EventItem,2001973,0)/>」よ。
+「<Sheet(BNpcName,4964,0)/>」を、ある程度弱らせてから、
+この網を使えば、捕獲することができるわ。"
+51,"TEXT_FESSUM204_02139_JNANGHO_000_003","「<Sheet(EventItem,2001974,0)/>」は、
+イエローウォーリアの前に置けば、彼が処理してくれるわよ。
+それじゃ、頑張って！"
+52,"TEXT_FESSUM204_02139_JNANGHO_000_008","（★未使用／削除予定★）"
+53,"TEXT_FESSUM204_02139_JNANGHO_000_009","（★未使用／削除予定★）"
+54,"TEXT_FESSUM204_02139_BEAUDEFOIN_000_009","ひゃっは～、俺は秘密の特訓中だ！
+手伝ってくれるなら、「<Sheet(BNpcName,4964,0)/>」をとっつかまえて、
+そこに放り込んでくれ！"
+55,"TEXT_FESSUM204_02139_BEAUDEFOIN_000_010","ひゃっは～、いいボンバードを捕まえてくれたようだな！
+<Sheet(EventItem,2001974,0)/>は、そこに設置して、急いで離れな！！
+でないと焦げちまうぜ！？"
+56,"TEXT_FESSUM204_02139_BEAUDEFOIN_000_011","ありがとよーー！
+ボンバードを網から放ったら、さっさと、その場を離れな！"
+57,"TEXT_FESSUM204_02139_BEAUDEFOIN_000_012","おら、火の玉、俺を丸焦げにしてみやがれ！
+おりゃあああああああ！！"
+58,"TEXT_FESSUM204_02139_BEAUDEFOIN_000_013","ひゃっはー、刺激が足りねーぜ。
+どうだ、驚いたか？
+コイツが護り手である俺の、大炎獣の業火に耐える特訓だ！"
+59,"TEXT_FESSUM204_02139_BEAUDEFOIN_000_014","しかし、これじゃ大炎獣の火力にゃ、遠くおよばねー。
+レッドウォーリアのカミナリの方が、よっぽど効くぜ。"
+60,"TEXT_FESSUM204_02139_BEAUDEFOIN_000_015","そうさ、レッドウォーリアを心配させねえためにも、
+俺は、もっと強烈な火炎に耐えなきゃなんねー！
+だから、また活きのいいボンバードを捕まえてきてくれ。"
+61,"TEXT_FESSUM204_02139_BEAUDEFOIN_000_016","協力してくれて、ありがとうよ！
+アンタは、ヘールマガに特訓の成果を報告しといてくれ。
+俺は、さらにイケてる英雄目指して、もっと特訓してくわ。"
+62,"TEXT_FESSUM204_02139_BEAUDEFOIN_000_020","活きのいいボンバードを網から放ったら、
+丸焼きにされちまう前に、その場を離れな！"
+63,"TEXT_FESSUM204_02139_BEAUDEFOIN_000_021","おらおら、火の玉！！
+ド派手に爆ぜて、俺を焦がしてみろや！！"
+64,"TEXT_FESSUM204_02139_BEAUDEFOIN_000_022","ひゃっはー、まだまだ刺激が足りねーな。
+こりゃ、蚊に刺された程度だぜ！"
+65,"TEXT_FESSUM204_02139_BEAUDEFOIN_000_023","かなり強い火力にも、耐えられるようになってきてるぜ！
+これなら、レッドウォーリアの心配も減るにちがいねえ。
+アンタのおかげだ、ありがとよ！"
+66,"TEXT_FESSUM204_02139_BEAUDEFOIN_000_024","んじゃ、俺は、もう少し特訓に励んでいくわ。
+アンタは、ヘールマガに今回の成果を報告しといてくれ。
+今度は、さらに活きのいいボンバードを捕まえてくれよな！"
+67,"TEXT_FESSUM204_02139_BEAUDEFOIN_000_030","弾けるほどに活きのいいボンバードを網から放ったら、
+炭にされちまわないよう、さっさと離れな！"
+68,"TEXT_FESSUM204_02139_BEAUDEFOIN_000_031","おらおら火の玉、てめえの底意地みせて、
+俺を吹っ飛ばしてみやがれ！！"
+69,"TEXT_FESSUM204_02139_BEAUDEFOIN_000_032","けっ、心配なんてしてくれるなよ。
+こんなの全然効いてねーからな。
+今までがヌルすぎたもんで……油断したってやつだ。"
+70,"TEXT_FESSUM204_02139_BEAUDEFOIN_000_033","……とはいえ、こんな簡単に倒れるようじゃ、
+心配性のレッドウォーリアを安心させられねえな。"
+71,"TEXT_FESSUM204_02139_BEAUDEFOIN_000_034","ここだけの話だが、レッドウォーリアが、
+「英雄」にこだわるのには、深い深い理由があるのさ。
+それは、あるガキと交わした約束だ……。"
+72,"TEXT_FESSUM204_02139_BEAUDEFOIN_000_035","レッドウォーリアは、「火消しの戦士」のリーダーだ。
+ヤツが交わした約束は、俺たち3人の約束だし、
+ヤツの夢は、俺たち3人の夢なのさ！！"
+73,"TEXT_FESSUM204_02139_BEAUDEFOIN_000_036","だから俺は、どんな業火にも耐えなきゃなんねえ。
+リーダーが約束を守り抜いて、真の「英雄」になるためにゃ、
+地味でイケてない特訓だって、乗り越えてやるよ！"
+74,"TEXT_FESSUM204_02139_BEAUDEFOIN_000_037","てなわけで、これからも頼りにさせてくれよな？
+んじゃ、俺は、もう少し特訓に励んでいくぜ。
+アンタは、ヘールマガに特訓の成果を報告しにいってくれ。"
+75,"TEXT_FESSUM204_02139_JNANGHO_000_039","（★未使用／削除予定★）"
+76,"TEXT_FESSUM204_02139_HAERMAGA_000_040","よく手伝ってくれたな。
+イエローウォーリアに代わって、礼を言う。"
+77,"TEXT_FESSUM204_02139_HAERMAGA_000_041","これからも、協力をよろしくたのむ。
+イエローウォーリアは、
+特訓が過酷になればなるほど、本気を出してくるからな。"
+78,"TEXT_FESSUM204_02139_HAERMAGA_000_045","ところで、「火消しの戦士」の仕上がりはどうだ？
+至らぬようなら、今後も彼らを鍛えてやってほしい。
+その時は、「ＡＢＵ隊員ジャ・ナンゴ」に声をかけてくれ。"
+79,"TEXT_FESSUM204_02139_HAERMAGA_000_046","大炎獣は頻繁に襲ってくるので、時間がないのだ。
+「紅蓮祭」の成功のためにも、よろしく頼む！"

@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDB102_02963_SEQ_00","You can almost see the wheels turning in Alphinaud's head."
+0,"TEXT_STMBDB102_02963_SEQ_00","ラールガーズリーチのアルフィノは、考え込んでいる。"
 1,"TEXT_STMBDB102_02963_SEQ_01",""
 2,"TEXT_STMBDB102_02963_SEQ_02",""
 3,"TEXT_STMBDB102_02963_SEQ_03",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_STMBDB102_02963_SEQ_21",""
 22,"TEXT_STMBDB102_02963_SEQ_22",""
 23,"TEXT_STMBDB102_02963_SEQ_23",""
-24,"TEXT_STMBDB102_02963_TODO_00","Speak with residents of the Ala Mhigan Quarter."
-25,"TEXT_STMBDB102_02963_TODO_01","Speak with Ernold."
-26,"TEXT_STMBDB102_02963_TODO_02","Report to Arenvald."
+24,"TEXT_STMBDB102_02963_TODO_00","アラミガン・クォーターで情報を集める"
+25,"TEXT_STMBDB102_02963_TODO_01","エルノルドと話す"
+26,"TEXT_STMBDB102_02963_TODO_02","アレンヴァルドに報告"
 27,"TEXT_STMBDB102_02963_TODO_03",""
 28,"TEXT_STMBDB102_02963_TODO_04",""
 29,"TEXT_STMBDB102_02963_TODO_05",""
@@ -49,62 +49,138 @@ int32,str,str
 45,"TEXT_STMBDB102_02963_TODO_21",""
 46,"TEXT_STMBDB102_02963_TODO_22",""
 47,"TEXT_STMBDB102_02963_TODO_23",""
-48,"TEXT_STMBDB102_02963_ARENVALD_000_001","If anyone can find that treasure, it's us─but even if we don't, the adventure will be reward enough, I reckon."
-49,"TEXT_STMBDB102_02963_ALPHINAUD_000_002","The news of Doma and Ala Mhigo's liberation has kindled the flames of revolution in every corner of the Empire. I hear the imperial province of Dalmasca has already risen up in rebellion..."
-50,"TEXT_STMBDB102_02963_ALPHINAUD_000_010","...Which means the Garleans must surely have their hands full. What better time than now to indulge in such a diversion? Tell us, Arenvald─have we any clues as to where we might begin our search?"
-51,"TEXT_STMBDB102_02963_ARENVALD_000_011","Well, judging by how the other treasure hunters fared, nosing about the palace isn't like to get us anywhere, so...we'll probably need to, uh...ask around."
-52,"TEXT_STMBDB102_02963_ALPHINAUD_000_012","Would that be another way of saying “no”?"
-53,"TEXT_STMBDB102_02963_ARENVALD_000_013","Well... Heh heh heh! Yes."
-54,"TEXT_STMBDB102_02963_ALPHINAUD_000_014","I see. In that case, I shall pay a visit to the Allied archivists and request access to the records seized from the imperials."
-55,"TEXT_STMBDB102_02963_ALPHINAUD_000_015","The Garleans are meticulous about such things. If they uncovered the trove during their occupation, the event is certain to have been recorded."
-56,"TEXT_STMBDB102_02963_ALPHINAUD_000_016","In the meantime, the two of you can track down those who worked as palace servants and officials in Theodoric's day."
-57,"TEXT_STMBDB102_02963_ALPHINAUD_000_017","Given that they would have been at least twenty at the time, you will be looking for people who have seen forty summers or more. Anything they can tell you about the king and his bloody deeds may prove useful, so be sure to listen well."
-58,"TEXT_STMBDB102_02963_ALPHINAUD_000_018","Arenvald, pray try your luck in the Fringes and the Peaks whilst <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> makes the rounds in the Ala Mhigan Quarter."
-59,"TEXT_STMBDB102_02963_ARENVALD_000_019","Hah! And there I was thinking <Emphasis>I</Emphasis> was the party leader. Not that I mind, of course! Let's be about it, eh? We can meet afterwards at Gylbarde's Gate!"
-60,"TEXT_STMBDB102_02963_MIDDLEAGEMAN_000_030","...In the palace? No, not me, <If(PlayerParameter(4))>lass<Else/>lad</If>."
-61,"TEXT_STMBDB102_02963_MIDDLEAGEMAN_000_031","Surely you've heard stories of the mad king? He used to hold public executions up on the Divine Audience. Anyone─and I mean <Emphasis>anyone</Emphasis>─suspected of conspiring against the crown was flung from the top of those steps."
-62,"TEXT_STMBDB102_02963_MIDDLEAGEMAN_000_032","Suffice it to say that I stayed as far away from the palace as possible."
-63,"TEXT_STMBDB102_02963_MIDDLEAGEMAN_000_035","No, <If(PlayerParameter(4))>lass<Else/>lad</If>─I never set foot in the house of the King of Ruin. Who in their right mind would want to go anywhere near a man like him?"
-64,"TEXT_STMBDB102_02963_MIDDLEAGEWOMAN_000_040","You want to hear an old maid's stories, do you? Aye, well most of what I know of the mad king is common knowledge."
-65,"TEXT_STMBDB102_02963_MIDDLEAGEWOMAN_000_041","We'd only see His Royal Majesty when he deigned to attend the executions he'd ordered. And after a while, even watching his “enemies” die wasn't enough to coax him out of hiding."
-66,"TEXT_STMBDB102_02963_MIDDLEAGEWOMAN_000_042","They say he started seeing assassins in every shadow, and wouldn't set foot outside the palace walls. I was offered work there as a royal servant once, but the mere thought of it left me in a cold sweat..."
-67,"TEXT_STMBDB102_02963_MIDDLEAGEWOMAN_000_045","I was never desperate enough to accept a job at the palace. No amount of coin is worth your life."
-68,"TEXT_STMBDB102_02963_MIDDLEAGEHELLSGUARD_000_050","...Aye, I served at the pleasure of King Theodoric, and lived to tell the tale. One of the palace guards, I was."
-69,"TEXT_STMBDB102_02963_MIDDLEAGEHELLSGUARD_000_051","Truth be told, it was a dark chapter in my life, and one I'd sooner forget. Hardly a night went by when we didn't hear bloodcurdling screams echoing from the inner chambers─which, of course, we were under orders to ignore."
-70,"TEXT_STMBDB102_02963_MIDDLEAGEHELLSGUARD_000_052","So we'd stand still as statues, trying not to imagine what horrors were unfolding within...
-<sigh> If you're hells-bent on finding out what happened in the palace, head down the street here and ask old Ernold─he was the king's head scribe."
-71,"TEXT_STMBDB102_02963_MIDDLEAGEHELLSGUARD_000_055","You'll find Ernold down that way. If any man was privy to the king's secrets, it was him."
-72,"TEXT_STMBDB102_02963_ERNOLD_000_060","Yes, I am Ernold. ...What do you want with me?"
-73,"TEXT_STMBDB102_02963_ERNOLD_000_061","Hmmm, you would have me dredge up some decidedly unsavory memories. Yet if Ala Mhigo is to move forward, we must needs acknowledge the misdeeds of the past."
-74,"TEXT_STMBDB102_02963_ERNOLD_000_062","Very well, I shall tell you what I remember. I take it you know of Theodoric's paranoia and the public executions of his kinsmen?"
-75,"TEXT_STMBDB102_02963_ERNOLD_000_063","Those were terrible enough. But in his last days, the king's fevered mind settled upon an even grislier method of “disposal” which only a chosen few were unfortunate enough to witness."
-76,"TEXT_STMBDB102_02963_ERNOLD_000_064","His Majesty ordered the court thaumaturge to unleash a vile curse upon the remaining members of the royal family─a magic which transformed them into fiends of hideous aspect. The resulting...monstrosities were then cast into the darkness below the palace."
-77,"TEXT_STMBDB102_02963_ERNOLD_000_065","Even now, my sleep is troubled by nightmares. If others of Theodoric's blood were prone to share his madness, then mayhap it is a kindness that the monarchy ended with him."
-78,"TEXT_STMBDB102_02963_ERNOLD_000_070","It is my hope that Ala Mhigo shall never again suffer the likes of the King of Ruin. We forget at our peril..."
-79,"TEXT_STMBDB102_02963_ALPHINAUD_000_071","Ah, excellent timing as ever. We have but this moment returned from our own intelligence-gathering efforts."
-80,"TEXT_STMBDB102_02963_ARENVALD_000_080","Since we're all here, why don't we share what we've learned?"
-81,"TEXT_STMBDB102_02963_ALPHINAUD_000_081","Allow me to begin, then. As promised, I scoured the imperial records for any mention of fantastic treasures...and found precisely none."
-82,"TEXT_STMBDB102_02963_ALPHINAUD_000_082","It is just possible, I suppose, that a corrupt official deliberately hid the fact of the trove's discovery, hoping to enrich himself─but I find it rather unlikely that so valuable a find would stay secret for long. I conclude that our prize either does not exist, or that the imperials somehow overlooked it."
-83,"TEXT_STMBDB102_02963_ALPHINAUD_100_082","But what of you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>? Were your investigations any more fruitful?"
-84,"TEXT_STMBDB102_02963_ALPHINAUD_000_083","...Turned into <Emphasis>monsters</Emphasis>? And what could he mean by this “darkness beneath the palace,” I wonder..."
-85,"TEXT_STMBDB102_02963_ARENVALD_000_084","I met an old man in Ala Ghiri who spoke of the palace's subterranean prison, but he said naught of cursed abominations!"
-86,"TEXT_STMBDB102_02963_ALPHINAUD_000_085","The imperial archives were also silent on the subject of fiends inside the palace grounds."
-87,"TEXT_STMBDB102_02963_ARENVALD_000_086","Could this scribe fellow have been spinning <If(PlayerParameter(4))>her<Else/>him</If> a yarn, do you think? Did you believe him, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>?"
-88,"TEXT_STMBDB102_02963_Q1_000_000","Did you believe Ernold's tale?"
-89,"TEXT_STMBDB102_02963_A1_000_001","His fear seemed genuine."
-90,"TEXT_STMBDB102_02963_A1_000_002","He may have been lying..."
-91,"TEXT_STMBDB102_02963_ARENVALD_000_088","If he was afraid, that does lend credence to the tale─though I'm not sure how that helps us in our search."
-92,"TEXT_STMBDB102_02963_ARENVALD_000_089","Then we're back where we started..."
-93,"TEXT_STMBDB102_02963_ALPHINAUD_000_090","Do not be so hasty─Ernold's anecdote may very well have told us where the trove is hidden. But ere I share my theory, there is a matter I would clarify."
-94,"TEXT_STMBDB102_02963_ALPHINAUD_000_091","Arenvald, you spoke of lighthearted adventure, but I sense a deeper motive for this expedition. Why are you so intent on finding this treasure?"
-95,"TEXT_STMBDB102_02963_ARENVALD_000_092","...It wasn't all pretense, I swear it. But...you're right."
-96,"TEXT_STMBDB102_02963_ARENVALD_000_093","My father was in the imperial army, a man of Garlean blood. I trust you know what I mean when I say that my Ala Mhigan mother did not welcome my arrival?"
-97,"TEXT_STMBDB102_02963_ARENVALD_000_094","As I grew, she would check my brow over and over, convinced that a spot on my skin was an emerging third eye─like the kind you see in pureblood Garleans. My mother did not care for this taunting reminder of my heritage, and took up a knife...
-War paint serves to cover the scar."
-98,"TEXT_STMBDB102_02963_ARENVALD_000_095","In the end, she turned me out into the street, and I was left to haunt the alleyways of Ala Mhigo, a feral child who got what he needed through begging, cunning, or worse."
-99,"TEXT_STMBDB102_02963_ARENVALD_000_096","The best I can say about the years that followed is that I survived. But I hated the animal I'd become. Eventually, I left the city behind me, and joined a group of refugees bound for the other side of the Wall. It was then that I turned to adventuring, and that road led me into the company of the Scions."
-100,"TEXT_STMBDB102_02963_ARENVALD_000_097","I tell you this so that you understand: I know all too well what poverty and hunger can do to a person."
-101,"TEXT_STMBDB102_02963_ARENVALD_000_098","I drew steel on ordinary folk for a measly crust of bread. With Theodoric's gold, I could spare my countrymen the shame of living like that."
-102,"TEXT_STMBDB102_02963_ALPHINAUD_000_099","Thank you, Arenvald, and I apologize─that cannot have been pleasant to recall. But I felt it best to be clear in our intentions."
-103,"TEXT_STMBDB102_02963_ALPHINAUD_000_100","Well, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>? Are you content to surrender the treasure to Arenvald's noble cause, and claim the thrill of adventure as your reward?"
-104,"TEXT_STMBDB102_02963_ALPHINAUD_000_101","Then I should be glad to tell you my theory on the resting place of the mad king's trove...if you are minded to hear it?"
+48,"TEXT_STMBDB102_02963_ARENVALD_000_001","お宝が見つかれば万々歳。
+たとえ見つからなかったとしても、
+息抜きの冒険と思えば、問題はないだろう？"
+49,"TEXT_STMBDB102_02963_ALPHINAUD_000_002","ドマとアラミゴの解放が伝わったことで、
+帝国の各属州では、独立の気運が高まっているようでね。
+属州のひとつ、ダルマスカでは大規模な反乱が起きたとも聞く。"
+50,"TEXT_STMBDB102_02963_ALPHINAUD_000_010","そうとなれば、帝国も今すぐには動けまい。
+確かに気分を変えて冒険するというなら、今が好機だろう。
+だが、どこから手を付けるか、アテはあるのかい？"
+51,"TEXT_STMBDB102_02963_ARENVALD_000_011","先行組の例を見る限り、
+ガムシャラに王宮を探しても、効果は薄いはずだ。
+やっぱり、地道な聞き込みで情報を集めるしかないだろう。"
+52,"TEXT_STMBDB102_02963_ALPHINAUD_000_012","つまり、アテはなしということか。"
+53,"TEXT_STMBDB102_02963_ARENVALD_000_013","ハハハ、そうともいうな！"
+54,"TEXT_STMBDB102_02963_ALPHINAUD_000_014","やれやれ、ではこうしよう。
+私はこれからエオルゼア同盟軍の情報部門と接触し、
+彼らが押収した帝国軍の記録を洗ってみる。"
+55,"TEXT_STMBDB102_02963_ALPHINAUD_000_015","仮に帝国軍が侵略直後に財宝を発見していれば、
+功績として記録を残すはずだからね。"
+56,"TEXT_STMBDB102_02963_ALPHINAUD_000_016","その間、君たちふたりは、
+王政時代に、王宮で働いていた使用人や官吏たちを探してくれ。"
+57,"TEXT_STMBDB102_02963_ALPHINAUD_000_017","20年前に成人していた、40代以上の人に話しかけ、
+廃王テオドリックによる王族殺しの生き証人を見つけ出すんだ。
+そして、どんな些細な話でもいいから、情報を集めてもらいたい。"
+58,"TEXT_STMBDB102_02963_ALPHINAUD_000_018","そうだな……アレンヴァルドは辺境地帯や山岳地帯の集落で、
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>は、アラミガン・クォーターで、
+それぞれ聞き込みをしてくれ。"
+59,"TEXT_STMBDB102_02963_ARENVALD_000_019","へへっ、やっぱり、アルフィノを誘って正解だったぜ！
+それじゃあ、情報収集が終わったらアラミガン・クォーターの門、
+「ギルバルド門」の辺りに集合ってことで……行動開始だ！"
+60,"TEXT_STMBDB102_02963_MIDDLEAGEMAN_000_030","……王宮で働いていたことはあるかって？
+いや、そんな経験はないね。"
+61,"TEXT_STMBDB102_02963_MIDDLEAGEMAN_000_031","何せ、当時の王様は、残虐なことで知られていたからな。
+聖なる礼拝台って場所で、よく公開処刑が行われたものさ。
+自分に逆らった連中を、台のテッペンから突き落とすんだよ。"
+62,"TEXT_STMBDB102_02963_MIDDLEAGEMAN_000_032","そんな恐ろしい王様が暮らす王宮で、
+働きたいだなんて、思うわけがないだろう？"
+63,"TEXT_STMBDB102_02963_MIDDLEAGEMAN_000_035","公開処刑を繰り返すような、恐ろしい王様が暮らす王宮で、
+働きたいだなんて、思うわけがないだろう？"
+64,"TEXT_STMBDB102_02963_MIDDLEAGEWOMAN_000_040","あらあら、オバちゃんの昔話が聞きたいのかい？
+帝国軍が来る前は、テオドリックって名前の王様が、
+アラミゴを治めていたんだけどねぇ……。"
+65,"TEXT_STMBDB102_02963_MIDDLEAGEWOMAN_000_041","でも、肝心の王様を見る機会と言えば、
+公開処刑のために出てくるときくらいのもの……。
+それも、最後の方は、姿を現さなくなったっけ。"
+66,"TEXT_STMBDB102_02963_MIDDLEAGEWOMAN_000_042","噂じゃ、暗殺を怖れて王宮から出るのを止めたんだとか。
+一度、私も使用人として、王宮で働かないかと誘われたんだけど、
+もちろん怖くなって、引き受けなかったわ。"
+67,"TEXT_STMBDB102_02963_MIDDLEAGEWOMAN_000_045","一度、私も使用人として、王宮で働かないかと誘われたんだけど、
+もちろん怖くなって、引き受けなかったわ。"
+68,"TEXT_STMBDB102_02963_MIDDLEAGEHELLSGUARD_000_050","……王政時代に、王宮に出入りしていた者を探している、と。
+なら、俺に声をかけたのは正解だったな。
+若い頃、俺は衛兵として、王宮の警備を担当していたんだ。"
+69,"TEXT_STMBDB102_02963_MIDDLEAGEHELLSGUARD_000_051","正直言って、生きた心地はしなかったよ。
+毎晩のように、王宮の中からは、恐ろしい叫声が響くんだからな。
+といっても中で何が行われていたのか、俺は知らんぞ。"
+70,"TEXT_STMBDB102_02963_MIDDLEAGEHELLSGUARD_000_052","衛兵として、門の前で立ち続けていただけだからな。
+王宮内での出来事を知りたいのなら、この先に住む、
+元書記官の「エルノルド」さんを尋ねるこった。"
+71,"TEXT_STMBDB102_02963_MIDDLEAGEHELLSGUARD_000_055","王宮内での出来事を知りたいのなら、この先に住む、
+元書記官の「エルノルド」さんを尋ねるこった。"
+72,"TEXT_STMBDB102_02963_ERNOLD_000_060","確かに、ワシがエルノルドじゃが……何用かな？"
+73,"TEXT_STMBDB102_02963_ERNOLD_000_061","ふむん、テオドリック王の時代、
+王宮で何が起きていたのか、知りたいと……。
+確かに今は未来を考えるため、過去を思い起こすときやもしれん。"
+74,"TEXT_STMBDB102_02963_ERNOLD_000_062","よかろう、少しばかり昔話をするとしよう。
+王位を狙われていると思い込んだテオドリック王が、
+王族の処刑を繰り返したことは、お前も聞いておるだろう？"
+75,"TEXT_STMBDB102_02963_ERNOLD_000_063","じゃが、しばらくして王は、公開処刑よりも、
+さらにむごたらしい処刑の仕方を思いついてな……。"
+76,"TEXT_STMBDB102_02963_ERNOLD_000_064","お抱えの宮廷呪術士に命じて、捕らえた王族たちに呪いをかけ、
+怪物のような姿へと変えてしまったのじゃ！
+そして、変異を遂げた者たちを地下に落として……。"
+77,"TEXT_STMBDB102_02963_ERNOLD_000_065","嗚呼、思い出すだけでも恐ろしい！
+あのような凶事が、二度と起こらぬようにするためにも、
+やはり、王政に戻してはならぬ……ワシは、そう思うのじゃよ。"
+78,"TEXT_STMBDB102_02963_ERNOLD_000_070","あのような凶事が、二度と起こらぬようにするためにも、
+やはり、王政に戻してはならぬ……ワシは、そう思うのじゃよ。"
+79,"TEXT_STMBDB102_02963_ALPHINAUD_000_071","どうやら聞き込みは終わったようだね。
+こちらも、つい先程、到着したところさ。"
+80,"TEXT_STMBDB102_02963_ARENVALD_000_080","さて、さっそくだが、
+集めてきた情報を共有しようぜ。"
+81,"TEXT_STMBDB102_02963_ALPHINAUD_000_081","では、私から……。
+帝国軍の記録を洗ってみたが、「廃王の黄金」に繋がるような、
+財宝の類いが発見されたという記録は見当たらなかった。"
+82,"TEXT_STMBDB102_02963_ALPHINAUD_000_082","もちろん、正式な記録を残さなかっただけかもしれないが、
+帝国軍による略奪の可能性は、低まったと考えていいだろう。"
+83,"TEXT_STMBDB102_02963_ALPHINAUD_100_082","それで、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>の方はどうだった？"
+84,"TEXT_STMBDB102_02963_ALPHINAUD_000_083","テオドリックがお抱えの宮廷呪術士に命じて、
+王族を怪物に変異させ、地下に落としていただって！？"
+85,"TEXT_STMBDB102_02963_ARENVALD_000_084","そういえば、俺がアラギリで話した爺さんも、
+王宮の地下に、罪人を収容するための監獄があったと言ってたな。
+でも、怪物の話なんて聞かなかったぞ？"
+86,"TEXT_STMBDB102_02963_ALPHINAUD_000_085","帝国軍の記録にも、
+王宮内に怪物がいたとは記されていなかったが……。"
+87,"TEXT_STMBDB102_02963_ARENVALD_000_086","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>が聞き込みをした、
+エルノルドって人が、ホラ話をしたってことか？"
+88,"TEXT_STMBDB102_02963_Q1_000_000","何と答える？"
+89,"TEXT_STMBDB102_02963_A1_000_001","嘘だとは思えない"
+90,"TEXT_STMBDB102_02963_A1_000_002","嘘かもしれない"
+91,"TEXT_STMBDB102_02963_ARENVALD_000_088","……証言者の怯えようからすると、
+嘘だとは思えないって？
+だが、この情報は、参考になりそうにもないぞ……。"
+92,"TEXT_STMBDB102_02963_ARENVALD_000_089","嘘かもしれないってことは、
+この情報は、参考になりそうにもないな……。"
+93,"TEXT_STMBDB102_02963_ALPHINAUD_000_090","いや、待ってくれ……。
+「廃王の黄金」の在処が、わかったかもしれないぞ。
+だが、その仮説を語る前に確認したいことがある。"
+94,"TEXT_STMBDB102_02963_ALPHINAUD_000_091","アレンヴァルド、君はなぜ「廃王の黄金」を欲しているんだ？
+この冒険に挑む本当の理由を、教えてくれ。"
+95,"TEXT_STMBDB102_02963_ARENVALD_000_092","……興味本位の質問ってワケじゃなさそうだな。"
+96,"TEXT_STMBDB102_02963_ARENVALD_000_093","俺の父親は、帝国軍に所属していたガレアン人だ。
+アラミゴ人の母にとって、望まぬ子だったと言えば、
+細かい事情までは話さなくてもわかるだろ？"
+97,"TEXT_STMBDB102_02963_ARENVALD_000_094","そして、成長するにつれ、ガレアン族の特徴である、
+第三の眼の徴候が出てきた俺を見て、母はナイフを手にした……。
+俺の顔の戦化粧は、その時の傷を隠すためのものでもあるのさ。"
+98,"TEXT_STMBDB102_02963_ARENVALD_000_095","結局、母に棄てられた俺は、
+アラミゴ市街地の裏通りで、孤児として育った。
+物乞い、盗み、そして強盗……生きるためには何でもしたよ……。"
+99,"TEXT_STMBDB102_02963_ARENVALD_000_096","だが、そんな生活に嫌気が差して、故郷を出たんだ。
+亡命希望者の一団に紛れて長城を越え、冒険者になって……
+流れ流れて「暁」に身を寄せることになった。"
+100,"TEXT_STMBDB102_02963_ARENVALD_000_097","ともかく俺は、誰よりも、
+貧しさが人を変えちまうってことを知ってるつもりだ。"
+101,"TEXT_STMBDB102_02963_ARENVALD_000_098","飯のために、罪のない人を襲うなんて、
+情けなく恐ろしい行為に手を染めた俺だからこそ……
+貧しい同胞のために、財宝を手に入れたいんだよ！"
+102,"TEXT_STMBDB102_02963_ALPHINAUD_000_099","話しにくいことを聞かせてくれて、ありがとう。
+おかげで君の想いが、よくわかったよ。"
+103,"TEXT_STMBDB102_02963_ALPHINAUD_000_100","ならば、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、
+我々もアレンヴァルドの熱い想いに応えようじゃないか。
+報酬はスリルと冒険……見つけた財宝は義援金にするんだ！"
+104,"TEXT_STMBDB102_02963_ALPHINAUD_000_101","これで決まりだな！
+では、教えよう……「廃王の黄金」の在処をね！"

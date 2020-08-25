@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSARM021_00274_SEQ_00","Forgemaster H'naanza wishes to see what use you can make of your new doming hammer."
-1,"TEXT_CLSARM021_00274_SEQ_01","You have been instructed to forge a bronze ingot with your newly acquired hammer. The requisite chunks of copper and tin ore can be purchased from Soemrwyb of the Armorers' Guild. Once you have synthesized a bronze ingot, deliver it to Forgemaster H'naanza."
-2,"TEXT_CLSARM021_00274_SEQ_02","Upon examining your bronze ingot, Guildmaster H'naanza is satisfied that the quality of your work is sufficient to meet the exacting standards of the Armorers' Guild. She instructs you to continue crafting bronze ingots until the process becomes second nature, at which point you are to return to the forge for your next lesson.
+0,"TEXT_CLSARM021_00274_SEQ_00","甲冑師ギルドへの入門を認められた冒険者。受け取ったハンマーを装備して、ハ・ナンザに声をかけよう。"
+1,"TEXT_CLSARM021_00274_SEQ_01","さっそくハンマーを使って<Sheet(Item,5056,0)/>を製作することになった。材料となる「<Sheet(Item,5106,0)/>」と「<Sheet(Item,5107,0)/>」は、甲冑師ギルドの「スムルウィブ」から購入できる。「<Sheet(Item,5056,0)/>」を1個製作し、甲冑師ギルドの「ハ・ナンザ」に渡そう。"
+2,"TEXT_CLSARM021_00274_SEQ_02","冒険者が渡した<Sheet(Item,5056,0)/>を見たハ・ナンザは、ギルドに所属する甲冑師としての目標水準を超えていると認めてくれた。飽きるほどに<Sheet(Item,5056,0)/>を作り続けた頃、次の課題を与えるという。甲冑師としての腕を磨くため、更なる鍛錬に励もう。
 
-※The next armorer quest will be available from H'naanza upon reaching level 5."
+※甲冑師のレベルが5以上になると、ハ・ナンザから次の甲冑師クエストを受注することができます。"
 3,"TEXT_CLSARM021_00274_SEQ_03",""
 4,"TEXT_CLSARM021_00274_SEQ_04",""
 5,"TEXT_CLSARM021_00274_SEQ_05",""
@@ -27,7 +27,7 @@ int32,str,str
 21,"TEXT_CLSARM021_00274_SEQ_21",""
 22,"TEXT_CLSARM021_00274_SEQ_22",""
 23,"TEXT_CLSARM021_00274_SEQ_23",""
-24,"TEXT_CLSARM021_00274_TODO_00","Deliver a bronze ingot to H'naanza."
+24,"TEXT_CLSARM021_00274_TODO_00","ハ・ナンザに<Sheet(Item,5056,0)/>を納品"
 25,"TEXT_CLSARM021_00274_TODO_01",""
 26,"TEXT_CLSARM021_00274_TODO_02",""
 27,"TEXT_CLSARM021_00274_TODO_03",""
@@ -51,25 +51,59 @@ int32,str,str
 45,"TEXT_CLSARM021_00274_TODO_21",""
 46,"TEXT_CLSARM021_00274_TODO_22",""
 47,"TEXT_CLSARM021_00274_TODO_23",""
-48,"TEXT_CLSARM021_00274_HNAANZA_000_1","Ah, yes. If I didn't know better, I'd think you were an armorer, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
-49,"TEXT_CLSARM021_00274_HNAANZA_000_2","Of course, I <Emphasis>do</Emphasis> know better. Until you craft something with that hammer of yours, you'll look like a babe with a rattle to me─and I've no intention of mothering you. Make no mistake, I mean to shape you into an artisan, however hard I have to pound."
-50,"TEXT_CLSARM021_00274_HNAANZA_000_3","Save your sweat for the forge, <If(PlayerParameter(4))>lass<Else/>lad</If>─I don't expect you to fashion full suits of plate on your first day. Just pay close attention to my instructions, be diligent in your work, and the skill will come in due time."
-51,"TEXT_CLSARM021_00274_HNAANZA_000_4","Now let's be about your first lesson, shall we?"
-52,"TEXT_CLSARM021_00274_HNAANZA_000_5","I want you to take up your hammer and make me a bronze ingot. A mundane task, I grant you, but one which every armorer must master."
-53,"TEXT_CLSARM021_00274_HNAANZA_000_6","Bronze, you see, is the most basic material of the craft, and bronze ingots are its building blocks."
-54,"TEXT_CLSARM021_00274_HNAANZA_000_7","'Tis not the strongest of alloys, of course, but it is that very quality that makes bronze so easy to shape─and the metal of choice for a novice armorer."
-55,"TEXT_CLSARM021_00274_HNAANZA_000_8","To forge your ingot, you'll need to procure two chunks of copper ore, a chunk of tin ore, and an ice shard."
-56,"TEXT_CLSARM021_00274_HNAANZA_000_9","The ore can be purchased from Soemrwyb here at the guild. The ice shard you'll have to find on your own."
-57,"TEXT_CLSARM021_00274_HNAANZA_000_10","...Well? Are you waiting for me to swing your arm for you? Or mayhap you would have me swing my <Emphasis>boot</Emphasis>?"
-58,"TEXT_CLSARM021_00274_SYSTEM_000_11","Synthesize a bronze ingot for Forgemaster H'naanza using two chunks of copper ore, a chunk of tin ore, and an ice shard."
-59,"TEXT_CLSARM021_00274_SYSTEM_000_12","To begin the crafting process, select <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Logs<UIGlow>01</UIGlow><UIForeground>01</UIForeground> from the main menu, followed by <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Crafting Log<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
-60,"TEXT_CLSARM021_00274_HNAANZA_000_20","Where's that bronze ingot I asked for? If you can't find the ore yourself, try speaking with Soemrwyb here at the guild."
-61,"TEXT_CLSARM021_00274_HNAANZA_000_22","Completed your first task, have you? Well then, let's have a look at this ingot..."
-62,"TEXT_CLSARM021_00274_HNAANZA_000_23","Hm. So this is the sort of quality I can expect from you, is it? For a novice armorer, this is excellent work. Excellent. Well done, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
-63,"TEXT_CLSARM021_00274_HNAANZA_000_24","The key to making good bronze is judging the ratio of copper to tin. With too much tin, the alloy becomes harder but also more brittle. Not the sort of material you want protecting your vital organs."
-64,"TEXT_CLSARM021_00274_HNAANZA_000_25","Lest you forget, quality is a matter of life and death in our craft. That is why we teach our initiates the ideal metallurgic composition of every item we forge. Not that all are quick to learn. There are some who seem destined to produce mediocre results however painstakingly the processes are explained."
-65,"TEXT_CLSARM021_00274_HNAANZA_000_26","Thank the Builder you are not one of them. I am pleased to say that your ingot would fetch a decent price in the markets."
-66,"TEXT_CLSARM021_00274_HNAANZA_000_27","But do not let this first success make you complacent. A single bad helm will lose you more trust than a hundred good ones will win, because bad armor means dead men. It is not enough that your work be good. It must needs be <Emphasis>consistently</Emphasis> good."
-67,"TEXT_CLSARM021_00274_HNAANZA_000_28","And achieving that consistency requires discipline and long hours of crafting the same item over and over, again and again. For you, this means a mountain of bronze ingots. Bronze ingots in your dreams. Bronze ingots until the process is so ingrained that you wake up and find that your pillow is an ingot you made in your sleep."
-68,"TEXT_CLSARM021_00274_HNAANZA_000_29","When you feel you have learned all you can from forging bronze ingots, seek me out and I will find you something else to craft. May the Builder guide your hand, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
-69,"TEXT_CLSARM021_00274_SYSTEM_000_30","The next armorer quest will be available from H'naanza upon reaching level 5."
+48,"TEXT_CLSARM021_00274_HNAANZA_000_1","うん、格好だけはいっぱしの甲冑師になったかな？
+だったら、これからは中身もいっぱしにしてかないと！"
+49,"TEXT_CLSARM021_00274_HNAANZA_000_2","見かけ倒しの職人なんて論外だ。
+我がギルドの一員である以上、中途半端は許さない。
+イヤでも一人前になってもらうから、そのつもりで。"
+50,"TEXT_CLSARM021_00274_HNAANZA_000_3","とは言っても、恐れるこたぁ別にないよ。
+私の言うこと聞いて、しっかり学んでいくかぎり、
+あんたの腕前はかならず上達していくさ。"
+51,"TEXT_CLSARM021_00274_HNAANZA_000_4","それじゃあ、さっそく課題でも出そうか。
+努力する時間を惜しんでる場合じゃないからね。"
+52,"TEXT_CLSARM021_00274_HNAANZA_000_5","まずは、そのハンマーを使って
+「<Sheet(Item,5056,0)/>」を1個、作ってきな。
+これは、甲冑師なら誰でも通る道ってやつだ。"
+53,"TEXT_CLSARM021_00274_HNAANZA_000_6","甲冑作り……板金加工の基本と言えば、
+やっぱり青銅にかぎるのさ。
+その青銅の塊が、「<Sheet(Item,5056,0)/>」だ。"
+54,"TEXT_CLSARM021_00274_HNAANZA_000_7","強度がそれほど高い合金じゃないけど、
+その分、腕がなくとも加工がしやすい。
+駆け出しの修行にゃ、もってこいだよ。"
+55,"TEXT_CLSARM021_00274_HNAANZA_000_8","製作に必要な材料は「<Sheet(Item,5106,0)/>」と「<Sheet(Item,5107,0)/>」、
+それから「<Sheet(Item,3,0)/>」さ。"
+56,"TEXT_CLSARM021_00274_HNAANZA_000_9","「<Sheet(Item,5106,0)/>」と「<Sheet(Item,5107,0)/>」なら、
+ギルド内にいる「スムルウィブ」が売ってるから、
+声をかけてみるといい。"
+57,"TEXT_CLSARM021_00274_HNAANZA_000_10","さあ、さっそく製作に取り掛かってもらおうか。
+あんたの作った「<Sheet(Item,5056,0)/>」を楽しみにしてるよ。"
+58,"TEXT_CLSARM021_00274_SYSTEM_000_11","「<Sheet(Item,5106,0)/>」と「<Sheet(Item,5107,0)/>」から
+「<Sheet(Item,5056,0)/>」を製作してみましょう。"
+59,"TEXT_CLSARM021_00274_SYSTEM_000_12","メインコマンドの「手帳」から「製作手帳」を選び、
+製作を開始することができます。"
+60,"TEXT_CLSARM021_00274_HNAANZA_000_20","いいかい、作るのは「<Sheet(Item,5056,0)/>」だ。
+材料が必要なら、ギルドのスムルウィブが売ってくれるよ。"
+61,"TEXT_CLSARM021_00274_HNAANZA_000_22","なるほど……！
+これがあんたの「<Sheet(Item,5056,0)/>」ってわけだね？"
+62,"TEXT_CLSARM021_00274_HNAANZA_000_23","これがあんたの今の力、今できること……か。
+ふふ、悪くないね、実に悪くない。
+初心者でこれだけできりゃあ、上出来ってもんさ。"
+63,"TEXT_CLSARM021_00274_HNAANZA_000_24","青銅ってのは「<Sheet(Item,5106,0)/>」と「<Sheet(Item,5107,0)/>」の配分がすべてだ。
+「<Sheet(Item,5107,0)/>」が多いと、硬くはなるが脆くなって、
+甲冑の材料としては使えなくなる。"
+64,"TEXT_CLSARM021_00274_HNAANZA_000_25","だから最低限の品質を保つため、
+レシピで分量が決まってるわけだが……
+それでも、さじ加減をしくじる奴がいるのさ。"
+65,"TEXT_CLSARM021_00274_HNAANZA_000_26","だが、あんたの作ったこれは上出来だ。
+正直、このままでも十分に商品になるくらいだよ。"
+66,"TEXT_CLSARM021_00274_HNAANZA_000_27","この品質を常に製作できることが、
+ウチに所属する甲冑師の目標だよ。
+そこのところ、よおく肝に銘じておきな。"
+67,"TEXT_CLSARM021_00274_HNAANZA_000_28","そのためには、日々の修練は欠かせないよ。
+当面は「<Sheet(Item,5056,0)/>」でも作り続けて、
+基礎固めの反復練習をするこったね。"
+68,"TEXT_CLSARM021_00274_HNAANZA_000_29","で、そいつを飽きるほど作ったら、私に声をかけな。
+新しい課題、用意してやるからさ。"
+69,"TEXT_CLSARM021_00274_SYSTEM_000_30","「甲冑師」のクラスクエストが開始されました。
+次のクエストは「レベル5」以上で受注可能になります。
+レベルを上げ、再度ギルドを訪れてください。"

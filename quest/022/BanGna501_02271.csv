@@ -1,17 +1,20 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANGNA501_02271_SEQ_00","The Vath keeneye seems anxious about something.
-※The difficulty of this quest will be synced to your current level."
-1,"TEXT_BANGNA501_02271_SEQ_01","The Vath keeneye sent one of his brethren, the Vath farwalker, to Idyllshire with a cartload of goods. His delayed return, however, has left the Vath keeneye fearing the worst. He asks that you travel south toward the Dravanian hinterlands in search of the wayward Vath.
+0,"TEXT_BANGNA501_02271_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト受注クラス・ジョブ制限<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+ヴァスの塚のサーチャーは、何やら不安そうにしている。"
+1,"TEXT_BANGNA501_02271_SEQ_01","※本クエストには
+「<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow><UIGlow>01</UIGlow><UIForeground>01</UIForeground> レベルアジャスト受注クラス・ジョブ制限」が、
+　設定されています。
+　受注時と同じクラス・ジョブでのみ進行できます。
 
-※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
-2,"TEXT_BANGNA501_02271_SEQ_02","You find the Vath farwalker, but the reason for his delay is not what you feared. In truth, he was startled by the nearby wyverns and stumbled, knocking over his cart. Still fearful of wyverns nearby, he asks you to search the area for any unbroken cargo that he may complete his delivery."
-3,"TEXT_BANGNA501_02271_SEQ_03","You find an unbroken jar amidst the fallen cargo. Carry it back to the Vath farwalker, that he may load it back into his cart."
-4,"TEXT_BANGNA501_02271_SEQ_04","The Vath farwalker is overjoyed to see not all of his cargo was destroyed. However, he cannot shake the feeling the Vath keeneye will be displeased to hear he delivered only one jug. Hoping to appease his overseer, he asks you to search for more unbroken jugs."
-5,"TEXT_BANGNA501_02271_SEQ_05","You search what remains of his fallen cargo and find one last jug is still intact. Take it back to the Vath farwalker."
-6,"TEXT_BANGNA501_02271_SEQ_06","The Vath farwalker thanks you for finding a second jug. Though he can now finish his delivery, he still fears the scolding he is sure to receive upon returning. He recalls the reason you were sent, however, and devises a surprisingly deceptive plan to abate the Vath keeneye's anger. He asks you to tell the Vath keeneye that he was, in fact, assaulted by the Onemind, and that you saved him. He then sets off for Idyllshire, and suggests you think carefully about the story you will tell."
-7,"TEXT_BANGNA501_02271_SEQ_07","You relay a fabricated story of the farwalker's rescue, and the Vath keeneye is glad to hear he is safe and sound. As he tells it, there are Vath with links to the Onemind still strong enough to turn them back to the side of the Gnath. Though he worries his brothers may give in to the pull of their still-unbroken bonds, he believes that, with effort, they will one day be truly free."
+サーチャーによると、イディルシャイアへと荷車を運ばせたトレッカーの戻りが遅いという。自我を失ってしまった恐れがあるということで、捜索を頼まれた。アヴァロニア・フォールンで「トレッカー」を探そう。"
+2,"TEXT_BANGNA501_02271_SEQ_02","トレッカーを見つけた。自我は失ってないようだが、荷車をひっくり返してしまい、積み荷の壺が割れてしまったという。彼に、割れていない<Sheet(EObj,2006922,0)/>を探して運んでくるよう頼まれた。アヴァロニア・フォールンで、割れていない「<Sheet(EObj,2006922,0)/>」を探して、持ち上げよう。"
+3,"TEXT_BANGNA501_02271_SEQ_03","割れていない<Sheet(EObj,2006922,0)/>を見つけて、持ち上げた。アヴァロニア・フォールンの「トレッカー」に、割れていない「<Sheet(EObj,2006922,0)/>」を届けよう。"
+4,"TEXT_BANGNA501_02271_SEQ_04","トレッカーに、割れていない<Sheet(EObj,2006922,0)/>を届けた。彼に、もうひとつ割れていない<Sheet(EObj,2006922,0)/>を探して運んでくるよう頼まれた。アヴァロニア・フォールンで、割れていない「<Sheet(EObj,2006922,0)/>」を探して、持ち上げよう。"
+5,"TEXT_BANGNA501_02271_SEQ_05","割れていない<Sheet(EObj,2006922,0)/>を見つけて、持ち上げた。アヴァロニア・フォールンの「トレッカー」に、割れていない「<Sheet(EObj,2006922,0)/>」を届けよう。"
+6,"TEXT_BANGNA501_02271_SEQ_06","トレッカーに、割れていない<Sheet(EObj,2006922,0)/>を届けた。彼は、ギルドをクビにされることを恐れていて、自我を失っていたと報告するよう頼まれた。ヴァスの塚の「サーチャー」に報告しよう。"
+7,"TEXT_BANGNA501_02271_SEQ_07","サーチャーに報告した。彼は、まだ完全には「分かたれ」ていない同胞を後押しするのも、ギルドの役目だとうそぶくのだった。"
 8,"TEXT_BANGNA501_02271_SEQ_08",""
 9,"TEXT_BANGNA501_02271_SEQ_09",""
 10,"TEXT_BANGNA501_02271_SEQ_10",""
@@ -28,12 +31,12 @@ int32,str,str
 21,"TEXT_BANGNA501_02271_SEQ_21",""
 22,"TEXT_BANGNA501_02271_SEQ_22",""
 23,"TEXT_BANGNA501_02271_SEQ_23",""
-24,"TEXT_BANGNA501_02271_TODO_00","Search for the Vath farwalker."
-25,"TEXT_BANGNA501_02271_TODO_01","Look for an unbroken Vath jug."
-26,"TEXT_BANGNA501_02271_TODO_02","Deliver the jug to the Vath farwalker."
-27,"TEXT_BANGNA501_02271_TODO_03","Search for another unbroken Vath jug."
-28,"TEXT_BANGNA501_02271_TODO_04","Deliver the jug to the Vath farwalker."
-29,"TEXT_BANGNA501_02271_TODO_05","Report to the Vath keeneye."
+24,"TEXT_BANGNA501_02271_TODO_00","トレッカーを探す"
+25,"TEXT_BANGNA501_02271_TODO_01","<Sheet(EObj,2006922,0)/>を持ち上げる"
+26,"TEXT_BANGNA501_02271_TODO_02","トレッカーに<Sheet(EObj,2006922,0)/>を届ける"
+27,"TEXT_BANGNA501_02271_TODO_03","<Sheet(EObj,2006922,0)/>を持ち上げる"
+28,"TEXT_BANGNA501_02271_TODO_04","トレッカーに<Sheet(EObj,2006922,0)/>を届ける"
+29,"TEXT_BANGNA501_02271_TODO_05","サーチャーに報告"
 30,"TEXT_BANGNA501_02271_TODO_06",""
 31,"TEXT_BANGNA501_02271_TODO_07",""
 32,"TEXT_BANGNA501_02271_TODO_08",""
@@ -52,21 +55,50 @@ int32,str,str
 45,"TEXT_BANGNA501_02271_TODO_21",""
 46,"TEXT_BANGNA501_02271_TODO_22",""
 47,"TEXT_BANGNA501_02271_TODO_23",""
-48,"TEXT_BANGNA501_02271_SEARCHER_000_000","He is late. Much too late. <click> <click> Oh, fleshling. Perhaps you can help."
-49,"TEXT_BANGNA501_02271_SEARCHER_000_001","The farwalker was to deliver a cart of goods to Idyllshire, but he is taking too long. We fear something has happened. Perhaps something to do with the Onemind."
-50,"TEXT_BANGNA501_02271_SEARCHER_000_002","Our link to the Onemind is very faint, like a whisper. Very hushed. Very quiet. <click> <click> The farwalker's link to the Onemind is not so quiet. He may grow confused and forget himself. He may return to the Onemind!"
-51,"TEXT_BANGNA501_02271_SEARCHER_000_003","Please, travel south toward the hinterlands and search for him. If he does not seem himself, call out his name. He must not forget who he is."
-52,"TEXT_BANGNA501_02271_GOURIKI_000_010","Thank goodness you have come. We were startled by a low-flying wyvern, and the cart toppled over. Now our jars are everywhere. <click> <click> So messy, so very messy. The keeneye sent you to help carry jars, yes?"
-53,"TEXT_BANGNA501_02271_GOURIKI_000_011","Return to the Onemind? Never! With so many broken jugs, however, returning home also seems unpleasant. The keeneye will be angry. Yes, very angry. <click> <click> I think a few jugs may still be in one piece. We can deliver the unbroken ones. Will you retrieve them for us?"
-54,"TEXT_BANGNA501_02271_GOURIKI_000_012","We would go get them, but the dragons... We will wait here and ready the cart."
-55,"TEXT_BANGNA501_02271_GOURIKI_000_015","We should not stay here long. It is too dangerous. <click> <click> Yes, much too dangerous. Please hurry while I ready the cart."
-56,"TEXT_BANGNA501_02271_SYSTEM_100_000","The remnants of black, slimy eggs have spilled through the cracks of the broken jar."
-57,"TEXT_BANGNA501_02271_GOURIKI_000_020","Good, very good. <click> <click> There are still more jars, yes? If I deliver more jars, perhaps the keeneye will not be so angry. Could you bring back one more?"
-58,"TEXT_BANGNA501_02271_GOURIKI_000_025","Delivering two jars would be much better than one. Yes, much better than one jar. Please check for any more unbroken jars."
-59,"TEXT_BANGNA501_02271_GOURIKI_000_030","Thank you, fleshling. The goblins in Idyllshire are expecting many nanka eggs. Yes, many eggs. <click> <click> We only have two jars, but this should be plenty."
-60,"TEXT_BANGNA501_02271_GOURIKI_000_031","The keeneye will still be furious, though. He may try to remove us from the guild. We would lose purpose."
-61,"TEXT_BANGNA501_02271_GOURIKI_000_032","Hmmm, the keeneye was worried about the Gnath, yes? Afraid that we returned to the Onemind? Would you...would you tell him we were attacked, and you saved us from the Onemind?"
-62,"TEXT_BANGNA501_02271_GOURIKI_000_033","The keeneye trusts you very much. Yes, very much. <click> <click> He would believe if you told him. Tread slowly back to Loth ast Vath, and think of a great story. We will finish our delivery to Idyllshire."
-63,"TEXT_BANGNA501_02271_GOURIKI_000_035","We are sure the keeneye will believe you. Yes, very sure. Think of a good story on your way back."
-64,"TEXT_BANGNA501_02271_SEARCHER_000_040","Ah, so we were right! The Onemind tried to reclaim the farwalker. Thank you for saving him."
-65,"TEXT_BANGNA501_02271_SEARCHER_000_041","Sadly, the farwalker is not the only one with a stronger link to the Onemind. <click> <click> The links will fade in time, but we must be careful."
+48,"TEXT_BANGNA501_02271_SEARCHER_000_000","シシシシシ……遅い、遅すぎるぞ……
+おお、ヒトの冒険者よ、いいところに来てくれた。"
+49,"TEXT_BANGNA501_02271_SEARCHER_000_001","イディルシャイアへと荷車を運ばせた、
+「トレッカー」という同胞が、一向に戻ってこないのだ。
+……どうも、嫌な予感がする。"
+50,"TEXT_BANGNA501_02271_SEARCHER_000_002","トレッカーは、完全には「分かたれ」ていない者でな。
+もしかしたら、途中で自我を失ってしまい、
+途方に暮れているのかもしれん。"
+51,"TEXT_BANGNA501_02271_SEARCHER_000_003","すまんが、低地ドラヴァニアへと至る道で、
+「トレッカー」を探してきてくれないか？
+そして、もし自我を失っていたら、その名を呼びかけてくれ。"
+52,"TEXT_BANGNA501_02271_GOURIKI_000_010","シシシシシ……やっちまった。
+ワイバーンにビビって、荷車をひっくり返してしまったんだよ。
+積み荷の壺がいくつか割れてしまい、途方に暮れていたんだ。"
+53,"TEXT_BANGNA501_02271_GOURIKI_000_011","はあ？　自我なんか失ってないぜ、職は失いそうだけどな……。
+それよりも、割れていない「<Sheet(EObj,2006922,0)/>」を探して、
+集めるのを手伝ってくれないか？"
+54,"TEXT_BANGNA501_02271_GOURIKI_000_012","ワイバーンがおっかなくて、近づけねえんだよ。
+俺のところまで運んでくれたら、
+荷車に積んで、出発準備を整えるからさ。"
+55,"TEXT_BANGNA501_02271_GOURIKI_000_015","シシシシシ……割れていない「<Sheet(EObj,2006922,0)/>」を探して運んで、
+俺に渡してくれないか……頼むよ。"
+56,"TEXT_BANGNA501_02271_SYSTEM_100_000","この壺は、割れていて、
+中身がこぼれてしまっている……。"
+57,"TEXT_BANGNA501_02271_GOURIKI_000_020","シシシシシ……よしきた、荷車に積むぞ。
+もうひとつ、割れてない「<Sheet(EObj,2006922,0)/>」があればいいんだが……
+探して運んできてくれないか？"
+58,"TEXT_BANGNA501_02271_GOURIKI_000_025","シシシシシ……もうひとつ、
+割れてない「<Sheet(EObj,2006922,0)/>」があればいいんだが……
+探して運んできてくれないか？"
+59,"TEXT_BANGNA501_02271_GOURIKI_000_030","シシシシシ……助かったぜ、ありがとよ。
+壺の中身は、ゴブリン族に納品するナンカの卵なんだが、
+少しくらい数が減っていても、ヤツらは気づかんだろう。"
+60,"TEXT_BANGNA501_02271_GOURIKI_000_031","問題は、サーチャーにバレて、ギルドをクビにされることだ。
+荷物運びはほかにもいるからな……。"
+61,"TEXT_BANGNA501_02271_GOURIKI_000_032","でも、ヤツは俺が自我を失ったと思っているようだな？
+だったら、そういうことにしといてくれよ。
+アンタに救われたってことにさ……シシシシシ。"
+62,"TEXT_BANGNA501_02271_GOURIKI_000_033","俺はこの荷車をイディルシャイアに届けるから、
+サーチャーには、うまいこと言っといてくれよな……シシシシシ。"
+63,"TEXT_BANGNA501_02271_GOURIKI_000_035","俺はこの荷車をイディルシャイアに届けるから、
+サーチャーには、うまいこと言っといてくれよな……シシシシシ。"
+64,"TEXT_BANGNA501_02271_SEARCHER_000_040","シシシシシ……やはり、自我を失っていたのだな。
+同胞を救ってくれたこと、恩に着るぞ。"
+65,"TEXT_BANGNA501_02271_SEARCHER_000_041","トレッカーのように、塚には、
+まだ完全には「分かたれ」ていない者もいる。
+そういう同胞を後押しするのも、ギルドの役目だな。"

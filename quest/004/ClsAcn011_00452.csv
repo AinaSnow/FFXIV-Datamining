@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSACN011_00452_SEQ_00","Murie wishes you to reaffirm your desire to join the Arcanists' Guild."
-1,"TEXT_CLSACN011_00452_SEQ_01","Though it is standard practice to present yourself to the guildmaster, Murie explains that the leader of the arcanists is not presently available. You are, instead, to speak with the acting guildmaster, Thubyrgeim."
-2,"TEXT_CLSACN011_00452_SEQ_02","After presenting yourself to Thubyrgeim and stating your intention to join the Arcanists' Guild, the scholarly Roegadyn hands you a weathered grimoire. Take the arcane tome in hand, and submit yourself to Thubyrgeim's instruction."
+0,"TEXT_CLSACN011_00452_SEQ_00","巴術士ギルドの受付ムリーは、ギルドへの入門手続きをするにあたって、冒険者の心を確かめようとしているようだ。"
+1,"TEXT_CLSACN011_00452_SEQ_01","ムリーから、ギルドマスター代理「トゥビルゲイム」に入門の意思を伝えるよう言われた。巴術士ギルドの本棚前にいる「トゥビルゲイム」に声をかけよう。"
+2,"TEXT_CLSACN011_00452_SEQ_02","巴術士ギルドマスターの代理トゥビルゲイムに、ギルドへの入門の意思を伝えたところ、「<Sheet(Item,2142,0)/>」を手渡された。これを装備して、もう一度「トゥビルゲイム」に声をかけよう。"
 3,"TEXT_CLSACN011_00452_SEQ_03",""
 4,"TEXT_CLSACN011_00452_SEQ_04",""
 5,"TEXT_CLSACN011_00452_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_CLSACN011_00452_SEQ_21",""
 22,"TEXT_CLSACN011_00452_SEQ_22",""
 23,"TEXT_CLSACN011_00452_SEQ_23",""
-24,"TEXT_CLSACN011_00452_TODO_00","Speak with Thubyrgeim."
+24,"TEXT_CLSACN011_00452_TODO_00","トゥビルゲイムと話す"
 25,"TEXT_CLSACN011_00452_TODO_01",""
 26,"TEXT_CLSACN011_00452_TODO_02",""
 27,"TEXT_CLSACN011_00452_TODO_03",""
@@ -49,18 +49,39 @@ int32,str,str
 45,"TEXT_CLSACN011_00452_TODO_21",""
 46,"TEXT_CLSACN011_00452_TODO_22",""
 47,"TEXT_CLSACN011_00452_TODO_23",""
-48,"TEXT_CLSACN011_00452_MURIE_000_000","Well? Have you decided to enroll in our guild? Or are you now intimidated by the thought of excessive thinking?"
-49,"TEXT_CLSACN011_00452_MURIE_000_005","You are, of course, free to ponder your decision for however long you like. I will be waiting should you choose to embrace a life of academic exertion."
-50,"TEXT_CLSACN011_00452_MURIE_000_010","Your sound judgment is to be commended. Now, standard practice dictates that I introduce you to our guildmaster that you might convey your intentions in person..."
-51,"TEXT_CLSACN011_00452_MURIE_000_011","Due to extraordinary circumstances, however, he is...unreachable at present. Instead, you may speak with Mistress Thubyrgeim. She has shouldered full responsibility for the guild's leadership in the interim."
-52,"TEXT_CLSACN011_00452_MURIE_000_012","You will find her just over there, by the bookshelves. You needn't be shy─though her mind is sharp and critical, her manner is always most welcoming."
-53,"TEXT_CLSACN011_00452_THUBYRGEIM_000_020","Yes, I am Thubyrgeim. Greetings, and welcome to the Arcanists' Guild. As Murie has doubtlessly explained, I am serving as acting guildmaster until our wayward leader deigns to return. I assume our capable receptionist also spoke of our art's origins?"
-54,"TEXT_CLSACN011_00452_THUBYRGEIM_000_021","Allow me, then, to expound upon its nature. Arcanima taps into the living energies of aether. The evidence of this is represented most aptly, perhaps, by our ability to manifest the arcane entity Carbuncle, and the manner of magic which this aetherial ally employs at our command."
-55,"TEXT_CLSACN011_00452_THUBYRGEIM_000_022","The core of the discipline, however, is found in the pursuit of definitive solutions to any potential quandary. Even on the field of battle─nay, <Emphasis>especially</Emphasis> on the field of battle─this principle takes precedence."
-56,"TEXT_CLSACN011_00452_THUBYRGEIM_000_023","If one wishes to make certain the question of victory, then one must apply the most effective strategy. An arcanist is measured by <If(PlayerParameter(4))>her<Else/>his</If> ability to calmly analyze a situation from moment to moment, and respond with the most appropriate spells at hand."
-57,"TEXT_CLSACN011_00452_THUBYRGEIM_000_024","The study of arcanima will test your mental faculties to the point of perplexity. Are you prepared to reason your way through predicament after predicament?"
-58,"TEXT_CLSACN011_00452_Q1_000_000","Are you prepared to reason?"
-59,"TEXT_CLSACN011_00452_A1_000_001","Yes"
-60,"TEXT_CLSACN011_00452_A1_000_002","No"
-61,"TEXT_CLSACN011_00452_THUBYRGEIM_000_030","I see. Though I commend you on coming to such a realization <Emphasis>before</Emphasis> joining the guild, I must admit to a measure of disappointment. Should you have a change in perspective, pray do not hesitate to seek me out once more."
-62,"TEXT_CLSACN011_00452_THUBYRGEIM_000_035","An unambiguous response─the kind I most prefer. Let us now see if the clarity of your words is matched by the sharpness of your mind. Here, take this grimoire in hand, and we shall next judge your aptitude for our discipline."
+48,"TEXT_CLSACN011_00452_MURIE_000_000","さあ、「巴術士ギルド」入門の決意が固まったのですね？"
+49,"TEXT_CLSACN011_00452_MURIE_000_005","どうやら、まだ決めかねているようですね。
+巴術を学ぶ決意が固まったなら
+また声をおかけください。"
+50,"TEXT_CLSACN011_00452_MURIE_000_010","英断でしたね。
+早速、ギルドマスターへ入門の意思を
+告げていただきたいのですが……"
+51,"TEXT_CLSACN011_00452_MURIE_000_011","故あって、現在ギルドマスターは不在です。
+代わりにギルドの運営にあたっている
+ギルドマスター代理「トゥビルゲイム」へお伝えください。"
+52,"TEXT_CLSACN011_00452_MURIE_000_012","彼女は、我らギルドの母ともいえる頼もしい御方。
+そこの本棚の前にいらっしゃいますから
+声をおかけください。"
+53,"TEXT_CLSACN011_00452_THUBYRGEIM_000_020","ようこそ「巴術士ギルド」へ。
+ギルドマスター代理のトゥビルゲイムだ。
+巴術とギルドの歴史は、もう聞いたね？"
+54,"TEXT_CLSACN011_00452_THUBYRGEIM_000_021","説明の通り、巴術は生命の神秘に迫った魔法さ。
+魔法生命体「カーバンクル」を生み出し、
+使役する魔法なんかは、その象徴だね。"
+55,"TEXT_CLSACN011_00452_THUBYRGEIM_000_022","だが、巴術の肝ってのは、
+すべての命題に明確な解を求めることにある。
+これは戦いにおいても同じさ。"
+56,"TEXT_CLSACN011_00452_THUBYRGEIM_000_023","勝利という命題のために、戦術という解を求める。
+そんなわけで、巴術士には冷静に戦況を読み、
+瞬時に最適な魔法を選ぶ力が求められるんだ。"
+57,"TEXT_CLSACN011_00452_THUBYRGEIM_000_024","さて、お前さんは、こんな高度な頭脳戦を強いられる
+巴術の命題に取り組む覚悟はあるのかい？"
+58,"TEXT_CLSACN011_00452_Q1_000_000","巴術の命題に取り組む覚悟はある？"
+59,"TEXT_CLSACN011_00452_A1_000_001","はい"
+60,"TEXT_CLSACN011_00452_A1_000_002","いいえ"
+61,"TEXT_CLSACN011_00452_THUBYRGEIM_000_030","そうか、それはちょっと残念だね……。
+まぁ、ヘタに入門して逃げ出すよりはマシか。
+巴術を学びたくなったら、またおいで。"
+62,"TEXT_CLSACN011_00452_THUBYRGEIM_000_035","断言したね。
+ならば、まずはこの「<Sheet(Item,2142,0)/>」を装備して
+あたしに見せておくれ。"

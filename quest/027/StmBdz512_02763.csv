@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ512_02763_SEQ_00","Cotota is deep in thought."
-1,"TEXT_STMBDZ512_02763_SEQ_01","Cotota returns the animal fat to you and bids you go and speak with the khan, Iturgen. You elect to present the fat to him and explain your current situation."
-2,"TEXT_STMBDZ512_02763_SEQ_02","After you have finished explaining everything to Iturgen, he bids you head to the northeast. You are unsure as to why he would have you travel in said direction, but it seems he is quite keen that you do. Upon finding what seems to be the area he wished for you to visit, you decide to wait and see if anyone, or anything, else appears."
-3,"TEXT_STMBDZ512_02763_SEQ_03","After waiting a short time you see Gascot meeting a group of Gesi that includes Jebei. They demand that Gascot furnish them with bombs which they plan to use to destroy Reunion. When Gascot declares he has no intention of supplying them with any weapons, the atmosphere turns sour and the Gesi move to attack the merchant."
-4,"TEXT_STMBDZ512_02763_SEQ_04","You intervene in the nick of time, just barely saving Gascot from the Gesi assault. After you have dealt with the attackers, you go to see if your merchant friend is unharmed."
-5,"TEXT_STMBDZ512_02763_SEQ_05","Tamachag joins you to put an end to Jebei's scheme once and for all. Cotota then hands you a vellum and infers she would like you to present it to Gascot. You leave in search of him as you realize he left the area while you were otherwise occupied."
-6,"TEXT_STMBDZ512_02763_SEQ_06","When you eventually locate Gascot, he remarks that he has just finished saying his good-byes to the Au Ra that were so transfixed by his Bomb Dance. You hand him the vellum given to you by Cotota which Gascot immediately recognizes as a sign that he has been granted permission to trade in Reunion. Filled with enthusiasm anew, Gascot declares he will return to his office in Kugane and bring back with him wares that will enrich the marketplace. He bids you farewell and says he looks forward to the day when the two of you are reunited once more in Reunion."
+0,"TEXT_STMBDZ512_02763_SEQ_00","再会の市のコトタは、ゲシ族のジェベイについて考え込んでいるようだ。"
+1,"TEXT_STMBDZ512_02763_SEQ_01","コトタから、「<Sheet(EventItem,2002230,0)/>」を返された。再会の市にある族長の天幕で、族長の「イトゥルゲン」に「<Sheet(EventItem,2002230,0)/>」を渡して、事態を説明しよう。"
+2,"TEXT_STMBDZ512_02763_SEQ_02","イトゥルゲンから、北東の方角を指し示された。そちらの方角で何かがあるようだ。アジムステップの刃の海にある「<Sheet(EObj,2008382,0)/>」で見渡そう。"
+3,"TEXT_STMBDZ512_02763_SEQ_03","ガスコットが、ゲシ族のジェベイたちに爆薬を要求されている現場を目撃した。彼らの要求を断ったことにより、ガスコットが、ジェベイたちに襲われそうになっている。刃の海で「ジェベイ」たちを倒そう。"
+4,"TEXT_STMBDZ512_02763_SEQ_04","ジェベイら、ゲシ族の狩人たちを倒した。刃の海の「ガスコット」と話そう。"
+5,"TEXT_STMBDZ512_02763_SEQ_05","駆けつけたイトゥルゲンにより、ジェベイたちは、再会の市を追放された。コトタから、ケスティル族を表わすらしき「<Sheet(EventItem,2002231,0)/>」を渡された。アジムステップの刃の海で、失意のうちに去っていった「ガスコット」を追いかけ、「<Sheet(EventItem,2002231,0)/>」を渡そう。"
+6,"TEXT_STMBDZ512_02763_SEQ_06","ガスコットが受け取った羊皮紙は、再会の市での出店許可を与える証紙だった。改めて、再会の市にとって真に有益な品を仕入れるため、ガスコットはウルダハ商館へ帰っていった。いつかまた、ガスコットと出会えるときがくるだろう。この再会の市で……。"
 7,"TEXT_STMBDZ512_02763_SEQ_07",""
 8,"TEXT_STMBDZ512_02763_SEQ_08",""
 9,"TEXT_STMBDZ512_02763_SEQ_09",""
@@ -25,11 +25,11 @@ int32,str,str
 21,"TEXT_STMBDZ512_02763_SEQ_21",""
 22,"TEXT_STMBDZ512_02763_SEQ_22",""
 23,"TEXT_STMBDZ512_02763_SEQ_23",""
-24,"TEXT_STMBDZ512_02763_TODO_00","Hand the steppe gedan fat to Iturgen."
-25,"TEXT_STMBDZ512_02763_TODO_01","Stand watch at the designated location."
-26,"TEXT_STMBDZ512_02763_TODO_02","Slay the group of Gesi hunters."
-27,"TEXT_STMBDZ512_02763_TODO_03","Speak with Gascot."
-28,"TEXT_STMBDZ512_02763_TODO_04","Deliver the slip of Qestiri vellum to Gascot."
+24,"TEXT_STMBDZ512_02763_TODO_00","イトゥルゲンに<Sheet(EventItem,2002230,0)/>を渡す"
+25,"TEXT_STMBDZ512_02763_TODO_01","<Sheet(EObj,2008382,0)/>で見渡す"
+26,"TEXT_STMBDZ512_02763_TODO_02","ジェベイたちを討伐"
+27,"TEXT_STMBDZ512_02763_TODO_03","ガスコットと話す"
+28,"TEXT_STMBDZ512_02763_TODO_04","ガスコットに<Sheet(EventItem,2002231,0)/>を渡す"
 29,"TEXT_STMBDZ512_02763_TODO_05",""
 30,"TEXT_STMBDZ512_02763_TODO_06",""
 31,"TEXT_STMBDZ512_02763_TODO_07",""
@@ -49,97 +49,189 @@ int32,str,str
 45,"TEXT_STMBDZ512_02763_TODO_21",""
 46,"TEXT_STMBDZ512_02763_TODO_22",""
 47,"TEXT_STMBDZ512_02763_TODO_23",""
-48,"TEXT_STMBDZ512_02763_GASCOT_000_000","Ah, pay no heed to me. I was just thinking about something Jebei said."
-49,"TEXT_STMBDZ512_02763_COTOTA_000_010","..."
-50,"TEXT_STMBDZ512_02763_SYSTEM_000_011","Cotota gives the sticky animal fat back to you. It seems she wants you to talk with Reunion's khan about what Jebei said to Gascot."
-51,"TEXT_STMBDZ512_02763_COTOTA_000_020","..."
-52,"TEXT_STMBDZ512_02763_SYSTEM_000_021","It seems Cotota wants you to speak with the khan."
-53,"TEXT_STMBDZ512_02763_ITURGEN_000_030","..."
-54,"TEXT_STMBDZ512_02763_SYSTEM_000_031","The khan is waiting to see how you will act."
-55,"TEXT_STMBDZ512_02763_ITURGEN_000_040","..."
-56,"TEXT_STMBDZ512_02763_SYSTEM_000_041","The khan gazes upon you, as if he is staring into your very soul. It seems he wishes you to grant him your succor. How will you respond?"
-57,"TEXT_STMBDZ512_02763_Q1_000_000","What will you do?"
-58,"TEXT_STMBDZ512_02763_A1_000_000","Nod."
-59,"TEXT_STMBDZ512_02763_A1_000_001","Give him a quizzical look."
-60,"TEXT_STMBDZ512_02763_A1_000_002","Show him yourself."
-61,"TEXT_STMBDZ512_02763_ITURGEN_000_050","..."
-62,"TEXT_STMBDZ512_02763_SYSTEM_000_051","The khan nods at you approvingly. It seems you have earned his trust."
-63,"TEXT_STMBDZ512_02763_ITURGEN_000_060","..."
-64,"TEXT_STMBDZ512_02763_SYSTEM_000_061","The khan smiles and bows to you. It seems he is requesting your aid with something."
-65,"TEXT_STMBDZ512_02763_ITURGEN_000_070","..."
-66,"TEXT_STMBDZ512_02763_SYSTEM_000_071","The khan stares at you unblinking. It seems you have earned his trust."
-67,"TEXT_STMBDZ512_02763_SYSTEM_000_080","The khan points to the northeast. It appears there is something in that direction he would like you to investigate."
-68,"TEXT_STMBDZ512_02763_COTOTA_000_090","..."
-69,"TEXT_STMBDZ512_02763_SYSTEM_000_091","It seems she wants you to help the khan."
-70,"TEXT_STMBDZ512_02763_ITURGEN_000_095","..."
-71,"TEXT_STMBDZ512_02763_SYSTEM_000_096","The khan wants you to head to the northeast on his behalf."
-72,"TEXT_STMBDZ512_02763_SYSTEM_000_100","This would appear to be the area the khan bid you visit. You decide to wait for a while and see if anything happens."
-73,"TEXT_STMBDZ512_02763_JEBEI_000_110","(-???-)You came after all. Do you have the weapons?"
-74,"TEXT_STMBDZ512_02763_GASCOT_000_111","Yes. You are certain this will allow me to trade in Reunion?"
-75,"TEXT_STMBDZ512_02763_JEBEI_000_112","Certainly. The Qestir are indebted to us. They'll listen to anything we ask of them; you'll have permission to trade in no time."
-76,"TEXT_STMBDZ512_02763_JEBEI_000_113","All I ask is that you sell your weapons to us first. All of them. I'm especially interested in the bombs you foreigners make."
-77,"TEXT_STMBDZ512_02763_GASCOT_000_114","B-Bombs!? Well, I have some, although they're used for mining, not war. I don't have a great many eith─"
-78,"TEXT_STMBDZ512_02763_JEBEI_000_115","None of that matters! Just give me everything you have, you fool! Then you will go back to your wretched homeland and bring more!"
-79,"TEXT_STMBDZ512_02763_GASCOT_000_116","Are you positive you have been telling me the truth this whole time?"
-80,"TEXT_STMBDZ512_02763_GASCOT_000_117","When <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> and I talked to the Au Ra in Reunion, we were told everyone there was equal and at peace. Yet, you would monopolize all the weapons I have for sale?"
-81,"TEXT_STMBDZ512_02763_GASCOT_000_118","You also claim the Qestir will listen to anything you <Emphasis>say</Emphasis>, but I know full well they do not <Emphasis>listen</Emphasis> to anyone."
-82,"TEXT_STMBDZ512_02763_JEBEI_000_119","It seems I was wrong to call you a fool earlier. You've a fair bit of knowledge beneath that thick skull of yours, I see."
-83,"TEXT_STMBDZ512_02763_JEBEI_000_120","Now you've caught on to my plan, there is no reason to continue the ruse. We need your bombs to become the dominant tribe. Now hand them over, you cur!"
-84,"TEXT_STMBDZ512_02763_JEBEI_000_130","Hand over the bombs!"
-85,"TEXT_STMBDZ512_02763_GASCOT_000_135","I cannot. I will not!"
-86,"TEXT_STMBDZ512_02763_POPMESSAGE_100_140","You are under attack!"
-87,"TEXT_STMBDZ512_02763_GASCOT_000_150","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! Please accept my apologies. He told me I had to come alone."
-88,"TEXT_STMBDZ512_02763_TAMACHAG_000_151","(-???-)Jebei. I knew you were foolish, but I never imagined you were so far beyond redemption."
-89,"TEXT_STMBDZ512_02763_TAMACHAG_000_152","I am sorry we had to involve you in this, adventurer. However, your efforts have helped us save Reunion from great harm."
-90,"TEXT_STMBDZ512_02763_TAMACHAG_000_153","I will make sure the Gesi khan is informed of events. I imagine he will be keen to see Jebei is punished for his crimes."
-91,"TEXT_STMBDZ512_02763_GASCOT_000_154","How did things come to this?"
-92,"TEXT_STMBDZ512_02763_TAMACHAG_000_155","The Gesi may be the most skilled at hunting, but they are ultimately at the mercy of their weapons. There is a limit to what one can obtain on the Azim Steppe."
-93,"TEXT_STMBDZ512_02763_TAMACHAG_000_156","No doubt they have long wondered what they could accomplish were they able to get their hands on weapons from faraway lands."
-94,"TEXT_STMBDZ512_02763_TAMACHAG_000_157","Jebei is one of the most radical Gesi I have had the misfortune of meeting. He harbors an intense hatred for the larger tribes such as the Adarkim and the Jhungid."
-95,"TEXT_STMBDZ512_02763_TAMACHAG_000_158","His plan was to use foreign tools to demonstrate the Gesi's supposed superiority."
-96,"TEXT_STMBDZ512_02763_GASCOT_000_159","I-I did not ask for any of this! I simply wanted to sell my wares, that I may make a living for myself. Do not involve me in your tribal feuds!"
-97,"TEXT_STMBDZ512_02763_TAMACHAG_000_160","You clearly still don't understand just why you are hated so in Reunion."
-98,"TEXT_STMBDZ512_02763_TAMACHAG_000_161","Think back to that fat Jebei had you procure to turn into oil for Reunion's lamps. What do you think happens when bombs are set off near oil?"
-99,"TEXT_STMBDZ512_02763_GASCOT_000_162","You mean to say my actions were endangering the very lives of those who live in Reunion?"
-100,"TEXT_STMBDZ512_02763_GASCOT_000_164","I understand Cotota's reluctance now. She foresaw that the trade of foreign weapons would bring only conflict to Reunion."
-101,"TEXT_STMBDZ512_02763_GASCOT_000_165","It would have been irresponsible of her to allow me to trade with the Xaela here."
-102,"TEXT_STMBDZ512_02763_GASCOT_000_166","Now everything is clear, there is little reason for me to stay any longer. Allow me to apologize for all the trouble I have caused so far."
-103,"TEXT_STMBDZ512_02763_COTOTA_000_167","..."
-104,"TEXT_STMBDZ512_02763_SYSTEM_000_168","You are handed a vellum covered with Qestiri markings."
-105,"TEXT_STMBDZ512_02763_SYSTEM_000_169","Cotota points in the direction Gascot headed. It seems she would have you present the vellum to him."
-106,"TEXT_STMBDZ512_02763_TAMACHAG_000_191","Thank you for visiting Reunion. I am not sure we could have stopped Jebei were it not for your help."
-107,"TEXT_STMBDZ512_02763_COTOTA_000_185","...?"
-108,"TEXT_STMBDZ512_02763_SYSTEM_000_186","Cotota seems to be wondering if you have given the vellum to Gascot."
-109,"TEXT_STMBDZ512_02763_ITURGEN_000_190","..."
-110,"TEXT_STMBDZ512_02763_SYSTEM_000_191","Iturgen appreciates your help in thwarting Jebei's plot."
-111,"TEXT_STMBDZ512_02763_GASCOT_000_200","Ah, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, I just finished saying farewell to that group of Bomb Dance fans."
-112,"TEXT_STMBDZ512_02763_GASCOT_000_210","C-Could it be? This is the very vellum required to trade in Reunion!"
-113,"TEXT_STMBDZ512_02763_GASCOT_000_211","But why would Cotota see fit to bestow this honor upon me? My near-bungle almost set Reunion ablaze."
-114,"TEXT_STMBDZ512_02763_Q2_000_000","What will you say?"
-115,"TEXT_STMBDZ512_02763_A2_000_000","Because you acknowledged your mistake."
-116,"TEXT_STMBDZ512_02763_A2_000_001","Because you didn't sell any bombs to Jebei."
-117,"TEXT_STMBDZ512_02763_A2_000_002","..."
-118,"TEXT_STMBDZ512_02763_GASCOT_000_220","Ah, yes. I foolishly thought that my wares would enrich their lives, while knowing nothing of their culture and customs."
-119,"TEXT_STMBDZ512_02763_GASCOT_000_230","But of course! These bombs are for mining, not mass genocide."
-120,"TEXT_STMBDZ512_02763_GASCOT_000_240","Haha, nicely done, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Words are naught but lies after all. Their kind actions speak louder than words ever could."
-121,"TEXT_STMBDZ512_02763_GASCOT_000_250","It's obvious to me now just why they place their faith in actions. Their gesture has made me feel genuine joy for the first time in a long while!"
-122,"TEXT_STMBDZ512_02763_GASCOT_000_251","And whilst I would love nothing more than to begin trading right away, I must make one more trip back to our office in Kugane first."
-123,"TEXT_STMBDZ512_02763_GASCOT_000_252","I need to have a good think about what I should sell here. I'm inclined to believe food, spices, and seeds of plants suited to the local climate would go down well."
-124,"TEXT_STMBDZ512_02763_GASCOT_000_253","I am sure Cotota would appreciate such goods being traded in Reunion. I will return as soon as I am ready."
-125,"TEXT_STMBDZ512_02763_GASCOT_000_254","This region is so different to anywhere I have been and that is precisely what makes it fascinating. However, there are still countless people out there who have no understanding of its culture─just like me when I first arrived here."
-126,"TEXT_STMBDZ512_02763_GASCOT_000_255","What's more, if traders such as myself descend upon Reunion in droves, the Qestir will doubtless struggle to keep them under control. That is why I must return, to give back to this land that has taught me so much."
-127,"TEXT_STMBDZ512_02763_GASCOT_000_256","I owe a great debt both to the Qestir and to you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I truly hope I see you again in Reunion someday."
-128,"TEXT_STMBDZ512_02763_JEBEI_000_151",""
-129,"TEXT_STMBDZ512_02763_GASCOT_000_152",""
-130,"TEXT_STMBDZ512_02763_JEBEI_000_153",""
-131,"TEXT_STMBDZ512_02763_JEBEI_000_154",""
-132,"TEXT_STMBDZ512_02763_JEBEI_000_155",""
-133,"TEXT_STMBDZ512_02763_GASCOT_000_156",""
-134,"TEXT_STMBDZ512_02763_JEBEI_000_157",""
-135,"TEXT_STMBDZ512_02763_JEBEI_000_158",""
-136,"TEXT_STMBDZ512_02763_JEBEI_000_159",""
-137,"TEXT_STMBDZ512_02763_JEBEI_000_160",""
-138,"TEXT_STMBDZ512_02763_JEBEI_000_161",""
-139,"TEXT_STMBDZ512_02763_JEBEI_000_162",""
-140,"TEXT_STMBDZ512_02763_JEBEI_000_163",""
-141,"TEXT_STMBDZ512_02763_JEBEI_000_180",""
+48,"TEXT_STMBDZ512_02763_GASCOT_000_000","すみません、私のことは気にしないでください。
+ジェベイさんからの助言について、
+ちょっと考えたいので……。"
+49,"TEXT_STMBDZ512_02763_COTOTA_000_010","…………。"
+50,"TEXT_STMBDZ512_02763_SYSTEM_000_011","コトタは、先ほど渡した「ベタついた獣脂」を返してきた。
+ジェベイが、ガスコットに助言をしていたことを、
+再会の市の族長、「イトゥルゲン」に話してほしいようだ。"
+51,"TEXT_STMBDZ512_02763_COTOTA_000_020","…………。"
+52,"TEXT_STMBDZ512_02763_SYSTEM_000_021","「イトゥルゲン」に、先ほどの「<Sheet(EventItem,2002230,0)/>」を渡して、
+ジェベイが、ガスコットに助言をしていたことを、
+話してほしいようだ。"
+53,"TEXT_STMBDZ512_02763_ITURGEN_000_030","…………。"
+54,"TEXT_STMBDZ512_02763_SYSTEM_000_031","イトゥルゲンは、冒険者の行動を静かに待っている……。"
+55,"TEXT_STMBDZ512_02763_ITURGEN_000_040","…………。"
+56,"TEXT_STMBDZ512_02763_SYSTEM_000_041","イトゥルゲンは、ジッと冒険者を見つめている……。
+どうやら、なにか頼みごとがあるようだ。
+族長である彼の訴えに、どう答えよう。"
+57,"TEXT_STMBDZ512_02763_Q1_000_000","どう答える？"
+58,"TEXT_STMBDZ512_02763_A1_000_000","うなずいてみせる"
+59,"TEXT_STMBDZ512_02763_A1_000_001","首をかしげてみせる"
+60,"TEXT_STMBDZ512_02763_A1_000_002","自分自身を見せつける"
+61,"TEXT_STMBDZ512_02763_ITURGEN_000_050","…………。"
+62,"TEXT_STMBDZ512_02763_SYSTEM_000_051","イトゥルゲンは、強くうなずき返してきた。
+冒険者を、頼もしく思ってくれているようだ。"
+63,"TEXT_STMBDZ512_02763_ITURGEN_000_060","…………。"
+64,"TEXT_STMBDZ512_02763_SYSTEM_000_061","イトゥルゲンは微笑み、お辞儀をしてきた。
+どうやら、冒険者に力を貸してほしいということを、
+改めて、伝えようとしてくれたようだ。"
+65,"TEXT_STMBDZ512_02763_ITURGEN_000_070","…………。"
+66,"TEXT_STMBDZ512_02763_SYSTEM_000_071","イトゥルゲンは熱い眼差しで、こちらを見つめてきた。
+冒険者の態度を、頼もしく思ってくれたようだ。"
+67,"TEXT_STMBDZ512_02763_SYSTEM_000_080","イトゥルゲンは、北東の方角、高い位置を指さしてきた。
+そちらの方角に向かって、高い位置から、
+周囲の様子を見渡してほしいようだ……。"
+68,"TEXT_STMBDZ512_02763_COTOTA_000_090","…………。"
+69,"TEXT_STMBDZ512_02763_SYSTEM_000_091","イトゥルゲンの頼みを聞いてほしいようだ……。"
+70,"TEXT_STMBDZ512_02763_ITURGEN_000_095","…………。"
+71,"TEXT_STMBDZ512_02763_SYSTEM_000_096","イトゥルゲンは、期待を込めた眼差しでこちらを見つめている。
+先ほど彼が指さした北東の方角、高い位置から、
+周囲の様子を見渡してほしいようだ。"
+72,"TEXT_STMBDZ512_02763_SYSTEM_000_100","ここが、イトゥルゲンの指定した場所のようだ。
+見張り台から、周囲の様子を見てみよう……。"
+73,"TEXT_STMBDZ512_02763_JEBEI_000_110","(-？？？？-)やはり、来たな……。
+さあ、武器は持ってきたか……？"
+74,"TEXT_STMBDZ512_02763_GASCOT_000_111","ええ……。
+これで、再会の市で商売ができるようになるんですか……？"
+75,"TEXT_STMBDZ512_02763_JEBEI_000_112","ああ、ケスティル族は、俺たちゲシ族に借りがあってな。
+ゲシ族の者の言葉ならば、奴らはなんでも聞く……。
+お前の出店許可くらい、簡単に取れるさ。"
+76,"TEXT_STMBDZ512_02763_JEBEI_000_113","……だから、俺たちにだけ、先に荷を売ってもらいたい。
+ありったけの武器を、ゲシ族が買い取ろうじゃないか……。
+特に異国の民が造る「爆弾」というものがほしい。"
+77,"TEXT_STMBDZ512_02763_GASCOT_000_114","ば、爆弾ですか……！？
+軍用ではありませんが、発破用の爆薬でしたら少しは……。
+ただ、あくまでも見本ですから、そこまでの量は……。"
+78,"TEXT_STMBDZ512_02763_JEBEI_000_115","なんでもいい、あるだけ全部、俺たちが買い占める……！
+それから自分の国に戻って、もっと多く持ってこい！"
+79,"TEXT_STMBDZ512_02763_GASCOT_000_116","……あの、その前に聞きたいんですが、
+あなたの仰っていることは本当なのでしょうか？"
+80,"TEXT_STMBDZ512_02763_GASCOT_000_117","市で、人々から聞き込みをしたときに聞いたのです。
+再会の市では、すべての民が平等である、と……。
+なのに、あなた方は自分たちにだけ武器を売れという……。"
+81,"TEXT_STMBDZ512_02763_GASCOT_000_118","それに、ケスティル族は「行動」がすべての部族なんでしょう？
+そんな部族が、あなたたち、ゲシ族の「言葉」にだけは、
+なんでも従うというのは、どうも……。"
+82,"TEXT_STMBDZ512_02763_JEBEI_000_119","……ほう、無知な愚か者と思っていたが、
+いつの間にか、余計な知恵を仕込んでいたようだな。"
+83,"TEXT_STMBDZ512_02763_JEBEI_000_120","我らの虚言に気づいた以上、甘言はここまでだ……。
+「爆弾」という武器があれば、我らの部族はより強くなれる！
+さあ、お前の荷をよこせ！"
+84,"TEXT_STMBDZ512_02763_JEBEI_000_130","さあ、「爆弾」をよこすんだ！！"
+85,"TEXT_STMBDZ512_02763_GASCOT_000_135","ひ、ひぃぃぃ！！！"
+86,"TEXT_STMBDZ512_02763_POPMESSAGE_100_140","敵が襲いかかってきた！！"
+87,"TEXT_STMBDZ512_02763_GASCOT_000_150","す、すみませんでした……。
+彼らに、秘密の交渉を持ちかけられたのですが、
+ひとりで来るのが条件だと言われて……。"
+88,"TEXT_STMBDZ512_02763_TAMACHAG_000_151","(-？？？？-)くそっ……ジェベイどもめ……！
+まさか本当に、こんな凶行に走ろうとするとは！！"
+89,"TEXT_STMBDZ512_02763_TAMACHAG_000_152","すまない、あんたには手間をかけさせたな……。
+だが、おかげで再会の市に危険をもたらすのを、
+食い止めることができたよ。"
+90,"TEXT_STMBDZ512_02763_TAMACHAG_000_153","急ぎ、事態をゲシ族の族長に伝えないとな。
+先に暴走したのは、ジェベイどもだから、
+あちらの族長も穏便にすませようとするだろうが……。"
+91,"TEXT_STMBDZ512_02763_GASCOT_000_154","ど、どうして、こんな事態に。
+彼らは何故、こうまでして爆薬を求めたのです……？"
+92,"TEXT_STMBDZ512_02763_TAMACHAG_000_155","……やつらゲシ族は、狩りや戦いにも道具を用いる部族だ。
+だが、いくらゲシ族が道具の扱いに長けていようと、
+アジムステップで手に入る物資には限りがある……。"
+93,"TEXT_STMBDZ512_02763_TAMACHAG_000_156","草原の外には、様々な素材や技術で造られた、
+強力な武器が大量にあるんだろう……？
+ジェベイどもが求めたのは、それらの武器による「力」だ。"
+94,"TEXT_STMBDZ512_02763_TAMACHAG_000_157","ジェベイどもは、ゲシ族の中でも過激な一派でね。
+アダルキム族やジュンギド族のような大規模部族を嫌っていた。
+数に物を言わせるだけの能無し部族だと……。"
+95,"TEXT_STMBDZ512_02763_TAMACHAG_000_158","様々な道具の扱いに長けた自分たちが「武器」を持てば、
+そうしたほかの部族を、上回れると思ったんだろう……。"
+96,"TEXT_STMBDZ512_02763_GASCOT_000_159","そんな……私はただ、日々の生活を豊かにするため、
+そう、良かれと思って、道具を持ち込んだだけです……！
+決して、戦いを加速させるような物を売りたいわけでは……。"
+97,"TEXT_STMBDZ512_02763_TAMACHAG_000_160","……あんたは、やはり愚か者だ。
+何故、自分がケスティル族や市の者に嫌われていたのか、
+全然わかっていないのか。"
+98,"TEXT_STMBDZ512_02763_TAMACHAG_000_161","街道を照らしたくば、獣を狩って油をとればいいこと。
+あんたが爆薬を持ち込めば、それは道ではなく、
+敵対する部族を焼く炎となるんだよ……！"
+99,"TEXT_STMBDZ512_02763_GASCOT_000_162","で、では、皆さんが私に冷たい目線を向けていたのは、
+すべて、私が持ち込んだ商品のせい……！"
+100,"TEXT_STMBDZ512_02763_GASCOT_000_164","……コトタさんは、わかってらしたんですね。
+外の道具を、無闇に持ち込んで商売することは、
+この土地に争いをもたらす危険があると。"
+101,"TEXT_STMBDZ512_02763_GASCOT_000_165","私が持ってきた商品の中には、
+このアジムステップの暮らしに、悪影響をもたらすものがある。
+だから、あなたは、私に商売の許可を出さなかった……。"
+102,"TEXT_STMBDZ512_02763_GASCOT_000_166","何故、再会の市での出店許可を得られなかったのか、
+はっきりわかった以上、ここに留まる理由はありませんね……。
+今まで……本当にすみませんでした……。"
+103,"TEXT_STMBDZ512_02763_COTOTA_000_167","…………。"
+104,"TEXT_STMBDZ512_02763_SYSTEM_000_168","妙な印が描かれた羊皮紙を渡された。
+どうやら、ケスティル族を表す印が記されているらしい。"
+105,"TEXT_STMBDZ512_02763_SYSTEM_000_169","「ガスコット」が去っていった方向を指さされた……。
+どうやらこの紙を、彼に渡してほしいようだ。"
+106,"TEXT_STMBDZ512_02763_TAMACHAG_000_191","あんたが、再会の市を訪れてくれていてよかったよ。
+俺たちだけじゃ、ジェベイどもの暴走を止めるのに、
+相当、苦労しただろうからな。"
+107,"TEXT_STMBDZ512_02763_COTOTA_000_185","…………？"
+108,"TEXT_STMBDZ512_02763_SYSTEM_000_186","「<Sheet(EventItem,2002231,0)/>」を、
+「ガスコット」に渡したか気にしているようだ……。"
+109,"TEXT_STMBDZ512_02763_ITURGEN_000_190","…………。"
+110,"TEXT_STMBDZ512_02763_SYSTEM_000_191","ジェベイの暴走を止めてくれたことを、
+感謝しているようだ……。"
+111,"TEXT_STMBDZ512_02763_GASCOT_000_200","おや、冒険者さんじゃないですか。
+今、再会の市への別れを済ませたところですよ……。
+ところで、まだなにか私に用でも……？"
+112,"TEXT_STMBDZ512_02763_GASCOT_000_210","こ、これは……！
+再会の市での商売が認められた者に渡される証紙……！
+ほら、ここにケスティル族を示す印が記されていますよ！"
+113,"TEXT_STMBDZ512_02763_GASCOT_000_211","でも、コトタさんは、何故いまさら私にこれを……。
+先ほども、危うく争いの火種をばら撒くところだったのに……。"
+114,"TEXT_STMBDZ512_02763_Q2_000_000","何と答える？"
+115,"TEXT_STMBDZ512_02763_A2_000_000","自分の過ちに気づいたからだ"
+116,"TEXT_STMBDZ512_02763_A2_000_001","彼らに爆薬を売らなかったからだ"
+117,"TEXT_STMBDZ512_02763_A2_000_002","…………"
+118,"TEXT_STMBDZ512_02763_GASCOT_000_220","そうですね……。
+便利になるのは、すべての人が喜ぶことだと思っていました。
+彼らの風習や文化も理解せずに……。"
+119,"TEXT_STMBDZ512_02763_GASCOT_000_230","……そりゃ、売れませんよ。
+楽に採掘するためにと、持ち込んだ爆薬が、
+危うく血なまぐさいことに使われるところだったんですから。"
+120,"TEXT_STMBDZ512_02763_GASCOT_000_240","ふふ、そうでした、言葉は嘘の温床でしたね。
+大事なのは、彼らが、私にこれを渡してくれたという、
+その「行動」の事実のみ……。"
+121,"TEXT_STMBDZ512_02763_GASCOT_000_250","……この紙をもらえたことで、こうも心弾むとは。
+言葉ではなく真の気持ちがこもった「行動」で示されるって、
+こんなにも嬉しいことなんですね。"
+122,"TEXT_STMBDZ512_02763_GASCOT_000_251","……冒険者さん、私は決めました。
+この証紙をもらえたことは、飛び上がるほど嬉しい。
+でも、やはり私は一度、クガネのウルダハ商館に戻ります。"
+123,"TEXT_STMBDZ512_02763_GASCOT_000_252","そして、自分の商品を見直すことにしますよ。
+食品や調味料、この風土にあった食物の種など……。
+そういった物なら、彼らの需要にも応えられるでしょう。"
+124,"TEXT_STMBDZ512_02763_GASCOT_000_253","きっと、コトタさんもそれを望んでいるはず……。
+そうして準備を整えたら、必ずまた再会の市に戻ってきます！"
+125,"TEXT_STMBDZ512_02763_GASCOT_000_254","この土地は、とても異質で……そして、興味深い。
+ですが、それを理解できない者も数多くいるでしょう。
+そう、これまでの私のような商人が、数多くね……。"
+126,"TEXT_STMBDZ512_02763_GASCOT_000_255","ケスティル族の者たちも、
+大挙して押し寄せてきた商人を御する術は知りますまい。
+彼らの聖域を守るため、私はここに戻ってきます……！"
+127,"TEXT_STMBDZ512_02763_GASCOT_000_256","こう思えるようになったのは、
+ケスティル族と……そして、あなたのおかげだ。
+いつか、また、再会の市で会いましょう！"
+128,"TEXT_STMBDZ512_02763_JEBEI_000_151","（★未使用／削除予定★）"
+129,"TEXT_STMBDZ512_02763_GASCOT_000_152","（★未使用／削除予定★）"
+130,"TEXT_STMBDZ512_02763_JEBEI_000_153","（★未使用／削除予定★）"
+131,"TEXT_STMBDZ512_02763_JEBEI_000_154","（★未使用／削除予定★）"
+132,"TEXT_STMBDZ512_02763_JEBEI_000_155","（★未使用／削除予定★）"
+133,"TEXT_STMBDZ512_02763_GASCOT_000_156","（★未使用／削除予定★）"
+134,"TEXT_STMBDZ512_02763_JEBEI_000_157","（★未使用／削除予定★）"
+135,"TEXT_STMBDZ512_02763_JEBEI_000_158","（★未使用／削除予定★）"
+136,"TEXT_STMBDZ512_02763_JEBEI_000_159","（★未使用／削除予定★）"
+137,"TEXT_STMBDZ512_02763_JEBEI_000_160","（★未使用／削除予定★）"
+138,"TEXT_STMBDZ512_02763_JEBEI_000_161","（★未使用／削除予定★）"
+139,"TEXT_STMBDZ512_02763_JEBEI_000_162","（★未使用／削除予定★）"
+140,"TEXT_STMBDZ512_02763_JEBEI_000_163","（★未使用／削除予定★）"
+141,"TEXT_STMBDZ512_02763_JEBEI_000_180","（★未使用／削除予定★）"

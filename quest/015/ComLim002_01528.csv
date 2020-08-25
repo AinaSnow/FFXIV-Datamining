@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_COMLIM002_01528_SEQ_00","Lieutenant Trachraet is looking for a few good soldiers."
-1,"TEXT_COMLIM002_01528_SEQ_01","The member nations of the Eorzean Alliance do not see eye to eye in all matters. Nevertheless, their disagreements have not been irreconcilable─until now. Control of the Carteneau Flats is to be decided on the field of battle, and Lieutenant Trachraet would have you fight for the Maelstrom. Speak with the Foreign Levy flyer to learn more of this new conflict, and to decide if you wish to become involved."
-2,"TEXT_COMLIM002_01528_SEQ_02","<Emphasis>Civilized</Emphasis> violence. <Emphasis>Civilized</Emphasis> war. The concept seems contradictory, if not ludicrous, yet your fellow soldiers take no issue with this proposed resolution. It is clear now that the Maelstrom will not be swayed from its course. You, however, are yet free to decide. To embrace this cause, or to renounce it─it is your choice."
+0,"TEXT_COMLIM002_01528_SEQ_00","黒渦団：軍令部のトラッハレート少甲士は、冒険者に依頼したい任務があるようだ。"
+1,"TEXT_COMLIM002_01528_SEQ_01","「カルテノー平原」で出土した古代アラグ文明の遺跡の保有権を巡り、リムサ・ロミンサ、グリダニア、ウルダハの三都市が対立しているという。そこで、トラッハレート少甲士から、黒渦団の一員として遺跡争奪戦に参加するように依頼された。リムサ・ロミンサ・ランディングにいる「特殊陸戦隊飛空兵」に話を聞きにいこう。"
+2,"TEXT_COMLIM002_01528_SEQ_02","特殊陸戦隊飛空兵から、遺跡争奪戦に関する説明を受けた。「アウトロー戦区」で行われている遺跡争奪戦に参加し、黒渦団のために活躍しよう。"
 3,"TEXT_COMLIM002_01528_SEQ_03",""
 4,"TEXT_COMLIM002_01528_SEQ_04",""
 5,"TEXT_COMLIM002_01528_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_COMLIM002_01528_SEQ_21",""
 22,"TEXT_COMLIM002_01528_SEQ_22",""
 23,"TEXT_COMLIM002_01528_SEQ_23",""
-24,"TEXT_COMLIM002_01528_TODO_00","Speak with the Foreign Levy flyer at the airship landing."
+24,"TEXT_COMLIM002_01528_TODO_00","リムサ・ロミンサ・ランディングの特殊陸戦隊飛空兵と話す"
 25,"TEXT_COMLIM002_01528_TODO_01",""
 26,"TEXT_COMLIM002_01528_TODO_02",""
 27,"TEXT_COMLIM002_01528_TODO_03",""
@@ -49,23 +49,54 @@ int32,str,str
 45,"TEXT_COMLIM002_01528_TODO_21",""
 46,"TEXT_COMLIM002_01528_TODO_22",""
 47,"TEXT_COMLIM002_01528_TODO_23",""
-48,"TEXT_COMLIM002_01528_TRACHRAET_000_001",""
-49,"TEXT_COMLIM002_01528_TRACHRAET_000_002",""
-50,"TEXT_COMLIM002_01528_TRACHRAET_000_003","Yer familiar with what transpired at Carteneau five years ago, ain't ye, <Clickable(<If(GreaterThan(PlayerParameter(52),0))><Sheet(GCRankLimsaMaleText,PlayerParameter(52),8)/><Else/></If><If(GreaterThan(PlayerParameter(53),0))><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),8)/><Else/></If><If(GreaterThan(PlayerParameter(54),0))><Sheet(GCRankUldahMaleText,PlayerParameter(54),8)/><Else/></If>)/> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>?"
-51,"TEXT_COMLIM002_01528_TRACHRAET_000_004","I don't mean the godsdamned moon crackin' open an' that thrice-damned primal rainin' 'ellfire upon us all. Even folk in the Far East 'eard that tale, I reckon."
-52,"TEXT_COMLIM002_01528_TRACHRAET_000_005","What I'm wonderin' is 'ow knowledgeable ye are with regards to the aftermath, when the Eorzean Alliance saw fit to settle in an' jointly administer the region for the foreseeable future."
-53,"TEXT_COMLIM002_01528_TRACHRAET_000_006","Waste o' time, money, an' men, most say, what with nothin' o' value in the Carteneau Flats, eh? That's the story to which most folk've been privy─the truth, o' course, bein' a fair bit different."
-54,"TEXT_COMLIM002_01528_TRACHRAET_000_007","In case ye ain't yet in the know, the primal's rampage laid bare these Allagan ruins, which no one 'ad even the slightest inklin' existed prior to the Calamity. It didn't take a bleedin' genius to recognize that we'd found somethin' important, an' that we'd be fools to let it fall into the wrong 'ands."
-55,"TEXT_COMLIM002_01528_TRACHRAET_000_008","The powers that be declared that we'd protect an' study the ruins together, an' so we did─until now. Limsa Lominsa, Ul'dah, an' Gridania 'ave all formally asserted a claim to the territory. The time for talk 'as passed; the time for action 'as come."
-56,"TEXT_COMLIM002_01528_TRACHRAET_000_009","That bein' said, we'd be a sorry excuse for an alliance if we let this one issue divide us. So while there'll be fightin', it'll be in accordance with the rules. All 'ostilities shall be confined to the disputed territories, an' engagements shall be fought to submission, not death."
-57,"TEXT_COMLIM002_01528_TRACHRAET_000_010","Remember that when yer on the front line, <Clickable(<If(GreaterThan(PlayerParameter(52),0))><Sheet(GCRankLimsaMaleText,PlayerParameter(52),8)/><Else/></If><If(GreaterThan(PlayerParameter(53),0))><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),8)/><Else/></If><If(GreaterThan(PlayerParameter(54),0))><Sheet(GCRankUldahMaleText,PlayerParameter(54),8)/><Else/></If>)/>─beat a man within an ilm of 'is life if ye must, but see that it goes no further."
-58,"TEXT_COMLIM002_01528_TRACHRAET_000_011","Ye'll be joinin' the fight, won't ye? A soldier with your talents would make a tremendous difference! What's more, ye'd be doin' the nation a great service."
-59,"TEXT_COMLIM002_01528_TRACHRAET_000_012","At least speak with our man at the airship landin' before ye decide one way or the other. Think on it, <Clickable(<If(GreaterThan(PlayerParameter(52),0))><Sheet(GCRankLimsaMaleText,PlayerParameter(52),8)/><Else/></If><If(GreaterThan(PlayerParameter(53),0))><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),8)/><Else/></If><If(GreaterThan(PlayerParameter(54),0))><Sheet(GCRankUldahMaleText,PlayerParameter(54),8)/><Else/></If>)/>. That's all I ask."
-60,"TEXT_COMLIM002_01528_TOKUSHURIKUSENNTAIHIKUUHEI_000_020","<Clickable(<If(GreaterThan(PlayerParameter(52),0))><Sheet(GCRankLimsaMaleText,PlayerParameter(52),8)/><Else/></If><If(GreaterThan(PlayerParameter(53),0))><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),8)/><Else/></If><If(GreaterThan(PlayerParameter(54),0))><Sheet(GCRankUldahMaleText,PlayerParameter(54),8)/><Else/></If>)/> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>! Come to join the fight, have we? Very good, very good indeed!"
-61,"TEXT_COMLIM002_01528_TOKUSHURIKUSENNTAIHIKUUHEI_000_021","Now before we proceed, I must warn you: this isn't going to be like some jaunt in the Wolves' Den."
-62,"TEXT_COMLIM002_01528_TOKUSHURIKUSENNTAIHIKUUHEI_000_022","You'll be pitted against wave after wave of fellow Alliance members in battle, and they won't care one whit that you're the Warrior of Light."
-63,"TEXT_COMLIM002_01528_TOKUSHURIKUSENNTAIHIKUUHEI_000_023","This campaign will be long and brutal, and victories won today may be undone tomorrow. Consider the borderland ruins. We need only seize control of each ruin in the region, right? Wrong. Defense is paramount as well, for our rivals will muster forces to challenge our claims."
-64,"TEXT_COMLIM002_01528_TOKUSHURIKUSENNTAIHIKUUHEI_000_024","It is for that reason we have established an airship route direct to the front line. Those who are ready and willing to fight will never want for transportation!"
-65,"TEXT_COMLIM002_01528_TOKUSHURIKUSENNTAIHIKUUHEI_000_025","Ah, but that look on your face bespeaks confusion. “Are we at war or not? What is this bollocks about no killing? What in the seven hells is going on!?” That's what you're thinking, yes?"
-66,"TEXT_COMLIM002_01528_TOKUSHURIKUSENNTAIHIKUUHEI_000_026","It's less “war” and more “organized violence to resolve a territorial dispute.” And yes, it is to be <Emphasis>civilized</Emphasis> violence. Killing Alliance members is strictly prohibited─though accidents have been known to happen, mind you."
-67,"TEXT_COMLIM002_01528_TOKUSHURIKUSENNTAIHIKUUHEI_000_027","But you of all people have nothing to fear! You've escaped certain death more times than I can count; what are the odds you'll fail to do so this time, eh?"
+48,"TEXT_COMLIM002_01528_TRACHRAET_000_001","（★未使用／削除予定★）"
+49,"TEXT_COMLIM002_01528_TRACHRAET_000_002","（★未使用／削除予定★）"
+50,"TEXT_COMLIM002_01528_TRACHRAET_000_003","黒渦団の同志である貴方に、
+依頼したい特別な任務があるのです。"
+51,"TEXT_COMLIM002_01528_TRACHRAET_000_004","「カルテノー平原」をご存知でしょうか？
+そう、5年前の「第七霊災」の中心地となった、
+エオルゼア同盟軍と帝国軍第VII軍団の決戦の地です。"
+52,"TEXT_COMLIM002_01528_TRACHRAET_000_005","同地は、いずれの都市にも領有されていない状態でしたが、
+そこで発見された「古代アラグ文明の遺跡」を巡り、
+少々きな臭いことになっています……。"
+53,"TEXT_COMLIM002_01528_TRACHRAET_000_006","我が黒渦団の上層部は、件の遺跡を重要視しているようでしてね。
+各都市に対して、遺跡の調査、および保有権を主張したのです。"
+54,"TEXT_COMLIM002_01528_TRACHRAET_000_007","ところが、同盟参加国のグリダニアやウルダハもまた、
+同じく保有権を求めだしました……。
+今や「カルテノー平原」は、権利を巡って一触即発の状態です。"
+55,"TEXT_COMLIM002_01528_TRACHRAET_000_008","三国の領袖たちは、この対立が同盟の亀裂とならないよう、
+同地で起きたあらゆる問題を外には持ち出さぬという、
+協定を交わしました。"
+56,"TEXT_COMLIM002_01528_TRACHRAET_000_009","かくして「カルテノー平原」は、
+「アウトロー戦区（法外戦区）」に指定され、
+今も激しい戦いが繰り広げられています。"
+57,"TEXT_COMLIM002_01528_TRACHRAET_000_010","……前置きが長くなりましたね。
+貴方に依頼したい特別任務とは、
+ずばり、この遺跡争奪戦への参加です。"
+58,"TEXT_COMLIM002_01528_TRACHRAET_000_011","現在、立ち入りが制限されている「カルテノー平原」へは、
+飛空艇を用いて向かっていただきます。"
+59,"TEXT_COMLIM002_01528_TRACHRAET_000_012","最前線の戦列に加わる覚悟ができましたら、
+「リムサ・ロミンサ・ランディング」で待機している、
+「特殊陸戦隊飛空兵」に申し出てください。"
+60,"TEXT_COMLIM002_01528_TOKUSHURIKUSENNTAIHIKUUHEI_000_020","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/><If(GreaterThan(PlayerParameter(52),0))><Sheet(GCRankLimsaMaleText,PlayerParameter(52),0)/><Else/></If>に敬礼ッ！
+「アウトロー戦区」で行われている遺跡争奪戦について、
+ご説明いたします！"
+61,"TEXT_COMLIM002_01528_TOKUSHURIKUSENNTAIHIKUUHEI_000_021","今回、我々が確保を目指すのは、
+平原南部に位置する「外縁遺跡群」であります！"
+62,"TEXT_COMLIM002_01528_TOKUSHURIKUSENNTAIHIKUUHEI_000_022","軍令部では、この遺跡群を掌握することで、
+数マルム北方に存在する「中枢遺跡」の防衛機構を
+制御できるのではないかと考えているそうです。"
+63,"TEXT_COMLIM002_01528_TOKUSHURIKUSENNTAIHIKUUHEI_000_023","つまり、中枢遺跡に眠る古代の遺産を手にするためには、
+本作戦の成功が必要不可欠ということです！"
+64,"TEXT_COMLIM002_01528_TOKUSHURIKUSENNTAIHIKUUHEI_000_024","これより、飛空艇にて「カルテノー平原」に進発。
+「アウトロー戦区」に指定されている平原南部に到着後、
+外縁遺跡群にある、複数の要所を確保してください。"
+65,"TEXT_COMLIM002_01528_TOKUSHURIKUSENNTAIHIKUUHEI_000_025","無論、双蛇党や不滅隊も、兵力を投入してくることでしょう。
+ですが、彼の地は法の外に置かれた「アウトロー戦区」……
+同盟国相手であっても、容赦は不要です！"
+66,"TEXT_COMLIM002_01528_TOKUSHURIKUSENNTAIHIKUUHEI_000_026","なお、斥候からの報告によれば、遺跡群中央のダラガブ片からは、
+アラグの防衛兵器が転送されてくることがあるとか。
+こちらは、十分に警戒してください！"
+67,"TEXT_COMLIM002_01528_TOKUSHURIKUSENNTAIHIKUUHEI_000_027","さぁ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/><If(GreaterThan(PlayerParameter(52),0))><Sheet(GCRankLimsaMaleText,PlayerParameter(52),0)/><Else/></If>、
+飛空艇の出港準備は完了しております！
+各種兵装を確認次第、直ちに乗艇願います！"

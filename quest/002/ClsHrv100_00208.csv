@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSHRV100_00208_SEQ_00","Fufucha wishes to assign you your first task as a botanist."
-1,"TEXT_CLSHRV100_00208_SEQ_01","Keen that you should acquire the basics of botany through practical experience, Fufucha bids you harvest ten pots' worth of latex. The mature trees that stand outside the Blue Badger Gate and the Yellow Serpent Gate should yield that which you require."
-2,"TEXT_CLSHRV100_00208_SEQ_02","You have successfully harvested and delivered the pots of latex. Praising you for your work, Fufucha encourages you to continue honing your skills as a botanist.
+0,"TEXT_CLSHRV100_00208_SEQ_00","園芸師ギルドへの入門を認められた冒険者。受け取ったハチェットを装備して、フフチャに声をかけよう。"
+1,"TEXT_CLSHRV100_00208_SEQ_01","園芸師の仕事を覚えるため、「<Sheet(Item,5509,0)/>」を10個、手に入れ、園芸師ギルドの「フフチャ」に届けよう。<Sheet(Item,5509,0)/>は「青狢門」もしくは「黄蛇門」周辺の木から採集できるようだ。"
+2,"TEXT_CLSHRV100_00208_SEQ_02","無事、<Sheet(Item,5509,0)/>を納品することができた。これからも園芸師の腕をあげるために努力しよう。
 
-※The next botanist quest will be available from Fufucha upon reaching level 5."
+※園芸師のレベルが5以上になると、フフチャから次の園芸師クエストを受注することができます。"
 3,"TEXT_CLSHRV100_00208_SEQ_03",""
 4,"TEXT_CLSHRV100_00208_SEQ_04",""
 5,"TEXT_CLSHRV100_00208_SEQ_05",""
@@ -27,7 +27,7 @@ int32,str,str
 21,"TEXT_CLSHRV100_00208_SEQ_21",""
 22,"TEXT_CLSHRV100_00208_SEQ_22",""
 23,"TEXT_CLSHRV100_00208_SEQ_23",""
-24,"TEXT_CLSHRV100_00208_TODO_00","Deliver pots of latex to Fufucha at the Botanists' Guild."
+24,"TEXT_CLSHRV100_00208_TODO_00","園芸師ギルドのフフチャに<Sheet(Item,5509,0)/>を納品"
 25,"TEXT_CLSHRV100_00208_TODO_01",""
 26,"TEXT_CLSHRV100_00208_TODO_02",""
 27,"TEXT_CLSHRV100_00208_TODO_03",""
@@ -51,19 +51,43 @@ int32,str,str
 45,"TEXT_CLSHRV100_00208_TODO_21",""
 46,"TEXT_CLSHRV100_00208_TODO_22",""
 47,"TEXT_CLSHRV100_00208_TODO_23",""
-48,"TEXT_CLSHRV100_00208_FUFUCHA_000_1","I see you have your hatchet on you. Very good."
-49,"TEXT_CLSHRV100_00208_FUFUCHA_000_2","A botanist's hatchet is his livelihood. Never forget this. If you fail to keep its blade clean and keen, your efforts will yield you naught but sweat and splinters."
-50,"TEXT_CLSHRV100_00208_FUFUCHA_000_3","But let us see about your first task... Ah, yes. To help you grasp the basics of botany, I would like you to gather ten pots' worth of latex."
-51,"TEXT_CLSHRV100_00208_FUFUCHA_000_4","The forest yields to us many and more resources. It is the botanist's job to know what can be found, and where."
-52,"TEXT_CLSHRV100_00208_FUFUCHA_000_5","If it is latex you require, you would do well to search just outside the Blue Badger Gate or the Yellow Serpent Gate."
-53,"TEXT_CLSHRV100_00208_FUFUCHA_000_6","Seek out the mature trees that stand in those areas, and then put your hatchet to use. I wish you well."
-54,"TEXT_CLSHRV100_00208_SYSTEM_000_7","Botanists can use hatchets and other cutting tools to log the forests of Eorzea and gather materials used in crafting."
-55,"TEXT_CLSHRV100_00208_SYSTEM_000_8","Trees that are prime for logging are known as <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>mature trees<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
-56,"TEXT_CLSHRV100_00208_SYSTEM_000_9","To locate mature trees, make your way out of the city and then use the botanist action known as <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Triangulate<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
-57,"TEXT_CLSHRV100_00208_FUFUCHA_000_10","How goes the gathering effort? Lest you forget, latex can be had just outside the Blue Badger Gate and the Yellow Serpent Gate."
-58,"TEXT_CLSHRV100_00208_FUFUCHA_000_11","Ah, yes. Precisely ten pots of latex, just as I instructed. You have done well."
-59,"TEXT_CLSHRV100_00208_FUFUCHA_000_12","Latex is easy to find and equally easy to harvest. As such, collecting the stuff is an ideal task for young botanists who are learning their way around a hatchet."
-60,"TEXT_CLSHRV100_00208_FUFUCHA_000_13","Yet know that being able to swing said tool does not make you a botanist. You must also possess the knowledge to locate the resources you seek."
-61,"TEXT_CLSHRV100_00208_FUFUCHA_000_14","That will be all from me for the present. I urge you to keep honing your senses and skills as a botanist. Gather near and far, and learn from your experiences."
-62,"TEXT_CLSHRV100_00208_FUFUCHA_000_15","I look forward to seeing you again when you have become better acquainted with our trade. Till then, I bid you happy gathering!"
-63,"TEXT_CLSHRV100_00208_SYSTEM_000_16","The next botanist quest will be available from Fufucha upon reaching level 5."
+48,"TEXT_CLSHRV100_00208_FUFUCHA_000_1","ちゃんとハチェットを装備できたようですね。
+ハチェットは園芸師にとって、命とも言える道具です。"
+49,"TEXT_CLSHRV100_00208_FUFUCHA_000_2","刃の鈍ったハチェットをいくら振るったところで、
+樹木から恵みを受け取ることなどできません。
+常に手入れを怠らないようにしてくださいね。"
+50,"TEXT_CLSHRV100_00208_FUFUCHA_000_3","さて、まずは「伐採」の基本を覚えていきましょうか。
+手始めに「<Sheet(Item,5509,0)/>」を10個ほど採集してみましょう。"
+51,"TEXT_CLSHRV100_00208_FUFUCHA_000_4","採集は、都市外のさまざまな場所で行えますが、
+ものによって採れる場所が異なります。"
+52,"TEXT_CLSHRV100_00208_FUFUCHA_000_5","「<Sheet(Item,5509,0)/>」でしたら、都市の入口近くで採集できます。
+「青狢門」か「黄蛇門」のどちらかから出て、
+切るに適した樹木……つまり「良木」を探してください。"
+53,"TEXT_CLSHRV100_00208_FUFUCHA_000_6","「良木」を見つけたら、いよいよハチェットの出番。
+道具を手にして、採集を試みてください。
+さあ、頑張ってくださいね。"
+54,"TEXT_CLSHRV100_00208_SYSTEM_000_7","園芸師は、木を伐採することで
+アイテムを採集することができます。"
+55,"TEXT_CLSHRV100_00208_SYSTEM_000_8","園芸師が伐採できる木のことを「良木」と言います。
+アクション「トライアングレート」を使用すると、
+「良木」を見つけることができます。"
+56,"TEXT_CLSHRV100_00208_SYSTEM_000_9","まずは都市の外へ出て、「トライアングレート」を使って
+「良木」を探してみましょう。"
+57,"TEXT_CLSHRV100_00208_FUFUCHA_000_10","「<Sheet(Item,5509,0)/>」は手に入りましたか？
+「青狢門」や「黄蛇門」の近くの木から採集できるはずですよ。"
+58,"TEXT_CLSHRV100_00208_FUFUCHA_000_11","<Sheet(Item,5509,0)/>がちょうど10個、ばっちりですね。
+上出来ですよ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。"
+59,"TEXT_CLSHRV100_00208_FUFUCHA_000_12","比較的、採集しやすい<Sheet(Item,5509,0)/>は
+ハチェットの使い方を覚えるのに最適な素材です。
+もしかしたら……少し簡単すぎたでしょうか？"
+60,"TEXT_CLSHRV100_00208_FUFUCHA_000_13","でも、今回のやり方が伐採の基本です。
+採りたいものに合わせて、良木を選んで採集する。
+そのためにも、何がどこで採れるのかの知識が大切なのです。"
+61,"TEXT_CLSHRV100_00208_FUFUCHA_000_14","さまざまな場所に赴いて、伐採の腕を磨きながら、
+何が得られるのか、知識を蓄えていってくださいね。"
+62,"TEXT_CLSHRV100_00208_FUFUCHA_000_15","ハチェットの使い方に慣れてきたころに、
+またギルドを訪ねてください。
+あなたに新しい課題を用意しておきましょう。"
+63,"TEXT_CLSHRV100_00208_SYSTEM_000_16","「園芸師」のクラスクエストが開始されました。
+次のクエストは「レベル5」以上で受注可能になります。
+レベルを上げ、再度ギルドを訪れてください。"

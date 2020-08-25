@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBSEA152_01143_SEQ_00","Storm Private S'nairoh smells of salt, malt, and bad ideas, and appears intent on securing your services again."
-1,"TEXT_SUBSEA152_01143_SEQ_01","Despite your misgivings, you accept a task from S'nairoh. Leave her to her dubious schemes, and slay five hedgemoles."
-2,"TEXT_SUBSEA152_01143_SEQ_02","With the grace of the Twelve, you prevailed against these mostly harmless creatures. Report the happy news to S'nairoh."
-3,"TEXT_SUBSEA152_01143_SEQ_03","The hedgemoles had no designs on Aleport. They must be commended for fighting so bravely for their lives. Not all is lost, since the good private will now spend her diminished coin on leeches rather than ale."
+0,"TEXT_SUBSEA152_01143_SEQ_00","エールポートのス・ナイロ二等甲兵は、冒険者にまた頼みたいことがあるようだ。"
+1,"TEXT_SUBSEA152_01143_SEQ_01","ス・ナイロ二等甲兵から依頼を受けた。「エールポート」の付近で<Sheet(BNpcName,403,0)/>を5体討伐しよう。"
+2,"TEXT_SUBSEA152_01143_SEQ_02","<Sheet(BNpcName,403,0)/>を討伐することができた。「エールポート」にいる「ス・ナイロ二等甲兵」に報告しよう。"
+3,"TEXT_SUBSEA152_01143_SEQ_03","<Sheet(BNpcName,403,0)/>は、エールポートを襲おうとしているのではなかった。遠くを見ると目がかすむというス・ナイロ二等甲兵。彼女は、その原因をエールの飲みすぎかもしれないと考えているようだ。"
 4,"TEXT_SUBSEA152_01143_SEQ_04",""
 5,"TEXT_SUBSEA152_01143_SEQ_05",""
 6,"TEXT_SUBSEA152_01143_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_SUBSEA152_01143_SEQ_21",""
 22,"TEXT_SUBSEA152_01143_SEQ_22",""
 23,"TEXT_SUBSEA152_01143_SEQ_23",""
-24,"TEXT_SUBSEA152_01143_TODO_00","Dispatch hedgemoles."
-25,"TEXT_SUBSEA152_01143_TODO_01","Report to S'nairoh."
+24,"TEXT_SUBSEA152_01143_TODO_00","<Sheet(BNpcName,403,0)/>を討伐"
+25,"TEXT_SUBSEA152_01143_TODO_01","ス・ナイロ二等甲兵に報告"
 26,"TEXT_SUBSEA152_01143_TODO_02",""
 27,"TEXT_SUBSEA152_01143_TODO_03",""
 28,"TEXT_SUBSEA152_01143_TODO_04",""
@@ -49,13 +49,27 @@ int32,str,str
 45,"TEXT_SUBSEA152_01143_TODO_21",""
 46,"TEXT_SUBSEA152_01143_TODO_22",""
 47,"TEXT_SUBSEA152_01143_TODO_23",""
-48,"TEXT_SUBSEA152_01143_SNAIROH_000_000","Well, I made a right mess of things the other day. Commander Falkbryda said she'd dock my pay if I pulled something like that again. At least I didn't get tossed in the brig like C'mell."
-49,"TEXT_SUBSEA152_01143_SNAIROH_000_001","I have been very chary since, you can be certain of that. I've little enough coin as is in the pay purse to slake my thirst with. But this time, aye, there's a real attack on Aleport, and off I go to arm the cannon!"
-50,"TEXT_SUBSEA152_01143_SNAIROH_000_002","Save Aleport from those bloodbaths on four legs, and we'll see what the commander has to say about my pay then!"
-51,"TEXT_SUBSEA152_01143_SNAIROH_000_003","Adventurer, for Aleport and glory, slow down the horde! I'm certain to be ready by the time you slaughter five!"
-52,"TEXT_SUBSEA152_01143_SNAIROH_000_010","Well slayed! Or do I mean slain? I shall need to know these things if I'm to be officer! I've got the powder and ball loaded and primed! Now for the slow match─hark, a dispatch!"
-53,"TEXT_SUBSEA152_01143_SNAIROH_000_011","“Stand down forthwith”? Not again! But surely these adamantoises are a clear and present─
-...Hedgemoles? You're certain? Well, but, that's like an adamantoise except, ah, weak and not at all dangerous..."
-54,"TEXT_SUBSEA152_01143_SNAIROH_000_012","Why, oh why? Perhaps I have been cursed by some enemy? Not very likely for a mere storm private, second class or no. Now the commander will dock my pay and leave my whistle dry as dust."
-55,"TEXT_SUBSEA152_01143_SNAIROH_000_013","Well, <If(PlayerParameter(4))>my lady most gallant<Else/>my good man</If>, it <Emphasis>is</Emphasis> called Aleport. I've spent a deal of time admiring the undersides of many a tavern table, I can tell you that!"
-56,"TEXT_SUBSEA152_01143_SNAIROH_000_014","What? It could be that my humours are out of balance from a surfeit of ale? And thus─I see it now─there is excess blood, which has overfed my martial zeal! <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, your learned ways have shown me the light! Much thanks─I go now to receive a leeching!"
+48,"TEXT_SUBSEA152_01143_SNAIROH_000_000","独断でカノン砲を使おうとした件で、上官に怒られ、
+これ以上やると減給だと警告されてしまいました……。"
+49,"TEXT_SUBSEA152_01143_SNAIROH_000_001","でも見てください！
+今度こそ、魔物がここを襲撃しようとしているんです！
+次こそは、このカノン砲で沈めてやりますとも！"
+50,"TEXT_SUBSEA152_01143_SNAIROH_000_002","早く認めてもらって、エラくならなければ……。
+こうなったら、成果をもって挽回するしかありません！"
+51,"TEXT_SUBSEA152_01143_SNAIROH_000_003","冒険者さん！　私が砲撃準備している間に、
+襲撃してくる魔物を倒して、足止めしてください！
+5匹ほど倒していただくまでには完了してみせます！"
+52,"TEXT_SUBSEA152_01143_SNAIROH_000_010","魔物を倒していただいて、ありがとうございます！
+こちらもカノン砲の準備が整ったところです。
+よーし、今度こそドカーンと……。"
+53,"TEXT_SUBSEA152_01143_SNAIROH_000_011","……え？　魔物はエールポートを
+襲おうとしていたわけじゃない？
+もしかして、また放っておいてもいい魔物……？"
+54,"TEXT_SUBSEA152_01143_SNAIROH_000_012","ああ、また空回りしちゃった……。
+何でいつもこうなんだろう……。"
+55,"TEXT_SUBSEA152_01143_SNAIROH_000_013","……このエールポートでは、酒税が優遇されてるんです。
+だから、エール取引が盛んなわけで、
+そうすると、ついついグビグビと……。"
+56,"TEXT_SUBSEA152_01143_SNAIROH_000_014","実は最近、遠くを見ようとすると目がかすむのです。
+最初はカノン砲の取扱説明書の見すぎかと思ったんですが、
+単なるエールの飲みすぎのように思えてきました……。"

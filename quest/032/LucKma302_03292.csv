@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKMA302_03292_SEQ_00","Cassard stands at the entrance to Mord Souq, an eager smile on his face."
+0,"TEXT_LUCKMA302_03292_SEQ_00","モルド・スーク前のカサードは、楽しげな様子だ。"
 1,"TEXT_LUCKMA302_03292_SEQ_01",""
 2,"TEXT_LUCKMA302_03292_SEQ_02",""
 3,"TEXT_LUCKMA302_03292_SEQ_03",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_LUCKMA302_03292_SEQ_21",""
 22,"TEXT_LUCKMA302_03292_SEQ_22",""
 23,"TEXT_LUCKMA302_03292_SEQ_23",""
-24,"TEXT_LUCKMA302_03292_TODO_00","Speak with Ghen Gen."
-25,"TEXT_LUCKMA302_03292_TODO_01","Speak with Rhon Ron, and browse the available wares."
-26,"TEXT_LUCKMA302_03292_TODO_02","Speak with Ghen Gen."
+24,"TEXT_LUCKMA302_03292_TODO_00","ゲーンゲンと話す"
+25,"TEXT_LUCKMA302_03292_TODO_01","ローンロンと話し、商品を観察"
+26,"TEXT_LUCKMA302_03292_TODO_02","ゲーンゲンと話す"
 27,"TEXT_LUCKMA302_03292_TODO_03",""
 28,"TEXT_LUCKMA302_03292_TODO_04",""
 29,"TEXT_LUCKMA302_03292_TODO_05",""
@@ -49,50 +49,82 @@ int32,str,str
 45,"TEXT_LUCKMA302_03292_TODO_21",""
 46,"TEXT_LUCKMA302_03292_TODO_22",""
 47,"TEXT_LUCKMA302_03292_TODO_23",""
-48,"TEXT_LUCKMA302_03292_CASSARD_000_000","Mord Souq... Not just full of Mord, but Humes and all manner of others, too! It has long been a refuge for folk displaced by the Flood, so the population is nothing if not diverse."
-49,"TEXT_LUCKMA302_03292_CASSARD_000_001","Oh, have you met a Mord before? They might look like shifty little blighters, but a more welcoming lot you could never wish to meet!"
-50,"TEXT_LUCKMA302_03292_CASSARD_000_002","Speaking of which, we should pay our respects to Master Ghen Gen. I'll go ahead and let him know we've arrived."
-51,"TEXT_LUCKMA302_03292_CASSARD_000_005","Go on! Introduce yourself to Master Ghen Gen!"
-52,"TEXT_LUCKMA302_03292_CASSARD_000_010","A full Voeburtite honor seems a bit rich for buying a dented pan or a bowl of worms. Did the Exarch lose to you at cards or something!?"
-53,"TEXT_LUCKMA302_03292_GHENGEN_000_015","Rhon Ron's shop is best for eating! Crack your coinpurse and gorge on the delicious delicacies!"
-54,"TEXT_LUCKMA302_03292_RHONRON_000_020","Welcome to Rhon Ron's, traveler! I have wares to empty your purse and fill your belly!"
-55,"TEXT_LUCKMA302_03292_RHONRON_000_021","Take your time! Stare and sniff before you choose! But no drooling on the merchandise, yes?"
-56,"TEXT_LUCKMA302_03292_SYTEM_000_022","Browse Rhon Ron's wares. You may move the camera as well as zoom in and out. Target a foodstuff and inspect it with <If(Equal(PlayerParameter(80),0))><UIForeground>F20222</UIForeground><UIForeground>01</UIForeground><Else/><CommandIcon(15)/> / <CommandIcon(8)/></If>."
-57,"TEXT_LUCKMA302_03292_RHONRON_000_040","They all look tasty, yes? Which to choose, which to choose!"
-58,"TEXT_LUCKMA302_03292_Q1_000_000","Which to choose?"
-59,"TEXT_LUCKMA302_03292_A1_000_001","Mushloaf."
-60,"TEXT_LUCKMA302_03292_A1_000_002","Everburning Bounty."
-61,"TEXT_LUCKMA302_03292_A1_000_003","Chewy Skewer."
-62,"TEXT_LUCKMA302_03292_A1_000_004","Glazed Wriggler."
-63,"TEXT_LUCKMA302_03292_RHONRON_000_041","Ah, very wise! You won't wither on the sands with a gut full of cactus fruit filling!"
-64,"TEXT_LUCKMA302_03292_RHONRON_000_042","You have the gold...?"
-65,"TEXT_LUCKMA302_03292_RHONRON_000_043","...And done! One Voeburtite honor buys you forty loaves of bread!"
-66,"TEXT_LUCKMA302_03292_RHONRON_000_044","Yes, put some spice in your step! You won't feel the cold this night...and probably not the next one either! "
-67,"TEXT_LUCKMA302_03292_RHONRON_000_045","You have the gold...?"
-68,"TEXT_LUCKMA302_03292_RHONRON_000_046","...And done! One Voeburtite honor buys you ten sides of lizard meat!"
-69,"TEXT_LUCKMA302_03292_RHONRON_000_047","Mmm, chewy! A quick, easy meal to carry you across the desert!"
-70,"TEXT_LUCKMA302_03292_RHONRON_000_048","You have the gold...?"
-71,"TEXT_LUCKMA302_03292_RHONRON_000_049","...And done! One Voeburtite honor buys you sixty-five skewers!"
-72,"TEXT_LUCKMA302_03292_RHONRON_000_050","Too good to resist, eh? (That's what I would've chosen!)"
-73,"TEXT_LUCKMA302_03292_RHONRON_000_051","You have the gold...?"
-74,"TEXT_LUCKMA302_03292_RHONRON_000_052","...And done! One Voeburtite honor buys you fifteen jars!"
-75,"TEXT_LUCKMA302_03292_Q2_000_000","Will you eat the lot?"
-76,"TEXT_LUCKMA302_03292_A2_000_001","Every last mouthful!"
-77,"TEXT_LUCKMA302_03292_A2_000_002","I think I'll...sh-share...the rest..."
-78,"TEXT_LUCKMA302_03292_RHONRON_000_053","What an appetite! What a belly! A new legend is born in Mord Souq!"
-79,"TEXT_LUCKMA302_03292_RHONRON_000_054","Our visitor invites us to feast! Let us give thanks for <If(PlayerParameter(4))>her<Else/>his</If> great generosity─and small appetite!"
-80,"TEXT_LUCKMA302_03292_RHONRON_000_055","Consider your coinpurse cracked! I am pleased to accept your custom, and Ghen Gen will be pleased that you honored ours!"
-81,"TEXT_LUCKMA302_03292_RHONRON_000_056","...Keeping the merchandise down, yes? No returns!"
-82,"TEXT_LUCKMA302_03292_RHONRON_000_060","I am honored to have been chosen! Go to Ghen Gen! Let him know that your coinpurse has been most decidedly cracked."
-83,"TEXT_LUCKMA302_03292_CASSARD_000_065","I've never seen anyone eat so much of Rhon Ron's “cuisine” in one sitting... You've a stronger stomach than I!"
-84,"TEXT_LUCKMA302_03292_GHENGEN_000_070","I was watching from here, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! You honored our custom, and with great relish!"
-85,"TEXT_LUCKMA302_03292_GHENGEN_000_071","You will always be welcome in Mord Souq─if you need anything in Amh Araeng, we are here to provide!"
-86,"TEXT_LUCKMA302_03292_SYTEM_000_023",""
-87,"TEXT_LUCKMA302_03292_RHONRON_000_024",""
-88,"TEXT_LUCKMA302_03292_SYTEM_000_025",""
-89,"TEXT_LUCKMA302_03292_RHONRON_000_026",""
-90,"TEXT_LUCKMA302_03292_SYTEM_000_027",""
-91,"TEXT_LUCKMA302_03292_RHONRON_000_028",""
-92,"TEXT_LUCKMA302_03292_SYTEM_000_029",""
-93,"TEXT_LUCKMA302_03292_RHONRON_000_030",""
-94,"TEXT_LUCKMA302_03292_RHONRON_000_031",""
+48,"TEXT_LUCKMA302_03292_CASSARD_000_000","この集落は、「モルド族」の奴らが仕切ってるんだ。
+「光の氾濫」以降、行き場を失った人の一部が流入したから、
+ヒュム族なんかも住んでるけどな。"
+49,"TEXT_LUCKMA302_03292_CASSARD_000_001","お前、モルド族に会うのもはじめてか？
+うさんくさいし、体もくさいが、いい奴だぞ！"
+50,"TEXT_LUCKMA302_03292_CASSARD_000_002","まずは族長の「ゲーンゲン」さんに挨拶しに行こう。
+俺が仲介をしてやるよ！"
+51,"TEXT_LUCKMA302_03292_CASSARD_000_005","こちらが、族長のゲーンゲンさんだ。"
+52,"TEXT_LUCKMA302_03292_CASSARD_000_010","フッブート金貨なんて高価なもの、普通は小遣いで渡さないぜ？
+さてはお前……公の弱みでも握ってるのか！？"
+53,"TEXT_LUCKMA302_03292_GHENGEN_000_015","ローンロンの店、いい店ヨ！
+初買い、いっぱい楽しんでネ！"
+54,"TEXT_LUCKMA302_03292_RHONRON_000_020","いらっしゃ～い、旅人さん！
+ウチで初買いしていって、ついでに元気もつけてくヨ！"
+55,"TEXT_LUCKMA302_03292_RHONRON_000_021","ササッ、まずは自慢の商品を、
+じっくりまじまじ見てくといいネ！"
+56,"TEXT_LUCKMA302_03292_SYTEM_000_022","商品の確認を開始します。
+陳列されている商品を、<If(Equal(PlayerParameter(80),0))><UIForeground>F20222</UIForeground>左クリック<UIForeground>01</UIForeground><Else/><CommandIcon(15)/>ボタン/<CommandIcon(8)/>ボタン</If>で確認しましょう！"
+57,"TEXT_LUCKMA302_03292_RHONRON_000_040","じっくり、しっかり、吟味できたネ？
+それじゃあ、どれを買ってくネ？"
+58,"TEXT_LUCKMA302_03292_Q1_000_000","どれを買う？"
+59,"TEXT_LUCKMA302_03292_A1_000_001","ダラダラよだれパン"
+60,"TEXT_LUCKMA302_03292_A1_000_002","メラメラやる気ハム"
+61,"TEXT_LUCKMA302_03292_A1_000_003","モチモチおやつ串"
+62,"TEXT_LUCKMA302_03292_A1_000_004","ぷりぷりミミズ漬け"
+63,"TEXT_LUCKMA302_03292_RHONRON_000_041","よだれパン～！
+旅人さん、お目が高いネ！
+サボテンの実の効能で、酷暑もへっちゃらヨ！"
+64,"TEXT_LUCKMA302_03292_RHONRON_000_042","それじゃ、お代を頂戴するネ？"
+65,"TEXT_LUCKMA302_03292_RHONRON_000_043","フッブート金貨、確かにいただいたネ！
+これなら、40個はパンが食べられるヨ！"
+66,"TEXT_LUCKMA302_03292_RHONRON_000_044","やる気ハム～！
+旅人さん、お目が高いネ！
+このハムは、旅の元気をつけるにはもってこいヨ！"
+67,"TEXT_LUCKMA302_03292_RHONRON_000_045","それじゃ、お代を頂戴するネ？"
+68,"TEXT_LUCKMA302_03292_RHONRON_000_046","フッブート金貨、確かにいただいたネ！
+これなら、まるまる10ブロックはハムが食べられるヨ！"
+69,"TEXT_LUCKMA302_03292_RHONRON_000_047","おやつ串～！
+旅人さん、お目が高いネ！
+出発の前には、これくらい消化しやすいものがいいヨ！"
+70,"TEXT_LUCKMA302_03292_RHONRON_000_048","それじゃ、お代を頂戴するネ？"
+71,"TEXT_LUCKMA302_03292_RHONRON_000_049","フッブート金貨、確かにいただいたネ！
+これなら、なんと65串も食べられるヨ！"
+72,"TEXT_LUCKMA302_03292_RHONRON_000_050","ミミズ漬け～！
+やっぱりそれを選んじゃうよネ！
+ローンロンも大好きヨ～！"
+73,"TEXT_LUCKMA302_03292_RHONRON_000_051","それじゃ、お代を頂戴するネ？"
+74,"TEXT_LUCKMA302_03292_RHONRON_000_052","フッブート金貨、確かにいただいたネ！
+これなら、瓶15個分のミミズ漬けが食べられるヨ！"
+75,"TEXT_LUCKMA302_03292_Q2_000_000","どうなった？"
+76,"TEXT_LUCKMA302_03292_A2_000_001","完食……！"
+77,"TEXT_LUCKMA302_03292_A2_000_002","残りは皆さんでどうぞ……"
+78,"TEXT_LUCKMA302_03292_RHONRON_000_053","旅人さん、気持ちのいい食べっぷりだったネ！
+ローンロンもみんなも、感動しちゃったヨ！"
+79,"TEXT_LUCKMA302_03292_RHONRON_000_054","やった～！
+みんな、旅人さんに感謝するネ！
+それから、ここまでの健闘に拍手～！"
+80,"TEXT_LUCKMA302_03292_RHONRON_000_055","初買いも、これで成立ネ！
+スークの仲間が増えて、ローンロンも嬉しいヨ！
+「ゲーンゲン」さんにも、伝えておくといいネ！"
+81,"TEXT_LUCKMA302_03292_RHONRON_000_056","…………本当、大丈夫ネ？"
+82,"TEXT_LUCKMA302_03292_RHONRON_000_060","ウチで初買いしてくれて、ローンロン嬉しいヨ！
+「ゲーンゲン」さんにも、伝えておくといいネ！"
+83,"TEXT_LUCKMA302_03292_CASSARD_000_065","ここから見てたが、よくがんばって食べたな……。
+ナイスファイトだったぜ……。"
+84,"TEXT_LUCKMA302_03292_GHENGEN_000_070","ここから見てたヨ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>の初買い！
+気持ちのいい買いっぷりをしてくれて、ありがとネ！"
+85,"TEXT_LUCKMA302_03292_GHENGEN_000_071","これで、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>もスークの仲間、
+次に来たときには「常連」ネ！
+アム・アレーンで困ったことあったら、頼ってヨ！"
+86,"TEXT_LUCKMA302_03292_SYTEM_000_023","（★未使用／削除予定★）"
+87,"TEXT_LUCKMA302_03292_RHONRON_000_024","（★未使用／削除予定★）"
+88,"TEXT_LUCKMA302_03292_SYTEM_000_025","（★未使用／削除予定★）"
+89,"TEXT_LUCKMA302_03292_RHONRON_000_026","（★未使用／削除予定★）"
+90,"TEXT_LUCKMA302_03292_SYTEM_000_027","（★未使用／削除予定★）"
+91,"TEXT_LUCKMA302_03292_RHONRON_000_028","（★未使用／削除予定★）"
+92,"TEXT_LUCKMA302_03292_SYTEM_000_029","（★未使用／削除予定★）"
+93,"TEXT_LUCKMA302_03292_RHONRON_000_030","（★未使用／削除予定★）"
+94,"TEXT_LUCKMA302_03292_RHONRON_000_031","（★未使用／削除予定★）"

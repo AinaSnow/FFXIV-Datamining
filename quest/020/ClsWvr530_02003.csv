@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSWVR530_02003_SEQ_00","Averil is pursing her lips in annoyance."
-1,"TEXT_CLSWVR530_02003_SEQ_01","Averil asks you to distract her mother for a spell, as she wishes to go to tea with her friends. Glenda does not approve of this clique, and so has hidden Averil's favorite dress to prevent her from going. Allow Averil the time she needs to search her own house by visiting with Glenda in Saint Reymanaud's Cathedral."
-2,"TEXT_CLSWVR530_02003_SEQ_02","Glenda is disheartened to learn Averil has not yet called upon your skills as a weaver, but is more than happy to detail her many thoughts on Ishgard's youth. You listen politely at first, but after the second bell you can feel your eyes glazing over, and by the third you are sleeping on your feet. Just when you think you can take no more, Glenda announces it is time for her to head home. Return now to Averil near the Arc of the Venerable, and pray that this ordeal has not been for naught."
-3,"TEXT_CLSWVR530_02003_SEQ_03","Thankfully, Averil has found her dress. Her outfit is complete but for a pair of gloves, which she wore until they were unusable. Now, she bids you craft her a pair of high-quality holy rainbow gloves to match her favorite dress."
-4,"TEXT_CLSWVR530_02003_SEQ_04","Averil is overjoyed to try on the holy rainbow gloves, and praises them to the high heavens. Impressed by your skills, she promises that she will have many and more things for you to make in the future─but only after tea and seeing her sweetheart.
+0,"TEXT_CLSWVR530_02003_SEQ_00","イシュガルドのアヴェリルは、冒険者にぜひとも頼みたいことがあるようだ。"
+1,"TEXT_CLSWVR530_02003_SEQ_01","アヴェリルは、茶会に行きたいが、グレンダにドレスを隠されてしまったようだ。アヴェリルがドレスを探している間、イシュガルドの聖レマノ―教会にいる「グレンダ」と話し、足止めしよう。"
+2,"TEXT_CLSWVR530_02003_SEQ_02","グレンダと話して、足止めした。尊者の凱旋門の「アヴェリル」に報告しよう。"
+3,"TEXT_CLSWVR530_02003_SEQ_03","アヴェリルに報告した。ドレスは見つかったようだが、ドレスグローブがなかったようだ。「<Sheet(ItemHQ,11966,0)/>」を製作し、尊者の凱旋門の「アヴェリル」に納品しよう。"
+4,"TEXT_CLSWVR530_02003_SEQ_04","アヴェリルに<Sheet(ItemHQ,11966,0)/>を納品した。冒険者の裁縫の腕で、アヴェリルが明るくなってきたようだ。これを励みに裁縫の腕を磨こう。
 
-※The next weaver quest will be available from Averil upon reaching level 55."
+※裁縫師のレベルが55以上になると、尊者の凱旋門のアヴェリルから次の裁縫師クエストを受注することができます。"
 5,"TEXT_CLSWVR530_02003_SEQ_05",""
 6,"TEXT_CLSWVR530_02003_SEQ_06",""
 7,"TEXT_CLSWVR530_02003_SEQ_07",""
@@ -27,9 +27,9 @@ int32,str,str
 21,"TEXT_CLSWVR530_02003_SEQ_21",""
 22,"TEXT_CLSWVR530_02003_SEQ_22",""
 23,"TEXT_CLSWVR530_02003_SEQ_23",""
-24,"TEXT_CLSWVR530_02003_TODO_00","Speak with Glenda."
-25,"TEXT_CLSWVR530_02003_TODO_01","Report to Averil."
-26,"TEXT_CLSWVR530_02003_TODO_02","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Craft holy rainbow gloves <Sheet(Addon,9,0)/><Else/>Deliver the pair of holy rainbow gloves <Sheet(Addon,9,0)/> to Averil</If>."
+24,"TEXT_CLSWVR530_02003_TODO_00","グレンダと話す"
+25,"TEXT_CLSWVR530_02003_TODO_01","アヴェリルに報告"
+26,"TEXT_CLSWVR530_02003_TODO_02","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))><Sheet(ItemHQ,11966,0)/>を製作<Else/>アヴェリルに<Sheet(ItemHQ,11966,0)/>を納品</If>"
 27,"TEXT_CLSWVR530_02003_TODO_03",""
 28,"TEXT_CLSWVR530_02003_TODO_04",""
 29,"TEXT_CLSWVR530_02003_TODO_05",""
@@ -51,32 +51,71 @@ int32,str,str
 45,"TEXT_CLSWVR530_02003_TODO_21",""
 46,"TEXT_CLSWVR530_02003_TODO_22",""
 47,"TEXT_CLSWVR530_02003_TODO_23",""
-48,"TEXT_CLSWVR530_02003_AVERIL_000_000","Ah, excellent. I know you were expecting me to have an order for you, but something else has come up. I wonder if you might keep my mother occupied for a spell."
-49,"TEXT_CLSWVR530_02003_AVERIL_000_001","I've plans to have tea with my conjurer friends. And Mother won't let me go. She hasn't <Emphasis>said</Emphasis> anything, of course, but she's hidden my favorite dress. I know what that means."
-50,"TEXT_CLSWVR530_02003_AVERIL_000_002","But I <Emphasis>am</Emphasis> going, and in that dress, too! <Emphasis>He'll</Emphasis> be there─my first sweetheart. And I would just die if he sees me in anything else!"
-51,"TEXT_CLSWVR530_02003_AVERIL_000_003","...Ahem. I know how this must seem to you. But my point is that I shall need time to search my house, and I've no one else to turn to."
-52,"TEXT_CLSWVR530_02003_AVERIL_000_004","Please, keep my mother busy. She'll be where she always is─in the cathedral. Just ask her about religion or something. That'll keep her there for bells!"
-53,"TEXT_CLSWVR530_02003_AVERIL_000_010","Oh, did I forget to tell you where the cathedral is? Just up those steps and around."
-54,"TEXT_CLSWVR530_02003_Q1_000_020","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>? You...haven't come to pray, have you?"
-55,"TEXT_CLSWVR530_02003_Q1_000_021","Have you come to pray?"
-56,"TEXT_CLSWVR530_02003_A1_000_022","Yes, I am one with Halone."
-57,"TEXT_CLSWVR530_02003_A1_000_023","No, I'm afraid not."
-58,"TEXT_CLSWVR530_02003_GLENDA_000_024","A likely story! You wandered in here out of boredom, didn't you? Has my daughter made even a <Emphasis>single</Emphasis> request of you!?"
-59,"TEXT_CLSWVR530_02003_GLENDA_000_025","I thought as much. Has Averil asked you to make even a <Emphasis>single</Emphasis> garment?"
-60,"TEXT_CLSWVR530_02003_GLENDA_000_026","<sigh> Of course not. If only she'd take to weaving and forget this chirurgeon nonsense. You may think me unfair, but my daughter is everything to me, and I cannot..."
-61,"TEXT_CLSWVR530_02003_GLENDA_000_027","When I lost my husband, I would have lost my mind had it not been for Averil. I won't let the war take her from me, too. There is absolutely no need for her to see battle!"
-62,"TEXT_CLSWVR530_02003_GLENDA_000_028","But her so-called friends seem to speak of nothing but fighting! They're little more than maids, but do they act maidenly? Really, the young ladies these days are..."
-63,"TEXT_CLSWVR530_02003_SYSTEM_000_029","deleted"
-64,"TEXT_CLSWVR530_02003_GLENDA_000_030","...Dear me, I've talked your ear off! Well, I'd best be getting home now. Thank you, though. If only more of our young were as good listeners as you."
-65,"TEXT_CLSWVR530_02003_AVERIL_000_040","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! I've found my dress! It's hardly a splendid evening gown, but Mother never bought me better."
-66,"TEXT_CLSWVR530_02003_AVERIL_000_041","I couldn't find the dress gloves, though. Mother must have thrown them away. In fairness, I'd used them so much that the fingers had worn through."
-67,"TEXT_CLSWVR530_02003_AVERIL_000_042","Could you make me a new pair? I'd like something tasteful that matches my dress. Holy rainbow gloves would do it, I should think, as pretty as you can make."
-68,"TEXT_CLSWVR530_02003_AVERIL_000_045","deleted"
-69,"TEXT_CLSWVR530_02003_AVERIL_000_050","Have you finished my holy rainbow gloves? Sorry, I don't mean to rush you─it's just that I'm bursting to see my friends."
-70,"TEXT_CLSWVR530_02003_AVERIL_000_051","These are absolutely gorgeous, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! The cloth has such a luster, and the stitching is so fine! Why, I feel as though I could dance, they're so wonderful!"
-71,"TEXT_CLSWVR530_02003_AVERIL_000_052","Ahhh, I never could've made something so splendid! It must be so sublime, to bring happiness to people with your handiwork!"
-72,"TEXT_CLSWVR530_02003_AVERIL_000_053","Oh, and tea! Tea will be all the more wonderful now! I can't wait to see what my childhood sweetheart thinks of these. It's been beastly trying to meet him, you know, because Mother never approved of him being from the Brume."
-73,"TEXT_CLSWVR530_02003_AVERIL_000_054","But he's the most gentle soul...albeit a bit clumsy. I don't know what he'd do without me."
-74,"TEXT_CLSWVR530_02003_AVERIL_000_055","Well, now that I've seen your work with my own two eyes, there are about a hundred things I'd like you to make! I will be in touch. After tea, of course."
-75,"TEXT_CLSWVR530_02003_SYSTEM_100_001","deleted"
-76,"TEXT_CLSWVR530_02003_SYSTEM_100_002","deleted"
+48,"TEXT_CLSWVR530_02003_AVERIL_000_000","裁縫師さん、ぜひとも頼みたいことがあります。
+といっても、製作依頼ではありません。
+……大聖堂にいる母の足止めを、お願いしたいのです。"
+49,"TEXT_CLSWVR530_02003_AVERIL_000_001","今度、幻術をともに学んだ友人たちとの茶会があるのですが、
+母は私を行かせたくないようで……
+お気に入りのドレスを隠してしまったのです。"
+50,"TEXT_CLSWVR530_02003_AVERIL_000_002","でも、どうしても茶会には出席したい。
+なぜなら……私の初恋の人が来るから……。
+あの人と会うのに、ドレスなしなんて考えられない！"
+51,"TEXT_CLSWVR530_02003_AVERIL_000_003","……失礼、取り乱してしまいました。
+とにかく、私は家で隠されたドレスを探し出したいのです。"
+52,"TEXT_CLSWVR530_02003_AVERIL_000_004","そこで、私がドレスを探している間、
+「聖レマノー大聖堂」にいる母の「グレンダ」と立ち話でもして、
+時間稼ぎをしてほしいのです。"
+53,"TEXT_CLSWVR530_02003_AVERIL_000_010","私がドレスを探している間、
+「聖レマノー大聖堂」にいる母の「グレンダ」と立ち話でもして、
+時間稼ぎをしてほしいのです。"
+54,"TEXT_CLSWVR530_02003_Q1_000_020","あら、なんであなたがここにいるのかしら……？
+もしかして……。"
+55,"TEXT_CLSWVR530_02003_Q1_000_021","あなたも祈りにきたのかしら？"
+56,"TEXT_CLSWVR530_02003_A1_000_022","はい"
+57,"TEXT_CLSWVR530_02003_A1_000_023","いいえ"
+58,"TEXT_CLSWVR530_02003_GLENDA_000_024","うそおっしゃい……。
+どうせ、あの子からの注文がなくてヒマなのでしょう。
+……困った娘だわ。"
+59,"TEXT_CLSWVR530_02003_GLENDA_000_025","でしょうね……。
+どうせ、あの子からの注文がなくてヒマなのでしょう。
+……困った娘だわ。"
+60,"TEXT_CLSWVR530_02003_GLENDA_000_026","アヴェリルには、早く裁縫を上達してもらって、
+治療師になるなんていう変な考えを忘れてほしいのに。
+あなたにはわからないでしょうが、娘は私の生きがいなの。"
+61,"TEXT_CLSWVR530_02003_GLENDA_000_027","夫を失って絶望していた私に、娘は生きる希望をくれた。
+あの子だけは失いたくないの、戦争なんて絶対に行かせない。
+……そもそも、女は戦場で足手まといになるだけですから。"
+62,"TEXT_CLSWVR530_02003_GLENDA_000_028","大体、最近の若い娘は………………。"
+63,"TEXT_CLSWVR530_02003_SYSTEM_000_029","（★未使用／削除予定★）"
+64,"TEXT_CLSWVR530_02003_GLENDA_000_030","………………なのよ。
+あらやだ、ついつい、しゃべり過ぎたわね。
+私はもう帰りますわ。"
+65,"TEXT_CLSWVR530_02003_AVERIL_000_040","あら裁縫師さん、ありがとうございます。
+時間稼ぎをしてくれたお陰で、ドレスが見つかりました！
+地味なのですが母に買ってもらった、私の大事な一張羅なんです。"
+66,"TEXT_CLSWVR530_02003_AVERIL_000_041","……でも、ドレスグローブだけ見つかりませんでした。
+とても古いものでしたから、
+おそらく捨てられてしまったのでしょう。"
+67,"TEXT_CLSWVR530_02003_AVERIL_000_042","裁縫師さん、ドレスグローブを作ってもらうことはできますか？
+地味なドレスにも合うような落ち着きのある、
+「<Sheet(ItemHQ,11966,0)/>」がほしいのですが……。"
+68,"TEXT_CLSWVR530_02003_AVERIL_000_045","（★未使用／削除予定★）"
+69,"TEXT_CLSWVR530_02003_AVERIL_000_050","茶会が待ち遠しくて、仕方がありません……。
+「<Sheet(ItemHQ,11966,0)/>」を、
+作っていただけました？"
+70,"TEXT_CLSWVR530_02003_AVERIL_000_051","……なんて綺麗なドレスグローブなんでしょう！
+滑らかで深い光沢に、細やかな縫い目……。
+きっと、私のドレスにも合います！"
+71,"TEXT_CLSWVR530_02003_AVERIL_000_052","ありがとうございます、とても私には作れません……！
+熟練の裁縫師さんって、
+物づくりで、人を幸せにすることができるんですね。"
+72,"TEXT_CLSWVR530_02003_AVERIL_000_053","茶会が、ますます楽しみになりました……。
+私が会いたい初恋の相手は、貧民が多い雲霧街出身なので、
+母に仲を裂かれてずっと会えなかったのです。"
+73,"TEXT_CLSWVR530_02003_AVERIL_000_054","その人ったらドジで頼りないんですが、
+なぜだか、放っとけないんです。"
+74,"TEXT_CLSWVR530_02003_AVERIL_000_055","それにしても、裁縫師さんの技術を目の当たりにすると、
+作ってほしいものが切りなく出てきちゃいそうです。
+ぜひまた、お願いしますね！"
+75,"TEXT_CLSWVR530_02003_SYSTEM_100_001","（★未使用／削除予定★）"
+76,"TEXT_CLSWVR530_02003_SYSTEM_100_002","（★未使用／削除予定★）"

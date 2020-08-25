@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB804_00913_SEQ_00","Ser Aurelle of House Haillenarte wishes to thank the lord of House Fortemps, and only an adventurer can pull off such a fraught exchange."
-1,"TEXT_GAIUSB804_00913_SEQ_01","Ser Aurelle has a mind to discreetly present Lord Haurchefant with a gift, for the great debt of Lord Francel's life and the honor of House Haillenarte. Speak with Emanuel and collect a bottle of Daniffen's Joy."
-2,"TEXT_GAIUSB804_00913_SEQ_02","Emanuel entrusts you with a rare liquor of Ser Aurelle's choosing. Resist the fleeting urge to down the entire bottle and deliver it to Medguistl, a member of Haurchefant's household."
-3,"TEXT_GAIUSB804_00913_SEQ_03","Medguistl takes delivery of the bottle, and, astute as always, guesses from whom it actually issues. His lordship is bound to be pleased in any case, for his life has had little joy lately."
+0,"TEXT_GAIUSB804_00913_SEQ_00","キャンプ・ドラゴンヘッドのオレールは、オルシュファンにお礼がしたいようだ。"
+1,"TEXT_GAIUSB804_00913_SEQ_01","オレールは酒をオルシュファンに贈りたいという。キャンプ・ドラゴンヘッドの「エマニュエル」に話しかけて酒を受け取ろう。"
+2,"TEXT_GAIUSB804_00913_SEQ_02","酒を受け取った。キャンプ・ドラゴンヘッドの厨房にいるオルシュファンの部下「メドグイスティル」に「<Sheet(EventItem,2000716,0)/>」を渡そう。"
+3,"TEXT_GAIUSB804_00913_SEQ_03","<Sheet(EventItem,2000716,0)/>を渡した。冒険者が持ってきたと知ればオルシュファンも喜ぶだろう。"
 4,"TEXT_GAIUSB804_00913_SEQ_04",""
 5,"TEXT_GAIUSB804_00913_SEQ_05",""
 6,"TEXT_GAIUSB804_00913_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSB804_00913_SEQ_21",""
 22,"TEXT_GAIUSB804_00913_SEQ_22",""
 23,"TEXT_GAIUSB804_00913_SEQ_23",""
-24,"TEXT_GAIUSB804_00913_TODO_00","Speak with Emanuel."
-25,"TEXT_GAIUSB804_00913_TODO_01","Deliver the bottle of Daniffen's Joy to Medguistl."
+24,"TEXT_GAIUSB804_00913_TODO_00","エマニュエルと話す"
+25,"TEXT_GAIUSB804_00913_TODO_01","メドグイスティルに<Sheet(EventItem,2000716,0)/>を渡す"
 26,"TEXT_GAIUSB804_00913_TODO_02",""
 27,"TEXT_GAIUSB804_00913_TODO_03",""
 28,"TEXT_GAIUSB804_00913_TODO_04",""
@@ -49,15 +49,37 @@ int32,str,str
 45,"TEXT_GAIUSB804_00913_TODO_21",""
 46,"TEXT_GAIUSB804_00913_TODO_22",""
 47,"TEXT_GAIUSB804_00913_TODO_23",""
-48,"TEXT_GAIUSB804_00913_AURELLE_000_000","A moment, if you will. You are the adventurer who cleared our Lord Francel's good name, are you not? Allow me to thank you."
-49,"TEXT_GAIUSB804_00913_AURELLE_000_001","His lordship <Emphasis>is</Emphasis> House Haillenarte, you see, and unjust it is that he was born under a waning moon. Yet what was thin must eventually grow fat again."
-50,"TEXT_GAIUSB804_00913_AURELLE_000_002","I would thank Lord Haurchefant as well, but I should not like to be seen as currying favor either for myself or for my house. I would present him with a gift under your name, if you are amenable."
-51,"TEXT_GAIUSB804_00913_AURELLE_000_003","I have selected a bottle of nectar for his lordship. Will you collect it from the wine seller downstairs and deliver it to Medguistl in the kitchen? The wine seller is called Emanuel, and the bill has been settled."
-52,"TEXT_GAIUSB804_00913_EMANUEL_000_010","<Highlight>ObjectParameter(1)</Highlight>! I must be rising in this world to have the custom of the most famous adventurer of these parts! How may I serve?"
-53,"TEXT_GAIUSB804_00913_EMANUEL_000_011","Ser Aurelle sent you? Of course! Here is the bottle she ordered, and a fine choice if I may say so."
-54,"TEXT_GAIUSB804_00913_EMANUEL_000_012","This nectar was mixed with the blessed water of the Weeping Saint, sweet and iceless even in deep winter. 'Twas no mean feat procuring such a choice liquor with the roads snowbound, but I aim to please!"
-55,"TEXT_GAIUSB804_00913_MEDGUISTL_000_020","Well, if it isn't <Highlight>ObjectParameter(1)</Highlight>! Everyone's talking about you, you know. Looking for a place to hide?"
-56,"TEXT_GAIUSB804_00913_MEDGUISTL_000_021","Sweet goddess, Daniffen's Joy! I haven't seen one of these upon the sideboard for a good many moons. This is too rich for your purse, I'd wager, so it must be from...Aurelle? I guessed well, did I not?"
-57,"TEXT_GAIUSB804_00913_MEDGUISTL_000_022","The High Houses of Ishgard are descended from the heroes who stood with Haldrath, the first Azure Dragoon. They are like brothers, Lord Haurchefant says."
-58,"TEXT_GAIUSB804_00913_MEDGUISTL_000_023","They bicker ceaselessly but they must remember to hold fast to one another when the safety of Ishgard is at stake."
-59,"TEXT_GAIUSB804_00913_MEDGUISTL_000_024","Thank you for delivering this, and serving as Ser Aurelle's decoy. Lord Haurchefant has been quite deprived of his favorite indulgence since the cold grew so ferocious."
+48,"TEXT_GAIUSB804_00913_AURELLE_000_000","貴公が、異端審問を止めてくれた冒険者だな？
+会えてよかった、是非とも礼を言いたかったんだ！"
+49,"TEXT_GAIUSB804_00913_AURELLE_000_001","フランセルぼっちゃんを救ってくれて、ありがとう。
+今は苦境のアインハルト家だが、
+ぼっちゃんは、私たちの大切な主なんだ。"
+50,"TEXT_GAIUSB804_00913_AURELLE_000_002","オルシュファン卿にも、礼をしたいのだが……
+卿は、貴公を大変気に入っていると聞いた。
+私からの差し入れより、貴公からのほうが喜ばれよう。"
+51,"TEXT_GAIUSB804_00913_AURELLE_000_003","下にいる酒商人「エマニュエル」から酒を受け取って、
+厨房の「メドグイスティル」に渡してくれないか？
+なに、代金は払ってあるから心配いらんよ。"
+52,"TEXT_GAIUSB804_00913_EMANUEL_000_010","おや、誰かと思えば！
+ふふ……あなたのことは皆、存じ上げておりますよ。
+今やあなたは、この地で1番有名な冒険者ですからね！"
+53,"TEXT_GAIUSB804_00913_EMANUEL_000_011","……オレールからの使いで？
+ええ、お話は伺っておりますとも。
+どうぞどうぞ、こちらの酒をお持ちください。"
+54,"TEXT_GAIUSB804_00913_EMANUEL_000_012","こちらは、とこしえの絆を願って、
+けっして凍らぬ「聖ダナフェンの落涙」の水から作られた酒。
+しがない酒商人が用意できる、最高の1本ですよ。"
+55,"TEXT_GAIUSB804_00913_MEDGUISTL_000_020","あら、噂の冒険者さんが何のご用？
+もしかして、オルシュファン様から逃げてきたとか！"
+56,"TEXT_GAIUSB804_00913_MEDGUISTL_000_021","まあ、<Sheet(EventItem,2000716,0)/>！
+この計らいは……きっとオレールね。
+もーっ、気を使わなくたっていいのに！"
+57,"TEXT_GAIUSB804_00913_MEDGUISTL_000_022","四大名家っていうのはね、遠い昔、
+征竜将ハルドラス様とともに邪竜を討った
+偉大なる騎士様の末裔なの。"
+58,"TEXT_GAIUSB804_00913_MEDGUISTL_000_023","対立したりもするけれど……
+イシュガルドを守り支える仲間だもの。
+助け合うのは当然だって、オルシュファン様も言ってるわ。"
+59,"TEXT_GAIUSB804_00913_MEDGUISTL_000_024","お酒を持ってきてくれて、ありがとうね。
+あなたからの差し入れだって伝えたら……
+あの人、きっと大興奮よ！"

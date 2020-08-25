@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSA804_00788_SEQ_00","Somerhild of Fallgourd Float would ask your aid on behalf of a forgetful friend."
-1,"TEXT_GAIUSA804_00788_SEQ_01","A drinking companion of Somerhild's has misplaced the key to his room at the Bobbing Cork. Recover it to rescue the poor sop from a hard night sleeping on the streets."
-2,"TEXT_GAIUSA804_00788_SEQ_02","You have recovered the misplaced key. Deliver it to Aeluuin of the Bobbing Cork."
-3,"TEXT_GAIUSA804_00788_SEQ_03","Aeluuin thanks you for recovering the key lost by one of his drunken customers. What with a mysterious masked figure skulking about the surroundings of late, he is concerned for the safety of his patrons."
+0,"TEXT_GAIUSA804_00788_SEQ_00","フォールゴウドの商人ソメルヒルドは、冒険者に探してほしい物があるようだ。"
+1,"TEXT_GAIUSA804_00788_SEQ_01","ソメルヒルドの商人仲間が「<Sheet(EventItem,2000618,0)/>」をなくしてしまったそうだ。「<Sheet(EventItem,2000618,0)/>」を見つけよう。"
+2,"TEXT_GAIUSA804_00788_SEQ_02","「<Sheet(EventItem,2000618,0)/>」を見つけた。浮かぶコルク亭の「エルーイン」に渡そう。"
+3,"TEXT_GAIUSA804_00788_SEQ_03","エルーインは、鍵が見つかって安心したようだ。彼曰く、仮面を着けた男が周辺に出没すると噂になっているらしいが……。"
 4,"TEXT_GAIUSA804_00788_SEQ_04",""
 5,"TEXT_GAIUSA804_00788_SEQ_05",""
 6,"TEXT_GAIUSA804_00788_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSA804_00788_SEQ_21",""
 22,"TEXT_GAIUSA804_00788_SEQ_22",""
 23,"TEXT_GAIUSA804_00788_SEQ_23",""
-24,"TEXT_GAIUSA804_00788_TODO_00","Search for the missing key."
-25,"TEXT_GAIUSA804_00788_TODO_01","Return the key to Aeluuin."
+24,"TEXT_GAIUSA804_00788_TODO_00","<Sheet(EventItem,2000618,0)/>を探す"
+25,"TEXT_GAIUSA804_00788_TODO_01","エルーインに<Sheet(EventItem,2000618,0)/>を渡す"
 26,"TEXT_GAIUSA804_00788_TODO_02",""
 27,"TEXT_GAIUSA804_00788_TODO_03",""
 28,"TEXT_GAIUSA804_00788_TODO_04",""
@@ -49,11 +49,25 @@ int32,str,str
 45,"TEXT_GAIUSA804_00788_TODO_21",""
 46,"TEXT_GAIUSA804_00788_TODO_22",""
 47,"TEXT_GAIUSA804_00788_TODO_23",""
-48,"TEXT_GAIUSA804_00788_SOMERHILD_000_000","How do you fancy Fallgourd Float, traveler? Fine tea, warm beds, good ale, and good company at the Bobbing Cork. Small wonder that it's many a wayfarer's favorite stop on the road to Coerthas."
-49,"TEXT_GAIUSA804_00788_SOMERHILD_000_001","Speaking of the Bobbing Cork, I was sharing a drink and a tale with a traveler just a few bells ago. Apparently, the poor fellow imbibed a bit too heavily, and when he came to, the key to his room was nowhere to be found."
-50,"TEXT_GAIUSA804_00788_SOMERHILD_000_002","What with all the rumors of late, both my friend and the innkeep are worried sick. If you happen to stumble across the key, would you be kind enough to return it to the Cork? You'd be saving more than one man a sleepless night."
-51,"TEXT_GAIUSA804_00788_SOMERHILD_000_010","//: find key"
-52,"TEXT_GAIUSA804_00788_AELUUIN_000_015","Bloody souse! That's why I always say, if you can't hold your liquor, stick to tea! I'm sorry, do you have something for me?"
-53,"TEXT_GAIUSA804_00788_AELUUIN_000_020","Why, I've been searching everywhere for that key! You're a godssend, friend."
-54,"TEXT_GAIUSA804_00788_AELUUIN_000_021","You must forgive me. There're rumors of late of a suspicious masked man in these parts, and they've got both me and my customers on edge."
-55,"TEXT_GAIUSA804_00788_AELUUIN_000_022","Anyroad, thanks to you, that ale-swilling fool can sleep soundly in his bed tonight. You'd do well to find safe lodgings as well, friend."
+48,"TEXT_GAIUSA804_00788_SOMERHILD_000_000","フォールゴウドはいいところだね。
+いい宿に、美味い紅茶。
+クルザスに向かう商人や旅人は、必ず立ち寄るくらいさ。"
+49,"TEXT_GAIUSA804_00788_SOMERHILD_000_001","ところで、連れと「浮かぶコルク亭」に滞在中なんだが、
+そいつが部屋の鍵を無くしちまってね。
+外で魔物に追われて、派手に放り投げちまったんだ。"
+50,"TEXT_GAIUSA804_00788_SOMERHILD_000_002","もしお前さんが「<Sheet(EventItem,2000618,0)/>」をみつけたら、
+「浮かぶコルク亭」の受付にいる「エルーイン」に
+届けておいてくれると助かるよ。"
+51,"TEXT_GAIUSA804_00788_SOMERHILD_000_010","「<Sheet(EventItem,2000618,0)/>」を見つける"
+52,"TEXT_GAIUSA804_00788_AELUUIN_000_015","……困りましたね、あそこにもないとなると……
+おっと失礼、ようこそ「浮かぶコルク亭」へ。
+お泊まりですか、それとも……はて、私に届け物ですか？"
+53,"TEXT_GAIUSA804_00788_AELUUIN_000_020","おや、これは当宿の客室の鍵では？
+……なるほど、そういう事情でしたか。
+お客様がどこを探しても見当たらないわけです。"
+54,"TEXT_GAIUSA804_00788_AELUUIN_000_021","最近、フォールゴウド周辺で、
+不気味な仮面の男が出没するという噂もありますし……
+あ、これは山師たちの言い分ですがね。"
+55,"TEXT_GAIUSA804_00788_AELUUIN_000_022","ともかく、拾ってくださったのが、
+あなたのような良心ある方で良かった。
+わざわざ届けていただいて、ありがとうございました。"

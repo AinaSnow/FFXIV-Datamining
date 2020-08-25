@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSE112_01186_SEQ_00","Slafborn seems intent on putting you to work yet again."
-1,"TEXT_GAIUSE112_01186_SEQ_01","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/> This quest has been adjusted. Please abandon the quest and restart it by speaking to Slafborn in Revenant's Toll.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+0,"TEXT_GAIUSE112_01186_SEQ_00","レヴナンツトールのスラフボーンは、冒険者に伝えたいことがあるようだ。"
+1,"TEXT_GAIUSE112_01186_SEQ_01","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/>本クエストは調整されました。一度破棄し、レヴナンツトールの「スラフボーン」から再受注してください。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
-※The Main Scenario Guide shows the next available quest. You can toggle it on and off in Character Configuration, under UI Settings."
-2,"TEXT_GAIUSE112_01186_SEQ_02","Upon returning to the Waking Sands, Alphinaud declares that preparations for the move to Mor Dhona have fallen behind. Demonstrating an almost Slafbornian eagerness to put you to work, he then bids you scour the headquarters for any packages labeled for shipment to Revenant's Toll. It would seem your report will have to wait."
-3,"TEXT_GAIUSE112_01186_SEQ_03","A cursory search yields four labeled packages. Though an average <Sheet(Race,PlayerParameter(71),0)/> might feasibly struggle to carry them all, the same cannot be said of you. Bluntly, you have faced greater challenges. Take the packages to Tataru who is waiting outside."
-4,"TEXT_GAIUSE112_01186_SEQ_04","No sooner have you washed your hands of one errand than Tataru begs your assistance with another. With luck, it will take no longer than the previous one..."
+※次のメインクエストは、「メインクエストガイド」からも確認することができます。メインクエストガイドの表示/非表示は、メインコマンドの「キャラクターコンフィグ」から「ユーザーインターフェース設定」を選び、変更してください。"
+2,"TEXT_GAIUSE112_01186_SEQ_02","アルフィノから、移転のための手伝いを頼まれた。砂の家をさがし「<Sheet(EObj,2002850,0)/>」を4つ回収しよう。"
+3,"TEXT_GAIUSE112_01186_SEQ_03","砂の家で「<Sheet(EObj,2002850,0)/>」を4つ、回収することができた。砂の家にいる「タタル」に「<Sheet(EventItem,2001080,0)/>」を渡そう。"
+4,"TEXT_GAIUSE112_01186_SEQ_04","タタルに「<Sheet(EventItem,2001080,0)/>」を無事、渡すことができた。これで荷物は片付いたようだが、タタルには他にも頼みごとがあるようだ……。"
 5,"TEXT_GAIUSE112_01186_SEQ_05",""
 6,"TEXT_GAIUSE112_01186_SEQ_06",""
 7,"TEXT_GAIUSE112_01186_SEQ_07",""
@@ -27,9 +27,12 @@ int32,str,str
 21,"TEXT_GAIUSE112_01186_SEQ_21",""
 22,"TEXT_GAIUSE112_01186_SEQ_22",""
 23,"TEXT_GAIUSE112_01186_SEQ_23",""
-24,"TEXT_GAIUSE112_01186_TODO_00","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/> This quest has been adjusted. Please abandon the quest and restart it by speaking to Slafborn in Revenant's Toll.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
-25,"TEXT_GAIUSE112_01186_TODO_01","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/> This quest has been adjusted. Please abandon the quest and restart it by speaking to Slafborn in Revenant's Toll.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
-26,"TEXT_GAIUSE112_01186_TODO_02","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/> This quest has been adjusted. Please abandon the quest and restart it by speaking to Slafborn in Revenant's Toll.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+24,"TEXT_GAIUSE112_01186_TODO_00","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/>本クエストは調整されました。一度破棄し、
+レヴナンツトールのスラフボーンから再受注してください<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+25,"TEXT_GAIUSE112_01186_TODO_01","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/>本クエストは調整されました。一度破棄し、
+レヴナンツトールのスラフボーンから再受注してください<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+26,"TEXT_GAIUSE112_01186_TODO_02","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/>本クエストは調整されました。一度破棄し、
+レヴナンツトールのスラフボーンから再受注してください<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 27,"TEXT_GAIUSE112_01186_TODO_03",""
 28,"TEXT_GAIUSE112_01186_TODO_04",""
 29,"TEXT_GAIUSE112_01186_TODO_05",""
@@ -51,17 +54,39 @@ int32,str,str
 45,"TEXT_GAIUSE112_01186_TODO_21",""
 46,"TEXT_GAIUSE112_01186_TODO_22",""
 47,"TEXT_GAIUSE112_01186_TODO_23",""
-48,"TEXT_GAIUSE112_01186_SLAFBORN_000_000","I can't tell you how grateful we all are to have you here─now more than ever. We have a major crisis on our hands, you see─one which will demand your full attention for weeks if not months. I'm sorry, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. If you've made any other plans, you'll just have to cancel them."
-49,"TEXT_GAIUSE112_01186_SLAFBORN_000_001","...Heh heh! You honestly believed me, didn't you? There's such a thing as being <Emphasis>too</Emphasis> long-suffering, you know? I fear we may have overdone it with the errands, necessary though they were."
-50,"TEXT_GAIUSE112_01186_SLAFBORN_000_002","Anyway, your work here is done─for the time being, at least. Master Alphinaud has sent word that you are to report to him at the Waking Sands. I gather he wants to know how you've been getting on. Be sure to tell him how welcome we've made you feel, won't you?"
-51,"TEXT_GAIUSE112_01186_SLAFBORN_000_003","As much as I would like to impose upon you further, Alphinaud was insistent that you return to Vesper Bay at once."
-52,"TEXT_GAIUSE112_01186_ALPHINAUD_000_010","Ah, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>─you've returned. I trust they kept you busy in Revenant's Toll?"
-53,"TEXT_GAIUSE112_01186_ALPHINAUD_000_011","We have had nary a moment's rest since you departed. Despite our best efforts, however, we've begun to fall behind."
-54,"TEXT_GAIUSE112_01186_ALPHINAUD_000_012","No matter. We shall soon make up the lost ground with you here to help us. Now, there are a number of packages which must needs be delivered to Revenant's Toll as a matter of urgency."
-55,"TEXT_GAIUSE112_01186_ALPHINAUD_000_013","Don't give me that long-suffering look─I only require you to take them upstairs to Tataru. She will handle the rest. The packages are scattered about the halls, but each is clearly labeled, so you should have little trouble finding them. Now, if you will excuse me... Hm? Your report? Later, later..."
-56,"TEXT_GAIUSE112_01186_ALPHINAUD_000_014","Of course I wish to hear your report, but you've caught me at an inopportune moment. I daresay I will have some time to talk when you have finished your little errand."
-57,"TEXT_GAIUSE112_01186_TATARU_000_020","Uwaaah! So much to do, so much to do! At this rate, we'll <Emphasis>never</Emphasis> get to Revenant's Toll!"
-58,"TEXT_GAIUSE112_01186_TATARU_000_030","Bless your heart, I had completely forgotten about those!"
-59,"TEXT_GAIUSE112_01186_TATARU_000_031","Let me check the labels against my list... Oh, these are the last ones! Thank the Twelve, it's almost─"
-60,"TEXT_GAIUSE112_01186_TATARU_000_032","Oh dear, I <Emphasis>did</Emphasis> contact the courier, didn't I? Um..."
-61,"TEXT_GAIUSE112_01186_TATARU_000_033","Ah! It just so happens that I had been meaning to contact <Emphasis>you</Emphasis>, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! I've an important personal request, you see, which I couldn't possibly entrust to anyone else."
+48,"TEXT_GAIUSE112_01186_SLAFBORN_000_000","「暁」からの移転計画書によれば、
+そろそろ「砂の家」側の準備も整うはず。"
+49,"TEXT_GAIUSE112_01186_SLAFBORN_000_001","こちらの報告も兼ねて、
+一度、砂の家に戻り、状況を確認してきてもらえまいか。"
+50,"TEXT_GAIUSE112_01186_SLAFBORN_000_002","移転計画は、アルフィノ殿が担当しておる。
+彼に話を聞けばよいだろう。
+それでは、「暁」の移転を首を長くして待っているぞ。"
+51,"TEXT_GAIUSE112_01186_SLAFBORN_000_003","移転計画は、アルフィノ殿が担当しておる。
+彼に話を聞けばよいだろう。
+それでは、「暁」の移転を首を長くして待っているぞ。"
+52,"TEXT_GAIUSE112_01186_ALPHINAUD_000_010","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>、戻ったのかい。
+……ふむ、レヴナンツトール側の準備は完了したんだね。"
+53,"TEXT_GAIUSE112_01186_ALPHINAUD_000_011","こちらは少し遅れていてね。
+……戻ってきたばかりですまないが、手伝いを頼みたい。"
+54,"TEXT_GAIUSE112_01186_ALPHINAUD_000_012","「砂の家」に残っている「<Sheet(EObj,2002850,0)/>」を回収し、
+管理しているタタルまで持っていってくれないか。
+そうだな、あと4つほどあったはずだ。"
+55,"TEXT_GAIUSE112_01186_ALPHINAUD_000_013","これらの荷物が片付けば、いよいよ準備も大詰めだからね。
+よろしく頼んだよ。"
+56,"TEXT_GAIUSE112_01186_ALPHINAUD_000_014","「砂の家」に残っている「<Sheet(EObj,2002850,0)/>」を回収し、
+管理しているタタルまで持っていってくれないか。
+そうだな、あと4つほどあったはずだ。"
+57,"TEXT_GAIUSE112_01186_TATARU_000_020","ええっと、あとやることは……
+アレと……ソレと……
+ああぅ、最後の荷物も確認しないとでっす！"
+58,"TEXT_GAIUSE112_01186_TATARU_000_030","おおぅ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん！
+……その「<Sheet(EventItem,2001080,0)/>」は、
+最後の輸送隊に運んでもらうものでっすね！"
+59,"TEXT_GAIUSE112_01186_TATARU_000_031","ひぃ、ふぅ、みぃ……たしかに全部ありまっす！
+助かりまっした！
+ちょうど確認しようとしていたところだったのでっす。"
+60,"TEXT_GAIUSE112_01186_TATARU_000_032","あとは、輸送隊の手続きをしなければ……
+まだまだ、作業はいっぱいでっす。"
+61,"TEXT_GAIUSE112_01186_TATARU_000_033","そうだ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん！
+……実は私からも、ひとつお願いがあるのでっす。
+よかったら聞いてほしいでっす。"

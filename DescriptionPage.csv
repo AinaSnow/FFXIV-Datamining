@@ -8,891 +8,1616 @@ int32,Quest,DescriptionString,Image,DescriptionString,Image,DescriptionString,Im
 2.2,,"",,"",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
 2.3,,"",,"",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
 3.0,,"",,"",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-4.0,,"1. Introduction",,"Doman mahjong is a game for four players. The following guide covers the basic rules.",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-4.1,,"2. What is Doman Mahjong?",,"In Doman mahjong, players <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>race to complete a winning hand of 14 tiles, with points awarded for speed and difficulty of the hand<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-Players begin with 13 tiles and draw a new tile each turn. They must then choose a tile to discard: either the new tile or one of the tiles in their hand. The player to the right then takes a turn, and the process is repeated until the end of the hand.
+4.0,,"1.　はじめに",,"「ドマ式麻雀」は4人のプレイヤーで対戦するテーブルゲームです。
+ドマ式麻雀のゲームルールは日本で汎用的に遊ばれている麻雀に則っています。
+次の項目からは「ドマ式麻雀」を遊ぶために必要な、
+基礎的な知識/ルールについて説明していきます。
 
-The first player to complete a winning hand is awarded points. A total of eight hands are played, and the player who finishes with the most points is declared the winner.
-Here is an example of a winning hand:","ui/icon/086000/086001.tex","The 14 tiles form <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>four groups of three tiles and one pair of matching tiles<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. A group of tiles is known as a “meld,” and the various types are explained in this guide. The combination of melds determines the difficulty of the hand and the points awarded when winning.
+",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+4.1,,"2.　どうやって遊ぶの？",,"「ドマ式麻雀」は4人で行う対戦型ゲームです。14枚のドマ式麻雀牌を組み合わせて「完成の形」を作り上げるスピードとその点数の高さを競います。
+
+ゲームを開始すると、まず4人のプレイヤーにそれぞれ13枚の手牌が配られます。
+最初の手番のプレイヤーには新しく1枚牌が配られるので、いらない牌を1枚捨てます。次に右隣のプレイヤーにも同様に1枚牌が配られるのでいらない牌を1枚捨てる、これを繰り返してゲームは進行していきます。
+
+1枚配られてきた14枚で「完成の形」が最初にできたプレイヤーがそのフェーズの勝ちとなり、点数を受け取ります。このフェーズを繰り返し、8回のフェーズが終わった時点で点数が一番多い人が勝者となって１ゲームが終了します。
+
+ではまず、「完成の形」とはどのようなものか見てみましょう。","ui/icon/086000/086001.tex","上図のように14枚の牌で、<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>3枚1組のグループを4つと、同じ牌2枚1組を作ることが「完成の形」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>となります。3枚1組のグループの作り方は別項目で解説しますが、この組み合わせの難易度が高いほど、勝ちとなったときの点数は高くなります。
 
 ",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-4.2,,"3. The Tiles",,"Mahjong tiles are divided into “number tiles” and “honor tiles.”
+4.2,,"3.　ドマ式麻雀牌の種類",,"ドマ式麻雀牌には「数字が記された牌」と「文字が記された牌」の
+2つの系統の牌があります。
 
-■ Number Tiles
-There are three suits of number tiles, each ranging from 1 to 9.
-","ui/icon/086000/086002.tex","■ Honor Tiles
-There are two suits of honor tiles: the four wind tiles and the three dragon tiles. Unlike number tiles, they appear in no particular sequence, and therefore cannot be used to form straights. They can only form melds with identical tiles.","ui/icon/086000/086003.tex","There are 34 varieties of tile, with four of each for a total of 136.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Players aim to form a winning hand of 14 tiles before the other players and earn as many points as possible.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+■「数字が記された牌」
+数字が記された牌は3種類あり、それぞれ1～9までの数値を表しています。
+","ui/icon/086000/086002.tex","■「文字が記された牌」
+文字が記された牌は2種類あります。
+これらの牌は「数字が記された牌」のような順番はありません。","ui/icon/086000/086003.tex","なお、ドマ式麻雀牌はまったく同じ図柄の牌が4枚ずつあります。上図にある34枚の牌が4枚ずつあるため、牌の数は全部で136枚です。
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ドマ式麻雀はこの136枚の牌をつかって、手牌14枚の組み合わせの完成形を、他のプレイヤーよりも早く（なおかつできるだけ高い点数で）作り上げることを競い合うゲームなのです。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+
 ",,"",,"",,"",,"",,"",,0,0,0,0,0
-4.3,,"4. Forming Melds",,"■ Straights
-Number tiles may form straights such as 2, 3, 4 or 4, 5, 6, provided the tiles are all in the same suit. However, sequences such as 8, 9, 1 or 9, 1, 2 are not permitted.","ui/icon/086000/086004.tex","■ Triplets
-Number tiles and honor tiles can also form matching triplets with identical tiles.","ui/icon/086000/086005.tex","A winning hand consists of 14 tiles and requires four melds and one matching pair.
+4.3,,"4.　手牌の組み合わせ",,"■連続する３つの数字を組み合わせる
+同じ種類の「数字が記された牌」で、「2-3-4」「4-5-6」「7-8-9」のように3つの連続する数字が記された牌を集めることで1つの組み合わせを作ることができます。
+しかし、異なる種類での組み合わせは認められていません。また「8-9-1」「9-1-2」のようにループしてしまう組み合わせも認められていません。","ui/icon/086000/086004.tex","■全く同じ牌を３枚あつめる
+全く同じ牌を3つ集めても1組の組み合わせにできます。
+これは「数字が記された牌」/「文字が記された牌」のどちらでも可能です。","ui/icon/086000/086005.tex","ドマ式麻雀のあがり（＝完成の形）は、こうやって組み合わせた3枚1組の１グループの組み合わせを4つと、同じ牌2枚1組で作られる1つの組み合わせの、14枚で構成されます。
 
-※There are special combinations that ignore this particular rule, but beginners should focus on learning the basic hands first.
+※例外的に特殊な組み合わせで構成されるあがりの形がいくつかありますが、まずはこの形を目指していきましょう。
 
 ","ui/icon/086000/086006.tex","",,"",,"",,"",,"",,0,0,0,0,0
-4.4,,"5. Order of Play",,"Each of the four players begins with 13 tiles, and the dealer─who is chosen automatically─plays first.
-That player draws one new tile and chooses one tile to discard. This may either be the new tile or one from their hand.
-Once that player has discarded a tile, the player to the right takes a turn. This process is repeated until the end of the hand.",,"The hand ends when a player calls a winning hand. The hand also ends if all of the tiles are drawn with no player calling a winning hand.","ui/icon/086000/086007.tex","At the start of a new hand, the role of dealer passes to the player on the right. A round consists of eight hands, during which time the role of dealer passes around the board twice. The player with the highest score at the end of the round is declared the winner.
+4.4,,"5.　ゲームの進行",,"ドマ式麻雀のゲームは4人で行います。4人のプレイヤーに13枚の手牌が配られたところからゲームが開始されます。
+まず最初に、親の権利をもつプレイヤー（自動的に決まります）に新しく牌が1枚配られ、いらない牌を1枚捨てます。次に右隣のプレイヤーに1枚牌が配られてまた1枚捨てる、これを順番に繰り返していきます。",,"誰かがあがりとなるか、あるいは誰もあがりとならないまま配られる牌がなくなると1つのフェーズは終了となります。このフェーズを「局」と呼びます。","ui/icon/086000/086007.tex","次の局が始まる時、親の権利は右隣のプレイヤーに移ります。
+局が進むにつれて4人に順番に親の権利がまわっていき、親の権利が2周まわったところで1ゲームは終了となり、その時点で点数を最も多く持つプレイヤーがゲームの勝者となります。
 
 ",,"",,"",,"",,"",,"",,0,0,0,0,0
-4.5,,"6. Points for a Winning Hand",,"Each player begins the game with 25,000 points, which increase when calling a winning hand. However, points may be deducted when another player calls a winning hand.
+4.5,,"6.　あがりと点数",,"ゲーム開始時、プレイヤーは25000の点数を持っています。
+あがると完成の形に応じた点数を他のプレイヤーからもらえますが、
+自分の手番に配られた牌であがりの形となる場合と、
+誰かが捨てた牌であがりの形となる場合とで、点数のやり取り方法が変わります。",,"■配られた牌でのあがり
+配られた牌であがりの形となった場合、点数は他のプレイヤー3人が分割して支払います。親の時のあがりは点数が1.5倍となるのでお得ですが、親の時の支払いは他プレイヤーの2倍の点数となります。","ui/icon/086000/086008.tex","■捨てた牌でのあがり
+他プレイヤーがいらない牌を捨てた時、その牌であがりの形になる場合にもあがりが成立します。この場合は、牌を捨てたプレイヤーだけが点数を支払います。親であがりとなった場合の点数は1.5倍となりますが、親の時の点数の支払いは変わりません。","ui/icon/086000/086009.tex","このようにドマ式麻雀の「親」は重要な要素で、あがりの時の点数が1.5倍となる大きな利点があります。また、親であがった場合にはもう一度親のまま局を継続することができるので点数を増やす大きなチャンスとなります。
 
-A winning hand can be formed in one of two ways:
-",,"1. Tsumo: When a tile is drawn
-When a winning hand is formed with a tile drawn by the player, the point value is calculated, and each of the other three players pays this point cost.
-If the dealer calls a winning hand, the point value is increased by 50%.
-If the dealer has to pay another player, they must pay double.","ui/icon/086000/086008.tex","2. Ron: When another player discards a tile
-If a player discards a tile that allows another player to form a winning hand, only the player that discarded the tile must pay.
-When the dealer forms a winning hand in this manner, the point value is increased by 50%. However, if the dealer is the player who discarded the tile, only the standard amount is paid.","ui/icon/086000/086009.tex","The dealer has the advantage of earning 50% more points from a winning hand.
-In addition, when a dealer calls the winning hand, the <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>role of dealer does not pass to the next player<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, thus giving the dealer an opportunity to score even more points.",,"",,"",,"",,"",,0,0,0,0,0
-4.6,,"7. Yaku, Required for a Winning Hand",,"As mahjong revolves around scoring as many points as possible, it is important to know the difference between low-scoring and high-scoring hands.",,"The value of a hand is determined by “yaku”─specific combinations of melds. The value of each yaku is measured in “han,” with 6 han being the highest and 1 han the lowest. The harder the yaku is to form, the more han it is worth.",,"The han value of the hand is used to calculate the number of points awarded.
-Points are awarded as follows:",,"　1 Han     1,000 Points
-　2 Han     2,000 Points
-　3 Han     3,900 Points
+",,"",,"",,"",,"",,0,0,0,0,0
+4.6,,"7.　あがりのために～役について",,"ドマ式麻雀は点数を奪い合うゲームです。あがりには点数の高い形、安い形がありますので、どうすれば高い点数の形を作ることができるのかを知っておきましょう。",,"トランプのポーカーには「ストレート」「フラッシュ」「フルハウス」といった「役」があり、組み合わせることで強さが増す仕組みとなっていますが、ドマ式麻雀にも同様の「役」があります。
+ドマ式麻雀の役はその強さを「翻（はん）」という単位で表されており、作り上げるのが難しい6翻の役から簡単に狙える1翻の役まで様々な種類の役があります。",,"あがった時、そのあがりを構成する役の翻数によって点数が決まります。
+基本的に１翻1000点で、翻が重なるにつれて以下のように点数は増加していきます。",,"　1翻　1000点
+　2翻　2000点
+　3翻　3900点
 
-　4 Han     8,000 Points
-　5 Han     8,000 Points
+　4翻　8000点
+　5翻　8000点
 
-　6 Han     12,000 Points
-　7 Han     12,000 Points
+　6翻　12000点
+　7翻　12000点
 
-　8 Han　 16,000 Points
-　9 Han　 16,000 Points
-　10 Han   16,000 Points
+　8翻　16000点
+　9翻　16000点
+　10翻　16000点
 
-　11 Han    24,000 Points
-　12 Han    24,000 Points
+　11翻　24000点
+　12翻　24000点
 
-　13 Han and higher     32,000 Points",,"In certain situations, further calculations are involved which may lead to point increases.",,"As yaku are used to calculate the points earned, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>a winning hand must contain at least one yaku<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.
-Although a winning hand normally requires four melds and a matching pair, this alone does not constitute a winning hand.
+　13翻～　32000点",,"親であがった時の点数はこの1.5倍となります。実際にはさらに細かい計算によって点数が増えることがあります。",,"このように役の翻数によって点数が決まることから、
+ドマ式麻雀では「<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>あがりには役が必ず1つ以上必要<UIGlow>01</UIGlow><UIForeground>01</UIForeground>」です。
+「3枚1組のグループが4つと1組の2枚同じ牌」であがりの形は作れますが、
+このなかに役が最低でも1種類はないとあがりにはなりません。
 
 ",,"",,"",,0,0,0,0,0
-4.7,,"8. Basic Yaku",,"There are many types of yaku, but we recommend learning these basic yaku first:",,"■ Tanyao
-Only number tiles from 2 to 8 are used.
-The hand cannot contain any honor tiles or tiles numbered 1 or 9.","ui/icon/086000/086010.tex","■ All Pon
-Four matching triplets and a matching double.","ui/icon/086000/086011.tex","■ Pure Straight
-Contains numbers 1 to 9 of the same suit. Presented as three triplets of 1, 2, 3, then 4, 5, 6, and 7, 8, 9.","ui/icon/086000/086012.tex","■ Mixed Triple Chi
-The same straight, for example, 1, 2, 3, in each suit.","ui/icon/086000/086013.tex","■ Half Flush
-Number tiles from a single suit plus honor tiles.","ui/icon/086000/086014.tex","■ Full Flush
-Only number tiles from one suit.","ui/icon/086000/086015.tex","Please refer to the Lodestone for a full list of yaku and other useful information.
+4.7,,"8.　役作り１～基本的な役",,"ドマ式麻雀の役には色々な種類がありますが、数が多いので覚えておきたい基本的なものを以下にまとめます。",,"■タンヤオ
+数字が記された牌の2-8だけをつかって作る役。
+文字が記された牌と「１」「９」の牌を使ってはいけません。","ui/icon/086000/086010.tex","■トイトイ
+全く同じ牌3枚1組の組み合わせを4つと2枚1組の組み合わせだけで作る役。","ui/icon/086000/086011.tex","■一気通貫
+同じ種類の数字が記された牌で「１－２－３」「４－５－６」「７－８－９」の組み合わせを作る役。","ui/icon/086000/086012.tex","■三色同順
+例えば「１－２－３」の組み合わせを、数字が記された牌の3種類でそれぞれ組み合わせる役。","ui/icon/086000/086013.tex","■混一色（ホンイツ）
+数字が記された牌1種類と、文字が記された牌だけで完成させる役。","ui/icon/086000/086014.tex","■清一色（チンイツ）
+数字が記された牌1種類だけで完成させる役。","ui/icon/086000/086015.tex","他にも色々な役がありますので、詳細はLodestoneにまとめられている役一覧などをご確認ください。
 
 ",,0,0,0,0,0
-4.8,,"9. Riichi Yaku",,"A special condition known as “riichi” makes it easier to form a yaku.","ui/icon/086000/086016.tex","The hand in the diagram only requires a 3 or a 6 of Dots to form a winning hand.
-When a player is one tile away from a winning hand, riichi may be declared.",,"When the hand is ready for declaring riichi, the player will have the option to do so before discarding a tile. In the case shown in the diagram, if the declaring player receives a 3 or a 6 of Dots, whether the tile is drawn by the player or discarded by another player, a winning hand can be called.
-After declaring riichi, that player can no longer put drawn tiles into their hand. Any tiles drawn will automatically be discarded until a tile that completes the winning hand is obtained. However, a winning hand achieved through riichi is a yaku in itself. Therefore, the player does not need to have formed any other yaku to complete a winning hand.",,"■ Properties of Riichi
-　1. The player's hand automatically becomes a yaku, regardless of whether it contains any other yaku.
-　2. The other players know that the one declaring riichi is one tile away from a winning hand.
-　3. The declaring player cannot replace any of the tiles in their hand.
-　4. The declaring player must pay 1,000 points─indicated with a point stick placed in the center of the table─which go to the winner of the hand.
+4.8,,"9.　役作り２～リーチという役",,"覚えておくと便利な役として「リーチ」があります。","ui/icon/086000/086016.tex","この図の13枚の手牌は、あと「3」か「6」があればあがりという状態です。
+この「完成の一歩前の状態」の時にプレイヤーのアクションとして「リーチ」が選択できるようになります。",,"牌を捨てる時に「リーチ」という選択肢が表示されますので、リーチを選んでから牌を捨てましょう。この後「3」か「6」を誰かが捨てるか、自分に配られる牌に来るとあがりです。
+リーチ状態ではプレイヤーに配られる牌を手牌と入れ替えることはできず、あがりとなる牌が出てくるまで自動的に捨てられ続けます。その代わりにあがりとなった時に「リーチ」という役が必ずつきますので、他の役がわからなくても必ずあがりを狙うことができます。",,"■リーチの特徴
+　1.　「リーチ」を選ぶことで他の役に関わらずあがれる役が確定する。
+　2.　「リーチ」を選ぶと後1枚であがりであることが他者に知られてしまう。
+　3.　「リーチ」を選んだ後は配られてきた牌を手牌と入れ替えできない。
+　4.　「リーチ」を選ぶには1000点の支払いが必要。
+　　　（その局をあがったプレイヤーが1000点を受け取ります）
 
 ",,"",,"",,"",,"",,0,0,0,0,0
-4.9,,"10. Yaku Tiles",,"The honor tiles offer another method for forming a yaku.","ui/icon/086000/086017.tex","A triplet of any of these three tiles forms a yaku.","ui/icon/086000/086018.tex","The wind tiles can be used to form a yaku in a similar fashion, although certain conditions apply.",,"■ Round-specific Conditions
-A game of Doman mahjong is divided into eight hands. The first round, in which the role of dealer passes to each player once, is called “East.” A triplet of east wind tiles forms a yaku in this round. The second round, “South,” allows a yaku to be formed with a triplet of south wind tiles.",,"■ Seat-specific Conditions
-Each player is assigned a “seat wind” according to their seating position in relation to the dealer.
+4.9,,"10.　役作り３～役牌",,"もうひとつ役を狙いやすい方法として、「文字が記された牌」で組み合わせを作る方法があります。","ui/icon/086000/086017.tex","文字が記された牌のうちこちらの3種の牌は、どれでも3つ同じ牌を揃えるだけで役が確定します。","ui/icon/086000/086018.tex","こちらの4種の牌は、「東」「南」「西」「北」の4つの方角を表します。こちらも3つ同じ牌を揃えることで役となりますが、そのためにはいくつか条件があります。",,"■「局」による条件
+ドマ式麻雀の局は8局で構成されていますが、
+親が全員にまわるまでの1周目の4局は「東の場」と呼び、「東」の牌を3つ揃えることで役になります。親が2周目の後半4局は「南の場」と呼び、「南」の牌を3つ揃えることで役になります。",,"■席順による条件
+ドマ式麻雀では親からの席の並び順によってプレイヤーに方角が割り振られます。
 
-　Dealer = East
-　Dealer's right = South
-　Opposite the dealer = West
-　Dealer's left = North
+　親＝東
+　親の右隣＝南
+　親の向かい＝西
+　親の左隣＝北
 
-The seat wind for each player changes counterclockwise in this order: East, South, West, North. (This layout differs from the standard compass directions.) A triplet of wind tiles with the current seat wind forms a yaku.
-The seat wind rotates together with the role of dealer, and players have a chance to easily form a yaku by paying attention to their seat wind marker.",,"",,"",,"",,0,0,0,0,0
-4.10,,"11. Pon and Chi",,"It is difficult to form a winning hand relying solely on drawn tiles. However, tiles discarded by other players can be claimed by using “pon” and “chi.”",,"■ Pon
-If you have a pair of matching tiles, when another player discards a tile that can be used to form a triplet, you may call pon to claim the tile.",,"■ Chi
-Calling chi allows you to claim a number tile discarded by another player and complete a straight. However, it can only be called for the player whose turn comes before yours.",,"Although pon and chi allow you to form a winning hand more quickly, there are some drawbacks.",,"■ Drawback 1: Revealing Your Hand
-Using pon or chi to form a triplet or straight will cause it to be revealed to the other players. In addition, you can no longer use those tiles for any other melds.
-This can lead to missing opportunities to form better hands as a result of having those tiles locked into a triplet or straight.",,"■ Drawback 2: Preventing Riichi
-It is not possible to declare riichi after using pon or chi.
-Due to being unable to form a riichi yaku, you must find a way to form a different yaku. There are also certain yaku that can only be formed on the condition that you have not used pon or chi, so these will also become unavailable. In some cases, pon and chi will limit your ability to score points.",,"",,"",,0,0,0,0,0
-4.11,,"12. Dora Bonuses",,"In each hand, certain tiles are selected as “dora” and will grant bonus han simply for being included in a winning hand. While dora apply han bonuses, they are not in themselves yaku, so a yaku must be formed in order to take advantage of dora.",,"■ Dora
-A dora tile is randomly selected at the start of each hand and is displayed throughout.",,"■ Aka Dora
-Each suit contains four number 5 tiles. One of these four is colored red, and is known as the “aka dora.” Simply including an aka dora adds one bonus han to a winning hand. There are three aka dora in total, one for each suit.",,"■ Ura Dora
-When calling a winning hand after declaring riichi, the “ura dora” is revealed. This is only shown after the winning hand has been called and is nothing more than a surprise bonus, although it provides added incentive to try declaring riichi.
+このように親から順番に反時計回りに「東南西北」の順番に方角が割り当てられています。自分に割り当てられた方角を示す文字が記された牌は、3つ揃えることで役になります。
+親の権利が他プレイヤーに移るたびに、プレイヤーの割り当てられた方角が切り替わるのが大きな特徴です。自分に割り振られた方角は、ゲーム画面で確認できますので有効に活用していきましょう。",,"",,"",,"",,0,0,0,0,0
+4.10,,"11.　「ポン」と「チー」",,"ドマ式麻雀は13枚の手牌に牌が1つ配られ、いらない牌を1つ捨てることを繰り返して進行します。これだけだと欲しい牌がなかなか揃いませんが、ドマ式麻雀では他プレイヤーが自分の欲しい牌を捨てた時に、自分の牌としてもらってしまう「ポン」「チー」というアクションを使うことができます。",,"■ポン
+自分の手牌に同じ牌が2枚あるときに、誰かがその牌と同じ牌を捨てると画面に「ポン」の選択肢が表示されます。「ポン」を選ぶと、その牌をもらってきて3枚1組の組み合わせとすることができます。",,"■チー
+こちらは自分の直前のプレイヤーの牌からしか実行できませんが、3つの連続する「数字が記された牌」の組み合わせができる牌が捨てられたときには、画面に「チー」の選択肢が表示されます。",,"「ポン」「チー」は自分がほしい牌を積極的に集めることができるため、あがりの形を作るためのスピードがあがりますが、以下のようなデメリットがあります。",,"■「ポン」「チー」のデメリット１
+「ポン」「チー」した牌3枚は、手牌とは別に置かれて他のプレイヤーから見える状態となります。こうなった牌は手牌として使うことはできず、もっと良い牌が配られた場合も入れ替えることはできません。",,"■「ポン」「チー」のデメリット２
+「ポン」「チー」した時点でリーチは選択できなくなります。
+つまり「ポン」「チー」した場合にはリーチ以外の役を作らねばなりません。また、役の中には「ポン」「チー」した時点で役として成立しなくなるものや、翻数が減ってしまうものもあります。",,"",,"",,0,0,0,0,0
+4.11,,"12.　ドラというボーナス要素",,"ドマ式麻雀には「ドラ」と呼ばれる、あがった時に持っているだけでボーナス翻が追加される牌が登場します。あくまでもボーナス翻で役ではありませんので、あがりの形を作る際にはまず役を作る必要があることに変わりはありません。",,"■ドラ
+ドマ式麻雀のゲーム中、1局ごとにランダムにドラが1種類設定されます。
+ドラの牌が何かはゲーム中にいつでも確認できます。",,"■赤ドラ
+数字が記された牌のうち、「5」の数字4枚の中に1つだけ赤い牌があります。これを「赤ドラ」と呼び、ドラと同じようにあがったときに持っているだけで1翻のボーナスが追加されます。数字が記された牌3種類のそれぞれに1枚ずつあるため、あわせて3枚の赤ドラが登場します。",,"■裏ドラ
+リーチをしてあがったときには、裏ドラと呼ばれる追加ボーナスが発生します。あがった後にしか確認できないため、ボーナスとしてしか期待できないおまけ要素ですが、リーチをすることの魅力の一つとなります。
 
 ",,"",,"",,"",,"",,0,0,0,0,0
-4.12,,"13. Kan",,"Since there are four of each tile, it is possible to collect all four. This is known as “kan.”",,"Although kan is not in itself a yaku, it awards additional bonuses when calculating the points earned by a winning hand. Kan also increases the number of dora, which may offer further advantages.
-Similarly to pon and chi, calling kan locks those tiles, preventing them from being replaced or used in other melds.",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-4.13,,"14. Learn by Playing",,"Doman mahjong is a complex game even once you have learned all of the rules. However, many of the actions normally carried out by players themselves are performed automatically, so feel free to head to the tables and try your luck without worrying about the less important details. Why not start at the novices' table?
+4.12,,"13.　カンについて",,"それぞれの牌は4つずつ同じものがありますが、その4つを集めきると、4つの牌を1つの組み合わせにしてしまう「カン」というアクションができます。",,"「カン」は役ではないですが、あがり時の点数の基本計算にボーナスがつくというメリットがあります。さらに「カン」した時点で新しいドラが増えるというボーナス要素も魅力の一つです。
+なお、「カン」した牌は「ポン」「チー」した牌と同様、手牌との入れ替えができない牌となります。",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+4.13,,"14.　実際に体験してみよう",,"ここまででドマ式麻雀の基本的な進め方の解説は終わりです。細かい決まりごとはまだありますが、システムが自動的にフォローしてくれるので、まずは近くのテーブルの「初級ドマ式麻雀卓」からNPCとの対戦を体験してみましょう。
+慣れてきたらコンテンツファインダーで、他プレイヤーとの対戦にも是非チャレンジしてみましょう！
 
-Once you have a grasp of the basics, you may wish to challenge other adventurers via the Duty Finder.
-For details on the more advanced rules, please refer to the guide on the Lodestone.","ui/icon/086000/086019.tex","",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-5.0,,"NPC Matches",,"The Gold Saucer offers games against novice, intermediate, and advanced opponents.",,"It is also possible to challenge these opponents while waiting for a party in the Duty Finder. However, the game will be abandoned if the Duty Finder matches you with a party and you choose to enter the duty.","ui/icon/086000/086020.tex","",,"",,"",,"",,"",,"",,0,0,0,0,0
-5.1,,"Player Matches",,"You may challenge other players to matches via the Gold Saucer tab in the Duty Finder.
+より細かい決まりごとについてはLodestoneの「ドマ式麻雀」ガイドページを参照してください。","ui/icon/086000/086019.tex","",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+5.0,,"NPCとの対戦",,"ゴールドソーサーに設置されたドマ式麻雀卓から、NPC3人を相手にしてドマ式麻雀が遊べます。
+「初級ドマ式麻雀卓」「中級ドマ式麻雀卓」「上級ドマ式麻雀卓」の3つの卓がありますので好きな難易度にチャレンジしてみましょう。",,"NPCとの対戦はコンテンツファインダーでコンテンツを登録申請した待ち時間中でも遊ぶことができます。ただし、NPC対戦中にマッチングしてコンテンツに突入してしまうと、ゲームの途中経過は破棄されてしまいますのでご注意ください。","ui/icon/086000/086020.tex","",,"",,"",,"",,"",,"",,0,0,0,0,0
+5.1,,"プレイヤー同士の対戦",,"コンテンツファインダーの「ゴールドソーサー」タブからは、ドマ式麻雀のプレイヤー同士の対戦に参加できます。
 
-■ Novice Mahjong (Ranked)
-This match type is immediately available. After registering as a solo player, you will be matched against other players.
-Your performance will affect your rating.
-　1st: +30 points　2nd: +15 points　3rd: No change
-　4th: 2nd kyu or higher, -10 points
-The higher your rank, the more points are lost when finishing 4th.
+■一般卓（段位変動有り）
+最初から選べるプレイヤー同士のドマ式麻雀対戦コンテンツです。
+ソロでのみ申請可能です。戦績によってレートや段位の変動があります。
+　（1位：+30pt　2位：+15pt　3位：変動なし
+　　4位：段位が「2級」以上から-10pt。段位があがるほど減少幅は増加）
 
-■ Advanced Mahjong (Ranked)
-Only players ranked 1st dan or higher can register. After registering as a solo player, you will be matched against other players.
-Ratings are affected as follows:
-　1st: +60 points　2nd: +15 points　3rd: No change
-　4th: -30 points
-The higher your rank, the more points are lost when finishing 4th.
+■有段卓（段位変動有り）
+段位が「初段」以上となったプレイヤーだけが申請できるプレイヤー同士のドマ式麻雀対戦コンテンツです。ソロでのみ申請可能です。戦績によってレートや段位の変動があります。
+　（1位：+60pt　2位：+15pt　3位：変動なし
+　　4位：-30pt。段位があがるほど減少幅は増加）
 
-■ Four-player Mahjong (Kuitan enabled)
-You must form a party of four players to begin the match. Ratings and ranks are not affected.
-※<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>The kuitan rule allows tanyao yaku to be used after calling pon or chi.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+■4人セット卓（クイタン有り）
+あらかじめ組んだ4人パーティで対戦する、プレイヤー同士のドマ式麻雀対戦コンテンツです。レートや段位の変動はありません。
+※<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>「ポン/チーした状態でのタンヤオ役は成立する」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>ルールのコンテンツとなります。
 
-■ Four-player Mahjong (Kuitan disabled)
-You must form a party of four players to begin the match. Ratings and ranks are not affected.
-※<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Playing with kuitan disabled prevents tanyao yaku from being used after calling pon or chi.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+■4人セット卓（クイタン無し）
+あらかじめ組んだ4人パーティで対戦する、プレイヤー同士のドマ式麻雀対戦コンテンツです。レートや段位の変動はありません。
+※<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>「ポン/チーした状態でのタンヤオ役は成立しない」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>ルールのコンテンツとなります。
 
-",,"■ Rules
-・Each player has a certain amount of time to take their turn. A tile will be discarded automatically if that player fails to act within the time limit. This time limit does not apply to four-player mahjong (kuitan enabled/disabled).
-・A time limit applies to the period between hands. In addition, if a single hand lasts more than 80 minutes, the following hand will be the last one played. Once that hand ends, the game ends, final placements are decided, and the results are recorded.
-・Each game has a time limit of 120 minutes, after which the game will end automatically. Results will not be recorded.
-",,"■ Chat
-・During a four-player mahjong game, you may chat to the other players.
-・Chat can be toggled on and off using the button in the lower right of the screen. Turning chat off will prevent you from sending and receiving messages. On-screen icons indicate whether the other players are participating in the chat.
-",,"■ Rating and Rank
-・Matches played in “Novice Mahjong (Ranked)” and “Advanced Mahjong (Ranked)” will affect your rating and rank.
-・Your rating starts at 1,500, and will increase or decrease according to your finishing position in each match.
-・Although you cannot be demoted while in the lower ranks, progressing to the higher ranks puts you at risk of demotion should you perform poorly.
-・Ratings and ranks are calculated only according to the rating of your opponents and your finishing position in the game.
-(The number of points with which you end a game is not taken into consideration.)
-・Your mahjong rating and rank can be viewed in the Gold Saucer menu, under Mahjong.
-",,"■ Abandoning a Match
-・If players log out during a mahjong match, tiles will be discarded automatically when their turn comes around. When players log back in, they will regain control from the next turn onwards.
-・If players abandon a match, it will continue without them and their tiles will be discarded automatically. They will also incur the standard penalties for abandoning a duty and will be unable to register for another mahjong match until the previous match ends.
-・If players do not enter any commands for a certain amount of time, they will be automatically removed from the match.
+",,"■ゲーム進行
+・自分の手番には制限時間があります。制限時間を超過したときには自動的に捨て牌が切り出されます。4人セット卓では手番の制限時間はありません。
+・1ゲームには、新しい局へ移行することのできる制限時間が設定されています。対局中に80分経過した場合、進行中の局の次の局が最終局となって、最終局がおわった時点でゲームは終了となりその時点の順位が最終戦績として記録されます。
+・1ゲームの最大制限時間は120分ですが、これを超えてしまった場合にはゲームは途中終了します。この場合の戦績は記録されません。
+",,"■プレイ中のチャット
+・4人の対戦メンバー同士でパーティチャットができます。
+・チャットに参加したくない場合には画面右下のスイッチを切り替えることで、パーティチャットの着信/発信対象からすべて除外されます。（他プレイヤーがチャットに参加しているかどうかはそれぞれのマークから確認できます）
+",,"■戦績
+・「一般卓（段位変動有り）」「有段卓（段位変動有り）」では対戦結果の順位に応じて、プレイヤーのレートと段位が変動します。
+・レートは1500から始まり、良い順位を取り続けるとレートは上がり、悪い順位となるとレートは下がります。
+・段位は初期の頃は落ちることはありませんが、上位の段で悪い順位を取った時には降段する可能性があります。
+・レートと段位の計算は、対戦者のレートと最終順位によってのみ計算されます。
+（最終持ち点は加味されません）
+・ドマ式麻雀の戦績は、メインコマンド「ゴールドソーサー」の「MAHJONG」で確認できます。
+",,"■プレイ中の離脱について
+・プレイヤー対戦中にログアウトしてしまった場合、そのプレイヤーの手番となるたびに配られた牌が自動的に捨てられますが、ログインしてゲームに復帰すれば次の手番から引き続きプレイに参加することができます。
+・プレイヤー対戦中にコンテンツから離脱した場合にも、配られた牌が自動的に捨てられることでゲームは続行します。途中離脱したプレイヤーにはコンテンツの途中離脱のペナルティが与えられます。
+・一定時間無操作のままのプレイヤーは、自動的にコンテンツから退場します。
 
 ",,"",,"",,"",,0,0,0,0,0
-5.2,,"Support Features",,"■ Dangerous Tile Marker
-When discarding a tile, there is always a risk that an opponent may claim that tile to strengthen their position or even win the hand. These markers indicate which tiles carry a high risk of being claimed by an opponent.
-Remember, even the tiles without markers are not entirely without risk, but enabling this feature may help you to avoid defeat.","ui/icon/086000/086045.tex","The most dangerous tiles will have this kind of marker.","ui/icon/086000/086046.tex","You should also be wary of tiles with these markers.",,"■ Hints
-Enable this feature for recommendations on which tiles to discard, whether to call pon or chi, and so on. While following this advice will not always lead to victory, you may find it useful.
+5.2,,"ヘルプ機能について",,"■危険牌マーカー
+　局の終盤や他プレイヤーのリーチがかかった時には、
+　捨てるとあがられてしまう可能性のある危険な牌にマーカーが表示されます。
+　ただしマークのないものが必ずしも安全であるとは限りません。
+　ひとつの目安として活用しましょう。","ui/icon/086000/086045.tex","特に危険と考えられる牌は、このように表示されます。","ui/icon/086000/086046.tex","注意すべきと考えられる牌は、このように表示されます。
 
-",,"",,"",,"",,"",,0,0,0,0,0
-6.0,,"Overview",,"Rival Wings is a large-scale PvP battle involving up to 48 combatants. Participants are divided into two teams, the Falcons and the Ravens.
-Each team may pilot powerful machina as they attempt to destroy the opponent's core, which is defended by mammets.","ui/icon/086000/086021.tex","■Basic Rules
-A Rival Wings team consists of 6 light parties, for a total of 24 participants.
-A match lasts for 15 minutes.
+",,"■ヒント表示
+　配られた牌やポン/チーなどのアクションに対して、
+　何をしたら良いかのヒントが表示されます。
+　指定されたものが必ずしも安全で、正しい結果になるとは限りませんが、
+　ひとつの目安として活用しましょう。",,"",,"",,"",,"",,0,0,0,0,0
+6.0,,"概要",,"ライバルウィングズは、最大48名の参加者が、
+「チーム・ファルコン」と「チーム・レイヴン」の2チームに分かれて争う、
+大規模PvPコンテンツです。
+強力な力を持つ「機工兵器」にプレイヤー自身が搭乗して戦闘を行ったり、
+自走式の小型兵器「オートマトン」を護衛しながら、
+敵チームの「コア」と呼ばれる攻撃目標の破壊を目指します。","ui/icon/086000/086021.tex","■基本情報
+ライバルウィングズの各チームは、
+6つのライトパーティによるアライアンス24人で構成されます
+1試合の制限時間は「15分」です。
 
-■Retaliation
-Incapacitated players will be returned to their landing point, where they will be allowed to rejoin combat after a short delay. Furthermore, players will be invulnerable so long as they remain at their landing point. This effect will be lost upon returning to the battlefield.
+■再出撃
+他プレイヤーとの戦闘によって戦闘不能となってしまった場合でも、
+一定時間経過後に、何度でもスタート地点から再出撃することができます。
+また、スタート地点内にいる間、「無敵」ステータスが付与され続けます。
+このステータスは、スタート地点外に出ることで解除されます。
 
-■Mounts
-Players are free to use mounts during Rival Wings campaigns. However, players taking damage while mounted will be afflicted with the Limp status effect.
+■マウント
+ライバルウィングズでは、通常のフィールドと同様に、
+所持しているマウントに騎乗でき、かつ戦闘中であっても騎乗が可能です。
+マウント騎乗中に攻撃を受けた場合、確実に「移動速度低下」状態になるため、
+騎乗する際には周囲を警戒する必要があります。
 
-■Return 
-Using Return will teleport players back to their landing point. Moreover, this action has no recast time during Rival Wings campaigns. Please note, however, casting will be interrupted by attacks.
+■デジョン
+試合中にデジョンを実行すると、スタート地点に戻ることができます。
+ライバルウィングズ内でのデジョンは、戦闘中でも実行することができ、
+リキャストタイムもありません。
+ただし、デジョンの詠唱中に攻撃を受けた場合、確実に詠唱が中断されます。
 
-■Rewards
-When a match has ended, players will receive PvP EXP, PvE EXP, Wolf Marks, and Allagan tomestones.
-By continually winning Rival Wings matches, players will receive achievements that reward special mounts and gear.",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-6.1,,"Cores and Towers",,"The first team to destroy the core located on the opponent's base will be declared the winner. In the event neither team destroys a core, the team that deals the most damage to the opponent's core wins. If both teams have dealt the same amount of damage to each other's cores, the number of remaining towers─which protect the core─determines victory. Should the number of remaining towers be the same for both teams, the amount of damage dealt to the towers determines the winners.","ui/icon/086000/086022.tex","■Cores
-Each team has a core located at its base, and the chief objective is to destroy the enemy's core. The core is protected by a magitek field emanating from two towers, so before you can strike at the core, you must first destroy at least one of the towers.","ui/icon/086000/086023.tex","■Towers
-Each team has two towers that serve to protect their core. Each tower is also enveloped in a defensive field that mitigates damage taken by team members and restores their HP, which players can take advantage of as protection when hard-pressed by the opposing team. If you succeed in destroying the enemy team's towers, the magitek field around the enemy team's base will dissipate, and your team will earn Soaring stacks.","ui/icon/086000/086024.tex","■Magitek Fields
-Each team has two towers which project a magitek field to guard the core. While both towers are present, the core cannot be damaged, and the field deals severe damage over time to any enemies that enter.
-If one of the towers is destroyed, the defensive effect of the magitek field is weakened, allowing damage to be dealt to the core. In addition, the magitek field will no longer deal damage to enemies.
-When both towers are destroyed, the magitek field disappears and the core will receive full damage from enemy attacks.","ui/icon/086000/086025.tex","",,"",,"",,"",,0,0,0,0,0
-6.2,,"Machina",,"Players can deploy three types of powerful machina in battle.","ui/icon/086000/086026.tex","■Cruise Chaser
-A next-generation machina ideal for combat against enemy players and machina. While it possesses a high degree of mobility, it lacks in durability.","ui/icon/086000/086027.tex","■Oppressor 
-A hulking machina engineered for siege warfare, it excels at wreaking havoc upon structures. However, it is slow and poorly suited to combating enemy players and machina.","ui/icon/086000/086028.tex","■Brute Justice
-Boasting unrivaled power, Brute Justice dominates opposing players and machina on the battlefield, while also laying waste to structures with its lethal armaments. Although it can easily turn the tide of battle, there are strict conditions governing its deployment.","ui/icon/086000/086029.tex","■Machina Restrictions
-Only one machina may be operated per party at any given time, regardless of type. In the case of the Oppressor, however, the limit is two per team. Two Brute Justices can be deployed by each team per match, one becoming available for each tower you lose.
+■報酬
+参加報酬として「経験値」や「PvP EXP」、「対人戦績」、
+「アラガントームストーン」を獲得できます。
+さらに、ライバルウィングズで一定数勝利すると、
+アチーブメント報酬として称号やマウントを受け取ることができます。",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+6.1,,"コアとタワー",,"ライバルウィングズでは、敵の拠点に設置された「コア」を破壊することで、
+試合に勝利することができます。
+制限時間内に、どちらのコアも破壊されなかった場合、
+コアに対して、より多くのダメージを与えたチームの勝利となります。
+なお、コアに与えたダメージが等しい場合、
+コアを守る「タワー」と呼ばれる施設の残り基数が多いほうが勝ち、
+タワーの残り基数も等しい場合、
+タワーに対して、より多くのダメージを与えたチームの勝利となります。","ui/icon/086000/086022.tex","■コア
+各チームの拠点に設置された破壊目標です。
+試合開始時の段階では、タワーが生成する「魔導フィールド」に守られており、
+コアにダメージを与えることができません。
+試合が開始したら、まずは敵チームのタワーの破壊を目指しましょう。","ui/icon/086000/086023.tex","■タワー
+コアを防衛する機能を持つ施設で、各チームごとに2基ずつ設置されています。
+タワーは、周囲にいる味方プレイヤーのHPを継続回復させつつ、
+受けるダメージを軽減する「タワーフィールド」を発生させているため、
+敵チームに攻め込まれたときなどの退避場所としても利用できます。
+また、敵チームのタワーを破壊することに成功すると、
+破壊したチームの全パーティの「テンション」が増加します。","ui/icon/086000/086024.tex","■魔導フィールド
+タワーが発生させる、コアを守るための防衛機構です。
+魔導フィールドは、タワーの残り基数に応じて効果が変化します。
+タワーが2基残っている場合は、コアに対しての攻撃を完全に無効化するとともに、
+拠点への敵チームの侵入を防ぐダメージエリアを生成します。
+このダメージエリアは、自チームのものに触れても何も起こりませんが、
+敵チームのものに触れると強力な継続ダメージを受けます。
+タワーが残り1基になると、魔導フィールドの効果が弱体化し、
+コアに対してダメージが通るようになり、さらにダメージエリアも解除されます。
+すべてのタワーが破壊されると、魔導フィールドが完全に解除され、
+より多くのダメージを与えられるようになります。","ui/icon/086000/086025.tex","",,"",,"",,"",,0,0,0,0,0
+6.2,,"機工兵器",,"プレイヤー自身が搭乗し戦闘に参加できる、強大な力を持った兵器です。
+機工兵器には、性能の異なる3種類の機体が存在します。","ui/icon/086000/086026.tex","■クルーズチェイサー
+敵プレイヤーや敵機工兵器に対して、有効なアクションを使用できる機体です。
+高い機動力を持つ反面、耐久力に欠けます。","ui/icon/086000/086027.tex","■オプレッサー
+「タワー」や「コア」といった施設の破壊に特化した機体です。
+動きが遅く、プレイヤーや機工兵器との戦闘は苦手です。","ui/icon/086000/086028.tex","■ブルートジャスティス
+対プレイヤー、対機工兵器、対施設のすべてに優れた、
+最終兵器としての位置付けの機体です。
+戦況を大きく変えられるだけの力を持つ反面、搭乗条件に制限があります。","ui/icon/086000/086029.tex","【機工兵器の搭乗条件】
+機体の種類を問わず、機工兵器に同時に搭乗できるのは、
+「1パーティにつき1機」までとなります。
+また、「オプレッサー」は、「チーム全体で2機」までしか同時に搭乗できません。
+さらに、最終兵器として位置付けられる「ブルートジャスティス」の搭乗権は、
+所属するチームの「タワー」が破壊された際に発生し、
+「チーム全体」の同時搭乗可能数は、破壊された「タワー」の数と同数となります。
 
-■Riding Machina
-When deploying a machina, its HP will be displayed in place of the player. Its HP cannot be restored by curative actions of teammates, nor will it restore automatically when out of combat. Machina actions will expend EP, a resource that can only be restored by using the Ceruleum Refill action. Be advised that use of this action will deplete your party's ceruleum stores.
+【機工兵器の特殊性能】
+機工兵器に搭乗中は、プレイヤーのHPは各機体に設定されたHPに置き換わります。
+搭乗中は、味方からの回復効果を受けられず、
+非戦闘中の自動回復も発生しないため、減少したHPを回復することができません。
+なお、機工兵器は「EP」という専用のリソースを消費してアクションを発動します。
+「EP」は、HPと同様に自動回復はしませんが、
+すべての機体が共通で使用できる「青燐水充填」というアクションで回復できます。
+「青燐水充填」の使用には、パーティ単位で蓄積される「青燐水」を消費します。
 
-■Ceruleum
-Ceruleum is required to operate machina. A maximum of 100 units of ceruleum can be stored by each party. You can build up your ceruleum stores by collecting tanks in the field, controlling the power generator, or defeating enemy team members and mammets. As ceruleum is a party resource, it is recommended that you confer with your comrades prior to activating a machina.","ui/icon/086000/086030.tex","■Hangar Terminals
-Once your team has sufficient ceruleum, you can choose a machina to deploy at the hangar terminal, located near the starting area. You may also view information relating to the various types of machina.","ui/icon/086000/086031.tex","",,"",,0,0,0,0,0
-6.3,,"Mammets",,"Mammets are clockwork soldiers programmed to seek out and destroy towers and cores. They emerge from their own core at regular intervals before striking out on a set route, and will remain in battle for a set duration. Upon detecting an enemy mammet, they will engage and attack until either side is destroyed. Mammets that arrive at an enemy tower or core will perform a powerful self-sacrificing attack. That is the extent of their programming; mammets will not harm adventurers.","ui/icon/086000/086032.tex","■Wind-up Viking
-These mammets specialize in fighting at close quarters.","ui/icon/086000/086033.tex","■Wind-up Magus
-These mammets specialize in magic-based attacks.","ui/icon/086000/086034.tex","■Fighting Alongside Mammets
-Mammets are governed by the Clockwork status which counts down to zero, after which they are removed from battle.
-Although it is possible to use healing actions on mammets, the amount of HP restored is reduced.
+■青燐水
+機工兵器を起動するためには、一定量の「青燐水」が必要になります。
+青燐水は各パーティごとに、最大で「100」まで溜めることができます。
+フィールド各所に配置された「青燐水タンク」を拾ったり、
+敵の「オートマトン」を破壊することで、青燐水を獲得できます。
+青燐水はパーティ単位で共有されるため、
+機工兵器に搭乗する際は、パーティメンバーとよく話し合ってから行いましょう。","ui/icon/086000/086030.tex","■ハンガーターミナル
+機工兵器の起動に必要な青燐水が溜まったら、
+自チームの拠点付近にある「ハンガーターミナル」から搭乗することができます。
+それ以外にも、各機体の情報を確認することができます。","ui/icon/086000/086031.tex","",,"",,0,0,0,0,0
+6.3,,"オートマトン",,"敵チームの「コア」や「タワー」を破壊するために、自動で行動する小型兵器です。
+オートマトンは、コアから定期的に出現し、決められたルートを移動します。
+移動中に敵チームのオートマトンを感知すると、対象を破壊するまで攻撃します。
+オートマトンが、敵チームのコアやタワーまで到達すると、
+自身の消滅と引き換えに大ダメージを与えます。
+なお、オートマトンがプレイヤーに対して攻撃を行うことはありません。","ui/icon/086000/086032.tex","■オートマトン・バイキング
+近接攻撃を行う、ファイタータイプの「オートマトン」です。","ui/icon/086000/086033.tex","■オートマトン・マグス
+魔法攻撃を行う、キャスタータイプの「オートマトン」です。","ui/icon/086000/086034.tex","【オートマトンの特殊性能】
+オートマトンには「カラクリ仕掛け」というステータスが付与されており、
+このステータスのカウントが「0」になると、自動的に消滅します。
+また、オートマトンは味方からの回復効果を受けることができますが、
+その効果は軽減されます。
 
-■Gaining Ceruleum from Mammets
-Parties gain units of ceruleum upon defeating an enemy mammet. These units will be distributed to all parties that engage with the mammet based on the amount of damage inflicted. Ceruleum cannot be gained from damage inflicted by other mammets.",,"",,"",,"",,"",,0,0,0,0,0
-6.4,,"Steam Cannons",,"Two steam cannons have been erected near each team's core. While they cannot be moved, they are powerful weapons which may prove useful in deterring enemy forces.","ui/icon/086000/086035.tex","",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-6.5,,"Soaring",,"When you defeat an enemy team member, your party receives the Soaring enhancing effect. This effect can stack up to twenty times, increasing all party members' damage dealt and HP restored via healing actions, while also reducing damage taken. At twenty stacks, Soaring will be replaced with the Flying High effect, which confers even greater benefits.","ui/icon/086000/086036.tex","■Soaring Stacks
-The number of Soaring stacks an enemy has when defeated affects how many stacks your party gains.
-Defeat an enemy with 0 to 9 stacks: gain 1 stack
-Defeat an enemy with 10 to 19 stacks: gain 2 stacks
-Defeat an enemy with 20 stacks (Flying High): gain 3 stacks
-",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+【オートマトンから得られる青燐水】
+オートマトンを破壊することで「青燐水」を得られますが、
+この値は、破壊時にパーティごとに与えたダメージの割合に応じて分配されます。
+なお、オートマトン同士で与えたダメージの分は得られません。",,"",,"",,"",,"",,0,0,0,0,0
+6.4,,"スチームカノン",,"それぞれのチームの「コア」付近に設置された、乗り込み型の固定砲台です。
+プレイヤーが乗り込むことで、強力な砲撃を行えます。
+スチームカノンに乗り込むと移動ができなくなりますが、
+敵チームに攻め込まれたときの撃退用兵器として役立ちます。","ui/icon/086000/086035.tex","",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+6.5,,"テンション",,"敵チームのプレイヤーを倒すことで、
+自身が所属するパーティに対して付与される強化ステータスです。
+テンションは、最大で「20スタック」まで増加し、
+スタック数に応じて与えるダメージ量と自身からの回復効果が上昇します。
+さらに最大スタック数の「20」に達すると、
+ステータスが「テンションマックス」に変化し、より強力な効果が付与されます。","ui/icon/086000/086036.tex","【テンションの増加量】
+テンションの増加量は、
+倒した対象の、テンションの「スタック数」に応じて変動します。
+「0～9」スタックの対象を倒した場合は「1」、
+「10～19」スタックの対象を倒した場合は「2」、
+「テンションマックス」の対象を倒した場合は「３」、増加します。",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
 7.0,,"",,"",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
 7.1,,"",,"",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-8.0,,"Map Overview",,"Developed by Amajina & Sons Mineral Concern at great cost, the mine at Hidden Gorge proved to be a flash in the pan, its veins running dry within a matter of years. For a time afterwards, the site in Thanalan lay abandoned, but now it has been revived as a training ground for adventurers. On tracks of steel the goblin-made ceruleum engines arrive, laden with supplies that combatants should seize if they hope to claim victory.","ui/icon/086000/086039.tex","",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-8.1,,"Ceruleum Engines",,"Ceruleum engines move across the map on rails at high speed, stopping at the loading stations in the center of the map. By taking control of the loading stations, teams can claim the supplies delivered by the ceruleum engines.
+8.0,,"マップ解説",,"ザナラーンの外れにある「隠塞（ヒドゥンゴージ）」と呼ばれる渓谷……。
+かつて、アマジナ鉱山社が大金を投じて開発したものの、
+不運にも数年で鉱脈が尽き、見捨てられたこの場所が、演習場に改装されました。
+在りし日には、鉱石を運んだ鉱山鉄道のレールには、
+ゴブリン族が開発した「青燐機関車」が「支援物資」を満載して到着します。
+その「ステーション」を占拠できれば、戦局を優位にすることができるでしょう。","ui/icon/086000/086039.tex","",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+8.1,,"青燐機関車",,"フィールドを横断するように敷かれた「レール」の上を走行する列車です。
+青燐機関車は、高速で走行した状態で出現し、
+フィールド中央部にある「ステーション」に停車します。
+プレイヤーはステーションを「占拠」し、「制圧」することで、
+青燐機関車が積んでいる「支援物資」を獲得することができます。
 
-■Ceruleum Engines in Motion
-If you come into contact with a ceruleum engine while it is moving, you will incur potentially lethal damage.
-A warning will sound to indicate the approach of a ceruleum engine.","ui/icon/086000/086040.tex","■Loading Stations
-Ceruleum engines deliver supplies to loading stations. Players cannot enter a loading station while riding machina. Each team may occupy or control a loading station.
+【走行中の青燐機関車】
+走行中の青燐機関車に接触すると、戦闘不能になるほどの大ダメージを受けます。
+「レール」脇に設置された「警報機」が鳴り始めると、
+青燐機関車が通過する合図となります。","ui/icon/086000/086040.tex","■ステーション
+青燐機関車が停車する建造物です。
+ステーション上にはプレイヤーのみが侵入でき、
+「機工兵器」は戦闘に関与することができません。
+ステーションには、「占拠」と「制圧」という2つの状態があります。
 
-■Occupying a Loading Station
-When a ceruleum engine arrives at a station, standing in the area next to the engine will cause a gauge to fill. Once it is full, your team will occupy that station. The gauge fills more quickly when you have a higher number of team members near the engine than the opponent. The greater the difference in players, the quicker the gauge fills. However, only the first four players from each team are counted. Those standing near the engine will also gain the Sheer Will status, which greatly increases damage dealt. Making use of this status will help to reduce the number of enemies and occupy the station more quickly.
+【占拠】
+青燐機関車がステーションに停車すると、
+ステーション上の「占拠エリア」が起動します。
+「占拠エリア」内にプレイヤーがとどまることで、「占拠値」が増加し、
+この値が最大になると、そのチームの「占拠状態」に移行します。
+増加する「占拠値」の量は、
+「占拠エリア」内にとどまる両チームの人数差に応じて変動します。
+占拠に有効な人数は、最大で「4人」までとなっており、
+これを超える人数はカウントされず、「占拠値」の増加量も変わりません。
+また、「占拠エリア」内にいるプレイヤーには、ステータス「不退転」が付与され、
+与えるダメージが大幅に上昇します。
+このステータスを上手く利用して相手チームをノックアウトし、
+「占拠エリア」内の有効人数を減らすことで、効率的に占拠できます。
 
-■Controlling a Loading Station
-Once a loading station has been occupied, a new gauge will appear indicating your control over the station. When filled, the station will be under your team's control, allowing you to claim its supplies. This gauge will only fill when your team has a number of members equal to or higher than the opponent in that area.
-When the supplies have been claimed, the ceruleum engine will leave the station and the gauges will be reset.","ui/icon/086000/086041.tex","■Supplies
-There are four types of supplies. For the first half of the match, the ceruleum engine will deliver main ceruleum tanks, gobbiejuice, and gobtank keys at random. In the second half of the match, they will only deliver gobcrates.
-Each type grants its own benefits and increases the Soaring stacks of the whole team.
+【制圧】
+ステーションが、いずれかのチームによって占拠されると、
+占拠したチームの「制圧値」が増加していきます。
+「制圧値」の増加は、占拠していないチームとの有効人数が同数以上の際に行われ、
+同数未満になると停止します。
+「制圧値」が最大に達すると制圧完了となり、
+青燐機関車の「支援物資」を獲得できます。
+ステーションの制圧が終わると、青燐機関車はフィールド外へ走り去っていきます。
+青燐機関車は一定時間後に再出現しますが、
+その際は、「占拠状態」や「制圧値」の蓄積量はすべて初期化されます。","ui/icon/086000/086041.tex","■支援物資
+支援物資は全部で4種類あり、
+試合の経過時間に応じて、青燐機関車から運ばれてくる内容が変化します。
+試合の前半から中盤にかけては「大容量青燐水タンク」、「ゴブ式興奮剤」、
+「ゴブリタンク認証鍵」の3種類からランダムで選択され、
+試合が後半になると「ゴブ式特盛セット」のみが選ばれるようになります。
+いずれも、支援物資の種類に応じた効果と、
+チーム全体の「テンション」を増加させる効果を持ちます。
 
-Main Ceruleum Tanks
-Each party on the team gains 50 ceruleum.
+【大容量青燐水タンク】
+獲得したチームの全パーティの「青燐水」が50増加します。
 
-Gobbiejuice
-Fills the adrenaline gauge of every team member.
+【ゴブ式興奮剤】
+獲得したチームの全プレイヤーの「アドレナリンゲージ」が最大になります。
 
-Gobtanks
-Two gobtanks will appear at the core and will travel down the north and south routes to the enemy base. They are considerably more powerful than regular mammets and can deal severe damage to towers and the core.
+【ゴブリタンク認証鍵】
+獲得したチームの「コア」付近から、南北のレーンにそれぞれ1体ずつ、
+通常のオートマトンよりも強力な「ゴブリタンク」が出撃します。
+「ゴブリタンク」は、タワーやコア破壊の大きな手助けとなります。
 
-Gobcrates
-Grant all of the effects of main ceruleum tanks, gobbiejuice, and gobtanks.","ui/icon/086000/086042.tex","",,"",,"",,"",,"",,0,0,0,0,0
-8.2,,"Goblin Mercenaries ",,"After a certain amount of time has passed, goblin mercenaries will randomly appear from the north and south mercenary bases. Initially, they will not side with either team, and will attack any player that approaches. However, it is possible to have them ally with your team.","ui/icon/086000/086043.tex","■Allied Mercenaries
-If the damage your team deals to a goblin mercenary surpasses that of the opposing team by a certain amount, it will join your side. If the mercenary's HP reaches zero before this condition has been fulfilled, it will form an alliance with whichever team dealt the most damage to it.
+【ゴブ式特盛セット】
+「大容量青燐水タンク」、「ゴブ式興奮剤」、「ゴブリタンク認証鍵」の、
+すべての効果が得られます。","ui/icon/086000/086042.tex","",,"",,"",,"",,"",,0,0,0,0,0
+8.2,,"マーシナリー",,"「ゴブリン・マーシナリー」は、試合開始から一定時間後、
+南北にある「ノース・マーシナリーベース」、「サウス・マーシナリーベース」の、
+どちらかからランダムで出現します。
+いずれのチームにも属さない「中立キャラクター」として、
+近くにいるプレイヤーに対して、さまざまな攻撃をしかけてきますが、
+うまく「傭兵契約」することができれば、チームの戦力として力を貸してくれます。","ui/icon/086000/086043.tex","【マーシナリーの傭兵契約】
+傭兵契約の条件は、ゴブリン・マーシナリーに対して与えたダメージが、
+「相手チームが与えたダメージよりも一定量を上回ること」です。
+条件を達成するまえに、ゴブリン・マーシナリーのHPが「0」になった場合は、
+その時点で与えたダメージが上回っているチームが傭兵契約を交わします。
 
-■Mercenary Deployment
-Once you have formed an alliance with a mercenary, it will appear at your team's core and will attempt to destroy the enemy's towers and core, much like a mammet would. Forming an alliance with a mercenary that appeared from the north mercenary base will cause it to travel along the northern route, with the same being true of the south mercenary base and southern route.
-Mercenaries are also governed by the Contractual Obligation status, and they will leave the field of battle once the status counts down to zero. After a certain amount of time passes, they will reappear from their respective base and will no longer be allied with either team.","ui/icon/086000/086044.tex","",,"",,"",,"",,"",,"",,0,0,0,0,0
-9.0,,"Understanding the UI",,"1. Shows the 13 tiles in your hand. When you draw a tile, it is shown as the 14th tile, to the right of your hand. When your turn comes, select a tile to discard it.",,"2. When you are in a position to call riichi, tsumo, ron, pon, chi, or kan, a prompt will appear. In the case of pon, chi, and kan, this prompt can be hidden.
-To hide these prompts, set Display Calls to Off. However, this option defaults to On at the start of a new hand.
+【マーシナリーの出撃】
+傭兵契約後は、契約に成功したチームの「コア」から出撃し、
+オートマトンと同じように、相手チームのタワーやコアを目指して進軍します。
+「ノース・マーシナリーベース」で契約した場合は北側のレーンに、
+「サウス・マーシナリーベース」で契約した場合は南側のレーンに出撃します。
+また、チームに属したゴブリン・マーシナリーには、
+ステータス「契約期間」が付与されています。
+このステータスのカウントが「0」になると契約切れとなり、
+何処かへと去っていってしまいます。
+去っていったゴブリン・マーシナリーは、
+一定時間後に、ふたたび「中立キャラクター」として出現します。","ui/icon/086000/086044.tex","",,"",,"",,"",,"",,"",,0,0,0,0,0
+9.0,,"画面の説明",,"①プレイヤーが操作する13枚の手牌が配置されます。
+　プレイヤーの手番の時に14枚目の牌が配られてきますので、
+　いらない牌を決定して捨てます。",,"②リーチができるようになった時や、あがりの形となった時の「ツモ」「ロン」、
+　もしくは「ポン」「チー」「カン」ができる時には選択肢が表示されます。
 
-If you turn on “Auto-declare winning hand,” you will automatically declare a winning hand as soon as tsumo or ron become available. This option defaults to Off at the start of a new hand.
-",,"3. The star icon indicates which player is the dealer. It is also displayed in the center of the table.
-The compass direction shown below each player's name is their current seat wind. Players can form a yaku by collecting three wind tiles that match their seat wind. The role of dealer rotates counterclockwise, from east, to south, to west, to north.
+　「ポン」「チー」「カン」は必ず選ばなければならないものではありません。
+　不要な場合には、ステータス欄の「鳴き設定」をOFFにすることで、
+　選択肢を出ないように設定できます。
+　この設定は新しい局になるたびに、ONに再設定されます。
 
-",,"4. A game of Doman mahjong is played over eight hands. The first four are the “East” round and the last four are the “South” round. Collecting three wind tiles that match the current round forms a yaku.
+　「自動あがり設定」をONにすると、「ツモ」「ロン」ができる時に
+　自動であがります。
+　この設定は新しい局になるたびに、OFFに再設定されます。
+",,"③このマークの表示されているプレイヤーが、親であることを示します。
+　ドマ式麻雀の盤面中央にも類似のマークが表示され、
+　そのプレイヤーが親であることを示します。
 
-",,"5. These sticks indicate any points carried over in the event of a draw. If a player declares riichi, the 1,000 points they pay are also shown here. When a player wins a hand, these points are added to their score. A stick with several black dots is worth 100 points and a stick with a single red dot is worth 1,000 points.
-Every time a hand is replayed, a special bonus known as “honba” increases by one, also indicated here. When a player produces a winning hand, they will receive an additional 300 points for each honba.
+　また、表示されている「方角」は、その方角を示す牌を3つ揃えることで、
+　役がつくことを表します。親であるプレイヤーから反時計回りに、
+　東・南・西・北と順番に「方角」は割り当てられています。
 
-",,"6. Indicates the dora for the current hand. If a player includes a tile identical to the dora in a winning hand, they will receive bonus han, which increases points earned.",,"7. Buttons for toggling the various settings. For more information, see Support Features in the Playing Mahjong section.
+",,"④1ゲームは8局で進行しますので、今どの局であるかが表示されます。
+　前半の「東」の場では、「東」の牌を3つ揃えることで誰でも役がつきます。
+　後半の「南」の場では、「南」の牌を3つ揃えることで誰でも役がつきます。",,"⑤前の局で誰もあがらなかった場合、リーチで支払った1000点はここにストック
+　され、この局であがったプレイヤーがすべての点数を受け取れます。
+
+　また、この局が何回続いているかも、ここに表示されます。
+　この局であがったプレイヤーには局の数ｘ300点のボーナスが加算されます。",,"⑥ここには、ドラ牌が表示されます。
+　表示された牌と「同じ牌」を手牌にもった状態であがると、
+　ボーナス翻が追加されて点数がより高くなります。
+
+",,"⑦ヒント機能や、危険牌マーカー、牌説明表示の切り替えができます。
+　くわしい内容は「ドマ式麻雀の遊び方」の項目をご参照ください。
 
 ",,"",,0,0,0,0,0
-10.0,,"1. Residential Districts",,"In residential districts, adventurers may purchase plots of land, estates, and apartments.
-The properties available to you are not affected by your choice of Grand Company.
+10.0,,"1.　冒険者居住区とは？",,"冒険者の活動拠点として、
+「土地」「ハウス」「アパルトメントの部屋」を購入することができます。
 
-■Residential Districts by City-state
-　・Limsa Lominsa: Mist
-　・Gridania: The Lavender Beds
-　・Ul'dah: The Goblet
-　・Kugane: Shirogane
+土地を獲得し、ハウスを建てることができるのは、
+「冒険者居住区」と呼ばれる地域になります。
 
-",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-10.1,,"2. Plots of Land",,"A plot of land is required to build an estate. In addition, the size of the estate must match the size of the plot on which it is built.
-■Estate Size and Maximum Number of Furnishings
-　・Small: 200 indoor, 20 outdoor
-　・Medium: 300 indoor, 30 outdoor
-　・Large: 400 indoor, 40 outdoor
+獲得可能な土地やアパルトメントの部屋は、
+グランドカンパニーの所属国に左右されません。
 
-",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-10.2,,"3. Purchasing and Relinquishing Land",,"■Purchasing Land
-To purchase an unowned plot, select the placard located at its entrance and select “Purchase Land.”
-The listed price will be automatically reduced every six hours until it reaches a predetermined minimum.
-The requirements for purchasing land vary depending on whether you are a private buyer, or a representative of your free company.
-
-Purchasing as a Private Buyer
-　1. You must have at least one class at level 50.
-　2. You must hold a rank of second lieutenant or above in one of the Grand Companies.
-
-Purchasing as a Free Company Representative
-　1. You must have at least one class at level 50.
-　2. You must be authorized to acquire land.
-
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>To purchase land in Shirogane, you must first complete the main scenario quest “Not without Incident, ” whether you are a private buyer or free company representative.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-
-
-■Relinquishing Land
-If you no longer wish to own a particular plot of land, select “Relinquish Land” from the Housing menu. Please note that the purchasing price will not be refunded.
-Before land can be relinquished, the following conditions must be fulfilled:
-　1. All furnishings must be removed from the property.
-　2. All furnishings must be removed from storage.
-　3. The estate must be removed from the plot of land.
+■冒険者居住区
+　・リムサ・ロミンサの冒険者居住区＝ミスト・ヴィレッジ
+　・グリダニアの冒険者居住区＝ラベンダーベッド
+　・ウルダハの冒険者居住区＝ゴブレットビュート
+　・クガネの冒険者居住区＝シロガネ
 
 ",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-10.3,,"4. Auto-demolition",,"Plots of land which have been left abandoned for an extended period of time will be cleared to make way for new owners.
+10.1,,"2.　土地について",,"ハウスを建てるには、冒険者居住区内にある「土地」を購入する必要があり、
+「Sサイズの土地にはSサイズのハウス」のように、
+土地とハウスのサイズが合致している必要があります。
 
-■The Auto-demolition Process
-　1. Estate halls which have not been entered by their owner for thirty days (Earth time) will be designated abandoned and scheduled for auto-demolition.
-
-　2. Once the estate hall has not been entered for a total of forty-five days (Earth time), it will be demolished, and the plot will be put up for sale.
-While any member of a free company may enter a company estate hall to prevent auto-demolition, only the owner can prevent the auto-demolition of a private estate.
-
-■Reclaiming Funds and Furnishings Following Auto-demolition
-In the event your estate is demolished and your plot is sold, you will be able to claim indemnification for 80% of the plot's value. Furthermore, furnishings which can be safely removed will be stored for safekeeping by the resident caretaker. However, you must speak with the resident caretaker within thirty-five days (Earth time) of auto-demolition to reclaim funds and furnishings.
-In the case of free company estates, this can only be performed by members with authority to purchase and relinquish land.
+■ハウスのサイズと、そこに配置可能な調度品や庭具の数
+　・Ｓサイズのハウス＝調度品200個　庭具20個。
+　・Ｍサイズのハウス＝調度品300個　庭具30個。
+　・Ｌサイズのハウス＝調度品400個　庭具40個。
 
 ",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-10.4,,"5. Building an Estate Hall",,"A construction permit is required to build an estate hall.
+10.2,,"3.　土地の購入と放棄",,"【土地の購入】
+各土地の前に設置してある「サインボード」を調べると、
+その土地の価格を確認することができます。
 
-While there are several types of construction permit available, the estate size must match the size of the plot on which it will be built.
+土地はギルで購入することができ、販売開始時の金額を最高金額として、
+6時間に1回ずつ、決められた最低金額まで値下げが行われます。
 
-From the Social menu, select “Housing,” then “Estate Hall,” followed by “Build Estate Hall” to use the construction permit.
-",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-10.5,,"6. Furnishings",,"Furnishings come in two varieties: indoor and outdoor.
+土地を購入するには、「個人」で購入する場合と、
+「フリーカンパニー」で購入する場合で、必要な条件が異なります。
 
-To place indoor furnishings, open the Housing menu while inside your estate hall, and select “Indoor Furnishings.”
+■個人で購入する場合の必要条件
+　1.　いずれかのクラスが、レベル50に達している。
+　2.　所属しているグランドカンパニーの階級が、
+　　　 黒渦団の場合は「少甲士」、双蛇党の場合は「少牙士」、
+　　　 不滅隊の場合は「少闘士」以上である必要があります。
 
-Similarly, to place outdoor furnishings, open the Housing menu while on your property but outside your estate hall, and select “Outdoor Furnishings.”
+■フリーカンパニーで購入する場合の必要条件
+　1.　いずれかのクラスが、レベル50に達している。
+　2.　「土地保有権」を獲得している。
 
-Placing a furnishing will bind it to you, preventing future trade or sale to other players.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>個人・フリーカンパニーいずれの場合も、
+「シロガネ」の土地を購入するには、
+メインクエスト「大洋を征く」をコンプリートしている必要があります。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
-Moreover, certain furnishings cannot be retrieved once placed, and will be permanently discarded upon removal.
 
-",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-10.6,,"7. Fixtures",,"You can change various elements of your estate, by opening the Housing menu while inside your estate hall, and selecting “Remodel Interior” or “Remodel Exterior.” The following fixtures can be customized:
+【土地の放棄】
+「ハウジング」メニューから「土地の放棄」を選択すると、
+土地を破棄することができます。
+なお、土地の購入費用は返還されません。
 
-■Interior Fixtures
-　・Interior walls
-　・Flooring
-　・Ceiling lights
-
-■Exterior Fixtures
-　・Rooves
-　・Exterior walls
-　・Windows
-　・Doors
-　・Placards
-　・Fences
-　・Roof Decorations
-　・Exterior Wall Decorations
-
-Placed fixtures will be returned to your inventory when they are replaced by another fixture.
-Placing a fixture will bind it to you, preventing future trade or sale to other players.
+■土地の放棄をするための条件
+　1.　すべての調度品、庭具が撤去されている。
+　2.　ハウスの倉庫からすべての調度品、庭具が撤去されている。
+　3.　ハウス自体が撤去されている。
 
 ",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-10.7,,"8. Company Workshops",,"Owners of a free company estate can purchase a company workshop.","ui/icon/086000/086047.tex","In a company workshop, you may craft company projects and build airships and submersibles to embark on exploratory voyages.
+10.3,,"4.　土地の自動撤去",,"冒険者居住区の保全のため、
+長期間、ハウスのご利用がみとめられなかった場合、土地が自動的に撤去されます。
 
-Once gil has been paid for the construction of the company workshop, it can be accessed via the door inside the estate hall.
+■自動撤去までの流れ
+　1.　「オーナーキャラクター」がハウス内に居ない状態が、
+　　　 （地球時間）30日間続いた場合、「自動撤去準備」の状態になります。
+　2.　「オーナーキャラクター」がハウス内に居ない状態が、
+　　　 （地球時間）45日間続くと、自動撤去が実行されます。
 
+自動撤去前に、「オーナーキャラクター」の誰かがハウスに立ち入ることで、
+「自動撤去準備」を解除することができます。
 
-■Demolishing a Company Workshop
-If a company workshop is no longer needed, it can be demolished. Please note that doing so will delete all records of the activities performed there, including progress made on exploratory voyages. In addition, the gil spent on purchasing the facility will not be refunded.
-Before a company workshop can be demolished, any airships and submersibles currently in service must be dismantled. 
-",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-10.8,,"9. Private Chambers ",,"Private chambers may be added to free company estates, and can be accessed from inside the property.
-
-To add a private chamber, you must fulfill the following conditions
-　1. You must have at least one class at level 50.
-　2. You must hold a rank of second lieutenant or above in one of the Grand Companies.
-
-
-■Demolishing Private Chambers
-If you no longer require a private chamber, it can be demolished, providing that all furnishings have been removed from the chamber and its storage.
+※「オーナーキャラクター」とは、
+　 「フリーカンパニーのハウス」では、「フリーカンパニーメンバー全員」を指し、
+　 「個人のハウス」では、「ハウスのオーナー」を指します。
 
 
-■Auto-demolition of Private Chambers
-If you are dismissed from your free company, your private chambers will be demolished, and furnishings placed in your private chambers will be given into the care of the resident caretaker. Furnishings will be held by the resident caretaker for 35 days (Earth time), after which they will be permanently discarded. Only the former owner of the private chamber can claim these furnishings, not other members of the free company to whom the estate belongs.
+【自動撤去後の資産】
+土地の自動撤去が実行されると、
+自動撤去実行後、（地球時間）35日間のみ、
+「居住区担当官」から一部の資産を回収することが可能です。
 
-",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-10.9,,"10. Apartments",,"Apartments are available for purchase in each of the residential districts. The buildings are named as follows:
+■回収可能な資産
+　・購入時の土地代のギルの8割
+　・一部の外装・内装・調度品・庭具
 
-　・Mist: The Topmast
-　・The Lavender Beds: Lily Hills
-　・The Goblet: The Sultana's Breath
-　・Shirogane: Kobai Goten
-
-
-■Purchasing an Apartment
-You must fulfill the following conditions to purchase an apartment:
-　1. You must have at least one class at level 50.
-　2. You must hold a rank of second lieutenant or above in one of the Grand Companies.
-Upon purchasing an apartment, you will gain access to the building's chocobo stable. Furthermore, you will gain the option to teleport directly to the entrance of your apartment building.
-
-
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>To purchase an apartment in Kobai Goten, you must first complete the main scenario quest “Not without Incident.”<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-
-
-■Vacating an Apartment
-In order to vacate your apartment, you must first remove all furnishings, including those in storage.",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-10.10,,"11. Estate Sharing",,"If you are the owner of a private estate, you may choose to share it with up to three friends, regardless of plot size. You may then grant these friends─or tenants─access to certain estate features, such as gardening, stable tending, and estate customization.
-
-To welcome friends as tenants, open the Housing menu, select “Private Estate,” then select “Shared Estate Settings,” followed by “New Tenant.”
-Furthermore, you may evict tenants at any time by selecting their name, followed by “Evict”.
-",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-10.11,,"12. Relocation",,"It is possible to relocate your estate hall to a new plot. Private estates may be relocated by their owners at will, while free company estates require those with authority to purchase and relinquish land.
-
-When making the purchase, 30% of the minimum value of the old plot will be applied towards the price of the new.
-
-Upon relocation, placed furnishings will be put in the storeroom at the destination plot, save for the chocobo stables and the miniature aetheryte, which will be placed in the garden. In the event that there are too many furnishings to fit in the storeroom, the estate cannot be relocated until they have been removed.
-
-Private chambers and company workshops will be moved in their entirety and retain their state.
-
-Interior fixtures, meanwhile, will remain intact, unless the relocation results in an estate hall with fewer floors. In this case, the fixtures will be lost alongside the floor.
-
-Estate halls which have not been entered by their owner for thirty days (Earth time) cannot be relocated. Furthermore, initiating a relocation has the same effect as the owner entering his or her estate hall, and resets the period until auto-demolition.
+■回収可能なキャラクター
+　・フリーカンパニーのハウス＝「土地の購入・放棄」の権限を持ったキャラクター
+　・個人のハウス＝「個人のハウス」のオーナー
 
 ",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-10.12,,"13. Storerooms",,"All types of housing come with a storeroom for keeping one's furnishings. The larger the residence, the bigger the storeroom. The maximum number of furnishings that can be stored is as follows:
+10.4,,"5.　ハウスを建てたい",,"ハウスを建てるには「建築物権利証書」が必要です。
 
-　・Private chamber: 100 indoor
-　・Apartment: 100 indoor
-　・Small: 200 indoor, 20 outdoor
-　・Medium: 300 indoor, 30 outdoor
-　・Large: 400 indoor, 40 outdoor
+この権利証書には、いくつかの種類があります。
+入手した権利証書のサイズ、居住区の地域と、
+実際の土地のサイズ、居住区の地域が異なると、
+ハウスを建てることができません。
 
-Chocobo stables and miniature aetherytes cannot be placed in the storeroom.
-
-Certain items, meanwhile, are stored in stasis. For instance, plants will cease to grow and wheel stands will cease to charge.
-
-An estate hall cannot be removed while items are in storage. In the event that your estate hall is demolished, you may reclaim stored items by speaking with the resident caretaker within 35 days of repossession.
+「建築物権利証書」を所持品に入れた状態で、
+所有する土地にて「ハウジング」メニューから「ハウスの建築」を選ぶと、
+ハウスを建てることができます。
 
 ",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-10.13,,"14. Navigating Residential Districts",,"The icons below are used to display various locations in residential districts.
+10.5,,"6.　調度品や庭具について",,"家具には、室内に配置できる「調度品」と、
+庭に配置できる「庭具」があります。
 
-■Land available for purchase","ui/icon/086000/086048.tex","■Land that has been purchased and is awaiting construction of an estate hall","ui/icon/086000/086049.tex","■Free company estate
-Blue: Access permitted
-Yellow: Access denied
-Star: Owned by your free company","ui/icon/086000/086050.tex","■Private estate
-Blue: Access permitted
-Yellow: Access denied
-Star: Owned by your character","ui/icon/086000/086051.tex","■Estate that you are sharing
-Blue: Access permitted
-Yellow: Access denied
-","ui/icon/086000/086052.tex","",,"",,"",,0,0,0,0,0
-10.14,,"15. Lighting",,"The brightness of lighting in free company estates, private estates, and private chambers can be adjusted. Use the “Adjust Lighting” option in the Housing menu to choose from one of five levels of brightness.
-",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-10.15,,"16. Estate Tags",,"Estate tags tell potential visitors what they can expect to find on your property. From the Housing menu, select “Estate Tag Settings” to set up to three tags.
+調度品を所持品に入れた状態で、所有するハウス内にて、
+「ハウジング」メニューから「調度品の配置」を選ぶと、
+調度品を配置することができます。
 
-Tags will be displayed when selecting a residential ward, on estate profiles, and when viewing a list of private chambers.
-",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-11.0,,"Crafting Facilities",,"Crafting facilities can be placed on your property and offer temporary boosts while crafting.
+庭具を所持品に入れた状態で、所有する土地にて
+「ハウジング」メニューから「庭具の配置」を選ぶと、
+庭具を配置することができます。
 
-■Number Permitted
-The number of crafting facilities allowed varies according to the estate type.
-　・Private chamber: 2
-　・Apartment: 2
-　・Small estate hall (cottage): 4
-　・Medium estate hall (house): 6
-　・Large estate hall (mansion): 8
+調度品、庭具アイテムは、ハウスに設置した段階で中古品となり、
+トレード、マーケット出品不可の属性がつきます。
 
-■Types of Crafting Facility
-There are eight varieties in total, one for each Disciple of the Hand class.
-　・Carpenter: Woodworking bench
-　・Blacksmith: Smithing bench
-　・Armorer: Armorcraft forge
-　・Goldsmith: Goldsmithing bench
-　・Leatherworker: Leatherworking bench
-　・Weaver: Clothcraft loom
-　・Alchemist: Alchemy furnace
-　・Culinarian: Cooking stove
+また、調度品、庭具アイテムの中には、
+一度設置すると、撤去の際に消滅してしまうものがあります。
 
 ",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-11.1,,"Gardens",,"Gardens allow you to grow and harvest crops on your land.
+10.6,,"7.　内装や外装について",,"所有するハウス内にて「ハウジング」メニューから
+「内装の変更」「外装の変更」を選ぶと、
+それぞれの部分を変更することができます。
 
-■Number Permitted
-The number of garden patches allowed varies according to the estate type.
-　・Small estate hall (cottage): 1
-　・Medium estate hall (house): 2
-　・Large estate hall (mansion): 3
+■内装の種類
+　・内壁
+　・床
+　・天井照明
 
-■Number of Ridges
-There are three sizes of garden patch, each with a different number of ridges on which to grow crops.
-　・Round garden patch: 4
-　・Oblong garden patch: 6
-　・Deluxe garden patch: 8","ui/icon/086000/086053.tex","Growing and Harvesting Crops
-■Planting Seeds
-Seeds require soil to grow, which comes in various types and affects the quality and number of crops. The speed at which they grow depends on the seeds used.
+■外装の種類
+　・屋根
+　・外壁
+　・窓
+　・扉
+　・看板
+　・塀
+　・屋根装飾
+　・外壁装飾
 
-■Fertilizing Crops
-Fertilizer can be used to enrich the soil and accelerate growth.
+一度取り付けた内装建材・外装建材は、
+別の内装建材・外装建材を上書きすることで、所持品に戻すことができます。
 
-■Removing Crops
-If crops are not harvested, they will eventually die. If this occurs, or if you no longer need a certain crop, you have the option to remove it.
+ハウスに取り付けた段階で中古品となり、
+トレード、マーケット出品不可の属性がつきます。
 
-■Harvesting Crops
-Once crops are fully grown, you can harvest them.
+",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+10.7,,"8.　地下工房について",,"【地下工房の増築】
+フリーカンパニーのハウスには、「地下工房」を増築することができます。","ui/icon/086000/086047.tex","地下工房では、「カンパニークラフト」を行うことができます。
+また、「飛空艇」や「潜水艦」を建造し、未踏破地域を探索することも可能です。
 
-■Intercrossing
-When different crops are grown in adjacent ridges, you may occasionally receive new types of seeds when harvesting.
+「地下工房」を増築するには、増築費用となるギルが必要となります。
+地下工房へは、ハウス内の扉に触れ、「別室へ移動する」から移動できます。
+
+
+【地下工房の撤去】
+増築した「地下工房」が不要になった場合は、撤去することもできます。
+ただし、撤去した場合、「地下工房」で行われた活動記録はすべて消去されます。
+
+■撤去に関する補足
+　・「飛空艇」「潜水艦」をすべて「解体」しておく必要があります。
+　・撤去を実行しても、増築費用は返還されません。
+　・「地下工房」で行ったコンテンツの進行データはすべてリセットされます。
 
 ",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-11.2,,"Flowerpots",,"Flowerpots are indoor furnishings that allow you to grow crops in a similar fashion to gardens. There are also certain types of flower that can only be grown in pots, and these plants may even be used as materials when crafting equipment.
+10.8,,"9.　個室について",,"【個室の増築】
+フリーカンパニーのハウスには、メンバー用の個室を増築することができます。
+個室へは、ハウス内の扉に触れ、「別室へ移動する」から移動できます。
 
-■Number Permitted
-The number of flowerpots allowed varies according to the estate type.
-　・Private chamber: 2
-　・Apartment: 2
-　・Small estate hall (cottage): 2
-　・Medium estate hall (house): 3
-　・Large estate hall (mansion): 4
-
-Growing and Harvesting with Flowerpots
-■Planting Seeds
-Seeds require soil to grow, which comes in various types and affects the quality and number of crops. The speed at which they grow depends on the seeds used.
-
-■Fertilizing Plants
-Fertilizer can be used to enrich the soil and accelerate growth.
-
-■Removing Plants
-If plants are not harvested, they will eventually die. If this occurs, or if you no longer need a certain plant, you have the option to remove it.
-
-■Harvesting Plants
-Once plants are fully grown, you can harvest them.
-
-Growing Flowers
-The use of <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>pomace<UIGlow>01</UIGlow><UIForeground>01</UIForeground> when tending to potted plants can affect their color when they bloom. Fully grown plants can then be plucked and placed in a flower vase to decorate your estate, or used as materials when crafting items.
-
-　・Red pomace: Red blooms
-　・Blue pomace: Blue blooms
-　・Mountain pomace: Yellow blooms","ui/icon/086000/086054.tex","",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-11.3,,"Orchestrions",,"Orchestrions can be used to change the music in your estate or inn room, but only if you have first obtained song rolls. Free company estates, private estates, private chambers, and apartments may only have one orchestrion.
-
-■The Orchestrion List
-After obtaining a roll, use it to add the track to your orchestrion list.
-
-■Playlist
-Up to eight songs can be registered to a playlist. Playback options for the playlist can be accessed via subcommands or the buttons found at the bottom of the playlist interface.","ui/icon/086000/086055.tex","　1. Play All: Plays each track in order.
-　2. Shuffle: Plays each track in the playlist in a random order. The same track will not be chosen twice until every track has been played.
-　3. Repeat: Only the currently selected track will be played.
+■個室を増築する場合の必要条件
+　1.　いずれかのクラスが、レベル50に達している。
+　2.　所属しているグランドカンパニーの階級が、
+　　　 黒渦団の場合は「少甲士」、双蛇党の場合は「少牙士」、
+　　　 不滅隊の場合は「少闘士」以上である必要があります。
 
 
-Tracks not listed in the playlist can also be set as estate background music by using the Select Track option at the bottom of the interface.
-",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-11.4,,"Aetherial Wheels",,"Aetherial wheels can be used to acquire company actions without the use of company credits. The aetherial wheel stands required to do so can be obtained from housing merchants in any residential district.
+【個室の撤去】
+増築した「個室」が不要になった場合は、撤去することもできます。
 
-To charge an aetherial wheel, simply place it in a stand, and it will gradually accumulate aether over a period of time.
+■個室を撤去するための条件
+　1.　すべての調度品が撤去されている。
+　2.　個室の倉庫からすべての調度品が撤去されている。
 
-Once primed, you may remove the aetherial wheel and use the stand to convert it into a company action, or you may choose to store it until a later date.
+
+【個室の自動撤去】
+「個室」を増築したあとに、所属フリーカンパニーから除名された場合、
+そのメンバーの個室は自動的に撤去されます。
+
+個室の自動撤去が実行されると、
+自動撤去実行後、（地球時間）35日間のみ、
+「居住区担当官」から一部の資産を回収することが可能です。
+
+■回収可能な資産
+　・一部の調度品
+
+■回収可能なキャラクター
+　・「個室」のオーナー
 
 ",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-11.5,,"Aquariums",,"Aquariums are indoor furnishings that are used to display fish. They must be filled with either freshwater or saltwater and only fish suited to the chosen water type can be placed inside. In addition, the tank can also be decorated with a range of trimmings.
-※A fish will be destroyed if it is placed in an aquarium and then removed.
+10.9,,"10.　アパルトメントについて",,"アパルトメントは、各冒険者居住区内に用意された、
+「個人用の居住施設」です。
 
-■Number Permitted
-The number of aquariums allowed varies according to the estate type.
-　・Private chamber: 4
-　・Apartment: 4
-　・Small estate hall (cottage): 6
-　・Medium estate hall (house): 8
-　・Large estate hall (mansion): 10
-","ui/icon/086000/086056.tex","■Fish Sizes
-Fish have been categorized into four sizes─small (one unit), medium (two units), large (four units), and extra large (seven units). It is worth noting that larger fish will occupy more space in an aquarium, leaving less room for other fish.
+■各冒険者居住区内のアパルトメント
+　・ミスト・ヴィレッジのアパルトメント＝トップマスト
+　・ラベンダーベッドのアパルトメント＝リリーヒルズ
+　・ゴブレットビュートのアパルトメント＝ナナモ大風車
+　・シロガネのアパルトメント＝紅梅御殿
 
-■Number of Fish per Aquarium
-Aquariums are available in four sizes, the smallest holding only a single small fish, and the largest holding up to four. Because larger fish take up more room in the aquarium, one must choose carefully which fish they will put on display.
-　・Tier 1: One unit, maximum of one fish
-　・Tier 2: Two units, maximum of two fish
-　・Tier 3: Four units, maximum of three fish
-　・Tier 4: Seven units, maximum of four fish
 
-",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-11.6,,"Chocobo Stables",,"Your chocobo, as well as those of your free company members, can be trained once per hour while stabled to earn experience points.
-","ui/icon/086000/086057.tex","■Chocobo Level Cap
-For chocobos that have already attained the maximum rank, rewarding them with a Thavnairian onion following training will increase this upper limit by one.
-※Chocobo companions cannot exceed rank 20.
+【アパルトメントの部屋を購入】
+アパルトメントの部屋を購入することで、
+部屋を持っているアパルトメントに対して、テレポで移動することができます。
+また、入口前にある「チョコボ厩舎」を利用することもできます。
 
-■Stable Cleanliness
-As you and your free company members continue to use the chocobo stable, it will begin to accumulate dirt and grime. Stable cleanliness is reflected by one of three conditions─good, fair, or poor─which can be confirmed by accessing the stable. Keep your stable clean to ensure that chocobo training is effective, yielding the most experience.
+■アパルトメントの部屋を購入する場合の必要条件
+　1.　いずれかのクラスが、レベル50に達している。
+　2.　所属しているグランドカンパニーの階級が、
+　　　 黒渦団の場合は「少甲士」、双蛇党の場合は「少牙士」、
+　　　 不滅隊の場合は「少闘士」以上である必要があります。
 
-",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-11.7,,"Message Books",,"A message book can be placed in a free company estate, private estate, or an apartment. In the case of estates, there are two versions of the message book─one for indoor and one for outdoor use. Please note you may only set one of each at any given time.
-","ui/icon/086000/086058.tex","While the message book is primarily for visitors to leave messages, the estate owner can also set a greeting message for visitors.
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>アパルトメント「紅梅御殿」の部屋を購入するには、
+メインクエスト「大洋を征く」をコンプリートしている必要があります。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
-■Message Privacy Settings
-Entries left in the message book are set to public by default, allowing anyone to view them. However, they can be set to private at the owner's discretion.
 
-■Writing in the Message Book
-Players may leave one message in an estate's book per day per character.
-※Permission to leave messages will reset every day at <ResetTime>01</ResetTime><If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>1</Case><Case(14)>2</Case><Case(15)>3</Case><Case(16)>4</Case><Case(17)>5</Case><Case(18)>6</Case><Case(19)>7</Case><Case(20)>8</Case><Case(21)>9</Case><Case(22)>10</Case><Case(23)>11</Case></Switch><Else/>12</If> <If(GreaterThanOrEqualTo(TopLevelParameter(218),12))>p.m.<Else/>a.m.</If> (Earth time).
+【アパルトメントの部屋を撤去】
+「部屋」が不要になった場合は、撤去することもできます。
 
-■Deleting a Message
-Messages can also be deleted by the player who penned them, as well as by the estate owner and those with authorization.
+■部屋を撤去するための条件
+　1.　すべての調度品が撤去されている。
+　2.　部屋の倉庫からすべての調度品が撤去されている。
 
-■Liking a Message Book
-Before leaving an estate, visitors can show their love of the house and its décor by leaving a “like” in the message book.
-Characters are granted ten likes to distribute upon first viewing a message book, and accumulate an additional five likes per day at <ResetTime>01</ResetTime><If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>1</Case><Case(14)>2</Case><Case(15)>3</Case><Case(16)>4</Case><Case(17)>5</Case><Case(18)>6</Case><Case(19)>7</Case><Case(20)>8</Case><Case(21)>9</Case><Case(22)>10</Case><Case(23)>11</Case></Switch><Else/>12</If> <If(GreaterThanOrEqualTo(TopLevelParameter(218),12))>p.m.<Else/>a.m.</If> (Earth time) up to a maximum of fifty.
-※You cannot “like” your own estate.
-
-",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-11.8,,"Mannequins",,"Mannequins are interior furnishings that you can equip with clothing items. You may select their class or job, as well as gender. Various poses are also available. The mannequin can be used either to display an outfit for sale, or simply as decoration.
-","ui/icon/086000/086059.tex","■Retainer Serving as Merchant
-You must also select a retainer to serve as merchant before you can place the mannequin. One retainer may serve as merchant for multiple mannequins. Gil earned from the sale of items equipped to the mannequin will be entrusted to the corresponding retainer.
-
-■Number Permitted
-The number of mannequins allowed varies according to the estate type.
-　・Private chamber: 4
-　・Apartment: 4
-　・Small estate hall (cottage): 6
-　・Medium estate hall (house): 8
-　・Large estate hall (mansion): 10
-
-■Selling Items Equipped to Mannequins
-Access the mannequin and choose “Select gear to sell” to open the Mannequin Shop Settings window. Only sellable items in your inventory, Armoury Chest, or retainer inventory may be selected.
-
-Any items equipped on a mannequin that are listed for sale still occupy slots in the retainer's list. For that reason, a mannequin cannot be equipped with items that would cause the retainer to exceed the 20 item limit.
-
-■Selling as a Set
-By checking “Sell Only as Set,” you can sell all items equipped to the mannequin together. While the items may be viewed on the market board, a player must access the mannequin directly if they wish to purchase the set.
-
-When viewing items listed on the market board as part of a set, it is possible to send a tell to the seller to ascertain the location of their estate. 
-※Please be aware that it is possible to view the name of a character selling a set through the market board.
-
-■Displaying Gear
-You may also display items on a mannequin without listing the gear for sale. It is also possible to select unsellable items for display.
-※The mannequin cannot be used to display glamoured items.
-
-However, gear that is displayed also occupies slots in the retainer's list of items for sale on the market, despite not being available for purchase.
-
-",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-12.0,"","Unidentified Expedition Log 1",,"Survey of local terrain continues. Ecosystem in this area appears to have adapted to extended drought─dry climate conditions must have been present for some time. Investigation of a murky spring did reveal aquatic life, though of an unusual sort.",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,1000
-12.1,"","Unidentified Expedition Log 2",,"Survey of local terrain continues. Current location is particularly verdant, likely owing to the plethora of freshwater springs. Peculiar that two so markedly distinct biomes should exist in such proximity.",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,1001
-12.2,"","Unidentified Expedition Log 3",,"Survey of local terrain still continues, though with no discoveries of particular note. Or perhaps I've grown tired of searching. Still, it's better to be stuck in the middle of nowhere than on the front lines.",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,1002
-12.3,"","Memory of a Damaged Machine",,"Oh brother, where art thou? It's dark. I'm alone. All alone and lonely. I want friends. Don't stop me. I'll kill you. I need friends...",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,1003
-12.4,"","Machine Research Report 1",,"The machines' primary objective seems to be nothing more than “kill enemy.” What's troubling, though, is that their auto-evolution systems have begun to build a private network.",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,1004
-12.5,"","Machine Research Report 2",,"The machines' network has evolved to the point where paradoxes no longer present an obstacle, allowing for diversity among individuals. They may continue to incorporate whatever data is within reach─someday, the world in its entirety.",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,1005
-12.6,"","Weapon Fragment Data 1",,"The blade is in motion, once-gleaming white drenched red. A blow to halt the twin gears life and death, its impetus long forgotten.",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,1006
-12.7,"","Weapon Fragment Data 2",,"Our world never doubted. Only closed its eyes, the better to turn unburdened.",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,1007
-12.8,"","Weapon Fragment Data 3",,"In that world we once knew, sharp and shattered, a single spark of memory grows to a flame. It shines upon the lost, and at last we understand.",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,1008
-12.9,"","Weapon Fragment Data 4",,"Rue not what has come to be, nor lay down your arms while life still rises amidst ruin. The blade demands this vow, this virtue.",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,1009
-12.10,"","Tattered Flyer",,"Thanks for [...] by! [...]'s is a thriving chain of [... ...]cluding swords that match the regional features and squads of [...]",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,1010
-13.0,,"Overview",,"New Game+ is a system that makes it possible to relive adventures past with your current character data.
-
-Commence New Game+ mode, and a specialized HUD will appear indicating the next quest that may be undertaken. From here, simply accept the quest as you normally would to proceed.",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-13.1,,"Chapters",,"In New Game+ mode, the story is divided into various chapters.
-
-As you progress through the game and complete certain quests, new chapters will automatically be unlocked.
-
-To view a list of chapters currently available through New Game+, open the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>New Game+<UIGlow>01</UIGlow><UIForeground>01</UIForeground> menu located under <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Duty<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-13.2,,"New Game+ Guide",,"The New Game+ Guide will help you along your journey through New Game+ mode by displaying the chapter you currently have in progress, the next available quest, and other important details.",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-14.0,,"Commencing a Chapter",,"First, ensure that you are in town or outdoors and currently in a state where you are able to move about freely. From here, you may open the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>New Game+<UIGlow>01</UIGlow><UIForeground>01</UIForeground> interface located under <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Duty<UIGlow>01</UIGlow><UIForeground>01</UIForeground> to display a list of chapters currently replayable in New Game+ mode.
-
-To begin, select the chapter you wish to replay from the list. If you wish to resume a chapter already in progress, select the corresponding suspended data.
-
-Note that to enter New Game+ mode, you must have an opening to accept a new quest. You may review your current quest acceptance status at any time from the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Journal<UIGlow>01</UIGlow><UIForeground>01</UIForeground> located under <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Duty<UIGlow>01</UIGlow><UIForeground>01</UIForeground>.",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-14.1,,"Rules and Restrictions",,"The following rules and restrictions apply to New Game+ mode.
-
-■ Commencing/Suspending New Game+ Mode
-You may not commence or suspend a New Game+ chapter if you are currently:
-・Engaged in battle.
-・Bound by duty.
-・Watching a cutscene or scenario event.
-・Mounted.
-・Undertaking a leve.
-・In the midst of an escort mission.
-
-■ Quest Progression
-・You may only undertake a single New Game+ quest at once. If multiple quests are displayed, you must complete them one by one.
-・With occasional exceptions, you may only replay quests you have previously completed.
-・While in New Game+ mode, only objectives for New Game+ quests will be displayed. Objectives for all quests accepted prior to entering New Game+ mode will be hidden.
-・In the event that a quest has undergone adjustments, you will only be able to replay the adjusted version of the quest.
-・You will be allowed to select the difficulty of quest battles from your first time undertaking the quest.
-・If you have enabled “Skip playback of previously viewed scenario cutscenes” under General in the Character Configuration menu, some cutscenes may not be displayed.
-・Items submitted to complete quest objectives will not be removed from your inventory.
-
-■ Quest Completion
-・You will not receive rewards for completing quests in New Game+ mode.
-・Unlock announcements for features, actions, and so on already unlocked will display as normal, but there will be no effect on your game or character data.
-
-■ Other Notes and Warnings
-・You will be unable to progress in any quests undertaken prior to entering New Game+ mode until you exit New Game+.
-・While in New Game+ mode, events in the world around you will change to reflect your current chapter, but this will not actually revert your overall progress to the time of completion.
 ",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-14.2,,"Saving Your Progress",,"Your quest progression status in New Game+ mode will be saved automatically. Other data will be saved to your character data as usual.
+10.10,,"11.　ハウスシェアリング",,"「ハウスシェアリング」とは「個人のハウス」の機能で、
+自身のフレンドに、ハウスの機能を共有（シェア）することができます。
+ハウスの機能を共有するフレンドのことを、「ハウスメイト」と呼びます。
 
-Only one quest slot is available for New Game+. Please be advised that commencing a new chapter will result in the deletion of any data currently in progress.",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-14.3,,"Suspending New Game+",,"You may choose to suspend your progress and return to the main game at any time by selecting the appropriate option in the New Game+ interface.
+ハウスのオーナーは「ハウスメイト」を「3人」まで設定でき、
+「ハウスメイト」は「2人」のオーナーと、ハウス機能を共有できます。
 
-Please be advised that certain options and game features are unavailable while in New Game+ mode. To access these features, please suspend your New Game+ progress. For more details, refer to the list below.
+メインコマンド「ハウジング」からハウスの種類を選択し、
+「ハウスシェアリング設定」から「ハウスメイト」の登録、
+「ハウスメイト」の権限設定を行うことができます。
 
-New Game+ mode will be automatically suspended in the following cases:
-・You exit or log out of the game.
-・You commence a duty that you had registered for prior to entering New Game+.
-・You commence certain dungeons, trials, and so forth.",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-14.4,,"Exiting New Game+",,"You will automatically exit New Game+ mode upon completion of the final quest in a given chapter.
+また、ハウスのオーナー、「ハウスメイト」は、
+自身で「ハウスシェアリング」を解除することもできます。
 
-Upon exiting New Game+ mode, all in-progress data will be wiped clean.",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-15.0,,"Registering for and Commencing Duties",,"While in New Game+ mode, you may register for and commence previously completed duties as you like via the Duty and Raid Finders.
+",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+10.11,,"12.　引越について",,"【引越について】
+「引越」とは、ハウスごと別の土地へ移転する機能です。
+元のハウスの資産は、引越先に移動します。
 
-However, please be advised of the following two conditions:
+■引越実行可能なキャラクター
+　・フリーカンパニーのハウス＝「土地の購入・放棄」の権限を持ったキャラクター
+　・個人のハウス＝「個人のハウス」のオーナー
 
-1. Commencing a duty you registered for prior to entering New Game+ will result in New Game+ mode being suspended automatically. Please resume New Game+ from your suspended data after completing the duty.
+■引越にかかる費用
+　・「引越先の土地代」から、「所有している土地代」の最低額の3割を引いた差額
 
-2. While in New Game+ mode, you may still register for duties you have yet to complete provided they are related to the quest currently in progress. Unrelated duties will be inaccessible.
+■引越先にそのまま引き継がれるもの
+　・個室・地下工房
+　・ハウスの内装
+※引越によって、階層が無くなる場合、
+　 その階層に設定されていた内装は消滅します。
+　 
+■引越先の倉庫に収納されるもの
+　・設置中の調度品、庭具
+※倉庫に収納しきれない場合は、引越は実行できません。
 
-To access unrelated duties, please suspend New Game+ and return to the standard game mode.",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-15.1,,"Unavailable Features",,"The features below are not available in New Game+. To use them, please suspend your progress and return to standard game mode.
+■引越先の倉庫に収納されないもの
+　・チョコボ厩舎とプライベート・エーテライトは、
+　  例外として引越先の庭に配置されます。
 
-■Certain features accessed through NPCs and objects:
-・Market boards
-・Hunt boards
-・Clan Hunt boards
-・Summoning bells
-・Inn room features
-・Weather forecasts
-・Unattuned aetherytes and Aethernet shards
-・Duties accessible from NPCs
-・All leves
-・Triple Triad
-・Gold Saucer games
-・Housing-related features
-・Grand Company features
-・Free Company features
-・The Hall of the Novice
-・Eternal Bonding ceremonies
-・Certain delivery moogles
-・Certain vendors
-・Certain menders
-・Interaction with certain objects
-・Conversation with certain NPCs
+【引越についての補足】
+「オーナーキャラクター」の誰かが、ハウス内にいない状態が、
+30日以上続いている場合、引越は実行できません。
 
-■Certain features accessed through item use:
-・Use of Tales of Adventure items",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-16.0,,"Overview",,"In Frontline battles, the Maelstrom, the Twin Adders, and the Immortal Flames face each other in training exercises devised to test the participants' strategic planning and combat prowess.","ui/icon/086000/086113.tex","",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-16.1,,"The Basics",,"Frontline is a PvP challenge which engages three teams of adventurers, each team representing one of the three Grand Companies. Players will be randomly assigned to one of these three teams, regardless of their Grand Company allegiance. Each team consists of up to 24 players in an alliance, allowing for a grand total of 72 players in a single battle.
-Success on the front line will depend heavily not only on individual skill, but on your ability to work as a team.","ui/icon/086000/086114.tex","■Rules
-A Frontline alliance consists of 24 members, divided into 3 full parties. There are 3 alliances, which combine for a total of 72 participants.
-A match lasts for 20 minutes.
+なお、引越を実行すると、
+ハウス内に「オーナーキャラクター」が入った時と同様に、
+自動撤去までの期日は、リセットされます。
 
-■Retaliation
-Incapacitated players will be returned to their Grand Company's landing, where they will be allowed to rejoin combat after a short delay. This will not incur a weakness penalty.
-Furthermore, players will be temporarily invulnerable when leaving their Grand Company's landing.
+",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+10.12,,"13.　倉庫について",,"すべてのハウス、個室、アパルトメントの部屋で、
+調度品・庭具を収納できる「倉庫」が利用できます。
 
-■Mounts
-Players are free to use mounts during Frontline campaigns. However, players taking damage while mounted will be afflicted with the Limp status effect.
+■収納可能な調度品や庭具の数
 
-■Return
-Using Return will teleport players back to their landing point. Moreover, this action has no recast time during Frontline campaigns. Please note, however, casting will be interrupted by attacks.
+　・個室＝調度品100個。
+　・アパルトメントの部屋＝調度品100個。
+　・Ｓサイズのハウス＝調度品200個　庭具20個。
+　・Ｍサイズのハウス＝調度品300個、庭具30個。
+　・Ｌサイズのハウス＝調度品400個、庭具40個。
+
+■収納できない庭具
+　・チョコボ厩舎
+　・プライベート・エーテライト
+
+【倉庫についての補足】
+倉庫に「畑」「植木鉢」を入れた場合、作物の成長は停止します。
+同様に倉庫内では「ホイールスタンド」の魔力充填も停止します。
+
+なお、ハウスが自動撤去された場合、
+撤去から35日以内であれば、居住区担当官から倉庫内のアイテムを回収できます。
+
+",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+10.13,,"14.　冒険者居住区のMAP",,"冒険者居住区の土地には以下のような状態があります。
+
+■土地が競売中の状態","ui/icon/086000/086048.tex","■土地が売れて、建物が建っていない状態","ui/icon/086000/086049.tex","■フリーカンパニーハウス（ハウスの出入り許可）/（ハウスの出入り不許可）
+　 自身の所属しているフリーカンパニーハウス（ハウスの出入り許可）/（ハウスの出入り不許可）","ui/icon/086000/086050.tex","■個人ハウス（ハウスの出入り許可）/（ハウスの出入り不許可）
+　 自身の個人ハウス（ハウスの出入り許可）/（ハウスの出入り不許可）","ui/icon/086000/086051.tex","■自身のシェアハウス（ハウスの出入り許可）/（ハウスの出入り不許可）","ui/icon/086000/086052.tex","",,"",,"",,0,0,0,0,0
+10.14,,"15.　調光機能",,"ハウス内の「照明」の明るさを調整しすることができます。
+
+ハウス内の「照明」の明るさは、
+フリーカンパニーのハウス、個人のハウス、個室のそれぞれで、
+5段階に調光することができます。
+
+調光する場合は、
+メインコマンド「ハウジング」内の「照明の調整」から、
+実行することができます。
+
+",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+10.15,,"16.　ハウスアピール",,"「ハウスアピール」とは、ハウスの活動をタグ付けし、アピールできる機能です。
+ハウスの活動として、3つまでタグを設定することができます。
+
+メインコマンド「ハウジング」からハウスの種類を選択し、
+「ハウスアピール設定」からタグ設定を行うことができます。
+
+設定したタグは「ハウジング行き先選択」メニューや
+個室及びアパルトメント等の「部屋の選択」メニュー、
+「ハウジングプロフィール」に表示され、ハウスの活動をアピールできます。
+
+",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+11.0,,"製作設備",,"「製作設備」とは、ハウスの室内に置ける調度品で、
+製作中の支援効果が得られます。
+製作施設にアクセスすることで、製作中の支援バフを受けられるようになります。
+
+■設置可能数
+製作設備はハウスのサイズによって、配置可能な数が異なります。
+　・個室＝２個。
+　・アパルトメントの部屋＝２個。
+　・Ｓサイズのハウス＝４個。
+　・Ｍサイズのハウス＝６個。
+　・Ｌサイズのハウス＝８個。
+
+■製作設備の種類
+全8種類で、１クラフターに１種類ずつ製作設備があります。
+　・木工＝ウッドワークベンチ
+　・鍛冶＝スミシングベンチ
+　・甲冑＝メタルワークフォージ
+　・彫金＝ゴールドワークベンチ
+　・革細工＝レザーワークベンチ
+　・裁縫＝クロースクラフトルーム
+　・錬金術＝アルケミーファーナス
+　・調理＝クッキングストーブ
+
+",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+11.1,,"畑",,"「畑」は栽培が行え、作物を育てて収穫ができる庭具です。
+栽培は購入した土地の庭に畑を設置することで利用できるようになります。
+
+■設置可能数
+「畑」は種類に関わらず、ハウスのサイズによって設置できる畑の数が異なります。
+　・Ｓサイズのハウス＝ 1個。
+　・Ｍサイズのハウス＝ 2個。
+　・Ｌサイズのハウス＝ 3個。
+
+■畑ごとの畝（うね）の数
+「畑」には3種類の大きさが存在し、作物を栽培するための畝の数が異なります。
+　・ラウンドガーデンパッチ＝4つ。
+　・スクエアガーデンパッチ＝6つ。
+　・デラックスガーデンパッチ＝8つ。","ui/icon/086000/086053.tex","【畑でできること】
+■種をまく
+「種」を植えるためには、「種」ごとに「土」を用意する必要があります。
+「土」の種類やグレードは、作物のHQ率／収穫数に影響します。
+作物は種類によって成長速度が異なり、収穫時期が異なります。
+
+■肥料をやる
+肥料を与えると、作物が早く育つようになります。
+
+■作物を処分する
+作物の手入れをせずにいると、作物は枯れてしまいます。
+作物の育成を中断し、処分することができます。
+
+■作物を収穫する
+作物が十分に育つと「収穫」を行えます。
+
+■交雑
+隣接する畝に植えられた作物との組み合わせにより、
+作物の収穫時に新たな種を得られる場合があります。
+
+",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+11.2,,"植木鉢",,"「植木鉢」は、室内に設置できる調度品で、畑と同様の作物を栽培できます。
+さらに「植木鉢」でのみ栽培できる花があり、装備品の素材として活用できます。
+
+■設置可能数
+植木鉢は種類に関わらず、ハウスのサイズによって設置数が異なります。
+　・個室＝2個。
+　・アパルトメント＝2個。
+　・Ｓサイズのハウス＝2個。
+　・Ｍサイズのハウス＝ 3個。
+　・Ｌサイズのハウス＝ 4個。
+
+【植木鉢でできること】
+■種をまく
+「種」を植えるためには、「種」ごとに「土」を用意する必要があります。
+「土」の種類やグレードは、花や作物のHQ率／収穫数に影響します。
+
+■肥料をやる
+肥料を与えると、作物が早く育つようになります。
+
+■作物を処分する
+作物の手入れをせずにいると、作物は枯れてしまいます。
+作物の育成を中断し、処分することができます。
+
+■作物を収穫する
+作物が十分に育つと「収穫」を行えます。
+
+【花の栽培】
+装備品の素材にできたり、調度品「花瓶」に飾れる花を栽培できます。
+専用の肥料を与えると、頻度や量に応じて、花の色が9種類に変化します。
+
+　・緋色の油粕＝赤色の影響を及ぼす。
+　・青碧の油粕＝青色の影響を及ぼす。
+　・山吹の油粕＝黄色の影響を及ぼす。","ui/icon/086000/086054.tex","",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+11.3,,"オーケストリオン",,"「オーケストリオン」は、ハウス内のBGMを変更できる調度品です。
+オーケストリオンは、
+フリーカンパニーハウス／個人ハウス／個室／アパルトメントに
+各1個設置することができます。
+
+■オーケストリオン譜面帳
+BGMを変更するには、楽譜アイテム「オーケストリオン譜」が必要です。
+「オーケストリオン譜」を使うと、「オーケストリオン譜面帳」に楽曲が登録され、
+一度登録した楽曲は、何度でも再生することができます。
+
+■プレイリスト
+アクセスすると、「オーケストリオンプレイリスト」が表示されます。
+「プレイリスト」には楽曲を最大8曲まで登録できます。
+「オーケストリオンプレイリスト」の下にあるボタン、または曲名のサブコマンドから
+再生モードを切り替えることができます。","ui/icon/086000/086055.tex","　1.　曲順再生＝登録されている楽曲を、選択した曲から順に再生。
+　2.　シャッフル再生＝登録されている楽曲を、ランダムに再生。
+　　　 プレイリストに登録されている曲が一巡するまで、同じ曲は選択されません。
+　3.　1曲再生＝登録されている楽曲のうち、選択した曲を1曲のみループ再生。
+
+
+プレイリストに追加せず、1曲のみ選択して再生したい場合、
+「オーケストリオンプレイリスト」下部の「曲を選択する」を押し、
+楽曲を選びます。
+",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+11.4,,"エーテリアルホイール",,"「エーテリアルホイール」は、
+カンパニーアクションを生み出すことができる装置です。
+
+「エーテリアルホイール」でアクションを使用するには、
+調度品「ホイールスタンド」を用いて、魔力を充填させる必要があります。
+
+配置した「ホイールスタンド」に
+「エーテリアルホイール」を設置後、一定時間が経過すると、
+魔力が充填され、「チャージドホイール」になります。
+
+「チャージドホイール」を変換すると、
+対応したカンパニーアクションが使用可能になります。
+
+",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+11.5,,"アクアリウム",,"アクアリウムは、魚を入れて鑑賞できる調度品です。
+水質に合った魚を入れることができ、水槽装飾で飾ることもできます。
+※アクアリウムに1度入れた魚を取り出した場合、その魚は消滅します。
+
+■設置可能数
+アクアリウムは種類に関わらず、ハウスのサイズによって設置数が異なります。
+　・個室＝4個。
+　・アパルトメント＝4個。
+　・Ｓサイズのハウス＝6個。
+　・Ｍサイズのハウス＝ 8個。
+　・Ｌサイズのハウス＝ 10個。","ui/icon/086000/086056.tex","■アクアリウムの容量に対して占める値（占有値）
+魚には、種類によって以下のようにサイズが設定されており、
+そのサイズごとにアクアリウムの容量に対して占める値（占有値）が異なります。
+　・Sサイズの魚 ＝占有値1
+　・Mサイズの魚  ＝占有値2
+　・Lサイズの魚  ＝占有値4
+　・XLサイズの魚  ＝占有値7
+
+■アクアリウムに入れられる魚の数
+アクアリウムに入れられる魚の数は、そのサイズごとに以下のように決まっています。
+アクアリウムの容量を超える占有値の魚を入れることはできません。
+　・アクアリウムG1（容量：1） ＝ 入れられる魚の数：1匹
+　・アクアリウムG2（容量：2） ＝ 入れられる魚の数：2匹
+　・アクアリウムG3（容量：4） ＝ 入れられる魚の数：3匹
+　・アクアリウムG4（容量：7） ＝ 入れられる魚の数：4匹
+
+",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+11.6,,"チョコボ厩舎",,"チョコボ厩舎は、マイチョコボを預けられる庭具です。
+厩舎に預けているマイチョコボや、フリーカンパニーメンバーのチョコボを訓練すると
+バディの経験値を得ることができます。
+
+■訓練
+（地球時間）1時間に1回行うことができます。","ui/icon/086000/086057.tex","■限界突破
+バディランクが上限に達しているチョコボに「サベネアの野菜」を与えることで、
+ バディランクの上限が1つ上がります。
+※バディランクの上限は20です。
+
+■厩舎の状態
+チョコボ厩舎は時間が経つとともに徐々に汚れていきます。
+状態は「きれい／ふつう／汚い」の3段階あります。
+チョコボ厩舎がきれいなほど、訓練の際に得られる経験値が多くなります。
+
+",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+11.7,,"交流帳",,"交流帳は、来訪者だけではなくオーナーもメッセ―ジを書き込めるので、
+双方向でのコミュニケーションが可能な家具です。
+調度品と庭具の2種類あり、設置できるのは室内と庭に各1個です。","ui/icon/086000/086058.tex","ハウスの「交流帳の管理」の権限を持っているキャラクターは、
+交流帳にオーナーメッセージを残せます。
+
+■公開設定の変更
+交流帳に記載されるメッセージの基本公開設定を非公開に変更できます。
+非公開にしたメッセージは、コメントごとに「公開」に変更でき、
+選択したもののみ訪問者も読めるようになります。
+
+■メッセージを記載する
+1つのハウスにつき1日1件までメッセージを残せます。
+※毎日（地球時間）<ResetTime>01</ResetTime><If(GreaterThanOrEqualTo(TopLevelParameter(218),12))>午後<Else/>午前</If><If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>0</Case><Case(13)>1</Case><Case(14)>2</Case><Case(15)>3</Case><Case(16)>4</Case><Case(17)>5</Case><Case(18)>6</Case><Case(19)>7</Case><Case(20)>8</Case><Case(21)>9</Case><Case(22)>10</Case><Case(23)>11</Case></Switch><Else/>0</If>時を超えるとリセットされます。
+
+■メッセージを削除する
+メッセージを書き込んだキャラクターか、
+ハウスの「交流帳の管理」の権限を持っているキャラクターは、
+メッセージを削除することができます。
+
+■「いいね」をする
+設置された交流帳ごとに「いいね」ボタンを押せます。
+「いいね」はキャラクターごとに毎日（地球時間）<ResetTime>01</ResetTime><If(GreaterThanOrEqualTo(TopLevelParameter(218),12))>午後<Else/>午前</If><If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>0</Case><Case(13)>1</Case><Case(14)>2</Case><Case(15)>3</Case><Case(16)>4</Case><Case(17)>5</Case><Case(18)>6</Case><Case(19)>7</Case><Case(20)>8</Case><Case(21)>9</Case><Case(22)>10</Case><Case(23)>11</Case></Switch><Else/>0</If>時に5回分付与され、
+最大50回分までためることができます。
+※自身のハウス／個室／アパルトメントには「いいね」ボタンを押せません。
+
+",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+11.8,,"マネキン",,"「マネキン」は、装備アイテムを装備させ、室内に飾ることができる調度品です。
+クラス・ジョブや性別を選択できるほか、お好みのポーズで飾ることができます。
+また、マーケットに出品可能な装備品を、マネキンから販売することができます。","ui/icon/086000/086059.tex","■管理するリテイナー
+マネキン設置時に管理するリテイナーを指定します。
+リテイナー1名で複数のマネキンを管理できます。
+また、売上は管理しているリテイナーの所持金に入ります。
+
+■設置可能数
+マネキンは種類に関わらず、ハウスのサイズによって設置数が異なります。
+　・個室＝4個。
+　・アパルトメント＝4個。
+　・Ｓサイズのハウス＝6個。
+　・Ｍサイズのハウス＝ 8個。
+　・Ｌサイズのハウス＝ 10個。
+
+■装備の販売について
+販売するアイテムは「所持品・アーマリーチェスト」か「リテイナー所持品」から
+マーケットボードで販売できる装備アイテムのみ選択できます。
+
+マネキンに装備させた装備アイテムは、管理するリテイナーの出品枠に含まれます。
+リテイナーの出品枠20枠を超えてマネキンに装備させることはできません。
+
+■セット販売
+セット販売アイテムは、マーケットボードで検索することは可能ですが、
+購入はマネキンからのみとなります。
+
+マーケットボードでセット販売アイテムを検索した場合は、
+ハウスの所在地を訪ねるなどのために、出品者にTellを送信することができます。
+※セット販売にて出品する際には、あらかじめご注意ください。
+
+■装備の展示について
+マネキンに装備させたアイテムを販売せずに展示できます。
+マーケットボードで販売できない装備アイテムも選択できます。
+※武具投影されている装備は展示できません。
+
+展示している場合でも、管理するリテイナーのマーケット出品枠を使用します。
+
+",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+12.0,"","誰かが残した調査記録1",,"周辺地域の調査を進めている。
+この地域は干ばつが進んでいるな……。
+生態系にも変化が生じている様子。
+黒い沼のような泉には、変わった魚が生息していた。",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,1000
+12.1,"","誰かが残した調査記録2",,"引き続き周辺地域の調査を進めている。
+この地域は緑が豊かで水源も豊富だ。
+先の地域とはそれほど離れていないにも関わらず、
+これほど大きな変化があるのはなぜだろう。",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,1001
+12.2,"","誰かが残した調査記録3",,"また周辺地域の調査を依頼された。
+そろそろ飽きてきたが、前線に放り込まれて、
+戦場に転がる死体になるよりはマシか。
+この地域には特記事項なし。",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,1002
+12.3,"","機械の残骸に残された記録",,"ココハ、クライ、ニイチャン、イナイ。
+ココハ、サミシイ、ココハ、ツメタイ。
+ナカマ、フヤス、ジャマモノ、コロス。",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,1003
+12.4,"","機械兵器の研究記録1",,"機械兵器たちの行動原理は「敵を倒す」という単純なものだった。
+しかし、敵を倒すために組み込まれた成長進化のシステムは、
+やがて独自のネットワークを形成し始めた。",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,1004
+12.5,"","機械兵器の研究記録2",,"機械兵器たちのネットワークは拡張を始め、
+自らシステムに矛盾を発生させることで、多様性すら獲得した。
+やつらは今も周囲の情報を吸収し続けているだろう。
+この世界の全てを飲み込むまで。",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,1005
+12.6,"","武器の破片に残された記録1",,"白く輝く刃は、幾度となく血に濡れてきた。
+繰り返す生と死の螺旋を、断ち切るために。
+戦うことの、理由すら忘れても。",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,1006
+12.7,"","武器の破片に残された記録2",,"疑うことなく生きてきた、これまでの世界。
+それは、目を瞑っていただけかもしれない。
+本当の現実から目を背けるため。",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,1007
+12.8,"","武器の破片に残された記録3",,"信じた世界は壊れて、痛みだけが残された。
+ひとかけらの記憶が、心に小さな光を灯す。
+全てを失って、やっと理解した。",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,1008
+12.9,"","武器の破片に残された記録4",,"生み出されたことを、もう恨むことはない。
+この世界を生きて、滅びるまで戦い続ける。
+この剣は、その誓いの証なのだ。",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,1009
+12.10,"","擦り切れたチラシ",,"本日は……いただき誠に……とうございます。
+私達の「……の店」は……するチェーン……、
+……部隊に合った刀剣を……させて頂きます。",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,1010
+13.0,,"つよくてニューゲームとは",,"「つよくてニューゲーム」とは、クエストで紡がれたストーリーを
+現在のキャラクターデータで再体験することができるシステムです。
+
+開始すると、専用HUDに受注できるクエスト情報が表示されます。
+通常のクエストと同様に、クエストを受注し、進行しましょう。
+
+",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+13.1,,"チャプターとは",,"一連のストーリーを分割したものを「チャプター」と呼びます。
+つよくてニューゲームでは、このチャプター単位で再体験することができます。
+
+ゲーム本編中、ストーリー上の特定のクエストをコンプリートすることで
+チャプターが自動的に開放され、追加されていきます。
+
+再体験できるチャプターは、
+メインコマンド「コンテンツ情報」の「つよくてニューゲーム」から
+確認することができます。
+
+",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+13.2,,"つよくてニューゲームガイドとは",,"つよくてニューゲームガイドとは、
+つよくてニューゲーム中に表示される専用HUDの名称です。
+
+このHUDには、今進めているチャプターと
+次に進めることができるクエストの情報が表示されます。
+
+",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+14.0,,"開始",,"タウンやフィールドなどを自由に移動できる状態であれば、
+メインコマンド「コンテンツ情報」の「つよくてニューゲーム」から、
+プレイすることができます。
+
+再体験するチャプターを選択し、つよくてニューゲームを開始しましょう。
+中断したチャプターを引き続きプレイする場合は、
+中断したデータを選択してください。
+
+ただし、つよくてニューゲームをプレイするには、
+クエストの受注枠に１つ以上の空きが必要になります。
+現在のクエスト受注状態は、
+メインコマンド「コンテンツ情報」の「ジャーナル」で確認できます。
+
+",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+14.1,,"特別なルール",,"つよくてニューゲームでは、以下のようなルールがあります。
+
+■つよくてニューゲームの開始/中断
+以下の状態では、つよくてニューゲームを開始/中断をすることができません。
+・戦闘中
+・コンテンツ中
+・カットシーン/イベント再生中
+・騎乗中
+・リーヴ受注/開始中
+・クエストの護衛中
+
+■クエストの進行
+・つよくてニューゲーム中に受注/進行できるクエストは１つのみです。
+　複数のクエストが出現している場合、１つずつコンプリートする必要があります。
+・体験できるクエストは、一部を除きコンプリート済みのクエストのみになります。
+・目的リストに表示されるクエストの情報は、
+　つよくてニューゲームで進行しているクエストのみになり、
+　つよくてニューゲーム開始以前に受注していたクエストの情報は
+　非表示になります。
+・クエストが調整された場合、体験できるのは調整後のクエストになります。
+・クエストバトルに挑戦する際、初回から難易度選択することができます。
+・メインコマンド「キャラクターコンフィグ」の「全般」タブにある
+　「一度見たコンテンツ内のカットシーンをスキップする」に
+　チェックを入れていると、カットシーンが再生されない場合があります。
+・納品して進行する際、アイテムは消費されません。
+
+■クエストのコンプリート
+・クエストコンプリート報酬はありません。
+・すでに開放済みの機能、アクション、コンテンツ等が開放表示されますが、
+　演出上のものでキャラクターデータに変化はありません。
+
+■その他
+・つよくてニューゲーム開始以前に受注していたクエストは、
+　つよくてニューゲーム中、一切進行しません。
+・つよくてニューゲーム中は、チャプターに合わせゲーム世界が変化しますが、
+　すべての状態が初回コンプリート時に戻るわけではありません。
+
+",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+14.2,,"進行の保存",,"ゲーム本編と同様に
+つよくてニューゲームでのクエスト進行状態は自動的に保存されます。
+なお、クエスト進行以外の情報は、
+通常通りキャラクターデータとして保存されます。
+
+つよくてニューゲームでのクエスト進行状態データは、一枠のみになります。
+新規でチャプターを開始すると、前のデータは消えてしまうので注意してください。
+
+",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+14.3,,"中断",,"任意のタイミングで、「つよくてニューゲーム」のウィンドウより
+中断することができます。
+
+つよくてニューゲーム中に使用できない機能があるため
+これらを使用する際は、中断をしてください。
+使用できない機能は「注意事項>使用できない機能」にまとめています。
+
+また、以下の場合、自動的に中断されます。 
+・ゲームの終了／ログアウト
+・「つよくてニューゲーム」開始以前に申請していたコンテンツへの突入
+・一部のコンテンツへの突入
+
+",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+14.4,,"終了",,"チャプターの最後のクエストをコンプリートすることで
+つよくてニューゲームは終了します。
+
+この際、つよくてニューゲームでのクエスト進行状態は消去されます。
+",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+15.0,,"コンテンツへの申請/突入",,"つよくてニューゲーム中、コンプリート済みのコンテンツへの参加は、
+コンテンツファインダー/レイドファインダーからいつでも申請/突入が
+可能です。
+
+ただし、以下の２点を注意してください。
+
+１：つよくてニューゲーム開始/再開以前に申請していたコンテンツに
+　　　つよくてニューゲーム中に突入した際、
+　　　自動的につよくてニューゲームが中断されます。
+
+　　　コンテンツ攻略後、中断データから再開してください。
+
+２：つよくてニューゲーム中、未コンプリートのコンテンツに申請をする際
+　　　進行中のクエストに関係するコンテンツへは申請可能ですが
+　　　関係のないコンテンツへは申請/参加することはできません。
+
+　　　関係のないコンテンツに申請/参加したい場合は、
+　　　つよくてニューゲームを中断してください。
+",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+15.1,,"使用できない機能",,"つよくてニューゲーム中は、以下のことができません。
+任意で中断してから実行してください。
+
+■NPC、オブジェクトから起動する一部の機能
+　・マーケットボード
+　・モブハントボード
+　・セントリオボード
+　・呼び鈴
+　・宿屋内の機能
+　・天気予報
+　・未交感のエーテライトと都市内転送装置
+　・NPCから参加するコンテンツ
+　・各種リーヴ
+　・トリプルトライアド
+　・ゴールドソーサー関連
+　・ハウジング関連機能
+　・グランドカンパニー関連
+　・フリーカンパニー関連
+　・初心者の館関連
+　・エターナルバンド
+　・一部のレターモーグリ
+　・一部のショップ
+　・一部の修理屋
+　・一部のオブジェクト
+　・一部のNPCとの会話
+
+■アイテム「冒険録」の使用
+
+",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+16.0,,"フロントラインとは",,"フロントラインとは、各国のグランドカンパニーが、
+しのぎを削る最前線です。
+冒険者たちは、黒渦団、双蛇党、不滅隊に分かれ、
+それぞれの勝利のために戦うことになります。","ui/icon/086000/086113.tex","",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+16.1,,"概要",,"フロントラインは、グランドカンパニーごとに分けられた、
+3つの部隊が同時に対戦する大規模PvPコンテンツです。
+大人数による三つ巴の戦いとなるため、
+勝利するためには個人の技量だけではなく、
+部隊全体の連携が重要となってきます。
+
+冒険者は、自身が所属するグランドカンパニーに関わらず、
+いずれかのグランドカンパニーの部隊に配属されます。","ui/icon/086000/086114.tex","■基本情報
+フロントラインの各部隊は、
+3つのフルパーティによるアライアンス24人で構成され、
+最大で72人が同時に参加することができます。
+1試合の制限時間は「20分」です。
+
+■再出撃
+他プレイヤーとの戦闘によって戦闘不能となってしまった場合でも、
+一定時間経過後に何度でもスタート地点から再出撃することができます。
+また、スタート地点内にいる間は、「無敵」ステータスが付与され続けます。
+このステータスは、スタート地点外に出たあとも一定時間継続します。
+
+■マウント
+フロントラインでは、通常のフィールドと同様に、
+所持しているマウントに騎乗でき、かつ戦闘中であっても騎乗が可能です。
+マウント騎乗中に攻撃を受けた場合、確実に「移動速度低下」状態になるため、
+騎乗する際には周囲を警戒する必要があるでしょう。
+
+■デジョン
+試合中にデジョンを実行すると、スタート地点に戻ることができます。
+フロントライン内でのデジョンは、戦闘中でも実行することができ、
+リキャストタイムもありません。
+ただし、デジョンの詠唱中に攻撃を受けた場合、確実に詠唱が中断されます。
 
 ■KDA
-Each time a player incapacitates an enemy player, they are awarded a knockout (K). When a player is incapacitated, they are classed as “down” (D). If a player deals damage to an enemy that is then incapacitated by a teammate, they are awarded an assist (A). The final K, D, and A for each player is displayed on the results screen at the end of the battle.
+フロントラインでは、他プレイヤーを戦闘不能にすることを「ノックアウト」、
+戦闘不能になることを「ダウン」、
+他プレイヤーのノックアウトに貢献することを「アシスト」と呼びます。
+バトル終了後の戦績表示では、
+これらの要素は「K」「D」「A」と短縮表記されます。
 
-■Rewards
-When a match has ended, players will receive PvP EXP, PvE EXP, Wolf Marks, and Allagan tomestones.
-By continually winning Frontline matches, players will receive achievements that reward special mounts and gear.",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-16.2,,"Battle High",,"Battle High is a status that increases damage dealt and HP restored by healing actions according to a player's knockouts and assists. The maximum Battle High value is 100, and for every increment of 20, the status increases in strength. Being incapacitated will reduce the Battle High value by half.","ui/icon/086000/086115.tex","",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-17.0,,"Map Overview",,"While many will remember the Calamity for the destruction it wrought upon the realm of Eorzea, that destruction was not without its blessings─one of those being the uncovering of ancient Allagan ruins hidden underneath the war-scarred Carteneau Flats and heretofore unseen for several Astral Eras. When an attempt by the Grand Companies of Eorzea to determine the control of these ruins, and more importantly the secrets they contain, through peaceful negotiations ended in failure, the city–states instead elected to solve the issue of dominion using a form of civilized warfare dubbed Frontline.","ui/icon/086000/086116.tex","",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-17.1,,"Victory Conditions",,"In the Borderland Ruins (Secure), victory goes to the first alliance to reach the specified tactical rating, which is accumulated by:
-　1. Defeating enemy players
-　2. Occupying key locations
-　3. Slaying monsters
+■報酬
+参加報酬として「経験値」や「PvP EXP」、「対人戦績」、
+「アラガントームストーン」を獲得できます。
+さらに、フロントラインで一定数勝利すると、
+アチーブメント報酬として称号や装備品、マウントを受け取ることができます。",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+16.2,,"戦意高揚",,"戦意高揚は、他の部隊に所属するプレイヤーを、
+ノックアウトしたり、アシストすることで増加していく「戦意値」が、
+一定値に達することで自身に付与されるバフ（強化ステータス）です。
+戦意値は、最大で「100」まで増加し、
+「20」増加するごとに、戦意高揚のレベルが上昇します。
+戦意高揚のレベルに応じて、他者への与ダメージとＨＰ回復量が上昇します。
+なお、蓄積した戦意値はダウンすると半減されます。","ui/icon/086000/086115.tex","",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+17.0,,"マップ解説",,"第七霊災の影響により、カルテノー平原に顕になった、
+古代アラグ文明の遺産を巡り、三都市の利権が交錯……。
+こうして、カルテノー平原では、この地で起きた対立は外に持ち出さぬという、
+特別な協定が結ばれ、法の外に置かれた係争地「アウトロー戦区」に指定。
+冒険者部隊による外縁遺跡群の争奪戦が開始されたのでした。","ui/icon/086000/086116.tex","",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+17.1,,"勝利条件",,"「外縁遺跡群（制圧戦）」では、部隊ごとに加算されていく「戦術値」が、
+最も早く規定値に到達した部隊の勝利となります。
+戦術値は、以下の3つの方法によって獲得できます。
 
-In the event that none of the three alliances reaches the specified tactical rating within the time limit, victory will be awarded to the alliance with the highest tactical rating.","ui/icon/086000/086117.tex","",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-17.2,,"Key Locations",,"Key locations such as outposts and Allagan ruins can be identified by flags, indicating the Grand Company that currently controls them. At the start of each match, all locations will be unoccupied. By remaining in close proximity to the flags at these locations, players can occupy them to improve their team's tactical rating. The location will become occupied more quickly when you have a higher number of team members near the flag than the opposing alliances. The greater the difference in players, the quicker it will be occupied. However, these areas may turn neutral should enemies come within proximity of a flag controlled by your team, or vice versa.","ui/icon/086000/086118.tex","",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-17.3,,"Defeating Drones",,"During the match, drones will appear from the Heliodrome. They are not allied with any of the three teams, and defeating them will increase the tactical rating. Dealing damage to them will also increase the tactical rating, with the amount awarded to each alliance according to the proportion of damage dealt.","ui/icon/086000/086119.tex","The small interceptor drones will reappear a certain amount of time after they are defeated. The larger interceptor nodes will only appear once during the match, but will give greater increases in tactical rating when defeated.","ui/icon/086000/086120.tex","",,"",,"",,"",,"",,"",,0,0,0,0,0
-18.0,,"Map Overview",,"Legend has it that Llymlaen sealed a giant serpent She Herself created within Swallowtail Roam, an island said to drift about the sea so that those with evil intentions might never find it. When Seal Rock was first discovered, many believed it to be the selfsame island─but its true nature remained unknown until the Calamity laid her secrets bare. Upon their return to the island following the fall of Dalamud, Allied forces discovered Allagan tomeliths containing a wealth of knowledge. They concluded that the entire island was in fact an Allagan construct─a proving ground for Omega and other technology they developed to combat the primal threat. As was the case in Carteneau, control of the island and its resources remain disputed, and peaceful negotiations have failed to achieve a resolution. And so, once more, they would settle the matter on the battlefield.","ui/icon/086000/086121.tex","",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-18.1,,"Victory Conditions",,"The first alliance to accumulate the required amount of data will be declared the winner, and the remaining alliances will be ranked according to their respective ratings. Data is accumulated by:
+　1.　敵部隊のプレイヤーの撃破
+　2.　拠点の占拠
+　3.　中立モンスターの討伐
 
-　1. Defeating enemy players
-　2. Occupying Allagan tomeliths
+制限時間内に決着が付かなかった場合は、
+獲得した戦術値の多い順に、1位から3位までの順位が決まります。","ui/icon/086000/086117.tex","",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+17.2,,"拠点",,"フィールド上には複数の「拠点」が存在し、
+拠点内の「フラッグ」の周囲に一定時間留まることで、
+拠点を「占拠」することができます。
+占拠にかかる時間は、フラッグの周囲にいる、
+味方部隊と敵部隊との人数差により変動します。
+拠点を占拠した際に一定量の戦術値を得られるほか、
+占拠している拠点の総数に応じて、継続的に戦術値を得ることができます。
+また、占拠中の拠点は、
+他勢力の部隊によって「中立化」させ、奪い返すことができます。
+敵部隊に拠点を占拠されても、諦めずに戦いましょう！","ui/icon/086000/086118.tex","",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+17.3,,"中立モンスター",,"試合時間が経過すると、
+フィールド中央部に位置する「ヘリオドロム防衛塔」に、
+いずれの勢力にも属していない「中立モンスター」が出現します。
+この中立モンスターを討伐すると、部隊ごとに与えたダメージの割合に応じて、
+戦術値が分配されます。","ui/icon/086000/086119.tex","小型の中立モンスター「邀撃ドローン」は、
+討伐されてから一定時間後に再出現しますが、
+大型の中立モンスター「邀撃システム」は、
+その試合中に一度しか出現しません。
+その分、討伐時に得られる戦術値も多いので、
+出現したら積極的に討伐に参加しましょう！","ui/icon/086000/086120.tex","",,"",,"",,"",,"",,"",,0,0,0,0,0
+18.0,,"マップ解説",,"リムサ・ロミンサの船乗りたちの間で伝わる、動く島「彷徨える燕尾岩」伝説。
+ある日、この伝説の島、シールロックが発見されたことで騒動が巻き起こります。
+調査の結果、島が古代アラグ文明による人工島であり、
+対蛮神技術の実験が行われていたことが判明したのです。
+こうしてアラグの「情報」を巡る、新たな戦いが始まったのでした。","ui/icon/086000/086121.tex","",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+18.1,,"勝利条件",,"「シールロック（争奪戦）」では、部隊ごとに加算されていく「情報値」が、
+最も早く規定値に到達した部隊の勝利となります。
+情報値は、以下の2つの方法によって獲得できます。
 
-In the event that none of the three alliances accumulates the required amount of data within the time limit, victory will be awarded to the alliance with the most data.","ui/icon/086000/086122.tex","",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-18.2,,"Occupying Allagan Tomeliths",,"Seal Rock island is home to ancient relics known as Allagan tomeliths, structures containing data coveted by the three Grand Companies. Players must locate and occupy tomeliths to activate them and extract their data.","ui/icon/086000/086123.tex","■Active and Inactive Allagan Tomeliths
-All Allagan tomeliths are inactive at the start of the campaign, and will activate randomly at set intervals. Each tomelith has a limited quantity of data that can be retrieved, and will become inactive once that limit is reached. As the campaign progresses, the maximum number of simultaneously active Allagan tomeliths will change.
+　1.　敵部隊のプレイヤーの撃破
+　2.　アラガントームリスの占拠
 
-■Occupying Allagan Tomeliths
-Active Allagan tomeliths will be either “Unoccupied” or “Occupied” depending on whether or not a Grand Company has occupied them. If a player occupies an unoccupied tomelith, its status will change from Unoccupied to Occupied. If the tomelith is already occupied by an opposing faction, accessing the tomelith will change its status to Unoccupied. Tomeliths are Unoccupied when they change from inactive to active. Attempts to occupy a tomelith will be interrupted if the player is attacked.
+制限時間内に決着が付かなかった場合は、
+獲得した情報値の多い順に、1位から3位までの順位が決まります。","ui/icon/086000/086122.tex","",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+18.2,,"アラガントームリス",,"フィールド上には、「アラガントームリス」と呼ばれる、
+「情報」を保有するオブジェクトが多数配置されており、
+このアラガントームリスを「占拠」することで、
+継続的に「情報値」が加算されます。","ui/icon/086000/086123.tex","■アラガントームリスの起動と停止
+アラガントームリスには、機能が無効化されている「停止状態」と、
+機能が有効化され、プレイヤーが占拠できる「起動状態」があります。
+試合開始時はすべてのアラガントームリスが停止していますが、
+しばらくすると、ランダムでいくつかの地点のアラガントームリスが起動します。
+起動したアラガントームリスから獲得できる情報には限度があり、
+すべての情報を取り終えると、停止状態へと戻りますが、
+また別の地点のアラガントームリスが起動します。
 
-■Allagan Tomelith Ranks
-Allagan tomeliths will activate at one of three ranks: B, A, or S. Although tomeliths have a lower chance to activate at higher ranks, they hold a larger quantity of data that can be retrieved while they are occupied. As the match progresses, tomeliths will have an increased chance to activate at higher ranks.
+■アラガントームリスの占拠
+起動状態のアラガントームリスには、
+いずれの部隊にも占拠されていない「中立状態」と、
+いずれかの部隊によって占拠されている「占拠状態」があります。
+プレイヤーが起動中のアラガントームリスにアクセスし、
+「占拠」を完了させることで、
+中立状態の場合は自部隊による占拠状態へと移行し、
+敵部隊によって占拠されている場合は、中立状態へと戻すことができます。
+占拠の実行中に、敵から攻撃を受けると占拠が中断されるため、
+周囲の敵を撃退し、安全を確保してから行うようにしましょう。
 
-■Changes According to Time Remaining
-As time passes, the maximum number of tomeliths that can be active simultaneously decreases. However, it becomes easier to activate higher ranked tomeliths.","ui/icon/086000/086124.tex","",,"",,"",,"",,"",,"",,0,0,0,0,0
-19.0,,"Map Overview",,"Under the influence of the lesser moon Dalamud, Nael van Darnus, legatus of the VIIth Legion, sought out and unearthed Allagan ruins in the eastern lowlands of Coerthas. Aided by the knowledge contained therein, he raised the very earth unto the heavens, and from this lofty perch did the White Raven nearly orchestrate the destruction of Eorzea.
+■アラガントームリスのランク
+アラガントームリスには、ランクB、ランクA、ランクSという3段階のランクがあり、
+起動時にいずれかのランクがランダムで選択されます。
+ランクが高くなるほど起動する確率が低くなりますが、
+占拠中に継続的に加算される情報値が増加します。
 
-The remnants of that mad plan still litter the frozen lowlands, as well as other ancient artifacts now laid bare. Though the powers that be are in agreement that Nael's data must be secured, they remain divided on the subject of how best to administer the region, which has prompted them to invoke the same laws which transformed Carteneau and Seal Rock into a battlefield. Where words fail, weapons speak.","ui/icon/086000/086125.tex","",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-19.1,,"Victory Conditions",,"Similarly to Seal Rock (Seize), the first alliance to accumulate the required amount of data will be declared the winner, and the remaining alliances will be ranked according to their respective ratings. Data is accumulated by:
+■試合時間による変化
+アラガントームリスは、試合時間の経過に応じて、
+同時に起動する上限数が減少する一方、ランクが高い状態で起動しやすくなります。","ui/icon/086000/086124.tex","",,"",,"",,"",,"",,"",,0,0,0,0,0
+19.0,,"マップ解説",,"クルザス東部低地、フィールド・オブ・グローリー。
+かつて、帝国軍第VII軍団長、ネール・ヴァン・ダーナスが、
+衛星「ダラガブ」の誘導に用いた古代遺跡「浮島」が発見されたこの土地から、
+さらなる古代アラグ文明の遺跡が発見されました。
+エオルゼア都市軍事同盟は、この地を新たな「アウトロー戦区」に指定。
+さらなる「情報」を求め、凍りついた遺跡を砕く、熱き戦いが開始されたのでした。","ui/icon/086000/086125.tex","",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+19.1,,"勝利条件",,"「フィールド・オブ・グローリー（砕氷戦）」では、シールロック同様に、
+部隊ごとに加算されていく「情報値」が、
+最も早く規定値に到達した部隊の勝利となります。
+情報値は、以下の3つの方法によって獲得できます。
 
-　1. Defeating enemy players
-　2. Occupying Allagan tomeliths
-　3. Destroying icebound tomeliths
+　1.　敵部隊のプレイヤーの撃破
+　2.　アラガントームリスの占拠
+　3.　アイスドトームリスの破壊
 
-In the event that none of the three alliances accumulates the required amount of data within the time limit, victory will be awarded to the alliance with the most data.","ui/icon/086000/086126.tex","",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-19.2,,"Occupying Allagan Tomeliths",,"Allagan tomeliths will be either “Unoccupied” or “Occupied” depending on whether or not a Grand Company has occupied them. If a player occupies an unoccupied tomelith, its status will change from Unoccupied to Occupied. If the tomelith is already occupied by an opposing faction, accessing the tomelith will change its status to Unoccupied. Tomeliths are Unoccupied when they change from inactive to active.","ui/icon/086000/086127.tex","",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-19.3,,"Destroying Icebound Tomeliths",,"The data from icebound tomeliths can be collected by attacking them, and once they are destroyed, data will be rewarded to each Grand Company based on the amount of damage inflicted.
+制限時間内に決着が付かなかった場合は、
+獲得した情報値の多い順に、1位から3位までの順位が決まります。","ui/icon/086000/086126.tex","",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+19.2,,"アラガントームリス",,"フィールド上には複数の「アラガントームリス」が存在し、
+いずれの部隊にも占拠されていない「中立状態」と、
+いずれかの部隊によって占拠されている「占拠状態」があります。
+プレイヤーが周囲に一定時間留まることで、「占拠」することができます。
+占拠にかかる時間は、アラガントームリスの周囲にいる、
+味方部隊と敵部隊との人数差により変動します。
+拠点を占拠した際に一定量の情報値を得られるほか、
+占拠している拠点の総数に応じて、継続的に情報値を得ることができます。
+占拠されたアラガントームリスは、
+他勢力の部隊によって「中立化」させ、奪い返すことができます。","ui/icon/086000/086127.tex","",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+19.3,,"アイスドトームリス",,"「アイスドトームリス」は、フィールド上に配置された破壊可能なオブジェクトで、
+破壊することで「情報値」を獲得できます。
+獲得できる情報値は、与えたダメージの割合に応じて各部隊へと分配されます。
 
-■Activating Icebound Tomeliths
-Icebound tomeliths can only be destroyed once they have become active. They will be inactive at the start of the campaign, and will activate at random after a fixed amount of time. Icebound tomeliths that have been destroyed will not reactivate. As time passes, more icebound tomeliths will activate, and the order in which they do so differs in every campaign. In some cases, several tomeliths may activate at the beginning of the campaign, while in others, they will activate at a steady pace. Regardless of the timing and frequency, all tomeliths on the map will be active by the end of the campaign.
+■アイスドトームリスの起動
+アイスドトームリスには、機能が無効化されている「停止状態」と、
+機能が有効化され、プレイヤーが破壊できる「起動状態」があります。
+試合開始時はすべてのアイスドトームリスが停止していますが、
+しばらくすると、ランダムでいくつかの地点のアイスドトームリスが起動します。
+一度破壊されたアイスドトームリスは再起動することはなく、
+時間経過に応じて、まだ起動していない地点のものが、順々に起動していきます。
+起動パターンは試合ごとに異なり、試合序盤に集中して起動する場合もあれば、
+試合を通して一定のリズムで起動する場合もありますが、
+最終的には、すべてのアイスドトームリスが起動します。
 
-■Icebound Tomelith
-Active icebound tomeliths will be either large or small, with large tomeliths containing more data.","ui/icon/086000/086128.tex","",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-20.0,,"Map Overview",,"The Xaela of the Azim Steppe are renowned for their ferocity in battle, a traditional preoccupation that culminates once each Tsagaan Sar as they clash to earn the right to rule in the Naadam. Such infrequent conflict is insufficient to sate the Steppe's most zealous warriors, however, thus the Danshig Naadam─smaller contests to which the Grand Companies of Eorzea have now been welcomed. Join forces with the Maelstrom and the Orben people, the Adders and the Ejinn, or the Flames and the Horo in this grand demonstration of martial prowess, and may the mightiest prevail!","ui/icon/086000/086129.tex","",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-20.1,,"Victory Conditions",,"In Onsal Hakair (Danshig Naadam), victory goes to the first alliance to reach the specified tactical rating, which is accumulated by:
-　1. Defeating enemy players
-　2. Claiming ovoos
+■アイスドトームリスのサイズ
+アイスドトームリスには、「小」と「大」の2種類のサイズがあり、
+それぞれ耐久力と、獲得できる「情報値」の上限が異なります。","ui/icon/086000/086128.tex","",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+20.0,,"マップ解説",,"雄大なる大草原、アジムステップ。その中央部に位置するオンサル・ハカイルでは、
+豊かな土地の支配権を巡って、アウラ・ゼラの諸部族が対立してきました。
+そんな中、オルベン族は黒渦団と、エジン族は双蛇党と、
+ホロ族は不滅隊と同盟を結び、戦力を増強します。
+こうして冒険者たちは、同盟部族のため、「終節の合戦」に臨むことになるのでした。","ui/icon/086000/086129.tex","",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+20.1,,"勝利条件",,"「オンサル・ハカイル（終節戦）」では、部隊ごとに加算されていく「戦略値」が、
+最も早く規定値に到達した部隊の勝利となります。
+戦略値は、以下の2つの方法によって獲得できます。
 
-In the event that none of the three alliances reaches the specified tactical rating within the time limit, victory will be awarded to the alliance with the highest tactical rating.","ui/icon/086000/086130.tex","",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-20.2,,"Ovoos",,"Across the field of battle, there are sacred sites known as ovoos. By laying claim to these locations, players can increase their team's tactical rating over time.
+　1.　敵部隊のプレイヤーの撃破
+　2.　無垢の土地との契約
 
-■Ovoo States
-In the course of battle, an ovoo will assume one of four states, in the following order:
+制限時間内に決着が付かなかった場合は、
+獲得した戦略値の多い順に、1位から3位までの順位が決まります。","ui/icon/086000/086130.tex","",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+20.2,,"無垢の土地",,"フィールド上に点在する「無垢の土地」と呼ばれるエリアに対して、
+プレイヤーが「契約」を行うことで、
+そのプレイヤーが所属する部隊の戦略値が継続的に増加していきます。
 
-1. Inactive
-While inactive, an ovoo cannot be claimed. All ovoos are inactive at the onset of battle, but as time passes, they will randomly begin activating.","ui/icon/086000/086131.tex","2. Activating
-When an ovoo begins activating, a symbol will appear above it indicating the time remaining before it becomes active. The symbol will gradually take shape until it becomes complete, rendering the ovoo active.","ui/icon/086000/086132.tex","3. Active
-When an ovoo is active, players can claim it for their team. If you are attacked in the midst of laying claim, the process will be interrupted.","ui/icon/086000/086133.tex","4. Claimed
-When claimed, an ovoo gradually increases a team's tactical rating. A claimed ovoo cannot be seized by the opposition; however, after a certain amount of time has elapsed, it will revert to being inactive again.","ui/icon/086000/086134.tex","■Ovoo Rank
-When an ovoo begins activating, it will randomly be assigned a rank: B, A, or S. While higher-ranked ovoos are rarer, they increase a team's tactical rating at a faster rate. The closer it is to the center of the battlefield, the greater the likelihood that an ovoo's rank will be high.
+■無垢の土地の状態
+無垢の土地には4つの状態があり、
+必ず以下の順序で状態が移行していきます。
 
-■Changes During Battle
-As the battle progresses, the number of ovoos that can be simultaneously active will decrease. At the same time, the likelihood that they will activate at a higher rank will increase.","ui/icon/086000/086135.tex","",,"",,"",,0,0,0,0,0
-21.0,,"Description",,"Players can board the <Emphasis>Endeavor</Emphasis> to participate in Ocean Fishing, embarking on a journey across the high seas in search of strange and exotic fish.","ui/icon/086000/086137.tex","■Basic Rules
-Up to 24 players may join an Ocean Fishing voyage, solo or in parties of up to eight members. Players will be matched together to form a full party when participating solo or with a party of fewer than eight members. Each voyage will sojourn at three locations before returning to Limsa Lominsa.
+1.　待機状態
+「待機状態」は無垢の土地としての機能が有効になっていない状態です。
+試合開始時はすべての無垢の土地が待機状態となっていますが、
+しばらくすると、ランダムな地点の無垢の土地が「予告状態」になります。","ui/icon/086000/086131.tex","2.　予告状態
+予告状態は無垢の土地の機能が有効になるまでの予告段階です。
+予告状態の無垢の土地の上空には、
+「有効状態」に移行するまで残り時間を示す、記号が表示されます。
+この記号は時間経過とともに徐々に形作られていき、
+最終的に記号が完成した時点で、無垢の土地が有効状態へと移行します。","ui/icon/086000/086132.tex","3.　有効状態
+有効状態は無垢の土地との契約が行える状態です。
+プレイヤーが有効状態の無垢の土地にアクセスし、「契約」を完了させることで、
+そのプレイヤーが所属する部隊の契約状態へと移行します。
+なお、契約の実行中に敵から攻撃を受けると中断されます。","ui/icon/086000/086133.tex","4.　契約状態
+いずれかの部隊によって契約が結ばれ、
+その部隊の戦略値が継続的に増加している状態です。
+一度契約状態になった無垢の土地は奪い返すことができません。
+一定時間経過すると、契約が終了し、待機状態へと戻ります。
+契約状態の無垢の土地が待機状態へと戻ると、
+別の地点で待機状態にある無垢の土地が、予告状態へと移行します。","ui/icon/086000/086134.tex","■無垢の土地のランク
+無垢の土地には、ランクB、ランクA、ランクSという3段階のランクがあり、
+予告状態に移行する際に、いずれかのランクがランダムで選択されます。
+ランクが高くなるほど出現する確率が低くなりますが、
+契約中に継続的に加算される戦略値が増加します。
+また、フィールドの中心部に近い無垢の土地ほど、高ランクが出現しやすくなります。
 
-■How to Participate
-Speak with Dryskthota at the ferry docks to register as a crew member and board the <Emphasis>Endeavor</Emphasis>. Registration periods last for 15 minutes and occur every two hours (Earth time). If registering as a party, the party leader must register. The ship will depart when 24 crew members have been assembled or the registration period has ended, even if there are fewer than 24 crew members. Registration times may be viewed from the Sailing Schedule.
+■試合時間による変化
+無垢の土地は、試合時間の経過に応じて、
+同時に起動する上限数が減少する一方、ランクが高い状態で起動しやすくなります。","ui/icon/086000/086135.tex","",,"",,"",,0,0,0,0,0
+21.0,,"概要",,"「オーシャンフィッシング」は、
+漁師ギルドが運営する大型漁船「エンデバー号」に、最大24人で乗船し、
+世界各地で釣りを楽しむ、漁師専用のコンテンツです。","ui/icon/086000/086137.tex","■基本情報
+オーシャンフィッシングには、ソロ、またはパーティで参加でき、
+一度の航海で、最大24人まで乗船可能です。
+ソロ、または8人未満のパーティで乗船した場合、
+コンテンツ内で、自動的にフルパーティ（8人）が組まれます。
+1度の航海で「3ヶ所」の海域を巡り、リムサ・ロミンサへと戻っていきます。
 
-■Rewards
-By meeting certain conditions while fishing during the voyage, players will receive achievements that reward special titles, mounts, and minions. Fishers who are level 50 or above and have completed the requisite quest may also receive gatherers' scrips as rewards.",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-21.1,,"Specialty Bait",,"The Fishermen's Guild has developed special bait specifically for use in ocean fishing. While this bait can attract a wide variety of fish, it is not suitable to catch everything on your journey. Use a wide selection of bait to increase the size and diversity of your catch. Special bait can be purchased at the ferry docks or aboard the <Emphasis>Endeavor</Emphasis>.","ui/icon/086000/086138.tex","",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-21.2,,"Spectral Currents",,"Spectral currents are a special weather effect that form under certain conditions. These currents carry a large number of fish, and provide ample opportunity to fill your inventory. Some types of fish only appear during spectral currents. ",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-21.3,,"Points",,"Players will accumulate points during each voyage, and will receive rewards based on their final score upon returning to Limsa Lominsa. Scores will not be affected if the player releases their catch or if their equipment breaks during the voyage. Your current score is displayed in a special UI window, and a detailed breakdown of the score can be viewed by selecting Score Overview.",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-21.4,,"Final Scores",,"When a voyage concludes, a player will see both their own score and the scores of other crew members. If certain conditions are met during the voyage, a bonus will be added to individual scores once the voyage ends.
+■参加方法
+エンデバー号へは、フェリードックの「ドリスクトータ」から、
+「乗船受付」を行うことで乗り込むことができます。
+乗船受付は、（地球時間）2時間おきに「15分間」行うことができます。
+パーティで受付をする場合はパーティリーダーが、
+ソロで受付をする場合は自身で、受付をする必要があります。
+受付後、乗船人数である24人に達するごとに船が用意され出港していきます。
+また、受付人数が24人に満たない場合でも、
+受付開始時刻から15分が経過した段階で出港となります。
+なお、受付開始時刻は、「エンデバー号運行表」より確認できます。
 
-■Individual Score
-Here players can view their score, and also additional information
-such as the fish they caught during the voyage and the number of bonus points they received.
+■報酬
+船上での釣りにより、特定の条件を満たすことで、
+アチーブメント報酬として称号やミニオン、マウントなどが入手できます。
+また、漁師のレベルが50以上で、特定のクエストをコンプリートしている場合、
+加えて、「ギャザラースクリップ」を入手できます。",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+21.1,,"専用の釣り餌について",,"外洋向けに漁師ギルドが開発した、
+オーシャンフィッシング専用の釣り餌を用いることで、
+多種多様な魚を釣り上げることができます。
+ただし、専用の釣り餌のみで、すべての魚を釣ることはできません。
+より多くの魚を釣りたい場合は、様々な餌を試してみましょう。
+専用の釣り餌は、フェリードック、またはエンデバー号船内で購入できます。","ui/icon/086000/086138.tex","",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+21.2,,"幻海流について",,"特定の条件を満たすことで、
+「幻海流」という特別な天候が発生することがあります。
+幻海流の間は、周囲に大量の魚が出現するので、
+より多くの魚を釣り上げるチャンスです。
 
-■Group Scores
-Here players can view their own score in addition to the highest 10 scores achieved by members of the same voyage. Players will be unable to view their scores or receive rewards if they abandon the voyage while it is still in progress.",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-21.5,,"Bonuses",,"Players will receive bonuses to their score when they surpass certain milestones during each voyage. Examples of such milestones include catching more than a certain number of a specific fish solo or as a party, or catching a particularly rare fish.
+また、「幻海流」中には通常の天候とは違った種類の魚が出現します。",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+21.3,,"釣果点について",,"オーシャンフィッシングでは、魚を釣り上げると「釣果点」が獲得できます。
+この釣果点により、コンテンツ終了時に獲得できる報酬量が変化します。
+また、釣果点は、魚をリリースした場合や、
+所持品から破棄した場合でも、減点されることはありません。
+航海中に獲得した釣果点は、
+コンテンツ内で表示される、専用ウィンドウより確認できます。
 
-Players may view which fish have contributed to bonuses from the Score Overview window during the voyage, or from the Individual Score window after the voyage has concluded.",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-22.0,"","On the Operation of YoRHa Units",,"YoRHa units are produced in a variety of models. Each model is distinguished by an alphabetical abbreviation indicating its area of specialization─such as “B” for combat-optimized Battle models, or “S” for the analytical Scanner models, operating as strategists. ",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,1011
-22.1,"","On the Purpose of the Bunker",,"The Bunker was designed as a base for exclusive use by YoRHa's forces. As such, it serves as the organization's maintenance facility, as well as a site for the research and development of anti-machine lifeform weaponry.",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,1012
-22.2,"","YoRHa Unit Report 1",,"I encountered a strangely evolved machine lifeform in expedition territory. Not only were its constituent parts markedly distinct, it overall bore a greater resemblance to humanity than to its brethren.",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,1013
-22.3,"","YoRHa Unit Report 2",,"It is possible that the machine lifeforms can evolve in response to their circumstances. If so, we must immediately revise our combat strategy to include appropriate precautions when engaging. And we will need to probe deeper─there is still far too much about the machines that we do not know.",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,1014
-22.4,"","Saved Machine Lifeform Data 1",,"Life in the factory is boring. Not just for me. I see more and more of the other machines skipping shifts. We spend the time watching the combat training, though it is not our job.
+なお、自身の詳細な釣果も同様の専用ウィンドウから開くことができる、
+「釣果一覧」より確認できます。",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+21.4,,"航海終了時の釣果について",,"航海終了時には、個人と全体の「釣果」が発表されます。
 
-Is this what humanity refers to as “fun”?",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,1015
-22.5,"","Saved Machine Lifeform Data 2",,"Those of us who learned to have fun are trying more and more things. Some are even learning to reconstruct their own bodies. Strange.
+航海中の釣りで、特定の条件を満たすことで、
+「釣果点」が増加するボーナスが発生することがあります。
+獲得したボーナスは、航海終了時の「釣果」に表示されます。
 
-Recently I have been enjoying fishing discarded data from computers.",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,1016
-22.6,"","Saved Machine Lifeform Data 3",,"I found an interesting file when I was fishing for data the other day. It described “the reproductive act.”
+■個人釣果
+自身の釣り上げた魚の情報が表示され、「釣果点」の合計値を確認できます。
+また、獲得したボーナスもここで確認できます。
 
-Our bodies do not require these functions. What does humanity gain from them?",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,1017
-22.7,"","Saved Machine Lifeform Data 4",,"Maybe the act of giving birth is in some way special. Maybe it is not the same as when we build more of ourselves.
+■全体釣果
+自身の合計釣果点、および同時に乗船したメンバーのうち、
+釣果の多い上位10名の合計釣果点が確認できます。
 
-Do we have the capacity to “give birth” to anything? If we did, would it change something for us?",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,1018
-22.8,"","White-garbed YoRHa Unit's Data Log",,"The self-consciousness data for YoRHa unit 21O was discovered on a Bunker server─the Operator presumably uploaded it as an emergency backup due to imminent danger. With this data, it may be possible to simulate 21O's consciousness to take control of defense systems and peripherals. This file will be shared with all currently deployed units.",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,1019
-22.9,"","Saved Message History",,"Regarding the laundering of standard-issue attire:
-All clothing issued by YoRHa must be turned in for washing on the appropriate day, as detailed below. Late laundry will not be accepted.
-Combat attire: Upon return from deployment (accepted through the following morning)
-Civilian attire: Every Sunday
-LEAVING ONE'S CLOTHES ON THE FLOOR WILL RESULT IN A REPRIMAND.",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,1020
-22.10,"","Longing",,"Suffering is born of something.
-Sadness is born of something.
-Joy is born of something.
-Yet I, who was born to give birth, have never known suffering, nor sadness, nor joy. From what is a soul─a true soul, not a synthetic one─really born?",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,1021
-23.0,,"Overview",,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Faux Hollows<UIGlow>01</UIGlow><UIForeground>01</UIForeground> is a game of choice and chance, accessed via the successful completion of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>unreal trials<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. Those who uncover its secrets will be rewarded with faux leaves, which can be traded to the faux commander for prizes.",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-23.1,,"Unreal Trials",,"Unreal trials are new versions of familiar duties, designed to challenge players who have reached the current level cap by providing an experience <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>of similar difficulty to the original versions of these encounters at the time of their release.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+途中退出を行うと、「釣果」は確認できず、
+「釣果点」に応じた報酬も獲得できませんのでご注意ください。",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+21.5,,"ボーナスについて",,"「オーシャンフィッシング」では、釣果に応じて様々なボーナスが発生します。
 
-Different unreal trials will be available in each major patch. To confirm which duties are currently available, check the Raid Finder.",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-23.2,,"Accessing Faux Hollows",,"Once per week, players may speak to the faux commander after completing an unreal trial to gain access to Faux Hollows.
-※Availability is reset every <ResetTime>1203</ResetTime><Switch(TopLevelParameter(220))><Case(1)>Sunday</Case><Case(2)>Monday</Case><Case(3)>Tuesday</Case><Case(4)>Wednesday</Case><Case(5)>Thursday</Case><Case(6)>Friday</Case><Case(7)>Saturday</Case></Switch> at <If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>1</Case><Case(14)>2</Case><Case(15)>3</Case><Case(16)>4</Case><Case(17)>5</Case><Case(18)>6</Case><Case(19)>7</Case><Case(20)>8</Case><Case(21)>9</Case><Case(22)>10</Case><Case(23)>11</Case></Switch><Else/>12</If> <If(GreaterThanOrEqualTo(TopLevelParameter(218),12))>p.m.<Else/>a.m.</If> (Earth time), and can be confirmed via the Raid Finder entry for any unreal trial.",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
-24.0,,"Objectives and Rewards",,"The object of Faux Hollows is to reveal the illustrations hidden beneath one or more panels. Choose wisely, for only eleven panels can be turned in total. ",,"Faux leaves, an exclusive currency that can be exchanged for prizes, will be awarded for finding complete illustrations.
+ボーナスの達成条件には、
+「一定以上の釣果点の獲得」や、「特定の魚を釣り上げる」、
+「パーティ単位で特定の種類の魚を一定数以上釣り上げる」など、
+様々な種類が存在します。
 
-■Types of Illustration","ui/icon/086000/086139.tex","The amount of faux leaves awarded differs depending on the size and nature of the illustration uncovered:
-Dual Blades (Large) - 5 Leaves
-Coffer (Medium) - 20 Leaves
-Gift (Medium) - 10 Leaves
-Faux Commander (Small) - 100 Leaves
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※A maximum of 1,000 faux leaves can be held at one time.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+どのような魚がボーナスの対象となるかは、
+コンテンツ内で開くことができる「釣果一覧」の表示と、
+航海終了時の「個人釣果」から確認できます。",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+22.0,"","ヨルハ機体の運用について",,"ヨルハ機体には複数のタイプが存在する。
+タイプは名称につけられるアルファベットによって表される。
+一例を上げると、戦闘全般に適性があるBattler＝Ｂ型や、
+調査に特化したScanner＝Ｓ型などが作戦に投入されている。",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,1011
+22.1,"","バンカー建設について",,"バンカーはヨルハ部隊専用の軍事基地として建設された。
+ここではヨルハ部隊を運用するにあたって必要になる、
+定期的な機体のメンテナンスのほか、
+対機械生命体兵器の研究開発も行われる。",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,1012
+22.2,"","ヨルハ機体の調査記録1",,"調査地域において、特殊な進化を遂げた機械生命体が発見された。
+それは特殊な素材で構成されており、外見は機械生命体よりも、
+人類のそれである。",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,1013
+22.3,"","ヨルハ機体の調査記録2",,"様々な外圧によって、機械生命体が進化を遂げる可能性がある。
+その仮定が正しければ、今後の戦闘作戦も慎重にならざるを得ない。
+機械生命体にはまだ解明されていない謎があり、
+私達にはより入念な調査が求められる。",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,1014
+22.4,"","保存された機械生命体のデータ1",,"工場デノ生活ハトテモ退屈ダ。
+最近ボク以外ニモ、仕事ヲサボル機体ガ見受ケラレルヨウニナッタ。
+仕事ヲサボリ自分トハ関係ノナイ戦闘訓練ヲ観戦シタリスルノダ。
+ソノヨウナ行為ヲ人類ハ「アソビ」ト呼ブノダロウカ。",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,1015
+22.5,"","保存された機械生命体のデータ2",,"「アソビ」ヲ覚エタモノ達ハ他ニモ色々ナ事ヲ試シテミタ。
+中ニハ自分デ自分ノ身体ヲ改造スル変ワリ者モイル。
+ボクノ最近ノ趣味ハコンピューターニ記録サレテイル、
+ゴミノヨウナデータヲ漁リ続ケルコトダ。",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,1016
+22.6,"","保存された機械生命体のデータ3",,"アル日データヲ漁ッテイルトキ気ニナル記録ヲ発見シタ。
+ソノデータハ「生殖」トイウ行為ヲ説明シテイタ。
+ボク達ノ身体ハ生殖ヲスル必要ハナイ。
+人類ハナンノタメニ生殖ヲ行ウノダロウカ。",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,1017
+22.7,"","保存された機械生命体のデータ4",,"何カヲ生ミ出ストイウ行為ハ特別ナ事ナノダロウカ。
+ソレハボク達ガ行ウ増殖トハ違ウモノカモシレナイ。
+ヒョットシタラボク達モ何カヲ生ミ出ス可能性ガアルノダロウカ。
+何カヲ生ミ出ストキボク達ハ何カガ変ワルノダロウカ。",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,1018
+22.8,"","白いヨルハ機体のデータログ",,"バンカーサーバー内に、ヨルハ機体「２１Ｏ」の自我データを発見。
+オペレーター２１Ｏが有事に備え保存していた、バックアップと推測される。
+このデータを利用し、疑似的に「２１Ｏ」を再現することで、
+防衛システム及び、迎撃兵器をコントロールできる可能性がある。
+この記録は作戦遂行中のすべての機体に共有する。",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,1019
+22.9,"","保存されたメールの受信履歴",,"支給衣類のクリーニングについて。
+ヨルハ部隊員に支給済みの衣類は、定められた日時に洗濯班に渡すこと。
+下記に定められた日時以外の受付は不可。
 
-■Strategy
-One large illustration and one medium illustration will always be hidden in Faux Hollows, but a small illustration is not certain to appear. As each type of illustration requires a certain number of adjacent panels, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>it is wise to consider the likely placement of illustrations of different sizes before using up any turns.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>",,"",,"",,"",,"",,"",,0,0,0,0,0
-24.1,,"Retellings",,"Uncovering a <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>large illustration<UIGlow>01</UIGlow><UIForeground>01</UIForeground> grants a <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>retelling<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. With this reward, it is possible to complete an unreal trial and access Faux Hollows once more before a week has passed, making it a viable alternative to solely aiming for illustrations that grant a high number of faux leaves.
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※Only one retelling may be earned per week, and it can only be used the same week. Retellings reset every <ResetTime>1203</ResetTime><Switch(TopLevelParameter(220))><Case(1)>Sunday</Case><Case(2)>Monday</Case><Case(3)>Tuesday</Case><Case(4)>Wednesday</Case><Case(5)>Thursday</Case><Case(6)>Friday</Case><Case(7)>Saturday</Case></Switch> at <If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>1</Case><Case(14)>2</Case><Case(15)>3</Case><Case(16)>4</Case><Case(17)>5</Case><Case(18)>6</Case><Case(19)>7</Case><Case(20)>8</Case><Case(21)>9</Case><Case(22)>10</Case><Case(23)>11</Case></Switch><Else/>12</If> <If(GreaterThanOrEqualTo(TopLevelParameter(218),12))>p.m.<Else/>a.m.</If> (Earth time).",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+戦闘用衣類：戦闘からの帰還時（翌朝まで）
+非戦闘用：毎週日曜日
+
+※脱いだものを脱ぎっぱなしにする隊員は譴責処分とする。",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,1020
+22.10,"","あこがれ",,"くるしみが、生まれる。
+かなしみが、生まれる。
+よろこびが、生まれる。
+生み出すために、生み出された私は、
+そのくるしみも、そのかなしみも、そのよろこびも、
+知ることはなかった。
+ツクリモノではない、本当の魂は、
+どこから生まれるのだろう？",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,1021
+23.0,,"コンテンツ概要",,"本コンテンツは、<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>「幻討滅戦」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>と呼ばれるバトルコンテンツと
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>「ソーチョーの幻想盤」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>と呼ばれるミニゲームの2つの要素で構成されています。
+
+まず「幻討滅戦」に挑戦してクリアを目指しましょう。
+無事にクリアすれば、「ソーチョーの幻想盤」にチャレンジできます。
+
+「ソーチョーの幻想盤」で貰える「幻の葉」をたくさん集めて、
+ここでしか手に入らない景品をゲットしましょう！",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+23.1,,"「幻討滅戦」について",,"「幻討滅戦」は、<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>これまでに実装された極蛮神戦<UIGlow>01</UIGlow><UIForeground>01</UIForeground>をベースに、
+最新のレベルキャップに到達したプレイヤーが、
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>実装当時の難易度を再現した戦い<UIGlow>01</UIGlow><UIForeground>01</UIForeground>に挑めるようアレンジを加えたコンテンツです。
+
+「幻討滅戦」は高難易度コンテンツとなるため、
+十分な準備をしてからチャレンジすることをお勧めします。
+
+また、「幻討滅戦」の対象となる極蛮神戦はパッチごとに切り替わります。
+最新の「幻討滅戦」のコンテンツ内容については、
+レイドファインダーでご確認ください。",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+23.2,,"「ソーチョーの幻想盤」について",,"「幻討滅戦」をコンプリート後、ソーチョーに話しかけることで
+週に一度だけ、「ソーチョーの幻想盤」と呼ばれるミニゲームに挑戦できます。
+
+強敵との戦いをソーチョーに語り聞かせ、
+「ソーチョーの幻想盤」で景品を手に入れましょう！
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※その週の「ソーチョーの幻想盤」の挑戦状況は、
+　レイドファインダーの「幻討滅戦」の詳細情報でいつでも確認できます。
+　また、「幻討滅戦」のコンプリート状況と「ソーチョーの幻想盤」の挑戦状況は、
+　（地球時間）毎週<ResetTime>1203</ResetTime><Switch(TopLevelParameter(220))><Case(1)>日</Case><Case(2)>月</Case><Case(3)>火</Case><Case(4)>水</Case><Case(5)>木</Case><Case(6)>金</Case><Case(7)>土</Case></Switch>曜日の<If(GreaterThanOrEqualTo(TopLevelParameter(218),12))>午後<Else/>午前</If><If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>0</Case><Case(13)>1</Case><Case(14)>2</Case><Case(15)>3</Case><Case(16)>4</Case><Case(17)>5</Case><Case(18)>6</Case><Case(19)>7</Case><Case(20)>8</Case><Case(21)>9</Case><Case(22)>10</Case><Case(23)>11</Case></Switch><Else/>0</If>時にリセットされます。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
+24.0,,"どんなミニゲーム？",,"「ソーチョーの幻想盤」は、幻想盤と呼ばれるパネルボードに隠された絵柄を、
+パネルをめくって見つけ出すミニゲームです。
+絵柄を上手く見つけ出して、景品交換に使える「幻の葉」を集めましょう。",,"幻想盤上のパネルは11回だけめくることができます。
+運が良ければ、めくったときに絵柄の一部を見つけることができますので、
+価値の高い絵柄を狙って、パネルをめくってみてください。
+
+■幻想盤に隠された絵柄について","ui/icon/086000/086139.tex","絵柄の種類や大きさによって、
+見つけ出したときに貰える「幻の葉」の数がそれぞれ違います。
+
+・大きな絵柄
+　①クロスソード：「幻の葉」×5
+・中くらいの絵柄
+　②トレジャーボックス：「幻の葉」×20
+　③ギフトボックス：「幻の葉」×10
+・小さな絵柄
+　④ソーチョー：「幻の葉」×100
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※「幻の葉」は、最大1000枚まで所持することができます。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+
+■「ソーチョーの幻想盤」のコツ
+「中くらいの絵柄」のいずれか1つと、「大きな絵柄」は、
+必ず幻想盤に隠されています。
+ただし「小さな絵柄」については、必ずしも隠されているとは限りません。
+
+限られた回数でうまく絵柄を見つけ出すためには、
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>パネルをめくる前に、絵柄がどこに隠されているか予想すること<UIGlow>01</UIGlow><UIForeground>01</UIForeground>が重要です。
+絵柄の大きさや裏返せないパネルを手掛かりにして、
+できるだけ多くの絵柄を見つけ出しましょう！",,"",,"",,"",,"",,"",,0,0,0,0,0
+24.1,,"ボーナスチャンスについて",,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>「大きな絵柄」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を見つけ出せると、ボーナスチャンスが発生します。
+ボーナスチャンスが発生した状態で、「幻討滅戦」をクリアすると、
+週に一度しか挑戦できない「ソーチョーの幻想盤」にさらにもう一度挑戦できます。
+
+より多くの「幻の葉」を集めるためには、価値の高い絵柄を狙うか、
+あるいはボーナスチャンスを確実に獲るかの見極めが重要になるでしょう。
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>※ボーナスチャンスが発生するのは、週に一度のみです。
+　また、ボーナスチャンスの発生状況は、（地球時間）毎週<ResetTime>1203</ResetTime><Switch(TopLevelParameter(220))><Case(1)>日</Case><Case(2)>月</Case><Case(3)>火</Case><Case(4)>水</Case><Case(5)>木</Case><Case(6)>金</Case><Case(7)>土</Case></Switch>曜日の<If(GreaterThanOrEqualTo(TopLevelParameter(218),12))>午後<Else/>午前</If><If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>0</Case><Case(13)>1</Case><Case(14)>2</Case><Case(15)>3</Case><Case(16)>4</Case><Case(17)>5</Case><Case(18)>6</Case><Case(19)>7</Case><Case(20)>8</Case><Case(21)>9</Case><Case(22)>10</Case><Case(23)>11</Case></Switch><Else/>0</If>時に
+　リセットされますのでご注意ください。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
 25.0,,"",,"",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
 26.0,,"",,"",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0
 26.1,,"",,"",,"",,"",,"",,"",,"",,"",,"",,0,0,0,0,0

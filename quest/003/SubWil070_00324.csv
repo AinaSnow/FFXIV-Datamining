@@ -1,12 +1,12 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBWIL070_00324_SEQ_00","Roger needs an extra hand to take orders."
-1,"TEXT_SUBWIL070_00324_SEQ_01","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/> This quest has been adjusted. Please abandon the quest and restart it by speaking to Roger at the Coffer & Coffin.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+0,"TEXT_SUBWIL070_00324_SEQ_00","酒房「コッファー＆コフィン」のロジャーが、給仕の代わりに客から「コッファー＆コフィンの注文票」を集めてくれる人を探しているようだ。"
+1,"TEXT_SUBWIL070_00324_SEQ_01","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/>本クエストは調整されました。一度破棄し、酒房「コッファー＆コフィン」の「ロジャー」から再受注してください。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
-※The Main Scenario Guide shows the next available quest. You can toggle it on and off in Character Configuration, under UI Settings."
-2,"TEXT_SUBWIL070_00324_SEQ_02","You have taken all the orders. Deliver the slips to Roger."
-3,"TEXT_SUBWIL070_00324_SEQ_03","Roger thanks you for attending to his more demanding customers, and promises to share profitable information with you."
+※次のメインクエストは、「メインクエストガイド」からも確認することができます。メインクエストガイドの表示/非表示は、メインコマンドの「キャラクターコンフィグ」から「ユーザーインターフェース設定」を選び、変更してください。"
+2,"TEXT_SUBWIL070_00324_SEQ_02","注文を取り終えることができた。コッファー＆コフィンの「ロジャー」に、「コッファー＆コフィンの注文票」を渡しに行こう。"
+3,"TEXT_SUBWIL070_00324_SEQ_03","「コッファー＆コフィンの注文票」をロジャーに渡すと、ロジャーは感謝をしていた。ただ、店外から注文をしてきたアダルフンスのケチっぷりには、納得がいかないようだ。"
 4,"TEXT_SUBWIL070_00324_SEQ_04",""
 5,"TEXT_SUBWIL070_00324_SEQ_05",""
 6,"TEXT_SUBWIL070_00324_SEQ_06",""
@@ -27,8 +27,10 @@ int32,str,str
 21,"TEXT_SUBWIL070_00324_SEQ_21",""
 22,"TEXT_SUBWIL070_00324_SEQ_22",""
 23,"TEXT_SUBWIL070_00324_SEQ_23",""
-24,"TEXT_SUBWIL070_00324_TODO_00","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/> This quest has been adjusted. Please abandon the quest and restart it by speaking to Roger at the Coffer & Coffin.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
-25,"TEXT_SUBWIL070_00324_TODO_01","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/> This quest has been adjusted. Please abandon the quest and restart it by speaking to Roger at the Coffer & Coffin.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+24,"TEXT_SUBWIL070_00324_TODO_00","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/>本クエストは調整されました。一度破棄し、
+酒房「コッファー＆コフィン」のロジャーから再受注してください<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+25,"TEXT_SUBWIL070_00324_TODO_01","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/>本クエストは調整されました。一度破棄し、
+酒房「コッファー＆コフィン」のロジャーから再受注してください<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 26,"TEXT_SUBWIL070_00324_TODO_02",""
 27,"TEXT_SUBWIL070_00324_TODO_03",""
 28,"TEXT_SUBWIL070_00324_TODO_04",""
@@ -51,18 +53,37 @@ int32,str,str
 45,"TEXT_SUBWIL070_00324_TODO_21",""
 46,"TEXT_SUBWIL070_00324_TODO_22",""
 47,"TEXT_SUBWIL070_00324_TODO_23",""
-48,"TEXT_SUBWIL070_00324_ROGER_000_1","Ye know, <If(PlayerParameter(4))>lassie<Else/>laddie</If>, if yer just gonna stand around with yer thumb up yer arse, I can give ye somethin' to do."
-49,"TEXT_SUBWIL070_00324_ROGER_000_2","Thanks to me unbelievably low prices, we've no shortage of customers here at the Coffer & Coffin. But by the same token, I can't afford to hire much help. We're chronically understaffed."
-50,"TEXT_SUBWIL070_00324_ROGER_000_3","What's more, there's those lazy-arsed types what refuse to come an' order at the counter. It'd be a great help if ye could attend these customers for me."
-51,"TEXT_SUBWIL070_00324_ROGER_000_4","Mark their orders on these here slips, then bring them here. Oh, and don't forget about ol' Adalfuns outside."
-52,"TEXT_SUBWIL070_00324_ROUNDELPH_000_10","Thal's balls, I'm spent! Grilled dodo, and a tankard of ale to wash it down!"
-53,"TEXT_SUBWIL070_00324_ROUNDELPH_000_11","Gah, here I am again, spendin' what meager coin I've got at the Coffin... It ain't me fault, I tell ye! Ye'd do the same if yer wife served up shite every bleedin' day!"
-54,"TEXT_SUBWIL070_00324_ADALFUNS_000_20","Roger's new errand <If(PlayerParameter(4))>girl<Else/>boy</If>, are you? Well then, I'll keep it simple for your sake: a tankard of your finest ale, chilled with an ice shard."
-55,"TEXT_SUBWIL070_00324_ADALFUNS_000_21","Heh heh... There's nothing like a tall drink to help one forget about the trifling things in life─like work."
-56,"TEXT_SUBWIL070_00324_SOLIDTRUNK_000_30","The strongest brandewine you've got. I need help to forget..."
-57,"TEXT_SUBWIL070_00324_RICARD_000_40","Gods, I'm starving! Bring me ale, grilled dodo, and smoked shrew loaf! And make it quick!"
-58,"TEXT_SUBWIL070_00324_RICARD_000_41","Business is good─too good, even. I've nary got the time to take a piss, let alone eat. The mere thought of the Coffin's cooking makes my mouth water!"
-59,"TEXT_SUBWIL070_00324_ROGER_000_50","That's all the orders, then?"
-60,"TEXT_SUBWIL070_00324_ROGER_000_51","Let's see here... Ale, brandewine, grilled dodo..."
-61,"TEXT_SUBWIL070_00324_ROGER_000_52","And for Adalfuns... Lemme guess─one tankard of ale. Right bleedin' miser, that one. I oughta put me boot up his arse."
-62,"TEXT_SUBWIL070_00324_ROGER_000_53","Anyroad, ye did good, <If(PlayerParameter(4))>lassie<Else/>laddie</If>. By way of thanks, I'm gonna tell ye somethin' what ought to prove to yer profit."
+48,"TEXT_SUBWIL070_00324_ROGER_000_1","おう、お前さんちょっと手空きなら、
+注文を取るのを手伝っちゃもらえねぇか？"
+49,"TEXT_SUBWIL070_00324_ROGER_000_2","ご覧のとおり、腹ペコのお客さんはいるんだが、
+給仕がちょいと足りなくてねぇ……。"
+50,"TEXT_SUBWIL070_00324_ROGER_000_3","外に注文に来い、なんていう面倒な常連もいるからな。
+こっちは冒険者の手でも借りたいのさ。"
+51,"TEXT_SUBWIL070_00324_ROGER_000_4","仕事は簡単さ、注文を待ってる客たちに話しかけて、
+「コッファー＆コフィンの注文票」を貰えばいい。
+ほんじゃ、任せたよ！"
+52,"TEXT_SUBWIL070_00324_ROUNDELPH_000_10","あー疲れた……喉カラッカラだよ！
+今日はそうだなあ、エールとドードーのグリルにしよう。"
+53,"TEXT_SUBWIL070_00324_ROUNDELPH_000_11","あーあ、今月の小遣いも、またここで使い込んじゃった。
+カミさんの飯よりここのほうが美味いんだもん……。"
+54,"TEXT_SUBWIL070_00324_ADALFUNS_000_20","お前が注文を取りに来たのか？
+注文は、アイスシャードでキンキンに冷やしたエールだ。
+それだけだ、単品な。"
+55,"TEXT_SUBWIL070_00324_ADALFUNS_000_21","ククク……業務中であることはさておき、
+広大な景色を眺めながら飲む酒は最高なんだぜ……？"
+56,"TEXT_SUBWIL070_00324_SOLIDTRUNK_000_30","ブランデー、ストレート、ノーチェイサーでな。
+……今日は仕事が上手くいかない、やけ酒さ。"
+57,"TEXT_SUBWIL070_00324_RICARD_000_40","もう、腹が減ってかなわん！
+エールとドードーのグリルと激旨モールローフを頼む！　早く！！"
+58,"TEXT_SUBWIL070_00324_RICARD_000_41","今日は売上が上々でね、昼飯を食う暇もなかったんだ。
+ああもう、飯のことを考えるだけでよだれが……！"
+59,"TEXT_SUBWIL070_00324_ROGER_000_50","どうだい？
+うまいこと注文票を集められたか？"
+60,"TEXT_SUBWIL070_00324_ROGER_000_51","ふむふむ、エールにブランデーに、
+ドードーのグリル…………。"
+61,"TEXT_SUBWIL070_00324_ROGER_000_52","やれやれ、常連顔でわざわざ呼びつけるくせに、
+アダルフンスの野郎はまたエール単品か。
+偉そうに呼びつける割に、注文はみみっちいんだよな。"
+62,"TEXT_SUBWIL070_00324_ROGER_000_53","ああ、お前さんもありがとうな！
+そうだ、お礼と言っちゃあなんだが、
+お前向きの情報がひとつあるんだ、それを教えてやろう。"

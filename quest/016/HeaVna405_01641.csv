@@ -1,13 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNA405_01641_SEQ_00","Alphinaud is lost in thought."
-1,"TEXT_HEAVNA405_01641_SEQ_01","Gathering himself, Alphinaud suggests you visit the Congregation of Our Knights Most Heavenly and see if Ser Aymeric is recovered from his injuries. Accompany him to Foundation and inform the Temple Knight on duty of your desire to speak with the lord commander."
-2,"TEXT_HEAVNA405_01641_SEQ_02","In Ser Aymeric's private chambers, the power of the Echo stirs within you once more, and you are granted a vision of the past. You watch as the lord commander accuses the church of hiding the origins of the Dragonsong War, and hear the archbishop acknowledge it to be the truth. Ser Aymeric continues, challenging his father on the morality of the church's deception, but the archbishop, steadfast in his conviction, is unswayed. Though it is a lie, Ishgard's sons and daughters must fight and die for it, for the crimes of Thordan and his knights twelve are beyond reparation. Recognizing the futility of convincing his son to accept this state of affairs, Thordan has Ser Aymeric arrested─but not before revealing that he has plans of his own to free the people of Ishgard from the sins of antiquity.
-
-Reflecting on the unnatural powers demonstrated by the knights of the Heavens' Ward, your companions conclude that they are using their own bodies as vessels for the souls of the legendary King Thordan and his knights twelve, much as Ysayle did for Saint Shiva. Though Ser Aymeric knows not his father's plans─or the significance of “Azys Lla”─he declares that the archbishop and the Heavens' Ward must be stopped.
-
-The lord commander duly entreats you and Alphinaud, as representatives of the Scions of the Seventh Dawn, to help him bring his father to justice. In response, Alphinaud states that if the Heavens' Ward have indeed harnessed primal powers, it is the duty of the remaining Scions to oppose them. And so, with newfound purpose, Alphinaud bids you join him to discuss how you might find the archbishop."
+0,"TEXT_HEAVNA405_01641_SEQ_00","フォルタン伯爵邸付近のアルフィノは、悲しみの中で成すべきことを考えているようだ。"
+1,"TEXT_HEAVNA405_01641_SEQ_01","アルフィノと話し、アイメリクに会いに行くことになった。神殿騎士団本部の神殿騎士団総長室にいる「アイメリク」と話そう。神殿騎士団総長室へは、神殿騎士団本部にいる「神殿騎士団の衛兵」が案内してくれるようだ。"
+2,"TEXT_HEAVNA405_01641_SEQ_02","アイメリクとの面会中に「超える力」が発動し、アイメリクと教皇トールダン7世が会話している場面が見えた。教皇トールダン7世は、イシュガルドに真の変革をもたらすと言うが……。アイメリクたちは、蒼天騎士たちの異様な力を、蛮神「ナイツ・オブ・ラウンド」によるものと推測。「暁の血盟」としても、オルシュファンの友としても、見逃すわけにはいかなくなった。一致団結し、蒼天騎士と教皇トールダン7世を追おう。"
 3,"TEXT_HEAVNA405_01641_SEQ_03",""
 4,"TEXT_HEAVNA405_01641_SEQ_04",""
 5,"TEXT_HEAVNA405_01641_SEQ_05",""
@@ -29,7 +25,7 @@ The lord commander duly entreats you and Alphinaud, as representatives of the Sc
 21,"TEXT_HEAVNA405_01641_SEQ_21",""
 22,"TEXT_HEAVNA405_01641_SEQ_22",""
 23,"TEXT_HEAVNA405_01641_SEQ_23",""
-24,"TEXT_HEAVNA405_01641_TODO_00","Speak with Aymeric at the Congregation of Our Knights Most Heavenly."
+24,"TEXT_HEAVNA405_01641_TODO_00","神殿騎士団総長室のアイメリクと話す"
 25,"TEXT_HEAVNA405_01641_TODO_01",""
 26,"TEXT_HEAVNA405_01641_TODO_02",""
 27,"TEXT_HEAVNA405_01641_TODO_03",""
@@ -53,36 +49,67 @@ The lord commander duly entreats you and Alphinaud, as representatives of the Sc
 45,"TEXT_HEAVNA405_01641_TODO_21",""
 46,"TEXT_HEAVNA405_01641_TODO_22",""
 47,"TEXT_HEAVNA405_01641_TODO_23",""
-48,"TEXT_HEAVNA405_01641_ALPHINAUD_000_000","I... We must press on with our mission. Tataru, pray return to your duties at the Forgotten Knight."
-49,"TEXT_HEAVNA405_01641_ALPHINAUD_000_001","Let us go and speak with Ser Aymeric, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I worry for his well-being."
-50,"TEXT_HEAVNA405_01641_TATARU_000_001","<sniffle> <sob> I'm sorry, I just...I can't..."
-51,"TEXT_HEAVNA405_01641_LUCIA_100_061","Ser Aymeric..."
-52,"TEXT_HEAVNA405_01641_ALPHINAUD_100_062","I... Hm."
-53,"TEXT_HEAVNA405_01641_ESTINIEN_100_063","Curse those bloody whoresons and piss on their swiving round table."
-54,"TEXT_HEAVNA405_01641_AYMERIC_000_010","<If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>, Master Alphinaud─I, Aymeric, lord commander of the Temple Knights of Ishgard, do hereby entreat the aid of the Scions of the Seventh Dawn."
-55,"TEXT_HEAVNA405_01641_ALPHINAUD_000_011","Our aid in preventing whatever it is that the archbishop intends?"
-56,"TEXT_HEAVNA405_01641_AYMERIC_000_012","Your aid in bringing him to justice. Too much blood has been spilled for the lies he perpetuated. No more."
-57,"TEXT_HEAVNA405_01641_Q1_000_000","What will you say?"
-58,"TEXT_HEAVNA405_01641_A1_000_001","I shall pursue him to the end of the world if I must."
-59,"TEXT_HEAVNA405_01641_A1_000_002","Life for death. I will have Ser Zephirin's heart for what he did to Haurchefant."
-60,"TEXT_HEAVNA405_01641_A1_000_003","..."
-61,"TEXT_HEAVNA405_01641_AYMERIC_000_020","I thank you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I have heard many men make such pledges, but you─you speak in earnest."
-62,"TEXT_HEAVNA405_01641_AYMERIC_000_030","Yes...yes, of course. You two were close, I know."
-63,"TEXT_HEAVNA405_01641_AYMERIC_000_040","I make no claim to know the turmoil in your soul, but I implore you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>─in this darkest of hours, pray lend us your strength."
-64,"TEXT_HEAVNA405_01641_ALPHINAUD_000_050","Much has changed since our order's founding, but our duty to combat the primal threat has not. If the archbishop and the Heavens' Ward are guilty of the crime of summoning, then <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> and I will stop them."
-65,"TEXT_HEAVNA405_01641_AYMERIC_000_051","Would that I could join you in the pursuit, but alas, my father's absence has thrown our government into chaos."
-66,"TEXT_HEAVNA405_01641_AYMERIC_000_052","Ever since the founding of our nation, there has been an archbishop to serve as a guiding light for the masses─a force for stability to counterbalance the High Houses' ceaseless maneuvering."
-67,"TEXT_HEAVNA405_01641_AYMERIC_000_053","Convincing the people to recognize the truth of our origins would have been difficult even with my father's support. The road ahead is that much more fraught with peril without it."
-68,"TEXT_HEAVNA405_01641_AYMERIC_000_054","Yet walk it we must, for unity is more vital to our survival than ever. After all, Nidhogg's death did not mark the cessation of Dravanian hostilities. Far from it. We will have great need of each other in the days to come."
-69,"TEXT_HEAVNA405_01641_ESTINIEN_000_055","You may ever count on my lance, Ser Aymeric. To my dying breath, I shall defend Ishgard from the Horde."
-70,"TEXT_HEAVNA405_01641_LUCIA_000_056","If I may, Lord Commander, I would like to assist the Scions in their search for the archbishop."
-71,"TEXT_HEAVNA405_01641_LUCIA_100_056","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, Master Alphinaud, pray attend me outside."
-72,"TEXT_HEAVNA405_01641_ALPHINAUD_000_057","Very well. With me, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I believe we have much to discuss."
-73,"TEXT_HEAVNA405_01641_AYMERIC_000_060","If they knew what would come of it, would they still have done it? What power could be worth such bloodshed─such sorrow..."
-74,"TEXT_HEAVNA405_01641_LUCIA_000_061","The Congregation is in disarray; the rift between our brothers and sisters still far from healed. But I will see us whole again─without further violence, so far as it is possible."
-75,"TEXT_HEAVNA405_01641_ALPHINAUD_000_062","I thought Shiva an unprecedented threat, but this? Ishgard's twelve finest knights, each imbued with primal powers. May the gods have mercy on us all."
-76,"TEXT_HEAVNA405_01641_ESTINIEN_000_063","Could Nidhogg sense their power? Is that why he did not lead his minions into battle?"
-77,"TEXT_HEAVNA405_01641_TEMPLEKIGHTGATE_000_070","An audience with the lord commander? Yes, yes of course..."
-78,"TEXT_HEAVNA405_01641_SCENE00020_EVENTAREA_WARP_YESNO_TITLE","Proceed to the Seat of the Lord Commander?"
-79,"TEXT_HEAVNA405_01641_SCENE00020_EVENTAREA_WARP_YESNO_YES","Yes"
-80,"TEXT_HEAVNA405_01641_SCENE00020_EVENTAREA_WARP_YESNO_NO","No"
+48,"TEXT_HEAVNA405_01641_ALPHINAUD_000_000","今はただ、できることをするだけか……。
+タタル、君は「忘れられた騎士亭」に戻って、
+引き続き、情報収集を頼む……。"
+49,"TEXT_HEAVNA405_01641_ALPHINAUD_000_001","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
+我々は、「神殿騎士団本部」へ行こう。
+「アイメリク」卿が心配だ……。"
+50,"TEXT_HEAVNA405_01641_TATARU_000_001","うっ……うっ……。
+こんなの、悲しすぎまっす……。"
+51,"TEXT_HEAVNA405_01641_LUCIA_100_061","アイメリク様も、かなり落ち込んでいてな……。"
+52,"TEXT_HEAVNA405_01641_ALPHINAUD_100_062","こんな時、どう振る舞えばいいのか……
+私にはわからないよ……。"
+53,"TEXT_HEAVNA405_01641_ESTINIEN_100_063","……蒼天騎士の連中め。"
+54,"TEXT_HEAVNA405_01641_AYMERIC_000_010","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>殿、アルフィノ殿……
+「暁の血盟」に依頼したいことがある。"
+55,"TEXT_HEAVNA405_01641_ALPHINAUD_000_011","蛮神「ナイツ・オブ・ラウンド」の力を得た、
+教皇と蒼天騎士たちの追撃……ですね？"
+56,"TEXT_HEAVNA405_01641_AYMERIC_000_012","そのとおりだ。
+これがイシュガルドの内政問題に端を発していることは、
+重々承知のうえ……当然、断る権利はある。"
+57,"TEXT_HEAVNA405_01641_Q1_000_000","どう答える？"
+58,"TEXT_HEAVNA405_01641_A1_000_001","教皇「トールダン7世」を追う"
+59,"TEXT_HEAVNA405_01641_A1_000_002","オルシュファンの仇を討つ"
+60,"TEXT_HEAVNA405_01641_A1_000_003","答えない"
+61,"TEXT_HEAVNA405_01641_AYMERIC_000_020","ありがとう、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>殿……。
+蛮神問題と口にすれば断れぬと知りながらも、
+君の力に頼らねばならぬ、私の非力さを許してほしい……。"
+62,"TEXT_HEAVNA405_01641_AYMERIC_000_030","そうか……君はオルシュファン卿を……。
+いや、すまない……立ち入った事を聞くつもりはないのだ。
+申し出を受けてくれて、助かるよ……ありがとう。"
+63,"TEXT_HEAVNA405_01641_AYMERIC_000_040","……心に葛藤があることは、わかっているつもりだ。
+蛮神問題と口にすれば断れぬと知りながらも、
+君の力に頼らねばならぬ、私の非力さを許してほしい……。"
+64,"TEXT_HEAVNA405_01641_ALPHINAUD_000_050","蛮神に挑むのは、「暁の血盟」の大きな役割……。
+私も持てる力のかぎり、
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>を支援します。"
+65,"TEXT_HEAVNA405_01641_AYMERIC_000_051","ありがとう、アルフィノ殿。
+悔しいが、教皇が去った今、私は皇都を動くことができない。
+教皇不在の政治的空白を、埋めなくてはならないのだ。"
+66,"TEXT_HEAVNA405_01641_AYMERIC_000_052","生まれた時より、正教の教えを受けてきた民にとって、
+「教皇」とは「父」も同然の存在……。
+その教皇が消えたとなれば、動揺は大きいだろう。"
+67,"TEXT_HEAVNA405_01641_AYMERIC_000_053","私は、フォルタン伯爵をはじめとする有力な大貴族に加え、
+平民の実力者たちにも協力を要請し、国をまとめるつもりだ。"
+68,"TEXT_HEAVNA405_01641_AYMERIC_000_054","邪竜「ニーズヘッグ」が堕ちたとはいえ、
+眷属の竜たちすべてが死した訳ではなく、情勢は危うい。
+エスティニアン、ルキア……私に力を貸してくれ。"
+69,"TEXT_HEAVNA405_01641_ESTINIEN_000_055","言われるまでもない……。
+蒼の竜騎士として、残るドラゴン族の脅威から、
+全力で皇都を守り抜くと誓おう。"
+70,"TEXT_HEAVNA405_01641_LUCIA_000_056","「暁の血盟」の支援は、お任せください。"
+71,"TEXT_HEAVNA405_01641_LUCIA_100_056","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>殿、アルフィノ殿。
+現状の情報について、共有したいことがある。
+この後、いいだろうか。"
+72,"TEXT_HEAVNA405_01641_ALPHINAUD_000_057","行こう、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>！
+「暁の血盟」として、新たな蛮神を追うんだ！"
+73,"TEXT_HEAVNA405_01641_AYMERIC_000_060","（★未使用／削除予定★）"
+74,"TEXT_HEAVNA405_01641_LUCIA_000_061","（★未使用／削除予定★）"
+75,"TEXT_HEAVNA405_01641_ALPHINAUD_000_062","（★未使用／削除予定★）"
+76,"TEXT_HEAVNA405_01641_ESTINIEN_000_063","（★未使用／削除予定★）"
+77,"TEXT_HEAVNA405_01641_TEMPLEKIGHTGATE_000_070","アイメリク総長に御用ですか？
+取り次ぎますので、こちらへどうぞ……。"
+78,"TEXT_HEAVNA405_01641_SCENE00020_EVENTAREA_WARP_YESNO_TITLE","「神殿騎士団総長室」へ移動しますか？"
+79,"TEXT_HEAVNA405_01641_SCENE00020_EVENTAREA_WARP_YESNO_YES","はい"
+80,"TEXT_HEAVNA405_01641_SCENE00020_EVENTAREA_WARP_YESNO_NO","いいえ"

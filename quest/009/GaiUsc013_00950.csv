@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSC013_00950_SEQ_00","Meurise is concerned for a lost patrol fighting for warmth out in the howling blizzard."
-1,"TEXT_GAIUSC013_00950_SEQ_01","Meurise receives word that a patrol from another camp huddles in the Behemoth's Dominion, their reckoning shredded by the howling winds and snow. Sending medics with litters is out of the question, but emergency brandewine may do the trick."
-2,"TEXT_GAIUSC013_00950_SEQ_02","You give the bottle of brandewine to one of the men, who rapidly emerges from his stupor. He will see to the rest of the men, and use this lull in the storm to return to their camp. You must do likewise, lest you make the same mistake they did."
-3,"TEXT_GAIUSC013_00950_SEQ_03","Thanks to the restorative brandewine you have conveyed, the patrol has made it back to camp without losing a single man. You have apparently saved their lives for better things─namely, dying in a much more painful way."
+0,"TEXT_GAIUSC013_00950_SEQ_00","ホワイトブリム前哨地のムリズは、騎兵の救助を手伝う者を探しているようだ。"
+1,"TEXT_GAIUSC013_00950_SEQ_01","吹雪で道を見失い、ベヒーモスの縄張りに迷い込んだ部隊があるそうだ。彼らに「<Sheet(EventItem,2000738,0)/>」を渡そう。"
+2,"TEXT_GAIUSC013_00950_SEQ_02","<Sheet(EventItem,2000738,0)/>を渡した。ホワイトブリム前哨地の「ムリズ」に報告しよう。"
+3,"TEXT_GAIUSC013_00950_SEQ_03","冒険者が渡した<Sheet(EventItem,2000738,0)/>のおかげで、部隊は戻ってくることができそうだ。ムリズによれば、騎兵の本懐はドラゴン族との聖戦にこそあるらしいが……。"
 4,"TEXT_GAIUSC013_00950_SEQ_04",""
 5,"TEXT_GAIUSC013_00950_SEQ_05",""
 6,"TEXT_GAIUSC013_00950_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSC013_00950_SEQ_21",""
 22,"TEXT_GAIUSC013_00950_SEQ_22",""
 23,"TEXT_GAIUSC013_00950_SEQ_23",""
-24,"TEXT_GAIUSC013_00950_TODO_00","Give the emergency brandewine to the lost dragoons."
-25,"TEXT_GAIUSC013_00950_TODO_01","Report to Meurise."
+24,"TEXT_GAIUSC013_00950_TODO_00","遭難した騎兵に<Sheet(EventItem,2000738,0)/>を渡す"
+25,"TEXT_GAIUSC013_00950_TODO_01","ムリズに報告"
 26,"TEXT_GAIUSC013_00950_TODO_02",""
 27,"TEXT_GAIUSC013_00950_TODO_03",""
 28,"TEXT_GAIUSC013_00950_TODO_04",""
@@ -49,11 +49,25 @@ int32,str,str
 45,"TEXT_GAIUSC013_00950_TODO_21",""
 46,"TEXT_GAIUSC013_00950_TODO_22",""
 47,"TEXT_GAIUSC013_00950_TODO_23",""
-48,"TEXT_GAIUSC013_00950_MEURISE_000_000","It's an ill night for patrols, in this blizzard. We had contact via linkpearl─one of the parties has managed to blunder into the Behemoth's Dominion, of all places."
-49,"TEXT_GAIUSC013_00950_MEURISE_000_001","The cold and fatigue have robbed them of their mobility. I've heard it said you are as a snow wolf, feeling the cold far less than other <If(PlayerParameter(4))>women<Else/>men</If>. If you can get this brandewine to the patrol, you will save lives tonight."
-50,"TEXT_GAIUSC013_00950_MEURISE_000_002","One more thing, adventurer. Do not presume to provoke the behemoth to battle. You will fail, and you will die. Rescue the dragoons─that is your task this day and naught more."
-51,"TEXT_GAIUSC013_00950_NPCA_000_010","Wh–Wh–What're you doing here? You m–m–moon–brain, the behemoth walks nearby and we cannot move. Save yourself!"
-52,"TEXT_GAIUSC013_00950_NPCA_000_020","Wh–What's this? Hold it against my lips, there─<Emphasis>kuuuhk! Kuuuhk</Emphasis>! Amazing, I can feel my feet again. I believe─yes, I can walk again."
-53,"TEXT_GAIUSC013_00950_NPCA_000_025","The rest of my patrol is just over there. I will administer the cure to them. The gale has died, and we shall find it short work making our way back. You have longer to go to Whitebrim Front before the winds return."
-54,"TEXT_GAIUSC013_00950_MEURISE_000_030","A snow wolf indeed. You will not be needing the brandewine tonight, I believe. Potent as it is, it extracts a price..."
-55,"TEXT_GAIUSC013_00950_MEURISE_000_031","The patrol is no doubt back at camp by now. They have had a close call, those men. A terrible shame it would have been had they been slain by a common thing like a behemoth, when they are meant to face dragons..."
+48,"TEXT_GAIUSC013_00950_MEURISE_000_000","友軍の偵察兵から、リンクパール通信で救援要請が届いた。
+どうやら吹雪に遭って道を誤り「ベヒーモスの縄張り」に
+迷いこんでしまったらしい。"
+49,"TEXT_GAIUSC013_00950_MEURISE_000_001","彼は体力の低下で身動きがとれんようだ。
+冒険者よ、この雪道を踏破する自信があるなら、
+この「<Sheet(EventItem,2000738,0)/>」を彼に届けてくれないか？"
+50,"TEXT_GAIUSC013_00950_MEURISE_000_002","間違ってもベヒーモスとやり合おうなんて思うな。
+……奴は伝説の魔獣、お前などひとたまりもないぞ！"
+51,"TEXT_GAIUSC013_00950_NPCA_000_010","こ、こんなところに……なぜ冒険者が……？
+無茶しやがって……。
+ベヒーモスに感づかれたら……どうする……。"
+52,"TEXT_GAIUSC013_00950_NPCA_000_020","こ、これは……ブランデーか……。
+ありがたい、凍えきった体に染み渡る……。
+これなら自力で帰還できるだろう。"
+53,"TEXT_GAIUSC013_00950_NPCA_000_025","慣れた道だと思っていたが……吹雪で視界を奪われてな。
+何にせよ、助かった……礼を言う。
+ブランデーで体が温まったら、仲間をつれて帰るとするよ。"
+54,"TEXT_GAIUSC013_00950_MEURISE_000_030","ご苦労だったな、冒険者。
+体さえ温まれば、何とか自力で戻ってこれるだろう。"
+55,"TEXT_GAIUSC013_00950_MEURISE_000_031","しかし、よりによって厄介な場所に迷いこんだものだ。
+ベヒーモスと戦って、あたら命を落とすわけにはいかんのだ。
+……騎兵の命は聖戦のために投げ打ってこそ、なのだからな。"

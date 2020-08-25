@@ -1,12 +1,12 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSCUL580_02046_SEQ_00","Melkoko would like to share with you the outcome of Rhoswen's plot."
-1,"TEXT_CLSCUL580_02046_SEQ_01","Having informed you of Rhoswen's failed attempt to entrap Carvallain, Melkoko remembers that Lyngsath has been looking for you. Hurry over to the Bismarck and ask the guildmaster what he requires of you."
-2,"TEXT_CLSCUL580_02046_SEQ_02","Lyngsath informs you that Master Dellemont, founder and judge of the contest of his namesake, is due at the Bismarck to inspect the venue. With his hands full preparing for the visit, Lyngsath needs you to cook for an old friend in his stead. The friend, an elderly retired pirate, is fond of meat, but no longer has the teeth with which to masticate it. To this end, Lyngsath bids you prepare for him a dish that is at once meaty and tender─cockatrice meatballs."
-3,"TEXT_CLSCUL580_02046_SEQ_03","No sooner do you present the cockatrice meatballs to Lyngsath than Master Dellemont arrives at the Bismarck. He waits patiently as the guildmaster serves his old friend, who devours his meal with relish and leaves with a smile on his face. Shortly thereafter, H'mhasi Tia and Melkoko come to pay their respects to Master Dellemont, but an argument breaks out between them which culminates in an unexpected wager. Though she has absolutely no business doing so, Melkoko agrees to relinquish ownership of the Bismarck to H'mhasi Tia should he emerge triumphant in the Dellemont d'Or. Should he lose to you, however, he must give up his calling. The stakes have become exceedingly high; see to it that you are fully prepared for the contest─for Lyngsath's sake, if no one else's.
+0,"TEXT_CLSCUL580_02046_SEQ_00","永遠の乙女亭のメルココは、冒険者に聞いてほしい話があるようだ。"
+1,"TEXT_CLSCUL580_02046_SEQ_01","メルココによると、リングサスが冒険者を探していたという。リムサ・ロミンサのレストラン「ビスマルク」にいる「リングサス」と話そう。"
+2,"TEXT_CLSCUL580_02046_SEQ_02","リングサスと話した。デルモンの対応で忙しいリングサスは、冒険者に恩人の料理を作ってほしいようだ。「<Sheet(ItemHQ,12858,0)/>」を製作して、レストラン「ビスマルク」の「リングサス」に納品しよう。"
+3,"TEXT_CLSCUL580_02046_SEQ_03","<Sheet(ItemHQ,12858,0)/>を、リングサスに納品した。元船乗りのご隠居は、料理を気に入ってくれたようだ。メルココとハ・マシャ・ティアの口論で、デルモン・ドールが、レストラン「ビスマルク」の看板と、ハ・マシャ・ティアの料理人生命をかけた争いになってしまった。負けられない戦いに供えて気持ちを引き締めよう。
 
-※The next culinarian quest will be available from Melkoko upon reaching level 60."
+※調理師のレベルが60以上になると、永遠の乙女亭のメルココから次の調理師クエストを受注することができます。"
 4,"TEXT_CLSCUL580_02046_SEQ_04",""
 5,"TEXT_CLSCUL580_02046_SEQ_05",""
 6,"TEXT_CLSCUL580_02046_SEQ_06",""
@@ -27,8 +27,8 @@ int32,str,str
 21,"TEXT_CLSCUL580_02046_SEQ_21",""
 22,"TEXT_CLSCUL580_02046_SEQ_22",""
 23,"TEXT_CLSCUL580_02046_SEQ_23",""
-24,"TEXT_CLSCUL580_02046_TODO_00","Speak with Lyngsath."
-25,"TEXT_CLSCUL580_02046_TODO_01","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Synthesize a serving of cockatrice meatballs <Sheet(Addon,9,0)/><Else/>Deliver the cockatrice meatballs <Sheet(Addon,9,0)/> to Lyngsath</If>."
+24,"TEXT_CLSCUL580_02046_TODO_00","リングサスと話す"
+25,"TEXT_CLSCUL580_02046_TODO_01","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))><Sheet(ItemHQ,12858,0)/>を製作<Else/>リングサスに<Sheet(ItemHQ,12858,0)/>を納品</If>"
 26,"TEXT_CLSCUL580_02046_TODO_02",""
 27,"TEXT_CLSCUL580_02046_TODO_03",""
 28,"TEXT_CLSCUL580_02046_TODO_04",""
@@ -51,45 +51,81 @@ int32,str,str
 45,"TEXT_CLSCUL580_02046_TODO_21",""
 46,"TEXT_CLSCUL580_02046_TODO_22",""
 47,"TEXT_CLSCUL580_02046_TODO_23",""
-48,"TEXT_CLSCUL580_02046_MELKOKO_000_000","Doubtless you're wondering what became of Captain Rhoswen's plot. Well, shortly after you left, she invited Carvallain to her ship for dinner. Alas, he was suspicious of her intent from the first, and refused to put anything in his mouth. He just sat there, poking and prodding his meal..."
-49,"TEXT_CLSCUL580_02046_MELKOKO_000_001","Gah, what a bloody waste! Fer all 'er talk of offin' 'im, it wasn't a trap at all! <sigh> If only she weren't so godsdamned proud an' stubborn..."
-50,"TEXT_CLSCUL580_02046_MELKOKO_000_002","And that's the only news I have to share.
-...Ah, right! Lyngsath was looking for you. He seemed to be in a spot of bother, so you had best go and see what's afoot."
-51,"TEXT_CLSCUL580_02046_MELKOKO_000_005","Lyngsath was looking for you. He seemed to be in a spot of bother, so you had best go and see what's afoot."
-52,"TEXT_CLSCUL580_02046_LYNGSATH_000_010","Thanks fer comin', <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I realize yer busy preparin' fer the contest an' all, but I needs yer 'elp with somethin'."
-53,"TEXT_CLSCUL580_02046_LYNGSATH_000_011","Ye see, Master Dellemont's due to come an' inspect the Bismarck. I don't doubt ye see the connection, but 'e's the founder o' the contest an' a livin' legend o' cookin'. But most importantly fer you, 'e's also the judge."
-54,"TEXT_CLSCUL580_02046_LYNGSATH_000_012","Anyroad, I've got me 'ands full tryin' to sort the place out afore Master Dellemont arrives. Thing is, an old friend o' mine's comin' to dine any moment now, but I can't peel meself away from me work long enough to look after 'im. I'd be obliged if ye could prepare 'is meal in me stead."
-55,"TEXT_CLSCUL580_02046_LYNGSATH_000_013","The man's loved meat since 'e was a young pirate, but age 'as taken its toll, an' 'e's got 'ardly any teeth left."
-56,"TEXT_CLSCUL580_02046_LYNGSATH_000_014","That bein' the case, I wants ye to cook 'im something what's meaty but tender. A nice servin' o' cockatrice meatballs, say. Thanks in advance, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
-57,"TEXT_CLSCUL580_02046_MELKOKO_000_025",""
-58,"TEXT_CLSCUL580_02046_LYNGSATH_000_030","'Ow's the cockatrice meatballs comin' along? Me friend will be 'ere any moment now."
-59,"TEXT_CLSCUL580_02046_LYNGSATH_100_030","Welcome to the Bismarck, Master Dellemont! We're honored by yer visit!"
-60,"TEXT_CLSCUL580_02046_LYNGSATH_000_031",""
-61,"TEXT_CLSCUL580_02046_DELLEMMONT_000_032","You must be Lyngsath's foremost student. Aye, I have heard much and more about your exploits. But you are in the midst of serving a customer─pray do not mind me."
-62,"TEXT_CLSCUL580_02046_LYNGSATH_000_033","So, 'ow do ye like it, old friend?"
-63,"TEXT_CLSCUL580_02046_GOINKYO02046_000_034","It'sh sho tender it crumblesh in my mouth, but it'sh shtill everything I love about meat─the tashte, the tekshure, the juishinesh! That'sh to shay...I love it!"
-64,"TEXT_CLSCUL580_02046_LYNGSATH_000_035",""
-65,"TEXT_CLSCUL580_02046_LYNGSATH_000_036","'E was the captain of 'is own ship back in the day. Was strong as an ox, too."
-66,"TEXT_CLSCUL580_02046_LYNGSATH_000_037","But age robbed 'im of 'is strength, along with most of 'is teeth, an' 'e couldn't eat all the stuff 'e loved no more. Seein' 'im 'appy like that, it brings a tear to me eye. Thank ye, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
-67,"TEXT_CLSCUL580_02046_LYNGSATH_000_038",""
-68,"TEXT_CLSCUL580_02046_DELLEMMONT_000_039","I am pleased to see that all is smooth sailing at the Bismarck."
-69,"TEXT_CLSCUL580_02046_HMHASITIA_000_040","Master Dellemont, it has been a while. I was told that you would be visiting this day, and I wished to pay my respects."
-70,"TEXT_CLSCUL580_02046_DELLEMMONT_000_041","Ah, if it isn't the reigning champion. You surpassed all expectations last time, and I fully expect that you will do so again."
-71,"TEXT_CLSCUL580_02046_HMHASITIA_000_042",""
-72,"TEXT_CLSCUL580_02046_MELKOKO_000_043","Hmph, who do you think you're fooling with that false modesty?"
-73,"TEXT_CLSCUL580_02046_HMHASITIA_000_044","You're participating in the Dellemont d'Or, too, yes? Do yourself a favor: don't bother preparing a speech. You won't get the chance to use it."
-74,"TEXT_CLSCUL580_02046_MELKOKO_000_045",""
-75,"TEXT_CLSCUL580_02046_HMHASITIA_000_046",""
-76,"TEXT_CLSCUL580_02046_MELKOKO_000_047","Why, you arrogant...! <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>'s the guild's best culinarian, I'll 'ave ye know! Ye've got nothin' on <If(PlayerParameter(4))>'er<Else/>'im</If>!"
-77,"TEXT_CLSCUL580_02046_HMHASITIA_000_048","So, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> competes for the honor of the guild. That's all well and good, but how about we compete for something more...tangible? This restaurant, for instance?"
-78,"TEXT_CLSCUL580_02046_MELKOKO_000_049","Done! But if you lose, ye've got to swear to give up bein' a culinarian!"
-79,"TEXT_CLSCUL580_02046_HMHASITIA_000_050","Master Dellemont, may we ask you to stand as witness to this agreement?"
-80,"TEXT_CLSCUL580_02046_DELLEMMONT_000_051","A restaurant and a calling─such high stakes will serve to liven up the contest! I look forward to seeing how this will unfold!"
-81,"TEXT_CLSCUL580_02046_LYNGSATH_000_052",""
-82,"TEXT_CLSCUL580_02046_DELLEMMONT_000_053",""
-83,"TEXT_CLSCUL580_02046_LYNGSATH_000_054",""
-84,"TEXT_CLSCUL580_02046_DELLEMMONT_000_055",""
-85,"TEXT_CLSCUL580_02046_HMHASITIA_000_056",""
-86,"TEXT_CLSCUL580_02046_MELKOKO_000_057",""
-87,"TEXT_CLSCUL580_02046_LYNGSATH_000_058","I...I didn't just imagine that, did I? Melkoko wagerin' the Bismarck on yer winnin' the Dellemont d'Or? Not to say that I don't believe in ye, <If(PlayerParameter(4))>lass<Else/>son</If>...but this place ain't 'ers to wager! Arrrgh, gods-bloody-dammit!"
-88,"TEXT_CLSCUL580_02046_SYSTEM_000_070",""
+48,"TEXT_CLSCUL580_02046_MELKOKO_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん、聞いてくださいよ。
+あれから姐さんは、カルヴァランを船に招いて、
+<Sheet(ItemHQ,12862,0)/>を振る舞ったんですが……。"
+49,"TEXT_CLSCUL580_02046_MELKOKO_000_001","カルヴァランの野郎、油断させる罠だと疑って、
+結局、一口も食べることなく、帰っちゃったんです！
+もう～、本当は、罠なんかじゃないのに～！"
+50,"TEXT_CLSCUL580_02046_MELKOKO_000_002","……とまあ、今回はそれだけなんですけど……
+そういえば「リングサス」さんが、あなたを探してましたよ。
+なにやら、困っているようでしたけど……。"
+51,"TEXT_CLSCUL580_02046_MELKOKO_000_005","そういえば「リングサス」さんが、あなたを探してましたよ。
+なにやら、困っているようでしたけど……。"
+52,"TEXT_CLSCUL580_02046_LYNGSATH_000_010","おお、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、よく来てくれた。
+「デルモン・ドール」が迫ってるってのに、すまねえな。"
+53,"TEXT_CLSCUL580_02046_LYNGSATH_000_011","もうすぐ、大会の創設者で審査員のデルモンさんが、
+視察にいらっしゃる……。
+伝説の調理師と名高いお方だ。"
+54,"TEXT_CLSCUL580_02046_LYNGSATH_000_012","さすがに、俺がご案内しなければならないが、
+そんなときにかぎって、俺の恩人が来店することになってな。
+その人に出す料理を、お前さんに任せたいんだ。"
+55,"TEXT_CLSCUL580_02046_LYNGSATH_000_013","恩人である「元船乗りのご隠居」は、大層な肉好き……。
+だが、ご高齢だけあって、歯も抜けておられる。"
+56,"TEXT_CLSCUL580_02046_LYNGSATH_000_014","お前さんの腕で、ご隠居でも食べやすい、
+柔らかな「<Sheet(ItemHQ,12858,0)/>」を作ってくれ……頼んだぞ！"
+57,"TEXT_CLSCUL580_02046_MELKOKO_000_025","（★未使用／削除予定★）"
+58,"TEXT_CLSCUL580_02046_LYNGSATH_000_030","「<Sheet(ItemHQ,12858,0)/>」は順調か？
+そろそろ、ご隠居とデルモンさんがお見えになるころだ。"
+59,"TEXT_CLSCUL580_02046_LYNGSATH_100_030","おお、これはデルモンさん！
+レストラン「ビスマルク」へようこそいらっしゃいました。"
+60,"TEXT_CLSCUL580_02046_LYNGSATH_000_031","（★未使用／削除予定★）"
+61,"TEXT_CLSCUL580_02046_DELLEMMONT_000_032","あなたが、リングサス君の秘蔵っ子ですか。
+お噂は、かねがね伺っておりますよ……。
+……その料理を出すところを、私も見せていただきましょう。"
+62,"TEXT_CLSCUL580_02046_LYNGSATH_000_033","……いかがでしたでしょうか？"
+63,"TEXT_CLSCUL580_02046_GOINKYO02046_000_034","フガフガ……口のにゃかで崩れりゅ柔らかしゃ……
+しょれでも、肉の食感と旨味も失ってにゃい……
+フガフガ……ふむ、あっぱれじゃ！"
+64,"TEXT_CLSCUL580_02046_LYNGSATH_000_035","（★未使用／削除予定★）"
+65,"TEXT_CLSCUL580_02046_LYNGSATH_000_036","ありがとよ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
+とても満足して帰っていったよ。"
+66,"TEXT_CLSCUL580_02046_LYNGSATH_000_037","あのご隠居は戦艦の艦長だったんだが、退役してからは、
+なかなか大好きな肉も食べられなくてな……。
+それが、あの喜びよう……見ていて涙が出そうだったぞ。"
+67,"TEXT_CLSCUL580_02046_LYNGSATH_000_038","（★未使用／削除予定★）"
+68,"TEXT_CLSCUL580_02046_DELLEMMONT_000_039","どうやら、名店、レストラン「ビスマルク」は、
+安泰のようですねぇ……。"
+69,"TEXT_CLSCUL580_02046_HMHASITIA_000_040","ここに居られましたか。
+ご無沙汰しております、デルモンさん、
+不肖ながら、ご挨拶に参りました。"
+70,"TEXT_CLSCUL580_02046_DELLEMMONT_000_041","おお、前回の優勝者のハ・マシャ君ではないか。
+今回も参加するそうだね、期待しているよ。"
+71,"TEXT_CLSCUL580_02046_HMHASITIA_000_042","（★未使用／削除予定★）"
+72,"TEXT_CLSCUL580_02046_MELKOKO_000_043","フンだ……猫被っちゃって、イヤな感じ～。"
+73,"TEXT_CLSCUL580_02046_HMHASITIA_000_044","……あんたが今大会の有力者だって？
+優勝式辞の心配は無用だ、こっちに任せとけ。"
+74,"TEXT_CLSCUL580_02046_MELKOKO_000_045","（★未使用／削除予定★）"
+75,"TEXT_CLSCUL580_02046_HMHASITIA_000_046","（★未使用／削除予定★）"
+76,"TEXT_CLSCUL580_02046_MELKOKO_000_047","なによっ！　<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さんは、
+調理師ギルドいちの凄腕なんだから！
+あんたなんか、屁のカッパよ！"
+77,"TEXT_CLSCUL580_02046_HMHASITIA_000_048","フッ、調理師ギルドを代表する料理人か……。
+だったら、俺が勝てば、このレストランをもらっていいか？"
+78,"TEXT_CLSCUL580_02046_MELKOKO_000_049","のっ、望むところよっ……！
+そのかわり、あんたが負けたら、調理師を辞めてもらうわ！"
+79,"TEXT_CLSCUL580_02046_HMHASITIA_000_050","いいだろう……
+デルモンさん、今の言葉の証人になっていただけますか？"
+80,"TEXT_CLSCUL580_02046_DELLEMMONT_000_051","ほう、レストランの看板と、調理師生命をかけた勝負……。
+面白いですな、大会を盛り上げるには打ってつけ！
+では、「デルモン・ドール」でお会いしましょう！"
+81,"TEXT_CLSCUL580_02046_LYNGSATH_000_052","（★未使用／削除予定★）"
+82,"TEXT_CLSCUL580_02046_DELLEMMONT_000_053","（★未使用／削除予定★）"
+83,"TEXT_CLSCUL580_02046_LYNGSATH_000_054","（★未使用／削除予定★）"
+84,"TEXT_CLSCUL580_02046_DELLEMMONT_000_055","（★未使用／削除予定★）"
+85,"TEXT_CLSCUL580_02046_HMHASITIA_000_056","（★未使用／削除予定★）"
+86,"TEXT_CLSCUL580_02046_MELKOKO_000_057","（★未使用／削除予定★）"
+87,"TEXT_CLSCUL580_02046_LYNGSATH_000_058","勝手にウチの看板を賭けるなんて……。
+お前さんの腕は信じちゃいるが、無茶をしてくれる。
+こうなったら、是が非でも優勝してもらわんとな！"
+88,"TEXT_CLSCUL580_02046_SYSTEM_000_070","（★未使用／削除予定★）"

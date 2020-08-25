@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDA619_02545_SEQ_00","Raubahn wishes to thank you for your service."
+0,"TEXT_STMBDA619_02545_SEQ_00","カストルム・アバニア前のラウバーンは、作戦の状況を確認している。"
 1,"TEXT_STMBDA619_02545_SEQ_01",""
 2,"TEXT_STMBDA619_02545_SEQ_02",""
 3,"TEXT_STMBDA619_02545_SEQ_03",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_STMBDA619_02545_SEQ_21",""
 22,"TEXT_STMBDA619_02545_SEQ_22",""
 23,"TEXT_STMBDA619_02545_SEQ_23",""
-24,"TEXT_STMBDA619_02545_TODO_00","Follow Raubahn to Coldhearth."
+24,"TEXT_STMBDA619_02545_TODO_00","ラウバーンと話す"
 25,"TEXT_STMBDA619_02545_TODO_01",""
 26,"TEXT_STMBDA619_02545_TODO_02",""
 27,"TEXT_STMBDA619_02545_TODO_03",""
@@ -49,22 +49,45 @@ int32,str,str
 45,"TEXT_STMBDA619_02545_TODO_21",""
 46,"TEXT_STMBDA619_02545_TODO_22",""
 47,"TEXT_STMBDA619_02545_TODO_23",""
-48,"TEXT_STMBDA619_02545_SERPENTOFFICER_000_001","I am told one of your comrades was injured during the operation. If there is aught we can do to help, pray do not hesitate to ask."
-49,"TEXT_STMBDA619_02545_LYSE_000_005","...Maybe we should speak with General Aldynn. Just in case his men learned something about Krile."
-50,"TEXT_STMBDA619_02545_RAUBAHN_000_010","<If(GreaterThan(PlayerParameter(52),0))><Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Else/><If(GreaterThan(PlayerParameter(53),0))><Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Else/><Clickable(<If(GreaterThan(PlayerParameter(52),0))><Sheet(GCRankLimsaMaleText,PlayerParameter(52),8)/><Else/></If><If(GreaterThan(PlayerParameter(53),0))><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),8)/><Else/></If><If(GreaterThan(PlayerParameter(54),0))><Sheet(GCRankUldahMaleText,PlayerParameter(54),8)/><Else/></If>)/></If></If>, Commander Hext. Fine work you did today."
-51,"TEXT_STMBDA619_02545_RAUBAHN_000_011","After Specula Imperatoris, we needed a resounding victory like this. Thanks to you, Rhalgr's star yet burns bright."
-52,"TEXT_STMBDA619_02545_LYSE_000_012","I'm glad, I really am. But you should know that Alisaie was injured in the fighting..."
-53,"TEXT_STMBDA619_02545_RAUBAHN_000_013","...Regrettable, but I am pleased to hear that she will make a full recovery. Fordola's parting words, on the other hand, ring less favorably in my ears."
-54,"TEXT_STMBDA619_02545_RAUBAHN_000_014","But if Zenos wishes to invite us to his so-called “royal hunt,” then this bull would fain accept!"
-55,"TEXT_STMBDA619_02545_RAUBAHN_000_015","...What troubles you, Lyse?"
-56,"TEXT_STMBDA619_02545_LYSE_000_016","O-Oh, it's nothing really, just that...we're almost to the end, but we've still got to save Krile and do so much more..."
-57,"TEXT_STMBDA619_02545_RAUBAHN_000_017","We'll find her soon enough. Pipin has his best men scouring the castrum's archives as we speak."
-58,"TEXT_STMBDA619_02545_LYSE_100_017","..."
-59,"TEXT_STMBDA619_02545_RAUBAHN_000_018","...Listen, Lyse. It will take time for us to fully occupy the castrum and prepare to advance into the Lochs. While we wait, there is something I would like to show you. Both of you."
-60,"TEXT_STMBDA619_02545_RAUBAHN_000_019","After all, this may be the last chance we have to catch our breath before the final push."
-61,"TEXT_STMBDA619_02545_LYSE_000_020","I don't see why not..."
-62,"TEXT_STMBDA619_02545_RAUBAHN_000_021","Then come with me to Radiata. From there we'll need to follow another road south."
-63,"TEXT_STMBDA619_02545_LYSE_000_025",""
-64,"TEXT_STMBDA619_02545_RAUBAHN_000_030",""
-65,"TEXT_STMBDA619_02545_LYSE_000_035","I don't think I know this village. It's so small..."
-66,"TEXT_STMBDA619_02545_RAUBAHN_000_040","Even after all these years, it's still the same... Ah, but I'm getting ahead of myself. You deserve a proper welcome."
+48,"TEXT_STMBDA619_02545_SERPENTOFFICER_000_001","お仲間のひとりが負傷されたとか……。
+我々にできることがあれば、何なりとおっしゃってください。"
+49,"TEXT_STMBDA619_02545_LYSE_000_005","ひとまず「ラウバーン」局長と話そう。
+クルルについての情報が見つかってないかも聞きたいしね。"
+50,"TEXT_STMBDA619_02545_RAUBAHN_000_010","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、リセ……
+あらためて、礼を言わせてもらいたい。
+よくぞ、カノン砲を封じてくれた。"
+51,"TEXT_STMBDA619_02545_RAUBAHN_000_011","「暁」とアラミゴ解放軍の活躍により、
+本隊は、無傷のまま敵拠点に接近できたのは大きい。
+被害も最小限に抑えられたしな。"
+52,"TEXT_STMBDA619_02545_LYSE_000_012","こっちも、大きな被害はなかったけど、
+アリゼーが……。"
+53,"TEXT_STMBDA619_02545_RAUBAHN_000_013","アリゼー嬢のことは心配だが、
+命が助かったことは不幸中の幸いであろう。
+しかし、髑髏連隊の女隊長が、そのような戯れ言をな……。"
+54,"TEXT_STMBDA619_02545_RAUBAHN_000_014","ならば、その「皇族主催の狩猟祭」とやらへの招待、
+ありがたく受けてやろうではないか！
+アラミゴの猛牛が簡単に狩れぬ獲物だと教えてくれる！"
+55,"TEXT_STMBDA619_02545_RAUBAHN_000_015","……どうした、リセよ。
+フォルドラの言葉を聞き、何か思うところが？"
+56,"TEXT_STMBDA619_02545_LYSE_000_016","……そんなこと、ないよ。
+アタシは大丈夫だし、アラミゴの奪還まで、あと一歩。
+それにクルルも助けなきゃいけない！"
+57,"TEXT_STMBDA619_02545_RAUBAHN_000_017","そうだな。
+クルル嬢の居所は、未だに判明していないが、
+ピピンが進めている基地内の調査で、何かが判明するかもしれん。"
+58,"TEXT_STMBDA619_02545_LYSE_100_017","…………。"
+59,"TEXT_STMBDA619_02545_RAUBAHN_000_018","ギラバニア湖畔地帯へ通じる坑道の安全確保を含めて、
+いずれにせよ、今しばらく時間がかかるだろう。"
+60,"TEXT_STMBDA619_02545_RAUBAHN_000_019","そこでだ……少し顔を貸してくれんか？
+貴様たちに見せておきたい場所があるのだ。
+帝国軍との決戦に臨む前にこそ……な。"
+61,"TEXT_STMBDA619_02545_LYSE_000_020","構わないけれど……。"
+62,"TEXT_STMBDA619_02545_RAUBAHN_000_021","では、ふたりとも吾輩についてきてくれ。
+街道をラジアタまで戻り、南側の細道に向かうぞ。"
+63,"TEXT_STMBDA619_02545_LYSE_000_025","（★未使用／削除予定★）"
+64,"TEXT_STMBDA619_02545_RAUBAHN_000_030","（★未使用／削除予定★）"
+65,"TEXT_STMBDA619_02545_LYSE_000_035","ずいぶん寂しい村だね……。
+畑の実りも少なそうだし、活気もない……。"
+66,"TEXT_STMBDA619_02545_RAUBAHN_000_040","フッ……相変わらずの光景だな……。
+おっとすまない、つい懐かしい気分に浸ってしまってな。
+ひとまず、よくぞ来てくれたと歓迎しておこう。"

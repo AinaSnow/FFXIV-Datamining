@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNZ627_01895_SEQ_00","Jantellot appears to be plotting something."
-1,"TEXT_HEAVNZ627_01895_SEQ_01","Jantellot has come up with an incredible plan, but needs your help in enacting it. He needs you to travel to the Slate Mountains and kill four vindthurs─but has yet to explain why."
-2,"TEXT_HEAVNZ627_01895_SEQ_02","You unquestioningly put the vindthurs to slaughter. Jantellot will be pleased to hear of this development..."
-3,"TEXT_HEAVNZ627_01895_SEQ_03","You return to Jantellot and notify him of your victory over the vindthurs. He reveals to you that he plans to retrieve the frozen Dravanian corpses from the mountain and claim them as his own conquests. You find yourself questioning the soundness of his plan...and his mind."
+0,"TEXT_HEAVNZ627_01895_SEQ_00","聖フィネア連隊の露営地のジャントゥローは名案を閃いたようだ。"
+1,"TEXT_HEAVNZ627_01895_SEQ_01","ジャントゥローから話を聞いた。クルザス西部高地のスレート連峰を練り歩く「<Sheet(BNpcName,3493,0)/>」を4体討伐しよう。"
+2,"TEXT_HEAVNZ627_01895_SEQ_02","<Sheet(BNpcName,3493,0)/>を討伐した。聖フィネア連隊の露営地の「ジャントゥロー」に報告しよう。"
+3,"TEXT_HEAVNZ627_01895_SEQ_03","ジャントゥローに報告した。彼は、スレート連峰で凍りついたドラゴン族の遺骸を持ち帰り、自分の功績とするつもりのようだ。"
 4,"TEXT_HEAVNZ627_01895_SEQ_04",""
 5,"TEXT_HEAVNZ627_01895_SEQ_05",""
 6,"TEXT_HEAVNZ627_01895_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_HEAVNZ627_01895_SEQ_21",""
 22,"TEXT_HEAVNZ627_01895_SEQ_22",""
 23,"TEXT_HEAVNZ627_01895_SEQ_23",""
-24,"TEXT_HEAVNZ627_01895_TODO_00","Slay vindthurs."
-25,"TEXT_HEAVNZ627_01895_TODO_01","Report to Jantellot."
+24,"TEXT_HEAVNZ627_01895_TODO_00","<Sheet(BNpcName,3493,0)/>を討伐"
+25,"TEXT_HEAVNZ627_01895_TODO_01","ジャントゥローに報告"
 26,"TEXT_HEAVNZ627_01895_TODO_02",""
 27,"TEXT_HEAVNZ627_01895_TODO_03",""
 28,"TEXT_HEAVNZ627_01895_TODO_04",""
@@ -49,9 +49,20 @@ int32,str,str
 45,"TEXT_HEAVNZ627_01895_TODO_21",""
 46,"TEXT_HEAVNZ627_01895_TODO_22",""
 47,"TEXT_HEAVNZ627_01895_TODO_23",""
-48,"TEXT_HEAVNZ627_01895_JANTELLOT_000_000","Oh, good to see you! You know, just <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>this morning<Else/>last night</If><Else/><If(LessThan(PlayerParameter(11),17))>this morning<Else/>this morning</If></If>, I had a marvelous idea...and you're <Emphasis>just</Emphasis> the <If(PlayerParameter(4))>woman<Else/>man</If> to help me carry it out."
-49,"TEXT_HEAVNZ627_01895_JANTELLOT_000_001","Head out to the Slate Mountains and kill some of the vindthurs for me. Four of them should be enough."
-50,"TEXT_HEAVNZ627_01895_JANTELLOT_000_010","Remember: the Slate Mountains, four vindthurs. All shall be revealed in the fullness of time."
-51,"TEXT_HEAVNZ627_01895_JANTELLOT_000_020","You've slain them already? I knew I could count on you! With those creatures out of the way, I can move on to the next step of my plan!"
-52,"TEXT_HEAVNZ627_01895_JANTELLOT_000_021","The mountains are littered with frozen dragon corpses─perfectly preserved! When I thaw them out, I should have no trouble in convincing everyone that I killed them myself. I'll be heralded as the greatest dragonslayer in the land!"
-53,"TEXT_HEAVNZ627_01895_JANTELLOT_000_022","Just you wait, you pompous nobles! I'll show you! I'll show you all! Mwahahahaha!"
+48,"TEXT_HEAVNZ627_01895_JANTELLOT_000_000","……くくく、いいところにきたな。
+ちょうど、お前に頼みたいことがあったところだ。
+なに、名案を閃いちまってよ。"
+49,"TEXT_HEAVNZ627_01895_JANTELLOT_000_001","「スレート連峰」の「<Sheet(BNpcName,3493,0)/>」を倒してきてほしい。
+そうだな、4体ぐらいでいいはずだ。
+俺の未来のためにも、頼んだぜ！"
+50,"TEXT_HEAVNZ627_01895_JANTELLOT_000_010","「スレート連峰」の「<Sheet(BNpcName,3493,0)/>」を倒してきてほしい。
+そうだな、4体ぐらいでいいはずだ。
+俺の未来のためにも、頼んだぜ！"
+51,"TEXT_HEAVNZ627_01895_JANTELLOT_000_020","もう終わったのか！？　さすがだな、頼んでよかったぜ！
+邪魔な魔物がいなくなりゃ、俺の名案が試せるってもんだ。
+……くくく、何をする気か気になるか？　秘密だぜ？"
+52,"TEXT_HEAVNZ627_01895_JANTELLOT_000_021","あの辺りには、ドラゴン族の遺骸が凍りついてるんだ。
+保存状態の良い遺骸を取ってきてみろ……
+俺が討伐したって言い張れるに違いない！"
+53,"TEXT_HEAVNZ627_01895_JANTELLOT_000_022","くくく、本家のヤツらめ、今に見てろよ……。
+いまに成り上がって、俺が天下をとってみせるからな！"

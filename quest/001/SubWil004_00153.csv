@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBWIL004_00153_SEQ_00","Hihito has had enough of her husband's poor work ethic, and needs someone to whip him into shape."
-1,"TEXT_SUBWIL004_00153_SEQ_01","Hihito is frustrated with her husband, whose lack of ambition is leading them to financial ruin. Speak with Bobonima outside the Coliseum and find some way to motivate him."
-2,"TEXT_SUBWIL004_00153_SEQ_02","Bobonima is clearly annoyed with your meddling in his personal affairs. Nonetheless, he takes your presence to his advantage, and bids you help him by putting up Franz the Fair flyers inside the Coliseum."
-3,"TEXT_SUBWIL004_00153_SEQ_03","You find suitable spots for all the flyers. Seek out Wolkan at the Gladiators' Guild and tell him how you helped Bobonima."
-4,"TEXT_SUBWIL004_00153_SEQ_04","Your tale elicits Wolkan's gratitude as well as his sympathies, as the rocky relationship between Bobonima and his wife is anything but secret."
+0,"TEXT_SUBWIL004_00153_SEQ_00","ヒヒトは贅沢な暮らしをするために、旦那であるボボニマをチョコボのようにキリキリ働かせたいらしい。"
+1,"TEXT_SUBWIL004_00153_SEQ_01","「ボボニマ」に話しかけ、彼の勤労意欲を鼓舞しよう。"
+2,"TEXT_SUBWIL004_00153_SEQ_02","ボボニマの仕事を手伝おう。コロセウムの壁に、「剣闘士フランツのポスター」を3枚貼ろう。"
+3,"TEXT_SUBWIL004_00153_SEQ_03","「剣闘士フランツのポスター」を貼り終えることができた。「剣術士ギルド」の受付にいる「ウォルカン」に報告しよう。"
+4,"TEXT_SUBWIL004_00153_SEQ_04","仕事を手伝い、ウォルカンに褒められた。そして恐妻家ボボニマの給料もチョッピリ上がって、きっと彼の生活も楽になる……だろう。"
 5,"TEXT_SUBWIL004_00153_SEQ_05",""
 6,"TEXT_SUBWIL004_00153_SEQ_06",""
 7,"TEXT_SUBWIL004_00153_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_SUBWIL004_00153_SEQ_21",""
 22,"TEXT_SUBWIL004_00153_SEQ_22",""
 23,"TEXT_SUBWIL004_00153_SEQ_23",""
-24,"TEXT_SUBWIL004_00153_TODO_00","Speak with Bobonima."
-25,"TEXT_SUBWIL004_00153_TODO_01","Post the flyers inside the Coliseum."
-26,"TEXT_SUBWIL004_00153_TODO_02","Speak with Wolkan."
+24,"TEXT_SUBWIL004_00153_TODO_00","ボボニマと話す"
+25,"TEXT_SUBWIL004_00153_TODO_01","剣闘士フランツのポスターを貼る"
+26,"TEXT_SUBWIL004_00153_TODO_02","ウォルカンに報告"
 27,"TEXT_SUBWIL004_00153_TODO_03",""
 28,"TEXT_SUBWIL004_00153_TODO_04",""
 29,"TEXT_SUBWIL004_00153_TODO_05",""
@@ -49,15 +49,38 @@ int32,str,str
 45,"TEXT_SUBWIL004_00153_TODO_21",""
 46,"TEXT_SUBWIL004_00153_TODO_22",""
 47,"TEXT_SUBWIL004_00153_TODO_23",""
-48,"TEXT_SUBWIL004_00153_HIHITO_000_1","How can the Ossuary demand such exorbitant contributions every single moon!? It's outrageous, I tell you!"
-49,"TEXT_SUBWIL004_00153_HIHITO_000_2","Don't they understand that a woman has <Emphasis>needs</Emphasis>? How do they expect me to pay for rouge and Sunsilk dresses, <Emphasis>and</Emphasis> feed my marmot?"
-50,"TEXT_SUBWIL004_00153_HIHITO_000_3","Oh, if only I'd had the foresight to marry a more ambitious man! This is all <Emphasis>his</Emphasis> fault! "
-51,"TEXT_SUBWIL004_00153_HIHITO_000_4","If he just worked harder and showed some initiative, surely he would be rewarded─maybe even promoted!"
-52,"TEXT_SUBWIL004_00153_HIHITO_000_5","If things don't improve, it won't be long before I join the beggars in Pearl Lane. Save me from this cruel fate, I beg of you! Speak with my husband, Bobonima, and find some way to motivate him! You should find him at the Coliseum entrance, wearing one of those ridiculous outfits."
-53,"TEXT_SUBWIL004_00153_BOBONIMA_000_10","...Aye, I'm Bobonima. Congratulations, you've found the world's worst husband."
-54,"TEXT_SUBWIL004_00153_BOBONIMA_000_11","That is, if you believe that harpy I have for a wife. She never cooks, she never cleans, she just gallivants around spending my hard-earned money. And now I see she's speaking ill of me to bloody strangers!"
-55,"TEXT_SUBWIL004_00153_BOBONIMA_000_12","Well, if you're hells-bent on meddling in my affairs, you can assist me by taking some of these Franz the Fair flyers and posting them on the walls inside the Coliseum."
-56,"TEXT_SUBWIL004_00153_BOBONIMA_000_13","I've <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>got a long night<Else/>got a long day</If><Else/><If(LessThan(PlayerParameter(11),17))>still got a long shift<Else/>got a long night</If></If> ahead of me standing out here, so I won't be getting to it any time soon. When you've finished, go and tell Wolkan at the Gladiators' Guild. He should give you something for your trouble."
-57,"TEXT_SUBWIL004_00153_WOLKAN_000_20","Ye helpin' Bobonima? Well, ain't that charitable of ye! Franz's gotten pretty popular of late, and his fans keep stealin' these flyers and takin' them home as souvenirs."
-58,"TEXT_SUBWIL004_00153_WOLKAN_000_21","...Ahhh, so ye've met Bobonima's wife. <Emphasis>Now</Emphasis> I understand. Sorry to hear ye got caught up in all that."
-59,"TEXT_SUBWIL004_00153_WOLKAN_000_22","If ye ask me, they're made for one another. Not that it's my place to judge, mind. Anyroad, we appreciate yer help."
+48,"TEXT_SUBWIL004_00153_HIHITO_000_1","ああ、もう……ナル神様へのお布施って、
+なんでこんなに高いのかしら！
+しかも毎月毎月、やってらんないわ！"
+49,"TEXT_SUBWIL004_00153_HIHITO_000_2","しかもパーティ用のドレスや美容やグルメ。
+あと、ペットのピーちゃんのエサ代も……。
+もう、破産寸前よ！"
+50,"TEXT_SUBWIL004_00153_HIHITO_000_3","まったく、それもこれもぜ～んぶ旦那のせいよッ！
+あの宿六の稼ぎが少ないから、
+ロクな生活ができないのよッ！"
+51,"TEXT_SUBWIL004_00153_HIHITO_000_4","ちょっと、アナタ！
+ウチの旦那のとこに行って、「キリキリ働けッ！」って
+尻のひとつでも蹴り飛ばしてくんないかしら？"
+52,"TEXT_SUBWIL004_00153_HIHITO_000_5","旦那は「ボボニマ」っていう甲斐性ナシで、
+今は「コロセウム」前あたりで
+剣闘士のポスター貼りの仕事をしてるはずよ。"
+53,"TEXT_SUBWIL004_00153_BOBONIMA_000_10","わ、私がボボニマですが……。
+えっ、か、か、家内からの伝言ですって……!?
+ひ、ひいぃ、かあちゃん許してぇ～！"
+54,"TEXT_SUBWIL004_00153_BOBONIMA_000_11","す、すみませんが冒険者さん！
+この哀れな恐妻家を救うと思って、
+ちょっと私の仕事を手伝ってくれませんか……？"
+55,"TEXT_SUBWIL004_00153_BOBONIMA_000_12","現在、売り出し中の「剣闘士フランツのポスター」を、
+「コロセウム」の「人目につきそうな壁」に貼ってほしいんです。
+コロセウムへは、両側にある入り口のどちらからでも中に入れます。"
+56,"TEXT_SUBWIL004_00153_BOBONIMA_000_13","ポスターを貼り終わったら、
+「剣術士ギルド」の「ウォルカン」に報告してください。
+そして私はきっと今日も徹夜です……はぁ……。"
+57,"TEXT_SUBWIL004_00153_WOLKAN_000_20","フランツのポスターを貼ったって？
+彼は現在赤丸急上昇中の人気剣闘士だからね、ご苦労様。"
+58,"TEXT_SUBWIL004_00153_WOLKAN_000_21","……それにしても、ボボニマのやつ、
+冒険者の手を借りるほど忙しいとは……大変だな。
+今度の給料、ちょっとぐらい色を付けてやるか……。"
+59,"TEXT_SUBWIL004_00153_WOLKAN_000_22","いやはや「結婚は人生の墓場」というが、
+ボボニマはまさに生ける屍ってやつだな……。
+少しは休まないと、ザル神様からお迎えがきちまうぜ。"

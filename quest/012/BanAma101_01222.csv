@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANAMA101_01222_SEQ_00","Fibubb Gah seeks your aid in preparing for a traditional Amalj'aa battle divination."
-1,"TEXT_BANAMA101_01222_SEQ_01","In order to replenish the Brotherhood's stock of divination materials, Fibubb Gah asks you to slay iron tortoises and wildfire sprites. Hunt down the specified creatures to obtain a tortoise shell and two red-hot cores."
-2,"TEXT_BANAMA101_01222_SEQ_02","You have been successful in your hunt. Deliver the iron tortoise shell and fire sprite cores to Fibubb Gah at the Ring of Ash."
-3,"TEXT_BANAMA101_01222_SEQ_03","You have delivered the shell and the cores to Fibubb Gah. The Amalj'aa appears pleased with your contributions, and bids you continue to offer your assistance in the days to come."
+0,"TEXT_BANAMA101_01222_SEQ_00","灰の陣営のフィブブ・ガーは、冒険者に頼みがあるようだ。"
+1,"TEXT_BANAMA101_01222_SEQ_01","フィブブ・ガーの依頼を受けた。ザンラクにいる「<Sheet(BNpcName,243,0)/>」を討伐し「<Sheet(EventItem,2001114,0)/>」を1個、「<Sheet(BNpcName,912,0)/>」を討伐し「<Sheet(EventItem,2001113,0)/>」を2個入手しよう。"
+2,"TEXT_BANAMA101_01222_SEQ_02","魔物を討伐し、<Sheet(EventItem,2001114,0)/>と<Sheet(EventItem,2001113,0)/>を入手した。灰の陣営の「フィブブ・ガー」に「<Sheet(EventItem,2001114,0)/>」と「<Sheet(EventItem,2001113,0)/>」を渡そう。"
+3,"TEXT_BANAMA101_01222_SEQ_03","フィブブ・ガーに、<Sheet(EventItem,2001114,0)/>と<Sheet(EventItem,2001113,0)/>を渡した。フィブブ・ガーは冒険者の働きに満足したようだ。戦いに際し吉兆を占うのがアマルジャ族の流儀だという。次の策が決まったときには再び協力しよう。"
 4,"TEXT_BANAMA101_01222_SEQ_04",""
 5,"TEXT_BANAMA101_01222_SEQ_05",""
 6,"TEXT_BANAMA101_01222_SEQ_06",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_BANAMA101_01222_SEQ_21",""
 22,"TEXT_BANAMA101_01222_SEQ_22",""
 23,"TEXT_BANAMA101_01222_SEQ_23",""
-24,"TEXT_BANAMA101_01222_TODO_00","Obtain an iron tortoise shell from an iron tortoise."
-25,"TEXT_BANAMA101_01222_TODO_01","Obtain fire sprite cores from wildfire sprites."
-26,"TEXT_BANAMA101_01222_TODO_02","Deliver the divination materials to Fibubb Gah."
+24,"TEXT_BANAMA101_01222_TODO_00","<Sheet(BNpcName,243,0)/>から<Sheet(EventItem,2001114,0)/>を入手"
+25,"TEXT_BANAMA101_01222_TODO_01","<Sheet(BNpcName,912,0)/>から<Sheet(EventItem,2001113,0)/>を入手"
+26,"TEXT_BANAMA101_01222_TODO_02","フィブブ・ガーに占術の品を渡す"
 27,"TEXT_BANAMA101_01222_TODO_03",""
 28,"TEXT_BANAMA101_01222_TODO_04",""
 29,"TEXT_BANAMA101_01222_TODO_05",""
@@ -49,11 +49,24 @@ int32,str,str
 45,"TEXT_BANAMA101_01222_TODO_21",""
 46,"TEXT_BANAMA101_01222_TODO_22",""
 47,"TEXT_BANAMA101_01222_TODO_23",""
-48,"TEXT_BANAMA101_01222_FIBUBBGAH_000_001","The zealotry of Ifrit's devotees knows no bounds. They perpetrate all manner of foolish and honorless acts in the name of calling forth the Lord of the Inferno."
-49,"TEXT_BANAMA101_01222_FIBUBBGAH_000_002","It is fortunate, then, that our own counter-strategies are many and varied. We need only read the ashes to divine the most promising tactic, before marching off to do battle with our foes."
-50,"TEXT_BANAMA101_01222_FIBUBBGAH_000_003","Our divinations, however, require a goodly supply of iron tortoise shells. We also require a store of fire sprite cores, for no ordinary fire will otherwise burn hot enough to consume the natural armor of those shambling hills."
-51,"TEXT_BANAMA101_01222_FIBUBBGAH_000_004","Honored ally, would you aid the hunt for iron tortoises and wildfire sprites, and gather the materials for our rituals? These adversaries should prove sufficiently worthy to maintain your warrior's edge while you await more momentous engagements."
-52,"TEXT_BANAMA101_01222_FIBUBBGAH_000_011","Honored ally, would you aid the hunt for iron tortoises and wildfire sprites, and gather the materials for our rituals? These adversaries should prove sufficiently worthy to maintain your warrior's edge while you await more momentous engagements."
-53,"TEXT_BANAMA101_01222_FIBUBBGAH_000_021","Do you have the materials for our divinations?"
-54,"TEXT_BANAMA101_01222_FIBUBBGAH_000_022","Yes, these treasures of Thanalan will be put to good use. Our mystics will be well pleased with your contributions."
-55,"TEXT_BANAMA101_01222_FIBUBBGAH_000_023","These prophetic rituals were once traditional among all Amalj'aa...but the old ways are being forgotten. Once the omens have been scried and our battle-path decided, we shall find further need for your assistance, adventurer."
+48,"TEXT_BANAMA101_01222_FIBUBBGAH_000_001","神にすがる惰弱なる者ども、懲りるということを知らず。
+焔神を喚び寄せんと、愚かなる蠢動の兆しあり。"
+49,"TEXT_BANAMA101_01222_FIBUBBGAH_000_002","幸い、我には複数の策あり……。
+ゆえに、いかなる策に武運ありやと吉兆を占い、
+最良の策を以て、戦いに赴くを望むものなり。"
+50,"TEXT_BANAMA101_01222_FIBUBBGAH_000_003","しかして、占術には「<Sheet(EventItem,2001114,0)/>」と、
+これを焼く「<Sheet(EventItem,2001113,0)/>」が不可欠。
+……我、これらを求める。"
+51,"TEXT_BANAMA101_01222_FIBUBBGAH_000_004","強き者よ、「<Sheet(BNpcName,243,0)/>」から甲羅を、
+「<Sheet(BNpcName,912,0)/>」からその核を集めよ。
+腕をなまらせぬための、ちょうどよい修練になろう。"
+52,"TEXT_BANAMA101_01222_FIBUBBGAH_000_011","強き者よ、「<Sheet(BNpcName,243,0)/>」から甲羅を、
+「<Sheet(BNpcName,912,0)/>」からその核を集めよ。
+腕をなまらせぬための、ちょうどよい修練になろう。"
+53,"TEXT_BANAMA101_01222_FIBUBBGAH_000_021","……占術に必要な品々、集め終わりしか？"
+54,"TEXT_BANAMA101_01222_FIBUBBGAH_000_022","うむ、これぞまさしく「<Sheet(EventItem,2001114,0)/>」と
+「<Sheet(EventItem,2001113,0)/>」……確かに頂戴した。
+運否天賦、これにて占術の準備は万全なり。"
+55,"TEXT_BANAMA101_01222_FIBUBBGAH_000_023","強き者よ……戦いに際しては古式に則して吉兆を占う、
+これ伝統あるアマルジャ族の流儀と知れ。
+策が決まりしときは、また我らに力を貸されよ。"

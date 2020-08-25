@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB206_00837_SEQ_00","The maidservant P'ebaloh has another task for your capable hands."
-1,"TEXT_GAIUSB206_00837_SEQ_01","P'ebaloh has told you that uragnites are making their homes on the pillars below. Use the steel spatulas to dislodge them for summary extermination."
-2,"TEXT_GAIUSB206_00837_SEQ_02","You have triumphed over every murderous mollusk. Report to P'ebaloh."
-3,"TEXT_GAIUSB206_00837_SEQ_03","P'ebaloh bemoans the fact that though she was once a member of the Company of Heroes, even the simple task you have performed is now beyond her. The wounds she suffered from a battle with a primal were more than skin-deep, causing her to trade in her sword for a salver."
+0,"TEXT_GAIUSB206_00837_SEQ_00","コスタ・デル・ソルの執事ペ・エバローには、もうひとつお願いがあるようだ。"
+1,"TEXT_GAIUSB206_00837_SEQ_01","家屋の柱に<Sheet(BNpcName,643,0)/>が住み着いているらしい。「頑丈な支柱」に「<Sheet(EventItem,2000863,0)/>」を使い、現れた「<Sheet(BNpcName,643,0)/>」をすべて倒そう。"
+2,"TEXT_GAIUSB206_00837_SEQ_02","<Sheet(BNpcName,643,0)/>をすべて倒した。コスタ・デル・ソルのペ・エバローに報告しよう。"
+3,"TEXT_GAIUSB206_00837_SEQ_03","かつて海雄旅団で活動していたというペ・エバロー。彼女は蛮神との戦いによって、戦えない体になってしまったらしい。海雄旅団と蛮神の戦いは壮絶なものだったようだ……。"
 4,"TEXT_GAIUSB206_00837_SEQ_04",""
 5,"TEXT_GAIUSB206_00837_SEQ_05",""
 6,"TEXT_GAIUSB206_00837_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSB206_00837_SEQ_21",""
 22,"TEXT_GAIUSB206_00837_SEQ_22",""
 23,"TEXT_GAIUSB206_00837_SEQ_23",""
-24,"TEXT_GAIUSB206_00837_TODO_00","Use steel spatulas on sturdy pillars and slay uragnites."
-25,"TEXT_GAIUSB206_00837_TODO_01","Report to P'ebaloh."
+24,"TEXT_GAIUSB206_00837_TODO_00","頑丈な支柱に<Sheet(EventItem,2000863,0)/>を使い<Sheet(BNpcName,643,0)/>を討伐"
+25,"TEXT_GAIUSB206_00837_TODO_01","ペ・エバローに報告"
 26,"TEXT_GAIUSB206_00837_TODO_02",""
 27,"TEXT_GAIUSB206_00837_TODO_03",""
 28,"TEXT_GAIUSB206_00837_TODO_04",""
@@ -49,11 +49,22 @@ int32,str,str
 45,"TEXT_GAIUSB206_00837_TODO_21",""
 46,"TEXT_GAIUSB206_00837_TODO_22",""
 47,"TEXT_GAIUSB206_00837_TODO_23",""
-48,"TEXT_GAIUSB206_00837_PEBALOH_000_000","I have a more deserving adversary for you this time, adventurer. There are uragnites making their homes on the pillars below. And judging by how deeply rooted they've become, I'd say they've been there for quite a while."
-49,"TEXT_GAIUSB206_00837_PEBALOH_000_001","That said, these steel spatulas should serve to both dislodge the mollusks and preserve our posts at the same time. I would be obliged if you would check out the area and eradicate the little devils."
-50,"TEXT_GAIUSB206_00837_PEBALOH_000_002","You will be amply compensated, of course. Thank you kindly."
-51,"TEXT_GAIUSB206_00837_DUMMY_000_010",""
-52,"TEXT_GAIUSB206_00837_PEBALOH_000_020","Ah, the pillars look sparkling. Thank you, <If(PlayerParameter(4))>milady<Else/>milord</If>. 'Twas only a bit of housekeeping, I suppose, but even that is beyond me."
-53,"TEXT_GAIUSB206_00837_PEBALOH_000_021","I once served in the Company of Heroes, if you can believe it. But a battle with a primal left me grievously wounded and heartsore. I have since kept to more mundane tasks, as I've lost the appetite for bloodshed."
-54,"TEXT_GAIUSB206_00837_PEBALOH_000_022","This life has been good to me. Too many soldiers fight to defend that which they will never know─the joy of learning, the pleasure of ease, the tumult of beauty─but I have known them. Yet, in my dreams of smoke and steel, I still hear my captain calling, “To me, to me...”"
-55,"TEXT_GAIUSB206_00837_POP_MESSAGE_000","You sense a hostile presence!"
+48,"TEXT_GAIUSB206_00837_PEBALOH_000_000","冒険者様、もうひとつ頼まれてはいただけませんか。
+この家屋の柱に<Sheet(BNpcName,643,0)/>が住み着いてしまい……
+すでにかなりの深さまで侵食しているようなのです。"
+49,"TEXT_GAIUSB206_00837_PEBALOH_000_001","「<Sheet(BNpcName,643,0)/>」は、
+支柱に「<Sheet(EventItem,2000863,0)/>」を使えば現れるはず。
+3箇所ほど調べて、魔物をすべて駆除してください。"
+50,"TEXT_GAIUSB206_00837_PEBALOH_000_002","報酬はきちんとお支払いしますので。
+なにとぞ、よろしくお願いいたします。"
+51,"TEXT_GAIUSB206_00837_DUMMY_000_010","（コスタの柱にアイテムを使うとアンモがPOP*5）"
+52,"TEXT_GAIUSB206_00837_PEBALOH_000_020","冒険者様、ご苦労さまでした。
+昔なら、このようなこと難なく片付けていたのですが……
+人に頼まねばならないとは、なんとも情けないものです。"
+53,"TEXT_GAIUSB206_00837_PEBALOH_000_021","……わたくしは以前、海雄旅団で活動をしておりました。
+しかし、蛮神との戦いで、剣を捨てざるをえなくなり……
+今ではゲゲルジュ様の隣に立っているだけ……。"
+54,"TEXT_GAIUSB206_00837_PEBALOH_000_022","……申し訳ございません。
+つまらぬ愚痴をお聞かせしてしまいましたね。
+魔物を駆除していただき、ありがとうございました。"
+55,"TEXT_GAIUSB206_00837_POP_MESSAGE_000","敵の気配を感じた！！"

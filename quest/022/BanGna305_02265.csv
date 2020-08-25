@@ -1,13 +1,16 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANGNA305_02265_SEQ_00","The Vath keeneye's beady eyes look at you expectantly.
-※The difficulty of this quest will be synced to your current level."
-1,"TEXT_BANGNA305_02265_SEQ_01","The hunters of Tailfeather have requested a particular set of goods found only within Loth ast Gnath. Unable to sneak past their heightened security, the Vath keeneye asks you to raid the enemy settlement in his stead. Your goal is to procure three jars of a special paste and three bags of blackloam.
+0,"TEXT_BANGNA305_02265_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト受注クラス・ジョブ制限<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+ヴァスの塚のサーチャーは、冒険者を頼りにしているようだ。"
+1,"TEXT_BANGNA305_02265_SEQ_01","※本クエストには
+「<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow><UIGlow>01</UIGlow><UIForeground>01</UIForeground> レベルアジャスト受注クラス・ジョブ制限」が、
+　設定されています。
+　受注時と同じクラス・ジョブでのみ進行できます。
 
-※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
-2,"TEXT_BANGNA305_02265_SEQ_02","You have obtained the jars of paste and bags of blackloam. Return quickly to Loth ast Vath and deliver them to the Vath keeneye."
-3,"TEXT_BANGNA305_02265_SEQ_03","The Vath keeneye is pleased to see you return safely. As you hand over the spoils taken from the Gnath stronghold, you cannot help but notice his quizzical expression. He tells you these items are a special food reserved for soldiers of the Onemind, which is why he is so puzzled by the hunters' plans. The paste, he says, will be used for rearing chocobos. Though admittedly strange by his standards, this is a reasonable use for such nutritious food. However, he seems more perplexed by their intended use of the blackloam, which the hunters refer to as manure..."
+サーチャーから、テイルフェザーに納品する物資の収集を頼まれた。グナースの塚で「<Sheet(EventItem,2001954,0)/>」を3つ、グナースの塚付近で「<Sheet(EventItem,2001955,0)/>」を3つ、それぞれ入手しよう。"
+2,"TEXT_BANGNA305_02265_SEQ_02","<Sheet(EventItem,2001954,0)/>を3つ、<Sheet(EventItem,2001955,0)/>を3つ入手した。ヴァスの塚の「サーチャー」に「<Sheet(EventItem,2001954,0)/>」と「<Sheet(EventItem,2001955,0)/>」を渡そう。"
+3,"TEXT_BANGNA305_02265_SEQ_03","サーチャーに、<Sheet(EventItem,2001954,0)/>と<Sheet(EventItem,2001955,0)/>を渡した。彼によると、<Sheet(EventItem,2001954,0)/>は、チョコボの雛の餌とされるようだ。栄養価が高いので雛鳥に最適らしい。<Sheet(EventItem,2001955,0)/>はギサールの野菜の肥料にされるようだが、その原料についてサーチャーは何か言いかけて、口を閉ざしてしまった……。"
 4,"TEXT_BANGNA305_02265_SEQ_04",""
 5,"TEXT_BANGNA305_02265_SEQ_05",""
 6,"TEXT_BANGNA305_02265_SEQ_06",""
@@ -28,9 +31,9 @@ int32,str,str
 21,"TEXT_BANGNA305_02265_SEQ_21",""
 22,"TEXT_BANGNA305_02265_SEQ_22",""
 23,"TEXT_BANGNA305_02265_SEQ_23",""
-24,"TEXT_BANGNA305_02265_TODO_00","Obtain jars of paste."
-25,"TEXT_BANGNA305_02265_TODO_01","Obtain blackloam."
-26,"TEXT_BANGNA305_02265_TODO_02","Deliver the paste and blackloam to the Vath keeneye."
+24,"TEXT_BANGNA305_02265_TODO_00","<Sheet(EventItem,2001954,0)/>を入手"
+25,"TEXT_BANGNA305_02265_TODO_01","<Sheet(EventItem,2001955,0)/>を入手"
+26,"TEXT_BANGNA305_02265_TODO_02","サーチャーに<Sheet(EventItem,2001954,0)/>と<Sheet(EventItem,2001955,0)/>を渡す"
 27,"TEXT_BANGNA305_02265_TODO_03",""
 28,"TEXT_BANGNA305_02265_TODO_04",""
 29,"TEXT_BANGNA305_02265_TODO_05",""
@@ -52,11 +55,24 @@ int32,str,str
 45,"TEXT_BANGNA305_02265_TODO_21",""
 46,"TEXT_BANGNA305_02265_TODO_22",""
 47,"TEXT_BANGNA305_02265_TODO_23",""
-48,"TEXT_BANGNA305_02265_SEARCHER_000_000","Thank goodness you are here. <click> <click> We have received a request from Tailfeather, and we fear only you can complete it."
-49,"TEXT_BANGNA305_02265_SEARCHER_000_001","They ask for special paste and loam, but these are not found in Loth ast Vath. No, only the Gnath colony has what they seek. Please, you must sneak into the colony and take them for us. Three bags of each should be all we require."
-50,"TEXT_BANGNA305_02265_SEARCHER_000_002","Be warned, great hunter. The Gnath have strengthened their defenses. We tried to sneak in, but there were too many guards. <click> <click> It will be difficult to enter with so many guards on patrol. Yes, very difficult."
-51,"TEXT_BANGNA305_02265_SEARCHER_000_010","Welcome back, great hunter. Were you able to find the special paste and loam?"
-52,"TEXT_BANGNA305_02265_SEARCHER_000_011","This is it! You have done well. Yes, very well. <click> <click> These are a special food, reserved for elite soldiers of the Onemind, but fleshling hunters seem to misunderstand their purpose."
-53,"TEXT_BANGNA305_02265_SEARCHER_000_012","The paste will be given to chocobo chicks for rearing. We were not allowed to eat this paste, but it is said to be very nourishing. I suppose chocobo chicks will benefit from its nutrients."
-54,"TEXT_BANGNA305_02265_SEARCHER_000_013","The loam is the most nutritious of all. Yes, very nutritious. We find it strange the hunters will use this for planting gysahl greens, rather than eating. Fleshlings call it by another name. Manure, was it...? <click> <click>"
-55,"TEXT_BANGNA305_02265_SEARCHER_000_014","We cannot remember. Still, we thank you, great hunter. When next great task comes, we will be sure to call."
+48,"TEXT_BANGNA305_02265_SEARCHER_000_000","シシシシシ……ヒトの冒険者よ、
+今回は、キミにしかできない依頼を任せたい。"
+49,"TEXT_BANGNA305_02265_SEARCHER_000_001","グナースの塚に潜入して、物資を収集してもらいたいのだ。
+「<Sheet(EventItem,2001954,0)/>」を3つに、「<Sheet(EventItem,2001955,0)/>」を3袋ぶん、
+その両方があれば充分だろう……。"
+50,"TEXT_BANGNA305_02265_SEARCHER_000_002","どちらも、テイルフェザーへと納品するものだが、
+塚の警備が厳重になった今、潜入を任せられる者は少なくてな。
+危険を伴う仕事だが、どうか頼むぞ……シシシシシ。"
+51,"TEXT_BANGNA305_02265_SEARCHER_000_010","シシシシシ……よかった、無事だったか。
+<Sheet(EventItem,2001954,0)/>と、<Sheet(EventItem,2001955,0)/>を収集してきてくれたか？"
+52,"TEXT_BANGNA305_02265_SEARCHER_000_011","おお、助かったぞ、感謝する。
+さっそく、テイルフェザーへ納品させるとしよう。
+こんなものが、ヒトにどう利用されるのか不思議であろう？"
+53,"TEXT_BANGNA305_02265_SEARCHER_000_012","<Sheet(EventItem,2001954,0)/>は、チョコボの雛の餌とされる。
+「繋がりし者たち」の雑兵向けの練り物は、分かたれた我々には、
+食えたものではないが、栄養価が高いので雛鳥に最適なのだ。"
+54,"TEXT_BANGNA305_02265_SEARCHER_000_013","そして、<Sheet(EventItem,2001955,0)/>は、ギサールの野菜の肥料となる。
+なにせ「繋がりし者たち」は栄養価の高いものを食べているだけに、
+奴らの排……おっと。"
+55,"TEXT_BANGNA305_02265_SEARCHER_000_014","いや、なんでもない、忘れてくれ。
+ヒトの冒険者よ、これからも頼りにしているぞ……シシシシシ。"

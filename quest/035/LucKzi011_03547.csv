@@ -1,8 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKZI011_03547_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-The Tholl gourmand is licking his lips at some idle thought."
+0,"TEXT_LUCKZI011_03547_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+トメラの村の美食好きのドワーフは、物思いにふけっている。"
 1,"TEXT_LUCKZI011_03547_SEQ_01",""
 2,"TEXT_LUCKZI011_03547_SEQ_02",""
 3,"TEXT_LUCKZI011_03547_SEQ_03",""
@@ -26,9 +26,9 @@ The Tholl gourmand is licking his lips at some idle thought."
 21,"TEXT_LUCKZI011_03547_SEQ_21",""
 22,"TEXT_LUCKZI011_03547_SEQ_22",""
 23,"TEXT_LUCKZI011_03547_SEQ_23",""
-24,"TEXT_LUCKZI011_03547_TODO_00","Search for the juvenile cliffmole."
-25,"TEXT_LUCKZI011_03547_TODO_01","Entice the juvenile cliffmole into the empty larder sack using a wriggling grub."
-26,"TEXT_LUCKZI011_03547_TODO_02","Deliver the full larder sack to the Tholl gourmand."
+24,"TEXT_LUCKZI011_03547_TODO_00","クリフモールの幼体を探す"
+25,"TEXT_LUCKZI011_03547_TODO_01","クリフモールの幼体に<Sheet(EventItem,2002704,0)/>をあげて、<Sheet(EventItem,2002705,0)/>に入れる"
+26,"TEXT_LUCKZI011_03547_TODO_02","美食好きのドワーフに<Sheet(EventItem,2002706,0)/>を渡す"
 27,"TEXT_LUCKZI011_03547_TODO_03",""
 28,"TEXT_LUCKZI011_03547_TODO_04",""
 29,"TEXT_LUCKZI011_03547_TODO_05",""
@@ -50,21 +50,43 @@ The Tholl gourmand is licking his lips at some idle thought."
 45,"TEXT_LUCKZI011_03547_TODO_21",""
 46,"TEXT_LUCKZI011_03547_TODO_22",""
 47,"TEXT_LUCKZI011_03547_TODO_23",""
-48,"TEXT_LUCKZI011_03547_GOURMET03547_000_000","...Eh? What? Who? Oh! You're that <Switch(PlayerParameter(71))><Case(1)>traveler</Case><Case(2)>traveler</Case><Case(3)>foreign dwarf</Case><Case(4)>traveler</Case><Case(5)>traveler</Case><Case(6)>traveler</Case><Case(7)>traveler</Case><Case(8)>traveler</Case></Switch> I keep hearing about!"
-49,"TEXT_LUCKZI011_03547_GOURMET03547_000_001","...I mean, lali-ho! Almost forgot my manners there! Bad etiquette, that. Why don't I make up for it by cooking us a tasty steak <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>dinner<Else/>breakfast</If><Else/><If(LessThan(PlayerParameter(11),17))>lunch<Else/>dinner</If></If>, eh? I'm thinking a nice cut of cliffmole..."
-50,"TEXT_LUCKZI011_03547_GOURMET03547_000_002","Aye, well, I suppose that sounds none too appetizing. And the meat of an adult cliffmole <Emphasis>is</Emphasis> about as pleasant as chewing on your grandma's second-favorite pair of boots."
-51,"TEXT_LUCKZI011_03547_GOURMET03547_000_003","A friend of mine, though, he reckons the younger moles are tender and juicy as they come! What say you? Shall we put that claim to the test?"
-52,"TEXT_LUCKZI011_03547_GOURMET03547_000_004","Then we'll need to catch one first. The juveniles are said to stay near humid areas, like caves and streams. I'm more of a “cave” kind of dwarf, so you can search the waterways."
-53,"TEXT_LUCKZI011_03547_GOURMET03547_000_005","Oh, and they're apparently a skittish lot─you'll need a plump grub to lure one in before you can stuff it in a sack!"
-54,"TEXT_LUCKZI011_03547_GOURMET03547_000_006","Right. There's your grub, and there's your sack. Meet me back here and we'll set the pan to sizzling!"
-55,"TEXT_LUCKZI011_03547_MOLE03547_000_010","!!!"
-56,"TEXT_LUCKZI011_03547_SYSTEM_000_011","The juvenile cliffmole eyes you warily. Time to show it the wriggling grub, then lure it into the sack..."
-57,"TEXT_LUCKZI011_03547_MOLE03547_100_012","<sniff> <sniff>"
-58,"TEXT_LUCKZI011_03547_MOLE03547_000_012","!!!"
-59,"TEXT_LUCKZI011_03547_SYSTEM_000_013","The cliffmole trundles happily into the sack and begins feasting on the grub..."
-60,"TEXT_LUCKZI011_03547_GOURMET03547_000_020","Couldn't find me any of the small ones. What about you?"
-61,"TEXT_LUCKZI011_03547_GOURMET03547_000_021","Would you look at that! And on your first try, too! I'll just get a fire going and─"
-62,"TEXT_LUCKZI011_03547_GOURMET03547_000_022","Wait! Wait, wait, wait..."
-63,"TEXT_LUCKZI011_03547_GOURMET03547_000_023","Th-Those big, round eyes... That lovable face! How could anyone eat such a precious dumpling!"
-64,"TEXT_LUCKZI011_03547_GOURMET03547_000_024","...I can't do it! Not even for the best steak in the world! Have this coin for your trouble, but <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>dinner<Else/>breakfast</If><Else/><If(LessThan(PlayerParameter(11),17))>lunch<Else/>dinner</If></If>'s canceled!"
-65,"TEXT_LUCKZI011_03547_GOURMET03547_000_025","From this day forward, I'll raise you as my own! I'll feed you, and pet you, and call you “Cliffy”!"
+48,"TEXT_LUCKZI011_03547_GOURMET03547_000_000","うおっ、誰だお前！？
+……ああ、お前が<Switch(PlayerParameter(71))><Case(1)>外から来たっていう旅人か！</Case><Case(2)>外から来たっていう旅人か！</Case><Case(3)>村長が話してた、よそに住んでるドワーフか！</Case><Case(4)>外から来たっていう旅人か！</Case><Case(5)>外から来たっていう旅人か！</Case><Case(6)>外から来たっていう旅人か！</Case><Case(7)>外から来たっていう旅人か！</Case><Case(8)>外から来たっていう旅人か！</Case></Switch>"
+49,"TEXT_LUCKZI011_03547_GOURMET03547_000_001","悪い悪い、見慣れないヤツだから驚いたが……ラリホー！
+お詫びと言っちゃあなんだが、一緒にステーキを食わないか？
+噂に名高い、クリフモールのステーキだよ！"
+50,"TEXT_LUCKZI011_03547_GOURMET03547_000_002","そうか、外から来たなら知らねえよな。
+成体のクリフモールは、外殻も肉もガチガチに固くて、
+とても食べられたモンじゃねえ。"
+51,"TEXT_LUCKZI011_03547_GOURMET03547_000_003","けどな、幼体の肉は、柔らかくてジューシーで、
+ステーキにするとたまらねえと仲間から聞いたんだ！
+この噂、一緒に確かめてみようぜ！"
+52,"TEXT_LUCKZI011_03547_GOURMET03547_000_004","クリフモールの幼体は、洞窟の中とか、川の中とか、
+ジメジメしている場所を好むらしい！
+俺は洞窟を探すから、お前は川の方を探してみてくれ！"
+53,"TEXT_LUCKZI011_03547_GOURMET03547_000_005","おっとそうだ、幼体は臆病だから、そう簡単に近付けない。
+だから、見つけたらこの「<Sheet(EventItem,2002704,0)/>」をあげて、
+安心させてから、袋にいれるといいそうだぜ！"
+54,"TEXT_LUCKZI011_03547_GOURMET03547_000_006","よし、それじゃあまた後で、ここで落ち合おう！
+「クリフモールの幼体」を捕まえたら、
+逃がさないよう、気を付けて連れて来いよ！"
+55,"TEXT_LUCKZI011_03547_MOLE03547_000_010","！！！！"
+56,"TEXT_LUCKZI011_03547_SYSTEM_000_011","クリフモールの幼体は、こちらを警戒している。
+「ウニョウニョ地虫」をあげてみよう。"
+57,"TEXT_LUCKZI011_03547_MOLE03547_100_012","…………！！"
+58,"TEXT_LUCKZI011_03547_MOLE03547_000_012","！！！！"
+59,"TEXT_LUCKZI011_03547_SYSTEM_000_013","クリフモールの幼体が、嬉しそうに飛びついてきた。
+大きな麻袋を開くと、おとなしく中に入っていった……。"
+60,"TEXT_LUCKZI011_03547_GOURMET03547_000_020","俺の方はダメだった……
+お前の方はどうだった？"
+61,"TEXT_LUCKZI011_03547_GOURMET03547_000_021","おおおお！　お前やるなあ、さすがは旅人だ！
+それじゃあさっそく、調理の下準備を……。"
+62,"TEXT_LUCKZI011_03547_GOURMET03547_000_022","うっ！"
+63,"TEXT_LUCKZI011_03547_GOURMET03547_000_023","な、なんて、つぶらな瞳なんだ……
+うう、か、かわいすぎる……！
+こんなかわいいクリフモールを食べるなんて……ッ！"
+64,"TEXT_LUCKZI011_03547_GOURMET03547_000_024","……ダメだ、俺にはできないッ！
+噂に名高いステーキ、俺も食ってみたかったが……！
+すまん、駄賃をやるから、お前も諦めてくれッ！"
+65,"TEXT_LUCKZI011_03547_GOURMET03547_000_025","今日からお前は、うちの子だ！
+立派なクリフモールに育ててやるからな……！"

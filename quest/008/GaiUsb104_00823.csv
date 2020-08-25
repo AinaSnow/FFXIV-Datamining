@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB104_00823_SEQ_00","With nary a word, U'tykha Tia indicates that he has a delicate commission for you."
-1,"TEXT_GAIUSB104_00823_SEQ_01","You have learned from U'tykha Tia that a novice ranger of the U tribe, U'kahzuna, has gone forth to hunt anglers in the Sagolii Desert. However, she is long overdue for her return, and U'tykha Tia fears for her safety. With a susurrous sweep of his tail, the Miqo'te suggests you head southwest on a rescue mission."
-2,"TEXT_GAIUSB104_00823_SEQ_02","You have rescued U'kahzuna from the jagged maws of the approaching anglers. Though she appears to be none the worse for wear, she reproaches herself for failing to complete her mission. Return to U'tykha Tia in Forgotten Springs to hear what he has to say."
-3,"TEXT_GAIUSB104_00823_SEQ_03","U'tykha Tia judges the young one's failure to be no greater than those from his own youth. Out of the rawest novice may grow the finest ranger, if his tale is to be believed."
+0,"TEXT_GAIUSB104_00823_SEQ_00","忘れられたオアシスのウ・チャカ・ティアは冒険者に頼みたいことがあるようだ。"
+1,"TEXT_GAIUSB104_00823_SEQ_01","駆け出しの狩人のウ・カズナが、<Sheet(BNpcName,307,0)/>を狩りに行ったまま帰ってこないらしい。忘れられたオアシスの南西に「ウ・カズナ」を助けに行こう。"
+2,"TEXT_GAIUSB104_00823_SEQ_02","ウ・カズナは、与えられた修行をこなせなかったことを悔やんでいるようだ。忘れられたオアシスの「ウ・チャカ・ティア」に報告しよう。"
+3,"TEXT_GAIUSB104_00823_SEQ_03","ウ・チャカ・ティアに報告したところ、彼も昔は同じような過ちをおかしたという。駆け出しのうちは、修行あるのみのようだ。"
 4,"TEXT_GAIUSB104_00823_SEQ_04",""
 5,"TEXT_GAIUSB104_00823_SEQ_05",""
 6,"TEXT_GAIUSB104_00823_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSB104_00823_SEQ_21",""
 22,"TEXT_GAIUSB104_00823_SEQ_22",""
 23,"TEXT_GAIUSB104_00823_SEQ_23",""
-24,"TEXT_GAIUSB104_00823_TODO_00","Render assistance to U'kahzuna."
-25,"TEXT_GAIUSB104_00823_TODO_01","Report to U'tykha Tia."
+24,"TEXT_GAIUSB104_00823_TODO_00","ウ・カズナを救助"
+25,"TEXT_GAIUSB104_00823_TODO_01","ウ・チャカ・ティアに報告"
 26,"TEXT_GAIUSB104_00823_TODO_02",""
 27,"TEXT_GAIUSB104_00823_TODO_03",""
 28,"TEXT_GAIUSB104_00823_TODO_04",""
@@ -49,16 +49,23 @@ int32,str,str
 45,"TEXT_GAIUSB104_00823_TODO_21",""
 46,"TEXT_GAIUSB104_00823_TODO_22",""
 47,"TEXT_GAIUSB104_00823_TODO_23",""
-48,"TEXT_GAIUSB104_00823_UTYKHATIA_000_000","You there, you have the smell of a resourceful drink of water. Help me with one of the young ones, will you?"
-49,"TEXT_GAIUSB104_00823_UTYKHATIA_000_001","I speak of a novice ranger by the name of U'kahzuna, one of our most promising. I sent her southwest to hunt anglers, but she is rather long in the returning. She should be back by now, even if she'd killed one, dressed it, and made a saddle out of it."
-50,"TEXT_GAIUSB104_00823_UTYKHATIA_000_002","As young a huntress as she is, I suspect she tripped over her own tail and has made a right mess of things. But as this is something she ought do on her own, I fear sending one among the tribe to help her is out of the question. <Emphasis>You</Emphasis>, on the other hand, are a different story."
-51,"TEXT_GAIUSB104_00823_DUMMY_000_010",""
-52,"TEXT_GAIUSB104_00823_UTYKHATIA_000_010",""
-53,"TEXT_GAIUSB104_00823_UKAHZUNA_000_020","<groan> I... Ugh. Gods, I'm sorry...
-...Oh, not to <Emphasis>you</Emphasis>. I'm sorry that I failed so miserably. U'tykha gave me this mission himself, and he's sure to be the next nunh of the tribe. And I...I..."
-54,"TEXT_GAIUSB104_00823_UKAHZUNA_000_021","I have dishonored the name of the U. I could crop my tail as a penance, but I have to redeem myself. I'll just...do something different. Again.
-<sigh> I'm trying so hard..."
-55,"TEXT_GAIUSB104_00823_UTYKHATIA_000_030","Took it hard, did she? She <Emphasis>should</Emphasis>─she's bringing up the rear in this crop of novices. If this were a game of Ifrit-take-the-hindmost, she'd be on fire right about now."
-56,"TEXT_GAIUSB104_00823_UTYKHATIA_000_031","The reckless always have to take the hard way─they fail until they succeed, or get themselves killed. To tell you the truth, I was exactly like her once, down to the earnestness!"
-57,"TEXT_GAIUSB104_00823_POP_MESSAGE_000","You sense a hostile presence!"
-58,"TEXT_GAIUSB104_00823_ACCESS_MESSAGE","The enemy is still about!"
+48,"TEXT_GAIUSB104_00823_UTYKHATIA_000_000","フンフン、そこそこできる奴の匂いがするね。
+君さ、ちょっとカズナちゃんの手伝いしてよー。"
+49,"TEXT_GAIUSB104_00823_UTYKHATIA_000_001","カズナちゃんって、まだ駆け出しの狩人なんだけどさ、
+南西に「<Sheet(BNpcName,307,0)/>」狩りに行かせたら、
+まだ帰ってこないんだよね―。"
+50,"TEXT_GAIUSB104_00823_UTYKHATIA_000_002","俺が助けたら、カズナちゃん気にしちゃうからさぁ。
+冒険者ちゃんさぁ、助けに行ってくれないかなー。"
+51,"TEXT_GAIUSB104_00823_DUMMY_000_010","下っ端ウゾクを救助しにいくと、<Sheet(BNpcName,307,0)/>×2がpopするので倒す"
+52,"TEXT_GAIUSB104_00823_UTYKHATIA_000_010","（★未使用／削除予定★）"
+53,"TEXT_GAIUSB104_00823_UKAHZUNA_000_020","は、はひぃ！　すみませんすみません！
+次期族長とも噂される、チャカ様に頂いた修行なのに、
+私ったらもう、本当にダメダメで……！"
+54,"TEXT_GAIUSB104_00823_UKAHZUNA_000_021","うぅぅ、ウ族の狩人として情けないです……！
+もっとがんばって修行してきます～っ！！"
+55,"TEXT_GAIUSB104_00823_UTYKHATIA_000_030","アハハ、やっぱりカズナちゃん、腰抜かしてたかー。
+駆け出し狩人の中で、ずば抜けてダメなんだよねー。"
+56,"TEXT_GAIUSB104_00823_UTYKHATIA_000_031","ま、俺も駆け出しの頃はあんなんだったよ、アハハ！
+駆け出しちゃんたちは、修行あるのみってことだなー。"
+57,"TEXT_GAIUSB104_00823_POP_MESSAGE_000","敵の気配を感じた！！"
+58,"TEXT_GAIUSB104_00823_ACCESS_MESSAGE","その行動は出現した敵を倒さないと実行できません"

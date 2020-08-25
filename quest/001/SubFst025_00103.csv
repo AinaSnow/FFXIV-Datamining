@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBFST025_00103_SEQ_00","Q'djawana at Treespeak Stables needs someone to slay opo-opos and recover property stolen from Hyrstmill."
-1,"TEXT_SUBFST025_00103_SEQ_01","Q'djawana tells you of how starving opo-opos stole bags of Mun–Tuy beans from Dametta in Hyrstmill. While the pungent beans will not be missed, the normally cheerful and talkative Dametta has fallen into a deep depression. Slay opo-opos on the road to Hyrstmill and recover the six stolen bags of Mun–Tuy beans."
-2,"TEXT_SUBFST025_00103_SEQ_02","You serve justice to the thieving, malnourished opo-opos and recover the stolen bags of Mun–Tuy beans. See them delivered to Dametta in Hyrstmill."
-3,"TEXT_SUBFST025_00103_SEQ_03","You deliver the stolen Mun–Tuy beans to their rightful owner. Overjoyed by their safe return, Dametta launches into one of her infamous long-winded monologues, and you immediately regret your good deed."
+0,"TEXT_SUBFST025_00103_SEQ_00","ツリースピーク厩舎のキ・ジャワナは、オポオポに奪われた食材を取り返し、ハーストミルへ届けてくれる者を探しているようだ。"
+1,"TEXT_SUBFST025_00103_SEQ_01","ハーストミルまでの道中にいる「オポオポ」から、奪われた「アメッタの豆袋」を6つ、取り返そう。"
+2,"TEXT_SUBFST025_00103_SEQ_02","オポオポからアメッタの豆袋を取り戻した。ハーストミルにいる「アメッタ」に届けよう。"
+3,"TEXT_SUBFST025_00103_SEQ_03","無事、アメッタに豆袋を届けることができた。気さくなアメッタから労いの言葉を受ける冒険者だったが、いつの間にか、彼女の長話に付き合わされることになってしまった……。"
 4,"TEXT_SUBFST025_00103_SEQ_04",""
 5,"TEXT_SUBFST025_00103_SEQ_05",""
 6,"TEXT_SUBFST025_00103_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_SUBFST025_00103_SEQ_21",""
 22,"TEXT_SUBFST025_00103_SEQ_22",""
 23,"TEXT_SUBFST025_00103_SEQ_23",""
-24,"TEXT_SUBFST025_00103_TODO_00","Slay opo-opos and recover Dametta's Mun–Tuy beans."
-25,"TEXT_SUBFST025_00103_TODO_01","Deliver the bags of Mun–Tuy beans to Dametta."
+24,"TEXT_SUBFST025_00103_TODO_00","オポオポからアメッタの豆袋を入手"
+25,"TEXT_SUBFST025_00103_TODO_01","アメッタにアメッタの豆袋を渡す"
 26,"TEXT_SUBFST025_00103_TODO_02",""
 27,"TEXT_SUBFST025_00103_TODO_03",""
 28,"TEXT_SUBFST025_00103_TODO_04",""
@@ -49,16 +49,35 @@ int32,str,str
 45,"TEXT_SUBFST025_00103_TODO_21",""
 46,"TEXT_SUBFST025_00103_TODO_22",""
 47,"TEXT_SUBFST025_00103_TODO_23",""
-48,"TEXT_SUBFST025_00103_QDJAWANA_000_1","Did you hear about Dametta of Hyrstmill? Apparently, opo-opos crept into her stores and made off with her Mun–Tuy beans!"
-49,"TEXT_SUBFST025_00103_QDJAWANA_000_2","Ordinarily, opo-opos wouldn't go near them, what with their foul odor and even fouler taste, but food has become scarce of late. Truth be told, a good many of us are glad to be rid of the stench. Still, I can't stand to see Dametta so dispirited."
-50,"TEXT_SUBFST025_00103_QDJAWANA_000_3","Would you track down those thieving opo-opos and recover the Mun–Tuy beans? I'm told six bags were taken, all told."
-51,"TEXT_SUBFST025_00103_QDJAWANA_000_4","Dametta is well respected by all the women of Hyrstmill, so it would do you well to earn her favor. So be polite, smile, and don't interrupt if she goes off on one of her tangents..."
-52,"TEXT_SUBFST025_00103_QDJAWANA_000_5","Hyrstmill lies just to the north of here. You're like to run into opo-opos on the way. With luck, you may even encounter the bean thieves themselves."
-53,"TEXT_SUBFST025_00103_DAMETTA_000_10","<sigh> I suppose there's nothing to be done...
-What's that, young <If(PlayerParameter(4))>lady<Else/>man</If>? You have something for me?"
-54,"TEXT_SUBFST025_00103_DAMETTA_000_11","<gasp> My missing bags of Mun–Tuy beans! But how!? You didn't track down those wretched opo-opos, did you!?"
-55,"TEXT_SUBFST025_00103_DAMETTA_000_12","I had all but given up hope before you arrived, but with these beans, I can make enough Mun–Tuy tonic for <Emphasis>everyone</Emphasis> in Hyrstmill!"
-56,"TEXT_SUBFST025_00103_DAMETTA_000_13","As long as I have enough microchu leaflets to flavor it, there should be no complaints..."
-57,"TEXT_SUBFST025_00103_DAMETTA_000_14","Speaking of which, my son drank unflavored Mun–Tuy tonic the other day!"
-58,"TEXT_SUBFST025_00103_DAMETTA_000_15","One of his friends challenged him to do it, he said. And do you know what? He drained the whole cup in one great gulp, without making so much as a face!"
-59,"TEXT_SUBFST025_00103_DAMETTA_000_16","Oh, he grows stronger and braver by the day─nay, the very hour! Either that or my secret recipe is rather more delicious than I imagined. Hmmm...now that I think about it, a good many people <Emphasis>have</Emphasis> described the taste as unforgettable..."
+48,"TEXT_SUBFST025_00103_QDJAWANA_000_1","ハーストミルのアメッタおばさんが、
+食材が入った小袋を、オポオポに盗まれてしまったの。"
+49,"TEXT_SUBFST025_00103_QDJAWANA_000_2","食材は「ムントゥイ豆」。匂いがキツいこの豆は、
+特別オポオポの好物って訳じゃないんだけど、
+飢えのせいか最近、手癖が悪くなってるみたい。"
+50,"TEXT_SUBFST025_00103_QDJAWANA_000_3","盗まれた袋は全部で6つ。
+オポオポから奪い返して、アメッタおばさんに
+届けてくれない？"
+51,"TEXT_SUBFST025_00103_QDJAWANA_000_4","おばさんは、ハーストミルの主婦たちのまとめ役よ。
+冒険者なら知り合っておいて損はないわ。
+まあ、ちょっと話が長いんだけど……。"
+52,"TEXT_SUBFST025_00103_QDJAWANA_000_5","ハーストミルはここから北に向かった先にあるわ。
+オポオポは、ハーストミルへの道中にいるはず。
+それじゃ、頼んだからね！"
+53,"TEXT_SUBFST025_00103_DAMETTA_000_10","どうしたんだい？
+私に届けるものがあるって？"
+54,"TEXT_SUBFST025_00103_DAMETTA_000_11","あらあらー！　このムントゥイ豆の入った袋！
+オポオポから取り返してくれたのかい？"
+55,"TEXT_SUBFST025_00103_DAMETTA_000_12","もう半分諦めてたところだよ、ありがたいねぇ。
+これで、まだまだ「ムントゥイ豆乳」が作れるわねぇ！"
+56,"TEXT_SUBFST025_00103_DAMETTA_000_13","そうそう、普通ムントゥイ豆乳って、
+そのままだと青臭くて飲めないでしょう？
+……あ、知らない？　まあそれはいいんだけどねぇ。"
+57,"TEXT_SUBFST025_00103_DAMETTA_000_14","それで、この間すっごい驚いたのよぉ。
+ウチの子ったら、「コチューの若葉」で……………
+香り…………する前に…………飲……………………"
+58,"TEXT_SUBFST025_00103_DAMETTA_000_15","それだけじゃなくて……………………………………
+…………でも…………向上心が………………………
+……………………まったく……………………………"
+59,"TEXT_SUBFST025_00103_DAMETTA_000_16","…………………………………………………………
+…………………………………………………………
+………………………………………それでねぇ……"

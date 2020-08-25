@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSWDK002_00140_SEQ_00","Timbermaster Beatin is looking for someone to deliver ash lumber."
-1,"TEXT_CLSWDK002_00140_SEQ_01","Before you can undertake your final trial, Timbermaster Beatin asks you to help replenish the guild's stock of ash lumber. Deliver twelve lengths to him at the Oak Atrium."
-2,"TEXT_CLSWDK002_00140_SEQ_02","Grateful for your delivery, Timbermaster Beatin explains that versatility is the secret of ash lumber's enduring popularity. While he still considers you unready for the final trial, he grants you leave to practice your craft independently, and directs you to Gontrant at the Carline Canopy for additional work.
+0,"TEXT_CLSWDK002_00140_SEQ_00","木工師ギルドのベアティヌは、ギルドで使う木材の補給を頼みたいようだ。"
+1,"TEXT_CLSWDK002_00140_SEQ_01","ギルドで使う、<Sheet(Item,5364,0)/>の在庫が切れてしまったため、補給してほしいというベアティヌ。「<Sheet(Item,5364,0)/>」を12本調達し、木工師ギルドの「ベアティヌ」に渡そう。"
+2,"TEXT_CLSWDK002_00140_SEQ_02","ベアティヌに<Sheet(Item,5364,0)/>を12本渡すことができた。<Sheet(Item,5364,0)/>はさまざまな使い方ができるため、在庫がすぐに切れてしまうらしい。次回待ちかまえているという「第三の試練」に向けて、冒険者ギルドのゴントランから受けられる、ギルドリーヴの「製作稼業」なども活用しながら、しっかりと腕を磨いておこう。
 
-※The next carpenter quest will be available from Beatin upon reaching level 15."
+※木工師のレベルが15以上になると、ベアティヌから次の木工師クエストを受注することができます。"
 3,"TEXT_CLSWDK002_00140_SEQ_03",""
 4,"TEXT_CLSWDK002_00140_SEQ_04",""
 5,"TEXT_CLSWDK002_00140_SEQ_05",""
@@ -27,7 +27,7 @@ int32,str,str
 21,"TEXT_CLSWDK002_00140_SEQ_21",""
 22,"TEXT_CLSWDK002_00140_SEQ_22",""
 23,"TEXT_CLSWDK002_00140_SEQ_23",""
-24,"TEXT_CLSWDK002_00140_TODO_00","Deliver lengths of ash lumber to Beatin."
+24,"TEXT_CLSWDK002_00140_TODO_00","ベアティヌに<Sheet(Item,5364,0)/>を納品"
 25,"TEXT_CLSWDK002_00140_TODO_01",""
 26,"TEXT_CLSWDK002_00140_TODO_02",""
 27,"TEXT_CLSWDK002_00140_TODO_03",""
@@ -51,23 +51,49 @@ int32,str,str
 45,"TEXT_CLSWDK002_00140_TODO_21",""
 46,"TEXT_CLSWDK002_00140_TODO_22",""
 47,"TEXT_CLSWDK002_00140_TODO_23",""
-48,"TEXT_CLSWDK002_00140_BEATINE_000_1","I see by the wearing of your sawblade that you have not neglected your carpentry since last we spoke. Very good."
-49,"TEXT_CLSWDK002_00140_BEATINE_000_2","You will soon be ready for your third and final test. In the meantime, the guild has need of your services."
-50,"TEXT_CLSWDK002_00140_BEATINE_000_3","You are familiar with ash wood? Ah, but of course you are."
-51,"TEXT_CLSWDK002_00140_BEATINE_000_4","I bid you craft me ash lumber. A simple task, you say?"
-52,"TEXT_CLSWDK002_00140_BEATINE_000_5","Then you shan't have trouble crafting me twelve lengths."
-53,"TEXT_CLSWDK002_00140_BEATINE_000_6","This is no jest. We used our last few mere moments ago."
-54,"TEXT_CLSWDK002_00140_BEATINE_000_7","So you see, this assignment is motivated purely by practical concerns."
-55,"TEXT_CLSWDK002_00140_BEATINE_000_8","I would ordinarily handle such a trifling task myself, of course, but I am feeling unwell─and I do believe you would benefit from the practice."
-56,"TEXT_CLSWDK002_00140_BEATINE_000_9","Now go, and do not disappoint me."
-57,"TEXT_CLSWDK002_00140_BEATINE_000_20","Ah, have you brought the ash lumber?"
-58,"TEXT_CLSWDK002_00140_BEATINE_000_21","Such a prodigious quantity!"
-59,"TEXT_CLSWDK002_00140_BEATINE_000_22","Thank you, child. You have done your guild a great service."
-60,"TEXT_CLSWDK002_00140_BEATINE_000_23","Ash lumber is renowned for its unparalleled flexibility. This quality makes it ideal for use in bows and myriad other weapons."
-61,"TEXT_CLSWDK002_00140_BEATINE_000_24","By the same token, ash lumber is easily worked and thus ideal for learning the basics of our craft."
-62,"TEXT_CLSWDK002_00140_BEATINE_000_25","Such a versatile material is understandably popular, and so we always have need of more."
-63,"TEXT_CLSWDK002_00140_BEATINE_000_26","It may─nnngh─also interest you to know that ash possesses certain medicinal properties. Tea brewed from its bark eases various complaints."
-64,"TEXT_CLSWDK002_00140_BEATINE_000_27","Complaints such as that with which I am presently afflicted. Suffice to say, I am pleased to see that your lumber is dusted with a sufficiency of bark fragments! But let us return to the subject of carpentry."
-65,"TEXT_CLSWDK002_00140_BEATINE_000_28","You have proven yourself more than capable of working without my guidance."
-66,"TEXT_CLSWDK002_00140_BEATINE_000_29","If you wish to market your crafts to others, speak with Gontrant in the Carline Canopy. He has an abundance of guildleves waiting to be fulfilled."
-67,"TEXT_CLSWDK002_00140_BEATINE_000_30","Continue to─ahem, refine...your skills, and return to me when you are ready to take the next step."
+48,"TEXT_CLSWDK002_00140_BEATINE_000_1","フフフ……成長しましたね。
+ノコも、微笑んでいるようです……。"
+49,"TEXT_CLSWDK002_00140_BEATINE_000_2","とはいえ、貴方はまだまだ幼木。
+第三の試練に臨む前に、
+少し寄り道をしようじゃありませんか……。"
+50,"TEXT_CLSWDK002_00140_BEATINE_000_3","なぁに、簡単なことです。
+「<Sheet(Item,5364,0)/>」を作ってきてほしいのです……。"
+51,"TEXT_CLSWDK002_00140_BEATINE_000_4","<Sheet(Item,5364,0)/>……楽勝だと……思いましたか？
+<Sheet(Item,5364,0)/>を「1本」とは言っていませんよ……。"
+52,"TEXT_CLSWDK002_00140_BEATINE_000_5","<Sheet(Item,5364,0)/>を、「12本」作ってほしいんです……。"
+53,"TEXT_CLSWDK002_00140_BEATINE_000_6","フフフフ、先生ちょっと、
+意地悪な言い方しちゃいましたかね……。"
+54,"TEXT_CLSWDK002_00140_BEATINE_000_7","まあ、正直なところ……
+ギルドで使う、<Sheet(Item,5364,0)/>の在庫が切れてしまって
+とてもとても、困っていたんです。"
+55,"TEXT_CLSWDK002_00140_BEATINE_000_8","まあ、私が製材してもいいのですけど……
+ちょっと今日は、お腹が痛くて……すみません……。"
+56,"TEXT_CLSWDK002_00140_BEATINE_000_9","<Sheet(Item,5364,0)/>を、12本……
+お願いしますね……。"
+57,"TEXT_CLSWDK002_00140_BEATINE_000_20","<Sheet(Item,5364,0)/>を、12本……ですよ？
+もうできたのですか……？"
+58,"TEXT_CLSWDK002_00140_BEATINE_000_21","……<Highlight>ObjectParameter(1)</Highlight>さん…………
+……ハァ……もう、たくさんです……。"
+59,"TEXT_CLSWDK002_00140_BEATINE_000_22","美しい<Sheet(Item,5364,0)/>が、こんなにたくさんあると……
+先生、ドキドキして胸が痛くなっちゃいます……！
+イタタ…………"
+60,"TEXT_CLSWDK002_00140_BEATINE_000_23","ア、<Sheet(Item,5364,0)/>は、木材の優等生です……。
+弾力性に優れ、折れにくい。
+武器の柄や、弓の材料などにピッタリです……。"
+61,"TEXT_CLSWDK002_00140_BEATINE_000_24","そ、その上、とても加工もしやすいので
+見習い木工師が使う、練習用の素材としても、
+ピッタリなのです……。"
+62,"TEXT_CLSWDK002_00140_BEATINE_000_25","<Sheet(Item,5364,0)/>は、便利な優等生さんだからこそ
+ここでは、在庫がすぐ無くなってしまうのです……。"
+63,"TEXT_CLSWDK002_00140_BEATINE_000_26","さ、更に更に……イタタ……
+アッシュ原木の樹皮は……
+煎じて飲むと、お腹の痛みにも効くんですよ……。"
+64,"TEXT_CLSWDK002_00140_BEATINE_000_27","先生も、あとで飲もうと思います……
+イタタタタ……"
+65,"TEXT_CLSWDK002_00140_BEATINE_000_28","じ、次回こそは……
+第三の試練を……しましょうね……
+イタタタタ………"
+66,"TEXT_CLSWDK002_00140_BEATINE_000_29","そ、それまでは、冒険者ギルドのゴントラン氏から……
+ギルドリーヴの、製作稼業なんかを……引き受けて……"
+67,"TEXT_CLSWDK002_00140_BEATINE_000_30","木工の腕を磨くのも……良いかもしれません。
+イタタタ……"

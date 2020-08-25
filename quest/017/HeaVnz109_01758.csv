@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNZ109_01758_SEQ_00","Terremiaux has the look of a man who hates unfinished business."
-1,"TEXT_HEAVNZ109_01758_SEQ_01","With his subordinates safe, Terremiaux can at last return to his original task─the retrieval of stolen weapons and armor. And to avoid the pitfalls of his initial undertaking, he has devised a plan. First, he will create a diversion to draw the attention of as many Vanu as he can. This will offer you the chance to reclaim the equipment with diminished resistance."
-2,"TEXT_HEAVNZ109_01758_SEQ_02","You have successfully retrieved all the stolen equipment. Return beyond the bridge to Vundu Ok' Bendu and speak with Terremiaux."
-3,"TEXT_HEAVNZ109_01758_SEQ_03","You return to Terremiaux, and he is at a loss as to how to repay you. He asks that you return the equipment to Laniaitte back at camp and relay to her all that has transpired."
-4,"TEXT_HEAVNZ109_01758_SEQ_04","Laniaitte is relieved to hear the search party is safe and the equipment is all accounted for. Although the Vanu's sudden interest in finer weaponry concerns her, she is glad to have had the aid of such a capable adventurer, and foresees need of your skills again in the future."
+0,"TEXT_HEAVNZ109_01758_SEQ_00","ブンド・オク・ベンドのテルミオは、任務を果たそうとしている。"
+1,"TEXT_HEAVNZ109_01758_SEQ_01","テルミオから物資の奪還を頼まれた。ブンド・オク・ベンドの「<Sheet(EventItem,2001601,0)/>」を3つ入手しよう。"
+2,"TEXT_HEAVNZ109_01758_SEQ_02","<Sheet(EventItem,2001601,0)/>を奪還した。ブンド・オク・ベンド入口付近にいる「テルミオ」と話そう。"
+3,"TEXT_HEAVNZ109_01758_SEQ_03","状況を見て帰還するテルミオたちに代わり、<Sheet(EventItem,2001601,0)/>を届けるよう頼まれた。アバラシア雲海のローズハウスにいる「ラニエット」に「<Sheet(EventItem,2001601,0)/>」を渡そう。"
+4,"TEXT_HEAVNZ109_01758_SEQ_04","ラニエットに<Sheet(EventItem,2001601,0)/>を渡した。彼女は<Sheet(EventItem,2001601,0)/>を取り戻し、失態を挽回してくれた冒険者に深く感謝した。"
 5,"TEXT_HEAVNZ109_01758_SEQ_05",""
 6,"TEXT_HEAVNZ109_01758_SEQ_06",""
 7,"TEXT_HEAVNZ109_01758_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_HEAVNZ109_01758_SEQ_21",""
 22,"TEXT_HEAVNZ109_01758_SEQ_22",""
 23,"TEXT_HEAVNZ109_01758_SEQ_23",""
-24,"TEXT_HEAVNZ109_01758_TODO_00","Retrieve the stolen equipment."
-25,"TEXT_HEAVNZ109_01758_TODO_01","Report to Terremiaux."
-26,"TEXT_HEAVNZ109_01758_TODO_02","Deliver the equipment to Laniaitte."
+24,"TEXT_HEAVNZ109_01758_TODO_00","<Sheet(EventItem,2001601,0)/>を入手"
+25,"TEXT_HEAVNZ109_01758_TODO_01","テルミオと話す"
+26,"TEXT_HEAVNZ109_01758_TODO_02","ラニエットに<Sheet(EventItem,2001601,0)/>を渡す"
 27,"TEXT_HEAVNZ109_01758_TODO_03",""
 28,"TEXT_HEAVNZ109_01758_TODO_04",""
 29,"TEXT_HEAVNZ109_01758_TODO_05",""
@@ -49,30 +49,51 @@ int32,str,str
 45,"TEXT_HEAVNZ109_01758_TODO_21",""
 46,"TEXT_HEAVNZ109_01758_TODO_22",""
 47,"TEXT_HEAVNZ109_01758_TODO_23",""
-48,"TEXT_HEAVNZ109_01758_TERREMIAUX_000_000","Your assistance has been more than anyone could ask for, but there is yet work to be done. We did not come here to simply be driven back out─nay, we must take back the stolen weapons and armor!"
-49,"TEXT_HEAVNZ109_01758_TERREMIAUX_000_001","I will create a diversion to draw what attention I can from the Vanu nearby. While they're distracted, I need you to retrieve them."
-50,"TEXT_HEAVNZ109_01758_LANIAITTE_000_010","Terremiaux still means to complete the mission? ...May Halone grant him strength."
-51,"TEXT_HEAVNZ109_01758_ENTRANCESOLDIER01755_000_011","Please...you must reclaim the equipment from the Vanu!"
-52,"TEXT_HEAVNZ109_01758_TERREMIAUX_000_030","Everything appears to be accounted for. Words fail to express my gratitude, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Our equipment, and perhaps even my subordinates, would be lost to the Vanu if not for your aid."
-53,"TEXT_HEAVNZ109_01758_TERREMIAUX_000_031","Pray return to the Rosehouse and deliver them to Lady Laniaitte. It is only fitting that she should receive them from you. We will return in due time, when my men have recovered their strength."
-54,"TEXT_HEAVNZ109_01758_TERREMIAUX_000_040","There is naught we can do to repay your selfless actions, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. After you report to Lady Laniaitte, I trust you will take a well-earned rest."
-55,"TEXT_HEAVNZ109_01758_ENTRANCESOLDIER01755_000_041","We owe much and more to your aid. Please see the weapons and armor safely to Lady Laniaitte."
-56,"TEXT_HEAVNZ109_01758_FORTSOLDIERA01757_000_042","...Thank you, adventurer."
-57,"TEXT_HEAVNZ109_01758_FORTSOLDIERB01757_000_043","I feel I owe you my life, adventurer. Lady Laniaitte will be overjoyed to see the equipment returned to Camp Cloudtop."
-58,"TEXT_HEAVNZ109_01758_FORTSOLDIERC01757_000_044","We will not tarry long, but please go on ahead. Lady Laniaitte is sure to be waiting."
-59,"TEXT_HEAVNZ109_01758_LANIAITTE_000_050","Ah, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, you've returned. What of the equipment, and the search party?"
-60,"TEXT_HEAVNZ109_01758_LANIAITTE_100_050","You never fail to impress, my friend. I see, the others are not yet fit to travel. No matter. I take solace in knowing they're no longer in harm's way."
-61,"TEXT_HEAVNZ109_01758_LANIAITTE_000_051","And yet, the Vanu's recent fixation on Ishgardian weaponry still concerns me. With but a weak grasp of metallurgy, I can only surmise they crave more advanced weaponry to oppose us."
-62,"TEXT_HEAVNZ109_01758_LANIAITTE_000_052","It may finally be time to strengthen security here at Cloudtop. Our duty is to keep watch for Dravanian activity, after all─we can ill afford to be distracted by the Vanu."
-63,"TEXT_HEAVNZ109_01758_LANIAITTE_000_053","In any event, I was right to call upon you for help. Thank you again, for everything."
-64,"TEXT_HEAVNZ109_01758_GUENRIOL_000_000","Your assistance has been more than anyone could ask for, but there is yet work to be done. We did not come here to simply be driven back out─naye, we must retrieve the supplies stolen from Camp Cloudtop."
-65,"TEXT_HEAVNZ109_01758_GUENRIOL_000_001","I will create a diversion to draw what attention I can from the Vanu nearby. While they're distracted, I need you to retrieve the stolen supplies."
-66,"TEXT_HEAVNZ109_01758_GUENRIOL_000_002","I will draw their attention for as long as I can. You must retrieve the supplies before they return."
-67,"TEXT_HEAVNZ109_01758_ENTRANCESOLDIER01755_000_020","Has the lieutenant not yet returned?"
-68,"TEXT_HEAVNZ109_01758_ENTRANCESOLDIER01755_000_021","You have returned with the supplies! Thank goodness. The lieutenant will be glad to hear of it."
-69,"TEXT_HEAVNZ109_01758_FORTSOLDIERA01757_000_022","Pray speak with the lieutenant. He will be relieved to know you've retrieved the supplies."
-70,"TEXT_HEAVNZ109_01758_FORTSOLDIERB01757_000_023","You need not worry about us, though I'm sure the lieutenant is anxious to hear of your work. "
-71,"TEXT_HEAVNZ109_01758_FORTSOLDIERC01757_000_024","Thank goodness you're all right. Lieutenant Guenriol has been awaiting word of your success. "
-72,"TEXT_HEAVNZ109_01758_GUENRIOL_000_030","All the supplies appear to be accounted for. Words fail to express my gratitude, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Our supplies, and perhaps even my subordinates, would be lost to the Vanu if not for your aid."
-73,"TEXT_HEAVNZ109_01758_GUENRIOL_000_031","Pray return to the Rosehouse and deliver the supplies to Lady Laniaitte, along with a report of what transpired. It is only fitting that she should hear it from you. We shall return in due time, when my men have recovered their strength."
-74,"TEXT_HEAVNZ109_01758_GUENRIOL_000_040","There is naught we can do to repay your selfless actions, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. After you report to Lady Laniaitte, I trust you will take a well-earned rest."
+48,"TEXT_HEAVNZ109_01758_TERREMIAUX_000_000","我らの目的は、奪われた補給物資の奪還……。
+それを成し遂げず逃げ帰るようでは、面目が立たない。
+どうか、任務の達成に助力を願いたい！"
+49,"TEXT_HEAVNZ109_01758_TERREMIAUX_000_001","俺が派手に暴れて、奴らを引き付けるとしよう。
+冒険者、君はその隙を突いて物資を……
+「<Sheet(EventItem,2001601,0)/>」を3つ、奪還してきてくれ！"
+50,"TEXT_HEAVNZ109_01758_LANIAITTE_000_010","テルミオの支援、どうかよろしく頼む……。"
+51,"TEXT_HEAVNZ109_01758_ENTRANCESOLDIER01755_000_011","あなたが「<Sheet(EventItem,2001601,0)/>」を……？
+申し訳ありませんが、よろしくお願いします。"
+52,"TEXT_HEAVNZ109_01758_TERREMIAUX_000_030","どうやら、奪われた武具をすべて取り戻してくれたようだな。
+恩に着る、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
+我らだけでは、こうはいかなかっただろう。"
+53,"TEXT_HEAVNZ109_01758_TERREMIAUX_000_031","俺は状況を見ながら、キャンプに帰還する。
+この手柄は、君のものだ。
+武具は、君の手から「ラニエット」様に渡してくれ。"
+54,"TEXT_HEAVNZ109_01758_TERREMIAUX_000_040","この手柄は君のものだ。
+武具は、君の手から「ラニエット」様に渡してくれ。"
+55,"TEXT_HEAVNZ109_01758_ENTRANCESOLDIER01755_000_041","あなたのおかげで、生きて帰ることができます。
+ご協力に、感謝します……。"
+56,"TEXT_HEAVNZ109_01758_FORTSOLDIERA01757_000_042","……感謝している。"
+57,"TEXT_HEAVNZ109_01758_FORTSOLDIERB01757_000_043","へへ、ありがとね！
+いま生きてるのは、あんたのおかげだよ！"
+58,"TEXT_HEAVNZ109_01758_FORTSOLDIERC01757_000_044","貴公がいなければ、いまごろは……。
+救援に、感謝を。"
+59,"TEXT_HEAVNZ109_01758_LANIAITTE_000_050","おお、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>殿！
+戻られたか！"
+60,"TEXT_HEAVNZ109_01758_LANIAITTE_100_050","これは、奪われた物資……。
+なるほど、それで貴公が先に帰還したのだな。"
+61,"TEXT_HEAVNZ109_01758_LANIAITTE_000_051","しかし、イシュガルド製の武器に目をつけられるとは……。
+金属加工技術が低いバヌバヌ族にしてみれば、
+危険を冒してでも欲しい物ということか。"
+62,"TEXT_HEAVNZ109_01758_LANIAITTE_000_052","今後は、キャンプ内だからと油断せず、警戒を強めるとしよう。
+我らに与えられた任務は、ドラゴン族の監視……
+バヌバヌ族との小競り合いは避けたいからな。"
+63,"TEXT_HEAVNZ109_01758_LANIAITTE_000_053","さて、改めて礼を言わせてくれ。
+我らの失態を挽回し、部下の命を救ってくれ、感謝する。
+フフッ、本当に貴公には、助けられてばかりだな。"
+64,"TEXT_HEAVNZ109_01758_GUENRIOL_000_000","（★未使用／削除予定★）"
+65,"TEXT_HEAVNZ109_01758_GUENRIOL_000_001","（★未使用／削除予定★）"
+66,"TEXT_HEAVNZ109_01758_GUENRIOL_000_002","（★未使用／削除予定★）"
+67,"TEXT_HEAVNZ109_01758_ENTRANCESOLDIER01755_000_020","（★未使用／削除予定★）"
+68,"TEXT_HEAVNZ109_01758_ENTRANCESOLDIER01755_000_021","（★未使用／削除予定★）"
+69,"TEXT_HEAVNZ109_01758_FORTSOLDIERA01757_000_022","（★未使用／削除予定★）"
+70,"TEXT_HEAVNZ109_01758_FORTSOLDIERB01757_000_023","（★未使用／削除予定★）"
+71,"TEXT_HEAVNZ109_01758_FORTSOLDIERC01757_000_024","（★未使用／削除予定★）"
+72,"TEXT_HEAVNZ109_01758_GUENRIOL_000_030","（★未使用／削除予定★）"
+73,"TEXT_HEAVNZ109_01758_GUENRIOL_000_031","（★未使用／削除予定★）"
+74,"TEXT_HEAVNZ109_01758_GUENRIOL_000_040","（★未使用／削除予定★）"

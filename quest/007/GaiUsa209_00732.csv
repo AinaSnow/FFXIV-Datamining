@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSA209_00732_SEQ_00","Auphiliot at Buscarron's Druthers seeks an adventurer's aid in dashing a Qiqirn-hatched plot."
-1,"TEXT_GAIUSA209_00732_SEQ_01","Auphiliot has caught word that Qiqirn raiders are hoarding large quantities of poison, which they intend to use in their efforts to waylay unsuspecting travelers. Use the firepots he has provided to destroy the stashes of poison before any of the Druthers' patrons come to harm."
-2,"TEXT_GAIUSA209_00732_SEQ_02","You have succeeded in destroying all the Qiqirn poison stashes, ensuring the safety of travelers en route to and from the Druthers. Report your deeds to Auphiliot."
-3,"TEXT_GAIUSA209_00732_SEQ_03","Auphiliot is pleased that you were able to preemptively thwart the Qiqirn's venomous plot, whatever it might have been. He further explains that the idea came from Buscarron, who believes in avoiding direct confrontation, that true peace might eventually return to the forest."
+0,"TEXT_GAIUSA209_00732_SEQ_00","酒房「バスカロンドラザーズ」のオフィリオーは、冒険者に仕事を依頼したいようだ。"
+1,"TEXT_GAIUSA209_00732_SEQ_01","キキルン族が不穏な行動をしている。おおごとになる前にバスカロン監視所跡の「<Sheet(EObj,2001942,0)/>」を「<Sheet(EventItem,2000586,0)/>」で爆破しよう。"
+2,"TEXT_GAIUSA209_00732_SEQ_02","<Sheet(EObj,2001942,0)/>を全て爆破した。酒房「バスカロンドラザーズ」の「オフィリオー」に報告しよう。"
+3,"TEXT_GAIUSA209_00732_SEQ_03","冒険者の活躍で、事件を未然に防ぐことができたようだ。これも、森の平穏を保つためのバスカロンの知恵らしい。"
 4,"TEXT_GAIUSA209_00732_SEQ_04",""
 5,"TEXT_GAIUSA209_00732_SEQ_05",""
 6,"TEXT_GAIUSA209_00732_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSA209_00732_SEQ_21",""
 22,"TEXT_GAIUSA209_00732_SEQ_22",""
 23,"TEXT_GAIUSA209_00732_SEQ_23",""
-24,"TEXT_GAIUSA209_00732_TODO_00","Use the firepots to destroy Qiqirn stashes."
-25,"TEXT_GAIUSA209_00732_TODO_01","Report to Auphiliot."
+24,"TEXT_GAIUSA209_00732_TODO_00","<Sheet(EObj,2001942,0)/>を<Sheet(EventItem,2000586,0)/>で破壊する"
+25,"TEXT_GAIUSA209_00732_TODO_01","オフィリオーに報告"
 26,"TEXT_GAIUSA209_00732_TODO_02",""
 27,"TEXT_GAIUSA209_00732_TODO_03",""
 28,"TEXT_GAIUSA209_00732_TODO_04",""
@@ -49,10 +49,18 @@ int32,str,str
 45,"TEXT_GAIUSA209_00732_TODO_21",""
 46,"TEXT_GAIUSA209_00732_TODO_22",""
 47,"TEXT_GAIUSA209_00732_TODO_23",""
-48,"TEXT_GAIUSA209_00732_AUPHILIOT_000_000","Been takin' me advice an' puttin' yer skills to work at the Druthers, have ye? Now that's what I like to see from a strappin' young <If(PlayerParameter(4))>lass<Else/>lad</If>. Well, tighten yer bootstraps, 'cause I've got another job for ye."
-49,"TEXT_GAIUSA209_00732_AUPHILIOT_000_001","Was downin' a pint o' Buscarron's finest the other day when I heard that the Qiqirn are hoardin' stashes o' poison 'round these parts. Can't say for sure what they're up to, but it can't be nothin' good. What say you take these firepots here an' go blow up the whole bleedin' lot?"
-50,"TEXT_GAIUSA209_00732_SYSTEM_000_000",""
-51,"TEXT_GAIUSA209_00732_SYSTEM_000_001",""
-52,"TEXT_GAIUSA209_00732_SYSTEM_000_002",""
-53,"TEXT_GAIUSA209_00732_AUPHILIOT_000_010","The poison stashes are no more, ye say? Good <If(PlayerParameter(4))>lass<Else/>lad</If>! Yer next pint will be on me."
-54,"TEXT_GAIUSA209_00732_AUPHILIOT_000_011","Were it <Emphasis>my</Emphasis> druthers, I'd grab those Qiqirn one by one an' string 'em up by their ratty ears, but old man Buscarron won't have none o' that. Says each battle we forgo now saves us one down the road, an'─to tell the truth─I'm startin' to come 'round to his ways."
+48,"TEXT_GAIUSA209_00732_AUPHILIOT_000_000","冒険者、お前の腕を見込んで頼みがある。
+「バスカロン監視所跡」のあたりをねぐらにしている、
+キキルンどもが、毒薬をためこんでいるそうだ。"
+49,"TEXT_GAIUSA209_00732_AUPHILIOT_000_001","奴らは爪に毒を塗り、殺傷力を高めるというからな。
+どうせ、よからぬことを企んでいるに違いない。
+この「<Sheet(EventItem,2000586,0)/>」で「<Sheet(EObj,2001942,0)/>」を破壊してきてくれまいか。"
+50,"TEXT_GAIUSA209_00732_SYSTEM_000_000","バスカロン監視哨跡にある、キキルンの毒（箱）を破壊する×3"
+51,"TEXT_GAIUSA209_00732_SYSTEM_000_001","バスカロン監視哨跡にある、キキルンの毒（箱）を破壊する×3"
+52,"TEXT_GAIUSA209_00732_SYSTEM_000_002","バスカロン監視哨跡にある、キキルンの毒（箱）を破壊する×3"
+53,"TEXT_GAIUSA209_00732_AUPHILIOT_000_010","やってくれたか、ご苦労だったな。
+直接キキルンどもを締めあげてもよかったんだが、
+大きな争いは俺たちの望むところじゃない。"
+54,"TEXT_GAIUSA209_00732_AUPHILIOT_000_011","でかい騒動になる前に手をうつのも、
+森の安定を保つための知恵というわけだ。
+……もとは、バスカロンから教わったことだがね。"

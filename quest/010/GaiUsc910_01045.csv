@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSC910_01045_SEQ_00","Memezofu is once again in dire need of reagents."
-1,"TEXT_GAIUSC910_01045_SEQ_01","Memezofu requires a pair of ahriman corneas to continue making medicine. Slay ahrimans to procure the reagent."
-2,"TEXT_GAIUSC910_01045_SEQ_02","You now have two ahriman corneas. See them to Memezofu's hands."
-3,"TEXT_GAIUSC910_01045_SEQ_03","Memezofu remarks that it takes only a bit of the reagent to cure a great many wounds, but the alchemist is fully aware that an onze of prevention is worth a ponze of cure."
+0,"TEXT_GAIUSC910_01045_SEQ_00","青燐精製所のメメゾフ一等闘兵は、薬の材料不足に困っているようだ。"
+1,"TEXT_GAIUSC910_01045_SEQ_01","薬の材料が足りないようだ。「<Sheet(BNpcName,242,0)/>」を倒し、「<Sheet(EventItem,2000790,0)/>」を2個入手しよう。"
+2,"TEXT_GAIUSC910_01045_SEQ_02","<Sheet(EventItem,2000790,0)/>を入手した。青燐精製所に戻り「メメゾフ一等闘兵」に渡そう。"
+3,"TEXT_GAIUSC910_01045_SEQ_03","メメゾフ一等闘兵に薬の材料を渡した。彼は<Sheet(EventItem,2000790,0)/>で止血剤を作るつもりのようだ。"
 4,"TEXT_GAIUSC910_01045_SEQ_04",""
 5,"TEXT_GAIUSC910_01045_SEQ_05",""
 6,"TEXT_GAIUSC910_01045_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSC910_01045_SEQ_21",""
 22,"TEXT_GAIUSC910_01045_SEQ_22",""
 23,"TEXT_GAIUSC910_01045_SEQ_23",""
-24,"TEXT_GAIUSC910_01045_TODO_00","Slay ahrimans and obtain their corneas."
-25,"TEXT_GAIUSC910_01045_TODO_01","Deliver the ahriman corneas to Memezofu."
+24,"TEXT_GAIUSC910_01045_TODO_00","<Sheet(BNpcName,242,0)/>から<Sheet(EventItem,2000790,0)/>を入手"
+25,"TEXT_GAIUSC910_01045_TODO_01","メメゾフ一等闘兵に<Sheet(EventItem,2000790,0)/>を渡す"
 26,"TEXT_GAIUSC910_01045_TODO_02",""
 27,"TEXT_GAIUSC910_01045_TODO_03",""
 28,"TEXT_GAIUSC910_01045_TODO_04",""
@@ -49,11 +49,21 @@ int32,str,str
 45,"TEXT_GAIUSC910_01045_TODO_21",""
 46,"TEXT_GAIUSC910_01045_TODO_22",""
 47,"TEXT_GAIUSC910_01045_TODO_23",""
-48,"TEXT_GAIUSC910_01045_MEMEZOFU_000_000","I am loath to ask more of one who has already done so much, but rarely do I chance to meet such a reliable adventurer."
-49,"TEXT_GAIUSC910_01045_MEMEZOFU_000_001","The winds of change blow constantly here on the fore, fanning the flames of war to burn ever faster through my stock of reagents."
-50,"TEXT_GAIUSC910_01045_MEMEZOFU_000_002","In particular, I have urgent need of ahriman corneas at the moment, and fear I have no other I can ask. Might I trouble you to procure these for me?"
-51,"TEXT_GAIUSC910_01045_DUMMY_000_000","Slay two ahrimans and acquire two ahriman corneas."
-52,"TEXT_GAIUSC910_01045_TODO_000_000",""
-53,"TEXT_GAIUSC910_01045_MEMEZOFU_000_010","Magnificent! Precisely the reagent I requested. Its appearance is far from appetizing, I'll give you, but trust that its medicinal efficacy more than makes up for it."
-54,"TEXT_GAIUSC910_01045_MEMEZOFU_000_020","This small sample shall suffice to synthesize a goodly amount of coagulant, which serves to stem bleeding."
-55,"TEXT_GAIUSC910_01045_MEMEZOFU_000_021","I can naught but hope that an end to the bloodshed comes before an end to the salve does."
+48,"TEXT_GAIUSC910_01045_MEMEZOFU_000_000","せっかくだ、もうひと仕事頼まれてくれないかな？
+薬の材料を調達してきてほしいんだ。"
+49,"TEXT_GAIUSC910_01045_MEMEZOFU_000_001","ここは、ご覧のとおりの前線だからね。
+いくら材料を運びこんでも、すぐに使いつくしてしまうんだ。"
+50,"TEXT_GAIUSC910_01045_MEMEZOFU_000_002","そうだなぁ……「<Sheet(BNpcName,242,0)/>」から、
+「<Sheet(EventItem,2000790,0)/>」を採ってきてくれるかい？
+2個もあれば大丈夫さ、よろしく頼んだよ！"
+51,"TEXT_GAIUSC910_01045_DUMMY_000_000","<Sheet(BNpcName,242,0)/>を2体倒し、<Sheet(EventItem,2000790,0)/>を入手"
+52,"TEXT_GAIUSC910_01045_TODO_000_000","（★未使用／削除予定★）"
+53,"TEXT_GAIUSC910_01045_MEMEZOFU_000_010","「<Sheet(EventItem,2000790,0)/>」は手に入ったかい？
+見た目は悪いが、いい薬の材料になるんだ。
+2個もあれば大丈夫さ、よろしく頼んだよ！"
+54,"TEXT_GAIUSC910_01045_MEMEZOFU_000_020","……持ってきてくれたんだね、ありがとう！
+これだけあれば、かなりの量の止血剤ができるよ。
+薬を使いきる前に戦いが終わればいいんだけど……。"
+55,"TEXT_GAIUSC910_01045_MEMEZOFU_000_021","いや、そんな夢みたいなこと言っても仕方ないか。
+何にしても僕は自分のことをするだけさ！
+ありがとう、冒険者君！"

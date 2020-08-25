@@ -1,8 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKZE002_03436_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-The ungainly guardsman has made a fine mess of things."
+0,"TEXT_LUCKZE002_03436_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+ジョッブ砦の間抜けな衛兵は、ひどく困っているようだ。"
 1,"TEXT_LUCKZE002_03436_SEQ_01",""
 2,"TEXT_LUCKZE002_03436_SEQ_02",""
 3,"TEXT_LUCKZE002_03436_SEQ_03",""
@@ -26,8 +26,8 @@ The ungainly guardsman has made a fine mess of things."
 21,"TEXT_LUCKZE002_03436_SEQ_21",""
 22,"TEXT_LUCKZE002_03436_SEQ_22",""
 23,"TEXT_LUCKZE002_03436_SEQ_23",""
-24,"TEXT_LUCKZE002_03436_TODO_00","Defeat the proterosuchus and retrieve the guardsman's sack."
-25,"TEXT_LUCKZE002_03436_TODO_01","Deliver the sack to the ungainly guardsman."
+24,"TEXT_LUCKZE002_03436_TODO_00","<Sheet(BNpcName,8515,0)/>を討伐し、まれに得られる<Sheet(EventItem,2002830,0)/>を入手"
+25,"TEXT_LUCKZE002_03436_TODO_01","間抜けな衛兵に<Sheet(EventItem,2002830,0)/>を渡す"
 26,"TEXT_LUCKZE002_03436_TODO_02",""
 27,"TEXT_LUCKZE002_03436_TODO_03",""
 28,"TEXT_LUCKZE002_03436_TODO_04",""
@@ -50,11 +50,25 @@ The ungainly guardsman has made a fine mess of things."
 45,"TEXT_LUCKZE002_03436_TODO_21",""
 46,"TEXT_LUCKZE002_03436_TODO_22",""
 47,"TEXT_LUCKZE002_03436_TODO_23",""
-48,"TEXT_LUCKZE002_03436_SOLDIER03436_000_000","Oh, curse my clumsy feet! I've really done it this time! I was on my way back from an assignment in Weathering, when─would you believe it?─I slipped and fell, sending the sack I was carrying flying out of my hand and high into the heavens."
-49,"TEXT_LUCKZE002_03436_SOLDIER03436_000_001","And as if that wasn't bad enough, a massive beast from out of nowhere snatched up my precious belongings in its jaws and carried them off to the gods know where!"
-50,"TEXT_LUCKZE002_03436_SOLDIER03436_000_002","Suffice to say that if I return empty-handed, my commanding officer is like as not to put me on privy cleaning duty for a week! You must help me, friend!"
-51,"TEXT_LUCKZE002_03436_SOLDIER03436_000_010","Welcome back, friend! You found my supplies, yes? Oh, please say that you did! Just the thought of scouring the privy with a toothbrush again is sending shivers down my spine!"
-52,"TEXT_LUCKZE002_03436_SOLDIER03436_000_011","Could it be? Oh, but it is─my sack! My lovely, lovely sack! And though it's looking rather worse for wear, the contents appear to be entirely intact!"
-53,"TEXT_LUCKZE002_03436_SOLDIER03436_000_012","What exactly <Emphasis>are</Emphasis> the contents, you ask? Among other things, there happens to be a remarkable device that's been entrusted to us in the guard by the Crystal Exarch himself, who is said to have exhumed it from the Crystal Tower!"
-54,"TEXT_LUCKZE002_03436_SOLDIER03436_000_013","Though it simply looks like a pretty round gemstone, it somehow has the ability to measure the concentration of aether in the air and matter around us. Needless to say, it's not something that anyone─not even the artisans at the Mean─can just toss together. If I had lost it for good..."
-55,"TEXT_LUCKZE002_03436_SOLDIER03436_000_014","...But thanks to you, I don't have to think about that anymore, now do I? I know it isn't much, but please take this as a token of my thanks. And with that, I'd best hurry back, lest I get punished anyway for my tardiness. Fare thee well!"
+48,"TEXT_LUCKZE002_03436_SOLDIER03436_000_000","あああ……ど、どうしよう……。
+風化した大地で任務があったんですが、崖のそばで転んで、
+部隊の備品が入った革袋を、落としてしまったんです。"
+49,"TEXT_LUCKZE002_03436_SOLDIER03436_000_001","しかも、あのあたりに棲息する「<Sheet(BNpcName,8515,0)/>」に、
+その革袋を食べられてしまったんです。
+備品を無くしたと上官にバレたら、いったい、どんな罰が……！"
+50,"TEXT_LUCKZE002_03436_SOLDIER03436_000_002","お、お願いです！　僕はどうにか上官をごまかしておきます！
+その間に、風化した大地で片端から「<Sheet(BNpcName,8515,0)/>」を倒して、
+「<Sheet(EventItem,2002830,0)/>」をこっそり回収してきてください！"
+51,"TEXT_LUCKZE002_03436_SOLDIER03436_000_010","あ、おかえりなさい！
+僕が落とした「<Sheet(EventItem,2002830,0)/>」は見つかりましたか？"
+52,"TEXT_LUCKZE002_03436_SOLDIER03436_000_011","あああ、よかったあ～！
+袋がちょっと溶けかけている気がするけど、中身は無事です！"
+53,"TEXT_LUCKZE002_03436_SOLDIER03436_000_012","この中には、水晶公が衛兵団にくださった、機械が入っているんです。
+クリスタルタワーの中で発見された、貴重なものだそうで、
+理屈はわからないですけど、環境エーテルを計測してくれるのだとか。"
+54,"TEXT_LUCKZE002_03436_SOLDIER03436_000_013","僕にはただの綺麗な球にしか見えないんですけど、
+ミーン工芸館の職人でも、造れないようなものらしく……。
+無くしていたら、どんな罰を受けていたか……。"
+55,"TEXT_LUCKZE002_03436_SOLDIER03436_000_014","あなたのおかげで助かりましたよ！
+少ないですけど、お礼を受け取ってください。
+ありがとうございました！"

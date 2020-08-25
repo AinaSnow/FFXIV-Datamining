@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSD302_01314_SEQ_00","Alisaie is keen to seek Urianger's learned opinion on the disturbing events which unfolded during your expedition into the second coil."
-1,"TEXT_GAIUSD302_01314_SEQ_01","Alisaie bids you return to the Waking Sands and deliver your initial report to Urianger, promising that she will join you as soon as she has set her troubled thoughts in order. Make for Vesper Bay."
-2,"TEXT_GAIUSD302_01314_SEQ_02","Alisaie appears at the Waking Sands even as you complete your summary of events for Urianger. In the discussion which follows, the Archon focuses his attention on the unexpected presence of Nael van Darnus, the defeated imperial legatus who once sought to bring the red moon Dalamud crashing down upon Eorzea. Urianger surmises that van Darnus's early efforts to establish control of the Allagan satellite inadvertently awoke the sleeping Bahamut, exposing the White Raven to the elder primal's irresistible will. Given the role played by such thralls in perpetuating Bahamut's existence, Alisaie declares that all must be found and eliminated─Louisoix's aetherial shade included. With that, she thanks you and departs, leaving Urianger to muse upon the value of uncovering a truth that promises so much anguish and sorrow..."
+0,"TEXT_GAIUSD302_01314_SEQ_00","アリゼーは、大迷宮バハムート侵攻作戦について報告したいようだ。"
+1,"TEXT_GAIUSD302_01314_SEQ_01","アリゼーから、大迷宮バハムート侵攻作戦について報告をするように頼まれた。ベスパーベイの砂の家へ戻り、「ウリエンジェ」と話そう。"
+2,"TEXT_GAIUSD302_01314_SEQ_02","ウリエンジェ、アリゼーと共に、今回の侵攻作戦について総括した。迷宮内で出会ったネールは、かつてダラガブを使ってエオルゼアを侵略せんとしたガレマール帝国軍第VII軍団長。ダラガブとの交信を試みるうちに蛮神「バハムート」の信者になったと推測されるという。同じく信者となったルイゾワにも引導を渡すというアリゼー。悲しみの果てにたどり着く「真実」とは、いかなるものなのだろうか……。"
 3,"TEXT_GAIUSD302_01314_SEQ_03",""
 4,"TEXT_GAIUSD302_01314_SEQ_04",""
 5,"TEXT_GAIUSD302_01314_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_GAIUSD302_01314_SEQ_21",""
 22,"TEXT_GAIUSD302_01314_SEQ_22",""
 23,"TEXT_GAIUSD302_01314_SEQ_23",""
-24,"TEXT_GAIUSD302_01314_TODO_00","Speak with Urianger at the Waking Sands."
+24,"TEXT_GAIUSD302_01314_TODO_00","砂の家のウリエンジェと話す"
 25,"TEXT_GAIUSD302_01314_TODO_01",""
 26,"TEXT_GAIUSD302_01314_TODO_02",""
 27,"TEXT_GAIUSD302_01314_TODO_03",""
@@ -49,42 +49,94 @@ int32,str,str
 45,"TEXT_GAIUSD302_01314_TODO_21",""
 46,"TEXT_GAIUSD302_01314_TODO_22",""
 47,"TEXT_GAIUSD302_01314_TODO_23",""
-48,"TEXT_GAIUSD302_01314_ALISAIE_000_000","Truly, it is wonderful to escape that stifling air, and return to...northern Thanalan again, it would appear."
-49,"TEXT_GAIUSD302_01314_ALISAIE_000_001","I must thank you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Were it not for your bravery, I strongly doubt that I would be standing here now. Ah, but you need not tarry on my account─the danger has passed. Pray go on ahead, and apprise Urianger of all that has occurred."
-50,"TEXT_GAIUSD302_01314_ALISAIE_000_002","I will join you anon. My thoughts are yet unruly, and I would rest here a while..."
-51,"TEXT_GAIUSD302_01314_ALISAIE_000_010","Pray return to the Waking Sands, and report our success to Urianger. I shall follow in due course."
-52,"TEXT_GAIUSD302_01314_URIANGER_000_020","The triumphant hero doth return! Thine eyes speak of the dread task's completion: the second coil now lieth dormant!"
-53,"TEXT_GAIUSD302_01314_URIANGER_000_021","...Yet I sense the tidings thou bearest are not altogether glad. Pray tell me: what ill hath cast the shadow which falleth now across thy brow?"
-54,"TEXT_GAIUSD302_01314_URIANGER_000_022","An old foe and an old friend..."
-55,"TEXT_GAIUSD302_01314_URIANGER_000_023","So 'twas but the aetherial shadow of Master Louisoix that Lady Alisaie beheld─an unnatural conjuration in thrall to the elder primal."
-56,"TEXT_GAIUSD302_01314_URIANGER_000_024","That the fiend should deign to choose him of all men... Even in full knowledge of the shade's true nature, I would be hard-pressed to weather such a confrontation."
-57,"TEXT_GAIUSD302_01314_URIANGER_000_025","Yet what agonies must the young mistress have endured? Such torment did she ne'er deserve. Mayhap 'twere better if the Lady Alisaie did absent herself from future forays unto the coils."
-58,"TEXT_GAIUSD302_01314_ALISAIE_000_026","(-???-)I have come too far to surrender to grief, Urianger."
-59,"TEXT_GAIUSD302_01314_URIANGER_000_027","My lady..."
-60,"TEXT_GAIUSD302_01314_ALISAIE_000_028","I am resolved to defeat these fiends─and naught shall sway me from my path. Now, let us peer more deeply into the well of our discoveries."
-61,"TEXT_GAIUSD302_01314_URIANGER_000_029","As you wish, my lady."
-62,"TEXT_GAIUSD302_01314_URIANGER_000_030","By your leave, I would speak first of the coil's late guardian, Nael van Darnus."
-63,"TEXT_GAIUSD302_01314_URIANGER_000_031","<If(Equal(PlayerParameter(76),1))>Fear not. No lengthy history shall I give to thee of this man whom thou hast now defeated twice. Or man <Emphasis>and maid</Emphasis>, I should rather say, through Bahamut's queer oversight.<Else/>Van Darnus was a legatus of the Garlean Empire who strove to bring about Eorzea's final destruction, only to fall even as the sixth sun did set... If thou hast heard tales of the “White Raven,” then it is he of whom they speak. Aye, “he,” I say, for Nael was for a certainty no maid.</If>"
-64,"TEXT_GAIUSD302_01314_URIANGER_000_032","<If(Equal(PlayerParameter(76),1))>Recallest thou the lunar transmitter? The device which thou didst lay to waste was but a crude substitute for the Crystal Tower of the ancients. As a means to command the red moon, it wanted for both subtlety and safety.<Else/>The noble house of van Darnus, as we discovered all too late, had long safeguarded the wisdom of ancient Allag. 'Twas thus that the legatus came to learn the true nature of Dalamud, and to seek to employ the red moon as a weapon against Eorzea.</If>"
-65,"TEXT_GAIUSD302_01314_URIANGER_000_033","<If(Equal(PlayerParameter(76),1))>Ere the transmitter was complete, 'tis my belief that Nael sought to make contact with Dalamud, only to rouse the satellite's slumbering prisoner. And thenceforth did the White Raven's soul belong to Bahamut.<Else/>But the Crystal Tower─and the mechanisms required to command the satellite─yet lay hidden beneath the ground, compelling Nael to construct a far less subtle mechanism. And in his first faltering attempts to communicate with Dalamud, he did likely rouse the satellite's slumbering prisoner. Thenceforth did the White Raven's soul belong to Bahamut.</If>"
+48,"TEXT_GAIUSD302_01314_ALISAIE_000_000","どうにか地上に戻ってこられたようね。
+転移先は前と同じ……北ザナラーンだったみたい。"
+49,"TEXT_GAIUSD302_01314_ALISAIE_000_001","……さっきは守ってくれてありがとう。
+あなたは、先に砂の家へ戻って、
+ウリエンジェに報告をお願い。"
+50,"TEXT_GAIUSD302_01314_ALISAIE_000_002","私も、すぐに後を追いかけるから……。
+大丈夫……少し疲れたから、休んでいくだけよ……。"
+51,"TEXT_GAIUSD302_01314_ALISAIE_000_010","砂の家へ戻って、ウリエンジェに報告をお願い。
+私も……すぐに後を追いかけるから……。"
+52,"TEXT_GAIUSD302_01314_URIANGER_000_020","英雄の凱旋……よくぞ戻られました……。
+その眼は、使命を果たした者の眼……。
+「拘束艦」は沈黙したようですね。"
+53,"TEXT_GAIUSD302_01314_URIANGER_000_021","しかして、万事は無事にならず……。
+あなたに落ちた影の理由を、お聞かせください。"
+54,"TEXT_GAIUSD302_01314_URIANGER_000_022","……白銀の凶鳥、ネール・ヴァン・ダーナス……。
+そして、我が師が……。"
+55,"TEXT_GAIUSD302_01314_URIANGER_000_023","……それでは、ルイゾワ様のエーテルは、
+ネールと同様に蛮神「バハムート」に取り込まれ、
+かの蛮神のテンパードになったというのですね……。"
+56,"TEXT_GAIUSD302_01314_URIANGER_000_024","なんという……ことでしょう……。
+……エーテルを束ねし虚構なる幻影とはいえ、
+ルイゾワ様と相対するは、私でさえ耐え難きこと……。"
+57,"TEXT_GAIUSD302_01314_URIANGER_000_025","……ましてや、アリゼー様にとっては如何ほどか。
+この戦い、もはや協力を望むべきではないかもしれません。"
+58,"TEXT_GAIUSD302_01314_ALISAIE_000_026","(-？？？？-)余計な心配は不要よ、ウリエンジェ。"
+59,"TEXT_GAIUSD302_01314_URIANGER_000_027","アリゼー様……。"
+60,"TEXT_GAIUSD302_01314_ALISAIE_000_028","私は奴らを倒すと決めた……それがすべて。
+それよりも、今回判明した事実を整理させてちょうだい。"
+61,"TEXT_GAIUSD302_01314_URIANGER_000_029","……委細承知しました。"
+62,"TEXT_GAIUSD302_01314_URIANGER_000_030","報告から察するに、今回の要となるのは、
+大迷宮の衛士となったネール・ヴァン・ダーナスです……。"
+63,"TEXT_GAIUSD302_01314_URIANGER_000_031","<If(Equal(PlayerParameter(76),1))>あなたには説明をするまでもない……。
+ネールは、あなたが5年前に通称「月下の闘い」で破った、
+ガレマール帝国の第VII軍団長……。<Else/>第六星暦末期……エオルゼアを制さんと侵攻せし、
+ガレマール帝国軍第VII軍団の長。
+それが「白銀の凶鳥」こと、ネールでありました。</If>"
+64,"TEXT_GAIUSD302_01314_URIANGER_000_032","<If(Equal(PlayerParameter(76),1))>「交信雷波塔」を覚えておいでですか……？
+ネールがダラガブを制御するために建設した、
+クリスタルタワーの代用品……あなたが打ち砕いた野望を。<Else/>彼の者の生家、ダーナス家はアラグの知を受け継ぐ一門……。
+それゆえに月の衛星「ダラガブ」の正体を知り、
+エオルゼア侵略に用いんとしたのです……。</If>"
+65,"TEXT_GAIUSD302_01314_URIANGER_000_033","<If(Equal(PlayerParameter(76),1))>おそらく、あの塔を完成させるべく、
+ダラガブへの交信を試行錯誤するうちに……
+その内に眠る蛮神を目覚めさせ、魅入られたのでしょう。<Else/>しかし、制御を司るクリスタルタワーは、当時まだ地中。
+ダラガブへの交信を試行錯誤するうちに……
+その内に眠る蛮神を目覚めさせ、魅入られたのでしょう。</If>"
 66,"TEXT_GAIUSD302_01314_URIANGER_000_034","（★未使用／削除予定★）"
 67,"TEXT_GAIUSD302_01314_URIANGER_000_035","（★未使用／削除予定★）"
 68,"TEXT_GAIUSD302_01314_URIANGER_000_036","（★未使用／削除予定★）"
-69,"TEXT_GAIUSD302_01314_ALISAIE_000_037","He was fortunate indeed to acquire so powerful a thrall by chance."
-70,"TEXT_GAIUSD302_01314_ALISAIE_000_038","'Tis little wonder he was so loath to part with him. Why let a simple thing like death deprive one of so useful a pawn? ...Though we may accuse him of bungling van Darnus's resurrection, I daresay Bahamut was as content to have a handmaiden as a manservant."
-71,"TEXT_GAIUSD302_01314_ALISAIE_000_039","I only hope that the two thralls we encountered were the extent of his flock."
-72,"TEXT_GAIUSD302_01314_ALISAIE_000_040","Yet I cannot help but dwell on Nael's words─those “beloved children” of whom he spoke."
-73,"TEXT_GAIUSD302_01314_ALISAIE_000_041","I assumed at first that he referred to the moon's beastly guardians...but should Bahamut have enslaved other mortals, we must needs remove this source of worship. Otherwise, our efforts to disable the coils shall be for naught."
-74,"TEXT_GAIUSD302_01314_URIANGER_000_042","Forgive me mine indelicacy, my lady... Thou art wise indeed to speak of expunging the primal's thralls...but canst thou truly pursue a course which would cost thee thine own grandsire?"
-75,"TEXT_GAIUSD302_01314_ALISAIE_000_043","My heart and mind are as one on this matter. Grandfather's salvation can be won but by a single method: the destruction of Bahamut, and aught that might serve to sustain him."
-76,"TEXT_GAIUSD302_01314_ALISAIE_000_044","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>─while Urianger and I endeavor to ascertain the existence of any further thralls, I suggest you grant yourself a moment's respite. Rest assured that I will contact you the moment I have need of your inimitable talents."
-77,"TEXT_GAIUSD302_01314_ALISAIE_000_045","That we have achieved so much, I owe to you. I fear, however, that our trials have barely begun..."
-78,"TEXT_GAIUSD302_01314_URIANGER_000_046","Though time had dulled the pain of thy passing, I find that I am wounded afresh."
-79,"TEXT_GAIUSD302_01314_URIANGER_000_047","Master Louisoix... What good shall come of this unending search for knowledge and truth?"
-80,"TEXT_GAIUSD302_01314_URIANGER_000_048","Long have I believed the pursuit of such treasures to be the duty of every true Sharlayan."
-81,"TEXT_GAIUSD302_01314_URIANGER_000_049","Yet when each new revelation serveth only to heap further anguish upon those whom we would fain protect, must we truly reach for more?"
-82,"TEXT_GAIUSD302_01314_ALPHINAUD_000_050","So, you have found your resolve, dear sister."
-83,"TEXT_GAIUSD302_01314_ALPHINAUD_000_051","Will you now find a use for the secret─for the key that only you and I hold?"
-84,"TEXT_GAIUSD302_01314_ALPHINAUD_000_052","Given our familial propensity for curiosity, you would do well to remember that keys may serve to seal doors as well as to unlock them. And Bahamut is a most unwelcome guest, to whom the door should never have been opened."
-85,"TEXT_GAIUSD302_01314_SYSTEM_000_100","You may view the opening cutscene for the Second Coil of Bahamut before accepting this quest."
-86,"TEXT_GAIUSD302_01314_Q1_000_000","View the opening cutscene?"
+69,"TEXT_GAIUSD302_01314_ALISAIE_000_037","……そして、数千年の時を越えて、
+蛮神「バハムート」の新たなテンパードが誕生したのね。"
+70,"TEXT_GAIUSD302_01314_ALISAIE_000_038","戦いに敗れ、その命はエーテルへと散ったけれど、
+「バハムート」に吸収され、エーテル界には還れなかった。
+ネール……哀れな存在よ。"
+71,"TEXT_GAIUSD302_01314_ALISAIE_000_039","蛮神「バハムート」のテンパード……。
+それが、奴らだけだったのならいいのだけれど……。"
+72,"TEXT_GAIUSD302_01314_ALISAIE_000_040","ネールが言った「愛し子らを抱くゆりかご」という言葉……
+狂言と捨て置くには、妙にひっかかるの。"
+73,"TEXT_GAIUSD302_01314_ALISAIE_000_041","もし、ほかにもテンパードがいるのならば、
+「拘束艦」を止めるのと同時に、
+そいつらの排除も必要になるでしょうね。"
+74,"TEXT_GAIUSD302_01314_URIANGER_000_042","アリゼー様……。
+ルイゾワ様にも引導を渡すと……そうおっしゃるのですね。
+しかし……本当によろしいのですか？"
+75,"TEXT_GAIUSD302_01314_ALISAIE_000_043","……何度も言わせないで。
+蛮神「バハムート」と、それに関するすべてを断つこと……
+それだけが、お祖父様を救うのよ。"
+76,"TEXT_GAIUSD302_01314_ALISAIE_000_044","テンパードの件も含め、しばらくこちらで調査を進めるわ。
+次の作戦が立案されるまで、あなたは休息をとっていて。"
+77,"TEXT_GAIUSD302_01314_ALISAIE_000_045","まだ気の抜ける状況じゃないけれど……
+おつかれさま、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>。"
+78,"TEXT_GAIUSD302_01314_URIANGER_000_046","……そうですか。
+あれから5年、もう逝ってしまわれたと知っていて尚、
+こんなにも……悲しいものなのですね……。"
+79,"TEXT_GAIUSD302_01314_URIANGER_000_047","我が師ルイゾワ……。
+真理とは、真実とは……いったい何なのでしょう……。"
+80,"TEXT_GAIUSD302_01314_URIANGER_000_048","これまで、それに至ることこそ、
+私たちシャーレアンの務めと信じてきました……。"
+81,"TEXT_GAIUSD302_01314_URIANGER_000_049","……しかし、その真実が悲しみと絶望を呼び、
+他者を傷つけるものであっても……
+それでも、明かさねばならないのでしょうか……。"
+82,"TEXT_GAIUSD302_01314_ALPHINAUD_000_050","……それが君の「決断」だとでも言うのかい、アリゼー。"
+83,"TEXT_GAIUSD302_01314_ALPHINAUD_000_051","ならば、次は「鍵」を使うことになるだろう。
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>でも、暁の血盟でもない……
+私たちが持っている「真実の鍵」をね。"
+84,"TEXT_GAIUSD302_01314_ALPHINAUD_000_052","鍵は、扉を閉めるためにもあるんだ。
+……蛮神「バハムート」は、閉じられるべき過去なのさ。"
+85,"TEXT_GAIUSD302_01314_SYSTEM_000_100","本クエストを受注する前に、
+「大迷宮バハムート：侵攻編」初回攻略時に、
+再生されたカットシーンを確認することができます。"
+86,"TEXT_GAIUSD302_01314_Q1_000_000","カットシーンを再生しますか？"

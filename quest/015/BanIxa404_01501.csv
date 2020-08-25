@@ -1,17 +1,20 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANIXA404_01501_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Tazel Meyean the Lettered has a request of the crafting persuasion to make.
-※The crafting portion of this quest is recommended for Disciples of the Hand level 10 and above, and the battle portion for Disciples of War or Magic level 47 and above."
-1,"TEXT_BANIXA404_01501_SEQ_01","Tazel Meyean has asked you to craft for him three high-quality larboard wing control components to replace ones that did not function as intended. The requisite materials can be found within the Ixali logging grounds. To procure them, you will require help from the Ehcatl Nine silencer hiding near the balloon landing. With the chat mode in <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Say<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, enter the password “Wings Unbending” to get the Ixal's attention.
+0,"TEXT_BANIXA404_01501_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+※本クエストは、クラフタークラス：レベル10以上、
+　バトルクラス：レベル47以上推奨です。 
 
-※Please note that the difficulty of this quest has been synced to your current level."
-2,"TEXT_BANIXA404_01501_SEQ_02","You have obtained the requisite larboard wing control component materials. Present them to Hildeyerd at the Bobbing Cork in order to gain access to the crafting facility under her care."
-3,"TEXT_BANIXA404_01501_SEQ_03","Hildeyerd has prepared the crafting facility for your use. With the materials you have obtained, synthesize three high-quality larboard wing control components, and deliver them to Tazel Meyean at Ehcatl.
+エカトル実験場の学究のタゼル・メイェアンは、冒険者に私的な依頼があるようだ。"
+1,"TEXT_BANIXA404_01501_SEQ_01","※本クエストには「<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow><UIGlow>01</UIGlow><UIForeground>01</UIForeground> レベルアジャスト」が、
+　設定されています。
 
-※In the event that the status <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Facility Access: Detailing<UIGlow>01</UIGlow><UIForeground>01</UIForeground> wears off or the synthesis ends in failure, you may try again by speaking with Hildeyerd."
-4,"TEXT_BANIXA404_01501_SEQ_04","You have delivered the larboard wing control components to Tazel Meyean, who squawks in sheer delight. Thanks to you, the Ixal may resume his efforts to take the Ehcatl Nine high into the heavens."
+学究のタゼル・メイェアンから「<Sheet(ItemHQ,　8108,0)/>」の製作を依頼された。製作に必要な材料を受け取るには、イクサル軍伐採所の気球発着場に潜む「空力団の隠密」に、合言葉を言う必要があるそうだ。チャットの会話モードを「Say」モードにして、キーボードやソフトウェアキーボードで『折れぬ翼を！』と入力し、空力団の隠密から「<Sheet(EventItem,2001394,0)/>」を受け取ろう。"
+2,"TEXT_BANIXA404_01501_SEQ_02","空力団の隠密から<Sheet(EventItem,2001394,0)/>を受け取った。フォールゴウドの浮かぶコルク亭にいる「ヒルデヤード」に「<Sheet(EventItem,2001394,0)/>」を渡し、製作施設の使用許可をもらおう。"
+3,"TEXT_BANIXA404_01501_SEQ_03","製作施設の準備が整った。「<Sheet(Item,　8069,0)/>」をもとに「<Sheet(ItemHQ,　8108,0)/>」を3つ製作し、エカトル実験場の「学究のタゼル・メイェアン」に納品しよう。
+
+※バフステータス「製作施設：難関工作」が終了した場合や、「<Sheet(Item,　8069,0)/>」を失った場合は、再びヒルデヤードに話しかけましょう。バフステータスと材料が付与され、再挑戦が可能になります。"
+4,"TEXT_BANIXA404_01501_SEQ_04","学究のタゼル・メイェアンに<Sheet(ItemHQ,　8108,0)/>を納品した。自分の過失に悪びれていた彼だが、冒険者の持ち帰った部材の仕上がりに興奮し、もとの傍若無人な自分を取り戻した。学究のタゼル・メイェアンが気持ちよく発明に打ち込めるようになったことが、今回の真の成果かもしれない。"
 5,"TEXT_BANIXA404_01501_SEQ_05",""
 6,"TEXT_BANIXA404_01501_SEQ_06",""
 7,"TEXT_BANIXA404_01501_SEQ_07",""
@@ -31,9 +34,10 @@ Tazel Meyean the Lettered has a request of the crafting persuasion to make.
 21,"TEXT_BANIXA404_01501_SEQ_21",""
 22,"TEXT_BANIXA404_01501_SEQ_22",""
 23,"TEXT_BANIXA404_01501_SEQ_23",""
-24,"TEXT_BANIXA404_01501_TODO_00","With the chat mode in <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Say<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, enter “Wings Unbending” to get the Ehcatl Nine silencer's cooperation."
-25,"TEXT_BANIXA404_01501_TODO_01","Present the larboard wing control component materials to Hildeyerd at Fallgourd Float."
-26,"TEXT_BANIXA404_01501_TODO_02","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Synthesize larboard wing control components <Sheet(Addon,9,0)/><Else/>Deliver the larboard wing control components <Sheet(Addon,9,0)/> to Tazel Meyean the Lettered</If>."
+24,"TEXT_BANIXA404_01501_TODO_00","チャットの「Say」モードで『折れぬ翼を！』と入力し
+イクサル軍伐採所の空力団の隠密に合言葉を言う"
+25,"TEXT_BANIXA404_01501_TODO_01","フォールゴウドのヒルデヤードに<Sheet(EventItem,2001394,0)/>を渡す"
+26,"TEXT_BANIXA404_01501_TODO_02","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>製作手帳 蛮族クエストLv10：<Sheet(ItemHQ,　8108,0)/>を製作<Else/>学究のタゼル・メイェアンに<Sheet(ItemHQ,　8108,0)/>を納品</If>"
 27,"TEXT_BANIXA404_01501_TODO_03",""
 28,"TEXT_BANIXA404_01501_TODO_04",""
 29,"TEXT_BANIXA404_01501_TODO_05",""
@@ -55,25 +59,60 @@ Tazel Meyean the Lettered has a request of the crafting persuasion to make.
 45,"TEXT_BANIXA404_01501_TODO_21",""
 46,"TEXT_BANIXA404_01501_TODO_22",""
 47,"TEXT_BANIXA404_01501_TODO_23",""
-48,"TEXT_BANIXA404_01501_TAZELMEYEAN_000_000","Squawk! Unbelievable, it is! Control components for larboard wing, I made, but function as intended, they did not."
-49,"TEXT_BANIXA404_01501_TAZELMEYEAN_000_010","Precision cogs used to make wing move, they are. Highest-quality replacements, I need."
-50,"TEXT_BANIXA404_01501_TAZELMEYEAN_000_020","Heavy-duty grease used to make wing move, it is. Highest-quality replacements, I need."
-51,"TEXT_BANIXA404_01501_TAZELMEYEAN_000_030","Heavy-duty joint parts used to make wing move, they are. Highest-quality replacements, I need."
-52,"TEXT_BANIXA404_01501_TAZELMEYEAN_000_040","Alas, easy to obtain, materials are not. Take them from Ixali logging grounds, we must."
-53,"TEXT_BANIXA404_01501_TAZELMEYEAN_000_041","Deep inside, near balloon landing, Ehcatl brother hides. Password “Wings Unbending,” to him you say. Help you obtain materials, he will. When materials, you have, use crafting facility at Fallgourd to make components, you must."
-54,"TEXT_BANIXA404_01501_TAZELMEYEAN_000_050","In Ixali logging grounds, Ehcatl brother hides. Password “Wings Unbending,” to him you say. Help you obtain materials, he will. When materials, you have, use crafting facility at Fallgourd to make components, you can."
-55,"TEXT_BANIXA404_01501_IXALSPY01501_000_060","Business here, you have not! If you value your featherless hide, turn around and walk away, you will!"
-56,"TEXT_BANIXA404_01501_SYSTEM_100_061","With the chat mode in <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Say<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, use your keyboard or the software keyboard to enter the password “Wings Unbending” to get the Ehcatl Nine silencer's cooperation."
-57,"TEXT_BANIXA404_01501_SYSTEM_100_062","Wings Unbending"
-58,"TEXT_BANIXA404_01501_IXALSPY01501_000_061","Squawk! Password of Ehcatl Nine, you know? Then as <If(PlayerParameter(4))>sister<Else/>brother</If> to me, you are."
-59,"TEXT_BANIXA404_01501_IXALSPY01501_000_062","Ah, for component materials, you have come? Good fortune, you possess!"
-60,"TEXT_BANIXA404_01501_IXALSPY01501_000_063","Already taken many, you see. Entrust them to you. Use them well, you must!"
-61,"TEXT_BANIXA404_01501_IXALSPY01501_000_065","Done, your business here is. Strangers once more, we must be. Take materials to Fallgourd, you will."
-62,"TEXT_BANIXA404_01501_HILDEYERD_000_070","Hello again, adventurer! Come to avail yourself of our fine facility, I take it? Let's have a look at the materials you've brought."
-63,"TEXT_BANIXA404_01501_HILDEYERD_000_071","Ooh, yet another curious collection of odds and ends, and a goodly amount besides. So that they don't get in your way while you work, I'll hold on to any excess materials until you need them. The crafting space is ready for your use. You may begin whenever you like."
-64,"TEXT_BANIXA404_01501_HILDEYERD_000_100","Remember, I'm holding on to the excess materials. If the synthesis doesn't go well and you have need of them, you need but ask me."
-65,"TEXT_BANIXA404_01501_HILDEYERD_100_100","Finished crafting, have you? Well, don't keep the client waiting─run along and deliver your handiwork! Now, I doubt that you'd be so clumsy as to misplace your precious creations, but on the off chance that you do, know that I still have the excess materials in my keeping."
-66,"TEXT_BANIXA404_01501_TAZELMEYEAN_000_130","Ah, safely returned, featherless one is. Tell me, materials we need, you have found? Components I asked for, you have made?"
-67,"TEXT_BANIXA404_01501_TAZELMEYEAN_000_131","Squawk! Perfect to last detail, they are! Function as intended, they should! My thanks, you have!"
-68,"TEXT_BANIXA404_01501_POPMESSAGE_000_200","You now have access to the crafting facility."
-69,"TEXT_BANIXA404_01501_SYSTEM_200_200","Normal-quality items crafted in the course of this quest serve no purpose and cannot be sold. It is recommended that you discard them."
+48,"TEXT_BANIXA404_01501_TAZELMEYEAN_000_000","ギェハハーッァ！？
+オッ、オイッ、ちょっとヤベェことになっちまったッァー！
+至急、高品質な「<Sheet(ItemHQ,　8108,0)/>」を3つ製作してくれッェ！"
+49,"TEXT_BANIXA404_01501_TAZELMEYEAN_000_010","必要なのは、左舷エーテル翼のギアだッァ！
+あー、その、オレ様の天才的発想をカタチにしたらなッァ……
+バキッと逝っちまったのよッォ……。"
+50,"TEXT_BANIXA404_01501_TAZELMEYEAN_000_020","必要なのは、左舷の可動部に塗る潤滑油だッァ！
+あー、その、オレ様の天才的発想をカタチにしたらなッァ……
+予想以上に摩擦で熱もっちまってよッォ……。"
+51,"TEXT_BANIXA404_01501_TAZELMEYEAN_000_030","必要なのは、左舷の翼を船体に乗っける接合部材だッァ！
+あー、その、オレ様の天才的発想をカタチにしたらなッァ……
+ポッキリ逝っちまったのよッォ……。"
+52,"TEXT_BANIXA404_01501_TAZELMEYEAN_000_040","製作しなおすしかねえんだが、材料の調達が面倒でなッァ！
+「イクサル軍伐採所」から、かっぱらうしかねえッェ！
+奥の、気球発着場あたりに同志が潜んでるからよッォ……"
+53,"TEXT_BANIXA404_01501_TAZELMEYEAN_000_041","そこで「空力団の隠密」って野郎に合言葉を言えッェ！
+「折れぬ翼を！」と言えば材料を受け取れるッゥ！
+手に入れたら、フォールゴウドの施設で仕上げてくれッェ！"
+54,"TEXT_BANIXA404_01501_TAZELMEYEAN_000_050","「空力団の隠密」って野郎に「折れぬ翼を！」と言えッェ。
+無事に材料を入手したら、
+フォールゴウドの製作施設で仕上げてきてくれやッァ！"
+55,"TEXT_BANIXA404_01501_IXALSPY01501_000_060","それがしに何用かッァ？
+このような場所で出会うとは、真っ当な者ではあるまいッィ！"
+56,"TEXT_BANIXA404_01501_SYSTEM_100_061","チャットの会話モードを「Say」モードにして、
+キーボードやソフトウェアキーボードで
+『折れぬ翼を！』と合言葉を入力しましょう。"
+57,"TEXT_BANIXA404_01501_SYSTEM_100_062","折れぬ翼を"
+58,"TEXT_BANIXA404_01501_IXALSPY01501_000_061","うむ、その言葉を知ってるということはッァ……
+空力団の同志とお見受けしたッァ！"
+59,"TEXT_BANIXA404_01501_IXALSPY01501_000_062","しかし、ヒトは誰もが同じ顔に見えてならぬッゥ……
+合言葉で試した非礼を、許してほしいッィ。
+ヌシの目的はこれ……<Sheet(EventItem,2001394,0)/>だなッァ？"
+60,"TEXT_BANIXA404_01501_IXALSPY01501_000_063","同志のため、苦心して手に入れておいたものッォ。
+ゆめゆめ無駄に使わぬよう、お頼み申すッゥ！"
+61,"TEXT_BANIXA404_01501_IXALSPY01501_000_065","ヌシとはもう赤の他人ッン。
+行くがよい……道中、気をつけてなッァ！"
+62,"TEXT_BANIXA404_01501_HILDEYERD_000_070","こ～んに～ちは～！
+<If(PlayerParameter(4))>お嬢ちゃん<Else/>僕ちゃん</If>、また会いましたね～っ！
+ここを使いたいなら～、持ち込んだ材料を貸してごらんっ！"
+63,"TEXT_BANIXA404_01501_HILDEYERD_000_071","うんうん、たくさん運んでこれたね！
+必要な分だけ返してあげるから、もし失敗しちゃったら、
+泣かないで予備の材料を取りにおいでっ！"
+64,"TEXT_BANIXA404_01501_HILDEYERD_000_100","失敗しちゃっても、
+泣かないでお姉さんのところにまたおいでっ！"
+65,"TEXT_BANIXA404_01501_HILDEYERD_100_100","仕事が終わった子は、納品に行かなきゃだめだぞ～！
+途中でなくしちゃったりしたら、
+お姉さんのところにまた来て、作りなおせばいいからねっ！"
+66,"TEXT_BANIXA404_01501_TAZELMEYEAN_000_130","依頼の品だが、イケそうかッァ？
+悪いなッァ……運が悪かったとはいえ、
+ぶっちゃけ今回はオレ様の過失だからなッァ……。"
+67,"TEXT_BANIXA404_01501_TAZELMEYEAN_000_131","ムムッゥ……注文と寸分たがわぬ精緻な仕上がりッィ！
+オレ様の天才的失敗を埋め合わせてくれて、感謝するぜッェ！
+ギェハハーッァ！"
+68,"TEXT_BANIXA404_01501_POPMESSAGE_000_200","製作の準備が整った。"
+69,"TEXT_BANIXA404_01501_SYSTEM_200_200","本クエストで製作した「NQアイテム」を所持しています。
+このアイテムは、使用することはありません。
+売却もできませんので、不用でしたら破棄してください。"

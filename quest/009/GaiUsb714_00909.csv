@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB714_00909_SEQ_00","The incomparable body language of her people says loud and clear that Molkot requires one adventurer, ready to travel, right meow."
-1,"TEXT_GAIUSB714_00909_SEQ_01","With much hissing and spitting, Molkot has decided to commit the White Rams to a struggle that sprawls beyond the Twelveswood into Coerthas. Give her letter to Belmont, and inform the sellsword that the Rams are with him."
-2,"TEXT_GAIUSB714_00909_SEQ_02","You deliver the letter to Belmont, who is thunderstruck to receive word from the leader of the Rams herself. As he in turn pledges himself to the fight, you can almost see the louche swagger of the sellsword fall away from him..."
+0,"TEXT_GAIUSB714_00909_SEQ_00","ユージニア監視哨の白羊師団長ミア・モルコットは、冒険者に伝令役を頼みたいようだ。"
+1,"TEXT_GAIUSB714_00909_SEQ_01","ミア・モルコットは、クルザスのベルモントとの共闘を決意したようだ。クルザス中央高地のキャンプ・ドラゴンヘッドにいる傭兵「ベルモント」に「<Sheet(EventItem,2000710,0)/>」を渡そう。"
+2,"TEXT_GAIUSB714_00909_SEQ_02","ベルモントに<Sheet(EventItem,2000710,0)/>を届けた。彼はクルザスの仲間や神勇隊「白羊師団」と、イクサル族へ対抗することを誓ったようだ。"
 3,"TEXT_GAIUSB714_00909_SEQ_03",""
 4,"TEXT_GAIUSB714_00909_SEQ_04",""
 5,"TEXT_GAIUSB714_00909_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_GAIUSB714_00909_SEQ_21",""
 22,"TEXT_GAIUSB714_00909_SEQ_22",""
 23,"TEXT_GAIUSB714_00909_SEQ_23",""
-24,"TEXT_GAIUSB714_00909_TODO_00","Deliver the letter to Belmont at Camp Dragonhead."
+24,"TEXT_GAIUSB714_00909_TODO_00","キャンプ・ドラゴンヘッドのベルモントに<Sheet(EventItem,2000710,0)/>を渡す"
 25,"TEXT_GAIUSB714_00909_TODO_01",""
 26,"TEXT_GAIUSB714_00909_TODO_02",""
 27,"TEXT_GAIUSB714_00909_TODO_03",""
@@ -49,11 +49,24 @@ int32,str,str
 45,"TEXT_GAIUSB714_00909_TODO_21",""
 46,"TEXT_GAIUSB714_00909_TODO_22",""
 47,"TEXT_GAIUSB714_00909_TODO_23",""
-48,"TEXT_GAIUSB714_00909_MIAHMOLKOT_000_000","Coerthas and the Twelveswood... Busy little birdies they've been, filling their crop with all manner of juicy worms."
-49,"TEXT_GAIUSB714_00909_MIAHMOLKOT_000_001","Or a juicy something else? How now, there's a thought. They could be extracting <Emphasis>crystals</Emphasis> from those trees─treats for their big bird, the primal Garuda..."
-50,"TEXT_GAIUSB714_00909_MIAHMOLKOT_000_002","Adventurer! Are you as fleet as they say? I've a letter going to Coerthas, for Belmont."
-51,"TEXT_GAIUSB714_00909_MIAHMOLKOT_000_003","And tell that by–blow he can count on us─and that he'd better be as good a tactician as he used to be, even if he sleeps on feathered beds now with a strumpet on each side o' him!"
-52,"TEXT_GAIUSB714_00909_BELMONT_000_010","Back, in one piece! Pardon me if I don't ask about the journey, but what did Isaudorel say? Think he can get the White Rams interested?"
-53,"TEXT_GAIUSB714_00909_BELMONT_000_020","A letter from Molkot? By the Twelve, the Ixal <Emphasis>are</Emphasis> cutting down trees in the Twelveswood! And to offer the crystals to Garuda─'tis worse than I thought."
-54,"TEXT_GAIUSB714_00909_BELMONT_000_021","She said that, eh? S'pose I've been soft long enough. I've eaten my fine table scraps and slept on a feather bed or two, though I won't swear to the other thing. It's the will of the Twelve, is what this is."
-55,"TEXT_GAIUSB714_00909_BELMONT_000_022","The White Rams in the Twelveswood, me in Coerthas...with whoever will join me. The high and mighty houses of Ishgard can go swive 'emselves. We'll stop the Ixal with or without 'em."
+48,"TEXT_GAIUSB714_00909_MIAHMOLKOT_000_000","クルザス、そして黒衣森……
+イクサル族の動きが活発にニャってきている理由か。"
+49,"TEXT_GAIUSB714_00909_MIAHMOLKOT_000_001","……もしや、蛮神「ガルーダ」のためかもしれん。
+奴らが森の樹木から、クリスタルを取りだし、
+蛮神に捧げているのニャとしたら……。"
+50,"TEXT_GAIUSB714_00909_MIAHMOLKOT_000_002","冒険者よ、この「<Sheet(EventItem,2000710,0)/>」を、
+クルザスの「ベルモント」に届けてくれニャいか。"
+51,"TEXT_GAIUSB714_00909_MIAHMOLKOT_000_003","そして、彼に伝えてくれ。
+「白羊師団」の大軍師だったお前の力を見せてみろ！
+今後も連絡を密にし、共にイクサル族と戦うニャ、と！"
+52,"TEXT_GAIUSB714_00909_BELMONT_000_010","おお、帰ってきたか。
+どうだった、神勇隊「白羊師団」は動いてくれそうか？"
+53,"TEXT_GAIUSB714_00909_BELMONT_000_020","……これはモルコット師団長からの……。
+思ったとおり、ヤツらは黒衣森で木々を伐採してやがったか。
+しかも、蛮神「ガルーダ」に捧げるために……。"
+54,"TEXT_GAIUSB714_00909_BELMONT_000_021","……なんだって、師団長がそんな伝言を？
+そうか、そろそろ雑用係は卒業しなきゃいけないな。
+わかった、俺はここでなんとか食い下がろう。"
+55,"TEXT_GAIUSB714_00909_BELMONT_000_022","たとえ、イシュガルドのお偉いさんが見向きもしなくても、
+ここには心強い仲間が、黒衣森には「白羊師団」がいる。
+俺たちだけでイクサル族を食い止めてみせるさ！"

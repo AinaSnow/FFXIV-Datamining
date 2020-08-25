@@ -1,20 +1,24 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_FESXMS301_03009_SEQ_00","Amh Garanjy needs your help to make a success of this year's Starlight Celebration.
-※This quest is available for a limited time only."
-1,"TEXT_FESXMS301_03009_SEQ_01","The land is filled with the merriment of the Starlight Celebration once again. Owing to a recent theft of decorations, however, the festival now suffers from a lack of staff, as many have been tasked with tracking down the perpetrators. Amh Garanjy bids you consult with Baenfaeld in Bentbranch Meadows if you wish to be of assistance.
+0,"TEXT_FESXMS301_03009_SEQ_00","※本クエストは、期間限定のクエストとなります。
 
-※Please note that you will be unable to complete this quest after the seasonal event has ended. For details, please check the Lodestone."
-2,"TEXT_FESXMS301_03009_SEQ_02","The children of Bentbranch Meadows are inconsolable following the theft of the decorations they worked so hard to prepare. Luckily, Baenfaeld has a proposal. He and a trio of crimson-clad bears have been preparing a special treat for the festival, sure to bring a smile to one and all. Once you have chosen one of the three bears to act as your mount, the next part of the plan can be put into action."
-3,"TEXT_FESXMS301_03009_SEQ_03","Having selected the right bear for the job, you are now ready to bring cheer to the local youngsters. Head to the location marked on the map, and throw a starburst while riding <Switch(PlayerParameter(71))><Case(1)>Kochab</Case><Case(2)><If(PlayerParameter(4))>Kochab<Else/>Polaris</If></Case><Case(3)>Pferkad</Case><Case(4)>Kochab</Case><Case(5)>Polaris</Case><Case(6)><If(PlayerParameter(4))>Kochab<Else/>Polaris</If></Case><Case(7)>Polaris</Case><Case(8)>Kochab</Case></Switch> to spread some festive joy.
+ミィ・ケット野外音楽堂のアム・ガランジは、冒険者に星芒祭を手伝ってもらいたいようだ。"
+1,"TEXT_FESXMS301_03009_SEQ_01","※本クエストは、シーズナルイベント開催中にかぎり、
+　受注、進行できます。
+　開催期間終了後は進行できませんので、ご注意ください。
+　期間等の詳細についてはLodestoneをご覧ください。
 
-※Speak with the Starlight Bear handler in Bentbranch Meadows to mount <Switch(PlayerParameter(71))><Case(1)>Kochab</Case><Case(2)><If(PlayerParameter(4))>Kochab<Else/>Polaris</If></Case><Case(3)>Pferkad</Case><Case(4)>Kochab</Case><Case(5)>Polaris</Case><Case(6)><If(PlayerParameter(4))>Kochab<Else/>Polaris</If></Case><Case(7)>Polaris</Case><Case(8)>Kochab</Case></Switch>."
-4,"TEXT_FESXMS301_03009_SEQ_04","The first attempt was a roaring success, met with smiles and laughter. The next in line to witness the bears' unique brand of merrymaking is a lad named Taff, over by the chocobo stables.
+アム・ガランジから、星芒祭を成功させるために力を貸してほしいと頼まれた。詳しい話を聞くため、中央森林のベントブランチ牧場にいる「ベーンフェールド」と話そう。"
+2,"TEXT_FESXMS301_03009_SEQ_02","ベーンフェールドから話を聞いた。星芒祭の飾りが盗まれる事件によって落ち込む子どもたちを励ますため、熊に騎乗して芸を見せてほしいと依頼された。騎乗する個体を選ぶため、体格に合った熊と話そう。"
+3,"TEXT_FESXMS301_03009_SEQ_03","<Switch(PlayerParameter(71))><Case(1)>コカブ</Case><Case(2)><If(PlayerParameter(4))>コカブ<Else/>ポラリス</If></Case><Case(3)>フェルカド</Case><Case(4)>コカブ</Case><Case(5)>ポラリス</Case><Case(6)><If(PlayerParameter(4))>コカブ<Else/>ポラリス</If></Case><Case(7)>ポラリス</Case><Case(8)>コカブ</Case></Switch>に騎乗した。子どもたちに芸を見せるため、<Switch(PlayerParameter(71))><Case(1)>コカブ</Case><Case(2)><If(PlayerParameter(4))>コカブ<Else/>ポラリス</If></Case><Case(3)>フェルカド</Case><Case(4)>コカブ</Case><Case(5)>ポラリス</Case><Case(6)><If(PlayerParameter(4))>コカブ<Else/>ポラリス</If></Case><Case(7)>ポラリス</Case><Case(8)>コカブ</Case></Switch>に騎乗した状態で、ベントブランチ牧場の「<Sheet(EObj,2008623,0)/>」に「プレゼントクラッカー」を使おう。
 
-※Speak with the Starlight Bear handler in Bentbranch Meadows to mount <Switch(PlayerParameter(71))><Case(1)>Kochab</Case><Case(2)><If(PlayerParameter(4))>Kochab<Else/>Polaris</If></Case><Case(3)>Pferkad</Case><Case(4)>Kochab</Case><Case(5)>Polaris</Case><Case(6)><If(PlayerParameter(4))>Kochab<Else/>Polaris</If></Case><Case(7)>Polaris</Case><Case(8)>Kochab</Case></Switch>."
-5,"TEXT_FESXMS301_03009_SEQ_05","Taff was somewhat impressed by the pyrotechnics, although not as delighted as the other children. It seems he has something weighing on his mind."
-6,"TEXT_FESXMS301_03009_SEQ_06","It would appear that Taff has vital information relating to the theft of the decorations. However, the other locals dismissed his account, despite his conviction. Needless to say, your adventurer's instincts compel you to follow this line of inquiry."
+※ベントブランチ牧場にいる「熊好きの星芒祭実行委員」に話しかけると「<Switch(PlayerParameter(71))><Case(1)>コカブ</Case><Case(2)><If(PlayerParameter(4))>コカブ<Else/>ポラリス</If></Case><Case(3)>フェルカド</Case><Case(4)>コカブ</Case><Case(5)>ポラリス</Case><Case(6)><If(PlayerParameter(4))>コカブ<Else/>ポラリス</If></Case><Case(7)>ポラリス</Case><Case(8)>コカブ</Case></Switch>」に騎乗できます。"
+4,"TEXT_FESXMS301_03009_SEQ_04","子どもたちに芸を見せた。タッフに芸を見せるため、<Switch(PlayerParameter(71))><Case(1)>コカブ</Case><Case(2)><If(PlayerParameter(4))>コカブ<Else/>ポラリス</If></Case><Case(3)>フェルカド</Case><Case(4)>コカブ</Case><Case(5)>ポラリス</Case><Case(6)><If(PlayerParameter(4))>コカブ<Else/>ポラリス</If></Case><Case(7)>ポラリス</Case><Case(8)>コカブ</Case></Switch>に騎乗した状態で、ベントブランチ牧場の2箇所目の「<Sheet(EObj,2008624,0)/>」に「プレゼントクラッカー」を使おう。
+
+※ベントブランチ牧場にいる「熊好きの星芒祭実行委員」に話しかけると「<Switch(PlayerParameter(71))><Case(1)>コカブ</Case><Case(2)><If(PlayerParameter(4))>コカブ<Else/>ポラリス</If></Case><Case(3)>フェルカド</Case><Case(4)>コカブ</Case><Case(5)>ポラリス</Case><Case(6)><If(PlayerParameter(4))>コカブ<Else/>ポラリス</If></Case><Case(7)>ポラリス</Case><Case(8)>コカブ</Case></Switch>」に騎乗できます。"
+5,"TEXT_FESXMS301_03009_SEQ_05","タッフに芸を見せた。彼は冒険者に話したいことがあるらしい。ベントブランチ牧場の「タッフ」と話そう。"
+6,"TEXT_FESXMS301_03009_SEQ_06","なんとタッフは星芒祭の飾りを盗んだ犯人を目撃したという。彼の話を聞いて、犯人を捕まえ、盗まれた飾りを取り戻そう。"
 7,"TEXT_FESXMS301_03009_SEQ_07",""
 8,"TEXT_FESXMS301_03009_SEQ_08",""
 9,"TEXT_FESXMS301_03009_SEQ_09",""
@@ -32,11 +36,13 @@ int32,str,str
 21,"TEXT_FESXMS301_03009_SEQ_21",""
 22,"TEXT_FESXMS301_03009_SEQ_22",""
 23,"TEXT_FESXMS301_03009_SEQ_23",""
-24,"TEXT_FESXMS301_03009_TODO_00","Speak with Baenfaeld."
-25,"TEXT_FESXMS301_03009_TODO_01","Choose a bear of suitable size."
-26,"TEXT_FESXMS301_03009_TODO_02","Ride <Switch(PlayerParameter(71))><Case(1)>Kochab</Case><Case(2)><If(PlayerParameter(4))>Kochab<Else/>Polaris</If></Case><Case(3)>Pferkad</Case><Case(4)>Kochab</Case><Case(5)>Polaris</Case><Case(6)><If(PlayerParameter(4))>Kochab<Else/>Polaris</If></Case><Case(7)>Polaris</Case><Case(8)>Kochab</Case></Switch> to the designated location, and throw a starburst."
-27,"TEXT_FESXMS301_03009_TODO_03","Ride <Switch(PlayerParameter(71))><Case(1)>Kochab</Case><Case(2)><If(PlayerParameter(4))>Kochab<Else/>Polaris</If></Case><Case(3)>Pferkad</Case><Case(4)>Kochab</Case><Case(5)>Polaris</Case><Case(6)><If(PlayerParameter(4))>Kochab<Else/>Polaris</If></Case><Case(7)>Polaris</Case><Case(8)>Kochab</Case></Switch> to the second designated location, and throw a starburst."
-28,"TEXT_FESXMS301_03009_TODO_04","Speak with Taff."
+24,"TEXT_FESXMS301_03009_TODO_00","ベントブランチ牧場のベーンフェールドと話す"
+25,"TEXT_FESXMS301_03009_TODO_01","体格に合った熊と話す"
+26,"TEXT_FESXMS301_03009_TODO_02","<Switch(PlayerParameter(71))><Case(1)>コカブ</Case><Case(2)><If(PlayerParameter(4))>コカブ<Else/>ポラリス</If></Case><Case(3)>フェルカド</Case><Case(4)>コカブ</Case><Case(5)>ポラリス</Case><Case(6)><If(PlayerParameter(4))>コカブ<Else/>ポラリス</If></Case><Case(7)>ポラリス</Case><Case(8)>コカブ</Case></Switch>に騎乗して
+<Sheet(EObj,2008623,0)/>にプレゼントクラッカーを使う"
+27,"TEXT_FESXMS301_03009_TODO_03","<Switch(PlayerParameter(71))><Case(1)>コカブ</Case><Case(2)><If(PlayerParameter(4))>コカブ<Else/>ポラリス</If></Case><Case(3)>フェルカド</Case><Case(4)>コカブ</Case><Case(5)>ポラリス</Case><Case(6)><If(PlayerParameter(4))>コカブ<Else/>ポラリス</If></Case><Case(7)>ポラリス</Case><Case(8)>コカブ</Case></Switch>に騎乗して
+2箇所目の<Sheet(EObj,2008624,0)/>にプレゼントクラッカーを使う"
+28,"TEXT_FESXMS301_03009_TODO_04","タッフと話す"
 29,"TEXT_FESXMS301_03009_TODO_05",""
 30,"TEXT_FESXMS301_03009_TODO_06",""
 31,"TEXT_FESXMS301_03009_TODO_07",""
@@ -56,54 +62,113 @@ int32,str,str
 45,"TEXT_FESXMS301_03009_TODO_21",""
 46,"TEXT_FESXMS301_03009_TODO_22",""
 47,"TEXT_FESXMS301_03009_TODO_23",""
-48,"TEXT_FESXMS301_03009_AMHGARANJY_000_000","Happy Starlight! I am Amh Garanjy, Starlight celebrant. Are you perchance an adventurer? Your arrival is most timely. I should like to request your aid."
-49,"TEXT_FESXMS301_03009_AMHGARANJY_000_010","At long last, we meet again! Surely it is Nymeia's providence that has guided you to me. It is in my capacity as a Starlight celebrant that I must ask for your assistance."
-50,"TEXT_FESXMS301_03009_AMHGARANJY_000_020","The Starlight Celebration is the most wonderful time of the year, especially for the little ones. We strive to make each year's festivities more spectacular than the last. Yet there are those who would undermine our carefully laid plans."
-51,"TEXT_FESXMS301_03009_AMHGARANJY_000_021","A spate of thefts has left many without decorations. Several of my associates have been tasked with the investigation, and as a result we are understaffed. Will you help us?"
-52,"TEXT_FESXMS301_03009_AMHGARANJY_000_022","You will? I knew we could rely on you! Please speak with my trusted comrade Baenfaeld in Bentbranch Meadows. He will be grateful for any aid you can provide."
-53,"TEXT_FESXMS301_03009_AMHGARANJY_000_023","Until we track down the thieves and reclaim our stolen decorations, we may have considerable difficulty carrying out our other duties..."
-54,"TEXT_FESXMS301_03009_POLARIS_000_024","Grrrrrr..."
-55,"TEXT_FESXMS301_03009_KOCHAB_000_025","Grrroooh!"
-56,"TEXT_FESXMS301_03009_PFERKAD_000_026","<whimper>"
-57,"TEXT_FESXMS301_03009_BAENFAELD_000_030","Yes, I know ye just wanna help with the festival. But what can I do? Me hands are tied!"
-58,"TEXT_FESXMS301_03009_BAENFAELD_000_040","Who're you? A 'venturer or summat of the like? What can I do for ye?"
-59,"TEXT_FESXMS301_03009_BAENFAELD_000_050","Well, I'll be! You're the one what helped with the Starlight bell a while back! To what do I owe the pleasure?"
-60,"TEXT_FESXMS301_03009_BAENFAELD_000_060","Oh, it was Amh Garanjy who asked ye to come here, was it? I had a feelin' she'd send someone. An' full glad I am she did!"
-61,"TEXT_FESXMS301_03009_BAENFAELD_000_061","So she told you about all the decorations gettin' pinched? Terrible business, I tell ye. One mornin', we woke to find 'em all stolen! And the young'uns round here had only just finished puttin' 'em up. Poor little tykes... They was heartbroken!"
-62,"TEXT_FESXMS301_03009_BAENFAELD_000_062","They're still down in the dumps about it now. Can't blame 'em really, 'specially after all the effort they put in. We've got people lookin' into the thefts, meself included, but no one to take care of the Starlight Celebration itself here in Bentbranch."
-63,"TEXT_FESXMS301_03009_POLARIS_000_063","Grrroooaaar!"
-64,"TEXT_FESXMS301_03009_BAENFAELD_000_064","Aye, you'll get yer chance! Ye think ye spent all that time practicin' for nothin'? Them younglin's will be grinnin' ear to ear when they see what you've got in store!"
-65,"TEXT_FESXMS301_03009_BAENFAELD_000_065","What's that? Ye don't know what they're sayin'? Well, suppose not everyone understands bears like I do..."
-66,"TEXT_FESXMS301_03009_BAENFAELD_000_066","""We're glad someone nice is here to help us! Don't you worry─ We'll have them little ones smilin' again in no time!“ is what he was sayin'. Can't you see? It's written all over that adorable face of his!"
-67,"TEXT_FESXMS301_03009_BAENFAELD_000_067","Hah! There's me explainin' bear-speak, when I haven't even told you what we'll be doin'! These three have been trained to lob these starbursts. Sparkly and colorful they are─like little fireworks!"
-68,"TEXT_FESXMS301_03009_BAENFAELD_000_068","They'll do the chuckin', all you've got to do is ride 'em to the right place. And maybe show 'em where to chuck."
-69,"TEXT_FESXMS301_03009_BAENFAELD_000_069","That's the spirit! You'd think an explosion like that would sting a bit, but the boom's worse than the bite. Anyway, pick from Polaris, Kochab, and Pferkad. They're all good lads─just go for the one easiest to ride."
-70,"TEXT_FESXMS301_03009_AMHGARANJY_000_070","When the children see what you and the bears have planned, their faces will light up with joy!"
-71,"TEXT_FESXMS301_03009_BAENFAELD_000_071","Come on, don't be shy! Go and say hello to the bear what's right for you!"
-72,"TEXT_FESXMS301_03009_SYSTE_000_080","This bear is too big..."
-73,"TEXT_FESXMS301_03009_SYSTE_000_090","This bear is too small..."
-74,"TEXT_FESXMS301_03009_SYSTE_000_100","This bear is just right!"
-75,"TEXT_FESXMS301_03009_POLARIS_000_110","Grrrrrr..."
-76,"TEXT_FESXMS301_03009_KOCHAB_000_120","Graaaooow!"
-77,"TEXT_FESXMS301_03009_PFERKAD_000_130","<whimper> Grrr..."
-78,"TEXT_FESXMS301_03009_BAENFAELD_000_140","He said “All right <If(PlayerParameter(4))>miss<Else/>mister</If> 'venturer! Let's go and cheer up them children!” You can see the determination in his eyes─that steely resolve!"
-79,"TEXT_FESXMS301_03009_BAENFAELD_000_141","Hya ha! I can tell you two're gonna get on just fine! Well, I've got some investigatin' to do."
-80,"TEXT_FESXMS301_03009_BAENFAELD_000_142","Suppose you other two might as well gimme a hand lookin' for the thieves. If ye're as good at sniffin' out criminals as you are at sniffin' out grub in the pantry, we'll have 'em in no time!"
-81,"TEXT_FESXMS301_03009_POLARIS_000_143","(-The Three Bears-)Graooow!"
-82,"TEXT_FESXMS301_03009_BAENFAELD_000_144","I'll leave the starbursts to you an' yer new best friend! Now get out there an' spread some cheer!"
-83,"TEXT_FESXMS301_03009_COMMITTEE03009_000_145","Baenfaeld tells me you've agreed to help out. Oh, here comes <Switch(PlayerParameter(71))><Case(1)>Kochab</Case><Case(2)><If(PlayerParameter(4))>Kochab<Else/>Polaris</If></Case><Case(3)>Pferkad</Case><Case(4)>Kochab</Case><Case(5)>Polaris</Case><Case(6)><If(PlayerParameter(4))>Kochab<Else/>Polaris</If></Case><Case(7)>Polaris</Case><Case(8)>Kochab</Case></Switch> now. May Nymeia watch over you both!"
-84,"TEXT_FESXMS301_03009_SYSTEM_000_146","Throwing a starburst here should get a favorable reaction."
-85,"TEXT_FESXMS301_03009_CHILDA03009_000_150","(-Surprised Little Boy-)Matron's teats! Oh, 'scuse my language... I mean, “Gods be good!” Did that bear just throw a bomb? Ha ha! Amazing!"
-86,"TEXT_FESXMS301_03009_CHILDB03009_000_151","(-Gleeful Little Girl-)That was great! Why don't you show it to Taff? He's down by the chocobo stables."
-87,"TEXT_FESXMS301_03009_TAFF_000_152","Why won't they listen? I'm not a liar!"
-88,"TEXT_FESXMS301_03009_TAFF_000_160","Huh, you scared me for a moment. The bear threw that? I guess that's funny, in a way... <sigh>"
-89,"TEXT_FESXMS301_03009_POLARIS_000_170","(-Polaris-)Grrrrrr..."
-90,"TEXT_FESXMS301_03009_KOCHAB_000_180","(-Kochab-)Groooaaar!"
-91,"TEXT_FESXMS301_03009_PFERKAD_000_190","(-Pferkad-)<whimper>"
-92,"TEXT_FESXMS301_03009_TAFF_000_200","You're tryin' to cheer me up? That's very kind of you."
-93,"TEXT_FESXMS301_03009_TAFF_000_201","Sorry. I guess I'm not havin' a very good day. No matter what I say, no one will listen!"
-94,"TEXT_FESXMS301_03009_TAFF_000_202","But you will, won't you? I'll tell you, if you promise not to call me a fibber."
-95,"TEXT_FESXMS301_03009_TAFF_000_210","You promise? All right, I suppose I can trust you..."
-96,"TEXT_FESXMS301_03009_TAFF_000_211","You heard about the decorations goin' missin' didn't you? Well, I know who took 'em! I saw 'em do it!"
-97,"TEXT_FESXMS301_03009_TAFF_000_212","But when I told the others, they didn't believe me! They called me a fibber! It's not fair! I hate it!"
-98,"TEXT_FESXMS301_03009_TAFF_000_213","But you're not like them. You believe me, right? If I tell you who did it, will you catch 'em and bring back all the decorations?"
+48,"TEXT_FESXMS301_03009_AMHGARANJY_000_000","あら、あなたは、もしや冒険者では！？
+わたくし、星芒祭実行委員長のアム・ガランジと申します。
+実は、少し相談に乗って欲しいことがありまして……。"
+49,"TEXT_FESXMS301_03009_AMHGARANJY_000_010","ああ、冒険者さん！　またお会いできるなんて！
+以前に助けていただいた星芒祭実行委員長のアムです。
+実は、少し相談に乗って欲しいことがありまして……。"
+50,"TEXT_FESXMS301_03009_AMHGARANJY_000_020","ご存知とは思いますが、「星芒祭」は子どものための祝祭。
+わたくしたち実行委員は、子どもたちに楽しんでもらおうと、
+いろいろな催しを企画していたのですが……。"
+51,"TEXT_FESXMS301_03009_AMHGARANJY_000_021","ここのところ頻発している盗難事件の対処に人を取られて、
+各所で人員不足になっているんです。
+「星芒祭」を成功させるため、どうか力を貸してくださいませんか？"
+52,"TEXT_FESXMS301_03009_AMHGARANJY_000_022","ありがとうございます！
+では、ベントブランチ牧場にいる「ベーンフェールド」さんから、
+詳しい事情を聞いてみてください……よろしくお願いしますね。"
+53,"TEXT_FESXMS301_03009_AMHGARANJY_000_023","盗難事件のせいで、今回は人員不足になってまして……。
+ベントブランチ牧場にいる「ベーンフェールド」さんから、
+詳しい事情を聞いてみてください。"
+54,"TEXT_FESXMS301_03009_POLARIS_000_024","グルル……。"
+55,"TEXT_FESXMS301_03009_KOCHAB_000_025","グガァ！"
+56,"TEXT_FESXMS301_03009_PFERKAD_000_026","グルルゥ？"
+57,"TEXT_FESXMS301_03009_BAENFAELD_000_030","すまねぇ、お前さんたちのやる気は理解してるけどよ、
+動ける奴がいないんじゃ、どうしようもない。
+……ん？"
+58,"TEXT_FESXMS301_03009_BAENFAELD_000_040","お前さん、冒険者だな。
+俺に、何か用か？"
+59,"TEXT_FESXMS301_03009_BAENFAELD_000_050","おお、久しぶりだな！
+鐘楼のときは、世話になった。
+で、今回は俺に何か用か？"
+60,"TEXT_FESXMS301_03009_BAENFAELD_000_060","アム・ガランジさんが人を回してくれたか！
+いやはや、お前さんが来てくれて、助かった。"
+61,"TEXT_FESXMS301_03009_BAENFAELD_000_061","近頃、星芒祭の飾りが盗まれるって事件が連続しててな。
+それを知って、飾りつけを手伝ってくれた子どもたちが、
+ひどく落ち込んじまって……。"
+62,"TEXT_FESXMS301_03009_BAENFAELD_000_062","何とかして励ましてやりたいんだが、
+警備や事件の捜査で動ける奴がいない。
+だから、お前さんに子どもたちを慰めてほしいんだ。"
+63,"TEXT_FESXMS301_03009_POLARIS_000_063","グガ……。"
+64,"TEXT_FESXMS301_03009_BAENFAELD_000_064","大丈夫だって、安心しろよ。
+あんなに一生懸命、練習してきたじゃないか。
+きっと子どもたちも、笑顔になってくれるさ。"
+65,"TEXT_FESXMS301_03009_BAENFAELD_000_065","どうした、不思議そうな顔をして。
+……もしかして、こいつらの言いたいことがわからないのか？"
+66,"TEXT_FESXMS301_03009_BAENFAELD_000_066","「優しそうなヒトが来てくれて、ホッとしました。
+　でも、僕たちの芸で子どもを笑顔にできるでしょうか……」
+そう言ってるぞ、顔を見ればわかるだろ？"
+67,"TEXT_FESXMS301_03009_BAENFAELD_000_067","……っと、そう言えば、紹介がまだだったな。
+こいつらは、星芒祭向けに「プレゼントクラッカー」を投げる、
+特別な芸を仕込んだ騎乗用熊の三兄弟なんだ。"
+68,"TEXT_FESXMS301_03009_BAENFAELD_000_068","お前さんは、こいつらの一頭に騎乗して指示を出し、
+子どもたちに芸を見せてやってくれ。"
+69,"TEXT_FESXMS301_03009_BAENFAELD_000_069","よし、それじゃあ、乗る奴を選ばないとな。
+大きい方から順に、ポラリス、コカブ、フェルカドって名だ。
+お前さんの体格に合った奴に、声をかけてくれ。"
+70,"TEXT_FESXMS301_03009_AMHGARANJY_000_070","ベーンフェールドさんから、話は聞けたようですね。
+落ち込んでしまっている子どもたちを、
+熊さんたちと力を合わせて、笑顔にしてあげてください！"
+71,"TEXT_FESXMS301_03009_BAENFAELD_000_071","どうした、冒険者？
+自分の体格に合った奴に声をかけてくれ。"
+72,"TEXT_FESXMS301_03009_SYSTE_000_080","この熊では大きすぎて、乗りこなすのは難しそうだ……。"
+73,"TEXT_FESXMS301_03009_SYSTE_000_090","この熊では小さすぎて、乗ったら潰れてしまいそうだ……。"
+74,"TEXT_FESXMS301_03009_SYSTE_000_100","この熊の大きさなら、ちょうどよく乗れそうだ！"
+75,"TEXT_FESXMS301_03009_POLARIS_000_110","グルルルル……。"
+76,"TEXT_FESXMS301_03009_KOCHAB_000_120","グルル、ガァ！"
+77,"TEXT_FESXMS301_03009_PFERKAD_000_130","グガ、グルルゥ？"
+78,"TEXT_FESXMS301_03009_BAENFAELD_000_140","「よろしくお願いします、冒険者さん。
+　子どもたちのため、精一杯がんばりますね！」……だとよ。
+気合の入ったいい顔をしてるじゃねえか、なあ？"
+79,"TEXT_FESXMS301_03009_BAENFAELD_000_141","へへっ、相性も問題なさそうで安心したぜ。
+これで俺は、お役御免。
+盗難事件の捜査に、戻るとするか。"
+80,"TEXT_FESXMS301_03009_BAENFAELD_000_142","そうだ、残ったお前さんたちは俺を手伝ってくれ。
+事件の捜査も、子どもたちのためなんだから、
+しっかり働いてくれよ。"
+81,"TEXT_FESXMS301_03009_POLARIS_000_143","(-熊の三兄弟たち-)グゴァ！"
+82,"TEXT_FESXMS301_03009_BAENFAELD_000_144","それじゃ、そっちはお前さんに任せたぞ。
+「プレゼントクラッカー」を、子どもたちの前に投げて、
+笑顔にしてやってくれ！"
+83,"TEXT_FESXMS301_03009_COMMITTEE03009_000_145","ベーンフェールドさんから話は聞いてます。
+はぐれた<Switch(PlayerParameter(71))><Case(1)>コカブ</Case><Case(2)><If(PlayerParameter(4))>コカブ<Else/>ポラリス</If></Case><Case(3)>フェルカド</Case><Case(4)>コカブ</Case><Case(5)>ポラリス</Case><Case(6)><If(PlayerParameter(4))>コカブ<Else/>ポラリス</If></Case><Case(7)>ポラリス</Case><Case(8)>コカブ</Case></Switch>なら帰ってきているので、
+いま呼びますね。"
+84,"TEXT_FESXMS301_03009_SYSTEM_000_146","この地点に向かって「プレゼントクラッカー」を投げれば、
+子どもにしっかり見てもらえそうだ。"
+85,"TEXT_FESXMS301_03009_CHILDA03009_000_150","(-笑顔になった少年-)うわー、びっくりした！
+この熊さん、こんなすげー芸もできるんだ！"
+86,"TEXT_FESXMS301_03009_CHILDB03009_000_151","(-笑顔になった少女-)熊さん、ありがとう！
+チョコボ留の近くにいるタッフくんにも、見せてあげてね！"
+87,"TEXT_FESXMS301_03009_TAFF_000_152","僕、嘘つきじゃないもん……。"
+88,"TEXT_FESXMS301_03009_TAFF_000_160","あ、熊さんと冒険者の<If(PlayerParameter(4))>お姉さん<Else/>お兄さん</If>……。
+すごい芸だね、見せてくれてありがとう。
+…………はあ。"
+89,"TEXT_FESXMS301_03009_POLARIS_000_170","(-ポラリス-)グガ、グルル……。"
+90,"TEXT_FESXMS301_03009_KOCHAB_000_180","(-コカブ-)グガ、グルガァ！"
+91,"TEXT_FESXMS301_03009_PFERKAD_000_190","(-フェルカド-)グル、グルルゥ？"
+92,"TEXT_FESXMS301_03009_TAFF_000_200","なぐさめて……くれるの？
+ありがとう、熊さん優しいね……。"
+93,"TEXT_FESXMS301_03009_TAFF_000_201","でも、大人たちは僕のこと、信じてくれないし……。
+今はちょっと、楽しく笑える気分じゃないんだ。"
+94,"TEXT_FESXMS301_03009_TAFF_000_202","……ねえ、<If(PlayerParameter(4))>お姉さん<Else/>お兄さん</If>。
+僕のお話を、嘘つきって言わないで、聞いてくれる？"
+95,"TEXT_FESXMS301_03009_TAFF_000_210","僕のお話、聞いてくれるの？
+えへへ……ありがとう、<If(PlayerParameter(4))>お姉さん<Else/>お兄さん</If>！"
+96,"TEXT_FESXMS301_03009_TAFF_000_211","あのさ、<If(PlayerParameter(4))>お姉さん<Else/>お兄さん</If>は、星芒祭の飾りが盗まれたの知ってる？
+実は僕、盗んだ泥棒さんを見ちゃったんだ！"
+97,"TEXT_FESXMS301_03009_TAFF_000_212","でも、そのことを話したら、大人たちはみんな、
+そんなわけない、嘘をつくんじゃないって言うんだ。
+だから、すごくガッカリしちゃって……。"
+98,"TEXT_FESXMS301_03009_TAFF_000_213","でも、<If(PlayerParameter(4))>お姉さん<Else/>お兄さん</If>は、ほかの大人とは違うみたい。
+僕が見たことを教えるから、泥棒さんを捕まえて、
+みんなで頑張って準備した星芒祭の飾り、取り戻してほしいんだ！"

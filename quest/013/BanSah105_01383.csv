@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANSAH105_01383_SEQ_00","Fyuu has news of an incident that could escalate the ongoing conflict with the Maelstrom."
-1,"TEXT_BANSAH105_01383_SEQ_01","According to one of Fyuu's skulking spawnbrothers, the Coral Tridents have captured a number of Maelstrom soldiers. With naught but death or “drowning” awaiting such prisoners, the young Sahagin expects the soldiers' comrades to mount a retaliatory expedition. In order to prevent a violent disruption to the spawning grounds, Fyuu asks that you free the captured troops yourself. Approach the Sahagin sentries guarding the area, and obtain their keys─by peaceful means if possible, forceful means if necessary."
-2,"TEXT_BANSAH105_01383_SEQ_02","You have obtained the manacle keys from the Sahagin sentries. Locate the captive soldiers in the west of the Sahagin Landbase, and set them free of their shackles."
-3,"TEXT_BANSAH105_01383_SEQ_03","You have freed the captive storm recruits. Return to Novv's Nursery and report to Fyuu."
-4,"TEXT_BANSAH105_01383_SEQ_04","Though certain that the Coral Tridents curse the lone shorewalker who freed their captives, Fyuu is relieved that your actions have forestalled any retaliation by the Maelstrom. The young Sahagin, echoing the teachings of his clutchfather, appears determined to end the pointless cycle where vengeance begets only further vengeance."
+0,"TEXT_BANSAH105_01383_SEQ_00","ノォヴの育成地のフュウは、争いの火種を察知したようだ。"
+1,"TEXT_BANSAH105_01383_SEQ_01","フュウは、「珊瑚の銛」の捕虜となった黒渦団兵卒を解放してほしいそうだ。サハギン軍陣営の西にいる、見張りの「<Sheet(BNpcName,2721,0)/>」に話しかけ、襲われたらこれを討伐して「<Sheet(EventItem,2001254,0)/>」を入手しよう。"
+2,"TEXT_BANSAH105_01383_SEQ_02","<Sheet(EventItem,2001254,0)/>を手に入れた。サハギン軍陣営の西にいる「囚われの黒渦団兵卒」に「<Sheet(EventItem,2001254,0)/>」を使おう。"
+3,"TEXT_BANSAH105_01383_SEQ_03","捕虜となっていた囚われの黒渦団兵卒たちを解放した。ノォヴの育成地の「フュウ」に報告しよう。"
+4,"TEXT_BANSAH105_01383_SEQ_04","フュウに、黒渦団兵卒たちを解放したと報告した。父からの教えを受け、報復の応酬は無駄であると語るフュウ。無駄な血が流れることのないよう、再びこのような事態が起きたときは協力しよう。"
 5,"TEXT_BANSAH105_01383_SEQ_05",""
 6,"TEXT_BANSAH105_01383_SEQ_06",""
 7,"TEXT_BANSAH105_01383_SEQ_07",""
@@ -25,9 +25,10 @@ int32,str,str
 21,"TEXT_BANSAH105_01383_SEQ_21",""
 22,"TEXT_BANSAH105_01383_SEQ_22",""
 23,"TEXT_BANSAH105_01383_SEQ_23",""
-24,"TEXT_BANSAH105_01383_TODO_00","Obtain manacle keys from Sahagin sentries."
-25,"TEXT_BANSAH105_01383_TODO_01","Free captive storm recruits."
-26,"TEXT_BANSAH105_01383_TODO_02","Report to Fyuu."
+24,"TEXT_BANSAH105_01383_TODO_00","サハギン軍陣営西の<Sheet(BNpcName,2721,0)/>と話し
+襲われたら討伐して<Sheet(EventItem,2001254,0)/>を入手"
+25,"TEXT_BANSAH105_01383_TODO_01","囚われの黒渦団兵卒に<Sheet(EventItem,2001254,0)/>を使う"
+26,"TEXT_BANSAH105_01383_TODO_02","フュウに報告"
 27,"TEXT_BANSAH105_01383_TODO_03",""
 28,"TEXT_BANSAH105_01383_TODO_04",""
 29,"TEXT_BANSAH105_01383_TODO_05",""
@@ -49,22 +50,45 @@ int32,str,str
 45,"TEXT_BANSAH105_01383_TODO_21",""
 46,"TEXT_BANSAH105_01383_TODO_22",""
 47,"TEXT_BANSAH105_01383_TODO_23",""
-48,"TEXT_BANSAH105_01383_FYUU_000_000","Pshhh... One of my ssspawnbrothers has ssspied Coral Trident warriors gloating over a catch of shhhorewalker sssoldiers. If they did not kill these captives outright, then they mean to have them “drowned.”"
-49,"TEXT_BANSAH105_01383_FYUU_000_001","Ordinarily, I would not concern myssself with the fate of a few finless fighters...but enssslaving them to Lord Leviathan's will is shhhure to invite retaliation. And we do not need a sssquad of wrathful troopsss clanking through the middle of our ssspawning grounds."
-50,"TEXT_BANSAH105_01383_FYUU_000_002","They ssslay sssome of ours, and we ressspond by ssslaying more of theirs─it achieves nothing. It would be bessst for all involved if you were to ssset these prisoners free, yesss?"
-51,"TEXT_BANSAH105_01383_FYUU_000_003","The Tridentsss have posssted sssentries to guard the captives and keep watch for ressscue parties. Each will likely have a key that fitsss but one ssset of manacles─all the better to prevent an easy essscape. I sssuppose you might firssst try asssking the guards to sssurrender their keys..."
-52,"TEXT_BANSAH105_01383_FYUU_000_004","...And when they inevitably attack you, none can sssay that they didn't deserve their fate!"
-53,"TEXT_BANSAH105_01383_FYUU_000_005","You will need the manacle keys if you are to free the captive finless ones. Approach the Sssahagin sssentries and make an attempt to reason with them. When that invariably fails, you shhhall sssimply have to take the keys from their corpssses!"
-54,"TEXT_BANSAH105_01383_POPMESSAGE_000_000","You are under attack!"
-55,"TEXT_BANSAH105_01383_HORYOA01383_000_010","Thank the Tw─ Oh, just the one of ye, is there? Well, do ye think ye can take them sentries? They've the keys to these blasted shackles!"
-56,"TEXT_BANSAH105_01383_HORYOB01383_000_015","Come to set us free, have you? Be sure to snatch enough keys, because I'm not leaving without my squad mates!"
-57,"TEXT_BANSAH105_01383_HORYOC01383_000_020","I'd rather drown than be, well, “drowned”...but I'll accept a last-moment rescue over either of those. Be sure to give our captors my “regards” when you pry the keys from their cold claws..."
-58,"TEXT_BANSAH105_01383_SAHAGINA01383_000_020","Pshhh... An ally of our prisoners!? Then you shhhall shhhare their fate as one of Lord Leviathan's thralls!"
-59,"TEXT_BANSAH105_01383_SAHAGINB01383_000_025","Shhhurrender my key? You mock the might of the Coral Tridentshhh, shhhorewalker!"
-60,"TEXT_BANSAH105_01383_SAHAGINC01383_000_030","Pshhhahaha! No, you may not have my key, finless one. My ssspear, however, is yours for the asssking!"
-61,"TEXT_BANSAH105_01383_HORYOA01383_000_050","Me thanks..."
-62,"TEXT_BANSAH105_01383_HORYOB01383_000_051","Aye, now we can make a run for it!"
-63,"TEXT_BANSAH105_01383_HORYOC01383_000_052","Free...
-You'll be in my prayers this night, <If(PlayerParameter(4))>miss<Else/>sir</If>."
-64,"TEXT_BANSAH105_01383_FYUU_000_040","Pshhh... The Tridentsss howl and curssse your finless hide, but you have sssaved the ssspawning grounds from a retaliatory ssstrike."
-65,"TEXT_BANSAH105_01383_FYUU_000_041","...A ssstrike that our warriors would then have felt the need to anssswer. And ssso it goes, back and forth, blood for blood. If we do not act to ssstop this madness, then who will?"
+48,"TEXT_BANSAH105_01383_FYUU_000_000","フスィーッ……「珊瑚の銛」の連中が、
+ヒレナシの兵士どもを引っ捕らえているらしい。
+奴らのことだ、テンパードにするつもりだろうぜ。"
+49,"TEXT_BANSAH105_01383_FYUU_000_001","……それですむならいいが、
+仲間を奪われたヒレナシ連中も、黙っちゃいねぇはずだ。
+おそらく、サハギン族とヒレナシの戦いが激化するだろう。"
+50,"TEXT_BANSAH105_01383_FYUU_000_002","仲間の命を奪い合い、互いに兵力を削る……得策じゃねぇ。
+フスィーッ……囚われているヒレナシの兵士どもを、
+お前の手で解放してくれねぇか？"
+51,"TEXT_BANSAH105_01383_FYUU_000_003","見張りの「<Sheet(BNpcName,2721,0)/>」が
+ヒレナシたちの「<Sheet(EventItem,2001254,0)/>」を持っているはずだ。
+鍵を寄越すよう、話しかけてみてくれ。"
+52,"TEXT_BANSAH105_01383_FYUU_000_004","……とはいえ、どうせ襲い掛かってくるだろう。
+その時は、アンタの力でブチのめしてくれ！"
+53,"TEXT_BANSAH105_01383_FYUU_000_005","ヒレナシたちを解放するための「<Sheet(EventItem,2001254,0)/>」は
+見張りの「<Sheet(BNpcName,2721,0)/>」が持っているはずだ。
+フスィーッ……拒むようなら、容赦なくブチのめしてくれ！"
+54,"TEXT_BANSAH105_01383_POPMESSAGE_000_000","敵が襲いかかってきた！！"
+55,"TEXT_BANSAH105_01383_HORYOA01383_000_010","ぼ、冒険者か……！
+頼む、「<Sheet(BNpcName,2721,0)/>」を倒して、
+「<Sheet(EventItem,2001254,0)/>」を奪ってくれ！"
+56,"TEXT_BANSAH105_01383_HORYOB01383_000_015","助けに来てくれたのか！？
+けど、戦友を残して、ひとりだけでは逃げられねぇ！
+全員分の「<Sheet(EventItem,2001254,0)/>」を手に入れてくれ、頼むよ！"
+57,"TEXT_BANSAH105_01383_HORYOC01383_000_020","覚悟は決めていたが……助けがくるとは、ありがたい。
+鍵は「<Sheet(BNpcName,2721,0)/>」が持っている、頼んだぞ。"
+58,"TEXT_BANSAH105_01383_SAHAGINA01383_000_020","フスィーッ……てめぇ、捕虜の仲間か！？
+水神「リヴァイアサン」様への貢物にしてくれる！"
+59,"TEXT_BANSAH105_01383_SAHAGINB01383_000_025","フスィーッ……鍵を渡せ、だと？
+ヒレナシめが、「珊瑚の銛」を愚弄する気か！？"
+60,"TEXT_BANSAH105_01383_SAHAGINC01383_000_030","フスィーッ……正面切って現れるったぁ、
+ヒレナシってのは、どれだけマヌケなんだ？
+鍵を渡すわけねぇだろ、てめぇも捕らえてやる！"
+61,"TEXT_BANSAH105_01383_HORYOA01383_000_050","た、助かった……。"
+62,"TEXT_BANSAH105_01383_HORYOB01383_000_051","よし、みんなで逃げ延びるぞ！"
+63,"TEXT_BANSAH105_01383_HORYOC01383_000_052","すまない、この恩は決して忘れない。"
+64,"TEXT_BANSAH105_01383_FYUU_000_040","フスィーッ……ありがとうよ！
+これでヒレナシの連中が、救出のために、
+産卵地に殴り込むのを防げたってわけだ。"
+65,"TEXT_BANSAH105_01383_FYUU_000_041","報復が報復を呼び、戦いが激化する。
+……そんなもん全部無駄ってもんだぜ、単純に！
+フスィーッ……親父の受け売りだけどなぁ！"

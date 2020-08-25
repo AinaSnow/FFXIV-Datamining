@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSGLD530_02071_SEQ_00","Marcel would speak with you about the music box you will be crafting."
-1,"TEXT_CLSGLD530_02071_SEQ_01","Marcel informs you that he has chosen a song for the music box, and would have you consult with your client directly to determine the physical appearance she would like the masterpiece-to-be to take. Seek out Jeweled Peak at the Sapphire Avenue Exchange."
-2,"TEXT_CLSGLD530_02071_SEQ_02","Jeweled Peak shares with you her requests for the music box she has ordered. She seeks a piece of surpassing elegance and grace that is sturdy enough to stand up to daily use, and would like it adorned with gemstones─a ruby, a sapphire, or both. Share your findings with Marcel at Eshtaime's Aesthetics."
-3,"TEXT_CLSGLD530_02071_SEQ_03","You relay the client's wishes to Marcel, who reacts with great interest. He requests that you try your hand at crafting an item requiring similar techniques─to wit, a hardsilver bangle of casting─that he might gauge whether you have the ability to meet Jeweled Peak's high expectations."
-4,"TEXT_CLSGLD530_02071_SEQ_04","Marcel is quite taken with the bangle you fashioned, declaring that you indeed possess both the skill and aesthetic sensitivity to realize the ideals of his mentor. Knowing just how demanding his client is, however, he encourages you to hone your skills yet more before commencing work on this most important commission.
+0,"TEXT_CLSGLD530_02071_SEQ_00","宝飾店「エシュテム」のマルセルは、オルゴール作りの段取りを決めたいようだ。"
+1,"TEXT_CLSGLD530_02071_SEQ_01","オルゴール製作にあたって、その外観を決めるための打ち合わせをすることになった。ウルダハのサファイアアベニュー国際市場にいる「ジュエルド・ピーク」に話を聞こう。"
+2,"TEXT_CLSGLD530_02071_SEQ_02","ジュエルド・ピークと話した。宝飾店「エシュテム」の「マルセル」に打ち合わせの結果を報告しよう。"
+3,"TEXT_CLSGLD530_02071_SEQ_03","オルゴール作りの前段階として、赤と青の宝石をあしらった宝飾品を試作することになった。「<Sheet(Item,11068,0)/>」を製作し、宝飾店「エシュテム」の「マルセル」に納品しよう。"
+4,"TEXT_CLSGLD530_02071_SEQ_04","マルセルに<Sheet(Item,11068,0)/>を納品した。彼は目に見えぬ「心」を表現するには、それに足る「技術」が必要だと述べ、超一流の技量をそなえた冒険者への期待をあらわにした。その期待を裏切ることのないよう、彫金師としてさらなる精進を重ねよう。
 
-※The next goldsmith quest will be available from Marcel upon reaching level 55."
+※彫金師のレベルが55以上になると、宝飾店「エシュテム」のマルセルから次の彫金師クエストを受注することができます。"
 5,"TEXT_CLSGLD530_02071_SEQ_05",""
 6,"TEXT_CLSGLD530_02071_SEQ_06",""
 7,"TEXT_CLSGLD530_02071_SEQ_07",""
@@ -27,9 +27,9 @@ int32,str,str
 21,"TEXT_CLSGLD530_02071_SEQ_21",""
 22,"TEXT_CLSGLD530_02071_SEQ_22",""
 23,"TEXT_CLSGLD530_02071_SEQ_23",""
-24,"TEXT_CLSGLD530_02071_TODO_00","Speak with Jeweled Peak at the Sapphire Avenue Exchange."
-25,"TEXT_CLSGLD530_02071_TODO_01","Report to Marcel."
-26,"TEXT_CLSGLD530_02071_TODO_02","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Craft a hardsilver bangle of casting<Else/>Deliver the hardsilver bangle of casting to Marcel</If>."
+24,"TEXT_CLSGLD530_02071_TODO_00","サファイアアベニュー国際市場のジュエルド・ピークと話す"
+25,"TEXT_CLSGLD530_02071_TODO_01","マルセルに報告"
+26,"TEXT_CLSGLD530_02071_TODO_02","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))><Sheet(Item,11068,0)/>を製作<Else/>マルセルに<Sheet(Item,11068,0)/>を納品</If>"
 27,"TEXT_CLSGLD530_02071_TODO_03",""
 28,"TEXT_CLSGLD530_02071_TODO_04",""
 29,"TEXT_CLSGLD530_02071_TODO_05",""
@@ -51,20 +51,51 @@ int32,str,str
 45,"TEXT_CLSGLD530_02071_TODO_21",""
 46,"TEXT_CLSGLD530_02071_TODO_22",""
 47,"TEXT_CLSGLD530_02071_TODO_23",""
-48,"TEXT_CLSGLD530_02071_MARCEL_000_000","Ah, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>. I believe it is time we began working on Madam Peak's music box."
-49,"TEXT_CLSGLD530_02071_MARCEL_000_001","I have taken the liberty of choosing the song myself. It is a piece of particular sentimental value to my client and her dear husband─and one of the finest pieces from the Songstress's repertoire, if I do say so myself."
-50,"TEXT_CLSGLD530_02071_MARCEL_000_002","As for what physical form the music box is to take, that is for the artisan to decide. I suggest you begin by speaking with our client yourself. Worry not─I have already made the necessary arrangements. She awaits you at the Sapphire Avenue Exchange."
-51,"TEXT_CLSGLD530_02071_MARCEL_000_010","Jeweled Peak awaits you at the Sapphire Avenue Exchange. Now go, and be quick about it─let it not be said that Eshtaime's keeps their clients waiting."
-52,"TEXT_CLSGLD530_02071_JEWELEDPEAK_000_030","You are the goldsmith who will be crafting my music box, yes? Marcel has told me all about you. My expectations are high, but I trust you would not have been chosen for the task were you not capable of meeting them."
-53,"TEXT_CLSGLD530_02071_JEWELEDPEAK_000_031","Yes, I can scarcely wait to see what manner of extravagant masterpiece you will create for me. It will be a masterpiece, yes? A work of delicate, refined elegance, but sturdy enough to stand up to daily use and still last as an heirloom for eras to come."
-54,"TEXT_CLSGLD530_02071_JEWELEDPEAK_000_032","It will be inlaid with a great gemstone of perfect cut and clarity, yes? Oh, but of course it will! Marcel knows I would settle for nothing less. But what sort of gemstone would suffice? I have always liked rubies...ah, but sapphires are so beautiful as well!"
-55,"TEXT_CLSGLD530_02071_JEWELEDPEAK_000_033","Perhaps both, if that wouldn't be too ostentatious? Heavens, I'm starting to confuse myself... Oh, but look at the time! I'm afraid I must be off. Do give my regards to Marcel."
-56,"TEXT_CLSGLD530_02071_MARCEL_000_050","A music box of the purest gold, adorned with a great ruby and sapphire... Sturdy enough to be played each day and yet still last as an heirloom to be passed down through generations... Why, that is so exceptionally inspired it's a wonder that I wasn't the one who thought of it!"
-57,"TEXT_CLSGLD530_02071_MARCEL_000_051","As the music box itself will be quite large, we will require stones of impressive size to match. It will be no small task to see that all elements─gold and gemstone alike─are balanced, complementing each other and achieving perfect harmony."
-58,"TEXT_CLSGLD530_02071_MARCEL_000_052","Before commencing work on our client's piece, you would do well to hone your skills by crafting a piece requiring similar materials and techniques."
-59,"TEXT_CLSGLD530_02071_MARCEL_000_053","Let me see... Why yes, a hardsilver bangle of casting might very well suffice. Fashion me one, that I might judge whether or not you are ready to proceed."
-60,"TEXT_CLSGLD530_02071_MARCEL_000_060","Have you fashioned the hardsilver bangle of casting that I requested? Show it to me and I will evaluate the quality of your work."
-61,"TEXT_CLSGLD530_02071_MARCEL_000_070","By Thal! I have seen many a bangle in my day, but never one that exuded such grace! I can see why Mistress Serendipity spoke so highly of you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>."
-62,"TEXT_CLSGLD530_02071_MARCEL_000_071","Technical skill and aesthetic sensitivity... An artisan who lacks one or the other is no true artisan at all, but you clearly possess both, and in spades, my good <If(PlayerParameter(4))>woman<Else/>man</If>!"
-63,"TEXT_CLSGLD530_02071_MARCEL_000_072","Yes, if anyone can give form to the formless and breathe a heart into metal, it is you. You are a worthy heir to my mentor's legacy if ever there was one."
-64,"TEXT_CLSGLD530_02071_MARCEL_000_073","And yet even one of your already-estimable skills must not neglect your practice─our client expects no less than a masterpiece, after all. Continue to hone your skills, and I shall call upon you before long."
+48,"TEXT_CLSGLD530_02071_MARCEL_000_000","これは、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>様。
+さっそく、依頼主であるジュエルド・ピーク様のために、
+オルゴールの製作を始めましょう。"
+49,"TEXT_CLSGLD530_02071_MARCEL_000_001","ご希望の曲については、私のほうで調べさせていただきました。
+有名な「ウルダハの歌姫」が唄った、素敵な曲でございます。
+次は、どんな外観のオルゴールにするかですが……。"
+50,"TEXT_CLSGLD530_02071_MARCEL_000_002","まずは、お客様のご希望を、あなた様が直接伺うのが確実かと。
+サファイアアベニュー国際市場にて「ジュエルド・ピーク」様と、
+お会いになれるよう手配しておきましたよ。"
+51,"TEXT_CLSGLD530_02071_MARCEL_000_010","サファイアアベニュー国際市場にて「ジュエルド・ピーク」様と、
+お会いになれるよう手配しておきましたよ。"
+52,"TEXT_CLSGLD530_02071_JEWELEDPEAK_000_030","まぁ、職人さん、マルセルさんから連絡があったわ。
+夫に秘密で、とっておきの贈り物を用意するって……
+何だか、わくわくするわね！"
+53,"TEXT_CLSGLD530_02071_JEWELEDPEAK_000_031","せっかく、超一流の職人さんにお願いするんですもの、
+調度品としても鑑賞に堪える、立派なものがいいわ。
+大きな宝石をあしらってもらうことは、できるかしら？"
+54,"TEXT_CLSGLD530_02071_JEWELEDPEAK_000_032","……そうね、たしかに、どんな色の宝石がいいかは、
+こちらで決めたほうがよさそう。
+赤か青がいいけど……うーん、どちらも捨てがたいわね……。"
+55,"TEXT_CLSGLD530_02071_JEWELEDPEAK_000_033","欲張りなようだけど、両方っていうのもあるかもね……。
+曖昧で悪いけど、宝飾店「エシュテム」の「マルセル」さんにも、
+伝えていただけると助かるわ。"
+56,"TEXT_CLSGLD530_02071_MARCEL_000_050","大きな赤と青の宝石をあしらった、
+調度品としても鑑賞に堪えるもの……ですか。
+それは、素晴らしいオルゴールになりそうですね！"
+57,"TEXT_CLSGLD530_02071_MARCEL_000_051","ただ、オルゴール自体もかなり大きなものになりそうです。
+青と赤の宝石の組み合わせで、見栄えのする大きさとなると……
+原石から切り出したものを使うとしても、種類がかぎられます。"
+58,"TEXT_CLSGLD530_02071_MARCEL_000_052","これらの加工には、技術以上に「慣れ」が必要なようです。
+このふたつの宝石を使うアクセサリーで、
+軽く腕ならしをしてはいかがでしょう？"
+59,"TEXT_CLSGLD530_02071_MARCEL_000_053","「<Sheet(Item,11068,0)/>」を製作し、
+私にご納品いただけますか？"
+60,"TEXT_CLSGLD530_02071_MARCEL_000_060","「<Sheet(Item,11068,0)/>」が製作できましたら、
+私まで納品をお願いいたします。"
+61,"TEXT_CLSGLD530_02071_MARCEL_000_070","おおっ、これは……！
+セレンディピティー様より、腕前はうかがっておりましたが、
+実際に繊細なお仕事ぶりを目にしますと、惚れぼれいたします！"
+62,"TEXT_CLSGLD530_02071_MARCEL_000_071","「形なきものに形をあたえ、心なき黄金に心を刻め」……
+目に見えぬ「心」こそが大切だという意味にも聞こえますが、
+それも、目に見える「形」に変える「技術」あってこそ。"
+63,"TEXT_CLSGLD530_02071_MARCEL_000_072","そう……これは、あなた様のように、
+「技術」と「心」を兼ねそなえた方にこそ、
+大切にしていただきたい言葉なのでございます。"
+64,"TEXT_CLSGLD530_02071_MARCEL_000_073","その繊細な技術を、存分に発揮できるよう、
+時折、こうした腕ならしにも取り組んでいただきつつ……
+本番のオルゴール製作に、そなえていただければと存じます。"

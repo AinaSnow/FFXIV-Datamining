@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB408_00864_SEQ_00","Clearly, Commander Bloeidin has come to trust your skill and discretion."
-1,"TEXT_GAIUSB408_00864_SEQ_01","Storm Commander Bloeidin tells of recent kobold sightings close to Camp Overlook, and would send you off to investigate. Search the specified spots near the camp, and slay any kobold so unfortunate as to encounter you."
-2,"TEXT_GAIUSB408_00864_SEQ_02","You have adorned the hillside with the remains of vanquished foes. However, it is time to cut short this braggarts' sport and report to Commander Bloeidin."
-3,"TEXT_GAIUSB408_00864_SEQ_03","The storm commander's regard for you grows with every mission. Yet he is uneasy, for the kobold scouts stir a memory still as yet vague..."
+0,"TEXT_GAIUSB408_00864_SEQ_00","キャンプ・オーバールックのブルーエイディン少甲佐は、冒険者の力を借りたいようだ。"
+1,"TEXT_GAIUSB408_00864_SEQ_01","コボルド族の強行偵察部隊が、3匹高台に上がってきたらしい。キャンプ・オーバールック付近の「<Sheet(EObj,2002090,0)/>」を捜索し、「<Sheet(BNpcName,373,0)/>」「<Sheet(BNpcName,379,0)/>」「<Sheet(BNpcName,369,0)/>」を計3体倒そう。"
+2,"TEXT_GAIUSB408_00864_SEQ_02","<Sheet(BNpcName,373,0)/>、<Sheet(BNpcName,379,0)/>、<Sheet(BNpcName,369,0)/>を倒した。キャンプ・オーバールックの「ブルーエイディン少甲佐」に報告しよう。"
+3,"TEXT_GAIUSB408_00864_SEQ_03","冒険者の力に満足した様子のブルーエイディン少甲佐。彼はコボルド族の強行偵察部隊の動きに、見覚えがあるというが……。"
 4,"TEXT_GAIUSB408_00864_SEQ_04",""
 5,"TEXT_GAIUSB408_00864_SEQ_05",""
 6,"TEXT_GAIUSB408_00864_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSB408_00864_SEQ_21",""
 22,"TEXT_GAIUSB408_00864_SEQ_22",""
 23,"TEXT_GAIUSB408_00864_SEQ_23",""
-24,"TEXT_GAIUSB408_00864_TODO_00","Search the specified locations and slay kobolds. "
-25,"TEXT_GAIUSB408_00864_TODO_01","Report to Bloeidin."
+24,"TEXT_GAIUSB408_00864_TODO_00","<Sheet(EObj,2002090,0)/>を捜索しコボルド族を討伐"
+25,"TEXT_GAIUSB408_00864_TODO_01","ブルーエイディン少甲佐に報告"
 26,"TEXT_GAIUSB408_00864_TODO_02",""
 27,"TEXT_GAIUSB408_00864_TODO_03",""
 28,"TEXT_GAIUSB408_00864_TODO_04",""
@@ -49,10 +49,18 @@ int32,str,str
 45,"TEXT_GAIUSB408_00864_TODO_21",""
 46,"TEXT_GAIUSB408_00864_TODO_22",""
 47,"TEXT_GAIUSB408_00864_TODO_23",""
-48,"TEXT_GAIUSB408_00864_BLOEIDINL_000_000","Well met, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Thanks for the other times─you're not soft, I'll give you that. I've a job that needs a hard <If(PlayerParameter(4))>lass<Else/>lad</If> to kill─searching for kobold scouts."
-49,"TEXT_GAIUSB408_00864_BLOEIDINL_000_001","My boys say there are at least three of them somewhere on the hill. You can handle yourself, can't you?"
-50,"TEXT_GAIUSB408_00864_DUMMY_000_010",""
-51,"TEXT_GAIUSB408_00864_TODO_000_010",""
-52,"TEXT_GAIUSB408_00864_BLOEIDINL_000_020","I put a glass on you soon as I heard there was fighting. I had you pegged for a <If(PlayerParameter(4))>hellcat<Else/>bruiser</If>! Sure you don't want to give up the road and join us here? There's enough kobolds to go around!"
-53,"TEXT_GAIUSB408_00864_BLOEIDINL_000_021","There's something a touch familiar about those kobolds you saw to. I've seen some what move that way before, I could swear to it. It'll come to me─if we have even that much time."
-54,"TEXT_GAIUSB408_00864_POP_MESSAGE_000","You catch a whiff of earth and metal!"
+48,"TEXT_GAIUSB408_00864_BLOEIDINL_000_000","お前、なかなか戦える奴だな！
+どうだ、もうひと仕事やってみねぇか。
+コボルド族の強行偵察部隊の捜索を手伝ってくれ。"
+49,"TEXT_GAIUSB408_00864_BLOEIDINL_000_001","オレの部下が、コボルド族が3匹ばかり、
+高台に上がってきたのを目撃したそうだ。
+お前なら、敵部隊と遭遇しても始末できるだろ？"
+50,"TEXT_GAIUSB408_00864_DUMMY_000_010","3箇所で捜索、コボルド族が一匹ずつpopするので倒す"
+51,"TEXT_GAIUSB408_00864_TODO_000_010","（★未使用／削除予定★）"
+52,"TEXT_GAIUSB408_00864_BLOEIDINL_000_020","がっはっはっは！　お前の活躍を見させてもらったぜ。
+やるじゃねぇか、強ぇ奴は皆仲間だ！
+ウチの部隊に勧誘したいくらいだぜ？"
+53,"TEXT_GAIUSB408_00864_BLOEIDINL_000_021","……しかし、お前が倒したコボルド族の動き。
+どこかで見たことがある気がするが……。
+はて……。"
+54,"TEXT_GAIUSB408_00864_POP_MESSAGE_000","敵の気配を感じた！！"

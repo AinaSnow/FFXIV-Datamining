@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBSEA112_00409_SEQ_00","Poor Wafufu's food cart is light a few lunches, and she needs help locating the lost meals."
-1,"TEXT_SUBSEA112_00409_SEQ_01","Search the Moraby Drydocks for four missing lunches."
-2,"TEXT_SUBSEA112_00409_SEQ_02","You have located all four lunches. Now hurry them back to Wafufu before foreman Ahtbyrm does something drastic!"
-3,"TEXT_SUBSEA112_00409_SEQ_03","Your efforts have spared Wafufu a terrible fate...that in all likelihood would have never befallen her anyway (but don't tell her that)."
+0,"TEXT_SUBSEA112_00409_SEQ_00","造船師へ弁当を配布しているワフフが、不足した弁当を探してほしいようだ。"
+1,"TEXT_SUBSEA112_00409_SEQ_01","ワフフのお手製弁当を探そう。"
+2,"TEXT_SUBSEA112_00409_SEQ_02","ワフフのお手製弁当を見つけることができた。「ワフフ」に届けよう。"
+3,"TEXT_SUBSEA112_00409_SEQ_03","造船師でないワフフも、造船に貢献したい一心で、弁当を配っていた。彼女が、次回こそ、正しく弁当を配れることを願うばかりだ。"
 4,"TEXT_SUBSEA112_00409_SEQ_04",""
 5,"TEXT_SUBSEA112_00409_SEQ_05",""
 6,"TEXT_SUBSEA112_00409_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_SUBSEA112_00409_SEQ_21",""
 22,"TEXT_SUBSEA112_00409_SEQ_22",""
 23,"TEXT_SUBSEA112_00409_SEQ_23",""
-24,"TEXT_SUBSEA112_00409_TODO_00","Find Wafufu's missing lunches."
-25,"TEXT_SUBSEA112_00409_TODO_01","Return the lunches to Wafufu."
+24,"TEXT_SUBSEA112_00409_TODO_00","ワフフのお手製弁当を探す"
+25,"TEXT_SUBSEA112_00409_TODO_01","ワフフにお手製弁当を渡す"
 26,"TEXT_SUBSEA112_00409_TODO_02",""
 27,"TEXT_SUBSEA112_00409_TODO_03",""
 28,"TEXT_SUBSEA112_00409_TODO_04",""
@@ -49,16 +49,34 @@ int32,str,str
 45,"TEXT_SUBSEA112_00409_TODO_21",""
 46,"TEXT_SUBSEA112_00409_TODO_22",""
 47,"TEXT_SUBSEA112_00409_TODO_23",""
-48,"TEXT_SUBSEA112_00409_WAFUFU_000_1","Oh, woe is me! I seem to have gone and misplaced four of my packed lunches. Whatever am I to do? I can hear Ahtbyrm's belly grumble from all the way over here!"
-49,"TEXT_SUBSEA112_00409_WAFUFU_000_2","I'm certain I made enough for everyone, so it must be that I either dropped a few, or gave some to the wrong fellows. Oh, did you hear that? It was Ahtbyrm's belly again. He does not look at all pleased, does he?"
-50,"TEXT_SUBSEA112_00409_WAFUFU_000_3","I must stay with my cart, but if you could search the Drydocks and see if you cannot find those lunches, I would be eternally grateful. I might even whip together something special for y─ Ah! Did you see that? Ahtbyrm just gave me the evil eye. If those lunches don't turn up soon, I'm afraid he'll come over here and eat <Emphasis>me</Emphasis>!"
-51,"TEXT_SUBSEA112_00409_LYNGSTYRM_000_10","<sigh> Don't tell me. You came to collect my lunch. I can see it in them accusing eyes of yours."
-52,"TEXT_SUBSEA112_00409_LYNGSTYRM_000_11","Sure, I knew right well that none of these lunches was meant for me, what with today being my day off and all. But I never thought little Wafufu would miss just <Emphasis>one</Emphasis>."
-53,"TEXT_SUBSEA112_00409_LYNGSTYRM_000_12","If I give back the lunch, would you promise me you'll not mention that it was I who took it? I don't want the lass to think I was trying to swindle her...though that's sort of what I was trying to do... But she doesn't have to know that now, does she? Right then! Carry on!"
-54,"TEXT_SUBSEA112_00409_MAETIMYND_000_20","Wafufu be needin' one o' her lunches back, ye say?"
-55,"TEXT_SUBSEA112_00409_MAETIMYND_000_21","And here I was beginnin' to think the lass had eyes fer me. Not that she's me type, mind ye. I like me women a few hands taller...and a few ponzes heavier...<Emphasis>and</Emphasis> a few shades bluer, if ye catch me drift."
-56,"TEXT_SUBSEA112_00409_MAETIMYND_000_22","I wouldn't have minded the extra meal, though. A man can work up quite a cravin' when he's been poundin', stretchin', and shapin' sheets of iron all <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>day<Else/>night</If><Else/><If(LessThan(PlayerParameter(11),17))>day<Else/>day</If></If>."
-57,"TEXT_SUBSEA112_00409_WAFUFU_000_30","Please tell me you found the lunches. I swear Ahtbyrm has shifted several paces closer since you departed!"
-58,"TEXT_SUBSEA112_00409_WAFUFU_000_31","One, two, three...four! You did it! You found all the missing lunches!"
-59,"TEXT_SUBSEA112_00409_WAFUFU_000_32","Now, perhaps, I can rest in peace, knowing that Ahtbyrm won't be indulging in his cannibalistic fantasies..."
-60,"TEXT_SUBSEA112_00409_WAFUFU_000_33","...at least for today."
+48,"TEXT_SUBSEA112_00409_WAFUFU_000_1","あれ、れ、れ……？
+私、造船師さんにお弁当を届けてるんですが……
+お弁当が足りなくなってしまいました！"
+49,"TEXT_SUBSEA112_00409_WAFUFU_000_2","どこかに落としたか、
+造船師さんに余分に渡してしまったのかも……。"
+50,"TEXT_SUBSEA112_00409_WAFUFU_000_3","お願いです冒険者さん！
+お弁当を、探して持ってきてくれませんか！？"
+51,"TEXT_SUBSEA112_00409_LYNGSTYRM_000_10","ワフフちゃんが弁当を探してるって？
+じゃあ、この弁当を持って行ってくれ。
+今日は非番だから、本来、俺は弁当ナシだったのさ。"
+52,"TEXT_SUBSEA112_00409_LYNGSTYRM_000_11","じゃあ、ここで何してたのかって？
+この建造中の「ヴィクトリー号」を眺めてたのさ。"
+53,"TEXT_SUBSEA112_00409_LYNGSTYRM_000_12","明日は、水漏れを防ぐ作業をするから、
+特に必要そうな所をチェックしておきたくてね。"
+54,"TEXT_SUBSEA112_00409_MAETIMYND_000_20","弁当を余分に持ってないかって？
+ああ、ワフフちゃんから、ふたつも手渡されたぞ。"
+55,"TEXT_SUBSEA112_00409_MAETIMYND_000_21","なんだ、ワフフちゃんは間違って配ってしまったのか。
+てっきり、がんばってる俺へのご褒美かと思ったよ。
+なんせ俺は、腕利き鍛冶師だからな。"
+56,"TEXT_SUBSEA112_00409_MAETIMYND_000_22","帆の留め具や、ロープの掛け金、それから大砲……
+船に欠かせない品を、この手で生み出してるんだ。
+弁当ふたつでも足りないぐらいさ、ホントはね。"
+57,"TEXT_SUBSEA112_00409_WAFUFU_000_30","なくなってしまったお弁当は、見つかりましたか？"
+58,"TEXT_SUBSEA112_00409_WAFUFU_000_31","ひい、ふう、みぃ、よ。
+うん、ありがとう、ぴったりあります！
+これで造船師のみなさんも、頑張れるはずです。"
+59,"TEXT_SUBSEA112_00409_WAFUFU_000_32","今、みなさんが力を合わせて造っている
+「ヴィクトリー号」は、霊災後に初めて造る大型艦で、
+リムサ・ロミンサの希望になる大切な船なんです。"
+60,"TEXT_SUBSEA112_00409_WAFUFU_000_33","船が早く完成してほしいから、
+次こそ、間違えないようにお弁当を配ります。"

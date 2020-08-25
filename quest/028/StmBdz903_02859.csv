@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ903_02859_SEQ_00","Rawkin is in need of an adventurer with a strong pair of legs."
+0,"TEXT_STMBDZ903_02859_SEQ_00","コールドハースのローキンは、健脚な協力者を探しているようだ。"
 1,"TEXT_STMBDZ903_02859_SEQ_01",""
 2,"TEXT_STMBDZ903_02859_SEQ_02",""
 3,"TEXT_STMBDZ903_02859_SEQ_03",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_STMBDZ903_02859_SEQ_21",""
 22,"TEXT_STMBDZ903_02859_SEQ_22",""
 23,"TEXT_STMBDZ903_02859_SEQ_23",""
-24,"TEXT_STMBDZ903_02859_TODO_00","Pick up the earthenware vase."
-25,"TEXT_STMBDZ903_02859_TODO_01","Deliver the earthenware vase to the Midlander merchant."
-26,"TEXT_STMBDZ903_02859_TODO_02","Report to Rawkin."
+24,"TEXT_STMBDZ903_02859_TODO_00","<Sheet(EObj,2008750,0)/>を持ち上げる"
+25,"TEXT_STMBDZ903_02859_TODO_01","アラギリのミッドランダー族の商人に<Sheet(EObj,2008750,0)/>を渡す"
+26,"TEXT_STMBDZ903_02859_TODO_02","ローキンに報告"
 27,"TEXT_STMBDZ903_02859_TODO_03",""
 28,"TEXT_STMBDZ903_02859_TODO_04",""
 29,"TEXT_STMBDZ903_02859_TODO_05",""
@@ -49,22 +49,49 @@ int32,str,str
 45,"TEXT_STMBDZ903_02859_TODO_21",""
 46,"TEXT_STMBDZ903_02859_TODO_22",""
 47,"TEXT_STMBDZ903_02859_TODO_23",""
-48,"TEXT_STMBDZ903_02859_RAWKIN_000_000","You've the look of a <If(PlayerParameter(4))>woman<Else/>man</If> who travels. Aye, a <If(PlayerParameter(4))>woman<Else/>man</If> not afraid to do a bit of walking. Might be you could help me with something."
-49,"TEXT_STMBDZ903_02859_RAWKIN_000_001","I was to make a delivery of provisions to Ala Ghiri, but it's taken me so long to get everything ready, I'm afraid I'll never get there by the agreed-upon time."
-50,"TEXT_STMBDZ903_02859_RAWKIN_000_002","The only way I'd even have a chance at this point is to pass through the Scabbard."
-51,"TEXT_STMBDZ903_02859_RAWKIN_000_003","That's assuming, of course, I don't break my legs climbing down the cliffside. By the look of you, I'm betting you could do it without breaking a sweat."
-52,"TEXT_STMBDZ903_02859_RAWKIN_000_004","If you'd be willing to help, pick up that vase there and carry it down to Ala Ghiri."
-53,"TEXT_STMBDZ903_02859_RAWKIN_000_005","The fastest way to Ala Ghiri is through the Scabbard. Mind your step climbing down the cliff."
-54,"TEXT_STMBDZ903_02859_SYSTEM_100_005","Transport the earthenware vase to the specified location at Ala Ghiri before the Midlander merchant grows impatient and calls off the arrangement."
-55,"TEXT_STMBDZ903_02859_SYSTEM_101_005","You will have two minutes to complete the task. Should you fail, return to the starting location and begin anew."
-56,"TEXT_STMBDZ903_02859_SYSTEM_102_005","Be wary of attacks from enemies, which will sap your strength."
-57,"TEXT_STMBDZ903_02859_MERCHANT02859_000_006","What in the hells is taking him so long? I haven't all day."
-58,"TEXT_STMBDZ903_02859_MERCHANT02859_000_010","deleted"
-59,"TEXT_STMBDZ903_02859_MERCHANT02859_000_011","Rawkin's supplies! Thank you, <If(PlayerParameter(4))>miss<Else/>sir</If>, for coming all this way."
-60,"TEXT_STMBDZ903_02859_MERCHANT02859_000_012","Tell him he can expect payment to be delivered in the next few days as promised."
-61,"TEXT_STMBDZ903_02859_MERCHANT02859_000_013","I'm a man of my word. As soon as this shipment reaches its final destination, his payment will be sent at once."
-62,"TEXT_STMBDZ903_02859_RAWKIN_000_020","You made it? Thank the gods."
-63,"TEXT_STMBDZ903_02859_RAWKIN_000_021","Back in the day, I could've climbed up and down that mountain on one leg if I wanted. I was a soldier, you see, so I had to stay in top physical condition. But war can be cruel. After a few nasty injuries, it was a wonder I made it back here at all."
-64,"TEXT_STMBDZ903_02859_RAWKIN_000_022","It was thinking about my time in service, though, that reminded me that soldiers now will be needing any medicine they can get their hands on."
-65,"TEXT_STMBDZ903_02859_RAWKIN_000_023","We don't have much, but with everyone pitching in, we can usually sell enough to get by."
-66,"TEXT_STMBDZ903_02859_RAWKIN_000_024","Just enough for warm clothes and food to fill our bellies. It's a simple life, but I wouldn't trade it for anything."
+48,"TEXT_STMBDZ903_02859_RAWKIN_000_000","アンタ、冒険者だな。
+各地を飛び回る、その健脚なら間に合うかもしれん。
+村のために、願いを聞いてもらえないか。"
+49,"TEXT_STMBDZ903_02859_RAWKIN_000_001","この壺を、アラギリまで届ける約束をしているんだが、
+準備に手間取り、普通に運んだんじゃ、もう間に合わない……。"
+50,"TEXT_STMBDZ903_02859_RAWKIN_000_002","だが、西にあるスカバードの風穴という裏道を使えば、
+短時間でもアラギリにたどり着けるんだ！"
+51,"TEXT_STMBDZ903_02859_RAWKIN_000_003","ただ、崖を飛び降りなきゃならないところがあってね。
+古傷がある俺の脚じゃ、とてもじゃないが耐えられない……。"
+52,"TEXT_STMBDZ903_02859_RAWKIN_000_004","頼む……裏道を抜けて、この「<Sheet(EObj,2008750,0)/>」を、
+アラギリの「ミッドランダー族の商人」まで届けてはもらえないか。"
+53,"TEXT_STMBDZ903_02859_RAWKIN_000_005","頼む……裏道を抜けて、この「<Sheet(EObj,2008750,0)/>」を、
+アラギリの「ミッドランダー族の商人」まで届けてくれ。"
+54,"TEXT_STMBDZ903_02859_SYSTEM_100_005","「<Sheet(EObj,2008750,0)/>」を持ち上げて、
+制限時間内に、アラギリの入口にいる、
+「ミッドランダー族の商人」まで運搬しましょう。"
+55,"TEXT_STMBDZ903_02859_SYSTEM_101_005","運搬状態の効果時間は「120秒」です。
+時間切れになった場合、運搬は失敗になりますが、
+開始地点から再挑戦することができます。"
+56,"TEXT_STMBDZ903_02859_SYSTEM_102_005","なお、攻撃を受けると、効果時間が減ってしまいます。
+なるべく、攻撃を受けないように気をつけながら、
+「<Sheet(EObj,2008750,0)/>」を運搬しましょう。"
+57,"TEXT_STMBDZ903_02859_MERCHANT02859_000_006","なにやってるんだ……。
+約束の時間は、もうすぐだというのに。"
+58,"TEXT_STMBDZ903_02859_MERCHANT02859_000_010","（★未使用／削除予定★）"
+59,"TEXT_STMBDZ903_02859_MERCHANT02859_000_011","おお、ローキンの壺か！
+きっちり、約束どおりに届けてくれるとは、ありがたい。"
+60,"TEXT_STMBDZ903_02859_MERCHANT02859_000_012","荷を積みこんだら、すぐに出るとしよう。
+代金は後で送るから、「ローキン」にそう伝えてくれ。"
+61,"TEXT_STMBDZ903_02859_MERCHANT02859_000_013","荷を積みこんだら、すぐに出るとしよう。
+代金は後で送るから、「ローキン」にそう伝えてくれ。"
+62,"TEXT_STMBDZ903_02859_RAWKIN_000_020","間に合わせてくれたか……ありがとう！
+あの壺には、村のみんなで採取した薬草や、
+俺が調合した薬が詰まっていたんだ。"
+63,"TEXT_STMBDZ903_02859_RAWKIN_000_021","こんな寂れた村で売れるものといや、
+拾えるものか、自分で作ったもの……。
+あとは、自分の身体くらいだからな。"
+64,"TEXT_STMBDZ903_02859_RAWKIN_000_022","俺も昔は、傭兵をやっていたんだ。
+そのとき受けた矢傷のせいで、
+今じゃあんな小さな崖すら、降りられなくなっちまった。"
+65,"TEXT_STMBDZ903_02859_RAWKIN_000_023","だが最近、傭兵時代に仲間から教えてもらった、
+切り傷によく効く薬のことを思い出してな。
+みんなに協力してもらって、こさえてみたんだ。"
+66,"TEXT_STMBDZ903_02859_RAWKIN_000_024","あれが売れれば、暖かい毛皮や、新鮮な牛の乳、
+寒さを凌ぐ酒なんかが、わずかだが手に入れられるだろう。
+ありがとう、冒険者さん。"

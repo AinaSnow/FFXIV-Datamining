@@ -1,14 +1,14 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSCUL301_00266_SEQ_00","Lyngsath wants you to cook for a distinguished guest in his stead."
-1,"TEXT_CLSCUL301_00266_SEQ_01","You learn that Lord Lolorito, one of Ul'dah's most powerful men, has announced his intention to dine at the Bismarck. Apparently, the man is a self-styled food critic, notorious for using his influence to ruin restaurants that fail to satisfy his rarefied needs. In an unfortunate turn of events, Lyngsath has injured his hand, and it falls to you to represent the Bismarck in his stead. In order to learn more about your distinguished guest, the guildmaster recommends you speak with Diving Dove, a native of Ul'dah."
-2,"TEXT_CLSCUL301_00266_SEQ_02","You learn from Diving Dove that Lolorito's butler, a fellow by the name of Nonopesa, is presently at the Bismarck. Seek him out and endeavor to discover what manner of cuisine his master may be craving."
-3,"TEXT_CLSCUL301_00266_SEQ_03","For a blessing, Nonopesa turns out to be a personable fellow, and you learn from him that Lolorito currently has a hankering for a hearty meal of meat. As per the butler's recommendation, prepare a haunch of smoked raptor of the finest quality, and deliver it to him."
-4,"TEXT_CLSCUL301_00266_SEQ_04","Nonopesa is deeply impressed by your smoked raptor. You, in turn, are deeply impressed by his ability to judge food without taking a single bite. What was it that Diving Dove said about Ul'dahn cuisine...? At any rate, it would seem your cooking will satisfy even the exacting requirements of the great Lord Lolorito. Bear the glad tidings to Lyngsath."
-5,"TEXT_CLSCUL301_00266_SEQ_05","Nonopesa's high opinion of your food serves to put Lyngsath at ease. The guildmaster thanks you for safeguarding the future of the guild, and proceeds to liken you to his trusty left hand. Keep up your efforts, and you may yet become one of the realm's finest culinarians.
+0,"TEXT_CLSCUL301_00266_SEQ_00","調理師ギルドのリングサスは、冒険者に頼みたいことがあるようだ。"
+1,"TEXT_CLSCUL301_00266_SEQ_01","味にうるさい食通、ロロリトがレストラン「ビスマルク」に来店する。ロロリトを敵に回して、つぶされた店は数知れないという。しかし、リングサスは腕を負傷してしまったため、冒険者が代わりに料理を作ることになった。ロロリトの好みを調べるため、ウルダハ出身の「ダイビング・ダヴ」に話を聞こう。"
+2,"TEXT_CLSCUL301_00266_SEQ_02","ダイビング・ダヴによると、ロロリトの執事ノノペサが、レストラン「ビスマルク」に訪れているという。ビスマルクのテラス席にいる執事「ノノペサ」に話を聞いてみよう。"
+3,"TEXT_CLSCUL301_00266_SEQ_03","ノノペサによると、ロロリトの好物は肉だという。なるべく高品質の素材を使った「<Sheet(ItemHQ,4645,0)/>」を1個調達し、ビスマルクのテラス席にいる執事「ノノペサ」に届けよう。"
+4,"TEXT_CLSCUL301_00266_SEQ_04","ノノペサに<Sheet(ItemHQ,4645,0)/>を届けた。料理は完璧だったようで、ロロリトに食べさせるに十分だと保証してくれた。ことのあらましを、調理師ギルドの「リングサス」に報告しよう。"
+5,"TEXT_CLSCUL301_00266_SEQ_05","素晴らしい料理を作り、今回の一件をうまく乗り切ったことで、リングサスの大きな信頼をえることができた。リングサスは、冒険者の成長のために、協力は惜しまないという。彼の期待に応えられるよう、調理師としてさらに研鑚を重ねよう。
 
-※The next culinarian quest will be available from Lyngsath upon reaching level 35."
+※調理師のレベルが35以上になると、リングサスから次の調理師クエストを受注することができます。"
 6,"TEXT_CLSCUL301_00266_SEQ_06",""
 7,"TEXT_CLSCUL301_00266_SEQ_07",""
 8,"TEXT_CLSCUL301_00266_SEQ_08",""
@@ -27,10 +27,10 @@ int32,str,str
 21,"TEXT_CLSCUL301_00266_SEQ_21",""
 22,"TEXT_CLSCUL301_00266_SEQ_22",""
 23,"TEXT_CLSCUL301_00266_SEQ_23",""
-24,"TEXT_CLSCUL301_00266_TODO_00","Speak with Diving Dove."
-25,"TEXT_CLSCUL301_00266_TODO_01","Speak with Nonopesa."
-26,"TEXT_CLSCUL301_00266_TODO_02","Deliver a haunch of smoked raptor <Sheet(Addon,9,0)/> to Nonopesa."
-27,"TEXT_CLSCUL301_00266_TODO_03","Speak with Lyngsath."
+24,"TEXT_CLSCUL301_00266_TODO_00","ダイビング・ダヴと話す"
+25,"TEXT_CLSCUL301_00266_TODO_01","ノノペサと話す"
+26,"TEXT_CLSCUL301_00266_TODO_02","ノノペサに<Sheet(ItemHQ,4645,0)/>を納品"
+27,"TEXT_CLSCUL301_00266_TODO_03","リングサスと話す"
 28,"TEXT_CLSCUL301_00266_TODO_04",""
 29,"TEXT_CLSCUL301_00266_TODO_05",""
 30,"TEXT_CLSCUL301_00266_TODO_06",""
@@ -51,46 +51,105 @@ int32,str,str
 45,"TEXT_CLSCUL301_00266_TODO_21",""
 46,"TEXT_CLSCUL301_00266_TODO_22",""
 47,"TEXT_CLSCUL301_00266_TODO_23",""
-48,"TEXT_CLSCUL301_00266_LYNGSATH_000_1","Bollocks! Me 'and! 'Ow in the seven 'ells am I meant to cook with one bloody 'and!? Gah! Of all the godsdamned times I could've 'urt it, why'd it 'ave to be <Emphasis>now</Emphasis>!?"
-49,"TEXT_CLSCUL301_00266_LYNGSATH_000_2","Forgive me language, <If(PlayerParameter(4))>lass<Else/>son</If>. Don't worry─it ain't serious.
-...Well, it is a <Emphasis>bit</Emphasis> serious, to tell the truth."
-50,"TEXT_CLSCUL301_00266_LYNGSATH_000_3","I've gone an' knackered me 'and tryin' to catch a fallin' crate, see. It'll 'eal an' all, but it 'urts like a bastard. Can't so much as scratch me arse with it, never mind 'old a skillet. Wouldn't be so bad, but we got usselves a bigwig comin' to dine today─one o' the most powerful men in Ul'dah!"
-51,"TEXT_CLSCUL301_00266_LYNGSATH_000_4","Now, I've been in the business fer decades, an' I ain't no stranger to coddled dignitaries what whine about the color of the bloody crockery, an' 'ow there's too much parsley garnish on top o' their soup. But this ain't no ordinary coddled dignitary we're dealin' with."
-52,"TEXT_CLSCUL301_00266_LYNGSATH_000_5","This one fancies 'imself as a food critic, an' 'e's <Emphasis>always</Emphasis> out to find fault, real or not."
-53,"TEXT_CLSCUL301_00266_LYNGSATH_000_6","An' that ain't the worst of it. Owin' to 'is influence, 'e's driven more'n a few respectable establishments into the ground. Fer this 'e's earned 'imself the name o' “Chefsbane” in culinary circles."
-54,"TEXT_CLSCUL301_00266_LYNGSATH_000_7","Each time the man's dined at the Bismarck, I've personally done the cookin' so as to avert disaster."
-55,"TEXT_CLSCUL301_00266_LYNGSATH_000_8","Don't get me wrong─I've got complete trust in all me chefs, but if the Bismarck goes under, the guild goes with it. An' that ain't a burden I can put on just anyone's shoulders."
-56,"TEXT_CLSCUL301_00266_LYNGSATH_000_9","But this time, someone else's gonna 'ave to fill in fer me...an' I wants that someone to be <Emphasis>you</Emphasis>, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Ye've proven yerself more than capable, an' in 'igh-pressure situations besides. I'm confident ye won't let us down."
-57,"TEXT_CLSCUL301_00266_LYNGSATH_000_10","Ye'd do well to begin by talkin' with Divin' Dove. Bein' a native of Ul'dah, might be as she knows somethin' o' the Chefsba─I mean, <Emphasis>Lord Lolorito</Emphasis>."
-58,"TEXT_CLSCUL301_00266_DIVINGDOVE_000_20","Aye, I'm aware of the situation. But don't panic─though the guildmaster is indisposed, all is not yet lost."
-59,"TEXT_CLSCUL301_00266_DIVINGDOVE_000_21","In case you're unfamiliar with our distinguished guest, he is the head of the East Aldenard Trading Company. Though you may not have heard that name before, you will almost certainly have heard of the many famous brands it owns, such as Eshtaime's Lapidaries and Sunsilk Tapestries."
-60,"TEXT_CLSCUL301_00266_DIVINGDOVE_000_22","Lord Lolorito's countless successes have made him the wealthiest man in Ul'dah─a place where wealth and influence are synonymous. It goes without saying that he has a seat on the Syndicate, the cabal that rules the sultanate. Ah, lest you wonder, Ul'dah is only notionally a sultanate these days..."
-61,"TEXT_CLSCUL301_00266_DIVINGDOVE_000_23","<Emphasis>Anyway</Emphasis>, as is often the way with men of means, Lord Lolorito is a lover of fine cuisine. And as the guildmaster doubtless mentioned, he's made a name for himself as a ruthless food critic."
-62,"TEXT_CLSCUL301_00266_DIVINGDOVE_000_24","The man has a penchant for making life miserable for us chefs. Indeed, he <Emphasis>never</Emphasis> places an order, but demands instead that you “impress him.” And therein lies our first dilemma: what to serve?"
-63,"TEXT_CLSCUL301_00266_DIVINGDOVE_000_25","Lest you think the fates unduly mischievous, I'm happy to report that the odds are not <Emphasis>wholly</Emphasis> stacked against us. It just so happens that Lolorito's butler, a fellow by the name of Nonopesa, is dining at the Bismarck at this very moment."
-64,"TEXT_CLSCUL301_00266_DIVINGDOVE_000_26","This is a golden chance to learn what manner of dish Lolorito craves. Go to Nonopesa on the terrace, and try to coax the information out of him. Good luck!"
-65,"TEXT_CLSCUL301_00266_NONOPESA_000_30","I'm sorry? I think I may have misheard. Did you say that <Emphasis>you</Emphasis> would be preparing Lord Lolorito's meal? Well...this is rather unexpected. But if Master Lyngsath saw fit to entrust the task to you, then you must not be without skill."
-66,"TEXT_CLSCUL301_00266_NONOPESA_000_31","Hm? You wish to know what my master desires to eat? Hah hah hah! <Emphasis>Finally</Emphasis> it occurs to someone to ask me that question!"
-67,"TEXT_CLSCUL301_00266_NONOPESA_000_32","It is my duty to see that my lord never wants for comfort, and naught pleases me more than to see Lord Lolorito in high spirits. As such, I should be glad to share with you what I know."
-68,"TEXT_CLSCUL301_00266_NONOPESA_000_33","Shortly prior to arriving in Limsa Lominsa, my master spoke of being seized by a craving for a hearty meal of meat. Though he did not mention a specific dish, I happen to know that smoked raptor is a particular favorite of his."
-69,"TEXT_CLSCUL301_00266_NONOPESA_000_34","Needless to say, a man of such refined taste as he would expect no less than the <Emphasis>finest</Emphasis> sample of the dish, made with only the <Emphasis>finest</Emphasis> ingredients. I hope this information serves you well."
-70,"TEXT_CLSCUL301_00266_NONOPESA_000_35","Lord Lolorito is due to conclude his business negotiations presently, and will desire to take his meal thereafter. Once the smoked raptor is ready, pray bring it to me. I shall see it delivered to my master."
-71,"TEXT_CLSCUL301_00266_SYSTEM_000_36","The higher the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>quality<UIGlow>01</UIGlow><UIForeground>01</UIForeground> achieved during synthesis, the greater the chance that the finished item will be of a higher grade (<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>HQ<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)."
-72,"TEXT_CLSCUL301_00266_SYSTEM_000_37","Using HQ materials provides a bonus to initial quality, increasing the probability of producing an HQ item."
-73,"TEXT_CLSCUL301_00266_NONOPESA_000_40","Remember: Lord Lolorito will accept nothing less than the best. Your smoked raptor must represent the finest available ingredients, prepared with the utmost skill."
-74,"TEXT_CLSCUL301_00266_NONOPESA_001_41","Ah, the smoked raptor is ready? Good. Now, I trust you won't object to an inspection. Lest you worry about your handiwork being defaced, my years serving Lord Lolorito have taught me how to taste with sight and smell alone."
-75,"TEXT_CLSCUL301_00266_NONOPESA_000_41","By the gods... This raptor is <Emphasis>sublime</Emphasis>!"
-76,"TEXT_CLSCUL301_00266_NONOPESA_000_42","The marriage of cracked pepper and sun lemon begets an irresistible fragrance that perfectly complements the aroma of the meat."
-77,"TEXT_CLSCUL301_00266_NONOPESA_000_43","The flavor is rounded out with the mellow fruitiness of olive oil, which also lends the shank a lustrous sheen that tantalizes the eye."
-78,"TEXT_CLSCUL301_00266_NONOPESA_000_44","I have presided over Lord Lolorito's dining table for many years..."
-79,"TEXT_CLSCUL301_00266_NONOPESA_000_45","And I can say without reservation that this is the most delectable smoked raptor I have ever had the pleasure of <Emphasis>not</Emphasis> eating!"
-80,"TEXT_CLSCUL301_00266_NONOPESA_000_46","It is of little wonder that Master Lyngsath deemed you fit to cook in his stead─I doubt that even he could have delivered a better rendition of my master's favorite dish. You, <If(PlayerParameter(4))>madam<Else/>sir</If>, are quite a culinarian."
-81,"TEXT_CLSCUL301_00266_NONOPESA_000_47","...Ah, but I sense you are more relieved than flattered. Hardly surprising, I suppose. Much and more is said of my lord's “uncompromising” approach to cuisine."
-82,"TEXT_CLSCUL301_00266_NONOPESA_000_48","While I will not refute the rumors, you may rest assured that the Bismarck has no cause to worry."
-83,"TEXT_CLSCUL301_00266_NONOPESA_000_49","Now then, if you will excuse me, I must see my lord's meal delivered to him."
-84,"TEXT_CLSCUL301_00266_NONOPESA_000_50","You may look forward to hearing his judgment anon─and entirely without trepidation, if my senses do not fail me. Pray send Master Lyngsath my compliments."
-85,"TEXT_CLSCUL301_00266_LYNGSATH_000_60","Ye did it, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! You impressed the pants off Lolorito's butler!"
-86,"TEXT_CLSCUL301_00266_LYNGSATH_000_61","Nonopesa knows 'is master's tastes better'n 'is own, an' 'is approval's all the assurance I need. The guild's safe, an' it's all thanks to you!"
-87,"TEXT_CLSCUL301_00266_LYNGSATH_000_62","Ye never cease to amaze me, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Ye came to us with nary any knowledge of cookin', an' now yer like a second left 'and!"
-88,"TEXT_CLSCUL301_00266_LYNGSATH_000_63","...Well, that didn't come out right. What I meant to say was, yer as useful to me as the 'and I 'old me skillet with─summat no culinarian can do without."
-89,"TEXT_CLSCUL301_00266_LYNGSATH_000_64","Ye've got it in ye to be one o' the finest chefs in the realm, an' I would see ye fulfill yer potential. Promise me ye'll keep at yer cookin'."
+48,"TEXT_CLSCUL301_00266_LYNGSATH_000_1","痛ッ……くそったれ、動きやがれ！
+実は腕が荷車と壁に挟まされてな、しばらく動かんらしい。"
+49,"TEXT_CLSCUL301_00266_LYNGSATH_000_2","この腕じゃあ、まともに料理ができねぇ……
+こんな日に、まいったぜ。"
+50,"TEXT_CLSCUL301_00266_LYNGSATH_000_3","今日はヤバい客が「ビスマルク」に来るんだ。
+世の調理師すべての敵みたいな野郎がよ……！"
+51,"TEXT_CLSCUL301_00266_LYNGSATH_000_4","そいつは、ウルダハの大富豪で
+権力者なんだが、毒舌の美食家としても有名でね。
+そいつが今、商談でこの都市に来てるんだ。"
+52,"TEXT_CLSCUL301_00266_LYNGSATH_000_5","ヤツは、どんな料理でも肥えた舌でアラを見つけては、
+口汚くこき下ろしてきやがる。
+そうやって潰された店は、数知れねぇ。"
+53,"TEXT_CLSCUL301_00266_LYNGSATH_000_6","料理をしくじって、ヤツに悪評をばらまかれでもしたら、
+エオルゼア随一のビスマルクだって、おしまいさ。
+だから、毎度、俺が相手してたんだがな……"
+54,"TEXT_CLSCUL301_00266_LYNGSATH_000_7","勝負から逃げたと言いふらされるのも我慢ならねえ。
+いや、待てよ……そうか、お前さんがいたか！"
+55,"TEXT_CLSCUL301_00266_LYNGSATH_000_8","なぁ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
+俺の代わりに……料理を出しちゃくれねぇか！？"
+56,"TEXT_CLSCUL301_00266_LYNGSATH_000_9","すべての責任は、この俺が取る！
+だが、お前さんならできると、俺ァ信じてるぞ。"
+57,"TEXT_CLSCUL301_00266_LYNGSATH_000_10","まずは、ウルダハ出身の「ダイビング・ダヴ」から
+ヤツの情報を聞き出してみろ。
+その名は……ロロリトだ！"
+58,"TEXT_CLSCUL301_00266_DIVINGDOVE_000_20","ロロリトの話は聞いてるよ。
+マスターもついてない、こんな日に怪我するたぁね。"
+59,"TEXT_CLSCUL301_00266_DIVINGDOVE_000_21","ロロリトは、宝飾店「エシュテム」、織物の「サンシルク」を
+傘下に置く「東アルデナード商会」の会長で
+「百億ギルの男」という異名を持つ爺さんさ。"
+60,"TEXT_CLSCUL301_00266_DIVINGDOVE_000_22","財力にものを言わせて、ウルダハを事実上
+支配している「砂蠍衆」の一員だ。
+だが、いい噂は聞かないね。"
+61,"TEXT_CLSCUL301_00266_DIVINGDOVE_000_23","そんなんでも、舌だけは本当に一流さ。
+でも、その舌を調理師を潰すためにしか使わないらしい。"
+62,"TEXT_CLSCUL301_00266_DIVINGDOVE_000_24","もっとも、本当に美味いものを食ったときは、
+何も言えなくなっちまうとか聞いたことあるよ。"
+63,"TEXT_CLSCUL301_00266_DIVINGDOVE_000_25","ツイてることに、ちょうど今、
+ロロリトの執事であるノノペサが、ビスマルクに来店してるんよ。"
+64,"TEXT_CLSCUL301_00266_DIVINGDOVE_000_26","テラス席にいる「ノノペサ」に、
+ロロリトの好物を聞いてみるといいさ。
+ヤツの好物を出せば、気に入られる可能性も高まるだろ？"
+65,"TEXT_CLSCUL301_00266_NONOPESA_000_30","あなたがリングサス様の代わりに料理を？
+それでロロリト様の好みを知りたい、というわけですか。
+ロロリト様に尽くそうという心意気は買いますぞ。"
+66,"TEXT_CLSCUL301_00266_NONOPESA_000_31","老境とはいえ、あの方もまだまだお盛んですからな。
+肉を好んでお食べになられます。
+とくに「<Sheet(Item,　4767,0)/>」を好まれましてな。"
+67,"TEXT_CLSCUL301_00266_NONOPESA_000_32","硬すぎず柔らかすぎず、最高の焼き加減に仕上がった
+「<Sheet(ItemHQ,4645,0)/>」の1皿でも出せば
+ロロリト様にご満足いただけるやもしれません。"
+68,"TEXT_CLSCUL301_00266_NONOPESA_000_33","可能な限り、材料も高品質のものを使われることをお勧めします。
+ロロリト様は、素材の産地をも感じ取る舌をお持ちゆえ。"
+69,"TEXT_CLSCUL301_00266_NONOPESA_000_34","さて……ロロリト様の商談は、じきに終わります。
+それまでに料理を用意するが、よろしかろう。
+お戻りと同時にお食事を取れれば、心象もよくなりましょう。"
+70,"TEXT_CLSCUL301_00266_NONOPESA_000_35","完成した料理は、私めへお届けください。
+ロロリト様のお部屋まで、運ばせていただきますゆえ。"
+71,"TEXT_CLSCUL301_00266_SYSTEM_000_36","「HQアイテム」を製作してみましょう。
+製作中に「品質」を向上させることで、
+HQアイテムの完成確率が高くなります。"
+72,"TEXT_CLSCUL301_00266_SYSTEM_000_37","また、素材にHQアイテムを使うと、初期品質が上がり、
+HQアイテムが製作しやすくなります。
+HQアイテムの素材を積極的に使ってみましょう。"
+73,"TEXT_CLSCUL301_00266_NONOPESA_000_40","最高品質の「<Sheet(ItemHQ,4645,0)/>」ですぞ。
+その料理こそ、今のロロリト様がお求めになる料理です。
+違いありません、この爺にはわかるのでございます。"
+74,"TEXT_CLSCUL301_00266_NONOPESA_001_41","完成されましたか。
+では、別室にて最終確認をさせてください。
+下手な料理をお出しすれば、私の首も危うくなりますゆえ。"
+75,"TEXT_CLSCUL301_00266_NONOPESA_000_41","これは……素晴らしい料理ですなぁ！
+私が口にできぬのが、悔しいくらいでございます。"
+76,"TEXT_CLSCUL301_00266_NONOPESA_000_42","まず、食欲をそそるスパイシーなこの香り！
+「<Sheet(Item,　4767,0)/>」の難点である臭みも、
+<Sheet(Item,　4811,0)/>によって、見事に消し去っておられる。"
+77,"TEXT_CLSCUL301_00266_NONOPESA_000_43","そして、<Sheet(Item,　4857,0)/>を使うことで、
+素晴らしい照りを与えた見た目も麗しい……。"
+78,"TEXT_CLSCUL301_00266_NONOPESA_000_44","今まで各地で、数々の調理師の方に、
+ロロリト様のお食事を用意していただきましたが……
+これほど素晴らしい燻製は、初めてお目にかかりました。"
+79,"TEXT_CLSCUL301_00266_NONOPESA_000_45","あなた様の腕は、リングサス様にも劣らぬようですな。
+あの方があなたを推した理由が理解できました。"
+80,"TEXT_CLSCUL301_00266_NONOPESA_000_46","ロロリト様の舌は、私めのような凡俗では気付くこともない
+かすかな妥協をも感じ取られます。"
+81,"TEXT_CLSCUL301_00266_NONOPESA_000_47","しかし、この「<Sheet(ItemHQ,4645,0)/>」ならば、
+ロロリト様の舌をとろけさせること叶うやもしれませぬぞ。"
+82,"TEXT_CLSCUL301_00266_NONOPESA_000_48","……さて、そろそろ、ロロリト様のお部屋に、
+この料理を運ばねばなりませぬ。"
+83,"TEXT_CLSCUL301_00266_NONOPESA_000_49","この料理をロロリト様が召し上がったら、
+いずれ調理師ギルドのほうに沙汰がありましょう。"
+84,"TEXT_CLSCUL301_00266_NONOPESA_000_50","期待して、お待ちいただいて結構だと思いますよ。
+それでは、リングサス様にも、よろしくお伝えください。"
+85,"TEXT_CLSCUL301_00266_LYNGSATH_000_60","聞いたぞ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>!
+ノノペサが大絶賛だったとか、やったじゃねぇか！"
+86,"TEXT_CLSCUL301_00266_LYNGSATH_000_61","長年ロロリトに仕えているノノペサが、そんだけ絶賛するなら、
+ロロリトの奴に食わせても心配ないな。"
+87,"TEXT_CLSCUL301_00266_LYNGSATH_000_62","どうやらお前さん、俺の想像以上だったようだな。
+まさしく俺の……左腕だ。"
+88,"TEXT_CLSCUL301_00266_LYNGSATH_000_63","左腕ってのはスキレットを握る大事な腕。
+調理師が一番、信じるべきもんさ。"
+89,"TEXT_CLSCUL301_00266_LYNGSATH_000_64","さあ、よりいっそう励めよ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
+お前には、それだけの才能があるんだからな。
+そのためなら、俺は協力を惜しまんぞ。"

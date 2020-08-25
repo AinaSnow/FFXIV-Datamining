@@ -1,13 +1,19 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_FESSUM103_02126_SEQ_00","You can tell from Espan's expression that he believes himself to be the busiest man at the stall.
-※This quest is available for a limited time only."
-1,"TEXT_FESSUM103_02126_SEQ_01","Espan is a man of refined tastes and believes that the attendees of this year's Moonfire Faire deserve battered fish made from only the freshest haddock on offer. However, due to pirate-related troubles, the Adventurers' Guild cannot spare any hands for fishing. He judges you as an adventurer of taste and skill with a fishing rod, and asks that you board the Rhotano privateer to catch the fish.
+0,"TEXT_FESSUM103_02126_SEQ_00","※本クエストは、期間限定のクエストとなります。
 
-※Please note that you will be unable to complete this quest after the seasonal event has ended. For details, please check the Lodestone."
-2,"TEXT_FESSUM103_02126_SEQ_02","You have caught a fresh haddock that is sure to please even the most discerning fishmonger. Bring the fish to Espan so he can serve superior battered fish to the faire-goers."
-3,"TEXT_FESSUM103_02126_SEQ_03","Espan is pleased with the fish you present to him, and bemoans the fact that C'zibho Tia lacks the eye for freshness that he does. He assures you that haddock will always be in demand, and asks that you bring him any more that you catch in the future."
+紅蓮祭調理担当エスパンは、忙しそうにしている。"
+1,"TEXT_FESSUM103_02126_SEQ_01","※本クエストは、シーズナルイベント開催中にかぎり、
+　受注、進行できます。
+　開催期間終了後は進行できませんので、ご注意ください。
+　期間等の詳細についてはLodestoneをご覧ください。
+
+エスパンから、<Sheet(EventItem,2001889,0)/>を釣ってくるよう頼まれた。船着場の「船頭」に話しかけて「洋上の大型船」へ行き、「<Sheet(EventItem,2001889,0)/>」を釣り上げよう。<Sheet(EventItem,2001889,0)/>は、ロータノ海沖合：船首で釣ることができる。
+
+※「洋上の大型船」へは、船着場の「船頭」に話しかけると移動できます。「<Sheet(EventItem,2001889,0)/>」は、船首で釣ることができます。"
+2,"TEXT_FESSUM103_02126_SEQ_02","<Sheet(EventItem,2001889,0)/>を釣り上げた。コスタ・デル・ソルの「紅蓮祭調理担当エスパン」に「<Sheet(EventItem,2001889,0)/>」を納品しよう。"
+3,"TEXT_FESSUM103_02126_SEQ_03","エスパンに<Sheet(EventItem,2001889,0)/>を納品した。彼は、同じ調理担当のカ・ジボ・ティアの鈍さについてぼやいていた。"
 4,"TEXT_FESSUM103_02126_SEQ_04",""
 5,"TEXT_FESSUM103_02126_SEQ_05",""
 6,"TEXT_FESSUM103_02126_SEQ_06",""
@@ -28,8 +34,8 @@ int32,str,str
 21,"TEXT_FESSUM103_02126_SEQ_21",""
 22,"TEXT_FESSUM103_02126_SEQ_22",""
 23,"TEXT_FESSUM103_02126_SEQ_23",""
-24,"TEXT_FESSUM103_02126_TODO_00","Obtain a fresh haddock."
-25,"TEXT_FESSUM103_02126_TODO_01","Deliver the fresh haddock to Espan."
+24,"TEXT_FESSUM103_02126_TODO_00","<Sheet(EventItem,2001889,0)/>を入手"
+25,"TEXT_FESSUM103_02126_TODO_01","紅蓮祭調理担当エスパンに<Sheet(EventItem,2001889,0)/>を渡す"
 26,"TEXT_FESSUM103_02126_TODO_02",""
 27,"TEXT_FESSUM103_02126_TODO_03",""
 28,"TEXT_FESSUM103_02126_TODO_04",""
@@ -52,16 +58,34 @@ int32,str,str
 45,"TEXT_FESSUM103_02126_TODO_21",""
 46,"TEXT_FESSUM103_02126_TODO_22",""
 47,"TEXT_FESSUM103_02126_TODO_23",""
-48,"TEXT_FESSUM103_02126_ESPAN_000_000","Ah, you seem like a <If(PlayerParameter(4))>woman<Else/>man</If> of more refined tastes. I've got just the job for you."
-49,"TEXT_FESSUM103_02126_ESPAN_000_001","I'm selling battered fish made with only fresh haddock. However, with the pirates around mucking things up, we've not enough fishermen to bring in a steady supply."
-50,"TEXT_FESSUM103_02126_ESPAN_000_002","Care to try your hand at catching a few fish? Don't even think of buying them from the merchant over there─I can smell their rancid stench from here. Hop aboard the Rhotano privateer and bring me any haddock you manage to catch."
-51,"TEXT_FESSUM103_02126_ESPAN_000_005","Fishing up a few haddock might prove challenging, but it'll be worth it. The Rhotano privateer will bring you out to the open seas, where there are haddock aplenty. I'll be grateful for any you manage to catch."
-52,"TEXT_FESSUM103_02126_SYSTEM_000_003","To board the Rhotano privateer, speak with the ferry skipper at the docks."
-53,"TEXT_FESSUM103_02126_SYSTEM_000_004","Fresh haddock can be caught by fishing from the bow of the Rhotano privateer."
-54,"TEXT_FESSUM103_02126_SENDO02126_000_08","This ferry'll be heading to the Rhotano privateer. If it's haddock you're looking to catch, there's no better spot than there."
-55,"TEXT_FESSUM103_02126_Q1_000_050","Board the Rhotano privateer?"
-56,"TEXT_FESSUM103_02126_A1_000_051","Yes"
-57,"TEXT_FESSUM103_02126_A1_000_052","No"
-58,"TEXT_FESSUM103_02126_ESPAN_000_015","I can't stand to see our faire-goers eating battered fish made from old haddock─gods know how long they've been sitting in the sun. Pray give me any haddock you've caught so I can prepare a superior dish."
-59,"TEXT_FESSUM103_02126_ESPAN_000_020","Yes...the sheen of the scales, the lingering smell of saltwater. It's as if the fish jumped straight from the ocean and into my hands! A tasteless fool such as C'zibho Tia would never appreciate the delight of frying something so fresh."
-60,"TEXT_FESSUM103_02126_ESPAN_000_021","You have my thanks. Of course, more fish are always welcome. Pray deliver them to me if you catch any more."
+48,"TEXT_FESSUM103_02126_ESPAN_000_000","私の手伝いをしてくれるのですか？
+正しい選択ですよ。
+向こうのカ・ジボ・ティアは人使いが荒いですから。"
+49,"TEXT_FESSUM103_02126_ESPAN_000_001","この店の名物は、新鮮な魚を使った「<Sheet(Item,10332,0)/>」。
+ですが、海賊の対応で人手不足となり、
+材料調達が追いつかなくなりました……そこでお願いです。"
+50,"TEXT_FESSUM103_02126_ESPAN_000_002","あなたに「<Sheet(EventItem,2001889,0)/>」を釣ってきてもらいたい。
+「陽気な漁師」が売る<Sheet(Item,12990,0)/>は鮮度が落ちます。
+ぜひ、「洋上の大型船」で釣ったものを、私に渡してください。"
+51,"TEXT_FESSUM103_02126_ESPAN_000_005","あなたに「<Sheet(EventItem,2001889,0)/>」を釣ってきてもらいたい。
+「陽気な漁師」が売る<Sheet(Item,12990,0)/>は鮮度が落ちます。
+ぜひ、「洋上の大型船」で釣ったものを、私に渡してください。"
+52,"TEXT_FESSUM103_02126_SYSTEM_000_003","「洋上の大型船」へは、
+船着場の「船頭」に話しかけると移動できます。"
+53,"TEXT_FESSUM103_02126_SYSTEM_000_004","「<Sheet(EventItem,2001889,0)/>」は、
+「洋上の大型船」の船首で釣ることができます。"
+54,"TEXT_FESSUM103_02126_SENDO02126_000_08","この船は「洋上の大型船」行きだ。
+船首では「<Sheet(EventItem,2001889,0)/>」がよく釣れるよ。
+乗ってくかい？"
+55,"TEXT_FESSUM103_02126_Q1_000_050","「洋上の大型船」へ移動しますか？"
+56,"TEXT_FESSUM103_02126_A1_000_051","はい"
+57,"TEXT_FESSUM103_02126_A1_000_052","いいえ"
+58,"TEXT_FESSUM103_02126_ESPAN_000_015","あなたに「<Sheet(EventItem,2001889,0)/>」を釣ってきてもらいたい。
+「陽気な漁師」が売る<Sheet(Item,12990,0)/>は鮮度が落ちます。
+ぜひ、「洋上の大型船」で釣ったものを、私に渡してください。"
+59,"TEXT_FESSUM103_02126_ESPAN_000_020","このハリ、ツヤ、活きのよさ……まさに「<Sheet(EventItem,2001889,0)/>」！
+カ・ジボ・ティアには、わからないようですが、
+<Sheet(EventItem,2001889,0)/>は、揚げたときのプリプリ感が違うんです。"
+60,"TEXT_FESSUM103_02126_ESPAN_000_021","どうも、ありがとうございました。
+もしよろしければ、また手伝っていただきたい。
+その際は、私にお声がけください。"

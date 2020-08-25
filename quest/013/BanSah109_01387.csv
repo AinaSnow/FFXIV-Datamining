@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANSAH109_01387_SEQ_00","Fyuu wishes you to raid the raiders."
-1,"TEXT_BANSAH109_01387_SEQ_01","Word has reached Fyuu that another trading vessel has fallen prey to the Coral Tridents. Though the crew managed to flee unscathed using a landing skiff, their valuable cargo yet remains on the captured ship. Novv's spawnling asks that you attempt to liberate this cargo from the claws of his zealous kin. Borrow an elbst from Pahh, and locate the crates on the deck of the merchantman."
-2,"TEXT_BANSAH109_01387_SEQ_02","You have relieved the Coral Tridents on the trading vessel of their ill-gotten cargo. Return to Novv's Nursery and deliver the crates to Fyuu."
-3,"TEXT_BANSAH109_01387_SEQ_03","You have deposited the captured vessel's cargo at the feet of the young beastman. Fyuu hopes that by returning the crates in person, the shorewalkers will come to realize that not all Sahagin are creatures of violence and villainy."
+0,"TEXT_BANSAH109_01387_SEQ_00","ノォヴの育成地のフュウは、冒険者に頼みたいことがあるようだ。"
+1,"TEXT_BANSAH109_01387_SEQ_01","フュウから、「珊瑚の銛」によって奪われた、商船の荷物を取り返してくるよう依頼を受けた。洋上の商船に乗り込み、敵の妨害を退けて「<Sheet(EObj,2004002,0)/>」を3つ回収しよう。洋上の商船へ行くためのエルブストは、ノォヴの育成地の「海獣使いのパァア」が手配してくれるそうだ。"
+2,"TEXT_BANSAH109_01387_SEQ_02","<Sheet(EventItem,2001291,0)/>を回収した。ノォヴの育成地の「フュウ」に回収した「<Sheet(EventItem,2001291,0)/>」を渡そう。"
+3,"TEXT_BANSAH109_01387_SEQ_03","フュウに<Sheet(EventItem,2001291,0)/>を渡した。荷物を返却することで、人との共存を望むサハギン族がいることを知ってもらいたいというフュウ。その願いを叶えるため、今後も彼に協力しよう。"
 4,"TEXT_BANSAH109_01387_SEQ_04",""
 5,"TEXT_BANSAH109_01387_SEQ_05",""
 6,"TEXT_BANSAH109_01387_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_BANSAH109_01387_SEQ_21",""
 22,"TEXT_BANSAH109_01387_SEQ_22",""
 23,"TEXT_BANSAH109_01387_SEQ_23",""
-24,"TEXT_BANSAH109_01387_TODO_00","Reclaim cargo crates from the deck of the merchantman."
-25,"TEXT_BANSAH109_01387_TODO_01","Deliver the cargo crates to Fyuu."
+24,"TEXT_BANSAH109_01387_TODO_00","洋上の商船にある<Sheet(EObj,2004002,0)/>を妨害を退け入手"
+25,"TEXT_BANSAH109_01387_TODO_01","フュウに<Sheet(EventItem,2001291,0)/>を渡す"
 26,"TEXT_BANSAH109_01387_TODO_02",""
 27,"TEXT_BANSAH109_01387_TODO_03",""
 28,"TEXT_BANSAH109_01387_TODO_04",""
@@ -49,20 +49,33 @@ int32,str,str
 45,"TEXT_BANSAH109_01387_TODO_21",""
 46,"TEXT_BANSAH109_01387_TODO_22",""
 47,"TEXT_BANSAH109_01387_TODO_23",""
-48,"TEXT_BANSAH109_01387_FYUU_000_000","Pshhh... The piracy of the Coral Tridentsss continues unabated─they have ssstruck another trading vessel."
-49,"TEXT_BANSAH109_01387_FYUU_000_001","The merchantman's captain and crew were able to essscape in a landing ssskiff, but they were forced to abandon their shhhip─and its cargo─to their attackers."
-50,"TEXT_BANSAH109_01387_FYUU_000_002","I am of a mind to sssee this cargo returned to the shhhorewalkers. Pshhh... Perhapsss it is time you practiced a little piracy of your own! Ssspeak with Pahh and borrow an elbssst─his ssseabeast will sssoon catch up to your burdened target."
-51,"TEXT_BANSAH109_01387_FYUU_000_003","Take an elbssst, and make your way to the Trident-infesssted merchantman. Let us sssee what cargo you can retrieve for the shhhorewalkers."
-52,"TEXT_BANSAH109_01387_TAMER01376_000_010","Pshhh... The captured merchantman? My elbssst will have you sssnapping at its rudder before you've sssettled in the sssaddle."
-53,"TEXT_BANSAH109_01387_Q1_000_000","Ride the elbst to the merchantman?"
-54,"TEXT_BANSAH109_01387_A1_000_001","Yes"
-55,"TEXT_BANSAH109_01387_A1_000_002","No"
-56,"TEXT_BANSAH109_01387_FYUU_000_020","Shhhorewalker, were you able to sssteal back the cargo?"
-57,"TEXT_BANSAH109_01387_FYUU_000_025","Pshhh... Thank you. We will deliver these cratesss ourssselves."
-58,"TEXT_BANSAH109_01387_FYUU_000_026","The crew of the merchantman may be alarmed by our appearance, but we mussst make an effort to teach them that not all Sssahagin desire conflict and chaosss."
-59,"TEXT_BANSAH109_01387_POPMESSAGE_000_000","A watchful surftooth sentry attempts to prevent you from taking the crate!"
+48,"TEXT_BANSAH109_01387_FYUU_000_000","フスィーッ……ヒレナシの商船が襲われた。
+犯人は、もちろん「珊瑚の銛」の連中だ！"
+49,"TEXT_BANSAH109_01387_FYUU_000_001","商船の乗員どもは小舟で逃げ出したようだが、
+運搬中の「<Sheet(EventItem,2001291,0)/>」は、船に残したままのようだ。"
+50,"TEXT_BANSAH109_01387_FYUU_000_002","せめて、「<Sheet(EventItem,2001291,0)/>」を回収してやってくれねぇか？
+洋上の商船には、エルブストに乗れば追いつけるはずだぜ！"
+51,"TEXT_BANSAH109_01387_FYUU_000_003","「珊瑚の銛」に襲われた商船から、
+「<Sheet(EventItem,2001291,0)/>」を回収してやってくれねぇか？
+洋上の商船には、エルブストに乗れば追いつけるぜ！"
+52,"TEXT_BANSAH109_01387_TAMER01376_000_010","フスィーッ……拿捕された商船を追いたいのか？
+エルブストのスピードがあれば、大丈夫だ。"
+53,"TEXT_BANSAH109_01387_Q1_000_000","エルブストに乗り「洋上の商船」へ行きますか？"
+54,"TEXT_BANSAH109_01387_A1_000_001","はい"
+55,"TEXT_BANSAH109_01387_A1_000_002","いいえ"
+56,"TEXT_BANSAH109_01387_FYUU_000_020","フスィーッ……。
+<Sheet(EventItem,2001291,0)/>を奪い返してこれたか？"
+57,"TEXT_BANSAH109_01387_FYUU_000_025","フスィーッ……さすがだな！
+この荷物は、俺たちがヒレナシどもに届けておこう。"
+58,"TEXT_BANSAH109_01387_FYUU_000_026","襲われた連中は、サハギン族を憎んでいるだろうが……。
+共存を望むサハギン族もいるんだって、
+教えてやらねぇとな！"
+59,"TEXT_BANSAH109_01387_POPMESSAGE_000_000","敵の気配を感じた！！"
 60,"TEXT_BANSAH109_01387_POP_MESSAGE","（★未使用／削除予定★）"
-61,"TEXT_BANSAH109_01387_POPMESSAGE_000_001","The enemy is still about!"
-62,"TEXT_BANSAH109_01387_BALLOON_000_030","Pshhh! You will not have our shhhpoils!"
-63,"TEXT_BANSAH109_01387_BALLOON_000_031","Pshhh! I'll take your thieving hands!"
-64,"TEXT_BANSAH109_01387_BALLOON_000_032","Shhhneaky, trickshhhy shhhorewalker!"
+61,"TEXT_BANSAH109_01387_POPMESSAGE_000_001","その行動は出現した敵を倒さないと実行できません"
+62,"TEXT_BANSAH109_01387_BALLOON_000_030","フスィーッ！
+そいつは俺たちのだっ！"
+63,"TEXT_BANSAH109_01387_BALLOON_000_031","フスィーッ！
+切り刻んでやる！"
+64,"TEXT_BANSAH109_01387_BALLOON_000_032","フスィーッ！
+毛の生えたヒレナシめ！"

@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDA127_02954_SEQ_00","Griseldis is here, but her mind is elsewhere..."
+0,"TEXT_STMBDA127_02954_SEQ_00","アラガーナのグルセルディスは、脚が痛むようだ。"
 1,"TEXT_STMBDA127_02954_SEQ_01",""
 2,"TEXT_STMBDA127_02954_SEQ_02",""
 3,"TEXT_STMBDA127_02954_SEQ_03",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_STMBDA127_02954_SEQ_21",""
 22,"TEXT_STMBDA127_02954_SEQ_22",""
 23,"TEXT_STMBDA127_02954_SEQ_23",""
-24,"TEXT_STMBDA127_02954_TODO_00","Slay a chapuli for its horn."
-25,"TEXT_STMBDA127_02954_TODO_01","Slay a Gyr Abanian hornbill for one of its talons."
-26,"TEXT_STMBDA127_02954_TODO_02","Deliver the horn and talon to Griseldis."
+24,"TEXT_STMBDA127_02954_TODO_00","<Sheet(BNpcName,5700,0)/>を討伐し、<Sheet(EventItem,2002391,0)/>を入手"
+25,"TEXT_STMBDA127_02954_TODO_01","<Sheet(BNpcName,5703,0)/>を討伐し、<Sheet(EventItem,2002392,0)/>を入手"
+26,"TEXT_STMBDA127_02954_TODO_02","グルセルディスに<Sheet(EventItem,2002391,0)/>と<Sheet(EventItem,2002392,0)/>を渡す"
 27,"TEXT_STMBDA127_02954_TODO_03",""
 28,"TEXT_STMBDA127_02954_TODO_04",""
 29,"TEXT_STMBDA127_02954_TODO_05",""
@@ -49,17 +49,39 @@ int32,str,str
 45,"TEXT_STMBDA127_02954_TODO_21",""
 46,"TEXT_STMBDA127_02954_TODO_22",""
 47,"TEXT_STMBDA127_02954_TODO_23",""
-48,"TEXT_STMBDA127_02954_GRISELDIS_000_001","You'd best keep your distance, if you know what's good for you. Say your piece and move on."
-49,"TEXT_STMBDA127_02954_GRISELDIS_000_002","Looking for folks down on their luck? Congratulations, you've found one. As you can see, my leg ain't what it used to be. Some days I can hardly walk for the pain."
-50,"TEXT_STMBDA127_02954_GRISELDIS_000_003","Mornings are the worst, especially after cold nights. Hard labor's right out─too much pain and trouble for others."
-51,"TEXT_STMBDA127_02954_GRISELDIS_000_004","There's a tea what helps with it, though...I'd need to grind a chapuli horn and a hornbill talon for the blend..."
-52,"TEXT_STMBDA127_02954_GRISELDIS_000_005","Eh? You'll go and get some for me, just like that? You needn't trouble yourself so..."
-53,"TEXT_STMBDA127_02954_GRISELDIS_000_010","...I've no expectations of aid, mind, but if you happen to pass through the Last Forest and stumble into some chapulis and hornbills..."
-54,"TEXT_STMBDA127_02954_GRISELDIS_000_020","You've been gone a while. What brings you back to Ala Gannha?"
-55,"TEXT_STMBDA127_02954_GRISELDIS_000_021","Oh, I never meant to... I mean, in times like these, you never think people will actually..."
-56,"TEXT_STMBDA127_02954_GRISELDIS_000_022","This country's hard on people, but it's not just that. The imperials, they...they've made it known I'm not to be helped. A dead man's good for one lesson, you know, whereas a live one..."
-57,"TEXT_STMBDA127_02954_GRISELDIS_000_023","You're with the Resistance, right? I suppose there's no reason not to tell you then."
-58,"TEXT_STMBDA127_02954_GRISELDIS_000_024","My father, gods rest his soul, was deathly sick at the time, and so I'd gone out into the forest, spear in hand, to gather herbs. And then I had the good fortune to run into an imperial patrol."
-59,"TEXT_STMBDA127_02954_GRISELDIS_000_025","My weapon marked me as a rebel, or so they said. Not that it'd've made a difference if I'd fought back. I knew what the lot of them were about the moment that centurion laid eyes on me..."
-60,"TEXT_STMBDA127_02954_GRISELDIS_000_026","Didn't matter in the end, of course. Some people just like to hurt others. And by the time I limped back to the hut, it was too late for my father."
-61,"TEXT_STMBDA127_02954_GRISELDIS_000_027","Too late for me too, aye, and many others I imagine. Help them too if you like─they'll be grateful and say thank you. But beyond that, I wouldn't hope for much."
+48,"TEXT_STMBDA127_02954_GRISELDIS_000_001","誰だい、アンタは……。
+帝国兵に目を付けられたくなければ、
+アタシなんかに、声をかけるんじゃないよ！"
+49,"TEXT_STMBDA127_02954_GRISELDIS_000_002","困っていることはないかだって？
+そりゃ、大アリだよ。
+見てのとおり、脚が悪くて、歩くことにも不自由しているのさ。"
+50,"TEXT_STMBDA127_02954_GRISELDIS_000_003","今日はまた、朝の冷え込みのせいか、
+いつにもまして、ロクに動かない脚が痛みやがってね。"
+51,"TEXT_STMBDA127_02954_GRISELDIS_000_004","こんなとき、「<Sheet(EventItem,2002391,0)/>」と、
+「<Sheet(EventItem,2002392,0)/>」があれば薬茶が作れるんだが……。"
+52,"TEXT_STMBDA127_02954_GRISELDIS_000_005","まさか、こんなアタシのために、「チャプリ」と、
+「ギラバニアン・ホーンビル」を狩って来ようっていうのかい？
+…………それなら、期待しないで待っているよ。"
+53,"TEXT_STMBDA127_02954_GRISELDIS_000_010","「チャプリ」も「ギラバニアン・ホーンビル」も、
+ラストフォレストの一帯に棲息しているよ。"
+54,"TEXT_STMBDA127_02954_GRISELDIS_000_020","本当に「<Sheet(EventItem,2002391,0)/>」と、
+「<Sheet(EventItem,2002392,0)/>」を採ってきてくれたのかい？"
+55,"TEXT_STMBDA127_02954_GRISELDIS_000_021","……あ、ありがとう……。
+すまない、親切にされるのに慣れていなくてね。
+本当に採ってきてくれるとは、思ってなかったんだ……。"
+56,"TEXT_STMBDA127_02954_GRISELDIS_000_022","このアラガーナには、アタシのために、
+狩りに出てくれる人なんていないのさ……。
+アタシが、帝国兵に目を付けられているからね……。"
+57,"TEXT_STMBDA127_02954_GRISELDIS_000_023","ここだけの話、アンタ……解放軍の協力者なんだろう？
+実はね、この脚は帝国兵にやられてこうなったんだ。"
+58,"TEXT_STMBDA127_02954_GRISELDIS_000_024","病気がちだった親父のため、薬茶の材料を集めようと、
+槍を手に、狩りに出かけたときのことさ。
+運悪く哨戒中の帝国兵に見つかって、呼び止められてね。"
+59,"TEXT_STMBDA127_02954_GRISELDIS_000_025","奴ら、武器を持っていることを理由に、
+解放軍の一員じゃないかって、因縁を付けてきたんだ。
+それで、憂さ晴らしの遊びで……よってたかってアタシを……。"
+60,"TEXT_STMBDA127_02954_GRISELDIS_000_026","おかげで、満足に歩けないようになっちまって、
+親父だって、ロクに看病もしてやれないまま……。"
+61,"TEXT_STMBDA127_02954_GRISELDIS_000_027","アンタみたいな人とは、もう少し早く会いたかったよ。
+見ず知らずの人を助けるような優しい闘士となら、
+いっしょに戦おうと思えたはずだから……。"

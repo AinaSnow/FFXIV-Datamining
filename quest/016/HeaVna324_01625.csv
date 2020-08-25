@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNA324_01625_SEQ_00","Moghan has volunteered to lead you to Zenith."
-1,"TEXT_HEAVNA324_01625_SEQ_01","Moghan has volunteered to show you the way to Zenith, but he warns that the road will not be traveled without conflict. Strike out for the ruins of Asah, and defeat any dragons who take issue with your passage."
-2,"TEXT_HEAVNA324_01625_SEQ_02","You have defeated a number of wrathful Dravanians. Be ready for further skirmishes as you continue on your way to Asah."
-3,"TEXT_HEAVNA324_01625_SEQ_03","Once more, you are forced to slay the dragons who ambush you upon the road. Travel the last stretch to the ruins of Asah, and speak with Moghan."
-4,"TEXT_HEAVNA324_01625_SEQ_04","You have safely arrived in the ruins of Asah after battling your way through the land's inhospitable denizens. Though Moghan seems unsettled by the dragons' unusual aggression, your journey to Zenith is all but at an end."
+0,"TEXT_HEAVNA324_01625_SEQ_00","モグモグホームのモグタンは、白亜の宮殿まで案内してくれるようだ。"
+1,"TEXT_HEAVNA324_01625_SEQ_01","白亜の宮殿へ行くために、まずはアサー天空廊を目指すことになった。ドラヴァニア雲海の「アサー天空廊」を目指して進み、ドラゴン族に妨害されたら退けよう。"
+2,"TEXT_HEAVNA324_01625_SEQ_02","襲いかかってきたドラゴン族を退けた。再度「アサー天空廊」を目指して進み、ドラゴン族に妨害されたら退けよう。"
+3,"TEXT_HEAVNA324_01625_SEQ_03","再び襲いかかってきたドラゴン族を退けた。アサー天空廊の「モグタン」と話そう。"
+4,"TEXT_HEAVNA324_01625_SEQ_04","ドラゴン族に襲われはしたが、無事にアサー天空廊に到着した。目的地の白亜の宮殿まで、あと少しだ。"
 5,"TEXT_HEAVNA324_01625_SEQ_05",""
 6,"TEXT_HEAVNA324_01625_SEQ_06",""
 7,"TEXT_HEAVNA324_01625_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_HEAVNA324_01625_SEQ_21",""
 22,"TEXT_HEAVNA324_01625_SEQ_22",""
 23,"TEXT_HEAVNA324_01625_SEQ_23",""
-24,"TEXT_HEAVNA324_01625_TODO_00","Defeat enemies on the path to Asah."
-25,"TEXT_HEAVNA324_01625_TODO_01","Defeat enemies on the path to Asah."
-26,"TEXT_HEAVNA324_01625_TODO_02","Speak with Moghan."
+24,"TEXT_HEAVNA324_01625_TODO_00","アサー天空廊へ進み、道中の妨害を退ける"
+25,"TEXT_HEAVNA324_01625_TODO_01","再度アサー天空廊へ進み、道中の妨害を退ける"
+26,"TEXT_HEAVNA324_01625_TODO_02","モグタンと話す"
 27,"TEXT_HEAVNA324_01625_TODO_03",""
 28,"TEXT_HEAVNA324_01625_TODO_04",""
 29,"TEXT_HEAVNA324_01625_TODO_05",""
@@ -49,13 +49,28 @@ int32,str,str
 45,"TEXT_HEAVNA324_01625_TODO_21",""
 46,"TEXT_HEAVNA324_01625_TODO_22",""
 47,"TEXT_HEAVNA324_01625_TODO_23",""
-48,"TEXT_HEAVNA324_01625_MOGHAN_000_000","As Chieftain Moglin already explained, the shiny instrument we gave you is the best means of grabbing Hraesvelgr's attention. I'll come along, and show you the way to Zenith─that's the big palace where you need to blow the horn."
-49,"TEXT_HEAVNA324_01625_MOGHAN_000_001","First things first, though, we need to make for Asah. Oh...and watch out for rampaging dragons. Hm, maybe <Emphasis>that</Emphasis> should have been the first thing, kupo."
-50,"TEXT_HEAVNA324_01625_ALPHINAUD_000_002","We have tarried overlong. Let us forge ahead as swiftly as we may, lest Ishgard bear the brunt of the Horde's fury."
-51,"TEXT_HEAVNA324_01625_ESTINIEN_000_003","Enough talk. Let us leave this risible place behind us."
-52,"TEXT_HEAVNA324_01625_ICEHEART_000_004","The closer we come to Hraesvelgr, the higher my spirits rise. But is it I who am elated...or Saint Shiva?"
-53,"TEXT_HEAVNA324_01625_MOGHAN_000_010","Things were a bit bitey for a while there, but I think we've arrived in one piece, kupo."
-54,"TEXT_HEAVNA324_01625_MOGHAN_000_011","I wonder what has the dragons so awfully snappy... I mean, the bad ones are <Emphasis>always</Emphasis> bad, but they seem worse than usual."
-55,"TEXT_HEAVNA324_01625_ALPHINAUD_000_020","The histories make no reference to the existence of these ruins... Curious... Most curious..."
-56,"TEXT_HEAVNA324_01625_ESTINIEN_000_021","Never would I have believed that so much land lay hid above the clouds... Dravania is not as I imagined it."
-57,"TEXT_HEAVNA324_01625_ICEHEART_000_022","Do you see that sculpture to the south and west of here? I am all but certain it was carved in the likeness of Saint Shiva."
+48,"TEXT_HEAVNA324_01625_MOGHAN_000_000","モグリン様のお話のとおり、聖竜様を呼ぶときは、
+西の「白亜の宮殿」でラッパを吹き鳴らすのが決まりくぽ。
+モグも途中まで、案内役として同行させてもらうくぽ！"
+49,"TEXT_HEAVNA324_01625_MOGHAN_000_001","さあ、まずは「アサー天空廊」を目指すくぽ。
+乱暴者のドラゴン族が邪魔してくるかもしれないから、
+十分に気を引き締めて行くくぽ！"
+50,"TEXT_HEAVNA324_01625_ALPHINAUD_000_002","足踏みしてしまったが、旅を再開しよう。
+皇都「イシュガルド」が再び戦火に包まれぬよう、
+私たちができるかぎりのことをするんだ。"
+51,"TEXT_HEAVNA324_01625_ESTINIEN_000_003","話は終わったか？
+さあ、とっとと出発しようぜ。"
+52,"TEXT_HEAVNA324_01625_ICEHEART_000_004","聖竜「フレースヴェルグ」……
+再会を前に、胸が高まっているのがわかる。
+シヴァの心が、そうさせるのだろうか……。"
+53,"TEXT_HEAVNA324_01625_MOGHAN_000_010","ちょっぴり、ヒヤヒヤしたけれど、
+なんとか無事にたどり着けたくぽ……。"
+54,"TEXT_HEAVNA324_01625_MOGHAN_000_011","普段から乱暴者のドラゴン族だけど、
+なんだか、いつも以上に気が立ってるみたいくぽ……。
+心がザワザワしてしまうくぽよ……。"
+55,"TEXT_HEAVNA324_01625_ALPHINAUD_000_020","これまでに読んだどんな文献にも、
+このような遺跡の存在は記されていなかった……。"
+56,"TEXT_HEAVNA324_01625_ESTINIEN_000_021","まさか、これほどの橋が、
+ドラヴァニアの空に存在していたとはな……。"
+57,"TEXT_HEAVNA324_01625_ICEHEART_000_022","南西に見える、美しい彫像……。
+きっとあれは、聖女シヴァの姿を模したものね。"

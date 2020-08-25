@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ902_02858_SEQ_00","Papin wants to surprise his family with something nice."
+0,"TEXT_STMBDZ902_02858_SEQ_00","コールドハースのパピンは、強そうな冒険者にお願いしたいことがあるようだ。"
 1,"TEXT_STMBDZ902_02858_SEQ_01",""
 2,"TEXT_STMBDZ902_02858_SEQ_02",""
 3,"TEXT_STMBDZ902_02858_SEQ_03",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_STMBDZ902_02858_SEQ_21",""
 22,"TEXT_STMBDZ902_02858_SEQ_22",""
 23,"TEXT_STMBDZ902_02858_SEQ_23",""
-24,"TEXT_STMBDZ902_02858_TODO_00","Slay true griffins for their meat."
-25,"TEXT_STMBDZ902_02858_TODO_01","Deliver the griffin meat to Papin."
+24,"TEXT_STMBDZ902_02858_TODO_00","<Sheet(BNpcName,5711,0)/>から<Sheet(EventItem,2002357,0)/>を入手"
+25,"TEXT_STMBDZ902_02858_TODO_01","パピンに<Sheet(EventItem,2002357,0)/>を渡す"
 26,"TEXT_STMBDZ902_02858_TODO_02",""
 27,"TEXT_STMBDZ902_02858_TODO_03",""
 28,"TEXT_STMBDZ902_02858_TODO_04",""
@@ -49,12 +49,25 @@ int32,str,str
 45,"TEXT_STMBDZ902_02858_TODO_21",""
 46,"TEXT_STMBDZ902_02858_TODO_22",""
 47,"TEXT_STMBDZ902_02858_TODO_23",""
-48,"TEXT_STMBDZ902_02858_PAPIN_000_000","Excuse me, <If(PlayerParameter(4))>miss<Else/>mister</If>? I heard you adventurers are really brave, and strong. Do you think you can help me? I want to get Ma something real special, but I can't do it myself."
-49,"TEXT_STMBDZ902_02858_PAPIN_000_001","North of the village are these huge bird things called griffins, and their meat's supposed to be some of the best around."
-50,"TEXT_STMBDZ902_02858_PAPIN_000_002","If you could bring back even just a little, I'm sure it would make Ma awful happy to have it."
-51,"TEXT_STMBDZ902_02858_PAPIN_000_003","If you head up north, where all the soldiers used to be, there should be griffins around there. At least, that's what Ma says."
-52,"TEXT_STMBDZ902_02858_PAPIN_000_010","My, that was fast. Did you see any griffins?"
-53,"TEXT_STMBDZ902_02858_PAPIN_000_011","Wow, I didn't think you would bring back so much. You adventurers are really something else."
-54,"TEXT_STMBDZ902_02858_PAPIN_000_012","Have you ever had any before? Ma says this meat's supposed to be filled with all sorts of nutrients. Griffins are too dangerous to hunt, though, so we never get to eat any. Ma and Sis will be so happy."
-55,"TEXT_STMBDZ902_02858_PAPIN_000_013","A shame Pa isn't here to try it. He had to go away on work. He used to send me letters every day, but lately there's been nothing."
-56,"TEXT_STMBDZ902_02858_PAPIN_000_014","I'm sure he's okay. He's really strong, just like you. And when he comes back, we'll go hunting and have griffin meat all the time!"
+48,"TEXT_STMBDZ902_02858_PAPIN_000_000","ねえ、<If(PlayerParameter(4))>お姉ちゃん<Else/>お兄ちゃん</If>って、すごく強そうだね。
+あのね……ちょっと危ないことなんだけど……
+お願いを聞いてもらえないかな？"
+49,"TEXT_STMBDZ902_02858_PAPIN_000_001","村の北に、村の誰も敵わないくらい強い魔物がいるんだ。
+でも、そのお肉がどうしても必要なの！"
+50,"TEXT_STMBDZ902_02858_PAPIN_000_002","お願い、<If(PlayerParameter(4))>お姉ちゃん<Else/>お兄ちゃん</If>。
+「<Sheet(BNpcName,5711,0)/>」を倒して、
+「<Sheet(EventItem,2002357,0)/>」を獲ってきて！"
+51,"TEXT_STMBDZ902_02858_PAPIN_000_003","お願い、<If(PlayerParameter(4))>お姉ちゃん<Else/>お兄ちゃん</If>。
+村の北にいる、「<Sheet(BNpcName,5711,0)/>」を倒して、
+「<Sheet(EventItem,2002357,0)/>」を獲ってきて！"
+52,"TEXT_STMBDZ902_02858_PAPIN_000_010","「<Sheet(EventItem,2002357,0)/>」、獲ってきてくれた？"
+53,"TEXT_STMBDZ902_02858_PAPIN_000_011","すごい！　こんなにたくさん！"
+54,"TEXT_STMBDZ902_02858_PAPIN_000_012","このお肉はね、おいしいだけじゃなくて、
+すごく栄養があるって、お母さんが言ってたんだ。
+滅多に食べられないから、妹もぜったいに喜ぶよ！"
+55,"TEXT_STMBDZ902_02858_PAPIN_000_013","お父さんにも、食べさせてあげたいな……。
+お仕事で遠くに行ってるんだけど、
+最近はお手紙が来ないし、早く戻ってこないかなぁ。"
+56,"TEXT_STMBDZ902_02858_PAPIN_000_014","それまでに、<If(PlayerParameter(4))>お姉ちゃん<Else/>お兄ちゃん</If>みたいに強くなって、
+家族みんなに、いっぱいお肉を食べさせてあげるんだ！
+ありがとう、また遊びにきてね！"

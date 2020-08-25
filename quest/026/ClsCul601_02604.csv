@@ -1,12 +1,15 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSCUL601_02604_SEQ_00","Lyngsath has a visitor he would like you to meet."
-1,"TEXT_CLSCUL601_02604_SEQ_01","Lyngsath greets you with the news that someone has come calling who wishes to meet the guild's most decorated chef─your good self. Like you, the individual in question is an adventurer-cook, and owing to this he sees you as an inspiration. Take yourself to the Bismarck's dining area and seek out a man named Raulf."
-2,"TEXT_CLSCUL601_02604_SEQ_02","Raulf tells you of his efforts at being an adventurer and culinarian both, but juggling two careers has led to lackluster results. Recognizing his limits, he has resolved to focus purely on the culinary arts and has taken up a post at Rowena's café. In order to distinguish himself in this crowded profession, he intends to incorporate Far Eastern dishes into the menu and cater to the local Doman population. However, he concedes that it is no easy task to master a foreign cuisine, and so he has come to you for aid. If you are willing to lend your expertise, take yourself to Revenant's Toll and seek out Raulf at Rowena's House of Splendors."
-3,"TEXT_CLSCUL601_02604_SEQ_03","Raulf is ecstatic that you have agreed to help him. Using his connections, he will look into what the local Domans desire to eat. Until he identifies a likely dish to test out, continue applying yourself to your craft in readiness for venturing into the culinary unknown.
+0,"TEXT_CLSCUL601_02604_SEQ_00","調理師ギルドのリングサスは、冒険者に紹介したい人がいるようだ。"
+1,"TEXT_CLSCUL601_02604_SEQ_01","前回までの冒険録：
+冒険者は永遠の乙女亭の給仕長メルココに頼まれ、料理長ハ・マシャ・ティアを負かすため、料理大会デルモン・ドールに出場することになった。メルココとの料理探訪を経て、冒険者は見事にデルモン・ドールで史上最高点を叩き出し、優勝するのだった。
+　　　　　　　　　　　　*　*　*
+リングサスから、冒険者のファンだという男が来ていると聞いた。レストラン「ビスマルク」の客席付近にいる「ラルフ」と話そう。"
+2,"TEXT_CLSCUL601_02604_SEQ_02","ラルフと話した。彼は元冒険者であり、調理師として東方料理で名を上げたいという。冒険者はその手伝いを頼まれた。レヴナンツトールのロウェナ記念会館の二階にいる「ラルフ」と話そう。"
+3,"TEXT_CLSCUL601_02604_SEQ_03","ラルフと話した。彼はドマの民が求めている料理を調べるという。料理の幅を広げる好機に向けて、腕を磨いておこう。
 
-※The next culinarian quest will be available from Raulf upon reaching level 63."
+※調理師のレベルが63以上になると、レヴナンツトールのラルフから次の調理師クエストを受注することができます。"
 4,"TEXT_CLSCUL601_02604_SEQ_04",""
 5,"TEXT_CLSCUL601_02604_SEQ_05",""
 6,"TEXT_CLSCUL601_02604_SEQ_06",""
@@ -27,8 +30,8 @@ int32,str,str
 21,"TEXT_CLSCUL601_02604_SEQ_21",""
 22,"TEXT_CLSCUL601_02604_SEQ_22",""
 23,"TEXT_CLSCUL601_02604_SEQ_23",""
-24,"TEXT_CLSCUL601_02604_TODO_00","Speak with Raulf."
-25,"TEXT_CLSCUL601_02604_TODO_01","Speak with Raulf at Revenant's Toll."
+24,"TEXT_CLSCUL601_02604_TODO_00","ラルフと話す"
+25,"TEXT_CLSCUL601_02604_TODO_01","レヴナンツトールのラルフと話す"
 26,"TEXT_CLSCUL601_02604_TODO_02",""
 27,"TEXT_CLSCUL601_02604_TODO_03",""
 28,"TEXT_CLSCUL601_02604_TODO_04",""
@@ -51,23 +54,52 @@ int32,str,str
 45,"TEXT_CLSCUL601_02604_TODO_21",""
 46,"TEXT_CLSCUL601_02604_TODO_22",""
 47,"TEXT_CLSCUL601_02604_TODO_23",""
-48,"TEXT_CLSCUL601_02604_LYNGSATH_000_000","Ah, good timin', <If(PlayerParameter(4))>lass<Else/>lad</If>. There's someone come callin' as wants to meet our most decorated chef.
-...That's <Emphasis>you</Emphasis>, ye daft sod."
-49,"TEXT_CLSCUL601_02604_LYNGSATH_000_001","Yer sickenin' modesty aside, yer visitor says 'e's an adventurer what took up cookin' on that side, not unlike yer good self. Owin' to that, 'e sees ye as somethin' of an inspiration."
-50,"TEXT_CLSCUL601_02604_LYNGSATH_000_002","Anyroad, be a dear an' go an' say 'ello, would ye? Ye'll find 'im out by the dinin' area, a brawny sort o' bloke name o' Raulf."
-51,"TEXT_CLSCUL601_02604_LYNGSATH_000_005","Yer visitor is out by the dinin' area, a brawny sort o' bloke name o' Raulf. Be a dear an' go an' say 'ello."
-52,"TEXT_CLSCUL601_02604_RAULF_000_010","By Rhalgr, it's really you! The famous <Highlight>ObjectParameter(1)</Highlight> in the flesh!"
-53,"TEXT_CLSCUL601_02604_RAULF_000_011","I first heard about you through your adventuring exploits, and I was already plenty impressed. But then I learned that you were a renowned culinarian besides, and I knew that I just had to meet you!"
-54,"TEXT_CLSCUL601_02604_RAULF_000_012","You see, for a time I was also trying to make my way as an adventurer and a culinarian both, but it soon became apparent that I was spreading my limited talent too thin."
-55,"TEXT_CLSCUL601_02604_RAULF_000_013","So I decided to kiss the adventuring life good-bye and took up a post at Miss Rowena's café at Revenant's Toll."
-56,"TEXT_CLSCUL601_02604_RAULF_000_014","The thing is, with or without distractions, it's not easy to succeed as a chef. It's a crowded profession, as I'm sure you can appreciate, and if I'm to make a name for myself, I can't be making what everyone else is making. Nay, I need to venture into unexplored territory."
-57,"TEXT_CLSCUL601_02604_RAULF_000_015","To that end, I came up with a brilliant idea. I'd incorporate Far Eastern dishes into our menu and cater to the Doman residents of Revenant's Toll! Promising, right? Right!"
-58,"TEXT_CLSCUL601_02604_RAULF_000_016","The thing is, brilliant idea or no, it's not easy to learn a foreign cuisine, and Far Eastern is just about as foreign as they come. It's plain I'm going to need help, and of the well-traveled sort. And so I decided to turn to the most accomplished adventuring culinarian I know─you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
-59,"TEXT_CLSCUL601_02604_RAULF_000_017","Now, I realize you're a busy <If(PlayerParameter(4))>woman<Else/>man</If> and we've only just met. If you say no, I won't think ill of you. But if you'd be so kind as to help out a brother, I'll be waiting for you at Revenant's Toll."
-60,"TEXT_CLSCUL601_02604_LYNGSATH_000_019","Bloke's fixin' to serve up Far Eastern dishes, is 'e? Reckon that's a fine opportunity fer ye to expand yer repertoire. If I was you, I'd lend this Raulf a hand."
-61,"TEXT_CLSCUL601_02604_RAULF_000_020","You...you came! I didn't have my hopes up, but you really came! To have the help of an accomplished culinarian like you is a dream come true. Thank the Twelve...and thank you."
-62,"TEXT_CLSCUL601_02604_RAULF_000_021","Without further ado, let's get right to the cooking! ...Is what I'd like to say, but I still need to decide on a Far Eastern dish to test out."
-63,"TEXT_CLSCUL601_02604_RAULF_000_022","If you could wait awhile, I'll look into what the Domans have a hankering for. I have connections so it shouldn't be difficult, but until we have the name of a dish, please feel free to go about your business."
-64,"TEXT_CLSCUL601_02604_RAULF_000_023","Again, allow me to thank you for your help, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. It's a great honor to be able to work with the only person in history to score a perfect ten in the Dellemont d'Or. Though I may not be in the same class as you─not even close─I promise to do the best I can and pull my weight!"
-65,"TEXT_CLSCUL601_02604_SYSTEM_000_025","The next culinarian quest will be available from Raulf upon reaching level 63."
-66,"TEXT_CLSCUL601_02604_SYSTEM_000_026","The requirements for undertaking subsequent quests can be reviewed in your journal."
+48,"TEXT_CLSCUL601_02604_LYNGSATH_000_000","よう、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
+実は、レストラン「ビスマルク」の秘蔵っ子である、
+お前さんに、是非とも会いたいってヤツが来ているんだ。"
+49,"TEXT_CLSCUL601_02604_LYNGSATH_000_001","そいつも、冒険者をやりながら調理師になった口でよ。
+なんでも、お前さんの大ファンらしくて、
+頼みたいことがあるようだ。"
+50,"TEXT_CLSCUL601_02604_LYNGSATH_000_002","「ラルフ」っていう厳つい男なんだが、
+客席の方で待ってるんで、声をかけてやってくれ。"
+51,"TEXT_CLSCUL601_02604_LYNGSATH_000_005","「ラルフ」っていう厳つい男なんだが、
+客席の方で待ってるんで、声をかけてやってくれ。"
+52,"TEXT_CLSCUL601_02604_RAULF_000_010","おお、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん！
+アンタに、ずっと会いたかったんだよ！"
+53,"TEXT_CLSCUL601_02604_RAULF_000_011","アンタの冒険者としての活躍は、ギルドの噂で聞いていたが、
+調理師としても名を上げていると知って、大ファンになったんだ！"
+54,"TEXT_CLSCUL601_02604_RAULF_000_012","俺も冒険者と調理師の二足のわらじを履いていたんだが、
+とてもじゃないが、アンタの足元にも及ばなくてな。
+自分の限界ってやつにぶち当たった……。"
+55,"TEXT_CLSCUL601_02604_RAULF_000_013","そして、思い切って冒険者から足を洗い、調理師だけに絞って、
+レヴナンツトールの、ロウェナさんのカフェテラスで働き始めたんだ。"
+56,"TEXT_CLSCUL601_02604_RAULF_000_014","でも、新人として正攻法でいっても、
+古株の調理師には、いつまでも敵わないだろう？"
+57,"TEXT_CLSCUL601_02604_RAULF_000_015","そこで、レヴナンツトール開拓団のドマ出身者を狙って、
+「東方料理」を採り入れた新メニューを考え、
+名を上げてやろうと思ってるんだ！"
+58,"TEXT_CLSCUL601_02604_RAULF_000_016","だが、俺ひとりじゃ、未知の料理はなかなか難しい……。
+そんなわけで、調理師としても一流の腕を持つ、
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さんに、協力してほしいんだよ。"
+59,"TEXT_CLSCUL601_02604_RAULF_000_017","忙しいアンタのことだ、無理にとは言わない。
+それでも、力を貸してくれるならば、「レヴナンツトール」の、
+ロウェナ記念会館二階にある、調理場まで来てくれ……待ってるぜ！"
+60,"TEXT_CLSCUL601_02604_LYNGSATH_000_019","なるほどな、東方料理を取り入れるってか……。
+それならきっと、お前さんの料理の幅も広がるはずだから、
+是非とも、レヴナンツトールの「ラルフ」に協力してやってくれ。"
+61,"TEXT_CLSCUL601_02604_RAULF_000_020","おお、来てくれたんだな、ありがとう！
+アンタに協力してもらえるなんて、夢のようだ。
+ダメ元だったんだが、頼んでみてよかったよ……。"
+62,"TEXT_CLSCUL601_02604_RAULF_000_021","それじゃあ、さっそく新メニューの開発を……
+と言いたいところだが、最初に挑戦すべき料理を決めかねていてね。"
+63,"TEXT_CLSCUL601_02604_RAULF_000_022","この地にいるドマの民が、どんな料理を求めているのか……
+まずは俺が知り合いのツテを使って、調べてみることにするよ。
+だから、アンタには、また後日ここへ来てもらいたい。"
+64,"TEXT_CLSCUL601_02604_RAULF_000_023","それにしても、まさか本当に、あのデルモンドールで満点を取った、
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さんに、協力してもらえるなんてな……。
+俺も精一杯がんばるんで、どうかよろしくな！"
+65,"TEXT_CLSCUL601_02604_SYSTEM_000_025","「調理師」の新たなクラスクエストが開始されました。
+次のクエストは「レベル63」以上で、
+ロウェナ記念会館のラルフから受注可能です。"
+66,"TEXT_CLSCUL601_02604_SYSTEM_000_026","今後の「調理師」のクラスクエスト受注条件は、
+コンプリート後のジャーナルで確認できます。"

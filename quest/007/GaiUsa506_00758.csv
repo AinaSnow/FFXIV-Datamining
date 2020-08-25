@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSA506_00758_SEQ_00","Hihira would seek your help in her attempt to provide aid to the refugees."
-1,"TEXT_GAIUSA506_00758_SEQ_01","Hihira wants nothing more than to deliver succor to the ill and infirm of Little Ala Mhigo, but has been unable to earn the locals' trust. Deliver medicine to three suffering refugees in her stead."
-2,"TEXT_GAIUSA506_00758_SEQ_02","Despite your best efforts, the willful Ala Mhigans have chosen to prolong their suffering rather than seek succor in Ul'dahn remedies. Report your failure to Hihira."
-3,"TEXT_GAIUSA506_00758_SEQ_03","Hihira is saddened to hear of the Ala Mhigans' refusal, but is not surprised. However, not one to be discouraged, she resolves to continue her efforts."
+0,"TEXT_GAIUSA506_00758_SEQ_00","リトルアラミゴの少女ヒヒラは、冒険者に折り入って頼みごとがあるようだ。"
+1,"TEXT_GAIUSA506_00758_SEQ_01","ヒヒラは、病気のアラミゴ人に薬を配りたいらしい。ヒヒラの代わりに、病気のアラミゴ人3名に「<Sheet(EventItem,2000827,0)/>」を渡そう。"
+2,"TEXT_GAIUSA506_00758_SEQ_02","病気のアラミゴ人たちに<Sheet(EventItem,2000827,0)/>を渡した。リトルアラミゴのヒヒラに報告しよう。"
+3,"TEXT_GAIUSA506_00758_SEQ_03","病気のアラミゴ人は皆、ヒヒラの薬を拒絶してしまった。ヒヒラは彼らと通じ合えるまで、この地で努力を続けるつもりのようだ。"
 4,"TEXT_GAIUSA506_00758_SEQ_04",""
 5,"TEXT_GAIUSA506_00758_SEQ_05",""
 6,"TEXT_GAIUSA506_00758_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSA506_00758_SEQ_21",""
 22,"TEXT_GAIUSA506_00758_SEQ_22",""
 23,"TEXT_GAIUSA506_00758_SEQ_23",""
-24,"TEXT_GAIUSA506_00758_TODO_00","Deliver Hihira's medicine to the suffering refugees."
-25,"TEXT_GAIUSA506_00758_TODO_01","Report to Hihira."
+24,"TEXT_GAIUSA506_00758_TODO_00","病気のアラミゴ人に<Sheet(EventItem,2000827,0)/>を渡す"
+25,"TEXT_GAIUSA506_00758_TODO_01","ヒヒラに報告"
 26,"TEXT_GAIUSA506_00758_TODO_02",""
 27,"TEXT_GAIUSA506_00758_TODO_03",""
 28,"TEXT_GAIUSA506_00758_TODO_04",""
@@ -49,13 +49,28 @@ int32,str,str
 45,"TEXT_GAIUSA506_00758_TODO_21",""
 46,"TEXT_GAIUSA506_00758_TODO_22",""
 47,"TEXT_GAIUSA506_00758_TODO_23",""
-48,"TEXT_GAIUSA506_00758_HIHIRA_000_000","Friend, hear my plea. As you have no doubt observed, many poor souls in this camp suffer from afflictions most grievous. Indeed, it is to deliver them succor that I have made the journey here from Ul'dah."
-49,"TEXT_GAIUSA506_00758_HIHIRA_000_001","And yet, I fear that my efforts thus far have been for naught. The residents are most distrustful of outsiders─particularly those hailing from Ul'dah. They look upon my medicine as if it were poison."
-50,"TEXT_GAIUSA506_00758_HIHIRA_000_002","Were an adventurer such as yourself to deliver the elixir, perhaps they would be willing to accept it. I have no one else to turn to. Will you go in my stead?"
-51,"TEXT_GAIUSA506_00758_BEROLD_000_010","<cough> <wheeze> Me throat... It burns!"
-52,"TEXT_GAIUSA506_00758_BEROLD_000_011","Medicine, ye say? Bah! <cough> I'd sooner drink sandworm piss than that Ul'dahn swill! <wheeze>"
-53,"TEXT_GAIUSA506_00758_OTELIN_000_020","Hurgh... I can't...b-breathe..."
-54,"TEXT_GAIUSA506_00758_OTELIN_000_021","Hah! Another phony elixir cooked up by those...<wheeze>...Ul'dahn quacks? Begone from my sight!"
-55,"TEXT_GAIUSA506_00758_ARCAVIUS_000_030","What is it, outsider? Come to mock us in our suffering? Go ahead and laugh. Laugh to your heart's content."
-56,"TEXT_GAIUSA506_00758_ARCAVIUS_000_031","<spit> That's what I think of you outsiders and your medicine. I'd rather die with dignity than owe my life to Ul'dah."
-57,"TEXT_GAIUSA506_00758_HIHIRA_000_040","No luck, I see. <sigh> Take heart, friend─you did what you could. Age-old wounds are not healed so easily, but I must not give up this cause."
+48,"TEXT_GAIUSA506_00758_HIHIRA_000_000","ここでは多くの方が、病を得ても薬を手に入れられません。
+私はただ、この方たちを助けたい一心で、
+このリトルアラミゴへやってきました。"
+49,"TEXT_GAIUSA506_00758_HIHIRA_000_001","しかし……皆さんの力になりたいのに
+よそ者として疎まれ、なかなか相手にしてもらえません。
+でも、同じよそ者でも冒険者さんなら、もしかして……。"
+50,"TEXT_GAIUSA506_00758_HIHIRA_000_002","どうか私に代わって、薬を配ってきていただけませんか？
+ウルダハの錬金術師ギルドで作られた、
+とても良い薬なんです。"
+51,"TEXT_GAIUSA506_00758_BEROLD_000_010","うう……痛てェ、痛てェよう……。
+楽になりてェ……ううう……。"
+52,"TEXT_GAIUSA506_00758_BEROLD_000_011","ううう……薬だって？
+ど、どうせウルダハで作られたやつだろ。
+……そんなもん飲めるかよ……痛てて。"
+53,"TEXT_GAIUSA506_00758_OTELIN_000_020","ゼェゼェ、胸が……掻きむしられるみたいだ……。
+苦しい……苦しい……。"
+54,"TEXT_GAIUSA506_00758_OTELIN_000_021","……ゼェゼェ、ウルダハの錬金術の薬だと？
+そんなうさん臭い薬、飲めるもんかよ……。"
+55,"TEXT_GAIUSA506_00758_ARCAVIUS_000_030","よそ者が、何の用だ……？
+アラミゴ人が死ぬ姿を見て……笑いに来たか。"
+56,"TEXT_GAIUSA506_00758_ARCAVIUS_000_031","……よそ者の施しなど受けん。
+こんなもの飲むくらいなら、死んだほうがマシだ……。"
+57,"TEXT_GAIUSA506_00758_HIHIRA_000_040","……ああ、やはり駄目でしたか。
+でも、誠意を尽くし続ければ、いつか彼らと通じあえるはず。
+その日が来るまで、私はけっして諦めません！"

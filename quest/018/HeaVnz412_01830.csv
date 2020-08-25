@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNZ412_01830_SEQ_00","Mogomo has the next step of his perfect garden planned."
-1,"TEXT_HEAVNZ412_01830_SEQ_01","Mogomo wants you to get him five kupo nuts so he can grow kupo trees in his garden. Visit Moggzia and ask him if he has any nuts to spare."
-2,"TEXT_HEAVNZ412_01830_SEQ_02","Moggzia has agreed to let you gather kupo nuts for Mogomo. Gather five from the trees that dot the surrounding area."
-3,"TEXT_HEAVNZ412_01830_SEQ_03","You have found five of the most impressively firm and large kupo nuts in Moghome. Bring them to Mogomo, and make sure to handle them with the same delicate attention you would give your own."
-4,"TEXT_HEAVNZ412_01830_SEQ_04","Mogomo is thrilled that his dream garden is one step closer to completion. He wants to eventually trade his kupo nuts to visitors from the surface for their shiny objects and tools."
+0,"TEXT_HEAVNZ412_01830_SEQ_00","モグモグホームのモグモモは、上の方を見上げているようだ。"
+1,"TEXT_HEAVNZ412_01830_SEQ_01","モグモモから<Sheet(EventItem,2001635,0)/>をもらってくるように頼まれた。モグモグホーム付近にいる「モグシア」に頼んでみよう。"
+2,"TEXT_HEAVNZ412_01830_SEQ_02","モグシアに許可をもらった。モグモグホーム付近で<Sheet(EObj,2005684,0)/>から「<Sheet(EventItem,2001635,0)/>」を5個入手しよう。"
+3,"TEXT_HEAVNZ412_01830_SEQ_03","<Sheet(EventItem,2001635,0)/>を入手した。モグモグホームの「モグモモ」に「<Sheet(EventItem,2001635,0)/>」を渡そう。"
+4,"TEXT_HEAVNZ412_01830_SEQ_04","モグモモに<Sheet(EventItem,2001635,0)/>を渡した。いつの日か、人が大勢この地を訪れるようになったとき、地上の珍しいものと、モグモモの育てた<Sheet(EventItem,2001635,0)/>を交換したいと考えているようだ。"
 5,"TEXT_HEAVNZ412_01830_SEQ_05",""
 6,"TEXT_HEAVNZ412_01830_SEQ_06",""
 7,"TEXT_HEAVNZ412_01830_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_HEAVNZ412_01830_SEQ_21",""
 22,"TEXT_HEAVNZ412_01830_SEQ_22",""
 23,"TEXT_HEAVNZ412_01830_SEQ_23",""
-24,"TEXT_HEAVNZ412_01830_TODO_00","Speak with Moggzia."
-25,"TEXT_HEAVNZ412_01830_TODO_01","Pick kupo nuts from the kupo trees."
-26,"TEXT_HEAVNZ412_01830_TODO_02","Deliver the kupo nuts to Mogomo."
+24,"TEXT_HEAVNZ412_01830_TODO_00","モグシアと話す"
+25,"TEXT_HEAVNZ412_01830_TODO_01","<Sheet(EObj,2005684,0)/>から<Sheet(EventItem,2001635,0)/>を入手"
+26,"TEXT_HEAVNZ412_01830_TODO_02","モグモモに<Sheet(EventItem,2001635,0)/>を渡す"
 27,"TEXT_HEAVNZ412_01830_TODO_03",""
 28,"TEXT_HEAVNZ412_01830_TODO_04",""
 29,"TEXT_HEAVNZ412_01830_TODO_05",""
@@ -49,13 +49,29 @@ int32,str,str
 45,"TEXT_HEAVNZ412_01830_TODO_21",""
 46,"TEXT_HEAVNZ412_01830_TODO_22",""
 47,"TEXT_HEAVNZ412_01830_TODO_23",""
-48,"TEXT_HEAVNZ412_01830_MOGOMO_000_000","Moghome's upper layer is bathed in sunlight─that's why the kupo trees grow lush and leafy. I think a few would look perfect in my garden!"
-49,"TEXT_HEAVNZ412_01830_MOGOMO_000_001","I only want the best trees─and that means the best kupo nuts! Moggzia tends to the greenery up top. Ask him if he can part with some─five should be enough, kupo!"
-50,"TEXT_HEAVNZ412_01830_MOGOMO_000_010","Only kupo nuts of the highest quality are worth planting in <Emphasis>my</Emphasis> garden. Ask Moggzia if he knows where we could get any."
-51,"TEXT_HEAVNZ412_01830_MOGGZIA_000_020","Ah...so Mogomo is in need of kupo nuts? He <Emphasis>has</Emphasis> been a good friend... Very well, take as many as you need─just pick them straight off the branches, kupo."
-52,"TEXT_HEAVNZ412_01830_MOGGZIA_000_030","Kupo trees grow all around this area, you simply need to pluck any ripe nuts from their branches, kupo."
-53,"TEXT_HEAVNZ412_01830_MOGOMO_000_031","The kupo nuts make the tree, and I desire only the best. I trust you to find the biggest nuts you can!"
-54,"TEXT_HEAVNZ412_01830_MOGGZIA_000_040","Were you able to find satisfactory kupo nuts? The ones hanging from these trees are the best Moghome has to offer."
-55,"TEXT_HEAVNZ412_01830_MOGOMO_000_050","I know Moggzia will pull through in providing only the best! Were you able to find the nuts I require?"
-56,"TEXT_HEAVNZ412_01830_MOGOMO_000_051","My thanks! I couldn't have picked firmer kupo nuts myself. The trees which sprout from these will be the envy of gardeners everywhere."
-57,"TEXT_HEAVNZ412_01830_MOGOMO_000_052","One day people from the surface will visit Moghome in numbers like never before, bringing shiny tools and other sundries I can barely imagine. On that day, I'll show them my glorious kupo nuts and they'll have no choice but to trade for my superior product. Just you wait, kupo!"
+48,"TEXT_HEAVNZ412_01830_MOGOMO_000_000","モグモグホームの上の方は、日当たりが良いくぽ。
+だから、良い<Sheet(EObj,2005684,0)/>が育つくぽ。
+モグモモも、良い<Sheet(EObj,2005684,0)/>を育てたいくぽ！"
+49,"TEXT_HEAVNZ412_01830_MOGOMO_000_001","良い木の実なら、立派に育つに違いないくぽ。
+モグシアから「<Sheet(EventItem,2001635,0)/>」を5個ほど、
+もらってきてほしいくぽ！"
+50,"TEXT_HEAVNZ412_01830_MOGOMO_000_010","良い木の実なら、立派に育つに違いないくぽ。
+モグシアから「<Sheet(EventItem,2001635,0)/>」を5個ほど、
+もらってきてほしいくぽ！"
+51,"TEXT_HEAVNZ412_01830_MOGGZIA_000_020","モグモモが「<Sheet(EventItem,2001635,0)/>」をほしがってるくぽ？
+わかったくぽ、<Sheet(EObj,2005684,0)/>から持っていっていいくぽ～。"
+52,"TEXT_HEAVNZ412_01830_MOGGZIA_000_030","モグモモが「<Sheet(EventItem,2001635,0)/>」をほしがってるくぽ？
+わかったくぽ、<Sheet(EObj,2005684,0)/>から持っていっていいくぽ～。"
+53,"TEXT_HEAVNZ412_01830_MOGOMO_000_031","良い木の実なら、立派に育つに違いないくぽ。
+モグシアから「<Sheet(EventItem,2001635,0)/>」を5個ほど、
+もらってきてほしいくぽ！"
+54,"TEXT_HEAVNZ412_01830_MOGGZIA_000_040","モグモモが「<Sheet(EventItem,2001635,0)/>」をほしがってるくぽ？
+わかったくぽ、<Sheet(EObj,2005684,0)/>から持っていっていいくぽ～。"
+55,"TEXT_HEAVNZ412_01830_MOGOMO_000_050","良い木の実なら、立派に育つに違いないくぽ。
+モグシアから「<Sheet(EventItem,2001635,0)/>」を5個ほど、
+もらってきてほしいくぽ！"
+56,"TEXT_HEAVNZ412_01830_MOGOMO_000_051","ありがとうくぽ！　良い<Sheet(EventItem,2001635,0)/>くぽ！
+これなら、良い<Sheet(EObj,2005684,0)/>が育ちそうくぽ。"
+57,"TEXT_HEAVNZ412_01830_MOGOMO_000_052","いつか、ヒトが大勢ここに訪れるようになったら、
+地上の珍しいものと、
+モグが育ててる実を交換してもらうくぽ～！"

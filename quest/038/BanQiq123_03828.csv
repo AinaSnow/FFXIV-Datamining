@@ -1,10 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANQIQ123_03828_SEQ_00","Qhoterl Pasol, ever the compassionate overseer, would see that her workers have full bellies.
+0,"TEXT_BANQIQ123_03828_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト受注クラス・ジョブ制限<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+※本クエストは受注時のクラスでのみ進行します。
 
-※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
-1,"TEXT_BANQIQ123_03828_SEQ_01","Deliver the requested supplies to Qhoterl Pasol."
+ホパル古盤のコテルリ・パソリは、発掘隊員の体調を心配しているようだ。"
+1,"TEXT_BANQIQ123_03828_SEQ_01","コテルリ・パソリに依頼された品を納品"
 2,"TEXT_BANQIQ123_03828_SEQ_02",""
 3,"TEXT_BANQIQ123_03828_SEQ_03",""
 4,"TEXT_BANQIQ123_03828_SEQ_04",""
@@ -27,7 +28,7 @@ int32,str,str
 21,"TEXT_BANQIQ123_03828_SEQ_21",""
 22,"TEXT_BANQIQ123_03828_SEQ_22",""
 23,"TEXT_BANQIQ123_03828_SEQ_23",""
-24,"TEXT_BANQIQ123_03828_TODO_00","<If(Equal(IntegerParameter(4),16))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Mine a splendid worm <Sheet(Addon,9,0)/> in the Blind Forest of Yx'Maja<Else/>Deliver the splendid worm <Sheet(Addon,9,0)/> to Qhoterl Pasol</If><Else/><If(Equal(IntegerParameter(4),17))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Gather a splendid beehive chip <Sheet(Addon,9,0)/> in the Blind Forest of Yx'Maja<Else/>Deliver the splendid beehive chip <Sheet(Addon,9,0)/> to Qhoterl Pasol</If><Else/><If(Equal(IntegerParameter(4),18))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Catch a splendid egg-bearing trout at the Red Chalice<Else/>Deliver the splendid egg-bearing trout to Qhoterl Pasol</If><Else/></If></If></If>."
+24,"TEXT_BANQIQ123_03828_TODO_00","<If(Equal(IntegerParameter(4),16))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>イキス・マヤエの森の採掘場で<Sheet(Item,IntegerParameter(5),0)/>を採掘<Else/>コテルリ・パソリに<Sheet(Item,IntegerParameter(5),0)/>を納品</If><Else/><If(Equal(IntegerParameter(4),17))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>イキス・マヤエの森の草刈場で<Sheet(Item,IntegerParameter(5),0)/>を草刈<Else/>コテルリ・パソリに<Sheet(Item,IntegerParameter(5),0)/>を納品</If><Else/><If(Equal(IntegerParameter(4),18))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>血の酒坏付近で<Sheet(Item,IntegerParameter(5),0)/>を釣る<Else/>コテルリ・パソリに<Sheet(Item,IntegerParameter(5),0)/>を納品</If><Else/></If></If></If>"
 25,"TEXT_BANQIQ123_03828_TODO_01",""
 26,"TEXT_BANQIQ123_03828_TODO_02",""
 27,"TEXT_BANQIQ123_03828_TODO_03",""
@@ -51,15 +52,35 @@ int32,str,str
 45,"TEXT_BANQIQ123_03828_TODO_21",""
 46,"TEXT_BANQIQ123_03828_TODO_22",""
 47,"TEXT_BANQIQ123_03828_TODO_23",""
-48,"TEXT_BANQIQ123_03828_QHOTERLPASOL_000_000","Under the great serpent's auspices, we've been able to treat a range of common diseases. However, prevention is worth a ponze of cure, and so I mean to do all within my power to ensure our workers are in tip-top shape."
-49,"TEXT_BANQIQ123_03828_QHOTERLPASOL_000_001","Our workers venture daily into the unknown and risk life and limb in the pursuit of our shared history. Needless to say, it is of the utmost importance that they remain hale and hearty. After all, we won't make much progress if our workers are dropping like flies! "
-50,"TEXT_BANQIQ123_03828_QHOTERLPASOL_000_002","To that end, I plan on cooking up something that will fortify their bodies against the most persistent of ailments. Would you aid me in gathering the ingredients I require?"
-51,"TEXT_BANQIQ123_03828_QHOTERLPASOL_000_003","The rocks dotting the Blind Forest of Yx'Maja may not themselves be edible, but the worms which make their homes in them are practically meals unto themselves! They would make a splendid feast for my workers, and for myself besides!"
-52,"TEXT_BANQIQ123_03828_QHOTERLPASOL_000_004","The lush woods of the Blind Forest of Yx'Maja are a bounty of nutritious plants and delectable treats. The honey from beehive chips can help the body stave off an otherwise debilitating illness."
-53,"TEXT_BANQIQ123_03828_QHOTERLPASOL_000_005","The Red Chalice is brimming with wildlife both dangerous and nourishing. Let's stick with the latter and go fishing, eh? Some trout should suffice─their eggs are said to bolster the mind and gird the body. Don't forget to bring fruit worms!"
-54,"TEXT_BANQIQ123_03828_QHOTERLPASOL_000_006","Hurry off to the Blind Forest of Yx'Maja. Or go leisurely, so long as you return with worms!"
-55,"TEXT_BANQIQ123_03828_QHOTERLPASOL_000_007","The Blind Forest of Yx'Maja awaits with its bounty. Take your fill, so long as you return with some beehive chips for me!"
-56,"TEXT_BANQIQ123_03828_QHOTERLPASOL_000_008","No need to face down snarling fiends today, my friend. Simply pluck a trout plump with eggs from the waters of the Red Chalice and bring it here. Don't expect to catch anything without fruit worms, however!"
-57,"TEXT_BANQIQ123_03828_QHOTERLPASOL_000_010","There you are! Did you have any trouble procuring the ingredients I requested?"
-58,"TEXT_BANQIQ123_03828_QHOTERLPASOL_000_011","Ah, I feel reinvigorated just by looking at such a splendid specimen! Whatever it is I end up cooking out of this, I aim to make it the talk of the camp!"
-59,"TEXT_BANQIQ123_03828_SYSTEM_000_020","Normal-quality items gathered in the course of this quest serve no purpose and cannot be sold. It is recommended that you discard them."
+48,"TEXT_BANQIQ123_03828_QHOTERLPASOL_000_000","水蛇様のお導きにより、此度は病を治めることができました～。
+……でありまするが、日頃からきちんと栄養を摂取し、
+病に負けぬ身体を作ることが、肝要なのでございましょ～！"
+49,"TEXT_BANQIQ123_03828_QHOTERLPASOL_000_001","発掘隊は、常に未知なる危険と隣り合わせでございまする～。
+……でありますれば、日頃からきちんと栄養を摂取し、
+丈夫な身体を作ることが、肝要なのでございましょ～！"
+50,"TEXT_BANQIQ123_03828_QHOTERLPASOL_000_002","つきましては、どうか発掘隊の健康と滋養強壮のために、
+栄養価の高い食材を採ってきてくださいましな～！"
+51,"TEXT_BANQIQ123_03828_QHOTERLPASOL_000_003","イキス・マヤエの森の岩を掘れば、
+「<Sheet(ItemHQ,29534,0)/>」がにょろりと出てくることでしょ～。
+栄養満点で味も良く、キタリ族のご馳走でございまする～！"
+52,"TEXT_BANQIQ123_03828_QHOTERLPASOL_000_004","イキス・マヤエの森の草刈場には、
+「<Sheet(ItemHQ,29560,0)/>」が、作られることがございましょ～。
+巣から採れるローヤルゼリーは、免疫を高める効果がありまする～！"
+53,"TEXT_BANQIQ123_03828_QHOTERLPASOL_000_005","血の酒坏あたりで、<Sheet(Item,27582,0)/>などの餌を使って、
+「<Sheet(Item,29586,0)/>」を釣り上げてくださいましな～。
+雌の卵には、豊富な栄養素が詰まっているのでございまする～！"
+54,"TEXT_BANQIQ123_03828_QHOTERLPASOL_000_006","イキス・マヤエの森の岩を掘って、
+「<Sheet(ItemHQ,29534,0)/>」を採ってきてくださいましな～。"
+55,"TEXT_BANQIQ123_03828_QHOTERLPASOL_000_007","イキス・マヤエの森の草刈場で、
+「<Sheet(ItemHQ,29560,0)/>」を採ってきてくださいましな～。"
+56,"TEXT_BANQIQ123_03828_QHOTERLPASOL_000_008","血の酒坏あたりで、
+「<Sheet(Item,29586,0)/>」を釣り上げてくださいましな～。
+<Sheet(Item,27582,0)/>などの釣り餌が最適でございましょ～。"
+57,"TEXT_BANQIQ123_03828_QHOTERLPASOL_000_010","おつかれさまでございまする～。
+栄養価の高い食材は、調達していただけましたでしょか～？"
+58,"TEXT_BANQIQ123_03828_QHOTERLPASOL_000_011","これはなんと立派な食材、申し分もございませぬ～！
+さっそく美味しく調理して、体力と免疫力をつけてもらわねば～。
+ご協力に感謝いたしまする～！"
+59,"TEXT_BANQIQ123_03828_SYSTEM_000_020","本クエストで採取した「NQアイテム」を所持しています。
+このアイテムは、使用することはありません。
+売却もできませんので、不用でしたら破棄してください。"

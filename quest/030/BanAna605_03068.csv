@@ -1,9 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANANA605_03068_SEQ_00","Eshana requests your help with preparing a balm for the infirmary.
+0,"TEXT_BANANA605_03068_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト受注クラス・ジョブ制限<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+※本クエストは受注時のクラス・ジョブでのみ進行します。
 
-※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
+カステッルム・ベロジナのエシャナは、蓄えておきたいものがあるようだ。"
 1,"TEXT_BANANA605_03068_SEQ_01",""
 2,"TEXT_BANANA605_03068_SEQ_02",""
 3,"TEXT_BANANA605_03068_SEQ_03",""
@@ -27,8 +28,8 @@ int32,str,str
 21,"TEXT_BANANA605_03068_SEQ_21",""
 22,"TEXT_BANANA605_03068_SEQ_22",""
 23,"TEXT_BANANA605_03068_SEQ_23",""
-24,"TEXT_BANANA605_03068_TODO_00","Obtain chunks of mudstone from Mirage Creek."
-25,"TEXT_BANANA605_03068_TODO_01","Deliver the chunks of mudstone to Eshana."
+24,"TEXT_BANANA605_03068_TODO_00","ミラージュクリークで<Sheet(EventItem,2002454,0)/>を入手"
+25,"TEXT_BANANA605_03068_TODO_01","エシャナに<Sheet(EventItem,2002454,0)/>を渡す"
 26,"TEXT_BANANA605_03068_TODO_02",""
 27,"TEXT_BANANA605_03068_TODO_03",""
 28,"TEXT_BANANA605_03068_TODO_04",""
@@ -51,10 +52,21 @@ int32,str,str
 45,"TEXT_BANANA605_03068_TODO_21",""
 46,"TEXT_BANANA605_03068_TODO_22",""
 47,"TEXT_BANANA605_03068_TODO_23",""
-48,"TEXT_BANANA605_03068_ESHANA_000_000","Greetings, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. No pressing emergencies at the moment, but the infirmary could use a hand if you're willing."
-49,"TEXT_BANANA605_03068_ESHANA_000_001","There's a problem with bugs, you sssee─the biting, ssstinging kind. Our sssentries finish their watches covered in weltsss, and we cannot ignore the effect thisss may have on morale."
-50,"TEXT_BANANA605_03068_ESHANA_000_002","Even the ssstrongest incense won't keep all the insssects away, but mudssstone can be ground into a passste that sssoothes the worssst of the itching. Might you bring me three or ssso chunksss? You'll find despositsss of the ssstuff in the waters of Mirage Creek."
-51,"TEXT_BANANA605_03068_ESHANA_000_010","Were you able to locate any mudssstone depositsss?"
-52,"TEXT_BANANA605_03068_ESHANA_000_011","Yesss, these should do nicely. Once applied, the balm worksss to alleviate any irritation almossst immediately."
-53,"TEXT_BANANA605_03068_ESHANA_000_012","It is a traditional remedy of ours, passed down through generations."
-54,"TEXT_BANANA605_03068_ESHANA_000_013","We do alssso have an alchemical sssalve made by your people which heals the bites themssselves, but it is in short sssupply. I would rather sssave it for the mossst sssevere cases, and rely on mudssstone for daily use."
+48,"TEXT_BANANA605_03068_ESHANA_000_000","シュー……同志よ、よくぞ訪ねてくれた。
+今回は、医療施設の手助けを願いたい。"
+49,"TEXT_BANANA605_03068_ESHANA_000_001","この近辺には羽虫が多くてな。
+昼夜警備に立たなければならない隊士にとっては、
+虫刺されによる皮膚の炎症は、軽視できない問題なのだ。"
+50,"TEXT_BANANA605_03068_ESHANA_000_002","そこで、ミラージュクリークの川沿いでよく見かける、
+「<Sheet(EventItem,2002454,0)/>」を3個採ってきてほしい。
+あれを水で溶いて患部に塗ると、炎症が治まるのでな。"
+51,"TEXT_BANANA605_03068_ESHANA_000_010","シュー……同志よ、ご苦労だった。
+水辺をうろつき、さぞや冷えたであろうが、
+「<Sheet(EventItem,2002454,0)/>」は、見つけられたか？"
+52,"TEXT_BANANA605_03068_ESHANA_000_011","ありがとう、よくぞ見つけてきてくれた。
+これで、軽度な炎症ならば、すぐに癒せるだろう。"
+53,"TEXT_BANANA605_03068_ESHANA_000_012","泥岩を使った治療法は、
+我らアナンタに古くから伝わる、伝統的なものでな。"
+54,"TEXT_BANANA605_03068_ESHANA_000_013","ヒトが考案した錬金薬のほうが治りは早いが、備蓄が少ない。
+より重い症状が出たときに備え、温存しておきたいゆえ、
+アナンタの知による治療法も併用し、対処しているのだ。"

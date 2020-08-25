@@ -1,8 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKZC018_03401_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-The art-loving pixie has something to show you."
+0,"TEXT_LUCKZC018_03401_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+リダ・ラーンにいる絵画好きのピクシーは、冒険者にお願いがあるようだ。"
 1,"TEXT_LUCKZC018_03401_SEQ_01",""
 2,"TEXT_LUCKZC018_03401_SEQ_02",""
 3,"TEXT_LUCKZC018_03401_SEQ_03",""
@@ -26,9 +26,9 @@ The art-loving pixie has something to show you."
 21,"TEXT_LUCKZC018_03401_SEQ_21",""
 22,"TEXT_LUCKZC018_03401_SEQ_22",""
 23,"TEXT_LUCKZC018_03401_SEQ_23",""
-24,"TEXT_LUCKZC018_03401_TODO_00","Find the location portrayed in the drawing of bathing leafmen."
-25,"TEXT_LUCKZC018_03401_TODO_01","Find the location portrayed in the drawing of gathered leafmen."
-26,"TEXT_LUCKZC018_03401_TODO_02","Report to the art-loving pixie."
+24,"TEXT_LUCKZC018_03401_TODO_00","「<Sheet(EventItem,2002593,0)/>」をヒントに絵が描かれた場所を探す"
+25,"TEXT_LUCKZC018_03401_TODO_01","「<Sheet(EventItem,2002592,0)/>」をヒントに絵が描かれた場所を探す"
+26,"TEXT_LUCKZC018_03401_TODO_02","絵画好きのピクシーと話す"
 27,"TEXT_LUCKZC018_03401_TODO_03",""
 28,"TEXT_LUCKZC018_03401_TODO_04",""
 29,"TEXT_LUCKZC018_03401_TODO_05",""
@@ -50,21 +50,40 @@ The art-loving pixie has something to show you."
 45,"TEXT_LUCKZC018_03401_TODO_21",""
 46,"TEXT_LUCKZC018_03401_TODO_22",""
 47,"TEXT_LUCKZC018_03401_TODO_23",""
-48,"TEXT_LUCKZC018_03401_SYSTEM_000_000","Should you choose to undertake this quest, know that guidance from the journal, duty list, and map will be limited. You will need to read the text carefully and decipher the clues to determine your course of action."
-49,"TEXT_LUCKZC018_03401_PIXIE03401_000_001","Mortal, mortal, look at this book I found! Unlike the boring ones in Urianger's home, this one has lots of pictures in it!"
-50,"TEXT_LUCKZC018_03401_PIXIE03401_000_002","There're two pictures that I like especially. They have the most <Emphasis>adorable</Emphasis> leafmen in them! See?"
-51,"TEXT_LUCKZC018_03401_SYSTEM_100_002","The pictures appear to depict locales in Il Mheg."
-52,"TEXT_LUCKZC018_03401_PIXIE03401_000_003","I really, really want to find these leafmen, but I haven't had any luck."
-53,"TEXT_LUCKZC018_03401_PIXIE03401_000_103","If I lend you the pictures, do you think you could search for me? There'll be a reward in it for you!"
-54,"TEXT_LUCKZC018_03401_SYSTEM_000_004","Refer to the pictures of the leafmen to find the locations they portray."
-55,"TEXT_LUCKZC018_03401_PIXIE03401_000_005","If you manage to track down the leafmen in the pictures, come and let me know. There'll be a reward in it for you!"
-56,"TEXT_LUCKZC018_03401_SYSTEM_000_010","You find the location portrayed in the picture of the gathered leafmen."
-57,"TEXT_LUCKZC018_03401_SYSTEM_000_011","On closer inspection, you see words scrawled along the border of the picture..."
-58,"TEXT_LUCKZC018_03401_SYSTEM_000_012","“Such lifelike topiary. I half expect the leafy participants of this gathering to burst into conversation at any moment. Yet out in this wilderness, by whose hands are they being so meticulously maintained?”"
-59,"TEXT_LUCKZC018_03401_SYSTEM_000_013","You find the location portrayed in the picture of the bathing leafmen."
-60,"TEXT_LUCKZC018_03401_SYSTEM_000_014","On closer inspection, you see words scrawled along the border of the picture..."
-61,"TEXT_LUCKZC018_03401_SYSTEM_000_015","“I came upon topiary at the water, appearing as if bathing. Nearby, there lay a fishing rod, worn and weathered. For a moment my mind went to a dark place, but surely it is but a coincidence. Surely...”"
-62,"TEXT_LUCKZC018_03401_PIXIE03401_000_020","You found the leafmen in the pictures? Wonderful! I can't wait to see them with my own eyes!"
-63,"TEXT_LUCKZC018_03401_PIXIE03401_000_021","Let me tell you, it's not easy to make them so lifelike. You must cast the enchantment on mortals completely unawares, else you're liable to end up with disappointing results."
-64,"TEXT_LUCKZC018_03401_PIXIE03401_000_022","Why, when I tried to sneak up on the owner of the book, he noticed me and promptly ran off. And now I've got a leafman frozen mid-stride with his mouth split open in terror. Not a pretty sight."
-65,"TEXT_LUCKZC018_03401_PIXIE03401_000_023","Oh, but before I forget, here is your reward as promised. Now, if you'll excuse me, I have some leafmen to play with!"
+48,"TEXT_LUCKZC018_03401_SYSTEM_000_000","本クエストは「探索型クエスト」です。
+進行中、ジャーナルや目的リストや地図に、
+ヒントが表示されない場合があります。"
+49,"TEXT_LUCKZC018_03401_PIXIE03401_000_001","ねえねえ、ワタシの話も聞いてぇ～！
+草人の近くに、絵が描いてある、薄い本を見つけたの！
+ええっと、確か「スケッチブック」って言うやつよ！"
+50,"TEXT_LUCKZC018_03401_PIXIE03401_000_002","そこにね、とってもかわいい、草人の絵が描いてあったんだぁ！
+どの草人を描いたのか、ずーっと探してるんだけど、
+なかなか見つからないの……。"
+51,"TEXT_LUCKZC018_03401_SYSTEM_100_002","絵画好きのピクシーが差し出した絵には、
+イル・メグの風景が描かれている。"
+52,"TEXT_LUCKZC018_03401_PIXIE03401_000_003","だからね、ワタシが見つけた絵を見せてあげるから、
+絵に描かれた「草人」を探してきて！"
+53,"TEXT_LUCKZC018_03401_PIXIE03401_000_103","探し出せたら、「リダ・ラーン」まで来てね。
+にひひ……見つけたら、素敵なご褒美もあげちゃうよ！"
+54,"TEXT_LUCKZC018_03401_SYSTEM_000_004","「<Sheet(EventItem,2002592,0)/>」と「<Sheet(EventItem,2002593,0)/>」を使用し、
+表示された場所をヒントに、絵が「描かれた場所」を探しだそう。"
+55,"TEXT_LUCKZC018_03401_PIXIE03401_000_005","絵に描かれた「草人」を探してきて！
+にひひ……見つけたら、素敵なご褒美もあげちゃうよ！"
+56,"TEXT_LUCKZC018_03401_SYSTEM_000_010","「<Sheet(EventItem,2002592,0)/>」が描かれた場所を見つけた！"
+57,"TEXT_LUCKZC018_03401_SYSTEM_000_011","……スケッチの端に、走り書きがあることに気が付いた。"
+58,"TEXT_LUCKZC018_03401_SYSTEM_000_012","『妙に生々しいトピアリーだ。
+　集会する人々のようにも見えるが、
+　いったい誰が刈り込み、形を整えたのだろう？』"
+59,"TEXT_LUCKZC018_03401_SYSTEM_000_013","「<Sheet(EventItem,2002593,0)/>」が描かれた場所を見つけた！"
+60,"TEXT_LUCKZC018_03401_SYSTEM_000_014","……スケッチの端に、走り書きがあることに気が付いた。"
+61,"TEXT_LUCKZC018_03401_SYSTEM_000_015","『水浴びをしているかのようなトピアリーを見つけた。
+　そのそばに、朽ちた釣り竿を見つけたが、まさか……』"
+62,"TEXT_LUCKZC018_03401_PIXIE03401_000_020","見つけたみたいね、やった～！
+あんな風にいきいきとした草人を作るのは、すっごく難しいんだよ。"
+63,"TEXT_LUCKZC018_03401_PIXIE03401_000_021","ヒトに気付かれないよう近づいて、
+パッと魔法をかけてあげないといけないんだもん。"
+64,"TEXT_LUCKZC018_03401_PIXIE03401_000_022","この前、絵を描いているヒトを草人にしてあげたときは、
+そっと近づいたのに見つかっちゃったんだ。
+逃げ回られて大変だったんだよ～！"
+65,"TEXT_LUCKZC018_03401_PIXIE03401_000_023","そうそう、はいこれ、約束の素敵なご褒美！
+それじゃあワタシは、キミが見つけてくれた草人と遊んでくるね！"

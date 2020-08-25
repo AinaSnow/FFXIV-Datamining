@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBWIL074_00388_SEQ_00","Aethelgyth is concerned for the welfare of a fellow sentry."
-1,"TEXT_SUBWIL074_00388_SEQ_01","Although Aethelgyth knows Osbert is injured, the stubborn sentry refuses to admit anything to her. Believing he might more readily accept aid from a stranger, she bids you offer him a hi-potion, which can be purchased from a merchant nearby."
-2,"TEXT_SUBWIL074_00388_SEQ_02","As Aethelgyth suspected, Osbert was more receptive to your offer of assistance, taking your hi-potion with only a slight show of defiance. Perhaps next time he will take more care when practicing his mummer's tricks."
+0,"TEXT_SUBWIL074_00388_SEQ_00","ブラックブラッシュ停留所の鉄灯団員エーセルギスは、近くにいる銅刃団のオスベルトに、<Sheet(Item,　4552,0)/>を買ってやってほしいようだ。"
+1,"TEXT_SUBWIL074_00388_SEQ_01","エーセルギスがオスベルトに尋ねても、オスベルトは自分の怪我の理由を語らないらしい。エーセルギスの代わりに「<Sheet(Item,　4552,0)/>」をショップで購入し、「オスベルト」に渡してあげよう。"
+2,"TEXT_SUBWIL074_00388_SEQ_02","<Sheet(Item,　4552,0)/>を渡すと、オスベルトは暇つぶしに鉱石を頭上に投げた所、受け止め損ねて怪我をしたのだと口を滑らせる。怪我の理由を秘密にしたがるのも納得だ……。"
 3,"TEXT_SUBWIL074_00388_SEQ_03",""
 4,"TEXT_SUBWIL074_00388_SEQ_04",""
 5,"TEXT_SUBWIL074_00388_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_SUBWIL074_00388_SEQ_21",""
 22,"TEXT_SUBWIL074_00388_SEQ_22",""
 23,"TEXT_SUBWIL074_00388_SEQ_23",""
-24,"TEXT_SUBWIL074_00388_TODO_00","Offer a hi-potion to Osbert."
+24,"TEXT_SUBWIL074_00388_TODO_00","オスベルトに<Sheet(Item,　4552,0)/>を渡す"
 25,"TEXT_SUBWIL074_00388_TODO_01",""
 26,"TEXT_SUBWIL074_00388_TODO_02",""
 27,"TEXT_SUBWIL074_00388_TODO_03",""
@@ -49,21 +49,35 @@ int32,str,str
 45,"TEXT_SUBWIL074_00388_TODO_21",""
 46,"TEXT_SUBWIL074_00388_TODO_22",""
 47,"TEXT_SUBWIL074_00388_TODO_23",""
-48,"TEXT_SUBWIL074_00388_AETHELGYTH_000_01","See that bloke over there? Name's Osbert, an' he's hurt bad."
-49,"TEXT_SUBWIL074_00388_AETHELGYTH_000_02","Now, it ain't exactly my job to mind his business─I'm a Torch, he's a Blade. But at the end of the day we're both people, you know what I'm sayin'?"
-50,"TEXT_SUBWIL074_00388_AETHELGYTH_000_03","Anyroad, I went over to him just earlier, asked what's wrong. But he refuses to tell me, the stubborn bugger. Seems his pride's more important to him than his life. What is it with men an' actin' tough?"
-51,"TEXT_SUBWIL074_00388_AETHELGYTH_000_04","I tell myself I've tried, but if the fella ends up kickin' the bucket... I don't want that on my conscience. I know this is sudden, but could you try an' talk him into drinkin' a hi-potion? I'd sleep a deal better for it. I ain't got one on me, but one o' 'em fellas over yonder sells 'em."
-52,"TEXT_SUBWIL074_00388_OSBERT_000_10","Breathe, Osbert old boy, just breathe. Pain is just weakness leaving the─<Emphasis>godsdammit</Emphasis>, my head! If only I had saved a hi-potion. I think this might be the end..."
-53,"TEXT_SUBWIL074_00388_OSBERT_000_11","Well, I...I don't really <Emphasis>need</Emphasis> this, but if you insist. You have my thanks, adventurer."
-54,"TEXT_SUBWIL074_00388_OSBERT_000_12","I was resigned to suffering in silence, for I, Osbert the Undying, veteran of countless battles, could not afford to show weakness to my colleagues and our allies. They look to me for inspiration, you see."
-55,"TEXT_SUBWIL074_00388_OSBERT_000_13","To think that I was almost brought low by a gentle blow to the head! Hah hah hah! I was only incapacitated for a few moments...I think."
-56,"TEXT_SUBWIL074_00388_OSBERT_000_14","To repay you for your discretion in this delicate matter, I shall share with you my warrior's wisdom:"
-57,"TEXT_SUBWIL074_00388_OSBERT_000_15","If you must practice your juggling, use heavy stones at your own peril."
-58,"TEXT_SUBWIL074_00388_TALK_SCENE00000_000",""
-59,"TEXT_SUBWIL074_00388_TALK_SCENE00000_001",""
-60,"TEXT_SUBWIL074_00388_TALK_SCENE00000_002",""
-61,"TEXT_SUBWIL074_00388_TALK_SCENE00000_003",""
-62,"TEXT_SUBWIL074_00388_TALK_SCENE00001_000",""
-63,"TEXT_SUBWIL074_00388_TALK_SCENE00001_001",""
-64,"TEXT_SUBWIL074_00388_TALK_SCENE00001_002",""
-65,"TEXT_SUBWIL074_00388_TALK_SCENE00001_003",""
+48,"TEXT_SUBWIL074_00388_AETHELGYTH_000_01","すぐそこに、銅刃団のオスベルトってのがいるんだけどさ。
+アイツなんか怪我してるみたいなのよ。"
+49,"TEXT_SUBWIL074_00388_AETHELGYTH_000_02","鉄灯団と銅刃団って、上も違うし警備範囲も違うから、
+別に特別仲がいいって訳でもないんだけどさ、
+アイツ友達もいなさそうだし、不憫なのよね。"
+50,"TEXT_SUBWIL074_00388_AETHELGYTH_000_03","でもアイツ、私が話しかけても無視すんのよ、感じ悪い。
+怪我は男の勲章なんだから、恥ずかしがる必要ないのにね。"
+51,"TEXT_SUBWIL074_00388_AETHELGYTH_000_04","アンタみたいな赤の他人だったら話せるかもしれないわ。
+悪いんだけど「<Sheet(Item,　4552,0)/>」を買って、
+「オスベルト」に渡してあげてくれない？"
+52,"TEXT_SUBWIL074_00388_OSBERT_000_10","あーいたたたたたたっ……
+ぐぬぬ、<Sheet(Item,　4552,0)/>さえあればこんな怪我……。
+この不死身のオスベルト、一生の不覚である……。"
+53,"TEXT_SUBWIL074_00388_OSBERT_000_11","冒険者、これは<Sheet(Item,　4552,0)/>じゃないか！
+俺様の怪我に気付いていたというのだな……。"
+54,"TEXT_SUBWIL074_00388_OSBERT_000_12","戦場で怪我を負わず、不死身のオスベルトと呼ばれる私が、
+同僚や鉄灯団の人間に情けない姿を見せるわけには行くまい。"
+55,"TEXT_SUBWIL074_00388_OSBERT_000_13","正直、痛いのをずっと我慢してたんだけどな……
+お前のおかげで、邪なる礫に急襲されし我が額を、
+誰にも知られずに癒せそうである！"
+56,"TEXT_SUBWIL074_00388_OSBERT_000_14","そうだ！　この不死身のオスベルトが、
+貴様に感謝の意を表し、生活に役立つ豆知識を授けよう。"
+57,"TEXT_SUBWIL074_00388_OSBERT_000_15","俺のように、邪なる礫に額を急襲されないためには……
+暇つぶしとはいえ、鉱石を真上にぶん投げないことである！"
+58,"TEXT_SUBWIL074_00388_TALK_SCENE00000_000","空ラベル"
+59,"TEXT_SUBWIL074_00388_TALK_SCENE00000_001","空ラベル"
+60,"TEXT_SUBWIL074_00388_TALK_SCENE00000_002","空ラベル"
+61,"TEXT_SUBWIL074_00388_TALK_SCENE00000_003","空ラベル"
+62,"TEXT_SUBWIL074_00388_TALK_SCENE00001_000","空ラベル"
+63,"TEXT_SUBWIL074_00388_TALK_SCENE00001_001","空ラベル"
+64,"TEXT_SUBWIL074_00388_TALK_SCENE00001_002","空ラベル"
+65,"TEXT_SUBWIL074_00388_TALK_SCENE00001_003","空ラベル"

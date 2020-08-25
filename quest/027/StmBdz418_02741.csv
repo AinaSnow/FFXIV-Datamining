@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ418_02741_SEQ_00","Gyoku of Yuzuka Manor has a task to ask of a willing adventurer."
+0,"TEXT_STMBDZ418_02741_SEQ_00","ユヅカ代官屋敷のギョクは、ヒトに頼みたいことがあるようだ。"
 1,"TEXT_STMBDZ418_02741_SEQ_01",""
 2,"TEXT_STMBDZ418_02741_SEQ_02",""
 3,"TEXT_STMBDZ418_02741_SEQ_03",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_STMBDZ418_02741_SEQ_21",""
 22,"TEXT_STMBDZ418_02741_SEQ_22",""
 23,"TEXT_STMBDZ418_02741_SEQ_23",""
-24,"TEXT_STMBDZ418_02741_TODO_00","Use the muddy water on the well-soused Namazu."
-25,"TEXT_STMBDZ418_02741_TODO_01","Report back to Gyoku."
+24,"TEXT_STMBDZ418_02741_TODO_00","酔っ払ったナマズオに<Sheet(EventItem,2002252,0)/>を使う"
+25,"TEXT_STMBDZ418_02741_TODO_01","ギョクに報告"
 26,"TEXT_STMBDZ418_02741_TODO_02",""
 27,"TEXT_STMBDZ418_02741_TODO_03",""
 28,"TEXT_STMBDZ418_02741_TODO_04",""
@@ -49,28 +49,64 @@ int32,str,str
 45,"TEXT_STMBDZ418_02741_TODO_21",""
 46,"TEXT_STMBDZ418_02741_TODO_22",""
 47,"TEXT_STMBDZ418_02741_TODO_23",""
-48,"TEXT_STMBDZ418_02741_GYOKU_000_000","You're lucky to have come here. Yes, yes. The Namazu of this manor love all manner of man. You are most welcome here whenever you like."
-49,"TEXT_STMBDZ418_02741_GYOKU_000_001","And the timing of your visit couldn't be better. I just so happen to have a task that needs doing."
-50,"TEXT_STMBDZ418_02741_GYOKU_000_002","Long ago, this manor belonged to a magistrate of Doma. Back then, we Namazu served under him. But in truth we were more friends than servants."
-51,"TEXT_STMBDZ418_02741_GYOKU_000_003","Among us are many Namazu who are greatly interested in the doings of man. They do as they see done. Aping, mimicking. And that is what brings us to our current bit of trouble."
-52,"TEXT_STMBDZ418_02741_GYOKU_000_004","Some Namazu have taken to man's love of tea. But as harmless as it is for man, the stimulation is too great for us Namazu. Drinking it causes us to become drunk, much like your wines and ales do to you."
-53,"TEXT_STMBDZ418_02741_GYOKU_000_005","I've three friends who set out fishing. They should have returned some time ago, but not a single one of them has. I just know they've hidden themselves away somewhere and are binging on cups of tea."
-54,"TEXT_STMBDZ418_02741_GYOKU_000_006","The favor I ask is this─find them and dump this muddy water on them when you do. The smell of the tea alone is enough to intoxicate me, so I cannot draw near. This deed calls for the constitution of man."
-55,"TEXT_STMBDZ418_02741_GYOKU_000_007","Those three drunkard Namazu must be out there somewhere. Go and find them, and dump that muddy water on them when you do. That should serve to sober their senses."
-56,"TEXT_STMBDZ418_02741_NAMAZUA02741_000_010","Ohhh, that's the stuff. Oh yes, yes. What a feeling!"
-57,"TEXT_STMBDZ418_02741_NAMAZUA02741_000_011","Hey! That's cold! And that...that smell... That really cleared up my head."
-58,"TEXT_STMBDZ418_02741_NAMAZUA02741_000_012","I'm going to rest up a bit, then I'll head back to the manor. My head may be clear, but my legs still aren't quite under me."
-59,"TEXT_STMBDZ418_02741_NAMAZUA02741_000_013","I'm going to rest up a bit, then I'll head back to the manor. My head may be clear, but my legs still aren't quite under me."
-60,"TEXT_STMBDZ418_02741_NAMAZUB02741_000_014","Ugggh, I can't drink anymore. Not a sip, not a drop."
-61,"TEXT_STMBDZ418_02741_NAMAZUB02741_000_015","That smell... Ahhh, it reminds me of my days under the mud."
-62,"TEXT_STMBDZ418_02741_NAMAZUB02741_000_016","Ohhh, those were the days. So warm, so peaceful. Please, let a Namazu sleep just a bit longer."
-63,"TEXT_STMBDZ418_02741_NAMAZUB02741_000_017","Ahhh, I miss my days under the mud. So warm, so peaceful. Please, let a Namazu sleep just a bit longer."
-64,"TEXT_STMBDZ418_02741_NAMAZUC02741_000_018","I don't... <heave> I don't feel so good. <retch>"
-65,"TEXT_STMBDZ418_02741_NAMAZUC02741_000_019","Blugh! You got mud in my mouth!"
-66,"TEXT_STMBDZ418_02741_NAMAZUC02741_000_020","My head is a deal clearer, but my stomach is still roiling. I'm going to rest up some more. Then I'll head back home."
-67,"TEXT_STMBDZ418_02741_NAMAZUC02741_000_021","My head is a deal clearer, but my stomach is still roiling. I'm going to rest up some more. Then I'll head back home."
-68,"TEXT_STMBDZ418_02741_GYOKU_000_030","Well, it was no glamorous deed, but it had to be done. Those fools should all be back as soon as they sober up."
-69,"TEXT_STMBDZ418_02741_GYOKU_000_031","Still, it is hard to fault them entirely. Tea is a lovely drink. It tingles as it goes down, and then you feel your entire body relax. Such a remarkably good feeling. "
-70,"TEXT_STMBDZ418_02741_GYOKU_000_032","No Namazu can see to work when they drink it. That is why we sought to outlaw it. But as you can imagine, that only had the opposite effect. Yes, yes."
-71,"TEXT_STMBDZ418_02741_GYOKU_000_033","This all reminds me, our dear magistrate often said with a smile that a Namazu with tea was much like a man with wine."
-72,"TEXT_STMBDZ418_02741_GYOKU_000_034","Thank you, my friend. You've not only helped me, but given me the gift of a treasured memory. I'd not recalled our magistrate's smiling face for some time."
+48,"TEXT_STMBDZ418_02741_GYOKU_000_000","おめぇさん、よう来たっぺなぁ。
+この屋敷には、ヒト好きのナマズオが集まってるから、
+お客さんは、いつでも大歓迎っぺよ。"
+49,"TEXT_STMBDZ418_02741_GYOKU_000_001","それに、ちょうどいいところに、いらしてくれたっぺよ。
+実は、ヒトに頼みたいことがあるんだっぺな。"
+50,"TEXT_STMBDZ418_02741_GYOKU_000_002","この屋敷はなぁ、むかし、お代官様が住んでいらして、
+うちらはその方の、家来ってやつだったんだっぺよ……。
+家来つっても、友だちみたいによくしてくれてたっぺな。"
+51,"TEXT_STMBDZ418_02741_GYOKU_000_003","そんなもんで、ヒトのやることに興味津々なナマズオもいて、
+真似たりするやつも多いんだけど、
+ちょいと困ったことが起きてるんだっぺよ。"
+52,"TEXT_STMBDZ418_02741_GYOKU_000_004","お茶を飲むことに、ハマっちまった奴らがいるっぺな。
+ヒトは平気でも、ナマズオには刺激が強いのか、
+お茶を飲むと酔っ払って、ぺーろぺろになっちまうっぺよ。"
+53,"TEXT_STMBDZ418_02741_GYOKU_000_005","今も3匹ばかし、漁に行ってからというもの、
+帰ってこないやつらがいるんだっぺな。
+きっと隠れて、お茶を飲んでるに違いないっぺよ！"
+54,"TEXT_STMBDZ418_02741_GYOKU_000_006","見つけたら、この「<Sheet(EventItem,2002252,0)/>」をブッかけてくれんか？
+うちらは匂いだけでも酔っ払っちまうから、
+ヒトに頼みたいんだっぺよ。"
+55,"TEXT_STMBDZ418_02741_GYOKU_000_007","お茶に酔った3匹が、どこかにいるはずっぺな。
+この「<Sheet(EventItem,2002252,0)/>」をブッかけて、
+目を覚ましてやってくれっぺよ。"
+56,"TEXT_STMBDZ418_02741_NAMAZUA02741_000_010","ぺーろぺろ！
+いい気分だっぺな～。"
+57,"TEXT_STMBDZ418_02741_NAMAZUA02741_000_011","つ、冷たいっぺ！
+しかも、この匂いは……
+なんだか、シャキっとしてきたっぺよ。"
+58,"TEXT_STMBDZ418_02741_NAMAZUA02741_000_012","でも、もうちょっどだけ……ゆっくりしていくっぺな。
+いきなりは、立ち上がれんっぺよ……。"
+59,"TEXT_STMBDZ418_02741_NAMAZUA02741_000_013","もうちょっどだけ……ゆっくりしていくっぺな。
+いきなりは、立ち上がれんっぺよ……。"
+60,"TEXT_STMBDZ418_02741_NAMAZUB02741_000_014","ぺーろぺろ！
+もう、飲めないっぺ……。"
+61,"TEXT_STMBDZ418_02741_NAMAZUB02741_000_015","こ、この匂いは……。
+なんだか、泥ん中にいたときの記憶が、蘇るっぺよ。"
+62,"TEXT_STMBDZ418_02741_NAMAZUB02741_000_016","あぁ……泥の中は、ヌクヌクで気持ちいいっぺなぁ。
+もう一眠り、させてくれっぺ……。"
+63,"TEXT_STMBDZ418_02741_NAMAZUB02741_000_017","あぁ……泥の中は、ヌクヌクで気持ちいいっぺなぁ。
+もう一眠り、させてくれっぺ……。"
+64,"TEXT_STMBDZ418_02741_NAMAZUC02741_000_018","ぺーろぺろ！
+なんだか……気持ち悪いっぺ……。"
+65,"TEXT_STMBDZ418_02741_NAMAZUC02741_000_019","うわっぷ！
+泥が口の中に入ったっぺよ！"
+66,"TEXT_STMBDZ418_02741_NAMAZUC02741_000_020","目は覚めたけど、気持ちは悪いままだっぺな。
+もうちょっど休んでから……戻るっぺよ。"
+67,"TEXT_STMBDZ418_02741_NAMAZUC02741_000_021","目は覚めたけど、気持ちは悪いままだっぺな。
+もうちょっど休んでから……戻るっぺよ。"
+68,"TEXT_STMBDZ418_02741_GYOKU_000_030","助かったっぺな。
+しばらくすりゃ、酔いも醒めて、みんな戻ってくるっぺよ。"
+69,"TEXT_STMBDZ418_02741_GYOKU_000_031","しっかし、お茶ってのは、魅惑の飲み物っぺなぁ。
+痺れるような喉越しの後、力が抜けていって、
+思わず、ぺーろぺろな気分になるっぺよ。"
+70,"TEXT_STMBDZ418_02741_GYOKU_000_032","仕事に手が付かなくなるまで飲むもんだから、
+禁止にしてみたっぺど、かえって逆効果っぺな……。"
+71,"TEXT_STMBDZ418_02741_GYOKU_000_033","……そういえば、お代官様も、
+酒を飲んだヒトと、そっくりだっちゅうて、笑っとったぺな。
+そう言ったときの優しい顔を、ふと思い出したっぺよ……。"
+72,"TEXT_STMBDZ418_02741_GYOKU_000_034","おめぇさん、ありがとっぺな。
+手伝ってもらったついでに、
+お代官様のことも思い出せて、楽しかったっぺよ！"

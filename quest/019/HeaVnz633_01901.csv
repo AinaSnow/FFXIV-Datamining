@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNZ633_01901_SEQ_00","Lady Laniaitte is waiting anxiously for something."
-1,"TEXT_HEAVNZ633_01901_SEQ_01","Lady Laniaitte tells you a small unit was dispatched to survey Ok' Gundu but has yet to report back. Fearing for their safety, she asks that you scour the area and see what has delayed their return."
-2,"TEXT_HEAVNZ633_01901_SEQ_02","You come upon three wayward knights among the ruins of an old building, but as you draw closer, you also find the Vanu that assaulted them. Defeat the Vanu and ensure the safety of Lady Laniaitte's men."
-3,"TEXT_HEAVNZ633_01901_SEQ_03","You defeat the Vanu, and the knights appear none the worse for wear. Report to Lady Laniaitte of what transpired."
-4,"TEXT_HEAVNZ633_01901_SEQ_04","Lady Laniaitte is relieved to know her knights are safe. As she would tell it, the ruins where you discovered her knights were once home to the Gundu tribe until they were subjugated by the Vundu."
+0,"TEXT_HEAVNZ633_01901_SEQ_00","ローズハウスのラニエットは、落ち着かない様子だ。"
+1,"TEXT_HEAVNZ633_01901_SEQ_01","ラニエットから部隊の様子を見てきてほしいと頼まれた。アバラシア雲海のオク・グンドで「薔薇騎兵団の騎兵」を探そう。"
+2,"TEXT_HEAVNZ633_01901_SEQ_02","バヌバヌ族に襲われていた騎兵たちを救出した。オク・グンドの「薔薇騎兵団の騎兵」たちと話そう。"
+3,"TEXT_HEAVNZ633_01901_SEQ_03","薔薇騎兵団の騎兵たちは、落ち着いたら帰るようだ。ローズハウスの「ラニエット」に報告しよう。"
+4,"TEXT_HEAVNZ633_01901_SEQ_04","ラニエットに報告した。元々、オク・グンドは友好的な氏族であるグンド族の村だったらしい。しかし、ブンド族に支配されて以降、グンド族は敵対するようになってしまったそうだ。"
 5,"TEXT_HEAVNZ633_01901_SEQ_05",""
 6,"TEXT_HEAVNZ633_01901_SEQ_06",""
 7,"TEXT_HEAVNZ633_01901_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_HEAVNZ633_01901_SEQ_21",""
 22,"TEXT_HEAVNZ633_01901_SEQ_22",""
 23,"TEXT_HEAVNZ633_01901_SEQ_23",""
-24,"TEXT_HEAVNZ633_01901_TODO_00","Search for the missing knights."
-25,"TEXT_HEAVNZ633_01901_TODO_01","Speak with the knights."
-26,"TEXT_HEAVNZ633_01901_TODO_02","Report to Laniaitte."
+24,"TEXT_HEAVNZ633_01901_TODO_00","薔薇騎兵団の騎兵を探す"
+25,"TEXT_HEAVNZ633_01901_TODO_01","薔薇騎兵団の騎兵と話す"
+26,"TEXT_HEAVNZ633_01901_TODO_02","ラニエットに報告"
 27,"TEXT_HEAVNZ633_01901_TODO_03",""
 28,"TEXT_HEAVNZ633_01901_TODO_04",""
 29,"TEXT_HEAVNZ633_01901_TODO_05",""
@@ -49,18 +49,34 @@ int32,str,str
 45,"TEXT_HEAVNZ633_01901_TODO_21",""
 46,"TEXT_HEAVNZ633_01901_TODO_22",""
 47,"TEXT_HEAVNZ633_01901_TODO_23",""
-48,"TEXT_HEAVNZ633_01901_LANIAITTE_000_000","Three of my men were sent to survey the area around Ok' Gundu <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>earlier this afternoon<Else/>sometime last night</If><Else/><If(LessThan(PlayerParameter(11),17))>early this morning<Else/>earlier this afternoon</If></If>, and I have yet to hear word from them. A routine check shouldn't have taken this long."
-49,"TEXT_HEAVNZ633_01901_LANIAITTE_000_001","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, may I ask you to travel to this location on your map and see what has delayed them? If they've met with trouble, I would be at ease knowing you are there to help them."
-50,"TEXT_HEAVNZ633_01901_LANIAITTE_100_001","I fear something has happened to them, but I would like to know for certain. Pray travel to Ok' Gundu and see what has become of my men. I've marked the location on your map."
-51,"TEXT_HEAVNZ633_01901_SOLDIERA01901_000_010","The Vanu, they... They came out of nowhere..."
-52,"TEXT_HEAVNZ633_01901_SOLDIERB01901_000_011","We thought the building abandoned... We were too careless..."
-53,"TEXT_HEAVNZ633_01901_SOLDIERC01901_000_012","Have you come to help us?"
-54,"TEXT_HEAVNZ633_01901_SOLDIERA01901_000_013","We never expected to find Vanu hiding in a desolate, broken building. Thank Halone you were here to help us."
-55,"TEXT_HEAVNZ633_01901_SOLDIERB01901_000_014","I was sure we were done for."
-56,"TEXT_HEAVNZ633_01901_SOLDIERC01901_000_015","I have no serious injuries, though it could have been worse if not for you."
-57,"TEXT_HEAVNZ633_01901_SOLDIERA01901_100_013","No need to worry about us. We'll return to camp soon enough."
-58,"TEXT_HEAVNZ633_01901_SOLDIERB01901_100_014","Thank you, adventurer. We will return to camp soon as we're able."
-59,"TEXT_HEAVNZ633_01901_SOLDIERC01901_100_015","If only we had been more careful... I owe you my life, adventurer."
-60,"TEXT_HEAVNZ633_01901_LANIAITTE_000_020","You've returned safely, thank goodness. Did you find my men? Were they unharmed?"
-61,"TEXT_HEAVNZ633_01901_LANIAITTE_000_021","Oh, thank goodness. That the Vanu would take refuge there is strange indeed. It was once home to the Gundu tribe. They were a peace-loving people, and for a time we maintained favorable relations."
-62,"TEXT_HEAVNZ633_01901_LANIAITTE_000_022","That is, until the Vundu attacked. Now the Gundu are under the heel of their rule. But let us not dwell on such sorrowful memories of yesterday. Today you have saved my men, and for that, you have my thanks."
+48,"TEXT_HEAVNZ633_01901_LANIAITTE_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>殿、いいところに来てくれた。
+「オク・グンド」の偵察に向かった部隊から、
+連絡が途絶えていてな……。"
+49,"TEXT_HEAVNZ633_01901_LANIAITTE_000_001","なにやら不測の事態に陥っているのかもしれない。
+どうか、現地に赴き、様子を見てきてはもらえないだろうか？"
+50,"TEXT_HEAVNZ633_01901_LANIAITTE_100_001","「オク・グンド」の偵察に向かった部隊の様子を、
+見てきてはもらえないだろうか？"
+51,"TEXT_HEAVNZ633_01901_SOLDIERA01901_000_010","バ、バヌバヌ族が……急に襲ってきてっ……。"
+52,"TEXT_HEAVNZ633_01901_SOLDIERB01901_000_011","くそっ……。
+廃村の偵察だからと油断しちまった……。"
+53,"TEXT_HEAVNZ633_01901_SOLDIERC01901_000_012","……た、助けが来たのか。"
+54,"TEXT_HEAVNZ633_01901_SOLDIERA01901_000_013","まさかバヌバヌ族が潜んでいたとは……。
+助かった、ありがとう。"
+55,"TEXT_HEAVNZ633_01901_SOLDIERB01901_000_014","恐かった……。
+キャンプに戻るとするよ。"
+56,"TEXT_HEAVNZ633_01901_SOLDIERC01901_000_015","大きな怪我はない、油断さえしてなければ……。
+今回は助けられちまったな。"
+57,"TEXT_HEAVNZ633_01901_SOLDIERA01901_100_013","まさかバヌバヌ族が潜んでいたとは……。
+助かった、ありがとう。"
+58,"TEXT_HEAVNZ633_01901_SOLDIERB01901_100_014","恐かった……。
+キャンプに戻るとするよ。"
+59,"TEXT_HEAVNZ633_01901_SOLDIERC01901_100_015","大きな怪我はない、油断さえしてなければ……。
+今回は助けられちまったな。"
+60,"TEXT_HEAVNZ633_01901_LANIAITTE_000_020","戻られたか、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>殿。
+偵察に向かった部隊は、無事だっただろうか？"
+61,"TEXT_HEAVNZ633_01901_LANIAITTE_000_021","……そうか、部下の命が無事でよかった。
+元々「オク・グンド」は、グンド族という、
+友好的なバヌバヌの氏族が暮らす集落だったのだ。"
+62,"TEXT_HEAVNZ633_01901_LANIAITTE_000_022","だが、強硬派のブンド族が台頭し、連中を武力で支配した。
+以後、グンド族は、我らと敵対するようになってな……。
+ともかく、部下が無事でよかった、感謝するぞ。"

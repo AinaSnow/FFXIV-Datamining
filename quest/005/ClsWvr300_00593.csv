@@ -1,12 +1,12 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSWVR300_00593_SEQ_00","Redolent Rose has a job perfectly suited to your talents."
-1,"TEXT_CLSWVR300_00593_SEQ_01","Wawarukka, the miner whose loyal custom Redolent Rose seemed so eager to reward, has approached the guild with another commission. Unusually, however, it would seem he seeks something other than mining gear this time. Speak with Wawarukka to learn the details of his request."
-2,"TEXT_CLSWVR300_00593_SEQ_02","Wawarukka is smitten with a girl from a wealthy family, and is eager to make a good first impression. To this end, he wishes to purchase the finest pair of velveteen gaiters money can buy. Craft the items to the best of your ability and deliver them to Redolent Rose."
-3,"TEXT_CLSWVR300_00593_SEQ_03","You discover to your horror that Wawarukka's new gaiters are but a small part of a gruesomely mismatched ensemble. Even as Redolent Rose tries to warn the poor fellow that he's making a terrible mistake, the oblivious Lalafell bounds off to profess his love, leaving the guildmaster to comfort himself with the thought that the unwary lady may yet see past his friend's bizarre appearance. Quite why she would is another question...
+0,"TEXT_CLSWVR300_00593_SEQ_00","裁縫師ギルドのレドレント・ローズは、とても機嫌が悪いようだ。"
+1,"TEXT_CLSWVR300_00593_SEQ_01","以前服を仕立てた「ワワルッカ」が、裁縫師ギルドに服を注文してきたそうだ。レドレント・ローズの代わりに引き受けよう。まずは「採掘師ギルド」付近で「ワワルッカ」から詳しい注文内容をきこう。"
+2,"TEXT_CLSWVR300_00593_SEQ_02","ワワルッカが服を注文した理由は、恋をしたからだった。彼の愛の告白のため、<Sheet(ItemHQ,3823,0)/>を作り、「裁縫師ギルド」の「レドレント・ローズ」に納品しよう。"
+3,"TEXT_CLSWVR300_00593_SEQ_03","冒険者の作った<Sheet(ItemHQ,3823,0)/>は気に入ってもらえたようだ。しかし、ワワルッカ自身の用意した他の服が、とんでもない取り合わせだった。意気揚々と出ていったが……お嬢様ココモへの告白は成功するのだろうか。
 
-※The next weaver quest will be available from Redolent Rose upon reaching level 35."
+※裁縫師のレベルが35以上になると、レドレント・ローズから次の裁縫師クエストを受注することができます。"
 4,"TEXT_CLSWVR300_00593_SEQ_04",""
 5,"TEXT_CLSWVR300_00593_SEQ_05",""
 6,"TEXT_CLSWVR300_00593_SEQ_06",""
@@ -27,8 +27,8 @@ int32,str,str
 21,"TEXT_CLSWVR300_00593_SEQ_21",""
 22,"TEXT_CLSWVR300_00593_SEQ_22",""
 23,"TEXT_CLSWVR300_00593_SEQ_23",""
-24,"TEXT_CLSWVR300_00593_TODO_00","Speak with Wawarukka."
-25,"TEXT_CLSWVR300_00593_TODO_01","Deliver a pair of velveteen gaiters <Sheet(Addon,9,0)/> to Redolent Rose."
+24,"TEXT_CLSWVR300_00593_TODO_00","ワワルッカと話す"
+25,"TEXT_CLSWVR300_00593_TODO_01","レドレント・ローズに<Sheet(ItemHQ,3823,0)/>を納品"
 26,"TEXT_CLSWVR300_00593_TODO_02",""
 27,"TEXT_CLSWVR300_00593_TODO_03",""
 28,"TEXT_CLSWVR300_00593_TODO_04",""
@@ -51,26 +51,58 @@ int32,str,str
 45,"TEXT_CLSWVR300_00593_TODO_21",""
 46,"TEXT_CLSWVR300_00593_TODO_22",""
 47,"TEXT_CLSWVR300_00593_TODO_23",""
-48,"TEXT_CLSWVR300_00593_REDOLENTROSE_000","Ah, there you are, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
-49,"TEXT_CLSWVR300_00593_REDOLENTROSE_001","I have a job that's absolutely perfect for you."
-50,"TEXT_CLSWVR300_00593_REDOLENTROSE_002","You remember Wawarukka, the Miners' Guild quartermaster? Of course you do. Well, you will be delighted to hear that he has <Emphasis>finally</Emphasis> come to appreciate the benefits of finer garments!"
-51,"TEXT_CLSWVR300_00593_REDOLENTROSE_003","And because he was impressed by the scarf and slops you wove for him, he has personally requested your services."
-52,"TEXT_CLSWVR300_00593_REDOLENTROSE_004","I told him I would send you at the earliest opportunity. Well, what are you waiting for? <Emphasis>This</Emphasis> is the earliest opportunity!"
-53,"TEXT_CLSWVR300_00593_WAWARUKKA_010","Hey! How's it goin', <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>? Big Rose sent you, did he? I asked for you by name, you know! Anyroad, I won't beat about the bush: I want the best damn pair of velveteen gaiters you can make!"
-54,"TEXT_CLSWVR300_00593_WAWARUKKA_011","Aye, aye...I know─what's a bloke like me want with fancy shoes like that? Well, uh...the thing is...there's this girl an', um..."
-55,"TEXT_CLSWVR300_00593_WAWARUKKA_012","Gah! Don't make me spell it out, <If(PlayerParameter(4))>lass<Else/>lad</If>! Trouble is, she's from a rich family─<Emphasis>proper</Emphasis> rich─as in, her servants have got servants, that kind of rich!"
-56,"TEXT_CLSWVR300_00593_WAWARUKKA_013","Which is why I've got to make a good first impression. An' to even have a <Emphasis>chance</Emphasis> of doin' that, I need to get dressed up to the nines. I can't very well introduce meself to a lady like her lookin' like...like <Emphasis>me</Emphasis>!"
-57,"TEXT_CLSWVR300_00593_WAWARUKKA_014","Anyroad, I'm countin' on you, <If(PlayerParameter(4))>lass<Else/>lad</If>. Oh, an' I ain't lettin' Big Rose give this to me for free, neither. I got my pride, you know. Wouldn't feel right wearin' a pair of swanky gaiters what I hadn't paid for."
-58,"TEXT_CLSWVR300_00593_REDOLENTROSE_020","Your client is waiting, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Do you have his gaiters?"
-59,"TEXT_CLSWVR300_00593_WAWARUKKA_021","I'm countin' on you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>!"
-60,"TEXT_CLSWVR300_00593_REDOLENTROSE_030","Sir, your gaiters are ready."
-61,"TEXT_CLSWVR300_00593_WAWARUKKA_031","Niiice! They look good, they feel good─hells, they make me feel like I look good! An' I bloody <Emphasis>do</Emphasis> an' all!"
-62,"TEXT_CLSWVR300_00593_REDOLENTROSE_032","SIR! What...what is that...? What are you wearing!?"
-63,"TEXT_CLSWVR300_00593_WAWARUKKA_033","Hah, like me trousers, do you? Me pa─gods rest his soul─wore 'em when he was first courtin' me ma. Never fail, these don't!
-Cor...look at me! I feel alive. I feel <Emphasis>ready</Emphasis>! There's no stoppin' me now!"
-64,"TEXT_CLSWVR300_00593_REDOLENTROSE_034","BUT, SIR─I SAY, SIR!"
-65,"TEXT_CLSWVR300_00593_REDOLENTROSE_035","Confound it all..."
-66,"TEXT_CLSWVR300_00593_REDOLENTROSE_036","Ahem. Well done, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. You may take solace in knowing that you did what you could."
-67,"TEXT_CLSWVR300_00593_REDOLENTROSE_037","<sigh> Perhaps I worry unduly. The girl may well be stirred by his...earnest...<Emphasis>efforts</Emphasis>."
-68,"TEXT_CLSWVR300_00593_REDOLENTROSE_038","And even if she is not, she may yet overlook his bizarre appearance, gaze deep into his eyes, and see the warm-hearted man within..."
-69,"TEXT_CLSWVR300_00593_REDOLENTROSE_039","...Or she might see him and run screaming for the nearest Brass Blade."
+48,"TEXT_CLSWVR300_00593_REDOLENTROSE_000","何よ私はそんな依頼うけないからねっ！
+あ、あらら……<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>ちゃん
+あなただったの？"
+49,"TEXT_CLSWVR300_00593_REDOLENTROSE_001","ごめんなさいね、
+ちょっと厄介なお願いをされて気が立ってたの。"
+50,"TEXT_CLSWVR300_00593_REDOLENTROSE_002","そうだわ、あなたに縁のない話でもないし
+この依頼はあなたにお願いしましょ。"
+51,"TEXT_CLSWVR300_00593_REDOLENTROSE_003","「ワワルッカ」ちゃんを覚えてる？
+前に、スカーフとスロップを納品した採掘師よ。
+あの子が服を作ってほしいって言ってるの。"
+52,"TEXT_CLSWVR300_00593_REDOLENTROSE_004","「採掘師ギルド」付近にいると思うから
+行って話だけでもきいてあげてちょうだい。"
+53,"TEXT_CLSWVR300_00593_WAWARUKKA_010","ああ、あんたか、
+俺の依頼を引き受けてくれるんだな！
+早速だが<Sheet(ItemHQ,3823,0)/>を作ってくれ。"
+54,"TEXT_CLSWVR300_00593_WAWARUKKA_011","へへっ、実はさ、好きなコができたんだ。
+しかも一目惚れってやつでさ……。"
+55,"TEXT_CLSWVR300_00593_WAWARUKKA_012","とにかく彼女と話したい、って思ったんだけど
+ほら、俺ってずっと作業服しか持ってなかっただろ？
+こんなぼろぼろの格好じゃ前に立つこともできないからさ。"
+56,"TEXT_CLSWVR300_00593_WAWARUKKA_013","「<Sheet(ItemHQ,3823,0)/>」をひとつ頼む。
+今までの稼ぎをコツコツためてきたから
+金はちゃんと支払えるぜ。"
+57,"TEXT_CLSWVR300_00593_WAWARUKKA_014","な、頼むよ！
+俺の人生がかかってるんだ！"
+58,"TEXT_CLSWVR300_00593_REDOLENTROSE_020","上質な「<Sheet(ItemHQ,3823,0)/>」でしょ？
+ワワルッカちゃんから話はきいてるわ。
+ちゃっちゃと納品してちょうだい。"
+59,"TEXT_CLSWVR300_00593_WAWARUKKA_021","「<Sheet(ItemHQ,3823,0)/>」をひとつ頼む。
+俺の人生がかかってるんだ！
+な、頼むよ！"
+60,"TEXT_CLSWVR300_00593_REDOLENTROSE_030","早速ワワルッカちゃんに
+<Sheet(ItemHQ,3823,0)/>をはいてもらいましょうか。"
+61,"TEXT_CLSWVR300_00593_WAWARUKKA_031","いやあ、こんな華奢な靴はいたの初めてだよ。
+はいてみると案外歩きやすくて気持ちいいもんだな。
+採掘現場ではいたら一発で破けそうで怖いけど！"
+62,"TEXT_CLSWVR300_00593_REDOLENTROSE_032","……ワワルッカちゃん？
+その上着はどうしたの！？"
+63,"TEXT_CLSWVR300_00593_WAWARUKKA_033","ああ、死んだオヤジの一張羅引っ張りだしてみた！
+身だしなみも整えたし、ココモさんに告白してくるぜ！
+作ってくれてありがとうな！"
+64,"TEXT_CLSWVR300_00593_REDOLENTROSE_034","一張羅って……ワワルッカちゃん、
+ちょっと待ってえええええ！"
+65,"TEXT_CLSWVR300_00593_REDOLENTROSE_035","どうしてそこでハーネスを合わせるのよ……
+あんなに上品なゲイターなのに……！"
+66,"TEXT_CLSWVR300_00593_REDOLENTROSE_036","はあ……ご苦労だったわね。
+あの子、宝石商の娘のココモちゃんに
+一目惚れしちゃったみたいなのよ。"
+67,"TEXT_CLSWVR300_00593_REDOLENTROSE_037","好きな子に告白するために
+身だしなみを整えようって思ったのはいいんだけど……"
+68,"TEXT_CLSWVR300_00593_REDOLENTROSE_038","服装のことなんて全然わかってないのに
+むやみやたらと色々な服を着るせいで
+変な格好になっちゃっててねえ。"
+69,"TEXT_CLSWVR300_00593_REDOLENTROSE_039","……あれはフラれるわね。
+っていうか、そもそも店に入れてもらえるのかしら。"

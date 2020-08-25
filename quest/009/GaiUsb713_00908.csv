@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB713_00908_SEQ_00","Instructor Molkot commands both fear and loyalty, and one of those will bend you to her will. Resist not, and find out what she wants."
-1,"TEXT_GAIUSB713_00908_SEQ_01","Miah Molkot is never without a violent plan or three, and the barricade erected by the Ixal only stokes the flames. Take the bomb finger, make your way to the blockade on the north corridor, and blast it into oblivion."
-2,"TEXT_GAIUSB713_00908_SEQ_02","The blockade is no more, and the north corridor stands open. Take the happy news to Molkot."
-3,"TEXT_GAIUSB713_00908_SEQ_03","Molkot greets the news with eyes glittering and tail lashing. At certain times, she reminds you of some exotic creature─impossible to control, casually bloodthirsty, and hypnotic to behold."
+0,"TEXT_GAIUSB713_00908_SEQ_00","ユージニア監視哨の神勇隊員ミア・モルコットは、ある作戦の手伝いをしてほしいようだ。"
+1,"TEXT_GAIUSB713_00908_SEQ_01","ミア・モルコットの考えている作戦の決行には、イクサル族が築いたバリケードの存在が邪魔らしい。北の隘路に築かれた防塞を「<Sheet(EventItem,2000709,0)/>」で爆破しよう。"
+2,"TEXT_GAIUSB713_00908_SEQ_02","見事バリケードを撤去した。ユージニア監視哨の神勇隊「ミア・モルコット」に報告しよう。"
+3,"TEXT_GAIUSB713_00908_SEQ_03","作戦の成功を確信した様子のミア・モルコット。イクサル族との戦いに、彼女は勇み立っているようだ。"
 4,"TEXT_GAIUSB713_00908_SEQ_04",""
 5,"TEXT_GAIUSB713_00908_SEQ_05",""
 6,"TEXT_GAIUSB713_00908_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSB713_00908_SEQ_21",""
 22,"TEXT_GAIUSB713_00908_SEQ_22",""
 23,"TEXT_GAIUSB713_00908_SEQ_23",""
-24,"TEXT_GAIUSB713_00908_TODO_00","Use the bomb finger to destroy the Ixali blockade."
-25,"TEXT_GAIUSB713_00908_TODO_01","Report to Miah Molkot."
+24,"TEXT_GAIUSB713_00908_TODO_00","<Sheet(EventItem,2000709,0)/>で<Sheet(EObj,2002134,0)/>を破壊"
+25,"TEXT_GAIUSB713_00908_TODO_01","ミア・モルコットに報告"
 26,"TEXT_GAIUSB713_00908_TODO_02",""
 27,"TEXT_GAIUSB713_00908_TODO_03",""
 28,"TEXT_GAIUSB713_00908_TODO_04",""
@@ -49,16 +49,28 @@ int32,str,str
 45,"TEXT_GAIUSB713_00908_TODO_21",""
 46,"TEXT_GAIUSB713_00908_TODO_22",""
 47,"TEXT_GAIUSB713_00908_TODO_23",""
-48,"TEXT_GAIUSB713_00908_MIAHMOLKOT_000_000","The White Rams are stationed at Eugenia's Spire <Emphasis>ostensibly</Emphasis> on guard duty─oh yes, protecting the trees of this forest from the miscreants in the Ixali logging grounds to the north. Very defensive!"
-49,"TEXT_GAIUSB713_00908_MIAHMOLKOT_000_001","Play defense long enough, and the enemy forgets we can attack. I suppose that was the idea, but─now! Now, the enemy <Emphasis>anticipates</Emphasis> us."
-50,"TEXT_GAIUSB713_00908_MIAHMOLKOT_000_002","Those mocking, tweeting birds have sealed off the north corridor with a blockade! I ssspit on their cunning. It keeps me from their wee necks..."
-51,"TEXT_GAIUSB713_00908_MIAHMOLKOT_000_003","Adventurer, take down the blockade with this bomb finger. Little birds not content to have a few more quiet moons before all hells break loose? Fine! The Ixal shall feel the Ram right meow!"
-52,"TEXT_GAIUSB713_00908_DUMMY_000_010",""
-53,"TEXT_GAIUSB713_00908_DUMMY_000_020",""
-54,"TEXT_GAIUSB713_00908_DUMMY_000_030",""
+48,"TEXT_GAIUSB713_00908_MIAHMOLKOT_000_000","我々「白羊師団」は現在、このユージニア監視哨で、
+北の「イクサル軍伐採所」に陣取るニャつらから、
+森の木々を護る任務に従事している。"
+49,"TEXT_GAIUSB713_00908_MIAHMOLKOT_000_001","もちろん、ただ護っているだけのつもりはニャい。
+機が熟し次第、敵地に攻勢をかけるつもりだ。
+フフ、私は何ごとも主導権をとられるの嫌いな女ニャんでね。"
+50,"TEXT_GAIUSB713_00908_MIAHMOLKOT_000_002","しかし、鳥頭どもは、我々の作戦を察知したのか、
+最近にニャって北の隘路に防塞を築き、道を封鎖したのだ。
+ニャんとも困った事態だ。"
+51,"TEXT_GAIUSB713_00908_MIAHMOLKOT_000_003","冒険者よ、この「<Sheet(EventItem,2000709,0)/>」をしかけ、防塞を破壊してくれ。
+これでイクサル族を牽制して、
+ニャつらに我々の存在を解らせてやる！"
+52,"TEXT_GAIUSB713_00908_DUMMY_000_010","北の隘路の土嚢に「<Sheet(EventItem,2000709,0)/>」を設置→爆破後にイクサルポップ。倒す。1ヶ所目、1匹。"
+53,"TEXT_GAIUSB713_00908_DUMMY_000_020","北の隘路の土嚢に「<Sheet(EventItem,2000709,0)/>」を設置→爆破後にイクサルポップ。倒す。2ヶ所目、1匹。"
+54,"TEXT_GAIUSB713_00908_DUMMY_000_030","北の隘路の土嚢に「<Sheet(EventItem,2000709,0)/>」を設置→爆破後にイクサルポップ。倒す。3ヶ所目、2匹。"
 55,"TEXT_GAIUSB713_00908_DUMMYTODO_000_010",""
 56,"TEXT_GAIUSB713_00908_DUMMYTODO_000_020",""
-57,"TEXT_GAIUSB713_00908_DUMMYTODO_000_030",""
-58,"TEXT_GAIUSB713_00908_MIAHMOLKOT_000_040","Well blasted! A purrrfect detonation!"
-59,"TEXT_GAIUSB713_00908_MIAHMOLKOT_000_041","Put up your little blockades, my wee birds, and down they go like a cradle on a bough! There will be nothing, but nothing, to stand between the White Rams and our prey..."
-60,"TEXT_GAIUSB713_00908_POP_MESSAGE_000","That screech could only be limbcutters!"
+57,"TEXT_GAIUSB713_00908_DUMMYTODO_000_030","（★未使用／削除予定★）"
+58,"TEXT_GAIUSB713_00908_MIAHMOLKOT_000_040","よくやったニャ～！
+……オホン。
+よくやった、冒険者よ！"
+59,"TEXT_GAIUSB713_00908_MIAHMOLKOT_000_041","防壁など小賢しい策を弄したところで、
+我々が、いつでも粉砕できることをお前が示してくれた。
+これで鳥頭どもも、戦意を喪失するニャろう！"
+60,"TEXT_GAIUSB713_00908_POP_MESSAGE_000","敵の気配を感じた！！"

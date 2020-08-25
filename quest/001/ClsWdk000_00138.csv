@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSWDK000_00138_SEQ_00","Corgg wishes you to reaffirm your desire to join the Carpenters' Guild."
-1,"TEXT_CLSWDK000_00138_SEQ_01","Corgg bids you speak with Timbermaster Beatin. Seek him in the workroom, through the doorway and up the steps."
-2,"TEXT_CLSWDK000_00138_SEQ_02","Though Timbermaster Beatin is every bit as imposing as you were given to believe, he accepts your application to the guild and even furnishes you with a beginner's saw. Equip the tool and speak to him again."
+0,"TEXT_CLSWDK000_00138_SEQ_00","木工師になり、木工師ギルドで学ぶために、しかるべき手続きを行わなければならない。受付のコーグは、冒険者の心の準備を確かめたいようだ。"
+1,"TEXT_CLSWDK000_00138_SEQ_01","受付から、木工師ギルドマスター、ベアティヌを紹介された。木工師ギルドの「ベアティヌ」に挨拶に行こう。"
+2,"TEXT_CLSWDK000_00138_SEQ_02","ベアティヌは、冒険者の木工師ギルドへの所属を認めてくれた。彼から受け取った「<Sheet(Item,　2314,0)/>」を装備し、再度ベアティヌに声をかけよう。"
 3,"TEXT_CLSWDK000_00138_SEQ_03",""
 4,"TEXT_CLSWDK000_00138_SEQ_04",""
 5,"TEXT_CLSWDK000_00138_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_CLSWDK000_00138_SEQ_21",""
 22,"TEXT_CLSWDK000_00138_SEQ_22",""
 23,"TEXT_CLSWDK000_00138_SEQ_23",""
-24,"TEXT_CLSWDK000_00138_TODO_00","Speak with Timbermaster Beatin."
+24,"TEXT_CLSWDK000_00138_TODO_00","ベアティヌと話す"
 25,"TEXT_CLSWDK000_00138_TODO_01",""
 26,"TEXT_CLSWDK000_00138_TODO_02",""
 27,"TEXT_CLSWDK000_00138_TODO_03",""
@@ -49,24 +49,44 @@ int32,str,str
 45,"TEXT_CLSWDK000_00138_TODO_21",""
 46,"TEXT_CLSWDK000_00138_TODO_22",""
 47,"TEXT_CLSWDK000_00138_TODO_23",""
-48,"TEXT_CLSWDK000_00138_CORGG_000_1","Would you like to learn more about the enrollment process?"
-49,"TEXT_CLSWDK000_00138_CORGG_000_2","It is no small decision to dedicate oneself wholly to carpentry."
-50,"TEXT_CLSWDK000_00138_CORGG_000_3","You must follow your heart, wheresoever it may take you. Know that if it leads you here once more, we will welcome you with open arms."
-51,"TEXT_CLSWDK000_00138_CORGG_000_4","Wonderful! ...I should mention at this point that Timbermaster Beatin assesses all would-be apprentices personally, so you will need to obtain his approval before you begin."
-52,"TEXT_CLSWDK000_00138_CORGG_000_5","Timbermaster Beatin can be a harsh and unforgiving man, but if you love the craft and have the will to learn, you could ask for no better tutor. He is, quite simply, the finest carpenter in Gridania."
-53,"TEXT_CLSWDK000_00138_CORGG_000_6","Of course, it will take you some time, and no small amount of effort, to comprehend the full extent of his teachings, but you may rest assured that he will not lead you astray."
-54,"TEXT_CLSWDK000_00138_CORGG_000_7","That said...when you meet him, I would advise you to choose your words carefully and...um...resist the urge to run away."
-55,"TEXT_CLSWDK000_00138_BEATINE_000_10","...Another green adventurer come to play with saws?"
-56,"TEXT_CLSWDK000_00138_BEATINE_000_11","Well then, I suggest you first speak with the─"
-57,"TEXT_CLSWDK000_00138_BEATINE_000_12","Oh, you've met with Corgg, have you? That is well, but know that the decision to initiate you into the guild rests with me."
-58,"TEXT_CLSWDK000_00138_BEATINE_000_13","Tell me true, adventurer: have you a mind to devote yourself to the art of carpentry?"
-59,"TEXT_CLSWDK000_00138_Q1_000_1","Devote yourself to carpentry?"
-60,"TEXT_CLSWDK000_00138_A1_000_1","Yes"
-61,"TEXT_CLSWDK000_00138_A1_000_2","No"
-62,"TEXT_CLSWDK000_00138_BEATINE_000_14","Is that so? Then begone from my sight. Do not return unless you find the conviction you so sorely lack."
-63,"TEXT_CLSWDK000_00138_BEATINE_000_15","The look on your face bespeaks determination...or mayhap trapped wind."
-64,"TEXT_CLSWDK000_00138_BEATINE_000_16","Still...you look strong enough to hold a saw, and if your resolve is indeed genuine... I give you leave to remain─for the time being."
-65,"TEXT_CLSWDK000_00138_BEATINE_000_17","However, you are useless to me in your current state. You are as a seedling─some potential, perhaps, but no more like to thrive than perish."
-66,"TEXT_CLSWDK000_00138_BEATINE_000_18","Experience is what you require, <If(PlayerParameter(4))>girl<Else/>boy</If>, and I shall give you the means to acquire it. Take this saw. It is old, yes, but sharp as needs be."
-67,"TEXT_CLSWDK000_00138_BEATINE_000_19","Now, prove to me that you are not completely incompetent by taking up your new tool."
-68,"TEXT_CLSWDK000_00138_BEATINE_000_20","Once you have done so, present yourself to me for inspection."
+48,"TEXT_CLSWDK000_00138_CORGG_000_1","私に声をかけたということは……
+木工師ギルドに入門する決心がついたのですね？"
+49,"TEXT_CLSWDK000_00138_CORGG_000_2","むむむ……。
+まだ心に迷いがあるようですね……。"
+50,"TEXT_CLSWDK000_00138_CORGG_000_3","木を愛さなければ木工師は務まりませんから、
+よく自分の心と相談なさることです。
+ギルドに入門したくなったら、いつでも来てください。"
+51,"TEXT_CLSWDK000_00138_CORGG_000_4","……わかりました。
+それでは、あなたをギルドマスターにご紹介しましょう。"
+52,"TEXT_CLSWDK000_00138_CORGG_000_5","ギルドマスター、「ベアティヌ」先生は、
+ギルドの誰よりも木を愛する方。"
+53,"TEXT_CLSWDK000_00138_CORGG_000_6","あなたが木工師ギルドの一員となるに相応しいかどうか、
+確かめていただかねばなりません。"
+54,"TEXT_CLSWDK000_00138_CORGG_000_7","先生は、作業室の二階にいらっしゃいます。
+あなたの情熱を存分にぶつけてきてください。"
+55,"TEXT_CLSWDK000_00138_BEATINE_000_10","私が、ベアティヌですが……
+はあ……冒険者……入門希望者ですか……。"
+56,"TEXT_CLSWDK000_00138_BEATINE_000_11","……ふう。それじゃあ……
+木工師と、ギルドについて、話をしなければ……"
+57,"TEXT_CLSWDK000_00138_BEATINE_000_12","え？　もう受付のコーグから聞いた？
+はぁ、そうですか……"
+58,"TEXT_CLSWDK000_00138_BEATINE_000_13","じゃあ、聞きますが……
+貴方は本当に……木工師ギルドに入門したいんです……？"
+59,"TEXT_CLSWDK000_00138_Q1_000_1","木工師ギルドに入門しますか？"
+60,"TEXT_CLSWDK000_00138_A1_000_1","はい"
+61,"TEXT_CLSWDK000_00138_A1_000_2","いいえ"
+62,"TEXT_CLSWDK000_00138_BEATINE_000_14","ああ、やっぱり。
+その程度だと思いましたよ……。
+冒険者なんて……フフフフ…………。"
+63,"TEXT_CLSWDK000_00138_BEATINE_000_15","そうですか……。"
+64,"TEXT_CLSWDK000_00138_BEATINE_000_16","まぁ、悪い人じゃなさそうですし……
+ひとまず、木工師ギルドに入門することは
+認めましょう……。"
+65,"TEXT_CLSWDK000_00138_BEATINE_000_17","まだ貴方は、木の芽のようなもの。
+木材としては、使いものにならない……。"
+66,"TEXT_CLSWDK000_00138_BEATINE_000_18","木工に必要な道具をさし上げましょう……
+「<Sheet(Item,　2314,0)/>」初心者用のノコです……。"
+67,"TEXT_CLSWDK000_00138_BEATINE_000_19","まずは、そのノコを装備してみてください……。"
+68,"TEXT_CLSWDK000_00138_BEATINE_000_20","装備できたら、
+私に声をかけるんですよ……
+きちんと装備できたかどうか、確かめますからね……。"

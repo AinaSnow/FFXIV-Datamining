@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSC206_00965_SEQ_00","There are spirits, and then there are <Emphasis>spirits</Emphasis>. Ahlduwil craves one while fearing the other."
-1,"TEXT_GAIUSC206_00965_SEQ_01","You find a self-proclaimed salvager well in his cups who bids you fill his empty bottle from a cask of wine over in the Ship Graveyard. Knowing something of wine from shipwrecks, you decide to oblige."
-2,"TEXT_GAIUSC206_00965_SEQ_02","You enter the Ship Graveyard and brave the dank and haunted place to find a cask of wine, dispatching a spirit along the way. With the bottle of salvaged wine securely in your possession, it's time you returned to Ahlduwil."
-3,"TEXT_GAIUSC206_00965_SEQ_03","Ahlduwil receives the vintage greedily, then laments that it has turned sulphurous with age. Now that his dream of drinking his way through the Graveyard's holds has ended, you hope he will be a sot no more."
+0,"TEXT_GAIUSC206_00965_SEQ_00","船の墓場のアルドウヴィルは、あるものを欲しがっているようだ。"
+1,"TEXT_GAIUSC206_00965_SEQ_01","<Sheet(EventItem,2000746,0)/>に酒を入れてくるよう頼まれた。「<Sheet(EObj,2002187,0)/>」からワインを汲もう。"
+2,"TEXT_GAIUSC206_00965_SEQ_02","<Sheet(EventItem,2000747,0)/>を入手した。船の墓場の「アルドウヴィル」に渡そう。"
+3,"TEXT_GAIUSC206_00965_SEQ_03","アルドウヴィルに<Sheet(EventItem,2000747,0)/>を渡した。汲んできた酒は、潮臭くて飲めたものではなかったようだ……。"
 4,"TEXT_GAIUSC206_00965_SEQ_04",""
 5,"TEXT_GAIUSC206_00965_SEQ_05",""
 6,"TEXT_GAIUSC206_00965_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSC206_00965_SEQ_21",""
 22,"TEXT_GAIUSC206_00965_SEQ_22",""
 23,"TEXT_GAIUSC206_00965_SEQ_23",""
-24,"TEXT_GAIUSC206_00965_TODO_00","Fill the bottle with wine from the wine tun."
-25,"TEXT_GAIUSC206_00965_TODO_01","Give the bottle of wine to Ahlduwil."
+24,"TEXT_GAIUSC206_00965_TODO_00","<Sheet(EObj,2002187,0)/>に<Sheet(EventItem,2000746,0)/>を使う"
+25,"TEXT_GAIUSC206_00965_TODO_01","アルドウヴィルに<Sheet(EventItem,2000747,0)/>を渡す"
 26,"TEXT_GAIUSC206_00965_TODO_02",""
 27,"TEXT_GAIUSC206_00965_TODO_03",""
 28,"TEXT_GAIUSC206_00965_TODO_04",""
@@ -49,13 +49,25 @@ int32,str,str
 45,"TEXT_GAIUSC206_00965_TODO_21",""
 46,"TEXT_GAIUSC206_00965_TODO_22",""
 47,"TEXT_GAIUSC206_00965_TODO_23",""
-48,"TEXT_GAIUSC206_00965_AHLDUWIL_000_000","Thish bottle is empty! Warn't that way a moment ago... There'sh someshi─shummin' <Emphasis>shushpishous</Emphasis> going on. Oh look! I shpy an <Emphasis>adventurer</Emphasis>. How do you do, <If(PlayerParameter(4))>Madam<Else/>Sir</If> Adventurer!"
-49,"TEXT_GAIUSC206_00965_AHLDUWIL_000_001","You know that big ol' lot of sand behind me? Them's the Ship Graveyard. Currents bring 'em, all those wrecked ships...and whatever's in their holds, too. Casks of wine...rum...mead and brandewine... That'd be for the cap'n! And I'm kind of a cap'n..."
-50,"TEXT_GAIUSC206_00965_AHLDUWIL_000_002","You look <Emphasis>real</Emphasis> enough. Lot of 'em aren't, you know, thoshe what visit me. Wouldn't mind 'cept some of 'em are <Emphasis>unkind</Emphasis>. I need a drink. Here now, take this bottle and fill it with shummin' from over there."
-51,"TEXT_GAIUSC206_00965_DUMMY_000_000",""
-52,"TEXT_GAIUSC206_00965_SYSTEM_000_000",""
-53,"TEXT_GAIUSC206_00965_AHLDUWIL_000_010","'Tain't fair with the rules changin' all the time. I was a <Emphasis>good</Emphasis> looter, I tells ye! Now shuddenly, the job comesh with ghosts?"
-54,"TEXT_GAIUSC206_00965_AHLDUWIL_000_020","Lookee here, thatsh a full bottle! I had one of thoshe around here before. I think shummin' happened to it. Thanksh! You're the <Emphasis>best</Emphasis> app'rition I ever sheen."
-55,"TEXT_GAIUSC206_00965_AHLDUWIL_000_021","Shupposed to be other cargo too─cheshts full of electrum bars 'n' the like for trading with the Easht and Merash...Merashummin'. Me, I'll take the wine..."
-56,"TEXT_GAIUSC206_00965_AHLDUWIL_000_022","<sniff> <sniff> Ack, uggghhh! Smells like rotten eggs! I'm not drinkin' that. What a waste, all that wine...and mead... Beer, too, mustn't forget the beer... And the brandewine for the cap'n! <sob>"
-57,"TEXT_GAIUSC206_00965_POP_MESSAGE_000","You sense a ghostly chill!"
+48,"TEXT_GAIUSC206_00965_AHLDUWIL_000_000","あ～ちくしょう、酒が切れちまった……ヒック。
+……おや、目の前に冒険者が見えるぞ？
+しかも暇そうで、この島みたいに辛気臭い冒険者だ。"
+49,"TEXT_GAIUSC206_00965_AHLDUWIL_000_001","向こうの「船の墓場」には、海流の影響で、
+海を漂っていた難破船の残骸が打ち揚げられるんだ。
+大昔の船が積んでた酒樽がありゃ、中身は年代物ってこった。 "
+50,"TEXT_GAIUSC206_00965_AHLDUWIL_000_002","……アンタ暇なら、この「瓶」に酒を入れてきてくれよ。
+あそこは死霊も酒を飲みに来るっていうほど、
+いい酒樽が転がってるって話だからよ……ヒック。"
+51,"TEXT_GAIUSC206_00965_DUMMY_000_000","「船の墓場」のeob樽jにアクセス→「酔いどれゴースト」がポップ、倒すと「上質のワイン」をゲット"
+52,"TEXT_GAIUSC206_00965_SYSTEM_000_000","（★未使用／削除予定★）"
+53,"TEXT_GAIUSC206_00965_AHLDUWIL_000_010","死霊が怖くて、船上荒らしがやってられるか～ってんだ！
+……ヒック！"
+54,"TEXT_GAIUSC206_00965_AHLDUWIL_000_020","……おうおう、タップリ入ってるじゃねぇか。
+世話をかけたな、ありがとよぉ！"
+55,"TEXT_GAIUSC206_00965_AHLDUWIL_000_021","座礁した船の中には、東州や南方大陸と取引するために、
+お宝をわんさか積んだ船もあるって話だが、
+今の俺には、この酒がお宝さ。"
+56,"TEXT_GAIUSC206_00965_AHLDUWIL_000_022","さて、いただくとすっかね……って、うわっ潮臭せぇ！
+だめだこりゃ！　飲めたモンじゃねぇや！
+……なんだよぉ、俺の心も辛気臭いぜ……。"
+57,"TEXT_GAIUSC206_00965_POP_MESSAGE_000","敵の気配を感じた！！"

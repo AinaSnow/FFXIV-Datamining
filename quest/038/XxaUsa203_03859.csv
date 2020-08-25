@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_XXAUSA203_03859_SEQ_00","Buscarron could use an adventurer to douse a fight brewing at his establishment."
-1,"TEXT_XXAUSA203_03859_SEQ_01","Buscarron has no information on the sylph elder as yet, but he has something for you to do in the meantime. It seems as though one of his customers is spoiling for a fight. To put an end to any fisticuffs before they begin, Buscarron would have you pour a tub of cold water over the lout in question."
-2,"TEXT_XXAUSA203_03859_SEQ_02","Drenched with water, the drunkard runs off, having come to his senses enough to realize that Buscarron means business when he says there's to be no fighting in or about his establishment. Report your success to Buscarron."
-3,"TEXT_XXAUSA203_03859_SEQ_03","Thanks to your actions, the tavern's regulars are able to enjoy their drinks in peace. Buscarron prides himself on opening his doors to all customers─even those with unsavory reputations─so long as they pay good coin and stay out of trouble."
+0,"TEXT_XXAUSA203_03859_SEQ_00","酒房「バスカロンドラザーズ」のバスカロンは、さっそく冒険者に仕事を与えたいようだ。"
+1,"TEXT_XXAUSA203_03859_SEQ_01","バスカロンは暴れている客を穏便に止めて欲しいようだ。酒房「バスカロンドラザーズ」の「ミッドランダー族の酔客」に「<Sheet(EventItem,2003006,0)/>」を使おう。"
+2,"TEXT_XXAUSA203_03859_SEQ_02","暴れていた酔客はいなくなった。バスカロンに報告しよう。"
+3,"TEXT_XXAUSA203_03859_SEQ_03","バスカロンに報告した。この酒場は行儀よく飲むのなら、ならず者であっても酒を振る舞う、数少ない酒場なのだそうだ。"
 4,"TEXT_XXAUSA203_03859_SEQ_04",""
 5,"TEXT_XXAUSA203_03859_SEQ_05",""
 6,"TEXT_XXAUSA203_03859_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_XXAUSA203_03859_SEQ_21",""
 22,"TEXT_XXAUSA203_03859_SEQ_22",""
 23,"TEXT_XXAUSA203_03859_SEQ_23",""
-24,"TEXT_XXAUSA203_03859_TODO_00","Douse the mead-soaked Midlander with water."
-25,"TEXT_XXAUSA203_03859_TODO_01","Report to Buscarron."
+24,"TEXT_XXAUSA203_03859_TODO_00","ミッドランダー族の酔客に<Sheet(EventItem,2003006,0)/>を使う"
+25,"TEXT_XXAUSA203_03859_TODO_01","バスカロンに報告"
 26,"TEXT_XXAUSA203_03859_TODO_02",""
 27,"TEXT_XXAUSA203_03859_TODO_03",""
 28,"TEXT_XXAUSA203_03859_TODO_04",""
@@ -49,18 +49,45 @@ int32,str,str
 45,"TEXT_XXAUSA203_03859_TODO_21",""
 46,"TEXT_XXAUSA203_03859_TODO_22",""
 47,"TEXT_XXAUSA203_03859_TODO_23",""
-48,"TEXT_XXAUSA203_03859_SYSTEM_100_000","To accept this quest, you must abandon the current main scenario quest. Open the corresponding entry in the journal or duty list and select “Abandon.”"
-49,"TEXT_XXAUSA203_03859_BUSCARRON_000_000","No word on the sylph elder yet, but I'm sure it's only a matter of time. In the meantime, how about doing a favor for old Buscarron in return?"
-50,"TEXT_XXAUSA203_03859_BUSCARRON_000_001","Right, then, let's put you to work. There's a customer outside who's spoiling for a fight and I need you to cool him off for me."
-51,"TEXT_XXAUSA203_03859_BUSCARRON_000_002","No need to go cracking any skulls, though. Just take this tub of cold water and douse the drunkard. Tends to do the trick."
-52,"TEXT_XXAUSA203_03859_BUSCARRON_000_003","My patrons can swill grog all night and carouse loud enough to wake the dead if they wish, but as soon as it turns violent, I've got to put my boot down."
-53,"TEXT_XXAUSA203_03859_NPCA_000_010","What are you starin' at!? You wanna keep them eyes in yer face?"
-54,"TEXT_XXAUSA203_03859_NPCB_000_011","Grrr... If this were anywhere but the Druthers, I'd have that fool spittin' teeth before he formed a second word."
-55,"TEXT_XXAUSA203_03859_NPCA_000_020","Ugh! Nophica's teats, that's cold! What do you mean, “no fightin'”? This Duskwight scum was─"
-56,"TEXT_XXAUSA203_03859_NPCA_000_021","Yeah, yeah, I know the rules. That bastard gets to keep his skin...for now."
-57,"TEXT_XXAUSA203_03859_NPCB_000_030","Thanks for steppin' in there, friend. Not that I couldn't handle myself against a bleatin' milksop like that bloke."
-58,"TEXT_XXAUSA203_03859_NPCB_000_031","And I don't want to cause no trouble for Buscarron. You know, havin' to mop up blood and bits o' teeth and the like."
-59,"TEXT_XXAUSA203_03859_BUSCARRON_000_080","Nicely done, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I'll not have my patrons picking fights with each other over a bit of petty prejudice."
-60,"TEXT_XXAUSA203_03859_BUSCARRON_000_081","In case you didn't see, the bloke who caught the brunt of that outburst is a Duskwight Elezen. They're a people who shun cities to live in the wilds, making them no better than brigands in the eyes of many."
-61,"TEXT_XXAUSA203_03859_BUSCARRON_000_082","To be fair, the Duskwights can be an unruly lot, but they ain't so bad once you get to know them. And it don't seem right to bar a whole race of people from the Druthers for the misdeeds of a few."
-62,"TEXT_XXAUSA203_03859_BUSCARRON_000_083","There should be at least one place where anyone willing to pay the coin and drink in peace is welcome, don't you think?"
+48,"TEXT_XXAUSA203_03859_SYSTEM_100_000","受注するには、進行中のメインクエストを破棄する必要があります。
+メインコマンドの「コンテンツ情報」から、
+「ジャーナル」を選び、破棄してください。"
+49,"TEXT_XXAUSA203_03859_BUSCARRON_000_000","シルフの長老の情報が入ってくるまで、
+少し時間がかかるだろう。
+せっかくだ、情報を待つ間に依頼を受けてみねえか。"
+50,"TEXT_XXAUSA203_03859_BUSCARRON_000_001","なに、ことは簡単だ。
+外のテーブルで暴れている奴を止めてきてほしいのさ。"
+51,"TEXT_XXAUSA203_03859_BUSCARRON_000_002","特に腕っ節はいらないぜ。
+この木桶に入った冷たい水を、頭からかけてやれば、
+酔いも覚めて冷静になるだろう。"
+52,"TEXT_XXAUSA203_03859_BUSCARRON_000_003","うちの店では、飲むも騒ぐも構わんが、
+他人様に迷惑をかけるのだけは厳禁だ。
+ここの掟ってのを、しっかりと教えこんでやらねぇとな。"
+53,"TEXT_XXAUSA203_03859_NPCA_000_010","おら、何見てんだ……ひっく！
+……やんのかオラ！
+見せモンじゃねぇぞ、コラァ！"
+54,"TEXT_XXAUSA203_03859_NPCB_000_011","くそ……。
+ここがバスカロンのオヤジの酒場じゃなかったら、
+すぐに殴り倒してやるところなのに……。"
+55,"TEXT_XXAUSA203_03859_NPCA_000_020","ぶわっ！　冷てぇ！　てめぇ、何しやがる！
+……ああん？
+ケンカって、この「シェーダー」野郎が……。"
+56,"TEXT_XXAUSA203_03859_NPCA_000_021","……この酒場で暴れるのはご法度、ってことか。
+くそ、今日はこの辺で勘弁してやる！"
+57,"TEXT_XXAUSA203_03859_NPCB_000_030","ありがとうよ、おかげで面倒事にならずにすんだぜ。
+……ここは、俺たちのような「ならず者」も、
+受け入れてくれる数少ない酒場だ。"
+58,"TEXT_XXAUSA203_03859_NPCB_000_031","オヤジに迷惑をかけないためにも、酒場の掟は絶対だ。
+だから、店でのもめ事は避けてるのさ。"
+59,"TEXT_XXAUSA203_03859_BUSCARRON_000_080","よう、ご苦労だったな！
+酔っ払った勢いで、気に食わない相手に喧嘩を売るたぁ、
+あとでキツイ灸をすえてやらんとなぁ。"
+60,"TEXT_XXAUSA203_03859_BUSCARRON_000_081","……いちゃもんをつけられてたのは「シェーダー族」だ。
+奴らは、都市から離れて森に暮らす者が多いため、
+「ならず者」と見られることが少なくない。"
+61,"TEXT_XXAUSA203_03859_BUSCARRON_000_082","確かに、ぶっきらぼうな連中だが、
+話をしてみりゃ、さほど悪い奴らじゃあねぇ。
+シェーダー族ってだけで締め出すのは酷ってもんだ。"
+62,"TEXT_XXAUSA203_03859_BUSCARRON_000_083","金を払って行儀よく酒を飲む奴なら、誰でも受け入れる。
+そんな場所がひとつくらいあってもいいだろう？
+この「バスカロンドラザーズ」は、そんな酒場さ。"

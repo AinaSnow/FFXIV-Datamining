@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ425_02748_SEQ_00","Gyorin of Yuzuka Manor is casting a perplexed look in your direction."
-1,"TEXT_STMBDZ425_02748_SEQ_01","Gyorin wishes to enlist your aid in his struggle to become a successful and influential merchant. Speak with him at the storehouse in the Glittering Basin where he hoards his wares."
-2,"TEXT_STMBDZ425_02748_SEQ_02","Gyorin shows you his proud store of treasures and trinkets, which to the discerning eye is unequivocally a midden of unsellable garbage and refuse. Accepting of your harsh appraisal, he resolves to take up fishing to source his mercantile endeavors. Speak with Gyorin at the Glittering Basin once more."
-3,"TEXT_STMBDZ425_02748_SEQ_03","At the outset of his new life of fishing, Gyorin managed to drop his precious and prized pole. Search the Glittering Basin for Gyorin's fishing rod."
-4,"TEXT_STMBDZ425_02748_SEQ_04","You have found Gyorin's fishing rod. Return it to him at the Glittering Basin."
-5,"TEXT_STMBDZ425_02748_SEQ_05","You have returned Gyorin's fishing rod to him. He confides in you that since dropping the pole, he has been considering the pursuit of other means to make his way as a merchant. Travel to the Glittering Basin and speak with him once again."
-6,"TEXT_STMBDZ425_02748_SEQ_06","After turning to the sagacious teachings written in his emakimono, Gyorin decides to engage in the prospecting and mining of mineral wealth."
+0,"TEXT_STMBDZ425_02748_SEQ_00","ユヅカ代官屋敷のギョリンは、物珍しそうに冒険者を見ている。"
+1,"TEXT_STMBDZ425_02748_SEQ_01","ギョリンと話した。成り上がり商人になるために、力を貸してほしいのだという。近くの倉にギョリンが集めたものがあるというので、無二江流域にいる「ギョリン」と話そう。"
+2,"TEXT_STMBDZ425_02748_SEQ_02","ギョリンと話した。ギョリンが集めたものを見せてもらったが、ヒトには売れなさそうなものばかりであった。そのことを伝えると、魚釣りをするというギョリン。無二江流域にいる「ギョリン」と話そう。"
+3,"TEXT_STMBDZ425_02748_SEQ_03","ギョリンと話した。魚釣りをしようとしていたところ、釣竿を落としてしまったようだ。無二江流域にある「<Sheet(EventItem,2002327,0)/>」を入手しよう。"
+4,"TEXT_STMBDZ425_02748_SEQ_04","<Sheet(EventItem,2002327,0)/>を入手した。無二江流域にいる「ギョリン」に「<Sheet(EventItem,2002327,0)/>」を渡そう。"
+5,"TEXT_STMBDZ425_02748_SEQ_05","ギョリンに<Sheet(EventItem,2002327,0)/>を渡した。ギョリンは、釣竿を落としてから考えた結果、魚釣り以外の稼ぎ方を考えてみるという。無二江流域の「ギョリン」と話そう。"
+6,"TEXT_STMBDZ425_02748_SEQ_06","ギョリンと話した。絵巻物を読み返して、次は鉱物探しをやってみようと思っていると語るギョリンであった。"
 7,"TEXT_STMBDZ425_02748_SEQ_07",""
 8,"TEXT_STMBDZ425_02748_SEQ_08",""
 9,"TEXT_STMBDZ425_02748_SEQ_09",""
@@ -25,11 +25,11 @@ int32,str,str
 21,"TEXT_STMBDZ425_02748_SEQ_21",""
 22,"TEXT_STMBDZ425_02748_SEQ_22",""
 23,"TEXT_STMBDZ425_02748_SEQ_23",""
-24,"TEXT_STMBDZ425_02748_TODO_00","Speak with Gyorin."
-25,"TEXT_STMBDZ425_02748_TODO_01","Speak with Gyorin once more."
-26,"TEXT_STMBDZ425_02748_TODO_02","Find Gyorin's fishing rod."
-27,"TEXT_STMBDZ425_02748_TODO_03","Return Gyorin's fishing rod to him."
-28,"TEXT_STMBDZ425_02748_TODO_04","Speak with Gyorin."
+24,"TEXT_STMBDZ425_02748_TODO_00","ギョリンと話す"
+25,"TEXT_STMBDZ425_02748_TODO_01","ギョリンと再度話す"
+26,"TEXT_STMBDZ425_02748_TODO_02","<Sheet(EventItem,2002327,0)/>を入手"
+27,"TEXT_STMBDZ425_02748_TODO_03","ギョリンに<Sheet(EventItem,2002327,0)/>を渡す"
+28,"TEXT_STMBDZ425_02748_TODO_04","ギョリンと話す"
 29,"TEXT_STMBDZ425_02748_TODO_05",""
 30,"TEXT_STMBDZ425_02748_TODO_06",""
 31,"TEXT_STMBDZ425_02748_TODO_07",""
@@ -49,40 +49,93 @@ int32,str,str
 45,"TEXT_STMBDZ425_02748_TODO_21",""
 46,"TEXT_STMBDZ425_02748_TODO_22",""
 47,"TEXT_STMBDZ425_02748_TODO_23",""
-48,"TEXT_STMBDZ425_02748_GYORIN_000_000","You look not as one who hails from here. May I inquire, are you a traveler, an adventurer? If so, there is a deed I would ask of you. "
-49,"TEXT_STMBDZ425_02748_GYORIN_000_001","But before we delve into details, introductions are in order. I am Gyorin, Gyorin I am. I live in this shack with others like myself. And I, like many, have a dream. Yes, yes."
-50,"TEXT_STMBDZ425_02748_GYORIN_000_002","I aspire to become the greatest of merchants! To be rich, to be wealthy, beyond compare. And then to have an apron made for me that is mine and mine alone. Yes, yes, that is my dream."
-51,"TEXT_STMBDZ425_02748_GYORIN_000_003","Among the many treasures in our shack are a collection of emakimono that someone left behind. Beautiful pictures, wise words. One tells the ancient tale of a poor merchant who rose to great heights. Yes, yes. Ever since reading that, I have dreamt of doing the same."
-52,"TEXT_STMBDZ425_02748_GYORIN_000_004","In that very tale, an able adventurer much like yourself appeared. Quite clever, quite knowing. He gifted to the merchant his wisdom, his ways. And lo, here you are! It can be no mere coincidence. It is fate, destiny!"
-53,"TEXT_STMBDZ425_02748_GYORIN_000_005","You must forgive my manners. In my excitement I neglected to ask your name, your title. Might I have it?"
-54,"TEXT_STMBDZ425_02748_GYORIN_000_006","<Highlight>ObjectParameter(1)</Highlight>, is it? Then I shall call you <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Yes, yes, that will do nicely. Now, where were we?"
-55,"TEXT_STMBDZ425_02748_GYORIN_000_007","Ah, of course. I was hoping to enlist your aid in my rise through the merchant ranks. I'm afraid I am quite forgetful these days. I am, I am."
-56,"TEXT_STMBDZ425_02748_GYORIN_000_008","My storehouse lies not far from here. Would you do me the honor of paying a visit? I keep all my wares there. My treasures, my trinkets. I should very much like to hear your honest appraisal. Yes, yes."
-57,"TEXT_STMBDZ425_02748_GYORIN_000_009","Come, then, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. You need only follow me. This way, this way."
-58,"TEXT_STMBDZ425_02748_GYORIN_100_010","I'll be right back with it. You need only wait a moment!"
-59,"TEXT_STMBDZ425_02748_GYORIN_000_010","Here we are! My pride, my passion. This is a collection of everything I have come to gather, to own. It is quite remarkable, is it not? Amazing, astounding."
-60,"TEXT_STMBDZ425_02748_GYORIN_000_011","Here we have grilled mayflies. Oh, and here some desiccated toad. And this lovely vase here simply begs to have things placed within it, does it not? Yes, yes, it does."
-61,"TEXT_STMBDZ425_02748_GYORIN_000_012","Well, what do you think? Come now, be honest, be true. What do your eyes see that will fetch a fair price at market? Hm?"
-62,"TEXT_STMBDZ425_02748_Q1_000_000","What will you say?"
-63,"TEXT_STMBDZ425_02748_A1_000_001","None. There is nothing here I would part with a single gil for."
-64,"TEXT_STMBDZ425_02748_A1_000_002","Too many to count. It is truly a trove fit for a dragon."
-65,"TEXT_STMBDZ425_02748_GYORIN_000_013","A-Are you sure? But I have spent days, years, collecting it all. Surely there must be something of value, of worth. I just... I don't... I can't..."
-66,"TEXT_STMBDZ425_02748_GYORIN_000_014","You are very gracious, very kind. Just as the adventurer in the emakimono. But your eyes betray your words. It is plain you see nothing of value here, nothing of worth."
-67,"TEXT_STMBDZ425_02748_GYORIN_000_015","Nevertheless, a dream is a dream. And I shall not relent. No, no. I will find another path to greatness, another way to obtain what people desire. For I am destined to be a merchant of renown. Yes, yes!"
-68,"TEXT_STMBDZ425_02748_GYORIN_000_016","Now, bearing all that in mind... Whatever shall I do? Hm, hm?"
-69,"TEXT_STMBDZ425_02748_GYORIN_000_017","Yes, yes, I do believe an idea has come to me. Fish! People eat fish, and so it stands to reason they must buy them, purchase them."
-70,"TEXT_STMBDZ425_02748_GYORIN_000_018","I will take to fishing to provision my own supply, my own stock. I will bring my catch to you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, and with your adventuring wisdom you can tell me which fish will sell and which will not."
-71,"TEXT_STMBDZ425_02748_GYORIN_000_019","Your kind and mine have very different tastes, different likes. Yes, yes, we do. It will fall to you to enlighten me as to which fish agree with the palates of men. Until then, I shall await you by the water!"
-72,"TEXT_STMBDZ425_02748_GYORIN_000_030","Oh, this will not serve. It will not serve at all. No, no."
-73,"TEXT_STMBDZ425_02748_GYORIN_000_031","I set out to fish, just as we had spoken about when last we met. But I am ashamed to admit, I...I slipped on some wet stone and my rod, my pole, it... I dropped it, lost it. Yes, yes, it is gone."
-74,"TEXT_STMBDZ425_02748_GYORIN_000_032","And before you ask, no, no I could not retrieve it. I am a Namazu of the city, not of the wild. To cast myself into a running river is tantamount to taking my own life!"
-75,"TEXT_STMBDZ425_02748_GYORIN_000_033","Will you help me in this, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>? Will you find my rod and retrieve it, return it? It is very dear to me. Yes, yes, it is. Please, I beg this of you. I know not where else to turn."
-76,"TEXT_STMBDZ425_02748_GYORIN_000_034","Will you help me, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>? Will you find my rod and retrieve it, return it? It is very dear to me. Yes, yes, it is. Please, I beg this of you. I know not where else to turn."
-77,"TEXT_STMBDZ425_02748_GYORIN_000_040","My precious pole, my irreplaceable rod. I am but half a man without it."
-78,"TEXT_STMBDZ425_02748_GYORIN_000_041","My rod! You found it! As I knew that you would. I owe you a debt of gratitude, of thanks. Yes, yes, I do."
-79,"TEXT_STMBDZ425_02748_GYORIN_000_042","Yet, I confess, I admit, I've been thinking on things since I lost it. Yes, yes, much thinking. It occurred to me, all the Namazu I know are fishmongers. They are, they are, each and every one."
-80,"TEXT_STMBDZ425_02748_GYORIN_000_043","That fact led me to recall another passage I read among my emakimono. It said for one to make their mercantile mark, one must offer something no other merchant does. A new product, a new service."
-81,"TEXT_STMBDZ425_02748_GYORIN_000_044","And so I have made up my mind. I have, I have. I will look for another way to make my fortune. I have given it much thought, but there is much more to give. I will return to my shack and dwell on this some more."
-82,"TEXT_STMBDZ425_02748_GYORIN_000_050","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! You may be happy to hear, joyous to hear. I have put faith in my emakimono. Their wisdom, their insight. They have led me to a new calling! Yes, yes."
-83,"TEXT_STMBDZ425_02748_GYORIN_000_051","I have learned there is a pretty price to be paid for certain ores, certain minerals. And so I shall become a miner, a prospector."
-84,"TEXT_STMBDZ425_02748_GYORIN_000_052","I fear I may inconvenience you again in this endeavor, as I did in the last, the previous. I only hope you are willing to lend your wisdom again. Yes, yes."
+48,"TEXT_STMBDZ425_02748_GYORIN_000_000","ここらへんじゃ見かけない、
+その身なりの感じは……もしかして旅の方？
+そうだとしたら、協力してほしいことがあるんだよん！"
+49,"TEXT_STMBDZ425_02748_GYORIN_000_001","詳しい話をする前にっと……はじめまして、ボクはギョリン！
+このお屋敷にみんなと一緒に住んでいるんだけど、
+とある夢があるんだよねん。"
+50,"TEXT_STMBDZ425_02748_GYORIN_000_002","それは、「成り上がり商人」になること！
+お金持ちになって、ボクだけの特別な前掛けを、
+作るのが夢なんだよねん！　えっへん！"
+51,"TEXT_STMBDZ425_02748_GYORIN_000_003","いやね、お屋敷にあった絵巻物の中に、
+貧乏商人が成功して、大金持ちになる昔話があって……
+それを読んで以来、ボクは成り上がりに夢中なのよん！"
+52,"TEXT_STMBDZ425_02748_GYORIN_000_004","その昔話にはさ、「物知りな旅人」が出てきて、
+商人に、いろんな知恵を貸してくれてたのよねん。
+そこに現れたのが旅の方……これは運命だと思うのよん！"
+53,"TEXT_STMBDZ425_02748_GYORIN_000_005","……そういえば、まだ聞いてなかったけれど、
+あなた、お名前はなんて言うのん？"
+54,"TEXT_STMBDZ425_02748_GYORIN_000_006","<Highlight>ObjectParameter(1)</Highlight>って言うのん？
+じゃあ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>って呼ぶよん！
+……あれ、何の話をしてたんだっけ？"
+55,"TEXT_STMBDZ425_02748_GYORIN_000_007","……そうだ、お手伝いの話だったねん！
+ついつい忘れちゃうところだったよん、
+まったくもう……んふっ♪"
+56,"TEXT_STMBDZ425_02748_GYORIN_000_008","んっとね、近くに倉があるんだけど、
+そこに、ボクがこれまでに集めたいろんなものがあるのん。
+その中に、売れそうなものがないか見てほしいんだよねん！"
+57,"TEXT_STMBDZ425_02748_GYORIN_000_009","さぁ<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、こっちこっち！
+ついて来てね～ん！"
+58,"TEXT_STMBDZ425_02748_GYORIN_100_010","さっそく取ってくるから、ちょっと待っててほしいのねん！"
+59,"TEXT_STMBDZ425_02748_GYORIN_000_010","じゃじゃーん！
+これが、今までボクが集めてきたものたちだよ、
+スゴいでしょ～ん？"
+60,"TEXT_STMBDZ425_02748_GYORIN_000_011","焼いた川虫にぃ、カエルの干物！
+この、と～っても入り心地のいい壺は特にイチオシだよんっ♪"
+61,"TEXT_STMBDZ425_02748_GYORIN_000_012","どうかな、どうかな、
+ヒトに気に入られそうなものはありそうかなん？"
+62,"TEXT_STMBDZ425_02748_Q1_000_000","何と答える？"
+63,"TEXT_STMBDZ425_02748_A1_000_001","すごい、売れそうなものがひとつもない！"
+64,"TEXT_STMBDZ425_02748_A1_000_002","すごい、全部売れそう……"
+65,"TEXT_STMBDZ425_02748_GYORIN_000_013","えぇ、そうなのん！？
+頑張って集めてきたのに、売れるものがないだなんて、
+自慢のヒゲが、ヘナヘナしてきちゃうよん……。"
+66,"TEXT_STMBDZ425_02748_GYORIN_000_014","…………気遣いは無用だよん。
+目が……目がすべてを語りすぎているよん……。
+売れそうなものが、ひとつもないのねん……。"
+67,"TEXT_STMBDZ425_02748_GYORIN_000_015","……でもでも、それなら、ボクの手で、
+ヒトに欲しがられるものを手に入れるしかないのねん！
+商人として、絶対に成り上がってみせるよん！"
+68,"TEXT_STMBDZ425_02748_GYORIN_000_016","……って言ってみたものの、
+何をすればいいのかなぁん？"
+69,"TEXT_STMBDZ425_02748_GYORIN_000_017","……そうだ、魚釣りがいいかもしれないよん！
+お魚なら、ヒトも食べてるから、売れるはずだよねん？"
+70,"TEXT_STMBDZ425_02748_GYORIN_000_018","さっそく釣り場でお魚を釣るとするから、
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>は、釣った魚が、
+ヒトに売れる魚か判別してよん！"
+71,"TEXT_STMBDZ425_02748_GYORIN_000_019","ボクらナマズオとヒトじゃ、好みの魚が違うだろうからねん。
+じゃ、待ってるから来てね～ん！"
+72,"TEXT_STMBDZ425_02748_GYORIN_000_030","ううう……あんまりだよん……。"
+73,"TEXT_STMBDZ425_02748_GYORIN_000_031","釣ろうとしてたら……
+スベって、釣竿を落としちゃったんだよん……うぅ……。"
+74,"TEXT_STMBDZ425_02748_GYORIN_000_032","取ってこれないのか、って言うのん？
+ボクたちのような、野生じゃないナマズオは、
+陸で暮らしてるんだから、おいそれと川は泳げないんだよん！"
+75,"TEXT_STMBDZ425_02748_GYORIN_000_033","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、
+ボクの大事な大事な釣竿を取ってきてくれないかなぁん？
+お願いだよん……うぅ……。"
+76,"TEXT_STMBDZ425_02748_GYORIN_000_034","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、
+ボクの大事な大事な釣竿を取ってきてくれないかなぁん？
+お願いだよん……うぅ……。"
+77,"TEXT_STMBDZ425_02748_GYORIN_000_040","ボクの大事な大事な釣竿……うぅ……。"
+78,"TEXT_STMBDZ425_02748_GYORIN_000_041","こ、これは……ボクの落とした釣竿なんだよん！
+取ってきてくれたのん！？
+ありがとう、うれしいなぁ……んふっ♪"
+79,"TEXT_STMBDZ425_02748_GYORIN_000_042","でも、釣竿を落としちゃってから考えてたんだけれど、
+よくよく思ったら、魚売りって、
+仲間のみんなも、もうやってることなんだよねん……。"
+80,"TEXT_STMBDZ425_02748_GYORIN_000_043","それに、お金持ちになるには、
+ほかのヒトと違うことをやらないとダメだって、
+絵巻物に書いてあったのを思い出したんだよん。"
+81,"TEXT_STMBDZ425_02748_GYORIN_000_044","だから、ほかの稼ぎ方がないか、
+改めていろいろと考えてみることに決めたんだよん！
+……ということで、ボクはお屋敷に戻るねんっ♪"
+82,"TEXT_STMBDZ425_02748_GYORIN_000_050","やぁ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>！
+あれから、絵巻物を読み返していたら、
+新たな発見をしたんだよん！"
+83,"TEXT_STMBDZ425_02748_GYORIN_000_051","なんでも、コウブツってのも、
+モノによってはお金になるらしいとわかったんだよん。
+だから、次はコウブツ探しをやってみようと思うんだよねん！"
+84,"TEXT_STMBDZ425_02748_GYORIN_000_052","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>も付き合ってくれるよねん！？
+よろしくお願いねんっ♪"

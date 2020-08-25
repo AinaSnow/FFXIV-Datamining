@@ -1,9 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANPIX107_03695_SEQ_00","Uin Nee cannot wait another moment to have their bidding done.
+0,"TEXT_BANPIX107_03695_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト受注クラス・ジョブ制限<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+※本クエストは受注時のクラス・ジョブでのみ進行します。
 
-※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
+リダ・ラーンのウィン＝ニイは、急ぎ冒険者に頼みたいことがあるようだ。"
 1,"TEXT_BANPIX107_03695_SEQ_01",""
 2,"TEXT_BANPIX107_03695_SEQ_02",""
 3,"TEXT_BANPIX107_03695_SEQ_03",""
@@ -27,8 +28,10 @@ int32,str,str
 21,"TEXT_BANPIX107_03695_SEQ_21",""
 22,"TEXT_BANPIX107_03695_SEQ_22",""
 23,"TEXT_BANPIX107_03695_SEQ_23",""
-24,"TEXT_BANPIX107_03695_TODO_00","Keep watch at Good Jenanna's Grace, and slay a witchweed for its petals."
-25,"TEXT_BANPIX107_03695_TODO_01","Deliver the witchweed petals to Uin Nee."
+24,"TEXT_BANPIX107_03695_TODO_00","ジェナーナ峠の<Sheet(EObj,2010868,0)/>で見渡し、
+現れた<Sheet(BNpcName,9165,0)/>から
+<Sheet(EventItem,2002928,0)/>を入手"
+25,"TEXT_BANPIX107_03695_TODO_01","ウィン＝ニイに<Sheet(EventItem,2002928,0)/>を渡す"
 26,"TEXT_BANPIX107_03695_TODO_02",""
 27,"TEXT_BANPIX107_03695_TODO_03",""
 28,"TEXT_BANPIX107_03695_TODO_04",""
@@ -51,11 +54,26 @@ int32,str,str
 45,"TEXT_BANPIX107_03695_TODO_21",""
 46,"TEXT_BANPIX107_03695_TODO_22",""
 47,"TEXT_BANPIX107_03695_TODO_23",""
-48,"TEXT_BANPIX107_03695_UINNEE_000_000","Oh, no! I've gone and done it again─forgotten something deathly important! Forgotten what, you say? Silly mortal─that's what I'm trying to remember!"
-49,"TEXT_BANPIX107_03695_UINNEE_000_001","Oh, but of course─witchweed petals! Somehow I've managed to completely exhaust my supply! This simply won't do. No, not at all!"
-50,"TEXT_BANPIX107_03695_UINNEE_000_002","Fortunately, you've turned up just at the right time to help me set things right! It's really most impressive how you always seem to know when I need you. Now, off with you to Good Jenanna's Grace, where the most frilly and flowery of witchweeds roam! Don't worry, I'll look after things here."
-51,"TEXT_BANPIX107_03695_UINNEE_000_010","Oh, look who's back! Did you bring the─wait, what was it that I asked you for again?"
-52,"TEXT_BANPIX107_03695_UINNEE_000_011","But of course! Witchweed petals! How could I forget? Speaking of forgetting, I completely forgot to tell you why I needed them in the first place didn't I?"
-53,"TEXT_BANPIX107_03695_UINNEE_000_012","If you were paying attention─and you always pay attention, don't you─I'm sure you noticed how witchweeds change their petals to resemble the shape of their prey. The poor little creatures approach, thinking they've found a friend, and─GULP! GNASH! No more little creature."
-54,"TEXT_BANPIX107_03695_UINNEE_000_013","<sniff> Poor little things... Anyhow, where was I? Oh yes! If I have witchweed petals, all I need to do is weave a simple spell and I can spin all sorts of cute animals for my little dreamers!"
-55,"TEXT_BANPIX107_03695_UINNEE_000_014","But whatever sort of creature shall I conjure up first? Perhaps a little ladybug? A wriggly worm? Perhaps an army of itsy-bitsy spiders! Wait─how about <Emphasis>all</Emphasis> of them! Yes, I'll simply bury them in bugs! Don't you wish you were a child still so you could dream such lovely dreams?"
+48,"TEXT_BANPIX107_03695_UINNEE_000_000","あぁ～、もうワタシったら！
+なんですっかり忘れちゃってたのかしら……
+アナタに、ひとつお願いしてもいいかしら？"
+49,"TEXT_BANPIX107_03695_UINNEE_000_001","ウィッチウィードを倒して、花弁を採ってきてほしいの……！
+ドジなワタシったら、すっかり在庫が無かったことに、
+ついさっき気づいたのよ……。"
+50,"TEXT_BANPIX107_03695_UINNEE_000_002","ジェナーナ峠のあたりで探せば、大きな花弁を持つ、
+「<Sheet(BNpcName,9165,0)/>」が見つかるはず。
+急なお願いで悪いのだけれど、よろしくね！"
+51,"TEXT_BANPIX107_03695_UINNEE_000_010","どう！？
+「<Sheet(EventItem,2002928,0)/>」は採ってこれた！？"
+52,"TEXT_BANPIX107_03695_UINNEE_000_011","助かったわ、これで一安心よ～！
+……そういえば、急いでお願いしたから、
+なんで花弁が必要か、話してなかったわよね？"
+53,"TEXT_BANPIX107_03695_UINNEE_000_012","ウィッチウィードって、花弁を獲物の姿に擬態させて、
+仲間だと思って近づいてきたところを食べちゃうの。
+油断ならない植物でしょう？"
+54,"TEXT_BANPIX107_03695_UINNEE_000_013","でも、逆に言えば、この花弁に魔法をかけたら、
+いろんな物の姿に変えることができるってこと！
+夢の中で、と～っても重宝するんだからっ♪"
+55,"TEXT_BANPIX107_03695_UINNEE_000_014","アナタが採ってきてくれた花弁も、
+子どもが喜ぶ動物の姿に変えて、夢に運んであげるつもりよ。
+何に変えたら、子どもたち、喜んでくれるかしら……フフフ♪"

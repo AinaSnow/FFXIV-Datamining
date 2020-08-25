@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBSEA117_00414_SEQ_00","Ghimthota, a captain of the watch at the Moraby Drydocks, wishes your aid in dealing with potential intruders."
-1,"TEXT_SUBSEA117_00414_SEQ_01","Ghimthota is convinced that a gang of treacherous pirates aims to sabotage the construction of the <Emphasis>Victory</Emphasis>. Speak with either Urswyrst at the front gate or C'nangho at the rear gate to learn of any suspicious activity."
-2,"TEXT_SUBSEA117_00414_SEQ_02","You have spoken with one of the guards and heard a report concerning a possible saboteur. Make your way to the cliff at Empty Heart and learn what trouble is afoot."
-3,"TEXT_SUBSEA117_00414_SEQ_03","You have confronted the suspicious sailor, and he leaves you with words that send a chill down your spine. Hurry back to the Drydocks and report to Ghimthota."
-4,"TEXT_SUBSEA117_00414_SEQ_04","You have succeeded in preventing the destruction of the <Emphasis>Victory</Emphasis>. It has come to light, however, that the leader of the pirates, Ahtzapfyn, is actually Ahtbyrm's father. Speak with the troubled foreman, and see how he fares."
-5,"TEXT_SUBSEA117_00414_SEQ_05","Though he puts on a brave face, it is clear that Ahtbyrm is deeply shaken by his father's unexpected appearance. Return to Ghimthota and convey Ahtbyrm's gratitude and apologies."
-6,"TEXT_SUBSEA117_00414_SEQ_06","Ghimthota appears convinced that a swift return to work on the <Emphasis>Victory</Emphasis> will soon ease Ahtbyrm's troubled heart. The watch captain thanks you for your assistance, and mentions that the would-be saboteurs have been handed over to the Yellowjackets. There has, however, been an important discovery that she would like to discuss with you."
+0,"TEXT_SUBSEA117_00414_SEQ_00","黒渦団の警備隊長ギムトータは、モラビー造船廠に忍び寄る不審者の対応で、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>の力を借りたいようだ。"
+1,"TEXT_SUBSEA117_00414_SEQ_01","警備隊長ギムトータによると、不審者は新造船「ヴィクトリー号」を狙っている可能性が高いという。正門を守る「ウルスヴィルスト」と、裏門を守る「カ・ナンゴ」が、不審な海賊を目撃したという。どちらかから話を聞こう。"
+2,"TEXT_SUBSEA117_00414_SEQ_02","衛兵に話を聞くことができた。不審な海賊が目撃されたという「エンプティーハート」の崖へ向かい、状況を確認しよう。"
+3,"TEXT_SUBSEA117_00414_SEQ_03","不審な海賊に声をかけたところ、意味深な言葉を吐き、立ち去っていった。警備隊長「ギムトータ」に報告しよう。"
+4,"TEXT_SUBSEA117_00414_SEQ_04","ヴィクトリー号の爆破は、食い止めることができた。しかし、事件を起こした主犯の海賊アーツァフィンは筆頭造船師のアートビルムの父親であった。彼は、身内の起こした事件に責任を感じているようだ。「アートビルム」に話しかけよう。"
+5,"TEXT_SUBSEA117_00414_SEQ_05","筆頭造船師アートビルムは、気丈にふるまうものの、まだショックをひきずっているようだ。彼に依頼されたとおり、「ギムトータ」にアートビルムの謝罪と感謝を伝えよう。"
+6,"TEXT_SUBSEA117_00414_SEQ_06","ギムトータは、筆頭造船師ならば、ヴィクトリー号を完成させることが、身内の不祥事の責任を取るということになると断言した。一方、犯人の海賊は、イエロージャケットに引き渡したそうだが、1つだけ残っているものがあるという。"
 7,"TEXT_SUBSEA117_00414_SEQ_07",""
 8,"TEXT_SUBSEA117_00414_SEQ_08",""
 9,"TEXT_SUBSEA117_00414_SEQ_09",""
@@ -25,11 +25,11 @@ int32,str,str
 21,"TEXT_SUBSEA117_00414_SEQ_21",""
 22,"TEXT_SUBSEA117_00414_SEQ_22",""
 23,"TEXT_SUBSEA117_00414_SEQ_23",""
-24,"TEXT_SUBSEA117_00414_TODO_00","Speak with one of the guards."
-25,"TEXT_SUBSEA117_00414_TODO_01","Find the shifty-eyed sailor."
-26,"TEXT_SUBSEA117_00414_TODO_02","Report to Ghimthota at the Moraby Drydocks."
-27,"TEXT_SUBSEA117_00414_TODO_03","Speak with Ahtbyrm."
-28,"TEXT_SUBSEA117_00414_TODO_04","Speak with Ghimthota."
+24,"TEXT_SUBSEA117_00414_TODO_00","衛兵から話を聞く"
+25,"TEXT_SUBSEA117_00414_TODO_01","不審な海賊を捜索する"
+26,"TEXT_SUBSEA117_00414_TODO_02","ギムトータに報告"
+27,"TEXT_SUBSEA117_00414_TODO_03","アートビルムと話す"
+28,"TEXT_SUBSEA117_00414_TODO_04","ギムトータと話す"
 29,"TEXT_SUBSEA117_00414_TODO_05",""
 30,"TEXT_SUBSEA117_00414_TODO_06",""
 31,"TEXT_SUBSEA117_00414_TODO_07",""
@@ -49,76 +49,135 @@ int32,str,str
 45,"TEXT_SUBSEA117_00414_TODO_21",""
 46,"TEXT_SUBSEA117_00414_TODO_22",""
 47,"TEXT_SUBSEA117_00414_TODO_23",""
-48,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_0","I am concerned, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. It appears that the pirates I had you investigate are on the move."
-49,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_1","They creep ever closer to the Drydocks, so I must assume they mean to target the <Emphasis>Victory</Emphasis> herself."
-50,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_2","That ship is the symbol of everything Limsa Lominsa strives to become, and I will not allow these base scoundrels to lay a single finger upon her hull."
-51,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_3","We must apprehend them before they put their plans into motion! And you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, are just the <If(PlayerParameter(4))>woman<Else/>man</If> to do it."
-52,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_4","Without your capable assistance, I fear the security of the Drydocks cannot be guaranteed."
-53,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_5","Not moments ago, my guards submitted reports of suspicious activity in the area. Pray begin your efforts by listening to one of their accounts firsthand."
-54,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_6","It matters not whom you choose to speak with, but be sure to question either Urswyrst at the front gate or C'nangho at the rear."
-55,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_7","Any suspect saboteurs you encounter during the course of your investigation are to be interrogated. Report any and all findings directly to me."
-56,"TEXT_SUBSEA117_00414_URSWYRST_000_10","Ghimthota sent you to follow up on my report?"
-57,"TEXT_SUBSEA117_00414_URSWYRST_000_11","Well, it was not too long ago that I saw some unsavory sort slinking along the top of the bluff near Empty Heart, just over yonder."
-58,"TEXT_SUBSEA117_00414_URSWYRST_000_12","It may be that he's still about. If you've got the time, adventurer, I'd much appreciate you getting up there to take a look."
-59,"TEXT_SUBSEA117_00414_CNANGHO_000_20","Hail, adventurer. Glad to have another hand aboard to help shore up security."
-60,"TEXT_SUBSEA117_00414_CNANGHO_000_21","The gods know our reports would sit on Ghimthota's desk gathering dust if it weren't for the assistance of those such as yourself."
-61,"TEXT_SUBSEA117_00414_CNANGHO_000_22","Speaking of reports, though, I saw one of those mangy pirates lurking around the cliff near Empty Heart. I'd take a closer look before he has a chance to cover his tracks."
-62,"TEXT_SUBSEA117_00414_CORSAIRFOLLOWA_000_30","Bah, spotted me, did ye? Well, yer too late─what's to 'appen is already 'appenin'."
-63,"TEXT_SUBSEA117_00414_Q1_000_1","Duty calls. Do you wish to proceed with
-“Victory in Peril”?"
-64,"TEXT_SUBSEA117_00414_A1_000_1","Yes"
-65,"TEXT_SUBSEA117_00414_A1_000_2","No"
-66,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_40","So, you found me one of those pirates, did you?"
-67,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_41","I knew you were the right adventurer to ask for aid."
-68,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_42","But what could these knaves be planning? “What's to happen is already happening”...?"
-69,"TEXT_SUBSEA117_00414_MAELSTROM_000_43","Captain! Ungh... Trouble...at the shipyard... <pant>"
-70,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_44","Easy now, soldier. Who did this to you?"
-71,"TEXT_SUBSEA117_00414_MAELSTROM_000_45","<pant> Pirates... Out of nowhere... <cough> Stuck me good..."
-72,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_46","Gods below, we are not prepared for this!"
-73,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_47","The pirates, soldier, how many do they number?"
-74,"TEXT_SUBSEA117_00414_MAELSTROM_000_48","Not sure... More than I could quickly count... Seemed to be carrying...explosives..."
-75,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_49","Explosives!? Then there is no time to lose!"
-76,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_50","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, you heard the situation. Make your way to the shipyard and engage these intruders!"
-77,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_51","I will see to this man's wounds, then follow after."
-78,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_52","Make haste, now!"
-79,"TEXT_SUBSEA117_00414_AHTZAPFYN_000_60","Gahahaha! Never reckoned it'd be this easy! Still don't trust those slimy bastards, but their plan worked like a charm!"
-80,"TEXT_SUBSEA117_00414_AHTBYRM_000_61","Da! What are you doing, you great bloody fool!?"
-81,"TEXT_SUBSEA117_00414_AHTZAPFYN_000_62","Shut yer trap, boy."
-82,"TEXT_SUBSEA117_00414_AHTZAPFYN_000_63","This'll all be over soon. All that's left now is to blow this ugly pile o' driftwood into splinters."
-83,"TEXT_SUBSEA117_00414_AHTBYRM_000_64","Why would you do such a thing!? Have you any idea how important this ship is? What it represents?"
-84,"TEXT_SUBSEA117_00414_AHTZAPFYN_000_65","Aye, an' that's what makes it all the sweeter! Whatever it takes to knock some sense into me treacherous, backstabbin' son!"
-85,"TEXT_SUBSEA117_00414_AHTZAPFYN_000_66","Imagine, a boy o' <Emphasis>mine</Emphasis> givin' up the pirate life to become a shipwright! An' buildin' a bleedin' Maelstrom vessel at that! What under Llymlaen's wide, green ocean made ye take up with these self-righteous shites!?"
-86,"TEXT_SUBSEA117_00414_AHTBYRM_000_67","You're the one with no bloody sense, Da! Don't you see? The pirates had their glory days, but that era is over!"
-87,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_69","Ah! I wondered why Ahtbyrm never spoke of his father. I never would have thought..."
-88,"TEXT_SUBSEA117_00414_AHTZAPFYN_000_70","This ship's a symbol alright─of everythin' what went wrong with the world. An' I mean to shatter it into a hunnerd thousand pieces!"
-89,"TEXT_SUBSEA117_00414AHTBYRM_000_71","Ghimthota! <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! Pray beat the tar out of this bloated sea slug, and make sure no harm comes to the <Emphasis>Victory</Emphasis>!"
-90,"TEXT_SUBSEA117_00414_AHTZAPFYN_000_80","I...I must be gettin' old, lettin' some green 'venturer get the best o' me."
-91,"TEXT_SUBSEA117_00414_AHTBYRM_000_81","Da..."
-92,"TEXT_SUBSEA117_00414_AHTZAPFYN_000_82","<cough> That's one big bloody ship. Big...an' nasty lookin'. Ye made that, did ye...?"
-93,"TEXT_SUBSEA117_00414_AHTBYRM_000_90","My thanks, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I shudder to think what may have become of the <Emphasis>Victory</Emphasis> without your intervention."
-94,"TEXT_SUBSEA117_00414_AHTBYRM_000_91","<sigh> The pirates have made a right mess of things─I'd best get to sorting out the docks."
-95,"TEXT_SUBSEA117_00414_AHTBYRM_000_92","...And my thoughts could use some sorting out as well. Ever did my father have a way of turning my life upside down."
-96,"TEXT_SUBSEA117_00414_AHTBYRM_000_93","Pray convey my thanks─and my apologies─to Ghimthota."
-97,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_100","How fare you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>? I cannot begin to thank you for the role you played in preventing this madness."
-98,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_101","You defended more than a simple ship─you saved the budding hope of Limsa Lominsa from a violent demise. The day was yours."
-99,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_102","It seems our security regimen will require much in the way of improvement if we are to truly keep the Drydocks safe."
-100,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_103","...Ahtbyrm apologizes? Well, I suppose I can understand why he would feel responsible for his father's actions. Of all those involved, this incident was hardest on him."
-101,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_104","But, in time, I believe he will come to a single conclusion: the most fitting way of moving past his anguish is to see the <Emphasis>Victory</Emphasis> completed and in the water."
-102,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_105","Ah, by the by, the pirates we defeated have been handed over to the Yellowjackets. Reyner's men will be taking over the investigation."
-103,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_106","Before the Yellowjackets moved in, however, we recovered a most unusual object. Should you have the time to spare, I would ask of you another favor..."
-104,"TEXT_SUBSEA117_00414_QIB_TODO001","Defeat the pirates and protect the <Emphasis>Victory</Emphasis>!"
-105,"TEXT_SUBSEA117_00414_AHTBYRM_BATTLETALK_01","Da, this is madness!"
-106,"TEXT_SUBSEA117_00414_AHTZAPFYN_BATTLETALK_02","A pirate don't abandon 'is treasures!"
-107,"TEXT_SUBSEA117_00414_AHTBYRM_BATTLETALK_03","My father... You must stop him!"
-108,"TEXT_SUBSEA117_00414_GHIMTHOTA_BATTLETALK_04","Leave him to us.
-<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, C'nangho, to me!"
-109,"TEXT_SUBSEA117_00414_MAMOOJA_BATTLETALK_11","As we agreed, Ahtzapfyn!"
-110,"TEXT_SUBSEA117_00414_CNANGHO_BATTLETALK_12","Mamool Ja mercenaries!?"
-111,"TEXT_SUBSEA117_00414_GHIMTHOTA_BATTLETALK_13","I'll take the Mamool Ja. You focus on Ahtzapfyn."
-112,"TEXT_SUBSEA117_00414_AHTZAPFYN_BATTLETALK_21","Ye've no idea who yer up against!"
-113,"TEXT_SUBSEA117_00414_AHTZAPFYN_BATTLETALK_22","Now, outta me damn way!"
-114,"TEXT_SUBSEA117_00414_AHTBYRM_BATTLETALK_23","Please! You cannot let him win!"
-115,"TEXT_SUBSEA117_00414_CNANGHO_BATTLETALK_31","Ware, adventurer!
-Ahtzapfyn has a crazy glint in his eye..."
-116,"TEXT_SUBSEA117_00414_GHIMTHOTA_BATTLETALK_41","Protect the ship..."
-117,"TEXT_SUBSEA117_00414_CNANGHO_BATTLETALK_42","Captain, I...ugh..."
+48,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_0","まずいぞ……あんたにも何度か調べてもらった、
+不審な海賊どもの動きが、活発化している。"
+49,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_1","連中はどうも、この造船廠に忍び込もうとしているようだ。
+だとすれば、建造中の新造船を狙っている可能性がある。"
+50,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_2","リムサ・ロミンサの希望であるヴィクトリー号に、
+不届者どもの指一本触れさせてなるものか。"
+51,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_3","早急に犯人を捕縛せねば……！
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、お前にも協力してもらいたい。"
+52,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_4","腕が立つ、お前の助力なくして、
+この造船廠を守り抜くことはできないのだ。
+よろしく頼む。"
+53,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_5","現在、部下たちが不審な海賊の目撃報告をあげてきている。
+まずは、彼らから詳しい話を聞いてみてくれ。"
+54,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_6","正門を守る「ウルスヴィルスト」と、
+裏門を担当する「カ・ナンゴ」だ。
+どちらから先に話を聞くかは、お前に任せよう。"
+55,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_7","「不審な海賊」を発見したら、声をかけるんだ。
+状況に変化があったら、私に報告してくれ。
+その後の、対応を検討したいのでな。"
+56,"TEXT_SUBSEA117_00414_URSWYRST_000_10","お前は……ギムトータ隊長がよこした冒険者か。
+不審な海賊についての聞き取り調査だな？"
+57,"TEXT_SUBSEA117_00414_URSWYRST_000_11","ついさっきの話だが……見るからに不審な奴が
+エンプティハート近くの崖の上を歩いていたんだ。"
+58,"TEXT_SUBSEA117_00414_URSWYRST_000_12","俺は持ち場を離れられぬため、追跡かなわなかった。
+まだいるかはわからないが……調べてみてくれ。"
+59,"TEXT_SUBSEA117_00414_CNANGHO_000_20","待っていたぞ、ギムトータ隊長の使いだな？
+これまで、人手不足のせいで、
+不審者への対応が後手に回りがちでな。"
+60,"TEXT_SUBSEA117_00414_CNANGHO_000_21","お前のような腕の立つ冒険者が現れてくれて
+ようやく、こちらも対策に本腰が入れられるよ。"
+61,"TEXT_SUBSEA117_00414_CNANGHO_000_22","件の怪しい奴は、「エンプティハート」近くの崖で佇んでいた。
+何か痕跡を残しているかもしれん。急いで調べてこい。"
+62,"TEXT_SUBSEA117_00414_CORSAIRFOLLOWA_000_30","ちっ、見つかったか。
+だが、一歩遅かったな。
+うちらの計画は、もう動き出したのさ！"
+63,"TEXT_SUBSEA117_00414_Q1_000_1","クエスト「ヴィクトリー号炎上」のバトルを開始しますか？"
+64,"TEXT_SUBSEA117_00414_A1_000_1","はい"
+65,"TEXT_SUBSEA117_00414_A1_000_2","いいえ"
+66,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_40","不審な海賊を見つけてくれたか！"
+67,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_41","やはり、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>に
+協力を仰ぎ正解だった。"
+68,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_42","だが、「計画はもう動き出した」とは、
+いったい何を企んでいる……！？"
+69,"TEXT_SUBSEA117_00414_MAELSTROM_000_43","た……大変です、隊長……っ！"
+70,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_44","ど、どうしたというのだ、その傷はっ！？
+誰にやられた！？"
+71,"TEXT_SUBSEA117_00414_MAELSTROM_000_45","不審者……いや、海賊が、
+この造船ドックに攻め込んできました……！
+自分は、不意を突かれて……！"
+72,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_46","くっ、計画とは、このことだったかっ！？"
+73,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_47","おい、攻めてきた海賊の数は！？"
+74,"TEXT_SUBSEA117_00414_MAELSTROM_000_48","かなりの……人数でした。
+大量の爆発物を用意している……模様です……！"
+75,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_49","敵の動きが速い……！
+ええい、なんということだ！"
+76,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_50","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、聞いてのとおりだ。
+急ぎ、造船ドックへ向かい、侵入した海賊どもを食い止めてくれ！"
+77,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_51","私も、この者の処置を済ませ、すぐ後を追う。"
+78,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_52","頼んだぞ！"
+79,"TEXT_SUBSEA117_00414_AHTZAPFYN_000_60","ハッハッハァ！　こんなに上手くいくとはなぁ！
+薄気味悪りぃ奴らだったが、
+連中が立てた計画に乗って正解だったぜ！"
+80,"TEXT_SUBSEA117_00414_AHTBYRM_000_61","このクソオヤジ、ほどきやがれ！！"
+81,"TEXT_SUBSEA117_00414_AHTZAPFYN_000_62","うるせえ！
+大人しくしてろ、バカ息子が。"
+82,"TEXT_SUBSEA117_00414_AHTZAPFYN_000_63","なぁに、すぐに済む……あとはそのいまいましい船を、
+爆弾で木っ端みじんにしてやりゃあ終わりだ。"
+83,"TEXT_SUBSEA117_00414_AHTBYRM_000_64","なぜ、そんなバカげたことを！？
+このヴィクトリー号が、どれほど重要な船かわからんのか！？"
+84,"TEXT_SUBSEA117_00414_AHTZAPFYN_000_65","だからこそ壊すんだ！
+海賊稼業も継がずに飛び出した、
+バカ息子の目を覚まさせるためよ！！"
+85,"TEXT_SUBSEA117_00414_AHTZAPFYN_000_66","ワシの……海賊の息子が造船師だと！？
+よりによって黒渦団の軍艦ときた！
+海賊を取り締まる片棒かつぐたあ、どういうこった！？"
+86,"TEXT_SUBSEA117_00414_AHTBYRM_000_67","目を覚ますのは、あんただ！
+もう、海賊が好き勝手できる時代じゃねぇ！"
+87,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_69","海賊の頭が、アートビルムの父親だったのか……。"
+88,"TEXT_SUBSEA117_00414_AHTZAPFYN_000_70","すべては、この船があるのが悪いんだ！
+こんな船、このアーツァフィンが、今すぐ粉々にしてやる！！"
+89,"TEXT_SUBSEA117_00414AHTBYRM_000_71","ギムトータ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>！
+このクソオヤジを倒して、ヴィクトリー号を守ってくれ！！"
+90,"TEXT_SUBSEA117_00414_AHTZAPFYN_000_80","ワシも……もうろくしたものだ。
+こんな冒険者ふぜいに倒されるとは……。"
+91,"TEXT_SUBSEA117_00414_AHTBYRM_000_81","オヤジ……！"
+92,"TEXT_SUBSEA117_00414_AHTZAPFYN_000_82","ヘッ……でかい船だな。
+でかくて……いまいましい船だ……。
+それを、お前が……！"
+93,"TEXT_SUBSEA117_00414_AHTBYRM_000_90","……礼を言うぜ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
+あんたがいなけりゃ、ヴィクトリー号は今頃どうなってたか……。"
+94,"TEXT_SUBSEA117_00414_AHTBYRM_000_91","さあて……海賊どもが土足で踏み散らかしやがった、
+大事なドックを片付けねぇと！！"
+95,"TEXT_SUBSEA117_00414_AHTBYRM_000_92","俺のとっちらかった頭の中もな。
+今回の件、オヤジのこと、少し整理してえ……。
+だから悪い、しばらくひとりにしてくれねえか？"
+96,"TEXT_SUBSEA117_00414_AHTBYRM_000_93","ギムトータにも、そう伝えておいてくれ。
+ついでに、俺からの謝罪と礼もな。"
+97,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_100","やあ、今回は、ご苦労だった……
+多大な協力に感謝する。"
+98,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_101","お前が守ってくれたあの船は、
+大袈裟でなくリムサ・ロミンサの希望そのものだ。
+胸を張っていいぞ。"
+99,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_102","我々は、警備体制を一から見直さねばな……。
+このような事態を、再び起こさぬためにも。"
+100,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_103","……アートビルムについては、了解した。
+身内の不祥事だ、責任を感じるのもわかる。
+ヤツが落ち着くまで、見守るとしよう。"
+101,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_104","だが、筆頭造船師のケジメのつけ方など、ただひとつ。
+ヴィクトリー号を立派に完成させることだけ……
+ヤツもすぐに、この答えに思い当たるだろう。"
+102,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_105","そうそう、捕縛した海賊たちの身柄は、
+すでにイエロージャケットへ引き渡した。
+彼らが、しばらくここで取り調べを行うそうだ。"
+103,"TEXT_SUBSEA117_00414_GHIMTHOTA_000_106","ただ、身柄引き渡しの前の調査で、
+奇妙なものが見つかってな……
+よければ、お前に私の話を聞いてほしいのだ。"
+104,"TEXT_SUBSEA117_00414_QIB_TODO001","ヴィクトリー号爆破を防ぐため、アーツァフィンを倒せ！"
+105,"TEXT_SUBSEA117_00414_AHTBYRM_BATTLETALK_01","オヤジ、やめてくれっ！？"
+106,"TEXT_SUBSEA117_00414_AHTZAPFYN_BATTLETALK_02","狙った宝を物にするのが海賊だ！！"
+107,"TEXT_SUBSEA117_00414_AHTBYRM_BATTLETALK_03","みんな、このクソ親父を止めてくれ！"
+108,"TEXT_SUBSEA117_00414_GHIMTHOTA_BATTLETALK_04","任せておけ。
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、カ・ナンゴ、行くぞ！"
+109,"TEXT_SUBSEA117_00414_MAMOOJA_BATTLETALK_11","アーツァフィンよ、契約に基づき加勢する、ぞ！ "
+110,"TEXT_SUBSEA117_00414_CNANGHO_BATTLETALK_12"," マムージャの傭兵だって！？ "
+111,"TEXT_SUBSEA117_00414_GHIMTHOTA_BATTLETALK_13","傭兵は任せろ、お前はアーツァフィンを倒せ！"
+112,"TEXT_SUBSEA117_00414_AHTZAPFYN_BATTLETALK_21","こうなったら、奥の手だ！"
+113,"TEXT_SUBSEA117_00414_AHTZAPFYN_BATTLETALK_22","ふっとびやがれっ！！　"
+114,"TEXT_SUBSEA117_00414_AHTBYRM_BATTLETALK_23","みんな、すまねぇ、もうひと踏ん張りだ！"
+115,"TEXT_SUBSEA117_00414_CNANGHO_BATTLETALK_31","冒険者よ、心せよ
+今の技でアーツァフィンの攻撃力が上がっているぞ！"
+116,"TEXT_SUBSEA117_00414_GHIMTHOTA_BATTLETALK_41","私としたことが……"
+117,"TEXT_SUBSEA117_00414_CNANGHO_BATTLETALK_42","た、隊長すみません……"

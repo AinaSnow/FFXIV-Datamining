@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNZ112_01761_SEQ_00","Jantellot thinks you are ready to try your hand at hunting dragons."
-1,"TEXT_HEAVNZ112_01761_SEQ_01","In light of how easily you dispatched the rheums he previously tasked you with, Jantellot proposes that you hunt down some actual dragons this time. Archaeornis make up the vanguard of the Dravanian Horde, and a number of them roam the snowdrifts to the north of the camp, near Banepool. Jantellot tells you to find and slay three of these scaly, feathered beasts."
-2,"TEXT_HEAVNZ112_01761_SEQ_02","With relative ease, you seek out and slay three archaeornis. Return to the Convictory and let Jantellot know that you did not shirk from this challenge."
-3,"TEXT_HEAVNZ112_01761_SEQ_03","Impressed by the efficiency with which you slew your quarry, Jantellot explains that you would be more than welcome as a member of the Convictors, should you wish to join. They are always in need of more good men and women."
+0,"TEXT_HEAVNZ112_01761_SEQ_00","聖フィネア連隊の露営地のジャントゥローは、ドラゴン族の眷属狩りを始めたいようだ。"
+1,"TEXT_HEAVNZ112_01761_SEQ_01","ジャントゥローから、ドラゴン族の眷属を倒してみるように言われた。クルザス西部高地のツインプールズで、「<Sheet(BNpcName,3481,0)/>」を3体討伐しよう。"
+2,"TEXT_HEAVNZ112_01761_SEQ_02","<Sheet(BNpcName,3481,0)/>を討伐した。聖フィネア連隊の露営地の「ジャントゥロー」に報告しよう。"
+3,"TEXT_HEAVNZ112_01761_SEQ_03","ジャントゥローに報告した。彼は眷属を倒した冒険者の力に感心したようだ。"
 4,"TEXT_HEAVNZ112_01761_SEQ_04",""
 5,"TEXT_HEAVNZ112_01761_SEQ_05",""
 6,"TEXT_HEAVNZ112_01761_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_HEAVNZ112_01761_SEQ_21",""
 22,"TEXT_HEAVNZ112_01761_SEQ_22",""
 23,"TEXT_HEAVNZ112_01761_SEQ_23",""
-24,"TEXT_HEAVNZ112_01761_TODO_00","Slay archaeornis."
-25,"TEXT_HEAVNZ112_01761_TODO_01","Report to Jantellot."
+24,"TEXT_HEAVNZ112_01761_TODO_00","<Sheet(BNpcName,3481,0)/>を討伐"
+25,"TEXT_HEAVNZ112_01761_TODO_01","ジャントゥローに報告"
 26,"TEXT_HEAVNZ112_01761_TODO_02",""
 27,"TEXT_HEAVNZ112_01761_TODO_03",""
 28,"TEXT_HEAVNZ112_01761_TODO_04",""
@@ -49,10 +49,23 @@ int32,str,str
 45,"TEXT_HEAVNZ112_01761_TODO_21",""
 46,"TEXT_HEAVNZ112_01761_TODO_22",""
 47,"TEXT_HEAVNZ112_01761_TODO_23",""
-48,"TEXT_HEAVNZ112_01761_JANTELLOT_000_000","Those rheums you slew last time may have been easy hunting, but I assure you─dragons are not. Even veteran Convictors can find them to be something of a handful sometimes."
-49,"TEXT_HEAVNZ112_01761_JANTELLOT_000_001","If you want to try your hand at it yourself, I suggest you start with some archaeornis. They are great, feathered scalekin monsters and they form part of the Horde's vanguard."
-50,"TEXT_HEAVNZ112_01761_JANTELLOT_000_002","You will find the beasts wandering about to the north, near Banepool. Find three archaeornis and put them down without mercy. Consider it a test of skill, if you will."
-51,"TEXT_HEAVNZ112_01761_JANTELLOT_000_010","Head out towards Banepool and slay three of the archaeornis there. If you're out of your depth, there's no shame in admitting it. I've no desire to send a good <If(PlayerParameter(4))>woman<Else/>man</If> to <If(PlayerParameter(4))>her<Else/>his</If> death."
-52,"TEXT_HEAVNZ112_01761_JANTELLOT_000_030","How did you find those archaeornis? They may not be smart, but they certainly put up a good fight, wouldn't you say?"
-53,"TEXT_HEAVNZ112_01761_JANTELLOT_000_031","Heh, you make it sound easy! But not all of us have had the opportunity to fight at the side of the Azure Dragoon─to see firsthand how best these mighty beasts may be brought down."
-54,"TEXT_HEAVNZ112_01761_JANTELLOT_000_032","Many Ishgardians think we nobles at the Convictory are simply here out of foppery and whim. They scarce understand the risks we take defending Ishgard from the Horde. But I feel perhaps that you understand... If ever you decide you want to join the Convictors, you need but say the word!"
+48,"TEXT_HEAVNZ112_01761_JANTELLOT_000_000","さて、いよいよドラゴン族の眷属狩りといこうじゃないか。
+ここらでの戦いに慣れた、俺たち「聖フィネア連隊」でも、
+苦戦させられることが多い強敵さ。"
+49,"TEXT_HEAVNZ112_01761_JANTELLOT_000_001","眷属の名は、「<Sheet(BNpcName,3481,0)/>」……。
+羽毛があるもんで、デカイ陸鳥って風情の相手だが、
+甲鱗綱の魔物で、ドラゴン族が好んで尖兵として使うんだ。"
+50,"TEXT_HEAVNZ112_01761_JANTELLOT_000_002","ベーンプールを目指して北に進めば、徘徊しているだろうから、
+「<Sheet(BNpcName,3481,0)/>」を見つけたら、3体ばかり狩ってきな。
+お手並み拝見といこうじゃないか。"
+51,"TEXT_HEAVNZ112_01761_JANTELLOT_000_010","ベーンプールを目指して北に進めば、徘徊しているだろうから、
+「<Sheet(BNpcName,3481,0)/>」を見つけたら、3体ばかり狩ってきな。
+お手並み拝見といこうじゃないか。"
+52,"TEXT_HEAVNZ112_01761_JANTELLOT_000_030","よう、どうだった？
+知性がない眷属とはいえ、なかなかの強敵だったろう？"
+53,"TEXT_HEAVNZ112_01761_JANTELLOT_000_031","……って、ありゃ。
+その様子だと、余裕だったみたいだな！
+いやはや、お見それしやしたってモンだぜ、チクショウ！"
+54,"TEXT_HEAVNZ112_01761_JANTELLOT_000_032","しかし、もったいないぜ……。
+お前が入隊希望者だったら、真っ先に俺の直属にするのによ。
+そうすりゃ、楽して出世間違いなしだもんな！　ガハハハ！"

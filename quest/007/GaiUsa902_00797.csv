@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSA902_00797_SEQ_00","Ademar is in the dark and needs an adventurer's aid."
-1,"TEXT_GAIUSA902_00797_SEQ_01","Ademar has exhausted his supply of lantern oil, making it impossible for him to prospect at night. Procure an alternate light source for him by weakening bright balloons and then capturing them with his lamps."
-2,"TEXT_GAIUSA902_00797_SEQ_02","You have successfully fashioned two balloon lamps. Deliver them to Ademar."
-3,"TEXT_GAIUSA902_00797_SEQ_03","Ademar expresses his thanks, then promptly returns to his digging. The life of a prospector affords little time for idle banter."
+0,"TEXT_GAIUSA902_00797_SEQ_00","山師の岩窟の山師アデマルは、夜間作業の必需品を調達してきて欲しいようだ。"
+1,"TEXT_GAIUSA902_00797_SEQ_01","夜を徹しての作業の前に、ランプが切れてしまったらしい。<Sheet(BNpcName,2189,0)/>を弱らせてから「<Sheet(EventItem,2000627,0)/>」を使い、「<Sheet(EventItem,2000628,0)/>」を入手しよう。"
+2,"TEXT_GAIUSA902_00797_SEQ_02","<Sheet(EventItem,2000628,0)/>を手に入れることができた。山師の岩窟の「アデマル」に渡そう。"
+3,"TEXT_GAIUSA902_00797_SEQ_03","アデマルは冒険者に感謝しているようだ。夜間も休まぬ山師の仕事……かなり根気のいる作業のようだ。"
 4,"TEXT_GAIUSA902_00797_SEQ_04",""
 5,"TEXT_GAIUSA902_00797_SEQ_05",""
 6,"TEXT_GAIUSA902_00797_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSA902_00797_SEQ_21",""
 22,"TEXT_GAIUSA902_00797_SEQ_22",""
 23,"TEXT_GAIUSA902_00797_SEQ_23",""
-24,"TEXT_GAIUSA902_00797_TODO_00","Weaken and then capture bright balloons with lamps."
-25,"TEXT_GAIUSA902_00797_TODO_01","Deliver the lamps to Ademar."
+24,"TEXT_GAIUSA902_00797_TODO_00","弱らせた<Sheet(BNpcName,2189,0)/>に<Sheet(EventItem,2000627,0)/>を使って捕獲"
+25,"TEXT_GAIUSA902_00797_TODO_01","アデマルに<Sheet(EventItem,2000628,0)/>を渡す"
 26,"TEXT_GAIUSA902_00797_TODO_02",""
 27,"TEXT_GAIUSA902_00797_TODO_03",""
 28,"TEXT_GAIUSA902_00797_TODO_04",""
@@ -49,9 +49,16 @@ int32,str,str
 45,"TEXT_GAIUSA902_00797_TODO_21",""
 46,"TEXT_GAIUSA902_00797_TODO_22",""
 47,"TEXT_GAIUSA902_00797_TODO_23",""
-48,"TEXT_GAIUSA902_00797_ADEMAR_000_000","Pray help me, friend. I've run clean out o' lantern fuel, and I'm afeared I won't make it <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>through the night<Else/>long past sundown</If><Else/><If(LessThan(PlayerParameter(11),17))>long past sundown<Else/>through the night</If></If>."
-49,"TEXT_GAIUSA902_00797_ADEMAR_000_001","I've not tried it meself, but I've heard that ye can fashion makeshift lanterns by sealin' those flying balloons inside these here lamps. 'Course, it might take some coercin' before they goes in, if ye know what I mean."
-50,"TEXT_GAIUSA902_00797_DUMMY_000_010","//: fight balloons, get balloon lamp"
-51,"TEXT_GAIUSA902_00797_ADEMAR_000_010",""
-52,"TEXT_GAIUSA902_00797_ADEMAR_000_020","Were ye able to fashion some lamps for me, friend?"
-53,"TEXT_GAIUSA902_00797_ADEMAR_000_025","Yer a godssend. Thanks to you, <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>I can get back to me diggin'<Else/>I'll be diggin' long past sundown tonight</If><Else/><If(LessThan(PlayerParameter(11),17))>I'll be diggin' long past sundown tonight<Else/>I can get back to me diggin'</If></If>. Them's gold in thar hills, high-ho!♪"
+48,"TEXT_GAIUSA902_00797_ADEMAR_000_000","これから夜通し作業するのに、ランプの油が切れちまってね。
+そこで思ったんだ、「<Sheet(BNpcName,2189,0)/>」を、
+捕まえてくれば油要らずだってね。"
+49,"TEXT_GAIUSA902_00797_ADEMAR_000_001","「<Sheet(BNpcName,2189,0)/>」を適度に弱らせてから、
+この「<Sheet(EventItem,2000627,0)/>」に閉じこめてくれ。
+2体ぶんでいいからさ、お前さん、ちょっと頼まれてくれよ。"
+50,"TEXT_GAIUSA902_00797_DUMMY_000_010","<Sheet(BNpcName,2189,0)/>のHPが減っている時に、「<Sheet(EventItem,2000627,0)/>」を使って燃料を手に入れる×2"
+51,"TEXT_GAIUSA902_00797_ADEMAR_000_010","（★未使用／削除予定★）"
+52,"TEXT_GAIUSA902_00797_ADEMAR_000_020","どうだい？
+<Sheet(BNpcName,2189,0)/>をランプに閉じこめることはできたかい？"
+53,"TEXT_GAIUSA902_00797_ADEMAR_000_025","ありがてぇ、助かったよ。
+こいつさえあれば、夜の採掘も油要らずだな！
+落石落盤に気を付けて～エンヤコラ～っと。"

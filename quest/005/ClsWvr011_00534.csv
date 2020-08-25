@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSWVR011_00534_SEQ_00","Maronne wishes you to reaffirm your desire to join the Weavers' Guild."
-1,"TEXT_CLSWVR011_00534_SEQ_01","Maronne bids you present yourself to the man in charge of guild operations, a towering Roegadyn named Redolent Rose."
-2,"TEXT_CLSWVR011_00534_SEQ_02","Redolent Rose grants you leave to study weaving. After providing you with a sewing needle, he instructs you to hold it as you would if you were about to attempt a stitch, and present yourself for inspection."
+0,"TEXT_CLSWVR011_00534_SEQ_00","裁縫師になり、裁縫師ギルドで学ぶために、しかるべき手続きを行わなければならない。受付のマロンヌは、冒険者の心の準備を確かめたいようだ。"
+1,"TEXT_CLSWVR011_00534_SEQ_01","受付から、裁縫師ギルドマスター、レドレント・ローズを紹介された。裁縫師ギルドの「レドレント・ローズ」に挨拶に行こう。"
+2,"TEXT_CLSWVR011_00534_SEQ_02","レドレント・ローズは、冒険者の裁縫師ギルドへの所属を認めてくれた。彼から受け取った「<Sheet(Item,2442,0)/>」を装備し、再度レドレント・ローズに声をかけよう。"
 3,"TEXT_CLSWVR011_00534_SEQ_03",""
 4,"TEXT_CLSWVR011_00534_SEQ_04",""
 5,"TEXT_CLSWVR011_00534_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_CLSWVR011_00534_SEQ_21",""
 22,"TEXT_CLSWVR011_00534_SEQ_22",""
 23,"TEXT_CLSWVR011_00534_SEQ_23",""
-24,"TEXT_CLSWVR011_00534_TODO_00","Speak with Redolent Rose."
+24,"TEXT_CLSWVR011_00534_TODO_00","レドレント・ローズと話す"
 25,"TEXT_CLSWVR011_00534_TODO_01",""
 26,"TEXT_CLSWVR011_00534_TODO_02",""
 27,"TEXT_CLSWVR011_00534_TODO_03",""
@@ -49,22 +49,45 @@ int32,str,str
 45,"TEXT_CLSWVR011_00534_TODO_21",""
 46,"TEXT_CLSWVR011_00534_TODO_22",""
 47,"TEXT_CLSWVR011_00534_TODO_23",""
-48,"TEXT_CLSWVR011_00534_MARONNE_000","Are you ready to meet the guildmaster? First impressions are everything, and you do <Emphasis>not</Emphasis> want to present yourself poorly."
-49,"TEXT_CLSWVR011_00534_MARONNE_010","I suspected you might need more time. Very well─I shall not rush you."
-50,"TEXT_CLSWVR011_00534_MARONNE_011","Pray return when you have prepared yourself sufficiently. We will be here."
-51,"TEXT_CLSWVR011_00534_MARONNE_020","Excellent! Though I do wonder if your attire is appropriate for the occasion..."
-52,"TEXT_CLSWVR011_00534_MARONNE_021","You will find the esteemed Redolent Rose supervising guild operations over yonder."
-53,"TEXT_CLSWVR011_00534_MARONNE_022","He is... How shall I put this? He is...relentless in his pursuit of excellence."
-54,"TEXT_CLSWVR011_00534_MARONNE_023","So long as you demonstrate that you are similarly committed, he will treat you fairly and with respect."
-55,"TEXT_CLSWVR011_00534_REDOLENTROSE_000","What do we have here? Another adventurer in search of thrills and excitement?"
-56,"TEXT_CLSWVR011_00534_REDOLENTROSE_001","Shall I dance you a merry jig? No? Well, if this fails to please you, I suggest you run along─perhaps the women of the Ruby Road Exchange will be more to your liking."
-57,"TEXT_CLSWVR011_00534_REDOLENTROSE_002","...Oh, so you mean to become a weaver? Then we have something to discuss after all."
-58,"TEXT_CLSWVR011_00534_REDOLENTROSE_003","I shall be blunt─weaving is an art, and, like all true artists, we must make sacrifices and suffer for our craft. So tell me, adventurer: are you prepared to <Emphasis>suffer</Emphasis>?"
-59,"TEXT_CLSWVR011_00534_SYSTEM_Q0","Are you prepared to suffer?"
-60,"TEXT_CLSWVR011_00534_SYSTEM_A0","Yes"
-61,"TEXT_CLSWVR011_00534_SYSTEM_A1","No"
-62,"TEXT_CLSWVR011_00534_REDOLENTROSE_010","Then why are you here? Don't you know what you want? Or is it that you don't like what getting what you want entails? Either way, I don't want you."
-63,"TEXT_CLSWVR011_00534_REDOLENTROSE_020","So you say, but only time will tell."
-64,"TEXT_CLSWVR011_00534_REDOLENTROSE_021","In any case, you'll need equipment to get started. This needle should suffice for now."
-65,"TEXT_CLSWVR011_00534_REDOLENTROSE_022","I need not explain what a needle is, I trust?"
-66,"TEXT_CLSWVR011_00534_REDOLENTROSE_023","Good. Then hold it as you would when sewing, and show me you're ready to begin."
+48,"TEXT_CLSWVR011_00534_MARONNE_000","あら、私に声をかけたということは
+裁縫師ギルドに入門する心の準備ができたのですね。"
+49,"TEXT_CLSWVR011_00534_MARONNE_010","ううん、まだ決められませんか。
+無理もありませんね……"
+50,"TEXT_CLSWVR011_00534_MARONNE_011","あのギルドマスターのもとで修行するとなると
+相当の覚悟が必要となりますから。
+入門したい、と思ったらまた来てください。"
+51,"TEXT_CLSWVR011_00534_MARONNE_020","わかりました！
+わが裁縫師ギルドはあなたのように丈夫……
+いえ、才能あふれる方の入門を歓迎いたします！"
+52,"TEXT_CLSWVR011_00534_MARONNE_021","ギルドマスターの「レドレント・ローズ」様は
+この先の工房にいらっしゃいます。"
+53,"TEXT_CLSWVR011_00534_MARONNE_022","少し……いえ、
+とても個性的ですが、気さくな方ですので
+あまり気負ったりせずに声をかけてください。"
+54,"TEXT_CLSWVR011_00534_MARONNE_023","大丈夫ですよ！
+とって食べたりしませんから ！
+ええ、本当に大丈夫ですからね！！"
+55,"TEXT_CLSWVR011_00534_REDOLENTROSE_000","あら、何？
+私がレドレント・ローズ、この裁縫師ギルドのマスターよ。"
+56,"TEXT_CLSWVR011_00534_REDOLENTROSE_001","美しすぎてよく踊り子と間違えられちゃうのよねえ。
+でも、間違いなく私がギルドマスターよ。
+あなたは入門希望の冒険者さんね。"
+57,"TEXT_CLSWVR011_00534_REDOLENTROSE_002","このギルドの成り立ちについては
+受付のマロンヌからきいたわね？"
+58,"TEXT_CLSWVR011_00534_REDOLENTROSE_003","裁縫師は、見た目は華やかだけど修行はとっても大変なの。
+それでも入門したい？"
+59,"TEXT_CLSWVR011_00534_SYSTEM_Q0","裁縫師ギルドに入門しますか？"
+60,"TEXT_CLSWVR011_00534_SYSTEM_A0","はい"
+61,"TEXT_CLSWVR011_00534_SYSTEM_A1","いいえ"
+62,"TEXT_CLSWVR011_00534_REDOLENTROSE_010","そう、じゃあいいわ。
+私もやる気のない子をいちいち教えるヒマはないもの。"
+63,"TEXT_CLSWVR011_00534_REDOLENTROSE_020","……そう、いい返事ね。
+素直ないい子は大好きよ。
+裁縫師ギルドに入門することを認めてあげましょ。"
+64,"TEXT_CLSWVR011_00534_REDOLENTROSE_021","裁縫師のヒナチョコボちゃんには
+この「<Sheet(Item,2442,0)/>」をあげるわ。
+初心者用の縫い針よ。"
+65,"TEXT_CLSWVR011_00534_REDOLENTROSE_022","まずはこの縫い針を装備してらっしゃい。"
+66,"TEXT_CLSWVR011_00534_REDOLENTROSE_023","装備できたら、もう一度私に声をかけなさい。
+裁縫師としてちゃんと身支度できたか
+きっちり確認させてもらうわ。"

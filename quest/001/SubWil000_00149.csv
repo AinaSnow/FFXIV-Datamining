@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBWIL000_00149_SEQ_00","Wymond would like to know what you think of Ul'dah."
-1,"TEXT_SUBWIL000_00149_SEQ_01","Ever the consummate professional, Wymond has taken the opportunity to task you with a delivery. Do as bade and take his message to Josias at the Pugilists' Guild inside the Platinum Mirage."
-2,"TEXT_SUBWIL000_00149_SEQ_02","The Pugilists' Guild offers protective services, but only to those who can afford it. The unsigned envelope contained the assessment of a petitioner whose finances were found lacking. Alas, the Platinum Mirage is not a charity."
+0,"TEXT_SUBWIL000_00149_SEQ_00","情報屋ワイモンドは、とある書類を格闘士ギルドに届けてほしいようだ。"
+1,"TEXT_SUBWIL000_00149_SEQ_01","「格闘士ギルド」の受付にいる「ヨシアス」に、ワイモンドが用意した「無記名の封書」を届けに行こう。"
+2,"TEXT_SUBWIL000_00149_SEQ_02","「無記名の封書」は、格闘士ギルドで請け負った護衛任務の調査資料だった。依頼人に報酬の支払い能力がないと判断された場合は、当然護衛任務は断る……ということらしい。"
 3,"TEXT_SUBWIL000_00149_SEQ_03",""
 4,"TEXT_SUBWIL000_00149_SEQ_04",""
 5,"TEXT_SUBWIL000_00149_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_SUBWIL000_00149_SEQ_21",""
 22,"TEXT_SUBWIL000_00149_SEQ_22",""
 23,"TEXT_SUBWIL000_00149_SEQ_23",""
-24,"TEXT_SUBWIL000_00149_TODO_00","Deliver the unsigned envelope to Josias."
+24,"TEXT_SUBWIL000_00149_TODO_00","格闘士ギルドのヨシアスに無記名の封書を渡す"
 25,"TEXT_SUBWIL000_00149_TODO_01",""
 26,"TEXT_SUBWIL000_00149_TODO_02",""
 27,"TEXT_SUBWIL000_00149_TODO_03",""
@@ -49,11 +49,22 @@ int32,str,str
 45,"TEXT_SUBWIL000_00149_TODO_21",""
 46,"TEXT_SUBWIL000_00149_TODO_22",""
 47,"TEXT_SUBWIL000_00149_TODO_23",""
-48,"TEXT_SUBWIL000_00149_WYMOND_000_1","So, how're you takin' to Ul'dah, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>? <If(Equal(PlayerParameter(70),1))>Eh? How do I know your name? Heh! Information is my stock and trade, 'venturer. You'd be amazed by what I know.<Else/><If(Equal(PlayerParameter(70),2))>Eh? How do I know your name? Heh! Information is my stock and trade, 'venturer. You'd be amazed by what I know.<Else/><If(Equal(PlayerParameter(70),3))>Make any new friends in high places yet? Hah! Well, when you have the sultana's ear one day, I hope you won't have forgotten about ol' Wymond!<Else/>Eh? How do I know your name? Heh! Information is my stock and trade, 'venturer. You'd be amazed by what I know.</If></If></If>"
-49,"TEXT_SUBWIL000_00149_WYMOND_000_2","Long as you're here, mayhap you can do me a favor an' take this missive to Josias at the Platinum Mirage."
-50,"TEXT_SUBWIL000_00149_WYMOND_000_3","It's just over yonder, an' the man'll even give you some gil for your trouble. If only all work in the city was this easy, eh?"
-51,"TEXT_SUBWIL000_00149_GAGARUNA_000_5","Do you have business with the Platinum Mirage <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>this evening<Else/>this morning</If><Else/><If(LessThan(PlayerParameter(11),17))>today<Else/>this evening</If></If>?"
-52,"TEXT_SUBWIL000_00149_GAGARUNA_000_6","A missive from Wymond? Alright then, let's have a look..."
-53,"TEXT_SUBWIL000_00149_GAGARUNA_000_7","""Bird is barren. Let the hounds feast.“ <sigh> So it goes."
-54,"TEXT_SUBWIL000_00149_GAGARUNA_000_8","Oh, this? Well you see, the guild is often contracted to provide protective services. Unfortunately for this particular petitioner, Wymond's investigation has revealed his finances to be...wanting."
-55,"TEXT_SUBWIL000_00149_GAGARUNA_000_9","Maybe adventurers like you don't mind working for free, but we have a business to run. I myself have four mouths to feed, so this <Emphasis>bird</Emphasis> will have to fend for himself, I'm afraid."
+48,"TEXT_SUBWIL000_00149_WYMOND_000_1","よォ、冒険者。ウルダハには慣れたか？
+ちょうどいい、ひとつ仕事を受けてくれよ。
+何、ガキにもできる簡単な雑用さ。"
+49,"TEXT_SUBWIL000_00149_WYMOND_000_2","「格闘士ギルド」の受付にいる「ヨシアス」に、
+この「無記名の封書」を届けてくれないか？"
+50,"TEXT_SUBWIL000_00149_WYMOND_000_3","ウルダハで最も高い値のつく物は「情報」だ。
+情報屋の俺に恩を売っておいて、損はないぜ？"
+51,"TEXT_SUBWIL000_00149_GAGARUNA_000_5","ワイモンドからの預かりものですって？
+どれどれ、見せてください……。"
+52,"TEXT_SUBWIL000_00149_GAGARUNA_000_6","ふむふむ、なるほど……。
+さすがはウルダハ一番の情報屋、
+彼に仕事を頼んで正解だったようです。"
+53,"TEXT_SUBWIL000_00149_GAGARUNA_000_7","「依頼人に支払い能力ナシ。手を引くことを薦める」
+……と、やはりそうでしたか。"
+54,"TEXT_SUBWIL000_00149_GAGARUNA_000_8","あ、この書類ですか？
+我々格闘士ギルドは、護衛任務も請け負ってましてね。
+これはその依頼人の身辺調査資料ですよ。"
+55,"TEXT_SUBWIL000_00149_GAGARUNA_000_9","格闘士ギルドは体が資本。
+安請け合いはできませんからね。"

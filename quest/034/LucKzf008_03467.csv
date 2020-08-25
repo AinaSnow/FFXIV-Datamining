@@ -1,8 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKZF008_03467_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Haimet is elated to have someone who can aid her."
+0,"TEXT_LUCKZF008_03467_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+ファノヴの里のハイメは、冒険者の身を案じているようだ。"
 1,"TEXT_LUCKZF008_03467_SEQ_01",""
 2,"TEXT_LUCKZF008_03467_SEQ_02",""
 3,"TEXT_LUCKZF008_03467_SEQ_03",""
@@ -26,8 +26,8 @@ Haimet is elated to have someone who can aid her."
 21,"TEXT_LUCKZF008_03467_SEQ_21",""
 22,"TEXT_LUCKZF008_03467_SEQ_22",""
 23,"TEXT_LUCKZF008_03467_SEQ_23",""
-24,"TEXT_LUCKZF008_03467_TODO_00","Deliver the archers' raiments to the archers at Bowrest."
-25,"TEXT_LUCKZF008_03467_TODO_01","Speak with Haimet."
+24,"TEXT_LUCKZF008_03467_TODO_00","射手の露宿にいるヴィースに<Sheet(EventItem,2002887,0)/>を渡す"
+25,"TEXT_LUCKZF008_03467_TODO_01","ハイメと話す"
 26,"TEXT_LUCKZF008_03467_TODO_02",""
 27,"TEXT_LUCKZF008_03467_TODO_03",""
 28,"TEXT_LUCKZF008_03467_TODO_04",""
@@ -50,20 +50,47 @@ Haimet is elated to have someone who can aid her."
 45,"TEXT_LUCKZF008_03467_TODO_21",""
 46,"TEXT_LUCKZF008_03467_TODO_22",""
 47,"TEXT_LUCKZF008_03467_TODO_23",""
-48,"TEXT_LUCKZF008_03467_HAIMET_000_000","As I live and breathe, an ally of Ronka. It just so happens I have a vital task I would entrust to none other. Our Viis on patrol require new raiments, and I would have you deliver them to them at Bowrest."
-49,"TEXT_LUCKZF008_03467_HAIMET_000_001","They should be expecting you. I pray there will not be a repeat of your incident with Chieftainess Almet."
-50,"TEXT_LUCKZF008_03467_HAIMET_000_010","Make your way to Bowrest and deliver fresh archers' garb to our sisters there. I am almost certain they will not shoot you down on sight."
-51,"TEXT_LUCKZF008_03467_VIISHUNTERA03467_000_010","An outsider, come from the village? How did you...?"
-52,"TEXT_LUCKZF008_03467_VIISHUNTERA03467_000_011","Ah, Haimet spoke of you. An ally of Ronka, yes? Welcome to Bowrest."
-53,"TEXT_LUCKZF008_03467_VIISHUNTERA03467_000_012","This outpost serves dual purposes. Here we keep watch for any who would intrude on our home, and also for beasts that would feed it. We must stay ever alert, so that our arrows strike true."
-54,"TEXT_LUCKZF008_03467_VIISHUNTERB03467_000_013","I did not expect an ally of Ronka to come to Bowrest. What brings you here?"
-55,"TEXT_LUCKZF008_03467_VIISHUNTERB03467_000_014","Ah, of course! Haimet said someone would be delivering these to us. They are made specially for archers, and will not impede our movements as stiffer material does."
-56,"TEXT_LUCKZF008_03467_VIISHUNTERB03467_000_015","Every so often invaders will come clad in steel from head to toe. However, their overconfidence makes them blind. Every defense has an opening, and that is where we take aim."
-57,"TEXT_LUCKZF008_03467_VIISHUNTERC03467_000_016","Oh, what a sight! It is not often we see so vaunted a hero as yourself in this remote area. What do you need from me?"
-58,"TEXT_LUCKZF008_03467_VIISHUNTERC03467_000_017","Our new attire, wonderful! Indeed the fabric and design are everything Haimet made them out to be. This will aid us greatly."
-59,"TEXT_LUCKZF008_03467_VIISHUNTERC03467_000_018","The leather is made from the skin of rails, and is unsurpassed in quality. They are bestowed upon all who come of age and complete the rites. The particulars of said rites, well...best save that for another time, lest I give you nightmares. "
-60,"TEXT_LUCKZF008_03467_VIISHUNTERA03467_000_020","Thank you for your delivery. I will remember this well."
-61,"TEXT_LUCKZF008_03467_VIISHUNTERB03467_000_025","I cannot wait to wear this new outfit myself. I would not dare try it on now, however, not while Ronka's ally is standing right in front of me. Come back later if you wish to see it."
-62,"TEXT_LUCKZF008_03467_VIISHUNTERC03467_000_030","It is a great honor to don such magnificent attire. I could ask for none greater, truly."
-63,"TEXT_LUCKZF008_03467_HAIMET_000_040","Unless you have kept one for yourself, I see your deliveries are complete. Thank you."
-64,"TEXT_LUCKZF008_03467_HAIMET_000_041","Although I told them you were coming, I imagine it was an entirely different thing to actually speak with you. It shall not be long until you are accepted as one of our own. May we work together again, ally of Ronka."
+48,"TEXT_LUCKZF008_03467_HAIMET_000_000","ロンカの同盟者さん。
+ちょっと「射手の露宿」までいって、
+見張りに「<Sheet(EventItem,2002887,0)/>」を渡してきてくれないか？"
+49,"TEXT_LUCKZF008_03467_HAIMET_000_001","なに、露宿の者にも、アンタの顔を覚えてもらおうと思ってさ。
+アルメたちのように勘違いされて射かけられるのは、
+アンタももう、こりごりだろ？"
+50,"TEXT_LUCKZF008_03467_HAIMET_000_010","ロンカの同盟者さん。
+ちょっと「射手の露宿」までいって、
+見張りに「<Sheet(EventItem,2002887,0)/>」を渡してきてくれないか？"
+51,"TEXT_LUCKZF008_03467_VIISHUNTERA03467_000_010","里の方からやってきた「外」の者……
+貴様、まさか……？"
+52,"TEXT_LUCKZF008_03467_VIISHUNTERA03467_000_011","やはり貴様が、シャイメが報告してきた、
+ロンカの同盟者か。"
+53,"TEXT_LUCKZF008_03467_VIISHUNTERA03467_000_012","このあたりは、侵入者の見張りと、狩り場を兼ねている。
+間違って射かけぬようこちらも留意するが、
+不用意にはうろつくなよ。"
+54,"TEXT_LUCKZF008_03467_VIISHUNTERB03467_000_013","あら～、あなた、
+うわさのロンカの同盟者さんね？
+どうしたの？"
+55,"TEXT_LUCKZF008_03467_VIISHUNTERB03467_000_014","まあ、<Sheet(EventItem,2002887,0)/>！
+これは射手のために作られているから、とっても動きやすいの。
+どうもありがとう～。"
+56,"TEXT_LUCKZF008_03467_VIISHUNTERB03467_000_015","侵入者は、甲冑で身を固めている者もいるけれど、
+どんなに頑丈な甲冑でも、目は、完全に守ることはできないわ。
+私たちはそこを狙うから、なんの意味もないのよね。"
+57,"TEXT_LUCKZF008_03467_VIISHUNTERC03467_000_016","おや、ロンカの同盟者のお方ではありませんか。
+こんな辺ぴな場所に、なんのご用でしょう？"
+58,"TEXT_LUCKZF008_03467_VIISHUNTERC03467_000_017","新しい、<Sheet(EventItem,2002887,0)/>ですか！
+おろしたての衣は、手触りも抜群ですね。
+届けてくださり、感謝します。"
+59,"TEXT_LUCKZF008_03467_VIISHUNTERC03467_000_018","我々の衣は、レイルから採れる上質な革を使っています。
+里に生まれて、一人前になったら着ることができますが……
+成人の儀は……ううっ、思い出すだけで恐ろしい……。"
+60,"TEXT_LUCKZF008_03467_VIISHUNTERA03467_000_020","<Sheet(EventItem,2002887,0)/>は受け取った。
+感謝する。"
+61,"TEXT_LUCKZF008_03467_VIISHUNTERB03467_000_025","<Sheet(EventItem,2002887,0)/>に早く着替えたいけれど、
+さすがにロンカの同盟者さんが見ていると、恥ずかしいわ～。"
+62,"TEXT_LUCKZF008_03467_VIISHUNTERC03467_000_030","<Sheet(EventItem,2002887,0)/>を着られることは、大きな名誉です。
+ええ、本当に……。"
+63,"TEXT_LUCKZF008_03467_HAIMET_000_040","<Sheet(EventItem,2002887,0)/>を渡してきてくれたようだね。
+ありがとう。"
+64,"TEXT_LUCKZF008_03467_HAIMET_000_041","みな、事前に報告だけは受けていたようだが……
+実際に交流することで、より仲間だと認識してくれるだろう。
+これからもどうぞよろしく、ロンカの同盟者さん。"

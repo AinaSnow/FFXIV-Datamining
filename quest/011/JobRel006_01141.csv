@@ -1,14 +1,16 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_JOBREL006_01141_SEQ_00","Brangwine wants to confirm your interest in one of her mysterious maps."
-1,"TEXT_JOBREL006_01141_SEQ_01","Brangwine is willing to give you a mysterious map in exchange for essentially robbing the dead. Though you cannot help but be suspicious as to her motivation, you must do as bid if you would be king of your kitchen. The personal effects of your slain peers are likely to be found where the deadliest creatures in the land prowl.
+0,"TEXT_JOBREL006_01141_SEQ_00","レヴナンツトールのブラングワインは、謎めいた地図の交換に応じてくれるようだ。"
+1,"TEXT_JOBREL006_01141_SEQ_01","ブラングワインは、彼女の持つ謎めいた地図と冒険者の遺留品を交換してくれるらしい。「コンテンツルーレット：レベル50・60・70ダンジョン」を攻略し、「冒険者の遺留品」を入手しよう。
 
-※The key item can be obtained by clearing a dungeon via Duty Roulette: Level 50/60/70 Dungeons."
-2,"TEXT_JOBREL006_01141_SEQ_02","You have acquired a sack bearing the personal effects of some hapless adventurer. Return to Revenant's Toll and present it to Brangwine."
-3,"TEXT_JOBREL006_01141_SEQ_03","You hand over the sack of adventurer's effects to Brangwine, and for your troubles receive a mysterious map. Now you, too, can be king of your kitchen...if indeed that is your heart's desire.
+※「冒険者の遺留品」は、クエストを受注している状態で「コンテンツルーレット：レベル50・60・70ダンジョン」を攻略することで入手できます。"
+2,"TEXT_JOBREL006_01141_SEQ_02","冒険者の遺留品を入手することができた。レヴナンツトールの「ブラングワイン」に渡そう。"
+3,"TEXT_JOBREL006_01141_SEQ_03","ブラングワインに冒険者の遺留品を渡した。遺留品から得た儲けは、夕飯に還元されることだろう……。また機会があったら、彼女の頼みに応じよう。
 
-※This repeatable quest can be undertaken once daily. Upon completing the quest, it will become available again the following day at <ResetTime>01</ResetTime><If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>1</Case><Case(14)>2</Case><Case(15)>3</Case><Case(16)>4</Case><Case(17)>5</Case><Case(18)>6</Case><Case(19)>7</Case><Case(20)>8</Case><Case(21)>9</Case><Case(22)>10</Case><Case(23)>11</Case></Switch><Else/>12</If> <If(GreaterThanOrEqualTo(TopLevelParameter(218),12))>p.m.<Else/>a.m.</If> (Earth time)."
+※本クエストは、繰り返しの攻略が可能です。最大で毎日1回ずつコンプリートすることができ、コンプリートした日は、クエストを再度受注することができません。クエストを受注した状態で日をまたぎ、翌日にコンプリートした場合は、コンプリートした日の受注権が消費されます。
+
+※次回の攻略は、（地球時間）毎日、<ResetTime>01</ResetTime><If(GreaterThanOrEqualTo(TopLevelParameter(218),12))>午後<Else/>午前</If><If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>0</Case><Case(13)>1</Case><Case(14)>2</Case><Case(15)>3</Case><Case(16)>4</Case><Case(17)>5</Case><Case(18)>6</Case><Case(19)>7</Case><Case(20)>8</Case><Case(21)>9</Case><Case(22)>10</Case><Case(23)>11</Case></Switch><Else/>0</If>時から、受注可能です。リセット日までお待ちください。"
 4,"TEXT_JOBREL006_01141_SEQ_04",""
 5,"TEXT_JOBREL006_01141_SEQ_05",""
 6,"TEXT_JOBREL006_01141_SEQ_06",""
@@ -29,8 +31,9 @@ int32,str,str
 21,"TEXT_JOBREL006_01141_SEQ_21",""
 22,"TEXT_JOBREL006_01141_SEQ_22",""
 23,"TEXT_JOBREL006_01141_SEQ_23",""
-24,"TEXT_JOBREL006_01141_TODO_00","Obtain a sack of adventurer's effects by clearing a dungeon via Duty Roulette: Level 50/60/70 Dungeons."
-25,"TEXT_JOBREL006_01141_TODO_01","Deliver the sack of adventurer's effects to Brangwine."
+24,"TEXT_JOBREL006_01141_TODO_00","コンテンツルーレット：レベル50・60・70ダンジョンを
+攻略して冒険者の遺留品を入手"
+25,"TEXT_JOBREL006_01141_TODO_01","ブラングワインに冒険者の遺留品を渡す"
 26,"TEXT_JOBREL006_01141_TODO_02",""
 27,"TEXT_JOBREL006_01141_TODO_03",""
 28,"TEXT_JOBREL006_01141_TODO_04",""
@@ -53,10 +56,21 @@ int32,str,str
 45,"TEXT_JOBREL006_01141_TODO_21",""
 46,"TEXT_JOBREL006_01141_TODO_22",""
 47,"TEXT_JOBREL006_01141_TODO_23",""
-48,"TEXT_JOBREL006_01141_BRANGWINE_000_000","So you are keen on my little proposition? Wonderful! I look forward to rummaging through the personal effects of your slain peers!"
-49,"TEXT_JOBREL006_01141_BRANGWINE_000_001","As I mentioned earlier, these are like to turn up where the deadliest creatures prowl. I promise to have your mysterious map waiting for you upon your return. Then you, too, can luxuriate in a spotless kitchen! "
-50,"TEXT_JOBREL006_01141_BRANGWINE_000_010","The personal effects of slain adventurers are like to turn up where the deadliest creatures prowl. I promise to have your mysterious map waiting for you upon your return. Then you, too, can enjoy a spotless kitchen!"
-51,"TEXT_JOBREL006_01141_BRANGWINE_000_050","Ah, you've returned, young one. And with good tidings, I hope?"
-52,"TEXT_JOBREL006_01141_BRANGWINE_000_055","...Oh my, this is a goodly haul! And you found it all in this sack, you say? Well, that's very considerate of our dearly departed, isn't it? At any rate, with the contents, I should be able to─"
-53,"TEXT_JOBREL006_01141_BRANGWINE_000_056","Oh, deary me, I almost let my little secret slip! Let it suffice to say that I am satisfied with our trade!"
-54,"TEXT_JOBREL006_01141_BRANGWINE_000_057","My thanks, young one. You truly are dependable. Would that I had a <If(PlayerParameter(4))>daughter<Else/>son</If> like you in place of my own hopeless specimen. If you have need of any more mysterious maps, you know what to bring me."
+48,"TEXT_JOBREL006_01141_BRANGWINE_000_000","おばちゃんの持ってる「謎めいた地図」が欲しいなら、
+「冒険者の遺留品」と交換しないかい？"
+49,"TEXT_JOBREL006_01141_BRANGWINE_000_001","それじゃあ、強い魔物がいっぱいいる場所で、
+「冒険者の遺留品」を拾ってきてちょうだい！
+そうしたら、おばちゃんの地図と交換してあげるからねぇ。"
+50,"TEXT_JOBREL006_01141_BRANGWINE_000_010","それじゃあ、強い魔物がいっぱいいる場所で、
+「冒険者の遺留品」を拾ってきてちょうだい！
+そうしたら、おばちゃんの地図と交換してあげるからねぇ。"
+51,"TEXT_JOBREL006_01141_BRANGWINE_000_050","あぁ、アンタかい。
+どうだい、「冒険者の遺留品」は手に入ったかい？"
+52,"TEXT_JOBREL006_01141_BRANGWINE_000_055","あらま～、これは確かに「冒険者の遺留品」だねぇ！
+財布のひとつでも入ってれば、
+今晩のおかずが一品増やせるよ。"
+53,"TEXT_JOBREL006_01141_BRANGWINE_000_056","はぁ、シワクチャの地図なんて拾ってくる愚息じゃなくて、
+アンタみたいに強そうな<If(PlayerParameter(4))>娘<Else/>息子</If>がいたら、
+ウチの家計も助かるのにねぇ……。"
+54,"TEXT_JOBREL006_01141_BRANGWINE_000_057","さて、お礼に「謎めいた地図」をあげようかねぇ。
+それじゃあ、また今度もよろしく頼むわよぉ。"

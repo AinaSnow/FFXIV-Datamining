@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSA102_00716_SEQ_00","Blaisette is troubled by something she saw."
-1,"TEXT_GAIUSA102_00716_SEQ_01","Blaisette swears she saw a child playing atop the roof of the hut at night. Investigate the scene and put her mind at rest."
-2,"TEXT_GAIUSA102_00716_SEQ_02","Upon climbing atop the roof, you discover an undersized cane. Might it offer a clue as to the identity of the mysterious figure? Return to Blaisette and see what she makes of it."
-3,"TEXT_GAIUSA102_00716_SEQ_03","Blaisette believes the cane you found belongs to a sylph. It would seem she mistook one of their kind for a child. Deliver the cane to a sylph named Dellexia, who abides in Little Solace."
-4,"TEXT_GAIUSA102_00716_SEQ_04","The cane was indeed one of Dellexia's prized possessions. Profuse with gratitude over its return, Dellexia promises her friendship and cooperation. Continue to seek out ways to provide succor to the sylphs, that you might fully earn their trust."
+0,"TEXT_GAIUSA102_00716_SEQ_00","ホウソーンの山塞のブレゼットには、調べてほしいことがあるようだ。"
+1,"TEXT_GAIUSA102_00716_SEQ_01","昨晩、屋根の上で遊んでいた子どもらしき影が気になっているというブレゼット。ホウソーンの山塞の屋根に登り、子どもらしき影の痕跡を探そう。"
+2,"TEXT_GAIUSA102_00716_SEQ_02","屋根の上で、影の痕跡を見つけることができた。ホウソーンの山塞にいる「ブレゼット」に「<Sheet(EventItem,2000575,0)/>」と「<Sheet(EventItem,2000576,0)/>」を渡そう。"
+3,"TEXT_GAIUSA102_00716_SEQ_03","屋根の上で遊んでいたのは、シルフ族だった。シルフの仮宿にいるシルフ族の「デレシア」に「<Sheet(EventItem,2000575,0)/>」を渡そう。"
+4,"TEXT_GAIUSA102_00716_SEQ_04","<Sheet(EventItem,2000575,0)/>は、やはりシルフ族の落とし物だった。デレシアは冒険者に深く感謝してくれたようだ。今後もシルフ族への協力を重ね、彼らの信頼を勝ち取ろう。"
 5,"TEXT_GAIUSA102_00716_SEQ_05",""
 6,"TEXT_GAIUSA102_00716_SEQ_06",""
 7,"TEXT_GAIUSA102_00716_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_GAIUSA102_00716_SEQ_21",""
 22,"TEXT_GAIUSA102_00716_SEQ_22",""
 23,"TEXT_GAIUSA102_00716_SEQ_23",""
-24,"TEXT_GAIUSA102_00716_TODO_00","Scour the roof for signs of a visitor."
-25,"TEXT_GAIUSA102_00716_TODO_01","Deliver the small cane to Blaisette."
-26,"TEXT_GAIUSA102_00716_TODO_02","Deliver the small cane to Dellexia."
+24,"TEXT_GAIUSA102_00716_TODO_00","屋根の上で影の痕跡を探す"
+25,"TEXT_GAIUSA102_00716_TODO_01","ブレゼットに<Sheet(EventItem,2000575,0)/>と<Sheet(EventItem,2000576,0)/>を渡す"
+26,"TEXT_GAIUSA102_00716_TODO_02","シルフの仮宿のデレシアに<Sheet(EventItem,2000575,0)/>を渡す"
 27,"TEXT_GAIUSA102_00716_TODO_03",""
 28,"TEXT_GAIUSA102_00716_TODO_04",""
 29,"TEXT_GAIUSA102_00716_TODO_05",""
@@ -49,15 +49,30 @@ int32,str,str
 45,"TEXT_GAIUSA102_00716_TODO_21",""
 46,"TEXT_GAIUSA102_00716_TODO_22",""
 47,"TEXT_GAIUSA102_00716_TODO_23",""
-48,"TEXT_GAIUSA102_00716_BLAISETTE_000_000","Ahhh! I shan't get a wink of sleep until I find out who it was!"
-49,"TEXT_GAIUSA102_00716_BLAISETTE_000_001","Hear my tale, adventurer! Last night, upon returning from my patrol, I caught sight of a child playing atop the roof. Fearing for the little one's safety, I called out, but the child promptly vanished."
-50,"TEXT_GAIUSA102_00716_BLAISETTE_000_002","Now, we haven't received word of any missing children, but if there were even a chance... <sigh> Were it not for my duties here, I would be out searching now. Might I trouble you to climb to the roof and investigate in my stead?"
-51,"TEXT_GAIUSA102_00716_TODO_000_010",""
-52,"TEXT_GAIUSA102_00716_BLAISETTE_000_030","Ah! You have returned! Tell me all that you have learned!"
-53,"TEXT_GAIUSA102_00716_BLAISETTE_000_035","...Hm? Found this cane atop the roof, you say? 'Tis far too small for our use. I'd wager it belongs to one of the sylphs of Little Solace, the settlement to the east."
-54,"TEXT_GAIUSA102_00716_BLAISETTE_000_036","Well, I suppose that solves the mystery. It would seem that the “child” I saw was in fact a sylph. And I was so worried..."
-55,"TEXT_GAIUSA102_00716_BLAISETTE_000_037","At any rate, we should return the cane to its rightful owner. Please take it to a sylph named Dellexia in Little Solace─she will know what to do with it. And while you are there, tell her in no uncertain terms that her people should not wander the forest at night."
-56,"TEXT_GAIUSA102_00716_DELLEXIA_000_060","What brings walking one to the abode of these ones?"
-57,"TEXT_GAIUSA102_00716_DELLEXIA_000_065","Walking one brings cane! This one was looking under every leaf and flower for cane. This one's heart is full of joy. "
-58,"TEXT_GAIUSA102_00716_DELLEXIA_000_066","Walking one is kind, like seedseeing one. This one likes kind ones."
-59,"TEXT_GAIUSA102_00716_DELLEXIA_000_067","This one will be friend to kind one. Kind one has this one's word!"
+48,"TEXT_GAIUSA102_00716_BLAISETTE_000_000","深夜、森の見回りをしていた際に、
+屋根の上で子どもらしき影が遊んでいるのをみかけてな。"
+49,"TEXT_GAIUSA102_00716_BLAISETTE_000_001","だが、注意しようと思った時には、
+そこには誰の姿もなかった。"
+50,"TEXT_GAIUSA102_00716_BLAISETTE_000_002","私の見間違えであったのなら、それでいい。
+だがもし、本当に子どもが遊んでいたのなら事だ。
+屋根に登って影の正体を探ってほしいのだが……頼めるか？"
+51,"TEXT_GAIUSA102_00716_TODO_000_010","謎の小さな影の痕跡を探す*4 
+⇒小さな杖・シルフの葉*3が見つかる"
+52,"TEXT_GAIUSA102_00716_BLAISETTE_000_030","屋根の上で遊んでいた影のこと、
+なにかわかったか？"
+53,"TEXT_GAIUSA102_00716_BLAISETTE_000_035","この杖は……
+おそらく、東に住んでいるシルフ族のものだ。
+こちらの葉は、シルフ族の体から落ちたものだろう。"
+54,"TEXT_GAIUSA102_00716_BLAISETTE_000_036","どうやら私は、ここへ遊びに来たシルフ族を
+人の子どもと見間違えたようだな。"
+55,"TEXT_GAIUSA102_00716_BLAISETTE_000_037","この杖を「シルフの仮宿」に住んでいる
+「デレシア」というシルフ族に届けてくれないか？
+きっと杖を失くして、困っているだろうからな。"
+56,"TEXT_GAIUSA102_00716_DELLEXIA_000_060","なにか、わたぴにご用でふっち？"
+57,"TEXT_GAIUSA102_00716_DELLEXIA_000_065","これは……シルフ族の杖でふっちね！
+きっと、わたぴの仲間が落っことちたのでふっち。
+届けてくれて、すっごくありがとなのでふっち！"
+58,"TEXT_GAIUSA102_00716_DELLEXIA_000_066","あなた、親切なヒトでふっち～。
+まるでカヌ・エみたいなのでふっち。"
+59,"TEXT_GAIUSA102_00716_DELLEXIA_000_067","これからも仲良くちてほちいのでふっち！
+約束なのでふっち！"

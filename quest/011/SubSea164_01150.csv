@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBSEA164_01150_SEQ_00","Learned men write that he who is wroth feels not the <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>approach of night<Else/>morning sun</If><Else/><If(LessThan(PlayerParameter(11),17))>sun overhead<Else/>approach of night</If></If>, and Alyrloef certainly seems insensible to all but his pressing need for your service."
-1,"TEXT_SUBSEA164_01150_SEQ_01","Sergeant Roehanth's presence is missed at Tidegate, and Alyrloef bids you hurry to the Founder's Crypt to find him. Speak to Roehanth, but remember that one disturbs a man at his devotions at one's own peril."
-2,"TEXT_SUBSEA164_01150_SEQ_02","Fortunately, you catch Roehanth at the end of his orisons, and the sight of the flowers in your hands disposes him favorably towards you. Place the spring stars on the grave."
-3,"TEXT_SUBSEA164_01150_SEQ_03","The clean scent of spring stars lifts the gloom of this lonely place, and Roehanth's aspect loses much of that brooding look. There is a tale that brings the rough Roegadyn soldier to his knees thus, one you may learn yet by speaking to him."
-4,"TEXT_SUBSEA164_01150_SEQ_04","Before Roehanth, a headstone. Under the stone, a settler named Aerghaemr who breathed his last not on his farm, but holding a trail against the Sahagin as his comrades made their escape. Such is the man that this sergeant and former corsair has chosen as his lodestar."
+0,"TEXT_SUBSEA164_01150_SEQ_00","北防波壁の黒渦団員アリルーフ甲軍曹は、同僚の遅刻に苛立っているようだ。"
+1,"TEXT_SUBSEA164_01150_SEQ_01","アリルーフ甲軍曹の同僚は、墓参りに出かけているようだ。「エールグヘームルの墓」に行き「ルーハンド甲軍曹」に話しかけよう。"
+2,"TEXT_SUBSEA164_01150_SEQ_02","ルーハンド甲軍曹に話した。目の前にある「エールグヘームルの墓」に「<Sheet(EventItem,2000972,0)/>」を手向けよう。"
+3,"TEXT_SUBSEA164_01150_SEQ_03","エールグヘームルの墓に、<Sheet(EventItem,2000972,0)/>を手向けた。もう一度「ルーハンド甲軍曹」に話しかけよう。"
+4,"TEXT_SUBSEA164_01150_SEQ_04","ルーハンド甲軍曹が祈りを捧げていた墓は「エールグヘームル」という農夫のものだという。彼が足繁く墓を訪れるのは、サハギン族との戦いの意味やそれによる犠牲者を忘れないためであるらしい。"
 5,"TEXT_SUBSEA164_01150_SEQ_05",""
 6,"TEXT_SUBSEA164_01150_SEQ_06",""
 7,"TEXT_SUBSEA164_01150_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_SUBSEA164_01150_SEQ_21",""
 22,"TEXT_SUBSEA164_01150_SEQ_22",""
 23,"TEXT_SUBSEA164_01150_SEQ_23",""
-24,"TEXT_SUBSEA164_01150_TODO_00","Speak with Sergeant Roehanth."
-25,"TEXT_SUBSEA164_01150_TODO_01","Place the flowers on the Founder's Crypt."
-26,"TEXT_SUBSEA164_01150_TODO_02","Speak with Sergeant Roehanth."
+24,"TEXT_SUBSEA164_01150_TODO_00","ルーハンド甲軍曹と話す"
+25,"TEXT_SUBSEA164_01150_TODO_01","エールグヘームルの墓に<Sheet(EventItem,2000972,0)/>を使う"
+26,"TEXT_SUBSEA164_01150_TODO_02","ルーハンド甲軍曹と話す"
 27,"TEXT_SUBSEA164_01150_TODO_03",""
 28,"TEXT_SUBSEA164_01150_TODO_04",""
 29,"TEXT_SUBSEA164_01150_TODO_05",""
@@ -49,14 +49,28 @@ int32,str,str
 45,"TEXT_SUBSEA164_01150_TODO_21",""
 46,"TEXT_SUBSEA164_01150_TODO_22",""
 47,"TEXT_SUBSEA164_01150_TODO_23",""
-48,"TEXT_SUBSEA164_01150_ALYRLOE_000_000","Where is Roehanth? I told that barnacle the engineers were letting us take the new cannon out for a test. The Twelve know when the mood will next strike those hugger-muggers. "
-49,"TEXT_SUBSEA164_01150_ALYRLOE_000_001","Probably over at the crypt again. Morbid, I call it. I like a good wallow now 'n' then, but he broods on dead folk he didn't even know. You go fetch Roehanth, I'd be liable to profane the lichyard by beating him about his thick head with that big stone hourglass."
-50,"TEXT_SUBSEA164_01150_ALYRLOE_000_002","Ah, there I go again, blaspheming the Keeper. Not that I much cared for that poncey─and that's probably 'nother bit of abominating. Here, take these flowers. Roehanth's at the Founder's Crypt. Give him the pretties for the dead, that'll clear my slate with the gods."
-51,"TEXT_SUBSEA164_01150_ROEHANTH_000_010","Rest in the peace of the Twelve, Aerghaemr..."
-52,"TEXT_SUBSEA164_01150_ROEHANTH_000_011","Ah, you bring flowers! Come, no need to be shy, there's plenty of space. Small in life, he who sleeps here is large in death."
-53,"TEXT_SUBSEA164_01150_DUMMY_000_020",""
-54,"TEXT_SUBSEA164_01150_DUMMYTODO_000_020",""
-55,"TEXT_SUBSEA164_01150_ROEHANTH_000_030","You'd never know now there was a hamlet here, would ye? Halfstone, 'twas called, built on the sweat of near ten score brows─and put to the Sahagin's torch. The settlers fought, aye, and how, with not a trained soldier among them."
-56,"TEXT_SUBSEA164_01150_ROEHANTH_000_031","Aerghaemr was one of those, a farmer by trade. He stayed behind to cover the final retreat, asking for as many arrows as could be spared. Then he took off his boots and gave 'em to another, saying it wasn't far where he was going. And here he lies now."
-57,"TEXT_SUBSEA164_01150_ROEHANTH_000_032","Time was, I'd be hard-pressed to imagine doing what he did. Ye don't hold fast to much in a privateer's life. No pirate cap'n's going down with her ship and any cap'n who looks to loyalty more than gold is liable to have his throat slit.
-But now, I got to be better than that, don't I? I got to be more like Aerghaemr."
+48,"TEXT_SUBSEA164_01150_ALYRLOE_000_000","まったく……ルーハンドの奴、
+兵器開発部の試作した新型砲弾の、
+試射をするって言っておいたのに……。"
+49,"TEXT_SUBSEA164_01150_ALYRLOE_000_001","どうせ、また墓参りでもしてるんだろう。
+……あいつは軍人にしては、ちと感傷的すぎるんだよなぁ。
+あんた、ルーハンドの奴を呼んできてもらえないか？"
+50,"TEXT_SUBSEA164_01150_ALYRLOE_000_002","大方、また「エールグヘームルの墓」にでも参ってるんだろう。
+この「<Sheet(EventItem,2000972,0)/>」を渡して、
+墓に手向ければ、奴の気分も晴れるだろうよ。"
+51,"TEXT_SUBSEA164_01150_ROEHANTH_000_010","……エールグヘームル……。
+英霊よ、安らかに眠りたまえ。"
+52,"TEXT_SUBSEA164_01150_ROEHANTH_000_011","これは……かぐわしい花だ、貴公も参りにきたのか。
+さぁ、遠慮することはない。
+その花を墓に手向けたまえ。"
+53,"TEXT_SUBSEA164_01150_DUMMY_000_020","エールグヘームルの墓に花を手向ける。"
+54,"TEXT_SUBSEA164_01150_DUMMYTODO_000_020","（★未使用／削除予定★）"
+55,"TEXT_SUBSEA164_01150_ROEHANTH_000_030","この辺りには「ハーフストーン入植地」という集落があった。
+サハギン族の強襲を受けて全滅してしまったがな。
+しかし、仲間を逃がすため、鍬を手に戦った農夫がいた。"
+56,"TEXT_SUBSEA164_01150_ROEHANTH_000_031","それが「エールグヘームル」という男だ。
+以降、彼の墓はサハギン族との戦いで没した者の
+慰霊碑として、ここにこうして奉られている。"
+57,"TEXT_SUBSEA164_01150_ROEHANTH_000_032","我々「黒渦団」も、彼らの犠牲をけっして無駄にせず、
+これからも仇敵、サハギン族との戦いに立ち向かう所存だ。
+それを忘れないために、墓参りは欠かさないのだよ。"

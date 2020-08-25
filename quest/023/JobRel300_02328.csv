@@ -1,17 +1,20 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_JOBREL300_02328_SEQ_00","Ardashir is lost in thought.
-※Changing classes or jobs will prevent progress during this quest."
-1,"TEXT_JOBREL300_02328_SEQ_01","The bond between you and the anima is stronger than ever. Though its development hereafter is but a matter of course, Ardashir believes he can hasten the process. He proposes a short voyage to Idyllshire to meet with an acquaintance, one Ulan. A fellow researcher and enthusiast of Carbuncles, she has devoted her life to the study of arcane entities and methods by which they can be enhanced. He is all but certain her work is the key to unlocking the anima's potential. And with that, you are off to Idyllshire.
+0,"TEXT_JOBREL300_02328_SEQ_00","<UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>特殊ルール： クラス・ジョブ固定<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+アルダシールは、新たな成長方法を考えているようだ。"
+1,"TEXT_JOBREL300_02328_SEQ_01","※本クエストには「<UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow><UIGlow>01</UIGlow><UIForeground>01</UIForeground> クラス・ジョブ固定」が、
+　設定されています。
+　受注時と同じクラス・ジョブでのみ進行できます。
+※また、本クエストは破棄禁止となります。
+　クエスト破棄を行いたい場合は、アルダシールに話かけて破棄を行いましょう。
 
-※You may not proceed with a class or job that is different from when you accepted this quest.
-※Please note this quest cannot be abandoned via the journal. If you wish to abandon the quest, you may do so at any time by speaking with Ardashir."
-2,"TEXT_JOBREL300_02328_SEQ_02","The focus of Ulan's research, as she tells it, is the use of crystal sand to promote growth in arcane constructs. Normally one must strike a proper balance of elements for the procedure to work, a process which may take weeks or even months. Thankfully, she realizes you are not one to waste time. To that end she suggests the use of umbrite, an umbral-aspected stone that can strip the elements from crystal sand, eliminating the need to finely attune its elemental properties. With that knowledge she bids you gather the crystal sand and umbrite necessary to foster the anima's development to your liking."
-3,"TEXT_JOBREL300_02328_SEQ_03","Ulan's plan is a success. With the crystal sand lacking any elemental aspects, the anima readily consumes it, reaching new heights of strength. Both you and Ulan are impressed by the results, even more so when the anima insists on consuming greater quantities of the treated crystal sand. Though it is not without risk, Ardashir consents to the request, stating the anima is free to make its own choices. He suspects this will also require a new weapon better suited to the anima's burgeoning strength. As a preemptive measure, he returns to Azys Lla to make preparations with Gerolt. His suspicions are soon confirmed when, after several applications of crystal sand, the anima appears before you whimpering and in pain. Ulan bids you meet with Ardashir and see what can be done to help."
-4,"TEXT_JOBREL300_02328_SEQ_04","You arrive at Azys Lla to find Ardashir and Gerolt ready with a freshly forged weapon to house the anima's soulstone. After verifying the stone is still in one piece, they carefully transplant it into a new vessel. You raise the weapon high, admiring its beauty, when suddenly the anima appears before you. And at last, after years of research and countless failures, Ardashir is able to behold the anima in all its splendor. His dream finally realized, the fledgling researcher must now set his sights higher in his pursuits of cultivating artificial life.
+アルダシールから、話を聞いた。次なる人造精霊の育成方法を聞くため、イディルシャイアの「ウラン」を訪ねよう。"
+2,"TEXT_JOBREL300_02328_SEQ_02","ウランから、育成方法を聞いた。「<Sheet(Item,15841,0)/>」と「<Sheet(Item,15840,0)/>」を集め、ウランとともに人造精霊を成長させよう。"
+3,"TEXT_JOBREL300_02328_SEQ_03","人造精霊の様子がおかしいようだ。アジス・ラーのポート・ヘリックスの「アルダシール」に、「<Sheet(EventItem,2001994,0)/>」を渡し、報告をしよう。"
+4,"TEXT_JOBREL300_02328_SEQ_04","アルダシールとゲロルトにも、人造精霊が見えるようになった。次なる研究に備えて、「新たなアニマウェポン」とともに成長しよう。
 
-※ The attributes of the anima weapon can be reallocated by speaking with Ulan in Idyllshire."
+※アニマウェポンのパラメータを再調整したい場合は、イディルシャイアのウランに声をかけてみましょう。"
 5,"TEXT_JOBREL300_02328_SEQ_05",""
 6,"TEXT_JOBREL300_02328_SEQ_06",""
 7,"TEXT_JOBREL300_02328_SEQ_07",""
@@ -31,9 +34,12 @@ int32,str,str
 21,"TEXT_JOBREL300_02328_SEQ_21",""
 22,"TEXT_JOBREL300_02328_SEQ_22",""
 23,"TEXT_JOBREL300_02328_SEQ_23",""
-24,"TEXT_JOBREL300_02328_TODO_00","With <If(Equal(IntegerParameter(4),19))><SheetEn(Item,2,14870,1,1)/> and <SheetEn(Item,2,14883,1,1)/><Else/><If(Equal(IntegerParameter(4),20))><SheetEn(Item,2,14871,1,1)/><Else/><If(Equal(IntegerParameter(4),21))><SheetEn(Item,2,14872,1,1)/><Else/><If(Equal(IntegerParameter(4),22))><SheetEn(Item,2,14873,1,1)/><Else/><If(Equal(IntegerParameter(4),23))><SheetEn(Item,2,14874,1,1)/><Else/><If(Equal(IntegerParameter(4),24))><SheetEn(Item,2,14878,1,1)/><Else/><If(Equal(IntegerParameter(4),25))><SheetEn(Item,2,14879,1,1)/><Else/><If(Equal(IntegerParameter(4),27))><SheetEn(Item,2,14880,1,1)/><Else/><If(Equal(IntegerParameter(4),28))><SheetEn(Item,2,14881,1,1)/><Else/><If(Equal(IntegerParameter(4),30))><SheetEn(Item,2,14875,1,1)/><Else/><If(Equal(IntegerParameter(4),31))><SheetEn(Item,2,14877,1,1)/><Else/><If(Equal(IntegerParameter(4),32))><SheetEn(Item,2,14876,1,1)/><Else/><If(Equal(IntegerParameter(4),33))><SheetEn(Item,2,14882,1,1)/><Else/></If></If></If></If></If></If></If></If></If></If></If></If></If> equipped or in your inventory, speak with Ulan in Idyllshire."
-25,"TEXT_JOBREL300_02328_TODO_01","With <If(Equal(IntegerParameter(4),19))><SheetEn(Item,2,14870,1,1)/> and <SheetEn(Item,2,14883,1,1)/><Else/><If(Equal(IntegerParameter(4),20))><SheetEn(Item,2,14871,1,1)/><Else/><If(Equal(IntegerParameter(4),21))><SheetEn(Item,2,14872,1,1)/><Else/><If(Equal(IntegerParameter(4),22))><SheetEn(Item,2,14873,1,1)/><Else/><If(Equal(IntegerParameter(4),23))><SheetEn(Item,2,14874,1,1)/><Else/><If(Equal(IntegerParameter(4),24))><SheetEn(Item,2,14878,1,1)/><Else/><If(Equal(IntegerParameter(4),25))><SheetEn(Item,2,14879,1,1)/><Else/><If(Equal(IntegerParameter(4),27))><SheetEn(Item,2,14880,1,1)/><Else/><If(Equal(IntegerParameter(4),28))><SheetEn(Item,2,14881,1,1)/><Else/><If(Equal(IntegerParameter(4),30))><SheetEn(Item,2,14875,1,1)/><Else/><If(Equal(IntegerParameter(4),31))><SheetEn(Item,2,14877,1,1)/><Else/><If(Equal(IntegerParameter(4),32))><SheetEn(Item,2,14876,1,1)/><Else/><If(Equal(IntegerParameter(4),33))><SheetEn(Item,2,14882,1,1)/><Else/></If></If></If></If></If></If></If></If></If></If></If></If></If> equipped, speak with Ulan to strengthen the anima."
-26,"TEXT_JOBREL300_02328_TODO_02","With <If(Equal(IntegerParameter(4),19))><SheetEn(Item,2,14870,1,1)/> and <SheetEn(Item,2,14883,1,1)/><Else/><If(Equal(IntegerParameter(4),20))><SheetEn(Item,2,14871,1,1)/><Else/><If(Equal(IntegerParameter(4),21))><SheetEn(Item,2,14872,1,1)/><Else/><If(Equal(IntegerParameter(4),22))><SheetEn(Item,2,14873,1,1)/><Else/><If(Equal(IntegerParameter(4),23))><SheetEn(Item,2,14874,1,1)/><Else/><If(Equal(IntegerParameter(4),24))><SheetEn(Item,2,14878,1,1)/><Else/><If(Equal(IntegerParameter(4),25))><SheetEn(Item,2,14879,1,1)/><Else/><If(Equal(IntegerParameter(4),27))><SheetEn(Item,2,14880,1,1)/><Else/><If(Equal(IntegerParameter(4),28))><SheetEn(Item,2,14881,1,1)/><Else/><If(Equal(IntegerParameter(4),30))><SheetEn(Item,2,14875,1,1)/><Else/><If(Equal(IntegerParameter(4),31))><SheetEn(Item,2,14877,1,1)/><Else/><If(Equal(IntegerParameter(4),32))><SheetEn(Item,2,14876,1,1)/><Else/><If(Equal(IntegerParameter(4),33))><SheetEn(Item,2,14882,1,1)/><Else/></If></If></If></If></If></If></If></If></If></If></If></If></If> in your inventory, speak with Ardashir in Azys Lla."
+24,"TEXT_JOBREL300_02328_TODO_00","<If(Equal(IntegerParameter(4),19))><Sheet(Item,14870,0)/>と<Sheet(Item,14883,0)/><Else/><If(Equal(IntegerParameter(4),20))><Sheet(Item,14871,0)/><Else/><If(Equal(IntegerParameter(4),21))><Sheet(Item,14872,0)/><Else/><If(Equal(IntegerParameter(4),22))><Sheet(Item,14873,0)/><Else/><If(Equal(IntegerParameter(4),23))><Sheet(Item,14874,0)/><Else/><If(Equal(IntegerParameter(4),24))><Sheet(Item,14878,0)/><Else/><If(Equal(IntegerParameter(4),25))><Sheet(Item,14879,0)/><Else/><If(Equal(IntegerParameter(4),27))><Sheet(Item,14880,0)/><Else/><If(Equal(IntegerParameter(4),28))><Sheet(Item,14881,0)/><Else/><If(Equal(IntegerParameter(4),30))><Sheet(Item,14875,0)/><Else/><If(Equal(IntegerParameter(4),31))><Sheet(Item,14877,0)/><Else/><If(Equal(IntegerParameter(4),32))><Sheet(Item,14876,0)/><Else/><If(Equal(IntegerParameter(4),33))><Sheet(Item,14882,0)/><Else/></If></If></If></If></If></If></If></If></If></If></If></If></If>を所持か装備し、
+イディルシャイアのウランと話す"
+25,"TEXT_JOBREL300_02328_TODO_01","<If(Equal(IntegerParameter(4),19))><Sheet(Item,14870,0)/>と<Sheet(Item,14883,0)/><Else/><If(Equal(IntegerParameter(4),20))><Sheet(Item,14871,0)/><Else/><If(Equal(IntegerParameter(4),21))><Sheet(Item,14872,0)/><Else/><If(Equal(IntegerParameter(4),22))><Sheet(Item,14873,0)/><Else/><If(Equal(IntegerParameter(4),23))><Sheet(Item,14874,0)/><Else/><If(Equal(IntegerParameter(4),24))><Sheet(Item,14878,0)/><Else/><If(Equal(IntegerParameter(4),25))><Sheet(Item,14879,0)/><Else/><If(Equal(IntegerParameter(4),27))><Sheet(Item,14880,0)/><Else/><If(Equal(IntegerParameter(4),28))><Sheet(Item,14881,0)/><Else/><If(Equal(IntegerParameter(4),30))><Sheet(Item,14875,0)/><Else/><If(Equal(IntegerParameter(4),31))><Sheet(Item,14877,0)/><Else/><If(Equal(IntegerParameter(4),32))><Sheet(Item,14876,0)/><Else/><If(Equal(IntegerParameter(4),33))><Sheet(Item,14882,0)/><Else/></If></If></If></If></If></If></If></If></If></If></If></If></If>を装備し、
+ウランに話しかけ、人造精霊を成長させる"
+26,"TEXT_JOBREL300_02328_TODO_02","<If(Equal(IntegerParameter(4),19))><Sheet(Item,14870,0)/>と<Sheet(Item,14883,0)/><Else/><If(Equal(IntegerParameter(4),20))><Sheet(Item,14871,0)/><Else/><If(Equal(IntegerParameter(4),21))><Sheet(Item,14872,0)/><Else/><If(Equal(IntegerParameter(4),22))><Sheet(Item,14873,0)/><Else/><If(Equal(IntegerParameter(4),23))><Sheet(Item,14874,0)/><Else/><If(Equal(IntegerParameter(4),24))><Sheet(Item,14878,0)/><Else/><If(Equal(IntegerParameter(4),25))><Sheet(Item,14879,0)/><Else/><If(Equal(IntegerParameter(4),27))><Sheet(Item,14880,0)/><Else/><If(Equal(IntegerParameter(4),28))><Sheet(Item,14881,0)/><Else/><If(Equal(IntegerParameter(4),30))><Sheet(Item,14875,0)/><Else/><If(Equal(IntegerParameter(4),31))><Sheet(Item,14877,0)/><Else/><If(Equal(IntegerParameter(4),32))><Sheet(Item,14876,0)/><Else/><If(Equal(IntegerParameter(4),33))><Sheet(Item,14882,0)/><Else/></If></If></If></If></If></If></If></If></If></If></If></If></If>を所持し、
+ポート・ヘリックスのアルダシールと話す"
 27,"TEXT_JOBREL300_02328_TODO_03",""
 28,"TEXT_JOBREL300_02328_TODO_04",""
 29,"TEXT_JOBREL300_02328_TODO_05",""
@@ -55,156 +61,359 @@ int32,str,str
 45,"TEXT_JOBREL300_02328_TODO_21",""
 46,"TEXT_JOBREL300_02328_TODO_22",""
 47,"TEXT_JOBREL300_02328_TODO_23",""
-48,"TEXT_JOBREL300_02328_SYSTEM_000_000","Please note that upon completing the quest “A Dream Fulfilled,” you will receive an anima weapon for <If(Equal(PlayerParameter(68),10))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),14))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),5))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),26))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),33))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/>a <Sheet(ClassJob,PlayerParameter(68),0)/></If></If></If></If></If>."
-49,"TEXT_JOBREL300_02328_Q1_000_000","What will you do?"
-50,"TEXT_JOBREL300_02328_A1_000_000","Undertake this quest as another job."
-51,"TEXT_JOBREL300_02328_A2_000_000","Undertake this quest as <If(Equal(PlayerParameter(68),10))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),14))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),5))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),26))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),33))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/>a <Sheet(ClassJob,PlayerParameter(68),0)/></If></If></If></If></If>."
-52,"TEXT_JOBREL300_02328_SYSTEM_000_001","Be advised that once you have undertaken this quest, you may not proceed with a class or job that is different from when you accepted it."
-53,"TEXT_JOBREL300_02328_SYSTEM_000_002","Please ensure that you have changed to your desired job before speaking with Ardashir."
-54,"TEXT_JOBREL300_02328_SYSTEM_000_003","In order to receive the quest “A Dream Fulfilled,” please ensure that <SheetEn(Item,2,IntegerParameter(1),1,1)/> and <SheetEn(Item,2,IntegerParameter(2),1,1)/> are either equipped, in your Armoury Chest, or in your inventory."
-55,"TEXT_JOBREL300_02328_SYSTEM_000_004","In order to receive the quest “A Dream Fulfilled,” please ensure that <SheetEn(Item,2,IntegerParameter(1),1,1)/> is either equipped, in your Armoury Chest, or in your inventory."
-56,"TEXT_JOBREL300_02328_SYSTEM_000_005","You have already received <SheetEn(Item,2,IntegerParameter(1),1,1)/> and <SheetEn(Item,2,IntegerParameter(2),1,1)/>. Please change to a different job and speak with Ardashir again."
-57,"TEXT_JOBREL300_02328_SYSTEM_000_006","You have already received <SheetEn(Item,2,IntegerParameter(1),1,1)/>. Please change to a different job and speak with Ardashir again."
-58,"TEXT_JOBREL300_02328_ARDASHIR_000_000","Hmmm..."
-59,"TEXT_JOBREL300_02328_GEROLT_000_001","Save yer breath <If(PlayerParameter(4))>lass<Else/>lad</If>. He's been sittin' there broodin' ever since ye left. “Surely,” I said. “Surely, if we just leave <If(PlayerParameter(4))>her<Else/>him</If> be, swingin' the weapon about as <If(PlayerParameter(4))>she<Else/>he</If> please, the anima'll grow on its own.”"
-60,"TEXT_JOBREL300_02328_GEROLT_000_002","'Course there's no satisfyin' him. I dunno what's stirrin' in that loaf o' his, but I wish he'd pay a mind to stirrin's elsewhere. The boy could use a distraction. Hells, I could make use of a nice buxom distraction meself."
-61,"TEXT_JOBREL300_02328_ARDASHIR_000_003","For the last time, please do not speak of such things! Not everyone shares your deplorable appetites."
-62,"TEXT_JOBREL300_02328_ARDASHIR_000_004","<sigh> But what you say of the anima weapon is true. In its hyperconductive state, 'tis only a matter of time before the anima shows new signs of growth. Yet what sort of researcher would I be if I did not search for a way to hasten the process?"
-63,"TEXT_JOBREL300_02328_GEROLT_000_005","Always so serious. So the little lord's found a way to bugger us some more, eh?"
-64,"TEXT_JOBREL300_02328_ARDASHIR_000_006","Indeed I have, though it will require a trip to Idyllshire. My quest to find Sharlayan researchers there bore no fruit, but I did meet with a young lady whose field of expertise is quite similar to mine own."
-65,"TEXT_JOBREL300_02328_ARDASHIR_000_007","Her name is Ulan. She has a vast knowledge of arcane entities, and specializes in the study of Carbuncles. In fact, her research concerns the enhancement of these entities with crystals. While not quite as freethinking as <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>'s anima, they are of a similar nature. Perhaps enough for her work to be of use."
-66,"TEXT_JOBREL300_02328_ARDASHIR_000_008","When last we spoke, she sought an apprenticeship from the selfsame Sharlayan researchers who refused me an audience. No doubt they have left her waiting in Idyllshire even now."
-67,"TEXT_JOBREL300_02328_ARDASHIR_000_009","Come, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Let us be off before she finds reason to conduct her research elsewhere."
-68,"TEXT_JOBREL300_02328_ARDASHIR_000_010","Ready to enhance another fledgling anima, are we? I am sure Ulan would be only too happy to put her research to further use. In fact, I spoke with her not long ago regarding the prospects of another venture."
-69,"TEXT_JOBREL300_02328_ARDASHIR_100_010","No doubt she will insist on more supplementary literature as compensation for her efforts. Pray go on ahead to Idyllshire without me. I shall join you anon."
-70,"TEXT_JOBREL300_02328_SYSTEM_000_007","The quest “A Dream Fulfilled” cannot be abandoned via your journal. If you wish to abandon the quest, you may do so at any time by speaking with Ardashir."
-71,"TEXT_JOBREL300_02328_ARNOTT_000_011","What business do you have with Lady Ulan?"
-72,"TEXT_JOBREL300_02328_ARNOTT_000_012","Ah, good day to you <If(PlayerParameter(4))>madam<Else/>sir</If>. Lady Ulan is expecting you."
-73,"TEXT_JOBREL300_02328_ULAN_000_020","What have we here? An admirer of the arcane? A connoisseur of Carbuncles? I have none for sale, mind you, but I would be more than willing to tell you about─"
-74,"TEXT_JOBREL300_02328_ULAN_000_021","Ardashir? Pray forgive me, <If(PlayerParameter(4))>madam<Else/>sir</If>. Had I known you were an acquaintance of his... Ahem. Allow me to start anew."
-75,"TEXT_JOBREL300_02328_ULAN_100_021","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, was it? I am Ulan, researcher of all matters arcane. Pleasure to make your acquaintance. My luminous companion here is Diamond. Now exactly how did you come to know my dear Ardashir?"
-76,"TEXT_JOBREL300_02328_ARDASHIR_000_022","Ah, it would appear I have come late. My apologies."
-77,"TEXT_JOBREL300_02328_ARDASHIR_100_023","I see you and <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> have already met. <If(PlayerParameter(4))>She<Else/>He</If> has been of invaluable assistance in my research on anima."
-78,"TEXT_JOBREL300_02328_ULAN_000_023","I see. Before you left Idyllshire you spoke of your preliminary proposal for the Sharlayans. I would very much like to hear how your work has progressed thus far."
-79,"TEXT_JOBREL300_02328_ULAN_000_024","You wish to borrow my techniques for crystal absorption and apply them to your anima? An intriguing idea."
-80,"TEXT_JOBREL300_02328_ULAN_000_025","Though there still remains one rather large obstacle."
-81,"TEXT_JOBREL300_02328_ULAN_000_026","Arcane entities like Diamond here are comprised almost entirely of aether, which is why I believe that the aetherial energy of crystals can be harnessed to further their growth. This is the basis of my research."
-82,"TEXT_JOBREL300_02328_ULAN_000_027","This can only be accomplished, however, using crystals with a combination of differing elemental aspects. All arcane beings are unique, and thus require a balance of crystals tailored to their composition. Even the slightest error can disrupt their aetherial equilibrium, possibly destroying them in the process."
-83,"TEXT_JOBREL300_02328_ULAN_000_028","It is rather delicate work. To undertake such a project on your own could take weeks, even months without intimate knowledge of my research."
-84,"TEXT_JOBREL300_02328_ULAN_000_029","Unless... Perhaps we can help one another."
-85,"TEXT_JOBREL300_02328_ULAN_000_030","Being a researcher yourself, I have no doubt you understand my work requires a great deal of documentation, supplies, and more importantly, test subjects."
-86,"TEXT_JOBREL300_02328_ULAN_100_030","I might be persuaded to select your anima as a test subject should you and your companion choose to assist me. Or if you would rather spend weeks poring over my notes..."
-87,"TEXT_JOBREL300_02328_ARDASHIR_000_031","N-No, no. I think that is more than fair."
-88,"TEXT_JOBREL300_02328_ULAN_000_032","Then we are agreed. You will supply me with literature to supplement my research, and your assistant here will bring me supplies. Here is a list of what I require."
-89,"TEXT_JOBREL300_02328_ARDASHIR_000_033","It seems we have our work cut out for us, friend. I shall return as quickly as I am able."
-90,"TEXT_JOBREL300_02328_ULAN_000_034","<sigh> Was time together with me truly such an unpleasant proposition?"
-91,"TEXT_JOBREL300_02328_ULAN_000_035","Now where were we? Ah yes, supplies for my work. I will not burden you with all that I have listed there. Even one of those items would be a boon."
-92,"TEXT_JOBREL300_02328_ULAN_000_036","In exchange I will offer you crystal sand, a reagent of my own creation that should help facilitate the absorption of crystal energies. The process will no doubt require a great deal of sand, but I will happily give all that you require."
-93,"TEXT_JOBREL300_02328_ULAN_000_037","Be warned, however, you cannot haphazardly apply the sand as you please. Hmmm... I believe a demonstration would sooner explain my point. Would you be so kind as to call forth this anima of yours?"
-94,"TEXT_JOBREL300_02328_ULAN_000_038","My, what a splendid thing you are."
-95,"TEXT_JOBREL300_02328_ULAN_100_038","You seem surprised that I can see it. Come now, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I have devoted my life to the study of arcane creatures of all sorts. As Ardashir explained it, the two of you have gone to great lengths to come this far. That I should be <Emphasis>unable</Emphasis> to see it would be far more surprising."
-96,"TEXT_JOBREL300_02328_ULAN_100_039","Now, come closer, little one. I have a gift for you."
-97,"TEXT_JOBREL300_02328_BUKINOSEIREI_000_039","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, this woman...means us harm. I can feel myself...fading... We must flee!"
-98,"TEXT_JOBREL300_02328_BUKINOSEIREI_000_040","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, this woman...means us harm. My body, it...it fades... We must flee!"
-99,"TEXT_JOBREL300_02328_ULAN_000_041","My apologies. I did not mean to frighten it. Though I must say, your anima is more perceptive than I supposed. As I said before, every arcane creature is unique, and requires a certain balance of elements to absorb crystal sand. This sand, however, is at odds with its composition."
-100,"TEXT_JOBREL300_02328_ULAN_000_042","Rather than waste time probing your anima to ascertain a proper balance of elements, I propose we treat the crystal sand with umbrite, stripping it of its elemental properties. This is by far the safest and quickest way to prepare the sand for consumption."
-101,"TEXT_JOBREL300_02328_ULAN_000_043","As luck would have it, I found a merchant right here in Idyllshire who sells it. Hismena, I believe is her name. A single stone and pouch of crystal sand is all we need to begin."
-102,"TEXT_JOBREL300_02328_ULAN_000_044","Ah, before I forget. You will need to have the anima's vessel close at hand when offering up the crystal sand. You mustn't forget it."
-103,"TEXT_JOBREL300_02328_ULAN_000_045","I suppose this will also be of use. For your purposes, let us call it an anima glass. It allows me to more closely observe the aetherial balance of my dear Diamond. It should allow you to do the same for your anima."
-104,"TEXT_JOBREL300_02328_ULAN_000_046","That should do for explanations. If you should have any questions, you are more than welcome to ask. When you have all we require, return to me and we shall make the anima grow as never before!"
-105,"TEXT_JOBREL300_02328_ULAN_000_047","There you are. I was beginning to think Ardashir's proposal was but a cruel jest."
-106,"TEXT_JOBREL300_02328_ULAN_000_048","As before you will require an ample supply of both crystal sand and umbrite. When you have collected what we require we can begin."
-107,"TEXT_JOBREL300_02328_ULAN_000_049","Ah, and you must not forget the anima's vessel. I cannot do my work without it."
-108,"TEXT_JOBREL300_02328_ULAN_100_049","You can examine the anima using this anima glass. I trust you remember how to use it, yes? In any case, should anything happen to it, Arnott will supply you with another. I look forward to seeing what becomes of this new anima."
-109,"TEXT_JOBREL300_02328_SYSTEM_000_010","When requesting Ulan's assistance in developing the anima, you must first speak with her while equipped with your hyperconductive anima weapon, then select “Foster the anima's growth.”"
-110,"TEXT_JOBREL300_02328_SYSTEM_000_011","She will then take the crystal sand and umbrite to create treated crystal sand. This process can be repeated so long as you have the requisite items in your inventory."
-111,"TEXT_JOBREL300_02328_SYSTEM_000_012","Treated crystal sand can be used to raise the five attributes associated with your anima as you see fit."
-112,"TEXT_JOBREL300_02328_SYSTEM_000_013","The five attributes associated with your anima are <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>critical hit rate<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>direct hit rate<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>determination<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>tenacity<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>skill speed<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
-113,"TEXT_JOBREL300_02328_SYSTEM_000_014","The five attributes associated with your anima are <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>critical hit rate<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>direct hit rate<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>determination<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>piety<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>spell speed<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
-114,"TEXT_JOBREL300_02328_SYSTEM_100_014","You can review the items to be exchanged for crystal sand at any time by accessing Ulan's note in your inventory."
-115,"TEXT_JOBREL300_02328_SYSTEM_000_015","Moreover, you can view the progress of your anima at any time by accessing the anima glass in your inventory."
-116,"TEXT_JOBREL300_02328_SYSTEM_000_020","Before selecting “Recondition the Anima,” your hyperconductive anima weapon must be discarded or entrusted to a retainer."
-117,"TEXT_JOBREL300_02328_ULAN_000_050","There is little I can do for you without the anima weapon. I should hope you did not forget it somewhere."
-118,"TEXT_JOBREL300_02328_ULAN_100_050","There is little I can do for you without the anima weapon and that shield of yours present. I should hope you did not forget them somewhere."
-119,"TEXT_JOBREL300_02328_Q1_000_010","What would you like to do?"
-120,"TEXT_JOBREL300_02328_A1_000_010","Foster the anima's growth."
-121,"TEXT_JOBREL300_02328_A2_000_011","Exchange items for crystal sand."
-122,"TEXT_JOBREL300_02328_A3_000_012","Ask about developing the anima."
-123,"TEXT_JOBREL300_02328_A4_000_013","Nothing."
-124,"TEXT_JOBREL300_02328_Q1_000_020","What will you ask?"
-125,"TEXT_JOBREL300_02328_A1_000_020","How exactly do we help the anima grow?"
-126,"TEXT_JOBREL300_02328_A2_000_021","Where can I obtain the supplies we need?"
-127,"TEXT_JOBREL300_02328_A3_000_022","Nothing."
-128,"TEXT_JOBREL300_02328_ULAN_000_051","Before the anima can consume my crystal sand, it must first be stripped of its elemental aspects. This requires umbrite."
-129,"TEXT_JOBREL300_02328_ULAN_000_052","When you acquire both the crystal sand and umbrite, return here with the anima's vessel in hand and we can begin."
-130,"TEXT_JOBREL300_02328_SYSTEM_000_022","When requesting Ulan's assistance in developing the anima, you must first speak with her while equipped with your hyperconductive anima weapon, then select “Foster the anima's growth.”"
-131,"TEXT_JOBREL300_02328_SYSTEM_000_023","She will then take the crystal sand and umbrite to create treated crystal sand. This process can be repeated so long as you have the requisite items in your inventory."
-132,"TEXT_JOBREL300_02328_SYSTEM_000_024","Treated crystal sand can be used to raise the five attributes associated with your anima as you see fit."
-133,"TEXT_JOBREL300_02328_SYSTEM_000_025","The five attributes associated with your anima are <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>critical hit rate<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>direct hit rate<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>determination<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>tenacity<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>skill speed<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
-134,"TEXT_JOBREL300_02328_SYSTEM_000_026","The five attributes associated with your anima are <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>critical hit rate<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>direct hit rate<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>determination<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>piety<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>spell speed<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
-135,"TEXT_JOBREL300_02328_SYSTEM_000_027","You can view the progress of your anima at any time by accessing the anima glass in your inventory. Consider the balance of attributes carefully to create a weapon best suited to your needs."
-136,"TEXT_JOBREL300_02328_ULAN_000_053","As I explained earlier, in addition to my crystal sand, we require umbrite that we may strip the sand of its elemental aspects."
-137,"TEXT_JOBREL300_02328_ULAN_000_054","The sand I will offer to you in exchange for the supplies listed in the catalog I gave you."
-138,"TEXT_JOBREL300_02328_ULAN_000_055","I should hope you have not lost track of it since last we spoke. If for any reason you did misplace it, however, I have prepared another copy just over there."
-139,"TEXT_JOBREL300_02328_ULAN_000_056","The umbrite, I am afraid, will require bartering with Hismena of the House of Splendors. As a renowned collector of rarities, I can only imagine what she will ask for in exchange."
-140,"TEXT_JOBREL300_02328_ULAN_000_057","After we begin the process of augmenting the anima, you will need a way to track its growth. That is when you use the anima glass. Speak with my assistant Arnott if you should require another."
-141,"TEXT_JOBREL300_02328_ULAN_000_060","It would seem the anima has grown quite strong, would you not agree Arnott?"
-142,"TEXT_JOBREL300_02328_ARNOTT_000_061","That crystal sand no longer aligned to any one element could be so effective is unprecedented. The data we have collected should prove quite useful to your research."
-143,"TEXT_JOBREL300_02328_ARNOTT_000_062","I cannot say for certain if this anima is stronger than the last. Still, its growth rate is incredible. The data we have collected should prove quite useful to your research."
-144,"TEXT_JOBREL300_02328_BUKINOSEIREI_000_063","I... I wish to continue."
-145,"TEXT_JOBREL300_02328_BUKINOSEIREI_000_064","For your sake and mine, that you should never want for strength in times of strife. I must become stronger."
-146,"TEXT_JOBREL300_02328_BUKINOSEIREI_000_065","I... I wish to continue."
-147,"TEXT_JOBREL300_02328_BUKINOSEIREI_000_066","For your sake and mine, that you should never want for strength in times of strife. I will become stronger."
-148,"TEXT_JOBREL300_02328_ULAN_000_067","An ambitious one, your anima. That it should strive so fiercely to exceed its own limitations is quite remarkable. Not even Diamond Carbuncle demonstrated such tenacity. The bond between you two is one to be envied, for certain."
-149,"TEXT_JOBREL300_02328_ULAN_000_068","Again the anima aims to surpass its limits of its own volition. This is worthy of further investigation. Hmmm, perhaps another time."
-150,"TEXT_JOBREL300_02328_ARDASHIR_000_069","<pant> <pant> The documents you requested. <pant> As promised."
-151,"TEXT_JOBREL300_02328_ULAN_000_070","Ah, Ardashir. Your timing is impeccable. The crystal sand was as effective as we expected. However, it would seem your aetherial companion wishes to pursue greater strength despite reaching what I have calculated to be the apex of its power."
-152,"TEXT_JOBREL300_02328_ULAN_000_071","Doubtless you are aware of the potential repercussions should we grant this request. So, what say you? Shall we cast caution to the wind, and see to what new heights the anima can attain? "
-153,"TEXT_JOBREL300_02328_ARDASHIR_000_072","But of course. If it is the anima's wish, who are we to deny it? Though should we succeed, there is still the matter of its vessel─the weapon. I fear it will not bear the strain of any new powers the anima will possess."
-154,"TEXT_JOBREL300_02328_ARDASHIR_000_073","I will consult with our smith to forge a new vessel. One better suited to the anima's burgeoning strength."
-155,"TEXT_JOBREL300_02328_ULAN_000_074","It would seem my stay here in Idyllshire will be much more interesting than I anticipated. When you are ready to begin anew, you need but say the word."
-156,"TEXT_JOBREL300_02328_BUKINOSEIREI_000_080","My body... It aches..."
-157,"TEXT_JOBREL300_02328_BUKINOSEIREI_000_081","My body... It aches..."
-158,"TEXT_JOBREL300_02328_ULAN_000_082","It is as Ardashir predicted. Its vessel can no longer bear the power that now courses through it."
-159,"TEXT_JOBREL300_02328_ULAN_000_083","You must hurry back to him with the anima. I will see to it he is apprised of the situation by the time you arrive."
-160,"TEXT_JOBREL300_02328_ARNOTT_000_084","Should he have need to examine the anima more closely, give him the anima glass."
-161,"TEXT_JOBREL300_02328_ULAN_100_091","Safe travels, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I pray the anima will be all right."
-162,"TEXT_JOBREL300_02328_SYSTEM_000_040","You must have the anima glass in your inventory to proceed with this quest."
-163,"TEXT_JOBREL300_02328_SYSTEM_000_041","Speak with Arnott in Idyllshire in order to obtain another."
-164,"TEXT_JOBREL300_02328_SYSTEM_000_042",""
-165,"TEXT_JOBREL300_02328_SYSTEM_000_043",""
-166,"TEXT_JOBREL300_02328_ARDASHIR_000_090","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, thank goodness! We must act quickly, there's no telling how much longer the soulstone will last."
-167,"TEXT_JOBREL300_02328_ARDASHIR_000_091","I would have the anima glass, along with the blade and shield serving as its vessel."
-168,"TEXT_JOBREL300_02328_ARDASHIR_000_092","I would have the anima glass and the weapon serving as its vessel."
-169,"TEXT_JOBREL300_02328_ARDASHIR_000_093","As I feared, the anima's vessel has reached its limit. We must remove the soulstone at once."
-170,"TEXT_JOBREL300_02328_ARDASHIR_000_094","The soulstone appears to be still intact."
-171,"TEXT_JOBREL300_02328_ARDASHIR_100_094","Ready the new weapon, Gerolt. The soulstone must be set before it begins to degrade."
-172,"TEXT_JOBREL300_02328_GEROLT_000_095","The anima's got a lot o' spine for bein' one so small, I'll grant you that. This new weapon ought to make for a fine reward."
-173,"TEXT_JOBREL300_02328_GEROLT_100_095","<pant> <pant> It's...it's done, <If(PlayerParameter(4))>lass<Else/>lad</If>. Hold her up an' see how she feels."
-174,"TEXT_JOBREL300_02328_GEROLT_000_096","The pinnacle o' craftsmanship, courtesy o' yours truly, and the nodes what taught me the ins an' outs of Allagan technology─<SheetEn(Item,3,IntegerParameter(1),1,1)/>!"
-175,"TEXT_JOBREL300_02328_GEROLT_000_097","The pinnacle o' craftsmanship, courtesy o' yours truly, and the nodes what taught me a few tricks about Allagan technology─<SheetEn(Item,3,IntegerParameter(1),1,1)/> and <SheetEn(Item,3,IntegerParameter(2),1,1)/>!"
-176,"TEXT_JOBREL300_02328_BUKINOSEIREI_000_098","My body. It feels...so light! Is this the work of some arcane magick?"
-177,"TEXT_JOBREL300_02328_BUKINOSEIREI_000_099","My body. It feels...so light! What manner of arcane magick caused this?"
-178,"TEXT_JOBREL300_02328_BUKINOSEIREI_000_100","A new vessel, designed by Ardashir and forged by Gerolt."
-179,"TEXT_JOBREL300_02328_BUKINOSEIREI_000_101","Thank you, both of you."
-180,"TEXT_JOBREL300_02328_ARDASHIR_000_102","Can it be...? After years of research, of trials and failures...I can see the anima. I can <Emphasis>see</Emphasis> the anima, and I can hear it speak! Oh, if only my master could be here to witness this."
-181,"TEXT_JOBREL300_02328_BUKINOSEIREI_000_103","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, Ardashir does not seem well. Perhaps he too requires a new vessel."
-182,"TEXT_JOBREL300_02328_BUKINOSEIREI_100_103","Yes, a mighty new vessel like your weapon. Let us ask the blacksmith Gerolt."
-183,"TEXT_JOBREL300_02328_BUKINOSEIREI_000_104","Yes, a stalwart new vessel like your sword and shield. Let us ask the blacksmith Gerolt."
-184,"TEXT_JOBREL300_02328_BUKINOSEIREI_100_104","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, Ardashir does not seem well. Perhaps he too requires a new vessel."
-185,"TEXT_JOBREL300_02328_BUKINOSEIREI_000_105","Yes, something powerful like your new weapon. Might we ask Gerolt to build one?"
-186,"TEXT_JOBREL300_02328_BUKINOSEIREI_100_105","Yes, something resilient like your sword and shield. Might we ask Gerolt to build one?"
-187,"TEXT_JOBREL300_02328_ARDASHIR_000_108","Hahaha, it would appear you have developed a sense of humor to match your new body. Unfortunately, my aetherial friend, we can not exchange ours quite so easily. Though the weapon that houses your soulstone is indeed exquisite, I very much doubt Gerolt would grant me anything quite so elegant."
-188,"TEXT_JOBREL300_02328_ARDASHIR_000_109","Oh, but look at me standing here, talking to you. Never have I felt such joy."
-189,"TEXT_JOBREL300_02328_ARDASHIR_000_110","Oh, but it is I who should be thanking you, my aetherial friend. That we can finally converse after all this time...it fills my heart with joy."
-190,"TEXT_JOBREL300_02328_BUKINOSEIREI_000_111","Joy...?"
-191,"TEXT_JOBREL300_02328_ARDASHIR_000_112","You must be tired after such a long day. Rest─you have earned it."
-192,"TEXT_JOBREL300_02328_ARDASHIR_000_113","This marks a monumental breakthrough in our work. Though it still appears to want for knowledge, our goal is all but realized!"
-193,"TEXT_JOBREL300_02328_ARDASHIR_000_114","And I can think of none better suited to teaching our young charge of the world and its wonders."
-194,"TEXT_JOBREL300_02328_GEROLT_000_115","Aye. You see to it yer anima doesn't turn into a snivelin' little shite like his lordship here. One is plenty."
-195,"TEXT_JOBREL300_02328_ARDASHIR_000_116","I imagine an arrogant, pigheaded clod would be equally undesirable."
-196,"TEXT_JOBREL300_02328_ARDASHIR_000_117","Ahem. As I said before, it has been a terribly long day not only for the anima, but for you as well. Rest easy, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I will do all in my power to determine our next course of action by the time you return."
-197,"TEXT_JOBREL300_02328_GEROLT_000_118","We've gone an' done it now, <If(PlayerParameter(4))>lass<Else/>lad</If>. I know he's tryin' to keep his composure, but as soon as ye leave the boy'll be prancin' around singin' about the anima. I wouldn't count on him bein' ready to work again any time soon."
-198,"TEXT_JOBREL300_02328_GEROLT_000_119","At least we've got nothin' to worry about so long as the anima is with ye. Take good care o' that weapon, ye hear?"
-199,"TEXT_JOBREL300_02328_ARDASHIR_000_120","Another smashing success! How fortunate are we to be blessed with yet another anima so fine? There is much I wish to do that I might further my work, but for now I pray you rest. When the time comes, we shall begin anew in earnest."
-200,"TEXT_JOBREL300_02328_SYSTEM_000_050","The anima has reached beyond its limits, the weapon housing its soulstone forged anew!"
+48,"TEXT_JOBREL300_02328_SYSTEM_000_000","クエスト「人造精霊は開花する」にて入手できる武器は、
+現在のジョブ「<If(LessThan(PlayerParameter(68),8))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(GreaterThan(PlayerParameter(68),18))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/></If></If>」のアニマウェポンとなります。
+「人造精霊は開花する」を「<If(LessThan(PlayerParameter(68),8))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(GreaterThan(PlayerParameter(68),18))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/></If></If>」で受けますか？"
+49,"TEXT_JOBREL300_02328_Q1_000_000","<If(LessThan(PlayerParameter(68),8))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(GreaterThan(PlayerParameter(68),18))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/></If></If>のアニマウェポンを創造しますか？"
+50,"TEXT_JOBREL300_02328_A1_000_000","もう少し悩んでみる"
+51,"TEXT_JOBREL300_02328_A2_000_000","<If(LessThan(PlayerParameter(68),8))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(GreaterThan(PlayerParameter(68),18))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/></If></If>のアニマウェポンを創造する"
+52,"TEXT_JOBREL300_02328_SYSTEM_000_001","「人造精霊は開花する」を受注した場合、
+クエストを完了、あるいは破棄するまで、
+ほかのジョブで「人造精霊は開花する」を受注できません。"
+53,"TEXT_JOBREL300_02328_SYSTEM_000_002","創造したいアニマウェポンに応じたジョブとなり、
+再度、アルダシールに声をかけてください。"
+54,"TEXT_JOBREL300_02328_SYSTEM_000_003","「<Sheet(Item,IntegerParameter(1),0)/>」および、
+「<Sheet(Item,IntegerParameter(2),0)/>」を、所持または装備していないと、
+クエスト「人造精霊は開花する」を受注することができません。"
+55,"TEXT_JOBREL300_02328_SYSTEM_000_004","「<Sheet(Item,IntegerParameter(1),0)/>」を、
+所持または装備していないと、
+クエスト「人造精霊は開花する」を受注することができません。"
+56,"TEXT_JOBREL300_02328_SYSTEM_000_005","「<Sheet(Item,IntegerParameter(1),0)/>」および、
+「<Sheet(Item,IntegerParameter(2),0)/>」はすでに取得済みです。
+ほかのジョブとなり、再度アルダシールに話しかけてください。"
+57,"TEXT_JOBREL300_02328_SYSTEM_000_006","「<Sheet(Item,IntegerParameter(1),0)/>」はすでに取得済みです。
+ほかのジョブとなり、再度アルダシールに話しかけてください。"
+58,"TEXT_JOBREL300_02328_ARDASHIR_000_000","ううむ……。"
+59,"TEXT_JOBREL300_02328_GEROLT_000_001","前回、オレ様が腕前を存分にふるって、
+テメェのエーテルが注ぎ込まれるように、武器を改造したろう？"
+60,"TEXT_JOBREL300_02328_GEROLT_000_002","あとは、テメェがアニマウェポンを使い続けりゃ、
+人造精霊は、自ずとエーテルを吸収し、成長しやがるハズだ……。
+しかしよ、このガキは、まだ何かを悩ンでやがる……思春期か？"
+61,"TEXT_JOBREL300_02328_ARDASHIR_000_003","……もう、何度言ったらわかるんですか！
+俺はガキじゃありませんし、思春期でもありませんよ！
+人の悩みをすぐ茶化すあなたの方が、よっぽどガキです！"
+62,"TEXT_JOBREL300_02328_ARDASHIR_000_004","……確かに、ゲロルトさんの言うとおり、
+アニマウェポンを使い続ければ、いずれ人造精霊は成長します。
+でも、それを待っているだけでは、研究と呼べるはずがない！"
+63,"TEXT_JOBREL300_02328_GEROLT_000_005","ほぉ、そいつはクソ真面目なこって……。
+で、見つかったンだろうな、その方法とやらは……。"
+64,"TEXT_JOBREL300_02328_ARDASHIR_000_006","ええ、手がかりはあります。
+俺が初めてイディルシャイアを訪れたとき、
+知り合いになった人物の研究テーマが、応用できそうなんですよ。"
+65,"TEXT_JOBREL300_02328_ARDASHIR_000_007","彼女の名は「ウラン」……カーバンクルを愛するあまり、
+クリスタルを摂取させる育成法を、独自に研究していました。
+人造精霊も同じ魔法生物……この方法が応用できると思うのです！"
+66,"TEXT_JOBREL300_02328_ARDASHIR_000_008","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん、
+ウランさんを訪ねて、協力を仰いでみたいのです。"
+67,"TEXT_JOBREL300_02328_ARDASHIR_000_009","彼女は「魔法生物の権威」に弟子入りを認めてもらおうと、
+今も「イディルシャイア」に留まっているはずです。
+現地で落ち合いましょう！"
+68,"TEXT_JOBREL300_02328_ARDASHIR_000_010","今回も、ウランさんに協力を仰ぎましょう！！
+大丈夫、すでに話は付けてありますから……。
+前回同様に、よろしくお願いします！"
+69,"TEXT_JOBREL300_02328_ARDASHIR_100_010","俺は、知識の対価となる品を集めましたら、
+また合流いたします……！"
+70,"TEXT_JOBREL300_02328_SYSTEM_000_007","クエスト「人造精霊は開花する」は、
+ジャーナルからは破棄できません。
+破棄したい場合は、アルダシールに話しかけてみましょう。"
+71,"TEXT_JOBREL300_02328_ARNOTT_000_011","……ん、ウラン様に何か用でもあるのかい？"
+72,"TEXT_JOBREL300_02328_ARNOTT_000_012","どうも。
+お待ちしていましたよ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん。"
+73,"TEXT_JOBREL300_02328_ULAN_000_020","私に何か用件でも？
+それとも、我が愛しきカーバンクル、
+「ダイヤ」の美しさに惹かれて、やって来たのかい？"
+74,"TEXT_JOBREL300_02328_ULAN_000_021","アルダシールに言われて訪ねて来たのか。
+……ふむ、ここではなんだから、少し広いところで話そうか。"
+75,"TEXT_JOBREL300_02328_ULAN_100_021","私の名は、ウラン。
+カーバンクルを愛してやまない研究者だ。
+君は、アルダシールとどんな関係があるのかな？"
+76,"TEXT_JOBREL300_02328_ARDASHIR_000_022","お久しぶりです、ウランさん。
+今日は、あなたの力を借りたくて来たのです。"
+77,"TEXT_JOBREL300_02328_ARDASHIR_100_023","こちらは、俺の研究仲間の<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん。"
+78,"TEXT_JOBREL300_02328_ULAN_000_023","なるほど、アルダシールの研究仲間だったのか。
+……ふむ、ひとまず詳しく話を聞いてみるとしよう。"
+79,"TEXT_JOBREL300_02328_ULAN_000_024","なるほど……事情はよくわかった。
+君たちが研究している「人造精霊」とやらの成長に、
+私の「クリスタル摂取育成法」を応用したいということだね。"
+80,"TEXT_JOBREL300_02328_ULAN_000_025","うん、少し考えてみたが、確かに理論上は可能だ。
+ただし、この方法にはひとつ大きな壁があってね。
+……順番に説明していこう。"
+81,"TEXT_JOBREL300_02328_ULAN_000_026","魔法生物がエーテルで構成されていることは、知ってのとおり。
+だからこそ、エーテルの結晶であるクリスタルを摂取させれば、
+その育成につながるだろうというのが、私の研究の基礎理論だ。"
+82,"TEXT_JOBREL300_02328_ULAN_000_027","だが、クリスタルには属性の偏りがある。
+不用意にクリスタルを摂取させれば、その魔法生物は、
+体内の属性バランスを崩し、たちまちのうちに消滅してしまう。"
+83,"TEXT_JOBREL300_02328_ULAN_000_028","ゆえに、個々の魔法生物に対し「最適な属性バランス」を見極め、
+エサとなるクリスタルを配合する研究を続けてきた。
+その成果は、残念だが、一朝一夕で伝授できるものではない。"
+84,"TEXT_JOBREL300_02328_ULAN_000_029","とはいえ、私も君たちと同じ、未知の領域に挑む探求者だ。
+それに人造精霊の研究も、大いに興味をそそられる……。
+ここはひとつ、取引といかないか？"
+85,"TEXT_JOBREL300_02328_ULAN_000_030","私の研究には、必要なものが実に多い！
+試料、文献、実験道具……設備に加えて、協力者……
+それらを手配する交渉材料として、さまざまな品がいる。"
+86,"TEXT_JOBREL300_02328_ULAN_100_030","もし、君たちが私の求める品を集めてくれるのであれば、
+見返りとして、私自ら君たちのために腕を振るおう。
+この知識と技術を最大限に使ってな……どうだね？"
+87,"TEXT_JOBREL300_02328_ARDASHIR_000_031","ぜ……是非お願いします！！"
+88,"TEXT_JOBREL300_02328_ULAN_000_032","よろしい、アルダシールには、知識の対価となる品を、
+冒険者くんには、技術の対価となる品を集めてもらうよ。
+それぞれに、必要となる品を書いたメモを渡しておこう……。"
+89,"TEXT_JOBREL300_02328_ARDASHIR_000_033","よし……早速、用意してきます。
+それじゃあ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん、
+また後ほど、お会いしましょう！"
+90,"TEXT_JOBREL300_02328_ULAN_000_034","まったく、せわしないヤツだ……。"
+91,"TEXT_JOBREL300_02328_ULAN_000_035","さて、君はメモに書かれた品々の中から、
+どれでも好きな物を一組集めて、
+私のところに持ってきてくれ。"
+92,"TEXT_JOBREL300_02328_ULAN_000_036","報酬として、魔法生物に与えるために開発した、
+粉末状の結晶、「<Sheet(Item,15841,0)/>」を提供させてもらおう。
+……ただし、そのまま人造精霊に与えようとは思うなよ？"
+93,"TEXT_JOBREL300_02328_ULAN_000_037","魔法生物とは、基本的に「食事」をとらない。
+エサを差し出せば、食べるという単純なものではないのだ。
+……どれ、人造精霊くんとやら、出てきてくれないか？"
+94,"TEXT_JOBREL300_02328_ULAN_000_038","フフフ……美しい魔法生物じゃないか！"
+95,"TEXT_JOBREL300_02328_ULAN_100_038","あぁ、私が見えていることに驚いているのかい？
+長年にわたって、魔法生物の研究をしているんだ。
+この程度の魔法生物、見えて当然さ。"
+96,"TEXT_JOBREL300_02328_ULAN_100_039","さあ、人造精霊くん、この「<Sheet(Item,15841,0)/>」を見てくれ。
+君はコレを、食べられそうか？"
+97,"TEXT_JOBREL300_02328_BUKINOSEIREI_000_039","主、アレは危険だ……。
+……あの者は、俺を破滅させようとしている……。
+ここからにげよう……。"
+98,"TEXT_JOBREL300_02328_BUKINOSEIREI_000_040","主、あの方は危険です……。
+私を、破滅させようとしている……。
+ここからにげましょう……。"
+99,"TEXT_JOBREL300_02328_ULAN_000_041","やはり、君の人造精霊は、美しい上に賢いようだね。
+そう、この「<Sheet(Item,15841,0)/>」は、属性の力が強すぎるのさ。
+君の人造精霊にあわせた「調整」をしていないからね。"
+100,"TEXT_JOBREL300_02328_ULAN_000_042","そこで必要となるのが、霊極性の力を帯びた「<Sheet(Item,15840,0)/>」だ。
+1袋の<Sheet(Item,15841,0)/>につき、1個の<Sheet(Item,15840,0)/>があれば、
+属性の力を非活性化し、安全に摂取できる状態に調整できる。"
+101,"TEXT_JOBREL300_02328_ULAN_000_043","<Sheet(Item,15840,0)/>は、ロウェナ商店の「ヒスメナ」くんが扱っているから、
+<Sheet(Item,15841,0)/>と同じ数だけ用意してくれ。
+双方をそろえたら、私が調整して、人造精霊に与えよう。"
+102,"TEXT_JOBREL300_02328_ULAN_000_044","あぁ、調整の作業や、それを与えて育成を施す際には、
+人造精霊が宿ったアニマウェポンを、君の傍に置く必要がある。
+身に着けることを忘れずに来てくれ。"
+103,"TEXT_JOBREL300_02328_ULAN_000_045","あとは……そうそう、魔法生物のエーテルバランスを、
+推測することができるルーペを、君に進呈しておこう。
+名はないが、「<Sheet(EventItem,2001994,0)/>」とでも呼んでくれればいいさ。"
+104,"TEXT_JOBREL300_02328_ULAN_000_046","さあ、説明は以上だ。
+わからないことがあれば、いつでも遠慮なく聞いてくれ。
+モノがそろい次第、人造精霊を成長させてみようじゃないか！！"
+105,"TEXT_JOBREL300_02328_ULAN_000_047","新たな人造精霊の育成を行いたいという話は、
+アルダシールから聞いているよ。"
+106,"TEXT_JOBREL300_02328_ULAN_000_048","やるべき事は、前回と同様だ。
+「<Sheet(Item,15841,0)/>」と「<Sheet(Item,15840,0)/>」を同数集めて、
+私のところに持ってきてくれ。"
+107,"TEXT_JOBREL300_02328_ULAN_000_049","あぁ、人造精霊が宿ったアニマウェポンは、
+忘れずに身に着けてくるんだぞ。"
+108,"TEXT_JOBREL300_02328_ULAN_100_049","新しい「<Sheet(EventItem,2001994,0)/>」も渡しておく。
+もし紛失してしまったときは、「アーノット」に相談してくれ。
+それでは、さっそく行動を開始しようじゃないか。"
+109,"TEXT_JOBREL300_02328_SYSTEM_000_010","人造精霊を成長させるには、
+「<If(LessThan(PlayerParameter(68),8))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(GreaterThan(PlayerParameter(68),18))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/></If></If>」のアニマウェポン・コンダクトを装備し、
+ウランに話しかけ「人造精霊を成長させる」を選択しましょう。"
+110,"TEXT_JOBREL300_02328_SYSTEM_000_011","人造精霊を成長させる際には、まず、
+「<Sheet(Item,15841,0)/>」と「<Sheet(Item,15840,0)/>」を使用し、
+「調整クリスタルサンド」を複数入手します。"
+111,"TEXT_JOBREL300_02328_SYSTEM_000_012","その「調整クリスタルサンド」で、
+人造精霊の5種類のパラメータから、任意のものを強化できます。
+よく考えながら、パラメータを強化していきましょう。"
+112,"TEXT_JOBREL300_02328_SYSTEM_000_013","<If(LessThan(PlayerParameter(68),8))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(GreaterThan(PlayerParameter(68),18))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/></If></If>の場合、強化可能なパラメータは、
+「クリティカル」「ダイレクトヒット」「意思力」、
+「不屈」「スキルスピード」の5種類です。"
+113,"TEXT_JOBREL300_02328_SYSTEM_000_014","<If(LessThan(PlayerParameter(68),8))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(GreaterThan(PlayerParameter(68),18))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/></If></If>の場合、強化可能なパラメータは、
+「クリティカル」「ダイレクトヒット」「意思力」、
+「信仰」「スペルスピード」の5種類です。"
+114,"TEXT_JOBREL300_02328_SYSTEM_100_014","また、クエストアイテム「<Sheet(EventItem,2001993,0)/>」には、
+<Sheet(Item,15841,0)/>を受け取るのに、
+必要なアイテムが記述されています。"
+115,"TEXT_JOBREL300_02328_SYSTEM_000_015","なお、ウランのもとで育成を行っている人造精霊の状態は、
+クエストアイテム「<Sheet(EventItem,2001994,0)/>」を使用することで、
+いつでも確認ができます。"
+116,"TEXT_JOBREL300_02328_SYSTEM_000_020","「人造精霊の再調整」を行いたい場合は、
+<If(LessThan(PlayerParameter(68),8))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(GreaterThan(PlayerParameter(68),18))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/></If></If>の「アニマウェポン・コンダクト」を、
+リテイナーに預けるなどをし、装備や所持からは外してください。"
+117,"TEXT_JOBREL300_02328_ULAN_000_050","「<Sheet(Item,IntegerParameter(1),0)/>」を装備したまえ。
+それから人造精霊くんを成長させようじゃないか！"
+118,"TEXT_JOBREL300_02328_ULAN_100_050","「<Sheet(Item,IntegerParameter(1),0)/>」、
+「<Sheet(Item,IntegerParameter(2),0)/>」を装備したまえ。
+それから人造精霊くんを成長させようじゃないか！"
+119,"TEXT_JOBREL300_02328_Q1_000_010","何をしますか？"
+120,"TEXT_JOBREL300_02328_A1_000_010","人造精霊を成長させる"
+121,"TEXT_JOBREL300_02328_A2_000_011","「<Sheet(Item,15841,0)/>」の交換"
+122,"TEXT_JOBREL300_02328_A3_000_012","説明を聞く"
+123,"TEXT_JOBREL300_02328_A4_000_013","キャンセル"
+124,"TEXT_JOBREL300_02328_Q1_000_020","何を聞きますか？"
+125,"TEXT_JOBREL300_02328_A1_000_020","人造精霊を成長させるには？"
+126,"TEXT_JOBREL300_02328_A2_000_021","必要なアイテムの入手方法は？"
+127,"TEXT_JOBREL300_02328_A3_000_022","キャンセル"
+128,"TEXT_JOBREL300_02328_ULAN_000_051","人造精霊を成長させるには、
+「<Sheet(Item,15841,0)/>」と「<Sheet(Item,15840,0)/>」が同数必要だ。"
+129,"TEXT_JOBREL300_02328_ULAN_000_052","それら両方を入手したら、
+人造精霊くんが宿るアニマウェポンを身に着けて、
+私に声をかけてくれ。"
+130,"TEXT_JOBREL300_02328_SYSTEM_000_022","人造精霊を成長させるには、
+「<If(LessThan(PlayerParameter(68),8))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(GreaterThan(PlayerParameter(68),18))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/></If></If>」のアニマウェポン・コンダクトを装備し、
+ウランに話しかけ「人造精霊を成長させる」を選択しましょう。"
+131,"TEXT_JOBREL300_02328_SYSTEM_000_023","人造精霊を成長させる際には、まず、
+「<Sheet(Item,15841,0)/>」と「<Sheet(Item,15840,0)/>」を使用し、
+「調整クリスタルサンド」を複数入手します。"
+132,"TEXT_JOBREL300_02328_SYSTEM_000_024","その「調整クリスタルサンド」で、
+人造精霊の5種類のパラメータから、任意のものを強化できます。"
+133,"TEXT_JOBREL300_02328_SYSTEM_000_025","<If(LessThan(PlayerParameter(68),8))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(GreaterThan(PlayerParameter(68),18))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/></If></If>の場合、強化可能なパラメータは、
+「クリティカル」「ダイレクトヒット」「意思力」、
+「不屈」「スキルスピード」の5種類です。"
+134,"TEXT_JOBREL300_02328_SYSTEM_000_026","<If(LessThan(PlayerParameter(68),8))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(GreaterThan(PlayerParameter(68),18))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/></If></If>の場合、強化可能なパラメータは、
+「クリティカル」「ダイレクトヒット」「意思力」、
+「信仰」「スペルスピード」の5種類です。"
+135,"TEXT_JOBREL300_02328_SYSTEM_000_027","なお、クエストアイテム「<Sheet(EventItem,2001994,0)/>」を使用すると、
+現在の人造精霊のパラメータ状況を、確認することができます。
+よく考えながら、パラメータを強化していきましょう。"
+136,"TEXT_JOBREL300_02328_ULAN_000_053","人造精霊を成長させるに必要となる品は、
+「<Sheet(Item,15841,0)/>」と「<Sheet(Item,15840,0)/>」だ。"
+137,"TEXT_JOBREL300_02328_ULAN_000_054","<Sheet(Item,15841,0)/>が欲しい場合は、
+メモの中から、どれでも好きな物を一組集めて、
+私のところへ持ってきてくれ。"
+138,"TEXT_JOBREL300_02328_ULAN_000_055","メモを紛失してしまったのなら、
+机の上に用意しておくから、自由に持っていってくれて構わない。"
+139,"TEXT_JOBREL300_02328_ULAN_000_056","「<Sheet(Item,15840,0)/>」は、ロウェナ商会の「ヒスメナ」くんが扱っている。
+彼女から、調達してきてくれ。"
+140,"TEXT_JOBREL300_02328_ULAN_000_057","あぁ、それから……「<Sheet(EventItem,2001994,0)/>」を紛失したら、
+「アーノット」に相談してくれ。
+きっとヤツが新しい物を用意してくれるだろう。"
+141,"TEXT_JOBREL300_02328_ULAN_000_060","さて、冒険者くんの人造精霊は、
+ずいぶんと成長したんじゃないかな？"
+142,"TEXT_JOBREL300_02328_ARNOTT_000_061","ええ、ダイヤの育成過程で得られた
+研究データと比較しても、かなりの成長ぶりですね……。
+ひとまず、育成は成功したと考えていいでしょう。"
+143,"TEXT_JOBREL300_02328_ARNOTT_000_062","ええ、前回はさらに育成を続行したわけですが……
+私が見るに、今の状態でも満足すべき結果かと思います。
+ひとまず、育成は成功したと考えていいでしょう。"
+144,"TEXT_JOBREL300_02328_BUKINOSEIREI_000_063","主……俺、まだ大丈夫です……。"
+145,"TEXT_JOBREL300_02328_BUKINOSEIREI_000_064","あなたと、同じ世界……みたい。
+そのために、もっと……もっと強くなりたい。"
+146,"TEXT_JOBREL300_02328_BUKINOSEIREI_000_065","主……私、まだいけます……。"
+147,"TEXT_JOBREL300_02328_BUKINOSEIREI_000_066","あなたと、同じ世界……みたい。
+だから、もっと……もっと強くなるの。"
+148,"TEXT_JOBREL300_02328_ULAN_000_067","ふむ……ダイヤで試した以上の領域に踏み込むのは危険だが、
+魔法生物が自ら、さらなる成長を望むとはね……。
+人造精霊くんにとって、君はとても大切な存在らしい。"
+149,"TEXT_JOBREL300_02328_ULAN_000_068","またもや魔法生物が自ら、さらなる成長を望むとはね……。
+人造精霊くんにとって、君はとても大切な存在らしい。"
+150,"TEXT_JOBREL300_02328_ARDASHIR_000_069","メモに記された品を調達してきました！
+これで俺も、人造精霊の育成に参加できます！"
+151,"TEXT_JOBREL300_02328_ULAN_000_070","いいところに来たな、アルダシール。
+実は、かなりの成長度に達しているにもかかわらず、
+人造精霊くん自らが、さらなる育成を望んでいてね。"
+152,"TEXT_JOBREL300_02328_ULAN_000_071","私たちの研究データにもない領域へ踏み込むだけに、
+危険がないとは、言いきれないのだが……。
+続行しても構わないね？"
+153,"TEXT_JOBREL300_02328_ARDASHIR_000_072","もちろん！
+人造精霊が望んでいるのであれば、俺は止めません！
+ただ、人造精霊の身体である武器の限界が心配ですね……。"
+154,"TEXT_JOBREL300_02328_ARDASHIR_000_073","……でしたら、俺は研究拠点に戻り、
+ゲロルトさんとともに、新たな器の準備をしておきます。
+さらに成長した人造精霊に相応しい武器を、用意してみせますよ！"
+155,"TEXT_JOBREL300_02328_ULAN_000_074","なんだか面白くなってきたじゃないか！
+さあ、こうなったら徹底的に成長させてみせるぞ！"
+156,"TEXT_JOBREL300_02328_BUKINOSEIREI_000_080","主……すみません。
+からだが……くるしい……。"
+157,"TEXT_JOBREL300_02328_BUKINOSEIREI_000_081","主……すみません。
+からだが……くるしい……。"
+158,"TEXT_JOBREL300_02328_ULAN_000_082","……まずいな、アルダシールの懸念が現実になったようだ。
+人造精霊の成長に対して、身体である武器が限界に近づいている。"
+159,"TEXT_JOBREL300_02328_ULAN_000_083","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>くん……
+今すぐ人造精霊を連れて、アルダシールのもとへ戻りなさい。
+アルダシールには、私から連絡を入れて事情を伝えておこう。"
+160,"TEXT_JOBREL300_02328_ARNOTT_000_084","アルダシールに、<Sheet(EventItem,2001994,0)/>をお渡しください。
+人造精霊の様子を確認するときに、役立つはずですから……。"
+161,"TEXT_JOBREL300_02328_ULAN_100_091","<Sheet(EventItem,2001994,0)/>を持って、
+アルダシールの元へ戻ってくれ。
+人造精霊くんが無事であるよう、祈っているよ。"
+162,"TEXT_JOBREL300_02328_SYSTEM_000_040","「<Sheet(EventItem,2001994,0)/>」を所持していないため、
+クエストの進行を行えません。"
+163,"TEXT_JOBREL300_02328_SYSTEM_000_041","「<Sheet(EventItem,2001994,0)/>」を紛失してしまった場合、
+イディルシャイアのアーノットから、再入手しましょう。"
+164,"TEXT_JOBREL300_02328_SYSTEM_000_042","（★未使用／削除予定★）"
+165,"TEXT_JOBREL300_02328_SYSTEM_000_043","（★未使用／削除予定★）"
+166,"TEXT_JOBREL300_02328_ARDASHIR_000_090","お、おかえりなさい！
+ウランさんから、事情は伝え聞いています。
+さっそく、人造精霊の様子を確認してみましょう！！"
+167,"TEXT_JOBREL300_02328_ARDASHIR_000_091","「<Sheet(EventItem,2001994,0)/>」と、「<Sheet(Item,IntegerParameter(1),0)/>」、
+「<Sheet(Item,IntegerParameter(2),0)/>」を
+渡してもらえますか？"
+168,"TEXT_JOBREL300_02328_ARDASHIR_000_092","「<Sheet(EventItem,2001994,0)/>」と、「<Sheet(Item,IntegerParameter(1),0)/>」を、
+渡してもらえますか？"
+169,"TEXT_JOBREL300_02328_ARDASHIR_000_093","くっ、やっぱり予想通り、限界に近づいていますね……。
+ゲロルトさん、すぐにソウルストーンを取り外してください！"
+170,"TEXT_JOBREL300_02328_ARDASHIR_000_094","もう大丈夫ですよ。"
+171,"TEXT_JOBREL300_02328_ARDASHIR_100_094","ゲロルトさん、俺たちが用意した新しい武器の準備を！
+ソウルストーンを移し変えますよ！"
+172,"TEXT_JOBREL300_02328_GEROLT_000_095","よっしゃ、任せとけ！
+高みに昇るため、人造精霊がこれだけ根性見せたンだ。
+しっかり、褒美をくれてやらねェとな！"
+173,"TEXT_JOBREL300_02328_GEROLT_100_095","ハァハァ……。
+受け取りやがれ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>……！！"
+174,"TEXT_JOBREL300_02328_GEROLT_000_096","……アラグの地で身に着けた技術を、注ぎ込んだ逸品だ！
+名付けて、「<Sheet(Item,IntegerParameter(1),0)/>」！"
+175,"TEXT_JOBREL300_02328_GEROLT_000_097","……アラグの地で身に着けた技術を、注ぎ込んだ逸品だ！
+名付けて「<Sheet(Item,IntegerParameter(1),0)/>」……
+そして、「<Sheet(Item,IntegerParameter(2),0)/>」！"
+176,"TEXT_JOBREL300_02328_BUKINOSEIREI_000_098","……身体……とても軽い。
+主……俺に、なにか魔法を……？"
+177,"TEXT_JOBREL300_02328_BUKINOSEIREI_000_099","……身体……とても軽いです。
+主……私に、なにか魔法を……？"
+178,"TEXT_JOBREL300_02328_BUKINOSEIREI_000_100","アルダシール……ゲロルト。
+……新たな身体を、与えてくれた……。"
+179,"TEXT_JOBREL300_02328_BUKINOSEIREI_000_101","ありがとう……。"
+180,"TEXT_JOBREL300_02328_ARDASHIR_000_102","ゆ、夢をみているみたいだ……。
+今、俺は人造精霊と対話している……。
+本物の……人造精霊……。"
+181,"TEXT_JOBREL300_02328_BUKINOSEIREI_000_103","主……アルダシールが、ふらふらだ。
+……彼にも、新たな身体を……！"
+182,"TEXT_JOBREL300_02328_BUKINOSEIREI_100_103","俺が得た「<Sheet(Item,IntegerParameter(1),0)/>」のように、
+素晴らしい身体を……ゲロルトに作ってもらおう。"
+183,"TEXT_JOBREL300_02328_BUKINOSEIREI_000_104","俺が得た「<Sheet(Item,IntegerParameter(1),0)/>」と、
+「<Sheet(Item,IntegerParameter(2),0)/>」のように、
+素晴らしい身体を……ゲロルトに作ってもらおう。"
+184,"TEXT_JOBREL300_02328_BUKINOSEIREI_100_104","主よ……アルダシールが、ふらふらです。
+……彼にも、新たな身体を……！"
+185,"TEXT_JOBREL300_02328_BUKINOSEIREI_000_105","私が得た「<Sheet(Item,IntegerParameter(1),0)/>」のように、
+素晴らしい身体を……ゲロルトに作ってもらうのです。"
+186,"TEXT_JOBREL300_02328_BUKINOSEIREI_100_105","私が得た「<Sheet(Item,IntegerParameter(1),0)/>」と、
+「<Sheet(Item,IntegerParameter(2),0)/>」のように、
+素晴らしい身体を……ゲロルトに作ってもらうのです。"
+187,"TEXT_JOBREL300_02328_ARDASHIR_000_108","クッ……アッハッハッハ、面白いことを言いますね。
+人の魂は、そう簡単に新しい体に移し変えられません。
+何より、このおっさんが作った身体なんて、俺はご免です！"
+188,"TEXT_JOBREL300_02328_ARDASHIR_000_109","そんなことより、俺は幸せ者です。
+念願だった君と、こうして話すことができているんですから……。
+しかも、俺のことを、心配までしてもらうなんてね。"
+189,"TEXT_JOBREL300_02328_ARDASHIR_000_110","とんでもない！！
+俺は、君に会えてとても幸せなんです。"
+190,"TEXT_JOBREL300_02328_BUKINOSEIREI_000_111","しあわせ……。"
+191,"TEXT_JOBREL300_02328_ARDASHIR_000_112","今日は、もう疲れたでしょう。
+ゆっくり、新しい器の中で、休んでください。"
+192,"TEXT_JOBREL300_02328_ARDASHIR_000_113","人造精霊は、大きく成長をとげました。
+まだまだ知識が欠如しているようですが、素晴らしい成果です！"
+193,"TEXT_JOBREL300_02328_ARDASHIR_000_114","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さんと、さらなる冒険を続ければ、
+より多くのことを学び、人格も成長を遂げていくことでしょう。
+そのためにも、ぜひ支えてあげてくださいね。"
+194,"TEXT_JOBREL300_02328_GEROLT_000_115","……そうだな、このガキみたいに、
+クソ生意気な人格にならンように、しっかり躾けてやれよ。"
+195,"TEXT_JOBREL300_02328_ARDASHIR_000_116","その言葉……そっくりそのままお返しさせていただきますよ。"
+196,"TEXT_JOBREL300_02328_ARDASHIR_000_117","ともかく、今回はおつかれさまでした。
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さんも、次に備えて、
+少し休んでおいてくださいね。"
+197,"TEXT_JOBREL300_02328_GEROLT_000_118","アルダシールのやつ……有頂天になってやがンな……。
+そういうときこそ、何か見落とすモンだぜ？"
+198,"TEXT_JOBREL300_02328_GEROLT_000_119","まァ、てめぇがついてりゃ、心配いらねェとは思うが、
+人造精霊の様子だけは、しっかり見ておけよ。"
+199,"TEXT_JOBREL300_02328_ARDASHIR_000_120","今回も人造精霊は大きな成長を遂げました！
+さらなる成長のためにも、今は身体を休めておいてくださいね。"
+200,"TEXT_JOBREL300_02328_SYSTEM_000_050","「アニマウェポン・コンダクト」は強化され、
+「新たなアニマウェポン」となりました！"

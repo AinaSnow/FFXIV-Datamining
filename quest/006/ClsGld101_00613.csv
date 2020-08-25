@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSGLD101_00613_SEQ_00","Serendipity believes you are ready for a new kind of challenge."
-1,"TEXT_CLSGLD101_00613_SEQ_01","Serendipity has tasked you with your first official commission. Craft a dozen handfuls of copper rings and present them to her for inspection."
-2,"TEXT_CLSGLD101_00613_SEQ_02","In a surprising turn of events, Gigi compliments your craftsmanship, albeit in a tremendously condescending manner. Serendipity bids you deliver the copper rings to the client, a Sultansworn named Robert, who should be waiting just outside the Goldsmiths' Guild."
-3,"TEXT_CLSGLD101_00613_SEQ_03","Robert thanks you for the delivery, and states that the full payment will be delivered to the guild in short order. Relay his words to Serendipity."
-4,"TEXT_CLSGLD101_00613_SEQ_04","Serendipity's eyes light up with joy upon hearing the Sultansworn's words. After regaining her composure, she suggests that you start accepting independent commissions by speaking with Eustace at the Quicksand, as a means of earning gil and building your reputation as a goldsmith.
+0,"TEXT_CLSGLD101_00613_SEQ_00","彫金師ギルドのセレンディピティーから仕事の依頼があるようだ。"
+1,"TEXT_CLSGLD101_00613_SEQ_01","「<Sheet(Item,5086,0)/>」を12箱製作しセレンディピティーに見せよう。"
+2,"TEXT_CLSGLD101_00613_SEQ_02","彫金師ギルドの前の広場にいるロバートに、依頼の品、<Sheet(Item,5086,0)/>を届けよう。"
+3,"TEXT_CLSGLD101_00613_SEQ_03","依頼の品を届けることができた。彫金師ギルドに戻り、セレンディピティーに報告しよう。"
+4,"TEXT_CLSGLD101_00613_SEQ_04","ネジに才能を認めてもらうことができた冒険者。更なる修行のため、ギルドリーヴの製作家業を受けるなど訓練をしよう。
 
-※The next goldsmith quest will be available from Serendipity upon reaching level 15."
+※彫金師のレベルが15以上になると、セレンディピティーから次の彫金師クエストを受注することができます。"
 5,"TEXT_CLSGLD101_00613_SEQ_05",""
 6,"TEXT_CLSGLD101_00613_SEQ_06",""
 7,"TEXT_CLSGLD101_00613_SEQ_07",""
@@ -27,9 +27,9 @@ int32,str,str
 21,"TEXT_CLSGLD101_00613_SEQ_21",""
 22,"TEXT_CLSGLD101_00613_SEQ_22",""
 23,"TEXT_CLSGLD101_00613_SEQ_23",""
-24,"TEXT_CLSGLD101_00613_TODO_00","Present handfuls of copper rings to Serendipity."
-25,"TEXT_CLSGLD101_00613_TODO_01","Deliver the copper rings to Robert."
-26,"TEXT_CLSGLD101_00613_TODO_02","Report to Serendipity."
+24,"TEXT_CLSGLD101_00613_TODO_00","セレンディピティーに<Sheet(Item,5086,0)/>を見せる"
+25,"TEXT_CLSGLD101_00613_TODO_01","ロバートに<Sheet(Item,5086,0)/>を渡す"
+26,"TEXT_CLSGLD101_00613_TODO_02","セレンディピティーに報告"
 27,"TEXT_CLSGLD101_00613_TODO_03",""
 28,"TEXT_CLSGLD101_00613_TODO_04",""
 29,"TEXT_CLSGLD101_00613_TODO_05",""
@@ -51,28 +51,67 @@ int32,str,str
 45,"TEXT_CLSGLD101_00613_TODO_21",""
 46,"TEXT_CLSGLD101_00613_TODO_22",""
 47,"TEXT_CLSGLD101_00613_TODO_23",""
-48,"TEXT_CLSGLD101_00613_SERENDIPITY_000_1","I'm so sorry, sir! Please don't─ Oh, it's only you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! For a moment there, I thought my heart was about to fail me!"
-49,"TEXT_CLSGLD101_00613_SERENDIPITY_000_2","I thought the angry miner had returned. Gigi wasn't pleased with the ore the miner brought in, you see, and he made this sentiment clear...in the only way he knows how. There was mention of the miner's mother and an aldgoat─"
-50,"TEXT_CLSGLD101_00613_SERENDIPITY_000_3","A-Ahem! Never mind all that─I have an urgent task for you. We've just received an order for a prodigious quantity of copper rings, and I'd like you to handle it."
-51,"TEXT_CLSGLD101_00613_SERENDIPITY_000_4","Now, this is an honest-to-gods commission, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. You'll have to satisfy a paying customer, not your kind and lovely guildmaster."
-52,"TEXT_CLSGLD101_00613_SERENDIPITY_000_5","But I believe that you can do more than simply satisfy. Now, the customer's waiting, so you'd best get started on those copper rings. When they're ready, come and show them to me, just for good measure."
-53,"TEXT_CLSGLD101_00613_SERENDIPITY_000_6","So, are the rings ready yet?"
-54,"TEXT_CLSGLD101_00613_GIGI_000_7","NE※GIGIGI★※...
-CoPpEr...RiNgS...eH, i HaVe SeEn WoRsE."
-55,"TEXT_CLSGLD101_00613_SERENDIPITY_000_8","Oh, Gigi, must you always be so─"
-56,"TEXT_CLSGLD101_00613_SERENDIPITY_000_9","...Wait a minute. Did you just say that you've seen worse?"
-57,"TEXT_CLSGLD101_00613_SERENDIPITY_000_10","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! That's as good as a compliment, coming from him!"
-58,"TEXT_CLSGLD101_00613_SERENDIPITY_000_11","I mean, when you consider what a scathing critic he usually is, perhaps the fact he's not saying anything more insulting is a sign he likes it?"
-59,"TEXT_CLSGLD101_00613_SERENDIPITY_000_12","After all, he's called your previous work “utter garbage” and “an affront to the gods themselves.” I half expected him to call these rings abysmal failures!"
-60,"TEXT_CLSGLD101_00613_SERENDIPITY_000_13","Oh, I probably should take this opportunity to teach you a thing or two about what you made. Copper rings are...er, rings made out of copper. They can be used to make chains and...er, chainmail! <sigh> You probably already knew all that."
-61,"TEXT_CLSGLD101_00613_SERENDIPITY_000_14","Anyway, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, I would like you to deliver these rings to the client personally. I would handle it myself, but I...I believe it's very important that you learn how to deal with customers firsthand!"
-62,"TEXT_CLSGLD101_00613_SERENDIPITY_000_15","The client is a Sultansworn named Robert, who should be waiting outside the guild right about now."
-63,"TEXT_CLSGLD101_00613_SERENDIPITY_000_16","I told him he could wait inside, but he said he didn't want to distract the goldsmiths at their work. Not that <Emphasis>I</Emphasis> would mind a distraction like that..."
-64,"TEXT_CLSGLD101_00613_ROBERT_000_17","You're a goldsmith, aren't you? Did Mistress Serendipity send you?"
-65,"TEXT_CLSGLD101_00613_ROBERT_000_18","Yes, these shall serve nicely! Keeping the sultana from harm is perilous business, you see, and we Sultansworn can never have enough supplies to keep our equipment in serviceable condition."
-66,"TEXT_CLSGLD101_00613_ROBERT_000_19","You may inform Serendipity that she can expect full payment soon...and that I send her my <Emphasis>fondest</Emphasis> regards."
-67,"TEXT_CLSGLD101_00613_SERENDIPITY_000_20","How did it go, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>? What did he say about me─I mean, about your work?"
-68,"TEXT_CLSGLD101_00613_SERENDIPITY_000_21","...Oh. Ahem. Anyway, seeing how well your very first commission went, I have high hopes for those to come."
-69,"TEXT_CLSGLD101_00613_SERENDIPITY_000_22","In fact, why don't you speak with Eustace down at the Quicksand and see what work is available for a goldsmith?"
-70,"TEXT_CLSGLD101_00613_SERENDIPITY_000_23","Yes, I believe you're quite ready to handle commissions independent of my supervision. Take yourself to the Adventurers' Guild, and try taking on a task or two!"
-71,"TEXT_CLSGLD101_00613_ROBERT_000_30","Do remember to send Mistress Serendipity my <Emphasis>fondest</Emphasis> regards. My thanks again for the copper rings."
+48,"TEXT_CLSGLD101_00613_SERENDIPITY_000_1","あっ、ごめんなさい、お怪我は平気ですかっ！？
+……って、な～んだ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん
+脅かさないでくださいよぅ。"
+49,"TEXT_CLSGLD101_00613_SERENDIPITY_000_2","ネジが、採掘師のもってきた素材の質に憤慨して大喧嘩！
+さっきまで、それはもう阿鼻叫喚の大乱闘だったんですよぅ……。"
+50,"TEXT_CLSGLD101_00613_SERENDIPITY_000_3","あ、え～と、そうだ！
+先ほど銀冑団の方がいらっしゃいまして、
+大量の「<Sheet(Item,5086,0)/>」の製作依頼を受けたのです。"
+51,"TEXT_CLSGLD101_00613_SERENDIPITY_000_4","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さんも、だいぶ上達してきましたし、
+そろそろギルドの仕事をやってみましょう！
+「<Sheet(Item,5086,0)/>」を12箱ぶん、製作してください！"
+52,"TEXT_CLSGLD101_00613_SERENDIPITY_000_5","少々数が多くて大変だと思いますが、
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さんなら、きっとできますよ！
+ギルドでの初仕事ですっ、がんばってください！"
+53,"TEXT_CLSGLD101_00613_SERENDIPITY_000_6","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん、おかえりなさいっ！
+「<Sheet(Item,5086,0)/>」を12箱、作れましたか？"
+54,"TEXT_CLSGLD101_00613_GIGI_000_7","……ネジジ……
+カッパーリングズ……フムフム……ワかっぱー！
+コレハ　ソコソコ　かっぱーりんぐず！"
+55,"TEXT_CLSGLD101_00613_SERENDIPITY_000_8","……「そこそこ」っていうか、コレ、どう見ても
+「<Sheet(Item,5086,0)/>」なんですけど……。"
+56,"TEXT_CLSGLD101_00613_SERENDIPITY_000_9","って、あれ？
+ネジ、もしかしてこの「<Sheet(Item,5086,0)/>」を褒めてるの？"
+57,"TEXT_CLSGLD101_00613_SERENDIPITY_000_10","す、すごい！
+すごいですよ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん！
+ネジを認めさせる品を作るなんて！"
+58,"TEXT_CLSGLD101_00613_SERENDIPITY_000_11","ネジはエシュテムの超一流の鑑定士でさえ
+舌を巻くほどの「審美眼」を持っているんです。
+百年に渡って職人技を見てきた「目」は、まさにホンモノ。"
+59,"TEXT_CLSGLD101_00613_SERENDIPITY_000_12","ネジに褒められる人は、
+ギルドでもトップクラスの彫金師数人だけです！
+見習いがこんなこと言われるなんて、快挙ですっ！"
+60,"TEXT_CLSGLD101_00613_SERENDIPITY_000_13","ちなみに「<Sheet(Item,5086,0)/>」は、その名の通り銅の輪。
+繋ぎ合わせてチェーンメイル、つまり鎖かたびらを
+作る素材になります。"
+61,"TEXT_CLSGLD101_00613_SERENDIPITY_000_14","あ、そうそう！
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん、申し訳ないのですが、
+ひとつお遣いをお願いできますでしょうか？"
+62,"TEXT_CLSGLD101_00613_SERENDIPITY_000_15","「<Sheet(Item,5086,0)/>」を発注した依頼人、
+銀冑団の「ロバート」さんに、この品を届けてほしいんです。"
+63,"TEXT_CLSGLD101_00613_SERENDIPITY_000_16","彼はギルドのすぐ前の広場にいるそうです。
+ネジに認められた、この「<Sheet(Item,5086,0)/>」なら
+マスターの私も、太鼓判を押してお届けできますっ！"
+64,"TEXT_CLSGLD101_00613_ROBERT_000_17","やぁ、君は彫金師ギルドの人だね？
+もちろんわかるよ。
+だって彫金の必需品であるハンマーを持ってるもの。"
+65,"TEXT_CLSGLD101_00613_ROBERT_000_18","おお！　これだこれ！　こいつを使って、
+穴の開いたチェーンメイルを補修するんだ。
+輝かしき近衛兵団「銀冑団」も、資金難なもんでね。"
+66,"TEXT_CLSGLD101_00613_ROBERT_000_19","僕は銀冑団のロバート。
+主に団の酒保、兵站を担当している。
+今後ともお見知りおきを……ってとこかな？"
+67,"TEXT_CLSGLD101_00613_SERENDIPITY_000_20","お帰りなさい。どうでした？
+この調子で、どんどん彫金に励んでください！"
+68,"TEXT_CLSGLD101_00613_SERENDIPITY_000_21","ネジに認められた才能が開花したなら、
+もしかして、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>印のブランドが
+社交界で流行するのも夢じゃないかもしれませんよっ！"
+69,"TEXT_CLSGLD101_00613_SERENDIPITY_000_22","もし、訓練のための仕事を探しているなら、
+冒険者ギルドのユースタスさんから、
+ギルドリーヴの製作稼業を受けてみてください。"
+70,"TEXT_CLSGLD101_00613_SERENDIPITY_000_23","あなたの成長を、ネジと一緒に応援していますっ！
+がんばってください、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さんっ！"
+71,"TEXT_CLSGLD101_00613_ROBERT_000_30","僕は主に団の酒保、兵站を担当している。
+今後ともお見知りおきを……ってとこかな？"

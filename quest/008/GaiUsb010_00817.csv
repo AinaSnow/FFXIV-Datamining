@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB010_00817_SEQ_00","Detoh Moshroca needs a favor of an adventurer. The goodwill of a maid so proficient with polearms is surely worth having."
-1,"TEXT_GAIUSB010_00817_SEQ_01","Inspired by Captain Landenel's tales of intrigue from about the realm, Detoh Moshroca seeks Ul'dahn goods to expand her own worldly knowledge. To find something for her, speak with the Ul'dahn trader plying his wares in the Lower Paths."
-2,"TEXT_GAIUSB010_00817_SEQ_02","Upon locating the Ul'dahn trader on the Lower Paths, you find less vending of goods taking place and more defending against infernal birds of prey. You rescue the Lalafell from a dire fate, and receive a set of Ul'dahn incense as a token of thanks. Take the precious aromatics to Wood Wailer Detoh Moshroca."
-3,"TEXT_GAIUSB010_00817_SEQ_03","The set of Ul'dahn incense is now in the hands of the intrepid Wailer maid, who received them with much thanks and exclamations of delight. This could be the beginning of a beautiful friendship. Or not."
+0,"TEXT_GAIUSB010_00817_SEQ_00","キャンプ・トランキルの鬼哭隊士デト・モシュロカは、冒険者に頼みたいことがあるようだ。"
+1,"TEXT_GAIUSB010_00817_SEQ_01","デト・モシュロカは、ウルダハ様式の品が欲しいそうだ。ロウアーパスに来ている「ウルダハの商人」に話しかけてみよう。"
+2,"TEXT_GAIUSB010_00817_SEQ_02","魔物に襲われていた商人を助けたところ、<Sheet(EventItem,2000639,0)/>を貰うことができた。キャンプ・トランキルの「デト・モシュロカ」に「<Sheet(EventItem,2000639,0)/>」を渡そう。"
+3,"TEXT_GAIUSB010_00817_SEQ_03","デト・モシュロカに<Sheet(EventItem,2000639,0)/>を渡した。ウルダハの品を手に入れた彼女は、とても喜んでいるようだ。"
 4,"TEXT_GAIUSB010_00817_SEQ_04",""
 5,"TEXT_GAIUSB010_00817_SEQ_05",""
 6,"TEXT_GAIUSB010_00817_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSB010_00817_SEQ_21",""
 22,"TEXT_GAIUSB010_00817_SEQ_22",""
 23,"TEXT_GAIUSB010_00817_SEQ_23",""
-24,"TEXT_GAIUSB010_00817_TODO_00","Speak with the Ul'dahn trader."
-25,"TEXT_GAIUSB010_00817_TODO_01","Deliver the Ul'dahn incense to Detoh Moshroca."
+24,"TEXT_GAIUSB010_00817_TODO_00","ウルダハの商人と話す"
+25,"TEXT_GAIUSB010_00817_TODO_01","デト・モシュロカに<Sheet(EventItem,2000639,0)/>を渡す"
 26,"TEXT_GAIUSB010_00817_TODO_02",""
 27,"TEXT_GAIUSB010_00817_TODO_03",""
 28,"TEXT_GAIUSB010_00817_TODO_04",""
@@ -49,15 +49,29 @@ int32,str,str
 45,"TEXT_GAIUSB010_00817_TODO_21",""
 46,"TEXT_GAIUSB010_00817_TODO_22",""
 47,"TEXT_GAIUSB010_00817_TODO_23",""
-48,"TEXT_GAIUSB010_00817_DETOHMOSHROCA_000_000","I heard Captain Landenel regaling you with the many tales of his youth. Much has he seen and known, having journeyed throughout Eorzea with naught but his wits."
-49,"TEXT_GAIUSB010_00817_DETOHMOSHROCA_000_001","I am a child of the Twelveswood, a Wailer through and through. Never have I cast a shadow that was not forged by a sun that perches atop the great elm at dawn."
-50,"TEXT_GAIUSB010_00817_DETOHMOSHROCA_000_002","Yet travel I would, if only in mind. They say that...they say an Ul'dahn trader is nearby, to the south. Will you find for me a thing from that city strange and great? I have duties or else I would go. You'll not find me ungrateful."
-51,"TEXT_GAIUSB010_00817_DUMMY_000_010",""
-52,"TEXT_GAIUSB010_00817_TODO_000_010",""
-53,"TEXT_GAIUSB010_00817_MERCHANT_000_020","Now that, <If(PlayerParameter(4))>madam<Else/>sire</If>, is what I call a close call! Good for nothing, that guard of mine. I swear these new sellswords are more of sell<Emphasis>scabbards</Emphasis>. Here, pray take this for your trouble, the more precious of my wares─Ul'dahn incense!"
-54,"TEXT_GAIUSB010_00817_MERCHANT_000_021","<sigh> A close call, this was. Another moment and I would have been carrion for their feast."
-55,"TEXT_GAIUSB010_00817_DETOHMOSHROCA_000_030","Did you...did you find something? Ah! I hope to the Twelve that it transports me, as the captain's tales do!"
-56,"TEXT_GAIUSB010_00817_DETOHMOSHROCA_000_031","The scent! My head swims... I see markets and the Coliseum, languorous evening strolls past roses with the heat of the sun still on them."
-57,"TEXT_GAIUSB010_00817_DETOHMOSHROCA_000_032","What smells! They inflame my imagination, and possibly my sinuses! Thank you, adventurer, you have more than earned this."
-58,"TEXT_GAIUSB010_00817_POP_MESSAGE_000","You sense a hostile presence!"
-59,"TEXT_GAIUSB010_00817_ACCESS_MESSAGE","The enemy is still about!"
+48,"TEXT_GAIUSB010_00817_DETOHMOSHROCA_000_000","お前、ランドゥネル隊長とはもう話したか？
+隊長はかつて、一人でエオルゼア中を旅していたそうだ。
+その体験談は、とても楽しそうなものばかりでな……。"
+49,"TEXT_GAIUSB010_00817_DETOHMOSHROCA_000_001","私は生まれてから、黒衣森を離れたことがない。
+鬼哭隊として、森を守ることに誇りをもってはいる。
+だが、他都市への関心はあって、だな……。"
+50,"TEXT_GAIUSB010_00817_DETOHMOSHROCA_000_002","南に、ウルダハ商人が品卸しに来ているらしいのだ。
+私は任務があって……あの、あとで何か礼はする！
+何かウルダハ様式の物を貰ってきてほしいんだ！"
+51,"TEXT_GAIUSB010_00817_DUMMY_000_010","ウルダハの商人を救助しようとすると、ヴァルチャー×2がpopするので倒す"
+52,"TEXT_GAIUSB010_00817_TODO_000_010","（★未使用／削除予定★）"
+53,"TEXT_GAIUSB010_00817_MERCHANT_000_020","いやぁー、助かった助かった……。
+護衛が役に立たなくてね、危ないところだったよ。
+お礼にこの「<Sheet(EventItem,2000639,0)/>」を君にあげよう！"
+54,"TEXT_GAIUSB010_00817_MERCHANT_000_021","いやぁー、助かった助かった……。
+護衛が役に立たなくてね、危ないところだったよ。"
+55,"TEXT_GAIUSB010_00817_DETOHMOSHROCA_000_030","な、何か貰えたか……？
+ウウ、ウルダハを感じられるものだといいな……。"
+56,"TEXT_GAIUSB010_00817_DETOHMOSHROCA_000_031","おお、これは……ウルダハの香か！
+うっ……な、なるほど……ックシュン！
+ウルダハの民は、強い匂いの物を好むのだな……。"
+57,"TEXT_GAIUSB010_00817_DETOHMOSHROCA_000_032","しかし、隊長の言っていたとおりだ……
+エオルゼアは広く、まだ私の知らぬことばかり！
+ありがとう冒険者よ、これが約束の礼だ……ックシュン！"
+58,"TEXT_GAIUSB010_00817_POP_MESSAGE_000","敵の気配を感じた！！"
+59,"TEXT_GAIUSB010_00817_ACCESS_MESSAGE","その行動は出現した敵を倒さないと実行できません"

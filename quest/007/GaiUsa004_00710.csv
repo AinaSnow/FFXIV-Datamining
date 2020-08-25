@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSA004_00710_SEQ_00","Rolfe Hawthorne would share further knowledge to assist you in befriending the sylphs."
-1,"TEXT_GAIUSA004_00710_SEQ_01","Rolfe tells you that it would be unwise to greet the sylphs without a proper gift, but he has trouble remembering exactly what that gift should be. However, it is possible that his wife, Rosa, can tell you. Speak with her at Fullflower Comb to see what she has to say."
-2,"TEXT_GAIUSA004_00710_SEQ_02","Though she does not fully understand why, Rosa informs you that the sylphs are said to be quite fond of milkroot, which can be obtained from ochus. In order to find one such ochu, take the amber syrup given to you by Rosa and pour it on the curious tussock in the Honey Yard. Once uncovered, slay the ochu, and pray that you find some milkroot among its remains."
-3,"TEXT_GAIUSA004_00710_SEQ_03","Your prayers have been answered, and you have the milkroot in your possession. Take your prize back to Rolfe at the Hawthorne Hut to ensure that it is indeed a suitable offering for the sylphs."
-4,"TEXT_GAIUSA004_00710_SEQ_04","Rolfe immediately recognizes the milkroot upon your presentation of it, and is sure that the sylphs will appreciate the offering. Just take care not to inhale too many of the fumes yourself before giving it to the sylphs."
+0,"TEXT_GAIUSA004_00710_SEQ_00","ホウソーンの山塞のロルフ・ホウソーンは、シルフへの手土産について助言をしたいようだ。"
+1,"TEXT_GAIUSA004_00710_SEQ_01","シルフ族が好きなものは、フルフラワー養蜂場にいる彼の妻「ロサ・ホウソーン」が詳しいようだ。彼女に聞いてみよう。"
+2,"TEXT_GAIUSA004_00710_SEQ_02","シルフ族は、<Sheet(EventItem,2000831,0)/>が好きらしい。「<Sheet(EventItem,2000571,0)/>」を「<Sheet(EObj,2001902,0)/>」に使い、現れた「<Sheet(BNpcName,33,0)/> 」を倒せば「<Sheet(EventItem,2000831,0)/>」を入手できるそうだ。"
+3,"TEXT_GAIUSA004_00710_SEQ_03","<Sheet(EventItem,2000831,0)/>を手に入れることができた。ホウソーンの山塞にいる「ロルフ・ホウソーン」に渡そう。"
+4,"TEXT_GAIUSA004_00710_SEQ_04","シルフ族にとって、<Sheet(EventItem,2000831,0)/>とは酒のようなものらしい。もっともロルフ・ホウソーンは、それを苦手としているようだ……。"
 5,"TEXT_GAIUSA004_00710_SEQ_05",""
 6,"TEXT_GAIUSA004_00710_SEQ_06",""
 7,"TEXT_GAIUSA004_00710_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_GAIUSA004_00710_SEQ_21",""
 22,"TEXT_GAIUSA004_00710_SEQ_22",""
 23,"TEXT_GAIUSA004_00710_SEQ_23",""
-24,"TEXT_GAIUSA004_00710_TODO_00","Speak with Rosa Hawthorne."
-25,"TEXT_GAIUSA004_00710_TODO_01","Use amber syrup on the curious tussock and slay the ochu."
-26,"TEXT_GAIUSA004_00710_TODO_02","Present the milkroot to Rolfe Hawthorne."
+24,"TEXT_GAIUSA004_00710_TODO_00","ロサ・ホウソーンと話す"
+25,"TEXT_GAIUSA004_00710_TODO_01","<Sheet(EObj,2001902,0)/>に<Sheet(EventItem,2000571,0)/>を使い<Sheet(BNpcName,33,0)/>から<Sheet(EventItem,2000831,0)/>を入手"
+26,"TEXT_GAIUSA004_00710_TODO_02","ロルフ・ホウソーンに<Sheet(EventItem,2000831,0)/>を渡す"
 27,"TEXT_GAIUSA004_00710_TODO_03",""
 28,"TEXT_GAIUSA004_00710_TODO_04",""
 29,"TEXT_GAIUSA004_00710_TODO_05",""
@@ -49,14 +49,28 @@ int32,str,str
 45,"TEXT_GAIUSA004_00710_TODO_21",""
 46,"TEXT_GAIUSA004_00710_TODO_22",""
 47,"TEXT_GAIUSA004_00710_TODO_23",""
-48,"TEXT_GAIUSA004_00710_ROLFE_000_000","Oh, still here, eh? Great! There's one more thing you should know about the sylphs. They don't take kindly to guests who show up empty-handed. To earn their trust, you'd do well to bring along a...a... Uh..."
-49,"TEXT_GAIUSA004_00710_ROLFE_000_001","Drat! What was it, again? And my wife Rosa and I were just speaking of the matter not days ago..."
-50,"TEXT_GAIUSA004_00710_ROLFE_000_002","Forgive me, friend. Speak to Rosa at the Comb─her memory should prove more reliable than mine own."
-51,"TEXT_GAIUSA004_00710_ROSA_000_010","A peace offering for the sylphs? Were it anyone else, I'd recommend a jar of honey, but I fear that wouldn't get you past their front doorstep, dear. No, their tastes run more to the <Emphasis>un</Emphasis>usual."
-52,"TEXT_GAIUSA004_00710_ROSA_000_011","Are you, perchance, familiar with milkroot? That's what we call the root of that most fiendish seedkin, the ochu. When chewed, it exudes a cloudy liquid that's said to induce curious visions in the imbiber. You'd not catch me dead trying the stuff, but the sylphs seem to enjoy it to no end."
-53,"TEXT_GAIUSA004_00710_ROSA_000_012","I've not seen an ochu around the Comb in quite some time, but I did encounter a suspicious clump of grass the other day. Were you to stimulate it somehow─with some of this amber syrup, for example─you might be surprised at what comes out. Good luck."
-54,"TEXT_GAIUSA004_00710_BATTLE_000_020",""
-55,"TEXT_GAIUSA004_00710_ROLFE_000_030","Ah, you're back. Was my wife able to direct you to a suitable offering?"
-56,"TEXT_GAIUSA004_00710_ROLFE_000_031","Milkroot! But of course! Those sylphs quaff that cloudy stuff as quick as I do a flagon of mead. The effect's just about the same, as well."
-57,"TEXT_GAIUSA004_00710_ROLFE_000_032","Anyroad, a gift of milkroot will have the sylphs calling you friend and <If(PlayerParameter(4))>sister<Else/>brother</If> the moment they lay eyes on it. Now let me wrap that up for you─I'm startin' to feel a bit woozy..."
-58,"TEXT_GAIUSA004_00710_POP_MESSAGE_000","With branches a-thrashing, the vegetation springs to life!"
+48,"TEXT_GAIUSA004_00710_ROLFE_000_000","シルフ族に会いに行くなら、
+手土産でも持っていったほうがいいだろう。
+とはいえ、オレはシルフ族の好みは知らなくてな……。"
+49,"TEXT_GAIUSA004_00710_ROLFE_000_001","そうだ「フルフラワー養蜂場」にいる、
+オレの嫁さんの「ロサ」に聞いてみたらどうだ？"
+50,"TEXT_GAIUSA004_00710_ROLFE_000_002","蜂箱にイタズラをされないために、
+シルフ族の生態についてかなり詳しく調べてたはずさ。"
+51,"TEXT_GAIUSA004_00710_ROSA_000_010","あら、シルフ族の好きなものが知りたいの？
+彼らはね、人と違って蜂蜜なんかじゃ喜ばないわよ。
+もっとゲテモノが好きなんだから。"
+52,"TEXT_GAIUSA004_00710_ROSA_000_011","シルフ族が好きなのはね、「<Sheet(EventItem,2000831,0)/>」……
+草木網（そうもくこう）に属する魔物の根っこのことよ。
+噛むと出てくる白い液が、彼らの気分を高揚させるの。"
+53,"TEXT_GAIUSA004_00710_ROSA_000_012","<Sheet(EventItem,2000831,0)/>が欲しいなら……
+<Sheet(BNpcName,33,0)/>が1体、近くの草むらにいたわ。
+この「<Sheet(EventItem,2000571,0)/>」を撒けば、現れるんじゃないかしら？"
+54,"TEXT_GAIUSA004_00710_BATTLE_000_020","・「<Sheet(EventItem,2000571,0)/>」を指定地点に置くと、<Sheet(BNpcName,33,0)/>がpop×1"
+55,"TEXT_GAIUSA004_00710_ROLFE_000_030","手土産は用意できたか？
+シルフ族相手だ、さぞかし可愛らしい手土産だろう。"
+56,"TEXT_GAIUSA004_00710_ROLFE_000_031","げ……ミ、<Sheet(EventItem,2000831,0)/>……！？
+たしかに、シルフ族にとっては酒みたいなもんだが……。"
+57,"TEXT_GAIUSA004_00710_ROLFE_000_032","そのゲテモノを持っていくなら、
+状態が悪くならないよう、包装紙に包んでおこう。
+……いや、包ませてくれ……臭いがきついからな。"
+58,"TEXT_GAIUSA004_00710_POP_MESSAGE_000","敵の気配を感じた！！"

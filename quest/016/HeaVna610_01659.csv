@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNA610_01659_SEQ_00","Y'shtola is ready to lead you to Matoya's Cave."
-1,"TEXT_HEAVNA610_01659_SEQ_01","According to Y'shtola, the cave in which Matoya resides is situated on the southern edge of the Dravanian hinterlands. Follow the road south through the Answering Quarter, ford the stream when you come to a broken bridge, and rejoin your companions at the base of a bluff."
-2,"TEXT_HEAVNA610_01659_SEQ_02","You arrive at the bluff, but there is no cave to be seen. Set aside your skepticism and do as Y'shtola bids: lay a hand upon the nearby wall, and have the other ready to draw your weapon."
-3,"TEXT_HEAVNA610_01659_SEQ_03","Laying your hand on the wall, you are set upon by ferocious frogs, but they are no match for you. Speak with Y'shtola to receive further instructions."
-4,"TEXT_HEAVNA610_01659_SEQ_04","Y'shtola leads you inside the cave, where you are greeted by Matoya. Following a touching reunion and a brief trip down memory lane, Alphinaud reveals to the old hermit the purpose of your visit: building an aetheric ram and gaining entry to Azys Lla. Much to Y'shtola's surprise, her ordinarily truculent master agrees to lend her aid to your cause."
+0,"TEXT_HEAVNA610_01659_SEQ_00","イディルシャイアのヤ・シュトラは、マトーヤの洞窟に向けて出発したいようだ。"
+1,"TEXT_HEAVNA610_01659_SEQ_01","ヤ・シュトラと話し、マトーヤの洞窟に出発することになった。シャーレアン学士街を南に抜け、崖下の隠れた場所を目指せばいいらしい。低地ドラヴァニアのマトーヤの洞窟付近にいる「ヤ・シュトラ」と話そう。"
+2,"TEXT_HEAVNA610_01659_SEQ_02","ヤ・シュトラに言われた場所へやって来たが、洞窟の入口が見当たらない。「<Sheet(EObj,2005532,0)/>」を調べて、魔法仕掛けの罠が発動したら、これを排除しよう。"
+3,"TEXT_HEAVNA610_01659_SEQ_03","<Sheet(EObj,2005532,0)/>に触れたところ、<Sheet(BNpcName,3908,0)/>に襲われたので退けた。マトーヤの洞窟付近の「ヤ・シュトラ」と話そう。"
+4,"TEXT_HEAVNA610_01659_SEQ_04","ヤ・シュトラによって、マトーヤの洞窟の入口が開かれた。洞窟の中には、シャーレアンの誇るエーテル学の権威、マトーヤがいた。小言を言い合いつつも、再会を喜んでいる様子の、ヤ・シュトラとマトーヤ。マトーヤに魔大陸の話をすると、手を貸す気になってくれたようだ。"
 5,"TEXT_HEAVNA610_01659_SEQ_05",""
 6,"TEXT_HEAVNA610_01659_SEQ_06",""
 7,"TEXT_HEAVNA610_01659_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_HEAVNA610_01659_SEQ_21",""
 22,"TEXT_HEAVNA610_01659_SEQ_22",""
 23,"TEXT_HEAVNA610_01659_SEQ_23",""
-24,"TEXT_HEAVNA610_01659_TODO_00","Speak with Y'shtola outside Matoya's Cave."
-25,"TEXT_HEAVNA610_01659_TODO_01","Examine the wall and defeat any enemies that appear."
-26,"TEXT_HEAVNA610_01659_TODO_02","Speak with Y'shtola."
+24,"TEXT_HEAVNA610_01659_TODO_00","マトーヤの洞窟付近のヤ・シュトラと話す"
+25,"TEXT_HEAVNA610_01659_TODO_01","<Sheet(EObj,2005532,0)/>を調べて罠が発動したら排除"
+26,"TEXT_HEAVNA610_01659_TODO_02","ヤ・シュトラと話す"
 27,"TEXT_HEAVNA610_01659_TODO_03",""
 28,"TEXT_HEAVNA610_01659_TODO_04",""
 29,"TEXT_HEAVNA610_01659_TODO_05",""
@@ -49,17 +49,33 @@ int32,str,str
 45,"TEXT_HEAVNA610_01659_TODO_21",""
 46,"TEXT_HEAVNA610_01659_TODO_22",""
 47,"TEXT_HEAVNA610_01659_TODO_23",""
-48,"TEXT_HEAVNA610_01659_YSHTOLA_000_000","The cave in which Matoya resides is situated on the southern edge of the hinterlands."
-49,"TEXT_HEAVNA610_01659_YSHTOLA_000_001","In choosing the spot, my master desired privacy above all else. As such, the cave is extremely well hidden; you'll not find it unless you know to look for it."
-50,"TEXT_HEAVNA610_01659_YSHTOLA_000_002","We shall follow the road south until we reach a bridge. Rather than cross it, however, we shall ford the stream it spans, thence head straight until we arrive at the base of a bluff."
-51,"TEXT_HEAVNA610_01659_ALPHINAUD_000_003","But the final leg of our journey remains. Let us go and meet the legendary Matoya."
-52,"TEXT_HEAVNA610_01659_YSHTOLA_000_010","This is the entrance.
-...Hm? You seem unconvinced, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Well, that will only add to the surprise."
-53,"TEXT_HEAVNA610_01659_YSHTOLA_000_011","A word of warning before we proceed: stubborn geniuses make poor hosts, and time will have done naught to improve my master's temperament."
-54,"TEXT_HEAVNA610_01659_YSHTOLA_000_012","Doubt not but that there will be sentinels and traps both to deter unwanted guests. But we'll not be deterred, will we?"
-55,"TEXT_HEAVNA610_01659_YSHTOLA_000_013","Go on and touch the wall yonder. You will want to have your weapon near at hand."
-56,"TEXT_HEAVNA610_01659_ALPHINAUD_000_014","All kinds of herbs grow here, and they appear very well tended."
-57,"TEXT_HEAVNA610_01659_YSHTOLA_000_015","What are you waiting for? Go on and touch the wall yonder."
-58,"TEXT_HEAVNA610_01659_BALLOON_100_015","None shall pass, ribbit!"
-59,"TEXT_HEAVNA610_01659_YSHTOLA_000_020","Those sentinels may suffice to discourage the average trespasser, but not the Warrior of Light."
-60,"TEXT_HEAVNA610_01659_YSHTOLA_000_021","The way should now be clear. Come, let us go and see my master."
+48,"TEXT_HEAVNA610_01659_YSHTOLA_000_000","「マトーヤ」が住んでいるのは、
+低地ドラヴァニアの南部にある洞窟……。
+一見するとわかりにくい場所だから、私が先導するわ。"
+49,"TEXT_HEAVNA610_01659_YSHTOLA_000_001","このまま道なりに、サリャク河の西岸を南へ進み、
+崖下に隠れた場所まで進みましょう。"
+50,"TEXT_HEAVNA610_01659_YSHTOLA_000_002","……ただし、廃墟と化したシャーレアンの都には、
+どんな魔物が入り込んでいるかわからないわ。
+油断せずに行くわよ。"
+51,"TEXT_HEAVNA610_01659_ALPHINAUD_000_003","こちらの出発準備は完了さ。
+さあ、マトーヤ老を訪ねにいこうじゃないか。"
+52,"TEXT_HEAVNA610_01659_YSHTOLA_000_010","ここが「マトーヤの洞窟」の入口よ。
+……洞窟があるようには見えないですって？
+まぁ、見てのお楽しみってところかしら。"
+53,"TEXT_HEAVNA610_01659_YSHTOLA_000_011","ところで、戦いの準備はいい？
+前にも言ったけど、マトーヤはかなりの頑固者なの。"
+54,"TEXT_HEAVNA610_01659_YSHTOLA_000_012","エーテル学の知識は海よりも深く、
+魔法の扱いに関しても、精通している。
+そんな人物が、度を超して偏屈だったらどうなるか……。"
+55,"TEXT_HEAVNA610_01659_YSHTOLA_000_013","来訪者を追い返すための、魔法仕掛けの罠くらい、
+たっぷり用意していることは想像に難くないわ。
+ひとまず、奥の壁を触ってみて？"
+56,"TEXT_HEAVNA610_01659_ALPHINAUD_000_014","薬草や香草の類いが植えられているようだね。
+よく手入れされているようだが、洞窟はどこなんだ？"
+57,"TEXT_HEAVNA610_01659_YSHTOLA_000_015","ひとまず、奥の壁を触ってみて？"
+58,"TEXT_HEAVNA610_01659_BALLOON_100_015","マトーヤ様を守るケロ！"
+59,"TEXT_HEAVNA610_01659_YSHTOLA_000_020","やっぱりね……。
+ふふふ、ごめんなさい、怒らないで。
+この程度の使い魔なら、簡単に倒せると思っていたのよ。"
+60,"TEXT_HEAVNA610_01659_YSHTOLA_000_021","さあ、門番役の使い魔たちも排除したことだし、
+「マトーヤ」に会いに行きましょう。"

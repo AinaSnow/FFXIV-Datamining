@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBSEA922_01430_SEQ_00","A salty stalwart is the acting guildmaster Sisipu, but today she seems distinctly distrait."
-1,"TEXT_SUBSEA922_01430_SEQ_01","Her tart tongue reasserting itself, Sisipu urges you towards the docks, where Wawalago awaits you with a distinguished visitor."
-2,"TEXT_SUBSEA922_01430_SEQ_02","Wawalago and Ascelyn bend your ear until you can hardly stand straight─such is scholarship. All you need to note is that Wawalago needs a titanic sawfish from you. Take a lugworm to Cape Westwind to catch a Merlthor goby, then perform fishwheeling to net a wahoo. Another round of fishwheeling─or mooching, if you must─will allow you to get your hands on a titanic sawfish."
-3,"TEXT_SUBSEA922_01430_SEQ_03","You present Wawalago with a titanic sawfish, and faced with incontrovertible evidence of your prowess, the guildmaster reveals that an Old One called the Navigator's brand lurks off the coast of the Brewer's Beacon, and can be caught using a yumizuno. Heed his gory tale well and equip yourself with care. Without a high <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>gathering<UIGlow>01</UIGlow><UIForeground>01</UIForeground> value, you will lose this beast ere you can raise it out of the water."
-4,"TEXT_SUBSEA922_01430_SEQ_04","Wawalago regards the Navigator's brand with naked hunger, but has the wherewithal to officially recognize you as a fisher with skill enough to capture an Old One, if such a need were to arise. The guildmaster also reminds you that Eorzea is apparently full of big fish for a self-improving fisher to hone his skill on. Word is that rare fish will fetch a handsome price in equipment at Revenant's Toll, unless you prefer to consume several dozen servings of a lemon herb Old One on a bed of spinach."
+0,"TEXT_SUBSEA922_01430_SEQ_00","漁師ギルドのシシプは、冒険者に頼みごとがあるようだ。"
+1,"TEXT_SUBSEA922_01430_SEQ_01","シシプから依頼を受けた。リムサ・ロミンサの網倉にいる「ワワラゴ」と話そう。"
+2,"TEXT_SUBSEA922_01430_SEQ_02","ワワラゴと話した。ワワラゴは冒険者にある魚を釣ってきてほしいようだ。ワワラゴに「<Sheet(Item,4924,0)/>」を1匹納品しよう。「<Sheet(Item,4924,0)/>」は、西ザナラーンの「ウエストウインド岬」の釣り場で、「<Sheet(Item,2585,0)/>」で釣り上げる「<Sheet(Item,4869,0)/>」を「泳がせ釣り」をして釣り上げた「<Sheet(Item,4904,0)/>」でさらに「泳がせ釣り」することで釣ることができる。"
+3,"TEXT_SUBSEA922_01430_SEQ_03","ワワラゴに<Sheet(Item,4924,0)/>を渡した。ワワラゴから再びある魚を釣ってくるよう頼まれた。ワワラゴに「<Sheet(Item,7693,0)/>」を1匹納品しよう。「<Sheet(Item,7693,0)/>」は、西ラノシアの「ブルワーズ灯台」の釣り場で「<Sheet(Item,2628,0)/>」で釣ることができる。ただし、「<Sheet(Item,7693,0)/>」を釣るには相当の「獲得力」がなければ、そもそも釣り上げることができないようだ。装備を整えて挑戦しよう。"
+4,"TEXT_SUBSEA922_01430_SEQ_04","ワワラゴに<Sheet(Item,7693,0)/>を渡した。冒険者はワワラゴにエオルゼアに棲む「伝説の巨大魚」を釣れる腕前を持つ漁師として認められた。エオルゼアの各地の釣り場には「ヌシ」と呼ばれる魚がまだまだいるらしい。自分の技量を磨くため挑戦してみよう。また、モードゥナのレヴナンツトールでは、珍しい魚をすごい装備に交換してくれる人がいるらしい。機会があればのぞいてみよう。さらに腕を磨くために、漁師の仕事に励もう。"
 5,"TEXT_SUBSEA922_01430_SEQ_05",""
 6,"TEXT_SUBSEA922_01430_SEQ_06",""
 7,"TEXT_SUBSEA922_01430_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_SUBSEA922_01430_SEQ_21",""
 22,"TEXT_SUBSEA922_01430_SEQ_22",""
 23,"TEXT_SUBSEA922_01430_SEQ_23",""
-24,"TEXT_SUBSEA922_01430_TODO_00","Speak with Wawalago."
-25,"TEXT_SUBSEA922_01430_TODO_01","Deliver a titanic sawfish to Wawalago."
-26,"TEXT_SUBSEA922_01430_TODO_02","Deliver a Navigator's brand to Wawalago."
+24,"TEXT_SUBSEA922_01430_TODO_00","ワワラゴと話す"
+25,"TEXT_SUBSEA922_01430_TODO_01","ワワラゴに<Sheet(Item,4924,0)/>を渡す"
+26,"TEXT_SUBSEA922_01430_TODO_02","ワワラゴに<Sheet(Item,7693,0)/>を渡す"
 27,"TEXT_SUBSEA922_01430_TODO_03",""
 28,"TEXT_SUBSEA922_01430_TODO_04",""
 29,"TEXT_SUBSEA922_01430_TODO_05",""
@@ -49,68 +49,160 @@ int32,str,str
 45,"TEXT_SUBSEA922_01430_TODO_21",""
 46,"TEXT_SUBSEA922_01430_TODO_22",""
 47,"TEXT_SUBSEA922_01430_TODO_23",""
-48,"TEXT_SUBSEA922_01430_SISIPU_000_000","There you are, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! Where've you been? Somebody tell you about the big fish?"
-49,"TEXT_SUBSEA922_01430_SISIPU_000_001","No, no, I don't mean <Emphasis>him</Emphasis>. Wawalago may be the guildmaster, but he's more the big lugworm than the big fish. In fact, he calls <Emphasis>you</Emphasis> the best fisher in the guild."
-50,"TEXT_SUBSEA922_01430_SISIPU_000_002","That's why he wants to see you. Some scholar's raising a hue and cry about a giant fish that needs catching. Refreshing, isn't it? It's actually serious business for a change!"
-51,"TEXT_SUBSEA922_01430_SISIPU_000_003","What will the morrow bring? Sharks spilling from the sky in a spectacular shower of scales? Oh, don't look at me like that─I <Emphasis>am</Emphasis> the acting guildmaster, after all."
-52,"TEXT_SUBSEA922_01430_SISIPU_000_004","You'll find Wawalago at his usual spot at the docks. Might as well hear what he has to say─you're not like to lose by it, and I've surely had a bellyful."
-53,"TEXT_SUBSEA922_01430_WAWALAGO_000_010","Ah, Ascelyn, the adventurer arrives with alacrity! <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, this fellow you must follow. He is learned in lore and wise in the ways of wyrms."
-54,"TEXT_SUBSEA922_01430_ASCELYN_000_020","Er, um. Yes, I am called Ascelyn. And I am indeed learned in lore. That is to say, I study legends throughout Eorzea─legends of what the common man might call “giant fishy things.”"
-55,"TEXT_SUBSEA922_01430_ASCELYN_000_021","I recently came across an ancient document which made reference to something called the Nepto Dragon. I should explain that by “dragon,” the ancients probably meant a giant fish. Or possibly a shrubbery of unusual coloring. It's usually one or the other."
-56,"TEXT_SUBSEA922_01430_ASCELYN_000_022","But my Nepto Dragon was no plant, for the <Emphasis>Book of Three</Emphasis> notes it was twice man-size─that is to say, twice as long as a Hyur is tall─and tore through hulls of trading ships with its mighty teeth."
-57,"TEXT_SUBSEA922_01430_ASCELYN_000_023","Did it ever live? Does it still? One thing is certain: if I ever find its home waters, it will not be <Emphasis>I</Emphasis> who hauls the mighty monster out from its depths. I haven't the fortitude."
-58,"TEXT_SUBSEA922_01430_ASCELYN_000_024","To clarify, I fear water. <Emphasis>Greatly</Emphasis>. Even standing on this pier tests my will to its limits... But that is why I am here, that I might petition the aid of one such as yourself who harbors no such fear."
-59,"TEXT_SUBSEA922_01430_WAWALAGO_000_030","Terrifically told, and totally true. He came to Wawalago, this learner of lore. But fie, he found this fisher had faults."
-60,"TEXT_SUBSEA922_01430_WAWALAGO_000_031","Too old am I to make after this monster of myth! Though I do think that I'm not completely diminished by my dotage. Or do you doubt it? Hm? <Emphasis>Hmmm</Emphasis>?"
-61,"TEXT_SUBSEA922_01430_WAWALAGO_000_032","I thought to myself, “<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>'s a game one─one game guppy!” The best of the bunch─barring myself, by the bream!"
-62,"TEXT_SUBSEA922_01430_WAWALAGO_000_040","Now then, on to the Old Ones! Hah, I saw that flinch─and the furtive flitting of fingers to some folksy charm!"
-63,"TEXT_SUBSEA922_01430_WAWALAGO_000_041","Suffice it to say I speak of fish grown great in gloomy green depths. You've heard chatters about these wily wizards of the water, I am sure!"
-64,"TEXT_SUBSEA922_01430_WAWALAGO_000_042","But chatting is not catching. More fishers have heard the history than have hooked the hidden heavyweights, ho!"
-65,"TEXT_SUBSEA922_01430_WAWALAGO_000_043","Now, if what this learner of lore tells is true, this Nepto Dragon will need a fisher who can fish an Old One to order!"
-66,"TEXT_SUBSEA922_01430_WAWALAGO_000_044","So, it falls to you to prove your prowess, pretty please!"
-67,"TEXT_SUBSEA922_01430_ASCELYN_000_050","Ahem, ah. Master Wawalago, you've caught your share of these Elder─that is to say, Old─Ones, have you?"
-68,"TEXT_SUBSEA922_01430_WAWALAGO_000_060","Was that a quip or a question? A quick query to yourself, if you please: why even ask when the answer is clear? Of course I have caught an Old One!"
-69,"TEXT_SUBSEA922_01430_WAWALAGO_000_061","Notice I stress the singular, hmmm? Even the master fisher of all Eorzea finds the Old Ones a heaving handful of hell!"
-70,"TEXT_SUBSEA922_01430_WAWALAGO_000_070","Where to begin, where to begin... Aha! The titanic sawfish, an enigma to entertain even an eclectic expert!"
-71,"TEXT_SUBSEA922_01430_WAWALAGO_000_071","It enjoys a certain infamy in its immediate environment, shall I say? Other fish of its fraternity flip their fins and flee from it."
-72,"TEXT_SUBSEA922_01430_WAWALAGO_000_080","You can find the titanic sawfish in Cape Westwind. You must mooch the monster if you're primed to pull it, and our cultured companion will couch his corrections."
-73,"TEXT_SUBSEA922_01430_WAWALAGO_000_081","Now, ready the reel, coddle the creel! Use a lugworm and catch a Merlthor goby."
-74,"TEXT_SUBSEA922_01430_WAWALAGO_000_082","Merlthor gobies are only the first bait to bag the best! Mooch with it to net a wahoo. Now, you must maintain the mooch to manacle a titanic sawfish!"
-75,"TEXT_SUBSEA922_01430_WAWALAGO_000_083","A pissy piscis is this titanic sawfish, not a drop of doubt about it. Only appears when all aligns─the hour, the weather, the welkin's color..."
-76,"TEXT_SUBSEA922_01430_WAWALAGO_000_090","Should you net the titanic sawfish, no nugget of knowledge will I deny! I had much opportunity to observe Old Ones from an oomiak, and you shall learn every detail."
-77,"TEXT_SUBSEA922_01430_WAWALAGO_000_091","No easy feat, I know, I know. But mine eyes have seen you master that mendacious marlin of Mazlaya, and that makes you a fisher second only to Wawalago!"
-78,"TEXT_SUBSEA922_01430_ASCELYN_000_260","Ahem, I wish to someday run to earth─that is to say haul out of the water─the Nepto Dragon. As a hydrophobe of the first water, so to speak, I seek skilled fishers to assist me should that day ever dawn."
-79,"TEXT_SUBSEA922_01430_WAWALAGO_000_100","Is the deed done, or is the dream dead? Did you catch a titanic sawfish?"
-80,"TEXT_SUBSEA922_01430_WAWALAGO_000_110","A titanic sawfish, by the belly bursting with bream! Valiant 'venturer, fine fisher! Now the news!"
-81,"TEXT_SUBSEA922_01430_WAWALAGO_000_111","It was but once that I caught an Old One...ten years younger I was."
-82,"TEXT_SUBSEA922_01430_WAWALAGO_000_112","Bloody and bruised were my hands afterwards, sliced like sirloin steaks by the rod and line! Was I afraid? Never! Fishing is a fever that burns too fierce for fear!"
-83,"TEXT_SUBSEA922_01430_WAWALAGO_000_120","The Old One you seek is known as the Navigator's brand, and she wallows in the waters off the Brewer's Beacon. Mayhaps you hear her? Listen...alas, western La Noscea lacks the proper propinquity."
-84,"TEXT_SUBSEA922_01430_WAWALAGO_000_121","I used a yumizuno, if I remember─and I do very vividly, as we do vanished valuables. A clear day it was too, the sun high in the sky. The hour? I know it not, nor need to know."
-85,"TEXT_SUBSEA922_01430_WAWALAGO_000_122",""
-86,"TEXT_SUBSEA922_01430_WAWALAGO_000_130",""
-87,"TEXT_SUBSEA922_01430_WAWALAGO_000_131","The Old One needs all your knowledge and skill to catch, valiant 'venturer! And exceptional equipment is an excellent means to an end, to be sure."
-88,"TEXT_SUBSEA922_01430_WAWALAGO_000_132","Go fish, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, the second-best fisher in Eorzea! Go fish!"
-89,"TEXT_SUBSEA922_01430_SYSTEM_000_135","A <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>gathering<UIGlow>01</UIGlow><UIForeground>01</UIForeground> rating of 290 or higher is required to successfully catch an Old One. The fish will escape otherwise, so equip yourself accordingly before performing this task."
-90,"TEXT_SUBSEA922_01430_ASCELYN_000_270","Ah, taking on an Old One finally─that is to say, already? You'll excuse me if I observe the process from afar. Master Wawalago's talk of sirloin steaks has put me off my feed."
-91,"TEXT_SUBSEA922_01430_WAWALAGO_000_140","Did you do the deed? Mayhap the Old One observed with its oversized orbs the futility of fleeing the ferocious fisher?"
-92,"TEXT_SUBSEA922_01430_WAWALAGO_000_141","Wawalago is not worried! Happy happenstance it was that I caught my Old One, and you will also be lucky with your lure!"
-93,"TEXT_SUBSEA922_01430_WAWALAGO_000_150","A Navigator's brand! The deed is done, this is the lord of the Brewer's Beacon, by the bream!"
-94,"TEXT_SUBSEA922_01430_WAWALAGO_000_151","Still, this success is shocking in its suddenness. Have I been surpassed, slipped to the second spot from the summit?"
-95,"TEXT_SUBSEA922_01430_WAWALAGO_000_160","I am not worried, for there is more to fishercraft than obliging Old Ones! Still, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> is skilled to snag <If(PlayerParameter(4))>her<Else/>his</If> second Old One, and I am less lonely at the top for it!"
-96,"TEXT_SUBSEA922_01430_WAWALAGO_000_170","A fine fish, this Navigator's brand, firm yet flaky, I fancy."
-97,"TEXT_SUBSEA922_01430_WAWALAGO_000_180","Hmm...grilled with garlic and garnished with greens? Or steamed with shallots then served sauced and spiced! A vintage viand this Old One will make..."
-98,"TEXT_SUBSEA922_01430_WAWALAGO_000_181","The Old One is an oblation, that much is obvious! Grab the grill pan, let us greet the god of gastronomy!"
-99,"TEXT_SUBSEA922_01430_WAWALAGO_000_182","But Wawalago also wants his wet-aged fish, marinating in its marine memories, mmm."
-100,"TEXT_SUBSEA922_01430_WAWALAGO_000_183","A dry─no, <Emphasis>wizened</Emphasis> white wine, I think! Something from the Sixth Astral Era, sleeping in my cellar..."
-101,"TEXT_SUBSEA922_01430_ASCELYN_000_190","Ahem, ah. Still here."
-102,"TEXT_SUBSEA922_01430_WAWALAGO_000_200","Abject apologies Ascelyn, my admirable academic!"
-103,"TEXT_SUBSEA922_01430_WAWALAGO_000_201","I hereby pronounce <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> proficient and pugnacious, fit to fish your lurking leviathan!"
-104,"TEXT_SUBSEA922_01430_ASCELYN_000_210","Ah, that's a relief. As I said, I will have to avail myself of the services of a skilled fisher once I find the Nepto Dragon. <If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, I hope you will accept a standing offer to face this hideous monster in my stead."
-105,"TEXT_SUBSEA922_01430_ASCELYN_000_220","Fantastic─that is to say, excellent. I shall continue my travels, and discover where legend becomes reality."
-106,"TEXT_SUBSEA922_01430_ASCELYN_000_221","I will return when I know more. A fine collaboration this will be─you fish, I publish. Farewell for now─that is to say, see you soon."
-107,"TEXT_SUBSEA922_01430_WAWALAGO_000_230","Well, that went well, wouldn't you say? Now for practice! A scholar stops by and suddenly we must supplement our skills!"
-108,"TEXT_SUBSEA922_01430_WAWALAGO_000_231","We are often oblivious to Old Ones, but they are all around us in appreciable abundance. Culling them would be quite a quill in your cap, I recommend it readily!"
-109,"TEXT_SUBSEA922_01430_WAWALAGO_000_240","You can always take the catch to Mor Dhona. I've been told tales of someone in Revenant's Toll with terrific tools to trade for fearsome fishies."
-110,"TEXT_SUBSEA922_01430_WAWALAGO_000_241","Everyone enjoys an excellent exchange, and they say there are many to be had from this trader at the Toll!"
-111,"TEXT_SUBSEA922_01430_WAWALAGO_000_242","The three T's, my master called it: technique, tool, and talent. Neglect not the right equipment, if you are obsessed with the Old Ones!"
-112,"TEXT_SUBSEA922_01430_WAWALAGO_000_250","Mmm, what a marvelous meal I'll make of this! Should I share with that surly Sisipu, or slight her by just saving a salted slice?"
+48,"TEXT_SUBSEA922_01430_SISIPU_000_000","あら、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
+いいところに来たわ！"
+49,"TEXT_SUBSEA922_01430_SISIPU_000_001","さっき、親分があなたを探していたの。
+……なんでも、ギルドいちの漁師である、
+あなたにしか頼めないことがあるんですって。"
+50,"TEXT_SUBSEA922_01430_SISIPU_000_002","親分のことだから、いつもみたいに、
+何か適当なことをやるのかと思ったけど……
+どうやら、今回は違うみたい。"
+51,"TEXT_SUBSEA922_01430_SISIPU_000_003","あの人が神妙な顔をするなんて、よっぽどのことね。
+きっと明日は、メガロドンが空から降ってくるわ……。"
+52,"TEXT_SUBSEA922_01430_SISIPU_000_004","親分は、いつもの場所にいるはずよ。
+ちょっと、話を聞いてみてもらえる？"
+53,"TEXT_SUBSEA922_01430_WAWALAGO_000_010","来てくれたか、冒険者クン。
+チミに紹介したいやつがおってのう。"
+54,"TEXT_SUBSEA922_01430_ASCELYN_000_020","私は、アセリンという旅の学者……。
+エオルゼアに棲む「伝説の巨大魚」を研究している者です。"
+55,"TEXT_SUBSEA922_01430_ASCELYN_000_021","実は、あるところで入手した古文書を解読したところ、
+「ネプトの竜」と呼ばれる、
+巨大魚についての記述があったのです。"
+56,"TEXT_SUBSEA922_01430_ASCELYN_000_022","その魚は、身の丈はヒューランを優に倍するほどで、
+大型船の船底を引き裂くほどの牙を持っていたとか……。
+私は、この伝説が本物であるのか、ぜひとも確かめたい！"
+57,"TEXT_SUBSEA922_01430_ASCELYN_000_023","「ネプトの竜」の居所は、未だわかっていません。
+しかし、仮に居所をつかんだとしても、釣り上げて、
+伝説を証明してみせないことには意味がない……。"
+58,"TEXT_SUBSEA922_01430_ASCELYN_000_024","そこで、いつか居所がわかった時のために、
+協力してくださる腕の立つ漁師を探していたのです。"
+59,"TEXT_SUBSEA922_01430_WAWALAGO_000_030","そして、このワシに相談に来た……というわけぢや。
+……ぢやが、七つの海を渡り歩いて釣りまくったワシも、
+さすがにいい歳ぢやろう？"
+60,"TEXT_SUBSEA922_01430_WAWALAGO_000_031","どこに潜んでいるかもわからぬ「伝説の巨大魚」を探して、
+あちこち行くのには、ちょいと歳を取り過ぎたからのう。
+でも、そんなお魚さんがいるなら見てみたいし……。"
+61,"TEXT_SUBSEA922_01430_WAWALAGO_000_032","そこで目をつけたのが、
+漁師ギルドでワシの次に腕のいい、チミというわけぢや。"
+62,"TEXT_SUBSEA922_01430_WAWALAGO_000_040","ところで、冒険者クン……。
+「ヌシ」というのを知っとるかな？"
+63,"TEXT_SUBSEA922_01430_WAWALAGO_000_041","各地の釣り場には「ヌシ」と呼ばれる魚がおる。
+ほかの魚を圧倒するほどの大きさに成長し、
+周辺の水場に君臨する存在ぢやよ。"
+64,"TEXT_SUBSEA922_01430_WAWALAGO_000_042","「ヌシ」となるほどのやつらは、そう簡単には釣れん。
+ワシくらい熟練の漁師でさえもな……。"
+65,"TEXT_SUBSEA922_01430_WAWALAGO_000_043","この者の話を聞くに、「伝説の巨大魚」を釣るには、
+その「ヌシ」を釣ることができるくらいの技量は
+必要となるぢやろう。"
+66,"TEXT_SUBSEA922_01430_WAWALAGO_000_044","チミが「伝説の巨大魚」にふさわしい漁師かどうか、
+「ヌシ」を釣り上げて、証明してみせるんぢや。"
+67,"TEXT_SUBSEA922_01430_ASCELYN_000_050","その「ヌシ」と呼ばれる魚……。
+ワワラゴさんは、これまで釣ったことがあるのですか？"
+68,"TEXT_SUBSEA922_01430_WAWALAGO_000_060","あたりまえぢや！
+ワシは、エオルゼアいちの漁師ぢやからな。"
+69,"TEXT_SUBSEA922_01430_WAWALAGO_000_061","しかし、一度だけ……な。
+それほどまでに「ヌシ」は手強いからのう。"
+70,"TEXT_SUBSEA922_01430_WAWALAGO_000_070","……そうぢや、冒険者クン。
+手始めに、「<Sheet(Item,4924,0)/>」を
+釣ってくるのぢや。"
+71,"TEXT_SUBSEA922_01430_WAWALAGO_000_071","こいつは、エオルゼアのお魚さんのなかでも、
+一筋縄ではいかぬ相手……。
+「ヌシ」に挑戦する前に腕を試すにはもってこいぢやろう。"
+72,"TEXT_SUBSEA922_01430_WAWALAGO_000_080","目的の「<Sheet(Item,4924,0)/>」は、
+西ザナラーンの「ウエストウインド岬」に棲んでおる。
+以前教えた、「泳がせ釣り」を使うんぢや！"
+73,"TEXT_SUBSEA922_01430_WAWALAGO_000_081","まず、「<Sheet(Item,2585,0)/>」を用意して、
+「<Sheet(Item,4869,0)/>」を釣り上げたまえ。"
+74,"TEXT_SUBSEA922_01430_WAWALAGO_000_082","そして釣り上げた「<Sheet(Item,4869,0)/>」を泳がせ、
+「<Sheet(Item,4904,0)/>」を釣り上げ……そして！
+さらに泳がせて「<Sheet(Item,4924,0)/>」を釣るんぢや！"
+75,"TEXT_SUBSEA922_01430_WAWALAGO_000_083","……「<Sheet(Item,4924,0)/>」は気難しいお魚さんぢや。
+限られた時間や天候でしか、釣ることはできん。
+チミの腕と知識が試されるぢやろう。"
+76,"TEXT_SUBSEA922_01430_WAWALAGO_000_090","見事、「<Sheet(Item,4924,0)/>」を、
+釣ることができれば……
+その時は、ワシが釣った「ヌシ」の情報を教えよう。"
+77,"TEXT_SUBSEA922_01430_WAWALAGO_000_091","なかなか大変な相手ぢやが、
+マズラヤマーリンを仕留めたチミになら釣れるはずぢや。
+なにせチミは、ワシが認めた漁師なのぢやからのう！"
+78,"TEXT_SUBSEA922_01430_ASCELYN_000_260","エオルゼアに棲む伝説の巨大魚「ネプトの竜」……。
+いつか居所がわかった時のために、
+協力してくださる腕の立つ漁師を探しているのです。"
+79,"TEXT_SUBSEA922_01430_WAWALAGO_000_100","どうぢやった？
+「<Sheet(Item,4924,0)/>」は、釣れたかのう？"
+80,"TEXT_SUBSEA922_01430_WAWALAGO_000_110","ふむ、確かに「<Sheet(Item,4924,0)/>」ぢや！
+やはりチミは、ワシの見込んだとおりの腕前ぢやわい。
+……では、いよいよ「ヌシ」に挑戦ぢやな。"
+81,"TEXT_SUBSEA922_01430_WAWALAGO_000_111","ワシが過去に一度だけ「ヌシ」を釣ったのは、
+かれこれ10年は前になるかのう。"
+82,"TEXT_SUBSEA922_01430_WAWALAGO_000_112","それは、ものすごい引きぢやった……。
+あまりのワシの技量に、うっかり、
+エオルゼアを釣ってしまったかと思ったぞい。"
+83,"TEXT_SUBSEA922_01430_WAWALAGO_000_120","目的の「ヌシ」が潜んでおるのは、
+西ラノシアの「ブルワーズ灯台」の沿岸ぢや。"
+84,"TEXT_SUBSEA922_01430_WAWALAGO_000_121","あの時は、「<Sheet(Item,2628,0)/>」を使っていたのう。
+よく晴れた日の昼ぢやったが……。
+すまんな、時間までは覚えておらんわい……。"
+85,"TEXT_SUBSEA922_01430_WAWALAGO_000_122","（★未使用／削除予定★）"
+86,"TEXT_SUBSEA922_01430_WAWALAGO_000_130","（★未使用／削除予定★）"
+87,"TEXT_SUBSEA922_01430_WAWALAGO_000_131","……「ヌシ」に挑戦するには、
+これまで培ってきた知識と技量……
+そして、最高の道具が必要となる！"
+88,"TEXT_SUBSEA922_01430_WAWALAGO_000_132","行くのぢや、冒険者クン！
+ワシの次に腕の立つ、チミの力を見せてやるのぢや！"
+89,"TEXT_SUBSEA922_01430_SYSTEM_000_135","「ヌシ」を釣るためには「獲得力」が290以上必要です。
+満たない場合は、かかっても必ず逃げられてしまいます。
+装備を整えて挑戦しましょう！"
+90,"TEXT_SUBSEA922_01430_ASCELYN_000_270","ついに「ヌシ」に挑戦するのですね。
+ワワラゴさんでさえ、一度しか釣ったことがないという話……。
+私も緊張しています。"
+91,"TEXT_SUBSEA922_01430_WAWALAGO_000_140","どどど、どうぢやった？
+「ヌシ」を釣ることはできたかのう？"
+92,"TEXT_SUBSEA922_01430_WAWALAGO_000_141","……いや、ワシでさえ偶然釣れたんぢや。
+いくら同じ条件で釣ったとて、そう簡単には……。"
+93,"TEXT_SUBSEA922_01430_WAWALAGO_000_150","こここ、これは……！？
+まさしくブルワーズ灯台沿岸の「ヌシ」、
+「<Sheet(Item,7693,0)/>」……！！"
+94,"TEXT_SUBSEA922_01430_WAWALAGO_000_151","まさか、釣り上げることができるとはのう……。
+もはや冒険者クンは、
+ワシよりも立派な漁師かもしれん……！！"
+95,"TEXT_SUBSEA922_01430_WAWALAGO_000_160","……いや、そんなことはないか。
+ワシに、ちょいと近づいただけくらいかの。"
+96,"TEXT_SUBSEA922_01430_WAWALAGO_000_170","しかし、この「<Sheet(Item,7693,0)/>」は立派ぢやわい……。"
+97,"TEXT_SUBSEA922_01430_WAWALAGO_000_180","一見大味のように見えるが、
+その実、若いお魚さんにはない濃厚な味。"
+98,"TEXT_SUBSEA922_01430_WAWALAGO_000_181","独特の臭さも、香草と煮込むことで豊かな香りへと変わり、
+引き締まったほほ肉を一口食べれば、
+口いっぱいに「ヌシの世界」が広がる！"
+99,"TEXT_SUBSEA922_01430_WAWALAGO_000_182","ああ……想像するだけでヨダレが出るわい！"
+100,"TEXT_SUBSEA922_01430_WAWALAGO_000_183","こいつを食べながら酒を飲むのはたまらんぢやろうのう！
+まさか、再びあの味にありつけるとは！
+さて、酒の準備を……。"
+101,"TEXT_SUBSEA922_01430_ASCELYN_000_190","ワ、ワワラゴさん……？"
+102,"TEXT_SUBSEA922_01430_WAWALAGO_000_200","すまんすまん、忘れとったぞい。"
+103,"TEXT_SUBSEA922_01430_WAWALAGO_000_201","ともかく、見事「ヌシ」を釣り上げた冒険者クンなら、
+伝説のお魚さん「ネプトの竜」を、
+釣り上げることができるぢやろう！"
+104,"TEXT_SUBSEA922_01430_ASCELYN_000_210","ワワラゴさんが認めるあなたなら、私も安心できます！
+ぜひ、ご協力をお願いします！"
+105,"TEXT_SUBSEA922_01430_ASCELYN_000_220","おお、ありがとうございます！
+では私は、引き続き「ネプトの竜」の居所を探し求めて、
+研究を続けながら旅をしてきます。"
+106,"TEXT_SUBSEA922_01430_ASCELYN_000_221","情報を得ることができたら、再びここを訪れますね！
+その時は、よろしくお願いします！"
+107,"TEXT_SUBSEA922_01430_WAWALAGO_000_230","そうぢやのう。
+ならば、またいつ来られてもいいように、
+ワシらも相応の準備をしておかんとのう。"
+108,"TEXT_SUBSEA922_01430_WAWALAGO_000_231","このエオルゼアには、
+まだ見ぬ「ヌシ」が数多くいるはずぢや。
+そいつらを釣りまくって、己の技量を高めておくのぢや！"
+109,"TEXT_SUBSEA922_01430_WAWALAGO_000_240","それに、珍しいお魚さんを、
+すごい装備と交換してくれるやつが
+モードゥナの「レヴナンツトール」におるらしいぞい。"
+110,"TEXT_SUBSEA922_01430_WAWALAGO_000_241","レヴナンツトールが大きくなったと聞いて、
+どこからか、客目当てに来たんぢやろうな。"
+111,"TEXT_SUBSEA922_01430_WAWALAGO_000_242","なんにせよ、大物と構えるためには、
+装備を整えておくことも大事ぢや。
+あとで、のぞいてみるといいぞい。"
+112,"TEXT_SUBSEA922_01430_WAWALAGO_000_250","それにしても、美味しそうぢやのう……。
+シシプちゃんにナイショで食べちゃおうかのう！"

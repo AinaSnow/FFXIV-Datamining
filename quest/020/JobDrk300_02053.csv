@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_JOBDRK300_02053_SEQ_00","The people of Ishgard are in high spirits, for another heretic has answered for his crimes."
-1,"TEXT_JOBDRK300_02053_SEQ_01","Justice has been done this day, as another trial by combat has concluded. According to one spectator, it was a fight for the ages, as the accused wielded a massive sword and worked his dark arts against his foe. In the end, however, he was no match for his opponent, who ran him through to a chorus of cheers. Seeing no need to afford the man a proper burial, the Temple Knights mean to dispose of the corpse by leaving it in the Brume. Intrigued by the spectator's account, you consider seeking out the knights and seeing this “demon” for yourself."
-2,"TEXT_JOBDRK300_02053_SEQ_02","Kneeling before the body, you spy a crystal, and reach out to claim it. All at once, your body trembles, and a strangely familiar voice echoes in your ears. You collapse, and when you open your eyes, you find the <If(PlayerParameter(4))>woman<Else/>man</If> standing before you, hale and healthy. <If(PlayerParameter(4))>She<Else/>He</If> calls <If(PlayerParameter(4))>herself<Else/>himself</If> Fray, and it would seem that reports of <If(PlayerParameter(4))>her<Else/>his</If> death were greatly exaggerated. <If(PlayerParameter(4))>She<Else/>He</If> is intrigued when you tell <If(PlayerParameter(4))>her<Else/>him</If> of the voice you heard, but before you can continue, a cry from the streets below draws your attention. You turn to leave, but Fray bars your path and insists that you discuss the “changes” you are undergoing due to touching <If(PlayerParameter(4))>her<Else/>his</If> crystal."
-3,"TEXT_JOBDRK300_02053_SEQ_03","The freedom to follow your heart─to defend the weak and punish the guilty as you see fit. This is the way of the dark knight, and Fray offers to teach you. You need only accept <If(PlayerParameter(4))>her<Else/>his</If> guidance."
+0,"TEXT_JOBDRK300_02053_SEQ_00","皇都の市民は、異端の剣士について話してくれるようだ。"
+1,"TEXT_JOBDRK300_02053_SEQ_01","皇都の市民から、暗黒騎士と思しき剣士の話を聞いた。イシュガルドの雲霧街で、剣士の遺体を運んでいった「堅物な神殿騎士」を探そう。"
+2,"TEXT_JOBDRK300_02053_SEQ_02","堅物な神殿騎士はそそくさと去って行ったが、異端の剣士が立ち上がり、暗黒騎士のフレイを名乗った。雲霧街の「フレイ」と話そう。"
+3,"TEXT_JOBDRK300_02053_SEQ_03","雲霧街のフレイから、暗黒騎士について聞いた。託された「<Sheet(Item,10400,0)/>」を装備し、再度「フレイ」と話そう。"
 4,"TEXT_JOBDRK300_02053_SEQ_04",""
 5,"TEXT_JOBDRK300_02053_SEQ_05",""
 6,"TEXT_JOBDRK300_02053_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_JOBDRK300_02053_SEQ_21",""
 22,"TEXT_JOBDRK300_02053_SEQ_22",""
 23,"TEXT_JOBDRK300_02053_SEQ_23",""
-24,"TEXT_JOBDRK300_02053_TODO_00","Search for the Temple Knights in the Brume."
-25,"TEXT_JOBDRK300_02053_TODO_01","Speak with Fray."
+24,"TEXT_JOBDRK300_02053_TODO_00","雲霧街で堅物な神殿騎士を探す"
+25,"TEXT_JOBDRK300_02053_TODO_01","フレイと話す"
 26,"TEXT_JOBDRK300_02053_TODO_02",""
 27,"TEXT_JOBDRK300_02053_TODO_03",""
 28,"TEXT_JOBDRK300_02053_TODO_04",""
@@ -49,31 +49,73 @@ int32,str,str
 45,"TEXT_JOBDRK300_02053_TODO_21",""
 46,"TEXT_JOBDRK300_02053_TODO_22",""
 47,"TEXT_JOBDRK300_02053_TODO_23",""
-48,"TEXT_JOBDRK300_02053_CITIZEN02053_000_000","So as I was saying, that heretic was fighting like a man <Emphasis>possessed</Emphasis>. Even after he took several wounds, he showed no sign of pain─though there was no mistaking the blood."
-49,"TEXT_JOBDRK300_02053_CITIZEN02053_000_001","As the fight wore on, it began to soak through his armor, spreading to every ilm of his body. But when it began to rise and envelop him as a mist, I realized it wasn't blood, but something dark and twisted..."
-50,"TEXT_JOBDRK300_02053_CITIZEN02053_000_002","But the righteous are not so easily cowed, Halone be praised! I screamed myself hoarse when that Temple Knight slipped past his guard and ran him through."
-51,"TEXT_JOBDRK300_02053_CITIZEN02053_000_003","Good riddance, I say. Man was not meant to wield such arts!"
-52,"TEXT_JOBDRK300_02053_CITIZEN02053_000_004","Yet I wonder...was he truly one of those...those..."
-53,"TEXT_JOBDRK300_02053_CITIZEN02053_000_005","Well, it matters not. I heard the Temple Knights talking of dumping his corpse in the Brume. By sunrise, it'll be stripped bare and tossed over the walls. It will be as though he never was...and as though we never had this conversation."
-54,"TEXT_JOBDRK300_02053_TEMPLEKNIGHTA02053_000_030","That's more than far enough for charity. They'll take care of the rest."
-55,"TEXT_JOBDRK300_02053_TEMPLEKNIGHTB02053_000_031","...And mayhap sooner rather than later. Come on."
-56,"TEXT_JOBDRK300_02053_FRAY_000_032","...Is this it? Is this all that awaits?"
-57,"TEXT_JOBDRK300_02053_FRAY_000_033","No... No more. Enough..."
-58,"TEXT_JOBDRK300_02053_FRAY_000_034","Open your eyes. Look. Do you see now? Do you <Emphasis>see</Emphasis>?"
-59,"TEXT_JOBDRK300_02053_FRAY_000_035","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>...<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>!"
-60,"TEXT_JOBDRK300_02053_FRAY_000_036","(-???-)...I've been waiting for you to open your eyes."
-61,"TEXT_JOBDRK300_02053_FRAY_000_037","(-???-)You all right? You were moaning in your sleep and sweating buckets besides."
-62,"TEXT_JOBDRK300_02053_FRAY_000_038","Name's Fray, by the way. And no, I'm not a heretic."
-63,"TEXT_JOBDRK300_02053_FRAY_000_039","Try convincing a Temple Knight drunk on authority of that, eh? Shame the pompous arse got the better of me."
-64,"TEXT_JOBDRK300_02053_FRAY_000_040","But how about <Emphasis>you</Emphasis>? You touched it, yes? That couldn't have felt good."
-65,"TEXT_JOBDRK300_02053_FRAY_000_041","A voice, eh? And a rather distressed one besides..."
-66,"TEXT_JOBDRK300_02053_SCREAM_000_042","(-???-)Please, someone─<Emphasis>anyone</Emphasis>!"
-67,"TEXT_JOBDRK300_02053_FRAY_000_043","Not so fast. We need to talk about what's happening to you─what's growing within you, before you get carried away."
-68,"TEXT_JOBDRK300_02053_FRAY_000_044","There's a darkness within us all─nothing dangerous, mind. In fact, it's quite healthy. But the crystal changes you─gives you the power to channel it."
-69,"TEXT_JOBDRK300_02053_FRAY_000_045","Do it without proper training, however, and...well...it might hurt."
-70,"TEXT_JOBDRK300_02053_FRAY_000_046","So go ahead─ask me to teach you. Ask me to instruct you in the ways of the dark knights, and I will."
-71,"TEXT_JOBDRK300_02053_FRAY_000_060","I know you're still worried about that screaming woman, so I'll keep this brief."
-72,"TEXT_JOBDRK300_02053_FRAY_000_061","We dark knights don't care one whit for prestige or pedigree. We are free to follow our hearts─to defend the weak and punish the guilty as we see fit."
-73,"TEXT_JOBDRK300_02053_FRAY_000_062","The law of the land? The authority of a name? These are tools cowards use to escape harm. We have no need of shields figurative or literal."
-74,"TEXT_JOBDRK300_02053_FRAY_000_063","Here─my blade is your blade, my soul crystal your crystal. Go on, take them. You'll need them soon enough."
-75,"TEXT_JOBDRK300_02053_SYSTEM_000_900",""
+48,"TEXT_JOBDRK300_02053_CITIZEN02053_000_000","……よし、先ほどの続きを話してやろう。
+異端の剣士と、神殿騎士様の決闘裁判は、
+神殿騎士様の一撃によって、あっけなく終わるはずだった。"
+49,"TEXT_JOBDRK300_02053_CITIZEN02053_000_001","攻撃を受けた異端の剣士から、音もなく何かが滴る……
+最初は、血だろうと思ったよ。
+だがね、滴ったのは黒い闇……そう、まさに「暗黒」だった！"
+50,"TEXT_JOBDRK300_02053_CITIZEN02053_000_002","揺らめきたつ暗黒に、身の丈ほどもある大剣をかざして、
+異端の剣士は、神殿騎士様に立ち向かい続けた……。"
+51,"TEXT_JOBDRK300_02053_CITIZEN02053_000_003","……そして、死んだよ。
+途中で降参すれば、ひとまず命は助かっただろうに、
+彼は最後まで戦うのをやめなかったんだ。"
+52,"TEXT_JOBDRK300_02053_CITIZEN02053_000_004","何がそうさせたのか……。
+そして、本当に「暗黒騎士」だったのかも、
+今となっては知る術がない。"
+53,"TEXT_JOBDRK300_02053_CITIZEN02053_000_005","それでもまだ気になるなら、骸でも見てきたらどうだ？
+今しがた「雲霧街」の方へと運ばれていったぞ。
+……無論、私は関わりたくもないので、これにて失礼するよ。"
+54,"TEXT_JOBDRK300_02053_TEMPLEKNIGHTA02053_000_030","ここまで運べば十分だろう。
+所詮は罪人の死体だ……
+あとは、雲霧街の「清掃屋」に任せればいい。"
+55,"TEXT_JOBDRK300_02053_TEMPLEKNIGHTB02053_000_031","おい……。
+そろそろ戻ろうぜ。"
+56,"TEXT_JOBDRK300_02053_FRAY_000_032","……痛い……苦しい…………"
+57,"TEXT_JOBDRK300_02053_FRAY_000_033","嫌だ……もう十分だ…………
+やめたほうがいい……このままじゃ壊れてしまう……"
+58,"TEXT_JOBDRK300_02053_FRAY_000_034","ねえ 聞こえてる？
+どうして……どうしてこっちを見てくれないの……？"
+59,"TEXT_JOBDRK300_02053_FRAY_000_035","気づいて <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>……
+<Highlight>ObjectParameter(1)</Highlight>……！"
+60,"TEXT_JOBDRK300_02053_FRAY_000_036","(-？？？？-)僕のこと、わかるんだね……。"
+61,"TEXT_JOBDRK300_02053_FRAY_000_037","(-？？？？-)…………いえ。
+気がついたようで何よりです。
+外傷はないようですが、苦しそうに呻いていたので……。"
+62,"TEXT_JOBDRK300_02053_FRAY_000_038","僕は……えっと……
+ああ、「フレイ」という名前みたいですね。
+……すみません、自分でもちょっと混乱していて。"
+63,"TEXT_JOBDRK300_02053_FRAY_000_039","いわれのない罪で告発されて、決闘裁判に臨んだものの、
+力及ばず敗北してしまいました。
+こうして、一命を取り留められたのが……嘘のようです。"
+64,"TEXT_JOBDRK300_02053_FRAY_000_040","僕のことより、心配なのは君の方だ。
+君は今、僕の「ソウルクリスタル」に手を伸ばしたでしょう。
+苦しんでいたようですが、ほかに異変はありませんか……？"
+65,"TEXT_JOBDRK300_02053_FRAY_000_041","眩暈の最中に、誰かの「声」が聞こえたと……。
+ああ、なんてことだ……それはきっと…………"
+66,"TEXT_JOBDRK300_02053_SCREAM_000_042","(-老婆の悲鳴-)きゃあああっ！
+だ、誰か、お助けをッ……！"
+67,"TEXT_JOBDRK300_02053_FRAY_000_043","……待ってください。
+ソウルクリスタルに込められていた僕の力に触発されて、
+君の中にも、同じ力が芽生えはじめているようです。"
+68,"TEXT_JOBDRK300_02053_FRAY_000_044","己の内の闇より生じる力……「暗黒」の力。
+それを御す術を知らないまま戦いにでもなれば、
+力の暴走が起き、君が内から崩壊しかねません。"
+69,"TEXT_JOBDRK300_02053_FRAY_000_045","だから、君はまず知るべきだ。
+「暗黒」の力を、君のものとする方法を。"
+70,"TEXT_JOBDRK300_02053_FRAY_000_046","その力を御し、弱き者を護るために戦う僕らは、
+記憶によると、こう呼ばれています……
+「暗黒騎士」とね。"
+71,"TEXT_JOBDRK300_02053_FRAY_000_060","君が「暗黒騎士」のことを知りたがっていたなら、都合がいい。
+先ほどの老婆の悲鳴も気にかかりますし、
+さっそく、君に「暗黒騎士の証」を継承してもらいます。"
+72,"TEXT_JOBDRK300_02053_FRAY_000_061","「暗黒騎士」となるために、爵位や血統は不要です。
+僕たちは、誰に仕えるのでもなく、
+己の信念に従い、弱き者を護るために剣を振るう……。"
+73,"TEXT_JOBDRK300_02053_FRAY_000_062","ゆえに「暗黒騎士」は、盾を掲げません。
+騎士の盾には、権力の象徴である紋章が描かれますから。
+ただ「両手剣」のみを手に、己を弱き者の盾とするのです。"
+74,"TEXT_JOBDRK300_02053_FRAY_000_063","さあ、僕の剣とソウルクリスタルを、君に授けましょう。
+これらを身につけ、誓いを立ててください。
+いかなる力を前にしても、君は君の信念によって生きると……。"
+75,"TEXT_JOBDRK300_02053_SYSTEM_000_900","（★未使用／削除予定★）"

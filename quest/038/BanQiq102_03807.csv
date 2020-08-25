@@ -1,10 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANQIQ102_03807_SEQ_00","Qhoterl Pasol needs a little light in her life.
+0,"TEXT_BANQIQ102_03807_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト受注クラス・ジョブ制限<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+※本クエストは受注時のクラスでのみ進行します。
 
-※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
-1,"TEXT_BANQIQ102_03807_SEQ_01","Deliver the requested items to Qhoterl Pasol."
+ホパル古盤のコテルリ・パソリは、光源の素材集めを手伝ってほしいようだ。"
+1,"TEXT_BANQIQ102_03807_SEQ_01","コテルリ・パソリに依頼された品を納品"
 2,"TEXT_BANQIQ102_03807_SEQ_02",""
 3,"TEXT_BANQIQ102_03807_SEQ_03",""
 4,"TEXT_BANQIQ102_03807_SEQ_04",""
@@ -27,7 +28,7 @@ int32,str,str
 21,"TEXT_BANQIQ102_03807_SEQ_21",""
 22,"TEXT_BANQIQ102_03807_SEQ_22",""
 23,"TEXT_BANQIQ102_03807_SEQ_23",""
-24,"TEXT_BANQIQ102_03807_TODO_00","<If(Equal(IntegerParameter(4),16))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Mine splendid flint stones in the K'mul Astropolis<Else/>Deliver the splendid flint stones to Qhoterl Pasol</If><Else/><If(Equal(IntegerParameter(4),17))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Gather splendid seeds in the K'mul Astropolis<Else/>Deliver the splendid seeds to Qhoterl Pasol</If><Else/><If(Equal(IntegerParameter(4),18))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Catch a splendid trout in the Red Chalice<Else/>Deliver the splendid trout to Qhoterl Pasol</If><Else/></If></If></If>."
+24,"TEXT_BANQIQ102_03807_TODO_00","<If(Equal(IntegerParameter(4),16))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>クムル星遺跡群の岩場で<Sheet(Item,IntegerParameter(5),0)/>を砕岩<Else/>コテルリ・パソリに<Sheet(Item,IntegerParameter(5),0)/>を納品</If><Else/><If(Equal(IntegerParameter(4),17))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>クムル星遺跡群の草刈場で<Sheet(Item,IntegerParameter(5),0)/>を草刈<Else/>コテルリ・パソリに<Sheet(Item,IntegerParameter(5),0)/>を納品</If><Else/><If(Equal(IntegerParameter(4),18))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>血の酒坏で<Sheet(Item,IntegerParameter(5),0)/>を釣る<Else/>コテルリ・パソリに<Sheet(Item,IntegerParameter(5),0)/>を納品</If><Else/></If></If></If>"
 25,"TEXT_BANQIQ102_03807_TODO_01",""
 26,"TEXT_BANQIQ102_03807_TODO_02",""
 27,"TEXT_BANQIQ102_03807_TODO_03",""
@@ -51,15 +52,33 @@ int32,str,str
 45,"TEXT_BANQIQ102_03807_TODO_21",""
 46,"TEXT_BANQIQ102_03807_TODO_22",""
 47,"TEXT_BANQIQ102_03807_TODO_23",""
-48,"TEXT_BANQIQ102_03807_QHOTERLPASOL_000_000","The underground caverns we explore are terribly dark places. Without some manner of illumination, we couldn't see our own whiskers, never mind go about our digging."
-49,"TEXT_BANQIQ102_03807_QHOTERLPASOL_000_010","Would you be so kind, good <If(PlayerParameter(4))>madam<Else/>sir</If>, as to mine for me some flint in the K'mul Astropolis? The stones are necessary for striking a fire. Three or so should suffice splendidly."
-50,"TEXT_BANQIQ102_03807_QHOTERLPASOL_000_020","Would you be so kind, good <If(PlayerParameter(4))>madam<Else/>sir</If>, as to gather for me some plant seeds in the K'mul Astropolis? From them we can extract an oil which we use as lamp fuel. Three bags' worth should suffice splendidly."
-51,"TEXT_BANQIQ102_03807_QHOTERLPASOL_000_030","Would you be so kind, good <If(PlayerParameter(4))>madam<Else/>sir</If>, as to catch for me a trout in the Red Chalice? From them we can extract an oil which we use as lamp fuel."
-52,"TEXT_BANQIQ102_03807_QHOTERLPASOL_100_010","Oh, there you are. May I ask how the flint stones are coming along? You'll have the best luck searching in the K'mul Astropolis."
-53,"TEXT_BANQIQ102_03807_QHOTERLPASOL_100_020","Oh, there you are. May I ask how the seeds are coming along? You'll have the best luck searching in the K'mul Astropolis."
-54,"TEXT_BANQIQ102_03807_QHOTERLPASOL_100_030","Oh, there you are. May I ask how the trout is coming along? You'll have the best luck searching in the Red Chalice."
-55,"TEXT_BANQIQ102_03807_QHOTERLPASOL_000_040","Welcome back, <If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Dare I hope you've obtained that which I seek?"
-56,"TEXT_BANQIQ102_03807_QHOTERLPASOL_000_050","Ah, splendid! This shall serve us well for several outings!"
-57,"TEXT_BANQIQ102_03807_QHOTERLPASOL_000_051","As you may have heard, we Qitari do not see as well as some other peoples, and must rely on such things to help us find our way in the dark. For this gift of sight, you have my heartfelt thanks."
-58,"TEXT_BANQIQ102_03807_QHOTERLPASOL_000_001",""
-59,"TEXT_BANQIQ102_03807_QHOTERLPASOL_000_002",""
+48,"TEXT_BANQIQ102_03807_QHOTERLPASOL_000_000","わたくしどもの探索する地下洞窟は、光の差さぬ闇の世界～。
+それゆえ、明かりがなければ発掘作業どころか、
+歩くことすらままなりませぬ～！"
+49,"TEXT_BANQIQ102_03807_QHOTERLPASOL_000_010","そこで、「<Sheet(Item,29518,0)/>」を3つ、
+クムル星遺跡群で採ってきてくださいましな～。
+光源の素材として使うため、お願いいたしまする～。"
+50,"TEXT_BANQIQ102_03807_QHOTERLPASOL_000_020","そこで、「<Sheet(Item,29544,0)/>」を3つ、
+クムル星遺跡群で採ってきてくださいましな～。
+光源の素材として使うため、お願いいたしまする～。"
+51,"TEXT_BANQIQ102_03807_QHOTERLPASOL_000_030","そこで、「<Sheet(Item,29570,0)/>」を、
+血の酒坏で釣り上げてくださいましな～。
+釣り餌は、<Sheet(Item,27582,0)/>が最適でございましょ～。"
+52,"TEXT_BANQIQ102_03807_QHOTERLPASOL_100_010","「<Sheet(Item,29518,0)/>」を3つ、
+クムル星遺跡群で採ってきてくださいましな～。
+光源の素材として使うため、お願いいたしまする～。"
+53,"TEXT_BANQIQ102_03807_QHOTERLPASOL_100_020","「<Sheet(Item,29544,0)/>」を3つ、
+クムル星遺跡群で採ってきてくださいましな～。
+光源の素材として使うため、お願いいたしまする～。"
+54,"TEXT_BANQIQ102_03807_QHOTERLPASOL_100_030","「<Sheet(Item,29570,0)/>」を、
+血の酒坏で釣り上げてくださいましな～。
+釣り餌は、<Sheet(Item,27582,0)/>が最適でございましょ～。"
+55,"TEXT_BANQIQ102_03807_QHOTERLPASOL_000_040","お戻りになられましたか～。
+素材集めの首尾は、いかがでしょ～？"
+56,"TEXT_BANQIQ102_03807_QHOTERLPASOL_000_050","お見事にございまする～！
+これだけあれば、ひとまずは十分でございましょ～！"
+57,"TEXT_BANQIQ102_03807_QHOTERLPASOL_000_051","わたくしどもキタリ族は、他種族に比べ視力が劣りますゆえ、
+これらの素材で作る照明器具が、重要となるのでござりまする～。
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>殿には、感謝が尽きませぬ～。"
+58,"TEXT_BANQIQ102_03807_QHOTERLPASOL_000_001","（★未使用／削除予定★）"
+59,"TEXT_BANQIQ102_03807_QHOTERLPASOL_000_002","（★未使用／削除予定★）"

@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ625_02803_SEQ_00","Maqali's son should have returned by now."
+0,"TEXT_STMBDZ625_02803_SEQ_00","オンサル・ハカイルのマカリは、息子のことを気にしているようだ。"
 1,"TEXT_STMBDZ625_02803_SEQ_01",""
 2,"TEXT_STMBDZ625_02803_SEQ_02",""
 3,"TEXT_STMBDZ625_02803_SEQ_03",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_STMBDZ625_02803_SEQ_21",""
 22,"TEXT_STMBDZ625_02803_SEQ_22",""
 23,"TEXT_STMBDZ625_02803_SEQ_23",""
-24,"TEXT_STMBDZ625_02803_TODO_00","Speak with Chagur."
-25,"TEXT_STMBDZ625_02803_TODO_01","Speak with Maqali's son."
-26,"TEXT_STMBDZ625_02803_TODO_02","Report to Maqali."
+24,"TEXT_STMBDZ625_02803_TODO_00","チャグルと話す"
+25,"TEXT_STMBDZ625_02803_TODO_01","マカリの息子と話す"
+26,"TEXT_STMBDZ625_02803_TODO_02","マカリに報告"
 27,"TEXT_STMBDZ625_02803_TODO_03",""
 28,"TEXT_STMBDZ625_02803_TODO_04",""
 29,"TEXT_STMBDZ625_02803_TODO_05",""
@@ -49,25 +49,55 @@ int32,str,str
 45,"TEXT_STMBDZ625_02803_TODO_21",""
 46,"TEXT_STMBDZ625_02803_TODO_22",""
 47,"TEXT_STMBDZ625_02803_TODO_23",""
-48,"TEXT_STMBDZ625_02803_MAQALI_000_000","Ah, if it isn't the khagan <If(PlayerParameter(4))>herself<Else/>himself</If>."
-49,"TEXT_STMBDZ625_02803_MAQALI_000_001","I am sorry to trouble you, but could I ask you to check on my son? I sent him to the Dawn Throne on an errand and he should have returned by now."
-50,"TEXT_STMBDZ625_02803_MAQALI_000_002","Word has it that there are some Oronir who resent the fact that our tribe triumphed in the Naadam. I worry that one of them may have done something to my boy."
-51,"TEXT_STMBDZ625_02803_MAQALI_000_003","Please ask Chagur as to my son's whereabouts. She should know if he is safe or not. I do hope I am worrying for nothing..."
-52,"TEXT_STMBDZ625_02803_MAQALI_000_004",""
-53,"TEXT_STMBDZ625_02803_MAQALI_000_005",""
-54,"TEXT_STMBDZ625_02803_MAQALI_000_006","Please ask Chagur as to my son's whereabouts. She should know if he is safe or not. I do hope I am worrying for nothing..."
-55,"TEXT_STMBDZ625_02803_CHAGUR_000_010","Ah, khagan. To what do we owe the pleasure?"
-56,"TEXT_STMBDZ625_02803_CHAGUR_000_011","Yes, Maqali's son was here just a short while ago. The last I saw he was heading westwards with some hunters."
-57,"TEXT_STMBDZ625_02803_CHAGUR_000_012","I do not imagine there is aught to worry about, but check on him by all means should you be concerned."
-58,"TEXT_STMBDZ625_02803_CHAGUR_000_013",""
-59,"TEXT_STMBDZ625_02803_CHAGUR_000_015","I do not imagine there is aught to worry about, but check on him by all means should you be concerned. He was headed off to the west the last time I saw him."
-60,"TEXT_STMBDZ625_02803_SON02803_000_020","<pant> <pant> I cannot continue. My hands are covered in blisters. Wait, you are the khagan, are you not? What brings you here?"
-61,"TEXT_STMBDZ625_02803_SON02803_000_021","Father was truly that worried? After completing my errand, I began talking with these hunters, and they invited me to train with them."
-62,"TEXT_STMBDZ625_02803_BUDUGA02803_000_022","I had always looked down on the Mol, but it was we who lost. There must be some secret to their strength. Come on, let us go another round!"
-63,"TEXT_STMBDZ625_02803_SON02803_000_023","My apologies but Father awaits my return. Perhaps I can join you again when my hands are not so sore. Thank you for the invitation."
-64,"TEXT_STMBDZ625_02803_MAQALI_000_030","Did you find my boy?"
-65,"TEXT_STMBDZ625_02803_ORONIR02803_000_031","He must be hiding his true strength from us. There is no way we could have been defeated by such a weak tribe."
-66,"TEXT_STMBDZ625_02803_BUDUGA02803_000_032","I am still too weak!"
-67,"TEXT_STMBDZ625_02803_MAQALI_000_040","I just spoke with my son. I could not ask him too much as he was keen to hurry off and get his hands bandaged up. What exactly happened?"
-68,"TEXT_STMBDZ625_02803_MAQALI_000_041","Ha ha, truly? No doubt the experience will serve him well."
-69,"TEXT_STMBDZ625_02803_MAQALI_000_042","Perhaps that kind of training is exactly what he needs to become a strong warrior like yourself. He may not like it, but he shall need to suffer if he wants to grow stronger."
+48,"TEXT_STMBDZ625_02803_MAQALI_000_000","やあやあ、モル族を勝利に導きし英雄殿。
+本当、アンタには感謝しきれねぇよ。"
+49,"TEXT_STMBDZ625_02803_MAQALI_000_001","そんなアンタに頼むのは、心苦しいんだが……。
+明けの玉座に、使いに行かせた息子の帰りが遅く、
+ちょっと心配なんだ……。"
+50,"TEXT_STMBDZ625_02803_MAQALI_000_002","弱小部族だったモル族が、合戦の勝者となったことで、
+オロニル族の中には、かなり苛立っている者もいると聞く。
+もしや、息子に何かあったんじゃないかってな……。"
+51,"TEXT_STMBDZ625_02803_MAQALI_000_003","何かの用で、明けの玉座に立ち寄ることがあったら、
+「チャグル」という女に、息子のことを聞いてみてくれ。
+心配のしすぎなら、いいんだが……。"
+52,"TEXT_STMBDZ625_02803_MAQALI_000_004","（★未使用／削除予定★）"
+53,"TEXT_STMBDZ625_02803_MAQALI_000_005","（★未使用／削除予定★）"
+54,"TEXT_STMBDZ625_02803_MAQALI_000_006","何かの用で、明けの玉座に立ち寄ることがあったら、
+「チャグル」という女に、息子のことを聞いてみてくれ。
+心配のしすぎなら、いいんだが……。"
+55,"TEXT_STMBDZ625_02803_CHAGUR_000_010","お主は、合戦の勇士ではないか。
+いかなる用で、こんな場所まで足を運んだ？"
+56,"TEXT_STMBDZ625_02803_CHAGUR_000_011","ふむ、確かにマカリの息子なら、使いに来たぞ。
+その後、明けの玉座にいる若者たちと、
+西の方に向かったようだが……。"
+57,"TEXT_STMBDZ625_02803_CHAGUR_000_012","そんなに心配なのであれば、
+様子を見にいってみたらどうだ？"
+58,"TEXT_STMBDZ625_02803_CHAGUR_000_013","（★未使用／削除予定★）"
+59,"TEXT_STMBDZ625_02803_CHAGUR_000_015","そんなに心配なのであれば、
+様子を見にいってみたらどうだ？
+確か西の方に向かったはずだが……。"
+60,"TEXT_STMBDZ625_02803_SON02803_000_020","はあ……はあ……もう、だめだ……。
+マメが潰れて、斧を握っただけで激痛が走る……。
+って、貴方は英雄殿……いったい、なんでここに？"
+61,"TEXT_STMBDZ625_02803_SON02803_000_021","す、すみません。
+明けの玉座で、彼らと意気投合しちゃいまして。
+訓練に誘われて、一緒にやっていたんです。"
+62,"TEXT_STMBDZ625_02803_BUDUGA02803_000_022","モル族は弱小部族と侮っていたが、我らは敗れた。
+強い者であれば、学ぶべきところもあるはずと思ってな。
+さあ、もうひと勝負といこうぞ！"
+63,"TEXT_STMBDZ625_02803_SON02803_000_023","ご、ごめん、もう限界……
+じゃなくて、父さんが待っているから、今日はこのあたりで！
+あ、ありがとうございました～！"
+64,"TEXT_STMBDZ625_02803_MAQALI_000_030","息子には、会えたか？"
+65,"TEXT_STMBDZ625_02803_ORONIR02803_000_031","我らが敗れたモル族だ、軟弱なはずがない。
+……ハッ、まさか真の実力を隠して、油断させているのか？"
+66,"TEXT_STMBDZ625_02803_BUDUGA02803_000_032","まだまだ、もっと強くならねば！"
+67,"TEXT_STMBDZ625_02803_MAQALI_000_040","迎えに行ってくれて、ありがとな。
+息子の奴、帰ってきて早々治療に向かったんだが、
+なにかあったのか？"
+68,"TEXT_STMBDZ625_02803_MAQALI_000_041","はっはっは！
+オロニル族とブドゥガ族に、しごかれていたのか。
+それは、いい勉強をさせてもらったな。"
+69,"TEXT_STMBDZ625_02803_MAQALI_000_042","息子には、アンタみたいに、一族や、誇り……
+いろんなものを、護れる男になってほしいんだ。
+嫌がるだろうが、今度、また特訓に行かせるとするよ。"

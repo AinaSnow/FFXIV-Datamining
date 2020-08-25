@@ -1,8 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANKJN502_02992_SEQ_00","Strange coffers have been washing up on the southern shore of Shoal Rock.
-※The difficulty of this quest will be synced to your current level."
+0,"TEXT_BANKJN502_02992_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト受注クラス・ジョブ制限<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+※本クエストは受注時のクラス・ジョブでのみ進行します。
+
+碧のタマミズのズキンは、緊張しているようだ。"
 1,"TEXT_BANKJN502_02992_SEQ_01",""
 2,"TEXT_BANKJN502_02992_SEQ_02",""
 3,"TEXT_BANKJN502_02992_SEQ_03",""
@@ -26,8 +28,8 @@ int32,str,str
 21,"TEXT_BANKJN502_02992_SEQ_21",""
 22,"TEXT_BANKJN502_02992_SEQ_22",""
 23,"TEXT_BANKJN502_02992_SEQ_23",""
-24,"TEXT_BANKJN502_02992_TODO_00","Investigate the Eorzean coffers and collect the treasure."
-25,"TEXT_BANKJN502_02992_TODO_01","Deliver the coins to Zukin."
+24,"TEXT_BANKJN502_02992_TODO_00","沖之岩周辺の<Sheet(EObj,2009110,0)/>から宝を入手"
+25,"TEXT_BANKJN502_02992_TODO_01","ズキンに入手した宝を渡す"
 26,"TEXT_BANKJN502_02992_TODO_02",""
 27,"TEXT_BANKJN502_02992_TODO_03",""
 28,"TEXT_BANKJN502_02992_TODO_04",""
@@ -50,10 +52,19 @@ int32,str,str
 45,"TEXT_BANKJN502_02992_TODO_21",""
 46,"TEXT_BANKJN502_02992_TODO_22",""
 47,"TEXT_BANKJN502_02992_TODO_23",""
-48,"TEXT_BANKJN502_02992_ZUKIN_000_000","One of our members has found three coffers washed ashore on Shoal Rock. They appeared to be of Eorzean make, but more he could not glean, for they were tightly sealed by some mechanism unknown to us."
-49,"TEXT_BANKJN502_02992_ZUKIN_000_001","We have some experience in opening locked chests, but not those made in western lands. I daresay you would be able to puzzle it out, however. Would you care to look into the matter?"
-50,"TEXT_BANKJN502_02992_POPMESSAGE_000_010"," "
-51,"TEXT_BANKJN502_02992_ZUKIN_000_020","Any luck with those coffers?"
-52,"TEXT_BANKJN502_02992_ZUKIN_000_021","You found these? Let me see... Old western currency, and minted from precious metals besides. Thank you for bringing these to me!"
-53,"TEXT_BANKJN502_02992_ZUKIN_000_022","What? Coffers that spring to life, snapping viciously? Could they be evil spirits, lying in wait for hapless treasure seekers? Or tsukomogami run amok, perhaps? This is indeed cause for concern."
-54,"TEXT_BANKJN502_02992_ZUKIN_000_023","In any event, full glad am I to see you uninjured. Though danger was not on my mind when I asked your aid, I was right to turn to a hardy adventurer such as you."
+48,"TEXT_BANKJN502_02992_ZUKIN_000_000","<If(PlayerParameter(4))>姉<Else/>兄</If>さんにしか頼めない仕事があるんだぁ～。
+宝探衆の仲間が、漂流してきた宝箱を見つけたんだが、
+西方風の作りなもんで、上手く開けられねぇのさぁ～。"
+49,"TEXT_BANKJN502_02992_ZUKIN_000_001","沖之岩の辺りに「<Sheet(EObj,2009110,0)/>」が3つあるから、
+そいつを開けて、お宝が入ってたらとってきてくれぇ～。
+それじゃあ、くれぐれも気を付けてくれよなぁ～。"
+50,"TEXT_BANKJN502_02992_POPMESSAGE_000_010","（★未使用／削除予定★）"
+51,"TEXT_BANKJN502_02992_ZUKIN_000_020","<If(PlayerParameter(4))>姉<Else/>兄</If>さん、お宝は見つけられたかぁ～！？"
+52,"TEXT_BANKJN502_02992_ZUKIN_000_021","ありがとよぉ～！
+これなら、取引に使えそうだぜぇ～！
+ところで、道中、危ない目には遭わなかったかぁ～？"
+53,"TEXT_BANKJN502_02992_ZUKIN_000_022","た、た、宝箱が襲いかかってきたってぇ～！？
+あやかしの類いか、付喪神様かはわからねぇが、
+とにかく無事でよかったぜぇ～。"
+54,"TEXT_BANKJN502_02992_ZUKIN_000_023","この仕事、やっぱり<If(PlayerParameter(4))>姉<Else/>兄</If>さんに任せて、正解だったなぁ～。
+また西方風の宝箱が見つかったときには、よろしく頼むなぁ～。"

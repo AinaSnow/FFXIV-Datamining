@@ -1,12 +1,12 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSARM451_00283_SEQ_00","Forgemaster H'naanza wishes to relay to you Blanstyr's next challenge."
-1,"TEXT_CLSARM451_00283_SEQ_01","Blanstyr has notified H'naanza of your contest's second-round challenge, a task that requires you to craft several pieces of armor within a strict, though somewhat ambiguous, time frame. Make haste and forge the necessary high-quality items: a pair of mythril-plated caligae, a reinforced mythril elmo, and a pair of mythril sollerets. When finished, deliver the finished pieces to the waiting forgemaster for appraisal."
-2,"TEXT_CLSARM451_00283_SEQ_02","Once again, H'naanza credits you for your fine work. Rather than declare you the victor, however, she has instead requested that you relinquish your armor to the guild to serve as a replacement order for the Maelstrom. Go to Blanstyr, and explain the delay in your submission."
-3,"TEXT_CLSARM451_00283_SEQ_03","Although your selfless deed has guaranteed victory for Blanstyr in the second round, you have made a vital contribution to the guild's continuing survival and prosperity. Return to honing your craft in preparation for the veteran artisan's final, and likely most demanding, challenge.
+0,"TEXT_CLSARM451_00283_SEQ_00","甲冑師ギルドのハ・ナンザは、冒険者に伝えたいことがあるようだ。"
+1,"TEXT_CLSARM451_00283_SEQ_01","ハ・ナンザから依頼を受けた。リムサ・ロミンサの甲冑師ギルドにいる「ハ・ナンザ」に「<Sheet(ItemHQ,　3861,0)/>」「<Sheet(ItemHQ,　2830,0)/>」「<Sheet(ItemHQ,　3868,0)/>」を1個ずつ納品しよう。"
+2,"TEXT_CLSARM451_00283_SEQ_02","ハ・ナンザに<Sheet(ItemHQ,　3861,0)/>、<Sheet(ItemHQ,　2830,0)/>、<Sheet(ItemHQ,　3868,0)/>を1個ずつ納品した。リムサ・ロミンサの甲冑師ギルドにいる「ブランシュティル」に報告しよう。"
+3,"TEXT_CLSARM451_00283_SEQ_03","ブランシュティルに報告した。ブランシュティルとの勝負は不戦敗になったが、ギルド存続の危機を救い、ギルド員の団結と、技術向上に、大きく貢献することができた。負けられない次の勝負のため、今以上に甲冑師として修業を積もう。
 
-※The next armorer quest will be available from H'naanza upon reaching level 50."
+※甲冑師のレベルが50以上になると、ハ・ナンザから次の甲冑師クエストを受注することができます。"
 4,"TEXT_CLSARM451_00283_SEQ_04",""
 5,"TEXT_CLSARM451_00283_SEQ_05",""
 6,"TEXT_CLSARM451_00283_SEQ_06",""
@@ -27,8 +27,8 @@ int32,str,str
 21,"TEXT_CLSARM451_00283_SEQ_21",""
 22,"TEXT_CLSARM451_00283_SEQ_22",""
 23,"TEXT_CLSARM451_00283_SEQ_23",""
-24,"TEXT_CLSARM451_00283_TODO_00","Deliver a pair of mythril-plated caligae <Sheet(Addon,9,0)/>, a reinforced mythril elmo <Sheet(Addon,9,0)/>, and a pair of mythril sollerets <Sheet(Addon,9,0)/> to H'naanza."
-25,"TEXT_CLSARM451_00283_TODO_01","Speak with Blanstyr."
+24,"TEXT_CLSARM451_00283_TODO_00","ハ・ナンザに依頼品を納品"
+25,"TEXT_CLSARM451_00283_TODO_01","ブランシュティルに報告"
 26,"TEXT_CLSARM451_00283_TODO_02",""
 27,"TEXT_CLSARM451_00283_TODO_03",""
 28,"TEXT_CLSARM451_00283_TODO_04",""
@@ -51,29 +51,65 @@ int32,str,str
 45,"TEXT_CLSARM451_00283_TODO_21",""
 46,"TEXT_CLSARM451_00283_TODO_22",""
 47,"TEXT_CLSARM451_00283_TODO_23",""
-48,"TEXT_CLSARM451_00283_HNAANZA_000_000","Blanstyr has notified me of the challenge for the second round of your contest. Defeat in the first round has humbled him not a whit, it seems."
-49,"TEXT_CLSARM451_00283_HNAANZA_000_001","You may have gained an early lead, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, but keep your focus sharp. As I have said before, complacency can be your downfall. And a man like Blanstyr is at his most dangerous when his pride is on the line."
-50,"TEXT_CLSARM451_00283_HNAANZA_000_002","Now, according to the wishes of our vindictive veteran, for this next round, you are to craft several items...and you must do so within a reasonable time frame to “reflect the pressures of an actual commission.” He fails to mention what he considers to be “reasonable,” so I suggest you work with dispatch."
-51,"TEXT_CLSARM451_00283_HNAANZA_000_003","The challenge requires you to forge a pair of mythril-plated caligae, a reinforced mythril elmo, and a pair of mythril sollerets, all of the finest-possible quality."
-52,"TEXT_CLSARM451_00283_HNAANZA_000_004","Naturally, every one of these items requires an abundance of mythril ore... See how he deliberately chooses the same material as before? Such is Blanstyr's confidence in his ability, and his certitude that he cannot be beaten twice under similar conditions."
-53,"TEXT_CLSARM451_00283_HNAANZA_000_005","This is your chance to unravel that obnoxious self-assurance, and end this contest with a second-round victory. If anyone can quench the fury of that insufferable aurochs, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, it is you."
-54,"TEXT_CLSARM451_00283_HNAANZA_000_006","Bring your submissions to me once you are satisfied with your forging. Take no shortcuts─I expect to see armor of unsurpassed quality."
-55,"TEXT_CLSARM451_00283_HNAANZA_000_010","Do you have the pieces required for the second round? I need to see a pair of mythril-plated caligae, a reinforced mythril elmo, and a pair of mythril sollerets─all of the best quality you can muster."
-56,"TEXT_CLSARM451_00283_HNAANZA_000_011","Well done, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>─your work is flawless. I would declare you victor this very moment, except..."
-57,"TEXT_CLSARM451_00283_HNAANZA_000_012","I need you to relinquish this armor to the guild. As for the why, it concerns a potentially dire loss of trust and reputation."
-58,"TEXT_CLSARM451_00283_HNAANZA_000_013","Do you recall the time you aided one of our novices with an order of bronze hoplons? Well, I'm afraid young Swithin has failed to deliver once more."
-59,"TEXT_CLSARM451_00283_HNAANZA_000_014","He has improved much in his craft─spurred on as he was by your example─but again the lad accepted a commission he could never hope to honor. And one does not break a promise made to the Maelstrom..."
-60,"TEXT_CLSARM451_00283_HNAANZA_000_015","I could drop full responsibility for this failure onto Swithin's unreliable shoulders, and cast him out of the guild. But what worth is a guild that does naught to support its own members when they truly need it?"
-61,"TEXT_CLSARM451_00283_HNAANZA_000_016","Blanstyr is a harsh man, but not entirely without reason. If you explain the circumstances, he may grant you a few extra days to forge your submission anew. What say you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>? Will you yield your work to the guild?"
-62,"TEXT_CLSARM451_00283_Q1_000_000","Yield your work to the guild?"
-63,"TEXT_CLSARM451_00283_A1_000_001","Yes"
-64,"TEXT_CLSARM451_00283_A1_000_002","No"
-65,"TEXT_CLSARM451_00283_HNAANZA_000_017","I understand how unreasonable this request must seem, but the livelihood of the entire guild is at stake. Without your armor to appease them, the quartermasters of the Maelstrom may never again entrust us with another commission."
-66,"TEXT_CLSARM451_00283_HNAANZA_000_018","Byregot's blessings upon you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Swithin! Come over here and show some gratitude!"
-67,"TEXT_CLSARM451_00283_SWITHIN_000_019","I don't know how to repay you for saving my neck yet again. I'll never forgive myself if it costs you your victory over Blanstyr..."
-68,"TEXT_CLSARM451_00283_SWITHIN_000_020","But the compassion you and the forgemaster have shown me this day will not be squandered, this I promise you. I'll work twice as hard! Three times, even!"
-69,"TEXT_CLSARM451_00283_HNAANZA_000_021","We are in your debt. I'll arrange to have these pieces delivered to the Maelstrom quartermasters immediately."
-70,"TEXT_CLSARM451_00283_HNAANZA_000_022","Meanwhile, you should hurry over to Blanstyr and explain the delay in your submission."
-71,"TEXT_CLSARM451_00283_BLANSTYR_000_030","What's this now? Ye let the guild have yer armor to make up a missed order!? Hahahaha, what'd I <Emphasis>tell</Emphasis> ye? Those fumble-fingered parasites're holdin' ye back at every turn."
-72,"TEXT_CLSARM451_00283_BLANSTYR_000_031","Ye was meant to honor the terms of <Emphasis>our</Emphasis> contest, no matter the circumstances. Now, ye've neither the gear ye crafted to show for yer effort, nor the time to forge a new submission. This round goes to me!"
-73,"TEXT_CLSARM451_00283_BLANSTYR_000_032","I'd grant ye this ain't the kind o' victory a man looks for, but rules is rules, <If(PlayerParameter(4))>lass<Else/>lad</If>, an' failure comes with consequence. So, I don't want to hear no excuses for the final round. Ye just bring yer best work to the table, and we'll let the results stand for 'emselves."
+48,"TEXT_CLSARM451_00283_HNAANZA_000_000","ブランシュティルから、また勝負の申し入れがあった。
+あの野郎、負けてもへこたれちゃいないみたいだね。"
+49,"TEXT_CLSARM451_00283_HNAANZA_000_001","次は勝つと息巻いてるみたいだし、気を引き締めるんだよ？
+手負いの獣ってのは、なかなか手強いもんだからね。"
+50,"TEXT_CLSARM451_00283_HNAANZA_000_002","それで、次の勝負の品だけど、
+あの男、複数の品物を期日以内に作る勝負をしたいだとさ。"
+51,"TEXT_CLSARM451_00283_HNAANZA_000_003","作る品物は「<Sheet(ItemHQ,　3861,0)/>」、
+「<Sheet(ItemHQ,　2830,0)/>」、「<Sheet(ItemHQ,　3868,0)/>」を1個ずつだ。"
+52,"TEXT_CLSARM451_00283_HNAANZA_000_004","どれもがミスリル……霊銀鉱をふんだんに使った装備品さ。
+あえて同系の課題を提示するとは、まったく大した自信だよ。"
+53,"TEXT_CLSARM451_00283_HNAANZA_000_005","いいかい<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
+全速全力でブランシュティルの自信を叩き潰しな！
+2連勝して、あの男に今日こそ引導を渡してやるんだよ！"
+54,"TEXT_CLSARM451_00283_HNAANZA_000_006","完成したら私のところに持ってくるんだ。
+念には念を入れて、出来栄えを確かめさせてもらうよ。"
+55,"TEXT_CLSARM451_00283_HNAANZA_000_010","「<Sheet(ItemHQ,　3861,0)/>」と「<Sheet(ItemHQ,　2830,0)/>」、
+そして「<Sheet(ItemHQ,　3868,0)/>」を1個ずつ揃えてきな！"
+56,"TEXT_CLSARM451_00283_HNAANZA_000_011","……さすがだよ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
+前回の勝負同様、非の打ちどころがない。
+だけど……この装備品は……！"
+57,"TEXT_CLSARM451_00283_HNAANZA_000_012","いったんギルドへ譲ってもらいたい。
+ギルドの信用問題にかかわる痛恨の失敗があってね。
+あんたの作った物がギルドに必要なんだ……！"
+58,"TEXT_CLSARM451_00283_HNAANZA_000_013","前にあんたが尻拭いした、
+スィシンって甲冑師を覚えてるかい？
+実は、そいつが……またやっちまったんだ。"
+59,"TEXT_CLSARM451_00283_HNAANZA_000_014","スィシンもあんたを見習い、
+腕を上げてたんだが……今回に限ってしくじってね。
+黒渦団の依頼が、期日に間に合わなかったんだ。"
+60,"TEXT_CLSARM451_00283_HNAANZA_000_015","スィシンに責任を取らせ、切って捨てるのは、たやすい。
+だけど、ギルド員の失敗を助けられない組織は、
+私の目指す甲冑師ギルドじゃないんだ……。"
+61,"TEXT_CLSARM451_00283_HNAANZA_000_016","ブランシュティルも、道理がわかる男だ。
+事情を話せば、期日を延ばしてくれるかもしれない。
+だから、あんたの装備品をギルドに譲ってほしい！！"
+62,"TEXT_CLSARM451_00283_Q1_000_000","譲ってあげますか？"
+63,"TEXT_CLSARM451_00283_A1_000_001","はい"
+64,"TEXT_CLSARM451_00283_A1_000_002","いいえ"
+65,"TEXT_CLSARM451_00283_HNAANZA_000_017","……すまない、本当にすまない！
+作り直しで、手間をかけるが……どうか、頼む！
+あんたの装備品でないと、先方は納得しないんだ。"
+66,"TEXT_CLSARM451_00283_HNAANZA_000_018","……よく言ってくれた、恩に着るよ。
+ほら、スィシン、あんたからもお礼を言いな。"
+67,"TEXT_CLSARM451_00283_SWITHIN_000_019","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>！
+本当に、ありがとうございます！
+ブランシュティルとの大事な勝負だったというのに。"
+68,"TEXT_CLSARM451_00283_SWITHIN_000_020","あなたとギルドマスターの厚意、絶対に無駄にしません！！
+あなたのような素晴らしい甲冑師を目指して
+さらに精進します！！"
+69,"TEXT_CLSARM451_00283_HNAANZA_000_021","あんたの品なら、黒渦団は必ず満足するはず。
+ありがとう、あんたはギルドの救世主だ！
+そして、ギルド発展の牽引力だね！"
+70,"TEXT_CLSARM451_00283_HNAANZA_000_022","さあ、急いでブランシュティルに事情を説明にいってくれ。"
+71,"TEXT_CLSARM451_00283_BLANSTYR_000_030","何……我との勝負の品をギルドに譲っただと……！？
+ほら見たことか、やはりお前は、ギルドの連中に
+足を引っ張られている。"
+72,"TEXT_CLSARM451_00283_BLANSTYR_000_031","今回の勝負は、期日の厳守も条件に入れていた。
+だが、貴様は事情がどうあれ、期日を満たせぬ……。
+ゆえに、我の勝利だ！"
+73,"TEXT_CLSARM451_00283_BLANSTYR_000_032","だが、納得いかん、不愉快だ。
+次回の勝負は、必ず貴様の全力を見せよ！
+それを我が、叩き潰してくれる！"

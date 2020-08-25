@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDA603_02529_SEQ_00","Your work is far from finished, as Conrad knows."
+0,"TEXT_STMBDA603_02529_SEQ_00","カステッルム・ベロジナのコンラッドは、頼みたいことがあるようだ。"
 1,"TEXT_STMBDA603_02529_SEQ_01",""
 2,"TEXT_STMBDA603_02529_SEQ_02",""
 3,"TEXT_STMBDA603_02529_SEQ_03",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_STMBDA603_02529_SEQ_21",""
 22,"TEXT_STMBDA603_02529_SEQ_22",""
 23,"TEXT_STMBDA603_02529_SEQ_23",""
-24,"TEXT_STMBDA603_02529_TODO_00","Search the Fringes for remnants of the imperial army."
-25,"TEXT_STMBDA603_02529_TODO_01","Speak with Raubahn."
-26,"TEXT_STMBDA603_02529_TODO_02","Speak with Conrad."
+24,"TEXT_STMBDA603_02529_TODO_00","帝国兵を探し、襲われたら討伐"
+25,"TEXT_STMBDA603_02529_TODO_01","ラウバーンに報告"
+26,"TEXT_STMBDA603_02529_TODO_02","コンラッドと話す"
 27,"TEXT_STMBDA603_02529_TODO_03",""
 28,"TEXT_STMBDA603_02529_TODO_04",""
 29,"TEXT_STMBDA603_02529_TODO_05",""
@@ -49,31 +49,72 @@ int32,str,str
 45,"TEXT_STMBDA603_02529_TODO_21",""
 46,"TEXT_STMBDA603_02529_TODO_22",""
 47,"TEXT_STMBDA603_02529_TODO_23",""
-48,"TEXT_STMBDA603_02529_ARENVALD_000_001","Did you see that, A'aba, Aulie? We did it!"
-49,"TEXT_STMBDA603_02529_MNAAGO_000_005","<pant> <pant> For a moment there, I didn't think I could do it...but then I did!"
-50,"TEXT_STMBDA603_02529_LYSE_000_010","One step at a time, one step at a time. Until we're on Zenos's doorstep!"
-51,"TEXT_STMBDA603_02529_ANANTASOLDIER_000_015","Ssso, you are indeed everything they sssay. The ssstuff of legends..."
-52,"TEXT_STMBDA603_02529_CONRAD_000_020","There's still a chance that some imperials are holed up inside the castellum. We'll need to search it top to bottom to be sure it's safe."
-53,"TEXT_STMBDA603_02529_CONRAD_000_021","In the meantime, I want you to rendezvous with the main host. Keep your weapons at the ready─there's a chance you might come face–to–face with soldiers on the run en route."
-54,"TEXT_STMBDA603_02529_CONRAD_000_022","On second thought, it might be prudent for you to do a preemptive sweep of the region for soldiers that have gone to ground. We shouldn't afford them any time to regroup and launch a counterattack."
-55,"TEXT_STMBDA603_02529_CONRAD_000_023","When you've judged your work to be done, report to General Aldynn in Bittermill."
-56,"TEXT_STMBDA603_02529_CONRAD_000_025","Just because we've won doesn't mean it's over yet. There're still enemies about, and a panicked soldier can kill you just as quick as a cool-headed one."
-57,"TEXT_STMBDA603_02529_POP_MESSAGE","You sense a desperate presence!"
-58,"TEXT_STMBDA603_02529_BALLOON_000_030","Don't come any closer!"
-59,"TEXT_STMBDA603_02529_BALLOON_000_035","Sod this! I'm not dying today!"
-60,"TEXT_STMBDA603_02529_ALPHINAUD_000_040","The Bull of Ala Mhigo has done it again. His assessment of Fordola's response was without error."
-61,"TEXT_STMBDA603_02529_ALISAIE_000_045","It's a good thing M'naago got the flag flying when she did. Any longer and those imperials might have had us at their mercy..."
-62,"TEXT_STMBDA603_02529_RAUBAHN_000_050","<If(GreaterThan(PlayerParameter(52),0))>Well met<Else/><If(GreaterThan(PlayerParameter(53),0))>Well met<Else/><Clickable(<If(GreaterThan(PlayerParameter(52),0))><Sheet(GCRankLimsaMaleText,PlayerParameter(52),8)/><Else/></If><If(GreaterThan(PlayerParameter(53),0))><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),8)/><Else/></If><If(GreaterThan(PlayerParameter(54),0))><Sheet(GCRankUldahMaleText,PlayerParameter(54),8)/><Else/></If>)/></If></If>. All's well at the bridge?"
-63,"TEXT_STMBDA603_02529_RAUBAHN_000_051","Good, good. The fighting has died down here too, as you can see."
-64,"TEXT_STMBDA603_02529_RAUBAHN_000_052","Pipin left but a moment ago with a contingent of troops to occupy Velodyna. If and when the imperials return, they'll find us dug in behind their own walls."
-65,"TEXT_STMBDA603_02529_ALPHINAUD_000_053","I could not have hoped for a better outcome, General. Splendidly done."
-66,"TEXT_STMBDA603_02529_RAUBAHN_000_054","Let's not get ahead of ourselves. It'll take more than one castellum to turn the tide."
-67,"TEXT_STMBDA603_02529_RAUBAHN_000_055","My men and I will deal with the remaining enemy forces. Scions, I bid you return to Commander Kemp and his men."
-68,"TEXT_STMBDA603_02529_ALPHINAUD_000_056","Delight not overmuch in victory─not when there are battles left to fight..."
-69,"TEXT_STMBDA603_02529_ALPHINAUD_000_057","Our work here is finished. Our Resistance allies are waiting."
-70,"TEXT_STMBDA603_02529_ALPHINAUD_000_060","From a stone bridge to a massive fortress... Garlean engineering never ceases to impress."
-71,"TEXT_STMBDA603_02529_ALISAIE_000_065","Now that we have taken control of Velodyna, there's nothing stopping us from marching east towards the Peaks."
-72,"TEXT_STMBDA603_02529_LYSE_000_070","If you're looking for Arenvald, I think he's with Pipin, searching the castellum for any remaining soldiers."
-73,"TEXT_STMBDA603_02529_RESISTANCEGATEGUARD_000_075","Velodyna belongs to the Alliance and the Resistance now. You may be assured that the imperials will never hold it again!"
-74,"TEXT_STMBDA603_02529_CONRAD_000_080","Back so soon? I suppose the General and his men had matters well in hand."
-75,"TEXT_STMBDA603_02529_CONRAD_000_081","The vice marshal and his men showed up not long after you left. If the gods are good, there'll be no one left to fight..."
+48,"TEXT_STMBDA603_02529_ARENVALD_000_001","アバ、オリ……俺は、俺はやったぞ！"
+49,"TEXT_STMBDA603_02529_MNAAGO_000_005","はぁ、はぁ、はぁ……。
+帝国の軍旗をマジックプリズムで書き換えるときに、
+落としちゃわないかどうか心配で、緊張しましたぁ～！"
+50,"TEXT_STMBDA603_02529_LYSE_000_010","まだまだ小さな一歩に過ぎないけど、
+この調子で、どんどん前に進んでいこう。
+アラミゴを帝国の手から取り戻す、その時まで！"
+51,"TEXT_STMBDA603_02529_ANANTASOLDIER_000_015","シュー……お前の戦いぶり、実に見事だった。
+ヒトの子とは思えないほど、素早く鋭い動き……。
+感服したぞ……！"
+52,"TEXT_STMBDA603_02529_CONRAD_000_020","敵が退いてくれたおかげで、無駄な損害を出さずにすんだの。
+ワシらは引き続き、合流してきた後続の解放軍部隊と協力して、
+施設内の残敵を掃討しておこう。"
+53,"TEXT_STMBDA603_02529_CONRAD_000_021","すまぬが、お主には同盟軍本隊との合流がてら、
+突出して蹴散らされた帝国軍残党の対処を頼みたい。
+奴らが橋に雪崩込んでくると、厄介じゃからの。"
+54,"TEXT_STMBDA603_02529_CONRAD_000_022","ここから、同盟軍本隊がいるビターミルの辺りまでの間で、
+交戦の意思ある帝国兵を発見したら、
+各個撃破していってもらいたい。"
+55,"TEXT_STMBDA603_02529_CONRAD_000_023","そうして本隊と合流できたら、
+「ラウバーン」殿にベロジナ大橋の状況を伝えるんじゃ。
+……頼んだぞい。"
+56,"TEXT_STMBDA603_02529_CONRAD_000_025","同盟軍の本隊は、ビターミル辺りにいるはずじゃが、
+道中では、敗走してきた敵兵と遭遇するかもしれん。
+くれぐれも注意を怠らぬことじゃ。"
+57,"TEXT_STMBDA603_02529_POP_MESSAGE","敵が襲いかかってきた！！"
+58,"TEXT_STMBDA603_02529_BALLOON_000_030","こ、ここにも敵が！"
+59,"TEXT_STMBDA603_02529_BALLOON_000_035","見つかっただと！？
+ならば、蹴散らすしか！"
+60,"TEXT_STMBDA603_02529_ALPHINAUD_000_040","さすがはラウバーン局長……
+「戦場の演出家」と呼ばれていただけはある、
+見事な采配だったよ。"
+61,"TEXT_STMBDA603_02529_ALISAIE_000_045","強気だったのも、アラミゴ解放軍の旗を見るまで……。
+自分たちが帰る場所が制圧されたと思った敵兵は、
+可哀想なくらいの動揺ぶりだったわよ。"
+62,"TEXT_STMBDA603_02529_RAUBAHN_000_050","貴様がここに来たということは、
+ベロジナ大橋の方も、大方、戦闘は終了したのだな？"
+63,"TEXT_STMBDA603_02529_RAUBAHN_000_051","それは何よりだ。
+こちらもあらかた片付いたところだ。"
+64,"TEXT_STMBDA603_02529_RAUBAHN_000_052","つい先ほど、ピピン指揮下の部隊を大橋の支援に向かわせた。
+カステッルム・ベロジナの施設を使えば、
+帝国軍が引き返して来ようとも、有利に戦えるだろう。"
+65,"TEXT_STMBDA603_02529_ALPHINAUD_000_053","想像以上に、作戦が上手くいきましたね。
+さすがは「戦場の演出家」と呼ばれただけはあります。
+見事な采配でした、ラウバーン局長……！"
+66,"TEXT_STMBDA603_02529_RAUBAHN_000_054","下手な世辞はよしてくれ。
+まだ戦いはこれからなのだからな……。"
+67,"TEXT_STMBDA603_02529_RAUBAHN_000_055","では、吾輩は部下を率いて、
+もう一度、周辺の残敵掃討に行ってくる。
+「暁」の方々は、アラミゴ解放軍の部隊と合流してくれ。"
+68,"TEXT_STMBDA603_02529_ALPHINAUD_000_056","緒戦の勝ちにも傲らず、油断しない……。
+これが名将と呼ばれる武人ということか……。"
+69,"TEXT_STMBDA603_02529_ALPHINAUD_000_057","よし、それでは我々はカステッルム・ベロジナに向かおう。
+「コンラッド」殿と合流するんだ。"
+70,"TEXT_STMBDA603_02529_ALPHINAUD_000_060","アラミゴ人が築いた石橋を、
+このように改築して軍事拠点へと造り変えるとは……。
+帝国の建築技術には驚かされるよ。"
+71,"TEXT_STMBDA603_02529_ALISAIE_000_065","この橋を確保できたことは、戦局を大きく左右するわ。
+もう山岳地帯への進軍を阻むものはないんだもの……。"
+72,"TEXT_STMBDA603_02529_LYSE_000_070","アレンヴァルドなら、ピピンたちといっしょに、
+施設内の見回りに行っているよ。"
+73,"TEXT_STMBDA603_02529_RESISTANCEGATEGUARD_000_075","現在、解放軍と同盟軍の兵士たちで、
+拠点内の最終的な安全確保を行っております！"
+74,"TEXT_STMBDA603_02529_CONRAD_000_080","手数をかけたの。
+同盟軍の方も、そう大きな被害はなかったようで、
+ホッとしたぞい。"
+75,"TEXT_STMBDA603_02529_CONRAD_000_081","あの後、ピピン少闘将の部隊が応援に駆けつけてくれての。
+今は、制圧した施設の安全確認をしておるところじゃ。
+同盟軍と「暁」には、感謝が尽きぬのう。"

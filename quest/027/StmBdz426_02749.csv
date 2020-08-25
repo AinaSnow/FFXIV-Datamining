@@ -1,14 +1,14 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ426_02749_SEQ_00","At the Glittering Basin, Gyorin eagerly awaits the next opportunity for you to aid him in his ascension to mercantile greatness."
-1,"TEXT_STMBDZ426_02749_SEQ_01","Gyorin has set out to prospect choice mining spots. Travel to the Glittering Basin and speak with him."
-2,"TEXT_STMBDZ426_02749_SEQ_02","Gyorin boasts to you of the Namazu heightened sense of detection gained by way of the glorious barbels about their head and face. He claims to be using this gift to find precious ores for mining. Travel to the Glittering Basin and speak with Gyorin once more."
-3,"TEXT_STMBDZ426_02749_SEQ_03","Gyorin informs you he has found a choice mining location, but that he is unable to reach it due to a host of monsters in the way. Clear his path of two ruffled hornbills at the Glittering Basin."
-4,"TEXT_STMBDZ426_02749_SEQ_04","You have slain all the ruffled hornbills that obstructed Gyorin. Speak with him once more at the Glittering Basin."
-5,"TEXT_STMBDZ426_02749_SEQ_05","Gyorin asks that you head back to his manor while he mines the ores he has found. Travel to the destination and await his return."
-6,"TEXT_STMBDZ426_02749_SEQ_06","Gyorin has returned home and shown his fresh haul to an expert in mineral appraisals named Gyofu. According to Gyofu's trained eye, none of the ores Gyorin brought back from the Glittering Basin are of any value. Gyorin leaves in low spirits. Travel to the Glittering Basin and speak with him."
-7,"TEXT_STMBDZ426_02749_SEQ_07","Gyorin reaches the conclusion that perhaps his barbels are not made for detecting valuable minerals. He tells you he will once again seek another way to make his name as a merchant."
+0,"TEXT_STMBDZ426_02749_SEQ_00","無二江流域のギョリンは、冒険者が協力してくれるのを楽しみに待っているようだ。"
+1,"TEXT_STMBDZ426_02749_SEQ_01","ギョリンと話した。一足先に掘る場所を探しに向かったギョリンを追いかけ、無二江流域にいる「ギョリン」と話そう。"
+2,"TEXT_STMBDZ426_02749_SEQ_02","ギョリンと話した。ナマズオに伝わる、ナマズオ流ヒゲ探知術で、いい鉱物がある場所を探していたのだという。ギョリンを追いかけ、無二江流域にいる「ギョリン」と再度話そう。"
+3,"TEXT_STMBDZ426_02749_SEQ_03","ギョリンと話した。よさそうな場所を見つけたものの、近くに魔物がいるのだという。無二江流域で「<Sheet(BNpcName,5903,0)/>」を2体討伐しよう。"
+4,"TEXT_STMBDZ426_02749_SEQ_04","<Sheet(BNpcName,5903,0)/>を討伐した。無二江流域にいる「ギョリン」と話そう。"
+5,"TEXT_STMBDZ426_02749_SEQ_05","ギョリンと話した。鉱物を集めるので、先に屋敷に戻っていてほしいと語るギョリン。無二江流域の「<Sheet(EObj,2008801,0)/>」で待機しよう。"
+6,"TEXT_STMBDZ426_02749_SEQ_06","<Sheet(EObj,2008801,0)/>で待機した。ギョリンが戻ってきたのち、鉱物に詳しいギョフにギョリンが集めたものを見てもらったところ、価値がないものばかり集めてきてしまったようだ。ギョリンは、聞いた結果に肩を落としてその場を去っていった。無二江流域の「ギョリン」と話そう。"
+7,"TEXT_STMBDZ426_02749_SEQ_07","ギョリンと話した。自分のヒゲはコウブツ探しには向いていないのかもしれないので、ほかの稼ぎ方がないか調べてみると語るギョリンであった。"
 8,"TEXT_STMBDZ426_02749_SEQ_08",""
 9,"TEXT_STMBDZ426_02749_SEQ_09",""
 10,"TEXT_STMBDZ426_02749_SEQ_10",""
@@ -25,12 +25,12 @@ int32,str,str
 21,"TEXT_STMBDZ426_02749_SEQ_21",""
 22,"TEXT_STMBDZ426_02749_SEQ_22",""
 23,"TEXT_STMBDZ426_02749_SEQ_23",""
-24,"TEXT_STMBDZ426_02749_TODO_00","Speak with Gyorin."
-25,"TEXT_STMBDZ426_02749_TODO_01","Speak with Gyorin once again."
-26,"TEXT_STMBDZ426_02749_TODO_02","Defeat ruffled hornbills."
-27,"TEXT_STMBDZ426_02749_TODO_03","Speak with Gyorin."
-28,"TEXT_STMBDZ426_02749_TODO_04","Await Gyorin at the designated location."
-29,"TEXT_STMBDZ426_02749_TODO_05","Speak with Gyorin."
+24,"TEXT_STMBDZ426_02749_TODO_00","ギョリンと話す"
+25,"TEXT_STMBDZ426_02749_TODO_01","ギョリンと再度話す"
+26,"TEXT_STMBDZ426_02749_TODO_02","<Sheet(BNpcName,5903,0)/>を討伐"
+27,"TEXT_STMBDZ426_02749_TODO_03","ギョリンと話す"
+28,"TEXT_STMBDZ426_02749_TODO_04","<Sheet(EObj,2008801,0)/>で待機"
+29,"TEXT_STMBDZ426_02749_TODO_05","ギョリンと話す"
 30,"TEXT_STMBDZ426_02749_TODO_06",""
 31,"TEXT_STMBDZ426_02749_TODO_07",""
 32,"TEXT_STMBDZ426_02749_TODO_08",""
@@ -49,32 +49,70 @@ int32,str,str
 45,"TEXT_STMBDZ426_02749_TODO_21",""
 46,"TEXT_STMBDZ426_02749_TODO_22",""
 47,"TEXT_STMBDZ426_02749_TODO_23",""
-48,"TEXT_STMBDZ426_02749_GYORIN_000_000","I am ready to begin my life as a miner, a prospector. Yes, yes. I mean to search for my fortune, my fame. I am sure it lies to the west of our manor."
-49,"TEXT_STMBDZ426_02749_GYORIN_000_001","I will go ahead of you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. But please, do come and find me. Yes, yes."
-50,"TEXT_STMBDZ426_02749_GYORIN_000_010","Where to look, where to look..."
-51,"TEXT_STMBDZ426_02749_GYORIN_000_011","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! You gave me a start, a fright. But I am glad to see you. It was so good of you to come, to visit."
-52,"TEXT_STMBDZ426_02749_GYORIN_000_012","I am prospecting for ores as we speak, using my fortune-seeking barbels. Yes, yes. The Namazu barbel is a sensitive thing. Mine will detect where the most precious of ores lie."
-53,"TEXT_STMBDZ426_02749_GYORIN_000_013","I do believe I found something! I feel a tingle, a twinge in my barbels."
-54,"TEXT_STMBDZ426_02749_GYORIN_000_014","They tell me there is great mineral wealth to the north. I must go, I must away!"
-55,"TEXT_STMBDZ426_02749_GYORIN_000_020","It is all well and good to have found a choice mining location, but I am afraid my hand is stayed. There are a host of nasty beasts lingering, prowling. I can't get to the ore for fear of my life! Please, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, you must help me."
-56,"TEXT_STMBDZ426_02749_GYORIN_000_021","It is all well and good to have found a choice mining location, but I am afraid my hand is stayed. There are a host of nasty beasts lingering, prowling. I can't get to the ore for fear of my life! Please, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, you must help me."
-57,"TEXT_STMBDZ426_02749_POPMESSAGE_100_030","You are under attack!"
-58,"TEXT_STMBDZ426_02749_GYORIN_000_030","I knew those monstrosities would pose no match for you. Yes, yes, no match at all. The way is now clear. Leave the rest to me!"
-59,"TEXT_STMBDZ426_02749_GYORIN_000_031","I will mine these lands and amass a haul of ore the likes of which Yanxia has never seen! But it will require some time, some patience. Yes, yes. You should return to my warehouse and await me, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I wish not to bore you with my digging, my picking."
-60,"TEXT_STMBDZ426_02749_GYORIN_000_032","I will mine these lands and amass a haul of ore the likes of which Yanxia has never seen! But it will require some time, some patience. Yes, yes. You should return to my warehouse and await me, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I wish not to bore you with my digging, my picking."
-61,"TEXT_STMBDZ426_02749_GYORIN_000_040","The deed is done, finished. Yes, yes. And what a haul we have! Come, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, and behold the fruits of my labor."
-62,"TEXT_STMBDZ426_02749_GYORIN_000_041","Look at how they sparkle, how they shine. I have no doubt these ores will see me to greatness, to fame."
-63,"TEXT_STMBDZ426_02749_GYORIN_000_042","I must show them to Gyofu. Yes, yes. He is very knowledgeable about the selling of ores. His appraisal will be most reassuring."
-64,"TEXT_STMBDZ426_02749_GYORIN_000_043","Gyofuuu! I have something for you to inspect, to see."
-65,"TEXT_STMBDZ426_02749_GYOFU_000_044","You certainly are in good spirits. What is it, Gyorin?"
-66,"TEXT_STMBDZ426_02749_GYORIN_000_045","I have been mining, and brought my first haul of findings for your appraisal, your valuation. Tell me, how much gil will these ores fetch at market?"
-67,"TEXT_STMBDZ426_02749_GYOFU_000_047","Is that where you've been off to all this time? Well then, let us have a look, shall we? Yes, yes."
-68,"TEXT_STMBDZ426_02749_GYOFU_000_048","You want the truth of me, yes Gyorin?"
-69,"TEXT_STMBDZ426_02749_GYORIN_000_049","And nothing besides. Yes, yes, tell me your honest opinion."
-70,"TEXT_STMBDZ426_02749_GYOFU_000_050","It is difficult to place a value on these ores you have. Quite difficult indeed. And that is because they are so very, very..."
-71,"TEXT_STMBDZ426_02749_GYOFU_000_051","Worthless! You dragged a veritable pile of garbage across Yanxia and into our manor!"
-72,"TEXT_STMBDZ426_02749_GYORIN_000_052","W-Worthless? But my barbels tingled, twinged... I would have staked my life that these ores were valuable."
-73,"TEXT_STMBDZ426_02749_GYORIN_000_053","But thank the gods I did not. I suppose I must find another way, another means, to make my fortune. Thank you, Gyofu. I do appreciate your honesty, your candor. Yes, yes."
-74,"TEXT_STMBDZ426_02749_GYOFU_000_054","Gyorin seemed to be quite down. I hate to be the one to tell him, but someone had to. Those rocks he had were worthless."
-75,"TEXT_STMBDZ426_02749_GYORIN_000_060","I used my barbels to detect the ores just like my master taught me. Yes, yes, I did. <sigh> I suppose the barbels of my line are not fit for mining."
-76,"TEXT_STMBDZ426_02749_GYORIN_000_061","Still, my dream is my dream. I will not give up yet. I will find another path to greatness. And when I do, you will be the first to know, to hear, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
+48,"TEXT_STMBDZ426_02749_GYORIN_000_000","付き合ってくれて、どうもありがとねん♪
+さっそくコウブツを探しに行こうと思うんだけど、
+お屋敷の西の方で、掘る場所を探そうと思ってるんだよねん。"
+49,"TEXT_STMBDZ426_02749_GYORIN_000_001","先に行って探しはじめてるから、
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>も、あとから来てね～ん！"
+50,"TEXT_STMBDZ426_02749_GYORIN_000_010","どこかな、どこかな～ん♪
+コウブツはどっこかなぁ～ん♪"
+51,"TEXT_STMBDZ426_02749_GYORIN_000_011","……ハッ、いつの間に来てたのん！？
+来てたなら言ってよ、びっくりするよん！"
+52,"TEXT_STMBDZ426_02749_GYORIN_000_012","今はね、ボクらに伝わる、ナマズオ流ヒゲ探知術で、
+いいコウブツがある場所を探してたところなんだよん。"
+53,"TEXT_STMBDZ426_02749_GYORIN_000_013","そして、なんとなんと……
+よさそうな場所を見つけちゃったのだよん！
+スゴいでしょ、えっへん！"
+54,"TEXT_STMBDZ426_02749_GYORIN_000_014","自慢のヒゲが、北の方角から、
+成り上がりの気配をビンビン感じちゃってるのよん！
+さっそく行ってみるのだよん！"
+55,"TEXT_STMBDZ426_02749_GYORIN_000_020","よさそうな場所を見つけたのはいいものの、
+近くに、怖そうな魔物がいるみたいだよん……。
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>に、あいつを退治してほしいのねん！"
+56,"TEXT_STMBDZ426_02749_GYORIN_000_021","よさそうな場所を見つけたのはいいものの、
+近くに、怖そうな魔物がいるみたいだよん……。
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>に、あいつを退治してほしいのねん！"
+57,"TEXT_STMBDZ426_02749_POPMESSAGE_100_030","敵が襲いかかってきた！！"
+58,"TEXT_STMBDZ426_02749_GYORIN_000_030","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>は強いんだねぇ、びっくりだよん！
+ここからあとは、ボクに任せてちょうだいねん！"
+59,"TEXT_STMBDZ426_02749_GYORIN_000_031","このあたりを掘って、コウブツをたくさん集めて持っていくから、
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>は倉のそばで待っててねん！
+楽しみにしててねんっ♪"
+60,"TEXT_STMBDZ426_02749_GYORIN_000_032","このあたりを掘って、コウブツをたくさん集めて持っていくから、
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>は倉のそばで待っててねん！
+楽しみにしててねんっ♪"
+61,"TEXT_STMBDZ426_02749_GYORIN_000_040","んっふふっのふーん♪
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>にも、
+ボクの見事な掘りっぷりを見せてあげたかったのねん♪"
+62,"TEXT_STMBDZ426_02749_GYORIN_000_041","これで、成り上がれること、
+間違いなしな気がするのね～ん、んふっ♪"
+63,"TEXT_STMBDZ426_02749_GYORIN_000_042","コウブツは、商売に精通してる、
+ギョフさんに見てもらうのがいいから、
+さっそく行ってみるとするのねん♪"
+64,"TEXT_STMBDZ426_02749_GYORIN_000_043","ギョフさ～ん！
+実は、見てほしいものがあるのねん♪"
+65,"TEXT_STMBDZ426_02749_GYOFU_000_044","どうしたよギョリン？
+おみゃあさん、ずいぶんご機嫌だっぺな？"
+66,"TEXT_STMBDZ426_02749_GYORIN_000_045","んふ……実はね、コウブツを採ってきたのねん！
+それでギョフさんに、いくらぐらいで売れそうか、
+見てほしいと思っているのねん♪"
+67,"TEXT_STMBDZ426_02749_GYOFU_000_047","ほぉ、おみゃあさんが鉱物を採ってきたっぺか。
+ほいじゃあ、見てみるっぺよ！"
+68,"TEXT_STMBDZ426_02749_GYOFU_000_048","……正直に言っていいっぺか、ギョリン？"
+69,"TEXT_STMBDZ426_02749_GYORIN_000_049","うん、もちろんだよん！
+楽しみだなぁ、んふふっ♪"
+70,"TEXT_STMBDZ426_02749_GYOFU_000_050","おみゃあさんが取ってきた鉱物は、
+価格を付け難いぐらいに……"
+71,"TEXT_STMBDZ426_02749_GYOFU_000_051","ゴミクズ同然の無価値な石コロっぺよ！！"
+72,"TEXT_STMBDZ426_02749_GYORIN_000_052","そ、そんなぁ……。
+がんばって探したのに、ガックシだなぁん。"
+73,"TEXT_STMBDZ426_02749_GYORIN_000_053","また、ほかの稼ぎ方がないか、調べてみるとするよん。
+ギョフさん、見てくれてありがとねん……。"
+74,"TEXT_STMBDZ426_02749_GYOFU_000_054","ギョリンのやつ、しょんぼりしてたっぺな。
+でも、価値が無いのは事実だから、しょうがないっぺよ。"
+75,"TEXT_STMBDZ426_02749_GYORIN_000_060","師匠から教えてもらった探知術どおりにやったのに……。
+もしかしてボクのヒゲは、
+いいコウブツを見つけるのには向いてないのかねん。"
+76,"TEXT_STMBDZ426_02749_GYORIN_000_061","ちょっと、ほかの稼ぎ方を探してみるとするよん。
+何か、いい方法が見つかったら教えるから、
+また<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>にも付き合ってほしいのねん……。"

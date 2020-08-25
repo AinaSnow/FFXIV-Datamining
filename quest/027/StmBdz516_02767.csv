@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ516_02767_SEQ_00","Cotan has awoken to the true potential of cheese."
+0,"TEXT_STMBDZ516_02767_SEQ_00","モル・イローのコタンは、異国の者を探しているようだ。"
 1,"TEXT_STMBDZ516_02767_SEQ_01",""
 2,"TEXT_STMBDZ516_02767_SEQ_02",""
 3,"TEXT_STMBDZ516_02767_SEQ_03",""
@@ -25,9 +25,10 @@ int32,str,str
 21,"TEXT_STMBDZ516_02767_SEQ_21",""
 22,"TEXT_STMBDZ516_02767_SEQ_22",""
 23,"TEXT_STMBDZ516_02767_SEQ_23",""
-24,"TEXT_STMBDZ516_02767_TODO_00","Speak with Sukegei."
-25,"TEXT_STMBDZ516_02767_TODO_01","Approach a sheep that looks ready to be milked and fill up the empty milk can."
-26,"TEXT_STMBDZ516_02767_TODO_02","Deliver the full milk can to Cotan."
+24,"TEXT_STMBDZ516_02767_TODO_00","スケゲイと話す"
+25,"TEXT_STMBDZ516_02767_TODO_01","とびきり機嫌よく鳴いている羊に近づき、
+<Sheet(EventItem,2002201,0)/>を使い羊乳を搾る"
+26,"TEXT_STMBDZ516_02767_TODO_02","コタンに<Sheet(EventItem,2002202,0)/>を渡す"
 27,"TEXT_STMBDZ516_02767_TODO_03",""
 28,"TEXT_STMBDZ516_02767_TODO_04",""
 29,"TEXT_STMBDZ516_02767_TODO_05",""
@@ -49,20 +50,41 @@ int32,str,str
 45,"TEXT_STMBDZ516_02767_TODO_21",""
 46,"TEXT_STMBDZ516_02767_TODO_22",""
 47,"TEXT_STMBDZ516_02767_TODO_23",""
-48,"TEXT_STMBDZ516_02767_COTAN_000_000","Tell me, have you ever made cheese before?"
-49,"TEXT_STMBDZ516_02767_COTAN_000_001","I make my living selling lanolin at market, but sales have been poor of late."
-50,"TEXT_STMBDZ516_02767_COTAN_000_002","It was when things could not get any worse that the elder gods told me to make cheese using sheep's milk collected by an adventurer. I have a feeling that adventurer may be you."
-51,"TEXT_STMBDZ516_02767_COTAN_000_003","I imagine the key to making a good cheese lies in the quality of the milk used. Take this can with you and ask Sukegei if you may milk his sheep."
-52,"TEXT_STMBDZ516_02767_COTAN_000_004",""
-53,"TEXT_STMBDZ516_02767_SUKEGEI_000_010","<Emphasis>You</Emphasis> want to milk <Emphasis>my</Emphasis> sheep?"
-54,"TEXT_STMBDZ516_02767_SUKEGEI_000_011","Ha ha, I see. Cotan needs milk now, does she? By all means, have a look for a sheep that seems to be in need of a good milking."
-55,"TEXT_STMBDZ516_02767_SYSTEM_000_020","Search for a sheep that sounds ready to be milked and fill up the empty milk can."
-56,"TEXT_STMBDZ516_02767_SUKEGEI_000_012","By all means, have a look for a sheep that seems to be in need of a good milking."
-57,"TEXT_STMBDZ516_02767_SYSTEM_000_021","Search for a sheep that sounds ready to be milked and fill up the empty milk can."
-58,"TEXT_STMBDZ516_02767_SYSTEM_000_030","Milk of the highest quality gushes forth from the sheep, filling your can to the brim."
-59,"TEXT_STMBDZ516_02767_SYSTEM_000_035","You are unlikely to get any high-quality milk here. Search for a sheep that sounds ready to be milked and fill up the empty milk can."
-60,"TEXT_STMBDZ516_02767_COTAN_000_050","Were you able to fill the can I gave you?"
-61,"TEXT_STMBDZ516_02767_COTAN_000_051","Yes, this should be more than enough. I was actually just visited by a trader looking for someone to supply him with cheese for his stall. I went ahead and agreed to trade him my first batch as soon as it is ready."
-62,"TEXT_STMBDZ516_02767_COTAN_000_052",""
-63,"TEXT_STMBDZ516_02767_COTAN_000_053","I must go and express my gratitude to the udgan. The gods always seek to guide us down the right path, but we would not be able to hear them were it not for the udgan's help."
-64,"TEXT_STMBDZ516_02767_COTAN_000_054","I am, of course, also indebted to you. The gods may have guided you here, but it was you who chose to listen to my plea. Take this as a symbol of my gratitude."
+48,"TEXT_STMBDZ516_02767_COTAN_000_000","お前、異国の者だな？
+モルに関わった者として、少し私に付き合ってくれないか。"
+49,"TEXT_STMBDZ516_02767_COTAN_000_001","私は、ラノリンを市で売り、生計を立てていたのだが、
+このところ売り上げが低迷し困っている。"
+50,"TEXT_STMBDZ516_02767_COTAN_000_002","そんな折、異国の者が搾った羊乳でチーズを作れと、
+奇妙な神託が下り、首をかしげていたところでな。
+そこにきて、お前の来訪……まさに天佑だ！"
+51,"TEXT_STMBDZ516_02767_COTAN_000_003","さあ、羊飼いの「スケゲイ」から許可をもらって、
+この「<Sheet(EventItem,2002201,0)/>」いっぱいに、羊乳を搾ってきてくれ。"
+52,"TEXT_STMBDZ516_02767_COTAN_000_004","（★未使用／削除予定★）"
+53,"TEXT_STMBDZ516_02767_SUKEGEI_000_010","えっ、羊の乳を搾りたいの？
+なんで、旅人のあなたが？"
+54,"TEXT_STMBDZ516_02767_SUKEGEI_000_011","へえ、コタンに下った神託のためにかぁ。
+それなら、「とびきり機嫌よく鳴いている羊」を探してみて。
+ご機嫌な羊なら、素人でも簡単に乳搾りができるはずだよ。"
+55,"TEXT_STMBDZ516_02767_SYSTEM_000_020","とびきり機嫌よく鳴いている羊を探し、
+近づいて「<Sheet(EventItem,2002201,0)/>」を使ってみましょう。"
+56,"TEXT_STMBDZ516_02767_SUKEGEI_000_012","とびきり機嫌よく鳴いている羊を探してみて。
+ご機嫌な羊なら、素人でも簡単に乳搾りができるはずだよ。"
+57,"TEXT_STMBDZ516_02767_SYSTEM_000_021","とびきり機嫌よく鳴いている羊を探し、
+近づいて「<Sheet(EventItem,2002201,0)/>」を使ってみましょう。"
+58,"TEXT_STMBDZ516_02767_SYSTEM_000_030","とびきり機嫌よく鳴いている羊の乳を搾った！
+<Sheet(EventItem,2002201,0)/>が、良質な羊乳で満たされた！"
+59,"TEXT_STMBDZ516_02767_SYSTEM_000_035","周囲に、とびきり機嫌のいい羊はいないようだ……。
+それらしき羊を探し出し、
+近づいて「<Sheet(EventItem,2002201,0)/>」を使ってみよう。"
+60,"TEXT_STMBDZ516_02767_COTAN_000_050","良質な羊乳は搾ってこられたか？
+できたのなら、「<Sheet(EventItem,2002202,0)/>」を渡してくれ。"
+61,"TEXT_STMBDZ516_02767_COTAN_000_051","ふむ、この量があれば、約束の数のチーズを作れそうだ。
+……実はな、ついさっきチーズを探し求める客が来たから、
+先に契約を結んでおいたんだ。"
+62,"TEXT_STMBDZ516_02767_COTAN_000_052","（★未使用／削除予定★）"
+63,"TEXT_STMBDZ516_02767_COTAN_000_053","やはり、神託は私たちを、よりよき道に導いてくださる。
+神の言葉を伝えてくれたシャーマンにも、
+感謝せねばなるまいな。"
+64,"TEXT_STMBDZ516_02767_COTAN_000_054","もちろん、神の意に沿い、私の前へ現れてくれた、
+お前にも感謝している。
+礼として、これをやろう。"

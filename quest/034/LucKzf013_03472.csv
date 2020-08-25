@@ -1,8 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKZF013_03472_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Loymet is furrowing her brow."
+0,"TEXT_LUCKZF013_03472_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+ファノヴの里のロイメは、ロンカの同盟者の力を借りたいようだ。"
 1,"TEXT_LUCKZF013_03472_SEQ_01",""
 2,"TEXT_LUCKZF013_03472_SEQ_02",""
 3,"TEXT_LUCKZF013_03472_SEQ_03",""
@@ -26,8 +26,9 @@ Loymet is furrowing her brow."
 21,"TEXT_LUCKZF013_03472_SEQ_21",""
 22,"TEXT_LUCKZF013_03472_SEQ_22",""
 23,"TEXT_LUCKZF013_03472_SEQ_23",""
-24,"TEXT_LUCKZF013_03472_TODO_00","Use the corrosive elixir on the spotted spiders, then defeat the doom of the Everlasting Dark."
-25,"TEXT_LUCKZF013_03472_TODO_01","Report to Loymet."
+24,"TEXT_LUCKZF013_03472_TODO_00","<Sheet(BNpcName,9036,0)/>に<Sheet(EventItem,2002580,0)/>を使い討伐し
+さらに現れた<Sheet(BNpcName,8998,0)/>を討伐"
+25,"TEXT_LUCKZF013_03472_TODO_01","ロイメに報告"
 26,"TEXT_LUCKZF013_03472_TODO_02",""
 27,"TEXT_LUCKZF013_03472_TODO_03",""
 28,"TEXT_LUCKZF013_03472_TODO_04",""
@@ -50,29 +51,47 @@ Loymet is furrowing her brow."
 45,"TEXT_LUCKZF013_03472_TODO_21",""
 46,"TEXT_LUCKZF013_03472_TODO_22",""
 47,"TEXT_LUCKZF013_03472_TODO_23",""
-48,"TEXT_LUCKZF013_03472_LOYMET_000_001","Thank goodness you are here. I would ask for your help with a rather urgent matter."
-49,"TEXT_LUCKZF013_03472_LOYMET_000_002","In recent days, trespassers we believe to be of the Children of the Everlasting Dark have been spotted near the Morning Stars."
-50,"TEXT_LUCKZF013_03472_LOYMET_000_003","No doubt come for the secrets of our temples."
-51,"TEXT_LUCKZF013_03472_LOYMET_000_004","By all rights they should have been stopped before even reaching Yx'Maja, but fending off the Eulmorans has spread our patrols thin."
-52,"TEXT_LUCKZF013_03472_LOYMET_000_005","They cannot be suffered to remain here any longer."
-53,"TEXT_LUCKZF013_03472_LOYMET_000_006","Will you help us find them?"
-54,"TEXT_LUCKZF013_03472_LOYMET_000_007","When last spotted, they were accompanied by giant spiders. They are monstrous creatures with skin like armor. Use this elixir to cut through their defenses. Go swiftly, and may the blessings of the wood be upon you."
-55,"TEXT_LUCKZF013_03472_LOYMET_000_008","We believe they are in hiding near the Morning Stars. If you should find them, do not forget the elixir."
-56,"TEXT_LUCKZF013_03472_LOYMET_000_020","You have routed the trespassers, I take it."
-57,"TEXT_LUCKZF013_03472_LOYMET_000_021","They seemed fixated on the temples of the Morning Stars, perhaps drawn by the radiant stones atop them."
-58,"TEXT_LUCKZF013_03472_LOYMET_000_022","To an outsider they might appear a source of power, but that is quite far from the truth."
-59,"TEXT_LUCKZF013_03472_LOYMET_000_023","They glow with the power of these woods, of Ronka. The light would fade the moment they were moved."
-60,"TEXT_LUCKZF013_03472_LOYMET_000_024","But regardless of their worth, such crimes cannot be tolerated. I will see to it we strengthen our defenses of the border. This will not happen again."
-61,"TEXT_LUCKZF013_03472_VIISGUARD03472_000_001",""
-62,"TEXT_LUCKZF013_03472_VIISGUARD03472_000_002",""
-63,"TEXT_LUCKZF013_03472_VIISGUARD03472_000_003",""
-64,"TEXT_LUCKZF013_03472_VIISGUARD03472_000_004",""
-65,"TEXT_LUCKZF013_03472_VIISGUARD03472_000_005",""
-66,"TEXT_LUCKZF013_03472_VIISGUARD03472_000_006",""
-67,"TEXT_LUCKZF013_03472_VIISGUARD03472_000_007",""
-68,"TEXT_LUCKZF013_03472_VIISGUARD03472_000_008",""
-69,"TEXT_LUCKZF013_03472_VIISGUARD03472_000_020",""
-70,"TEXT_LUCKZF013_03472_VIISGUARD03472_000_021",""
-71,"TEXT_LUCKZF013_03472_VIISGUARD03472_000_022",""
-72,"TEXT_LUCKZF013_03472_VIISGUARD03472_000_023",""
-73,"TEXT_LUCKZF013_03472_VIISGUARD03472_000_024",""
+48,"TEXT_LUCKZF013_03472_LOYMET_000_001","ロンカの同盟者さん……。
+実は、折り入って頼みがあるんです。"
+49,"TEXT_LUCKZF013_03472_LOYMET_000_002","ここ最近……どう潜り込むのかわかりませんが、
+「常闇の愛し子」の一派と思しき連中が、
+「四つの明星」付近に相次いで出没しています。"
+50,"TEXT_LUCKZF013_03472_LOYMET_000_003","先だっての騒乱の際に、ユールモア軍と共に侵入してきた連中は、
+神殿を見て、ロンカの秘宝が眠っていると信じ込んだらしく……。"
+51,"TEXT_LUCKZF013_03472_LOYMET_000_004","神殿遺跡と森のすべては、ロンカの神々と皇帝の聖なる所有物……
+財宝探しだなどと、まったく許しがたい限りです！"
+52,"TEXT_LUCKZF013_03472_LOYMET_000_005","我々としては警備を怠らず、
+見つけ次第こらしめ、西の森に追い返しているのですが。
+森の南北に警戒を広げたために、人手が足りなくなっていて……。"
+53,"TEXT_LUCKZF013_03472_LOYMET_000_006","貴方の力を借りられるなら、これより頼もしいことはありません。
+どうか、協力していただけないでしょうか……！"
+54,"TEXT_LUCKZF013_03472_LOYMET_000_007","「常闇の愛し子」の連中は、護衛にスパイダーを従えています。
+厄介な相手ですが、この「<Sheet(EventItem,2002580,0)/>」を投げつければ、
+皮膚を溶かし、簡単に始末できるはずです。"
+55,"TEXT_LUCKZF013_03472_LOYMET_000_008","「四つの明星」に、「常闇の愛し子」一派の者が出没しています。
+従えたスパイダーを「<Sheet(EventItem,2002580,0)/>」を使って弱らせ、
+奴らを神殿の近くから追い払ってください……！"
+56,"TEXT_LUCKZF013_03472_LOYMET_000_020","見事追い払ってくださったそうですね、助かりました……！"
+57,"TEXT_LUCKZF013_03472_LOYMET_000_021","連中が秘宝と目したものは、
+どうやらピラミッドに掲げられたロンカの輝石のようです。
+神殿に残された魔力によって光り続けている、オレンジ色の石……。"
+58,"TEXT_LUCKZF013_03472_LOYMET_000_022","あの不逞の輩たちは、偉大なる遺産を手にして、
+自分たちの争い事に役立てようとでも、企んでいたのでしょう。"
+59,"TEXT_LUCKZF013_03472_LOYMET_000_023","しかし、あれは偉大なるロンカの力……。
+神殿から持ち去ったとて、魔力を持ち続けるものではないのに……。"
+60,"TEXT_LUCKZF013_03472_LOYMET_000_024","とにかく、迂闊に輝石に触れようものなら、
+神殿の守護者を呼び起こし、大事件になりかねませんでした。
+未然に惨事を防げたわけですね、ありがとうございました……！"
+61,"TEXT_LUCKZF013_03472_VIISGUARD03472_000_001","（★未使用／削除予定★）"
+62,"TEXT_LUCKZF013_03472_VIISGUARD03472_000_002","（★未使用／削除予定★）"
+63,"TEXT_LUCKZF013_03472_VIISGUARD03472_000_003","（★未使用／削除予定★）"
+64,"TEXT_LUCKZF013_03472_VIISGUARD03472_000_004","（★未使用／削除予定★）"
+65,"TEXT_LUCKZF013_03472_VIISGUARD03472_000_005","（★未使用／削除予定★）"
+66,"TEXT_LUCKZF013_03472_VIISGUARD03472_000_006","（★未使用／削除予定★）"
+67,"TEXT_LUCKZF013_03472_VIISGUARD03472_000_007","（★未使用／削除予定★）"
+68,"TEXT_LUCKZF013_03472_VIISGUARD03472_000_008","（★未使用／削除予定★）"
+69,"TEXT_LUCKZF013_03472_VIISGUARD03472_000_020","（★未使用／削除予定★）"
+70,"TEXT_LUCKZF013_03472_VIISGUARD03472_000_021","（★未使用／削除予定★）"
+71,"TEXT_LUCKZF013_03472_VIISGUARD03472_000_022","（★未使用／削除予定★）"
+72,"TEXT_LUCKZF013_03472_VIISGUARD03472_000_023","（★未使用／削除予定★）"
+73,"TEXT_LUCKZF013_03472_VIISGUARD03472_000_024","（★未使用／削除予定★）"

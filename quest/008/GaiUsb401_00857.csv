@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB401_00857_SEQ_00","Riol is waiting for you to give him your undivided attention."
-1,"TEXT_GAIUSB401_00857_SEQ_01","Riol reveals that the Company of Heroes reached Titan not by fighting their way through the mines of O'Ghomoro, but by using a beastman aetheryte. In this way, they bypassed the kobolds' defenses and traveled to the heart of Titan's sanctuary, aided by an unnamed Sharlayan. Search for the beastman aetheryte in Zelma's Run."
-2,"TEXT_GAIUSB401_00857_SEQ_02","In the absence of Sharlayan technology, Y'shtola must remain behind to amplify the power of the aetheryte in Zelma's Run. At long last, the time has come for you to follow in the footsteps of the Company of Heroes and face the Lord of Crags.
+0,"TEXT_GAIUSB401_00857_SEQ_00","キャンプ・ブロンズレイクのリオルは、冒険者にタイタンの情報を教えたいようだ。"
+1,"TEXT_GAIUSB401_00857_SEQ_01","コボルド族の「蛮風エーテライト」を使えば、タイタンのもとへ直接行けるらしい。高地ラノシアのゼルマ渓谷で「蛮風エーテライト」を探そう。"
+2,"TEXT_GAIUSB401_00857_SEQ_02","蛮風エーテライトを見つけた。タイタンの神殿に乗り込み、蛮神「タイタン」を倒そう
 
-※The Navel can be accessed via the Duty Finder."
-3,"TEXT_GAIUSB401_00857_SEQ_03","In a moment that shall forever be enshrined in the annals of Eorzean history, you slay the Lord of Crags and spare Limsa Lominsa his terrible vengeance. In the aftermath, you sense a dark, stifling presence watching you. The feeling does not last long, however, and you are left to wonder if it was anything more than the fancy of a weary mind. Just then, Y'shtola appears to teleport you back to the beastman aetheryte, instructing you to rendezvous with her at Camp Bronze Lake."
-4,"TEXT_GAIUSB401_00857_SEQ_04","You return to Camp Bronze Lake to find Y'shtola waiting for you. Ever businesslike, she promptly suggests that the two of you discuss how best to proceed."
+※コンテンツファインダーから攻略に参加できます。"
+3,"TEXT_GAIUSB401_00857_SEQ_03","タイタンを討った後、ガレマール帝国軍のネロ、リットアティンとアシエン・ラハブレアが現れた。彼らの目的は、いったい……？　ひとまず、キャンプ・ブロンズレイクで「ヤ・シュトラ」と合流しよう。"
+4,"TEXT_GAIUSB401_00857_SEQ_04","ヤ・シュトラと合流した。目的であったタイタン討伐を完遂したことで、彼女も少し安心しているようだ。"
 5,"TEXT_GAIUSB401_00857_SEQ_05",""
 6,"TEXT_GAIUSB401_00857_SEQ_06",""
 7,"TEXT_GAIUSB401_00857_SEQ_07",""
@@ -27,9 +27,9 @@ int32,str,str
 21,"TEXT_GAIUSB401_00857_SEQ_21",""
 22,"TEXT_GAIUSB401_00857_SEQ_22",""
 23,"TEXT_GAIUSB401_00857_SEQ_23",""
-24,"TEXT_GAIUSB401_00857_TODO_00","Examine the beastman aetheryte."
-25,"TEXT_GAIUSB401_00857_TODO_01","Use the Duty Finder to confront Titan in the Navel."
-26,"TEXT_GAIUSB401_00857_TODO_02","Rendezvous with Y'shtola at Camp Bronze Lake."
+24,"TEXT_GAIUSB401_00857_TODO_00","ゼルマ渓谷の蛮風エーテライトを調べる"
+25,"TEXT_GAIUSB401_00857_TODO_01","蛮神「タイタン」を討伐"
+26,"TEXT_GAIUSB401_00857_TODO_02","キャンプ・ブロンズレイクのヤ・シュトラに報告"
 27,"TEXT_GAIUSB401_00857_TODO_03",""
 28,"TEXT_GAIUSB401_00857_TODO_04",""
 29,"TEXT_GAIUSB401_00857_TODO_05",""
@@ -51,69 +51,150 @@ int32,str,str
 45,"TEXT_GAIUSB401_00857_TODO_21",""
 46,"TEXT_GAIUSB401_00857_TODO_22",""
 47,"TEXT_GAIUSB401_00857_TODO_23",""
-48,"TEXT_GAIUSB401_00857_RIOL_000_020","Years ago, when we was weighin' up how to get to Titan, one of our scouts stumbled across this beastman aetheryte, see..."
-49,"TEXT_GAIUSB401_00857_RIOL_000_021","Eh? What's that look for? Not familiar with 'em?"
-50,"TEXT_GAIUSB401_00857_YSHTOLA_000_022","He speaks of an unamplified aetheryte which has been claimed by a beast tribe. Lest you wonder, there is no fundamental difference between such aetherytes and those which you have used on countless occasions, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
-51,"TEXT_GAIUSB401_00857_RIOL_000_023","Ah, well if it ain't the Sharlayan lass. Welcome back."
-52,"TEXT_GAIUSB401_00857_YSHTOLA_000_024","Forgive me for interrupting. I had planned to await your report, but I succumbed to curiosity."
-53,"TEXT_GAIUSB401_00857_YSHTOLA_000_025","The tunnels beneath O'Ghomoro form a bewildering labyrinth that no outsider has ever fully explored. How the Company of Heroes managed to navigate it is a mystery I have long pondered."
-54,"TEXT_GAIUSB401_00857_RIOL_000_026","Ha! Give us a bit of credit, love! We weren't daft enough to try goin' in the front."
-55,"TEXT_GAIUSB401_00857_RIOL_000_027","The kobolds are always diggin' new tunnels an' fillin' the old ones with traps. One wrong step, an' the next thing you know, ye've got a hundred tonzes o' rock on your noggin. Suicide to even try, see?"
-56,"TEXT_GAIUSB401_00857_RIOL_000_028","Funny thing was, the kobolds didn't seem to have no trouble findin' their way 'round─an' it was <Emphasis>that</Emphasis> as got us thinkin'. I mean, U'Ghamaro Mines are like a bleedin' <Emphasis>city</Emphasis>, ain't they? An' gettin' around in a city that big would be a right pain in the arse if you didn't have an Aethernet, wouldn't it? So it stood to reason that the kobolds must have one, didn't it?"
-57,"TEXT_GAIUSB401_00857_YSHTOLA_000_029","Hm. Even if there were aetheryte shards in the depths of O'Ghomoro, you would have needed to attune yourselves to them before you could identify their signatures within the Lifestream."
-58,"TEXT_GAIUSB401_00857_RIOL_000_030","Ah, well, that's where yer wrong, love. We had this Sharlayan bloke to help us, see. Delivered us right into Titan's bedchamber, he did."
-59,"TEXT_GAIUSB401_00857_RIOL_000_031","I don't rightly know how he did it, but I <Emphasis>do</Emphasis> remember him sayin' it weren't nothin' any Sharlayan scholar worth her salt couldn't manage."
-60,"TEXT_GAIUSB401_00857_YSHTOLA_000_032","<Emphasis>...Did he now</Emphasis>? Hmph.
-Locating a beacon in the absence of a known signature might be possible if the aetherytes in question happened to be... Ah, yes. But in order to guide a traveler to said beacon safely, a second party would be required to... Hmmm."
-61,"TEXT_GAIUSB401_00857_YSHTOLA_000_033","It is possible─in theory at least. Yet I cannot be certain until I try. Plainly, all will depend upon whether or not I am “worth my salt.”"
-62,"TEXT_GAIUSB401_00857_RIOL_000_034","Oh, you are, lass! Don't you worry about that! Have a bit o' faith in yerself!"
-63,"TEXT_GAIUSB401_00857_RIOL_000_035","Why don't we all go to Zelma's Run an' take a closer look at the aetheryte? It ain't far─though there's sure to be a few kobolds blockin' the way. Naught ye can't handle, mind!"
-64,"TEXT_GAIUSB401_00857_DUMMY_000_010",""
-65,"TEXT_GAIUSB401_00857_YSHTOLA_000_040","So this is the aetheryte the Company of Heroes used to gain access to Titan's sanctuary."
-66,"TEXT_GAIUSB401_00857_YSHTOLA_000_041","Hm. It is as Papalymo speculated."
-67,"TEXT_GAIUSB401_00857_YSHTOLA_000_042","In its present state, this aetheryte's signal will not be strong enough for our purposes. I may, however, be able to use my own energies to amplify it. Alas, the task will monopolize my attention for the duration."
-68,"TEXT_GAIUSB401_00857_YSHTOLA_000_043","It seems you will have to proceed without me, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I must needs remain here and supplement this beacon's power, lest you be denied your only path of escape."
-69,"TEXT_GAIUSB401_00857_YSHTOLA_000_044","Fear not: I will summon the Maelstrom forces stationed nearby to protect us."
-70,"TEXT_GAIUSB401_00857_YSHTOLA_000_045","With effort, it is possible that I may be able to stabilize the aetheryte's signal and thereby join you, albeit belatedly. Until such time as I do, you will be on your own."
-71,"TEXT_GAIUSB401_00857_YSHTOLA_000_046","Now...let us see if I <Emphasis>am</Emphasis> worth my salt."
-72,"TEXT_GAIUSB401_00857_YSHTOLA_000_047","I have located another beacon─one far below the mountain. I can only speculate as to what you will find there, so stint not in your preparation."
-73,"TEXT_GAIUSB401_00857_SCAREDKOBOLD_000_048","Look, an overdweller! Yes, yes, an invader from above! <If(PlayerParameter(4))>She<Else/>He</If> uses our aetherytes against us!"
-74,"TEXT_GAIUSB401_00857_ANGRYKOBOLD_000_049","<If(PlayerParameter(4))>She<Else/>He</If> has defiled Titan's sacred sanctuary─trespassed, violated, defiled!"
-75,"TEXT_GAIUSB401_00857_KOBOLDS_000_050","(-Kobolds-)Overdwellers must leave! Overdwellers must fly!"
-76,"TEXT_GAIUSB401_00857_ZADA_000_051","Brothers and sisters, fear <If(PlayerParameter(4))>her<Else/>him</If> not! <If(PlayerParameter(4))>Her<Else/>His</If> fate shall be decided by the Lord of Crags!"
-77,"TEXT_GAIUSB401_00857_ZADA_000_052","Hear me, overdweller! You and your treacherous brethren must be held to account for the breaking of the covenant!"
-78,"TEXT_GAIUSB401_00857_ZADA_000_053","You shall be first to face judgment! Then Limsa Lominsa and her oathbreakers─liars, betrayers, oathbreakers!"
-79,"TEXT_GAIUSB401_00857_ZADA_000_054","O Great Father, Lord of Crags! Titan, we summon You! Titan, we summon You!
-O Great Father, Lord of Crags! Titan, we summon You! Titan, we summon You!"
-80,"TEXT_GAIUSB401_00857_KOBOLDS_000_055","(-Kobolds-)He is come! He is come! The Lord of Crags, Titan is come!"
-81,"TEXT_GAIUSB401_00857_TITAN_000_056","Overdweller...art thou deaf to their weeping?"
-82,"TEXT_GAIUSB401_00857_TITAN_000_057","Thy vile kind coveteth ever the blessing of the land and murdereth my children by the score─all in service to greed. Such sins are beyond pardon."
-83,"TEXT_GAIUSB401_00857_TITAN_000_058","Ah...but I am not the first to suffer thy defiance. Thou didst bring Ifrit low."
-84,"TEXT_GAIUSB401_00857_TITAN_000_059","Godless overdweller! Thy myriad heresies shall not go unpunished! Upon thee shall I wreak a terrible vengeance!"
-85,"TEXT_GAIUSB401_00857_DUMMY_000_020",""
-86,"TEXT_GAIUSB401_00857_KOBOLDS_000_070","(-Kobolds-)The Lord of Crags, Great Father Titan has fallen!"
-87,"TEXT_GAIUSB401_00857_ZADA_000_071","The crimes of the overdwellers shall never be forgiven! Never be forgotten! No, no, never!"
-88,"TEXT_GAIUSB401_00857_ZADA_000_072","'Twas your kin who broke the covenant! We have acted only in defense of our lands!"
-89,"TEXT_GAIUSB401_00857_ZADA_000_073","Cease your aggression, or never will there be peace! Until our dying breaths, we shall defy you─deny, decry, defy!"
-90,"TEXT_GAIUSB401_00857_NERO_000_074","Now <Emphasis>these</Emphasis> are the readings one would expect of an eikon..."
-91,"TEXT_GAIUSB401_00857_NERO_000_075","I have seen enough. We proceed as planned."
-92,"TEXT_GAIUSB401_00857_RHITAHTYN_000_076","(-???-)Are you sure that is wise, my lord? Your...curiosity is untested and unproven. We do not yet know its true capabilities."
-93,"TEXT_GAIUSB401_00857_NERO_000_077","Then trust in mine, Rhitahtyn. My <Emphasis>curiosity</Emphasis>, as you so eloquently put it, would have bested Titan in the blink of an eye."
-94,"TEXT_GAIUSB401_00857_NERO_000_078","Why, if there be truth to the legends, it could readily subjugate the whole of Eorzea given but a little while longer. Is that not so?"
-95,"TEXT_GAIUSB401_00857_LAHABREAEORZEA_000_079","It is. No greater single power has ever been conceived, much less realized."
-96,"TEXT_GAIUSB401_00857_RHITAHTYN_000_080","What you say may well be true. But while such devices may win battles, I do not believe they will serve to change the course of this war."
-97,"TEXT_GAIUSB401_00857_NERO_000_081","Oh but they will. Have a little faith, my friend."
-98,"TEXT_GAIUSB401_00857_RHITAHTYN_000_082","...I cannot endorse this course of action."
-99,"TEXT_GAIUSB401_00857_LAHABREAANCIENT_000_083","<UIForeground>F20223</UIForeground>...Fool.<UIForeground>01</UIForeground>"
-100,"TEXT_GAIUSB401_00857_LAHABREAANCIENT_000_084","<UIForeground>F20223</UIForeground>And now <If(PlayerParameter(4))>she<Else/>he</If> has a fourth. Fascinating.<UIForeground>01</UIForeground>"
-101,"TEXT_GAIUSB401_00857_LAHABREAANCIENT_000_085","<UIForeground>F20223</UIForeground>Carry on, crystal bearer. Far though you have come, your work is far from done.<UIForeground>01</UIForeground>"
-102,"TEXT_GAIUSB401_00857_YSHTOLA_000_086","And naught remained to mark his passing..."
-103,"TEXT_GAIUSB401_00857_YSHTOLA_000_087","Well, the Ascians are nothing if not elusive. It is of little wonder that they should cast advanced teleportation magicks at will."
-104,"TEXT_GAIUSB401_00857_YSHTOLA_000_088","But that they would choose to consort with the <Emphasis>Empire</Emphasis>..."
-105,"TEXT_GAIUSB401_00857_YSHTOLA_000_089","What common goal could they possibly share...? "
-106,"TEXT_GAIUSB401_00857_YSHTOLA_000_090","I feared I might arrive too late, but I see you had the matter well in hand."
-107,"TEXT_GAIUSB401_00857_YSHTOLA_000_091","I have taken measures to ensure that we are not pursued, yet I cannot say how long they will hold."
-108,"TEXT_GAIUSB401_00857_YSHTOLA_000_092","Take your leave while the kobolds are still in disarray. I will follow anon. There is something I must investigate before I depart."
-109,"TEXT_GAIUSB401_00857_YSHTOLA_000_093","I will teleport you to the aetheryte in Zelma's Run, and we will rendezvous at Camp Bronze Lake. Agreed?"
-110,"TEXT_GAIUSB401_00857_YSHTOLA_000_030","I am relieved to see you well. But come, let us discuss our next step."
-111,"TEXT_GAIUSB401_00857_YSHTOLA_000_200","I must needs remain here to ensure that you have a means of egress. As I told you, we have no way of knowing what awaits you at the beacon, so be sure to prepare yourself prior to departing."
+48,"TEXT_GAIUSB401_00857_RIOL_000_020","その昔「海雄旅団」でコボルド族の調査といえば、
+俺の仕事だったんだ。
+すでに「蛮風エーテライト」の位置は特定してあるぞ。"
+49,"TEXT_GAIUSB401_00857_RIOL_000_021","なに？　蛮風エーテライトを知らないだって？"
+50,"TEXT_GAIUSB401_00857_YSHTOLA_000_022","蛮族が独自に設置したエーテライトのことよ。
+私たちが日頃使うエーテライトとは、似て非なるもの。
+原理は同じはずだけどね。"
+51,"TEXT_GAIUSB401_00857_RIOL_000_023","よう、ねーちゃん。
+帰ってきたのかい。"
+52,"TEXT_GAIUSB401_00857_YSHTOLA_000_024","ちょうど、蛮風エーテライトの情報を調べていたのよ。"
+53,"TEXT_GAIUSB401_00857_YSHTOLA_000_025","コボルド族が棲んでいたオ・ゴモロ山は、険しい岩山。
+そうそうと移動はできないはず。
+きっと、何らかの移動手段があると考えたの。"
+54,"TEXT_GAIUSB401_00857_RIOL_000_026","コボルド族は迷宮のような穴ぐらに棲むからな。
+それを、ひとつひとつ調べていくのは果てしない話だ。"
+55,"TEXT_GAIUSB401_00857_RIOL_000_027","それに、そんなことをしでかしたら、
+あっという間に退路を断たれて、袋叩きさ。"
+56,"TEXT_GAIUSB401_00857_RIOL_000_028","目的は、蛮神「タイタン」なんだろ？
+奴を叩くだけなら、奴らのエーテライトを使って、
+直接、火口にある神殿に飛ぶのが手っ取り早いのさ。"
+57,"TEXT_GAIUSB401_00857_YSHTOLA_000_029","でも、私たちには蛮風エーテライトは使えないわ。
+そもそも、あれは蛮族たちが交感するために
+作られたものだから。"
+58,"TEXT_GAIUSB401_00857_RIOL_000_030","海雄旅団があったころは、俺たちは、
+シャーレアン人の魔道士に協力してもらって、
+蛮風エーテライトを使っていたのさ。"
+59,"TEXT_GAIUSB401_00857_RIOL_000_031","ねーちゃんもシャーレアンの出なんだろう？
+同じようにできるんじゃないのかい？"
+60,"TEXT_GAIUSB401_00857_YSHTOLA_000_032","……そうか、地脈を利用している原理が同じなら、
+エーテライトと人を結ぶ仲介役が
+流れを安定させてやれば……。"
+61,"TEXT_GAIUSB401_00857_YSHTOLA_000_033","うん、いけそうよ。
+エーテライト技術は、私たちシャーレアンの専売特許よ。
+きっと、やってみせるわ！"
+62,"TEXT_GAIUSB401_00857_RIOL_000_034","へへっ、大丈夫のようだな。
+今は使われてない警備の手薄な蛮風エーテライトが、
+ここからほど近い「ゼルマ渓谷」にある。"
+63,"TEXT_GAIUSB401_00857_RIOL_000_035","あの辺りは、魔物の住処だ。
+蛮神「タイタン」を討つ前に、くたばるんじゃねぇぞ！"
+64,"TEXT_GAIUSB401_00857_DUMMY_000_010","棄てられた蛮族エーテライトにアクセス
+コンテンツ解放、Ncut"
+65,"TEXT_GAIUSB401_00857_YSHTOLA_000_040","これが、蛮神「タイタン」の神殿へ通じるという、
+蛮風エーテライトね。"
+66,"TEXT_GAIUSB401_00857_YSHTOLA_000_041","……なるほど。
+パパリモからの情報のとおりだわ。"
+67,"TEXT_GAIUSB401_00857_YSHTOLA_000_042","まともに手入れされてなかったためか、
+常にエーテルを流し続けないと機能しないみたいね。"
+68,"TEXT_GAIUSB401_00857_YSHTOLA_000_043","私はここに残って、蛮風エーテライトが機能するように、
+エーテルを送り続ける。
+あなただけでも、先に神殿へ飛びなさい。"
+69,"TEXT_GAIUSB401_00857_YSHTOLA_000_044","心配してくれるのね、ありがとう。
+でも、大丈夫よ。
+この周辺は、黒渦団が守ってくれているわ。"
+70,"TEXT_GAIUSB401_00857_YSHTOLA_000_045","……戦いになれば、エーテルが大きく乱れるはず。
+その流れを追って、後から駆けつけるわ。"
+71,"TEXT_GAIUSB401_00857_YSHTOLA_000_046","……それじゃ、いくわよ！"
+72,"TEXT_GAIUSB401_00857_YSHTOLA_000_047","情報どおりなら、飛んだ先は敵陣のど真ん中よ。
+……気を付けて！"
+73,"TEXT_GAIUSB401_00857_SCAREDKOBOLD_000_048","ひー　ヒトだあ！
+ヒトがー　乗り込んできたー！
+オラたちのー　エーテライト使ったんかー！"
+74,"TEXT_GAIUSB401_00857_ANGRYKOBOLD_000_049","ヒトめー！　だいーちは　コボルド族のもんだー！
+侵略者めー！
+タイタンさーまの　聖域を侵すつもりーか！"
+75,"TEXT_GAIUSB401_00857_KOBOLDS_000_050","(-コボルド族たち-)でてーけ！　でてーけ！
+だいーちは　オラたーち　コボルド族のもんだー！
+ヒトはでてーけ！"
+76,"TEXT_GAIUSB401_00857_ZADA_000_051","しずまーれー！　しずまーれー！
+タイタンさーまの　御前なるーぞ！！"
+77,"TEXT_GAIUSB401_00857_ZADA_000_052","我らが聖域にー　迷い込みしヒトの子よー！
+我らはタイタンさーまを　およーびしたー！
+古のー協定をーやぶったヒトを罰する－ためー！"
+78,"TEXT_GAIUSB401_00857_ZADA_000_053","まずーは　きさーまをー
+タイタンさーまのー生贄にーささげるー！
+そのうえーで　ヒトのみやーこに　攻め入ろうぞー！"
+79,"TEXT_GAIUSB401_00857_ZADA_000_054","だいーちを統べるー我らが父よー！
+きたりまーせー！　きたりまーせー！
+岩神タイタンよー　きたりまーせー！！"
+80,"TEXT_GAIUSB401_00857_KOBOLDS_000_055","(-コボルド族たち-)タイタンさーま！
+タイタンさーま！"
+81,"TEXT_GAIUSB401_00857_TITAN_000_056","我が聖域を踏みにじるヒトの子よ……
+コボルド族の……我が愛しき子らの嘆きが聞こえた……。"
+82,"TEXT_GAIUSB401_00857_TITAN_000_057","己の欲望のままに、大地を侵し、
+我が子らを殺す者よ……。
+その行い許すまじ！"
+83,"TEXT_GAIUSB401_00857_TITAN_000_058","……その気配……。
+お主、もしや焔神「イフリート」を屠ったか！？"
+84,"TEXT_GAIUSB401_00857_TITAN_000_059","ぬぬぬぬぬぬ、侮りがたし、ヒトの子よ！
+それでも、我が内から湧きいずる大地の怒りは止められん。
+この場で圧殺してくれようぞぉぉぉぉぉ！"
+85,"TEXT_GAIUSB401_00857_DUMMY_000_020","タイタンを討伐する"
+86,"TEXT_GAIUSB401_00857_KOBOLDS_000_070","(-コボルド族たち-)あー　タイタンさーま……。
+きえちゃだーめ　タイタンさーま……。"
+87,"TEXT_GAIUSB401_00857_ZADA_000_071","タイタンさーまに　仇なーすヒトの子よー！
+覚えておくーがいいー！"
+88,"TEXT_GAIUSB401_00857_ZADA_000_072","お前たーちが　盟約をたがえーなけれーば
+我らーも　山をおりーることーは　なかったーのだ！"
+89,"TEXT_GAIUSB401_00857_ZADA_000_073","お前たーちが　大地を侵すーかぎーり
+我らーも　抵抗をー　やめなーい！
+覚えておくーがいいー！"
+90,"TEXT_GAIUSB401_00857_NERO_000_074","蛮神「タイタン」か、大した数値だったぜ。"
+91,"TEXT_GAIUSB401_00857_NERO_000_075","よし、これで十分なデータが得られたな。
+いよいよ大詰めってわけだ。"
+92,"TEXT_GAIUSB401_00857_RHITAHTYN_000_076","(-？？？？-)お前が造っている例の玩具……。
+本当に、想定どおりの力があるのだろうな？"
+93,"TEXT_GAIUSB401_00857_NERO_000_077","リットアティン、オレを誰だと思ってるンだ？
+この程度の蛮神なら、片手で捻り潰せるだろうぜ。
+脅威の存在ってヤツだ。"
+94,"TEXT_GAIUSB401_00857_NERO_000_078","それに、あの話が本当なら、
+エオルゼアを焼き尽くすことだってできる。
+……そうなンだろ、大将？"
+95,"TEXT_GAIUSB401_00857_LAHABREAEORZEA_000_079","無論だとも……。
+脅威の存在は、究極の存在へと昇華するであろう。"
+96,"TEXT_GAIUSB401_00857_RHITAHTYN_000_080","戦（いくさ）は数だ……。
+個の力が大局を左右するなど、信じられんわ。"
+97,"TEXT_GAIUSB401_00857_NERO_000_081","それを可能にしちまうンだよ。
+オレの「玩具」はな。"
+98,"TEXT_GAIUSB401_00857_RHITAHTYN_000_082","フン……。
+どうにも好かんな。"
+99,"TEXT_GAIUSB401_00857_LAHABREAANCIENT_000_083","<UIForeground>F20223</UIForeground>俗物が……。<UIForeground>01</UIForeground>"
+100,"TEXT_GAIUSB401_00857_LAHABREAANCIENT_000_084","<UIForeground>F20223</UIForeground>これで4属性目の光のクリスタルか。
+……面白い。<UIForeground>01</UIForeground>"
+101,"TEXT_GAIUSB401_00857_LAHABREAANCIENT_000_085","<UIForeground>F20223</UIForeground>ハイデリンの使徒よ……。
+せいぜい、利用させてもらうとしよう。<UIForeground>01</UIForeground>"
+102,"TEXT_GAIUSB401_00857_YSHTOLA_000_086","エーテルの痕跡を残さずに転移した……？
+まさか、今のは「エスケプ」なの？"
+103,"TEXT_GAIUSB401_00857_YSHTOLA_000_087","時空転移の魔法を軽々と使うだなんて。
+……あの存在、間違いなく「アシエン」ね。"
+104,"TEXT_GAIUSB401_00857_YSHTOLA_000_088","……そして、ここにも帝国の陰。
+まさか手を組んでいるとは思わなかったわ。"
+105,"TEXT_GAIUSB401_00857_YSHTOLA_000_089","いったい、何を考えているのかしら。
+少し探りを入れたほうがよさそうね……。"
+106,"TEXT_GAIUSB401_00857_YSHTOLA_000_090","蛮神「タイタン」を倒したのね。
+無事でよかったわ……。"
+107,"TEXT_GAIUSB401_00857_YSHTOLA_000_091","ここに来る道中で、ちょっとした罠を仕掛けてきたの。
+しばらくの間、コボルド族たちは身動きができないはず。
+今のうちに脱出しましょう。"
+108,"TEXT_GAIUSB401_00857_YSHTOLA_000_092","今なら、蛮神「タイタン」から放出されたエーテルで、
+ここへ来た蛮風エーテライトへ送り届けることができる。"
+109,"TEXT_GAIUSB401_00857_YSHTOLA_000_093","私は調査したいことがあるから、ここからは別行動よ。
+……すぐに戻るわ。
+「キャンプ・ブロンズレイク」で落ち合いましょう。"
+110,"TEXT_GAIUSB401_00857_YSHTOLA_000_030","……よかった、無事落ちあえたわね。
+ここまで来れば安心よ、お疲れさま。"
+111,"TEXT_GAIUSB401_00857_YSHTOLA_000_200","私はここに残って、蛮風エーテライトが機能するように、
+エーテルを送り続ける。
+飛んだ先は敵陣のど真ん中よ、気をつけて！"

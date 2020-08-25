@@ -1,8 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKZG024_03509_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Andri's furrowed brow suggests he has a predicament he is attempting to solve."
+0,"TEXT_LUCKZG024_03509_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+トゥワインのアンドリは、恋人に贈る指輪について困っているようだ。"
 1,"TEXT_LUCKZG024_03509_SEQ_01",""
 2,"TEXT_LUCKZG024_03509_SEQ_02",""
 3,"TEXT_LUCKZG024_03509_SEQ_03",""
@@ -26,8 +26,8 @@ Andri's furrowed brow suggests he has a predicament he is attempting to solve."
 21,"TEXT_LUCKZG024_03509_SEQ_21",""
 22,"TEXT_LUCKZG024_03509_SEQ_22",""
 23,"TEXT_LUCKZG024_03509_SEQ_23",""
-24,"TEXT_LUCKZG024_03509_TODO_00","Search at the specified location and obtain a banded gem."
-25,"TEXT_LUCKZG024_03509_TODO_01","Deliver the banded gem to Andri."
+24,"TEXT_LUCKZG024_03509_TODO_00","<Sheet(EObj,2010380,0)/>から<Sheet(EventItem,2002731,0)/>を入手"
+25,"TEXT_LUCKZG024_03509_TODO_01","アンドリに<Sheet(EventItem,2002731,0)/>を渡す"
 26,"TEXT_LUCKZG024_03509_TODO_02",""
 27,"TEXT_LUCKZG024_03509_TODO_03",""
 28,"TEXT_LUCKZG024_03509_TODO_04",""
@@ -50,24 +50,39 @@ Andri's furrowed brow suggests he has a predicament he is attempting to solve."
 45,"TEXT_LUCKZG024_03509_TODO_21",""
 46,"TEXT_LUCKZG024_03509_TODO_22",""
 47,"TEXT_LUCKZG024_03509_TODO_23",""
-48,"TEXT_LUCKZG024_03509_ANDRI_000_000","Why must all matters pertaining to romance be so very problematic? My lady friend has sadly left the windswept plains of Amh Araeng to seek a life of luxury, relatively speaking, in the Crystarium."
-49,"TEXT_LUCKZG024_03509_ANDRI_000_001","I fear that the passing of time may cause her heart to grow distant, so I plan to send a ring to serve as a symbol of our everlasting love."
-50,"TEXT_LUCKZG024_03509_ANDRI_000_002","I finally bought one with my hard-earned savings, only to discover later that a substantial crack runs along the surface of its otherwise beautiful banded gem. Rather than spend <Emphasis>another</Emphasis> fortune on a new ring or replacement stone, I struck upon an idea."
-51,"TEXT_LUCKZG024_03509_ANDRI_000_003","It would be far more economical to hire someone to retrieve a similar gem and affix it to the ring myself. And that, my friend, is where you come in. Any risk of injury in the mine will be far outweighed by the gil I offer as a reward, I assure you!"
-52,"TEXT_LUCKZG024_03509_ANDRI_000_010","The places in which such gems may be found are invariably fraught with danger. I would go myself, but I am afraid my...constitution makes such forays entirely out of the question."
-53,"TEXT_LUCKZG024_03509_ANDRI_000_020","Well? Have you found a gem that is sufficiently dazzling?"
-54,"TEXT_LUCKZG024_03509_ANDRI_000_021","Splendid! Simply gorgeous!"
-55,"TEXT_LUCKZG024_03509_ANDRI_000_022","I hope you did not encounter any dangers while searching for it. I hear these are produced by gnomes, and you can tell their age from the number of stripes on the stones they drop."
-56,"TEXT_LUCKZG024_03509_ANDRI_000_023","Unfortunately, attempting to slay one of the brutes is likely to damage the precious gems that appear from its rocky hide. It is better and safer to retrieve those that have fallen naturally."
-57,"TEXT_LUCKZG024_03509_ANDRI_000_024","In other words, where you find these stones, you will also encounter gnomes, hence my reluctance to hunt for one myself."
-58,"TEXT_LUCKZG024_03509_ANDRI_000_025","I am positive my lady friend will be pleased to receive such a wonderful gift. And as agreed, here is payment for your exemplary efforts."
-59,"TEXT_LUCKZG024_03509_CONSULTATION03509_000_000",""
-60,"TEXT_LUCKZG024_03509_CONSULTATION03509_000_001",""
-61,"TEXT_LUCKZG024_03509_CONSULTATION03509_000_002",""
-62,"TEXT_LUCKZG024_03509_CONSULTATION03509_000_003",""
-63,"TEXT_LUCKZG024_03509_CONSULTATION03509_000_010",""
-64,"TEXT_LUCKZG024_03509_CONSULTATION03509_000_020",""
-65,"TEXT_LUCKZG024_03509_CONSULTATION03509_000_021",""
-66,"TEXT_LUCKZG024_03509_CONSULTATION03509_000_022",""
-67,"TEXT_LUCKZG024_03509_CONSULTATION03509_000_024",""
-68,"TEXT_LUCKZG024_03509_CONSULTATION03509_000_025",""
+48,"TEXT_LUCKZG024_03509_ANDRI_000_000","クリスタリウムへ行った恋人へ贈り物をしたくてね。
+どうにか苦心して貯金して、モルド族の行商人から、
+ナバスアレンの遺構から掘り出したっていう指輪を買ったんだ。"
+49,"TEXT_LUCKZG024_03509_ANDRI_000_001","だけど困ったことに、その指輪の石にヒビが入っていてさ。
+このままじゃ彼女に贈れないだろう？
+だから、自分で石を取り替えようと思ったんだ。"
+50,"TEXT_LUCKZG024_03509_ANDRI_000_002","ただ、高価な宝石は買えそうにない……。
+そこで、旅人さんに手を貸してほしい。"
+51,"TEXT_LUCKZG024_03509_ANDRI_000_003","ビラン大鉱山へ行って、
+「<Sheet(EventItem,2002731,0)/>」を拾ってきてほしいんだ。
+危険な場所だけど、お礼はするから頼んだよ！"
+52,"TEXT_LUCKZG024_03509_ANDRI_000_010","ビラン大鉱山へ行って、
+「<Sheet(EventItem,2002731,0)/>」を拾ってきてくれないか？
+危険な場所だけど、お礼はするから頼んだよ！"
+53,"TEXT_LUCKZG024_03509_ANDRI_000_020","「<Sheet(EventItem,2002731,0)/>」は採ってこれたかい？"
+54,"TEXT_LUCKZG024_03509_ANDRI_000_021","……きれいな縞模様だ。
+この石は、ノームから自然に剥落した石なんだよ。"
+55,"TEXT_LUCKZG024_03509_ANDRI_000_022","鉱石を食べて成長するノームの体表は、
+木の年輪のように、縞模様ができるんだ。"
+56,"TEXT_LUCKZG024_03509_ANDRI_000_023","繊細なんで、戦って倒すと縞模様も崩れるけど、
+自然に剥落したものを丁寧に磨き上げると、
+独特の輝きを帯びるのさ。"
+57,"TEXT_LUCKZG024_03509_ANDRI_000_024","ありがとう、これで彼女に指輪を贈れそうだ。
+指輪に添える手紙には、君のことも書いておくよ。"
+58,"TEXT_LUCKZG024_03509_ANDRI_000_025","彼女は旅人のことが好きだからね。
+きっとうらやましがるだろうな！"
+59,"TEXT_LUCKZG024_03509_CONSULTATION03509_000_000","（★未使用／削除予定★）"
+60,"TEXT_LUCKZG024_03509_CONSULTATION03509_000_001","（★未使用／削除予定★）"
+61,"TEXT_LUCKZG024_03509_CONSULTATION03509_000_002","（★未使用／削除予定★）"
+62,"TEXT_LUCKZG024_03509_CONSULTATION03509_000_003","（★未使用／削除予定★）"
+63,"TEXT_LUCKZG024_03509_CONSULTATION03509_000_010","（★未使用／削除予定★）"
+64,"TEXT_LUCKZG024_03509_CONSULTATION03509_000_020","（★未使用／削除予定★）"
+65,"TEXT_LUCKZG024_03509_CONSULTATION03509_000_021","（★未使用／削除予定★）"
+66,"TEXT_LUCKZG024_03509_CONSULTATION03509_000_022","（★未使用／削除予定★）"
+67,"TEXT_LUCKZG024_03509_CONSULTATION03509_000_024","（★未使用／削除予定★）"
+68,"TEXT_LUCKZG024_03509_CONSULTATION03509_000_025","（★未使用／削除予定★）"

@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB315_00856_SEQ_00","Wheiskaet truly intends to tell you how you may face Titan this time."
-1,"TEXT_GAIUSB315_00856_SEQ_01","In order to face Titan, Wheiskaet bids you travel to Bronze Lake in upper La Noscea, where you must meet with a man named Riol. As Riol's knowledge is a closely guarded secret, he will not even emerge to meet you until you have given the correct signal. Whistle loudly at the three locations marked on your map."
-2,"TEXT_GAIUSB315_00856_SEQ_02","Your whistling carries for malms across Bronze Lake, and you have no reason to believe Riol did not hear it. Go to the designated meeting point and speak with Riol if he is present."
-3,"TEXT_GAIUSB315_00856_SEQ_03","Before beginning his explanation, Riol asks for your undivided attention, as he does not wish to repeat himself. When you are ready to listen carefully, ask him to proceed."
+0,"TEXT_GAIUSB315_00856_SEQ_00","コスタ・デル・ソルのヴェイスケートは冒険者にタイタンの情報を教えたいようだ。"
+1,"TEXT_GAIUSB315_00856_SEQ_01","タイタンのところに行くには「ある物」が必要らしい。ヴェイスケートの部下リオルに会うため、ブロンズレイクに3箇所ある「<Sheet(EObj,2002083,0)/>」で、口笛を吹こう。"
+2,"TEXT_GAIUSB315_00856_SEQ_02","3箇所で口笛を吹いた。キャンプ・ブロンズレイクの一番高い所に現れた「リオル」に話しかけよう。"
+3,"TEXT_GAIUSB315_00856_SEQ_03","リオルと無事会うことができた。リオルが調査しておいたと言う「ある物」とは、一体何なのだろうか。"
 4,"TEXT_GAIUSB315_00856_SEQ_04",""
 5,"TEXT_GAIUSB315_00856_SEQ_05",""
 6,"TEXT_GAIUSB315_00856_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSB315_00856_SEQ_21",""
 22,"TEXT_GAIUSB315_00856_SEQ_22",""
 23,"TEXT_GAIUSB315_00856_SEQ_23",""
-24,"TEXT_GAIUSB315_00856_TODO_00","Whistle loudly at the designated locations."
-25,"TEXT_GAIUSB315_00856_TODO_01","Speak with Riol."
+24,"TEXT_GAIUSB315_00856_TODO_00","キャンプ・ブロンズレイクの指定地点で口笛を吹く"
+25,"TEXT_GAIUSB315_00856_TODO_01","リオルと話す"
 26,"TEXT_GAIUSB315_00856_TODO_02",""
 27,"TEXT_GAIUSB315_00856_TODO_03",""
 28,"TEXT_GAIUSB315_00856_TODO_04",""
@@ -49,12 +49,21 @@ int32,str,str
 45,"TEXT_GAIUSB315_00856_TODO_21",""
 46,"TEXT_GAIUSB315_00856_TODO_22",""
 47,"TEXT_GAIUSB315_00856_TODO_23",""
-48,"TEXT_GAIUSB315_00856_WHEISKAET_000_000","You must be eager to face Titan. As promised, we will show you the way."
-49,"TEXT_GAIUSB315_00856_WHEISKAET_000_001","Travel to Bronze Lake in upper La Noscea. There you will meet with Riol, another man who once served with the Company."
-50,"TEXT_GAIUSB315_00856_WHEISKAET_000_002","To ensure that this knowledge does not fall into the wrong hands, he will remain in hiding until you have given the correct signal."
-51,"TEXT_GAIUSB315_00856_WHEISKAET_000_003","Give me your map. You must whistle loudly at the three locations I mark. Only then will he appear to meet you at this fourth location. I realize this may seem excessive now, but you will see that it is more than reasonable once you comprehend the risks inherent in our method."
-52,"TEXT_GAIUSB315_00856_DUMMY_000_010",""
-53,"TEXT_GAIUSB315_00856_DUMMY_000_011",""
-54,"TEXT_GAIUSB315_00856_DUMMY_000_012",""
-55,"TEXT_GAIUSB315_00856_RIOL_000_020","Greetin's, <If(PlayerParameter(4))>lass<Else/>mate</If>. Might you be the one the cap'n said would come callin'?"
-56,"TEXT_GAIUSB315_00856_RIOL_000_021","Aye, I thought so. Pay attention, now, 'cause I ain't explainin' meself twice."
+48,"TEXT_GAIUSB315_00856_WHEISKAET_000_000","「五傑衆」が承認を出したんだ、
+約束どおり、蛮神「タイタン」のもとへ行く方法を教えよう。"
+49,"TEXT_GAIUSB315_00856_WHEISKAET_000_001","オ・ゴモロ山の火口に乗り込むには、
+「ある物」を探さなきゃいけねぇ。
+だが安心しな、俺の元部下「リオル」が調査にあたっている。"
+50,"TEXT_GAIUSB315_00856_WHEISKAET_000_002","「ブロンズレイク」のあちこちで「口笛」を吹け。
+三ツ笛……それが「海雄旅団」の合図だ。
+ブロンズレイクの一番高いところにリオルが来てくれるさ。"
+51,"TEXT_GAIUSB315_00856_WHEISKAET_000_003","ブロンズレイクは、ワインポートを北に抜けた先にある。
+気をつけていくんだぜ。"
+52,"TEXT_GAIUSB315_00856_DUMMY_000_010","ブロンズレイクの指定地点で口笛を吹く×３"
+53,"TEXT_GAIUSB315_00856_DUMMY_000_011","ブロンズレイクの指定地点で口笛を吹く×３"
+54,"TEXT_GAIUSB315_00856_DUMMY_000_012","ブロンズレイクの指定地点で口笛を吹く×３"
+55,"TEXT_GAIUSB315_00856_RIOL_000_020","お前が、副団長が言っていた冒険者か。
+ヴェイスケート副団長から連絡があったんだ。
+三ツ笛で呼び出されるなんざ、久しぶりだぜ。"
+56,"TEXT_GAIUSB315_00856_RIOL_000_021","オ・ゴモロ山の火口に乗り込む、入り口のことだな？
+任せろ、とっくに調査済みさ。"

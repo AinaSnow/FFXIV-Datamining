@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSA907_00802_SEQ_00","Tyoh Moui would grant you passage through the White Wolf Gate."
-1,"TEXT_GAIUSA907_00802_SEQ_01","In recognition of your recent exploits, Serpent Corporal Tyoh Moui has opened the White Wolf Gate to you. To seek passage, show your gate pass to the gatekeeper, Franchemontiaux."
-2,"TEXT_GAIUSA907_00802_SEQ_02","With the presentation of your gate pass, you have been granted free passage through the White Wolf Gate. Any time you wish to pass, you need only speak to Franchemontiaux."
+0,"TEXT_GAIUSA907_00802_SEQ_00","チョ・モーイ牙兵長は、白狼門の通行許可を出してくれるようだ。"
+1,"TEXT_GAIUSA907_00802_SEQ_01","冒険者の活躍を聞いたチョ・モーイ牙兵長は、白狼門の通行許可を出してくれた。白狼門の「フランシュモンティオ」に「<Sheet(EventItem,2000791,0)/>」を渡そう。"
+2,"TEXT_GAIUSA907_00802_SEQ_02","白狼門を使えるようになった。白狼門を使いたいときは、フランシュモンティオに声をかけよう。"
 3,"TEXT_GAIUSA907_00802_SEQ_03",""
 4,"TEXT_GAIUSA907_00802_SEQ_04",""
 5,"TEXT_GAIUSA907_00802_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_GAIUSA907_00802_SEQ_21",""
 22,"TEXT_GAIUSA907_00802_SEQ_22",""
 23,"TEXT_GAIUSA907_00802_SEQ_23",""
-24,"TEXT_GAIUSA907_00802_TODO_00","Speak with Franchemontiaux."
+24,"TEXT_GAIUSA907_00802_TODO_00","フランシュモンティオと話す"
 25,"TEXT_GAIUSA907_00802_TODO_01",""
 26,"TEXT_GAIUSA907_00802_TODO_02",""
 27,"TEXT_GAIUSA907_00802_TODO_03",""
@@ -49,9 +49,17 @@ int32,str,str
 45,"TEXT_GAIUSA907_00802_TODO_21",""
 46,"TEXT_GAIUSA907_00802_TODO_22",""
 47,"TEXT_GAIUSA907_00802_TODO_23",""
-48,"TEXT_GAIUSA907_00802_TYOHMOUI_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, is it not? I've been following your exploits with great interest."
-49,"TEXT_GAIUSA907_00802_TYOHMOUI_000_001","You have served <Switch(PlayerParameter(70))><Case(1)>Limsa Lominsa</Case><Case(2)>Gridania</Case><Case(3)>Ul'dah</Case></Switch> well, but I believe your greatest accomplishments are yet to come. It is with such lofty expectations that I would grant you passage beyond <Switch(PlayerParameter(70))><Case(1)>Gridania's own</Case><Case(2)>our</Case><Case(3)>Gridania's own</Case></Switch> White Wolf Gate."
-50,"TEXT_GAIUSA907_00802_TYOHMOUI_000_002","Take this pass and show it to Franchemontiaux, the gatekeeper. Gird yourself well for the battles to come, and I am sure that news of your deeds will reach me again before long."
-51,"TEXT_GAIUSA907_00802_FRANCHEMONTIAUX_000_020","Only those who possess a gate pass may travel through the White Wolf Gate. It is for your own good: the fearsome beasts that lurk beyond would tear an unprepared adventurer limb from limb."
-52,"TEXT_GAIUSA907_00802_FRANCHEMONTIAUX_000_021","You have papers? Let us see, now... Yes, everything appears to be in order."
-53,"TEXT_GAIUSA907_00802_FRANCHEMONTIAUX_000_022","Go in safety, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. In the future, should you wish to pass, you need only say the word."
+48,"TEXT_GAIUSA907_00802_TYOHMOUI_000_000","あなたは、冒険者<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>ですね？
+貴方の活躍は、多方面より聞いております。"
+49,"TEXT_GAIUSA907_00802_TYOHMOUI_000_001","今後もグリダニアで活躍していただくために、
+貴方に白狼門（はくろうもん）の通行を認めましょう。"
+50,"TEXT_GAIUSA907_00802_TYOHMOUI_000_002","こちらの「<Sheet(EventItem,2000791,0)/>」をお持ちなさい。
+これを白狼門の「フランシュモンティオ」に渡せば、
+通行許可が下りるでしょう。"
+51,"TEXT_GAIUSA907_00802_FRANCHEMONTIAUX_000_020","白狼門の先は危険な魔物が多い。
+もし、この門を通りたいのであれば、
+<Sheet(EventItem,2000791,0)/>を持ってくるがいい。"
+52,"TEXT_GAIUSA907_00802_FRANCHEMONTIAUX_000_021","これは<Sheet(EventItem,2000791,0)/>……。
+双蛇党から通行許可が下りたのだな、よろしい。"
+53,"TEXT_GAIUSA907_00802_FRANCHEMONTIAUX_000_022","冒険者<Highlight>ObjectParameter(1)</Highlight>よ。
+以後、白狼門の先に用がある際は、私に声をかけるがよい。"

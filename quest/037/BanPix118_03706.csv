@@ -1,9 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANPIX118_03706_SEQ_00","Uin Nee hopes to make waves in Lyhe Mheg.
+0,"TEXT_BANPIX118_03706_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト受注クラス・ジョブ制限<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+※本クエストは受注時のクラス・ジョブでのみ進行します。
 
-※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
+リダ・ラーンのウィン＝ニイは、何やら思いついたことがあるようだ。"
 1,"TEXT_BANPIX118_03706_SEQ_01",""
 2,"TEXT_BANPIX118_03706_SEQ_02",""
 3,"TEXT_BANPIX118_03706_SEQ_03",""
@@ -27,8 +28,9 @@ int32,str,str
 21,"TEXT_BANPIX118_03706_SEQ_21",""
 22,"TEXT_BANPIX118_03706_SEQ_22",""
 23,"TEXT_BANPIX118_03706_SEQ_23",""
-24,"TEXT_BANPIX118_03706_TODO_00","Survey the designated location northeast of Phisor Lran and obtain an icewater undine heart from an icewater undine."
-25,"TEXT_BANPIX118_03706_TODO_01","Deliver the icewater undine heart to Uin Nee."
+24,"TEXT_BANPIX118_03706_TODO_00","フィソー・ラーン北東の<Sheet(EObj,2010905,0)/>で見渡し、
+現れた<Sheet(BNpcName,9169,0)/>から<Sheet(EventItem,2002940,0)/>を入手"
+25,"TEXT_BANPIX118_03706_TODO_01","ウィン＝ニイに<Sheet(EventItem,2002940,0)/>を渡す"
 26,"TEXT_BANPIX118_03706_TODO_02",""
 27,"TEXT_BANPIX118_03706_TODO_03",""
 28,"TEXT_BANPIX118_03706_TODO_04",""
@@ -51,11 +53,21 @@ int32,str,str
 45,"TEXT_BANPIX118_03706_TODO_21",""
 46,"TEXT_BANPIX118_03706_TODO_22",""
 47,"TEXT_BANPIX118_03706_TODO_23",""
-48,"TEXT_BANPIX118_03706_UINNEE_000_000","Do you know who I feel sorry for? The children of Amh Araeng. Why? Because water is so precious there, they can barely have enough for a bath, let alone play games like “Dunk the Witch” or “Bismarck's Bluff”!"
-49,"TEXT_BANPIX118_03706_UINNEE_000_001","Luckily for them, I've come up with another one of my ingenious plans! We're going to fill Lyhe Mheg with water!"
-50,"TEXT_BANPIX118_03706_UINNEE_000_002","That way, the children have the time of their lives, and we pixies will be able to splish and splash to our hearts' content without being pestered by those pesky Fuath."
-51,"TEXT_BANPIX118_03706_UINNEE_000_003","All we need is an icewater undine heart. Once I've worked my magic on it, we'll have rivers and waterfalls galore! Naturally, you'll be the one collecting the heart, though I doubt its owner will be too happy to part with it. Don't worry, you <Emphasis>probably</Emphasis> won't be horribly killed!"
-52,"TEXT_BANPIX118_03706_UINNEE_000_010","Did you manage to steal an icewater undine's heart? Literally, I mean."
-53,"TEXT_BANPIX118_03706_UINNEE_000_011","Ooh, a fine specimen! With this, we can create all the water we need!"
-54,"TEXT_BANPIX118_03706_UINNEE_000_012","Soon, Lyhe Mheg will be filled with the sounds of children's laughter as they splash and swim and drag each other into the depths, just like the Fuath! It's only a dream, so it's all perfectly safe, unless the rumor about “if you die in your dreams, you die in real life” is true...
-I might have to check that at some point, actually."
+48,"TEXT_BANPIX118_03706_UINNEE_000_000","アム・アレーンの子から聞いたんだけれど、
+あそこは、水がとっても貴重なところなんですって。
+だから、子どもたちは水遊びもしたことがないそうなのよ。"
+49,"TEXT_BANPIX118_03706_UINNEE_000_001","ぜひとも、アム・アレーンの子どもたちの夢の中に、
+たくさん水を持ち込んで、水遊びをさせてあげたいわ！"
+50,"TEXT_BANPIX118_03706_UINNEE_000_002","そうすれば、ワタシたちも、フーア族にイジワルされずに、
+自由に水遊びができるし、まさに一石二鳥よね？
+そこで、アナタにお願いしたいの。"
+51,"TEXT_BANPIX118_03706_UINNEE_000_003","フィソー・ラーン北東で、
+「<Sheet(BNpcName,9169,0)/>」を探して、倒して！
+その心核があれば、夢の中に水を湧き出させられるのよ！"
+52,"TEXT_BANPIX118_03706_UINNEE_000_010","「<Sheet(EventItem,2002940,0)/>」、取ってきてもらえたかしら？"
+53,"TEXT_BANPIX118_03706_UINNEE_000_011","うんうん、バッチリ、ありがとねっ！
+これで、子どもたちの夢の中を、水でいっぱいにすれば、
+思う存分水遊びができるわ！"
+54,"TEXT_BANPIX118_03706_UINNEE_000_012","みんなでチャプチャプ泳いだり、プカプカ浮いたり……
+水に引きずり込んで、フーア族ごっこするのもいいわね！
+とっても、楽しみだわ～♪"

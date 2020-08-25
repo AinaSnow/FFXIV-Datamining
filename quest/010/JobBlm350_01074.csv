@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_JOBBLM350_01074_SEQ_00","Lalai at Milvaneth Sacrarium has guidance for those seeking the black."
-1,"TEXT_JOBBLM350_01074_SEQ_01","You learn from Lalai that when a new light shines from the black mage's testimony you carry, you are to obtain the key to reseal the voidgate. To fulfill this prophecy, you must travel to the Sagolii Desert in southern Thanalan, and slay the fiends that emerge from the planar fissure. After having done so, collect their blood to use it as a sacrifice."
-2,"TEXT_JOBBLM350_01074_SEQ_02","You have obtained yet another vial of voidsent blood. Pour it into the planar fissure that yet remains."
-3,"TEXT_JOBBLM350_01074_SEQ_03","You have poured the sacrificial voidsent blood into the planar fissure. Take word of your feat back to Lalai at Milvaneth Sacrarium."
-4,"TEXT_JOBBLM350_01074_SEQ_04","Lalai explains that your skill in the dark arts must be tempered further before the next task can be laid before you. Continue your training so that you will be prepared when the next challenge comes.
+0,"TEXT_JOBBLM350_01074_SEQ_00","ミルバネス礼拝堂のラライは冒険者に連絡があるようだ。"
+1,"TEXT_JOBBLM350_01074_SEQ_01","ラライから依頼を受けた。南ザナラーンのサゴリー砂漠の南東にある「<Sheet(EObj,2002430,0)/>」を調べ、現れた妖異を討伐し、「<Sheet(EventItem,2000809,0)/>」を入手しよう。"
+2,"TEXT_JOBBLM350_01074_SEQ_02","<Sheet(EventItem,2000809,0)/>を入手した。南ザナラーンのサゴリー砂漠の南東にある「<Sheet(EObj,2002430,0)/>」に「<Sheet(EventItem,2000809,0)/>」を刻もう。"
+3,"TEXT_JOBBLM350_01074_SEQ_03","<Sheet(EObj,2002430,0)/>に<Sheet(EventItem,2000809,0)/>を刻んだ。ウルダハのミルバネス礼拝堂にいる「ラライ」に報告しよう。"
+4,"TEXT_JOBBLM350_01074_SEQ_04","ラライに報告した。冒険者の身に宿った黒魔法が馴染むまでしばらくかかるので、しばらく鍛錬を積んでから自分のところを訪れるよう、ラライは語った。
 
-※The next black mage quest will be available from Lalai upon reaching level 40."
+※黒魔道士のレベルが40以上になると、ラライから次の黒魔道士クエストを受注することができます。"
 5,"TEXT_JOBBLM350_01074_SEQ_05",""
 6,"TEXT_JOBBLM350_01074_SEQ_06",""
 7,"TEXT_JOBBLM350_01074_SEQ_07",""
@@ -27,9 +27,9 @@ int32,str,str
 21,"TEXT_JOBBLM350_01074_SEQ_21",""
 22,"TEXT_JOBBLM350_01074_SEQ_22",""
 23,"TEXT_JOBBLM350_01074_SEQ_23",""
-24,"TEXT_JOBBLM350_01074_TODO_00","Investigate the planar fissure in the Sagolii Desert and procure the blood of any fiends that emerge."
-25,"TEXT_JOBBLM350_01074_TODO_01","Pour the voidsent blood into the planar fissure."
-26,"TEXT_JOBBLM350_01074_TODO_02","Report to Lalai at Milvaneth Sacrarium."
+24,"TEXT_JOBBLM350_01074_TODO_00","サゴリー砂漠の<Sheet(EObj,2002430,0)/>を調べ妖異を討伐し、<Sheet(EventItem,2000809,0)/>を入手"
+25,"TEXT_JOBBLM350_01074_TODO_01","<Sheet(EObj,2002430,0)/>に<Sheet(EventItem,2000809,0)/>を刻む"
+26,"TEXT_JOBBLM350_01074_TODO_02","ミルバネス礼拝堂のラライに報告"
 27,"TEXT_JOBBLM350_01074_TODO_03",""
 28,"TEXT_JOBBLM350_01074_TODO_04",""
 29,"TEXT_JOBBLM350_01074_TODO_05",""
@@ -51,16 +51,33 @@ int32,str,str
 45,"TEXT_JOBBLM350_01074_TODO_21",""
 46,"TEXT_JOBBLM350_01074_TODO_22",""
 47,"TEXT_JOBBLM350_01074_TODO_23",""
-48,"TEXT_JOBBLM350_01074_LALAI_000_000","I sense the black magic within you has grown stronger, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. You have earned the right of my audience."
-49,"TEXT_JOBBLM350_01074_LALAI_000_001","I am pleased to see that you do not fear your newfound powers. But then, you adventurers were ever wont to embrace the new."
-50,"TEXT_JOBBLM350_01074_LALAI_000_002","You are now ready to set forth on your journey─to find the keys required to seal the voidgate. Hear me well, for mine are Master's own words, and his those of Nald'thal Himself."
-51,"TEXT_JOBBLM350_01074_LALAI_000_003","..."
-52,"TEXT_JOBBLM350_01074_LALAI_000_004","“The next key requires the blood of sacrifice."
-53,"TEXT_JOBBLM350_01074_LALAI_000_005","“Travel to the Sagolii Desert in southern Thanalan. Slay what fiends emerge from the planar fissure there, and slake the land's thirst with their lifeblood."
-54,"TEXT_JOBBLM350_01074_LALAI_000_006","“Once drunk, its essence shall be borne away upon the aetherial veins of the earth, and thence serve to notify our friends in the wastelands that the time has come."
-55,"TEXT_JOBBLM350_01074_LALAI_000_007","“Complete the task before you, and the black mage testimony you carry will shine full with a new light. Light to envelop and absorb evil. Light to show you destruction and guide you to righteousness. This light is the key. Take it into you, where it will forever burn bright.” "
-56,"TEXT_JOBBLM350_01074_LALAI_000_008","...That is all. Do you understand and accept what you must do?"
-57,"TEXT_JOBBLM350_01074_LALAI_000_010","It is done, then. But the blackness you have awoken has yet to settle within you. Time is needed, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Pray be patient."
-58,"TEXT_JOBBLM350_01074_LALAI_000_011","Continue to practice your mastery of the arcane, and come to me once more when the dark art is as much you as you it."
-59,"TEXT_JOBBLM350_01074_SYSTEM_000_012","The next black mage quest will be available from Lalai upon reaching level 40."
-60,"TEXT_JOBBLM350_01074_POP_MESSAGE","You sense a hostile presence!"
+48,"TEXT_JOBBLM350_01074_LALAI_000_000","黒魔道士<Highlight>ObjectParameter(1)</Highlight>。
+よくぞ参られました。"
+49,"TEXT_JOBBLM350_01074_LALAI_000_001","得体の知れぬ力の目覚めに、
+恐れをなして逃げ出すかと思いましたが……。
+なかなかどうして、神経が図太いご様子。"
+50,"TEXT_JOBBLM350_01074_LALAI_000_002","「ヴォイドゲート」を閉ざすがため、
+新たなカギを手に入れる旅の支度が、整ったようですね。
+……では、ククルカ様からのお言葉をお伝えしましょう。"
+51,"TEXT_JOBBLM350_01074_LALAI_000_003","……。"
+52,"TEXT_JOBBLM350_01074_LALAI_000_004","「ヴォイドゲート」を閉ざすための……新たなカギ……
+次なる「黒魔法」を会得せよ……。"
+53,"TEXT_JOBBLM350_01074_LALAI_000_005","南ザナラーン「サゴリー砂漠」の南東にて……
+「<Sheet(EObj,2002430,0)/>」から現れた妖異を倒し、
+大地にその血を刻みこめ……。"
+54,"TEXT_JOBBLM350_01074_LALAI_000_006","その血は、大地を脈々と流れるエーテルを伝い……
+荒野にて待つ、いまだ見ぬ友に「時」を告げるだろう……。"
+55,"TEXT_JOBBLM350_01074_LALAI_000_007","務めを果たしたとき、「<Sheet(Item,　4548,0)/>」に光が満ちる。
+破壊を知りて、正しきを導く光……
+「ヴォイドゲート」を閉ざすカギが、そなたに刻まれよう。"
+56,"TEXT_JOBBLM350_01074_LALAI_000_008","……以上です。
+あなたの務め、理解いたしましたか？"
+57,"TEXT_JOBBLM350_01074_LALAI_000_010","よくぞ務めを果たされました。
+ですが、目覚めた黒魔法がその身に馴染むまで、
+いましばらくの時間を要するはず。"
+58,"TEXT_JOBBLM350_01074_LALAI_000_011","しばし鍛錬を積み、また私を訪れなされよ。
+そのときまで、さらばでございます、
+黒魔道士<Highlight>ObjectParameter(1)</Highlight>……。"
+59,"TEXT_JOBBLM350_01074_SYSTEM_000_012","黒魔道士のレベルが40以上になると、
+ラライから次の黒魔道士クエストを受注することができます。"
+60,"TEXT_JOBBLM350_01074_POP_MESSAGE","敵の気配を感じた！！"

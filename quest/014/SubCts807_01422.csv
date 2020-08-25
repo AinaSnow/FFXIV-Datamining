@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBCTS807_01422_SEQ_00","Wiscard has a once-in-a-lifetime opportunity for you. How could you <Emphasis>possibly</Emphasis> pass it up?"
-1,"TEXT_SUBCTS807_01422_SEQ_01","Wiscard confides that there are energies at work in every action, which constrain him from seeking payment for a very valuable skill he would teach you. But of course, you are happy to perform a small errand for him in return, and deliver a letter to Rowena."
-2,"TEXT_SUBCTS807_01422_SEQ_02","Rowena receives the message with ill grace. Her facility for curses is impressive, but you are left wondering why anyone would fall into arrears with this daughter of the Fury. Your ears still ringing with invectives, return now to Wiscard."
-3,"TEXT_SUBCTS807_01422_SEQ_03","From Wiscard's reaction, you get an inkling of what all this talk of energy exchange might mean, and ponder over public persona and private predilections. Rather than go down this primrose path, it might be best to simply purchase whatever tomes from Tataroga you find desirable; only then can you learn the master crafting recipes held within..."
+0,"TEXT_SUBCTS807_01422_SEQ_00","レヴナンツトールのウィスカードは、冒険者について気付いたことがあるようだ。"
+1,"TEXT_SUBCTS807_01422_SEQ_01","ウィスカードの頼みを聞けば、ミラージュプリズムの製法を教えてくれるらしい。レヴナンツトールの「ロウェナ」に「<Sheet(EventItem,2001239,0)/>」を渡そう。"
+2,"TEXT_SUBCTS807_01422_SEQ_02","ロウェナに<Sheet(EventItem,2001239,0)/>を渡した。レヴナンツトールの「ウィスカード」に報告しよう。"
+3,"TEXT_SUBCTS807_01422_SEQ_03","ウィスカードは、ロウェナの更に冷ややかな反応に大興奮していた。彼の使用人、タタロガから「秘伝書」を購入し、レシピを習得してみよう。"
 4,"TEXT_SUBCTS807_01422_SEQ_04",""
 5,"TEXT_SUBCTS807_01422_SEQ_05",""
 6,"TEXT_SUBCTS807_01422_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_SUBCTS807_01422_SEQ_21",""
 22,"TEXT_SUBCTS807_01422_SEQ_22",""
 23,"TEXT_SUBCTS807_01422_SEQ_23",""
-24,"TEXT_SUBCTS807_01422_TODO_00","Deliver the letter to Rowena."
-25,"TEXT_SUBCTS807_01422_TODO_01","Report to Wiscard."
+24,"TEXT_SUBCTS807_01422_TODO_00","ロウェナに<Sheet(EventItem,2001239,0)/>を渡す"
+25,"TEXT_SUBCTS807_01422_TODO_01","ウィスカードと話す"
 26,"TEXT_SUBCTS807_01422_TODO_02",""
 27,"TEXT_SUBCTS807_01422_TODO_03",""
 28,"TEXT_SUBCTS807_01422_TODO_04",""
@@ -49,21 +49,50 @@ int32,str,str
 45,"TEXT_SUBCTS807_01422_TODO_21",""
 46,"TEXT_SUBCTS807_01422_TODO_22",""
 47,"TEXT_SUBCTS807_01422_TODO_23",""
-48,"TEXT_SUBCTS807_01422_WISCARD_000_000","Let me guess─no, not guess─let me <Emphasis>tell</Emphasis> you why you're not happy. You, <If(PlayerParameter(4))>sister<Else/>brother</If> adventurer, are not fulfilling your potential as a crafter!"
-49,"TEXT_SUBCTS807_01422_WISCARD_000_001","Now, what I'm going to do is teach you how to craft a glamour prism. And I will not accept a single gil. Do you know why? Bad energy!"
-50,"TEXT_SUBCTS807_01422_WISCARD_000_002","...No doubt you are ill at ease accepting such a valuable gift without lifting a finger in return. Well, if you feel you <Emphasis>must</Emphasis> do something, you can take this letter to Rowena─with my undying love!"
-51,"TEXT_SUBCTS807_01422_WISCARD_000_009","Worry not! Just let my words be your guide once you stand before Rowena, her arms akimbo, her eyes scornful... Look, adventurer to adventurer, may I tell you something? I'm sure you'll go far in this world! Someday, you may be standing where I am, blazing trails and taking charge.
-Remember, every delivery is also a <Emphasis>deliverance</Emphasis>!"
-52,"TEXT_SUBCTS807_01422_ROWENA_000_010","You again, messenger <If(PlayerParameter(4))>girl<Else/>boy</If>? What do you want o' me now?"
-53,"TEXT_SUBCTS807_01422_ROWENA_000_011","Not that fool Wiscard again! Undyin' love, he says? In debt to me up to his neck, and writin' to beg for more time to repay... Hah! Not bloody likely!"
-54,"TEXT_SUBCTS807_01422_ROWENA_000_012","<sigh> Right delusional, that one. Plays at bein' a man, but he's no more than a worm. I'd spit in his eye and tell the world what a puddle o' piss he is, were he standin' before me!"
-55,"TEXT_SUBCTS807_01422_ROWENA_000_013","<Emphasis>Undyin</Emphasis>'s a good sort o' word, though. Tell him I'm doublin' his interest─his debt's goin' to live just about forever! As far as I'm concerned, he can crawl on all fours, lickin' up crumbs and scrabblin' for dropped gil."
-56,"TEXT_SUBCTS807_01422_ROWENA_000_014","What a fool. Got plenty o' good wares, but he won't get off his arse and turn 'em into profit. He could get square with me and then some, if he wanted to."
-57,"TEXT_SUBCTS807_01422_ROWENA_000_019","Tell him to fall into his pease porridge and die, for all I care. I'll sell off his corse to the resurrection men for a few coppers."
-58,"TEXT_SUBCTS807_01422_WISCARD_000_020","Hahaha, magnificent! I witnessed all! You might not have heard me, but I can assure you I was applauding the entire while!"
-59,"TEXT_SUBCTS807_01422_WISCARD_000_021","The cutting words, the enfeebling images! She raises excoriation to the realm of art. A realm...a dominion over which she rules with an iron hand, forcing her wretched subject to grovel in the dirt!"
-60,"TEXT_SUBCTS807_01422_WISCARD_000_022","That, my <If(PlayerParameter(4))>sister<Else/>brother</If> adventurer, is the secret! It's about balancing energies. Dark and light, high and low. But enough of philosophy─on to practical things! The making of glamour prisms you shall learn!"
-61,"TEXT_SUBCTS807_01422_WISCARD_000_023","...Though not from me. Alas, Mistress Rowena has yoked me to a truly backbreaking debt. She bids me get down to business, and that is what I must do."
-62,"TEXT_SUBCTS807_01422_WISCARD_000_024","But fear not! Everything you need to know about crafting the prism can be found in the tomes Tataroga deals in! And they can all be yours for a special low price! Don't let these deals pass you by!"
-63,"TEXT_SUBCTS807_01422_SYSTEM_000_030","You may now purchase master crafting tomes from Tataroga, as well as Goberin in Vesper Bay."
-64,"TEXT_SUBCTS807_01422_SYSTEM_100_030","By using the tomes, you can learn the recipes within."
+48,"TEXT_SUBCTS807_01422_WISCARD_000_000","おやおや、アナタは腕のいい職人でもあるようですね。
+洗練された冒険商人であるワガハイの目には、
+本物を見分ける力があるのですよ。"
+49,"TEXT_SUBCTS807_01422_WISCARD_000_001","そこで提案です……！
+ワガハイの役に立っていただけるのなら、
+「ミラージュプリズム」の製法をお教えしましょう。"
+50,"TEXT_SUBCTS807_01422_WISCARD_000_002","なになに、頼むのは簡単なシゴトです。
+愛しのロウェナ女史に「永遠の愛を込めて」と伝え、
+こちらの手紙を渡すだけでいいのですから……ネ？"
+51,"TEXT_SUBCTS807_01422_WISCARD_000_009","ロウェナ女史への配達、よろしくお願いしますよ？
+ウゥム……彼女がどんな顔をしてくれるか、
+楽しみでなりませんな！"
+52,"TEXT_SUBCTS807_01422_ROWENA_000_010","また、あたしに用？
+……今度はいったい、何だって言うのよ。"
+53,"TEXT_SUBCTS807_01422_ROWENA_000_011","またウィスカード？　今度は「永遠の愛を込めて」ですって？
+……まったく、あのド腐れペテン師にはヘドが出るわ！
+あんた、この手紙の内容を知っているの？"
+54,"TEXT_SUBCTS807_01422_ROWENA_000_012","これは、借金返済期限を延ばしてくれと泣きつく嘆願書よ。
+面と向かって頭を下げることもできないなんて……。"
+55,"TEXT_SUBCTS807_01422_ROWENA_000_013","どうやら「永遠」がお好きなようだから、
+永遠の借金地獄に叩き落として差し上げることにするわ。
+……そうね、借金の利率を倍にするって伝えておいて。"
+56,"TEXT_SUBCTS807_01422_ROWENA_000_014","あいつも、いい商材を持ってるんだから、
+売りさばいて、とっとと借金返せばいいのよ。
+そうすりゃ、あたしも利息で儲けられるってもんでしょ？"
+57,"TEXT_SUBCTS807_01422_ROWENA_000_019","ウィスカード……相変わらずのクズ野郎ね。
+付き合うだけ馬鹿らしいから、伝言、頼んだわよ。"
+58,"TEXT_SUBCTS807_01422_WISCARD_000_020","オゥ、オゥ、オゥ、ブラヴォォー！
+いえ、何も言う必要はありません……。
+ワガハイ、物陰から一部始終を見ていたのですから。"
+59,"TEXT_SUBCTS807_01422_WISCARD_000_021","激昂するロウェナ女史！
+まるで、胃を病んだモルボルが吐いた何かでも見るような、
+あの冷え切った侮蔑のまなざし！！"
+60,"TEXT_SUBCTS807_01422_WISCARD_000_022","ワガハイ、至高のご褒美を手にした気分です！
+……それでは次は、ワガハイが約束を果たすべきですな。
+教えましょう、「ミラージュプリズム」の秘伝製法を！"
+61,"TEXT_SUBCTS807_01422_WISCARD_000_023","……と、言いたいところですが、
+借金の利率が上がり、このままでは生きていけません。
+ロウェナ女史の言葉どおり、商売に励むとしましょう……。"
+62,"TEXT_SUBCTS807_01422_WISCARD_000_024","どうか「ミラージュプリズム」の
+製法を記した「秘伝書」を、購入してくださいっ！
+装備への永遠の愛を、その手につかむのです！"
+63,"TEXT_SUBCTS807_01422_SYSTEM_000_030","タタロガから「秘伝書」を購入可能になりました。
+入手した「秘伝書」を使うことで、その秘伝書に記された
+アイテムのレシピを習得し、製作できるようになります。"
+64,"TEXT_SUBCTS807_01422_SYSTEM_100_030","また、ベスパーベイにいる「ゴベリン」からも、
+タタロガと同様に「秘伝書」の購入が可能となりました。"

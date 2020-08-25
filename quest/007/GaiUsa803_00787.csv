@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSA803_00787_SEQ_00","Aideen has further knowledge of the mysterious deaths."
-1,"TEXT_GAIUSA803_00787_SEQ_01","Aideen tells you that all the victims thus far have been comely maidens. Rumors have arisen that, in death, their rancor has gone into a rock to the southwest, causing it to flash and moan. Hopeful for a clue, Aideen bids you use a firesand stick to blow off pieces of the rock, and then bring back the fragments for her to examine."
-2,"TEXT_GAIUSA803_00787_SEQ_02","You have used the firesand stick on the rock. Gather the lightning-aspected crystals that litter the area."
-3,"TEXT_GAIUSA803_00787_SEQ_03","You have gathered all of the lightning-aspected crystals. Return to Fallgourd Float and present them to Aideen."
-4,"TEXT_GAIUSA803_00787_SEQ_04","Aideen cannot hide her disappointment at your haul of lightning-aspected crystals. Unfortunately, your efforts did not serve to advance the investigation."
+0,"TEXT_GAIUSA803_00787_SEQ_00","フォールゴウドの山師アイディーンは、怪事件にまつわる噂をもうひとつ知っているようだ。"
+1,"TEXT_GAIUSA803_00787_SEQ_01","南西の岩場の大きな岩には、被害者である若い女性の怨念が集い、時折岩が光るという。噂の真偽をはかるため、南西の岩場の「<Sheet(EObj,2001983,0)/>」を<Sheet(EventItem,2000616,0)/>で爆破し、その破片を持って帰ろう。"
+2,"TEXT_GAIUSA803_00787_SEQ_02","<Sheet(EObj,2001983,0)/>を爆破した。「<Sheet(EventItem,2000617,0)/>」を拾い集めよう。"
+3,"TEXT_GAIUSA803_00787_SEQ_03","<Sheet(EventItem,2000617,0)/>をすべて拾い集めた。フォールゴウドのアイディーンに渡そう。"
+4,"TEXT_GAIUSA803_00787_SEQ_04","アイディーンに渡した石は、雷の属性を帯びたクリスタルだった。どうやら今回の情報も「仮面の男」には結びつかなかったようだ……。"
 5,"TEXT_GAIUSA803_00787_SEQ_05",""
 6,"TEXT_GAIUSA803_00787_SEQ_06",""
 7,"TEXT_GAIUSA803_00787_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_GAIUSA803_00787_SEQ_21",""
 22,"TEXT_GAIUSA803_00787_SEQ_22",""
 23,"TEXT_GAIUSA803_00787_SEQ_23",""
-24,"TEXT_GAIUSA803_00787_TODO_00","Throw the firesand stick at the rock."
-25,"TEXT_GAIUSA803_00787_TODO_01","Gather the lightning-aspected crystals."
-26,"TEXT_GAIUSA803_00787_TODO_02","Deliver the lightning-aspected crystals to Aideen."
+24,"TEXT_GAIUSA803_00787_TODO_00","<Sheet(EObj,2001983,0)/>に<Sheet(EventItem,2000616,0)/>を使う"
+25,"TEXT_GAIUSA803_00787_TODO_01","<Sheet(EventItem,2000617,0)/>を入手"
+26,"TEXT_GAIUSA803_00787_TODO_02","アイディーンに報告"
 27,"TEXT_GAIUSA803_00787_TODO_03",""
 28,"TEXT_GAIUSA803_00787_TODO_04",""
 29,"TEXT_GAIUSA803_00787_TODO_05",""
@@ -49,11 +49,22 @@ int32,str,str
 45,"TEXT_GAIUSA803_00787_TODO_21",""
 46,"TEXT_GAIUSA803_00787_TODO_22",""
 47,"TEXT_GAIUSA803_00787_TODO_23",""
-48,"TEXT_GAIUSA803_00787_AIDEEN_000_000","There's something else I heard about the deaths. It appears <Emphasis>all</Emphasis> the victims have been comely maidens. I'd better watch myself, eh!? Heh heh heh!"
-49,"TEXT_GAIUSA803_00787_AIDEEN_000_001","<sigh> Unseemly japes aside, there's a rumor been going around. There's some as whisper that, after each victim died, her rancor went into the great big rock southwest of here, causing it to flash and moan."
-50,"TEXT_GAIUSA803_00787_AIDEEN_000_002","This bears investigating, I reckon. I'm going to give you a firesand stick to blow off a piece of that crag. The stick doesn't come with a fuse or anything, so you'll have to <Emphasis>throw</Emphasis> the thing. Once you've torn the rock a new one, bring back some of the fragments, and I'll give them a gander."
-51,"TEXT_GAIUSA803_00787_DUMMY_000_010","(Use firesand on quest object.)"
-52,"TEXT_GAIUSA803_00787_DUMMY_000_020","(Pick up fragments.)"
-53,"TEXT_GAIUSA803_00787_AIDEEN_000_030","Most folk are too scared to go within a hundred yalms of the <Emphasis>Rock of Rancor</Emphasis>─aye, it has a name. But what's a few vengeful spirits to a dauntless adventurer like you, eh?"
-54,"TEXT_GAIUSA803_00787_AIDEEN_000_031","...Huh? Why, these are just your garden-variety crystals! 'Tis a bit hard to tell beneath all the dirt and grime, but they're definitely lightning-aspected."
-55,"TEXT_GAIUSA803_00787_AIDEEN_000_032","I almost hate to say it, but that explains the flashing and moaning. Nothing to do with the masked stranger. Looks like I've gone and wasted both your time <Emphasis>and</Emphasis> a perfectly good firesand stick. Oh, well..."
+48,"TEXT_GAIUSA803_00787_AIDEEN_000_000","怪事件にまつわる噂、もうひとつ知ってるよ。
+実はね、殺されたのは……みんな若い女の子なんだって！"
+49,"TEXT_GAIUSA803_00787_AIDEEN_000_001","南西の岩場に大きな岩があるんだけど、
+そこには、殺された少女たちの怨念が集うらしいの……。
+岩が光ったり、呻き声をあげてたって、山師の間で噂だよ。"
+50,"TEXT_GAIUSA803_00787_AIDEEN_000_002","この際だから、その岩をくわしく調べてみようよ！
+仕事で使う「<Sheet(EventItem,2000616,0)/>」を貸すから、
+岩をドカーンと砕いて、欠片を持ってきてほしいな！"
+51,"TEXT_GAIUSA803_00787_DUMMY_000_010","（指定地点に「爆薬」を使う）"
+52,"TEXT_GAIUSA803_00787_DUMMY_000_020","（飛び散った鉱石ＯＢＪにアクセスして取得する×５）"
+53,"TEXT_GAIUSA803_00787_AIDEEN_000_030","少女の怨念が集う岩……。
+気味が悪くて誰も近寄らなかったけど、
+恐れ知らずの冒険者によって、ついにドカーンだね！"
+54,"TEXT_GAIUSA803_00787_AIDEEN_000_031","なぁんだ、これ、偏属性クリスタルじゃない！
+表面が汚れてるから、気付かなかっただけかー。
+雷の属性を帯びたクリスタルが、光や音を発してたんだね。"
+55,"TEXT_GAIUSA803_00787_AIDEEN_000_032","うーん、「仮面の男」の事件とは関係ないかぁ。
+使い道がない偏属性クリスタルには買い手もつかないし、
+どうやら、骨折り損だったみたいだね……。"

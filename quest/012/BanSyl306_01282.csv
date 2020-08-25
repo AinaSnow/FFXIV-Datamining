@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANSYL306_01282_SEQ_00","Moxia laments what has become of the once-pristine forest."
-1,"TEXT_BANSYL306_01282_SEQ_01","Driven mad by their fear of outsiders, the touched sylphs fail to realize that their misguided efforts to protect the forest are instead slowly destroying it. Moxia sends you to the heart of the Sylphlands to plant moongrass, that its ethereal aroma might serve to purify the tainted forest air. First, see to any hostile sylphs in the vicinity so that your planting efforts will not be interrupted."
-2,"TEXT_BANSYL306_01282_SEQ_02","You have slain a pair of touched sylphs that sought to thwart your efforts. Now plant the moongrass in a location where the forest breezes will carry its fragrant aroma throughout the Sylphlands."
-3,"TEXT_BANSYL306_01282_SEQ_03","Though the moongrass has only just been planted, you can already feel the air around you begin to clear. Return to Little Solace and inform Moxia that the forest breathes easier now."
-4,"TEXT_BANSYL306_01282_SEQ_04","Moxia extols your bravery, and expresses hope that one day her misguided kin will see the light. You have proven yourself a staunch ally to Little Solace once more."
+0,"TEXT_BANSYL306_01282_SEQ_00","シルフの仮宿のモキシアは、冒険者に手伝ってほしいことがあるようだ。"
+1,"TEXT_BANSYL306_01282_SEQ_01","モキシアの依頼を受けた。シルフ領西部の「<Sheet(EObj,2003284,0)/>」付近に向かい、現れた悪い子シルフたちを倒そう。"
+2,"TEXT_BANSYL306_01282_SEQ_02","悪い子シルフたちを倒した。「<Sheet(EObj,2003284,0)/>」に「<Sheet(EventItem,2001184,0)/>」を植えよう。"
+3,"TEXT_BANSYL306_01282_SEQ_03","シルフ領に<Sheet(EventItem,2001184,0)/>を植えた。シルフの仮宿の「モキシア」に報告しよう。"
+4,"TEXT_BANSYL306_01282_SEQ_04","モキシアに報告した。<Sheet(EventItem,2001184,0)/>によって、瘴気が少し晴れたようだ。またの機会に協力しよう。"
 5,"TEXT_BANSYL306_01282_SEQ_05",""
 6,"TEXT_BANSYL306_01282_SEQ_06",""
 7,"TEXT_BANSYL306_01282_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_BANSYL306_01282_SEQ_21",""
 22,"TEXT_BANSYL306_01282_SEQ_22",""
 23,"TEXT_BANSYL306_01282_SEQ_23",""
-24,"TEXT_BANSYL306_01282_TODO_00","Slay hostile sylphs in the Sylphlands."
-25,"TEXT_BANSYL306_01282_TODO_01","Plant the moongrass at the specified location."
-26,"TEXT_BANSYL306_01282_TODO_02","Report to Moxia."
+24,"TEXT_BANSYL306_01282_TODO_00","シルフ領西部の<Sheet(EObj,2003284,0)/>付近に向かい、現れた悪い子シルフを討伐"
+25,"TEXT_BANSYL306_01282_TODO_01","<Sheet(EObj,2003284,0)/>に<Sheet(EventItem,2001184,0)/>を使う"
+26,"TEXT_BANSYL306_01282_TODO_02","モキシアに報告"
 27,"TEXT_BANSYL306_01282_TODO_03",""
 28,"TEXT_BANSYL306_01282_TODO_04",""
 29,"TEXT_BANSYL306_01282_TODO_05",""
@@ -49,15 +49,29 @@ int32,str,str
 45,"TEXT_BANSYL306_01282_TODO_21",""
 46,"TEXT_BANSYL306_01282_TODO_22",""
 47,"TEXT_BANSYL306_01282_TODO_23",""
-48,"TEXT_BANSYL306_01282_MOXIA_000_000","Once, touched ones were kind like these ones. Now, fear of walking ones and steel ones has clouded touched ones' eyes."
-49,"TEXT_BANSYL306_01282_MOXIA_000_001","Touched ones plant stink-clouds to keep intruder ones out of the forest. Stink rots the forest, and warps the hearts of the trees, four-legged ones, and even touched ones themselves."
-50,"TEXT_BANSYL306_01282_MOXIA_000_002","Touched ones are killing the forest, but touched ones do not see."
-51,"TEXT_BANSYL306_01282_MOXIA_000_003","This one once planted fresh-blooms to heal the forest, but touched ones have grown too strong, and too many."
-52,"TEXT_BANSYL306_01282_MOXIA_000_004","Brave one will do what this one cannot, yes? Plant fresh-blooms where the breeze will carry clean, sweet air throughout Sylphlands?"
-53,"TEXT_BANSYL306_01282_MOXIA_000_005","But be wary! Touched ones like to chop down fresh-blooms, so brave one must chop up touched ones before doing the planting. Tee hee!"
-54,"TEXT_BANSYL306_01282_MOXIA_000_010","Brave one will plant fresh-blooms and bring clean, sweet air to Sylphlands, yes? But be wary! Touched ones like to chop down fresh-blooms, so brave one must chop up touched ones before doing the planting. Tee hee!"
-55,"TEXT_BANSYL306_01282_WARUIKO_000_010","Gah, intruder one! Intruder one will die!"
-56,"TEXT_BANSYL306_01282_MOXIA_000_020","Welcome back, brave one. <sigh> Touched ones are sad ones, does brave one not think? So long have touched ones lived in darkness and stink that light and sweet-blooms become scary to those ones."
-57,"TEXT_BANSYL306_01282_MOXIA_000_021","It will not be easy to bring those ones back home, but this one must not give up. It is these ones' good fortune to have a trusted friend."
-58,"TEXT_BANSYL306_01282_POP_MESSAGE_000","You sense a hostile presence!"
-59,"TEXT_BANSYL306_01282_ACCESS_MESSAGE","The enemy is still about!"
+48,"TEXT_BANSYL306_01282_MOXIA_000_000","悪い子シルフは、ヒトや「テイコク」を恐がるあまり、
+ドクキリタケを刺激して瘴気を発生させて、
+シルフ領からヒトを追い出そうとしてるでふっち。"
+49,"TEXT_BANSYL306_01282_MOXIA_000_001","おかげで、シルフ領はマガマガしい森になって、
+魔物も凶暴になっているのでふっち……。
+もう、なんとかしなきゃダメでふっち！"
+50,"TEXT_BANSYL306_01282_MOXIA_000_002","森の空気をキレイにするには、
+仮宿に生えている「<Sheet(EventItem,2001184,0)/>」を使うでふっち。"
+51,"TEXT_BANSYL306_01282_MOXIA_000_003","シルフ領まで行って、いい風向きの場所に、
+「<Sheet(EventItem,2001184,0)/>」を植えてほしいでふっち。
+<Sheet(EventItem,2001184,0)/>の香りで、瘴気を払うんでふっち。"
+52,"TEXT_BANSYL306_01282_MOXIA_000_004","ただ、植える場所の周りに悪い子シルフがいたんじゃ、
+<Sheet(EventItem,2001184,0)/>をすぐに切り倒されちゃって、意味がないふっち。"
+53,"TEXT_BANSYL306_01282_MOXIA_000_005","だから<Sheet(EventItem,2001184,0)/>を植える前には、
+悪い子シルフをやっつけておいてほしいでふっち！"
+54,"TEXT_BANSYL306_01282_MOXIA_000_010","シルフ領まで行って、いい風向きの場所に、
+「<Sheet(EventItem,2001184,0)/>」を植えてほしいでふっち。
+悪い子シルフの妨害には、くれぐれも気をつけるでふっち！"
+55,"TEXT_BANSYL306_01282_WARUIKO_000_010","何するつもりでふっち！"
+56,"TEXT_BANSYL306_01282_MOXIA_000_020","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、ごくろうさまでふっち！
+森の空気が、ちょっとキレイになった気がするでふっち。
+悪い子シルフめ、ざまぁみろでふっち！"
+57,"TEXT_BANSYL306_01282_MOXIA_000_021","冒険者さんがオトモダチになってくれて
+ホントよかったでふっち、これからもよろしくでふっち！"
+58,"TEXT_BANSYL306_01282_POP_MESSAGE_000","敵の気配を感じた！！"
+59,"TEXT_BANSYL306_01282_ACCESS_MESSAGE","その行動は出現した敵を倒さないと実行できません"

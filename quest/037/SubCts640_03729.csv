@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBCTS640_03729_SEQ_00","Kai-Shirr is bursting with enthusiasm, and all he needs is somewhere to direct it."
+0,"TEXT_SUBCTS640_03729_SEQ_00","ユールモアのカイ・シルは冒険者に話を聞いてほしいようだ。"
 1,"TEXT_SUBCTS640_03729_SEQ_01",""
 2,"TEXT_SUBCTS640_03729_SEQ_02",""
 3,"TEXT_SUBCTS640_03729_SEQ_03",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_SUBCTS640_03729_SEQ_21",""
 22,"TEXT_SUBCTS640_03729_SEQ_22",""
 23,"TEXT_SUBCTS640_03729_SEQ_23",""
-24,"TEXT_SUBCTS640_03729_TODO_00","Wait outside the Beehive."
-25,"TEXT_SUBCTS640_03729_TODO_01","Speak with Kai-Shirr."
+24,"TEXT_SUBCTS640_03729_TODO_00","指定地点で待機"
+25,"TEXT_SUBCTS640_03729_TODO_01","カイ・シルと話す"
 26,"TEXT_SUBCTS640_03729_TODO_02",""
 27,"TEXT_SUBCTS640_03729_TODO_03",""
 28,"TEXT_SUBCTS640_03729_TODO_04",""
@@ -49,66 +49,149 @@ int32,str,str
 45,"TEXT_SUBCTS640_03729_TODO_21",""
 46,"TEXT_SUBCTS640_03729_TODO_22",""
 47,"TEXT_SUBCTS640_03729_TODO_23",""
-48,"TEXT_SUBCTS640_03729_KAISHIRR_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, have you got a moment?"
-49,"TEXT_SUBCTS640_03729_KAISHIRR_000_001","I've been wanting to have a word. Is it true you're an expert <Sheet(ClassJob,PlayerParameter(68),0)/>?"
-50,"TEXT_SUBCTS640_03729_Q1_000_000","What will you say?"
-51,"TEXT_SUBCTS640_03729_A1_000_001","That's just one of my many, many talents!"
-52,"TEXT_SUBCTS640_03729_A1_000_002","Who told you that?"
-53,"TEXT_SUBCTS640_03729_KAISHIRR_000_010","Ha! Is there anything you <Emphasis>can't</Emphasis> do? Alphinaud says you've been dealing with the Boutique of Splendors and all, and not just anybody can do that."
-54,"TEXT_SUBCTS640_03729_KAISHIRR_000_020","Alphinaud's the one that brought it up. Said you've been dealing with the Boutique of Splendors and all."
-55,"TEXT_SUBCTS640_03729_KAISHIRR_000_030","Anyhow, I ask because I was hoping to get your help with something. Bit of a project of mine, as it goes."
-56,"TEXT_SUBCTS640_03729_KAISHIRR_000_032","Since I decided to stay here in Eulmore, I've been trying to find ways for people like me to contribute to the future of the city. Thing is, I've never learned a trade or nothing like that, so I was struggling to come up with ideas."
-57,"TEXT_SUBCTS640_03729_KAISHIRR_000_033","After a lot of thinking, I put together a pretty decent plan, but I could do with your professional opinion and maybe a bit of help, if you're up for it. What do you say?"
-58,"TEXT_SUBCTS640_03729_KAISHIRR_000_034","It's for a good cause, I promise!"
-59,"TEXT_SUBCTS640_03729_KAISHIRR_000_035","I've asked a couple of old mates to meet us outside the Beehive, so I'll see you there!"
-60,"TEXT_SUBCTS640_03729_KAISHIRR_000_040","First things first, let me introduce you."
-61,"TEXT_SUBCTS640_03729_KAISHIRR_000_041","This here's Anfrigg, who serves his drinks shaken, not stirred."
-62,"TEXT_SUBCTS640_03729_ANFRIGG_100_041","Yes, as the saying goes here in the Beehive, “fancy a shake?” Reactions vary, as I'm sure you can imagine. Ahem. It's a pleasure to meet you."
-63,"TEXT_SUBCTS640_03729_KAISHIRR_000_042","And this is Bosta-Zia."
-64,"TEXT_SUBCTS640_03729_ZIABOSTA_100_042","I also work in the Beehive, though my talents tend more towards wining and dining, winding and grinding, whatever our patrons desire. Anyway, a friend of Kai-Shirr's is a friend of ours."
-65,"TEXT_SUBCTS640_03729_KAISHIRR_000_043","We grew up together in Gatetown, close as family."
-66,"TEXT_SUBCTS640_03729_ANFRIGG_000_044","All three of us are orphans, so we had to stick together to survive. We shared everything we had, right down to our last crust of...well, whatever was available."
-67,"TEXT_SUBCTS640_03729_ZIABOSTA_000_045","That's why we promised each other that we'd find a way into Eulmore, no matter what it took. But Anfrigg and I were chosen, while Kai-Shirr was left behind. I can't tell you how glad we were to be reunited with him after so long apart!"
-68,"TEXT_SUBCTS640_03729_ANFRIGG_000_046","We've been through a lot, him more than most, but we're all here now. I never thought I'd see the day!"
-69,"TEXT_SUBCTS640_03729_ZIABOSTA_000_047","I hate to say it, but the way things are going, there might not be reason for us to stay in Eulmore. So much has changed since the fall of Vauthry, and business at the Beehive has really dried up."
-70,"TEXT_SUBCTS640_03729_ANFRIGG_000_048","While I am all for this city becoming a fairer place to live, we need to face facts."
-71,"TEXT_SUBCTS640_03729_ANFRIGG_100_048","At this rate, places like the Beehive will struggle to stay afloat. If we were to be let go, the chances of us finding similar work here would be slim at best."
-72,"TEXT_SUBCTS640_03729_KAISHIRR_000_049","You're not...thinking about leaving Eulmore, are you?"
-73,"TEXT_SUBCTS640_03729_ZIABOSTA_000_050","To be honest, we don't have much choice."
-74,"TEXT_SUBCTS640_03729_KAISHIRR_000_051","Whoa, whoa, whoa! I said I'll sort something out, didn't I?"
-75,"TEXT_SUBCTS640_03729_KAISHIRR_000_052","I've got a plan to bring visitors into Eulmore, and I want you two to be part of it."
-76,"TEXT_SUBCTS640_03729_KAISHIRR_000_053","It's also why I brought <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> here. <If(PlayerParameter(4))>Her<Else/>His</If> skills as <If(Equal(PlayerParameter(68),10))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),14))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),5))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),26))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),33))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/>a <Sheet(ClassJob,PlayerParameter(68),0)/></If></If></If></If></If> are going to solve all of our problems, I swear!"
-77,"TEXT_SUBCTS640_03729_MANAGER03729_000_060","(-???-)Well, well! How wonderful it is to see my employees engaged in such lively conversation."
-78,"TEXT_SUBCTS640_03729_ANFRIGG_000_061","The Queen Bee! Sorry, sir, I'll get back behind the bar."
-79,"TEXT_SUBCTS640_03729_MANAGER03729_000_062","No, no, as you are. In fact, Mistress Mowen and I were discussing ways in which the Beehive's fortunes might be improved."
-80,"TEXT_SUBCTS640_03729_MANAGER03729_000_063","It was then that we overheard you, and my ears pricked up when you mentioned the possibility of attracting new customers to Eulmore. Given the current state of affairs, this would be most welcome."
-81,"TEXT_SUBCTS640_03729_MANAGER03729_000_064","Would you share your ideas with me, young man?"
-82,"TEXT_SUBCTS640_03729_KAISHIRR_000_065","Erm, I ain't a businessman or nothing, so you'll have to excuse me if I'm off the mark here, but..."
-83,"TEXT_SUBCTS640_03729_KAISHIRR_000_066","Seems to me that under Vauthry, Eulmorans forgot what it means to actually work for a living, and most of the old industries disappeared altogether. Still, there are a few things left over from those days that we can put to good use."
-84,"TEXT_SUBCTS640_03729_MANAGER03729_000_067","Such as?"
-85,"TEXT_SUBCTS640_03729_KAISHIRR_000_068","The entertainment!"
-86,"TEXT_SUBCTS640_03729_KAISHIRR_100_068","Eulmorans ain't the only ones who like to have a good old knees-up, you know! If we open up the “city of final pleasures” to visitors, we'll be raking in the gil!"
-87,"TEXT_SUBCTS640_03729_KAISHIRR_000_069","And what better way to do that than telling everyone about the Beehive?"
-88,"TEXT_SUBCTS640_03729_KAISHIRR_000_070","'Course, word of mouth will only get us so far."
-89,"TEXT_SUBCTS640_03729_KAISHIRR_000_071","But if you put me in charge of promoting your establishment, I'll do whatever it takes to bring in people from every corner of Norvrandt!"
-90,"TEXT_SUBCTS640_03729_MOWEN_000_072","I say! Your enthusiasm is positively infectious! And for a self-confessed amateur, I find you <Emphasis>remarkably</Emphasis> persuasive..."
-91,"TEXT_SUBCTS640_03729_MOWEN_000_073","I for one think it's a marvelous idea. Wouldn't you agree?"
-92,"TEXT_SUBCTS640_03729_MANAGER03729_000_074","Yes, this is certainly in line with Master Chai's aim to foster trade with outsiders. And as far as I can see, the Beehive stands only to gain from this most worthy of endeavors."
-93,"TEXT_SUBCTS640_03729_MANAGER03729_000_075","I am therefore placing you in charge of advertising the Beehive!"
-94,"TEXT_SUBCTS640_03729_MOWEN_000_076","Since I have a vested interest in the success of this undertaking, the Boutique of Splendors will gladly grant rewards for bringing much-needed custom to our doorstep."
-95,"TEXT_SUBCTS640_03729_MANAGER03729_000_077","But first, you will need to look the part, and I have the perfect ensemble in mind."
-96,"TEXT_SUBCTS640_03729_MANAGER03729_000_078","In the meantime, I would have the two of you resume your duties. When the time comes, I should like you to provide assistance in any way that you can."
-97,"TEXT_SUBCTS640_03729_ANFRIGG_000_079","Our knowledge and expertise are at Kai-Shirr's disposal, sir!"
-98,"TEXT_SUBCTS640_03729_MANAGER03729_000_080","I gather that you are here at the lad's request, yes? I can only guess as to what it may entail, though I daresay all shall become clear soon enough. I bid you good <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>evening<Else/>day</If><Else/><If(LessThan(PlayerParameter(11),17))>day<Else/>evening</If></If>."
-99,"TEXT_SUBCTS640_03729_ANFRIGG_000_090","I have to say, I'm not sure what I can offer Kai-Shirr beyond the odd bit of advice."
-100,"TEXT_SUBCTS640_03729_ZIABOSTA_000_091","That was quite impressive. I never knew Kai-Shirr had it in him!"
-101,"TEXT_SUBCTS640_03729_KAISHIRR_000_100","I'm surprised you recognized me in this getup."
-102,"TEXT_SUBCTS640_03729_KAISHIRR_000_101","I have to tell you, I ain't used to wearing anything like this."
-103,"TEXT_SUBCTS640_03729_KAISHIRR_000_102","Still, if I'm to advertise a place like the Beehive, I suppose I've got to look the part. Not that it really matters for our first task, though."
-104,"TEXT_SUBCTS640_03729_KAISHIRR_000_103","While I was getting measured for my outfit, I was thinking of how we could convince everyone to come and spend their hard-earned coin in the Beehive."
-105,"TEXT_SUBCTS640_03729_KAISHIRR_000_104","Rather than shouting from the rooftops, it'd be a lot easier if we gave out flyers everywhere. I ain't just talking about a handful though."
-106,"TEXT_SUBCTS640_03729_KAISHIRR_000_105","I'll need hundreds, and that means I'll need paper, ink, and something to print them with. That last one's the trickiest, but it'll speed things up like no one's business. Do you think you could get those for me?"
-107,"TEXT_SUBCTS640_03729_KAISHIRR_000_106","There was one other thing... Oh right, payment! 'Course, I ain't expecting you to do it for free. I'll be getting scrips and whatnot from Mowen, so I'll send a few your way."
-108,"TEXT_SUBCTS640_03729_KAISHIRR_000_107","That sound all right to you?"
-109,"TEXT_SUBCTS640_03729_KAISHIRR_000_108","Thanks, I owe you one. Or I will once everything's been sorted out."
-110,"TEXT_SUBCTS640_03729_KAISHIRR_000_109","All you have to do is bring me the stuff for the flyers, and I'll take it from there!"
+48,"TEXT_SUBCTS640_03729_KAISHIRR_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん！
+いまちょっといいですか？"
+49,"TEXT_SUBCTS640_03729_KAISHIRR_000_001","あなたに聞きたいことがあって……。
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さんは、
+超一流の職人でもあると聞いたんですが、本当ですか？"
+50,"TEXT_SUBCTS640_03729_Q1_000_000","何と言う？"
+51,"TEXT_SUBCTS640_03729_A1_000_001","そのとおり！"
+52,"TEXT_SUBCTS640_03729_A1_000_002","誰がそんなことを……"
+53,"TEXT_SUBCTS640_03729_KAISHIRR_000_010","やっぱり、そうだったんですね！
+モーエン商会とも取引できるほどの凄腕だって、
+アルフィノさんが言っていたのは、本当だったんだ……。"
+54,"TEXT_SUBCTS640_03729_KAISHIRR_000_020","アルフィノさんです！
+モーエン商会とも取引できるほどの凄腕だって、
+自分のことを自慢するように、言ってましたよ。"
+55,"TEXT_SUBCTS640_03729_KAISHIRR_000_030","よ、よし……あなたを超一流の職人と見込んで、
+力を貸していただきたいことがあるんです！"
+56,"TEXT_SUBCTS640_03729_KAISHIRR_000_032","俺、ユールモアに残って、
+新しい何かを始めるつもりだって言いましたよね。
+それについて、思いついたことがあるんです。"
+57,"TEXT_SUBCTS640_03729_KAISHIRR_000_033","ただ、俺ひとりじゃ……
+いえ、「俺たち」だけじゃ実現できなさそうで……
+どうか話だけでも聞いてください！"
+58,"TEXT_SUBCTS640_03729_KAISHIRR_000_034","やった、ありがとうございます！
+それじゃあ、紹介したい人もいるんで、
+ちょっと場所を変えましょう。"
+59,"TEXT_SUBCTS640_03729_KAISHIRR_000_035","そうですね……
+「キャバレー・ビーハイヴ」の前で、待っててもらえますか？
+すぐに連れて行くんで、よろしくお願いします！"
+60,"TEXT_SUBCTS640_03729_KAISHIRR_000_040","あっ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん！
+お待たせしました。
+紹介したい人を連れてきましたよ。"
+61,"TEXT_SUBCTS640_03729_KAISHIRR_000_041","こっちが、アンフリッグ。"
+62,"TEXT_SUBCTS640_03729_ANFRIGG_100_041","「キャバレー・ビーハイヴ」にて、
+バーテンダーを務めております。
+よろしくお願いします。"
+63,"TEXT_SUBCTS640_03729_KAISHIRR_000_042","そしてこっちが、ボスタ・ジア。"
+64,"TEXT_SUBCTS640_03729_ZIABOSTA_100_042","アタシは「キャバレー・ビーハイヴ」で、
+ダンサーをしているの。
+よろしくね。"
+65,"TEXT_SUBCTS640_03729_KAISHIRR_000_043","ふたりはゲートタウンにいた頃からの親友なんです。"
+66,"TEXT_SUBCTS640_03729_ANFRIGG_000_044","お互いに、頼れる者もいない孤児同士でしてね。
+協力してなんとか生きてきました。"
+67,"TEXT_SUBCTS640_03729_ZIABOSTA_000_045","みんなでユールモアで暮らそう、なんて約束もしたわね。
+いろいろあって、アタシたちが先にこっちへ来ちゃったけど、
+カイ・シルとまた会えて嬉しかった。"
+68,"TEXT_SUBCTS640_03729_ANFRIGG_000_046","本当に……。
+こうやって再会できた幸運に感謝です。"
+69,"TEXT_SUBCTS640_03729_ZIABOSTA_000_047","……でも、ごめんなさい、約束を果たせそうにないわ。
+残念だけど「キャバレー・ビーハイヴ」は、
+裕福な自由市民の存在あってこそ、だもの。"
+70,"TEXT_SUBCTS640_03729_ANFRIGG_000_048","その自由市民の在り方が、新元首の下で変わっていくなら、
+当然、ビーハイヴだって同じままではいられません。"
+71,"TEXT_SUBCTS640_03729_ANFRIGG_100_048","そうなれば、私たち「ミツバチ」……
+つまりキャバレーの従業員の居場所もなくなってしまいます。"
+72,"TEXT_SUBCTS640_03729_KAISHIRR_000_049","居場所がなくなるって、まさか……
+ユールモアを出ていくつもりなのか？"
+73,"TEXT_SUBCTS640_03729_ZIABOSTA_000_050","ええ、そのとおり。
+別の場所で、新しい仕事を見つけなくちゃ。"
+74,"TEXT_SUBCTS640_03729_KAISHIRR_000_051","ちょ、ちょっと待ってくれ！
+結論をだすのが早すぎるよ！"
+75,"TEXT_SUBCTS640_03729_KAISHIRR_000_052","それに俺、思いついたんだ。
+新しいユールモアで始める新しい事を……！
+今日はふたりに、その相談をしたかったんだ！"
+76,"TEXT_SUBCTS640_03729_KAISHIRR_000_053","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さんを、お呼びしたのもそうさ。
+超一流の職人さんでもある、その力を貸してもらって、
+ビーハイヴで新しいビジネスを始めたいんだよ！"
+77,"TEXT_SUBCTS640_03729_MANAGER03729_000_060","(-？？？？-)これはこれは、興味深い話をなさっていますね。"
+78,"TEXT_SUBCTS640_03729_ANFRIGG_000_061","し、支配人……！"
+79,"TEXT_SUBCTS640_03729_MANAGER03729_000_062","「キャバレー・ビーハイヴ」の今後について、
+モーエンさんと話し合おうとしていたところに、
+ちょうど、あなた方の話し声が聞こえましてね。"
+80,"TEXT_SUBCTS640_03729_MANAGER03729_000_063","ビーハイヴで新しいビジネス、ですか……。
+非常に魅力的な言葉です。"
+81,"TEXT_SUBCTS640_03729_MANAGER03729_000_064","そんなものがあるなら、ぜひお聞かせいただきたい。"
+82,"TEXT_SUBCTS640_03729_KAISHIRR_000_065","あ、あの……俺、学がないので……
+間違ってるかもしれないけど……。"
+83,"TEXT_SUBCTS640_03729_KAISHIRR_000_066","ヴァウスリーのせいで、ユールモアの産業が潰されたって、
+そう言う人が多いけれど、
+反対に発展したものも、あると思うんです。"
+84,"TEXT_SUBCTS640_03729_MANAGER03729_000_067","発展した産業……それは？"
+85,"TEXT_SUBCTS640_03729_KAISHIRR_000_068","娯楽産業です……！"
+86,"TEXT_SUBCTS640_03729_KAISHIRR_100_068","そして、その代表が「キャバレー・ビーハイヴ」だと思うんです。
+歓楽都市とまで呼ばれたユールモアで、
+今までずっと、自由市民たちを楽しませ続けてきたんですから……。"
+87,"TEXT_SUBCTS640_03729_KAISHIRR_000_069","それをより広く……外から人を呼び込んだりして、
+更に発展させていけば、新しいユールモアの、
+強力な武器……産業になると思うんです。"
+88,"TEXT_SUBCTS640_03729_KAISHIRR_000_070","そのために今、必要なのは、宣伝です！
+ユールモアには、「キャバレー・ビーハイヴ」という、
+楽しいところがあるんだって、多くの人に知ってもらうんです。"
+89,"TEXT_SUBCTS640_03729_KAISHIRR_000_071","俺にはこれといって特技はないけれど、
+足を使って情報を集めたり、伝えたりはできます。
+だから……俺に宣伝する役目をやらせてください！"
+90,"TEXT_SUBCTS640_03729_MOWEN_000_072","素晴らしい考えではありませんか。
+最後は、ご自身の売り込みになっていましたけれど。"
+91,"TEXT_SUBCTS640_03729_MOWEN_000_073","支配人、いかがでしょう。
+彼らに任せてみるというのは？"
+92,"TEXT_SUBCTS640_03729_MANAGER03729_000_074","ふむ……確かにチャイ・ヌズ殿も、
+外部からの観光客誘致を検討しているようでした。
+ならば、試してみる価値はある……か……。"
+93,"TEXT_SUBCTS640_03729_MANAGER03729_000_075","よろしい……カイ・シル君と言いましたか、
+君を雇い、宣伝をお任せしましょう。"
+94,"TEXT_SUBCTS640_03729_MOWEN_000_076","であれば、私どもが協力者に対する報酬を融通しましょう。
+「キャバレー・ビーハイヴ」を目当てに訪れる人が増えれば、
+モーエン商会にとっても商機となりますから。"
+95,"TEXT_SUBCTS640_03729_MANAGER03729_000_077","さて、そうと決まれば……
+まずはカイ・シル君の服装を、どうにかせねばなりませんね。
+仕事には、それに相応しい格好があるものです。"
+96,"TEXT_SUBCTS640_03729_MANAGER03729_000_078","アンフリッグとボスタ・ジアは仕事に戻りなさい。
+君たちが将来を危ぶまずに済むよう、給料はしっかりと払おう。
+だから可能な限り、カイ・シル君にも協力するように。"
+97,"TEXT_SUBCTS640_03729_ANFRIGG_000_079","わ、わかりました！"
+98,"TEXT_SUBCTS640_03729_MANAGER03729_000_080","協力者のあなたは、
+後ほど、「カイ・シル」君に声をかけていただけますか？
+協力内容について、彼から詳しくお聞きください。"
+99,"TEXT_SUBCTS640_03729_ANFRIGG_000_090","「キャバレー・ビーハイヴ」が存続できるなら、
+微力ですが、私もお手伝いいたしましょう。
+これからよろしくお願いします、職人さん。"
+100,"TEXT_SUBCTS640_03729_ZIABOSTA_000_091","カイ・シルがどこまでやれるかわからないけど、
+アタシたちがついてれば、きっと大丈夫よ。
+アナタも協力よろしくね！"
+101,"TEXT_SUBCTS640_03729_KAISHIRR_000_100","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん。
+お待たせしました。"
+102,"TEXT_SUBCTS640_03729_KAISHIRR_000_101","こ、こんな綺麗な服を着るのは初めてだから、
+なんだか落ち着かないですね……。"
+103,"TEXT_SUBCTS640_03729_KAISHIRR_000_102","まあ、俺のことはいいです、置いときましょう。
+重要なのは「キャバレー・ビーハイヴ」の宣伝です！"
+104,"TEXT_SUBCTS640_03729_KAISHIRR_000_103","といっても、手ぶらで宣伝なんてできません。
+だから、ビーハイヴのチラシを作って、
+いろんなところに配って歩こうと思うんです。"
+105,"TEXT_SUBCTS640_03729_KAISHIRR_000_104","ユールモアには「キャバレー・ビーハイヴ」という楽しいところが、
+あるってこと、知ってもらえなければ話になりませんから！"
+106,"TEXT_SUBCTS640_03729_KAISHIRR_000_105","あなたにお願いしたいのは、
+そのチラシの製作に必要な物の調達です。
+実際にチラシを刷ったり、配ったりは俺に任せてください！"
+107,"TEXT_SUBCTS640_03729_KAISHIRR_000_106","あっ、それから……報酬についてはご安心を！
+さっきモーエンさんと話して、
+スクリップを支払えるように、調整してきましたから。"
+108,"TEXT_SUBCTS640_03729_KAISHIRR_000_107","あと話さなきゃいけないことは……えっと……
+もう、大丈夫、ですよね……？"
+109,"TEXT_SUBCTS640_03729_KAISHIRR_000_108","良かった……。
+すみません、こういうこと初めてだから、
+なんだか緊張しちゃって……。"
+110,"TEXT_SUBCTS640_03729_KAISHIRR_000_109","それじゃあ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん。
+「チラシ製作必需品」の調達、
+よろしくお願いします！"

@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSALC011_00575_SEQ_00","Deitrich wishes to reaffirm your desire to join the Alchemists' Guild."
-1,"TEXT_CLSALC011_00575_SEQ_01","For the final stage of your enrollment, you are to seek approval from the guildmaster. Approach Severian where he toils over his workbench within the Alchemists' Guild."
-2,"TEXT_CLSALC011_00575_SEQ_02","Severian has approved your initiation into the Alchemists' Guild. Equip the weathered alembic and speak with the guildmaster once more."
+0,"TEXT_CLSALC011_00575_SEQ_00","錬金術師になり、錬金術師ギルドで学ぶために、しかるべき手続きを行わなければならない。受付のディートリッヒは、冒険者の心の準備を確かめたいようだ。"
+1,"TEXT_CLSALC011_00575_SEQ_01","受付から、錬金術師ギルドマスター、セヴェリアンを紹介された。錬金術師ギルドの「セヴェリアン」に挨拶に行こう。"
+2,"TEXT_CLSALC011_00575_SEQ_02","セヴェリアンは、冒険者の錬金術師ギルドへの所属を認めてくれた。彼にもらった「<Sheet(Item,　2467,0)/>」を装備し、再度「セヴェリアン」に話しかけよう。"
 3,"TEXT_CLSALC011_00575_SEQ_03",""
 4,"TEXT_CLSALC011_00575_SEQ_04",""
 5,"TEXT_CLSALC011_00575_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_CLSALC011_00575_SEQ_21",""
 22,"TEXT_CLSALC011_00575_SEQ_22",""
 23,"TEXT_CLSALC011_00575_SEQ_23",""
-24,"TEXT_CLSALC011_00575_TODO_00","Speak with Guildmaster Severian."
+24,"TEXT_CLSALC011_00575_TODO_00","セヴェリアンと話す"
 25,"TEXT_CLSALC011_00575_TODO_01",""
 26,"TEXT_CLSALC011_00575_TODO_02",""
 27,"TEXT_CLSALC011_00575_TODO_03",""
@@ -49,19 +49,35 @@ int32,str,str
 45,"TEXT_CLSALC011_00575_TODO_21",""
 46,"TEXT_CLSALC011_00575_TODO_22",""
 47,"TEXT_CLSALC011_00575_TODO_23",""
-48,"TEXT_CLSALC011_00575_DEITRICH_000","Have you arrived at a decision? Are you ready to exult in the arts of alchemy and commit to the responsibilities that your enrollment entails?"
-49,"TEXT_CLSALC011_00575_DEITRICH_010","I understand: the thought of drowning in the bottomless seas of alchemical possibility must be quite intimidating. Take your time to mull it over."
-50,"TEXT_CLSALC011_00575_DEITRICH_020","Excellent. Then allow me to direct you to our guildmaster. Gaining his approval is the last test you must pass before becoming a full member of the guild."
-51,"TEXT_CLSALC011_00575_DEITRICH_021","You will find Guildmaster Severian tending to his experiments at his personal workbench."
-52,"TEXT_CLSALC011_00575_DEITRICH_022","I must warn you, he is a rather <Emphasis>intense</Emphasis> individual. Pray choose your words with care."
-53,"TEXT_CLSALC011_00575_SEVERIAN_000","What!? What is it this time!? Ah, you must be the merchant's lackey, come to bring me my imp wings. Let's have them, then!"
-54,"TEXT_CLSALC011_00575_SEVERIAN_001","Hm? Not a lackey? An aspiring alchemist, did you say? Speak up, and pray that I heard you awry!"
-55,"TEXT_CLSALC011_00575_Q1_1","Are you an aspiring alchemist?"
-56,"TEXT_CLSALC011_00575_A1_1","Yes"
-57,"TEXT_CLSALC011_00575_A1_2","No"
-58,"TEXT_CLSALC011_00575_SEVERIAN_010","<sniff> That is well. I have not the time to attend to the fumbling of inept initiates. Now, I know not what ill-advised notion brought you to my desk, but I'll thank you not to interrupt my work again!"
-59,"TEXT_CLSALC011_00575_SEVERIAN_020","Did that babbling fool Deitrich send you to me? I specifically requested that I be disturbed for nothing less than the coming of a second Calamity!"
-60,"TEXT_CLSALC011_00575_SEVERIAN_021","Do I appear as a kindly mentor to you? My research demands my absolute and undivided attention! Now, begone, before I am forced to─"
-61,"TEXT_CLSALC011_00575_SEVERIAN_022","But wait. Hmmm, perhaps I can... Yes, yes, you may be the very <Emphasis>assistant</Emphasis> I require."
-62,"TEXT_CLSALC011_00575_SEVERIAN_023","I have had a change of heart. Congratulations, I approve your application to the guild. It is with great pleasure that I welcome a fellow seeker of knowledge into the fold!"
-63,"TEXT_CLSALC011_00575_SEVERIAN_024","We can dispense with the interminable initiation ceremony, yes? Here is your first alembic. Try not to drop it, for there is much work to be done. Yes, much work!"
+48,"TEXT_CLSALC011_00575_DEITRICH_000","……覚悟は決まりましたか？
+あなたにその意思があれば、入門手続きをはじめますが……。"
+49,"TEXT_CLSALC011_00575_DEITRICH_010","思わせぶりですね、まったく……。
+急かしはしませんから、ゆっくり考えてください。"
+50,"TEXT_CLSALC011_00575_DEITRICH_020","……わかりました。ではギルドマスターを紹介しましょう。
+彼に認められることが、唯一の手続きとなります。"
+51,"TEXT_CLSALC011_00575_DEITRICH_021","錬金術師ギルドのギルドマスターは、
+奥の机で作業をしている「セヴェリアン」様です。"
+52,"TEXT_CLSALC011_00575_DEITRICH_022","彼は大変……偉大な方ですから。
+くれぐれも上手くやってくださいね、ええ、くれぐれも……。"
+53,"TEXT_CLSALC011_00575_SEVERIAN_000","何だお前は……。ああ、さては商人の使いだな？
+この前頼んだ<Sheet(Item,5552,0)/>を持ってきたんだろう。
+どれ、見せてみろ。"
+54,"TEXT_CLSALC011_00575_SEVERIAN_001","……なに、入門希望者？
+まさか、お前、入門希望者だというのか！？"
+55,"TEXT_CLSALC011_00575_Q1_1","錬金術師ギルドの入門希望者ですか？"
+56,"TEXT_CLSALC011_00575_A1_1","はい"
+57,"TEXT_CLSALC011_00575_A1_2","いいえ"
+58,"TEXT_CLSALC011_00575_SEVERIAN_010","それは何よりだ。
+入門者に構っている時間などないからな。
+何の用か知らんが、私に話しかけてくれるなよ。"
+59,"TEXT_CLSALC011_00575_SEVERIAN_020","何たることだ、あの受付め！
+面倒な用事は一切私に回すなと、あれっっだけ言っておいたのに！"
+60,"TEXT_CLSALC011_00575_SEVERIAN_021","入門者の面倒なぞ、誰が見るか！
+私は研究で忙しいんだ。お前もとっとと……"
+61,"TEXT_CLSALC011_00575_SEVERIAN_022","いや待て。ふむ……そうか……
+使える……使えるかもしれんぞ……？"
+62,"TEXT_CLSALC011_00575_SEVERIAN_023","よし、気が変わった。入門を許可する。
+お前という新たな才智を歓迎しようじゃないか。"
+63,"TEXT_CLSALC011_00575_SEVERIAN_024","説明は省略していいな？
+とりあえず、初心者向けの蒸留器をやる。
+今すぐ装備して、私に見せてくれ。"

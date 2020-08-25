@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBFST054_00160_SEQ_00","Finnea, a guard at Galvanth's Spire, seeks a willing volunteer to deal with a slug problem."
-1,"TEXT_SUBFST054_00160_SEQ_01","Finnea tasks you with slaying slugs. Sprinkle flat ale around three moist depressions near the Hedgetree, and defeat the creatures that emerge."
-2,"TEXT_SUBFST054_00160_SEQ_02","You have slain the saprophagous slugs. Report to Finnea at Galvanth's Spire."
-3,"TEXT_SUBFST054_00160_SEQ_03","In search of a new food source, the saprophagous slugs had begun devouring the flowers left in remembrance of the lost at the Tam-Tara Deepcroft. Problems arising from the spiraling slug population notwithstanding, Finnea could not bear to see the resting place of her fallen companions defiled. Perhaps your efforts have given the grieving guard some small measure of comfort."
+0,"TEXT_SUBFST054_00160_SEQ_00","ガルヴァンス監視哨のフィンネアは、報酬と引き換えに魔物の退治を依頼したいようだ。"
+1,"TEXT_SUBFST054_00160_SEQ_01","フィンネアに魔物の退治を依頼された。境樹付近の3箇所の「湿った窪み」に「気の抜けたエール」をまき、現れた「ネクロファガス・スラッグ」を倒そう。"
+2,"TEXT_SUBFST054_00160_SEQ_02","ネクロファガス・スラッグを退治することができた。ガルヴァンス監視哨のフィンネアに報告しよう。"
+3,"TEXT_SUBFST054_00160_SEQ_03","増殖したネクロファガス・スラッグは、墓所に供えられた花を食い荒らしていた。とは言え、魔物に悪意があった訳ではない。複雑な心境を漏らすフィンネア。冒険者の活躍は、彼女の心を少しでも軽くできただろうか。"
 4,"TEXT_SUBFST054_00160_SEQ_04",""
 5,"TEXT_SUBFST054_00160_SEQ_05",""
 6,"TEXT_SUBFST054_00160_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_SUBFST054_00160_SEQ_21",""
 22,"TEXT_SUBFST054_00160_SEQ_22",""
 23,"TEXT_SUBFST054_00160_SEQ_23",""
-24,"TEXT_SUBFST054_00160_TODO_00","Sprinkle ale near the moist depressions and defeat the saprophagous slugs."
-25,"TEXT_SUBFST054_00160_TODO_01","Report to Finnea at Galvanth's Spire."
+24,"TEXT_SUBFST054_00160_TODO_00","湿った窪みに気の抜けたエールを使いネクロファガス・スラッグを討伐"
+25,"TEXT_SUBFST054_00160_TODO_01","フィンネアに報告"
 26,"TEXT_SUBFST054_00160_TODO_02",""
 27,"TEXT_SUBFST054_00160_TODO_03",""
 28,"TEXT_SUBFST054_00160_TODO_04",""
@@ -49,15 +49,30 @@ int32,str,str
 45,"TEXT_SUBFST054_00160_TODO_21",""
 46,"TEXT_SUBFST054_00160_TODO_22",""
 47,"TEXT_SUBFST054_00160_TODO_23",""
-48,"TEXT_SUBFST054_00160_FINNEA_000_1","Hmph. You must be desperate for work indeed if you would speak with me a second time. Either that, or you never learned to leave well enough alone."
-49,"TEXT_SUBFST054_00160_FINNEA_000_2","But if you're so bloody eager, then here's another job for you. Head on over to the Hedgetree and clear out some nests of saprophagous slugs."
-50,"TEXT_SUBFST054_00160_FINNEA_000_3","All you need do is sprinkle some of this flat ale on the ground where you find the moist depressions. You should soon be up to your armpits in slugs."
-51,"TEXT_SUBFST054_00160_FINNEA_000_4","Don't let any of the buggers slither away─and make sure you find and clear out all three nests."
-52,"TEXT_SUBFST054_00160_FINNEA_000_10","Judging by the looks of you, no slug escaped unharmed."
-53,"TEXT_SUBFST054_00160_FINNEA_000_11","Hmph. I don't suppose you have the faintest notion what the Tam-Tara Deepcroft is, do you?"
-54,"TEXT_SUBFST054_00160_FINNEA_000_12","It's the final resting place of those who perished during the Calamity. The slugs you so handily dispatched were feeding on the flowers we had laid there in remembrance of the fallen."
-55,"TEXT_SUBFST054_00160_FINNEA_000_13","The monsters multiply, and food grows scarce. Perhaps there was naught else for them to feed on, but to see those wreaths disturbed thus was more than I could bear."
-56,"TEXT_SUBFST054_00160_FINNEA_000_14","And now I've said too much. Here, take your reward and leave me be."
-57,"TEXT_SUBFST054_00160_SYSTEM_000_20","A squelching sound reaches your ears..."
-58,"TEXT_SUBFST054_00160_SYSTEM_000_21","A squelching sound reaches your ears..."
-59,"TEXT_SUBFST054_00160_SYSTEM_000_22","A squelching sound reaches your ears..."
+48,"TEXT_SUBFST054_00160_FINNEA_000_1","ふん……。
+ふたたび私に声をかけるとは、
+よほど仕事に困っているか、ただの世話焼きか。"
+49,"TEXT_SUBFST054_00160_FINNEA_000_2","ならばもうひとつ、仕事をくれてやる。
+「境樹」の付近に巣食う「ネクロファガス・スラッグ」の
+駆除をしてもらおう。"
+50,"TEXT_SUBFST054_00160_FINNEA_000_3","ヤツらの巣である「湿った窪み」に、
+この「気の抜けたエール」をまき、現れた魔物を
+一匹残らず駆除するのだ。"
+51,"TEXT_SUBFST054_00160_FINNEA_000_4","巣は全部で3箇所だ。
+さあ、さっさと行ってこい。"
+52,"TEXT_SUBFST054_00160_FINNEA_000_10","ネクロファガス・スラッグどもを駆除したか。
+報酬を払うのだから、当然の働きだな。"
+53,"TEXT_SUBFST054_00160_FINNEA_000_11","ふん、どうせお前は、
+この近くにある「タムタラの墓所」が
+どういう場所か、知らんのだろう？"
+54,"TEXT_SUBFST054_00160_FINNEA_000_12","あそこは、5年前の霊災で死んだ仲間が眠る場所。
+お前が倒したスラッグは、墓所にまで出張っていき、
+手向けられた花を食い荒らしていたのだ。"
+55,"TEXT_SUBFST054_00160_FINNEA_000_13","魔物が増殖し、餌が足りていないせいだ。
+決して魔物どもに悪意があるわけではない。
+だが、あまりにも……やるせないな。"
+56,"TEXT_SUBFST054_00160_FINNEA_000_14","……喋りすぎた。
+これは報酬だ。さっさと受け取れ。"
+57,"TEXT_SUBFST054_00160_SYSTEM_000_20","敵の気配を感じた！！"
+58,"TEXT_SUBFST054_00160_SYSTEM_000_21","敵の気配を感じた！！"
+59,"TEXT_SUBFST054_00160_SYSTEM_000_22","敵の気配を感じた！！"

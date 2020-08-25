@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB510_00879_SEQ_00","Fuandrec is a breath of fresh air in this house of tears and melancholy─very angry air. She needs you to find someone, and quick."
-1,"TEXT_GAIUSB510_00879_SEQ_01","Fuandrec's feckless cousin is late for a burial, not the first time he has failed to mark the time. There is naught to do but for you to look for a suitably slipshod person near Halatali."
-2,"TEXT_GAIUSB510_00879_SEQ_02","Near the ruin of training grounds, you encounter a pair of escaped Coliseum soulkin about to slice a wayfarer to pieces. Rather than wax philosophical, you dispatch the doctores and save Fuandrec's cousin. Report the happy news to her."
-3,"TEXT_GAIUSB510_00879_SEQ_03","You speak with Fuandrec and tactfully leave out her cousin's mention of her “overtight” corset lacing. However, judging from Fuandrec's own barbs, they are a two of a kind."
+0,"TEXT_GAIUSB510_00879_SEQ_00","聖アダマ・ランダマ教会のフアンドレックは、探してほしい人がいるようだ。"
+1,"TEXT_GAIUSB510_00879_SEQ_01","葬儀に参列するはずの親戚がまだ来ないらしい。「ハラタリ修練所」周辺へ向かい、フアンドレックの親戚「いい加減そうな旅人」を探そう。"
+2,"TEXT_GAIUSB510_00879_SEQ_02","<Sheet(BNpcName,1188,0)/>を倒し、旅人を救助した。聖アダマ・ランダマ教会の「フアンドレック」に報告しよう。"
+3,"TEXT_GAIUSB510_00879_SEQ_03","フアンドレックに報告をした。フアンドレックは、2回葬儀をせずにすんだと胸をなでおろしていた。"
 4,"TEXT_GAIUSB510_00879_SEQ_04",""
 5,"TEXT_GAIUSB510_00879_SEQ_05",""
 6,"TEXT_GAIUSB510_00879_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSB510_00879_SEQ_21",""
 22,"TEXT_GAIUSB510_00879_SEQ_22",""
 23,"TEXT_GAIUSB510_00879_SEQ_23",""
-24,"TEXT_GAIUSB510_00879_TODO_00","Find a slipshod wayfarer."
-25,"TEXT_GAIUSB510_00879_TODO_01","Report to Fuandrec."
+24,"TEXT_GAIUSB510_00879_TODO_00","いい加減そうな旅人を探す"
+25,"TEXT_GAIUSB510_00879_TODO_01","フアンドレックに報告"
 26,"TEXT_GAIUSB510_00879_TODO_02",""
 27,"TEXT_GAIUSB510_00879_TODO_03",""
 28,"TEXT_GAIUSB510_00879_TODO_04",""
@@ -49,12 +49,24 @@ int32,str,str
 45,"TEXT_GAIUSB510_00879_TODO_21",""
 46,"TEXT_GAIUSB510_00879_TODO_22",""
 47,"TEXT_GAIUSB510_00879_TODO_23",""
-48,"TEXT_GAIUSB510_00879_FUANDREC_000_000","Where <Emphasis>is</Emphasis> that turnip-head? We have already waited some hours for my cousin, and still he dallies Thal knows where. He is ever late, I do not understand why he cannot simply depart early!"
-49,"TEXT_GAIUSB510_00879_FUANDREC_000_001","Still, I confess, I am fond of the fool. I would go look for him but his route winds close to the Halatali training grounds, and they say 'tis a romp of beasts there─beasts of the most dangerous kind."
-50,"TEXT_GAIUSB510_00879_FUANDREC_000_002","You <Emphasis>are</Emphasis> an adventurer, and surely this is the sort of thing that, oh, I don't know, makes your blood sing, heart boil, or some such piffle. Will you look for my feckless cousin?"
-51,"TEXT_GAIUSB510_00879_DUMMY_000_010",""
-52,"TEXT_GAIUSB510_00879_NPC_000_020","Thank you, thank you, and thank you thrice! Saw those rather nasty brutes coming and thought...well, nothing much really beyond “AAARGH!” They really should take old Halatali down─the place has absolutely gone to pot."
-53,"TEXT_GAIUSB510_00879_NPC_000_021","Oh, look at the time. Mustn't keep the burial waiting too much longer. I s'pose my cousin Fuandrec, she of the overtight corset, is none too pleased."
-54,"TEXT_GAIUSB510_00879_FUANDREC_000_030","Oh, thank you! He is absolutely incorrigible, but to think we might have had to bury him as well! Then again, that's one burial he wouldn't have been late for. There's a thought."
-55,"TEXT_GAIUSB510_00879_POP_MESSAGE_000","You sense a hostile presence!"
-56,"TEXT_GAIUSB510_00879_ACCESS_MESSAGE","The enemy is still about!"
+48,"TEXT_GAIUSB510_00879_FUANDREC_000_000","遅いわねぇ、まだかしら……。
+葬儀に参列する予定の親戚が、いつになっても来ないのよ。
+……昔からいい加減で困ってるの。"
+49,"TEXT_GAIUSB510_00879_FUANDREC_000_001","探しに行きたいのは、やまやまなんだけど……。
+彼ってば「ハラタリ修練所」の近くを通ってくるらしいの。
+ほら、あの辺りって魔物がたくさんでしょう？"
+50,"TEXT_GAIUSB510_00879_FUANDREC_000_002","……あなた、冒険者さんよねぇ？
+私のかわりに、うちの親戚を探してきてくれないかしら？"
+51,"TEXT_GAIUSB510_00879_DUMMY_000_010","　ハラタリ修練所方面でＮＰＣに近づくとデュラハン×２沸き
+　ＮＰＣにアクセスして「救助」
+　「救助」するとお礼を言ってウォークアウトする"
+52,"TEXT_GAIUSB510_00879_NPC_000_020","ありがとう、助かったよ……。
+見慣れない魔物に襲われて、もうだめかと……。
+ハラタリ修練所の近くなんて、通るもんじゃないな。"
+53,"TEXT_GAIUSB510_00879_NPC_000_021","おっと、ずいぶんと遅れてしまった。
+……ヤバイなぁ、フアンドレック、怒ってるよなぁ……。"
+54,"TEXT_GAIUSB510_00879_FUANDREC_000_030","親戚を助けてくれたのね、ありがとう。
+危うく、2回も葬儀をするところだったわ。
+……まぁ、それでもよかったかもしれないけど……。"
+55,"TEXT_GAIUSB510_00879_POP_MESSAGE_000","敵の気配を感じた！！"
+56,"TEXT_GAIUSB510_00879_ACCESS_MESSAGE","その行動は出現した敵を倒さないと実行できません"

@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSMIN530_02081_SEQ_00","Haimirich is raring to go."
-1,"TEXT_CLSMIN530_02081_SEQ_01","House Fortemps has asked that Oschon's Raiders survey the Coerthas western highlands. They are interested in the mythrite that may lie beneath the region. Haimirich therefore tasks you with discovering whether or not a sufficient quantity of pure ore can be pulled from underground. With your marching orders now set, Haimirich bids you join him and his men to the south end of the Black Iron Bridge."
-2,"TEXT_CLSMIN530_02081_SEQ_02","You find Oschon's Raiders idling near the south end of the bridge. However, all jump to attention when Haimirich calls, and they listen attentively as he gives them their individual orders. Finally, he comes to you, and tells you to find ten chunks of high-quality mythrite ore in the area. Begin your search at the mineral deposits near the Gorgagne Holding, and return to Haimirich with your findings when finished."
-3,"TEXT_CLSMIN530_02081_SEQ_03","Haimirich gladly accepts the mythrite ore just before Hatchling comes running with ill tidings─one of the Raiders has been injured. The Raider captain wastes no time in sending the man to Falcon's Nest for treatment, and then treats you and Hatchling to his thoughts on being a sellsword before returning to the Forgotten Knight. Meet with him there when you head back to Ishgard."
-4,"TEXT_CLSMIN530_02081_SEQ_04","According to Haimirich, the wounded Raider will make a full recovery. He thanks you again, and bids you make yourself ready for when the next job comes down from House Fortemps.
+0,"TEXT_CLSMIN530_02081_SEQ_00","忘れられた騎士亭のハイムリックは、初任務を冒険者に伝えたいようだ。"
+1,"TEXT_CLSMIN530_02081_SEQ_01","傭兵団に命じられたのは、クルザス西部高地での資源調査だった。クルザス西部高地のブラックアイアン・ブリッジで「ハイムリック」と合流しよう。"
+2,"TEXT_CLSMIN530_02081_SEQ_02","傭兵たちが周囲を警戒する中、冒険者は<Sheet(ItemHQ,12534,0)/>の試掘を行うことになった。ブラックアイアン・ブリッジの「ハイムリック」に「<Sheet(ItemHQ,12534,0)/>」を10個納品しよう。<Sheet(ItemHQ,12534,0)/>は、リバーズミートの北方、ゴルガニュ牧草地付近の採掘場で採掘できる。"
+3,"TEXT_CLSMIN530_02081_SEQ_03","<Sheet(ItemHQ,12534,0)/>を、ハイムリックに納品した。負傷者は出たが、冒険者の参加した任務は無事に終わりそうだ。忘れられた騎士亭の「ハイムリック」に報告しよう。"
+4,"TEXT_CLSMIN530_02081_SEQ_04","ハイムリックと話した。次に待つ任務でより高い技術を要求されてもいいよう、腕を磨いておこう。
 
-※The next miner quest will be available from Haimirich upon reaching level 55."
+※採掘師のレベルが55以上になると、忘れられた騎士亭のハイムリックから次の採掘師クエストを受注することができます。"
 5,"TEXT_CLSMIN530_02081_SEQ_05",""
 6,"TEXT_CLSMIN530_02081_SEQ_06",""
 7,"TEXT_CLSMIN530_02081_SEQ_07",""
@@ -27,9 +27,9 @@ int32,str,str
 21,"TEXT_CLSMIN530_02081_SEQ_21",""
 22,"TEXT_CLSMIN530_02081_SEQ_22",""
 23,"TEXT_CLSMIN530_02081_SEQ_23",""
-24,"TEXT_CLSMIN530_02081_TODO_00","Speak with Haimirich at the Black Iron Bridge."
-25,"TEXT_CLSMIN530_02081_TODO_01","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Mine mythrite ore <Sheet(Addon,9,0)/><Else/>Deliver the chunks of mythrite ore <Sheet(Addon,9,0)/> to Haimirich</If>."
-26,"TEXT_CLSMIN530_02081_TODO_02","Speak with Haimirich in Ishgard."
+24,"TEXT_CLSMIN530_02081_TODO_00","ブラックアイアン・ブリッジでハイムリックと合流"
+25,"TEXT_CLSMIN530_02081_TODO_01","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))><Sheet(ItemHQ,12534,0)/>を採掘<Else/>ブラックアイアン・ブリッジのハイムリックに<Sheet(ItemHQ,12534,0)/>を納品</If>"
+26,"TEXT_CLSMIN530_02081_TODO_02","イシュガルドのハイムリックと話す"
 27,"TEXT_CLSMIN530_02081_TODO_03",""
 28,"TEXT_CLSMIN530_02081_TODO_04",""
 29,"TEXT_CLSMIN530_02081_TODO_05",""
@@ -51,37 +51,88 @@ int32,str,str
 45,"TEXT_CLSMIN530_02081_TODO_21",""
 46,"TEXT_CLSMIN530_02081_TODO_22",""
 47,"TEXT_CLSMIN530_02081_TODO_23",""
-48,"TEXT_CLSMIN530_02081_HEIMIRICH_000_000","Professor! We've gotten a job from House Fortemps. Are you ready for your first time out with the Raiders?"
-49,"TEXT_CLSMIN530_02081_HEIMIRICH_000_001","Good, good. We're goin' to survey the western highlands an' see if we can't find any veins of mythrite. I'll need you to dig samples from the area an' see if there's enough pure ore to mine proper."
-50,"TEXT_CLSMIN530_02081_HEIMIRICH_000_002","We'll meet at the south end o' the Black Iron Bridge. Me an' the lads'll go ahead an' clear out some o' the monsters before you get there. Don't keep us waitin' too long!"
-51,"TEXT_CLSMIN530_02081_HEIMIRICH_000_010","Remember, at the south end o' the Black Iron Bridge. An' I wouldn't stray too far from the path, if I were you."
-52,"TEXT_CLSMIN530_02081_BABYCHOCO_000_015","It's yer first time out, Professor. Don't muck it up!"
-53,"TEXT_CLSMIN530_02081_STRONGARM_000_020","You are the one called Professor?"
-54,"TEXT_CLSMIN530_02081_HEIMIRICH_000_040","Glad you joined us, Professor. Lads, <Emphasis>lads</Emphasis>─stop up your gobs!"
-55,"TEXT_CLSMIN530_02081_HEIMIRICH_000_041","Hatchlin', keep watch─I don't want anythin' takin' us unawares. Muscles, scout out what routes could be used for takin' the haul back to Ishgard. I want the pros an' cons of each, too. All of you, keep up your guard, an' don't get cocky. That goes double for you, Hatchlin'!"
-56,"TEXT_CLSMIN530_02081_HEIMIRICH_000_042","Professor, start diggin' for mythrite down by the Gorgagne Holdin'. Come back here when you've pulled a few bits o' quality ore out the ground."
-57,"TEXT_CLSMIN530_02081_HEIMIRICH_000_043","Ten chunks'll be proof o' pure mythrite in these outcroppin's, an' that'll be enough for House Fortemps to develop the area. Now, Raiders─to your duties!"
-58,"TEXT_CLSMIN530_02081_BABYCHOCO_000_050","I'll watch yer back, Professor. None of us get paid if ye fail, so I promised the cap'n I'd keep ye safe."
-59,"TEXT_CLSMIN530_02081_STRONGARM_000_060","Yes?"
-60,"TEXT_CLSMIN530_02081_HEIMIRICH_000_080","Have you found ten bits o' choice mythrite? Can't go home till you do."
-61,"TEXT_CLSMIN530_02081_HEIMIRICH_000_090","Hah! I'd say it was well worth the trouble o' hirin' a proper miner from Ul'dah!"
-62,"TEXT_CLSMIN530_02081_BABYCHOCO_000_091","Cap'n, we got wounded!"
-63,"TEXT_CLSMIN530_02081_HEIMIRICH_000_092","...Muscles, get him to Falcon's Nest. Camp Riversmeet's closest, but that's more trouble than it's worth."
-64,"TEXT_CLSMIN530_02081_HEIMIRICH_000_093","Surveyin' sounds like a safe enough task when you've got an army. But we don't have an army. 'Tis a miracle we didn't lose any men this time 'round..."
-65,"TEXT_CLSMIN530_02081_HEIMIRICH_000_094","<sigh> Ah, but that's a sellsword's lot, isn't it?"
-66,"TEXT_CLSMIN530_02081_HEIMIRICH_000_095","See, knights are brave, honorable people, all competin' to see who's bravest and most honorable. They'll throw themselves into dragon fire to win honor in the eyes o' the High Houses."
-67,"TEXT_CLSMIN530_02081_HEIMIRICH_000_096","But not a one of them'll jump for this kind o' work. So they'll find someone what's willin' to do it, an' pass it off to them. Sometimes, that's their own men, an' sometimes it ain't."
-68,"TEXT_CLSMIN530_02081_BABYCHOCO_000_097","Cap'n...are ye sayin' one of ours could've been killed 'cause the nobles think themselves too bloody good for the work!?"
-69,"TEXT_CLSMIN530_02081_HEIMIRICH_000_098","Aye, that's the long an' short of it. But, Hatchlin', <Emphasis>I'm</Emphasis> the one who offered up the Raiders' services. The work's dangerous, but we win favor doin' it. An' House Fortemps, they're fair-minded folk. They <Emphasis>will</Emphasis> give us better when the time comes."
-70,"TEXT_CLSMIN530_02081_HEIMIRICH_000_099","But to get it, we've got to be able to put our swords forward, no matter what. That's how you become successful as a sellsword."
-71,"TEXT_CLSMIN530_02081_BABYCHOCO_000_100","Shite business, if ye ask me."
-72,"TEXT_CLSMIN530_02081_HEIMIRICH_000_101","If you can get out, by all means get out. None o' my lads came to this life willingly. Some drifted into it, others came tumblin' down to it."
-73,"TEXT_CLSMIN530_02081_HEIMIRICH_000_102","There's one as took to crime an' lost his home. Another lost a lover an' needed a new home. There's only one breed o' strays I don't take─them what want a place to die."
-74,"TEXT_CLSMIN530_02081_HEIMIRICH_000_103","They're bad for business an' bad for the company. So tell me, Hatchlin', why're you here?"
-75,"TEXT_CLSMIN530_02081_BABYCHOCO_000_104","I...I came 'cause I want glory. An' a name─I want to win meself one of them!"
-76,"TEXT_CLSMIN530_02081_HEIMIRICH_000_105","Wrong soddin' place for you, then! But I'll keep you. You're not half bad with a blade!"
-77,"TEXT_CLSMIN530_02081_HEIMIRICH_100_105","Well, let's get back to Ishgard. I'd kill for a hot bowl o' soup after this cold!"
-78,"TEXT_CLSMIN530_02081_HEIMIRICH_000_130","Seems our wounded lad'll make a full recovery, Professor. Fast enough to join us the next time out, even."
-79,"TEXT_CLSMIN530_02081_HEIMIRICH_000_131","Really, I'm blessed to have this lot. Hells, even Hatchlin's a better sword than I was at his age."
-80,"TEXT_CLSMIN530_02081_HEIMIRICH_000_132","Anyroad, keep honin' your instincts, eh? Our next job's like to be harder an' dirtier than this one, an' you'll want to be sharp for it!"
-81,"TEXT_CLSMIN530_02081_SYSTEM_000_900","In breaking new ground as a miner, you have learned “Stone Whisperer V”!"
+48,"TEXT_CLSMIN530_02081_HEIMIRICH_000_000","我が隊に先生を迎えて、初の任務が下ったぞ！
+クルザス西部高地での資源調査だ。
+どうか、よろしく頼む！"
+49,"TEXT_CLSMIN530_02081_HEIMIRICH_000_001","任地となる場所では、以前の調査で、
+「<Sheet(ItemHQ,12534,0)/>」が見つかっている。
+先生に腕をふるってもらい、埋蔵量推定の材料としたい。"
+50,"TEXT_CLSMIN530_02081_HEIMIRICH_000_002","さて、任務の手はずだが……。
+クルザス西部高地で合流後、すぐに調査を開始する。
+「ブラックアイアン・ブリッジ」南西で落ち合おう。"
+51,"TEXT_CLSMIN530_02081_HEIMIRICH_000_010","さて、任務の手はずだが……。
+クルザス西部高地で合流後、すぐに調査を開始する。
+「ブラックアイアン・ブリッジ」南西で落ち合おう。"
+52,"TEXT_CLSMIN530_02081_BABYCHOCO_000_015","ヘヘッ、先生！
+よろしくな！"
+53,"TEXT_CLSMIN530_02081_STRONGARM_000_020","……あんたが「先生」か？"
+54,"TEXT_CLSMIN530_02081_HEIMIRICH_000_040","よーし、先生のご到着だ！
+全員、傾注！"
+55,"TEXT_CLSMIN530_02081_HEIMIRICH_000_041","ひなチョコは、試掘地周辺の魔物などの脅威を調べろ！
+剛力は、想定されうる資源の搬出ルートと、そのリスクの分析。
+くれぐれも周囲の警戒を怠るな……特にひなチョコ、お前はな！"
+56,"TEXT_CLSMIN530_02081_HEIMIRICH_000_042","先生はリバーズミートの北方、ゴルガニュ牧草地周辺の地域にて、
+「<Sheet(ItemHQ,12534,0)/>」を10個ほど試掘。
+完了したら、この場所まで届けてくれ！"
+57,"TEXT_CLSMIN530_02081_HEIMIRICH_000_043","今回の調査記録から、鉱脈の有無、および鉱石の品質を確認し、
+資源地たりうるかの判断材料とする。
+……では、任務開始！"
+58,"TEXT_CLSMIN530_02081_BABYCHOCO_000_050","先生、頼んだっすよ！
+オレら全員の給金が、先生の試掘結果にかかってるんすから！"
+59,"TEXT_CLSMIN530_02081_STRONGARM_000_060","……おう。"
+60,"TEXT_CLSMIN530_02081_HEIMIRICH_000_080","リバーズミートの北方、ゴルガニュ牧草地周辺で試掘した、
+「<Sheet(ItemHQ,12534,0)/>」10個をオレに届けてもらえれば、
+任務は完了だ！"
+61,"TEXT_CLSMIN530_02081_HEIMIRICH_000_090","無事に試掘を終えたようだな！
+さすがの手際というべきか。
+はるばる、ウルダハから招聘した甲斐があったよ！"
+62,"TEXT_CLSMIN530_02081_BABYCHOCO_000_091","隊長、試掘地周辺の魔物に襲われ、負傷者が！
+命に別状はありませんが……。"
+63,"TEXT_CLSMIN530_02081_HEIMIRICH_000_092","……ふむ、リバーズミートに最寄りの拠点があるが、
+最近あそこは物騒だ……。
+剛力、怪我人をファルコンネストまで運べるか？"
+64,"TEXT_CLSMIN530_02081_HEIMIRICH_000_093","思ったより、危険な仕事だろう？
+大部隊であれば簡単な仕事だが、何せこの寡兵だ。
+今回はこの程度で済んだが、時には死者だって出る……。"
+65,"TEXT_CLSMIN530_02081_HEIMIRICH_000_094","イシュガルドでは、教皇庁直属の神殿騎士団を除けば、
+どの騎兵団も、四大名家という貴族たちが率い、
+常に、その武名と功名を争っている。"
+66,"TEXT_CLSMIN530_02081_HEIMIRICH_000_095","騎士たちは、ドラゴン族相手の派手な戦には行きたがるが、
+オレたちがやってるような、兵站にかかわる地味で辛い任務は、
+誰もやりたがらず、おたがいに押しつけあってるのが現状だ。"
+67,"TEXT_CLSMIN530_02081_HEIMIRICH_000_096","実際、この任務もな……
+フォルタン家の旦那がどうにも困っていたもので、
+オレのほうから申し出て、引き受けたというのが真実さ。"
+68,"TEXT_CLSMIN530_02081_BABYCHOCO_000_097","……ってことは、貴族たちの内輪揉めのせいで、
+俺たちは負傷者を出したってコトっすか！？"
+69,"TEXT_CLSMIN530_02081_HEIMIRICH_000_098","ああそうだ、だが引き受けたのはオレの判断だ。
+ここで恩を売っときゃ、話のわかる旦那から、
+おいしい任務もまわしてもらえるからな。"
+70,"TEXT_CLSMIN530_02081_HEIMIRICH_000_099","……わかるか、オレたちゃ危ない橋を渡ってでも、
+隊をまわさなきゃなんない立場なんだ。
+せめて負傷したヤツにゃ、傷病手当をはずんでもらうつもりだが。"
+71,"TEXT_CLSMIN530_02081_BABYCHOCO_000_100","はぁ……薄々感づいてたっすけど、
+傭兵稼業って、割に合わない仕事っすね。"
+72,"TEXT_CLSMIN530_02081_HEIMIRICH_000_101","ほかの仕事をやれるヤツは、そっちをやればいい。
+ウチの隊の連中は、流れ流れてここに行きついた、
+不器用なヤツらばかりだ。"
+73,"TEXT_CLSMIN530_02081_HEIMIRICH_000_102","罪で故郷を追われ、戻る場所を失くしたヤツ。
+恋人に死なれて、新しい生き方を探してるヤツ。
+……ただ、ひとつだけ採らない条件がある。"
+74,"TEXT_CLSMIN530_02081_HEIMIRICH_000_103","それは、「死に場所を求めてるヤツ」だ！
+ほかの連中の迷惑だからな……。
+……ひなチョコ、お前はどうだ？"
+75,"TEXT_CLSMIN530_02081_BABYCHOCO_000_104","うーん……オレは手柄を立てて、名を上げたいだけっす！"
+76,"TEXT_CLSMIN530_02081_HEIMIRICH_000_105","はっ、そりゃ働く場所を間違えたな！
+ま、今日みたいにやることやってりゃ、クビにはせんよ。"
+77,"TEXT_CLSMIN530_02081_HEIMIRICH_100_105","さて、任務は完了だ……！
+皇都に戻って、熱いスープにありつこうぜ！"
+78,"TEXT_CLSMIN530_02081_HEIMIRICH_000_130","先生、初任務、おつかれさん。
+負傷者も軽傷だったみたいでな、次の任務から復帰できるそうだ！"
+79,"TEXT_CLSMIN530_02081_HEIMIRICH_000_131","先生をはじめ、オレは隊員にゃ恵まれてる。
+イマイチ頼りない、ひなチョコですら、
+若いころのオレより、よっぽど優秀だからな！"
+80,"TEXT_CLSMIN530_02081_HEIMIRICH_000_132","次もまた、キッツイ任務がくるぞ。
+それまで、鋭気をたくわえといてくれ！"
+81,"TEXT_CLSMIN530_02081_SYSTEM_000_900","採掘師として、心・技ともに新たなる高みに到達し、
+「ストーンウィスパラーV」を修得しました！"

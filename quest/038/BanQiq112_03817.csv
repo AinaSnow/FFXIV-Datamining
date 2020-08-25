@@ -1,10 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANQIQ112_03817_SEQ_00","Qhoterl Pasol is attempting, unsuccessfully, to close her nostrils.
+0,"TEXT_BANQIQ112_03817_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト受注クラス・ジョブ制限<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+※本クエストは受注時のクラスでのみ進行します。
 
-※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
-1,"TEXT_BANQIQ112_03817_SEQ_01","Deliver the requested items to Qhoterl Pasol."
+ホパル古盤のコテルリ・パソリは、汚れを落としたいようだ。"
+1,"TEXT_BANQIQ112_03817_SEQ_01","コテルリ・パソリに依頼された品を納品"
 2,"TEXT_BANQIQ112_03817_SEQ_02",""
 3,"TEXT_BANQIQ112_03817_SEQ_03",""
 4,"TEXT_BANQIQ112_03817_SEQ_04",""
@@ -27,7 +28,7 @@ int32,str,str
 21,"TEXT_BANQIQ112_03817_SEQ_21",""
 22,"TEXT_BANQIQ112_03817_SEQ_22",""
 23,"TEXT_BANQIQ112_03817_SEQ_23",""
-24,"TEXT_BANQIQ112_03817_TODO_00","<If(Equal(IntegerParameter(4),16))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Mine splendid natron in the depths of Lake Tusi Mek'ta<Else/>Deliver the splendid natron to Qhoterl Pasol</If><Else/><If(Equal(IntegerParameter(4),17))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Gather splendid marimo in the depths of Lake Tusi Mek'ta<Else/>Deliver the splendid marimo to Qhoterl Pasol</If><Else/><If(Equal(IntegerParameter(4),18))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Spearfish a splendid sponge in the depths of Lake Tusi Mek'ta<Else/>Deliver the splendid sponge to Qhoterl Pasol</If><Else/></If></If></If>."
+24,"TEXT_BANQIQ112_03817_TODO_00","<If(Equal(IntegerParameter(4),16))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>トゥシ・メキタ湖の水中の岩場で<Sheet(Item,IntegerParameter(5),0)/>を砕岩<Else/>コテルリ・パソリに<Sheet(Item,IntegerParameter(5),0)/>を納品</If><Else/><If(Equal(IntegerParameter(4),17))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>トゥシ・メキタ湖の水中の草刈場で<Sheet(Item,IntegerParameter(5),0)/>を草刈<Else/>コテルリ・パソリに<Sheet(Item,IntegerParameter(5),0)/>を納品</If><Else/><If(Equal(IntegerParameter(4),18))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>トゥシ・メキタ湖の水中で<Sheet(Item,IntegerParameter(5),0)/>を刺突漁<Else/>コテルリ・パソリに<Sheet(Item,IntegerParameter(5),0)/>を納品</If><Else/></If></If></If>"
 25,"TEXT_BANQIQ112_03817_TODO_01",""
 26,"TEXT_BANQIQ112_03817_TODO_02",""
 27,"TEXT_BANQIQ112_03817_TODO_03",""
@@ -51,15 +52,36 @@ int32,str,str
 45,"TEXT_BANQIQ112_03817_TODO_21",""
 46,"TEXT_BANQIQ112_03817_TODO_22",""
 47,"TEXT_BANQIQ112_03817_TODO_23",""
-48,"TEXT_BANQIQ112_03817_QHOTERLPASOL_000_000","Sometimes I wish I didn't have such a sensitive nose. When the workers come back from the caves, they carry with them the most pungent of odors! It really is quite unbearable!"
-49,"TEXT_BANQIQ112_03817_QHOTERLPASOL_000_001","Unfortunately, even a thorough scrubbing with warm water does little to remove the stench. I fear there is little choice but to resort to a rarely used treatment, and as you can imagine, the ingredients required are also rather rare themselves..."
-50,"TEXT_BANQIQ112_03817_QHOTERLPASOL_000_010","First, I'll need roughly three pinches of natron. Your cooperation will be most appreciated, I assure you!"
-51,"TEXT_BANQIQ112_03817_QHOTERLPASOL_000_020","First, I'll need roughly three marimo. Your cooperation will be most appreciated, I assure you!"
-52,"TEXT_BANQIQ112_03817_QHOTERLPASOL_000_030","First, I'll need a sponge, the living sort, but you'll need to hook the little scoundrel with your spear as they're far too crafty to take any bait. Your cooperation will be most appreciated, I assure you!"
-53,"TEXT_BANQIQ112_03817_SYSTEM_100_040","In order to proceed with this quest, you must first complete the quest “A New Fishing Ex-spear-ience” and unlock spearfishing."
-54,"TEXT_BANQIQ112_03817_QHOTERLPASOL_000_040","Oh! I forgot to mention that you'll need to dive into the waters of Lake Tusi Mek'ta to find it!"
-55,"TEXT_BANQIQ112_03817_QHOTERLPASOL_000_050","Oh! I forgot to mention that you'll need to dive into the waters of Lake Tusi Mek'ta to find them!"
-56,"TEXT_BANQIQ112_03817_QHOTERLPASOL_000_060","It seems that Lake Tusi Mek'ta is relatively free of large, flesh-eating beasts, so your chances of being devoured alive are actually quite low! Welcome news, I'm sure!"
-57,"TEXT_BANQIQ112_03817_QHOTERLPASOL_000_070","Have you brought what I asked for? Please say you have!"
-58,"TEXT_BANQIQ112_03817_QHOTERLPASOL_000_080","Marvelous! Once the concoction is ready, those reeking reprobates will be the very pinnacle of cleanliness in just a few scrubs!"
-59,"TEXT_BANQIQ112_03817_QHOTERLPASOL_000_081","At the top of my list of candidates are my husband and son. Their combined stench is enough to curdle milk!"
+48,"TEXT_BANQIQ112_03817_QHOTERLPASOL_000_000","まったく酷いものでありまする～。
+何がかと言いますと、探索から帰還した者たちの、
+汚れや臭いのことでございまする～！"
+49,"TEXT_BANQIQ112_03817_QHOTERLPASOL_000_001","キタリ族は、清潔を好むもの～。
+あのような泥だらけの姿は、不憫でなりませぬ～。"
+50,"TEXT_BANQIQ112_03817_QHOTERLPASOL_000_010","皆の汚れを落とすため、トゥシ・メキタ湖の水中で、
+「<Sheet(Item,29526,0)/>」を3つほど、
+採ってきてくださいましな～。"
+51,"TEXT_BANQIQ112_03817_QHOTERLPASOL_000_020","皆の汚れを落とすため、トゥシ・メキタ湖の水中で、
+「<Sheet(Item,29552,0)/>」を3つほど、
+採ってきてくださいましな～。"
+52,"TEXT_BANQIQ112_03817_QHOTERLPASOL_000_030","皆の汚れを落とすため、トゥシ・メキタ湖の水中で
+「<Sheet(Item,29578,0)/>」を、獲ってきてくださいましな～。
+たしか、刺突漁とやらで獲れるはずでございまする～。"
+53,"TEXT_BANQIQ112_03817_SYSTEM_100_040","本クエストを進行するためには、
+クエスト「「刺突漁」で魚を狙え」を完了し、
+「刺突漁」を開放しておく必要があります。"
+54,"TEXT_BANQIQ112_03817_QHOTERLPASOL_000_040","皆の汚れを落とすため、トゥシ・メキタ湖の水中で、
+「<Sheet(Item,29526,0)/>」を3つほど、
+採ってきてくださいましな～。"
+55,"TEXT_BANQIQ112_03817_QHOTERLPASOL_000_050","皆の汚れを落とすため、トゥシ・メキタ湖の水中で、
+「<Sheet(Item,29552,0)/>」を3つほど、
+採ってきてくださいましな～。"
+56,"TEXT_BANQIQ112_03817_QHOTERLPASOL_000_060","皆の汚れを落とすため、トゥシ・メキタ湖の水中で
+「<Sheet(Item,29578,0)/>」を、獲ってきてくださいましな～。
+たしか、刺突漁とやらで獲れるはずでございまする～。"
+57,"TEXT_BANQIQ112_03817_QHOTERLPASOL_000_070","探索後の汚れきった姿は、見るに耐えませぬ～！
+依頼しましたものは、集まりましたでしょか～？"
+58,"TEXT_BANQIQ112_03817_QHOTERLPASOL_000_080","ありがとうございまする～。
+これなら頑固な汚れも、しっかり落ちて、
+心もすっきりするでしょ～！"
+59,"TEXT_BANQIQ112_03817_QHOTERLPASOL_000_081","さて、まずは一番汚れている夫とうちの子を、
+耳の先から爪の先まで、じっくり洗わなければ～！"

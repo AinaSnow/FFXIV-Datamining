@@ -1,8 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKZJ016_03579_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Sorashs Koal is staring forlornly at the alcoves high above."
+0,"TEXT_LUCKZJ016_03579_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+オンドの潮溜まりのソラスィー・コールは、岩壁を見つめている。"
 1,"TEXT_LUCKZJ016_03579_SEQ_01",""
 2,"TEXT_LUCKZJ016_03579_SEQ_02",""
 3,"TEXT_LUCKZJ016_03579_SEQ_03",""
@@ -26,8 +26,9 @@ Sorashs Koal is staring forlornly at the alcoves high above."
 21,"TEXT_LUCKZJ016_03579_SEQ_21",""
 22,"TEXT_LUCKZJ016_03579_SEQ_22",""
 23,"TEXT_LUCKZJ016_03579_SEQ_23",""
-24,"TEXT_LUCKZJ016_03579_TODO_00","Search for a great sea beast and slay it for its bones."
-25,"TEXT_LUCKZJ016_03579_TODO_01","Deliver the sea beast bones to Sorashs Koal."
+24,"TEXT_LUCKZJ016_03579_TODO_00","<Sheet(EObj,2010107,0)/>で待機し、
+<Sheet(BNpcName,8999,0)/>が現れたら討伐"
+25,"TEXT_LUCKZJ016_03579_TODO_01","ソラスィー・コールに<Sheet(EventItem,2002594,0)/>を渡す"
 26,"TEXT_LUCKZJ016_03579_TODO_02",""
 27,"TEXT_LUCKZJ016_03579_TODO_03",""
 28,"TEXT_LUCKZJ016_03579_TODO_04",""
@@ -50,14 +51,32 @@ Sorashs Koal is staring forlornly at the alcoves high above."
 45,"TEXT_LUCKZJ016_03579_TODO_21",""
 46,"TEXT_LUCKZJ016_03579_TODO_22",""
 47,"TEXT_LUCKZJ016_03579_TODO_23",""
-48,"TEXT_LUCKZJ016_03579_SORASHSKOAL_000_000","See you the portal high above? 'Tis the work of the ancientsss, like many structures scattered without, that we Ondo have since made our own."
-49,"TEXT_LUCKZJ016_03579_SORASHSKOAL_000_001","Alas, in the absence of flowing waters, I cannot reach my home as easssily as before. If only I had a device or tool to aid in climbing up and down..."
-50,"TEXT_LUCKZJ016_03579_SORASHSKOAL_000_002","The bones of a great sea beast might be useful to this end. Such creatures are not wont to linger in a sssingle place and are difficult to track, but they have been sighted not far from the Cups on occasion."
-51,"TEXT_LUCKZJ016_03579_SORASHSKOAL_000_003","As a koal, I have no chance of defeating these creatures, but you are not hampered by the lack of water. There is a trench to the northwest from which they sometimes emerge─will you go and ssslay one of these beasts for their bones?"
-52,"TEXT_LUCKZJ016_03579_SORASHSKOAL_000_005","I would not ask you to hunt these beasts in my ssstead had I the strength to do so myself. Alas, I am koal, and I do not..."
-53,"TEXT_LUCKZJ016_03579_SYETEM_000_005","You cast about looking for great beasts of the sort described by Sorashs Koal, but see nothing..."
-54,"TEXT_LUCKZJ016_03579_SORASHSKOAL_000_010","Ah, the finless one! Did you manage to find one of the beasts I described?"
-55,"TEXT_LUCKZJ016_03579_SORASHSKOAL_000_011","Thank you, my friend, thank you! With these bones, I can fashion a ladder to return to my home."
-56,"TEXT_LUCKZJ016_03579_SORASHSKOAL_000_012","It lies beyond that portal, as do the homes of many other koal. There we rest upon beds of sssoftest seaweed."
-57,"TEXT_LUCKZJ016_03579_SORASHSKOAL_000_013","These highest alcoves are for we youths who have yet to be granted eggs. Only the ooan who have been deemed worthy of this honor may live in the lower levels. Those in the deepest depths are reserved for the clutchmother and other female Ondo, as well as the most esssteemed elders of our people."
-58,"TEXT_LUCKZJ016_03579_SORASHSKOAL_000_014","Needless to say, the koal have ssstruggled greatly to adapt to this world without water. Though it would be far better were it to return, with this new ladder we can at least travel to and from our beds that much more easily."
+48,"TEXT_LUCKZJ016_03579_SORASHSKOAL_000_000","陸の者、あの高いところにある扉、見えるか？
+いにしえの者のつくりし、建て物、だが、
+いまは、オンドが、お借りしている。"
+49,"TEXT_LUCKZJ016_03579_SORASHSKOAL_000_001","高いから、水なくなったら、登れなくなった。
+飛び上がって、戻れなくも、ないが……。
+つたって登れるようなもの、ほしい。"
+50,"TEXT_LUCKZJ016_03579_SORASHSKOAL_000_002","おおきな骨とか、いいと思う。
+でも、おおきな生物、回遊しているから、見つけにくい。
+集落の周りで、見かけること、あるけど、たまに。"
+51,"TEXT_LUCKZJ016_03579_SORASHSKOAL_000_003","お礼、するから、「<Sheet(BNpcName,8999,0)/>」倒して、
+「<Sheet(EventItem,2002594,0)/>」、取ってきてほしい。
+俺コール、水ないと、倒せないから、お願い。"
+52,"TEXT_LUCKZJ016_03579_SORASHSKOAL_000_005","お礼、するから、「<Sheet(BNpcName,8999,0)/>」倒して、
+「<Sheet(EventItem,2002594,0)/>」、取ってきてほしい。
+俺コール、水ないと、倒せないから、お願い。"
+53,"TEXT_LUCKZJ016_03579_SYETEM_000_005","辺りに、<Sheet(BNpcName,8999,0)/>の姿はないようだ……。
+ほかの場所を探してみよう。"
+54,"TEXT_LUCKZJ016_03579_SORASHSKOAL_000_010","<Sheet(EventItem,2002594,0)/>、取れたか？"
+55,"TEXT_LUCKZJ016_03579_SORASHSKOAL_000_011","おお、ありがたい、ありがたい……！
+これで俺、自分の寝床、帰れる。"
+56,"TEXT_LUCKZJ016_03579_SORASHSKOAL_000_012","俺の寝床、あの高いところの扉の、奥にある。
+中は、ちいさな部屋、いっぱい。
+そこでみんな、海藻敷いたりして、寝床つくる。"
+57,"TEXT_LUCKZJ016_03579_SORASHSKOAL_000_013","オンドのコール、まだ卵もらえない若者だから、高いところ住む。
+オーン、卵もらえる立派な大人、低いところ住む。
+母王様やメス、あとは偉いオス、海底近く、住める。"
+58,"TEXT_LUCKZJ016_03579_SORASHSKOAL_000_014","だから年若いコール、水ないと、大変。
+はやく潮、戻ってほしいけど、
+この骨、あるなら、しばらく大丈夫、ありがとう。"

@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSWVR021_00535_SEQ_00","Redolent Rose would like to assign you your first task as a weaver."
-1,"TEXT_CLSWVR021_00535_SEQ_01","Satisfied with your ability to hold the needle he gave you, Redolent Rose would now like to see if you can use it. He has tasked you with preparing a spindle of hempen yarn, for which you will require moko grass and lightning shards. While the grass can be purchased from the guild supplier, the shards must be obtained elsewhere. Craft a spindle of hempen yarn and deliver it to the guildmaster."
-2,"TEXT_CLSWVR021_00535_SEQ_02","After a brief inspection, Redolent Rose acknowledges your ability to follow instructions. He bids you return for your next lesson once you have achieved basic proficiency.
+0,"TEXT_CLSWVR021_00535_SEQ_00","裁縫師ギルドへの入門を認められた冒険者。受け取った縫い針を装備して、レドレント・ローズに声をかけよう。"
+1,"TEXT_CLSWVR021_00535_SEQ_01","さっそく縫い針を使って<Sheet(Item,5333,0)/>を作るよう指示された。<Sheet(Item,5333,0)/>の材料となる「<Sheet(Item,5341,0)/>」は、裁縫師ギルド入口の裁縫師から購入できる。「<Sheet(Item,5333,0)/>」を1個製作し、裁縫師ギルドの「レドレント・ローズ」に渡そう。"
+2,"TEXT_CLSWVR021_00535_SEQ_02","冒険者が渡した<Sheet(Item,5333,0)/>を見たレドレント・ローズは、新米裁縫師として最初の課題をこなしたことを認めてくれたようだ。
 
-※The next weaver quest will be available from Redolent Rose upon reaching level 5."
+※裁縫師のレベルが5以上になると、レドレント・ローズから次の裁縫師クエストを受注することができます。"
 3,"TEXT_CLSWVR021_00535_SEQ_03",""
 4,"TEXT_CLSWVR021_00535_SEQ_04",""
 5,"TEXT_CLSWVR021_00535_SEQ_05",""
@@ -27,7 +27,7 @@ int32,str,str
 21,"TEXT_CLSWVR021_00535_SEQ_21",""
 22,"TEXT_CLSWVR021_00535_SEQ_22",""
 23,"TEXT_CLSWVR021_00535_SEQ_23",""
-24,"TEXT_CLSWVR021_00535_TODO_00","Deliver a spindle of hempen yarn to Redolent Rose."
+24,"TEXT_CLSWVR021_00535_TODO_00","レドレント・ローズに<Sheet(Item,5333,0)/>を納品"
 25,"TEXT_CLSWVR021_00535_TODO_01",""
 26,"TEXT_CLSWVR021_00535_TODO_02",""
 27,"TEXT_CLSWVR021_00535_TODO_03",""
@@ -51,21 +51,44 @@ int32,str,str
 45,"TEXT_CLSWVR021_00535_TODO_21",""
 46,"TEXT_CLSWVR021_00535_TODO_22",""
 47,"TEXT_CLSWVR021_00535_TODO_23",""
-48,"TEXT_CLSWVR021_00535_REDOLENTROSE_000","Well, well...you look like you were born to hold one of those."
-49,"TEXT_CLSWVR021_00535_REDOLENTROSE_001","Even so, I suggest you keep it somewhere safe─especially when clambering over haystacks─as I shan't be issuing you another."
-50,"TEXT_CLSWVR021_00535_REDOLENTROSE_002","Now, you certainly look the part, but it remains to be seen if you can play it. I bid you craft me a spindle of hempen yarn."
-51,"TEXT_CLSWVR021_00535_REDOLENTROSE_003","A trifling task, yes? Well, I do hope you find it so."
-52,"TEXT_CLSWVR021_00535_REDOLENTROSE_004","...Should it seem even <Emphasis>remotely</Emphasis> testing, you have no future at this guild."
-53,"TEXT_CLSWVR021_00535_REDOLENTROSE_005","To make hempen yarn, you will require moko grass and lightning shards. The former can be purchased from our own dear Gigima, the latter you will have to find for yourself."
-54,"TEXT_CLSWVR021_00535_REDOLENTROSE_006","That is all."
-55,"TEXT_CLSWVR021_00535_SYSTEM_000","To synthesize a spindle of hempen yarn for Redolent Rose, select <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Logs<UIGlow>01</UIGlow><UIForeground>01</UIForeground> from the main menu, followed by <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Crafting Log<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
-56,"TEXT_CLSWVR021_00535_REDOLENTROSE_010","Gigima can provide the moko grass, but you must procure the lightning shards."
-57,"TEXT_CLSWVR021_00535_REDOLENTROSE_011","Or have you made your yarn already?"
-58,"TEXT_CLSWVR021_00535_REDOLENTROSE_021","Well bless my soul! <If(PlayerParameter(4))>She<Else/>He</If> <Emphasis>can</Emphasis> follow basic instructions!"
-59,"TEXT_CLSWVR021_00535_REDOLENTROSE_022","It would seem you have grasped the fundamentals. Good <If(PlayerParameter(4))>girl<Else/>boy</If>."
-60,"TEXT_CLSWVR021_00535_REDOLENTROSE_023","Yarn and cloth may be mere materials, but they must be crafted with no less care than a whole garment."
-61,"TEXT_CLSWVR021_00535_REDOLENTROSE_024","For though the finest garments are greater than the sum of their parts, their parts are invariably the finest."
-62,"TEXT_CLSWVR021_00535_REDOLENTROSE_025","Do remember this, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, as you continue your training."
-63,"TEXT_CLSWVR021_00535_REDOLENTROSE_026","Practice making yarn and other simple items, and return once you have attained a basic level of proficiency."
-64,"TEXT_CLSWVR021_00535_REDOLENTROSE_027","Tedious, I grant you, but necessary─and you <Emphasis>did</Emphasis> tell me you were ready to suffer."
-65,"TEXT_CLSWVR021_00535_SYSTEM_001","The next weaver quest will be available from Redolent Rose upon reaching level 5."
+48,"TEXT_CLSWVR021_00535_REDOLENTROSE_000","あらあらあら、
+縫い針をちゃんと装備できたようね。"
+49,"TEXT_CLSWVR021_00535_REDOLENTROSE_001","いいこと？　針は裁縫師にとって一番大事な道具よ。
+乱暴に扱ったりしたら、針に代わって私が
+チクチクおしおきしちゃうんだから！"
+50,"TEXT_CLSWVR021_00535_REDOLENTROSE_002","身支度もできたことだし、
+早速あなたの腕を見せてもらおうかしら。
+その縫い針を使って「<Sheet(Item,5333,0)/>」を1個作ってちょうだい。"
+51,"TEXT_CLSWVR021_00535_REDOLENTROSE_003","「<Sheet(Item,5333,0)/>」は、ふわふわの「<Sheet(Item,5341,0)/>」をつむいで作る糸よ。"
+52,"TEXT_CLSWVR021_00535_REDOLENTROSE_004","「<Sheet(Item,5341,0)/>」は裁縫師ギルドの入り口にいる
+ギギマから買うことができるわ。"
+53,"TEXT_CLSWVR021_00535_REDOLENTROSE_005","そうそう！
+「<Sheet(Item,6,0)/>」も必要よ。
+作り始める前に、調達しておくことを忘れないで。"
+54,"TEXT_CLSWVR021_00535_REDOLENTROSE_006","考えてても裁縫の腕は上がらないわ。
+素材を使って実践あるのみ！
+さあいってらっしゃい。"
+55,"TEXT_CLSWVR021_00535_SYSTEM_000","「<Sheet(Item,5341,0)/>」から「<Sheet(Item,5333,0)/>」を製作してみましょう。
+メインコマンドの「手帳」から「製作手帳」を選び、
+製作を開始することができます。"
+56,"TEXT_CLSWVR021_00535_REDOLENTROSE_010","「<Sheet(Item,5341,0)/>」は裁縫師ギルドの入り口にいる
+ギギマから買うことができるわ。"
+57,"TEXT_CLSWVR021_00535_REDOLENTROSE_011","うふふ、あなたの作る「<Sheet(Item,5333,0)/>」はどんな手触りかしら……。"
+58,"TEXT_CLSWVR021_00535_REDOLENTROSE_021","あらやだ！
+この「<Sheet(Item,5333,0)/>」とってもなめらかね。
+あなたが丁寧につむいだのがよくわかるわ。"
+59,"TEXT_CLSWVR021_00535_REDOLENTROSE_022","「<Sheet(Item,5333,0)/>」は、縫い物をする職人にとって
+最も基本的な材料のひとつなの。"
+60,"TEXT_CLSWVR021_00535_REDOLENTROSE_023","たかが糸と思うかもしれないけど、とても大事なことなのよ？
+覚えておいてね。"
+61,"TEXT_CLSWVR021_00535_REDOLENTROSE_024","どんなに綺麗な布があっても
+不揃いな糸じゃ、いい服は縫えないわ。"
+62,"TEXT_CLSWVR021_00535_REDOLENTROSE_025","あなたの作った糸は、まずまず合格ね。
+これなら素敵なお洋服が縫えそう。"
+63,"TEXT_CLSWVR021_00535_REDOLENTROSE_026","この調子でいっぱい「<Sheet(Item,5333,0)/>」を作って練習しなさい。
+作って作って……作りあきたころに新しい課題をあげましょう。"
+64,"TEXT_CLSWVR021_00535_REDOLENTROSE_027","あなたが腕をあげてくるのが楽しみだわ。
+うふふ。"
+65,"TEXT_CLSWVR021_00535_SYSTEM_001","「裁縫師」のクラスクエストが開始されました。
+次のクエストは「レベル5」以上で受注可能になります。
+レベルを上げ、再度ギルドを訪れてください。"

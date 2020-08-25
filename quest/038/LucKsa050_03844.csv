@@ -1,13 +1,15 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKSA050_03844_SEQ_00","Gerolt looks ready to fire up his forge.
-※Changing classes or jobs will prevent progress during this quest."
-1,"TEXT_LUCKSA050_03844_SEQ_01","Thanks to your efforts and Cid's cooperation, everything is in place to begin reforging the blades of Gunnhildr, arms Gerolt would now refer to as resistance weapons. Before setting to work, however, Gerolt asks you to expound on your exploration of Cid's mind. This insight makes clear to him that the weapons require a final ingredient before they can be completed─a special powder highly conductive to aether. Much to his dismay, the one best suited to acquiring this for you is none other than Rowena. At the risk of incurring more debt, he asks you to meet with her in Kugane to make an arrangement on behalf of the Bozjan resistance.
+0,"TEXT_LUCKSA050_03844_SEQ_00","<UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>特殊ルール： クラス・ジョブ固定<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+ガンゴッシュのゲロルトは、「グンヒルドの剣」の復刻に取り掛かろうとしているようだ。"
+1,"TEXT_LUCKSA050_03844_SEQ_01","※本クエストには「<UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow><UIGlow>01</UIGlow><UIForeground>01</UIForeground> クラス・ジョブ固定」が、
+　設定されています。
+　受注時と同じクラス・ジョブでのみ進行できます。
 
-※You may not proceed with a class or job that is different from when you accepted this quest."
-2,"TEXT_LUCKSA050_03844_SEQ_02","Rowena has heard the details of your predicament from Gerolt, and is willing to provide you with the powder you require. It will, however, come at a cost to the Bozjan resistance. You are unsure of what this means for Bajsaljen and his comrades, but the deal is struck nevertheless. With matters settled in Kugane, you return to Gangos, eager to see the fruits of Gerolt's labor."
-3,"TEXT_LUCKSA050_03844_SEQ_03","Though you are too late to behold the masterful strikes of Gerolt's hammer on his anvil, you are fortunate enough to witness the final touches to the inscription. Armed as one of Gunnhildr's elite guard, you will soon be ready to help liberate the people of Bozja."
+ゲロルトの代わりに、特殊な粉末を受け取りに行くことになった。クガネのウミネコ茶屋にある「<Sheet(EObj,2011033,0)/>」で待機してロウェナを待とう。"
+2,"TEXT_LUCKSA050_03844_SEQ_02","ロウェナから「<Sheet(EventItem,2002994,0)/>」を預かった。ガンゴッシュの「ゲロルト」に「<Sheet(EventItem,2002994,0)/>」を渡そう。"
+3,"TEXT_LUCKSA050_03844_SEQ_03","ゲロルトに「<Sheet(EventItem,2002994,0)/>」を渡した。粉末を使い、武器に呪文を刻み込むことで「レジスタンス・ウェポン」が完成した。来たるべき反攻作戦に向けて、武器を手に馴染ませておこう。"
 4,"TEXT_LUCKSA050_03844_SEQ_04",""
 5,"TEXT_LUCKSA050_03844_SEQ_05",""
 6,"TEXT_LUCKSA050_03844_SEQ_06",""
@@ -28,8 +30,8 @@ int32,str,str
 21,"TEXT_LUCKSA050_03844_SEQ_21",""
 22,"TEXT_LUCKSA050_03844_SEQ_22",""
 23,"TEXT_LUCKSA050_03844_SEQ_23",""
-24,"TEXT_LUCKSA050_03844_TODO_00","Wait for Rowena at the Umineko Teahouse in Kugane."
-25,"TEXT_LUCKSA050_03844_TODO_01","Deliver the Thavnairian scalepowder to Gerolt at Gangos."
+24,"TEXT_LUCKSA050_03844_TODO_00","ウミネコ茶屋の<Sheet(EObj,2011033,0)/>で待機"
+25,"TEXT_LUCKSA050_03844_TODO_01","ガンゴッシュのゲロルトに<Sheet(EventItem,2002994,0)/>を渡す"
 26,"TEXT_LUCKSA050_03844_TODO_02",""
 27,"TEXT_LUCKSA050_03844_TODO_03",""
 28,"TEXT_LUCKSA050_03844_TODO_04",""
@@ -52,54 +54,131 @@ int32,str,str
 45,"TEXT_LUCKSA050_03844_TODO_21",""
 46,"TEXT_LUCKSA050_03844_TODO_22",""
 47,"TEXT_LUCKSA050_03844_TODO_23",""
-48,"TEXT_LUCKSA050_03844_SYSTEM_900_000","<Highlight>ObjectParameter(1)</Highlight>? I am Zlatan. It's an honor to meet you. I've not much experience with the forge, but it is my hope that I might improve working under Master Gerolt."
-49,"TEXT_LUCKSA050_03844_SYSTEM_901_000","The first step in my training appears to be getting him to remember my name..."
-50,"TEXT_LUCKSA050_03844_GEROLT_000_000","Yer here. Good. Ready to get workin' on the resistance weapons, <If(PlayerParameter(4))>lass<Else/>lad</If>?"
-51,"TEXT_LUCKSA050_03844_SYSTEM_800_000","Please note that upon completing the quest “Fire in the Forge,” you will receive a resistance weapon for <If(Equal(PlayerParameter(68),10))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),14))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),5))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),26))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),33))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/>a <Sheet(ClassJob,PlayerParameter(68),0)/></If></If></If></If></If>."
-52,"TEXT_LUCKSA050_03844_Q1_800_000","What will you do?"
-53,"TEXT_LUCKSA050_03844_A1_800_000","Undertake this quest as another job."
-54,"TEXT_LUCKSA050_03844_A2_800_000","Undertake this quest as <If(Equal(PlayerParameter(68),10))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),14))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),5))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),26))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),33))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/>a <Sheet(ClassJob,PlayerParameter(68),0)/></If></If></If></If></If>."
-55,"TEXT_LUCKSA050_03844_SYSTEM_800_001","Please speak with Gerolt again when you are ready to undertake this quest."
-56,"TEXT_LUCKSA050_03844_GEROLT_000_001","Ye like the name, “resistance weapon”?"
-57,"TEXT_LUCKSA050_03844_GEROLT_000_002","It crossed me mind to call 'em Gunnhildr's blades, but after talkin' with Misija, we figured it'd be too confusin', seein' as that's also the name o' the queen's guard."
-58,"TEXT_LUCKSA050_03844_GEROLT_000_003","Anyroad, yer timin' couldn't be better. Before we get to workin' in earnest, I was hopin' ye could tell me a bit more about what went on in Cid's noggin. I've heard a fair bit from Mikoto, but I'd like to know if you saw any different."
-59,"TEXT_LUCKSA050_03844_GEROLT_000_004","Hmm... Sounds like I was right to ask ye before settin' to work."
-60,"TEXT_LUCKSA050_03844_GEROLT_000_005","Seems to me those fancy markin's in the weapons are mainly for show. I can copy 'em, aye, but that won't be enough."
-61,"TEXT_LUCKSA050_03844_GEROLT_000_006","Like as not they were carved into the hilts as well. And to make sure the spell can take hold, ye'd need a finish with fine powder what's conductive to aether."
-62,"TEXT_LUCKSA050_03844_GEROLT_000_007","For material like that, I reckon ye'd need to consult the alchemists o' Radz–at–Han... <sigh> And I can only think o' one person with close contacts there."
-63,"TEXT_LUCKSA050_03844_Q2_000_100","What will you say?"
-64,"TEXT_LUCKSA050_03844_A1_000_100","Rowena...?"
-65,"TEXT_LUCKSA050_03844_A2_000_100","Oh gods, you don't mean...?"
-66,"TEXT_LUCKSA050_03844_GEROLT_000_015","Aye, the demoness o' coin."
-67,"TEXT_LUCKSA050_03844_GEROLT_000_016","But not to worry, <If(PlayerParameter(4))>lass<Else/>lad</If>. It just so happens she's been keepin' up a steady shipment o' supplies here on contract. If we say we need the powder fer the resistance, might be as we can convince her to waive the costs."
-68,"TEXT_LUCKSA050_03844_GEROLT_000_017","She ain't usually one to do business fer charity, I know, but it's worth a try, eh? I'll see about getting in touch with her, and after I do, you can go and meet with her an' figure out the rest."
-69,"TEXT_LUCKSA050_03844_GEROLT_000_018","Well ye don't expect <Emphasis>me</Emphasis> to go and meet with her, do ye? Workin' on the resistance weapons's kept me too busy by half, and Drake here─ Er, I mean... Uh... What was yer name again?"
-70,"TEXT_LUCKSA050_03844_ZLATAN_000_019","Zlatan, Master Gerolt. My name is Zlatan. But more importantly, what if Mistress Rowena doesn't agree to a charitable contribution to our cause?"
-71,"TEXT_LUCKSA050_03844_GEROLT_000_020","I'm sure if you an' Bajsaljen ask her nicely she might come 'round. But never mind that─we've important work to do."
-72,"TEXT_LUCKSA050_03844_GEROLT_000_021","As fer where to find Rowena, afore she left Gangos, she said she'd be stoppin' over in Kugane on business. How's about I have her meet ye at the Umineko Teahouse? If we're lucky, a nice cup o' tea'll brighten her mood."
-73,"TEXT_LUCKSA050_03844_GEROLT_000_040","Afraid I'll have to leave Rowena to you, <If(PlayerParameter(4))>lass<Else/>lad</If>. Me tryin' to bargain with her'd be like squeezin' blood from a stone."
-74,"TEXT_LUCKSA050_03844_ZLATAN_000_045","I fear Bajsaljen will not take well to Master Gerolt's plan. But I suppose it is for the sake of the resistance..."
-75,"TEXT_LUCKSA050_03844_ROWENA_000_070","(-???-)I was wonderin' when you'd show up. Gerolt told me everything."
-76,"TEXT_LUCKSA050_03844_ROWENA_000_071","And luckily for you, my business here was at the Thavnairian Consulate. Here you are. This should be enough powder for one of those resistance weapons you're forgin'."
-77,"TEXT_LUCKSA050_03844_ROWENA_000_072","I've got to hand it to Gerolt. Seems he spends half his time getting deeper in debt, and the other half avoiding payment."
-78,"TEXT_LUCKSA050_03844_ROWENA_000_073","Fine by me, though. Thanks to his schemin' I've a little more leverage over the resistance and, by extension, him as well."
-79,"TEXT_LUCKSA050_03844_ROWENA_000_074","Pass along a message to Gerolt and Bajsaljen for me, won't you? If they require more material for these weapons, I'd be more than happy to supply them. For a fee, of course."
-80,"TEXT_LUCKSA050_03844_ROWENA_000_075","Same goes for you. I know you adventurin' types are always lookin' to be prepared for any sort of encounter, so if you're thinkin' of forgin' another of these resistance weapons─and I suspect you are─you know where to go."
-81,"TEXT_LUCKSA050_03844_ROWENA_000_076","I'll see to it my girls in Revenant's Toll and Idyllshire keep their shelves stocked. Until next time."
-82,"TEXT_LUCKSA050_03844_ZLATAN_000_090","It has long been our wish to see the blades of Gunnhildr reforged, and it is for that purpose Bajsaljen has agreed to covering the required expenses. I but pray we are ready when Mistress Rowena demands recompense."
-83,"TEXT_LUCKSA050_03844_GEROLT_000_100","The weapon's nearly finished, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Just needs a nice coatin' with that powder to finish the inscription."
-84,"TEXT_LUCKSA050_03844_GEROLT_000_105","O' course she bloody found what we needed. As much as I hate fattenin' her purse with another man's coin, least now we can do our part fer the resistance."
-85,"TEXT_LUCKSA050_03844_GEROLT_000_120","Feast yer eyes on some of me finest work to date. Best of all, the inscription'll react to yer aether."
-86,"TEXT_LUCKSA050_03844_GEROLT_100_120","A right fine weapon to rally the Bozjans: <Sheet(Item,IntegerParameter(1),9)/>. I reckon Gunnhildr'd be proud."
-87,"TEXT_LUCKSA050_03844_GEROLT_101_120","A right fine sword an' shield to rally the Bozjans: <SheetEn(Item,3,IntegerParameter(1),1,1)/> and <SheetEn(Item,3,IntegerParameter(2),1,1)/>. I reckon Gunnhildr'd be proud."
-88,"TEXT_LUCKSA050_03844_ZLATAN_000_121","That I should behold the glory of the fabled blades born anew... Hope is not yet lost."
-89,"TEXT_LUCKSA050_03844_GEROLT_000_122","All in a day's work for yer ol' pal Gerolt. 'Course, this is only the beginning."
-90,"TEXT_LUCKSA050_03844_ZLATAN_000_123","Your skills with a hammer were truly a sight to behold, Master Gerolt. And to see <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> wielding one of their holy blades thus, it is as if I stand before one of the heroes of eld."
-91,"TEXT_LUCKSA050_03844_ZLATAN_000_124","When the time comes to do battle with the Empire, our brothers-in-arms will look upon you and know courage. On behalf of the Bozjan resistance, I offer you my humblest thanks for your aid thus far."
-92,"TEXT_LUCKSA050_03844_GEROLT_000_125","I'd love to start fresh on another weapon, but I had to use every last morsel o' the powder on that one."
-93,"TEXT_LUCKSA050_03844_ZLATAN_000_126","Meaning we would find ourselves indebted further to Mistress Rowena were we to acquire more... I must consult Bajsaljen before we proceed further."
-94,"TEXT_LUCKSA050_03844_GEROLT_000_127","Looks like we're takin' a short break then, eh? If you find yourself wantin' for another weapon, though, come an' speak with me helper here."
-95,"TEXT_LUCKSA050_03844_GEROLT_000_128","I think I've earned meself a nice, big flagon of ale tonight! To, uh...celebrate the forgin', o' course!"
-96,"TEXT_LUCKSA050_03844_SYSTEM_000_300","A repeatable quest is now available from Zlatan at Gangos. This quest may be accepted to create resistance weapons for other jobs."
-97,"TEXT_LUCKSA050_03844_SYSTEM_000_301","Please ensure you have changed to your desired job before speaking with Zlatan."
-98,"TEXT_LUCKSA050_03844_SYSTEM_000_302","Furthermore, Thavnairian scalepowder can now be purchased from Auriana at Revenant's Toll or Hismena at Idyllshire."
+48,"TEXT_LUCKSA050_03844_SYSTEM_900_000","私は整備兵でして、鍛冶の技術にも通じていることから、
+ゲロルト殿の助手を命じられたのですが……
+どうにも、彼に名前を覚えていただけないのですよ。"
+49,"TEXT_LUCKSA050_03844_SYSTEM_901_000","……ゲロルト殿の物覚えが悪いのではなく、
+根本的に、私に興味がないのだと思われます。"
+50,"TEXT_LUCKSA050_03844_GEROLT_000_000","おお、来たか！
+まさに今、「レジスタンス・ウェポン」の、
+試作に挑もうとしているところだぜ！"
+51,"TEXT_LUCKSA050_03844_SYSTEM_800_000","クエスト『「グンヒルドの剣」の復刻』にて入手できる武器は、
+現在のジョブ「<If(LessThan(PlayerParameter(68),8))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(GreaterThan(PlayerParameter(68),18))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/></If></If>」のレジスタンス・ウェポンとなります。
+『「グンヒルドの剣」の復刻』を「<If(LessThan(PlayerParameter(68),8))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(GreaterThan(PlayerParameter(68),18))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/></If></If>」で受けますか？"
+52,"TEXT_LUCKSA050_03844_Q1_800_000","<If(LessThan(PlayerParameter(68),8))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(GreaterThan(PlayerParameter(68),18))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/></If></If>のレジスタンス・ウェポンを作成しますか？"
+53,"TEXT_LUCKSA050_03844_A1_800_000","もう少し考える"
+54,"TEXT_LUCKSA050_03844_A2_800_000","<If(LessThan(PlayerParameter(68),8))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(GreaterThan(PlayerParameter(68),18))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/></If></If>のレジスタンス・ウェポンを作成する"
+55,"TEXT_LUCKSA050_03844_SYSTEM_800_001","作成したいレジスタンス・ウェポンに応じたジョブとなり、
+再度、ゲロルトに声をかけてください。"
+56,"TEXT_LUCKSA050_03844_GEROLT_000_001","「レジスタンス・ウェポン」ってのは、
+これから復刻する「グンヒルドの剣」に新たにつけた名前だ。"
+57,"TEXT_LUCKSA050_03844_GEROLT_000_002","「グンヒルドの剣」って言葉には、
+女王の親衛隊とその武器、両方の意味があるからな。
+全部同じように呼ンでちゃ、ややこしいだろう？"
+58,"TEXT_LUCKSA050_03844_GEROLT_000_003","しかし、丁度いいところに来たじゃねえか。
+いざ試作にあたる前に、もう一度詳しい話を聞きたかったンだ。
+「記憶探索」で目撃した内容を、改めて聞かせちゃくれねえか？"
+59,"TEXT_LUCKSA050_03844_GEROLT_000_004","なるほど…………いや、待てよ。
+……念には念をと、しつこく話を聞いておいてよかったぜ。"
+60,"TEXT_LUCKSA050_03844_GEROLT_000_005","俺の推測が正しけりゃ、
+テメェが見た刀身の銘文は、あくまで飾りに過ぎねぇ。
+単純に、表面に刻み込むだけじゃ駄目そうだぜ……。"
+61,"TEXT_LUCKSA050_03844_GEROLT_000_006","おそらく、使い手のエーテルに呪文が反応するように、
+柄や握り手の内側にも、同じ文言が刻まれてたはずなンだ……。
+エーテル伝導率が高い粉末を使ってな。"
+62,"TEXT_LUCKSA050_03844_GEROLT_000_007","ただ、現代の技術でそうした粉末の精製ができるのは、
+錬金術の本場ラザハンの連中くらいだろう。
+それを仕入れられる人物といえば……。"
+63,"TEXT_LUCKSA050_03844_Q2_000_100","何と言う？"
+64,"TEXT_LUCKSA050_03844_A1_000_100","もしかして、ロウェナ……？"
+65,"TEXT_LUCKSA050_03844_A2_000_100","嫌な予感が……"
+66,"TEXT_LUCKSA050_03844_GEROLT_000_015","察しがいいじゃねえか……。
+そう、ロウェナのババアなら調達も容易なはずだ。"
+67,"TEXT_LUCKSA050_03844_GEROLT_000_016","幸い、レジスタンスは物資の補給契約をロウェナ商会と結んでる。
+商会の連中が求める、石コロの備蓄も進めているはず……。
+となりゃ、ツケ払いでどうにかなるだろ！"
+68,"TEXT_LUCKSA050_03844_GEROLT_000_017","まあまあ、大概のことは後で何とかなるモンだって！！
+そうと決まりゃ、ロウェナのところへ行くのは任せたぜ！
+連絡はこっちでしておくからよ。"
+69,"TEXT_LUCKSA050_03844_GEROLT_000_018","俺は、ホラ、試作のための作業が山積みだからよ。
+助手のドレイク……はエオルゼアに置いてきたんだったな。
+レジスタンスの中から見つけた……え～っと……。"
+70,"TEXT_LUCKSA050_03844_ZLATAN_000_019","……整備兵のズラタンです。
+バイシャーエン様から直接仰せつかっておりますから、
+何でもお手伝いしますが……ツケ払いなんてして大丈夫ですか？"
+71,"TEXT_LUCKSA050_03844_GEROLT_000_020","そんなモン、後でお前が許可を取っておけば万事解決だろ？
+いいから、お前は俺と一緒に、
+とっても繊細で重大な作業に取り掛かるンだよ！"
+72,"TEXT_LUCKSA050_03844_GEROLT_000_021","というわけだ！　ロウェナは、ここを去るとき、
+商用でクガネにしばらく留まると言ってやがった。
+そうだな……「ウミネコ茶屋」で待ち合わせだと伝えておくぞ！"
+73,"TEXT_LUCKSA050_03844_GEROLT_000_040","ロウェナへの連絡は、俺からしておくからよ！
+いま、あの女に直接会うのは、気まず……
+あ、いや、重大な仕事だからこそ、お前に任せるのさ！"
+74,"TEXT_LUCKSA050_03844_ZLATAN_000_045","クガネのウミネコ茶屋まで、調達をお願いいたします。
+しかし……はぁ、バイシャーエン様になんて言えば……。"
+75,"TEXT_LUCKSA050_03844_ROWENA_000_070","(-？？？？-)あのハゲから、事情は聞いているわよ。
+クガネくんだりまで、ご苦労さま。"
+76,"TEXT_LUCKSA050_03844_ROWENA_000_071","ちょうどラザハン大使館で取引があってよかったわ。
+はい、これ……ご所望の品、「<Sheet(EventItem,2002994,0)/>」よ。
+これで武器一振り分くらいにはなるでしょう。"
+77,"TEXT_LUCKSA050_03844_ROWENA_000_072","しかし、ゲロルトったら、またツケ払いだなんて……。
+「後悔先に立たず」って言葉を知らないのかしら。"
+78,"TEXT_LUCKSA050_03844_ROWENA_000_073","これで、レジスタンスからさらに搾り取れるわ。
+ゲロルトの仕事も、彼らとの契約が完全に終わるまでは……
+ウフフ……フフ……。"
+79,"TEXT_LUCKSA050_03844_ROWENA_000_074","あなたからも、伝えておいて。
+「<Sheet(EventItem,2002994,0)/>」がもっと必要ならまた用意する、って。
+もちろん、追って対価を請求するけどね！"
+80,"TEXT_LUCKSA050_03844_ROWENA_000_075","ああ、もちろん、それはあなたも同様よ。
+冒険者なら、ひとつの戦いに固執することもないでしょうしね。
+別の武器を復刻させたいときは、いつでも取引に応じるわ。"
+81,"TEXT_LUCKSA050_03844_ROWENA_000_076","今後は、レヴナンツトールやイディルシャイアの子たちにも、
+「<Sheet(EventItem,2002994,0)/>」を取引させるつもりだから。
+それじゃ……またご贔屓にね。"
+82,"TEXT_LUCKSA050_03844_ZLATAN_000_090","「レジスタンス・ウェポン」完成は我らの悲願。
+必要経費だとバイシャーエン様にも認めてもらいました。
+ですが、あのロウェナ商会にツケとは……嗚呼、恐ろしい……。"
+83,"TEXT_LUCKSA050_03844_GEROLT_000_100","銘文自体の彫り込みは終わったぜ。
+あとは、「<Sheet(EventItem,2002994,0)/>」を銘文にコーティングすりゃ、
+「レジスタンス・ウェポン」完成だ！"
+84,"TEXT_LUCKSA050_03844_GEROLT_000_105","おお、無事に手に入れられたんだな！
+結局、あの女の懐だけがどんどん温まっていっているのは、
+やるせねえ気持ちにもなるが……これで、いよいよ完成だ！"
+85,"TEXT_LUCKSA050_03844_GEROLT_000_120","よし、使い手からのエーテルに反応して、
+武器の内側に刻んだ銘文が、しっかりと発動してやがる……。"
+86,"TEXT_LUCKSA050_03844_GEROLT_100_120","渾身の「レジスタンス・ウェポン」、
+「<Sheet(Item,IntegerParameter(1),0)/>」が完成したぜ！"
+87,"TEXT_LUCKSA050_03844_GEROLT_101_120","渾身の「レジスタンス・ウェポン」、
+「<Sheet(Item,IntegerParameter(1),0)/>」……
+そして、「<Sheet(Item,IntegerParameter(2),0)/>」が完成したぜ！"
+88,"TEXT_LUCKSA050_03844_ZLATAN_000_121","女王の親衛隊「グンヒルドの剣」が手にした「古の武器」……。
+それが今、我らの御旗として現代に蘇ったのですね！！"
+89,"TEXT_LUCKSA050_03844_GEROLT_000_122","ま、まずは一振り目だがな。
+試作ながらも完全な再現に成功するあたり、さすがゲロルト様だぜ！"
+90,"TEXT_LUCKSA050_03844_ZLATAN_000_123","まこと、ゲロルト殿の腕前は見事の一言に尽きます。
+解放者殿が武器をかかげたその御姿……
+幼き日に夢想した勇者の姿そのものでした！"
+91,"TEXT_LUCKSA050_03844_ZLATAN_000_124","その「レジスタンス・ウェポン」は、解放者殿がお持ちください。
+そして、反攻作戦の折にはどうか我らが御旗に……というのが、
+バイシャーエン様、ひいては我らの望みでございます。"
+92,"TEXT_LUCKSA050_03844_GEROLT_000_125","さて、この勢いのままもう一振り……といきたいが、
+「<Sheet(EventItem,2002994,0)/>」は、ぴったり使い切っちまった。
+続けての復刻には、またロウェナと取引をしなけりゃな。"
+93,"TEXT_LUCKSA050_03844_ZLATAN_000_126","……「グンヒルドの剣」の復活は我らの悲願。
+そのために必要な経費だと、バイシャーエン様に伝えておきます。
+なるべく、最低限に抑えたいところですがね。"
+94,"TEXT_LUCKSA050_03844_GEROLT_000_127","そういうわけだ。
+さらに「レジスタンス・ウェポン」がほしいと考えてるなら、
+まずは、この小僧と相談するんだな。"
+95,"TEXT_LUCKSA050_03844_GEROLT_000_128","いやあ、今夜はうまい酒が飲めそうだぜ！
+それじゃ、お前は御旗とやらがしっかり務まるよう、
+「レジスタンス・ウェポン」をちゃんと手に馴染ませておけよ！"
+96,"TEXT_LUCKSA050_03844_SYSTEM_000_300","これ以降、ガンゴッシュの「ズラタン」から、
+繰り返し受注できるクエストをコンプリートすることで、
+異なるジョブの「レジスタンス・ウェポン」を入手できます。"
+97,"TEXT_LUCKSA050_03844_SYSTEM_000_301","作成したいレジスタンス・ウェポンに応じたジョブとなり、
+ズラタンからクエストを受注してください。"
+98,"TEXT_LUCKSA050_03844_SYSTEM_000_302","また、以後「<Sheet(Item,30273,0)/>」を、
+レヴナンツトールの「オーリアナ」か、
+イディルシャイアの「ヒスメナ」から交換できるようになります。"

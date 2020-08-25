@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB304_00845_SEQ_00","Shamani Lohmani appears to be in deep thought."
-1,"TEXT_GAIUSB304_00845_SEQ_01","Reflecting on his past, Shamani Lohmani has decided that he cannot bear to disappoint his former captain, and he swears that he will find a suitable wine for the banquet. In the meantime, he asks that you deliver a bottle of his own original wine to Drest, a man who saved his life several years ago. Though he does not know exactly where Drest now lives, he does know that the man sometimes works at the Raincatcher Gully docks. Speak with Rhitskylt and see what he knows of Drest."
-2,"TEXT_GAIUSB304_00845_SEQ_02","Rhitskylt knows little of Drest, and is more than happy to keep it that way. However, he does know that Drest lives alone at the Severed String, which lies far to the southwest of the docks. Traverse the jungle and deliver Shamani Lohmani's wine to the hermit."
-3,"TEXT_GAIUSB304_00845_SEQ_03","You find Drest living alone in a squalid shack. Though he accepts your gift of wine, he does so with great trepidation. It is immediately clear to you that there is something very, very wrong with this disheveled, nervous man..."
+0,"TEXT_GAIUSB304_00845_SEQ_00","ワインポートのシャマニ・ローマニは、冒険者にお使いを頼みたいようだ。"
+1,"TEXT_GAIUSB304_00845_SEQ_01","シャマニ・ローマニは命の恩人を探していた。恩人の居場所はワインポートの南にある、船着場：レインキャッチャーの所長、リットスキルトが知っているらしい。「リットスキルト」と話して、ドレストの居場所を聞こう。"
+2,"TEXT_GAIUSB304_00845_SEQ_02","ドレストは、船着場の南西にある「切られた革紐亭」に住み着いているらしい。彼に<Sheet(EventItem,2000655,0)/>を渡そう。"
+3,"TEXT_GAIUSB304_00845_SEQ_03","ドレストは<Sheet(EventItem,2000655,0)/>を受け取ってくれた。彼は人を嫌って隠遁生活をしているようだが……。"
 4,"TEXT_GAIUSB304_00845_SEQ_04",""
 5,"TEXT_GAIUSB304_00845_SEQ_05",""
 6,"TEXT_GAIUSB304_00845_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSB304_00845_SEQ_21",""
 22,"TEXT_GAIUSB304_00845_SEQ_22",""
 23,"TEXT_GAIUSB304_00845_SEQ_23",""
-24,"TEXT_GAIUSB304_00845_TODO_00","Speak with Rhitskylt."
-25,"TEXT_GAIUSB304_00845_TODO_01","Deliver the wine to Drest."
+24,"TEXT_GAIUSB304_00845_TODO_00","リットスキルトと話す"
+25,"TEXT_GAIUSB304_00845_TODO_01","ドレストに<Sheet(EventItem,2000655,0)/>を渡す"
 26,"TEXT_GAIUSB304_00845_TODO_02",""
 27,"TEXT_GAIUSB304_00845_TODO_03",""
 28,"TEXT_GAIUSB304_00845_TODO_04",""
@@ -49,16 +49,33 @@ int32,str,str
 45,"TEXT_GAIUSB304_00845_TODO_21",""
 46,"TEXT_GAIUSB304_00845_TODO_22",""
 47,"TEXT_GAIUSB304_00845_TODO_23",""
-48,"TEXT_GAIUSB304_00845_SHAMANILOHMANI_000_000","I must say, this talk of Bacchus wine has made me rather nostalgic. Indeed, there is much I miss about my life with the Company of Heroes."
-49,"TEXT_GAIUSB304_00845_SHAMANILOHMANI_000_001","After everything the captain has done for me, I could not bear to disappoint him..."
-50,"TEXT_GAIUSB304_00845_SHAMANILOHMANI_000_002","Aye, have no fear. I swear that I shall find a suitable wine for the banquet─though I may need some time to think of a solution."
-51,"TEXT_GAIUSB304_00845_SHAMANILOHMANI_000_003","In the meantime, there is a favor I would ask of you."
-52,"TEXT_GAIUSB304_00845_SHAMANILOHMANI_000_004","Two years ago, in the deepest depths of my despair, I stumbled across Vylbrand as a vagabond drunk. I suspect I was looking for a place to die, because I very nearly found one not far from here."
-53,"TEXT_GAIUSB304_00845_SHAMANILOHMANI_000_005","It was there that a man named Drest took me in and nursed me back to health. And it was he who gave me my first taste of Bacchus wine, which helped me to find my new calling. Though I am still a novice in the arts of winemaking, I would like him to know that I am pursuing my dream."
-54,"TEXT_GAIUSB304_00845_SHAMANILOHMANI_000_006","This wine is my own original creation, and I would be most grateful if you delivered it to him in my stead. Drest sometimes works at the Raincatcher Gully docks, so perhaps Rhitskylt can tell you where to find him."
-55,"TEXT_GAIUSB304_00845_RHIITSKYLT_000_010","Drest? Oh, you mean the hermit. Aye, I toss him a few gil when we need an extra pair of hands. He doesn't talk about himself, and I sure as hells don't ask."
-56,"TEXT_GAIUSB304_00845_RHIITSKYLT_000_011","When a man's got a face with scars like that, you best leave well enough alone, I say. If you've a mind to find him, though, then head southwest to the Severed String."
-57,"TEXT_GAIUSB304_00845_DREST_000_020","What...what do you want?"
-58,"TEXT_GAIUSB304_00845_DREST_000_030","W-Wine? I...I didn't ask for this!
-Who sent you!?
-I...I... <groan>"
+48,"TEXT_GAIUSB304_00845_SHAMANILOHMANI_000_000","生きる希望か……。
+あのワインが失われたからといって、
+希望まで失われたわけではありませんね。"
+49,"TEXT_GAIUSB304_00845_SHAMANILOHMANI_000_001","私の希望、それは私の腕を信じて依頼をくれた我が友と、
+そして貴方のために、
+今ある最高のワインを用意すること……。"
+50,"TEXT_GAIUSB304_00845_SHAMANILOHMANI_000_002","あのワインには及ばなくとも、
+きっと「特別な晩餐」に合うワインを見つけてみせます。
+次の手を考えますので、少々お時間をいただけますか？"
+51,"TEXT_GAIUSB304_00845_SHAMANILOHMANI_000_003","その間に……
+あなたにひとつ、お願いがあるのです。"
+52,"TEXT_GAIUSB304_00845_SHAMANILOHMANI_000_004","2年前、私がワインポートへ辿り着く以前の出来事です。
+光を失ったことで絶望し、各地を放浪していた私は、
+「ドレスト」という男性に命を救われました。"
+53,"TEXT_GAIUSB304_00845_SHAMANILOHMANI_000_005","そのドレストに、私が作ったワインを贈りたいのです。
+初めて仕込んだものだけに、まだまだ未熟なワインですが、
+新たな人生の証を、彼に味わってほしいのです。"
+54,"TEXT_GAIUSB304_00845_SHAMANILOHMANI_000_006","彼は今「レインキャッチャー船着場」で働いているとか。
+船着場の船頭「リットスキルト」に彼の所在を聞き、
+この「<Sheet(EventItem,2000655,0)/>」を渡してもらえますか？"
+55,"TEXT_GAIUSB304_00845_RHIITSKYLT_000_010","ドレストだって？　ああ、あの流れ者か。
+たまに荷運びの仕事を頼んで、日当をやってるんだが……
+正直、あまり関わらないようにしてるんだ。"
+56,"TEXT_GAIUSB304_00845_RHIITSKYLT_000_011","なんか薄気味悪い、異様な雰囲気の男でな。
+顔にどえらい怪我を負ってるし、ありゃ絶対カタギじゃない。
+奴なら「切られた革紐亭」に住み着いているぞ。"
+57,"TEXT_GAIUSB304_00845_DREST_000_020","……何か用か……。"
+58,"TEXT_GAIUSB304_00845_DREST_000_030","……あの盲目の男が、ワインを俺に？
+フン、余計なお世話だ、礼はしねェぞ……。
+……ん？　また……この音か……うう……うううう。"

@@ -1,16 +1,16 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_JOBDRG300_01067_SEQ_00","Ywain seeks your aid in assisting an old friend."
-1,"TEXT_JOBDRG300_01067_SEQ_01","An Ishgardian friend of Ywain's requires aid, and the guildmaster would have you provide it. Make your way to the Observatorium and seek out the man, a knight by the name of Ser Alberic."
-2,"TEXT_JOBDRG300_01067_SEQ_02","Ser Alberic has enlisted your aid in tracking down the Eye, a priceless Ishgardian relic that has been spirited away by a rogue dragoon named Estinien. Consult with Logedanrel for insight as to where the fugitive may have traveled."
-3,"TEXT_JOBDRG300_01067_SEQ_03","Logedanrel suggests that you speak to the sentry Idristan at Florentel's Spire and inquire as to whether he has seen a man matching Estinien's description."
-4,"TEXT_JOBDRG300_01067_SEQ_04","Idristan of Florentel's Spire insists that no dragoon in black armor has crossed the border. Return to Logedanrel and inform him that your trip was unfruitful."
-5,"TEXT_JOBDRG300_01067_SEQ_05","Logedanrel suspects that the fugitive might still be in hiding within Ishgardian borders. Search the cavern east of the Observatorium for signs of a visitor."
-6,"TEXT_JOBDRG300_01067_SEQ_06","Upon searching the campfire, you were ambushed by a dragoon clad in black steel. Return to Ser Alberic and tell him of your encounter."
-7,"TEXT_JOBDRG300_01067_SEQ_07","Upon hearing of your encounter, Ser Alberic confesses to you the truth. The dragoon you encountered was indeed Estinien, who is no ordinary thief, but rather the Azure Dragoon─the chosen one─and a former pupil of Ser Alberic's. Convinced that you have been chosen by the Eye, Ser Alberic tasks you with retrieving the relic from Estinien.
+0,"TEXT_JOBDRG300_01067_SEQ_00","槍術士ギルドのイウェインは、旧友を助けてもらいたいようだ。"
+1,"TEXT_JOBDRG300_01067_SEQ_01","イウェインから依頼を受けた。クルザス中央高地のアドネール占星台にいる「アルベリク」と話そう。"
+2,"TEXT_JOBDRG300_01067_SEQ_02","アルベリクと話した。クルザス中央高地のアドネール占星台にいる「ロジュダンレル」と話そう。"
+3,"TEXT_JOBDRG300_01067_SEQ_03","ロジュダンレルと話した。北部森林のフロランテル監視哨にいる「イドリスタン」と話そう。"
+4,"TEXT_JOBDRG300_01067_SEQ_04","イドリスタンと話した。クルザス中央高地のアドネール占星台にいる「ロジュダンレル」と話そう。"
+5,"TEXT_JOBDRG300_01067_SEQ_05","ロジュダンレルと話した。アドネール占星台東の洞窟にある「焚き火」を調べよう。"
+6,"TEXT_JOBDRG300_01067_SEQ_06","焚き火を調べた。クルザス中央高地のアドネール占星台にいる「アルベリク」に報告しよう。"
+7,"TEXT_JOBDRG300_01067_SEQ_07","アルベリクに報告した。出会った黒き鎧の竜騎士こそ、竜の眼を持ち出した犯人エスティニアンだった。彼と遭遇したことで、冒険者の中の「竜の力」が目覚めたという。エスティニアンから「竜の眼」を取り戻すために、アルベリクの指導を受け、「竜の力」を御す方法を身につけよう。
 
-※The next dragoon quest will be available from Alberic upon reaching level 35."
+※竜騎士のレベルが35以上になると、アルベリクから次の竜騎士クエストを受注することができます。"
 8,"TEXT_JOBDRG300_01067_SEQ_08",""
 9,"TEXT_JOBDRG300_01067_SEQ_09",""
 10,"TEXT_JOBDRG300_01067_SEQ_10",""
@@ -27,12 +27,12 @@ int32,str,str
 21,"TEXT_JOBDRG300_01067_SEQ_21",""
 22,"TEXT_JOBDRG300_01067_SEQ_22",""
 23,"TEXT_JOBDRG300_01067_SEQ_23",""
-24,"TEXT_JOBDRG300_01067_TODO_00","Speak with Ser Alberic at the Observatorium."
-25,"TEXT_JOBDRG300_01067_TODO_01","Speak with Logedanrel."
-26,"TEXT_JOBDRG300_01067_TODO_02","Speak with Idristan at Florentel's Spire."
-27,"TEXT_JOBDRG300_01067_TODO_03","Speak with Logedanrel at the Observatorium."
-28,"TEXT_JOBDRG300_01067_TODO_04","Examine the campfire."
-29,"TEXT_JOBDRG300_01067_TODO_05","Report to Alberic."
+24,"TEXT_JOBDRG300_01067_TODO_00","アドネール占星台のアルベリクと話す"
+25,"TEXT_JOBDRG300_01067_TODO_01","ロジュダンレルと話す"
+26,"TEXT_JOBDRG300_01067_TODO_02","フロランテル監視哨のイドリスタンと話す"
+27,"TEXT_JOBDRG300_01067_TODO_03","アドネール占星台のロジュダンレルと話す"
+28,"TEXT_JOBDRG300_01067_TODO_04","焚き火を調べる"
+29,"TEXT_JOBDRG300_01067_TODO_05","アルベリクに報告"
 30,"TEXT_JOBDRG300_01067_TODO_06",""
 31,"TEXT_JOBDRG300_01067_TODO_07",""
 32,"TEXT_JOBDRG300_01067_TODO_08",""
@@ -51,53 +51,127 @@ int32,str,str
 45,"TEXT_JOBDRG300_01067_TODO_21",""
 46,"TEXT_JOBDRG300_01067_TODO_22",""
 47,"TEXT_JOBDRG300_01067_TODO_23",""
-48,"TEXT_JOBDRG300_01067_YWAIN_000_000","Ah, I daresay you might just be the right <If(PlayerParameter(4))>woman<Else/>man</If> for the job. The guild has urgent need of a capable lancer for a mission beyond our nation's borders. Hear me out, if you will."
-49,"TEXT_JOBDRG300_01067_YWAIN_000_001","I've received word from an Ishgardian friend to the effect that he requires our aid. I would have you go and provide that aid."
-50,"TEXT_JOBDRG300_01067_YWAIN_000_002","As you may already know, due to her ongoing conflict with the dragons, Ishgard has kept her gates closed to outsiders for some time. The occasional dragoon on patrol duty is about all folk see these days."
-51,"TEXT_JOBDRG300_01067_YWAIN_000_003","In spite of her self-imposed isolation, however, the Holy See has never failed to honor her obligations to her allies."
-52,"TEXT_JOBDRG300_01067_YWAIN_000_004","It is only fitting that we answer the call and lend what assistance we can. To this end, we offered to dispatch a contingent of Wood Wailers with all haste─but were politely informed that they would not be welcome, much to our initial confusion."
-53,"TEXT_JOBDRG300_01067_YWAIN_000_005","It was later explained that we are dealing with a matter of some sensitivity, best handled by individuals who are capable and trustworthy, yet unbound by allegiance─and who fits that description save adventurers?"
-54,"TEXT_JOBDRG300_01067_YWAIN_000_006","Secrecy being paramount, I can provide no details as to the nature of the task. All you need to know will be revealed at the rendezvous point."
-55,"TEXT_JOBDRG300_01067_YWAIN_000_007","Should you accept the mission, take yourself to the Observatorium. A knight by the name of Ser Alberic will receive you upon arrival."
-56,"TEXT_JOBDRG300_01067_ALBERIC_000_010","Ah, you must be the adventurer of whom Ywain sent word. Greetings and well met."
-57,"TEXT_JOBDRG300_01067_ALBERIC_000_011","I am Ser Alberic Bale, knight of Ishgard. The Holy See is much obliged to you for your aid."
-58,"TEXT_JOBDRG300_01067_ALBERIC_000_012","Time being of the essence, I shall proceed straight to the heart of the matter. The Eye, an Ishgardian relic of immeasurable worth, has been stolen, and we have reason to believe the culprit has come this way. So it is that we ask your assistance in its recovery."
-59,"TEXT_JOBDRG300_01067_ALBERIC_000_013","The thief has been identified as a man named Estinien, a dragoon sworn to the service of the Holy See. Aye, you heard true: the crime was perpetrated by one of our own; an individual in a position of trust and no little honor... You may be assured that a fate worse than death awaits him upon capture."
-60,"TEXT_JOBDRG300_01067_ALBERIC_000_014","My duties to the See afford me little opportunity to travel far beyond the walls of Ishgard. I must confess to a grave ignorance of recent Gridanian affairs."
-61,"TEXT_JOBDRG300_01067_ALBERIC_000_015","I was told that a sentry by the name of Logedanrel might have knowledge of routes oft taken by Ishgardian fugitives. I would prefer to keep my identity a secret, and thus would have you gather what information you can from the man."
-62,"TEXT_JOBDRG300_01067_ALBERIC_000_016","We must act quickly. For you see, Estinien is..."
-63,"TEXT_JOBDRG300_01067_ALBERIC_000_017","...But I have already said too much. What matters is that we find our thief and the Eye with all haste. When last sighted, Estinien was clad in black armor. Now go, and speak not a word of what I have told you to anyone."
-64,"TEXT_JOBDRG300_01067_LOGEDANREL_000_020","Routes favored by Ishgardian fugitives? Now that's a question I don't hear every day. You aren't plotting some unsavory act yourself, are you?"
-65,"TEXT_JOBDRG300_01067_LOGEDANREL_000_021","Even if you were, I doubt you'd make it far. Anyroad, we've caught a few fleeing to the North Shroud. What with Gridania being home to nearly as many Elezen as Ishgard, it is no easy task to identify outsiders."
-66,"TEXT_JOBDRG300_01067_LOGEDANREL_000_022","If you're on the hunt for someone, you could do worse than to visit Florentel's Spire in the North Shroud and speak with a man named Idristan. If any suspicious persons have crossed the border in recent days, he'd be the first to know."
-67,"TEXT_JOBDRG300_01067_IDRISTAN_000_023","Hail, adventurer. Yes, I am the one tasked with monitoring those who would enter our lands by way of Coerthas. Hm? An Ishgardian knight clad in black armor?"
-68,"TEXT_JOBDRG300_01067_IDRISTAN_000_024","No, I recall nothing of the sort─and such a striking visitor would be difficult to forget. My apologies, friend. I can only suggest that you return to Logedanrel and see if he has any other theories."
-69,"TEXT_JOBDRG300_01067_LOGEDANREL_000_030","No luck, you say? Most curious. Why, it is nigh impossible that a fugitive could make it this far without being espied from Florentel's Spire."
-70,"TEXT_JOBDRG300_01067_LOGEDANREL_000_031","Which leaves the possibility that your man is still in Ishgard. It runs counter to good sense─would the fugitive not want to put a distance of grounds between him and his pursuers?─but by the process of deduction, it is a possibility."
-71,"TEXT_JOBDRG300_01067_LOGEDANREL_000_032","The climes of Ishgard are not kind to drifters and vagabonds. That said, there has been talk of curious smoke wafting from a cave east of here, at night. Were I you, I might begin my search there."
-72,"TEXT_JOBDRG300_01067_ESTINIEN_000_040","That Ishgard would resort to sending coin-starved adventurers after me... I know not whether to laugh or feel insulted."
-73,"TEXT_JOBDRG300_01067_ESTINIEN_000_041","Th-The Eye! It rouses...for another!?"
-74,"TEXT_JOBDRG300_01067_ESTINIEN_000_042","Preposterous..."
-75,"TEXT_JOBDRG300_01067_ESTINIEN_000_043","Our paths shall cross again. You can be sure of it."
-76,"TEXT_JOBDRG300_01067_ALBERIC_000_050","A dragoon clad in black, you say!? Tell me all that transpired!"
-77,"TEXT_JOBDRG300_01067_ALBERIC_000_051","By the Fury... That the Eye would choose another..."
-78,"TEXT_JOBDRG300_01067_ALBERIC_000_052","I had not thought it possible. In light of recent events, it would seem an explanation is in order."
-79,"TEXT_JOBDRG300_01067_ALBERIC_000_053","The Eye is no ordinary relic. It harbors the power of the dragon, which it bestows upon a single chosen soul─the strongest and wisest dragoon."
-80,"TEXT_JOBDRG300_01067_ALBERIC_000_054","He who is chosen is possessed of the power to fight our mortal foes, the dragons of Dravania, on equal footing, soaring the firmament as if it were an extension of the land. That man is known as the Azure Dragoon."
-81,"TEXT_JOBDRG300_01067_ALBERIC_000_055","The Azure Dragoon is the light of hope for all Ishgardians, and the paragon of all dragoons."
-82,"TEXT_JOBDRG300_01067_ALBERIC_000_056","...For this reason, you may imagine how it pains me to have to confess that the man you encountered, the <Emphasis>thief</Emphasis>, is none other than the Azure Dragoon...and that <Emphasis>I</Emphasis> was once his teacher."
-83,"TEXT_JOBDRG300_01067_ALBERIC_000_057","Needless to say, I acknowledge myself accountable for Estinien's misdeeds, and mean to do all in my power to find him and recover the Eye. But I cannot do this alone."
-84,"TEXT_JOBDRG300_01067_ALBERIC_000_058","I require your help, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>─you, who have received the power of the dragon."
-85,"TEXT_JOBDRG300_01067_ALBERIC_000_059","You may labor to believe it, but there can be no mistake. The Soul of the Dragoon I bear glows in your presence─irrefutable proof that you are chosen. What I can ill explain, however, is the why of it."
-86,"TEXT_JOBDRG300_01067_ALBERIC_000_060","Never before in Ishgard's long history has the Eye roused to more than one individual in a single generation. But it avails us naught to cudgel our brains about it."
-87,"TEXT_JOBDRG300_01067_ALBERIC_000_061","The fact of the matter is that you are now a vessel for the power of the dragon. That dragon lies yet in slumber, however, and you must needs possess the means to wake it: the Soul of the Dragoon. I would entrust you with mine, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
-88,"TEXT_JOBDRG300_01067_ALBERIC_000_062","Like Estinien, I once ruled the skies as the Azure Dragoon, although that power has since become lost to me. It was simply by force of habit that I have hitherto kept the soul upon my person."
-89,"TEXT_JOBDRG300_01067_ALBERIC_000_063","I have no inkling as to why the Eye has seen fit to choose a second, and an outsider at that."
-90,"TEXT_JOBDRG300_01067_ALBERIC_000_064","Yet one thing is clear: none can challenge the Azure Dragoon and conceivably prevail save another Azure Dragoon."
-91,"TEXT_JOBDRG300_01067_ALBERIC_000_065","You are our only hope of bringing Estinien to justice and reclaiming the Eye. Of course, I do not ask that you do this unaided. I may be a dragoon no more, but what knowledge I have, I shall gladly impart to you."
-92,"TEXT_JOBDRG300_01067_ALBERIC_000_066","For indeed, when the time comes that you must face the Azure Dragoon, naught less than complete mastery over the power of the dragon will avail you."
-93,"TEXT_JOBDRG300_01067_ALBERIC_000_067","That a perilous road lies ahead of you, I shall not deny. Knowing this, if you would still lend me your lance, I will teach you to harness the power that has chosen you."
-94,"TEXT_JOBDRG300_01067_ALBERIC_000_068","Go forth, my young dragoon, and rouse the dragon within. I look forward to your return."
-95,"TEXT_JOBDRG300_01067_SYSTEM_000_069","The next dragoon quest will be available from Alberic upon reaching level 35."
-96,"TEXT_JOBDRG300_01067_POP_MESSAGE","You sense a hostile presence!"
-97,"TEXT_JOBDRG300_01067_ACCESS_MESSAGE","The enemy is still about!"
+48,"TEXT_JOBDRG300_01067_YWAIN_000_000","よお、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
+お前の腕を見込んで、ひとつ頼みがあるんだ。"
+49,"TEXT_JOBDRG300_01067_YWAIN_000_001","黒衣森の北西、険しい岩峰連なるクルザス地方……
+断崖に囲まれた城塞都市「イシュガルド」にいる俺の友に、
+力を貸しちゃくれねえか？"
+50,"TEXT_JOBDRG300_01067_YWAIN_000_002","イシュガルドは、仇敵ドラゴン族との戦いに尽力すべく、
+体制を引き締めるため、長く門戸を閉ざしている。"
+51,"TEXT_JOBDRG300_01067_YWAIN_000_003","巡回してる竜騎士を見かけたこともあるだろうが、
+冒険者にゃ、馴染みのねえ都市だろうな。"
+52,"TEXT_JOBDRG300_01067_YWAIN_000_004","いちおう、各都市の間で穏やかな関係はあるから
+鬼哭隊が手を貸すっていう提案もしてるんだが、
+向こうから断ってきやがってな。"
+53,"TEXT_JOBDRG300_01067_YWAIN_000_005","あえて、鬼哭隊ではなく、
+しがらみの少ない冒険者の手を借りたいらしい。
+……どうやら、大きな声でできる話じゃねえようだ。"
+54,"TEXT_JOBDRG300_01067_YWAIN_000_006","詳しい話は、直接したいってことだから
+お前にとって、おいしい話かわからねえんだが……"
+55,"TEXT_JOBDRG300_01067_YWAIN_000_007","引き受けてくれるなら、クルザス中央高地の
+「アドネール占星台」にいる、
+「アルベリク」を訪ねてやってくれ。"
+56,"TEXT_JOBDRG300_01067_ALBERIC_000_010","君が、イウェインから紹介のあった冒険者か。
+ご足労、感謝する。不躾な依頼を詫びよう。"
+57,"TEXT_JOBDRG300_01067_ALBERIC_000_011","私は、アルベリク・ベイル。
+皇都イシュガルドの神殿騎士だ。"
+58,"TEXT_JOBDRG300_01067_ALBERIC_000_012","単刀直入に言おう。
+イシュガルド教皇庁、秘蔵の品「竜の眼」が奪われた。
+これを取り戻すために、手を貸してほしいのだ。"
+59,"TEXT_JOBDRG300_01067_ALBERIC_000_013","「竜の眼」を持ち去ったのは「竜騎士エスティニアン」。
+竜騎士……イシュガルドのために槍を振るう身でありながら、
+教皇猊下に背いた罪は重い。"
+60,"TEXT_JOBDRG300_01067_ALBERIC_000_014","私は普段、都市内の神殿に詰めているため、
+霊災後のグリダニア領境界付近の事情に疎い。"
+61,"TEXT_JOBDRG300_01067_ALBERIC_000_015","まずは、この辺りの情報に詳しい
+ここアドネール占星台の衛兵「ロジュダンレル」に、
+逃亡者が向かいそうな場所を聞き出してほしい。"
+62,"TEXT_JOBDRG300_01067_ALBERIC_000_016","悪いが、時間がないのだ。
+何故なら、あやつ、エスティニアンは……"
+63,"TEXT_JOBDRG300_01067_ALBERIC_000_017","ともかく、急いで「竜の眼」を取り戻さねばならん。
+黒き鎧に身を包んだ、騎士エスティニアンを追ってほしい。
+だが、事情が事情だ……詳細は決して口外しないでくれ。"
+64,"TEXT_JOBDRG300_01067_LOGEDANREL_000_020","イシュガルドからの逃亡者が取るルートだと……？
+あんた、何かを追っておるのか？"
+65,"TEXT_JOBDRG300_01067_LOGEDANREL_000_021","……まあ、たいていは北部森林へ逃げるだろうね。
+グリダニア領は、イシュガルドと同じで
+エレゼン族が多いから、目立たないからのう。"
+66,"TEXT_JOBDRG300_01067_LOGEDANREL_000_022","人探しなら、北部森林の国境線を守る
+フロランテル監視哨の「イドリスタン」に、
+人の出入りを確認するとよかろう。"
+67,"TEXT_JOBDRG300_01067_IDRISTAN_000_023","イシュガルドから黒い鎧の騎士が来なかったか、だって？
+確かにクルザス方面から来る者を、監視しているが、
+そんな奴は見かけなかったね。"
+68,"TEXT_JOBDRG300_01067_IDRISTAN_000_024","キミにここを紹介したという、
+アドネール占星台の「ロジュダンレル」に
+もう一度、相談してみるんだな。"
+69,"TEXT_JOBDRG300_01067_LOGEDANREL_000_030","なに、北部森林に向かわないとは、奇妙だのう……
+ならば、イシュガルド領内で身を潜めておるのか？"
+70,"TEXT_JOBDRG300_01067_LOGEDANREL_000_031","追われる身でありながら、領内に留まるとは、
+何か事情があるに違いない……。
+そういえば、東の洞窟の方で怪しい煙を見かけたぞ。"
+71,"TEXT_JOBDRG300_01067_LOGEDANREL_000_032","あちらには滞留するような場所はないから、
+留まる者がいるとしたら、やましい者ぐらいだろう。
+「焚き火」を調べれば、何か見つかるやもしれぬぞ。"
+72,"TEXT_JOBDRG300_01067_ESTINIEN_000_040","フン……追手か？
+報酬目当ての冒険者か……。"
+73,"TEXT_JOBDRG300_01067_ESTINIEN_000_041","な……「竜の眼」が……！？"
+74,"TEXT_JOBDRG300_01067_ESTINIEN_000_042","バカな……「竜の眼」が、俺以外の者に？
+お前は、いったい……。"
+75,"TEXT_JOBDRG300_01067_ESTINIEN_000_043","……その顔、覚えておく。
+いずれ、また……まみえる時が来るだろう。
+さっさと帰るがいい。"
+76,"TEXT_JOBDRG300_01067_ALBERIC_000_050","なに、黒い鎧の騎士に会った……！？
+まさか……！　詳しく話を聞かせてくれ！"
+77,"TEXT_JOBDRG300_01067_ALBERIC_000_051","なんということだ……君は……
+「竜の眼」に見初められてしまったというのか。"
+78,"TEXT_JOBDRG300_01067_ALBERIC_000_052","……すべてを話さなければなるまい。
+少し長くなるが、聞いてほしい。"
+79,"TEXT_JOBDRG300_01067_ALBERIC_000_053","奪われた「竜の眼」は、ただの宝ではない。
+イシュガルドの竜騎士の中でも、最も強く賢い者に
+「竜の力」を授けるという、不思議な力を持つ宝珠だ。"
+80,"TEXT_JOBDRG300_01067_ALBERIC_000_054","「竜の力」に目覚めた者は、
+ひとりでもドラゴン族と対等に渡り合うほどの力を得て、
+空を制するがごとく舞う様から「蒼の竜騎士」と称される。"
+81,"TEXT_JOBDRG300_01067_ALBERIC_000_055","「蒼の竜騎士」の存在……。
+それは、イシュガルドの竜騎士たちにとって羨望の的であり、
+都市民にとっては希望の光なのだが……"
+82,"TEXT_JOBDRG300_01067_ALBERIC_000_056","君が出会った黒い鎧の騎士。
+あやつこそ、宝珠「竜の眼」を持ち去った張本人。
+そして……私の弟子である「蒼の竜騎士」エスティニアンだ。"
+83,"TEXT_JOBDRG300_01067_ALBERIC_000_057","エスティニアンが竜騎士たる道を外れたのは、
+師である私の責任……。
+なんとしても連れ戻し、宝珠を取り返さねばならん。"
+84,"TEXT_JOBDRG300_01067_ALBERIC_000_058","そして、そのためには君の力が必要だ。
+何故ならば……"
+85,"TEXT_JOBDRG300_01067_ALBERIC_000_059","「竜の眼」が、もうひとりの「蒼の竜騎士」を選んだ。
+それが他ならぬ<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、君だからだ。"
+86,"TEXT_JOBDRG300_01067_ALBERIC_000_060","証ならばここに。
+輝きに満ちる、この「<Sheet(Item,　4545,0)/>」。
+君の中に目覚めた「竜の力」に、確かに応じている。"
+87,"TEXT_JOBDRG300_01067_ALBERIC_000_061","「<Sheet(Item,　4545,0)/>」とは、「蒼の竜騎士」の力を
+呼び覚ますために古より伝わるクリスタル。
+君にこそ必要なもの……私にはもう、不要となったもの。"
+88,"TEXT_JOBDRG300_01067_ALBERIC_000_062","……かつて私も、「蒼の竜騎士」として戦場を翔った。
+今は力を失い、この証もただの石片となり果てていたが、
+まさか、このような形で再び使う日が来るとはな……。"
+89,"TEXT_JOBDRG300_01067_ALBERIC_000_063","冒険者である君が、何故「竜の力」に目覚めたのか。
+ふたりと同時に選ばれぬ「蒼の竜騎士」が、
+何故もうひとり選ばれたのか……それは、わからない。"
+90,"TEXT_JOBDRG300_01067_ALBERIC_000_064","だが、ただひとつ確かなことがある。
+「蒼の竜騎士」エスティニアンを追えるのは、
+同じ力を持つ君だけだ。"
+91,"TEXT_JOBDRG300_01067_ALBERIC_000_065","あやつの追跡に、力を貸してほしい。
+礼として、代々の「蒼の竜騎士」に伝わる奥義を教えよう。"
+92,"TEXT_JOBDRG300_01067_ALBERIC_000_066","いずれにせよ、エスティニアンを追うためには
+君に宿る「竜の力」を、完全に御さねばなるまい……。"
+93,"TEXT_JOBDRG300_01067_ALBERIC_000_067","あやつを追うために、長く厳しい試練が待つかもしれん。
+それでも手を貸すと、その槍に誓ってくれるなら
+目覚めた「竜の力」が身体に馴染んだ頃、私を訪れてくれ。"
+94,"TEXT_JOBDRG300_01067_ALBERIC_000_068","異邦に生まれし、新たなる竜騎士<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
+……待っているぞ。"
+95,"TEXT_JOBDRG300_01067_SYSTEM_000_069","「竜騎士」のジョブクエストが開始されました。
+次のクエストは「竜騎士レベル35」以上で
+受注可能になります。"
+96,"TEXT_JOBDRG300_01067_POP_MESSAGE","敵の気配を感じた！！"
+97,"TEXT_JOBDRG300_01067_ACCESS_MESSAGE","その行動は出現した敵を倒さないと実行できません"

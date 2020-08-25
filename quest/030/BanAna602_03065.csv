@@ -1,9 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANANA602_03065_SEQ_00","Eshana is in need of an adventurer in high places.
+0,"TEXT_BANANA602_03065_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト受注クラス・ジョブ制限<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+※本クエストは受注時のクラス・ジョブでのみ進行します。
 
-※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
+カステッルム・ベロジナのエシャナは、高台に咲く花が気になるようだ。"
 1,"TEXT_BANANA602_03065_SEQ_01",""
 2,"TEXT_BANANA602_03065_SEQ_02",""
 3,"TEXT_BANANA602_03065_SEQ_03",""
@@ -27,8 +28,9 @@ int32,str,str
 21,"TEXT_BANANA602_03065_SEQ_21",""
 22,"TEXT_BANANA602_03065_SEQ_22",""
 23,"TEXT_BANANA602_03065_SEQ_23",""
-24,"TEXT_BANANA602_03065_TODO_00","Use the botanical growth formula to obtain dianthuses."
-25,"TEXT_BANANA602_03065_TODO_01","Deliver the dianthuses to Eshana."
+24,"TEXT_BANANA602_03065_TODO_00","ヴィルジャラの涸れ谷の<Sheet(EObj,2009365,0)/>に
+<Sheet(EventItem,2002450,0)/>を使い<Sheet(EventItem,2002451,0)/>を入手"
+25,"TEXT_BANANA602_03065_TODO_01","エシャナに<Sheet(EventItem,2002451,0)/>を渡す"
 26,"TEXT_BANANA602_03065_TODO_02",""
 27,"TEXT_BANANA602_03065_TODO_03",""
 28,"TEXT_BANANA602_03065_TODO_04",""
@@ -51,14 +53,31 @@ int32,str,str
 45,"TEXT_BANANA602_03065_TODO_21",""
 46,"TEXT_BANANA602_03065_TODO_22",""
 47,"TEXT_BANANA602_03065_TODO_23",""
-48,"TEXT_BANANA602_03065_ESHANA_000_000","You do not fear heightsss, do you? We have need of one who can scale the rock formations of Virdjala to procure dianthus."
-49,"TEXT_BANANA602_03065_ESHANA_000_001","Tea made from their petals is incredibly effective at reducing fatigue. Alpa thought to offer it to travelers ssseeking lodgings after a long journey."
-50,"TEXT_BANANA602_03065_ESHANA_000_002","The problem, however, is the flowers are quite delicate, and should they be bruised, their curative properties are greatly diminished. "
-51,"TEXT_BANANA602_03065_ESHANA_000_003","Luckily for usss, a traveling alchemist taught us how to create a botanical growth formula. "
-52,"TEXT_BANANA602_03065_ESHANA_000_004","Sssprinkle this upon the flowers and they will remain unharmed when plucked."
-53,"TEXT_BANANA602_03065_SYSTEM_000_010","You find the flower Eshana spoke of, and it is in full bloom. At a glance you can tell the petals are dreadfully delicate."
-54,"TEXT_BANANA602_03065_SYSTEM_000_011","The delicate petals of the flower seem hardened by Eshana's growth formula."
-55,"TEXT_BANANA602_03065_ESHANA_000_020","Were you able to find the flowers?"
-56,"TEXT_BANANA602_03065_ESHANA_000_021","It seems the growth formula was more effective than I had hoped. A pity such beauty must be sssacrificed to make our tea."
-57,"TEXT_BANANA602_03065_ESHANA_000_022","The recipe was taught to us by a merchant of Ul'dah. A peculiar fellow who insssisted on trading for our shedded skin. Rather than barter for gold, we sssettled on information beneficial to our work here."
-58,"TEXT_BANANA602_03065_ESHANA_000_023","There is much knowledge to be shared with travelers coming and going between Gyr Abania and the Shroud. I pray we can count on your aid to ensure their sssafe passage."
+48,"TEXT_BANANA602_03065_ESHANA_000_000","シュー……君に頼みたいことがある。
+容易には登れぬ高台に自生する、
+「<Sheet(EventItem,2002451,0)/>」を摘んできてもらいたい。"
+49,"TEXT_BANANA602_03065_ESHANA_000_001","その花弁から、疲労回復に効く薬茶が作れるのだ。
+簡易宿泊所の利用者へ、それをふるまってはどうかと、
+アルパ隊長から提案があってな。"
+50,"TEXT_BANANA602_03065_ESHANA_000_002","しかし<Sheet(EObj,2009365,0)/>は非常に繊細で、
+下手に触ると、すぐに傷んでしまう。
+そうなると薬効も弱まってしまうのだ。"
+51,"TEXT_BANANA602_03065_ESHANA_000_003","そこで、「<Sheet(EventItem,2002450,0)/>」を用意した。
+これは、この関所を通ったヒトから教わって作った、
+植物が傷まぬように、保存する錬金薬だ。"
+52,"TEXT_BANANA602_03065_ESHANA_000_004","これを使えば、「<Sheet(EventItem,2002451,0)/>」も入手できるだろう。
+「<Sheet(EObj,2009365,0)/>」はヴィルジャラの涸れ谷に咲いているゆえ、
+錬金薬を浸透させて、摘んできてくれ。"
+53,"TEXT_BANANA602_03065_SYSTEM_000_010","儚げな<Sheet(EObj,2009365,0)/>が咲いている。
+そのまま触れたら、すぐに傷んでしまいそうだ……。"
+54,"TEXT_BANANA602_03065_SYSTEM_000_011","錬金薬が全体に浸透したようだ！"
+55,"TEXT_BANANA602_03065_ESHANA_000_020","シュー……<Sheet(EventItem,2002451,0)/>は採れたか？"
+56,"TEXT_BANANA602_03065_ESHANA_000_021","シュー……錬金薬は、よく効いたようだな。
+傷んだところがなく、みずみずしく、美しい。
+薬茶にしてしまうなんてもったいないほどだ。"
+57,"TEXT_BANANA602_03065_ESHANA_000_022","薬茶も錬金薬も、教えてくれたのはウルダハの商人だ。
+我らの脱皮した皮を、やたらと欲しがっていた変わり者だが、
+代価がわりにと、関所に役立つ情報を教えてくれてな。"
+58,"TEXT_BANANA602_03065_ESHANA_000_023","ヒトの往来の多いこの関所にいると、学ぶことが多い。
+これからも、アナンタとヒトの知識をより合わせ、
+関所を守っていくゆえ、今後とも協力を頼むぞ。"

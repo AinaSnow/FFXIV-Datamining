@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB406_00862_SEQ_00","Sergeant Swygrael wants something, and what this lady wants, she usually gets."
-1,"TEXT_GAIUSB406_00862_SEQ_01","In the charmingly feckless manner of maidens everywhere, Sergeant Swygrael of Camp Overlook has mislaid some personal items while beating velociraptors to death. She bids you gather raptor claws and serrated arrowheads, three of each."
-2,"TEXT_GAIUSB406_00862_SEQ_02","You have recovered the claws and arrowheads from the stinking velociraptor carcasses. Trudge back to the camp and give the loot to Swygrael."
-3,"TEXT_GAIUSB406_00862_SEQ_03","The kobolds' skill with metal is formidable, but could their covetousness for the enemy's leavings prove a weakness? Or is there a reason they so desire more metal?"
+0,"TEXT_GAIUSB406_00862_SEQ_00","キャンプ・オーバールックのスウィグレール甲軍曹には、持ってきてほしいものがあるようだ。"
+1,"TEXT_GAIUSB406_00862_SEQ_01","スウィグレール甲軍曹は、忘れ物をしてしまったらしい。「<Sheet(EventItem,2000669,0)/>」と「<Sheet(EventItem,2000929,0)/>」を3つずつ集めよう。"
+2,"TEXT_GAIUSB406_00862_SEQ_02","<Sheet(EventItem,2000669,0)/>と<Sheet(EventItem,2000929,0)/>をすべて集めた。キャンプ・オーバールックの「スウィグレール甲軍曹」に渡そう。"
+3,"TEXT_GAIUSB406_00862_SEQ_03","コボルド族の冶金技術の高さは、彼らと敵対する者にとって厄介であるらしい。キャンプ・オーバールックでも、様々な対策を講じているようだ。"
 4,"TEXT_GAIUSB406_00862_SEQ_04",""
 5,"TEXT_GAIUSB406_00862_SEQ_05",""
 6,"TEXT_GAIUSB406_00862_SEQ_06",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_GAIUSB406_00862_SEQ_21",""
 22,"TEXT_GAIUSB406_00862_SEQ_22",""
 23,"TEXT_GAIUSB406_00862_SEQ_23",""
-24,"TEXT_GAIUSB406_00862_TODO_00","Collect velociraptor claws."
-25,"TEXT_GAIUSB406_00862_TODO_01","Collect serrated arrowheads."
-26,"TEXT_GAIUSB406_00862_TODO_02","Give Swygrael the claws and the arrowheads."
+24,"TEXT_GAIUSB406_00862_TODO_00","<Sheet(EventItem,2000669,0)/>を入手"
+25,"TEXT_GAIUSB406_00862_TODO_01","<Sheet(EventItem,2000929,0)/>を入手"
+26,"TEXT_GAIUSB406_00862_TODO_02","スウィグレール甲軍曹に<Sheet(EventItem,2000669,0)/>と<Sheet(EventItem,2000929,0)/>を渡す"
 27,"TEXT_GAIUSB406_00862_TODO_03",""
 28,"TEXT_GAIUSB406_00862_TODO_04",""
 29,"TEXT_GAIUSB406_00862_TODO_05",""
@@ -49,11 +49,23 @@ int32,str,str
 45,"TEXT_GAIUSB406_00862_TODO_21",""
 46,"TEXT_GAIUSB406_00862_TODO_22",""
 47,"TEXT_GAIUSB406_00862_TODO_23",""
-48,"TEXT_GAIUSB406_00862_SWYGRAEL_000_000","Oi, you! Yeah, you, the honey-faced one with all the buckles. I've got a job for ye. I needed me some raptor claws, but the pissants gave me so much trouble that I clean forgot I was killin' 'em practical-like. Got mad, bashed their heads in, and walked away whistlin'."
-49,"TEXT_GAIUSB406_00862_SWYGRAEL_000_001","The carcasses be lyin' around somewhere near, got a few of my arrows through 'em. Fetch me the claws, <If(PlayerParameter(4))>my wild rose<Else/>my gallant culver</If>, and I might be back in that practical mood! "
-50,"TEXT_GAIUSB406_00862_SWYGRAEL_000_002","And oi, one more thing. You see those arrows of mine, bring back the heads! It's easy enough to fletch an arrow, but arrowheads don't grow on birds!"
-51,"TEXT_GAIUSB406_00862_DUMMY_000_010",""
-52,"TEXT_GAIUSB406_00862_TODO_000_010",""
-53,"TEXT_GAIUSB406_00862_SWYGRAEL_000_020","Oi, sweet thing! Get me my claws and arrowheads!"
-54,"TEXT_GAIUSB406_00862_SWYGRAEL_000_025","Appreciate it, dear heart! Why the long face? Oho, you think we're that low on supplies. Listen, crumpet, the kobolds can't leave metal be. Any we throw at 'em, even arrowheads? Back to their burrow it goes, and smelted into new arms."
-55,"TEXT_GAIUSB406_00862_SWYGRAEL_000_026","So the orders are, give 'em no metal. Make arrowheads out of claws, chert, a bit o' the cook's gingerbread─and haul back any steel or bronze arrowheads. Comes natural-like to us seafarin' folk, you know. We be scrimpers!"
+48,"TEXT_GAIUSB406_00862_SWYGRAEL_000_000","ちょっと、そこのあんた！　聞いとくれよ！
+ラプトルの鉤爪が必要で、さくっと倒したんだがよ。
+肝心の鉤爪を採ってくるのも、さくっと忘れちまったんだよ！"
+49,"TEXT_GAIUSB406_00862_SWYGRAEL_000_001","あたしが射抜いたラプトルの死骸が、
+そこら辺に転がってるからよ。
+死骸から「<Sheet(EventItem,2000669,0)/>」を持ってきとくれよ！"
+50,"TEXT_GAIUSB406_00862_SWYGRAEL_000_002","ああそうだ、私の射った矢が残ってたら、
+その「<Sheet(EventItem,2000929,0)/>」も持ってきとくれ！"
+51,"TEXT_GAIUSB406_00862_DUMMY_000_010","ラプトルの死体を調べて、爪を集める×3
+ラプトルに刺さった矢を採る（矢は個別のEOBJ)×3"
+52,"TEXT_GAIUSB406_00862_TODO_000_010","（★未使用／削除予定★）"
+53,"TEXT_GAIUSB406_00862_SWYGRAEL_000_020","ちょっと、そこのあんた！
+「<Sheet(EventItem,2000669,0)/>」と「<Sheet(EventItem,2000929,0)/>」を
+採ってきてくれよ！"
+54,"TEXT_GAIUSB406_00862_SWYGRAEL_000_025","ありがとよ！　コボルド族は冶金術に長けてるからよ！
+金属の矢尻がついた矢で射かけると、
+それを拾い集めて、溶かして武器に変えてしまうのよ。"
+55,"TEXT_GAIUSB406_00862_SWYGRAEL_000_026","奴らに物資をあたえるなっていう上官の命令でよ、
+鉤爪で矢尻を作っているってわけよ！
+使った矢も全部回収して、大事に再利用よ！"

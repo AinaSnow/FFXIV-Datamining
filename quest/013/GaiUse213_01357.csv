@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSE213_01357_SEQ_00","Falkbryda would have you assist in diversionary maneuvers."
-1,"TEXT_GAIUSE213_01357_SEQ_01","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/> This quest has been adjusted. Please abandon the quest and restart it by speaking to Falkbryda at Camp Skull Valley.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+0,"TEXT_GAIUSE213_01357_SEQ_00","キャンプ・スカルバレーのファルクブリダ中甲佐は、提案があるようだ。"
+1,"TEXT_GAIUSE213_01357_SEQ_01","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/>本クエストは調整されました。一度破棄し、キャンプ・スカルバレーの「ファルクブリダ中甲佐」から再受注してください。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
-※The Main Scenario Guide shows the next available quest. You can toggle it on and off in Character Configuration, under UI Settings."
-2,"TEXT_GAIUSE213_01357_SEQ_02","You offer your services to U'jughal, who is at first reluctant to have an irreplaceable hero risk <If(PlayerParameter(4))>her<Else/>him</If>self for a trifling matter. However, she relents under your insistence, and bids you go to Halfstone and destroy Sahagin pavises with the explosives provided. If detected, you are at liberty to engage the enemy."
-3,"TEXT_GAIUSE213_01357_SEQ_03","You have successfully blown up the Sahagin pavises and vanquished the sentries that were drawn to the commotion. Return to Camp Skull Valley and report your success to Falkbryda."
-4,"TEXT_GAIUSE213_01357_SEQ_04","Falkbryda thanks you for your part in ensuring the scouts' safety. All that remains now is to await their safe return."
+※次のメインクエストは、「メインクエストガイド」からも確認することができます。メインクエストガイドの表示/非表示は、メインコマンドの「キャラクターコンフィグ」から「ユーザーインターフェース設定」を選び、変更してください。"
+2,"TEXT_GAIUSE213_01357_SEQ_02","西ラノシアのサハギン軍陣営にある「<Sheet(EObj,2003585,0)/>」に「<Sheet(EventItem,2001213,0)/>」を使用して破壊しよう。爆発音に気づかれて、サハギン族の哨兵から襲撃を受けた場合は、これを討伐しよう。"
+3,"TEXT_GAIUSE213_01357_SEQ_03","<Sheet(EObj,2003585,0)/>を破壊し、サハギン族の哨兵を討伐した。キャンプ・スカルバレーの「ファルクブリダ中甲佐」に報告しよう。"
+4,"TEXT_GAIUSE213_01357_SEQ_04","ファルクブリダ中甲佐に報告した。陽動の結果、偵察隊の調査が進んだことだろう。"
 5,"TEXT_GAIUSE213_01357_SEQ_05",""
 6,"TEXT_GAIUSE213_01357_SEQ_06",""
 7,"TEXT_GAIUSE213_01357_SEQ_07",""
@@ -27,9 +27,12 @@ int32,str,str
 21,"TEXT_GAIUSE213_01357_SEQ_21",""
 22,"TEXT_GAIUSE213_01357_SEQ_22",""
 23,"TEXT_GAIUSE213_01357_SEQ_23",""
-24,"TEXT_GAIUSE213_01357_TODO_00","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/> This quest has been adjusted. Please abandon the quest and restart it by speaking to Falkbryda at Camp Skull Valley.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
-25,"TEXT_GAIUSE213_01357_TODO_01","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/> This quest has been adjusted. Please abandon the quest and restart it by speaking to Falkbryda at Camp Skull Valley.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
-26,"TEXT_GAIUSE213_01357_TODO_02","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/> This quest has been adjusted. Please abandon the quest and restart it by speaking to Falkbryda at Camp Skull Valley.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+24,"TEXT_GAIUSE213_01357_TODO_00","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/>本クエストは調整されました。一度破棄し、
+ファルクブリダ中甲佐から再受注してください<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+25,"TEXT_GAIUSE213_01357_TODO_01","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/>本クエストは調整されました。一度破棄し、
+ファルクブリダ中甲佐から再受注してください<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+26,"TEXT_GAIUSE213_01357_TODO_02","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/>本クエストは調整されました。一度破棄し、
+ファルクブリダ中甲佐から再受注してください<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 27,"TEXT_GAIUSE213_01357_TODO_03",""
 28,"TEXT_GAIUSE213_01357_TODO_04",""
 29,"TEXT_GAIUSE213_01357_TODO_05",""
@@ -51,20 +54,37 @@ int32,str,str
 45,"TEXT_GAIUSE213_01357_TODO_21",""
 46,"TEXT_GAIUSE213_01357_TODO_22",""
 47,"TEXT_GAIUSE213_01357_TODO_23",""
-48,"TEXT_GAIUSE213_01357_FALKBRYDA_000_000","As you may already know, Maelstrom scouts have been dispatched to reconnoiter the Sapsa Spawning Grounds."
-49,"TEXT_GAIUSE213_01357_FALKBRYDA_000_001","Among other things, they have orders to determine where Leviathan might emerge...assuming it comes to that."
-50,"TEXT_GAIUSE213_01357_FALKBRYDA_000_002","That our scouts might move unhindered and return unscathed, diversionary maneuvers are presently underway."
-51,"TEXT_GAIUSE213_01357_FALKBRYDA_000_003","In charge of these maneuvers is U'jughal. If you are otherwise unoccupied, mayhap you would be willing to offer her your aid."
-52,"TEXT_GAIUSE213_01357_FALKBRYDA_000_005","That our scouts might move unhindered and return unscathed, diversionary maneuvers are presently underway. If you would lend a hand, pray speak with U'jughal."
-53,"TEXT_GAIUSE213_01357_UJUGHAL_000_010","You're here to help with the <Emphasis>diversions</Emphasis>? Aren't you supposed to be that irreplaceable adventurer the success of the operation is hinging on?"
-54,"TEXT_GAIUSE213_01357_UJUGHAL_000_011","I'm inclined to say it's not worth risking your neck for something so trifling such as this, but if the hero insists, who am I to argue?"
-55,"TEXT_GAIUSE213_01357_UJUGHAL_000_012","Here, take these explosives! Use them to blow the Sahagin pavises sky-high, and create a commotion in Halfstone the likes of which the fishbacks have never seen! That ought to keep them good and occupied."
-56,"TEXT_GAIUSE213_01357_UJUGHAL_000_013","Oh, and in the event that the Sahagin come after you, there's no need to be shy. Stay around, get yourselves acquainted─whatever it takes to buy more time for our scouts."
-57,"TEXT_GAIUSE213_01357_POP_MESSAGE","The Sahagin have been alerted to your presence!"
-58,"TEXT_GAIUSE213_01357_BALLOON_000_015","Intruder! Kill <If(PlayerParameter(4))>her<Else/>him</If>!"
-59,"TEXT_GAIUSE213_01357_BALLOON_000_016","You'll pay for this,
-shhhorewalker!"
-60,"TEXT_GAIUSE213_01357_BALLOON_000_017","Tonight you'll sssleep
-with the fishhhes!"
-61,"TEXT_GAIUSE213_01357_FALKBRYDA_000_020","It sounds like the diversion was a success. Aye, I heard the fireworks all the way over here. My thanks, friend."
-62,"TEXT_GAIUSE213_01357_FALKBRYDA_000_021","We've done all we can for our scouts. All that's left is to pray that they return safely."
+48,"TEXT_GAIUSE213_01357_FALKBRYDA_000_000","ほどなく、サプサ産卵地より、
+偵察隊が帰還する手はずになっている。
+それまで、今しばらく待たれよ。"
+49,"TEXT_GAIUSE213_01357_FALKBRYDA_000_001","かつて成された、蛮神「リヴァイアサン」討伐は、
+傭兵団「海雄旅団」によるもの……。"
+50,"TEXT_GAIUSE213_01357_FALKBRYDA_000_002","恥ずかしながら、我ら黒渦団が、
+「リヴァイアサン」に対するのは初めてなのだ……。
+ゆえに情報収集は、確実に行っておきたい。"
+51,"TEXT_GAIUSE213_01357_FALKBRYDA_000_003","そうだ、偵察隊を支援する作戦に、
+貴公も協力してもらえないか？
+詳細は、「ウ・ジュガル少甲士」に聞いてくれ。"
+52,"TEXT_GAIUSE213_01357_FALKBRYDA_000_005","偵察隊を支援する作戦に、
+貴公も協力してもらえないか？
+詳細は、「ウ・ジュガル少甲士」に聞いてくれ。"
+53,"TEXT_GAIUSE213_01357_UJUGHAL_000_010","任務、ご苦労さまです！
+……えっ、サハギン族対策にご協力いただけるんですか！？
+それは、頼もしい限りです。"
+54,"TEXT_GAIUSE213_01357_UJUGHAL_000_011","現在、偵察隊がサプサ産卵地に潜入しています。
+彼らが動きやすくなるよう、警備の目を引きつけるのが、
+本陽動作戦の目的です。"
+55,"TEXT_GAIUSE213_01357_UJUGHAL_000_012","サハギン族の哨兵が展開するハーフストーンへと侵入し、
+最近、奴らが増築している「<Sheet(EObj,2003585,0)/>」を
+この「<Sheet(EventItem,2001213,0)/>」で爆破してください。"
+56,"TEXT_GAIUSE213_01357_UJUGHAL_000_013","派手に破壊活動を行い、警備の目を引きつけるのです。
+ただし、サハギン族の哨兵に感づかれてしまった場合は、
+返り討ちにして時間を稼いでください！"
+57,"TEXT_GAIUSE213_01357_POP_MESSAGE","敵の気配を感じた！！"
+58,"TEXT_GAIUSE213_01357_BALLOON_000_015","フスィーッ、敵だ討て！"
+59,"TEXT_GAIUSE213_01357_BALLOON_000_016","フスィーッ、よくも許さん！"
+60,"TEXT_GAIUSE213_01357_BALLOON_000_017","フスィーッ、生かして帰さん！"
+61,"TEXT_GAIUSE213_01357_FALKBRYDA_000_020","陽動作戦は成功したようだな。
+奴らも、さぞ慌てふためいたことだろう。"
+62,"TEXT_GAIUSE213_01357_FALKBRYDA_000_021","あとは、サプサ産卵地に潜入した偵察隊が、
+無事に戻るのを待つだけだ。"

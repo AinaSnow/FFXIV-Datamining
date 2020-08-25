@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBSEA072_00484_SEQ_00","Loetrswys wishes to check for any trouble that might be milling about the Grey Fleet."
-1,"TEXT_SUBSEA072_00484_SEQ_01","Loetrswys is not one to leave until the morrow what can be done today. Find what's been going on around the mill by asking the millers."
-2,"TEXT_SUBSEA072_00484_SEQ_02","The task has come full circle. Let Weitzaren know."
-3,"TEXT_SUBSEA072_00484_SEQ_03","Weitzaren will arrange repairs for Eshushu's sail, just in case circumstances take an unexpected turn for the worse. "
+0,"TEXT_SUBSEA072_00484_SEQ_00","グレイフリート風車群のルートルスィスは、風車の様子を調べたいようだ。"
+1,"TEXT_SUBSEA072_00484_SEQ_01","風車番ルートルスィスから、風車の検査を依頼された。3人の風車番「エシュシュ」、「ヴェーンジルン」、「ル・ジュマニ」から風車の状況を聞き出そう。"
+2,"TEXT_SUBSEA072_00484_SEQ_02","風車番から風車の状況を聞き出した。グレイフリート風車群の風車番頭「ヴェイツアレン」に報告しよう。"
+3,"TEXT_SUBSEA072_00484_SEQ_03","風車番頭のヴェイツアレンは、検査の報告を受け、エシュシュの風車を修理する準備に取り掛かるという。このように、不測の事態に備えてきた結果、風車群はつねに安定した働きぶりを見せているようだ。この調子で、風車群は今後も働き続けることだろう。"
 4,"TEXT_SUBSEA072_00484_SEQ_04",""
 5,"TEXT_SUBSEA072_00484_SEQ_05",""
 6,"TEXT_SUBSEA072_00484_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_SUBSEA072_00484_SEQ_21",""
 22,"TEXT_SUBSEA072_00484_SEQ_22",""
 23,"TEXT_SUBSEA072_00484_SEQ_23",""
-24,"TEXT_SUBSEA072_00484_TODO_00","Speak to Eshushu, Waentzirn, and R'jumani."
-25,"TEXT_SUBSEA072_00484_TODO_01","Report to Weitzaren."
+24,"TEXT_SUBSEA072_00484_TODO_00","風車番と話す"
+25,"TEXT_SUBSEA072_00484_TODO_01","ヴェイツアレンと話す"
 26,"TEXT_SUBSEA072_00484_TODO_02",""
 27,"TEXT_SUBSEA072_00484_TODO_03",""
 28,"TEXT_SUBSEA072_00484_TODO_04",""
@@ -49,16 +49,36 @@ int32,str,str
 45,"TEXT_SUBSEA072_00484_TODO_21",""
 46,"TEXT_SUBSEA072_00484_TODO_22",""
 47,"TEXT_SUBSEA072_00484_TODO_23",""
-48,"TEXT_SUBSEA072_00484_LOETRSWYS_000_0","Breathtaking, is it not? Proud sails turning, rugged gears churning─the mill never stops, and so neither can the millers assigned to its upkeep."
-49,"TEXT_SUBSEA072_00484_LOETRSWYS_000_1","Vigilance is the key. By addressing tomorrow's issues today, we assure the wheels of prosperity continue to grind. Unfortunately, I've my hands full with the work of the day, and cannot leave my station to tend to inspection."
-50,"TEXT_SUBSEA072_00484_LOETRSWYS_000_2","I would entrust this duty to you. Seek out the other three millers, heed their concerns, and apprise Weitzaren of your findings."
-51,"TEXT_SUBSEA072_00484_RJUMANI_000_10","Well, you see the mill spinnin', don't you? What more do you need to know?"
-52,"TEXT_SUBSEA072_00484_RJUMANI_000_11","Only problem I have is you meddlin' in my chores. Away with you, then."
-53,"TEXT_SUBSEA072_00484_ESHUSHU_000_20","I haven't noticed anythin' off meself, but let's have a look now, shall we?"
-54,"TEXT_SUBSEA072_00484_ESHUSHU_000_21","Hmmm... Look there─the sail's been nicked a bit. Nothing urgent, mind you."
-55,"TEXT_SUBSEA072_00484_ESHUSHU_000_22","The cloth we use is the same as they use for sails out on the sea, made to stand up to blusterin' wind."
-56,"TEXT_SUBSEA072_00484_WAENTZIRN_000_30","Pshaw! The mill is fine."
-57,"TEXT_SUBSEA072_00484_WAENTZIRN_000_31","We'd be wiser to concern ourselves with the grubby scavengers that rob us of our yield."
-58,"TEXT_SUBSEA072_00484_WEITZAREN_000_40","I trust you enjoyed your tour of the mill! You are impressed, yes?"
-59,"TEXT_SUBSEA072_00484_WEITZAREN_000_41","The matter of Eshushu's sail is most worrisome indeed! The matter shall be remedied at once!"
-60,"TEXT_SUBSEA072_00484_WEITZAREN_000_42","To delay acting until trouble occurs is to ask for trouble! The Grey Fleet stops for nothing! Full sail ahead!"
+48,"TEXT_SUBSEA072_00484_LOETRSWYS_000_0","あら冒険者さん。見て、この風車……立派でしょ？
+定期検査をやって、しっかり保守しているからね。"
+49,"TEXT_SUBSEA072_00484_LOETRSWYS_000_1","そろそろ、今回の検査結果をまとめたいんだけど……
+羊毛の加工を急いでて、手が離せないの。
+代わりに、他の風車番から結果を聞いてきてくれない？"
+50,"TEXT_SUBSEA072_00484_LOETRSWYS_000_2","3人の風車番から話を聞いたら、
+風車番頭の「ヴェイツアレン」に教えてあげて。
+この人が、風車全体の管理をしているのよ。"
+51,"TEXT_SUBSEA072_00484_RJUMANI_000_10","風車なら、今日も絶好調に回ってるよ。
+手入れは欠かしたことないからね。
+それがあたしの仕事だもの、当然だよ。"
+52,"TEXT_SUBSEA072_00484_RJUMANI_000_11","羊毛の加工も、粉ひきも、全部風車でやってるんだから。
+もしも壊れたら一大事ってわけ。"
+53,"TEXT_SUBSEA072_00484_ESHUSHU_000_20","ワシんところの風車の様子かね？
+じゃあ、お前さんもワシと一緒に、
+その眼で風車の様子を確認しようじゃないか。"
+54,"TEXT_SUBSEA072_00484_ESHUSHU_000_21","ふぅむ……ちと帆が傷んできておるかのう。
+まだ、張り替えが必要なほどではないがな。"
+55,"TEXT_SUBSEA072_00484_ESHUSHU_000_22","ここの風車に使われている布は、
+もともと船の帆布を転用しておるもんでな。
+潮風には、かなり強いほうなんじゃ。"
+56,"TEXT_SUBSEA072_00484_WAENTZIRN_000_30","定期検査の結果ですね？
+風車は特に問題なく作動しています。"
+57,"TEXT_SUBSEA072_00484_WAENTZIRN_000_31","私としては、むしろ魔物の被害が気になりますね。
+せっかくひいた小麦が、魔物に奪われることが
+増えている気がして……。"
+58,"TEXT_SUBSEA072_00484_WEITZAREN_000_40","ルートルスィスたちから、
+風車の定期検査の結果を聞いてきてくれたのか。"
+59,"TEXT_SUBSEA072_00484_WEITZAREN_000_41","ふむ、エシュシュの二番風車だけは、
+少し心配だな……替えの帆布の準備だけはしておくか。"
+60,"TEXT_SUBSEA072_00484_WEITZAREN_000_42","先に手を打っておけば、
+いざ事が起こったときに迅速に対応できるからな。
+そうやって、うちの風車群は動き続けることができるのさ。"

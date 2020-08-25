@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBFST000_00020_SEQ_00","The conjurer Mellaine seeks an assistant for her frantically busy student."
-1,"TEXT_SUBFST000_00020_SEQ_01","Conjurer Mellaine's student, Braya, is struggling to complete the many preparatory tasks required to hold an impending ceremony. Seek her out at the Conjurers' Guild, and offer your assistance."
-2,"TEXT_SUBFST000_00020_SEQ_02","The censers in the Conjurers' Guild are almost dry. Refill them using the Azeyma rose oil you received from Braya."
-3,"TEXT_SUBFST000_00020_SEQ_03","You have refilled the censers with Azeyma rose oil. Return to Braya and report that the task is complete."
-4,"TEXT_SUBFST000_00020_SEQ_04","Braya is pleasantly surprised to see an adventurer work with such courtesy, and is impressed with her mentor's eye for character."
+0,"TEXT_SUBFST000_00020_SEQ_00","幻術士メレヌは、多忙な愛弟子に手を貸してくれる者を探しているようだ。"
+1,"TEXT_SUBFST000_00020_SEQ_01","幻術士メレヌの弟子を手助けをするため、「幻術士ギルド」に赴き、「ブレイヤ」に声をかけよう。"
+2,"TEXT_SUBFST000_00020_SEQ_02","香台の香油が切れかけているらしい。ブレイヤから受け取ったアーゼマローズの香油を、幻術士ギルド内にある「香台」に注ごう。"
+3,"TEXT_SUBFST000_00020_SEQ_03","香台にアーゼマローズの香油を注ぎ終えた。ブレイヤに報告しよう。"
+4,"TEXT_SUBFST000_00020_SEQ_04","冒険者の働きからは、丁寧さが見て取れたという。ブレイヤは<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>に手伝いを依頼した師匠メレヌの慧眼に感服しているようだ。"
 5,"TEXT_SUBFST000_00020_SEQ_05",""
 6,"TEXT_SUBFST000_00020_SEQ_06",""
 7,"TEXT_SUBFST000_00020_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_SUBFST000_00020_SEQ_21",""
 22,"TEXT_SUBFST000_00020_SEQ_22",""
 23,"TEXT_SUBFST000_00020_SEQ_23",""
-24,"TEXT_SUBFST000_00020_TODO_00","Speak with Braya."
-25,"TEXT_SUBFST000_00020_TODO_01","Pour the Azeyma rose oil into the censers."
-26,"TEXT_SUBFST000_00020_TODO_02","Report to Braya at the Conjurers' Guild."
+24,"TEXT_SUBFST000_00020_TODO_00","ブレイヤと話す"
+25,"TEXT_SUBFST000_00020_TODO_01","香台にアーゼマローズの香油を注ぐ"
+26,"TEXT_SUBFST000_00020_TODO_02","ブレイヤに報告"
 27,"TEXT_SUBFST000_00020_TODO_03",""
 28,"TEXT_SUBFST000_00020_TODO_04",""
 29,"TEXT_SUBFST000_00020_TODO_05",""
@@ -49,13 +49,29 @@ int32,str,str
 45,"TEXT_SUBFST000_00020_TODO_21",""
 46,"TEXT_SUBFST000_00020_TODO_22",""
 47,"TEXT_SUBFST000_00020_TODO_23",""
-48,"TEXT_SUBFST000_00020_MELLAINE_000_1","You there. You are an adventurer, yes? Good. I have a task for you."
-49,"TEXT_SUBFST000_00020_MELLAINE_000_2","Take yourself over to the Conjurers' Guild and speak with my student, Braya. She has her hands full preparing for the auguries and would likely welcome your assistance."
-50,"TEXT_SUBFST000_00020_MELLAINE_000_3","In her excitement at becoming a conjurer, I fear my young disciple is pushing herself beyond the limits of her endurance. Enthusiasm is all well and good, but it would not do to have an initiate collapse from exhaustion."
-51,"TEXT_SUBFST000_00020_BRAYA_000_10","Yes? Yes, I am Braya, but I am also awfully b─ Oh, you say Lady Mellaine herself asked you to assist me?"
-52,"TEXT_SUBFST000_00020_BRAYA_000_11","In that case, I suppose you <Emphasis>might</Emphasis> lend a hand...especially as mine appear to be shaking─though only very slightly. Not that it's anything to worry about─mere nervous energy!"
-53,"TEXT_SUBFST000_00020_BRAYA_000_12","Ahem. I would be exceedingly grateful if you would take this Azeyma rose oil and refill the censers. There are two that require attention."
-54,"TEXT_SUBFST000_00020_BRAYA_000_13","Please have a care not to disturb the conjurers amid their meditations. You must be as quiet and unobtrusive as possible."
-55,"TEXT_SUBFST000_00020_BRAYA_000_20","My thanks. I must admit to being rather impressed by how faithfully you followed my instructions."
-56,"TEXT_SUBFST000_00020_BRAYA_000_21","I had always considered adventurers to be an uncouth and rowdy lot, but I see you are capable of courtesy as well."
-57,"TEXT_SUBFST000_00020_BRAYA_000_22","Lady Mellaine has a fine eye for character. You should feel honored that she chose you for the task."
+48,"TEXT_SUBFST000_00020_MELLAINE_000_1","そこのお前、冒険者だね？
+すまないが少し、手を貸してくれないかい。"
+49,"TEXT_SUBFST000_00020_MELLAINE_000_2","「幻術士ギルド」にいる
+私の弟子の「ブレイヤ」のことなんだがね、
+ちょいとばかし、仕事を任せすぎてしまって心配なんだ。"
+50,"TEXT_SUBFST000_00020_MELLAINE_000_3","幻術士になったばかりでね、
+張り切るのはいいことだが、無茶してはいかん。
+行って、香油の注ぎ足しでも手伝ってやっておくれ。"
+51,"TEXT_SUBFST000_00020_BRAYA_000_10","はい、わたしがブレイヤですが……
+なんと、メレヌ様に言われて来てくださったのですか。"
+52,"TEXT_SUBFST000_00020_BRAYA_000_11","ふう……実を言うと、張り切りすぎて
+少し気疲れしていたところなんです。
+ありがたく、お言葉に甘えさせていただきましょう。"
+53,"TEXT_SUBFST000_00020_BRAYA_000_12","この「アーゼマローズの香油」を、
+ギルドの奥にある「香台」に注いでいただけますか。
+残り少なくなっていたものが、ふたつほどあったはず。"
+54,"TEXT_SUBFST000_00020_BRAYA_000_13","くれぐれも瞑想中の皆様の邪魔をなさらぬよう、
+お静かに、お願いいたしますね。"
+55,"TEXT_SUBFST000_00020_BRAYA_000_20","ご苦労様でした。
+あなたの働き、見させていただきましたよ。"
+56,"TEXT_SUBFST000_00020_BRAYA_000_21","冒険者というと、
+粗野でずぼらな印象があったのですが……
+あなたの働きからは丁寧さが見て取れました。"
+57,"TEXT_SUBFST000_00020_BRAYA_000_22","さすがはメレヌ様、ひとを見る目がおありです。
+あなたも、お声をかけていただいたことを
+誇りに思うとよいでしょう。"

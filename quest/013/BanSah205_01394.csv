@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANSAH205_01394_SEQ_00","The path to war is littered with brute and ugly things, and it seems Houu has stumbled over yet more of those.  "
-1,"TEXT_BANSAH205_01394_SEQ_01","Four crates of stolen armaments have been deposited in the Sapsa Spawning Grounds by the Serpent Reavers, and they await collection by the Coral Tridents. The armaments need but a spark to go up in flames, and Houu has given you several flint stones to accomplish this purpose. Should guards of the shelftooth, shelfclaw, or shelfspine persuasion attempt to interfere, lay them low."
-2,"TEXT_BANSAH205_01394_SEQ_02","All four crates of weapons and armor have been reduced to ashes, with much the same to be said of the guards unwise enough to attack you. At your earliest convenience, return to Houu in Novv's Nursery and report on your successful pyromania."
-3,"TEXT_BANSAH205_01394_SEQ_03","Pleased with your performance, Houu is nevertheless harsh in his condemnation of shorewalker ways, the very notion of crafting being repugnant to the Sahagin. There does seem, however, to be some strange sympathy for the devil in that slow-beating heart..."
+0,"TEXT_BANSAH205_01394_SEQ_00","ノォヴの育成地のホォウは、危惧していることがあるようだ。"
+1,"TEXT_BANSAH205_01394_SEQ_01","ホォウから、サプサ産卵地に持ち込まれた「<Sheet(EObj,2003815,0)/>」を燃やすよう頼まれた。サプサ産卵地の4つの「<Sheet(EObj,2003815,0)/>」に「<Sheet(EventItem,2001263,0)/>」を使って燃やし、「<Sheet(BNpcName,2681,0)/>」や「<Sheet(BNpcName,2679,0)/>」や「<Sheet(BNpcName,2680,0)/>」が襲ってきた場合は、これを討伐しよう。"
+2,"TEXT_BANSAH205_01394_SEQ_02","すべての<Sheet(EObj,2003815,0)/>を燃やし、襲ってきた「珊瑚の銛」の一味を討伐した。ノォヴの育成地の「ホォウ」に報告しよう。"
+3,"TEXT_BANSAH205_01394_SEQ_03","<Sheet(EObj,2003815,0)/>を燃やしたことを報告すると、ホォウは安心したようだった。彼の話によると、海中に暮らすサハギン族には、木や金属を加工する習慣がないらしい。人の扱う武具が「珊瑚の銛」に悪用されないよう、今後もホォウとともに警戒してこう。"
 4,"TEXT_BANSAH205_01394_SEQ_04",""
 5,"TEXT_BANSAH205_01394_SEQ_05",""
 6,"TEXT_BANSAH205_01394_SEQ_06",""
@@ -25,8 +25,9 @@ int32,str,str
 21,"TEXT_BANSAH205_01394_SEQ_21",""
 22,"TEXT_BANSAH205_01394_SEQ_22",""
 23,"TEXT_BANSAH205_01394_SEQ_23",""
-24,"TEXT_BANSAH205_01394_TODO_00","Use flint stones on stolen armaments in the Sapsa Spawning Grounds, and slay any Coral Tridents that appear."
-25,"TEXT_BANSAH205_01394_TODO_01","Report to Houu."
+24,"TEXT_BANSAH205_01394_TODO_00","サプサ産卵地の<Sheet(EObj,2003815,0)/>に<Sheet(EventItem,2001263,0)/>を使い
+珊瑚の銛の一味が現れたら討伐"
+25,"TEXT_BANSAH205_01394_TODO_01","ホォウに報告"
 26,"TEXT_BANSAH205_01394_TODO_02",""
 27,"TEXT_BANSAH205_01394_TODO_03",""
 28,"TEXT_BANSAH205_01394_TODO_04",""
@@ -49,14 +50,27 @@ int32,str,str
 45,"TEXT_BANSAH205_01394_TODO_21",""
 46,"TEXT_BANSAH205_01394_TODO_22",""
 47,"TEXT_BANSAH205_01394_TODO_23",""
-48,"TEXT_BANSAH205_01394_HOUU_000_000","Pshhh... A shorewalker trading vessel was raided by Shhherpent Reavers. The cargo was arms and armor, and a great deal of it."
-49,"TEXT_BANSAH205_01394_HOUU_000_001","Though clumsy in the shhhea, your shorewalker arms are devastating on land. They cannot be allowed to pass into the Coral Tridents' hands. Pshhh..."
-50,"TEXT_BANSAH205_01394_HOUU_000_002","Put the crates of stolen armaments to the flame, shorewalker. All you need are these flint shhhtones, for they are volatile things. Be warned, the Coral Tridents may be in the area. Pshhh..."
-51,"TEXT_BANSAH205_01394_HOUU_000_010","Pshhh... Take these flint shhhtones and put the shhhtolen armaments in the Shhhapsa Shhhpawning Grounds to the flame. The Coral Tridents must not have them."
-52,"TEXT_BANSAH205_01394_HOUU_000_020","You burned every last crate? Good. Good. Unnatural thing, fire. It shhheems pointless to fight water. It needs no fuel... Yes, it is patient."
-53,"TEXT_BANSAH205_01394_HOUU_000_021","You shhhorewalkers have no patience, it shhheems to me. You interfere with trees and earth, forcing the wood and metal into arms. You are impatient and cruel...and very lonely. Pshhh..."
-54,"TEXT_BANSAH205_01394_HOUU_000_022","That last quality of your kind...it moves me. That is a shhhurprise. Pshhh..."
-55,"TEXT_BANSAH205_01394_POPMESSAGE_000_000","You sense a hostile presence!"
-56,"TEXT_BANSAH205_01394_BALLOON_000_030","Pshhh... Paws off!"
-57,"TEXT_BANSAH205_01394_BALLOON_000_031","Shhhorewalker shhhcum!"
-58,"TEXT_BANSAH205_01394_BALLOON_000_032","Our armaments! How dare you meddle!"
+48,"TEXT_BANSAH205_01394_HOUU_000_000","フスィーッ……ヒレナシの商船が「海蛇の舌」に襲われた……。
+奴ら、そこから大量の武具を強奪したらしい……。"
+49,"TEXT_BANSAH205_01394_HOUU_000_001","海中はともかく、陸の上なら、
+ヒレナシの武具は有用であると認めざるを得まい……。
+強奪された武具が「珊瑚の銛」に渡ると面倒だ……。"
+50,"TEXT_BANSAH205_01394_HOUU_000_002","フスィーッ……この「<Sheet(EventItem,2001263,0)/>」を使って、
+サプサ産卵地の「<Sheet(EObj,2003815,0)/>」を燃やしてくれ……。
+もし、敵が出てきたなら倒してしまえ……！"
+51,"TEXT_BANSAH205_01394_HOUU_000_010","フスィーッ……「<Sheet(EventItem,2001263,0)/>」を使って、
+サプサ産卵地に持ち込まれた武具を燃やしてくれ……。
+「珊瑚の銛」の手に渡ったら面倒なのでな……。"
+52,"TEXT_BANSAH205_01394_HOUU_000_020","フスィーッ……すべての武具を燃やしたのか……？
+……火は苦手だ……お前がやってくれて助かった……。"
+53,"TEXT_BANSAH205_01394_HOUU_000_021","フスィーッ……海中に生きる俺たちには、
+木や鉄をいじる習慣がない……。
+ヒレナシの使うような武具は……作れない……。"
+54,"TEXT_BANSAH205_01394_HOUU_000_022","お前たちは……ヒレがなくて、泳ぎも遅いくせに……
+器用であることに驚く……フスィーッ……。"
+55,"TEXT_BANSAH205_01394_POPMESSAGE_000_000","敵の気配を感じた！！"
+56,"TEXT_BANSAH205_01394_BALLOON_000_030","フスィーッ…
+何してやがる！"
+57,"TEXT_BANSAH205_01394_BALLOON_000_031","フスィーッ…ヒレナシめ！"
+58,"TEXT_BANSAH205_01394_BALLOON_000_032","フスィーッ…
+貴様、大切な武具を！"

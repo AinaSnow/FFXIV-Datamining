@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNA317_01618_SEQ_00","Alphinaud ponders the means by which you might find Hraesvelgr."
-1,"TEXT_HEAVNA317_01618_SEQ_01","As Alphinaud muses on how the party can best locate Hraesvelgr, Ysayle exclaims in surprise at the sight of a moogle. The creature is startled into flight, and the party sets off in pursuit, determined to question the moogle on the whereabouts of the great wyrm. Speak with Alphinaud, and learn if he has spotted your hopefully informative quarry."
-2,"TEXT_HEAVNA317_01618_SEQ_02","You have lost sight of the moogle. Survey the area, and attempt to catch a glimpse of the frightened creature."
-3,"TEXT_HEAVNA317_01618_SEQ_03","You scan the area, but can find no sign of the elusive moogle. Return to Alphinaud, and report your failure."
-4,"TEXT_HEAVNA317_01618_SEQ_04","You inform Alphinaud of your failure to find the moogle, and Alphinaud begins to wonder if the creature ever existed in the first place. Could your quarry be concealing himself with magic...?"
+0,"TEXT_HEAVNA317_01618_SEQ_00","ソーム・アル山頂のアルフィノは、何かを思案しているようだ。"
+1,"TEXT_HEAVNA317_01618_SEQ_01","フレースヴェルグの捜索方法について話している最中、モーグリ族を発見した。ひとまず、モーグリ族を追うことにした冒険者たち。ドラヴァニア雲海のモグモグホーム付近にいる「アルフィノ」と話そう。"
+2,"TEXT_HEAVNA317_01618_SEQ_02","アルフィノはモーグリ族を見失ってしまったようだ。モグモグホームにある「<Sheet(EObj,2005450,0)/>」3箇所で見渡そう。"
+3,"TEXT_HEAVNA317_01618_SEQ_03","周辺を見渡してみたが、モーグリ族は見つからなかった。モグモグホームの「アルフィノ」に報告しよう。"
+4,"TEXT_HEAVNA317_01618_SEQ_04","アルフィノに報告した。どうすれば、モーグリ族を見つけられるだろうか……？"
 5,"TEXT_HEAVNA317_01618_SEQ_05",""
 6,"TEXT_HEAVNA317_01618_SEQ_06",""
 7,"TEXT_HEAVNA317_01618_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_HEAVNA317_01618_SEQ_21",""
 22,"TEXT_HEAVNA317_01618_SEQ_22",""
 23,"TEXT_HEAVNA317_01618_SEQ_23",""
-24,"TEXT_HEAVNA317_01618_TODO_00","Speak with Alphinaud."
-25,"TEXT_HEAVNA317_01618_TODO_01","Search for the moogle at the designated locations."
-26,"TEXT_HEAVNA317_01618_TODO_02","Report to Alphinaud."
+24,"TEXT_HEAVNA317_01618_TODO_00","アルフィノと話す"
+25,"TEXT_HEAVNA317_01618_TODO_01","<Sheet(EObj,2005450,0)/>で見渡す"
+26,"TEXT_HEAVNA317_01618_TODO_02","アルフィノに報告"
 27,"TEXT_HEAVNA317_01618_TODO_03",""
 28,"TEXT_HEAVNA317_01618_TODO_04",""
 29,"TEXT_HEAVNA317_01618_TODO_05",""
@@ -49,20 +49,36 @@ int32,str,str
 45,"TEXT_HEAVNA317_01618_TODO_21",""
 46,"TEXT_HEAVNA317_01618_TODO_22",""
 47,"TEXT_HEAVNA317_01618_TODO_23",""
-48,"TEXT_HEAVNA317_01618_ALPHINAUD_000_000","Now that we have scaled the mountain, there remains the problem of finding Hraesvelgr himself..."
-49,"TEXT_HEAVNA317_01618_ICEHEART_000_001","What manner of creature is that...?"
-50,"TEXT_HEAVNA317_01618_ALPHINAUD_000_002","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Do my eyes deceive me, or was that a moogle?"
-51,"TEXT_HEAVNA317_01618_ALPHINAUD_000_003","It was my understanding that they only dwelled within the Twelveswood. I certainly never expected to see one in the Churning Mists..."
-52,"TEXT_HEAVNA317_01618_ALPHINAUD_000_004","If the moogle <Emphasis>does</Emphasis> live here, however, he may know where Hraesvelgr makes his lair. Quickly, now, before we lose the creature completely!"
-53,"TEXT_HEAVNA317_01618_ESTINIEN_000_005","This place is far from the barren mountaintop I pictured in my mind..."
-54,"TEXT_HEAVNA317_01618_ICEHEART_000_006","Well, dragoon? Do you believe <Emphasis>these</Emphasis> ruins were also built by heretics to deceive the faithful of Ishgard?"
-55,"TEXT_HEAVNA317_01618_ICEHEART_000_007","How can one not be moved by such a breathtaking sight..."
-56,"TEXT_HEAVNA317_01618_ALPHINAUD_000_010","Bah, he's gone! <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, we must widen our search."
-57,"TEXT_HEAVNA317_01618_ESTINIEN_000_011","A “moogle,” did you say? I am unfamiliar with the breed, but I shall search for one nonetheless..."
-58,"TEXT_HEAVNA317_01618_ICEHEART_000_012","Where could he have gone!?"
-59,"TEXT_HEAVNA317_01618_ALPHINAUD_000_013","We <Emphasis>did</Emphasis> see a moogle, did we not...?"
-60,"TEXT_HEAVNA317_01618_ESTINIEN_000_020","I see no evidence of this moogle of yours. Are you certain it wasn't a trick of the light? Mayhaps 'twas simply one of these strange plants, shifting in a breeze..."
-61,"TEXT_HEAVNA317_01618_ICEHEART_000_030","I have heard tales of these moogles, but 'tis the first time I've ever laid eyes on one. They are rather adorable, aren't they?"
-62,"TEXT_HEAVNA317_01618_ICEHEART_000_031","What─ Why do you stare at me so? Can I not find a creature adorable? My heart is not truly made of ice..."
-63,"TEXT_HEAVNA317_01618_SYSTEM_000_040","There is no sign of a moogle in the area..."
-64,"TEXT_HEAVNA317_01618_ALPHINAUD_000_050","I'm sure I glimpsed the moogle fleeing in this direction. Could he be concealing himself with magic...?"
+48,"TEXT_HEAVNA317_01618_ALPHINAUD_000_000","さて、問題は、聖竜「フレースヴェルグ」の居場所を、
+どうやって探すかだが……。"
+49,"TEXT_HEAVNA317_01618_ICEHEART_000_001","なんだ、あれは……。"
+50,"TEXT_HEAVNA317_01618_ALPHINAUD_000_002","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>……
+私の見間違いだろうか、モーグリ族に見えたが……。"
+51,"TEXT_HEAVNA317_01618_ALPHINAUD_000_003","モーグリ族は、黒衣森にのみ棲まう種族……。
+それが、ここ「ドラヴァニア雲海」の空に？"
+52,"TEXT_HEAVNA317_01618_ALPHINAUD_000_004","いや、詳しいことを考えるのは後だ。
+先ほどのモーグリ族を追ってみよう！
+聖竜の居所を聞くことができるかもしれない。"
+53,"TEXT_HEAVNA317_01618_ESTINIEN_000_005","まさか霊峰の頂の上に、
+このような光景が広がっていたとは……。"
+54,"TEXT_HEAVNA317_01618_ICEHEART_000_006","これらの遺跡は、かつて竜と人とが共に生きた証……。
+蒼の竜騎士よ、目に焼き付けておくがいい。"
+55,"TEXT_HEAVNA317_01618_ICEHEART_000_007","しかし、なんという景色なのだ……。
+感動せずにいられようか？"
+56,"TEXT_HEAVNA317_01618_ALPHINAUD_000_010","ええい、見失ったか！
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、周辺をよく探してみよう。"
+57,"TEXT_HEAVNA317_01618_ESTINIEN_000_011","モーグリ族だと？
+俺は、見たことがないんだが……。
+……ともかく探してみるとするか。"
+58,"TEXT_HEAVNA317_01618_ICEHEART_000_012","ど、どこに行ったのだ！？"
+59,"TEXT_HEAVNA317_01618_ALPHINAUD_000_013","た、確かに見たと思ったんだが……。"
+60,"TEXT_HEAVNA317_01618_ESTINIEN_000_020","モーグリ族など、どこにも見当たらないぞ？
+その辺にある綿毛みたいな植物と、見間違えたんじゃないのか？"
+61,"TEXT_HEAVNA317_01618_ICEHEART_000_030","先ほどのあれが、モーグリ族か……。
+初めて見たが、案外、可愛いものだな……。"
+62,"TEXT_HEAVNA317_01618_ICEHEART_000_031","な、なんだ、意外そうな顔をして！
+私とて可愛いものを、可愛いと思うことくらいあるぞ。
+「氷の巫女」と呼ばれても、心まで凍り付いてはいないのだ。"
+63,"TEXT_HEAVNA317_01618_SYSTEM_000_040","この辺りに、モーグリ族の姿はないようだ……。"
+64,"TEXT_HEAVNA317_01618_ALPHINAUD_000_050","こっちの方角に、逃げ込んだようにも見えたが……。
+魔法で姿を隠している……のか？"

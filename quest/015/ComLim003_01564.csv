@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_COMLIM003_01564_SEQ_00","Lieutenant Trachraet detects in you a certain whiff of brine and vinegar, a perfect cure for the realm's plague of villainy."
-1,"TEXT_COMLIM003_01564_SEQ_01","According to Lieutenant Trachraet, the Eorzean Alliance has instituted a bounty system referred to as the Hunt. For the piquant particulars of this most challenging venture, seek out the Hunt billmaster within Maelstrom Command."
-2,"TEXT_COMLIM003_01564_SEQ_02","The Hunt billmaster tells you what you need to know of the Hunt. Though all the talk of pudding and death is discomfiting, it is good to know someone you can turn to for information─or to spend your hard-earned Allied Seals. Do your part to preserve the peace, and you will be richly rewarded."
+0,"TEXT_COMLIM003_01564_SEQ_00","黒渦団：軍令部のトラッハレート少甲士は、冒険者に依頼したい任務があるようだ。"
+1,"TEXT_COMLIM003_01564_SEQ_01","トラッハレート少甲士から「モブハント」制度を紹介された。詳細な説明を受けるため、黒渦団：軍令部の「モブハント担当官」と話そう。"
+2,"TEXT_COMLIM003_01564_SEQ_02","モブハント担当官から、「モブハント」制度に関する説明を受けた。詳細な説明や報酬の交換が必要なときは、「モブハント担当官」に声をかければいいようだ。手配中のモブを積極的に討伐し、エオルゼアの治安向上に貢献しよう。"
 3,"TEXT_COMLIM003_01564_SEQ_03",""
 4,"TEXT_COMLIM003_01564_SEQ_04",""
 5,"TEXT_COMLIM003_01564_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_COMLIM003_01564_SEQ_21",""
 22,"TEXT_COMLIM003_01564_SEQ_22",""
 23,"TEXT_COMLIM003_01564_SEQ_23",""
-24,"TEXT_COMLIM003_01564_TODO_00","Speak with the Hunt billmaster at Maelstrom Command."
+24,"TEXT_COMLIM003_01564_TODO_00","黒渦団：軍令部のモブハント担当官と話す"
 25,"TEXT_COMLIM003_01564_TODO_01",""
 26,"TEXT_COMLIM003_01564_TODO_02",""
 27,"TEXT_COMLIM003_01564_TODO_03",""
@@ -49,16 +49,36 @@ int32,str,str
 45,"TEXT_COMLIM003_01564_TODO_21",""
 46,"TEXT_COMLIM003_01564_TODO_22",""
 47,"TEXT_COMLIM003_01564_TODO_23",""
-48,"TEXT_COMLIM003_01564_TRACHRAET_000_000","I'll wager a salty swab such as yerself'd be keen to know what went on at the big parley. Upshot is, the Eorzean Alliance's called for the 'Unts!
-...What's that? <Emphasis>'Unts</Emphasis>, I said, like with 'arpoons an' narwhals."
-49,"TEXT_COMLIM003_01564_TRACHRAET_000_001","The 'Unt be a system what puts a bounty on them what flout the law. It don't matter whether they be men or beasts. If ye slay the troublemaker, ye get a reward."
-50,"TEXT_COMLIM003_01564_TRACHRAET_000_002","Aye, it's a nice bit o' cooperation. O' course, we still fight like squids and whales out in the 'interlands. If the Alliance thinks that people 'aven't noticed, the lot of 'em are drunk on seawater."
-51,"TEXT_COMLIM003_01564_TRACHRAET_100_002","But that's neither 'ere nor there for ye. Nay, 'tis the 'Unt we need ye for. Put down some marks, contribute to the peace─the commonfolk'll thank ye for it."
-52,"TEXT_COMLIM003_01564_TRACHRAET_000_003","If ye've got a mind to learn more, 'ead on into Maelstrom Command an' speak with the 'Unt billmaster. The bloke can tell ye all about the details."
-53,"TEXT_COMLIM003_01564_TRACHRAET_000_005","Aye, there's fair bounty to be 'ad in the 'Unt. If ye've got a mind to learn more, 'ead on into Maelstrom Command an' speak with the 'Unt billmaster."
-54,"TEXT_COMLIM003_01564_MOBOFFICER_000_010","Care to sign on to a hunt? Excellent, excellent. You appear suitably flinty-eyed and rough-knuckled. Bear with me as I cover the basics."
-55,"TEXT_COMLIM003_01564_MOBOFFICER_000_011","The Hunt board is your first step, quite so. These bills you see─each one represents a mark that can be hunted for bounty."
-56,"TEXT_COMLIM003_01564_MOBOFFICER_000_012","Your keen eyes will have noticed that there are not one but two kinds of bills: regular and elite. The latter is rather more challenging, and before you go after one of them, you may want to consult a hunter-scholar. These people are veterans of the Hunt who can recite the Raimdelle Codex by heart."
-57,"TEXT_COMLIM003_01564_MOBOFFICER_000_013","The rest is straightforward: slay the mark, complete the hunt. For each kill, you'll receive a sum in Allied Seals, which can be used to purchase exclusive wares."
-58,"TEXT_COMLIM003_01564_MOBOFFICER_000_014","I hope you won't hesitate to return. In addition to exchanging the seals for rewards, I am ever ready to explain the Hunt in greater detail."
-59,"TEXT_COMLIM003_01564_MOBOFFICER_000_015","The best of luck to you, adventurer, till sea swallows all. And take heart! I've heard it said that many go to the Hunt, and <Emphasis>most</Emphasis> return alive!"
+48,"TEXT_COMLIM003_01564_TRACHRAET_000_000","活躍めざましい貴方に、報せておきたいことがあります。
+エオルゼア都市軍事同盟による「防衛条約審議会」で、
+「モブハント」制度が新たに制定されました。"
+49,"TEXT_COMLIM003_01564_TRACHRAET_000_001","治安を脅かす魔物や悪党たちを「モブ」として定め、
+討伐者に対して、特別な報酬を支払う仕組み……。
+簡単に言えば、報奨金制度のようなものです。"
+50,"TEXT_COMLIM003_01564_TRACHRAET_000_002","……表では、こうやって同盟間の協力を見せながら、
+裏では「アウトロー戦区」という盟約のもとで争う。
+都合が良いと思われても仕方のない状況です。"
+51,"TEXT_COMLIM003_01564_TRACHRAET_100_002","ですが、我々軍人はともかく、民間人には関係のないこと。
+エオルゼアの治安を向上させるためにも、
+ぜひ、貴方の腕前を活かしてください。"
+52,"TEXT_COMLIM003_01564_TRACHRAET_000_003","「モブハント」制度には、冒険者にとって有益な品々が、
+報酬として用意されているそうです。
+詳しくは、奥の「モブハント担当官」に話を聞いてください。"
+53,"TEXT_COMLIM003_01564_TRACHRAET_000_005","「モブハント」制度には、冒険者にとって有益な品々が、
+報酬として用意されているそうです。
+詳しくは、奥の「モブハント担当官」に話を聞いてください。"
+54,"TEXT_COMLIM003_01564_MOBOFFICER_000_010","「モブハント」に参加していただけるんですね。
+貴官に加勢していただけるとは、大変心強いであります。
+早速、制度の説明をいたします。"
+55,"TEXT_COMLIM003_01564_MOBOFFICER_000_011","まずは、この「モブハントボード」を確認してください。
+討伐対象「モブ」の手配書が掲示されています。"
+56,"TEXT_COMLIM003_01564_MOBOFFICER_000_012","ここで注意すべきは、手配書が2種類あること。
+通常の「モブ手配書」と、より危険で悪名高い者が対象となる、
+「リスキーモブ手配書」です。"
+57,"TEXT_COMLIM003_01564_MOBOFFICER_000_013","いずれも、示された対象を倒せば任務は完了。
+特別な報酬と交換できる、「同盟記章」が支給されます。"
+58,"TEXT_COMLIM003_01564_MOBOFFICER_000_014","なお、報酬との交換や、
+詳細な「モブハント」に関する説明については、
+いつでも小官に尋ねてください。"
+59,"TEXT_COMLIM003_01564_MOBOFFICER_000_015","それでは、エオルゼアの治安を守る、
+誇り高き隊士の武運をお祈りします！"

@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBCTS808_01423_SEQ_00","There is much to see about Revenant's Toll, but Guiding Star only has eyes for you."
-1,"TEXT_SUBCTS808_01423_SEQ_01","The sharp-eyed Guiding Star correctly determines that you are a person with skilled hands, and asks to see your tool of choice. While such a request would usually offend your sense of propriety, so earnest is he that you decide to speak with him again after equipping your gatherer's or crafter's primary tool (item level 50 and higher)."
-2,"TEXT_SUBCTS808_01423_SEQ_02","Guiding Star beheld your tool with all the decorum and delicacy called for by the occasion. Judging you to be both sufficiently adept and inadequately equipped, he introduces you to the toolsmith Talan. Deal with this surly smith and surely you will profit by it, in equipage and ability both."
+0,"TEXT_SUBCTS808_01423_SEQ_00","レヴナンツトールのガイディング・スターは、冒険者に興味を持ったようだ。"
+1,"TEXT_SUBCTS808_01423_SEQ_01","ガイディング・スターは、冒険者を熟練の職人と見込んで、扱う道具を見せてほしいと言った。ギャザラー、クラフター用の「アイテムレベル50以上の主道具」を装備して、レヴナンツトールの「ガイディング・スター」と話そう。"
+2,"TEXT_SUBCTS808_01423_SEQ_02","ガイディング・スターに主道具を見せた。彼は冒険者ならば更に繊細な道具を扱えると判断し、道具職人のタランを紹介した。タランと道具を取引し、職人として更なる高みを目指そう。"
 3,"TEXT_SUBCTS808_01423_SEQ_03",""
 4,"TEXT_SUBCTS808_01423_SEQ_04",""
 5,"TEXT_SUBCTS808_01423_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_SUBCTS808_01423_SEQ_21",""
 22,"TEXT_SUBCTS808_01423_SEQ_22",""
 23,"TEXT_SUBCTS808_01423_SEQ_23",""
-24,"TEXT_SUBCTS808_01423_TODO_00","Show your primary tool to Guiding Star."
+24,"TEXT_SUBCTS808_01423_TODO_00","ガイディング・スターに主道具を見せる"
 25,"TEXT_SUBCTS808_01423_TODO_01",""
 26,"TEXT_SUBCTS808_01423_TODO_02",""
 27,"TEXT_SUBCTS808_01423_TODO_03",""
@@ -49,18 +49,44 @@ int32,str,str
 45,"TEXT_SUBCTS808_01423_TODO_21",""
 46,"TEXT_SUBCTS808_01423_TODO_22",""
 47,"TEXT_SUBCTS808_01423_TODO_23",""
-48,"TEXT_SUBCTS808_01423_GUIDINGSTAR_000_000","The name's Guiding Star, and you have the look of <If(Equal(PlayerParameter(68),10))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),14))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),5))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),26))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),33))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/>a <Sheet(ClassJob,PlayerParameter(68),0)/></If></If></If></If></If>. My goal is no less than attaining complete mastery of all things crafting and gathering, and to this end I roam the world."
-49,"TEXT_SUBCTS808_01423_GUIDINGSTAR_000_001","But I must say that Revenant's Toll offers a sore temptation─the temptation to stay. I'd heard tell that the Adventurers' Guild had thrown its weight behind this place, but I'd no idea of the kind of talent pouring into the camp."
-50,"TEXT_SUBCTS808_01423_GUIDINGSTAR_000_002","I could tell just from your hands that you're an adept yourself. You've not flinched at the notion of a little hard work."
-51,"TEXT_SUBCTS808_01423_GUIDINGSTAR_000_003","One of your standing must have tools to match. Surely, you must own some choice items. Will you not let me see one?"
-52,"TEXT_SUBCTS808_01423_SYSTEM_000_004","Equip a gatherer's or crafter's primary tool (item level 50 and higher) and speak again with Guiding Star."
-53,"TEXT_SUBCTS808_01423_GUIDINGSTAR_000_010","One of your standing must have tools to match. Surely, you must own some choice items. Will you not let me see one?"
-54,"TEXT_SUBCTS808_01423_SYSTEM_000_011","Equip a gatherer's or crafter's primary tool (item level 50 and higher) and speak again with Guiding Star."
-55,"TEXT_SUBCTS808_01423_GUIDINGSTAR_000_020","Ah, magnificent. It is everything I expected...though not more."
-56,"TEXT_SUBCTS808_01423_GUIDINGSTAR_000_021","Forgive my blunt ways; no doubt you are fond of your chosen instrument. But surely there are tools better suited to you─tools that require the delicate touch of an adept of your stature."
-57,"TEXT_SUBCTS808_01423_GUIDINGSTAR_000_022","As it happens, such tools are available to you! You need go no further than Talan here. He can be a mite testy, but he's one of the finest toolsmiths the realm over, and his selection is impressive."
-58,"TEXT_SUBCTS808_01423_GUIDINGSTAR_000_023","Now, he won't simply hand them over. You might need to furnish the man with a bauble or three in exchange. But for an adventurer of your skill, such errands should pose little challenge."
-59,"TEXT_SUBCTS808_01423_GUIDINGSTAR_100_023","And if you would walk the lonely road to mastery, why not petition Talan for one of his tomes, too?"
-60,"TEXT_SUBCTS808_01423_GUIDINGSTAR_110_023","He calls them “me cookbooks,” for they hold some of the most complex recipes you'll ever see. But you have skill enough for them, I'm sure."
-61,"TEXT_SUBCTS808_01423_GUIDINGSTAR_120_023","Ah, ever is a crafter ruled by a triumvirate: tool, skill, and curiosity. May you prosper in all three!"
-62,"TEXT_SUBCTS808_01423_SYSTEM_000_024","You may now trade with Talan. After obtaining specific items, you can exchange them for gatherer's and crafter's tools."
+48,"TEXT_SUBCTS808_01423_GUIDINGSTAR_000_000","俺の名は、ガイディング・スター。
+あらゆる製作と採集の技を極めようと、
+各地を旅して回っている冒険者さ。"
+49,"TEXT_SUBCTS808_01423_GUIDINGSTAR_000_001","しかし、さすがは噂に聞くレヴナンツトールだ。
+冒険者ギルド本部が、本腰を据えて開拓し始めただけあって、
+最高の人材が集まってきている。"
+50,"TEXT_SUBCTS808_01423_GUIDINGSTAR_000_002","……君も、熟練の職人なんだろう？
+いやいや、その「働き者の手」を見ればわかるさ。"
+51,"TEXT_SUBCTS808_01423_GUIDINGSTAR_000_003","だが、一流を目指すなら道具にもこだわらないとな。
+もしよかったら、君愛用の道具を見せてくれないか？
+熟練職人にふさわしい道具を持っているなら……だがね。"
+52,"TEXT_SUBCTS808_01423_SYSTEM_000_004","ギャザラー、クラフター用の、
+「アイテムレベル50以上の主道具」を装備した状態で、
+ガイディング・スターに声をかけましょう。"
+53,"TEXT_SUBCTS808_01423_GUIDINGSTAR_000_010","一流を目指すなら道具にもこだわらないとな。
+もしよかったら、君愛用の道具を見せてくれないか？
+熟練職人にふさわしい道具を持っているなら……だがね。"
+54,"TEXT_SUBCTS808_01423_SYSTEM_000_011","ギャザラー、クラフター用の
+「アイテムレベル50以上の主道具」を装備した状態で、
+ガイディング・スターに声をかけましょう。"
+55,"TEXT_SUBCTS808_01423_GUIDINGSTAR_000_020","どれどれ、主道具を確認させてもらおうか。
+……なるほど、なかなか良い道具だな。
+だが、同時に惜しくもある……。"
+56,"TEXT_SUBCTS808_01423_GUIDINGSTAR_000_021","君のように経験を積んだ職人であれば、
+もっと繊細な技術を求められる道具でも使いこなせるはず。"
+57,"TEXT_SUBCTS808_01423_GUIDINGSTAR_000_022","そうだ、そこにいるタラン爺を紹介してやろう。
+気難しい爺さんだが、冒険者ギルドでも指折りの職人なのさ。"
+58,"TEXT_SUBCTS808_01423_GUIDINGSTAR_000_023","もっとも、タラン爺の道具を手に入れるためには、
+彼が求めている物を調達しなければならないがね。
+なに、君ほどの腕があれば大丈夫だろう。"
+59,"TEXT_SUBCTS808_01423_GUIDINGSTAR_100_023","そうそう、それからもうひとつ……
+君がクラフターとしての道を究めようというのなら、
+タラン爺から「秘伝書」を譲ってもらうといいだろう。"
+60,"TEXT_SUBCTS808_01423_GUIDINGSTAR_110_023","秘伝書というのは、熟練の職人だけが作れる
+難度の高い製品の製法が記されたレシピ帳でね。"
+61,"TEXT_SUBCTS808_01423_GUIDINGSTAR_120_023","「道具」と「知識」は、「技術」と並ぶ職人の財産だ。
+常に最高の道具と、深い知識を求めてこそ、
+真の高みに到達できるというものさ！"
+62,"TEXT_SUBCTS808_01423_SYSTEM_000_024","タランと取引可能になりました。
+特定のアイテムを集めて渡すことで、
+ギャザラー、クラフター用の装備品と交換できます。"

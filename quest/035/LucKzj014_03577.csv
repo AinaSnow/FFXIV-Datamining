@@ -1,8 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKZJ014_03577_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Saushs Koal appears to be staring rather intently at your mouth..."
+0,"TEXT_LUCKZJ014_03577_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+オンドの潮溜まりのサウスィー・コールは、苛立たしいことがあるようだ。"
 1,"TEXT_LUCKZJ014_03577_SEQ_01",""
 2,"TEXT_LUCKZJ014_03577_SEQ_02",""
 3,"TEXT_LUCKZJ014_03577_SEQ_03",""
@@ -26,8 +26,8 @@ Saushs Koal appears to be staring rather intently at your mouth..."
 21,"TEXT_LUCKZJ014_03577_SEQ_21",""
 22,"TEXT_LUCKZJ014_03577_SEQ_22",""
 23,"TEXT_LUCKZJ014_03577_SEQ_23",""
-24,"TEXT_LUCKZJ014_03577_TODO_00","Use the stout rope on weakened sea creatures."
-25,"TEXT_LUCKZJ014_03577_TODO_01","Deliver the captured sea creatures to Saushs Koal."
+24,"TEXT_LUCKZJ014_03577_TODO_00","弱らせた魔物に<Sheet(EventItem,2002616,0)/>を使い捕獲"
+25,"TEXT_LUCKZJ014_03577_TODO_01","サウスィー・コールに<Sheet(EventItem,2002617,0)/>を渡す"
 26,"TEXT_LUCKZJ014_03577_TODO_02",""
 27,"TEXT_LUCKZJ014_03577_TODO_03",""
 28,"TEXT_LUCKZJ014_03577_TODO_04",""
@@ -50,15 +50,36 @@ Saushs Koal appears to be staring rather intently at your mouth..."
 45,"TEXT_LUCKZJ014_03577_TODO_21",""
 46,"TEXT_LUCKZJ014_03577_TODO_22",""
 47,"TEXT_LUCKZJ014_03577_TODO_23",""
-48,"TEXT_LUCKZJ014_03577_SAUSHSKOAL_000_000","Finlessh one, finlessh one! How am I to glide through the watersh wishout watersh!? Or ssseek out that whish I crave? I cannot!"
-49,"TEXT_LUCKZJ014_03577_SAUSHSKOAL_000_001","And what do I crave, you wonder? Teetsh! The teetsh of myriad beastshs!"
-50,"TEXT_LUCKZJ014_03577_SAUSHSKOAL_000_002","Find for me feishty beastshs wish good teetshs, shmack them about until they're good and weak, and then bind them wish thish rope and bring them to me!"
-51,"TEXT_LUCKZJ014_03577_SAUSHSKOAL_000_003","Let me shee, let me shink...a mnyiri, a morgawr, and a deep-shea leech. Bring me one of eacsh, alive─and mind the teetsh!"
-52,"TEXT_LUCKZJ014_03577_SAUSHSKOAL_000_005","Remember: a mnyiri, a morgawr, and a deep-shea leech! Alive, if you would, and wish their lovely teetsh shtill intact!"
-53,"TEXT_LUCKZJ014_03577_SAUSHSKOAL_000_010","Ahh, my finlessh friend! Have you my living loveliesh?"
-54,"TEXT_LUCKZJ014_03577_SAUSHSKOAL_000_011","Shhhplendid! Shhhplendid! What big nashty teetsh you have! And now they are mine, mwahahaha! All mine!"
-55,"TEXT_LUCKZJ014_03577_SAUSHSKOAL_000_012","Teetsh make for fine ssspearheadsh, and still finer gifts for female Ondo. The clutchmother and her attendants all delight in wearing sucsh jewelry."
-56,"TEXT_LUCKZJ014_03577_SAUSHSKOAL_000_013","But trutsh be told, I shimply adore teetsh of all shapsh and shizes. I am a collector wish an inshhhatiable need."
-57,"TEXT_LUCKZJ014_03577_SAUSHSKOAL_000_014","Why, the other day, I ashked another Ondo to give me his. Jusht a few! I even offered to pull them myshelf. But he grew so angry and refushed!"
-58,"TEXT_LUCKZJ014_03577_SAUSHSKOAL_000_015","Shaaay... Your teetsh are rather nishe, finlessh one. Round and shhhiny and shmall. Would you be sho kind ash to favor me wish a few? The pulling will be quick and painlessh, I promish!"
-59,"TEXT_LUCKZJ014_03577_SAUSHSKOAL_000_016","No? A shame. If you change your mind, come and find me. I shall be waiting. Always waiting, heh heh heh..."
+48,"TEXT_LUCKZJ014_03577_SAUSHSKOAL_000_000","ヒ、ヒトの子、おでの話、聞いてくれ。
+水がなくなってから、おで、泳いで逃げられない。
+泳いで逃げられないと、ほしいもの、採れない。"
+49,"TEXT_LUCKZJ014_03577_SAUSHSKOAL_000_001","おでがほしいもの、歯だ。
+いろんな、生き物の、歯だ。
+歯、集められないと、腹がむかむかする。"
+50,"TEXT_LUCKZJ014_03577_SAUSHSKOAL_000_002","おでたち作った、縄貸す。
+だから、いい歯の生き物たち、
+弱らせて、縛って、連れてきて。"
+51,"TEXT_LUCKZJ014_03577_SAUSHSKOAL_000_003","「<Sheet(BNpcName,8633,0)/>」と、「<Sheet(BNpcName,8625,0)/>」と、
+あと「<Sheet(BNpcName,8632,0)/>」が、いい。
+1匹ずつ、歯を傷つけないように、捕まえてきて。"
+52,"TEXT_LUCKZJ014_03577_SAUSHSKOAL_000_005","「<Sheet(BNpcName,8633,0)/>」と、「<Sheet(BNpcName,8625,0)/>」と、
+「<Sheet(BNpcName,8632,0)/>」、1匹ずつ、捕まえてきて。
+おで早く、歯、ほしい。"
+53,"TEXT_LUCKZJ014_03577_SAUSHSKOAL_000_010","ヒトの子、いい歯の生き物たち、捕まえてきた？"
+54,"TEXT_LUCKZJ014_03577_SAUSHSKOAL_000_011","ギギ……ギギギ……！
+歯、きれいなまま捕まえてくれて、ありがたい。
+いい歯、だ。"
+55,"TEXT_LUCKZJ014_03577_SAUSHSKOAL_000_012","歯、槍にできるし、メスたちへの貢ぎ物にも、できる。
+母王様やメスたち、歯で、身を飾る。"
+56,"TEXT_LUCKZJ014_03577_SAUSHSKOAL_000_013","でも、歯、そのままがいい。
+そのままが、一番きれい。
+おで、歯、大好きだから、いっぱい集めて飾りたい。"
+57,"TEXT_LUCKZJ014_03577_SAUSHSKOAL_000_014","最近は、オンドの歯も、ほしい。
+同族からもらうか、自分のを、抜くか。
+でも、怒られるのも、痛いのも、嫌だから、迷ってる。"
+58,"TEXT_LUCKZJ014_03577_SAUSHSKOAL_000_015","そういえば、ヒトの子の歯も、面白い。
+丸くて、つるつるしてて、小さい。
+もっとお礼するから、歯、ちょうだい。"
+59,"TEXT_LUCKZJ014_03577_SAUSHSKOAL_000_016","ざ、残念。
+気がかわったら……またきて。
+ギギギ……。"

@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSGLD001_00187_SEQ_00",""
+0,"TEXT_CLSGLD001_00187_SEQ_00","彫金師になり、彫金師ギルドで学ぶために、手続きを行わなければならない受付のジェマイムは、冒険者が入門を希望するか確かめているようだ。"
 1,"TEXT_CLSGLD001_00187_SEQ_01",""
 2,"TEXT_CLSGLD001_00187_SEQ_02",""
 3,"TEXT_CLSGLD001_00187_SEQ_03",""
@@ -49,24 +49,52 @@ int32,str,str
 45,"TEXT_CLSGLD001_00187_TODO_21",""
 46,"TEXT_CLSGLD001_00187_TODO_22",""
 47,"TEXT_CLSGLD001_00187_TODO_23",""
-48,"TEXT_CLSGLD001_00187_JEMIME_000_1","Good <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>evening<Else/>morrow</If><Else/><If(LessThan(PlayerParameter(11),17))>day<Else/>evening</If></If> to you, adventurer, and welcome to the Goldsmiths' Guild. Have you come to observe our artisans at work?"
-49,"TEXT_CLSGLD001_00187_JEMIME_000_2","Indeed, it is a marvel to watch goldsmiths transform raw metals and uncut gemstones into sparkling rings, earrings, and necklaces─some of which possess magical properties, no less!"
-50,"TEXT_CLSGLD001_00187_JEMIME_000_3","You know, if you'd like to try your hand at goldsmithing, the guild is open to adventurers like yourself. No prior experience is required, for we teach all you need to know about the craft. Would you be interested?"
-51,"TEXT_CLSGLD001_00187_Q1_000_1","Join the Goldsmiths' Guild?"
-52,"TEXT_CLSGLD001_00187_A1_000_1","Yes"
-53,"TEXT_CLSGLD001_00187_A1_000_2","No"
-54,"TEXT_CLSGLD001_00187_JEMIME_000_11","Forgive me, it seems I've misunderstood your intent. Forget I said anything."
-55,"TEXT_CLSGLD001_00187_JEMIME_000_21","Oh dear, this part is always <Emphasis>so</Emphasis> awkward. I would love nothing more than to welcome you into the guild, but you are still somewhat rough, and in need of further refinement."
-56,"TEXT_CLSGLD001_00187_JEMIME_000_22","That is to say, you are yet lacking in worldly experience. But I do not doubt that it won't be long before you are ready to take up the chaser hammer."
-57,"TEXT_CLSGLD001_00187_SYSTEM_000_23","Before you can take up another discipline, you must first complete the level 10 quest of your starting class."
-58,"TEXT_CLSGLD001_00187_JEMIME_000_24","It pleases me greatly to hear you say so. As the first step, I would have you understand the purpose of our guild."
-59,"TEXT_CLSGLD001_00187_JEMIME_000_25","The vast mineral resources of Thanalan have given rise to a grand goldsmithing tradition, which has been refined through the ages. Our techniques are renowned across the realm, our creations held in the highest regard."
-60,"TEXT_CLSGLD001_00187_JEMIME_000_26","However, we of Eshtaime's Lapidaries, the premier source for Ul'dahn jewelry, were not content to rest on our laurels."
-61,"TEXT_CLSGLD001_00187_JEMIME_000_27","Seeking to advance our craft, we turned our eyes to the East, the only place in the known world whose goldsmithing was said to rival our own."
-62,"TEXT_CLSGLD001_00187_JEMIME_000_28","We built the finest facilities to beckon their masters hither, and blended their foreign techniques with ours. Our guild quickly became the center of Eorzean goldsmithing."
-63,"TEXT_CLSGLD001_00187_JEMIME_000_29","Aye, here you shall benefit from the refined wisdom of countless veteran craftsmen. You will learn to see the potential in your materials and shape them to your will."
-64,"TEXT_CLSGLD001_00187_JEMIME_000_30","These are essential skills, for a goldsmith must hone his eyes to identify and appraise all manner of materials, and─when needs be─recognize imitations for what they are."
-65,"TEXT_CLSGLD001_00187_JEMIME_000_31","It is even said that a master goldsmith can ascertain the authenticity of a man himself."
-66,"TEXT_CLSGLD001_00187_JEMIME_000_32","You may one day come to possess such vision. But even the most magnificent jewel begins life as a rough-hewn stone. It must first be cut and polished before it can delight the eyes with its brilliance."
-67,"TEXT_CLSGLD001_00187_JEMIME_000_33","If you would become a goldsmith, you must needs refine yourself as you would a gemstone. It will take much time and effort, and there is no guarantee of success."
-68,"TEXT_CLSGLD001_00187_JEMIME_000_34","Should you be certain that this is the life you seek, speak to me once more."
+48,"TEXT_CLSGLD001_00187_JEMIME_000_1","「彫金師ギルド」へようこそ。
+ここは、鉱物や宝石、骨や牙といった素材に眠る魅力を、
+磨いて引き出し、輝かせる……そんな職人たちの集う場所。"
+49,"TEXT_CLSGLD001_00187_JEMIME_000_2","彫金師は、指輪や耳飾り、首飾りなどの宝飾品のほか、
+属性の力を宿す宝石をあしらった、
+呪術士用の魔器なども作ることができますよ。"
+50,"TEXT_CLSGLD001_00187_JEMIME_000_3","彫金師に興味がおありでしたら、
+ここ彫金師ギルドに入門し、修行を積むとよいでしょう。
+ギルドへの入門を希望されますか？"
+51,"TEXT_CLSGLD001_00187_Q1_000_1","彫金師ギルドに入門したい？"
+52,"TEXT_CLSGLD001_00187_A1_000_1","はい"
+53,"TEXT_CLSGLD001_00187_A1_000_2","いいえ"
+54,"TEXT_CLSGLD001_00187_JEMIME_000_11","あら……それは残念です。
+気持ちが変わったときには、いつでも声をおかけくださいね。"
+55,"TEXT_CLSGLD001_00187_JEMIME_000_21","あら……。
+気持ちは嬉しいのですが、あなたはまだ、
+冒険者としての経験が浅いようですね。"
+56,"TEXT_CLSGLD001_00187_JEMIME_000_22","まずは、今あなたが学んでいる術を磨いてください。
+また再び会える機会を楽しみにしていますわ。"
+57,"TEXT_CLSGLD001_00187_SYSTEM_000_23","他のクラスを学ぶためには、最初に選んだバトルクラスの
+レベル10クラスクエストを完了する必要があります。"
+58,"TEXT_CLSGLD001_00187_JEMIME_000_24","嬉しいお返事です！
+それでは簡単に、彫金師ギルドについて
+ご紹介させていただきますね。"
+59,"TEXT_CLSGLD001_00187_JEMIME_000_25","このザナラーンは、豊かな鉱脈に恵まれています。
+必然的に掘り出された鉱石や原石を加工する
+「彫金」の技術も古くより発展していきました。"
+60,"TEXT_CLSGLD001_00187_JEMIME_000_26","さらにウルダハが交易都市として栄えたことで、
+民を彩る華やかな装飾品への需要も高まり、
+緻密にして精巧な彫金文化が花開きました。"
+61,"TEXT_CLSGLD001_00187_JEMIME_000_27","特に名門宝飾店「エシュテム」は、
+東方より名工を招いて職人たちに技を伝授させるなど、
+新風を吹き込ませていったのです。"
+62,"TEXT_CLSGLD001_00187_JEMIME_000_28","この時、作られた私塾のような職人集団が、
+やがて「彫金師ギルド」となりました。"
+63,"TEXT_CLSGLD001_00187_JEMIME_000_29","我らのギルドの目的は「技術の継承」
+そして「新たな技術の開発」。"
+64,"TEXT_CLSGLD001_00187_JEMIME_000_30","また、悪質な贋物の流通を阻止し、
+彫金師たちの名声を保つことも目的のひとつ。
+そのため、「審美眼」を養うことも使命としています。"
+65,"TEXT_CLSGLD001_00187_JEMIME_000_31","彫金師と聞くと、一見、華やかな世界を想像するでしょう？
+しかし、一流と呼ばれる彫金師となるには、
+弛まぬ努力と、地道な鍛錬が必要です。"
+66,"TEXT_CLSGLD001_00187_JEMIME_000_32","そう、まるで砂色の原石が、
+何万回という研磨によって、輝きを放つ宝石になるように……。"
+67,"TEXT_CLSGLD001_00187_JEMIME_000_33","もしあなたが、そうした苦心を厭わぬと言うのでしたら、
+我が彫金師ギルドのギルドマスターをご紹介いたしましょう。"
+68,"TEXT_CLSGLD001_00187_JEMIME_000_34","心の準備ができましたら、もういちど私に声をおかけください。
+お待ちしておりますよ。"

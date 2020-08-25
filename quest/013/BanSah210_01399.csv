@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANSAH210_01399_SEQ_00","Houu has received word of a merchantman in trouble, and would send you to the rescue."
-1,"TEXT_BANSAH210_01399_SEQ_01","The Coral Tridents have seized a merchant vessel, bent on mastering the dubious art of sending shorewalker ships to their watery doom. Your task is to board the merchantman and dispatch four surfspine Sahagin. The open water being a cruel mistress to tender-skinned shorewalkers such as yourself, ask Pahh the seabeast tamer to provide you with an elbst for the journey. "
-2,"TEXT_BANSAH210_01399_SEQ_02","The surfspine saboteurs are dead, their careers in maritime demolition over ere they began. You are unmoved, having chosen your own job far more wisely than these Sahagin did. An adventurer goes everywhere, meets everyone, does anything─then returns to clients to report the job's success."
-3,"TEXT_BANSAH210_01399_SEQ_03","Houu minces no words in denouncing the dead surfspine Sahagin as blackguards, and wonders why anyone would devote their strengths to death and blight. Listening to Houu, you are uneasily reminded that the first casualties of any revolution are the mild of heart."
+0,"TEXT_BANSAH210_01399_SEQ_00","ノォヴの育成地のホォウは、なにやら憤慨していることがあるようだ。"
+1,"TEXT_BANSAH210_01399_SEQ_01","ホォウから、襲撃のために船の仕組みを学んでいる「珊瑚の銛」の一味を討伐するよう頼まれた。洋上の商船に乗り込み、「<Sheet(BNpcName,2537,0)/>」を4体討伐しよう。洋上の商船へ行くためのエルブストは、ノォヴの育成地の「海獣使いのパァア」が手配してくれるそうだ。"
+2,"TEXT_BANSAH210_01399_SEQ_02","洋上の商船で<Sheet(BNpcName,2537,0)/>を討伐した。ノォヴの育成地の「ホォウ」に報告しよう。"
+3,"TEXT_BANSAH210_01399_SEQ_03","ホォウに<Sheet(BNpcName,2537,0)/>の討伐を報告した。略奪のために船の知識を得ようとした「珊瑚の銛」に対し、まるで盗人のようだとホォウは怒りをあらわにした。再び船上で怪しげな動きがあった際には、計略を挫こう。"
 4,"TEXT_BANSAH210_01399_SEQ_04",""
 5,"TEXT_BANSAH210_01399_SEQ_05",""
 6,"TEXT_BANSAH210_01399_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_BANSAH210_01399_SEQ_21",""
 22,"TEXT_BANSAH210_01399_SEQ_22",""
 23,"TEXT_BANSAH210_01399_SEQ_23",""
-24,"TEXT_BANSAH210_01399_TODO_00","Slay surfspine Sahagin aboard the merchantman."
-25,"TEXT_BANSAH210_01399_TODO_01","Report to Houu."
+24,"TEXT_BANSAH210_01399_TODO_00","洋上の商船の<Sheet(BNpcName,2537,0)/>を討伐"
+25,"TEXT_BANSAH210_01399_TODO_01","ホォウに報告"
 26,"TEXT_BANSAH210_01399_TODO_02",""
 27,"TEXT_BANSAH210_01399_TODO_03",""
 28,"TEXT_BANSAH210_01399_TODO_04",""
@@ -49,14 +49,29 @@ int32,str,str
 45,"TEXT_BANSAH210_01399_TODO_21",""
 46,"TEXT_BANSAH210_01399_TODO_22",""
 47,"TEXT_BANSAH210_01399_TODO_23",""
-48,"TEXT_BANSAH210_01399_HOUU_000_000","All is topsy-turvy with you shhhorewalkers, it shhheems to me. Because you are weak, you grow shhhtrong. Your shhhips skim across every shhhea and bob in every cove─yet you are finless and leaden. How peculiar..."
-49,"TEXT_BANSAH210_01399_HOUU_000_001","Shhhipbuilding, navigation, cartography. All these we Shhhahagin know little of. That is as it should be, for the shhhea is our matriarch and no shhhpawnling shhhould know its dam in such a way. Pshhh..."
-50,"TEXT_BANSAH210_01399_HOUU_000_002","But the Coral Tridents forget all decency in their ambition to make war on shhhorewalkers. They are learning <Emphasis>engineering</Emphasis>. Pshhh! In this, they seek tutelage from their tame shhhorewalkers, the Shhherpent Reavers."
-51,"TEXT_BANSAH210_01399_HOUU_000_003","News reaches me on the waves that they have shhheized a merchantman to learn further of its weaknesses. How to breach its hull from the outside, shhhcuttle it with quickness from the inside, shhhuch and more... This must not be."
-52,"TEXT_BANSAH210_01399_HOUU_000_004","You must board the merchantman on the open shhhea and dispatch the Coral Tridents. One of Pahh's elbst will take you there, if you would speak with the shhheabeast tamer."
-53,"TEXT_BANSAH210_01399_TAMER01376_000_010","A jaunt to the ssseized merchantman, pshhh? Jussst say the word and I will get you on your way. My elbst is your elbst."
-54,"TEXT_BANSAH210_01399_Q1_000_000","Ride the elbst to the merchantman?"
-55,"TEXT_BANSAH210_01399_A1_000_001","Yes"
-56,"TEXT_BANSAH210_01399_A1_000_002","No"
-57,"TEXT_BANSAH210_01399_HOUU_000_020","Well done, shhhorewalker, well done indeed. You learn quickly. It is a quality I have come to grudgingly admire─even among the Coral Tridents."
-58,"TEXT_BANSAH210_01399_HOUU_000_021","That they would learn not to shhhpawn and nurture but to destroy and shhhlay...that I cannot understand. It shhhames all Shhhahagin that they would shhheize a trading ship like common brigands. Pshhh..."
+48,"TEXT_BANSAH210_01399_HOUU_000_000","フスィーッ……ヒレナシどもは、海で生きられぬ宿命から、
+船と、それを操る航海技術を学び、身につけた……。
+その努力……なかなかに見上げたものよ……。"
+49,"TEXT_BANSAH210_01399_HOUU_000_001","潮に乗り、波に踊る……
+フスィーッ……大海を自在に泳ぐ我らサハギン族にとって、
+船など無用の長物ゆえ、その知識は少ない……。"
+50,"TEXT_BANSAH210_01399_HOUU_000_002","だが「珊瑚の銛」の連中は、ヒレナシを襲撃するため、
+船の仕組みを配下である「海蛇の舌」から学んでいるらしい。
+なんとも……見下げた性根ではないか……。"
+51,"TEXT_BANSAH210_01399_HOUU_000_003","フスィーッ……連中のいる拿捕された商船に乗りこみ、
+「珊瑚の銛」の一味を倒し、訓練の妨害をしてくるのだ……。
+これ以上……奴らに商船を襲わせぬようにせねば……。"
+52,"TEXT_BANSAH210_01399_HOUU_000_004","「洋上の商船」に乗りこみ、「珊瑚の銛」を倒せ！
+「洋上の商船」に行くには「海獣使いのパァア」に話し、
+エルブストに乗っていくといい。"
+53,"TEXT_BANSAH210_01399_TAMER01376_000_010","フスィーッ……「洋上の商船」に行きたいのか？
+エルブストの準備は万全だ。"
+54,"TEXT_BANSAH210_01399_Q1_000_000","エルブストに乗り「洋上の商船」へ行きますか？"
+55,"TEXT_BANSAH210_01399_A1_000_001","はい"
+56,"TEXT_BANSAH210_01399_A1_000_002","いいえ"
+57,"TEXT_BANSAH210_01399_HOUU_000_020","フスィーッ……見事だ、冒険者よ。
+「珊瑚の銛」め……敵であるヒレナシに戦い方を学ぶ姿勢……
+その心意気は立派だと認めてやろう……フスィーッ……。"
+58,"TEXT_BANSAH210_01399_HOUU_000_021","しかし、その目的が、民間船を襲い略奪するためとは……
+フスィーッ……なんとも情けない……。
+まるで盗人だ、誇り高きサハギン族の面汚しめ……。"

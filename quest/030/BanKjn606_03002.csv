@@ -1,8 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANKJN606_03002_SEQ_00","Zukin is having trouble with some rays.
-※The difficulty of this quest will be synced to your current level."
+0,"TEXT_BANKJN606_03002_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト受注クラス・ジョブ制限<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+※本クエストは受注時のクラス・ジョブでのみ進行します。
+
+碧のタマミズのズキンは、小さなシマエイに手を焼いているようだ。"
 1,"TEXT_BANKJN606_03002_SEQ_01",""
 2,"TEXT_BANKJN606_03002_SEQ_02",""
 3,"TEXT_BANKJN606_03002_SEQ_03",""
@@ -26,8 +28,9 @@ int32,str,str
 21,"TEXT_BANKJN606_03002_SEQ_21",""
 22,"TEXT_BANKJN606_03002_SEQ_22",""
 23,"TEXT_BANKJN606_03002_SEQ_23",""
-24,"TEXT_BANKJN606_03002_TODO_00","Subdue the clever little rays at the Crab Pots and feed them the bitter pellets."
-25,"TEXT_BANKJN606_03002_TODO_01","Report to Zukin."
+24,"TEXT_BANKJN606_03002_TODO_00","蟹茹浜周辺の<Sheet(BNpcName,6885,0)/>を打ち負かして
+<Sheet(EventItem,2002424,0)/>を使う"
+25,"TEXT_BANKJN606_03002_TODO_01","ズキンに報告"
 26,"TEXT_BANKJN606_03002_TODO_02",""
 27,"TEXT_BANKJN606_03002_TODO_03",""
 28,"TEXT_BANKJN606_03002_TODO_04",""
@@ -50,11 +53,23 @@ int32,str,str
 45,"TEXT_BANKJN606_03002_TODO_21",""
 46,"TEXT_BANKJN606_03002_TODO_22",""
 47,"TEXT_BANKJN606_03002_TODO_23",""
-48,"TEXT_BANKJN606_03002_ZUKIN_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, we're having trouble with some of our young rays. Though small in size, they are incurably willful, and keep wandering beyond our territory in spite of repeated chidings. Even now, they roam the Crab Pots, heedless of the dangers."
-49,"TEXT_BANKJN606_03002_ZUKIN_000_001","Loath though I am to do this, they want for discipline, and I would have you be the one to impose it. Please track down the three rays, give them a bit of a drubbing, and then feed them these pellets─a bitter punctuation to the lesson."
-50,"TEXT_BANKJN606_03002_ZUKIN_000_002","Lest you feel bad─do not. It is for their own safety. They must be made to understand that the outside world is fraught with peril."
-51,"TEXT_BANKJN606_03002_ZUKIN_000_010","Ah, there you are. How fared the disciplinary effort?"
-52,"TEXT_BANKJN606_03002_ZUKIN_000_011","My thanks, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. The lesson ought to keep the little ones in line for the foreseeable future."
-53,"TEXT_BANKJN606_03002_ZUKIN_000_012","Though it may not be apparent at present, they are some of the finest rays we have bred. We would see them realize their potential, and at times this necessitates a firm hand."
-54,"TEXT_BANKJN606_03002_ZUKIN_000_013","To be sure, willfulness is not an inherently negative trait. It is but a shade of determination, which we hope to foster in them."
-55,"TEXT_BANKJN606_03002_ZUKIN_000_014","With any luck, no further such discipline will be necessary, but in the event that it is, I trust you will be willing to assist us again."
+48,"TEXT_BANKJN606_03002_ZUKIN_000_000","<If(PlayerParameter(4))>姉<Else/>兄</If>さん、ちょっと困ったことがあんだぁ～。
+最近、身体は小せぇけども、気が強いウチのシマエイたちが、
+縄張りの外へ、勝手に出て行っちまうんだよぉ～。"
+49,"TEXT_BANKJN606_03002_ZUKIN_000_001","口で言っても、聞かねぇヤツにはお仕置きが必要だぁ～。
+いっちょ打ち負かしてから、この「<Sheet(EventItem,2002424,0)/>」を使って、
+懲らしめてやってくれぇ～。"
+50,"TEXT_BANKJN606_03002_ZUKIN_000_002","そうすりゃ、外の海が危険だって、わかってくれるはずさぁ～。
+「<Sheet(BNpcName,6885,0)/>」3匹は、蟹茹浜の辺りにいるだろうから、
+よろしく頼んだぜぇ～。"
+51,"TEXT_BANKJN606_03002_ZUKIN_000_010","<If(PlayerParameter(4))>姉<Else/>兄</If>さん、おつかれさまぁ～！
+チビのシマエイたちを、懲らしめてくれたかぁ～？"
+52,"TEXT_BANKJN606_03002_ZUKIN_000_011","ありがとなぁ～！
+これで、あのチビたちも少しは懲りただろうよぉ～！"
+53,"TEXT_BANKJN606_03002_ZUKIN_000_012","あのチビたちは、タマミズで育ててるシマエイの中でも、
+ピカイチの素質を秘めているんだぁ～。"
+54,"TEXT_BANKJN606_03002_ZUKIN_000_013","気が強いのも良いとこなんだが、
+乗り手に従わねぇんじゃ、役には立たねぇからなぁ～。
+マクラと協力して、しっかり躾けるつもりさぁ～。"
+55,"TEXT_BANKJN606_03002_ZUKIN_000_014","今回は、<If(PlayerParameter(4))>姉<Else/>兄</If>さんがいてくれて、助かったぜぇ～！
+またシマエイが悪さをしたら、手伝ってくれなぁ～！"

@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKYB005_03601_SEQ_00","The weary dockworker would like to have a word with you."
-1,"TEXT_LUCKYB005_03601_SEQ_01","In the wake of the many changes come to the city of Eulmore, several military leaders have taken it upon themselves to resurrect an ancient training method to mold a new generation of peacekeepers. You too may benefit from taking part in this endeavor, though you will have to speak with the soft-faced bloke outside the city to learn more first."
-2,"TEXT_LUCKYB005_03601_SEQ_02","To your considerable surprise, the new training grounds are a near replica of those found on the Source. Quite how such an extraordinary coincidence could be possible is hard to fathom, but regardless, the resilient training dummies are at your disposal should you wish to hone your skills."
+0,"TEXT_LUCKYB005_03601_SEQ_00","廃船街の貧相な労役市民は、冒険者に教えたい訓練場があるそうだ。"
+1,"TEXT_LUCKYB005_03601_SEQ_01","ユールモアの民が復活させた古い訓練場があるらしい。コルシア島の歓迎の門付近に立つ「物腰柔らかな元兵士」と話そう。"
+2,"TEXT_LUCKYB005_03601_SEQ_02","物腰柔らかな元兵士から、木人相手に己の実力を測る訓練場の存在を聞いた。今はまだユールモア市民の利用者は少なく、旅人の利用も歓迎のようだ。冒険者も、力試しをしたくなったら、再び物腰柔らかな元兵士に声をかけよう。"
 3,"TEXT_LUCKYB005_03601_SEQ_03",""
 4,"TEXT_LUCKYB005_03601_SEQ_04",""
 5,"TEXT_LUCKYB005_03601_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_LUCKYB005_03601_SEQ_21",""
 22,"TEXT_LUCKYB005_03601_SEQ_22",""
 23,"TEXT_LUCKYB005_03601_SEQ_23",""
-24,"TEXT_LUCKYB005_03601_TODO_00","Speak with the soft-faced bloke in Kholusia."
+24,"TEXT_LUCKYB005_03601_TODO_00","歓迎の門付近にいる物腰柔らかな元兵士と話す"
 25,"TEXT_LUCKYB005_03601_TODO_01",""
 26,"TEXT_LUCKYB005_03601_TODO_02",""
 27,"TEXT_LUCKYB005_03601_TODO_03",""
@@ -49,18 +49,42 @@ int32,str,str
 45,"TEXT_LUCKYB005_03601_TODO_21",""
 46,"TEXT_LUCKYB005_03601_TODO_22",""
 47,"TEXT_LUCKYB005_03601_TODO_23",""
-48,"TEXT_LUCKYB005_03601_EULMORRANPEOPLE03601_000_000","Ain't you that <If(PlayerParameter(4))>lass<Else/>bloke</If> what brought back the night? The Warrior of Darkness? Good, 'cause I was asked to keep an eye out for you."
-49,"TEXT_LUCKYB005_03601_EULMORRANPEOPLE03601_000_001","Nothing untoward, worry not. It's just that, see, ever since Lord Vauthry and General Ran'jit ran off to gods know where, the Eulmoran Army's been in shambles."
-50,"TEXT_LUCKYB005_03601_EULMORRANPEOPLE03601_000_002","Say what you will about the bastards, but they kept the city safe, or near as much. The remaining leadership-types have got their work cut out for them keeping everyone fighting fit, but for a start, there's been talk of bringing back traditional training methods."
-51,"TEXT_LUCKYB005_03601_EULMORRANPEOPLE03601_000_003","I'm talking about stuff what could be used to get unbloodied layabouts like me ready to take the field. Of course, there's also plenty of military men taking part, eager to hone their skills for the struggles ahead."
-52,"TEXT_LUCKYB005_03601_EULMORRANPEOPLE03601_000_004","You're welcome to participate too, if so inclined. Head out of the city through Open Arms and look for a soft-faced bloke. He'll see you sorted."
-53,"TEXT_LUCKYB005_03601_EULMORRANPEOPLE03601_000_005","We'll all need to step up to defend the city from now on, and resurrecting the classical ways is our best bet. Find the soft-faced bloke outside Open Arms if you want to know more."
-54,"TEXT_LUCKYB005_03601_TRAVELLER03601_000_010","Hail sinner well met. Come to join in the new─and by new I mean old─training? Excellent! Truth be told, interest has been less than enthusiastic..."
-55,"TEXT_LUCKYB005_03601_TRAVELLER03601_000_011","In case it's not bloody obvious, we're all of us struggling to adapt to the new normal. When you wake up one day and realize half the life decisions you made weren't your own, it's hard to adjust."
-56,"TEXT_LUCKYB005_03601_TRAVELLER03601_000_012","None can deny that we need a peacekeeping force to maintain order and defend against outside threats. Unfortunately, we're short on motivated recruits, and of the ones we've got only a handful are up to snuff."
-57,"TEXT_LUCKYB005_03601_TRAVELLER03601_000_013","Anyway, it's all very much a work in progress─and one we're hoping warriors like you can help us with, even if only by taking part as a guest. Draw attention to what we're trying to get off the ground, you know?"
-58,"TEXT_LUCKYB005_03601_TRAVELLER03601_000_015","So if you're keen to give it a go, let me know and I'll call for an amaro. Can't just up and walk there, no <If(PlayerParameter(4))>ma'am<Else/>sir</If>. Ah, but first, in accordance with ancient traditions, I've got to teach you the creed..."
-59,"TEXT_LUCKYB005_03601_TRAVELLER03601_000_016","“<If(PlayerParameter(4))>She<Else/>He</If> who fights with strength of stone unyielding, breathes deep of boundless sky and embraces serenity of rolling sea, against <If(PlayerParameter(4))>her<Else/>him</If> none can stand.”"
-60,"TEXT_LUCKYB005_03601_TRAVELLER03601_000_017","Eh? What do you mean you've heard that one before? Far as I know it's one of many pearls of wisdom passed down through the ages. Dates back to a Kholusian poet who died some several centuries ago. Sure you're not mistaken?"
-61,"TEXT_LUCKYB005_03601_TRAVELLER03601_000_018","Eerie coincidences notwithstanding, if you'd like to hone your warcraft, you'd be hard-pressed to find a better option than unleashing everything you've got on one of our contraptions."
-62,"TEXT_LUCKYB005_03601_SYSTEM_000_100","You now have access to the Lawns─an expansion of Stone, Sky, Sea. This training ground can be accessed by speaking with the soft-faced bloke outside Eulmore."
+48,"TEXT_LUCKYB005_03601_EULMORRANPEOPLE03601_000_000","あんた、世界に夜の闇を取り戻した「闇の戦士」だよな……？
+ちょうどいいや、あんたを見かけたら、
+「あの場所」を案内しようって、みんなで話していたんだ。"
+49,"TEXT_LUCKYB005_03601_EULMORRANPEOPLE03601_000_001","ヴァウスリーが去り、ランジート将軍も行方不明のまま。
+今や、ユールモア軍はなかば崩壊状態でさ……。"
+50,"TEXT_LUCKYB005_03601_EULMORRANPEOPLE03601_000_002","これまで、都市の守りはヴァウスリー頼みだった。
+でも、今後は自分たちの身は自分で守らなくちゃならない……。
+そこで、沖合の小島にあった古い訓練場を復活させたんだ。"
+51,"TEXT_LUCKYB005_03601_EULMORRANPEOPLE03601_000_003","戦いなんてしたことない俺みたいな貧弱な者や、
+協力してくれた元ユールモア軍の兵士なんかが集まり、
+そこで、実力を向上させるべく訓練している……。"
+52,"TEXT_LUCKYB005_03601_EULMORRANPEOPLE03601_000_004","気になるなら、あんたも好きに使ってくれて構わない。
+「歓迎の門」を出た先で、「物腰柔らかな元兵士」が、
+案内してくれるはずだよ。"
+53,"TEXT_LUCKYB005_03601_EULMORRANPEOPLE03601_000_005","自分たちでユールモアを守れるよう、
+コルシア島にあった古い訓練場を復活させたんだ。
+「歓迎の門」にいる「物腰柔らかな元兵士」が案内してくれるよ。"
+54,"TEXT_LUCKYB005_03601_TRAVELLER03601_000_010","旅人さん、訓練場を利用したいのかい？
+そいつは大歓迎だ、まだ利用者も少なくて暇だったんでね。"
+55,"TEXT_LUCKYB005_03601_TRAVELLER03601_000_011","ユールモアの騒乱で、あの都市の生活や身分制度は崩壊した。
+しかし、いきなり全員が意識を切り替えられるものじゃない。"
+56,"TEXT_LUCKYB005_03601_TRAVELLER03601_000_012","もちろん、今後もあの都市を生活の場として守ろうという、
+気概のあるユールモア市民だっているが……
+残念ながら、数としてはどうしても少なくなる。"
+57,"TEXT_LUCKYB005_03601_TRAVELLER03601_000_013","というわけで、市民以外にも君のような、
+純粋に己の実力を測ろうとする旅人の利用も大歓迎さ。"
+58,"TEXT_LUCKYB005_03601_TRAVELLER03601_000_015","ただ訓練場は、歩いて渡れる場所じゃないんでね。
+私に声をかけてくれれば、アマロで運んであげるよ。"
+59,"TEXT_LUCKYB005_03601_TRAVELLER03601_000_016","そこには、訓練用の木人が設置されている。
+君が、今後挑まんとする強敵を撃破するに足る実力があるか、
+測るには打って付けの施設だろう。"
+60,"TEXT_LUCKYB005_03601_TRAVELLER03601_000_017","……ん？　似たような訓練場を知っているって？
+そうか、コルシア島以外にもこうした施設があるのか。"
+61,"TEXT_LUCKYB005_03601_TRAVELLER03601_000_018","まあ、強敵に挑む前に、
+木人で腕試しをするのは、別段珍しいことじゃない。
+同じような訓練場を考えた者が他所にいたって不思議はないさ！"
+62,"TEXT_LUCKYB005_03601_SYSTEM_000_100","「木人討滅戦」に挑戦可能になりました。
+このコンテンツは、コンテンツファインダーからではなく、
+「物腰柔らかな元兵士」に話しかけることで開始できます。"

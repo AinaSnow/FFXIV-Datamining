@@ -1,16 +1,19 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_JOBPLD501_02032_SEQ_00","Jenlyns would look to a renowned free paladin for aid."
-1,"TEXT_JOBPLD501_02032_SEQ_01","In these troubled times, the Sultansworn must ever be ready to serve as the sword and shield of the sultanate. Fortunately, it would seem that your shining example has inspired many young men and women to join their ranks. Several such recruits are currently training at Camp Bluefog, and Jenlyns believes they would benefit from your words of encouragement."
-2,"TEXT_JOBPLD501_02032_SEQ_02","At Camp Bluefog, you meet with Owyne, <Switch(PlayerParameter(70))><Case(1)>one of the Sultansworn charged with overseeing the recruits' training</Case><Case(2)>one of the Sultansworn charged with overseeing the recruits' training</Case><Case(3)>the Sultansworn you helped to recover the royal crown, who also happens to have been charged with overseeing the recruits' training</Case></Switch>. He states that they are currently participating in drills at the east watchtower and invites you to follow him there."
-3,"TEXT_JOBPLD501_02032_SEQ_03","Recognizing that you are a <If(PlayerParameter(4))>woman<Else/>man</If> of few words, Owyne asks that you favor the recruits with a display of swordsmanship. Basilisk bait has already been laid out, so you need only wait for the beasts to come to you."
-4,"TEXT_JOBPLD501_02032_SEQ_04","You dispatch the lone basilisk that was foolish enough to try its luck against you. See if Owyne is satisfied."
-5,"TEXT_JOBPLD501_02032_SEQ_05","Owyne thanks you for the rousing performance and bids you convey his gratitude to Captain Jenlyns. Return to Ul'dah and inform the captain that you have finished."
-6,"TEXT_JOBPLD501_02032_SEQ_06","Though Jenlyns wishes he could repay you, he admits that there is nothing left he can teach you. He bids you go forth and continue to defend the people of Eorzea, and so you do─only to be stopped momentarily by Papashan, former brother of the Sultansworn. Though he has an urgent matter to discuss, he seems loath to do so within earshot of Jenlyns. Journey to the Ul'dah Dispatch Yard and speak with the stationmaster there."
-7,"TEXT_JOBPLD501_02032_SEQ_07","Solkzagyl, Jenlyns's predecessor, has kept in contact with Papashan for many years, sharing with the stationmaster his discoveries in his quest to reclaim Oathkeeper, the legendary blade stolen from the Sultansworn by the minions of the Monetarists long ago. The former captain's most recent missive contained a startling claim: he has finally found the sword, it would seem. However, Papashan has not heard from him since, and is growing increasingly concerned. The stationmaster does not wish to involve Jenlyns until he has learned more of the situation, and so he begs your assistance, which you readily offer. Once Papashan determines the precise location from which Solkzagyl's last missive was sent, you can begin your search in earnest.
+0,"TEXT_JOBPLD501_02032_SEQ_00","ウルダハ王政庁のジェンリンスは、自由騎士たる冒険者に頼みがあるようだ。"
+1,"TEXT_JOBPLD501_02032_SEQ_01","前回までの冒険録：
+自由騎士となる試練の最中、冒険者は銀冑団の前総長ソルクザギルと出会う。彼は「聖剣」を強奪したという汚名を被りながらも、砂蠍衆の共和派に抵抗していた。その事実を知った現総長ジェンリンスは、冒険者とソルクザギルと結託し、共和派の刺客「見えざる毒尾」を討伐したのだった。
+　　　　　　　　　　　　*　*　*
+ジェンリンスから、キャンプ・ブルーフォグで行われている訓練の激励を頼まれた。北ザナラーンのキャンプ・ブルーフォグにいる「オワイン」と話そう。"
+2,"TEXT_JOBPLD501_02032_SEQ_02","オワインと話し、訓練を受けている新人たちに戦いの手本を見せることになった。北ザナラーンの東方監視塔付近にいる「オワイン」と話そう。"
+3,"TEXT_JOBPLD501_02032_SEQ_03","オワインと話した。東方監視塔付近の「<Sheet(EObj,2005978,0)/>」で待機して、現れた「<Sheet(BNpcName,4096)/>」を討伐しよう。"
+4,"TEXT_JOBPLD501_02032_SEQ_04","現れた魔物を討伐した。東方監視塔付近の「オワイン」と話そう。"
+5,"TEXT_JOBPLD501_02032_SEQ_05","オワインと話した。結果をジェンリンスに伝えた方がいいだろう。ウルダハ王政庁の「ジェンリンス」と話そう。"
+6,"TEXT_JOBPLD501_02032_SEQ_06","ジェンリンスと話し終わり、その場を立ち去ろうとすると、パパシャンに呼び止められた。話があるそうだが……。中央ザナラーンのウルダハ操車庫にいる「パパシャン」と話そう。"
+7,"TEXT_JOBPLD501_02032_SEQ_07","パパシャンの話は、聖剣オウスキーパーを探す旅に出ていたソルクザギルについてだった。ソルクザギルは、聖剣を発見したとの便りを最後に、消息を絶ったらしい。彼の情報を集めるというパパシャンに、自由騎士として協力していこう。
 
-※The next paladin quest will be available from Papashan upon reaching level 52."
+※ナイトのレベルが52以上になると、ウルダハ操車庫のパパシャンから次のナイトクエストを受注することができます。"
 8,"TEXT_JOBPLD501_02032_SEQ_08",""
 9,"TEXT_JOBPLD501_02032_SEQ_09",""
 10,"TEXT_JOBPLD501_02032_SEQ_10",""
@@ -27,12 +30,12 @@ int32,str,str
 21,"TEXT_JOBPLD501_02032_SEQ_21",""
 22,"TEXT_JOBPLD501_02032_SEQ_22",""
 23,"TEXT_JOBPLD501_02032_SEQ_23",""
-24,"TEXT_JOBPLD501_02032_TODO_00","Speak with Owyne at Camp Bluefog."
-25,"TEXT_JOBPLD501_02032_TODO_01","Speak with Owyne at the east watchtower."
-26,"TEXT_JOBPLD501_02032_TODO_02","Slay a fog basilisk."
-27,"TEXT_JOBPLD501_02032_TODO_03","Speak with Owyne."
-28,"TEXT_JOBPLD501_02032_TODO_04","Speak with Jenlyns in Ul'dah."
-29,"TEXT_JOBPLD501_02032_TODO_05","Speak with Papashan at the Ul'dah Dispatch Yard."
+24,"TEXT_JOBPLD501_02032_TODO_00","キャンプ・ブルーフォグのオワインと話す"
+25,"TEXT_JOBPLD501_02032_TODO_01","東方監視塔付近のオワインと話す"
+26,"TEXT_JOBPLD501_02032_TODO_02","<Sheet(EObj,2005978,0)/>で待機して現れた魔物を討伐"
+27,"TEXT_JOBPLD501_02032_TODO_03","オワインと話す"
+28,"TEXT_JOBPLD501_02032_TODO_04","ウルダハ王政庁のジェンリンスと話す"
+29,"TEXT_JOBPLD501_02032_TODO_05","ウルダハ操車庫のパパシャンと話す"
 30,"TEXT_JOBPLD501_02032_TODO_06",""
 31,"TEXT_JOBPLD501_02032_TODO_07",""
 32,"TEXT_JOBPLD501_02032_TODO_08",""
@@ -51,36 +54,86 @@ int32,str,str
 45,"TEXT_JOBPLD501_02032_TODO_21",""
 46,"TEXT_JOBPLD501_02032_TODO_22",""
 47,"TEXT_JOBPLD501_02032_TODO_23",""
-48,"TEXT_JOBPLD501_02032_JENLYNS_000_000","We live in troubling times, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, as you well know."
-49,"TEXT_JOBPLD501_02032_JENLYNS_000_001","That is why it is more important than ever that the Sultansworn stand ready to serve as the sword and shield of the sultanate."
-50,"TEXT_JOBPLD501_02032_JENLYNS_000_002","For a time, I feared that our order was doomed, but then you helped us to restore our good name."
-51,"TEXT_JOBPLD501_02032_JENLYNS_000_003","Your shining example inspired many young men and women to seek us out. Even as we speak, they train to hone their skills."
-52,"TEXT_JOBPLD501_02032_JENLYNS_000_004","A few words of encouragement from the famed free paladin <If(PlayerParameter(4))>herself<Else/>himself</If> would do much to motivate them further, I should think. Perhaps you would consider paying them a visit at Camp Bluefog?"
-53,"TEXT_JOBPLD501_02032_JENLYNS_000_005","Our younger paladins would surely benefit from a few words of encouragement from you. Forgive me the imposition, but would you call on them at Camp Bluefog?"
-54,"TEXT_JOBPLD501_02032_OWYNE_000_010","A pleasure to meet you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. My name is Owyne."
-55,"TEXT_JOBPLD501_02032_OWYNE_000_011","Well met, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! It's been ages since last we spoke! Certainly not since you helped us to recover the crown."
-56,"TEXT_JOBPLD501_02032_OWYNE_000_012","At the moment, Phillice and I are conducting drills with the new recruits at the east watchtower."
-57,"TEXT_JOBPLD501_02032_OWYNE_000_013","They'll be thrilled to see you, I'm sure!"
-58,"TEXT_JOBPLD501_02032_OWYNE_000_020","Since we all know you're a <If(PlayerParameter(4))>woman<Else/>man</If> of few words, I thought we might forgo the speech and instead ask you to favor us with a display of swordsmanship. We've laid out bait for the basilisks already, in fact. You need only wait for them to come."
-59,"TEXT_JOBPLD501_02032_OWYNE_000_030","Truly a rousing performance, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! Thank you!"
-60,"TEXT_JOBPLD501_02032_OWYNE_000_031","It's one thing to talk about proper technique, but an altogether different thing to see it firsthand."
-61,"TEXT_JOBPLD501_02032_OWYNE_000_032","I think it safe to say that the recruits will long remember this day─as will I!"
-62,"TEXT_JOBPLD501_02032_OWYNE_000_033","Thank you again for the demonstration, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Pray convey my gratitude to Captain Jenlyns as well."
-63,"TEXT_JOBPLD501_02032_JENLYNS_000_040","Well come, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I gather the recruits took your lesson to heart."
-64,"TEXT_JOBPLD501_02032_JENLYNS_000_041","Would that I had some way to repay you─some knowledge or technique to bequeath to you. I am humbled to admit that there is nothing I can teach you."
-65,"TEXT_JOBPLD501_02032_JENLYNS_100_041","All I can offer you is my heartfelt thanks. Pray go forth, my friend, and continue to defend the people of Ul'dah and Eorzea at large."
-66,"TEXT_JOBPLD501_02032_PAPASHAN_000_042","(-???-)Begging your pardons, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
-67,"TEXT_JOBPLD501_02032_PAPASHAN_000_043","(-???-)Begging your pardons, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
-68,"TEXT_JOBPLD501_02032_PAPASHAN_000_044","We need to talk, but not here. At the Dispatch Yard, outside the city."
-69,"TEXT_JOBPLD501_02032_JENLYNS_100_045","Was that Master Papashan just now? Well, if he would have words, then do not let me keep you."
-70,"TEXT_JOBPLD501_02032_PAPASHAN_000_050","Thank you for coming, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. You must be wondering why I called you here..."
-71,"TEXT_JOBPLD501_02032_PAPASHAN_000_051","It concerns Solkzagyl, Jenlyns's predecessor."
-72,"TEXT_JOBPLD501_02032_PAPASHAN_000_052","As you may recall, he continues to search for Oathkeeper, the sword stolen from us by the Monetarists' minions. From time to time, he sends me missives, sharing with me his latest discoveries."
-73,"TEXT_JOBPLD501_02032_PAPASHAN_000_053","His most recent one contained a startling claim. He wrote that he had found the sword, at long last..."
-74,"TEXT_JOBPLD501_02032_PAPASHAN_000_054","But that was some time ago, and he has not contacted me since."
-75,"TEXT_JOBPLD501_02032_PAPASHAN_000_055","I would not trouble Jenlyns with this news─not until I learn what has become of Solkzagyl, at the very least. Will you help me find him?"
-76,"TEXT_JOBPLD501_02032_PAPASHAN_000_056","I knew I could count on you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
-77,"TEXT_JOBPLD501_02032_PAPASHAN_000_057","For now, all I know is that his last missive came to me by way of Ishgard. Once I learn more, we can begin the search in earnest."
-78,"TEXT_JOBPLD501_02032_SYSTEM_000_058","The next paladin quest will be available from Papashan upon reaching level 52."
-79,"TEXT_JOBPLD501_02032_SYSTEM_000_059","The requirements for undertaking subsequent quests can be reviewed in your journal."
-80,"TEXT_JOBPLD501_02032_PAPASHAN_000_045",""
+48,"TEXT_JOBPLD501_02032_JENLYNS_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>か……。
+この国の政情が不安定なことは、貴公も知るとおりだ。
+だが、我々「銀冑団」は、王家を守護するために存在している。"
+49,"TEXT_JOBPLD501_02032_JENLYNS_000_001","パパシャン殿を始め、王党派の皆と協力し、
+いつ何時、女王陛下から号令がかかっても良いよう、
+準備に万全を尽くすつもりだ。"
+50,"TEXT_JOBPLD501_02032_JENLYNS_000_002","今こうして「己の聖剣」を持ち、決意を新たにできるのは、
+貴公が教えてくれたこと……。
+感謝しているぞ。"
+51,"TEXT_JOBPLD501_02032_JENLYNS_000_003","「銀冑団」も、一時は民から不信の目で見られていたが、
+貴公の活躍もあってか、ここ最近は、志願者も増えていてな。"
+52,"TEXT_JOBPLD501_02032_JENLYNS_000_004","彼らは現在、「キャンプ・ブルーフォグ」で訓練を行っている。
+自由騎士である貴公が顔を見せれば喜ぶだろう。
+どうか、激励に行ってやってくれないか。"
+53,"TEXT_JOBPLD501_02032_JENLYNS_000_005","彼らは現在、「キャンプ・ブルーフォグ」で訓練を行っている。
+自由騎士である貴公が顔を見せれば喜ぶだろう。
+どうか、激励に行ってやってくれないか。"
+54,"TEXT_JOBPLD501_02032_OWYNE_000_010","自由騎士<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>殿ですね！
+私は、オワインといいます。
+此度は、ご足労いただきありがとうございます。"
+55,"TEXT_JOBPLD501_02032_OWYNE_000_011","おお、貴方は！　あの時は、ありがとうございました！
+覚えていますか？
+ウルダハで助けていただいた、オワインです！"
+56,"TEXT_JOBPLD501_02032_OWYNE_000_012","ジェンリンス総長から、連絡を受けています。
+なんでも、新人たちを激励していただけるとか！"
+57,"TEXT_JOBPLD501_02032_OWYNE_000_013","現在、彼らは、不滅隊の「東方監視塔」付近で、
+この地の魔物を相手に、実戦訓練をしているところ。
+戦いの手本を示していただければ、彼らも喜びましょう！"
+58,"TEXT_JOBPLD501_02032_OWYNE_000_020","この先に、敵を釣るための罠を仕掛けてあります。
+ここに居る新人たちに、
+自由騎士としての戦いっぷりを見せてやってください！"
+59,"TEXT_JOBPLD501_02032_OWYNE_000_030","ありがとうございます！
+さすが自由騎士殿、すばらしい戦いでした。
+やはり、言葉よりも行動で示すのは説得力が違う！"
+60,"TEXT_JOBPLD501_02032_OWYNE_000_031","ここに居る新人たちは、貴方の話を聞き、憧れているものも多い。
+此度、貴方の戦いを間近で見れたことで、
+ウルダハを守るために、さらに奮起することでしょう。"
+61,"TEXT_JOBPLD501_02032_OWYNE_000_032","私たちは負けません。
+ウルダハがどのような状況になろうとも、守り切ってみせますよ！"
+62,"TEXT_JOBPLD501_02032_OWYNE_000_033","私たちは負けません。
+ウルダハがどのような状況になろうとも、守り切ってみせますよ！"
+63,"TEXT_JOBPLD501_02032_JENLYNS_000_040","おお、戻ったか。
+オワインから、興奮気味の連絡を受けたところだ。
+わざわざ、すまなかったな。"
+64,"TEXT_JOBPLD501_02032_JENLYNS_000_041","貴公は、すでに一人前の自由騎士。
+これ以上、私から伝えることはない。"
+65,"TEXT_JOBPLD501_02032_JENLYNS_100_041","このエオルゼアが、ウルダハの様に混乱しないよう、
+貴公の目で物を見て、自由騎士として戦い続けてほしい。"
+66,"TEXT_JOBPLD501_02032_PAPASHAN_000_042","(-？？？？-)冒険者殿……。
+ちょっと、いいですかな。"
+67,"TEXT_JOBPLD501_02032_PAPASHAN_000_043","(-？？？？-)<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>殿……。
+ちょっと、いいですかな。"
+68,"TEXT_JOBPLD501_02032_PAPASHAN_000_044","実は、お主に協力を願いたい案件がありましてな。
+やや、ここでは話せません。
+……「ウルダハ操車庫」まで来ていただけますか。"
+69,"TEXT_JOBPLD501_02032_JENLYNS_100_045","どうした、パパシャン殿に用事でもあるのか？
+あのお方なら、「ウルダハ操車庫」に居られるはずだ。"
+70,"TEXT_JOBPLD501_02032_PAPASHAN_000_050","よく来てくださった！
+このパパシャン、感謝しますぞ。"
+71,"TEXT_JOBPLD501_02032_PAPASHAN_000_051","ソルクザギル……という者を覚えておるでしょうか？
+ジェンリンスの先代、「銀冑団」の前総長だった男です。"
+72,"TEXT_JOBPLD501_02032_PAPASHAN_000_052","奴は「銀冑団」から失われた「聖剣」を求めて旅だった後、
+時折、私に便りを寄越していたのです。
+いずれも、残された者を気に掛ける内容でしたがの……。"
+73,"TEXT_JOBPLD501_02032_PAPASHAN_000_053","それが、ある時……
+聖剣「オウスキーパー」を見つけたとの便りを最後に、
+消息が途絶えてしまったのです。"
+74,"TEXT_JOBPLD501_02032_PAPASHAN_000_054","この事は、ジェンリンスには伝えておりません。
+ようやく「銀冑団」が持ち直してきたところ……
+ここで、不安の種を植えるわけにはいきませんからな。"
+75,"TEXT_JOBPLD501_02032_PAPASHAN_000_055","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>殿……。
+どうか、秘密裏にソルクザギルを探してもらえぬだろうか！"
+76,"TEXT_JOBPLD501_02032_PAPASHAN_000_056","依頼を受けてくださって、感謝しますぞ！
+ソルクザギルから最後に連絡があったのは、
+北の大地……「イシュガルド」。"
+77,"TEXT_JOBPLD501_02032_PAPASHAN_000_057","ソルクザギルの手がかりになる情報を探しておきますので、
+時が来たら、よろしく頼みますぞ！"
+78,"TEXT_JOBPLD501_02032_SYSTEM_000_058","「ナイト」の新たなジョブクエストが開始されました。
+次のクエストは「レベル52」以上で、
+ウルダハ操車庫のパパシャンから受注可能です。"
+79,"TEXT_JOBPLD501_02032_SYSTEM_000_059","今後の「ナイト」のジョブクエスト受注条件は、
+コンプリート後のジャーナルで確認できます。"
+80,"TEXT_JOBPLD501_02032_PAPASHAN_000_045","（★未使用／削除予定★）"

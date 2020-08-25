@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ319_02715_SEQ_00","Motogoe would send you on an expedition."
+0,"TEXT_STMBDZ319_02715_SEQ_00","イサリ村のモトゴエは、旅慣れた者に頼みごとがあるようだ。"
 1,"TEXT_STMBDZ319_02715_SEQ_01",""
 2,"TEXT_STMBDZ319_02715_SEQ_02",""
 3,"TEXT_STMBDZ319_02715_SEQ_03",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_STMBDZ319_02715_SEQ_21",""
 22,"TEXT_STMBDZ319_02715_SEQ_22",""
 23,"TEXT_STMBDZ319_02715_SEQ_23",""
-24,"TEXT_STMBDZ319_02715_TODO_00","Obtain a blessing stone."
-25,"TEXT_STMBDZ319_02715_TODO_01","Deliver the blessing stone to Motogoe."
+24,"TEXT_STMBDZ319_02715_TODO_00","<Sheet(EObj,2008086,0)/>を入手"
+25,"TEXT_STMBDZ319_02715_TODO_01","モトゴエに<Sheet(EventItem,2002089,0)/>を渡す"
 26,"TEXT_STMBDZ319_02715_TODO_02",""
 27,"TEXT_STMBDZ319_02715_TODO_03",""
 28,"TEXT_STMBDZ319_02715_TODO_04",""
@@ -49,25 +49,42 @@ int32,str,str
 45,"TEXT_STMBDZ319_02715_TODO_21",""
 46,"TEXT_STMBDZ319_02715_TODO_22",""
 47,"TEXT_STMBDZ319_02715_TODO_23",""
-48,"TEXT_STMBDZ319_02715_MOTOGOE_000_000","Ah! Well, if it isn't an adventurer! How would you like to go on a treasure hunt?"
-49,"TEXT_STMBDZ319_02715_MOTOGOE_000_001","The item I would have you search for can only be found on remote islands. Most sane men would avoid such places, as they are often overrun with all manner of terrible beasts, but you look like you would relish the challenge."
-50,"TEXT_STMBDZ319_02715_MOTOGOE_000_002","I would have you go to the Isle of Bekko. The only individuals that dare set foot upon its soils are the occasional Kojin of the Blue who enter and exit the neighboring seas."
-51,"TEXT_STMBDZ319_02715_MOTOGOE_000_003","There, you will be able to find something known as blessing stones. They are round, white, and just a bit warm to the touch. Bring one back for me, will you?"
-52,"TEXT_STMBDZ319_02715_MOTOGOE_000_004","Blessing stones can be found at the Isle of Bekko─an island to the southeast of here. Please bring back one for me will you?"
-53,"TEXT_STMBDZ319_02715_MOTOGOE_000_010","Ah! Might your return mean I shall be receiving my blessing stone?"
-54,"TEXT_STMBDZ319_02715_MOTOGOE_000_011","It is so large, warm and smooth. This would make the perfect pillow! ...Not that that is how I would ever put it to use, mind you!"
-55,"TEXT_STMBDZ319_02715_MOTOGOE_000_012","You see, blessing stones are, well, these...gifts left behind by seabirds. You can only find them in remote areas because they are shy creatures that prefer to settle far away from people."
-56,"TEXT_STMBDZ319_02715_MOTOGOE_000_013","Hm? What do I mean by “gift” you ask? Bahahahaha! That is what we call a pile of bird shite, of course! ...I hope you used gloves!"
-57,"TEXT_STMBDZ319_02715_MOTOGOE_000_014","We currently lack fertilizer. Once this is ground into a fine powder, we should have enough to cover all our fields. Not only do these stones bring us a bounty of crops, but during the seasons our hauls of fish are meager, we make a living by selling these in Namai."
-58,"TEXT_STMBDZ319_02715_MOTOGOE_000_015","Hence their name, blessing stones. They are one of the many gifts the sea has bestowed upon us. Anyroad, here you are. Thank you for your help!"
-59,"TEXT_STMBDZ319_02715_FISHERMAN02715_000_000",""
-60,"TEXT_STMBDZ319_02715_FISHERMAN02715_000_001",""
-61,"TEXT_STMBDZ319_02715_FISHERMAN02715_000_02",""
-62,"TEXT_STMBDZ319_02715_FISHERMAN02715_000_003",""
-63,"TEXT_STMBDZ319_02715_FISHERMAN02715_000_004",""
-64,"TEXT_STMBDZ319_02715_FISHERMAN02715_000_010",""
-65,"TEXT_STMBDZ319_02715_FISHERMAN02715_000_011",""
-66,"TEXT_STMBDZ319_02715_FISHERMAN02715_000_012",""
-67,"TEXT_STMBDZ319_02715_FISHERMAN02715_000_013",""
-68,"TEXT_STMBDZ319_02715_FISHERMAN02715_000_014",""
-69,"TEXT_STMBDZ319_02715_FISHERMAN02715_000_015",""
+48,"TEXT_STMBDZ319_02715_MOTOGOE_000_000","ちょっと、そこの旅の方、ずいぶん旅慣れてそうだね。"
+49,"TEXT_STMBDZ319_02715_MOTOGOE_000_001","ひとけのない孤島でのみ見つかる、貴重なお宝を探してるんだ。
+だが、そういう場所は、魔物の住処ってのが相場でな。
+<If(PlayerParameter(4))>お嬢さん<Else/>お兄さん</If>みたいな腕の立ちそうな人を、探してたのさ。"
+50,"TEXT_STMBDZ319_02715_MOTOGOE_000_002","この辺りで条件に合うのは、南東のベッコウ島かな。
+あんな場所に出入りするのは、コウジン族くらいなもんだからな。
+報酬は出すから、取ってきてくれないか？"
+51,"TEXT_STMBDZ319_02715_MOTOGOE_000_003","お宝の名前は「<Sheet(EventItem,2002089,0)/>」。
+真っ白な塊で、触るとほのかに温かいらしい。
+取るときは、くれぐれも気をつけてくれ。"
+52,"TEXT_STMBDZ319_02715_MOTOGOE_000_004","「<Sheet(EventItem,2002089,0)/>」は、ここから南東のベッコウ島にあるはずだ。
+魔物にも気をつけて、なるべく早く頼むよ。"
+53,"TEXT_STMBDZ319_02715_MOTOGOE_000_010","<Sheet(EventItem,2002089,0)/>は、見つかったか？"
+54,"TEXT_STMBDZ319_02715_MOTOGOE_000_011","なんてでかい<Sheet(EventItem,2002089,0)/>だ！
+思わず頬ずりしたくなっちまうくらいの逸品だな。
+いや……やらないがね。"
+55,"TEXT_STMBDZ319_02715_MOTOGOE_000_012","<Sheet(EventItem,2002089,0)/>ってのは、海鳥の置き土産のことさ。
+やつらは警戒心が強いから、
+人が寄りつかないような孤島でしか採れないんだ。"
+56,"TEXT_STMBDZ319_02715_MOTOGOE_000_013","ん？　置き土産ってのは……フンだよ、フン。
+手袋するように言ってなかったか？
+まあ、害はないはずだ……多分な。"
+57,"TEXT_STMBDZ319_02715_MOTOGOE_000_014","<Sheet(EventItem,2002089,0)/>は、砕いて田畑に撒けばいい肥料になる。
+魚が捕れない時期はこいつをヤンサの農村に売って、
+生計を立ててるってわけだ。"
+58,"TEXT_STMBDZ319_02715_MOTOGOE_000_015","これも海の恵みってやつさ。
+だから、<Sheet(EventItem,2002089,0)/>ってな。
+何にせよ助かった、また何かあったら頼むよ。"
+59,"TEXT_STMBDZ319_02715_FISHERMAN02715_000_000","（★未使用／削除予定★）"
+60,"TEXT_STMBDZ319_02715_FISHERMAN02715_000_001","（★未使用／削除予定★）"
+61,"TEXT_STMBDZ319_02715_FISHERMAN02715_000_02","（★未使用／削除予定★）"
+62,"TEXT_STMBDZ319_02715_FISHERMAN02715_000_003","（★未使用／削除予定★）"
+63,"TEXT_STMBDZ319_02715_FISHERMAN02715_000_004","（★未使用／削除予定★）"
+64,"TEXT_STMBDZ319_02715_FISHERMAN02715_000_010","（★未使用／削除予定★）"
+65,"TEXT_STMBDZ319_02715_FISHERMAN02715_000_011","（★未使用／削除予定★）"
+66,"TEXT_STMBDZ319_02715_FISHERMAN02715_000_012","（★未使用／削除予定★）"
+67,"TEXT_STMBDZ319_02715_FISHERMAN02715_000_013","（★未使用／削除予定★）"
+68,"TEXT_STMBDZ319_02715_FISHERMAN02715_000_014","（★未使用／削除予定★）"
+69,"TEXT_STMBDZ319_02715_FISHERMAN02715_000_015","（★未使用／削除予定★）"

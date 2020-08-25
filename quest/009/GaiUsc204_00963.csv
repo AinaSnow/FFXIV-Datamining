@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSC204_00963_SEQ_00","Davyd has a simple proposal for you."
-1,"TEXT_GAIUSC204_00963_SEQ_01","In exchange for furnishing you with the corrupted crystal you seek, Davyd wants you to help him resolve the undead situation. To that end, he would have you first discover the cause behind the sudden influx of shambling corpses. Begin your inquiries by speaking with the party of adventurers who have made camp on the eastern shore."
-2,"TEXT_GAIUSC204_00963_SEQ_02","The adventurers speak of a beautiful, irresistible voice heard at the Ship Graveyard, which may be connected to the undead. Report your findings to Davyd."
-3,"TEXT_GAIUSC204_00963_SEQ_03","Although Davyd appears to have an inkling of what the cause might be, he does not deign to share it with you. Perhaps you should pressure him to voice his thoughts."
+0,"TEXT_GAIUSC204_00963_SEQ_00","シリウス大灯台のダヴィッドは、冒険者に頼みたいことがあるようだ。"
+1,"TEXT_GAIUSC204_00963_SEQ_01","幻影諸島で起こっている怪異を解決することになった。まずはシリウス大灯台周辺で情報を集めよう。"
+2,"TEXT_GAIUSC204_00963_SEQ_02","情報を集めることができた。シリウス大灯台に戻り「ダヴィッド」に報告しよう。"
+3,"TEXT_GAIUSC204_00963_SEQ_03","「船の墓場」の近くで、美しい「歌声」が聞こえるという。島に魔物があふれかえっているのは、その「歌声」が元凶かもしれない。"
 4,"TEXT_GAIUSC204_00963_SEQ_04",""
 5,"TEXT_GAIUSC204_00963_SEQ_05",""
 6,"TEXT_GAIUSC204_00963_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSC204_00963_SEQ_21",""
 22,"TEXT_GAIUSC204_00963_SEQ_22",""
 23,"TEXT_GAIUSC204_00963_SEQ_23",""
-24,"TEXT_GAIUSC204_00963_TODO_00","Speak with the adventurers."
-25,"TEXT_GAIUSC204_00963_TODO_01","Report to Davyd."
+24,"TEXT_GAIUSC204_00963_TODO_00","幻影諸島の冒険者と話す"
+25,"TEXT_GAIUSC204_00963_TODO_01","ダヴィッドに報告"
 26,"TEXT_GAIUSC204_00963_TODO_02",""
 27,"TEXT_GAIUSC204_00963_TODO_03",""
 28,"TEXT_GAIUSC204_00963_TODO_04",""
@@ -49,14 +49,36 @@ int32,str,str
 45,"TEXT_GAIUSC204_00963_TODO_21",""
 46,"TEXT_GAIUSC204_00963_TODO_22",""
 47,"TEXT_GAIUSC204_00963_TODO_23",""
-48,"TEXT_GAIUSC204_00963_DAVYD_000_000","The writ Master Mimidoa gave you may grant you access to the island, but only authorized personnel may proceed past this point. Why, you ask? Look up and see for yourself."
-49,"TEXT_GAIUSC204_00963_DAVYD_000_001","When that giant mass of crystal struck the lighthouse, it caused severe damage to both the structure and the machinery within that once powered the beacon."
-50,"TEXT_GAIUSC204_00963_DAVYD_000_002","Aye, contrary to what the smallfolk would have you believe, the fires of Pharos Sirius were not the product of a mage's thaumaturgy or a colossal arcane bomb, but an elaborate contraption fueled by aetherial energy."
-51,"TEXT_GAIUSC204_00963_DAVYD_000_003","Repairs are still ongoing, but it's anyone's guess when they'll be complete. What's worse, all work has ceased since rumors of the walking dead drove off our entire crew."
-52,"TEXT_GAIUSC204_00963_DAVYD_000_004","Not that those rumors are incorrect─I've observed the fiends from a distance, at the Ship Graveyard to the south. What's drawn them to our shores is still a mystery, though."
-53,"TEXT_GAIUSC204_00963_DAVYD_000_005","I'll make you a deal, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>: help me unravel this mystery, and I'll bring you your corrupted crystal. In fact, I shall begin searching for one that satisfies your requirements."
-54,"TEXT_GAIUSC204_00963_DAVYD_000_006","As for where to begin your inquiries into the situation, it so happens that a party of three adventurers came ashore not long ago, seeking to scavenge valuable trinkets at the Ship Graveyard. I'd be surprised if they knew nothing of the undead infestation, so it might behoove you to question them."
-55,"TEXT_GAIUSC204_00963_AHLDUWIL_000_010","Itsh all there fer the takin'! Five bleedin' yearsh worth of wrecksh and their cargo. But thoshe queer dead thingsh...and that voice... Actually, the voice was quite nice..."
-56,"TEXT_GAIUSC204_00963_ERAPITAROPI_000_020","You saw 'em too, right? <Emphasis>Dead people</Emphasis>. Just shambling about, without a care in the world. Except when they <Emphasis>do</Emphasis> seem to care, that is, and start shuffling towards the water..."
-57,"TEXT_GAIUSC204_00963_LOUIS_000_030","Gods, that voice, that single fleeting verse... I can still hear it... Stay clear of the southern shore, friend. It took every onze of my strength to resist."
-58,"TEXT_GAIUSC204_00963_DAVYD_000_040","Hmmm... This talk of an alluring voice is disturbingly familiar, as if... But that's impossible, they're all dead...aren't they?"
+48,"TEXT_GAIUSC204_00963_DAVYD_000_000","現在、この「シリウス大灯台」は閉鎖中なんだ。
+霊災前は地脈から噴き出すエーテルを使って発光させる、
+当時、最新鋭の灯台だったんだけど……。"
+49,"TEXT_GAIUSC204_00963_DAVYD_000_001","第七霊災のとき、火の玉が直撃してな。
+その衝撃でエーテルが不安定な形で固まっちまった。
+内部は崩壊の危険もあるから、立ち入り禁止になってるんだ。"
+50,"TEXT_GAIUSC204_00963_DAVYD_000_002","どうしても偏属性クリスタルが欲しいなら、
+俺が採ってきてやってもいいけど……。
+その前に、俺の頼みを聞いてくれないか？"
+51,"TEXT_GAIUSC204_00963_DAVYD_000_003","この「幻影諸島」で幽霊が出るという噂は聞いてるだろう？
+……話が独り歩きしているようだが、
+実は、あれは幽霊ではなくて魔物なんだ。"
+52,"TEXT_GAIUSC204_00963_DAVYD_000_004","……夜になると浜辺から
+得体の知れない魔物が現れ、あちこちを徘徊するのさ……。
+幽霊が出るって噂が広まっても仕方ない状況だよ。"
+53,"TEXT_GAIUSC204_00963_DAVYD_000_005","おかげで、技師たちが寄りつかず、一向に修理が進まないんだ。
+幸い、このバカでかい偏属性クリスタルの輝きが、
+灯台の役目を果たしているけどね。"
+54,"TEXT_GAIUSC204_00963_DAVYD_000_006","冒険者の君に、この魔物の調査をしてもらいたいんだ。
+……冒険者から目撃情報を得られるかもしれない。
+まずは彼らの話を聞いてみてくれ。"
+55,"TEXT_GAIUSC204_00963_AHLDUWIL_000_010","霊災以降に潮の流れが変わったらしく、
+島に難破船が漂着するようになった。
+そしてついた地名が「船の墓場」……薄気味悪いぜ。"
+56,"TEXT_GAIUSC204_00963_ERAPITAROPI_000_020","南の「船の墓場」って呼ばれてる海岸には、
+夜になると幽霊が出るんだ……！
+俺はこの目で見たんだからな！　思い出すと怖ぇぜ……。"
+57,"TEXT_GAIUSC204_00963_LOUIS_000_030","「船の墓場」に行くと、歌声が聞こえるらしい。
+それはそれは美しい、素晴らしい歌声……。
+歌を聞いた者は憑り殺され、幽霊にされちまうって話だぜ……。"
+58,"TEXT_GAIUSC204_00963_DAVYD_000_040","「船の墓場」で聞こえる歌声……？
+では、この島に魔物が溢れているのは、
+その「歌声」が元凶だっていうのか……？"

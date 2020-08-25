@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSC511_00999_SEQ_00","Every successful adventurer plays to <If(PlayerParameter(4))>her<Else/>his</If> strength, and you have some inkling of what Aganbold's might be after a few commissions in his stead."
-1,"TEXT_GAIUSC511_00999_SEQ_01","According to the smooth-talking Aganbold, the mare's tail root is a field physick that every adventurer should carry. Since neither he nor you have any on hand, it would be best for you to go west into the Tangle and bring back eight roots."
-2,"TEXT_GAIUSC511_00999_SEQ_02","You locate the mare's tail, and harvest eight roots. The flesh has a pleasant, spicy scent to it; you can well believe it would make a soothing concoction, to the senses at least. As for the festering...end your wool-gathering and speak with Aganbold."
-3,"TEXT_GAIUSC511_00999_SEQ_03","You deliver the roots to Aganbold and escape further work by declining to take your share of the harvest. Uncharitable it may be, but you suspect that Aganbold has cozened you into performing another commission for him..."
+0,"TEXT_GAIUSC511_00999_SEQ_00","レヴナンツトールのアガンボルドは、冒険者に頼みたいことがあるようだ。"
+1,"TEXT_GAIUSC511_00999_SEQ_01","タングル湿林に自生している「<Sheet(EventItem,2000764,0)/>」は、薬として大変役に立つものだという。レヴナンツトールの西、タングル湿林で「<Sheet(EventItem,2000764,0)/>」を8つほど入手してこよう。"
+2,"TEXT_GAIUSC511_00999_SEQ_02","<Sheet(EventItem,2000764,0)/>を入手した。レヴナンツトールに戻って「アガンボルド」に報告しよう。"
+3,"TEXT_GAIUSC511_00999_SEQ_03","アガンボルドに<Sheet(EventItem,2000764,0)/>を渡した。彼は冒険者の協力に感謝しているようだ。"
 4,"TEXT_GAIUSC511_00999_SEQ_04",""
 5,"TEXT_GAIUSC511_00999_SEQ_05",""
 6,"TEXT_GAIUSC511_00999_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSC511_00999_SEQ_21",""
 22,"TEXT_GAIUSC511_00999_SEQ_22",""
 23,"TEXT_GAIUSC511_00999_SEQ_23",""
-24,"TEXT_GAIUSC511_00999_TODO_00","Collect mare's tail roots."
-25,"TEXT_GAIUSC511_00999_TODO_01","Report to Aganbold."
+24,"TEXT_GAIUSC511_00999_TODO_00","<Sheet(EventItem,2000764,0)/>を入手"
+25,"TEXT_GAIUSC511_00999_TODO_01","アガンボルドに報告"
 26,"TEXT_GAIUSC511_00999_TODO_02",""
 27,"TEXT_GAIUSC511_00999_TODO_03",""
 28,"TEXT_GAIUSC511_00999_TODO_04",""
@@ -49,10 +49,19 @@ int32,str,str
 45,"TEXT_GAIUSC511_00999_TODO_21",""
 46,"TEXT_GAIUSC511_00999_TODO_22",""
 47,"TEXT_GAIUSC511_00999_TODO_23",""
-48,"TEXT_GAIUSC511_00999_AGANBOLD_000_000","<If(PlayerParameter(4))>Sister<Else/>Brother</If>, can you spare some mare's tail roots? I've none on account of those young cadgers from the Black Shroud. I told them, “The root tea'll settle that belly of yours,” and the next thing, I've given them all I have!"
-49,"TEXT_GAIUSC511_00999_AGANBOLD_000_001","You don't have any either? Why, every adventurer working these parts ought to carry some with them! A poultice of mare's tail keeps wounds from festering, and you look a festering sort of <If(PlayerParameter(4))>lass<Else/>fellow</If> if ever I saw one."
-50,"TEXT_GAIUSC511_00999_AGANBOLD_000_002","Since we're both short, how about you go and get us some? Eight roots should do it, I'd say."
-51,"TEXT_GAIUSC511_00999_DUMMY_000_010",""
-52,"TEXT_GAIUSC511_00999_DUMMYTODO_000_010",""
-53,"TEXT_GAIUSC511_00999_AGANBOLD_000_020","There you are, <If(PlayerParameter(4))>sister<Else/>brother</If>! Got what we need?"
-54,"TEXT_GAIUSC511_00999_AGANBOLD_000_030","One, two...seven and eight. Now, they'll need to be prepared and seeing as how we're both─are you fair certain? You'll want one when that festering starts. Well, if you say so. I'll keep the lot, and much appreciate the kindness!"
+48,"TEXT_GAIUSC511_00999_AGANBOLD_000_000","湿林に自生する「<Sheet(EventItem,2000764,0)/>」は、
+煎じて飲めば腹下しに効き、傷に塗れば化のう止めになる。
+ここらの冒険者必携の、ありがたい万能薬ってわけさ。"
+49,"TEXT_GAIUSC511_00999_AGANBOLD_000_001","普段は俺も切らさないように持ち歩いているんだが、
+この間、聖コイナク調査団で仕事を請け負った際に、
+仲間に分けてやったら、手持ちが少なくなっちまってな。"
+50,"TEXT_GAIUSC511_00999_AGANBOLD_000_002","お前、よければ採ってきてくれないか？
+「<Sheet(EventItem,2000764,0)/>」を8つほどだ。
+よろしく頼んだぜ。"
+51,"TEXT_GAIUSC511_00999_DUMMY_000_010","「<Sheet(EventItem,2000764,0)/>」を8つゲット"
+52,"TEXT_GAIUSC511_00999_DUMMYTODO_000_010","（★未使用／削除予定★）"
+53,"TEXT_GAIUSC511_00999_AGANBOLD_000_020","よう、あんた。
+頼んでいたものは採ってきてくれたかい？"
+54,"TEXT_GAIUSC511_00999_AGANBOLD_000_030","……そう、これだ。
+この辺りを根城にする冒険者にゃ、こいつは必需品さ。
+ありがとうよ、助かったぜ。"

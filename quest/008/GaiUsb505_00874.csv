@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB505_00874_SEQ_00","Rousing himself from a considerable gloom, Barryn seems thankful for your presence."
-1,"TEXT_GAIUSB505_00874_SEQ_01","It seems that a mourner was attacked near an unusually verdant patch of wildflowers growing on a fallen goobbue. Barryn bids you investigate the scene and slay the creatures responsible."
-2,"TEXT_GAIUSB505_00874_SEQ_02","You have slain the Shroud mandragoras who had apparently claimed the goobbue mound as their own. Report your success to Barryn."
-3,"TEXT_GAIUSB505_00874_SEQ_03","Barryn thanks you, and emboldened, you ask about the goobbue. The Calamity has driven from their homes men and beasts alike, and Barryn broods that before long, few may be spared the fate of exile."
+0,"TEXT_GAIUSB505_00874_SEQ_00","聖アダマ・ランダマ教会のバリンは、遺族の悲劇に心を痛めているようだ。"
+1,"TEXT_GAIUSB505_00874_SEQ_01","花を摘みに行った遺族が魔物に襲われたらしい。二度と同じことがおこらないよう、植物にのまれたグゥーブー付近の「<Sheet(EObj,2002101,0)/>」を調べ、現れた魔物を倒そう。"
+2,"TEXT_GAIUSB505_00874_SEQ_02","<Sheet(BNpcName,2182,0)/>を討伐した。聖アダマ・ランダマ教会の「バリン」に報告しよう。"
+3,"TEXT_GAIUSB505_00874_SEQ_03","バリンによると、植物にのまれたグゥーブーも第七霊災の被害者であるという。エオルゼアには、5年前の大霊災の傷跡がまだまだ残っているようだ。"
 4,"TEXT_GAIUSB505_00874_SEQ_04",""
 5,"TEXT_GAIUSB505_00874_SEQ_05",""
 6,"TEXT_GAIUSB505_00874_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSB505_00874_SEQ_21",""
 22,"TEXT_GAIUSB505_00874_SEQ_22",""
 23,"TEXT_GAIUSB505_00874_SEQ_23",""
-24,"TEXT_GAIUSB505_00874_TODO_00","Investigate the spot and slay the foes."
-25,"TEXT_GAIUSB505_00874_TODO_01","Report to Barryn."
+24,"TEXT_GAIUSB505_00874_TODO_00","<Sheet(EObj,2002101,0)/>を調べて魔物を討伐"
+25,"TEXT_GAIUSB505_00874_TODO_01","バリンに報告"
 26,"TEXT_GAIUSB505_00874_TODO_02",""
 27,"TEXT_GAIUSB505_00874_TODO_03",""
 28,"TEXT_GAIUSB505_00874_TODO_04",""
@@ -49,12 +49,24 @@ int32,str,str
 45,"TEXT_GAIUSB505_00874_TODO_21",""
 46,"TEXT_GAIUSB505_00874_TODO_22",""
 47,"TEXT_GAIUSB505_00874_TODO_23",""
-48,"TEXT_GAIUSB505_00874_BARRYN_000_000","The sun has shone upon a terrible sight today. One of the bereaved wished to place upon the grave of his beloved a sprig of Althyk lavender. He strayed far, for the flower is sparse in these parts─and was grievously wounded by fiends."
-49,"TEXT_GAIUSB505_00874_BARRYN_000_001","Grief makes us all slow in wits and limb, and I fear that these attacks will not cease until the creatures are gone. I pray you, banish the foul things. They were last seen to the east, near the remains of a goobbue."
-50,"TEXT_GAIUSB505_00874_DUMMY_000_010",""
-51,"TEXT_GAIUSB505_00874_TODO_000_010",""
-52,"TEXT_GAIUSB505_00874_BARRYN_000_020","When the Calamity struck, it sundered life everywhere─and not only among our races. Look around, and you will see how things have fallen apart. Feet, claws, roots─all have been torn from the earth they were planted on."
-53,"TEXT_GAIUSB505_00874_BARRYN_000_021","The dead goobbue was a child of Coerthas. The Calamity shattered its native mountains, and it fled before destruction as a caravan flies before a sandstorm. Years, it wandered. We found it dying and received its memories."
-54,"TEXT_GAIUSB505_00874_BARRYN_000_022","It had gathered seeds from every land it passed through, and they flower upon its corpse, a living map of its loss and exile. North to south, mountains to the desert...cloudberry and shooting stars, marybells and cliff roses, Althyk lavender from lower Thanalan, even roselles from Bloodshore."
-55,"TEXT_GAIUSB505_00874_BARRYN_000_023","To wander is a dream and a nightmare. Adventurers such as yourself must know it better than I, but I imagine there are days when the flame of adventure gutters, and you feel yourself to be as bereft as those in Lost Hope...and upon us, no flowers grow."
-56,"TEXT_GAIUSB505_00874_POP_MESSAGE_000","You sense a hostile presence!"
+48,"TEXT_GAIUSB505_00874_BARRYN_000_000","お墓に供える「アルジクラベンダー」を摘みにいった者が、
+魔物に襲われ大怪我を負ってしまいました。
+遺族が危険な目に遭うなんて……死者も浮かばれません。"
+49,"TEXT_GAIUSB505_00874_BARRYN_000_001","どうか、魔物を倒してきていただけませんか？
+魔物が現れた場所は、
+ここより東にあるグゥーブーの亡骸付近です。"
+50,"TEXT_GAIUSB505_00874_DUMMY_000_010","植物に飲まれたグゥーブー周辺の指定地点にアクセス、マンドラゴラ×３がＰＯＰ"
+51,"TEXT_GAIUSB505_00874_TODO_000_010","（★未使用／削除予定★）"
+52,"TEXT_GAIUSB505_00874_BARRYN_000_020","霊災や蛮神の被害で、あまりに多くの命が失われました。
+それは人だけではありません。
+獣も植物も、皆、安住の地を失ったのです。"
+53,"TEXT_GAIUSB505_00874_BARRYN_000_021","あの植物にのまれたグゥーブーもまた、
+霊災によって山岳地帯クルザスを追われ、
+この地で力尽きた個体。"
+54,"TEXT_GAIUSB505_00874_BARRYN_000_022","森を抜ける際、身体にたくさんの種がついたのでしょう。
+やがて種が芽を出して、大地の一部になったのです。
+そこで摘まれる花は、まさに霊災の悲劇の象徴……。"
+55,"TEXT_GAIUSB505_00874_BARRYN_000_023","このエオルゼアの生きとし生けるものにとって、
+霊災はけっして忘れることのできない災厄……。
+同時に、叶うのなら忘れてしまいたい悪夢でもあるのです。"
+56,"TEXT_GAIUSB505_00874_POP_MESSAGE_000","敵の気配を感じた！！"

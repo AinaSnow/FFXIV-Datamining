@@ -1,16 +1,18 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_JOBREL400_02379_SEQ_00","Ardashir is contemplating the present state of the anima.
-※Changing classes or jobs will prevent progress during this quest."
-1,"TEXT_JOBREL400_02379_SEQ_01","Ardashir is seemingly satisfied with the results of his research thus far─so much so, that he soon plans to return to Radz–at–Han where he will present his findings. Gerolt, on the other hand, is baffled by this presumption, and wastes no time reprimanding him. Ardashir reluctantly accepts the truth─that their work is not yet complete─and soon offers a means to temporarily fortify the anima weapon. For his plan to work, however, it requires a ceruleum solution which he has commissioned from a skilled distiller in Idyllshire. While he begins other preparations for the anima weapon, he asks you to meet with this artisan, one Blamprest, in Idyllshire.
+0,"TEXT_JOBREL400_02379_SEQ_00","<UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow>特殊ルール： クラス・ジョブ固定<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+アルダシールは、人造精霊のあり方について悩んでいるようだ。"
+1,"TEXT_JOBREL400_02379_SEQ_01","※本クエストには「<UIForeground>F201F6</UIForeground><UIGlow>F201F7</UIGlow><UIGlow>01</UIGlow><UIForeground>01</UIForeground> クラス・ジョブ固定」が、
+　設定されています。
+　受注時と同じクラス・ジョブでのみ進行できます。
 
-※You may not proceed with a class or job that is different from when you accepted this quest."
-2,"TEXT_JOBREL400_02379_SEQ_02","Blamprest assures you work on Ardashir's order is well underway. He has been delayed, however, by a need for singing clusters. Though difficult to acquire, he has entrusted the task to a pair of sisters─skilled mages who agreed to help...for a price. No sooner does he mention the pair than they appear before you seeking compensation for their work. Much to your surprise─and dismay─he tells them that you have eagerly agreed to pay for them in his stead. They have yet to explain how you must pay them, but as your only alternative is to bargain at Rowena's Center for Cultural Promotion, you steel yourself to undertake trials of unknown peril."
-3,"TEXT_JOBREL400_02379_SEQ_03","After subjecting yourself to the peculiar whims of Amphelice and Angelet, you at last deliver the singing clusters to Blamprest, who then crafts for you the elixir needed for the anima weapon's fortifying potion. With your work complete and the elixir in hand, he bids you safe travels back to Azys Lla."
-4,"TEXT_JOBREL400_02379_SEQ_04","You return to Azys Lla, elixir in hand. The second bottle you place on Ardashir's workbench, however, leaves him perplexed. When you explain to him it was an order for spirits placed by Gerolt, he then comes to a sudden and startling realization─Gerolt squandered a portion of the money lent to them by Rowena to make the purchase. Though he is furious, he cannot deny the strange yet beneficial effects of alcohol on Gerolt's work. After regaining his composure, he completes his potion, and sets Gerolt to work on fortifying the anima weapon. Much to their delight, Ardashir's plan was a success. Moreover, he goes on to show you an Allagan droid that may be the key to ensuring the anima's longevity, assuming it can be repaired.
+アルダシールから、人造精霊の成長させるため、<Sheet(EventItem,2002022,0)/>を入手するよう頼まれた。クエストを受注した際のジョブとなり「アニマウェポン」を所持もしくは装備した状態で、<Sheet(EventItem,2002022,0)/>の製作を依頼したという、イディルシャイアの「ブランプレ」を訪ねよう。"
+2,"TEXT_JOBREL400_02379_SEQ_02","ブランプレによると、<Sheet(EventItem,2002022,0)/>を蒸留するには、<Sheet(Item,16064,0)/>が大量に必要らしい。イディルシャイアの「アンフェリス」か「アンジェレト」、もしくはロウェナ総合文化会館の「ヒスメナ」から、「<Sheet(Item,16064,0)/>」を50個入手し、クエストを受注した際のジョブとなり「アニマウェポン」を所持もしくは装備した状態で、イディルシャイアの「ブランプレ」に渡そう。"
+3,"TEXT_JOBREL400_02379_SEQ_03","ブランプレに<Sheet(Item,16064,0)/>を渡し、<Sheet(EventItem,2002022,0)/>と<Sheet(EventItem,2002026,0)/>を入手した。クエストを受注した際のジョブとなり、「アニマウェポン」を装備から外し所持した状態で、アジス・ラーのポート・ヘリックスの「アルダシール」に、「<Sheet(EventItem,2002022,0)/>」と「<Sheet(EventItem,2002026,0)/>」を渡そう。"
+4,"TEXT_JOBREL400_02379_SEQ_04","アルダシールに<Sheet(EventItem,2002022,0)/>と<Sheet(EventItem,2002026,0)/>を渡した。アルダシールから人造精霊の新たなソウルストーンを提案された。次回の研究に向けて、彼は加工システムを修理するようだ。次なる研究に備え、「アニマウェポン・シャープ」と共に旅へと出よう。
 
-※ The attributes of the anima weapon can be reallocated by speaking with Ulan in Idyllshire."
+※アニマウェポンのパラメータを再調整したい場合は、イディルシャイアのウランに声をかけてみましょう。"
 5,"TEXT_JOBREL400_02379_SEQ_05",""
 6,"TEXT_JOBREL400_02379_SEQ_06",""
 7,"TEXT_JOBREL400_02379_SEQ_07",""
@@ -30,9 +32,12 @@ int32,str,str
 21,"TEXT_JOBREL400_02379_SEQ_21",""
 22,"TEXT_JOBREL400_02379_SEQ_22",""
 23,"TEXT_JOBREL400_02379_SEQ_23",""
-24,"TEXT_JOBREL400_02379_TODO_00","With <If(Equal(IntegerParameter(4),19))><SheetEn(Item,2,15223,1,1)/> and <SheetEn(Item,2,15236,1,1)/><Else/><If(Equal(IntegerParameter(4),20))><SheetEn(Item,2,15224,1,1)/><Else/><If(Equal(IntegerParameter(4),21))><SheetEn(Item,2,15225,1,1)/><Else/><If(Equal(IntegerParameter(4),22))><SheetEn(Item,2,15226,1,1)/><Else/><If(Equal(IntegerParameter(4),23))><SheetEn(Item,2,15227,1,1)/><Else/><If(Equal(IntegerParameter(4),24))><SheetEn(Item,2,15231,1,1)/><Else/><If(Equal(IntegerParameter(4),25))><SheetEn(Item,2,15232,1,1)/><Else/><If(Equal(IntegerParameter(4),27))><SheetEn(Item,2,15233,1,1)/><Else/><If(Equal(IntegerParameter(4),28))><SheetEn(Item,2,15234,1,1)/><Else/><If(Equal(IntegerParameter(4),30))><SheetEn(Item,2,15228,1,1)/><Else/><If(Equal(IntegerParameter(4),31))><SheetEn(Item,2,15230,1,1)/><Else/><If(Equal(IntegerParameter(4),32))><SheetEn(Item,2,15229,1,1)/><Else/><If(Equal(IntegerParameter(4),33))><SheetEn(Item,2,15235,1,1)/><Else/></If></If></If></If></If></If></If></If></If></If></If></If></If> equipped or in your inventory, speak with Blamprest in Idyllshire."
-25,"TEXT_JOBREL400_02379_TODO_01","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))> Collect the singing clusters.<Else/>With <If(Equal(IntegerParameter(4),19))><SheetEn(Item,2,15223,1,1)/> and <SheetEn(Item,2,15236,1,1)/><Else/><If(Equal(IntegerParameter(4),20))><SheetEn(Item,2,15224,1,1)/><Else/><If(Equal(IntegerParameter(4),21))><SheetEn(Item,2,15225,1,1)/><Else/><If(Equal(IntegerParameter(4),22))><SheetEn(Item,2,15226,1,1)/><Else/><If(Equal(IntegerParameter(4),23))><SheetEn(Item,2,15227,1,1)/><Else/><If(Equal(IntegerParameter(4),24))><SheetEn(Item,2,15231,1,1)/><Else/><If(Equal(IntegerParameter(4),25))><SheetEn(Item,2,15232,1,1)/><Else/><If(Equal(IntegerParameter(4),27))><SheetEn(Item,2,15233,1,1)/><Else/><If(Equal(IntegerParameter(4),28))><SheetEn(Item,2,15234,1,1)/><Else/><If(Equal(IntegerParameter(4),30))><SheetEn(Item,2,15228,1,1)/><Else/><If(Equal(IntegerParameter(4),31))><SheetEn(Item,2,15230,1,1)/><Else/><If(Equal(IntegerParameter(4),32))><SheetEn(Item,2,15229,1,1)/><Else/><If(Equal(IntegerParameter(4),33))><SheetEn(Item,2,15235,1,1)/><Else/></If></If></If></If></If></If></If></If></If></If></If></If></If> equipped or in your inventory, deliver the singing clusters to Blamprest in Idyllshire.</If>"
-26,"TEXT_JOBREL400_02379_TODO_02","With <If(Equal(IntegerParameter(4),19))><SheetEn(Item,2,15223,1,1)/> and <SheetEn(Item,2,15236,1,1)/><Else/><If(Equal(IntegerParameter(4),20))><SheetEn(Item,2,15224,1,1)/><Else/><If(Equal(IntegerParameter(4),21))><SheetEn(Item,2,15225,1,1)/><Else/><If(Equal(IntegerParameter(4),22))><SheetEn(Item,2,15226,1,1)/><Else/><If(Equal(IntegerParameter(4),23))><SheetEn(Item,2,15227,1,1)/><Else/><If(Equal(IntegerParameter(4),24))><SheetEn(Item,2,15231,1,1)/><Else/><If(Equal(IntegerParameter(4),25))><SheetEn(Item,2,15232,1,1)/><Else/><If(Equal(IntegerParameter(4),27))><SheetEn(Item,2,15233,1,1)/><Else/><If(Equal(IntegerParameter(4),28))><SheetEn(Item,2,15234,1,1)/><Else/><If(Equal(IntegerParameter(4),30))><SheetEn(Item,2,15228,1,1)/><Else/><If(Equal(IntegerParameter(4),31))><SheetEn(Item,2,15230,1,1)/><Else/><If(Equal(IntegerParameter(4),32))><SheetEn(Item,2,15229,1,1)/><Else/><If(Equal(IntegerParameter(4),33))><SheetEn(Item,2,15235,1,1)/><Else/></If></If></If></If></If></If></If></If></If></If></If></If></If> in your inventory, deliver the distilled ceruleum and moonrise to Ardashir in Azys Lla."
+24,"TEXT_JOBREL400_02379_TODO_00","<If(Equal(IntegerParameter(4),19))><Sheet(Item,15223,0)/>と<Sheet(Item,15236,0)/><Else/><If(Equal(IntegerParameter(4),20))><Sheet(Item,15224,0)/><Else/><If(Equal(IntegerParameter(4),21))><Sheet(Item,15225,0)/><Else/><If(Equal(IntegerParameter(4),22))><Sheet(Item,15226,0)/><Else/><If(Equal(IntegerParameter(4),23))><Sheet(Item,15227,0)/><Else/><If(Equal(IntegerParameter(4),24))><Sheet(Item,15231,0)/><Else/><If(Equal(IntegerParameter(4),25))><Sheet(Item,15232,0)/><Else/><If(Equal(IntegerParameter(4),27))><Sheet(Item,15233,0)/><Else/><If(Equal(IntegerParameter(4),28))><Sheet(Item,15234,0)/><Else/><If(Equal(IntegerParameter(4),30))><Sheet(Item,15228,0)/><Else/><If(Equal(IntegerParameter(4),31))><Sheet(Item,15230,0)/><Else/><If(Equal(IntegerParameter(4),32))><Sheet(Item,15229,0)/><Else/><If(Equal(IntegerParameter(4),33))><Sheet(Item,15235,0)/><Else/></If></If></If></If></If></If></If></If></If></If></If></If></If>を所持か装備し
+イディルシャイアのブランプレと話す"
+25,"TEXT_JOBREL400_02379_TODO_01","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))><Sheet(Item,16064,0)/>を集める<Else/><If(Equal(IntegerParameter(4),19))><Sheet(Item,15223,0)/>と<Sheet(Item,15236,0)/><Else/><If(Equal(IntegerParameter(4),20))><Sheet(Item,15224,0)/><Else/><If(Equal(IntegerParameter(4),21))><Sheet(Item,15225,0)/><Else/><If(Equal(IntegerParameter(4),22))><Sheet(Item,15226,0)/><Else/><If(Equal(IntegerParameter(4),23))><Sheet(Item,15227,0)/><Else/><If(Equal(IntegerParameter(4),24))><Sheet(Item,15231,0)/><Else/><If(Equal(IntegerParameter(4),25))><Sheet(Item,15232,0)/><Else/><If(Equal(IntegerParameter(4),27))><Sheet(Item,15233,0)/><Else/><If(Equal(IntegerParameter(4),28))><Sheet(Item,15234,0)/><Else/><If(Equal(IntegerParameter(4),30))><Sheet(Item,15228,0)/><Else/><If(Equal(IntegerParameter(4),31))><Sheet(Item,15230,0)/><Else/><If(Equal(IntegerParameter(4),32))><Sheet(Item,15229,0)/><Else/><If(Equal(IntegerParameter(4),33))><Sheet(Item,15235,0)/><Else/></If></If></If></If></If></If></If></If></If></If></If></If></If>を所持か装備し
+ブランプレに<Sheet(Item,16064,0)/>を渡す</If>"
+26,"TEXT_JOBREL400_02379_TODO_02","<If(Equal(IntegerParameter(4),19))><Sheet(Item,15223,0)/>と<Sheet(Item,15236,0)/><Else/><If(Equal(IntegerParameter(4),20))><Sheet(Item,15224,0)/><Else/><If(Equal(IntegerParameter(4),21))><Sheet(Item,15225,0)/><Else/><If(Equal(IntegerParameter(4),22))><Sheet(Item,15226,0)/><Else/><If(Equal(IntegerParameter(4),23))><Sheet(Item,15227,0)/><Else/><If(Equal(IntegerParameter(4),24))><Sheet(Item,15231,0)/><Else/><If(Equal(IntegerParameter(4),25))><Sheet(Item,15232,0)/><Else/><If(Equal(IntegerParameter(4),27))><Sheet(Item,15233,0)/><Else/><If(Equal(IntegerParameter(4),28))><Sheet(Item,15234,0)/><Else/><If(Equal(IntegerParameter(4),30))><Sheet(Item,15228,0)/><Else/><If(Equal(IntegerParameter(4),31))><Sheet(Item,15230,0)/><Else/><If(Equal(IntegerParameter(4),32))><Sheet(Item,15229,0)/><Else/><If(Equal(IntegerParameter(4),33))><Sheet(Item,15235,0)/><Else/></If></If></If></If></If></If></If></If></If></If></If></If></If>を所持し
+ポート・ヘリックスのアルダシールに<Sheet(EventItem,2002022,0)/>と<Sheet(EventItem,2002026,0)/>を渡す"
 27,"TEXT_JOBREL400_02379_TODO_03",""
 28,"TEXT_JOBREL400_02379_TODO_04",""
 29,"TEXT_JOBREL400_02379_TODO_05",""
@@ -54,108 +59,240 @@ int32,str,str
 45,"TEXT_JOBREL400_02379_TODO_21",""
 46,"TEXT_JOBREL400_02379_TODO_22",""
 47,"TEXT_JOBREL400_02379_TODO_23",""
-48,"TEXT_JOBREL400_02379_SYSTEM_000_000","Please note that upon completing the quest “Future Proof,” you will receive an anima weapon for <If(Equal(PlayerParameter(68),10))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),14))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),5))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),26))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),33))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/>a <Sheet(ClassJob,PlayerParameter(68),0)/></If></If></If></If></If>."
-49,"TEXT_JOBREL400_02379_Q1_000_000","What will you do?"
-50,"TEXT_JOBREL400_02379_A1_000_000","Undertake this quest as another job."
-51,"TEXT_JOBREL400_02379_A2_000_000","Undertake this quest as <If(Equal(PlayerParameter(68),10))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),14))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),5))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),26))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),33))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/>a <Sheet(ClassJob,PlayerParameter(68),0)/></If></If></If></If></If>."
-52,"TEXT_JOBREL400_02379_SYSTEM_000_001","Be advised that once you have undertaken this quest, you may not proceed with a class or job that is different from when you accepted it."
-53,"TEXT_JOBREL400_02379_SYSTEM_000_002","Please ensure that you have changed to your desired job before speaking with Ardashir."
-54,"TEXT_JOBREL400_02379_SYSTEM_000_003","In order to receive the quest “Future Proof,” you must be equipped with <SheetEn(Item,2,IntegerParameter(1),1,1)/> and <SheetEn(Item,2,IntegerParameter(2),1,1)/>."
-55,"TEXT_JOBREL400_02379_SYSTEM_000_004","In order to receive the quest “Future Proof,” you must be equipped with <SheetEn(Item,2,IntegerParameter(1),1,1)/>."
-56,"TEXT_JOBREL400_02379_SYSTEM_000_005","You have already received <SheetEn(Item,2,IntegerParameter(1),1,1)/> and <SheetEn(Item,2,IntegerParameter(2),1,1)/>. Please change to a different job and speak with Ardashir again."
-57,"TEXT_JOBREL400_02379_SYSTEM_000_006","You have already received <SheetEn(Item,2,IntegerParameter(1),1,1)/>. Please change to a different job and speak with Ardashir again."
-58,"TEXT_JOBREL400_02379_ARDASHIR_000_001","Now that the anima can maintain a form seen even by those without your abilities, it is fair to say my research is all but complete. Our last task being to refine any abilities it has gained thus far."
-59,"TEXT_JOBREL400_02379_ARDASHIR_000_002","Once that is finished, I shall return to Radz–at–Han and make ready to present my findings. I daresay our work here shall forever change the study of arcane summoning as we know it."
-60,"TEXT_JOBREL400_02379_GEROLT_000_003","The hells are you on about, boy? Now I understand bein' excited, what with us finally seein' the anima an' all, but I think yer losin' sight o' what our work is all about."
-61,"TEXT_JOBREL400_02379_ARDASHIR_000_004","Preposterous! The goal of <Emphasis>my</Emphasis> work was to create a sentient being capable of independent thought, which could then serve to help others."
-62,"TEXT_JOBREL400_02379_GEROLT_000_005","That right? An' ye really think ye've accomplished that? Bollocks! Ain't no way somethin' what's grown that much, that fast, can be in any kind o' stable condition."
-63,"TEXT_JOBREL400_02379_GEROLT_000_006","We've poked an' prodded the damn thing more times than I'd care to count, an' by the grace o' Rhalgr we've somehow managed not to mess things up. But tell me this: what happens when we're not around when a new weapon needs smithin', hm?"
-64,"TEXT_JOBREL400_02379_GEROLT_000_007","I'll tell ye what─it'll grow too big for its aetherial britches and keel over. What the anima needs now is a body what'll handle it no matter how strong it gets. Until we can figure that, yer <Emphasis>work</Emphasis> amounts to naught but piss in a kettle if ye ask me."
-65,"TEXT_JOBREL400_02379_GEROLT_000_008","Oh, but what do I know. I'm just a know-nothin' sot with a hammer. No doubt a refined, scholarly lad such as yerself has already considered such complications."
-66,"TEXT_JOBREL400_02379_ARDASHIR_000_009","Hmph! The only thing more insufferable than a drunkard...is when he is right. I was so blinded by its radiance, I did not stop to consider the future, putting my own desires before the needs of the anima."
-67,"TEXT_JOBREL400_02379_GEROLT_000_010","Right, well, there'll be plenty o' time fer mopin' after we've finished, and I'm free from that witch Rowena. Fer now, we need to think up a way to give the anima a new, permanent home."
-68,"TEXT_JOBREL400_02379_GEROLT_000_011","The weapon holdin' it now should be fine fer the time bein'. You just keep an eye on the anima while we figure out the rest."
-69,"TEXT_JOBREL400_02379_ARDASHIR_000_012","Actually, I may already have a solution─albeit an interim one─thanks in part to Ulan and her studies."
-70,"TEXT_JOBREL400_02379_ARDASHIR_000_013","We were working on a potion of sorts to fortify the anima weapon, that it might abide further growth. The difficulty proved in our need for ceruleum. It would need to be distilled to serve our purposes, and we simply had not the means to do so."
-71,"TEXT_JOBREL400_02379_ARDASHIR_000_014","As fortune would have it, though, we caught word of a renowned distiller recently come to Idyllshire and immediately sought him out. After making our case he was all too happy to assist. Blamprest is his name. Would you pay him a visit and see how things are coming along?"
-72,"TEXT_JOBREL400_02379_ARDASHIR_000_015","There are other preparations to be made, of course, but Gerolt and I will see to them. Everything should be in order upon your return."
-73,"TEXT_JOBREL400_02379_GEROLT_000_016","Blamprest, eh? That gives me an idea..."
-74,"TEXT_JOBREL400_02379_ARDASHIR_000_017","Prepared to enhance yet another anima, are we? There is still much to be done before we can craft a new soulstone and weapon, mind you, but for now another potion should ensure its safety until we are ready."
-75,"TEXT_JOBREL400_02379_ARDASHIR_000_018","For that, we will need to commission more distilled ceruleum from Blamprest."
-76,"TEXT_JOBREL400_02379_ARDASHIR_000_019","I have already placed an order for another bottle, so while we see to things here, I would have you go and speak with him. There is naught we can do for the anima without it."
-77,"TEXT_JOBREL400_02379_GEROLT_000_020","Aye, and you tell Blamprest we'll settle fer nothin' less than his very best, ye hear?"
-78,"TEXT_JOBREL400_02379_BLAMPREST_000_030","Welcome, friend. What can I do for you?"
-79,"TEXT_JOBREL400_02379_BLAMPREST_000_031","An order for whom? Oh, yes. That scholarly fellow. Ardashir, was it? Work on his order is well underway."
-80,"TEXT_JOBREL400_02379_BLAMPREST_000_032","Working with ceruleum is no easy task, though. Distilling a substance so volatile demands a substantial concentration of aether, the only source potent enough being singing clusters. Quite the rarity, you know. And for an order like this, why, it would require fifty at the very least."
-81,"TEXT_JOBREL400_02379_BLAMPREST_000_033","Procuring such oddities is beyond my abilities, but I have enlisted the aid of two fine young mages to see the job done. If only the price of their services was not so steep..."
-82,"TEXT_JOBREL400_02379_AMPHELICE_000_034","(-Brusque Businesswoman-)There you are. We've brought what you asked for. I trust you're prepared to hold up your end of the deal?"
-83,"TEXT_JOBREL400_02379_BLAMPREST_000_035","My, what fortuitous timing! This <If(PlayerParameter(4))>young lady<Else/>gentleman</If> here was just telling me how <If(PlayerParameter(4))>she<Else/>he</If> would love nothing more than to offer you <If(PlayerParameter(4))>her<Else/>his</If> services in my stead."
-84,"TEXT_JOBREL400_02379_BLAMPREST_000_036","Ahem. These are the two lovely ladies I was telling you about, remember? The ones collecting the singing clusters you require?"
-85,"TEXT_JOBREL400_02379_AMPHELICE_000_037","Pleasure to make your acquaintance. My name is Amphelice, and this is my sister, Angelet."
-86,"TEXT_JOBREL400_02379_AMPHELICE_000_038","I will keep matters brief. Blamprest agreed to undertake certain...tasks, in exchange for our help. If you would serve in his place, we will compensate you with the clusters you seek. Agreed?"
-87,"TEXT_JOBREL400_02379_BLAMPREST_000_039","Splendid. Now that that's settled, I'll leave you to it. When you have what we need, come back and I shall see about distilling that elixir."
-88,"TEXT_JOBREL400_02379_BLAMPREST_000_040","Ah, that reminds me. A merchant in Rowena's employ deals in singing clusters. I believe it was Hismena? Their names all sound alike. At any rate, if you find their tasks to be too much trouble, you can always try striking a deal with her."
-89,"TEXT_JOBREL400_02379_BLAMPREST_000_050","Ah, well if it isn't my favorite customer. Come for another bottle of distilled ceruleum?"
-90,"TEXT_JOBREL400_02379_AMPHELICE_000_051","Then I shall be expecting more stories in exchange for our clusters."
-91,"TEXT_JOBREL400_02379_BLAMPREST_000_052","As before, you'll need fifty in total. Any less and I cannot guarantee the quality of my work. When you have done all they require of you, return to me with the clusters. Everything should be ready by then."
-92,"TEXT_JOBREL400_02379_BLAMPREST_000_053","Of course, if you feel their tasks are too demanding, you can always try haggling with Hismena. No doubt she would welcome the opportunity for more business."
-93,"TEXT_JOBREL400_02379_SYSTEM_000_010","A repeatable quest is now available from both Amphelice and Angelet."
-94,"TEXT_JOBREL400_02379_SYSTEM_000_011","By completing either of these repeatable quests, you will obtain singing clusters which can then be offered to Blamprest."
-95,"TEXT_JOBREL400_02379_SYSTEM_000_012","Singing clusters may also be purchased from Hismena at Rowena's Center for Cultural Promotion."
-96,"TEXT_JOBREL400_02379_BLAMPREST_000_060","Sorry, friend, but there's naught I can do without singing clusters."
-97,"TEXT_JOBREL400_02379_BLAMPREST_000_061","Whether you acquire them through Amphelice and her sister, or by bargaining with Hismena, I shall leave that decision to you."
-98,"TEXT_JOBREL400_02379_BLAMPREST_000_070","Judging by that smile I take it you have the clusters I require?"
-99,"TEXT_JOBREL400_02379_BLAMPREST_000_071","Yes, yes, this will do nicely. Wait here just a moment."
-100,"TEXT_JOBREL400_02379_BLAMPREST_000_072","There we are. One order of distilled ceruleum. Before you go, though, I must ask: if you work with Ardashir, you must also know Gerolt, correct? He placed an order for a bottle of my finest ale. Now that we're finished with Ardashir's commission, I'd like to take care of his, if that's all right with you."
-101,"TEXT_JOBREL400_02379_BLAMPREST_000_073","Haha, you needn't worry about compensation, friend. He paid in advance. I only ask that you take his package with you."
-102,"TEXT_JOBREL400_02379_BLAMPREST_000_074","It's been so long since he's come to see me. I was beginning to worry the moneylenders had finally done for him, or worse─he'd taken to a life of sobriety! In any event, I'm glad he seems back to his old self. Take care, and give them my regards."
-103,"TEXT_JOBREL400_02379_BLAMPREST_000_081","There we are. Ardashir will be quite pleased, as I'm sure Gerolt will be as well."
-104,"TEXT_JOBREL400_02379_BLAMPREST_000_082","Give them my best, and tell Gerolt I'm glad to see he's back to his old ways."
-105,"TEXT_JOBREL400_02379_BLAMPREST_000_083","I imagine I will be staying here in Idyllshire for quite some time. If Ardashir should need more ceruleum, or Gerolt his spirits, you know where to find me."
-106,"TEXT_JOBREL400_02379_ARDASHIR_000_090","Welcome back, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. We have accomplished much while you were away. In fact, I am quite close to a more permanent solution to our troubles."
-107,"TEXT_JOBREL400_02379_ARDASHIR_000_091","But first, let us do what we can to fortify the anima's current vessel. Might I have a look at the sword and shield in question? Oh, and the distilled ceruleum, of course."
-108,"TEXT_JOBREL400_02379_ARDASHIR_000_092","But first, let us do what we can to fortify the anima's current vessel. Might I have a look at the weapon in question? Oh, and the distilled ceruleum, of course."
-109,"TEXT_JOBREL400_02379_ARDASHIR_000_093","Right, then. Now to prepare the potion."
-110,"TEXT_JOBREL400_02379_ARDASHIR_100_093","...<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, why exactly did Blamprest prepare <Emphasis>two</Emphasis> bottles? Are they to be mixed together?"
-111,"TEXT_JOBREL400_02379_ARDASHIR_000_094","Gerolt ordered a bottle of ale? If he had money to spend, he would be carousing in some filthy tavern, not here working off his debts. The only way he could afford that would be..."
-112,"TEXT_JOBREL400_02379_ARDASHIR_000_095","Our funding! You selfish, beef-witted maltworm! You squandered our funds from Rowena on spirits!?"
-113,"TEXT_JOBREL400_02379_ARDASHIR_000_096","Aye, that I did. Consider it payment owed fer remindin' you about bein' selfish yerself, all that blitherin' about bein' done with the anima."
-114,"TEXT_JOBREL400_02379_ARDASHIR_000_097","Another bottle of ale!? By the gods, how am I to explain this to Rowena?"
-115,"TEXT_JOBREL400_02379_GEROLT_000_098","...Don't give me that look. Ye know I can't do me best work without me muse. Now hurry up with that potion. <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>'s weapon ain't gonna hammer itself."
-116,"TEXT_JOBREL400_02379_ARDASHIR_000_099","You truly are insufferable! When this is over you shall learn there are consequences for misspending others' money. Rowena's money."
-117,"TEXT_JOBREL400_02379_ARDASHIR_000_100","Honestly, Gerolt, why could you not learn to forge weapons like an ordinary man. A sober man..."
-118,"TEXT_JOBREL400_02379_ARDASHIR_000_101","<sigh> Calm yourself, Ardashir. There is work to be done."
-119,"TEXT_JOBREL400_02379_GEROLT_000_102","deleted"
-120,"TEXT_JOBREL400_02379_ARDASHIR_000_103","There, the potion is done. All that remains is applying it to the anima weapon."
-121,"TEXT_JOBREL400_02379_ARDASHIR_100_103","I leave the rest to you."
-122,"TEXT_JOBREL400_02379_GEROLT_000_104","A right fine piece o' work, if I do say so meself."
-123,"TEXT_JOBREL400_02379_GEROLT_000_105","A weapon made sharp with a brew o' pure ceruleum. Hm, I like the sound o' that─<SheetEn(Item,3,IntegerParameter(1),1,1)/>!"
-124,"TEXT_JOBREL400_02379_GEROLT_000_106","A sword an' shield made sharp with a brew o' pure ceruleum. Hm, I like the sound o' that─<SheetEn(Item,3,IntegerParameter(1),1,1)/> and <SheetEn(Item,3,IntegerParameter(2),1,1)/>!"
-125,"TEXT_JOBREL400_02379_BUKINOSEIREI_000_107","I feel a new strength welling within me. Does this mean, perhaps, I am reaching my full potential?"
-126,"TEXT_JOBREL400_02379_BUKINOSEIREI_000_108","I feel a new strength shines brightly within me. Could this mean, perhaps, I am reaching my full potential?"
-127,"TEXT_JOBREL400_02379_Q2_000_000","What will you say?"
-128,"TEXT_JOBREL400_02379_A2_000_001","You're almost there."
-129,"TEXT_JOBREL400_02379_A2_000_002","I think you still have room to improve."
-130,"TEXT_JOBREL400_02379_A2_000_003","..."
-131,"TEXT_JOBREL400_02379_BUKINOSEIREI_000_109","You think so? Truly? I shall do my best not to disappoint you."
-132,"TEXT_JOBREL400_02379_BUKINOSEIREI_000_110","You really think so? Then I must do all I can not to disappoint you."
-133,"TEXT_JOBREL400_02379_BUKINOSEIREI_000_111","Yes, of course. I shall redouble my efforts to someday meet your expectations."
-134,"TEXT_JOBREL400_02379_BUKINOSEIREI_000_112","Yes, of course. I was too hasty to hope for so much, so soon. I will do my best to meet your expectations."
-135,"TEXT_JOBREL400_02379_BUKINOSEIREI_000_113","I cannot read your thoughts, but I think your silence makes the answer quite clear."
-136,"TEXT_JOBREL400_02379_BUKINOSEIREI_000_114","I will become stronger, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Together we shall see what I am capable of."
-137,"TEXT_JOBREL400_02379_BUKINOSEIREI_000_115","Would that I could read your thoughts... Still, your silence tells me much."
-138,"TEXT_JOBREL400_02379_BUKINOSEIREI_000_116","I will become stronger, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Together we shall discover my true potential."
-139,"TEXT_JOBREL400_02379_ARDASHIR_000_117","'Tis good to see our work was a success. The anima seems stronger than before, yet its vessel remains sound."
-140,"TEXT_JOBREL400_02379_ARDASHIR_000_118","Ah, yes. Speaking of the vessel, I must tell you of our soon-to-be permanent solution to handling the anima's growth!"
-141,"TEXT_JOBREL400_02379_ARDASHIR_000_119","We will forge not just a new weapon, but a new soulstone to house its essence."
-142,"TEXT_JOBREL400_02379_ARDASHIR_000_120","In my quest to find a means to do so, I happened upon something quite interesting. Wait here a moment."
-143,"TEXT_JOBREL400_02379_PROCESSSYSTEM_000_121","<beep> <beep> Initializing synthesis protocols... Please insert materials."
-144,"TEXT_JOBREL400_02379_ARDASHIR_000_122","What do you think? This Allagan droid was no doubt used for work requiring precision beyond what any man is capable of. <Emphasis>Used</Emphasis> being the operative word. Try as I might, whenever I initiate its production sequence..."
-145,"TEXT_JOBREL400_02379_ARDASHIR_000_123","<beep> <beep> Internal error. Unable to process."
-146,"TEXT_JOBREL400_02379_ARDASHIR_000_124","<sigh> The system crashes..."
-147,"TEXT_JOBREL400_02379_ARDASHIR_100_124","It will take time, but mark my words: I shall repair this Allagan device."
-148,"TEXT_JOBREL400_02379_ARDASHIR_000_125","Once repaired, I am confident I can fashion a new soulstone for the anima to last a thousand lifetimes."
-149,"TEXT_JOBREL400_02379_ARDASHIR_100_125","And to my surprise, Gerolt has already taken the initiative to start work on a new weapon, one befitting the new heights to which our aetherial companion might climb. Rest assured we will contact you when preparations are complete."
-150,"TEXT_JOBREL400_02379_ARDASHIR_000_126","Until next time, friend."
-151,"TEXT_JOBREL400_02379_ARDASHIR_000_127","Another anima made safe. For now, at least. I look forward to the day it resides safely in its new vessel. I trust you will take good care of it until then."
-152,"TEXT_JOBREL400_02379_SYSTEM_000_020","Your anima weapon has been sharpened, serving to harness the burgeoning strength within!"
+48,"TEXT_JOBREL400_02379_SYSTEM_000_000","クエスト「人造精霊の未来」にて入手できる武器は、
+現在のジョブ「<If(LessThan(PlayerParameter(68),8))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(GreaterThan(PlayerParameter(68),18))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/></If></If>」のアニマウェポンとなります。
+「人造精霊の未来」を「<If(LessThan(PlayerParameter(68),8))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(GreaterThan(PlayerParameter(68),18))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/></If></If>」で受けますか？"
+49,"TEXT_JOBREL400_02379_Q1_000_000","<If(LessThan(PlayerParameter(68),8))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(GreaterThan(PlayerParameter(68),18))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/></If></If>のアニマウェポンを創造しますか？"
+50,"TEXT_JOBREL400_02379_A1_000_000","もう少し悩んでみる"
+51,"TEXT_JOBREL400_02379_A2_000_000","<If(LessThan(PlayerParameter(68),8))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(GreaterThan(PlayerParameter(68),18))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/></If></If>のアニマウェポンを創造する"
+52,"TEXT_JOBREL400_02379_SYSTEM_000_001","クエストを完了、あるいは破棄するまで、
+ほかのジョブで「人造精霊の未来」を受注できません。"
+53,"TEXT_JOBREL400_02379_SYSTEM_000_002","創造したいアニマウェポンに応じたジョブとなり、
+再度、アルダシールに声をかけてください。"
+54,"TEXT_JOBREL400_02379_SYSTEM_000_003","「<Sheet(Item,IntegerParameter(1),0)/>」および、
+「<Sheet(Item,IntegerParameter(2),0)/>」を装備していないと、
+クエスト「人造精霊の未来」を受注することができません。"
+55,"TEXT_JOBREL400_02379_SYSTEM_000_004","「<Sheet(Item,IntegerParameter(1),0)/>」を、
+装備していないと、
+クエスト「人造精霊の未来」を受注することができません。"
+56,"TEXT_JOBREL400_02379_SYSTEM_000_005","「<Sheet(Item,IntegerParameter(1),0)/>」および、
+「<Sheet(Item,IntegerParameter(2),0)/>」はすでに取得済みです。
+ほかのジョブとなり、再度アルダシールに話しかけてください。"
+57,"TEXT_JOBREL400_02379_SYSTEM_000_006","「<Sheet(Item,IntegerParameter(1),0)/>」はすでに取得済みです。
+ほかのジョブとなり、再度アルダシールに話しかけてください。"
+58,"TEXT_JOBREL400_02379_ARDASHIR_000_001","人造精霊の新たな能力が開花した今……やることはひとつです！
+能力を成長させきり、完璧な魔法生物へと仕上げること……！
+きっとこれが、研究の最後の試練となるでしょう！"
+59,"TEXT_JOBREL400_02379_ARDASHIR_000_002","そして、研究を終えた暁には、
+俺は華々しい研究成果と共にラザハンへと戻り、
+人造精霊に関する論文を発表するのです！"
+60,"TEXT_JOBREL400_02379_GEROLT_000_003","何をナメたこと抜かしてやがるンだ？
+人造精霊が、目に見えるようになって浮かれる気持ちはわかるが、
+研究の目的を見失うほどだとは、呆れたもンだぜ。"
+61,"TEXT_JOBREL400_02379_ARDASHIR_000_004","……そ、そんなことありません！
+俺たちの研究目的は、
+自ら思考し、使い手を助ける人造精霊を創り上げることです！"
+62,"TEXT_JOBREL400_02379_GEROLT_000_005","……なら、この程度で研究を終えていいはずがねェだろ！
+急速な成長を重ねてきたことで、人造精霊は不安定な状態だ。"
+63,"TEXT_JOBREL400_02379_GEROLT_000_006","これまでは、オレたちが器となる武器とソウルストーンを、
+事あるごとに調整してきたから、辛うじて生き長らえてきた。
+だが、ここで手を離したらどうなる？"
+64,"TEXT_JOBREL400_02379_GEROLT_000_007","人造精霊は成長した魂の重みに耐えきれず、死んじまうだろうよ。
+そうならないためにも、オレたちの調整を必要としないような、
+永続性のあるモノに仕上げねぇと、研究が成功したとは言えン！"
+65,"TEXT_JOBREL400_02379_GEROLT_000_008","こんな事、オレに言われずともわかるハズだろうが！！
+研究者なら、もうちっと冷静に人造精霊の将来を考えろ！"
+66,"TEXT_JOBREL400_02379_ARDASHIR_000_009","くっ……腹立たしいほどに正論を……。
+確かに俺は、目先のことばかりに囚われて、
+人造精霊の将来……人格や自由まで、考えていなかった。"
+67,"TEXT_JOBREL400_02379_GEROLT_000_010","落ち込むのは、オレ様を仕事から解放してからにしやがれ！
+クソガキ！　今この瞬間から天才ゲロルト様と、
+人造精霊を永続させる方法を考えるぞ！"
+68,"TEXT_JOBREL400_02379_GEROLT_000_011","そういうこって、永続させる方法のことはオレたちに任せろや。
+お前は、その間に緩やかに人造精霊を成長させておけ。
+まだ、その武器でも耐えられるはずだからなァ。"
+69,"TEXT_JOBREL400_02379_ARDASHIR_000_012","では、俺が考えていた手法が役に立ちそうですね！
+……ウランさんと共同で、成長した人造精霊に相応しい、
+新しい霊薬を開発したんです。"
+70,"TEXT_JOBREL400_02379_ARDASHIR_000_013","ただ……霊薬を作る過程で起こる問題があります。
+それは、主材料である「<Sheet(EventItem,2002022,0)/>」の蒸留が、
+ひどく難しいことです。"
+71,"TEXT_JOBREL400_02379_ARDASHIR_000_014","そこで、イディルシャイアにいる、
+「ブランプレ」という凄腕蒸留師に、製作を依頼しました。
+彼を訪ねて「<Sheet(EventItem,2002022,0)/>」を入手していただけないでしょうか？"
+72,"TEXT_JOBREL400_02379_ARDASHIR_000_015","俺は、ゲロルトさんと研究を進めつつ、
+その他の材料を集めて、霊薬調合の準備をしておきます。
+それでは、よろしくお願いしますね！"
+73,"TEXT_JOBREL400_02379_GEROLT_000_016","ブランプレ……だァ？
+ほう、そいつァ良い名前を聞いたぜ……。"
+74,"TEXT_JOBREL400_02379_ARDASHIR_000_017","では、今回も新たな能力が目覚めた人造精霊に、
+例の霊薬を使って、成長を促進させましょう。"
+75,"TEXT_JOBREL400_02379_ARDASHIR_000_018","前回と同じく「<Sheet(EventItem,2002022,0)/>」が必要になりますから、
+イディルシャイアの「ブランプレ」さんから調達願います。
+それでは、よろしくお願いしますね。"
+76,"TEXT_JOBREL400_02379_ARDASHIR_000_019","俺は、あなたの帰りを待ちながら、
+次の研究準備と、他の材料を調合しています！"
+77,"TEXT_JOBREL400_02379_GEROLT_000_020","オレ様にとっての霊薬……とびきりの蒸留酒も忘れずに頼むぜ？"
+78,"TEXT_JOBREL400_02379_BLAMPREST_000_030","おや、いらっしゃい。
+何をお求めかな？"
+79,"TEXT_JOBREL400_02379_BLAMPREST_000_031","あぁ、アルダシールくんからの注文だね。
+すでに「<Sheet(EventItem,2002022,0)/>」の蒸留なら、準備を進めているよ。"
+80,"TEXT_JOBREL400_02379_BLAMPREST_000_032","だが、<Sheet(EventItem,2002022,0)/>……液化したエーテルを蒸留するには、
+材料エーテル結晶、「<Sheet(Item,16064,0)/>」が大量に必要だ。
+そうだな……少なくとも50個はいるんだよ。"
+81,"TEXT_JOBREL400_02379_BLAMPREST_000_033","そこで、知り合いの魔道士姉妹に、
+クラスターの活性化を依頼したんだが、こいつらが難物でねぇ。
+対価として、無理難題を要求されてしまったんだ。"
+82,"TEXT_JOBREL400_02379_AMPHELICE_000_034","ブランプレ、例のブツは用意できたわよ。
+で、私たちの要求に応える気にはなったのかしら？"
+83,"TEXT_JOBREL400_02379_BLAMPREST_000_035","おっと、ちょうど良いところに来てくれたね。
+この冒険者さんが、君たちの要求に応じてくれるそうだよ。"
+84,"TEXT_JOBREL400_02379_BLAMPREST_000_036","冒険者さん、彼女たちが例の魔道士姉妹さ。
+お前さんが求める<Sheet(EventItem,2002022,0)/>を作るには、<Sheet(Item,16064,0)/>が必要！
+だから、ちょちょいと彼女たちの要望に応えてやってくれよ。"
+85,"TEXT_JOBREL400_02379_AMPHELICE_000_037","初めまして、アンフェリスよ。
+こっちは、妹のアンジェレト。"
+86,"TEXT_JOBREL400_02379_AMPHELICE_000_038","話は簡単……<Sheet(Item,16064,0)/>がほしいなら、
+私やアンジェレトのお願いを聞いてちょうだい。
+叶えてくれるなら、対価分の<Sheet(Item,16064,0)/>を払ってあげる。"
+87,"TEXT_JOBREL400_02379_BLAMPREST_000_039","よし、じゃあ話は決まりだね！
+「<Sheet(Item,16064,0)/>」が50個集まったら、声をかけてくれ。
+「<Sheet(EventItem,2002022,0)/>」をしっかりと調合しよう。"
+88,"TEXT_JOBREL400_02379_BLAMPREST_000_040","あぁ、そういえば……<Sheet(Item,16064,0)/>は、
+ロウェナ商会のヒスメナさんにも卸しているらしいよ。
+彼女からも取引できると思うから、利用を検討してみてね。"
+89,"TEXT_JOBREL400_02379_BLAMPREST_000_050","やぁ、いらっしゃい。
+今回も「<Sheet(EventItem,2002022,0)/>」をお求めかな？"
+90,"TEXT_JOBREL400_02379_AMPHELICE_000_051","だったら、また私たちの出番ね。"
+91,"TEXT_JOBREL400_02379_BLAMPREST_000_052","冒険者さんは<Sheet(Item,16064,0)/>を、
+アンフェリスかアンジェレトから入手してくれ。
+50個持ってきてくれたなら、「<Sheet(EventItem,2002022,0)/>」を作ろう。"
+92,"TEXT_JOBREL400_02379_BLAMPREST_000_053","それから、もうわかってると思うけど、
+ロウェナ商会のヒスメナさんからも入手できるはずだよ。
+彼女にも声をかけてみるといい。"
+93,"TEXT_JOBREL400_02379_SYSTEM_000_010","アンジェレトとアンフェリスから、
+クエストを受注できるようになりました。"
+94,"TEXT_JOBREL400_02379_SYSTEM_000_011","彼女たちのクエストをコンプリートすることで、
+<Sheet(Item,16064,0)/>を入手することができます。"
+95,"TEXT_JOBREL400_02379_SYSTEM_000_012","また、ロウェナ商会のヒスメナからも、
+<Sheet(Item,16064,0)/>を入手することが可能です。"
+96,"TEXT_JOBREL400_02379_BLAMPREST_000_060","まずは、<Sheet(Item,16064,0)/>を50個集めてきてくれ。
+そうしたら、「<Sheet(EventItem,2002022,0)/>」を蒸留してあげるよ。"
+97,"TEXT_JOBREL400_02379_BLAMPREST_000_061","ちなみに「<Sheet(Item,16064,0)/>」が欲しいなら、
+アンフェリスとアンジェレトに声をかけるといい。
+それから、ヒスメナさんからも入手できるはずだよ。"
+98,"TEXT_JOBREL400_02379_BLAMPREST_000_070","「<Sheet(Item,16064,0)/>」は、50個集まったかい？"
+99,"TEXT_JOBREL400_02379_BLAMPREST_000_071","うん、これだけあれば十分だ。
+さっそく、<Sheet(EventItem,2002022,0)/>を蒸留してくるから、
+ちょっと待っててくれよな。"
+100,"TEXT_JOBREL400_02379_BLAMPREST_000_072","さぁできたぞ、受け取ってくれ。
+それと……お前さんはゲロルトさんの共同研究者なんだろ？
+追加注文を受けていた「<Sheet(EventItem,2002026,0)/>」を渡すから、届けてくれ。"
+101,"TEXT_JOBREL400_02379_BLAMPREST_000_073","あぁ、お代はいらないよ。
+すでにゲロルトさんから支払ってもらっているからね。"
+102,"TEXT_JOBREL400_02379_BLAMPREST_000_074","しばらく彼から注文が入ってなかったからね。
+借金取りに消されちゃいないかと内心ヒヤヒヤしていたから、
+少し安心したよ……じゃあまた、どうぞご贔屓に！"
+103,"TEXT_JOBREL400_02379_BLAMPREST_000_081","さあ、「<Sheet(EventItem,2002022,0)/>」が完成したよ。
+ゲロルトさんに依頼された、
+「<Sheet(EventItem,2002026,0)/>」と合わせて受け取ってくれ。"
+104,"TEXT_JOBREL400_02379_BLAMPREST_000_082","じゃあ、ゲロルトさんにもよろしくね。
+また、どうぞご贔屓に！"
+105,"TEXT_JOBREL400_02379_BLAMPREST_000_083","<Sheet(EventItem,2002022,0)/>と<Sheet(EventItem,2002026,0)/>をアルダシールくんに渡してあげてくれ。
+また、何か必要になったらどうぞご贔屓に！"
+106,"TEXT_JOBREL400_02379_ARDASHIR_000_090","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん、おかえりなさい。
+あなたを待っている間に、こちらも研究の進展がありました！
+もちろん、霊薬の調合準備も整っていますよ。"
+107,"TEXT_JOBREL400_02379_ARDASHIR_000_091","「<Sheet(Item,IntegerParameter(1),0)/>」、「<Sheet(Item,IntegerParameter(2),0)/>」と、
+ブランプレさんから受け取ったものを渡してもらえますか？"
+108,"TEXT_JOBREL400_02379_ARDASHIR_000_092","「<Sheet(Item,IntegerParameter(1),0)/>」と、
+ブランプレさんから受け取ったものを渡してもらえますか？"
+109,"TEXT_JOBREL400_02379_ARDASHIR_000_093","ありがとうございます！
+これで、霊薬が作れます。"
+110,"TEXT_JOBREL400_02379_ARDASHIR_100_093","……なんだこのビン？
+なにか、他に頼んでいたものがあったでしょうか。"
+111,"TEXT_JOBREL400_02379_ARDASHIR_000_094","……ゲロルトさんが、追加で頼んだ蒸留酒ですって？
+なんで借金まみれのアンタが、こんなもの買えるんですか……。"
+112,"TEXT_JOBREL400_02379_ARDASHIR_000_095","……あ！！
+ロウェナさんから貰った研究費使い込んだなクソオヤジ！！"
+113,"TEXT_JOBREL400_02379_ARDASHIR_000_096","なぁに、お前に説教しただろう？
+その授業料を支払ってもらったまでよ！"
+114,"TEXT_JOBREL400_02379_ARDASHIR_000_097","……って、また<Sheet(EventItem,2002026,0)/>があるじゃないか！！
+俺からの説教をもう忘れてしまったのですかねぇ！！"
+115,"TEXT_JOBREL400_02379_GEROLT_000_098","……いいからちゃっちゃと霊薬を作りやがれ！
+この<Sheet(EventItem,2002026,0)/>を呷って、
+ノリにのったオレ様が人造精霊に打ちこんでやっからよォ！"
+116,"TEXT_JOBREL400_02379_ARDASHIR_000_099","もう、アンタって人は本当にどうしようもない人だ！
+今度は、俺からの説教を受けてもらいますよ！！！"
+117,"TEXT_JOBREL400_02379_ARDASHIR_000_100","もう、本当にアンタって人は……。
+あとで、もう一度俺からの説教を受けてもらいますよ！！"
+118,"TEXT_JOBREL400_02379_ARDASHIR_000_101","…………では、気を取り直して、
+霊薬の調合を開始します！"
+119,"TEXT_JOBREL400_02379_GEROLT_000_102","★削除予定★"
+120,"TEXT_JOBREL400_02379_ARDASHIR_000_103","よしっ、霊薬が完成したぞ！
+さあ、あとはこの霊薬を人造精霊に与えましょう。"
+121,"TEXT_JOBREL400_02379_ARDASHIR_100_103","ゲロルトさん、よろしくお願いします。"
+122,"TEXT_JOBREL400_02379_GEROLT_000_104","完成したぜ……！！
+見ろ、霊薬によってエーテルを得て成長を遂げた、
+人造精霊の姿をな！"
+123,"TEXT_JOBREL400_02379_GEROLT_000_105","名付けて、「<Sheet(Item,IntegerParameter(1),0)/>」！"
+124,"TEXT_JOBREL400_02379_GEROLT_000_106","名付けて「<Sheet(Item,IntegerParameter(1),0)/>」……
+そして、「<Sheet(Item,IntegerParameter(2),0)/>」！"
+125,"TEXT_JOBREL400_02379_BUKINOSEIREI_000_107","主……。
+俺は今、力が流れ込むのを感じている……。
+また新たに、成長できているのか？"
+126,"TEXT_JOBREL400_02379_BUKINOSEIREI_000_108","……主！
+私、また輝いた気がします……。
+どうでしょう、あなたにふさわしくなれましたか……？"
+127,"TEXT_JOBREL400_02379_Q2_000_000","どう答える？"
+128,"TEXT_JOBREL400_02379_A2_000_001","もちろんだよ"
+129,"TEXT_JOBREL400_02379_A2_000_002","まだまだだ"
+130,"TEXT_JOBREL400_02379_A2_000_003","……"
+131,"TEXT_JOBREL400_02379_BUKINOSEIREI_000_109","ありがとう……主。
+主が気に入ったなら、それで十分だ。"
+132,"TEXT_JOBREL400_02379_BUKINOSEIREI_000_110","ありがとう、主。
+あなたが気に入ったなら本望です。
+……ッフフ。"
+133,"TEXT_JOBREL400_02379_BUKINOSEIREI_000_111","……そうだな。
+主のために、つけられる力……。
+きっと、まだある。"
+134,"TEXT_JOBREL400_02379_BUKINOSEIREI_000_112","……そうですね。
+まだ喜ぶには早すぎました……。
+主のために、もっと精進します。"
+135,"TEXT_JOBREL400_02379_BUKINOSEIREI_000_113","なっ、なにか言ってくれ。
+主の気持ちを読み取れるほど、まだ力がないんだ。"
+136,"TEXT_JOBREL400_02379_BUKINOSEIREI_000_114","……まだまだ、精進が必要だな。
+共に、頑張ってくれるか……？"
+137,"TEXT_JOBREL400_02379_BUKINOSEIREI_000_115","なっ、なにか言ってください……！
+言葉がなければ、私には主の気持ちがわからないのです……。"
+138,"TEXT_JOBREL400_02379_BUKINOSEIREI_000_116","まだまだ、精進が必要ですね……！
+共に、歩んでください……。"
+139,"TEXT_JOBREL400_02379_ARDASHIR_000_117","どうやら人造精霊は、また一段と成長できたようですね。"
+140,"TEXT_JOBREL400_02379_ARDASHIR_000_118","……そうだ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さんに、
+報告があるのです！"
+141,"TEXT_JOBREL400_02379_ARDASHIR_000_119","人造精霊の永続性を担保するために、
+新たなソウルストーンを作り、移植することに決めました！"
+142,"TEXT_JOBREL400_02379_ARDASHIR_000_120","その設計のため、古代の知識を探っていたところ、
+面白い子を見つけましてね……。"
+143,"TEXT_JOBREL400_02379_PROCESSSYSTEM_000_121","ザ…ザザ…………加工システムを起動……。
+資材をセットし、加工方法を選択してください。"
+144,"TEXT_JOBREL400_02379_ARDASHIR_000_122","どうもこの子は、人の手では不可能な精密加工を、
+こなしてくれる優れモノらしいのです。
+ところが故障しているのか、加工方法を選んだ途端……。"
+145,"TEXT_JOBREL400_02379_ARDASHIR_000_123","ザ……圧潰シス……テム……。
+ビーガガガガ……。"
+146,"TEXT_JOBREL400_02379_ARDASHIR_000_124","……と動かなくなってしまいます。
+俺は、新ソウルストーンを完璧なものへと仕上げるために、
+加工システムを利用して作業をしようと考えています。"
+147,"TEXT_JOBREL400_02379_ARDASHIR_100_124","そのためにまずは、
+この加工システムを修復しなければなりません。"
+148,"TEXT_JOBREL400_02379_ARDASHIR_000_125","なので、加工システムの修理が完了したら、
+新ソウルストーンの製作に移りましょう。"
+149,"TEXT_JOBREL400_02379_ARDASHIR_100_125","……それからゲロルトさんは、新ソウルストーンに合わせて、
+人造精霊の新たな身体の設計を進めているそうです。
+こちらも設計が完了次第、先へ進みましょう。"
+150,"TEXT_JOBREL400_02379_ARDASHIR_000_126","それまでは、人造精霊のことをよろしくお願いします！"
+151,"TEXT_JOBREL400_02379_ARDASHIR_000_127","無事に人造精霊が成長して、安心しました……。
+引き続き、人造精霊のことをよろしくお願いします！"
+152,"TEXT_JOBREL400_02379_SYSTEM_000_020","「新たなアニマウェポン」は強化され、
+「アニマウェポン・シャープ」となりました！"

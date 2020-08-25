@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDA610_02536_SEQ_00","Alisaie is ready to depart Ala Ghiri when you are."
+0,"TEXT_STMBDA610_02536_SEQ_00","アラギリのアリゼーは、さっそく任務を開始したいようだ。"
 1,"TEXT_STMBDA610_02536_SEQ_01",""
 2,"TEXT_STMBDA610_02536_SEQ_02",""
 3,"TEXT_STMBDA610_02536_SEQ_03",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_STMBDA610_02536_SEQ_21",""
 22,"TEXT_STMBDA610_02536_SEQ_22",""
 23,"TEXT_STMBDA610_02536_SEQ_23",""
-24,"TEXT_STMBDA610_02536_TODO_00","Patrol Wightrock for imperial forces."
-25,"TEXT_STMBDA610_02536_TODO_01","Rendezvous with Alisaie."
+24,"TEXT_STMBDA610_02536_TODO_00","<Sheet(EObj,2008202,0)/>で見渡し帝国兵が現れたら討伐"
+25,"TEXT_STMBDA610_02536_TODO_01","アリゼーと合流"
 26,"TEXT_STMBDA610_02536_TODO_02",""
 27,"TEXT_STMBDA610_02536_TODO_03",""
 28,"TEXT_STMBDA610_02536_TODO_04",""
@@ -49,19 +49,35 @@ int32,str,str
 45,"TEXT_STMBDA610_02536_TODO_21",""
 46,"TEXT_STMBDA610_02536_TODO_22",""
 47,"TEXT_STMBDA610_02536_TODO_23",""
-48,"TEXT_STMBDA610_02536_ALISAIE_000_001","We have a fair bit of ground to cover, so we should split up. If you come across any imperial soldiers, you know what to do."
-49,"TEXT_STMBDA610_02536_ALISAIE_000_002","Oh, and so you know─I sent word to Arenvald's squadron. They are already searching other nearby areas, so we have allies in the event we encounter anything beyond our means."
-50,"TEXT_STMBDA610_02536_BALLOON_000_010","Enemy forces sighted!"
-51,"TEXT_STMBDA610_02536_BALLOON_000_015","Attack! Attack!"
-52,"TEXT_STMBDA610_02536_ALISAIE_000_020","Ah, give me a moment, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
-53,"TEXT_STMBDA610_02536_ALISAIE_200_020","Say that again, if you would.
-...Hmm. No, maintain your distance for now."
-54,"TEXT_STMBDA610_02536_ALISAIE_100_020","...Understood. Keep me apprised of any developments."
-55,"TEXT_STMBDA610_02536_ALISAIE_000_021","That was Arenvald. The pair that was spying on us in the Fringes has followed us here..."
-56,"TEXT_STMBDA610_02536_ALISAIE_000_022","What about you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>? Any trouble?"
-57,"TEXT_STMBDA610_02536_ALISAIE_000_023","...And there I was thinking we might be due for some peace and quiet. Glad to hear you dealt with them."
-58,"TEXT_STMBDA610_02536_ALISAIE_000_024","I hope the assault on Specula Imperatoris is going well..."
-59,"TEXT_STMBDA610_02536_ALISAIE_000_025","By the Twelve, did you see that!? The main tower just collapsed!"
-60,"TEXT_STMBDA610_02536_ALISAIE_000_026","You heard it too, didn't you? It must have been the cannon at Castrum Abania. But that was an imperial installation, and their troops were still─"
-61,"TEXT_STMBDA610_02536_ALISAIE_000_027","Dammit, no one's responding! I don't know if the shell is being jammed or..."
-62,"TEXT_STMBDA610_02536_ALISAIE_000_028","We have to go right now! They need our help!"
+48,"TEXT_STMBDA610_02536_ALISAIE_000_001","本隊の進軍ルートから外れた場所を、
+手分けして回って、帝国兵を発見次第、排除していきましょう。"
+49,"TEXT_STMBDA610_02536_ALISAIE_000_002","アレンヴァルドたちにも、私から担当地域を伝えておくから、
+あなたは、地図に印を付けた範囲の索敵をお願い。
+終わったら合流ポイントで落ち合いましょう。"
+50,"TEXT_STMBDA610_02536_BALLOON_000_010","敵発見！
+排除する！"
+51,"TEXT_STMBDA610_02536_BALLOON_000_015","攻撃開始ッ！"
+52,"TEXT_STMBDA610_02536_ALISAIE_000_020","あっ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、ちょっと待って……。"
+53,"TEXT_STMBDA610_02536_ALISAIE_200_020","ううん、なんでもないわ、アレンヴァルド、
+続けてちょうだい……。"
+54,"TEXT_STMBDA610_02536_ALISAIE_100_020","…………なるほど、それじゃあ、あなたたちは、
+そいつらの追跡をお願い……。
+くれぐれも気を付けてね。"
+55,"TEXT_STMBDA610_02536_ALISAIE_000_021","ごめんなさい、アレンヴァルドからリンクパール通信が入ったのよ。
+辺境地帯で目撃されていた、二人組の不審人物らしき連中を、
+発見したらしくて……追撃に向かってもらったわ。"
+56,"TEXT_STMBDA610_02536_ALISAIE_000_022","それで……<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>の方は、
+どうだったの？"
+57,"TEXT_STMBDA610_02536_ALISAIE_000_023","やはり、少数の帝国軍部隊がいたのね。
+こちらも数名の敵兵と交戦して排除したわ。"
+58,"TEXT_STMBDA610_02536_ALISAIE_000_024","今頃は、本隊もスペキュラに取り付いている頃でしょうね。
+あっちの戦いも順調に進んでいれば、いいのだけれど……。"
+59,"TEXT_STMBDA610_02536_ALISAIE_000_025","なっ……！！
+スペキュラ・インペラトリスのメインタワーが崩壊した！？"
+60,"TEXT_STMBDA610_02536_ALISAIE_000_026","直前に砲撃音が聞こえたけれど……
+まさか、帝国軍は大勢の友軍がいるスペキュラごと、
+カストルム・アバニアのカノン砲で攻撃したというの！？"
+61,"TEXT_STMBDA610_02536_ALISAIE_000_027","…………ダメ、リンクパール通信も繋がらない！"
+62,"TEXT_STMBDA610_02536_ALISAIE_000_028","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、私たちもスペキュラに向かいましょう。
+本隊が……アルフィノやリセたちが、
+どうなったのかを確認しないと！"

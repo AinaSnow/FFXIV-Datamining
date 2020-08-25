@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBFST071_00221_SEQ_00","Qina Lyehga, the Adventurers' Guild representative for local levequests at the Hawthorne Hut, is seeking an adventurer to undertake guildleves."
-1,"TEXT_SUBFST071_00221_SEQ_01","Before setting you loose on the local levequests, Qina Lyehga requires that you demonstrate your capabilities. Complete her trial guildleve and prove yourself up to the task."
-2,"TEXT_SUBFST071_00221_SEQ_02","You have successfully completed the trial guildleve. Report to Qina Lyehga at the Hawthorne Hut."
-3,"TEXT_SUBFST071_00221_SEQ_03","Her trial guildleve successfully discharged, Qina Lyehga is satisfied that you are fit for service. As such, you are now entitled to accept other guildleves from the Adventurers' Guild representative at the Hawthorne Hut."
+0,"TEXT_SUBFST071_00221_SEQ_00","ホウソーン家の山塞のギルドリーヴ発行窓口、キナ・リエーガは、ギルドリーヴを引き受ける冒険者を探しているようだ。"
+1,"TEXT_SUBFST071_00221_SEQ_01","キナ・リエーガからギルドリーヴを受注するためには、依頼を遂行できる実力があると認めてもらわねばならない。まずは、ギルドリーヴ『誘導任務：迷いシルフの護送』を攻略しよう。"
+2,"TEXT_SUBFST071_00221_SEQ_02","無事、キナ・リエーガから引き受けたギルドリーヴを遂行することができた。「ホウソーン家の山塞」の「キナ・リエーガ」に報告しよう。"
+3,"TEXT_SUBFST071_00221_SEQ_03","キナ・リエーガは、依頼を遂行した冒険者の実力を認めたようだ。今後、ホウソーン家の山塞周辺の依頼を、彼女から引き受けることができる。キナ・リエーガの期待に応えられるよう、積極的にギルドリーヴを引き受けていこう。"
 4,"TEXT_SUBFST071_00221_SEQ_04",""
 5,"TEXT_SUBFST071_00221_SEQ_05",""
 6,"TEXT_SUBFST071_00221_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_SUBFST071_00221_SEQ_21",""
 22,"TEXT_SUBFST071_00221_SEQ_22",""
 23,"TEXT_SUBFST071_00221_SEQ_23",""
-24,"TEXT_SUBFST071_00221_TODO_00","Complete the trial guildleve assigned to you by Qina Lyehga."
-25,"TEXT_SUBFST071_00221_TODO_01","Report to Qina Lyehga at the Hawthorne Hut."
+24,"TEXT_SUBFST071_00221_TODO_00","『誘導任務：迷いシルフの護送』を攻略"
+25,"TEXT_SUBFST071_00221_TODO_01","キナ・リエーガに報告"
 26,"TEXT_SUBFST071_00221_TODO_02",""
 27,"TEXT_SUBFST071_00221_TODO_03",""
 28,"TEXT_SUBFST071_00221_TODO_04",""
@@ -49,15 +49,29 @@ int32,str,str
 45,"TEXT_SUBFST071_00221_TODO_21",""
 46,"TEXT_SUBFST071_00221_TODO_22",""
 47,"TEXT_SUBFST071_00221_TODO_23",""
-48,"TEXT_SUBFST071_00221_QINALYEHGA_000_1","Hail, adventurer. I am Qina Lyehga, a guildleve representative for the Adventurers' Guild."
-49,"TEXT_SUBFST071_00221_QINALYEHGA_000_2","If it is work you seek, the good folk who reside in the vicinity of the Hawthorne Hut have entrusted me with a multitude of tasks that I am eager to assign to stalwart heroes."
-50,"TEXT_SUBFST071_00221_QINALYEHGA_000_3","<Emphasis>Stalwart</Emphasis> ones, I say again. Many of these levequests are not for the faint of heart or frail of body. Before I send you marching into the wilderness, I must see what manner of adventurer has arrived upon my doorstep, so to speak."
-51,"TEXT_SUBFST071_00221_QINALYEHGA_000_4","Let's start you on a trial guildleve, shall we? How does this one suit you?"
-52,"TEXT_SUBFST071_00221_QINALYEHGA_000_5","Excellent. You need merely <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>beckon<UIGlow>01</UIGlow><UIForeground>01</UIForeground> to the sylph, to help lead her to her destination."
-53,"TEXT_SUBFST071_00221_SYSTEM_000_6","Use the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>beckon<UIGlow>01</UIGlow><UIForeground>01</UIForeground> emote to lead the sylph safely to the destination. You may find it convenient to add the emote to your hotbar before beginning the guildleve."
-54,"TEXT_SUBFST071_00221_QINALYEHGA_000_10","Please begin the levequest once you are ready."
-55,"TEXT_SUBFST071_00221_QINALYEHGA_000_15","Completed all that needs completing, have we? Then only one step remains: to collect your reward!"
-56,"TEXT_SUBFST071_00221_QINALYEHGA_000_20","You've begun the trial guildleve, then? I wish you fortune in your task."
-57,"TEXT_SUBFST071_00221_QINALYEHGA_000_25","Such passable diligence and general competence are exactly the qualities I admire most."
-58,"TEXT_SUBFST071_00221_QINALYEHGA_000_26","Now that I am satisfied that you possess the necessary level of skill, feel free to peruse the guildleves I have available. I look forward to hearing of your future exploits!"
-59,"TEXT_SUBFST071_00221_QINALYEHGA_000_30","I wish you fortune in your task."
+48,"TEXT_SUBFST071_00221_QINALYEHGA_000_1","仕事をお探しですか？
+私はキナ・リエーガ。冒険者ギルドの一員です。"
+49,"TEXT_SUBFST071_00221_QINALYEHGA_000_2","こちらでは、魔物討伐や物資の調達など
+「ホウソーン家の山塞」周辺から寄せられた依頼を
+ご紹介しております。"
+50,"TEXT_SUBFST071_00221_QINALYEHGA_000_3","ただし……危険を伴う内容のものも多いので、
+本格的にお仕事を依頼する前に、あなたの実力を
+確かめさせていただきたいのです。"
+51,"TEXT_SUBFST071_00221_QINALYEHGA_000_4","私が取り扱っている依頼をひとつお見せします。
+まずは、このリーヴをこなしていただけますか？"
+52,"TEXT_SUBFST071_00221_QINALYEHGA_000_5","ありがとうございます。
+シルフは「手まねき」してあげれば
+誘導することができますよ。よろしくお願いします。"
+53,"TEXT_SUBFST071_00221_SYSTEM_000_6","エモート「手まねき」を使うことで誘導できます。
+前もってホットバーに入れておくと、
+誘導操作が便利になります。"
+54,"TEXT_SUBFST071_00221_QINALYEHGA_000_10","準備が整いましたら、ギルドリーヴを開始してください。
+依頼の遂行、よろしくお願いします。"
+55,"TEXT_SUBFST071_00221_QINALYEHGA_000_15","依頼したリーヴを達成していただけたようですね。
+では、報酬をお受け取りください。"
+56,"TEXT_SUBFST071_00221_QINALYEHGA_000_20","ギルドリーヴを開始されたようですね。
+依頼遂行、頑張ってください。"
+57,"TEXT_SUBFST071_00221_QINALYEHGA_000_25","あなたの働きぶり、素晴らしいものでした。
+これなら、安心して仕事をお任せできそうです。"
+58,"TEXT_SUBFST071_00221_QINALYEHGA_000_26","その腕っ節、頼りにしていますよ！"
+59,"TEXT_SUBFST071_00221_QINALYEHGA_000_30","依頼遂行、頑張ってください。"

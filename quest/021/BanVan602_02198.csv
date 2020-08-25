@@ -1,14 +1,17 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANVAN602_02198_SEQ_00","Muna Vanu would have you assist his tribesmen.
-※The difficulty of this quest will be synced to your current level."
-1,"TEXT_BANVAN602_02198_SEQ_01","Muna Vanu tells you that Linu Vanu has been seeking you, with an aim to enlisting your assistance. Speak with him and find out what he needs help with.
+0,"TEXT_BANVAN602_02198_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト受注クラス・ジョブ制限<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+ナッキ島のムナバヌは、冒険者を探しているようだ。"
+1,"TEXT_BANVAN602_02198_SEQ_01","※本クエストには
+「<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow><UIGlow>01</UIGlow><UIForeground>01</UIForeground> レベルアジャスト受注クラス・ジョブ制限」が、
+　設定されています。
+　受注時と同じクラス・ジョブでのみ進行できます。
 
-※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
-2,"TEXT_BANVAN602_02198_SEQ_02","You learn that the Vundu are training strong and skilled warriors whose prowess in the Vanu Vanu sundrop dance grows more daunting by the day. He bids you seek these threats out, and intimidate them with your own rendition of the dance, that they might lose faith and abandon their training."
-3,"TEXT_BANVAN602_02198_SEQ_03","You awe the young Vundu dancers with your impeccable dancing capabilities. Not one of the warriors holds his ground before your terrifying display. Report back to Linu Vanu and tell him that the Vundu whelps have been put in their place."
-4,"TEXT_BANVAN602_02198_SEQ_04","Linu Vanu is greatly relieved to hear that the Vundu dancers have been dealt with before they could pose a real and certain threat to the safety of his people. While thankful that his tribe has your strength to draw on, he resolves to also work on refining his own dancing abilities, to better serve in his tribe's protection."
+ムナバヌから、リヌバヌが冒険者の力を借りたがっていることを聞いた。ナッキ島の「群雲のリヌバヌ」と話そう。"
+2,"TEXT_BANVAN602_02198_SEQ_02","リヌバヌから、ブンド族の舞手を牽制するよう頼まれた。オク・ブンド・モックにいる「ブンド族の舞手」3人に、エモート「太陽の舞」をしよう。舞を見ても撤退せずに襲い掛かってきた場合は、これを討伐しよう。"
+3,"TEXT_BANVAN602_02198_SEQ_03","ブンド族の舞手をすべて追い払った。ナッキ島の「群雲のリヌバヌ」に報告しよう。"
+4,"TEXT_BANVAN602_02198_SEQ_04","リヌバヌに報告した。彼は安堵すると同時に、己の「太陽の舞」をさらに磨き上げることを、心に誓ったようだ。オク・グンド・ナッキの平和のためにも、また協力しよう。"
 5,"TEXT_BANVAN602_02198_SEQ_05",""
 6,"TEXT_BANVAN602_02198_SEQ_06",""
 7,"TEXT_BANVAN602_02198_SEQ_07",""
@@ -28,9 +31,9 @@ int32,str,str
 21,"TEXT_BANVAN602_02198_SEQ_21",""
 22,"TEXT_BANVAN602_02198_SEQ_22",""
 23,"TEXT_BANVAN602_02198_SEQ_23",""
-24,"TEXT_BANVAN602_02198_TODO_00","Speak with Linu Vanu."
-25,"TEXT_BANVAN602_02198_TODO_01","Overwhelm the Vundu dancers with the /sundropdance."
-26,"TEXT_BANVAN602_02198_TODO_02","Report to Linu Vanu."
+24,"TEXT_BANVAN602_02198_TODO_00","群雲のリヌバヌと話す"
+25,"TEXT_BANVAN602_02198_TODO_01","ブンド族の舞手に「太陽の舞」をする"
+26,"TEXT_BANVAN602_02198_TODO_02","群雲のリヌバヌに報告"
 27,"TEXT_BANVAN602_02198_TODO_03",""
 28,"TEXT_BANVAN602_02198_TODO_04",""
 29,"TEXT_BANVAN602_02198_TODO_05",""
@@ -52,25 +55,50 @@ int32,str,str
 45,"TEXT_BANVAN602_02198_TODO_21",""
 46,"TEXT_BANVAN602_02198_TODO_22",""
 47,"TEXT_BANVAN602_02198_TODO_23",""
-48,"TEXT_BANVAN602_02198_02198_MUNAVANU_000_001","Greetings, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! Linu Vanu searches for you!"
-49,"TEXT_BANVAN602_02198_02198_MUNAVANU_000_002","No doubt he wishes to ask netherling's help. Please seek Linu Vanu, and find out what he wants."
-50,"TEXT_BANVAN602_02198_02198_MUNAVANU_000_010",""
-51,"TEXT_BANVAN602_02198_02198_LINUVANU_000_020","How fortunate─just as Linu Vanu seeks <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, <If(PlayerParameter(4))>she<Else/>he</If> arrives! I wish to borrow skills of netherling that perfected mighty sundrop dance!"
-52,"TEXT_BANVAN602_02198_02198_LINUVANU_000_021","We hear rumors that the Vundu train powerful warriors, whose command of sundrop dance rivals even our greatest dancers. This must not be! This menace must be stopped before it grows too strong."
-53,"TEXT_BANVAN602_02198_02198_LINUVANU_000_022","Please seek out Vundu dancers and show them full glory of Gundu <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>sundrop dance<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. Make them know folly of daring to eclipse us!"
-54,"TEXT_BANVAN602_02198_02198_LINUVANU_000_030","Go to Vundu village! Show them mighty <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>sundrop dance<UIGlow>01</UIGlow><UIForeground>01</UIForeground> and let them cower, like new-hatched nestlings trembling before booming thunderstorm!"
-55,"TEXT_BANVAN602_02198_02198_VUNDU02198_000_040","This is Vundu land─begone! Netherling like you has no right to stand before mighty Vundu sundrop dancer!"
-56,"TEXT_BANVAN602_02198_02198_VUNDU02198_000_041","Wh-What!? Mere netherling masters sundrop dance!? <If(PlayerParameter(4))>Her<Else/>His</If> piercing gaze, sharper than claws of fiercest anzu... <If(PlayerParameter(4))>Her<Else/>His</If> commanding presence, overpowering like devastating gale..."
-57,"TEXT_BANVAN602_02198_02198_VUNDU02198_000_042","I can stand it no longer!"
-58,"TEXT_BANVAN602_02198_02198_VUNDU02198_000_043","Hmph! What brings netherling to Ok' Vundu? Foolish thing like you─who knows not even the sundrop dance─is not safe here."
-59,"TEXT_BANVAN602_02198_02198_VUNDU02198_000_044","But─but netherlings cannot perform so flawless a dance! It is not possible!"
-60,"TEXT_BANVAN602_02198_02198_VUNDU02198_000_045","<If(PlayerParameter(4))>Her<Else/>His</If> style is impetuous! <If(PlayerParameter(4))>Her<Else/>His</If> defense is impregnable! I must retreat!"
-61,"TEXT_BANVAN602_02198_02198_VUNDU02198_000_049","Netherling approaches, but does not attack? Does <If(PlayerParameter(4))>she<Else/>he</If> plan to challenge great Vundu with sundrop dance!?"
-62,"TEXT_BANVAN602_02198_02198_VUNDU02198_000_050","Such masterful dancing. I cannot believe it! Its power washes over me like endless torrent from vast waterfall!"
-63,"TEXT_BANVAN602_02198_02198_VUNDU02198_000_051","I cannot suffer this to be! Rage wells within me like great blazing furnace! Wait here, netherling! I return with most monstrous weapons I own and destroy you! "
-64,"TEXT_BANVAN602_02198_02198_LINUVANU_000_060","Word spreads fast, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>─faster than herd of frightened dhalmels. Linu Vanu hears of netherling's victory over Vundu savages!"
-65,"TEXT_BANVAN602_02198_02198_LINUVANU_000_061","Through netherling's unrivaled power, Vundu threat is quashed before it can cause us real problems."
-66,"TEXT_BANVAN602_02198_02198_LINUVANU_000_062","You have Linu Vanu's thanks, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, and thanks of whole Gundu tribe. Linu Vanu fears even he might not stand up to netherling's fearsome sundrop dance... He must practice dancing himself, he thinks."
-67,"TEXT_BANVAN602_02198_02198_VUNDU02198_000_046",""
-68,"TEXT_BANVAN602_02198_02198_VUNDU02198_000_047",""
-69,"TEXT_BANVAN602_02198_02198_VUNDU02198_000_048",""
+48,"TEXT_BANVAN602_02198_02198_MUNAVANU_000_001","これは、これは、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さま。
+リヌバヌさまが貴方を探しておりましてな……。"
+49,"TEXT_BANVAN602_02198_02198_MUNAVANU_000_002","どうやら、どうやら、何か依頼したいことがある様子。
+お手数ではありますが、西風のように颯爽と、
+リヌバヌさまにお声がけいただけませんか？"
+50,"TEXT_BANVAN602_02198_02198_MUNAVANU_000_010","（★未使用／削除予定★）"
+51,"TEXT_BANVAN602_02198_02198_LINUVANU_000_020","きたか、きたか、我が求めに応じて、
+話を聞きに来てくれたことに感謝するぞ！
+「太陽の舞」を修得したお主の協力が必要なのだ！"
+52,"TEXT_BANVAN602_02198_02198_LINUVANU_000_021","実は最近、「冷酷なるブンド」の中で、
+優秀なる舞手を育てんという動きが盛んらしい。
+いかん、いかん、我らが脅威となる前に牽制せねば……！"
+53,"TEXT_BANVAN602_02198_02198_LINUVANU_000_022","オク・ブンド・モックの「ブンド族の舞手」に、
+お主の素晴らしき「太陽の舞」を見せつけ、意気を挫くのだ！
+挫けず襲い掛かってくるようなら、返り討ちにしてくれ！"
+54,"TEXT_BANVAN602_02198_02198_LINUVANU_000_030","オク・ブンド・モックの「ブンド族の舞手」に、
+お主の素晴らしき「太陽の舞」を見せつけ、意気を挫くのだ！
+挫けず襲い掛かってくるようなら、返り討ちにしてくれ！"
+55,"TEXT_BANVAN602_02198_02198_VUNDU02198_000_040","なんだ、なんだ、ここは我らブンド族の土地なるぞ！
+まさかヒトの分際で、この誇り高き「太陽の舞」を、
+踊ろうというのではないだろうな？"
+56,"TEXT_BANVAN602_02198_02198_VUNDU02198_000_041","なんと、なんと、ヒトの分際で「太陽の舞」を！？
+こ、この威圧感……すべてを穿つ竜巻のようではないか！"
+57,"TEXT_BANVAN602_02198_02198_VUNDU02198_000_042","だめだ、だめだ、これは敵わぬ！"
+58,"TEXT_BANVAN602_02198_02198_VUNDU02198_000_043","フンッ……！？
+ヒトが、我らバヌバヌ族に何の用だ！
+「太陽の舞」すら知らぬ、愚かな種族め！"
+59,"TEXT_BANVAN602_02198_02198_VUNDU02198_000_044","まさか、まさか、ヒトでありながら、
+「太陽の舞」を踊ることができるというのか！"
+60,"TEXT_BANVAN602_02198_02198_VUNDU02198_000_045","しかも、しかも、荒れ狂う暴風のように、
+我が心を攻め立てるとは……く、くそう、撤退だ！"
+61,"TEXT_BANVAN602_02198_02198_VUNDU02198_000_049","ヒトでありながら、いきなり襲ってこないとは……
+もしや、「太陽の舞」で勝負しようとでも？"
+62,"TEXT_BANVAN602_02198_02198_VUNDU02198_000_050","そ、そのような「太陽の舞」ごときで、
+我の心を萎えさせられるとでも思ったか！"
+63,"TEXT_BANVAN602_02198_02198_VUNDU02198_000_051","沸き立つ雲のように、怒りが満ちているぞ！
+さあ、さあ、武器を取るがいい！"
+64,"TEXT_BANVAN602_02198_02198_LINUVANU_000_060","どうやら、どうやら、「ブンド族の舞手」を、
+幾人も退けてきてくれたようだな！"
+65,"TEXT_BANVAN602_02198_02198_LINUVANU_000_061","さすがは、俺が認めたヒトの戦士！
+「冷酷なるブンド」のさらなる脅威を、遠雷に備えるがごとく、
+未然に防ぐことができたというわけだ。"
+66,"TEXT_BANVAN602_02198_02198_LINUVANU_000_062","感謝するぞ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
+俺も、お主に負けぬよう「太陽の舞」に磨きをかけねばな！"
+67,"TEXT_BANVAN602_02198_02198_VUNDU02198_000_046","（★未使用／削除予定★）"
+68,"TEXT_BANVAN602_02198_02198_VUNDU02198_000_047","（★未使用／削除予定★）"
+69,"TEXT_BANVAN602_02198_02198_VUNDU02198_000_048","（★未使用／削除予定★）"

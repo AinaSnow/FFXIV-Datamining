@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ007_02641_SEQ_00","This Maelstrom officer seems somewhat irritated."
+0,"TEXT_STMBDZ007_02641_SEQ_00","カストルム・オリエンスの黒渦団の兵卒は、熟練の冒険者に協力を仰ぎたいようだ。"
 1,"TEXT_STMBDZ007_02641_SEQ_01",""
 2,"TEXT_STMBDZ007_02641_SEQ_02",""
 3,"TEXT_STMBDZ007_02641_SEQ_03",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_STMBDZ007_02641_SEQ_21",""
 22,"TEXT_STMBDZ007_02641_SEQ_22",""
 23,"TEXT_STMBDZ007_02641_SEQ_23",""
-24,"TEXT_STMBDZ007_02641_TODO_00","Rendezvous with the Maelstrom officer."
-25,"TEXT_STMBDZ007_02641_TODO_01","Speak with the Maelstrom officer."
-26,"TEXT_STMBDZ007_02641_TODO_02","Speak with the Maelstrom officer."
+24,"TEXT_STMBDZ007_02641_TODO_00","黒渦団の兵卒と合流する"
+25,"TEXT_STMBDZ007_02641_TODO_01","黒渦団の兵卒と話す"
+26,"TEXT_STMBDZ007_02641_TODO_02","カストルム・オリエンスの黒渦団の兵卒と話す"
 27,"TEXT_STMBDZ007_02641_TODO_03",""
 28,"TEXT_STMBDZ007_02641_TODO_04",""
 29,"TEXT_STMBDZ007_02641_TODO_05",""
@@ -49,17 +49,37 @@ int32,str,str
 45,"TEXT_STMBDZ007_02641_TODO_21",""
 46,"TEXT_STMBDZ007_02641_TODO_22",""
 47,"TEXT_STMBDZ007_02641_TODO_23",""
-48,"TEXT_STMBDZ007_02641_MAELSTROM02641_000_000","Ah, an adventurer. Perhaps you can help me."
-49,"TEXT_STMBDZ007_02641_MAELSTROM02641_000_001","Three of our prisoners escaped from their cells during the guard change last night. Thankfully, scouts from the Twin Adders have already ascertained their location."
-50,"TEXT_STMBDZ007_02641_MAELSTROM02641_000_002","They don't seem to have noticed they were being followed, and if the fates are kind, we can take them unawares."
-51,"TEXT_STMBDZ007_02641_MAELSTROM02641_000_003","They are formidable combatants in their own right, however, and it was trouble enough taking them into custody in the first place. The more capable of my men are presently out in the field, and so I would ask for your assistance."
-52,"TEXT_STMBDZ007_02641_MAELSTROM02641_000_004","The prisoners were last spotted heading toward a cave along the Velodyna River. Let us hurry, while we still have the element of surprise."
-53,"TEXT_STMBDZ007_02641_MAELSTROM02641_000_010","...Thank goodness you came."
-54,"TEXT_STMBDZ007_02641_MAELSTROM02641_000_011","It seems the one caught by surprise was me. I was ambushed before I could even step foot near the cave."
-55,"TEXT_STMBDZ007_02641_MAELSTROM02641_000_012","<sigh> None of this would have happened had changing of the guard not been handled so carelessly. No doubt it was those bunglers from the Immortal Flames, or perhaps─"
-56,"TEXT_STMBDZ007_02641_MAELSTROM02641_000_013","On second thought, never mind. This isn't something you need to hear. Let us return to Castrum Oriens."
-57,"TEXT_STMBDZ007_02641_MAELSTROM02641_000_020","Ah, there you are. I spoke with our scouts from the Twin Adders. It turns out they were in fact discovered by the prisoners shortly after we departed."
-58,"TEXT_STMBDZ007_02641_MAELSTROM02641_000_021","What's more, they claim to have laid markers along the river to warn us. The problem, however, is these markers are unfamiliar to any save the Twin Adders, lest their enemies realize what they are."
-59,"TEXT_STMBDZ007_02641_MAELSTROM02641_000_022","It has become painfully clear that there is still much to be done if the Grand Companies are to function together as a single, cohesive unit. We cannot assume that one company is familiar with the stratagems of another."
-60,"TEXT_STMBDZ007_02641_MAELSTROM02641_000_023","Though we could not recapture the prisoners, today will serve as a stark reminder to all of us to be better prepared and more open in communicating with one another."
-61,"TEXT_STMBDZ007_02641_MAELSTROM02641_000_024","Thank you again for your aid. I should hope when next we meet, it will be under more favorable circumstances."
+48,"TEXT_STMBDZ007_02641_MAELSTROM02641_000_000","<If(GreaterThan(PlayerParameter(52),0))><Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/><If(GreaterThan(PlayerParameter(52),0))><Sheet(GCRankLimsaMaleText,PlayerParameter(52),0)/><Else/></If><Else/></If><If(GreaterThan(PlayerParameter(53),0))><Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/><If(GreaterThan(PlayerParameter(53),0))><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),0)/><Else/></If><Else/></If><If(GreaterThan(PlayerParameter(54),0))><Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/><If(GreaterThan(PlayerParameter(54),0))><Sheet(GCRankUldahMaleText,PlayerParameter(54),0)/><Else/></If><Else/></If>殿ですね。
+逃亡した帝国兵の追撃任務に、どうかご協力いただきたい。"
+49,"TEXT_STMBDZ007_02641_MAELSTROM02641_000_001","バエサルの長城での戦いで捕らえた、帝国兵の捕虜3名が、
+衛兵交代の隙を突いて、監房から脱走してしまったのです。
+幸いにも、捜索隊が早期に発見したため、逃亡先は判明しております。"
+50,"TEXT_STMBDZ007_02641_MAELSTROM02641_000_002","まだ、こちらの存在には気づかれていないため、
+急げば奇襲をかけられるかもしれません。"
+51,"TEXT_STMBDZ007_02641_MAELSTROM02641_000_003","しかし、敵は少数ながらも、かなりの手練れとのこと。
+現在、私以外に動ける兵がいないため、
+歴戦の冒険者に、協力をお願いしたいのです。"
+52,"TEXT_STMBDZ007_02641_MAELSTROM02641_000_004","脱走兵は、ベロジナ川の北西にある洞窟に潜伏しています。
+どうか共に来て、力をお貸しください。"
+53,"TEXT_STMBDZ007_02641_MAELSTROM02641_000_010","……すみません、助かりました。"
+54,"TEXT_STMBDZ007_02641_MAELSTROM02641_000_011","偵察兵からの連絡では、気づかれていないとのことでしたが、
+完全に、待ち伏せされていたようです。"
+55,"TEXT_STMBDZ007_02641_MAELSTROM02641_000_012","元はといえば、脱走を許したのも、
+衛兵交代時の不手際によるもの……。
+どうも他国の組織との連携が上手くいっていないようです。"
+56,"TEXT_STMBDZ007_02641_MAELSTROM02641_000_013","いえ……助けていただいた、冒険者殿にする話ではありませんね。
+ひとまず、「カストルム・オリエンス」に戻りましょう。"
+57,"TEXT_STMBDZ007_02641_MAELSTROM02641_000_020","お待ちしていました、冒険者殿。
+先に戻っていた双蛇党の偵察兵に、連絡の不備を問い詰めたところ、
+追跡が露見したため、後退していたとのことでした……。"
+58,"TEXT_STMBDZ007_02641_MAELSTROM02641_000_021","そして、敵に気づかれたことを知らせる印を、
+洞窟の手前に何カ所も残していた、とも言われました……。
+双蛇党で使われる符牒らしいのですが、初めて知りましたよ。"
+59,"TEXT_STMBDZ007_02641_MAELSTROM02641_000_022","我々同盟軍は、多国籍の軍勢によって構成されています。
+指揮系統も、それぞれ独立していますし、組織の慣習も違います。
+知っていて当然、という考え方は危険ですね。"
+60,"TEXT_STMBDZ007_02641_MAELSTROM02641_000_023","あなたの活躍で、最悪の状況は免れたものの、
+友軍同士の意思疎通は、今後の課題になるでしょう。
+すぐにでも、上に掛け合ってみます。"
+61,"TEXT_STMBDZ007_02641_MAELSTROM02641_000_024","<If(GreaterThan(PlayerParameter(52),0))><Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/><If(GreaterThan(PlayerParameter(52),0))><Sheet(GCRankLimsaMaleText,PlayerParameter(52),0)/><Else/></If><Else/></If><If(GreaterThan(PlayerParameter(53),0))><Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/><If(GreaterThan(PlayerParameter(53),0))><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),0)/><Else/></If><Else/></If><If(GreaterThan(PlayerParameter(54),0))><Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/><If(GreaterThan(PlayerParameter(54),0))><Sheet(GCRankUldahMaleText,PlayerParameter(54),0)/><Else/></If><Else/></If>殿。
+本当に、ありがとうございました。"

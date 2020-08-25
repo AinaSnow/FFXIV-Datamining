@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSCUL021_00254_SEQ_00","Lyngsath wants to assign you your first task."
-1,"TEXT_CLSCUL021_00254_SEQ_01","Lyngsath bids you prepare a pot of maple syrup using the skillet he has given you. The recipe calls for maple sap, which can be had from Jossy of the Culinarians' Guild."
-2,"TEXT_CLSCUL021_00254_SEQ_02","Lyngsath is pleased with your maple syrup, declaring that it far surpasses his expectations for a novice. The guildmaster encourages you to keep working at your cooking skills, and bids you return again when you are ready for your next task.
+0,"TEXT_CLSCUL021_00254_SEQ_00","調理師ギルドへの入門を認められた冒険者。受け取ったスキレットを装備して、リングサスに声をかけよう。"
+1,"TEXT_CLSCUL021_00254_SEQ_01","さっそくスキレットを使って<Sheet(Item,4849,0)/>を調理してこいとのこと。<Sheet(Item,4849,0)/>の材料となる「<Sheet(Item,　5498,0)/>」は、調理師ギルドのヨッシーから購入できる。「<Sheet(Item,4849,0)/>」を1杯ぶん調達し、調理師ギルドの「リングサス」に渡そう。"
+2,"TEXT_CLSCUL021_00254_SEQ_02","リングサスに<Sheet(Item,4849,0)/>を納品したところ、新米にしては十分な腕前だと褒められた。慢心せずに努力を重ねたら、新しい試練を与えてやるというリングサス。調理師としての腕を磨くため、努力を続けよう。
 
-※The next culinarian quest will be available from Lyngsath upon reaching level 5."
+※調理師のレベルが5以上になると、リングサスから次の調理師クエストを受注することができます。"
 3,"TEXT_CLSCUL021_00254_SEQ_03",""
 4,"TEXT_CLSCUL021_00254_SEQ_04",""
 5,"TEXT_CLSCUL021_00254_SEQ_05",""
@@ -27,7 +27,7 @@ int32,str,str
 21,"TEXT_CLSCUL021_00254_SEQ_21",""
 22,"TEXT_CLSCUL021_00254_SEQ_22",""
 23,"TEXT_CLSCUL021_00254_SEQ_23",""
-24,"TEXT_CLSCUL021_00254_TODO_00","Deliver a pot of maple syrup to Lyngsath."
+24,"TEXT_CLSCUL021_00254_TODO_00","リングサスに<Sheet(Item,4849,0)/>を納品"
 25,"TEXT_CLSCUL021_00254_TODO_01",""
 26,"TEXT_CLSCUL021_00254_TODO_02",""
 27,"TEXT_CLSCUL021_00254_TODO_03",""
@@ -51,22 +51,51 @@ int32,str,str
 45,"TEXT_CLSCUL021_00254_TODO_21",""
 46,"TEXT_CLSCUL021_00254_TODO_22",""
 47,"TEXT_CLSCUL021_00254_TODO_23",""
-48,"TEXT_CLSCUL021_00254_LYNGSATH_000_1","I see yer 'oldin' the skillet the right way 'round. Good!"
-49,"TEXT_CLSCUL021_00254_LYNGSATH_000_2","A culinarian lives an' dies by 'is utensils. Get that into yer 'ead afore ye do aught else, or yer food'll look like shite, an' taste worse."
-50,"TEXT_CLSCUL021_00254_LYNGSATH_000_3","Now, let's see what ye can do."
-51,"TEXT_CLSCUL021_00254_LYNGSATH_000_4","For starters, I want ye to make me maple syrup usin' yer skillet."
-52,"TEXT_CLSCUL021_00254_LYNGSATH_000_5","Recipe's as simple as they come. Ye only need two things: maple sap an' a fire shard."
-53,"TEXT_CLSCUL021_00254_LYNGSATH_000_6","Jossy sells sap over at the guild counter."
-54,"TEXT_CLSCUL021_00254_LYNGSATH_000_7","Now, time's a-wastin', so get to work! It don't pay to keep folk waitin' in our trade!"
-55,"TEXT_CLSCUL021_00254_SYSTEM_000_11","Guildmaster Lyngsath has tasked you with synthesizing a pot of maple syrup."
-56,"TEXT_CLSCUL021_00254_SYSTEM_000_12","To commence, select <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Logs<UIGlow>01</UIGlow><UIForeground>01</UIForeground> from the main menu, followed by <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Crafting Log<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
-57,"TEXT_CLSCUL021_00254_LYNGSATH_000_21","What in the seven 'ells are ye waitin' for? I told ye to make me maple syrup, didn't I!?"
-58,"TEXT_CLSCUL021_00254_LYNGSATH_000_31","The maple syrup's ready, is it? About bloody time! Let's see 'ow it tastes, then..."
-59,"TEXT_CLSCUL021_00254_LYNGSATH_000_33","Oho, this ain't bad! Flavor's all right, consistency's...nearly there. In short, a damn sight better'n a lot o' novices manage."
-60,"TEXT_CLSCUL021_00254_LYNGSATH_000_34","As ye prob'ly know, maple syrup's one o' the most popular sweet'ners around, an' a key ingredient in all manner o' cakes an' treats."
-61,"TEXT_CLSCUL021_00254_LYNGSATH_000_35","What ye prob'ly <Emphasis>didn't</Emphasis> know is that boilin' the stuff down gets ye maple sugar, a different sweet'ner with different uses."
-62,"TEXT_CLSCUL021_00254_LYNGSATH_000_36","Jus' goes to show, even the simplest ingredients can 'ave 'idden complexities."
-63,"TEXT_CLSCUL021_00254_LYNGSATH_000_37","I said earlier that a culinarian lives an' dies by 'is utensils. Well, that's just the 'alf of it."
-64,"TEXT_CLSCUL021_00254_LYNGSATH_000_38","'E also needs to know 'is ingredients─an' <Emphasis>that's</Emphasis> summat as only comes with experience."
-65,"TEXT_CLSCUL021_00254_LYNGSATH_000_39","Keep yer nose to the stove, an' report back when yer ripe fer another task."
-66,"TEXT_CLSCUL021_00254_SYSTEM_000_40","The next culinarian quest will be available from Lyngsath upon reaching level 5."
+48,"TEXT_CLSCUL021_00254_LYNGSATH_000_1","ははっ、いいぞ！　似合ってるじゃねぇか！
+そいつを使いこなすのが、お前さんの最初の仕事だ。"
+49,"TEXT_CLSCUL021_00254_LYNGSATH_000_2","調理師の道は、片手鍋に始まり、片手鍋に終わるからな。
+お前さんにゃ、そいつを骨の髄まで学んでもらうぜ。
+コトコトとスープを煮込むように、じっくりとな。"
+50,"TEXT_CLSCUL021_00254_LYNGSATH_000_3","じゃあ、さっそく、お前さんの腕前を見せてもらおうか。
+お前さんがどのくらい使えるか、それがわからなきゃ、
+何を教えりゃいいのかも、わからないだろ？"
+51,"TEXT_CLSCUL021_00254_LYNGSATH_000_4","ってことで、「<Sheet(Item,4849,0)/>」を1杯ぶん作ってこいや。
+「<Sheet(Item,　5498,0)/>」をスキレットで
+調理すればいいだけさ、簡単だろ？"
+52,"TEXT_CLSCUL021_00254_LYNGSATH_000_5","必要なものは……今言った「<Sheet(Item,　5498,0)/>」に、
+「<Sheet(Item,　2,0)/>」だ。"
+53,"TEXT_CLSCUL021_00254_LYNGSATH_000_6","「<Sheet(Item,　5498,0)/>」は、調理師ギルドのヨッシーが扱ってる。
+あいつに話しかけりゃあ、売ってくれるぜ。"
+54,"TEXT_CLSCUL021_00254_LYNGSATH_000_7","ようし、じゃあ行ってこい！
+「速さは美味さ」もまた、料理の神髄だ！
+グズグズしてたら、千切りにするぞ！！"
+55,"TEXT_CLSCUL021_00254_SYSTEM_000_11","「<Sheet(Item,　5498,0)/>」から
+「<Sheet(Item,4849,0)/>」を製作してみましょう。"
+56,"TEXT_CLSCUL021_00254_SYSTEM_000_12","メインコマンドの「手帳」から「製作手帳」を選び、
+製作を開始することができます。"
+57,"TEXT_CLSCUL021_00254_LYNGSATH_000_21","調理ってのは、時間との勝負でもあるんだ。
+さっさと「<Sheet(Item,4849,0)/>」を持ってこい！"
+58,"TEXT_CLSCUL021_00254_LYNGSATH_000_31","さて、「<Sheet(Item,4849,0)/>」……
+さっそく味見させてもらうとするか。"
+59,"TEXT_CLSCUL021_00254_LYNGSATH_000_33","……実にいい味だった！
+なかなかやるな、お前さん。
+新人で、ここまでできるなら十分だ。"
+60,"TEXT_CLSCUL021_00254_LYNGSATH_000_34","「<Sheet(Item,4849,0)/>」は独特の風味がある甘味料でな。
+「クランペット」や「ラノシアトースト」を、
+ほんのり甘く仕上げたいなら、こいつの出番さ。"
+61,"TEXT_CLSCUL021_00254_LYNGSATH_000_35","もちろん、そのまま使わずに、さらに煮詰めて
+「メープルシュガー」にしてもいい。
+本当に用途の多い優れものさ。"
+62,"TEXT_CLSCUL021_00254_LYNGSATH_000_36","と、こんな簡単に作れる「<Sheet(Item,4849,0)/>」だけでも、
+知っておくべきこと、覚えるべきことは山ほどあるんだ。"
+63,"TEXT_CLSCUL021_00254_LYNGSATH_000_37","鍋を振るだけが料理じゃねぇ。
+食材について詳しく知るのも、
+料理のレパートリーを増やすためには必要なんだぜ。"
+64,"TEXT_CLSCUL021_00254_LYNGSATH_000_38","料理の味ってのは、工夫次第で無限に広がるもんさ。
+だからって、焦るなよ。焦らず努力を重ねていくんだぜ。"
+65,"TEXT_CLSCUL021_00254_LYNGSATH_000_39","お前さんのことは、ちゃんと見てるからよ……
+重ねた努力が頃合いになったら、また俺んところに来な。
+新しい課題を、用意してやっからよ。"
+66,"TEXT_CLSCUL021_00254_SYSTEM_000_40","「調理師」のクラスクエストが開始されました。
+次のクエストは「レベル5」以上で受注可能になります。
+レベルを上げ、再度ギルドを訪れてください。"

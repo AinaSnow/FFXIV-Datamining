@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDA419_02518_SEQ_00","The time has come for Lord Hien to return to Doma."
+0,"TEXT_STMBDA419_02518_SEQ_00","ナーマ砂漠北端のヒエンは、いよいよヤンサへ帰還するようだ。"
 1,"TEXT_STMBDA419_02518_SEQ_01",""
 2,"TEXT_STMBDA419_02518_SEQ_02",""
 3,"TEXT_STMBDA419_02518_SEQ_03",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_STMBDA419_02518_SEQ_21",""
 22,"TEXT_STMBDA419_02518_SEQ_22",""
 23,"TEXT_STMBDA419_02518_SEQ_23",""
-24,"TEXT_STMBDA419_02518_TODO_00","Speak with Gosetsu."
-25,"TEXT_STMBDA419_02518_TODO_01","Speak with Hien."
-26,"TEXT_STMBDA419_02518_TODO_02","Speak with Alphinaud."
+24,"TEXT_STMBDA419_02518_TODO_00","ヤンサのゴウセツと話す"
+25,"TEXT_STMBDA419_02518_TODO_01","ヒエンと話す"
+26,"TEXT_STMBDA419_02518_TODO_02","アルフィノと話す"
 27,"TEXT_STMBDA419_02518_TODO_03",""
 28,"TEXT_STMBDA419_02518_TODO_04",""
 29,"TEXT_STMBDA419_02518_TODO_05",""
@@ -49,24 +49,42 @@ int32,str,str
 45,"TEXT_STMBDA419_02518_TODO_21",""
 46,"TEXT_STMBDA419_02518_TODO_22",""
 47,"TEXT_STMBDA419_02518_TODO_23",""
-48,"TEXT_STMBDA419_02518_LYSE_000_000","Let's go. Everyone is waiting for us back at the House of the Fierce!"
-49,"TEXT_STMBDA419_02518_GOSETSU_000_005","Heh heh...I wonder what Yugiri will have to say when we tell her of our adventures?"
-50,"TEXT_STMBDA419_02518_HIEN_000_010","Right, then. To the House of the Fierce. With me, my friends!"
-51,"TEXT_STMBDA419_02518_LYSE_000_015","Err, remind me─what part of Yanxia is this again?"
-52,"TEXT_STMBDA419_02518_HIEN_000_020","Ahh...this air that fills my breast, these sounds which resound in my ears. I am home."
-53,"TEXT_STMBDA419_02518_GOSETSU_000_030","I have not used this road before, but... Ah. I recognize this place."
-54,"TEXT_STMBDA419_02518_GOSETSU_000_031","The House of the Fierce should lie somewhere to the south. I will go on ahead and inform the sentries of our master's return."
-55,"TEXT_STMBDA419_02518_LYSE_000_040","Huh, I didn't realize there was another entrance."
-56,"TEXT_STMBDA419_02518_HIEN_000_050","Here we are! I wonder if they all are gathered inside, waiting...perhaps expecting a speech or some such..."
-57,"TEXT_STMBDA419_02518_HIEN_000_051","Well! No matter! I shall have to do what I shall have to do!"
-58,"TEXT_STMBDA419_02518_LYSE_000_060","So...have we got a plan? Tell me someone's got a plan."
-59,"TEXT_STMBDA419_02518_ALISAIE_000_065","Alphinaud has been hard at work devising our strategy to seize Doma Castle. I'm sure he will be happy to share the details with you all shortly."
-60,"TEXT_STMBDA419_02518_HIEN_000_070","No time to soak it in. We have work to do."
-61,"TEXT_STMBDA419_02518_YUGIRI_000_075","Not that I doubted you for a moment, but I am relieved to see him returned."
-62,"TEXT_STMBDA419_02518_GOSETSU_000_080","All is in place. We need but commit to action and see it through to the end."
-63,"TEXT_STMBDA419_02518_YAGORO_000_085","Lord Hien has returned! Lord Hien has returned! And together we will drive the imperials out of Doma once and for all!"
-64,"TEXT_STMBDA419_02518_HANAME_000_086","I knew Lord Hien only by name and reputation until today. There is no denying that he has a presence..."
-65,"TEXT_STMBDA419_02518_ALPHINAUD_000_090","Once more, welcome back. It is good to see you again, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
-66,"TEXT_STMBDA419_02518_ALPHINAUD_000_091","Ah, yes. There is another recent development we neglected to share with you."
-67,"TEXT_STMBDA419_02518_ALPHINAUD_000_092","Alisaie and I have been hard at work attempting to restore the aetheryte here to its former glory...and I am pleased to inform you that we succeeded!"
-68,"TEXT_STMBDA419_02518_ALPHINAUD_000_093","Suffice it to say, it should prove a boon for travel─well, for those replete with anima like you, at least..."
+48,"TEXT_STMBDA419_02518_LYSE_000_000","シリナの想いや、この草原で感じたこと……
+全部もって、ヤンサへ戻ろう！"
+49,"TEXT_STMBDA419_02518_GOSETSU_000_005","ユウギリも、今か今かと帰りを待っておろう。
+大腕を振って、よい報せを持ち帰るでござる。"
+50,"TEXT_STMBDA419_02518_HIEN_000_010","では、これよりアジムステップを後にし、ヤンサへと帰還する。
+……ゆくぞ、ゴウセツ、リセ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>！"
+51,"TEXT_STMBDA419_02518_LYSE_000_015","ここは……ヤンサのどのあたりだろう？"
+52,"TEXT_STMBDA419_02518_HIEN_000_020","ああ、この空気、まぎれもなく我が故郷……
+懐かしのヤンサだ。"
+53,"TEXT_STMBDA419_02518_GOSETSU_000_030","ふむ、この道は拙者もはじめて使ったが、
+なるほど……この辺りに出るのでござるな。"
+54,"TEXT_STMBDA419_02518_GOSETSU_000_031","であれば、目指す「烈士庵」は南の方角でござる。
+どれ、拙者が先に行って、門兵と皆に若の帰還を告げておこう。"
+55,"TEXT_STMBDA419_02518_LYSE_000_040","こっち側から烈士庵に入るのは、はじめてだね。"
+56,"TEXT_STMBDA419_02518_HIEN_000_050","おう、来たな。
+わしも使うのは久方ぶりだが、
+ここが烈士庵の出入り口のひとつだ。"
+57,"TEXT_STMBDA419_02518_HIEN_000_051","さあ、中に入って、皆に帰還を告げるとしよう！"
+58,"TEXT_STMBDA419_02518_LYSE_000_060","さて、これからどう動こうか……。"
+59,"TEXT_STMBDA419_02518_ALISAIE_000_065","具体的な作戦については、
+アルフィノが説明してくれるはずよ。"
+60,"TEXT_STMBDA419_02518_HIEN_000_070","烈士庵を懐かしんでおる暇はないな。"
+61,"TEXT_STMBDA419_02518_YUGIRI_000_075","よくヒエン様を連れて戻ってくれた。"
+62,"TEXT_STMBDA419_02518_GOSETSU_000_080","若が戻り、皆もいっそう覇気に満ちた様子でござる。"
+63,"TEXT_STMBDA419_02518_YAGORO_000_085","ヒエン様が戻られる日が来ようとは……！
+今度こそ、帝国からドマを取り戻してみせようぞ！"
+64,"TEXT_STMBDA419_02518_HANAME_000_086","名前はもちろん存じ上げていましたが、
+ヒエン様にお会いするのは、初めてなのです。
+なんと凛々しいお方なのでしょう……！"
+65,"TEXT_STMBDA419_02518_ALPHINAUD_000_090","改めて、君たちの帰還を祝おう。
+……おかえり、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。"
+66,"TEXT_STMBDA419_02518_ALPHINAUD_000_091","現状は先の報告どおりだが、
+実はね、もうひとつ朗報があるんだ。"
+67,"TEXT_STMBDA419_02518_ALPHINAUD_000_092","私とアリゼーと……
+その道の権威だったムーンブリダが遺してくれた知識で、
+どうにかエーテライトを復旧させることに成功した！"
+68,"TEXT_STMBDA419_02518_ALPHINAUD_000_093","これで、君も行動しやすくなるはずだ。
+戦いはここから激化していく……
+存分に役立ててもらえたら、私たちも嬉しいよ。"

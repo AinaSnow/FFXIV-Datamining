@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSC308_00975_SEQ_00","Hedyn has neglected to return to you your corrupted crystal."
-1,"TEXT_GAIUSC308_00975_SEQ_01","Your inexplicably long and drawn-out quest to secure a corrupted crystal is at last at an end. Deliver the crystal to Cid at the airship landing in New Gridania."
-2,"TEXT_GAIUSC308_00975_SEQ_02","Cid's work on the <Emphasis>Enterprise</Emphasis> is nearly complete, and all that remains is for him to test the crystal you have brought. His voice swelling with pride, Cid declares that the airship will soon be transformed into something far greater, something extraordinary. You need only wait to see the fruits of his labor."
+0,"TEXT_GAIUSC308_00975_SEQ_00","ヘディンは、冒険者に<Sheet(EventItem,2000753,0)/>を返したいようだ。"
+1,"TEXT_GAIUSC308_00975_SEQ_01","必要な偏属性クリスタルをそろえることができた。グリダニア・ランディングにいるシドに<Sheet(EventItem,2000753,0)/>を渡そう。搭乗ロビーの奥へはリオンネレーが案内してくれるはずだ。"
+2,"TEXT_GAIUSC308_00975_SEQ_02","シドに偏属性クリスタルを渡した。これで飛空艇「エンタープライズ」は、どんな嵐も突破する力を手に入れられるだろう。"
 3,"TEXT_GAIUSC308_00975_SEQ_03",""
 4,"TEXT_GAIUSC308_00975_SEQ_04",""
 5,"TEXT_GAIUSC308_00975_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_GAIUSC308_00975_SEQ_21",""
 22,"TEXT_GAIUSC308_00975_SEQ_22",""
 23,"TEXT_GAIUSC308_00975_SEQ_23",""
-24,"TEXT_GAIUSC308_00975_TODO_00","Deliver the corrupted crystal to Cid."
+24,"TEXT_GAIUSC308_00975_TODO_00","グリダニア・ランディングのシドに<Sheet(EventItem,2000753,0)/>を渡す"
 25,"TEXT_GAIUSC308_00975_TODO_01",""
 26,"TEXT_GAIUSC308_00975_TODO_02",""
 27,"TEXT_GAIUSC308_00975_TODO_03",""
@@ -49,16 +49,31 @@ int32,str,str
 45,"TEXT_GAIUSC308_00975_TODO_21",""
 46,"TEXT_GAIUSC308_00975_TODO_22",""
 47,"TEXT_GAIUSC308_00975_TODO_23",""
-48,"TEXT_GAIUSC308_00975_HEDYN_000_000","Beg your pardon, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>─I forgot to return your crystal to you."
-49,"TEXT_GAIUSC308_00975_HEDYN_000_001","Oh, and there was a message for you from Professor Lamberteint. Something about a man named Marques? Apparently the professor misses the intellectual stimulation. Forgive me, I should have written it down."
-50,"TEXT_GAIUSC308_00975_HEDYN_000_002","It occurs to me that I have yet to ask <Emphasis>why</Emphasis> you needed that crystal. You aren't planning anything nefarious, are you? 'Twould reflect poorly on me and my research if it was used for evil ends..."
-51,"TEXT_GAIUSC308_00975_HEDYN_000_003","Ah, well, perhaps it's best I remain ignorant. I didn't become the professor's greatest pupil by filling my head with unnecessary information."
-52,"TEXT_GAIUSC308_00975_CID_000_010","All repairs and modifications have been completed, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Once you bring me that crystal, nothing will stand between us and Garuda."
-53,"TEXT_GAIUSC308_00975_CID_000_020","I'll need to run some tests to be sure, but this looks to be exactly what we need."
-54,"TEXT_GAIUSC308_00975_CID_000_021","Worry not, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I'll see that your hard work doesn't go to waste."
-55,"TEXT_GAIUSC308_00975_CID_000_022","The <Emphasis>Enterprise</Emphasis> is already more than a common airship. But mark my words: soon it will become something greater, something <Emphasis>extraordinary</Emphasis>."
-56,"TEXT_GAIUSC308_00975_CID_000_023","This...this is me. This is what I was born to do."
-57,"TEXT_GAIUSC308_00975_LIONNELLAIS_000_030","Greetings, <If(PlayerParameter(4))>madam<Else/>sir</If>. Do you wish to proceed to your vessel?"
-58,"TEXT_GAIUSC308_00975_Q1_000_040","Proceed to the landing area?"
-59,"TEXT_GAIUSC308_00975_A1_000_041","Yes"
-60,"TEXT_GAIUSC308_00975_A1_000_042","No"
+48,"TEXT_GAIUSC308_00975_HEDYN_000_000","……お、おっと失礼しました。
+<Sheet(EventItem,2000753,0)/>をお返しいたします、ハイ。"
+49,"TEXT_GAIUSC308_00975_HEDYN_000_001","先生から話は伺っております、ハイ。
+せ、先生がお世話になったというマルケズさんなら、
+グリダニア・ランディングにいらっしゃいます……。"
+50,"TEXT_GAIUSC308_00975_HEDYN_000_002","……あ、<If(PlayerParameter(4))>貴女<Else/>貴方</If>みたいな冒険者が、
+「偏属性クリスタル」を収集するなんて、
+き、きっと大変な事情があるのでしょう。"
+51,"TEXT_GAIUSC308_00975_HEDYN_000_003","……わ、私は研究者。理由は聞きません。
+零組一同、皆様のご武運を祈っています……ハイ。"
+52,"TEXT_GAIUSC308_00975_CID_000_010","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>か。
+ほかの偏属性クリスタルは、ランベルタンから届いている。
+残りは、そいつだけだ。"
+53,"TEXT_GAIUSC308_00975_CID_000_020","……偏属性クリスタルがそろったな。
+これで、この船は本当の姿を取り戻し、
+どんな嵐も突破する力を、手に入れられるだろう。"
+54,"TEXT_GAIUSC308_00975_CID_000_021","この仕事は俺にしかできないこと。
+……そうなんだろ？"
+55,"TEXT_GAIUSC308_00975_CID_000_022","やってみせるさ。
+「エンタープライズ」を蘇らせてみせる。
+……少し時間をくれ、さっそく属性変換機構を作ろう。"
+56,"TEXT_GAIUSC308_00975_CID_000_023","エンタープライズ……。
+俺が居た……必要とされる俺が……。"
+57,"TEXT_GAIUSC308_00975_LIONNELLAIS_000_030","グリダニア・ランディングのロビーへ
+お入りになりますか？"
+58,"TEXT_GAIUSC308_00975_Q1_000_040","ロビーに移動しますか？"
+59,"TEXT_GAIUSC308_00975_A1_000_041","はい"
+60,"TEXT_GAIUSC308_00975_A1_000_042","いいえ"

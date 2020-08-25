@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNZ611_01879_SEQ_00","Maenne requires your help taking aetheric readings in new locations."
-1,"TEXT_HEAVNZ611_01879_SEQ_01","Maenne's scouts have reported several locations that appear to have been host to ancient battles, and have been tasked with obtaining readings of the sites' aetheric levels. However, the scouts scarce have the time to take accurate readings on account of the dragons stalking the area. Maenne asks you to help the scouts and bids you meet the scouting party near Sothton Walls. Speak with the southern scouting party dragoon to see what he requires."
-2,"TEXT_HEAVNZ611_01879_SEQ_02","The diresaurs that hulk about the area are proving to be a nuisance, preventing the scouting party from securely setting up their aetherometers. Distract them and slay three of the beasts so the dragoons can set up the aetherometers undistracted."
-3,"TEXT_HEAVNZ611_01879_SEQ_03","Your fight against the diresaurs provides much-needed exercise for you, and a much-needed distraction to the beleaguered dragoons. Return to the scouting party dragoon and confirm that they were able to safely set up their aetherometers."
-4,"TEXT_HEAVNZ611_01879_SEQ_04","The dragoons were able to set up the aetherometers without incident, and express some regret that they are unable to see you fight for longer."
+0,"TEXT_HEAVNZ611_01879_SEQ_00","飛竜泊のマエヌは、冒険者に助勢に向かってほしい場所があるようだ。"
+1,"TEXT_HEAVNZ611_01879_SEQ_01","マエヌに、戦場跡を調査している隊員の支援を頼まれた。ドラヴァニア雲海のサウストン・ウォールにいる「南方偵察隊の竜騎士」と話そう。"
+2,"TEXT_HEAVNZ611_01879_SEQ_02","南方偵察隊の竜騎士から、計測器を設置する間、敵の気を引くよう頼まれた。サウストン・ウォールで「<Sheet(BNpcName,3629,0)/>」を3体討伐しよう。"
+3,"TEXT_HEAVNZ611_01879_SEQ_03","ウェアドラゴンを討伐した。サウストン・ウォールの「南方偵察隊の竜騎士」に報告しよう。"
+4,"TEXT_HEAVNZ611_01879_SEQ_04","南方偵察隊の竜騎士に報告した。計測器の設置は、無事に完了したようだ。"
 5,"TEXT_HEAVNZ611_01879_SEQ_05",""
 6,"TEXT_HEAVNZ611_01879_SEQ_06",""
 7,"TEXT_HEAVNZ611_01879_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_HEAVNZ611_01879_SEQ_21",""
 22,"TEXT_HEAVNZ611_01879_SEQ_22",""
 23,"TEXT_HEAVNZ611_01879_SEQ_23",""
-24,"TEXT_HEAVNZ611_01879_TODO_00","Speak with the southern scouting party dragoon."
-25,"TEXT_HEAVNZ611_01879_TODO_01","Slay diresaurs."
-26,"TEXT_HEAVNZ611_01879_TODO_02","Report to the southern scouting party dragoon."
+24,"TEXT_HEAVNZ611_01879_TODO_00","南方偵察隊の竜騎士と話す"
+25,"TEXT_HEAVNZ611_01879_TODO_01","<Sheet(BNpcName,3629,0)/>を討伐"
+26,"TEXT_HEAVNZ611_01879_TODO_02","南方偵察隊の竜騎士に報告"
 27,"TEXT_HEAVNZ611_01879_TODO_03",""
 28,"TEXT_HEAVNZ611_01879_TODO_04",""
 29,"TEXT_HEAVNZ611_01879_TODO_05",""
@@ -49,13 +49,29 @@ int32,str,str
 45,"TEXT_HEAVNZ611_01879_TODO_21",""
 46,"TEXT_HEAVNZ611_01879_TODO_22",""
 47,"TEXT_HEAVNZ611_01879_TODO_23",""
-48,"TEXT_HEAVNZ611_01879_AIRPORTINVESTIGATOR01871_000_003","Our scouts have discovered sites that seem to have been host to ancient battles. To imagine the carnage that must have been wrought there..."
-49,"TEXT_HEAVNZ611_01879_MAENNE_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, while you were assisting our scouts to the northeast, two locations were discovered to the west that appear to be ancient battlefields. I think these would be ideal places to take aetheric measurements."
-50,"TEXT_HEAVNZ611_01879_MAENNE_000_001","I've sent scouts to each location already, but the ever-present threat of attack makes it difficult for them to obtain accurate readings. Please, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, ensure their safety whilst they perform their duties."
-51,"TEXT_HEAVNZ611_01879_MAENNE_000_002","Head to Sothton Walls first, and meet with my scout. He'll let you know what's required of you."
-52,"TEXT_HEAVNZ611_01879_MAENNE_000_013","My scout to the west will tell you what aid we require."
-53,"TEXT_HEAVNZ611_01879_SOUTHINVESTIGATOR01879_000_010","Ah, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, Maenne sent word of your arrival. Your strength shall prove to be a tremendous help to our work."
-54,"TEXT_HEAVNZ611_01879_SOUTHINVESTIGATOR01879_000_011","This area is crawling with diresaurs, making it impossible to set up the aetherometers to obtain accurate readings."
-55,"TEXT_HEAVNZ611_01879_SOUTHINVESTIGATOR01879_000_012","We need you to provide a distraction while we set up the aetherometers. If you slay three of them that should provide us ample time."
-56,"TEXT_HEAVNZ611_01879_SOUTHINVESTIGATOR01879_000_020","It shouldn't take long to finish setting up the aetherometers; we should be done by the time you slay three of them!"
-57,"TEXT_HEAVNZ611_01879_SOUTHINVESTIGATOR01879_000_030","Roar and gnash their teeth as they might, the diresaurs were no match for the likes of you. We managed to set up the aetherometers without incident─although I must admit it would've been a treat to see you fight for a bit longer."
+48,"TEXT_HEAVNZ611_01879_AIRPORTINVESTIGATOR01871_000_003","仲間が見回ったところ、
+古戦場らしき場所を発見したそうですよ。"
+49,"TEXT_HEAVNZ611_01879_MAENNE_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>殿が、北東方面に赴いている間、
+ここより西に2ヶ所、戦場跡らしき場所があることが判明した。
+我々は、それらの場所でもエーテルを計測したい。"
+50,"TEXT_HEAVNZ611_01879_MAENNE_000_001","すでに、それぞれの戦場跡へ部隊を向かわせてある。
+しかし付近に魔物が多く、計測は難航しているようだ。
+各部隊を支援してもらえないだろうか？"
+51,"TEXT_HEAVNZ611_01879_MAENNE_000_002","まずは、「サウストンウォール」に向かい、
+私の部下と合流し、彼らの活動を助けてもらいたい。"
+52,"TEXT_HEAVNZ611_01879_MAENNE_000_013","まずは、「サウストンウォール」に向かい、
+私の部下と合流し、彼らの活動を助けてもらいたい。"
+53,"TEXT_HEAVNZ611_01879_SOUTHINVESTIGATOR01879_000_010","おや、冒険者さん。
+あなたが我々を助けてくれるのですか？
+それは非常に助かります！"
+54,"TEXT_HEAVNZ611_01879_SOUTHINVESTIGATOR01879_000_011","<Sheet(BNpcName,3629,0)/>どもに追い立てられて、
+偵察行動を妨害されておりましてね……。"
+55,"TEXT_HEAVNZ611_01879_SOUTHINVESTIGATOR01879_000_012","私が計測器を設置する間、敵の気を引きつけてくれませんか？
+<Sheet(BNpcName,3629,0)/>を3体倒していただければ、
+その間に作業を終えられます！"
+56,"TEXT_HEAVNZ611_01879_SOUTHINVESTIGATOR01879_000_020","私が計測器を設置する間、敵の気を引きつけてくれませんか？
+<Sheet(BNpcName,3629,0)/>を3体倒していただければ、
+その間に作業を終えられます！"
+57,"TEXT_HEAVNZ611_01879_SOUTHINVESTIGATOR01879_000_030","ありがとうございます、助かりました！
+お陰で、無事に計測器を設置することができましたよ。
+さすがは冒険者さん、その腕前、我らの手本としたいものです。"

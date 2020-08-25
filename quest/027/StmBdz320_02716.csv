@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ320_02716_SEQ_00","A deep frown mars Misago's features."
+0,"TEXT_STMBDZ320_02716_SEQ_00","イサリ村のミサゴは、困っているようだ。"
 1,"TEXT_STMBDZ320_02716_SEQ_01",""
 2,"TEXT_STMBDZ320_02716_SEQ_02",""
 3,"TEXT_STMBDZ320_02716_SEQ_03",""
@@ -25,10 +25,10 @@ int32,str,str
 21,"TEXT_STMBDZ320_02716_SEQ_21",""
 22,"TEXT_STMBDZ320_02716_SEQ_22",""
 23,"TEXT_STMBDZ320_02716_SEQ_23",""
-24,"TEXT_STMBDZ320_02716_TODO_00","Obtain crimson sea grass."
-25,"TEXT_STMBDZ320_02716_TODO_01","Obtain vimshrooms."
-26,"TEXT_STMBDZ320_02716_TODO_02","Obtain fresh island gedan meat."
-27,"TEXT_STMBDZ320_02716_TODO_03","Deliver the requested items to Misago."
+24,"TEXT_STMBDZ320_02716_TODO_00","<Sheet(EventItem,2002102,0)/>を入手"
+25,"TEXT_STMBDZ320_02716_TODO_01","<Sheet(EventItem,2002103,0)/>を入手"
+26,"TEXT_STMBDZ320_02716_TODO_02","<Sheet(BNpcName,5749,0)/>から<Sheet(EventItem,2002104,0)/>を入手"
+27,"TEXT_STMBDZ320_02716_TODO_03","ミサゴに依頼された品を渡す"
 28,"TEXT_STMBDZ320_02716_TODO_04",""
 29,"TEXT_STMBDZ320_02716_TODO_05",""
 30,"TEXT_STMBDZ320_02716_TODO_06",""
@@ -49,11 +49,24 @@ int32,str,str
 45,"TEXT_STMBDZ320_02716_TODO_21",""
 46,"TEXT_STMBDZ320_02716_TODO_22",""
 47,"TEXT_STMBDZ320_02716_TODO_23",""
-48,"TEXT_STMBDZ320_02716_MISAGO_000_000","An adventurer? Kami be praised! I need you to do something for me."
-49,"TEXT_STMBDZ320_02716_MISAGO_000_001","You see, my husband has taken ill and is currently bedridden. Unless he returns to work soon, we will be in dire straits. To speed his recovery along, I am thinking to make him a hearty stew and need your help gathering some of the necessary ingredients."
-50,"TEXT_STMBDZ320_02716_MISAGO_000_002","Please bring me a handful of vimshrooms that grow to the north of here, three slabs of island gedan meat, and some crimson sea grass from the Isle of Zekki."
-51,"TEXT_STMBDZ320_02716_MISAGO_000_003","The vimshrooms can be found to the north of here, as can the island gedan. You will have need to travel to the Isle of Zekki, however, to procure the crimson sea grass."
-52,"TEXT_STMBDZ320_02716_MISAGO_100_010","Ah, welcome back. Were you able to find everything I asked for?"
-53,"TEXT_STMBDZ320_02716_MISAGO_000_010","Fantastic! Now all that is left for me to do is dump these into a pot and allow the ingredients to stew."
-54,"TEXT_STMBDZ320_02716_MISAGO_000_011","While the fish we catch here are excellent, eating the same thing day in and day out is not exactly healthy. A well-balanced diet must include meat and a variety of vegetables."
-55,"TEXT_STMBDZ320_02716_MISAGO_000_012","Thank you, <If(PlayerParameter(4))>madam<Else/>sir</If>. Hopefully the food you gathered will have my husband back to full strength in next to no time! "
+48,"TEXT_STMBDZ320_02716_MISAGO_000_000","アンタ、腕っ節には自信がありそうだね。
+もしよかったら、ひとつ頼まれてくれないかい？
+夫が流行り病で倒れちまって、もうどうしたらいいか……。"
+49,"TEXT_STMBDZ320_02716_MISAGO_000_001","このままじゃ、生活もままなりゃしない。
+せめて精のつく肉鍋でも作って食わせてやりたいから、
+食材集めに協力してほしいんだ。"
+50,"TEXT_STMBDZ320_02716_MISAGO_000_002","まずは、ゼッキ島で採れる「<Sheet(EventItem,2002102,0)/>」、
+それから村の北で、松の根元に生えてる「<Sheet(EventItem,2002103,0)/>」と、
+「<Sheet(BNpcName,5749,0)/>」を仕留めて得られる「<Sheet(EventItem,2002104,0)/>」、それぞれ3つ頼む。"
+51,"TEXT_STMBDZ320_02716_MISAGO_000_003","ゼッキ島で採れる「<Sheet(EventItem,2002102,0)/>」、
+それから村の北で、松の根元に生えてる「<Sheet(EventItem,2002103,0)/>」と、
+「<Sheet(BNpcName,5749,0)/>」を仕留めて得られる「<Sheet(EventItem,2002104,0)/>」、それぞれ3つ頼む。"
+52,"TEXT_STMBDZ320_02716_MISAGO_100_010","頼んでいたものは、手に入ったかい？"
+53,"TEXT_STMBDZ320_02716_MISAGO_000_010","さすが、アタシが見込んだだけあるね！
+こいつでつくった肉鍋を食べりゃ、
+夫もすぐによくなるだろうよ。"
+54,"TEXT_STMBDZ320_02716_MISAGO_000_011","うちの村で獲れる魚は、なにより新鮮で味も格別だけど、
+そればっかりじゃ、栄養も偏るってもんさ。
+たまには肉も食わなくちゃね。"
+55,"TEXT_STMBDZ320_02716_MISAGO_000_012","アンタのおかげで、元の生活に戻れそうだ。
+ありがとうね、<If(PlayerParameter(4))>お嬢さん<Else/>お兄さん</If>。"

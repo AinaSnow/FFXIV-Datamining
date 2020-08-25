@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ802_02830_SEQ_00","Weidheri is in need of a helping hand."
+0,"TEXT_STMBDZ802_02830_SEQ_00","アラギリのウェイドヘリは、人手を探しているようだ。"
 1,"TEXT_STMBDZ802_02830_SEQ_01",""
 2,"TEXT_STMBDZ802_02830_SEQ_02",""
 3,"TEXT_STMBDZ802_02830_SEQ_03",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_STMBDZ802_02830_SEQ_21",""
 22,"TEXT_STMBDZ802_02830_SEQ_22",""
 23,"TEXT_STMBDZ802_02830_SEQ_23",""
-24,"TEXT_STMBDZ802_02830_TODO_00","Deliver bottles of arak to the soldiers of Ala Ghiri."
-25,"TEXT_STMBDZ802_02830_TODO_01","Speak with Weidheri."
+24,"TEXT_STMBDZ802_02830_TODO_00","同盟軍と解放軍の兵士に<Sheet(EventItem,2002216,0)/>を渡す"
+25,"TEXT_STMBDZ802_02830_TODO_01","ウェイドヘリと話す"
 26,"TEXT_STMBDZ802_02830_TODO_02",""
 27,"TEXT_STMBDZ802_02830_TODO_03",""
 28,"TEXT_STMBDZ802_02830_TODO_04",""
@@ -49,22 +49,41 @@ int32,str,str
 45,"TEXT_STMBDZ802_02830_TODO_21",""
 46,"TEXT_STMBDZ802_02830_TODO_22",""
 47,"TEXT_STMBDZ802_02830_TODO_23",""
-48,"TEXT_STMBDZ802_02830_WEIDHERI_000_000","Oi, adventurer. If you're planning to linger a while, would you mind making a small delivery for me?"
-49,"TEXT_STMBDZ802_02830_WEIDHERI_000_001","I thought I'd give the soldiers a sample of my wares, as a show of appreciation for taking back Ala Ghiri. With all these customers, though, I'm too busy by half."
-50,"TEXT_STMBDZ802_02830_WEIDHERI_000_002","Would you mind passing around a few bottles of this here spirits? I'm sure they've worked up quite a thirst."
-51,"TEXT_STMBDZ802_02830_WEIDHERI_000_003","After all they've done for us, a few bottles of spirits is the least I can offer to thank them."
-52,"TEXT_STMBDZ802_02830_SOLDIERA02830_000_010","Is there something I can help you with, <If(PlayerParameter(4))>miss<Else/>sir</If>?"
-53,"TEXT_STMBDZ802_02830_SOLDIERA02830_000_011","A bottle of spirits? Why, how generous of them. With my shift ending soon, this is just what I needed to relax."
-54,"TEXT_STMBDZ802_02830_SOLDIERB02830_000_012","Yes? What is it?"
-55,"TEXT_STMBDZ802_02830_SOLDIERB02830_000_013","Oh my, a bottle of Gyr Abanian spirits. I take it the people here are in a celebrating mood? Hmmm... I think I'll go and have a drink right now."
-56,"TEXT_STMBDZ802_02830_HEWELIN_000_014","<If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>Gods, am I thirsty...<Else/>Why is it so insufferably hot today...</If><Else/><If(LessThan(PlayerParameter(11),17))>Why is it so insufferably hot today...<Else/>Gods, am I thirsty...</If></If>"
-57,"TEXT_STMBDZ802_02830_HEWELIN_000_015","A bottle of spirits to celebrate? This couldn't have come at a better time. Thank you."
-58,"TEXT_STMBDZ802_02830_HEWELIN_000_016","The Gyr Abanians always were a hospitable lot. Thankfully some things never change."
-59,"TEXT_STMBDZ802_02830_PALEMORNING_000_017","<If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>Good evening<Else/>Good morning</If><Else/><If(LessThan(PlayerParameter(11),17))>Good day<Else/>Good evening</If></If>, adventurer. What can I do for you?"
-60,"TEXT_STMBDZ802_02830_PALEMORNING_000_018","That's awfully kind of you. Obviously I can't drink this now, but pass along my thanks all the same."
-61,"TEXT_STMBDZ802_02830_PALEMORNING_000_019","It's an awfully tempting gift, but I really should wait until my watch is over."
-62,"TEXT_STMBDZ802_02830_WEIDHERI_000_020","Thanks for that. Nothing like a bottle of spirits to lift one's spirits, I always say."
-63,"TEXT_STMBDZ802_02830_WEIDHERI_000_021","<sigh> Ala Ghiri's been through so much over the years. It does my heart good to know we can breathe free again."
-64,"TEXT_STMBDZ802_02830_WEIDHERI_000_022","That's why I decided to give these brave soldiers my very best bottles of arak. It's a special brew made right here in Ala Ghiri."
-65,"TEXT_STMBDZ802_02830_WEIDHERI_000_023","To be honest I'm not sure how I'll replenish my stocks, but it's worth it to see everyone enjoying themselves. We've had enough worrying to last us a lifetime."
-66,"TEXT_STMBDZ802_02830_WEIDHERI_000_024","For now I say we drink, and enjoy the taste of victory."
+48,"TEXT_STMBDZ802_02830_WEIDHERI_000_000","冒険者殿、届け物をお願いできないだろうか。"
+49,"TEXT_STMBDZ802_02830_WEIDHERI_000_001","アラギリのために戦った兵士たちを、ねぎらってやりたいんだが、
+大口の客のせいで手が離せないんだ。"
+50,"TEXT_STMBDZ802_02830_WEIDHERI_000_002","街を守るために働いてる彼らに、
+「<Sheet(EventItem,2002216,0)/>」を差し入れてくれないか？"
+51,"TEXT_STMBDZ802_02830_WEIDHERI_000_003","街を守るために働いてる彼らに、
+「<Sheet(EventItem,2002216,0)/>」を差し入れてくれないか？"
+52,"TEXT_STMBDZ802_02830_SOLDIERA02830_000_010","俺になにか用か？"
+53,"TEXT_STMBDZ802_02830_SOLDIERA02830_000_011","へえ、ギラバニアの酒か。
+任務明けにでも、飲ませてもらうよ。
+……早く交代にならないもんかな。"
+54,"TEXT_STMBDZ802_02830_SOLDIERB02830_000_012","任務中なんだけど……何？"
+55,"TEXT_STMBDZ802_02830_SOLDIERB02830_000_013","<Sheet(EventItem,2002216,0)/>ね。
+故郷のお酒を……しかも、こんな上物を飲めるなんて、
+アラギリを取り戻したという実感が沸いてきたわ。"
+56,"TEXT_STMBDZ802_02830_HEWELIN_000_014","のど渇いたなぁ。"
+57,"TEXT_STMBDZ802_02830_HEWELIN_000_015","祝い酒に<Sheet(EventItem,2002216,0)/>とは、いかにもギラバニアらしい。
+粋な計らいだぜ。"
+58,"TEXT_STMBDZ802_02830_HEWELIN_000_016","祝い酒に<Sheet(EventItem,2002216,0)/>とは、いかにもギラバニアらしい。
+粋な計らいだぜ。"
+59,"TEXT_STMBDZ802_02830_PALEMORNING_000_017","おや、冒険者さん。
+どうしたんだい？"
+60,"TEXT_STMBDZ802_02830_PALEMORNING_000_018","ありがたいけど、まだ任務中なんでね。
+歩哨が終わったら、飲ませてもらうよ。"
+61,"TEXT_STMBDZ802_02830_PALEMORNING_000_019","ありがたいけど、まだ任務中なんでね。
+歩哨が終わったら、飲ませてもらうよ。"
+62,"TEXT_STMBDZ802_02830_WEIDHERI_000_020","冒険者殿、ありがとよ。
+皆にも喜んでもらえたようで、なによりだ。"
+63,"TEXT_STMBDZ802_02830_WEIDHERI_000_021","ここは東方交易の中継地点として栄えた街だったが、
+帝国の支配のせいで、ずいぶん廃れてしまった。
+奴ら、飛空艇を使って物流を牛耳りやがって……。"
+64,"TEXT_STMBDZ802_02830_WEIDHERI_000_022","この20年、上等な<Sheet(EventItem,2002216,0)/>は、
+帝国兵や、市民権を手に入れた裏切り者どもの手に渡っていた。
+だが、それも終わりだ。"
+65,"TEXT_STMBDZ802_02830_WEIDHERI_000_023","正直、財布にゃ厳しかったが、
+仲間や同胞に飲んでもらえて、酒も喜んでるさ。"
+66,"TEXT_STMBDZ802_02830_WEIDHERI_000_024","今だけは、勝利の味に酔いしれよう。
+……乾杯！"

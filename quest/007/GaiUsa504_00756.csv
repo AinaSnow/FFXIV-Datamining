@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSA504_00756_SEQ_00","Hihibaru has information that will <Emphasis>surely</Emphasis> lead you to Lahabrea."
-1,"TEXT_GAIUSA504_00756_SEQ_01","Hihibaru claims to have witnessed a masked man meeting his beastman accomplices in secret. Make your way to the ash-covered ground northeast of Highbridge, and use a smoldering coal to arrange a similar rendezvous."
-2,"TEXT_GAIUSA504_00756_SEQ_02","The smoldering coal gives rise to a column of smoke, which serves to summon a bandit. Forced to defend yourself, you slay the man and find upon his corpse a peculiar scroll bearing the mark of Rhalgr, the Destroyer. Return to Highbridge and present your find to Hihibaru."
-3,"TEXT_GAIUSA504_00756_SEQ_03","It would seem that Lahabrea has clandestine connections not only with the Qiqirn, but also the Ala Mhigans. Your investigation begins to unfold, and where it may lead is anyone's guess..."
+0,"TEXT_GAIUSA504_00756_SEQ_00","ハイブリッジの商人ヒヒバルは、仮面の男について決定的な情報を思い出したようだ。"
+1,"TEXT_GAIUSA504_00756_SEQ_01","仮面の男らしき人物が、狼煙を使って蛮族とやり取りをしていたらしい。ハイブリッジの北東の「<Sheet(EObj,2001965,0)/>」で「<Sheet(EventItem,2000604,0)/>」を使い、敵をおびきだしてみよう。"
+2,"TEXT_GAIUSA504_00756_SEQ_02","<Sheet(BNpcName,1997,0)/>を討伐したところ、「<Sheet(EventItem,2000935,0)/>」を入手した。ハイブリッジの商人「ヒヒバル」に渡そう。"
+3,"TEXT_GAIUSA504_00756_SEQ_03","どうやら仮面の男は、キキルン族だけでなくアラミゴ人とも影でつながっているらしい。仮面の男の調査はまだまだ続きそうだ……。"
 4,"TEXT_GAIUSA504_00756_SEQ_04",""
 5,"TEXT_GAIUSA504_00756_SEQ_05",""
 6,"TEXT_GAIUSA504_00756_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSA504_00756_SEQ_21",""
 22,"TEXT_GAIUSA504_00756_SEQ_22",""
 23,"TEXT_GAIUSA504_00756_SEQ_23",""
-24,"TEXT_GAIUSA504_00756_TODO_00","Use the smoldering coal at the specified location."
-25,"TEXT_GAIUSA504_00756_TODO_01","Present the ward of the Destroyer to Hihibaru."
+24,"TEXT_GAIUSA504_00756_TODO_00","<Sheet(EObj,2001965,0)/>に<Sheet(EventItem,2000604,0)/>を使う"
+25,"TEXT_GAIUSA504_00756_TODO_01","ヒヒバルに<Sheet(EventItem,2000935,0)/>を渡す"
 26,"TEXT_GAIUSA504_00756_TODO_02",""
 27,"TEXT_GAIUSA504_00756_TODO_03",""
 28,"TEXT_GAIUSA504_00756_TODO_04",""
@@ -49,18 +49,36 @@ int32,str,str
 45,"TEXT_GAIUSA504_00756_TODO_21",""
 46,"TEXT_GAIUSA504_00756_TODO_22",""
 47,"TEXT_GAIUSA504_00756_TODO_23",""
-48,"TEXT_GAIUSA504_00756_SYSTEM_100_000","To accept this quest, you must abandon the current main scenario quest. Open the corresponding entry in the journal or duty list and select “Abandon.”"
-49,"TEXT_GAIUSA504_00756_HIHIBARU_000_000","I've finally got some honest-to-gods information on your masked man! Why so confident? Because I <Emphasis>saw</Emphasis> him with my own two eyes!"
-50,"TEXT_GAIUSA504_00756_HIHIBARU_000_001","I was out for an evening stroll, minding my own business, when I noticed a column of smoke rising from a cliff over at Thal's Respite. Curious, I took myself there to find a masked man─<Emphasis>your</Emphasis> masked man, I'm sure of it─standing by a fire."
-51,"TEXT_GAIUSA504_00756_HIHIBARU_000_002","As if in answer, some Qiqirn appeared soon after, and the group began talking at length. I'm afraid I was too far out of earshot to hear much of anything."
-52,"TEXT_GAIUSA504_00756_HIHIBARU_000_003","After the group had dispersed, an idea came to me: if you were to use this smoldering coal to start a fire, you might be able to arrange a similar meeting. It will be dangerous, I shouldn't doubt, but you've proven yourself more than a match for a pack of rats."
-53,"TEXT_GAIUSA504_00756_HIHIBARU_000_004","So, what do you think? That's some sound, reliable information, even if I do say so myself. Well worth all the lingering about you've been doing, wouldn't you say?"
-54,"TEXT_GAIUSA504_00756_DUMMYTODO_000_010","//Use stuff and kill things."
-55,"TEXT_GAIUSA504_00756_HIHIBARU_000_020","Back so soon? Were you able to find any clues leading to your masked man?"
-56,"TEXT_GAIUSA504_00756_HIHIBARU_000_021","Bound for the deletion train."
-57,"TEXT_GAIUSA504_00756_HIHIBARU_000_030","<gasp> Th-This scroll! It bears a prayer to Rhalgr, the Destroyer!"
-58,"TEXT_GAIUSA504_00756_HIHIBARU_000_031","In case you're unfamiliar, Rhalgr is the guardian deity of Ala Mhigo, which is currently under Garlean rule."
-59,"TEXT_GAIUSA504_00756_HIHIBARU_000_032","It's <Emphasis>highly</Emphasis> uncommon for folk of other nations to revere Him. I'd wager my last gil that your assailant was Ala Mhigan."
-60,"TEXT_GAIUSA504_00756_HIHIBARU_000_033","It seems this masked man of yours is very well connected. I must confess, the merchant in me envies such a diverse network of contacts."
-61,"TEXT_GAIUSA504_00756_HIHIBARU_000_034","That selfsame merchant also senses danger ahead...and darkness besides. Are you certain you'd rather not take things nice and slow here at Highbridge?"
-62,"TEXT_GAIUSA504_00756_POP_MESSAGE_000","You sense a hostile presence!"
+48,"TEXT_GAIUSA504_00756_SYSTEM_100_000","受注するには、進行中のメインクエストを破棄する必要があります。
+メインコマンドの「コンテンツ情報」から、
+「ジャーナル」を選び、破棄してください。"
+49,"TEXT_GAIUSA504_00756_HIHIBARU_000_000","それにしても「仮面の男」ねえ……はっ！
+あんたさんが探している「仮面の男」について、
+いい情報を思い出しました！"
+50,"TEXT_GAIUSA504_00756_HIHIBARU_000_001","これは間違いない情報ですよ！？
+何せ、私もこの目で見たんですから！"
+51,"TEXT_GAIUSA504_00756_HIHIBARU_000_002","その男はね「ザルの祠」あたりの崖で、
+「狼煙」を使って、蛮族とやり取りしていたんです。
+さすがに、その内容まではわかりませんでしたが……。"
+52,"TEXT_GAIUSA504_00756_HIHIBARU_000_003","そこで、ちょっと閃いたのですよ！
+「仮面の男」みたいに、この「<Sheet(EventItem,2000604,0)/>」で狼煙を上げれば、
+男と繋がりのある奴をおびき出せるんじゃないかってね！"
+53,"TEXT_GAIUSA504_00756_HIHIBARU_000_004","どうです、いい情報でしょう！？
+……で、ご相談なんですがね。
+これが終わったら、しばらくここにご逗留ってことは……。"
+54,"TEXT_GAIUSA504_00756_DUMMYTODO_000_010","指定地点(丘の上)で「<Sheet(EventItem,2000604,0)/>」を使い、ポップした盗賊(アラミゴ人)を倒す"
+55,"TEXT_GAIUSA504_00756_HIHIBARU_000_020","帰ってきましたか、冒険者さん。
+探し人……「仮面の男」の手がかりは掴めましたか？"
+56,"TEXT_GAIUSA504_00756_HIHIBARU_000_021","（★未使用／削除予定★）"
+57,"TEXT_GAIUSA504_00756_HIHIBARU_000_030","これは……いや、間違いない。
+冒険者さん、こいつは「壊神ラールガー」の神符ですよ！"
+58,"TEXT_GAIUSA504_00756_HIHIBARU_000_031","「壊神ラールガー」ってのは、
+帝国に占領された都市「アラミゴ」の守護神でしてね。"
+59,"TEXT_GAIUSA504_00756_HIHIBARU_000_032","その神符となりゃぁ、愛国心の強いアラミゴ人なら、
+まず間違いなく持っているはずです。"
+60,"TEXT_GAIUSA504_00756_HIHIBARU_000_033","そんなものを持った奴が取引に現れたってことは、
+「仮面の男」は蛮族どころか、アラミゴ人とも
+繋がりがあるってことなんですかねぇ……？"
+61,"TEXT_GAIUSA504_00756_HIHIBARU_000_034","……どちらにしても、お気をつけを。
+あんたさんの探し人は、かなり厄介な奴のようですよ。"
+62,"TEXT_GAIUSA504_00756_POP_MESSAGE_000","敵の気配を感じた！！"

@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB711_00906_SEQ_00","A wounded animal is a dangerous animal, and the White Ram convalescing in Fallgourd Float fits the bill. Whatever Isaudorel has in mind, best to say yes."
-1,"TEXT_GAIUSB711_00906_SEQ_01","Laid up at an inn after being wounded by the Ixal, Isaudorel has no choice but to ask another to hunt down the scouts. They should still be to the northeast of Fallgourd Float, living off wild game. Hide yourself near the antelope carcass, and slay the Ixali wildtalons when they appear."
-2,"TEXT_GAIUSB711_00906_SEQ_02","The hunters become the hunted, and the wildtalons prove no match for your road-hardened ferity. Take a moment to reflect on whether you are growing too steely for your own good, then report the kill to Isaudorel."
-3,"TEXT_GAIUSB711_00906_SEQ_03","Isaudorel is sincerely grateful for your work. Clearly, the thought of those two wildtalons at large had weighed on his mind. Listening to him plot further vengeance, it occurs to you that in wounding Isaudorel, the Ixal have made him twice as dangerous..."
+0,"TEXT_GAIUSB711_00906_SEQ_00","神勇隊「白羊師団」のイゾドレールは、自分の恨みを晴らしてほしいようだ。"
+1,"TEXT_GAIUSB711_00906_SEQ_01","彼はイクサルの斥候に不意打ちを食らい負傷したらしい。フォールゴウドの北東にある「<Sheet(EObj,2002133,0)/>」で待機し、現れた「<Sheet(BNpcName,660,0)/>」を討伐しよう。"
+2,"TEXT_GAIUSB711_00906_SEQ_02","見事<Sheet(BNpcName,660,0)/>を倒すことができた。フォールゴウドの浮かぶコルク亭にいる「イゾドレール」に報告しよう。"
+3,"TEXT_GAIUSB711_00906_SEQ_03","イゾドレールにイクサル族の討伐を報告した。冒険者の働きに彼は感謝し、次の戦いへの闘志をたぎらせているようだ。"
 4,"TEXT_GAIUSB711_00906_SEQ_04",""
 5,"TEXT_GAIUSB711_00906_SEQ_05",""
 6,"TEXT_GAIUSB711_00906_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSB711_00906_SEQ_21",""
 22,"TEXT_GAIUSB711_00906_SEQ_22",""
 23,"TEXT_GAIUSB711_00906_SEQ_23",""
-24,"TEXT_GAIUSB711_00906_TODO_00","Lurk by the antelope carcass and slay the Ixali wildtalons."
-25,"TEXT_GAIUSB711_00906_TODO_01","Report to Isaudorel."
+24,"TEXT_GAIUSB711_00906_TODO_00","<Sheet(EObj,2002133,0)/>で待機し<Sheet(BNpcName,660,0)/>を討伐"
+25,"TEXT_GAIUSB711_00906_TODO_01","イゾドレールに報告"
 26,"TEXT_GAIUSB711_00906_TODO_02",""
 27,"TEXT_GAIUSB711_00906_TODO_03",""
 28,"TEXT_GAIUSB711_00906_TODO_04",""
@@ -49,11 +49,20 @@ int32,str,str
 45,"TEXT_GAIUSB711_00906_TODO_21",""
 46,"TEXT_GAIUSB711_00906_TODO_22",""
 47,"TEXT_GAIUSB711_00906_TODO_23",""
-48,"TEXT_GAIUSB711_00906_ISAUDOREL_000_000","Damn and blast, that hurts! Damn me for being careless about those Ixal; blast them for slicing me up like a side of fish!"
-49,"TEXT_GAIUSB711_00906_ISAUDOREL_000_001","Here now, before you go all the way back to Coerthas, why not stretch your legs a little? Get those Ixali wildtalons for me."
-50,"TEXT_GAIUSB711_00906_ISAUDOREL_000_002","They had the look of newcomers to this area; that means they won't stray far from where I saw them─the Gelmorra Ruins. Look for fresh kill, something big."
-51,"TEXT_GAIUSB711_00906_DUMMY_000_010",""
-52,"TEXT_GAIUSB711_00906_DUMMYTODO_000_010",""
-53,"TEXT_GAIUSB711_00906_ISAUDOREL_000_020","Did me a good turn, did you? Much appreciated, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! I'll be paying their friends a visit when I'm back on my feet."
-54,"TEXT_GAIUSB711_00906_ISAUDOREL_000_021","Still, Molkot's going to tear me a new one for letting the wildtalons get a jump on me. This way, I can at least tell her the birds didn't live too long afterwards."
-55,"TEXT_GAIUSB711_00906_POP_MESSAGE_000","You sense a hostile presence!"
+48,"TEXT_GAIUSB711_00906_ISAUDOREL_000_000","あ～痛たたたた。
+この怪我は、イクサル族の斥候どもにやられたんだ。
+油断してたとはいえ、怪我まで負わされるとは……。"
+49,"TEXT_GAIUSB711_00906_ISAUDOREL_000_001","お前さん、冒険者だろ？
+オレの代わりにヤツらをボコってきてくれないか。"
+50,"TEXT_GAIUSB711_00906_ISAUDOREL_000_002","ヤツら、この地へ来たばかりのようだった。
+きっとまだ「ゲルモラ遺跡」周辺をウロウロしてるはずだ。
+今ごろは、獣でも狩って飯を食ってるだろうよ。"
+51,"TEXT_GAIUSB711_00906_DUMMY_000_010","eobj「<Sheet(EObj,2002133,0)/>」にアクセス。イクサルがポップして倒す。2匹。"
+52,"TEXT_GAIUSB711_00906_DUMMYTODO_000_010","（★未使用／削除予定★）"
+53,"TEXT_GAIUSB711_00906_ISAUDOREL_000_020","おう、オレの無念を晴らしてくれたようじゃないか。
+感謝するぜ、冒険者！
+ヤツらめ、次にあった時は、必ずオレの手でボコってやる！"
+54,"TEXT_GAIUSB711_00906_ISAUDOREL_000_021","……まさか、イクサル族に後れをとったとなりゃ、
+鬼のモルコット師団長に、爪でバリバリに引っかかれちまう。
+バレる前に解決してよかったぜ……。"
+55,"TEXT_GAIUSB711_00906_POP_MESSAGE_000","敵の気配を感じた！！"

@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSC410_00985_SEQ_00","In times of simmering hostility, Ser Cailean would undoubtedly appreciate the aid of an unsuspected adventurer."
-1,"TEXT_GAIUSC410_00985_SEQ_01","The Garlean Empire is making a long arm across the border from Mor Dhona, stirring the grass around Monument Tower. Seek traces of Garlemald in three locations, and drive away any Garleans you encounter."
-2,"TEXT_GAIUSC410_00985_SEQ_02","Your vigilance has driven out all the Garleans in the area without a confrontation between the forces of Ishgard and Garlemald. Report to Ser Pierremons that the work is done."
-3,"TEXT_GAIUSC410_00985_SEQ_03","Ser Pierremons is aghast at how thick the Garleans are upon the ground. All evidence points to a Garlean outpost in Mor Dhona, a place in which even an adventurer may find it no easy task to escape deadly scrutiny..."
+0,"TEXT_GAIUSC410_00985_SEQ_00","秘石の塔にいるカイリアンは、冒険者にあるものたちを駆逐してほしいようだ。"
+1,"TEXT_GAIUSC410_00985_SEQ_01","ガレマール帝国基地の動きが活発になっているらしい。3ヶ所の監視地点で帝国兵の痕跡がないか調べ、帝国兵を見つけたら追い払おう。"
+2,"TEXT_GAIUSC410_00985_SEQ_02","付近にいる帝国兵をすべて駆逐できたようだ。オーラムヴェイル前にいる「ピエルモン」に報告しよう。"
+3,"TEXT_GAIUSC410_00985_SEQ_03","ピエルモンに報告した。彼が言うには、モードゥナにはガレマール帝国軍の基地があるらしい。モードゥナを探索するときは、十分に気をつけよう。"
 4,"TEXT_GAIUSC410_00985_SEQ_04",""
 5,"TEXT_GAIUSC410_00985_SEQ_05",""
 6,"TEXT_GAIUSC410_00985_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSC410_00985_SEQ_21",""
 22,"TEXT_GAIUSC410_00985_SEQ_22",""
 23,"TEXT_GAIUSC410_00985_SEQ_23",""
-24,"TEXT_GAIUSC410_00985_TODO_00","Search for signs of Garleans."
-25,"TEXT_GAIUSC410_00985_TODO_01","Report to Pierremons at the Aurum Vale."
+24,"TEXT_GAIUSC410_00985_TODO_00","帝国兵の痕跡を調べる"
+25,"TEXT_GAIUSC410_00985_TODO_01","オーラムヴェイルのピエルモンに報告"
 26,"TEXT_GAIUSC410_00985_TODO_02",""
 27,"TEXT_GAIUSC410_00985_TODO_03",""
 28,"TEXT_GAIUSC410_00985_TODO_04",""
@@ -49,16 +49,33 @@ int32,str,str
 45,"TEXT_GAIUSC410_00985_TODO_21",""
 46,"TEXT_GAIUSC410_00985_TODO_22",""
 47,"TEXT_GAIUSC410_00985_TODO_23",""
-48,"TEXT_GAIUSC410_00985_CAILEAN_000_000","I say, are you the─ Forgive me, I am Cailean, a bannerman of House Haillenarte. Are you not the adventurer who proved our liege lord's innocence?"
-49,"TEXT_GAIUSC410_00985_CAILEAN_000_001","Ah, it <Emphasis>is</Emphasis> you! You are forged of metal true, <If(PlayerParameter(4))>madam<Else/>sir</If>, and I rejoice to meet you, for there is a delicate mission that only a <If(PlayerParameter(4))>woman<Else/>man</If> most steadfast may be trusted with."
-50,"TEXT_GAIUSC410_00985_CAILEAN_000_002","From high upon Monument Tower, we keep watch over the doings of the Garlean outpost. They have been far too active for our hearts' ease lately, and we must discourage these forays without resorting to outright hostility."
-51,"TEXT_GAIUSC410_00985_CAILEAN_000_003","Make a round of the three hot spots and look for any trace of the Garleans. Ser Pierremons awaits at the Aurum Vale for your report. The speed of the Fury to you, and Her ruth as well."
-52,"TEXT_GAIUSC410_00985_IMPERIALSOLA_000_010",""
-53,"TEXT_GAIUSC410_00985_IMPERIALSOLB_000_020","You ask if I'm a soldier of Garlemald? Why, this savage land is outside the fold of the Empire! 'Twould be strange indeed for you to see a Garlean here. You <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>doubt<UIGlow>01</UIGlow><UIForeground>01</UIForeground> me? I care not!"
-54,"TEXT_GAIUSC410_00985_IMPERIALSOLB_000_021","Why would a soldier of Garlemald venture into enemy territory? An enemy foolish as well as barbaric, for none can resist our─what I mean to say is the mighty Garl─damn it, retreat, <Emphasis>retreat</Emphasis>!"
-55,"TEXT_GAIUSC410_00985_IMPERIALSOLB_000_022","What lowly adventurer dares pluck at my coat thus? I am a soldier, and therefore your better. I've no call to tell you any more, and a pout would suit you better than that pitiful <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>doubt<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
-56,"TEXT_GAIUSC410_00985_IMPERIALSOLC_000_030",""
-57,"TEXT_GAIUSC410_00985_PIERREMONS_000_040","What? All three? You found Garleans at <Emphasis>all</Emphasis> three locations?"
-58,"TEXT_GAIUSC410_00985_PIERREMONS_000_041","We'd espied them slipping over the border from Mor Dhona to survey something, but... These forays must be more frequent than we thought."
-59,"TEXT_GAIUSC410_00985_PIERREMONS_000_042","We must increase patrols in the area. I bid you beware, adventurer, if your footloose ways lead you to Mor Dhona. Return safely, and be our eyes in the wilderness again."
-60,"TEXT_GAIUSC410_00985_POP_MESSAGE_000","Strangers are nearby...and they smell of engine oil!"
+48,"TEXT_GAIUSC410_00985_CAILEAN_000_000","もしや、と思っていたのですが……
+<If(PlayerParameter(4))>貴女<Else/>貴方</If>はアインハルト家の異端者嫌疑を
+晴らしてくれたという、冒険者ではありませんか？"
+49,"TEXT_GAIUSC410_00985_CAILEAN_000_001","……やはり、そうでしたか！
+わたしもアインハルト家に仕える騎兵です。
+誠実な<If(PlayerParameter(4))>貴女<Else/>貴方</If>に、ひとつ大事な任務をお願いしたいのです。"
+50,"TEXT_GAIUSC410_00985_CAILEAN_000_002","ここ秘石の塔は、帝国基地の監視所でもあります。
+近頃、彼らは動きが活発でして……
+<If(PlayerParameter(4))>貴女<Else/>貴方</If>には、この地に侵入した帝国兵を一掃してほしいのです。"
+51,"TEXT_GAIUSC410_00985_CAILEAN_000_003","3つの監視地点を巡り、帝国兵の痕跡がないか見てください。
+見回りが終わったら「オーラムヴェイル」の
+「ピエルモン」に報告してください。頼みましたよ。"
+52,"TEXT_GAIUSC410_00985_IMPERIALSOLA_000_010","（★未使用／削除予定★）"
+53,"TEXT_GAIUSC410_00985_IMPERIALSOLB_000_020","私が帝国兵だとは笑わせる。
+どこに、そんな証拠があるというのだ。
+「問い詰め」たところで埃ひとつ出ぬわ。"
+54,"TEXT_GAIUSC410_00985_IMPERIALSOLB_000_021","……ぐぅっ、いや、それは……見ればわかるであろう！
+て、撤退ーーッ！"
+55,"TEXT_GAIUSC410_00985_IMPERIALSOLB_000_022","……だから、なんだというのだ。
+「問い詰める」こともできぬとは、
+やはり、証拠も根拠もないのであろう！"
+56,"TEXT_GAIUSC410_00985_IMPERIALSOLC_000_030","（★未使用／削除予定★）"
+57,"TEXT_GAIUSC410_00985_PIERREMONS_000_040","……なんと！
+3ヶ所すべてで、帝国兵が見つかったですって！？"
+58,"TEXT_GAIUSC410_00985_PIERREMONS_000_041","連中は、モードゥナに築いた拠点から、
+時折やってきて、何やら調査しているようなのです。"
+59,"TEXT_GAIUSC410_00985_PIERREMONS_000_042","……我々も、周辺の巡察を密にせねばなりませんね。
+<If(PlayerParameter(4))>貴女<Else/>貴方</If>も、モードゥナに行くのならば、お気をつけて。
+力強い助力に感謝します。"
+60,"TEXT_GAIUSC410_00985_POP_MESSAGE_000","敵の気配を感じた！！"

@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSTAN004_00137_SEQ_00","Guildmaster Geva has a difficult task for you."
-1,"TEXT_CLSTAN004_00137_SEQ_01","In order to gauge your aptitude for materia melding, Geva instructs you to prepare a pair of materia-enhanced goatskin leggings. Though the aldgoat leather and cotton cloth you require are common in Thanalan, you need not travel to the sultanate to procure them. However, such a trip may be warranted if you know nothing of materia, as a goblin scholar living in central Thanalan is said to be an authority on the subject. Prepare the requested item and deliver it to the guildmaster."
-2,"TEXT_CLSTAN004_00137_SEQ_02","Your work elicits no complaints from the guildmaster this time. However, she still doubts your understanding of the leatherworker's craft, and demands that you redouble your efforts to hone your skills. She also mentions that, were you to improve beyond all recognition, you <Emphasis>might</Emphasis> be eligible to contribute some work to the annual exhibition─though such lofty goals are yet far off.
+0,"TEXT_CLSTAN004_00137_SEQ_00","革細工師ギルドのゲヴァは、冒険者に製作を依頼したい防具があるようだ。"
+1,"TEXT_CLSTAN004_00137_SEQ_01","ゲヴァからマテリアをつけた<Sheet(Item,3784,0)/>の納品を依頼された。<Sheet(Item,3784,0)/>の材料は、グリダニア都市内では取り扱っていないという。「黒檀商店街」のマーケットボードなどを使って探してみよう。マテリアを装着する詳しい手順は、中央ザナラーンの「狼煙の丘」にいる職人たちが説明してくれるようだ。「<Sheet(Item,3784,0)/>」を1足調達し、任意の「マテリア」を装着して、革細工師ギルドの「ゲヴァ」に渡そう。"
+2,"TEXT_CLSTAN004_00137_SEQ_02","ゲヴァにマテリア付きの<Sheet(Item,3784,0)/>を渡した。まだまだ完璧には程遠い出来だと言うが、手間のかかる仕事にも泣き事を言わない冒険者の姿勢を褒めてくれるゲヴァ。彼女の言葉を胸に、さらに革細工の鍛錬に励もう。
 
-※The next leatherworker quest will be available from Geva upon reaching level 25."
+※革細工師のレベルが25以上になると、ゲヴァから次の革細工師クエストを受注することができます。"
 3,"TEXT_CLSTAN004_00137_SEQ_03",""
 4,"TEXT_CLSTAN004_00137_SEQ_04",""
 5,"TEXT_CLSTAN004_00137_SEQ_05",""
@@ -27,7 +27,7 @@ int32,str,str
 21,"TEXT_CLSTAN004_00137_SEQ_21",""
 22,"TEXT_CLSTAN004_00137_SEQ_22",""
 23,"TEXT_CLSTAN004_00137_SEQ_23",""
-24,"TEXT_CLSTAN004_00137_TODO_00","Deliver a pair of materia-enhanced goatskin leggings to Geva."
+24,"TEXT_CLSTAN004_00137_TODO_00","ゲヴァにマテリア付きの<Sheet(Item,3784,0)/>を納品"
 25,"TEXT_CLSTAN004_00137_TODO_01",""
 26,"TEXT_CLSTAN004_00137_TODO_02",""
 27,"TEXT_CLSTAN004_00137_TODO_03",""
@@ -51,29 +51,70 @@ int32,str,str
 45,"TEXT_CLSTAN004_00137_TODO_21",""
 46,"TEXT_CLSTAN004_00137_TODO_22",""
 47,"TEXT_CLSTAN004_00137_TODO_23",""
-48,"TEXT_CLSTAN004_00137_GEVA_000_1","Ah, there you are, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I hope you've been working on your techniques, because I have a difficult task for you."
-49,"TEXT_CLSTAN004_00137_GEVA_000_2","Well, mayhap not as difficult as I had originally intended. I had thought to bid you prepare a hundred circles of aldgoat leather, but instead I want to gauge your aptitude for materia melding."
-50,"TEXT_CLSTAN004_00137_GEVA_000_3","You have at least a passing familiarity with materia, correct? The crystallized substance often used to enhance the properties of weapons and armor?"
-51,"TEXT_CLSTAN004_00137_GEVA_000_4","I certainly hope you do, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, because an experienced leatherworker is expected to possess the skills to meld materia to his wares."
-52,"TEXT_CLSTAN004_00137_GEVA_000_5","For this task, you will affix a single materia to a pair of goatskin leggings."
-53,"TEXT_CLSTAN004_00137_GEVA_100_5","What type of materia you use is of no consequence. What matters is your ability to successfully attach it."
-54,"TEXT_CLSTAN004_00137_GEVA_000_6","And it goes without saying that you must make the leggings as well. To do so, you'll need cotton cloth and aldgoat leather."
-55,"TEXT_CLSTAN004_00137_GEVA_000_7","Most cotton cloth is produced by the weavers of Ul'dah's Sunsilk Tapestries, while aldgoat leather is, of course, obtained from aldgoats, which roam the deserts of Thanalan."
-56,"TEXT_CLSTAN004_00137_GEVA_000_8","Lest you think I mean to send you all the way to the sultanate, fear not."
-57,"TEXT_CLSTAN004_00137_GEVA_000_9","If you can obtain your materials by perusing the market boards or by eliciting the help of friends, by all means, do so."
-58,"TEXT_CLSTAN004_00137_GEVA_000_10","That said, a trip to central Thanalan might be warranted if you know nothing of materia. There's a goblin somewhere out there who's said to be an authority on the subject."
-59,"TEXT_CLSTAN004_00137_GEVA_000_11","Now run along and get crafting, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>!"
-60,"TEXT_CLSTAN004_00137_GEVA_000_20","Are the leggings ready yet? I trust you didn't forget to attach a materia to it?"
-61,"TEXT_CLSTAN004_00137_GEVA_000_30","Well...they could be worse."
-62,"TEXT_CLSTAN004_00137_GEVA_000_31","I don't know how long you've been about this adventuring business, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, but did you know that leggings were once no more than strips of cloth or leather? It's true! We used to wrap each leg with a single long strip, from ankle to knee."
-63,"TEXT_CLSTAN004_00137_GEVA_000_32","Nowadays, of course, designs which extend to the thigh are far more popular. Soft, lightweight leggings like these provide the balance of protection and flexibility demanded by the Wood Wailers, the Gods' Quiver, and adventurers like your good self."
-64,"TEXT_CLSTAN004_00137_GEVA_000_33","Based on your leggings, I'd say you understood well the importance of these qualities─not to mention the basics of materia melding. Indeed, if I were to judge your performance on a scale of one to ten, I would give you a six─no, a <Emphasis>seven</Emphasis>."
-65,"TEXT_CLSTAN004_00137_GEVA_000_34","...The remaining three points, you ask?"
-66,"TEXT_CLSTAN004_00137_GEVA_000_35","Quite simple, really. Your leggings were made from skins, which were taken from living creatures."
-67,"TEXT_CLSTAN004_00137_GEVA_000_36","The Twelveswood is filled with a wealth of life, which we leatherworkers must take in order to craft our products."
-68,"TEXT_CLSTAN004_00137_GEVA_000_37","Do you know how that aldgoat lived? How it was killed and skinned? Do you understand how these skins find their way to our hands?"
-69,"TEXT_CLSTAN004_00137_GEVA_000_38","To understand this process is to understand life itself. Those leatherworkers whose creations truly <Emphasis>deserve</Emphasis> to bear the name of Fen–Yll have faced this burden and accepted it. To them, it's simply truth. Therein lies the difference between the good and the great."
-70,"TEXT_CLSTAN004_00137_GEVA_000_39","Your leggings are fine, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. It is you that needs improvement. Call me an incurable optimist, but I do not think it beyond you."
-71,"TEXT_CLSTAN004_00137_GEVA_000_40","Study your materials and learn their history. Practice your craft and keep discovering new techniques. That is still your path forward."
-72,"TEXT_CLSTAN004_00137_GEVA_000_41","And who knows? Mayhap one day I'll allow you to represent the guild in the annual exhibition, and pit your skills against the finest craftsmen in all of Gridania..."
-73,"TEXT_CLSTAN004_00137_GEVA_000_42","Of course, that day─should it ever come─is yet a long way off... Still, it is good to have a goal, however distant, is it not?"
+48,"TEXT_CLSTAN004_00137_GEVA_000_1","あら、また少し、腕を上げたみたいじゃない。
+期待しなければしないだけ、感動もひとしおねぇ。"
+49,"TEXT_CLSTAN004_00137_GEVA_000_2","粗皮100枚なめしの仕事を任せようかと
+思ってたけど、気が変わったわ。
+今回は「マテリア」の装着に挑戦してごらん。"
+50,"TEXT_CLSTAN004_00137_GEVA_000_3","「マテリア」の装着っていうのは、
+使い込んだ装備品から「マテリア」って結晶を精製して
+武器や防具にくっつけて、性能を向上させること。"
+51,"TEXT_CLSTAN004_00137_GEVA_000_4","マテリアの装着ができるのはクラフターだけだから、
+やり方を学んでおけば、冒険者なら損はしないでしょう。"
+52,"TEXT_CLSTAN004_00137_GEVA_000_5","今回は「<Sheet(Item,3784,0)/>」に
+「マテリア」をひとつ、装着してごらんなさい。
+もちろん、必要な素材やマテリアは自分で調達するのよ。"
+53,"TEXT_CLSTAN004_00137_GEVA_100_5","「マテリア」には、いろんな種類があるんだけど、
+今回は練習だし、どれでも適当なやつをつければいいわ。"
+54,"TEXT_CLSTAN004_00137_GEVA_000_6","それと、マテリアを装着する防具について。
+「<Sheet(Item,3784,0)/>」の製作に必要な素材は
+「綿布」と「アルドゴートレザー」よ。"
+55,"TEXT_CLSTAN004_00137_GEVA_000_7","気をつけなきゃいけないのが、
+「綿布」も「アルドゴートレザー」も、
+グリダニアの商店街では手に入らないってこと。"
+56,"TEXT_CLSTAN004_00137_GEVA_000_8","「綿布」は、ザナラーン地方の都市
+「ウルダハ」の裁縫の技術で作られる布だし、
+「アルドゴート」ってのも、ザナラーン地方の魔物だからね。"
+57,"TEXT_CLSTAN004_00137_GEVA_000_9","「黒檀商店街」のマーケットを使うなり、知り合いに
+頼むなりして、なんとかして手に入れるのも勉強よ。
+精々頑張ってちょうだいね。"
+58,"TEXT_CLSTAN004_00137_GEVA_000_10","もし「マテリア」装着のやり方がわからないなら、
+中央ザナラーンの「狼煙の丘」を訪ねなさい。
+変わり者の職人たちが、詳しく教えてくれるわ。"
+59,"TEXT_CLSTAN004_00137_GEVA_000_11","さあ、「<Sheet(Item,3784,0)/>」を仕立てて、
+「マテリア」を装着して持ってらっしゃい！"
+60,"TEXT_CLSTAN004_00137_GEVA_000_20","「<Sheet(Item,3784,0)/>」に「マテリア」はつけられた？"
+61,"TEXT_CLSTAN004_00137_GEVA_000_30","ふぅん……まあ、悪くはないわ。"
+62,"TEXT_CLSTAN004_00137_GEVA_000_31","冒険者なら知っていることかもしれないけど、
+「レギンス」っていうのは、もともと、布か柔らかい革を
+足に巻きつけて紐やバックルで留めたものを指したの。"
+63,"TEXT_CLSTAN004_00137_GEVA_000_32","今は太ももまでしっかりと覆うのが主流になってるけどね。
+軽くて柔らかいから動きやすい、森を歩く鬼哭隊や神勇隊、
+冒険者にも、うってつけの防具なのよ。"
+64,"TEXT_CLSTAN004_00137_GEVA_000_33","この<Sheet(Item,3784,0)/>は、
+そういった特徴をよく掴んで作られているわ。"
+65,"TEXT_CLSTAN004_00137_GEVA_000_34","「マテリア」も、ちゃんとつけられてるわね。
+大抵の駆け出しは、ちょっと面倒な仕事を任せると
+すぐ泣き言を言うもんだけど……フフ、やるじゃない。"
+66,"TEXT_CLSTAN004_00137_GEVA_000_35","マテリア、装備品、どちらが欠けても
+「マテリア」の装着は成り立たないわ。"
+67,"TEXT_CLSTAN004_00137_GEVA_000_36","何かを作るってことは、楽じゃないの。
+クラフターだからって、のんびり座って
+モノを作ってるだけじゃいつまでたっても素人よ。"
+68,"TEXT_CLSTAN004_00137_GEVA_000_37","素材ひとつがどこで入手できて、
+何を使えばどんな製品が出来上がるか。
+それを、さらに良くするためにはどうすればいいか。"
+69,"TEXT_CLSTAN004_00137_GEVA_000_38","真の職人をめざすなら……
+命に真摯に向き合うなら、考え続けて当然。
+その姿勢が、さらに腕を上げることに繋がるんだから。"
+70,"TEXT_CLSTAN004_00137_GEVA_000_39","まぁ、まだまだ完璧には程遠いけど、
+それは言わば、アンタの伸びしろね。
+しごけばまだまだ伸びそうだわ。フフフ……。"
+71,"TEXT_CLSTAN004_00137_GEVA_000_40","グリダニアには毎年、特産品の「品評会」があってね。
+ちょっとしたお祭りみたいなものだけど、
+職人が腕を見せ合う場でもあるわ。"
+72,"TEXT_CLSTAN004_00137_GEVA_000_41","ギルドやブランドの「品質」を証明する機会でもある。
+毎年、アタシが代表として品を作ってるんだけど……"
+73,"TEXT_CLSTAN004_00137_GEVA_000_42","努力次第じゃ、いつか品を出させてやらないでもない。
+いつか、がいつになるかはわからないけどね。
+ま、その調子で、死ぬ気で頑張んなさい。"

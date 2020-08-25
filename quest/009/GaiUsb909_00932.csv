@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB909_00932_SEQ_00","Ser Chaunollet would have you perform another bit of gathering to aid the knights' plight."
-1,"TEXT_GAIUSB909_00932_SEQ_01","With a slightly histrionic imperiousness, Ser Chaunollet bids you bring him the fat from chinchillas. You know too little of Ishgardian cookery to know the reason why, but slay four chinchillas and collect their rich leaf fat."
-2,"TEXT_GAIUSB909_00932_SEQ_02","The chinchillas were curiously abundant and well fed for dainty beasts in the dead of winter. Coerthas is full of mysteries such as these, but forbear in your sleuthing for now, and place the creamy fat in the hands of Ser Chaunollet."
-3,"TEXT_GAIUSB909_00932_SEQ_03","His domineering mien momentarily forgotten, Ser Chaunollet professes delight at the quality of the fat. In light of the beasts' unaccountable plumpness, you are pleased to hear that the fat is destined for chocobo feet, rather than the stew pot."
+0,"TEXT_GAIUSB909_00932_SEQ_00","大審門の神殿騎士ショノーレーは、冒険者にもうひとつ仕事を与えたいようだ。"
+1,"TEXT_GAIUSB909_00932_SEQ_01","素材の調達を依頼された。「<Sheet(BNpcName,2156,0)/>」を4匹倒し、「<Sheet(EventItem,2000728,0)/>」を入手しよう。"
+2,"TEXT_GAIUSB909_00932_SEQ_02","<Sheet(EventItem,2000728,0)/>を入手した。大審門の神殿騎士「ショノーレー」に渡そう。"
+3,"TEXT_GAIUSB909_00932_SEQ_03","ショノーレーに<Sheet(EventItem,2000728,0)/>を渡した。彼によれば、この獣油はチョコボのしもやけに塗る軟膏になるのだそうだ。"
 4,"TEXT_GAIUSB909_00932_SEQ_04",""
 5,"TEXT_GAIUSB909_00932_SEQ_05",""
 6,"TEXT_GAIUSB909_00932_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSB909_00932_SEQ_21",""
 22,"TEXT_GAIUSB909_00932_SEQ_22",""
 23,"TEXT_GAIUSB909_00932_SEQ_23",""
-24,"TEXT_GAIUSB909_00932_TODO_00","Harvest fat from chinchillas."
-25,"TEXT_GAIUSB909_00932_TODO_01","Deliver the chinchilla fat to Chaunollet."
+24,"TEXT_GAIUSB909_00932_TODO_00","<Sheet(BNpcName,2156,0)/>から<Sheet(EventItem,2000728,0)/>を入手"
+25,"TEXT_GAIUSB909_00932_TODO_01","ショノーレーに<Sheet(EventItem,2000728,0)/>を渡す"
 26,"TEXT_GAIUSB909_00932_TODO_02",""
 27,"TEXT_GAIUSB909_00932_TODO_03",""
 28,"TEXT_GAIUSB909_00932_TODO_04",""
@@ -49,10 +49,18 @@ int32,str,str
 45,"TEXT_GAIUSB909_00932_TODO_21",""
 46,"TEXT_GAIUSB909_00932_TODO_22",""
 47,"TEXT_GAIUSB909_00932_TODO_23",""
-48,"TEXT_GAIUSB909_00932_CHAUNOLLET_000_000","You look eager to serve, adventurer. Do not deny it─the fire in your eyes betrays you. There <Emphasis>is</Emphasis> something you can do: slay the chinchillas that dwell near at hand and reap their fat."
-49,"TEXT_GAIUSB909_00932_CHAUNOLLET_000_001","How many of the beasts? I see the task excites you! Four of goodly size will do. Now, be as my tiercel and hunt the chinchillas thither!"
-50,"TEXT_GAIUSB909_00932_DUMMY_000_010",""
-51,"TEXT_GAIUSB909_00932_DUMMYTODO_000_010",""
-52,"TEXT_GAIUSB909_00932_CHAUNOLLET_000_020","Ah, the tiercel of the Temple! Have you what I bid you bring?"
-53,"TEXT_GAIUSB909_00932_CHAUNOLLET_000_030","This is most excellent fat, and well pulled. I see you have some skill at dressing beasts. Once rendered, it shall be fortified into a frostbite balm for our chocobos."
-54,"TEXT_GAIUSB909_00932_CHAUNOLLET_000_031","Alone among beasts, the chocobos are to be honored. For every knight of Ishgard that has perished in the crusade, as many of the noble birds have died. None who witness a chocobo meet its end can fail to be moved."
+48,"TEXT_GAIUSB909_00932_CHAUNOLLET_000_000","事のついでだ、貴様にもうひとつ雑役をくれてやろう。
+その辺りに棲む「<Sheet(BNpcName,2156,0)/>」を倒し、
+「<Sheet(EventItem,2000728,0)/>」を入手してくるのだ。"
+49,"TEXT_GAIUSB909_00932_CHAUNOLLET_000_001","……そうだな、数は4つほどでいい。
+我ら神殿騎士の一助となるは、聖戦の一助となるに同じ。
+身に余る誉れにむせびつつ、急ぎ片を付けて参るがいい。"
+50,"TEXT_GAIUSB909_00932_DUMMY_000_010","グリフォンを4匹倒し、「<Sheet(EventItem,2000728,0)/>」をゲット"
+51,"TEXT_GAIUSB909_00932_DUMMYTODO_000_010","（★未使用／削除予定★）"
+52,"TEXT_GAIUSB909_00932_CHAUNOLLET_000_020","どうだ、「<Sheet(EventItem,2000728,0)/>」は入手できたか？
+頼んでいたのは4つだぞ。"
+53,"TEXT_GAIUSB909_00932_CHAUNOLLET_000_030","ふむ、上質な<Sheet(EventItem,2000728,0)/>だな、ご苦労。
+これは軟膏にして、チョコボのしもやけに塗るのだ。"
+54,"TEXT_GAIUSB909_00932_CHAUNOLLET_000_031","我ら騎士にとって、チョコボの手入れも大事な仕事だ。
+クク……いざドラゴン族と戦うとなったときに、
+チョコボが走れなくては話にならんからな。"

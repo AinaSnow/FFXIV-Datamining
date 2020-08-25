@@ -1,12 +1,16 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_FESVLT101_00512_SEQ_00","Lisette de Valentione seeks the assistance of an experienced adventurer in her labors of love.
-※This quest is available for a limited time only."
-1,"TEXT_FESVLT101_00512_SEQ_01","Lisette de Valentione and her band of loyal retainers have once again journeyed from Ishgard to bring the passionate spirit of their noble house's motto─<Emphasis>ardor and affection</Emphasis>─to all Eorzea. However, in their efforts to aid those Eorzeans unable to confess their love in person, the party has met with an unforeseen obstacle that only an experienced adventurer can overcome. Lisette bids you speak with Hortefense, the man spearheading the mission, to learn more.
+0,"TEXT_FESVLT101_00512_SEQ_00","※本クエストは、期間限定のクエストとなります。
 
-※Please note that you will be unable to complete this quest after the seasonal event has ended. For details, please check the Lodestone."
-2,"TEXT_FESVLT101_00512_SEQ_02","Hortefense explains how he and his emissaries have been tasked with delivering tokens of love in petitioners' steads. However, while the service was intended to aid those shackled by shyness, they have received requests from another, unexpected source: those who would gladly present their gifts directly, if only they knew where their loved ones were. Hortefense has pledged to locate these absent sweethearts, but as a stranger to these lands, he has thus far met with little success. Hence does he seek the assistance of learned adventurers to find these missing men, and ensure that no love goes unspoken this Valentione's Day."
+ミィ・ケット野外音楽堂のリゼット・ド・ヴァレンティオンは、冒険者の力を借りたいようだ。"
+1,"TEXT_FESVLT101_00512_SEQ_01","※本クエストは、シーズナルイベント開催中にかぎり、
+　受注、進行できます。
+　開催期間終了後は進行できませんので、ご注意ください。
+　期間等の詳細についてはLodestoneをご覧ください。
+
+ヴァレンティオンデーにちなんで愛を応援しにきたリゼットたちを、手伝うよう頼まれた。ミィ・ケット野外音楽堂にいる「オルトファンス」から、詳しい話を聞こう。"
+2,"TEXT_FESVLT101_00512_SEQ_02","オルトファンスから話を聞いた。彼らは愛の告白ができないでいる人の手伝いをしているそうだが、告白相手の居場所がわからないことがあるのだという。愛の伝道師の助手として、告白相手の居場所をつきとめ、愛の成就に貢献しよう。"
 3,"TEXT_FESVLT101_00512_SEQ_03",""
 4,"TEXT_FESVLT101_00512_SEQ_04",""
 5,"TEXT_FESVLT101_00512_SEQ_05",""
@@ -28,7 +32,7 @@ int32,str,str
 21,"TEXT_FESVLT101_00512_SEQ_21",""
 22,"TEXT_FESVLT101_00512_SEQ_22",""
 23,"TEXT_FESVLT101_00512_SEQ_23",""
-24,"TEXT_FESVLT101_00512_TODO_00","Speak with Hortefense."
+24,"TEXT_FESVLT101_00512_TODO_00","オルトファンスと話す"
 25,"TEXT_FESVLT101_00512_TODO_01",""
 26,"TEXT_FESVLT101_00512_TODO_02",""
 27,"TEXT_FESVLT101_00512_TODO_03",""
@@ -52,20 +56,46 @@ int32,str,str
 45,"TEXT_FESVLT101_00512_TODO_21",""
 46,"TEXT_FESVLT101_00512_TODO_22",""
 47,"TEXT_FESVLT101_00512_TODO_23",""
-48,"TEXT_FESVLT101_00512_LISSETE_000_001","Well, well, what have we here? Another adventurer come to bask in my splendor? I am Lady Lisette of House Valentione, but should you be willing and able enough to serve as my retainer, I give you leave to call me Lissie!♪"
-49,"TEXT_FESVLT101_00512_LISSETE_000_002","Ah, but I know you! The fashions may change, but I could never forget the name that goes with <Emphasis>that</Emphasis> face. How glad am I to see you again, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, and on this day more than any!"
-50,"TEXT_FESVLT101_00512_LISSETE_000_003","Tell me, my dear: might I tempt you into lending yourself to our cause? We need all the bodies we can claim, and most gladly would I lay my hands on yours. A <If(PlayerParameter(4))>spirited girl<Else/>strapping chap</If> such as yourself would make a fine bedfellow!"
-51,"TEXT_FESVLT101_00512_LISSETE_000_004","For today is Valentione's Day, and once again we of House Valentione come bearing a simple message: ardor and affection for all! Such is the solemn vow of our house, ever since the days of my uncountably great grandmother, the Countess Arabelle, who braved every hardship in a lifelong quest for love!"
-52,"TEXT_FESVLT101_00512_LISSETE_000_005","So it is that we too have journeyed from our homeland to herald her heroic message. For too long have Eorzean hearts been stifled by the miasmata of apathy and abashment. Ours shall be the wind that dispels these poisonous fogs, and sweeps every shrinking violet into the arms of their beloved!"
-53,"TEXT_FESVLT101_00512_LISSETE_000_006","Or at least, so was the plan. We sought to lend our strength to those unable to confess their feelings in person, yet it seems there are some whose inability stems not from diffidence, but from ignorance. And honestly, how do they expect our arrows of love to find their target, when they themselves cannot?"
-54,"TEXT_FESVLT101_00512_LISSETE_100_006","Thus do we seek the assistance of worldly–wise adventurers in the aid of these helpless souls. If you consider yourself a fair match for the task, then go to my man Hortefense─he will tell you more of our predicament. Oh, and don't forget to tell him that Lissie sent you!♪"
-55,"TEXT_FESVLT101_00512_LISSETE_000_008","Do not dally here all <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>night<Else/>day</If><Else/><If(LessThan(PlayerParameter(11),17))>day<Else/>night</If></If>, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>─there is work to be done! If you have a heart to aid those who suffer without, then speak with my man Hortefense. Oh, and don't forget to tell him that Lissie sent you!♪"
-56,"TEXT_FESVLT101_00512_HORTEFENSE_000_010","Happy Valentione's Day, <If(PlayerParameter(4))>my lady<Else/>my lord</If>! ...You say that a “Lissie” sent you? There must be some mistake─I know no one by that name. Unless─dare I dream?─I have a secret admirer!? Tell me, adventurer: does the lady send a note? Chocolate? A ring, perhaps?"
-57,"TEXT_FESVLT101_00512_HORTEFENSE_000_011","Oh ho ho! So it was Lady <Emphasis>Lisette</Emphasis> who sent you! Pray pardon my misunderstanding. I am most grateful for any assistance you can offer. As my lady informed you, we have run into something of an impasse in our efforts to ensure that no love remains unspoken across Eorzea."
-58,"TEXT_FESVLT101_00512_HORTEFENSE_000_012","Allow me to explain: every year, a delegation led by House Valentione departs from Ishgard to travel the length and breadth of Eorzea, urging the people to air their passions─to confess their true feelings to their beloved with a word of affection, or a sentimental gift of some kind."
-59,"TEXT_FESVLT101_00512_HORTEFENSE_000_013","Yet there are some who struggle to do such a simple thing, their hearts silenced by shyness. It is to these poor souls that I and my emissaries have come to offer our services. We lubricate the wheels of love, so to speak, by delivering heartfelt missives on a timid suitor's behalf."
-60,"TEXT_FESVLT101_00512_HORTEFENSE_000_014","However, there are some who have sought out our services for another reason: they lack not the confidence to confess their love, but merely the knowledge of where their loved ones are. Sworn as we are to bring succor to every pining soul, we have pledged ourselves to their cause."
-61,"TEXT_FESVLT101_00512_HORTEFENSE_000_015","Yet I fear we Ishgardians have been cloistered in our own lands too long to be of any use in tracking these missing sweethearts down. We lack the knowledge of Eorzean geography that would allow us to deduce their locations from the scant clues the petitioners can provide."
-62,"TEXT_FESVLT101_00512_HORTEFENSE_000_016","Which is precisely where you come in. No doubt you have traveled much in your adventures, and have a better idea as to the lay of the land. And if Lady Lisette herself recommends you, who am I to disagree? With you aboard, <If(PlayerParameter(4))>my lady<Else/>my lord</If>, none shall go unloved this day!"
-63,"TEXT_FESVLT101_00512_LISSETE_000_000",""
-64,"TEXT_FESVLT101_00512_LISSETE_000_007",""
+48,"TEXT_FESVLT101_00512_LISSETE_000_001","冒険者さん、こんにちわ～♪
+私はぁ～、みんなの愛の伝道師、リゼットちゃんこと、
+リゼット・ド・ヴァレンティオンでぇ～～～っす☆"
+49,"TEXT_FESVLT101_00512_LISSETE_000_002","ああ～っ！　アナタは、いつかの「愛の伝道師の助手」さん！！
+また会えてぇ、私、感激だよっ♪"
+50,"TEXT_FESVLT101_00512_LISSETE_000_003","よかった～！　勇敢な冒険者さんを待ってたの！
+よ～し、アナタを「愛の伝道師の助手」に任命しちゃいま～すっ♪
+みんなに「愛」を伝える、大切な役なんだよ☆"
+51,"TEXT_FESVLT101_00512_LISSETE_000_004","いまエオルゼアは、「ヴァレンティオンデー」の真っ最中！
+この祝祭は、私のご先祖サマ……
+「アラベル・ド・ヴァレンティオン伯爵」にちなんだもの☆"
+52,"TEXT_FESVLT101_00512_LISSETE_000_005","「愛」に生きたご先祖サマにあやかってぇ、
+私たちは、みんなの「愛」を応援しにぃ、
+とおいとお～い、イシュガルドからやってきましたっ♪"
+53,"TEXT_FESVLT101_00512_LISSETE_000_006","でも、ちょっと問題が起きちゃって……。
+「愛の伝道師の助手」のアナタに、手伝ってほしいんだっ！
+だって、アナタなら、きっと「愛」を伝えられると思うから♪"
+54,"TEXT_FESVLT101_00512_LISSETE_100_006","担当の「オルトファンス」さんから話を聞いてみてね！
+リゼットからの、オ・ネ・ガ・イ☆"
+55,"TEXT_FESVLT101_00512_LISSETE_000_008","アナタなら、きっと「愛」を伝えられるはず♪
+担当の「オルトファンス」さんから話を聞いてみてね！
+リゼットからの、オ・ネ・ガ・イ☆"
+56,"TEXT_FESVLT101_00512_HORTEFENSE_000_010","……おや、君は冒険者かい？
+もしかして、僕の仕事を手伝ってくれるのかな？"
+57,"TEXT_FESVLT101_00512_HORTEFENSE_000_011","ハハッ、リゼットさんから頼まれたのか。
+聞いたとおり、僕の担当で問題が起きていてね。
+協力してくれる冒険者を探していたんだ。"
+58,"TEXT_FESVLT101_00512_HORTEFENSE_000_012","まずは、事情を説明しようか。
+今回、僕が担当しているのは、
+「愛の告白ができないでいる人」の手伝いなんだ。"
+59,"TEXT_FESVLT101_00512_HORTEFENSE_000_013","具体的には、恋文や贈り物を届けてあげたり、
+告白の状況を整えてあげたりしているんだよ。"
+60,"TEXT_FESVLT101_00512_HORTEFENSE_000_014","そうやって各都市で「愛」の応援をしているんだけど……
+中には、告白相手の居場所がわからないまま、
+この機会に、想いを伝えたいって人もいてね。"
+61,"TEXT_FESVLT101_00512_HORTEFENSE_000_015","話を聞いて、告白相手を探したけれど、
+土地勘のない僕たちでは、居場所を掴めなかった。
+だけど、冒険者の君なら、見つけられるかもしれない。"
+62,"TEXT_FESVLT101_00512_HORTEFENSE_000_016","リゼットさんが認めた「愛の伝道師の助手」なら、
+きっと、「愛」を伝えることができるだろう。
+よろしく頼むよ、冒険者！"
+63,"TEXT_FESVLT101_00512_LISSETE_000_000","（★未使用／削除予定★）"
+64,"TEXT_FESVLT101_00512_LISSETE_000_007","（★未使用／削除予定★）"

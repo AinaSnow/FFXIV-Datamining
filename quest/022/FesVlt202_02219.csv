@@ -1,13 +1,17 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_FESVLT202_02219_SEQ_00","The House Valentione emissary awaits a pair ready to have their fortunes in life and love laid bare.
-※This quest is available for a limited time only."
-1,"TEXT_FESVLT202_02219_SEQ_01","The House Valentione emissary gives you a brief explanation of the preparations that must be made before you visit the fortune-tellers. You are to form a party of two with one other adventurer whose compatibility in wealth, adventure, and love you wish to have known. One of you must wear the platinum paramour's earrings, and the other must wear the paramour's earrings before having your fortunes told. The emissary gives you three Valentione's cards that contain all the information required to make an accurate reading. Take your cards, and go before each of the fortune-tellers to hear their prophecies.
+0,"TEXT_FESVLT202_02219_SEQ_00","※本クエストは、期間限定のクエストとなります。
 
-※Please note that you will be unable to complete this quest after the seasonal event has ended. For details, please check the Lodestone."
-2,"TEXT_FESVLT202_02219_SEQ_02","You and your chosen partner now know your potential for great riches, grand adventure, and genuine love. Return to the House Valentione emissary to see if any of the nervous couples around the Aftcastle have decided to try their luck at the fortune-tellers as well."
-3,"TEXT_FESVLT202_02219_SEQ_03","It seems many other couples have filled the Aftcastle to have their futures together foretold, ensuring that this year's Valentione's Day will be talked about for moons to come. However, the emissary informs you that Lady Lisette was looking for you with what seems like urgent business. Find her and see what aid, if any, she requires."
+リムサ・ロミンサの愛の伝道師は、準備が整ったか確かめたいようだ。"
+1,"TEXT_FESVLT202_02219_SEQ_01","※本クエストは、シーズナルイベント開催中にかぎり、
+　受注、進行できます。
+　開催期間終了後は進行できませんので、ご注意ください。
+　期間等の詳細についてはLodestoneをご覧ください。
+
+愛の伝道師と話し、<Sheet(EventItem,2001938,0)/>を貰った。仲間と「2人パーティ」を結成した状態で、「<Sheet(Item,13568)/>」か「<Sheet(Item,13299,0)/>」を装備し、アフトカースルの「柔和そうな占い師」「艶やかな占い師」「ぶっきらぼうな占い師」と話し、「冒険の相性」「お宝の運勢」「愛の相性」を占ってもらおう。"
+2,"TEXT_FESVLT202_02219_SEQ_02","占い師たちに、相手との運勢を占ってもらった。アフトカースルにいる「愛の伝道師」に報告しよう。"
+3,"TEXT_FESVLT202_02219_SEQ_03","愛の伝道師に報告した。リゼットが、何やら冒険者を探していたようだ。いったい、どうしたというのだろうか……？"
 4,"TEXT_FESVLT202_02219_SEQ_04",""
 5,"TEXT_FESVLT202_02219_SEQ_05",""
 6,"TEXT_FESVLT202_02219_SEQ_06",""
@@ -28,8 +32,8 @@ int32,str,str
 21,"TEXT_FESVLT202_02219_SEQ_21",""
 22,"TEXT_FESVLT202_02219_SEQ_22",""
 23,"TEXT_FESVLT202_02219_SEQ_23",""
-24,"TEXT_FESVLT202_02219_TODO_00","Form a party of two and equip the correct earrings before speaking with the fortune-tellers."
-25,"TEXT_FESVLT202_02219_TODO_01","Speak with the House Valentione emissary."
+24,"TEXT_FESVLT202_02219_TODO_00","2人パーティの状態で指定のイヤリングを装備し占い師と話す"
+25,"TEXT_FESVLT202_02219_TODO_01","愛の伝道師に報告"
 26,"TEXT_FESVLT202_02219_TODO_02",""
 27,"TEXT_FESVLT202_02219_TODO_03",""
 28,"TEXT_FESVLT202_02219_TODO_04",""
@@ -52,134 +56,367 @@ int32,str,str
 45,"TEXT_FESVLT202_02219_TODO_21",""
 46,"TEXT_FESVLT202_02219_TODO_22",""
 47,"TEXT_FESVLT202_02219_TODO_23",""
-48,"TEXT_FESVLT202_02219_MISSIONARY02219_000_000","Your eyes sparkle with anticipation! Full eager are you to hear the words of our readers, yes? They are masters of the mystic arts, and they have knowledge of esoteric truths known only to a select few. However, before you present yourself, there are several caveats I must explain."
-49,"TEXT_FESVLT202_02219_MISSIONARY02219_000_001","Firstly, you must pair with one other adventurer who strikes your fancy. Although, truth be told, it makes no difference how interested you are in them, as long as you are seen listening in rapt attention. Such a sight shall surely tempt others to flock to our fortune-tellers!"
-50,"TEXT_FESVLT202_02219_MISSIONARY02219_100_001","Three of our most accomplished readers, each of them educated at the Sharlayan Academy of Heavenly Divination, await to unveil your destinies in love, wealth, and adventure. Their insights have already provided guidance to scores of Ishgard's lost and lonely hearts."
-51,"TEXT_FESVLT202_02219_MISSIONARY02219_000_002","Go to each of them while wearing either of these earrings, as proof that you are House Valentione's appointed ambassador of ardor and affection."
-52,"TEXT_FESVLT202_02219_MISSIONARY02219_100_002","Before your reading begins, present each fortune-teller with a Valentione's card."
-53,"TEXT_FESVLT202_02219_MISSIONARY02219_000_003","On these cards is written your name, race, gender, and much more─information that is essential for an accurate reading. Ensure the cards are correct; you wouldn't want a small error to result in an erroneous fortune, now would you?"
-54,"TEXT_FESVLT202_02219_MISSIONARY02219_000_004","And with that, you are ready for the Valentione's Day festivities. Quickly now, we did not bring such rare talent all the way from Ishgard to have them sit idly at their tables. Go, my <If(PlayerParameter(4))>lady<Else/>lord</If>, and face the fates with a smile on your face!"
-55,"TEXT_FESVLT202_02219_SYSTEM_000_005","To have your fortune told, you must form a party of two with another adventurer."
-56,"TEXT_FESVLT202_02219_SYSTEM_000_006","You and your partner must then equip either the platinum paramour's earrings or the paramour's earrings, and then speak with the fortune-tellers to proceed."
-57,"TEXT_FESVLT202_02219_SYSTEM_100_007","Please note that you and your partner cannot be equipped with the same earrings."
-58,"TEXT_FESVLT202_02219_MISSIONARY02219_000_007","Our fortune-tellers await! You simply need to wear the correct earrings, and they shall eagerly read your fortune!"
-59,"TEXT_FESVLT202_02219_MISSIONARY02219_100_007","Of course, do not forget to hand them your Valentione's card either!"
-60,"TEXT_FESVLT202_02219_SYSTEM_000_008","To have your fortune told, you must form a party of two with another adventurer."
-61,"TEXT_FESVLT202_02219_SYSTEM_000_009","You and your partner must then equip either the platinum paramour's earrings or the paramour's earrings, and then speak with the fortune-tellers to proceed."
-62,"TEXT_FESVLT202_02219_SYSTEM_110_009","Please note that you and your partner cannot be equipped with the same earrings."
-63,"TEXT_FESVLT202_02219_MISSIONARY02219_100_009","Our ambassador returns to us! The fates are in a constant flux, as you know. If you would have your fortune told again, you need only pair with another like-minded adventurer once more!"
-64,"TEXT_FESVLT202_02219_MISSIONARY02219_000_126",""
-65,"TEXT_FESVLT202_02219_SYSTEM_000_127","To have your fortune told, you must form a party of two with another adventurer."
-66,"TEXT_FESVLT202_02219_SYSTEM_000_128","You and your partner must then equip either the platinum paramour's earrings or the paramour's earrings, and then speak with the fortune-tellers to proceed."
-67,"TEXT_FESVLT202_02219_SYSTEM_100_128","Please note that you and your partner cannot be equipped with the same earrings."
-68,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_010","Ah, another couple wants to know if riches lie in their future. A wise choice, for rare indeed is the bond that can bear the weight of an empty coinpurse."
-69,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_100_010","See here, I only specialize in telling the fortunes of <Emphasis>couples</Emphasis>. Bring one other, be it your lover or your friend, and I shall gladly tell you what treasure awaits in your future."
-70,"TEXT_FESVLT202_02219_SYSTEM_100_010","You cannot proceed. One or more party members are too far away."
-71,"TEXT_FESVLT202_02219_SYSTEM_100_011","You cannot proceed. One or more party members are not equipped with the platinum paramour's earrings or paramour's earrings."
-72,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_011","Well, let us see here... My <If(PlayerParameter(4))>lady<Else/>lord</If> is registered to the Adventurers' Guild in <Sheet(Town,PlayerParameter(70),0)/>?"
-73,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_012","And your partner...born in this moon? Yes... Is the path you are destined to walk paved with gold, or will you end up on the street begging for coin? The cards shall reveal all!"
-74,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_013","The winds of fortune favor you two! They blow at your back, guiding you to the waters of La Noscea. With fishing poles in hand, go forth secure in the knowledge that your hooks shall not remain empty for long!"
-75,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_014","And if you are not yet avid anglers, now is the time to acquaint yourselves with a new hobby! But don't just go out in any old rags. Fortune often favors the fashionable. <Switch(PlayerParameter(70))><Case(1)>Honey yellow</Case><Case(2)>Rose pink</Case><Case(3)>Sylph green</Case></Switch>...aye, you are guaranteed a healthy catch with garbs dyed just so."
-76,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_015","Fortune smiles down upon you! Take advantage of this rare blessing, and venture deep into the woods. Bring your sharpest axes, and fate shall guide you to stout trunks fit for the realm's most luxurious wares."
-77,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_016","A lucrative logging career shall provide a sturdy foundation for your future endeavors. But don't forget the importance of appearances; a fledgling lumberjack must stand out against <If(PlayerParameter(4))>her<Else/>his</If> drab peers. Yes... <Switch(PlayerParameter(70))><Case(1)>Rose pink</Case><Case(2)>Sylph green</Case><Case(3)>Honey yellow</Case></Switch> garb shall benefit you both within the forests and without."
-78,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_017","A fortuitous reading indeed! Fate beckons you to <Switch(PlayerParameter(70))><Case(1)>arid deserts</Case><Case(2)>sandy shores</Case><Case(3)>verdant forests</Case></Switch>, pickaxes in hand. There lie rocky outcroppings full to bursting with the earth's bounty."
-79,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_018","Go there, and you shall be rewarded with riches most precious! But you must not go as you are and hope to succeed, oh no. Venture forth garbed in <Switch(PlayerParameter(70))><Case(1)>sylph green</Case><Case(2)>honey yellow</Case><Case(3)>rose pink</Case></Switch>, and the earth shall give over its gifts even more readily."
-80,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_019",""
-81,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_020",""
-82,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_021","The cards say chance is your most dependable ally! It would behoove you not to ignore this rare blessing. Board an airship bound for the Gold Saucer at once!"
-83,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_022","The denizens of the Saucer shall flock to you, drawn by the riches you gain from games of luck. But, alas, not if you go wearing <Emphasis>that</Emphasis>. No, fortune shall favor only those dressed in a glamorous getup of <Switch(PlayerParameter(70))><Case(1)>raisin brown</Case><Case(2)>mesa red</Case><Case(3)>meadow green</Case></Switch>."
-84,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_023","The winds of fortune blow languidly, but at least they do not blow against you. In the waters of Thanalan, fish swim to and fro, hungry for their next meal. It is there you should go if you wish for a chance at a profitable endeavor."
-85,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_024","Fill your stomachs with fish caught by your own hands, and contentment at a job well done shall be your reward. Your luck may not be the best, but if you cast your lures wearing <Switch(PlayerParameter(70))><Case(1)>coeurl yellow</Case><Case(2)>marsh green</Case><Case(3)>russet brown</Case></Switch>, then your fortunes may improve."
-86,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_025","Hmmm... It seems the path to riches may be rather more taxing than you might have hoped. In the dense forests of La Noscea, stout trees await those with the patience to saw through their broad trunks."
-87,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_026","Now may be the time to replace your dull wooden furnishings and tools with brand new ones, and take pleasure in the satisfaction hard work brings. What small luck you have in your endeavors may be augmented by an outfit of <Switch(PlayerParameter(70))><Case(1)>marsh green</Case><Case(2)>russet brown</Case><Case(3)>coeurl yellow</Case></Switch>."
-88,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_027","Hmmm... It seems wealth shall only come to you after grueling work. Go deep within the Black Shroud, to where rocks burst with valuable minerals, waiting for a pair of pickaxes to pry them from the earth."
-89,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_028","Bedeck yourself in precious metals and gemstones plucked from the soil with your own hands. And what's this? The earth may be more generous with its gifts if you mined wearing an outfit colored <Switch(PlayerParameter(70))><Case(1)>russet brown</Case><Case(2)>coeurl yellow</Case><Case(3)>marsh green</Case></Switch>."
-90,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_029","Hmmm... You may not be swimming in gold, but neither shall you want for wealth. It may be in your best interests to take a direct approach to riches. With a treasure map to guide you, hunt for wealth long forgotten."
-91,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_030","Although after many long and fruitless hours your hope may wane, if you persevere, fortune will see fit to reward you. And what's more, your luck will be much improved if you set out wearing attire colored <Switch(PlayerParameter(70))><Case(1)>apple green</Case><Case(2)>bone white</Case><Case(3)>moss green</Case></Switch>."
-92,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_031",""
-93,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_032",""
-94,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_033","Oh my. This is not good, not good at all. To be blunt, your luck has run out. Bring your fishing poles to the Black Shroud and wait out this spell of bad luck. Whether you catch fish or not is irrelevant; it is most crucial that you avoid any risky endeavors."
-95,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_034","But beware as well the fish that bite at your lure. Not all taste the same, and an unappetizing catch may make an already bad day worse. Still, there are some measures you can take to mitigate your misfortune. An outfit of <Switch(PlayerParameter(70))><Case(1)>cream yellow</Case><Case(2)>bark brown</Case><Case(3)>salmon pink</Case></Switch> may serve to keep the worst of it at bay."
-96,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_035","Oh dear. It seems fortune has forsaken you. It might be best to indulge in a hobby and wait for this unlucky period to end. Logging, perhaps? Yes... Thanalan would be the perfect place. Lose yourself in the gentle whispers of the desert breeze, until fortune sees fit to smile upon you once more."
-97,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_036","However, I would give a wide berth to anything wrought from wood in the meantime, lest a broken chair result in flushed cheeks and a sore arse. Luckily, you need not live in abject fear of misfortune. Keep yourselves dutifully wrapped in clothes of <Switch(PlayerParameter(70))><Case(1)>bark brown</Case><Case(2)>salmon pink</Case><Case(3)>cream yellow</Case></Switch>, and you may be spared fate's worst barbs."
-98,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_037","Ah... I would not count on fortune to be your ally for the time being. In fact, it may be best to take refuge in the routine, until this run of bad luck comes to an end. The mining in La Noscea is said to be grand this time of year. Yes, busy hands will keep you from inviting hazard."
-99,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_038","But take special care of any precious stones you may own. In a moment, a gem may be slip loose from its setting, never to be seen again. However, it may be possible for you to mitigate fate's cruelty. Clothe yourselves in finery of <Switch(PlayerParameter(70))><Case(1)>cream yellow</Case><Case(2)>bark brown</Case><Case(3)>salmon pink</Case></Switch>, and perhaps the most unhappy circumstances will pass you by."
-100,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_039","Oh no... It seems lean times are ahead of you. Even a treasure map, no matter how detailed, would bring you little more than dirt and a sore back. It's best to give up on any dreams of easy riches for now. You have to be realistic about these things, you know."
-101,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_040","Guildleves, however, are just the thing for those who do not─or cannot─rely on luck. Honest pay for honest work. I suggest keeping your pockets filled with those until this unfortunate spell passes. And just to be safe, make sure you conduct the guildleves in attire colored <Switch(PlayerParameter(70))><Case(1)>lime green</Case><Case(2)>hunter green</Case><Case(3)>olive green</Case></Switch>, or else even those might end in failure."
-102,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_041","Ah... Misfortune shall follow at your heels for some time. At all costs, stay away from the gaudy lights of the Gold Saucer! If you step foot into that playground of chance, then all of your hard-earned coin will vanish in a flash, leaving you with scant enough to take the airship back in shame."
-103,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_042","No, no, that will not do. However, if the allure of the Gold Saucer is too much to bear, at least be content to gaze at it from a distance, your coinpurse far from its grasp. Perhaps if you were wrapped in clothes the color of <Switch(PlayerParameter(70))><Case(1)>hunter green</Case><Case(2)>olive green</Case><Case(3)>lime green</Case></Switch>, it might afford you some strength to resist your impulses."
-104,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_043","So a pair of adventurers wishes to know if they are destined for song and celebration? It is this very question that my cards will answer, if you so desire."
-105,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_100_043","A lone adventurer lives a life bereft of companionship. What interest is there in knowing that? Return to me once you've found another."
-106,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_044","Ah, such eagerness! Well then, let us begin! Hmmm...<Switch(PlayerParameter(71))><Case(1)>a</Case><Case(2)>an</Case><Case(3)>a</Case><Case(4)>a</Case><Case(5)>a</Case><Case(6)>an</Case><Case(7)>a</Case><Case(8)>a</Case></Switch> <Switch(PlayerParameter(71))><Case(1)>Hyuran</Case><Case(2)>Elezen</Case><Case(3)>Lalafellin</Case><Case(4)>Miqo'te</Case><Case(5)>Roegadyn</Case><Case(6)>Auri</Case><Case(7)>Hrothgar</Case><Case(8)>Viera</Case></Switch> <Sheet(ClassJob,PlayerParameter(68),0)/>, are you?"
-107,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_045","And your partner? Yes...your fate is materializing before me. Are you destined for greatness, or will your names be lost to history? Look, and we shall see!"
-108,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_046","Oh my, you are a pair destined for glory indeed! Remain steadfast at each other's side, and they will tell tales of your deeds at the tables of admirals, Seedseers, and sultanas alike! The blessings of Llymlaen shall guide you to riches and renown."
-109,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_047","The Navigator bids you set sail for the far-off islands called the Cieldalaes. There, you shall begin the first of many adventures that shall be remembered far and wide!"
-110,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_048","Ah, one of the Twelve looks favorably upon this pairing! Nald'thal beams down from the heavens. All misfortune you have suffered will be eclipsed by the magnitude of the glory that lies ahead of you."
-111,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_049","Nald'thal's smile beckons you beneath the earth. Seek out an ancient wisdom buried in the cavernous deeps, and your search shall lead you to adventures most grand!"
-112,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_050","Ah, one of the Twelve has taken a liking to this pairing! None other than the venerable Halone has granted you Her fury. Any obstacles obstructing your journeys shall crumble before Her might."
-113,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_051","With a reliable airship to carry you, venture to the furthest edges of the Sea of Clouds. Among the verdant isles lies a chance at glory and honor!"
-114,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_052","Ah, you have won the favor of one of the Twelve! The wise Thaliak shall bring harmony to your endeavors together. Even your most difficult tribulations shall serve only to build an unshakable bond between you. "
-115,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_053","Avail yourself of Thaliak's blessing and journey to the ruins of Sharlayan, where behind each crumbling parapet lies the potential for unforgettable adventure. And, what's more, it seems that there may be an unexpected reunion in store."
-116,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_054","One of the Twelve smiles down upon you two! You are fortunate enough to have won the goodwill of Nymeia Herself! Nary a beast can withstand the combined might of this partnership with Her blessing safeguarding you."
-117,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_055","After you have weathered countless trials, your path shall lead you to a weapon of unsurpassed power. With it, you shall fight your way into the annals of Eorzean legend!"
-118,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_056","While not the most heartening outlook, there is no cause for despair. The solitary islands of the Sea of Clouds hold much promise for grand adventure. But beware, for if you drop your guard for even an instant, you may risk losing everything you have worked for. "
-119,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_057","It may be best to beseech the Twelve for protection. Go to the mark of the Navigator in Limsa Lominsa, and entreat Llymlaen for Her guidance. To ensure Her blessing's efficacy, carry a fish─alive or dead─with you at all times during your journey."
-120,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_058","Hmmm...Azeyma's scales remain level, showing neither favor nor disdain. The omens point to a great adventure slumbering deep beneath the earth. Alas, you cannot hope to succeed in this endeavor without each other's full trust."
-121,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_059","Before you depart, journey to the mark of the Dusk Trader in Ul'dah, and beseech Nald'thal to tip the scales ever so slightly to your advantage. During your trials, always carry a precious gem on your selves, as a symbol of His blessing."
-122,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_060","Byregot Himself works to build a solid foundation for your partnership. In the Sea of Clouds opportunity for glory lies, but the road to obtain it is fraught with peril. Weather the storm, however, and the suffering will pale in comparison to the ecstasy of triumph."
-123,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_061","Before you set off, beseech Halone for aid at the mark of the Fury in the Coerthas central highlands. Make sure always to carry a spear in your hands during your journey, and Her blessing is assured."
-124,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_062","You have the reassurance of Nophica that the storms of hardship you are facing will only serve to nourish your future renown. I sense within the ruins of Sharlayan lie the seeds of adventure most thrilling, but only through concerted effort shall they bear any fruit."
-125,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_063","The gods can offer you further aid, if you but ask. Go to the mark of the Scholar in Mor Dhona, and beseech Thaliak to grant you the wisdom to choose the most favorable path. Keep a shellfish close at hand during your journeys, and the Twelve will not forsake you."
-126,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_064","To see a pair so loyal to each other makes Menphina Herself smile. Set out on a journey to forge a weapon worthy of song, and as the moon waxes, so too shall your work come to fruition."
-127,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_065","Surely a journey of creation is worthy of the Builder's blessing as well. Wielding a golden hammer to please the gods, visit the mark of the Builder deep within the Black Shroud and beseech Byregot to lend His steady hand to your work."
-128,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_066","This result is...unfortunate. It seems Llymlaen has turned Her eyes from you. Embark to the seas and you shall be met with only languid winds and clouded skies."
-129,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_067","It would not be wise to journey across the waters, but you may seek the blessing of another of the Twelve. Journey to La Noscea and pray before the mark of the Wanderer, so that at the very least you shall have Oschon's blessing on the land."
-130,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_068","Azeyma's scales are weighted against you, and She judges you harshly. Nald'thal has forsaken you, and to venture underground would mean facing the myriad dangers of the earth. "
-131,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_069","Your only chance to reverse this misfortune is to go to Thanalan and entreat the Twelve for mercy before the mark of the Warden. Only then may Azeyma's scales shift in your favor. In the meantime, it is best to stay above ground, safe under the protection of the sun and sky."
-132,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_070","Oh my... Through affronts known only to Him, you have earned Rhalgr's wrath. Halone is unwilling to protect you from Her father's ire. Beware any adventures in the Sea of Clouds, for you will surely meet with tragedy."
-133,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_071","Your only recourse is to request the blessing of another. Journey to Coerthas and pray before the mark of the Lover, and perhaps Menphina's tenderness will assuage Rhalgr's anger. For the present, make safety and security a priority, and do not take reckless risks."
-134,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_072","Ah, it seems you two have become pawns in one of Althyk's inscrutable plots. Thaliak is loath to entangle Himself in such a precarious situation, and any endeavors you have planned in Sharlayan will be steeped in danger."
-135,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_073","The only hope to wrest free from Althyk's machinations is to rely on the aid of another. Go to La Noscea and make your devotions before the mark of the Spinner, so that Nymeia's blessing may improve your fate. For the time being, however, it would be best to ensure each other's safety, avoiding dangerous battles at all costs."
-136,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_074","Halone has chosen to test you two, and Byregot dares not interfere with His sister's plans. If you had hoped to build, or craft, be prepared to toil for longer than is reasonable."
-137,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_075","Only one path remains to you if you wish to improve your standing in the eyes of the Twelve. Go to the mark of the Destroyer in Thanalan, and beseech Rhalgr to put a stop to His children's games. Until that time, proceed with caution, and do not let your impatience get the best of you."
-138,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_076","Another couple comes wishing to know if love can bloom between them. Well, 'tis why I am here! But be forewarned: I am but a servant of fate, and my words may not be what you hope to hear. Knowing that, do you still wish for me to divine your affinity for ardor and affection?"
-139,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_100_076","I don't see a partner with you. Do you expect me to tell you if you love yourself? No, no, that is entirely too dull. Come again with another, and I shall tell you what blossoms between you, be it love or...something else."
-140,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_077","You answer without hesitation! I sense great confidence in your partnership! Hmmm... Let's see here. You were born in the <Switch(PlayerParameter(79))><Case(1)>First Astral Moon</Case><Case(2)>First Umbral Moon</Case><Case(3)>Second Astral Moon</Case><Case(4)>Second Umbral Moon</Case><Case(5)>Third Astral Moon</Case><Case(6)>Third Umbral Moon</Case><Case(7)>Fourth Astral Moon</Case><Case(8)>Fourth Umbral Moon</Case><Case(9)>Fifth Astral Moon</Case><Case(10)>Fifth Umbral Moon</Case><Case(11)>Sixth Astral Moon</Case><Case(12)>Sixth Umbral Moon</Case></Switch>, and thus your fate is guided by <Switch(PlayerParameter(79))><Case(1)>Halone</Case><Case(2)>Menphina</Case><Case(3)>Thaliak</Case><Case(4)>Nymeia</Case><Case(5)>Llymlaen</Case><Case(6)>Oschon</Case><Case(7)>Byregot</Case><Case(8)>Rhalgr</Case><Case(9)>Azeyma</Case><Case(10)>Nald'thal</Case><Case(11)>Nophica</Case><Case(12)>Althyk</Case></Switch>."
-141,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_078","And your partner's nameday is? Yes... The threads of fate are coming together. Behold, the cards reveal a couple's fate!"
-142,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_079","You two are a match made by the Twelve! <Switch(PlayerParameter(79))><Case(1)>Your partner truly feels they can trust you with anything.</Case><Case(2)>Your unshakable devotion fills your partner with the courage to overcome the most trying of difficulties.</Case><Case(3)>In the heat of battle there is no one else your partner would want at their back.</Case><Case(4)>Your partner praises the Twelve daily for their luck to have you by their side.</Case><Case(5)>You take your partner's breath away.</Case><Case(6)>Your partner feels safe even during their most vulnerable moments.</Case><Case(7)>Your partner feels completely at ease with you.</Case><Case(8)>Your relationship runs much deeper than just adventuring.</Case><Case(9)>You bring out the very best in your partner.</Case><Case(10)>The bonds you share are even thicker than blood and more lasting than stone.</Case><Case(11)>There is nary a truer and more loyal partnership than yours.</Case><Case(12)>Your partner feels safe and secure in your embrace.</Case></Switch> Alas, even the most passionate relationship can benefit from a bit of variety."
-143,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_080","Everyone loves to see their partner looking their best from time to time. During their next nameday, why not show off your most fashionable <Switch(PlayerParameter(71))><Case(1)>Hyuran</Case><Case(2)>Elezen</Case><Case(3)>Lalafellin</Case><Case(4)>Miqo'te</Case><Case(5)>Roegadyn</Case><Case(6)>Auri</Case><Case(7)>Hrothgar</Case><Case(8)>Viera</Case></Switch> outfit? It just might be the spark that brings you two even closer together."
-144,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_081","No two adventurers are more meant for each other than you! <Switch(PlayerParameter(79))><Case(1)>Your partner praises the Twelve daily for their luck to have you by their side.</Case><Case(2)>You take your partner's breath away.</Case><Case(3)>Your partner feels safe even during their most vulnerable moments.</Case><Case(4)>Your partner feels completely at ease with you.</Case><Case(5)>Your relationship runs much deeper than just adventuring.</Case><Case(6)>You bring out the very best in your partner.</Case><Case(7)>The bonds you share are even thicker than blood and more lasting than stone.</Case><Case(8)>There is nary a truer and more loyal partnership than yours.</Case><Case(9)>Your partner feels safe and secure in your embrace.</Case><Case(10)>Your partner truly feels they can trust you with anything.</Case><Case(11)>Your unshakable devotion fills your partner with the courage to overcome the most trying of difficulties.</Case><Case(12)>In the heat of battle there is no one else your partner would want at their back.</Case></Switch> Alas, even the most promising relationship must be treated with care."
-145,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_082","The <Switch(PlayerParameter(71))><Case(1)>honey muffin</Case><Case(2)>tomato pie</Case><Case(3)>dark pretzel</Case><Case(4)>meat miq'abob</Case><Case(5)>stuffed cabbage</Case><Case(6)>grilled dodo</Case><Case(7)>filler</Case><Case(8)>filler</Case></Switch> is a traditional staple of <Switch(PlayerParameter(71))><Case(1)>Hyuran</Case><Case(2)>Elezen</Case><Case(3)>Lalafellin</Case><Case(4)>Miqo'te</Case><Case(5)>Roegadyn</Case><Case(6)>Auri</Case><Case(7)>Hrothgar</Case><Case(8)>Viera</Case></Switch> cuisine, correct? Surely a sample of such a splendid dish would show your partner how much they are appreciated. All that's required is the smallest amount of effort, and you two shall never stray from each other's sides!"
-146,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_083","The stars must have been aligned when they brought this pair together! <Switch(PlayerParameter(79))><Case(1)>Your partner feels completely at ease with you.</Case><Case(2)>Your relationship runs much deeper than just adventuring.</Case><Case(3)>You bring out the very best in your partner.</Case><Case(4)>The bonds you share are even thicker than blood and more lasting than stone.</Case><Case(5)>There is nary a truer and more loyal partnership than yours.</Case><Case(6)>Your partner feels safe and secure in your embrace.</Case><Case(7)>Your partner truly feels they can trust you with anything.</Case><Case(8)>Your unshakable devotion fills your partner with the courage to overcome the most trying of difficulties.</Case><Case(9)>In the heat of battle there is no one else your partner would want at their back.</Case><Case(10)>Your partner praises the Twelve daily for their luck to have you by their side.</Case><Case(11)>You take your partner's breath away.</Case><Case(12)>Your partner feels safe even during their most vulnerable moments.</Case></Switch> But remember, there is more to life than adventuring. A private moment together can do much to enrich your relationship."
-147,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_084","You hail from <Sheet(Town,PlayerParameter(70),0)/>, correct? It may serve you both well to share a relaxing stroll alone through <Switch(PlayerParameter(70))><Case(1)>the Anchor Yard</Case><Case(2)>Apkallu Falls</Case><Case(3)>the Gold Court</Case></Switch>. There you shall be able to lose yourselves in each other's gazes and whisper many sweet nothings."
-148,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_085","You two are destined to be together! <Switch(PlayerParameter(79))><Case(1)>The bonds you share are even thicker than blood and more lasting than stone.</Case><Case(2)>There is nary a truer and more loyal partnership than yours.</Case><Case(3)>Your partner feels safe and secure in your embrace.</Case><Case(4)>Your partner truly feels they can trust you with anything.</Case><Case(5)>Your unshakable devotion fills your partner with the courage to overcome the most trying of difficulties.</Case><Case(6)>In the heat of battle there is no one else your partner would want at their back.</Case><Case(7)>Your partner praises the Twelve daily for their luck to have you by their side.</Case><Case(8)>You take your partner's breath away.</Case><Case(9)>Your partner feels safe even during their most vulnerable moments.</Case><Case(10)>Your partner feels completely at ease with you.</Case><Case(11)>Your relationship runs much deeper than just adventuring.</Case><Case(12)>You bring out the very best in your partner.</Case></Switch> But sometimes you must remind people of your devotion."
-149,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_086","Use your particular set of skills as <If(Equal(PlayerParameter(68),10))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),14))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),5))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),26))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),33))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/>a <Sheet(ClassJob,PlayerParameter(68),0)/></If></If></If></If></If> to lift up your partner both within the battlefield and without. Take care not to be lax in your duties, for a match such as this comes only once an era."
-150,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_087","The gods themselves are envious of your affinity for each other! <Switch(PlayerParameter(79))><Case(1)>There is nary a truer and more loyal partnership than yours.</Case><Case(2)>Your partner feels safe and secure in your embrace.</Case><Case(3)>Your partner truly feels they can trust you with anything.</Case><Case(4)>Your unshakable devotion fills your partner with the courage to overcome the most trying of difficulties.</Case><Case(5)>In the heat of battle there is no one else your partner would want at their back.</Case><Case(6)>Your partner praises the Twelve daily for their luck to have you by their side.</Case><Case(7)>You take your partner's breath away.</Case><Case(8)>Your partner feels safe even during their most vulnerable moments.</Case><Case(9)>Your partner feels completely at ease with you.</Case><Case(10)>Your relationship runs much deeper than just adventuring.</Case><Case(11)>With you your partner feels they can be their most true self.</Case><Case(12)>The bonds you share are even thicker than blood and more lasting than stone.</Case></Switch> But without growth even the most spirited relationship can become stagnant."
-151,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_088","Strive always to be the <If(PlayerParameter(4))>woman<Else/>man</If> your partner deserves, and through mutual effort you will both be enriched by this relationship. Do not forget the passion of your first meeting, and make sure each moment together is just as ardent at that one."
-152,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_089","Ah... It seems there is still work to be done between you. <Switch(PlayerParameter(79))><Case(1)>Your partner views you as a competent ally, but little more.</Case><Case(2)>Your partner still feels slightly timid around you.</Case><Case(3)>Your partner seems reluctant to talk with you of their troubles.</Case><Case(4)>Your partner has not opened up completely to you yet.</Case><Case(5)>Your company is welcome, but not essential.</Case><Case(6)>Your relationship seems to be based purely on convenience.</Case><Case(7)>There is still some distance between you and your partner.</Case><Case(8)>Your partner has little interest in you outside of pleasantries.</Case><Case(9)>The bonds between you are not as strong as they could be.</Case><Case(10)>Your partner is utterly unimpressed by you.</Case><Case(11)>If your partner saw you in a crowd, they would only greet you with a wave.</Case><Case(12)>Your partner acknowledges your existence, but only for as long as they need to.</Case></Switch> But do not despair, for relations can change for the better, and with but a little effort you may yet win the heart of your desired! "
-153,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_090","Remember that being attentive to your partner's needs is essential. Even if they do not say it, there is likely much they are struggling with. Pay attention, and your partner will notice."
-154,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_091","Now, pray do not be alarmed, but the stars show no particular favor to you two. <Switch(PlayerParameter(79))><Case(1)>Your partner views you as a competent ally, but little more.</Case><Case(2)>Your partner still feels slightly timid around you.</Case><Case(3)>Your partner seems reluctant to talk with you of their troubles.</Case><Case(4)>Your partner has not opened up completely to you yet.</Case><Case(5)>Your company is welcome, but not essential.</Case><Case(6)>Your relationship seems to be based purely on convenience.</Case><Case(7)>There is still some distance between you and your partner.</Case><Case(8)>Your partner has little interest in you outside of pleasantries.</Case><Case(9)>The bonds between you are not as strong as they could be.</Case><Case(10)>Your partner is utterly unimpressed by you.</Case><Case(11)>If your partner saw you in a crowd, they would only greet you with a wave.</Case><Case(12)>Your partner acknowledges your existence, but only for as long as they need to.</Case></Switch> But you need not despair, for this fate is not set in stone."
-155,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_092","Even the most hardened adventurers like to look their best from time to time. To celebrate your partner's nameday, present to them a heartfelt gift─a necklace, ring, or earrings─that shows the depth of your gratitude for their companionship. Before long, the lukewarm nature of your companionship may grow into something worthy of celebration!"
-156,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_093","Ah... It seems there is something to be desired between you two. <Switch(PlayerParameter(79))><Case(1)>Your partner views you as a competent ally, but little more.</Case><Case(2)>Your partner still feels slightly timid around you.</Case><Case(3)>Your partner seems reluctant to talk with you of their troubles.</Case><Case(4)>Your partner has not opened up completely to you yet.</Case><Case(5)>Your company is welcome, but not essential.</Case><Case(6)>Your relationship seems to be based purely on convenience.</Case><Case(7)>There is still some distance between you and your partner.</Case><Case(8)>Your partner has little interest in you outside of pleasantries.</Case><Case(9)>The bonds between you are not as strong as they could be.</Case><Case(10)>Your partner is utterly unimpressed by you.</Case><Case(11)>If your partner saw you in a crowd, they would only greet you with a wave.</Case><Case(12)>Your partner acknowledges your existence, but only for as long as they need to.</Case></Switch> But there is still hope! Even the most frigid heart can be warmed by a homemade meal."
-157,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_094","The key to a fruitful relationship lies in the kitchen. Treat your partner to a sweet <Switch(PlayerParameter(70))><Case(1)>rolanberry cheesecake</Case><Case(2)>sachertorte</Case><Case(3)>fig bavarois</Case></Switch>, and they won't soon forget your generosity. But remember, this gesture is but the first of many that will be required to make your relationship blossom."
-158,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_095",""
-159,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_096",""
-160,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_097","The cards say the relationship between you is...somewhat tepid. <Switch(PlayerParameter(79))><Case(1)>Your partner views you as a competent ally, but little more.</Case><Case(2)>Your partner still feels slightly timid around you.</Case><Case(3)>Your partner seems reluctant to talk with you of their troubles.</Case><Case(4)>Your partner has not opened up completely to you yet.</Case><Case(5)>Your company is welcome, but not essential.</Case><Case(6)>Your relationship seems to be based purely on convenience.</Case><Case(7)>There is still some distance between you and your partner.</Case><Case(8)>Your partner has little interest in you outside of pleasantries.</Case><Case(9)>The bonds between you are not as strong as they could be.</Case><Case(10)>Your partner is utterly unimpressed by you.</Case><Case(11)>If your partner saw you in a crowd, they would only greet you with a wave.</Case><Case(12)>Your partner acknowledges your existence, but only for as long as they need to.</Case></Switch> Mayhap you have forgotten that there is more to a friendship than just nodding silently in agreement to each other."
-161,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_098","You hail from <Sheet(Town,PlayerParameter(70),0)/>, correct? Sit down with your partner at <Switch(PlayerParameter(70))><Case(1)>the Bismarck</Case><Case(2)>Buscarron's Druthers</Case><Case(3)>the Coffer & Coffin</Case></Switch>, and over a bottle or two of your preferred libations, have a lively conversation and become more well acquainted with each other."
-162,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_099","Oh my. Truth be told, I've not made a reading this unfavorable in some time. <Switch(PlayerParameter(79))><Case(1)>You are a thorn in your partner's side.</Case><Case(2)>Your partner is looking for the first opportunity they have to abandon you.</Case><Case(3)>It is only a matter of time before you have daggers at each other's throats.</Case><Case(4)>Your partner has no interest in getting on well with you at all.</Case><Case(5)>It is a wonder your partner can even bear to be standing next to you right now, in fact.</Case><Case(6)>Your partner would rather spend their time cleaning the chocobo stables than spend another moment in your company.</Case><Case(7)>Your partner can hardly bear to make eye contact with you without being overcome with disgust.</Case><Case(8)>Spending time with you is the single most exhausting part of your partner's day.</Case><Case(9)>Your partner views you with as much interest as they would an insect.</Case><Case(10)>Your partner has regretted every second since they paired with you.</Case><Case(11)>Your partner silently wishes that you won't make it back from each adventure.</Case><Case(12)>Your partner hates so much about the things that you choose to be.</Case></Switch> Suffice it to say, I suggest you end this partnership at once! Ah, but you have a look about you that says you refuse to give up. Well, if you must be so stubborn..."
-163,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_100","Sit down with your partner and have a frank discussion about all that you've endured together. Mayhap then you shall find out what caused this rift between you. Be aware, however, that the road to reconciliation may be longer and more arduous than is worth it."
-164,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_101","Oh my. Your outlook is bleak, to say the least. <Switch(PlayerParameter(79))><Case(1)>You are a thorn in your partner's side.</Case><Case(2)>Your partner is looking for the first opportunity they have to abandon you.</Case><Case(3)>It is only a matter of time before you have daggers at each other's throats.</Case><Case(4)>Your partner has no interest in getting on well with you at all.</Case><Case(5)>It is a wonder your partner can even bear to be standing next to you right now, in fact.</Case><Case(6)>Your partner would rather spend their time cleaning the chocobo stables than spend another moment in your company.</Case><Case(7)>Your partner can hardly bear to make eye contact with you without being overcome with disgust.</Case><Case(8)>Spending time with you is the single most exhausting part of your partner's day.</Case><Case(9)>Your partner views you with as much interest as they would an insect.</Case><Case(10)>Your partner has regretted every second since they paired with you.</Case><Case(11)>Your partner silently wishes that you won't make it back from each adventure.</Case><Case(12)>Your partner hates so much about the things that you choose to be.</Case></Switch> Hmmm... 'Tis a dark fate indeed. However, the situation isn't entirely hopeless."
-165,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_102","Reflect upon how you've conducted yourself lately, and if you are honest with yourself, you may find much that needs improvement. If you value your partner's presence, take heed of their opinions as well and listen carefully to their point of view."
-166,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_103","Ah... It pains me to say I must be the bearer of bad news. <Switch(PlayerParameter(79))><Case(1)>You are a thorn in your partner's side.</Case><Case(2)>Your partner is looking for the first opportunity they have to abandon you.</Case><Case(3)>It is only a matter of time before you have daggers at each other's throats.</Case><Case(4)>Your partner has no interest in getting on well with you at all.</Case><Case(5)>It is a wonder your partner can even bear to be standing next to you right now, in fact.</Case><Case(6)>Your partner would rather spend their time cleaning the chocobo stables than spend another moment in your company.</Case><Case(7)>Your partner can hardly bear to make eye contact with you without being overcome with disgust.</Case><Case(8)>Spending time with you is the single most exhausting part of your partner's day.</Case><Case(9)>Your partner views you with as much interest as they would an insect.</Case><Case(10)>Your partner has regretted every second since they paired with you.</Case><Case(11)>Your partner silently wishes that you won't make it back from each adventure.</Case><Case(12)>Your partner hates so much about the things that you choose to be.</Case></Switch> The spark of passion that once existed between you has been extinguished, likely some time ago. Yet there may be a way to rekindle it."
-167,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_104","Gather your oldest and most trusted allies, and venture into <Switch(PlayerParameter(70))><Case(1)>the Sastasha Seagrot</Case><Case(2)>the Tam-Tara Deepcroft</Case><Case(3)>Copperbell Mines</Case></Switch>. Retracing the paths of your past exploits may serve to remind you both of what drew you together in the first place. "
-168,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_105","Steel your heart, for you may not want to hear this. <Switch(PlayerParameter(79))><Case(1)>You are a thorn in your partner's side.</Case><Case(2)>Your partner is looking for the first opportunity they have to abandon you.</Case><Case(3)>It is only a matter of time before you have daggers at each other's throats.</Case><Case(4)>Your partner has no interest in getting on well with you at all.</Case><Case(5)>It is a wonder your partner can even bear to be standing next to you right now, in fact.</Case><Case(6)>Your partner would rather spend their time cleaning the chocobo stables than spend another moment in your company.</Case><Case(7)>Your partner can hardly bear to make eye contact with you without being overcome with disgust.</Case><Case(8)>Spending time with you is the single most exhausting part of your partner's day.</Case><Case(9)>Your partner views you with as much interest as they would an insect.</Case><Case(10)>Your partner has regretted every second since they paired with you.</Case><Case(11)>Your partner silently wishes that you won't make it back from each adventure.</Case><Case(12)>Your partner hates so much about the things that you choose to be.</Case></Switch> The situation looks dire, but pray do not be hasty in ending this partnership."
-169,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_106","You must also ask yourself: Have I been setting my best foot forward as <If(Equal(PlayerParameter(68),10))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),14))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),5))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),26))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),33))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/>a <Sheet(ClassJob,PlayerParameter(68),0)/></If></If></If></If></If>? Be honest─and harsh─with your answers, and seek out the candid opinions of others as well. Strive to improve on your shortcomings and mayhap your partner may notice the effort you put into bettering yourself."
-170,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_107","This reading is...not good. Not good at all. <Switch(PlayerParameter(79))><Case(1)>You are a thorn in your partner's side.</Case><Case(2)>Your partner is looking for the first opportunity they have to abandon you.</Case><Case(3)>It is only a matter of time before you have daggers at each other's throats.</Case><Case(4)>Your partner has no interest in getting on well with you at all.</Case><Case(5)>It is a wonder your partner can even bear to be standing next to you right now, in fact.</Case><Case(6)>Your partner would rather spend their time cleaning the chocobo stables than spend another moment in your company.</Case><Case(7)>Your partner can hardly bear to make eye contact with you without being overcome with disgust.</Case><Case(8)>Spending time with you is the single most exhausting part of your partner's day.</Case><Case(9)>Your partner views you with as much interest as they would an insect.</Case><Case(10)>Your partner has regretted every second since they paired with you.</Case><Case(11)>Your partner silently wishes that you won't make it back from each adventure.</Case><Case(12)>Your partner hates so much about the things that you choose to be.</Case></Switch> It seems you two have forgotten what brought you together in the first place."
-171,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_108","Go to where the adventure started. <Sheet(Town,PlayerParameter(70),0)/>, was it? <Switch(PlayerParameter(70))><Case(1)>The Drowning Wench</Case><Case(2)>The Carline Canopy</Case><Case(3)>The Quicksand</Case></Switch> is home to many fresh-faced adventurers in need of advice and aid. As a team, lend them a helping hand, and their bright-eyed gratitude may serve to remind you of the reasons you became partners so long ago. "
-172,"TEXT_FESVLT202_02219_MISSIONARY02219_000_120","Welcome back! Were the truths revealed by our fortune-tellers to your liking? Even if they were less than favorable, do not lose heart. Our fates are ever-changing, and a bad outlook can turn good with but a small amount of effort."
-173,"TEXT_FESVLT202_02219_MISSIONARY02219_000_121","Nevertheless, it seems that your example has encouraged others to have their fortunes told as well."
-174,"TEXT_FESVLT202_02219_MISSIONARY02219_000_122","Countless couples are now discussing their fortunes with a spirited excitement. No doubt more than a few have been given the courage to confess their true feelings to each other! House Valentione is in your debt!"
-175,"TEXT_FESVLT202_02219_MISSIONARY02219_000_123","Of course, your fortunes may have been too vague, or too cruel, or maybe so wonderful you cannot wait to hear more! If that is the case, just speak to me and I will gladly provide you with more Valentione's cards."
-176,"TEXT_FESVLT202_02219_MISSIONARY02219_000_124","Before you approach our fortune-tellers again, however, I must ask you to go and visit Lady Lisette. It seemed she had quite an urgent request to make of you. Prithee go to her as soon as circumstances allow."
-177,"TEXT_FESVLT202_02219_MISSIONARY02219_000_129","Were the truths revealed by our fortune-tellers to your liking? Even if they were less than favorable, do not lose heart, for fortune is a fluid thing indeed."
-178,"TEXT_FESVLT202_02219_MISSIONARY02219_000_130","If you would have your fate read once more, simply speak to me and I shall provide you with more Valentione's cards."
+48,"TEXT_FESVLT202_02219_MISSIONARY02219_000_000","ご協力、ありがとうございます！
+さっそく注意事項を説明させていただきますね。"
+49,"TEXT_FESVLT202_02219_MISSIONARY02219_000_001","「愛の盛り上げ大使」さんにやっていただきたいのは、
+まず、「2人でペアを組んでもらう」こと。"
+50,"TEXT_FESVLT202_02219_MISSIONARY02219_100_001","そして、このアフトカースルにいる3人の占い師さんから、
+「冒険の相性」「お宝の運勢」「愛の相性」を、
+占ってもらうことです。"
+51,"TEXT_FESVLT202_02219_MISSIONARY02219_000_002","まずは、先ほどお渡しした「<Sheet(Item,13568)/>」か、
+「<Sheet(Item,13299,0)/>」を身にお着けください。
+「愛の盛り上げ大使」さんの証となります。"
+52,"TEXT_FESVLT202_02219_MISSIONARY02219_100_002","その状態で、それぞれの占い師さんに、
+この「<Sheet(EventItem,2001938,0)/>」を提示してくだされば、
+占ってもらえますよ！"
+53,"TEXT_FESVLT202_02219_MISSIONARY02219_000_003","「<Sheet(EventItem,2001938,0)/>」には、
+みなさまのお名前や種族、性別などの情報が記載されています。
+この情報が、占いの結果を左右する……とのことです。"
+54,"TEXT_FESVLT202_02219_MISSIONARY02219_000_004","……さて、注意事項は以上です。
+せっかくの催しですから、
+「愛の盛り上げ大使」さん自身も、ぜひ楽しんでくださいね！"
+55,"TEXT_FESVLT202_02219_SYSTEM_000_005","占い師に占ってもらうためには、
+「2人パーティ」を組んでいる必要があります。"
+56,"TEXT_FESVLT202_02219_SYSTEM_000_006","その上で、「<Sheet(Item,13568)/>」か、
+「<Sheet(Item,13299,0)/>」を装備して、
+占い師と会話してください。"
+57,"TEXT_FESVLT202_02219_SYSTEM_100_007","また、それぞれ異なるイヤリングを装備する必要があります。
+同じイヤリングを装備していると、
+クエストを進行できませんので、ご注意ください。"
+58,"TEXT_FESVLT202_02219_MISSIONARY02219_000_007","占いを受けるには、「2人でペアを組む」必要があります。
+その上で、「<Sheet(Item,13568)/>」か
+「<Sheet(Item,13299,0)/>」を身にお着けください。"
+59,"TEXT_FESVLT202_02219_MISSIONARY02219_100_007","「<Sheet(EventItem,2001938,0)/>」を提示することも、お忘れなく！"
+60,"TEXT_FESVLT202_02219_SYSTEM_000_008","占い師に占ってもらうためには、
+「2人パーティ」を組んでいる必要があります。"
+61,"TEXT_FESVLT202_02219_SYSTEM_000_009","その上で、「<Sheet(Item,13568)/>」か、
+「<Sheet(Item,13299,0)/>」を装備して、
+占い師と会話してください。"
+62,"TEXT_FESVLT202_02219_SYSTEM_110_009","また、それぞれ異なるイヤリングを装備する必要があります。
+同じイヤリングを装備していると、
+クエストを進行できませんので、ご注意ください。"
+63,"TEXT_FESVLT202_02219_MISSIONARY02219_100_009","これはこれは、「愛の盛り上げ大使」さん！
+また占いをされるのであれば、こちらをどうぞ！
+ペアの方との占いを、楽しんできてくださいね！"
+64,"TEXT_FESVLT202_02219_MISSIONARY02219_000_126","（★未使用／削除予定★）"
+65,"TEXT_FESVLT202_02219_SYSTEM_000_127","占い師に占ってもらうためには、
+「2人パーティ」を組んでいる必要があります。"
+66,"TEXT_FESVLT202_02219_SYSTEM_000_128","その上で、「<Sheet(Item,13568)/>」か、
+「<Sheet(Item,13299,0)/>」を装備して、
+占い師と会話してください。"
+67,"TEXT_FESVLT202_02219_SYSTEM_100_128","また、それぞれ異なるイヤリングを装備する必要があります。
+同じイヤリングを装備していると、
+クエストを進行できませんので、ご注意ください。"
+68,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_010","おやおや、おふたりさん……
+お宝と巡り会えるかどうか、「お宝の運勢」を占ってあげますよ？
+金の切れ目が縁の切れ目、なんて言いますからね……。"
+69,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_100_010","おやおや、ペアではないみたいじゃないか。
+だれかとペアを組んでから、また来てくださいねぇ。"
+70,"TEXT_FESVLT202_02219_SYSTEM_100_010","パーティメンバーの距離が離れているため、
+クエストを進行できません。"
+71,"TEXT_FESVLT202_02219_SYSTEM_100_011","指定の「<Sheet(Item,13568)/>」か、
+「<Sheet(Item,13299,0)/>」を装備していない
+パーティメンバーがいるため、クエストを進行できません。"
+72,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_011","どれどれ、さっそく視てみましょうかねぇ……。
+<Sheet(Race,PlayerParameter(71),0)/>族の<If(PlayerParameter(4))>お姉さん<Else/>お兄さん</If>は、
+<Sheet(Town,PlayerParameter(70),0)/>から、冒険を始められたので？"
+73,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_012","それでもって、お相手の方は……。
+ははぁん、おやおやまぁまぁ、この誕生月からすると、
+…………視えてきましたよ、お宝と巡り会えるかどうかがねぇ！"
+74,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_013","おふたりには、黄金の風が吹いてくるようですなぁ！
+特にオススメしたいのが、ラノシアの水辺に出かけて、
+ゆったりと釣り糸を垂らし、ふたりで釣りを楽しむこと！"
+75,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_014","まだ試したことがないのなら、これを機に始めてみては？
+あなたのラッキーカラーは、ずばり「<Switch(PlayerParameter(70))><Case(1)>ハニーイエロー</Case><Case(2)>ローズピンク</Case><Case(3)>シルフグリーン</Case></Switch>」……
+お気に入りの衣装を染色しておくのも、効果的でしょうねぇ。"
+76,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_015","おふたりには、黄金の風が吹いてくるようですなぁ！
+特にオススメしたいのが、ふたりそろって森で良木を探して、
+手斧を振るって伐採に従事すること！"
+77,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_016","木材を商うことでも、同じく金運が向上しそうですぞぉ！
+あなたのラッキーカラーは、ずばり「<Switch(PlayerParameter(70))><Case(1)>ローズピンク</Case><Case(2)>シルフグリーン</Case><Case(3)>ハニーイエロー</Case></Switch>」……
+お気に入りの衣装を染色しておくのも、効果的でしょうねぇ。"
+78,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_017","おふたりには、黄金の風が吹いてくるようですなぁ！
+特にオススメしたいのが、ふたりそろって<Switch(PlayerParameter(70))><Case(1)>荒野</Case><Case(2)>海辺</Case><Case(3)>森</Case></Switch>で岩場を探して、
+つるはしを振り下ろして、採掘に挑むこと！"
+79,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_018","岩と岩の隙間から、思わぬお宝が見つかるかも！？
+あなたのラッキーカラーは、ずばり「<Switch(PlayerParameter(70))><Case(1)>シルフグリーン</Case><Case(2)>ハニーイエロー</Case><Case(3)>ローズピンク</Case></Switch>」……
+お気に入りの衣装を染色しておくのも、効果的でしょうねぇ。"
+80,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_019","（★未使用／削除予定★）"
+81,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_020","（★未使用／削除予定★）"
+82,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_021","おふたりには、黄金の風が吹いてくるようですなぁ！
+特にオススメしたいのが、ふたりそろって飛空艇に飛び乗って、
+ゴールドソーサーに遊びに行くこと！"
+83,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_022","どんな遊技からも、幸運とお宝が舞い込む予感！
+あなたのラッキーカラーは、ずばり「<Switch(PlayerParameter(70))><Case(1)>レーズンブラウン</Case><Case(2)>メサレッド</Case><Case(3)>メドウグリーン</Case></Switch>」……
+お気に入りの衣装を染色するのも、効果的でしょうねぇ。"
+84,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_023","なんとも微妙な、良くも悪くもない運勢……。
+これからお宝との巡り合わせを良くしたいのであれば、
+ザナラーンの水辺に出かけて、釣りに挑むといいでしょう。"
+85,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_024","魚介類を使った品を、ふたりで食べるのも効果アリ！
+そして、あなたのラッキーカラーは「<Switch(PlayerParameter(70))><Case(1)>クァールイエロー</Case><Case(2)>マーシュグリーン</Case><Case(3)>ラセットブラウン</Case></Switch>」……
+この色で染めた衣装をまとえば、運気も上昇するでしょうねぇ。"
+86,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_025","なんとも微妙な、良くも悪くもない運勢……。
+これからお宝との巡り合わせを良くしたいのであれば、
+ラノシアで良木を探して、伐採に挑むといいでしょう。"
+87,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_026","木製の調度品や道具なんかを、新調するのも効果アリ！
+そして、あなたのラッキーカラーは「<Switch(PlayerParameter(70))><Case(1)>マーシュグリーン</Case><Case(2)>ラセットブラウン</Case><Case(3)>クァールイエロー</Case></Switch>」……
+この色で染めた衣装をまとえば、運気も上昇するでしょうねぇ。"
+88,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_027","なんとも微妙な、良くも悪くもない運勢……。
+これからお宝との巡り合わせを良くしたいのであれば、
+黒衣森の岩場に出かけて、採掘に挑むといいでしょう。"
+89,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_028","金属や宝石に関わる物を身に着けるのも効果アリ！
+そして、あなたのラッキーカラーは「<Switch(PlayerParameter(70))><Case(1)>ラセットブラウン</Case><Case(2)>クァールイエロー</Case><Case(3)>マーシュグリーン</Case></Switch>」……
+この色で染めた衣装をまとえば、運気も上昇するでしょうねぇ。"
+90,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_029","なんとも微妙な、良くも悪くもない運勢……。
+これからお宝との巡り合わせを良くしたいのであれば、
+宝の地図を片手に、トレジャーハントに挑むといいでしょう。"
+91,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_030","最初は上手くいかなくても、諦めなければ大丈夫！
+そして、あなたのラッキーカラーは「<Switch(PlayerParameter(70))><Case(1)>アップルグリーン</Case><Case(2)>ボーンホワイト</Case><Case(3)>モスグリーン</Case></Switch>」……
+この色で染めた衣装をまとえば、運気も上昇するでしょうねぇ。"
+92,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_031","（★未使用／削除予定★）"
+93,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_032","（★未使用／削除予定★）"
+94,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_033","おやおやまぁまぁ、見るも無惨な結果です……。
+黒衣森で釣り糸でもたらして、不運な時期が過ぎ去るまで、
+川底に潜む魚のように、耐えるしかないでしょう……。"
+95,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_034","ただし、魚介類にはくれぐれもご注意を……。
+食あたりになり、いろいろとマズいことになりますからねぇ。
+「<Switch(PlayerParameter(70))><Case(1)>クリームイエロー</Case><Case(2)>バークブラウン</Case><Case(3)>サーモンピンク</Case></Switch>」の品で、悪運を払うといいでしょう。"
+96,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_035","おやおやまぁまぁ、見るも無惨な結果です……。
+ザナラーンで伐採でもして、不運な時期が過ぎ去るまで、
+風にしなる柳のように、耐えるしかないでしょう……。"
+97,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_036","ただし、木工製品にはくれぐれもご注意を……。
+座った椅子が壊れて、大怪我なんてこともありますからねぇ。
+「<Switch(PlayerParameter(70))><Case(1)>バークブラウン</Case><Case(2)>サーモンピンク</Case><Case(3)>クリームイエロー</Case></Switch>」の品で、悪運を払うといいでしょう。"
+98,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_037","おやおやまぁまぁ、見るも無惨な結果です……。
+ラノシアで採掘でもして、不運な時期が過ぎ去るまで、
+動くことなき大岩のように、耐えるしかないでしょう……。"
+99,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_038","ただし、宝飾品にはくれぐれもご注意を……。
+指輪から宝石が外れて、大損なんてこともありますからねぇ。
+「<Switch(PlayerParameter(70))><Case(1)>クリームイエロー</Case><Case(2)>バークブラウン</Case><Case(3)>サーモンピンク</Case></Switch>」の品で、悪運を払うといいでしょう。"
+100,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_039","おやおやまぁまぁ、見るも無惨な結果です……。
+特にトレジャーハントでの成果は、期待できそうにありません。
+一攫千金を夢見るよりも、コツコツ地道が一番でしょう。"
+101,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_040","ギルドリーヴの仕事でもして堅く稼ぎながら、
+不運な時期が過ぎ去るまで、耐え忍んではいかがです？
+「<Switch(PlayerParameter(70))><Case(1)>ライムグリーン</Case><Case(2)>ハンターグリーン</Case><Case(3)>オリーヴグリーン</Case></Switch>」の品で、悪運を払うといいでしょう。"
+102,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_041","おやおやまぁまぁ、見るも無惨な結果です……。
+特に危ないのがゴールドソーサーでの豪遊ですよ。
+せっかくためたポイントも、スッカラカンの危険大！"
+103,"TEXT_FESVLT202_02219_TREASURELUCKTELLER2219_000_042","サゴリー砂漠の南から、ゴールドソーサーを遠くに眺め、
+不運な時期が過ぎ去るまで、耐え忍んではいかがです？
+「<Switch(PlayerParameter(70))><Case(1)>ハンターグリーン</Case><Case(2)>オリーヴグリーン</Case><Case(3)>ライムグリーン</Case></Switch>」の品で、悪運を払うといいでしょう。"
+104,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_043","ワタクシ、冒険に関わる運勢……
+「冒険の相性」を占うのが得意ですの。
+あなた方、冒険者としての相性を知りたいんですの？"
+105,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_100_043","あなた、ペアになっていないようですの。
+どなたかとペアを組んだら、またいらしてほしいんですの。"
+106,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_044","かしこまりました、それでは早速見てみるですの。
+まずは、あなたから……
+……<Sheet(ClassJob,PlayerParameter(68),0)/>をされている<Sheet(Race,PlayerParameter(71),0)/>さん、と……。"
+107,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_045","お相手の方はどんな感じですの……
+……おや、そうきましたか…………
+あなた方の相性と運気が、見えてきましたのよ！"
+108,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_046","最高の結果ですのよ！
+あなた方の冒険者としての相性は、群を抜いていますの。
+どうやら海神「リムレーン」の祝福を受けているようですわ。"
+109,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_047","つまり、海での冒険に吉兆が出ているということ！
+ここよりはるか南の洋上、シェルダレー諸島で、
+冒険が待っているという予感がしますの！"
+110,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_048","おめでとうございます！
+商神「ナルザル」が、ふたりに微笑みかけていますの。
+今がどんなに不幸でも、すぐに大きな幸せがやってきますよ。"
+111,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_049","つまり、地中での冒険に吉兆が出ているということ！
+どうやら地下深くに、古の叡智が詰まった場所がある……
+そんな場所での大冒険の予感がしますの！"
+112,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_050","おめでとうございます！
+戦神「ハルオーネ」があなたの援助に乗り出しましたの。
+ふたりを遮る障害は、たちどころに取り除かれるでしょうね。"
+113,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_051","どうやら雲海の果てにある優美な島々で、
+大いなる栄光が掴める……そんな予感がしますの！
+飛空艇に飛び乗る必要がありそうですのよ！"
+114,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_052","おめでとうございます！
+知神「サリャク」が、ふたりの幸せな時間を用意しているようですの。
+ケンカすればするほど、大きな成功がつかめるでしょうね。"
+115,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_053","どうやら廃都シャーレアンにて、
+あなた方を大冒険が待っているようですの！
+そこでは、再会が待っていそうな予感がしますのよ！"
+116,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_054","おめでとうございます！
+星神「ニメーヤ」がふたりを応援していますの。
+ふたりで共闘すれば、どんな強敵も倒せるはずですわ。"
+117,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_055","冒険に次ぐ冒険の果てに、
+大いなる意思を秘めた武器の幻が見えますの！
+新たな伝説を紡ぐことができそうですのよ！"
+118,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_056","どうやら、相性は悪くないようですの。
+海に浮かぶ孤島での冒険に吉兆が出てはいるのですが、
+油断していると、凶事が舞い込むこともありますのよ！"
+119,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_057","リムサ・ロミンサの「リムレーンの秘石」に、
+冒険の成功を祈願してから、出発するといいですの。
+その際、魚をお守り代わりに持っていくといいですのよ！"
+120,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_058","アーゼマの天秤が均衡を保っているようですの。
+地下深くに赴く冒険に吉兆が出てはいるのですが、
+ふたりが協力すればするほど、目的は達成できそうですわ。"
+121,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_059","ウルダハの「ナルザルの秘石」に、
+冒険の成功を祈願してから、出発するといいですの。
+その際、宝石をお守り代わりに持っていくといいですのよ！"
+122,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_060","ビエルゴが、ふたりの関係を築き上げてくれていますの。
+雲海に浮かぶ諸島で困難に見舞われても耐え続ければ、
+いつか成功をつかめるでしょうね。"
+123,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_061","クルザス中央高地の「ハルオーネの秘石」に、
+冒険の成功を祈願してから、出発するといいですの。
+その際、槍をお守り代わりに持っていくといいですのよ！"
+124,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_062","ノフィカは、ふたりに衝突がたえずとも心配ないと言っていますの。
+今は、成功という花を咲かせるための、地ならしの時期。
+廃都シャーレアンで苦労が続いても、決して諦めないでくださいね。"
+125,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_063","モードゥナの「サリャクの秘石」に、
+冒険の成功を祈願してから、出発するといいですの。
+その際、貝をお守り代わりに持っていくといいですのよ！"
+126,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_064","メネフィナは、ふたりの協力を喜んでいますの。
+武器を創るための冒険に努力をしていれば、
+双月が満ちるとともに、成功もやってくるでしょうね。"
+127,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_065","黒衣森南部森林の「ビエルゴの秘石」に、
+冒険の成功を祈願してから、出発するといいですの。
+その際、金槌をお守り代わりに持っていくといいですのよ！"
+128,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_066","これは……最悪の結果ですの……。
+海神「リムレーン」に見放されているらしく、
+海の冒険に出ると、船が難破することすらありそうですのよ。"
+129,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_067","ここはラノシアの「オシュオンの秘石」に赴き、
+山神「オシュオン」に取り成しを願うしかないですの……。
+無理に海に出ず、内陸を進むといいですのよ。"
+130,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_068","アーゼマの天秤が狂い、ふたりに危険な審判が下されましたの。
+商神「ナルザル」に見放されているらしく、
+地下に潜れば、崩落や遭難の危険すらありそうですのよ。"
+131,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_069","ここはザナラーンの「アーゼマの秘石」に赴き、
+日神「アーゼマ」に取り成しを願うしかないですの……。
+太陽の光を浴びられる場所での冒険が無難ですのよ。"
+132,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_070","ラールガーの怒りを買ってしまった暗示。
+戦神「ハルオーネ」に見放されているらしく、
+雲海での冒険では、犠牲の覚悟が必要ですのよ。"
+133,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_071","ここはクルザスの「メネフィナの秘石」に赴き、
+月神「メネフィナ」に取り成しを願うしかないですの……。
+無謀な探索よりも、安全を優先すべきですのよ。"
+134,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_072","アルジクの企みに巻き込まれてしまいましたわ。
+知神「サリャク」に見放されているらしく、
+シャーレアンでは危険が待ち受けている予感がしますのよ。"
+135,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_073","ラノシアの「ニメーヤの秘石」に赴き、
+星神「ニメーヤ」に取り成しを願うしかないですの……。
+強敵を倒すことより、仲間の安全を優先すべきですのよ。"
+136,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_074","ふたりの旅路に、ハルオーネの試練が課されますの。
+工神「ビエルゴ」に見放されているらしく、
+武器を創りたいなら、厳しい試練を覚悟する必要がありますのよ。"
+137,"TEXT_FESVLT202_02219_ADVENTURELUCKTELLER2219_000_075","ここはザナラーンの「ラールガーの秘石」に赴き、
+壊神「ラールガー」に取り成しを願うしかないですの……。
+あまり焦らず、イライラせずに挑むことが大切ですのよ。"
+138,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_076","ワタシは「愛の相性」占い師、お世辞は絶対言わないよ！
+それでもよければ占ってやる。
+どうするんだい、ふたりの「愛の相性」を占ってみるかい？"
+139,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_100_076","お前さん、ペアになれていないようじゃないか。
+誰かとペアを組んでから来るんだね！"
+140,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_077","ようし、じゃあ早速見てみようじゃないか！
+……ほうほう、お前さん、<Switch(PlayerParameter(79))><Case(1)>星一月</Case><Case(2)>霊一月</Case><Case(3)>星二月</Case><Case(4)>霊二月</Case><Case(5)>星三月</Case><Case(6)>霊三月</Case><Case(7)>星四月</Case><Case(8)>霊四月</Case><Case(9)>星五月</Case><Case(10)>霊五月</Case><Case(11)>星六月</Case><Case(12)>霊六月</Case></Switch>生まれだね？
+<Switch(PlayerParameter(79))><Case(1)>ハルオーネ</Case><Case(2)>メネフィナ</Case><Case(3)>サリャク</Case><Case(4)>ニメーヤ</Case><Case(5)>リムレーン</Case><Case(6)>オシュオン</Case><Case(7)>ビエルゴ</Case><Case(8)>ラールガー</Case><Case(9)>アーゼマ</Case><Case(10)>ナルザル</Case><Case(11)>ノフィカ</Case><Case(12)>アルジク</Case></Switch>が運行を司る月ってことは…………。"
+141,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_078","ツレの方の誕生月と掛け合わせることで……
+……ほうほう、そうかいそうかい…………
+…………お前さんたちの相性運は、こんなところだね！"
+142,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_079","ふたりは運命共同体に相応しい、最高の相性だね。
+ツレにとって、お前さんは<Switch(PlayerParameter(79))><Case(1)>頼りになる</Case><Case(2)>甘えられる</Case><Case(3)>背中を預けられる</Case><Case(4)>可愛すぎる</Case><Case(5)>痺れる</Case><Case(6)>寝顔を見せられる</Case><Case(7)>油断できる</Case><Case(8)>拳で語り合える</Case><Case(9)>本心を語れる</Case><Case(10)>双子のような</Case><Case(11)>相棒と呼べる</Case><Case(12)>食べたいくらいの</Case></Switch>相手だ。
+ただし、それにかまけて相手を雑に扱うんじゃないよ？"
+143,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_080","<Switch(PlayerParameter(71))><Case(1)>ヒューラン</Case><Case(2)>エレゼン</Case><Case(3)>ララフェル</Case><Case(4)>ミコッテ</Case><Case(5)>ルガディン</Case><Case(6)>アウラ</Case><Case(7)>ロスガル</Case><Case(8)>ヴィエラ</Case></Switch>の<If(PlayerParameter(4))>女<Else/>男</If>として似合う服を披露して、
+相手を喜ばせてやるくらいの心遣いが必要なのさ。
+大切なパートナーなんだ、逃すんじゃないよ！"
+144,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_081","ふたりは運命共同体に相応しい、最高の相性だね。
+ツレにとって、お前さんは<Switch(PlayerParameter(79))><Case(1)>可愛すぎる</Case><Case(2)>痺れる</Case><Case(3)>寝顔を見せられる</Case><Case(4)>油断できる</Case><Case(5)>拳で語り合える</Case><Case(6)>本心を語れる</Case><Case(7)>双子のような</Case><Case(8)>相棒と呼べる</Case><Case(9)>食べたいくらいの</Case><Case(10)>頼りになる</Case><Case(11)>甘えられる</Case><Case(12)>背中を預けられる</Case></Switch>相手だ。
+ただし、それにかまけて相手を雑に扱うんじゃないよ？"
+145,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_082","たまには、<Switch(PlayerParameter(71))><Case(1)>ヒューラン</Case><Case(2)>エレゼン</Case><Case(3)>ララフェル</Case><Case(4)>ミコッテ</Case><Case(5)>ルガディン</Case><Case(6)>アウラ</Case><Case(7)>ロスガル</Case><Case(8)>ヴィエラ</Case></Switch>のお前さんにとっての定番料理、
+<Switch(PlayerParameter(71))><Case(1)>ハニーマフィン</Case><Case(2)>トマトパイ</Case><Case(3)>プレッツェル</Case><Case(4)>ミコッテ風山の幸串焼</Case><Case(5)>パイクのキャベツ巻き</Case><Case(6)>ドードーのグリル</Case><Case(7)>大山羊ステーキ</Case><Case(8)>キノコのソテー</Case></Switch>でも相手に振る舞ってやりな！
+大切なパートナーなんだ、逃すんじゃないよ！"
+146,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_083","ふたりは運命共同体に相応しい、最高の相性だね。
+ツレにとって、お前さんは<Switch(PlayerParameter(79))><Case(1)>油断できる</Case><Case(2)>拳で語り合える</Case><Case(3)>本心を語れる</Case><Case(4)>双子のような</Case><Case(5)>相棒と呼べる</Case><Case(6)>食べたいくらいの</Case><Case(7)>頼りになる</Case><Case(8)>甘えられる</Case><Case(9)>背中を預けられる</Case><Case(10)>可愛すぎる</Case><Case(11)>痺れる</Case><Case(12)>寝顔を見せられる</Case></Switch>相手だ。
+ただし、それにかまけて相手を雑に扱うんじゃないよ？"
+147,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_084","あんたは、<Sheet(Town,PlayerParameter(70),0)/>に縁があるんだろう？
+だったら、<Switch(PlayerParameter(70))><Case(1)>アンカーヤード</Case><Case(2)>アプカル滝</Case><Case(3)>ゴールドコート</Case></Switch>にでも連れていって、
+たまには静かに語り合ってみるんだね！"
+148,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_085","ふたりは運命共同体に相応しい、最高の相性だね。
+ツレにとって、お前さんは<Switch(PlayerParameter(79))><Case(1)>双子のような</Case><Case(2)>相棒と呼べる</Case><Case(3)>食べたいくらいの</Case><Case(4)>頼りになる</Case><Case(5)>甘えられる</Case><Case(6)>背中を預けられる</Case><Case(7)>可愛すぎる</Case><Case(8)>痺れる</Case><Case(9)>寝顔を見せられる</Case><Case(10)>油断できる</Case><Case(11)>拳で語り合える</Case><Case(12)>本心を語れる</Case></Switch>相手だ。
+ただし、それにかまけて相手を雑に扱うんじゃないよ？"
+149,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_086","あんたは、<Sheet(ClassJob,PlayerParameter(68),0)/>なんだろう？
+だったら、その腕を活かして相手を支えてやるんだ。
+こんな相性のいい相手を、逃すんじゃないよ！"
+150,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_087","ふたりは運命共同体に相応しい、最高の相性だね。
+ツレにとって、お前さんは<Switch(PlayerParameter(79))><Case(1)>相棒と呼べる</Case><Case(2)>食べたいくらいの</Case><Case(3)>頼りになる</Case><Case(4)>甘えられる</Case><Case(5)>背中を預けられる</Case><Case(6)>可愛すぎる</Case><Case(7)>痺れる</Case><Case(8)>寝顔を見せられる</Case><Case(9)>油断できる</Case><Case(10)>拳で語り合える</Case><Case(11)>本心を語れる</Case><Case(12)>双子のような</Case></Switch>相手だ。
+ただし、それにかまけて相手を雑に扱うんじゃないよ？"
+151,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_088","相手に見合う<If(PlayerParameter(4))>女<Else/>男</If>になるという、
+心持ちが互いをさらなる高みに、登らせるんだからね！
+初心忘れるべからずってことだよ。"
+152,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_089","ふたりは可もなく不可もない相性だね。
+ツレにとって、お前さんは<Switch(PlayerParameter(79))><Case(1)>同僚程度の</Case><Case(2)>少し気兼ねする</Case><Case(3)>相談しづらい</Case><Case(4)>心の扉は開いていない</Case><Case(5)>来る者拒まず程度な</Case><Case(6)>お隣さん程度の</Case><Case(7)>かしこまってしまう</Case><Case(8)>顔色をうかがう</Case><Case(9)>そこそこの仲な</Case><Case(10)>特別な魅力は感じない</Case><Case(11)>顔なじみ程度の</Case><Case(12)>認知はしている</Case></Switch>相手だ。
+焦らずに、いたわりあうところから始めることだね！"
+153,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_090","<Switch(PlayerParameter(71))><Case(1)>ヒューラン</Case><Case(2)>エレゼン</Case><Case(3)>ララフェル</Case><Case(4)>ミコッテ</Case><Case(5)>ルガディン</Case><Case(6)>アウラ</Case><Case(7)>ロスガル</Case><Case(8)>ヴィエラ</Case></Switch>の<If(PlayerParameter(4))>女<Else/>男</If>として、
+相手に見合うだけの器を備える努力をしないとダメさ。
+より深い関係になりたければ、とにかく頑張ることだよ！"
+154,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_091","ふたりは可もなく不可もない相性だね。
+ツレにとって、お前さんは<Switch(PlayerParameter(79))><Case(1)>同僚程度の</Case><Case(2)>少し気兼ねする</Case><Case(3)>相談しづらい</Case><Case(4)>心の扉は開いていない</Case><Case(5)>来る者拒まず程度な</Case><Case(6)>お隣さん程度の</Case><Case(7)>かしこまってしまう</Case><Case(8)>顔色をうかがう</Case><Case(9)>そこそこの仲な</Case><Case(10)>特別な魅力は感じない</Case><Case(11)>顔なじみ程度の</Case><Case(12)>認知はしている</Case></Switch>相手だ。
+焦らずに、いたわりあうところから始めることだね！"
+155,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_092","相手に似合いそうなアクセサリでも、
+誕生月に贈ってやりなさいな。
+そうすればきっと、関係も深くなるに違いないだろうよ！"
+156,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_093","ふたりは可もなく不可もない相性だね。
+ツレにとって、お前さんは<Switch(PlayerParameter(79))><Case(1)>同僚程度の</Case><Case(2)>少し気兼ねする</Case><Case(3)>相談しづらい</Case><Case(4)>心の扉は開いていない</Case><Case(5)>来る者拒まず程度な</Case><Case(6)>お隣さん程度の</Case><Case(7)>かしこまってしまう</Case><Case(8)>顔色をうかがう</Case><Case(9)>そこそこの仲な</Case><Case(10)>特別な魅力は感じない</Case><Case(11)>顔なじみ程度の</Case><Case(12)>認知はしている</Case></Switch>相手だ。
+焦らずに、いたわりあうところから始めることだね！"
+157,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_094","<Switch(PlayerParameter(70))><Case(1)>ロランベリーチーズケーキ</Case><Case(2)>ザッハトルテ</Case><Case(3)>ババロア・オ・フィグ</Case></Switch>でもご馳走してやんな！
+たまには、甘いものでもあげたら喜ばれるだろうさ。
+悪くない相手なんだ、今後どうなるかはお前さん次第だよ！"
+158,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_095","（★未使用／削除予定★）"
+159,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_096","（★未使用／削除予定★）"
+160,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_097","ふたりは可もなく不可もない相性だね。
+ツレにとって、お前さんは<Switch(PlayerParameter(79))><Case(1)>同僚程度の</Case><Case(2)>少し気兼ねする</Case><Case(3)>相談しづらい</Case><Case(4)>心の扉は開いていない</Case><Case(5)>来る者拒まず程度な</Case><Case(6)>お隣さん程度の</Case><Case(7)>かしこまってしまう</Case><Case(8)>顔色をうかがう</Case><Case(9)>そこそこの仲な</Case><Case(10)>特別な魅力は感じない</Case><Case(11)>顔なじみ程度の</Case><Case(12)>認知はしている</Case></Switch>相手だ。
+焦らずに、いたわりあうところから始めることだね！"
+161,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_098","あんたは<Sheet(Town,PlayerParameter(70),0)/>に縁があるんだろう？
+それなら、<Switch(PlayerParameter(70))><Case(1)>「レストラン・ビスマルク」</Case><Case(2)>「バスカロンドラザーズ」</Case><Case(3)>「コッファー＆コフィン」</Case></Switch>で食事しながら、
+じっくり話をしてみたら距離も縮まるだろうよ！"
+162,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_099","ふたりは稀に見る最悪の相性だよ……。
+ツレにとって、お前さんは<Switch(PlayerParameter(79))><Case(1)>犬猿の</Case><Case(2)>油断大敵な</Case><Case(3)>存在を脅かす</Case><Case(4)>隙を見せれない</Case><Case(5)>嫌悪感を抱く</Case><Case(6)>居合わせたくない</Case><Case(7)>顔も見たくない</Case><Case(8)>一緒にいて疲れる</Case><Case(9)>全く魅力的でない</Case><Case(10)>そりが合わない</Case><Case(11)>冷戦状態の</Case><Case(12)>反目する</Case></Switch>相手だ。
+縁を絶つ方がよいが、もしもどうにかしたいというなら……"
+163,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_100","まずはひとりの<If(PlayerParameter(4))>女<Else/>男</If>として、
+腹を割って話をしてみることだね。
+千里の道も一歩から、だよ！"
+164,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_101","ふたりは稀に見る最悪の相性だよ……。
+ツレにとって、お前さんは<Switch(PlayerParameter(79))><Case(1)>犬猿の</Case><Case(2)>油断大敵な</Case><Case(3)>存在を脅かす</Case><Case(4)>隙を見せれない</Case><Case(5)>嫌悪感を抱く</Case><Case(6)>居合わせたくない</Case><Case(7)>顔も見たくない</Case><Case(8)>一緒にいて疲れる</Case><Case(9)>全く魅力的でない</Case><Case(10)>そりが合わない</Case><Case(11)>冷戦状態の</Case><Case(12)>反目する</Case></Switch>相手だ。
+だが、相性を好転させる方法がない訳じゃない。"
+165,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_102","<Switch(PlayerParameter(71))><Case(1)>ヒューラン</Case><Case(2)>エレゼン</Case><Case(3)>ララフェル</Case><Case(4)>ミコッテ</Case><Case(5)>ルガディン</Case><Case(6)>アウラ</Case><Case(7)>ロスガル</Case><Case(8)>ヴィエラ</Case></Switch>としての自分の生き方を、
+押しつけていないか、しっかり見つめなおしてごらんよ。
+相手の立場や意見も尊重することだね。"
+166,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_103","ふたりは稀に見る最悪の相性だよ……。
+ツレにとって、お前さんは<Switch(PlayerParameter(79))><Case(1)>犬猿の</Case><Case(2)>油断大敵な</Case><Case(3)>存在を脅かす</Case><Case(4)>隙を見せれない</Case><Case(5)>嫌悪感を抱く</Case><Case(6)>居合わせたくない</Case><Case(7)>顔も見たくない</Case><Case(8)>一緒にいて疲れる</Case><Case(9)>全く魅力的でない</Case><Case(10)>そりが合わない</Case><Case(11)>冷戦状態の</Case><Case(12)>反目する</Case></Switch>相手だ。
+だが、相性を好転させる方法がない訳じゃない。"
+167,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_104","たとえば、<Switch(PlayerParameter(70))><Case(1)>サスタシャ浸食洞</Case><Case(2)>タムタラの墓所</Case><Case(3)>カッパーベル銅山</Case></Switch>にでも、
+仲間と連れ立って行ってみてごらんよ。
+冒険者としての初心を思い出せば、活路は見いだせるだろうさ。"
+168,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_105","ふたりは稀に見る最悪の相性だよ……。
+ツレにとって、お前さんは<Switch(PlayerParameter(79))><Case(1)>犬猿の</Case><Case(2)>油断大敵な</Case><Case(3)>存在を脅かす</Case><Case(4)>隙を見せれない</Case><Case(5)>嫌悪感を抱く</Case><Case(6)>居合わせたくない</Case><Case(7)>顔も見たくない</Case><Case(8)>一緒にいて疲れる</Case><Case(9)>全く魅力的でない</Case><Case(10)>そりが合わない</Case><Case(11)>冷戦状態の</Case><Case(12)>反目する</Case></Switch>相手だ。
+だが、相性を好転させる方法がない訳じゃない。"
+169,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_106","あんたが<Sheet(ClassJob,PlayerParameter(68),0)/>としてしっかり役割を果たせているのか、
+自分の胸に手を当てて、よ～く振り返ってみることだね。
+大事なのは、めげずに努力することだよ！"
+170,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_107","ふたりは稀に見る最悪の相性だよ……。
+ツレにとって、お前さんは<Switch(PlayerParameter(79))><Case(1)>犬猿の</Case><Case(2)>油断大敵な</Case><Case(3)>存在を脅かす</Case><Case(4)>隙を見せれない</Case><Case(5)>嫌悪感を抱く</Case><Case(6)>居合わせたくない</Case><Case(7)>顔も見たくない</Case><Case(8)>一緒にいて疲れる</Case><Case(9)>全く魅力的でない</Case><Case(10)>そりが合わない</Case><Case(11)>冷戦状態の</Case><Case(12)>反目する</Case></Switch>相手だ。
+だが、相性を好転させる方法がない訳じゃない。"
+171,"TEXT_FESVLT202_02219_COMPATIBILITYLUCKTELLER2219_000_108","あんたは<Sheet(Town,PlayerParameter(70),0)/>に縁があるんだろう？
+それなら、<Switch(PlayerParameter(70))><Case(1)>溺れた海豚亭</Case><Case(2)>カーラインカフェ</Case><Case(3)>クイックサンド</Case></Switch>で困っていそうな、
+新米冒険者を助けてやるんだ。初心、忘れるべからずだよ！"
+172,"TEXT_FESVLT202_02219_MISSIONARY02219_000_120","おかえりなさい、占いの結果はいかがでしたか？
+もし残念な結果でも、気を落とさないでくださいね。"
+173,"TEXT_FESVLT202_02219_MISSIONARY02219_000_121","そうそう！
+「愛の盛り上げ大使」さんのご協力のおかげで、
+様子を見ていた人たちも、続々と占いをしてくれていますよ！"
+174,"TEXT_FESVLT202_02219_MISSIONARY02219_000_122","占いをきっかけに、ふたりの会話が多くなれば、
+いろいろな「愛」が芽生えるに違いありません！
+どうも、ありがとうございました！"
+175,"TEXT_FESVLT202_02219_MISSIONARY02219_000_123","もし、また占いをされるのでしたら、私に声をかけてくださいね。
+新しい<Sheet(EventItem,2001938,0)/>をお渡ししますので！"
+176,"TEXT_FESVLT202_02219_MISSIONARY02219_000_124","……そういえば、少し前にリゼットさんが、
+「愛の盛り上げ大使」さんのことを探していました。
+頼みたいことがあるとか……話を聞いてみていただけますか？"
+177,"TEXT_FESVLT202_02219_MISSIONARY02219_000_129","おかえりなさい、占いの結果はいかがでしたか？
+もし残念な結果でも、気を落とさないでくださいね。"
+178,"TEXT_FESVLT202_02219_MISSIONARY02219_000_130","もし、また占いをされるのでしたら、私に声をかけてくださいね。
+新しい<Sheet(EventItem,2001938,0)/>をお渡ししますので！"

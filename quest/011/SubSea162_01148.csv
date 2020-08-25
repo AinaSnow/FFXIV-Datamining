@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBSEA162_01148_SEQ_00","It is a cool and collected Sergeant Wiltswys who seeks an obliger today, rather than the heartsore fire-eater of the other day."
-1,"TEXT_SUBSEA162_01148_SEQ_01","Wiltswys's meticulous scrutiny has discovered an unacceptable shortfall in the poison cabinet. Whilst she checks the other deadly yet life-saving items in the camp's inventory, you have a task to perform: stalk the majestic Rothlyt pelicans and extract three vials' worth of poison."
-2,"TEXT_SUBSEA162_01148_SEQ_02","Exactly <Emphasis>where</Emphasis> the poison is secreted is a matter too discomfiting to discuss. It must suffice to say that the pelicans did not survive your exertions. Return to Wiltswys and give her the pelican poison."
-3,"TEXT_SUBSEA162_01148_SEQ_03","It seems that the way to Sergeant Wiltswys's heart is through a job well done. Listening to her tale of the Sahagin and the lost settlement, you see that she has no home but this vale and no family but the Maelstrom─and she will fight to the death to defend both..."
+0,"TEXT_SUBSEA162_01148_SEQ_00","キャンプ・スカルバレーのウィルトスィス甲曹長は、冒険者にある仕事を頼みたいようだ。"
+1,"TEXT_SUBSEA162_01148_SEQ_01","ウィルトスィス甲曹長によると、砦の物資で不足している物があるらしい。「<Sheet(BNpcName,1181,0)/>」を討伐し「<Sheet(EventItem,2000970,0)/>」を集めよう。"
+2,"TEXT_SUBSEA162_01148_SEQ_02","<Sheet(BNpcName,1181,0)/>を討伐した。キャンプ・スカルバレーの「ウィルトスィス甲曹長」に「<Sheet(EventItem,2000970,0)/>」を渡そう。"
+3,"TEXT_SUBSEA162_01148_SEQ_03","ウィルトスィス甲曹長に<Sheet(EventItem,2000970,0)/>を渡した。この毒はサハギン族と戦う上で、とても重宝するらしい。"
 4,"TEXT_SUBSEA162_01148_SEQ_04",""
 5,"TEXT_SUBSEA162_01148_SEQ_05",""
 6,"TEXT_SUBSEA162_01148_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_SUBSEA162_01148_SEQ_21",""
 22,"TEXT_SUBSEA162_01148_SEQ_22",""
 23,"TEXT_SUBSEA162_01148_SEQ_23",""
-24,"TEXT_SUBSEA162_01148_TODO_00","Collect poison from Rothlyt pelicans."
-25,"TEXT_SUBSEA162_01148_TODO_01","Deliver the vials of pelican poison to Wiltswys."
+24,"TEXT_SUBSEA162_01148_TODO_00","<Sheet(BNpcName,1181,0)/>から<Sheet(EventItem,2000970,0)/>を入手"
+25,"TEXT_SUBSEA162_01148_TODO_01","ウィルトスィス甲曹長に<Sheet(EventItem,2000970,0)/>を渡す"
 26,"TEXT_SUBSEA162_01148_TODO_02",""
 27,"TEXT_SUBSEA162_01148_TODO_03",""
 28,"TEXT_SUBSEA162_01148_TODO_04",""
@@ -49,14 +49,27 @@ int32,str,str
 45,"TEXT_SUBSEA162_01148_TODO_21",""
 46,"TEXT_SUBSEA162_01148_TODO_22",""
 47,"TEXT_SUBSEA162_01148_TODO_23",""
-48,"TEXT_SUBSEA162_01148_WILTSWYS_000_000","Weapons and armor...in order. Saltpeter, in order. Basic provisions...all in order. Poisons─oh? This vial's near gone."
-49,"TEXT_SUBSEA162_01148_WILTSWYS_000_001","Uh, adventurer─<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, was it? Mayhap we can let bygones be bygones. You are skilled in wrangling beasts, I hear, and I have a need of pelican poison."
-50,"TEXT_SUBSEA162_01148_WILTSWYS_000_002","The poison can be readily gathered from pelicans in the area, but I must continue my duties here. Are you so minded to undertake the task?"
-51,"TEXT_SUBSEA162_01148_DUMMY_000_010",""
-52,"TEXT_SUBSEA162_01148_DUMMYTODO_000_010",""
-53,"TEXT_SUBSEA162_01148_WILTSWYS_000_020","I welcome your return, adventurer. Have you what I asked for?"
-54,"TEXT_SUBSEA162_01148_WILTSWYS_000_030","Ah, I see you were not stinting in filling the vials! The last adventurer returned with each barely half full and had the cheek to demand full payment. I have had a low opinion of adventurers since, but..."
-55,"TEXT_SUBSEA162_01148_WILTSWYS_000_031","You know of our past with the kobolds, but they are not the foe we fight today. Nay, all our guns are trained on the fishbacks."
-56,"TEXT_SUBSEA162_01148_WILTSWYS_000_032","Such a wee thing, this vial─but this too is a gun. So susceptible the Sahagin are to pelican poison that even the rawest recruit may, with a poison-tipped arrow, find herself a fisher of beastmen."
-57,"TEXT_SUBSEA162_01148_WILTSWYS_000_033","There was a settlement here once, near Halfstone. Then the primal Leviathan rose, and the Sahagin invaded. Work of generations was undone in a season, and whole families perished."
-58,"TEXT_SUBSEA162_01148_WILTSWYS_000_034","I never knew the Halfstone settlement, but I believe it to be a home worth fighting for. And so we fight, with steel, fire, and even poison to reclaim that which is ours."
+48,"TEXT_SUBSEA162_01148_WILTSWYS_000_000","武器甲冑よし……硝石と糧秣（りょうまつ）よし、っと。
+あら？　薬品が不足してるわね……。"
+49,"TEXT_SUBSEA162_01148_WILTSWYS_000_001","冒険者さん、ちょうどいいところに。
+備品の「<Sheet(EventItem,2000970,0)/>」を補給したいのです。"
+50,"TEXT_SUBSEA162_01148_WILTSWYS_000_002","「<Sheet(EventItem,2000970,0)/>」は、周辺に生息している、
+「<Sheet(BNpcName,1181,0)/>」から入手できます。
+お手数ですが、お願いできますか？"
+51,"TEXT_SUBSEA162_01148_DUMMY_000_010","「<Sheet(BNpcName,1181,0)/>」を討伐し、コカトリスの毒を3個ゲット。"
+52,"TEXT_SUBSEA162_01148_DUMMYTODO_000_010","（★未使用／削除予定★）"
+53,"TEXT_SUBSEA162_01148_WILTSWYS_000_020","冒険者さん、おかえりなさい。
+お願いした品は集まりましたか？"
+54,"TEXT_SUBSEA162_01148_WILTSWYS_000_030","……そうです、これこれ！
+ありがとうございました。"
+55,"TEXT_SUBSEA162_01148_WILTSWYS_000_031","現在、このキャンプ・スカルバレーは、
+西のハーフストーン周辺に進出してきた、
+サハギン族と交戦状態にあります。"
+56,"TEXT_SUBSEA162_01148_WILTSWYS_000_032","この<Sheet(EventItem,2000970,0)/>は、サハギン族を殺傷するのに、
+とても効果的な毒なんです。
+鏃に塗れば、経験の浅い兵でも対等に戦うことができます。"
+57,"TEXT_SUBSEA162_01148_WILTSWYS_000_033","ハーフストーン周辺には以前、入植地がありました。
+それが、蛮神「リヴァイアサン」の活動で被害を受け、
+サハギン族が攻め入ったことで滅亡してしまったのです。"
+58,"TEXT_SUBSEA162_01148_WILTSWYS_000_034","いつの日か、かの地を取り戻すために、
+私たちは戦い続けているのですよ。"

@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSA901_00796_SEQ_00","Aeluuin would ask you to make a special delivery."
-1,"TEXT_GAIUSA901_00796_SEQ_01","Aeluuin has entrusted you with delivering meals to three prospectors at Finders' Bluff: Laughing Fury, Vavapu, and Ademar."
-2,"TEXT_GAIUSA901_00796_SEQ_02","The three prospectors were overjoyed to receive their long-awaited meals. Inform Aeluuin that they go hungry no more."
-3,"TEXT_GAIUSA901_00796_SEQ_03","Aeluuin is genuinely pleased to hear that the prospectors at Finders' Bluff enjoyed their meals. It is clear that the innkeep cares deeply for his customers."
+0,"TEXT_GAIUSA901_00796_SEQ_00","浮かぶコルク亭のエルーインは、冒険者にもうひとつ頼みたいことがあるようだ。"
+1,"TEXT_GAIUSA901_00796_SEQ_01","山師の岩窟の付近にいる山師「ラッフィング・フューリー」「アデマル」「ヴァヴァプ」に、「<Sheet(EventItem,2000626,0)/>」を渡そう。"
+2,"TEXT_GAIUSA901_00796_SEQ_02","山師達は皆とても喜んでくれたようだ。浮かぶコルク亭のエルーインに報告しよう。"
+3,"TEXT_GAIUSA901_00796_SEQ_03","ウルダハから来た山師も、エルーインの用意した弁当の味を気に入ったことを知り、エルーインはとても喜んでいるようだ。浮かぶコルク亭は、客のことをよく考える、いい宿屋なのだろう。"
 4,"TEXT_GAIUSA901_00796_SEQ_04",""
 5,"TEXT_GAIUSA901_00796_SEQ_05",""
 6,"TEXT_GAIUSA901_00796_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSA901_00796_SEQ_21",""
 22,"TEXT_GAIUSA901_00796_SEQ_22",""
 23,"TEXT_GAIUSA901_00796_SEQ_23",""
-24,"TEXT_GAIUSA901_00796_TODO_00","Deliver meals to the prospectors."
-25,"TEXT_GAIUSA901_00796_TODO_01","Report to Aeluuin."
+24,"TEXT_GAIUSA901_00796_TODO_00","山師に<Sheet(EventItem,2000626,0)/>を渡す"
+25,"TEXT_GAIUSA901_00796_TODO_01","エルーインに報告"
 26,"TEXT_GAIUSA901_00796_TODO_02",""
 27,"TEXT_GAIUSA901_00796_TODO_03",""
 28,"TEXT_GAIUSA901_00796_TODO_04",""
@@ -49,14 +49,31 @@ int32,str,str
 45,"TEXT_GAIUSA901_00796_TODO_21",""
 46,"TEXT_GAIUSA901_00796_TODO_22",""
 47,"TEXT_GAIUSA901_00796_TODO_23",""
-48,"TEXT_GAIUSA901_00796_AELUUIN_000_000","My <If(PlayerParameter(4))>dear lady<Else/>good man</If>, I daresay you're more reliable than the rest of my hired help put together. For better or for worse, this means I've got another job for you."
-49,"TEXT_GAIUSA901_00796_AELUUIN_000_001","I've got three basket lunches here that need delivering to Finders' Bluff. After the last adventurer scarfed down three boxes on his own and ran off without paying his tab, I need someone I can trust."
-50,"TEXT_GAIUSA901_00796_AELUUIN_000_002","//: deliver food"
-51,"TEXT_GAIUSA901_00796_LAUGHINGFURY_000_010","Diggin' for gold day and night sure works me up an appetite. Is it time for <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>supper<Else/>breakfast</If><Else/><If(LessThan(PlayerParameter(11),17))>lunch<Else/>supper</If></If> yet?"
-52,"TEXT_GAIUSA901_00796_LAUGHINGFURY_000_015","One o' Master Aeluuin's specialty basket lunches? Well, now, don't mind if I do!"
-53,"TEXT_GAIUSA901_00796_VAVAPU_000_030","Ah! Will my tummy not stop rumbling? Tummy! I command you! Cease your rumbling!"
-54,"TEXT_GAIUSA901_00796_VAVAPU_000_035","From Aeluuin, you say? My tummy and I are much obliged!"
-55,"TEXT_GAIUSA901_00796_ADEMAR_000_050","Bloody hog of an adventurer, stealin' the food o' honest, hardworkin' men..."
-56,"TEXT_GAIUSA901_00796_ADEMAR_000_055","Are me eyes to be believed!? Thank ye, friend. It's good to know <Emphasis>some</Emphasis> adventurers can still be trusted."
-57,"TEXT_GAIUSA901_00796_AELUUIN_000_070","Aeluuin's famous basket lunches hit the spot, eh? I thought as much! The prospectors at Finders' Bluff aren't just digging for personal fortune, you know─each onze of gold helps this region thrive and prosper. I'm happy to return the favor."
-58,"TEXT_GAIUSA901_00796_AELUUIN_000_071","You've gone above and beyond for me, and for this you have my thanks. Next time you fancy an ale, a tale, or just a respite from the road, know that there's always a place for you here at the Bobbing Cork."
+48,"TEXT_GAIUSA901_00796_AELUUIN_000_000","もうひとつだけ、お願いしてもよろしいでしょうか。
+「山師の岩窟」で働く山師の方々に、
+「<Sheet(EventItem,2000626,0)/>」を届けてほしいのです。"
+49,"TEXT_GAIUSA901_00796_AELUUIN_000_001","以前、別の冒険者に依頼したときは、
+持ち逃げされてしまいましたが……
+あなたなら安心して頼めます。"
+50,"TEXT_GAIUSA901_00796_AELUUIN_000_002","（★未使用／削除予定★）"
+51,"TEXT_GAIUSA901_00796_LAUGHINGFURY_000_010","なんだい、忙しいんだけど……。
+おっ、もしかして弁当の時間か！？"
+52,"TEXT_GAIUSA901_00796_LAUGHINGFURY_000_015","待ってたよ！
+エルーインさんのお手製弁当は、一度味わっちゃうと、
+ほかのじゃ物足りなくてな！"
+53,"TEXT_GAIUSA901_00796_VAVAPU_000_030","腹へっただよ～！
+もう、腕あがらねぇだよ～！"
+54,"TEXT_GAIUSA901_00796_VAVAPU_000_035","いやぁ、ありがてぇ！
+ここのお弁当は、味はち～と薄いけど、
+優しい味がするだよ～、うんめぇなぁ！"
+55,"TEXT_GAIUSA901_00796_ADEMAR_000_050","ああ、弁当の配達かい？
+もうそんな時間か……。"
+56,"TEXT_GAIUSA901_00796_ADEMAR_000_055","ごくろうさん、この間は冒険者が持ち逃げしてな。
+俺たち皆、腹へって這いつくばったまま、
+エルーインさんのところへ文句言いに行ったもんさ。"
+57,"TEXT_GAIUSA901_00796_AELUUIN_000_070","よかった、皆さん喜んでくれましたか！
+私どもは、ウルダハから来た山師の皆さんに
+弁当を配達する仕事もさせていただいているのです。"
+58,"TEXT_GAIUSA901_00796_AELUUIN_000_071","忙しくて手がまわらないところ、助かりました。
+冒険者さん、何から何までありがとうございました。
+また付近を冒険の際には、是非お立ち寄りくださいませ。"

@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDY501_03086_SEQ_00","Kozakura is working like a woman possessed."
-1,"TEXT_STMBDY501_03086_SEQ_01","While visiting the enclave one day you meet with Kozakura, a senior official of the Shazenkai, who tells you of her organization's purpose: to facilitate the reconstruction and revitalization of the settlement. To aid them in their endeavor, she and Lord Hien would have you journey to Revenant's Toll, refuge for the Domans in Eorzea, and bid them return to their homeland. Of course, this matter must also be discussed with Slafborn of the Adventurers' Guild."
-2,"TEXT_STMBDY501_03086_SEQ_02","As they have come to view the Domans as family, the people of Revenant's Toll will be sad to see them go. Nevertheless, this is a happy occasion, and Slafborn is eager to do everything in his power to see them on their way. Moreover, he states that he will encourage the Eorzean frontier hands to accompany the Domans to Yanxia, that they might assist their Far Eastern comrades in the reconstruction."
-3,"TEXT_STMBDY501_03086_SEQ_03","Hozan and his Doman brethren are overjoyed to hear that they may return to their homeland at last. However, this happiness soon gives way to apprehension, for they dare not leave without properly repaying the kindness of the many Eorzeans to whom they owe so much. Seeing this, Hozan declares that he will ensure that they have sufficient time to put their personal and professional affairs in order. In the meantime, he asks that you assist them with their final preparations by making yourself available should he or any other Domans require a consultation."
-4,"TEXT_STMBDY501_03086_SEQ_04","The questions the Domans put to you are many and varied, but you answer them to the best of your ability, and their affairs are resolved accordingly. Progress has been made, to be sure, but there is much and more left to be done..."
+0,"TEXT_STMBDY501_03086_SEQ_00","ドマ町人地のコザクラは、仕事に励んでいるようだ。"
+1,"TEXT_STMBDY501_03086_SEQ_01","コザクラとヒエンから、ドマ難民を故郷に返すために取り持ってほしいと頼まれた。モードゥナのレヴナンツトールにいる「スラフボーン」に「<Sheet(EventItem,2002465,0)/>」を渡そう。"
+2,"TEXT_STMBDY501_03086_SEQ_02","スラフボーンに<Sheet(EventItem,2002465,0)/>を渡した。レヴナンツトールの「ホウザン」と話そう。"
+3,"TEXT_STMBDY501_03086_SEQ_03","ホウザンと話し、帰郷の意思を固めた。レヴナンツトールの「<Sheet(EObj,2009436,0)/>」で待機し、ドマの人々の相談役を務めよう。"
+4,"TEXT_STMBDY501_03086_SEQ_04","ドマの人々に助言をした。ホウザンたちは、レヴナンツトールで多くの人と関わり、深く感謝をしているようだ。引き続き、彼らの帰郷を見守ろう。"
 5,"TEXT_STMBDY501_03086_SEQ_05",""
 6,"TEXT_STMBDY501_03086_SEQ_06",""
 7,"TEXT_STMBDY501_03086_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_STMBDY501_03086_SEQ_21",""
 22,"TEXT_STMBDY501_03086_SEQ_22",""
 23,"TEXT_STMBDY501_03086_SEQ_23",""
-24,"TEXT_STMBDY501_03086_TODO_00","Deliver Hien's missive to Slafborn in Revenant's Toll."
-25,"TEXT_STMBDY501_03086_TODO_01","Speak with Hozan."
-26,"TEXT_STMBDY501_03086_TODO_02","Wait for Domans to seek your counsel."
+24,"TEXT_STMBDY501_03086_TODO_00","レヴナンツトールのスラフボーンに<Sheet(EventItem,2002465,0)/>を渡す"
+25,"TEXT_STMBDY501_03086_TODO_01","ホウザンと話す"
+26,"TEXT_STMBDY501_03086_TODO_02","<Sheet(EObj,2009436,0)/>で待機"
 27,"TEXT_STMBDY501_03086_TODO_03",""
 28,"TEXT_STMBDY501_03086_TODO_04",""
 29,"TEXT_STMBDY501_03086_TODO_05",""
@@ -49,151 +49,335 @@ int32,str,str
 45,"TEXT_STMBDY501_03086_TODO_21",""
 46,"TEXT_STMBDY501_03086_TODO_22",""
 47,"TEXT_STMBDY501_03086_TODO_23",""
-48,"TEXT_STMBDY501_03086_KOZAKURA_000_000","Oh, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! It is a rare honor indeed to receive heroes such as you."
-49,"TEXT_STMBDY501_03086_KOZAKURA_000_001","Pray allow me to introduce myself. My name is Kozakura, and I manage the accounts of the Shazenkai."
-50,"TEXT_STMBDY501_03086_KOZAKURA_000_002","Oh, but you must be unfamiliar with our organization! Forgive me, forgive me. At present, we are largely concerned with facilitating the reconstruction and revitalization of the enclave."
-51,"TEXT_STMBDY501_03086_KOZAKURA_000_003","Needless to say, we have our work cut out for us! It's quite fortuitous actually, you being here. I had mind to petition your assistance─"
-52,"TEXT_STMBDY501_03086_KOZAKURA_000_004","Ah, right you are, it's rather difficult to converse while staring at one's feet. And you would doubtless benefit from an explanation."
-53,"TEXT_STMBDY501_03086_KOZAKURA_000_005","As you may know, the enclave was once the economic and cultural center of Doma. Alas, it suffered terrible devastation at the hands of the Empire both during and following the failed rebellion of yesteryear."
-54,"TEXT_STMBDY501_03086_KOZAKURA_000_006","That it and other ruins might stand as testament to the folly of resistance, extensive reconstruction was forbidden by the imperial viceroy. Of course, that is no longer a concern."
-55,"TEXT_STMBDY501_03086_KOZAKURA_000_007","At long last, we are free to rebuild the enclave─to restore the heart of our once great nation and show the world that Doma lives on!"
-56,"TEXT_STMBDY501_03086_KOZAKURA_000_008","But as I said before, we have our work cut out for us. We have limited funds and material resources, not to mention a lack of skilled craftsmen..."
-57,"TEXT_STMBDY501_03086_KOZAKURA_000_009","Which brings me back to the matter I wished to discuss with you: that of our brothers and sisters in Eorzea─the refugees that settled in Revenant's Toll."
-58,"TEXT_STMBDY501_03086_KOZAKURA_000_010","I am given to understand that they have worked closely with the local leadership to build and maintain much of the settlement. Many knew trades before they left, and those that did not doubtless learned that they might earn their keep."
-59,"TEXT_STMBDY501_03086_KOZAKURA_000_011","If they were to return home and aid us in the reconstruction effort, it would be a tremendous boon. Would you be willing to speak with them on our behalf?"
-60,"TEXT_STMBDY501_03086_HIEN_000_012","Decided to look in on the Shazenkai first, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>?"
-61,"TEXT_STMBDY501_03086_HIEN_000_013","Ah, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Taken an interest in the Shazenkai?"
-62,"TEXT_STMBDY501_03086_HIEN_000_014","Well, this seems as good a time as any to discuss the matter."
-63,"TEXT_STMBDY501_03086_HIEN_000_015","I am grateful beyond measure to you and the Scions of the Seventh Dawn for welcoming Yugiri and my people in their hour of need."
-64,"TEXT_STMBDY501_03086_HIEN_000_016","As the beneficiaries of this kindness, they have made every effort to repay you and the people of Revenant's Toll. Nevertheless, we here bear a responsibility as well."
-65,"TEXT_STMBDY501_03086_HIEN_000_017","Kozakura, if you would be so kind."
-66,"TEXT_STMBDY501_03086_KOZAKURA_000_018","Yes, my lord!"
-67,"TEXT_STMBDY501_03086_HIEN_000_019","We will send them a considerable gift as a gesture of gratitude and goodwill. However, I would like that missive to be delivered to the Adventurers' Guild representative in advance."
-68,"TEXT_STMBDY501_03086_HIEN_000_020","If you were to personally hand it to the man, I would be honored."
-69,"TEXT_STMBDY501_03086_HIEN_000_021","Excellent! I knew I could count on you, my friend."
-70,"TEXT_STMBDY501_03086_HIEN_000_022","Pardon my interruption, Kozakura. I look forward to seeing your progress."
-71,"TEXT_STMBDY501_03086_KOZAKURA_000_023","Oh dear... I hope we don't disappoint him...
-Anyway, I'll not keep you. Thank you again for the assistance, and safe travels!"
-72,"TEXT_STMBDY501_03086_KOZAKURA_000_030","Lord Hien's request takes precedence, of course, but perhaps you can use it as an opportunity to broach the subject of the refugees' return?"
-73,"TEXT_STMBDY501_03086_SLAFBORN_000_040","What's that, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>? Business concerning the Domans?"
-74,"TEXT_STMBDY501_03086_SLAFBORN_000_041","I see, I see... Lord Hien really needn't have gone to such trouble, but I know all too well how much our Far Eastern friends worry themselves over decorum."
-75,"TEXT_STMBDY501_03086_SLAFBORN_000_042","As for the matter of the refugees' repatriation, I'll not lie. We've come to view them as family, and we'll be sorry to see them go─many of the other fellow frontier hands especially..."
-76,"TEXT_STMBDY501_03086_SLAFBORN_000_043","So let us do you one better: I shall appeal to their Eorzean comrades and invite them to accompany the Domans on their journey, that they too might aid in the reconstruction of the enclave. I expect many will jump at the opportunity!"
-77,"TEXT_STMBDY501_03086_SLAFBORN_000_044","A costly thing to send so many people, to be sure, but owing to Lord Hien's generosity, we seem to have found ourselves with a surplus of funding."
-78,"TEXT_STMBDY501_03086_SLAFBORN_000_045","It's hard to imagine the Toll without the Doman refugees. They helped make it what it is today..."
-79,"TEXT_STMBDY501_03086_SLAFBORN_000_046","Bah─what am I saying? This is a happy occasion! Go and tell Hozan the news! I'm sure he'll be overjoyed."
-80,"TEXT_STMBDY501_03086_SLAFBORN_000_050","Hozan should be working outside the House. The sooner you tell him the better. They've no shortage of preparation to see to!"
-81,"TEXT_STMBDY501_03086_HOZAN_000_060","How very good to see you, my friend─though not at all expected. You look as though you have something important to say. Do you?"
-82,"TEXT_STMBDY501_03086_HOZAN_000_061","I...I know not what to say! Return to Doma? Has the day truly come at last?"
-83,"TEXT_STMBDY501_03086_HOZAN_000_062","Wait here while I summon the others. This concerns them all..."
-84,"TEXT_STMBDY501_03086_HOMEI_000_063","My word! And they are already making arrangements for our return?"
-85,"TEXT_STMBDY501_03086_HOZAN_000_064","Why the long face, Higiri? This is cause for celebration!"
-86,"TEXT_STMBDY501_03086_HIGIRI_000_065","...It is, aye. Like all of you, I have dreamed of this day since the moment we left Yanxia..."
-87,"TEXT_STMBDY501_03086_HIGIRI_000_066","But now that it has arrived, I cannot help but think of those to whom we owe so much. Slafborn especially..."
-88,"TEXT_STMBDY501_03086_DOWARE_000_067","Indeed. Even if it were possible to leave this very moment, I could not. Not until I thanked the people here for everything they have done for us."
-89,"TEXT_STMBDY501_03086_DOWARE_000_068","I remember when we first arrived in this land and learned of its troubles. Though disappointed, I understood why no one would grant us shelter. Who were we? Why risk so much for strangers?"
-90,"TEXT_STMBDY501_03086_DOWARE_000_069","But this place and these people were different. When all others turned us away, Revenant's Toll welcomed us with open arms."
-91,"TEXT_STMBDY501_03086_DOWARE_000_070","I love Doma and Lord Hien with all my heart and want nothing more than to return and help rebuild. But I implore you, Hozan─we must first do our utmost to repay their boundless kindness!"
-92,"TEXT_STMBDY501_03086_HOZAN_000_071","Never did I intend to for us to disappear into the night like thieves and vagabonds. Everything you have said is right and true."
-93,"TEXT_STMBDY501_03086_HOZAN_000_072","All labors we have undertaken will be seen to a measure of completion. That much goes without saying, I am sure."
-94,"TEXT_STMBDY501_03086_HOZAN_000_073","I will speak with Slafborn and ensure that we have enough days to prepare for our journey. In the meantime, I would encourage you all to prepare gifts and so forth."
-95,"TEXT_STMBDY501_03086_HOMEI_000_074","Very good, very good! It would not do to leave without saying proper farewells, else we would labor under a cloud of regret."
-96,"TEXT_STMBDY501_03086_HOMEI_000_075","At my age, one appreciates every opportunity to put their affairs in order. After all, I may not weather the journey home, much less another one to Eorzea!"
-97,"TEXT_STMBDY501_03086_HOZAN_000_076","Hah! Given your constitution, Father, I should not be surprised if you bury us all."
-98,"TEXT_STMBDY501_03086_HOZAN_000_077","Hmm... If you have no pressing obligations, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, might I impose upon you to assist us with our final preparations?"
-99,"TEXT_STMBDY501_03086_HOZAN_000_078","Since this is all quite sudden, many of our people may require a second opinion on a farewell gift or something else. All I ask is that you make yourself available for any such consultations. Would that be all right?"
-100,"TEXT_STMBDY501_03086_HOZAN_000_079","Thank you, my friend. We will look for you near the northern gate."
-101,"TEXT_STMBDY501_03086_HOZAN_000_080","Quickly now, everyone! Let us not keep <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> waiting!"
-102,"TEXT_STMBDY501_03086_SYSTEM_000_090","Assisting the Doman refugees with their final preparations will take several minutes. You may wish to cancel any pending Duty Finder registrations."
-103,"TEXT_STMBDY501_03086_Q1_000_091","Wait to receive the Doman refugees?"
-104,"TEXT_STMBDY501_03086_HOMEI_000_092","So kind of you to spare the time to help us with something so trivial! No doubt you have many other important matters to attend to..."
-105,"TEXT_STMBDY501_03086_HOMEI_000_093","Anyway, I wanted to ask your opinion on a gift I wished to give a dear friend of mine before leaving─Isildaure."
-106,"TEXT_STMBDY501_03086_HOMEI_000_094","You remember Isildaure, do you not? Alianne's grandfather? Though older than me, the two of them were still going on grand adventures before they joined the Scions. Ah, how I envy his vigor."
-107,"TEXT_STMBDY501_03086_HOMEI_000_095","Though we have done little more than drink tea and speak of our children, I have cherished his company. I will miss him, truly..."
-108,"TEXT_STMBDY501_03086_HOMEI_000_096","Alas, in recent days his body has begun to get the better of him, and so I was thinking of giving him something for his health. Do you have any suggestions?"
-109,"TEXT_STMBDY501_03086_Q2_000_097","What will you say?"
-110,"TEXT_STMBDY501_03086_A2_000_098","Eye drops, perhaps?"
-111,"TEXT_STMBDY501_03086_A2_000_099","A tonic for his memory?"
-112,"TEXT_STMBDY501_03086_A2_000_100","Anything for his back should do."
-113,"TEXT_STMBDY501_03086_HOMEI_000_101","Oh? Isildaure's eyesight is failing him? He never said anything about that...though you have known him longer than me, I suppose."
-114,"TEXT_STMBDY501_03086_HOMEI_000_102","Very well, I shall speak with one of the merchants and purchase some eye drops. My thanks to you..."
-115,"TEXT_STMBDY501_03086_HOMEI_000_104","Isildaure? Forgetful? Are you certain? His memory has been nothing short of impeccable in my experience, but perhaps you know something I do not..."
-116,"TEXT_STMBDY501_03086_HOMEI_000_105","Very well, I shall speak with one of the merchants and see if one has a suitable tonic. My thanks to you..."
-117,"TEXT_STMBDY501_03086_SYSTEM_000_106","Though Homei accepts your suggestion, his furrowed brow suggests he is not altogether confident it will suffice..."
-118,"TEXT_STMBDY501_03086_HOMEI_000_107","Hahaha! I thought so too, but I am glad to see you agree. I swear, not a day goes by without him complaining about his back."
-119,"TEXT_STMBDY501_03086_HOMEI_000_108","It is a great comfort, knowing that the Scions are well aware of their comrades' conditions. It shows how much you care for one another."
-120,"TEXT_STMBDY501_03086_HOMEI_000_109","Now then─I must procure the ingredients for my home remedy. My thanks to you!"
-121,"TEXT_STMBDY501_03086_SYSTEM_000_110","Homei departs in high spirits, satisfied with your suggestion!"
-122,"TEXT_STMBDY501_03086_DOWARE_000_111","My friend, if you could spare a moment of your time..."
-123,"TEXT_STMBDY501_03086_DOWARE_000_112","The Toll is home to many interests to which we owe a great deal, but there is one in particular to which we should definitely pay respects: Rowena's House of Splendors."
-124,"TEXT_STMBDY501_03086_DOWARE_000_113","The House has been an invaluable source of goods and services, in both professional and personal matters. I am sure you too can say the same."
-125,"TEXT_STMBDY501_03086_DOWARE_000_114","And so I thought to bid farewell to the...one representative with whom I have worked most closely. If you would, uh, look to the counter by the gate..."
-126,"TEXT_STMBDY501_03086_DOWARE_000_115","I speak of the raven-haired beauty by the gate. Of all Rowena's girls, she has been...she has been very helpful."
-127,"TEXT_STMBDY501_03086_DOWARE_000_116","There is a problem, however. I cannot for the life of me remember her name! They all sound so similar. Perhaps it is my Doman ear..."
-128,"TEXT_STMBDY501_03086_DOWARE_000_117","But you know her name, surely? Please, tell me, that I might have a proper conversation with her before I return to my homeland."
-129,"TEXT_STMBDY501_03086_Q3_000_118","What will you say?"
-130,"TEXT_STMBDY501_03086_A3_000_119","Aelina? I thought she dealt in primal arms and whatnot."
-131,"TEXT_STMBDY501_03086_A3_000_120","Auriana? I didn't know you collected tomestones."
-132,"TEXT_STMBDY501_03086_A3_000_121","Laraina? Since when did you collect ritual tools?"
-133,"TEXT_STMBDY501_03086_A3_000_122","G'jusana? So you're interested in the Zodiac Braves?"
-134,"TEXT_STMBDY501_03086_A3_000_123","Papana? Oh, so you're <Emphasis>really</Emphasis> interested in the Zodiac Braves?"
-135,"TEXT_STMBDY501_03086_DOWARE_000_124","Aelina! That's it! I remembered as soon as you said it."
-136,"TEXT_STMBDY501_03086_DOWARE_000_125","I knew I was right to ask you. They say you're perhaps the House's most valued customer! Anyway, I had best go and speak with her before I forget again!"
-137,"TEXT_STMBDY501_03086_SYSTEM_000_126","Doware departs in high spirits, grateful for your assistance!"
-138,"TEXT_STMBDY501_03086_DOWARE_000_127","Hmm... Are you certain? I've heard that name before, but I could have sworn that was someone else..."
-139,"TEXT_STMBDY501_03086_DOWARE_000_128","Oh, who am I kidding. You of all people should know! Anyway, I had best go and speak with her before I forget again!"
-140,"TEXT_STMBDY501_03086_SYSTEM_000_129","Though Doware departs in high spirits, you cannot help but wonder if you gave him the wrong name...and how poorly he will be received if that is the case..."
-141,"TEXT_STMBDY501_03086_HIGIRI_000_130","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! Have you seen a carbuncle roaming about?"
-142,"TEXT_STMBDY501_03086_HIGIRI_000_131","Over the course of my time here in Revenant's Toll, I've come to know many adventurers, including an arcanist with a somewhat disobedient companion."
-143,"TEXT_STMBDY501_03086_HIGIRI_000_132","It seems every day her carbuncle wanders off on its own, you see, and today is no exception..."
-144,"TEXT_STMBDY501_03086_HIGIRI_000_133","For a mercy, it will respond to its name─more earnestly when called by someone other than its owner, strangely enough. The problem is, I cannot seem to recall what it was. Some sort of gemstone, I think?"
-145,"TEXT_STMBDY501_03086_Q4_000_134","What will you say?"
-146,"TEXT_STMBDY501_03086_A4_000_135","Emerald. Definitely Emerald."
-147,"TEXT_STMBDY501_03086_A4_000_136","Oh, you must mean Ruby."
-148,"TEXT_STMBDY501_03086_A4_000_137","I'd wager it's Topaz."
-149,"TEXT_STMBDY501_03086_A4_000_138","If it's not Obsidian, it should be."
-150,"TEXT_STMBDY501_03086_HIGIRI_000_139","How silly of me! It was an Emerald Carbuncle, was it not? Of course she would name it that!"
-151,"TEXT_STMBDY501_03086_HIGIRI_000_140","Thank you for your help, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! I will join her in the search right away!"
-152,"TEXT_STMBDY501_03086_SYSTEM_000_141","Higiri departs in high spirits and begins calling out for “Emerald” at once. Alas, no errant carbuncle is forthcoming..."
-153,"TEXT_STMBDY501_03086_HIGIRI_000_142","Ruby! How could I forget? She named it for the red jewel in its forehead!"
-154,"TEXT_STMBDY501_03086_HIGIRI_000_143","Thank you for your help, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! I will join her in the search right away!"
-155,"TEXT_STMBDY501_03086_SYSTEM_000_144","Higiri departs in high spirits and begins calling out for “Ruby” at once. Sure enough, the errant carbuncle soon appears!"
-156,"TEXT_STMBDY501_03086_HIGIRI_000_145","Hmm...was it Topaz? The carbuncle itself was more of an emerald, as I recall...but perhaps she had her reasons for naming it something nonsensical. I will trust in you."
-157,"TEXT_STMBDY501_03086_HIGIRI_000_146","Thank you for your help, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! I will join her in the search right away!"
-158,"TEXT_STMBDY501_03086_SYSTEM_000_147","Higiri departs in high spirits and begins calling out for “Topaz” at once. Alas, no errant carbuncle is forthcoming..."
-159,"TEXT_STMBDY501_03086_HIGIRI_000_148","Obsidian! Now I know I have heard that name before! Yes, that must surely be it!"
-160,"TEXT_STMBDY501_03086_HIGIRI_000_149","Thank you for your help, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! I will join her in the search right away!"
-161,"TEXT_STMBDY501_03086_SYSTEM_000_150","Higiri departs in high spirits and begins calling out for “Obsidian” at once. Alas, no errant carbuncle is forthcoming..."
-162,"TEXT_STMBDY501_03086_HOZAN_000_151","How fortunate I am that you are still here! My father told me how you helped him, and I was hoping you might do the same for me."
-163,"TEXT_STMBDY501_03086_HOZAN_000_152","I seek your wisdom concerning Slafborn of the Adventurers' Guild, who helped secure us a place here in Revenant's Toll."
-164,"TEXT_STMBDY501_03086_HOZAN_000_153","Thanks to him, we were able to work side by side with the frontier hands to build these walls and lay these cobblestones. We were given food and shelter, it is true, but more importantly, we were given purpose."
-165,"TEXT_STMBDY501_03086_HOZAN_000_154","We have of course already expressed our gratitude to him many times before. I myself presented Slafborn with a Doman dagger, which I am told he treasures..."
-166,"TEXT_STMBDY501_03086_HOZAN_000_155","But now that we must part ways, I feel as though we must make one final grand gesture─a more elaborate, expensive gift, perhaps, or... Well, what do you think?"
-167,"TEXT_STMBDY501_03086_Q5_000_156","What will you say?"
-168,"TEXT_STMBDY501_03086_A5_000_157","Something flashy and gaudy that's got bells on."
-169,"TEXT_STMBDY501_03086_A5_000_158","Maybe just try to stay in touch?"
-170,"TEXT_STMBDY501_03086_HOZAN_000_159","B-Bells...? Far be it from me to presume, but I did not take Slafborn for a man who delights in such things...but perhaps you are right."
-171,"TEXT_STMBDY501_03086_HOZAN_000_160","Given our limited resources it may be difficult to purchase something satisfactory, but we will do what we can. My thanks for your candor."
-172,"TEXT_STMBDY501_03086_SYSTEM_000_161","Though Hozan accepts your suggestion, his furrowed brow suggests he is not altogether confident it will suffice..."
-173,"TEXT_STMBDY501_03086_HOZAN_000_162","Really? We should be glad to maintain our relationship with Slafborn and the Toll, but do you truly believe that in of itself is enough?"
-174,"TEXT_STMBDY501_03086_HOZAN_000_163","Hmm... Perhaps you have the right of it. Considering the lengths he has gone to to ease our burdens, spending exorbitant sums on farewell gifts may only frustrate him."
-175,"TEXT_STMBDY501_03086_HOZAN_000_164","Besides, whatever we purchased would come from the Eorzean markets. Better to wait until we have returned to our homeland that we might send them something more Doman. Dried persimmons from my village, perhaps?"
-176,"TEXT_STMBDY501_03086_SYSTEM_000_165","Hozan's eyes sparkle as he considers the possibilities, clearly satisfied with your suggestion!"
-177,"TEXT_STMBDY501_03086_HOZAN_000_166","How go your efforts, brothers and sisters?"
-178,"TEXT_STMBDY501_03086_HOZAN_000_167","By all accounts, it could not have gone any better! And we owe it all to you, my friend!"
-179,"TEXT_STMBDY501_03086_HOZAN_000_168","We are forever in your debt!"
-180,"TEXT_STMBDY501_03086_HOZAN_000_169","By all accounts, it went quite well, and we have you to thank for that. You are too kind, my friend."
-181,"TEXT_STMBDY501_03086_HOZAN_000_170","Some yet struggle to put their affairs in order, but others have been more successful. Thankfully, we should have enough time before we depart..."
-182,"TEXT_STMBDY501_03086_HOZAN_000_171","Hmm... I suppose I cannot be surprised. This is all rather sudden, and it is only natural for us all to struggle. I can but hope that we manage to put all our affairs in order before we depart..."
-183,"TEXT_STMBDY501_03086_HIGIRI_000_172","Hozan, you were going to meet with Slafborn one last time, were you not?"
-184,"TEXT_STMBDY501_03086_HIGIRI_000_173","We were hoping you would allow us to accompany you. If so, please let us know when you do."
-185,"TEXT_STMBDY501_03086_HOZAN_000_174","There are some few matters I must attend to before I speak with Slafborn, but it should not take much─ Hmm?"
-186,"TEXT_STMBDY501_03086_HOZAN_000_175","That is Rhesh Polaali, is it not? Formerly of the Crystal Braves. Another kind-hearted soul to whom we owe much. She looks as though she is searching for something or someone..."
-187,"TEXT_STMBDY501_03086_HOZAN_000_176","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, I know it is not my place to ask, but would you assist her? I would myself if I could, but with our impending journey..."
-188,"TEXT_STMBDY501_03086_SYSTEM_000_177","In order to undertake the subsequent quest, you must first complete the Doman Adventurers' Guild quest “Short Arms of the Law.”"
-189,"TEXT_STMBDY501_03086_SYSTEM_000_178","You may speak with Rhesh Polaali in order to undertake these side story quests, beginning with “Toll Booty.”"
-190,"TEXT_STMBDY501_03086_HOZAN_000_179","There are some few matters I must attend to before I speak with Slafborn, but it should not take much time... Ah, yes─I recall that the children were searching for something? I do not know the details, but it sounded important to them."
-191,"TEXT_STMBDY501_03086_HOZAN_000_180","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, I know I have imposed upon you enough, but might I ask you to assist my Yozan with his little adventure? If we do not let them see it through to the end before we leave, I will never hear the end of it..."
-192,"TEXT_STMBDY501_03086_SYSTEM_000_181","In order to undertake the subsequent quest, you must first complete the Doman Adventurers' Guild quest “Short Arms of the Law.”"
-193,"TEXT_STMBDY501_03086_HOZAN_000_182","That said, perhaps we should speak with Slafborn sooner than later. I cannot think of any reason to delay."
-194,"TEXT_STMBDY501_03086_HOZAN_000_183","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, I know I have imposed upon you enough, but might I ask you to accompany me as well?"
+48,"TEXT_STMBDY501_03086_KOZAKURA_000_000","なんと、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>殿ではございませぬか！
+まさか、そちらからいらしてくださるとは……！"
+49,"TEXT_STMBDY501_03086_KOZAKURA_000_001","あらためて、ご挨拶を……
+わたくし、「コザクラ」と申しまする。"
+50,"TEXT_STMBDY501_03086_KOZAKURA_000_002","ここ「ドマ町人地」の自治のために結成された、
+「車前会（しゃぜんかい）」という組織にて、
+出納の役を仰せつかっておりまする。"
+51,"TEXT_STMBDY501_03086_KOZAKURA_000_003","目下、町人地の再建計画を取りまとめよと命ぜられ、
+不肖の身なれば、右往左往していた次第。
+つきましては、あなた様に折り入ってご相談が……ッ！"
+52,"TEXT_STMBDY501_03086_KOZAKURA_000_004","し、失礼いたしました。
+きちんと順を追って、説明いたしまする。"
+53,"TEXT_STMBDY501_03086_KOZAKURA_000_005","ここ「ドマ町人地」は、ドマ有数の街でございましたが、
+カイエン様最期の戦の折、帝国軍によって破壊されました。"
+54,"TEXT_STMBDY501_03086_KOZAKURA_000_006","以来、長らく修繕も許されずにおりましたが、
+めでたくも祖国解放と相成りましたので、
+再建を進めているのでございまする。"
+55,"TEXT_STMBDY501_03086_KOZAKURA_000_007","いずれは、他国にも誇れるほどの、
+新たなドマの顔である都にしたい……
+そのためになら、皆、努力は惜しみませぬ！"
+56,"TEXT_STMBDY501_03086_KOZAKURA_000_008","……しかし、今はとにかく無い無いづくしでございまして。
+予算や、資材はもちろん……
+帰らぬ者も多いので、人手すらたりてはおりませぬ。"
+57,"TEXT_STMBDY501_03086_KOZAKURA_000_009","そこで、お上に相談したところ、
+エオルゼアへ逃げのびていた同胞を、
+今こそ帰国させてはどうかと言うのです。"
+58,"TEXT_STMBDY501_03086_KOZAKURA_000_010","聞けば彼らは、レヴナンツトールなる街の、
+「開拓団」に加わって働いているのだとか……
+まさに、渡りに船でございまする！"
+59,"TEXT_STMBDY501_03086_KOZAKURA_000_011","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>殿、あなた様はあちらの事情にもお詳しい。
+どうかどうか、この件について、
+開拓団との取り持ち役を、お願いできませぬか？"
+60,"TEXT_STMBDY501_03086_HIEN_000_012","(-？？？？-)……うん？
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、先にこちらへ来ておったのか。"
+61,"TEXT_STMBDY501_03086_HIEN_000_013","(-？？？？-)ああ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
+そこにおったのか。"
+62,"TEXT_STMBDY501_03086_HIEN_000_014","ふむ、よい機会だ……。
+今の話について、わしからも補足させてくれ。"
+63,"TEXT_STMBDY501_03086_HIEN_000_015","ユウギリとともにエオルゼアへ逃げのびたドマの民を、
+そなたらや冒険者ギルドが迎え入れてくれたこと、
+まこと、感謝しておる。"
+64,"TEXT_STMBDY501_03086_HIEN_000_016","この大恩を返さんと、当人たちも粉骨砕身しておろうが、
+民の受けた恩は、国の受けた恩だ。
+なれば、まずわしが誠意を返すのが道理というもの。"
+65,"TEXT_STMBDY501_03086_HIEN_000_017","コザクラ、例の書状を<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>に。"
+66,"TEXT_STMBDY501_03086_KOZAKURA_000_018","は、はいッ！"
+67,"TEXT_STMBDY501_03086_HIEN_000_019","及ばずながら、開拓団を仕切る冒険者ギルドに宛てて、
+いくらかの礼を用意させてもらった。
+そなたに預けたのが、その目録だ。"
+68,"TEXT_STMBDY501_03086_HIEN_000_020","それを持って開拓団の長を訪ね、
+我が同胞の帰還について、話を取り持ってやってはくれんか？"
+69,"TEXT_STMBDY501_03086_HIEN_000_021","……ありがたい。
+そなたにならば、案ずることなく任せられよう。"
+70,"TEXT_STMBDY501_03086_HIEN_000_022","ではコザクラ、あとは任せたぞ。
+町人地の再建案、楽しみにしておるからな。"
+71,"TEXT_STMBDY501_03086_KOZAKURA_000_023","し、心の臓が、縮みあがっておりまする……。
+でも、あなた様のよきお返事に、ひとつ安心いたしました。
+何卒よろしくお願いいたしまする。"
+72,"TEXT_STMBDY501_03086_KOZAKURA_000_030","ヒエン様の書簡を、レヴナンツトール開拓団の、
+長の方にお渡しくださいませ。
+お名前は、ええと……すら……すらふ坊……？"
+73,"TEXT_STMBDY501_03086_SLAFBORN_000_040","……ほう、開拓団がらみの用事とな。
+わかった、俺が聞かせてもらうとしよう。"
+74,"TEXT_STMBDY501_03086_SLAFBORN_000_041","ふむふむ……なるほど……。
+ドマの当主殿には、ずいぶん気を使わせてしまったようだな。"
+75,"TEXT_STMBDY501_03086_SLAFBORN_000_042","だが、この提案……
+冒険者ギルドに所属する者が東方で活動する際に、
+支援をしてくれるというのは、素直に嬉しい。"
+76,"TEXT_STMBDY501_03086_SLAFBORN_000_043","冒険者たちは新たな旅路に胸ふくらませるだろうし、
+ギルドの顔役連中も、大いに喜ぶだろう。"
+77,"TEXT_STMBDY501_03086_SLAFBORN_000_044","あとの金品は……突き返すのも失礼な話か。
+ならば、ドマの人々を全員無事に祖国へ送り返すための、
+旅費にさせてもらうとしよう。"
+78,"TEXT_STMBDY501_03086_SLAFBORN_000_045","そうでなくたって、彼らの働きには、
+大いに助けられてきたのだ。
+帰郷に異論はないどころか、心から祝福するよ。"
+79,"TEXT_STMBDY501_03086_SLAFBORN_000_046","……さあ、さっそく本人たちにも伝えてやるといい！
+「ホウザン」たちなら、
+ロウェナ会館の前で仕事をしていたはずだ。"
+80,"TEXT_STMBDY501_03086_SLAFBORN_000_050","ついに彼らが帰郷できるのか……。
+さっそく「ホウザン」たちに伝えてやるといい。"
+81,"TEXT_STMBDY501_03086_HOZAN_000_060","おや、君が私たちの仕事場を訪ねてくるとは珍しい。
+……何か、火急の用事でも？"
+82,"TEXT_STMBDY501_03086_HOZAN_000_061","な、なんだって！？
+我々の帰郷が決まりそうだと……！？"
+83,"TEXT_STMBDY501_03086_HOZAN_000_062","それは一大事だ……。
+すぐに仲間たちを集めて、話をしよう。"
+84,"TEXT_STMBDY501_03086_HOMEI_000_063","では、ヒエン様のお力添えで、
+我々が帰る準備は、すっかり整ったと……
+そういうことなのか！？"
+85,"TEXT_STMBDY501_03086_HOZAN_000_064","……どうした、ヒギリ。
+浮かない顔じゃないか。"
+86,"TEXT_STMBDY501_03086_HIGIRI_000_065","い、いえ、もちろん嬉しいと思っています。
+ドマ解放からこちら、故郷への想いは募るばかりでしたから。"
+87,"TEXT_STMBDY501_03086_HIGIRI_000_066","しかし、これまでの日々や、
+帰郷を祝福するとまで言ってくださった、
+スラフボーンさんのことを考えると……。"
+88,"TEXT_STMBDY501_03086_DOWARE_000_067","確かに。
+主君が礼をしてくださったからといって、
+急に帰り支度をするのは、あまりに薄情だろう。"
+89,"TEXT_STMBDY501_03086_DOWARE_000_068","我々は、この街で暮らす中で、
+エオルゼア諸国も困難な問題と戦っていることを知った。
+漂着直後に受け入れを断られたことについても、納得できよう。"
+90,"TEXT_STMBDY501_03086_DOWARE_000_069","しかし、そんな状況の中でも、
+我々を受け入れてくれた人が……街が、あったのだ。"
+91,"TEXT_STMBDY501_03086_DOWARE_000_070","それについての感謝は深い。
+たとえ主君のご好意であっても、
+恩返しを人任せにしてはならぬのでは……？"
+92,"TEXT_STMBDY501_03086_HOZAN_000_071","……ふたりの言い分はもっともだ。
+私も、できるかぎり自分の手で、受けた恩義に報いたいと思う。
+ゆえに……このような案はどうだ？"
+93,"TEXT_STMBDY501_03086_HOZAN_000_072","まず、今請けている仕事は、
+きりのいいところまで、きっちりとやりとげる。
+立つ鳥が、跡を濁すことのないようにな。"
+94,"TEXT_STMBDY501_03086_HOZAN_000_073","それに加えて、帰郷のための準備も必要になると、
+出立までは数日を要するだろう。
+その間に、各自、恩ある相手に挨拶や礼を尽くすのだ。"
+95,"TEXT_STMBDY501_03086_HOMEI_000_074","うむ、うむ！
+いかに故郷恋しといえど、未練を残してこの地を去れば、
+町人地での新たな仕事にも陰りがでよう。"
+96,"TEXT_STMBDY501_03086_HOMEI_000_075","わしなど、長い船旅に耐えられるのは、
+次で最後になるかもしれんからの。
+後腐れなく発てるよう、やるべきことは山もりじゃ！"
+97,"TEXT_STMBDY501_03086_HOZAN_000_076","ふふ、父上がそうして乗り気になってくださるなら、
+この案で参りましょう。"
+98,"TEXT_STMBDY501_03086_HOZAN_000_077","君も、少しだけ我々に付き合ってはくれないか？
+よければ、街の北門付近で待機していてほしいんだ。"
+99,"TEXT_STMBDY501_03086_HOZAN_000_078","抱えている仕事を片付けるにしろ、
+お礼を用意するにしろ、君に助言をもらえれば百人力だからな。
+判断に迷ったら、君を訪ねることにしよう。"
+100,"TEXT_STMBDY501_03086_HOZAN_000_079","快諾、ありがたい……。"
+101,"TEXT_STMBDY501_03086_HOZAN_000_080","それでは、各自、残りの時間を精一杯に使って、
+この尽きることなき恩に、報いるとしよう！"
+102,"TEXT_STMBDY501_03086_SYSTEM_000_090","ドマの人々に助言をすべく、この場所で待機しましょう。
+イベントには数分の時間がかかりますので、
+コンテンツファインダー申請中の場合などは、ご注意ください。"
+103,"TEXT_STMBDY501_03086_Q1_000_091","この場所で待機しますか？"
+104,"TEXT_STMBDY501_03086_HOMEI_000_092","おお、本当に待っていてくれたのじゃな！
+出会ったときから変わらず、お主は誠実じゃのう……。"
+105,"TEXT_STMBDY501_03086_HOMEI_000_093","そんなお主に、さっそく相談事があってな。
+この街を去るにあたって、友に贈り物をしたいので、
+何がよいか助言してほしいのじゃ。"
+106,"TEXT_STMBDY501_03086_HOMEI_000_094","贈る相手は、イジルドール殿。
+わし以上の高齢でありながら、「暁」の一員として、
+孫のアリアヌ殿とともに活躍している益荒男（ますらお）よ！"
+107,"TEXT_STMBDY501_03086_HOMEI_000_095","あの御仁とは、よい茶飲み友達であったが、
+それ以上に、多くの勇気と元気をもらったものだ……。"
+108,"TEXT_STMBDY501_03086_HOMEI_000_096","さて、彼に感謝を表し、健勝を願って渡す品は、
+いったい何がよいじゃろうか？"
+109,"TEXT_STMBDY501_03086_Q2_000_097","イジルドールへの贈り物は？"
+110,"TEXT_STMBDY501_03086_A2_000_098","目にいい薬"
+111,"TEXT_STMBDY501_03086_A2_000_099","忘れんぼうの薬"
+112,"TEXT_STMBDY501_03086_A2_000_100","足腰に効く薬"
+113,"TEXT_STMBDY501_03086_HOMEI_000_101","はて……イジルドール殿は、目の具合が悪かったのか？
+そんな話は聞いたこともないのじゃが……。"
+114,"TEXT_STMBDY501_03086_HOMEI_000_102","うーむ、お主の助言なら、信じるべきじゃろうなぁ……。
+ありがとう、ひとまず市に参って、材料を調達せねばのう。"
+115,"TEXT_STMBDY501_03086_HOMEI_000_104","はて……イジルドール殿は、物忘れを憂いておったのか？
+そんな話は聞いたこともないのじゃが……。"
+116,"TEXT_STMBDY501_03086_HOMEI_000_105","うーむ、お主の助言なら、信じるべきじゃろうなぁ……。
+ありがとう、ひとまず市に参って、材料を調達せねばのう。"
+117,"TEXT_STMBDY501_03086_SYSTEM_000_106","ホウメイは、腑に落ちない様子で去っていった。
+間違った助言をしてしまったかもしれない……。"
+118,"TEXT_STMBDY501_03086_HOMEI_000_107","おお、やはりか！
+イジルドール殿は、足腰を痛めてばかりじゃったのでな。
+わしも、それがよいのではと考えておったのじゃ。"
+119,"TEXT_STMBDY501_03086_HOMEI_000_108","お主は「暁」の仲間のことを、よーく見ておるのじゃなぁ。
+感心、感心……お主のような若者がいると思えば、
+わしも、何案ずることなく去れますわい。"
+120,"TEXT_STMBDY501_03086_HOMEI_000_109","では、さっそく市場に材料を調達しに参るゆえ……
+恩に着るのう、冒険者殿！"
+121,"TEXT_STMBDY501_03086_SYSTEM_000_110","ホウメイは、意気揚々と去っていった。
+正しい助言ができたようだ！"
+122,"TEXT_STMBDY501_03086_DOWARE_000_111","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>殿、少しよろしいか？
+すまぬが、貴殿の知恵を貸してほしい。"
+123,"TEXT_STMBDY501_03086_DOWARE_000_112","この街には、今や多くの人が集まっているが、
+中でもロウェナ商会は、影響力の強い存在だ。"
+124,"TEXT_STMBDY501_03086_DOWARE_000_113","我々も、レヴナンツトール開拓団の一員として働く中で、
+幾度も彼女たちと取引し、ときには援助を受けたこともあった。"
+125,"TEXT_STMBDY501_03086_DOWARE_000_114","ゆえに、街を去る前にきちんと挨拶をし、
+今後の取引について、明らかにしておきたいと思っている……
+のだが……あちらを見てほしい……。"
+126,"TEXT_STMBDY501_03086_DOWARE_000_115","あそこにおわす黒髪の女性が、
+ロウェナ商会の中でも、我々と直接やりとりをする係だ。"
+127,"TEXT_STMBDY501_03086_DOWARE_000_116","しかし……我ながら失礼極まりないとは思うのだが……
+彼女の名前が、どうにもはっきりせぬのだ。
+あの商会の者は、皆、名前が似ているゆえな……。"
+128,"TEXT_STMBDY501_03086_DOWARE_000_117","最後くらいは、きちんと名を踏まえて言葉を交わしたい。
+さて、彼女の名前は何だったであろうか？"
+129,"TEXT_STMBDY501_03086_Q3_000_118","彼女の名前は？"
+130,"TEXT_STMBDY501_03086_A3_000_119","エリナ"
+131,"TEXT_STMBDY501_03086_A3_000_120","オーリアナ"
+132,"TEXT_STMBDY501_03086_A3_000_121","ラレナ"
+133,"TEXT_STMBDY501_03086_A3_000_122","グ・ジュサナ"
+134,"TEXT_STMBDY501_03086_A3_000_123","パパナ"
+135,"TEXT_STMBDY501_03086_DOWARE_000_124","ハッ、そうだ！　確かにそうであった！
+間違いない、彼女は「エリナ」であるはずだ！！"
+136,"TEXT_STMBDY501_03086_DOWARE_000_125","さすがは、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>殿。
+ロウェナ商会の上客であるという噂は、まことだったか。
+ありがとう、また忘れぬうちに話をしてこよう。"
+137,"TEXT_STMBDY501_03086_SYSTEM_000_126","ドウワレは、意気揚々と去っていった。
+正しい助言ができたようだ！"
+138,"TEXT_STMBDY501_03086_DOWARE_000_127","うむ……？
+そのような名前だっただろうか……。
+なんだか、別人のような気が……。"
+139,"TEXT_STMBDY501_03086_DOWARE_000_128","ええい、ままよ！
+悩んでいても解決はせぬ、あたって砕けて参る！！"
+140,"TEXT_STMBDY501_03086_SYSTEM_000_129","ドウワレは、やぶれかぶれの様子で去っていった。
+間違った助言をしてしまったかもしれない……。"
+141,"TEXT_STMBDY501_03086_HIGIRI_000_130","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん！
+すみません、カーバンクルを見かけませんでしたか！？"
+142,"TEXT_STMBDY501_03086_HIGIRI_000_131","レヴナンツトールでは、旅の冒険者さんが、
+街の整備を依頼として手伝ってくれたりするのですが……
+長らく一緒に働いている巴術士さんが、困っていらして。"
+143,"TEXT_STMBDY501_03086_HIGIRI_000_132","彼女の使役するカーバンクルが、脱走してしまったんです！
+これまでも何度かあったことなのですが……
+どうやら、制御がうまくいっていないみたいで……。"
+144,"TEXT_STMBDY501_03086_HIGIRI_000_133","私、少しでも多くの仲間を手伝えたらと思って、
+そのカーバンクルを探しているんです。
+名前は……確か…………。"
+145,"TEXT_STMBDY501_03086_Q4_000_134","カーバンクルの名前は？"
+146,"TEXT_STMBDY501_03086_A4_000_135","エメラルドちゃん"
+147,"TEXT_STMBDY501_03086_A4_000_136","ルビーちゃん"
+148,"TEXT_STMBDY501_03086_A4_000_137","トパーズちゃん"
+149,"TEXT_STMBDY501_03086_A4_000_138","オブシダンくん"
+150,"TEXT_STMBDY501_03086_HIGIRI_000_139","ああ、そうです！
+翠玉のような美しい色をしていましたから！"
+151,"TEXT_STMBDY501_03086_HIGIRI_000_140","ありがとうございます、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん！
+仲間のために、みんなのために、もう一仕事してきますね！"
+152,"TEXT_STMBDY501_03086_SYSTEM_000_141","ヒギリは、「エメラルドちゃん」と叫びながら去っていった。
+しかし手ごたえはないようだ……
+間違った助言をしてしまったかもしれない……。"
+153,"TEXT_STMBDY501_03086_HIGIRI_000_142","ああ、そうです！
+額が、鮮やかな紅玉色でしたもの！"
+154,"TEXT_STMBDY501_03086_HIGIRI_000_143","ありがとうございます、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん！
+仲間のために、みんなのために、もう一仕事してきますね！"
+155,"TEXT_STMBDY501_03086_SYSTEM_000_144","ヒギリが「ルビーちゃん」と叫びながら走っていくと、
+1匹のカーバンクルが姿を現した。
+正しい助言ができたようだ！"
+156,"TEXT_STMBDY501_03086_HIGIRI_000_145","あの子のカーバンクルは、翠玉色だったと思いますが……
+言われると、黄玉色だったような気もしてきました。"
+157,"TEXT_STMBDY501_03086_HIGIRI_000_146","ありがとうございます、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん！
+仲間のために、みんなのために、もう一仕事してきますね！"
+158,"TEXT_STMBDY501_03086_SYSTEM_000_147","ヒギリは、「トパーズちゃん」と叫びながら去っていった。
+しかし手ごたえはないようだ……
+間違った助言をしてしまったかもしれない……。"
+159,"TEXT_STMBDY501_03086_HIGIRI_000_148","ああ、そうです！
+その名前を、どこかで聞いたような気がいたします！"
+160,"TEXT_STMBDY501_03086_HIGIRI_000_149","ありがとうございます、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん！
+仲間のために、みんなのために、もう一仕事してきますね！"
+161,"TEXT_STMBDY501_03086_SYSTEM_000_150","ヒギリは、「オブシダンくん」と叫びながら去っていった。
+しかし手ごたえはないようだ……
+間違った助言をしてしまったかもしれない……。"
+162,"TEXT_STMBDY501_03086_HOZAN_000_151","やあ、通りすがりに父から聞いたよ。
+皆の相談にのってくれて、本当にありがとう。"
+163,"TEXT_STMBDY501_03086_HOZAN_000_152","……よければ、私もひとつ、相談させてくれないか？
+私たちが加わっている、レヴナンツトール開拓団についてだ。"
+164,"TEXT_STMBDY501_03086_HOZAN_000_153","難民である私たちに、職を与えてくれたこと……
+それも、街づくりという名誉な仕事をくれたことに、
+皆、心から感謝をしているんだ。"
+165,"TEXT_STMBDY501_03086_HOZAN_000_154","帰郷にあたって、何かお礼できないかと考えているんだが……
+以前、友好の証として、
+スラフボーンさんに東方風の短刀を贈ったことがあってね。"
+166,"TEXT_STMBDY501_03086_HOZAN_000_155","それを大事にしてくれている手前、
+新しく別の贈り物というのも、違う気がしているんだ。
+……君は、どう思うだろうか？"
+167,"TEXT_STMBDY501_03086_Q5_000_156","開拓団にすべきことは？"
+168,"TEXT_STMBDY501_03086_A5_000_157","より高価な贈り物をする"
+169,"TEXT_STMBDY501_03086_A5_000_158","これからも交流を続ける"
+170,"TEXT_STMBDY501_03086_HOZAN_000_159","う、うぐ……。
+何はともあれ謝礼は金品でということか……。
+冒険者にとっては、当たり前なのかもしれないな。"
+171,"TEXT_STMBDY501_03086_HOZAN_000_160","およそ財産と呼べるものがない身だ、
+適した品が用意できるかは怪しいが……
+とりあえず、がんばってはみよう。"
+172,"TEXT_STMBDY501_03086_SYSTEM_000_161","ホウザンは、ますます悩んでしまったようだ。
+間違った助言をしてしまったかもしれない……。"
+173,"TEXT_STMBDY501_03086_HOZAN_000_162","そ、そんなことでいいのだろうか……？
+交流を続けていくことは、こちらとしても望みだが……。"
+174,"TEXT_STMBDY501_03086_HOZAN_000_163","……だが確かに、こちらで無理に礼を用意するよりは、
+故郷から報せを出した方が喜ばれるかもしれないな。
+開拓団の仲間には、好奇心あふれる冒険者も多いのだから。"
+175,"TEXT_STMBDY501_03086_HOZAN_000_164","国が落ち着いてくれば、四季折々の贈り物もできるだろう。
+私の住んでいた村は柿がうまくてね、
+干し柿なんかも、いいかもしれない。"
+176,"TEXT_STMBDY501_03086_SYSTEM_000_165","ホウザンは、嬉しそうに語っている。
+正しい助言ができたようだ！"
+177,"TEXT_STMBDY501_03086_HOZAN_000_166","おお、みんな！
+そちらの首尾はどうだ？"
+178,"TEXT_STMBDY501_03086_HOZAN_000_167","君のおかげで、すべてうまくいったそうだ！
+この調子なら、ドマに帰るまでに、
+思い残すことはなくなるだろう。"
+179,"TEXT_STMBDY501_03086_HOZAN_000_168","すばらしい助言を、本当にありがとう！"
+180,"TEXT_STMBDY501_03086_HOZAN_000_169","君のおかげで、おおむねうまくいったそうだ！
+君に助言をもらえてよかった、改めて感謝するよ。"
+181,"TEXT_STMBDY501_03086_HOZAN_000_170","今のところ成果はぼちぼちといったところのようだ。
+ドマに帰るまでに、もうひと頑張りしなければな……。"
+182,"TEXT_STMBDY501_03086_HOZAN_000_171","まったくうまくいかないそうだ……。
+ううむ、いなくなって清々したと思われないように、
+もっと頑張らなければならないな……。"
+183,"TEXT_STMBDY501_03086_HIGIRI_000_172","そういえば、ホウザンさん。
+私たちが帰ることに決めた旨を、
+あらためてスラフボーンさんに伝えないと……。"
+184,"TEXT_STMBDY501_03086_HIGIRI_000_173","お話に伺うときは、是非、私たちも同行させてください。
+仕事の続きをしながら、お待ちしていますね。"
+185,"TEXT_STMBDY501_03086_HOZAN_000_174","確かに、正式に挨拶をしにいくべきだろう。
+それでは、私も仕事を片してから…………うん？"
+186,"TEXT_STMBDY501_03086_HOZAN_000_175","あれは……冒険者のレシュ・ポラリさんではないか？
+クリスタルブレイブを抜けたあと、手を貸してくれているんだ。
+何かを探している様子だが……。"
+187,"TEXT_STMBDY501_03086_HOZAN_000_176","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん、こちらはもう大丈夫だから、
+必要だったら彼女を手伝ってやってはくれないか？
+私もまだ仕事があるし、挨拶については、もう少し後にしよう。"
+188,"TEXT_STMBDY501_03086_SYSTEM_000_177","次のクエストを進行するためには、
+「サブストーリークエスト：ドマ冒険者団」の、
+「小さき者たちの大きな夢」を完了する必要があります。"
+189,"TEXT_STMBDY501_03086_SYSTEM_000_178","「サブストーリークエスト：ドマ冒険者団」は、
+レシュ・ポラリの発行するクエスト、
+「廃キャンプに眠る財宝」から開始することができます。"
+190,"TEXT_STMBDY501_03086_HOZAN_000_179","確かに、正式に挨拶をしにいくべきだろう。
+しかし、今は子どもたちを探している最中だったんだ。
+あの子たちにも、帰郷の話をしなければならないからな。"
+191,"TEXT_STMBDY501_03086_HOZAN_000_180","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん、相談役はもう大丈夫だから、
+よければ、息子のヨウザンたちを探すのを手伝ってほしい。
+街中にいてくれればいいのだが……。"
+192,"TEXT_STMBDY501_03086_SYSTEM_000_181","次のクエストを進行するためには、
+「サブストーリークエスト：ドマ冒険者団」の、
+「小さき者たちの大きな夢」を完了する必要があります。"
+193,"TEXT_STMBDY501_03086_HOZAN_000_182","確かに、正式に挨拶をしにいくべきだろう。
+今しがた、子どもたちにも話をしおえたことだしな。"
+194,"TEXT_STMBDY501_03086_HOZAN_000_183","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さんも、相談役はもう大丈夫。
+代わりに、最後の挨拶を見届けてくれないだろうか？"

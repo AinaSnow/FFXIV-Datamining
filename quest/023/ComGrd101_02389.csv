@@ -49,23 +49,43 @@ int32,str,str
 45,"TEXT_COMGRD101_02389_TODO_21",""
 46,"TEXT_COMGRD101_02389_TODO_22",""
 47,"TEXT_COMGRD101_02389_TODO_23",""
-48,"TEXT_COMGRD101_02389_SERPENTPERSONNEL_000_000","<Clickable(<If(GreaterThan(PlayerParameter(52),0))><Sheet(GCRankLimsaMaleText,PlayerParameter(52),8)/><Else/></If><If(GreaterThan(PlayerParameter(53),0))><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),8)/><Else/></If><If(GreaterThan(PlayerParameter(54),0))><Sheet(GCRankUldahMaleText,PlayerParameter(54),8)/><Else/></If>)/> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>! While I am certain that your duties with <If(GreaterThan(PlayerParameter(52),0))>the Maelstrom<Else/></If><If(GreaterThan(PlayerParameter(53),0))>the Order of the Twin Adder<Else/></If><If(GreaterThan(PlayerParameter(54),0))>the Immortal Flames<Else/></If> demand much of your time already, I wondered if I might have a word?"
-49,"TEXT_COMGRD101_02389_SERPENTPERSONNEL_000_001","I shall get right to the point, <Clickable(<If(GreaterThan(PlayerParameter(52),0))><Sheet(GCRankLimsaMaleText,PlayerParameter(52),8)/><Else/></If><If(GreaterThan(PlayerParameter(53),0))><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),8)/><Else/></If><If(GreaterThan(PlayerParameter(54),0))><Sheet(GCRankUldahMaleText,PlayerParameter(54),8)/><Else/></If>)/>. The higher-ups have authorized plans to form a specialized squad and we are on the lookout for a reliable leader. Your name was at the top of the list."
-50,"TEXT_COMGRD101_02389_SERPENTPERSONNEL_000_002","You would be responsible for training and commanding a number of adventurer subordinates, and the position also comes with the possibility of further promotion. What say you, <Clickable(<If(GreaterThan(PlayerParameter(52),0))><Sheet(GCRankLimsaMaleText,PlayerParameter(52),8)/><Else/></If><If(GreaterThan(PlayerParameter(53),0))><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),8)/><Else/></If><If(GreaterThan(PlayerParameter(54),0))><Sheet(GCRankUldahMaleText,PlayerParameter(54),8)/><Else/></If>)/>? Are you ready to lead?"
+48,"TEXT_COMGRD101_02389_SERPENTPERSONNEL_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/><If(GreaterThan(PlayerParameter(53),0))><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),0)/><Else/></If>、お待ちしていました！
+<If(GreaterThan(PlayerParameter(52),0))>黒渦団<Else/></If><If(GreaterThan(PlayerParameter(53),0))>双蛇党<Else/></If><If(GreaterThan(PlayerParameter(54),0))>不滅隊<Else/></If>の同志であり、活躍めざましいあなたに、
+ぜひ耳に入れておきたいことがあるのです。"
+49,"TEXT_COMGRD101_02389_SERPENTPERSONNEL_000_001","現在、新設予定の「冒険者小隊」の隊長候補に、
+あなたの名前が挙がっておりましてね……。"
+50,"TEXT_COMGRD101_02389_SERPENTPERSONNEL_000_002","部下たちの訓練と指揮は、責任ある役割なのですが、
+それだけに、さらなる昇進のチャンスでもあります。
+……この話、受けるつもりはありませんか？"
 51,"TEXT_COMGRD101_02389_SERPENTPERSONNEL_000_003","（★未使用／削除予定★）"
 52,"TEXT_COMGRD101_02389_SYSTEM_000_004","（★未使用／削除予定★）"
-53,"TEXT_COMGRD101_02389_Q1_000_000","Become a squadron commander?"
-54,"TEXT_COMGRD101_02389_A1_000_001","Yes"
-55,"TEXT_COMGRD101_02389_A1_000_002","No"
-56,"TEXT_COMGRD101_02389_SERPENTPERSONNEL_000_005","Ah. Well, 'tis hardly the response I was hoping for, but 'tis best we are all honest here. A hesitant commander is a danger to <If(PlayerParameter(4))>her<Else/>his</If> own troops."
-57,"TEXT_COMGRD101_02389_SERPENTPERSONNEL_000_006","Excellent! Let's get you acquainted with your second-in-command immediately."
-58,"TEXT_COMGRD101_02389_PLATOONINSTRUCTOR_000_007","It's an honor to be serving with you, <Clickable(<If(GreaterThan(PlayerParameter(52),0))><Sheet(GCRankLimsaMaleText,PlayerParameter(52),8)/><Else/></If><If(GreaterThan(PlayerParameter(53),0))><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),8)/><Else/></If><If(GreaterThan(PlayerParameter(54),0))><Sheet(GCRankUldahMaleText,PlayerParameter(54),8)/><Else/></If>)/> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>! In my capacity as your aide, I'll be filling the role of squadron sergeant."
-59,"TEXT_COMGRD101_02389_PLATOONINSTRUCTOR_000_008","And these eager troopers are the inaugural members of our squadron. Form up!"
-60,"TEXT_COMGRD101_02389_PLATOONINSTRUCTOR_000_009","Every one of them is a fledgling adventurer who enlisted in the hopes of following in your legendary footsteps. They're green to the military, aye, but we'll harden them up soon enough."
-61,"TEXT_COMGRD101_02389_PLATOONINSTRUCTOR_000_010","When you've a moment to spare, stop by the barracks and we can discuss their training and deployment in greater detail."
-62,"TEXT_COMGRD101_02389_PLATOONINSTRUCTOR_000_011","I'll leave you to it, then, Commander."
-63,"TEXT_COMGRD101_02389_SERPENTPERSONNEL_000_012","What do you think? I must admit they're raw as soldiers go, but they certainly have potential. I look forward to seeing what you can do with them."
-64,"TEXT_COMGRD101_02389_SERPENTPERSONNEL_000_013","Very well, I shan't keep you any longer. Your squadron's barracks can be found through the door at the back of the <If(GreaterThan(PlayerParameter(52),0))>command room<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Adders' Nest<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Hall of Flames<Else/></If>."
-65,"TEXT_COMGRD101_02389_SERPENTPERSONNEL_000_014","May <If(GreaterThan(PlayerParameter(52),0))>the Navigator guide you to victory<Else/></If><If(GreaterThan(PlayerParameter(53),0))>the Matron watch over you<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Nald'thal bless you with fortune<Else/></If>!"
-66,"TEXT_COMGRD101_02389_SYSTEM_000_015","You are now the commander of an adventurer squadron!
-Enter the <If(GreaterThan(PlayerParameter(52),0))>Maelstrom<Else/></If><If(GreaterThan(PlayerParameter(53),0))>Twin Adder<Else/></If><If(GreaterThan(PlayerParameter(54),0))>Flame<Else/></If> Barracks and speak with your squadron sergeant to issue deployment orders."
+53,"TEXT_COMGRD101_02389_Q1_000_000","冒険者小隊の隊長になる？"
+54,"TEXT_COMGRD101_02389_A1_000_001","はい"
+55,"TEXT_COMGRD101_02389_A1_000_002","いいえ"
+56,"TEXT_COMGRD101_02389_SERPENTPERSONNEL_000_005","そうですか……残念ですが、仕方ありません。
+覚悟のない者に、兵たちの命を預けるわけにはいかないですからね。"
+57,"TEXT_COMGRD101_02389_SERPENTPERSONNEL_000_006","おぉ、それは良かったです！
+それでは早速ですが、あなたの補佐を担当する下士を、
+この場に呼び寄せるとしましょう！"
+58,"TEXT_COMGRD101_02389_PLATOONINSTRUCTOR_000_007","お初にお目に掛かります、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>小隊長殿！
+小官が小隊長殿の補佐を担当させていただく、
+<If(GreaterThan(PlayerParameter(52),0))>小隊付甲軍曹<Else/></If><If(GreaterThan(PlayerParameter(53),0))>小隊付牙軍曹<Else/></If><If(GreaterThan(PlayerParameter(54),0))>小隊付闘軍曹<Else/></If>であります！"
+59,"TEXT_COMGRD101_02389_PLATOONINSTRUCTOR_000_008","そしてこちらが……
+栄えある我が小隊に所属する兵たちです！"
+60,"TEXT_COMGRD101_02389_PLATOONINSTRUCTOR_000_009","いずれも英雄たる小隊長殿に憧れて、
+<If(GreaterThan(PlayerParameter(52),0))>黒渦団<Else/></If><If(GreaterThan(PlayerParameter(53),0))>双蛇党<Else/></If><If(GreaterThan(PlayerParameter(54),0))>不滅隊<Else/></If>に志願してきた冒険者出身の新兵たちです。
+以後、よろしくお願いいたします！"
+61,"TEXT_COMGRD101_02389_PLATOONINSTRUCTOR_000_010","それでは、実際の訓練や任務については、
+我らが隊に割り当てられた兵舎にて、
+詳しく説明させていただきましょう！"
+62,"TEXT_COMGRD101_02389_PLATOONINSTRUCTOR_000_011","我々は、先に兵舎に赴き、待機しております。
+では、失礼致します！"
+63,"TEXT_COMGRD101_02389_SERPENTPERSONNEL_000_012","どうです？
+なかなかに頼もしそうな連中でしょう？
+今から、あなたの小隊がどんな活躍をするのか楽しみです！"
+64,"TEXT_COMGRD101_02389_SERPENTPERSONNEL_000_013","ここ「<If(GreaterThan(PlayerParameter(52),0))>黒渦団：軍令部<Else/></If><If(GreaterThan(PlayerParameter(53),0))>双蛇党：統合司令部<Else/></If><If(GreaterThan(PlayerParameter(54),0))>不滅隊：作戦本部<Else/></If>」の奥にある扉から、
+兵舎に向かうことができるので、利用するといいでしょう。"
+65,"TEXT_COMGRD101_02389_SERPENTPERSONNEL_000_014","あなたの小隊に<If(GreaterThan(PlayerParameter(52),0))>海神リムレーン<Else/></If><If(GreaterThan(PlayerParameter(53),0))>地神ノフィカ<Else/></If><If(GreaterThan(PlayerParameter(54),0))>商神ナルザル<Else/></If>の祝福あらんことを！"
+66,"TEXT_COMGRD101_02389_SYSTEM_000_015","「冒険者小隊」が開放されました！
+「<If(GreaterThan(PlayerParameter(52),0))>黒渦団兵舎<Else/></If><If(GreaterThan(PlayerParameter(53),0))>双蛇党兵舎<Else/></If><If(GreaterThan(PlayerParameter(54),0))>不滅隊兵舎<Else/></If>」への入室が可能になりました。
+兵舎内の<If(GreaterThan(PlayerParameter(52),0))>小隊付甲軍曹<Else/></If><If(GreaterThan(PlayerParameter(53),0))>小隊付牙軍曹<Else/></If><If(GreaterThan(PlayerParameter(54),0))>小隊付闘軍曹<Else/></If>に話しかけ、小隊の管理をしてみましょう！"

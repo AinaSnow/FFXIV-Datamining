@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB207_00838_SEQ_00","Fyrilsunn looks less than bright-eyed and bushy-tailed today. Something is definitely amiss."
-1,"TEXT_GAIUSB207_00838_SEQ_01","Fyrilsunn has told you that he has recently misplaced something of great value to him─three medals engraved with the image of a lion. Help out the distraught Roegadyn by searching for the medals around where he last saw them. He has suggested you begin by standing /lookout at the top of Gullperch Tower."
-2,"TEXT_GAIUSB207_00838_SEQ_02","The view provided by the tower has revealed three shining points of light along the ground below. Investigate each area to see if you can locate the medals."
-3,"TEXT_GAIUSB207_00838_SEQ_03","You have found the lost medals. Return them to Fyrilsunn in Costa del Sol."
-4,"TEXT_GAIUSB207_00838_SEQ_04","It turns out that the medals are Fyrilsunn's only remaining material connection to friends lost in a previous war. While he is grateful to have them back, the mementos also seem to make him wary of inevitable future conflicts."
+0,"TEXT_GAIUSB207_00838_SEQ_00","コスタ・デル・ソルのフィリルスンは、何かを失くしてしまったようだ。"
+1,"TEXT_GAIUSB207_00838_SEQ_01","フィリルスンは<Sheet(EventItem,2000652,0)/>を失くしてしまったらしい。白鴎塔の頂上に向かい、印の上でエモート「見わたす」をしてみよう。"
+2,"TEXT_GAIUSB207_00838_SEQ_02","白鴎塔の頂上で、3つの光を見つけた。もしかすると、<Sheet(EventItem,2000652,0)/>かもしれない。さっそく拾いにいこう。"
+3,"TEXT_GAIUSB207_00838_SEQ_03","<Sheet(EventItem,2000652,0)/>を拾い終えた。コスタ・デル・ソルの「フィリルスン」に渡そう。"
+4,"TEXT_GAIUSB207_00838_SEQ_04","<Sheet(EventItem,2000652,0)/>は、フィリルスンの戦友の形見だったらしい。大事なものを再び手にできて、彼は安心したようだ。"
 5,"TEXT_GAIUSB207_00838_SEQ_05",""
 6,"TEXT_GAIUSB207_00838_SEQ_06",""
 7,"TEXT_GAIUSB207_00838_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_GAIUSB207_00838_SEQ_21",""
 22,"TEXT_GAIUSB207_00838_SEQ_22",""
 23,"TEXT_GAIUSB207_00838_SEQ_23",""
-24,"TEXT_GAIUSB207_00838_TODO_00","Stand /lookout at the top of Gullperch Tower."
-25,"TEXT_GAIUSB207_00838_TODO_01","Locate the lion medals."
-26,"TEXT_GAIUSB207_00838_TODO_02","Return the lion medals to Fyrilsunn."
+24,"TEXT_GAIUSB207_00838_TODO_00","白鴎塔頂上の印の上で「見わたす」をする"
+25,"TEXT_GAIUSB207_00838_TODO_01","<Sheet(EventItem,2000652,0)/>を入手"
+26,"TEXT_GAIUSB207_00838_TODO_02","フィリルスンに<Sheet(EventItem,2000652,0)/>を渡す"
 27,"TEXT_GAIUSB207_00838_TODO_03",""
 28,"TEXT_GAIUSB207_00838_TODO_04",""
 29,"TEXT_GAIUSB207_00838_TODO_05",""
@@ -49,12 +49,23 @@ int32,str,str
 45,"TEXT_GAIUSB207_00838_TODO_21",""
 46,"TEXT_GAIUSB207_00838_TODO_22",""
 47,"TEXT_GAIUSB207_00838_TODO_23",""
-48,"TEXT_GAIUSB207_00838_FYRILSUNN_000_000","Listen, I need your help with a personal matter. I've mislaid something, and it's something very important to me: medals with lions on them."
-49,"TEXT_GAIUSB207_00838_FYRILSUNN_000_001","As much as I'd like to go myself, my place is here. We can't afford to take our eyes off the kobolds now. But those three medals are the most precious things I own. Please, any help you can give would be appreciated."
-50,"TEXT_GAIUSB207_00838_FYRILSUNN_000_002","You might start your search around Gullperch Tower. If I had to wager, I'd say it was there that I dropped 'em while chasing off some of our kobold friends. If you climb to the top and give a good <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>lookout<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, you might spot 'em."
-51,"TEXT_GAIUSB207_00838_DUMMY_000_010",""
-52,"TEXT_GAIUSB207_00838_DUMMY_000_020",""
-53,"TEXT_GAIUSB207_00838_FYRILSUNN_000_020","Well? Did you...did you find my medals?"
-54,"TEXT_GAIUSB207_00838_FYRILSUNN_000_021","<gasp> You did! The Navigator has been kind to me this day...
-Every one of us got such a medal when we joined the Company of Heroes. And if you ever fell, your best friend would take yours."
-55,"TEXT_GAIUSB207_00838_FYRILSUNN_000_022","Three friends there were, and only me left. And I can smell another war coming, only this time, nothing is new and all the fear is old. Sometimes, I think I've lived far too long."
+48,"TEXT_GAIUSB207_00838_FYRILSUNN_000_000","そうだ、もうひとつ頼まれてくれないか。
+実は、大事な「<Sheet(EventItem,2000652,0)/>」を
+失くしちまったんだ……。"
+49,"TEXT_GAIUSB207_00838_FYRILSUNN_000_001","俺は役目上、ここをうかつに離れられない。
+個人的な頼みなんだが、探すのを手伝ってくれねぇか！
+「<Sheet(EventItem,2000652,0)/>」は、全部で3枚だ。"
+50,"TEXT_GAIUSB207_00838_FYRILSUNN_000_002","失くしたのはコボルド族を追っ払ったときだから……
+たぶん、落ちてるとしたら白鴎塔の近くだと思う。
+白鴎塔の頂上から「見渡して」探してみてくれよ。"
+51,"TEXT_GAIUSB207_00838_DUMMY_000_010","（白鴎塔のてっぺんで「見渡す」
+　塔から見えるところにEOBJが3つＰＯＰ）"
+52,"TEXT_GAIUSB207_00838_DUMMY_000_020","（EOBJにアクセスして「戦士のメダル」入手*3）◆GET　EItem：クエスト：GaiUsb207_00	戦士のメダル(仮)　*3"
+53,"TEXT_GAIUSB207_00838_FYRILSUNN_000_020","どうだい！？
+「<Sheet(EventItem,2000652,0)/>」は、見つかったかい？"
+54,"TEXT_GAIUSB207_00838_FYRILSUNN_000_021","よかった……ありがとうな！
+こいつは、海雄旅団の証……
+俺が旅団の一員だった当時の、戦友のものさ。"
+55,"TEXT_GAIUSB207_00838_FYRILSUNN_000_022","蛮神討伐で散っていった友の形見を、
+いつも懐に忍ばせていたんだが、落としちまったらしい。
+俺にとっちゃ大切な品でよ……ほんと、助かったぜ。"

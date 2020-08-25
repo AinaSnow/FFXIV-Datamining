@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBGSC107_03201_SEQ_00","Judging by the way Lewena is gnashing her teeth and muttering to herself, she appears to be somewhat perturbed."
-1,"TEXT_SUBGSC107_03201_SEQ_01","Lewena, a permanent fixture around the Gold Saucer, is showing obvious signs of consternation. Upon interrupting her agitated monologue, you discover that the source of her frustration is the opponents she faced in her last game of mahjong. Having been recently introduced from Doma, it has attracted all manner of participants, including self-proclaimed games masters such as Lewena. Hoping that you might provide some decent competition, she suggests that you make inquiries at the Manderville Tables."
-2,"TEXT_SUBGSC107_03201_SEQ_02","After initially mistaking you for a debt collector, the resident tutor gives a brief explanation of the Gold Saucer's mahjong tables. She informs you that in addition to matches with other patrons, you may also hone your skills against specially prepared automata. Now that the introductions are over, you are one step closer to becoming the type of opponent that Lewena craves."
+0,"TEXT_SUBGSC107_03201_SEQ_00","ゴールドソーサーのレウェナは、冒険者に東方の遊戯を紹介したいらしい。"
+1,"TEXT_SUBGSC107_03201_SEQ_01","レウェナから、「ドマ式麻雀」という新たな遊戯について話を聞いた。ゴールドソーサーのテーブル・マンダヴィルにいる「東方の雀士」と話して詳細を聞こう。"
+2,"TEXT_SUBGSC107_03201_SEQ_02","東方の雀士と話して、ドマ式麻雀を遊べるようになった。"
 3,"TEXT_SUBGSC107_03201_SEQ_03",""
 4,"TEXT_SUBGSC107_03201_SEQ_04",""
 5,"TEXT_SUBGSC107_03201_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_SUBGSC107_03201_SEQ_21",""
 22,"TEXT_SUBGSC107_03201_SEQ_22",""
 23,"TEXT_SUBGSC107_03201_SEQ_23",""
-24,"TEXT_SUBGSC107_03201_TODO_00","Speak with the mahjong tutor."
+24,"TEXT_SUBGSC107_03201_TODO_00","ゴールドソーサーの東方の雀士と話す"
 25,"TEXT_SUBGSC107_03201_TODO_01",""
 26,"TEXT_SUBGSC107_03201_TODO_02",""
 27,"TEXT_SUBGSC107_03201_TODO_03",""
@@ -49,20 +49,43 @@ int32,str,str
 45,"TEXT_SUBGSC107_03201_TODO_21",""
 46,"TEXT_SUBGSC107_03201_TODO_22",""
 47,"TEXT_SUBGSC107_03201_TODO_23",""
-48,"TEXT_SUBGSC107_03201_LEWENA_000_001","How dare they claim it wasn't a proper yaku! Don't they know a winning hand when they see one?"
-49,"TEXT_SUBGSC107_03201_LEWENA_000_002","Yes? What do you want? <sigh> I am afraid you've found me in a rather foul mood. I've had a run of poor luck with that new game, mahjong."
-50,"TEXT_SUBGSC107_03201_LEWENA_000_003","I hear it's all the rage in Doma, although it seems the Gold Saucer's clientele struggle to wrap their feeble minds around its intricacies. With the endless supply of shameless cheats and bumbling novices, I've yet to find a decent opponent."
-51,"TEXT_SUBGSC107_03201_LEWENA_000_004","Perhaps you would provide me with more of a challenge. Yes... Some fresh meat could be just what I need. Run along to the Manderville Tables and get yourself acquainted with the basics, would you?"
-52,"TEXT_SUBGSC107_03201_LEWENA_000_005","Mastered it already, have you? No? I thought not. The Gold Saucer staff are on hand to give free lessons, in case you are the sort that needs to have everything spelled out for you."
-53,"TEXT_SUBGSC107_03201_JANSHIOFEAST_000_010","Listen, I'll have the money ready by next week, I swear!"
-54,"TEXT_SUBGSC107_03201_JANSHIOFEAST_000_011","Oh, you're not a debt collector? What a pleasant surprise! In that case, you must be here to learn how to play Doman mahjong. I am the resident tutor, at your service."
-55,"TEXT_SUBGSC107_03201_JANSHIOFEAST_000_012","Are you by any chance familiar with the game?"
-56,"TEXT_SUBGSC107_03201_Q1_000_000","What will you say?"
-57,"TEXT_SUBGSC107_03201_A1_000_001","I know my pon from my ron, if that's what you mean."
-58,"TEXT_SUBGSC107_03201_A1_000_002","That's not the one where the loser drinks morbol bile, is it?"
-59,"TEXT_SUBGSC107_03201_JANSHIOFEAST_000_014","Ho ho, that is a relief! I was worried I'd have to explain the rules for about the hundredth time today."
-60,"TEXT_SUBGSC107_03201_JANSHIOFEAST_000_015","To be honest, I've had my hands full getting our beginners through a whole game without one of them trying to flip the table in a fit of rage."
-61,"TEXT_SUBGSC107_03201_JANSHIOFEAST_000_016","Kami forfend! Is that what passes for entertainment in Eorzea? Perhaps all those rumors about pirates and their drunken antics are true..."
-62,"TEXT_SUBGSC107_03201_JANSHIOFEAST_000_017","Anyway, mahjong is a far gentler affair. Four players sit around a table, collecting tiles and scoring points."
-63,"TEXT_SUBGSC107_03201_JANSHIOFEAST_000_018","Thankfully, you'll find there is no shortage of opponents against whom to pit your wits. If you prefer, you can even practice against automata. They gloat less than their flesh-and-blood counterparts, too."
-64,"TEXT_SUBGSC107_03201_JANSHIOFEAST_000_019","Should you have any questions, please don't hesitate to ask me. And may I say, I will be very interested to see how quickly you rise through the ranks here at the Gold Saucer!"
+48,"TEXT_SUBGSC107_03201_LEWENA_000_001","数字が記された牌に、文字が記された牌……
+ええと、あとは何だったかしら……。"
+49,"TEXT_SUBGSC107_03201_LEWENA_000_002","あら、ごきげんよう。
+新しくゴールドソーサーで遊べるようになった、
+東方由来のテーブルゲームのルールをおさらいしていたんですの。"
+50,"TEXT_SUBGSC107_03201_LEWENA_000_003","なんでも「ドマ式麻雀」と呼ばれる歴史あるゲームだとか……。
+わたくしには耳慣れない用語が多いのですけど、
+挑みがいがあるというものですわ！"
+51,"TEXT_SUBGSC107_03201_LEWENA_000_004","もしドマ式麻雀に興味があるようでしたら、
+テーブル・マンダヴィルにいる「東方の雀士」に、
+お話を伺ってみたらいかがかしら？"
+52,"TEXT_SUBGSC107_03201_LEWENA_000_005","もしドマ式麻雀に興味があるようでしたら、
+テーブル・マンダヴィルにいる「東方の雀士」に、
+お話を伺ってみたらいかがかしら？"
+53,"TEXT_SUBGSC107_03201_JANSHIOFEAST_000_010","おやおや、いらっしゃいませェ。
+どうやらドマ式麻雀に興味がおありのようですねェ。"
+54,"TEXT_SUBGSC107_03201_JANSHIOFEAST_000_011","ウフフ、そう怪しまれずとも！
+ワタクシ、東方はドマ国から参りました「雀士」でございます。
+以後、お見知りおきの程をォ……。"
+55,"TEXT_SUBGSC107_03201_JANSHIOFEAST_000_012","さて、貴方はドマ式麻雀のことはご存知で？"
+56,"TEXT_SUBGSC107_03201_Q1_000_000","ドマ式麻雀について知っている？"
+57,"TEXT_SUBGSC107_03201_A1_000_001","実は知っている"
+58,"TEXT_SUBGSC107_03201_A1_000_002","実は知らない"
+59,"TEXT_SUBGSC107_03201_JANSHIOFEAST_000_014","おや、これは嬉しい！
+エオルゼアでは知名度の低いものと思っておりましたが、
+嬉しい誤算というものですねェ。"
+60,"TEXT_SUBGSC107_03201_JANSHIOFEAST_000_015","ともかく、ご存知のとおり、
+ドマ式麻雀とは「ドマ式麻雀卓」と呼ばれるテーブルを囲んで、
+4人のプレイヤーが得点を競う、知的な遊戯でございます。"
+61,"TEXT_SUBGSC107_03201_JANSHIOFEAST_000_016","ご存じない！
+ええ結構です、大抵のエオルゼアの皆様はそうですからァ。"
+62,"TEXT_SUBGSC107_03201_JANSHIOFEAST_000_017","しかし、何も身構える必要はありません。
+ドマ式麻雀とは「ドマ式麻雀卓」と呼ばれるテーブルを囲んで、
+4人のプレイヤーが得点を競う、知的な遊戯でしてェ！"
+63,"TEXT_SUBGSC107_03201_JANSHIOFEAST_000_018","魔法人形相手に、ひとりで練習するも良し！
+ほかの冒険者サンたちと、卓を囲んで腕を競うも良し！
+ぜひ、この魔導「ドマ式麻雀卓」を調べて遊んでくださいまし！"
+64,"TEXT_SUBGSC107_03201_JANSHIOFEAST_000_019","詳しいルールを確認したい時は、いつでもワタクシにお声がけを！
+エオルゼアに、素晴らしきドマ式麻雀を広めるためならば、
+全力でお助けさせていただきますからねェ。"

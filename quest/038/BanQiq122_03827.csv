@@ -1,10 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANQIQ122_03827_SEQ_00","Qhoterl Pasol has the glint of inspiration in her eyes.
+0,"TEXT_BANQIQ122_03827_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト受注クラス・ジョブ制限<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+※本クエストは受注時のクラスでのみ進行します。
 
-※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
-1,"TEXT_BANQIQ122_03827_SEQ_01","Deliver the requested supplies to Qhoterl Pasol."
+ホパル古盤のコテルリ・パソリは、試したいことがあるようだ。"
+1,"TEXT_BANQIQ122_03827_SEQ_01","コテルリ・パソリに依頼された品を納品"
 2,"TEXT_BANQIQ122_03827_SEQ_02",""
 3,"TEXT_BANQIQ122_03827_SEQ_03",""
 4,"TEXT_BANQIQ122_03827_SEQ_04",""
@@ -27,7 +28,7 @@ int32,str,str
 21,"TEXT_BANQIQ122_03827_SEQ_21",""
 22,"TEXT_BANQIQ122_03827_SEQ_22",""
 23,"TEXT_BANQIQ122_03827_SEQ_23",""
-24,"TEXT_BANQIQ122_03827_TODO_00","<If(Equal(IntegerParameter(4),16))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Mine a splendid stone <Sheet(Addon,9,0)/> in the K'mul Astropolis<Else/>Deliver the splendid stone <Sheet(Addon,9,0)/> to Qhoterl Pasol</If><Else/><If(Equal(IntegerParameter(4),17))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Gather a splendid nut <Sheet(Addon,9,0)/> in the K'mul Astropolis<Else/>Deliver the splendid nut <Sheet(Addon,9,0)/> to Qhoterl Pasol</If><Else/><If(Equal(IntegerParameter(4),18))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Catch a splendid shellfish at Mjrl's Tears<Else/>Deliver the splendid shellfish to Qhoterl Pasol</If><Else/></If></If></If>."
+24,"TEXT_BANQIQ122_03827_TODO_00","<If(Equal(IntegerParameter(4),16))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>クムル星遺跡群の岩場で<Sheet(Item,IntegerParameter(5),0)/>を砕岩<Else/>コテルリ・パソリに<Sheet(Item,IntegerParameter(5),0)/>を納品</If><Else/><If(Equal(IntegerParameter(4),17))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>クムル星遺跡群の草刈場で<Sheet(Item,IntegerParameter(5),0)/>を草刈<Else/>コテルリ・パソリに<Sheet(Item,IntegerParameter(5),0)/>を納品</If><Else/><If(Equal(IntegerParameter(4),18))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>ミュリルの落涙で<Sheet(Item,IntegerParameter(5),0)/>を釣る<Else/>コテルリ・パソリに<Sheet(Item,IntegerParameter(5),0)/>を納品</If><Else/></If></If></If>"
 25,"TEXT_BANQIQ122_03827_TODO_01",""
 26,"TEXT_BANQIQ122_03827_TODO_02",""
 27,"TEXT_BANQIQ122_03827_TODO_03",""
@@ -51,15 +52,37 @@ int32,str,str
 45,"TEXT_BANQIQ122_03827_TODO_21",""
 46,"TEXT_BANQIQ122_03827_TODO_22",""
 47,"TEXT_BANQIQ122_03827_TODO_23",""
-48,"TEXT_BANQIQ122_03827_QHOTERLPASOL_000_000","Good day, <If(PlayerParameter(4))>Madam<Else/>Sir</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! You look to be the well-traveled sort─have your journeys taken you to the Great Pyramid of Ux'ner?"
-49,"TEXT_BANQIQ122_03827_QHOTERLPASOL_000_001","I ask because one of the noble Viis told me of the owl statues housed within the pyramid, equipped with deadly traps meant to deter even the most intrepid grave robbers. Upon hearing the story, I was struck with inspiration."
-50,"TEXT_BANQIQ122_03827_QHOTERLPASOL_000_002","I realized these very ruins could be equipped with such measures! Our surroundings are positively lousy with vicious beasts, and a few clever traps would go a long way to set everyone's mind at ease. Could I trouble you to assist me in making them?"
-51,"TEXT_BANQIQ122_03827_QHOTERLPASOL_000_003","The device I have in mind will make use of the latent energies stored within magical stones. If you would bring me some from the K'mul Astropolis, I would be ever so grateful."
-52,"TEXT_BANQIQ122_03827_QHOTERLPASOL_000_004","The device I envision will make use of the latent energy stored in the nuts strewn about the K'mul Astropolis. I would be ecstatic if you could gather some and bring them to me."
-53,"TEXT_BANQIQ122_03827_QHOTERLPASOL_000_005","I have designed a device which makes use of the potent energy stored within the pearls of the shellfish dotting Mjrl's Tears. While fishing them up from the depths may seem a daunting task, use fruit worms as bait and you'll be done before I even have a chance to miss you."
-54,"TEXT_BANQIQ122_03827_QHOTERLPASOL_000_006","The latent power stored within the stones littered about the K'mul Astropolis ought to be just what I need. I'll wait here patiently until you return."
-55,"TEXT_BANQIQ122_03827_QHOTERLPASOL_000_007","The nuts flourishing near the K'mul Astropolis are bursting with arcane energy, which should make for a trap as deadly as it is delicious."
-56,"TEXT_BANQIQ122_03827_QHOTERLPASOL_000_008","The pearls that can be found in Mjrl's Tears are seeping with arcane energy, which should make for a sufficiently potent trap. Please go and snag some shellfish─but remember to use fruit worms when you do!"
-57,"TEXT_BANQIQ122_03827_QHOTERLPASOL_000_010","You're back! Do you have the materials I asked for? Please say yes─I can feel the fiends encroaching further by the moment!"
-58,"TEXT_BANQIQ122_03827_QHOTERLPASOL_000_011","Ah, yes, dangerous <Emphasis>and</Emphasis> breathtaking! With these I'll fashion an arcane scarecrow that is as lethal as its visage is menacing! I mustn't make it <Emphasis>too</Emphasis> bone-chilling, of course, lest my Chaqurl soil himself in terror! Hah!"
-59,"TEXT_BANQIQ122_03827_SYSTEM_000_020","Normal-quality items gathered in the course of this quest serve no purpose and cannot be sold. It is recommended that you discard them."
+48,"TEXT_BANQIQ122_03827_QHOTERLPASOL_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>殿は、
+ユキス・ネルの大ピラミッドは、行ったことがおありでしょか～？"
+49,"TEXT_BANQIQ122_03827_QHOTERLPASOL_000_001","ピラミッドの内部には、多数のフクロウの像があるそうで、
+なんでも、防衛機構の仕掛けとしても利用されているのだとか～！
+聡明なヴィース族から、聞いた話なのでございますがね～。"
+50,"TEXT_BANQIQ122_03827_QHOTERLPASOL_000_002","そこで、わたくしどもは思い至ったのでございまする～！
+この遺跡を魔物から護る、仕掛けを作るべきでござろうと～！
+ぜひ、ご協力お願いいたしまする～。"
+51,"TEXT_BANQIQ122_03827_QHOTERLPASOL_000_003","仕掛けには、魔力を含有した輝石を用いまする～！
+クムル星遺跡群で、「<Sheet(ItemHQ,29533,0)/>」を、
+採ってきてくださいましな～。"
+52,"TEXT_BANQIQ122_03827_QHOTERLPASOL_000_004","仕掛けには、その実に魔力を宿した堅果を用いまする～！
+クムル星遺跡群で、「<Sheet(ItemHQ,29559,0)/>」を、
+採ってきてくださいましな～。"
+53,"TEXT_BANQIQ122_03827_QHOTERLPASOL_000_005","仕掛けには、魔力が蓄積された真珠を用いまする～！
+ミュリルの落涙で、「<Sheet(Item,29585,0)/>」を、
+<Sheet(Item,27582,0)/>などの餌で釣ってきてくださいましな～。"
+54,"TEXT_BANQIQ122_03827_QHOTERLPASOL_000_006","仕掛けには、魔力を含有した輝石を用いまする～！
+クムル星遺跡群で、「<Sheet(ItemHQ,29533,0)/>」を、
+採ってきてくださいましな～。"
+55,"TEXT_BANQIQ122_03827_QHOTERLPASOL_000_007","仕掛けには、その実に魔力を宿した堅果を用いまする～！
+クムル星遺跡群で、「<Sheet(ItemHQ,29559,0)/>」を、
+採ってきてくださいましな～。"
+56,"TEXT_BANQIQ122_03827_QHOTERLPASOL_000_008","仕掛けには、魔力が蓄積された真珠を用いまする～！
+ミュリルの落涙で、「<Sheet(Item,29585,0)/>」を、
+<Sheet(Item,27582,0)/>などの餌で釣ってきてくださいましな～。"
+57,"TEXT_BANQIQ122_03827_QHOTERLPASOL_000_010","おつかれさまでございまする～。
+仕掛け用の素材は、調達していただけましたでしょか～？"
+58,"TEXT_BANQIQ122_03827_QHOTERLPASOL_000_011","ご協力、ありがとうございまする～！
+宿った魔力を核に、魔法仕掛けのカカシを作るのでございまする～。
+恐ろしい外見に驚いて、うちの子がお漏らししませぬように～。"
+59,"TEXT_BANQIQ122_03827_SYSTEM_000_020","本クエストで採取した「NQアイテム」を所持しています。
+このアイテムは、使用することはありません。
+売却もできませんので、不用でしたら破棄してください。"

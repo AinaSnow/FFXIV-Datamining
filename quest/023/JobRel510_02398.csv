@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_JOBREL510_02398_SEQ_00","The inoperative automaton sits quietly, waiting to be given a purpose."
-1,"TEXT_JOBREL510_02398_SEQ_01","Ardashir is ready to present the results of his research to Rowena. Perhaps due to the strange weather in Azys Lla, however, he is unable to contact her using his linkpearl. He bids you travel to Idyllshire and request she come to Azys Lla while he makes final preparations for the anima's unveiling."
-2,"TEXT_JOBREL510_02398_SEQ_02","Rowena is pleased to hear work on the anima weapon is finally complete. Unfortunately, she has unfinished business keeping her in Idyllshire. She asks that you return to Azys Lla ahead of her."
-3,"TEXT_JOBREL510_02398_SEQ_03","There is still time before Rowena arrives, and Ardashir seizes the opportunity to present you with a gift. You use the strange device he gives you to summon the anima, and are astonished to see it has taken on a new physical form. Ardashir explains this is made possible using the anima's original soulstone. Rowena arrives soon after to behold the fruits of your hard work. She is pleased with what Ardashir has accomplished, and looks forward to seeing more. When he mentions his plans to seek out a new blacksmith to aid him, all eyes are on Gerolt, who makes clear his intentions to leave now that he is debt free. His liberation is short-lived, however, when Rowena reminds him of the vast sums of gil he has spent since they began work on the anima. Firmly back under Rowena's thumb, he implores Ardashir to accept his help. Meanwhile, the anima suggests you leave to seek out new adventures."
+0,"TEXT_JOBREL510_02398_SEQ_00","からくり人形は、静かに佇んでいる。"
+1,"TEXT_JOBREL510_02398_SEQ_01","アルダシールから、ロウェナを呼んできてほしいといわれた。イディルシャイアにいる「ロウェナ」に話しかけよう。"
+2,"TEXT_JOBREL510_02398_SEQ_02","ロウェナから、先に戻るように促された。クエストを受注した際のジョブとなり「アニマウェポン」を所持もしくは装備した状態で、アジス・ラーのポート・ヘリックスにいる「アルダシール」に声をかけよう。"
+3,"TEXT_JOBREL510_02398_SEQ_03","古いソウルストーンから製作した「もうひとつの人造精霊の身体」をアルダシールから貰った。人造精霊と共に、まだ見ぬ冒険へと向かおう。"
 4,"TEXT_JOBREL510_02398_SEQ_04",""
 5,"TEXT_JOBREL510_02398_SEQ_05",""
 6,"TEXT_JOBREL510_02398_SEQ_06",""
@@ -25,8 +25,9 @@ int32,str,str
 21,"TEXT_JOBREL510_02398_SEQ_21",""
 22,"TEXT_JOBREL510_02398_SEQ_22",""
 23,"TEXT_JOBREL510_02398_SEQ_23",""
-24,"TEXT_JOBREL510_02398_TODO_00","Speak with Rowena in Idyllshire."
-25,"TEXT_JOBREL510_02398_TODO_01","With <If(Equal(IntegerParameter(4),19))><SheetEn(Item,2,15251,1,1)/> and <SheetEn(Item,2,15264,1,1)/><Else/><If(Equal(IntegerParameter(4),20))><SheetEn(Item,2,15252,1,1)/><Else/><If(Equal(IntegerParameter(4),21))><SheetEn(Item,2,15253,1,1)/><Else/><If(Equal(IntegerParameter(4),22))><SheetEn(Item,2,15254,1,1)/><Else/><If(Equal(IntegerParameter(4),23))><SheetEn(Item,2,15255,1,1)/><Else/><If(Equal(IntegerParameter(4),24))><SheetEn(Item,2,15259,1,1)/><Else/><If(Equal(IntegerParameter(4),25))><SheetEn(Item,2,15260,1,1)/><Else/><If(Equal(IntegerParameter(4),27))><SheetEn(Item,2,15261,1,1)/><Else/><If(Equal(IntegerParameter(4),28))><SheetEn(Item,2,15262,1,1)/><Else/><If(Equal(IntegerParameter(4),30))><SheetEn(Item,2,15256,1,1)/><Else/><If(Equal(IntegerParameter(4),31))><SheetEn(Item,2,15258,1,1)/><Else/><If(Equal(IntegerParameter(4),32))><SheetEn(Item,2,15257,1,1)/><Else/><If(Equal(IntegerParameter(4),33))><SheetEn(Item,2,15263,1,1)/><Else/></If></If></If></If></If></If></If></If></If></If></If></If></If> equipped or in your inventory, speak with Ardashir in Azys Lla."
+24,"TEXT_JOBREL510_02398_TODO_00","イディルシャイアのロウェナと話す"
+25,"TEXT_JOBREL510_02398_TODO_01","<If(Equal(IntegerParameter(4),19))><Sheet(Item,15251,0)/>と<Sheet(Item,15264,0)/><Else/><If(Equal(IntegerParameter(4),20))><Sheet(Item,15252,0)/><Else/><If(Equal(IntegerParameter(4),21))><Sheet(Item,15253,0)/><Else/><If(Equal(IntegerParameter(4),22))><Sheet(Item,15254,0)/><Else/><If(Equal(IntegerParameter(4),23))><Sheet(Item,15255,0)/><Else/><If(Equal(IntegerParameter(4),24))><Sheet(Item,15259,0)/><Else/><If(Equal(IntegerParameter(4),25))><Sheet(Item,15260,0)/><Else/><If(Equal(IntegerParameter(4),27))><Sheet(Item,15261,0)/><Else/><If(Equal(IntegerParameter(4),28))><Sheet(Item,15262,0)/><Else/><If(Equal(IntegerParameter(4),30))><Sheet(Item,15256,0)/><Else/><If(Equal(IntegerParameter(4),31))><Sheet(Item,15258,0)/><Else/><If(Equal(IntegerParameter(4),32))><Sheet(Item,15257,0)/><Else/><If(Equal(IntegerParameter(4),33))><Sheet(Item,15263,0)/><Else/></If></If></If></If></If></If></If></If></If></If></If></If></If>を所持か装備し、
+ポート・ヘリックスのアルダシールと話す"
 26,"TEXT_JOBREL510_02398_TODO_02",""
 27,"TEXT_JOBREL510_02398_TODO_03",""
 28,"TEXT_JOBREL510_02398_TODO_04",""
@@ -49,52 +50,122 @@ int32,str,str
 45,"TEXT_JOBREL510_02398_TODO_21",""
 46,"TEXT_JOBREL510_02398_TODO_22",""
 47,"TEXT_JOBREL510_02398_TODO_23",""
-48,"TEXT_JOBREL510_02398_SYSTEM_000_001","In order to receive the quest “Body and Soul,” please ensure that <SheetEn(Item,2,IntegerParameter(1),1,1)/> and <SheetEn(Item,2,IntegerParameter(2),1,1)/> are either equipped, in your Armoury Chest, or in your inventory."
-49,"TEXT_JOBREL510_02398_SYSTEM_000_002","In order to receive the quest “Body and Soul,” please ensure that <SheetEn(Item,2,IntegerParameter(1),1,1)/> is either equipped, in your Armoury Chest, or in your inventory."
-50,"TEXT_JOBREL510_02398_ARDASHIR_100_001","So good of you to come, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Did you rest well?"
-51,"TEXT_JOBREL510_02398_ARDASHIR_200_001","Curious, are we? I am afraid you will have to wait a while longer. It is nearly ready, save for a few final adjustments."
-52,"TEXT_JOBREL510_02398_ARDASHIR_000_001","While I am finishing with this, I would ask you a favor."
-53,"TEXT_JOBREL510_02398_ARDASHIR_100_002","As you might remember, I wished to discuss something with you. Now that our work on the anima is complete, I would have Mistress Rowena come and see the fruits of our labor. But try as I might, there is naught but static when I call via linkpearl."
-54,"TEXT_JOBREL510_02398_ARDASHIR_000_002","Would you go and ask her to come here to Azys Lla?"
-55,"TEXT_JOBREL510_02398_ARDASHIR_000_003","I should be finished by the time you return. She is sure to be pleased with what I have to show her, as will you."
-56,"TEXT_JOBREL510_02398_SYSTEM_000_010","There's no response. You should wait until Ardashir has finished his work."
-57,"TEXT_JOBREL510_02398_ROWENA_000_010","Well, if it ain't my favorite customer and business partner. Any new developments with the anima weapon?"
-58,"TEXT_JOBREL510_02398_ROWENA_000_011","Finished, you say? That's the best news I've had all day. Would that I could leave now to see it, but it'd be bad for business to leave clients waitin'. You tell Ardashir he can expect a visit from me as soon as I'm done here."
-59,"TEXT_JOBREL510_02398_ARDASHIR_100_020","Welcome back, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. ...Erm, If I may ask, why did you not bring the anima weapon? There can be no unveiling of the anima to Mistress Rowena without it."
-60,"TEXT_JOBREL510_02398_ARDASHIR_100_021","Please go and retrieve both the anima weapon and shield at once. Quickly, before she arrives."
-61,"TEXT_JOBREL510_02398_ARDASHIR_200_020","Please go and retrieve the anima weapon at once. Quickly, before she arrives."
-62,"TEXT_JOBREL510_02398_SYSTEM_000_020","In order to advance in the quest “Body and Soul,” please ensure that <SheetEn(Item,2,IntegerParameter(1),1,1)/> and <SheetEn(Item,2,IntegerParameter(2),1,1)/> are either equipped, in your Armoury Chest, or in your inventory."
-63,"TEXT_JOBREL510_02398_SYSTEM_000_021","In order to advance the quest “Body and Soul,” please ensure that <SheetEn(Item,2,IntegerParameter(1),1,1)/> is either equipped, in your Armoury Chest, or in your inventory."
-64,"TEXT_JOBREL510_02398_SYSTEM_000_022","In the event you discarded your anima weapon, you will be required to abandon the quest “Body and Soul” and create a new one."
-65,"TEXT_JOBREL510_02398_SYSTEM_000_023","In the event you discarded your anima weapon and shield, you will be required to abandon the quest “Body and Soul” and create new ones."
-66,"TEXT_JOBREL510_02398_ARDASHIR_000_020","While we wait for Mistress Rowena to arrive, there is something I wish to give you."
-67,"TEXT_JOBREL510_02398_ARDASHIR_000_021","It is a device to be used when summoning the anima. Care to give it a try?"
-68,"TEXT_JOBREL510_02398_BUKINOSEIREI_000_022","Did you call, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>? ...Oh my! My body is... Wh-What happened!?"
-69,"TEXT_JOBREL510_02398_BUKINOSEIREI_000_023","Did you need something, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>? ...Huh!? Wh-What happened to my body?"
-70,"TEXT_JOBREL510_02398_ARDASHIR_000_024","Despite all we have accomplished here, one thing still concerned me─the fact that your spirit is bound to the anima weapon, which is why you can only be summoned in its presence. What will happen, then, should <If(PlayerParameter(4))>she<Else/>he</If> need your aid but not possess the weapon housing your spirit?"
-71,"TEXT_JOBREL510_02398_ARDASHIR_000_025","It is why I created that new body. It is linked to you through your original soulstone, which still bears your aetherial signature. So long as <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> keeps that device with <If(PlayerParameter(4))>her<Else/>him</If>, your spirit can be channeled into this new, physical form."
-72,"TEXT_JOBREL510_02398_ARDASHIR_000_026","Consider it my gift to you, that none may break the bond shared between you and <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
-73,"TEXT_JOBREL510_02398_BUKINOSEIREI_000_027","Thank you, Ardashir. I will never leave <If(PlayerParameter(4))>her<Else/>his</If> side. You have my word."
-74,"TEXT_JOBREL510_02398_BUKINOSEIREI_000_028","Thank you, Ardashir. I will never leave <If(PlayerParameter(4))>her<Else/>his</If> side. You have my word."
-75,"TEXT_JOBREL510_02398_ROWENA_000_029","What's this, then? You celebratin' without me?"
-76,"TEXT_JOBREL510_02398_ROWENA_000_030","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>'s told me everythin'. I take it this is the anima I've heard so much about."
-77,"TEXT_JOBREL510_02398_BUKINOSEIREI_000_031","It's a pleasure to meet you."
-78,"TEXT_JOBREL510_02398_BUKINOSEIREI_000_032","It's very nice to meet you."
-79,"TEXT_JOBREL510_02398_ARDASHIR_000_033","Magnificent, is it not? A life created with our own hands, forged into a weapon─the anima weapon. The perfect companion to accompany adventurers like <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
-80,"TEXT_JOBREL510_02398_ROWENA_000_034","You've impressed me, Ardashir. With proper rearin' these anima'll make obedient helpers. "
-81,"TEXT_JOBREL510_02398_ROWENA_000_035","(...An' me a tidy profit.)"
-82,"TEXT_JOBREL510_02398_ROWENA_000_036","I can see my gil was well invested, an' I look forward to seein' more o' your work. Now that you've overcome the hurdle o' makin' the first, I'm sure a sharp lad like you can ready anima weapons for the masses in no time at all."
-83,"TEXT_JOBREL510_02398_ARDASHIR_000_037","Indeed, I have learned a great many lessons in my time here, thanks in no small part to <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, and even Gerolt. I daresay it will not be long before all the realm knows of the wonder that is anima."
-84,"TEXT_JOBREL510_02398_ARDASHIR_000_038","But first I intend to return home. Fates permitting, I will find a capable smith to assist me in fashioning more anima weapons."
-85,"TEXT_JOBREL510_02398_GEROLT_000_039","You heard the boy. If he wants to go home, let him. I got better things to do than look after that streak o' piss while he makes more toys. With me debts repaid, I'm headin' to Costa del Sol for a well-earned─"
-86,"TEXT_JOBREL510_02398_ROWENA_000_040","Repaid? I never took you for the sort who jokes about money. You owe me plenty."
-87,"TEXT_JOBREL510_02398_GEROLT_000_041","Now hold on, Rowena. You promised to forget me debts once we were done with the anima weapon."
-88,"TEXT_JOBREL510_02398_ROWENA_000_042","And I'm a woman of my word. What you owed <Emphasis>before</Emphasis> we started this little business venture's been forgiven. That just leaves the cost of comin' and goin' from Azys Lla, and a rather impressive bill for all that mead you drank."
-89,"TEXT_JOBREL510_02398_ROWENA_000_043","I expect you to pay me back down to the last gil. O' course, I might be willin' to forgive an' forget again if you help our dear boy Ardashir."
-90,"TEXT_JOBREL510_02398_ROWENA_000_044","Anyroad, I ought to be headin' back. Got business to tend to. Until next time, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, Ardashir."
-91,"TEXT_JOBREL510_02398_GEROLT_000_045","Oi, Ardashir... How's about I fire up the forge for another o' those anima weapons?"
-92,"TEXT_JOBREL510_02398_ARDASHIR_000_046","The offer is appreciated, but no thank you. As I said, what I seek is a smith committed to making weapons, not wasting his days in pursuit of drink."
-93,"TEXT_JOBREL510_02398_GEROLT_000_047","Right then─no more drinkin' until we're done. Glad we got that settled."
-94,"TEXT_JOBREL510_02398_ARDASHIR_000_048","We have settled nothing! Even if I were to consent, you would never hold up your end of the agreement. Even now I can smell the foul odor of ale on your breath!"
-95,"TEXT_JOBREL510_02398_BUKINOSEIREI_000_049","Perhaps we should leave them to settle this on their own. Surely there are others who need our assistance."
-96,"TEXT_JOBREL510_02398_BUKINOSEIREI_000_050","I think we'd do well not to interfere. Mayhap we can find others who need our assistance."
+48,"TEXT_JOBREL510_02398_SYSTEM_000_001","「<Sheet(Item,IntegerParameter(1),0)/>」および、
+「<Sheet(Item,IntegerParameter(2),0)/>」を、所持または装備していないと、
+クエスト「研究の終わりに」を受注することができません。"
+49,"TEXT_JOBREL510_02398_SYSTEM_000_002","「<Sheet(Item,IntegerParameter(1),0)/>」を、
+所持または装備していないと、
+クエスト「研究の終わりに」を受注することができません。"
+50,"TEXT_JOBREL510_02398_ARDASHIR_100_001","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん。
+少しはゆっくりできましたか？"
+51,"TEXT_JOBREL510_02398_ARDASHIR_200_001","フフッ、やはり気になるようですね。
+とはいえ、まだ最終調整が終わっていませんので、
+それが何かの発表は、もう少し待ってください。"
+52,"TEXT_JOBREL510_02398_ARDASHIR_000_001","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さんには、
+俺が調整をしている間に、頼みたいことがあるのです。"
+53,"TEXT_JOBREL510_02398_ARDASHIR_100_002","実は、ここまで援助をしてくれたロウェナさんに、
+研究の報告をしたいと思うのですが、
+リンクシェルが繋がらなくて……。"
+54,"TEXT_JOBREL510_02398_ARDASHIR_000_002","すみませんが、イディルシャイアに赴いて、
+「ロウェナ」さんを、ここに呼んできていただけないでしょうか？"
+55,"TEXT_JOBREL510_02398_ARDASHIR_000_003","面倒だとは思いますが、
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さんにとっても、
+悪い話ではありませんので……お願いしますね！"
+56,"TEXT_JOBREL510_02398_SYSTEM_000_010","反応がない……。
+まだ、アルダシールが調整しているようだ。"
+57,"TEXT_JOBREL510_02398_ROWENA_000_010","あら、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
+アニマウェポンの研究に、何か進展があったのかしら？"
+58,"TEXT_JOBREL510_02398_ROWENA_000_011","あら、ようやく研究が完了したのね。
+わかったわ、アルダシールのところへ行きましょう。
+重要な商談を済ませてから向かうから、先に戻ってなさい。"
+59,"TEXT_JOBREL510_02398_ARDASHIR_100_020","おかえりなさい、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん！
+……すみません、俺の大作を披露するには、
+新たな器へと移植したアニマウェポンが必要です。"
+60,"TEXT_JOBREL510_02398_ARDASHIR_100_021","お手数ですが、
+「<Sheet(Item,IntegerParameter(1),0)/>」と、
+「<Sheet(Item,IntegerParameter(2),0)/>」を持って来てください！"
+61,"TEXT_JOBREL510_02398_ARDASHIR_200_020","お手数ですが、
+「<Sheet(Item,IntegerParameter(1),0)/>」を持って来てください！"
+62,"TEXT_JOBREL510_02398_SYSTEM_000_020","「<Sheet(Item,IntegerParameter(1),0)/>」および、
+「<Sheet(Item,IntegerParameter(2),0)/>」を、所持または装備していないと、
+クエスト「研究の終わりに」を進行することができません。"
+63,"TEXT_JOBREL510_02398_SYSTEM_000_021","「<Sheet(Item,IntegerParameter(1),0)/>」を、
+所持または装備していないと、
+クエスト「研究の終わりに」を進行することができません。"
+64,"TEXT_JOBREL510_02398_SYSTEM_000_022","武器を捨ててしまった場合は、
+クエスト「研究の終わりに」を破棄してから、
+再度、武器の創造を行ってください。"
+65,"TEXT_JOBREL510_02398_SYSTEM_000_023","武器を捨ててしまった場合は、
+クエスト「研究の終わりに」を破棄してから、
+再度、武器の創造を行ってください。"
+66,"TEXT_JOBREL510_02398_ARDASHIR_000_020","では、ロウェナさんをお待ちしている間に……。
+今しがた完成した、俺の超大作を受け取ってください！"
+67,"TEXT_JOBREL510_02398_ARDASHIR_000_021","これは、古いソウルストーンを利用して制作した、
+人造精霊の「もうひとつの身体」です！
+……ひとまず、人造精霊を呼んでみてもらえますか？"
+68,"TEXT_JOBREL510_02398_BUKINOSEIREI_000_022","主、お呼びですか？
+……おや、この身体は……。
+具現化した幻体にぴったりです！"
+69,"TEXT_JOBREL510_02398_BUKINOSEIREI_000_023","主、何か用事か？
+……むっ、この身体は……。
+具現化した幻体に、ぴたりと馴染んでいる！？"
+70,"TEXT_JOBREL510_02398_ARDASHIR_000_024","人造精霊は、武器の中でしか生きることができません。
+しかし、あなたはこの先続ける旅の中で、
+人造精霊と共にいられない時だってあるでしょう。"
+71,"TEXT_JOBREL510_02398_ARDASHIR_000_025","そんな時、この身体をあなたが持ち歩いていれば、
+武器が無くとも、人造精霊はあなたの傍に仕えることができます。"
+72,"TEXT_JOBREL510_02398_ARDASHIR_000_026","この「もうひとつの身体」は、あなたへの俺からの贈り物です。
+今まで以上に、<If(PlayerParameter(4))>彼女<Else/>彼</If>を支えてあげてください。"
+73,"TEXT_JOBREL510_02398_BUKINOSEIREI_000_027","……言われずとも！
+主が望むならば、傍から離れません。"
+74,"TEXT_JOBREL510_02398_BUKINOSEIREI_000_028","あぁ、もちろんだ。
+主が望むならば、傍を離れない。"
+75,"TEXT_JOBREL510_02398_ROWENA_000_029","あら、なんだか楽しそうな会話が弾んでいるじゃない。"
+76,"TEXT_JOBREL510_02398_ROWENA_000_030","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>から聞いたわ。
+……その子が人造精霊かしら？"
+77,"TEXT_JOBREL510_02398_BUKINOSEIREI_000_031","初めまして、私は<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>の「あいぼう」です。"
+78,"TEXT_JOBREL510_02398_BUKINOSEIREI_000_032","初めまして、俺は<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>の「あいぼう」だ。"
+79,"TEXT_JOBREL510_02398_ARDASHIR_000_033","どうですロウェナさん、素晴らしいでしょう？
+武器に宿り、相棒として主を支える人造精霊……
+これが俺たちのたどり着いた、新しい魔法生物の形です！"
+80,"TEXT_JOBREL510_02398_ROWENA_000_034","……へぇ。
+上手く育てれば従順な人造精霊ができるのね……。"
+81,"TEXT_JOBREL510_02398_ROWENA_000_035","これはいい商売ができそうね……。"
+82,"TEXT_JOBREL510_02398_ROWENA_000_036","フフッ……莫大な資金を投資した甲斐があったわ。
+今後は実用化に向けて、頑張ってちょうだい。"
+83,"TEXT_JOBREL510_02398_ARDASHIR_000_037","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さんや、
+ゲロルトさんからいただいた、
+たくさんの教えを胸に、必ずやり遂げてみせます！！"
+84,"TEXT_JOBREL510_02398_ARDASHIR_000_038","……そのためにも、
+俺と付きっきりでいられる武具職人を探しに、
+いったん故郷に戻ろうと思います！"
+85,"TEXT_JOBREL510_02398_GEROLT_000_039","ああ、ぜひともそうしてくれやがれ！
+オレはもう、こんなクソガキの子守はゴメンだからな。
+借金もチャラになったことだし、コスタ・デル・ソルにでも……。"
+86,"TEXT_JOBREL510_02398_ROWENA_000_040","……そのことなんだけれど。
+アンタ……借金増えているわよ。"
+87,"TEXT_JOBREL510_02398_GEROLT_000_041","………………アァ！？
+契約と違うじゃねぇか！
+研究が終わったんだから、オレの借金はチャラだろう！？"
+88,"TEXT_JOBREL510_02398_ROWENA_000_042","もちろん、これまでの借金はチャラにしてあげる。
+……けど、アルダシールとの研究が始まってから、
+余計な交通費や飲酒代……そんなのまで経費で落とせないわよ。"
+89,"TEXT_JOBREL510_02398_ROWENA_000_043","使い込んだ金は、きっちり1ギル残らず返してもらうわ。
+あぁ、アルダシールの「人造精霊の実用化」を手伝うって言うなら、
+少しだけ借金をまけてあげてもいいけど……。"
+90,"TEXT_JOBREL510_02398_ROWENA_000_044","それじゃ、別の商談の約束があるから帰るわね。
+またね、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、アルダシール。"
+91,"TEXT_JOBREL510_02398_GEROLT_000_045","これからも一緒に邁進していこうじゃねぇか！
+なぁ、アルダシール！！"
+92,"TEXT_JOBREL510_02398_ARDASHIR_000_046","結構です。
+俺は、酔っ払いじゃなくて素面の武具職人を探します。"
+93,"TEXT_JOBREL510_02398_GEROLT_000_047","よっしャ、なら決まりだな。
+今日からしばらく断酒してやっからよ！
+これからも、よろしくおねがいしやがれ！"
+94,"TEXT_JOBREL510_02398_ARDASHIR_000_048","ちょっと、勝手に決めないでください！！
+アンタは、クソガキは嫌いなんでしょうが！
+あぁ、もう酒臭い息をかけないでくださいよ……！！"
+95,"TEXT_JOBREL510_02398_BUKINOSEIREI_000_049","……主、そろそろ旅立ちませんか？
+まだ見ぬ、新しい冒険へ……。"
+96,"TEXT_JOBREL510_02398_BUKINOSEIREI_000_050","……主、そろそろ旅立たないか？
+まだ見ぬ、新しい冒険へ……。"

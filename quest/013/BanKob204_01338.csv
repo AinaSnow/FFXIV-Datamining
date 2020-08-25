@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANKOB204_01338_SEQ_00","They say there is as much destroying as creating in a craftsman's life, and Bo Gu is certainly diligent about one of those duties."
-1,"TEXT_BANKOB204_01338_SEQ_01","13th Order Fugleman Zo Ga continues to rile Bo Gu with his foresight and acumen, and the craftsman instructs you to destroy Zo Ga's bomb incubators. The fugleman's sagacity bothers you far less than his penchant for brutally oppressing every living creature under him, but why quibble? Wreck two incubators and be done with it."
-2,"TEXT_BANKOB204_01338_SEQ_02","The bomb incubators are good and dead, thanks to you. Report the destruction to Bo Gu at the 789th Order Dig."
-3,"TEXT_BANKOB204_01338_SEQ_03","Bo Gu is delighted to hear that your mission has succeeded, though you are slightly unsettled by his cheery musings about Zo Ga's preferred fate for you should you ever be captured. Know, adventurer, that this too is the price of the life you have chosen."
+0,"TEXT_BANKOB204_01338_SEQ_00","第789洞穴団の採掘地のクラフトマン789 ボ・グは、壊したい物があるようだ。"
+1,"TEXT_BANKOB204_01338_SEQ_01","クラフトマン789 ボ・グにとって目障りな、フューグルマン13 ゾ・ガの<Sheet(BNpcName,2528,0)/>を破壊するよう依頼された。アイアンレイクの「<Sheet(BNpcName,2528,0)/>」を2基、破壊しよう。"
+2,"TEXT_BANKOB204_01338_SEQ_02","<Sheet(BNpcName,2528,0)/>を破壊した。第789洞穴団の採掘地の「クラフトマン789 ボ・グ」に報告しよう。"
+3,"TEXT_BANKOB204_01338_SEQ_03","クラフトマン789 ボ・グに報告した。喜んだ彼は、フューグルマン13 ゾ・ガを今の地位から引きずり下ろしてやると意気込んだ。またの機会に協力しよう。"
 4,"TEXT_BANKOB204_01338_SEQ_04",""
 5,"TEXT_BANKOB204_01338_SEQ_05",""
 6,"TEXT_BANKOB204_01338_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_BANKOB204_01338_SEQ_21",""
 22,"TEXT_BANKOB204_01338_SEQ_22",""
 23,"TEXT_BANKOB204_01338_SEQ_23",""
-24,"TEXT_BANKOB204_01338_TODO_00","Destroy bomb incubators at Iron Lake."
-25,"TEXT_BANKOB204_01338_TODO_01","Report to 789th Order Craftsman Bo Gu."
+24,"TEXT_BANKOB204_01338_TODO_00","アイアンレイクの<Sheet(BNpcName,2528,0)/>を破壊"
+25,"TEXT_BANKOB204_01338_TODO_01","クラフトマン789 ボ・グに報告"
 26,"TEXT_BANKOB204_01338_TODO_02",""
 27,"TEXT_BANKOB204_01338_TODO_03",""
 28,"TEXT_BANKOB204_01338_TODO_04",""
@@ -49,21 +49,30 @@ int32,str,str
 45,"TEXT_BANKOB204_01338_TODO_21",""
 46,"TEXT_BANKOB204_01338_TODO_22",""
 47,"TEXT_BANKOB204_01338_TODO_23",""
-48,"TEXT_BANKOB204_01338_BOGU_000_000","That Zo Ga, he is up to his usual tricks again, always innovating is Zo Ga. His dig will begin using two new bomb incubators, yes, yes, new─latest, shiny, new."
-49,"TEXT_BANKOB204_01338_BOGU_000_001","An incubator is oh-so-convenient, an iron goose laying bomb after bomb, yes, yes. Zo Ga has all the glory, Zo Ga has all the long-thumbed sows, but will Zo Ga have all the bombs? No, no!"
-50,"TEXT_BANKOB204_01338_BOGU_000_002","The furnaces are at Iron Lake, but not for long! The adventurer will destroy them─wreck, ruin, destroy! Down with Zo Ga, down with progress, yes, yes!"
-51,"TEXT_BANKOB204_01338_BOGU_000_003","The adventurer will wreck the incubators, to Iron Lake <If(PlayerParameter(4))>she<Else/>he</If> will go to strangle the iron geese, yes, yes!"
-52,"TEXT_BANKOB204_01338_BAGO_000_010",""
-53,"TEXT_BANKOB204_01338_BAGO_000_011",""
-54,"TEXT_BANKOB204_01338_BAGO_000_012",""
-55,"TEXT_BANKOB204_01338_BAGO_000_013",""
-56,"TEXT_BANKOB204_01338_BAGO_000_015",""
-57,"TEXT_BANKOB204_01338_BAGO_000_020",""
-58,"TEXT_BANKOB204_01338_BAGO_000_021",""
-59,"TEXT_BANKOB204_01338_BAGO_000_022",""
-60,"TEXT_BANKOB204_01338_BOGU_000_030","Surprised and furious Zo Ga must be─livid, seething, furious! What doom Zo Ga would visit upon the adventurer were he to catch <If(PlayerParameter(4))>her<Else/>him</If>─maiming, concubinage, doom!"
-61,"TEXT_BANKOB204_01338_BOGU_000_031","More surprises we'll spring on Zo Ga, yes, yes! The adventurer is crafty─nimble, sly, crafty. Soon, Zo Ga will have nothing, naught will he have!"
-62,"TEXT_BANKOB204_01338_POPMESSAGE_000_000",""
-63,"TEXT_BANKOB204_01338_POP_MESSAGE",""
-64,"TEXT_BANKOB204_01338_BALLOON_000_040",""
-65,"TEXT_BANKOB204_01338_POPMESSAGE_000_001",""
+48,"TEXT_BANKOB204_01338_BOGU_000_000","まったくもーって　ゾ・ガの奴は目障りですーな！
+「<Sheet(BNpcName,2528,0)/>」を　これ見よがしーに　使おうとしてーる！"
+49,"TEXT_BANKOB204_01338_BOGU_000_001","「<Sheet(BNpcName,2528,0)/>」は　ボムを作りだーす便利な道具……
+ゾ・ガの奴め　ボムもカワイ子ちゃんも独り占めなんーて……
+許せないですーぞ！　ゼッターイに許せないですーぞ！！"
+50,"TEXT_BANKOB204_01338_BOGU_000_002","冒険者どーの　ぜひとも「アイアンレイク」にあーる
+「<Sheet(BNpcName,2528,0)/>」を　ぶっ壊してくださーれ！
+ゾ・ガに　正義の鉄槌を　食らわせてやるんですーぞ！"
+51,"TEXT_BANKOB204_01338_BOGU_000_003","冒険者どーの　ぜひとも「アイアンレイク」にあーる
+「<Sheet(BNpcName,2528,0)/>」を　ぶっ壊してくださーれ！
+ゾ・ガに正義の鉄槌を　食らわせてやるんですーぞ！"
+52,"TEXT_BANKOB204_01338_BAGO_000_010","（★未使用／削除予定★）"
+53,"TEXT_BANKOB204_01338_BAGO_000_011","（★未使用／削除予定★）"
+54,"TEXT_BANKOB204_01338_BAGO_000_012","（★未使用／削除予定★）"
+55,"TEXT_BANKOB204_01338_BAGO_000_013","（★未使用／削除予定★）"
+56,"TEXT_BANKOB204_01338_BAGO_000_015","（★未使用／削除予定★）"
+57,"TEXT_BANKOB204_01338_BAGO_000_020","（★未使用／削除予定★）"
+58,"TEXT_BANKOB204_01338_BAGO_000_021","（★未使用／削除予定★）"
+59,"TEXT_BANKOB204_01338_BAGO_000_022","（★未使用／削除予定★）"
+60,"TEXT_BANKOB204_01338_BOGU_000_030","でかしましたーな　冒険者どーの！
+ゾ・ガの奴め　さぞ悔しがってるはずですーぞ！"
+61,"TEXT_BANKOB204_01338_BOGU_000_031","もっともっと嫌がらせしーて　今の地位かーら
+引きずり下ろしてやりたいですーぞ！"
+62,"TEXT_BANKOB204_01338_POPMESSAGE_000_000","（★未使用／削除予定★）"
+63,"TEXT_BANKOB204_01338_POP_MESSAGE","（★未使用／削除予定★）"
+64,"TEXT_BANKOB204_01338_BALLOON_000_040","（★未使用／削除予定★）"
+65,"TEXT_BANKOB204_01338_POPMESSAGE_000_001","（★未使用／削除予定★）"

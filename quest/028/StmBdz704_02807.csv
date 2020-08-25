@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ704_02807_SEQ_00","The spineless soldier needs someone to fight his fight for him."
+0,"TEXT_STMBDZ704_02807_SEQ_00","烈士庵の気弱な男は、武人を探しているようだ。"
 1,"TEXT_STMBDZ704_02807_SEQ_01",""
 2,"TEXT_STMBDZ704_02807_SEQ_02",""
 3,"TEXT_STMBDZ704_02807_SEQ_03",""
@@ -25,10 +25,10 @@ int32,str,str
 21,"TEXT_STMBDZ704_02807_SEQ_21",""
 22,"TEXT_STMBDZ704_02807_SEQ_22",""
 23,"TEXT_STMBDZ704_02807_SEQ_23",""
-24,"TEXT_STMBDZ704_02807_TODO_00","Speak with the spineless soldier."
-25,"TEXT_STMBDZ704_02807_TODO_01","Defeat the skilled samurai and use the pitch-black ink on him."
-26,"TEXT_STMBDZ704_02807_TODO_02","Speak with the spineless soldier."
-27,"TEXT_STMBDZ704_02807_TODO_03","Speak with the spineless soldier."
+24,"TEXT_STMBDZ704_02807_TODO_00","気弱な男と話す"
+25,"TEXT_STMBDZ704_02807_TODO_01","武芸達者な侍と話し、打ち負かして<Sheet(EventItem,2002303,0)/>を使う"
+26,"TEXT_STMBDZ704_02807_TODO_02","気弱な男と話す"
+27,"TEXT_STMBDZ704_02807_TODO_03","気弱な男と再度話す"
 28,"TEXT_STMBDZ704_02807_TODO_04",""
 29,"TEXT_STMBDZ704_02807_TODO_05",""
 30,"TEXT_STMBDZ704_02807_TODO_06",""
@@ -49,26 +49,56 @@ int32,str,str
 45,"TEXT_STMBDZ704_02807_TODO_21",""
 46,"TEXT_STMBDZ704_02807_TODO_22",""
 47,"TEXT_STMBDZ704_02807_TODO_23",""
-48,"TEXT_STMBDZ704_02807_YOUNGERBROTHERSAMURAI_100_000","How long do you intend to rest? You shan't ever improve at this rate."
-49,"TEXT_STMBDZ704_02807_BIGBROTHERSAMURAI_000_000","I say, are you not <Highlight>ObjectParameter(1)</Highlight>, the famous hero from Eorzea? Oh, thank the kami for sending you to me!"
-50,"TEXT_STMBDZ704_02807_BIGBROTHERSAMURAI_000_001","You see, I've been searching for someone to train with my comrade in my stead. He is strong, while I am...not. As such, I am unable to offer him meaningful contest."
-51,"TEXT_STMBDZ704_02807_YOUNGERBROTHERSAMURAI_000_002","If you are as strong as you say, my <If(PlayerParameter(4))>lady<Else/>lord</If>, I should be honored for the opportunity to spar with you!"
-52,"TEXT_STMBDZ704_02807_BIGBROTHERSAMURAI_000_003","Of course, we would take care to avoid lasting injuries. Will you consent to training with my comrade?"
-53,"TEXT_STMBDZ704_02807_BIGBROTHERSAMURAI_000_004","You have our thanks! Pray join us outside whenever you are ready. Head left upon exiting the cave and ascend the hill, and you will find us."
-54,"TEXT_STMBDZ704_02807_YOUNGERBROTHERSAMURAI_000_005","My comrade will explain the rules to you. Pray have them from him, and we may begin."
-55,"TEXT_STMBDZ704_02807_BIGBROTHERSAMURAI_000_010","My thanks for coming. First of all, allow me to explain the rules. They are intended to test one's skills while preventing injury."
-56,"TEXT_STMBDZ704_02807_BIGBROTHERSAMURAI_000_011","'Tis quite simple, really. The objective is to catch your opponent off guard and draw a mark upon his face using this ink. That is all."
-57,"TEXT_STMBDZ704_02807_YOUNGERBROTHERSAMURAI_000_012",""
-58,"TEXT_STMBDZ704_02807_BIGBROTHERSAMURAI_000_013","My comrade awaits yonder. We shall begin at your word."
-59,"TEXT_STMBDZ704_02807_BIGBROTHERSAMURAI_000_014","My comrade awaits yonder. We begin whenever you are ready, my <If(PlayerParameter(4))>lady<Else/>lord</If>."
-60,"TEXT_STMBDZ704_02807_YOUNGERBROTHERSAMURAI_000_020","Here I come, then!"
-61,"TEXT_STMBDZ704_02807_POPMESSAGE_100_020","You are under attack!"
-62,"TEXT_STMBDZ704_02807_BIGBROTHERSAMURAI_000_030","A-Amazing! I had heard the tales, but your skills far surpass them all!"
-63,"TEXT_STMBDZ704_02807_BIGBROTHERSAMURAI_000_031","Never before have I witnessed training so intense, so furious... I-I find I cannot stop trembling. P-Please join us back inside."
-64,"TEXT_STMBDZ704_02807_YOUNGERBROTHERSAMURAI_000_032","Your fighting skills are extraordinary, my <If(PlayerParameter(4))>lady<Else/>lord</If>! And your touch with the quill is no less impressive!"
-65,"TEXT_STMBDZ704_02807_BIGBROTHERSAMURAI_000_040","Ordinarily, I tremble out of fear. This time, 'twas out of awe at your skills...and something else to which I could not place a name. But then it came to me."
-66,"TEXT_STMBDZ704_02807_BIGBROTHERSAMURAI_000_041","'Twas a memory─the memory of the day I swore to give my life for Doma's liberation!"
-67,"TEXT_STMBDZ704_02807_YOUNGERBROTHERSAMURAI_000_042","Aye, the two of us vowed to grow stronger, and to that end we have been training body and mind both. Beholding your skills this day has served to spur us in this goal."
-68,"TEXT_STMBDZ704_02807_BIGBROTHERSAMURAI_000_043","Looking back now, it shames me that I was so quick to depend upon you. For if I am not a worthy training partner, should I not strive to become one who is?"
-69,"TEXT_STMBDZ704_02807_BIGBROTHERSAMURAI_000_044","From this moment on, I shall train as I have never trained before! Come, brother─the <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>night<Else/>day</If><Else/><If(LessThan(PlayerParameter(11),17))>day<Else/>night</If></If> is still young!"
-70,"TEXT_STMBDZ704_02807_YOUNGERBROTHERSAMURAI_000_045","To think that the day would come when he takes the lead... You have awakened him to his inner passion, and for this I give you my sincerest thanks."
+48,"TEXT_STMBDZ704_02807_YOUNGERBROTHERSAMURAI_100_000","さあ、いつまで休憩するつもりだ？
+さっさと修行を始めるぞ。"
+49,"TEXT_STMBDZ704_02807_BIGBROTHERSAMURAI_000_000","あなた様は、もしや……。
+えらく腕が立つ者がいると皆が噂する、
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>殿ではありませんか？"
+50,"TEXT_STMBDZ704_02807_BIGBROTHERSAMURAI_000_001","ちょうどよい所に、来ていただけました。
+ここにいる我が友も、武芸に関しては相当なもの。
+私ではもう彼の相手にならず、稽古相手を探していたのです。"
+51,"TEXT_STMBDZ704_02807_YOUNGERBROTHERSAMURAI_000_002","皆から噂を聞き、腕が鳴っていたところでござる。
+貴殿さえよければ、手合わせ願いたいものである！"
+52,"TEXT_STMBDZ704_02807_BIGBROTHERSAMURAI_000_003","どちらも怪我はせぬよう、注意を払いますので、
+どうか、手合わせを願えませんでしょうか？"
+53,"TEXT_STMBDZ704_02807_BIGBROTHERSAMURAI_000_004","ありがとうございます。
+この右手を出て、道なりに進んだ外でお待ちしておりますので、
+用意ができましたら、お越しください。"
+54,"TEXT_STMBDZ704_02807_YOUNGERBROTHERSAMURAI_000_005","双方が怪我をせぬよう、取り決めをしたのち、始めるでござる！
+詳細は、そこの友から聞いていただきたい。"
+55,"TEXT_STMBDZ704_02807_BIGBROTHERSAMURAI_000_010","よく来てくださいました。
+これは実戦ではなく、あくまで手合わせ……
+怪我をしないため、取り決めがあります。"
+56,"TEXT_STMBDZ704_02807_BIGBROTHERSAMURAI_000_011","大丈夫です、難しいものではありません。
+この壺に入った墨で、相手の隙をつき、顔に印を付けたら勝ち。
+……いかがです、単純でしょう？"
+57,"TEXT_STMBDZ704_02807_YOUNGERBROTHERSAMURAI_000_012","（★未使用／削除予定★）"
+58,"TEXT_STMBDZ704_02807_BIGBROTHERSAMURAI_000_013","それでは、あなたが我が友に話しかけた瞬間をもって、
+稽古を始めるといたしましょう。"
+59,"TEXT_STMBDZ704_02807_BIGBROTHERSAMURAI_000_014","あなたが我が友に話しかけた瞬間をもって、
+稽古を始めるといたしましょう。"
+60,"TEXT_STMBDZ704_02807_YOUNGERBROTHERSAMURAI_000_020","いざ……参るっ！"
+61,"TEXT_STMBDZ704_02807_POPMESSAGE_100_020","敵が襲いかかってきた！！"
+62,"TEXT_STMBDZ704_02807_BIGBROTHERSAMURAI_000_030","お、お見事……！
+私の想像を遙かに上回る強さでした……。"
+63,"TEXT_STMBDZ704_02807_BIGBROTHERSAMURAI_000_031","斯様な壮絶な稽古は、初めて目にしました……！
+お話したいことはありますが、
+まずは「烈士庵」に戻るとしましょう。"
+64,"TEXT_STMBDZ704_02807_YOUNGERBROTHERSAMURAI_000_032","上には上がいるということでござるな……。
+見事な腕でござった！"
+65,"TEXT_STMBDZ704_02807_BIGBROTHERSAMURAI_000_040","正直なところ、震えが止まりません……。
+もちろん恐ろしさではなく、武者震いです。"
+66,"TEXT_STMBDZ704_02807_BIGBROTHERSAMURAI_000_041","ドマ再興のため、友とふたり、
+烈士のひとりとして立ち上がろうと覚悟を決めた日を、
+思い出したのです！"
+67,"TEXT_STMBDZ704_02807_YOUNGERBROTHERSAMURAI_000_042","そう……ドマのため、我々は強くなると誓いあったでござる。
+そのためには心体共に、更に鍛錬を積まねばならないと、
+貴殿との稽古を通じ、身に沁みたでござる！"
+68,"TEXT_STMBDZ704_02807_BIGBROTHERSAMURAI_000_043","私も、稽古相手を探している場合ではなかったと、反省しています。
+相手にならないのであれば、相手をできるよう、
+自らの腕をあげる努力をしなければいけなかった、と……。"
+69,"TEXT_STMBDZ704_02807_BIGBROTHERSAMURAI_000_044","さあ、稽古に行くとしよう。
+今日は、とことんつきあってもらおうじゃないか！"
+70,"TEXT_STMBDZ704_02807_YOUNGERBROTHERSAMURAI_000_045","稽古に敗れたばかりの私を、引っ張り出すとはな……。
+だが、我が友は確実に、一歩成長できたはずでござる。
+心の稽古もつけてくれて、かたじけのうござった！"

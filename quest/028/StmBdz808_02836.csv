@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ808_02836_SEQ_00","This Resistance fighter could use some help bringing people together."
+0,"TEXT_STMBDZ808_02836_SEQ_00","アラギリの解放軍の闘士は、冒険者を探しているようだ。"
 1,"TEXT_STMBDZ808_02836_SEQ_01",""
 2,"TEXT_STMBDZ808_02836_SEQ_02",""
 3,"TEXT_STMBDZ808_02836_SEQ_03",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_STMBDZ808_02836_SEQ_21",""
 22,"TEXT_STMBDZ808_02836_SEQ_22",""
 23,"TEXT_STMBDZ808_02836_SEQ_23",""
-24,"TEXT_STMBDZ808_02836_TODO_00","Deliver forum invitations to residents of Ala Ghiri."
-25,"TEXT_STMBDZ808_02836_TODO_01","Report to the Resistance fighter."
+24,"TEXT_STMBDZ808_02836_TODO_00","アラギリの住民に<Sheet(EventItem,2002326,0)/>を渡す"
+25,"TEXT_STMBDZ808_02836_TODO_01","解放軍の闘士に報告"
 26,"TEXT_STMBDZ808_02836_TODO_02",""
 27,"TEXT_STMBDZ808_02836_TODO_03",""
 28,"TEXT_STMBDZ808_02836_TODO_04",""
@@ -49,27 +49,54 @@ int32,str,str
 45,"TEXT_STMBDZ808_02836_TODO_21",""
 46,"TEXT_STMBDZ808_02836_TODO_22",""
 47,"TEXT_STMBDZ808_02836_TODO_23",""
-48,"TEXT_STMBDZ808_02836_LIBERATOR02836_000_000","You don't look like you're from around here. This may sound strange, but I could use the help of a stranger right about now."
-49,"TEXT_STMBDZ808_02836_LIBERATOR02836_000_001","Seeing as our troops are going to be stationed here for the foreseeable future, I'd like to have a sit down of sorts with the people of Ala Mhigo. Hear their grievances, see what we can do to be as unintrusive as possible, that sort of thing."
-50,"TEXT_STMBDZ808_02836_LIBERATOR02836_000_002","The few people I've tried to speak with on the matter have been unreceptive, and I suspect as long as it's a soldier asking, the responses will all be the same."
-51,"TEXT_STMBDZ808_02836_LIBERATOR02836_000_003","They'd have no reason to turn you away, though. Would you hand out a few of these invitations, and perhaps ask them why people are so leery of us?"
-52,"TEXT_STMBDZ808_02836_LIBERATOR02836_000_004","Hopefully they'll accept the invitation coming from you. I'd very much like to know what we can do to improve things around here."
-53,"TEXT_STMBDZ808_02836_GERBOD_000_010","Somethin' I can help you with, <If(PlayerParameter(4))>lass<Else/>lad</If>?"
-54,"TEXT_STMBDZ808_02836_GERBOD_000_011","Talks with the Resistance? O' course I'll go. After all they've done for Ala Ghiri, the least we can do is hear what they have to say."
-55,"TEXT_STMBDZ808_02836_GERBOD_000_012","Just name the time an' I'll be there."
-56,"TEXT_STMBDZ808_02836_JGHONAKO_000_013","Why hello there, sweetl─ Wait...you're not here for my services, are you?"
-57,"TEXT_STMBDZ808_02836_JGHONAKO_000_014","An invitation to talks with the Resistance, eh? Mayhaps I can pick up new clientele while I'm there."
-58,"TEXT_STMBDZ808_02836_JGHONAKO_000_015","My coffers have been running a bit dry ever since the Garleans left. Not that I enjoyed their company, mind you. I did what I had to do to get by. The Resistance, however, is a different story. I'll gladly offer my services to the brave men and women who fought to save our home."
-59,"TEXT_STMBDZ808_02836_JGHONAKO_000_016","I look forward to getting to know the good men and women of the Resistance."
-60,"TEXT_STMBDZ808_02836_ALDRUTH_000_017","Oh, an adventurer. What can I do for you?"
-61,"TEXT_STMBDZ808_02836_ALDRUTH_000_018","Speak with the Resistance? ...If it's all the same to you, I'd rather not."
-62,"TEXT_STMBDZ808_02836_ALDRUTH_000_019","I'm grateful for what they've done, truly I am. But I've lost too many to this fighting with the Garleans. They're like to run off and get killed just as we're getting to be friends, and my heart simply can't take it anymore."
-63,"TEXT_STMBDZ808_02836_ALDRUTH_000_020","I'm sorry, but I can't see myself attending any meetings with the Resistance."
-64,"TEXT_STMBDZ808_02836_CIVILIAN02836_000_021","Can I help you?"
-65,"TEXT_STMBDZ808_02836_CIVILIAN02836_000_022","Hmmm... Thanks, but no. I appreciate the Resistance chasin' off the Garleans, but what happens when they come back? If worse comes to worst, I don't want anyone callin' me no Resistance lover."
-66,"TEXT_STMBDZ808_02836_CIVILIAN02836_000_023","Until I've seen how this all plays out, you can count me out of any talks with the Resistance."
-67,"TEXT_STMBDZ808_02836_LIBERATOR02836_000_030","You're back...and still with a few invitations, I see."
-68,"TEXT_STMBDZ808_02836_LIBERATOR02836_000_031","I see... <sigh> Well, at least now I know how they really feel about us. Suppose I can't blame them."
-69,"TEXT_STMBDZ808_02836_LIBERATOR02836_000_032","A few of them do seem willing to open up to us, though, so that's a start."
-70,"TEXT_STMBDZ808_02836_LIBERATOR02836_000_033","It's going to take time, but I'm sure the Resistance will earn their trust. Until then, we'll keep fighting to keep them safe, and maybe someday this will all seem like a distant memory."
-71,"TEXT_STMBDZ808_02836_LIBERATOR02836_000_034","Thanks again for your help. Now, if you'll excuse me, I have to prepare for our first forum with the townsfolk."
+48,"TEXT_STMBDZ808_02836_LIBERATOR02836_000_000","君は、冒険者だな。
+折り入って、頼みたいことがある。"
+49,"TEXT_STMBDZ808_02836_LIBERATOR02836_000_001","私は、アラギリに駐屯する軍のこれからについて、
+住民の皆と、話をする機会を設けようと考えているんだ。"
+50,"TEXT_STMBDZ808_02836_LIBERATOR02836_000_002","しかし、同じアラミゴ人でありながら、
+我々はどこか、距離を置かれているような気がするのだ。
+そこで、解放軍でも住民でもない、第三者の君に頼みたい。"
+51,"TEXT_STMBDZ808_02836_LIBERATOR02836_000_003","軍からの一方的な通告にはしたくないのでな、冒険者の手で、
+この「<Sheet(EventItem,2002326,0)/>」を配ってきてほしい。
+そして、解放軍をどう思っているのか、聞いてくれないか。"
+52,"TEXT_STMBDZ808_02836_LIBERATOR02836_000_004","軍からの一方的な通告にはしたくないのでな、冒険者の手で、
+その「<Sheet(EventItem,2002326,0)/>」を配ってきてほしい。
+そして、解放軍をどう思っているのか、聞いてくれないか。"
+53,"TEXT_STMBDZ808_02836_GERBOD_000_010","何か用かな？"
+54,"TEXT_STMBDZ808_02836_GERBOD_000_011","解放軍が協議会を開きたいと……
+もちろん、参加させてもらうよ。
+彼らはアラギリを解放してくれた、まさしく英雄だからな。"
+55,"TEXT_STMBDZ808_02836_GERBOD_000_012","解放軍の協議会には、ぜひ参加させてもらうよ。
+彼らはアラギリを解放してくれた、まさしく英雄だからな。"
+56,"TEXT_STMBDZ808_02836_JGHONAKO_000_013","お客様……ってわけじゃないわよね？"
+57,"TEXT_STMBDZ808_02836_JGHONAKO_000_014","ふぅん、解放軍からのお知らせね。
+彼らはこれから上得意のお客様になる相手だし、
+もちろん、参加させてもらうわ。"
+58,"TEXT_STMBDZ808_02836_JGHONAKO_000_015","そりゃあ、帝国に支配されてたときは、
+帝国軍の連中とだって、仕方なく商売はしたけど……。
+これからは、同胞相手に堂々と商売ができて、嬉しいわ。"
+59,"TEXT_STMBDZ808_02836_JGHONAKO_000_016","これからは、同胞相手に堂々と商売ができて、嬉しいわ。"
+60,"TEXT_STMBDZ808_02836_ALDRUTH_000_017","あら？　冒険者に知り合いなんていたかしら。"
+61,"TEXT_STMBDZ808_02836_ALDRUTH_000_018","解放軍からの依頼だったのね。
+確かに、距離を取りたくなる気持ちは……私にもあるわ。"
+62,"TEXT_STMBDZ808_02836_ALDRUTH_000_019","私は、戦で多くの友や同胞を失った。
+これ以上、知った顔が死んでいくのには、耐えられそうにない。
+……応援はしてるけど、親しくなるのが怖いのよ。"
+63,"TEXT_STMBDZ808_02836_ALDRUTH_000_020","……応援はしてるけど、親しくなるのが怖いのよ。"
+64,"TEXT_STMBDZ808_02836_CIVILIAN02836_000_021","……何か用か？"
+65,"TEXT_STMBDZ808_02836_CIVILIAN02836_000_022","解放軍か……確かに、自由になれたし感謝もしてる。
+だが、もし帝国軍が戻ってきたら、次は勝てるのか？
+後で、解放軍と親しくしていたって、密告でもされたら……。"
+66,"TEXT_STMBDZ808_02836_CIVILIAN02836_000_023","悪いが、情勢が落ち着くまで、そっとしておいてもらえないか。"
+67,"TEXT_STMBDZ808_02836_LIBERATOR02836_000_030","戻ったか。
+それでは、詳しく話を聞かせてくれ。"
+68,"TEXT_STMBDZ808_02836_LIBERATOR02836_000_031","そうか……それが彼らの本音なのだな。
+帝国の支配は長く、心に落とされた影もまた濃い。"
+69,"TEXT_STMBDZ808_02836_LIBERATOR02836_000_032","温かい声をかけられることもあれば、顔を背けられることもあった。
+住民の本音がわからずに苦悩もしたが、そのどちらも真実なのだな。
+期待も不安も、根は同じものだ。"
+70,"TEXT_STMBDZ808_02836_LIBERATOR02836_000_033","彼らの声を聞き入れ、心から信頼してもらえる日が来るまで、
+我々はこの地を守り、ここに暮らす人たちと共に生きていこう。
+時間はかかるだろうが、決して諦めない。"
+71,"TEXT_STMBDZ808_02836_LIBERATOR02836_000_034","アラミゴへの想いを思い出させてくれて、感謝する。
+ありがとう、冒険者殿。"

@@ -1,9 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANPIX119_03707_SEQ_00","Uin Nee eagerly awaits a delivery of flowers, and slightly less eagerly awaits the return of a friend who may have met a terrible fate.
+0,"TEXT_BANPIX119_03707_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト受注クラス・ジョブ制限<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+※本クエストは受注時のクラス・ジョブでのみ進行します。
 
-※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
+リダ・ラーンのウィン＝ニイは、花摘みにいった仲間を心配しているようだ。"
 1,"TEXT_BANPIX119_03707_SEQ_01",""
 2,"TEXT_BANPIX119_03707_SEQ_02",""
 3,"TEXT_BANPIX119_03707_SEQ_03",""
@@ -27,8 +28,9 @@ int32,str,str
 21,"TEXT_BANPIX119_03707_SEQ_21",""
 22,"TEXT_BANPIX119_03707_SEQ_22",""
 23,"TEXT_BANPIX119_03707_SEQ_23",""
-24,"TEXT_BANPIX119_03707_TODO_00","Speak with the flower-picking pixie in the east of Phisor Lran and throw porxies to scare off any threats."
-25,"TEXT_BANPIX119_03707_TODO_01","Speak with Uin Nee."
+24,"TEXT_BANPIX119_03707_TODO_00","フィソー・ラーン東にいる花摘みピクシーと話し
+お守りポークシーで「近づく何か」を追い返す"
+25,"TEXT_BANPIX119_03707_TODO_01","ウィン＝ニイと話す"
 26,"TEXT_BANPIX119_03707_TODO_02",""
 27,"TEXT_BANPIX119_03707_TODO_03",""
 28,"TEXT_BANPIX119_03707_TODO_04",""
@@ -51,24 +53,51 @@ int32,str,str
 45,"TEXT_BANPIX119_03707_TODO_21",""
 46,"TEXT_BANPIX119_03707_TODO_22",""
 47,"TEXT_BANPIX119_03707_TODO_23",""
-48,"TEXT_BANPIX119_03707_UINNEE_000_001","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, I need your help! My friend went to pick flowers a while ago, but no one has seen hide nor hair of them since!"
-49,"TEXT_BANPIX119_03707_UINNEE_000_002","I suspect it was the work of─ No, it's too soon to say for certain."
-50,"TEXT_BANPIX119_03707_UINNEE_000_003","The best thing to do is send out a search party, consisting of...well, you of course!"
-51,"TEXT_BANPIX119_03707_UINNEE_000_004","You should probably start looking where all the prettiest flowers grow, which would be east of Phisor Lran. And if it's what I think it is, be prepared for an epic encounter that will shake the heavens! Or at least cause them to wobble a bit..."
-52,"TEXT_BANPIX119_03707_PICKFLOWERPIXIE_000_010","Sorry, but as you can see, I'm rather busy. Or perhaps you're here to help?"
-53,"TEXT_BANPIX119_03707_PICKFLOWERPIXIE_000_011","Uin Nee was worried about me? I'm quite safe, I assure you! And if anything were to disturb me, these porxies will send them on their merry way!"
-54,"TEXT_BANPIX119_03707_PICKFLOWERPIXIE_000_012","But since you've come all the way here, perhaps you could watch my back while I carry on picking flowers? On the off chance that any beasties show, throw one of my adorable companions at them!"
-55,"TEXT_BANPIX119_03707_SYSTEM_000_013","If any enemies appear, throw a porxie at them. You may move the camera, as well as zoom in and out. Target the enemy and throw a porxie with <If(Equal(PlayerParameter(80),0))><UIForeground>F20222</UIForeground><UIForeground>01</UIForeground><Else/><CommandIcon(15)/> / <CommandIcon(8)/></If>."
-56,"TEXT_BANPIX119_03707_PICKFLOWERPIXIE_000_014","Aaaaaaiiieee!"
-57,"TEXT_BANPIX119_03707_PICKFLOWERPIXIE_000_015","(-Another Flower-picking Pixie-)That's odd... Did you see another pixie picking flowers here? No? Oh, well. I'll just have to finish the job by myself! Tra-la-la!♪"
-58,"TEXT_BANPIX119_03707_PICKFLOWERPIXIE_100_015","Phew! That should be enough for the time being. So, was there any trouble? No? Jolly good. Thanks for keeping an eye out for me. Ta-ta for now!"
-59,"TEXT_BANPIX119_03707_UINNEE_000_020","So, you made it back, at least."
-60,"TEXT_BANPIX119_03707_UINNEE_000_021","Though to be honest, I don't have much hope of ever seeing my friend again. Do you know what happened to them?"
-61,"TEXT_BANPIX119_03707_Q1_000_000","What will you say?"
-62,"TEXT_BANPIX119_03707_A1_000_001","You'd better ask the beavers."
-63,"TEXT_BANPIX119_03707_A1_000_002","Some things are best left a mystery."
-64,"TEXT_BANPIX119_03707_A1_000_003","Even when I close my eyes, I can still see the...the beavers."
-65,"TEXT_BANPIX119_03707_UINNEE_000_023","No, not the beavers! Don't let their appearance fool you; there is no greater evil in all of Il Mheg than those long-toothed horrors."
-66,"TEXT_BANPIX119_03707_UINNEE_000_024","That's fine. I'd already jumped to my own conclusions anyway!"
-67,"TEXT_BANPIX119_03707_UINNEE_000_025","Oooh! It sounds like you'll be having some fantastic nightmares! If you ever manage to sleep again, that is."
-68,"TEXT_BANPIX119_03707_UINNEE_000_026","In any case, it sounds like the flower collection is proceeding apace, and we'll soon be able to decorate Lyhe Mheg with beautiful flowers. And if we have to lose a pixie or three in the process, so be it!"
+48,"TEXT_BANPIX119_03707_UINNEE_000_001","聞いて、聞いて、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん！
+子どもたちの夢の中に、花畑を作ってあげるために、
+花摘みに行った仲間が帰ってこないの！"
+49,"TEXT_BANPIX119_03707_UINNEE_000_002","きっと「アレ」が出たに違いないわ！
+うん、絶対そうに決まってる！"
+50,"TEXT_BANPIX119_03707_UINNEE_000_003","アレ対策として、お守りを持たせてあげたから、
+まだ無事だとは思うのだけれど……。"
+51,"TEXT_BANPIX119_03707_UINNEE_000_004","お願い、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん！
+「フィソー・ラーン」の東あたりで、
+「花摘みピクシー」を探して守ってあげてちょうだい！"
+52,"TEXT_BANPIX119_03707_PICKFLOWERPIXIE_000_010","ワタシ、お花摘みで忙しいの……。
+なにかご用なの？"
+53,"TEXT_BANPIX119_03707_PICKFLOWERPIXIE_000_011","えっ、ウィン＝ニイが心配しているですって？
+もう、大げさなんだから……アレが出てきたって、
+このお守りをぶつければ大丈夫なのに！"
+54,"TEXT_BANPIX119_03707_PICKFLOWERPIXIE_000_012","そんなに心配なら、あなたが見張り番をしてくれる？
+何かが近づいてきたら、「お守りポークシー」を投げつけて、
+追い返してくれればいいから……よろしくね！"
+55,"TEXT_BANPIX119_03707_SYSTEM_000_013","花摘みピクシーの防衛を開始します。
+近づく何かを発見したら、ズームをしてから、
+<If(Equal(PlayerParameter(80),0))><UIForeground>F20222</UIForeground>左クリック<UIForeground>01</UIForeground><Else/><CommandIcon(15)/>ボタン/<CommandIcon(8)/>ボタン</If>でお守りポークシーをぶつけましょう！"
+56,"TEXT_BANPIX119_03707_PICKFLOWERPIXIE_000_014","あーれー！！"
+57,"TEXT_BANPIX119_03707_PICKFLOWERPIXIE_000_015","(-もうひとりの花摘みピクシー-)アレ……ここに友だちが花摘みに来てたはずなんだけど……
+ま、いいか……ワタシひとりで、お花を集めればいいんだもんね！
+さぁ、頑張るわよ～！"
+58,"TEXT_BANPIX119_03707_PICKFLOWERPIXIE_100_015","ふう、いっぱい花が集まったわ！
+見張り番をしてくれて、ありがとう！
+じゃあね～！"
+59,"TEXT_BANPIX119_03707_UINNEE_000_020","おかえりなさい、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん。"
+60,"TEXT_BANPIX119_03707_UINNEE_000_021","あっ、でも、花摘みに出かけた仲間の件なら報告はいらないわ。
+もしも、二度と会えない子がいたとしたら、
+そういうことだものね……？"
+61,"TEXT_BANPIX119_03707_Q1_000_000","何と答える？"
+62,"TEXT_BANPIX119_03707_A1_000_001","ビーバーが……！"
+63,"TEXT_BANPIX119_03707_A1_000_002","謎にしておいた方がいいこともある"
+64,"TEXT_BANPIX119_03707_A1_000_003","何があったか、よく覚えていない"
+65,"TEXT_BANPIX119_03707_UINNEE_000_023","やめて、聞きたくないわ！
+真相を知ってしまったら二度と眠れなくなっちゃうもの！
+絶対に、聞いてあげないんだからね！"
+66,"TEXT_BANPIX119_03707_UINNEE_000_024","そうそう、そういうことよ。
+謎っていうのは、解き明かされた瞬間に、
+謎でなくなってしまうんだもの！"
+67,"TEXT_BANPIX119_03707_UINNEE_000_025","いいのよ、早く忘れてしまいなさいな。
+その方が誰にとっても幸せなのよ。
+……きっとね。"
+68,"TEXT_BANPIX119_03707_UINNEE_000_026","とにかく、協力ありがとう！
+おかげで荒野の子どもたちの夢の中に、花畑を作れそうよ！
+お礼を用意したから、受け取ってちょうだいね！"

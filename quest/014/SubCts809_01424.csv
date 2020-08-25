@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBCTS809_01424_SEQ_00","Following a trying sea voyage, Tatafu could use an adventurer, a mop, and a bath─in that order."
-1,"TEXT_SUBCTS809_01424_SEQ_01","Tatafu's seasick courier being otherwise occupied, you have been charged with delivering cargo to Nanalai in Crescent Cove. You know not to tarry, for these burlap sacks large and small are eagerly awaited."
-2,"TEXT_SUBCTS809_01424_SEQ_02","It turns out the sacks contained soil and seeds that will aid Nanalai in becoming a farmer. As wild as the scheme seems, the soon-to-be former fisher struck you as no fool. Now, hurry back to Vesper Bay, for Tatafu is owed payment for the merchandise."
-3,"TEXT_SUBCTS809_01424_SEQ_03","Tatafu is dubious of the fisherman's chances, but admits to knowing little of the farming trade. While the same could be said of you, you cannot help but find your thoughts wandering back to the extra seeds you were given, and the idea of a small garden all your own..."
+0,"TEXT_SUBCTS809_01424_SEQ_00","ベスパーベイの交易商人タタフは、困っているようだ。"
+1,"TEXT_SUBCTS809_01424_SEQ_01","タタフから、船酔いでつぶれた荷運び人の代わりに、荷物を運ぶよう頼まれた。西ザナラーンのクレセントコーヴにいる「ナナライ」に、「<Sheet(EventItem,2001240,0)/>」と「<Sheet(EventItem,2001241,0)/>」を渡そう。"
+2,"TEXT_SUBCTS809_01424_SEQ_02","ナナライに<Sheet(EventItem,2001240,0)/>と<Sheet(EventItem,2001241,0)/>を渡した。ベスパーべイのタタフに「<Sheet(EventItem,2001242,0)/>」を渡そう。"
+3,"TEXT_SUBCTS809_01424_SEQ_03","ナナライの畑づくりを応援しているというタタフ。冒険者にも、余った種をわけてくれた。冒険者居住区に土地を手に入れたら、庭に畑を作ってみるのもいいかもしれない。"
 4,"TEXT_SUBCTS809_01424_SEQ_04",""
 5,"TEXT_SUBCTS809_01424_SEQ_05",""
 6,"TEXT_SUBCTS809_01424_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_SUBCTS809_01424_SEQ_21",""
 22,"TEXT_SUBCTS809_01424_SEQ_22",""
 23,"TEXT_SUBCTS809_01424_SEQ_23",""
-24,"TEXT_SUBCTS809_01424_TODO_00","Deliver the two sacks to Nanalai."
-25,"TEXT_SUBCTS809_01424_TODO_01","Deliver Nanalai's payment to Tatafu."
+24,"TEXT_SUBCTS809_01424_TODO_00","ナナライに<Sheet(EventItem,2001240,0)/>と<Sheet(EventItem,2001241,0)/>を渡す"
+25,"TEXT_SUBCTS809_01424_TODO_01","タタフに<Sheet(EventItem,2001242,0)/>を渡す"
 26,"TEXT_SUBCTS809_01424_TODO_02",""
 27,"TEXT_SUBCTS809_01424_TODO_03",""
 28,"TEXT_SUBCTS809_01424_TODO_04",""
@@ -49,19 +49,46 @@ int32,str,str
 45,"TEXT_SUBCTS809_01424_TODO_21",""
 46,"TEXT_SUBCTS809_01424_TODO_22",""
 47,"TEXT_SUBCTS809_01424_TODO_23",""
-48,"TEXT_SUBCTS809_01424_TATAFU_000_000","Well, this is a pretty kettle of fish! You'd think Roegadyn would be too damn...big to get seasick!"
-49,"TEXT_SUBCTS809_01424_TATAFU_000_001","Oh, adventurer! Yes, you there! Looking for work, perchance? Name's Tatafu. I'm a merchant just back from Limsa Lominsa, and I'm in a spot of trouble."
-50,"TEXT_SUBCTS809_01424_TATAFU_000_002","Hired this big lug to make the deliveries, but what I got instead are a couple of chum pails badly in need of emptying."
-51,"TEXT_SUBCTS809_01424_TATAFU_000_003","Can't let that stop me, though. Nanalai the fisher out in Crescent Cove needs what I've got. And though this upchucking good-for-nothing'll be up and about by tomorrow, Nanalai isn't like to stand the wait."
-52,"TEXT_SUBCTS809_01424_TATAFU_000_009","Well, everything's that much bigger and faster with Roegadyn, I'll grant that. Two chum pails full already! Anyway, what are you still doing here? Nanalai's expecting his goods!"
-53,"TEXT_SUBCTS809_01424_NANALAI_000_010","Mrmmm... Isn't here yet... Should be, should be. But isn't..."
-54,"TEXT_SUBCTS809_01424_NANALAI_000_011","Ah! You've got my delivery! You've got it, you've got it! Mrm, this sack's got some heft to it, it sure does. And it should, too, being full of soil."
-55,"TEXT_SUBCTS809_01424_NANALAI_000_012","What will I do with this soil? Put it on the ground, that's what. The littler bag you gave me is filled with seeds. It's time for some farming!"
-56,"TEXT_SUBCTS809_01424_NANALAI_000_013","Calamity's done made the fish stay away from these waters, so if we don't farm, we don't eat."
-57,"TEXT_SUBCTS809_01424_NANALAI_000_014","But there I go running my mouth and near forgetting the business. Got the gil for Tatafu right here. Tell her I'm much obliged."
-58,"TEXT_SUBCTS809_01424_NANALAI_000_019","I can see your concern, but don't worry none about us. Hells, we didn't always know how to fish, neither. But when you <Emphasis>need</Emphasis> to learn something, you learn it, eh?"
-59,"TEXT_SUBCTS809_01424_TATAFU_000_020","Swiftly done! Was the fisher satisfied with his bits of land?"
-60,"TEXT_SUBCTS809_01424_TATAFU_000_021","Ah, the payment, is it? I guess he <Emphasis>was</Emphasis> satisfied! Thank you. Let's see here... Yan, tan, tether... That's everything."
-61,"TEXT_SUBCTS809_01424_TATAFU_000_022","Can't rightly say I feel easy in my mind about this. Fishers have little enough gil as is without squandering it on La Noscean dirt."
-62,"TEXT_SUBCTS809_01424_TATAFU_000_023","Though what do I know, eh? The farmer in Limsa I got it from said it'll give the Cove's thin soil the boost it needs. So, hey, maybe they'll at least have a fighting chance."
-63,"TEXT_SUBCTS809_01424_TATAFU_000_024","Got to have hope, right? Here, that's some leftover seeds for you. If you come into a bit of land in one of those adventurer districts, go on and set up a vegetable patch or two."
+48,"TEXT_SUBCTS809_01424_TATAFU_000_000","あぁ、情けないったらありゃしない！
+巨漢のルガディン族のくせに、船酔いでつぶれるなんて！"
+49,"TEXT_SUBCTS809_01424_TATAFU_000_001","……そこのあなた、冒険者ね？
+あたしは、交易商人のタタフよ。
+ちょっと困ったことになってて、手伝ってくれないかしら？"
+50,"TEXT_SUBCTS809_01424_TATAFU_000_002","海都「リムサ・ロミンサ」での仕入れを終えて、
+さっき港に到着したところなんだけど……。
+雇った荷運び人が、このとおりの有様でね。"
+51,"TEXT_SUBCTS809_01424_TATAFU_000_003","代わりに南東の漁村「クレセントコーヴ」にいる
+漁師のナナライさんまで、商品を届けてくれないかしら？
+もちろんお礼はするから、頼んだわよ。"
+52,"TEXT_SUBCTS809_01424_TATAFU_000_009","大きいくせに、船酔いだなんて情けない！
+代わりに南東の漁村「クレセントコーヴ」にいる
+漁師のナナライさんまで、商品を届けてくれないかしら？"
+53,"TEXT_SUBCTS809_01424_NANALAI_000_010","まだかなぁ……
+そろそろ届いても、いい頃合いなんだが。"
+54,"TEXT_SUBCTS809_01424_NANALAI_000_011","おぉ、待っていたよ！
+……っと、この大きな麻袋、さすがに重いね！
+土がぎっちり詰まっているだけのことはあるよ。"
+55,"TEXT_SUBCTS809_01424_NANALAI_000_012","え……こんな土なんか買ってどうするのかって？
+そりゃあ、養分たっぷりの土で畑を作って、
+小さな麻袋に入っている種を植えるのさ！"
+56,"TEXT_SUBCTS809_01424_NANALAI_000_013","霊災からこっち、漁の漁獲高は減る一方だろ？
+だから腹の足しにでもと、野菜を栽培しようと思っていてね。"
+57,"TEXT_SUBCTS809_01424_NANALAI_000_014","おっと、いけない！　代金を渡さなくっちゃ。
+ほら、こいつを商人タタフさんに届けてくれ。
+よろしく言っといてくんな！"
+58,"TEXT_SUBCTS809_01424_NANALAI_000_019","不慣れな仕事だけど、野菜の栽培を頑張ってみるよ。
+商人タタフさんに代金を届けて、
+よろしく言っといてくんな！"
+59,"TEXT_SUBCTS809_01424_TATAFU_000_020","おかえりなさい。
+商品はちゃんと渡せたようね。"
+60,"TEXT_SUBCTS809_01424_TATAFU_000_021","……これが代金ね？
+ひぃ、ふぅ、みぃ……うん、確かに受け取ったわ。
+ありがとう、助かったわよ。"
+61,"TEXT_SUBCTS809_01424_TATAFU_000_022","それにしても、ナナライさん、
+なけなしのお金で、わざわざラノシアの農場から
+土と種を買おうだなんて、変わってるわよね。"
+62,"TEXT_SUBCTS809_01424_TATAFU_000_023","でも、どうにか畑での栽培を成功させてほしいわ。
+ああいう、頑張ってる男の人、嫌いじゃないもの。"
+63,"TEXT_SUBCTS809_01424_TATAFU_000_024","そうそう、ちょっぴり種が余ってるから、あなたにもあげる。
+いつか冒険者居住区に土地を手に入れたら、
+庭に畑を作って、種をまいてみるといいわよ。"

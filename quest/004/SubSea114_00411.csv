@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBSEA114_00411_SEQ_00","Naldiq & Vymelli's veteran shipwright Mimidoa seeks someone to travel to Oschon's Torch in his stead."
-1,"TEXT_SUBSEA114_00411_SEQ_01","Search the nearby hills for wild jackals and slay them for their fangs. Four fangs are required and only curved ones will suffice."
-2,"TEXT_SUBSEA114_00411_SEQ_02","Deliver the four curved jackal fangs to a candlekeep stationed at Oschon's Torch named Rostn...something."
-3,"TEXT_SUBSEA114_00411_SEQ_03","You have completed your delivery of the jackal fangs to Rostnzeh. Now return to Mimidoa at the Moraby Drydocks and inform him you fear for the candlekeep's sanity."
-4,"TEXT_SUBSEA114_00411_SEQ_04","Mimidoa has shown genuine concern for Rostnzeh's mental state, and has already devised a plan to, shall we say, liven his spirits."
+0,"TEXT_SUBSEA114_00411_SEQ_00","ナルディク＆ヴィメリー社の顧問ミミドアは、自分に代わり、灯台守を訪ねてくれる人を捜しているようだ。"
+1,"TEXT_SUBSEA114_00411_SEQ_01","ジャッカルを討伐し、「傷のないジャッカルの牙」を4本集めよう。"
+2,"TEXT_SUBSEA114_00411_SEQ_02","オシュオン灯台の灯台守「ロストンゼッヘ」に、「傷のないジャッカルの牙」を4本届けよう。"
+3,"TEXT_SUBSEA114_00411_SEQ_03","傷のないジャッカルの牙を灯台守ロストンゼッヘに届けた。モラビー造船廠にいるミミドアにロストンゼッヘの様子を報告しよう。"
+4,"TEXT_SUBSEA114_00411_SEQ_04","ミミドアは、灯台守ロストンゼッヘの様子を聞き、心配を募らせた……ことにしておこう。"
 5,"TEXT_SUBSEA114_00411_SEQ_05",""
 6,"TEXT_SUBSEA114_00411_SEQ_06",""
 7,"TEXT_SUBSEA114_00411_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_SUBSEA114_00411_SEQ_21",""
 22,"TEXT_SUBSEA114_00411_SEQ_22",""
 23,"TEXT_SUBSEA114_00411_SEQ_23",""
-24,"TEXT_SUBSEA114_00411_TODO_00","Slay wild jackals to obtain curved jackal fangs."
-25,"TEXT_SUBSEA114_00411_TODO_01","Deliver the jackal fangs to Rostnzeh."
-26,"TEXT_SUBSEA114_00411_TODO_02","Return to Mimidoa."
+24,"TEXT_SUBSEA114_00411_TODO_00","ジャッカルを討伐し、傷のないジャッカルの牙を入手"
+25,"TEXT_SUBSEA114_00411_TODO_01","ロストンゼッヘに傷のないジャッカルの牙を渡す"
+26,"TEXT_SUBSEA114_00411_TODO_02","ミミドアに報告"
 27,"TEXT_SUBSEA114_00411_TODO_03",""
 28,"TEXT_SUBSEA114_00411_TODO_04",""
 29,"TEXT_SUBSEA114_00411_TODO_05",""
@@ -49,14 +49,32 @@ int32,str,str
 45,"TEXT_SUBSEA114_00411_TODO_21",""
 46,"TEXT_SUBSEA114_00411_TODO_22",""
 47,"TEXT_SUBSEA114_00411_TODO_23",""
-48,"TEXT_SUBSEA114_00411_MIMIDOA_000_1","What ye say? 'Nother 'nitiate, eh? 'Nitiate, ye say? Gettin' lots of 'nitiates these days. Lots of 'nitiates. What day ye say it was?"
-49,"TEXT_SUBSEA114_00411_MIMIDOA_000_2","Now, I reckon this 'nitiate's here lookin' fer work. Is it work ye seek, eh? Well, ye need not fret, as I just happen to have a task what needs tendin'. A dear friend of mine, Rostn...somethin'-or-such, is holed up in the lighthouse on this side of the Grip."
-50,"TEXT_SUBSEA114_00411_MIMIDOA_000_3","Used to be that I'd visit the lad once a sennight to see how he was farin', but me legs just ain't the same since the gout gone and grabbed hold of 'em."
-51,"TEXT_SUBSEA114_00411_MIMIDOA_000_4","I'd be grateful if ye could check up on the candlekeep in me stead. Oh, and don't ye be forgettin' to take along four curved jackal fangs. Tell him they's from Mimidoa. He'll understand."
-52,"TEXT_SUBSEA114_00411_ROSTNZEH_000_10","It can get right lonesome up here, all alone, with naught but the wind's chill to keep a man company. Some days, I carve jackal fangs to help clear me head of the voices─the voices callin' me back to the great blue..."
-53,"TEXT_SUBSEA114_00411_ROSTNZEH_000_11","What's this? Mimidoa send ye, did he?"
-54,"TEXT_SUBSEA114_00411_ROSTNZEH_000_12","Well, ye tell that old man that he needn't waste his few last suns in this realm worryin' 'bout poor Rostnzeh."
-55,"TEXT_SUBSEA114_00411_ROSTNZEH_000_13","I'll carry on as I always have, in the service of the sailors...alone till the day I die..."
-56,"TEXT_SUBSEA114_00411_MIMIDOA_000_20","Eh? Where'd ye crawl in from? I don't recall sendin' for no 'nitiates. Eh? <Highlight>ObjectParameter(1)</Highlight>? I once knew a <If(PlayerParameter(4))>lass<Else/>lad</If> named <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> back when I served on the <Emphasis>Cloud Dancer</Emphasis>. <If(PlayerParameter(4))>She was a buxom young lass with eyes as big an' round as ogre pumpkins<Else/>He was a strappin' young lad with teeth as white as a princess's paps</If>. Ye ain't <If(PlayerParameter(4))>her<Else/>him</If>, though. Nose ain't quite right... And who are ye, again? Ah, got somethin' to tell me, has ye?"
-57,"TEXT_SUBSEA114_00411_MIMIDOA_000_21","Rostnzeh? What's that mumblin' milksop whinin' about this time? No, let me guess─that he's lonely? Bah! Put a pair of warm women in his arms and 'nother on his lap, and he'll be right as rain!"
-58,"TEXT_SUBSEA114_00411_MIMIDOA_000_22","'Tis what I do to help me forget that what ails me...not that ol' Mimidoa needs much help with forgettin', mind ye. Might be that I'll send him up a few saucy strumpets this comin' eve!"
+48,"TEXT_SUBSEA114_00411_MIMIDOA_000_1","冒険者か、ちょうどよか、わしの話を聞いてほしいぞい。
+筆頭造船師を引退してからというもの、わしの楽しみは、
+オシュオン灯台の灯台守ロストンゼッヘと話すことでねえ。"
+49,"TEXT_SUBSEA114_00411_MIMIDOA_000_2","灯台守というのは、孤独な仕事だからの。
+あやつは寂しさをまぎらわしたいのか、
+いつも人形を彫っておるんじゃ。"
+50,"TEXT_SUBSEA114_00411_MIMIDOA_000_3","その材料は、わしが届けてやっとるのだが、
+最近、足腰がガタついて、灯台までの道のりがしんどくての。"
+51,"TEXT_SUBSEA114_00411_MIMIDOA_000_4","そこで、わしの代わりにロストンゼッヘに
+「傷のないジャッカルの牙」を4本ほど届けてほしいぞい。
+その辺にいるジャッカルを倒して、牙を引っこ抜くとよかよか。"
+52,"TEXT_SUBSEA114_00411_ROSTNZEH_000_10","大丈夫だ……俺はまだ、灯台守を続けられる……
+「傷のないジャッカルの牙」さえ4本あれば、きっと……。"
+53,"TEXT_SUBSEA114_00411_ROSTNZEH_000_11","くれるのか、俺に……？
+なるほど、ミミドアに頼まれて、来てくれたのか。
+そうか……ありがとよ。わざわざすまねぇな。"
+54,"TEXT_SUBSEA114_00411_ROSTNZEH_000_12","これだけ牙があれば、しばらくミミドアが来なくても
+寂しくはないさ……ハ、ハハハ。"
+55,"TEXT_SUBSEA114_00411_ROSTNZEH_000_13","……俺は大丈夫だって、ミミドアに伝えてくれよ。
+アイツもいい歳なんだし、いくら寂しいからって、
+気安く呼びつけるわけにもいくまいよ……。"
+56,"TEXT_SUBSEA114_00411_MIMIDOA_000_20","おお、届けてくれたか、ありがとう。
+……アヤツめ、ずいぶん後ろ向きになっとるようじゃのう。
+ここは、早いとこ、アヤツに会いに行ってやらんとな。"
+57,"TEXT_SUBSEA114_00411_MIMIDOA_000_21","カワイコちゃんに、背負ってもらってな！
+いや、むしろ腕に抱かれるほうが……。"
+58,"TEXT_SUBSEA114_00411_MIMIDOA_000_22","むむ、ワシがカワイコちゃんにくっつきたくて、
+アヤツをダシに使ってるわけじゃないぞい？
+すべては、さびしがり屋のロストンゼッヘのためじゃ！"

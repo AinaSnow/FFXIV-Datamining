@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_COMGRD011_01132_SEQ_00","Vorsaile Heuloix would give you an opportunity to raise your standing in the Twin Adder."
-1,"TEXT_COMGRD011_01132_SEQ_01","Vorsaile Heuloix tasks you with responding to a petition for aid from the Holy See of Ishgard. Make for the southwestern reaches of the central highlands of Coerthas and seek out Ser Willielmus at the Aurum Vale."
-2,"TEXT_COMGRD011_01132_SEQ_02","Delve into the Aurum Vale and purge the deathly cavern of the foul fronds that inhabit its depths. Mind the vast pools of goldbile, a lethal ooze that─despite its glitter─offers not riches, but an excruciating demise for the unwary.
+0,"TEXT_COMGRD011_01132_SEQ_00","双蛇党のボルセル大牙佐はグランドカンパニー内の評価をあげる任務を与えたいようだ。"
+1,"TEXT_COMGRD011_01132_SEQ_01","ボルセル大牙佐は新たな任務を紹介した。まずはイシュガルドのクルザス中央高地の南西にある「オーラムヴェイル」へ行き、「ウィリーエルムス」に話しかけてみよう。"
+2,"TEXT_COMGRD011_01132_SEQ_02","オーラムヴェイルの魔物を排除しよう。なお、洞窟内部の毒沼には注意する必要がありそうだ……。
 
-※The Aurum Vale can be accessed via the Duty Finder."
-3,"TEXT_COMGRD011_01132_SEQ_03","Your mission was a rousing success. Report back to Vorsaile Heuloix at the Adders' Nest."
-4,"TEXT_COMGRD011_01132_SEQ_04","Vorsaile Heuloix commends you on your triumph. Your reputation in the Twin Adder has risen to new heights."
+※コンテンツファインダーから攻略に参加できます。"
+3,"TEXT_COMGRD011_01132_SEQ_03","「双蛇党：統合司令部」の「ボルセル大牙佐」に報告しよう。"
+4,"TEXT_COMGRD011_01132_SEQ_04","ボルセル大牙佐と話すことができた。グランドカンパニー内の評価があがったようだ。"
 5,"TEXT_COMGRD011_01132_SEQ_05",""
 6,"TEXT_COMGRD011_01132_SEQ_06",""
 7,"TEXT_COMGRD011_01132_SEQ_07",""
@@ -27,9 +27,9 @@ int32,str,str
 21,"TEXT_COMGRD011_01132_SEQ_21",""
 22,"TEXT_COMGRD011_01132_SEQ_22",""
 23,"TEXT_COMGRD011_01132_SEQ_23",""
-24,"TEXT_COMGRD011_01132_TODO_00","Speak with Willielmus at the Aurum Vale."
-25,"TEXT_COMGRD011_01132_TODO_01","Use the Duty Finder to enter the Aurum Vale."
-26,"TEXT_COMGRD011_01132_TODO_02","Report to Vorsaile Heuloix at the Adders' Nest."
+24,"TEXT_COMGRD011_01132_TODO_00","オーラムヴェイルのウィリーエルムスと話す"
+25,"TEXT_COMGRD011_01132_TODO_01","「オーラムヴェイル」を攻略"
+26,"TEXT_COMGRD011_01132_TODO_02","双蛇党：統合司令部のボルセル大牙佐と話す"
 27,"TEXT_COMGRD011_01132_TODO_03",""
 28,"TEXT_COMGRD011_01132_TODO_04",""
 29,"TEXT_COMGRD011_01132_TODO_05",""
@@ -51,12 +51,24 @@ int32,str,str
 45,"TEXT_COMGRD011_01132_TODO_21",""
 46,"TEXT_COMGRD011_01132_TODO_22",""
 47,"TEXT_COMGRD011_01132_TODO_23",""
-48,"TEXT_COMGRD011_01132_VORSAILE_000_000","Ah, <Clickable(<If(GreaterThan(PlayerParameter(52),0))><Sheet(GCRankLimsaMaleText,PlayerParameter(52),8)/><Else/></If><If(GreaterThan(PlayerParameter(53),0))><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),8)/><Else/></If><If(GreaterThan(PlayerParameter(54),0))><Sheet(GCRankUldahMaleText,PlayerParameter(54),8)/><Else/></If>)/> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>─ever the shining example to your fellow Serpents."
-49,"TEXT_COMGRD011_01132_VORSAILE_000_001","Time and again, you have risen to the call. Today, I would give you the opportunity to add to your growing list of accomplishments."
-50,"TEXT_COMGRD011_01132_VORSAILE_000_002","In return for battle chocobos provided to us, the Holy See has petitioned our aid in purging the cavern known as the Aurum Vale of its most foul inhabitants. Our contact from Ishgard, Ser Willielmus, will apprise you of the particulars of the mission upon your arrival."
-51,"TEXT_COMGRD011_01132_WILLIELMUS_000_010","From the Order of the Twin Adder, I presume? Yes, I suppose you should suffice. The Holy See is not wont to beseech assistance from foreign armies, but the task before us is a daunting one, and our own knights are occupied with matters of greater import."
-52,"TEXT_COMGRD011_01132_WILLIELMUS_000_011","Mayhap you have already heard rumors of the Aurum Vale. Many a miner has been lured into its cavernous recesses by promises of vast fortunes to find only death, and doubly so."
-53,"TEXT_COMGRD011_01132_WILLIELMUS_000_012","If the noxious fumes don't get them, the carnivorous fronds that lurk are happy to oblige. Little we can do about the former, but dispatching the latter would go far in sparing the lives of unfortunate treasure seekers. So it is that we turn to you. "
-54,"TEXT_COMGRD011_01132_VORSAILE_000_020","I had no doubts that you would triumph, <Clickable(<If(GreaterThan(PlayerParameter(52),0))><Sheet(GCRankLimsaMaleText,PlayerParameter(52),8)/><Else/></If><If(GreaterThan(PlayerParameter(53),0))><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),8)/><Else/></If><If(GreaterThan(PlayerParameter(54),0))><Sheet(GCRankUldahMaleText,PlayerParameter(54),8)/><Else/></If>)/>, but the swiftness and surety with which you have done so is impressive indeed."
-55,"TEXT_COMGRD011_01132_VORSAILE_000_021","As leader of the Yellow Serpents, I have never been prouder of an adventurer under my command."
-56,"TEXT_COMGRD011_01132_VORSAILE_000_022","Rest assured that your deeds have been conveyed to the powers that be. I look forward to the day when I can congratulate you on a well-deserved promotion."
+48,"TEXT_COMGRD011_01132_VORSAILE_000_000","やあ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><If(GreaterThan(PlayerParameter(53),0))><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),0)/><Else/></If>。
+相変わらず、ご活躍みたいじゃないか。"
+49,"TEXT_COMGRD011_01132_VORSAILE_000_001","飛ぶ鳥落とす勢いの君に、
+さらなる武勲を挙げる機会をあげよう。"
+50,"TEXT_COMGRD011_01132_VORSAILE_000_002","軍用チョコボを輸出する見返りとして、
+イシュガルドから、魔物排除の要請を受けてね。
+詳しくは「オーラムヴェイル」にいる騎兵に聞きたまえ。 "
+51,"TEXT_COMGRD011_01132_WILLIELMUS_000_010","双蛇党から派遣されてきた者だな？
+魔物の駆除に、他国の力を借りるのは忍びないが……
+周辺地域の安全のためにも、ぜひとも協力願いたい。"
+52,"TEXT_COMGRD011_01132_WILLIELMUS_000_011","ここ「オーラムヴェイル」には、凶暴な魔物が潜んでいる。
+しかも洞窟内は、金色に輝く毒沼だらけの危険地帯。"
+53,"TEXT_COMGRD011_01132_WILLIELMUS_000_012","手練れを集めて魔物を排除し、
+どうか、この地に平穏を取り戻してくれ！ "
+54,"TEXT_COMGRD011_01132_VORSAILE_000_020","やあ、報告は受けているよ。
+君の働きは、本当にたいしたものだ。"
+55,"TEXT_COMGRD011_01132_VORSAILE_000_021","冒険者部隊「黄蛇隊」の隊長として、
+君のような勇士がいることを誇りに思うよ。
+もちろん、その功績は統合司令部に報告済みさ。"
+56,"TEXT_COMGRD011_01132_VORSAILE_000_022","時が来れば、昇級という形で君の苦労も報われるだろう。
+それじゃ、森の意志あらんことを！"

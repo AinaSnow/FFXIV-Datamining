@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_JOBREL017_00561_SEQ_00","Something seems to be giving Jalzahn pause."
-1,"TEXT_JOBREL017_00561_SEQ_01","Jalzahn is perplexed as to why such a priceless resource as the Book of Netherdark never came to light alongside the other Trials of the Braves. He wishes to learn more of the tome's origins for his own erudition, and asks that you accompany him to question Gerolt. Speak with the blacksmith, and help the alchemist solve this lingering mystery."
-2,"TEXT_JOBREL017_00561_SEQ_02","Upon consulting Gerolt, you learn that it was Jalzahn's ancient forefather who penned the Book of Netherdark. Moreover, you discover that the author left as his legacy the title of “Starforger” to the person who could succeed in fully recreating a legendary arm of yore. Gerolt and Jalzahn, both desirous of this, allow their pride to tear them apart. Speak with Jalzahn now, to discover if the matter has been resolved."
-3,"TEXT_JOBREL017_00561_SEQ_03","Unable to decide who should be crowned “Starforger,” Jalzahn has decided to remain in Hyrstmill until Gerolt gives up his claim. However, the alchemist can now continue to aid you with your arm should the need arise. With a fondness in his voice, Jalzahn bids you to go forth, and use your Zodiac Weapon for good and so create your own legend."
+0,"TEXT_JOBREL017_00561_SEQ_00","ハーストミルのジャルザーンは、気になることがあるようだ。"
+1,"TEXT_JOBREL017_00561_SEQ_01","ジャルザーンは、後学のために「黄道十二文書：霊獄」の出元を知りたいようだ。ハーストミルの「ゲロルト」に聞いてみよう。"
+2,"TEXT_JOBREL017_00561_SEQ_02","ゲロルトと話した。どうやら「黄道十二文書：霊獄」の作者はジャルザーンの祖先だったようだ。ハーストミルの「ジャルザーン」と話そう。"
+3,"TEXT_JOBREL017_00561_SEQ_03","ジャルザーンとゲロルトは、どちらが『ゾディアックマイスター』の称号を名乗るか、まだもめていたらしい。ジャルザーンは、結論が出るまでこの地に残るという。今後も、ゾディアックウェポンについて困ったことがあったら、またジャルザーンを頼ってみよう。"
 4,"TEXT_JOBREL017_00561_SEQ_04",""
 5,"TEXT_JOBREL017_00561_SEQ_05",""
 6,"TEXT_JOBREL017_00561_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_JOBREL017_00561_SEQ_21",""
 22,"TEXT_JOBREL017_00561_SEQ_22",""
 23,"TEXT_JOBREL017_00561_SEQ_23",""
-24,"TEXT_JOBREL017_00561_TODO_00","Speak with Gerolt."
-25,"TEXT_JOBREL017_00561_TODO_01","Speak with Jalzahn."
+24,"TEXT_JOBREL017_00561_TODO_00","ゲロルトと話す"
+25,"TEXT_JOBREL017_00561_TODO_01","ジャルザーンと話す"
 26,"TEXT_JOBREL017_00561_TODO_02",""
 27,"TEXT_JOBREL017_00561_TODO_03",""
 28,"TEXT_JOBREL017_00561_TODO_04",""
@@ -49,42 +49,108 @@ int32,str,str
 45,"TEXT_JOBREL017_00561_TODO_21",""
 46,"TEXT_JOBREL017_00561_TODO_22",""
 47,"TEXT_JOBREL017_00561_TODO_23",""
-48,"TEXT_JOBREL017_00561_JALZAHN_000_000","My dear, dear <If(PlayerParameter(4))>girl<Else/>boy</If>! Thanks to you, I have developed my soul infusion methodology and seen a legendary arm reborn in all its glory. For all this and more, you have my eternal gratitude. "
-49,"TEXT_JOBREL017_00561_JALZAHN_000_001","I had devoted my life to just these two goals, yet neither could I have accomplished alone. Though I risked life and limb, verily 'twas right I should come to Eorzea."
-50,"TEXT_JOBREL017_00561_JALZAHN_000_002","One matter puzzles me still, however: why was the Book of Netherdark─a priceless resource─never completed nor circulated?"
-51,"TEXT_JOBREL017_00561_JALZAHN_000_003","If I have learned anything by now, 'tis that Gerolt can shed some light on the matter. Come, my friend, let us make one last journey across the village green─for the sake of knowledge itself!"
-52,"TEXT_JOBREL017_00561_SYSTEM_000_000","In order to receive the quest “The Vital Title,” you must be equipped with a Zodiac Weapon Zeta. Paladins must be equipped with both Excalibur Zeta and Aegis Shield Zeta."
-53,"TEXT_JOBREL017_00561_SYSTEM_100_000","If you no longer possess a Zodiac Weapon Zeta, you may also equip a Zodiac Weapon Zeta replica to receive the quest “The Vital Title.” Paladins must be equipped with both Excalibur Zeta replica and Aegis Shield Zeta replica."
-54,"TEXT_JOBREL017_00561_SYSTEM_100_001","A Zodiac Weapon Zeta replica can be obtained from Drake in Hyrstmill."
-55,"TEXT_JOBREL017_00561_SYSTEM_000_001","In order to advance the quest “The Vital Title,” you must be equipped with a Zodiac Weapon Zeta. Paladins must be equipped with both Excalibur Zeta and Aegis Shield Zeta."
-56,"TEXT_JOBREL017_00561_GEROLT_000_050","Might be as I had one too many <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>earlier<Else/>last night</If><Else/><If(LessThan(PlayerParameter(11),17))>last night<Else/>earlier</If></If>, but aren't we <Emphasis>done</Emphasis> with the Zodiac Weapons? Why is it ye keep houndin' me like a pair o' bloody debt collectors?"
-57,"TEXT_JOBREL017_00561_JALZAHN_000_051","We have merely come with a question about the Book of Netherdark, Gerolt. Where did you lay hands upon this unfinished tome, pray tell?"
-58,"TEXT_JOBREL017_00561_GEROLT_000_052","Eh? Well, Rowena's place, o' course. I came across it while I was pickin' up the rest o' the Trials of the Braves."
-59,"TEXT_JOBREL017_00561_GEROLT_000_053","Rowena said she'd only sell the tome to a collector what'd pay a king's ransom fer it─till I threatened to wed her again, that is. Well, ye can bet she handed it over in a hurry after that, hehe."
-60,"TEXT_JOBREL017_00561_JALZAHN_000_054","I-Is that so?"
-61,"TEXT_JOBREL017_00561_GEROLT_000_055","Er...anyroad, there's prints aplenty o' the Trials, but I've heard nothin' about another copy o' the Book of Netherdark. Like as not, that's why ye never saw it in Radz–at–Han."
-62,"TEXT_JOBREL017_00561_GEROLT_000_056","See, the Trials is a load o' scattered tales about the ancient heroes gathered an' bound up in a book. 'Tis admired as a work o' fancy jus' as much as an account o' the ancients."
-63,"TEXT_JOBREL017_00561_GEROLT_000_057","But this Book of Netherdark, well, it's jus' raw facts. Seems like it were added to the set after everythin' else, an' ye can tell that no editor's pen ever touched it. 'Tis really jus' a treatise on the Zodiac Braves."
-64,"TEXT_JOBREL017_00561_JALZAHN_000_058","So we owe our gratitude to a scholar... Was there aught by which to identify the author? I would remember him, and so learn by his example."
-65,"TEXT_JOBREL017_00561_GEROLT_000_059","Hells, Jalzahn, I don't... Well, now that ye mention it, there <Emphasis>is</Emphasis> a name written here. Looks like “Ulthalam”..."
-66,"TEXT_JOBREL017_00561_JALZAHN_000_060","“Ulthalam,” you say!? He was the father of my line─an artisan famed for his pursuit of knowledge!"
-67,"TEXT_JOBREL017_00561_GEROLT_000_061","Well, I'll be thrice damned! If the man's yer ancestor, might be as ye'd like to hear what I found scrawled at the back o' the book. Jus' a moment..."
-68,"TEXT_JOBREL017_00561_GEROLT_000_062","<Emphasis>After years of careful study, I come to realize that I, Ulthalam, cannot recreate an arm of the Zodiac Braves. I record mine own findings here, that men with like ambition may follow in my footsteps</Emphasis>."
-69,"TEXT_JOBREL017_00561_GEROLT_000_063","<Emphasis>To the one who succeeds in bringing forth a weapon of the ancient heroes, I leave my eternal admiration, and the title of “Starforger,” bringer of radiance</Emphasis>."
-70,"TEXT_JOBREL017_00561_JALZAHN_000_064","Gods be good! Though I knew it not, I have dreamed the same dream as my forefather! Everything, from my encounter with tales of the Braves to my choice of studies, must have been written in the stars!"
-71,"TEXT_JOBREL017_00561_JALZAHN_000_065","<sniff> In sooth, 'twas right that I journeyed countless malms and weathered stormy seas to come to Eorzea. Hearken to me, spirit of Ulthalam! Rest well, knowing that I, Jalzahn, accept the title of Starforger from you!"
-72,"TEXT_JOBREL017_00561_GEROLT_000_066","Oi! Hold on fer one soddin' second!"
-73,"TEXT_JOBREL017_00561_GEROLT_000_067","Might be as yer the one what came with the <Emphasis>tale</Emphasis> o' the legendary weapons, but who was it what made the bloody thing?"
-74,"TEXT_JOBREL017_00561_GEROLT_000_068","Me, that's who! An' who was it what found the Book of Netherdark!? Poor ol' unthanked Gerolt! The title is mine, fair an' square─even if there ain't a single gil in it."
-75,"TEXT_JOBREL017_00561_JALZAHN_000_069","G-Gil!? The title cannot be measured, not even in gold, sir! 'Tis a priceless honor, granted by <Emphasis>my</Emphasis> ancestor to the one who fulfilled his dream─<Emphasis>me</Emphasis>!"
-76,"TEXT_JOBREL017_00561_JALZAHN_000_070","The title is mine by blood and merit both!"
-77,"TEXT_JOBREL017_00561_GEROLT_000_071","Like hells it is! Do ye know what a smithy does? We work a bit of our soul into each blade an' kettle we forge!"
-78,"TEXT_JOBREL017_00561_GEROLT_000_072","I've sacrificed a good slice o' me own bleedin' life to the Zodiac Weapon, an' I ain't about to jus' let <Emphasis>you</Emphasis> walk away with the title!"
-79,"TEXT_JOBREL017_00561_JALZAHN_000_073","You insolent cur! I had thought you were but rough around the edges, but I see now that I was right about you from the start! You are the greatest boor in all the lands!"
-80,"TEXT_JOBREL017_00561_GEROLT_000_074","Bah! Ye bleedin' coot, yer jus' stubborn in yer ol' age! The title should go to someone what's got a future, an' if ye can't see that, then yer the biggest arse around!"
-81,"TEXT_JOBREL017_00561_GEROLT_000_090","Can ye believe the bleedin' nerve o' that ol' coot!? The hells take him─an' leave the title fer me!"
-82,"TEXT_JOBREL017_00561_JALZAHN_000_100","Whew... That encounter has quite sapped my strength─though not my sense of outrage. I can scarce believe that boor would not yield so much as an ilm!"
-83,"TEXT_JOBREL017_00561_JALZAHN_000_101","I simply cannot abide the thought of Gerolt taking that title. I had thought to journey homewards, but now I see I must stay and make him listen to reason."
-84,"TEXT_JOBREL017_00561_JALZAHN_000_102","There are far worse places to call home than Hyrstmill, I suppose. And I have, after all, developed a taste for Eorzean cuisine."
-85,"TEXT_JOBREL017_00561_JALZAHN_000_103","Of course, my continued tenure here would be all the better if you visited now and again. I should like to learn of your adventures, and would be happy to enhance your arm through the power of materia."
-86,"TEXT_JOBREL017_00561_JALZAHN_000_104","Now, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, go forth with your Zodiac Weapon, and with it create your own legends!"
+48,"TEXT_JOBREL017_00561_JALZAHN_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、私はお主に礼を言わねばならん。
+なにせ、武器に魂を込める方法論を確立したばかりか、
+伝説の「ゾディアックウェポン」を再創造できたのだから。"
+49,"TEXT_JOBREL017_00561_JALZAHN_000_001","この偉業、決してひとりでは成し得なかっただろう。
+危険を冒してまで、エオルゼアに来て本当に良かった。
+……ありがとう、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。"
+50,"TEXT_JOBREL017_00561_JALZAHN_000_002","……ただ、私にはひとつ、わからぬことがあるのだ。
+最後の情報となった「黄道十二文書：霊獄」の書は、
+なぜ、未完に終わり、世に出回らなかったのだろうか……。"
+51,"TEXT_JOBREL017_00561_JALZAHN_000_003","ゾディアックブレイブについての、貴重な文献だというのにな。
+むぅ、ゲロルトなら、なにか知っているに違いない。
+後学のために聞いておかねばならぬな！"
+52,"TEXT_JOBREL017_00561_SYSTEM_000_000","「ゾディアックウェポン・ゼータ」を装備している場合、
+クエスト「ふたりの称号」を開始することができます。
+ジョブ「ナイト」は「剣」と「盾」を装備する必要があります。"
+53,"TEXT_JOBREL017_00561_SYSTEM_100_000","さらに、「レプリカ・ゾディアックウェポン・ゼータ」を、
+装備していた場合も、クエスト「ふたりの称号」は、
+開始することができます。"
+54,"TEXT_JOBREL017_00561_SYSTEM_100_001","また、「レプリカ・ゾディアックウェポン・ゼータ」は、
+ハーストミルのドレイクから、入手できます。"
+55,"TEXT_JOBREL017_00561_SYSTEM_000_001","「ゾディアックウェポン・ゼータ」装備中のみ、
+クエスト「ふたりの称号」を進行することができます。
+ジョブ「ナイト」は「剣」と「盾」を装備する必要があります。"
+56,"TEXT_JOBREL017_00561_GEROLT_000_050","……チッ、まだ何か用かよ。
+もう「ゾディアックウェポン」の仕事は終わったンだ。
+借金取りみてぇに、付きまとうンじゃねぇよ！"
+57,"TEXT_JOBREL017_00561_JALZAHN_000_051","ゲロルトよ、後学のために聞かせてくれ。
+「黄道十二文書：霊獄」のような、未完の文書を、
+お主はどうやって手に入れたのだ？"
+58,"TEXT_JOBREL017_00561_GEROLT_000_052","……ンだよ、そんなことか。
+あれはな、ロウェナから「黄道十二文書」を巻き上げた時に、
+奴の店で見つけたンだよ。"
+59,"TEXT_JOBREL017_00561_GEROLT_000_053","ロウェナは「好事家に高く売る」つって譲らなかったンだが、
+「文書を譲れねぇなら、オレと再婚しろ」って言ってみたら、
+あっさりと譲りやがってな……クックック。"
+60,"TEXT_JOBREL017_00561_JALZAHN_000_054","……ほ、ほぅ。"
+61,"TEXT_JOBREL017_00561_GEROLT_000_055","「黄道十二文書」自体は、多くの写しが作られたがな、
+未完に終わった「霊獄」之巻だけは、数がねぇンだとよ。
+だから、ジジイの国では手に入らなかったンだろ。"
+62,"TEXT_JOBREL017_00561_GEROLT_000_056","そもそも「黄道十二文書」は、
+散逸した古の英雄の逸話を集め、編纂し直した代物だ。
+だからこそ、文学としても優れているし、写しも多い。"
+63,"TEXT_JOBREL017_00561_GEROLT_000_057","だが、「霊獄」之巻は、再編の過程で得た情報を、
+余さず記そうとした補足……文学というよりゃ、研究書だ。
+おそらく、最後まで書き足し続けていたンだろうよ。"
+64,"TEXT_JOBREL017_00561_JALZAHN_000_058","なるほど……その無名の研究者に敬意を……。
+よければ、著者の名を教えてくれぬかな？
+我が心に留めておきたいのだ。"
+65,"TEXT_JOBREL017_00561_GEROLT_000_059","チッ……めんどくせぇなぁ……。
+えーっと、ウルタラム……と書いてあるぜ。"
+66,"TEXT_JOBREL017_00561_JALZAHN_000_060","な、なな……なに！！？？
+ウルタラムとは、我が一族の開祖の名だぞ！！
+……知識の探求者であり、職人であったというが！？"
+67,"TEXT_JOBREL017_00561_GEROLT_000_061","……ジジイのご先祖様だと？
+ちょっとまて……巻末にかすれちゃいるが……
+著者の走り書きみてぇのが残ってンぞ？"
+68,"TEXT_JOBREL017_00561_GEROLT_000_062","「我、遂に『ゾディアックウェポン』の再現を成し得ず。
+　志を継ぐ者のために、この巻を記すものなり……」"
+69,"TEXT_JOBREL017_00561_GEROLT_000_063","「そして、いつか現れるであろう再現の成功者に、
+　敬意を表し、この称号を贈るものである……。
+　黄道の輝きを生む職人、『ゾディアックマイスター』と」"
+70,"TEXT_JOBREL017_00561_JALZAHN_000_064","お、おおお…………！！！
+私は知らぬうちに、開祖の夢を継いでいたのだな！
+ああ、この研究との出会いは運命だったのだ……！"
+71,"TEXT_JOBREL017_00561_JALZAHN_000_065","ウッウッ……開祖の霊よ……。
+遠き地を離れ、はるばるエオルゼアまで来て良かった。
+『ゾディアックマイスター』の称号、確かに受け取りましたぞ。"
+72,"TEXT_JOBREL017_00561_GEROLT_000_066","…………ン！？
+オイ、ちょっと待てジジイ。"
+73,"TEXT_JOBREL017_00561_GEROLT_000_067","確かに「ゾディアックウェポン」の話を、
+持ち込んできたのは、てめぇだがよォ……。
+実際に創ったのは、このオレだろうが！"
+74,"TEXT_JOBREL017_00561_GEROLT_000_068","それに、この「霊獄」之巻を見つけ出したのも、このオレだ。
+『ゾディアックマイスター』なんて、金にならねぇ称号だが……
+まぁ、その称号を受けるなら……オレだろ？"
+75,"TEXT_JOBREL017_00561_JALZAHN_000_069","「金にならぬ称号」とは何事だ、この無礼者！
+偉大な開祖からの称号は、
+そこらの金塊よりも、よっぽど価値があるのだぞ！！"
+76,"TEXT_JOBREL017_00561_JALZAHN_000_070","そして、その称号を頂くのは……当然、子孫たる私！
+なぜなら、私は開祖の夢を引き継いだのだからな！"
+77,"TEXT_JOBREL017_00561_GEROLT_000_071","ああ！？　ふざけンじゃねぇ、クソジジイ！
+武具職人ってのはなぁ……！　一振り一振り、魂を込めるンだ！
+武器もヤカンも、それぞれ創り手の魂が込められてンだ！！"
+78,"TEXT_JOBREL017_00561_GEROLT_000_072","そう、オレぁ……命削ってやってンだよ！
+それを称えての「称号」だろ、これだけは譲らねぇ！！"
+79,"TEXT_JOBREL017_00561_JALZAHN_000_073","この無礼者めぇ……！！
+粗野ではあるが、見所のある奴だと思って見なおしたが……。
+やはり、初めの印象通りのクズだったか！！"
+80,"TEXT_JOBREL017_00561_GEROLT_000_074","老い先短ぇジジイが、強情張ってンじゃねーよ！
+良識がありゃぁ、名声は未来のある若者に譲るモンだろうが！
+テメェこそクズじゃねーか、バーーーーーーーッカ！！！"
+81,"TEXT_JOBREL017_00561_GEROLT_000_090","……ったく、信じらんねぇぜ、あのクソジジイ！！
+『ゾディアックマイスター』の称号に相応しいのは、
+どう考えても……このオレだろうが！！"
+82,"TEXT_JOBREL017_00561_JALZAHN_000_100","はぁ……疲れたわい。
+あの無礼者めが、結局一歩も譲らなくてな……。"
+83,"TEXT_JOBREL017_00561_JALZAHN_000_101","本当は、すぐにでも帰郷しようと思っていたが……。
+奴が『ゾディアックマイスター』を名乗るのをやめるまで、
+ここで説得を続けねばなるまい。"
+84,"TEXT_JOBREL017_00561_JALZAHN_000_102","……まぁ、エオルゼアの食にも慣れたところだ。
+私は今しばらく、この地に居を構えるとしよう。"
+85,"TEXT_JOBREL017_00561_JALZAHN_000_103","それでは、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
+お主は「ゾディアックウェポン」との旅を楽しみたまえ！"
+86,"TEXT_JOBREL017_00561_JALZAHN_000_104","そして、たまにはここに、その相棒を見せに寄るがいい。
+マテリアの力の調整くらいなら、いつでも歓迎するぞ！"

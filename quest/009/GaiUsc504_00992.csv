@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSC504_00992_SEQ_00","Rammbroes has reasons to look concerned, for even a single hippogryph attack is no joke─let alone three."
-1,"TEXT_GAIUSC504_00992_SEQ_01","Several members of the Sons of Saint Coinach excavation have been attacked by hippogryphs on the crystallized plain, and the injuries show these were no frisky bumps. Rammbroes bids you cull three of the churlish creatures."
-2,"TEXT_GAIUSC504_00992_SEQ_02","You have slain three hippogryphs, and are forced to agree with Rammbroes that they had unusual fleetness of foot and ferity of spirit. Let Rammbroes know the deed is done."
-3,"TEXT_GAIUSC504_00992_SEQ_03","The ruins under excavation by the Sons have barely begun giving up their secrets. If the site is indeed home to the builders of the Crystal Tower, it should serve to offer an invaluable insight into the distant past."
+0,"TEXT_GAIUSC504_00992_SEQ_00","「聖コイナク財団の調査地」のラムブルースは、魔物の出没に悩んでいるようだ。"
+1,"TEXT_GAIUSC504_00992_SEQ_01","北のクリスタル地帯に<Sheet(BNpcName,789,0)/>が出没し、調査員が襲われているらしい。「<Sheet(BNpcName,789,0)/>」を3体討伐しよう。"
+2,"TEXT_GAIUSC504_00992_SEQ_02","<Sheet(BNpcName,789,0)/>を討伐した。聖コイナク財団の調査地の「ラムブルース」に報告しよう。"
+3,"TEXT_GAIUSC504_00992_SEQ_03","ラムブルースたちが調査している古代アラグ帝国の遺跡には、失われた叡智が秘められているらしい。遺跡の調査を進めれば、未だ謎に包まれている古代文明のことが解るかもしれないというが……。"
 4,"TEXT_GAIUSC504_00992_SEQ_04",""
 5,"TEXT_GAIUSC504_00992_SEQ_05",""
 6,"TEXT_GAIUSC504_00992_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSC504_00992_SEQ_21",""
 22,"TEXT_GAIUSC504_00992_SEQ_22",""
 23,"TEXT_GAIUSC504_00992_SEQ_23",""
-24,"TEXT_GAIUSC504_00992_TODO_00","Slay hippogryphs."
-25,"TEXT_GAIUSC504_00992_TODO_01","Report to Rammbroes."
+24,"TEXT_GAIUSC504_00992_TODO_00","<Sheet(BNpcName,789,0)/>を討伐"
+25,"TEXT_GAIUSC504_00992_TODO_01","ラムブルースに報告"
 26,"TEXT_GAIUSC504_00992_TODO_02",""
 27,"TEXT_GAIUSC504_00992_TODO_03",""
 28,"TEXT_GAIUSC504_00992_TODO_04",""
@@ -49,11 +49,19 @@ int32,str,str
 45,"TEXT_GAIUSC504_00992_TODO_21",""
 46,"TEXT_GAIUSC504_00992_TODO_22",""
 47,"TEXT_GAIUSC504_00992_TODO_23",""
-48,"TEXT_GAIUSC504_00992_RAMMBROES_000_000","You are the adventurer <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, are you not? Several of our surveyors have been wounded by hippogryphs in the crystallized area to the north. It is astonishing how fleet and fierce they are in this region."
-49,"TEXT_GAIUSC504_00992_RAMMBROES_000_001","Yet we must teach them to flee, not charge, when the Sons of Saint Coinach are about their scholarly business. I suggest you cull a few of the hippogryphs that they might learn this lesson."
-50,"TEXT_GAIUSC504_00992_DUMMY_000_010",""
-51,"TEXT_GAIUSC504_00992_DUMMYTODO_000_010",""
-52,"TEXT_GAIUSC504_00992_RAMMBROES_000_020","Ah, our protector returns! Thank you for performing your duties with such speed. We will be able to plan a survey <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>first thing on the morrow<Else/>this very afternoon</If><Else/><If(LessThan(PlayerParameter(11),17))>this very evening<Else/>first thing on the morrow</If></If>."
-53,"TEXT_GAIUSC504_00992_RAMMBROES_000_021","These ruins of ancient Allag represent entire branches of lost knowledge. It was the Allagans who built the Crystal Tower, or so the best theories say."
-54,"TEXT_GAIUSC504_00992_RAMMBROES_000_022","If that is the case, could these ruins not be the remains of a village, nay, a town for workers and their families? Does it hold the record of their lives, spent erecting the shining edifice that beguiles us today?"
-55,"TEXT_GAIUSC504_00992_RAMMBROES_000_023","All research on the tower is at a standstill. They are stymied by its perfection. But here...we may learn something here. At least, that is what we hope."
+48,"TEXT_GAIUSC504_00992_RAMMBROES_000_000","ここから北のクリスタル地帯に魔物が出没するようなんだ。
+実際に、何人かの調査員が襲われて困っているんだよ。"
+49,"TEXT_GAIUSC504_00992_RAMMBROES_000_001","このまま被害が増えれば、発掘調査に影響が出るだろう。
+調査地の責任者として、放っておくわけにはいかない。
+すまないが「<Sheet(BNpcName,789,0)/>」を討伐してくれないか。"
+50,"TEXT_GAIUSC504_00992_DUMMY_000_010","「<Sheet(BNpcName,789,0)/>」を3体討伐"
+51,"TEXT_GAIUSC504_00992_DUMMYTODO_000_010","（★未使用／削除予定★）"
+52,"TEXT_GAIUSC504_00992_RAMMBROES_000_020","ありがとう、助かったよ。
+これで、ひとまず調査員たちの安全は確保できただろう。"
+53,"TEXT_GAIUSC504_00992_RAMMBROES_000_021","古代アラグ文明の遺跡は、まさに失われた叡智の結晶さ。
+彼らは、あの「クリスタルタワー」を造ったとされている。"
+54,"TEXT_GAIUSC504_00992_RAMMBROES_000_022","この辺りの遺跡は、クリスタルタワーの建築を行った
+作業員とその家族の居住区跡ではないかと考えているのだ。"
+55,"TEXT_GAIUSC504_00992_RAMMBROES_000_023","この地を調査することで、謎多き古代アラグ文明について
+何かが解るかもしれない……。
+そう、期待しているのだよ。"

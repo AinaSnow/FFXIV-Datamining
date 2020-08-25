@@ -1,17 +1,20 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANIXA406_01503_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Tazel Meyean the Lettered would turn to you for your crafting expertise.
-※The crafting portion of this quest is recommended for Disciples of the Hand level 10 and above, and the battle portion for Disciples of War or Magic level 47 and above."
-1,"TEXT_BANIXA406_01503_SEQ_01","Tazel Meyean the Lettered has asked you to craft four high-quality components for his revolutionary heat vent unit. Doing so requires that you have access to Gerolt's forge in Hyrstmill. By way of payment for using the facility, the Ixali inventor bids you obtain three pieces of plate worn by the dullahans that prowl Proud Creek.
+0,"TEXT_BANIXA406_01503_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+※本クエストは、クラフタークラス：レベル10以上、
+　バトルクラス：レベル47以上推奨です。 
 
-※Please note that the difficulty of this quest has been synced to your current level."
-2,"TEXT_BANIXA406_01503_SEQ_02","You have obtained three pieces of dullahan plate. Make your way to Hyrstmill and offer them to Drake, Gerolt's apprentice."
-3,"TEXT_BANIXA406_01503_SEQ_03","Satisfied with the dullahan plate you have brought, Drake grants you unlimited access to his master's crafting facility. With the materials he has supplied, synthesize four high-quality heat vent components, and deliver them to Tazel Meyean at Ehcatl.
+エカトル実験場の学究のタゼル・メイェアンは、冒険者に無茶な依頼があるようだ。"
+1,"TEXT_BANIXA406_01503_SEQ_01","※本クエストには「<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow><UIGlow>01</UIGlow><UIForeground>01</UIForeground> レベルアジャスト」が、
+　設定されています。
 
-※In the event that the status <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Facility Access: Detailing<UIGlow>01</UIGlow><UIForeground>01</UIForeground> wears off or the synthesis ends in failure, you may try again by speaking with Drake."
-4,"TEXT_BANIXA406_01503_SEQ_04","You have delivered the heat vent components to Tazel Meyean, who squawks in sheer delight. The Ixal is most impressed by your flawless craftsmanship, and expresses his excitement at the prospect of flying free like the wind with his brethren."
+学究のタゼル・メイェアンから「<Sheet(ItemHQ,　8110,0)/>」の製作を依頼された。プラウドクリークの「<Sheet(BNpcName,　29,0)/>」を倒して「<Sheet(EventItem,2001396,0)/>」を3つ入手しよう。"
+2,"TEXT_BANIXA406_01503_SEQ_02","<Sheet(EventItem,2001396,0)/>を入手した。ハーストミルの「ドレイク」に「<Sheet(EventItem,2001396,0)/>」を渡し、製作施設の使用許可をもらおう。"
+3,"TEXT_BANIXA406_01503_SEQ_03","製作施設の準備が整い、ドレイクから材料も受け取った。「<Sheet(Item,　8071,0)/>」をもとに「<Sheet(ItemHQ,　8110,0)/>」を4つ製作し、エカトル実験場の「学究のタゼル・メイェアン」に納品しよう。
+
+※バフステータス「製作施設：難関工作」が終了した場合や、「<Sheet(Item,　8071,0)/>」を失った場合は、再びドレイクに話しかけましょう。バフステータスと材料が付与され、再挑戦が可能になります。"
+4,"TEXT_BANIXA406_01503_SEQ_04","学究のタゼル・メイェアンに<Sheet(ItemHQ,　8110,0)/>を納品した。彼は自身が考案した装置の完成で、ともに「疾風（かぜ）」になる日も近いと考えているようだ。引き続きエカトル空力団との技術交流を続け、彼らの夢をともに追いかけよう。"
 5,"TEXT_BANIXA406_01503_SEQ_05",""
 6,"TEXT_BANIXA406_01503_SEQ_06",""
 7,"TEXT_BANIXA406_01503_SEQ_07",""
@@ -31,9 +34,9 @@ Tazel Meyean the Lettered would turn to you for your crafting expertise.
 21,"TEXT_BANIXA406_01503_SEQ_21",""
 22,"TEXT_BANIXA406_01503_SEQ_22",""
 23,"TEXT_BANIXA406_01503_SEQ_23",""
-24,"TEXT_BANIXA406_01503_TODO_00","Obtain pieces of dullahan plate from dullahans at Proud Creek."
-25,"TEXT_BANIXA406_01503_TODO_01","Deliver the dullahan plate to Drake at Hyrstmill."
-26,"TEXT_BANIXA406_01503_TODO_02","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Synthesize heat vent components <Sheet(Addon,9,0)/><Else/>Deliver the heat vent components <Sheet(Addon,9,0)/> to Tazel Meyean the Lettered</If>."
+24,"TEXT_BANIXA406_01503_TODO_00","プラウドクリークで<Sheet(BNpcName,　29,0)/>から<Sheet(EventItem,2001396,0)/>を入手"
+25,"TEXT_BANIXA406_01503_TODO_01","ハーストミルのドレイクに<Sheet(EventItem,2001396,0)/>を渡す"
+26,"TEXT_BANIXA406_01503_TODO_02","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>製作手帳 蛮族クエストLv10：<Sheet(ItemHQ,　8110,0)/>を製作<Else/>学究のタゼル・メイェアンに<Sheet(ItemHQ,　8110,0)/>を納品</If>"
 27,"TEXT_BANIXA406_01503_TODO_03",""
 28,"TEXT_BANIXA406_01503_TODO_04",""
 29,"TEXT_BANIXA406_01503_TODO_05",""
@@ -55,20 +58,46 @@ Tazel Meyean the Lettered would turn to you for your crafting expertise.
 45,"TEXT_BANIXA406_01503_TODO_21",""
 46,"TEXT_BANIXA406_01503_TODO_22",""
 47,"TEXT_BANIXA406_01503_TODO_23",""
-48,"TEXT_BANIXA406_01503_TAZELMEYEAN_000_000","Squawk! Almost complete, my revolutionary heat vent unit is. Four components of highest quality, I need."
-49,"TEXT_BANIXA406_01503_TAZELMEYEAN_000_010","Pipes for passing fiery-hot air, they are. Strong and resistant to heat. Craft components at Hyrstmill, you must."
-50,"TEXT_BANIXA406_01503_TAZELMEYEAN_000_020","Rubber lining for pipes, it is. Strong and resistant to heat. Craft components at Hyrstmill, you must."
-51,"TEXT_BANIXA406_01503_TAZELMEYEAN_000_030","Composite material for casing, it is. Strong and resistant to heat. Craft components at Hyrstmill, you must."
-52,"TEXT_BANIXA406_01503_TAZELMEYEAN_000_040","Featherless one Tataramu says, at hamlet is weaponsmith of great skill. Suitable crafting facility and abundant materials, he has."
-53,"TEXT_BANIXA406_01503_TAZELMEYEAN_000_041","With his fledgling, name of Drake, you must speak─get permission to use facility and materials. As payment, bring him dullahan plate. Maybe three pieces. Get them from fiends around Proud Creek, you can."
-54,"TEXT_BANIXA406_01503_TAZELMEYEAN_000_050","Working on revolutionary heat vent unit, I am. Four components of highest quality, I need. Craft components at Hyrstmill, you must."
-55,"TEXT_BANIXA406_01503_DRAKE_000_060","Greetings, good <If(PlayerParameter(4))>madam<Else/>sir</If>. Are you here to collect your kettle?
-...Begging your pardon? You wish to <Emphasis>use</Emphasis> our facility? I-I'm afraid I must consult my master..."
-56,"TEXT_BANIXA406_01503_DRAKE_000_061","You would give us these pieces of plate as payment? Gods know we can't have too much good steel for our kettles. Master Gerolt shall have no cause to complain, I should think."
-57,"TEXT_BANIXA406_01503_DRAKE_000_062","Our humble facility is at your disposal, and likewise the supplies you say you need. The steel you brought more than covers the costs."
-58,"TEXT_BANIXA406_01503_DRAKE_000_065","If you have need of additional materials, do not hesitate to ask me. The steel you brought is of excellent quality and more than covers the costs."
-59,"TEXT_BANIXA406_01503_DRAKE_100_100","You have finished your work, <If(PlayerParameter(4))>madam<Else/>sir</If>? I assume that you will be on your way. Should you later find that you still have need of our facility and supplies, know that both are at your disposal."
-60,"TEXT_BANIXA406_01503_TAZELMEYEAN_000_130","Welcome here, featherless one is. Four high-quality components for heat vent unit, you have made? Then quickly show Tazel, you must."
-61,"TEXT_BANIXA406_01503_TAZELMEYEAN_000_131","Squawk! Nothing to be desired, workmanship leaves! Most impressed, I am! Fly free like wind, soon Ehcatl Nine will!"
-62,"TEXT_BANIXA406_01503_POPMESSAGE_000_200","You now have access to the crafting facility."
-63,"TEXT_BANIXA406_01503_SYSTEM_200_200","Normal-quality items crafted in the course of this quest serve no purpose and cannot be sold. It is recommended that you discard them."
+48,"TEXT_BANIXA406_01503_TAZELMEYEAN_000_000","ギェハハーッァ！
+オレ様考案の排熱装置が、もうじき完成するぜッェ！
+オメエ、ハーストミルで「<Sheet(ItemHQ,　8110,0)/>」を4つ製作しろッォ！"
+49,"TEXT_BANIXA406_01503_TAZELMEYEAN_000_010","いいかッァ、必要なのは、熱気を逃がすパイプだッァ！
+強度だけじゃなく、耐熱性も求められるからなッァ……
+オメエの腕とヒトの製作施設の力を借りるぜッェ！"
+50,"TEXT_BANIXA406_01503_TAZELMEYEAN_000_020","いいかッァ、必要なのは、熱に強いラバー材だッァ！
+動力が生み出す熱は、あなどれねえからなッァ……
+オメエの腕とヒトの製作施設の力を借りるぜッェ！"
+51,"TEXT_BANIXA406_01503_TAZELMEYEAN_000_030","いいかッァ、必要なのは、耐熱加工した複合材だッァ！
+動力が生み出す熱は、あなどれねえからなッァ……
+オメエの腕とヒトの製作施設の力を借りるぜッェ！"
+52,"TEXT_BANIXA406_01503_TAZELMEYEAN_000_040","ボウズの話じゃ、ハーストミルに凄腕の武具職人がいて、
+その製作施設には材料までバッチリそろっているらしいッィ！
+弟子の「ドレイク」って男を抱き込んで、施設を借りろッォ！"
+53,"TEXT_BANIXA406_01503_TAZELMEYEAN_000_041","武具職人の弟子なら、貴重な金属を渡せばイチコロだろうッゥ！
+「プラウドクリーク」を徘徊する<Sheet(BNpcName,　29,0)/>をブチのめして、
+「<Sheet(EventItem,2001396,0)/>」を3つ集めて渡すんだッァ！"
+54,"TEXT_BANIXA406_01503_TAZELMEYEAN_000_050","「<Sheet(ItemHQ,　8110,0)/>」はまだかッァ！
+こいつで、オレ様考案の排熱装置が完成するんだッァ！"
+55,"TEXT_BANIXA406_01503_DRAKE_000_060","ええっと、ヤカンの注文ですか？
+ふむ……こちらの設備を利用したいと。
+ですが、それにはお師匠様の許可が必要でして……"
+56,"TEXT_BANIXA406_01503_DRAKE_000_061","……ほう、対価としてこちらの品をいただけると？
+この装甲片があれば、ヤカン作りもはかどりそうですね！
+お師匠様には、自分から取りなしておきましょう。"
+57,"TEXT_BANIXA406_01503_DRAKE_000_062","結構なモノをいただきましたので、
+設備の使用はもちろん、必要な材料もおわけしましょう。
+さあ、心ゆくまで作業に励んでください。"
+58,"TEXT_BANIXA406_01503_DRAKE_000_065","製作を再開したい場合や、材料が不足した折には、
+私にひと声おかけください。"
+59,"TEXT_BANIXA406_01503_DRAKE_100_100","製作も完了したようですし、納品に向かってはいかがですか？
+紛失などの理由で、再度製作の必要が生じた場合には、
+私にひと声おかけください。"
+60,"TEXT_BANIXA406_01503_TAZELMEYEAN_000_130","「<Sheet(ItemHQ,　8110,0)/>」はできたのかッァ！？
+どうだ、見せてみろッォ！"
+61,"TEXT_BANIXA406_01503_TAZELMEYEAN_000_131","スゲエ……こいつはスゲエぜェッ！
+いよいよオレたちが疾風（かぜ）になる日も近いッィ！
+オメエ、よくやったぜッェ！　ギェハハーッァ！"
+62,"TEXT_BANIXA406_01503_POPMESSAGE_000_200","製作の準備が整った。"
+63,"TEXT_BANIXA406_01503_SYSTEM_200_200","本クエストで製作した「NQアイテム」を所持しています。
+このアイテムは、使用することはありません。
+売却もできませんので、不用でしたら破棄してください。"

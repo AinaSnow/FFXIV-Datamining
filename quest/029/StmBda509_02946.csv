@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDA509_02946_SEQ_00","Tataru has grown rather accustomed to her life in Kugane."
+0,"TEXT_STMBDA509_02946_SEQ_00","ウルダハ商館のタタルは、出番に張り切っているようだ。"
 1,"TEXT_STMBDA509_02946_SEQ_01",""
 2,"TEXT_STMBDA509_02946_SEQ_02",""
 3,"TEXT_STMBDA509_02946_SEQ_03",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_STMBDA509_02946_SEQ_21",""
 22,"TEXT_STMBDA509_02946_SEQ_22",""
 23,"TEXT_STMBDA509_02946_SEQ_23",""
-24,"TEXT_STMBDA509_02946_TODO_00","Search Kugane for the overworked porter."
-25,"TEXT_STMBDA509_02946_TODO_01","Deliver Cid's parcel to Tataru."
-26,"TEXT_STMBDA509_02946_TODO_02","Deliver the magitek field generator manual to Alphinaud in Yanxia."
+24,"TEXT_STMBDA509_02946_TODO_00","雇われの荷運び人を探して<Sheet(EventItem,2002379,0)/>を渡す"
+25,"TEXT_STMBDA509_02946_TODO_01","ウルダハ商館のタタルに<Sheet(EventItem,2002174,0)/>を渡す"
+26,"TEXT_STMBDA509_02946_TODO_02","烈士庵のアルフィノに<Sheet(EventItem,2002175,0)/>を渡す"
 27,"TEXT_STMBDA509_02946_TODO_03",""
 28,"TEXT_STMBDA509_02946_TODO_04",""
 29,"TEXT_STMBDA509_02946_TODO_05",""
@@ -49,54 +49,116 @@ int32,str,str
 45,"TEXT_STMBDA509_02946_TODO_21",""
 46,"TEXT_STMBDA509_02946_TODO_22",""
 47,"TEXT_STMBDA509_02946_TODO_23",""
-48,"TEXT_STMBDA509_02946_ALISAIE_000_000","I suppose I ought to go and take stock of our supplies. We'll be needing a lot of weapons..."
-49,"TEXT_STMBDA509_02946_TATARU_000_010","You're here for the parcel Cid sent, right? Wait a moment, and it will be right out!"
-50,"TEXT_STMBDA509_02946_TATARU_000_011","It arrived not long ago. A porter delivered it to our offices, along with various other knickknacks from Eorzea."
-51,"TEXT_STMBDA509_02946_TATARU_000_012","Cid regrets that he couldn't come here in person. Apparently his hunt for the dragon and Omega demands his full attention, you see..."
-52,"TEXT_STMBDA509_02946_TATARU_000_013","Still, he was reasonably confident that the documents he provided would be enough for Alphinaud to do the work himself. So as soon as that parcel gets here, we can open it up and see what's inside!"
-53,"TEXT_STMBDA509_02946_HANCOCK_000_014","Pardon my interruption, but the parcel in question─was it the one you placed on the shelf in the back for safekeeping?"
-54,"TEXT_STMBDA509_02946_TATARU_000_015","I believe so, yes. Why do you ask?"
-55,"TEXT_STMBDA509_02946_HANCOCK_000_016","Well, you see, on closer inspection, said parcel appears to have been addressed to the Sekiseigumi Barracks."
-56,"TEXT_STMBDA509_02946_HANCOCK_000_017","Though it does indeed bulge with a quantity of paper reminiscent of a rather large instruction manual, the lingering scent of lilac leads me to conclude it is in fact a sizable collection of love letters..."
-57,"TEXT_STMBDA509_02946_TATARU_000_018","What!? Impossible! That porter was carrying a parcel addressed to us! I saw the writing with my own eyes!"
-58,"TEXT_STMBDA509_02946_HANCOCK_000_019","Oh, I do not doubt that in the least. However, as he was tasked with a number of deliveries, I can only presume that he handed you another parcel by mistake."
-59,"TEXT_STMBDA509_02946_TATARU_000_020","This is a disaster! We have to find that porter right this instant!"
-60,"TEXT_STMBDA509_02946_HANCOCK_000_021","My, she can move quickly when she has a mind to do so. So quickly she neglected to take these love letters with her. They too must be redirected to their rightful recipient."
-61,"TEXT_STMBDA509_02946_HANCOCK_000_022","They should also aid you in tracking down the right porter. They keep records of their deliveries and so forth, after all."
-62,"TEXT_STMBDA509_02946_HANCOCK_000_023","The man in question was of middling height and build. Not unlike myself. Black hair, short─terribly helpful in Kugane, I know. A cheery sort. Wearing bright colors, as I recall?"
-63,"TEXT_STMBDA509_02946_HANCOCK_000_024","I will send a few of my men out to search, but in the meantime, why don't you take the parcel and see if you can't track him down yourself? I will wait here, on the off chance he realizes his mistake and returns."
-64,"TEXT_STMBDA509_02946_HANCOCK_000_030","Short, black hair, light-colored garments. In all other respects, not unlike myself. But then, I am so terribly unremarkable, am I not?"
-65,"TEXT_STMBDA509_02946_TATARU_000_035","Hey, you! Yeah, you! You came by the Ruby Bazaar earlier, right? Where's my parcel!?"
-66,"TEXT_STMBDA509_02946_MAND02946_000_040","Why are you yelling at me!? Who are you!?"
-67,"TEXT_STMBDA509_02946_MANA02946_000_050","Hm? Who are you? You seek company? For an hour or an evening?"
-68,"TEXT_STMBDA509_02946_MANA02946_000_051","Ugh, how it reeks of perfume and desperation. I know naught of it, nor do I wish to know."
-69,"TEXT_STMBDA509_02946_MANB02946_000_060","Oh dear, oh dear... I misplaced some most important documents, and if I do not find them quickly, there will be dire repercussions..."
-70,"TEXT_STMBDA509_02946_MANB02946_000_061","No, no, it is nothing so scandalous and base! <sigh> My lord is a man with singular dietary restrictions, which I have detailed in my notebook. I cannot purchase produce without it!"
-71,"TEXT_STMBDA509_02946_MANC02946_000_070","A good <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>evening<Else/>morning</If><Else/><If(LessThan(PlayerParameter(11),17))>day<Else/>evening</If></If> to you, <If(PlayerParameter(4))>miss<Else/>sir</If>, but I have no time to chat! I have to head to the Bokairo! ...Or was it the Hostelry? Bah, no time, no time!"
-72,"TEXT_STMBDA509_02946_MANC02946_000_071","Hm? Aye, I recognize that parcel. I delivered it to the Ruby Bazaar not long ago. What of it?"
-73,"TEXT_STMBDA509_02946_MANC02946_000_072","Eh? A mistake? For the Sekiseigumi, you say?"
-74,"TEXT_STMBDA509_02946_MANC02946_000_073","Bah, you're right! How stupid of me. Fortunately, I have yet to visit the barracks. This is for you, yes? I will take the other in exchange."
-75,"TEXT_STMBDA509_02946_MANA02946_000_052","Oh, if only I could relax like this every day..."
-76,"TEXT_STMBDA509_02946_MANB02946_000_062","I suppose I could try to buy produce without it. What is the worst that could happen? He could...get very sick, or perhaps die...and the Sekiseigumi could judge me a murderer and execute me... Oh dear..."
-77,"TEXT_STMBDA509_02946_MANC02946_000_074","I must remember to be more careful! The last thing I need is to be cursed by my customers..."
-78,"TEXT_STMBDA509_02946_HANCOCK_000_080","Back already? Tataru is as well. She couldn't find the porter, in case you're wondering."
-79,"TEXT_STMBDA509_02946_TATARU_000_090","I'm sorry, I couldn't find him. I guess we just have to hope he realizes his mistake and returns soon..."
-80,"TEXT_STMBDA509_02946_TATARU_000_091","That's it! That's the parcel! You found him!"
-81,"TEXT_STMBDA509_02946_TATARU_000_092","Though, knowing our luck, Cid put the wrong papers in here..."
-82,"TEXT_STMBDA509_02946_TATARU_000_093","Nope, this is it! These are the documents detailing the operation of the magitek field generators Alphinaud requested!"
-83,"TEXT_STMBDA509_02946_HANCOCK_000_094","I can only imagine what would have happened had we sent <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> back to Doma with a parcel full of love letters. The look on Alphinaud's face when he reads the first page... On second thought, I'm a little disappointed we didn't."
-84,"TEXT_STMBDA509_02946_TATARU_000_095","Everyone's working so hard to fight for Doma's freedom, and here I am, making the same silly mistakes..."
-85,"TEXT_STMBDA509_02946_TATARU_000_096","It won't happen again, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! And I'll keep working hard to bring you and the others useful information!"
-86,"TEXT_STMBDA509_02946_TATARU_000_097","If we hear anything new, we'll contact you straightaway!"
-87,"TEXT_STMBDA509_02946_HANCOCK_000_098","Oh, and you may be pleased to hear that we have brokered an arrangement between the company and the Confederacy. They require armaments, we provide. Discreetly, and at a reasonable price."
-88,"TEXT_STMBDA509_02946_TATARU_000_099","I'm sure Lord Lolorito was pleased to hear it."
-89,"TEXT_STMBDA509_02946_HANCOCK_000_100","Ahaha! Indeed he was, indeed he was."
-90,"TEXT_STMBDA509_02946_TATARU_000_101","Well, it seems our time together is at an end! Give Alphinaud and Alisaie my regards, will you?"
-91,"TEXT_STMBDA509_02946_TATARU_000_110","We've got eyes on the Garlean embassy, just so you know. If we notice anything suspicious, you'll be the first to hear about it."
-92,"TEXT_STMBDA509_02946_HANCOCK_000_115","I can see it now. Confederate ships sailing up the One River, equipped with the finest Lominsan-made cannons, provided by the East Aldenard Trading Company. The world is not as big as it once was, my friend."
-93,"TEXT_STMBDA509_02946_ALISAIE_000_120","So much to do, and so little time to do it..."
-94,"TEXT_STMBDA509_02946_YUGIRI_000_125","You are returned from Kugane? How fares Tataru?"
-95,"TEXT_STMBDA509_02946_ALPHINAUD_000_130","Oh! It seems like just yesterday you were here. Our plans proceed apace. Do you have the documents?"
-96,"TEXT_STMBDA509_02946_ALPHINAUD_000_131","Excellent! This looks to be exactly what we need."
-97,"TEXT_STMBDA509_02946_ALPHINAUD_000_132","Assuming our shinobi escort can see us safely inside the Moon Gates, I should have no trouble deactivating the barrier. Good, good─that is one less thing to worry about..."
-98,"TEXT_STMBDA509_02946_HANCOCK_000_005",""
+48,"TEXT_STMBDA509_02946_ALISAIE_000_000","さて、私はひとまず、
+途中になってた軍備の確認をすませようかしらね。"
+49,"TEXT_STMBDA509_02946_TATARU_000_010","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さんは、
+魔導装置に関する書簡を取りにいらしたんでっすね。
+でしたら、ちょうどよかったでっす！"
+50,"TEXT_STMBDA509_02946_TATARU_000_011","さきほど、ちょうど西からの船が到着して、
+雇われの荷運び人さんが、荷物や封書を届けてくれたのでっす。"
+51,"TEXT_STMBDA509_02946_TATARU_000_012","シドさんは、この件を依頼したとき、
+時間が足りずに直接来られないことを、
+すごく残念がっていらっしゃいまっした……。"
+52,"TEXT_STMBDA509_02946_TATARU_000_013","代わりに、気合をいれて説明を書くとおっしゃっていたので、
+きっと、すごーい内容になってまっすよ！"
+53,"TEXT_STMBDA509_02946_HANCOCK_000_014","……タタルさん、さきほど受け取った封書は、
+そこの棚の上に置きましたよネ？"
+54,"TEXT_STMBDA509_02946_TATARU_000_015","はい、そのはずでっすが……？"
+55,"TEXT_STMBDA509_02946_HANCOCK_000_016","フゥ～ム……。
+これは確かに気合の入っていそうな分厚い封書デスが、
+よく見ると、あて先が赤誠組屯所になっていマス。"
+56,"TEXT_STMBDA509_02946_HANCOCK_000_017","この丁寧な筆跡、そしてうっすら漂ういい香り……
+間違いありません、これは隊士宛ての恋文デ～ス！"
+57,"TEXT_STMBDA509_02946_TATARU_000_018","えええぇぇぇぇ！？！？
+そんなぁ、荷運び人さんは、
+確かに私たち宛ての封書を持ってまっしたよ！？"
+58,"TEXT_STMBDA509_02946_HANCOCK_000_019","アッハッハ。
+ほかの商材と一緒に受け取りましたから、
+最後に取り違えてしまったのデスネ～！"
+59,"TEXT_STMBDA509_02946_TATARU_000_020","たたた、大変でっす！
+急いで、さっきの荷運び人さんを探してきまっす！"
+60,"TEXT_STMBDA509_02946_HANCOCK_000_021","おやまあ……。
+返却する恋文も持たずに、飛び出していってしまいましたネ。"
+61,"TEXT_STMBDA509_02946_HANCOCK_000_022","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん、お手数デスが、
+この恋文を持って、「雇われの荷運び人」の捜索を、
+手伝ってきてもらえませんか？"
+62,"TEXT_STMBDA509_02946_HANCOCK_000_023","荷運び人は、私と同じくらいの体格の青年デス。
+黒の短髪で、動きやすそうな格好をしていたと思いマス。
+布地は……明るい色でしたネ。"
+63,"TEXT_STMBDA509_02946_HANCOCK_000_024","私は入れ違いにならないよう、ここでタタルさんを待ちつつ、
+うちの者を使って、荷運び人を探してみマ～ス。"
+64,"TEXT_STMBDA509_02946_HANCOCK_000_030","荷運び人は、私と同じくらいの体格の青年デス。
+黒の短髪で、動きやすそうな格好をしていたと思いマス。
+布地は……明るい色でしたネ。"
+65,"TEXT_STMBDA509_02946_TATARU_000_035","あれ？　あれ？
+さっきの荷運び人さんじゃないでっす！？"
+66,"TEXT_STMBDA509_02946_MAND02946_000_040","いや、だから違うって……。"
+67,"TEXT_STMBDA509_02946_MANA02946_000_050","んん……？
+なんだい、今は休憩中なんだが……。"
+68,"TEXT_STMBDA509_02946_MANA02946_000_051","うわ、いろんな意味で重そうだ。
+俺はただの客引き、そんな品とは無縁の男さ。"
+69,"TEXT_STMBDA509_02946_MANB02946_000_060","ちょっとあんた、ここらで紙の束をみかけなかったかい？
+大事なことが書いてあるんだけどさ。"
+70,"TEXT_STMBDA509_02946_MANB02946_000_061","違う違う、それじゃないよ。
+まいったなぁ……ご主人から買い物を言いつけられたのに、
+品目を書いた帳面を落としちまうなんて！"
+71,"TEXT_STMBDA509_02946_MANC02946_000_070","あー、忙しい、忙しい！
+次は望海楼か……いや、潮風亭を先にするか？"
+72,"TEXT_STMBDA509_02946_MANC02946_000_071","おお、どした！
+そいつはさっき、ウルダハ商館に届けた封書じゃねぇか！"
+73,"TEXT_STMBDA509_02946_MANC02946_000_072","……え？　取り違えた？
+赤誠組屯所宛ての封書だったって？"
+74,"TEXT_STMBDA509_02946_MANC02946_000_073","すまねぇ、手間かけちまったなぁ！
+幸い、屯所にはまだ行けてねぇんだ。
+そいつと「<Sheet(EventItem,2002174,0)/>」を交換するよ。"
+75,"TEXT_STMBDA509_02946_MANA02946_000_052","はー……いつまでもこうして休んでたいねぇ……。"
+76,"TEXT_STMBDA509_02946_MANB02946_000_062","覚えている範囲で、買っていくか……。"
+77,"TEXT_STMBDA509_02946_MANC02946_000_074","危うく、文の送り主から祟られるところだったぜ。
+くわばらくわばら……。"
+78,"TEXT_STMBDA509_02946_HANCOCK_000_080","おかえりなさい！
+タタルさんも、ほら、このとおりデスヨ。"
+79,"TEXT_STMBDA509_02946_TATARU_000_090","うう、申し訳ないでっす。
+恋文を忘れたと気付いて戻ったら、
+<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さんが行ってくださったと聞いて……。"
+80,"TEXT_STMBDA509_02946_TATARU_000_091","こ、これは……！
+今度こそ、私たち宛の封書でっすね！"
+81,"TEXT_STMBDA509_02946_TATARU_000_092","念のため、中身も正しいか見ておくでっす。
+ふむふむ……ふんふん……！"
+82,"TEXT_STMBDA509_02946_TATARU_000_093","正真正銘、シドさんからの書簡でっす！
+魔導装置の操作について、何やらたくさん書いてありまっす！"
+83,"TEXT_STMBDA509_02946_HANCOCK_000_094","よかったよかった。
+そんなものが赤誠組のところに届いてしまったら、
+いろいろと大問題になりかねませんからネ。"
+84,"TEXT_STMBDA509_02946_TATARU_000_095","本当でっす……。
+大切な戦いなんでっすから、私ももっとしっかりしないと。"
+85,"TEXT_STMBDA509_02946_TATARU_000_096","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん、私は引き続き、
+ここで帝国の動きを探りまっす。"
+86,"TEXT_STMBDA509_02946_TATARU_000_097","何かあったら、すぐご連絡いたしまっすが、
+くれぐれも気をつけてと、みなさんに伝えてほしいでっす！"
+87,"TEXT_STMBDA509_02946_HANCOCK_000_098","東アルデナード商会としても、
+海賊衆のみなさんと、こっそり武具を取引する形で、
+決戦に協力したいと思っていマ～ス。"
+88,"TEXT_STMBDA509_02946_TATARU_000_099","それは、ドマのためでっす？
+それとも利益をあげるためでっす……？"
+89,"TEXT_STMBDA509_02946_HANCOCK_000_100","アッハッハ～！
+もちろん、どっちもデ～ス！"
+90,"TEXT_STMBDA509_02946_TATARU_000_101","それでは、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん。
+その書簡を「アルフィノ」さんのところへ……
+よろしくお願いしまっす！"
+91,"TEXT_STMBDA509_02946_TATARU_000_110","くれぐれもお気をつけて！
+ガレマール帝国大使館に動きがあったら、お伝えしまっす！"
+92,"TEXT_STMBDA509_02946_HANCOCK_000_115","海賊衆も、最近まで腐ってましたからネ。
+新しい武具のひとつも、必要でしょう？"
+93,"TEXT_STMBDA509_02946_ALISAIE_000_120","そろそろ、次の仕事にうつりたいところだけど……。"
+94,"TEXT_STMBDA509_02946_YUGIRI_000_125","貴殿も戻ったか。
+……タタル殿はお元気だったか？"
+95,"TEXT_STMBDA509_02946_ALPHINAUD_000_130","いいところに戻ってくれた。
+こちらはちょうど、侵入経路の確認をおえたよ。
+君の方は……？"
+96,"TEXT_STMBDA509_02946_ALPHINAUD_000_131","おお、これがシドからの……！
+ありがとう、さっそく目を通して、
+魔導装置の操作に不安がないようにしておこう。"
+97,"TEXT_STMBDA509_02946_ALPHINAUD_000_132","これで、大龍月亮門の障壁はどうにかなるはずだ。
+とある優秀な上忍も、作戦に加わってくれるそうでね。
+……必ずや、役割をまっとうしてみせよう！"
+98,"TEXT_STMBDA509_02946_HANCOCK_000_005","（★未使用／削除予定★）"

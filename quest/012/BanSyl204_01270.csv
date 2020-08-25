@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANSYL204_01270_SEQ_00","Some of Ponnixia's friends have been enjoying more than their fair share of milkroot."
-1,"TEXT_BANSYL204_01270_SEQ_01","A pack of sylphs under the influence of particularly potent milkroot is wreaking havoc in Little Solace. Deliver them a solid beating on Ponnixia's behalf, topped off with a splash of spring water to rouse them from their drunken stupor."
-2,"TEXT_BANSYL204_01270_SEQ_02","The tipsy sylphs have been dealt with, returning peace to Little Solace. Inform Ponnixia that the deed is done."
-3,"TEXT_BANSYL204_01270_SEQ_03","Ponnixia expresses her thanks for your efforts, along with a hope that her people will learn that milkroot is best enjoyed in moderation."
+0,"TEXT_BANSYL204_01270_SEQ_00","シルフの仮宿のポニシアは、酔っぱらいをこらしめたいようだ。"
+1,"TEXT_BANSYL204_01270_SEQ_01","ポニシアの依頼を受けた。シルフの仮宿周辺の「<Sheet(EObj,2003380,0)/>」で周囲を見渡し、現れた「<Sheet(BNpcName,2312,0)/>」を打ち負かして「<Sheet(EventItem,2001181,0)/>」を使おう。"
+2,"TEXT_BANSYL204_01270_SEQ_02","<Sheet(BNpcName,2312,0)/>に<Sheet(EventItem,2001181,0)/>を使った。シルフの仮宿の「ポニシア」に報告しよう。"
+3,"TEXT_BANSYL204_01270_SEQ_03","ポニシアは冒険者を労った。極上ミルクルートは刺激が強すぎるようだ……。またの機会に協力しよう。"
 4,"TEXT_BANSYL204_01270_SEQ_04",""
 5,"TEXT_BANSYL204_01270_SEQ_05",""
 6,"TEXT_BANSYL204_01270_SEQ_06",""
@@ -25,8 +25,9 @@ int32,str,str
 21,"TEXT_BANSYL204_01270_SEQ_21",""
 22,"TEXT_BANSYL204_01270_SEQ_22",""
 23,"TEXT_BANSYL204_01270_SEQ_23",""
-24,"TEXT_BANSYL204_01270_TODO_00","Search Little Solace for tipsy sylphs, and splash water on them after weakening them."
-25,"TEXT_BANSYL204_01270_TODO_01","Report to Ponnixia."
+24,"TEXT_BANSYL204_01270_TODO_00","<Sheet(EObj,2003380,0)/>で見渡し、現れた<Sheet(BNpcName,2312,0)/>を打ち倒して
+<Sheet(EventItem,2001181,0)/>を使う"
+25,"TEXT_BANSYL204_01270_TODO_01","ポニシアに報告"
 26,"TEXT_BANSYL204_01270_TODO_02",""
 27,"TEXT_BANSYL204_01270_TODO_03",""
 28,"TEXT_BANSYL204_01270_TODO_04",""
@@ -49,14 +50,28 @@ int32,str,str
 45,"TEXT_BANSYL204_01270_TODO_21",""
 46,"TEXT_BANSYL204_01270_TODO_22",""
 47,"TEXT_BANSYL204_01270_TODO_23",""
-48,"TEXT_BANSYL204_01270_PONNIXIA_000_000","As if this one didn't have enough trouble with touched ones! Some of these ones enjoy milkroot and dreamslime a little too much, and are making a mess of these ones' home!"
-49,"TEXT_BANSYL204_01270_PONNIXIA_000_001","Tipsy ones will not listen to this one, but will listen to a good bashing and splashing─this one knows. Walking one will help, yes?"
-50,"TEXT_BANSYL204_01270_PONNIXIA_000_002","Tipsy ones stagger and stumble around Little Solace in drunken stupor. If walking one hears strange babbling and smells strange stink, that means tipsy one is just around the corner!"
-51,"TEXT_BANSYL204_01270_PONNIXIA_000_005","Friendly one must find tipsy ones, give tipsy ones good bashing and splashing!"
-52,"TEXT_BANSYL204_01270_PONNIXIA_000_006","If walking one hears strange babbling and smells strange stink, that means tipsy one is just around the corner!"
-53,"TEXT_BANSYL204_01270_SYLPHENEMY_000_010","That'sh the best─hic!─milkroot thish one's ever had."
-54,"TEXT_BANSYL204_01270_SYLPHENEMY_000_011","Thish one'sh a mossy one! Mossy one comin'─hic!─through!"
-55,"TEXT_BANSYL204_01270_SYLPHENEMY_000_012","Thish one feels─hic!─ill."
-56,"TEXT_BANSYL204_01270_PONNIXIA_000_020","This one has no end of gratitude for friendly one. This one hopes tipsy ones have learned a lesson: too much milkroot makes crazy one out of any one."
-57,"TEXT_BANSYL204_01270_POP_MESSAGE_000","A half-crazed sylph staggers drunkenly in your direction!"
-58,"TEXT_BANSYL204_01270_POP_MESSAGE_000_000","The enemy is still about!"
+48,"TEXT_BANSYL204_01270_PONNIXIA_000_000","わたぴらの仲間が、酔っ払って大暴れちてるのでふっち！
+きっと、「ドリームトードのガマ油」に漬け込んだ、
+極上ミルクルートを噛み噛みしたからでふっち。"
+49,"TEXT_BANSYL204_01270_PONNIXIA_000_001","ちょっと、こらしめてほしいのでふっち！
+「<Sheet(BNpcName,2312,0)/>」を弱らせてから、
+この「<Sheet(EventItem,2001181,0)/>」をぶっかけるのでふっち！"
+50,"TEXT_BANSYL204_01270_PONNIXIA_000_002","<Sheet(BNpcName,2312,0)/>は、仮宿の周囲をさまよってるでふっち。
+<Sheet(BNpcName,2312,0)/>が暴れてた場所で、周囲を見渡せば、
+向こうから近付いてくるはずでふっち。"
+51,"TEXT_BANSYL204_01270_PONNIXIA_000_005","「<Sheet(BNpcName,2312,0)/>」を弱らせてから、
+この「<Sheet(EventItem,2001181,0)/>」をぶっかけるのでふっち！"
+52,"TEXT_BANSYL204_01270_PONNIXIA_000_006","「<Sheet(BNpcName,2312,0)/>」は、シルフの仮宿の周辺で暴れてるふっち。
+気配を感じる場所でしばらく待ってれば、
+きっと、姿をあらわすはずでふっち！"
+53,"TEXT_BANSYL204_01270_SYLPHENEMY_000_010","うひゃぁ！
+チベタイでふっち！"
+54,"TEXT_BANSYL204_01270_SYLPHENEMY_000_011","はっ！　ここはどこ？
+わたぴは誰でふっち？"
+55,"TEXT_BANSYL204_01270_SYLPHENEMY_000_012","お、おええ～っ
+キモチワルイでふっち…"
+56,"TEXT_BANSYL204_01270_PONNIXIA_000_020","ごくろうさまなのでふっち！
+わたぴの漬け込んだ極上ミルクルート……
+やっぱり、トーシロには刺激が強すぎたのでふっち！"
+57,"TEXT_BANSYL204_01270_POP_MESSAGE_000","敵の気配を感じた！！"
+58,"TEXT_BANSYL204_01270_POP_MESSAGE_000_000","その行動は出現した敵を倒さないと実行できません"

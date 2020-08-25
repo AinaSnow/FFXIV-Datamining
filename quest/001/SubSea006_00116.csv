@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBSEA006_00116_SEQ_00","H'lahono needs help replenishing the Bismarck's larders."
-1,"TEXT_SUBSEA006_00116_SEQ_01","H'lahono has urgent need of four slices of fresh lamb. Abylfarr, a sentry stationed in Bulwark Hall, will know where you might find the lambs that yield the meat."
-2,"TEXT_SUBSEA006_00116_SEQ_02","You learn from Abylfarr that wild lambs graze southeast of the Zephyr Gate. Make your way there, and cull enough of the critters to procure the four slices of fresh lamb required."
-3,"TEXT_SUBSEA006_00116_SEQ_03","You have obtained four slices of fresh lamb. See them delivered to H'lahono at the Bismarck."
-4,"TEXT_SUBSEA006_00116_SEQ_04","Thanking you for your assistance, H'lahono proceeds to tell you about herself. Though her career as a chef did not work out, she still finds great satisfaction in her role as the Bismarck's provisioner."
+0,"TEXT_SUBSEA006_00116_SEQ_00","レストラン「ビスマルク」の給仕ハ・ラホノは、至急、食材を調達したいようだ。"
+1,"TEXT_SUBSEA006_00116_SEQ_01","レストラン「ビスマルク」の給仕ハ・ラホノは、至急、「新鮮なラム肉」を4つ集めてほしいという。まずは、ブルワークホールにいる警備兵「アビルファル」に、シープの居場所を聞き出そう。"
+2,"TEXT_SUBSEA006_00116_SEQ_02","シープを討伐し、「新鮮なラム肉」を4つ集めよう。シープは、ゼファー陸門から出た南の方角に生息しているようだ。"
+3,"TEXT_SUBSEA006_00116_SEQ_03","依頼を受けた食材を集めることができた。レストラン「ビスマルク」の給仕「ハ・ラホノ」に「新鮮なラム肉」を届けよう。"
+4,"TEXT_SUBSEA006_00116_SEQ_04","調理師だったハ・ラホノは、給仕としてでも高級レストラン「ビスマルク」に貢献できることに、やりがいを感じているようだ。"
 5,"TEXT_SUBSEA006_00116_SEQ_05",""
 6,"TEXT_SUBSEA006_00116_SEQ_06",""
 7,"TEXT_SUBSEA006_00116_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_SUBSEA006_00116_SEQ_21",""
 22,"TEXT_SUBSEA006_00116_SEQ_22",""
 23,"TEXT_SUBSEA006_00116_SEQ_23",""
-24,"TEXT_SUBSEA006_00116_TODO_00","Speak with Abylfarr."
-25,"TEXT_SUBSEA006_00116_TODO_01","Obtain slices of fresh lamb from lost lambs."
-26,"TEXT_SUBSEA006_00116_TODO_02","Deliver the slices of fresh lamb to H'lahono."
+24,"TEXT_SUBSEA006_00116_TODO_00","アビルファルと話す"
+25,"TEXT_SUBSEA006_00116_TODO_01","シープを討伐し、新鮮なラム肉を入手"
+26,"TEXT_SUBSEA006_00116_TODO_02","レストラン「ビスマルク」のハ・ラホノに新鮮なラム肉を渡す"
 27,"TEXT_SUBSEA006_00116_TODO_03",""
 28,"TEXT_SUBSEA006_00116_TODO_04",""
 29,"TEXT_SUBSEA006_00116_TODO_05",""
@@ -49,13 +49,28 @@ int32,str,str
 45,"TEXT_SUBSEA006_00116_TODO_21",""
 46,"TEXT_SUBSEA006_00116_TODO_22",""
 47,"TEXT_SUBSEA006_00116_TODO_23",""
-48,"TEXT_SUBSEA006_00116_HLAHONO_000_0","Beg your pardons, good <If(PlayerParameter(4))>madam<Else/>sir</If>, but you are an adventurer, are you not?"
-49,"TEXT_SUBSEA006_00116_HLAHONO_000_1","I realize this is sudden, but we urgently need help restocking our larders. We are in the midst of preparing a full-course meal for soon-arriving guests, but I fear we are short on fresh lamb for the main course."
-50,"TEXT_SUBSEA006_00116_HLAHONO_000_2","I would be grateful if you could procure four slices for us. I daresay it would be quickest to obtain these directly from the source─wild lambs."
-51,"TEXT_SUBSEA006_00116_HLAHONO_000_3","In case you are unfamiliar with the creatures, I suggest you speak with Abylfarr, a sentry stationed in Bulwark Hall, just below the Drowning Wench."
-52,"TEXT_SUBSEA006_00116_ABYLFARR_000_10","The Bismarck wants fresh lamb, does it? Gods, I could do with a slice myself, fresh off the grill and dripping in its own juices..."
-53,"TEXT_SUBSEA006_00116_ABYLFARR_000_11","<slurp> Sorry, friend. I haven't had a single bite to eat since my shift began. Anyroad, you can get lamb easily enough by hunting the lambs that graze outside the city. Go through the Zephyr Gate and follow the path east and south for a bit. You'll run into the fluffy─and tasty─critters before long."
-54,"TEXT_SUBSEA006_00116_TALK_SCENE00003_000","Textless"
-55,"TEXT_SUBSEA006_00116_HLAHONO_000_20","Have you had any luck obtaining the fresh lamb? Please hurry─the guests are arriving any moment now..."
-56,"TEXT_SUBSEA006_00116_HLAHONO_000_21","Four slices of fresh lamb, and right in the nick of time! Thank you ever so much!"
-57,"TEXT_SUBSEA006_00116_HLAHONO_000_22","'Tis times like this I feel fulfilled in my role. I used to be a chef myself, you see, but my skills weren't quite up to par. So when the Bismarck expanded operations, I asked to be made its provisioner instead. This way, I can still be part of the business in spite of my shortcomings."
+48,"TEXT_SUBSEA006_00116_HLAHONO_000_0","いらっしゃいませ、お客様。
+ここは、高級レストラン「ビスマルク」です。
+見たところ、お客様は冒険者のようですね？"
+49,"TEXT_SUBSEA006_00116_HLAHONO_000_1","でしたら、ぜひお願いしたいことがあるのです。
+急な団体客の予約が入りまして、
+食材が不足しているのですよ。"
+50,"TEXT_SUBSEA006_00116_HLAHONO_000_2","野生の「シープ」を倒して、
+「新鮮なラム肉」を4つ取ってきてください。"
+51,"TEXT_SUBSEA006_00116_HLAHONO_000_3","「シープ」の居場所は、溺れた海豚亭の階下
+ブルワークホールにいる警備兵「アビルファル」が
+詳しいはずです。"
+52,"TEXT_SUBSEA006_00116_ABYLFARR_000_10","ビスマルクの依頼で、野生の「シープ」を狩りたいだと？
+とれたてのラム肉料理なんて、考えるだけでヨダレが……"
+53,"TEXT_SUBSEA006_00116_ABYLFARR_000_11","おっと、悪い、思わず妄想しちまった。
+「シープ」なら、この桟橋の先にあるゼファー陸門から出て、
+南の方へ進めば、のんびり歩いてるのが見えるはずだぜ。"
+54,"TEXT_SUBSEA006_00116_TALK_SCENE00003_000",""
+55,"TEXT_SUBSEA006_00116_HLAHONO_000_20","団体客分の「新鮮なラム肉」……
+間に合うかしら……"
+56,"TEXT_SUBSEA006_00116_HLAHONO_000_21","ありがとうございます、これで料理は間に合いそうです！
+良いレストランの条件は、どんな時も、
+必ずおいしい料理を提供すること。"
+57,"TEXT_SUBSEA006_00116_HLAHONO_000_22","私も、もとは調理師でしたが、才能がなくて……。
+お店の拡張を機に、店員へ路線変更したんですが、
+こうして、店の味に貢献しているのです！"

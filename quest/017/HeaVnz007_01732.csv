@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNZ007_01732_SEQ_00","Noirterel grows worried about the supply stores at Falcon's Nest."
-1,"TEXT_HEAVNZ007_01732_SEQ_01","Noirterel has asked you to gather meat for him. Kill three steinbocks and obtain their meat."
-2,"TEXT_HEAVNZ007_01732_SEQ_02","You slay the steinbocks and butcher their carcasses. Return to Noirterel with the meat."
-3,"TEXT_HEAVNZ007_01732_SEQ_03","Noirterel explains that, as a key strategic location, Falcon's Nest must withstand some of the Horde's most vicious attacks. These onslaughts take the form of both direct, frontal assaults and long, drawn-out sieges. The meat you recovered will be frozen and stored for use as emergency rations in the event that supply lines are severed."
+0,"TEXT_HEAVNZ007_01732_SEQ_00","ファルコンネストのノアルトゥレルは、物資不足に困っているようだ。"
+1,"TEXT_HEAVNZ007_01732_SEQ_01","ノアルトゥレルは食料を欲しているようだ。クルザス西部高地のリバーズミートにいる「<Sheet(BNpcName,3470,0)/>」から「<Sheet(EventItem,2001594,0)/>」を3個入手しよう。"
+2,"TEXT_HEAVNZ007_01732_SEQ_02","<Sheet(EventItem,2001594,0)/>を入手した。ファルコンネストの「ノアルトゥレル」に「<Sheet(EventItem,2001594,0)/>」を渡そう。"
+3,"TEXT_HEAVNZ007_01732_SEQ_03","ノアルトゥレルに<Sheet(EventItem,2001594,0)/>を渡した。いざという時に備え、凍らせて保存食にするようだ。"
 4,"TEXT_HEAVNZ007_01732_SEQ_04",""
 5,"TEXT_HEAVNZ007_01732_SEQ_05",""
 6,"TEXT_HEAVNZ007_01732_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_HEAVNZ007_01732_SEQ_21",""
 22,"TEXT_HEAVNZ007_01732_SEQ_22",""
 23,"TEXT_HEAVNZ007_01732_SEQ_23",""
-24,"TEXT_HEAVNZ007_01732_TODO_00","Slay steinbocks and obtain meat."
-25,"TEXT_HEAVNZ007_01732_TODO_01","Deliver the meat to Noirterel."
+24,"TEXT_HEAVNZ007_01732_TODO_00","<Sheet(BNpcName,3470,0)/>から<Sheet(EventItem,2001594,0)/>を入手"
+25,"TEXT_HEAVNZ007_01732_TODO_01","ノアルトゥレルに<Sheet(EventItem,2001594,0)/>を渡す"
 26,"TEXT_HEAVNZ007_01732_TODO_02",""
 27,"TEXT_HEAVNZ007_01732_TODO_03",""
 28,"TEXT_HEAVNZ007_01732_TODO_04",""
@@ -49,11 +49,25 @@ int32,str,str
 45,"TEXT_HEAVNZ007_01732_TODO_21",""
 46,"TEXT_HEAVNZ007_01732_TODO_22",""
 47,"TEXT_HEAVNZ007_01732_TODO_23",""
-48,"TEXT_HEAVNZ007_01732_NOIRTEREL_000_000","You'd like to help out, would you? I suppose there is something you might be able to lend a hand with."
-49,"TEXT_HEAVNZ007_01732_NOIRTEREL_000_001","We're rather short of foodstuffs. There're plenty of steinbocks wandering around just outside the fortress. Please slay a few of them and bring me their meat. I'd say three should be enough for the time being."
-50,"TEXT_HEAVNZ007_01732_NOIRTEREL_000_002","It's horrible stuff. It's tough like boot leather and it tastes like it too. But we can't afford to be picky around here─especially not with our food stores looking the way they do."
-51,"TEXT_HEAVNZ007_01732_NOIRTEREL_000_010","Have you found any of those steinbocks yet? Kill three of them and bring me their meat."
-52,"TEXT_HEAVNZ007_01732_NOIRTEREL_000_030","Do you have the steinbock meat?"
-53,"TEXT_HEAVNZ007_01732_NOIRTEREL_000_031","You have it already? Marvelous! I'm sure you're wondering what I plan to do with something so unappetizing. It's really quite simple─I'm going to leave it outside until it's frozen right through."
-54,"TEXT_HEAVNZ007_01732_NOIRTEREL_000_032","Falcon's Nest is one of Ishgard's first lines of defense against the Dravanian Horde. We need to resist the dragons' fiercest onslaughts, but we also need to outlast prolonged, protracted sieges."
-55,"TEXT_HEAVNZ007_01732_NOIRTEREL_000_033","Once frozen, this meat will last a very long time. It may not taste good, but it'll keep our troops fighting when the supply lines have been cut off. Thank you for providing it."
+48,"TEXT_HEAVNZ007_01732_NOIRTEREL_000_000","え、なにか手伝えることはあるかですって？
+そう言われても、外部の方にお願いすることは……。
+……いや、あれなら冒険者のあなた向きかもしれません。"
+49,"TEXT_HEAVNZ007_01732_NOIRTEREL_000_001","この辺りに棲息している「<Sheet(BNpcName,3470,0)/>」を狩って、
+「<Sheet(EventItem,2001594,0)/>」を集めてきてくれますか？
+そうですね、3体分ほどお願いします。"
+50,"TEXT_HEAVNZ007_01732_NOIRTEREL_000_002","連中の肉は、固くて不味い……！
+ですが、物資が不足がちなここでは、貴重な食料なのです。"
+51,"TEXT_HEAVNZ007_01732_NOIRTEREL_000_010","この辺りに棲息している「<Sheet(BNpcName,3470,0)/>」を狩って、
+「<Sheet(EventItem,2001594,0)/>」を集めてきてくれますか？
+そうですね、3体分ほどお願いします。"
+52,"TEXT_HEAVNZ007_01732_NOIRTEREL_000_030","この辺りに棲息している「<Sheet(BNpcName,3470,0)/>」を狩って、
+「<Sheet(EventItem,2001594,0)/>」を集めてきてくれますか？
+そうですね、3体分ほどお願いします。"
+53,"TEXT_HEAVNZ007_01732_NOIRTEREL_000_031","もう狩ってきてくれたのですか！
+……この不味い肉を、どう調理するのかって？
+ははは、こいつはこのまま外で凍らせるんですよ。"
+54,"TEXT_HEAVNZ007_01732_NOIRTEREL_000_032","ファルコンネストは、皇都イシュガルドを護る重要な拠点。
+ドラゴン族の猛攻にも、篭城して耐え抜く必要がある……。
+それに備えての保存食にするってわけです。"
+55,"TEXT_HEAVNZ007_01732_NOIRTEREL_000_033","これだけあれば、いざという時も大丈夫でしょう。
+助かりました、あなたには感謝していますよ！"

@@ -1,15 +1,15 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSMIN580_02083_SEQ_00","New orders await you and Oschon's Raiders."
-1,"TEXT_CLSMIN580_02083_SEQ_01","Haimirich informs you that your mission today is one of exploration. It appears that your successes have led to further prestige for House Fortemps, and this has agitated old rivalries amongst the nobility. Subsequently, your employers are called upon to do even more, and thus you and Oschon's Raiders have been asked to find out what, if anything, lies beneath the ground of the Makers' Quarter. Make your way to the Dravanian hinterlands and rendezvous with Haimirich."
-2,"TEXT_CLSMIN580_02083_SEQ_02","You arrive to find that Haimirich has hired a white-haired naturalist to aid with your survey. Since the area is largely unexplored─by Ishgardians, at any rate─the captain asks that you find three mining points, and see if you can dig up any samples."
-3,"TEXT_CLSMIN580_02083_SEQ_03","You have found three samples of some metal unknown to you. Deliver them to Haimirich."
-4,"TEXT_CLSMIN580_02083_SEQ_04","Upon examining the samples, the naturalist lets out an astounded cry─all three contain traces of pure hardsilver. The metal is rare and extremely valuable, he tells you. Haimirich is greatly pleased to hear this, and bids you mine ten chunks of high-quality ore. As before, dig at nearby mineral deposits and return to Haimirich with the fruit of your quarrying."
-5,"TEXT_CLSMIN580_02083_SEQ_05","While Haimirich is thankful for the hardsilver, he has grown worried about the Dravanians in the surrounding area. However, just before he can sound the retreat, Muscles tells him that Hatchling has chased down some monsters by himself. The boy returns to a furious captain, who berates him for his irresponsibility. With the mood grown somber, Haimirich tells you brusquely to find your own way back to Ishgard. Return to the Holy See, and speak with Haimirich at the Forgotten Knight in hopes that he will be in better spirits."
-6,"TEXT_CLSMIN580_02083_SEQ_06","Haimirich regrets his earlier outburst. He admits that he is hard on Hatchling because he sees potential in the boy. Moreover, the captain does not wish him to die as his own brother did. In any case, he bids you await the next job.
+0,"TEXT_CLSMIN580_02083_SEQ_00","忘れられた騎士亭のハイムリックは、新たな任務を命じられたようだ。"
+1,"TEXT_CLSMIN580_02083_SEQ_01","ハイムリックと話した。次の任務は低地ドラヴァニアでの先遣調査らしい。低地ドラヴァニアのシャーレアン工匠街で「ハイムリック」と合流しよう。"
+2,"TEXT_CLSMIN580_02083_SEQ_02","まずは、周辺でどのような鉱石が採掘できるのか、調べることになった。シャーレアン工匠街付近の「<Sheet(EObj,2005948,0)/>」を3ヶ所調べよう。"
+3,"TEXT_CLSMIN580_02083_SEQ_03","<Sheet(EventItem,2001728,0)/>を3つ入手した。シャーレアン工匠街の「ハイムリック」に「<Sheet(EventItem,2001728,0)/>」を渡そう。"
+4,"TEXT_CLSMIN580_02083_SEQ_04","<Sheet(EventItem,2001728,0)/>は<Sheet(ItemHQ,12535,0)/>だった。どうやら、良質な鉱床がこのあたりに眠っているようだ。シャーレアン工匠街にいる「ハイムリック」に、<Sheet(ItemHQ,12535,0)/>を10個納品しよう。<Sheet(ItemHQ,12535,0)/>はシャーレアン工匠街にある採掘場で採掘できる。"
+5,"TEXT_CLSMIN580_02083_SEQ_05","<Sheet(ItemHQ,12535,0)/>を納品した。任務も終わるかと思ったその時、ひなチョコが独断で敵を深追いしたとの報告が入る。無事に帰ってきたものの、ハイムリックに叱責され、ひなチョコは不満げな様子だ。忘れられた騎士亭の「ハイムリック」に報告しよう。"
+6,"TEXT_CLSMIN580_02083_SEQ_06","ハイムリックと話した。ハイムリックがひなチョコに厳しいのは、彼のことを目にかけているのが理由らしい。せっかくその名も広まってきた迅風傭兵団に、さらなる貢献を続けるため、次の任務まで採掘師としての修行を続けておこう。
 
-※The next miner quest will be available from Haimirich upon reaching level 60."
+※採掘師のレベルが60以上になると、忘れられた騎士亭のハイムリックから次の採掘師クエストを受注することができます。"
 7,"TEXT_CLSMIN580_02083_SEQ_07",""
 8,"TEXT_CLSMIN580_02083_SEQ_08",""
 9,"TEXT_CLSMIN580_02083_SEQ_09",""
@@ -27,11 +27,11 @@ int32,str,str
 21,"TEXT_CLSMIN580_02083_SEQ_21",""
 22,"TEXT_CLSMIN580_02083_SEQ_22",""
 23,"TEXT_CLSMIN580_02083_SEQ_23",""
-24,"TEXT_CLSMIN580_02083_TODO_00","Speak with Haimirich in the Makers' Quarter."
-25,"TEXT_CLSMIN580_02083_TODO_01","Investigate the mining points."
-26,"TEXT_CLSMIN580_02083_TODO_02","Deliver the chunks of unidentifiable ore to Haimirich."
-27,"TEXT_CLSMIN580_02083_TODO_03","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Mine hardsilver ore <Sheet(Addon,9,0)/><Else/>Deliver the chunks of hardsilver ore <Sheet(Addon,9,0)/> to Haimirich</If>."
-28,"TEXT_CLSMIN580_02083_TODO_04","Speak with Haimirich in Ishgard."
+24,"TEXT_CLSMIN580_02083_TODO_00","シャーレアン工匠街でハイムリックと合流"
+25,"TEXT_CLSMIN580_02083_TODO_01","<Sheet(EObj,2005948,0)/>を調べる"
+26,"TEXT_CLSMIN580_02083_TODO_02","シャーレアン工匠街のハイムリックに<Sheet(EventItem,2001728,0)/>を3個渡す"
+27,"TEXT_CLSMIN580_02083_TODO_03","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))><Sheet(ItemHQ,12535,0)/>を採掘<Else/>シャーレアン工匠街のハイムリックに<Sheet(ItemHQ,12535,0)/>を納品</If>"
+28,"TEXT_CLSMIN580_02083_TODO_04","イシュガルドのハイムリックと話す"
 29,"TEXT_CLSMIN580_02083_TODO_05",""
 30,"TEXT_CLSMIN580_02083_TODO_06",""
 31,"TEXT_CLSMIN580_02083_TODO_07",""
@@ -51,44 +51,101 @@ int32,str,str
 45,"TEXT_CLSMIN580_02083_TODO_21",""
 46,"TEXT_CLSMIN580_02083_TODO_22",""
 47,"TEXT_CLSMIN580_02083_TODO_23",""
-48,"TEXT_CLSMIN580_02083_HEIMIRICH_000_000","We've got new marchin' orders, Professor. This time, we're to explore some uncharted land, an' see if there's anythin' o' mineral value beneath it."
-49,"TEXT_CLSMIN580_02083_HEIMIRICH_000_001","Problem is, this land's in the Dravanian hinterlands─jus' beyond the Horde. An' they're not overly fond of us, in case you forgot."
-50,"TEXT_CLSMIN580_02083_HEIMIRICH_000_002","Now, you may be wonderin' how we landed this job. Some don't take kindly to House Fortemps's successes, <Emphasis>our</Emphasis> successes. These people're demandin' ridiculous things now, an' the count has called on us to deliver."
-51,"TEXT_CLSMIN580_02083_HEIMIRICH_000_003","But it's not all bleak news─word is that there's a little settlement o' 'venturers sprung up in the hinterlands. The lads an' I will go on ahead, an' see if they'll let us set up camp there."
-52,"TEXT_CLSMIN580_02083_HEIMIRICH_000_004","We'll meet in the Makers' Quarter─ought to be safe enough there. Jus' come when you're ready."
-53,"TEXT_CLSMIN580_02083_HEIMIRICH_000_005","That one knight talked o' goin' by airship, but I told him none of us need the coddlin'. But be careful o' the dragons, all the same."
-54,"TEXT_CLSMIN580_02083_HEIMIRICH_000_010","Once you've gotten your tools together, come to the Makers' Quarter."
-55,"TEXT_CLSMIN580_02083_BABYCHOCO_000_015","What the hells're the nobles thinkin', sendin' us into danger like this!? There's only so many of us Raiders!"
-56,"TEXT_CLSMIN580_02083_STRONGARM_000_020","Yes?"
-57,"TEXT_CLSMIN580_02083_DOCTOR02083_000_025","Ah, well met, my dear <If(PlayerParameter(4))>lady<Else/>sir</If>. Haimirich practically sang your praises all the way here!"
-58,"TEXT_CLSMIN580_02083_HEIMIRICH_000_040","Professor, I'm right glad to see you made it here safe."
-59,"TEXT_CLSMIN580_02083_HEIMIRICH_000_041","Now, to work. The Holy See's got no idea what's here. Could be dirt, or it could be gold. So, we're to find out what minerals're 'neath the ground."
-60,"TEXT_CLSMIN580_02083_HEIMIRICH_000_042","My friend here is a proper naturalist. We've got a professor already, so I've taken to callin' him Rocky. Heh, <Emphasis>two</Emphasis> academics─we're movin' up in the world, lads!"
-61,"TEXT_CLSMIN580_02083_HEIMIRICH_000_043","Now, Rocky'll need somethin' to examine. Diggin' it up's your job, Professor. Get a few samples─three should do it─an' bring 'em back here to me. Godsspeed!"
-62,"TEXT_CLSMIN580_02083_HEIMIRICH_000_050","Hm? Why three places? Rocky told me three'd be best. Jus' don't be tardy, eh?"
-63,"TEXT_CLSMIN580_02083_BABYCHOCO_000_055","This job's bound to be dangerous, Professor. Watch yer back, eh?"
-64,"TEXT_CLSMIN580_02083_STRONGARM_000_060","Yes?"
-65,"TEXT_CLSMIN580_02083_DOCTOR02083_000_065","My life's work has been the study of minerals. Why, you might even say I “mine” them for secrets, heh heheh...heh... Forgive me, <If(PlayerParameter(4))>lady<Else/>sir</If>, I'm a bit nervous. It's my first time out in the field."
-66,"TEXT_CLSMIN580_02083_SYSTEM_000_070","You obtain a chunk of unidentifiable ore from the mining point."
-67,"TEXT_CLSMIN580_02083_HEIMIRICH_000_080","Have you found somethin'?"
-68,"TEXT_CLSMIN580_02083_HEIMIRICH_000_081","That's my Professor! Now, Rocky, earn your keep. What are these samples?"
-69,"TEXT_CLSMIN580_02083_DOCTOR02083_000_082","Dear me! These all contain hardsilver─<Emphasis>pure</Emphasis> hardsilver! It's a metal worth twice its weight in gold! Why, if you but dig a little deeper, you might well find a mountain of the stuff!"
-70,"TEXT_CLSMIN580_02083_HEIMIRICH_000_083","Hah! That's music to my ears! Professor, let's see if we can't prove there <Emphasis>is</Emphasis> a mountain 'neath our feet. You know what to do─find me ten quality chunks o' ore!"
-71,"TEXT_CLSMIN580_02083_DOCTOR02083_000_090","Bless my soul, my dear <If(PlayerParameter(4))>lady<Else/>sir</If>, hardsilver!"
-72,"TEXT_CLSMIN580_02083_HEIMIRICH_000_0100","If there's no choice hardsilver to be had, that's fine, Professor. Jus' don't dally. A Dravanian patrol might swing through here any moment..."
-73,"TEXT_CLSMIN580_02083_HEIMIRICH_000_110","You're a wonder, Professor! Well, Raiders, let's pack up an' get the hells out o' he─"
-74,"TEXT_CLSMIN580_02083_STRONGARM_000_111","Captain! We were attacked by mechanical men, and Hatchling gave chase!"
-75,"TEXT_CLSMIN580_02083_HEIMIRICH_000_112","What? He didn't go by himself, did he!?"
-76,"TEXT_CLSMIN580_02083_STRONGARM_000_113","He did."
-77,"TEXT_CLSMIN580_02083_HEIMIRICH_000_114","That stupid, stupid boy! If he comes back alive, I'll beat him bloody!"
-78,"TEXT_CLSMIN580_02083_BABYCHOCO_000_115","Sorry fer keepin' ye waitin', Cap'n! We don't need to fear them monsters no more─though it weren't easy puttin' 'em down!"
-79,"TEXT_CLSMIN580_02083_HEIMIRICH_000_116","You arrogant little arse! I told you not to run off on your own! Didn't that penetrate your thick skull!?"
-80,"TEXT_CLSMIN580_02083_BABYCHOCO_000_117","Wh-What choice'd I have, Cap'n!? They were makin' fer the camp─'twas us or them!"
-81,"TEXT_CLSMIN580_02083_HEIMIRICH_000_118","Then why not warn us!? Was your linkpearl broke? Don't tell me you didn't have the time!"
-82,"TEXT_CLSMIN580_02083_BABYCHOCO_000_119","B-But, Cap'n, I...I... Fine. I'm sorry! No bloody good deed goes unpunished in this swivin' company..."
-83,"TEXT_CLSMIN580_02083_HEIMIRICH_000_120","...We're done here. Get yourself home to Ishgard, Professor. I'll see you there."
-84,"TEXT_CLSMIN580_02083_HEIMIRICH_000_140","Professor, thank you for today. You always do what I ask o' you─keep a level head, an' get your job done."
-85,"TEXT_CLSMIN580_02083_HEIMIRICH_000_141","Sorry about that business with Hatchlin'. Shouldn't have been so hard on the boy. I jus'...I jus' want him to grow up proper. Like my little brother should've."
-86,"TEXT_CLSMIN580_02083_HEIMIRICH_000_142","He was a Raider, too. Looked a fair bit like Hatchlin', as it happens. But he's long gone."
-87,"TEXT_CLSMIN580_02083_HEIMIRICH_000_143","I'll bet everyone an' their mother's got a sad story, eh? There's sure to be a new job comin' before long. I'll jus' drown me troubles till then."
-88,"TEXT_CLSMIN580_02083_SYSTEM_000_900","In breaking new ground as a miner, you have learned “Dredge”!"
+48,"TEXT_CLSMIN580_02083_HEIMIRICH_000_000","先生、次の任務が入ってきた！
+いつもの資源調査と違い、未踏査の地域を試掘して、
+「そもそも何が採れるか」を調べる先遣調査だ。"
+49,"TEXT_CLSMIN580_02083_HEIMIRICH_000_001","問題は、その任地というのが「低地ドラヴァニア」ってことでな。
+イシュガルドの仇敵、ドラゴン族の支配領域の、
+さらに向こう側になる……。"
+50,"TEXT_CLSMIN580_02083_HEIMIRICH_000_002","フォルタン家が、オレたちを雇って着実に成果をあげているなか、
+そのことを快く思わない連中が、無茶な要求をしてきたんだ。
+ひどい話だが……逆にうまくやりゃ、大手柄になり得る！"
+51,"TEXT_CLSMIN580_02083_HEIMIRICH_000_003","どうやら任地には、冒険者が集う新興の集落があるようだ。
+そこを拠点として使わせてもらえないか、
+オレたちは先に赴いて、連中と交渉しておこうと思う。"
+52,"TEXT_CLSMIN580_02083_HEIMIRICH_000_004","ひなチョコなんて、フォルタン家の騎兵団が、
+飛空艇で護送すべきだって、文句たらたらだったが……
+そうも甘えてられんしな。"
+53,"TEXT_CLSMIN580_02083_HEIMIRICH_000_005","先生も準備が整いしだい、現地に来てくれるか？
+集合場所は、低地ドラヴァニアの廃墟……
+「シャーレアン工匠街」と呼ばれてるあたりだ！"
+54,"TEXT_CLSMIN580_02083_HEIMIRICH_000_010","先生も準備が整いしだい、現地に来てくれるか？
+集合場所は、低地ドラヴァニアの廃墟……
+「シャーレアン工匠街」と呼ばれてるあたりだ！"
+55,"TEXT_CLSMIN580_02083_BABYCHOCO_000_015","危険地帯をこの人数で調査なんて、おかしいっすよ！
+オレたち傭兵を何だと思ってんだ！"
+56,"TEXT_CLSMIN580_02083_STRONGARM_000_020","……頼むぞ。"
+57,"TEXT_CLSMIN580_02083_DOCTOR02083_000_025","採掘師の方ですな？
+どうぞ、よろしく。"
+58,"TEXT_CLSMIN580_02083_HEIMIRICH_000_040","すまないな、先生！
+こんなところまで来てもらって。"
+59,"TEXT_CLSMIN580_02083_HEIMIRICH_000_041","さて、今回の先遣調査の目的だが……
+そもそもこの地はまだ、鉱物資源の有無すらわかっていない。
+まずは、有用な資源があるかどうかを調べたい。"
+60,"TEXT_CLSMIN580_02083_HEIMIRICH_000_042","そのために、鉱物の「鑑定」を得意とする、
+博物学者の先生にも同行してもらっている。
+学者先生のほうは「先生」じゃなく……「博士」とでも呼ぶか！"
+61,"TEXT_CLSMIN580_02083_HEIMIRICH_000_043","先生、そこでまずは、周辺の<Sheet(EObj,2005948,0)/>を3ヶ所ほど調べてくれ！
+何か見つかったら、オレに渡してほしい。
+それでは、任務開始！"
+62,"TEXT_CLSMIN580_02083_HEIMIRICH_000_050","周辺の<Sheet(EObj,2005948,0)/>を3ヶ所ほど調べてくれ！
+何か見つかったら、オレに渡してほしい。"
+63,"TEXT_CLSMIN580_02083_BABYCHOCO_000_055","こいつはちょっと、危ないっすよ。
+みんな、初めての任地だし……。"
+64,"TEXT_CLSMIN580_02083_STRONGARM_000_060","……おう。"
+65,"TEXT_CLSMIN580_02083_DOCTOR02083_000_065","鉱物の研究を生業としておりましてな。
+ただ、現場での採掘のほうは、からっきしです……。
+頼りにしとりますぞ！"
+66,"TEXT_CLSMIN580_02083_SYSTEM_000_070","<Sheet(EObj,2005948,0)/>から、<Sheet(EventItem,2001728,0)/>を手に入れた。"
+67,"TEXT_CLSMIN580_02083_HEIMIRICH_000_080","どうだい、先生。
+何か見つかったかい？"
+68,"TEXT_CLSMIN580_02083_HEIMIRICH_000_081","……ほほう、鉱石が見つかったんだな？
+博士、いかがですか？"
+69,"TEXT_CLSMIN580_02083_DOCTOR02083_000_082","これは……はるばる遠征した甲斐があったかもしれませんな！
+この方が見つけた鉱石は、3つとも「<Sheet(ItemHQ,12535,0)/>」。
+稀少な鉱石の、しかも大きな鉱床を掘りあてた可能性がある。"
+70,"TEXT_CLSMIN580_02083_HEIMIRICH_000_083","そいつぁ、驚いたね！
+狙いを「<Sheet(ItemHQ,12535,0)/>」に絞って、試掘を続けよう。
+先生、このあたりで、10個ばかし採掘してくれるか！"
+71,"TEXT_CLSMIN580_02083_DOCTOR02083_000_090","これは……はるばる遠征した甲斐があったかもしれませんな！
+見つけた鉱石は、3つとも「<Sheet(ItemHQ,12535,0)/>」。
+稀少な鉱石の、しかも大きな鉱床を掘りあてた可能性がある。"
+72,"TEXT_CLSMIN580_02083_HEIMIRICH_000_0100","狙いを「<Sheet(ItemHQ,12535,0)/>」に絞って、試掘を続けよう。
+先生、このあたりで、10個ばかし採掘してくれるか！"
+73,"TEXT_CLSMIN580_02083_HEIMIRICH_000_110","首尾は上々、ってとこだな。
+無茶な任務だと思ったが、どうにか無事に終えられたようだ！
+……ん？"
+74,"TEXT_CLSMIN580_02083_STRONGARM_000_111","隊長、ひなチョコが……
+先ほど周辺のカラクリ兵器と交戦、迎撃はできたものの……。"
+75,"TEXT_CLSMIN580_02083_HEIMIRICH_000_112","まさか……。
+あの野郎、ひとりで深追いしたんじゃないだろうな！？"
+76,"TEXT_CLSMIN580_02083_STRONGARM_000_113","……その、まさかだ。"
+77,"TEXT_CLSMIN580_02083_HEIMIRICH_000_114","あのバカ、功を焦りやがって……！"
+78,"TEXT_CLSMIN580_02083_BABYCHOCO_000_115","いやぁ、遅れてすみません！
+でも、こちらに迫っていた脅威を、排除しましたよ！
+なかなか手ごわい相手だったっす！"
+79,"TEXT_CLSMIN580_02083_HEIMIRICH_000_116","バカ野郎、なんで独断専行した！
+剛力の真似をするのは、10年早いと言っただろう！"
+80,"TEXT_CLSMIN580_02083_BABYCHOCO_000_117","事態は、一刻を争う状況だったんすよ！
+タチの悪いカラクリ兵器が、こっちに向かおうとしてたんです！"
+81,"TEXT_CLSMIN580_02083_HEIMIRICH_000_118","妨害雷波でリンクパールが使えなかったとでも？
+一報するヒマもなかったとは言わせんぞ。"
+82,"TEXT_CLSMIN580_02083_BABYCHOCO_000_119","そ、それは……
+ちぇっ、わかりましたよ、オレが悪かったっす！
+あ～あ、誉めてもらえると思ったのに……。"
+83,"TEXT_CLSMIN580_02083_HEIMIRICH_000_120","見苦しいところを見せてしまったな、先生。
+これにて任務完了だ……。
+……イシュガルドの例の場所で、また会おう。"
+84,"TEXT_CLSMIN580_02083_HEIMIRICH_000_140","今回は、本当に助かった。
+先生は余計なことはせず、きちんと仕事をしてくれる、
+本当の専門家だ。"
+85,"TEXT_CLSMIN580_02083_HEIMIRICH_000_141","ひなチョコには、そんなふうに育ってほしかったが……。
+目をかけるあまり、あれこれ口を出しすぎたのかもしれん。
+……あいつはオレの弟によく似ていて、つい、な。"
+86,"TEXT_CLSMIN580_02083_HEIMIRICH_000_142","弟も傭兵をしていて、オレの部下だった。
+今はもう……この世にいない……。"
+87,"TEXT_CLSMIN580_02083_HEIMIRICH_000_143","おっと、つまらない話につきあわせちまったな！
+先生のおかげで、オレたち「迅風傭兵団」の名も広がってきた。
+この調子で、次もよろしく頼むぞ！"
+88,"TEXT_CLSMIN580_02083_SYSTEM_000_900","採掘師として、心・技ともに新たなる高みに到達し、
+「ドレッジ」を修得しました！"

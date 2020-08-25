@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBWIL036_00228_SEQ_00","Danyell of the Silver Bazaar requires some very specific materials to fix his father's broken compass."
-1,"TEXT_SUBWIL036_00228_SEQ_01","Danyell believes that his fisherman father has been stuck on land of late because his compass is broken. Venture outside the Silver Bazaar and see if you can find three chunks of magnetite to fix the broken instrument."
-2,"TEXT_SUBWIL036_00228_SEQ_02","You have collected three chunks of magnetite. Deliver them to Galfridus at the Silver Bazaar."
-3,"TEXT_SUBWIL036_00228_SEQ_03","The magnetite you supplied can be used to mend the damaged compass. Tragically, however, there does not seem to be much use for it once repaired."
+0,"TEXT_SUBWIL036_00228_SEQ_00","シルバーバザーのダニェルは父親の羅針盤を直すための特別な材料を探している。"
+1,"TEXT_SUBWIL036_00228_SEQ_01","ダニェルの父、ガルフリダスの羅針盤を直すために特別な材料が必要だ。「天然磁石」を入手しよう。"
+2,"TEXT_SUBWIL036_00228_SEQ_02","「天然磁石」を入手した。これを「シルバーバザー」の「ガルフリダス」に渡そう。"
+3,"TEXT_SUBWIL036_00228_SEQ_03","冒険者の手に入れた天然磁石を使って羅針盤を直すことができるようだ。しかし、羅針盤は直っても使い道はあまりないようだ。"
 4,"TEXT_SUBWIL036_00228_SEQ_04",""
 5,"TEXT_SUBWIL036_00228_SEQ_05",""
 6,"TEXT_SUBWIL036_00228_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_SUBWIL036_00228_SEQ_21",""
 22,"TEXT_SUBWIL036_00228_SEQ_22",""
 23,"TEXT_SUBWIL036_00228_SEQ_23",""
-24,"TEXT_SUBWIL036_00228_TODO_00","Find chunks of magnetite."
-25,"TEXT_SUBWIL036_00228_TODO_01","Deliver the magnetite to Galfridus at the Silver Bazaar."
+24,"TEXT_SUBWIL036_00228_TODO_00","天然磁石を入手"
+25,"TEXT_SUBWIL036_00228_TODO_01","ガルフリダスに天然磁石を渡す"
 26,"TEXT_SUBWIL036_00228_TODO_02",""
 27,"TEXT_SUBWIL036_00228_TODO_03",""
 28,"TEXT_SUBWIL036_00228_TODO_04",""
@@ -49,16 +49,34 @@ int32,str,str
 45,"TEXT_SUBWIL036_00228_TODO_21",""
 46,"TEXT_SUBWIL036_00228_TODO_22",""
 47,"TEXT_SUBWIL036_00228_TODO_23",""
-48,"TEXT_SUBWIL036_00228_DANYELL_001","Please, you must help me. It's my father!"
-49,"TEXT_SUBWIL036_00228_DANYELL_002","Well, he isn't dying or anything... He's a fisherman by trade, you see, but he broke his only compass. He hasn't been able to put out to sea in weeks."
-50,"TEXT_SUBWIL036_00228_DANYELL_003","The compass is very special. It was crafted by the goldsmiths of Eshtaime's Lapidaries. Repairing it will require many chunks of magnetite."
-51,"TEXT_SUBWIL036_00228_DANYELL_004","Such stones can be found near the lighthouse, but the search is not without its dangers. The area is rife with earth sprites drawn to the magnetism. I'm a lowly fisherman's son. I have no arm for fighting, nor the stomach."
-52,"TEXT_SUBWIL036_00228_DANYELL_005","Three chunks of magnetite would serve to mend the compass. Once you find them, please take them to my father, Galfridus. No doubt he'll be dawdling about the Bazaar, as always."
-53,"TEXT_SUBWIL036_00228_GALFRIDUS_001","Don't waste yer time, <If(PlayerParameter(4))>lass<Else/>mate</If>. Bloody compass done broke on me. Aye, I'll not be fishin' this day, nor the next, more than like."
-54,"TEXT_SUBWIL036_00228_GALFRIDUS_002","Magnetite? Danyell asked that of ye, did he? So, Dad's to fix up the ol' compass an' put back out to sea, is he? Catch a nice haul of fat fish, hm?"
-55,"TEXT_SUBWIL036_00228_GALFRIDUS_003","I've a vessel what's barely seaworthy, an' scarce big enough for me alone. I've no crew, no hands to help with the haul. All bloody day at sea bustin' me arse gets me a few gil at best."
-56,"TEXT_SUBWIL036_00228_GALFRIDUS_004","Gods, days ain't what they were. Time was ye could scarce count the ships what used to make berth here. There weren't no empty coinpurse or stomach in all the Bazaar."
-57,"TEXT_SUBWIL036_00228_GALFRIDUS_005","Small ships ain't got no place at sea no more. E'erywhere I go, I'm in the shadow or wake of some monstrous trawler or seiner. The old ways're done. We li'l fishermen done lost our way."
-58,"TEXT_SUBWIL036_00228_GALFRIDUS_006","I ain't no fisherman no more, nor much of a father, I s'pose. Just a broken man with a broken compass an' broken dreams."
-59,"TEXT_SUBWIL036_00228_POP_MESSAGE","You sense an enemy nearby!"
-60,"TEXT_SUBWIL036_00228_ACCESS_MESSAGE","The enemy is still about!"
+48,"TEXT_SUBWIL036_00228_DANYELL_001","ねえねえ、あんた冒険者だろ？
+俺の父ちゃん、なんとかしてくれよー！"
+49,"TEXT_SUBWIL036_00228_DANYELL_002","俺の父ちゃん、漁師のくせに、
+「羅針盤が壊れたから」って言って、
+漁に全然行かなくなっちゃったんだ。"
+50,"TEXT_SUBWIL036_00228_DANYELL_003","その羅針盤は、名店「エシュテム」の特製品だから
+特別磁力の強い「天然磁石」がないと直せないんだって。"
+51,"TEXT_SUBWIL036_00228_DANYELL_004","「天然磁石」は灯台の近くで採れるんだけど、
+磁力のせいで「アーススプライト」が集まりやすくて、
+俺じゃあ取ってこれないんだ……。"
+52,"TEXT_SUBWIL036_00228_DANYELL_005","3つくらいあれば、羅針盤を直せると思う。
+「天然磁石」は父ちゃん……ガルフリダスに渡して。
+どうせ集落の入口でぶらぶらしてる、すぐ見つかるよ。"
+53,"TEXT_SUBWIL036_00228_GALFRIDUS_001","ケッ、なんだよ……。
+漁なら行かねぇぞ、船を出そうっつったって、
+エシュテム特製の羅針盤が壊れてるんだからな。"
+54,"TEXT_SUBWIL036_00228_GALFRIDUS_002","「天然磁石」だ？　ダニェルがお前に頼んだのか。
+へっ、羅針盤を直して漁に行けってことかい。"
+55,"TEXT_SUBWIL036_00228_GALFRIDUS_003","……羅針盤が直ったところで、しみったれた小舟じゃあ、
+漁に出ても小銭稼ぎにしかなんねぇよ。"
+56,"TEXT_SUBWIL036_00228_GALFRIDUS_004","あーあ、羅針盤が壊れる前の港は良かったよ。
+多くの船がこの港に寄港し、多くの富が行き交っていた。
+想像できるか？　この港は夢のように輝いていたんだ。"
+57,"TEXT_SUBWIL036_00228_GALFRIDUS_005","だが、大型船が主流となった今、
+小型船しか停泊できないシルバーバザーの港は、
+壊れた羅針盤みたいに、進むべき方向を見失っちまった。"
+58,"TEXT_SUBWIL036_00228_GALFRIDUS_006","……俺も同じか。
+大事な羅針盤が壊れて、俺の心も折れちまった。
+息子にまで心配かけて……情けねぇ父ちゃんだぜ。"
+59,"TEXT_SUBWIL036_00228_POP_MESSAGE","敵の気配を感じた！！"
+60,"TEXT_SUBWIL036_00228_ACCESS_MESSAGE","その行動は出現した敵を倒さないと実行できません"

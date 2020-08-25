@@ -1,13 +1,17 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_FESEST203_02130_SEQ_00","The cultured collector flashes a smile at you.
-※This quest is available for a limited time only."
-1,"TEXT_FESEST203_02130_SEQ_01","The cultured collector tells you that the enormous benediction egg rolling throughout the quarters of Old Gridania is actually an enchantment of sylphic design. Although it appears practically unblemished despite the speed at which it plunges through the crowd, the collector bids you break off a piece of its shell by rubbing a magicked powder onto it. Chase after the egg fit for a king. 
+0,"TEXT_FESEST203_02130_SEQ_00","※本クエストは、期間限定のクエストとなります。
 
-※Please note that you will be unable to complete this quest after the seasonal event has ended. For details, please check the Lodestone."
-2,"TEXT_FESEST203_02130_SEQ_02","You successfully break off a piece of the benediction egg. Return to Mih Khetto's Amphitheatre and deliver it to the cultured collector."
-3,"TEXT_FESEST203_02130_SEQ_03","The cultured collector is satisfied with the choice piece you were able to break off and hands over your prize. You patiently await a bit of egg humor, only to find the collector would rather leave it to his other compeers."
+ミィ・ケット野外音楽堂の快活なエッグコレクターは、冒険者が「追撃！ ジャンボエッグ」に参加するか確かめたいようだ。"
+1,"TEXT_FESEST203_02130_SEQ_01","※本クエストは、シーズナルイベント開催中にかぎり、
+　受注、進行できます。
+　開催期間終了後は進行できませんので、ご注意ください。
+　期間等の詳細についてはLodestoneをご覧ください。
+
+快活なエッグコレクターから説明を受けた。グリダニアの旧市街を転がっている「<Sheet(BNpcName,4793,0)/>」に、「<Sheet(EventItem,2001970,0)/>」を使い、「<Sheet(EventItem,2001971,0)/>」を入手しよう。"
+2,"TEXT_FESEST203_02130_SEQ_02","<Sheet(BNpcName,4793,0)/>から<Sheet(EventItem,2001971,0)/>を手に入れた。ミィ・ケット野外音楽堂の「快活なエッグコレクター」に「<Sheet(EventItem,2001971,0)/>」を渡そう。"
+3,"TEXT_FESEST203_02130_SEQ_03","快活なエッグコレクターに<Sheet(EventItem,2001971,0)/>を渡した。引き続き「追撃！ ジャンボエッグ」や、ほかの催しに参加して、エッグハントを盛り上げよう。"
 4,"TEXT_FESEST203_02130_SEQ_04",""
 5,"TEXT_FESEST203_02130_SEQ_05",""
 6,"TEXT_FESEST203_02130_SEQ_06",""
@@ -28,8 +32,8 @@ int32,str,str
 21,"TEXT_FESEST203_02130_SEQ_21",""
 22,"TEXT_FESEST203_02130_SEQ_22",""
 23,"TEXT_FESEST203_02130_SEQ_23",""
-24,"TEXT_FESEST203_02130_TODO_00","Use the shimmering scalepowder on the benediction egg to obtain an egg fragment."
-25,"TEXT_FESEST203_02130_TODO_01","Deliver the egg fragment to the cultured collector."
+24,"TEXT_FESEST203_02130_TODO_00","<Sheet(BNpcName,4793,0)/>に<Sheet(EventItem,2001970,0)/>を使い<Sheet(EventItem,2001971,0)/>を入手"
+25,"TEXT_FESEST203_02130_TODO_01","快活なエッグコレクターに<Sheet(EventItem,2001971,0)/>を渡す"
 26,"TEXT_FESEST203_02130_TODO_02",""
 27,"TEXT_FESEST203_02130_TODO_03",""
 28,"TEXT_FESEST203_02130_TODO_04",""
@@ -52,10 +56,19 @@ int32,str,str
 45,"TEXT_FESEST203_02130_TODO_21",""
 46,"TEXT_FESEST203_02130_TODO_22",""
 47,"TEXT_FESEST203_02130_TODO_23",""
-48,"TEXT_FESEST203_02130_EGGHUNTINGSTAFFB02130_000_001","No doubt you have seen the enormous egg bounding through the streets of Old Gridania. It has been enchanted by our friends the sylphs for this very occasion; though it rolls over root, stone, and man, there is not a single scratch upon it!"
-49,"TEXT_FESEST203_02130_EGGHUNTINGSTAFFB02130_000_002","And therein comes the challenge. I will give you magicked powder that, when thoroughly rubbed onto a spot of the egg, will weaken its shell. If you can catch up to it and break off a fragment, bring it hither and trade it to me for a more fortuitous reward!"
-50,"TEXT_FESEST203_02130_EGGHUNTINGSTAFFB02130_000_003","Remember that timing is everything. You never know when the egg will start moving again, so my advice is to throw yourself upon it as soon as it stops."
-51,"TEXT_FESEST203_02130_EGGHUNTINGSTAFFB02130_100_010","Chasing after the egg can tire you out quite quickly. Have you come to rest for a bit?"
-52,"TEXT_FESEST203_02130_EGGHUNTINGSTAFFB02130_000_010","Aha, it seems your determination has won out. This is indeed a piece of the benediction egg. I shall dispense your reward as promised."
-53,"TEXT_FESEST203_02130_EGGHUNTINGSTAFFB02130_000_011","Splendid work, and come again, my good <If(PlayerParameter(4))>madam<Else/>sir</If>! ...Ah, yes, noticed I did not say <Emphasis>eggsellent</Emphasis> or some such, did you? I may be a Dreamer, but like others I find my comrades' humor to be a little...tiring at times."
-54,"TEXT_FESEST203_02130_SYSTEM_000_020",""
+48,"TEXT_FESEST203_02130_EGGHUNTINGSTAFFB02130_000_001","エグ、エグ、エ～グ、エッグラホ♪
+巨大なタマゴを追いかけろ！
+どうだいお前さん、「追撃！ ジャンボエッグ」に参加しないか？"
+49,"TEXT_FESEST203_02130_EGGHUNTINGSTAFFB02130_000_002","グリダニアの街中を走り回る、特製「<Sheet(BNpcName,4793,0)/>」に、
+<Sheet(EventItem,2001970,0)/>をかけて、「<Sheet(EventItem,2001971,0)/>」を剥がせ！
+その破片を、「<Sheet(Item,14944,0)/>」と交換してやるぜ！"
+50,"TEXT_FESEST203_02130_EGGHUNTINGSTAFFB02130_000_003","グリダニアの街中を走り回る、特製「<Sheet(BNpcName,4793,0)/>」に、
+<Sheet(EventItem,2001970,0)/>をかけて、「<Sheet(EventItem,2001971,0)/>」を剥がせ！
+その破片を、「<Sheet(Item,14944,0)/>」と交換してやるぜ！"
+51,"TEXT_FESEST203_02130_EGGHUNTINGSTAFFB02130_100_010","どうだい、<Sheet(EventItem,2001971,0)/>は剥がせたかい？"
+52,"TEXT_FESEST203_02130_EGGHUNTINGSTAFFB02130_000_010","おぉ、これは紛れもなく<Sheet(EventItem,2001971,0)/>！
+転がるタマゴとの追いかけっこ、体も頭も使ったろ？
+健闘を称えて、さあ、「<Sheet(Item,14944,0)/>」の贈呈だ！"
+53,"TEXT_FESEST203_02130_EGGHUNTINGSTAFFB02130_000_011","祭りを盛り上げてくれて、ありがとな！
+また参加したくなったら、声をかけてくれよ！"
+54,"TEXT_FESEST203_02130_SYSTEM_000_020","（★未使用／削除予定★）"

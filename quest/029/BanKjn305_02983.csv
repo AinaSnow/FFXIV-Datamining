@@ -1,8 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANKJN305_02983_SEQ_00","Zukin needs help putting together a feast.
-※The difficulty of this quest will be synced to your current level."
+0,"TEXT_BANKJN305_02983_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト受注クラス・ジョブ制限<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+※本クエストは受注時のクラス・ジョブでのみ進行します。
+
+碧のタマミズのズキンは、食事の準備を手伝ってほしいようだ。"
 1,"TEXT_BANKJN305_02983_SEQ_01",""
 2,"TEXT_BANKJN305_02983_SEQ_02",""
 3,"TEXT_BANKJN305_02983_SEQ_03",""
@@ -26,8 +28,9 @@ int32,str,str
 21,"TEXT_BANKJN305_02983_SEQ_21",""
 22,"TEXT_BANKJN305_02983_SEQ_22",""
 23,"TEXT_BANKJN305_02983_SEQ_23",""
-24,"TEXT_BANKJN305_02983_TODO_00","Lure out voracious gasame with oyster meat at Hells' Lid and slay them for their red-hot carapaces."
-25,"TEXT_BANKJN305_02983_TODO_01","Deliver the red-hot carapaces to Zukin."
+24,"TEXT_BANKJN305_02983_TODO_00","獄之蓋の<Sheet(EObj,2009091,0)/>に<Sheet(EventItem,2002401,0)/>を使い
+<Sheet(BNpcName,6876,0)/>を討伐して<Sheet(EventItem,2002402,0)/>を入手"
+25,"TEXT_BANKJN305_02983_TODO_01","ズキンに<Sheet(EventItem,2002402,0)/>を渡す"
 26,"TEXT_BANKJN305_02983_TODO_02",""
 27,"TEXT_BANKJN305_02983_TODO_03",""
 28,"TEXT_BANKJN305_02983_TODO_04",""
@@ -50,10 +53,21 @@ int32,str,str
 45,"TEXT_BANKJN305_02983_TODO_21",""
 46,"TEXT_BANKJN305_02983_TODO_22",""
 47,"TEXT_BANKJN305_02983_TODO_23",""
-48,"TEXT_BANKJN305_02983_ZUKIN_000_000","As you will doubtless appreciate, treasure hunting is hungry work. To help us keep up our strength, Kaioke will cook a hearty meal, and for this he requires several red-hot carapaces."
-49,"TEXT_BANKJN305_02983_ZUKIN_000_001","If each one of us could procure but two, we will have enough in no time. Here, take this oyster meat. You can use it to lure out voracious gasame at Hells' Lid."
-50,"TEXT_BANKJN305_02983_ZUKIN_000_002","Other gasame may well be drawn to the bait, but not all will yield the carapace we need. Take care, and good luck!"
-51,"TEXT_BANKJN305_02983_ZUKIN_000_020","Ah, you are returned. Have you obtained your share of carapaces?"
-52,"TEXT_BANKJN305_02983_ZUKIN_000_021","Oho, such big, fiery shells! This shall be a proper feast!"
-53,"TEXT_BANKJN305_02983_ZUKIN_000_022","Turn these over and fill them with ingredients, and in no time we'll have a tasty and nourishing gasame stew! Ahhh, the mere thought of it makes my mouth flood..."
-54,"TEXT_BANKJN305_02983_ZUKIN_000_023","You will enjoy it, too, I do not doubt. But as popular as it is, you must forgive us should it run out before you get a taste!"
+48,"TEXT_BANKJN305_02983_ZUKIN_000_000","「碧の宝探衆」が結成されてから、みんな忙しそうだぁ～。
+そこで、カイオケがみんなを労う飯を作るってんで、
+「<Sheet(EventItem,2002402,0)/>」を欲しがってんだぁ～。"
+49,"TEXT_BANKJN305_02983_ZUKIN_000_001","たくさん必要みてぇだから、<If(PlayerParameter(4))>姉<Else/>兄</If>さんも2杯ぶん、手伝ってくれぇ～。
+この「<Sheet(EventItem,2002401,0)/>」を獄之蓋で使えば、
+大ぶりな「<Sheet(BNpcName,6876,0)/>」が出てくるはずだぜぇ～。"
+50,"TEXT_BANKJN305_02983_ZUKIN_000_002","エサを食いに、他のガサメも寄ってくるかもしれねぇが、
+「<Sheet(EventItem,2002402,0)/>」は「<Sheet(BNpcName,6876,0)/>」からしか手に入らねぇぞぉ～。
+気をつけて行ってきてくれぇ～。"
+51,"TEXT_BANKJN305_02983_ZUKIN_000_020","「<Sheet(EventItem,2002402,0)/>」は、手に入ったかぁ～？"
+52,"TEXT_BANKJN305_02983_ZUKIN_000_021","おおっ、アッツアツの甲羅だなぁ～！
+これだけ大きければ、たくさん飯が作れそうだぁ～！"
+53,"TEXT_BANKJN305_02983_ZUKIN_000_022","この甲羅を鍋にして、食材と海水を入れりゃあ、
+あっという間に、「ガサメ鍋」が完成するんだぜぇ～。
+甲羅の熱でよく煮えるし、ダシもきいてて、おいしいぞぉ～。"
+54,"TEXT_BANKJN305_02983_ZUKIN_000_023","<If(PlayerParameter(4))>姉<Else/>兄</If>さんにも、いつかふるまってやらねぇとなぁ～。
+けど、ガサメ鍋は大人気だから、
+油断してると、すぐ仲間たちが食いつくしちまうぜぇ～！"

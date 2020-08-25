@@ -1,14 +1,15 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKZH301_03533_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Mauwyl is concerned for the well-being of a friend."
-1,"TEXT_LUCKZH301_03533_SEQ_01","Walking about in the Pendants, you come upon Mauwyl, a young woodcutter. Fawning profusely over you and your accomplishments, he begs your aid in finding out what is troubling one Tolas, a member of the Crystarium guard and close companion. Should you be so inclined, accompany the youth to the Ostall Imperative, and lend an ear to the guardsman's troubles.
+0,"TEXT_LUCKZH301_03533_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+ペンダント居住館のマウィルは、人を探しているようだ。"
+1,"TEXT_LUCKZH301_03533_SEQ_01","※本クエストには「<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow><UIGlow>01</UIGlow><UIForeground>01</UIForeground> レベルアジャスト」が、
+　設定されています。
 
-※Please note that the difficulty of this quest has been synced to your current level."
-2,"TEXT_LUCKZH301_03533_SEQ_02","You reunite with Mauwyl at the Ostall Imperative. The two of you make your way to Tolas's post, and are quickly taken aback when the stern-looking guardsman at first reacts to your presence with sudden panic and fear. The man apologizes for the overreaction, and explains that he has been feeling fatigued ever since coming back from a particularly harrowing battle with the sin eaters. Tolas then dashes off abruptly, leaving Mauwyl increasingly concerned about his friend's state of mind. The youth suggests that you split up and inquire with Tolas's fellow guardsmen, that you might glean some insight into what weighs on the man's heart."
-3,"TEXT_LUCKZH301_03533_SEQ_03","Speaking with the guardsman, you are able to glean two pieces of information: one, that Tolas is descended from a prominent family of knights, and two, that he suffered the loss of his entire regiment in the recent attack. No doubt Mauwyl will find this knowledge enlightening. Seek him out and share what you know."
-4,"TEXT_LUCKZH301_03533_SEQ_04","You share your findings with Mauwyl, who sympathizes deeply with his friend for the tragedy he faced. He offers you a reward for all you have done for him, and bids you stay and help him talk to Tolas, that the wounds his heart suffered in the battle might yet be healed."
+マウィルに、トーラスという兵士の様子を見るよう頼まれた。レイクランドのオスタル厳命城で「マウィル」と話そう。"
+2,"TEXT_LUCKZH301_03533_SEQ_02","マウィルと話した。トーラスは、先日の罪喰いの襲撃以降、様子がおかしくなったようだ。オスタル厳命城の兵士たちと話して、トーラスについて情報を集めよう。"
+3,"TEXT_LUCKZH301_03533_SEQ_03","兵士たちからトーラスの過去を聞いた。オスタル厳命城の「マウィル」と話そう。"
+4,"TEXT_LUCKZH301_03533_SEQ_04","マウィルに報告した。彼も、大襲撃でトーラスの部隊が全滅したことを知ったようだ。"
 5,"TEXT_LUCKZH301_03533_SEQ_05",""
 6,"TEXT_LUCKZH301_03533_SEQ_06",""
 7,"TEXT_LUCKZH301_03533_SEQ_07",""
@@ -28,9 +29,9 @@ Mauwyl is concerned for the well-being of a friend."
 21,"TEXT_LUCKZH301_03533_SEQ_21",""
 22,"TEXT_LUCKZH301_03533_SEQ_22",""
 23,"TEXT_LUCKZH301_03533_SEQ_23",""
-24,"TEXT_LUCKZH301_03533_TODO_00","Speak with Mauwyl at the Ostall Imperative."
-25,"TEXT_LUCKZH301_03533_TODO_01","Ask around about Tolas."
-26,"TEXT_LUCKZH301_03533_TODO_02","Speak with Mauwyl."
+24,"TEXT_LUCKZH301_03533_TODO_00","オスタル厳命城のマウィルと話す"
+25,"TEXT_LUCKZH301_03533_TODO_01","兵士たちからトーラスの情報を集める"
+26,"TEXT_LUCKZH301_03533_TODO_02","マウィルと話す"
 27,"TEXT_LUCKZH301_03533_TODO_03",""
 28,"TEXT_LUCKZH301_03533_TODO_04",""
 29,"TEXT_LUCKZH301_03533_TODO_05",""
@@ -52,48 +53,103 @@ Mauwyl is concerned for the well-being of a friend."
 45,"TEXT_LUCKZH301_03533_TODO_21",""
 46,"TEXT_LUCKZH301_03533_TODO_22",""
 47,"TEXT_LUCKZH301_03533_TODO_23",""
-48,"TEXT_LUCKZH301_03533_MAUWYL_000_000","Oh, for woe! I can't take it anymore! Whatever am I do to about him? If only─"
-49,"TEXT_LUCKZH301_03533_MAUWYL_100_000","Uwaaah! Don't sneak up on─wait...I know you! You're <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! Oh, lucky day! Why, I was just thinking to myself: if only a great hero like <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> were here, <Emphasis><If(PlayerParameter(4))>she<Else/>he</If>'d</Emphasis> know what to do!"
-50,"TEXT_LUCKZH301_03533_MAUWYL_000_001","You'll help me, yes? Oh, please say you will! Look at me─have you ever seen anyone so pathetic? I have nowhere else to turn! Without you, I'm as good as...as...!"
-51,"TEXT_LUCKZH301_03533_MAUWYL_000_002","...Forgive me. I have a habit of getting ahead of myself. Anyhow, it's both a pleasure and an honor to meet you in the flesh."
-52,"TEXT_LUCKZH301_03533_MAUWYL_100_002","My name is Mauwyl, and I'm a woodcutter by trade. I spend most of my days harvesting lumber from the woodlands that surround the Ostall Imperative."
-53,"TEXT_LUCKZH301_03533_MAUWYL_000_003","In fact, I was making a delivery to the Imperative the other day when the sin eaters attacked. I was cowering in a corner, but I was able to witness your exploits in battle from afar."
-54,"TEXT_LUCKZH301_03533_MAUWYL_000_004","Wicked white, I've never seen someone fight like that! How formidable, how fierce, how ferocious you were! Why, I'd wager you're even stronger than Tolas!"
-55,"TEXT_LUCKZH301_03533_MAUWYL_000_005","Oh, right. There I go again. Tolas is a friend of mine, you see. Best friend I've known. He's a member of the guard at the Imperative, and a warrior of no small repute. They say people have lost count of how many sin eaters he's slain."
-56,"TEXT_LUCKZH301_03533_MAUWYL_000_006","And yet, for the gods only know what reason, he just hasn't been acting like himself of late. I've asked time and again if anything's the matter, but he just frowns and shakes his head. Perhaps he feels that a humble woodcutter like myself wouldn't understand."
-57,"TEXT_LUCKZH301_03533_MAUWYL_000_007","But you! If a hero like you were to approach him, perhaps he'd feel more comfortable laying his troubles bare. There's no guarantee it'll work, but I daresay it's our best hope!"
-58,"TEXT_LUCKZH301_03533_MAUWYL_000_008","In any event, I'm certain you'd enjoy each other's company. Why, you could regale one another with tales of adventure, discuss strategies and tactics for fighting the sin eaters, and so much more!"
-59,"TEXT_LUCKZH301_03533_MAUWYL_000_009","I was just on my way to pay him a visit at the Imperative. You'll join me there, won't you? It would mean ever so much to me and Tolas both!"
-60,"TEXT_LUCKZH301_03533_MAUWYL_000_020","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! You came! Tolas's post is just over that way. Come with me─I'll introduce you."
-61,"TEXT_LUCKZH301_03533_TOLAS_000_021","........."
-62,"TEXT_LUCKZH301_03533_MAUWYL_000_022","Hullo there, Tolas! It's me! And you'll never guess who I brought along..."
-63,"TEXT_LUCKZH301_03533_TOLAS_000_023","Wh-Who goes there!? Are we under attack!? Do the sin eaters return!?"
-64,"TEXT_LUCKZH301_03533_MAUWYL_000_024","Whoa, now! Settle down there, friend. It's just me, Mauwyl!"
-65,"TEXT_LUCKZH301_03533_TOLAS_000_025","...So we are not under attack? That is...a relief."
-66,"TEXT_LUCKZH301_03533_TOLAS_000_026","Pray forgive my outburst. Ever since the recent attack, I have been feeling a touch on edge. It would seem that anxiety and fatigue got the better of me."
-67,"TEXT_LUCKZH301_03533_TOLAS_000_027","No...this simply will not do! I am descended from a line of the bravest knights in Lakeland! How can I defend the people if I am here jumping at shadows like some skittish child!"
-68,"TEXT_LUCKZH301_03533_TOLAS_000_028","It is nigh time for my patrol. Pray leave me to my duties, Mauwyl. If you have something of import that you wish to discuss with me, it can wait until my return. I should not be long."
-69,"TEXT_LUCKZH301_03533_MAUWYL_000_029","Tolas, wait! Tolas!"
-70,"TEXT_LUCKZH301_03533_MAUWYL_000_030","I swear, something just isn't right with the man. Don't you get the same impression?"
-71,"TEXT_LUCKZH301_03533_Q1_000_000","What will you say?"
-72,"TEXT_LUCKZH301_03533_A1_000_001","I must agree."
-73,"TEXT_LUCKZH301_03533_A1_000_002","Is he not merely tired?"
-74,"TEXT_LUCKZH301_03533_MAUWYL_000_031","I knew it! You don't even know him and still you can feel it, yes? I worry for the man..."
-75,"TEXT_LUCKZH301_03533_MAUWYL_000_032","Trust me on this one, friend. I've known Tolas nearly my whole life, and he's not one to startle so easily...or at all. Ice, not blood, runs through that man's veins."
-76,"TEXT_LUCKZH301_03533_MAUWYL_000_033","Something happened to him during that battle, I'm certain of it. But what could it be?"
-77,"TEXT_LUCKZH301_03533_MAUWYL_000_034","Perhaps his fellow guardsmen know something. Would you mind helping me ask around?"
-78,"TEXT_LUCKZH301_03533_MAUWYL_000_035","Thanks, friend! I knew I could count on you. Let's split up and see what we can figure out by the time Tolas returns from making his rounds."
-79,"TEXT_LUCKZH301_03533_TAOTISTT_000_040","Tolas? Why, he's one of the bravest men I've ever known! One of the mightiest warriors, as well! When the sin eaters struck, his regiment bore the brunt of the attack. A lesser man would never have made it back alive!"
-80,"TEXT_LUCKZH301_03533_TAOTISTT_000_041","It's no surprise, though. After all, he's descended from one of the most prominent lines of knights in all of Lakeland! Why, they say his great-grandfather served under Ser Ostall himself. Talk about a pedigree!"
-81,"TEXT_LUCKZH301_03533_SEANARD_000_042","Tolas? Aye, I pity the man. Or didn't ye hear? Word has it he was the only one from his regiment to make it back alive."
-82,"TEXT_LUCKZH301_03533_SEANARD_000_043","His men fought valiantly at his side, they did. But in the end, he watched every last one of them fall. A cruel twist of fate for such a brave leader of men."
-83,"TEXT_LUCKZH301_03533_MAUWYL_000_044","I'll see what this fellow knows. Why don't you go around and see if any of the soldiers here heard word of the battle?"
-84,"TEXT_LUCKZH301_03533_TAOTISTT_000_045","I may never be Tolas's equal on the battlefield, but just being able to serve with a knight of his pedigree is an honor beyond belief! Mark my words: as long as he stands with us, the Imperative will never fall!"
-85,"TEXT_LUCKZH301_03533_SEANARD_000_046","Aye, if I lost my whole regiment to the sin eaters, I don't know how I'd go on. Tolas is a braver man than I'll ever be, but he's still a man. No doubt the events of that day took a toll on him."
-86,"TEXT_LUCKZH301_03533_MAUWYL_000_050","Drat! Drat it all! I've been asking around, but these guards won't even give me the time of day! I hope you've fared better than I."
-87,"TEXT_LUCKZH301_03533_MAUWYL_000_051","What's this? Tolas lost his entire regiment in the attack, you say!? No wonder he hasn't been himself since that day! "
-88,"TEXT_LUCKZH301_03533_MAUWYL_000_052","Thank you, friend. This certainly puts matters in a different light. But what can we do to ease his burden? That's the question."
-89,"TEXT_LUCKZH301_03533_MAUWYL_000_053","Oh! Before I forget, this is for you. Consider it a token of thanks for coming all the way here to help my friend. I'd be much obliged if you could stay around for a bit."
+48,"TEXT_LUCKZH301_03533_MAUWYL_000_000","なんだい？
+ボクは今、人探しで忙し……。"
+49,"TEXT_LUCKZH301_03533_MAUWYL_100_000","……い、いたー！？
+キミ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さんだろ？
+ずっと探していたんだ！"
+50,"TEXT_LUCKZH301_03533_MAUWYL_000_001","実は、キミにしか頼めないことがあるんだ！
+お願い、話だけでも聞いてくれないかな？"
+51,"TEXT_LUCKZH301_03533_MAUWYL_000_002","ご、ごめん、つい興奮しちゃって……
+ボクはマウィルっていうんだ。"
+52,"TEXT_LUCKZH301_03533_MAUWYL_100_002","普段は、オスタル厳命城を拠点に、
+木こりとして、木材や野草なんかの採集をしているんだよ。"
+53,"TEXT_LUCKZH301_03533_MAUWYL_000_003","この間、レイクランドのあちこちで罪喰いの襲撃があっただろう？
+あのときもボクはオスタル厳命城にいて、
+陰からキミの雄姿を見ていたんだ！"
+54,"TEXT_LUCKZH301_03533_MAUWYL_000_004","キミほど強い人は初めて見たよ！
+ひょっとしたら、トーラスよりも強いかもしれないね！"
+55,"TEXT_LUCKZH301_03533_MAUWYL_000_005","……っと、ごめん、トーラスっていうのはボクの友達なんだ。
+彼は厳命城の部隊に所属する衛兵のひとりで、
+例の襲撃でも、大活躍した剣の達人なんだよ。"
+56,"TEXT_LUCKZH301_03533_MAUWYL_000_006","最近、そんな彼の様子がおかしくて……心配なんだ。
+だけど、戦えないボクには相談できない悩みでもあるのか、
+理由を聞いても何も教えてくれない。"
+57,"TEXT_LUCKZH301_03533_MAUWYL_000_007","そこで、多くの戦いを経験しているであろうキミに、
+トーラスのことを見てやってほしいんだ！
+少し彼の話を聞いてあげるだけでも構わないからさ！"
+58,"TEXT_LUCKZH301_03533_MAUWYL_000_008","キミほどの腕を持った人であれば、
+剣術に長けた彼も、専門的な相談をしやすいはずだし！"
+59,"TEXT_LUCKZH301_03533_MAUWYL_000_009","わざわざ足を運ばせて悪いけど、
+どうかレイクランドの西にある「オスタル厳命城」まで、
+ボクといっしょに来てほしい！"
+60,"TEXT_LUCKZH301_03533_MAUWYL_000_020","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん、来てくれて嬉しいよ！
+さあ、早くトーラスのところに行こう！"
+61,"TEXT_LUCKZH301_03533_TOLAS_000_021","…………。"
+62,"TEXT_LUCKZH301_03533_MAUWYL_000_022","トーラス！
+見てよ、すごい人を連れてきたんだ！"
+63,"TEXT_LUCKZH301_03533_TOLAS_000_023","な、何事だ！？
+敵襲か？　また罪喰いの襲撃なのか！？"
+64,"TEXT_LUCKZH301_03533_MAUWYL_000_024","ちょっと、どうしたの？
+落ち着いてよ、トーラス！"
+65,"TEXT_LUCKZH301_03533_TOLAS_000_025","あ……ああ、襲撃ではない、のか。"
+66,"TEXT_LUCKZH301_03533_TOLAS_000_026","……ふう、すまない。
+どうも先の襲撃以降、気が張り詰めて夜も眠れなくてな。
+任務中だというのに集中力が切れていたようだ。"
+67,"TEXT_LUCKZH301_03533_TOLAS_000_027","……だが！
+俺は栄えあるレイクランド連邦の「騎士」の血を継ぐ者！
+こんなことではいけない、人々を守るためにも精進しなくては！"
+68,"TEXT_LUCKZH301_03533_TOLAS_000_028","おっと、そろそろ巡回の頃合いだ。
+城の周囲を巡るだけゆえ、そう時間もかからないだろう。
+何か用があるなら、その後にな……では、失礼する！"
+69,"TEXT_LUCKZH301_03533_MAUWYL_000_029","ちょっと、トーラス！
+少し話を……。"
+70,"TEXT_LUCKZH301_03533_MAUWYL_000_030","……ね？　やっぱり様子がおかしいでしょ？"
+71,"TEXT_LUCKZH301_03533_Q1_000_000","何と言う？"
+72,"TEXT_LUCKZH301_03533_A1_000_001","明らかに様子がおかしい"
+73,"TEXT_LUCKZH301_03533_A1_000_002","疲れているだけでは？"
+74,"TEXT_LUCKZH301_03533_MAUWYL_000_031","普段のトーラスを知らないキミにも、そう見えるよね？
+はあ……心配だなあ。"
+75,"TEXT_LUCKZH301_03533_MAUWYL_000_032","キミにはそう見える？
+でも……ボクはやっぱり、様子がおかしい気がする、
+普段のトーラスはもっと落ち着いているはずなんだ。"
+76,"TEXT_LUCKZH301_03533_MAUWYL_000_033","きっと大襲撃のときに、何かがあったと思うんだ。
+この厳命城にいるトーラスの同僚たちに、
+当時の話を聞いてみようと思うんだけど……。"
+77,"TEXT_LUCKZH301_03533_MAUWYL_000_034","よかったら、聞き込みを手伝ってくれないかな？
+トーラスが巡回から戻ってくるまでに、
+襲撃の際に何があったのか、突き止めておきたいんだよ。"
+78,"TEXT_LUCKZH301_03533_MAUWYL_000_035","よし、決まりだ！
+それじゃあ手分けして聞いてみよう。"
+79,"TEXT_LUCKZH301_03533_TAOTISTT_000_040","トーラス？　あいつはすごいヤツだよ！
+あいつの部隊は、もっとも激しい戦闘が行われた場所にいたんだ。
+あそこにいて、生き延びたなんて信じられない！"
+80,"TEXT_LUCKZH301_03533_TAOTISTT_000_041","けど、あいつの曽祖父が、オスタルの部下として名を馳せた、
+騎士だって話を聞いて合点がいったよ。
+名門騎士の子孫は、俺たちとは生まれからして違うんだな！"
+81,"TEXT_LUCKZH301_03533_SEANARD_000_042","彼は気の毒な男だよ……。
+大襲撃で、彼の部隊は全滅してしまったんだ。"
+82,"TEXT_LUCKZH301_03533_SEANARD_000_043","同じ場所で共に戦っていながら、
+トーラスだけが生き残ったんだ。
+強さが孤独をもたらすとは……皮肉な話だね。"
+83,"TEXT_LUCKZH301_03533_MAUWYL_000_044","ボクはこの人に話を聞いてみるよ。
+キミは別の人に、大襲撃のときの話を聞いてみて。"
+84,"TEXT_LUCKZH301_03533_TAOTISTT_000_045","あいつの曽祖父はオスタルの部下として名を馳せた騎士だってさ。
+いやぁさすがだね、血は争えないってことだな！
+この厳命城も、あいつがいる限りは安泰だ！"
+85,"TEXT_LUCKZH301_03533_SEANARD_000_046","彼の部隊は罪喰いに敗れ、
+トーラスだけが生き残ったんだ。
+強さが孤独をもたらすとは……皮肉な話だね。"
+86,"TEXT_LUCKZH301_03533_MAUWYL_000_050","ボクの方は、大した情報は掴めなかったよ。
+キミの方はどうだった？"
+87,"TEXT_LUCKZH301_03533_MAUWYL_000_051","えっ、彼ひとりを遺して、部隊が全滅したって！？
+そんなの辛いに決まっているじゃないか！
+トーラスの様子がおかしいのも……。"
+88,"TEXT_LUCKZH301_03533_MAUWYL_000_052","……あ、そういえば！
+わざわざ厳命城まで来てもらったのに、
+そのお礼を渡していなかったね。"
+89,"TEXT_LUCKZH301_03533_MAUWYL_000_053","改めて、ここまで来てくれてありがとう。
+よかったら、もう少し手を貸してくれると助かるよ。"
 90,"TEXT_LUCKZH301_03533_SOLDIERA03533_000_040","（★未使用／削除予定★）"
 91,"TEXT_LUCKZH301_03533_SOLDIERA03533_000_041","（★未使用／削除予定★）"
 92,"TEXT_LUCKZH301_03533_SOLDIERB03533_000_042","（★未使用／削除予定★）"

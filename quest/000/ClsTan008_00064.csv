@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSTAN008_00064_SEQ_00","A recent order has Guildmaster Geva flustered."
-1,"TEXT_CLSTAN008_00064_SEQ_01","A client has requested that his commission be filled by the guildmaster herself. Disinclined to indulge this request, Guildmaster Geva has instead delegated the task to you. Craft a pair of boarskin smithy's gloves to the best of your ability and present it to Geva for inspection."
-2,"TEXT_CLSTAN008_00064_SEQ_02","Guildmaster Geva assures you that her client will be unable to distinguish the gloves you have crafted from ones of her own making. Take her at her word and deliver the gloves to the blacksmith waiting outside Fen–Yll Fineries."
-3,"TEXT_CLSTAN008_00064_SEQ_03","The blacksmith praises your craftsmanship, proclaiming the gloves you fashioned are the finest he has ever owned. Report your success to Geva at the Leatherworkers' Guild."
-4,"TEXT_CLSTAN008_00064_SEQ_04","The patterns which bear Geva's name were developed years ago in response to a rash of counterfeiting. Realizing that she could not prevent others from copying her creations, Geva swore a vow that the next line of Geva toadskin bags would be made with an eye towards economy, and that the patterns used would enable inexperienced leatherworkers to reproduce her designs with minimal waste. However, as an artisan worthy the Fen–Yll name, you do not need to rely upon her patterns. Filled with pride in seeing you uphold the guild's high standards, she encourages you to continue your efforts.
+0,"TEXT_CLSTAN008_00064_SEQ_00","革細工師ギルドのゲヴァが、何やら頭を抱えているようだ。"
+1,"TEXT_CLSTAN008_00064_SEQ_01","ゲヴァから依頼を受けた。グリダニアの革細工師ギルドにいる「ゲヴァ」に「<Sheet(ItemHQ,　3639,0)/>」を1個見せよう。"
+2,"TEXT_CLSTAN008_00064_SEQ_02","ゲヴァに<Sheet(ItemHQ,　3639,0)/>を見せた。グリダニアの工芸「フェン・イル」にいる「熟練の鍛冶師」に「<Sheet(ItemHQ,　3639,0)/>」を納品しよう。"
+3,"TEXT_CLSTAN008_00064_SEQ_03","熟練の鍛冶師に<Sheet(ItemHQ,　3639,0)/>を納品した。グリダニアの革細工師ギルドにいる「ゲヴァ」に報告しよう。"
+4,"TEXT_CLSTAN008_00064_SEQ_04","ゲヴァに報告した。かつて生命を金に代えるような所作に傷ついたゲヴァは、それ以来、生命を敬う革細工に重きを置いているのだという。彼女の信念を体現した「ゲヴァパターン」と同等の品を仕立てた冒険者に、賛辞を呈するゲヴァ。気を抜かず、さらに精進しよう。
 
-※The next leatherworker quest will be available from Geva upon reaching level 45."
+※革細工師のレベルが45以上になると、ゲヴァから次の革細工師クエストを受注することができます。"
 5,"TEXT_CLSTAN008_00064_SEQ_05",""
 6,"TEXT_CLSTAN008_00064_SEQ_06",""
 7,"TEXT_CLSTAN008_00064_SEQ_07",""
@@ -27,9 +27,9 @@ int32,str,str
 21,"TEXT_CLSTAN008_00064_SEQ_21",""
 22,"TEXT_CLSTAN008_00064_SEQ_22",""
 23,"TEXT_CLSTAN008_00064_SEQ_23",""
-24,"TEXT_CLSTAN008_00064_TODO_00","Present a pair of boarskin smithy's gloves <Sheet(Addon,9,0)/> to Geva."
-25,"TEXT_CLSTAN008_00064_TODO_01","Deliver the boarskin smithy's gloves <Sheet(Addon,9,0)/> to the blacksmith."
-26,"TEXT_CLSTAN008_00064_TODO_02","Report to Geva."
+24,"TEXT_CLSTAN008_00064_TODO_00","ゲヴァに<Sheet(ItemHQ,　3639,0)/>を見せる"
+25,"TEXT_CLSTAN008_00064_TODO_01","熟練の鍛冶師に<Sheet(ItemHQ,　3639,0)/>を納品"
+26,"TEXT_CLSTAN008_00064_TODO_02","ゲヴァに報告"
 27,"TEXT_CLSTAN008_00064_TODO_03",""
 28,"TEXT_CLSTAN008_00064_TODO_04",""
 29,"TEXT_CLSTAN008_00064_TODO_05",""
@@ -51,40 +51,96 @@ int32,str,str
 45,"TEXT_CLSTAN008_00064_TODO_21",""
 46,"TEXT_CLSTAN008_00064_TODO_22",""
 47,"TEXT_CLSTAN008_00064_TODO_23",""
-48,"TEXT_CLSTAN008_00064_GEVA_000_001","Rhalgr take me! Of all the times for <Emphasis>this</Emphasis> order to come in..."
-49,"TEXT_CLSTAN008_00064_GEVA_000_002","Here, have a look, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. “An order for a pair of boarskin smithy's gloves made by the guildmaster herself, using her famous Geva patterns.” To be delivered <Emphasis>posthaste</Emphasis>, no less."
-50,"TEXT_CLSTAN008_00064_GEVA_000_003","I'd bet a month's earnings that this oaf couldn't tell my handiwork from a goobbue's arse, but does that stop him from filing such a tactless order when I'm up to my very ears in work for the exhibition? Apparently not!"
-51,"TEXT_CLSTAN008_00064_GEVA_000_004","<Emphasis>Posthaste</Emphasis>!? I'd deliver a slap upside the head <Emphasis>posthaste</Emphasis> if it wouldn't have negative repercussions for guild business. <sigh> Fortunately, my new assistant has arrived."
-52,"TEXT_CLSTAN008_00064_GEVA_000_005","Why, you, of course, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I <Emphasis>did</Emphasis> mention that I'd be delegating work to you while I focused on the exhibition, did I not?"
-53,"TEXT_CLSTAN008_00064_GEVA_000_006","What about the customer's conditions, you say? Bah! He'll get a pair of gloves made by the famous <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> <If(PlayerParameter(4))>herself<Else/>himself</If>, and he'll like them just fine."
-54,"TEXT_CLSTAN008_00064_GEVA_000_010","Well? Have you brought the work of the famous <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>?"
-55,"TEXT_CLSTAN008_00064_GEVA_000_011","A smithy's gloves must be sturdy enough to protect his hands from the fires of the forge."
-56,"TEXT_CLSTAN008_00064_GEVA_000_012","At the same time, they must be pliant enough so as not to hinder the precise movements needed to work fine steel."
-57,"TEXT_CLSTAN008_00064_GEVA_000_013","Crafted from boarskin─lightweight, tough, and resistant to friction─this pair of smithy's gloves represents the best of both worlds."
-58,"TEXT_CLSTAN008_00064_GEVA_000_014","The simple design allows the five fingers to move with full range of motion─the ideal handwear for any capable smith."
-59,"TEXT_CLSTAN008_00064_GEVA_000_015","Your work has admirably captured each of these essential points. I am happy to sign off on it. You may deliver it to Fen–Yll Fineries without delay."
-60,"TEXT_CLSTAN008_00064_GEVA_000_016","What, the Geva patterns? Do not worry yourself about such foolishness. Have I not told you that he will know no better?"
-61,"TEXT_CLSTAN008_00064_GEVA_000_017","At any rate, off with you. Even a fool of a client is a valued customer."
-62,"TEXT_CLSTAN008_00064_BLACKSMITH_000_020","My very first pair of custom-made smithy's gloves─made by the famous Guildmaster Geva, to boot─are set to arrive from the Leatherworkers' Guild any moment now! I can hardly wait to try them on!"
-63,"TEXT_CLSTAN008_00064_BLACKSMITH_000_021","A delivery for me, you say? Oh, do hand it over. And quickly, if you would!"
-64,"TEXT_CLSTAN008_00064_BLACKSMITH_000_022","Now what have we...? Hoglets to hornets and Byregot's my uncle─if this isn't the finest, most comfortable pair of gloves I've ever laid hands on! And to think they are the─ Hm, what's that you say?"
-65,"TEXT_CLSTAN008_00064_Q1_000_1","Tell the blacksmith the truth?"
-66,"TEXT_CLSTAN008_00064_A1_000_1","Yes"
-67,"TEXT_CLSTAN008_00064_A1_000_2","No"
-68,"TEXT_CLSTAN008_00064_BLACKSMITH_000_024","I am but a simple blacksmith, but I can read your face. Admit it, now: you would demand a higher price for such impeccable craftsmanship. That's it, yes?"
-69,"TEXT_CLSTAN008_00064_BLACKSMITH_000_025","Wh-What's that, you say!? These gloves are not the work of Geva?"
-70,"TEXT_CLSTAN008_00064_BLACKSMITH_000_026","Why, I never... I could just... I... I..."
-71,"TEXT_CLSTAN008_00064_BLACKSMITH_000_027","I couldn't give two shites about that! Haha! Hahahahahaha!"
-72,"TEXT_CLSTAN008_00064_BLACKSMITH_000_028","Friend, I don't know a damn thing about you leatherworkers and your patterns."
-73,"TEXT_CLSTAN008_00064_BLACKSMITH_000_029","A fellow smith assured me that Geva's gloves were of peerless quality, and that was enough for me. I placed my order that same day, sight unseen."
-74,"TEXT_CLSTAN008_00064_BLACKSMITH_000_030","And I am glad I did, for you have brought me the most comfortable pair of smithy's gloves I've ever had the pleasure to own. You and the guildmaster have my utmost gratitude."
-75,"TEXT_CLSTAN008_00064_BLACKSMITH_000_035","You've brought me the most comfortable pair of smithing gloves I've ever had the pleasure to own. Thank you."
-76,"TEXT_CLSTAN008_00064_GEVA_000_040","Heh heh. Another satisfied customer, yes? I told you that you worried for naught, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
-77,"TEXT_CLSTAN008_00064_GEVA_000_041","Oh, I suppose you're still curious about those Geva patterns, aren't you. Allow me to explain."
-78,"TEXT_CLSTAN008_00064_GEVA_000_042","Some years ago, Gridanians took quite a fancy to a toadskin bag of my design. So popular were the bags that they quickly sold out, driving prices up to a premium."
-79,"TEXT_CLSTAN008_00064_GEVA_000_043","What do you suppose happened next? Greedy artisans sought to cash in on my success. Toads were hunted nigh to extinction, and a host of imitation bags flooded the market."
-80,"TEXT_CLSTAN008_00064_GEVA_000_044","I was devastated, as a proud leatherworker and lover of nature both. But what could I do? For weeks, months, I struggled, yet felt powerless against the forces of greed."
-81,"TEXT_CLSTAN008_00064_GEVA_000_045","That's when it struck me. Even if I could not stop others from copying my creations, I could at least ensure that their work was not needlessly destructive. I swore a vow that the next line of Geva toadskin bags would be made with an eye towards economy, and that the patterns used to craft these wares would enable inexperienced leatherworkers to reproduce my designs with minimal waste."
-82,"TEXT_CLSTAN008_00064_GEVA_000_046","Do you see now, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>? Artisans worthy of the Fen–Yll name do not need to rely on Geva patterns. They already respect the natural world to which we owe our livelihood."
-83,"TEXT_CLSTAN008_00064_GEVA_000_047","This is something that cannot be taught, yet it has clearly awakened within you. "
-84,"TEXT_CLSTAN008_00064_GEVA_000_048","Which is why I did not hesitate to entrust you with this task─and why you can expect many more to come."
+48,"TEXT_CLSTAN008_00064_GEVA_000_001","はぁ……まったく、
+忙しい時に限って厄介な依頼が来るんだから。"
+49,"TEXT_CLSTAN008_00064_GEVA_000_002","アタシが「ゲヴァパターン」で仕立てた
+<Sheet(ItemHQ,　3639,0)/>の注文よ。"
+50,"TEXT_CLSTAN008_00064_GEVA_000_003","どうせ「ゲヴァパターン」の意味も知らないくせに、
+こういう依頼が尽きないのよねえ……。
+ご指名はありがたいけど、考えものだわ。"
+51,"TEXT_CLSTAN008_00064_GEVA_000_004","ん？　「ゲヴァパターン」ってのは、何かって？
+あら、あんたには話してなかったっけ。"
+52,"TEXT_CLSTAN008_00064_GEVA_000_005","……そうだわ、ちょうどいい。
+ちょっとあんた、この依頼に挑戦してごらんよ。"
+53,"TEXT_CLSTAN008_00064_GEVA_000_006","「<Sheet(ItemHQ,　3639,0)/>」を、
+今のあんたの「本気」で仕立てあげて、持ってきな。
+つべこべ言わずに、ほら、任せたわよ！"
+54,"TEXT_CLSTAN008_00064_GEVA_000_010","「<Sheet(ItemHQ,　3639,0)/>」を、
+あんたの「本気」で仕立てて、持ってきな。"
+55,"TEXT_CLSTAN008_00064_GEVA_000_011","スミスグローブっていうのは、元々、
+鍛冶師のために作られたグローブを指すの。"
+56,"TEXT_CLSTAN008_00064_GEVA_000_012","熱せられた金属を加工する鍛冶師の手元を、
+高熱から守るために、丈夫な革を使って作られたのが
+<Sheet(ItemHQ,　3639,0)/>。"
+57,"TEXT_CLSTAN008_00064_GEVA_000_013","ボアの革の特性は、以前、教えたわね？
+軽くて丈夫で、摩擦に強いということ。"
+58,"TEXT_CLSTAN008_00064_GEVA_000_014","繊細な作業の妨げにならないよう、
+ボア革の軽さを活かし、標準的なグローブ……
+5本の指が、独立して覆われる型に作られているのよ。"
+59,"TEXT_CLSTAN008_00064_GEVA_000_015","よし、上出来ね。
+それじゃこれを、工芸「フェン・イル」にいる、
+依頼人のところに持っていきなさい。"
+60,"TEXT_CLSTAN008_00064_GEVA_000_016","……ん？
+「ゲヴァパターン」じゃないことを心配してるの？
+大丈夫、分かりっこないし、それに……"
+61,"TEXT_CLSTAN008_00064_GEVA_000_017","……まあとにかく、届けてらっしゃい。
+職人が依頼人を待たすんじゃないわよ。
+帰ってきたら「ゲヴァパターン」の意味を教えてあげるわ。"
+62,"TEXT_CLSTAN008_00064_BLACKSMITH_000_020","革細工師ギルドの親方ゲヴァさんに、
+「ゲヴァパターン」の「<Sheet(ItemHQ,　3639,0)/>」を
+頼んだんだ！　ああ、楽しみだなぁ！"
+63,"TEXT_CLSTAN008_00064_BLACKSMITH_000_021","おや、革細工師ギルドの職人さんかな。
+頼んでいた品を届けに来てくれたんだね！
+どれどれ……"
+64,"TEXT_CLSTAN008_00064_BLACKSMITH_000_022","おお、こ、これは……なんて美しいグローブだ！
+はぁ……さすがは「ゲヴァパターン」だ……！
+……おや、どうかしたのかい、何か言いたそうだね？"
+65,"TEXT_CLSTAN008_00064_Q1_000_1","本当のことを言う？"
+66,"TEXT_CLSTAN008_00064_A1_000_1","はい"
+67,"TEXT_CLSTAN008_00064_A1_000_2","いいえ"
+68,"TEXT_CLSTAN008_00064_BLACKSMITH_000_024","いやいや、そんな顔をされたら気になってしまうよ。
+報酬が足りない、それとも別のものがいい？
+さあ、なんでも言ってくれよ！"
+69,"TEXT_CLSTAN008_00064_BLACKSMITH_000_025","なになに……えっ？
+このグローブは「ゲヴァパターン」じゃないって！？"
+70,"TEXT_CLSTAN008_00064_BLACKSMITH_000_026","そ、そんな……"
+71,"TEXT_CLSTAN008_00064_BLACKSMITH_000_027","そんな……ことは…………どうでもいいっ！
+僕は、この素晴らしいグローブに感動したっ！
+誰がどう作ったかなんて関係ないよ！"
+72,"TEXT_CLSTAN008_00064_BLACKSMITH_000_028","それに……実を言うと、僕「ゲヴァパターン」の意味を
+知らないまま頼んでしまったんだ。
+あはは、お恥ずかしい。"
+73,"TEXT_CLSTAN008_00064_BLACKSMITH_000_029","このグローブが「ゲヴァパターン」でなかろうと、
+またとない逸品であることは、変わりないよ！
+僕は、それだけで満足さ！"
+74,"TEXT_CLSTAN008_00064_BLACKSMITH_000_030","とにかく、この素晴らしいグローブを作ってくれた君に
+お礼を言わせてほしい。ありがとう！
+「ゲヴァ」さんにも、そう伝えてくれ。"
+75,"TEXT_CLSTAN008_00064_BLACKSMITH_000_035","この素晴らしいグローブを作ってくれた君に
+お礼を言わせてほしい。ありがとう！
+ゲヴァさんにも、そう伝えてくれ。"
+76,"TEXT_CLSTAN008_00064_GEVA_000_040","ふふふ……。「大丈夫」だったろ？
+じゃ、約束どおり、「ゲヴァパターン」の意味を教えよう。"
+77,"TEXT_CLSTAN008_00064_GEVA_000_041","「ゲヴァパターン」ってのは、
+デザインでも模様でもない、型紙のとり方のことなのさ。
+1枚の皮を無駄なく使うために、アタシが考案した、ね。"
+78,"TEXT_CLSTAN008_00064_GEVA_000_042","……昔、アタシの作ったトード革のカバンが流行ってさ、
+皆がいっせいに自分の真似をして、
+トードの乱獲が起きたことがあったんだ。"
+79,"TEXT_CLSTAN008_00064_GEVA_000_043","生命を金に変えるような所作には腹がたったし、
+生命への敬意を忘れた品が、はびこるのが悲しかった。"
+80,"TEXT_CLSTAN008_00064_GEVA_000_044","だからアタシは、「ゲヴァパターン」を考案した。
+この型紙のとり方じゃないと、
+アタシのカバンは作れないって言ってやったってわけ。"
+81,"TEXT_CLSTAN008_00064_GEVA_000_045","お陰でトードの乱獲はおさまったけど、
+代わりに、いつのまにか名前が一人歩きしちゃってねぇ。
+いろんな誤解が生まれたのさ。"
+82,"TEXT_CLSTAN008_00064_GEVA_000_046","いいかい、本当にいい品っていうのは、
+デザインや、型紙で決まるものじゃない。
+使い手への思いやりと生命への敬意よ。"
+83,"TEXT_CLSTAN008_00064_GEVA_000_047","……<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
+あんたは、いい革細工師になったね。
+でも、気を緩めるんじゃないよ。"
+84,"TEXT_CLSTAN008_00064_GEVA_000_048","職人は一瞬一瞬が勝負なんだ。
+もしも半端なものを作ったら、
+アタシが「無駄なく隅々まで」なめしてやるからね！"

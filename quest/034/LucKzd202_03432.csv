@@ -1,8 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKZD202_03432_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-Thon An would entrust you with a map."
+0,"TEXT_LUCKZD202_03432_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+ゾン＝アンは、フッブートの古地図を冒険者に託したいらしい。"
 1,"TEXT_LUCKZD202_03432_SEQ_01",""
 2,"TEXT_LUCKZD202_03432_SEQ_02",""
 3,"TEXT_LUCKZD202_03432_SEQ_03",""
@@ -26,8 +26,8 @@ Thon An would entrust you with a map."
 21,"TEXT_LUCKZD202_03432_SEQ_21",""
 22,"TEXT_LUCKZD202_03432_SEQ_22",""
 23,"TEXT_LUCKZD202_03432_SEQ_23",""
-24,"TEXT_LUCKZD202_03432_TODO_00","Search for the piece of evidence in the vicinity of Deepwood Swim."
-25,"TEXT_LUCKZD202_03432_TODO_01","Deliver the Voeburtite lockbox to Thon An."
+24,"TEXT_LUCKZD202_03432_TODO_00","魚たちの街付近を探し、<Sheet(EObj,2010715,0)/>を調べる"
+25,"TEXT_LUCKZD202_03432_TODO_01","ゾン＝アンに<Sheet(EventItem,2002886,0)/>を渡す"
 26,"TEXT_LUCKZD202_03432_TODO_02",""
 27,"TEXT_LUCKZD202_03432_TODO_03",""
 28,"TEXT_LUCKZD202_03432_TODO_04",""
@@ -50,26 +50,44 @@ Thon An would entrust you with a map."
 45,"TEXT_LUCKZD202_03432_TODO_21",""
 46,"TEXT_LUCKZD202_03432_TODO_22",""
 47,"TEXT_LUCKZD202_03432_TODO_23",""
-48,"TEXT_LUCKZD202_03432_THONAN_000_001","Ah, a traveler comes who has the air of dependability about <If(PlayerParameter(4))>her<Else/>him</If>. Look upon this map, if you will. It belonged to my master, a knight of Voeburt, and it points to a piece of evidence in a matter that he was investigating."
-49,"TEXT_LUCKZD202_03432_THONAN_000_002","Alas, my master is long dead, and the place indicated upon the map lies drowned beneath Longmirror Lake. We amaro are not made for the water and I am unable to reach this place. If you consider yourself a strong swimmer, will you not search in my stead?"
-50,"TEXT_LUCKZD202_03432_THONAN_000_003","I am in your debt. The place you seek is in the vicinity of Deepwood Swim. Please dive down there and see what you find."
-51,"TEXT_LUCKZD202_03432_THONAN_000_004","The place you seek is in the vicinity of Deepwood Swim. Please dive down there and see what you find."
-52,"TEXT_LUCKZD202_03432_THONAN_000_020","Ah, you are returned. Were you able to find anything?"
-53,"TEXT_LUCKZD202_03432_THONAN_000_021","Hmmm, an ordinary lockbox at a glance. Perhaps the evidence is within. I have not the appendages with which to open it, so please do the honors."
-54,"TEXT_LUCKZD202_03432_SYSTEM_000_022","With a little exertion, the lid comes loose to reveal a piece of parchment, timeworn but miraculously untouched by water. The contents can clearly be made out."
-55,"TEXT_LUCKZD202_03432_THONAN_000_023","This is a letter, bearing the symbol of Voeburt's royal mages and addressed to a noble house. A house aligned with the faction that sought to usurp the crown..."
-56,"TEXT_LUCKZD202_03432_THONAN_000_024","It seems that the mages were in league with the insurgents. Had my master seen this, he would have stopped at nothing to bring them all to justice."
-57,"TEXT_LUCKZD202_03432_THONAN_000_025","However, all was rendered moot by the Flood. My master, the traitors, the kingdom itself─all are no more."
-58,"TEXT_LUCKZD202_03432_THONAN_000_026","Yet in retrieving this letter, you have brought my master the closure that had long eluded him. He may rest easier now, I believe. My thanks for your kind service."
-59,"TEXT_LUCKZD202_03432_BUPHAMARO_000_001",""
-60,"TEXT_LUCKZD202_03432_BUPHAMARO_000_002",""
-61,"TEXT_LUCKZD202_03432_BUPHAMARO_000_003",""
-62,"TEXT_LUCKZD202_03432_BUPHAMARO_000_004",""
-63,"TEXT_LUCKZD202_03432_BUPHAMARO_000_020",""
-64,"TEXT_LUCKZD202_03432_BUPHAMARO_000_021",""
-65,"TEXT_LUCKZD202_03432_BUPHAMARO_000_022",""
-66,"TEXT_LUCKZD202_03432_BUPHAMARO_000_023",""
-67,"TEXT_LUCKZD202_03432_BUPHAMARO_000_024",""
-68,"TEXT_LUCKZD202_03432_BUPHAMARO_000_025",""
-69,"TEXT_LUCKZD202_03432_BUPHAMARO_000_026",""
-70,"TEXT_LUCKZD202_03432_SYSTEM_000_010",""
+48,"TEXT_LUCKZD202_03432_THONAN_000_001","嗚呼、ようやく頼み事をできそうな、ヒトの旅人が！
+これを見て……フッブート王国の騎士だった僕の主人が、
+最後に調べていた事件の、手がかりを示す地図らしい。"
+49,"TEXT_LUCKZD202_03432_THONAN_000_002","地図の場所は今や、街と共に湖に沈んでしまっているんだ。
+「光の氾濫」で彼も亡くなり、泳げない僕では調べることも……
+もし泳ぎが得意なら、捜索を頼めないかな？"
+50,"TEXT_LUCKZD202_03432_THONAN_000_003","ありがとう！
+「姿見の湖」の「魚たちの街」にあたる辺りで、
+古地図の示す場所に何があるのか、調べてきておくれ！"
+51,"TEXT_LUCKZD202_03432_THONAN_000_004","水中を探す手立てがあるのかい？
+「姿見の湖」の「魚たちの街」で、
+古地図の示す場所に何があるのか、調べてきておくれ！"
+52,"TEXT_LUCKZD202_03432_THONAN_000_020","地図の示す場所で、何か見つかったかい？"
+53,"TEXT_LUCKZD202_03432_THONAN_000_021","これは……「フッブート様式の小箱」のようだね。
+アマロの口では開けられそうにないや、
+中身を取り出してもらえるかい？"
+54,"TEXT_LUCKZD202_03432_SYSTEM_000_022","箱の中から、古びた手紙を見つけた。
+小箱に守られ、奇跡的に中身を読むことができそうだ。"
+55,"TEXT_LUCKZD202_03432_THONAN_000_023","この印は、フッブート王国の宮廷魔道士のもの……
+そして宛先は、国王に反発していた派閥の有力貴族だね。
+王位簒奪を狙った魔道士が、貴族と交わそうとした密約か……。"
+56,"TEXT_LUCKZD202_03432_THONAN_000_024","どうやら、国を揺るがす大事件が起きようとしていたみたいだ。
+この書簡を当時、僕の主人が見つけていたなら、
+魔道士たちを訴追すべく、目の色を変えて駆け回っていたかな。"
+57,"TEXT_LUCKZD202_03432_THONAN_000_025","いずれにせよ、「光の氾濫」によって、主人も貴族たちも、
+そしてフッブート王国も失われてしまった。"
+58,"TEXT_LUCKZD202_03432_THONAN_000_026","事件の重大な証拠だったろうこの手紙も、
+今は、主人の思い出としてだけ、意味があるのかな。
+100年湖底にあった彼の未練を救えたようだよ……ありがとう。"
+59,"TEXT_LUCKZD202_03432_BUPHAMARO_000_001","（★未使用／削除予定★）"
+60,"TEXT_LUCKZD202_03432_BUPHAMARO_000_002","（★未使用／削除予定★）"
+61,"TEXT_LUCKZD202_03432_BUPHAMARO_000_003","（★未使用／削除予定★）"
+62,"TEXT_LUCKZD202_03432_BUPHAMARO_000_004","（★未使用／削除予定★）"
+63,"TEXT_LUCKZD202_03432_BUPHAMARO_000_020","（★未使用／削除予定★）"
+64,"TEXT_LUCKZD202_03432_BUPHAMARO_000_021","（★未使用／削除予定★）"
+65,"TEXT_LUCKZD202_03432_BUPHAMARO_000_022","（★未使用／削除予定★）"
+66,"TEXT_LUCKZD202_03432_BUPHAMARO_000_023","（★未使用／削除予定★）"
+67,"TEXT_LUCKZD202_03432_BUPHAMARO_000_024","（★未使用／削除予定★）"
+68,"TEXT_LUCKZD202_03432_BUPHAMARO_000_025","（★未使用／削除予定★）"
+69,"TEXT_LUCKZD202_03432_BUPHAMARO_000_026","（★未使用／削除予定★）"
+70,"TEXT_LUCKZD202_03432_SYSTEM_000_010","（★未使用／削除予定★）"

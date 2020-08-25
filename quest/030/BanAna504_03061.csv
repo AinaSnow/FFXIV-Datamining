@@ -1,9 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANANA504_03061_SEQ_00","Eshana needs help with a vermin outbreak.
+0,"TEXT_BANANA504_03061_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト受注クラス・ジョブ制限<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+※本クエストは受注時のクラス・ジョブでのみ進行します。
 
-※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
+カステッルム・ベロジナのエシャナは、残飯へ群がる魔物に手を焼いているようだ。"
 1,"TEXT_BANANA504_03061_SEQ_01",""
 2,"TEXT_BANANA504_03061_SEQ_02",""
 3,"TEXT_BANANA504_03061_SEQ_03",""
@@ -27,9 +28,10 @@ int32,str,str
 21,"TEXT_BANANA504_03061_SEQ_21",""
 22,"TEXT_BANANA504_03061_SEQ_22",""
 23,"TEXT_BANANA504_03061_SEQ_23",""
-24,"TEXT_BANANA504_03061_TODO_00","Speak with Dakshina."
-25,"TEXT_BANANA504_03061_TODO_01","Use the marid's Trample ability on Velodyna ants in Virdjala."
-26,"TEXT_BANANA504_03061_TODO_02","Report to Eshana."
+24,"TEXT_BANANA504_03061_TODO_00","ダクシャナと話す"
+25,"TEXT_BANANA504_03061_TODO_01","力自慢のマーリドに騎乗してヴィルジャラの涸れ谷へ向かい
+現れた<Sheet(BNpcName,7033,0)/>に踏みつけを使い討伐"
+26,"TEXT_BANANA504_03061_TODO_02","エシャナに報告"
 27,"TEXT_BANANA504_03061_TODO_03",""
 28,"TEXT_BANANA504_03061_TODO_04",""
 29,"TEXT_BANANA504_03061_TODO_05",""
@@ -51,16 +53,37 @@ int32,str,str
 45,"TEXT_BANANA504_03061_TODO_21",""
 46,"TEXT_BANANA504_03061_TODO_22",""
 47,"TEXT_BANANA504_03061_TODO_23",""
-48,"TEXT_BANANA504_03061_ESHANA_000_000","Now that you have grown accussstomed to riding marids, there is a task I would asssk of you."
-49,"TEXT_BANANA504_03061_ESHANA_000_001","We have been sssuffering an outbreak of ants. They are drawn to kitchen ssscraps from the lodgings, and are causing our patrons no end of grief, getting into their unmentionables among other unpleasant places."
-50,"TEXT_BANANA504_03061_ESHANA_000_002","If we are to have any ressspite from these pests, we must ssstrike them at their nest. I would have you do the honors upon one of our trusssty marids."
-51,"TEXT_BANANA504_03061_ESHANA_100_002","If we are to have any ressspite from these pests, we must ssstrike them at their nest. I would have you do the honors again upon one of our trusssty marids."
-52,"TEXT_BANANA504_03061_ESHANA_000_003","Speak with Dakshina, our maridkeep, and she will furnish you with further inssstructions."
-53,"TEXT_BANANA504_03061_DAKSHINA_000_010","I have been expecting you, ant-ssslayer. Your task is sssimple: hop on a marid, ride it over to Virdjala, and have it trample ants. We have placed bait there to lure them out."
-54,"TEXT_BANANA504_03061_DAKSHINA_000_011","Once you have finished the task, feel free to disssmount your marid. It will make its own way back here."
-55,"TEXT_BANANA504_03061_DAKSHINA_000_025","Want to get back on the marid, do you? Very well."
-56,"TEXT_BANANA504_03061_ESHANA_000_030","I could feel the marid's mighty ssstomping all the way here. That should keep us free of antsss for a time."
-57,"TEXT_BANANA504_03061_ESHANA_100_030","I could feel the marid's mighty ssstomping all the way here. That should keep us free of antsss for a time."
-58,"TEXT_BANANA504_03061_ESHANA_000_031","Ours is a harsh land with little to sssustain life, and the creatures only do what they must to sssurvive. That being said, we cannot well allow them to overrun the area."
-59,"TEXT_BANANA504_03061_ESHANA_000_032","The people's sssafety is our priority, and today you have done your part to ensure it. Pleassse accept this as token of our appreciation."
-60,"TEXT_BANANA504_03061_DAKSHINA_000_035","Judging by the sssticky mess on the marid's feet, I sssee you have dealt with the antsss. Go on and report back to Eshana."
+48,"TEXT_BANANA504_03061_ESHANA_000_000","シュー……同志よ。
+マーリドにも乗りなれたところで、ひとつ頼みたいことがある。"
+49,"TEXT_BANANA504_03061_ESHANA_000_001","簡易宿泊所を始めたところ、残飯が前よりも多く出るからか、
+アントリングが湧いてしまってな……。
+施設の利用者ともども、迷惑しているのだ。"
+50,"TEXT_BANANA504_03061_ESHANA_000_002","湧くたびに退治しているが、埒が明かぬ。
+そこで、巣があると思われる場所へ、餌をしかけてきたゆえ、
+マーリドを用いて、奴らを一気に駆除してもらいたいのだ。"
+51,"TEXT_BANANA504_03061_ESHANA_100_002","前にも駆除してもらったが、また大量に湧いてきてな。
+そこで、巣がある場所へ、餌をしかけてきたゆえ、
+マーリドを用いて、奴らを一気に駆除してもらいたいのだ。"
+52,"TEXT_BANANA504_03061_ESHANA_000_003","詳しいことは、戦象使いの「ダクシャナ」が説明するゆえ、
+すまないが、よろしく頼むぞ。"
+53,"TEXT_BANANA504_03061_DAKSHINA_000_010","シュー……エシャナから仕事を頼まれたのだな。
+では「力自慢のマーリド」に乗り、涸れ谷へ撒いた餌ごと、
+「<Sheet(BNpcName,7033,0)/>」を存分に「踏みつけ」るがよい……。"
+54,"TEXT_BANANA504_03061_DAKSHINA_000_011","乗り手を失ったマーリドは、ここへと戻るよう教育してある。
+仕事を終えたら、降りてしまっても構わないぞ。"
+55,"TEXT_BANANA504_03061_DAKSHINA_000_025","シュー……マーリドに乗りたいと？
+いいだろう……。"
+56,"TEXT_BANANA504_03061_ESHANA_000_030","シュー……マーリドの踏みつける音、こちらまで轟いてきたぞ。
+巣の場所は、あの辺りで間違いないようだな。
+これでアントリングたちも、しばらくは鳴りを潜めよう。"
+57,"TEXT_BANANA504_03061_ESHANA_100_030","シュー……マーリドの踏みつける音、こちらまで轟いてきたぞ。
+あれだけの音を聞けば、隠れているアントリングたちも、
+しばらくの間は鳴りを潜めよう。"
+58,"TEXT_BANANA504_03061_ESHANA_000_031","エサの少ない地ゆえに、奴らも生きるために必死なのだろうが、
+情けをかけて、放置しておくこともできん。
+利用者の安全を守ることもまた、我が隊の役目なのだからな。"
+59,"TEXT_BANANA504_03061_ESHANA_000_032","さて、協力に感謝しつつ、報酬を支払うとしよう。
+また手伝いが必要になったら依頼を出すゆえ、よろしく頼むぞ。"
+60,"TEXT_BANANA504_03061_DAKSHINA_000_035","シュー……アントリングを退治し終わったのだな……。
+あのマーリドにはこちらで褒美を与えておくゆえ、
+お前は「エシャナ」へ報告を頼むぞ。"

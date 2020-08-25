@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKMF106_03649_SEQ_00","Y'shtola appears deep in thought."
+0,"TEXT_LUCKMF106_03649_SEQ_00","オンドの潮溜まりのヤ・シュトラは、深く考え込んでいるようだ。"
 1,"TEXT_LUCKMF106_03649_SEQ_01",""
 2,"TEXT_LUCKMF106_03649_SEQ_02",""
 3,"TEXT_LUCKMF106_03649_SEQ_03",""
@@ -25,12 +25,12 @@ int32,str,str
 21,"TEXT_LUCKMF106_03649_SEQ_21",""
 22,"TEXT_LUCKMF106_03649_SEQ_22",""
 23,"TEXT_LUCKMF106_03649_SEQ_23",""
-24,"TEXT_LUCKMF106_03649_TODO_00","Speak with Y'shtola."
-25,"TEXT_LUCKMF106_03649_TODO_01","Inspect the Ondo Cups from the survey point."
-26,"TEXT_LUCKMF106_03649_TODO_02","Use the mythril knife to collect scrapings from the remnant wall."
-27,"TEXT_LUCKMF106_03649_TODO_03","Speak with Y'shtola."
-28,"TEXT_LUCKMF106_03649_TODO_04","Find a structure which resembles those in the copy of the Qitana Ravel mural, then inspect it from the survey point."
-29,"TEXT_LUCKMF106_03649_TODO_05","Speak with Y'shtola."
+24,"TEXT_LUCKMF106_03649_TODO_00","ヤ・シュトラと話す"
+25,"TEXT_LUCKMF106_03649_TODO_01","<Sheet(EObj,2010141,0)/>から、オンドの潮溜まりを観察"
+26,"TEXT_LUCKMF106_03649_TODO_02","<Sheet(EObj,2010142,0)/>に<Sheet(EventItem,2002673,0)/>を使う"
+27,"TEXT_LUCKMF106_03649_TODO_03","ヤ・シュトラと話す"
+28,"TEXT_LUCKMF106_03649_TODO_04","<Sheet(EventItem,2002674,0)/>に似た遺構を探し、付近の<Sheet(EObj,2010143,0)/>で見渡す"
+29,"TEXT_LUCKMF106_03649_TODO_05","ヤ・シュトラと話す"
 30,"TEXT_LUCKMF106_03649_TODO_06",""
 31,"TEXT_LUCKMF106_03649_TODO_07",""
 32,"TEXT_LUCKMF106_03649_TODO_08",""
@@ -49,55 +49,118 @@ int32,str,str
 45,"TEXT_LUCKMF106_03649_TODO_21",""
 46,"TEXT_LUCKMF106_03649_TODO_22",""
 47,"TEXT_LUCKMF106_03649_TODO_23",""
-48,"TEXT_LUCKMF106_03649_YSHTOLA_000_000","...Ah, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Have you learned aught of note?"
-49,"TEXT_LUCKMF106_03649_YSHTOLA_000_001","Fascinating...and precisely the sort of information I was hoping to hear."
-50,"TEXT_LUCKMF106_03649_YSHTOLA_000_002","In fact, if you have a moment, I'd like to borrow your eyes to confirm a theory I've been working on. Come."
-51,"TEXT_LUCKMF106_03649_YSHTOLA_000_010","Now, there are two tasks I would have you perform."
-52,"TEXT_LUCKMF106_03649_YSHTOLA_000_011","The first requires you to inspect the buildings which surround the Ondo settlement, and note their most distinctive characteristics."
-53,"TEXT_LUCKMF106_03649_YSHTOLA_000_012","For the second, I wish you to use this knife to take scrapings from one of the remnant walls."
-54,"TEXT_LUCKMF106_03649_YSHTOLA_000_013","Pray be as thorough as you can. I shall be waiting here for the results of your investigations."
-55,"TEXT_LUCKMF106_03649_YSHTOLA_000_020","'Tis strange to be here, under the ocean. It seems a lifetime ago that we stood amidst the trees of Rak'tika..."
-56,"TEXT_LUCKMF106_03649_SYSTEM_000_030","Inspect the structures of the Ondo Cups for distinctive features. You may move the camera, as well as zoom in and out. Target a building and examine it with <If(Equal(PlayerParameter(80),0))><UIForeground>F20222</UIForeground><UIForeground>01</UIForeground><Else/><CommandIcon(15)/> / <CommandIcon(8)/></If>."
-57,"TEXT_LUCKMF106_03649_SYSTEM_000_040","You set the point of the knife against the wall, but even after applying considerable pressure, you cannot remove so much as a flake of stone."
-58,"TEXT_LUCKMF106_03649_YSHTOLA_000_050","And what have you discovered?"
-59,"TEXT_LUCKMF106_03649_YSHTOLA_000_051","Yes, I would agree that the windows are most distinctive. 'Twould seem the structures appear the same to both your sight and mine..."
-60,"TEXT_LUCKMF106_03649_YSHTOLA_000_052","And you say you could not so much as scratch the wall? Even with all your might behind the blade?"
-61,"TEXT_LUCKMF106_03649_YSHTOLA_000_053","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, everywhere I turn in this place, my gaze is drawn by peculiar materials for which I do not have a name."
-62,"TEXT_LUCKMF106_03649_YSHTOLA_000_054","The buildings I had you investigate are prime examples. They may appear to be constructed of ordinary stone, but I assure you it is nothing of the sort..."
-63,"TEXT_LUCKMF106_03649_YSHTOLA_000_055","If pressed, I would describe the substance as a composite of several mineral properties, blended to create a material of unparalleled durability."
-64,"TEXT_LUCKMF106_03649_YSHTOLA_000_056","Even the Ronkan Empire, once the greatest power in Norvrandt, produced nothing which compares to this level of perfection."
-65,"TEXT_LUCKMF106_03649_YSHTOLA_000_057","But if not the Ronkans, then who? Who were these ancients the Ondo claim as the architects of their sanctuary?"
-66,"TEXT_LUCKMF106_03649_YSHTOLA_000_058","I suspect our answer lies with the reason Emet-Selch withdrew here to the Tempest."
-67,"TEXT_LUCKMF106_03649_YSHTOLA_000_059","He may simply have wished to retreat somewhere mere mortals would struggle to reach...but there are many such remote locations. Why here, specifically?"
-68,"TEXT_LUCKMF106_03649_YSHTOLA_000_060","Emet-Selch is devoted to his role, and thus we might assume his choice of stronghold somehow serves the Ascian agenda."
-69,"TEXT_LUCKMF106_03649_YSHTOLA_000_061","Or mayhap...'tis a place more dear to him than any other."
-70,"TEXT_LUCKMF106_03649_Q1_000_000","What will you say?"
-71,"TEXT_LUCKMF106_03649_A1_000_001","Are you saying this was built by ancient Ascians...?"
-72,"TEXT_LUCKMF106_03649_A1_000_002","Could this place provide power to Emet-Selch?"
-73,"TEXT_LUCKMF106_03649_A1_000_003","I couldn't say either way..."
-74,"TEXT_LUCKMF106_03649_YSHTOLA_000_062","That is my theory, that these structures are remnants of a time before history─of a star that was yet whole and unbroken."
-75,"TEXT_LUCKMF106_03649_YSHTOLA_000_063","That was my first thought as well. Yet no matter how superior the materials, a ruin is just a ruin. 'Tis naught that would decide a battle's outcome."
-76,"TEXT_LUCKMF106_03649_YSHTOLA_000_064","Which brings us to my second theory: that he has some other, more personal connection to this site. What if these structures are remnants of a time before history─of a star that was yet whole and unbroken?"
-77,"TEXT_LUCKMF106_03649_YSHTOLA_000_065","It is my theory that these structures are remnants of a time before history─of a star that was yet whole and unbroken."
-78,"TEXT_LUCKMF106_03649_YSHTOLA_000_066","Such traces in the Source would have been obliterated by the succession of Umbral Calamities, but here in the First they might have remained untouched for millennia..."
-79,"TEXT_LUCKMF106_03649_YSHTOLA_000_067","...A copy of the mural in the Qitana Ravel. Almet presented it to me during my visit to Fanow, after our victory in Kholusia."
-80,"TEXT_LUCKMF106_03649_YSHTOLA_000_068","Here, in the first scene...
-By Emet-Selch's own words, it depicts a city of eons past and the disaster which befell it."
-81,"TEXT_LUCKMF106_03649_YSHTOLA_000_069","The design is much simplified, of course, but do you see the similarities between its towers and those you have just inspected?"
-82,"TEXT_LUCKMF106_03649_YSHTOLA_000_070","We are close to the truth, I feel. Let us search the surrounds for another tower─one which matches the picture near enough to remove all doubt."
-83,"TEXT_LUCKMF106_03649_YSHTOLA_000_071","From what I have seen, naught more than sand and more sand lies to the east, and the south held no such structures. I suggest we try our luck further to the northwest."
-84,"TEXT_LUCKMF106_03649_SYSTEM_000_072","You may view the Qitana Ravel mural at any time during this quest by using the relevant item in the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Key Items<UIGlow>01</UIGlow><UIForeground>01</UIForeground> menu."
-85,"TEXT_LUCKMF106_03649_SYSTEM_000_073","The quest destination will not be displayed on the map. You must search for a structure which resembles the buildings in the mural, then inspect it from the survey point. The survey point will be found nearby, in a location which allows a full view of the structure."
-86,"TEXT_LUCKMF106_03649_SYSTEM_000_075","Search for a structure which resembles one of the buildings in this mural, then inspect it from the survey point. The survey point will be found nearby, in a location which allows a full view of the structure."
-87,"TEXT_LUCKMF106_03649_SYSTEM_000_076","According to Y'shtola's investigations, the area further northwest of the Ondo Cups may be a good place to start."
-88,"TEXT_LUCKMF106_03649_YSHTOLA_000_080","Aye... This is the mural writ large..."
-89,"TEXT_LUCKMF106_03649_YSHTOLA_000_081","Though I cannot guess at its purpose, it must have been an imposing sight. How much of the tower's height lies hidden beneath the ground, I wonder..."
-90,"TEXT_LUCKMF106_03649_YSHTOLA_000_082","Centuries of our history have settled upon such ruins. Countless layers of dust and sediment..."
-91,"TEXT_LUCKMF106_03649_YSHTOLA_000_083","...An entire civilization, its existence forgotten by all except a handful of Ascians."
-92,"TEXT_LUCKMF106_03649_YSHTOLA_000_084","And yet it did exist. They lived here, in this city..."
-93,"TEXT_LUCKMF106_03649_YSHTOLA_000_085","But let us focus on what we've learned thus far. The Ondo chieftain spoke of mysteries stirring─of a land illuminated."
-94,"TEXT_LUCKMF106_03649_YSHTOLA_000_086","Judging by his words, he believes this phenomenon related to the ancients' return."
-95,"TEXT_LUCKMF106_03649_YSHTOLA_000_087","Thus can we surmise that what the Ondo saw shining in the abyss was, in all likelihood, yet another remnant of this age-old civilization."
-96,"TEXT_LUCKMF106_03649_YSHTOLA_000_088","And who else would “light the lanterns” as Ryne put it, than Emet-Selch himself? 'Tis almost certain he is there!"
-97,"TEXT_LUCKMF106_03649_YSHTOLA_000_090","But if we are to find this stronghold in a timely manner, it seems gaining the Ondo's trust remains our swiftest path forward."
-98,"TEXT_LUCKMF106_03649_YSHTOLA_000_091","I only hope our deeds are enough to win them over..."
+48,"TEXT_LUCKMF106_03649_YSHTOLA_000_000","……ああ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
+そちらは何か、進展があって？"
+49,"TEXT_LUCKMF106_03649_YSHTOLA_000_001","この集落を囲む建物について聞いたの……！？
+素晴らしいわ、その情報がほしかったのよ。"
+50,"TEXT_LUCKMF106_03649_YSHTOLA_000_002","ねえ、少しの間、私の調査にも力を貸してもらえるかしら？
+物理的な視力を持つ、あなたの見解を聞きたいのよ。
+……こっちへ来て。"
+51,"TEXT_LUCKMF106_03649_YSHTOLA_000_010","ご同行、感謝するわ。
+あなたには、まず2つのことを、やってみてほしいの。"
+52,"TEXT_LUCKMF106_03649_YSHTOLA_000_011","1つ目……
+このあたりから「オンドの潮溜まり」を観察して、
+それを形成する建物の特徴を捉えること。"
+53,"TEXT_LUCKMF106_03649_YSHTOLA_000_012","2つ目……
+「<Sheet(EventItem,2002673,0)/>」を渡すから、
+近くにある同様の建物の外壁を剥がしてくること。"
+54,"TEXT_LUCKMF106_03649_YSHTOLA_000_013","どちらを先にやってくれても構わないわ。
+手間を掛けるけれど……よろしくね。"
+55,"TEXT_LUCKMF106_03649_YSHTOLA_000_020","お願いした2つは、終わったかしら？
+……なんだか、ラケティカ大森林で一緒に探索をしたのが、
+遠い昔のようにも思えるわね。"
+56,"TEXT_LUCKMF106_03649_SYSTEM_000_030","「オンドの潮溜まり周辺の建物」の観察を開始します。
+特徴と思しき箇所を発見したら、ズームをしてから、
+<If(Equal(PlayerParameter(80),0))><UIForeground>F20222</UIForeground>左クリック<UIForeground>01</UIForeground><Else/><CommandIcon(15)/>ボタン/<CommandIcon(8)/>ボタン</If>で確認しましょう！"
+57,"TEXT_LUCKMF106_03649_SYSTEM_000_040","力いっぱい、<Sheet(EventItem,2002673,0)/>を突き立てた！
+……が、壁は欠片すら剥がれなかった。
+傷つけることは難しいようだ。"
+58,"TEXT_LUCKMF106_03649_YSHTOLA_000_050","頼んだ調査は、どうだったかしら……？"
+59,"TEXT_LUCKMF106_03649_YSHTOLA_000_051","あの建物の特徴については、私も同意見だわ。
+双方に視えている形に違いはないということね……。"
+60,"TEXT_LUCKMF106_03649_YSHTOLA_000_052","そして、あなたの力を以てしても、傷つけられない……か。"
+61,"TEXT_LUCKMF106_03649_YSHTOLA_000_053","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、私の眼で視るとね、
+この海底のいたるところに、
+「未知の物質」があるように捉えられるの。"
+62,"TEXT_LUCKMF106_03649_YSHTOLA_000_054","調べてもらった建物が、その最たる例よ。
+ありふれた石造りに見えるかもしれないけれど、
+素材となる物質の構造が全然違う……。"
+63,"TEXT_LUCKMF106_03649_YSHTOLA_000_055","いうなれば、複数の石の特性をかけあわせて、
+類を見ないほど優れた物質にしている……といったところね。"
+64,"TEXT_LUCKMF106_03649_YSHTOLA_000_056","ノルヴラント随一の大国だったロンカ帝国にさえ、
+こんな「完璧な」物質を生み出した形跡はなかったわ。"
+65,"TEXT_LUCKMF106_03649_YSHTOLA_000_057","では、この建物を作った……
+オンド族の言うところの「いにしえの者」が、
+誰なのかということだけれど……。"
+66,"TEXT_LUCKMF106_03649_YSHTOLA_000_058","私は、エメトセルクがこの地を拠点に選んだことこそが、
+その答えになると推測しているのよ。"
+67,"TEXT_LUCKMF106_03649_YSHTOLA_000_059","単純に、私たちが到達しにくい場所だから、
+海底を選んだという側面もあるのでしょうけれど……
+それだけだったら、ほかにいくらでも候補はあるわ。"
+68,"TEXT_LUCKMF106_03649_YSHTOLA_000_060","エメトセルクが、アシエンの役割に忠実であればこそ……
+居つく場所は、彼にとって利の大きな場所でなければならない。"
+69,"TEXT_LUCKMF106_03649_YSHTOLA_000_061","あるいは……何にも勝る、思い入れのある場所か。"
+70,"TEXT_LUCKMF106_03649_Q1_000_000","何と言う？"
+71,"TEXT_LUCKMF106_03649_A1_000_001","あの建物は、エメトセルクたち古代人の……？"
+72,"TEXT_LUCKMF106_03649_A1_000_002","この地に、アシエンにとって有利な仕掛けが？"
+73,"TEXT_LUCKMF106_03649_A1_000_003","さっぱりわからない……"
+74,"TEXT_LUCKMF106_03649_YSHTOLA_000_062","ええ、そのとおり……14に分かたれる前の世界、
+いわば先史時代の遺物ではないかと、私は考えているわ。"
+75,"TEXT_LUCKMF106_03649_YSHTOLA_000_063","私も、最初はその線を考えたけれど……
+いかに優れた物質で作られていても、廃墟は廃墟よ。
+戦況を左右する要素ではないわ。"
+76,"TEXT_LUCKMF106_03649_YSHTOLA_000_064","逆に言えば、それでもなお、彼にはこの地を選ぶ動機がある……
+ここにある建物が、14に分かたれる前の世界、
+いわば先史時代の遺物であるとしたら……どう？"
+77,"TEXT_LUCKMF106_03649_YSHTOLA_000_065","私はね、ここにある建物が、14に分かたれる前の世界……
+いわば先史時代の遺物ではないかと考えているの。"
+78,"TEXT_LUCKMF106_03649_YSHTOLA_000_066","原初世界においては、
+度重なる霊災によって消失してしまったそれも、
+霊災を経験しようのない第一世界でなら、遺り得る……。"
+79,"TEXT_LUCKMF106_03649_YSHTOLA_000_067","それは、キタンナ神影洞にあった壁画の模写よ。
+コルシア島での作戦のあと、ファノヴの里を訪れた私に、
+アルメたちが渡してくれたの。"
+80,"TEXT_LUCKMF106_03649_YSHTOLA_000_068","1つ目の壁画……
+災厄に見舞われる、先史時代の都市だと、
+エメトセルクが言っていた絵ね。"
+81,"TEXT_LUCKMF106_03649_YSHTOLA_000_069","簡略化されてはいるけれど、私たちが今見ている建物と、
+よく似た特徴を持っているように思えない？"
+82,"TEXT_LUCKMF106_03649_YSHTOLA_000_070","……きっと、核心は近いわ。
+その絵を見ながら、断定できるほど形を残した遺構がないか、
+周辺を探ってみましょう。"
+83,"TEXT_LUCKMF106_03649_YSHTOLA_000_071","先んじて見てきたかぎり、東には砂地が広がるだけだったし、
+南側にもそれらしき場所はなかったわ。
+つまり、ここから北西を探してみるのがよさそうね。"
+84,"TEXT_LUCKMF106_03649_SYSTEM_000_072","イベントアイテム「<Sheet(EventItem,2002674,0)/>」は、
+クエスト進行中に使用することで、いつでも閲覧できます。"
+85,"TEXT_LUCKMF106_03649_SYSTEM_000_073","今回は地図上に目的地が表示されないため、
+複製画をよく見て、描かれている建物とよく似た遺構を探し、
+その全容が見える位置にある「<Sheet(EObj,2010143,0)/>」から見渡しましょう。"
+86,"TEXT_LUCKMF106_03649_SYSTEM_000_075","この絵に描かれている、いずれかの建物と似た遺構を探し、
+その全容が見える位置にある「<Sheet(EObj,2010143,0)/>」から見渡そう。"
+87,"TEXT_LUCKMF106_03649_SYSTEM_000_076","ヤ・シュトラからの報告によると、
+「オンドの潮溜まりより北西」を探すのがよさそうだ。"
+88,"TEXT_LUCKMF106_03649_YSHTOLA_000_080","ああ……これは……。
+間違いないわ、あの壁画に描かれていた……。"
+89,"TEXT_LUCKMF106_03649_YSHTOLA_000_081","用途はわからないけれど、象徴的な建造物だったのでしょうね。
+砂の下に埋もれている分も含めたら、どれほど大きいか……。"
+90,"TEXT_LUCKMF106_03649_YSHTOLA_000_082","遠い昔日の上に、私たちの築いてきた歴史が、
+澱（おり）のように降り積もって……"
+91,"TEXT_LUCKMF106_03649_YSHTOLA_000_083","だからもう……ほんの数名のアシエンを除いて、
+すべての人に、忘れ去られてしまったのだろうけれど……"
+92,"TEXT_LUCKMF106_03649_YSHTOLA_000_084","ここに、あったんだわ……。
+彼らの暮らした、彼らの都が……。"
+93,"TEXT_LUCKMF106_03649_YSHTOLA_000_085","今はあえて、得られた事実だけ話しましょう。
+オンド族の長、トルスィー・アースは、
+「神秘の蘇るとき」「明かりの灯りし地を見た」と言っていた。"
+94,"TEXT_LUCKMF106_03649_YSHTOLA_000_086","そして、それらが「いにしえの人」と関係していることも、
+彼の言い分から察することができる……。"
+95,"TEXT_LUCKMF106_03649_YSHTOLA_000_087","つまり、彼らが見たのは恐らく、
+「先史時代の遺構に、明かりが灯った」光景……"
+96,"TEXT_LUCKMF106_03649_YSHTOLA_000_088","今、そんなことをしでかすのは、
+エメトセルク以外に考えられないわ。
+彼の根城が、その場所にあるのよ……！"
+97,"TEXT_LUCKMF106_03649_YSHTOLA_000_090","かくなる上は、オンド族の信頼を得て、
+「明かりの灯りし地」について教えてもらうのが、
+結局、一番の近道になりそうね。"
+98,"TEXT_LUCKMF106_03649_YSHTOLA_000_091","みんなの努力が、信頼に結びついているといいのだけれど……。"

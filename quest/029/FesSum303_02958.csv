@@ -1,14 +1,18 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_FESSUM303_02958_SEQ_00","Hildelana is charged with provisioning all the food for the Moonfire Faire, but has bitten off more than she can chew.
-※This quest is available for a limited time only."
-1,"TEXT_FESSUM303_02958_SEQ_01","Hildelana asks that you prepare some battered fish for the faire. Obtain some and deliver it to her.
+0,"TEXT_FESSUM303_02958_SEQ_00","※本クエストは、期間限定のクエストとなります。
 
-※Please note that you will be unable to complete this quest after the seasonal event has ended. For details, please check the Lodestone.
+常夏の島の紅蓮祭調理担当ヒルドラナは、とても忙しそうだ。"
+1,"TEXT_FESSUM303_02958_SEQ_01","※本クエストは、シーズナルイベント開催中にかぎり、
+　受注、進行できます。
+　開催期間終了後は進行できませんので、ご注意ください。
+　期間等の詳細についてはLodestoneをご覧ください。
 
-※Battered fish can be crafted as a culinarian, or purchased from the market boards."
-2,"TEXT_FESSUM303_02958_SEQ_02","You delivered the battered fish to Hildelana. Speak to her again if you wish to fulfill any other food orders for the Moonfire Faire."
+ヒルドラナから、<Sheet(Item,10332,0)/>を用意するよう頼まれた。「<Sheet(Item,10332,0)/>」を入手し、「紅蓮祭調理担当ヒルドラナ」に納品しよう。
+
+※「<Sheet(Item,10332,0)/>」は、調理師が製作することができます。また、マーケットボードなどで購入することもできます。"
+2,"TEXT_FESSUM303_02958_SEQ_02","ヒルドラナに<Sheet(Item,10332,0)/>を納品した。客の注文に調理が追いつかず困っている彼女に、また協力してあげるのもよいだろう。"
 3,"TEXT_FESSUM303_02958_SEQ_03",""
 4,"TEXT_FESSUM303_02958_SEQ_04",""
 5,"TEXT_FESSUM303_02958_SEQ_05",""
@@ -30,7 +34,7 @@ int32,str,str
 21,"TEXT_FESSUM303_02958_SEQ_21",""
 22,"TEXT_FESSUM303_02958_SEQ_22",""
 23,"TEXT_FESSUM303_02958_SEQ_23",""
-24,"TEXT_FESSUM303_02958_TODO_00","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Obtain some battered fish<Else/>Deliver the battered fish to Hildelana</If>."
+24,"TEXT_FESSUM303_02958_TODO_00","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))><Sheet(Item,10332,0)/>を入手<Else/>紅蓮祭調理担当ヒルドラナに<Sheet(Item,10332,0)/>を納品</If>"
 25,"TEXT_FESSUM303_02958_TODO_01",""
 26,"TEXT_FESSUM303_02958_TODO_02",""
 27,"TEXT_FESSUM303_02958_TODO_03",""
@@ -54,14 +58,36 @@ int32,str,str
 45,"TEXT_FESSUM303_02958_TODO_21",""
 46,"TEXT_FESSUM303_02958_TODO_22",""
 47,"TEXT_FESSUM303_02958_TODO_23",""
-48,"TEXT_FESSUM303_02958_HILDELANA_000_000","Now there is a face I have not seen for a long time. Thanks again for all your help with those pesky Bombards at faires past."
-49,"TEXT_FESSUM303_02958_HILDELANA_000_001","I'm taking a hiatus from the Go Go Posing Rangers. This year, my duties are here. Out of the frying pan and into the kitchen, eh? I hope that doesn't mean you aren't willing to help."
-50,"TEXT_FESSUM303_02958_HILDELANA_000_010","I'm sorry, we aren't taking any more orders right now. Oh, you're not a customer? Please tell me you're here to offer help."
-51,"TEXT_FESSUM303_02958_HILDELANA_000_020","Thank the gods! I'm as happy as any to see the faire so bustling, but we have more orders than we have cooks to make them. This kitchen is pure chaos."
-52,"TEXT_FESSUM303_02958_HILDELANA_000_021","If you're willing to help, how about preparing some battered fish? There are more orders for that than anything else. We cannot make enough of the stuff!"
-53,"TEXT_FESSUM303_02958_HILDELANA_000_022","You'll need some fresh haddock to make it, but that should be easy enough to find. I'd wager you can purchase it from the festive fisher."
-54,"TEXT_FESSUM303_02958_HILDELANA_000_030","You are here to offer your culinary services? Well, they are most welcome. If you're able, how about preparing some battered fish?"
-55,"TEXT_FESSUM303_02958_HILDELANA_000_040","I don't see any battered fish in your hands. If you need to gather ingredients, you can purchase the fresh haddock you'll need from the festive fisher."
-56,"TEXT_FESSUM303_02958_HILDELANA_000_050","Oh, my! I've never seen more delectable-looking battered fish! The fairecomers who get these are in for a treat. Thank you for the help!"
-57,"TEXT_FESSUM303_02958_HILDELANA_000_051","By the by, have you spoken to Beaudefoin just over there? He is just as busy as I am right now. If you fancy helping more, I'm sure he has a job to ask of you."
-58,"TEXT_FESSUM303_02958_HILDELANA_000_060","Thanks again for the wonderful battered fish. If you care to help in the kitchen again, just let me know. We can always use a talented culinarian!"
+48,"TEXT_FESSUM303_02958_HILDELANA_000_000","あれ、貴方は……お久しぶりです！
+前回は、大炎獣の撃退に協力していただき、
+ありがとうございました！"
+49,"TEXT_FESSUM303_02958_HILDELANA_000_001","今回は、私も「火消しの戦士」をお休みして、
+こうして一実行委員として働いてるんです。
+……もしかして、また手伝っていただけるんですか？"
+50,"TEXT_FESSUM303_02958_HILDELANA_000_010","すみません、お料理は少々混み合っていま……
+え、お客様ではないのですか？
+……もしかして、お手伝いの冒険者の方ですか？"
+51,"TEXT_FESSUM303_02958_HILDELANA_000_020","ああ、助かります！
+「紅蓮祭」が盛況なのはいいのですが、
+お客様からの注文が多く、調理が追いつかなくて……。"
+52,"TEXT_FESSUM303_02958_HILDELANA_000_021","手伝ってくださるなら、「<Sheet(Item,10332,0)/>」を、
+用意していただけませんか？
+お客様からもっとも多く、注文される人気料理なんです。"
+53,"TEXT_FESSUM303_02958_HILDELANA_000_022","材料となる「<Sheet(Item,12990,0)/>」でしたら、
+「陽気な漁師」さんから購入できるはずです。
+それでは、よろしくお願いしますね。"
+54,"TEXT_FESSUM303_02958_HILDELANA_000_030","手を貸していただけるのですか？
+それなら、また「<Sheet(Item,10332,0)/>」を、
+用意してくださるようお願いします！"
+55,"TEXT_FESSUM303_02958_HILDELANA_000_040","「<Sheet(Item,10332,0)/>」は、用意していただけましたか？
+材料となる「<Sheet(Item,12990,0)/>」でしたら、
+「陽気な漁師」さんから購入できるはずです。"
+56,"TEXT_FESSUM303_02958_HILDELANA_000_050","……うわあ、美味しそうな<Sheet(Item,10332,0)/>ですね！
+これならお客様も、大喜びですよ。
+用意してくださって、ありがとうございました。"
+57,"TEXT_FESSUM303_02958_HILDELANA_000_051","そういえば、隣にいるボドゥフォアンとは話しましたか？
+彼の方も、大変そうなので、よければ力を貸してあげてください。
+よろしくお願いします！"
+58,"TEXT_FESSUM303_02958_HILDELANA_000_060","美味しそうな<Sheet(Item,10332,0)/>を、ありがとうございます！
+よければ、また力を貸してください。
+お待ちしてますね！"

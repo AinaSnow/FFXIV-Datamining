@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNZ309_01801_SEQ_00","Though his stomach no longer grumbles, Toh Y Thrah has yet to sate his curiosity."
-1,"TEXT_HEAVNZ309_01801_SEQ_01","Toh Y Thrah notices you have not eaten any of the food you brought him, and now he is curious to see what foods you would eat. Although you have no food to give him, you notice he makes mention of people living in the Chocobo Forest. Search for the forest's residents, and see if you can find a meal Toh Y Thrah may enjoy."
-2,"TEXT_HEAVNZ309_01801_SEQ_02","You come across a small campsite in the Chocobo Forest, and as luck would have it, a meal slow roasting over an open flame. You speak with Leonulfe, the chef of the seemingly delectable dish, and he agrees to share some with you. In return, he asks that you obtain chocobo meat that he can prepare another serving for later. Slay a wild chocobo for its meat."
-3,"TEXT_HEAVNZ309_01801_SEQ_03","You slay a wild chocobo and obtain its meat. Take it to Leonulfe and receive a small helping of his cooking."
-4,"TEXT_HEAVNZ309_01801_SEQ_04","You return to the campsite with the wild chocobo meat. Leonulfe thanks you for your quick work, and directs your attention to a plate of freshly fried chocobo he prepared while you were away."
-5,"TEXT_HEAVNZ309_01801_SEQ_05","With the fried chocobo in hand, you are ready to return to Toh Y Thrah. Deliver the fried chocobo, and give him his first taste of a properly cooked meal."
-6,"TEXT_HEAVNZ309_01801_SEQ_06","You return to Toh Y Thrah with the fried chocobo. He is intrigued by its scent and eagerly takes a bite. To his dismay, however, he finds the taste of cooked meat revolting. He fails to understand why anyone would sacrifice the natural flavors of raw meat."
+0,"TEXT_HEAVNZ309_01801_SEQ_00","不浄の三塔のトー・イスラは、冒険者を気にしているようだ。"
+1,"TEXT_HEAVNZ309_01801_SEQ_01","トー・イスラに人の食べ物について質問された。高地ドラヴァニアのチョコボの森で、「レオニュルフ」に聞いてみよう。"
+2,"TEXT_HEAVNZ309_01801_SEQ_02","レオニュルフに肉の調達を頼まれた。チョコボの森で、「<Sheet(BNpcName,3564,0)/>」から「<Sheet(EventItem,2001625,0)/>」を手に入れよう。"
+3,"TEXT_HEAVNZ309_01801_SEQ_03","<Sheet(EventItem,2001625,0)/>を手に入れた。チョコボの森の「レオニュルフ」に「<Sheet(EventItem,2001625,0)/>」を渡そう。"
+4,"TEXT_HEAVNZ309_01801_SEQ_04","レオニュルフに<Sheet(EventItem,2001625,0)/>を渡した。お礼として<Sheet(EventItem,2001626,0)/>を持っていっていいと言われた。チョコボの森で、「<Sheet(EventItem,2001626,0)/>」を手に入れよう。"
+5,"TEXT_HEAVNZ309_01801_SEQ_05","<Sheet(EventItem,2001626,0)/>を手に入れた。不浄の三塔の「トー・イスラ」に「<Sheet(EventItem,2001626,0)/>」を渡そう"
+6,"TEXT_HEAVNZ309_01801_SEQ_06","トー・イスラに<Sheet(EventItem,2001626,0)/>を渡した。調理してある肉が理解できないようで、焼いた肉はあまりお気に召さなかったようだ。"
 7,"TEXT_HEAVNZ309_01801_SEQ_07",""
 8,"TEXT_HEAVNZ309_01801_SEQ_08",""
 9,"TEXT_HEAVNZ309_01801_SEQ_09",""
@@ -25,11 +25,11 @@ int32,str,str
 21,"TEXT_HEAVNZ309_01801_SEQ_21",""
 22,"TEXT_HEAVNZ309_01801_SEQ_22",""
 23,"TEXT_HEAVNZ309_01801_SEQ_23",""
-24,"TEXT_HEAVNZ309_01801_TODO_00","Speak with the people living in the Chocobo Forest."
-25,"TEXT_HEAVNZ309_01801_TODO_01","Slay a wild chocobo and obtain its meat."
-26,"TEXT_HEAVNZ309_01801_TODO_02","Deliver the chocobo meat to Leonulfe."
-27,"TEXT_HEAVNZ309_01801_TODO_03","Pick up a fried chocobo thigh."
-28,"TEXT_HEAVNZ309_01801_TODO_04","Deliver the fried chocobo thigh to Toh Y Thrah."
+24,"TEXT_HEAVNZ309_01801_TODO_00","レオニュルフと話す"
+25,"TEXT_HEAVNZ309_01801_TODO_01","<Sheet(BNpcName,3564,0)/>から<Sheet(EventItem,2001625,0)/>を入手"
+26,"TEXT_HEAVNZ309_01801_TODO_02","レオニュルフに<Sheet(EventItem,2001625,0)/>を渡す"
+27,"TEXT_HEAVNZ309_01801_TODO_03","<Sheet(EventItem,2001626,0)/>を入手"
+28,"TEXT_HEAVNZ309_01801_TODO_04","トー・イスラに<Sheet(EventItem,2001626,0)/>を渡す"
 29,"TEXT_HEAVNZ309_01801_TODO_05",""
 30,"TEXT_HEAVNZ309_01801_TODO_06",""
 31,"TEXT_HEAVNZ309_01801_TODO_07",""
@@ -49,23 +49,50 @@ int32,str,str
 45,"TEXT_HEAVNZ309_01801_TODO_21",""
 46,"TEXT_HEAVNZ309_01801_TODO_22",""
 47,"TEXT_HEAVNZ309_01801_TODO_23",""
-48,"TEXT_HEAVNZ309_01801_TOHYTHRAH_000_000","You have fed me well, yet you do not partake of your own spoils. Exactly what do your kind consume for sustenance? Like those living in the Chocobo Forest. I would very much like to try it for myself."
-49,"TEXT_HEAVNZ309_01801_TOHYTHRAH_000_010","My belly is full, but I am curious to taste the food of your kind."
-50,"TEXT_HEAVNZ309_01801_LEONULFE_000_020","Lookin' for <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>supper<Else/>breakfast</If><Else/><If(LessThan(PlayerParameter(11),17))>lunch<Else/>supper</If></If>, eh? I don't mind sharin', but these ingredients don't come easy. I'll serve you some, but I need more chocobo meat for later."
-51,"TEXT_HEAVNZ309_01801_LEONULFE_000_030","A small helpin' o' chocobo meat for a meal's a fair trade, I'd say. You're more than welcome to what I have after you bring what I need."
-52,"TEXT_HEAVNZ309_01801_TOHYTHRAH_000_031","My belly is full, but I am curious to taste the food of your kind."
-53,"TEXT_HEAVNZ309_01801_TOHYTHRAH_000_040","My belly is full, but I am curious to taste the food of your kind."
-54,"TEXT_HEAVNZ309_01801_LEONULFE_000_050","Ah, a nice golden brown. I'd say this batch is just about done. You find any chocobo meat?"
-55,"TEXT_HEAVNZ309_01801_LEONULFE_000_051","Good, good. This'll do just fine. I've a plate for you over there. Take it while it's still hot!"
-56,"TEXT_HEAVNZ309_01801_TOHYTHRAH_000_060","My belly is full, but I am curious to taste the food of your kind. So tell me, what do you eat?"
-57,"TEXT_HEAVNZ309_01801_LEONULFE_000_061","There's nothin' like cookin' over an open flame. Keeps the meat nice and tender. Be sure to take the plate before it gets cold."
-58,"TEXT_HEAVNZ309_01801_LEONULFE_000_070","I guarantee you won't find better. Came up with the recipe myself!"
-59,"TEXT_HEAVNZ309_01801_TOHYTHRAH_000_080","Hm? <sniff> A peculiar scent. What have you brought me?"
-60,"TEXT_HEAVNZ309_01801_TOHYTHRAH_000_081","This is what they eat in the Chocobo Forest? <sniff> Interesting... <gulp>"
-61,"TEXT_HEAVNZ309_01801_TOHYTHRAH_000_082","Ugh, disgusting! Why would one sear the flesh of the meat? The natural flavors are all but gone now. A strange breed indeed..."
-62,"TEXT_HEAVNZ309_01801_SYSTEM_000_041",""
-63,"TEXT_HEAVNZ309_01801_SYSTEM_000_042",""
-64,"TEXT_HEAVNZ309_01801_SYSTEM_000_062",""
-65,"TEXT_HEAVNZ309_01801_SYSTEM_000_063",""
-66,"TEXT_HEAVNZ309_01801_SYSTEM_000_071",""
-67,"TEXT_HEAVNZ309_01801_SYSTEM_000_072",""
+48,"TEXT_HEAVNZ309_01801_TOHYTHRAH_000_000","ねぇねぇ、ヒトさん！　ヒトって、どんなもの食べてるの？
+たとえば、東の森にいるヒトたちとか。
+ボクもヒトの食べ物を食べてみたいなぁ……。"
+49,"TEXT_HEAVNZ309_01801_TOHYTHRAH_000_010","ねぇねぇ、ヒトさん！　ヒトって、どんなもの食べてるの？
+たとえば、東の森にいるヒトたちとか。
+ボクもヒトの食べ物を食べてみたいなぁ……。"
+50,"TEXT_HEAVNZ309_01801_LEONULFE_000_020","……ほう、食事を分けてほしい？
+まあ、別に構わないけど、食材は貴重だからね。
+代わりに「<Sheet(EventItem,2001625,0)/>」を取ってきてくれるか？"
+51,"TEXT_HEAVNZ309_01801_LEONULFE_000_030","……ほう、食事を分けてほしい？
+まあ、別に構わないけど、食材は貴重だからね。
+代わりに「<Sheet(EventItem,2001625,0)/>」を取ってきてくれるか？"
+52,"TEXT_HEAVNZ309_01801_TOHYTHRAH_000_031","ねぇねぇ、ヒトさん！　ヒトって、どんなもの食べてるの？
+たとえば、東の森にいるヒトたちとか。
+ボクもヒトの食べ物を食べてみたいなぁ……。"
+53,"TEXT_HEAVNZ309_01801_TOHYTHRAH_000_040","ねぇねぇ、ヒトさん！　ヒトって、どんなもの食べてるの？
+たとえば、東の森にいるヒトたちとか。
+ボクもヒトの食べ物を食べてみたいなぁ……。"
+54,"TEXT_HEAVNZ309_01801_LEONULFE_000_050","……ほう、食事を分けてほしい？
+まあ、別に構わないけど、食材は貴重だからね。
+代わりに「<Sheet(EventItem,2001625,0)/>」を取ってきてくれるか？"
+55,"TEXT_HEAVNZ309_01801_LEONULFE_000_051","ふむ、なかなかいいモモ肉じゃないか。
+よし、作り立ての「<Sheet(EventItem,2001626,0)/>」があるから、
+代わりに、そこのを持っていくといい。"
+56,"TEXT_HEAVNZ309_01801_TOHYTHRAH_000_060","ねぇねぇ、ヒトさん！　ヒトって、どんなもの食べてるの？
+たとえば、東の森にいるヒトたちとか。
+ボクもヒトの食べ物を食べてみたいなぁ……。"
+57,"TEXT_HEAVNZ309_01801_LEONULFE_000_061","ふむ、なかなかいいモモ肉じゃないか。
+よし、作り立ての「<Sheet(EventItem,2001626,0)/>」があるから、
+代わりに、そこのを持っていくといい。"
+58,"TEXT_HEAVNZ309_01801_LEONULFE_000_070","よし、作り立ての「<Sheet(EventItem,2001626,0)/>」があるから、
+代わりに、そこのを持っていくといい。"
+59,"TEXT_HEAVNZ309_01801_TOHYTHRAH_000_080","ねぇねぇ、ヒトさん！　ヒトって、どんなもの食べてるの？
+たとえば、東の森にいるヒトたちとか。
+ボクもヒトの食事を食べてみたいなぁ……。"
+60,"TEXT_HEAVNZ309_01801_TOHYTHRAH_000_081","……これが、森のヒトたちの食べ物！？
+わぁーほぉー！
+とりあえず、いただきまーす！"
+61,"TEXT_HEAVNZ309_01801_TOHYTHRAH_000_082","な……なにこれぇぇぇええ！！
+すっごいビミョー！！　なんかギトギトしてるし何なのコレ！？
+肉はナマでしょ！？　やっぱ変わってるなぁ、ヒトって……。"
+62,"TEXT_HEAVNZ309_01801_SYSTEM_000_041","（★未使用／削除予定★）"
+63,"TEXT_HEAVNZ309_01801_SYSTEM_000_042","（★未使用／削除予定★）"
+64,"TEXT_HEAVNZ309_01801_SYSTEM_000_062","（★未使用／削除予定★）"
+65,"TEXT_HEAVNZ309_01801_SYSTEM_000_063","（★未使用／削除予定★）"
+66,"TEXT_HEAVNZ309_01801_SYSTEM_000_071","（★未使用／削除予定★）"
+67,"TEXT_HEAVNZ309_01801_SYSTEM_000_072","（★未使用／削除予定★）"

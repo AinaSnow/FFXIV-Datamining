@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBSEA056_00468_SEQ_00","Pfrewahl needs stolen farm tools recovered."
-1,"TEXT_SUBSEA056_00468_SEQ_01","Pirates have stolen farm tools from Tiller's Rest. Pfrewahl bids you dispatch the Reavers who linger in the area and recover the tools."
-2,"TEXT_SUBSEA056_00468_SEQ_02","You have recovered the stolen farm tools. Deliver them to Pfrewahl at Tiller's Rest."
-3,"TEXT_SUBSEA056_00468_SEQ_03","Pfrewahl tells you that he spied Sevrin consorting surreptitiously with the thieving pirates. Let Staelwyrn know of the likely traitor in his midst."
-4,"TEXT_SUBSEA056_00468_SEQ_04","Summerford Farms is safe for the time being, but none can rest easy so long as Sevrin remains."
+0,"TEXT_SUBSEA056_00468_SEQ_00","開拓者の納屋のフルーアールは、海賊に奪われた農具の奪還を依頼したいようだ。"
+1,"TEXT_SUBSEA056_00468_SEQ_01","周辺を徘徊する海賊を討伐して、「奪われた農具」3個を取り返そう。"
+2,"TEXT_SUBSEA056_00468_SEQ_02","奪われた農具を、すべて取り返すことができた。「開拓者の納屋」の「フルーアール」に届けよう。"
+3,"TEXT_SUBSEA056_00468_SEQ_03","フルーアールは、海賊と密談するセヴリンを見かけたという。このため、今回の一件にセヴリンが手を貸した可能性がある。事の顛末を、「サマーフォード庄」の「シュテールヴィルン」に報告しよう。"
+4,"TEXT_SUBSEA056_00468_SEQ_04","冒険者の活躍によって、サマーフォード庄の評判悪化は回避できた。しかし、セヴリンがいる限り、新たな問題が発生するだろう。"
 5,"TEXT_SUBSEA056_00468_SEQ_05",""
 6,"TEXT_SUBSEA056_00468_SEQ_06",""
 7,"TEXT_SUBSEA056_00468_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_SUBSEA056_00468_SEQ_21",""
 22,"TEXT_SUBSEA056_00468_SEQ_22",""
 23,"TEXT_SUBSEA056_00468_SEQ_23",""
-24,"TEXT_SUBSEA056_00468_TODO_00","Recover the stolen farm tools from the pirates."
-25,"TEXT_SUBSEA056_00468_TODO_01","Deliver the reclaimed farm tools to Pfrewahl."
-26,"TEXT_SUBSEA056_00468_TODO_02","Report to Staelwyrn."
+24,"TEXT_SUBSEA056_00468_TODO_00","海賊を倒し、奪われた農具を奪還"
+25,"TEXT_SUBSEA056_00468_TODO_01","フルーアールに奪われた農具を届ける"
+26,"TEXT_SUBSEA056_00468_TODO_02","シュテールヴィルンに報告"
 27,"TEXT_SUBSEA056_00468_TODO_03",""
 28,"TEXT_SUBSEA056_00468_TODO_04",""
 29,"TEXT_SUBSEA056_00468_TODO_05",""
@@ -49,19 +49,36 @@ int32,str,str
 45,"TEXT_SUBSEA056_00468_TODO_21",""
 46,"TEXT_SUBSEA056_00468_TODO_22",""
 47,"TEXT_SUBSEA056_00468_TODO_23",""
-48,"TEXT_SUBSEA056_00468_PFREWAHL_000_1","Confounded pirates! They know nothin' of tillin', only killin'! Stealin' our shovels to melt and forge into axes, of all things."
-49,"TEXT_SUBSEA056_00468_PFREWAHL_000_2","They're bitin' the hand that feeds 'em, the mangy mongrels. I'd love to teach those curs a lesson in obedience myself, if I hadn't sworn to Staelwyrn that I wouldn't fight no more."
-50,"TEXT_SUBSEA056_00468_PFREWAHL_000_3","So I need you to bring back our farm tools, and make sure those dogs reap what they've sown!"
-51,"TEXT_SUBSEA056_00468_BHIRDRAEG_000_1","Textless"
-52,"TEXT_SUBSEA056_00468_BHIRDRAEG_000_2","Textless"
-53,"TEXT_SUBSEA056_00468_BHIRDRAEG_000_3","Textless"
-54,"TEXT_SUBSEA056_00468_STAELWYRN_000_21","Pirates makin' off with our tools? Pfrewahl did well not to take matters into his own hands. Last thing I need is blood on my crops."
-55,"TEXT_SUBSEA056_00468_STAELWYRN_000_22","But I'll be damned if Sevrin thinks he can take us for fools. His treachery won't go unpunished."
-56,"TEXT_SUBSEA056_00468_PFREWAHL_000_11","I wonder what those sea dogs will try an' steal when there's no harvest!"
-57,"TEXT_SUBSEA056_00468_PFREWAHL_000_12","Ah, good to see the tools back, and in serviceable condition. Which will be more than we can say of Sevrin when we get our hands on him. The wretch likely had a role in the theft."
-58,"TEXT_SUBSEA056_00468_PFREWAHL_000_13","Spied him meetin' the pirates in secret, I did. I couldn't care less if the wastrel won't work, but when he consorts with cutpurses that take our tools away, he's crossed the line!"
-59,"TEXT_SUBSEA056_00468_PFREWAHL_000_14","Staelwyrn ought to know what sort of scalawag he's dealing with. Take word to him, would you?"
-60,"TEXT_SUBSEA056_00468_BHIRDRAEG_000_11","Textless"
-61,"TEXT_SUBSEA056_00468_BHIRDRAEG_000_12","Textless"
-62,"TEXT_SUBSEA056_00468_BHIRDRAEG_000_13","Textless"
-63,"TEXT_SUBSEA056_00468_BHIRDRAEG_000_14","Textless"
+48,"TEXT_SUBSEA056_00468_PFREWAHL_000_1","ちょいと聞いてくれよ！
+大事な農具が、海賊たちに奪われちまった。
+おおかた、溶かして、斧にでも作り変えるつもりだろう。"
+49,"TEXT_SUBSEA056_00468_PFREWAHL_000_2","だが、こちとら農具を買いなおす余裕なんてない！
+今すぐ取り戻しに行きたいが、俺は刃傷沙汰は
+二度としねえとシュテールヴィルン様に誓ったんだ……。"
+50,"TEXT_SUBSEA056_00468_PFREWAHL_000_3","だから、頼む。
+海賊どもを倒して、「奪われた農具」を3個取り返してくれ！"
+51,"TEXT_SUBSEA056_00468_BHIRDRAEG_000_1","空"
+52,"TEXT_SUBSEA056_00468_BHIRDRAEG_000_2","空"
+53,"TEXT_SUBSEA056_00468_BHIRDRAEG_000_3","空"
+54,"TEXT_SUBSEA056_00468_STAELWYRN_000_21","なるほど、海賊がちょっかい出してきたか……
+まったくフルーアールの奴、よく怒りを抑えてくれた。
+刃傷沙汰となりゃ、ここの評判がまた落ちるからな。"
+55,"TEXT_SUBSEA056_00468_STAELWYRN_000_22","それにひきかえ、セヴリンときたら
+問題ばかり起こしやがって……。
+いつまで、海賊の未練をひきずるつもりだ。"
+56,"TEXT_SUBSEA056_00468_PFREWAHL_000_11","農具を奪うなんて……
+海賊の奴らめ、農業を選んだ俺たちを
+バカにしてるにちげえねえ……。"
+57,"TEXT_SUBSEA056_00468_PFREWAHL_000_12","よかった、農具は無事だったか。
+……実は、この一件、セヴリンが
+裏で手を貸してる可能性があるんだ。"
+58,"TEXT_SUBSEA056_00468_PFREWAHL_000_13","セヴリンが海賊と話してるのを、見ちまったんだ。
+あいつは、他にもコソコソ悪さしてるようだし
+夜逃げする資金でも、かき集めてるのかもしれねえ。"
+59,"TEXT_SUBSEA056_00468_PFREWAHL_000_14","また、何か問題を起こされると困るから、
+念のため、サマーフォード庄に向かって
+「シュテールヴィルン」様に報告しておいてくれ。"
+60,"TEXT_SUBSEA056_00468_BHIRDRAEG_000_11","空"
+61,"TEXT_SUBSEA056_00468_BHIRDRAEG_000_12","空"
+62,"TEXT_SUBSEA056_00468_BHIRDRAEG_000_13","空"
+63,"TEXT_SUBSEA056_00468_BHIRDRAEG_000_14","空"

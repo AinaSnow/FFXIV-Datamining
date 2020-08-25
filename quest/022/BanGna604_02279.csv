@@ -1,13 +1,16 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANGNA604_02279_SEQ_00","The Vath keeneye is deep in thought.
-※The difficulty of this quest will be synced to your current level."
-1,"TEXT_BANGNA604_02279_SEQ_01","Silver dew smoke hovers in a thick cloud draped about Anyx Trine, and the dragons inhabiting the tower believe the Vath to be the perpetrators of this heinous crime. The Vath, however, suspect the true source of this smoke to be the censers that have recently been appearing across Gnath territory. The Vath keeneye believes there to be four new censers, having counted four distinct wisps of smoke from a distance. Make your way to the Smoldering Wastes, disable the Gnath censers, and help the Vath clear the air.
+0,"TEXT_BANGNA604_02279_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト受注クラス・ジョブ制限<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+ヴァスの塚のサーチャーは、切実な問題に頭を悩ませているようだ。"
+1,"TEXT_BANGNA604_02279_SEQ_01","※本クエストには
+「<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow><UIGlow>01</UIGlow><UIForeground>01</UIForeground> レベルアジャスト受注クラス・ジョブ制限」が、
+　設定されています。
+　受注時と同じクラス・ジョブでのみ進行できます。
 
-※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
-2,"TEXT_BANGNA604_02279_SEQ_02","You disable all the Gnath censers. Return to Loth ast Vath and report to the Vath keeneye."
-3,"TEXT_BANGNA604_02279_SEQ_03","The Vath keeneye thanks you for your hard work. He is convinced the Vath can remain in the dragons' good graces now that the Gnath censers have been disabled."
+サーチャーから、「繋がりし者たち」が増設した竜避けの香炉の停止を頼まれた。不浄の三塔のドラゴン族に「分かたれし者たち」が疑われていて、苦情が来ているのだという。スモーキングウェイストにある「<Sheet(EObj,2006945,0)/>」を4基、停止しよう。"
+2,"TEXT_BANGNA604_02279_SEQ_02","すべての<Sheet(EObj,2006945,0)/>を停止させた。ヴァスの塚の「サーチャー」に報告しよう。"
+3,"TEXT_BANGNA604_02279_SEQ_03","サーチャーに報告した。彼は、近所付き合いの大変さを痛感し、竜避けの香を焚かなくて済む日が来ることを焦がれていた。"
 4,"TEXT_BANGNA604_02279_SEQ_04",""
 5,"TEXT_BANGNA604_02279_SEQ_05",""
 6,"TEXT_BANGNA604_02279_SEQ_06",""
@@ -28,8 +31,8 @@ int32,str,str
 21,"TEXT_BANGNA604_02279_SEQ_21",""
 22,"TEXT_BANGNA604_02279_SEQ_22",""
 23,"TEXT_BANGNA604_02279_SEQ_23",""
-24,"TEXT_BANGNA604_02279_TODO_00","Disable the Gnath censers."
-25,"TEXT_BANGNA604_02279_TODO_01","Report to the Vath keeneye."
+24,"TEXT_BANGNA604_02279_TODO_00","<Sheet(EObj,2006945,0)/>を停止させる"
+25,"TEXT_BANGNA604_02279_TODO_01","サーチャーに報告"
 26,"TEXT_BANGNA604_02279_TODO_02",""
 27,"TEXT_BANGNA604_02279_TODO_03",""
 28,"TEXT_BANGNA604_02279_TODO_04",""
@@ -52,11 +55,23 @@ int32,str,str
 45,"TEXT_BANGNA604_02279_TODO_21",""
 46,"TEXT_BANGNA604_02279_TODO_22",""
 47,"TEXT_BANGNA604_02279_TODO_23",""
-48,"TEXT_BANGNA604_02279_SEARCHER_000_000","Adventurer, it is a good thing you are here. We have received complaints. The dragons say Anyx Trine and the area around it reek of burning silver dew."
-49,"TEXT_BANGNA604_02279_SEARCHER_000_001","They are convinced we are the culprits. This does not make sense. We have not changed the amount of silver dew we burn. <click> <click> There is only one thing it can be. The Onemind─they are erecting new censers."
-50,"TEXT_BANGNA604_02279_SEARCHER_000_002","The trust we have built between ourselves and the dragons is in much danger. We must prove to them our innocence! If we do not, they may be lost to us as clients forever."
-51,"TEXT_BANGNA604_02279_SEARCHER_000_003","Our scouts have observed four new pillars of smoke. They are undoubtedly the product of these censers. <click> <click> Please seek them out and put an end to their plots."
-52,"TEXT_BANGNA604_02279_GNATHDRONEA02279_000_010","(-Firedrone Scout-)<click> <click> Fleshling, how dare you lay your hands upon our precious censers!"
-53,"TEXT_BANGNA604_02279_GNATHDRONEB02279_000_011","(-Firedrone Scout-)<click> <click> You defy the will of the Overmind for the last time!"
-54,"TEXT_BANGNA604_02279_SEARCHER_000_020","We know not how to thank you, kind hunter. The dragons will remain our friends and clients. Who knew maintaining good relations with your neighbors could be such hard work?"
-55,"TEXT_BANGNA604_02279_SEARCHER_000_021","It is our hope that one day the Vath, the Gnath, and the dragons of Dravania will all find a way to live in harmony. <click> <click> Then there will be no need for anyone to suffer the stench of silver dew!"
+48,"TEXT_BANGNA604_02279_SEARCHER_000_000","シシシシシ……ヒトの冒険者よ、
+ドラゴン族から、近頃、竜避けの香炉が多すぎて、
+不浄の三塔にまで、煙が飛んでくると苦情が来ている。"
+49,"TEXT_BANGNA604_02279_SEARCHER_000_001","しかし、我々は香炉は増やしていない。
+忌まわしき、「繋がりし者たち」が、香炉を増設したのだ。"
+50,"TEXT_BANGNA604_02279_SEARCHER_000_002","このまま、我々が疑われるのはたまらん。
+潔白を証明したいので、キミに協力を求めたい。"
+51,"TEXT_BANGNA604_02279_SEARCHER_000_003","どうか、スモーキングウェイストへ赴き、
+「<Sheet(EObj,2006945,0)/>」4基すべてを、停止させてきてくれ。
+「繋がりし者たち」が現れるかもしれんが、問答無用だ。"
+52,"TEXT_BANGNA604_02279_GNATHDRONEA02279_000_010","(-グナース族の雑兵-)シシシシシ……我らの香炉に何をする！？
+不届き者め、排除してくれるわ！"
+53,"TEXT_BANGNA604_02279_GNATHDRONEB02279_000_011","(-グナース族の雑兵-)シシシシシ……香炉を止めたな！
+我らの邪魔をする者は、排除するのみ！"
+54,"TEXT_BANGNA604_02279_SEARCHER_000_020","シシシシシ……停止してきてくれたか、感謝する。
+これで、ドラゴン族からかけられた疑いも晴れるだろう。
+近所付き合いも、大変なものだ。"
+55,"TEXT_BANGNA604_02279_SEARCHER_000_021","いつか、邪竜の眷属がいなくなり、
+我々も、竜避けの香を焚かなくて済むような……
+そんな日が来るといいのだがな……シシシシシ。"

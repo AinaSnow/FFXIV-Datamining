@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANAMA106_01227_SEQ_00","Fibubb Gah wishes your aid in removing a blight from the land."
-1,"TEXT_BANAMA106_01227_SEQ_01","You have been tasked by Fibubb Gah with extinguishing the unnatural flames of the Amalj'aa beacons. Take the ritually prepared smothering ash and use it to deprive the foes of the Brotherhood of their enhanced blessings."
-2,"TEXT_BANAMA106_01227_SEQ_02","You have used the smothering ash to extinguish the tainted fires of the Amalj'aa beacons. Return to the Ring of Ash and report to Fibubb Gah."
-3,"TEXT_BANAMA106_01227_SEQ_03","Fibubb Gah praises your efforts, claiming that the land itself breathes easier in the absence of the foul Amalj'aa beacons. He bids you stand ready to offer your aid should his vile kin once more ignite their vile flames."
+0,"TEXT_BANAMA106_01227_SEQ_00","灰の陣営のフィブブ・ガーは、冒険者の実力を見込んで頼みがあるようだ。"
+1,"TEXT_BANAMA106_01227_SEQ_01","フィブブ・ガーの依頼を受けた。ザンラクにある「<Sheet(EObj,2003060,0)/>」に「<Sheet(EventItem,2001164,0)/>」を使おう。"
+2,"TEXT_BANAMA106_01227_SEQ_02","<Sheet(EObj,2003060,0)/>に<Sheet(EventItem,2001164,0)/>を使った。灰の陣営の「フィブブ・ガー」に報告しよう。"
+3,"TEXT_BANAMA106_01227_SEQ_03","フィブブ・ガーに報告した。見込んだ通りの腕前だったと、フィブブ・ガーは冒険者を誉めたたえた。彼はまたの機会に冒険者の力を借りたいと思ったようだ。"
 4,"TEXT_BANAMA106_01227_SEQ_04",""
 5,"TEXT_BANAMA106_01227_SEQ_05",""
 6,"TEXT_BANAMA106_01227_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_BANAMA106_01227_SEQ_21",""
 22,"TEXT_BANAMA106_01227_SEQ_22",""
 23,"TEXT_BANAMA106_01227_SEQ_23",""
-24,"TEXT_BANAMA106_01227_TODO_00","Use the smothering ash to extinguish Amalj'aa beacons."
-25,"TEXT_BANAMA106_01227_TODO_01","Report to Fibubb Gah."
+24,"TEXT_BANAMA106_01227_TODO_00","ザンラクの<Sheet(EObj,2003060,0)/>に<Sheet(EventItem,2001164,0)/>を使う"
+25,"TEXT_BANAMA106_01227_TODO_01","フィブブ・ガーに報告"
 26,"TEXT_BANAMA106_01227_TODO_02",""
 27,"TEXT_BANAMA106_01227_TODO_03",""
 28,"TEXT_BANAMA106_01227_TODO_04",""
@@ -49,10 +49,22 @@ int32,str,str
 45,"TEXT_BANAMA106_01227_TODO_21",""
 46,"TEXT_BANAMA106_01227_TODO_22",""
 47,"TEXT_BANAMA106_01227_TODO_23",""
-48,"TEXT_BANAMA106_01227_FIBUBBGAH_000_001","Tell me, honored ally, have you seen the ominous beacons the zealots of Zahar'ak light across the land? These unnatural flames are talismans of foul sorcery that amplify the blessings of the Lord of the Inferno."
-49,"TEXT_BANAMA106_01227_FIBUBBGAH_000_002","These symbols of servitude, of groveling weakness, cannot be allowed to taint the sacred domain of Zanr'ak a moment longer!"
-50,"TEXT_BANAMA106_01227_FIBUBBGAH_000_003","If you truly wish to stand with us against our honorless kin, then I would ask your aid in extinguishing the beacons. Take with you this ash─it has been ritually prepared to fully smother the noxious fires of our foe."
-51,"TEXT_BANAMA106_01227_FIBUBBGAH_000_004","Be warned, however, that the beacons will not be unguarded. Our weakling brethren will be loath to surrender even a sliver of their undeserved might."
-52,"TEXT_BANAMA106_01227_FIBUBBGAH_000_011","Take the smothering ash and extinguish these beacons of unseemly servitude!"
-53,"TEXT_BANAMA106_01227_FIBUBBGAH_000_031","The land itself breathes easier in the absence of those foul flames. You continue to show yourself a worthy ally of the Brotherhood."
-54,"TEXT_BANAMA106_01227_FIBUBBGAH_000_032","Our despicable kin, however, will not long countenance the loss of their magnified blessings. All too soon, new beacons will be lit, and we shall be glad of your aid once more."
+48,"TEXT_BANAMA106_01227_FIBUBBGAH_000_001","強き者よ、貴公は知りしか？
+ザハラク戦陣の連中が用立てし、忌々しき篝火を。
+あれこそ、焔神の加護を強めるためのまじないなり。"
+49,"TEXT_BANAMA106_01227_FIBUBBGAH_000_002","悲憤慷慨！
+かように愚かしくも醜きまじない、捨て置くこと許せず。
+早急に聖なるザンラクの地より消し去らん。"
+50,"TEXT_BANAMA106_01227_FIBUBBGAH_000_003","……強き者よ、我らに力を貸されよ。
+かの邪な篝火こそ神にすがる惰弱の象徴。
+この「<Sheet(EventItem,2001164,0)/>」を用いて、かき消さん。"
+51,"TEXT_BANAMA106_01227_FIBUBBGAH_000_004","されど篝火の周囲には、番兵が張っておる。
+きゃつらを蹴散らさぬことには、
+その目的を果たすことはできぬと知れ。"
+52,"TEXT_BANAMA106_01227_FIBUBBGAH_000_011","惰弱の象徴たる邪な篝火を、
+「<Sheet(EventItem,2001164,0)/>」を用いてかき消さん！"
+53,"TEXT_BANAMA106_01227_FIBUBBGAH_000_031","……強き者よ、篝火の消火、真に御苦労。
+流石は我が見込んだ武人、見事なり！"
+54,"TEXT_BANAMA106_01227_FIBUBBGAH_000_032","これでしばしは、きゃつらも大人しくなろう。
+されど再び、邪なる篝火が再燃せしときは、
+我が要請に応え、存分の活躍を示されよ。"

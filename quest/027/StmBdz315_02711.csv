@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ315_02711_SEQ_00","Saikoro's entire countenance reeks of desperation."
+0,"TEXT_STMBDZ315_02711_SEQ_00","碧のタマミズのサイコロは、誰かに相談したいことがあるようだ。"
 1,"TEXT_STMBDZ315_02711_SEQ_01",""
 2,"TEXT_STMBDZ315_02711_SEQ_02",""
 3,"TEXT_STMBDZ315_02711_SEQ_03",""
@@ -25,10 +25,10 @@ int32,str,str
 21,"TEXT_STMBDZ315_02711_SEQ_21",""
 22,"TEXT_STMBDZ315_02711_SEQ_22",""
 23,"TEXT_STMBDZ315_02711_SEQ_23",""
-24,"TEXT_STMBDZ315_02711_TODO_00","Survey the designated locations."
-25,"TEXT_STMBDZ315_02711_TODO_01","Speak with Saikoro."
-26,"TEXT_STMBDZ315_02711_TODO_02","Defeat the shiranui and obtain the wakizashi."
-27,"TEXT_STMBDZ315_02711_TODO_03","Deliver the wakizashi to Saikoro."
+24,"TEXT_STMBDZ315_02711_TODO_00","<Sheet(EObj,2008136,0)/>で見渡す"
+25,"TEXT_STMBDZ315_02711_TODO_01","サイコロと話す"
+26,"TEXT_STMBDZ315_02711_TODO_02","<Sheet(BNpcName,5739,0)/>を討伐し、まれに得られる<Sheet(EventItem,2002101,0)/>を入手"
+27,"TEXT_STMBDZ315_02711_TODO_03","サイコロに<Sheet(EventItem,2002101,0)/>を渡す"
 28,"TEXT_STMBDZ315_02711_TODO_04",""
 29,"TEXT_STMBDZ315_02711_TODO_05",""
 30,"TEXT_STMBDZ315_02711_TODO_06",""
@@ -49,15 +49,31 @@ int32,str,str
 45,"TEXT_STMBDZ315_02711_TODO_21",""
 46,"TEXT_STMBDZ315_02711_TODO_22",""
 47,"TEXT_STMBDZ315_02711_TODO_23",""
-48,"TEXT_STMBDZ315_02711_SAIKORO_000_000","Thank the kami for finally sending someone who I can turn to for help! Please, <If(PlayerParameter(4))>madam<Else/>sir</If>, I need you to do me a favor, but it is something that must stay between us."
-49,"TEXT_STMBDZ315_02711_SAIKORO_000_001","The other day, I was out for a stroll in the <Emphasis>Kobayashi Maru</Emphasis> to the northeast of here when I came across a wakizashi. It was beautiful. When I went to grab it, however, this ghastly tentacled creature appeared from nowhere and chased me away!"
-50,"TEXT_STMBDZ315_02711_SAIKORO_000_002","I want that wakizashi so badly, but if I appeal to anyone here for assistance, they will laugh in my face again and call me a coward. Might you go there and obtain it for me?"
-51,"TEXT_STMBDZ315_02711_SAIKORO_000_003","Please, bring me the wakizashi I spotted in the <Emphasis>Kobayashi Maru</Emphasis>. It is to the northeast of here. Once I get it, maybe then everyone will stop teasing me!"
-52,"TEXT_STMBDZ315_02711_SYSTEM_000_010","You thoroughly search the area but are unable to find the wakizashi."
-53,"TEXT_STMBDZ315_02711_SAIKORO_000_020","It was not there? Bah! That vile creature must have wrapped its slimy arms around it and taken it back to its home, then!"
-54,"TEXT_STMBDZ315_02711_SAIKORO_000_021","Please, you must track it down and seize my wakizashi from it. It is likely in Onokoro with all the other...<shudder>...sh-shiranui."
-55,"TEXT_STMBDZ315_02711_SAIKORO_000_022","Those gruesome beasts all look very similar so you may have to confront a few of them before you find the one with my wakizashi."
-56,"TEXT_STMBDZ315_02711_SAIKORO_100_030","Were you able to find my wakizashi?"
-57,"TEXT_STMBDZ315_02711_SAIKORO_000_030","Yes─this is it! Haha! At long last I have obtained my first treasure! Now I am a true Kojin of the Blue!"
-58,"TEXT_STMBDZ315_02711_SAIKORO_000_031","While I might not be the bravest, I do have the rare gift of seeing through people. Right away, I knew you were a kind and trustworthy individual."
-59,"TEXT_STMBDZ315_02711_SAIKORO_000_032","This ability has served me well in trading and has allowed me to establish many good relationships with the people around me─such as yourself! May our friendship last a lifetime!"
+48,"TEXT_STMBDZ315_02711_SAIKORO_000_000","あっ、陸のヒト、いいところにきてくれたぁ～。
+碧甲羅のみんなには内緒で、ひとつお願いがあるんだぁ～。"
+49,"TEXT_STMBDZ315_02711_SAIKORO_000_001","里の北東に沈んでる「小林丸」で、
+「<Sheet(EventItem,2002101,0)/>」を見つけたんだけども、
+ウネウネしたやつがいて、ど～にも手に入れられなかったんだぁ～。"
+50,"TEXT_STMBDZ315_02711_SAIKORO_000_002","そんなもん怖がるのはオラだけだって笑われるから、
+誰にも言わずに、探してきてくれないもんかなぁ～。"
+51,"TEXT_STMBDZ315_02711_SAIKORO_000_003","「<Sheet(EventItem,2002101,0)/>」は、
+里の北東に沈んでる「小林丸」あたりだぁ～。
+早くオラも一人前になりたいなぁ～。"
+52,"TEXT_STMBDZ315_02711_SYSTEM_000_010","<Sheet(EventItem,2002101,0)/>は、ここにはないようだ……。"
+53,"TEXT_STMBDZ315_02711_SAIKORO_000_020","見つからなかったぁ～？
+きっとあの、ウネウネした「<Sheet(BNpcName,5739,0)/>」が、
+もっていったに違いねぇ～！"
+54,"TEXT_STMBDZ315_02711_SAIKORO_000_021","ヤツら、いつもはオノコロ島にいるんだぁ～。
+どいつが持ってるかはわからねえが、見つかるまで、
+手当たり次第に倒して、ぜったいに取り返しておくれよぉ～！"
+55,"TEXT_STMBDZ315_02711_SAIKORO_000_022","「<Sheet(BNpcName,5739,0)/>」は、いつもはオノコロ島にいるんだぁ～。
+どいつが持ってるかはわからねえが、見つかるまで、
+手当たり次第に倒して、ぜったいに取り返しておくれよぉ～！"
+56,"TEXT_STMBDZ315_02711_SAIKORO_100_030","<Sheet(EventItem,2002101,0)/>は、みつかったかぁ～？"
+57,"TEXT_STMBDZ315_02711_SAIKORO_000_030","それだぁ～！　オラが見つけた<Sheet(EventItem,2002101,0)/>に間違いない！
+碧甲羅では、お宝を見つけてはじめて一人前なんだぁ～。
+そりゃ、自分の力で手に入れたわけじゃないけどよぉ～。"
+58,"TEXT_STMBDZ315_02711_SAIKORO_000_031","オラのヒトを見る目は確かだってことさぁ～。
+商いっつうのは、縁が大事だもんでなぁ～。
+いい取引相手を見抜いて、縁を繋ぐのは、一人前の証だぁ～。"
+59,"TEXT_STMBDZ315_02711_SAIKORO_000_032","これからもいい取引ができるよう、仲良くしてくれよなぁ～。"

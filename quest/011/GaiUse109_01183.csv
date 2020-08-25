@@ -1,12 +1,12 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSE109_01183_SEQ_00","Sark Malark is a man of mystery. Where did he come from? How did he get here? And what does he want from you today?"
-1,"TEXT_GAIUSE109_01183_SEQ_01","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/> This quest has been adjusted. Please abandon the quest and restart it by speaking to Slafborn in Revenant's Toll.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+0,"TEXT_GAIUSE109_01183_SEQ_00","レヴナンツトールのサルク・マウルクには、気になることがあるようだ。"
+1,"TEXT_GAIUSE109_01183_SEQ_01","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/>本クエストは調整されました。一度破棄し、レヴナンツトールの「スラフボーン」から再受注してください。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
-※The Main Scenario Guide shows the next available quest. You can toggle it on and off in Character Configuration, under UI Settings."
-2,"TEXT_GAIUSE109_01183_SEQ_02","The explosives had the last word in that encounter. Report to Sark Malark that the crates are no more."
-3,"TEXT_GAIUSE109_01183_SEQ_03","Sark Malark was appreciative, but not confiding. It seems he means to keep his old life a secret, even─or especially─from a fellow adventurer."
+※次のメインクエストは、「メインクエストガイド」からも確認することができます。メインクエストガイドの表示/非表示は、メインコマンドの「キャラクターコンフィグ」から「ユーザーインターフェース設定」を選び、変更してください。"
+2,"TEXT_GAIUSE109_01183_SEQ_02","<Sheet(EObj,2002847,0)/>を無事、破壊することができた。レヴナンツトールへ戻り、このことを「サルク・マウルク」に報告しよう。"
+3,"TEXT_GAIUSE109_01183_SEQ_03","サルク・マウルクに無事、報告することができた。彼の秘密は、まだまだ明かされることはないようだ……。"
 4,"TEXT_GAIUSE109_01183_SEQ_04",""
 5,"TEXT_GAIUSE109_01183_SEQ_05",""
 6,"TEXT_GAIUSE109_01183_SEQ_06",""
@@ -27,8 +27,10 @@ int32,str,str
 21,"TEXT_GAIUSE109_01183_SEQ_21",""
 22,"TEXT_GAIUSE109_01183_SEQ_22",""
 23,"TEXT_GAIUSE109_01183_SEQ_23",""
-24,"TEXT_GAIUSE109_01183_TODO_00","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/> This quest has been adjusted. Please abandon the quest and restart it by speaking to Slafborn in Revenant's Toll.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
-25,"TEXT_GAIUSE109_01183_TODO_01","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/> This quest has been adjusted. Please abandon the quest and restart it by speaking to Slafborn in Revenant's Toll.<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+24,"TEXT_GAIUSE109_01183_TODO_00","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/>本クエストは調整されました。一度破棄し、
+レヴナンツトールのスラフボーンから再受注してください<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+25,"TEXT_GAIUSE109_01183_TODO_01","<UIForeground>F20215</UIForeground><UIGlow>F20216</UIGlow><Gui(63)/>本クエストは調整されました。一度破棄し、
+レヴナンツトールのスラフボーンから再受注してください<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 26,"TEXT_GAIUSE109_01183_TODO_02",""
 27,"TEXT_GAIUSE109_01183_TODO_03",""
 28,"TEXT_GAIUSE109_01183_TODO_04",""
@@ -51,17 +53,40 @@ int32,str,str
 45,"TEXT_GAIUSE109_01183_TODO_21",""
 46,"TEXT_GAIUSE109_01183_TODO_22",""
 47,"TEXT_GAIUSE109_01183_TODO_23",""
-48,"TEXT_GAIUSE109_01183_SARKMALARK_000_000","Ah, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! It is most welcome to see you again."
-49,"TEXT_GAIUSE109_01183_SARKMALARK_000_001","Look at the hustle and bustle of adventurers, where there were but rocks not long ago! As one of those who has been here since the beginning, I am humbled by the sight."
-50,"TEXT_GAIUSE109_01183_SARKMALARK_000_002","Yet none of us can be full glad, for the Garlean forces nearby like not our bustle at all, and our hustle even less. They seek to move on us soon, we are all but certain."
-51,"TEXT_GAIUSE109_01183_SARKMALARK_000_003","This is no idle speculation, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Three steel-bound crates of the familiar type were delivered to Castrum Centri not two days ago."
-52,"TEXT_GAIUSE109_01183_SARKMALARK_000_004","The contents are no doubt arms. To defend the land they hold? To take what we hold? Neither is a particularly attractive prospect, you must admit."
-53,"TEXT_GAIUSE109_01183_SARKMALARK_000_005","I propose a third outcome that is less like to claim lives, if you would aid me─destroy the crates and their contents now."
-54,"TEXT_GAIUSE109_01183_SARKMALARK_000_006","Use these explosives I had rushed from the Alchemists' Guild. They will do the job, rest assured."
-55,"TEXT_GAIUSE109_01183_SARKMALARK_000_007","Who better to make this attempt than you, who once walked undetected into Castrum Centri? Twelve speed your way, <If(PlayerParameter(4))>sister<Else/>brother</If> adventurer."
-56,"TEXT_GAIUSE109_01183_SARKMALARK_000_008","Please, you must destroy the crates being stored in Castrum Centri, before it's too late."
-57,"TEXT_GAIUSE109_01183_SARKMALARK_000_009","Those explosives should be more than sufficient for the task. Each one contains twenty-four onzes of firesand and will detonate on impact."
-58,"TEXT_GAIUSE109_01183_SARKMALARK_000_020","We could hear the explosions─I knew you would make a success of it!"
-59,"TEXT_GAIUSE109_01183_SARKMALARK_000_021","This should draw the Garleans' sting for a while─but not for too long. We must be vigilant, for─"
-60,"TEXT_GAIUSE109_01183_SARKMALARK_000_022","...How ever did I afford such quality munitions, you ask? Oh, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, you needn't concern yourself with such trivial details."
-61,"TEXT_GAIUSE109_01183_SARKMALARK_000_023","Nevertheless, your stealth and compassion are appreciated in equal measure! I am a lucky man indeed to be a part of this fellowship─adventurers, one and all!"
+48,"TEXT_GAIUSE109_01183_SARKMALARK_000_000","おや、いつぞやの冒険者さん。
+レヴナンツトールへようこそ。"
+49,"TEXT_GAIUSE109_01183_SARKMALARK_000_001","かつて、岩ばかりの荒れ地だったここも、
+再び集った冒険者たちによって、活気づいてきました。
+開拓に参加した身としても、本当に喜ばしいかぎりです。"
+50,"TEXT_GAIUSE109_01183_SARKMALARK_000_002","しかし、一方で危惧していることもあります。
+賑わいをみせるレヴナンツトールを警戒してか、
+周辺の帝国軍が、なにやら動いているとの噂があるのです。"
+51,"TEXT_GAIUSE109_01183_SARKMALARK_000_003","その噂を裏付けるかのように、
+先日、ここから南西にある帝国軍の採掘拠点に
+コンテナが運びこまれたとの情報もあります。"
+52,"TEXT_GAIUSE109_01183_SARKMALARK_000_004","……コンテナの中身は、おそらくは軍需品でしょう。
+かの地に残留する帝国軍が拠点を死守しようと、
+防備を固めているに違いありません。"
+53,"TEXT_GAIUSE109_01183_SARKMALARK_000_005","冒険者さん、どうか大事に至る前に、
+問題のコンテナを破壊していただけないでしょうか。"
+54,"TEXT_GAIUSE109_01183_SARKMALARK_000_006","コンテナ破壊には、この「<Sheet(EventItem,2001079,0)/>」をお使いください。
+錬金術師ギルドに言って、特別に用意させたものですので、
+威力は保証しますよ。"
+55,"TEXT_GAIUSE109_01183_SARKMALARK_000_007","カストルム・セントリに駐屯していた帝国軍を相手に
+「あざむき作戦」をやってのけたあなただ。
+……きっと成功すると信じています。"
+56,"TEXT_GAIUSE109_01183_SARKMALARK_000_008","南西の帝国軍の採掘拠点にある、
+帝国軍が運び込んだコンテナを破壊してください。"
+57,"TEXT_GAIUSE109_01183_SARKMALARK_000_009","コンテナ破壊には、この「<Sheet(EventItem,2001079,0)/>」をお使いください。
+錬金術師ギルドに言って、特別に用意させたものですので、
+威力は保証しますよ。"
+58,"TEXT_GAIUSE109_01183_SARKMALARK_000_020","おつかれさまです、冒険者さん。
+どうやら、爆破に成功したようですね。"
+59,"TEXT_GAIUSE109_01183_SARKMALARK_000_021","これでしばらくは帝国軍も静かになるでしょう。
+……しかし、油断はできませんね。
+私もいっそう、気を引き締めるようにしなくては。"
+60,"TEXT_GAIUSE109_01183_SARKMALARK_000_022","……おや、錬金術師ギルドに特注の爆弾を作らせるだなんて、
+やはり私が富豪の息子なんじゃないかって？"
+61,"TEXT_GAIUSE109_01183_SARKMALARK_000_023","……おかしなことをおっしゃいますね。
+私は一介の冒険者……。
+志を同じくする者として手段を提供しただけですよ。"
