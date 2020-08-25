@@ -1,10 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANKJN301_02979_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト受注クラス・ジョブ制限<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-※本クエストは受注時のクラス・ジョブでのみ進行します。
-
-碧のタマミズのズキンは、お冠のようだ。"
+0,"TEXT_BANKJN301_02979_SEQ_00","Zukin is in a stink over an attack on a caravan.
+※The difficulty of this quest will be synced to your current level."
 1,"TEXT_BANKJN301_02979_SEQ_01",""
 2,"TEXT_BANKJN301_02979_SEQ_02",""
 3,"TEXT_BANKJN301_02979_SEQ_03",""
@@ -28,10 +26,9 @@ int32,str,str
 21,"TEXT_BANKJN301_02979_SEQ_21",""
 22,"TEXT_BANKJN301_02979_SEQ_22",""
 23,"TEXT_BANKJN301_02979_SEQ_23",""
-24,"TEXT_BANKJN301_02979_TODO_00","ベッコウ島でむくれた碧甲羅と話す"
-25,"TEXT_BANKJN301_02979_TODO_01","ベッコウ島の<Sheet(EObj,2009239,0)/>で見渡し、<Sheet(BNpcName,6873,0)/>が現れたら
-打ち負かして<Sheet(EventItem,2002398,0)/>を使う"
-26,"TEXT_BANKJN301_02979_TODO_02","ズキンに報告"
+24,"TEXT_BANKJN301_02979_TODO_00","Speak with the cranky Kojin on the Isle of Bekko."
+25,"TEXT_BANKJN301_02979_TODO_01","Seek out Red Kojin and smear them with golden aspic upon their defeat."
+26,"TEXT_BANKJN301_02979_TODO_02","Report to Zukin."
 27,"TEXT_BANKJN301_02979_TODO_03",""
 28,"TEXT_BANKJN301_02979_TODO_04",""
 29,"TEXT_BANKJN301_02979_TODO_05",""
@@ -53,42 +50,25 @@ int32,str,str
 45,"TEXT_BANKJN301_02979_TODO_21",""
 46,"TEXT_BANKJN301_02979_TODO_22",""
 47,"TEXT_BANKJN301_02979_TODO_23",""
-48,"TEXT_BANKJN301_02979_ZUKIN_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><If(PlayerParameter(4))>姉<Else/>兄</If>、大変だぜぇ～！
-東アルデナード商会向けの商品を運搬していたら、
-紅甲羅が襲ってきたんだぁ～！"
-49,"TEXT_BANKJN301_02979_ZUKIN_000_001","幸い、商品は守れたんだが、
-略奪者たちを、取り逃がしちまってなぁ～！
-<If(PlayerParameter(4))>姉<Else/>兄</If>さんも、仲間と一緒に探してくれぇ～！"
-50,"TEXT_BANKJN301_02979_ZUKIN_000_002","それから、この「<Sheet(EventItem,2002398,0)/>」も持っていきなぁ～！
-こいつは臭ぇから、思いっきりボコったあとにぶつけて、
-二度とちょっかい出してこないよう、懲らしめてやるんだぁ～！"
-51,"TEXT_BANKJN301_02979_ZUKIN_000_003","確か「むくれた碧甲羅」が、
-ベッコウ島で略奪者を探してるはずだぁ～。
-まずは、そいつから話を聞いてきてくれぇ～！"
-52,"TEXT_BANKJN301_02979_KOJINFEMALE02979_000_020","あの紅甲羅、逃げ足が速くって、見失っちゃったのぉ～！
-手分けして探したいから、アナタは北の海岸で、
-見渡してくれる～？"
-53,"TEXT_BANKJN301_02979_KOJINFEMALE02979_000_021","もしも略奪者の紅甲羅を見つけたら、
-懲らしめたあと「<Sheet(EventItem,2002398,0)/>」をぶつけちゃってねぇ～！
-それじゃ、よろしく～！"
-54,"TEXT_BANKJN301_02979_KOJINMALE02979_000_010","（★未使用／削除予定★）"
-55,"TEXT_BANKJN301_02979_SYSTEM_000_010","（★未使用／削除予定★）"
-56,"TEXT_BANKJN301_02979_SYSTEM_000_019","（★未使用／削除予定★）"
-57,"TEXT_BANKJN301_02979_SYSTEM_000_020","（★未使用／削除予定★）"
-58,"TEXT_BANKJN301_02979_SYSTEM_000_021","（★未使用／削除予定★）"
-59,"TEXT_BANKJN301_02979_SYSTEM_000_029","（★未使用／削除予定★）"
-60,"TEXT_BANKJN301_02979_POPMESSAGE_000_029","（★未使用／削除予定★）"
-61,"TEXT_BANKJN301_02979_BALLOON_000_010","くそォー、見つかったかァー！"
-62,"TEXT_BANKJN301_02979_BALLOON_100_010","くっ、くせェー！！"
-63,"TEXT_BANKJN301_02979_BALLOON_000_011","海まであと少しなんだァー！
-返り討ちにしてやるー！"
-64,"TEXT_BANKJN301_02979_BALLOON_100_011","ぐぇッ！勘弁してくれェ―！"
-65,"TEXT_BANKJN301_02979_BALLOON_000_012","もうひと踏ん張り、やってやるー！"
-66,"TEXT_BANKJN301_02979_BALLOON_100_013","ぐはぁッ！臭すぎるぞォー！"
-67,"TEXT_BANKJN301_02979_ZUKIN_000_030","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><If(PlayerParameter(4))>姉<Else/>兄</If>、紅甲羅の野郎はどうだぁ～！？"
-68,"TEXT_BANKJN301_02979_ZUKIN_000_031","おぉ～！　さっすが、<If(PlayerParameter(4))>姉<Else/>兄</If>さん！
-仲間たちには、紅甲羅の野郎を<If(PlayerParameter(4))>姉<Else/>兄</If>さんがボコったって、
-伝えておくぞぉ～！"
-69,"TEXT_BANKJN301_02979_ZUKIN_000_032","襲ったやつも、いまごろ懲りてることだろうぜぇ～。
-「<Sheet(EventItem,2002398,0)/>」は、びっくりするほど臭ぇからなぁ～、
-臭いが落ちるまで、ゼッキ島から閉め出されてるだろうよぉ～！"
+48,"TEXT_BANKJN301_02979_ZUKIN_000_000","The Red, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>─they have fallen upon one of our caravans!"
+49,"TEXT_BANKJN301_02979_ZUKIN_000_001","By the grace of the kami, we were able to protect the goods, but the Red brigands remain at large. I need you to join us in hunting them down."
+50,"TEXT_BANKJN301_02979_ZUKIN_000_002","Once you have found and given them a trouncing, smear this all over them. Golden aspic, it is called, and it is made by─actually, 'tis best that you do not know. The point is it smells foul, and will serve to teach the offending Reds a lesson."
+51,"TEXT_BANKJN301_02979_ZUKIN_000_003","Even as we speak, one of our sisters is scouring the Isle of Bekko for them. Seek her out first, and she will tell you more."
+52,"TEXT_BANKJN301_02979_KOJINFEMALE02979_000_020","The Red brigands struck fast, but they fled even faster. If you would search the northern shoreline, I will see to the rest of the isle."
+53,"TEXT_BANKJN301_02979_KOJINFEMALE02979_000_021","And as Zukin will have told you, after you subdue the villains, you are to smear golden aspic all over them. Do not forget this step."
+54,"TEXT_BANKJN301_02979_KOJINMALE02979_000_010",""
+55,"TEXT_BANKJN301_02979_SYSTEM_000_010",""
+56,"TEXT_BANKJN301_02979_SYSTEM_000_019",""
+57,"TEXT_BANKJN301_02979_SYSTEM_000_020",""
+58,"TEXT_BANKJN301_02979_SYSTEM_000_021",""
+59,"TEXT_BANKJN301_02979_SYSTEM_000_029",""
+60,"TEXT_BANKJN301_02979_POPMESSAGE_000_029",""
+61,"TEXT_BANKJN301_02979_BALLOON_000_010","D-Damn! Come on, then!"
+62,"TEXT_BANKJN301_02979_BALLOON_100_010","K-Kami have mercy, the stench!"
+63,"TEXT_BANKJN301_02979_BALLOON_000_011","Hmph! And I was so close to the water!"
+64,"TEXT_BANKJN301_02979_BALLOON_100_011","Nooo! A-Anything but that!"
+65,"TEXT_BANKJN301_02979_BALLOON_000_012","Grrr, I'm not finished yet!"
+66,"TEXT_BANKJN301_02979_BALLOON_100_013","What the─ Uhhh... I'm going to be─ Hurrrgh!"
+67,"TEXT_BANKJN301_02979_ZUKIN_000_030","Ah, you are returned. Were you able to find and punish the Red in the manner prescribed?"
+68,"TEXT_BANKJN301_02979_ZUKIN_000_031","Haha, well done, my friend! Our comrades shall be pleased to learn that you have dealt with the brigands!"
+69,"TEXT_BANKJN301_02979_ZUKIN_000_032","The poor sods will reek for a good while, and until such time as the odor fades, they are like to be spurned by their own. A fine lesson, yes?"

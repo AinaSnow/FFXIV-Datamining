@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDF102_03180_SEQ_00","低地ドラヴァニアのアリゼーは、そわそわしているようだ。"
+0,"TEXT_STMBDF102_03180_SEQ_00","The news from Ala Mhigo has left Alisaie in a state of nervous excitement."
 1,"TEXT_STMBDF102_03180_SEQ_01",""
 2,"TEXT_STMBDF102_03180_SEQ_02",""
 3,"TEXT_STMBDF102_03180_SEQ_03",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_STMBDF102_03180_SEQ_21",""
 22,"TEXT_STMBDF102_03180_SEQ_22",""
 23,"TEXT_STMBDF102_03180_SEQ_23",""
-24,"TEXT_STMBDF102_03180_TODO_00","アラミガン・クォーターのアラミゴ解放軍の衛兵と話す"
-25,"TEXT_STMBDF102_03180_TODO_01","アリゼーと話す"
-26,"TEXT_STMBDF102_03180_TODO_02","帰燕館のヒエンと話す"
+24,"TEXT_STMBDF102_03180_TODO_00","Speak with the Resistance guard in the Ala Mhigan Quarter."
+25,"TEXT_STMBDF102_03180_TODO_01","Speak with Alisaie."
+26,"TEXT_STMBDF102_03180_TODO_02","Speak with Hien."
 27,"TEXT_STMBDF102_03180_TODO_03",""
 28,"TEXT_STMBDF102_03180_TODO_04",""
 29,"TEXT_STMBDF102_03180_TODO_05",""
@@ -49,88 +49,41 @@ int32,str,str
 45,"TEXT_STMBDF102_03180_TODO_21",""
 46,"TEXT_STMBDF102_03180_TODO_22",""
 47,"TEXT_STMBDF102_03180_TODO_23",""
-48,"TEXT_STMBDF102_03180_KRILE_000_000","結局、お役に立てなくてごめんなさい。
-まさか、意思の痕跡が消えてしまっているなんて……。"
-49,"TEXT_STMBDF102_03180_ALISAIE_000_010","さあ、亡命してきたマキシマ大使のもとへ急ぎましょう。
-難民たちはアラミゴ王宮に保護されているそうだから、
-行き先はアラミガン・クォーターね。"
-50,"TEXT_STMBDF102_03180_ALISAIE_000_011","リセが話を通してくれているから、
-アラミゴ解放軍の衛兵に声をかければ、案内してくれるそうよ。"
-51,"TEXT_STMBDF102_03180_KRILE_000_012","アルフィノ君の安否が掴めるといいわね。
-それじゃあ、私は引き続き魂の行方を調査してみるわ。"
-52,"TEXT_STMBDF102_03180_ALISAIE_000_015","アルフィノは……きっと無事よね……。"
-53,"TEXT_STMBDF102_03180_RESISTANCEGATEGUARD_000_020","これは「暁」のお二方、リセ様より話は伺っております。
-アラミゴ王宮へ向かわれますか？"
-54,"TEXT_STMBDF102_03180_Q1_000_021","保護された難民のもとへ向かいますか？"
-55,"TEXT_STMBDF102_03180_RESISTANCEGATEGUARD_000_025","帝国軍の再侵攻がこんなにも早いとは……！
-「暁」のお二方は、火急に東方への伝達を、
-と、リセ様より言付かっております。"
-56,"TEXT_STMBDF102_03180_ALISAIE_000_030","アルフィノの件で、ひと安心できたと思ったら、
-大変な事態になってきたわね。"
-57,"TEXT_STMBDF102_03180_ALISAIE_000_031","今度は東方だなんて、目まぐるしいものだけど、
-じっとしていられないタチの私には、これくらいが丁度いいわ。
-一刻も早く、ドマ町人地の帰燕館へ急ぎましょう！"
-58,"TEXT_STMBDF102_03180_YUGIRI_000_035","これは、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>殿。
-彼らは、東方連合に加わった各組織の代表たちだ。
-交渉の甲斐あって、こんなにも多くの勢力が集まってくれた。"
-59,"TEXT_STMBDF102_03180_HAKUROU_000_036","ドマ一国では心許なかったが、これだけの勢力が結束すれば、
-かなりの戦力が期待できるだろう。"
-60,"TEXT_STMBDF102_03180_TANSUI_000_037","帝国は俺たちの紅玉海を、さんざ荒らしまわってくれたからな。
-そろそろ、ツケを払わせたいところだぜ。"
-61,"TEXT_STMBDF102_03180_AOKORAHERALD_000_038","私ら碧甲羅としてもぉ～。
-帝国の横暴には我慢ならないんだよねぇ～。
-紅甲羅にも早く目を覚ましてほしいもんだよぉ～。"
-62,"TEXT_STMBDF102_03180_CIRINA_000_039","マグナイさんたちオロニル族は、
-あの戦いの後、厳しい訓練を続けているようです。
-勝負に敗れたのが、よほど悔しかったのでしょうね。"
-63,"TEXT_STMBDF102_03180_NAGUSAHERALD_000_040","ヤンサに隣接するナグサの地より、参上つかまつった。
-長らく帝国に対する抵抗活動を続けてきた我らにとって、
-今回の連合結成の打診は、まさに渡りに船であった。"
-64,"TEXT_STMBDF102_03180_DALMASCAHERALD_000_041","ラバナスタが陥落してから、我ら生き残った者たちは地下に潜り、
-次なる反撃に向けて力を蓄えていたのだ。
-ダルマスカの民は、何度でも立ち上がるぞ。"
-65,"TEXT_STMBDF102_03180_KIENKANGATEKEEPER03028_000_042","ヒエン様の館「帰燕館」へ入られますか？"
-66,"TEXT_STMBDF102_03180_EVENTAREA_WARP_000_043","「帰燕館」へ入りますか？"
-67,"TEXT_STMBDF102_03180_TANSUI_000_044","ドマの殿様からお呼ばれされてるもんでな。
-これからドマへ向かうところだ。"
-68,"TEXT_STMBDF102_03180_CIRINA_000_045","東方連合の軍議に私が出ることになりました。
-草原の民の代表として、精一杯務めを果たします。"
-69,"TEXT_STMBDF102_03180_HIEN_000_050","おお、そなたらか。
-東方連合に加わった各組織の代表たちに集まってもらい、
-今後のことについて、話し合いを行っていたところだ。"
-70,"TEXT_STMBDF102_03180_HIEN_000_051","周知の、海賊衆と碧甲羅。
-そなたの尽力によって説得できた、アジムステップの遊牧民……。"
-71,"TEXT_STMBDF102_03180_HIEN_100_051","そして、隣人であるナグサの諸派と、不屈なるダルマスカの民……。
-ただ、ダルマスカの抵抗勢力は現在、分裂してしまっているので、
-連合への正式な加入は連帯を取り戻してからとなっている……。"
-72,"TEXT_STMBDF102_03180_HIEN_000_052","勇猛果敢な猛者たちが、連合の名のもとに集まってくれた。
-自由を脅かす帝国には徹底抗戦するということで、
-皆の意見は一致している。"
-73,"TEXT_STMBDF102_03180_ALISAIE_000_053","東方連合の準備が順調そうでよかった。
-実は、その戦力も借りたい事態になったの……。"
-74,"TEXT_STMBDF102_03180_HIEN_000_054","アルフィノの行方について、多少なりとも情報が得られたことは、
-喜ばしい限りだが、帝国の動きがこうも早いとは……。
-アラミゴ攻めも、そう遠くないといったところか。"
-75,"TEXT_STMBDF102_03180_YUGIRI_000_055","属州に潜伏している忍びたちからの報告も、
-帝国軍が西方に集結しつつあることを裏付けるものばかり。
-おそらく、東方ではなく、エオルゼアに狙いを絞ったのかと……。"
-76,"TEXT_STMBDF102_03180_HIEN_000_056","そうとなれば、我らも援軍を派遣したいところだが……
-それも、永久焦土地帯に防壁を築けるか否かにかかっておる。
-飛空戦艦での侵攻を防げぬ限り、奇襲の危険は残り続けるのでな。"
-77,"TEXT_STMBDF102_03180_ALISAIE_000_057","例のアラグの防御フィールドね。"
-78,"TEXT_STMBDF102_03180_HIEN_000_058","ああ、わしは東方に古来より伝わる四聖獣の一角、
-東方の守護者とされる存在にあやかり、「青龍壁」と名付けた。"
-79,"TEXT_STMBDF102_03180_YUGIRI_000_059","ガーロンド社の技術者による発生器の設置も完了したので、
-この後に、起動実験を行う手筈であった。"
-80,"TEXT_STMBDF102_03180_HIEN_000_060","よければ、そなたらも起動実験に立ち会ってもらえぬか？
-魔大陸へと赴いたことのある<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>に、
-その効果の程を、見極めてもらいたいのだ。"
-81,"TEXT_STMBDF102_03180_ALISAIE_000_062","わかったわ。
-ヤ・シュトラの代わりというわけにはいかないけど、
-私も同行させてもらうわね。"
-82,"TEXT_STMBDF102_03180_HIEN_000_063","ユウギリ、わしは永久焦土地帯へと向かい、
-「青龍壁」の展開を急ぐ。
-各代表との軍議の詰めは、そなたとハクロウに任せるぞ。"
-83,"TEXT_STMBDF102_03180_YUGIRI_000_064","承知……。
-ヨルと大隼はすでに、手配させてありますので、
-どうか、お気をつけて。"
+48,"TEXT_STMBDF102_03180_KRILE_000_000","I'm sorry I couldn't do more. I've never seen a soul's thread end so abruptly before..."
+49,"TEXT_STMBDF102_03180_ALISAIE_000_010","I almost can't bear to hear what Maxima has to tell us..."
+50,"TEXT_STMBDF102_03180_ALISAIE_000_011","But it can't be bad news, can it? Lyse would have said. Unless─ Agh, there's no point speculating. Lyse said she'd notified the guards of our coming, so we should head straight to the palace gate in the Ala Mhigan Quarter."
+51,"TEXT_STMBDF102_03180_KRILE_000_012","I'll be praying for good news. Learn what you can about Alphinaud's plight, and leave the search for our friends' lost souls to me."
+52,"TEXT_STMBDF102_03180_ALISAIE_000_015","Alphinaud will be all right. He has to be."
+53,"TEXT_STMBDF102_03180_RESISTANCEGATEGUARD_000_020","Greetings, Scions─the commander told me to expect you. Shall I show you in?"
+54,"TEXT_STMBDF102_03180_Q1_000_021","Enter the Royal Palace?"
+55,"TEXT_STMBDF102_03180_RESISTANCEGATEGUARD_000_025","So the Garleans make ready to move against us, do they? Well, I would sooner die than wear shackles again...
+Commander Hext mentioned you carry a message for Lord Hien. May your road to the Far East be free of imperial curs."
+56,"TEXT_STMBDF102_03180_ALISAIE_000_030","So, Alphinaud is safe─for the present, at least. Now all we need to worry about is a full-scale imperial invasion..."
+57,"TEXT_STMBDF102_03180_ALISAIE_000_031","I'm actually glad Lyse tasked us with visiting Lord Hien─better to be dashing from place to place than sitting around stewing over things we can't change. To the enclave!"
+58,"TEXT_STMBDF102_03180_YUGIRI_000_035","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. You have arrived in time to witness the beginnings of our new alliance. Our proposal struck a chord with many of our neighbors, I am pleased to say."
+59,"TEXT_STMBDF102_03180_HAKUROU_000_036","Alone, Doma could accomplish little against the Empire, but in concert with the allies who have gathered here today, we might do much."
+60,"TEXT_STMBDF102_03180_TANSUI_000_037","The imperials have enjoyed the freedom of the Ruby Sea for long enough. 'Tis time they paid their dues."
+61,"TEXT_STMBDF102_03180_AOKORAHERALD_000_038","We of the Blue Kojin will not submit to the Empire's tyranny. If only our Red brethren would awaken to their folly..."
+62,"TEXT_STMBDF102_03180_CIRINA_000_039","After their humbling at your hands, Magnai and his Oronir have spent every waking moment upon the training fields. Defeat does not sit well with the Sun and his children."
+63,"TEXT_STMBDF102_03180_NAGUSAHERALD_000_040","I am come to represent the lands of Nagxia. Long have we struggled in defiance of the Empire, waiting for just such an opportunity as this alliance presents."
+64,"TEXT_STMBDF102_03180_DALMASCAHERALD_000_041","The fall of Rabanastre was not the end of our nation. We who survived retreated underground, and have been gathering strength to mount a counteroffensive. Dalmasca will rise again."
+65,"TEXT_STMBDF102_03180_KIENKANGATEKEEPER03028_000_042","I see you have tidings for Lord Hien. May I show you in?"
+66,"TEXT_STMBDF102_03180_EVENTAREA_WARP_000_043","Enter the Kienkan?"
+67,"TEXT_STMBDF102_03180_TANSUI_000_044","The young lord of Doma has requested my presence. I do hope my garb is fancy enough for his hall."
+68,"TEXT_STMBDF102_03180_CIRINA_000_045","A war council for the alliance is about to begin, and I have been chosen as the voice of the Steppe. I shall do my utmost to represent the will of all the tribes."
+69,"TEXT_STMBDF102_03180_HIEN_000_050","Greetings, my friends. I was just discussing future endeavors with the members of our newly formed alliance."
+70,"TEXT_STMBDF102_03180_HIEN_000_051","The Kojin and the Confederacy you already know, and it was your own strength of arms that won us the cooperation of the Steppe tribes."
+71,"TEXT_STMBDF102_03180_HIEN_100_051","We have also been joined by our neighbors from Nagxia, and the indomitable citizens of Dalmasca...though the scattered nature of the latter's resistance will somewhat delay their official induction."
+72,"TEXT_STMBDF102_03180_HIEN_000_052","These proud peoples have united under a single purpose: to stand against the tyranny of the Garlean Empire."
+73,"TEXT_STMBDF102_03180_ALISAIE_000_053","I am glad to see your alliance is coming together so swiftly. As things stand, I fear we shall soon have need of your strength..."
+74,"TEXT_STMBDF102_03180_HIEN_000_054","I thank you for bringing me news of Alphinaud. His fate is never far from my thoughts─and not only because he is our emissary. As for this sudden deployment of imperial forces, I agree that Ala Mhigo would be wise to shore up its borders with all haste."
+75,"TEXT_STMBDF102_03180_YUGIRI_000_055","Every report we receive from our shinobi indicates a massing of troops in the western provinces. It seems all but certain that the Empire is poised to bring its fist down upon Eorzea."
+76,"TEXT_STMBDF102_03180_HIEN_000_056","And I would help deflect that blow. But I cannot risk sending reinforcements just yet. We will remain vulnerable to airborne assault until our wall in the Burn is in place."
+77,"TEXT_STMBDF102_03180_ALISAIE_000_057","The all-important Allagan energy barrier."
+78,"TEXT_STMBDF102_03180_HIEN_000_058","The...energy barrier, yes. I thought to call it something more auspicious. A name drawn from the Four Lords of legend, perhaps─“Seiryu's Aegis” or some such. Well, just a thought."
+79,"TEXT_STMBDF102_03180_YUGIRI_000_059","The Ironworks engineers report that they have finished calibrating the generators, and are ready to proceed to the testing stage."
+80,"TEXT_STMBDF102_03180_HIEN_000_060","Have you time to attend the first test? You've seen the field which protected Azys Lla firsthand, and I would be interested to hear how you think ours compares."
+81,"TEXT_STMBDF102_03180_ALISAIE_000_062","I will come too, if you don't mind. Though I am no Y'shtola, I may be able to offer some insight."
+82,"TEXT_STMBDF102_03180_HIEN_000_063","Of course. Time being of the essence, it would be best if we made directly for the Burn. Yugiri, I leave you and Hakuro to bring the war council to a close."
+83,"TEXT_STMBDF102_03180_YUGIRI_000_064","Understood.
+Your mounts are saddled and ready, my lord. Ware the storms."

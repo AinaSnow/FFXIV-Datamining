@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBWIL031_00223_SEQ_00","スコーピオン交易所のグントラムは積荷のことで困っているようだ。"
-1,"TEXT_SUBWIL031_00223_SEQ_01","理由はわからないが、グントラムは「カクター」からとれる「サボテン水」が早急に必要なようだ。4体分入手してこよう。"
-2,"TEXT_SUBWIL031_00223_SEQ_02","サボテン水を入手した。「スコーピオン交易所」の「グントラム」に渡そう。"
-3,"TEXT_SUBWIL031_00223_SEQ_03","冒険者が集めた「サボテン水」は、「ラザハンの化粧水」の代わりに納品されるようだ。「ラザハンの化粧水は、ウルダハでは馴染みが無いからバレにくい」と彼は言うが、本当に大丈夫だろうか……。"
+0,"TEXT_SUBWIL031_00223_SEQ_00","The trader Guntram is furiously ransacking his cargo at Scorpion Crossing, looking for all the world like a man who has misplaced something."
+1,"TEXT_SUBWIL031_00223_SEQ_01","Though the reasons remain unclear, Guntram claims to urgently need four bottles of cactuar blood, which can be drained from the corpses of freshly slain cactuars."
+2,"TEXT_SUBWIL031_00223_SEQ_02","Return to Scorpion Crossing and deliver the cactuar blood you have collected to Guntram."
+3,"TEXT_SUBWIL031_00223_SEQ_03","Guntram means to use the cactuar blood you provided to refill his spent stock of coveted Radz–at–Han tonic, confident the latter is so little known in Ul'dah that none of his clientele will notice."
 4,"TEXT_SUBWIL031_00223_SEQ_04",""
 5,"TEXT_SUBWIL031_00223_SEQ_05",""
 6,"TEXT_SUBWIL031_00223_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_SUBWIL031_00223_SEQ_21",""
 22,"TEXT_SUBWIL031_00223_SEQ_22",""
 23,"TEXT_SUBWIL031_00223_SEQ_23",""
-24,"TEXT_SUBWIL031_00223_TODO_00","カクターからサボテン水を入手"
-25,"TEXT_SUBWIL031_00223_TODO_01","グントラムにサボテン水を渡す"
+24,"TEXT_SUBWIL031_00223_TODO_00","Slay cactuars and gather bottles of cactuar blood."
+25,"TEXT_SUBWIL031_00223_TODO_01","Deliver the bottles of cactuar blood to Guntram."
 26,"TEXT_SUBWIL031_00223_TODO_02",""
 27,"TEXT_SUBWIL031_00223_TODO_03",""
 28,"TEXT_SUBWIL031_00223_TODO_04",""
@@ -49,26 +49,12 @@ int32,str,str
 45,"TEXT_SUBWIL031_00223_TODO_21",""
 46,"TEXT_SUBWIL031_00223_TODO_22",""
 47,"TEXT_SUBWIL031_00223_TODO_23",""
-48,"TEXT_SUBWIL031_00223_GUNTRAM_001","むぐぐ……これはやばい、やばいぞ。
-送り直させる時間などないし……
-うーん、お、お前いいところに来たな。"
-49,"TEXT_SUBWIL031_00223_GUNTRAM_002","そこらにいる「カクター」を倒して
-「サボテン水」をとってきてくれないか？
-そうだな、4体分くらいあれば十分だ。"
-50,"TEXT_SUBWIL031_00223_GUNTRAM_003","理由なんて説明している時間はねぇ。
-俺を助けると思って、頼んだぞ！
-大急ぎだ！"
-51,"TEXT_SUBWIL031_00223_GUNTRAM_011","「カクター」から
-「サボテン水」を4体分とってきてくれ！
-これがないと大変なことになるんだよ。"
-52,"TEXT_SUBWIL031_00223_GUNTRAM_012","ありがとう、依頼どおり持ってきてくれたな。
-実は、さっきウルダハ向けの積荷を開いたら、
-「ラザハンの化粧水」の中身が空っぽだったんだ。"
-53,"TEXT_SUBWIL031_00223_GUNTRAM_013","輸送中に瓶の蓋が緩んじまったみたいだ。
-とはいえ、納品予定に穴をあけるわけにはいかない！"
-54,"TEXT_SUBWIL031_00223_GUNTRAM_014","瓶の中に、このサボテン水をいれて納品するんだ。
-カクターが蓄えた水は肌にいいから、
-そこそこ効果はあるはずさ。"
-55,"TEXT_SUBWIL031_00223_GUNTRAM_015","ラザハンの化粧水は珍品だ。
-馴染みの品じゃない分、買った奴にもバレにくい。
-ヘヘヘ、俺とおまえの秘密だぞ？"
+48,"TEXT_SUBWIL031_00223_GUNTRAM_001","No, no, no, no, no, no, no, no, no, no! This can't be happening! There's no time to send for more, and no─
+<gasp> You there!"
+49,"TEXT_SUBWIL031_00223_GUNTRAM_002","Please, you must help me. Go kill as many cactuars as you must to gather four bottles of their blood. I don't care if you have to hunt the little green bastards to extinction!"
+50,"TEXT_SUBWIL031_00223_GUNTRAM_003","Please, there's no time to explain! Just know that my very life hangs in the balance. For the love of the gods, hurry, <If(PlayerParameter(4))>woman<Else/>man</If>!"
+51,"TEXT_SUBWIL031_00223_GUNTRAM_011","Have you brought the cactuar blood? All four bottles? Show me!"
+52,"TEXT_SUBWIL031_00223_GUNTRAM_012","Phew, you've saved my hide, friend. Just stopped to give my cargo a check on the way to Ul'dah and saw that all my bottles of Radz–at–Han skin tonic were as empty as a Garlean promise."
+53,"TEXT_SUBWIL031_00223_GUNTRAM_013","Looks as though the lids shook off in transit and the whole load spilled right out. But I refuse to have it said that Guntram failed to make good on a delivery."
+54,"TEXT_SUBWIL031_00223_GUNTRAM_014","Cactuar blood is supposed to help keep the skin supple. I'll just use what you've brought to fill the empty bottles, and all those lovely Ul'dahn ladies will be none the wiser."
+55,"TEXT_SUBWIL031_00223_GUNTRAM_015","Oh, don't worry about getting found out. Radz–at–Han skin tonic is still a rare find, all the more so this far south. I'd venture none in Ul'dah would even know it from an ampoule of their own piss."

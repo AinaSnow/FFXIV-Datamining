@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSTAN530_02076_SEQ_00","宝杖通りのエルドは、冒険者を待っているようだ。"
-1,"TEXT_CLSTAN530_02076_SEQ_01","エルドからエレイズに手紙を渡すよう頼まれた。宝杖通りの「エレイズ」に、「<Sheet(EventItem,2001718,0)/>」を渡そう。"
-2,"TEXT_CLSTAN530_02076_SEQ_02","エレイズに<Sheet(EventItem,2001718,0)/>を渡した。宝杖通りの「エルド」に報告しよう。"
-3,"TEXT_CLSTAN530_02076_SEQ_03","エルドに報告した。冒険者は商会の相談役として迎えられ、履き心地のいいブーツの見本品の製作を頼まれた。「<Sheet(ItemHQ,12007,0)/>」を製作し、宝杖通りの「エルド」に納品しよう。"
-4,"TEXT_CLSTAN530_02076_SEQ_04","<Sheet(ItemHQ,12007,0)/>をエルドに納品した。通りがかった、吟遊詩人に履き心地がいいと好評で、いい宣伝になりそうだ。エルドの商会で相談役としての初仕事をして、見聞を広めることができた。また新天地で、勉強していこう。
+0,"TEXT_CLSTAN530_02076_SEQ_00","Elde is wearing a slightly apologetic look."
+1,"TEXT_CLSTAN530_02076_SEQ_01","Though you have gone to speak with Elde about joining her store as an advisor, the first thing she asks you to do is deliver a donation of coin to a nearby merchant. While you are unsure as to why this falls to you, make your way up the Jeweled Crozier to Mistress Elaisse regardless."
+2,"TEXT_CLSTAN530_02076_SEQ_02","Elaisse accepts the donation, noting that these are funds to support the fledgling Ishgardian Mercantile Guild. As way of thanks, she bids you tell Elde to beware of Gerhardt. Return now with this ominous message."
+3,"TEXT_CLSTAN530_02076_SEQ_03","Elde appreciates Elaisse's concern, but she disregards the warning. Now, she finally asks for your help with her plan. Since the climate changes in Coerthas, it appears that warm footwear is in great demand amongst Ishgard's commoners. Ortefauchel, who seems quite taken with Elde's shop, seconds this opinion. Subsequently, Elde asks that you fashion a pair of high-quality wyvernskin workboots─not to sell, but rather to use as a pattern for her own craftsmen."
+4,"TEXT_CLSTAN530_02076_SEQ_04","Elde is pleased with your boots, as is Ortefauchel, who orders a pair immediately. A passing fellow also takes a fancy to the footwear, going so far as to dub you a “Gridanian master.” Much encouraged, Elde prepares to put her plan into motion.
 
-※革細工師のレベルが55以上になると、宝杖通りのエルドから次の革細工師クエストを受注することができます。"
+※The next leatherworker quest will be available from Elde upon reaching level 55."
 5,"TEXT_CLSTAN530_02076_SEQ_05",""
 6,"TEXT_CLSTAN530_02076_SEQ_06",""
 7,"TEXT_CLSTAN530_02076_SEQ_07",""
@@ -27,9 +27,9 @@ int32,str,str
 21,"TEXT_CLSTAN530_02076_SEQ_21",""
 22,"TEXT_CLSTAN530_02076_SEQ_22",""
 23,"TEXT_CLSTAN530_02076_SEQ_23",""
-24,"TEXT_CLSTAN530_02076_TODO_00","エレイズに<Sheet(EventItem,2001718,0)/>を渡す"
-25,"TEXT_CLSTAN530_02076_TODO_01","エルドに報告"
-26,"TEXT_CLSTAN530_02076_TODO_02","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))><Sheet(ItemHQ,12007,0)/>を製作<Else/>エルドに<Sheet(ItemHQ,12007,0)/>を納品</If>"
+24,"TEXT_CLSTAN530_02076_TODO_00","Deliver Elde's donation to Elaisse."
+25,"TEXT_CLSTAN530_02076_TODO_01","Report to Elde."
+26,"TEXT_CLSTAN530_02076_TODO_02","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Craft a pair of wyvernskin workboots <Sheet(Addon,9,0)/><Else/>Deliver the pair of wyvernskin workboots <Sheet(Addon,9,0)/> to Elde</If>."
 27,"TEXT_CLSTAN530_02076_TODO_03",""
 28,"TEXT_CLSTAN530_02076_TODO_04",""
 29,"TEXT_CLSTAN530_02076_TODO_05",""
@@ -51,90 +51,38 @@ int32,str,str
 45,"TEXT_CLSTAN530_02076_TODO_21",""
 46,"TEXT_CLSTAN530_02076_TODO_22",""
 47,"TEXT_CLSTAN530_02076_TODO_23",""
-48,"TEXT_CLSTAN530_02076_ORTEFAUCHEL_000_000","（★未使用／削除予定★）"
-49,"TEXT_CLSTAN530_02076_ELDE_000_001","（★未使用／削除予定★）"
-50,"TEXT_CLSTAN530_02076_ELDE_000_002","革細工師さん、いいところに！
-宝杖通りの「エレイズ」さんに、
-この手紙を渡してきてほしいのです……。"
-51,"TEXT_CLSTAN530_02076_ELDE_000_003","実はいま、商品の準備をしていまして、
-どうにも手が離せないものですから……。
-どうか、お願いします！"
-52,"TEXT_CLSTAN530_02076_ELDE_000_005","宝杖通りの「エレイズ」さんに、
-この手紙を渡してきてほしいのです……。"
-53,"TEXT_CLSTAN530_02076_ELAISSE_000_010","あら、いらっしゃいませ。
-今日はどんなご用ですの？"
-54,"TEXT_CLSTAN530_02076_ELAISSE_000_011","……あら、エルドから手紙？
-ふむふむ、商人ギルドへの上納金は予定どおりと。
-確かに手紙を受け取りましたわ。"
-55,"TEXT_CLSTAN530_02076_ELAISSE_000_012","彼女が始めた平民向けの商売は順調のようですわね。
-ただ、同業者のゲルハルトさんは、心穏やかじゃない様子……。
-目立ちすぎに注意するよう、エルドに伝えてくださらない？"
-56,"TEXT_CLSTAN530_02076_ELAISSE_100_015","彼女が始めた平民向けの商売は順調のようですわね。
-ただ、同業者のゲルハルトさんは、心穏やかじゃない様子……。
-目立ちすぎに注意するよう、エルドに伝えてくださらない？"
-57,"TEXT_CLSTAN530_02076_ELDE_000_020","革細工師さん、助かりました！
-先日、カバンを予約してくださったそちらのお客様に、
-商品をお渡ししていたのです。"
-58,"TEXT_CLSTAN530_02076_ORTEFAUCHEL_100_020","ハハハ……すまないね。
-予約したカバンが楽しみすぎて、俺が予定より早く、
-来店したものだから、迷惑をかけてしまったようだ。"
-59,"TEXT_CLSTAN530_02076_ELDE_000_021","……そうですか、エレイズさんがそんなことを。
-でも、私は気にしませんよ。
-宝杖通りに、新風を吹き込むつもりで活動しているんですから！"
-60,"TEXT_CLSTAN530_02076_ELDE_100_021","それで、革細工師さん……。
-我が商会の相談役にというお話ですが、
-引き受けてくださるでしょうか？"
-61,"TEXT_CLSTAN530_02076_ELDE_100_022","ありがとうございます、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん！
-グリダニアの革細工師ギルドで腕を磨いたあなたが、
-相談役になってくだされば百人力です！"
-62,"TEXT_CLSTAN530_02076_ORTEFAUCHEL_000_022","……へえ、本場で修業した職人さんが相談役に。
-そうだ、異国の職人さん。
-グリダニアのブーツは、やっぱり出来が違うのかい？"
-63,"TEXT_CLSTAN530_02076_ORTEFAUCHEL_000_023","第七霊災からこっち、クルザスは寒冷化してるだろ？
-平民が買えるようなブーツは、雪道じゃ心許なくてね。
-滑りやすいうえに、湿気ですぐに傷んでしまうんだ。"
-64,"TEXT_CLSTAN530_02076_ELDE_000_024","閃きました、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん。
-「ワイバーンレザー」を使って、本場の技術で、
-「<Sheet(ItemHQ,12007,0)/>」を作っていただけませんか？"
-65,"TEXT_CLSTAN530_02076_ELDE_000_025","それを参考に、ウチの工房の職人さんに作ってもらえば、
-きっといい商品になると思うんです！
-ぜひ、よろしくお願いします！"
-66,"TEXT_CLSTAN530_02076_ORTEFAUCHEL_100_026","ワイバーンレザーのブーツなんてモノが売り出されたら、
-ぜひとも手に入れたいね……期待して待っているよ。"
-67,"TEXT_CLSTAN530_02076_ELDE_000_026","（★未使用／削除予定★）"
-68,"TEXT_CLSTAN530_02076_ORTEFAUCHEL_100_028","ワイバーンレザーのブーツなんてモノが売り出されたら、
-ぜひとも手に入れたいね……期待して待っているよ。"
-69,"TEXT_CLSTAN530_02076_ELDE_000_030","「ワイバーンレザー」を使って、本場の技術で、
-「<Sheet(ItemHQ,12007,0)/>」を作っていただけませんか？"
-70,"TEXT_CLSTAN530_02076_ELDE_000_031","凄い……履き心地も考えられた、機能的な作り。
-頑丈なワイバーンレザーだから、一生ものにもなる。
-これなら、きっと売れるわ……ありがとうございます！"
-71,"TEXT_CLSTAN530_02076_ELDE_100_031","私の目に狂いはなかった。
-やはり、あなたは敏腕職人でした！
-これをお手本に、ウチの職人さんに作ってもらいますね。"
-72,"TEXT_CLSTAN530_02076_ORTEFAUCHEL_000_032","素人の俺にも、質の違いがハッキリわかるよ。
-さっそく、予約させてもらうとしよう。"
-73,"TEXT_CLSTAN530_02076_AUBRENARD_000_033","(-通りすがりの客-)お、素敵なブーツじゃないか……。
-試着させてもらっていいかい？"
-74,"TEXT_CLSTAN530_02076_AUBRENARD_000_034","(-通りすがりの客-)こいつは、抜群の履き心地だね！
-この辺では見ない品だが、そちらの職人さんが作ったのかい？"
-75,"TEXT_CLSTAN530_02076_ELDE_000_035","はい、我が商会の相談役でもある、
-<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さんです。
-グリダニアで修行した、本場の革細工師ですよ！"
-76,"TEXT_CLSTAN530_02076_AUBRENARD_000_036","(-通りすがりの客-)フム、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>か。
-言うなれば……異邦の名工といったところだね。
-素晴らしい、この品を購入させてもらうよ。"
-77,"TEXT_CLSTAN530_02076_ELDE_100_036","申し訳ございません、この品はまだ試供品でして……。
-まもなく店頭に並びますので、今しばらくお待ちください。"
-78,"TEXT_CLSTAN530_02076_AUBRENARD_101_036","(-通りすがりの客-)それは、残念だ。
-では、予約をしてもいいかな？"
-79,"TEXT_CLSTAN530_02076_ELDE_102_036","ありがとうございます！"
-80,"TEXT_CLSTAN530_02076_ELDE_000_037","この短時間に、おふたりにも予約をいただけるなんて！
-それに「異邦の名工」による逸品か……うん、いいかもしれない！
-宣伝文句、いただきました！"
-81,"TEXT_CLSTAN530_02076_ORTEFAUCHEL_000_038","さっきの人……皇都で人気の吟遊詩人、オブルナルだ。
-彼がブーツを履いて、大勢の人前に出れば評判になるぞ。
-……真っ先に予約しておいてよかったぜ。"
-82,"TEXT_CLSTAN530_02076_ELDE_000_039","広告効果も抜群ですね……！
-わが商会に、いい風が吹いてきたわ。
-<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん、またよろしくお願いします！"
+48,"TEXT_CLSTAN530_02076_ORTEFAUCHEL_000_000","deleted"
+49,"TEXT_CLSTAN530_02076_ELDE_000_001","deleted"
+50,"TEXT_CLSTAN530_02076_ELDE_000_002","Ah, my friend! Before we begin, could you take this missive to Mistress Elaisse?"
+51,"TEXT_CLSTAN530_02076_ELDE_000_003","I know this isn't a task fit for my advisor, but I'm taking inventory of a new shipment of bags, and I can't be away just now."
+52,"TEXT_CLSTAN530_02076_ELDE_000_005","Do you know where Mistress Elaisse is? Oh, dear me, you don't! She's just up the steps."
+53,"TEXT_CLSTAN530_02076_ELAISSE_000_010","Hello again, <If(PlayerParameter(4))>miss<Else/>sir</If>. What can I do to assist you today, hm?"
+54,"TEXT_CLSTAN530_02076_ELAISSE_000_011","Ah, Elde's contribution to the Mercantile Guild. And to judge by the weight of these funds, I daresay selling to the common man is proving profitable."
+55,"TEXT_CLSTAN530_02076_ELAISSE_000_012","But her ideas don't sit well with everyone. She needs to be particularly mindful of Gerhardt. Suffice it to say that he's the hammer that pounds down any upstanding nails."
+56,"TEXT_CLSTAN530_02076_ELAISSE_100_015","Elde does not want Gerhardt as an enemy. I'll thank you to tell her as much, <If(PlayerParameter(4))>miss<Else/>sir</If>."
+57,"TEXT_CLSTAN530_02076_ELDE_000_020","Thank you so much, friend! Really, I ought to have gone myself. But I had to find the best bag for this gentleman here, as I promised."
+58,"TEXT_CLSTAN530_02076_ORTEFAUCHEL_100_020","Haha, am I to blame for this little debacle? Pardon me. I arrived earlier than planned. I couldn't keep my wife waiting for her present, you see. Ah, and excuse me again─I seem to have interrupted you, adventurer."
+59,"TEXT_CLSTAN530_02076_ELDE_000_021","Oh... Well, I appreciate Mistress Elaisse's concern. But I don't care. The time has come to breathe new life into the Crozier, and if Gerhardt doesn't like it, too bad!"
+60,"TEXT_CLSTAN530_02076_ELDE_100_021","So...can I count on you to help as my advisor?"
+61,"TEXT_CLSTAN530_02076_ELDE_100_022","Wonderful! With an adept of the Leatherworkers' Guild at my side, nothing can stop me! <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>─can I call you <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>?─thank you for helping."
+62,"TEXT_CLSTAN530_02076_ORTEFAUCHEL_000_022","The Leatherworkers' Guild? You know, I've always wanted to ask─are Gridanian boots <Emphasis>really</Emphasis> as good as everyone says?"
+63,"TEXT_CLSTAN530_02076_ORTEFAUCHEL_000_023","Coerthas has been growing colder since the Calamity. Finding warm footwear is hard, and anything cheap is like to send you head over arse! That's been my...tender experience, at least."
+64,"TEXT_CLSTAN530_02076_ELDE_000_024","Yes... Commoners do urgently need proper footwear. I had a plan to use wyvern leather, but my craftsmen don't know how to work it."
+65,"TEXT_CLSTAN530_02076_ELDE_000_025","But, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, couldn't you fashion a pair of sturdy workboots? My own craftsmen could use them as a pattern of sorts, and begin production on their own!"
+66,"TEXT_CLSTAN530_02076_ORTEFAUCHEL_100_026","Wyvernskin workboots? After my last tumble, I could use a pair myself. I'll await your creation, friend."
+67,"TEXT_CLSTAN530_02076_ELDE_000_026","deleted"
+68,"TEXT_CLSTAN530_02076_ORTEFAUCHEL_100_028","I'm curious to see what, exactly, a Gridanian leatherworker can do."
+69,"TEXT_CLSTAN530_02076_ELDE_000_030","Have you finished cutting and stitching the wyvernskin workboots?"
+70,"TEXT_CLSTAN530_02076_ELDE_000_031","Goodness, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! Even the artisans of the High Houses would struggle to make such splendid footwear! You clearly put great thought into comfort, and wyvern leather will last a lifetime."
+71,"TEXT_CLSTAN530_02076_ELDE_100_031","I am very impressed! I'll give these to my own leatherworkers to study forthwith. We've a best seller on our hands─or at our feet. I can feel it!"
+72,"TEXT_CLSTAN530_02076_ORTEFAUCHEL_000_032","I'm no artisan, but I like what I see. Sign me up for a pair, if you'd be so good."
+73,"TEXT_CLSTAN530_02076_AUBRENARD_000_033","(-Passing Fellow-)Excuse me─I'm looking for a pair of boots, and those caught my eye. Could I try them on?"
+74,"TEXT_CLSTAN530_02076_AUBRENARD_000_034","(-Passing Fellow-)My, these are easy on the feet! And I have never seen this design before. Did this <If(PlayerParameter(4))>lady<Else/>gentleman</If> here fashion them, perchance?"
+75,"TEXT_CLSTAN530_02076_ELDE_000_035","Indeed <If(PlayerParameter(4))>she<Else/>he</If> did! This is <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, the consulting artisan for my shop, and a member of the guild in Gridania."
+76,"TEXT_CLSTAN530_02076_AUBRENARD_000_036","(-Passing Fellow-)Hmmm. A Gridanian master come to save the feet of Ishgard─perhaps I can find some inspiration in that... Ah, excuse me. Pray, name your price for these boots. I would like to wear them home."
+77,"TEXT_CLSTAN530_02076_ELDE_100_036","Oh... Sir, I promise you, I will have many of the same soon, but that particular pair isn't for sale."
+78,"TEXT_CLSTAN530_02076_AUBRENARD_101_036","(-Passing Fellow-)Well, that is a pity. Pray save a pair for me when you do put them to market."
+79,"TEXT_CLSTAN530_02076_ELDE_102_036","You may consider it done!"
+80,"TEXT_CLSTAN530_02076_ELDE_000_037","Two orders in as many bells─this bodes very, very well, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! Boots based on designs by a “Gridanian master” will sell nicely."
+81,"TEXT_CLSTAN530_02076_ORTEFAUCHEL_000_038","And quickly, too. That was Aubrenard, a bard of no small repute. If his admirers see him in your boots, Elde, you'll be fending shoppers off with a stick. Makes me glad I reserved my pair before him."
+82,"TEXT_CLSTAN530_02076_ELDE_000_039","Everything is coming together nicely. There is a fair wind coming to the Crozier─one that will waft us to success!"

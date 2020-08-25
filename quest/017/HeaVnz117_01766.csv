@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNZ117_01766_SEQ_00","聖フィネア連隊の露営地のドミニアクは、計画を先に進めたいようだ。"
-1,"TEXT_HEAVNZ117_01766_SEQ_01","サントレルモが、ドラゴン族を誘いだす計画を、さらに先に進める準備を整えているそうだ。聖フィネア連隊の露営地北にいる「サントレルモ」と話そう。"
-2,"TEXT_HEAVNZ117_01766_SEQ_02","サントレルモは、上位眷属の死体をエイビスが持ち去ったのを確認したという。聖フィネア連隊の露営地北西で「サントレルモ」と合流しよう。"
-3,"TEXT_HEAVNZ117_01766_SEQ_03","上位眷属の死体を持ちさったエイビスは、ドラゴンスピットへ向かったようだ。クルザス西部高地の「ドラゴンスピット」で「<Sheet(BNpcName,4044,0)/>」を討伐しよう。"
-4,"TEXT_HEAVNZ117_01766_SEQ_04","エイビスを討伐した。聖フィネア連隊の露営地北西の「サントレルモ」に報告しよう。"
-5,"TEXT_HEAVNZ117_01766_SEQ_05","サントレルモは、眷属の死体におびき寄せられたエイビスに思うところがあったようだ。聖フィネア連隊の露営地の「ドミニアク」と話そう。"
-6,"TEXT_HEAVNZ117_01766_SEQ_06","ドミニアクに報告した。サントレルモは、没落した元貴族なのだそうだ。彼はそのことを、いまだに引きずっているようだが……。"
+0,"TEXT_HEAVNZ117_01766_SEQ_00","Dominiac wants help with the next step of his plan."
+1,"TEXT_HEAVNZ117_01766_SEQ_01","Saintrelmaux has finished preparations for the next stage of Dominiac's plan and is waiting for you on the cliff to the north of the Convictory."
+2,"TEXT_HEAVNZ117_01766_SEQ_02","The bait has attracted an aevis, which takes the prize, but with Saintrelmaux's men in close pursuit. Hurry to where the bait was set─the bottom of the cliff northwest of the Convictory─and follow the trail from there."
+3,"TEXT_HEAVNZ117_01766_SEQ_03","With the aevis having fled west into Dragonspit, Saintrelmaux proposes a plan. He and his men will guard the exits and block its escape, allowing you to move in and dispose of it at your leisure."
+4,"TEXT_HEAVNZ117_01766_SEQ_04","You have dealt with the aevis. Let Saintrelmaux know."
+5,"TEXT_HEAVNZ117_01766_SEQ_05","Something about the beast you killed weighs heavily on Saintrelmaux. He says that these wretched creatures were once men, but he struggles to comprehend what could make a man change himself so. Leave Saintrelmaux to his thoughts and the job of collecting the aevis's corpse. Report back to Dominiac."
+6,"TEXT_HEAVNZ117_01766_SEQ_06","Dominiac thanks you once again for your help: he can now set the next stage of his plan in motion. He seems unsurprised by Saintrelmaux's ponderings, hoping simply that this experience will galvanize his resolve in the ongoing struggle with the Horde."
 7,"TEXT_HEAVNZ117_01766_SEQ_07",""
 8,"TEXT_HEAVNZ117_01766_SEQ_08",""
 9,"TEXT_HEAVNZ117_01766_SEQ_09",""
@@ -25,11 +25,11 @@ int32,str,str
 21,"TEXT_HEAVNZ117_01766_SEQ_21",""
 22,"TEXT_HEAVNZ117_01766_SEQ_22",""
 23,"TEXT_HEAVNZ117_01766_SEQ_23",""
-24,"TEXT_HEAVNZ117_01766_TODO_00","サントレルモと話す"
-25,"TEXT_HEAVNZ117_01766_TODO_01","サントレルモと合流"
-26,"TEXT_HEAVNZ117_01766_TODO_02","ドラゴンスピットで<Sheet(BNpcName,4044,0)/>を討伐"
-27,"TEXT_HEAVNZ117_01766_TODO_03","サントレルモに報告"
-28,"TEXT_HEAVNZ117_01766_TODO_04","ドミニアクに報告"
+24,"TEXT_HEAVNZ117_01766_TODO_00","Speak with Saintrelmaux."
+25,"TEXT_HEAVNZ117_01766_TODO_01","Follow Saintrelmaux in pursuit of the aevis."
+26,"TEXT_HEAVNZ117_01766_TODO_02","Slay the aevis in Dragonspit."
+27,"TEXT_HEAVNZ117_01766_TODO_03","Speak with Saintrelmaux."
+28,"TEXT_HEAVNZ117_01766_TODO_04","Report to Dominiac."
 29,"TEXT_HEAVNZ117_01766_TODO_05",""
 30,"TEXT_HEAVNZ117_01766_TODO_06",""
 31,"TEXT_HEAVNZ117_01766_TODO_07",""
@@ -49,56 +49,26 @@ int32,str,str
 45,"TEXT_HEAVNZ117_01766_TODO_21",""
 46,"TEXT_HEAVNZ117_01766_TODO_22",""
 47,"TEXT_HEAVNZ117_01766_TODO_23",""
-48,"TEXT_HEAVNZ117_01766_DOMINIAC_000_000","それでは冒険者殿、作戦を先へ進めよう。
-今回も、「サントレルモ」が準備を整えて待っている。
-前回と同じ、露営地北の崖にいるはずだ。"
-49,"TEXT_HEAVNZ117_01766_DOMINIAC_000_001","おそらく次は、さらに上位の存在が現れるだろう。
-貴公も十分に気をつけてくれ。"
-50,"TEXT_HEAVNZ117_01766_DOMINIAC_000_013","「サントレルモ」は、前回と同じ、露営地北の崖にいるはずだ。
-ここからが作戦の本番ゆえ、貴公も十分に気をつけてくれ。"
-51,"TEXT_HEAVNZ117_01766_SAINTRELMAUX_000_010","ちょうどいいところに来たね、冒険者さん。
-つい先程、エイビスが現れ、
-晒していた死体を持ち去ったのを確認したよ。"
-52,"TEXT_HEAVNZ117_01766_SAINTRELMAUX_000_011","狡猾さで知られるエイビスは、
-知能のないトカゲどもより、上位に位置する眷属だ。
-大物を釣り上げるための餌になるはずさ。"
-53,"TEXT_HEAVNZ117_01766_SAINTRELMAUX_000_012","いま、部下たちがエイビスを追いかけている。
-ひとまず僕たちは、死体を晒していた北西の崖下へ向かおう。"
-54,"TEXT_HEAVNZ117_01766_SAINTRELMAUX_000_015","目標のエイビスは「ドラゴンスピット」へ向かったみたいだ。
-僕たちは、目標を逃さないよう、ここで包囲網を張る。
-奴を倒す役は、君に頼んだよ！"
-55,"TEXT_HEAVNZ117_01766_SAINTRELMAUX_000_020","目標のエイビスは「ドラゴンスピット」へ向かったみたいだ。
-僕たちは、目標を逃さないよう、ここで包囲網を張る。
-奴を倒す役は、君に頼んだよ！"
-56,"TEXT_HEAVNZ117_01766_BALLOON_000_030","（★未使用／削除予定★）"
-57,"TEXT_HEAVNZ117_01766_SAINTRELMAUX_000_040","やあ、エイビスは倒せたかい？"
-58,"TEXT_HEAVNZ117_01766_SAINTRELMAUX_000_041","さすがだね、冒険者さん！
-僕たちだけだったら、きっと取り逃がしていたよ。
-君がいてくれて助かった、ありがとう。"
-59,"TEXT_HEAVNZ117_01766_SAINTRELMAUX_100_042","……ねえ、君。
-エイビスの事、どう思う？
-討伐するときに、何か考えたかい？"
-60,"TEXT_HEAVNZ117_01766_SAINTRELMAUX_110_042","はは、いきなりごめん。
-包囲網を張っている間、いろいろと考えてしまったんだ。"
-61,"TEXT_HEAVNZ117_01766_SAINTRELMAUX_000_042","知ってるかい？
-エイビスは、竜の血を飲んだ異端者の成れの果てなんだ。
-つまり、確かな知性と意思を持った「元ヒト」ってことさ。"
-62,"TEXT_HEAVNZ117_01766_SAINTRELMAUX_000_043","彼らはどうして、人としてのすべてを捨てられたんだろう？
-地位や、名誉を失うことは、こんなにも惨めだというのに。
-それでも得られるものが、彼らにはあったのかな……。"
-63,"TEXT_HEAVNZ117_01766_SAINTRELMAUX_000_044","(-サントレルモの部下-)サントレルモ様……どうか、思い詰めなさいませんよう……。"
-64,"TEXT_HEAVNZ117_01766_SAINTRELMAUX_000_045","……ごめん、変なことを話してしまったね。
-これまでと同じく、死体の回収と、次の準備は任せてくれ。
-君はいつものように、「ドミニアク」さんに報告を頼むよ。"
-65,"TEXT_HEAVNZ117_01766_SAINTRELMAUX_000_053","これまでと同じく、死体の回収と、次の準備は任せてくれ。
-君はいつものように、「ドミニアク」さんに報告を頼むよ。"
-66,"TEXT_HEAVNZ117_01766_DOMINIAC_000_050","戻られたか、冒険者殿。
-順調に作戦が進んでいるようで、感謝するぞ。"
-67,"TEXT_HEAVNZ117_01766_DOMINIAC_100_050","……しかし、どこか表情が優れぬな。
-何か懸念でも？"
-68,"TEXT_HEAVNZ117_01766_DOMINIAC_000_051","そうか、サントレルモがそんなことを。"
-69,"TEXT_HEAVNZ117_01766_DOMINIAC_100_051","……実は、彼は下級貴族の生まれでね。
-故あって、その地位と名誉を失った過去を持つのだ。
-時折見せる苛つきは、そのせいだろう。"
-70,"TEXT_HEAVNZ117_01766_DOMINIAC_000_052","辛い出来事だと思うが、すべて終わったことだ。
-それを理解して、吹っ切れてくれるといいのだがね……。"
+48,"TEXT_HEAVNZ117_01766_DOMINIAC_000_000","We're just about to carry out the next step of my plan! Saintrelmaux has finished his preparations, so he should be waiting for you out on the cliff to the north."
+49,"TEXT_HEAVNZ117_01766_DOMINIAC_000_001","If all goes well, we will attract an even larger beast than before, so be on your guard!"
+50,"TEXT_HEAVNZ117_01766_DOMINIAC_000_013","Saintrelmaux is waiting on the cliff to the north. We're expecting an even bigger beast than last time, so hurry─don't make him fight it alone!"
+51,"TEXT_HEAVNZ117_01766_SAINTRELMAUX_000_010","Did you see that aevis just now!? It snatched up the wadjet's corpse and made its escape!"
+52,"TEXT_HEAVNZ117_01766_SAINTRELMAUX_000_011","Our men are chasing the thing down as we speak. The bait was set under the cliff northwest of the Convictory─we should head there first, then follow the trail from there!"
+53,"TEXT_HEAVNZ117_01766_SAINTRELMAUX_000_012","Be on your guard. Aevis are renowned for their cunning."
+54,"TEXT_HEAVNZ117_01766_SAINTRELMAUX_000_015","It seems the aevis has fled to the northwest into Dragonspit. We'll block the exits and corner it─you get in there and help finish it off!"
+55,"TEXT_HEAVNZ117_01766_SAINTRELMAUX_000_020","We've got it cornered, now. Follow the beast into Dragonspit and put it down."
+56,"TEXT_HEAVNZ117_01766_BALLOON_000_030",""
+57,"TEXT_HEAVNZ117_01766_SAINTRELMAUX_000_040","Did you slay it?"
+58,"TEXT_HEAVNZ117_01766_SAINTRELMAUX_000_041","Marvelous! Good work! Very good indeed..."
+59,"TEXT_HEAVNZ117_01766_SAINTRELMAUX_100_042","But, um, did you notice anything? About the aevis?"
+60,"TEXT_HEAVNZ117_01766_SAINTRELMAUX_110_042","It's just...it's just that I got to thinking while you were slaying it."
+61,"TEXT_HEAVNZ117_01766_SAINTRELMAUX_000_042","Is it true─what they say? Did it speak?"
+62,"TEXT_HEAVNZ117_01766_SAINTRELMAUX_000_043","They say that aevis are what become of men─<Emphasis>heretics</Emphasis> who drink dragon blood. But, what could make a man..."
+63,"TEXT_HEAVNZ117_01766_SAINTRELMAUX_000_044","(-Saintrelmaux's Retainer-)Master Saintrelmaux..."
+64,"TEXT_HEAVNZ117_01766_SAINTRELMAUX_000_045","Yes, yes. Good work, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. We will collect the body of the beast. You should return to Dominiac and report our success."
+65,"TEXT_HEAVNZ117_01766_SAINTRELMAUX_000_053","Report our success to Dominiac. We shall see to the aevis's corpse."
+66,"TEXT_HEAVNZ117_01766_DOMINIAC_000_050","Ah, back already! Things are proceeding swimmingly, it seems."
+67,"TEXT_HEAVNZ117_01766_DOMINIAC_100_050","But you look somehow troubled. What happened?"
+68,"TEXT_HEAVNZ117_01766_DOMINIAC_000_051","Hmmm. I suppose it's not surprising that he might say something like that."
+69,"TEXT_HEAVNZ117_01766_DOMINIAC_100_051","Saintrelmaux was born into nobility. He knows all too well the pain of losing honor and status."
+70,"TEXT_HEAVNZ117_01766_DOMINIAC_000_052","But that's all in the past now. I only hope that this experience might steel his resolve."

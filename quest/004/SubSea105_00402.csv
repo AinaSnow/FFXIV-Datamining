@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBSEA105_00402_SEQ_00","スカイリフトのヴィルクリットは、荷車の御者が放棄してしまった積荷を回収して、受取人への配達を依頼したいようだ。"
-1,"TEXT_SUBSEA105_00402_SEQ_01","スカイリフトから出発した荷車の積荷から魔物が現れ、御者が荷を放置して逃げ帰ってきたという。「スウィフトパーチ入植地」への道中に落ちている「ミリオンコーンの苗」を回収しよう。"
-2,"TEXT_SUBSEA105_00402_SEQ_02","「ミリオンコーンの苗」を回収することができた。西ラノシアにある「スウィフトパーチ入植地」の「リウルフ」へ配達しよう。"
-3,"TEXT_SUBSEA105_00402_SEQ_03","たどり着いたスウィフトパーチ入植地は荒れ果て、人々も生きる希望を失っていた。そんな中、リウルフだけが、かすかな希望を抱いていた。彼の努力が報われる日は来るのだろうか……。"
+0,"TEXT_SUBSEA105_00402_SEQ_00","Wyrkrhit, a Skylift operator, needs you to recover a cargo load abandoned by a terrified wagon driver and deliver it to its intended recipient."
+1,"TEXT_SUBSEA105_00402_SEQ_01","A wagon driver was so startled by the appearance of some nightmarish creature from the midst of his cargo that he dropped the load over the side before fleeing back to the Skylift. Look for the abandoned millioncorn seedling somewhere along the road to Swiftperch."
+2,"TEXT_SUBSEA105_00402_SEQ_02","You have recovered the abandoned millioncorn seedling. Continue on to Swiftperch in western La Noscea and deliver the cargo to the expectant Lyulf."
+3,"TEXT_SUBSEA105_00402_SEQ_03","You arrive in Swiftperch to find the locals as desolate of life as the surrounding fields. Lyulf alone appears possessed of purpose, but it remains to be seen if his efforts to restore a measure of vitality to the settlement will bear fruit...or corn, as it were."
 4,"TEXT_SUBSEA105_00402_SEQ_04",""
 5,"TEXT_SUBSEA105_00402_SEQ_05",""
 6,"TEXT_SUBSEA105_00402_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_SUBSEA105_00402_SEQ_21",""
 22,"TEXT_SUBSEA105_00402_SEQ_22",""
 23,"TEXT_SUBSEA105_00402_SEQ_23",""
-24,"TEXT_SUBSEA105_00402_TODO_00","ミリオンコーンの苗を拾う"
-25,"TEXT_SUBSEA105_00402_TODO_01","スウィフトパーチ入植地のリウルフにミリオンコーンの苗を届ける"
+24,"TEXT_SUBSEA105_00402_TODO_00","Recover the millioncorn seedling."
+25,"TEXT_SUBSEA105_00402_TODO_01","Deliver the millioncorn seedling to Lyulf in Swiftperch."
 26,"TEXT_SUBSEA105_00402_TODO_02",""
 27,"TEXT_SUBSEA105_00402_TODO_03",""
 28,"TEXT_SUBSEA105_00402_TODO_04",""
@@ -49,29 +49,13 @@ int32,str,str
 45,"TEXT_SUBSEA105_00402_TODO_21",""
 46,"TEXT_SUBSEA105_00402_TODO_22",""
 47,"TEXT_SUBSEA105_00402_TODO_23",""
-48,"TEXT_SUBSEA105_00402_SYSTEM_100_000","受注するには、進行中のメインクエストを破棄する必要があります。
-メインコマンドの「コンテンツ情報」から、
-「ジャーナル」を選び、破棄してください。"
-49,"TEXT_SUBSEA105_00402_WYRKRHIT_000_1","あなたにしか頼めない問題が起きました。
-輸送中の「ミリオンコーンの苗」の中から
-ショアスラッグが現れて、御者が逃げ帰ってきたんです。"
-50,"TEXT_SUBSEA105_00402_WYRKRHIT_000_2","そこで、この「ミリオンコーンの苗」を回収して、
-西ラノシアの「スウィフトパーチ入植地」にいる
-「リウルフ」様へ届けていただきたいのです。"
-51,"TEXT_SUBSEA105_00402_WYRKRHIT_000_3","彼からの支払いは、あなたが受け取って結構ですよ。
-「ミリオンコーンの苗」の中に魔物が残っていたりしたら
-申し訳ないですから。"
-52,"TEXT_SUBSEA105_00402_WYRKRHIT_000_4","それに、「スウィフトパーチ入植地」には、
-「エーテライト」が設置されていますから、
-あなたにとっても、いい経験になると思います。"
-53,"TEXT_SUBSEA105_00402_LYULF_000_11","ああ、この地は運にも見放されたのか……。
-全財産をはたいて注文した「ミリオンコーンの苗」すら
-届かないなんて……"
-54,"TEXT_SUBSEA105_00402_LYULF_000_12","おお、これぞ待ちに待った「ミリオンコーンの苗」！
-この苗は、収穫量が多い品種なんです。"
-55,"TEXT_SUBSEA105_00402_LYULF_000_13","見ての通り、ここは寂れた入植地で、
-誰もが生きることすら諦めている状態……
-この苗が育てば、皆も少しは希望を持てるでしょう。"
-56,"TEXT_SUBSEA105_00402_LYULF_000_14","見たところ、あなたは冒険者のご様子。
-この貧しい入植地に力を貸していただけると幸いです。"
-57,"TEXT_SUBSEA105_00402_POP_MESSAGE","敵の気配を感じた！！"
+48,"TEXT_SUBSEA105_00402_SYSTEM_100_000","To accept this quest, you must abandon the current main scenario quest. Open the corresponding entry in the journal or duty list and select “Abandon.”"
+49,"TEXT_SUBSEA105_00402_WYRKRHIT_000_1","Glad I am to see ye again, <If(PlayerParameter(4))>lass<Else/>lad</If>. A wagon driver just returned in a great bloody hurry, screamin' about some monstrosity what sprang out from a millioncorn seedling in his cargo."
+50,"TEXT_SUBSEA105_00402_WYRKRHIT_000_2","Seems the gutless bastard tossed it over the side afore turnin' tail an' runnin' for his life. I need ye to head down the road, recover that seedling, an' deliver it to Lyulf over at Swiftperch in western La Noscea."
+51,"TEXT_SUBSEA105_00402_WYRKRHIT_000_3","Whatever he pays ye for the cargo is yers to keep. After all, I don't rightly know what else is lurkin' inside that plant, an' ye deserve to be rewarded for yer troubles."
+52,"TEXT_SUBSEA105_00402_WYRKRHIT_000_4","Oh, an' ye'll also find an aetheryte in Swiftperch, so the journey should be worth yer while."
+53,"TEXT_SUBSEA105_00402_LYULF_000_11","Has Nymeia Herself forsaken this desolate land? Though I understood there were risks in gambling my entire fortune on a crop of millioncorn, I at least expected the seedling to be delivered before disaster struck!"
+54,"TEXT_SUBSEA105_00402_LYULF_000_12","Is...is that my millioncorn seedling!? O joyous day! It may seem a paltry beginning, but the yield of this particular variety of crop plant is nothing short of astonishing."
+55,"TEXT_SUBSEA105_00402_LYULF_000_13","As you have undoubtedly noticed, Swiftperch lacks a certain, shall we say, vital energy? Thus I mean to restore a modicum of hope to its residents by growing a veritable ocean of corn!"
+56,"TEXT_SUBSEA105_00402_LYULF_000_14","You, <If(PlayerParameter(4))>madam<Else/>sir</If>, seem fit to burst with vim and vigor! Might I persuade you to abide a while and help nurture this ailing settlement?"
+57,"TEXT_SUBSEA105_00402_POP_MESSAGE","You sense a hostile presence!"

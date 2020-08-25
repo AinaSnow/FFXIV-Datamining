@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNA107_01586_SEQ_00","ハルドラス像を修繕中のティエルモンは、冒険者の動向を気にしているようだ。"
-1,"TEXT_HEAVNA107_01586_SEQ_01","ティエルモンから持ち主に渡してほしいと、<Sheet(EventItem,2001573,0)/>を預かった。クルザス西部高地の金床の塔にいる「イゾドール」に、「<Sheet(EventItem,2001573,0)/>」を渡そう。"
-2,"TEXT_HEAVNA107_01586_SEQ_02","イゾドールに<Sheet(EventItem,2001573,0)/>を渡した。クルザス西部高地のファルコンネストにいる「レッドワルド」と話そう。"
-3,"TEXT_HEAVNA107_01586_SEQ_03","レッドワルドに帰還の報告をした。彼の口ぶりからすると、問題が起きているようだ。準備を整えたら、再びレッドワルドに声をかけよう。"
+0,"TEXT_HEAVNA107_01586_SEQ_00","Before you return to Falcon's Nest, Thierremont has a favor to ask."
+1,"TEXT_HEAVNA107_01586_SEQ_01","Thierremont has always appreciated the kindness shown to him by Ser Ysaudore, a knight stationed at the observation post to the west known as the Anvil. For that reason, he wishes to return to her a package he believes she left behind by accident during her last visit. Deliver the package as bade and see if Ser Ysaudore recognizes it."
+2,"TEXT_HEAVNA107_01586_SEQ_02","Torn between decorum and her desire to do right by the hardworking mason, Ser Ysaudore deliberately left behind the package of extra rations, believing that Thierremont would understand her gesture. Alas, he did not, and now the food has gone to waste. As there is nothing to be done, return to Falcon's Nest and report to Ser Redwald."
+3,"TEXT_HEAVNA107_01586_SEQ_03","Tales of your various deeds have reached Ser Redwald's ears, giving him cause to applaud your initiative. However, he has not the time to thank you properly, as a sudden development has him scrambling to dispatch every able-bodied man and woman."
 4,"TEXT_HEAVNA107_01586_SEQ_04",""
 5,"TEXT_HEAVNA107_01586_SEQ_05",""
 6,"TEXT_HEAVNA107_01586_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_HEAVNA107_01586_SEQ_21",""
 22,"TEXT_HEAVNA107_01586_SEQ_22",""
 23,"TEXT_HEAVNA107_01586_SEQ_23",""
-24,"TEXT_HEAVNA107_01586_TODO_00","イゾドールに<Sheet(EventItem,2001573,0)/>を渡す"
-25,"TEXT_HEAVNA107_01586_TODO_01","レッドワルドに報告"
+24,"TEXT_HEAVNA107_01586_TODO_00","Deliver the ice-crusted bundle to Ysaudore at the Anvil."
+25,"TEXT_HEAVNA107_01586_TODO_01","Report to Redwald."
 26,"TEXT_HEAVNA107_01586_TODO_02",""
 27,"TEXT_HEAVNA107_01586_TODO_03",""
 28,"TEXT_HEAVNA107_01586_TODO_04",""
@@ -49,42 +49,18 @@ int32,str,str
 45,"TEXT_HEAVNA107_01586_TODO_21",""
 46,"TEXT_HEAVNA107_01586_TODO_22",""
 47,"TEXT_HEAVNA107_01586_TODO_23",""
-48,"TEXT_HEAVNA107_01586_THIERREMONT_000_000","これからファルコンネストに戻るのですよね？
-……でしたら、ついでに頼みたいことがあるのです。"
-49,"TEXT_HEAVNA107_01586_THIERREMONT_000_001","実は、冒険者さんが出かけた後のこと、
-哨戒任務のついでにと、騎士様が様子を見に来てくれたのです。
-ところが、忘れ物をしていったようでして……。"
-50,"TEXT_HEAVNA107_01586_THIERREMONT_000_002","彼女の名は、「イゾドール」様。
-西にある監視塔に詰めておられる騎士様で、
-平民である私などを気に懸けてくださる、お優しい方。"
-51,"TEXT_HEAVNA107_01586_THIERREMONT_000_003","回り道にはなってしまいますが、監視塔に立ち寄り、
-この「<Sheet(EventItem,2001573,0)/>」を届けてくださいませ。
-お手数ですが、よろしくお願いいたします。"
-52,"TEXT_HEAVNA107_01586_THIERREMONT_000_004","彼女の名は、「イゾドール」様。
-西にある監視塔に詰めておられる騎士様で、
-平民である私などを気に懸けてくださる、お優しい方。"
-53,"TEXT_HEAVNA107_01586_THIERREMONT_000_005","回り道にはなってしまいますが、監視塔に立ち寄り、
-この「<Sheet(EventItem,2001573,0)/>」を届けてくださいませ。
-お手数ですが、よろしくお願いいたします。"
-54,"TEXT_HEAVNA107_01586_YSAUDORE_000_010","……なに、私が「ハルドラス像」に置き忘れた包みを、
-ティエルモンに頼まれて、届けに来ただと？"
-55,"TEXT_HEAVNA107_01586_YSAUDORE_000_011","ああ、まったく……なんてことを……。
-せっかくの料理が、すっかり冷めているではないか！"
-56,"TEXT_HEAVNA107_01586_YSAUDORE_000_012","これは、ティエルモンへの差し入れだったのだ。
-寒い中、冷たい石像を相手に格闘する奴のために、
-せめて温かな食べ物でもと思ってだな……。"
-57,"TEXT_HEAVNA107_01586_YSAUDORE_000_013","……なぜ直接、渡さずに置いてきたのかだと？
-ば、馬鹿者、任務の最中に部下がいる前で、
-平民の石工に、差し入れなどできるものか！"
-58,"TEXT_HEAVNA107_01586_YSAUDORE_000_014","いや、すまない……。
-わざわざ届けてくれた貴公を、責めるのは筋違いだ。"
-59,"TEXT_HEAVNA107_01586_YSAUDORE_100_014","ともかく、貴公は「ファルコンネスト」に戻るといい。
-「レッドワルド」卿も、お待ちだろう。
-……ただし、この事だけは内密に……頼むぞ？"
-60,"TEXT_HEAVNA107_01586_YSAUDORE_000_015","レッドワルド卿にも部下にも、
-この事だけは内密に……頼むぞ？"
-61,"TEXT_HEAVNA107_01586_REDWALD_000_020","戻ったか、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>殿。
-「各施設の再建作業」……ロス親方をはじめ、
-皆のために働いてくれたことを心より感謝する。"
-62,"TEXT_HEAVNA107_01586_REDWALD_000_021","だが、ゆっくりと礼を言ってはいられない事態が発生してな。
-どうやら、貴公の力が必要になりそうなのだ……。"
+48,"TEXT_HEAVNA107_01586_THIERREMONT_000_000","Are you for Falcon's Nest? If so, I've a favor to ask."
+49,"TEXT_HEAVNA107_01586_THIERREMONT_000_001","There's this knight, Ser Ysaudore, stationed at the Anvil to the west of here. She's always treated me with kindness and respect─more than I deserve, to be honest..."
+50,"TEXT_HEAVNA107_01586_THIERREMONT_000_002","Anyroad, while you were away, she came through on patrol, and I think she might have left a package behind."
+51,"TEXT_HEAVNA107_01586_THIERREMONT_000_003","It's a bit of a detour, but would you mind returning it to her? My thanks to you, friend."
+52,"TEXT_HEAVNA107_01586_THIERREMONT_000_004","You should be able to find Ser Ysaudore at the Anvil, to the west of here."
+53,"TEXT_HEAVNA107_01586_THIERREMONT_000_005","It's not on the way to Falcon's Nest, I know, but, well...I'm fairly certain that belongs to her, and since I can't leave the Pike unattended..."
+54,"TEXT_HEAVNA107_01586_YSAUDORE_000_010","What's that? A package? I haven't the foggiest what you're talking about."
+55,"TEXT_HEAVNA107_01586_YSAUDORE_000_011","Confound it, that fool of a... <sigh> What a waste."
+56,"TEXT_HEAVNA107_01586_YSAUDORE_000_012","It was a <Emphasis>gift</Emphasis>, adventurer. Thierremont labors day and night without regard for his own well-being. At the very least, he ought to try to eat better."
+57,"TEXT_HEAVNA107_01586_YSAUDORE_000_013","...Why not simply give it to him? By the Fury, have you no sense of decorum? A highborn knight cannot be seen favoring a lowborn mason in such a manner!"
+58,"TEXT_HEAVNA107_01586_YSAUDORE_000_014","Nevertheless, I appreciate your concern, as well as your willingness to assist Thierremont."
+59,"TEXT_HEAVNA107_01586_YSAUDORE_100_014","May your journey back to Falcon's Nest be safe and swift. Pray give my regards to Ser Redwald."
+60,"TEXT_HEAVNA107_01586_YSAUDORE_000_015","Caught between a pike and anvil of my own─ Oh, you're still here! Ahem, er... Pray communicate my warmest regards to Ser Redwald...and nothing else."
+61,"TEXT_HEAVNA107_01586_REDWALD_000_020","I must applaud your initiative, <If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>. Rothe tells me you have been quite busy."
+62,"TEXT_HEAVNA107_01586_REDWALD_000_021","Alas, we have not the time to thank you properly. I have a task to which I would commit all able-bodied men and women─you and Lord Artoirel included."

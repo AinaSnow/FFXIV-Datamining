@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_MANFST309_00516_SEQ_00","砂の家のミンフィリアは、皆と何かを話したいようだ。"
-1,"TEXT_MANFST309_00516_SEQ_01","黒渦団からタイタン討伐の依頼があったらしい。依頼の詳細を聞くため、リムサ・ロミンサの黒渦団：軍令部にいる「ル・アシャ大甲佐」に話しにいこう。"
-2,"TEXT_MANFST309_00516_SEQ_02","タイタンの討伐実績を持つ元「海雄旅団」の団員が、低地ラノシアの北部にある「グレイフリート風車群」にいるらしい。現地で元海雄旅団員を見つけたら、話しかけてみよう。"
-3,"TEXT_MANFST309_00516_SEQ_03","元海雄旅団員だという、トラッハトゥームと話した。彼は海雄旅団一番の実力者だったそうだ。"
+0,"TEXT_MANFST309_00516_SEQ_00","Minfilia is waiting to brief you and your fellow Scions on a new development."
+1,"TEXT_MANFST309_00516_SEQ_01","The Maelstrom has requested that the Scions slay the primal Titan, who has been summoned by a tribe of kobolds who reside near Limsa Lominsa. Report to High Storm Commander R'ashaht Rhiki at Maelstrom Command for further information."
+2,"TEXT_MANFST309_00516_SEQ_02","Upon arriving at Maelstrom Command, you are received by Admiral Merlwyb Bloefhiswyn herself, who pledges the full support of the Maelstrom in the forthcoming operation. Before risking direct confrontation with Titan, Y'shtola proposes that you learn more about your foe by speaking to former members of the Company of Heroes─the famous band of mercenaries who defeated the dread primal once before. She directs you to the Grey Fleet mills in lower La Noscea, where one such individual is said to reside."
+3,"TEXT_MANFST309_00516_SEQ_03","Your search leads you to Trachtoum, the self-proclaimed “best axeman” of the Company of Heroes. Explain the situation to him and see what he has to say."
 4,"TEXT_MANFST309_00516_SEQ_04",""
 5,"TEXT_MANFST309_00516_SEQ_05",""
 6,"TEXT_MANFST309_00516_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_MANFST309_00516_SEQ_21",""
 22,"TEXT_MANFST309_00516_SEQ_22",""
 23,"TEXT_MANFST309_00516_SEQ_23",""
-24,"TEXT_MANFST309_00516_TODO_00","黒渦団：軍令部のル・アシャ大甲佐と話す"
-25,"TEXT_MANFST309_00516_TODO_01","グレイフリート風車群の元海雄旅団員と話す"
+24,"TEXT_MANFST309_00516_TODO_00","Speak with R'ashaht Rhiki."
+25,"TEXT_MANFST309_00516_TODO_01","Speak with Trachtoum."
 26,"TEXT_MANFST309_00516_TODO_02",""
 27,"TEXT_MANFST309_00516_TODO_03",""
 28,"TEXT_MANFST309_00516_TODO_04",""
@@ -49,157 +49,76 @@ int32,str,str
 45,"TEXT_MANFST309_00516_TODO_21",""
 46,"TEXT_MANFST309_00516_TODO_22",""
 47,"TEXT_MANFST309_00516_TODO_23",""
-48,"TEXT_MANFST309_00516_000010_MINFILIA","リムサ・ロミンサのグランドカンパニー「黒渦団」から、
-依頼があったわ……。"
-49,"TEXT_MANFST309_00516_000020_YSHTOLA","コボルド族の調査結果が来たのね。"
-50,"TEXT_MANFST309_00516_000030_MINFILIA","ええ、そうよ。
-正確には、調査結果を受けての依頼……。
-というところかしら。"
-51,"TEXT_MANFST309_00516_000040_YSHTOLA","どういうこと？"
-52,"TEXT_MANFST309_00516_000050_MINFILIA","落ち着いて聞いて。
-リムサ・ロミンサのコボルド族が、
-蛮神「タイタン」を再召喚したらしいの……。"
-53,"TEXT_MANFST309_00516_000060_MINFILIA","依頼内容は、タイタンの討伐……。
-黒渦団の討伐隊へ同行し、作戦に協力することよ。"
-54,"TEXT_MANFST309_00516_000070_MINFILIA","黒渦団は、以前からコボルド族を
-継続して調査していたわ。"
-55,"TEXT_MANFST309_00516_000080_YSHTOLA","黒渦団が設立される数年前、
-蛮神「リヴァイアサン」と「タイタン」が、
-同時期に召喚されたことがあったわ。"
-56,"TEXT_MANFST309_00516_000090_YSHTOLA","この時、メルウィブ提督は「海雄旅団」という
-傭兵団を雇って送り込み、討伐を成功させた。"
-57,"TEXT_MANFST309_00516_000100_YSHTOLA","しかし2つの蛮族は、しばらくの後に、
-それぞれの蛮神を再召喚し、復活させた。"
-58,"TEXT_MANFST309_00516_000110_MINFILIA","この時は、幸い、どちらも一時的に召喚しただけで
-大きな被害はなかったのだけどね。"
-59,"TEXT_MANFST309_00516_000120_MINFILIA","でも、「願い」が蛮神を顕現させる以上、
-蛮神殲滅の難しさを物語る事例となっているわ。"
-60,"TEXT_MANFST309_00516_000130_YSHTOLA","それ以来、黒渦団は蛮族を……。
-特に、先の召喚以降、頻繁に活動していた、
-コボルド族を重点的に監視していた。"
-61,"TEXT_MANFST309_00516_000140_YSHTOLA","そして、この依頼というわけね。"
-62,"TEXT_MANFST309_00516_000150_MINFILIA","悪いことに、蛮神「イフリート」と違って、
-情報が圧倒的に少ないわ。"
-63,"TEXT_MANFST309_00516_000160_MINFILIA","唯一、蛮神「タイタン」討伐の実績がある
-傭兵団「海雄旅団」は、5年前に解散しているの。
-つまり、戦闘記録がないってこと。"
-64,"TEXT_MANFST309_00516_000170_YSHTOLA","……激戦になる。"
-65,"TEXT_MANFST309_00516_000180_YSHTOLA","黒渦団に同行するとはいえ、相手は蛮神。
-どういったことが起こるのか想像できない。"
-66,"TEXT_MANFST309_00516_000190_YSHTOLA","しかも、コボルド族は閉鎖的な蛮族……。
-シルフ族の時と違って、
-対話による解決は難しいでしょうね。"
-67,"TEXT_MANFST309_00516_000200_YSHTOLA","今度は、あなたの「超える力」ではない……。
-あなたの冒険者としての力が試されることになる。"
-68,"TEXT_MANFST309_00516_000210_YSHTOLA","いくらエオルゼアのためとはいえ、危険過ぎるわ。
-この依頼は断っても……。"
-69,"TEXT_MANFST309_00516_000220_MINFILIA","協力してくれるの……？"
-70,"TEXT_MANFST309_00516_000230_MINFILIA","ありがとう……。"
-71,"TEXT_MANFST309_00516_000240_THANCRED","リムサ・ロミンサとくれば……ヤ・シュトラですね。
-ちょうど、この件にも詳しい。
-ミンフィリア？"
-72,"TEXT_MANFST309_00516_000250_MINFILIA","ヤ・シュトラ、お願いできる？"
-73,"TEXT_MANFST309_00516_000260_YSHTOLA","元より、そのつもりよ。"
-74,"TEXT_MANFST309_00516_000270_MINFILIA","ありがとう、ヤ・シュトラ。"
-75,"TEXT_MANFST309_00516_000280_MINFILIA","よし！
-やるとなったら、とことんやるわよ！"
-76,"TEXT_MANFST309_00516_000290_MINFILIA","本依頼は、「暁の血盟」全体で支援します。
-加えて、本来の任務は継続。"
-77,"TEXT_MANFST309_00516_000300_MINFILIA","わたしたちが任務で一緒に行けない分、
-しっかり支援するのよ！"
-78,"TEXT_MANFST309_00516_000310_MINFILIA","サンクレッド、イダ。
-それぞれ担当国のグランドカンパニーへ行って、
-状況説明と支援要請を。"
-79,"TEXT_MANFST309_00516_000320_MINFILIA","ウリエンジェさん。
-バルデシオン委員会へ連絡をお願い。
-できればアルフィノにも。"
-80,"TEXT_MANFST309_00516_000330_MINFILIA","パパリモ、少しでもいい。
-蛮神「タイタン」の情報を集めて。"
-81,"TEXT_MANFST309_00516_000340_MINFILIA","依頼の詳細は、黒渦団の作戦本部でしてくれるそうよ。
-現地へ向かって。"
-82,"TEXT_MANFST309_00516_000350_MINFILIA","十分に用意をして出かけてね。
-あなたたちに、クリスタルの導きがあらんことを……。"
-83,"TEXT_MANFST309_00516_RASHAHT_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><If(GreaterThan(PlayerParameter(52),0))><Sheet(GCRankLimsaMaleText,PlayerParameter(52),0)/><Else/></If>！
-黒渦団の任務、ご苦労さま！"
-84,"TEXT_MANFST309_00516_RASHAHT_000_001","こっちは、さっき「暁」から連絡を受けたところ。
-キミが来るの、ずっと待ってたんだよ！
-蛮神「タイタン」の件で話があるんだ。"
-85,"TEXT_MANFST309_00516_RASHAHT_000_005","ここは、グランドカンパニー「黒渦団」の軍令部だよ。
-キミは入団志願のヒト？
-だったら、人事担当官に……。"
-86,"TEXT_MANFST309_00516_RASHAHT_000_006","あっ……もしかして、連絡があった「暁」のヒトかな？
-キミが来るの、待ってたんだよ！
-蛮神「タイタン」の件で話があるんだ。"
-87,"TEXT_MANFST309_00516_RASHAHT_000_010","「暁」への依頼で聞いてるかもしれないけど、
-この地に棲む蛮族……コボルド族が、
-蛮神「タイタン」を召喚したんだ。"
-88,"TEXT_MANFST309_00516_RASHAHT_000_011","これまで、コボルド族は、
-北のオ・ゴモロ山を住処にしてたんだけど、
-ここ最近になって、山を出て南下しだしてね。"
-89,"TEXT_MANFST309_00516_RASHAHT_000_012","調査の結果、蛮神「タイタン」の召喚を維持するために、
-大量のクリスタルを採掘してることがわかったのさ。"
-90,"TEXT_MANFST309_00516_MERLWYB_000_013","そこから先は、私が説明しよう。"
-91,"TEXT_MANFST309_00516_MERLWYB_000_014","久しぶりだな、冒険者。
-<Switch(PlayerParameter(70))><Case(1)>君</Case><Case(2)>貴公</Case><Case(3)>貴公</Case></Switch>の活躍の数々、聞き及んでいるぞ！
-実に見事な働きだ。"
-92,"TEXT_MANFST309_00516_YSHTOLA_000_015","蛮神討伐の依頼なんて、一大事だもの。
-メルウィブ提督に、直接、
-お話を伺ったほうがいいと思ったの。"
-93,"TEXT_MANFST309_00516_MERLWYB_000_016","周知のとおり、このリムサ・ロミンサは、
-海にサハギン族、大地にコボルド族……。
-さらには、国内に海賊問題を抱えている。"
-94,"TEXT_MANFST309_00516_MERLWYB_000_017","なさけない話だが、第七霊災後、我らは、
-それらの対応に追われるだけで精一杯の状態でな。"
-95,"TEXT_MANFST309_00516_MERLWYB_000_018","そしてリムサ・ロミンサは、
-度重なる蛮神討伐や第七霊災によって、
-蛮神への切り札だった「海雄旅団」も失ってしまった。"
-96,"TEXT_MANFST309_00516_MERLWYB_000_019","……そこでだ。
-今回、君たち「暁の血盟」に、
-蛮神「タイタン」の討伐を依頼したというわけだ。"
-97,"TEXT_MANFST309_00516_YSHTOLA_000_020","でも、海の恵みは人のもの、
-大地の恵みはコボルド族のものとして、
-彼らとは以前、協定を結んでいたはず。"
-98,"TEXT_MANFST309_00516_YSHTOLA_000_021","その協定を破って、大地を侵略しているのは人のほうよ。
-おそらくコボルド族は、それに対抗するために、
-蛮神「タイタン」を呼んだに過ぎない。"
-99,"TEXT_MANFST309_00516_YSHTOLA_000_022","その尻拭いをしてくれだなんて、
-少し身勝手ではないかしら。"
-100,"TEXT_MANFST309_00516_RASHAHT_000_023","ヤ・シュトラ殿！？
-その言いようは、ちょっと非道いんじゃないかッ！？"
-101,"TEXT_MANFST309_00516_MERLWYB_000_024","……よい。
-ヤ・シュトラ殿の言うとおりだ。"
-102,"TEXT_MANFST309_00516_MERLWYB_000_025","しかし、それでも、リムサ・ロミンサを安定させ、
-国や民を護らねばならんのだ。
-……わかってくれ。"
-103,"TEXT_MANFST309_00516_YSHTOLA_000_026","失礼……少々、口が過ぎたようだわ。
-提督の苦悩は理解できているつもりよ。"
-104,"TEXT_MANFST309_00516_MERLWYB_000_027","すでに蛮神「タイタン」によってエーテルが喰われ始め、
-内陸部に影響が出始めている。
-早々に、リムサ・ロミンサ都市部へも被害が出るだろう。"
-105,"TEXT_MANFST309_00516_MERLWYB_000_028","我侭を言っているのは重々承知している。
-どうか、リムサ・ロミンサを助けてほしい。"
-106,"TEXT_MANFST309_00516_MERLWYB_000_029","……感謝する。
-対策に追われ、黒渦団も動き辛い状況だったのだ。
-それでは、頼んだぞ。"
-107,"TEXT_MANFST309_00516_YSHTOLA_000_030","以前は協定を結べていたとはいえ、
-蛮神「タイタン」を召喚するような状況では、
-やはり対話は難しいでしょうね。"
-108,"TEXT_MANFST309_00516_YSHTOLA_000_031","まずは、情報を集めないと。
-討伐実績のある「海雄旅団」の団員を探してみましょう。
-解散したとはいえ、生存している団員もいるはずよ。"
-109,"TEXT_MANFST309_00516_RASHAHT_000_032","んー、解散後の彼らについて確かな情報はないんだけど。
-たしか……「グレイフリート風車群」に
-元海雄旅団員だー、って人がいるって報告があったなぁ。"
-110,"TEXT_MANFST309_00516_YSHTOLA_000_033","グレイフリート風車群……低地ラノシアの北部ね。
-さっそく行ってみましょう。"
-111,"TEXT_MANFST309_00516_TRACHTOUM_000_050","<Emphasis>♪おっれさーま　だーいすっき　めっしのっじかーん♪</Emphasis>
-<Emphasis>♪だーいすっき　おっれさっま　やっすみっじかーん♪</Emphasis>
-<Emphasis>♪らんららーるるる、ららららーん♪</Emphasis>"
-112,"TEXT_MANFST309_00516_TRACHTOUM_000_051","あ？　なんだてめえ、風車で巻き殺すぞ。
-んん……？
-海雄旅団の元メンバーを探してるって？"
-113,"TEXT_MANFST309_00516_TRACHTOUM_000_052","やれやれ、こんなところまで追っかけかい？
-まったく有名人ってのは、つれーなぁ！！"
-114,"TEXT_MANFST309_00516_TRACHTOUM_000_053","ふふん、遠路はるばるご苦労。
-海雄旅団一番の実力者、トラッハトゥームとは……
-俺・様・の・こ・と・さ！！"
+48,"TEXT_MANFST309_00516_000010_MINFILIA","The Maelstrom requests our assistance."
+49,"TEXT_MANFST309_00516_000020_YSHTOLA","Concerning the kobolds they sent such copious notes on, I presume?"
+50,"TEXT_MANFST309_00516_000030_MINFILIA","Yes, and no. It has more to do with their findings, which portend a peril far greater than any beast tribe."
+51,"TEXT_MANFST309_00516_000040_YSHTOLA","What sort of peril?"
+52,"TEXT_MANFST309_00516_000050_MINFILIA","The worst kind. A tribe of kobolds in the vicinity of Limsa Lominsa has reawakened Titan."
+53,"TEXT_MANFST309_00516_000060_MINFILIA","Our task will be to slay the primal. The Maelstrom have sworn support for the endeavor."
+54,"TEXT_MANFST309_00516_000070_MINFILIA","They are no strangers to the havoc kobolds can wreak."
+55,"TEXT_MANFST309_00516_000080_YSHTOLA","Years before the Grand Company's reformation, two primals, Leviathan and Titan, chanced to converge upon the seawall, wreaking untold devastation."
+56,"TEXT_MANFST309_00516_000090_YSHTOLA","There, by the grace of the Navigator, were the mercenaries Merlwyb hired able to fend them off."
+57,"TEXT_MANFST309_00516_000100_YSHTOLA","Yet it did not take long for the beast tribes to regroup, and they summoned their primals once more."
+58,"TEXT_MANFST309_00516_000110_MINFILIA","Thankfully, their second coming was decidedly short-lived─but that is beside the point."
+59,"TEXT_MANFST309_00516_000120_MINFILIA","So long as tormented souls will them to exist, the realm will never be rid of primals."
+60,"TEXT_MANFST309_00516_000130_YSHTOLA","The Maelstrom has kept a watchful eye upon the beast tribes─and the kobolds in particular─ever since."
+61,"TEXT_MANFST309_00516_000140_YSHTOLA","Which brings us to the matter at hand."
+62,"TEXT_MANFST309_00516_000150_MINFILIA","Unlike Ifrit, we know scarcely anything of Titan."
+63,"TEXT_MANFST309_00516_000160_MINFILIA","Unfortunately, the only force known to have bested him─the modestly named “Company of Heroes”─disbanded five years since, and mercenaries are not in the habit of keeping chronicles."
+64,"TEXT_MANFST309_00516_000170_YSHTOLA","Expect the worst."
+65,"TEXT_MANFST309_00516_000180_YSHTOLA","The Maelstrom's help is of course appreciated, but even if we had their whole armada at our disposal, we could still find ourselves overmatched."
+66,"TEXT_MANFST309_00516_000190_YSHTOLA","A pity the kobolds lack the gentle sensibilities of the sylphs. A peaceful resolution would be more than welcome."
+67,"TEXT_MANFST309_00516_000200_YSHTOLA","The Echo will not avail you this time, I fear. If you are to survive, your steel must needs speak for you."
+68,"TEXT_MANFST309_00516_000210_YSHTOLA","No one would think you a coward were you to decline."
+69,"TEXT_MANFST309_00516_000220_MINFILIA","So you will accept?"
+70,"TEXT_MANFST309_00516_000230_MINFILIA","Thank you."
+71,"TEXT_MANFST309_00516_000240_THANCRED","We can't very well send <If(PlayerParameter(4))>her<Else/>him</If> to Limsa Lominsa without Y'shtola, can we, Minfilia?"
+72,"TEXT_MANFST309_00516_000250_MINFILIA","May I ask that of you, Y'shtola?"
+73,"TEXT_MANFST309_00516_000260_YSHTOLA","I never thought it in question."
+74,"TEXT_MANFST309_00516_000270_MINFILIA","Ever reliable."
+75,"TEXT_MANFST309_00516_000280_MINFILIA","Very well. We will spare no effort to win victory."
+76,"TEXT_MANFST309_00516_000290_MINFILIA","You may count on the full support of the Scions of the Seventh Dawn."
+77,"TEXT_MANFST309_00516_000300_MINFILIA","And all not afield will aid the fight from afar."
+78,"TEXT_MANFST309_00516_000310_MINFILIA","Thancred, Yda, go to the Grand Companies. Tell them of our plight and solicit their support."
+79,"TEXT_MANFST309_00516_000320_MINFILIA","Urianger, send word to the Students of Baldesion─and Alphinaud, if you would."
+80,"TEXT_MANFST309_00516_000330_MINFILIA","Papalymo, compile all the information we have on Titan, little though it may be."
+81,"TEXT_MANFST309_00516_000340_MINFILIA","You'll be apprised of the tactical situation when you reach the Sailors Ward."
+82,"TEXT_MANFST309_00516_000350_MINFILIA","Provision yourself for the journey. May you walk in the light of the Crystal."
+83,"TEXT_MANFST309_00516_RASHAHT_000_000","Good to see you, <Clickable(<If(GreaterThan(PlayerParameter(52),0))><Sheet(GCRankLimsaMaleText,PlayerParameter(52),8)/><Else/></If><If(GreaterThan(PlayerParameter(53),0))><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),8)/><Else/></If><If(GreaterThan(PlayerParameter(54),0))><Sheet(GCRankUldahMaleText,PlayerParameter(54),8)/><Else/></If>)/> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>."
+84,"TEXT_MANFST309_00516_RASHAHT_000_001","The Scions sent word that you were on your way."
+85,"TEXT_MANFST309_00516_RASHAHT_000_005","Hail, adventurer, and welcome to Maelstrom Command. If you wish to know more about enlisting, speak with the personnel officer."
+86,"TEXT_MANFST309_00516_RASHAHT_000_006","Unless...you are the guest we were told to expect? Ah...ha. Ahem. Forgive me, <If(PlayerParameter(4))>madam<Else/>sir</If>."
+87,"TEXT_MANFST309_00516_RASHAHT_000_010","To business, then. It is as we told the Antecedent. The kobolds have once again summoned Titan."
+88,"TEXT_MANFST309_00516_RASHAHT_000_011","A little over a moon ago, we began to observe the beastmen moving south in increasing numbers from O'Ghomoro."
+89,"TEXT_MANFST309_00516_RASHAHT_000_012","Our scouts subsequently confirmed the object of their aggression─"
+90,"TEXT_MANFST309_00516_MERLWYB_000_013","Crystals. Fodder for their fell primal."
+91,"TEXT_MANFST309_00516_MERLWYB_000_014","Thank you, High Commander. You may leave the rest to me.
+<If(GreaterThan(PlayerParameter(52),0))>Your deeds bring glory to the Maelstrom, <Clickable(<If(GreaterThan(PlayerParameter(52),0))><Sheet(GCRankLimsaMaleText,PlayerParameter(52),8)/><Else/></If><If(GreaterThan(PlayerParameter(53),0))><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),8)/><Else/></If><If(GreaterThan(PlayerParameter(54),0))><Sheet(GCRankUldahMaleText,PlayerParameter(54),8)/><Else/></If>)/> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/><Else/><If(GreaterThan(PlayerParameter(53),0))>Word has spread of your accomplishments, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Else/>Word has spread of your accomplishments, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/></If></If>. <If(GreaterThan(PlayerParameter(52),0))>Right proud am I to call you one of our own<Else/><If(GreaterThan(PlayerParameter(53),0))>On behalf of Limsa Lominsa, I thank you for heeding our call<Else/>On behalf of Limsa Lominsa, I thank you for heeding our call</If></If>."
+92,"TEXT_MANFST309_00516_YSHTOLA_000_015","Forgive the lack of forewarning, High Commander. The Admiral wished to address <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> personally."
+93,"TEXT_MANFST309_00516_MERLWYB_000_016","We are no strangers to conflict. Long have the Sahagin and the kobolds plagued our people─nor is this the first time we have had to address a primal threat."
+94,"TEXT_MANFST309_00516_MERLWYB_000_017","In the past, when Titan rose to threaten the peace, it was to the Company of Heroes we turned."
+95,"TEXT_MANFST309_00516_MERLWYB_000_018","But they are long disbanded, and we must look to other brave souls blessed with the strength to face this foe."
+96,"TEXT_MANFST309_00516_MERLWYB_000_019","So it is that we turn now to the Scions of the Seventh Dawn, confident in the belief that you are Limsa's best hope."
+97,"TEXT_MANFST309_00516_YSHTOLA_000_020","I hope you are right. Yet the situation is far from simple. The kobolds are not prone to unprovoked aggression. Did not the thalassocracy make a pact with the beastmen that each would keep to their own lands, and that no blood would be shed?"
+98,"TEXT_MANFST309_00516_YSHTOLA_000_021","...And was it not the <Emphasis>Lominsans</Emphasis> who violated this agreement, dissatisfied with their lot? Shall we then condemn the beastmen for defending their homes?"
+99,"TEXT_MANFST309_00516_YSHTOLA_000_022","Even a pirate must one day reap what she has sown."
+100,"TEXT_MANFST309_00516_RASHAHT_000_023","I would advise you to choose your words with greater care, Lady Y'shtola!"
+101,"TEXT_MANFST309_00516_MERLWYB_000_024","Stand down, High Commander. She has the right of it."
+102,"TEXT_MANFST309_00516_MERLWYB_000_025","And the wrong is mine. Freely do I claim it. Yet it makes little difference. Remorse will not shield us from Titan's wrath.
+...Or would you have us fall upon our swords?"
+103,"TEXT_MANFST309_00516_YSHTOLA_000_026","My apologies, Admiral. The safety and security of Limsa Lominsa's citizenry are, of course, of paramount concern."
+104,"TEXT_MANFST309_00516_MERLWYB_000_027","Already, we have observed disruptions in the flow of aether further inland. The effects will be felt here in the city ere long."
+105,"TEXT_MANFST309_00516_MERLWYB_000_028","I ask much of you, I know, but the need is great. <If(GreaterThan(PlayerParameter(52),0))>I trust I can count on you, <Clickable(<If(GreaterThan(PlayerParameter(52),0))><Sheet(GCRankLimsaMaleText,PlayerParameter(52),8)/><Else/></If><If(GreaterThan(PlayerParameter(53),0))><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),8)/><Else/></If><If(GreaterThan(PlayerParameter(54),0))><Sheet(GCRankUldahMaleText,PlayerParameter(54),8)/><Else/></If>)/><Else/><If(GreaterThan(PlayerParameter(53),0))>Can I count on your help, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Else/>Can I count on your help, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/></If></If>?"
+106,"TEXT_MANFST309_00516_MERLWYB_000_029","You have my thanks, along with the full support of the Maelstrom. I await good tidings."
+107,"TEXT_MANFST309_00516_YSHTOLA_000_030","That the kobolds should summon Titan demonstrates they are no longer amenable to negotiation."
+108,"TEXT_MANFST309_00516_YSHTOLA_000_031","This being the case, we must needs prepare for conflict. Before we meet Titan in the field, however, it would be wise to learn all we can of our foe. And I can think of no better source of information than the mercenaries who defeated him once before."
+109,"TEXT_MANFST309_00516_RASHAHT_000_032","The Company of Heroes may be no more, but several of its former members still live. It is said that one of them is employed at the Grey Fleet mills in lower La Noscea."
+110,"TEXT_MANFST309_00516_YSHTOLA_000_033","Quite why a mercenary should choose to become a miller, I do not know. When you find him, mayhap you could ask him for me. I, meanwhile, shall seek his fellows."
+111,"TEXT_MANFST309_00516_TRACHTOUM_000_050","Lay down yer burdens, son,♪
+Come drain a pint with me,♪
+We'll have a grand ol' time,♪
+Find ye a lass or three...♪"
+112,"TEXT_MANFST309_00516_TRACHTOUM_000_051","Ye gonna say somethin', 'venturer, or just keep starin'?
+Eh? Ye want to know about the Company of Heroes?"
+113,"TEXT_MANFST309_00516_TRACHTOUM_000_052","Ahhh hells... Price of bleedin' fame... Can't a miller mill in peace no more!?"
+114,"TEXT_MANFST309_00516_TRACHTOUM_000_053","Still, seein' as ye've come all this way, I s'pose it wouldn't hurt to oblige ye. Consider yerself lucky, <If(PlayerParameter(4))>lass<Else/>mate</If>─ol' Trachtoum was the Company's best axeman. Now, what was it ye wanted to know?"

@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDY701_03131_SEQ_00","イサリ村のハマカゼは、伝えたいことがあるようだ。"
-1,"TEXT_STMBDY701_03131_SEQ_01","ハマカゼと話した。なんでも、依頼したいことがあるらしく、ラショウが冒険者を探しているらしい。まずは担当者だという、紅玉海の筋違砦にいる「キュウセイ」と話そう。"
-2,"TEXT_STMBDY701_03131_SEQ_02","キュウセイと話した。アメノミハシラ付近の「<Sheet(EObj,2009514,0)/>」で待機しよう。"
-3,"TEXT_STMBDY701_03131_SEQ_03","やって来たラショウとキュウセイから話を聞いた。冒険者に頼みたいのは、アメノミハシラの探索だという。入口となる転送装置まで案内してもらうため、筋違砦の「キュウセイ」と話そう。"
-4,"TEXT_STMBDY701_03131_SEQ_04","キュウセイと話した。かつて攻略した地下迷宮と同様の特異性を持つ、魔物はびこるアメノミハシラの探索を始めよう！"
+0,"TEXT_STMBDY701_03131_SEQ_00","Hamakaze has been asked to keep an eye out for you."
+1,"TEXT_STMBDY701_03131_SEQ_01","Hamakaze, Confederate dogsbody, has been tasked with finding you, although it seems he had made little progress in his inquiries until you appeared unannounced in the Crick. Being the low-ranking deckswab that he is, his superior Rasho shared next to no information with him, other than to direct you to someone called Kyusei. Although the name rings no bells, there seems little harm in pursuing the matter further."
+2,"TEXT_STMBDY701_03131_SEQ_02","Although Kyusei gives the impression of being courteous and well-mannered, he is reluctant to speak openly. He requests that you meet him and Rasho at the base of Heaven–on–High, presumably in order to be out of earshot of the less discreet members of the local pirating community."
+3,"TEXT_STMBDY701_03131_SEQ_03","Kyusei recounts a tale in which he stumbled across a previously hidden chamber full of bizarre machinery, with which he accidentally teleported himself to the inner reaches of Heaven–on–High. Once inside, he discovered the tower was crawling with hellish beasts and was lucky to escape with his life. Rasho adds that he is keen to investigate the denizens of the tower before they find a way outside. However, the tower is considered sacred ground by the people of the Ruby Sea, and any attempts to enter it would be seen as an affront. The Confederacy can ill afford any further damage to their already questionable reputation, so Rasho asks that you, as an outsider, infiltrate the tower in secret."
+4,"TEXT_STMBDY701_03131_SEQ_04","Kyusei stands guarding the hidden passage to the teleportation devices, waiting for you to begin your foray into Heaven–on–High. Before he grants you entry, he explains the magical field that permeates the tower, which threatens to stifle your strength in battle. Fortunately, this can be circumvented with the use of specially prepared empyrean aetherpool equipment, allowing the user to channel their aether rather than having it slowly drained. Armed with the tools and knowledge necessary, you are finally ready to explore the many levels of Heaven–on–High."
 5,"TEXT_STMBDY701_03131_SEQ_05",""
 6,"TEXT_STMBDY701_03131_SEQ_06",""
 7,"TEXT_STMBDY701_03131_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_STMBDY701_03131_SEQ_21",""
 22,"TEXT_STMBDY701_03131_SEQ_22",""
 23,"TEXT_STMBDY701_03131_SEQ_23",""
-24,"TEXT_STMBDY701_03131_TODO_00","キュウセイと話す"
-25,"TEXT_STMBDY701_03131_TODO_01","<Sheet(EObj,2009514,0)/>で待機"
-26,"TEXT_STMBDY701_03131_TODO_02","キュウセイと話す"
+24,"TEXT_STMBDY701_03131_TODO_00","Speak with Kyusei."
+25,"TEXT_STMBDY701_03131_TODO_01","Wait for Kyusei and Rasho."
+26,"TEXT_STMBDY701_03131_TODO_02","Speak with Kyusei."
 27,"TEXT_STMBDY701_03131_TODO_03",""
 28,"TEXT_STMBDY701_03131_TODO_04",""
 29,"TEXT_STMBDY701_03131_TODO_05",""
@@ -49,136 +49,55 @@ int32,str,str
 45,"TEXT_STMBDY701_03131_TODO_21",""
 46,"TEXT_STMBDY701_03131_TODO_22",""
 47,"TEXT_STMBDY701_03131_TODO_23",""
-48,"TEXT_STMBDY701_03131_SYSTEM_100_000","クエスト「深淵なるはアメノミハシラ」を受注するには、
-ディープダンジョン「死者の宮殿」の、
-「B50」を踏破している必要があります。"
-49,"TEXT_STMBDY701_03131_SYSTEM_100_001","なお、「死者の宮殿」を開放するには、
-クエスト「奇異なる地下迷宮」をコンプリートする必要があります。"
-50,"TEXT_STMBDY701_03131_HAMAKAZE_000_000","あんた、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>だよな？
-うちの頭領、ラショウさんが探していたぜ。"
-51,"TEXT_STMBDY701_03131_HAMAKAZE_000_001","なんか頼みごとがあるみたいだったが、
-内容までは聞いてねえ。
-たぶん、下っ端には教えられねえ重要な話なんだろ。"
-52,"TEXT_STMBDY701_03131_HAMAKAZE_000_002","筋違砦の「キュウセイ」ってのが、
-この件について取り仕切ってるから、
-まずはそいつから話を聞いてくれ。"
-53,"TEXT_STMBDY701_03131_HAMAKAZE_000_010","筋違砦の「キュウセイ」から、話を聞いてくれ。
-頭領があんたを探している件について、
-そいつが取り仕切ってるらしいからよ。"
-54,"TEXT_STMBDY701_03131_RASHO_000_011","……お前か、よく来てくれた。
-俺の用件については、「キュウセイ」に任せている。
-まずは奴に声をかけてくれ。"
-55,"TEXT_STMBDY701_03131_KYUSEI_000_020","これはこれは。
-お待ちしておりました、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>殿。"
-56,"TEXT_STMBDY701_03131_KYUSEI_000_021","ただいま、頭領を呼んでまいります。
-詳しい事情をご説明しますので、申し訳ありませんが、
-アメノミハシラの前で、少々お待ちいただけますか？"
-57,"TEXT_STMBDY701_03131_RASHO_000_030","キュウセイとはもう話したようだな。
-なら、アメノミハシラの前で待っててくれ。
-ここで詳しい話をするには、問題があってな……。"
-58,"TEXT_STMBDY701_03131_KYUSEI_000_031","詳しい事情の説明をしますので、
-アメノミハシラの前で、少々お待ちください。
-頭領とともに、すぐ向かいますので。"
-59,"TEXT_STMBDY701_03131_RASHO_100_040","その柱……アメノミハシラが気になるか？
-なら、話をするのにちょうどいい。"
-60,"TEXT_STMBDY701_03131_RASHO_000_040","呼びかけに応じてくれたこと、感謝する。
-お前を頼ったのは他でもない。
-秘密裏に、「ある場所」の探索を頼みたいのだ。"
-61,"TEXT_STMBDY701_03131_RASHO_000_042","俺たちが探索するには、差し障りがある場所でな……。
-詳しくは、発見した本人に話させよう。"
-62,"TEXT_STMBDY701_03131_KYUSEI_000_043","数日前のこと、私が当番だったもので、
-筋違砦の周辺を見回りしていたのですが……
-その際、見たこともない魔物の群れに、襲撃されたのです。"
-63,"TEXT_STMBDY701_03131_KYUSEI_000_044","なんとか撃退したのち、周辺の捜索を行いましたところ、
-物置小屋の床に、見知らぬ隠し戸が開いているじゃありませんか。
-驚いて調べると、地下に奇妙な装置が設置されていたのです。"
-64,"TEXT_STMBDY701_03131_KYUSEI_000_045","さらに驚くべきは、装置に触れるや否や、
-私は、魔物ひしめく伏魔殿へと転移されたこと……。"
-65,"TEXT_STMBDY701_03131_KYUSEI_000_046","私ごときの技量では、探索はあまりにも無謀と判断。
-命からがら魔物の巣窟より逃げ帰り、
-頭領へ報告した次第です。"
-66,"TEXT_STMBDY701_03131_RASHO_000_047","報告を受けた後、俺の方でも調べてみたんだが、
-転送先はアメノミハシラの内部のようだ。
-……それが、この話の厄介な点でな。"
-67,"TEXT_STMBDY701_03131_KYUSEI_000_048","エオルゼアからいらした<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>殿が、
-疑問に思うのも当然でしょう。
-アメノミハシラは、いわゆる聖地なのです。"
-68,"TEXT_STMBDY701_03131_KYUSEI_000_049","神代の時代、最初に紅玉海へと降り立った神々は、
-オノコロ島を創り、そこにアメノミハシラを築いたのだとか……。
-一説には、天から地へ神々を導く階段だとも言われております。"
-69,"TEXT_STMBDY701_03131_RASHO_000_050","ともかく、神々が創ったものであるからと、
-オノコロ島とアメノミハシラは、長らく禁足地とされてきた。"
-70,"TEXT_STMBDY701_03131_RASHO_000_051","だが、俺たちは神をも恐れぬ海賊衆。
-誰も足を踏み入れぬならばと、この島に陣取り、
-砦を築いて、自分たちの拠点としてきたのだ。"
-71,"TEXT_STMBDY701_03131_RASHO_000_052","そんな俺たちが、アメノミハシラは魔物の巣窟だったと騒げば……
-いや、騒がずとも、あの柱の探索を大々的に始めれば、
-どうなると思う？"
-72,"TEXT_STMBDY701_03131_KYUSEI_000_053","人々の海賊衆に対する感情は、間違いなく悪化するでしょう。
-信心深い者たちが、実力行使に出るかもしれません。"
-73,"TEXT_STMBDY701_03131_RASHO_000_054","だからといって、拠点にある魔物の巣窟を放置するわけにもいかん。
-……ゆえに、お前には転送装置を使ってアメノミハシラへ侵入し、
-秘密裏に内部を探索してもらいたいのだ。"
-74,"TEXT_STMBDY701_03131_RASHO_000_055","外部の者ならば、その存在を隠し通すことも容易だ。
-それにお前の実力なら、隠密性を重視した少人数での探索も、
-難しくはないだろう。"
-75,"TEXT_STMBDY701_03131_RASHO_000_056","内部には、怪しげな「結界」が張られており、
-普段の実力を発揮できぬ有様だが……
-アメノミハシラの探索、引き受けてはもらえないか？"
-76,"TEXT_STMBDY701_03131_KYUSEI_000_057","私からもお願いいたします。
-もちろん、できうる限りの支援はいたしますので……。"
-77,"TEXT_STMBDY701_03131_RASHO_000_058","……助かる。
-後のことは、キュウセイに任せてあるから、
-こき使ってやってくれ。"
-78,"TEXT_STMBDY701_03131_KYUSEI_000_059","では、入口となる転送装置まで案内いたしましょう。
-物置小屋……最初にお会いした小屋の前でお待ちしています。
-用意が整いましたら、声をおかけください。"
-79,"TEXT_STMBDY701_03131_RASHO_000_060","アメノミハシラの探索、よろしく頼む。
-なに、お前であれば軽くこなせるはずだ。"
-80,"TEXT_STMBDY701_03131_KYUSEI_000_070","お待ちしておりました。
-では、転送装置までご案内する前に、
-アメノミハシラ内部について、もう少し詳しくご説明しましょう。"
-81,"TEXT_STMBDY701_03131_KYUSEI_000_071","頭領が言いましたとおり、内部には特殊な「結界」が張られ、
-普段どおりの力が出せない上、持ち込んだ武器が使用できません。"
-82,"TEXT_STMBDY701_03131_KYUSEI_000_072","なので、非常に危険な……
-おや、何か気がついたことでも？"
-83,"TEXT_STMBDY701_03131_Q1_000_000","何と言う？"
-84,"TEXT_STMBDY701_03131_A1_000_001","似た場所を知っている"
-85,"TEXT_STMBDY701_03131_A1_000_002","…………"
-86,"TEXT_STMBDY701_03131_KYUSEI_000_080","似た場所が、他にもあるのですか！？
-まさか……そんなはずは……。"
-87,"TEXT_STMBDY701_03131_KYUSEI_000_081","いえ、「結界」自体は……。
-ならば、存在しうる、ですか。
-容易には信じがたいことですが……。"
-88,"TEXT_STMBDY701_03131_KYUSEI_000_090","もしや、説明は不要、ということでしょうか？
-なるほど、ご自分の身で確かめると。
-さすが、エオルゼアの……。"
-89,"TEXT_STMBDY701_03131_KYUSEI_000_100","ともかく、そういうことでしたら、説明は不要でしょう。
-では、これをお使いください。"
-90,"TEXT_STMBDY701_03131_KYUSEI_000_101","アメノミハシラ内部で発見した「魔器」です。
-自分のエーテルを具現化し、武器とすることができます。
-これを使えば、内部でも戦えるはず。"
-91,"TEXT_STMBDY701_03131_KYUSEI_000_102","ただ、この「魔器」を持ってしても、
-アメノミハシラの探索は、長期戦になるでしょう。
-なにせ、最上階が見えないほど高い柱ですから。"
-92,"TEXT_STMBDY701_03131_KYUSEI_000_103","ですから、30層をひとつの区切りとして、
-おおまかな報告をお願いできますか？
-それ以降は、頭領も交えて方針を相談いたしましょう。"
-93,"TEXT_STMBDY701_03131_KYUSEI_000_104","私も、直属の部下とともに、
-微力ではありますが支援いたしますので、
-アメノミハシラの探索、よろしくお願いします。"
-94,"TEXT_STMBDY701_03131_SYSTEM_000_110","「アメノミハシラ」に挑戦可能になりました。
-こちらは、天高く伸びる柱の内部を、
-1～4人で攻略するコンテンツとなります。"
-95,"TEXT_STMBDY701_03131_SYSTEM_000_111","「キュウセイ」に話しかけて、
-「固定パーティ」と「マッチングパーティ」の、
-どちらで突入するか選択することで、挑戦できます。"
-96,"TEXT_STMBDY701_03131_SYSTEM_100_111","なお、「アメノミハシラ」は、
-レベル「61」以上のファイター、もしくはソーサラーでのみ、
-挑戦できます。"
-97,"TEXT_STMBDY701_03131_SYSTEM_000_112","また、初めて挑戦する際は、「レベル61」で開始されます。
-さらに、通常の装備は無効となり、「アメノミハシラ」専用の、
-「魔器装備」を使って攻略することになります。"
-98,"TEXT_STMBDY701_03131_SYSTEM_000_113","「アメノミハシラ」に挑戦する際は、「キュウセイ」から、
-事前に、詳しい説明を聞いておくといいでしょう。"
-99,"TEXT_STMBDY701_03131_RASHO_000_041","（★未使用／削除予定★）"
+48,"TEXT_STMBDY701_03131_SYSTEM_100_000","In order to undertake this quest, you must first clear floor 50 of the Palace of the Dead."
+49,"TEXT_STMBDY701_03131_SYSTEM_100_001","To gain access to the Palace of the Dead, you must complete the quest “The House That Death Built.”"
+50,"TEXT_STMBDY701_03131_HAMAKAZE_000_000","You're <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, correct? The one Rasho is looking for, if I'm not mistaken."
+51,"TEXT_STMBDY701_03131_HAMAKAZE_000_001","He told me that if you showed up, I should send you to Kyusei in Crick."
+52,"TEXT_STMBDY701_03131_HAMAKAZE_000_002","Why? Buggered if I know! Nobody tells me anything around here. You'd be better off asking Kyusei himself."
+53,"TEXT_STMBDY701_03131_HAMAKAZE_000_010","That Kyusei fellow is usually guarding a little wooden shack by the aetheryte, although I can't see why. As far as I know, there's not much in it worth pilfering."
+54,"TEXT_STMBDY701_03131_RASHO_000_011","Greetings, friend. So you have spoken with Hamakaze? Very good. This is a matter of considerable import. Once you have made yourself known to Kyusei, we shall explain."
+55,"TEXT_STMBDY701_03131_KYUSEI_000_020","Ah, you must be <Highlight>ObjectParameter(1)</Highlight>. Rasho speaks very highly of you."
+56,"TEXT_STMBDY701_03131_KYUSEI_000_021","In fact, there is something that we should like to discuss. All will be revealed in due course, but I feel a change of venue is in order. Pray, wait for us at the foot of Heaven–on–High."
+57,"TEXT_STMBDY701_03131_RASHO_000_030","I will meet you at Heaven–on–High shortly."
+58,"TEXT_STMBDY701_03131_KYUSEI_000_031","There is much I would tell you...but not here. Rasho and I shall meet you anon."
+59,"TEXT_STMBDY701_03131_RASHO_100_040","Magnificent, is it not? But as you may have guessed, we did not call you here to admire the view."
+60,"TEXT_STMBDY701_03131_RASHO_000_040","Rather, we would like you to help us explore Heaven–on–High."
+61,"TEXT_STMBDY701_03131_RASHO_000_042","Perhaps it is best we explain from the beginning. Kyusei, if you would be so kind."
+62,"TEXT_STMBDY701_03131_KYUSEI_000_043","A few nights past, while I was rearranging supplies in one of the storerooms, I happened across a trapdoor that I had never noticed before. Upon opening it, I found a tunnel leading underground."
+63,"TEXT_STMBDY701_03131_KYUSEI_000_044","The passage led to a chamber lined with an array of bizarre machinery, all glowing and humming. Against my better judgment, I reached out and touched one of the devices, and was enveloped by a blinding light."
+64,"TEXT_STMBDY701_03131_KYUSEI_000_045","The next thing I knew, I found myself in a series of ornate hallways─and I was not alone. There were hideous fiends with gnashing fangs and grasping claws everywhere I looked."
+65,"TEXT_STMBDY701_03131_KYUSEI_000_046","It was all I could do to run for my very life, until I chanced across a shining orb. As I approached it, I was once more blinded by light."
+66,"TEXT_STMBDY701_03131_RASHO_000_047","We found him sprawled out in the hidden room below the storage shed. After he came to and shared his experiences, we examined these machines he found. It turns out they are a form of gateway that leads inside Heaven–on–High. And therein lies the problem."
+67,"TEXT_STMBDY701_03131_KYUSEI_000_048","Being from Eorzea, you may not be aware that this tower and the island on which it stands are regarded as sacred."
+68,"TEXT_STMBDY701_03131_KYUSEI_000_049","It is believed that when the kami first came to the Ruby Sea, they created Onokoro, and built Heaven–on–High as a stairway connecting the earth and their home high above the clouds."
+69,"TEXT_STMBDY701_03131_RASHO_000_050","The devout are loath to set foot on Onokoro for fear of incurring the wrath of the kami. To enter into the tower would be an even greater blasphemy."
+70,"TEXT_STMBDY701_03131_RASHO_000_051","We Confederates, on the other hand, come and go as we please. Since no one else had settled on this island, we claimed it for ourselves. It takes more than a few silly folktales to scare us, after all."
+71,"TEXT_STMBDY701_03131_RASHO_000_052","But imagine what might happen if people who do set store by such tales learned we had been poking around in Heaven–on–High─if they heard we were claiming that this “holy ground” was in fact filled with hellish beasts."
+72,"TEXT_STMBDY701_03131_KYUSEI_000_053","At best, they may never trade with us again. And the most fanatical among them might be so bold as to come here with anger in their hearts and murder in their eyes."
+73,"TEXT_STMBDY701_03131_RASHO_000_054","However, we dare not ignore the threat posed by the denizens of the tower. If Kyusei could escape, what's to stop those creatures from doing the same? Therefore I would conduct an investigation─quietly."
+74,"TEXT_STMBDY701_03131_RASHO_000_055","If we dedicate large numbers of Confederates to storming the tower, it won't be long before people start asking questions. On the other hand, few would notice the absence of an outsider such as yourself. And when the fighting starts, you alone are worth a dozen or more of my best men."
+75,"TEXT_STMBDY701_03131_RASHO_000_056","One more thing. Strange magicks govern the tower, suppressing the strength of all who enter. But if anyone can overcome such hindrances, it is you."
+76,"TEXT_STMBDY701_03131_KYUSEI_000_057","For what it is worth, I shall be on hand to provide what little assistance I can. I will leave the exploration of the tower in your capable hands."
+77,"TEXT_STMBDY701_03131_RASHO_000_058","Kyusei may not be the fighting sort, but his knowledge of Heaven–on–High should prove useful."
+78,"TEXT_STMBDY701_03131_KYUSEI_000_059","I will also be operating the teleportation device to provide entry to the tower. Thankfully, you will be much better prepared than I was to face the horrors that lurk within. When you are ready, come and find me by the storeroom."
+79,"TEXT_STMBDY701_03131_RASHO_000_060","An accomplished warrior such as you should fare rather better in the tower than Kyusei did. Be not cowed by his tales. He has a flair for the dramatic."
+80,"TEXT_STMBDY701_03131_KYUSEI_000_070","I take it your preparations are complete? Before you enter Heaven–on–High, I should tell you more about the magicks that Rasho mentioned."
+81,"TEXT_STMBDY701_03131_KYUSEI_000_071","The scouts that we sent inside all claimed they could feel their very aether being sapped, and that their weapons were somehow robbed of their potency. Even their most forceful blows did little more than graze their enemies."
+82,"TEXT_STMBDY701_03131_KYUSEI_000_072","Hmm? You are familiar with such a phenomenon?"
+83,"TEXT_STMBDY701_03131_Q1_000_000","What will you say?"
+84,"TEXT_STMBDY701_03131_A1_000_001","Intimately."
+85,"TEXT_STMBDY701_03131_A1_000_002","Me? I don't know nothing about no strange phenomenon."
+86,"TEXT_STMBDY701_03131_KYUSEI_000_080","Is that so? How strange..."
+87,"TEXT_STMBDY701_03131_KYUSEI_000_081","This kind of enfeebling magick can only have been by activated by─ Ahem! Excuse me, I have a tendency to ramble. This is hardly the time for me to start hypothesizing."
+88,"TEXT_STMBDY701_03131_KYUSEI_000_090","Was that a...triple negative? So, you <Emphasis>do</Emphasis> know? Or perhaps not? I shall attempt to decipher your fanciful wordplay at some other time. After all, I am sure that the Warrior of─ I mean, an experienced adventurer such as yourself would prefer to address more immediate concerns."
+89,"TEXT_STMBDY701_03131_KYUSEI_000_100","Luckily, there is a way to circumvent the tower's magical field to some degree. Please, take this with you. It will allow you to wield what is known as an “empyrean aetherpool weapon.”"
+90,"TEXT_STMBDY701_03131_KYUSEI_000_101","It was devel─discovered inside the tower and slowly channels a person's aether into the form of a blade, spellcasting tome, or what have you. The longer an empyrean aetherpool weapon is used, the more powerful it becomes."
+91,"TEXT_STMBDY701_03131_KYUSEI_000_102","I must stress, however, that even with one of these weapons, progress from one floor to the next will be far from easy. Exploration will largely involve traveling upwards using the teleportation devices inside, which are likely to be heavily guarded."
+92,"TEXT_STMBDY701_03131_KYUSEI_000_103","Considering the dangers you will face, we have decided to restrict the investigation to the lower levels for the time being. Once you've reached the thirtieth floor, please report your findings to Rasho and myself. We shall then discuss whether it is safe to continue past that point."
+93,"TEXT_STMBDY701_03131_KYUSEI_000_104","Although we shan't be joining you on the expedition, we Confederates are eager to lend you our support. If there is anything you need, do not hesitate to ask."
+94,"TEXT_STMBDY701_03131_SYSTEM_000_110","You now have access to Heaven–on–High. You may enter solo or in a party of up to four players."
+95,"TEXT_STMBDY701_03131_SYSTEM_000_111","When speaking with Kyusei, you will be given the option to enter with either a fixed party or a matched party via the matching system."
+96,"TEXT_STMBDY701_03131_SYSTEM_100_111","You must be a Disciple of War or Magic of level 61 or above to participate."
+97,"TEXT_STMBDY701_03131_SYSTEM_000_112","Players will start at level 61 regardless of their current class or job level. Furthermore, only empyrean aetherpool arms and armor specific to Heaven–on–High may be used."
+98,"TEXT_STMBDY701_03131_SYSTEM_000_113","Further details can be had by speaking with Kyusei."
+99,"TEXT_STMBDY701_03131_RASHO_000_041",""

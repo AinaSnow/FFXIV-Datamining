@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSC403_00978_SEQ_00","砂の家のヤ・シュトラは、冒険者にミンフィリア救出を手伝ってほしいようだ。"
-1,"TEXT_GAIUSC403_00978_SEQ_01","ミンフィリアが捕らえられているカストルム・セントリの情報を得るため、クルザス中央高地のアドネール占星台にいる「ポルトゥレーン」と話そう。"
-2,"TEXT_GAIUSC403_00978_SEQ_02","ポルトゥレーンと話すことができた。どうやら協力してくれそうだ。"
+0,"TEXT_GAIUSC403_00978_SEQ_00","Y'shtola wishes to discuss the fate of the prisoners being held at Castrum Centri."
+1,"TEXT_GAIUSC403_00978_SEQ_01","Y'shtola states that before a rescue plan can be devised, the Scions must first gather intelligence on the stronghold of Castrum Centri. With this in mind, she suggests traveling to the Observatorium in Coerthas, and there petitioning Lord Portelaine for aid."
+2,"TEXT_GAIUSC403_00978_SEQ_02","Lord Portelaine confirms that four prisoners matching the descriptions of Minfilia, Urianger, Papalymo, and Tataru were observed being led into Castrum Centri. Furthermore, he informs you that two men─likely Biggs and Wedge─escaped from a downed imperial airship not long ago. After a brief discussion, Y'shtola decrees that the Scions will immediately begin searching for the missing engineers, conscious that the Garleans are not like to spare their lives a second time."
 3,"TEXT_GAIUSC403_00978_SEQ_03",""
 4,"TEXT_GAIUSC403_00978_SEQ_04",""
 5,"TEXT_GAIUSC403_00978_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_GAIUSC403_00978_SEQ_21",""
 22,"TEXT_GAIUSC403_00978_SEQ_22",""
 23,"TEXT_GAIUSC403_00978_SEQ_23",""
-24,"TEXT_GAIUSC403_00978_TODO_00","アドネール占星台のポルトゥレーンと話す"
+24,"TEXT_GAIUSC403_00978_TODO_00","Speak with Portelaine at the Observatorium."
 25,"TEXT_GAIUSC403_00978_TODO_01",""
 26,"TEXT_GAIUSC403_00978_TODO_02",""
 27,"TEXT_GAIUSC403_00978_TODO_03",""
@@ -49,92 +49,43 @@ int32,str,str
 45,"TEXT_GAIUSC403_00978_TODO_21",""
 46,"TEXT_GAIUSC403_00978_TODO_22",""
 47,"TEXT_GAIUSC403_00978_TODO_23",""
-48,"TEXT_GAIUSC403_00978_YSHTOLA_000_000","ミンフィリアたちは、モードゥナの奥地にある
-帝国軍の軍事拠点「カストルム・セントリ」に
-捕らえられているらしいわ。"
-49,"TEXT_GAIUSC403_00978_YSHTOLA_000_001","急いで向かいたいところだけど、相手は帝国軍……。
-その拠点ともなれば、簡単には手を出せない。"
-50,"TEXT_GAIUSC403_00978_YSHTOLA_000_002","それに、私が使っているウルダハの情報屋の話では、
-「カストルム・セントリ」で何か動きがあったそうよ。
-……慎重に行動したほうがいいかもしれないわね。"
-51,"TEXT_GAIUSC403_00978_YSHTOLA_000_003","まずは「クルザス中央高地」の
-「アドネール占星台」へ向かいましょう。"
-52,"TEXT_GAIUSC403_00978_YSHTOLA_000_004","あそこには、高地における帝国軍の動きを探っている
-「ポルトゥレーン」という名の騎士がいるの。
-彼をあたってみましょう。"
-53,"TEXT_GAIUSC403_00978_PORTELAINE_000_010","冒険者か……このような地に何のようだ？
-……私に聞きたいことが？"
-54,"TEXT_GAIUSC403_00978_PORTELAINE_000_011","ふむ、ヤ・シュトラ殿の仲間だったのか。
-いいだろう、話を聞こう。"
-55,"TEXT_GAIUSC403_00978_PORTELAINE_000_051","なに……？
-「カストルム・セントリ」で動きはなかったかだと？
-ずいぶんと、ぶっきらぼうな質問だな。"
-56,"TEXT_GAIUSC403_00978_YSHTOLA_000_052","私たちの仲間が捕らえられているかもしれないの。
-少しでもいい、何か情報はないかしら？"
-57,"TEXT_GAIUSC403_00978_PORTELAINE_000_053","ふむ……確かに最近、帝国軍に動きがあったぞ。
-何人かの捕虜が運び込まれたとの報告を聞いている。"
-58,"TEXT_GAIUSC403_00978_PORTELAINE_000_054","斥候の話によれば、金髪の女性を
-厳重な警備体制で護送していたというが……
-さすがに、それが尋ね人かどうかまではわからんな。"
-59,"TEXT_GAIUSC403_00978_YDA_000_055","きっと、ミンフィリアだ！
-さっそく助けに行かなきゃ！"
-60,"TEXT_GAIUSC403_00978_PORTELAINE_000_056","それに……。"
-61,"TEXT_GAIUSC403_00978_YSHTOLA_000_057","……まだあるの？"
-62,"TEXT_GAIUSC403_00978_PORTELAINE_000_058","ああ……。
-時同じくして、クルザスに帝国の飛空艇が不時着してな。
-捕虜らしき者が脱走したらしい。"
-63,"TEXT_GAIUSC403_00978_CID_000_059","なんだって？"
-64,"TEXT_GAIUSC403_00978_PORTELAINE_000_060","そっちは、ルガディンとララフェル。
-ともに、ガーロンド・アイアンワークスの制服を着た
-技術者風の者だったと聞いている。"
-65,"TEXT_GAIUSC403_00978_CID_000_061","……ルガディンとララフェルで、うちの社員だと？
-間違いない、ビッグスとウェッジだ！
-よかった……あいつら生きていたんだな……。"
-66,"TEXT_GAIUSC403_00978_CID_000_062","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>！
-ヤツらもいっしょに助ける訳にはいかないか！？"
-67,"TEXT_GAIUSC403_00978_CID_000_063","……ワガママを言っていることは理解している。
-しかし、これからの戦いに、
-ヤツらの力もきっと必要になる！"
-68,"TEXT_GAIUSC403_00978_PORTELAINE_000_064","捕虜が連れ込まれたからかもしれんが、
-ここしばらく「カストルム・セントリ」は
-警備が厳重になっている。"
-69,"TEXT_GAIUSC403_00978_PORTELAINE_000_065","正面を切って突入するにしても、侵入するにしても、
-あの警備状況では、救出もままならないだろう。"
-70,"TEXT_GAIUSC403_00978_PORTELAINE_000_066","その技術者も、お前たちの大切な仲間なんだろう？
-そちらを先に救出してくるがいい。"
-71,"TEXT_GAIUSC403_00978_YSHTOLA_000_067","……ミンフィリアの持つ「超える力」が解明されるまでは、
-いくら帝国軍でも、そう簡単に手を出すとは思えない。"
-72,"TEXT_GAIUSC403_00978_YSHTOLA_000_068","逆に言えば、ガーロンド・アイアンワークスの
-2人を救うには、今しか機会がないわ。
-……彼らは用が済めば、消される可能性も高い。"
-73,"TEXT_GAIUSC403_00978_CID_000_069","恩に着るぜ！
-……待ってろよ、ビッグス、ウェッジ。
-きっと助けてやるからな！"
-74,"TEXT_GAIUSC403_00978_NERO_000_100","まもなく最終調整が終了します。"
-75,"TEXT_GAIUSC403_00978_NERO_000_101","……化石同然だったコイツを発掘して5年。
-閣下の想いを現実にする日が、すぐそこに来ているのです。"
-76,"TEXT_GAIUSC403_00978_GAIUS_000_102","我々は蛮神を打ち払う、絶対の力を手に入れた。
-この地を未来へと導くためには、力こそが須要。"
-77,"TEXT_GAIUSC403_00978_GAIUS_000_103","弱き為政者どもが掴みえなかった真の平和……。
-エオルゼアを我が手に収め、これを創造する。"
-78,"TEXT_GAIUSC403_00978_NERO_000_104","……御意に。
-完全な状態に仕上げてご覧にみせます。"
-79,"TEXT_GAIUSC403_00978_GAIUS_000_105","リットアティンよ。
-明朝0時を以て「カストルム・オクシデンス」への
-異動を命ずる。"
-80,"TEXT_GAIUSC403_00978_GAIUS_000_106","ぬしには「カステッルム・マリヌム」の兵力も併せ、
-総計四個歩兵大隊の指揮を任せる。
-オクシデンスに陣を構え、エオルゼア西部を固めよ。"
-81,"TEXT_GAIUSC403_00978_GAIUS_000_107","決戦は近い……。
-ウルダハとリムサ・ロミンサのグランドカンパニーを
-見事、抑えてみせよ。"
-82,"TEXT_GAIUSC403_00978_RHITAHTYN_000_108","陣営隊長リットアティン・サス・アルヴィナ。
-「カストルム・オクシデンス」への異動を拝命、
-四個歩兵大隊を指揮いたします。"
-83,"TEXT_GAIUSC403_00978_RHITAHTYN_000_109","しかし、属州出身の私めに、
-軍団の半数近い兵力を任せようとは……。
-我が命に代えましても、閣下のために滅私奉公する所存。"
-84,"TEXT_GAIUSC403_00978_GAIUS_000_110","……全ては、ぬしの実績によるもの。
-我への忠義は、任を果たすことで示せ。"
-85,"TEXT_GAIUSC403_00978_RHITAHTYN_000_111","ハハッ！"
-86,"TEXT_GAIUSC403_00978_GAIUS_000_112","……後ほど、わしの私室へ出頭しろ。"
+48,"TEXT_GAIUSC403_00978_YSHTOLA_000_000","The rescue of our allies will be no small undertaking, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
+49,"TEXT_GAIUSC403_00978_YSHTOLA_000_001","Even under normal circumstances, breaching the defenses of an imperial castrum would be a highly dangerous proposition."
+50,"TEXT_GAIUSC403_00978_YSHTOLA_000_002","But now that Castrum Centri houses prisoners whom the Garleans deem valuable, we may be confident that they have taken additional measures to ensure the stronghold's security."
+51,"TEXT_GAIUSC403_00978_YSHTOLA_000_003","If we are to free our friends, we will require an effective strategy. And if we are to formulate an effective strategy, we will require intelligence."
+52,"TEXT_GAIUSC403_00978_YSHTOLA_000_004","I believe I know a man who may be able to assist us in this: Lord Portelaine of House Durendaire. He is stationed at the Observatorium in Coerthas. Let us go to him, and beseech his aid."
+53,"TEXT_GAIUSC403_00978_PORTELAINE_000_010","Ah, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>─the <If(PlayerParameter(4))>woman<Else/>man</If> who unmasked the heretic in our midst! To what do I owe the pleasure of your company?"
+54,"TEXT_GAIUSC403_00978_PORTELAINE_000_011","You are an associate of Y'shtola? But of course. Lord Drillemont confided to me that you were a Scion of the Seventh Dawn..."
+55,"TEXT_GAIUSC403_00978_PORTELAINE_000_051","Castrum Centri? What interest have you all in the imperials?"
+56,"TEXT_GAIUSC403_00978_YSHTOLA_000_052","They hold several of our number─whom we intend to free. Any information you can provide would be greatly appreciated."
+57,"TEXT_GAIUSC403_00978_PORTELAINE_000_053","I see. That might explain our scouts' reports..."
+58,"TEXT_GAIUSC403_00978_PORTELAINE_000_054","They observed four prisoners being led into the castrum: a Hyuran woman, an Elezen man, and two Lalafells─one male, one female."
+59,"TEXT_GAIUSC403_00978_YDA_000_055","It's them! It has to be! Minfilia, Urianger, Papalymo, and Tataru!"
+60,"TEXT_GAIUSC403_00978_PORTELAINE_000_056","If that scant morsel is of use to you, you may also be interested to hear about a more recent incident."
+61,"TEXT_GAIUSC403_00978_YSHTOLA_000_057","Incident?"
+62,"TEXT_GAIUSC403_00978_PORTELAINE_000_058","An imperial airship made an emergency landing here in Coerthas not long ago. Two men believed to be prisoners─a Roegadyn and a Lalafell─were seen fleeing the craft."
+63,"TEXT_GAIUSC403_00978_CID_000_059","What did you say?"
+64,"TEXT_GAIUSC403_00978_PORTELAINE_000_060","A Roegadyn and a Lalafell, Master Garlond. Neither wore imperial dress, and both seemed disinclined to wait for rescue, hence our assumption that they were prisoners."
+65,"TEXT_GAIUSC403_00978_CID_000_061","Well, I'll be damned...it's Biggs and Wedge! Trust those two rascals to escape..."
+66,"TEXT_GAIUSC403_00978_CID_000_062","We must find them, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, and <Emphasis>soon</Emphasis>!"
+67,"TEXT_GAIUSC403_00978_CID_000_063","The imperials will not rest until they are captured or killed, and if Biggs were given the choice, I fear he'd take the latter."
+68,"TEXT_GAIUSC403_00978_PORTELAINE_000_064","Freeing those held in Castrum Centri will require substantial planning and preparation. As such, it is an endeavor that will admit some slight delay."
+69,"TEXT_GAIUSC403_00978_PORTELAINE_000_065","The matter of the escapees, by contrast, will not. Shortly after the prisoners vacated the airship, our scouts observed imperial troops setting off in pursuit. It is likely only a matter of time before they catch them."
+70,"TEXT_GAIUSC403_00978_PORTELAINE_000_066","If you wish to see your comrades again, you had best act now."
+71,"TEXT_GAIUSC403_00978_YSHTOLA_000_067","If, as has been suggested, the Garleans took our fellow Scions prisoner in hopes of understanding the Echo, it seems reasonable to assume that they will not be executed until such time as the study is complete."
+72,"TEXT_GAIUSC403_00978_YSHTOLA_000_068","But Biggs and Wedge are <Emphasis>not</Emphasis> Scions, nor do they know aught of the Echo. As Lord Portelaine said, this may prove our only chance to rescue them. I say we seize it."
+73,"TEXT_GAIUSC403_00978_CID_000_069","Thank you, everyone! You won't regret this."
+74,"TEXT_GAIUSC403_00978_NERO_000_100","Final preparations are almost complete, my lord."
+75,"TEXT_GAIUSC403_00978_NERO_000_101","There stands the culmination of five long years of painstaking work. But all our efforts will be vindicated when the Emperor's vision becomes reality."
+76,"TEXT_GAIUSC403_00978_GAIUS_000_102","At last, we have the power to purge this land of its false gods."
+77,"TEXT_GAIUSC403_00978_GAIUS_000_103","We shall give the ignorant children of Eorzea the security and stability they so desperately crave─and which their spineless leaders have so palpably failed to provide."
+78,"TEXT_GAIUSC403_00978_NERO_000_104","As you say, my lord. Rest assured, our engineers will not rest until the weapon is fully armed and operational."
+79,"TEXT_GAIUSC403_00978_GAIUS_000_105","Rhitahtyn. You depart for Castrum Occidens at midnight."
+80,"TEXT_GAIUSC403_00978_GAIUS_000_106","You will command the western front in Vylbrand."
+81,"TEXT_GAIUSC403_00978_GAIUS_000_107","The Eorzeans will attempt to interfere with our plans. You will see that they do not."
+82,"TEXT_GAIUSC403_00978_RHITAHTYN_000_108","My lord, if this be your will, I shall carry it out to the best of my ability. I live only to serve the Empire."
+83,"TEXT_GAIUSC403_00978_RHITAHTYN_000_109","Yet...forgive my impudence, but is it proper to give command of half our forces to a─"
+84,"TEXT_GAIUSC403_00978_GAIUS_000_110","I have given you nothing, Praefectus. You have earned it.
+That will be all. Dismissed."
+85,"TEXT_GAIUSC403_00978_RHITAHTYN_000_111","Yes, my lord!"
+86,"TEXT_GAIUSC403_00978_GAIUS_000_112","...My quarters, one hour."

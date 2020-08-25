@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNY802_02096_SEQ_00","レヴナンツトールのリディルロナは、腕利きのクラフターである冒険者に耳寄りな情報を伝えたいようだ。"
-1,"TEXT_HEAVNY802_02096_SEQ_01","リディルロナから、「マイスター」について聞いた。詳しい話を聞きたいならと、アルデラン宛の紹介状を書いてもらった。イシュガルド・ランディング付近にいる「アルデラン」に「<Sheet(EventItem,2001785,0)/>」を渡そう。"
-2,"TEXT_HEAVNY802_02096_SEQ_02","アルデランから「マイスター」について説明を受けた。どのクラスでマイスターとなるかよく考えてから、アルデランに「マイスターの証」を作ってもらおう。"
+0,"TEXT_HEAVNY802_02096_SEQ_00","Lydirlona thinks you might benefit from becoming a specialist."
+1,"TEXT_HEAVNY802_02096_SEQ_01","Judging you to be a rather skilled crafts<If(PlayerParameter(4))>woman<Else/>man</If>, Lydirlona suggests that it might be in your best interests to become a specialist. She instructs you to seek out Alderan, a master craftsman in Ishgard, and present to him her letter that he might show you the way."
+2,"TEXT_HEAVNY802_02096_SEQ_02","Intrigued by Lydirlona's endorsement, Alderan tells you that it is only right that those with talent learn every trade. However, even masters must come to terms with their limitations, for one can specialize in no more than three disciplines. He gives you a Soul of the Crafter and bids you decide which trades are most important to you. When you have reached a decision, he will be waiting to guide you on your new journey."
 3,"TEXT_HEAVNY802_02096_SEQ_03",""
 4,"TEXT_HEAVNY802_02096_SEQ_04",""
 5,"TEXT_HEAVNY802_02096_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_HEAVNY802_02096_SEQ_21",""
 22,"TEXT_HEAVNY802_02096_SEQ_22",""
 23,"TEXT_HEAVNY802_02096_SEQ_23",""
-24,"TEXT_HEAVNY802_02096_TODO_00","イシュガルドのアルデランに<Sheet(EventItem,2001785,0)/>を渡す"
+24,"TEXT_HEAVNY802_02096_TODO_00","Deliver the letter to Alderan in the Pillars."
 25,"TEXT_HEAVNY802_02096_TODO_01",""
 26,"TEXT_HEAVNY802_02096_TODO_02",""
 27,"TEXT_HEAVNY802_02096_TODO_03",""
@@ -49,57 +49,25 @@ int32,str,str
 45,"TEXT_HEAVNY802_02096_TODO_21",""
 46,"TEXT_HEAVNY802_02096_TODO_22",""
 47,"TEXT_HEAVNY802_02096_TODO_23",""
-48,"TEXT_HEAVNY802_02096_LYDIRLONA_000_000","今回も、冒険者様に耳寄りな情報をお持ちしました。
-……「マイスター」について、ご存知でしょうか？"
-49,"TEXT_HEAVNY802_02096_LYDIRLONA_000_001","冒険者様のような優れたクラフターにとって、
-とても耳寄りなお話がございます。
-……「マイスター」について、ご存知でしょうか？"
-50,"TEXT_HEAVNY802_02096_LYDIRLONA_000_002","なんでも「マイスター」とは、己の専門を定めることで、
-職人として、さらに高みへ登るための制度なのだとか。"
-51,"TEXT_HEAVNY802_02096_LYDIRLONA_000_003","詳しい話は、「イシュガルド・ランディング」にいる、
-「アルデラン」様に、お聞きになるとよいでしょう。
-この「紹介状」をお持ちになれば、拒否はされないはずです。"
-52,"TEXT_HEAVNY802_02096_LYDIRLONA_000_004","詳しい話は、「イシュガルド・ランディング」にいる、
-「アルデラン」様に、お聞きになるとよいでしょう。
-この「紹介状」をお持ちになれば、拒否はされないはずです。"
-53,"TEXT_HEAVNY802_02096_ARDERAN_000_010","「ビエルゴの指」と謳われた名匠中の名匠……
-このアルデラン様に話しかけるとは。
-……貴様、よもや、寝ぼけているのではあるまいな？"
-54,"TEXT_HEAVNY802_02096_ARDERAN_000_011","……ほう、リディルロナの嬢ちゃんからの紹介で、
-「マイスター」について教えてほしいと……。
-よかろう、ならば、このワシが直々に手ほどきをしてやる。"
-55,"TEXT_HEAVNY802_02096_ARDERAN_000_012","一言にクラフターと言っても、
-鍛冶に彫金、革細工と、多様な道があるのは知ってのとおり。
-複数の道で修行を積み、技を覚えれば役立つことは多い。"
-56,"TEXT_HEAVNY802_02096_ARDERAN_000_013","だがしかし、その道を極めんとするなら、
-これと道を定めて専心せねば、高みには至れん。
-どれほど才があろうとも、3つの道を極めるのが限度じゃろう。"
-57,"TEXT_HEAVNY802_02096_ARDERAN_000_014","つまり、「マイスター」とは、
-己の専門を定めることで道を極めんとする、
-誇り高きクラフターの称号……というわけじゃな。"
-58,"TEXT_HEAVNY802_02096_ARDERAN_000_015","フン、貴様の眼……
-確かに「マイスター」を名乗る資格がありそうじゃ。
-ならば、この「<Sheet(Item,10336,0)/>」をくれてやろう。"
-59,"TEXT_HEAVNY802_02096_ARDERAN_000_016","これに貴様が歩む道の印を刻み、
-「マイスターの証」を作ってやろうではないか。
-証を持ち、高みを目指すかぎり、貴様は「マイスター」じゃ！"
-60,"TEXT_HEAVNY802_02096_ARDERAN_000_017","……さて、長くなったが、説明はこれくらいかのう。
-ワシは、しばらくここにおる。
-貴様が道を定めるのを、待っておるぞ！"
-61,"TEXT_HEAVNY802_02096_SYSTEM_000_018","「マイスター」が開放されました！
-該当するクラフターの「マイスターの証」を装備することで、
-「マイスター」になることができます。"
-62,"TEXT_HEAVNY802_02096_SYSTEM_000_019","「マイスター」になったクラスでは、
-専用のアクションを使用できるようになります。
-「マイスター」になり、高レベルのアイテムを製作しましょう！"
-63,"TEXT_HEAVNY802_02096_SYSTEM_000_020","なお、「マイスターの証」は、
-「マイスタークリスタル」を持った状態で、
-「アルデラン」に話しかけると、作ってもらうことができます。"
-64,"TEXT_HEAVNY802_02096_SYSTEM_000_021","ただし、「マイスターの証」は3つまでしか所持できません。
-「マイスター」となれるのは「3クラス」までですので、
-ご注意ください。"
-65,"TEXT_HEAVNY802_02096_DICKON_000_000","（★未使用／削除予定★）"
-66,"TEXT_HEAVNY802_02096_DICKON_000_001","（★未使用／削除予定★）"
-67,"TEXT_HEAVNY802_02096_DICKON_000_002","（★未使用／削除予定★）"
-68,"TEXT_HEAVNY802_02096_DICKON_000_003","（★未使用／削除予定★）"
-69,"TEXT_HEAVNY802_02096_DICKON_000_004","（★未使用／削除予定★）"
+48,"TEXT_HEAVNY802_02096_LYDIRLONA_000_000","Given your talents as <If(Equal(PlayerParameter(68),10))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),14))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),5))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),26))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),33))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/>a <Sheet(ClassJob,PlayerParameter(68),0)/></If></If></If></If></If>, I must ask: have you considered becoming a specialist?"
+49,"TEXT_HEAVNY802_02096_LYDIRLONA_000_001","If I may, <If(PlayerParameter(4))>miss<Else/>sir</If>─you are a rather accomplished <Sheet(ClassJob,PlayerParameter(68),0)/>, are you not? Have you perchance considered becoming a specialist?"
+50,"TEXT_HEAVNY802_02096_LYDIRLONA_000_002","Such a decision is not to be made lightly, of course, but I think it might be in your best interests."
+51,"TEXT_HEAVNY802_02096_LYDIRLONA_000_003","Seek Alderan, the master craftsman, in Ishgard. Show him this letter, and he will show you the way."
+52,"TEXT_HEAVNY802_02096_LYDIRLONA_000_004","There is much to be gained by becoming a specialist. But do not take my word for it. Alderan can tell you more."
+53,"TEXT_HEAVNY802_02096_ARDERAN_000_010","I have forged weapons and armor for heroes and catered banquets for royalty. I have concocted potions to heal the dying, woven great banners for nations, and just last week I won the Ishgardian Fine Woodworking Association Award for best chair. What have <Emphasis>you</Emphasis> built of late?"
+54,"TEXT_HEAVNY802_02096_ARDERAN_000_011","Oho, so Lydirlona thinks you have skill enough to become a specialist, does she? Hmm. She has yet to steer me wrong..."
+55,"TEXT_HEAVNY802_02096_ARDERAN_000_012","We whom the Builder has blessed with talent are tempted to learn every trade─as we should."
+56,"TEXT_HEAVNY802_02096_ARDERAN_000_013","That said, even we masters must come to accept our limitations. One can specialize in no more than three."
+57,"TEXT_HEAVNY802_02096_ARDERAN_000_014","You must decide which disciplines are most important to you─and which ones are but passing fancies."
+58,"TEXT_HEAVNY802_02096_ARDERAN_000_015","If the Builder does indeed guide your hands, then I would see them set to purpose. Come─take this Soul of the Crafter."
+59,"TEXT_HEAVNY802_02096_ARDERAN_000_016","For now, it is but a token of what you may yet become."
+60,"TEXT_HEAVNY802_02096_ARDERAN_000_017","When you have chosen your path, present it to me, and your journey as a specialist will begin."
+61,"TEXT_HEAVNY802_02096_SYSTEM_000_018","You can now specialize in crafting disciplines!"
+62,"TEXT_HEAVNY802_02096_SYSTEM_000_019","By trading a <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Soul of the Crafter<UIGlow>01</UIGlow><UIForeground>01</UIForeground> to Alderan, you can obtain a specialized soul which will allow you to become a <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>specialist<UIGlow>01</UIGlow><UIForeground>01</UIForeground> in that particular discipline."
+63,"TEXT_HEAVNY802_02096_SYSTEM_000_020","Specialists will be able to access unique actions that allow for more efficient and higher-quality synthesis in their specialized fields."
+64,"TEXT_HEAVNY802_02096_SYSTEM_000_021","Please note that you may select no more than three different disciplines in which to specialize."
+65,"TEXT_HEAVNY802_02096_DICKON_000_000",""
+66,"TEXT_HEAVNY802_02096_DICKON_000_001",""
+67,"TEXT_HEAVNY802_02096_DICKON_000_002",""
+68,"TEXT_HEAVNY802_02096_DICKON_000_003",""
+69,"TEXT_HEAVNY802_02096_DICKON_000_004",""

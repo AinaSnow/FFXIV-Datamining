@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBWIL153_00015_SEQ_00","キャンプ・ブルーフォグのギルドリーヴ発行窓口、ルルバナは、ギルドリーヴを引き受ける冒険者を探しているようだ。"
-1,"TEXT_SUBWIL153_00015_SEQ_01","ルルバナからギルドリーヴを受注するためには、依頼を遂行できる実力があると認めてもらわねばならない。まずは、ギルドリーヴ『獲得任務：新型爆薬の試料』を攻略しよう。"
-2,"TEXT_SUBWIL153_00015_SEQ_02","無事、ルルバナから引き受けたギルドリーヴを達成することができた。「キャンプ・ブルーフォグ」の「ルルバナ」に報告しよう。"
-3,"TEXT_SUBWIL153_00015_SEQ_03","ルルバナは、依頼を遂行した冒険者の実力を認めたようだ。今後、キャンプ・ブルーフォグ周辺の依頼を、彼から引き受けることができる。ルルバナの期待に応えられるよう、積極的にギルドリーヴを引き受けていこう。"
+0,"TEXT_SUBWIL153_00015_SEQ_00","Rurubana, the Adventurers' Guild representative for local levequests in Camp Bluefog, is seeking an adventurer to undertake guildleves."
+1,"TEXT_SUBWIL153_00015_SEQ_01","In order to gauge your ability to handle the various guildleves he has to offer, Rurubana requires that you carry out a preliminary task."
+2,"TEXT_SUBWIL153_00015_SEQ_02","You have successfully completed the trial guildleve. Report to Rurubana in Camp Bluefog."
+3,"TEXT_SUBWIL153_00015_SEQ_03","Rurubana is now confident that you are capable of handling any of the trials and tribulations you might encounter around Camp Bluefog. Prove your worth as an adventurer, and continue to undertake the guildleves he has to offer."
 4,"TEXT_SUBWIL153_00015_SEQ_04",""
 5,"TEXT_SUBWIL153_00015_SEQ_05",""
 6,"TEXT_SUBWIL153_00015_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_SUBWIL153_00015_SEQ_21",""
 22,"TEXT_SUBWIL153_00015_SEQ_22",""
 23,"TEXT_SUBWIL153_00015_SEQ_23",""
-24,"TEXT_SUBWIL153_00015_TODO_00","『獲得任務：新型爆薬の試料』を攻略"
-25,"TEXT_SUBWIL153_00015_TODO_01","キャンプ・ブルーフォグのルルバナと話す"
+24,"TEXT_SUBWIL153_00015_TODO_00","Complete Rurubana's trial guildleve."
+25,"TEXT_SUBWIL153_00015_TODO_01","Report to Rurubana."
 26,"TEXT_SUBWIL153_00015_TODO_02",""
 27,"TEXT_SUBWIL153_00015_TODO_03",""
 28,"TEXT_SUBWIL153_00015_TODO_04",""
@@ -49,32 +49,17 @@ int32,str,str
 45,"TEXT_SUBWIL153_00015_TODO_21",""
 46,"TEXT_SUBWIL153_00015_TODO_22",""
 47,"TEXT_SUBWIL153_00015_TODO_23",""
-48,"TEXT_SUBWIL153_00015_RURUBANA_000_000","やあ、冒険者！
-ちょっと、仕事をやってみる気はないかい？"
-49,"TEXT_SUBWIL153_00015_RURUBANA_000_001","僕はルルバナ。
-冒険者ギルドの一員として、君たち冒険者に、
-「ギルドリーヴ」の依頼を紹介してるのさ。"
-50,"TEXT_SUBWIL153_00015_RURUBANA_000_002","依頼の内容は魔物退治から物資の調達まで
-このキャンプ・ブルーフォグ周辺から寄せられた
-いろいろな仕事が、君を待っているよ。"
-51,"TEXT_SUBWIL153_00015_RURUBANA_000_003","どうだい、興味が出てきたかな？
-なら僕に、君の実力を見せてくれないかい？
-結構ヤバい依頼もあるから、君の力を確かめたいんだ。"
-52,"TEXT_SUBWIL153_00015_RURUBANA_000_004","これは、僕の扱ってる依頼のひとつ。
-君には、まずはこのリーヴをこなしてほしい。"
-53,"TEXT_SUBWIL153_00015_RURUBANA_000_005","イイね～！
-さすがは冒険者だね。"
-54,"TEXT_SUBWIL153_00015_RURUBANA_000_006","この依頼人は、新しい爆薬を作りたいようでね……
-魔物を倒して、可燃性の素材を集めてほしいんだって。"
-55,"TEXT_SUBWIL153_00015_RURUBANA_000_007","魔物からは、それぞれ異なった素材を獲得できるから
-いろいろ倒して、素材を集めてくれよな。"
-56,"TEXT_SUBWIL153_00015_RURUBANA_000_010","準備が整ったら、ギルドリーヴを開始するんだ。
-僕に早く、君の力を見せてくれよ！"
-57,"TEXT_SUBWIL153_00015_RURUBANA_000_011","おお、見事だね。
-さあ、お待ちかねの報酬だ、受け取ってくれよな！"
-58,"TEXT_SUBWIL153_00015_RURUBANA_000_012","おっ、ギルドリーヴに励んでいるようだね。
-結果を期待しているよ。"
-59,"TEXT_SUBWIL153_00015_RURUBANA_000_020","お疲れ様。
-見事、依頼は完遂だね、文句のつけようもないよ。"
-60,"TEXT_SUBWIL153_00015_RURUBANA_000_021","結果はもちろん合格さ。
-これからは、頼りにさせてもらうよ。"
+48,"TEXT_SUBWIL153_00015_RURUBANA_000_000","<sigh> Of all postings in all of Thanalan, I had to get stuck with─ Ah, you there! You look like a <If(PlayerParameter(4))>woman<Else/>man</If> of action. Might I interest you in a guildleve?"
+49,"TEXT_SUBWIL153_00015_RURUBANA_000_001","As the representative of the Adventurers' Guild here in Camp Bluefog, I am charged with distributing work to able-bodied individuals not unlike yourself."
+50,"TEXT_SUBWIL153_00015_RURUBANA_000_002","Now I know what you're thinking─why waste time performing menial tasks for strangers? Well, my good <If(PlayerParameter(4))>madam<Else/>sir</If>, allow me to assure you that you shall be <Emphasis>richly</Emphasis> recompensed for all services rendered."
+51,"TEXT_SUBWIL153_00015_RURUBANA_000_003","I see that I have your attention. Excellent! Now then, there is but the small matter of the trial guildleve. It would hardly be prudent of me to send you out into the wild without first verifying that you can complete my tasks."
+52,"TEXT_SUBWIL153_00015_RURUBANA_000_004","This job should serve as an adequate test. What say you, friend?"
+53,"TEXT_SUBWIL153_00015_RURUBANA_000_005","A<Emphasis>ha</Emphasis>, I knew you'd agree!"
+54,"TEXT_SUBWIL153_00015_RURUBANA_000_006","Let us review the details of the request which you doubtlessly considered carefully before accepting, yes? Your client desires materials for the development of a new type of explosive. To that end, you must slay a variety of beasts in the wilds north of Camp Bluefog."
+55,"TEXT_SUBWIL153_00015_RURUBANA_000_007","A simple task, perhaps, but nevertheless dangerous. Do take care, and remember that if you die, you cannot claim your reward. Good luck!"
+56,"TEXT_SUBWIL153_00015_RURUBANA_000_010","What is it? I've already given you your trial leve. What are you waiting for? Begin!"
+57,"TEXT_SUBWIL153_00015_RURUBANA_000_011","Welcome back, my good <If(PlayerParameter(4))>madam<Else/>sir</If>! Here is your payment, as promised."
+58,"TEXT_SUBWIL153_00015_RURUBANA_000_012","You must be quite confident in your abilities if you're willing to waste time talking to me whilst in the middle of a leve. You <Emphasis>do</Emphasis> realize there is a time limit, don't you?"
+59,"TEXT_SUBWIL153_00015_RURUBANA_000_020","Not that I ever truly harbored doubts as to your abilities, but rules and regulations cannot be ignored."
+60,"TEXT_SUBWIL153_00015_RURUBANA_000_021","I am pleased to state that, given your stellar performance, I am now permitted to offer you a wide variety of guildleves. Peruse them at your leisure and let me know if any are to your liking. I'll be here when you're ready!
+...I'll <Emphasis>always</Emphasis> be here..."

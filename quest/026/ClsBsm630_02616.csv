@@ -1,17 +1,16 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSBSM630_02616_SEQ_00","鍛冶師ギルドのブリサエルは、胃痛がぶり返しているようだ。"
-1,"TEXT_CLSBSM630_02616_SEQ_01","ブリサエルから、セッカの言動を注意するよう頼まれた。リムサ・ロミンサのアンカーヤードで「セッカ」と話そう。"
-2,"TEXT_CLSBSM630_02616_SEQ_02","セッカは、鍛冶師ギルドの仕事の仕方は間違っていることを証明してみせると言い、立ち去っていった。鍛冶師ギルドの「ブリサエル」と話そう。"
-3,"TEXT_CLSBSM630_02616_SEQ_03","鍛冶師ギルドが受けた依頼でセッカと勝負をすることになった。リムサ・ロミンサの溺れた海豚亭にいるという依頼人から、詳しい依頼内容を聞こう。"
-4,"TEXT_CLSBSM630_02616_SEQ_04","依頼人は、従騎士見習いとなったロリスだった。彼女の家令フレモンダン用に、軽量な片手剣の製作を頼まれた。ロリスからもらった「<Sheet(Item,17885,0)/>」をもとに「<Sheet(ItemHQ,17886,0)/>」を製作し、
-鍛冶師ギルドの「ブリサエル」に納品しよう。
+0,"TEXT_CLSBSM630_02616_SEQ_00","Forgemaster Brithael stares at you like a shipwrecked man who has just spotted land."
+1,"TEXT_CLSBSM630_02616_SEQ_01","Forgemaster Brithael is beyond relieved to see you. According to him, ever since Sekka began her studies at the guild, she has taken to wandering the floors and criticizing everyone's work. Upon giving her a stern talking to about her unpleasant manner of conduct, she became upset and left in a flurry of angry words. It seems, however, this is not the first time she has stormed out over this very same argument, and Brithael asks that you try talking to her in his stead. He then points you in the direction of the Anchor Yard, where she normally goes to cool down. Make your way there and see if you can get through to her. "
+2,"TEXT_CLSBSM630_02616_SEQ_02","Sekka is of the belief that the Blacksmiths' Guild is wasting all its potential on fulfilling mundane tasks for clients. She tells you this is the root cause for the lack of self-improvement she has observed in all the guild members. She believes things should be run differently and tells you she intends to prove it to you. Return to the Blacksmiths' Guild and inform Forgemaster Brithael of just how well your talk with Sekka went."
+3,"TEXT_CLSBSM630_02616_SEQ_03","You are met by a perturbed Brithael who tells you that Sekka has just challenged the guild. She said she intends to face off with a member of the forgemaster's choice to see who can better satisfy the next request which comes into the guild. Brithael would, of course, have you be the one to take her up on her challenge. It would seem fate is already in your favor, as the latest order you have received is from a customer you already know, and they are waiting to discuss the details of what they would have you make. Go to the Drowning Wench and speak with them."
+4,"TEXT_CLSBSM630_02616_SEQ_04","As it conveniently turns out, Laurisse and Fremondain─the acquaintances you made in Ishgard─are your clients. They have come to have a sword forged for Fremondain so that he might have a means to protect himself when Laurisse's duties take her to distant lands for extended periods of time. Fremondain, telling you that he has grown frail in his old age, says he would prefer something light and easy to handle. Using the materials Laurisse provides, produce a high-quality featherlight shortsword and deliver the finished product to Brithael for inspection.
 
-※「<Sheet(Item,17885,0)/>」を失った場合は、ロリスに話しかけましょう。材料を入手し、再挑戦が可能になります。"
-5,"TEXT_CLSBSM630_02616_SEQ_05","フレモンダンが選んだのは、冒険者の製作した<Sheet(ItemHQ,17886,0)/>だった。セッカは、鍛冶師ギルドの姿勢や冒険者の実力を認め、更なる闘志を燃やしたようだ。ブリサエルの胃痛が限界を迎える前に、また様子を見に来てあげよう。
+※In the event you lose the materials or the synthesis ends in failure, you may try again by speaking with Laurisse."
+5,"TEXT_CLSBSM630_02616_SEQ_05","Fremondain admits that while both are excellent swords, he finds yours to be far superior to Sekka's. Flabbergasted, she attempts to convince him that hers beats yours in durability and sharpness, at which point Laurisse steps in to say that they are in fact of a comparable quality in both those aspects. Your sword, however, is more desirable because it takes into consideration the physical limitations of its wielder. Sekka, unwilling to accept defeat continues to argue, and Brithael then suggests she look to switching career paths because her attitude is unbecoming of a craftsman. Realizing her mistake, she reflects upon her conduct and apologizes for her outburst and earlier behavior before vowing to begin taking her studies at the guild more seriously.
 
-※鍛冶師のレベルが65以上になると、鍛冶師ギルドのブリサエルから、次の鍛冶師クエストを受注することができます。"
+※The next blacksmith quest will be available from Brithael upon reaching level 65."
 6,"TEXT_CLSBSM630_02616_SEQ_06",""
 7,"TEXT_CLSBSM630_02616_SEQ_07",""
 8,"TEXT_CLSBSM630_02616_SEQ_08",""
@@ -30,10 +29,10 @@ int32,str,str
 21,"TEXT_CLSBSM630_02616_SEQ_21",""
 22,"TEXT_CLSBSM630_02616_SEQ_22",""
 23,"TEXT_CLSBSM630_02616_SEQ_23",""
-24,"TEXT_CLSBSM630_02616_TODO_00","セッカと話す"
-25,"TEXT_CLSBSM630_02616_TODO_01","ブリサエルと話す"
-26,"TEXT_CLSBSM630_02616_TODO_02","溺れた海豚亭にいる依頼人と話す"
-27,"TEXT_CLSBSM630_02616_TODO_03","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>製作手帳 クラスクエスト：<Sheet(ItemHQ,17886,0)/>を製作<Else/>ブリサエルに<Sheet(ItemHQ,17886,0)/>を納品</If>"
+24,"TEXT_CLSBSM630_02616_TODO_00","Speak with Sekka."
+25,"TEXT_CLSBSM630_02616_TODO_01","Speak with Brithael."
+26,"TEXT_CLSBSM630_02616_TODO_02","Speak with the client at the Drowning Wench."
+27,"TEXT_CLSBSM630_02616_TODO_03","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Synthesize a featherlight shortsword <Sheet(Addon,9,0)/><Else/>Deliver the featherlight shortsword <Sheet(Addon,9,0)/> to Forgemaster Brithael</If>."
 28,"TEXT_CLSBSM630_02616_TODO_04",""
 29,"TEXT_CLSBSM630_02616_TODO_05",""
 30,"TEXT_CLSBSM630_02616_TODO_06",""
@@ -54,157 +53,64 @@ int32,str,str
 45,"TEXT_CLSBSM630_02616_TODO_21",""
 46,"TEXT_CLSBSM630_02616_TODO_22",""
 47,"TEXT_CLSBSM630_02616_TODO_23",""
-48,"TEXT_CLSBSM630_02616_BRITHAEL_000_000","よくぞ……よくぞ訪ねてくれました、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>……。
-セッカさんが来てから、ギルドの空気は悪化の一途。
-僕の胃薬の量も、昔に逆戻りですよ……。"
-49,"TEXT_CLSBSM630_02616_BRITHAEL_000_001","見習い職人はけなす、ベテラン職人にも難癖つける……。
-言動に注意するよう言ったんですが「馴れ合いは不要」って、
-聞いてくれなくて……。"
-50,"TEXT_CLSBSM630_02616_BRITHAEL_000_002","彼女、どうもギルドの体制が気に食わないらしいんです。
-キミからも「セッカ」さんと話してみてくれませんか……？
-さっき、「アンカーヤード」で見かけましたので……。"
-51,"TEXT_CLSBSM630_02616_BRITHAEL_000_010","さっき、「アンカーヤード」で見かけましたので、
-「セッカ」さんと話してみてくれませんか……？
-……僕の胃が、痛みで消滅する前に。"
-52,"TEXT_CLSBSM630_02616_SEKKA_000_020","……なんです、あの昼行灯に言われて来たのですか？
-私は、己の姿勢を変えるつもりはないですよ。
-問題は、鍛冶師ギルドの方にありますから。"
-53,"TEXT_CLSBSM630_02616_SEKKA_000_021","腕のいい職人も、いるにはいます……。
-ですが、みな目の前の仕事にかかりきり。
-腕前を向上させる意欲が、微塵も感じられません！"
-54,"TEXT_CLSBSM630_02616_SEKKA_000_022","私は、故郷ひんがしの国で、
-すべての時間を鍛刀に費やすべし、と教わりました。
-より良い武器を作り出すことが、我々の一番の使命だと。"
-55,"TEXT_CLSBSM630_02616_SEKKA_000_023","刀は、ひんがしの国の武芸者「侍」が振るう武器です。
-そして侍は、混迷の世を防ぎ、秩序を乱す悪を討つ存在……。
-その意思を砕かぬよう、彼らの刀も決して折れぬ強さが必要となる。"
-56,"TEXT_CLSBSM630_02616_SEKKA_000_024","だから刀鍛冶は、生涯を最良の一振りに費やさねばならない。
-私は、この理念はすべての職人に通ずるものと思っていました。"
-57,"TEXT_CLSBSM630_02616_SEKKA_000_025","……それが、鍛冶師ギルドときたら！
-「大口の依頼だから」「大事な顧客だから」などと言って、
-腕のいい職人に、誰でもできる陳腐な仕事を割り振るのです！"
-58,"TEXT_CLSBSM630_02616_SEKKA_000_026","この辺りで一番の鍛冶組織というから訪ねたのに、
-向上心の欠片もないとは、まるで期待はずれでした……。
-あなたは、彼らについてどうお考えなのですか！？"
-59,"TEXT_CLSBSM630_02616_Q1_000_000","何と答える？"
-60,"TEXT_CLSBSM630_02616_A1_000_001","日々の仕事によって腕を上げているのでは？"
-61,"TEXT_CLSBSM630_02616_A1_000_002","ギルドに所属しているのだから、仕事も大事だ"
-62,"TEXT_CLSBSM630_02616_SEKKA_000_030","……私は、納得できません。
-くだらぬ仕事で、職人の腕が磨かれる訳がない。
-「鍛冶師ギルド」の間違いを、私が証明してみせます！"
-63,"TEXT_CLSBSM630_02616_BRITHAEL_000_040","あ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、何が何やら……。
-急にセッカさんが「勝負です！」と怒鳴り込んできまして。"
-64,"TEXT_CLSBSM630_02616_BRITHAEL_000_041","「直近の依頼をひとつ、私とギルド員にまわしなさい。
-　どちらが優れた品を納品できるか勝負しましょう」と……。"
-65,"TEXT_CLSBSM630_02616_BRITHAEL_000_042","……なるほど、ギルドの体制を不満に思っての勝負。
-それは、厄介な事態になりましたねぇ……。"
-66,"TEXT_CLSBSM630_02616_BRITHAEL_000_043","まあ、彼女が態度を改めるきっかけになるかもしれません。
-すみませんが、勝負の相手を務めてくださいませんか……？
-さすがに、負ける訳にはいかないので……。"
-67,"TEXT_CLSBSM630_02616_BRITHAEL_000_044","彼女がぶんどっていった仕事の依頼主は、
-「溺れた海豚亭」に逗留しているはずです。
-細かい依頼内容は、そちらで伺ってください。"
-68,"TEXT_CLSBSM630_02616_BRITHAEL_000_045","……しかし、偶然というのは面白いものですねえ。
-「溺れた海豚亭」にいる依頼人の方は、
-キミの知り合いなんですよ！"
-69,"TEXT_CLSBSM630_02616_BRITHAEL_000_050","勝負対象となった依頼を申し込んでいる方は、
-「溺れた海豚亭」に逗留しています。
-しかも、キミの知り合いなんですよ！"
-70,"TEXT_CLSBSM630_02616_FREMONDAIN_000_055","なんと、鍛冶師どのにもお会いできるとは！
-息災なご様子で何よりです。"
-71,"TEXT_CLSBSM630_02616_LAURISSE_000_060","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>じゃない！
-まさか、あなたが私たちの依頼を受けてくれるなんて。"
-72,"TEXT_CLSBSM630_02616_LAURISSE_000_061","従騎士見習いとなってから、初めての休暇をいただけたので、
-あらためて、鍛冶師ギルドに聖剣の一件をお礼に伺ったの。
-ついでに、依頼したいこともあったから……。"
-73,"TEXT_CLSBSM630_02616_LAURISSE_000_062","というのも、任務で皇都を空ける機会が増えてしまってね。
-私がいない間は、フレモンダンが宿でひとりになってしまう……。
-そこで彼に、護身用の片手剣を打ってほしくて。"
-74,"TEXT_CLSBSM630_02616_LAURISSE_000_063","……えっ、私たちの依頼が、勝負の対象になったですって？
-でも、その対戦相手……セッカさんという女性は、
-こちらには来ていないけど……。"
-75,"TEXT_CLSBSM630_02616_LAURISSE_000_064","……推察するに、ギルドで聞いた依頼内容だけで十分と考え、
-さっさと製作作業に向かった、というところかしら？"
-76,"TEXT_CLSBSM630_02616_LAURISSE_000_065","なんだか、面白い事態になっているようね。
-いいわ！　この勝負、しかと見届けさせていただきましょう。
-じい、どのような片手剣がほしいの？"
-77,"TEXT_CLSBSM630_02616_FREMONDAIN_000_066","……そうですな、最近は寄る年波に腰や肩がつらくて。
-「<Sheet(ItemHQ,17886,0)/>」ですと、ありがたく存じます。
-どうぞ、ご検討くださいませ。"
-78,"TEXT_CLSBSM630_02616_LAURISSE_000_067","従騎士見習いになって、少しはお給金も貰えるようになったわ。
-代金はブリサエルさんに渡してあるし、製作に必要な素材も、
-こちらで用意してあるから、好きなだけ使ってちょうだい！"
-79,"TEXT_CLSBSM630_02616_LAURISSE_100_067","…………ごめんなさい、虚勢を張ってしまったわ。
-好きなだけ……は無理だけど、必要な分は渡せるはずよ。"
-80,"TEXT_CLSBSM630_02616_LAURISSE_000_068","勝負なんだとしたら、「<Sheet(ItemHQ,17886,0)/>」ができたら、
-一度、「ブリサエル」さんのところへ持っていって。
-そちらで、それぞれの剣を比較させていただくわ。"
-81,"TEXT_CLSBSM630_02616_SYSTEM_000_070","クラフターの「クラスクエスト」では、
-クエスト中に入手した材料を使い、製作を行います。"
-82,"TEXT_CLSBSM630_02616_SYSTEM_000_071","製作に失敗した場合は、
-NPCに話しかけることで、再度、材料を入手できます。"
-83,"TEXT_CLSBSM630_02616_SYSTEM_000_072","それでは、実際に製作をしてみましょう！
-製作手帳の「スペシャルレシピ」から「ストーリー関連」を選び、
-「クラスクエスト」の項目を選択することで製作できます。"
-84,"TEXT_CLSBSM630_02616_FREMONDAIN_000_075","鍛冶師どのに製作をお願いできるなら、
-出来についても、安心というものですな！"
-85,"TEXT_CLSBSM630_02616_LAURISSE_000_085","追加の素材が必要なら声をかけてね。
-それにしても、セッカさんは、私たちの要望を聞かずに、
-どんな剣を作るつもりなのかしら……。"
-86,"TEXT_CLSBSM630_02616_LAURISSE_000_090","どうやら、無事に完成したようね。
-一度、「ブリサエル」さんのところへ持っていって。
-そちらで、それぞれの剣を比較しましょう。"
-87,"TEXT_CLSBSM630_02616_BRITHAEL_000_095","依頼の品は作れましたか？
-万が一にも、勝負に負けるわけにはいかないので……
-よろしくお願いしますね！"
-88,"TEXT_CLSBSM630_02616_BRITHAEL_000_100","おお、これは随分と扱いやすそうな片手剣ですね！
-それでは、ロリスさんたちを呼んできましょうか。
-セッカさんも、先ほど完成させたそうなので……。"
-89,"TEXT_CLSBSM630_02616_FREMONDAIN_000_110","……そうですな。
-どちらも素晴らしい出来ですが……鍛冶師どの……
-<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>どのが作った剣をいただきましょう。"
-90,"TEXT_CLSBSM630_02616_SEKKA_000_111","なっ、何故ですか！？
-そのような、いかにも軽く頼りなさそうな片手剣よりも、
-私の打った作の方が、見目麗しさも斬れ味も上のはず！"
-91,"TEXT_CLSBSM630_02616_FREMONDAIN_000_112","軽いからこそ、です。
-あなたの作った片手剣は、生憎とこの年寄りには重すぎて、
-少々、手に余る代物でした……。"
-92,"TEXT_CLSBSM630_02616_LAURISSE_000_113","それに私の見立てでは、剣身の丈夫さも斬れ味も同等のはずよ。
-いえ、使い手がじいであることを考慮すれば、軽さの分だけ、
-<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>の片手剣が上回るでしょう。"
-93,"TEXT_CLSBSM630_02616_SEKKA_000_114","そ、そんなの納得できません！
-もし、依頼主がほかの人物でしたら、きっと勝負の結果も……！"
-94,"TEXT_CLSBSM630_02616_BRITHAEL_000_115","……えっと、あまりに驚いた故の発言でしょうけど、
-流石に、その暴言は職人としていかがなものでしょう。"
-95,"TEXT_CLSBSM630_02616_BRITHAEL_000_116","作った武具に評価をつけるのは、作り手ではなく、使い手です。
-そこを履き違えている限り、あなたは誰が依頼人だろうと、
-<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>には勝てませんよ？"
-96,"TEXT_CLSBSM630_02616_LAURISSE_000_0117","……どうやら、わかっていただけたようね。
-それじゃ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>の片手剣を、
-依頼の品としていただいていくわ。"
-97,"TEXT_CLSBSM630_02616_SEKKA_000_118","……異存ございません。
-私が至らぬために、不甲斐ない出来のものをお見せしてしまい、
-申し訳ございませんでした……。"
-98,"TEXT_CLSBSM630_02616_BRITHAEL_000_121","たくさんの依頼をこなす中で、様々な技術や、
-作品の多様性を身につけるというのが、我がギルドの方針です。
-あなたの理念と違うようでしたら、どうぞほかの場所へ……。"
-99,"TEXT_CLSBSM630_02616_SEKKA_000_122","……ブリサエル殿、厳しい叱責、ありがとうございます。
-そうして、私を奮起させようとしてくださっているのですね。
-これまでのご無礼を、どうかお許しください……！"
-100,"TEXT_CLSBSM630_02616_BRITHAEL_000_123","……………………はい？"
-101,"TEXT_CLSBSM630_02616_SEKKA_000_124","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>殿の素晴らしき腕前、
-鍛冶師ギルドの掲げる理念、いずれも感服いたしました。
-これからも精進させていただきます！"
-102,"TEXT_CLSBSM630_02616_BRITHAEL_000_125","いえ、本当に出て行ってもらってよかったのですが……。
-あの前向き思考は、何なんでしょう……。"
-103,"TEXT_CLSBSM630_02616_LAURISSE_100_125","あら、血気が逸りすぎることもあるようだけど、
-彼女のような勤勉な人、個人的には嫌いじゃないわよ？
-……監督する立場からすれば、大変でしょうけどね。"
-104,"TEXT_CLSBSM630_02616_BRITHAEL_000_126","平穏な日が訪れるのは、まだ先のようです……。
-すみませんが、もう少し厄介事を頼むかもしれません。
-僕の胃が消滅する前に、また様子を見に来てください……。"
-105,"TEXT_CLSBSM630_02616_SYSTEM_000_500","鍛冶師として、依頼人の希望に沿った品を作りあげ、
-「品質精査」を修得しました！"
-106,"TEXT_CLSBSM630_02616_FREMONDAIN_000_119","（★未使用／削除予定★）"
-107,"TEXT_CLSBSM630_02616_LAURISSE_000_120","（★未使用／削除予定★）"
-108,"TEXT_CLSBSM630_02616_SEKKA_000_112","（★未使用／削除予定★）"
+48,"TEXT_CLSBSM630_02616_BRITHAEL_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, it's been absolute hell ever since that thrice-damned shrew ye dragged back from the docks set up shop at our guild."
+49,"TEXT_CLSBSM630_02616_BRITHAEL_000_001","From the crack o' dawn to sundown she prowls the floors lookin' to find fault with every one o' me smitties' work. I've warned her a thousand times over that such disparagin' remarks will not be tolerated, but will she listen? No!"
+50,"TEXT_CLSBSM630_02616_BRITHAEL_000_002","Instead she'll storm off in a huff, then return with even more bitter words on her tongue. Please, ye've gotta go an' talk some sense into her. She's like to be at the Anchor Yard, where she always goes to cool down."
+51,"TEXT_CLSBSM630_02616_BRITHAEL_000_010","Yer just not lookin' hard enough. She'll be there, huddled in some corner of the Anchor Yard, bawlin' her eyes out."
+52,"TEXT_CLSBSM630_02616_SEKKA_000_020","You have come here because that bonehead sent you after me, right? Well, I'll have you know that whatever <Emphasis>he</Emphasis> says, I do not intend to “be more supportive of the smitties.” Every single point I brought up has been valid!"
+53,"TEXT_CLSBSM630_02616_SEKKA_000_021","You have some excellent smiths. Really, you do. However, everyone is so focused on when their next commission is due that they have lost sight of what is important. No one here has any passion or desire to improve─they are all dead on the inside."
+54,"TEXT_CLSBSM630_02616_SEKKA_000_022","In Hingashi, swordsmiths are taught to strive for excellence. To push boundaries. We dedicate our lives to seeing that each weapon we make surpasses the last."
+55,"TEXT_CLSBSM630_02616_SEKKA_000_023","Katana are the favored weapon of the samurai, warriors who stake their lives on protecting the peace of our lands. Only the finest of blades are worthy of being wielded by these men and women."
+56,"TEXT_CLSBSM630_02616_SEKKA_000_024","It is for this reason swordsmiths dedicate their entire lives to growth and perfecting their art. I had thought all artisans engaged in metalworking were similarly devoted to their craft."
+57,"TEXT_CLSBSM630_02616_SEKKA_000_025","Observing how your guild is run, however, has made me realize I was wrong. Forgemaster Brithael would have his most gifted craftsmen carry out the most mundane tasks, all so that you might fulfill customer orders."
+58,"TEXT_CLSBSM630_02616_SEKKA_000_026","I traveled here from Kugane because everyone is of the opinion that this is one of the best Blacksmiths' Guilds. Truthfully, I am disappointed. Your organization is so stagnant. Surely, you must see it too?"
+59,"TEXT_CLSBSM630_02616_Q1_000_000","What will you say?"
+60,"TEXT_CLSBSM630_02616_A1_000_001","Every day, we improve with these mundane tasks."
+61,"TEXT_CLSBSM630_02616_A1_000_002","We're a guild and the customer is our priority."
+62,"TEXT_CLSBSM630_02616_SEKKA_000_030","No. This is all wrong! Blacksmiths cannot refine their skills by mindlessly repeating the same tasks day in and day out. Your guild needs to change, and I am going to prove it to you."
+63,"TEXT_CLSBSM630_02616_BRITHAEL_000_040","I thought I told ye to go and smooth things over with her! Instead o' returnin' calm an' composed, she storms in here with a murderous gleam in her eye, sayin' she wants to challenge me guild."
+64,"TEXT_CLSBSM630_02616_BRITHAEL_000_041","“It's me against one o' yours,” she says. “Yer to assign both of us to the next order ye receive, and the smitty who makes the better item is the winner.”"
+65,"TEXT_CLSBSM630_02616_BRITHAEL_000_042","<sigh> So that's what all that was about..."
+66,"TEXT_CLSBSM630_02616_BRITHAEL_000_043","Ah, but perhaps I'm lookin' at this the wrong way. This is the perfect opportunity for us─for <Emphasis>you</Emphasis>─to put her in her place."
+67,"TEXT_CLSBSM630_02616_BRITHAEL_000_044","Yes─if ye were to win this fer us, she'll have no choice but to back down. Ha! And as luck would have it, the latest order that came in is from two people ye know personally."
+68,"TEXT_CLSBSM630_02616_BRITHAEL_000_045","They're down at the Wench, waitin' to discuss the details o' what they'd have ye make. Sekka's already gone ahead, so I'd hurry if I were ye."
+69,"TEXT_CLSBSM630_02616_BRITHAEL_000_050","Best not to keep the clients waitin'. Not only is it bad fer business, but the girl's gotten enough of a head start as it is."
+70,"TEXT_CLSBSM630_02616_FREMONDAIN_000_055","<If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>. What a wonderful coincidence it is to see you here. You're looking well."
+71,"TEXT_CLSBSM630_02616_LAURISSE_000_060","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>? To think that Master Brithael would send you of all people to us... Why, today must be our lucky day."
+72,"TEXT_CLSBSM630_02616_LAURISSE_000_061","This is the first true break I've been afforded since being promoted to apprentice squire, and I decided to come here to thank your guildmaster in person for his services. But that's not all..."
+73,"TEXT_CLSBSM630_02616_LAURISSE_000_062","Lately, each new mission I'm dispatched on takes me further from the city than the last, and I am forced to leave Fremondain on his own for extended periods of time. He, however, has not a weapon with which to defend himself in my absence. As such, I would have a sword forged for him."
+74,"TEXT_CLSBSM630_02616_LAURISSE_000_063","What? A contest? While I'm not averse to the idea, this is the first I'm hearing of it. In fact, the girl you mentioned─Sekka─never came this way..."
+75,"TEXT_CLSBSM630_02616_LAURISSE_000_064","Hm. Mayhap she thought the general request we sent to your guild was enough and has already begun working on a blade?"
+76,"TEXT_CLSBSM630_02616_LAURISSE_000_065","Well, whatever the case may be, I look forward to seeing you work your usual magic. Now, Fremondain, tell <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> what kind of weapon you would have <If(PlayerParameter(4))>her<Else/>him</If> make."
+77,"TEXT_CLSBSM630_02616_FREMONDAIN_000_066","<If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>, it is a pleasure to see you again. As for the blade─I believe a shortsword would suit me best. I've grown weak in my old age and anything heavy is like to be more a hindrance than help."
+78,"TEXT_CLSBSM630_02616_LAURISSE_000_067","Yes, the lighter the shortsword, the better. We've already paid the fee for your services to Master Brithael and have, in addition, agreed to provide you with materials."
+79,"TEXT_CLSBSM630_02616_LAURISSE_100_067","While we are still far from wealthy, money is not as tight as it once was. If there is anything at all you should require, please do not hesitate to ask."
+80,"TEXT_CLSBSM630_02616_LAURISSE_000_068","Oh, and since this is a competition, once you're finished, perhaps you should take the blade to Forgemaster Brithael. After you've received his approval, we'll appraise the two weapons side by side."
+81,"TEXT_CLSBSM630_02616_SYSTEM_000_070","To proceed with the quest, use the materials provided by Laurisse to craft a high-quality featherlight shortsword."
+82,"TEXT_CLSBSM630_02616_SYSTEM_000_071","Should your synthesis efforts prove unsuccessful, speak with Laurisse once more to receive another set of materials."
+83,"TEXT_CLSBSM630_02616_SYSTEM_000_072","To begin the crafting process, select <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Logs<UIGlow>01</UIGlow><UIForeground>01</UIForeground> from the main menu, followed by <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Crafting Log<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. Next, select <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Special Recipes<UIGlow>01</UIGlow><UIForeground>01</UIForeground> from within the requisite crafting discipline, then <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Story<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, and lastly <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Class Quests<UIGlow>01</UIGlow><UIForeground>01</UIForeground> to locate the desired recipe."
+84,"TEXT_CLSBSM630_02616_FREMONDAIN_000_075","As always, I shall be looking forward to seeing your finished product, <If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>."
+85,"TEXT_CLSBSM630_02616_LAURISSE_000_085","If you find yourself running low on materials, please let me know. That said, I'm quite curious to see what Sekka will make. She didn't even inquire as to what kind of blade we needed..."
+86,"TEXT_CLSBSM630_02616_LAURISSE_000_090","Seeing as the judging will take place at the guild, please deliver the sword to Master Brithael once you are finished."
+87,"TEXT_CLSBSM630_02616_BRITHAEL_000_095","Did ye finish? It'd better be nothin' less than perfect, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. If we lose this, she'll become even more intolerable, and we're as good as doomed."
+88,"TEXT_CLSBSM630_02616_BRITHAEL_000_100","Aye. This is as fine a shortsword as any I've seen─real light and easy to handle. The girl hasn't a cat in hells' chance o' winning this. Now, let's bring her and our clients in, shall we?"
+89,"TEXT_CLSBSM630_02616_FREMONDAIN_000_110","Both are magnificent weapons but one is head and shoulders above the other. <If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>, your handiwork never fails to impress me. It would be my honor to wield your blade."
+90,"TEXT_CLSBSM630_02616_SEKKA_000_111","B-But why? <If(PlayerParameter(4))>Her<Else/>His</If> sword is flimsy and weak compared to mine! Added to that, mine has a superior edge and is much more aesthetically pleasing!"
+91,"TEXT_CLSBSM630_02616_FREMONDAIN_000_112","Madam, as you can see for yourself, I am but a frail old man. Yours, while beautiful, is far too heavy for me."
+92,"TEXT_CLSBSM630_02616_LAURISSE_000_113","I am no blacksmith but I know enough to say these blades are of a comparable quality in durability and sharpness both. If you were to take into account the needs of the wielder, however, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>'s is far superior."
+93,"TEXT_CLSBSM630_02616_SEKKA_000_114","Th-This is not fair! Had our clients been anyone but these two, my sword would have won."
+94,"TEXT_CLSBSM630_02616_BRITHAEL_000_115","I understand yer dismayed by the results, but yer words are unbecomin' of an artisan."
+95,"TEXT_CLSBSM630_02616_BRITHAEL_000_116","It's our clients who decide if our weapons are worthy of 'em, not the other way around. If ye can't bear defeat with a bit o' dignity, I suggest ye look into changin' professions. Ye'll never grow as a craftsman with that attitude, much less surpass <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> here."
+96,"TEXT_CLSBSM630_02616_LAURISSE_000_0117","If you don't mind, Fremondain and I will be taking <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>'s shortsword and leaving, then."
+97,"TEXT_CLSBSM630_02616_SEKKA_000_118","...Before you go, please allow me to apologize. It is as Forgemaster Brithael says. I realize now I did not take any of your needs into consideration, and it resulted in me presenting you with an item unworthy of your attention."
+98,"TEXT_CLSBSM630_02616_BRITHAEL_000_121","A smitty needs a great range o' skills so that he might tailor his products to accommodate the needs o' the customer. Every task, however borin' or routine, helps to expand this repertoire. If that doesn't suit you, perhaps you should look to other guilds."
+99,"TEXT_CLSBSM630_02616_SEKKA_000_122","Forgemaster Brithael, thank you. Your wise words have opened my eyes and allowed me to see the fault in my ways. I am terribly sorry for my earlier behavior. Nothing of the sort will be happening again during the course of my studies here."
+100,"TEXT_CLSBSM630_02616_BRITHAEL_000_123","Studies? Here? Surely, ye'd prefer to go elsewhere?"
+101,"TEXT_CLSBSM630_02616_SEKKA_000_124","Not at all! I am quite certain whatever those other places have to offer will not even come close to what I can gain by observing <If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
+102,"TEXT_CLSBSM630_02616_BRITHAEL_000_125","By what terrible stroke of fate did she end up at our guild? <sigh> I thought fer sure she'd leave after losin' to ye..."
+103,"TEXT_CLSBSM630_02616_LAURISSE_100_125","She certainly is a spirited girl. While her determination to succeed is her greatest strength, it is also currently her greatest weakness. Perhaps if she were to learn to be more receptive to what others had to say, that could change..."
+104,"TEXT_CLSBSM630_02616_BRITHAEL_000_126","I'm goin' to have to go an' break the news she'll be stayin' to the other smitties. <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, don't ye go anywhere, ye hear?"
+105,"TEXT_CLSBSM630_02616_SYSTEM_000_500","In forging new paths as a blacksmith, you have learned “Quality Assurance”!"
+106,"TEXT_CLSBSM630_02616_FREMONDAIN_000_119",""
+107,"TEXT_CLSBSM630_02616_LAURISSE_000_120",""
+108,"TEXT_CLSBSM630_02616_SEKKA_000_112",""

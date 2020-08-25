@@ -1,8 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKZA005_03347_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-博物陳列館のアンシベルトは、冒険者に頼みがあるようだ。"
+0,"TEXT_LUCKZA005_03347_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Anthibert has need of one with your particular qualifications."
 1,"TEXT_LUCKZA005_03347_SEQ_01",""
 2,"TEXT_LUCKZA005_03347_SEQ_02",""
 3,"TEXT_LUCKZA005_03347_SEQ_03",""
@@ -26,8 +26,8 @@ int32,str,str
 21,"TEXT_LUCKZA005_03347_SEQ_21",""
 22,"TEXT_LUCKZA005_03347_SEQ_22",""
 23,"TEXT_LUCKZA005_03347_SEQ_23",""
-24,"TEXT_LUCKZA005_03347_TODO_00","興味津々な少年と話す"
-25,"TEXT_LUCKZA005_03347_TODO_01","アンシベルトと話す"
+24,"TEXT_LUCKZA005_03347_TODO_00","Speak with the curious child."
+25,"TEXT_LUCKZA005_03347_TODO_01","Speak with Anthibert."
 26,"TEXT_LUCKZA005_03347_TODO_02",""
 27,"TEXT_LUCKZA005_03347_TODO_03",""
 28,"TEXT_LUCKZA005_03347_TODO_04",""
@@ -50,72 +50,45 @@ int32,str,str
 45,"TEXT_LUCKZA005_03347_TODO_21",""
 46,"TEXT_LUCKZA005_03347_TODO_22",""
 47,"TEXT_LUCKZA005_03347_TODO_23",""
-48,"TEXT_LUCKZA005_03347_ANTHIBERT_000_000","もしかして、最近街に来たという、水晶公のお客人でしょうか？"
-49,"TEXT_LUCKZA005_03347_ANTHIBERT_000_001","ということは、旅慣れているんですよね……。
-少し手を貸していただけませんか？"
-50,"TEXT_LUCKZA005_03347_ANTHIBERT_000_002","階段を上がった本棚のそばに、少年がいるでしょう？
-彼にクリスタリウムの外の世界を、教えてあげてほしいんです。"
-51,"TEXT_LUCKZA005_03347_ANTHIBERT_000_003","この街で生まれ育った子供の多くは、外の世界を知りません。
-あの少年は、「外」への興味を抱いている様子なんです。
-どうか彼の話し相手になってあげてください。"
-52,"TEXT_LUCKZA005_03347_ANTHIBERT_000_004","階段を上がった本棚のそばに、少年がいるでしょう？
-彼にクリスタリウムの外の世界を、教えてあげてほしいんです。"
-53,"TEXT_LUCKZA005_03347_BOY03347_000_010","えっ、<If(PlayerParameter(4))>お姉さん<Else/>お兄さん</If>、外から来たの！？
-じゃあお願い、僕に外の世界のことを教えて！
-本だけじゃ、よくわからないんだもん！"
-54,"TEXT_LUCKZA005_03347_BOY03347_000_011","えっと、まずはね、外にはいろんな生き物がいるんでしょ？
-お父さんは、野生動物はみんな危ないって言うの。
-それって本当なの？"
-55,"TEXT_LUCKZA005_03347_Q1_000_012","外の野生動物は本当に危ない？"
-56,"TEXT_LUCKZA005_03347_A1_000_013","種類によって違う"
-57,"TEXT_LUCKZA005_03347_A1_000_014","すべて獰猛で危険だ"
-58,"TEXT_LUCKZA005_03347_A1_000_015","…………"
-59,"TEXT_LUCKZA005_03347_BOY03347_100_016","ふんふん、なるほど～。"
-60,"TEXT_LUCKZA005_03347_BOY03347_110_016","……教えてくれないの？"
-61,"TEXT_LUCKZA005_03347_BOY03347_000_016","じゃあ次は、景色について教えて～！
-外の世界って、どんな景色なの？
-どこも、レイクランドと同じような風景なのかな？"
-62,"TEXT_LUCKZA005_03347_Q2_000_017","外の世界はどんな景色？"
-63,"TEXT_LUCKZA005_03347_A2_000_018","どこも似たようなものだ"
-64,"TEXT_LUCKZA005_03347_A2_000_019","世界には様々な景色の場所がある"
-65,"TEXT_LUCKZA005_03347_A2_000_020","…………"
-66,"TEXT_LUCKZA005_03347_BOY03347_100_021","そうなんだ……ふんふん。"
-67,"TEXT_LUCKZA005_03347_BOY03347_110_021","ええ～、教えてくれないの？　どうして？"
-68,"TEXT_LUCKZA005_03347_BOY03347_000_021","じゃあ、これで最後！　僕、外の世界を冒険してみたいんだ。
-でもお母さんは、意味がないからやめておけって言うの。
-<If(PlayerParameter(4))>お姉さん<Else/>お兄さん</If>はどう思う？"
-69,"TEXT_LUCKZA005_03347_Q3_000_022","冒険の旅をするべき？"
-70,"TEXT_LUCKZA005_03347_A3_000_023","危険だが価値はある"
-71,"TEXT_LUCKZA005_03347_A3_000_024","危ないから、やめておいたほうがいい"
-72,"TEXT_LUCKZA005_03347_A3_000_025","…………"
-73,"TEXT_LUCKZA005_03347_BOY03347_100_026","そっかあ……なるほど。"
-74,"TEXT_LUCKZA005_03347_BOY03347_110_026","うー……自分で考えろってこと？"
-75,"TEXT_LUCKZA005_03347_BOY03347_000_026","<If(PlayerParameter(4))>お姉さん<Else/>お兄さん</If>の話を聞いて、もっと外に行きたくなったよ！
-だから僕、頑張って勉強する！　剣の稽古も頑張るよ！
-そうしたら、危ない場所に行っても大丈夫だよね？"
-76,"TEXT_LUCKZA005_03347_BOY03347_000_027","……やっぱり僕、自分の目で外の世界を見てみたい！
-でも、外は危ないっていうのも本当なんだよね。
-いつか<If(PlayerParameter(4))>お姉さん<Else/>お兄さん</If>と一緒に冒険したいなあ……。"
-77,"TEXT_LUCKZA005_03347_BOY03347_000_028","えっと、何も教えてくれなかったのは、
-「百聞は一見に如かず」ってことなのかな……？
-じゃあ、僕、いつか自分の目で確かめてみるよ！"
-78,"TEXT_LUCKZA005_03347_BOY03347_000_029","<If(PlayerParameter(4))>お姉さん<Else/>お兄さん</If>、相手をしてくれてありがとう！
-僕のことを紹介してくれた「アンシベルト」さんにも、
-お礼を言っておいてね～！"
-79,"TEXT_LUCKZA005_03347_ANTHIBERT_000_030","ふふふ、目をキラキラさせたあの子が走っていきましたよ。
-私も、この街から出たことがないものですから、
-あなたがいてくださって、助かりました。"
-80,"TEXT_LUCKZA005_03347_ANTHIBERT_000_031","きっと、今回の出会いは、
-彼にとって大きな財産となることでしょう。
-本は大切ですが、それだけでは学べないことも多いですから……。"
-81,"TEXT_LUCKZA005_03347_ANTHIBERT_000_032","ありがとうございました。
-これは、ほんのお礼の気持ちです。
-またいらしてくださいね。"
-82,"TEXT_LUCKZA005_03347_STAFF03347_000_000","（★未使用／削除予定★）"
-83,"TEXT_LUCKZA005_03347_STAFF03347_000_001","（★未使用／削除予定★）"
-84,"TEXT_LUCKZA005_03347_STAFF03347_000_002","（★未使用／削除予定★）"
-85,"TEXT_LUCKZA005_03347_STAFF03347_000_003","（★未使用／削除予定★）"
-86,"TEXT_LUCKZA005_03347_STAFF03347_000_004","（★未使用／削除予定★）"
-87,"TEXT_LUCKZA005_03347_STAFF03347_000_030","（★未使用／削除予定★）"
-88,"TEXT_LUCKZA005_03347_STAFF03347_000_031","（★未使用／削除予定★）"
-89,"TEXT_LUCKZA005_03347_STAFF03347_000_032","（★未使用／削除予定★）"
+48,"TEXT_LUCKZA005_03347_ANTHIBERT_000_000","Pardon me─might you be the Crystal Exarch's esteemed guest? I'd like to borrow your expertise, if you've a moment to spare."
+49,"TEXT_LUCKZA005_03347_ANTHIBERT_000_001","There's a boy, you see, who frequents the Cabinet regularly. Like so many of his peers, he has never experienced the world outside the Crystarium. And so he comes here, to catch glimpses of it in the pages of timeworn books..."
+50,"TEXT_LUCKZA005_03347_ANTHIBERT_000_002","I am certain that what he truly desires is to learn of the living, breathing world, however. The world as it is today, through the eyes of one who has seen it."
+51,"TEXT_LUCKZA005_03347_ANTHIBERT_000_003","Might you share your experience with him? I believe you'll find him just up the stairs."
+52,"TEXT_LUCKZA005_03347_ANTHIBERT_000_004","The boy will like as not be full of questions─brace yourself."
+53,"TEXT_LUCKZA005_03347_BOY03347_000_010","You're from far away!? Then...can you tell me what the world outside is like? Pretty please?"
+54,"TEXT_LUCKZA005_03347_BOY03347_000_011","Oh! Then... Then... Can you tell me about the animals? There are a lot, right? Father says they're all dangerous, though. Is that true?"
+55,"TEXT_LUCKZA005_03347_Q1_000_012","Are all wild animals dangerous?"
+56,"TEXT_LUCKZA005_03347_A1_000_013","Most are only dangerous if you make them mad."
+57,"TEXT_LUCKZA005_03347_A1_000_014","They're all dangerous. And scary!"
+58,"TEXT_LUCKZA005_03347_A1_000_015","..."
+59,"TEXT_LUCKZA005_03347_BOY03347_100_016","Really? Oooh..."
+60,"TEXT_LUCKZA005_03347_BOY03347_110_016","Aww, you won't tell me?"
+61,"TEXT_LUCKZA005_03347_BOY03347_000_016","Um... What about what it looks like? Does the whole world look like Lakeland?"
+62,"TEXT_LUCKZA005_03347_Q2_000_017","Does the rest of the world look the same as Lakeland?"
+63,"TEXT_LUCKZA005_03347_A2_000_018","Pretty much. Trees, dirt, whatever."
+64,"TEXT_LUCKZA005_03347_A2_000_019","Some of it is more different than you could ever imagine."
+65,"TEXT_LUCKZA005_03347_A2_000_020","..."
+66,"TEXT_LUCKZA005_03347_BOY03347_100_021","Oh... I think I understand."
+67,"TEXT_LUCKZA005_03347_BOY03347_110_021","But <Emphasis>why</Emphasis> won't you tell me?"
+68,"TEXT_LUCKZA005_03347_BOY03347_000_021","Hmm... Then, what about traveling? Mother says it's not worth it─there's nothing to see out there, and it's too dangerous... But I want to go on adventures! What do you think?"
+69,"TEXT_LUCKZA005_03347_Q3_000_022","Is it worth going on adventures?"
+70,"TEXT_LUCKZA005_03347_A3_000_023","It can be dangerous, but is always worthwhile."
+71,"TEXT_LUCKZA005_03347_A3_000_024","Your mother's right─there's no point to it."
+72,"TEXT_LUCKZA005_03347_A3_000_025","..."
+73,"TEXT_LUCKZA005_03347_BOY03347_100_026","Hmm... I see!"
+74,"TEXT_LUCKZA005_03347_BOY03347_110_026","...Are you maybe telling me that I should think about it on my own?"
+75,"TEXT_LUCKZA005_03347_BOY03347_000_026","I'm sure now─I want to see the world! I'm going to study, and...and practice martial arts! Then, when I'm strong and clever, I'll go on an adventure!"
+76,"TEXT_LUCKZA005_03347_BOY03347_000_027","It does seem pretty dangerous out there, but I still want to know more about the world! And maybe see it for myself someday."
+77,"TEXT_LUCKZA005_03347_BOY03347_000_028","I guess there really isn't anything you could tell me that would be the same as seeing it, is there? I need to go out there myself!"
+78,"TEXT_LUCKZA005_03347_BOY03347_000_029","Thank you for letting me ask questions! And please tell Anthibert that I'm going home─I have a lot of work to do! I wonder if Father will let me practice with his axe..."
+79,"TEXT_LUCKZA005_03347_ANTHIBERT_000_030","Yes, I saw him dash past, eyes twinkling."
+80,"TEXT_LUCKZA005_03347_ANTHIBERT_000_031","I do believe in the magic of the written word. How could I not? But it's not quite the same as meeting someone who has been there─who <If(PlayerParameter(4))>herself<Else/>himself</If> is <Emphasis>part</Emphasis> of the wider world."
+81,"TEXT_LUCKZA005_03347_ANTHIBERT_000_032","I've never ventured far from the Crystarium myself, you see, so I know the wonder and fascination that comes from hearing the fireside tales of travelers. You have my personal gratitude for sharing a bit of that with our young friend today."
+82,"TEXT_LUCKZA005_03347_STAFF03347_000_000",""
+83,"TEXT_LUCKZA005_03347_STAFF03347_000_001",""
+84,"TEXT_LUCKZA005_03347_STAFF03347_000_002",""
+85,"TEXT_LUCKZA005_03347_STAFF03347_000_003",""
+86,"TEXT_LUCKZA005_03347_STAFF03347_000_004",""
+87,"TEXT_LUCKZA005_03347_STAFF03347_000_030",""
+88,"TEXT_LUCKZA005_03347_STAFF03347_000_031",""
+89,"TEXT_LUCKZA005_03347_STAFF03347_000_032",""

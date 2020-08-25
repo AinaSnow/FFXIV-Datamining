@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB509_00878_SEQ_00","聖アダマ・ランダマ教会のエルネドは、シルフ族の遺体を運んで欲しいようだ。"
-1,"TEXT_GAIUSB509_00878_SEQ_01","冒険者が運んだ砂の家の遺体の中にシルフ族の遺体があった。「<Sheet(EventItem,2000966,0)/>」をシルフの仮宿の「コムシオ」へ託そう。"
-2,"TEXT_GAIUSB509_00878_SEQ_02","ノラクシアはシルフ族らの手によって埋葬されるようだ。聖アダマ・ランダマ教会に戻り、「エルネド」に報告しよう。"
-3,"TEXT_GAIUSB509_00878_SEQ_03","エルネドに報告した。勇敢な仲間、ノラクシアの冥福を祈ろう。"
+0,"TEXT_GAIUSB509_00878_SEQ_00","Sister Eluned wishes to discuss one of the Scions who perished at the Waking Sands."
+1,"TEXT_GAIUSB509_00878_SEQ_01","The Church of Saint Adama Landama can perform rites for most of the fallen Scions. However, Noraxia, a sylph from Little Solace, is an exception. Sister Eluned believes that it would be best if the sylph's body was returned to her home in the Black Shroud, and she asks that you accept this responsibility."
+2,"TEXT_GAIUSB509_00878_SEQ_02","The sylphs thank you for bringing Noraxia's remains back home. Though her death has been cause for great sadness in Little Solace, it has also sparked anger against the imperials. When the time comes to confront the forces responsible, it would be wise to seek the aid of the humble forest dwellers. Return to Sister Eluned at the Church of Saint Adama Landama."
+3,"TEXT_GAIUSB509_00878_SEQ_03","Upon your return, Sister Eluned informs you that the last of your comrades has finally been laid to rest in the lichyard. Sister Eluned further implores you to set aside your burdens and take a rest, as you have already done so much on behalf of the fallen Scions."
 4,"TEXT_GAIUSB509_00878_SEQ_04",""
 5,"TEXT_GAIUSB509_00878_SEQ_05",""
 6,"TEXT_GAIUSB509_00878_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSB509_00878_SEQ_21",""
 22,"TEXT_GAIUSB509_00878_SEQ_22",""
 23,"TEXT_GAIUSB509_00878_SEQ_23",""
-24,"TEXT_GAIUSB509_00878_TODO_00","シルフの仮宿のコムシオに<Sheet(EventItem,2000966,0)/>を渡す"
-25,"TEXT_GAIUSB509_00878_TODO_01","聖アダマ・ランダマ教会のエルネドと話す"
+24,"TEXT_GAIUSB509_00878_TODO_00","Return Noraxia to Little Solace."
+25,"TEXT_GAIUSB509_00878_TODO_01","Return to Eluned."
 26,"TEXT_GAIUSB509_00878_TODO_02",""
 27,"TEXT_GAIUSB509_00878_TODO_03",""
 28,"TEXT_GAIUSB509_00878_TODO_04",""
@@ -49,52 +49,23 @@ int32,str,str
 45,"TEXT_GAIUSB509_00878_TODO_21",""
 46,"TEXT_GAIUSB509_00878_TODO_22",""
 47,"TEXT_GAIUSB509_00878_TODO_23",""
-48,"TEXT_GAIUSB509_00878_SYSTEM_100_000","受注するには、進行中のメインクエストを破棄する必要があります。
-メインコマンドの「コンテンツ情報」から、
-「ジャーナル」を選び、破棄してください。"
-49,"TEXT_GAIUSB509_00878_ELUNED_000_000","お預かりした遺体の中に、シルフ族の遺体がございました。
-……この遺体を、黒衣森の「シルフの仮宿」へ、
-返しに行っていただけるでしょうか。"
-50,"TEXT_GAIUSB509_00878_ELUNED_000_001","シルフ族は、我々とは異なる独自の文化を持つと聞きます。
-……きっと、このシルフ族も自分の故郷で、
-ゆっくりと眠りたいでしょうから……。"
-51,"TEXT_GAIUSB509_00878_KOMUXIO_000_010","アナタ！　仮宿へようこそでふっち！
-……そういえば、砂の家にオツトメしてる、
-ノラクシアは元気なのでふっち？"
-52,"TEXT_GAIUSB509_00878_KOMUXIO_000_011","……ふえ？　……ノラクシアなので……ふっち！？
-どどど、どういうことなのでふっち！？
-ななな、なんなのでふっち！？"
-53,"TEXT_GAIUSB509_00878_FRIXIO_000_020","コムシオ、何事なのでぶっち？
-んもう、さわがちいのでぶっち。"
-54,"TEXT_GAIUSB509_00878_KOMUXIO_000_021","長ちゃま！
-ちょうどよかったのでふっち！"
-55,"TEXT_GAIUSB509_00878_FRIXIO_000_022","これは冒険者どの！
-仮宿にようこそでぶっち！
-今日は何の用なのでぶっち？"
-56,"TEXT_GAIUSB509_00878_FRIXIO_000_023","なんと、そんなことがあったのでぶっち！？
-……くわしい話を聞かせてほしいのでぶっち。"
-57,"TEXT_GAIUSB509_00878_FRIXIO_000_024","……そうだったのでぶっち……。
-ノラクシアは逝ってしまったのでぶっちか……。"
-58,"TEXT_GAIUSB509_00878_KOMUXIO_000_025","ノラクシア……。"
-59,"TEXT_GAIUSB509_00878_FRIXIO_000_026","ノラクシアに砂の家へ行くのを奨めたのは、
-ワチシなのでぶっち……。
-暁の方々や冒険者どのに、責任はないのでぶっち。"
-60,"TEXT_GAIUSB509_00878_FRIXIO_000_027","冒険者どの……。
-ノラクシアは、最後まで立派だったのでぶっち？"
-61,"TEXT_GAIUSB509_00878_FRIXIO_000_028","……よかったのでぶっち。
-きっとノラクシアも、お役に立てて喜んでいるのでぶっち。"
-62,"TEXT_GAIUSB509_00878_FRIXIO_000_029","……冒険者どの、ありがとうなのでぶっち。
-ノラクシアは、ここでちゃんと弔うでぶっち。"
-63,"TEXT_GAIUSB509_00878_FRIXIO_000_030","お世話になった教会の方々にも、
-礼を言っておいてほしいのでぶっち。"
-64,"TEXT_GAIUSB509_00878_KOMUXIO_000_031","ノラクシアを殺ちたのは「テイコク」なのでふっち？
-……アイツたち、ゆるさないのでふっち……。"
-65,"TEXT_GAIUSB509_00878_KOMUXIO_000_032","アナタ、いつか「テイコク」と戦う時がきたら、
-シルフ族はチカラを貸すのでふっち。
-ノラクシアの想いは、シルフ族みんなで紡ぐのでふっち！"
-66,"TEXT_GAIUSB509_00878_ELUNED_000_040","黒衣森までの旅路、大変ご苦労さまでございました。
-これでお預かりした遺体はすべて弔えました。
-あのシルフ族も、故郷で穏やかに眠ることができましょう。"
-67,"TEXT_GAIUSB509_00878_ELUNED_000_041","……まあ、シルフ族の長がお礼を？
-私には祈ることしかできませんでしたが、
-残された方の悲しみが少しでも癒えたのなら幸いです。"
+48,"TEXT_GAIUSB509_00878_SYSTEM_100_000","To accept this quest, you must abandon the current main scenario quest. Open the corresponding entry in the journal or duty list and select “Abandon.”"
+49,"TEXT_GAIUSB509_00878_ELUNED_000_000","Although we can perform rites for most of the Scions, there is one whom we cannot accept. We would like you to return this one to her people, the sylphs of Little Solace."
+50,"TEXT_GAIUSB509_00878_ELUNED_000_001","It is only proper that she be given into the care of her friends and family, so that they may mourn her in accordance with sylphic traditions."
+51,"TEXT_GAIUSB509_00878_KOMUXIO_000_010","This one is surprised to see walking one in Little Solace. How can these ones assist walking one?"
+52,"TEXT_GAIUSB509_00878_KOMUXIO_000_011","<gasp> Noraxia!? But...this one does not understand..."
+53,"TEXT_GAIUSB509_00878_FRIXIO_000_020","Komuxio, this one has heard much wailing. This one would know what has caused such distress."
+54,"TEXT_GAIUSB509_00878_KOMUXIO_000_021","Terrible news, elder one! Awful news!"
+55,"TEXT_GAIUSB509_00878_FRIXIO_000_022","Walking one has returned to Little Solace? But why? These ones have not requested further aid."
+56,"TEXT_GAIUSB509_00878_FRIXIO_000_023","Noraxia!? How did this happen? Explain everything to this one, at once!"
+57,"TEXT_GAIUSB509_00878_FRIXIO_000_024","So...not only Noraxia, but many of walking one's friends were lost as well."
+58,"TEXT_GAIUSB509_00878_KOMUXIO_000_025","<sob> Noraxia..."
+59,"TEXT_GAIUSB509_00878_FRIXIO_000_026","Noraxia went to Thanalan at the behest of this one..."
+60,"TEXT_GAIUSB509_00878_FRIXIO_000_027","Walking one was with Noraxia at the end... Tell this one that Noraxia was brave. Tell this one that Noraxia did not suffer."
+61,"TEXT_GAIUSB509_00878_FRIXIO_000_028","This one is glad to hear walking one's words."
+62,"TEXT_GAIUSB509_00878_FRIXIO_000_029","Thank you for bringing Noraxia home, walking one."
+63,"TEXT_GAIUSB509_00878_FRIXIO_000_030","These ones also wish to thank praying ones. Tell praying ones these ones will remember this kindness."
+64,"TEXT_GAIUSB509_00878_KOMUXIO_000_031","This one demands vengeance! Imperial ones must pay! Imperial ones must suffer!"
+65,"TEXT_GAIUSB509_00878_KOMUXIO_000_032","When the time comes for walking ones to face imperial ones, do not forget these ones! These ones would not have Noraxia's death be for naught! These ones will fight!"
+66,"TEXT_GAIUSB509_00878_ELUNED_000_040","We thank you for your service to the church and to the sylphs. You may be pleased to know that, in your absence, we interred the remaining Scions in the lichyard."
+67,"TEXT_GAIUSB509_00878_ELUNED_000_041","Perhaps you still wish to do more for your friends. If so, I would remind you that you have already done so much on their behalf. Please, take a rest and set aside your burdens for now, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."

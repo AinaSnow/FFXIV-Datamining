@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_MANWIL302_00682_SEQ_00","不滅隊の将校は、冒険者の不滅隊加入を大変喜んでいるようだ！"
-1,"TEXT_MANWIL302_00682_SEQ_01","不滅隊の将校へ加入の意思を伝えた。ウルダハの不滅隊：作戦本部を訪ね、「人事担当官」に正式な入隊手続きをしてもらおう。"
-2,"TEXT_MANWIL302_00682_SEQ_02","入隊式の直前、ハイウィンド飛空社の飛空艇が、帝国の砲撃を受けたという連絡が入った。墜落予想点の「ホライズン・エッジ」に向かい、状況を確認しよう。"
-3,"TEXT_MANWIL302_00682_SEQ_03","墜落した飛空艇を接収しようとしていた帝国兵を倒すことができた。飛空艇の乗組員、ビッグスとウェッジはガーロンド・アイアンワークス社の技術者であるという。ビッグスによれば、ガーロンド・アイアンワークス社の会長は、第七霊災以降、行方不明になっているらしい……。不滅隊：作戦本部の「人事担当官」に報告しよう。"
-4,"TEXT_MANWIL302_00682_SEQ_04","正式配属前にひと仕事をこなした<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>の能力を、人事担当官は高く評価してくれた。救出した技術者たちも無事に帰還し、事件は解決を見たようだ。「人事担当官」に話しかけ、今度こそ入隊式を受けよう。"
+0,"TEXT_MANWIL302_00682_SEQ_00","The Immortal Flames recruitment officer seems eager to welcome you to Ul'dah's Grand Company."
+1,"TEXT_MANWIL302_00682_SEQ_01","You have confirmed your intention to join the ranks of the Immortal Flames. Visit the Hall of Flames in Ul'dah, and speak with the personnel officer to be formally inducted into the Grand Company."
+2,"TEXT_MANWIL302_00682_SEQ_02","Your formal induction into the Immortal Flames is interrupted by an urgent report concerning an imperial attack on a Highwind Skyways airship. Head to Horizon's Edge and determine the fate of the crippled vessel and its crew."
+3,"TEXT_MANWIL302_00682_SEQ_03","You have defeated the imperial soldiers intent on requisitioning the downed airship. You learn that the vessel's crew, Biggs and Wedge, are engineers from Garlond Ironworks, and that Master Garlond himself has been missing since the Calamity. Return to the Hall of Flames and report to the personnel officer."
+4,"TEXT_MANWIL302_00682_SEQ_04","Back at the Hall of Flames, the personnel officer praises your efforts, and reassures you that the two engineers you encountered were able to continue on their way. He then expresses his eagerness to complete your induction into the ranks of the Immortal Flames. Speak with him once more when you are ready to attend to the formalities."
 5,"TEXT_MANWIL302_00682_SEQ_05",""
 6,"TEXT_MANWIL302_00682_SEQ_06",""
 7,"TEXT_MANWIL302_00682_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_MANWIL302_00682_SEQ_21",""
 22,"TEXT_MANWIL302_00682_SEQ_22",""
 23,"TEXT_MANWIL302_00682_SEQ_23",""
-24,"TEXT_MANWIL302_00682_TODO_00","ウルダハの不滅隊：作戦本部で人事担当官と話す"
-25,"TEXT_MANWIL302_00682_TODO_01","ホライズン・エッジで状況を確認"
-26,"TEXT_MANWIL302_00682_TODO_02","不滅隊：作戦本部の人事担当官と話す"
+24,"TEXT_MANWIL302_00682_TODO_00","Speak with the personnel officer at the Hall of Flames."
+25,"TEXT_MANWIL302_00682_TODO_01","Head to Horizon's Edge and determine the fate of the airship and its crew."
+26,"TEXT_MANWIL302_00682_TODO_02","Speak with the personnel officer at the Hall of Flames."
 27,"TEXT_MANWIL302_00682_TODO_03",""
 28,"TEXT_MANWIL302_00682_TODO_04",""
 29,"TEXT_MANWIL302_00682_TODO_05",""
@@ -49,154 +49,76 @@ int32,str,str
 45,"TEXT_MANWIL302_00682_TODO_21",""
 46,"TEXT_MANWIL302_00682_TODO_22",""
 47,"TEXT_MANWIL302_00682_TODO_23",""
-48,"TEXT_MANWIL302_00682_FLAMEOFFICER_000_1","待っていたぞ！
-我らが「不滅隊」に加入する意思は固まったか？"
-49,"TEXT_MANWIL302_00682_Q1_000_1","ウルダハの「不滅隊」に加入する？"
-50,"TEXT_MANWIL302_00682_A1_000_1","はい"
-51,"TEXT_MANWIL302_00682_A1_000_2","いいえ"
-52,"TEXT_MANWIL302_00682_FLAMEOFFICER_000_2","ありがたい。先日の作戦における裏切りで、
-信頼を失ったのではと思っていたが……
-君の器は、その程度ではないらしい。"
-53,"TEXT_MANWIL302_00682_FLAMEOFFICER_000_3","我らは素晴らしき戦友を得た！
-さっそくウルダハにある不滅隊の「作戦本部」に赴き、
-正式な入隊手続きを受けてくれ。"
-54,"TEXT_MANWIL302_00682_FLAMEOFFICER_000_4","不滅隊の「作戦本部」はウルダハのナル回廊にある。
-受付の「人事担当官」に、君のことを伝えておくから、
-その者に声をかけてほしい。"
-55,"TEXT_MANWIL302_00682_FLAMEOFFICER_000_5","では、共に駆ける日を楽しみにしている。
-我らの刃で、いかなる難敵も退けようぞ！"
-56,"TEXT_MANWIL302_00682_FLAMEOFFICER_000_6","……ぬぅ。
-悩んでいるのなら、このまま頷くことを勧めるぞ！"
-57,"TEXT_MANWIL302_00682_SERPENTOFFICER_000_10","グランドカンパニーの移籍は自由だ。
-我ら「双蛇党」は、いつでも君を歓迎しよう。"
-58,"TEXT_MANWIL302_00682_FLAMEOFFICER_000_11","ウルダハにある不滅隊の「作戦本部」で
-正式な入隊手続きを受けてくれ。
-ラウバーン局長も、君を大いに歓迎するだろう！"
-59,"TEXT_MANWIL302_00682_STORMOFFICER_000_12","残念だが、君の意思ならば仕方がない。
-なに、気が変わることもあろう。
-そのときは、よろしく頼むぞ。"
-60,"TEXT_MANWIL302_00682_FLAMEPERSONNEL_000_20","よくきたな。
-ここは、グランドカンパニー「不滅隊」の作戦本部だ。
-我々に何か用かな？"
-61,"TEXT_MANWIL302_00682_Q2_000_1","どうする？"
-62,"TEXT_MANWIL302_00682_A2_000_1","名乗る"
-63,"TEXT_MANWIL302_00682_A2_000_2","不滅隊へ入隊を希望する"
-64,"TEXT_MANWIL302_00682_FLAMEPERSONNEL_000_21","君が、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>か！
-既に連絡は受けている。
-我が「不滅隊」に加入してくれることを嬉しく思うぞ！"
-65,"TEXT_MANWIL302_00682_FLAMEPERSONNEL_100_21","ようこそ「不滅隊」へ！
-君が、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>か！
-既に連絡は受けている。"
-66,"TEXT_MANWIL302_00682_FLAMEPERSONNEL_000_22","早速、各種取り決めの説明と、
-略式ではあるが入隊式を行うとしよう！"
-67,"TEXT_MANWIL302_00682_FLAMEPRIVATE_000_23","報告ッ！"
-68,"TEXT_MANWIL302_00682_FLAMEPERSONNEL_000_24","何事だ、さわがしいぞ。"
-69,"TEXT_MANWIL302_00682_FLAMEPRIVATE_000_25","偵察部隊より伝令！
-西ザナラーン上空にて、ハイウィンド飛空社の
-小型飛空艇が、帝国軍の砲撃を受けたもよう！"
-70,"TEXT_MANWIL302_00682_FLAMEPRIVATE_000_26","飛空艇は、そのまま西ザナラーン、
-「ホライズン・エッジ」に不時着したとのこと！"
-71,"TEXT_MANWIL302_00682_FLAMEPERSONNEL_000_27","なんだと！？
-……ええい、アマルジャ族との小競り合いで、
-主力が出払っているというのに！"
-72,"TEXT_MANWIL302_00682_FLAMEPERSONNEL_000_28","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>！
-正式な入隊前で悪いが、手を貸してくれ！"
-73,"TEXT_MANWIL302_00682_FLAMEPERSONNEL_000_29","飛空艇には民間人が乗っているはずだ！
-……あの辺りは帝国軍の偵察範囲。
-帝国軍と衝突した場合、惨事は避けられん！"
-74,"TEXT_MANWIL302_00682_FLAMEPERSONNEL_000_30","緊急事態につき、この場で特別任官する！
-先行して「ホライズン・エッジ」へ向かい、
-状況を確認するのだ！"
-75,"TEXT_MANWIL302_00682_Q3_000_1","クエスト「我が行く道は……（不滅隊）」のバトルを開始しますか？"
-76,"TEXT_MANWIL302_00682_A3_000_1","はい"
-77,"TEXT_MANWIL302_00682_A3_000_2","いいえ"
-78,"TEXT_MANWIL302_00682_BIGGS_000_40","(-飛空艇の乗組員-)その姿……冒険者なのか……！？
-……ここじゃまずい。
-ちょっと、こっちへ来てくれ。"
-79,"TEXT_MANWIL302_00682_BIGGS_000_41","(-飛空艇の乗組員-)不滅隊から状況確認に来たんだって？
-でも、お前は軍服を着ていないぞ……。
-……まさか、騙してるんじゃないだろうなッ！？"
-80,"TEXT_MANWIL302_00682_FLAMELIEUTENANT_000_42","我々は、ウルダハ「不滅隊」の者だ。
-「ガーロンド・アイアンワークス」の技術者だな？
-墜落の報告を受け、貴殿を救出にきた。"
-81,"TEXT_MANWIL302_00682_FLAMELIEUTENANT_000_43","お前が、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>か？
-先行偵察の任、ご苦労である！"
-82,"TEXT_MANWIL302_00682_IMPERIALSOLDIER_000_44","いつのまに、このような新型の飛空艇を……。
-シド・ナン・ガーロンドめ、
-どこまで帝国に仇するつもりだ。"
-83,"TEXT_MANWIL302_00682_IMPERIALSOLDIER_000_45","飛空艇は、元より我が国の魔導技術によるもの……。
-それを奴が勝手に持ち出したに過ぎん。
-エオルゼアにくれてやることはない！"
-84,"TEXT_MANWIL302_00682_IMPERIALSOLDIER_000_46","この新型飛空艇は、我が軍が接収する！
-そこの魔導技術者も連行しろ！
-撤収準備にかかれ！"
-85,"TEXT_MANWIL302_00682_FLAMELIEUTENANT_000_47","……奴ら「カストルム・メリディアヌム」からの斥候か。
-飛空艇を接収するつもりだな。"
-86,"TEXT_MANWIL302_00682_BIGGS_000_48","(-飛空艇の乗組員-)相方を……ウェッジを助けてくれッ！
-逃げ遅れて、まだ「タイニーブロンコ」の中に
-隠れているんだ！"
-87,"TEXT_MANWIL302_00682_FLAMELIEUTENANT_000_49","タイニーブロンコ！？
-……では、あれが噂の新造艇か！"
-88,"TEXT_MANWIL302_00682_BIGGS_000_50","(-飛空艇の乗組員-)親方が……うちのシド会長が、
-第七霊災で行方不明になってから、
-エオルゼアで初めて製造された飛空艇だ。"
-89,"TEXT_MANWIL302_00682_BIGGS_000_51","(-飛空艇の乗組員-)ようやく、試験飛行にまでこぎ着けたんだ。
-……順調に飛んでたってのに、くそッ！"
-90,"TEXT_MANWIL302_00682_FLAMELIEUTENANT_000_52","エオルゼアの飛空艇、および、
-逃げ遅れたガーロンド・アイアンワークスの
-技術者を救出する！"
-91,"TEXT_MANWIL302_00682_FLAMELIEUTENANT_000_53","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>！
-お前も協力してくれるな？"
-92,"TEXT_MANWIL302_00682_FLAMELIEUTENANT_000_54","よし、総員突撃！
-奴らをザル神の御許に送ってやれ！"
-93,"TEXT_MANWIL302_00682_IMPERIALSOLDIER_000_55","クソッ、敵襲だ！
-迎撃せよ！"
-94,"TEXT_MANWIL302_00682_WEDGE_000_60","ビッグスぅぅぅ！"
-95,"TEXT_MANWIL302_00682_BIGGS_000_61","ウェッジ！
-よかった、無事だったか！"
-96,"TEXT_MANWIL302_00682_WEDGE_000_62","怖かったッス！"
-97,"TEXT_MANWIL302_00682_BIGGS_000_63","怪我はないようだな。
-……どうだ、飛べそうだったか？"
-98,"TEXT_MANWIL302_00682_WEDGE_000_64","補助推進翼をヤラれただけッス。
-動力を全部、主推進翼に回せば、
-すぐにでも飛べるはずッス！"
-99,"TEXT_MANWIL302_00682_BIGGS_000_65","オレたちは、ここで「タイニーブロンコ」を応急修理して、
-すぐにでも飛び立つつもりだ。"
-100,"TEXT_MANWIL302_00682_FLAMELIEUTENANT_000_66","その間、周辺は我々が警戒しよう。
-先ほどの帝国兵は斥候のようだったからな。
-しばらくは援軍も来ないだろう。"
-101,"TEXT_MANWIL302_00682_FLAMELIEUTENANT_000_67","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>！
-お前は、ウルダハの不滅隊本部へ戻り、
-正式に入隊手続きを済ませるといい。"
-102,"TEXT_MANWIL302_00682_FLAMELIEUTENANT_000_68","お前のような、すばらしい冒険者を、
-一刻も早く、不滅隊の一員として迎え入れたいのでな！
-作戦本部には私から連絡しておこう。"
-103,"TEXT_MANWIL302_00682_BIGGS_000_69","……さっきは疑ってすまなかった。
-ありがとうな！
-おかげで助かったぜ！"
-104,"TEXT_MANWIL302_00682_BIGGS_000_70","礼は！？"
-105,"TEXT_MANWIL302_00682_WEDGE_000_71","助けてくれて、ありがとうッス！！"
-106,"TEXT_MANWIL302_00682_FLAMEPERSONNEL_000_80","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>よ、無事に帰還したか。
-今しがた報告を受けたところだ。
-よくぞやってくれたな！"
-107,"TEXT_MANWIL302_00682_FLAMEPERSONNEL_000_81","ワッハッハ！
-有能な冒険者と聞いてはいたが、
-まさか正式配属前に、ひと仕事終えてしまうとは！"
-108,"TEXT_MANWIL302_00682_FLAMEPERSONNEL_000_82","「ガーロンド・アイアンワークス」の技術者たちも、
-あの後、無事に帰還したと聞く。
-安心するといい。"
-109,"TEXT_MANWIL302_00682_FLAMEPERSONNEL_000_83","それにしても、君は噂以上の逸材のようだ。
-我が「不滅隊」に志願してくれたことを、
-誇りに思うぞ。"
-110,"TEXT_MANWIL302_00682_FLAMEPERSONNEL_000_84","……では、途中になっていた
-入隊式を行うとしよう！"
-111,"TEXT_MANWIL302_00682_QIB_TODO_001","ガレマール帝国兵たちを倒せ！"
-112,"TEXT_MANWIL302_00682_FLAMELT_BATTLETALK_001","総員、帝国軍を殲滅せよ！"
-113,"TEXT_MANWIL302_00682_IMPERIALCENTURION_BATTLETALK_001","飛空艇に近づけさせるな！"
-114,"TEXT_MANWIL302_00682_IMPERIALCENTURION_BATTLETALK_002","エオルゼアの野蛮人が調子に乗りおって！"
-115,"TEXT_MANWIL302_00682_IMPERIALCENTURION_BATTLETALK_003","おい、アレを使うぞッ！"
-116,"TEXT_MANWIL302_00682_IMPERIALCENTURION_BATTLETALK_004","ゆけッ、魔導ヴァンガードよ！
-魔導技術の恐ろしさを思い知らせてやれ！"
-117,"TEXT_MANWIL302_00682_FLAMELT_BATTLETALK_DEAD","くそっ……あとは任せたぞ……。"
-118,"TEXT_MANWIL302_00682_FLAMEPRIFIRST_BATTLETALK_DEAD","帝国軍め……撤退する……ッ！"
-119,"TEXT_MANWIL302_00682_QIB_GC_C_BATTLETALK_DEAD","ここまでか……あとは頼む……。"
+48,"TEXT_MANWIL302_00682_FLAMEOFFICER_000_1","Welcome back, adventurer! I take it General Raubahn's words kindled a fire within you?"
+49,"TEXT_MANWIL302_00682_Q1_000_1","Join the Immortal Flames?"
+50,"TEXT_MANWIL302_00682_A1_000_1","Yes"
+51,"TEXT_MANWIL302_00682_A1_000_2","No"
+52,"TEXT_MANWIL302_00682_FLAMEOFFICER_000_2","Excellent! I feared that the incident with the traitor may have soured your opinion of us. It gladdens me to see that isn't the case."
+53,"TEXT_MANWIL302_00682_FLAMEOFFICER_000_3","But before we can count you as one of our own, you must be formally inducted into our ranks."
+54,"TEXT_MANWIL302_00682_FLAMEOFFICER_000_4","Please proceed to <Switch(PlayerParameter(70))><Case(1)>the Hall of Flames on Ul'dah's Merchant Strip</Case><Case(2)>the Hall of Flames on Ul'dah's Merchant Strip</Case><Case(3)>the Hall of Flames</Case></Switch> and identify yourself to the personnel officer. I will notify him of your coming."
+55,"TEXT_MANWIL302_00682_FLAMEOFFICER_000_5","With your strength joined to ours, we shall surely prevail over our enemies, be they beastmen or imperials."
+56,"TEXT_MANWIL302_00682_FLAMEOFFICER_000_6","What? You cannot seriously be considering joining another Grand Company! Why, they are not nearly as <Emphasis>grand</Emphasis> as ours!"
+57,"TEXT_MANWIL302_00682_SERPENTOFFICER_000_10","I will not deny that I am disappointed, but I take comfort in the knowledge that individuals are permitted to transfer between Grand Companies. Know that the Order of the Twin Adder would be proud to have you should you undergo a change of heart."
+58,"TEXT_MANWIL302_00682_FLAMEOFFICER_000_11","Before you may take your place within our ranks, you must speak with the personnel officer at the Hall of Flames<Switch(PlayerParameter(70))><Case(1)> in Ul'dah</Case><Case(2)> in Ul'dah</Case><Case(3)></Case></Switch>. Pray do so at your earliest convenience. I, meanwhile, will bear word of your <Emphasis>excellent</Emphasis> decision to General Raubahn."
+59,"TEXT_MANWIL302_00682_STORMOFFICER_000_12","So you have decided to cast your lot with the Flames. Well, there is no help for it. Just remember that it's never too late to sign on with a different crew."
+60,"TEXT_MANWIL302_00682_FLAMEPERSONNEL_000_20","What brings you to the Hall of Flames this <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>evening<Else/>morning</If><Else/><If(LessThan(PlayerParameter(11),17))>day<Else/>evening</If></If>, adventurer?"
+61,"TEXT_MANWIL302_00682_Q2_000_1","How will you respond?"
+62,"TEXT_MANWIL302_00682_A2_000_1","My name is <Highlight>ObjectParameter(1)</Highlight>. I believe you are expecting me."
+63,"TEXT_MANWIL302_00682_A2_000_2","I am here to enlist, if you will have me."
+64,"TEXT_MANWIL302_00682_FLAMEPERSONNEL_000_21","Ah, I thought as much! You are just as our man at the Waking Sands described! It is an honor to meet you, <If(PlayerParameter(4))>madam<Else/>sir</If>!"
+65,"TEXT_MANWIL302_00682_FLAMEPERSONNEL_100_21","Is that so? Well then, I must ask you for your name. Ah, but let me guess. It is <Highlight>ObjectParameter(1)</Highlight>, is it not? Yes, you are just as our man at the Waking Sands described. Thank you for electing to join us."
+66,"TEXT_MANWIL302_00682_FLAMEPERSONNEL_000_22","Now, in order to formalize your─"
+67,"TEXT_MANWIL302_00682_FLAMEPRIVATE_000_23","Sir!"
+68,"TEXT_MANWIL302_00682_FLAMEPERSONNEL_000_24","Speak, Private."
+69,"TEXT_MANWIL302_00682_FLAMEPRIVATE_000_25","Imperials, sir! They've fired on a Highwind Skyways airship!"
+70,"TEXT_MANWIL302_00682_FLAMEPRIVATE_000_26","Scouts say she's coming down to the west, near Horizon's Edge!"
+71,"TEXT_MANWIL302_00682_FLAMEPERSONNEL_000_27","Bloody hells! Of all the times for this to happen!"
+72,"TEXT_MANWIL302_00682_FLAMEPERSONNEL_000_28","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, there's no time for formalities! The Immortal Flames need your help <Emphasis>now</Emphasis>!"
+73,"TEXT_MANWIL302_00682_FLAMEPERSONNEL_000_29","We're in the midst of a large-scale operation against the Amalj'aa, and we have no one to spare in western Thanalan. You must get to that ship before the Garleans do!"
+74,"TEXT_MANWIL302_00682_FLAMEPERSONNEL_000_30","If there are any survivors, see that they do not come to further harm. Now go!"
+75,"TEXT_MANWIL302_00682_Q3_000_1","Duty calls. Do you wish to proceed with
+“The Company You Keep (Immortal Flames)”?"
+76,"TEXT_MANWIL302_00682_A3_000_1","Yes"
+77,"TEXT_MANWIL302_00682_A3_000_2","No"
+78,"TEXT_MANWIL302_00682_BIGGS_000_40","(-Airship Crewman-)An adventurer!? What're you doing out here? No, wait─let's find some cover first..."
+79,"TEXT_MANWIL302_00682_BIGGS_000_41","(-Airship Crewman-)The Immortal Flames sent you? How do I know you're not an imperial spy? You don't even have a uniform!"
+80,"TEXT_MANWIL302_00682_FLAMELIEUTENANT_000_42","Are you all right, sir? Our scouts reported the attack on your craft. We've come to rescue you."
+81,"TEXT_MANWIL302_00682_FLAMELIEUTENANT_000_43","<Highlight>ObjectParameter(1)</Highlight>, yes? Glad to have you with us."
+82,"TEXT_MANWIL302_00682_IMPERIALSOLDIER_000_44","I have not seen a craft of this design before... That traitor Garlond has been busy."
+83,"TEXT_MANWIL302_00682_IMPERIALSOLDIER_000_45","The secrets of magitek are ours by right. They are not to be squandered upon the savages of this land."
+84,"TEXT_MANWIL302_00682_IMPERIALSOLDIER_000_46","We are taking this craft back to the fortress! Dismantle it if you must! And bring the engineer! Someone must pay for Garlond's crimes."
+85,"TEXT_MANWIL302_00682_FLAMELIEUTENANT_000_47","They mean to take the ship back to Castrum Meridianum, along with your friend."
+86,"TEXT_MANWIL302_00682_BIGGS_000_48","(-Airship Crewman-)Wedge! You have to help him! That fool of a Lalafell was hiding <Emphasis>inside</Emphasis> the <Emphasis>Tiny Bronco</Emphasis>!"
+87,"TEXT_MANWIL302_00682_FLAMELIEUTENANT_000_49","Nice-looking ship─though not the best place to have taken shelter, I agree."
+88,"TEXT_MANWIL302_00682_BIGGS_000_50","(-Airship Crewman-)It's the first airship we've built since the Calamity─the first since Master Garlond...well, since he went missing."
+89,"TEXT_MANWIL302_00682_BIGGS_000_51","(-Airship Crewman-)After years of work, she was finally ready for her first test flight. And she was <Emphasis>soaring</Emphasis>, she really was─till those bastards blasted her out of the sky!"
+90,"TEXT_MANWIL302_00682_FLAMELIEUTENANT_000_52","We attack on my command. Kill them quickly, and save the Lalafell if possible."
+91,"TEXT_MANWIL302_00682_FLAMELIEUTENANT_000_53","Is that clear, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>?"
+92,"TEXT_MANWIL302_00682_FLAMELIEUTENANT_000_54","Show them what becomes of those who play with fire! Charge!"
+93,"TEXT_MANWIL302_00682_IMPERIALSOLDIER_000_55","We're under attack! To arms!"
+94,"TEXT_MANWIL302_00682_WEDGE_000_60","Biggs!"
+95,"TEXT_MANWIL302_00682_BIGGS_000_61","Wedge! You shouldn't have stayed with the ship!"
+96,"TEXT_MANWIL302_00682_WEDGE_000_62","Th-That was a close one!"
+97,"TEXT_MANWIL302_00682_BIGGS_000_63","Too damn close. So...how's she look, anyway?"
+98,"TEXT_MANWIL302_00682_WEDGE_000_64","The auxiliary propeller is a dead loss, but I think we can wring enough thrust from the main propeller to get us airborne."
+99,"TEXT_MANWIL302_00682_BIGGS_000_65","A few minor modifications and we should be able to fly the <Emphasis>Tiny Bronco</Emphasis> home."
+100,"TEXT_MANWIL302_00682_FLAMELIEUTENANT_000_66","The imperials will come looking for their scouts, but we can defend this position until the engineers leave."
+101,"TEXT_MANWIL302_00682_FLAMELIEUTENANT_000_67","You should go, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. You still have unfinished business to attend to at the Hall of Flames."
+102,"TEXT_MANWIL302_00682_FLAMELIEUTENANT_000_68","You're not quite one of us yet, though anyone who'd seen you in action today would be forgiven for thinking otherwise."
+103,"TEXT_MANWIL302_00682_BIGGS_000_69","I, um...just wanted to say sorry...you know, for calling you an imperial spy and all that... Got <Emphasis>that</Emphasis> one wrong, didn't I!? Ha ha! Seriously, though─if it hadn't been for you and the Immortal Flames lads there, we'd be chained up in a dungeon by now. I'm in your debt, friend─we both are."
+104,"TEXT_MANWIL302_00682_BIGGS_000_70","Wedge!"
+105,"TEXT_MANWIL302_00682_WEDGE_000_71","Thank you! We're very grateful!"
+106,"TEXT_MANWIL302_00682_FLAMEPERSONNEL_000_80","Welcome back, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Word of your deeds in the field reached me not long ago. Exemplary service!"
+107,"TEXT_MANWIL302_00682_FLAMEPERSONNEL_000_81","Rest assured that the Garlond Ironworks engineers are fine. They were able to get their vessel back in the air before imperial reinforcements arrived."
+108,"TEXT_MANWIL302_00682_FLAMEPERSONNEL_000_82","Your willingness to assist us on such short notice is to be commended. Clearly, your reputation is well deserved. "
+109,"TEXT_MANWIL302_00682_FLAMEPERSONNEL_000_83","Now then, I believe we have some unfinished business."
+110,"TEXT_MANWIL302_00682_FLAMEPERSONNEL_000_84","Shall we continue from where we left off and induct you into the Immortal Flames?"
+111,"TEXT_MANWIL302_00682_QIB_TODO_001","Defeat the imperial soldiers!"
+112,"TEXT_MANWIL302_00682_FLAMELT_BATTLETALK_001","Give them no quarter, Flames!"
+113,"TEXT_MANWIL302_00682_IMPERIALCENTURION_BATTLETALK_001","Defend the airship! Kill the savages!"
+114,"TEXT_MANWIL302_00682_IMPERIALCENTURION_BATTLETALK_002","What are you doing!? Kill them, I said!"
+115,"TEXT_MANWIL302_00682_IMPERIALCENTURION_BATTLETALK_003","Where's that bloody vanguard!? We need it NOW!"
+116,"TEXT_MANWIL302_00682_IMPERIALCENTURION_BATTLETALK_004","Hahaha! Show them no mercy!"
+117,"TEXT_MANWIL302_00682_FLAMELT_BATTLETALK_DEAD","Keep fighting, damn it... Don't...let them..."
+118,"TEXT_MANWIL302_00682_FLAMEPRIFIRST_BATTLETALK_DEAD","S-Sir...I don't think I can..."
+119,"TEXT_MANWIL302_00682_QIB_GC_C_BATTLETALK_DEAD","Not now! Not like this..."

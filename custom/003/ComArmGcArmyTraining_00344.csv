@@ -1,92 +1,48 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_COMARMGCARMYTRAINING_00344_MENU_YES","はい"
-1,"TEXT_COMARMGCARMYTRAINING_00344_MENU_NO","いいえ"
-2,"TEXT_COMARMGCARMYTRAINING_00344_MENU_CANCEL","キャンセル"
-3,"TEXT_COMARMGCARMYTRAINING_00344_MENU_TITLE_WAITING","実行中の訓練： なし"
-4,"TEXT_COMARMGCARMYTRAINING_00344_MENU_TITLE_TRAINING","実行中の訓練： <Sheet(GcArmyTraining,IntegerParameter(1),4)/>
-完了予定：<If(GreaterThan(IntegerParameter(2),0))>完了<Else/>残り<If(GreaterThan(IntegerParameter(4),0))><Value>IntegerParameter(4)</Value>時間<If(GreaterThan(IntegerParameter(3),0))><Value>IntegerParameter(3)</Value>分後<Else/></If><Else/><If(GreaterThan(IntegerParameter(3),0))><Value>IntegerParameter(3)</Value>分<Else/>1分以内</If></If></If> [<Time(IntegerParameter(5))/><Value>TopLevelParameter(222)</Value>/<Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(219)</Value> <Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue>]"
+0,"TEXT_COMARMGCARMYTRAINING_00344_MENU_YES","Yes"
+1,"TEXT_COMARMGCARMYTRAINING_00344_MENU_NO","No"
+2,"TEXT_COMARMGCARMYTRAINING_00344_MENU_CANCEL","Cancel"
+3,"TEXT_COMARMGCARMYTRAINING_00344_MENU_TITLE_WAITING","Current training course: None
+"
+4,"TEXT_COMARMGCARMYTRAINING_00344_MENU_TITLE_TRAINING","Current training course: <Sheet(GcArmyTraining,IntegerParameter(1),4)/>
+Training status: <If(GreaterThan(IntegerParameter(2),0))>Complete<Else/><If(GreaterThan(IntegerParameter(4),0))><Value>IntegerParameter(4)</Value> <If(Equal(IntegerParameter(4),1))>hour<Else/>hours</If><If(GreaterThan(IntegerParameter(3),0))><If(GreaterThan(IntegerParameter(4),0))> and <Else/></If><Else/></If><If(GreaterThan(IntegerParameter(3),0))><Value>IntegerParameter(3)</Value> <If(Equal(IntegerParameter(3),1))>minute<Else/>minutes</If><Else/></If><Else/><If(GreaterThan(IntegerParameter(3),0))><Value>IntegerParameter(3)</Value> <If(Equal(IntegerParameter(3),1))>minute<Else/>minutes</If><Else/>Less than 1 minute</If></If> remaining</If> [<Time(IntegerParameter(5))/><If(Equal(PlayerParameter(77),3))><Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(222)</Value><Else/><Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(222)</Value></If> <Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue>]"
 5,"TEXT_COMARMGCARMYTRAINING_00344_MENU_TITLE_EXPEDITION","（★未使用／削除予定★）"
-6,"TEXT_COMARMGCARMYTRAINING_00344_MENU_SELECT_001","訓練メニューを開く"
-7,"TEXT_COMARMGCARMYTRAINING_00344_MENU_SELECT_002","実行中の訓練を中止する"
-8,"TEXT_COMARMGCARMYTRAINING_00344_MENU_SELECT_003","小隊情報を見る"
-9,"TEXT_COMARMGCARMYTRAINING_00344_TRAINING_ABORT_000","命令を実行していないため、
-中止することはできません。"
-10,"TEXT_COMARMGCARMYTRAINING_00344_TRAINING_ABORT_010","実行した命令が完了しているため、
-中止することはできません。"
+6,"TEXT_COMARMGCARMYTRAINING_00344_MENU_SELECT_001","Training Courses"
+7,"TEXT_COMARMGCARMYTRAINING_00344_MENU_SELECT_002","Abort Current Training Course"
+8,"TEXT_COMARMGCARMYTRAINING_00344_MENU_SELECT_003","View Squadron Roster"
+9,"TEXT_COMARMGCARMYTRAINING_00344_TRAINING_ABORT_000","Your squadron is not currently training."
+10,"TEXT_COMARMGCARMYTRAINING_00344_TRAINING_ABORT_010","Your squadron has already completed its current training course."
 11,"TEXT_COMARMGCARMYTRAINING_00344_SELECT_ABORT","<Sheet(GcArmyTraining,IntegerParameter(1),4)/>
-完了予定：<If(GreaterThan(IntegerParameter(3),0))><Value>IntegerParameter(3)</Value>時間<If(GreaterThan(IntegerParameter(2),0))><Value>IntegerParameter(2)</Value>分後<Else/></If><Else/><If(GreaterThan(IntegerParameter(2),0))><Value>IntegerParameter(2)</Value>分<Else/>1分以内</If></If> [<Time(IntegerParameter(4))/><Value>TopLevelParameter(222)</Value>/<Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(219)</Value> <Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue>]
-訓練を中止しますか？"
+Training status: <If(GreaterThan(IntegerParameter(3),0))><Value>IntegerParameter(3)</Value> <If(Equal(IntegerParameter(3),1))>hour<Else/>hours</If><If(GreaterThan(IntegerParameter(2),0))><If(GreaterThan(IntegerParameter(3),0))> and <Else/></If><Else/></If><If(GreaterThan(IntegerParameter(2),0))><Value>IntegerParameter(2)</Value> <If(Equal(IntegerParameter(2),1))>minute<Else/>minutes</If><Else/></If><Else/><If(GreaterThan(IntegerParameter(2),0))><Value>IntegerParameter(2)</Value> <If(Equal(IntegerParameter(2),1))>minute<Else/>minutes</If><Else/>Less than 1 minute</If></If> remaining [<Time(IntegerParameter(4))/><If(Equal(PlayerParameter(77),3))><Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(222)</Value><Else/><Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(219)</Value>/<Value>TopLevelParameter(222)</Value></If> <Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue>]
+Abort training?"
 12,"TEXT_COMARMGCARMYTRAINING_00344_SELECT_ABORT_EXPEDITION","（★未使用／削除予定★）"
 13,"TEXT_COMARMGCARMYTRAINING_00344_OFFICER_MESSAGE_000","（★未使用／削除予定★）"
 14,"TEXT_COMARMGCARMYTRAINING_00344_OFFICER_MESSAGE_010","（★未使用／削除予定★）"
 15,"TEXT_COMARMGCARMYTRAINING_00344_OFFICER_MESSAGE_020","（★未使用／削除予定★）"
-16,"TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_000_000","さっそく、「訓練」を開始するのですね！
-それでは、どのようなメニューにするのか、
-鍛えたい部分を意識しながら、選んでみてください！"
-17,"TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_001","「訓練」では、小隊の「小隊総合能力」、
-すなわち「総合身体能力」、「総合精神力」、「総合戦術練度」を、
-鍛え上げることができます。"
-18,"TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_002","選択した訓練の種類に応じて、
-どの小隊総合能力が上昇しやすいのかが変わるので、
-各小隊任務の達成に必要な能力値を目安に、訓練を行いましょう！"
-19,"TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_003","「訓練」は、（地球時間）1時間ほどかかります。
-完了時間は、メインコマンドの「コンテンツ情報」から、
-「コンテンツ情報一覧」を選ぶと確認できます。"
-20,"TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_004","これ以降、「訓練」の実行と結果の確認は、
-<Sheet(EObj,2007150,0)/>より行うことができます。"
-21,"TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_000_010","小官が見たところ、我らが部隊は順調に経験を積み、
-なかなかの実力を付けてきている様子……。
-さらなる高みを目指すべく、訓練や小隊任務に励みましょう！"
-22,"TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_011","「小隊総合能力」の合計が上限値に達しました。
-これ以降は、特定の総合能力を上げようとする場合、
-別の総合能力が下がってしまいます。"
-23,"TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_012","なお、「小隊総合能力」の上限値は、
-「小隊ランク」を高めることで、引きあげることができます。
-特殊な小隊任務を成功させ、ランクを上昇させましょう。"
-24,"TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_013","ただし、ランク上昇の条件となる小隊任務は、
-その他の任務に比べて、難易度が高い傾向があります。
-まずは、訓練や小隊任務を通じ、小隊員のレベルを上げましょう。"
-25,"TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_000_020","小官が見たところ、我らが部隊は順調に経験を積み、
-なかなかの実力を付けてきている様子……。
-さらなる高みを目指すべく、訓練や小隊任務に励みましょう！"
-26,"TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_021","「小隊総合能力」の合計が上限値に達しました。
-これ以降は、特定の総合能力を上げようとする場合、
-別の総合能力が下がってしまいます。"
-27,"TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_022","なお、「小隊総合能力」の上限値は、
-「小隊ランク」を高めることで、引きあげることができます。
-特殊な小隊任務を成功させ、ランクを上昇させましょう。"
-28,"TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_023","ただし、ランク上昇の条件となる小隊任務は、
-その他の任務に比べて、難易度が高い傾向があります。
-まずは、訓練や小隊任務を通じ、小隊員のレベルを上げましょう。"
-29,"TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_000_030","小官が見たところ、我らが部隊は順調に経験を積み、
-なかなかの実力を付けてきている様子……。
-さらなる高みを目指すべく、訓練や小隊任務に励みましょう！"
+16,"TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_000_000","Ready to begin the squadron's training, Commander? I think you'll find the course names are fairly self-explanatory."
+17,"TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_001","Training courses will improve squadron attributes, providing increases to the unit's overall physical, mental, and tactical strength."
+18,"TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_002","The focus on which attribute is improved varies from course to course, so consider the values required for completing the more difficult missions when planning a regimen for your recruits."
+19,"TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_003","Each training course takes 1 hour to complete (Earth time). The time remaining until a course is completed can be viewed by opening the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Timers<UIGlow>01</UIGlow><UIForeground>01</UIForeground> interface located under <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Duty<UIGlow>01</UIGlow><UIForeground>01</UIForeground> in the main menu."
+20,"TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_004","Examine the regimen board to begin training courses or check training results."
+21,"TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_000_010","It brings a tear to my eye to see how our little recruits have grown...because now we can push them twice as hard! What's next on the agenda, Commander?"
+22,"TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_011","The total value for squadron attributes has reached its maximum limit. Now that this maximum has been reached, any attempt to raise a certain attribute will result in the reduction of another."
+23,"TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_012","Maximum attribute values can be increased by improving your squadron rank, which is accomplished by successfully completing special missions."
+24,"TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_013","Be aware, however, that rank promotion missions are generally more difficult than standard deployments. It is advised that you raise the levels of your recruits through training and missions to improve the squadron's chances of success."
+25,"TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_000_020","I remember saying something about pushing the squadron twice as hard. That was a mistake. I should have said “thrice.”"
+26,"TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_021","The total value for squadron attributes has reached its maximum limit. Now that this maximum has been reached, any attempt to raise a certain attribute will result in the reduction of another."
+27,"TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_022","Maximum attribute values can be increased by improving your squadron rank, which is accomplished by successfully completing special missions."
+28,"TEXT_COMARMGCARMYTRAINING_00344_SYSTEM_000_023","Be aware, however, that rank promotion missions are generally more difficult than standard deployments. It is advised that you raise the levels of your recruits through training and missions to improve the squadron's chances of success."
+29,"TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_000_030","We keep pushing those recruits, and they keep coming back for more! I say we pile on the pain, Commander!"
 30,"TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_000_031","（★未使用／削除予定★）"
-31,"TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_100_000","さっそく、「訓練」を開始するのですね！
-それでは、どのようなメニューにするのか、
-鍛えたい部分を意識しながら、選んでみてください！"
-32,"TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_100_010","小官が見たところ、我らが部隊は順調に経験を積み、
-なかなかの実力を付けてきている様子……。
-さらなる高みを目指すべく、訓練や小隊任務に励みましょう！"
-33,"TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_100_020","小官が見たところ、我らが部隊は順調に経験を積み、
-なかなかの実力を付けてきている様子……。
-さらなる高みを目指すべく、訓練や小隊任務に励みましょう！"
-34,"TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_100_030","小官が見たところ、我らが部隊は順調に経験を積み、
-なかなかの実力を付けてきている様子……。
-さらなる高みを目指すべく、訓練や小隊任務に励みましょう！"
+31,"TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_100_000","Ready to begin the squadron's training, Commander? I think you'll find the course names are fairly self-explanatory."
+32,"TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_100_010","It brings a tear to my eye to see how our little recruits have grown...because now we can push them twice as hard! What's next on the agenda, Commander?"
+33,"TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_100_020","I remember saying something about pushing the squadron twice as hard. That was a mistake. I should have said “thrice.”"
+34,"TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_100_030","We keep pushing those recruits, and they keep coming back for more! I say we pile on the pain, Commander!"
 35,"TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_100_031","（★未使用／削除予定★）"
-36,"TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_200_000","さっそく、「訓練」を開始するのですね！
-それでは、どのようなメニューにするのか、
-鍛えたい部分を意識しながら、選んでみてください！"
-37,"TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_200_010","小官が見たところ、我らが部隊は順調に経験を積み、
-なかなかの実力を付けてきている様子……。
-さらなる高みを目指すべく、訓練や小隊任務に励みましょう！"
-38,"TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_200_020","小官が見たところ、我らが部隊は順調に経験を積み、
-なかなかの実力を付けてきている様子……。
-さらなる高みを目指すべく、訓練や小隊任務に励みましょう！"
-39,"TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_200_030","小官が見たところ、我らが部隊は順調に経験を積み、
-なかなかの実力を付けてきている様子……。
-さらなる高みを目指すべく、訓練や小隊任務に励みましょう！"
+36,"TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_200_000","Ready to begin the squadron's training, Commander? I think you'll find the course names are fairly self-explanatory."
+37,"TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_200_010","It brings a tear to my eye to see how our little recruits have grown...because now we can push them twice as hard! What's next on the agenda, Commander?"
+38,"TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_200_020","I remember saying something about pushing the squadron twice as hard. That was a mistake. I should have said “thrice.”"
+39,"TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_200_030","We keep pushing those recruits, and they keep coming back for more! I say we pile on the pain, Commander!"
 40,"TEXT_COMARMGCARMYTRAINING_00344_PLATOONINSTRUCTOR_200_031","（★未使用／削除予定★）"

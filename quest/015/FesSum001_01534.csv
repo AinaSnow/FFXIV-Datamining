@@ -1,16 +1,12 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_FESSUM001_01534_SEQ_00","※本クエストは、期間限定のクエストとなります。
+0,"TEXT_FESSUM001_01534_SEQ_00","Event organizing is a cruel mistress, and one chaperone of the Moonfire Faire is determined that you should feel its heartless lash.
+※This quest is available for a limited time only."
+1,"TEXT_FESSUM001_01534_SEQ_01","According to a roving chaperone of the Moonfire Faire, the Adventurers' Guild is looking for members willing to help with the festivities. As a proud <If(PlayerParameter(4))>guildswoman<Else/>guildsman</If> and something of a sartorial adventurer, it would behoove you to slip on a <If(PlayerParameter(4))>red lady's yukata<Else/>blue lord's yukata</If> and take yourself to the Aftcastle. If the chief chaperone, Haermaga, is all that he is promised to be, this transaction would prove to be in your favor.
 
-紅蓮祭実行委員は、冒険者を祭りに誘いたいようだ。"
-1,"TEXT_FESSUM001_01534_SEQ_01","※本クエストは、シーズナルイベント開催中にかぎり、
-　受注、進行できます。
-　開催期間終了後は進行できませんので、ご注意ください。
-　期間等の詳細についてはLodestoneをご覧ください。
-
-紅蓮祭実行委員によれば、紅の祭典「紅蓮祭」の参加者を募っているようだ。冒険者ギルドの仕事を、お祭りの場でお客さんに披露したいらしい。冒険者ギルドの一員として、「<If(PlayerParameter(4))><Sheet(Item,2970,0)/><Else/><Sheet(Item,2967,0)/></If>」を着用し、リムサ・ロミンサのアフトカースルで待つ「紅蓮祭実行委員長ヘールマガ」に助力を申し出よう。"
-2,"TEXT_FESSUM001_01534_SEQ_02","紅蓮祭実行委員長ヘールマガに、祭りへの協力を依頼された冒険者。ヘールマガによれば、冒険者の日ごろの活動を広く子どもたちに知らせたいらしい。再びヘールマガに話を聞いて、リムサ・ロミンサ近郊で開催中の「紅蓮祭」の3つの出しものに参加しよう。参加者には、専用の衣装も支給されるらしい。"
+※Please note that you will be unable to complete this quest after the seasonal event has ended. For details, please check the Lodestone."
+2,"TEXT_FESSUM001_01534_SEQ_02","Haermaga is a trifle vague on the rationale of these festivities, but quite clear on the matter of reward. In return for participating in three events, you will receive prizes, plus a special costume. Your summer wardrobe is a little lacking, and it would be well for the commonfolk to see what an adventurer is made of. And if that should prove insufficient motivation, do it for the children."
 3,"TEXT_FESSUM001_01534_SEQ_03",""
 4,"TEXT_FESSUM001_01534_SEQ_04",""
 5,"TEXT_FESSUM001_01534_SEQ_05",""
@@ -32,7 +28,7 @@ int32,str,str
 21,"TEXT_FESSUM001_01534_SEQ_21",""
 22,"TEXT_FESSUM001_01534_SEQ_22",""
 23,"TEXT_FESSUM001_01534_SEQ_23",""
-24,"TEXT_FESSUM001_01534_TODO_00","<If(PlayerParameter(4))><Sheet(Item,2970,0)/><Else/><Sheet(Item,2967,0)/></If>を着てリムサ・ロミンサの紅蓮祭実行委員長ヘールマガと話す"
+24,"TEXT_FESSUM001_01534_TODO_00","Don a <If(PlayerParameter(4))>lady's yukata (red)<Else/>lord's yukata (blue)</If> and speak with Haermaga."
 25,"TEXT_FESSUM001_01534_TODO_01",""
 26,"TEXT_FESSUM001_01534_TODO_02",""
 27,"TEXT_FESSUM001_01534_TODO_03",""
@@ -56,48 +52,19 @@ int32,str,str
 45,"TEXT_FESSUM001_01534_TODO_21",""
 46,"TEXT_FESSUM001_01534_TODO_22",""
 47,"TEXT_FESSUM001_01534_TODO_23",""
-48,"TEXT_FESSUM001_01534_EXABU01534_000_000","冒険者ギルドが贈る紅の祭典「紅蓮祭」！
-リムサ・ロミンサにて、絶賛開催中だよ。
-きみも一緒に祭りを盛り上げてくれないか？"
-49,"TEXT_FESSUM001_01534_EXABU01534_000_001","紅蓮祭ってのは、炎の魔物「ボンバード」を倒すため、
-5年前に初めて開催された祭りでね……。"
-50,"TEXT_FESSUM001_01534_EXABU01534_000_002","といっても、今回は「ボンバード」が現れたわけじゃない。
-都市民にとっても、お馴染みになった紅蓮祭を利用して、
-冒険者ギルドの活動を、広く知らしめることにしたのさ。"
-51,"TEXT_FESSUM001_01534_EXABU01534_000_003","……どうだろう？　協力してくれるなら、
-リムサ・ロミンサへ赴いて「アフトカースル」にいる、
-紅蓮祭実行委員長「ヘールマガ」に参加を申し出てほしい。"
-52,"TEXT_FESSUM001_01534_EXABU01534_000_004","そうそう、ひとつ約束がある。
-参加者の目印として「<If(PlayerParameter(4))><Sheet(Item,2970,0)/><Else/><Sheet(Item,2967,0)/></If>」を
-着ていってほしいんだ。"
-53,"TEXT_FESSUM001_01534_EXABU01534_000_005","浴衣を持ってなければ「紅蓮祭販売担当」から購入できる。
-自腹になって申し訳ないんだが……そのかわり参加者には、
-別の新しい衣装も支給されるから、楽しみにしてくれ！"
-54,"TEXT_FESSUM001_01534_EXABU01534_000_010","紅蓮祭の参加希望者は、リムサ・ロミンサに向かい、
-アフトカースルの「紅蓮祭実行委員長ヘールマガ」に申し出て。
-目印の「<If(PlayerParameter(4))><Sheet(Item,2970,0)/><Else/><Sheet(Item,2967,0)/></If>」を忘れずに着てな。"
-55,"TEXT_FESSUM001_01534_EXABU01534_000_011","浴衣は「紅蓮祭販売担当」から買えるから、
-持ってなかったら、悪いが自前で用意してほしい。"
-56,"TEXT_FESSUM001_01534_HAERMAGA_000_020","紅蓮祭に協力してくれるって？　そいつあ、大歓迎だ！
-なんつっても今回は、冒険者サマが主役の祭りだからな。
-……祭りの趣旨はもう、聞いてきたよな？"
-57,"TEXT_FESSUM001_01534_HAERMAGA_000_021","簡単に言えば「冒険者のおしごと」の紹介ってわけだ！
-冒険者ギルドには、さまざまな仕事が舞い込んでくる。
-オレもあんたも知らねえような任務がゴマンとある。"
-58,"TEXT_FESSUM001_01534_HAERMAGA_000_022","そこで今回は、冒険者のあんたらに、ひと肌脱いでもらってだな。
-ギルドの日ごろの活動を、
-お客さんの前で披露しようってなワケよ！"
-59,"TEXT_FESSUM001_01534_HAERMAGA_000_023","祭りは、なんつっても子どもたちに楽しんでほしいんだ！
-冒険者の働く姿を見て「自分もあんな風になりたい！」って
-思う子がいっぱい出てくれたら大成功さ！"
-60,"TEXT_FESSUM001_01534_HAERMAGA_000_024","開催中の催しは、ぜんぶで3種類。
-それぞれの催しはもちろん、すべてに参加してくれたら、
-豪華な報酬を進呈させてもらうから、気張ってくれよ！"
-61,"TEXT_FESSUM001_01534_HAERMAGA_000_025","さあ、催しの会場を教えてやるから、
-準備ができたら、オレに声をかけてくれ！"
-62,"TEXT_FESSUM001_01534_HAERMAGA_000_030","……ん？　紅蓮祭参加希望だって？
-目印に「浴衣」を着てこいと言われなかったか？
-じゃないと、お客さんと区別がつかないからな。"
-63,"TEXT_FESSUM001_01534_HAERMAGA_000_031","つーわけで悪いんだが、
-「<If(PlayerParameter(4))><Sheet(Item,2970,0)/><Else/><Sheet(Item,2967,0)/></If>」を自前で用意してから来てくれ。
-持ってないなら、そこの「紅蓮祭販売担当」から買えるぞ。"
+48,"TEXT_FESSUM001_01534_EXABU01534_000_000","Oi, you there, the comely looking one! I take you for an adventurer, and your guild needs you to make this year's Moonfire Faire the merriest in living memory! What say you jaunt up to Limsa and lend a hand?"
+49,"TEXT_FESSUM001_01534_EXABU01534_000_001","In case you're unfamiliar with the festival, it was first held five years ago in order to extinguish the Bombards─fiery fiends who threatened to turn the whole realm into a living inferno. Now, the creatures haven't <Emphasis>actually</Emphasis> made a return this year, but that doesn't mean we can't have a scorching good time!"
+50,"TEXT_FESSUM001_01534_EXABU01534_000_002","In the absence of a real threat, we're focusing instead on making the commonfolk's love of the faire work for <Emphasis>us</Emphasis>, the rank-and-file adventurers! Guild identity and all that. Tsk-tsk, how guileless you are! A good name made by honest work is nothing unless kept well polished by favorable talk."
+51,"TEXT_FESSUM001_01534_EXABU01534_000_003","So how about it, my innocent <If(PlayerParameter(4))>lass<Else/>lad</If>? Help your guild, help yourself? Go to the Aftcastle of Limsa Lominsa, then! There lumbers Haermaga, the grand chaperone of Moonfire Faire."
+52,"TEXT_FESSUM001_01534_EXABU01534_000_004","You must go garbed in a <If(PlayerParameter(4))>red lady's yukata<Else/>blue lord's yukata</If>, or he'll not know you for a friend. Not the sharpest axe in the armory, Haermaga─makes him a fine choice to sit atop the high chair for this undertaking."
+53,"TEXT_FESSUM001_01534_EXABU01534_000_005","If you've no yukata of your own, procure one at a Moonfire Faire vendor. Oh, quibble not─'tis but a small expense, and you'll receive a new set of raiments for assisting with the festivities."
+54,"TEXT_FESSUM001_01534_EXABU01534_000_010","If you wish to help with the Moonfire Faire, take yourself to Limsa Lominsa. Present yourself to Haermaga at the Aftcastle, and go garbed in a <If(PlayerParameter(4))>red lady's yukata<Else/>blue lord's yukata</If>, unless you wish to give the chief chaperone the wrong idea."
+55,"TEXT_FESSUM001_01534_EXABU01534_000_011","The yukata can be purchased from any Moonfire Faire vendor. And no, we'll not defray the expense! It's quite piddling as it is. Besides, the guild's coffers are for more pressing needs."
+56,"TEXT_FESSUM001_01534_HAERMAGA_000_020","So! You're here to muck in and churn it up for the Moonfire Faire? That's the spirit─the adventuring spirit! Come to think of it, that's what the festivities are about, isn't it?"
+57,"TEXT_FESSUM001_01534_HAERMAGA_000_021","The adventuring trade has a─hang my tongue─has a <Emphasis>figuring</Emphasis> problem, see? The commonfolk can't figure out what we do, beyond doing that hither, doing this thither."
+58,"TEXT_FESSUM001_01534_HAERMAGA_000_022","What we need's a real adventurer living by the sweat of <If(PlayerParameter(4))>her<Else/>his</If> brow, showing everyone how it's done! And what we do! You know, mucking in, living it up! Making it real!"
+59,"TEXT_FESSUM001_01534_HAERMAGA_000_023","What else? Oh! It's about the children. I don't rightly remember why, but it's about the children. Because...because they grow up, that's right. Where would the guild be without the next generation? Getting old, that's where we'd be. Don't know about you, but I'm not spending my golden years crafting ingots!"
+60,"TEXT_FESSUM001_01534_HAERMAGA_000_024","So we figured─or one of the other chaperones figured, I don't go to all the meetings─there should be three adventuring events. There's a prize for each one, and we'd be extra appreciative if you do all three!"
+61,"TEXT_FESSUM001_01534_HAERMAGA_000_025","So, ah, you ready to do this? If you are, I'll show you where you can find the events!"
+62,"TEXT_FESSUM001_01534_HAERMAGA_000_030","Er, you want to help with the Moonfire Faire? Where's your yukata? You're supposed to be wearing one of those─they told me that was decided at the meeting. Sorry, no exceptions!"
+63,"TEXT_FESSUM001_01534_HAERMAGA_000_031","But I'm a helpful sort of fellow. I'm the chief chaperone here, after all! You can buy a <If(PlayerParameter(4))>red lady's yukata<Else/>blue lord's yukata</If> from any Moonfire Faire vendor. Then you'll be ready to muck in and do your bit for the guild!"

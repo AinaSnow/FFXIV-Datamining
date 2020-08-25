@@ -1,14 +1,14 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ428_02751_SEQ_00","無二江流域のギョリンは、冒険者に付いてきてほしいようだ。"
-1,"TEXT_STMBDZ428_02751_SEQ_01","ギョリンと話した。ひとやま当てる方法がないか、ギョフに話を聞いてみるという。ユヅカ代官屋敷の「ギョリン」と話そう。"
-2,"TEXT_STMBDZ428_02751_SEQ_02","ギョリンと話した。ギョフに話を聞くと、東の方にある帝国軍の拠点跡には、宝が眠っているかもしれないという。無茶はするなというギョフの忠告をよそに、さっそく現地に向かってしまったギョリン。ギョリンを追いかけ、無二江流域にいる「ギョリン」と再度話そう。"
-3,"TEXT_STMBDZ428_02751_SEQ_03","ギョリンと話した。再び帝国軍の拠点跡に向かったギョリンを追いかけ、カストルム・フルーミニスにいる「ギョリン」ともう一度話そう。"
-4,"TEXT_STMBDZ428_02751_SEQ_04","ギョリンと話した。人狼族がたむろしているのを見つけたので、引きつけておいてほしいという。カストルム・フルーミニスで「<Sheet(BNpcName,5883,0)/>」を討伐しよう。"
-5,"TEXT_STMBDZ428_02751_SEQ_05","<Sheet(BNpcName,5883,0)/>を討伐した。カストルム・フルーミニスの「ギョリン」と話そう。"
-6,"TEXT_STMBDZ428_02751_SEQ_06","ギョリンと話した。冒険者が敵を引きつけている間に、よさそうなモノを手に入れられたと語るギョリン。ユヅカ代官屋敷で「ギョリン」と再度話そう。"
-7,"TEXT_STMBDZ428_02751_SEQ_07","ギョリンと話した。ギョフに見てもらうと、どの武器も、少し手直しすれば使えそうなものばかりで、売れるに違いないとお墨付きをもらえた。それを聞いたギョリンは、「成金屋」なるお店を開いて頑張っていくと語るのであった。"
+0,"TEXT_STMBDZ428_02751_SEQ_00","At the Glittering Basin, Gyorin is making it all too obvious he wants you to talk to him."
+1,"TEXT_STMBDZ428_02751_SEQ_01","Gyorin decides to seek the counsel of Gyofu in his unrelenting pursuit of mercantile greatness. Travel to Yuzuka Manor and speak with Gyorin once more."
+2,"TEXT_STMBDZ428_02751_SEQ_02","Gyofu tells Gyorin that there are treasures still buried within the ruins of a Garlean stronghold to the east. Gyorin ignores Gyofu's warnings and departs for the ruins immediately. Follow Gyorin, and speak to him at the Glittering Basin."
+3,"TEXT_STMBDZ428_02751_SEQ_03","Gyorin continues in the direction of the Garlean stronghold ruins. Follow him once more, and speak to him in Castrum Fluminis."
+4,"TEXT_STMBDZ428_02751_SEQ_04","Gyorin discovers a band of Lupin, and asks you to create a diversion. Defeat Lupin looters in Castrum Fluminis."
+5,"TEXT_STMBDZ428_02751_SEQ_05","You defeated the Lupin looters. Speak with Gyorin in Castrum Fluminis."
+6,"TEXT_STMBDZ428_02751_SEQ_06","Gyorin tells you that he was able to find something valuable while you were distracting the Lupin. Return to Yuzuka Manor and speak with Gyorin once more."
+7,"TEXT_STMBDZ428_02751_SEQ_07","Gyofu appraises Gyorin's haul, and determines that all of the weapons can be sold after some minor repairs. Upon hearing the good news, Gyorin resolves to open his own shop, which he will name The New Rich, and continue on the path to greatness."
 8,"TEXT_STMBDZ428_02751_SEQ_08",""
 9,"TEXT_STMBDZ428_02751_SEQ_09",""
 10,"TEXT_STMBDZ428_02751_SEQ_10",""
@@ -25,12 +25,12 @@ int32,str,str
 21,"TEXT_STMBDZ428_02751_SEQ_21",""
 22,"TEXT_STMBDZ428_02751_SEQ_22",""
 23,"TEXT_STMBDZ428_02751_SEQ_23",""
-24,"TEXT_STMBDZ428_02751_TODO_00","ギョリンと話す"
-25,"TEXT_STMBDZ428_02751_TODO_01","ギョリンと再度話す"
-26,"TEXT_STMBDZ428_02751_TODO_02","ギョリンともう一度話す"
-27,"TEXT_STMBDZ428_02751_TODO_03","<Sheet(BNpcName,5883,0)/>を討伐"
-28,"TEXT_STMBDZ428_02751_TODO_04","ギョリンと話す"
-29,"TEXT_STMBDZ428_02751_TODO_05","ギョリンと再度話す"
+24,"TEXT_STMBDZ428_02751_TODO_00","Speak with Gyorin."
+25,"TEXT_STMBDZ428_02751_TODO_01","Speak with Gyorin once more."
+26,"TEXT_STMBDZ428_02751_TODO_02","Speak with Gyorin once again."
+27,"TEXT_STMBDZ428_02751_TODO_03","Defeat Lupin looters."
+28,"TEXT_STMBDZ428_02751_TODO_04","Speak with Gyorin."
+29,"TEXT_STMBDZ428_02751_TODO_05","Speak with Gyorin once more."
 30,"TEXT_STMBDZ428_02751_TODO_06",""
 31,"TEXT_STMBDZ428_02751_TODO_07",""
 32,"TEXT_STMBDZ428_02751_TODO_08",""
@@ -49,87 +49,36 @@ int32,str,str
 45,"TEXT_STMBDZ428_02751_TODO_21",""
 46,"TEXT_STMBDZ428_02751_TODO_22",""
 47,"TEXT_STMBDZ428_02751_TODO_23",""
-48,"TEXT_STMBDZ428_02751_GYORIN_000_000","ひとやま当てられる方法がないか、
-ギョフさんに話を聞いてみようと思うんだよん。
-<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>も来て、一緒に聞いてみてほしいのねん。"
-49,"TEXT_STMBDZ428_02751_GYOFU_000_001","どうしたっぺか？
-ギョリンのやつ、なんだか暗い顔をしているっぺよ。"
-50,"TEXT_STMBDZ428_02751_GYORIN_000_010","ギョフさん、ギョフさん。
-ちょいと、教えてほしいことがあるのねん。"
-51,"TEXT_STMBDZ428_02751_GYOFU_000_011","おうおう、どうしたっぺか？
-なんだか暗い顔をしているっぺよ。"
-52,"TEXT_STMBDZ428_02751_GYORIN_000_012","実は、お金持ちになるために、絵巻物を読んで、
-いろいろなことをやってみているんだけれど、
-どれもなかなかうまくいかないのねん……。"
-53,"TEXT_STMBDZ428_02751_GYORIN_000_013","それで、ギョフさんなら、
-何かいい方法を知ってるんじゃないかと思って……
-心当たりがあったら、教えて欲しいのねん。"
-54,"TEXT_STMBDZ428_02751_GYOFU_000_014","金持ちになる方法っぺか？
-そうさな……ちっとばかり危険を伴うかもしれないが、
-こんなのはどうっぺか？"
-55,"TEXT_STMBDZ428_02751_GYOFU_000_015","東の方に、帝国軍の拠点跡があるのは知ってるっぺな？
-あそこにゃ、捨てられた武器やら何やらが、
-そのまま転がってるって噂っぺよ。"
-56,"TEXT_STMBDZ428_02751_GYOFU_000_016","もしかしたら、そんなかにはドマのヒトも作れんような、
-とびっきりのお宝が眠ってるかもしれんっぺな。"
-57,"TEXT_STMBDZ428_02751_GYOFU_000_017","……ただ、あの辺りは、野盗と化した人狼族や、
-タオチュアンって化け犬が、ウヨウヨしてる危険地帯……。
-死んだら金持ちにはなれんから、無茶はやめるっぺよ？"
-58,"TEXT_STMBDZ428_02751_GYORIN_000_018","おぉ、あそこにお宝が眠ってるかもしれないのん！？
-いい情報を、どうもありがとなのねん！"
-59,"TEXT_STMBDZ428_02751_GYORIN_000_019","大金持ちになるには、
-少し無茶なことにも挑戦しないとダメだって、
-絵巻物にも書いてあったから、行ってみるよん♪"
-60,"TEXT_STMBDZ428_02751_GYORIN_000_020","でも、襲われちゃったりしたら怖いから、
-<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>も一緒に来てほしいのねん！
-さっそく行くとするから、付いてきてほしいのねんっ♪"
-61,"TEXT_STMBDZ428_02751_GYOFU_000_021","ギョリンのやつ、忠告を聞きゃしないっぺな……。
-旅の方、悪いがあいつのこと、よろしく頼むっぺよ？"
-62,"TEXT_STMBDZ428_02751_GYORIN_000_030","ここまでは、驚くほど魔物たちに気づかれてないよん！
-もしかしてボクって、
-存在を察知されない才能があったりするのかなん？"
-63,"TEXT_STMBDZ428_02751_GYORIN_000_031","この調子で、一切バレずに、
-帝国軍の拠点跡まで行ってみせるよんっ♪"
-64,"TEXT_STMBDZ428_02751_GYORIN_000_040","まるで魔物に気付かれずに着いちゃったよん！
-さてと、ここからが本番……
-お宝を手に入れてこなくっちゃねん♪"
-65,"TEXT_STMBDZ428_02751_GYORIN_000_041","そうそう、向こうの方を覗いてたら、
-怖そうな人狼族がたむろしているのを見つけたんだよん。"
-66,"TEXT_STMBDZ428_02751_GYORIN_000_042","ボクがコンテナで売れそうなモノを探している間、
-あいつらを引きつけておいてほしいのねん。
-<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>は強いからきっと大丈夫、よろしくね～ん！"
-67,"TEXT_STMBDZ428_02751_POPMESSAGE_100_042","敵が襲いかかってきた！！"
-68,"TEXT_STMBDZ428_02751_GYORIN_000_050","あいつらを引きつけてくれて、ありがとうねん！
-戦ってる音が聞こえて、ビクビクしたけれど、
-おかげで、よさそうなモノを手に入れられたよんっ♪"
-69,"TEXT_STMBDZ428_02751_GYORIN_000_051","持って帰って、ギョフさんに見てもらうとするよん。
-今度こそ、ヒトに売れそうなものだといいのねん……！"
-70,"TEXT_STMBDZ428_02751_GYOFU_000_052","ギョリンのやつ、やけにご機嫌だっぺな。
-何があったっぺよ？"
-71,"TEXT_STMBDZ428_02751_GYORIN_000_060","ギョフさん、基地からこんなのを取ってきたよん！
-どうかな、売れそうなものはあるかなん！？"
-72,"TEXT_STMBDZ428_02751_GYOFU_000_061","……本当にあんな場所まで行って、
-戻ってくるとは、たいした度胸っぺな……。
-どれどれ、見てやるとするっぺよ。"
-73,"TEXT_STMBDZ428_02751_GYOFU_000_062","ふむふむ……こいつはいいぞ……
-うむ、これも使えそうっぺな……。"
-74,"TEXT_STMBDZ428_02751_GYOFU_000_064","……見事っぺな、ギョリン！
-どの武器も、ちっとばかり手直しすれば使えそうっぺよ。"
-75,"TEXT_STMBDZ428_02751_GYOFU_000_065","帝国軍は追い出されちまったけど、
-ドマのヒトたちには、まだまだ武器が必要なはずっぺな。
-絶対に売れるはずっぺよ！"
-76,"TEXT_STMBDZ428_02751_GYOFU_000_066","ドマのヒトの中には、まだ帝国軍とやり合おうっていう、
-根性入った連中がいるらしいっぺな。
-絶対に売れるはずっぺよ！"
-77,"TEXT_STMBDZ428_02751_GYORIN_000_067","本当なのん？
-ボク、ついにヒトに売れそうなものを、
-手に入れられたのん！？"
-78,"TEXT_STMBDZ428_02751_GYOFU_000_068","おうよ、このギョフ様が保証するっぺな！
-これを売って得た金を元手に商売していきゃ、
-おみゃあのなりてぇ、大金持ちも夢じゃないっぺよ！"
-79,"TEXT_STMBDZ428_02751_GYORIN_000_069","ボクは決めたよん……。
-今日から、お店を開くよん！　屋号は名付けて「成金屋」！
-千客万来、商売繁盛、自慢のヒゲをピンと立てて、頑張るよん！"
-80,"TEXT_STMBDZ428_02751_GYORIN_000_070","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>が、ずっとつきあってくれたお陰だよん！
-本当にありがとなのねん、
-<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>は、ボクの親友なのねんっ♪"
+48,"TEXT_STMBDZ428_02751_GYORIN_000_000","I've got a new idea, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I'll leave the ideas to Gyofu─that is my idea! Yes, yes. Please, come with me. Let us hear what wisdom Gyofu has to offer."
+49,"TEXT_STMBDZ428_02751_GYOFU_000_001","What is it now? Gyorin looks more depressed than usual. More down, more despondent."
+50,"TEXT_STMBDZ428_02751_GYORIN_000_010","Gyofu, Gyofu! I have something to ask of you, and I want you to tell me all you know."
+51,"TEXT_STMBDZ428_02751_GYOFU_000_011","That much I can do. What is it, Gyorin? You're not looking your normal chipper self."
+52,"TEXT_STMBDZ428_02751_GYORIN_000_012","I've been reading my emakimono. They tell of so many ways to make one's fortune, and I've tried them all. Each one, every one. But I have yet to meet with any success."
+53,"TEXT_STMBDZ428_02751_GYORIN_000_013","And so I want to ask you, Gyofu. If you were in my barbels, what would you do? Do you know of any path I can walk to quick wealth? Any at all?"
+54,"TEXT_STMBDZ428_02751_GYOFU_000_014","A quick path to wealth? Hmmm... I suppose there is one thought that comes to mind. But it is dangerous. Very dangerous, indeed."
+55,"TEXT_STMBDZ428_02751_GYOFU_000_015","Do you know of the ruins that lie to the east of here? They were once a Garlean stronghold. Within them there still remain all manner of weapons, relics from the days of war. At least that is what the rumors say. Yes, yes."
+56,"TEXT_STMBDZ428_02751_GYOFU_000_016","There just might be some treasure there. Weapons so fine they would put even the smiths of Doma to shame. Maybe, maybe not. I cannot say for sure."
+57,"TEXT_STMBDZ428_02751_GYOFU_000_017","But what I can say for sure is this─those ruins and the way to them are fraught with peril. Lupin turned looters prowl the place. Monstrous hounds called taoquan lurk in the shadows. There is no wealth to be had in death, Gyorin. No, no. You should not go to this place."
+58,"TEXT_STMBDZ428_02751_GYORIN_000_018","Treasures! Relics! It is more than I hoped for. Thank you, Gyofu. I knew I was right to ask you."
+59,"TEXT_STMBDZ428_02751_GYORIN_000_019","It would not be a quick path to wealth if it were not dangerous along the way. That, too, was written in my emakimono. I will go to these ruins, and I will find my fortune!"
+60,"TEXT_STMBDZ428_02751_GYORIN_000_020","Still, I do not stand much of a chance against Lupin and taoquan and whatever other dangers may come. Hmmm... Of course! You'll come with me, won't you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>? I knew that you would. Yes, yes. Come, then. Let us away!"
+61,"TEXT_STMBDZ428_02751_GYOFU_000_021","Gyorin never was one to listen to words of warning. I hate to burden you, but do look after him."
+62,"TEXT_STMBDZ428_02751_GYORIN_000_030","I've no idea how I made it this far without being seen. Not spotted, not smelled. Maybe I have a talent for going undetected. I wonder if that is a skill I could use to get rich..."
+63,"TEXT_STMBDZ428_02751_GYORIN_000_031","I will think more on it later. For now, let us keep the pace. I will make it all the way to the Garlean ruins without a soul other than you and I knowing of it. Yes, yes."
+64,"TEXT_STMBDZ428_02751_GYORIN_000_040","I've made it without a single beast or fiend taking notice of me. All too easy. But now for the hard part─to find whatever treasures await! "
+65,"TEXT_STMBDZ428_02751_GYORIN_000_041","By the by, I did see a horde of some rather mean-looking Lupin just over there. Very nasty, very feral."
+66,"TEXT_STMBDZ428_02751_GYORIN_000_042","So, here is my plan. While I search these containers for anything worth selling, you create a diversion and lure the Lupin away from me. Yes, yes. You are an adventurer. Surely you live for quests such as this."
+67,"TEXT_STMBDZ428_02751_POPMESSAGE_100_042","You are under attack!"
+68,"TEXT_STMBDZ428_02751_GYORIN_000_050","The perfect diversion! Thank you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I could hear the din of battle while I searched. I wanted desperately to come and help you, but I managed to stay true to my task. And lo, I found some relics that look quite valuable to my eye."
+69,"TEXT_STMBDZ428_02751_GYORIN_000_051","I will head back to the manor and show them to Gyofu. He will know if there is anything here worth selling. And I have a feeling that this time there is! Must be, has to be!"
+70,"TEXT_STMBDZ428_02751_GYOFU_000_052","Gyorin is looking quite pleased with himself, isn't he? I wonder what has gotten into him."
+71,"TEXT_STMBDZ428_02751_GYORIN_000_060","Look, Gyofu. I've returned from the Garlean ruins, and here is my haul. What do you think? Do you see anything here that will fetch a fair price at market?"
+72,"TEXT_STMBDZ428_02751_GYOFU_000_061","You truly went to the ruins!? <Emphasis>And</Emphasis> returned to speak of it? You're a braver Namazu than most, Gyorin. Courageous, bold. Come, then. Show me what you have."
+73,"TEXT_STMBDZ428_02751_GYOFU_000_062","Hmmm... This piece is very fine, indeed. And this one, as well. A truly fortuitous find."
+74,"TEXT_STMBDZ428_02751_GYOFU_000_064","Well done, Gyorin! Every weapon here looks to be valuable. They need a bit of touching up here and there, but yes, yes, they will fetch you a good deal of coin."
+75,"TEXT_STMBDZ428_02751_GYOFU_000_065","The Garleans have been flushed out from Doma, but the Domans still have need of arms to defend themselves. These weapons you've collected will certainly sell, and sell quickly. "
+76,"TEXT_STMBDZ428_02751_GYOFU_000_066","There are many Domans who still wish to fight the Garleans to the last. They will be more than willing to take these weapons off your hands, and part with a pretty gil to do so."
+77,"TEXT_STMBDZ428_02751_GYORIN_000_067","Do you think so? Truly? I finally found something worth selling? Worth peddling, worth vending?"
+78,"TEXT_STMBDZ428_02751_GYOFU_000_068","Have you ever known Gyofu to give a false appraisal? No, no. Your dream is at hand, Gyorin. Sell these weapons. Take the coin you make, and with it you can start down the path to becoming a legendary merchant!"
+79,"TEXT_STMBDZ428_02751_GYORIN_000_069","I will. I will. Starting this day! I am going to open my own shop. I will name it The New Rich! Customers will flock to my doors from all over Yanxia. Yes, yes. My business will thrive and my coffers will overflow. And my barbels will guide me to greatness!"
+80,"TEXT_STMBDZ428_02751_GYORIN_000_070","Thank you for all your help, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. You have been with me through it all. I will not forget you when I am at the top."

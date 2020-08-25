@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBWIL159_01427_SEQ_00","踊り子のペ・モルミンは、悩み事があるようだ。"
-1,"TEXT_SUBWIL159_01427_SEQ_01","ペ・モルミンから、舞踏会で踊りたいと相談された。舞踏会向けの踊りを教えてくれる舞踏家の「ギヨーノ」について、ウルダハの「ザル回廊」で情報を集めよう。"
-2,"TEXT_SUBWIL159_01427_SEQ_02","ご婦人方からギヨーノについての情報を集めた。ウルダハの政庁層にいるという「ギヨーノ」と話そう。"
-3,"TEXT_SUBWIL159_01427_SEQ_03","ギヨーノに話すと、まずは踊りの実力を見せろと言われた。ウルダハの政庁層にいる「ギヨーノ」に、エモート「踊る」をしよう。"
-4,"TEXT_SUBWIL159_01427_SEQ_04","ギヨーノに踊ってみせた。合流したペ・モルミンもギヨーノに踊ってみせたが、彼女の踊りは「薄っぺらい」と酷評されてしまった。しかし、冒険者の踊りを見て、新たな目標を打ち立てたペ・モルミン。彼女が「歌って戦える、冒険者系スーパーダンサー」になれる日は来るのだろうか……。"
+0,"TEXT_SUBWIL159_01427_SEQ_00","When P'molminn approaches, beware, for the impetuous Miqo'te always leads a merry dance."
+1,"TEXT_SUBWIL159_01427_SEQ_01","P'molminn the dancing girl aspires to a professional engagement at one of the grand balls. The legendary dancing master Guillaunaux is her only hope, and his whereabouts may be common knowledge among the uncommon set on the Steps of Thal."
+2,"TEXT_SUBWIL159_01427_SEQ_02","The ladies who lunch─and loure─inform you that Master Guillaunaux is eminently desirable and soon to be unavailable. Unless you catch up to him at the Hustings Strip, he may well slip through P'molminn's slender fingers."
+3,"TEXT_SUBWIL159_01427_SEQ_03","Master Guillaunaux proves less amenable to your overture than you had hoped. The only way to his heart─or even to something resembling a civil conversation─is to /dance for him on the Hustings Strip."
+4,"TEXT_SUBWIL159_01427_SEQ_04","The tormented dancing master praises the rugged potential of your dance, whilst dismissing P'molminn's overseasoned steps with cutting cruelty. Yet the Miqo'te's grit and caprice carry the day, and it is the master and the adventurer who are left staring after the student who never was."
 5,"TEXT_SUBWIL159_01427_SEQ_05",""
 6,"TEXT_SUBWIL159_01427_SEQ_06",""
 7,"TEXT_SUBWIL159_01427_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_SUBWIL159_01427_SEQ_21",""
 22,"TEXT_SUBWIL159_01427_SEQ_22",""
 23,"TEXT_SUBWIL159_01427_SEQ_23",""
-24,"TEXT_SUBWIL159_01427_TODO_00","ザル回廊でギヨーノについて情報を集める"
-25,"TEXT_SUBWIL159_01427_TODO_01","ギヨーノと話す"
-26,"TEXT_SUBWIL159_01427_TODO_02","ギヨーノに「踊る」をする"
+24,"TEXT_SUBWIL159_01427_TODO_00","Ask about Guillaunaux on the Steps of Thal."
+25,"TEXT_SUBWIL159_01427_TODO_01","Speak with Guillaunaux."
+26,"TEXT_SUBWIL159_01427_TODO_02","/dance for Guillaunaux."
 27,"TEXT_SUBWIL159_01427_TODO_03",""
 28,"TEXT_SUBWIL159_01427_TODO_04",""
 29,"TEXT_SUBWIL159_01427_TODO_05",""
@@ -49,127 +49,55 @@ int32,str,str
 45,"TEXT_SUBWIL159_01427_TODO_21",""
 46,"TEXT_SUBWIL159_01427_TODO_22",""
 47,"TEXT_SUBWIL159_01427_TODO_23",""
-48,"TEXT_SUBWIL159_01427_PMOLMINN_000_000","ごきげんいかが、<If(PlayerParameter(4))>おねーさん<Else/>おにーさん</If>！
-あたしは、ペ・モルミン。
-そこの市場で、踊り子をしてるの。"
-49,"TEXT_SUBWIL159_01427_PMOLMINN_000_001","踊るのって、すっごく楽しい！
-だけど……最近、このままでいいのかなって悩んでるんだ。"
-50,"TEXT_SUBWIL159_01427_PMOLMINN_000_002","あたし、もっと踊りを磨いて、華々しい舞台で踊りたい！
-目指すは……そう、とびきりのお金持ちだけが招待される、
-ウルダハ舞踏会の華よッ！"
-51,"TEXT_SUBWIL159_01427_PMOLMINN_000_003","そのためには、舞踏会向きの、お上品な踊りを覚えないと！
-……ねえ、冒険者さん、あたしに踊りを教えてくれる先生を、
-一緒に探してくれないかな？"
-52,"TEXT_SUBWIL159_01427_PMOLMINN_000_004","なんでも、「シャコウカイ」に出入りするご婦人に大人気の、
-「ギヨーノ」って舞踏家の先生がいるんだって！"
-53,"TEXT_SUBWIL159_01427_PMOLMINN_000_005","あたしは、この辺りで先生を探してみるから、
-あなたは「ザル回廊」の方をお願い。
-お金持ちの人なら、きっと知ってるはずだよ！"
-54,"TEXT_SUBWIL159_01427_PMOLMINN_000_010","「ギヨーノ」っていう、舞踏家の先生を探してほしいの。
-あなたは「ザル回廊」の方をお願い。
-お金持ちの人なら、きっと知ってるはずだよ！"
-55,"TEXT_SUBWIL159_01427_WOMENA01427_000_020","……ギヨーノ先生について知りたい？
-そうね……先生の教えてくださる踊りは、とても魅力的よ。
-だけど、誰もが習えるわけじゃないの。"
-56,"TEXT_SUBWIL159_01427_WOMENA01427_000_021","先生が踊りを教えるのは、踊りの才能を持つ者だけ……。
-あなたが習いたいと思っているなら、
-まずは自分が「踊れる」ってことを示さないとね。"
-57,"TEXT_SUBWIL159_01427_WOMENA01427_000_030","先生の踊りを習得するまで、私もずいぶん特訓したわ。
-あなたに、「アレ」が踊りこなせるかしら？"
-58,"TEXT_SUBWIL159_01427_SOSOTTA_000_040","……ギヨーノ先生？
-もちろん知ってるわ、さっきまでお稽古だったもの！"
-59,"TEXT_SUBWIL159_01427_SOSOTTA_000_041","先生から教わった踊りで、舞踏会の主役は頂いたも同然！
-あとは、踊りに似合う衣装を仕立ててもらうだけよ。"
-60,"TEXT_SUBWIL159_01427_SOSOTTA_000_042","……先生の居場所？
-それなら「政庁層」の方じゃないかしら。
-ランディングへ行くと、おっしゃっていたわ。"
-61,"TEXT_SUBWIL159_01427_SOSOTTA_000_049","先生なら「政庁層」の方じゃないかしら。
-ランディングへ行くと、おっしゃっていたわ。"
-62,"TEXT_SUBWIL159_01427_WOMENB01427_000_050","あら、ギヨーノ先生のお話？
-先生といえば……クルザスの出身だって、ご存知かしら？
-なんでも、踊りを教えながら世界を旅しているそうよ。"
-63,"TEXT_SUBWIL159_01427_WOMENB01427_000_051","先生の教えてくださる踊りは、
-イシュガルドの宮廷舞踊から発展したものなんですって。
-……そんな高貴な踊りを知る方が、なぜ旅人に？"
-64,"TEXT_SUBWIL159_01427_WOMENB01427_000_052","うーん、ミステリアス！
-間もなくウルダハを発たれてしまうそうだけど、
-是非また、お稽古をつけてほしいわぁ！"
-65,"TEXT_SUBWIL159_01427_WOMENB01427_000_060","ギヨーノ先生、次はいつウルダハにいらっしゃるのかしら？
-そのときまでに踊りを磨いて、
-先生に一目置かれる存在になりたいわ……！"
-66,"TEXT_SUBWIL159_01427_GUILLAUNAUX_000_070","……舞踏家のギヨーノを探している？
-それならば私のことだが……なんだね、キミは。
-冒険者が何のようだね？"
-67,"TEXT_SUBWIL159_01427_GUILLAUNAUX_000_071","……もしや、弟子入り希望者か？
-ならば、まずはキミが相応の「踊り」手であると証明しろ。
-話はそれからだ。"
-68,"TEXT_SUBWIL159_01427_GUILLAUNAUX_000_080","どうした……？
-弟子入りしたいのなら、
-まずはキミが相応の「踊り」手であると証明しろ。"
-69,"TEXT_SUBWIL159_01427_GUILLAUNAUX_000_081","……何がしたいんだ？
-ひやかしならば帰ってくれ。
-そろそろ、旅立ちの時刻なんだ。"
-70,"TEXT_SUBWIL159_01427_GUILLAUNAUX_000_090","……ほう、なかなかだな。
-荒削りだが、内に秘めた魂の躍動を感じる。"
-71,"TEXT_SUBWIL159_01427_GUILLAUNAUX_000_091","弟子が多くて忙しい身だが……。
-ふむ……ウルダハに再来する日があれば、
-キミに個別指導するのも、やぶさかではないな。"
-72,"TEXT_SUBWIL159_01427_PMOLMINN_000_092","<If(PlayerParameter(4))>おねーさん<Else/>おにーさん</If>！
-舞踏家の先生は見つかった？"
-73,"TEXT_SUBWIL159_01427_PMOLMINN_000_093","うにゃッ！？
-こ、このヒトがギヨーノ先生！？
-わわわ……えーと……その…………あたし……ッ！"
-74,"TEXT_SUBWIL159_01427_PMOLMINN_000_094","あたし、舞踏会で踊りたいの！
-先生ッ！
-……あたしを「イチニンマエ」の踊り子にしてくださいッ！"
-75,"TEXT_SUBWIL159_01427_GUILLAUNAUX_000_095","……なるほど、弟子になりたいのは、
-こちらの不躾な娘というわけか。"
-76,"TEXT_SUBWIL159_01427_GUILLAUNAUX_000_096","娘よ、このギヨーノが指導するのは、
-踊りの才を持つ者のみ。
-……まずは私の踊りを真似て、キミの実力を見せてみろ！"
-77,"TEXT_SUBWIL159_01427_PMOLMINN_000_097","ゴクッ……。
-これが、舞踏会に通用する踊り……！"
-78,"TEXT_SUBWIL159_01427_PMOLMINN_000_098","でも大丈夫。
-これくらい……あたしなら、きっと踊れる！
-行きますッ！！"
-79,"TEXT_SUBWIL159_01427_GUILLAUNAUX_000_099","……駄目だな。
-まったくもって、お話にならない。"
-80,"TEXT_SUBWIL159_01427_PMOLMINN_000_100","そ、そんなぁ……！
-どうして！？　振り付けは完璧だったはず！"
-81,"TEXT_SUBWIL159_01427_GUILLAUNAUX_000_101","馬鹿め、重要なのは正しく踊れるかどうかではない。
-キミの踊りには……決定的に足りないものがある。"
-82,"TEXT_SUBWIL159_01427_GUILLAUNAUX_000_102","……そこの冒険者。
-今度は、キミが踊ってみろ。"
-83,"TEXT_SUBWIL159_01427_PMOLMINN_000_103","こ、これは……！"
-84,"TEXT_SUBWIL159_01427_PMOLMINN_000_104","特別に上手いわけじゃないのに……
-どうして！？　目が離せないッ……！"
-85,"TEXT_SUBWIL159_01427_PMOLMINN_000_105","技術の違い？
-……ううん、違う。
-この人の踊りに込められているのは……人生ッ！"
-86,"TEXT_SUBWIL159_01427_PMOLMINN_000_106","あたしとは、「人生の重み」が違うぅッ！！"
-87,"TEXT_SUBWIL159_01427_GUILLAUNAUX_000_107","……そうだ、キミの踊りは薄っぺらい。
-酔客の歓声に応えるだけの、安い踊りをしてきたんだろう。
-それが現実……キミの限界だ。"
-88,"TEXT_SUBWIL159_01427_GUILLAUNAUX_000_108","だが……己の夢まで、薄っぺらい幻想で終わらせるのか？
-舞踏会で踊りたいという情熱は、その程度なのか？"
-89,"TEXT_SUBWIL159_01427_GUILLAUNAUX_000_109","違うというなら、一歩を踏み出せ！
-踊りの遥か高みへと、茨の道を進む覚悟があるのなら……
-私に、ついてこいッ！"
-90,"TEXT_SUBWIL159_01427_PMOLMINN_000_110","……あたし……あたしは……ッ！"
-91,"TEXT_SUBWIL159_01427_PMOLMINN_000_111","感動しました！
-<If(PlayerParameter(4))>おねーさん<Else/>おにーさん</If>……ううん、<If(PlayerParameter(4))>おねーさま<Else/>おにーさま</If>ッ！！"
-92,"TEXT_SUBWIL159_01427_PMOLMINN_000_112","動きのポイントは？　何か特別な訓練を？
-何を考えて踊ってたんですか？
-重厚な人生の秘訣は、やっぱり冒険者をしてることですか？"
-93,"TEXT_SUBWIL159_01427_PMOLMINN_000_113","うーっ、あたしも、<If(PlayerParameter(4))>おねーさま<Else/>おにーさま</If>みたいになりたい！
-舞踏会のテッペンをとるためにも……
-目指すは歌って戦える、冒険者系スーパーダンサー！"
-94,"TEXT_SUBWIL159_01427_PMOLMINN_000_114","さっそく冒険者ギルドに登録しないと！
-<If(PlayerParameter(4))>おねーさま<Else/>おにーさま</If>、ありがとうございましたッ！"
-95,"TEXT_SUBWIL159_01427_GUILLAUNAUX_000_115","……あー……その、なんだ……。
-す、すべて、うまくいったみたいじゃないか！
-彼女にはキミが適任だと、わ、私も思っていたんだ……うん。"
-96,"TEXT_SUBWIL159_01427_GUILLAUNAUX_000_116","でで、で、では、そろそろ飛空艇の出発時刻だ。
-私は次の町へ行くが、あの踊りは好きに踊ってくれていい。"
-97,"TEXT_SUBWIL159_01427_GUILLAUNAUX_000_117","……く、悔しくなんてないんだからなッ！"
-98,"TEXT_SUBWIL159_01427_SYSTEM_000_300","エモートアクション「宮廷の舞」を覚えた！"
+48,"TEXT_SUBWIL159_01427_PMOLMINN_000_000","Psst, you there! Yes, darlin', you. They say you're the <If(PlayerParameter(4))>lass with the brass. Well, they call me that too, but for a different reason.<Else/>fellow to follow.</If> Name's P'molminn, and I earn my keep as a dancing girl in these markets."
+49,"TEXT_SUBWIL159_01427_PMOLMINN_000_001","Aye, it's a living─and a good one!─but it's not exactly what I set out to be when I bid farewell to the mudflats. I know, I know─isn't that the way the tail curls!"
+50,"TEXT_SUBWIL159_01427_PMOLMINN_000_002","Still, I should like to be one of those dancers dexter. You know, the sort they engage for the grand balls. Mmm, to be a dancer of <Emphasis>craft</Emphasis>, not mere wiles...and keep company in high society!"
+51,"TEXT_SUBWIL159_01427_PMOLMINN_000_003","'Course, I'd have to learn a proper sort of dancing─less shimmy, more stately. And that's where <Emphasis>you</Emphasis> come in, darlin', because I've got a quarry for you to track down."
+52,"TEXT_SUBWIL159_01427_PMOLMINN_000_004","They say a dancing master named Guillaunaux is in town. All the highborn ladies are aflutter wanting to take lessons with him. He's the best, that's the word!"
+53,"TEXT_SUBWIL159_01427_PMOLMINN_000_005","This is my chance to be something <Emphasis>finer</Emphasis> than Minnie the Minx! Go to the Steps of Thal and ask around about him, won't you? "
+54,"TEXT_SUBWIL159_01427_PMOLMINN_000_010","It's the dancing master Guillaunaux I need you to find. The fancy folk on the Steps of Thal, they're sure to know where he's about!"
+55,"TEXT_SUBWIL159_01427_WOMENA01427_000_020","Master Guillaunaux? Oh, it's lovely what he teaches. But strait is the gate, my good <If(PlayerParameter(4))>lady<Else/>sir</If>─he is very choosy about whom he teaches."
+56,"TEXT_SUBWIL159_01427_WOMENA01427_000_021","You must dance for him and show some...innate quality. Why, he wouldn't even accept Master Gegeruju's diamond-crusted crumpet, and she was quite the danseuse already."
+57,"TEXT_SUBWIL159_01427_WOMENA01427_000_030","Rather a martinet, Master Guillaunaux. He deigned to teach my milk-sister, and it took her nigh on two years to master a single step. I wonder how you'd fare."
+58,"TEXT_SUBWIL159_01427_SOSOTTA_000_040","Oh, of course I know where Master Guillaunaux is. Don't you see these roses on my cheeks? And the ever–so–slight droop in my supple carriage? I've just come from practice!"
+59,"TEXT_SUBWIL159_01427_SOSOTTA_000_041","You can stop wondering who the belle of the ball is to be next moon. With what Master Guillaunaux taught me, I've no doubt that I'll dazzle the masses!"
+60,"TEXT_SUBWIL159_01427_SOSOTTA_000_042","Where can you find him? Well, I oughtn't say, but...oh, why not! You should find him on the Hustings Strip. He said he was headed to the airship landing."
+61,"TEXT_SUBWIL159_01427_SOSOTTA_000_049","If you hurry, you'll probably catch Master Guillaunaux on the Hustings Strip. He had some business or other at the airship landing."
+62,"TEXT_SUBWIL159_01427_WOMENB01427_000_050","Are you another one of Master Guillaunaux's camp followers? So cute. You know he's from Coerthas, don't you? Travels the world teaching the art of the dance..."
+63,"TEXT_SUBWIL159_01427_WOMENB01427_000_051","They say he was the youngest dancing master ever to leap the lance. That he had a large estate, a fine stable, and a coat of crown sable. Why anyone would leave all that is beyond me."
+64,"TEXT_SUBWIL159_01427_WOMENB01427_000_052","When I think about that, it gives me <Emphasis>shivers</Emphasis>, you know? Why, if he weren't leaving Ul'dah today, I'd consider permitting him the pleasure of my person. Oh, don't look so shocked. Mayhap when he returns..."
+65,"TEXT_SUBWIL159_01427_WOMENB01427_000_060","I suppose I must work on my dancing until he returns. You don't think he'd insist on an audition for arts <Emphasis>other</Emphasis> than dancing, do you? That would be tedious."
+66,"TEXT_SUBWIL159_01427_GUILLAUNAUX_000_070","Master Guillaunaux? I am he. That you are an adventurer is apparent, but what business brings an adventurer to a dancing master, I wonder."
+67,"TEXT_SUBWIL159_01427_GUILLAUNAUX_000_071","At-tat! You will not answer where no question has been asked! It is the feet that must persuade, not the tongue. Now, <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>dance<UIGlow>01</UIGlow><UIForeground>01</UIForeground> for me!"
+68,"TEXT_SUBWIL159_01427_GUILLAUNAUX_000_080","If you will not <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>dance<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, begone! I would no more speak with a stillfoot than I would dwell among tyrants!"
+69,"TEXT_SUBWIL159_01427_GUILLAUNAUX_000_081","Plague me not if you have no <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>dance<UIGlow>01</UIGlow><UIForeground>01</UIForeground> to show me. I must leave this place ere long."
+70,"TEXT_SUBWIL159_01427_GUILLAUNAUX_000_090","The vessel is rude, but the wine within may yet be fined."
+71,"TEXT_SUBWIL159_01427_GUILLAUNAUX_000_091","Unfortunately, there is much call on my time, and I am bound for another land. I will make a dancer of you when next I return to this city."
+72,"TEXT_SUBWIL159_01427_PMOLMINN_000_092","There you are! Heard anything good? Hope you're not wasting time with that looker there."
+73,"TEXT_SUBWIL159_01427_PMOLMINN_000_093","Oh... <Emphasis>Oh</Emphasis>!
+M-Master Guillaunaux, I am P'molminn the dan...danseuse, and I would speak with you."
+74,"TEXT_SUBWIL159_01427_PMOLMINN_000_094","It is my greatest desire to become a dancer dexter, and perform at a grand ball. <Emphasis>Please</Emphasis>, milord, won't you teach me?"
+75,"TEXT_SUBWIL159_01427_GUILLAUNAUX_000_095","So. It is not the adventurer who wishes to tread the parquet, but this stammering maiden."
+76,"TEXT_SUBWIL159_01427_GUILLAUNAUX_000_096","Child, I sift people to find dancers. Do you understand? Then let us see whether you can master these steps!"
+77,"TEXT_SUBWIL159_01427_PMOLMINN_000_097","<gulp> ...That's how they do it in high society, huh?"
+78,"TEXT_SUBWIL159_01427_PMOLMINN_000_098","I can be the lass with <Emphasis>class</Emphasis>! Just watch!"
+79,"TEXT_SUBWIL159_01427_GUILLAUNAUX_000_099","Hideous. Grotesque. Your dancing stands alongside the Calamity in its horror."
+80,"TEXT_SUBWIL159_01427_PMOLMINN_000_100","W-Well! Those words might cow your highborn ladies, Master Guillaunaux, but where I come from, we take our lumps and keep on twirlin'! Now, what <Emphasis>exactly</Emphasis> didn't you like?"
+81,"TEXT_SUBWIL159_01427_GUILLAUNAUX_000_101","Child, you rely overmuch on appearances. You go from pose to pose, pleasing to pleasing. That is not dance, but crude fascination."
+82,"TEXT_SUBWIL159_01427_GUILLAUNAUX_000_102","Adventurer! Look sharp and take your turn on the floor."
+83,"TEXT_SUBWIL159_01427_PMOLMINN_000_103","I...I can't take my eyes off of you!"
+84,"TEXT_SUBWIL159_01427_PMOLMINN_000_104","I mean, you're not exactly good. You'd be picking rotten orange piths out of your eyebrows if you did that at the market, but..."
+85,"TEXT_SUBWIL159_01427_PMOLMINN_000_105","It's...it's a story, isn't it? A dance is a story...and I have nothing to say."
+86,"TEXT_SUBWIL159_01427_PMOLMINN_000_106","Because I haven't <Emphasis>lived</Emphasis>...just made a living."
+87,"TEXT_SUBWIL159_01427_GUILLAUNAUX_000_107","Aye, child. Ale-glazed eyes are easy to please, and you have squandered these years striking your poses when you could have learned a craft."
+88,"TEXT_SUBWIL159_01427_GUILLAUNAUX_000_108","Still, you have courage, I'll warrant that. I weary of teaching so many who may have lived, but in ways too alike. I wonder if you have courage enough."
+89,"TEXT_SUBWIL159_01427_GUILLAUNAUX_000_109","Do you dare start anew? To be a dancing girl no longer─to learn a true craft?"
+90,"TEXT_SUBWIL159_01427_PMOLMINN_000_110","I... I..."
+91,"TEXT_SUBWIL159_01427_PMOLMINN_000_111","I dare! I will learn the craft...of adventuring!"
+92,"TEXT_SUBWIL159_01427_PMOLMINN_000_112","Do you adventure for fun or gain? Do you have to be very good with weapons? Those moves you make with your arms─is that some fighty thing!? "
+93,"TEXT_SUBWIL159_01427_PMOLMINN_000_113","I want what you've got, darlin'! The way to the grand ball is through quests and dungeons. I'll learn to slog, I'll learn to slug...and I'll learn to dance!"
+94,"TEXT_SUBWIL159_01427_PMOLMINN_000_114","Thank you, <If(PlayerParameter(4))>milady<Else/>milord</If>, thank you! I'm off to the Adventurers' Guild. You've taught me so much, and I'll never forget that dance you showed me!"
+95,"TEXT_SUBWIL159_01427_GUILLAUNAUX_000_115","...Did she choose a mere adventurer over me, master among masters?"
+96,"TEXT_SUBWIL159_01427_GUILLAUNAUX_000_116","My airship departs this strange city soon. Dance your rude yet puissant dance, adventurer. Mayhap you will affect more aspirants as you did P'molminn."
+97,"TEXT_SUBWIL159_01427_GUILLAUNAUX_000_117","...Hah! And mayhap I shall hang up my dancing shoes and start anew!"
+98,"TEXT_SUBWIL159_01427_SYSTEM_000_300","You have learned the emote <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Ball Dance<UIGlow>01</UIGlow><UIForeground>01</UIForeground>!"

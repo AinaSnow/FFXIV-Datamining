@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBCTS897_03018_SEQ_00","ベスパーベイのスウィルゲイムは、冒険者にミラージュプリズムの製作法を教えたいようだ。"
-1,"TEXT_SUBCTS897_03018_SEQ_01","スウィルゲイムからお使いを頼まれた。ベスパーベイの「フォルクリンド」と話そう。"
-2,"TEXT_SUBCTS897_03018_SEQ_02","フォルクリンドと話して、「<Sheet(EventItem,2002417,0)/>」を受け取った。ベスパーベイの「スウィルゲイム」に「<Sheet(EventItem,2002417,0)/>」を渡そう。"
-3,"TEXT_SUBCTS897_03018_SEQ_03","スウィルゲイムに<Sheet(EventItem,2002417,0)/>を渡した。ゴベリンに彼女の紹介状を渡せば、ミラージュプリズムの製作法が記された秘伝書を売ってくれるという。ベスパーベイの「ゴベリン」に「<Sheet(EventItem,2002407,0)/>」を渡そう。"
-4,"TEXT_SUBCTS897_03018_SEQ_04","ゴベリンに<Sheet(EventItem,2002407,0)/>を渡した。彼から秘伝書を買えるようになったので、自分に合った物を買い、ミラージュプリズムを製作してみよう。"
+0,"TEXT_SUBCTS897_03018_SEQ_00","Swyrgeim wants you to learn how to craft glamour prisms."
+1,"TEXT_SUBCTS897_03018_SEQ_01","Swyrgeim is eager to assist your pursuit of cosmetic perfection. However, she demands another serving of expensive orange juice before giving any further advice."
+2,"TEXT_SUBCTS897_03018_SEQ_02","Folclind readies Swyrgeim's order while bemoaning the indolent fashion expert's unpaid debt. Nevertheless, the drink is soon yours, and soon to be Swyrgeim's, if you are to receive the boon of her wisdom."
+3,"TEXT_SUBCTS897_03018_SEQ_03","Swyrgeim gulps down the expensive orange juice before sending you to meet a merchant named Goberin. He deals in a range of wares for discerning dressers, including glamour prism recipe tomes."
+4,"TEXT_SUBCTS897_03018_SEQ_04","Having read the letter guaranteeing that you have the necessary credentials, Goberin permits you to view his selection of books. The tomes on offer describe the process for crafting glamour prisms, an essential skill for a self-reliant trailblazer of fashion such as yourself."
 5,"TEXT_SUBCTS897_03018_SEQ_05",""
 6,"TEXT_SUBCTS897_03018_SEQ_06",""
 7,"TEXT_SUBCTS897_03018_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_SUBCTS897_03018_SEQ_21",""
 22,"TEXT_SUBCTS897_03018_SEQ_22",""
 23,"TEXT_SUBCTS897_03018_SEQ_23",""
-24,"TEXT_SUBCTS897_03018_TODO_00","フォルクリンドと話す"
-25,"TEXT_SUBCTS897_03018_TODO_01","スウィルゲイムに<Sheet(EventItem,2002417,0)/>を渡す"
-26,"TEXT_SUBCTS897_03018_TODO_02","ゴベリンに<Sheet(EventItem,2002407,0)/>を渡す"
+24,"TEXT_SUBCTS897_03018_TODO_00","Speak with Folclind."
+25,"TEXT_SUBCTS897_03018_TODO_01","Deliver the Othardian orange juice to Swyrgeim."
+26,"TEXT_SUBCTS897_03018_TODO_02","Present the letter to Goberin."
 27,"TEXT_SUBCTS897_03018_TODO_03",""
 28,"TEXT_SUBCTS897_03018_TODO_04",""
 29,"TEXT_SUBCTS897_03018_TODO_05",""
@@ -49,60 +49,23 @@ int32,str,str
 45,"TEXT_SUBCTS897_03018_TODO_21",""
 46,"TEXT_SUBCTS897_03018_TODO_22",""
 47,"TEXT_SUBCTS897_03018_TODO_23",""
-48,"TEXT_SUBCTS897_03018_SWYRGEIM_000_000","ウフフ……アナタ、美のなんたるかを知っているわね。
-大丈夫よ、美の伝道師たるアテクシの領域になると、
-アナタのような職人にもビビッと来ちゃうの。"
-49,"TEXT_SUBCTS897_03018_SWYRGEIM_000_001","そんなアナタに、美を広めるための秘伝……
-具体的には「ミラージュプリズム」の製作法を伝授するのが、
-アテクシの天命だって気がしてるの、今なんとなく。"
-50,"TEXT_SUBCTS897_03018_SWYRGEIM_000_003","さっそく教えてあげるから、ちょっとお使いしてきて。
-その間に、アテクシは準備しておくから。"
-51,"TEXT_SUBCTS897_03018_SWYRGEIM_000_004","なんか、前にも同じこと頼んだ気もするけど、
-そこの酒場にいる「フォルクリンド」に声をかけて、
-飲み物をもらってきてほしいのよ……頼んだわねん。"
-52,"TEXT_SUBCTS897_03018_SWYRGEIM_000_010","あらァ、どうしたのかしら？
-酒場にいる「フォルクリンド」に声をかけて、
-アテクシの飲み物をもらってきなさァい。"
-53,"TEXT_SUBCTS897_03018_FOLCLIND_000_020","あら、またスウィルゲイムさんのお使いなの？
-今度こそ自分で取りにくると思ったのに、
-まったくあの人ときたら……。"
-54,"TEXT_SUBCTS897_03018_FOLCLIND_000_021","はい、これが頼まれていた、
-東方からきたオレンジっぽい果物のジュースよ。
-「スウィルゲイム」さんに渡してちょうだい。"
-55,"TEXT_SUBCTS897_03018_FOLCLIND_000_030","あのオレンジっぽいの、「みかん」って言うらしいわね。
-エオルゼアじゃあんまり見ない果物を、
-惜しげもなくジュースにしちゃうなんて、贅沢な話よね。"
-56,"TEXT_SUBCTS897_03018_SWYRGEIM_000_040","戻ってきたわねん。
-飲み物はちゃんともらえたかしら？"
-57,"TEXT_SUBCTS897_03018_SWYRGEIM_000_041","ウフフ、これよこれ！
-珍しい東方のみかんを使ったジュースこそ、
-美の伝道師に相応しいオリエンタルな飲み物だわん！"
-58,"TEXT_SUBCTS897_03018_SWYRGEIM_000_042","……さて、それじゃあ、教えてあげましょ。
-美を広めるための秘伝……
-「ミラージュプリズム」の製作法をね！"
-59,"TEXT_SUBCTS897_03018_SWYRGEIM_000_043","といっても、タダじゃ教えられないわ。
-……みかんを手に入れるのに散財しすぎたから、
-ギルを稼がないと、普通のオレンジジュースしか飲めないのよ。"
-60,"TEXT_SUBCTS897_03018_SWYRGEIM_000_044","あそこにいる「ゴベリン」に、この紹介状を渡せば、
-製作法を記した「秘伝書」を売ってくれるから、
-アテクシのジュース代のために、いっぱい買ってちょうだいな。"
-61,"TEXT_SUBCTS897_03018_SWYRGEIM_000_045","そうそう、レヴナンツトールにいるアテクシの友人、
-ウィスカードにも、アナタのことを話しておくわん。
-彼の店でも、いろいろと融通してくれるはずよ。"
-62,"TEXT_SUBCTS897_03018_SWYRGEIM_000_046","さあ、「ゴベリン」に紹介状を渡してきなさい。
-そして、「秘伝書」から「ミラージュプリズム」の製作法を学び、
-美を知る職人として、イケてない民衆に美を広めるのよ～～ッ！"
-63,"TEXT_SUBCTS897_03018_SWYRGEIM_000_050","アテクシの紹介状を「ゴベリン」に渡せば、
-「ミラージュプリズム」の「秘伝書」を売ってくれるわん。
-アテクシのジュース代のため、いっぱい買ってちょうだいな。"
-64,"TEXT_SUBCTS897_03018_GOBELIN_000_060","私は、美の伝道師の助手……
-美を追究したいのなら、見せてください。
-その懐にあるモノを……。"
-65,"TEXT_SUBCTS897_03018_GOBELIN_000_061","やはり持っていましたね。
-美の伝道師たるスウィルゲイム様からの紹介状を……。
-では、これより「秘伝書」の販売を開始しましょう。"
-66,"TEXT_SUBCTS897_03018_SYSTEM_000_062","ゴベリンから「秘伝書」を購入可能になりました。
-入手した「秘伝書」を使うことで、その秘伝書に記された
-アイテムのレシピを習得し、製作できるようになります。"
-67,"TEXT_SUBCTS897_03018_SYSTEM_000_063","また、モードゥナにいる「タタロガ」からも、
-ゴベリンと同様に「秘伝書」の購入が可能となりました。"
+48,"TEXT_SUBCTS897_03018_SWYRGEIM_000_000","Thanks to yours truly, you have a basic understanding of glamours, yes? I also understand you're no stranger to crafting this and that by yourself. It so happens these skills can be applied to a singular cause."
+49,"TEXT_SUBCTS897_03018_SWYRGEIM_000_001","Would you be interested in helping to bring more glamour to the world? By that, I mean learning to make glamour prisms, either for personal use or to aid the aesthetically underprivileged."
+50,"TEXT_SUBCTS897_03018_SWYRGEIM_000_003","I will explain everything in due course, but there is something I need to prepare beforehand."
+51,"TEXT_SUBCTS897_03018_SWYRGEIM_000_004","Bring me some Othardian orange juice in the meantime, would you? Just ask Folclind, same as last time. Well? Staring at me isn't going to get that orange juice poured any quicker! Hurry up, would you?"
+52,"TEXT_SUBCTS897_03018_SWYRGEIM_000_010","Don't tell me you're lost─it's only a few yalms away! I would get it myself, but as you can clearly see, I am rather busy."
+53,"TEXT_SUBCTS897_03018_FOLCLIND_000_020","Swyrgeim's still got you running errands, then? And she wants Othardian orange juice this time? Twelve preserve!"
+54,"TEXT_SUBCTS897_03018_FOLCLIND_000_021","Well, here it is. I think she and I need to have a little chat about her tab. This order alone costs more than some of our big-drinking regulars spend in a whole night!"
+55,"TEXT_SUBCTS897_03018_FOLCLIND_000_030","Around here, Othardian oranges are as rare as chocobo teeth. I can barely bring myself to squeeze the juice out of them, knowing how much they cost. I daren't spill a drop!"
+56,"TEXT_SUBCTS897_03018_SWYRGEIM_000_040","You have my drink, I take it?"
+57,"TEXT_SUBCTS897_03018_SWYRGEIM_000_041","Now that's what I call orange juice! Eastern oranges have a bitter kick that truly invigorates the soul!"
+58,"TEXT_SUBCTS897_03018_SWYRGEIM_000_042","Ahem! All that jumping around almost made it go down the wrong way. Anyway, before we begin, I have a confession to make."
+59,"TEXT_SUBCTS897_03018_SWYRGEIM_000_043","To be perfectly frank, my expensive tastes in orange juice have to be paid for somehow. While my intentions are sincere, my reasons for helping you are not entirely altruistic."
+60,"TEXT_SUBCTS897_03018_SWYRGEIM_000_044","Pass this letter to Goberin the merchant, and he'll allow you to browse his glamour prism recipe tomes. If you buy any of them, he'll give me a cut of the profits. You'll have the knowledge you seek, and I'll have money for orange juice. What could be more piquant?"
+61,"TEXT_SUBCTS897_03018_SWYRGEIM_000_045","I will also send word to my associate Wiscard in Revenant's Toll. We have a similar arrangement, and I'm sure you'll find his prices just as fair as Goberin's."
+62,"TEXT_SUBCTS897_03018_SWYRGEIM_000_046","You should start with Goberin though, since his stall's right there, by the Pissed Peiste. Once you've read one of those books, you'll be able to make the prisms yourself and share the glory of glamours with the masses!"
+63,"TEXT_SUBCTS897_03018_SWYRGEIM_000_050","Goberin is very particular about accepting new customers. But once he sees that you have my personal recommendation, he is sure to welcome you with open arms!"
+64,"TEXT_SUBCTS897_03018_GOBELIN_000_060","Ah, I sense you come in pursuit of true elegance. And is that a letter of introduction peeking from your pocket? May I see it?"
+65,"TEXT_SUBCTS897_03018_GOBELIN_000_061","Ah! So, you are Swyrgeim's protégé? And you wish to produce glamour prisms? A noble endeavor. My selection of tomes, reserved for only the most deserving, are yours to peruse."
+66,"TEXT_SUBCTS897_03018_SYSTEM_000_062","You may now purchase master crafting tomes from Goberin, as well as Tataroga in Mor Dhona."
+67,"TEXT_SUBCTS897_03018_SYSTEM_000_063","By using the tomes, you can learn the recipes within."

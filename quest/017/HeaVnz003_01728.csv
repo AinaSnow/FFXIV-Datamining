@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNZ003_01728_SEQ_00","忘れられた騎士亭のジブリオンは、常連客に酒をおごりたいようだ。"
-1,"TEXT_HEAVNZ003_01728_SEQ_01","ジブリオンは、常連客に酒をおごりたいようだ。忘れられた騎士亭の階段下にいる「酔うに酔えない男」に、「<Sheet(EventItem,2001801,0)/>」を渡そう。"
-2,"TEXT_HEAVNZ003_01728_SEQ_02","酔うに酔えない男に<Sheet(EventItem,2001801,0)/>を届けた。彼は貴族に仕えていたが、その家の婦人が異端者と協力関係にあったということで家が崩壊し、解雇されてしまったようだ。イシュガルド・ランディングにいる「元貴族の旦那」に「<Sheet(EventItem,2001801,0)/>」を渡そう。"
-3,"TEXT_HEAVNZ003_01728_SEQ_03","元貴族の旦那に<Sheet(EventItem,2001801,0)/>を渡した。もうすぐ飛空艇の搭乗の時間だが、息子の姿がないという。イシュガルド上層で「元貴族の子息」を探そう。"
-4,"TEXT_HEAVNZ003_01728_SEQ_04","元貴族の子息を見つけた。神聖裁判所は戦神「ハルオーネ」の前で戦うことで「セイギ」を示す場所らしい。元貴族の子息は自分が強ければ、という想いを残したまま去っていった。"
+0,"TEXT_HEAVNZ003_01728_SEQ_00","Gibrillont is never one to leave a patron fallen in the dumps."
+1,"TEXT_HEAVNZ003_01728_SEQ_01","A regular of the Forgotten Knight has fallen on hard times, and Gibrillont is counting on a bottle of mulled wine to grant him a few moments of solace. Take the bottle that Gibrillont has given you to the bibulous bloke in the basement."
+2,"TEXT_HEAVNZ003_01728_SEQ_02","You hand over the wine to the bibulous bloke, who still seems to be reeling at the recent course of events in his life. He tells you the lady of the noble house he served was accused of heresy, leading to a series of events that ultimately ruined the family and cost him his employment. But rather than drown his sorrows in wine, he asks that you take the bottle to his former lord, as a token of appreciation for allowing him to serve the family. Deliver the bottle of mulled wine to the title-stripped lord, who you are like to find near the airship landing."
+3,"TEXT_HEAVNZ003_01728_SEQ_03","You see the bottle of wine into the hands of the title-stripped noble. While he is touched at his former knight's concern, he has already resigned himself to the judgment of Halone, and has prepared to take an airship to parts unknown with his son. However, his son is missing, and he is starting to worry. He asks that you find his son before they are late for the flight."
+4,"TEXT_HEAVNZ003_01728_SEQ_04","You find the former noble's son standing not far from the Supreme Sacred Tribunal, where his mother stood trial. His father vowed to do all within his power to save the boy's mother and see justice served. Unfortunately, justice was not what they expected it to be. As the boy turns to leave for the airship landing, he cannot help but wish there was more he could have done to protect his mother."
 5,"TEXT_HEAVNZ003_01728_SEQ_05",""
 6,"TEXT_HEAVNZ003_01728_SEQ_06",""
 7,"TEXT_HEAVNZ003_01728_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_HEAVNZ003_01728_SEQ_21",""
 22,"TEXT_HEAVNZ003_01728_SEQ_22",""
 23,"TEXT_HEAVNZ003_01728_SEQ_23",""
-24,"TEXT_HEAVNZ003_01728_TODO_00","酔うに酔えない男に<Sheet(EventItem,2001801,0)/>を渡す"
-25,"TEXT_HEAVNZ003_01728_TODO_01","イシュガルド・ランディングの元貴族の旦那に<Sheet(EventItem,2001801,0)/>を渡す"
-26,"TEXT_HEAVNZ003_01728_TODO_02","元貴族の子息と話す"
+24,"TEXT_HEAVNZ003_01728_TODO_00","Deliver the bottle of mulled wine to the bibulous bloke."
+25,"TEXT_HEAVNZ003_01728_TODO_01","Deliver the bottle of mulled wine to the title–stripped noble."
+26,"TEXT_HEAVNZ003_01728_TODO_02","Search for the title–stripped noble's son near the Tribunal."
 27,"TEXT_HEAVNZ003_01728_TODO_03",""
 28,"TEXT_HEAVNZ003_01728_TODO_04",""
 29,"TEXT_HEAVNZ003_01728_TODO_05",""
@@ -49,54 +49,23 @@ int32,str,str
 45,"TEXT_HEAVNZ003_01728_TODO_21",""
 46,"TEXT_HEAVNZ003_01728_TODO_22",""
 47,"TEXT_HEAVNZ003_01728_TODO_23",""
-48,"TEXT_HEAVNZ003_01728_GIBRILLONT_000_000","お前さん、ちょっと頼まれてくれるか？
-階段下で飲んでいる男に、
-この「<Sheet(EventItem,2001801,0)/>」を届けてやっちゃくれないか？"
-49,"TEXT_HEAVNZ003_01728_GIBRILLONT_000_001","ウチの常連客なんだが、
-最近、仕事を失っちまってなぁ……。
-傷心のやっこさんに、一杯おごってやりたいのさ。"
-50,"TEXT_HEAVNZ003_01728_GIBRILLONT_000_010","ウチの常連客なんだが、
-最近、仕事を失っちまってなぁ……。
-傷心のやっこさんに、一杯おごってやりたいのさ。"
-51,"TEXT_HEAVNZ003_01728_TEARFILLEDSOLDIER01728_000_020","なんだって……なんだってこんなことに……。
-無常すぎるぜ……こんなの……。"
-52,"TEXT_HEAVNZ003_01728_TEARFILLEDSOLDIER01728_000_021","……ジブリオンの旦那からだって？
-こいつはありがてぇ……。
-何もかも……忘れたい気分なんだ……。"
-53,"TEXT_HEAVNZ003_01728_TEARFILLEDSOLDIER01728_000_022","つい先日まで、俺はある貴族に仕える騎兵だったんだ。
-だが、その家の夫人が異端告発されて、すべて変わっちまった。
-結局、旦那の爵位まで剥奪されて、俺も解雇ってわけよ。"
-54,"TEXT_HEAVNZ003_01728_TEARFILLEDSOLDIER01728_000_023","これを飲んで全部忘れちまいたい……
-……いや、やっぱり止めとこう。
-いくら飲んでも、今は酔えやしねぇ……。"
-55,"TEXT_HEAVNZ003_01728_TEARFILLEDSOLDIER01728_000_024","この「<Sheet(EventItem,2001801,0)/>」を、代わりに俺の元主……
-「元貴族の旦那」様に、餞別として届けてくれないか。
-まだ「イシュガルド・ランディング」にいるはずだ。"
-56,"TEXT_HEAVNZ003_01728_TEARFILLEDSOLDIER01728_000_025","旦那様は何も知らなかったんだ……あまりに不憫すぎる。
-せめて今までお世話になった礼をしたいが、
-顔を見たら、涙がとまらなくなっちまう……頼むよ。"
-57,"TEXT_HEAVNZ003_01728_TEARFILLEDSOLDIER01728_000_030","この「<Sheet(EventItem,2001801,0)/>」を俺の元主……
-「元貴族の旦那」様に、餞別として届けてくれないか。
-まだ「イシュガルド・ランディング」にいるはずだ。"
-58,"TEXT_HEAVNZ003_01728_ARISTOCRACYMAN01728_000_040","……はて、私に何かご用かな？"
-59,"TEXT_HEAVNZ003_01728_ARISTOCRACYMAN01728_000_041","……あの騎兵が私に？
-そうか、彼にも悪いことをしてしまったな……。
-異端告発された妻のため、私もできるだけのことはしたのだ。"
-60,"TEXT_HEAVNZ003_01728_ARISTOCRACYMAN01728_000_042","無罪を勝ち取ろうと「決闘裁判」に挑みもしたが、
-告発者との戦いに敗れ、妻の有罪が確定してしまった……。
-すべては何も守れぬほど、私が弱かったことが原因さ。"
-61,"TEXT_HEAVNZ003_01728_ARISTOCRACYMAN01728_000_043","しかし、戦神が下された神判なら、受け入れるしかあるまい。
-さて、もう搭乗する時間だが……息子はどこに行ったのだ？
-すまないが、いっしょに探してはくれないだろうか。"
-62,"TEXT_HEAVNZ003_01728_ARISTOCRACYMAN01728_000_050","しかし、戦神が下された神判なら、受け入れるしかあるまい。
-さて、もう搭乗する時間だが……息子はどこに行ったのだ？
-すまないが、いっしょに探してはくれないだろうか。"
-63,"TEXT_HEAVNZ003_01728_ARISTOCRACYBOY01728_000_060","父上が、探しているって？
-……ありがとう、すぐに行くよ。"
-64,"TEXT_HEAVNZ003_01728_ARISTOCRACYBOY01728_000_061","皇都を去る前にね、「神聖裁判所」を見ておきたかったんだ。
-父上は、ここが戦神「ハルオーネ」の御前で戦って、
-「セイギ」を示す場所だと言っていたよ……。"
-65,"TEXT_HEAVNZ003_01728_ARISTOCRACYBOY01728_000_062","でも、下された「セイギ」は、母上の命を奪った。
-僕が強かったら、母上のことも助けられたのかな……。"
-66,"TEXT_HEAVNZ003_01728_ARISTOCRACYBOY01728_000_063","……もう行かなくちゃ。
-呼びにきてくれてありがとう、<If(PlayerParameter(4))>お姉さん<Else/>お兄さん</If>。"
+48,"TEXT_HEAVNZ003_01728_GIBRILLONT_000_000","Hey, you there. Would you mind taking this bottle of mulled wine to the gentleman downstairs?"
+49,"TEXT_HEAVNZ003_01728_GIBRILLONT_000_001","He's a regular around here─and a rather affable one at that─but for a recent lack of employment, he's been looking to get deep in the cups. Thought I'd treat him to a mug of this today and keep a bit of weight in his coinpurse."
+50,"TEXT_HEAVNZ003_01728_GIBRILLONT_000_010","A small gesture, I know, but he'll appreciate it. And between you and me, I think he could use a sympathetic ear right about now."
+51,"TEXT_HEAVNZ003_01728_TEARFILLEDSOLDIER01728_000_020","How...how did this happen? ...I feel as if I'm trapped within some waking nightmare."
+52,"TEXT_HEAVNZ003_01728_TEARFILLEDSOLDIER01728_000_021","What? What's this? No doubt from Gibrillont, that admirable bastard. Just what I need to drown my troubles."
+53,"TEXT_HEAVNZ003_01728_TEARFILLEDSOLDIER01728_000_022","I was a knight in the service of a proud noble family. That is, until my dear lady was accused of heresy. Everything changed after that. Their prestige, their pedigree, everything was stripped away...including me."
+54,"TEXT_HEAVNZ003_01728_TEARFILLEDSOLDIER01728_000_023","They say drinking is merely a pause from thinking... Would that I could take from a bottomless mug..."
+55,"TEXT_HEAVNZ003_01728_TEARFILLEDSOLDIER01728_000_024","Nay, the only thing that stands to wash away is my dignity. Rather than play the drunken fool, I would like to make a gift of this to my lord. Surely this pain I bear is nothing next to his─completely unaware that his wife had committed such heinous crimes.
+He is a good man. He deserves better, but this is all I can offer him now."
+56,"TEXT_HEAVNZ003_01728_TEARFILLEDSOLDIER01728_000_025","I am loath to impose upon your kindness further, but could you take this to him in my place? To let him see me in my current state would be disgraceful. I imagine he is still at the airship landing in the Pillars."
+57,"TEXT_HEAVNZ003_01728_TEARFILLEDSOLDIER01728_000_030","My lord is likely at the airship landing, but I fear it will not be long before he departs. Please hurry."
+58,"TEXT_HEAVNZ003_01728_ARISTOCRACYMAN01728_000_040","Yes? Can I help you with something?"
+59,"TEXT_HEAVNZ003_01728_ARISTOCRACYMAN01728_000_041","After all that has happened, he still thinks to put me first... Would that I could do more for him, but alas, I have lost nearly everything. My title, my land...my wife..."
+60,"TEXT_HEAVNZ003_01728_ARISTOCRACYMAN01728_000_042","She was accused of heresy, and I did all within my power to advocate her innocence. But in the end there was naught I could do to forestall the hand of judgment. I was a man of great station, and yet I had never felt so low...so helpless."
+61,"TEXT_HEAVNZ003_01728_ARISTOCRACYMAN01728_000_043","But the Fury has spoken, and to refuse Her is perhaps a greater crime than those thrust upon my beloved wife. Now, if you will excuse me, it is nearly time to─ Hm? Where did he run off to? I'm terribly sorry to trouble you, but would you help me look for my son? We can ill afford to be late."
+62,"TEXT_HEAVNZ003_01728_ARISTOCRACYMAN01728_000_050","I doubt he has gone far. Please help me find him."
+63,"TEXT_HEAVNZ003_01728_ARISTOCRACYBOY01728_000_060","Father is searching for me? Then it is time..."
+64,"TEXT_HEAVNZ003_01728_ARISTOCRACYBOY01728_000_061","Forgive me. Father insisted we leave immediately, but I had to see for myself. This is where they took my mother to receive Halone's judgment. He said he would fight for her, that justice would be served..."
+65,"TEXT_HEAVNZ003_01728_ARISTOCRACYBOY01728_000_062","But in the end, <Emphasis>justice</Emphasis> took my mother away from us. Perhaps if I had been stronger, I could have won the battle that my father did not..."
+66,"TEXT_HEAVNZ003_01728_ARISTOCRACYBOY01728_000_063","Well, I must be going... Good-bye, <If(PlayerParameter(4))>miss<Else/>mister</If>."

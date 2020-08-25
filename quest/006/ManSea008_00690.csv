@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_MANSEA008_00690_SEQ_00","イエロージャケットのレイナーは、冒険者に伝えたいことがあるようだ。"
-1,"TEXT_MANSEA008_00690_SEQ_01","レイナーから、晩餐会に相応しい格好をする必要があると聞いた。バデロンなら段取りをつけられるだろうとのことだ。溺れた海豚亭の「バデロン」に相談してみよう。"
-2,"TEXT_MANSEA008_00690_SEQ_02","エオルゼアで一番のレストラン「ビスマルク」の食事も供される晩餐会に、今の格好で行くのは、バデロン曰く「無粋」とのこと。八分儀広場の「ジャ・ナッシム」から<If(PlayerParameter(4))>淑女<Else/>紳士</If>の必需品を受け取ろう。"
-3,"TEXT_MANSEA008_00690_SEQ_03","ジャ・ナッシムから、特別に見繕ったという品が入った「羅紗張りの箱」を受け取った。溺れた海豚亭の「バデロン」に「羅紗張りの箱」を見せてみよう。"
-4,"TEXT_MANSEA008_00690_SEQ_04","羅紗張りの箱には「<Sheet(Item,3760,0)/>」が入っていた。冒険者に助けられた人々、そしてバデロンからのはなむけだそうだ。晩餐会へ行く準備は整った。心の準備が整ったら「バデロン」に話しかけよう。"
+0,"TEXT_MANSEA008_00690_SEQ_00","Commodore Reyner wishes to speak with you regarding the forthcoming banquet."
+1,"TEXT_MANSEA008_00690_SEQ_01","The commodore has suggested that you ask Baderon to advise you on where to acquire suitable attire for the banquet. Head to the Drowning Wench and see what her well-connected proprietor has to say."
+2,"TEXT_MANSEA008_00690_SEQ_02","It seems that your garb lacks the refinement expected of the guest of honor of a state banquet. Baderon tells you to visit J'nasshym at the Octant, and collect a “<If(PlayerParameter(4))>ladylike<Else/>gentlemanly</If>” addition to your wardrobe."
+3,"TEXT_MANSEA008_00690_SEQ_03","J'nasshym has entrusted you with a raxa-lined box containing your <If(PlayerParameter(4))>“ladylike”<Else/>“gentlemanly”</If> apparel. Return to the Drowning Wench and show the package to Baderon."
+4,"TEXT_MANSEA008_00690_SEQ_04","After handing the box over to Baderon, you discover that it holds a pair of expensive dress shoes. The Wench's proprietor explains that the footwear is a gift from him, and from all the people you have aided on your travels. Speak with Baderon again when you are ready to attend the banquet."
 5,"TEXT_MANSEA008_00690_SEQ_05",""
 6,"TEXT_MANSEA008_00690_SEQ_06",""
 7,"TEXT_MANSEA008_00690_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_MANSEA008_00690_SEQ_21",""
 22,"TEXT_MANSEA008_00690_SEQ_22",""
 23,"TEXT_MANSEA008_00690_SEQ_23",""
-24,"TEXT_MANSEA008_00690_TODO_00","溺れた海豚亭のバデロンと話す"
-25,"TEXT_MANSEA008_00690_TODO_01","八分儀広場のジャ・ナッシムから晩餐会の必需品を受け取る"
-26,"TEXT_MANSEA008_00690_TODO_02","バデロンに羅紗張りの箱を見せる"
+24,"TEXT_MANSEA008_00690_TODO_00","Speak with Baderon at the Drowning Wench."
+25,"TEXT_MANSEA008_00690_TODO_01","Collect a package from J'nasshym at the Octant."
+26,"TEXT_MANSEA008_00690_TODO_02","Show the raxa-lined box to Baderon."
 27,"TEXT_MANSEA008_00690_TODO_03",""
 28,"TEXT_MANSEA008_00690_TODO_04",""
 29,"TEXT_MANSEA008_00690_TODO_05",""
@@ -49,56 +49,24 @@ int32,str,str
 45,"TEXT_MANSEA008_00690_TODO_21",""
 46,"TEXT_MANSEA008_00690_TODO_22",""
 47,"TEXT_MANSEA008_00690_TODO_23",""
-48,"TEXT_MANSEA008_00690_REYNER_000_1","まさか、一介の冒険者が
-メルウィブ提督の晩餐会に招かれるとは……"
-49,"TEXT_MANSEA008_00690_REYNER_000_2","光栄の極みだな。
-我ら、提督に従う役人とて、
-そのような機会にあずかることは難しいというのに！"
-50,"TEXT_MANSEA008_00690_REYNER_000_3","これまで君は、様々な仕事をこなしてきたはずだ。
-中には、つまらない仕事、苦しい仕事もあっただろう。"
-51,"TEXT_MANSEA008_00690_REYNER_000_4","だが、それは今、報われたのだ！
-君の地道な一歩一歩が、人々を助けた結果だ！"
-52,"TEXT_MANSEA008_00690_REYNER_000_5","……今はまだ、ピンとこないかな？
-ともかく、晩餐会は君の晴れ舞台になるんだ。
-それなりの格好をしなければならないぞ！"
-53,"TEXT_MANSEA008_00690_REYNER_000_6","「溺れた海豚亭」のバデロンなら、
-この手の段取りをつける器量もあるだろう。
-事情を話して、手を貸してもらうといい。"
-54,"TEXT_MANSEA008_00690_BADERON_000_10","晩餐会への招待を
-メルウィブ提督閣下ご本人から受けたんだって？"
-55,"TEXT_MANSEA008_00690_BADERON_000_11","話を聞いたときは、エールを噴きだすとこだったぜ。
-この俺をここまで驚かせるとは、
-まったくたいした冒険者だよ、おまえさんは。"
-56,"TEXT_MANSEA008_00690_BADERON_000_12","メルウィブ提督の晩餐会には、
-エオルゼアで一番とうたわれる
-レストラン「ビスマルク」の飯が出されるのが慣例だ。"
-57,"TEXT_MANSEA008_00690_BADERON_000_13","タダで旨い飯が食える機会だ。
-その辺を駆け回って、限界まで腹を減らして来い。"
-58,"TEXT_MANSEA008_00690_BADERON_000_14","……と言いたいとこだが、
-その前に、ナリを整えなきゃなるまいよ。"
-59,"TEXT_MANSEA008_00690_BADERON_000_15","そんなナリでビスマルクの飯を食うのは無粋だぜ。
-まずは、ブルゲール商会のジャ・ナッシムを訪ねて、
-<If(PlayerParameter(4))>淑女<Else/>紳士</If>にしてくれって頼んでくるんだ。"
-60,"TEXT_MANSEA008_00690_BADERON_000_16","心配しなくても、根回しは済んでる。
-ジャ・ナッシムから<If(PlayerParameter(4))>淑女<Else/>紳士</If>の必需品を受け取ったら、
-もう一度、ここへ戻ってこい。いいな？"
-61,"TEXT_MANSEA008_00690_JNASSHYM_000_20","<If(PlayerParameter(4))>淑女<Else/>紳士</If>の必需品を受け取りに？
-バデロンさんからのご用命ですね？"
-62,"TEXT_MANSEA008_00690_JNASSHYM_000_21","はいはい、ちゃんとご用意しておりますよ。
-どうぞ、こちらをお持ちください。"
-63,"TEXT_MANSEA008_00690_JNASSHYM_000_22","こちらは、あなたとリムサ・ロミンサの
-さらなる発展を願い、特別に見繕った品です。
-きっとお気に召していただけると思いますよ。"
-64,"TEXT_MANSEA008_00690_BADERON_000_30","ちゃんと受け取ってこれたようだな。
-どれ、その箱を見せてみな。"
-65,"TEXT_MANSEA008_00690_BADERON_000_31","<If(PlayerParameter(4))>淑女<Else/>紳士</If>の必需品……
-それは「<Sheet(Item,3760,0)/>」だ。"
-66,"TEXT_MANSEA008_00690_BADERON_000_32","成功者は、靴を一番にあつらえるっていうだろ？
-それはつまり、足元が定まってる奴は、
-正しく未来を見定めることができるってことさ。"
-67,"TEXT_MANSEA008_00690_BADERON_000_33","おまえさんが、自分の夢へまっすぐ歩いていけるように。
-俺……いや、おまえさんの世話になった
-すべての奴らからのはなむけだ。"
-68,"TEXT_MANSEA008_00690_BADERON_000_34","さて、これで準備は整った。
-心の準備も整ったら、また俺に話しかけな。
-晩餐会場への行き方を教えてやるからな。"
+48,"TEXT_MANSEA008_00690_REYNER_000_1","I am not sure you understand just how unusual it is for the Admiral to invite an adventurer to a state banquet."
+49,"TEXT_MANSEA008_00690_REYNER_000_2","It is a highly coveted honor. Why, even the officers under her direct command are rarely afforded such recognition!"
+50,"TEXT_MANSEA008_00690_REYNER_000_3","But I will not deny you have earned it. Many of the tasks you have performed in service to the thalassocracy have been both difficult and dangerous."
+51,"TEXT_MANSEA008_00690_REYNER_000_4","This is a reward for all of your efforts─a nod to your many achievements, both large and small."
+52,"TEXT_MANSEA008_00690_REYNER_000_5","Has the enormity of this moment yet to sink in? Perchance you will realize its significance when you stand before the assembled dignitaries of Limsa Lominsa! ...And now that I have imagined the scene, I realize that you will require attire suitable for the occasion."
+53,"TEXT_MANSEA008_00690_REYNER_000_6","I suggest you visit the Wench and see what Baderon can arrange. He is surprisingly knowledgeable about such things."
+54,"TEXT_MANSEA008_00690_BADERON_000_10","Well, well...if it ain't Merlwyb's guest of 'onor! 'Obnobbin' with the 'igh an' mighty, now, is it?"
+55,"TEXT_MANSEA008_00690_BADERON_000_11","I tell ye, <If(PlayerParameter(4))>lass<Else/>lad</If>, I damn near snorted ale out me nose when I 'eard the news. Ye've come a long bloody way, you 'ave, an' that's the truth."
+56,"TEXT_MANSEA008_00690_BADERON_000_12","Well, one thing's fer sure─ye'll not want fer decent grub. These banquets are catered by the bleedin' Bismarck, no less."
+57,"TEXT_MANSEA008_00690_BADERON_000_13","'Tis a grand chance to fill yer belly to burstin' with fine an'─more importantly─free food."
+58,"TEXT_MANSEA008_00690_BADERON_000_14","But we can't have ye turnin' up in yer shite-caked 'venturin' gear."
+59,"TEXT_MANSEA008_00690_BADERON_000_15","No, the 'ero o' the hour needs to 'ave a touch o' refinement about <If(PlayerParameter(4))>'er<Else/>'im</If>─if only to stop folk complainin' when <If(PlayerParameter(4))>she<Else/>'e</If> stuffs <If(PlayerParameter(4))>'er<Else/>'is</If> face with cake. Take yerself over to the Octant an' speak to J'nasshym o' the Brugaire Consortium. She'll furnish ye with summat <If(PlayerParameter(4))>ladylike<Else/>gentlemanly</If> to wear."
+60,"TEXT_MANSEA008_00690_BADERON_000_16","I've already 'ad a word with 'er, so all ye need do is pick up the goods, then bring 'em back 'ere, so as I can tell ye what's what."
+61,"TEXT_MANSEA008_00690_JNASSHYM_000_20","Good <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>evening<Else/>morning</If><Else/><If(LessThan(PlayerParameter(11),17))>day<Else/>evening</If></If>, <If(PlayerParameter(4))>miss<Else/>sir</If>. I assume you're the underdressed <If(PlayerParameter(4))>“lady”<Else/>“gentleman”</If> Baderon mentioned?"
+62,"TEXT_MANSEA008_00690_JNASSHYM_000_21","<sniff> I see he was not exaggerating..."
+63,"TEXT_MANSEA008_00690_JNASSHYM_000_22","Ahem. I've chosen these especially for your debut in polite society. Fear not, I'm certain you will absolutely <Emphasis>adore</Emphasis> them."
+64,"TEXT_MANSEA008_00690_BADERON_000_30","Been to see J'nasshym, 'ave ye? Let's 'ave that box, then."
+65,"TEXT_MANSEA008_00690_BADERON_000_31","'Ere we go...a nice pair o' dress shoes fer ye."
+66,"TEXT_MANSEA008_00690_BADERON_000_32","A <If(PlayerParameter(4))>lass<Else/>bloke</If> mightn't 'ave much else to <If(PlayerParameter(4))>'er<Else/>'is</If> name, but so long as <If(PlayerParameter(4))>she's<Else/>'e's</If> got a decent pair o' shoes on <If(PlayerParameter(4))>'er<Else/>'is</If> feet, there ain't nowhere <If(PlayerParameter(4))>she<Else/>'e</If> can't go."
+67,"TEXT_MANSEA008_00690_BADERON_000_33","Think of 'em as a gift from me an' all the other folk ye've done right by along the way."
+68,"TEXT_MANSEA008_00690_BADERON_000_34","Aye, aye...'tis a very movin' gesture, I know. Just don't go wellin' up on me, eh? Wouldn't do fer Limsa's new 'ero to turn up at the banquet soaked in <If(PlayerParameter(4))>'er<Else/>'is</If> own tears an' snot. Anyroad, that's yer garb sorted. Now, ye just need to settle yer nerves. Tell me when yer ready, an' I'll tell ye where yer meant to go."

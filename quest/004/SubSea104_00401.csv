@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBSEA104_00401_SEQ_00","スカイリフトのカザイ・ブイザイは、荷車を襲うバザードを駆除したいようだ。"
-1,"TEXT_SUBSEA104_00401_SEQ_01","バザードは、肉の臭いを察知して、荷車を襲撃しているようだ。この習性を逆手に取り、「猛禽の縄張り」に「ラットの腐肉」を設置し、「バザード」をおびき出して、駆除しよう。"
-2,"TEXT_SUBSEA104_00401_SEQ_02","バザードを駆除できた。スカイリフトの「カザイ・ブイザイ」に報告しよう。"
-3,"TEXT_SUBSEA104_00401_SEQ_03","霊災は、魔物の生活にも深刻な影響をおよぼしていた。復興は進み始めたとはいえ、霊災の爪痕が癒えるのは、まだ先のようだ。"
+0,"TEXT_SUBSEA104_00401_SEQ_00","Kazai Buoyzai, a cargo transporter at the Skylift, wants you to slay buzzards that have been attacking wagons on the road."
+1,"TEXT_SUBSEA104_00401_SEQ_01","Drawn by the scent of meat, hungry buzzards have been swooping down on food-laden wagons en route to the De Nevelle Checkpoint. Turn the birds' taste for dead flesh to your advantage by taking a sack of rotting rat meat to their nest and luring the avian scavengers into a deadly ambush."
+2,"TEXT_SUBSEA104_00401_SEQ_02","You have slain the buzzards. Return to the Skylift and report to Kazai Buoyzai."
+3,"TEXT_SUBSEA104_00401_SEQ_03","The lingering influence of the Calamity affects more than just the lives of Eorzea's citizens─even the realm's scavengers are forced into uncharacteristic and desperate behaviors. Though much work has been done to repair the devastation, the scars will be long in fading."
 4,"TEXT_SUBSEA104_00401_SEQ_04",""
 5,"TEXT_SUBSEA104_00401_SEQ_05",""
 6,"TEXT_SUBSEA104_00401_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_SUBSEA104_00401_SEQ_21",""
 22,"TEXT_SUBSEA104_00401_SEQ_22",""
 23,"TEXT_SUBSEA104_00401_SEQ_23",""
-24,"TEXT_SUBSEA104_00401_TODO_00","猛禽の縄張りにラットの肉をまき、現れたバザードを討伐"
-25,"TEXT_SUBSEA104_00401_TODO_01","カザイ・ブイザイに報告"
+24,"TEXT_SUBSEA104_00401_TODO_00","Empty the sack of rat meat in the buzzards' nest and slay the buzzards that appear."
+25,"TEXT_SUBSEA104_00401_TODO_01","Report to Kazai Buoyzai at the Skylift."
 26,"TEXT_SUBSEA104_00401_TODO_02",""
 27,"TEXT_SUBSEA104_00401_TODO_03",""
 28,"TEXT_SUBSEA104_00401_TODO_04",""
@@ -49,18 +49,10 @@ int32,str,str
 45,"TEXT_SUBSEA104_00401_TODO_21",""
 46,"TEXT_SUBSEA104_00401_TODO_22",""
 47,"TEXT_SUBSEA104_00401_TODO_23",""
-48,"TEXT_SUBSEA104_00401_KAZAIBUOYZAI_000_1","お前さんを見込んで、また頼みがある。
-最近、デネベール関門へ向かう荷車がバザードに襲われてるんだ。"
-49,"TEXT_SUBSEA104_00401_KAZAIBUOYZAI_000_2","奴ら、普段は優雅に上空を飛んでるくせに、
-荷車に肉を積んでる日に限って、荷をかっさらっていきやがる。
-だが、この習性を逆手に取れば、奴らを駆除できるはず！"
-50,"TEXT_SUBSEA104_00401_KAZAIBUOYZAI_000_3","この「ラットの腐肉」を、
-奴らの巣を中心とした「猛禽の縄張り」に設置して、
-「バザード」をおびき出し、ぶっ倒してくれ！"
-51,"TEXT_SUBSEA104_00401_KAZAIBUOYZAI_000_11","ごくろうさん、首尾よくやってくれたんだな。
-おかげで、積み荷の安全と、お得意さんの信頼は守られたよ。"
-52,"TEXT_SUBSEA104_00401_KAZAIBUOYZAI_000_12","バザードは、食料品が目当てらしくてな。
-うちは食品の輸送が多いから、ほとほと困ってたところよ。"
-53,"TEXT_SUBSEA104_00401_KAZAIBUOYZAI_000_13","霊災のせいで、奴らのエサも減ってんだろうな。
-ま、その食い意地が命取りになったわけだがな！"
-54,"TEXT_SUBSEA104_00401_POP_MESSAGE","敵の気配を感じた！！"
+48,"TEXT_SUBSEA104_00401_KAZAIBUOYZAI_000_1","Ye've shown yerself to be a useful <If(PlayerParameter(4))>lass<Else/>bloke</If>. What say ye to doin' me another favor? We've been havin' a wee problem with buzzards swoopin' down and snatchin' cargo from the wagons what are travelin' the road to the De Nevelle Checkpoint."
+49,"TEXT_SUBSEA104_00401_KAZAIBUOYZAI_000_2","Most days, them feathered hellions stay well enough away, but it seems they can't resist a wagon what's loaded with meat. Well, I say we make use o' that weakness to lure the greedy buggers into a trap."
+50,"TEXT_SUBSEA104_00401_KAZAIBUOYZAI_000_3","Take this here sack o' rotting rat meat and set it down in vulture territory─that be where the buzzards make their nests. When the bastards show up for the feast, ye start breakin' beaks with a vengeance. Easy."
+51,"TEXT_SUBSEA104_00401_KAZAIBUOYZAI_000_11","Didn't get yer eyes pecked out, did ye? Them buzzards be a nasty lot. But the last wagon made it through with nary a morsel lost, so I'd say ye've plucked enough o' their thievin' hides to secure the route."
+52,"TEXT_SUBSEA104_00401_KAZAIBUOYZAI_000_12","Ye have me thanks, <If(PlayerParameter(4))>lass<Else/>lad</If>. I make most of me coin haulin' foodstuffs, and I'd be beddin' down in the gutter within the week if it weren't for yer help."
+53,"TEXT_SUBSEA104_00401_KAZAIBUOYZAI_000_13","Seems even the scavengers are findin' the pickin's scarce since the Calamity hit, otherwise ye'd never see 'em tryin' aught so bold. Fortune didn't favor 'em worth spit this time, though, eh?"
+54,"TEXT_SUBSEA104_00401_POP_MESSAGE","You sense a hostile presence!"

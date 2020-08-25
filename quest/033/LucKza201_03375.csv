@@ -1,15 +1,14 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKZA201_03375_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-モルド・スークのゲーンゲンは、冒険者に息子のことを頼みたいようだ。"
-1,"TEXT_LUCKZA201_03375_SEQ_01","※本クエストには「<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow><UIGlow>01</UIGlow><UIForeground>01</UIForeground> レベルアジャスト」が、
-　設定されています。
+0,"TEXT_LUCKZA201_03375_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Ghen Gen is fidgeting even more than usual."
+1,"TEXT_LUCKZA201_03375_SEQ_01","Ghen Gen urges you to intervene on his behalf in a matter involving his son Ghun Gun. The young Mord has earned a reputation as a hard worker, although he works a little too hard for his own good, only stopping to rest when specifically instructed to do so. The merchant asks that you travel to the Red Serai and ask Ghun Gun to refrain from any further exertion, lest he work himself to death.
 
-ゲーンゲンと話した。彼の息子であるグーングンに、休憩をとるよう伝えてほしいと頼まれた。アム・アレーンの隊商の野営地近くにいる「グーングン」と話そう。"
-2,"TEXT_LUCKZA201_03375_SEQ_02","グーングンと話した。彼が早く休憩をとれるよう、彼の仕事を手伝うことになった。隊商の野営地近くにある3箇所の「<Sheet(EObj,2010010,0)/>」を調べよう。"
-3,"TEXT_LUCKZA201_03375_SEQ_03","<Sheet(EObj,2010010,0)/>を調べて、遺物を発見した。隊商の野営地近くの「グーングン」に「<Sheet(EventItem,2002584,0)/>」を渡そう。"
-4,"TEXT_LUCKZA201_03375_SEQ_04","グーングンに<Sheet(EventItem,2002584,0)/>を渡した。彼は指輪の鑑定ができないことを謝りつつ、今回の労働の対価として報酬を払ってくれた。引き続き、彼につきあってあげるのもいいだろう。"
+※Please note that the difficulty of this quest has been synced to your current level."
+2,"TEXT_LUCKZA201_03375_SEQ_02","Ghun Gun pays little heed to his father's wishes, as he intends to carry on searching the rubble for “shinies” until a satisfactory haul can be found. However, he also understands that his refusal to rest would prevent you from fulfilling your promise to Ghen Gen. He suggests that were you to help him uncover a valuable relic or two, he would be able to stop working for at least long enough to catch his breath."
+3,"TEXT_LUCKZA201_03375_SEQ_03","After much scrabbling around under rubble and in the sand, you eventually come across an intricately engraved signet ring. Sensing that this is precisely the sort of relic Ghun Gun has been looking for, you make your way over to present the unearthed treasure."
+4,"TEXT_LUCKZA201_03375_SEQ_04","Ghun Gun is overjoyed with the signet ring you have found, and suggests that it may be highly valuable. He offers to give you half of the money earned from the sale of the relic, although it will first need to be evaluated to determine its true worth."
 5,"TEXT_LUCKZA201_03375_SEQ_05",""
 6,"TEXT_LUCKZA201_03375_SEQ_06",""
 7,"TEXT_LUCKZA201_03375_SEQ_07",""
@@ -29,9 +28,9 @@ int32,str,str
 21,"TEXT_LUCKZA201_03375_SEQ_21",""
 22,"TEXT_LUCKZA201_03375_SEQ_22",""
 23,"TEXT_LUCKZA201_03375_SEQ_23",""
-24,"TEXT_LUCKZA201_03375_TODO_00","グーングンと話す"
-25,"TEXT_LUCKZA201_03375_TODO_01","<Sheet(EObj,2010010,0)/>を調べる"
-26,"TEXT_LUCKZA201_03375_TODO_02","グーングンに<Sheet(EventItem,2002584,0)/>を渡す"
+24,"TEXT_LUCKZA201_03375_TODO_00","Speak with Ghun Gun."
+25,"TEXT_LUCKZA201_03375_TODO_01","Search for relics at the specified location."
+26,"TEXT_LUCKZA201_03375_TODO_02","Deliver the intricately engraved signet ring to Ghun Gun."
 27,"TEXT_LUCKZA201_03375_TODO_03",""
 28,"TEXT_LUCKZA201_03375_TODO_04",""
 29,"TEXT_LUCKZA201_03375_TODO_05",""
@@ -53,57 +52,27 @@ int32,str,str
 45,"TEXT_LUCKZA201_03375_TODO_21",""
 46,"TEXT_LUCKZA201_03375_TODO_22",""
 47,"TEXT_LUCKZA201_03375_TODO_23",""
-48,"TEXT_LUCKZA201_03375_GHENGEN_000_000","旅人の<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>に、
-ひとつ頼み事あるネ！"
-49,"TEXT_LUCKZA201_03375_GHENGEN_000_001","私の息子、グーングン、
-自慢じゃないけど、大層な働き者ヨ！"
-50,"TEXT_LUCKZA201_03375_GHENGEN_000_002","どれくらい働き者か……
-休憩どころか、寝食忘れて働くもんで、時々、失神するくらいネ！
-だから、家族みんな心配してるネ！"
-51,"TEXT_LUCKZA201_03375_GHENGEN_000_003","今も隊商の野営地のあたりで、
-一心不乱、ずっとずっと働いているはずヨ！"
-52,"TEXT_LUCKZA201_03375_GHENGEN_000_004","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、近く行くなら、
-「グーングン」に、休めって声かけてほしいネ！
-よろしく、お願いするヨ！"
-53,"TEXT_LUCKZA201_03375_GHENGEN_000_010","もし、隊商の野営地の近くいくなら、
-「グーングン」に、休めって声かけてほしいネ！
-よろしく、お願いするヨ！"
-54,"TEXT_LUCKZA201_03375_GHUNGUN_000_020","お仕事、お仕事、楽しいネ～♪
-ず～っと、ずずぅ～っと、働きたいヨ～♪
-労働、万歳、万々歳～♪"
-55,"TEXT_LUCKZA201_03375_GHUNGUN_000_021","……おや、君は旅人ネ？
-こんなところに何か用ネ？"
-56,"TEXT_LUCKZA201_03375_GHUNGUN_000_022","おやおや、オヤジ殿の差し金ネ？
-わざわざこんなところまで来てもらって、
-ありがとネ。"
-57,"TEXT_LUCKZA201_03375_GHUNGUN_000_023","ただ、申し訳ないけど、
-休めと言われても、休めないネ！
-なにか成果があるまで、労働は止まらないヨ！"
-58,"TEXT_LUCKZA201_03375_GHUNGUN_000_024","……でも、君もオヤジ殿に頼まれて、伝令の労働したネ。
-なら、僕が休まないと、君の成果奪うことになるネ……。
-そこで、僕から提案ネ！"
-59,"TEXT_LUCKZA201_03375_GHUNGUN_000_025","僕の仕事、ちょっとだけ手伝うネ。
-そうすれば、早く成果が出て、僕も早く休めるヨ！"
-60,"TEXT_LUCKZA201_03375_GHUNGUN_000_026","やることは簡単ネ！
-あっちの瓦礫を調べて、落ちている価値ある品を拾うだけヨ！"
-61,"TEXT_LUCKZA201_03375_GHUNGUN_000_027","もちろん、報酬は支払うネ！
-労働には、見合った対価が必要……それ当然ヨ！
-それじゃあ、よろしくお願いネ！"
-62,"TEXT_LUCKZA201_03375_GHENGEN_000_030","グーングンを、手伝ってるネ？
-よくわからないけど、息子のこと、よろしく頼むヨ！"
-63,"TEXT_LUCKZA201_03375_GHUNGUN_000_031","やることは簡単ネ！
-この辺りを調べて、落ちている価値ある品を拾うだけヨ！"
-64,"TEXT_LUCKZA201_03375_SYSTEM_000_040","特に何も見つからなかった……。"
-65,"TEXT_LUCKZA201_03375_SYSTEM_000_050","<Sheet(EventItem,2002584,0)/>を見つけた！"
-66,"TEXT_LUCKZA201_03375_GHUNGUN_000_060","おや、もしかして、何か見つけたネ？
-それなら、見せてほしいネ！"
-67,"TEXT_LUCKZA201_03375_GHUNGUN_000_061","おお、とても価値がありそうな指輪ネ！
-文様も複雑、手が込んでいると、ひと目でわかるヨ！"
-68,"TEXT_LUCKZA201_03375_GHUNGUN_000_062","ただ……初めて見る文様だし、
-詳しい価値まで、僕には鑑定できないネ……。"
-69,"TEXT_LUCKZA201_03375_GHUNGUN_000_063","ごめんネ！
-これじゃ、君の労働に正当な対価、渡せないヨ！
-労働を重んじる身として、痛恨の極みネ！"
-70,"TEXT_LUCKZA201_03375_GHUNGUN_000_064","だからといって、何も渡さないのはよくないネ。
-ひとまず一時金として、ある程度渡しておくヨ。
-今は、これで納得してほしいネ！"
+48,"TEXT_LUCKZA201_03375_GHENGEN_000_000","Greetings, friend! You like helping people, yes? Maybe you can help me, too!"
+49,"TEXT_LUCKZA201_03375_GHENGEN_000_001","You see, my son Ghun Gun makes me very proud, but very worried. He works very hard, too hard for his own good!"
+50,"TEXT_LUCKZA201_03375_GHENGEN_000_002","He follows orders, yes. Follows them until someone tells him to stop. This is very dangerous, bad for his health! I need you to speak to him, persuade him to rest."
+51,"TEXT_LUCKZA201_03375_GHENGEN_000_003","He should be near the Red Serai, probably leaving no stone unturned in his search for relics."
+52,"TEXT_LUCKZA201_03375_GHENGEN_000_004","Please, tell him his father <Emphasis>orders</Emphasis> him to stop!"
+53,"TEXT_LUCKZA201_03375_GHENGEN_000_010","I must explain to Ghun Gun the dangers of working <Emphasis>too</Emphasis> hard. A dead Mord is no use to anyone!"
+54,"TEXT_LUCKZA201_03375_GHUNGUN_000_020","Search the nooks, search the crannies～♪
+Search high, search low～♪ "
+55,"TEXT_LUCKZA201_03375_GHUNGUN_000_021","Oh, sorry! I did not see you there. Are you lost?"
+56,"TEXT_LUCKZA201_03375_GHUNGUN_000_022","Father says I must rest? That will not do, no no. I <Emphasis>will</Emphasis> stop, but not yet!"
+57,"TEXT_LUCKZA201_03375_GHUNGUN_000_023","I need something to show for my efforts. All this scrabbling, all this searching and still no shinies!"
+58,"TEXT_LUCKZA201_03375_GHUNGUN_000_024","Hmm... You came here to tell me to stop, but if I refuse, your job will not be finished, will it? That will not do, either. Wait! I have an idea!"
+59,"TEXT_LUCKZA201_03375_GHUNGUN_000_025","If you help me find shinies, my job will be over, your job will be over, and I can rest! Simple, yes?"
+60,"TEXT_LUCKZA201_03375_GHUNGUN_000_026","Look under that rubble and find whatever there is to be found. Maybe it will be valuable, maybe not."
+61,"TEXT_LUCKZA201_03375_GHUNGUN_000_027","Either way, let us keep searching until we get at least one shiny! "
+62,"TEXT_LUCKZA201_03375_GHENGEN_000_030","You are helping Ghun Gun with his work? Not the solution I had in mind..."
+63,"TEXT_LUCKZA201_03375_GHUNGUN_000_031","Good shinies are too sturdy to be squished by falling rubble, so no need to worry about that. Do try not to squish yourself, though!"
+64,"TEXT_LUCKZA201_03375_SYSTEM_000_040","Your search fails to yield any shinies."
+65,"TEXT_LUCKZA201_03375_SYSTEM_000_050","You find a signet ring!"
+66,"TEXT_LUCKZA201_03375_GHUNGUN_000_060","What did you find? Not more rubble, I hope!"
+67,"TEXT_LUCKZA201_03375_GHUNGUN_000_061","Oh, this looks very special... Such pretty patterns! I have never seen one like this before."
+68,"TEXT_LUCKZA201_03375_GHUNGUN_000_062","But how much is it worth? I am an expert in finding shinies, not a historian. Perhaps we should ask someone."
+69,"TEXT_LUCKZA201_03375_GHUNGUN_000_063","Once we sell it, we will divide the profits between us!"
+70,"TEXT_LUCKZA201_03375_GHUNGUN_000_064","We worked as a team, so half for you, half for me. Fair is fair!"

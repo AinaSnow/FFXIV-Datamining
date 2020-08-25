@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_XXAFST034_03854_SEQ_00","バノック練兵所の隊長ガルフリッドは、チゴーの卵袋の収集を依頼したいようだ。"
-1,"TEXT_XXAFST034_03854_SEQ_01","訳あって「チゴーの卵袋」を集めているというガルフリッド。ギルバート監視哨の付近に生息するチゴーから「チゴーの卵袋」を3体分、手に入れよう。"
-2,"TEXT_XXAFST034_03854_SEQ_02","チゴーの卵袋を集め終えた。「ギルバート監視哨」で待つ「モンランガン」に届けにいこう。"
-3,"TEXT_XXAFST034_03854_SEQ_03","チゴーには、「鎖死病」の毒気を媒介する性質があるという。鎖死病とは、ヒューラン族が発症すると死に至るという恐ろしい病らしい。今では特効薬が見つかっているというが、病の流行を防ぐために、毒気の有無の確認が欠かせないようだ。"
+0,"TEXT_XXAFST034_03854_SEQ_00","Galfrid, chief instructor at the Bannock, wishes you to collect chigoe egg sacs."
+1,"TEXT_XXAFST034_03854_SEQ_01","Galfrid requires an extra hand after his subordinates were injured. Obtain three chigoe egg sacs from the chigoes found in the vicinity of the Bannock."
+2,"TEXT_XXAFST034_03854_SEQ_02","You have collected three chigoe egg sacs. Deliver them to Monranguin at Gilbert's Spire."
+3,"TEXT_XXAFST034_03854_SEQ_03","Chigoes are known carriers of the Creeping Death─a terrifying illness that almost invariably proved fatal to its Hyuran victims. Though a cure is now available, Gridanian researchers periodically check the chigoes for signs of the disease in order to prevent further outbreaks."
 4,"TEXT_XXAFST034_03854_SEQ_04",""
 5,"TEXT_XXAFST034_03854_SEQ_05",""
 6,"TEXT_XXAFST034_03854_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_XXAFST034_03854_SEQ_21",""
 22,"TEXT_XXAFST034_03854_SEQ_22",""
 23,"TEXT_XXAFST034_03854_SEQ_23",""
-24,"TEXT_XXAFST034_03854_TODO_00","チゴーからチゴーの卵袋を入手"
-25,"TEXT_XXAFST034_03854_TODO_01","モンランガンにチゴーの卵袋を渡す"
+24,"TEXT_XXAFST034_03854_TODO_00","Obtain chigoe egg sacs from chigoes."
+25,"TEXT_XXAFST034_03854_TODO_01","Deliver the chigoe egg sacs to Monranguin at Gilbert's Spire."
 26,"TEXT_XXAFST034_03854_TODO_02",""
 27,"TEXT_XXAFST034_03854_TODO_03",""
 28,"TEXT_XXAFST034_03854_TODO_04",""
@@ -49,30 +49,13 @@ int32,str,str
 45,"TEXT_XXAFST034_03854_TODO_21",""
 46,"TEXT_XXAFST034_03854_TODO_22",""
 47,"TEXT_XXAFST034_03854_TODO_23",""
-48,"TEXT_XXAFST034_03854_SYSTEM_100_000","受注するには、進行中のメインクエストを破棄する必要があります。
-メインコマンドの「コンテンツ情報」から、
-「ジャーナル」を選び、破棄してください。"
-49,"TEXT_XXAFST034_03854_GALFRID_000_000","そうだ、私からもひとつ頼みたいことがあった。
-訳あって「チゴーの卵袋」を集めているんだが、
-担当した部下が怪我をして、人手が足らんのだ。"
-50,"TEXT_XXAFST034_03854_GALFRID_000_001","なに、そこらにいるチゴーを狩り、
-3体分「チゴーの卵袋」を集めてくるだけだ。
-お前にはさほど難しい仕事ではあるまい？"
-51,"TEXT_XXAFST034_03854_GALFRID_000_002","集めた卵袋は
-「ギルバート監視哨」の「モンランガン」に渡してくれ。
-彼がチゴーの卵袋集めの指揮をとっている。"
-52,"TEXT_XXAFST034_03854_MONRANGUIN_000_010","チゴーの卵袋の収集を手伝ってくれている
-冒険者というのはお前か？"
-53,"TEXT_XXAFST034_03854_MONRANGUIN_000_020","もう集めてくれたのか！　ご苦労だった。
-さっそく猟師ギルドの者に届けてやらねば。"
-54,"TEXT_XXAFST034_03854_MONRANGUIN_000_021","チゴーには「鎖死病（さしびょう）」の毒気を媒介する
-性質があってな。毒気の有無を調べるために、
-双蛇党や鬼哭隊が協力しているんだ。"
-55,"TEXT_XXAFST034_03854_MONRANGUIN_000_022","……ああ、「鎖死病」ってのは、ヒューラン族が
-発症すると確実に死に至るとまでいわれた、恐ろしい病気さ。"
-56,"TEXT_XXAFST034_03854_MONRANGUIN_000_023","大昔に流行したときなど
-グリダニアの民族比率が変わるほどだったとか……。
-まあ今は特効薬が発見されているから、恐れることはない。"
-57,"TEXT_XXAFST034_03854_MONRANGUIN_000_024","こうして定期的に毒気を調べれば、流行も防げるしな。
-あとは猟師ギルドの者に任せるとしよう。
-協力、ご苦労だった。"
+48,"TEXT_XXAFST034_03854_SYSTEM_100_000","To accept this quest, you must abandon the current main scenario quest. Open the corresponding entry in the journal or duty list and select “Abandon.”"
+49,"TEXT_XXAFST034_03854_GALFRID_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, injuries to several of my men have left me shorthanded, and I require a capable sort to complete their unfinished duty."
+50,"TEXT_XXAFST034_03854_GALFRID_000_001","The task is simple: put down as many of the local chigoe population as necessary to acquire three of their egg sacs."
+51,"TEXT_XXAFST034_03854_GALFRID_000_002","Having done so, you are to deliver them to Monranguin at Gilbert's Spire. He will answer any queries you might have. Now, I have other business to attend to."
+52,"TEXT_XXAFST034_03854_MONRANGUIN_000_010","Ah, you must be the adventurer standing in for our injured companions. Terribly unfortunate business, that."
+53,"TEXT_XXAFST034_03854_MONRANGUIN_000_020","It seems, however, that you had little trouble gathering the egg sacs in their stead. Excellent work. I shall have them sent over to the Trappers' League immediately."
+54,"TEXT_XXAFST034_03854_MONRANGUIN_000_021","Lest you wonder, these egg sacs are not destined for the dinner table! Members of the Twin Adder and the Wood Wailers are assisting the league by collecting the samples they need to check for signs of sickness."
+55,"TEXT_XXAFST034_03854_MONRANGUIN_000_022","The chigoe, you see, is one of the few creatures capable of transmitting the disease known as the Creeping Death. Until relatively recently, any Hyur who contracted this ghastly illness would almost invariably perish."
+56,"TEXT_XXAFST034_03854_MONRANGUIN_000_023","Indeed, a single outbreak once claimed the lives of a third of the Hyuran population here in Gridania. That was a long time ago, of course. With the medicines available to us now, the Creeping Death is not the killer it once was."
+57,"TEXT_XXAFST034_03854_MONRANGUIN_000_024","Even so, it is best to halt any new outbreaks before they occur. Thus we gather chigoe eggs on a regular basis in order to assist the Trappers' League with their ongoing research. Your timely assistance is most appreciated."

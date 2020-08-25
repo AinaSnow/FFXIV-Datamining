@@ -1,17 +1,17 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSGLD630_02600_SEQ_00","彫金師ギルドのジェマイムは、伝言を預かっているようだ。"
-1,"TEXT_CLSGLD630_02600_SEQ_01","ジェマイムと話した。ギラバニア解放軍の拠点に工房を間借りする準備ができたようだ。中央ザナラーンの刺抜盆地で「エメロス」と話そう。"
-2,"TEXT_CLSGLD630_02600_SEQ_02","エメロスと話した。ラールガーズリーチのエーテライト・プラザ付近で「エメロス」と合流しよう。"
-3,"TEXT_CLSGLD630_02600_SEQ_03","エメロスと話した。ラールガーズリーチにいる「ジャ・ケビカ」「ウィド」「ハル」に声をかけ、現在の様子を聞こう。"
-4,"TEXT_CLSGLD630_02600_SEQ_04","徒弟たちと話した。ラールガーズリーチの「エメロス」と話そう。"
-5,"TEXT_CLSGLD630_02600_SEQ_05","徒弟たちのために、お手本となるアクセサリーを作ることになった。「<Sheet(Item,17901,0)/>」をもとに「<Sheet(ItemHQ,17902,0)/>」を製作し、ラールガーズリーチの「エメロス」に納品しよう。
+0,"TEXT_CLSGLD630_02600_SEQ_00","Jemime has glad tidings to share with you."
+1,"TEXT_CLSGLD630_02600_SEQ_01","Jemime gleefully informs you that all has been made ready for the artisans' school at Rhalgr's Reach. Strike out for the Resistance outpost at your earliest convenience, and make a quick stop at Spineless Basin in central Thanalan, where Emeloth awaits."
+2,"TEXT_CLSGLD630_02600_SEQ_02","According to Emeloth, your three apprentices were surprised and grateful to learn that the school is being wholly funded by the sultana. With Her Grace's gift crown in her care, your deputy begins the journey to Rhalgr's Reach. Make your own way there and join everyone at the aetheryte plaza."
+3,"TEXT_CLSGLD630_02600_SEQ_03","At Rhalgr's Reach, you are introduced to an Ananta named Kanchana, your liaison in the Resistance. Having shown you to the space set aside for your use, Kanchana brings up the subject of the school's generic name. A discussion ensues, and with your blessing, the group decides to rename the school the Crown Gemworks to honor the sultana. Emeloth declares the school in operation, and suggests that you begin by speaking with your students in order to build rapport and learn about them."
+4,"TEXT_CLSGLD630_02600_SEQ_04","You have spoken with all your apprentices. Share your impressions with Emeloth."
+5,"TEXT_CLSGLD630_02600_SEQ_05","Emeloth agrees with your assessment that the two brothers, Wido and Hal, pose the greater challenge due to their unbalanced skill sets. Rather than addressing their weaknesses, however, you decide to instead cultivate their strengths by way of a joint project between the three apprentices. To serve as a reference, Emeloth proposes that you craft a silver ring adorned with a lapis lazuli taken from the crown.
 
-※「<Sheet(Item,17901,0)/>」を失った場合は、カンチャナに話しかけましょう。材料を入手し、再挑戦が可能になります。"
-6,"TEXT_CLSGLD630_02600_SEQ_06","エメロスに納品した。ウィドとハルは、より高い目標を持つことで、これまでとは違う意識を持って仕事に取り組みはじめたようだ。今後とも徒弟たちのよりよきお手本でいられるよう、さらなる高みをめざしていこう。
+※In the event you lose the ingredients or the synthesis ends in failure, you may try again by speaking with Kanchana."
+6,"TEXT_CLSGLD630_02600_SEQ_06","Your ring strikes awe into Emeloth, who goes so far as to describe it as the embodiment of perfection. And by beholding it, your apprentices are awakened to the true heights of their chosen craft. As they apply themselves to their training, continue honing your own skills, that you might remain a shining example to your students.
 
-※彫金師のレベルが65以上になると、ラールガーズリーチのエメロスから、次の彫金師クエストを受注することができます。"
+※The next goldsmith quest will be available from Emeloth upon reaching level 65."
 7,"TEXT_CLSGLD630_02600_SEQ_07",""
 8,"TEXT_CLSGLD630_02600_SEQ_08",""
 9,"TEXT_CLSGLD630_02600_SEQ_09",""
@@ -29,13 +29,13 @@ int32,str,str
 21,"TEXT_CLSGLD630_02600_SEQ_21",""
 22,"TEXT_CLSGLD630_02600_SEQ_22",""
 23,"TEXT_CLSGLD630_02600_SEQ_23",""
-24,"TEXT_CLSGLD630_02600_TODO_00","刺抜盆地のエメロスと話す"
-25,"TEXT_CLSGLD630_02600_TODO_01","ラールガーズリーチでエメロスと合流"
-26,"TEXT_CLSGLD630_02600_TODO_02","ジャ・ケビカと話す"
-27,"TEXT_CLSGLD630_02600_TODO_03","ウィドと話す"
-28,"TEXT_CLSGLD630_02600_TODO_04","ハルと話す"
-29,"TEXT_CLSGLD630_02600_TODO_05","エメロスと話す"
-30,"TEXT_CLSGLD630_02600_TODO_06","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>製作手帳 クラスクエスト：<Sheet(ItemHQ,17902,0)/>を製作<Else/>エメロスに<Sheet(ItemHQ,17902,0)/>を納品</If>"
+24,"TEXT_CLSGLD630_02600_TODO_00","Speak with Emeloth at Spineless Basin."
+25,"TEXT_CLSGLD630_02600_TODO_01","Join Emeloth at Rhalgr's Reach."
+26,"TEXT_CLSGLD630_02600_TODO_02","Speak with J'khebica."
+27,"TEXT_CLSGLD630_02600_TODO_03","Speak with Wido."
+28,"TEXT_CLSGLD630_02600_TODO_04","Speak with Hal."
+29,"TEXT_CLSGLD630_02600_TODO_05","Speak with Emeloth."
+30,"TEXT_CLSGLD630_02600_TODO_06","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Synthesize a sample silver ring <Sheet(Addon,9,0)/><Else/>Show the sample silver ring <Sheet(Addon,9,0)/> to Emeloth</If>."
 31,"TEXT_CLSGLD630_02600_TODO_07",""
 32,"TEXT_CLSGLD630_02600_TODO_08",""
 33,"TEXT_CLSGLD630_02600_TODO_09",""
@@ -53,213 +53,90 @@ int32,str,str
 45,"TEXT_CLSGLD630_02600_TODO_21",""
 46,"TEXT_CLSGLD630_02600_TODO_22",""
 47,"TEXT_CLSGLD630_02600_TODO_23",""
-48,"TEXT_CLSGLD630_02600_SYSTEM_000_000","本クエストを進行するためには、
-「メインクエスト：紅蓮のリベレーター」の、
-「その声に押されて」を完了する必要があります。"
-49,"TEXT_CLSGLD630_02600_JEMIME_000_030","先に女王陛下からいただいた、職人養成塾のお話ですが、
-アラミゴ解放軍から、受け入れ準備が整ったとの報せが届きました！"
-50,"TEXT_CLSGLD630_02600_JEMIME_000_031","いよいよ、補佐役のエメロスさんとともに、
-ギラバニア入りしていただくことになります。
-新しい事業の立ち上げ……私まで、ぞくぞくしてしまいますわ！"
-51,"TEXT_CLSGLD630_02600_JEMIME_000_032","中央ザナラーンの刺抜盆地で「エメロス」さんがお待ちです。
-まずは、彼女からお話を伺ってください。"
-52,"TEXT_CLSGLD630_02600_JEMIME_000_040","中央ザナラーンの刺抜盆地で「エメロス」さんがお待ちです。
-まずは、彼女からお話を伺ってください。"
-53,"TEXT_CLSGLD630_02600_EMELOTH_000_060","ごきげんよう、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん。
-徒弟さんたちは、ひと足先にラールガーズリーチへ旅立ちました。
-ウィドとハルの兄弟が、アラミゴ解放軍にツテをお持ちとか。"
-54,"TEXT_CLSGLD630_02600_EMELOTH_000_061","3人はいままで、ナナモ様がパトロンと知らなかったそうで、
-たいへん驚いておりましたのよ……！"
-55,"TEXT_CLSGLD630_02600_EMELOTH_000_062","何でも、アラミゴ難民にだけ公費を出すというのは難しく、
-ご予算は、すべてナナモ様の私財とか……。
-事業が軌道に乗るまでは、静かに進めたいご意向だそうです。"
-56,"TEXT_CLSGLD630_02600_EMELOTH_000_063","それもあって、募集はナナモ様の名を出さずにかけたので、
-3人は、何も知らなかったというわけですの。
-母君の宝冠をさしだされたことを知れば、もっと驚くでしょうね。"
-57,"TEXT_CLSGLD630_02600_EMELOTH_000_064","……そろそろ、わたくしたちも旅支度をして、
-「ラールガーズリーチ」へと向かいましょうか？
-ナナモ様の宝冠につきましては、わたくしが送り届けます。"
-58,"TEXT_CLSGLD630_02600_JKHEBICA_000_070","えへへ、とうとうここまで来たっす！
-師範、これからよろしくっす！"
-59,"TEXT_CLSGLD630_02600_WIDO_000_075","少しの間だけど、兄弟でここに厄介になったことがある。
-オレたちにとっちゃ、里帰りみたいなもんさ！"
-60,"TEXT_CLSGLD630_02600_HAL_000_080","ナナモ様が支援してくれてるなんて、全然知らなくて……
-もっと、がんばって一人前にならなきゃ！"
-61,"TEXT_CLSGLD630_02600_KANCHANA_000_085","シュー……あら、あなたが職人養成塾の師範？
-ふふ、思ってたよりも、ずっと素敵な<If(PlayerParameter(4))>お嬢さん<Else/>殿方</If>ね。"
-62,"TEXT_CLSGLD630_02600_EMELOTH_000_120","ごきげんよう、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん。
-この拠点でも師範の名が知れ渡っていることに、驚きました。
-ナナモ様が直々に御指名なさったのも、納得です。"
-63,"TEXT_CLSGLD630_02600_EMELOTH_100_120","……さて、こちらはカンチャナさん。
-アラミゴ解放軍側の、窓口をご担当いただけるそうですの。"
-64,"TEXT_CLSGLD630_02600_KANCHANA_000_121","シュー……歓迎します。
-私たちアナンタ族は、自分たちでアクセサリーを作るのが好き。
-ヒトの子の彫金術がどんなものか、興味があるわ。"
-65,"TEXT_CLSGLD630_02600_KANCHANA_000_122","ところで、こちらで預かった女王陛下の宝冠だけれど……
-あんな綺麗な冠から、宝石をバラして使うつもりなの？"
-66,"TEXT_CLSGLD630_02600_JKHEBICA_000_123","あたしも、びっくりっす！
-ナナモ様のお母さまの形見だなんて、畏れ多くて、
-どうあつかっていいのか……。"
-67,"TEXT_CLSGLD630_02600_Q1_000_124","何と答える？"
-68,"TEXT_CLSGLD630_02600_A1_000_125","大切に使おう"
-69,"TEXT_CLSGLD630_02600_A1_000_126","自分も畏れ多い"
-70,"TEXT_CLSGLD630_02600_EMELOTH_000_130","師範のおっしゃるとおり。
-ナナモ様は、この上ない覚悟で、この事業を始められたのですよ。"
-71,"TEXT_CLSGLD630_02600_EMELOTH_000_140","ナナモ様は、師範ほどの方でもそう感じるほど強い決意で、
-この事業を始められたのですよ。"
-72,"TEXT_CLSGLD630_02600_EMELOTH_000_150","宝石を形見わけすることは、古よりの王侯貴族の伝統……。
-ナナモ様は、エオルゼアの民をわが子のように考えているのです。"
-73,"TEXT_CLSGLD630_02600_EMELOTH_000_151","ですから外した宝石は、大切に使わせていただきましょう。
-アラミゴの民が自立することが、女王陛下の治める、
-ウルダハの問題を解決することにもつながるのですから……。"
-74,"TEXT_CLSGLD630_02600_KANCHANA_000_152","シュー……なるほどね。
-じゃ、これから職人養成塾が使う場所へ案内するけど……
-「職人養成塾」って、呼びにくいわね。"
-75,"TEXT_CLSGLD630_02600_WIDO_000_153","それにオレたち、最後は売りモノを作るんだろ？
-「職人養成塾」製じゃ、締まらなくねえか？
-ナントカ工房とか、ちゃんとした名前じゃないと！"
-76,"TEXT_CLSGLD630_02600_HAL_000_154","たしかに、塾よりは工房と呼びたいね。
-冠の宝石……「クラウンジェム工房」とか？"
-77,"TEXT_CLSGLD630_02600_EMELOTH_000_155","…………なかなか、よい案と思いますの。
-師範、みなの幸せを願うナナモ様の心を忘れないように、
-これからは「クラウンジェム工房」と呼ぶことにしませんか？"
-78,"TEXT_CLSGLD630_02600_EMELOTH_000_156","それでは「クラウンジェム工房」、これより始動ですね！
-カンチャナさん、みなさんの案内をお願いします。"
-79,"TEXT_CLSGLD630_02600_EMELOTH_000_157","師範は、徒弟さんたちの話を聞いてあげてくださいますか？
-まずは彫金の基本となる課題に、取り組んでもらうつもりですの。"
-80,"TEXT_CLSGLD630_02600_EMELOTH_000_160","徒弟さんたちに、声をかけてあげてください。
-きっと、喜ぶと思いますよ。"
-81,"TEXT_CLSGLD630_02600_KANCHANA_000_170","シュー……ここが、クラウンジェム工房として使う場所よ。
-もともとは、貯蔵物資の管理なんかをしてた場所だから、
-たいした設備は置けないけどね。"
-82,"TEXT_CLSGLD630_02600_JKHEBICA_000_210","師範、これからよろしくっす！
-……師範って、ここの偉い人たちといっしょに戦ってたんすね！
-全然知らなくて、びっくりしたっす！"
-83,"TEXT_CLSGLD630_02600_JKHEBICA_000_211","ナナモ様の宝冠の石を使うって話を聞いて、またまたびっくりっす！
-あたし、ときどきドジやらかすから、
-手を滑らせないように、気をつけないと……！"
-84,"TEXT_CLSGLD630_02600_WIDO_000_220","いまはエメロスさんに、彫金の基本を教えてもらってるよ。
-鍛冶をやってたから、金属を曲げたり延ばしたりは得意なんだけど、
-宝石磨きはサッパリだね。"
-85,"TEXT_CLSGLD630_02600_WIDO_000_221","そもそも何がだめなのか、よくわからないんだよな。
-……完成品を見てないからかなあ？"
-86,"TEXT_CLSGLD630_02600_HAL_000_230","師範、どうぞよろしく！
-職人の仕事なんて初めてだから、基本を覚えるだけで、
-手一杯だよ！"
-87,"TEXT_CLSGLD630_02600_HAL_000_231","でもエメロスさんから、宝石の加工はうまいって誉められたんだ。
-ほら、採掘をやってたからね。
-石の硬さや性質なんかは、よくわかるんだ。"
-88,"TEXT_CLSGLD630_02600_HAL_000_232","でも金属を加工するのは、ちょっと苦手だな。
-工房で渡される金属って、人の手が入ったやつがほとんどでしょ？
-自然のままの鉱石とは、だいぶ違うんだよなあ……。"
-89,"TEXT_CLSGLD630_02600_JKHEBICA_000_240","師範、よろしくっす！
-ナナモ様の宝冠の石を使うだなんて、身が引き締まる思いっす！"
-90,"TEXT_CLSGLD630_02600_WIDO_000_245","いまはエメロスさんに、彫金の基本を教えてもらってるよ。
-鍛冶をやってたから、金属を曲げたり延ばしたりは得意なんだけど、
-宝石磨きはサッパリだね。"
-91,"TEXT_CLSGLD630_02600_HAL_000_250","エメロスさんから、宝石の加工はうまいって誉められたんだ。
-石の硬さや性質なんかは、よくわかるからね。"
-92,"TEXT_CLSGLD630_02600_KANCHANA_000_260","シュー……戦争だの何だので、
-何かと、物騒な話題の多い場所だけど……
-この一角だけは、少し華やいできたね。"
-93,"TEXT_CLSGLD630_02600_EMELOTH_000_270","いかがでしたか、師範？
-徒弟さんたちの様子は……。"
-94,"TEXT_CLSGLD630_02600_EMELOTH_000_271","なるほど……。
-3人のなかで、ジャ・ケビカはまあ順調と言えそうです。
-宝飾店で働いてただけあってセンスもいいし、やる気もあるし。"
-95,"TEXT_CLSGLD630_02600_EMELOTH_000_272","問題は、ウィドとハルですね。
-ウィドは、金属加工は巧みですが、宝石加工は素人。
-ハルは宝石のあつかいは堅いけど、金属がイマイチ……。"
-96,"TEXT_CLSGLD630_02600_EMELOTH_000_273","両方がこなせないと、彫金師は務まりません。
-まずは苦手を克服してもらってから、
-新しい課題に移ろうと思っているのですけど……。"
-97,"TEXT_CLSGLD630_02600_Q2_000_274","何と答える？"
-98,"TEXT_CLSGLD630_02600_A2_000_275","得意なことを伸ばしては？"
-99,"TEXT_CLSGLD630_02600_A2_000_276","完成品を作らせてみては？"
-100,"TEXT_CLSGLD630_02600_EMELOTH_000_280","おや……苦手の克服より、得意なことをやらせてはと？
-たしかに成果が出ないと、やる気も下がってしまいますしね。"
-101,"TEXT_CLSGLD630_02600_EMELOTH_000_285","……完成品、ですか。
-たしかに、作った部品が最終的にどう使われるか、
-完成品がイメージできないから、上達が遅いのかも……。"
-102,"TEXT_CLSGLD630_02600_EMELOTH_000_290","では、こんな課題を出してみましょうか？
-まずはお手本として、こちらで完成品を作ってみせる。
-その上で、とにかく3人で、それに近い質のものを作りなさいと。"
-103,"TEXT_CLSGLD630_02600_EMELOTH_000_291","最初は、自分たちで作りあげることを優先させたいので、
-それぞれ、得意なことを分担させましょう。"
-104,"TEXT_CLSGLD630_02600_EMELOTH_000_292","とにかく完成させれば、どの工程にどんな意味があるのか、
-理解も進むと思いますの。
-師範、よいアイディアをありがとうございました……！"
-105,"TEXT_CLSGLD630_02600_EMELOTH_000_293","どうでしょう……こうしたお手本は、わたくしごときでなく、
-師範に作ってもらうのがよいと思いますの。
-徒弟さんの勉強にもなりますし、彼らのやる気も違うでしょう。"
-106,"TEXT_CLSGLD630_02600_EMELOTH_000_294","たとえば……徒弟さんでも加工しやすいシルバーに、
-宝冠から取った美しいラピスラズリをあしらった、
-シルバーリングなどいかがでしょう？"
-107,"TEXT_CLSGLD630_02600_EMELOTH_000_295","製作には、その材料をご使用ください。
-もしも足りなくなったら、「カンチャナ」さんに言えば、
-用意してもらえますよ。"
-108,"TEXT_CLSGLD630_02600_SYSTEM_000_296","クラフターの「クラスクエスト」では、
-クエスト中に入手した材料を使い、製作を行います。"
-109,"TEXT_CLSGLD630_02600_SYSTEM_000_297","製作に失敗した場合は、
-NPCに話しかけることで、再度、材料を入手できます。"
-110,"TEXT_CLSGLD630_02600_SYSTEM_000_298","それでは、実際に製作をしてみましょう！
-製作手帳の「スペシャルレシピ」から「ストーリー関連」を選び、
-「クラスクエスト」の項目を選択することで製作できます。"
-111,"TEXT_CLSGLD630_02600_JKHEBICA_000_300","エメロスさんが、何か次の課題を出すらしいっすけど……
-何なんっすかね？"
-112,"TEXT_CLSGLD630_02600_WIDO_000_305","ハルは、本当に嘘のつき甲斐があるなあ……。
-「次の課題は、墓場で肝だめしらしいぞ」って言ってみたら、
-真顔で信じやがった……。"
-113,"TEXT_CLSGLD630_02600_HAL_000_310","あっ、師範！
-次の課題は、肝だめしらしいって本当！？
-おいら、割と怖がりなんだよね……。"
-114,"TEXT_CLSGLD630_02600_KANCHANA_000_315","シュー……追加の材料をご所望でしたら、ご遠慮なく。
-お手本ですもの、下手なものは見せられないわよね？"
-115,"TEXT_CLSGLD630_02600_KANCHANA_000_320","シュー……もう、お手本の指輪は完成したのでしょう？
-エメロスに渡してあげて。"
-116,"TEXT_CLSGLD630_02600_EMELOTH_000_360","あら、徒弟さんのための「<Sheet(ItemHQ,17902,0)/>」は、
-おできになりましたの？"
-117,"TEXT_CLSGLD630_02600_EMELOTH_000_390","これは…………！
-何度も打ち鍛え、シルバーとは別物の硬さを得たリングに、
-狂いなく打ちこまれ、計算しつくされた槌目……！"
-118,"TEXT_CLSGLD630_02600_EMELOTH_000_391","……まさに完璧な仕事ですね。
-これならば、ナナモ様の宝冠の石を使う価値もあるというもの。"
-119,"TEXT_CLSGLD630_02600_EMELOTH_000_392","ふふ……素朴な品ほど、職人の腕前の差が出ると言うけれど、
-徒弟さんに、この素晴らしさがわかるかしら？"
-120,"TEXT_CLSGLD630_02600_EMELOTH_000_393","徒弟さんたち、こちらへいらっしゃい！
-これからあなたたちに、シンプルな指輪を作ってもらいます。
-こちらに、師範みずからご製作されたお手本があります。"
-121,"TEXT_CLSGLD630_02600_JKHEBICA_000_394","これを、あたしたちが作るっす！？
-…………はい、無理っす！"
-122,"TEXT_CLSGLD630_02600_KANCHANA_000_395","シュー……ふふ、即答ですか。
-私にも、これが簡単に真似のできない職人技だってことは、
-わかるわよ。"
-123,"TEXT_CLSGLD630_02600_EMELOTH_000_396","すぐに師範と同じ品質のものを作れとは言いません。
-まずは、とにもかくにも完成させること！"
-124,"TEXT_CLSGLD630_02600_WIDO_000_397","おい…………どうする、ハル。
-オレ、金属加工はちょいと自信があったけど……
-先生のはまるっきり次元が違うぞ、これ！"
-125,"TEXT_CLSGLD630_02600_HAL_000_398","おいらは、宝石の研磨の精度に打ちのめされたよ。
-もともと丁寧にカットされていた石なのに、さらに磨きをかけて、
-表面の歪みを綺麗さっぱり消してあるんだ……。"
-126,"TEXT_CLSGLD630_02600_HAL_000_399","ねえ、兄貴……どっちが得意とか、そんな問題じゃないよ。
-師範はその両方とも、こんな高い次元でこなしちゃうんだから。"
-127,"TEXT_CLSGLD630_02600_JKHEBICA_000_400","……目標が高すぎて、自分たちの得意不得意なんか、
-どうでもよくなった感じっすかね？"
-128,"TEXT_CLSGLD630_02600_EMELOTH_000_401","ただ当面は、得意な分野を活かして分業してもらいましょう。
-……ウィドはシルバーの成形、ハルは宝石の研磨とカット。
-基本のデザインと最後の仕上げは、ジャ・ケビカの担当よ。"
-129,"TEXT_CLSGLD630_02600_EMELOTH_100_402","3人の力を合わせて、まずはひとつの品を仕上げてください。
-すべての面で師範のような高みをめざすのは、
-それぞれの役割が、立派にこなせるようになってからです。"
-130,"TEXT_CLSGLD630_02600_JKHEBICA_000_403","(-徒弟たち-)……はいっ！"
-131,"TEXT_CLSGLD630_02600_JKHEBICA_000_404","師範、すごいお手本を見せてもらって、感激っす！
-力を合わせて、がんばるっす！"
-132,"TEXT_CLSGLD630_02600_EMELOTH_100_404","今日からこの場所が、あなたたちの工房です。
-でも、まだ届いていない道具もあることですし、
-指輪製作は、明日からの課題といたしましょう。"
-133,"TEXT_CLSGLD630_02600_EMELOTH_000_405","ふふふ……高い目標をまのあたりにして、
-徒弟さんたちの意識が、ガラリと変わりましたね。
-それでは、彼らがもう一段、成長するのを待つとしましょう！"
-134,"TEXT_CLSGLD630_02600_SYSTEM_000_900","彫金師として、さらなる技術的洗練を高め、
-「品質精査」を修得しました！"
+48,"TEXT_CLSGLD630_02600_SYSTEM_000_000","In order to undertake this quest, you must first complete the main scenario quest “Divide and Conquer.”"
+49,"TEXT_CLSGLD630_02600_JEMIME_000_030","Glad tidings, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! The Ala Mhigan Resistance has sent word that all is in readiness at Rhalgr's Reach for the artisans' school!"
+50,"TEXT_CLSGLD630_02600_JEMIME_000_031","The time is come for you and Miss Emeloth to strike out for Gyr Abania, there to cultivate a new generation of goldsmiths. Though I am not directly involved, the mere thought of the venture sets my heart aflutter!"
+51,"TEXT_CLSGLD630_02600_JEMIME_000_032","Now then, your deputy awaits you at Spineless Basin, where I believe you first met your students. Pray see to your preparations and join her there at your earliest convenience."
+52,"TEXT_CLSGLD630_02600_JEMIME_000_040","Miss Emeloth awaits you at Spineless Basin, where you first met your students. Pray see to your preparations and join her there at your earliest convenience."
+53,"TEXT_CLSGLD630_02600_EMELOTH_000_060","Good <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>evening<Else/>morrow</If><Else/><If(LessThan(PlayerParameter(11),17))>day<Else/>evening</If></If> to you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. You just missed our apprentices─they struck out for Rhalgr's Reach but moments ago."
+54,"TEXT_CLSGLD630_02600_EMELOTH_000_061","A shame you couldn't see their stunned faces when I told them that the school was established under the patronage of the sultana herself. Nay, they had no idea who their benefactor is."
+55,"TEXT_CLSGLD630_02600_EMELOTH_000_062","Doubtless they assumed the coin was publicly sourced, but the seventh hell would freeze over before Ul'dah becomes so charitable. The truth is, Her Grace is personally bearing all expenses."
+56,"TEXT_CLSGLD630_02600_EMELOTH_000_063","However, she desires no credit for it, and wishes instead to keep the initiative quiet. And so, when the call went out for apprentices, nary a mention was made of her involvement. I can only imagine how the three will react when they learn that Her Grace's contribution includes her lady mother's crown."
+57,"TEXT_CLSGLD630_02600_EMELOTH_000_064","Speaking of the crown, I have it in my safekeeping. Let us see it safely to Rhalgr's Reach, where our eager apprentices await. Shall we then?"
+58,"TEXT_CLSGLD630_02600_JKHEBICA_000_070","Hehe, I've been looking forward to this moment and finally it's here and our training can begin!"
+59,"TEXT_CLSGLD630_02600_WIDO_000_075","We lived here awhile, me an' Hal, so this is a homecomin' o' sorts for us."
+60,"TEXT_CLSGLD630_02600_HAL_000_080","I'm gonna make it as a goldsmith. It's the only way I can repay the sultana."
+61,"TEXT_CLSGLD630_02600_KANCHANA_000_085","Ssso, you are to be the ssschoolmaster. Mmm, yesss, you do look the part."
+62,"TEXT_CLSGLD630_02600_EMELOTH_000_120","There you are, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Upon arriving, I was surprised to learn that yours is already an established name in these parts. It makes it all that more compelling that Her Grace would name you for the role."
+63,"TEXT_CLSGLD630_02600_EMELOTH_100_120","But without further ado, may I introduce you to Kanchana, our liaison with the Resistance."
+64,"TEXT_CLSGLD630_02600_KANCHANA_000_121","Greetingsss and welcome to Rhalgr'sss Reach. We Ananta love accessoriesss─love to make and to wear them. The goldsssmithing of your kind is most intriguing, and I look forward to obssserving your techniquesss."
+65,"TEXT_CLSGLD630_02600_KANCHANA_000_122","But tell me, this crown you have brought... Sssuch a precious thing, yet you mean to take it apart for its stonesss?"
+66,"TEXT_CLSGLD630_02600_JKHEBICA_000_123","Y-Yeah, it belonged to the sultana's mother and is worth a fortune, and to be honest the idea of working on it frightens me..."
+67,"TEXT_CLSGLD630_02600_Q1_000_124","What will you say?"
+68,"TEXT_CLSGLD630_02600_A1_000_125","Let us strive to be worthy of it."
+69,"TEXT_CLSGLD630_02600_A1_000_126","The idea frightens me as well."
+70,"TEXT_CLSGLD630_02600_EMELOTH_000_130","The crown is the symbol of the sultana's faith in us. As the schoolmaster says, we must strive to be worthy of that faith."
+71,"TEXT_CLSGLD630_02600_EMELOTH_000_140","That even the schoolmaster should feel daunted bespeaks the weight of the sultana's hopes for the initiative."
+72,"TEXT_CLSGLD630_02600_EMELOTH_000_150","It is a tradition among nobles to bequeath gemstones unto those nearest and dearest to them. And to Her Grace, the people of Eorzea are as her children."
+73,"TEXT_CLSGLD630_02600_EMELOTH_000_151","So let us receive the stones with thanks and ensure that they serve a good cause─that which will lead to a better future for Ala Mhigans, as is Her Grace's will."
+74,"TEXT_CLSGLD630_02600_KANCHANA_000_152","Ssso that is the way of it. Very well, I shall show you to the ssspace we've set aside for use by the artisans' school. But I must asssk, is that to be your actual name? It strikes me as sssomewhat...generic."
+75,"TEXT_CLSGLD630_02600_WIDO_000_153","Hard to argue with that. If we're gonna be sellin' our wares eventually, I reckon we need a catchier name to slap on 'em."
+76,"TEXT_CLSGLD630_02600_HAL_000_154","Right, somethin' less a school an' more a workshop, like...the Crown Gemworks. Y'know, in honor o' the sultana?"
+77,"TEXT_CLSGLD630_02600_EMELOTH_000_155","I believe this is a fine idea, and that is a fine name. What say you, Schoolmaster?"
+78,"TEXT_CLSGLD630_02600_EMELOTH_000_156","It's official, then. From this moment forth, the Crown Gemworks is in operation. Kanchana, pray lead the way."
+79,"TEXT_CLSGLD630_02600_EMELOTH_000_157","Schoolmaster, to begin with, may I suggest you have a word with each of the apprentices? It would serve to build rapport, and you would stand to learn about them."
+80,"TEXT_CLSGLD630_02600_EMELOTH_000_160","The apprentices will doubtless appreciate your personal attention. At your leisure, Schoolmaster."
+81,"TEXT_CLSGLD630_02600_KANCHANA_000_170","This is the ssspace set aside for you and yoursss. It used to be a ssstorage facility, so it isn't much to look at, but it ought to serve your needsss."
+82,"TEXT_CLSGLD630_02600_JKHEBICA_000_210","Schoolmaster, so it's true what Miss Emeloth says and you know all our warriors here and fought with them besides? Wow, to think that your skilled hands can create magnificent works of art as well as wreak bloody havoc, you are a truly versatile schoolmaster and I'm honored to be your pupil!"
+83,"TEXT_CLSGLD630_02600_JKHEBICA_000_211","But most of all, I'm honored I am that Her Grace would entrust us with her crown but a little nervous as well because I can be clumsy sometimes, and I'll have to take extra care that my hands don't slip!"
+84,"TEXT_CLSGLD630_02600_WIDO_000_220","Hello there, Chief. Just workin' on the basics at the moment. Havin' been a smithy, the metal side o' things comes pretty natural to me, but cuttin' an' polishin' stones? Well, that's a whole new world."
+85,"TEXT_CLSGLD630_02600_WIDO_000_221","I can't for the life o' me tell what's good an' what's bad. Haven't seen enough finished products, I s'pose..."
+86,"TEXT_CLSGLD630_02600_HAL_000_230","M-Me? I never done no craftin' afore, an' it's all I can do to remember the basics. Ah, but Miss Emeloth says I've got a sense for workin' stone."
+87,"TEXT_CLSGLD630_02600_HAL_000_231","That's my minin' experience talkin', I reckon. A glance an' I can tell a stone's character, its hardness an' all that."
+88,"TEXT_CLSGLD630_02600_HAL_000_232","Can't say the same when it comes to metal, though. I've dug up ore, to be sure, but the stuff what comes to us ain't ore no more. A stone don't change like that."
+89,"TEXT_CLSGLD630_02600_JKHEBICA_000_240","I'm honored that Her Grace would entrust us with her crown but a little nervous as well because I can be clumsy sometimes, and I'll have to take extra care that my hands don't slip!"
+90,"TEXT_CLSGLD630_02600_WIDO_000_245","Just workin' on the basics at the moment. Havin' been a smithy, the metal side o' things comes pretty natural to me, but cuttin' an' polishin' stones? Well, that's a whole new world."
+91,"TEXT_CLSGLD630_02600_HAL_000_250","Miss Emeloth says I've got a sense for workin' stone. That's my minin' experience talkin', I reckon."
+92,"TEXT_CLSGLD630_02600_KANCHANA_000_260","Much of the talk here pertainsss to war, and death, and misery. This corner alone is a refuge from such depressing subject mattersss."
+93,"TEXT_CLSGLD630_02600_EMELOTH_000_270","You've spoken with our apprentices? How do they fare?"
+94,"TEXT_CLSGLD630_02600_EMELOTH_000_271","...I see. Mine own impressions are much the same as yours. J'khebica shows promise. Her time at a jewelry shop has instilled her with artistic sense, and she has zeal in abundance."
+95,"TEXT_CLSGLD630_02600_EMELOTH_000_272","The challenge will be the two brothers. Wido works metal like a veteran, but stone like a layman. Hal, meanwhile, is the opposite─brilliant with stone, but lackluster with metal."
+96,"TEXT_CLSGLD630_02600_EMELOTH_000_273","A goldsmith proficient in only one area is no goldsmith at all, and I've a mind to have them overcome their weaknesses ere I let them move on to the next step. But what say you, Schoolmaster?"
+97,"TEXT_CLSGLD630_02600_Q2_000_274","What will you say?"
+98,"TEXT_CLSGLD630_02600_A2_000_275","Let's cultivate their strengths first."
+99,"TEXT_CLSGLD630_02600_A2_000_276","Let's task them with a finished product."
+100,"TEXT_CLSGLD630_02600_EMELOTH_000_280","Oh? Before addressing weaknesses, you would first cultivate strengths? Hm, mayhap there is wisdom in this. At this early stage, a focus on shortcomings is liable to undermine motivation."
+101,"TEXT_CLSGLD630_02600_EMELOTH_000_285","Oh? You would have them try their hand at crafting a finished product? Hm, perhaps there is wisdom in this. When working on a part, it is important to know how it fits into the whole."
+102,"TEXT_CLSGLD630_02600_EMELOTH_000_290","With this in mind, I have a proposal: we prepare a sample product, which our apprentices will work together to reproduce to the best of their abilities."
+103,"TEXT_CLSGLD630_02600_EMELOTH_000_291","The point is to create something from beginning to end, and to that end we will have each person take charge of the area in which he or she excels."
+104,"TEXT_CLSGLD630_02600_EMELOTH_000_292","This exercise will give them not only a sense of satisfaction, but also a better understanding of each aspect of our craft in context. My thanks, Schoolmaster─such an idea would not have occurred to me without your input."
+105,"TEXT_CLSGLD630_02600_EMELOTH_000_293","Now, on the question of a sample, I believe that it is best made by your hands. The quality would surpass aught I could hope to produce, and the knowledge that it came from you would serve to inspire our apprentices."
+106,"TEXT_CLSGLD630_02600_EMELOTH_000_294","As for the subject... Ah, yes, a silver ring should pose a suitable challenge. Something adorned with a beautiful lapis lazuli from Her Grace's crown."
+107,"TEXT_CLSGLD630_02600_EMELOTH_000_295","Here are some materials to get you started. Should you require more, you need but ask Kanchana."
+108,"TEXT_CLSGLD630_02600_SYSTEM_000_296","To proceed with the quest, use the materials provided by Emeloth to craft a sample ring."
+109,"TEXT_CLSGLD630_02600_SYSTEM_000_297","Should your synthesis efforts prove unsuccessful, speak with Kanchana to receive another set of materials."
+110,"TEXT_CLSGLD630_02600_SYSTEM_000_298","To begin the crafting process, select <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Logs<UIGlow>01</UIGlow><UIForeground>01</UIForeground> from the main menu, followed by <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Crafting Log<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. Next, select <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Special Recipes<UIGlow>01</UIGlow><UIForeground>01</UIForeground> from within the requisite crafting discipline, then <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Story<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, and lastly <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Class Quests<UIGlow>01</UIGlow><UIForeground>01</UIForeground> to locate the desired recipe."
+111,"TEXT_CLSGLD630_02600_JKHEBICA_000_300","I heard that Miss Emeloth has a task for us and now my fingers are tingling for the anticipation!"
+112,"TEXT_CLSGLD630_02600_WIDO_000_305","Heh, I told Hal our first task is spendin' a night at a graveyard. It's too easy with him sometimes. <sigh>"
+113,"TEXT_CLSGLD630_02600_HAL_000_310","Oh gods, is it true? Are we really sleepin' at a graveyard? 'Cause I'm afraid of ghosts... <gulp>"
+114,"TEXT_CLSGLD630_02600_KANCHANA_000_315","If you have need of more materialsss, do not hesitate to asssk. For educational purposesss, the sample can't be anything short of perfect, yesss?"
+115,"TEXT_CLSGLD630_02600_KANCHANA_000_320","The ring is ready, yesss? What are you waiting for? Hurry and show it to Emeloth."
+116,"TEXT_CLSGLD630_02600_EMELOTH_000_360","Our apprentices keenly await their task, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. May I ask if the ring is ready?"
+117,"TEXT_CLSGLD630_02600_EMELOTH_000_390","Byregot's beard, such an immaculately balanced ring! And the exquisite texture, each hammerstroke lovingly measured..."
+118,"TEXT_CLSGLD630_02600_EMELOTH_000_391","I had expected to be impressed, but I find myself in utter awe. This ring is the very embodiment of perfection, a worthy vessel for the sultana's faith and good will."
+119,"TEXT_CLSGLD630_02600_EMELOTH_000_392","'Tis the simplest articles that separate masters from middling craftsmen. I wonder if our aspiring young goldsmiths will be able to appreciate the difference."
+120,"TEXT_CLSGLD630_02600_EMELOTH_000_393","Everyone, pray gather around! For your next task, we will have you make a simple ring. Schoolmaster <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/> has personally crafted a sample for your reference."
+121,"TEXT_CLSGLD630_02600_JKHEBICA_000_394","Oh, there's no way I could possibly make something this fine, not within my lifetime and definitely not today!"
+122,"TEXT_CLSGLD630_02600_KANCHANA_000_395","Heh heh, such refreshing candor, and a sssentiment I can well appreciate. Though I am no expert, 'tis plain that this is the work of a true massster."
+123,"TEXT_CLSGLD630_02600_EMELOTH_000_396","And so it is, but be not daunted, my apprentices, for we neither ask nor expect a master's quality of you yet. Nay, your goal is to simply produce a finished product, and you needn't give thought beyond that."
+124,"TEXT_CLSGLD630_02600_WIDO_000_397","There I was thinkin' I was handy with metal, but this is takin' it to another level."
+125,"TEXT_CLSGLD630_02600_HAL_000_398","I hear you. I thought the gem was already perfect when it was on the crown, but now it's...<Emphasis>more</Emphasis> perfect. What tiny warps there was on the surface are all gone. Not that I noticed them afore..."
+126,"TEXT_CLSGLD630_02600_HAL_000_399","Might be as we're better at some things than we are at others, but it's all the same next to what the schoolmaster can do."
+127,"TEXT_CLSGLD630_02600_JKHEBICA_000_400","Right... The goal's so far away it doesn't seem to matter where we start from and what our strengths and weaknesses are."
+128,"TEXT_CLSGLD630_02600_EMELOTH_000_401","Rest assured your strengths are nothing to look down upon, and we shall draw upon them first of all. As such, the work will be delegated as follows: Wido will be responsible for fashioning the band; Hal will cut and polish the stone; and last but not least, J'khebica will take charge of the initial design and finishing touches."
+129,"TEXT_CLSGLD630_02600_EMELOTH_100_402","Doubt not that the time will come when you strive for mastery in all aspects of goldsmithing. But to begin with, we want you to focus on cultivating your individual strengths, and bid you join them together now to create your very first finished product."
+130,"TEXT_CLSGLD630_02600_JKHEBICA_000_403","(-Apprentices-)Yes, miss!"
+131,"TEXT_CLSGLD630_02600_JKHEBICA_000_404","We appreciate you taking the time to craft such an amazing sample especially for us and we promise to do our very best!"
+132,"TEXT_CLSGLD630_02600_EMELOTH_100_404","The schoolmaster and I have every confidence that you will. Remember, this workshop is yours and everything here is at your disposal. But should you have any further needs or questions, do not hesitate to come to us."
+133,"TEXT_CLSGLD630_02600_EMELOTH_000_405","Hehe, the change in their bearing was fairly palpable, was it not? To behold your ring was to gaze up at the true heights of our craft, and it instilled them with newfound determination. I look forward to seeing how they rise to the challenge."
+134,"TEXT_CLSGLD630_02600_SYSTEM_000_900","In polishing your skills as a goldsmith, you have learned “Quality Assurance”!"

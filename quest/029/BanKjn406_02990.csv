@@ -1,10 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANKJN406_02990_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト受注クラス・ジョブ制限<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-※本クエストは受注時のクラス・ジョブでのみ進行します。
-
-碧のタマミズのズキンは、優雅な報せがあるようだ。"
+0,"TEXT_BANKJN406_02990_SEQ_00","Zukin would like to introduce you to a new style of treasure hunting.
+※The difficulty of this quest will be synced to your current level."
 1,"TEXT_BANKJN406_02990_SEQ_01",""
 2,"TEXT_BANKJN406_02990_SEQ_02",""
 3,"TEXT_BANKJN406_02990_SEQ_03",""
@@ -28,9 +26,9 @@ int32,str,str
 21,"TEXT_BANKJN406_02990_SEQ_21",""
 22,"TEXT_BANKJN406_02990_SEQ_22",""
 23,"TEXT_BANKJN406_02990_SEQ_23",""
-24,"TEXT_BANKJN406_02990_TODO_00","マクラと話す"
-25,"TEXT_BANKJN406_02990_TODO_01","シマエイに騎乗して海中の<Sheet(EObj,2009105,0)/>に吸引を使う"
-26,"TEXT_BANKJN406_02990_TODO_02","ズキンに報告"
+24,"TEXT_BANKJN406_02990_TODO_00","Speak with Makura."
+25,"TEXT_BANKJN406_02990_TODO_01","Use the ray's Inhale ability to gather treasure."
+26,"TEXT_BANKJN406_02990_TODO_02","Report to Zukin."
 27,"TEXT_BANKJN406_02990_TODO_03",""
 28,"TEXT_BANKJN406_02990_TODO_04",""
 29,"TEXT_BANKJN406_02990_TODO_05",""
@@ -52,30 +50,14 @@ int32,str,str
 45,"TEXT_BANKJN406_02990_TODO_21",""
 46,"TEXT_BANKJN406_02990_TODO_22",""
 47,"TEXT_BANKJN406_02990_TODO_23",""
-48,"TEXT_BANKJN406_02990_ZUKIN_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><If(PlayerParameter(4))>姉<Else/>兄</If>、優雅なお宝探しをしてみねぇかぁ～？
-詳しくは、シマエイを世話してる「マクラ」に聞いてくれぇ～。"
-49,"TEXT_BANKJN406_02990_MAKURA_000_010","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>様、いらっしゃい～！
-お利口なシマエイが、さらにお利口になったのよぉ～！"
-50,"TEXT_BANKJN406_02990_MAKURA_000_011","シマエイは、泳いでるだけで、お宝を吸い込むことがあるでしょ～？
-それをもっと強化して、海底の砂や堆積物に埋もれた、
-見えないお宝も吸い込めちゃうようにしたのぉ～！"
-51,"TEXT_BANKJN406_02990_MAKURA_000_012","地図に、漂流物がたまりやすい場所を印したから、
-さっそく、シマエイに乗って、「吸引」を使ってみてぇ～！"
-52,"TEXT_BANKJN406_02990_MAKURA_000_013","貴方が降りたら、うちのもとに戻ってくるように躾けてあるのぉ～！
-だから、印のあたりでお宝探しが終わったら、
-シマエイから降りて、「ズキン」に報告してくれるだけでいいよぉ～！"
-53,"TEXT_BANKJN406_02990_SYSTEM_000_020","シマエイは、たくさんの堆積物とともに、
-「すんごいお宝」を吸い込んだようだ。"
-54,"TEXT_BANKJN406_02990_MAKURA_000_025","あらぁ～、シマエイから降りちゃったのねぇ～？
-あの子なら戻ってきてるから、もう一度乗せてあげるわぁ～。"
-55,"TEXT_BANKJN406_02990_MAKURA_000_026","地図に、漂流物がたまりやすい場所を印したから、
-シマエイに乗って、「吸引」を使ってみてぇ～！"
-56,"TEXT_BANKJN406_02990_SYSTEM_000_027","堆積物の中にお宝があるかもしれない。
-碧のタマミズの「マクラ」に話しかけ、
-シマエイに騎乗して、地図の印のあたりで「吸引」を行わせよう。"
-57,"TEXT_BANKJN406_02990_ZUKIN_000_030","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><If(PlayerParameter(4))>姉<Else/>兄</If>さん、おかえりぃ～！
-シマエイの腹、たっぷりと張ってたなぁ～！
-こりゃあ、お宝をたくさん吐き出してくれそうだぁ～！"
-58,"TEXT_BANKJN406_02990_ZUKIN_000_031","「吸引」を使えば、今後のお宝探しもはかどりそうだなぁ～！
-マクラが調教しているときは、間違って吸い込まれたり、
-水泡をかけられたりと、大変だったようだが、苦労が報われたぜぇ～！"
+48,"TEXT_BANKJN406_02990_ZUKIN_000_000","Can I interest you in a new method of treasure hunting? Makura will explain all."
+49,"TEXT_BANKJN406_02990_MAKURA_000_010","Glad you could join us! My clever little ray has learned a new trick."
+50,"TEXT_BANKJN406_02990_MAKURA_000_011","You might have seen striped rays with their faces in the sand, looking for food. Normally they just swallow water and filter out the krill, but the tastiest morsels can be found under the seabed."
+51,"TEXT_BANKJN406_02990_MAKURA_000_012","There's a lot more than sediment and ray snacks down there though. This little one has learned how to search for treasure while he's at it! Why don't you take him out there and give it a try?"
+52,"TEXT_BANKJN406_02990_MAKURA_000_013","The ray's been taught to come back here if you get separated. Once you've finished, Zukin will take care of the rest. Good luck!"
+53,"TEXT_BANKJN406_02990_SYSTEM_000_020","The ray finds treasure beneath the sediment."
+54,"TEXT_BANKJN406_02990_MAKURA_000_025","I was wondering when you'd be back. Our friend seems eager to continue the search!"
+55,"TEXT_BANKJN406_02990_MAKURA_000_026","There are a few spots nearby that may be worth a closer look."
+56,"TEXT_BANKJN406_02990_SYSTEM_000_027","This seems like a promising location. Ride the ray, and use his Inhale ability to search for treasure."
+57,"TEXT_BANKJN406_02990_ZUKIN_000_030","The ray's belly seems fit to burst. I advise you to stand back when he regurgitates everything. Hopefully there will be some treasure in there along with all the sand and muck."
+58,"TEXT_BANKJN406_02990_ZUKIN_000_031","Makura and her ray toiled for many days and nights to perfect that technique. Their efforts have paid dividends, as we are now able to recover many precious items that would otherwise remain undiscovered."

@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB511_00880_SEQ_00","聖アダマ・ランダマ教会のデデジュは、法衣の修繕で困っているようだ。"
-1,"TEXT_GAIUSB511_00880_SEQ_01","法衣の修繕に必要な布が足りないらしい。中央ザナラーンのブラックブラッシュ停留所にいる実直そうな商人から「<Sheet(EventItem,2000687,0)/>」を受け取ろう。"
-2,"TEXT_GAIUSB511_00880_SEQ_02","<Sheet(EventItem,2000687,0)/>を入手した。聖アダマ・ランダマ教会の「デデジュ」に渡そう。"
-3,"TEXT_GAIUSB511_00880_SEQ_03","デデジュに「<Sheet(EventItem,2000687,0)/>」を渡した。彼女は以前、墓守のマルケズのものと思われる、焼け焦げた服も仕立てなおしたというが……。"
+0,"TEXT_GAIUSB511_00880_SEQ_00","Dedeju needs your help to mend a humble linen vestment."
+1,"TEXT_GAIUSB511_00880_SEQ_01","Dedeju, a weaver working from out of the Church of Saint Adama Landama, has been given the task of mending a vestment for Father Iliud. Alas, there is more wear on the vestment than Dedeju has cloth. Sharp as a needle and sure as a backstitch, she orders you to Black Brush Station in central Thanalan to pick up well-worn linen from a trusted merchant."
+2,"TEXT_GAIUSB511_00880_SEQ_02","The merchant gives you the linen as well as a brief foray into the curious art of mending. Deliver the cloth to Dedeju and see what else you can learn. "
+3,"TEXT_GAIUSB511_00880_SEQ_03","Dedeju takes the cloth with words of thanks. As her clever fingers rapidly reweave the vestment, she mentions that she once repaired a charred garment thought to belong to lichkeeper Marques..."
 4,"TEXT_GAIUSB511_00880_SEQ_04",""
 5,"TEXT_GAIUSB511_00880_SEQ_05",""
 6,"TEXT_GAIUSB511_00880_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSB511_00880_SEQ_21",""
 22,"TEXT_GAIUSB511_00880_SEQ_22",""
 23,"TEXT_GAIUSB511_00880_SEQ_23",""
-24,"TEXT_GAIUSB511_00880_TODO_00","ブラックブラッシュ停留所の実直そうな商人から<Sheet(EventItem,2000687,0)/>を入手"
-25,"TEXT_GAIUSB511_00880_TODO_01","聖アダマ・ランダマ教会のデデジュに<Sheet(EventItem,2000687,0)/>を渡す"
+24,"TEXT_GAIUSB511_00880_TODO_00","Collect a square of tattered linen from a scrupulous shopkeep at Black Brush Station."
+25,"TEXT_GAIUSB511_00880_TODO_01","Give the linen to Dedeju."
 26,"TEXT_GAIUSB511_00880_TODO_02",""
 27,"TEXT_GAIUSB511_00880_TODO_03",""
 28,"TEXT_GAIUSB511_00880_TODO_04",""
@@ -49,23 +49,10 @@ int32,str,str
 45,"TEXT_GAIUSB511_00880_TODO_21",""
 46,"TEXT_GAIUSB511_00880_TODO_22",""
 47,"TEXT_GAIUSB511_00880_TODO_23",""
-48,"TEXT_GAIUSB511_00880_DEDEJU_000_000","もぉ！　司祭さんに法衣の修繕を頼まれたのはいいけど、
-こうもボロボロだと、持ってきた布じゃ足りないわっ……。
-あなた、ちょっと手伝ってよ！"
-49,"TEXT_GAIUSB511_00880_DEDEJU_000_001","「ブラックブラッシュ停留所」にいる商隊から、
-「<Sheet(EventItem,2000687,0)/>」を受け取ってきて！
-いい、中央ザナラーンよ？　急いでねっ！"
-50,"TEXT_GAIUSB511_00880_ENPC_000_010","デデジュからの使いだって？
-彼女、聖アダマ・ランダマ教会に行ってたのかい。
-店にいないっていうから、どこに行ったのかと思えば……。"
-51,"TEXT_GAIUSB511_00880_ENPC_000_011","どうせ、いつもの修繕用の布だろ？
-よく足らなくなって、うちに注文するのさ。
-ちゃんと用意してあるよ、持っていきな。"
-52,"TEXT_GAIUSB511_00880_DEDEJU_000_020","ねぇっ！
-……頼んだもの、持ってきてくれたっ！？"
-53,"TEXT_GAIUSB511_00880_DEDEJU_000_021","ありがとう、助かったわっ！
-さっそく直さなきゃっ。
-司祭さんがお出かけするまでに間に合うかしら……。"
-54,"TEXT_GAIUSB511_00880_DEDEJU_000_022","……そういえば少し前に、神父さんの依頼で、
-半分焼け焦げた服を仕立てなおしたことがあったわね。
-あの大きさからすると、墓守の彼の服だったのかしら。"
+48,"TEXT_GAIUSB511_00880_DEDEJU_000_000","Pssst! You that wonder-workin' adventurer? You can work some for me today. See, the Father asked me to mend this vestment, but look, both the weft and the weave's gone there and there. I'll need more cloth than I have."
+49,"TEXT_GAIUSB511_00880_DEDEJU_000_001","There's a merchant at Black Brush Station right now, he'll give you what I need. Hurry on, off to central Thanalan you go!"
+50,"TEXT_GAIUSB511_00880_ENPC_000_010","Came from Dedeju, did ye? I was wonderin' where she'd gone to. Stopped by her shop the other day─was goin' to offer her a cup of tea. She missed a nice one, an amber tip from Coerthas."
+51,"TEXT_GAIUSB511_00880_ENPC_000_011","Her usual, I'm assumin'? The tattered linen, yes <If(PlayerParameter(4))>madam<Else/>sir</If>. Now, don't you go misapprehendin'. It's nice and soft, so she can pulls out the threads and reweaves what she's mendin'. Here ye go."
+52,"TEXT_GAIUSB511_00880_DEDEJU_000_020","There you are! Did you get what I need?"
+53,"TEXT_GAIUSB511_00880_DEDEJU_000_021","Much appreciate it, adventurer! Now we'll see how nimble these fingers are. The Father needs this right soon, he said. Going out on some priestly business..."
+54,"TEXT_GAIUSB511_00880_DEDEJU_000_022","This is a piece o' piss compared to the last order, though, excuse the salty talk! 'Twas big as a house and burnt as a slattern's supper. Father Iliud brought it, but it looked to be for that lichkeeper fellow."

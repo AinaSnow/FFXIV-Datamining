@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ309_02705_SEQ_00","スイの里のクレナイは、冒険者の旅支度が整うのを待っているようだ。"
-1,"TEXT_STMBDZ309_02705_SEQ_01","まずは御伽草子の内容を確かめるために、オノコロ島をめざすことになった。紅玉海の筋違砦にいる「クレナイ」と話そう。"
-2,"TEXT_STMBDZ309_02705_SEQ_02","冒険者の顔を見た海賊は素早く態度を変え、年に一度訪れるという老人のことを教えてくれた。紅玉海の早逃桟橋にいる「海を見る老漁師」と話そう。"
-3,"TEXT_STMBDZ309_02705_SEQ_03","老漁師と話し、断片的だった御伽草子の内容が判明した。スイの里へ戻り、「クレナイ」と話そう。"
-4,"TEXT_STMBDZ309_02705_SEQ_04","クレナイと話した。御伽草子は現実と符合する点が多く、実話がもとになっている可能性が出てきた。次はヒスイを目覚めさせる霊薬を求めて、碧のタマミズへ向かう準備をしよう。"
+0,"TEXT_STMBDZ309_02705_SEQ_00","The Ruby Princess is waiting for you to join her."
+1,"TEXT_STMBDZ309_02705_SEQ_01","The Ruby Princess would like to look into the origins of a peculiar faerie tale regarding a sea-faring fisherman and a princess who had been plunged into a years-long slumber. She believes the island of Onokoro holds some of the answers she seeks."
+2,"TEXT_STMBDZ309_02705_SEQ_02","You seek out the princess, who has been approached by one of the natives of the island─a Confederate pirate. While he starts to get a bit smart with you, it does not take long for him to recognize exactly who you are. Brushing it off as a joke, he then urges you to speak with a fisherman who comes to visit the island once a year. According to the pirate this man knows a great deal about faerie tales, and is currently docked at the Quickscape Pier."
+3,"TEXT_STMBDZ309_02705_SEQ_03","As the fisherman tells it: long ago a Kojin of the Blue was saved from certain death by a Hyuran fisherman. The grateful Kojin rewarded this man with the promise of an adventure and a vial of liquid that would allow him to breathe indefinitely underwater. Following him to the depths of the seas, the fisherman and Kojin traveled together, eventually coming across a princess who had been asleep for years in her palace. The Kojin, seeing this, produced another vial that instantly woke the princess. Hearing this story, Kurenai concludes the palace mentioned in the faerie tale is Shisui of the Violet Tides and would like to return to Sui–no–Sato to conduct further investigations."
+4,"TEXT_STMBDZ309_02705_SEQ_04","Kurenai and you are joined by Shiosai, the overseer. After informing him of all that you have learned from your trip to the surface, he reveals that one of the ancient stories of Sui–no–Sato spoke of a Ruby Princess who wed a Hyuran man. Suspecting that the fisherman's faerie tale is closer to an account of historical events, Kurenai would like to travel with you to Tamamizu to ask the Kojin of the Blue about the elixir for eternal sleep."
 5,"TEXT_STMBDZ309_02705_SEQ_05",""
 6,"TEXT_STMBDZ309_02705_SEQ_06",""
 7,"TEXT_STMBDZ309_02705_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_STMBDZ309_02705_SEQ_21",""
 22,"TEXT_STMBDZ309_02705_SEQ_22",""
 23,"TEXT_STMBDZ309_02705_SEQ_23",""
-24,"TEXT_STMBDZ309_02705_TODO_00","クレナイと話す"
-25,"TEXT_STMBDZ309_02705_TODO_01","海を見る老漁師と話す"
-26,"TEXT_STMBDZ309_02705_TODO_02","クレナイと話す"
+24,"TEXT_STMBDZ309_02705_TODO_00","Speak with Kurenai."
+25,"TEXT_STMBDZ309_02705_TODO_01","Speak with the elderly fisherman."
+26,"TEXT_STMBDZ309_02705_TODO_02","Speak with Kurenai."
 27,"TEXT_STMBDZ309_02705_TODO_03",""
 28,"TEXT_STMBDZ309_02705_TODO_04",""
 29,"TEXT_STMBDZ309_02705_TODO_05",""
@@ -49,136 +49,66 @@ int32,str,str
 45,"TEXT_STMBDZ309_02705_TODO_21",""
 46,"TEXT_STMBDZ309_02705_TODO_22",""
 47,"TEXT_STMBDZ309_02705_TODO_23",""
-48,"TEXT_STMBDZ309_02705_SHIOSAI_000_000","おそらく……ヒスイはもう二度と、目を覚まさないでしょう。
-身体は健在でも、消えた魂が戻ることはありませぬゆえ。
-されど姫様は、手を尽くすまで、その事実を受け入れぬはず。"
-49,"TEXT_STMBDZ309_02705_SHIOSAI_000_001","姫様が過酷な現実を悟り、再び明日への歩みを始められるまで、
-しばし、貴方におつきあいいただきたいのです。
-……重ねて、お頼み申し上げます。"
-50,"TEXT_STMBDZ309_02705_KURENAI_000_030","旅の支度は、終わりましたか？
-さっそくですが、まずは「オノコロ島」に向かいたいと存じます。
-……ある御伽草子（おとぎぞうし）の内容を確かめたいのです。"
-51,"TEXT_STMBDZ309_02705_KURENAI_000_031","外との交流はほとんどない、私どもですが……
-稀に、碧甲羅の方々が里を訪れることがございます。"
-52,"TEXT_STMBDZ309_02705_KURENAI_000_032","その御伽草子は、彼らから、子どものころにいただいた1冊。
-クガネで書かれたという古い本で、
-紅玉海の漁師をめぐる、御伽噺でありました。"
-53,"TEXT_STMBDZ309_02705_KURENAI_000_033","ぼろぼろで、筋も追えないほどなのですが……
-ただ、何年も眠ったままだった姫が、
-不思議な霊薬で目を覚ます、というくだりがあるのです。"
-54,"TEXT_STMBDZ309_02705_KURENAI_000_034","地名などは現実に即したものでしたし、
-もしや、実話がもとになっているのでは、とも思え……。"
-55,"TEXT_STMBDZ309_02705_KURENAI_000_035","その物語のはじまりが、「オノコロ島」というわけなのです。
-あなた様は、かの島を訪れたことはございますか？"
-56,"TEXT_STMBDZ309_02705_KURENAI_000_036","まあ、何と心強い……！
-それでは、御案内をお願いいたします。"
-57,"TEXT_STMBDZ309_02705_SHIOSAI_000_070","そうですか、姫様はオノコロ島へ……。
-あそこは海賊衆の根城、筋違砦がある島……危険はございますが、
-貴方にご随伴いただけるならば、まずは安心かと。"
-58,"TEXT_STMBDZ309_02705_PIRATE02705_000_080","<If(PlayerParameter(4))>姐さん<Else/>あんさん</If>、悪いがちょっと忙しいんだ！
-このお嬢様を、歓迎してるとこなんでなァ……！"
-59,"TEXT_STMBDZ309_02705_KURENAI_000_090","こちらが、オノコロ島でしたね？
-着くなりこの方に声をかけられて、お話を伺っておりました。"
-60,"TEXT_STMBDZ309_02705_PIRATE02705_000_091","ん…………何だァ、<If(PlayerParameter(4))>姐さん<Else/>あんさん</If>？"
-61,"TEXT_STMBDZ309_02705_Q1_100_091","何と答える？"
-62,"TEXT_STMBDZ309_02705_A1_101_091","頭が高い！"
-63,"TEXT_STMBDZ309_02705_A1_102_091","…………。"
-64,"TEXT_STMBDZ309_02705_PIRATE02705_110_091","<If(PlayerParameter(4))>姐さん<Else/>あんさん</If>……ずいぶん偉そうな態度じゃねえかァ、え？
-いったい何者……"
-65,"TEXT_STMBDZ309_02705_PIRATE02705_120_091","おい……黙ってちゃ、わかんねェぞ……？"
-66,"TEXT_STMBDZ309_02705_PIRATE02705_130_091","って……そのツラ……たしか、頭領と話をしてた……！
-こいつぁ、失礼しやしたァッ！"
-67,"TEXT_STMBDZ309_02705_PIRATE02705_000_092","ヘヘヘ……俺様は、強いヤツと金目のモノには巻かれる主義なんだ。
-そっちのお嬢様に恩を売っとけば、後でいいことがあるとみたね！
-で、島へは何の用でェ……？"
-68,"TEXT_STMBDZ309_02705_PIRATE02705_000_093","漁師が主役の御伽噺（おとぎばなし）か……聞いたことがないな。
-ああでも、ふっるい話だったら、知ってそうなじいさんがいる。"
-69,"TEXT_STMBDZ309_02705_PIRATE02705_000_094","年に一度だけ、ここを訪れる漁師のじいさんだ。
-海賊衆いちばんの古株がガキのころにゃ、すでにジジイだったとか。
-何かの大物を追ってるらしくて、毎年、島に来るんだよ。"
-70,"TEXT_STMBDZ309_02705_PIRATE02705_000_095","……たしか、いまがちょうどその時期だ。
-たぶん「早逃桟橋」に行けば、会えるはずだぜェッ！"
-71,"TEXT_STMBDZ309_02705_KURENAI_000_096","貴重なお話、ありがとうございます……親切なお方！
-さっそく、向かってみます。"
-72,"TEXT_STMBDZ309_02705_PIRATE02705_000_097","へへ…………俺様が親切なお方たぁ、こそばゆいなァ！
-万が一、役に立ったときは、ちゃんと礼をしにこいよ。
-俺様の名前を忘れずになァッ！"
-73,"TEXT_STMBDZ309_02705_KURENAI_000_098","あ…………いまの方、お名前をおっしゃらなかったような……？
-御礼を届けようにも……どなたに宛てれば？"
-74,"TEXT_STMBDZ309_02705_KURENAI_000_099","せっかく親切にしていただいたのに、申し訳ないですけれど……
-教えられたとおり、「早逃桟橋」へ向かうといたしましょう。"
-75,"TEXT_STMBDZ309_02705_KURENAI_000_140","こちらが「早逃桟橋」でしょうか？
-漁師とおぼしきお方が、そちらにいらっしゃいますが……。"
-76,"TEXT_STMBDZ309_02705_FISHERMAN02705_000_150","何じゃ、わしに用か……？"
-77,"TEXT_STMBDZ309_02705_FISHERMAN02705_000_151","ふむ……オノコロ島の漁師の御伽噺のことを聞きたい？
-たしか、ワシのひいじいさんから聞いたことがあるのう……。
-いや、ひいひいじいさんじゃったかな？"
-78,"TEXT_STMBDZ309_02705_Q2_100_151","何と答える？"
-79,"TEXT_STMBDZ309_02705_A2_101_151","どっちでもいい！"
-80,"TEXT_STMBDZ309_02705_A2_102_151","早く、話のつづきを……"
-81,"TEXT_STMBDZ309_02705_FISHERMAN02705_110_151","ホホ……たしかに、どっちでもいい話じゃったの。
-何とか、その御伽噺を思いだしてみるとしよう。"
-82,"TEXT_STMBDZ309_02705_FISHERMAN02705_120_151","すまんすまん……歳を重ねると、話が逸れがちでのう……。
-何とか、その御伽噺を思いだしてみるとしよう。"
-83,"TEXT_STMBDZ309_02705_KURENAI_000_152","ぜひ、お願いいたします……！
-古い御伽草子で読んだのですが、ぼろぼろで話がわからなくて。"
-84,"TEXT_STMBDZ309_02705_FISHERMAN02705_000_153","話はオノコロ島の浜で……とあるヒューラン族の漁師が、
-魔物に襲われていた、碧甲羅のコウジン族を助けたところから始まる。"
-85,"TEXT_STMBDZ309_02705_FISHERMAN02705_000_154","漁師は碧甲羅から不思議な薬をもらい、海の底に案内された。
-そいつに案内されて、あちこち見聞するうちに、
-海に住む不思議な一族の宮殿で、お姫様と会ったそうな。"
-86,"TEXT_STMBDZ309_02705_FISHERMAN02705_000_155","お姫様はちょうど、あんたみたいなベッピンさんじゃったが、
-実はもう、何年間も眠っていて目を覚まさず……
-民は困り果てていたそうじゃ。"
-87,"TEXT_STMBDZ309_02705_FISHERMAN02705_000_156","ところが、ともにいた碧甲羅が知っていた、
-先祖伝来の霊薬を作って処方したところ、ぱちりと目を覚ました！"
-88,"TEXT_STMBDZ309_02705_FISHERMAN02705_000_157","漁師とお姫様は夫婦（めおと）となり、
-海の底の宮殿で、いつまでも幸せに暮らした……と、
-まあ、そんなお話じゃったかな？"
-89,"TEXT_STMBDZ309_02705_KURENAI_000_158","そういう物語だったのですね……とても参考になりました！"
-90,"TEXT_STMBDZ309_02705_KURENAI_000_159","……まるで紫水宮のことを、もとにしたかのようなお話です。
-「スイの里」へ戻り、里の伝承と照らしあわせてみましょうか？"
-91,"TEXT_STMBDZ309_02705_KURENAI_000_160","優しいおじいさま。
-素敵なお話をお聞かせいただき、ありがとうございました……！"
-92,"TEXT_STMBDZ309_02705_FISHERMAN02705_000_170","……優しいおじいさま、か。
-ずいぶんと育ちのよいお嬢様じゃったのう。"
-93,"TEXT_STMBDZ309_02705_FISHERMAN02705_000_171","わしらがこの島を訪れるのは、もう何代も前の祖先からの話での。
-海賊衆の古株なら、わしのじいさんあたりと、
-会ったことがあるかもしれんのう……。"
-94,"TEXT_STMBDZ309_02705_SHIOSAI_000_180","姫様とともに、無事にオノコロ島から戻られたようですね。
-何やら、成果があったと伺いましたが……。"
-95,"TEXT_STMBDZ309_02705_KURENAI_000_210","不慣れな地上でしたが、あなた様が話をしてくださったおかげで、
-みなさま親切にしてくださいました。
-おかげで物語の中身を知ることができ、感謝の念に堪えません……！"
-96,"TEXT_STMBDZ309_02705_KURENAI_000_211","噂では、オノコロ島は乱暴な方も多いと聞いておりましたが……
-あなた様は、海賊衆の方々にも顔が利くのですね？"
-97,"TEXT_STMBDZ309_02705_KURENAI_000_212","シオサイもここへ呼んでおります。
-里には、文献になっていない言い伝えもありますので、
-心あたりがないか、訊ねてみようかと……。"
-98,"TEXT_STMBDZ309_02705_SHIOSAI_000_220","……なるほど、碧甲羅の力を借り、海の底の宮殿へ。
-最後は目を覚ましたお姫様と、ヒューラン族の漁師が結ばれる、と。"
-99,"TEXT_STMBDZ309_02705_KURENAI_000_221","まるで、紫水宮のことが伝わったかのようなお話でしょう？"
-100,"TEXT_STMBDZ309_02705_KURENAI_000_222","紅玉姫がヒューラン族と夫婦となったという結末は、
-草子を編んだ方が、つけ加えたものかもしれませんけど……。"
-101,"TEXT_STMBDZ309_02705_SHIOSAI_000_223","いえ……まさにそのくだりが肝と考えています。
-何世代も前のこと、紅玉姫にヒューラン族の婿が迎えられ、
-たいそう鱗が少ない子どもが生まれたという言い伝えがあるのです。"
-102,"TEXT_STMBDZ309_02705_SHIOSAI_000_224","そうなった経緯については、伝わっていないのですが……。
-御伽草子が実話にもとづいて書かれたというのは、ありうる話。"
-103,"TEXT_STMBDZ309_02705_KURENAI_000_225","だとすれば、ヒスイを目覚させるための霊薬も……！"
-104,"TEXT_STMBDZ309_02705_SHIOSAI_000_226","ええ、そのようなものがあるのかもしれません。"
-105,"TEXT_STMBDZ309_02705_SHIOSAI_000_227","……当初、わたくしはそのような智慧など、
-里の外でも見つからないのでは、と思っておりました。
-しかし……またしても姫様は、ひとつの希望を招きよせました。"
-106,"TEXT_STMBDZ309_02705_SHIOSAI_000_228","わたくしは現実を諭すと言いながら、何ひとつしなかったのに、
-姫様は行動を起こすことで、現実を変えつつある……。"
-107,"TEXT_STMBDZ309_02705_KURENAI_000_229","……ありがとう、シオサイ。
-でも私たちが希望に近づけたのは、この方のおかげですよ。"
-108,"TEXT_STMBDZ309_02705_SHIOSAI_000_230","姫様のおっしゃるとおりです。
-そして、貴方の随伴があればこそ、
-次なる地へも、姫様を安心して送りだすことができます。"
-109,"TEXT_STMBDZ309_02705_SHIOSAI_000_231","仮に、御伽噺が実話だとすれば……
-紅玉姫の目を覚ました霊薬は、碧甲羅の間に伝わるもの。
-となれば次は、碧のタマミズへ向かわれるのが正道かと。"
-110,"TEXT_STMBDZ309_02705_KURENAI_000_232","希望が見えて参りましたね……。
-参りましょう……「碧のタマミズ」へ！"
+48,"TEXT_STMBDZ309_02705_SHIOSAI_000_000","Her Grace will be devastated to learn that Lady Hisui will never again open her eyes."
+49,"TEXT_STMBDZ309_02705_SHIOSAI_000_001","A trip to the above will put off her anguish and allow her to grow more accustomed to living in a world without her closest friend."
+50,"TEXT_STMBDZ309_02705_KURENAI_000_030","You are ready to depart? Excellent. Let us make for Onokoro. I believe we will best be served by beginning our search there."
+51,"TEXT_STMBDZ309_02705_KURENAI_000_031","You see, while we have next to no contact with the outside world, we do receive the occasional visit from the Kojin of the Blue."
+52,"TEXT_STMBDZ309_02705_KURENAI_000_032","During one such visit, I was given a tome filled with faerie tales. It was old, worn, and─from what I am given to understand─written in Kugane."
+53,"TEXT_STMBDZ309_02705_KURENAI_000_033","In it was a story about a fisherman who sailed the Ruby Sea. While traveling, he came across a princess who had fallen into a years-long slumber. She was eventually awakened upon taking an elixir of some sort. "
+54,"TEXT_STMBDZ309_02705_KURENAI_000_034","What intrigues me, however, is the fact that many of the places this fisherman visited exist in the real world. It makes me wonder if, perhaps, this story is rooted in reality."
+55,"TEXT_STMBDZ309_02705_KURENAI_000_035","The tale begins in Onokoro. I trust you will escort me there?"
+56,"TEXT_STMBDZ309_02705_KURENAI_000_036","Thank you. Now, let us depart without any further ado."
+57,"TEXT_STMBDZ309_02705_SHIOSAI_000_070","It seems Her Grace is determined to go to Onokoro. Of all places, why must she have chosen an island frequented by bloodthirsty pirates? Please, whatever happens, see that no harm comes to her."
+58,"TEXT_STMBDZ309_02705_PIRATE02705_000_080","Apologies, my friend, but I will not be able to help you right now. I must give this young lady a tour of our island."
+59,"TEXT_STMBDZ309_02705_KURENAI_000_090","So this is Onokoro... It is a lovely place. The people here are incredibly warm. Take this gentleman, for example. As soon as I set foot on the island, he offered to take me on a tour."
+60,"TEXT_STMBDZ309_02705_PIRATE02705_000_091","Hm? ...What are <Emphasis>you</Emphasis> looking at?"
+61,"TEXT_STMBDZ309_02705_Q1_100_091","What will you say?"
+62,"TEXT_STMBDZ309_02705_A1_101_091","Get lost!"
+63,"TEXT_STMBDZ309_02705_A1_102_091","..."
+64,"TEXT_STMBDZ309_02705_PIRATE02705_110_091","Get lost!? Why don't <Emphasis>you</Emphasis> get lost!"
+65,"TEXT_STMBDZ309_02705_PIRATE02705_120_091","So you're going to stand there and ignore me? Is that it, then?"
+66,"TEXT_STMBDZ309_02705_PIRATE02705_130_091","...Wait a minute! I-I know you! My comrades talk about you all the time. M-My apologies, <If(PlayerParameter(4))>madam<Else/>sir</If>! I was only just joking with you, of course!"
+67,"TEXT_STMBDZ309_02705_PIRATE02705_000_092","One can never have enough rich or powerful friends. That is why I approached your young charge. Figured if I helped her now, she'd someday return the favor, should I ever need it. So what brings you to our island?"
+68,"TEXT_STMBDZ309_02705_PIRATE02705_000_093","You are looking to learn more about a faerie tale? Hm... I know nothing of faeries or tales, but mayhap I can direct you to someone who does."
+69,"TEXT_STMBDZ309_02705_PIRATE02705_000_094","There is a fisherman who visits us once a year to hunt for treasure. Some of the men here say he is as old as the seas themselves. I reckon he, of anyone, would be able to tell you your story."
+70,"TEXT_STMBDZ309_02705_PIRATE02705_000_095","Luckily for you, he just arrived the other day. You should be able to find him at the Quickscape Pier."
+71,"TEXT_STMBDZ309_02705_KURENAI_000_096","Thank you for your assistance, sir. We will go speak with him right now."
+72,"TEXT_STMBDZ309_02705_PIRATE02705_000_097","Not to worry, little lady. Just be sure to remember my name and pay me back when the time comes."
+73,"TEXT_STMBDZ309_02705_KURENAI_000_098","...Er─<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, did the kind gentleman ever give us his name? "
+74,"TEXT_STMBDZ309_02705_KURENAI_000_099","Without a name, I am afraid I will be unable to send him payment for his help. 'Tis terribly unfortunate but there is little that can be done. <sigh> Now let us promptly make for Quickscape Pier. We do not want to miss the fisherman."
+75,"TEXT_STMBDZ309_02705_KURENAI_000_140","Is this the right place? This man looks as though he could be the fisherman the man from earlier mentioned."
+76,"TEXT_STMBDZ309_02705_FISHERMAN02705_000_150","Hello there. Is there something you need?"
+77,"TEXT_STMBDZ309_02705_FISHERMAN02705_000_151","The tale of the fisherman and the Ruby Sea... Ah, yes, indeed. It has been a long time since I heard that one. I believe it was my great-grandfather who told me. Or perhaps, my great-great-grandfather. Or perhaps my─"
+78,"TEXT_STMBDZ309_02705_Q2_100_151","What will you say?"
+79,"TEXT_STMBDZ309_02705_A2_101_151","It doesn't matter who you heard it from─just tell us the story already!"
+80,"TEXT_STMBDZ309_02705_A2_102_151","That is all good and well, sir, but if you could please just tell us the story..."
+81,"TEXT_STMBDZ309_02705_FISHERMAN02705_110_151","Ohoho! My apologies. You are right─that particular detail is not relevant to the tale. Hm...let us see if I can remember how it went."
+82,"TEXT_STMBDZ309_02705_FISHERMAN02705_120_151","Ah, yes. My apologies. Hm...let us see if I can remember how it went."
+83,"TEXT_STMBDZ309_02705_KURENAI_000_152","Oh, I very much hope you have not forgotten it. We might never know the whole tale if you have. The tome I received as a child was so tattered, I could only read bits and pieces of the story."
+84,"TEXT_STMBDZ309_02705_FISHERMAN02705_000_153","I recall now... Once upon a time, there was a fisherman on the island of Onokoro who saved a Kojin of the Blue from the maws of a terrible beast."
+85,"TEXT_STMBDZ309_02705_FISHERMAN02705_000_154","As thanks, the Kojin offered him a vial of liquid. When taken, it would allow the fisherman to plunge into the far depths of the ocean without drowning. It was there that their journey together began."
+86,"TEXT_STMBDZ309_02705_FISHERMAN02705_000_155","They visited temples, palaces, and villages under the sea. They met all manner of men, women, and creatures...including a beautiful princess, who had fallen into a deep, deep slumber. According to her people, she had been like that for years."
+87,"TEXT_STMBDZ309_02705_FISHERMAN02705_000_156","Hearing this, the Kojin pulled out another vial containing an ancient Tamamizu potion, which had been passed down to him from his great-grandfather. Or perhaps his great-great-grandfa─ Ahem. To continue with the story, upon being given this mixture the princess was instantly awakened."
+88,"TEXT_STMBDZ309_02705_FISHERMAN02705_000_157","The moment their eyes met, she and the fisherman fell in love. They were immediately wed in a palace at the bottom of the sea, where they lived happily ever after."
+89,"TEXT_STMBDZ309_02705_KURENAI_000_158","Thank you, sir, for taking the time to recount that regaling tale. It was truly enlightening."
+90,"TEXT_STMBDZ309_02705_KURENAI_000_159","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, from what we heard I can only assume this story took place at Shisui of the Violet Tides. Perhaps we should return to Sui–no–Sato and see if we cannot dig up any mention of this incident."
+91,"TEXT_STMBDZ309_02705_KURENAI_000_160","Again, thank you very much, sir. You are a man of great wisdom."
+92,"TEXT_STMBDZ309_02705_FISHERMAN02705_000_170","A man of great wisdom? What a kind young lady. Most people never ask me to tell them stories, and on the rare occasion they do, they complain at length afterward."
+93,"TEXT_STMBDZ309_02705_FISHERMAN02705_000_171","You seem to also enjoy my tales. If you are interested, maybe someday I can tell you the tale of how my great-great-great-great-grandfather discovered this place."
+94,"TEXT_STMBDZ309_02705_SHIOSAI_000_180","Her Grace has returned safe and sound. Thank you, <If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>. From what I understand, your journey to the above proved to be quite fruitful?"
+95,"TEXT_STMBDZ309_02705_KURENAI_000_210","While I know little of what life is like on the surface, it seems to be a lovely place. The people are incredibly kind."
+96,"TEXT_STMBDZ309_02705_KURENAI_000_211","I grew up listening to stories of how pirates would slit your throat the first chance they got but those on Onokoro seemed...rather cordial. Though perhaps I have your presence, in part, to thank for that."
+97,"TEXT_STMBDZ309_02705_KURENAI_000_212","Shiosai shall be joining us shortly. Most stories in Sui–no–Sato are passed down orally. He should be able to tell us if any of our own stories match the tale the fisherman recounted for us."
+98,"TEXT_STMBDZ309_02705_SHIOSAI_000_220","A tale in which a Hyuran fisherman and a princess were brought together by a Kojin and wed in a palace under the sea...?"
+99,"TEXT_STMBDZ309_02705_KURENAI_000_221","It sounds almost as if it is a story about Shisui of the Violet Tides."
+100,"TEXT_STMBDZ309_02705_KURENAI_000_222","Though, the part about the Ruby Princess marrying a Hyur might be something of an embellishment..."
+101,"TEXT_STMBDZ309_02705_SHIOSAI_000_223","To the contrary, Your Grace. I believe generations back, a Ruby Princess and a Hyuran man were once joined in holy matrimony. The son they bore was said to have had almost no scales."
+102,"TEXT_STMBDZ309_02705_SHIOSAI_000_224","Until now, I had considered it to merely be a tall tale spun by the elders for their grandchildren. Yet, it is possible that the story is true."
+103,"TEXT_STMBDZ309_02705_KURENAI_000_225","Then there is a chance that the remedy also exists!"
+104,"TEXT_STMBDZ309_02705_SHIOSAI_000_226","It is not impossible."
+105,"TEXT_STMBDZ309_02705_SHIOSAI_000_227","Your Grace, I must apologize to you. If I were being completely honest, I thought all hope for Lady Hisui's recovery was lost. What you tell me, however, has revived my hope."
+106,"TEXT_STMBDZ309_02705_SHIOSAI_000_228","You are a born leader. Through your actions you have reversed all our fates."
+107,"TEXT_STMBDZ309_02705_KURENAI_000_229","That is incredibly kind of you to say, but without this wonderful <If(PlayerParameter(4))>lady<Else/>gentleman</If> beside me, we would never have come so far."
+108,"TEXT_STMBDZ309_02705_SHIOSAI_000_230","Indeed. <If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>, please accept my deepest thanks. So long as you are here, I can rest knowing that Her Grace and our village will remain safe."
+109,"TEXT_STMBDZ309_02705_SHIOSAI_000_231","Now, Your Grace, I suppose you are about to announce your intention to travel to where the Kojin of the Blue reside in search of this miracle cure? I wish you safe travels."
+110,"TEXT_STMBDZ309_02705_KURENAI_000_232","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, at long last, I can see the light! Hisui might finally be saved!"

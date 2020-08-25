@@ -1,8 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKZC003_03386_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-オスタル厳命城のテアンナは、冒険者を新人と勘違いしているようだ。"
+0,"TEXT_LUCKZC003_03386_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Teanna appears to be confused about your identity."
 1,"TEXT_LUCKZC003_03386_SEQ_01",""
 2,"TEXT_LUCKZC003_03386_SEQ_02",""
 3,"TEXT_LUCKZC003_03386_SEQ_03",""
@@ -26,9 +26,9 @@ int32,str,str
 21,"TEXT_LUCKZC003_03386_SEQ_21",""
 22,"TEXT_LUCKZC003_03386_SEQ_22",""
 23,"TEXT_LUCKZC003_03386_SEQ_23",""
-24,"TEXT_LUCKZC003_03386_TODO_00","マインズに<Sheet(EventItem,2002833,0)/>を渡す"
-25,"TEXT_LUCKZC003_03386_TODO_01","ラディスカ物見塔の衛兵と話す"
-26,"TEXT_LUCKZC003_03386_TODO_02","マインズに報告"
+24,"TEXT_LUCKZC003_03386_TODO_00","Deliver the supply order to Mynes."
+25,"TEXT_LUCKZC003_03386_TODO_01","Speak with the guardsmen at Radisca's Round."
+26,"TEXT_LUCKZC003_03386_TODO_02","Report to Mynes."
 27,"TEXT_LUCKZC003_03386_TODO_03",""
 28,"TEXT_LUCKZC003_03386_TODO_04",""
 29,"TEXT_LUCKZC003_03386_TODO_05",""
@@ -50,103 +50,66 @@ int32,str,str
 45,"TEXT_LUCKZC003_03386_TODO_21",""
 46,"TEXT_LUCKZC003_03386_TODO_22",""
 47,"TEXT_LUCKZC003_03386_TODO_23",""
-48,"TEXT_LUCKZC003_03386_TEANNA_000_000","見慣れない顔……そうか、新人だな？
-これはちょうどいい、仕事をくれてやろう。"
-49,"TEXT_LUCKZC003_03386_TEANNA_000_001","ラディスカ物見塔の「マインズ」に、
-この「<Sheet(EventItem,2002833,0)/>」を届けてくれ。
-急ぎで頼むぞ。"
-50,"TEXT_LUCKZC003_03386_TEANNA_000_010","ラディスカ物見塔の「マインズ」に、
-「<Sheet(EventItem,2002833,0)/>」を届けてくれ。
-急ぎで頼むぞ。"
-51,"TEXT_LUCKZC003_03386_MYNES_000_020","おや、旅人が私に何用かな？
-……オスタル厳命城から届け物だと？"
-52,"TEXT_LUCKZC003_03386_MYNES_000_021","<Sheet(EventItem,2002833,0)/>？
-なぜこれを旅人である君が？"
-53,"TEXT_LUCKZC003_03386_Q1_000_000","何と答える？"
-54,"TEXT_LUCKZC003_03386_A1_000_001","強引に頼まれた"
-55,"TEXT_LUCKZC003_03386_A1_000_002","報酬がもらえるから"
-56,"TEXT_LUCKZC003_03386_MYNES_000_030","新人と間違えられて強引に頼まれた、と……。
-それでいて、しっかりと仕事をこなしてしまうとは、
-君は、なかなかのお人好しらしい。"
-57,"TEXT_LUCKZC003_03386_MYNES_000_040","なるほど、報酬が目当てか。
-確かに、仕事をしたのだから報酬の支払いは当然だろう。
-君は、なかなかに実利的だな。"
-58,"TEXT_LUCKZC003_03386_MYNES_000_050","それならば、私からも仕事を頼みたい。
-発注のあった物資を、オスタル厳命城まで運んでほしいのだ。
-ただ、その準備には、少しばかり時間がかかる。"
-59,"TEXT_LUCKZC003_03386_MYNES_000_051","こちらの準備が整うまで、
-もしよければ、ここの衛兵たちの話し相手になってやってくれ。"
-60,"TEXT_LUCKZC003_03386_MYNES_000_052","ここには娯楽が少なくてな。
-旅人と話せるとなれば、皆も喜ぶはずだ。"
-61,"TEXT_LUCKZC003_03386_MYNES_000_061","運ぶ物資の準備が整うまで、
-物見塔にいる皆と、話してくれ。"
-62,"TEXT_LUCKZC003_03386_LEWTOSAI_000_070","ほう、旅人が話しかけてくるとは珍しい。
-どうだい、この物見塔は……見るも無残な有様だろう？"
-63,"TEXT_LUCKZC003_03386_LEWTOSAI_000_071","それもそのはず、100年以上前に建てられた塔の残骸を、
-継ぎ接ぎしながら、どうにか物見塔として使っているんだからな。
-なぜ、わざわざ手間をかけて、そんなことをするのか……。"
-64,"TEXT_LUCKZC003_03386_LEWTOSAI_000_072","ここが主要な街道の分岐点に位置していて、
-警備の出発点とするにも、接近してくる罪喰いを見張るのにも、
-立地的に効率的だからさ……ま、おかげで娯楽も何もないがね。"
-65,"TEXT_LUCKZC003_03386_VARLIER_000_080","やあ、旅の人……。
-あなたは、この物見塔が本来、何だったか知っているかい？"
-66,"TEXT_LUCKZC003_03386_VARLIER_000_081","実は「鐘楼」だったのさ。
-かつては、湖畔地域で暮らす人々に、
-朝昼晩と時を知らせていたらしい。"
-67,"TEXT_LUCKZC003_03386_VARLIER_000_082","しかし、いまこの塔が発するのは警告音……。
-はぐれ罪喰いや盗賊の類が現れたときに、鐘を鳴らすのさ。
-いつか本来の役割に戻れる日が来るといいんだがなぁ。"
-68,"TEXT_LUCKZC003_03386_JOANARD_000_090","この塔の名前、「ラディスカ」っていうのは、
-60年程前に実在した、初期の衛兵の名前なんだ。"
-69,"TEXT_LUCKZC003_03386_JOANARD_000_091","ラディスカは、罪喰いの大群が迫りくるのを発見し、
-人々を避難させたが、自分自身は最後まで踏みとどまり、
-時間を稼いで戦死したそうだ。"
-70,"TEXT_LUCKZC003_03386_JOANARD_000_092","その彼の亡骸が発見されたのが、この塔でね。
-以来、彼を偲んでこの塔を「ラディスカ物見塔」と、
-いうようになったのさ。"
-71,"TEXT_LUCKZC003_03386_LEWTOSAI_000_100","クリスタリウムが襲われることのないよう、
-ここから見張っているのだ。
-とても重要な任務だよ。"
-72,"TEXT_LUCKZC003_03386_VARLIER_000_101","いつかこの塔が本来の役割にもどれるといいな……。"
-73,"TEXT_LUCKZC003_03386_JOANARD_000_102","ラディスカは、とても勇敢な衛兵だったんだろうね。
-僕も見習わないと。"
-74,"TEXT_LUCKZC003_03386_MYNES_000_110","皆と話をしてくれたようだな。
-ちょうど、こちらの準備も終わったところだ。"
-75,"TEXT_LUCKZC003_03386_MYNES_000_111","さっそく君に運んでもらいたいが……。
-まずはここまでの協力に感謝して、
-報酬を支払っておこう。"
-76,"TEXT_LUCKZC003_03386_PRIVATE03386_000_000","（★未使用／削除予定★）"
-77,"TEXT_LUCKZC003_03386_PRIVATE03386_000_001","（★未使用／削除予定★）"
-78,"TEXT_LUCKZC003_03386_PRIVATE03386_000_010","（★未使用／削除予定★）"
-79,"TEXT_LUCKZC003_03386_PRIVATE03386_000_060","（★未使用／削除予定★）"
-80,"TEXT_LUCKZC003_03386_OFFICER03386_000_020","（★未使用／削除予定★）"
-81,"TEXT_LUCKZC003_03386_OFFICER03386_000_021","（★未使用／削除予定★）"
-82,"TEXT_LUCKZC003_03386_OFFICER03386_000_030","（★未使用／削除予定★）"
-83,"TEXT_LUCKZC003_03386_OFFICER03386_000_040","（★未使用／削除予定★）"
-84,"TEXT_LUCKZC003_03386_OFFICER03386_000_050","（★未使用／削除予定★）"
-85,"TEXT_LUCKZC003_03386_OFFICER03386_000_051","（★未使用／削除予定★）"
-86,"TEXT_LUCKZC003_03386_OFFICER03386_000_052","（★未使用／削除予定★）"
-87,"TEXT_LUCKZC003_03386_OFFICER03386_000_061","（★未使用／削除予定★）"
-88,"TEXT_LUCKZC003_03386_OFFICER03386_000_110","（★未使用／削除予定★）"
-89,"TEXT_LUCKZC003_03386_OFFICER03386_000_111","（★未使用／削除予定★）"
-90,"TEXT_LUCKZC003_03386_TEACHER03386_000_070","（★未使用／削除予定★）"
-91,"TEXT_LUCKZC003_03386_TEACHER03386_000_071","（★未使用／削除予定★）"
-92,"TEXT_LUCKZC003_03386_TEACHER03386_000_072","（★未使用／削除予定★）"
-93,"TEXT_LUCKZC003_03386_TEACHER03386_000_100","（★未使用／削除予定★）"
-94,"TEXT_LUCKZC003_03386_ELF03386_000_080","（★未使用／削除予定★）"
-95,"TEXT_LUCKZC003_03386_ELF03386_000_081","（★未使用／削除予定★）"
-96,"TEXT_LUCKZC003_03386_ELF03386_000_082","（★未使用／削除予定★）"
-97,"TEXT_LUCKZC003_03386_ELF03386_000_101","（★未使用／削除予定★）"
-98,"TEXT_LUCKZC003_03386_GUARD03386_000_090","（★未使用／削除予定★）"
-99,"TEXT_LUCKZC003_03386_GUARD03386_000_091","（★未使用／削除予定★）"
-100,"TEXT_LUCKZC003_03386_GUARD03386_000_092","（★未使用／削除予定★）"
-101,"TEXT_LUCKZC003_03386_GUARD03386_000_102","（★未使用／削除予定★）"
-102,"TEXT_LUCKZC003_03386_ROITATCH_000_080","（★未使用／削除予定★）"
-103,"TEXT_LUCKZC003_03386_ROITATCH_000_081","（★未使用／削除予定★）"
-104,"TEXT_LUCKZC003_03386_ROITATCH_000_082","（★未使用／削除予定★）"
-105,"TEXT_LUCKZC003_03386_ROITATCH_000_101","（★未使用／削除予定★）"
-106,"TEXT_LUCKZC003_03386_TEANNA_000_060","（★未使用／削除予定★）"
-107,"TEXT_LUCKZC003_03386_MERANTH_000_101","（★未使用／削除予定★）"
-108,"TEXT_LUCKZC003_03386_MERANTH_000_080","（★未使用／削除予定★）"
-109,"TEXT_LUCKZC003_03386_MERANTH_000_081","（★未使用／削除予定★）"
-110,"TEXT_LUCKZC003_03386_MERANTH_000_082","（★未使用／削除予定★）"
+48,"TEXT_LUCKZC003_03386_TEANNA_000_000","Hold it right there, greenhorn! If you thought you could just stroll right past your senior without asking how you might aid me in my duties, you have another think coming."
+49,"TEXT_LUCKZC003_03386_TEANNA_000_001","It just so happens that I have a task for you to perform. This is a supply order that must be delivered to Mynes at Radisca's Round. You are to take it to him, and to do so with all speed."
+50,"TEXT_LUCKZC003_03386_TEANNA_000_010","Why are you still dawdling about here, greenhorn? Hurry yourself to Radisca's Round and deliver the supply order before I change my mind and assign you to clean the privy instead!"
+51,"TEXT_LUCKZC003_03386_MYNES_000_020","Well met, traveler. What brings you to our outpost this day?"
+52,"TEXT_LUCKZC003_03386_MYNES_000_021","A supply order from Teanna at the Ostall Imperative? But why, pray tell, are <Emphasis>you</Emphasis> delivering this, and not one of our own men?"
+53,"TEXT_LUCKZC003_03386_Q1_000_000","What will you say?"
+54,"TEXT_LUCKZC003_03386_A1_000_001","That's what I'd like to know..."
+55,"TEXT_LUCKZC003_03386_A1_000_002","I intend to claim a reward."
+56,"TEXT_LUCKZC003_03386_MYNES_000_030","Mistaken for a new recruit, you say? You really should make a point to clarify the situation next time. Not that I don't appreciate your service, of course, but Teanna has a reputation for running roughshod over anyone she can."
+57,"TEXT_LUCKZC003_03386_MYNES_000_040","I see you're not just brave, but resourceful as well. What with the roads so dangerous these days, there's good coin to be made running messages between the outposts, no doubt."
+58,"TEXT_LUCKZC003_03386_MYNES_000_050","While I am loath to impose upon you further, if you'll be returning to the Imperative regardless, I was hoping I might trouble you to deliver the supplies Teanna has requested. I'm afraid the recent sin eater attacks have left us rather shorthanded."
+59,"TEXT_LUCKZC003_03386_MYNES_000_051","It will take just a short while to prepare the materials for delivery. I invite you to make yourself comfortable while you wait."
+60,"TEXT_LUCKZC003_03386_MYNES_000_052","...Not that there's much in the way of entertainment here. It <Emphasis>is</Emphasis> a military outpost after all. Perhaps you could converse with the soldiers? It'd be sure to raise their spirits, and you just might glean some useful information out of them."
+61,"TEXT_LUCKZC003_03386_MYNES_000_061","The materials will be packed up and ready for delivery any time now. Until then, please make yourself comfortable and feel free to speak to our men."
+62,"TEXT_LUCKZC003_03386_LEWTOSAI_000_070","Ho there, stranger! We don't get many travelers in these parts. What do you think of the Round? She's an odd one as far as forts go, wouldn't you say?"
+63,"TEXT_LUCKZC003_03386_LEWTOSAI_000_071","Truth is, what you see today is actually the ruins of a larger structure built over a century ago. We took over what was left, and converted it into a lookout tower of sorts to serve us in our struggle against the sin eaters."
+64,"TEXT_LUCKZC003_03386_LEWTOSAI_000_072","Seeing as how it stands at a major fork in the highroad, the location's rather ideal, you see. We can see threats coming in from malms away, and send out patrols to deal with them before they get too close. 'Course, it gets kind of lonely all the way out here, but what can you do?"
+65,"TEXT_LUCKZC003_03386_VARLIER_000_080","A traveler? Hah! You're an odd one to pick this place for a leisurely excursion. Me, I can think of a hundred places I'd rather be."
+66,"TEXT_LUCKZC003_03386_VARLIER_000_081","But since you were kind enough to grace us with your company, why don't I tell you a bit about this place? Radisca's Round was built on the ruins of an old belfry. In more peaceful days, its clarion call would ring out through Lakeland to announce the time of day."
+67,"TEXT_LUCKZC003_03386_VARLIER_000_082","Since the Flood, however, the bell serves a purpose far more grim: to warn the residents of Lakeland of sin eater attacks. Oh, would that the day return when its ring again brings only joy and not fear..."
+68,"TEXT_LUCKZC003_03386_JOANARD_000_090","Hail there, friend! Say, have you ever wondered how Radisca's Round got its name? Wait, don't answer that─I've a mind to tell you anyway. Bahaha!"
+69,"TEXT_LUCKZC003_03386_JOANARD_000_091","Radisca was a guardsman in the early days─one of our best and bravest, as the records tell. They say he gave his life holding off a horde of sin eaters just long enough for a group of refugees to flee to safety."
+70,"TEXT_LUCKZC003_03386_JOANARD_000_092","The body of this hero was discovered right here at this tower, and ever since then it's been named in his honor. Makes a man proud to serve, I say."
+71,"TEXT_LUCKZC003_03386_LEWTOSAI_000_100","Radisca's Round is the watchful eye that keeps the Crystarium safe against the sin eaters. I never allow myself to forget that we hold countless lives in our hands."
+72,"TEXT_LUCKZC003_03386_VARLIER_000_101","Oh, would that those bygone days return, that our bell might once again ring out in peace..."
+73,"TEXT_LUCKZC003_03386_JOANARD_000_102","Every time I feel my courage waver, I think of Radisca, and the sacrifice he made. I cannot dishonor his name by giving any less than my all."
+74,"TEXT_LUCKZC003_03386_MYNES_000_110","Ah, there you are, friend. Did my men have anything of interest to say? In any event, I hope your stay here was not overly tiresome."
+75,"TEXT_LUCKZC003_03386_MYNES_000_111","I am pleased to inform you that the materials have been packed up and are ready for delivery. Before that, though, please allow me to compensate you for your service."
+76,"TEXT_LUCKZC003_03386_PRIVATE03386_000_000",""
+77,"TEXT_LUCKZC003_03386_PRIVATE03386_000_001",""
+78,"TEXT_LUCKZC003_03386_PRIVATE03386_000_010",""
+79,"TEXT_LUCKZC003_03386_PRIVATE03386_000_060",""
+80,"TEXT_LUCKZC003_03386_OFFICER03386_000_020",""
+81,"TEXT_LUCKZC003_03386_OFFICER03386_000_021",""
+82,"TEXT_LUCKZC003_03386_OFFICER03386_000_030",""
+83,"TEXT_LUCKZC003_03386_OFFICER03386_000_040",""
+84,"TEXT_LUCKZC003_03386_OFFICER03386_000_050",""
+85,"TEXT_LUCKZC003_03386_OFFICER03386_000_051",""
+86,"TEXT_LUCKZC003_03386_OFFICER03386_000_052",""
+87,"TEXT_LUCKZC003_03386_OFFICER03386_000_061",""
+88,"TEXT_LUCKZC003_03386_OFFICER03386_000_110",""
+89,"TEXT_LUCKZC003_03386_OFFICER03386_000_111",""
+90,"TEXT_LUCKZC003_03386_TEACHER03386_000_070",""
+91,"TEXT_LUCKZC003_03386_TEACHER03386_000_071",""
+92,"TEXT_LUCKZC003_03386_TEACHER03386_000_072",""
+93,"TEXT_LUCKZC003_03386_TEACHER03386_000_100",""
+94,"TEXT_LUCKZC003_03386_ELF03386_000_080",""
+95,"TEXT_LUCKZC003_03386_ELF03386_000_081",""
+96,"TEXT_LUCKZC003_03386_ELF03386_000_082",""
+97,"TEXT_LUCKZC003_03386_ELF03386_000_101",""
+98,"TEXT_LUCKZC003_03386_GUARD03386_000_090",""
+99,"TEXT_LUCKZC003_03386_GUARD03386_000_091",""
+100,"TEXT_LUCKZC003_03386_GUARD03386_000_092",""
+101,"TEXT_LUCKZC003_03386_GUARD03386_000_102",""
+102,"TEXT_LUCKZC003_03386_ROITATCH_000_080",""
+103,"TEXT_LUCKZC003_03386_ROITATCH_000_081",""
+104,"TEXT_LUCKZC003_03386_ROITATCH_000_082",""
+105,"TEXT_LUCKZC003_03386_ROITATCH_000_101",""
+106,"TEXT_LUCKZC003_03386_TEANNA_000_060",""
+107,"TEXT_LUCKZC003_03386_MERANTH_000_101",""
+108,"TEXT_LUCKZC003_03386_MERANTH_000_080",""
+109,"TEXT_LUCKZC003_03386_MERANTH_000_081",""
+110,"TEXT_LUCKZC003_03386_MERANTH_000_082",""

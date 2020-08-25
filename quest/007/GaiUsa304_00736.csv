@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSA304_00736_SEQ_00","サラオスの亡骸のタンガ・トンガは化石発掘の手伝いを探しているようだ。"
-1,"TEXT_GAIUSA304_00736_SEQ_01","タンガ・トンガに化石の発掘を依頼された。サラオスの亡骸周辺で「<Sheet(EventItem,2000593,0)/>」を1個と「<Sheet(EventItem,2000592,0)/>」を2個探そう。"
-2,"TEXT_GAIUSA304_00736_SEQ_02","<Sheet(EventItem,2000593,0)/>と<Sheet(EventItem,2000592,0)/>を見つけた。プアメイドミルの「タンガ・トンガ」に「<Sheet(EventItem,2000593,0)/>」と「<Sheet(EventItem,2000592,0)/>」を渡そう。"
-3,"TEXT_GAIUSA304_00736_SEQ_03","タンガ・トンガに<Sheet(EventItem,2000593,0)/>と<Sheet(EventItem,2000592,0)/>を渡した。冒険者が拾った化石は、サラオスの食べた生き物の骨と、寄生していた貝のものだった。彼の研究がこれで進むとよいのだが。"
+0,"TEXT_GAIUSA304_00736_SEQ_00","Tanga Tonga seeks help excavating fossils at Thalaos."
+1,"TEXT_GAIUSA304_00736_SEQ_01","The researcher Tanga Tonga has need of an adventurer to aid in his study of the Thalaos boneyard. Survey the excavation site to see if you can discover any fossils worth recovering."
+2,"TEXT_GAIUSA304_00736_SEQ_02","You have found a couple different kinds of fossil that might serve to pique Tanga Tonga's interest. Return to the researcher in his cabin and let him pore over your discoveries."
+3,"TEXT_GAIUSA304_00736_SEQ_03","Tanga Tonga has identified two types of ancient creatures from the fossils you have brought him: a large sea animal eaten by Thalaos, and a small parasite that clung to the Thalaos. With these new discoveries, he has enough information to advance his studies for the time being."
 4,"TEXT_GAIUSA304_00736_SEQ_04",""
 5,"TEXT_GAIUSA304_00736_SEQ_05",""
 6,"TEXT_GAIUSA304_00736_SEQ_06",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_GAIUSA304_00736_SEQ_21",""
 22,"TEXT_GAIUSA304_00736_SEQ_22",""
 23,"TEXT_GAIUSA304_00736_SEQ_23",""
-24,"TEXT_GAIUSA304_00736_TODO_00","サラオスの亡骸で<Sheet(EventItem,2000593,0)/>を探す"
-25,"TEXT_GAIUSA304_00736_TODO_01","サラオスの亡骸で<Sheet(EventItem,2000592,0)/>を探す"
-26,"TEXT_GAIUSA304_00736_TODO_02","プアメイドミルのタンガ・トンガに<Sheet(EventItem,2000593,0)/>と<Sheet(EventItem,2000592,0)/>を渡す"
+24,"TEXT_GAIUSA304_00736_TODO_00","Search for a round fossil."
+25,"TEXT_GAIUSA304_00736_TODO_01","Search for oblong fossils."
+26,"TEXT_GAIUSA304_00736_TODO_02","Deliver the fossils to Tanga Tonga."
 27,"TEXT_GAIUSA304_00736_TODO_03",""
 28,"TEXT_GAIUSA304_00736_TODO_04",""
 29,"TEXT_GAIUSA304_00736_TODO_05",""
@@ -49,27 +49,14 @@ int32,str,str
 45,"TEXT_GAIUSA304_00736_TODO_21",""
 46,"TEXT_GAIUSA304_00736_TODO_22",""
 47,"TEXT_GAIUSA304_00736_TODO_23",""
-48,"TEXT_GAIUSA304_00736_TANGATOTUNGA_000_000","荷物を持ってここまで来れるということは、
-君は結構、腕の立つ冒険者なんだろう？
-よかったら化石の発掘を手伝わないか？"
-49,"TEXT_GAIUSA304_00736_TANGATOTUNGA_000_001","そうだな、骨の上や危ない場所など、
-私じゃ行けないようなところも探してほしい。
-変わったものがあったら持ってきてくれると助かるよ。"
-50,"TEXT_GAIUSA304_00736_TANGATOTUNGA_000_002","たぶん、「<Sheet(EventItem,2000592,0)/>」や「<Sheet(EventItem,2000593,0)/>」が見つかると思う。
-「<Sheet(EventItem,2000593,0)/>」を1個、「<Sheet(EventItem,2000592,0)/>」を2個探してくれ。"
+48,"TEXT_GAIUSA304_00736_TANGATOTUNGA_000_000","I know it's no easy thing making your way out to where I am. I could use someone like you around here. How would you like to aid in my excavation?"
+49,"TEXT_GAIUSA304_00736_TANGATOTUNGA_000_001","I do what I can on my own, but I need someone to brave the more dangerous places─such as atop the bones themselves."
+50,"TEXT_GAIUSA304_00736_TANGATOTUNGA_000_002","Set out in my place, and see what fossils there are to be found. If possible, I would prefer a variety of specimens."
 51,"TEXT_GAIUSA304_00736_TANGATOTUNGA_000_010",""
 52,"TEXT_GAIUSA304_00736_TANGATOTUNGA_000_015",""
 53,"TEXT_GAIUSA304_00736_TANGATOTUNGA_000_020",""
-54,"TEXT_GAIUSA304_00736_TANGATOTUNGA_000_030","どうだい、何か見つかったかな。"
-55,"TEXT_GAIUSA304_00736_TANGATOTUNGA_000_035","ふむ、この細長い骨は、
-サラオスが食べた大型海洋生物の骨だな。
-全体の大きさは、グゥーブーぐらいあるだろう。"
-56,"TEXT_GAIUSA304_00736_TANGATOTUNGA_000_036","こちらの丸い化石は、サラオスに寄生していた貝だろう。
-同じような貝が体の周りで大量に見つかっている。
-……どちらも、サラオスの巨大さを物語っているね。"
-57,"TEXT_GAIUSA304_00736_TANGATOTUNGA_000_037","サラオスっていうのは、
-女神リムレーンが解き放った伝説のシーサーペント、
-「ペリュコスとサラオス」の1体さ。"
-58,"TEXT_GAIUSA304_00736_TANGATOTUNGA_000_038","もっとも、コイツがサラオスである証拠はない。
-あまりにも大きいから、そう名付けただけなんだが、
-案外、本物かもって思えるよな。"
+54,"TEXT_GAIUSA304_00736_TANGATOTUNGA_000_030","Found something, have you? Come, let us have a look."
+55,"TEXT_GAIUSA304_00736_TANGATOTUNGA_000_035","Ah, yes, these are fine specimens. These long narrow bones likely belonged to some sort of giant sea creature devoured by Thalaos. From the looks of it, I'd say it was about the size of an adult goobbue, all told."
+56,"TEXT_GAIUSA304_00736_TANGATOTUNGA_000_036","And this round fossil, well, I've developed a theory that it is the shell of a parasitic organism. I have found countless others like it concentrated near the remains. These are good finds, my friend. Both are testaments to the sheer enormity of Thalaos."
+57,"TEXT_GAIUSA304_00736_TANGATOTUNGA_000_037","Ah, forgive me. We scholars tend to assume all know as much of our subject matter as we. Do you know of the tale of Thalaos? It is said Llymlaen summoned the massive serpent upon the primordial dry, and from its belly it spewed forth the waters which became the seas."
+58,"TEXT_GAIUSA304_00736_TANGATOTUNGA_000_038","We have no proof the remains that lie here are <Emphasis>the</Emphasis> Thalaos. Indeed, whatever beast this was first came to be called that by virtue of its size alone. But I, for one, now dare to believe. It just may be that these bones are those of the divine serpent that brought life into this world."

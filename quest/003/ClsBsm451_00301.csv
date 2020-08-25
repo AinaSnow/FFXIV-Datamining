@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSBSM451_00301_SEQ_00","鍛冶師ギルドのブリサエルは、冒険者に感謝しているようだ。"
-1,"TEXT_CLSBSM451_00301_SEQ_01","ブリサエルから依頼を受けた。リムサ・ロミンサの鍛冶師ギルドにいる「フェーズアール」と話そう。"
-2,"TEXT_CLSBSM451_00301_SEQ_02","フェーズアールと話した。リムサ・ロミンサの鍛冶師ギルドにいる「フェーズアール」に「<Sheet(ItemHQ,　1723,0)/>」「<Sheet(ItemHQ,　1796,0)/>」「<Sheet(ItemHQ,　1659,0)/>」を1個ずつ見せよう。"
-3,"TEXT_CLSBSM451_00301_SEQ_03","フェーズアールに<Sheet(ItemHQ,　1723,0)/>、<Sheet(ItemHQ,　1796,0)/>、<Sheet(ItemHQ,　1659,0)/>を見せた。リムサ・ロミンサのアスタリシア号にいる「ミュリエル」に「<Sheet(ItemHQ,　1723,0)/>」「<Sheet(ItemHQ,　1796,0)/>」「<Sheet(ItemHQ,　1659,0)/>」を1個ずつ納品しよう。"
-4,"TEXT_CLSBSM451_00301_SEQ_04","ミュリエルに<Sheet(ItemHQ,　1723,0)/>、<Sheet(ItemHQ,　1796,0)/>、<Sheet(ItemHQ,　1659,0)/>を納品した。装備品を受け取ったミュリエルは、冒険者という本物の職人と出会えたことが、大きな収穫だったと感動していた。彼女の言葉を励みにして、鍛冶師としての修行を続けよう。
+0,"TEXT_CLSBSM451_00301_SEQ_00","Forgemaster Brithael is delighted to see you."
+1,"TEXT_CLSBSM451_00301_SEQ_01","Everyone at the Blacksmiths' Guild is in high spirits of late, and Brithael is no exception. The forgemaster even managed to enjoy the company of Faezahr for a change, who over drinks with Brithael spoke of his latest obsession: a young female gladiator, whom he has a mind to lavish with gifts. Precisely what those gifts are to be remains to be seen, but what is clear is that Faezahr means to ask you to craft them."
+2,"TEXT_CLSBSM451_00301_SEQ_02","Faezahr bids you craft a pair of cobalt knuckles, a buccaneer's bardiche, and a cobalt shamshir worthy of his gladiator muse, Muriel. Naturally, it will be necessary for him to first inspect and approve of the weapons prior to delivery. Craft the items to the best of your ability and present them to Faezahr when finished."
+3,"TEXT_CLSBSM451_00301_SEQ_03","The merchant waxes poetic as he evaluates your weapons, before judging them fit for his warrior goddess. Believing it only proper for Muriel to meet the <If(PlayerParameter(4))>woman<Else/>man</If> who made such splendid wares, Faezahr bids you deliver his gifts to Muriel, who can be found aboard the <Emphasis>Astalicia</Emphasis>."
+4,"TEXT_CLSBSM451_00301_SEQ_04","Muriel treasures the gifts you have brought, and seems overjoyed to have made your acquaintance─so overjoyed, in fact, that you cannot help but question the sincerity of her words. In any case, the commission is complete; should Faezahr be unsatisfied with the result, the fault will not lie with you.
 
-※鍛冶師のレベルが50以上になると、ブリサエルから次の鍛冶師クエストを受注することができます。"
+※The next blacksmith quest will be available from Brithael upon reaching level 50."
 5,"TEXT_CLSBSM451_00301_SEQ_05",""
 6,"TEXT_CLSBSM451_00301_SEQ_06",""
 7,"TEXT_CLSBSM451_00301_SEQ_07",""
@@ -27,9 +27,9 @@ int32,str,str
 21,"TEXT_CLSBSM451_00301_SEQ_21",""
 22,"TEXT_CLSBSM451_00301_SEQ_22",""
 23,"TEXT_CLSBSM451_00301_SEQ_23",""
-24,"TEXT_CLSBSM451_00301_TODO_00","フェーズアールと話す"
-25,"TEXT_CLSBSM451_00301_TODO_01","フェーズアールに依頼品を見せる"
-26,"TEXT_CLSBSM451_00301_TODO_02","アスタリシア号のミュリエルに依頼品を納品"
+24,"TEXT_CLSBSM451_00301_TODO_00","Speak with Faezahr."
+25,"TEXT_CLSBSM451_00301_TODO_01","Present a pair of cobalt knuckles <Sheet(Addon,9,0)/>, a buccaneer's bardiche <Sheet(Addon,9,0)/>, and a cobalt shamshir <Sheet(Addon,9,0)/> to Faezahr."
+26,"TEXT_CLSBSM451_00301_TODO_02","Deliver the cobalt knuckles <Sheet(Addon,9,0)/>, the buccaneer's bardiche <Sheet(Addon,9,0)/>, and the cobalt shamshir <Sheet(Addon,9,0)/> to Muriel."
 27,"TEXT_CLSBSM451_00301_TODO_03",""
 28,"TEXT_CLSBSM451_00301_TODO_04",""
 29,"TEXT_CLSBSM451_00301_TODO_05",""
@@ -51,61 +51,27 @@ int32,str,str
 45,"TEXT_CLSBSM451_00301_TODO_21",""
 46,"TEXT_CLSBSM451_00301_TODO_22",""
 47,"TEXT_CLSBSM451_00301_TODO_23",""
-48,"TEXT_CLSBSM451_00301_BRITHAEL_000_000","やあ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>君！
-キミのおかげで、ここのところギルド運営も順調ですよ！"
-49,"TEXT_CLSBSM451_00301_BRITHAEL_000_001","ふふふ……僕としては、笑いを抑えきれませんよ。
-キミをギルドに誘ったのは、我が人生最大の功ですね。"
-50,"TEXT_CLSBSM451_00301_BRITHAEL_000_002","最近は胃薬の量も減って、毎日ご飯がおいしいです。
-先日も、フェーズアール氏と会食しました。
-その席で、ちょっと相談を受けまして……。"
-51,"TEXT_CLSBSM451_00301_BRITHAEL_000_003","ミュリエルさんという、ウルダハのコロセウム闘士が、
-最近、フェーズアール氏のお気に入りだそうで。
-彼女に装備品を贈りたいそうなんですよ。"
-52,"TEXT_CLSBSM451_00301_BRITHAEL_000_004","その製作を、ぜひキミに依頼したいとのことです。
-詳しい話は、「フェーズアール」氏に聞いてください。
-それではよろしくお願いしますね。"
-53,"TEXT_CLSBSM451_00301_FAEZAHL_000_010","よう来てくれた、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
-こんなことを頼めるのは、ヌシだけじゃわい。"
-54,"TEXT_CLSBSM451_00301_FAEZAHL_000_011","それでの、ミュリエルちゃんへの贈り物なんじゃが、
-あの子は戦いにかけては器用での、武器を選ばんのじゃ。"
-55,"TEXT_CLSBSM451_00301_FAEZAHL_000_012","どんな武器でも鮮やかに使いこなしてのける。
-ま、そこにシビれるんじゃがのう！"
-56,"TEXT_CLSBSM451_00301_FAEZAHL_000_013","それでじゃ、ヌシには3種類の装備品を用意してほしい。
-「<Sheet(ItemHQ,　1723,0)/>」「<Sheet(ItemHQ,　1796,0)/>」
-「<Sheet(ItemHQ,　1659,0)/>」の3種類じゃ。"
-57,"TEXT_CLSBSM451_00301_FAEZAHL_000_014","品物が完成したら、まずはワガハイのところに頼む。
-ヌシのことは信じておるが、贈り主としては
-やはり自分の目で見たいでな。"
-58,"TEXT_CLSBSM451_00301_FAEZAHL_000_20","「<Sheet(ItemHQ,　1723,0)/>」「<Sheet(ItemHQ,　1796,0)/>」
-「<Sheet(ItemHQ,　1659,0)/>」の3種類を1個ずつ持ってくるんじゃぞ。"
-59,"TEXT_CLSBSM451_00301_FAEZAHL_000_021","品物は、あっちでじっくりと見せてもらおう。
-ワシの威信がかかっておるでの。"
-60,"TEXT_CLSBSM451_00301_FAEZAHL_000_022","まずは「<Sheet(ItemHQ,　1723,0)/>」じゃが……実に頑丈そうじゃな。
-粘りのあるコバルトを使っているからかの？"
-61,"TEXT_CLSBSM451_00301_FAEZAHL_000_023","拳の一撃を確実に敵へと打ち込める、
-しっかりとした作りは、まるでヌシを体現するかのようじゃ。"
-62,"TEXT_CLSBSM451_00301_FAEZAHL_000_024","そしてこの「<Sheet(ItemHQ,　1796,0)/>」じゃ。
-分厚い斧の刃は、蛮族的な野卑に通じるものがある。"
-63,"TEXT_CLSBSM451_00301_FAEZAHL_000_025","一見するとミュリエルちゃんには似合わぬと思えるが、
-逆に今までにはない、意外な魅力を引き出しそうじゃわい。"
-64,"TEXT_CLSBSM451_00301_FAEZAHL_000_026","最後に「<Sheet(ItemHQ,　1659,0)/>」は……
-大きく弧を描いた刀身が、これまた美しいのう。"
-65,"TEXT_CLSBSM451_00301_FAEZAHL_000_027","加工の難しいコバルトの扱いは完璧じゃな。
-ヌシでなければ、この刃の美しい曲線は描けまい。
-ごくろうじゃった、やはりヌシに任せてよかったわい。"
-66,"TEXT_CLSBSM451_00301_FAEZAHL_000_028","それでは、贈り物をミュリエルちゃんへ届けてくれい。
-今は、「アスタリシア号」で、鍛錬してるはずじゃ。"
-67,"TEXT_CLSBSM451_00301_MURIEL_000_030","あたしに贈り物ですって？
-ああ、前にフェーズアールのおじ様が言っていた話ね。
-聞いてるわよ、あなたが持ってきてくれるの？"
-68,"TEXT_CLSBSM451_00301_MURIEL_000_031","わあ……こんなに素敵な武器を
-いただいちゃっていいのかしら！
-うん、これを装備すれば、華麗に勝てそうだわ。"
-69,"TEXT_CLSBSM451_00301_MURIEL_000_032","あなたがギルドいちの腕利き鍛冶師だなんて、びっくり！
-おじ様が、腕利きだっていうから、
-どんな偏屈で厳つい感じの人が来るのかと思ったら。"
-70,"TEXT_CLSBSM451_00301_MURIEL_000_033","ふふっ、人は見かけによらないっていうのは、
-闘士も職人も、同じみたいね。"
-71,"TEXT_CLSBSM451_00301_MURIEL_000_034","おじ様に誘われて、稽古がてら
-リムサ・ロミンサに来てみたんだけど……
-あなたっていう「本物」に出会えたのが、一番の収穫だわ！"
+48,"TEXT_CLSBSM451_00301_BRITHAEL_000_000","'Tis a good time to be a smitty, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! Clients're bangin' down our doors, clamorin' fer our wares..."
+49,"TEXT_CLSBSM451_00301_BRITHAEL_000_001","And to think it's all 'cause one fateful day, I had the foresight to let ye join our ranks... Smartest thing I ever done!"
+50,"TEXT_CLSBSM451_00301_BRITHAEL_000_002","Aye, in prosperous times such as these, ye can't help but be in high spirits. Even yer most hated enemies start to seem like decent folk.  Why, just the other day, I downed a few pints with ol' Faezahr! Oh, speakin' o' which..."
+51,"TEXT_CLSBSM451_00301_BRITHAEL_000_003","Faezahr was goin' on an' on about this lady gladiator what caught his eye, one he'd like to lavish with gifts. Said he'd a mind to have ye forge the weapons."
+52,"TEXT_CLSBSM451_00301_BRITHAEL_000_004","Ah, but you know him. Demanded to speak to ye in person. Best go on an' oblige the bastard."
+53,"TEXT_CLSBSM451_00301_FAEZAHL_000_010","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, good of you to come. I knew no other whom I could call upon."
+54,"TEXT_CLSBSM451_00301_FAEZAHL_000_011","Her name is Muriel. She is both muse and genius─a portrait of grace and beauty amid the carnage of war, expertly versed in every technical discipline of combat."
+55,"TEXT_CLSBSM451_00301_FAEZAHL_000_012","Muriel is more than a mere gladiator─she is an <Emphasis>artist</Emphasis>. If she is to paint the battlefield red, only the finest of instruments will suffice. And such instruments can only be created by the greatest of blacksmiths."
+56,"TEXT_CLSBSM451_00301_FAEZAHL_000_013","Thus, I would ask of you a pair of cobalt knuckles, a buccaneer's bardiche, and a cobalt shamshir with which she might reign over the Coliseum like the goddess she is."
+57,"TEXT_CLSBSM451_00301_FAEZAHL_000_014","I will inspect your work when it is complete. Though I have little reason to doubt your capabilities, I will <Emphasis>not</Emphasis> present to Muriel anything less than perfection."
+58,"TEXT_CLSBSM451_00301_FAEZAHL_000_20","Knuckles, a bardiche, and a shamshir. They must be fit for a goddess."
+59,"TEXT_CLSBSM451_00301_FAEZAHL_000_021","Hm. While your weapons look most impressive, I must properly appraise your work. Inside."
+60,"TEXT_CLSBSM451_00301_FAEZAHL_000_022","Ah, the knuckles. A sturdy and stable design for a straightforward weapon."
+61,"TEXT_CLSBSM451_00301_FAEZAHL_000_023","The lack of superfluous ornamentation speaks to an emphasis on function."
+62,"TEXT_CLSBSM451_00301_FAEZAHL_000_024","Next, we come to the bardiche. A brutish, base weapon likely born of the beast tribes."
+63,"TEXT_CLSBSM451_00301_FAEZAHL_000_025","Initially, I feared its barbaric origins might sully Muriel's angelic hands, but I firmly believe there is no weapon her feminine touch cannot civilize."
+64,"TEXT_CLSBSM451_00301_FAEZAHL_000_026","And lastly, the shamshir. The seductive curvature of the blade is sinister in its simplicity."
+65,"TEXT_CLSBSM451_00301_FAEZAHL_000_027","You have taken notoriously obstinate cobalt and bent it to your will. Again you exceed my every expectation."
+66,"TEXT_CLSBSM451_00301_FAEZAHL_000_028","I can only imagine Muriel's joy upon seeing such splendid wares. Let her gaze upon the face of the one who forged them. You will find her aboard the <Emphasis>Astalicia</Emphasis>."
+67,"TEXT_CLSBSM451_00301_MURIEL_000_030","Hm? Ah, yes, the gifts I was promised. It is good to know Faezahr is a man of his word, though personally I prefer a <If(PlayerParameter(4))>woman<Else/>man</If> of action. Show me what you've got."
+68,"TEXT_CLSBSM451_00301_MURIEL_000_031","Most impressive indeed! I am humbled. With your weapons in my grip, victory is all but assured."
+69,"TEXT_CLSBSM451_00301_MURIEL_000_032","Faezahr certainly possesses an eye for the finer things. Yet the eye that finds beauty interests me less than the hands that craft it─the strong, skilled hands of an artisan like yourself..."
+70,"TEXT_CLSBSM451_00301_MURIEL_000_033","Gladiator and blacksmith make quite a pair, do we not? What is a weapon without a wielder? Or a wielder without a weapon? We complete each other."
+71,"TEXT_CLSBSM451_00301_MURIEL_000_034","I came to Limsa Lominsa to see your wares at the old man's behest, and found everything he promised and more. Know that in the heat of battle, as I clutch them tightly in my hands, my thoughts will be of you."

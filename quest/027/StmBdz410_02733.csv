@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ410_02733_SEQ_00","ナマイ村のリョウセンは、誰かを探しているようだ。"
+0,"TEXT_STMBDZ410_02733_SEQ_00","Ryosen has lost sight of something important."
 1,"TEXT_STMBDZ410_02733_SEQ_01",""
 2,"TEXT_STMBDZ410_02733_SEQ_02",""
 3,"TEXT_STMBDZ410_02733_SEQ_03",""
@@ -25,13 +25,13 @@ int32,str,str
 21,"TEXT_STMBDZ410_02733_SEQ_21",""
 22,"TEXT_STMBDZ410_02733_SEQ_22",""
 23,"TEXT_STMBDZ410_02733_SEQ_23",""
-24,"TEXT_STMBDZ410_02733_TODO_00","リョウセンの孫を探す"
-25,"TEXT_STMBDZ410_02733_TODO_01","人狼族の野臥と話し襲われたら討伐"
-26,"TEXT_STMBDZ410_02733_TODO_02","<Sheet(EObj,2008518,0)/>から<Sheet(EventItem,2002248,0)/>を入手"
-27,"TEXT_STMBDZ410_02733_TODO_03","リョウセンの孫に<Sheet(EventItem,2002248,0)/>を渡す"
-28,"TEXT_STMBDZ410_02733_TODO_04","<Sheet(EventItem,2002249,0)/>を入手"
-29,"TEXT_STMBDZ410_02733_TODO_05","リョウセンの孫に<Sheet(EventItem,2002249,0)/>を渡す"
-30,"TEXT_STMBDZ410_02733_TODO_06","リョウセンに報告"
+24,"TEXT_STMBDZ410_02733_TODO_00","Find Ryosen's grandson."
+25,"TEXT_STMBDZ410_02733_TODO_01","Confront the Lupin looters."
+26,"TEXT_STMBDZ410_02733_TODO_02","Obtain the stolen mugworts."
+27,"TEXT_STMBDZ410_02733_TODO_03","Deliver the mugworts to Ryosen's grandson."
+28,"TEXT_STMBDZ410_02733_TODO_04","Obtain waterweed."
+29,"TEXT_STMBDZ410_02733_TODO_05","Deliver the waterweed to Ryosen's grandson."
+30,"TEXT_STMBDZ410_02733_TODO_06","Report to Ryosen."
 31,"TEXT_STMBDZ410_02733_TODO_07",""
 32,"TEXT_STMBDZ410_02733_TODO_08",""
 33,"TEXT_STMBDZ410_02733_TODO_09",""
@@ -49,69 +49,31 @@ int32,str,str
 45,"TEXT_STMBDZ410_02733_TODO_21",""
 46,"TEXT_STMBDZ410_02733_TODO_22",""
 47,"TEXT_STMBDZ410_02733_TODO_23",""
-48,"TEXT_STMBDZ410_02733_RYOSEN_000_000","そこの旅人さんや！
-よければ、孫を探すのを手伝ってはくれんか？"
-49,"TEXT_STMBDZ410_02733_RYOSEN_000_001","ちょいと前まで近くにいたはずだったんじゃが、
-目を離した隙に、姿が見えなくなってしまっての。
-わしとしたことが、恥ずかしい……。"
-50,"TEXT_STMBDZ410_02733_RYOSEN_000_002","無二江のことを大人に聞いていたそうじゃから、
-川岸の方に行ったのかもしれぬ。"
-51,"TEXT_STMBDZ410_02733_RYOSEN_000_003","あの辺は人狼族の野臥も出没すると聞く……。
-すまぬが、無二江の川岸を見てきてくれぬか？
-わしも、このあたりを引き続き探してみるゆえな……。"
-52,"TEXT_STMBDZ410_02733_RYOSEN_000_004","あの辺は人狼族の野臥も出没すると聞く……。
-すまぬが、無二江の川岸を見てきてくれぬか？
-わしも、このあたりを引き続き探してみるゆえな……。"
-53,"TEXT_STMBDZ410_02733_BOY02733_000_010","えっ、おじいちゃんが僕を探してるって？
-どうしよう……実はね、集めているものがあったんだけれど、
-それを取られちゃって、今からまた集めようと思ってたんだ。"
-54,"TEXT_STMBDZ410_02733_BOY02733_000_011","ヨモギが欲しくて、ここまできて摘んでいたんだけれど、
-人狼さんたちに、取って行かれちゃったんだ……。"
-55,"TEXT_STMBDZ410_02733_BOY02733_000_012","<If(PlayerParameter(4))>お姉ちゃん<Else/>お兄ちゃん</If>、お願い。
-川向こうに渡った人狼さんたちに、「<Sheet(EventItem,2002248,0)/>」を、
-返してくれるよう、お願いしてきてくれないかな？"
-56,"TEXT_STMBDZ410_02733_BOY02733_000_013","川向こうに渡った人狼さんたちに、「<Sheet(EventItem,2002248,0)/>」を、
-返してくれるよう、お願いしてきてくれないかな？"
-57,"TEXT_STMBDZ410_02733_RYOSEN_000_014","孫が心配じゃ……。
-無事に帰ってこれたら、ええんじゃが……。"
-58,"TEXT_STMBDZ410_02733_WEREWOLF02733_000_020","なに？
-子どもから取り上げた、<Sheet(EventItem,2002248,0)/>を返してほしいだと？"
-59,"TEXT_STMBDZ410_02733_WEREWOLF02733_000_021","ここは、我ら人狼の縄張り。
-縄張り内にあるものは、すべて我ら人狼のもの。
-ヒトよ……早く、ここから立ち去れ！"
-60,"TEXT_STMBDZ410_02733_POP_MESSAGE_000_022","敵が襲いかかってきた！！"
-61,"TEXT_STMBDZ410_02733_BALLOON_000_022","我らに逆らうな！"
-62,"TEXT_STMBDZ410_02733_BOY02733_000_030","僕の「<Sheet(EventItem,2002248,0)/>」、
-人狼さんたち、返してくれたかな……？"
-63,"TEXT_STMBDZ410_02733_BOY02733_000_040","人狼さんたち、「<Sheet(EventItem,2002248,0)/>」を返してくれた？"
-64,"TEXT_STMBDZ410_02733_BOY02733_000_041","ありがとう！
-人狼さんたちも、<If(PlayerParameter(4))>お姉ちゃん<Else/>お兄ちゃん</If>が話したら、
-わかってくれたんだね！"
-65,"TEXT_STMBDZ410_02733_BOY02733_000_042","実は、おじいちゃんの持ってる本草学って巻物に書いてあった、
-傷薬を作ってあげたくて、それに必要な材料を集めてるんだ。
-村には怪我をしてる人がいっぱいいるから……。"
-66,"TEXT_STMBDZ410_02733_BOY02733_000_043","それでね、ヨモギのほかに、「<Sheet(EventItem,2002249,0)/>」もほしいんだけど、
-僕が棒を使っても、川底に届かなくて困ってるんだ。
-<If(PlayerParameter(4))>お姉ちゃん<Else/>お兄ちゃん</If>なら、採れたりしないかな？"
-67,"TEXT_STMBDZ410_02733_BOY02733_000_044","「<Sheet(EventItem,2002249,0)/>」もほしいんだけど、
-僕が棒を使っても、川底に届かなくて困ってるんだ。
-<If(PlayerParameter(4))>お姉ちゃん<Else/>お兄ちゃん</If>なら、採れたりしないかな？"
-68,"TEXT_STMBDZ410_02733_BOY02733_000_050","「<Sheet(EventItem,2002249,0)/>」は、採れたかな？"
-69,"TEXT_STMBDZ410_02733_BOY02733_000_051","すごい、採れたんだね！？
-これで村のみんなのために、傷薬を作ってあげられるよ！"
-70,"TEXT_STMBDZ410_02733_BOY02733_000_052","それじゃ、僕はおじいちゃんのところに帰るよ！
-<If(PlayerParameter(4))>お姉ちゃん<Else/>お兄ちゃん</If>、ありがとね！"
-71,"TEXT_STMBDZ410_02733_RYOSEN_000_060","やや、旅人さん！
-先ほど無事に孫が戻ってきて、薬の材料集めを、
-旅人さんに助けていただいたという話を聞きましたぞ。"
-72,"TEXT_STMBDZ410_02733_RYOSEN_000_061","優しい心を持った孫に育ってくれて、嬉しいものの、
-慎重さと礼節については、厳しく躾けなければなりませんな。"
-73,"TEXT_STMBDZ410_02733_RYOSEN_000_062","それにしても、嘆かわしい話じゃ……。
-武の民として知られる人狼族は、ドマの豪族に平定され、
-その家臣として忠実に仕えておったというに……。"
-74,"TEXT_STMBDZ410_02733_RYOSEN_000_063","ところがドマが滅びると、
-一部の者は、帝国の支配からも逃れ、
-野盗のような生き方をするようになってしまった。"
-75,"TEXT_STMBDZ410_02733_RYOSEN_000_064","まして、子どもが採ったヨモギを奪うとは堕ちたものよ。
-誇り高き武人であった人狼族は、どこへ行ってしまったのか……。
-それもこれも、帝国の支配の悪影響ですな。"
+48,"TEXT_STMBDZ410_02733_RYOSEN_000_000","I have lost my grandchild! Please, help me search for him."
+49,"TEXT_STMBDZ410_02733_RYOSEN_000_001","He was right next to me until a short while ago. I cannot believe I lost sight of him so easily."
+50,"TEXT_STMBDZ410_02733_RYOSEN_000_002","He was asking a lot of questions about the One River; perhaps he went there searching for something."
+51,"TEXT_STMBDZ410_02733_RYOSEN_000_003","Though, I truly hope that is not the case. I have heard that a group of Lupin looters roam the area of late. Please search along the One River for my grandson. I shall continue to look for him here."
+52,"TEXT_STMBDZ410_02733_RYOSEN_000_004","Please search for my grandson by the One River. I shall continue to look for him here."
+53,"TEXT_STMBDZ410_02733_BOY02733_000_010","Grandfather is looking for me, you say? But I cannot go back just yet! I am still searching for that which was taken from me."
+54,"TEXT_STMBDZ410_02733_BOY02733_000_011","I was minding my own business, gathering mugworts, when some nasty Lupin stole them right out of my hands!"
+55,"TEXT_STMBDZ410_02733_BOY02733_000_012","Would you ask the Lupin if they would give me back my plants? You'll find them on the other side of the river."
+56,"TEXT_STMBDZ410_02733_BOY02733_000_013","Would you ask the Lupin if they would give me back my plants? You'll find them on the other side of the river."
+57,"TEXT_STMBDZ410_02733_RYOSEN_000_014","Where could he have gone to? Oh, I do hope he is safe..."
+58,"TEXT_STMBDZ410_02733_WEREWOLF02733_000_020","You would have us return some insignificant child's mugworts? Do not make me laugh."
+59,"TEXT_STMBDZ410_02733_WEREWOLF02733_000_021","This whole area belongs to us, including any plants that may happen to be plucked by a child of man."
+60,"TEXT_STMBDZ410_02733_POP_MESSAGE_000_022","You are under attack!"
+61,"TEXT_STMBDZ410_02733_BALLOON_000_022","You shall regret this!"
+62,"TEXT_STMBDZ410_02733_BOY02733_000_030","I wonder if the Lupin will give back my plants..."
+63,"TEXT_STMBDZ410_02733_BOY02733_000_040","Did you get them to return my mugworts?"
+64,"TEXT_STMBDZ410_02733_BOY02733_000_041","Oh, thank you so much!"
+65,"TEXT_STMBDZ410_02733_BOY02733_000_042","I was trying to collect plants to make some medicine. I read about it in one of my grandfather's botanicy books! There are so many sick people in the village. I just wanted to help."
+66,"TEXT_STMBDZ410_02733_BOY02733_000_043","There is one more thing I need for the medicine: waterweed. I tried to fish some out of the river earlier with a pole. But I didn't have much luck. Could you get some for me?"
+67,"TEXT_STMBDZ410_02733_BOY02733_000_044","There is one more thing I need for the medicine: waterweed. It's found at the bottom of rivers. Could you get some for me?"
+68,"TEXT_STMBDZ410_02733_BOY02733_000_050","Did you get some waterweed?"
+69,"TEXT_STMBDZ410_02733_BOY02733_000_051","Yay! Now I have everything I need!"
+70,"TEXT_STMBDZ410_02733_BOY02733_000_052","I'll go back to Grandfather now. Thanks for your help!"
+71,"TEXT_STMBDZ410_02733_RYOSEN_000_060","My grandson is at last returned! He told me all about how you helped him gather the ingredients he needed to make medicine."
+72,"TEXT_STMBDZ410_02733_RYOSEN_000_061","While I am glad he has grown to be a kind-hearted boy, there is still much he need learn about discipline and manners."
+73,"TEXT_STMBDZ410_02733_RYOSEN_000_062","However, those Lupin should really know better than to steal from a mere child. Their race was once famed for being loyal vassals to some of Doma's mightiest warlords."
+74,"TEXT_STMBDZ410_02733_RYOSEN_000_063","When Doma was crushed by the Empire some of them managed to escape, choosing to live as bandits."
+75,"TEXT_STMBDZ410_02733_RYOSEN_000_064","It pains me to see a race once so proud fall so low. Something else we have Garlemald to thank for, I suppose."

@@ -1,16 +1,15 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANMOG102_02291_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-バール・レス広場のお利口のモグエクは、何やら少し不安そうだ。"
-1,"TEXT_BANMOG102_02291_SEQ_01","※本クエストには「<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow><UIGlow>01</UIGlow><UIForeground>01</UIForeground> レベルアジャスト」が、
-　設定されています。
+0,"TEXT_BANMOG102_02291_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Mogek the Marvelous appears slightly flustered."
+1,"TEXT_BANMOG102_02291_SEQ_01","Despite Mogek's attempts to dissuade him, one of his Mogmenders is convinced that searching the House of Letters will yield the construction materials they have long been eager to strike off of their ever-growing list of necessary items. However, days have passed since he set out on his own for the ruins, and Mogek begins to worry for the moogle's safety. He bids you make your way to the House of Letters and seek out the stubborn moogle.
 
-モグエクから、資材を探しに遺跡へ出かけたまま戻ってこないモーグリ族を助けてほしいと頼まれた。手紙の家の「材料探しのモーグリ族」と話そう。"
-2,"TEXT_BANMOG102_02291_SEQ_02","材料探しのモーグリ族と話したところ、<Sheet(Item,15752,0)/>を渡され、「<Sheet(Item,15726,0)/>」の製作を依頼された。「<Sheet(Item,15752,0)/>」をもとに「<Sheet(Item,15726,0)/>」を製作し、バール・レス広場の「お利口のモグエク」に納品しよう。
+※Please note that the difficulty of this quest has been synced to your current level."
+2,"TEXT_BANMOG102_02291_SEQ_02","You come across a moogle who is so immersed in his work he does not notice you approach. Startled by your sudden appearance, he quickly recovers and goes on to explain that he is disappointed by the overall quality of the materials he has unearthed from the House of Letters. Knowing Mogek will not be satisfied by what he has gathered, he begs you to use your superior crafting skills to repurpose the  materials he has found into construction components and deliver them to Mogek the Marvelous.
 
-※「<Sheet(Item,15752,0)/>」を失った場合は、材料探しのモーグリ族に話しかけましょう。材料を入手し、再挑戦が可能になります。"
-3,"TEXT_BANMOG102_02291_SEQ_03","モグエクに<Sheet(Item,15726,0)/>を納品した。モグエクは遺跡に有用な資材が残っていたことに驚き、引き続き、再利用できるものがないか材料探しのモーグリ族に探させるそうだ。"
+※In the event you lose the materials or the synthesis ends in failure, you may try again by speaking with the mettlesome moogle."
+3,"TEXT_BANMOG102_02291_SEQ_03","The construction materials you deliver to Mogek seem to convince him that the ruins hold far more potential than he had believed. He decides he will begin sending Mogmenders to thoroughly scour the area for materials in the near future."
 4,"TEXT_BANMOG102_02291_SEQ_04",""
 5,"TEXT_BANMOG102_02291_SEQ_05",""
 6,"TEXT_BANMOG102_02291_SEQ_06",""
@@ -31,8 +30,8 @@ int32,str,str
 21,"TEXT_BANMOG102_02291_SEQ_21",""
 22,"TEXT_BANMOG102_02291_SEQ_22",""
 23,"TEXT_BANMOG102_02291_SEQ_23",""
-24,"TEXT_BANMOG102_02291_TODO_00","材料探しのモーグリ族と話す"
-25,"TEXT_BANMOG102_02291_TODO_01","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>製作手帳 蛮族クエスト：<Sheet(Item,15726,0)/>を製作<Else/>お利口のモグエクに<Sheet(Item,15726,0)/>を納品</If>"
+24,"TEXT_BANMOG102_02291_TODO_00","Speak with the mettlesome moogle."
+25,"TEXT_BANMOG102_02291_TODO_01","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Synthesize repurposed construction components<Else/>Deliver the repurposed construction components to Mogek the Marvelous</If>."
 26,"TEXT_BANMOG102_02291_TODO_02",""
 27,"TEXT_BANMOG102_02291_TODO_03",""
 28,"TEXT_BANMOG102_02291_TODO_04",""
@@ -55,47 +54,20 @@ int32,str,str
 45,"TEXT_BANMOG102_02291_TODO_21",""
 46,"TEXT_BANMOG102_02291_TODO_22",""
 47,"TEXT_BANMOG102_02291_TODO_23",""
-48,"TEXT_BANMOG102_02291_MOGEK_000_000","冒険者さんに、折り入って頼みがありますくぽ。
-再利用可能な資材を探しに、遺跡へ出かけた仲間が、
-なかなか戻ってこないのですくぽ。"
-49,"TEXT_BANMOG102_02291_MOGEK_000_001","この修復団いち賢いモグには、わかりますくぽ。
-何も見つけられず、帰るに帰れないのですくぽ。
-冒険者さん、困っている仲間を助けてくださいくぽ。"
-50,"TEXT_BANMOG102_02291_MOGEK_000_002","「材料探しのモーグリ族」は、
-「手紙の家」の辺りにいるはずですくぽ。
-よろしくお願いしますくぽ！"
-51,"TEXT_BANMOG102_02291_GOOUTMOOGLE02291_000_010","ひぃ！　お命ばかりはご勘弁くぽ～！
-…………って、冒険者さんくぽ？
-びっくりするから、驚かさないでほしいくぽ！"
-52,"TEXT_BANMOG102_02291_GOOUTMOOGLE02291_000_011","モグエクったら、モグを侮りすぎくぽ！
-この付近をくまなく調べて、
-再利用できそうなものは、ちゃんと見つけたくぽ！"
-53,"TEXT_BANMOG102_02291_GOOUTMOOGLE02291_000_012","……でも、どれも古びていて、
-このままじゃ使えそうにないくぽ。
-そこで、冒険者さんにお願いがあるくぽ！"
-54,"TEXT_BANMOG102_02291_GOOUTMOOGLE02291_000_013","使えそうな金属片を見つけたから、お渡しするくぽ。
-冒険者さんの職人技で、この材料から、
-「<Sheet(Item,15726,0)/>」を作ってほしいくぽ！"
-55,"TEXT_BANMOG102_02291_GOOUTMOOGLE02291_000_014","使えそうな木材や布なんかを見つけたから、お渡しするくぽ。
-冒険者さんの職人技で、この材料から、
-「<Sheet(Item,15726,0)/>」を作ってほしいくぽ！"
-56,"TEXT_BANMOG102_02291_GOOUTMOOGLE02291_000_015","使えそうな染料の材料を見つけたから、お渡しするくぽ。
-冒険者さんの職人技で、この材料から、
-「<Sheet(Item,15726,0)/>」を作ってほしいくぽ！"
-57,"TEXT_BANMOG102_02291_GOOUTMOOGLE02291_000_016","冒険者さんなら、きっとちょちょいのちょいくぽ！
-モグは、もう少しここで再利用できそうなものを探すから、
-完成したら、モグエクに持っていってほしいくぽ～。"
-58,"TEXT_BANMOG102_02291_GOOUTMOOGLE02291_000_017","材料がなくなっちゃったら、モグがあげるくぽ。
-欲しかったら、ひと声かけるくぽ～！"
-59,"TEXT_BANMOG102_02291_GOOUTMOOGLE02291_000_018","材料がなくなっちゃったら、モグがあげるくぽ。
-欲しかったら、ひと声かけるくぽ～！"
-60,"TEXT_BANMOG102_02291_GOOUTMOOGLE02291_000_019","もう作り終わったくぽ？
-それならモグエクに渡してほしいくぽ～。"
-61,"TEXT_BANMOG102_02291_MOGEK_000_030","冒険者さん、お帰りなさいですくぽ。
-なにか見つけることができましたくぽ？"
-62,"TEXT_BANMOG102_02291_MOGEK_000_031","これは凄いですくぽ！
-役立つ資材を作れるような材料が眠っているだなんて、
-あの遺跡も、なかなか侮れませんくぽ……。"
-63,"TEXT_BANMOG102_02291_MOGEK_000_032","これからも、再利用できるものがないか、
-仲間に探してもらうことにしますくぽ。
-どうもありがとうございましたくぽ。"
+48,"TEXT_BANMOG102_02291_MOGEK_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, I know not what to do, kupo! Several days ago, one of my Mogmenders stormed off when I told him searching the House of Letters for construction materials was a foolish idea."
+49,"TEXT_BANMOG102_02291_MOGEK_000_001","He has been absent for days, and being the hardhead he is, I'm sure he will not return until he has collected an assortment of planks, paints, and pilings large enough to prove me wrong."
+50,"TEXT_BANMOG102_02291_MOGEK_000_002","I fear this means he might never come back, for there is nothing of the sort in Eil Tohm─only hungry predators seeking easy prey. And there's nothing easier than an overworked moogle! Please, find and make sure he is safe, kupo!"
+51,"TEXT_BANMOG102_02291_GOOUTMOOGLE02291_000_010","Gah! P-Please, kupo! I am but skin and bones. I assure you, I do not taste nearly as good as I─
+...Oh! Thank the gods it's you. As glad as I am to see your friendly face, I beg of you not to sneak up on me like that!"
+52,"TEXT_BANMOG102_02291_GOOUTMOOGLE02291_000_011","Hm? Mogek sent you!? Kupooo! I just knew that smug-faced, pom-swinging miser didn't trust me to bring back anything worthwhile. Well, I'll show him, I will─just look at this huge pile I've gathered!"
+53,"TEXT_BANMOG102_02291_GOOUTMOOGLE02291_000_012","Oh, who am I kidding, kupo! Most of these materials are so old and decrepit it would be a miracle if I could use them to build anything. <sigh> What am I to do with this rubbish?"
+54,"TEXT_BANMOG102_02291_GOOUTMOOGLE02291_000_013","Wait! These metal bars─alone they might be worthless, but with your superb crafting skills maybe you could fashion some nails. Then, even Mogek cannot claim my coming here was a fruitless venture!"
+55,"TEXT_BANMOG102_02291_GOOUTMOOGLE02291_000_014","Wait! These pillars of wood─alone they might be worthless, but with your superb crafting skills maybe you could fashion some beams. Then, even Mogek cannot claim my coming here was a fruitless venture!"
+56,"TEXT_BANMOG102_02291_GOOUTMOOGLE02291_000_015","Wait! These jars of oil─alone they might be worthless, but with your superb crafting skills maybe you could mix me a couple buckets' worth of polish. Then, even Mogek cannot claim my coming here was a fruitless venture!"
+57,"TEXT_BANMOG102_02291_GOOUTMOOGLE02291_000_016","Someone of your expertise should be able to make short work of this, and while you're at it, I will go and search the area for even more things to take back!"
+58,"TEXT_BANMOG102_02291_GOOUTMOOGLE02291_000_017","Anyway, I shall let you get started! If you find yourself in need of more materials, do not hesitate to ask! Oh, and please deliver the finished product to Mogek directly, kupo! "
+59,"TEXT_BANMOG102_02291_GOOUTMOOGLE02291_000_018","You ran out? Fear not─I shall fetch you some more this instant!"
+60,"TEXT_BANMOG102_02291_GOOUTMOOGLE02291_000_019","Oh, they're magnificent! How I wish I could be there to see the look on Mogek's face when you hand them to him!"
+61,"TEXT_BANMOG102_02291_MOGEK_000_030","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! You've returned much earlier than I expected, kupo! Were you able to find our missing Mogmender?"
+62,"TEXT_BANMOG102_02291_MOGEK_000_031","I see, so he has stayed behind to continue his search? Well, for that I cannot fault him─these are simply splendid, kupo! Even more so, considering they were crafted using components found at the House of Letters."
+63,"TEXT_BANMOG102_02291_MOGEK_000_032","Perhaps I was too quick to discount the potential the ruins offered. It is a mistake I mean to rectify immediately, kupo! I shall begin scheduling routine searches of the area... Just as soon as I get the rest of my Mogmenders in order, that is!"

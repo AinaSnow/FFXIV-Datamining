@@ -1,12 +1,12 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSFSH530_02086_SEQ_00","忘れられた騎士亭のアンソールムは、冒険者に情報を教えたいようだ。"
-1,"TEXT_CLSFSH530_02086_SEQ_01","アンソールムから、<Sheet(Item,12713,0)/>という魚の情報を教えてもらった。クルザス西部高地のファルコンネスト北側の出口で「アンソールム」と話そう。"
-2,"TEXT_CLSFSH530_02086_SEQ_02","アンソールムは冒険者を待っている間に意気投合したレイナと釣り対決をして、負けてしまったようだ。アンソールムから、仇討ちを頼まれた。「<Sheet(ItemHQ,12713,0)/>」を3匹釣り上げ、ファルコンネスト北側出口の「アンソールム」に納品しよう。<Sheet(ItemHQ,12713,0)/>は、ゴルガニュ牧草地の南西にあるクルザス不凍池で釣ることができる。"
-3,"TEXT_CLSFSH530_02086_SEQ_03","アンソールムに<Sheet(ItemHQ,12713,0)/>を納品して、釣り対決に勝利した。レイナから雲海での新たな釣法を教わった。アンソールムからもらった釣り餌を使って、雲海で「浮島釣り」を試してみよう。
+0,"TEXT_CLSFSH530_02086_SEQ_00","Ansaulme is eager to share some exciting information with a fellow fisher."
+1,"TEXT_CLSFSH530_02086_SEQ_01","News has reached Ansaulme that a school of icepicks, fish as defiant as they are delicious, has been sighted in a secluded fishing hole in the Coerthas western highlands. Eager to show you the sights of his homeland, as well as pit his wits against such a fractious fish, he bids you meet with him by the north entrance of Falcon's Nest, whence he will guide you to the fishing hole in question."
+2,"TEXT_CLSFSH530_02086_SEQ_02","You make the appointed rendezvous with Ansaulme, only to learn that he has already been to the fishing hole and back. While awaiting your arrival, a fellow fisher named Reyna engaged him in a fish-off─a competition that he duly lost, catching only a single high-quality icepick to Reyna's two. Eager to silence the fisherwoman's taunts, he asks you to catch three high-quality icepicks to steal Reyna's thunder. The fish can be found in an unfrozen pond in the Gorgagne Holding, to the north of Falcon's Nest."
+3,"TEXT_CLSFSH530_02086_SEQ_03","You dutifully deliver the trio of icepicks to Ansaulme, beating Reyna's record and confirming your place at the top table of the fishing fraternity. As a reward for your efforts, Reyna tells you a tale of a chocobo hunter who angled from a floating island, opening your eyes to a new way of fishing. The bait Ansaulme gave you as his own reward may serve you well should you wish to try your hand at cloudfishing, and pluck fish from the skies themselves.
 
-※漁師のレベルが55以上になると、忘れられた騎士亭のアンソールムから次の漁師クエストを受注することができます。"
+※The next fisher quest will be available from Ansaulme upon reaching level 55."
 4,"TEXT_CLSFSH530_02086_SEQ_04",""
 5,"TEXT_CLSFSH530_02086_SEQ_05",""
 6,"TEXT_CLSFSH530_02086_SEQ_06",""
@@ -27,8 +27,8 @@ int32,str,str
 21,"TEXT_CLSFSH530_02086_SEQ_21",""
 22,"TEXT_CLSFSH530_02086_SEQ_22",""
 23,"TEXT_CLSFSH530_02086_SEQ_23",""
-24,"TEXT_CLSFSH530_02086_TODO_00","ファルコンネストでアンソールムと合流"
-25,"TEXT_CLSFSH530_02086_TODO_01","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>クルザス不凍池で<Sheet(ItemHQ,12713,0)/>を釣る<Else/>ファルコンネストのアンソールムに<Sheet(ItemHQ,12713,0)/>を納品</If>"
+24,"TEXT_CLSFSH530_02086_TODO_00","Speak with Ansaulme at Falcon's Nest."
+25,"TEXT_CLSFSH530_02086_TODO_01","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Catch icepicks <Sheet(Addon,9,0)/> in the unfrozen pond in the Gorgagne Holding.<Else/>Deliver the icepicks <Sheet(Addon,9,0)/> to Ansaulme.</If>"
 26,"TEXT_CLSFSH530_02086_TODO_02",""
 27,"TEXT_CLSFSH530_02086_TODO_03",""
 28,"TEXT_CLSFSH530_02086_TODO_04",""
@@ -51,82 +51,38 @@ int32,str,str
 45,"TEXT_CLSFSH530_02086_TODO_21",""
 46,"TEXT_CLSFSH530_02086_TODO_22",""
 47,"TEXT_CLSFSH530_02086_TODO_23",""
-48,"TEXT_CLSFSH530_02086_ANSAULME_000_000","おっ、いいところに来たじゃねえか！
-お前さんも満足できそうな、獲物の情報が入ってきたぜ！"
-49,"TEXT_CLSFSH530_02086_ANSAULME_000_001","「<Sheet(Item,12713,0)/>」って魚でよ。
-引きもなかなか、釣りごたえも極上な上に……
-カラッカラに揚げて食うと、いい酒のツマミになるんだ。"
-50,"TEXT_CLSFSH530_02086_ANSAULME_000_002","釣り場は、クルザス西部高地にある。
-「ファルコンネスト」北側の出口で落ち合おうぜ！"
-51,"TEXT_CLSFSH530_02086_ANSAULME_000_005","釣り場は、クルザス西部高地にある。
-「ファルコンネスト」北側の出口で落ち合おうぜ！"
-52,"TEXT_CLSFSH530_02086_REYNA_000_006","あんたの全身から、魚の匂いが漂ってくるよ。
-ふふふ、釣りに命かけちゃってる道楽者みたいだね……！"
-53,"TEXT_CLSFSH530_02086_ANSAULME_000_010","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、来てくれたか。
-……実は、お前さんを待っている間に、
-ちょいと状況が変わってよ。"
-54,"TEXT_CLSFSH530_02086_ANSAULME_000_011","ここにいる「レイナ」って姉ちゃんは、
-オレと同じように、各地で釣りをしながら旅しているらしい。"
-55,"TEXT_CLSFSH530_02086_ANSAULME_100_011","さっき出会ったばかりなんだが、かなり話が弾んでな。
-話の流れで、「<Sheet(ItemHQ,12713,0)/>」の、
-釣り対決をすることになったんだが……"
-56,"TEXT_CLSFSH530_02086_ANSAULME_000_012","なんと、この姉ちゃん……
-オレが1匹釣り上げるうちに、2匹も釣り上げやがったんだ！"
-57,"TEXT_CLSFSH530_02086_REYNA_000_013","アハハ、経験者がチャンチャラおかしいねえ！
-あの釣り場は初めてだったんだけど、ちょろいもんだったよ。"
-58,"TEXT_CLSFSH530_02086_ANSAULME_000_014","ぬううう、ムカつくだろ！？
-そこで、お前さんにオレの仇をとってほしいんだ！"
-59,"TEXT_CLSFSH530_02086_ANSAULME_000_015","ワワラゴ親分を唸らせた超凄腕の天才漁師が、
-仇討ちしてくれるってことになってるから、よろしく頼むぜ！"
-60,"TEXT_CLSFSH530_02086_Q1_000_000","なんと返答する？"
-61,"TEXT_CLSFSH530_02086_A1_000_001","超凄腕の天才漁師……？"
-62,"TEXT_CLSFSH530_02086_A1_000_002","任せておけ！"
-63,"TEXT_CLSFSH530_02086_ANSAULME_000_020","お前さんのことに決まってるだろう！
-これでふたりとも負けたら、恥の上塗りだ……！
-なんとしてでも勝ってみせてくれ！"
-64,"TEXT_CLSFSH530_02086_ANSAULME_000_025","おう、頼もしい答えじゃねえか！
-これでふたりとも負けたら、恥の上塗りだ……！
-なんとしてでも勝ってみせてくれ！"
-65,"TEXT_CLSFSH530_02086_ANSAULME_000_030","「<Sheet(ItemHQ,12713,0)/>」が釣れるのは、
-北にある橋を越えた先、ゴルガニュ牧草地の水辺だ。
-レイナの記録が2匹だから、お前さんは3匹釣ってきてくれ！"
-66,"TEXT_CLSFSH530_02086_ANSAULME_000_040","「<Sheet(ItemHQ,12713,0)/>」が釣れるのは、
-北にある橋を越えた先、ゴルガニュ牧草地の水辺だ。
-姉ちゃんの記録が2匹だから、お前さんは3匹釣ってきてくれ！"
-67,"TEXT_CLSFSH530_02086_ANSAULME_000_045","おお、見事な<Sheet(ItemHQ,12713,0)/>！
-どうだ、姉ちゃん！
-<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>は3匹だぜ、勝負ありだな！"
-68,"TEXT_CLSFSH530_02086_REYNA_000_046","嘘～！　あたしが負けるなんてっ！？
-いやー、あんた、本当に釣りがうまいんだねえ。"
-69,"TEXT_CLSFSH530_02086_REYNA_000_047","釣りに情熱そそぐ道楽者に、ふたりも出会えるなんて……！
-旅先でいろんな仕事を引き受けながら、釣り三昧の日々。
-そんな連中が、あたし以外にもいるとはね！"
-70,"TEXT_CLSFSH530_02086_ANSAULME_000_050","……なあ、姉ちゃんよ。
-良ければ、オレや<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>が知らない、
-とっておきの釣り場でもありゃあ、教えちゃくれないかい？"
-71,"TEXT_CLSFSH530_02086_REYNA_000_051","ああ、構わないよ、勝者にはご褒美も必要だしね！
-そう……噂というか、伝承の類になっちまうけど、
-ひとつ、面白い話を聞かせてあげようじゃないか。"
-72,"TEXT_CLSFSH530_02086_REYNA_000_052","……昔、とあるチョコボ猟師が、
-傷つき地に伏していた雲海魚を見つけたそうだ。
-空のマンタと呼ばれる「スピリット」って雲海魚をね。"
-73,"TEXT_CLSFSH530_02086_REYNA_000_053","猟師は傷を手当てして、その礼に雲の彼方へと案内された……。
-雲の上に案内された猟師は、そこで釣り糸を垂らし、
-誰も見たことのないような魚を、山ほど釣り上げたらしいよ。"
-74,"TEXT_CLSFSH530_02086_REYNA_000_054","チョコボ猟師の間で、暇つぶしに語られるお伽話……。
-でも、あたしは、この夢物語が真実じゃないかと思ってるんだ。"
-75,"TEXT_CLSFSH530_02086_REYNA_100_054","……さて、敗者はこのあたりで退散するかね。
-今の話、興味があったら、あんたも雲海で試してみるといいよ！"
-76,"TEXT_CLSFSH530_02086_ANSAULME_000_056","ふむ、心当たりがあるな。
-そのチョコボ猟師が釣った魚は、「幻の雲海魚」かもしれねえ……。
-かつて貴族たちが乱獲した結果、姿を消したと言われている魚だ。"
-77,"TEXT_CLSFSH530_02086_ANSAULME_000_057","ほれ、こいつを持って行きな！
-当時の釣り師たちは、
-この「<Sheet(Item,12708,0)/>」を餌にしてたらしい。"
-78,"TEXT_CLSFSH530_02086_ANSAULME_000_058","そういう類の釣り餌が欲しかったら、
-お前さんの、馴染みの園芸師や採掘師に頼んでみなよ。
-同じもんを探してきてくれるはずだ！"
-79,"TEXT_CLSFSH530_02086_ANSAULME_000_059","ともあれ、今回はお前さんのおかげで助かったぜ……。
-また、例の酒場で会おうや！"
-80,"TEXT_CLSFSH530_02086_SYSTEM_000_070","漁師として、未知の領域を開拓し、
-「浮島釣り」が開放されました！"
+48,"TEXT_CLSFSH530_02086_ANSAULME_000_000","Good to see you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I've got some news for you that I think you're going to like!"
+49,"TEXT_CLSFSH530_02086_ANSAULME_000_001","Have you ever heard of a fish called an icepick? Not only do they have a kick like a mylodon and the wits to give any fisherman a challenge, but cut them into goujons and fry them till they're golden, and they're just the thing to take away the taste of Gibrillont's best brown."
+50,"TEXT_CLSFSH530_02086_ANSAULME_000_002","Well, a shoal of the beauties has been sighted in a fishing hole I know in the western highlands of Coerthas. Let's head over, shall we? I'll meet you by the northern entrance to Falcon's Nest!"
+51,"TEXT_CLSFSH530_02086_ANSAULME_000_005","Meet me by the northern entrance to Falcon's Nest and I'll show you where these fish can be found. My mouth's watering just thinking about them!"
+52,"TEXT_CLSFSH530_02086_REYNA_000_006","Hmmm...there's something awfully fishy about you... Could it be!? Are you a fellow fishing fanatic? An angling apostle? An afishionado!?"
+53,"TEXT_CLSFSH530_02086_ANSAULME_000_010","Ah, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, you're finally here! I was afraid I'd missed you─to tell the truth, this young lady and I have just returned from the fishing hole."
+54,"TEXT_CLSFSH530_02086_ANSAULME_000_011","I'll explain in a second, but first, allow me to introduce you: <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, meet Reyna, a fellow fishing enthusiast."
+55,"TEXT_CLSFSH530_02086_ANSAULME_100_011","We only just met ourselves─she was just passing by when I spotted the rod strapped to her back and introduced myself. Reyna had heard about the icepick sighting too and, well, after a bit of mutual rod-rattling, we decided to have a little competition.
+I'm sorry we didn't wait for you, but you know how hot-headed we fishers can be."
+56,"TEXT_CLSFSH530_02086_ANSAULME_000_012","Of course, I wish I <Emphasis>had</Emphasis> waited, now... By the time I'd managed to catch my first decent-sized icepick, she already had a brace in the net!"
+57,"TEXT_CLSFSH530_02086_REYNA_000_013","Ha ha ha! How embarrassing for you─and in your own stamping grounds, too! Why, I'd never been to that fishing hole before in all my life, yet the fish were practically throwing themselves out of the water for me!"
+58,"TEXT_CLSFSH530_02086_ANSAULME_000_014","Agh! Kick me while I'm down, why don't you?"
+59,"TEXT_CLSFSH530_02086_ANSAULME_000_015","I demand vengeance, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! And who better to deliver it than the <If(PlayerParameter(4))>lady<Else/>gentleman</If> Master Wawalago called the absolute apex of the angling art!"
+60,"TEXT_CLSFSH530_02086_Q1_000_000","How will you respond?"
+61,"TEXT_CLSFSH530_02086_A1_000_001","...The absolute apex of the what now?"
+62,"TEXT_CLSFSH530_02086_A1_000_002","Leave it to me!"
+63,"TEXT_CLSFSH530_02086_ANSAULME_000_020","The apex of the angling art! The perfect <If(PlayerParameter(4))>piscatrix<Else/>piscator</If>! The finest fisher<If(PlayerParameter(4))>woman<Else/>man</If> in the firmament! He was talking about <Emphasis>you</Emphasis>, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! If there's anyone who can wipe that smirk off Reyna's face, you can!"
+64,"TEXT_CLSFSH530_02086_ANSAULME_000_025","I knew I could rely on you! If there's anyone who can wipe that smirk off Reyna's face, you can!"
+65,"TEXT_CLSFSH530_02086_ANSAULME_000_030","The pond where you'll find the fish is off to the north. Cross the bridge, and keep going until you reach the Gorgagne Holding. You should find it easily enough─it's the only stretch of liquid water in malms. Reyna caught two high-quality icepicks, so you're going to have to catch three!"
+66,"TEXT_CLSFSH530_02086_ANSAULME_000_040","The fishing hole where we found the icepicks is up in the Gorgagne Holding─just head north, cross the Black Iron Bridge, and you'll be there. Reyna caught two high-quality icepicks, so you're going to have to catch three. I'm counting on you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>!"
+67,"TEXT_CLSFSH530_02086_ANSAULME_000_045","Ha ha! Three icepicks, and every one a beauty! How do you like that, Reyna? Who's laughing now!?"
+68,"TEXT_CLSFSH530_02086_REYNA_000_046","Whaaat!? I can't believe you beat my record... Alright, I'll admit it─you're a better fisher<If(PlayerParameter(4))>woman<Else/>man</If> than me...and thrice as good as Ansaulme."
+69,"TEXT_CLSFSH530_02086_REYNA_000_047","I may have lost the contest, but it's been wonderful to meet you both! I thought I was the only one who spent her days traveling the realm, taking on what jobs I can to fuel my fishing habit, but now I know there's at least two more <Emphasis>epicureans</Emphasis> in the world!"
+70,"TEXT_CLSFSH530_02086_ANSAULME_000_050","So, you're a real angling addict, are you, Reyna? No doubt you could tell us some tales that would set our fish-fancying hearts aflutter."
+71,"TEXT_CLSFSH530_02086_REYNA_000_051","Oh, of course─it's the least I can do! The winner of the competition should have a reward, after all. Now, I don't know if there's any truth in this tale, but there's a certain story doing the rounds in Dravania that you might find interesting..."
+72,"TEXT_CLSFSH530_02086_REYNA_000_052","Not so very long ago, there was a chocobo hunter who found a wounded fish on the shore of the Sea of Clouds. It was a moogle spirit─known to fishermen the realm over as the manta of the skies. A hook was through its lip, an unattended rod lying at its side."
+73,"TEXT_CLSFSH530_02086_REYNA_000_053","The hunter took up the rod and freed the fish, but as soon as he did so, the spirit scooped him in its fins and swept him away to an island above the clouds! Not knowing where he was, or how to get home, he dropped a line into the clouds while he awaited rescue."
+74,"TEXT_CLSFSH530_02086_REYNA_000_054","Within moments there was jerk on the line, and he pulled up a strange fish covered in spines. A few more minutes of fishing, and he had enough of the things to spell out “help” in cloudkin. His message was spotted by a passing airship, and the fellow was saved!
+...Well, what do you think? The chocobo hunters tell it to their children as a bedtime story, but I've got a funny feeling there might be more to it than that."
+75,"TEXT_CLSFSH530_02086_REYNA_100_054","But anyway, I can't stand around chatting while there's work to be done. If that story tickled you, why don't you go and have a look around the Sea of Clouds? If you're lucky, you might catch a few of these helpful fish yourselves!"
+76,"TEXT_CLSFSH530_02086_ANSAULME_000_056","Hmmm...these strange fish the chocobo hunter pulled from the clouds─I think I might have an idea what they were. The Ishgardian nobility used to harvest them for their poison─so much so that they drove them to extinction. Or so I thought, until now..."
+77,"TEXT_CLSFSH530_02086_ANSAULME_000_057","Here, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, take some of these. The noblemen used to bait their hooks with these red balloons to catch those fish─if the creatures really are still around, chances are their tastes haven't changed."
+78,"TEXT_CLSFSH530_02086_ANSAULME_000_058","Balloon bugs spend their lives in the skies but they make their nests in the earth. If you should need any more of them, a friendly botanist or miner should be able to dig some out for you."
+79,"TEXT_CLSFSH530_02086_ANSAULME_000_059","But anyway, thanks for today─you really saved my skin. If Reyna had won that contest, I don't think I ever would have lived it down. I'm heading back to the Knight to celebrate. See you again soon, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>!"
+80,"TEXT_CLSFSH530_02086_SYSTEM_000_070","You have now acquired the skill of cloudfishing. Cast a line into the clouds and see if anything bites!"

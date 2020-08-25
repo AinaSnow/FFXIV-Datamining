@@ -1,19 +1,16 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANVAN103_02173_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト受注クラス・ジョブ制限<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-ナッキ島のムナバヌは、冒険者の手を借りたいようだ。"
-1,"TEXT_BANVAN103_02173_SEQ_01","※本クエストには
-「<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow><UIGlow>01</UIGlow><UIForeground>01</UIForeground> レベルアジャスト受注クラス・ジョブ制限」が、
-　設定されています。
-　受注時と同じクラス・ジョブでのみ進行できます。
+0,"TEXT_BANVAN103_02173_SEQ_00","Muna Vanu is dreadfully busy, and could do with a hand.
+※The difficulty of this quest will be synced to your current level."
+1,"TEXT_BANVAN103_02173_SEQ_01","Endymions have made a home for themselves in Ok' Zundu, and Muna Vanu bids you remove their nests. The perilous task of dislodging them from high atop the rooftops is made easier and safer by using a sanuwa, a creature capable of creating great gusts of wind that can blast away these aeries of mud and branches as though they were tiny affairs made of mere twig and down. Luna Vanu will have prepared such a beast for you to use in this endeavor─you need only say the word.
 
-ムナバヌから、<Sheet(EObj,2006646,0)/>の撤去を頼まれた。サヌワの突風を使って、巣を4つ吹き飛ばせばいいようだ。サヌワに騎乗するため、ナッキ島の「商人のルナバヌ」と話そう。"
-2,"TEXT_BANVAN103_02173_SEQ_02","商人のルナバヌと話し、サヌワに騎乗した。サヌワに騎乗した状態で、ブルーウィンドウにある4つの「<Sheet(EObj,2006646,0)/>」に「突風」を使おう。
+※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
+2,"TEXT_BANVAN103_02173_SEQ_02","You speak with Luna Vanu and he is more than happy to supply you with a sanuwa. Its powerful breath will make short work of the endymion nests.
 
-※ナッキ島にいる「商人のルナバヌ」に話しかけると「サヌワ」に騎乗できます。"
-3,"TEXT_BANVAN103_02173_SEQ_03","<Sheet(EObj,2006646,0)/>を4つ撤去した。ナッキ島のムナバヌに報告しよう。"
-4,"TEXT_BANVAN103_02173_SEQ_04","ムナバヌに報告した。エンディミオンは危険な怪鳥らしく、巣を吹き飛ばして数が増えるのを防いだ冒険者に、ムナバヌは感謝していた。"
+※Speak with Luna Vanu in Ok' Gundu Nakki to mount a sanuwa."
+3,"TEXT_BANVAN103_02173_SEQ_03","With the help of the sanuwa, you effortlessly destroy the endymion nests. Return to Muna Vanu and tell him your mission has been completed."
+4,"TEXT_BANVAN103_02173_SEQ_04","The venerable Gundu greatly appreciates your contributions to his tribe's safety. He explains that the endymions' encroachment is a recent development, and that incursions by aggressive creatures from the north grow ever more frequent in recent years."
 5,"TEXT_BANVAN103_02173_SEQ_05",""
 6,"TEXT_BANVAN103_02173_SEQ_06",""
 7,"TEXT_BANVAN103_02173_SEQ_07",""
@@ -33,9 +30,9 @@ int32,str,str
 21,"TEXT_BANVAN103_02173_SEQ_21",""
 22,"TEXT_BANVAN103_02173_SEQ_22",""
 23,"TEXT_BANVAN103_02173_SEQ_23",""
-24,"TEXT_BANVAN103_02173_TODO_00","商人のルナバヌと話す"
-25,"TEXT_BANVAN103_02173_TODO_01","サヌワに騎乗して<Sheet(EObj,2006646,0)/>に突風を使う"
-26,"TEXT_BANVAN103_02173_TODO_02","ムナバヌに報告"
+24,"TEXT_BANVAN103_02173_TODO_00","Speak with Luna Vanu."
+25,"TEXT_BANVAN103_02173_TODO_01","Ride a sanuwa and use its Buffet ability to destroy the endymion nests."
+26,"TEXT_BANVAN103_02173_TODO_02","Report to Muna Vanu."
 27,"TEXT_BANVAN103_02173_TODO_03",""
 28,"TEXT_BANVAN103_02173_TODO_04",""
 29,"TEXT_BANVAN103_02173_TODO_05",""
@@ -57,27 +54,11 @@ int32,str,str
 45,"TEXT_BANVAN103_02173_TODO_21",""
 46,"TEXT_BANVAN103_02173_TODO_22",""
 47,"TEXT_BANVAN103_02173_TODO_23",""
-48,"TEXT_BANVAN103_02173_MUNAVANU_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さま、ひとつお願いしたいことが。
-この付近にエンディミオンが巣を作ってしまったので、
-撤去に協力していただきたいのです。"
-49,"TEXT_BANVAN103_02173_MUNAVANU_000_001","巣は高所にあることが多く、手で取り除くのは手間です。
-ですが、ですが、サヌワの「突風」であれば、
-キノコの胞子よりも簡単に吹き飛ばせましょう。"
-50,"TEXT_BANVAN103_02173_MUNAVANU_000_002","サヌワは、商人のルナバヌに手配するよう言ってあります。
-サヌワの「突風」で、巣を4つほど吹き飛ばしてください。
-お手数ですが、ご協力をお願いします！"
-51,"TEXT_BANVAN103_02173_LUNAVANU_000_010","これは、これは、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さま。
-サヌワの準備はすでに整っております。
-「突風」で「<Sheet(EObj,2006646,0)/>」を吹き飛ばしてください！"
-52,"TEXT_BANVAN103_02173_LUNAVANU_000_011","サヌワにもう一度騎乗したいときは、私にお申しつけを。
-さあ、吹き荒れる台風の如きサヌワの「突風」で、
-「<Sheet(EObj,2006646,0)/>」を吹き飛ばしてください！"
-53,"TEXT_BANVAN103_02173_MUNAVANU_000_020","見事、見事、巣を吹き飛ばしてくださったようですな。
-実り多き果樹のように感謝します、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さま。
-これでしばらくは、安全でしょう。"
-54,"TEXT_BANVAN103_02173_MUNAVANU_000_021","エンディミオンは、激怒するパイッサよりも危険な怪鳥です。
-なにせ、なにせ、幼い子どもをさらうくらいですからね。
-巣を放置し、奴らの増加を許すわけにはいきません。"
-55,"TEXT_BANVAN103_02173_MUNAVANU_000_022","私が子どものころ、雲海にエンディミオンはいませんでしたが、
-数年前から、北の海から渡ってくるようになったのです。
-まったく、まったく、困ったものです。"
+48,"TEXT_BANVAN103_02173_MUNAVANU_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, Muna Vanu has request to make. Endymions make nests upon Zundu nests! Please remove nests and rid us all─Gundu and Zundu alike─of threat of endymion attack!"
+49,"TEXT_BANVAN103_02173_MUNAVANU_000_001","Endymions make nests as high as possible─removing them is dangerous and takes much time. But gust of wind from sanuwa blasts away whole nest─scatters to wind like spores of wild mushroom."
+50,"TEXT_BANVAN103_02173_MUNAVANU_000_002","Luna Vanu provides <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> with sanuwa. Use powerful, buffeting blast of wind from it to destroy four endymion nests!"
+51,"TEXT_BANVAN103_02173_LUNAVANU_000_010","Always it is pleasure to see <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! Muna Vanu tells Luna of plan to destroy endymion nests. Please, blow them away like kindling before gale!"
+52,"TEXT_BANVAN103_02173_LUNAVANU_000_011","Even Vanu nestlings fall from sanuwa sometimes. It is no surprise that <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> does too. Luna Vanu prepares fresh sanuwa."
+53,"TEXT_BANVAN103_02173_MUNAVANU_000_020","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> has whole tribe's thanks! With <If(PlayerParameter(4))>her<Else/>his</If> efforts, beasts' nests are gone and Vanu Vanu nestlings may rest easy once more."
+54,"TEXT_BANVAN103_02173_MUNAVANU_000_021","Endymion is more dangerous than raging anzu. They swoop down like fell wind and carry off young Vanu Vanu! Nests must be removed before vicious beasts grow too strong."
+55,"TEXT_BANVAN103_02173_MUNAVANU_000_022","When Muna Vanu is but mere nestling, endymions do not prowl Sea of Clouds. But in recent years, dangerous creatures blow in from northern seas. Each year is worse─more threatening─like swelling storm on horizon..."

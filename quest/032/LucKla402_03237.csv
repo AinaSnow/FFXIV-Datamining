@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKLA402_03237_SEQ_00","ミーン工芸館のケシ・レイは、シムーンについて考察したいようだ。"
+0,"TEXT_LUCKLA402_03237_SEQ_00","As is her wont, Qeshi-Rae wants to discuss the samiel with you."
 1,"TEXT_LUCKLA402_03237_SEQ_01",""
 2,"TEXT_LUCKLA402_03237_SEQ_02",""
 3,"TEXT_LUCKLA402_03237_SEQ_03",""
@@ -25,11 +25,11 @@ int32,str,str
 21,"TEXT_LUCKLA402_03237_SEQ_21",""
 22,"TEXT_LUCKLA402_03237_SEQ_22",""
 23,"TEXT_LUCKLA402_03237_SEQ_23",""
-24,"TEXT_LUCKLA402_03237_TODO_00","リダ・ラーンでマオ・ラッドの目撃情報を集める"
-25,"TEXT_LUCKLA402_03237_TODO_01","ケシ・レイと話す"
-26,"TEXT_LUCKLA402_03237_TODO_02","マオ・ラッドを探す"
-27,"TEXT_LUCKLA402_03237_TODO_03","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>ティム・グースで<Sheet(ItemHQ,26756,0)/>を採集<Else/><Sheet(ItemHQ,26756,0)/>をケシ・レイに納品</If>"
-28,"TEXT_LUCKLA402_03237_TODO_04","ミーン工芸館のケシ・レイと話す"
+24,"TEXT_LUCKLA402_03237_TODO_00","Gather information in Lydha Lran."
+25,"TEXT_LUCKLA402_03237_TODO_01","Speak with Qeshi-Rae."
+26,"TEXT_LUCKLA402_03237_TODO_02","Search for Mao-Ladd."
+27,"TEXT_LUCKLA402_03237_TODO_03","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Gather a shred of ancient animal skin <Sheet(Addon,9,0)/> at Timh Gyeus<Else/>Deliver the shred of ancient animal skin <Sheet(Addon,9,0)/> to Qeshi-Rae</If>."
+28,"TEXT_LUCKLA402_03237_TODO_04","Speak with Qeshi-Rae at the Crystalline Mean."
 29,"TEXT_LUCKLA402_03237_TODO_05",""
 30,"TEXT_LUCKLA402_03237_TODO_06",""
 31,"TEXT_LUCKLA402_03237_TODO_07",""
@@ -49,149 +49,61 @@ int32,str,str
 45,"TEXT_LUCKLA402_03237_TODO_21",""
 46,"TEXT_LUCKLA402_03237_TODO_22",""
 47,"TEXT_LUCKLA402_03237_TODO_23",""
-48,"TEXT_LUCKLA402_03237_SYSTEM_000_900","本クエストを進行するためには、
-「メインクエスト：漆黒のヴィランズ」の、
-「アクトラ・オルワ・イン」を完了する必要があります。"
-49,"TEXT_LUCKLA402_03237_QESHIRAE_000_000","よーし、痕跡は順調に集まっているのに、
-相変わらずシムーンの本体が、見つからない理由を、
-改めて考えてみようか！"
-50,"TEXT_LUCKLA402_03237_YALANA_000_001","はぁ、はぁ……ケ、ケシ・レイ科長……！
-大変です……！"
-51,"TEXT_LUCKLA402_03237_QESHIRAE_000_002","ヤラーナ、大丈夫かい……！
-頭脳労働者が全力疾走なんて、自殺行為だよ……！"
-52,"TEXT_LUCKLA402_03237_YALANA_000_004","だ、だめですが……それどころではないんです……！
-マオ・ラッドが、ひとりでシムーンを探しに、
-イル・メグへ向かってしまったんです！"
-53,"TEXT_LUCKLA402_03237_QESHIRAE_000_005","なんだってー！？"
-54,"TEXT_LUCKLA402_03237_YALANA_000_006","ほかの研究員がマオに対して、
-「お前がシムーンなど非現実的なことを吹聴したせいで、
-　ケシ・レイ科長まで愚かになってしまった」と言ったんです。"
-55,"TEXT_LUCKLA402_03237_YALANA_000_007","それにマオはひどく反発して、飛び出していって……。
-でも、身を護る心得のない研究員が、
-ひとりで外に出るなんて、無謀すぎます……！"
-56,"TEXT_LUCKLA402_03237_QESHIRAE_000_008","よりにもよって、イル・メグだなんて……！
-妖精たちに惑わされて、命を落とす危険だってあるんだぞ！
-すぐにでも連れ戻しに行かないと！"
-57,"TEXT_LUCKLA402_03237_YALANA_000_009","待ってください、科長！
-そんなことしたら、我々まで妖精に惑わされる可能性も……！"
-58,"TEXT_LUCKLA402_03237_QESHIRAE_000_010","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>くんがいるから、大丈夫。
-君は、イル・メグの妖精とも親しいんだよね？
-案内を頼めるかい？"
-59,"TEXT_LUCKLA402_03237_YALANA_000_011","なるほど、イル・メグの南にある集落、
-「リダ・ラーン」のピクシーたちと親交があると……。
-それならマオの姿を見てないか、聞き込みをお願いしたいです！"
-60,"TEXT_LUCKLA402_03237_QESHIRAE_000_012","じゃあ私たちはイル・メグの入口あたりでマオを探そう。
-すまないけど、情報が集まったら合流してくれるかな？
-マオの命がかかってるから……よろしく頼むよ！"
-61,"TEXT_LUCKLA402_03237_PIXIE03237A_000_020","お耳のおっきい男のヒト？
-さっき「姿見の湖」の西で見たけど、
-見失っちゃった……。"
-62,"TEXT_LUCKLA402_03237_PIXIE03237A_000_021","次に見つけたら、
-かっわいい草人になってもらうんだー♪"
-63,"TEXT_LUCKLA402_03237_PIXIE03237B_000_022","えっ！？　ヒトが遊びにきてたなんて、知らなかった！
-ずるいー！　ヒト見たいー！　あそびたいー！
-つまんないー！　つまんないのやだー！"
-64,"TEXT_LUCKLA402_03237_PIXIE03237C_000_023","なぁに？　さっきのヒト、あなたのお友だちだったの？
-じゃあ、背中をとんって押して、遊んであげればよかった！
-「姿見の湖」の際を歩いていたから……フフフ！"
-65,"TEXT_LUCKLA402_03237_SYSTEM_000_024","マオ・ラッドは、「姿見の湖」辺りで目撃されていたようだ……。
-「ティム・グース」入口付近のケシ・レイたちにも、
-目撃情報を伝えよう。"
-66,"TEXT_LUCKLA402_03237_QESHIRAE_000_025","イル・メグは数回しか足を踏み入れたことがないけれど……
-あいかわらず、魅力的かつ恐ろしい場所だね……。"
-67,"TEXT_LUCKLA402_03237_YALANA_000_026","マオー！　どこですかー！
-怒らないから出てきてくださいよー！"
-68,"TEXT_LUCKLA402_03237_PIXIE03237A_000_027","お耳のおっきい男のヒト？
-さっき「姿見の湖」の西で見たけど、
-見失っちゃった……。"
-69,"TEXT_LUCKLA402_03237_PIXIE03237A_000_028","次に見つけたら、
-かっわいい草人になってもらうんだー♪"
-70,"TEXT_LUCKLA402_03237_PIXIE03237B_000_029","ヒトが遊びにきてたなんて、知らなかった！
-ずるいー！　ヒト見たいー！　あそびたいー！
-つまんないー！　つまんないのやだー！"
-71,"TEXT_LUCKLA402_03237_PIXIE03237C_100_029","なぁに？　さっきのヒト、あなたのお友だちだったの？
-じゃあ、背中をとんって押して、遊んであげればよかった！
-「姿見の湖」の際を歩いていたから……フフフ！"
-72,"TEXT_LUCKLA402_03237_QESHIRAE_000_030","やあやあ、マオの手がかりについて、
-なにかわかったことはあったかい？"
-73,"TEXT_LUCKLA402_03237_QESHIRAE_000_031","なんと！
-もうマオの居場所を聞き出せたのかい！？
-君に案内を頼んで、正解だったよ……！"
-74,"TEXT_LUCKLA402_03237_QESHIRAE_000_032","「姿見の湖」だったっけ？
-よし、じゃあみんなでそっちに移動しよう！
-妖精に襲われないように、はぐれずについてきてね！"
-75,"TEXT_LUCKLA402_03237_QESHIRAE_000_035","マオ！
-よかった、無事だったんだね……！"
-76,"TEXT_LUCKLA402_03237_YALANA_000_036","こんなところまで、ひとりで来ていたなんて……。
-奇跡的に無事だったから、よかったものの……。"
-77,"TEXT_LUCKLA402_03237_MAOLADD_000_040","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん！
-すみません、ご心配をかけたようで……！"
-78,"TEXT_LUCKLA402_03237_YALANA_000_041","本当ですよ、まったくもう！
-ケシ・レイ科長だけじゃなく、あなたまで飛び出し癖がついたら、
-私ひとりでは対処しきれません！"
-79,"TEXT_LUCKLA402_03237_MAOLADD_000_042","だって、ほかのやつらに、
-ケシ・レイ科長を侮辱されたような気がして……
-許せなかったんです。"
-80,"TEXT_LUCKLA402_03237_MAOLADD_000_043","でも、おかげで、
-シムーンの体の一部と思われるものを見つけたんですよ！"
-81,"TEXT_LUCKLA402_03237_MAOLADD_000_044","ただ僕、採集道具を忘れちゃってて……。
-<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん、
-どうか、採ってきてくれませんか……！"
-82,"TEXT_LUCKLA402_03237_MAOLADD_000_045","ここ周辺、「ティム・グース」の岩肌や樹木に、
-体をこすりつけたような痕があったんです！
-その近くで「<Sheet(ItemHQ,26756,0)/>」の採集をお願いします！"
-83,"TEXT_LUCKLA402_03237_MAOLADD_000_050","ここ周辺、「ティム・グース」の岩肌や樹木に、
-体をこすりつけたような痕があったんです！
-その近くで「<Sheet(ItemHQ,26756,0)/>」の採集をお願いします！"
-84,"TEXT_LUCKLA402_03237_YALANA_000_052","本当にシムーンの体の一部が発見されたら……
-特定作業が、ぐんとはかどりますね……！"
-85,"TEXT_LUCKLA402_03237_QESHIRAE_000_060","なになに？
-「<Sheet(ItemHQ,26756,0)/>」が見つかったかい！？"
-86,"TEXT_LUCKLA402_03237_QESHIRAE_000_061","ふむふむ、これは……！
-確かに皮膚片のようだけど、古くてしなびているな……。
-出血の形跡もないから、脱皮したと考えてよさそうだ。"
-87,"TEXT_LUCKLA402_03237_YALANA_000_062","ということは、脱皮の習性を持つ生物……！
-特定にも一役買いそうですね！
-早く持って帰って、分析したいです！"
-88,"TEXT_LUCKLA402_03237_MAOLADD_000_063","ケシ・レイ科長、ヤラーナさん！！
-うしろ、うしろ……うしろにシムーンらしきものが……！！"
-89,"TEXT_LUCKLA402_03237_QESHIRAE_000_064","いないよ？"
-90,"TEXT_LUCKLA402_03237_YALANA_000_065","いませんね。"
-91,"TEXT_LUCKLA402_03237_MAOLADD_000_066","あ、あれ？
-でも本当に、さっきはいたんですよ！
-アム・アレーンで見かけた影と、形も一緒でした！"
-92,"TEXT_LUCKLA402_03237_MAOLADD_000_067","で、でも、目を離したら、
-一瞬のうちにいなくなってしまって……
-潜ってしまったのかもしれません……。"
-93,"TEXT_LUCKLA402_03237_MAOLADD_000_068","僕、嘘ついてないですよね！？
-<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん、
-あなたも見ましたよね！？"
-94,"TEXT_LUCKLA402_03237_QESHIRAE_000_069","ほんとなの！？　ぐううう、悔しいなぁ！"
-95,"TEXT_LUCKLA402_03237_QESHIRAE_000_070","私も見たかったよ、どんな姿をしてた！？
-なにか、既知の生物に似ていたりしてた！？
-色は！？　匂いは！？　大きさは！？"
-96,"TEXT_LUCKLA402_03237_YALANA_000_071","科長、その話は長くなりそうだから、
-ひとまずここを離れましょう……。
-はやく園芸館に戻りたいです。"
-97,"TEXT_LUCKLA402_03237_QESHIRAE_000_072","そうだね……せっかく手に入れた痕跡を、
-妖精にいたずらされちゃたまらないもんな！
-じゃあ、みんなで「ミーン工芸館」へ戻ろう！"
-98,"TEXT_LUCKLA402_03237_YALANA_000_075","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん、
-うちの研究員を助けてくださって……
-本当にありがとうございました！"
-99,"TEXT_LUCKLA402_03237_MAOLADD_000_076","怒りに身を任せて飛び出したはいいものの……
-イル・メグにひとりでいるのは、本当に恐ろしかったです……。
-助けに来てくれて、ありがとうございました……！"
-100,"TEXT_LUCKLA402_03237_QESHIRAE_000_080","いやぁー、大変だったね！
-でもマオが見つかってよかったよ！"
-101,"TEXT_LUCKLA402_03237_QESHIRAE_000_081","おかげで有力な検体も手に入ったしね！
-観察して頬ずりして、匂いを嗅いで味見しようとしたけど……
-ヤラーナに没収されちゃった。"
-102,"TEXT_LUCKLA402_03237_QESHIRAE_000_082","いまは、彼女たちに分析を任せているよ。
-必ずやシムーンの正体を絞り込んでみせるから、
-少しの間だけ、待っていてほしいな……！"
-103,"TEXT_LUCKLA402_03237_SYSTEM_000_090","次の納品依頼は、
-「採掘師／園芸師」のいずれかがレベル78以上になると、
-ミーン工芸館の「ケシ・レイ」から受注可能です。"
-104,"TEXT_LUCKLA402_03237_QESHIRAE_000_051","（★未使用／削除予定★）"
-105,"TEXT_LUCKLA402_03237_QESHIRAE_000_090","（★未使用／削除予定★）"
+48,"TEXT_LUCKLA402_03237_SYSTEM_000_900","In order to undertake this quest, you must first complete the main scenario quest “Acht-la Ormh Inn.”"
+49,"TEXT_LUCKLA402_03237_QESHIRAE_000_000","Yes, this is truly a mystery... We <Emphasis>know</Emphasis> that the samiel is out there─it's left plenty of evidence of its passage. So why can't we find it?"
+50,"TEXT_LUCKLA402_03237_YALANA_000_001","<huff> <wheeze> Ch-Chief! We have a problem!"
+51,"TEXT_LUCKLA402_03237_QESHIRAE_000_002","Yalana, you should know better than to run at full tilt! You're an academic─you're liable to kill yourself!"
+52,"TEXT_LUCKLA402_03237_YALANA_000_004","N-Never mind me! It's Mao─he's gone off to Il Mheg to search for the samiel...alone!"
+53,"TEXT_LUCKLA402_03237_QESHIRAE_000_005","He's what!?"
+54,"TEXT_LUCKLA402_03237_YALANA_000_006","The other researchers, they blamed him for putting the idea of the samiel into your head. “It's because of you she's chasing some fool myth,” they jeered."
+55,"TEXT_LUCKLA402_03237_YALANA_000_007","Mao couldn't bear their barbs, and in his anger, he rushed off with little more than the clothes on his back!"
+56,"TEXT_LUCKLA402_03237_QESHIRAE_000_008","There's no time to waste! We must find him before he runs afoul of the faeries!"
+57,"TEXT_LUCKLA402_03237_YALANA_000_009","B-But, Chief! What if <Emphasis>we</Emphasis> run afoul of the faeries?"
+58,"TEXT_LUCKLA402_03237_QESHIRAE_000_010","We'll have <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> with us. <If(PlayerParameter(4))>She<Else/>He</If> has friends among the pixies. Isn't that right?"
+59,"TEXT_LUCKLA402_03237_YALANA_000_011","I see... Yes, we'd be much assured if you could ask the pixies of Lydha Lran after Mao's whereabouts."
+60,"TEXT_LUCKLA402_03237_QESHIRAE_000_012","While you see to that, Yalana and I will cast around by the entrance. Come and find us after you've made your inquiries. Now then, let us hurry!"
+61,"TEXT_LUCKLA402_03237_PIXIE03237A_000_020","The man with the big ears? Ooh, yes, I know the one! Was chasing him, as a matter of fact!"
+62,"TEXT_LUCKLA402_03237_PIXIE03237A_000_021","Unfortunately, I lost sight of him west of the lake. If I see him again, I'll turn him into a cute leafman! Tee hee!"
+63,"TEXT_LUCKLA402_03237_PIXIE03237B_000_022","What!? A mortal's come here to play!? Nobody told me that! That's not fair! I'm so bored! Bored, bored, bored! I want to play with him too!"
+64,"TEXT_LUCKLA402_03237_PIXIE03237C_000_023","Hmmm? That mortal's your friend, you say? Had I known that, I would've greeted him with a shove into the lake! Tee hee hee!"
+65,"TEXT_LUCKLA402_03237_SYSTEM_000_024","It appears Mao-Ladd is somewhere near Longmirror Lake. Time to take word to the others, who await you at Timh Gyeus."
+66,"TEXT_LUCKLA402_03237_QESHIRAE_000_025","I've only dared set foot in Il Mheg a few times. The place is at once beautiful and terrifying."
+67,"TEXT_LUCKLA402_03237_YALANA_000_026","Oh, where are you, Mao?"
+68,"TEXT_LUCKLA402_03237_PIXIE03237A_000_027","I lost sight of the man with the big ears west of the lake."
+69,"TEXT_LUCKLA402_03237_PIXIE03237A_000_028","If I see him again, I'll turn him into a cute leafman! Tee hee!"
+70,"TEXT_LUCKLA402_03237_PIXIE03237B_000_029","Nobody told me about the mortal! That's not fair! I'm so bored! Bored, bored, bored! I want to play with him too!"
+71,"TEXT_LUCKLA402_03237_PIXIE03237C_100_029","Had I known that mortal was your friend, I would've greeted him with a shove into the lake! Tee hee hee!"
+72,"TEXT_LUCKLA402_03237_QESHIRAE_000_030","There you are. Were you able to learn anything about Mao's whereabouts?"
+73,"TEXT_LUCKLA402_03237_QESHIRAE_000_031","Truly? Thank you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! We could never have located him without your help!"
+74,"TEXT_LUCKLA402_03237_QESHIRAE_000_032","Come, let's make haste to Longmirror Lake. Quickly and quietly does it..."
+75,"TEXT_LUCKLA402_03237_QESHIRAE_000_035","What were you thinking, lad? You could've been killed, or worse!"
+76,"TEXT_LUCKLA402_03237_YALANA_000_036","He's safe, thank goodness. It's a miracle he managed to come this far unharmed."
+77,"TEXT_LUCKLA402_03237_MAOLADD_000_040","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! I'm so sorry for all the trouble!"
+78,"TEXT_LUCKLA402_03237_YALANA_000_041","And so you should be! The chief alone is enough of a handful─I can't chase you down as well!"
+79,"TEXT_LUCKLA402_03237_MAOLADD_000_042","B-But the others, they spoke ill of the chief. I couldn't just stand by and take it."
+80,"TEXT_LUCKLA402_03237_MAOLADD_000_043","I know it was reckless of me to come out here alone...but thanks to that, I was able to find an actual part of the samiel!"
+81,"TEXT_LUCKLA402_03237_MAOLADD_000_044","There's...er, just one problem─in my haste, I forgot my tools. <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, you seem to have yours. Could you do the collecting in my stead?"
+82,"TEXT_LUCKLA402_03237_MAOLADD_000_045","Lest you wonder, it's a shred of scaly skin. I spotted it in this area, Timh Gyeus, after noticing rub marks on the trees and rocks."
+83,"TEXT_LUCKLA402_03237_MAOLADD_000_050","I spotted the skin in this area, Timh Gyeus, after noticing rub marks on the trees and rocks. Please collect it in my stead."
+84,"TEXT_LUCKLA402_03237_YALANA_000_052","While droppings can tell us much about a creature, there's no substitute for an actual piece of it. In spite of myself, I'm quite excited, I must admit!"
+85,"TEXT_LUCKLA402_03237_QESHIRAE_000_060","So, did you find the shred of skin?"
+86,"TEXT_LUCKLA402_03237_QESHIRAE_000_061","Mmm-hmmm! While it's a little on the shriveled side, this is indeed skin from the creature. It was likely molting."
+87,"TEXT_LUCKLA402_03237_YALANA_000_062","A molting creature! That's one more thing we know about it! I can't wait to see what else this specimen can tell us!"
+88,"TEXT_LUCKLA402_03237_MAOLADD_000_063","The s-s-samiel! It's b-b-behind you!"
+89,"TEXT_LUCKLA402_03237_QESHIRAE_000_064","Hm? I don't see anything."
+90,"TEXT_LUCKLA402_03237_YALANA_000_065","Me neither."
+91,"TEXT_LUCKLA402_03237_MAOLADD_000_066","Th-That's odd... It was there just a moment ago. And its shape─I'd swear it matches that of the shadow I saw in Amh Araeng."
+92,"TEXT_LUCKLA402_03237_MAOLADD_000_067","I don't know how, but it literally disappeared in the blink of an eye."
+93,"TEXT_LUCKLA402_03237_MAOLADD_000_068","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, you saw it too, didn't you? It wasn't just my imagination?"
+94,"TEXT_LUCKLA402_03237_QESHIRAE_000_069","Truly!? It was right there, and I missed it!? Gah, of all the rotten luck!"
+95,"TEXT_LUCKLA402_03237_QESHIRAE_000_070","Tell me, what did it look like? What was its color? Smell? Size?"
+96,"TEXT_LUCKLA402_03237_YALANA_000_071","Chief, perhaps we should save the questions for after we leave this place. Even with <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, it may not be entirely safe for us here."
+97,"TEXT_LUCKLA402_03237_QESHIRAE_000_072","Yes, you have the right of it. It wouldn't do to have the faeries get their hands on our precious specimen. Come, let's return to the Crystarium."
+98,"TEXT_LUCKLA402_03237_YALANA_000_075","Thank you for helping us to find Mao-Ladd. I shudder to think what may have happened to him."
+99,"TEXT_LUCKLA402_03237_MAOLADD_000_076","Anger carried my steps to Il Mheg, but it quickly gave way to terror. I'm in your debt."
+100,"TEXT_LUCKLA402_03237_QESHIRAE_000_080","Well, that was certainly a harrowing outing, but it wasn't without fruit─in the form of a piece of the samiel itself! Ahhh, to feel the scaly texture in my hands and breathe in its mysterious smell... Pure bliss, I tell you!"
+101,"TEXT_LUCKLA402_03237_QESHIRAE_000_081","Alas, Yalana snatched it from me before I could have a little taste..."
+102,"TEXT_LUCKLA402_03237_QESHIRAE_000_082","Well, for now we'll just have to leave her to her task. I'm sure she'll have new information for us before long, so do not wander far!"
+103,"TEXT_LUCKLA402_03237_SYSTEM_000_090","The next request will be available from Qeshi-Rae upon reaching level 78 as a miner or botanist."
+104,"TEXT_LUCKLA402_03237_QESHIRAE_000_051",""
+105,"TEXT_LUCKLA402_03237_QESHIRAE_000_090",""

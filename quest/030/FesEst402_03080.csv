@@ -1,18 +1,14 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_FESEST402_03080_SEQ_00","※本クエストは、期間限定のクエストとなります。
+0,"TEXT_FESEST402_03080_SEQ_00","Jihli requests your assistance with the Hatching–tide egg hunt.
+※This quest is available for a limited time only."
+1,"TEXT_FESEST402_03080_SEQ_01","Jihli has hinted that the egg hunt will act as a catalyst for festival-goers to enjoy their own unexpected encounters. Take the basket holding the Hatching–tide egg and hide it near the Lancers' Guild.
 
-ミィ・ケット野外音楽堂のジリ・アリアポーは、冒険者に依頼したいことがあるようだ。"
-1,"TEXT_FESEST402_03080_SEQ_01","※本クエストは、シーズナルイベント開催中にかぎり、
-　受注、進行できます。
-　開催期間終了後は進行できませんので、ご注意ください。
-　期間等の詳細についてはLodestoneをご覧ください。
-
-ジリ・アリアポーから、籠に入った飾りタマゴを隠し、どんな出会いが起きるか見守ってきてほしいと依頼された。グリダニアの槍術士ギルド周辺の「<Sheet(EObj,2009427,0)/>」に、「<Sheet(EventItem,2002461,0)/>」を使おう。"
-2,"TEXT_FESEST402_03080_SEQ_02","<Sheet(EventItem,2002461,0)/>を使った。どんな出会いが起きるか、槍術士ギルド周辺の「<Sheet(EObj,2009428,0)/>」で待機し、見守ろう。"
-3,"TEXT_FESEST402_03080_SEQ_03","素敵な出会いを見守った。ミィ・ケット野外音楽堂にいる「ジリ・アリアポー」に報告しよう。"
-4,"TEXT_FESEST402_03080_SEQ_04","ジリ・アリアポーに報告した。素敵な出会いが起きたことで、ジリ・アリアポーは喜んでいるようだ。飾りタマゴが導く、素敵な出会いを今後も見守ろう。"
+※Please note that you will not be able to complete this quest after the seasonal event has ended. For details, check the Lodestone."
+2,"TEXT_FESEST402_03080_SEQ_02","You leave the egg-laden basket nestled amongst the other Hatching–tide decorations. Wait nearby, and witness the events which unfold."
+3,"TEXT_FESEST402_03080_SEQ_03","You look on as your carefully placed basket becomes the locus upon which two disparate paths converge. Return to Jihli, and describe the scene which took place."
+4,"TEXT_FESEST402_03080_SEQ_04","Jihli is delighted to hear your recounting of the serendipitous exchange. The way the Dreamer tells it, however, there are more unexpected encounters just waiting to hatch..."
 5,"TEXT_FESEST402_03080_SEQ_05",""
 6,"TEXT_FESEST402_03080_SEQ_06",""
 7,"TEXT_FESEST402_03080_SEQ_07",""
@@ -32,9 +28,9 @@ int32,str,str
 21,"TEXT_FESEST402_03080_SEQ_21",""
 22,"TEXT_FESEST402_03080_SEQ_22",""
 23,"TEXT_FESEST402_03080_SEQ_23",""
-24,"TEXT_FESEST402_03080_TODO_00","<Sheet(EObj,2009427,0)/>に<Sheet(EventItem,2002461,0)/>を使う"
-25,"TEXT_FESEST402_03080_TODO_01","<Sheet(EObj,2009428,0)/>で待機"
-26,"TEXT_FESEST402_03080_TODO_02","ジリ・アリアポーに報告"
+24,"TEXT_FESEST402_03080_TODO_00","Place the gilded egg at the designated location."
+25,"TEXT_FESEST402_03080_TODO_01","Wait at the designated location."
+26,"TEXT_FESEST402_03080_TODO_02","Report to Jihli Aliapoh."
 27,"TEXT_FESEST402_03080_TODO_03",""
 28,"TEXT_FESEST402_03080_TODO_04",""
 29,"TEXT_FESEST402_03080_TODO_05",""
@@ -56,192 +52,88 @@ int32,str,str
 45,"TEXT_FESEST402_03080_TODO_21",""
 46,"TEXT_FESEST402_03080_TODO_22",""
 47,"TEXT_FESEST402_03080_TODO_23",""
-48,"TEXT_FESEST402_03080_JIHLIALIAPOH_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、来てくれたのね！
-前にも伝えたけれど、素敵な出会いを起こすために、
-飾りタマゴを隠してきてほしいの。"
-49,"TEXT_FESEST402_03080_JIHLIALIAPOH_000_001","みんなには、「籠に入った飾りタマゴの中へ、
-特別な贈り物を入れてある」って広めておいたわ。
-これで、いろんな人が、飾りタマゴを探してくれるはずよ！"
-50,"TEXT_FESEST402_03080_JIHLIALIAPOH_000_002","隠す場所は決めておいたから、地図に示しておくわ。
-この「<Sheet(EventItem,2002461,0)/>」を置いたら、
-少し離れた場所から、素敵な出会いを見守ってきて！"
-51,"TEXT_FESEST402_03080_ESUMIYAN_000_010","ほう、またエッグハントの季節が巡っていたのですね。
-そういえば、精霊のささやきも、
-少しずつ賑やかになってきていました……。"
-52,"TEXT_FESEST402_03080_KHLOEALIAPOH_000_011","やったあ！　飾りタマゴ発見！
-中には何が入ってるのかな～？"
-53,"TEXT_FESEST402_03080_KHLOEALIAPOH_000_012","……あっ！　もしかして、あなたのほうが先に見つけてた？
-ごめん、この飾りタマゴは返すね！"
-54,"TEXT_FESEST402_03080_ESUMIYAN_000_013","ふふ……いえ、私は大丈夫ですよ。
-どうぞ、あなたがお持ちになってください。"
-55,"TEXT_FESEST402_03080_KHLOEALIAPOH_000_014","そういうわけにはいかないよ！
-だってあなた、わたしより年下でしょ？
-小さい子には優しくしなきゃって、お姉ちゃんが言ってたよ！"
-56,"TEXT_FESEST402_03080_ESUMIYAN_000_015","あぁ、なるほど……あなたは、グリダニアの民ではないのですね。
-私たち「角尊」は、若き姿を保ちながら、歳を重ねるのです。
-こう見えて、あなたよりずっと年上なんですよ。"
-57,"TEXT_FESEST402_03080_KHLOEALIAPOH_000_016","ええっ、そうなの！？
-でも、ほんとにツノが生えてるね……！"
-58,"TEXT_FESEST402_03080_KHLOEALIAPOH_000_017","そうだっ、ずっと年上なら、いろんな冒険してるよね？
-わたし、冒険のお話を聞いて、「物語」を作ってるの。
-よかったら、おにーちゃんのお話も聞かせて！"
-59,"TEXT_FESEST402_03080_ESUMIYAN_000_018","お、おにーちゃん、ですか……。
-おじいちゃんのほうが、相応しいと思いますが……。"
-60,"TEXT_FESEST402_03080_ESUMIYAN_000_019","それに、私は、あなたにお伝えできるほど、
-面白い話を持ち合わせていないと思います。
-申し訳ないですが、またの機会に……。"
-61,"TEXT_FESEST402_03080_KHLOEALIAPOH_000_020","あぁ、待ってよ！
-楽しい魔法人形をあげるから、お話を聞かせて！"
-62,"TEXT_FESEST402_03080_ZHLOEALIAPOH_000_030","あっ、籠に入った飾りタマゴ！
-やったあ、ついにひとつ見つけたぞ～！"
-63,"TEXT_FESEST402_03080_MAISENTA_000_031","あら……あなたもこの飾りタマゴを？"
-64,"TEXT_FESEST402_03080_ZHLOEALIAPOH_000_032","は、はい！
-で、でも、もし、飾りタマゴをお探しでしたら、お譲りしますよ？
-私は、まだ仕事で、しばらくグリダニアに滞在しますし……。"
-65,"TEXT_FESEST402_03080_MAISENTA_000_033","いえ、私は手配した商品の具合を見にきただけですわ。
-どうぞ、あなたがお持ちになって。"
-66,"TEXT_FESEST402_03080_ZHLOEALIAPOH_000_034","えっ……あ、ありがとうございます。
-では、遠慮なく……。"
-67,"TEXT_FESEST402_03080_ZHLOEALIAPOH_000_035","ところで、これだけ大きなお祭りに、
-商品を卸せるなんて、やり手の商人とお見受けしました！
-不躾なお願いですが、私に商売のコツを教えてもらえませんか！"
-68,"TEXT_FESEST402_03080_ZHLOEALIAPOH_000_036","私、孤児院を運営するために、商いを始めたんですが、
-まだまだうまくいかないことも多くて……。
-どうか、お願いします！"
-69,"TEXT_FESEST402_03080_MAISENTA_000_037","……残念ながら、私は、商社に属す身ですから、
-わが社の損になりえる情報は教えられませんの。"
-70,"TEXT_FESEST402_03080_MAISENTA_000_038","けれど、あなたが、利益をもたらす取引をしてくれるのなら、
-少しは力になれますわ。
-教える立場ではなく、取引相手として、ね。"
-71,"TEXT_FESEST402_03080_ZHLOEALIAPOH_000_039","あっ、ありがとうございます！
-ぜひぜひ、よろしくお願いします！"
-72,"TEXT_FESEST402_03080_SILVAIRRE_000_050","よし、やっと見つけたぞ。
-簡単に見つかると思ったが、案外難しかったな……。"
-73,"TEXT_FESEST402_03080_LEIHALIAPOH_000_051","うわっ、シルヴェルじゃないか。
-こんなとこで何やってんだ？"
-74,"TEXT_FESEST402_03080_SILVAIRRE_000_052","……レイか。
-たまたま通りがかっただけだ。
-それに、俺が何をしていようと、お前には関係あるまい。"
-75,"TEXT_FESEST402_03080_LEIHALIAPOH_000_053","ふーん、そうなのか。
-エッグハントなんてくだらないとか、言ってたもんな。
-じゃ、そこにある飾りタマゴは、アタシがもらってくよ。"
-76,"TEXT_FESEST402_03080_SILVAIRRE_000_054","なっ、先に見つけたのは俺だぞ！"
-77,"TEXT_FESEST402_03080_LEIHALIAPOH_000_055","え？　たまたま通りがかっただけなんだろ？"
-78,"TEXT_FESEST402_03080_SILVAIRRE_000_056","クッ……。"
-79,"TEXT_FESEST402_03080_LEIHALIAPOH_000_057","いつもは眉間にシワ寄せてばっかのお前が、
-エッグハントには楽しく参加してましたーって認めるんなら、
-この飾りタマゴ、譲ってやってもいいんだけどなぁ。"
-80,"TEXT_FESEST402_03080_SILVAIRRE_000_058","……飾りタマゴなど、ほしいものか！
-お前はせいぜい、祭りにうつつを抜かしているといい。
-俺は、弓術士ギルドでの鍛錬に戻る……！"
-81,"TEXT_FESEST402_03080_LEIHALIAPOH_000_059","……シルヴェルのやつ、相変わらずクセが直ってないんだな。
-嘘をつくときには、必ず口元に手を当てる……
-わかりやすいったらないよ。"
-82,"TEXT_FESEST402_03080_LEIHALIAPOH_100_059","……あいつ、本当に素直じゃないな。
-でも、あんな言い方じゃ、嘘だってすぐ見抜けるっての。"
-83,"TEXT_FESEST402_03080_LEIHALIAPOH_000_060","しかたない、充分にからかって楽しんだし、
-この飾りタマゴは、ギルドにあるあいつの用具入れに、
-こっそり隠しておいてやるか！"
-84,"TEXT_FESEST402_03080_YWAIN_000_070","おっ、あれが、贈り物が入ってる飾りタマゴだな！
-まだ誰にも見つかってないみたいだし、さっさと回収するか。"
-85,"TEXT_FESEST402_03080_NICOLIAUX_000_071","わっ、びっくりした！"
-86,"TEXT_FESEST402_03080_YWAIN_000_072","おっと、お前もこのタマゴが目当てか？
-仕方ないな……子ども相手だ、譲ってやろう。"
-87,"TEXT_FESEST402_03080_NICOLIAUX_000_073","えーっと……どっかで見たことある顔なんだよな……
-確か、槍術士ギルドの……名前、なんだっけ……？"
-88,"TEXT_FESEST402_03080_NICOLIAUX_000_074","まあ、いいや！
-おっさん、なんか幸薄そうな顔してるし、そのタマゴやるよ！
-元気出せよ、じゃあな！"
-89,"TEXT_FESEST402_03080_YWAIN_000_075","俺の名前を知らないうえに、幸薄そうな顔だって……？
-これでも、ギルドマスターだってのに……
-最近の子どもは、これだから困るぜ。"
-90,"TEXT_FESEST402_03080_YWAIN_000_076","俺の名前を知らないうえに、幸薄そうな顔だって……？
-フールクの件で悩んでいるのが、顔に出てるのか……。
-今日は、早めに休むとしよう。"
-91,"TEXT_FESEST402_03080_YWAIN_000_077","俺の名前を知らないうえに、幸薄そうな顔だって……？
-……まあ、あんな後味の悪い一件のあとだからな。
-今日は、早めに休むとしよう。"
-92,"TEXT_FESEST402_03080_BEATIN_000_090","フフフ……とうとう飾りタマゴを見つけましたよ……。"
-93,"TEXT_FESEST402_03080_FUFUCHA_000_091","あら、ベアティヌじゃないですか。
-奇遇ですね。"
-94,"TEXT_FESEST402_03080_BEATIN_000_092","これは、これは……フフチャさん。
-あなたも、飾りタマゴを探していたのですか？"
-95,"TEXT_FESEST402_03080_FUFUCHA_000_093","ええ、土いじりも楽しいですが、
-こちらのお祭りも、なかなか楽しそうに見えたので。
-けれど、このタマゴの発見は、先を越されたみたいですね。"
-96,"TEXT_FESEST402_03080_BEATIN_000_094","いえ……このタマゴは、あなたがお持ちください。
-いつも、とても素敵な原木を提供してくださるので、
-ささやかなお礼です……。"
-97,"TEXT_FESEST402_03080_FUFUCHA_000_095","まあ……ありがとうございます。
-では、遠慮なくいただきますね。"
-98,"TEXT_FESEST402_03080_BEATIN_000_096","しかし……本当に、園芸師ギルドが採集する、
-原木たちは素敵ですよね……。"
-99,"TEXT_FESEST402_03080_FUFUCHA_000_097","いえいえ、そんな……。"
-100,"TEXT_FESEST402_03080_BEATIN_000_098","謙遜など、なさらないでください。
-現に、この間いただいたチーク原木は、
-私の気が遠くなるほど、美しいものでしたよ……。"
-101,"TEXT_FESEST402_03080_BEATIN_000_099","あの、油をたっぷりと含んで、しっとりとした肌……！
-乾燥には時間がかかりましたが、
-そのぶん、打たれ強く、加工しやすくなってくれたんです……。"
-102,"TEXT_FESEST402_03080_BEATIN_000_100","まさに、大器晩成……！
-あまりにも手塩にかけて製材したもので、
-まだ品物は作れていませんが、想像するだけで……もう……。"
-103,"TEXT_FESEST402_03080_BEATIN_000_101","そうだ、時間もあるようですし、
-このあと、木の素晴らしさについて、語り合いませんか？
-採集と製材、それぞれの視点で見ると、さらに楽しく……"
-104,"TEXT_FESEST402_03080_FUFUCHA_000_102","いえ、私はまた農場に戻りますので。
-この飾りタマゴも、やはりあなたにお渡しします。
-それでは……！"
-105,"TEXT_FESEST402_03080_MIOUNNE_000_120","ふぅ……お祭りがあると、カフェへ来る人が増えるね。
-嬉しいことだけど、少し疲れたな……。"
-106,"TEXT_FESEST402_03080_MIOUNNE_000_121","おや……あれが、贈り物が入っている飾りタマゴかな？
-せっかく見つけたし、もらっておこうかな。"
-107,"TEXT_FESEST402_03080_GEVA_000_122","あら、ミューヌじゃない。
-あなたも飾りタマゴを探してたの？"
-108,"TEXT_FESEST402_03080_MIOUNNE_000_123","いや、たまたま見つけただけだよ。
-僕はカフェに戻るから、その飾りタマゴは、持っていってくれ。"
-109,"TEXT_FESEST402_03080_GEVA_000_124","……ミューヌ、なんだか疲れてない？
-エッグハントのお祭りで、グリダニアへ来る人が増えたから、
-忙しくなってるんじゃないかしら？"
-110,"TEXT_FESEST402_03080_MIOUNNE_000_125","ゲヴァ……少ししか喋っていないのに、
-どうしてわかるんだい？"
-111,"TEXT_FESEST402_03080_GEVA_000_126","赤ん坊を、ふたりも育てたんだもの。
-何を求めてるのかわからない、あの子たちに比べれば、
-大人の体調を見るなんて、朝飯前よ。"
-112,"TEXT_FESEST402_03080_GEVA_000_127","そうだ、せっかく会ったんだし、お茶会でもしましょうよ。
-そんな疲れたままじゃ、グリダニアの顔も台無しでしょ？"
-113,"TEXT_FESEST402_03080_MIOUNNE_000_128","……ありがとう。
-それじゃあ、せめて、紅茶だけでも淹れさせてくれるかい？"
-114,"TEXT_FESEST402_03080_GEVA_000_129","ええ、ミューヌの淹れる紅茶は絶品だもの。
-この飾りタマゴの中身でも見ながら、ゆっくりしましょ。"
-115,"TEXT_FESEST402_03080_BODYGUARD01623_000_140","おぉ、これが飾りタマゴ……！
-これを贈れば、カヌ・エ様はお喜びになるだろうか……。"
-116,"TEXT_FESEST402_03080_BODYGUARD01623_000_141","ああっ、カヌ・エ様……！
-どうしてこちらへ……！"
-117,"TEXT_FESEST402_03080_KANESENNA_000_142","まぁ、あなたは……。
-民が楽しげにしているので、混ざってみたのですが、
-あなたも参加しているとは思いませんでした。"
-118,"TEXT_FESEST402_03080_KANESENNA_000_143","それに、まさか同じ飾りタマゴを見つけるなんて。
-……けれど、そのタマゴは、
-あなたのほうが先に見つけたようですね。"
-119,"TEXT_FESEST402_03080_BODYGUARD01623_000_144","そっ、そんな！
-カヌ・エ様のほうが、先に見つけていたに決まっています！
-こちらの飾りタマゴは、お持ちください！"
-120,"TEXT_FESEST402_03080_KANESENNA_000_145","いえ……せっかく見つけたものを、
-取りあげるようなことはできません。"
-121,"TEXT_FESEST402_03080_BODYGUARD01623_000_146","取りあげるだなんて、滅相もありません！
-これはもともと、カヌ・エ様、あなたへ…………"
-122,"TEXT_FESEST402_03080_KANESENNA_000_147","……では、私は新しい飾りタマゴを探しに行きますね。
-今度は、あなたより先に見つけてみせますよ。"
-123,"TEXT_FESEST402_03080_BODYGUARD01623_000_148","か、カヌ・エ様！
-お待ちください、この飾りタマゴは……！"
-124,"TEXT_FESEST402_03080_BODYGUARD01623_000_149","くそっ、またとない機会だというのに、
-どうして言う勇気が出ないのだ……！"
-125,"TEXT_FESEST402_03080_JIHLIALIAPOH_000_180","「<Sheet(EventItem,2002461,0)/>」を、地図で示した場所に隠してきて。
-そうしたら、少し離れた場所から、
-素敵な出会いが起きるかどうか、見守ってきてね！"
-126,"TEXT_FESEST402_03080_JIHLIALIAPOH_000_200","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、素敵な出会いはあったかしら？"
-127,"TEXT_FESEST402_03080_JIHLIALIAPOH_000_201","そう、そんな出会いが起こったのね！！
-やっぱり、あなたに手伝ってもらってよかったわ。"
-128,"TEXT_FESEST402_03080_JIHLIALIAPOH_000_202","飾りタマゴが導く、素敵な出会いはたくさんあるはず……。
-ぜひ、また協力してね！"
+48,"TEXT_FESEST402_03080_JIHLIALIAPOH_000_000","Are you ready for some Hatching–tide magic, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>? As my dream revealed, all you need do is help hide one of our eggs and an extraordinary encounter will ensue."
+49,"TEXT_FESEST402_03080_JIHLIALIAPOH_000_001","We've already been hard at work, spreading the word that anyone who finds a Hatching–tide basket is welcome to the gift the egg holds. I imagine quite a few folk will be out and about, searching for a slice of festival fun!"
+50,"TEXT_FESEST402_03080_JIHLIALIAPOH_000_002","My vision has shown me the perfect hiding place─here, let me mark it down for you. Simply set the basket down at <Emphasis>this</Emphasis> spot, then step back and enjoy a whimsical collision of fates!"
+51,"TEXT_FESEST402_03080_ESUMIYAN_000_010","Ah, yes, the season for egg hunting is upon us again. The whispers of the elementals have been growing ever more fervent..."
+52,"TEXT_FESEST402_03080_KHLOEALIAPOH_000_011","Yes, I found one! I can't wait to open it and see what's inside!"
+53,"TEXT_FESEST402_03080_KHLOEALIAPOH_000_012","...Oh, were you here first? You should have it, then!"
+54,"TEXT_FESEST402_03080_ESUMIYAN_000_013","That is not necessary, little one. Pray take the egg, with my blessing."
+55,"TEXT_FESEST402_03080_KHLOEALIAPOH_000_014","No no no, that won't do! You look younger than Khloe, and Zhloe always says, “you have to be nice to the children younger than you!”"
+56,"TEXT_FESEST402_03080_ESUMIYAN_000_015","Ah, sweet child, you must not be from Gridania. Do you see these horns? That means I am a Padjal, and Padjali do not age as others do. Though I appear young, I am much, much older than you."
+57,"TEXT_FESEST402_03080_KHLOEALIAPOH_000_016","Is that true!? I guess you really <Emphasis>do</Emphasis> have horns..."
+58,"TEXT_FESEST402_03080_KHLOEALIAPOH_000_017","Hmmm. Well, if you really are “much, much older,” then you must have been on lots of adventures! Khloe likes listening to stories and then making up her own. Can you tell me some of yours?"
+59,"TEXT_FESEST402_03080_ESUMIYAN_000_018","Stories? I am not sure I have any tales that might capture your interest, little one..."
+60,"TEXT_FESEST402_03080_ESUMIYAN_000_019","My apologies, but I must be on my way. I pray your Hatching–tide gift brings you joy."
+61,"TEXT_FESEST402_03080_KHLOEALIAPOH_000_020","W-Wait! Khloe will give you the egg! I just want to hear a story!"
+62,"TEXT_FESEST402_03080_ZHLOEALIAPOH_000_030","What a pretty basket. Oh, this must be one of those Hatching–tide eggs!"
+63,"TEXT_FESEST402_03080_MAISENTA_000_031","Joining in the egg hunt, are we?"
+64,"TEXT_FESEST402_03080_ZHLOEALIAPOH_000_032","I was! I mean, I am! But you can have this one if you like. Zhloe's business will keep her in Gridania for a little while longer, so..."
+65,"TEXT_FESEST402_03080_MAISENTA_000_033","No need for that─I was merely coming to see that the goods I provided for the festivities had been delivered in acceptable condition. The prize is all yours."
+66,"TEXT_FESEST402_03080_ZHLOEALIAPOH_000_034","Oh, I see! Th-Thank you, miss. I'll just take this, then..."
+67,"TEXT_FESEST402_03080_ZHLOEALIAPOH_000_035","Correct me if I'm wrong but...if you're providing wares for a festival this grand, then you must be a merchant of some renown. Perhaps you might share with Zhloe some of the secrets of your success!"
+68,"TEXT_FESEST402_03080_ZHLOEALIAPOH_000_036","Zhloe runs an orphanage, you see, and she's started a trading business to help cover the costs. But it's all so complicated! Any advice you could offer would be most appreciated!"
+69,"TEXT_FESEST402_03080_MAISENTA_000_037","Ah, well I'm afraid trade secrets are not mine to share. I work for a company, you see, and I can't be seen giving advice to a potential competitor."
+70,"TEXT_FESEST402_03080_MAISENTA_000_038","However... If we were to agree upon some manner of profitable arrangement, then perhaps I could be of service to you. Not as a mentor, mind you, but as a trading partner."
+71,"TEXT_FESEST402_03080_ZHLOEALIAPOH_000_039","Oh! That would be wonderful, thank you!"
+72,"TEXT_FESEST402_03080_SILVAIRRE_000_050","Aha, I have found one at last. This hunt has proven more irksome than I anticipated..."
+73,"TEXT_FESEST402_03080_LEIHALIAPOH_000_051","Silvairre? What brings you to this part of town?"
+74,"TEXT_FESEST402_03080_SILVAIRRE_000_052","...I am merely passing through. Not that my personal affairs are any of <Emphasis>your</Emphasis> concern, Leih."
+75,"TEXT_FESEST402_03080_LEIHALIAPOH_000_053","...Fair enough. And you <Emphasis>did</Emphasis> say that the egg hunt was “a frivolous distraction for children and simpletons.” You won't mind if I take this basket and be on my way, then."
+76,"TEXT_FESEST402_03080_SILVAIRRE_000_054","What!? But I found it first!"
+77,"TEXT_FESEST402_03080_LEIHALIAPOH_000_055","Oh? I thought you were merely “passing though”?"
+78,"TEXT_FESEST402_03080_SILVAIRRE_000_056","I..."
+79,"TEXT_FESEST402_03080_LEIHALIAPOH_000_057","Here's the deal, my perpetually humorless colleague. You admit you were actually <gasp> <Emphasis>enjoying</Emphasis> the egg hunt, and I'll let you have this egg."
+80,"TEXT_FESEST402_03080_SILVAIRRE_000_058","I care not for your ridiculous egg! Frolic like a fool if you must, but I have training drills to attend. Good <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>evening<Else/>day</If><Else/><If(LessThan(PlayerParameter(11),17))>day<Else/>evening</If></If> to you!"
+81,"TEXT_FESEST402_03080_LEIHALIAPOH_000_059","Ah, Silvairre, I thought you would've mended that habit. You <Emphasis>still</Emphasis> cover your mouth every time you lie..."
+82,"TEXT_FESEST402_03080_LEIHALIAPOH_100_059","Must he always play the part of a curmudgeon? At least his lies are easy to see through..."
+83,"TEXT_FESEST402_03080_LEIHALIAPOH_000_060","Such a target he paints upon himself. Let us see him explain things away after I plant this egg in his weapons chest!"
+84,"TEXT_FESEST402_03080_YWAIN_000_070","Oho, it seems I've found myself a Hatching–tide basket! There's not another soul in sight, after all, and 'twould be a shame to leave it there unclaimed..."
+85,"TEXT_FESEST402_03080_NICOLIAUX_000_071","Whoa, that was close!"
+86,"TEXT_FESEST402_03080_YWAIN_000_072","Steady on there, lad.
+After the egg, were you? Well, far be it from me to deprive a child of his sought-after prize..."
+87,"TEXT_FESEST402_03080_NICOLIAUX_000_073","Hey, don't I know you from somewhere? I'm fairly sure you're a lancer, but I forget the name..."
+88,"TEXT_FESEST402_03080_NICOLIAUX_000_074","Well, no matter! You seem kind of worn down, so I'm giving the egg to you. Hope it cheers you up!"
+89,"TEXT_FESEST402_03080_YWAIN_000_075","Even at the rank of guildmaster, apparently I am a nameless, worn-down nobody...
+Hmph. Younglings these days."
+90,"TEXT_FESEST402_03080_YWAIN_000_076","Worn down...? That business with Foulques must be tiring me more than I care to admit. Mayhap I should retire early this evening..."
+91,"TEXT_FESEST402_03080_YWAIN_000_077","Worn down...? I suppose that unfortunate business with Foulques exhausted me more than I care to admit. Mayhap I should retire early this evening..."
+92,"TEXT_FESEST402_03080_BEATIN_000_090","To find the egg, you must <Emphasis>be</Emphasis> the egg, hm hm hm..."
+93,"TEXT_FESEST402_03080_FUFUCHA_000_091","Oh, Master Beatin, what a pleasant surprise."
+94,"TEXT_FESEST402_03080_BEATIN_000_092","Mistress Fufucha─the pleasure is all mine. Enjoying the merriment of the egg hunt, are we?"
+95,"TEXT_FESEST402_03080_FUFUCHA_000_093","I am. As much as I love being up to my elbows in soil, the excitement of the celebrations proved too strong a lure to resist. Although I appear to have arrived a touch late to claim this particular prize."
+96,"TEXT_FESEST402_03080_BEATIN_000_094","Nonsense. You will have this egg─I insist! Consider it a token of appreciation for the all the fine logs with which you supply us."
+97,"TEXT_FESEST402_03080_FUFUCHA_000_095","How can I refuse such a gracious offer. My thanks, Guildmaster."
+98,"TEXT_FESEST402_03080_BEATIN_000_096","Yes, your botanists truly have an eye for the most splendid timber."
+99,"TEXT_FESEST402_03080_FUFUCHA_000_097","I'm glad our harvest is of adequate quality..."
+100,"TEXT_FESEST402_03080_BEATIN_000_098","Now, now, no false modesty, child. Why, the teak we received the other day was of such surpassing beauty, I felt myself being drawn into its very grain..."
+101,"TEXT_FESEST402_03080_BEATIN_000_099","The abundant oils... That supple surface...
+It seemed an age ere the wood was dried, but my patience was repaid tenfold when I beheld its final form."
+102,"TEXT_FESEST402_03080_BEATIN_000_100","So resilient... So pliable...
+Such a labor of love it was that I have yet to commit the planks to a project. The mere thought of what I might craft leaves me aquiver with anticipation..."
+103,"TEXT_FESEST402_03080_BEATIN_000_101","Say, are you not free for the <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>evening<Else/>morning</If><Else/><If(LessThan(PlayerParameter(11),17))>afternoon<Else/>evening</If></If>? Shall we pull up some stools in the workshop and further discuss our mutual love for lumber? From forest to benchtop, there is so much joy we can share on the topic..."
+104,"TEXT_FESEST402_03080_FUFUCHA_000_102","I, er... I just remembered I forgot to water the succulents! Here, you take the egg! I really must be going..."
+105,"TEXT_FESEST402_03080_MIOUNNE_000_120","<yawn> Festivals do help bring the crowds to the Canopy, but by the Matron am I exhausted..."
+106,"TEXT_FESEST402_03080_MIOUNNE_000_121","Well, well, what do we have here? It must be one of those gift baskets everyone has been clamoring about."
+107,"TEXT_FESEST402_03080_GEVA_000_122","Mother Miounne. On the hunt for eggs as well, are you?"
+108,"TEXT_FESEST402_03080_MIOUNNE_000_123","I was just out stretching my legs and almost tripped over the thing. Pray take this one if you will─I must return to work."
+109,"TEXT_FESEST402_03080_GEVA_000_124","You look weary, Miounne. Hatching–tide is a busy time for Gridania, and for you especially, I should think."
+110,"TEXT_FESEST402_03080_MIOUNNE_000_125","...Are my troubles writ so plain?"
+111,"TEXT_FESEST402_03080_GEVA_000_126","I've raised two children, dear. Compared to their inexplicable moods and capricious needs, the source of your distress is refreshingly obvious."
+112,"TEXT_FESEST402_03080_GEVA_000_127","You will have tea with me, and I won't take no for an answer. We can't have the face of Gridania looking worn and haggard now, can we?"
+113,"TEXT_FESEST402_03080_MIOUNNE_000_128","I accept, then. But at the very least, you must allow me to brew the leaves."
+114,"TEXT_FESEST402_03080_GEVA_000_129","Of course! I'd be a fool to pass up a cup poured by Mother Miounne herself. Come─let's take our ease for a bit, and crack open this Hatching–tide treasure together."
+115,"TEXT_FESEST402_03080_BODYGUARD01623_000_140","Aha! I've found one! I only hope my lady will care for such a gift..."
+116,"TEXT_FESEST402_03080_BODYGUARD01623_000_141","Wha─ Elder Seedseer! I'd thought you ensconced within the Lotus Stand!"
+117,"TEXT_FESEST402_03080_KANESENNA_000_142","Keeper. The merry laughter of the townsfolk drew me out to join the celebrations, but I'd not thought to see you such an enthusiastic participant."
+118,"TEXT_FESEST402_03080_KANESENNA_000_143","Nor did I expect to stumble across an egg so quickly...though I believe you arrived some moments before me?"
+119,"TEXT_FESEST402_03080_BODYGUARD01623_000_144","Nay, my lady! I'm certain you discovered the egg first! The prize is yours! Congratulations!"
+120,"TEXT_FESEST402_03080_KANESENNA_000_145","Now, now, 'twould be unfair of me to claim what is rightfully yours."
+121,"TEXT_FESEST402_03080_BODYGUARD01623_000_146","You could never be unfair, Elder Seedseer! Even if I were to take it, this egg would...belong to you..."
+122,"TEXT_FESEST402_03080_KANESENNA_000_147","...There are other baskets to be found. I should be off, lest I miss my chance! Fare you well, Keeper."
+123,"TEXT_FESEST402_03080_BODYGUARD01623_000_148","Elder Seedseer! You needn't search for another! I would give you anything..."
+124,"TEXT_FESEST402_03080_BODYGUARD01623_000_149","Gods curse me for a coward! The perfect moment falls in my lap, yet my lips refuse to obey..."
+125,"TEXT_FESEST402_03080_JIHLIALIAPOH_000_180","You have the basket and the spot where it needs to be hidden, yes? Then why do you linger!? Quickly now, ere Hatching–tide passes and its wondrous influence fades!"
+126,"TEXT_FESEST402_03080_JIHLIALIAPOH_000_200","Well, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>? Were you witness to a Hatching–tide encounter?"
+127,"TEXT_FESEST402_03080_JIHLIALIAPOH_000_201","What mysterious magic this festival weaves! I knew you could help bring those meandering threads together!"
+128,"TEXT_FESEST402_03080_JIHLIALIAPOH_000_202","Ah, but my dream was filled with many such splendid tapestries. Should you wish to hatch another unexpected meeting, I have more eggs for you to hide!"

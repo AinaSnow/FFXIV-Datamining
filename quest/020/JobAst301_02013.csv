@@ -1,12 +1,12 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_JOBAST301_02013_SEQ_00","蛇殻林のレヴェヴァは、真剣な眼差しで冒険者を見つめている。"
-1,"TEXT_JOBAST301_02013_SEQ_01","レヴェヴァに、占星魔法の扱い方を学んだ。さらわれたシャーレアンからの客人を救出に行く覚悟ができたら、蛇殻林の「レヴェヴァ」に申し出よう。"
-2,"TEXT_JOBAST301_02013_SEQ_02","シャーレアンからの客人を救出した。イシュガルドの聖ガンリオル占星院の「ジャンヌキナル」に報告しよう。"
-3,"TEXT_JOBAST301_02013_SEQ_03","ジャンヌキナルに報告した。レヴェヴァがイシュガルドで占星術の指導にあたることになった。己の運命を切り開く占星術師になれるよう、占星魔法の修練に励もう。
+0,"TEXT_JOBAST301_02013_SEQ_00","Leveva waits patiently for you to pull yourself together and equip her grandfather's soul crystal."
+1,"TEXT_JOBAST301_02013_SEQ_01","After providing you with a brief but detailed introduction to astrology and astromancy, Leveva allows you a few moments to test out your newly acquired skills. Once you feel comfortable in your new skin, speak with the young Sharlayan astrologian and begin your search for her grandfather."
+2,"TEXT_JOBAST301_02013_SEQ_02","You are successful in rescuing Professor Mace. Quimperain has agreed to escort them on the remainder of their journey to Ishgard. You are to return ahead of the group and inform Jannequinard of the day's happenings (if he hasn't already seen them in the stars)."
+3,"TEXT_JOBAST301_02013_SEQ_03","As you have inherited her grandfather's Soul of the Astrologian, Leveva has been assigned to oversee your training. By way of a first lesson, you are to practice alone while she finds a suitable location for your <Emphasis>next</Emphasis> lesson.
 
-※占星術師のレベルが35以上になると、聖ガンリオル占星院のジャンヌキナルから次の占星術師クエストを受注することができます。"
+※The next astrologian quest will be available from Jannequinard upon reaching level 35."
 4,"TEXT_JOBAST301_02013_SEQ_04",""
 5,"TEXT_JOBAST301_02013_SEQ_05",""
 6,"TEXT_JOBAST301_02013_SEQ_06",""
@@ -27,8 +27,8 @@ int32,str,str
 21,"TEXT_JOBAST301_02013_SEQ_21",""
 22,"TEXT_JOBAST301_02013_SEQ_22",""
 23,"TEXT_JOBAST301_02013_SEQ_23",""
-24,"TEXT_JOBAST301_02013_TODO_00","レヴェヴァと話す"
-25,"TEXT_JOBAST301_02013_TODO_01","聖ガンリオル占星院のジャンヌキナルと話す"
+24,"TEXT_JOBAST301_02013_TODO_00","Speak with Leveva."
+25,"TEXT_JOBAST301_02013_TODO_01","Return to the Athenaeum Astrologicum and speak with Jannequinard."
 26,"TEXT_JOBAST301_02013_TODO_02",""
 27,"TEXT_JOBAST301_02013_TODO_03",""
 28,"TEXT_JOBAST301_02013_TODO_04",""
@@ -51,158 +51,72 @@ int32,str,str
 45,"TEXT_JOBAST301_02013_TODO_21",""
 46,"TEXT_JOBAST301_02013_TODO_22",""
 47,"TEXT_JOBAST301_02013_TODO_23",""
-48,"TEXT_JOBAST301_02013_LEVEVA_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、中々に様になっておるぞ。
-……今、汝が手にした、その「天球儀」こそが、
-「占星術師」にとっての剣であり、盾であると心得よ……。"
-49,"TEXT_JOBAST301_02013_LEVEVA_000_001","しかし、「占星術師」には、もうひとつの欠かせぬ武器がある。
-それは腰のホルダーに収められた6枚のカード、
-すなわち「アルカナ」だ。"
-50,"TEXT_JOBAST301_02013_LEVEVA_000_002","占星魔法には、治癒をもたらす「ベネフィク」から、
-攻撃用の「マレフィク」まで、さまざまな魔法がある。"
-51,"TEXT_JOBAST301_02013_LEVEVA_000_003","だが、最も特徴的なのが、アルカナを用いる「アルカナ魔法」だ。
-巡るアルカナから、1枚を「ドロー」によって抜き出し、
-実行することで魔法効果を発動する……。"
-52,"TEXT_JOBAST301_02013_LEVEVA_000_004","ただし、闇雲に発動させても、最大限の効果は得られぬ。
-アルカナとは、天に座す六つの「星座」の祝福を暗示したもの。
-ゆえに、その効果をより強く発揮できる相手が異なるのだ。"
-53,"TEXT_JOBAST301_02013_LEVEVA_000_005","選ばれるアルカナは、星の導き次第……。
-大いなる力を与えるに、もっとも適した者を選びて、
-アルカナを実行するのが基本だ。"
-54,"TEXT_JOBAST301_02013_LEVEVA_000_006","さあ、小難しい講釈はここまでとしよう。
-これより我らで、連れ去られたお祖父様を取り戻す。"
-55,"TEXT_JOBAST301_02013_LEVEVA_000_007","賊の相手は、槍術士と剣術士のふたりに任せるがよい。
-汝は彼らの回復に専念しつつ、占星魔法の扱い方を学ぶのだ。"
-56,"TEXT_JOBAST301_02013_LEVEVA_000_008","案ずるな、汝は、お祖父様の「証」に選ばれた存在。
-必ずや、運命を切り開くだけの力が備わっている……。
-戦いに赴く覚悟ができたら、わしに声をかけよ。"
-57,"TEXT_JOBAST301_02013_SYSTEM_900_000","占星術師、レベル30までのアクションを修得済みです。
-メインコマンドの「アクションリスト」から、
-使用できるアクションを確認してみましょう。"
-58,"TEXT_JOBAST301_02013_YARI02013_000_009","黒衣森の案内人として雇われた者です。
-このような事態になり、まことに面目ない……。
-必ず、ご老人を助け出しましょう。"
-59,"TEXT_JOBAST301_02013_LEVEVA_000_009","（★未使用／削除予定★）"
-60,"TEXT_JOBAST301_02013_QUIMPERAIN_000_009","賊の相手は、私にお任せを。"
-61,"TEXT_JOBAST301_02013_QUIMPERAIN_000_010","賊の相手は、私にお任せを。
-<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>様は、無理をなさらず、
-後方から支援してください。"
-62,"TEXT_JOBAST301_02013_JANNEQUINARD_000_009","星の導きがあらんことを……。"
-63,"TEXT_JOBAST301_02013_LEVEVA_000_010","どうやら覚悟が決まったようだな。
-夜陰に紛れて、賊を追跡し、お祖父様を助け出すぞ。"
-64,"TEXT_JOBAST301_02013_LEVEVA_000_011","さあ、「占星術師」<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>……
-汝の、そして我らの未来を切り開け！"
-65,"TEXT_JOBAST301_02013_QIB_001_TODO_001","シャーレアンの客人を救出せよ！"
-66,"TEXT_JOBAST301_02013_QIB_001_QUIMPERAIN_BATTLETALK_DEAD","くっ、力至らず、申し訳ございません……！"
-67,"TEXT_JOBAST301_02013_QIB_001_LEVEVA_BATTLETALK_00","さあ、皆の者！　賊を蹴散らし、お祖父様を探し出すのだ！"
-68,"TEXT_JOBAST301_02013_QIB_001_LEVEVA_BATTLETALK_01","これは、お祖父様のアルカナ！？
-汝の力となるよう、落としていってくださったのか！"
-69,"TEXT_JOBAST301_02013_QIB_001_LEVEVA_BATTLETALK_02","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、落ちているアルカナを手に取れ！
-それは、お祖父様が汝に託された力なのだ！"
-70,"TEXT_JOBAST301_02013_QIB_001_LEVEVA_BATTLETALK_03","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、ほかのアルカナも探してみよ！
-さすれば、お祖父様のもとにたどり着くやもしれぬ！"
-71,"TEXT_JOBAST301_02013_QIB_001_QUIMPERAIN_BATTLETALK_05","お客人！　すぐにお助けします、今しばらくのご辛抱を！"
-72,"TEXT_JOBAST301_02013_QIB_001_CELIE_BATTLETALK_06","刃向かうとは、いい度胸だ！
-それじゃあ、力ずくで嬢ちゃんをいただくよ！"
-73,"TEXT_JOBAST301_02013_QIB_001_LEVEVA_BATTLETALK_07","魔物を呼び出しただと！？　妖術の心得があるというのか！"
-74,"TEXT_JOBAST301_02013_QIB_001_LEVEVA_BATTLETALK_10","（★未使用／削除予定★）"
-75,"TEXT_JOBAST301_02013_QIB_001_LEVEVA_BATTLETALK_11","（★未使用／削除予定★）"
-76,"TEXT_JOBAST301_02013_QIB_001_LEVEVA_BATTLETALK_12","（★未使用／削除予定★）"
-77,"TEXT_JOBAST301_02013_QIB_001_LEVEVA_BATTLETALK_13","（★未使用／削除予定★）"
-78,"TEXT_JOBAST301_02013_QIB_001_LEVEVA_BATTLETALK_14","（★未使用／削除予定★）"
-79,"TEXT_JOBAST301_02013_QIB_001_LEVEVA_BATTLETALK_15","（★未使用／削除予定★）"
-80,"TEXT_JOBAST301_02013_CELIE_000_020","くっ、もうひとり「占星術師」がいるとは、想定外……。
-……ここは、退くしかなさそうだね。"
-81,"TEXT_JOBAST301_02013_QUIMPERAIN_000_020","よくぞ、ご無事で……。
-聖ガンリオル占星院からの使者でございます。
-お客人が道に迷われたとの報を受け、お迎えに上がりました。"
-82,"TEXT_JOBAST301_02013_MACE_000_021","よく来てくれた。
-ワシの名はメイス、シャーレアンの「占星術師」じゃ。"
-83,"TEXT_JOBAST301_02013_LEVEVA_000_022","わしらは、道に迷ったわけではないぞ。
-旅路の途中で、星を見ようと、この地に立ち寄ったのだ。
-不慣れな地ゆえに、案内役を雇ってな。"
-84,"TEXT_JOBAST301_02013_YARI02013_000_023","案内役として雇われながら、
-このような事態となり、申し訳ない。"
-85,"TEXT_JOBAST301_02013_MACE_000_024","ふぉふぉふぉ、気にするでない。
-こうして無事であったのだし、何よりこの一件のお陰で、
-新たな「占星術師」が誕生したのだからな。"
-86,"TEXT_JOBAST301_02013_MACE_000_025","ワシの「<Sheet(Item,8840,0)/>」を、改めてお主に託そう。
-ソウルクリスタルは、次代の継承者を自ら選ぶもの……
-この地で、お主に出会えたことは、まさに運命じゃ。"
-87,"TEXT_JOBAST301_02013_LEVEVA_000_026","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>の才は、
-実戦を通じて確認しましたが、間違いありません。
-後は、「六天座」を知り、門を開けば……。"
-88,"TEXT_JOBAST301_02013_MACE_000_027","うむ……実は、ワシらがこの地に立ち寄ったのは、
-正しくこの場所で、夜空に輝く「六天座」を見るため……。
-まずは、ひとつ目の門を開くとしようかの。"
-89,"TEXT_JOBAST301_02013_MACE_000_050","さあ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>よ。
-天空を見上げるがよい。
-黄金色に輝く、六つの星々が「土天座」じゃ。"
-90,"TEXT_JOBAST301_02013_MACE_000_051","土の天界である、土天（どてん）には、
-地神ノフィカが植え、時神アルジクが育てた、
-大いなる世界樹がそびえるという。"
-91,"TEXT_JOBAST301_02013_MACE_000_052","ゆえに、土天座の祝福を暗示するアルカナを「幹」と呼ぶ。
-その力を用いることで、世界樹に抱かれ、
-己が地力を超えた攻撃を行えるだろう。"
-92,"TEXT_JOBAST301_02013_MACE_000_053","土天座とは、土天の門を示す星々……。
-今、汝はその門を開いたのだ……。"
-93,"TEXT_JOBAST301_02013_MACE_000_054","何事も土台が肝心。
-事始めに土天の門を開くのは、占星術の正道じゃ。"
-94,"TEXT_JOBAST301_02013_MACE_000_055","偶然にも正道を歩み始めるとは、
-やはりお主は、星々に祝福されておるようじゃのう。
-そんな、お主の行く末が実に楽しみじゃ、ふぉふぉふぉ！"
-95,"TEXT_JOBAST301_02013_MACE_000_056","さて、イシュガルドの「ジャンヌキナル」のもとへ、
-案内してもらうとしようかのう。"
-96,"TEXT_JOBAST301_02013_MACE_000_060","ジャンヌキナルよ、久方ぶりじゃのう。
-ずいぶんと立派になったようじゃな。"
-97,"TEXT_JOBAST301_02013_JANNEQUINARD_000_061","まさか、メイス師ほど高名なお方が招聘に応えてくださるとは！
-私が初めてシャーレアンに到着したときに、
-挨拶させていただいて以来です。"
-98,"TEXT_JOBAST301_02013_JANNEQUINARD_000_062","あの時は、先生がすぐに本国へと帰国されたので、
-受けることが叶わなかった指導を、
-20年越しに受けられるとは……実に嬉しい驚きです。"
-99,"TEXT_JOBAST301_02013_LEVEVA_000_063","お祖父様、こちらが皇都で唯一の「占星術師」ですか？
-……残念ながら、少々、粗忽者のようですね。"
-100,"TEXT_JOBAST301_02013_LEVEVA_000_064","お祖父様は、久方ぶりに汝の顔を見に来ただけ。
-皇都にシャーレアン式占星術を広めるのは、このわしだ！"
-101,"TEXT_JOBAST301_02013_JANNEQUINARD_000_065","なんとっ！？
-見たところ、うら若き乙女に見えますが……？"
-102,"TEXT_JOBAST301_02013_LEVEVA_000_066","物事を外面で判断するでない、うつけものめ。
-占星術を正しく学ぼうというからには、
-古くさい常識に縛られぬ気骨ある男かと思えば、何たるザマか！"
-103,"TEXT_JOBAST301_02013_JANNEQUINARD_000_067","も、申し訳ございません。
-まさか、あなたが指導者とは思わず……。"
-104,"TEXT_JOBAST301_02013_MACE_000_068","ふぉふぉふぉ、ジャンヌキナルは相変わらず愉快じゃのう。
-ワシの「証」を継承した、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>とともに、
-基礎から学び直すといい。"
-105,"TEXT_JOBAST301_02013_JANNEQUINARD_000_069","なんですって……！？
-メイス師の「<Sheet(Item,8840,0)/>」を継承させたというのですか？"
-106,"TEXT_JOBAST301_02013_MACE_000_070","ふぉふぉふぉ……そろそろ、ワシも潮時よ。
-後進の育成は孫娘のレヴェヴァに任せ、身を引くつもりじゃ。
-優秀な継承者にも出会えて、長旅のかいがあったぞ。"
-107,"TEXT_JOBAST301_02013_MACE_000_071","ジャンヌキナルに、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
-レヴェヴァは、「占星術師」としての能力こそ高いが、
-それ以外はまだまだ子ども……よろしく頼むぞ。"
-108,"TEXT_JOBAST301_02013_JANNEQUINARD_000_072","次代を担うレヴェヴァ師、
-そして、師の証を受け継ぎし<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>とともに、
-占星術の発展に尽力します。"
-109,"TEXT_JOBAST301_02013_LEVEVA_000_073","皇都にシャーレアン式占星術を花開かせる。
-ジャンヌキナル、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>……
-汝らふたりは、その手始めぞ！"
-110,"TEXT_JOBAST301_02013_LEVEVA_000_074","まずは、占星魔法の基礎を繰り返すがいい。
-そして基礎を確実にものにしたら、再び、ここを訪れよ。
-それまでに、わしが修練に相応しい地を探しておく。"
-111,"TEXT_JOBAST301_02013_JANNEQUINARD_000_075","レヴェヴァ師は、シャーレアンからいらっしゃったのに、
-このあたりの地理にも精通されているのですね？"
-112,"TEXT_JOBAST301_02013_LEVEVA_000_076","そんなわけはないだろう！　自分の足で探すわい！
-行動こそが、己の運命を切り開くのだからな。"
-113,"TEXT_JOBAST301_02013_JANNEQUINARD_000_077","さすがは、若くして師を務める方は頼もしい。
-では、レヴェヴァ師には、
-我が従者、カンプランをお供につけましょう。"
-114,"TEXT_JOBAST301_02013_LEVEVA_000_078","わしは、お祖父様を見送ってくる……。
-今の汝ならば「ダイアーナルセクト」をも扱えよう。
-何度も使い、星の力を受けながらの戦闘に習熟せよ。"
-115,"TEXT_JOBAST301_02013_SYSTEM_000_079","「占星術師」のジョブクエストが開始されました。
-次のクエストは「レベル35」以上で
-聖ガンリオル占星院のジャンヌキナルから受注可能です。"
-116,"TEXT_JOBAST301_02013_SYSTEM_000_080","今後の「占星術師」のジョブクエスト受注条件は、
-コンプリート後のジャーナルで確認できます。"
+48,"TEXT_JOBAST301_02013_LEVEVA_000_000","Now listen carefully, for we haven't much time. The star globe which you hold is both your sword and shield. It will grant you strength, as well as protection. But most important of all, it will grant you insight into the current location of the stars, enabling you to channel the heavens' aether into your body for use in all manner of magicks."
+49,"TEXT_JOBAST301_02013_LEVEVA_000_001","The better attuned you become with the heavens and their “malefic” and “benefic” bodies, the better that aether might be manipulated to bring succor...or pain."
+50,"TEXT_JOBAST301_02013_LEVEVA_000_002","Ah, but as you already know, the star globe is not the only tool an astromancer has at <If(PlayerParameter(4))>her<Else/>his</If> disposal. Yes, the arcana, or more specifically, the six major arcana play a defining role in what type of astrologian you will become."
+51,"TEXT_JOBAST301_02013_LEVEVA_000_003","Any layman will tell you that the cards can predict a man's future. This is both true and untrue. It is not the future that a card predicts, but the card influencing the man so that a certain future becomes more attainable."
+52,"TEXT_JOBAST301_02013_LEVEVA_000_004","Seeking to tell a man's fortune, you “draw” a card from your deck. Upon “reading” the card, you scry that the man will be victorious in a coming battle. What is it that brings this man his victory but aether tapped from one of the lower six heavens granting the man strength, making it all that much easier for him to overcome his enemy."
+53,"TEXT_JOBAST301_02013_LEVEVA_000_005","Of course, what card is drawn is linked directly to a target's destiny, as well as yours. Are <Emphasis>you</Emphasis> the one who will see this man to fortune, or will you lead him to downfall? It all depends on your reading."
+54,"TEXT_JOBAST301_02013_LEVEVA_000_006","Normally, I would not dare cover so much in a first lesson, but it <Emphasis>is</Emphasis> my grandfather who has placed his life in your hands, and I am not about to watch him have his throat slit because you cannot tell the face of an arcana from its back."
+55,"TEXT_JOBAST301_02013_LEVEVA_000_007","We have two seemingly capable soldiers here to take the brunt of the bandits' blows. Allow them to carve a trail of carnage while you convince the stars to nudge the two in a direction favorable to my kin."
+56,"TEXT_JOBAST301_02013_LEVEVA_000_008","I understand this must be a lot to digest, but if you are ever to become a capable astrologian, you must believe in the path laid out before you, and in your power to read it, follow it, and ultimately control it. Take some time to acclimate yourself to your new abilities, and let me know when you are ready to begin."
+57,"TEXT_JOBAST301_02013_SYSTEM_900_000","You have learned all astrologian actions and traits to level 30. Detailed descriptions can be viewed in the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Actions & Traits<UIGlow>01</UIGlow><UIForeground>01</UIForeground> window, accessed under <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Character<UIGlow>01</UIGlow><UIForeground>01</UIForeground> in the main menu."
+58,"TEXT_JOBAST301_02013_YARI02013_000_009","I have been a guide in these woods since my tenth nameday, yet never have I encountered bandits the likes of these. They are not of the Twelveswood..."
+59,"TEXT_JOBAST301_02013_LEVEVA_000_009","Dammy"
+60,"TEXT_JOBAST301_02013_QUIMPERAIN_000_009","I find it highly unlikely that a sparkling globe will sufficiently protect you from a bandit's blade. Stay back, and leave the fighting to me."
+61,"TEXT_JOBAST301_02013_QUIMPERAIN_000_010","Pray leave the fighting to me and the spearman, <If(PlayerParameter(4))>milady<Else/>milord</If>. If you must involve yourself, I suppose you might see to our wounds...but naught more."
+62,"TEXT_JOBAST301_02013_JANNEQUINARD_000_009","Have you located the professor? Where is Quimperain? <Emphasis>Why are you here</Emphasis>?"
+63,"TEXT_JOBAST301_02013_LEVEVA_000_010","I see in your eyes that you are ready. Whether that actually makes you ready or not, only time will tell. Time, unfortunately, is something we no longer have in abundance."
+64,"TEXT_JOBAST301_02013_LEVEVA_000_011","Let us take to the shadows and find out where these bandits are holding my grandfather. May the stars be our guide."
+65,"TEXT_JOBAST301_02013_QIB_001_TODO_001","Save Mace."
+66,"TEXT_JOBAST301_02013_QIB_001_QUIMPERAIN_BATTLETALK_DEAD","Lord Jannequinard...please find it in your heart to forgive me..."
+67,"TEXT_JOBAST301_02013_QIB_001_LEVEVA_BATTLETALK_00","Do not let these bandits stand in the way of us locating my grandfather!"
+68,"TEXT_JOBAST301_02013_QIB_001_LEVEVA_BATTLETALK_01","This is a card from my grandfather's deck! He is leaving us a trail to follow!"
+69,"TEXT_JOBAST301_02013_QIB_001_LEVEVA_BATTLETALK_02","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Its power is now your own."
+70,"TEXT_JOBAST301_02013_QIB_001_LEVEVA_BATTLETALK_03","There are six major arcana. We must find the other cards!"
+71,"TEXT_JOBAST301_02013_QIB_001_QUIMPERAIN_BATTLETALK_05","Throw down your weapons, cur! You have no choice but to release the professor or meet the same fate as your men!"
+72,"TEXT_JOBAST301_02013_QIB_001_CELIE_BATTLETALK_06","No choice, eh? What if our <Emphasis>choice</Emphasis> all along was to cross blades, houseboy? Come closer and let us end this."
+73,"TEXT_JOBAST301_02013_QIB_001_LEVEVA_BATTLETALK_07","A voidsent! This bandit is more than she appears!"
+74,"TEXT_JOBAST301_02013_QIB_001_LEVEVA_BATTLETALK_10",""
+75,"TEXT_JOBAST301_02013_QIB_001_LEVEVA_BATTLETALK_11",""
+76,"TEXT_JOBAST301_02013_QIB_001_LEVEVA_BATTLETALK_12",""
+77,"TEXT_JOBAST301_02013_QIB_001_LEVEVA_BATTLETALK_13",""
+78,"TEXT_JOBAST301_02013_QIB_001_LEVEVA_BATTLETALK_14",""
+79,"TEXT_JOBAST301_02013_QIB_001_LEVEVA_BATTLETALK_15",""
+80,"TEXT_JOBAST301_02013_CELIE_000_020","I was not told there would be <Emphasis>two</Emphasis> astrologians. Enough of this!"
+81,"TEXT_JOBAST301_02013_QUIMPERAIN_000_020","I am Quimperain, in the employ of Lord Jannequinard. I am sent to escort you back to Ishgard. Are you unhurt, milord?"
+82,"TEXT_JOBAST301_02013_MACE_000_021","Jannequinard, you say? And where is my former student? His constant pestering is one of the reasons I agreed to make the long trip from the Old World."
+83,"TEXT_JOBAST301_02013_LEVEVA_000_022","I see none but Quimperain and this adventurer."
+84,"TEXT_JOBAST301_02013_YARI02013_000_023","I too have seen no other."
+85,"TEXT_JOBAST301_02013_MACE_000_024","Just like you didn't see those bandits until their knives were up our arses. But that is of no matter. It was all as the stars had foretold."
+86,"TEXT_JOBAST301_02013_MACE_000_025","Yes, I saw this adventurer long before even setting foot on this accursed continent when the arcana whispered and told me I would find a worthy successor for my soul crystal."
+87,"TEXT_JOBAST301_02013_LEVEVA_000_026","(-Leveva-)And having witnessed how <If(PlayerParameter(4))>she<Else/>he</If> eased into <If(PlayerParameter(4))>her<Else/>his</If> new role, but mere moments after taking up the crystal, globe, and deck..."
+88,"TEXT_JOBAST301_02013_MACE_000_027","Yes, I knew at once my reading was true, and that this adventurer was the astrologian I had been seeking. But now, let us see if <If(PlayerParameter(4))>she<Else/>he</If> has the potential for greatness within <If(PlayerParameter(4))>her<Else/>him</If>."
+89,"TEXT_JOBAST301_02013_MACE_000_050","Look to the skies, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, and there you will see six stars aglow in pale yellow. This is the Bole."
+90,"TEXT_JOBAST301_02013_MACE_000_051","This constellation is thought to be the gate to the first heaven─the heaven which holds the World Tree. Planted by the Matron and nurtured by the Keeper, the World Tree is the source from which all life is said to have sprung."
+91,"TEXT_JOBAST301_02013_MACE_000_052","The trunk of the World Tree, or the Bole, grants strength to the weak, allowing them to stand firm in the face of adversity."
+92,"TEXT_JOBAST301_02013_MACE_000_053","You have now opened that gate, and its power is yours to command."
+93,"TEXT_JOBAST301_02013_MACE_000_054","A solid bole represents a solid foundation. It is not coincidence that this very constellation is risen to midheaven at this very moment─the moment of a new astrologian's birth."
+94,"TEXT_JOBAST301_02013_MACE_000_055","And to think, I saw all of this a moon ago. It seems I am a better reader of fates than I thought! Hah hah hah!"
+95,"TEXT_JOBAST301_02013_MACE_000_056","But I jest. It has been a long journey, with more than its share of unexpected excitement. I am an old man, and one does not need a deck of arcana to see that my weary legs will not carry me much longer. Let us make haste to Ishgard, so I may give that ungrateful Jannequinard a proper upbraiding."
+96,"TEXT_JOBAST301_02013_MACE_000_060","Jannequinard. Fifteen summers passed and still the flippant clod I lost half of my hair tutoring. Sending an <Emphasis>adventurer</Emphasis> to find the man you summoned halfway across Hydaelyn. Always taking the easy route. And you wonder why you <Emphasis>still</Emphasis> haven't been able to open the second heaven's gate!"
+97,"TEXT_JOBAST301_02013_JANNEQUINARD_000_061","Ah, I...uh, allow me to explain, Professor. You see, I was waiting here in case you made it to Ishgard before my manservant and <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> could locate you."
+98,"TEXT_JOBAST301_02013_JANNEQUINARD_000_062","Think of the confusion had you arrived here only to find the Athenaeum empty... Wait, how did you know I haven't opened all the gates?"
+99,"TEXT_JOBAST301_02013_LEVEVA_000_063","My grandfather is the greatest astrologian in all Sharlayan. There is naught he doesn't know unless he doesn't wish to know it. You of all people should know that."
+100,"TEXT_JOBAST301_02013_LEVEVA_000_064","Perhaps I was hasty in my decision to remain here and see to your training."
+101,"TEXT_JOBAST301_02013_JANNEQUINARD_000_065","Train me? You? But what of Professor Mace? Isn't that why he made the journey?"
+102,"TEXT_JOBAST301_02013_LEVEVA_000_066","My grandfather has already completed his task. He simply came to Ishgard out of courtesy to an old pupil...one who it appears he wasted years on!"
+103,"TEXT_JOBAST301_02013_JANNEQUINARD_000_067","W-Wasted...? Wh-What are you implying, my lady?"
+104,"TEXT_JOBAST301_02013_MACE_000_068","Ah, my dear Leveva, you still do not see it, do you? Without Jannequinard stumbling into my tutelage nearly two decades past, he never would have taken this adventurer under his wing and sent <If(PlayerParameter(4))>her<Else/>him</If> to us in his stead. It was all as the stars had planned."
+105,"TEXT_JOBAST301_02013_JANNEQUINARD_000_069","Your soul crystal! Professor! This adventurer has <Emphasis>stolen</Emphasis> your Soul of the Astrologian!"
+106,"TEXT_JOBAST301_02013_MACE_000_070","Hahahaha! Ever the unobservant, Janne. If this adventurer had stolen my crystal, Leveva would have read up some terrible fate for the <If(PlayerParameter(4))>lass<Else/>lad</If>. No. <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> is my successor. Something I mistakenly thought you might be...but even I cannot see every future, it seems."
+107,"TEXT_JOBAST301_02013_MACE_000_071","But do not despair. I have not given up on you completely. Despite your failings, you have tried your best to promote the Sharlayan school of astrology here in this den of fools who fail to see aught and all beyond the dragon star. I wish to see you continue that fight. And that is why I've bade Leveva to remain here and further your...and this adventurer's training."
+108,"TEXT_JOBAST301_02013_JANNEQUINARD_000_072","I...see. This is all rather...overwhelming. Might I have some time to consider your words?"
+109,"TEXT_JOBAST301_02013_LEVEVA_000_073","No. You either continue your training with me and your...ahem...protégé, or you crawl back to obscurity."
+110,"TEXT_JOBAST301_02013_LEVEVA_000_074","I shall give you both several turns of the sun to study the basics of Sharlayan astrology. It should not be so hard for you, Jannequinard, considering you've had a substantial head start. Once you have committed the basics to memory, then return here. In the meantime, I will be traveling Eorzea, searching for locations where <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>...and you will unlock the remaining heavens' gates."
+111,"TEXT_JOBAST301_02013_JANNEQUINARD_000_075","B-But, you were only recently set upon by bandits. Perhaps traveling alone so soon is unwise."
+112,"TEXT_JOBAST301_02013_LEVEVA_000_076","Don't you think I know that!? That is why you will be lending me the services of your able manservant, Quimperain."
+113,"TEXT_JOBAST301_02013_JANNEQUINARD_000_077","I will...? I mean, I will. Yes, of course Lady Leveva. Anything for the granddaughter of Sharlayan's finest professor of astrology. Quimperain! You heard the lady."
+114,"TEXT_JOBAST301_02013_LEVEVA_000_078","Very good. Now I shall see my grandfather to the airship landing. Ah, but before we depart, let me teach you of the diurnal sect, so that you may learn to wield the power of those stars which are aligned with the sun."
+115,"TEXT_JOBAST301_02013_SYSTEM_000_079","The next astrologian quest will be available from Jannequinard upon reaching level 35."
+116,"TEXT_JOBAST301_02013_SYSTEM_000_080","The requirements for undertaking subsequent quests can be reviewed in your journal."

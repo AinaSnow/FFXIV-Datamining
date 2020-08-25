@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ524_02775_SEQ_00","明けの玉座のオゴデイは、頼みたいことがあるようだ。"
+0,"TEXT_STMBDZ524_02775_SEQ_00","Ogodei has a favor to ask of you."
 1,"TEXT_STMBDZ524_02775_SEQ_01",""
 2,"TEXT_STMBDZ524_02775_SEQ_02",""
 3,"TEXT_STMBDZ524_02775_SEQ_03",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_STMBDZ524_02775_SEQ_21",""
 22,"TEXT_STMBDZ524_02775_SEQ_22",""
 23,"TEXT_STMBDZ524_02775_SEQ_23",""
-24,"TEXT_STMBDZ524_02775_TODO_00","<Sheet(BNpcName,5781,0)/>から<Sheet(EventItem,2002295,0)/>を入手"
-25,"TEXT_STMBDZ524_02775_TODO_01","<Sheet(EventItem,2002296,0)/>を入手"
-26,"TEXT_STMBDZ524_02775_TODO_02","オゴデイに<Sheet(EventItem,2002295,0)/>と<Sheet(EventItem,2002296,0)/>を渡す"
+24,"TEXT_STMBDZ524_02775_TODO_00","Obtain mammoth hides from mammoths."
+25,"TEXT_STMBDZ524_02775_TODO_01","Obtain dried leaves."
+26,"TEXT_STMBDZ524_02775_TODO_02","Deliver the mammoth hides and dried leaves to Ogodei."
 27,"TEXT_STMBDZ524_02775_TODO_03",""
 28,"TEXT_STMBDZ524_02775_TODO_04",""
 29,"TEXT_STMBDZ524_02775_TODO_05",""
@@ -49,31 +49,14 @@ int32,str,str
 45,"TEXT_STMBDZ524_02775_TODO_21",""
 46,"TEXT_STMBDZ524_02775_TODO_22",""
 47,"TEXT_STMBDZ524_02775_TODO_23",""
-48,"TEXT_STMBDZ524_02775_OGODEI_000_000","お前、いま手が空いているか？
-部族外の者にしか頼めん仕事があるのだが……。"
-49,"TEXT_STMBDZ524_02775_OGODEI_000_001","実は、そろそろ子が生まれそうでな。
-その子のため、温かな毛布を作ってやりたいのだが、
-あまり右往左往している様を、家族には見せたくなくてな……。"
-50,"TEXT_STMBDZ524_02775_OGODEI_000_002","そこでお前に、こっそりと毛布の材料を集めてきてもらいたいのだ。
-ここから北東にいる「<Sheet(BNpcName,5781,0)/>」を倒して、
-「<Sheet(EventItem,2002295,0)/>」を3つ取ってきてくれ。"
-51,"TEXT_STMBDZ524_02775_OGODEI_000_003","それと、毛皮をなめす煮汁を作るための、
-「<Sheet(EventItem,2002296,0)/>」も必要だ。
-北に点在する低木の根元に落ちているだろう。"
-52,"TEXT_STMBDZ524_02775_OGODEI_000_004","とにかく万全の状態で出産を待ちたい。
-ふたつが揃ったら、私に渡してくれ。
-よろしく頼むッ！"
-53,"TEXT_STMBDZ524_02775_OGODEI_000_005","北東の「<Sheet(BNpcName,5781,0)/>」から「<Sheet(EventItem,2002295,0)/>」を3つ、
-北に点在する低木の根元から、
-「<Sheet(EventItem,2002296,0)/>」を取ってきてくれ。"
-54,"TEXT_STMBDZ524_02775_OGODEI_000_010","「<Sheet(EventItem,2002295,0)/>」と「<Sheet(EventItem,2002296,0)/>」は、取ってこれたか？"
-55,"TEXT_STMBDZ524_02775_OGODEI_000_011","よし、これで生まれてくる子に毛布を作ってやれるぞ！
-この辺りは風も強く、夜になると冷えるからな……。"
-56,"TEXT_STMBDZ524_02775_OGODEI_000_012","年に数回だが、ひどい寒波が来ることもあって、
-運が悪ければ外にいる赤子が、亡くなることがあるのだ。
-羊とはいえ、生まれてきてすぐに死ぬのは、忍びないからな。"
-57,"TEXT_STMBDZ524_02775_OGODEI_000_013","…………も、もしや、生まれてくるのが、
-羊の子だということ、説明し忘れていたか？
-いやはや、すまんすまん！"
-58,"TEXT_STMBDZ524_02775_OGODEI_000_014","ともかく助かったぞ、旅人よ。
-お前の助力によって、生まれてくる子羊は安泰だ！"
+48,"TEXT_STMBDZ524_02775_OGODEI_000_000","<If(PlayerParameter(4))>Madam<Else/>Sir</If>─do you happen to have a moment? If you do, could you lend me a hand?"
+49,"TEXT_STMBDZ524_02775_OGODEI_000_001","A new child is about to join our family and I would like to make a blanket with which to keep him warm. I, however, cannot stray too far from here, for I must keep a watch over his mother."
+50,"TEXT_STMBDZ524_02775_OGODEI_000_002","Might I ask that you procure the raw materials with which I can make this blanket? To the northeast of here are a herd of mammoths. Please hunt down three and bring me back their hides."
+51,"TEXT_STMBDZ524_02775_OGODEI_000_003","I would also ask that you collect some dried leaves. I will use them to make a tanning mixture. These can be found in the northern reaches, at the base of the shrubs that grow there."
+52,"TEXT_STMBDZ524_02775_OGODEI_000_004","As soon as you get them, please hurry back. I am certain the baby will be arriving soon and I hope to welcome him into the world with a blanket."
+53,"TEXT_STMBDZ524_02775_OGODEI_000_005","I need for you to bring me three mammoth hides and some dried leaves with which to tan them."
+54,"TEXT_STMBDZ524_02775_OGODEI_000_010","Do you have everything I need?"
+55,"TEXT_STMBDZ524_02775_OGODEI_000_011","Fantastic! With this, I shall make the child a blanket to shelter him from the bite of the wind and frigid nights."
+56,"TEXT_STMBDZ524_02775_OGODEI_000_012","Several times throughout the year, freezing climes will sweep over the Steppe and claim the lives of our young. <sigh> The loss of a newborn sheep is always terribly tragic."
+57,"TEXT_STMBDZ524_02775_OGODEI_000_013","Hm? Oh, yes. When I say child, I do not mean my own, of course. Hahaha! My apologies. Perhaps I should have mentioned that little detail earlier."
+58,"TEXT_STMBDZ524_02775_OGODEI_000_014","Your deeds, however, are no less noble for because of you, this lamb is sure to lead a long and wonderful life."

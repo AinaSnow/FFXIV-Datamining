@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNZ803_01933_SEQ_00","シャーレアン工匠街のフェルトスモクスは、げんなりした様子で肩を落としている。"
-1,"TEXT_HEAVNZ803_01933_SEQ_01","フェルトスモクスは、魚が釣れなくて落ち込み、散歩をしていたようだ。フェルトスモクスから、<Sheet(EventItem,2001691,0)/>を持ってくるよう頼まれた。シャーレアン工匠街で「<Sheet(BNpcName,3596,0)/>」を討伐して、「<Sheet(EventItem,2001691,0)/>」を3つ入手しよう。"
-2,"TEXT_HEAVNZ803_01933_SEQ_02","<Sheet(EventItem,2001691,0)/>を入手した。シャーレアン工匠街の「フェルトスモクス」に、「<Sheet(EventItem,2001691,0)/>」を渡そう。"
-3,"TEXT_HEAVNZ803_01933_SEQ_03","フェルトスモクスに<Sheet(EventItem,2001691,0)/>を渡した。フェルトスモクスは、<Sheet(EventItem,2001691,0)/>を釣り餌として使い、スランプ脱出を目指すようだ。"
+0,"TEXT_HEAVNZ803_01933_SEQ_00","Feltsmox looks thoroughly unsatisfied."
+1,"TEXT_HEAVNZ803_01933_SEQ_01","Feltsmox has not been able to catch anything while fishing lately. She seems to think that wildebeest eyes, from the nearby wildebeests, might solve the problem. Help this discouraged and disheartened goblin by gathering three eyes from the wildebeests."
+2,"TEXT_HEAVNZ803_01933_SEQ_02","You have gathered the mysterious, red orbs from the wildebeests you slew. Deliver them to Feltsmox and find out what she plans to do with them."
+3,"TEXT_HEAVNZ803_01933_SEQ_03","Through the tinted lenses in her mask, you see Feltsmox's eyes light up as you produce the wildebeest eyes. She explains that it makes exceptional bait for fishing, before eagerly rushing away to make use of it."
 4,"TEXT_HEAVNZ803_01933_SEQ_04",""
 5,"TEXT_HEAVNZ803_01933_SEQ_05",""
 6,"TEXT_HEAVNZ803_01933_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_HEAVNZ803_01933_SEQ_21",""
 22,"TEXT_HEAVNZ803_01933_SEQ_22",""
 23,"TEXT_HEAVNZ803_01933_SEQ_23",""
-24,"TEXT_HEAVNZ803_01933_TODO_00","<Sheet(BNpcName,3596,0)/>から<Sheet(EventItem,2001691,0)/>を入手"
-25,"TEXT_HEAVNZ803_01933_TODO_01","フェルトスモクスに<Sheet(EventItem,2001691,0)/>を渡す"
+24,"TEXT_HEAVNZ803_01933_TODO_00","Slay wildebeests and obtain their eyes."
+25,"TEXT_HEAVNZ803_01933_TODO_01","Deliver the wildebeest eyes to Feltsmox."
 26,"TEXT_HEAVNZ803_01933_TODO_02",""
 27,"TEXT_HEAVNZ803_01933_TODO_03",""
 28,"TEXT_HEAVNZ803_01933_TODO_04",""
@@ -49,22 +49,12 @@ int32,str,str
 45,"TEXT_HEAVNZ803_01933_TODO_21",""
 46,"TEXT_HEAVNZ803_01933_TODO_22",""
 47,"TEXT_HEAVNZ803_01933_TODO_23",""
-48,"TEXT_HEAVNZ803_01933_FELTSMOX_000_000","シュコォ……シュコォ……
-気晴らし　気ままに　散歩中……
-それでも　気持ちは　晴れぬまま……。"
-49,"TEXT_HEAVNZ803_01933_FELTSMOX_000_001","ホントは　釣りを　楽しみたい……
-なぜか　スランプ　なかなか　釣れぬ……。"
-50,"TEXT_HEAVNZ803_01933_FELTSMOX_000_002","そこゆく　どこゆく　冒険者　ひとつ仕事を　頼みたい……
-「<Sheet(BNpcName,3596,0)/>」　ブチのめし
-そいつの魔眼を　3個ほど　取ってほしいぞ　お願いぞ……。"
-51,"TEXT_HEAVNZ803_01933_FELTSMOX_000_010","そこゆく　どこゆく　冒険者　ひとつ仕事を　頼みたい……
-「<Sheet(BNpcName,3596,0)/>」　ブチのめし
-そいつの魔眼を　3個ほど　取ってほしいぞ　お願いぞ……。"
-52,"TEXT_HEAVNZ803_01933_FELTSMOX_000_020","「ワイルドビースト」　ブチのめし
-そいつの魔眼を　3個ほど　取ってほしいぞ　お願いぞ……。"
-53,"TEXT_HEAVNZ803_01933_FELTSMOX_100_020","シュコォ……シュコォ……
-おやおや　まあまあ　ありがとさん！
-これさえ　あれば　スランプ脱出！"
-54,"TEXT_HEAVNZ803_01933_FELTSMOX_000_021","プニプニ魔眼を　釣り餌にすれば
-爆釣　大量　間違いなし！
-さっそく　試して　みようぞな～！"
+48,"TEXT_HEAVNZ803_01933_FELTSMOX_000_000","Pshhh... Shkohhh...
+Nothing is going well for Feltsmox, so she goes for a walk, but Feltsmox is still unhappy."
+49,"TEXT_HEAVNZ803_01933_FELTSMOX_000_001","Feltsmox loves fishing, but is having <Emphasis>terrible</Emphasis> luck when fishing in recent days. Feltsmox can't catch <Emphasis>anything</Emphasis>!"
+50,"TEXT_HEAVNZ803_01933_FELTSMOX_000_002","Feltsmox has an idea. Uplander, please help! Kill wildebeests and collect three of their eyes."
+51,"TEXT_HEAVNZ803_01933_FELTSMOX_000_010","Please help, uplander. Please collect three wildebeest eyes from nearby wildebeests."
+52,"TEXT_HEAVNZ803_01933_FELTSMOX_000_020","Do you have the wildebeest eyes?"
+53,"TEXT_HEAVNZ803_01933_FELTSMOX_100_020","Pshhh... Shkohhh...
+Excellent! Perhaps this time Feltsmox will finally catch something!"
+54,"TEXT_HEAVNZ803_01933_FELTSMOX_000_021","These sparkly, shiny orbs make best fishingbait. Feltsmox will catch some big, delicious fish with this... Feltsmox will try it right now!"

@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSBSM011_00291_SEQ_00","鍛冶師になり、鍛冶師ギルドで学ぶためには、しかるべき手続きを行わなければならない。鍛冶師ギルド受付のランドウルフは、冒険者の決意を確かめたいようだ。"
-1,"TEXT_CLSBSM011_00291_SEQ_01","鍛冶師ギルドに入門するには、ギルドマスターのブリサエルに認められる必要があるという。鍛冶師ギルドの鍛冶場2階にいる「ブリサエル」に声をかけよう。"
-2,"TEXT_CLSBSM011_00291_SEQ_02","ブリサエルは、冒険者の鍛冶師ギルドへの所属を認めてくれた。彼にもらった「<Sheet(Item,　2340,0)/>」を装備し、再度ブリサエルに話しかけよう。"
+0,"TEXT_CLSBSM011_00291_SEQ_00","Randwulf wishes you to reaffirm your desire to join the Blacksmiths' Guild."
+1,"TEXT_CLSBSM011_00291_SEQ_01","You have been referred to Brithael, forgemaster of the Blacksmiths' Guild. Seek him out and pray that you meet with his approval."
+2,"TEXT_CLSBSM011_00291_SEQ_02","Despite knowing next to nothing about you, Forgemaster Brithael has already marked you as a promising recruit. To begin your training as a blacksmith, equip the hammer the forgemaster gave you and speak to him again."
 3,"TEXT_CLSBSM011_00291_SEQ_03",""
 4,"TEXT_CLSBSM011_00291_SEQ_04",""
 5,"TEXT_CLSBSM011_00291_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_CLSBSM011_00291_SEQ_21",""
 22,"TEXT_CLSBSM011_00291_SEQ_22",""
 23,"TEXT_CLSBSM011_00291_SEQ_23",""
-24,"TEXT_CLSBSM011_00291_TODO_00","ブリサエルと話す"
+24,"TEXT_CLSBSM011_00291_TODO_00","Speak with Forgemaster Brithael."
 25,"TEXT_CLSBSM011_00291_TODO_01",""
 26,"TEXT_CLSBSM011_00291_TODO_02",""
 27,"TEXT_CLSBSM011_00291_TODO_03",""
@@ -49,51 +49,23 @@ int32,str,str
 45,"TEXT_CLSBSM011_00291_TODO_21",""
 46,"TEXT_CLSBSM011_00291_TODO_22",""
 47,"TEXT_CLSBSM011_00291_TODO_23",""
-48,"TEXT_CLSBSM011_00291_RANDWULF_000_1","お……腹は決まったか？
-決まったんだよなぁ、俺に話しかけたってことは？"
-49,"TEXT_CLSBSM011_00291_RANDWULF_000_2","ようし……いい返事だ。
-ここでハッキリ答えなかったら、
-ギルドマスターには会わせないつもりだったぞ。"
-50,"TEXT_CLSBSM011_00291_RANDWULF_000_3","うちのギルドマスター、ブリサエルの旦那は、
-そういうところには無頓着な人でな。
-受付の俺が締めてかないと、ギルド全体がダレちまう。"
-51,"TEXT_CLSBSM011_00291_RANDWULF_000_4","ま、とにかく話してみてくれ。
-「ブリサエル」の旦那に認められれば、あんたもギルドの一員だ。
-鍛冶場の2階で、渋い顔で考え事してるのが、その人さ。"
-52,"TEXT_CLSBSM011_00291_RANDWULF_000_5","なんだなんだ、冷やかしかぁ？
-俺は遊びに付き合ってやるほど、暇じゃねぇぞ。
-おい、まだ腹が決まらねぇなら、今は帰りな。"
-53,"TEXT_CLSBSM011_00291_RANDWULF_000_6","もっとも、こっちは焦ってるわけじゃねぇ。
-あんたの好きにすりゃいいぜ。
-ま、たっぷりじっくり悩むこったな。"
-54,"TEXT_CLSBSM011_00291_BRITHAEL_000_11","いやいや、お待ちしていましたよ！
-ランドウルフ君と話していた方ですね？
-僕はブリサエル、鍛冶師ギルドのギルドマスターです。"
-55,"TEXT_CLSBSM011_00291_BRITHAEL_000_12","鍛冶師を目指したいのですよね？
-でしたら、この僕と鍛冶師ギルドが
-キミを全面的に後押ししますとも。"
-56,"TEXT_CLSBSM011_00291_BRITHAEL_000_13","なに、疑ってかかることはありませんよ？
-ただいま、鍛冶師ギルドでは有望な新人を募集中です。
-入門希望者は、大歓迎ですとも。"
-57,"TEXT_CLSBSM011_00291_BRITHAEL_000_14","さあ、どうです？
-キミも僕たちと一緒に、鍛冶師ギルドで頑張りませんか？"
-58,"TEXT_CLSBSM011_00291_Q1_000_1","鍛冶師ギルドに入門したい？"
-59,"TEXT_CLSBSM011_00291_A1_000_1","はい"
-60,"TEXT_CLSBSM011_00291_A1_000_2","いいえ"
-61,"TEXT_CLSBSM011_00291_BRITHAEL_000_21","そうですか、そうですよね！
-それはそれは、素晴らしい決断です！"
-62,"TEXT_CLSBSM011_00291_BRITHAEL_000_22","<Highlight>ObjectParameter(1)</Highlight>さん、僕たち鍛冶師ギルドは、
-キミの入門を全力で歓迎しますよ！"
-63,"TEXT_CLSBSM011_00291_BRITHAEL_000_23","鍛冶師の素晴らしさについて
-たっぷりと時間をかけて教えてあげますとも。
-そう、浮気など少しも考えないほどに！"
-64,"TEXT_CLSBSM011_00291_BRITHAEL_000_24","それでは、キミの入門記念として僕からの贈り物です。
-これは「<Sheet(Item,　2340,0)/>」
-僕たち鍛冶師の商売道具ですよ。"
-65,"TEXT_CLSBSM011_00291_BRITHAEL_000_25","さあさあ、さっそく装備してみてください。
-装備できたら、まっさきに僕に声をかけてくださいね。"
-66,"TEXT_CLSBSM011_00291_BRITHAEL_000_26","新人鍛冶師が誕生した瞬間ってやつを、
-僕自身の目に焼き付けておくために。"
-67,"TEXT_CLSBSM011_00291_BRITHAEL_000_27","ええええええええ……！
-ほ、ホントですかぁ？
-あの、考え直してみませんか？"
+48,"TEXT_CLSBSM011_00291_RANDWULF_000_1","So what'll it be? Reckon ye've got what it takes to train with the best godsdamned blacksmiths in the realm?"
+49,"TEXT_CLSBSM011_00291_RANDWULF_000_2","Hah, that's the spirit! If ye'd taken any longer to decide, I'd have told ye to bugger off no matter what ye said."
+50,"TEXT_CLSBSM011_00291_RANDWULF_000_3","Can't have half-arsed adventurers wastin' Forgemaster Brithael's precious time, see. He's got a lot of irons in the fire. That's why me and the other lads make a point o' keepin' idlers, imbeciles, and the otherwise unqualified from gettin' in his way."
+51,"TEXT_CLSBSM011_00291_RANDWULF_000_4","Anyroad, it's time ye went and paid yer respects to the man─he's the one over yonder makin' a face like he's carryin' the weight o' the world on his shoulders."
+52,"TEXT_CLSBSM011_00291_RANDWULF_000_5","Gone soft on me, have ye? We need <If(PlayerParameter(4))>women<Else/>men</If> with a will of iron, not <If(PlayerParameter(4))>girls<Else/>boys</If> who balk at the thought o' commitment."
+53,"TEXT_CLSBSM011_00291_RANDWULF_000_6","Still...there's always work for the willin'. Should ye find yer spine, we might consider yer membership once more. Till then, bugger off."
+54,"TEXT_CLSBSM011_00291_BRITHAEL_000_11","'Bout time Randwulf sent me a new recruit! Ahhh, it's been too long... Ahem. I'm Brithael, forgemaster o' the Blacksmiths' Guild."
+55,"TEXT_CLSBSM011_00291_BRITHAEL_000_12","If yer aimin' to become a smitty worth the name, 'twould be my great pleasure to educate ye on the finer points o' the craft."
+56,"TEXT_CLSBSM011_00291_BRITHAEL_000_13","Oh, the rest o' these sour-faced bastards'll tell ye it's hard, gruelin' work fit only fer the best an' brightest, but I say put a hammer in the hands o' the willin' an' see what happens!"
+57,"TEXT_CLSBSM011_00291_BRITHAEL_000_14","What d'ye say then, <If(PlayerParameter(4))>lass<Else/>lad</If>? Will ye swing a hammer fer ol' Brithael?"
+58,"TEXT_CLSBSM011_00291_Q1_000_1","Swing a hammer for ol' Brithael?"
+59,"TEXT_CLSBSM011_00291_A1_000_1","Yes"
+60,"TEXT_CLSBSM011_00291_A1_000_2","No"
+61,"TEXT_CLSBSM011_00291_BRITHAEL_000_21","Ha ha! I knew I liked ye the moment I set eyes on ye...er... What did ye say yer name was again?"
+62,"TEXT_CLSBSM011_00291_BRITHAEL_000_22","<Highlight>ObjectParameter(1)</Highlight>! A name fit fer a hero if ever I heard one! In fact, I reckon I <Emphasis>did</Emphasis> hear it in a bard's song once! ...Or was it that poor sod cursin' in his cups at the Wench?"
+63,"TEXT_CLSBSM011_00291_BRITHAEL_000_23","Bah! Don't matter if it was savin' the world or <If(PlayerParameter(4))>cuckoldin' yer husband<Else/>beddin' someone's mother</If>─'tis time to forge yerself a new reputation, pound out a new legend! An' ye can trust ol' Brithael to help ye do it!"
+64,"TEXT_CLSBSM011_00291_BRITHAEL_000_24","But there I go, puttin' the cart before the chocobo. Here, <If(PlayerParameter(4))>lass<Else/>lad</If>─take this cross-pein hammer. A smitty without a hammer is like me without a drink─bloody useless!"
+65,"TEXT_CLSBSM011_00291_BRITHAEL_000_25","Well, don't jus' stand there gawpin' at her. Take her in yer hands, have a few practice swings, whatever ye fancy! She's all yours now."
+66,"TEXT_CLSBSM011_00291_BRITHAEL_000_26","Ah, what I wouldn't give to be you right now, <If(PlayerParameter(4))>lass<Else/>lad</If>. A smitty never forgets his first hammer... <sniff>"
+67,"TEXT_CLSBSM011_00291_BRITHAEL_000_27","Say it ain't so, <If(PlayerParameter(4))>lass<Else/>lad</If>! You an' me, we'd get on right as rain, we would! I beg ye reconsider..."

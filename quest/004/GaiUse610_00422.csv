@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSE610_00422_SEQ_00","巴術士ギルドのタタルは、冒険者に頼みがあるようだ。"
-1,"TEXT_GAIUSE610_00422_SEQ_01","巴術士になることは諦めたものの、何かを成し遂げたいというタタル。彼女には、何か考えがあるようだ。東ラノシアのコスタ・デル・ソルで、「タタル」と落ち合おう。"
-2,"TEXT_GAIUSE610_00422_SEQ_02","タタルは、ブラッドショアの浜辺で採れる特別な二枚貝から、お宝を手に入れるため、冒険者に護衛を頼みたいという。東ラノシアのブラッドショアで「タタル」と話そう。"
-3,"TEXT_GAIUSE610_00422_SEQ_03","タタルは二枚貝を発見したようだ。ブラッドショアの「<Sheet(EObj,2005064,0)/>」で周囲を見張り、二枚貝を狙って現れた魔物を討伐しよう。"
-4,"TEXT_GAIUSE610_00422_SEQ_04","魔物を討伐した。ブラッドショアの「タタル」と話そう。"
-5,"TEXT_GAIUSE610_00422_SEQ_05","タタルが二枚貝から手に入れたのは、魔除けのお守りになるという「ブラッドパール」だった。危険な任務に挑む皆のために、これでお守りを作るのだという。ミンフィリアに心配をかけたことを謝ってほしいとタタルに頼まれた。レヴナンツトールの石の家にいる「ミンフィリア」と話そう。"
-6,"TEXT_GAIUSE610_00422_SEQ_06","ミンフィリアと話した。タタルの奮闘や悩みを乗り越えたことを聞き、ミンフィリアも安心したようだ。"
+0,"TEXT_GAIUSE610_00422_SEQ_00","Tataru is considering her next course of action, and how you might aid her in it."
+1,"TEXT_GAIUSE610_00422_SEQ_01","Though Tataru has been forced to abandon her pursuit of a new profession, she would not see her brief sabbatical end without accomplishing something of note. Accordingly, she asks that you accompany her to Costa del Sol─though for what purpose she does not say."
+2,"TEXT_GAIUSE610_00422_SEQ_02","Once more, you find Tataru dressed appropriately for the occasion─her goal this time being the procurement of pearls from clams native to Bloodshore. The endeavor is not without risk, however, as the clams are a favorite food of certain dangerous creatures. Follow Tataru to the sands below and see if she requires any assistance."
+3,"TEXT_GAIUSE610_00422_SEQ_03","Fortune smiles on the young woman, as she soon uncovers a clam. While she works to remove the pearl within, stand watch for any creatures that might do her harm."
+4,"TEXT_GAIUSE610_00422_SEQ_04","A ravenous serpent sets its sights on your friend and her prize, but you promptly slay it. Happily, Tataru appears to have completed her task─let her know that you have too."
+5,"TEXT_GAIUSE610_00422_SEQ_05","Tataru reveals her intent to use the blood pearls she has harvested to fashion charms for her fellow Scions. In this way, she hopes to ensure that they will always come home. Having accomplished her task, she makes for Limsa Lominsa, where F'lhaminn awaits, and bids you return to Minfilia at the Rising Stones."
+6,"TEXT_GAIUSE610_00422_SEQ_06","After listening to your account, Minfilia concludes that despite Tataru's failure to become an arcanist, she nevertheless benefited from the experience. With the benefit of hindsight, she suspects that the receptionist would have managed on her own...but is grateful that you indulged her request even so."
 7,"TEXT_GAIUSE610_00422_SEQ_07",""
 8,"TEXT_GAIUSE610_00422_SEQ_08",""
 9,"TEXT_GAIUSE610_00422_SEQ_09",""
@@ -25,11 +25,11 @@ int32,str,str
 21,"TEXT_GAIUSE610_00422_SEQ_21",""
 22,"TEXT_GAIUSE610_00422_SEQ_22",""
 23,"TEXT_GAIUSE610_00422_SEQ_23",""
-24,"TEXT_GAIUSE610_00422_TODO_00","コスタ・デル・ソルのタタルと話す"
-25,"TEXT_GAIUSE610_00422_TODO_01","タタルと話す"
-26,"TEXT_GAIUSE610_00422_TODO_02","<Sheet(EObj,2005064,0)/>で見張って魔物を討伐"
-27,"TEXT_GAIUSE610_00422_TODO_03","タタルと話す"
-28,"TEXT_GAIUSE610_00422_TODO_04","石の家のミンフィリアと話す"
+24,"TEXT_GAIUSE610_00422_TODO_00","Speak with Tataru in Costa del Sol."
+25,"TEXT_GAIUSE610_00422_TODO_01","Speak with Tataru."
+26,"TEXT_GAIUSE610_00422_TODO_02","Stand guard as Tataru harvests pearls."
+27,"TEXT_GAIUSE610_00422_TODO_03","Speak with Tataru."
+28,"TEXT_GAIUSE610_00422_TODO_04","Speak with Minfilia at the Rising Stones."
 29,"TEXT_GAIUSE610_00422_TODO_05",""
 30,"TEXT_GAIUSE610_00422_TODO_06",""
 31,"TEXT_GAIUSE610_00422_TODO_07",""
@@ -49,70 +49,30 @@ int32,str,str
 45,"TEXT_GAIUSE610_00422_TODO_21",""
 46,"TEXT_GAIUSE610_00422_TODO_22",""
 47,"TEXT_GAIUSE610_00422_TODO_23",""
-48,"TEXT_GAIUSE610_00422_TATARU_000_000","巴術士の道は、すっぱり諦めまっす。
-人生、諦めが肝心なのでっす。"
-49,"TEXT_GAIUSE610_00422_TATARU_000_001","それでも、休暇をもらってまで、
-石の家を飛び出したからには、
-何かを成し遂げてから、帰りたいと思いまっす。"
-50,"TEXT_GAIUSE610_00422_TATARU_000_002","ところで、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん。
-もう少しだけ、付き合ってもらえませんか？"
-51,"TEXT_GAIUSE610_00422_TATARU_000_003","ありがとうございまっす。
-それじゃあ、「コスタ・デル・ソル」に行きまっしょう。
-ちょっとした考えがあるのでっす！"
-52,"TEXT_GAIUSE610_00422_THUBYRGEIM_000_004","タタルなら、もう大丈夫だよ。
-あの子は頭も良いし、何よりも心の芯が強い。
-心から焦りが消えたのなら、安心して見ていられるさ。"
-53,"TEXT_GAIUSE610_00422_TATARU_000_010","よくぞ来てくれまっした！
-実は、リムサ・ロミンサの溺れた海豚亭で、
-耳寄りな情報を仕入れたのでっす。"
-54,"TEXT_GAIUSE610_00422_TATARU_000_011","聞けば、この季節だけ「ブラッドショア」の浜辺で、
-特別な二枚貝が採れるそうでっす。
-なんでも、その中には、すんごいお宝が……。"
-55,"TEXT_GAIUSE610_00422_TATARU_000_012","ただし、その貝を狙って、
-恐ろしーい怪物も、深海から上陸してくるとか……。
-戦いはニガテなので、ぜひ護衛をお願いしまっす！"
-56,"TEXT_GAIUSE610_00422_TATARU_000_020","噂の二枚貝を発見しまっした！
-それでは、護衛の方を、よろしく頼みまっす！
-あの辺りで怪物が現れないか、見張ってほしいのでっす！"
-57,"TEXT_GAIUSE610_00422_TATARU_000_021","噂の二枚貝を発見しまっした！
-それでは、護衛の方を、よろしく頼みまっす！
-あの辺りで怪物が現れないか、見張ってほしいのでっす！"
-58,"TEXT_GAIUSE610_00422_TATARU_000_030","さすがは、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん。
-鮮やかなお手並みでっした！"
-59,"TEXT_GAIUSE610_00422_TATARU_000_031","無事に、二枚貝からお宝をゲットでっす！
-その名も「ブラッドパール」！"
-60,"TEXT_GAIUSE610_00422_TATARU_000_032","血のように赤いこの真珠は、
-古来から、魔除けのお守りに用いられているそうでっす。"
-61,"TEXT_GAIUSE610_00422_TATARU_000_033","これでたくさんお守りを作って、
-危険な任務に赴く、皆さんに配るのでっす。
-無事に帰ってきてくれるように……。"
-62,"TEXT_GAIUSE610_00422_TATARU_000_034","さて、そろそろ、私の旅も終わりみたいでっす。
-この後、フ・ラミンさんと、待ち合わせしているんでっす。"
-63,"TEXT_GAIUSE610_00422_TATARU_000_035","食の都「リムサ・ロミンサ」で、いい食材を安く仕入れて、
-石の家の食生活と懐事情を、劇的に改善するでっす！
-これぞ、「暁」の金庫番の役目！"
-64,"TEXT_GAIUSE610_00422_TATARU_000_036","……ミンフィリアさんには、
-心配かけて、ごめんなさいと伝えてほしいでっす。
-本当に、ありがとうございまっした。"
-65,"TEXT_GAIUSE610_00422_TATARU_000_037","それじゃあ、さよならでっす！
-……って、なんか変な言い方でっすね。
-では、また後ほどでっす！"
-66,"TEXT_GAIUSE610_00422_MINFILIA_000_050","おかえりなさい、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
-タタルさんの様子は、どうだったかしら？"
-67,"TEXT_GAIUSE610_00422_MINFILIA_000_051","……ふふ、タタルさんが、そんな事を考えていたなんて。
-でも、吹っ切れてくれたみたいで良かったわ。"
-68,"TEXT_GAIUSE610_00422_MINFILIA_000_052","あなたには、手間をかけさせてしまったわね。
-でも、ありがとう、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。"
-69,"TEXT_GAIUSE610_00422_MINFILIA_000_060","……ふふ、タタルさんが、そんな事を考えていたなんて。
-吹っ切れてくれて良かったけれど、
-あなたには、予想以上の手間をかけさせてしまったわね……。"
-70,"TEXT_GAIUSE610_00422_MINFILIA_000_061","最近は任務づくしだったから、あなたにだって、
-「暁」の活動に拠らない冒険でもして、
-息抜きをしてもらいたいのだけれど……。"
-71,"TEXT_GAIUSE610_00422_MINFILIA_000_062","戦勝祝賀会が近づいたら、また忙しくなるわ。
-思い当たることがあるなら、今のうちにやっておいてね。"
-72,"TEXT_GAIUSE610_00422_SYSTEM_000_063","次のメインクエストに進むためには、
-「クロニクルクエスト：クリスタルタワー」を、
-特定のクエストまで完了する必要があります。"
-73,"TEXT_GAIUSE610_00422_SYSTEM_000_070","レヴナンツトールにいる「異国風の男」からクエストを受注し、
-クリスタルタワーにまつわる冒険を進めましょう！"
+48,"TEXT_GAIUSE610_00422_TATARU_000_000","<sigh> As fetching as these garments are, I fear I shall never don them again..."
+49,"TEXT_GAIUSE610_00422_TATARU_000_001","But I can't go back to the Rising Stones without <Emphasis>something</Emphasis> to show for my time away."
+50,"TEXT_GAIUSE610_00422_TATARU_000_002","Wait─I know what I can do! That is, if you don't mind accompanying me for a little longer?"
+51,"TEXT_GAIUSE610_00422_TATARU_000_003","Wonderful! Then to Costa del Sol we will go! It's a bit of a gamble, but I'm confident it will pay off!"
+52,"TEXT_GAIUSE610_00422_THUBYRGEIM_000_004","Tataru is a bright, spirited girl. If she could but focus her nervous energy..."
+53,"TEXT_GAIUSE610_00422_TATARU_000_010","Yes, this is it! This is where the man at the Drowning Wench told me to look!"
+54,"TEXT_GAIUSE610_00422_TATARU_000_011","There is a certain variety of clam which can be harvested this time of year in Bloodshore─one which produces the most marvelous pearls!"
+55,"TEXT_GAIUSE610_00422_TATARU_000_012","However, these clams are also coveted by certain wild creatures─and since I fared rather poorly in battle last time... Ahem. Let us be off!"
+56,"TEXT_GAIUSE610_00422_TATARU_000_020","What fortune, I've already found one! Would you be so kind as to keep watch while I work? This should only take a moment..."
+57,"TEXT_GAIUSE610_00422_TATARU_000_021","Open...up...you little... Gah! This is proving more difficult than I thought..."
+58,"TEXT_GAIUSE610_00422_TATARU_000_030","Well fought, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, well fought! I knew I was right to ask you to come."
+59,"TEXT_GAIUSE610_00422_TATARU_000_031","As for me, I have my prize: a bounty of blood pearls!"
+60,"TEXT_GAIUSE610_00422_TATARU_000_032","So named for their reddish hue, they were treasured as wards against dark magicks in ancient times."
+61,"TEXT_GAIUSE610_00422_TATARU_000_033","I thought I might make charms for everyone...so that no matter where they go, they will always come home."
+62,"TEXT_GAIUSE610_00422_TATARU_000_034","It's <Emphasis>sort of</Emphasis> the power to defend myself and other people...in a way. Right, well, I mustn't keep F'lhaminn waiting! There's work to be done─and lots of it!"
+63,"TEXT_GAIUSE610_00422_TATARU_000_035","We're to secure provisions for the Scions in the Lominsan markets. She may have an eye for quality, but I have a nose for bargains!"
+64,"TEXT_GAIUSE610_00422_TATARU_000_036","Will you be heading back to the Rising Stones? If so, pray convey my apologies to the Antecedent, and tell her that she needn't worry about me."
+65,"TEXT_GAIUSE610_00422_TATARU_000_037","Farewell, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, and thank you for everything!
+Hmmm, that sounded rather final, didn't it? How about...until we meet again!"
+66,"TEXT_GAIUSE610_00422_MINFILIA_000_050","Welcome home, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I gather you found Tataru in Limsa Lominsa?"
+67,"TEXT_GAIUSE610_00422_MINFILIA_000_051","My, it sounds as though she had quite an adventure. And while it did not end as she had hoped, I suspect that it will prove to be a valuable experience."
+68,"TEXT_GAIUSE610_00422_MINFILIA_000_052","I daresay she could have managed without our intervention. Even so, I appreciate you indulging my request."
+69,"TEXT_GAIUSE610_00422_MINFILIA_000_060","My, it sounds as though she had quite an adventure. And while it did not end as she had hoped, I suspect that it will prove to be a valuable experience. I daresay she could have managed without our intervention. Even so, I appreciate you indulging my request."
+70,"TEXT_GAIUSE610_00422_MINFILIA_000_061","I am sorry, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. No doubt you have other matters to attend to, and we have already imposed upon you so much. Pray take some time for yourself─I daresay you have more than earned a respite."
+71,"TEXT_GAIUSE610_00422_MINFILIA_000_062","After all, we will be most busy with preparations as the banquet draws near. Should other adventures summon you elsewhere, perhaps now is the time to heed their call?"
+72,"TEXT_GAIUSE610_00422_SYSTEM_000_063","In order to progress in the main scenario, you must first complete certain quests in the Crystal Tower series."
+73,"TEXT_GAIUSE610_00422_SYSTEM_000_070","The Crystal Tower quest series may be undertaken by speaking with the outlandish man in Revenant's Toll."

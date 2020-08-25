@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNY815_02392_SEQ_00","優しそうな冒険者は、冒険者に頼みたいことがあるようだ。"
-1,"TEXT_HEAVNY815_02392_SEQ_01","優しそうな冒険者から、仕事を依頼された。詳しい話を聞くため、イディルシャイアのロウェナ総合文化会館近くにいる「クロ・アリアポー」と話そう。"
-2,"TEXT_HEAVNY815_02392_SEQ_02","クロ・アリアポーと話した。彼女は、友だちに聞かせる物語を創るため、冒険譚を集めているという。さっそく、いままでの冒険を思い出して、受け取った「クロの空想帳」に書き記してみよう。"
+0,"TEXT_HEAVNY815_02392_SEQ_00","An adventurer stands before you wearing a shite-eating grin and gazing at you in a way that makes you not entirely comfortable."
+1,"TEXT_HEAVNY815_02392_SEQ_01","A pathetic sop of an adventurer heaps cloying praise upon you before promptly foisting upon you some task that he is either incapable of or unwilling to─mayhap both─perform himself. He quickly scampers off before supplying any of the relevant details, save that it involves lending your aid to one Khloe Aliapoh, a shopkeep at Rowena's Center for Cultural Promotion whose mere smile is seemingly sufficient to reduce the man to a stammering clod. Investigate and hope that you've seen the last of that sad buffoon."
+2,"TEXT_HEAVNY815_02392_SEQ_02","You introduce yourself to Khloe Aliapoh, a charming Miqo'te girl with a love for telling stories of heroes and derring-do. She explains that recently she fears that her tales are starting to sound the same, and have not been lifting the spirits of her troubled friend as once they did. She furnishes you with a journal that she has dubbed Wondrous Tails, and entreats you to fill its pages with accounts of your own adventures, that she might draw inspiration from them to fashion new narratives of her own."
 3,"TEXT_HEAVNY815_02392_SEQ_03",""
 4,"TEXT_HEAVNY815_02392_SEQ_04",""
 5,"TEXT_HEAVNY815_02392_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_HEAVNY815_02392_SEQ_21",""
 22,"TEXT_HEAVNY815_02392_SEQ_22",""
 23,"TEXT_HEAVNY815_02392_SEQ_23",""
-24,"TEXT_HEAVNY815_02392_TODO_00","クロ・アリアポーと話す"
+24,"TEXT_HEAVNY815_02392_TODO_00","Speak with Khloe Aliapoh."
 25,"TEXT_HEAVNY815_02392_TODO_01",""
 26,"TEXT_HEAVNY815_02392_TODO_02",""
 27,"TEXT_HEAVNY815_02392_TODO_03",""
@@ -49,49 +49,20 @@ int32,str,str
 45,"TEXT_HEAVNY815_02392_TODO_21",""
 46,"TEXT_HEAVNY815_02392_TODO_22",""
 47,"TEXT_HEAVNY815_02392_TODO_23",""
-48,"TEXT_HEAVNY815_02392_ADVENTURER02392_000_000","……君、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>だよね？
-噂の英雄に会えるとは運がいい！"
-49,"TEXT_HEAVNY815_02392_ADVENTURER02392_000_001","僕は、ある仕事を手伝ってもらえる冒険者を探していてね。
-下手な奴には頼めない類のものなんだが、
-君ならば、安心してお願いできる。"
-50,"TEXT_HEAVNY815_02392_ADVENTURER02392_000_002","この仕事は、君にとっても損な話にはならないはずだ。
-詳しくは、「ロウェナ総合文化会館」の近くにいる、
-クロちゃん……じゃなくて、「クロ・アリアポー」に聞いてくれ。"
-51,"TEXT_HEAVNY815_02392_ADVENTURER02392_000_003","……君ほどの冒険者なら、万が一にもないとは思うが、
-決して！　あの子を泣かす真似はしないように、ね？
-それじゃ、よろしく頼んだよ。"
-52,"TEXT_HEAVNY815_02392_KHLOEALIAPOF_000_010","やっほー、<If(PlayerParameter(4))>おねーちゃん<Else/>おにーちゃん</If>！
-わたしのお店に、なにかごよう？"
-53,"TEXT_HEAVNY815_02392_KHLOEALIAPOF_000_011","わわっ、お仕事、受けてくれるの！？
-あのねあのね、お仕事っていうのは、
-いろんな冒険のお話を集めてくることだよ！"
-54,"TEXT_HEAVNY815_02392_KHLOEALIAPOF_000_012","お友だちにね、おとーさんとおかーさんが帰ってこなくて、
-ずぅーっと、寂しそうにしている子がいるの……。
-だからわたし、「物語」を創ってその子に聞いてもらってるの！"
-55,"TEXT_HEAVNY815_02392_KHLOEALIAPOF_000_013","わたしの創った「物語」を、その子は喜んでくれるけど、
-本当はもっともーっと、喜んでほしいの！
-でも、最近はちょっと「まんねり」だって思ってて……。"
-56,"TEXT_HEAVNY815_02392_KHLOEALIAPOF_000_014","だから、わたし考えたの！
-冒険者さんたちが体験したお話を、たーっくさん集めて、
-それをくっつけてみれば、新しい「物語」を創れるかなって！"
-57,"TEXT_HEAVNY815_02392_KHLOEALIAPOF_000_015","わたし、ロウェナおばさんのお手伝いしてるから、
-冒険者さんがほしがるような、ご褒美をあげられるの！
-「とーむすとーん」って変な石ころとか、いろいろ！"
-58,"TEXT_HEAVNY815_02392_KHLOEALIAPOF_000_016","だから、今までの冒険を思い出して、
-この「クロの空想帳」に、いーっぱいお話を書いてきて！"
-59,"TEXT_HEAVNY815_02392_KHLOEALIAPOF_000_017","きれいにお話が繋がって、面白い「物語」になったら、
-ご褒美を、いーっぱいあげちゃうの！
-よろしくね、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>ちゃん！"
-60,"TEXT_HEAVNY815_02392_SYSTEM_000_020","「クロの空想帳」が開放されました！"
-61,"TEXT_HEAVNY815_02392_SYSTEM_000_021","空想帳には、16種のコンテンツが指定されており、
-いずれか任意のものをコンプリートすることで、
-4×4の16マスのどこかに、9個まで印をつけることができます。"
-62,"TEXT_HEAVNY815_02392_SYSTEM_000_022","「マスに9個の印をつける」、「印を4つ1列に並べる」など、
-特定の条件を満たしたうえで、「クロ・アリアポー」に、
-空想帳を渡すと、報酬を得ることができます。"
-63,"TEXT_HEAVNY815_02392_SYSTEM_000_023","現在の印の状況や、報酬を得ることができる有効期限などは、
-イベントアイテム「クロの空想帳」を使用することで、
-いつでも確認できます。"
-64,"TEXT_HEAVNY815_02392_SYSTEM_000_024","なお、空想帳は週に一度、「クロ・アリアポー」から入手可能です。
-新たな空想帳を入手したいときは、（地球時間）毎週<ResetTime>1203</ResetTime><Switch(TopLevelParameter(220))><Case(1)>日</Case><Case(2)>月</Case><Case(3)>火</Case><Case(4)>水</Case><Case(5)>木</Case><Case(6)>金</Case><Case(7)>土</Case></Switch>曜日、
-<If(GreaterThanOrEqualTo(TopLevelParameter(218),12))>午後<Else/>午前</If><If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>0</Case><Case(13)>1</Case><Case(14)>2</Case><Case(15)>3</Case><Case(16)>4</Case><Case(17)>5</Case><Case(18)>6</Case><Case(19)>7</Case><Case(20)>8</Case><Case(21)>9</Case><Case(22)>10</Case><Case(23)>11</Case></Switch><Else/>0</If>時以降に話しかけてみましょう。"
+48,"TEXT_HEAVNY815_02392_ADVENTURER02392_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>...? <Emphasis><Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/></Emphasis> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>!? Gods, it really is you! I've heard the songs and tales, but to think the day would come that I'd meet you in the flesh! Whatever have I done to deserve such an honor!? (Drat, of all the days to forget to polish my armor! <If(PlayerParameter(4))>She<Else/>He</If> must think I'm a total bumpkin!)"
+49,"TEXT_HEAVNY815_02392_ADVENTURER02392_000_001","(B-But wait! Dare I ask? N-No, I daren't! To impose on such a hero─oh, but what is the harm in trying? Yes, I must try!) You see, I'm in a bit of a bind. A pickle, if you will. You see, I've just taken on a task of sorts─a task far, far beyond the abilities of a two-gil greenhorn like myself."
+50,"TEXT_HEAVNY815_02392_ADVENTURER02392_000_002","But <Emphasis>you</Emphasis>! Yes, a realm-renowned hero like you could tackle this monumental task in your sleep, blindfolded and with both arms and a leg tied behind your back! So you'll do it for me, yes? Wonderful! Just head over to Rowena's and tell Khloey-poey you're there to help."
+51,"TEXT_HEAVNY815_02392_ADVENTURER02392_000_003","D-Did I say Khloey-poey? Er, I meant Khloe <Emphasis>Aliapoh</Emphasis>. That isn't my silly little nickname for her, and I <Emphasis>certainly</Emphasis> haven't been frequenting her shop every day for the past two moons, that her ever-so-cute little smile might brighten my dark and dreary days─uh, but I've blabbered on enough, haven't I? Ta-ta!"
+52,"TEXT_HEAVNY815_02392_KHLOEALIAPOF_000_010","Hey there, <If(PlayerParameter(4))>lady<Else/>mister</If>! I'm Khloe. Khloe Aliapoh! And who might you be?"
+53,"TEXT_HEAVNY815_02392_KHLOEALIAPOF_000_011","<Highlight>ObjectParameter(1)</Highlight>...? <Emphasis>The</Emphasis> <Highlight>ObjectParameter(1)</Highlight>? From all the stories? Wow, you're like a legend! A real, living and breathing legend! This is so exciting...!"
+54,"TEXT_HEAVNY815_02392_KHLOEALIAPOF_000_012","Did I tell you I love stories? Well, I do! And not just listening to them─I'm pretty good at telling them, too! I have this friend whose mommy and daddy went away and never came back, and well, she gets lonely and cries sometimes. So I tell her stories to cheer her up!"
+55,"TEXT_HEAVNY815_02392_KHLOEALIAPOF_000_013","That's right─stories of brave adventurers like you! She likes my stories. She stops crying, and even starts smiling and laughing! Seeing her happy makes me happy too. But lately, she's just been staring off in space again. It must be my fault. I bet all my stories are starting to sound the same..."
+56,"TEXT_HEAVNY815_02392_KHLOEALIAPOF_000_014","But then I had an idea! Do you know what it is? I'll ask great adventurers like you to tell me <Emphasis>your</Emphasis> stories, and then I'll put them together to make new stories of my own! It's a really great idea, right? Tell me you think so, too!"
+57,"TEXT_HEAVNY815_02392_KHLOEALIAPOF_000_015","So will you help me? Rowena gives me all sorts of things when I work hard, so if you do this for me, I can give some of them to you! What sort of things? Well, <Emphasis>tone stones</Emphasis> for one! And, well, all kinds of other special stuff! But not my mandragora pin─that's all mine!"
+58,"TEXT_HEAVNY815_02392_KHLOEALIAPOF_000_016","So, do me a favor. Remember all your bestest stories, and write them in this notebook here. I call it <Emphasis>Khloe's Wondrous Tails</Emphasis>. Because I have a tail, and I tell tales─get it?"
+59,"TEXT_HEAVNY815_02392_KHLOEALIAPOF_000_017","Every time your stories help me come up with a new tale of my own, I'll give you a present. It'll be a lot of fun for both of us, don't you think? Thanks, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! And by the way, you're even <If(PlayerParameter(4))>cuter<Else/>more handsome</If> than I pictured you from the stories. Tee hee!"
+60,"TEXT_HEAVNY815_02392_SYSTEM_000_020","Welcome to Wondrous Tails! Henceforth, you can share your tales of heroism and derring-do for the chance to earn valuable rewards. To begin, you'll want to obtain a Wondrous Tails journal from Khloe Aliapoh. (In addition to the one you've just received, a new journal will be made available every week.)"
+61,"TEXT_HEAVNY815_02392_SYSTEM_000_021","Within the journal is a card with sixteen squares─four columns and four rows─each representing a certain quest or duty, or a category of the same. Triumph in the corresponding adventure, and the square will be marked off. You can mark off up to nine squares on a single card."
+62,"TEXT_HEAVNY815_02392_SYSTEM_000_022","Complete the conditions described within─for example, marking off nine squares, marking off four squares in a row, and so forth─and deliver your marked journal to Khloe Aliapoh, and the story-loving Miqo'te child will reward you accordingly."
+63,"TEXT_HEAVNY815_02392_SYSTEM_000_023","To view objectives and see which squares you've marked off, as well as review reward conditions and time limits, you need only use the journal from the Key Items menu. "
+64,"TEXT_HEAVNY815_02392_SYSTEM_000_024","A new journal will be available from Khloe Aliapoh every week on <ResetTime>1203</ResetTime><Switch(TopLevelParameter(220))><Case(1)>Sunday</Case><Case(2)>Monday</Case><Case(3)>Tuesday</Case><Case(4)>Wednesday</Case><Case(5)>Thursday</Case><Case(6)>Friday</Case><Case(7)>Saturday</Case></Switch> at <If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>12</Case><Case(13)>1</Case><Case(14)>2</Case><Case(15)>3</Case><Case(16)>4</Case><Case(17)>5</Case><Case(18)>6</Case><Case(19)>7</Case><Case(20)>8</Case><Case(21)>9</Case><Case(22)>10</Case><Case(23)>11</Case></Switch><Else/>12</If>:00 <If(LessThan(TopLevelParameter(218),12))>a.m.<Else/>p.m.</If> (Earth time). Happy adventuring!"

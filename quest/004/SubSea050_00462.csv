@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBSEA050_00462_SEQ_00","溺れた海豚亭のバデロンは、サマーフォード庄の知人に冒険者を紹介したいようだ。"
-1,"TEXT_SUBSEA050_00462_SEQ_01","サマーフォード庄では、人手を必要としているという。ゼファー陸門からリムサ・ロミンサを出て、サマーフォード庄の「シュテールヴィルン」を訪ねよう。"
-2,"TEXT_SUBSEA050_00462_SEQ_02","サマーフォード庄のシュテールヴィルンによると、この地には、海賊をやめた者が多く入植しているという。しかし、彼らは農作業に積極的ではないため、問題が多く発生しているようだ。復興を目指し農作業に打ち込んでいる人たちのために、積極的に手を貸そう。"
+0,"TEXT_SUBSEA050_00462_SEQ_00","Baderon, proprietor of the Drowning Wench, wants you to lend a hand at Summerford Farms."
+1,"TEXT_SUBSEA050_00462_SEQ_01","Staelwyrn, the owner of Summerford Farms, is in need of a helping hand. Leave Limsa Lominsa through the Zephyr Gate and pay a visit to the hardworking farmer."
+2,"TEXT_SUBSEA050_00462_SEQ_02","Staelwyrn explains that many of his workers were once the crew of his pirate ship, a vessel lost in the destruction of the Calamity. With the former buccaneers less than eager to embrace life on the land, numerous problems are cropping up across the orchard. Seek out those who are struggling with the unruly farmhands and lend what aid you can."
 3,"TEXT_SUBSEA050_00462_SEQ_03",""
 4,"TEXT_SUBSEA050_00462_SEQ_04",""
 5,"TEXT_SUBSEA050_00462_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_SUBSEA050_00462_SEQ_21",""
 22,"TEXT_SUBSEA050_00462_SEQ_22",""
 23,"TEXT_SUBSEA050_00462_SEQ_23",""
-24,"TEXT_SUBSEA050_00462_TODO_00","サマーフォード庄のシュテールヴィルンと話す"
+24,"TEXT_SUBSEA050_00462_TODO_00","Speak with Staelwyrn at Summerford Farms."
 25,"TEXT_SUBSEA050_00462_TODO_01",""
 26,"TEXT_SUBSEA050_00462_TODO_02",""
 27,"TEXT_SUBSEA050_00462_TODO_03",""
@@ -49,32 +49,14 @@ int32,str,str
 45,"TEXT_SUBSEA050_00462_TODO_21",""
 46,"TEXT_SUBSEA050_00462_TODO_22",""
 47,"TEXT_SUBSEA050_00462_TODO_23",""
-48,"TEXT_SUBSEA050_00462_BADERON_000_1","よう、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>。
-「サマーフォード庄」って知ってるか？"
-49,"TEXT_SUBSEA050_00462_BADERON_000_2","霊災後に拓かれた入植地のひとつでな。
-海賊業から足を洗った連中を、たくさん雇って、
-果樹園を営んでる場所なんだ。"
-50,"TEXT_SUBSEA050_00462_BADERON_000_3","ここを仕切ってるシュテールヴィルンってのが、
-俺の古馴染みなんだが、人手を欲しがっててな。
-おまえさんを紹介したいんだ。"
-51,"TEXT_SUBSEA050_00462_BADERON_000_4","「ゼファー陸門」から都市を出て、
-北東に向かって道なりに進めば、すぐ見つかるぜ。
-急いで行ってやってくれ。"
-52,"TEXT_SUBSEA050_00462_STAELWYRN_000_11","お前は……
-バデロンが差し向けてくれた新米冒険者か。
-確か、<Highlight>ObjectParameter(1)</Highlight>と言ったか。"
-53,"TEXT_SUBSEA050_00462_STAELWYRN_000_12","よく来てくれた、わしはシュテールヴィルン。
-ここサマーフォード庄をまとめておる。"
-54,"TEXT_SUBSEA050_00462_STAELWYRN_000_13","ここで働く者の多くが元海賊でな。
-それも、わしの海賊船の乗組員だった連中だ。"
-55,"TEXT_SUBSEA050_00462_STAELWYRN_000_14","……だが、5年前の霊災で船を失い、
-わし自身も深手を負っちまった。"
-56,"TEXT_SUBSEA050_00462_STAELWYRN_000_15","そこで手下たちを食わせていくために、
-メルウィブ提督が掲げていた
-入植政策に乗ることにしたわけだが……"
-57,"TEXT_SUBSEA050_00462_STAELWYRN_000_16","どいつもこいつも海が忘れられねえようでな。
-いまいち野良仕事に身が入らんのが現状だ。
-今の赤帽野郎も、そのひとりさ。"
-58,"TEXT_SUBSEA050_00462_STAELWYRN_000_17","おかげで、指導のために招かれた
-お雇い園芸師たちも、頭を抱えてる有様だ。
-すまんが、困っている連中を助けてやってくれ。"
+48,"TEXT_SUBSEA050_00462_BADERON_000_1","Still in Limsa, are ye, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>? 'Ow'd ye fancy a trip outside the city walls?"
+49,"TEXT_SUBSEA050_00462_BADERON_000_2","I'd like ye to visit an orchard by the name o' Summerford Farms. Ever 'eard o' the place? The owner, Staelwyrn, is an old mate o' mine."
+50,"TEXT_SUBSEA050_00462_BADERON_000_3","'E's got 'imself a crew o' mostly reformed pirate types, if ye can believe that, and 'as been tryin' to bring a bit o' life back to the fields after the Calamity ruined the soil. 'E mentioned needin' another 'and or two, and yer name sprang to mind."
+51,"TEXT_SUBSEA050_00462_BADERON_000_4","I gave ye a glowin' recommendation, so make sure ye work 'ard and impress the old bastard. Ye need directions? The place ain't 'ard to find: just take the Zephyr Gate out o' the city, and follow the road northeast."
+52,"TEXT_SUBSEA050_00462_STAELWYRN_000_11","Ah, you must be the adventurer Baderon promised to send along. <Highlight>ObjectParameter(1)</Highlight>, wasn't it?"
+53,"TEXT_SUBSEA050_00462_STAELWYRN_000_12","You honored his word, so that's a good start. I'm Staelwyrn, the “old bastard,” as Baderon likely described me, and this here is my humble orchard."
+54,"TEXT_SUBSEA050_00462_STAELWYRN_000_13","A good number of the lads and lasses workin' here once terrorized the high seas. And if you're wonderin' why I employ these scrags, well, they used to crew my pirate ship."
+55,"TEXT_SUBSEA050_00462_STAELWYRN_000_14","But the Calamity did for our ship, like it did so many others, and I was sore wounded into the bargain."
+56,"TEXT_SUBSEA050_00462_STAELWYRN_000_15","I had to feed myself and my crew somehow, and Admiral Merlwyb's initiative to get us landlocked buccaneers workin' the fields seemed too fine an offer to refuse."
+57,"TEXT_SUBSEA050_00462_STAELWYRN_000_16","Well, it turns out you can take the pirate away from the sea, but you can't take the sea away from the pirate. A lot of my blokes just never took to tendin' the soil, you see."
+58,"TEXT_SUBSEA050_00462_STAELWYRN_000_17","And unfortunately, the botanists I called in to train 'em have been wringin' their hands in black despair. With so much work pilin' up, I need a tougher soul like you to step in and help where it's needed."

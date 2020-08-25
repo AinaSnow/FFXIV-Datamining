@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ004_02638_SEQ_00","ラールガーズリーチのローエンガルデ族の闘士は、必死に探しものをしているようだ。"
+0,"TEXT_STMBDZ004_02638_SEQ_00","The swarthy Resistance fighter is at wit's end."
 1,"TEXT_STMBDZ004_02638_SEQ_01",""
 2,"TEXT_STMBDZ004_02638_SEQ_02",""
 3,"TEXT_STMBDZ004_02638_SEQ_03",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_STMBDZ004_02638_SEQ_21",""
 22,"TEXT_STMBDZ004_02638_SEQ_22",""
 23,"TEXT_STMBDZ004_02638_SEQ_23",""
-24,"TEXT_STMBDZ004_02638_TODO_00","<Sheet(EventItem,2002334,0)/>を探す"
-25,"TEXT_STMBDZ004_02638_TODO_01","ローエンガルデ族の闘士に<Sheet(EventItem,2002334,0)/>を渡す"
+24,"TEXT_STMBDZ004_02638_TODO_00","Search for the swarthy Resistance fighter's ward."
+25,"TEXT_STMBDZ004_02638_TODO_01","Deliver the ward to the swarthy Resistance fighter."
 26,"TEXT_STMBDZ004_02638_TODO_02",""
 27,"TEXT_STMBDZ004_02638_TODO_03",""
 28,"TEXT_STMBDZ004_02638_TODO_04",""
@@ -49,31 +49,15 @@ int32,str,str
 45,"TEXT_STMBDZ004_02638_TODO_21",""
 46,"TEXT_STMBDZ004_02638_TODO_22",""
 47,"TEXT_STMBDZ004_02638_TODO_23",""
-48,"TEXT_STMBDZ004_02638_BURLYPRIVATE02638_000_000","くっそ……どこにいっちまったんだ！？
-なんで失くしちまうかなぁ、もう……！"
-49,"TEXT_STMBDZ004_02638_BURLYPRIVATE02638_000_001","なんだい、あんた……力を貸してくれるのか？
-だったら「<Sheet(EventItem,2002334,0)/>」を探すのを手伝ってくれ！"
-50,"TEXT_STMBDZ004_02638_BURLYPRIVATE02638_000_002","今朝までは、絶対に持っていたんだ。
-ラールガーズリーチの外には出ていないから、
-どこかに落ちていると思うんだが……。"
-51,"TEXT_STMBDZ004_02638_BURLYPRIVATE02638_000_003","悪いんだが、あんたは星導山寺院の入口方面を探してくれ。
-俺は、もう一度、司令部の天幕周辺を見てくる。"
-52,"TEXT_STMBDZ004_02638_BURLYPRIVATE02638_000_004","あれは、俺にとって大切なものなんだ。
-失くしちまったかと思うと……どうか頼む！"
-53,"TEXT_STMBDZ004_02638_BURLYPRIVATE02638_000_005","星導山寺院の入口方面に、
-「<Sheet(EventItem,2002334,0)/>」が落ちてないか、探してくれ。
-失くしちまったかと思うと……どうか頼む！"
-54,"TEXT_STMBDZ004_02638_BURLYPRIVATE02638_000_010","はぁ……探してるんだが、見つからねぇ……。
-で、そっちはどうだった？"
-55,"TEXT_STMBDZ004_02638_BURLYPRIVATE02638_000_011","おぉぉぉ！
-こ、この印の擦れ具合は、俺の神符じゃねぇか！
-恩に着るぜ、<If(PlayerParameter(4))>姉ちゃん<Else/>兄ちゃん</If>！"
-56,"TEXT_STMBDZ004_02638_BURLYPRIVATE02638_000_012","コイツは、お袋が生まれてくる俺のために、
-星導山寺院を詣でて、手に入れてくれたものでな。
-当時は、ここも多くの参拝客で賑わっていたそうだぜ。"
-57,"TEXT_STMBDZ004_02638_BURLYPRIVATE02638_000_013","それが、廃王テオドリックによる焼き討ちと、
-続く帝国侵攻による宗教弾圧で、星導教は滅びちまった。"
-58,"TEXT_STMBDZ004_02638_BURLYPRIVATE02638_000_014","でもよ、どんなに弾圧されようとも、俺の心は変えさせねぇ！
-俺だって産まれてくる我が子の加護を願い、神符を贈りたいんだ！
-そんな素朴な信仰を守るため……俺は精一杯戦うぜ！"
-59,"TEXT_STMBDZ004_02638_ALPHINAUD_000_020","そちらの手伝いは終わったのかい？"
+48,"TEXT_STMBDZ004_02638_BURLYPRIVATE02638_000_000","Damn it all! Where could it have got to!?"
+49,"TEXT_STMBDZ004_02638_BURLYPRIVATE02638_000_001","Oh! Um, pardon me, fellow lover of freedom and justice. You haven't seen a ward of the Destroyer anywhere, have you? Maybe on the ground, as if a certain bloody fool had dropped it?"
+50,"TEXT_STMBDZ004_02638_BURLYPRIVATE02638_000_002","Aye, I'd been him. I had it this morning, that much I know for certain, and I've not left the Reach since, so it's got to be around here somewhere."
+51,"TEXT_STMBDZ004_02638_BURLYPRIVATE02638_000_003","Hmm... If you've got a moment to spare, would you be willing to help me search? I spent some time near the Temple of the Fist earlier, so it might be there. As for me, I'll look around near the officer's pavilion."
+52,"TEXT_STMBDZ004_02638_BURLYPRIVATE02638_000_004","They're hardly rare, I know, and I could just as easily buy another, but even so... Please, help me find it..."
+53,"TEXT_STMBDZ004_02638_BURLYPRIVATE02638_000_005","If it's not here, then it's got to be somewhere near the Temple of the Fist. At least, I think it's got to be one of these two locations..."
+54,"TEXT_STMBDZ004_02638_BURLYPRIVATE02638_000_010","I swear, I've searched high and low, but it just won't turn up..."
+55,"TEXT_STMBDZ004_02638_BURLYPRIVATE02638_000_011","Seven hells, that's the one! That's my lucky ward! You're a godssend, <If(PlayerParameter(4))>sister<Else/>brother</If>!"
+56,"TEXT_STMBDZ004_02638_BURLYPRIVATE02638_000_012","Before I was born, my mother made a pilgrimage to the Temple of the Fist, where she, like many others, received the blessings of the monks."
+57,"TEXT_STMBDZ004_02638_BURLYPRIVATE02638_000_013","And then Theodoric came and burned it all to the ground, the mad bastard. And after him came the Garleans, who cared even less for our beliefs."
+58,"TEXT_STMBDZ004_02638_BURLYPRIVATE02638_000_014","But I still keep to the old ways, as do many others. And when my son is born, I'll teach him the stories and the scripture, as my mother taught me..."
+59,"TEXT_STMBDZ004_02638_ALPHINAUD_000_020","Assisting one of your fellow freedom fighters? I will leave you to it, then."

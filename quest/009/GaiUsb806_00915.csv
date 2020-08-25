@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB806_00915_SEQ_00","キャンプ・ドラゴンヘッドのメドゥィルは、冒険者にある魔物を討伐してほしいようだ。"
-1,"TEXT_GAIUSB806_00915_SEQ_01","メドゥィルの息子は「悪鬼の胃袋」に迷いこみ、死んでしまったらしい。仇を討つため、<Sheet(EObj,2002151,0)/>に「<Sheet(EventItem,2000860,0)/>」を使い、呼び寄せた「<Sheet(BNpcName,2009,0)/>」を討伐しよう。"
-2,"TEXT_GAIUSB806_00915_SEQ_02","<Sheet(BNpcName,2009,0)/>を討伐して「<Sheet(EventItem,2000718,0)/>」を手に入れた。キャンプ・ドラゴンヘッドの「メドゥィル」に渡そう。"
-3,"TEXT_GAIUSB806_00915_SEQ_03","イシュガルドでは、ドラゴン族と戦って死んだ者は聖者と持ちあげられるが、魔物と戦って死んだ者は愚者の扱いを受けるのだという。ともあれ、冒険者の働きによって、メドゥィルの願いは叶ったようだ。"
+0,"TEXT_GAIUSB806_00915_SEQ_00","The Sharlayans say there are no greater generals than old women with naught to lose, and Meduil's steely gaze says she means to send you to war."
+1,"TEXT_GAIUSB806_00915_SEQ_01","Meduil's son perished in the Ogre's Belly, and she will have no others robbed by his killer. Spill the karakul blood as bait, then slay the ravening gorgotaur drawn by the scent."
+2,"TEXT_GAIUSB806_00915_SEQ_02","The gorgotaur, grown fat on easy kills in the blizzard, is no match for your skills. Yet you are still heartsore, for a dead killer is cold comfort. You find a mythril rosary among the moldering bones; give it to Meduil."
+3,"TEXT_GAIUSB806_00915_SEQ_03","In Ishgard, the measure of honor accorded to those killed by Dravanians is the measure of scorn heaped on those slain otherwise. Against that stark truth, your small act of kindness appears to mean all the more to Meduil."
 4,"TEXT_GAIUSB806_00915_SEQ_04",""
 5,"TEXT_GAIUSB806_00915_SEQ_05",""
 6,"TEXT_GAIUSB806_00915_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSB806_00915_SEQ_21",""
 22,"TEXT_GAIUSB806_00915_SEQ_22",""
 23,"TEXT_GAIUSB806_00915_SEQ_23",""
-24,"TEXT_GAIUSB806_00915_TODO_00","<Sheet(EObj,2002151,0)/>に<Sheet(EventItem,2000860,0)/>を使い、<Sheet(BNpcName,2009,0)/>を討伐"
-25,"TEXT_GAIUSB806_00915_TODO_01","メドゥィルに<Sheet(EventItem,2000718,0)/>を渡す"
+24,"TEXT_GAIUSB806_00915_TODO_00","Spill karakul blood on the bait spot and slay the gorgotaur."
+25,"TEXT_GAIUSB806_00915_TODO_01","Deliver the mythril rosary to Meduil."
 26,"TEXT_GAIUSB806_00915_TODO_02",""
 27,"TEXT_GAIUSB806_00915_TODO_03",""
 28,"TEXT_GAIUSB806_00915_TODO_04",""
@@ -49,30 +49,18 @@ int32,str,str
 45,"TEXT_GAIUSB806_00915_TODO_21",""
 46,"TEXT_GAIUSB806_00915_TODO_22",""
 47,"TEXT_GAIUSB806_00915_TODO_23",""
-48,"TEXT_GAIUSB806_00915_MEDUIL_000_000","私にはね、息子がいたんだよ。
-だが、吹雪の日に「悪鬼の胃袋」に迷いこんだ末、
-魔物に殺されてしまった。"
-49,"TEXT_GAIUSB806_00915_MEDUIL_000_001","もし、あんたがこの婆の願いを叶えてくれるのなら、
-「<Sheet(BNpcName,2009,0)/>」を討伐して、
-息子の仇を討ってはくれんかね？"
-50,"TEXT_GAIUSB806_00915_MEDUIL_000_002","この「<Sheet(EventItem,2000860,0)/>」を持っておいき。
-振りまけば血の匂いに誘われ、奴が姿を現すそうだ。
-……くれぐれも、気をつけるんだよ。"
-51,"TEXT_GAIUSB806_00915_DUMMY_000_000","指定地点でタウロス呼び寄せアイテムを使用すると、タウロス出現。討伐するとロザリオを落とす。"
-52,"TEXT_GAIUSB806_00915_DUMMY_000_001","Eobjロザリオにアクセスし、拾う"
+48,"TEXT_GAIUSB806_00915_MEDUIL_000_000","I had a son once, a fine boy. Maybe if he'd lived, he would have <If(PlayerParameter(4))>found a fine girl like you and I'd be dandling a grandchild on my knee.<Else/>been around your age by now─I'm not sure, my memory's not so good these days.</If> But he wandered into the Ogre's Belly in a blizzard, and one of the beasts in there killed him."
+49,"TEXT_GAIUSB806_00915_MEDUIL_000_001","I'm neither a knight nor a maid, but I tell you my heart cries out for vengeance─nay, justice─even after all these years. I won't go to my grave knowing that creature will blight another life as it did mine. Take all that I have left, but slay the gorgotaur."
+50,"TEXT_GAIUSB806_00915_MEDUIL_000_002","Here, this is a bottle of karakul blood. Pour it out and the scent will draw the creature. It doesn't care what kind of blood it is, you see. Once it senses prey... You'll be ready, won't you?"
+51,"TEXT_GAIUSB806_00915_DUMMY_000_000",""
+52,"TEXT_GAIUSB806_00915_DUMMY_000_001",""
 53,"TEXT_GAIUSB806_00915_SYSTEM_000_000",""
-54,"TEXT_GAIUSB806_00915_SYSTEM_000_001","（★未使用／削除予定★）"
-55,"TEXT_GAIUSB806_00915_MEDUIL_000_010","無事に戻ってきたんだね。
-<Sheet(BNpcName,2009,0)/>を倒してくれたんだね。
-……本当に、ありがとう。"
-56,"TEXT_GAIUSB806_00915_MEDUIL_000_020","この<Sheet(EventItem,2000718,0)/>は……。
-息子のものじゃないか、懐かしいねえ。"
-57,"TEXT_GAIUSB806_00915_MEDUIL_000_021","このイシュガルドではね、
-ドラゴン族との戦いで死ねば、聖者になれるんだ。
-だが、魔物との戦いで死んだ者は、ただの愚者さ。"
-58,"TEXT_GAIUSB806_00915_MEDUIL_000_022","息子は大事な偵察の任務中に死んだんだ。
-それでも、みんな知らぬ顔……。
-遺品ひとつ、仇ひとつ、取りに行っちゃくれなかった。"
-59,"TEXT_GAIUSB806_00915_MEDUIL_000_023","見ず知らずの婆のために、ありがとうよ。
-これで、やっとあの子も浮かばれるだろうさ。"
-60,"TEXT_GAIUSB806_00915_POP_MESSAGE_000","敵の気配を感じた！！"
+54,"TEXT_GAIUSB806_00915_SYSTEM_000_001",""
+55,"TEXT_GAIUSB806_00915_MEDUIL_000_010","Thank the Fury, you're safe! I thought my revenge had been the death of you, but you say it's the monster that's dead. Thank you, kind <If(PlayerParameter(4))>girl<Else/>boy</If>. "
+56,"TEXT_GAIUSB806_00915_MEDUIL_000_020","And would you look at that─you found his rosary! As bright as the day his father put it around his neck... They say mythril never loses its luster. Not like life, eh?"
+57,"TEXT_GAIUSB806_00915_MEDUIL_000_021","<Emphasis>Fall to a dragon, go to heaven.</Emphasis>
+<Emphasis>Fall to aught else, who gives two hells?</Emphasis>
+...That's the Ishgard way."
+58,"TEXT_GAIUSB806_00915_MEDUIL_000_022","He was a scout, and a good one I'm told. But he died a fool's death and fools deserve no justice. They found him, and left his things where they lay─left <Emphasis>him</Emphasis> where he lay. His own comrades."
+59,"TEXT_GAIUSB806_00915_MEDUIL_000_023","But you didn't, did you? You picked this up and brought it to me. A good heart and a noble soul, to keep your promise and do a kind thing unbidden. You are the justice I sought, adventurer, and now I may live out my days in peace."
+60,"TEXT_GAIUSB806_00915_POP_MESSAGE_000","You sense a hostile presence!"

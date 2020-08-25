@@ -1,14 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDC101_03022_SEQ_00","ラールガーズリーチのリセは、冒険者に報告があるようだ。"
-1,"TEXT_STMBDC101_03022_SEQ_01","前回までの冒険録：
-アルフィノ、アレンヴァルドとともに発見した「廃王の黄金」。これをアラミゴ側の資本として、ウルダハと共同でソルトリーの製塩業を興すことにより、難民の帰還支援策は、ようやくの目処が立つことになった。そんな中で開かれた、アラミゴ国内の体制を決める代表者会議で、カリヤナ派のアナンタ族が美神「ラクシュミ」を召喚。会議の場はいっとき混乱に包まれるも、冒険者とアレンヴァルド、牢から駆けつけたフォルドラにより、「ラクシュミ」は討伐される。会議も無事に終了し、アラミゴは民に選ばれた代表による議会制へと移行することになった。新たな未来へと歩み始めたアラミゴ。その道をともに歩む者として、ラウバーンがアラミゴ解放軍へと加わるのだった。
-　　　　　　　　　　　　*　*　*
-リセから、アラミゴの近況を聞いているところに、アルフィノとアリゼーがやって来た。タタルから緊急の報せが届いたらしい。クガネの「ウルダハ商館応接室」に向かおう。「東アルデナード商会の使用人」に話しかければ、応接室のタタルとハンコックに取り次いでくれるようだ。"
-2,"TEXT_STMBDC101_03022_SEQ_02","東アルデナード商会の使用人に応接室へと取り次いでもらった。ウルダハ商館応接室に向かい、ハンコックたちの話を聞こう。"
-3,"TEXT_STMBDC101_03022_SEQ_03","クガネで、ゴウセツとヨツユらしい二人組が目撃されたらしい。ハンコックが雇った情報屋との合流地点である、クガネの三条花街に向かい、「アリゼー」と話そう。"
-4,"TEXT_STMBDC101_03022_SEQ_04","情報屋とは、ナマズオのギョドウのことだった。帝国人と接触するというギョドウと、手分けをして情報収集をすることになった。ゴウセツらしき侍が刀を質入れしたという質屋にあたってみよう。"
+0,"TEXT_STMBDC101_03022_SEQ_00","Lyse has tidings to share with you."
+1,"TEXT_STMBDC101_03022_SEQ_01","Lyse is busy apprising you of recent developments in Ala Mhigo when Alphinaud and Alisaie arrive bearing word from Tataru. Apparently, Hancock has acquired information of great interest and no small amount of urgency, leaving you little choice but to set out at once for the offices of the East Aldenard Trading Company in distant Kugane."
+2,"TEXT_STMBDC101_03022_SEQ_02","At the Ruby Bazaar, Hancock shares a tantalizing rumor: that individuals resembling Gosetsu and Yotsuyu were but recently seen walking the streets of Kugane. Though you struggle to comprehend how they could possibly have escaped Doma Castle alive, the fact remains that the Garleans were sufficiently convinced to dispatch a sizable contingent of soldiers to hunt them down. Never one to leave a comrade at an enemy's mercy, you agree to join Yugiri in her quest for the truth."
+3,"TEXT_STMBDC101_03022_SEQ_03","Ever eager to help, Hancock has taken the liberty of employing “one of the finest informants money can buy” to aid in the search. He awaits you in the back streets of Sanjo Hanamachi..."
+4,"TEXT_STMBDC101_03022_SEQ_04","To no one's surprise, the informant turns out to be Gyodo, the Namazu who unwisely betrayed you to the Empire during your first visit to Kugane. Promising no more funny business, he shares a promising lead: an elderly Roegadyn samurai recently sold a katana of surpassing craftsmanship to a pawnbroker on Kogane Dori. While Alisaie accompanies Gyodo to a meeting with his imperial connections, you and the others will seek out the pawnbroker to ascertain whether the weapon in question did indeed belong to Gosetsu."
 5,"TEXT_STMBDC101_03022_SEQ_05",""
 6,"TEXT_STMBDC101_03022_SEQ_06",""
 7,"TEXT_STMBDC101_03022_SEQ_07",""
@@ -28,9 +25,9 @@ int32,str,str
 21,"TEXT_STMBDC101_03022_SEQ_21",""
 22,"TEXT_STMBDC101_03022_SEQ_22",""
 23,"TEXT_STMBDC101_03022_SEQ_23",""
-24,"TEXT_STMBDC101_03022_TODO_00","クガネのウルダハ商館応接室に向かう"
-25,"TEXT_STMBDC101_03022_TODO_01","クガネのウルダハ商館応接室に向かう"
-26,"TEXT_STMBDC101_03022_TODO_02","三条花街のアリゼーと話す"
+24,"TEXT_STMBDC101_03022_TODO_00","Head to the Ruby Bazaar offices in Kugane."
+25,"TEXT_STMBDC101_03022_TODO_01","Head to the Ruby Bazaar offices in Kugane."
+26,"TEXT_STMBDC101_03022_TODO_02","Speak with Alisaie in Sanjo Hanamachi."
 27,"TEXT_STMBDC101_03022_TODO_03",""
 28,"TEXT_STMBDC101_03022_TODO_04",""
 29,"TEXT_STMBDC101_03022_TODO_05",""
@@ -52,154 +49,68 @@ int32,str,str
 45,"TEXT_STMBDC101_03022_TODO_21",""
 46,"TEXT_STMBDC101_03022_TODO_22",""
 47,"TEXT_STMBDC101_03022_TODO_23",""
-48,"TEXT_STMBDC101_03022_LYSE_000_000","あっ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>！
-ちょうど、報告したいことがあって、
-「暁」に連絡を取ろうとしていたんだよね。"
-49,"TEXT_STMBDC101_03022_LYSE_000_001","代表者会議で議論した結果、
-アラミゴ解放軍が、正式な国軍に昇格することに決まったんだ。
-初代総指揮官に選ばれたのは、アラミゴの猛牛、ラウバーン！"
-50,"TEXT_STMBDC101_03022_LYSE_000_002","彼が復興の陣頭に立つってことで、みんな沸き立ってるんだ。
-それもこれも、あなたとナナモ様が、
-ラウバーンの決断を後押ししてくれたおかげだね。"
-51,"TEXT_STMBDC101_03022_MNAAGO_000_003","ここラールガーズリーチも、正式に維持することに決まりました。
-リセも、改めて辺境地帯方面の部隊長に就任して、
-ずいぶん張り切っているんですよ？"
-52,"TEXT_STMBDC101_03022_LYSE_000_004","ラクシュミ再召喚の一件があったばかりだし、
-カリヤナ派の監視も緩めるわけにはいかないからね。
-……それで、いくつかわかったこともあるんだ。"
-53,"TEXT_STMBDC101_03022_LYSE_000_005","ラウバーンに斬られた族長のかわりに、
-その娘が、カリヤナ派の新族長になったらしいんだけどさ……。
-あの子、魂のない人形のような状態が続いているみたいで。"
-54,"TEXT_STMBDC101_03022_LYSE_000_006","指導者が、そんな様子だから、かなり混乱していてね。
-今は対話に応じる余裕もないみたいだけど……
-手を取り合える日が来るよう、呼びかけを続けていくつもり。"
-55,"TEXT_STMBDC101_03022_LYSE_000_007","あっ、対話といえば……
-牢にいるフォルドラのところにも、たまに話しに行ってるんだ。"
-56,"TEXT_STMBDC101_03022_LYSE_000_008","彼女も彼女で、うつむいて全然アタシを見てくれないんだけどさ。
-少しずつ、言葉だけは返してくれるようになってきたの。
-いずれ、こっちを振り向かせてみせるからねっ。"
-57,"TEXT_STMBDC101_03022_ALPHINAUD_000_009","ここにいたのか、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>！"
-58,"TEXT_STMBDC101_03022_LYSE_000_011","アルフィノ！　それに、アリゼーも！
-……何かあったの？"
-59,"TEXT_STMBDC101_03022_ALISAIE_000_012","クガネにいるタタルから、報せが届いたの。
-ハンコックが、緊急性の高い重要情報を掴んだとかで、
-急いで来てほしいそうよ。"
-60,"TEXT_STMBDC101_03022_ALPHINAUD_000_013","そこで私が、君と一緒に現地へ赴こうかと思ったのだが……。
-アリゼーも、どうしても行くと譲らなくてね。"
-61,"TEXT_STMBDC101_03022_ALISAIE_000_014","いいじゃない、だいぶ怪我も治ってきたし、
-なまっている身体を動かしたかったところなのよ。
-それに急ぎの事態なら、人手は多いほうがいいでしょ？"
-62,"TEXT_STMBDC101_03022_ALPHINAUD_000_015","……やれやれ、言い出したら聞かないからな。"
-63,"TEXT_STMBDC101_03022_ALPHINAUD_100_015","ともかく、すぐにでも出発したいところなんだが……
-今から同行を頼めるかい？"
-64,"TEXT_STMBDC101_03022_LYSE_000_016","……こういうとき、一緒に行けないのは寂しいけどさ。
-応援してるから、みんながんばってね！"
-65,"TEXT_STMBDC101_03022_ALPHINAUD_000_017","ありがとう、リセ。
-もし、アラミゴにも関係しそうな内容だったら、
-すぐ君に報せることにするよ。"
-66,"TEXT_STMBDC101_03022_ALPHINAUD_000_018","それでは、クガネの商館へ向かおう。
-「東アルデナード商会の使用人」に話しかければ、
-ハンコックに取り次いでくれるはずだ。"
-67,"TEXT_STMBDC101_03022_LYSE_000_020","アラミゴの自由は、アタシたちで守ってみせるから。
-タタルやハンコックに、よろしく伝えてね！"
-68,"TEXT_STMBDC101_03022_MNAAGO_000_025","クガネからの呼び出し……。
-どのような内容かはわかりませんが、
-皆さんのご無事をお祈りしております！"
-69,"TEXT_STMBDC101_03022_EATCASSISTANT_000_030","ようこそ、お客様。
-「ウルダハ商館応接室」に入られますか？"
-70,"TEXT_STMBDC101_03022_SCENE00006_EVENTAREA_WARP_YESNO_TITLE","「ウルダハ商館応接室」へ入りますか？"
-71,"TEXT_STMBDC101_03022_HANCOCK_000_040","情報屋とは、「三条花街」の裏路地で落ち合えるはずデス。
-クガネの隅々に精通した、ずる賢い……いえ、優秀な情報屋に、
-協力をお願いしておきマシタ～！"
-72,"TEXT_STMBDC101_03022_ALISAIE_000_041","クガネの、ずる賢くて優秀な情報屋ねえ……。
-どうも、いつぞや会ったナマズオが頭に浮かぶんだけど……
-まあ、とにかく向かってみましょうか。"
-73,"TEXT_STMBDC101_03022_SOROBAN_000_042","それじゃ、オイラも協力するよぉ～。
-<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>に頼み事があったんだけど、
-まずは、そっちの話を片付けたほうがよさそうだからねぇ～。"
-74,"TEXT_STMBDC101_03022_SOROBAN_000_043","もしも、尋ね人がクガネの外に出ていた場合、
-移動のための足が必要だろぉ～？
-港で用意しておくから、いつでも声をかけてねぇ～。"
-75,"TEXT_STMBDC101_03022_TATARU_000_044","それなら、私もソロバンさんのお手伝いをするでっす！
-出港準備を整えておくので、情報収集が終わったら、
-ひとまず第二波止場で合流でっす！"
-76,"TEXT_STMBDC101_03022_ALPHINAUD_000_045","ありがたい！
-では、船のことはふたりに任せることにして、
-私たちは、情報屋に会いに「三条花街」へ向かうとしよう。"
-77,"TEXT_STMBDC101_03022_HANCOCK_000_050","情報屋とは、「三条花街」に行けば落ち合えるはずデス。
-その手腕については、ばっちり保証しマ～ス！
-……人格はさておき、デスがね。"
-78,"TEXT_STMBDC101_03022_ALPHINAUD_000_053","帝国の動きを考えるに、
-その二人組がゴウセツ殿とヨツユである可能性は高いだろう。
-しかし、何故ともに行動を……？"
-79,"TEXT_STMBDC101_03022_YUGIRI_000_055","そういえば貴殿たちは、
-クガネで情報収集を行うのは初めてではないのだったな。
-情報屋に、心当たりは？"
-80,"TEXT_STMBDC101_03022_ALISAIE_000_060","情報屋と落ち合うのは、ここでいいのよね？
-さて、いったいどんな相手がやってくるのやら……。"
-81,"TEXT_STMBDC101_03022_GYODO_000_061","(-？？？？-)ぺっぺっぺっ……。
-<If(PlayerParameter(4))>姐御<Else/>旦那</If>たち、お久しぶりだっぺな。
-到着を、首を長くしてお待ちしていたっペよ～！"
-82,"TEXT_STMBDC101_03022_ALISAIE_000_062","……その短い首が、どう長くなるのかはさておき、
-情報屋って、やっぱりあなただったのね、ギョドウ。"
-83,"TEXT_STMBDC101_03022_ALISAIE_000_063","今日のところは、リセがいっしょじゃないけど……
-また嘘の情報を教えたりしたらどうなるか、わかってるわよね？"
-84,"TEXT_STMBDC101_03022_GYODO_000_064","いやいや、そんなことしないっペ！
-この足で仕入れた、確かな情報をお届けするっペな！
-ただ～し……払うものは、払ってもらうっぺよ～？"
-85,"TEXT_STMBDC101_03022_ALISAIE_000_065","……まったく、どうせそんなこと言って、
-ハンコックからも、しっかり代金を受け取ってるんでしょう！？
-セコいことしてるんじゃないわよ！"
-86,"TEXT_STMBDC101_03022_GYODO_000_066","う、うぺぺぺ……！　その冷たい眼で見られただけで、
-急に、お腹がムチュムチュしてきたっぺな……！
-特別にタダで教えてやるから、勘弁してほしいっぺよ！"
-87,"TEXT_STMBDC101_03022_GYODO_000_067","帝国人は、ヨツユのことを血眼で探しているっぺな……！
-オレにも、二人組の行方を掴んだら賞金を差し出すと、
-頭を下げて頼んできたっぺよ！"
-88,"TEXT_STMBDC101_03022_ALPHINAUD_000_068","ふむ……そもそもだが、目撃されたという二人組が、
-ゴウセツ殿とヨツユだという証拠はあるのかい？"
-89,"TEXT_STMBDC101_03022_GYODO_000_069","あいにくオレは、ふたりを見てないっぺよ……。
-ただ、賞金の額や市中を走り回る兵隊の数からして、
-帝国人たちは、そう確信してると思うっぺな。"
-90,"TEXT_STMBDC101_03022_GYODO_000_070","そして、ここからが、とびっきりの情報っぺよ！
-小金通りの質屋に、ルガディン族の侍が女連れで現れて、
-業物の刀を質草に出したという噂があるっぺな！"
-91,"TEXT_STMBDC101_03022_ALISAIE_100_071","へぇ、いい情報じゃない。
-でも、その噂……ちゃんと裏を取ったんでしょうね？"
-92,"TEXT_STMBDC101_03022_GYODO_000_071","う、うぺぺぺぺ……あの質屋……
-「招福質店」の主とオレは、運命的に相性が悪いっぺよ……。"
-93,"TEXT_STMBDC101_03022_ALISAIE_100_072","……どうせ、借金踏み倒したとか何だとかで、
-顔を合わせるのもはばかられるってだけでしょう？"
-94,"TEXT_STMBDC101_03022_GYODO_000_072","うぺぺ、とにかく質屋の件は任せるっぺよ！
-その間、オレも帝国人に接触して、
-新しい情報がないか探ってみることにするっぺな！"
-95,"TEXT_STMBDC101_03022_YUGIRI_000_073","質屋に行って、刀を検分すれば、
-ゴウセツの物かどうかはわかるだろう……。
-だが、こやつを帝国人のところに向かわせていいものか……？"
-96,"TEXT_STMBDC101_03022_Q1_000_000","何と答える？"
-97,"TEXT_STMBDC101_03022_A1_000_001","仕方ない"
-98,"TEXT_STMBDC101_03022_A1_000_002","裏切りそうだ"
-99,"TEXT_STMBDC101_03022_A1_000_003","…………"
-100,"TEXT_STMBDC101_03022_GYODO_000_080","さっすが、<If(PlayerParameter(4))>姐御<Else/>旦那</If>は話がわかるっぺ～！
-いくらオレでも、ふたつの情報を同時には追えないっぺな。
-素早く情報を掴むために、オレと<If(PlayerParameter(4))>姐御<Else/>旦那</If>たちで連携するっぺよ！"
-101,"TEXT_STMBDC101_03022_GYODO_000_085","ぺぺっ、信じてほしいっぺよ～。
-いくらオレでも、ふたつの情報を同時には追えないっぺな。
-素早く情報を掴むために、オレと<If(PlayerParameter(4))>姐御<Else/>旦那</If>たちで連携するっぺ！"
-102,"TEXT_STMBDC101_03022_GYODO_000_090","そ、その冷たい目をやめてほしいっぺ……。
-いくらオレでも、ふたつの情報を同時には追えないっぺな。
-素早く情報を掴むために、オレと<If(PlayerParameter(4))>姐御<Else/>旦那</If>たちで連携するっぺよ！"
-103,"TEXT_STMBDC101_03022_ALISAIE_000_095","状況が状況だし、分担することには私も賛成よ。
-……ただ、私はギョドウに同行することにするわ。
-目付役がいたほうが、よく働いてくれそうだし……ね？"
-104,"TEXT_STMBDC101_03022_GYODO_000_097","も、ももも、もちろんだっぺよ～……！
-姉御がついてきてくれるなら、ひゃ、百人力っぺな……！！"
-105,"TEXT_STMBDC101_03022_ALISAIE_000_098","じゃあ、そういうことだから質屋の調査は任せるわね。
-あとで第二波止場で合流しましょう。"
-106,"TEXT_STMBDC101_03022_ALPHINAUD_000_099","……まぁ、アリゼーに任せておけば大丈夫だろう。
-私たちは、質屋に流されたという刀をあたってみるとしようか。"
-107,"TEXT_STMBDC101_03022_SYSTEM_000_500","エモートアクション「挨拶する」を覚えた！"
-108,"TEXT_STMBDC101_03022_SCENE00006_EVENTAREA_WARP_YESNO_YES","（★未使用／削除予定★）"
-109,"TEXT_STMBDC101_03022_SCENE00006_EVENTAREA_WARP_YESNO_NO","（★未使用／削除予定★）"
-110,"TEXT_STMBDC101_03022_ALPHINAUD_000_010","（★未使用／削除予定★）"
-111,"TEXT_STMBDC101_03022_ALISAIE_000_096","（★未使用／削除予定★）"
+48,"TEXT_STMBDC101_03022_LYSE_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! Great timing! I was just about to send word to the Scions. I've got <Emphasis>lots</Emphasis> to tell you!"
+49,"TEXT_STMBDC101_03022_LYSE_000_001","The council has officially recognized the Resistance as our standing army. And I expect you can guess who's been appointed commander. Suffice it to say, we're in good <Emphasis>hand</Emphasis>!"
+50,"TEXT_STMBDC101_03022_LYSE_000_002","Having the Bull of Ala Mhigo at the helm's done wonders for morale. People were dancing in the streets when the announcement was made. And we have you and the sultana to thank for it. If you two hadn't worked your magic, he'd never have contemplated following his heart."
+51,"TEXT_STMBDC101_03022_MNAAGO_000_003","The council has also decreed that we're to maintain a presence at Rhalgr's Reach. Lyse will continue to lead our forces in the Fringes─a job she's been doing tirelessly. A bit <Emphasis>too</Emphasis> tirelessly, some might say. We're constantly having to remind her to rest before she falls over."
+52,"TEXT_STMBDC101_03022_LYSE_000_004","That's an exaggeration─and I always get up again. Anyway, we can hardly afford to lower our guard now. Not after our latest brush with Lakshmi. Speaking of which, we've been keeping a close eye on the Qalyana, and it looks like they've chosen a new leader."
+53,"TEXT_STMBDC101_03022_LYSE_000_005","It's, um...Shanti's daughter. You know, the half-dead one. For whatever reason, the Qalyana thought she was the best candidate. Which makes them leaderless, basically."
+54,"TEXT_STMBDC101_03022_LYSE_000_006","As things stand, there's no prospect of engaging in talks, let alone coming to an understanding."
+55,"TEXT_STMBDC101_03022_LYSE_000_007","But I won't let that stop me. I'll keep on reaching out to them until they finally see sense."
+56,"TEXT_STMBDC101_03022_LYSE_000_008","Just like I've been reaching out to Fordola. She still won't meet my gaze, but she's given up trying to ignore me. It may only be the odd grunt, but at least she's responding. I'll get through to her yet."
+57,"TEXT_STMBDC101_03022_ALPHINAUD_000_009","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, there you are!"
+58,"TEXT_STMBDC101_03022_LYSE_000_011","Alphinaud, Alisaie! Is everything all right?"
+59,"TEXT_STMBDC101_03022_ALISAIE_000_012","We've received word from Tataru. Hancock has apparently acquired information of great interest and urgency. More than that she didn't say─only that we should come to Kugane right away."
+60,"TEXT_STMBDC101_03022_ALPHINAUD_000_013","I had a mind for the two of us to set forth together, but Alisaie is determined to make it a party of three."
+61,"TEXT_STMBDC101_03022_ALISAIE_000_014","As I've told you more than a dozen times, Brother, my wounds are quite healed, and I would benefit from some fresh air. Besides, you may well need an extra pair of hands."
+62,"TEXT_STMBDC101_03022_ALPHINAUD_000_015","Worry not, Sister, I have quite given up trying to convince you."
+63,"TEXT_STMBDC101_03022_ALPHINAUD_100_015","Whether we be two or three, we should depart as soon as possible. You will be joining us, I trust?"
+64,"TEXT_STMBDC101_03022_LYSE_000_016","Huh. I was about to say I'd come too, but I'll just have to settle for cheering you on from afar. Good luck with...whatever it turns out to be!"
+65,"TEXT_STMBDC101_03022_ALPHINAUD_000_017","Thank you, Lyse. Rest assured, should this business prove to be of even tangential concern to Ala Mhigo, we shall inform you without delay."
+66,"TEXT_STMBDC101_03022_ALPHINAUD_000_018","Let us be off, then. Hancock and Tataru await us at the Ruby Bazaar offices."
+67,"TEXT_STMBDC101_03022_LYSE_000_020","Give Tataru a hug from me, all right?"
+68,"TEXT_STMBDC101_03022_MNAAGO_000_025","I hope all goes well in Kugane. Safe travels."
+69,"TEXT_STMBDC101_03022_EATCASSISTANT_000_030","Greetings, honored <If(PlayerParameter(4))>madam<Else/>sir</If>. May I show you in?"
+70,"TEXT_STMBDC101_03022_SCENE00006_EVENTAREA_WARP_YESNO_TITLE","Enter the Ruby Bazaar offices?"
+71,"TEXT_STMBDC101_03022_HANCOCK_000_040","The informant awaits your pleasure in the back streets of Sanjo Hanamachi. From its shining facade to its dark underbelly, few know Kugane as intimately as he."
+72,"TEXT_STMBDC101_03022_ALISAIE_000_041","“One of the finest informants money can buy”... Why do I have a bad feeling about this?"
+73,"TEXT_STMBDC101_03022_SOROBAN_000_042","Permit me to assist you in your quest, my friends. The sooner your business is concluded, the sooner we may speak of mine!"
+74,"TEXT_STMBDC101_03022_SOROBAN_000_043","Should your search take you away from Kugane, my boat is at your disposal. I shall see that she is ready to sail."
+75,"TEXT_STMBDC101_03022_TATARU_000_044","I'll give Soroban a hand. If he's providing us a ship, the least we can do is supply the provisions. We'll be at the pier if you need us."
+76,"TEXT_STMBDC101_03022_ALPHINAUD_000_045","A welcome offer and an excellent plan. Without further ado, then, let us seek out this informant in Sanjo Hanamachi."
+77,"TEXT_STMBDC101_03022_HANCOCK_000_050","As I mentioned, the informant awaits your pleasure in the back streets of Sanjo Hanamachi. I can confidently vouch for the quality of his intelligence...if little else."
+78,"TEXT_STMBDC101_03022_ALPHINAUD_000_053","Given the Empire's movements, it seems highly probable that Gosetsu and Yotsuyu were indeed in Kugane. Yet I can offer no explanation as to why they should be together."
+79,"TEXT_STMBDC101_03022_YUGIRI_000_055","You have had dealings with informants in this city, have you not? Perchance you are already acquainted with this one."
+80,"TEXT_STMBDC101_03022_ALISAIE_000_060","This should be the place. Now we wait and see who comes."
+81,"TEXT_STMBDC101_03022_GYODO_000_061","(-???-)I-It has been a while, my friends. Yes, yes, a long while indeed."
+82,"TEXT_STMBDC101_03022_ALISAIE_000_062","<sigh> I knew it."
+83,"TEXT_STMBDC101_03022_ALISAIE_000_063","Gyodo─any funny business, and you know what will happen, I trust?"
+84,"TEXT_STMBDC101_03022_GYODO_000_064","No, no! No funny business! Only loyal service and the finest-quality information! O-Of course...such quality does not come cheap..."
+85,"TEXT_STMBDC101_03022_ALISAIE_000_065","...No. But then Hancock already paid you. Honestly, you must think we were born yesterday. I've half a mind to call <Emphasis>Lyse</Emphasis>."
+86,"TEXT_STMBDC101_03022_GYODO_000_066","No, no! No Lyse, I beg you! No boots! I will tell you everything I know─free of charge!"
+87,"TEXT_STMBDC101_03022_GYODO_000_067","The Empire searches for Yotsuyu. High and low, far and wide. Come to enlist my help, they did, promising rich rewards for decisive information."
+88,"TEXT_STMBDC101_03022_ALPHINAUD_000_068","And have you decisive information? Were the two individuals sighted here indeed Gosetsu and Yotsuyu?"
+89,"TEXT_STMBDC101_03022_GYODO_000_069","Alas, see them with my own eyes, I did not. But the imperials are confident. Yes, yes, very confident indeed. Look at the size of their contingent!"
+90,"TEXT_STMBDC101_03022_GYODO_000_070","But here is something they do not know... A rumor which you will find most interesting, I think. They say an elderly Roegadyn samurai appeared on Kogane Dori with a beauteous maiden, and sold his katana to a pawnbroker. 'Twas no common katana either, but one of surpassing craftsmanship."
+91,"TEXT_STMBDC101_03022_ALISAIE_100_071","Well, that <Emphasis>is</Emphasis> interesting─assuming it's true. Did you corroborate the rumor with the pawnbroker in question?"
+92,"TEXT_STMBDC101_03022_GYODO_000_071","Ah, er...no. Regrettably, I do not have a working relationship with the master of Shofuku Shichiten..."
+93,"TEXT_STMBDC101_03022_ALISAIE_100_072","Now why would that be, I wonder. If I didn't know better, I'd think he'd lent you money..."
+94,"TEXT_STMBDC101_03022_GYODO_000_072","Ahem! H-He will help you, I am certain! While you speak with him, I will make contact with my Garlean connections and learn what I can of their progress."
+95,"TEXT_STMBDC101_03022_YUGIRI_000_073","A glimpse of the blade is all I need to be sure. But is it wise to let the Namazu out of our sight?"
+96,"TEXT_STMBDC101_03022_Q1_000_000","Can we trust Gyodo?"
+97,"TEXT_STMBDC101_03022_A1_000_001","What choice do we have?"
+98,"TEXT_STMBDC101_03022_A1_000_002","No, he'll betray us."
+99,"TEXT_STMBDC101_03022_A1_000_003","..."
+100,"TEXT_STMBDC101_03022_GYODO_000_080","No other choice but this! And a fine choice it is! Though I am adept at gathering information, it is so much more <Emphasis>efficient</Emphasis> to share the work!"
+101,"TEXT_STMBDC101_03022_GYODO_000_085","No, no! No more betrayals! No more boots! To divide our forces is simply more efficient!"
+102,"TEXT_STMBDC101_03022_GYODO_000_090","D-Do not glare at me so, I beg you. To divide our forces is simply more efficient!"
+103,"TEXT_STMBDC101_03022_ALISAIE_000_095","He's right. Given the urgency, we would do well to split up.
+And so <Emphasis>I</Emphasis> will go with our friend here. Nothing improves efficiency like a little supervision."
+104,"TEXT_STMBDC101_03022_GYODO_000_097","You─ But─ Er...yes. Yes, yes. We will go together. And there will be no boots!"
+105,"TEXT_STMBDC101_03022_ALISAIE_000_098","Let's be about it, then. Good luck with the katana. Shall we reconvene at the pier later on? Fragrant as the Ruby Bazaar offices are, I prefer the fresh air."
+106,"TEXT_STMBDC101_03022_ALPHINAUD_000_099","I believe Alisaie has her task well in hand. Shall we seek out the pawnbroker?"
+107,"TEXT_STMBDC101_03022_SYSTEM_000_500","You have learned the emote <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Greeting<UIGlow>01</UIGlow><UIForeground>01</UIForeground>!"
+108,"TEXT_STMBDC101_03022_SCENE00006_EVENTAREA_WARP_YESNO_YES",""
+109,"TEXT_STMBDC101_03022_SCENE00006_EVENTAREA_WARP_YESNO_NO",""
+110,"TEXT_STMBDC101_03022_ALPHINAUD_000_010",""
+111,"TEXT_STMBDC101_03022_ALISAIE_000_096",""

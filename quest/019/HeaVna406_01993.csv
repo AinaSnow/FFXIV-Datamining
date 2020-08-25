@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNA406_01993_SEQ_00","雲霧街のアルフィノは、引き続き聞きこみをするつもりだ。"
-1,"TEXT_HEAVNA406_01993_SEQ_01","アルフィノから、ジブリオンに話を聞いてみるよう頼まれた。イシュガルドの忘れられた騎士亭にいる「ジブリオン」と話そう。"
-2,"TEXT_HEAVNA406_01993_SEQ_02","ジブリオンと話した。使いをやれば、「長耳」のヒントをくれるらしい。イシュガルドの宝杖通りにいる「たくましい猟師」と話そう。"
-3,"TEXT_HEAVNA406_01993_SEQ_03","たくましい猟師から<Sheet(EventItem,2001591,0)/>を受け取った。忘れられた騎士亭の「ジブリオン」に「<Sheet(EventItem,2001591,0)/>」を渡そう。"
-4,"TEXT_HEAVNA406_01993_SEQ_04","ジブリオンに<Sheet(EventItem,2001591,0)/>を渡した。彼は渡した<Sheet(EventItem,2001591,0)/>を使って、スパイスワインを作るらしい。そのスパイスワインを土産に、「長耳」に繋がる過去を持つふたりから、昔話を聞けと言うが……。"
+0,"TEXT_HEAVNA406_01993_SEQ_00","Alphinaud is not one to be easily deterred."
+1,"TEXT_HEAVNA406_01993_SEQ_01","Displaying an uncharacteristic lack of imagination, Alphinaud decides to continue questioning the people of the Brume, and bids you speak with Gibrillont in the meantime. Perhaps the proprietor of the Forgotten Knight will be more forthcoming than his customers."
+2,"TEXT_HEAVNA406_01993_SEQ_02","In response to your inquiries about the Mongrel, Gibrillont stresses that discretion is key to running a successful tavern, making it all too clear that he will divulge no useful information. Before you can turn to leave, however, he offers to point you in the right direction in exchange for a small favor. Make your way to the Jeweled Crozier and collect a satchel of herbs from a hunter in Gibrillont's stead."
+3,"TEXT_HEAVNA406_01993_SEQ_03","The hunter hands over the herbs with minimal fuss. Return to the Forgotten Knight and deliver them to Gibrillont."
+4,"TEXT_HEAVNA406_01993_SEQ_04","Herbs in hand, the proprietor of the Forgotten Knight sets about preparing a batch of mulled wine. Few things stir the hearts of men so well, he says. If shared with the right people, what stories─and secrets─might spill from their lips?"
 5,"TEXT_HEAVNA406_01993_SEQ_05",""
 6,"TEXT_HEAVNA406_01993_SEQ_06",""
 7,"TEXT_HEAVNA406_01993_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_HEAVNA406_01993_SEQ_21",""
 22,"TEXT_HEAVNA406_01993_SEQ_22",""
 23,"TEXT_HEAVNA406_01993_SEQ_23",""
-24,"TEXT_HEAVNA406_01993_TODO_00","ジブリオンと話す"
-25,"TEXT_HEAVNA406_01993_TODO_01","宝杖通りのたくましい猟師と話す"
-26,"TEXT_HEAVNA406_01993_TODO_02","忘れられた騎士亭のジブリオンに<Sheet(EventItem,2001591,0)/>を渡す"
+24,"TEXT_HEAVNA406_01993_TODO_00","Speak with Gibrillont."
+25,"TEXT_HEAVNA406_01993_TODO_01","Speak with the hulking hunter in the Pillars."
+26,"TEXT_HEAVNA406_01993_TODO_02","Deliver the fresh herbs to Gibrillont."
 27,"TEXT_HEAVNA406_01993_TODO_03",""
 28,"TEXT_HEAVNA406_01993_TODO_04",""
 29,"TEXT_HEAVNA406_01993_TODO_05",""
@@ -49,45 +49,19 @@ int32,str,str
 45,"TEXT_HEAVNA406_01993_TODO_21",""
 46,"TEXT_HEAVNA406_01993_TODO_22",""
 47,"TEXT_HEAVNA406_01993_TODO_23",""
-48,"TEXT_HEAVNA406_01993_ALPHINAUD_000_000","私は、ひきつづき雲霧街で聞き込みを続けるよ。
-君は「忘れられた騎士亭」に戻り、
-ジブリオン氏から、話を聞いてみてくれないかい？"
-49,"TEXT_HEAVNA406_01993_ALPHINAUD_000_001","酒場のマスターなら、周辺地域にも明るいだろう。
-もしかしたら、「長耳」に繋がる話が聞けるかもしれない。
-しばらくしたら私も酒場に赴くから、そこで合流しよう。"
-50,"TEXT_HEAVNA406_01993_TATARU_000_003","密かに勉強してきた「マンダヴィル流交渉術」で、
-情報を集めまくるでっす！"
-51,"TEXT_HEAVNA406_01993_ALPHINAUD_000_002","（★未使用／削除予定★）"
-52,"TEXT_HEAVNA406_01993_GIBRILLONT_000_010","ほう、「長耳」を探しているだと？
-……いいか<If(PlayerParameter(4))>姉さん<Else/>兄さん</If>、上手く酒場を経営する秘訣はな、
-無闇やたらに客の話を、他人に漏らさないことさ。"
-53,"TEXT_HEAVNA406_01993_GIBRILLONT_000_011","自分の情報が筒抜けになっちまうような店で、
-安心して酔うことなんてできんだろ？"
-54,"TEXT_HEAVNA406_01993_GIBRILLONT_000_012","だが、人と人とを結びつけるのも、酒場の魅力ではある。
-お前さんたちが、俺たちイシュガルドの民のために、
-働いてくれてるって話も聞いてるしな。"
-55,"TEXT_HEAVNA406_01993_GIBRILLONT_000_013","<If(PlayerParameter(4))>姉さん<Else/>兄さん</If>にやる気があるなら、
-特別にヒントくらいは、教えてやってもいいぜ。
-使いをやってくれるなら……な。"
-56,"TEXT_HEAVNA406_01993_GIBRILLONT_000_014","なに、上層の「宝杖通り」にいる「たくましい猟師」から、
-「<Sheet(EventItem,2001591,0)/>」を受け取ってきてくれるだけでいい。
-酒代のツケ代わりに、採ってきてもらう約束をしているんだ。"
-57,"TEXT_HEAVNA406_01993_GIBRILLONT_000_015","<If(PlayerParameter(4))>姉さん<Else/>兄さん</If>にやる気があるなら、
-特別にヒントくらいは、教えてやってもいいぜ。
-使いをやってくれるなら……な。"
-58,"TEXT_HEAVNA406_01993_GIBRILLONT_000_016","なに、上層の「宝杖通り」にいる「たくましい猟師」から、
-「<Sheet(EventItem,2001591,0)/>」を受け取ってきてくれるだけでいい。
-酒代のツケ代わりに、採ってきてもらう約束をしているんだ。"
-59,"TEXT_HEAVNA406_01993_HUNTER01993_000_020","……ジブリオンからの使いだと？
-さっそく、ツケの回収に人を寄こしたってわけかい。"
-60,"TEXT_HEAVNA406_01993_HUNTER01993_000_021","頼まれていた香草は、ちゃんと採ってきたぜ。
-寒冷化したクルザスじゃ、もう採れない貴重な品だからな。
-無駄に使うんじゃないぞ……。"
-61,"TEXT_HEAVNA406_01993_GIBRILLONT_000_030","おう、「<Sheet(EventItem,2001591,0)/>」は受け取れたか？
-お前さんにも必要になる品なんだからよ。"
-62,"TEXT_HEAVNA406_01993_GIBRILLONT_000_031","よしよし、これでいい。
-材料さえあれば、後は俺の仕事さ。
-これを使って、スパイスワインを作ってやる。"
-63,"TEXT_HEAVNA406_01993_GIBRILLONT_000_032","それを、これから伝えるふたりに届けてやんな。
-どちらも「長耳」に繋がる過去を持つ人物さ。
-土産を持って、昔話を聞いてこい。"
+48,"TEXT_HEAVNA406_01993_ALPHINAUD_000_000","Frustrating though it may be, we must press on. While I continue speaking with the people of the Brume, why not go and see if Gibrillont knows aught of value?"
+49,"TEXT_HEAVNA406_01993_ALPHINAUD_000_001","As the proprietor of the Forgotten Knight, surely he must have heard whispers of the Mongrel before. We can only hope that he will be more forthcoming than the others."
+50,"TEXT_HEAVNA406_01993_TATARU_000_003","If you haven't yet, you should learn the Manderville art of parley. It's surprisingly effective─so long as you stick to topics you know well. For example, the other day I was discussing the copper ore market with this one gentleman..."
+51,"TEXT_HEAVNA406_01993_ALPHINAUD_000_002","I shall join you in the Forgotten Knight anon. There we can discuss our findings."
+52,"TEXT_HEAVNA406_01993_GIBRILLONT_000_010","You know, people long for a sympathetic ear, but they need to know that it comes with tight lips."
+53,"TEXT_HEAVNA406_01993_GIBRILLONT_000_011","Discretion, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>─that's what my customers expect. If they don't get it, then I don't get them."
+54,"TEXT_HEAVNA406_01993_GIBRILLONT_000_012","That being said, I'm not without my sympathies. I've heard the tales, and I know you've done right by highborn and lowborn alike."
+55,"TEXT_HEAVNA406_01993_GIBRILLONT_000_013","Least I can do is point you in the right direction. But to do that, I'll need you to do something for me."
+56,"TEXT_HEAVNA406_01993_GIBRILLONT_000_014","So happens there's a hunter up in the Crozier who owes me a fair bit of coin. However, I've agreed to accept payment in fresh herbs. Go and get them for me. Agreed?"
+57,"TEXT_HEAVNA406_01993_GIBRILLONT_000_015","Tell the hunter I sent you, and he should hand over the herbs without a fuss."
+58,"TEXT_HEAVNA406_01993_GIBRILLONT_000_016","Come back here as soon as you have them. Simple as that."
+59,"TEXT_HEAVNA406_01993_HUNTER01993_000_020","So you're Gibrillont's errand <If(PlayerParameter(4))>girl<Else/>boy</If>? Good, good! How's he doing? Same as always? Right, right..."
+60,"TEXT_HEAVNA406_01993_HUNTER01993_000_021","Anyroad, I hope he appreciates how much trouble I had to go through on account of his bloody herbs. Tell him to enjoy them while they last, because I doubt I'll be able to find any more next year."
+61,"TEXT_HEAVNA406_01993_GIBRILLONT_000_030","<sniff> <sniff> Well? You going to hand them over or not?"
+62,"TEXT_HEAVNA406_01993_GIBRILLONT_000_031","Aye, this ought to do it. With a few other spices, I can make it just like she used to..."
+63,"TEXT_HEAVNA406_01993_GIBRILLONT_000_032","There are few things which stir the hearts of men like a sip of mulled wine. Share a glass with the right people, and who knows what stories they'll share?"

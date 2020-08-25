@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSA403_00745_SEQ_00","シルフの仮宿にいるノレクシアは、冒険者に大変感謝しているようだ。"
-1,"TEXT_GAIUSA403_00745_SEQ_01","ノレクシアは冒険者に、なにかお礼がしたいらしい。「<Sheet(BNpcName,2187,0)/>」の体力を減らしてから「<Sheet(EventItem,2000597,0)/>」を使い、「<Sheet(EventItem,2000598,0)/>」を3つ、手に入れよう。"
-2,"TEXT_GAIUSA403_00745_SEQ_02","<Sheet(EventItem,2000598,0)/>を無事、手に入れることができた。シルフの仮宿へ戻り「ノレクシア」に「<Sheet(EventItem,2000598,0)/>」を渡そう。"
-3,"TEXT_GAIUSA403_00745_SEQ_03","ノレクシアは冒険者のために、<Sheet(EventItem,2000598,0)/>からお守りを作ってくれた。お守りにはノレクシアの感謝の気持ちがこもっているらしい。ありがたく使わせてもらおう。"
+0,"TEXT_GAIUSA403_00745_SEQ_00","Knolexia wishes to show you her immense gratitude."
+1,"TEXT_GAIUSA403_00745_SEQ_01","Knolexia wishes to present you with a gift, but first asks that you bring her three bottles of djigga blood. Do so by using the bottles she provided you with on weakened swollen djiggas."
+2,"TEXT_GAIUSA403_00745_SEQ_02","You have procured the three bottles of djigga blood Knolexia requested. Deliver them to her at Little Solace."
+3,"TEXT_GAIUSA403_00745_SEQ_03","Using the djigga blood you have provided, Knolexia has created for you a magic talisman to serve as a token of her appreciation. However, while you appreciate the gesture, it may take some time to get used to the idea of wearing vilekin blood as a good-luck charm."
 4,"TEXT_GAIUSA403_00745_SEQ_04",""
 5,"TEXT_GAIUSA403_00745_SEQ_05",""
 6,"TEXT_GAIUSA403_00745_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSA403_00745_SEQ_21",""
 22,"TEXT_GAIUSA403_00745_SEQ_22",""
 23,"TEXT_GAIUSA403_00745_SEQ_23",""
-24,"TEXT_GAIUSA403_00745_TODO_00","弱らせた<Sheet(BNpcName,2187,0)/>に<Sheet(EventItem,2000597,0)/>を使い採集"
-25,"TEXT_GAIUSA403_00745_TODO_01","ノレクシアに<Sheet(EventItem,2000598,0)/>を渡す"
+24,"TEXT_GAIUSA403_00745_TODO_00","Use the empty blood bottles on weakened djiggas."
+25,"TEXT_GAIUSA403_00745_TODO_01","Deliver the djigga blood to Knolexia."
 26,"TEXT_GAIUSA403_00745_TODO_02",""
 27,"TEXT_GAIUSA403_00745_TODO_03",""
 28,"TEXT_GAIUSA403_00745_TODO_04",""
@@ -49,25 +49,13 @@ int32,str,str
 45,"TEXT_GAIUSA403_00745_TODO_21",""
 46,"TEXT_GAIUSA403_00745_TODO_22",""
 47,"TEXT_GAIUSA403_00745_TODO_23",""
-48,"TEXT_GAIUSA403_00745_KNOLEXIA_000_000","あなたには、長老様を助けてもらったでふっち。
-あたちの仲間も、いっぱいお世話になったのでふっち。
-何か、お礼したいでふっちけど……。"
-49,"TEXT_GAIUSA403_00745_KNOLEXIA_000_001","ちょうなのでふっち！
-あなた、<Sheet(BNpcName,2187,0)/>から
-「<Sheet(EventItem,2000598,0)/>」を3つ、手に入れてくるでふっち！"
-50,"TEXT_GAIUSA403_00745_KNOLEXIA_000_002","「<Sheet(EventItem,2000597,0)/>」をあげるのでふっち。
-<Sheet(BNpcName,2187,0)/>をペチペチちて弱らせたら、
-これを使って「<Sheet(EventItem,2000598,0)/>」を手に入れるでふっち！"
-51,"TEXT_GAIUSA403_00745_TODO_000_010","チゴーを3匹討伐>「チゴーの鮮血」を入手
-（チゴーのＨＰを４分の１以下にし、
-イベントアイテム「ビン」を使うと入手できる）"
-52,"TEXT_GAIUSA403_00745_KNOLEXIA_000_020","<Sheet(BNpcName,2187,0)/>、ペチペチちてきたでふっち？"
-53,"TEXT_GAIUSA403_00745_KNOLEXIA_000_021","……えっと、これをこうちて……
-糸ができたら……組みあわちて……。"
-54,"TEXT_GAIUSA403_00745_KNOLEXIA_000_022","できたのでふっち！
-あたち特製のお守りなのでふっち～！"
-55,"TEXT_GAIUSA403_00745_KNOLEXIA_000_023","あなた、冒険者でふっち？
-このお守りを身に着けてれば、
-怖いの怖いの飛んでくのでふっち！"
-56,"TEXT_GAIUSA403_00745_KNOLEXIA_000_024","感謝の気持ち、いっぱい込めたのでふっち。
-ぜひ、受け取ってほちいでふっち！"
+48,"TEXT_GAIUSA403_00745_KNOLEXIA_000_000","This one wishes to thank the adventuring one. Adventuring one saved the elder one."
+49,"TEXT_GAIUSA403_00745_KNOLEXIA_000_001","But this one must ask a favor first. Will adventuring one bring three bottles of fresh blood? Is morbid favor, this one knows. But must have fresh blood from vile ones known as djiggas."
+50,"TEXT_GAIUSA403_00745_KNOLEXIA_000_002","Here, adventuring one take blood bottles. Use on almost dead vile ones to take fresh blood. "
+51,"TEXT_GAIUSA403_00745_TODO_000_010","Obtain three vials of fresh blood from djiggas.
+(Use the empty vial on a djigga with only 25% or less HP remaining.)"
+52,"TEXT_GAIUSA403_00745_KNOLEXIA_000_020","Did adventuring one bring blood from vile ones?"
+53,"TEXT_GAIUSA403_00745_KNOLEXIA_000_021","This goes here, and that there... Then thread like this... Then put that together..."
+54,"TEXT_GAIUSA403_00745_KNOLEXIA_000_022","Done! This one has made a talisman for adventuring one."
+55,"TEXT_GAIUSA403_00745_KNOLEXIA_000_023","Is magic talisman. Will protect adventuring one from scary ones."
+56,"TEXT_GAIUSA403_00745_KNOLEXIA_000_024","And is token of this one's thanks. These ones owe adventuring one many, many thanks."

@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANAMA107_01228_SEQ_00","灰の陣営のフィブブ・ガーは、冒険者に実験の手伝いをしてほしいようだ。"
-1,"TEXT_BANAMA107_01228_SEQ_01","フィブブ・ガーの依頼を受けた。ザンラク北部にある3箇所の「<Sheet(EObj,2003166,0)/>」で周囲を見渡し、現れたテンパードを打ち負かして「<Sheet(EventItem,2001191,0)/>」を使おう。"
-2,"TEXT_BANAMA107_01228_SEQ_02","テンパードたちに<Sheet(EventItem,2001191,0)/>を使った。灰の陣営の「フィブブ・ガー」に報告しよう。"
-3,"TEXT_BANAMA107_01228_SEQ_03","フィブブ・ガーに報告した。彼は実験が空振りに終わったことを残念がった。しかし、まだまだ諦めるつもりはないようだ。"
+0,"TEXT_BANAMA107_01228_SEQ_00","Fibubb Gah requests your assistance in testing a new remedy."
+1,"TEXT_BANAMA107_01228_SEQ_01","Fibubb Gah has entrusted you with the Brotherhood of Ash's latest weapon in their kin war─a possible remedy for the madness of the tempered. Subdue the tempered found at the tempering ground in northern Zanr'ak, and test the efficacy of the sacred ash."
+2,"TEXT_BANAMA107_01228_SEQ_02","You have tested the sacred ash on the tempered with uncertain results. Return to the Ring of Ash and report to Fibubb Gah."
+3,"TEXT_BANAMA107_01228_SEQ_03","Though disappointed at the remedy's apparent failure, Fibubb Gah vows that the Brotherhood will continue its efforts toward creating a cure for the tempered. He muses that perhaps you just might be the one who tests the first successful batch."
 4,"TEXT_BANAMA107_01228_SEQ_04",""
 5,"TEXT_BANAMA107_01228_SEQ_05",""
 6,"TEXT_BANAMA107_01228_SEQ_06",""
@@ -25,9 +25,8 @@ int32,str,str
 21,"TEXT_BANAMA107_01228_SEQ_21",""
 22,"TEXT_BANAMA107_01228_SEQ_22",""
 23,"TEXT_BANAMA107_01228_SEQ_23",""
-24,"TEXT_BANAMA107_01228_TODO_00","ザンラク北部の<Sheet(EObj,2003166,0)/>で見渡し、現れたテンパードを
-打ち負かして<Sheet(EventItem,2001191,0)/>を使う"
-25,"TEXT_BANAMA107_01228_TODO_01","フィブブ・ガーに報告"
+24,"TEXT_BANAMA107_01228_TODO_00","Head to the tempering ground in northern Zanr'ak, and use the sacred ash on subdued tempered."
+25,"TEXT_BANAMA107_01228_TODO_01","Report to Fibubb Gah."
 26,"TEXT_BANAMA107_01228_TODO_02",""
 27,"TEXT_BANAMA107_01228_TODO_03",""
 28,"TEXT_BANAMA107_01228_TODO_04",""
@@ -50,30 +49,16 @@ int32,str,str
 45,"TEXT_BANAMA107_01228_TODO_21",""
 46,"TEXT_BANAMA107_01228_TODO_22",""
 47,"TEXT_BANAMA107_01228_TODO_23",""
-48,"TEXT_BANAMA107_01228_FIBUBBGAH_000_001","強き者よ、これは我らが「灰の一党」が作りし妙薬。
-……されど、未だ研究中の習作なり。"
-49,"TEXT_BANAMA107_01228_FIBUBBGAH_000_002","この妙薬には、「焼かれし者」を元に戻す効果がある！
-……やもしれぬ。
-応病与薬、効果を確かめるため、実験をせねばならぬ。"
-50,"TEXT_BANAMA107_01228_FIBUBBGAH_000_003","ちょうどよい、強き者よ。
-「忘れられたオアシス」に住むミコッテ族どもが襲われ、
-かなりの数が「焼かれし者」となったと伝え聞く。"
-51,"TEXT_BANAMA107_01228_FIBUBBGAH_000_004","この妙薬「<Sheet(EventItem,2001191,0)/>」を、
-「<Sheet(EObj,2003166,0)/>」の
-焼かれし者たちに用いて試みよ。"
-52,"TEXT_BANAMA107_01228_FIBUBBGAH_000_005","しかして、ただ使うだけでは、その効果を充分に発揮できぬ。
-相手を屈服させ、無防備な状態で用いるべし。"
-53,"TEXT_BANAMA107_01228_FIBUBBGAH_000_011","この妙薬「<Sheet(EventItem,2001191,0)/>」を、「<Sheet(EObj,2003166,0)/>」の
-焼かれし者たちに用いよ。
-しかして、敵を屈服させ、無防備な状態で用いるべし！"
-54,"TEXT_BANAMA107_01228_TEMPERED_000_015","ぐぉおお…体が…焼ける…！"
-55,"TEXT_BANAMA107_01228_TEMPERED_000_016","焔神イフリート…様っ…！"
-56,"TEXT_BANAMA107_01228_TEMPERED_000_017","な、なんだ…この感覚は！"
-57,"TEXT_BANAMA107_01228_FIBUBBGAH_000_021","<Sheet(EventItem,2001191,0)/>の実験任務、まことに御苦労だった。
-……残念至極、やはり「焼かれし者」は元には戻らぬか。
-この習作も失敗……あな口惜しや。"
-58,"TEXT_BANAMA107_01228_FIBUBBGAH_000_022","破天荒解なお遠く、されど我は諦めぬ。
-この挫折に学び、次こそ完全なる妙薬を完成させん。
-……強き者よ、そのときは再び頼むぞ！"
-59,"TEXT_BANAMA107_01228_POP_MESSAGE","敵の気配を感じた！！"
-60,"TEXT_BANAMA107_01228_POP_MESSAGE_000_000","その行動は出現した敵を倒さないと実行できません"
+48,"TEXT_BANAMA107_01228_FIBUBBGAH_000_001","Honored ally, the Brotherhood of Ash has toiled to create a new weapon to use against our enemies─bone ash imbued with spiritual energy by the sacred chants of our mystics."
+49,"TEXT_BANAMA107_01228_FIBUBBGAH_000_002","It is our hope that the purifying properties of the ash will serve to cleanse the tempered of Ifrit's malign influence. This remedy has, however, yet to be tested."
+50,"TEXT_BANAMA107_01228_FIBUBBGAH_000_003","It is with bitter fortune, then, that we learned of a raid to the south. It seems that a hunting party from Forgotten Springs was ambushed by a superior force, and dragged before the Lord of the Inferno for tempering."
+51,"TEXT_BANAMA107_01228_FIBUBBGAH_000_004","I ask that you locate these unfortunate Miqo'te, and sprinkle upon each a pinch of the ash."
+52,"TEXT_BANAMA107_01228_FIBUBBGAH_000_005","Be sure to pacify the rangers sufficiently first, otherwise our unwilling subjects will simply shake off the ash before it has time to take effect."
+53,"TEXT_BANAMA107_01228_FIBUBBGAH_000_011","Find the tempered Miqo'te, and sprinkle a pinch of sacred ash upon each one to determine the remedy's efficacy. Do not forget to subdue your opponents thoroughly before attempting to use the ash!"
+54,"TEXT_BANAMA107_01228_TEMPERED_000_015","Aaargh! It burrrns!"
+55,"TEXT_BANAMA107_01228_TEMPERED_000_016","Lord Ifrit! Your servant needs You!"
+56,"TEXT_BANAMA107_01228_TEMPERED_000_017","Wh-What is this strange sorcery!?"
+57,"TEXT_BANAMA107_01228_FIBUBBGAH_000_021","So...it seems the sacred ash failed to have the desired effect. Our mystics will be most disappointed."
+58,"TEXT_BANAMA107_01228_FIBUBBGAH_000_022","But the Brotherhood of Ash does not buckle at the slightest sign of hardship! We shall learn from this failure, and redouble our efforts to concoct a cure. You may yet be the first to reclaim a tempered mind from the abyss of madness."
+59,"TEXT_BANAMA107_01228_POP_MESSAGE","You sense a hostile presence!"
+60,"TEXT_BANAMA107_01228_POP_MESSAGE_000_000","The enemy is still about!"

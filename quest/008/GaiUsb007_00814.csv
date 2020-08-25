@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB007_00814_SEQ_00","コスタ・デル・ソルのヴェイスケートは、冒険者にゲゲルジュからの依頼を説明したいようだ。"
-1,"TEXT_GAIUSB007_00814_SEQ_01","ゲゲルジュの依頼とは、要人の歓待に使う「エオルゼア三大珍味」の収集だった。世界中にいるヴェイスケートの元部下が、珍味の取り方を教えてくれるらしい。まずはキャンプ・トランキルに向かい、「ランドゥネル」に話しかけよう。"
-2,"TEXT_GAIUSB007_00814_SEQ_02","ランドゥネルは、トランキル周辺の珍味が「<Sheet(EventItem,2000641,0)/>」であることを教えてくれた。さっそくランドゥネルに、入手方法を聞こう。"
+0,"TEXT_GAIUSB007_00814_SEQ_00","Wheiskaet has an important mission for you."
+1,"TEXT_GAIUSB007_00814_SEQ_01","Two highly distinguished individuals are scheduled to visit Costa del Sol, and Master Gegeruju wishes to welcome them with an elaborate banquet. Wheiskaet bids you assist in this endeavor by bringing him the ingredients required for this exotic feast. To obtain the first ingredient, you must seek out Landenel at Camp Tranquil in the South Shroud."
+2,"TEXT_GAIUSB007_00814_SEQ_02","You learn that the first ingredient is the egg of a giant adamantoise. Though Landenel will not assist you directly, he will tell you how you can obtain an egg yourself."
 3,"TEXT_GAIUSB007_00814_SEQ_03",""
 4,"TEXT_GAIUSB007_00814_SEQ_04",""
 5,"TEXT_GAIUSB007_00814_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_GAIUSB007_00814_SEQ_21",""
 22,"TEXT_GAIUSB007_00814_SEQ_22",""
 23,"TEXT_GAIUSB007_00814_SEQ_23",""
-24,"TEXT_GAIUSB007_00814_TODO_00","キャンプ・トランキルのランドゥネルと話す"
+24,"TEXT_GAIUSB007_00814_TODO_00","Speak with Landenel."
 25,"TEXT_GAIUSB007_00814_TODO_01",""
 26,"TEXT_GAIUSB007_00814_TODO_02",""
 27,"TEXT_GAIUSB007_00814_TODO_03",""
@@ -49,33 +49,15 @@ int32,str,str
 45,"TEXT_GAIUSB007_00814_TODO_21",""
 46,"TEXT_GAIUSB007_00814_TODO_22",""
 47,"TEXT_GAIUSB007_00814_TODO_23",""
-48,"TEXT_GAIUSB007_00814_WHEISKAET_000_000","さっそく、依頼の内容を伝えよう。
-……近々、このコスタ・デル・ソルに要人が訪れる。"
-49,"TEXT_GAIUSB007_00814_WHEISKAET_000_001","ゲゲルジュの旦那は、その人物の歓待のために、
-「特別な晩餐」を用意しようとしているんだ。"
-50,"TEXT_GAIUSB007_00814_WHEISKAET_000_002","特別な晩餐……それを調理するためには、
-「エオルゼア三大珍味」と呼ばれている食材が必要だ。
-お前にはエオルゼアを巡り、その「珍味」を集めてもらう。"
-51,"TEXT_GAIUSB007_00814_WHEISKAET_100_002","加えて、晩餐に合う最高のワインも探してもらいたいが……
-先に「三大珍味」を集めきってからだ。"
-52,"TEXT_GAIUSB007_00814_WHEISKAET_000_003","珍味の入手方法は、各地にいる俺の元部下たちが知っている。
-まずは「キャンプ・トランキル」にいる俺の元部下、
-「ランドゥネル」に話を聞け。 "
-53,"TEXT_GAIUSB007_00814_WHEISKAET_000_004","お前はエオルゼアを股にかける冒険者、
-しかも蛮神を退治しようという命知らずだ。
-……この程度、俺より早く確実にこなせるはずだよな。 "
-54,"TEXT_GAIUSB007_00814_WHEISKAET_000_005","もちろん……
-今さら、できないとは言わせないぜ？ "
-55,"TEXT_GAIUSB007_00814_LANDENEL_000_020","どうしました、冒険者の方。
-我々、鬼哭隊に何かご用ですか？"
-56,"TEXT_GAIUSB007_00814_LANDENEL_000_021","……なるほど、貴方が副団長の言っていた、
-「エオルゼア三大珍味」を集めようという冒険者ですね。
-連絡は受けていますよ。"
-57,"TEXT_GAIUSB007_00814_LANDENEL_000_022","そうですね……。
-この付近で採れる、三大珍味といったら、
-「<Sheet(EventItem,2000641,0)/>」でしょう。"
-58,"TEXT_GAIUSB007_00814_LANDENEL_000_023","これを持つのは、凶暴凶悪な巨大アダマンタス。
-多くの冒険者達が挑み、殺されてきた魔物です。
-それでも、ぶっ込む度胸があるというのでしたら……。"
-59,"TEXT_GAIUSB007_00814_LANDENEL_000_024","……ククク……クククククク……！！
-てめェの手伝いをしようじゃねェか！！"
+48,"TEXT_GAIUSB007_00814_WHEISKAET_000_000","Two highly distinguished individuals are scheduled to visit Costa del Sol in the near future, and Master Gegeruju wishes to welcome them with an elaborate banquet."
+49,"TEXT_GAIUSB007_00814_WHEISKAET_000_001","But while money is no object, not everything Master Gegeruju desires can be so easily purchased."
+50,"TEXT_GAIUSB007_00814_WHEISKAET_000_002","It is to be an extremely exotic feast. And so, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, your mission is to seek out and obtain the rare ingredients our chef requires."
+51,"TEXT_GAIUSB007_00814_WHEISKAET_100_002","Naturally, such fine dining must be accompanied with a suitable wine. And by “suitable,” I mean “the very best there is.” That, however, can wait for the time being, as I believe you have enough on your plate as it is."
+52,"TEXT_GAIUSB007_00814_WHEISKAET_000_003","It will be a long and arduous journey, but you need not toil alone. Many of the mercenaries who once served under my command still live, and they will guide you in your quest. For the first ingredient, I would have you travel to the South Shroud and speak with Landenel at Camp Tranquil."
+53,"TEXT_GAIUSB007_00814_WHEISKAET_000_004","...What? Do you mean to tell me that you cannot afford to waste time, as your associate did?"
+54,"TEXT_GAIUSB007_00814_WHEISKAET_000_005","Adventurer, if you have not the endurance to complete this mission, how do you expect me to believe you can outlast the Lord of Crags? Either do it or don't─I have work to do."
+55,"TEXT_GAIUSB007_00814_LANDENEL_000_020","Do you require assistance, adventurer?"
+56,"TEXT_GAIUSB007_00814_LANDENEL_000_021","...So this is the one who would challenge Titan. I've been expecting you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
+57,"TEXT_GAIUSB007_00814_LANDENEL_000_022","The ingredient you seek is the egg of a giant adamantoise."
+58,"TEXT_GAIUSB007_00814_LANDENEL_000_023","The method of acquisition should be obvious─you steal it from the beast's nest, of course. Simple in theory, but difficult in execution. Most who try die in the attempt."
+59,"TEXT_GAIUSB007_00814_LANDENEL_000_024","Will I help you get it? Hah, you amuse me. I will not jeopardize my position by openly assisting you. From me you will receive only information. What you do with it is your choice."

@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBFST910_00194_SEQ_00","幻術士ギルドのブレイヤは冒険者に頼みがあるようだ。"
-1,"TEXT_SUBFST910_00194_SEQ_01","ブレイヤから依頼を受けた。北部森林のフォールゴウドにいる「美しい手負いの獣」の傷を「ケアル」で癒そう。"
-2,"TEXT_SUBFST910_00194_SEQ_02","「美しい手負いの獣」の傷を癒した。グリダニアの幻術士ギルドにいる「ブレイヤ」に報告しよう。"
-3,"TEXT_SUBFST910_00194_SEQ_03","ブレイヤに報告した。「美しい手負いの獣」は、ユニコーンと呼ばれる獣らしい。普通は人に懐かないらしいが、恩人である冒険者のことは気に入ったようだ……。"
+0,"TEXT_SUBFST910_00194_SEQ_00","Braya has need of a benevolent adventurer to tend a wounded beast."
+1,"TEXT_SUBFST910_00194_SEQ_01","An unusual beast has appeared near Fallgourd Float in the North Shroud, and witnesses report that it is wounded. Braya bids you find the creature and tend its wounds."
+2,"TEXT_SUBFST910_00194_SEQ_02","You have tended the mare's wounds. Return to the Conjurers' Guild and report your success to Braya."
+3,"TEXT_SUBFST910_00194_SEQ_03","It appears the creature you healed is a unicorn. Braya is impressed that you were able to win the trust of so wary a beast, and suggests that there is a deeper connection between the two of you."
 4,"TEXT_SUBFST910_00194_SEQ_04",""
 5,"TEXT_SUBFST910_00194_SEQ_05",""
 6,"TEXT_SUBFST910_00194_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_SUBFST910_00194_SEQ_21",""
 22,"TEXT_SUBFST910_00194_SEQ_22",""
 23,"TEXT_SUBFST910_00194_SEQ_23",""
-24,"TEXT_SUBFST910_00194_TODO_00","フォールゴウドの美しい手負いの獣の傷をケアルで癒す"
-25,"TEXT_SUBFST910_00194_TODO_01","幻術士ギルドのブレイヤに報告"
+24,"TEXT_SUBFST910_00194_TODO_00","Use Cure to heal the injured beast at Alder Springs."
+25,"TEXT_SUBFST910_00194_TODO_01","Report to Braya."
 26,"TEXT_SUBFST910_00194_TODO_02",""
 27,"TEXT_SUBFST910_00194_TODO_03",""
 28,"TEXT_SUBFST910_00194_TODO_04",""
@@ -49,25 +49,12 @@ int32,str,str
 45,"TEXT_SUBFST910_00194_TODO_21",""
 46,"TEXT_SUBFST910_00194_TODO_22",""
 47,"TEXT_SUBFST910_00194_TODO_23",""
-48,"TEXT_SUBFST910_00194_BRAYA_000_000","最近、碩老樹瞑想窟では、
-あなたの活躍ぶりが話題になっています。
-冒険者のあなたが、新風を吹き込んでいる、と。"
-49,"TEXT_SUBFST910_00194_BRAYA_000_001","そんなあなたに依頼があります。
-「北部森林」の「フォールゴウド」に、見たこともない
-「美しい手負いの獣」が現れたというのです。"
-50,"TEXT_SUBFST910_00194_BRAYA_000_002","森に害成す存在ではないようですが、
-手負いの獣となれば、何が起こるか分かりません。
-ぜひ件の獣を探し出し、癒してあげてください。"
-51,"TEXT_SUBFST910_00194_SYSTEM_000_003","深手を負っており、辛そうにしている……。"
-52,"TEXT_SUBFST910_00194_SYSTEM_000_004","傷を癒したことで、美しい獣は懐いたようだ……。"
-53,"TEXT_SUBFST910_00194_BRAYA_000_010","おかえりなさい。
-それで……いかがでしたか？"
-54,"TEXT_SUBFST910_00194_BRAYA_000_011","……なるほど、純白の毛並みに四つ足、
-そして鋭い一本の角となれば……
-その獣は「ユニコーン」とみて間違いないでしょう。"
-55,"TEXT_SUBFST910_00194_BRAYA_000_012","「ユニコーン」は、
-北方のクルザス地方の奥地に棲息する珍しい獣で、
-そう簡単には人に慣れないと伝え聞きます。"
-56,"TEXT_SUBFST910_00194_BRAYA_000_013","傷を癒したとはいえ、懐かれてしまうとは……
-あなたの徳の成せる技といったところでしょうか。
-ぜひ新たなる友を、大切になさってくださいね。"
+48,"TEXT_SUBFST910_00194_BRAYA_000_000","Your deeds of late have earned you the respect of all at Stillglade Fane. People say you are a breath of fresh air within these still caverns. Truly, you are an inspiration to us all."
+49,"TEXT_SUBFST910_00194_BRAYA_000_001","...Having plied you with praise, I would make a request of you. An unusual creature has appeared near Fallgourd Float in the North Shroud. Witnesses report that it is badly wounded."
+50,"TEXT_SUBFST910_00194_BRAYA_000_002","While it hasn't proven itself a danger to the locals, a wounded beast is unpredictable at the best of times. Please find it and provide it with such succor as you are able."
+51,"TEXT_SUBFST910_00194_SYSTEM_000_003","The creature appears to be in great pain."
+52,"TEXT_SUBFST910_00194_SYSTEM_000_004","The creature seems grateful to you."
+53,"TEXT_SUBFST910_00194_BRAYA_000_010","Welcome back, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Were you able to find the creature? And what did it look like, if I might ask?"
+54,"TEXT_SUBFST910_00194_BRAYA_000_011","...Four-legged and tall, with a pristine white coat...and a single horn protruding from its brow! There is no mistake─that was a unicorn you healed."
+55,"TEXT_SUBFST910_00194_BRAYA_000_012","Unicorns are rare and majestic beasts native to the inner region of Coerthas. They are extremely shy, and are wont to avoid all contact with man. The notion that you were able to gain its trust is most thrilling."
+56,"TEXT_SUBFST910_00194_BRAYA_000_013","I've seen enough wild creatures to know that its behavior toward you means more than simple gratitude. Nay, the unicorn must have sensed kinship in you. Should you doubt my words, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, pray take this whistle and prepare yourself. A truly uplifting experience awaits!"

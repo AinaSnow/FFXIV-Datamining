@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBCTS712_02388_SEQ_00","クォーリーミルにいる鬼哭隊の調査隊士は、冒険者に確認してほしい物があるようだ。"
-1,"TEXT_SUBCTS712_02388_SEQ_01","死者の宮殿に潜入していた隊士が、黒幕ニバスの書いた手記を発見したようだ。イソム・ハーの穴蔵に向かい、手記を発見した「調査隊の隊士」と話そう。"
-2,"TEXT_SUBCTS712_02388_SEQ_02","手記から、ニバスの過去を視ることに成功した。彼が「死者の宮殿」を造り上げ、エッダを用いて不老不死の実験を行っていたのは、亡き妻を蘇らせるためだったようだ。ニバスが倒れた今、彼の真意をはかれる者はエオルゼアには存在しない。異世界からの来訪者が願った不老不死の秘術は、「死者の宮殿」とともに、地中深くへと眠りにつくのだった。"
+0,"TEXT_SUBCTS712_02388_SEQ_00","The Wood Wailers are confounded by a recent find in the Palace of the Dead."
+1,"TEXT_SUBCTS712_02388_SEQ_01","During a recent expedition, the Wood Wailers were shocked to discover notes they believe to be penned by Nybeth Obdilord, the dread sorcerer who raised the Palace of the Dead. Knowing you had the misfortune of meeting him in person, they would consult with you regarding the contents of the documents. An expeditionary awaits you by the entrance to Issom–Har."
+2,"TEXT_SUBCTS712_02388_SEQ_02","The expeditionary explains to you that he and his fellow Wood Wailers are puzzled by the strange script of the documents, which he surmises originated in a foreign land. E–Una–Kotor, having communed with the elementals, believes they are not from another land, but another world entirely. Taking the notes in hand, visions of Nybeth and Edda suddenly flash before your eyes. It would appear that his true purpose in building the palace was to master the art of resurrection, giving him the power to bring his lover back from the dead. E–Una–Kotor finds such a motive implausible, but with the dark sorcerer slain, the truth now remains buried in the hallowed grounds beneath Issom–Har."
 3,"TEXT_SUBCTS712_02388_SEQ_03",""
 4,"TEXT_SUBCTS712_02388_SEQ_04",""
 5,"TEXT_SUBCTS712_02388_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_SUBCTS712_02388_SEQ_21",""
 22,"TEXT_SUBCTS712_02388_SEQ_22",""
 23,"TEXT_SUBCTS712_02388_SEQ_23",""
-24,"TEXT_SUBCTS712_02388_TODO_00","調査隊の隊士と話す"
+24,"TEXT_SUBCTS712_02388_TODO_00","Speak with the expeditionary."
 25,"TEXT_SUBCTS712_02388_TODO_01",""
 26,"TEXT_SUBCTS712_02388_TODO_02",""
 27,"TEXT_SUBCTS712_02388_TODO_03",""
@@ -49,104 +49,49 @@ int32,str,str
 45,"TEXT_SUBCTS712_02388_TODO_21",""
 46,"TEXT_SUBCTS712_02388_TODO_22",""
 47,"TEXT_SUBCTS712_02388_TODO_23",""
-48,"TEXT_SUBCTS712_02388_WOODWAILER01556_000_000","おお、邪なる魔術師を倒してのけた冒険者じゃないか！
-君に会えて良かった、協力してほしいことがあるんだよ……！"
-49,"TEXT_SUBCTS712_02388_WOODWAILER01556_000_001","地下迷宮に派遣していた先遣部隊の連中が、
-迷宮を造り上げた黒幕が書いたと思しき手記を発見したらしい。
-これを、黒幕自身と対峙した君にも見てみてほしいんだ。"
-50,"TEXT_SUBCTS712_02388_WOODWAILER01556_000_002","君のおかげで、迷宮の捜査は以前より進んでいるけれど、
-現状、事件の黒幕については、何もわかっていなくてね……。
-今回発見された手記が、今のところ唯一の手がかりってわけさ。"
-51,"TEXT_SUBCTS712_02388_WOODWAILER01556_000_003","エ・ウナ様も精霊との対話が終わり次第向かうとのこと。
-君も「イソム・ハーの穴蔵」に向かい、手記を確認してほしい！
-「調査隊の隊士」には、既に話は通してあるからね。"
-52,"TEXT_SUBCTS712_02388_WOODWAILER01556_000_010","迷宮を造り上げた黒幕が書いた手記が見つかったんだ。
-君も「イソム・ハーの穴蔵」に向かい、手記を見てみてほしい！
-件の手記は、「調査隊の隊士」が持っているよ。"
-53,"TEXT_SUBCTS712_02388_WOODWAILER02338_000_050","ご足労、ありがとうございます！
-これが件の手記なのですが……実は、弱り果てておりまして。"
-54,"TEXT_SUBCTS712_02388_WOODWAILER02338_000_051","どこか、私どもの知らない異国の言語で書かれているらしく、
-誰も、内容を読める者がいないのですよ。"
-55,"TEXT_SUBCTS712_02388_EUNAKOTOR_000_052","……異なるのは、国にあらず。
-その手記が纏う、只ならぬエーテル……。
-おそらくは、次元の壁を超えてもたらされた物だ。"
-56,"TEXT_SUBCTS712_02388_EUNAKOTOR_000_053","<Highlight>ObjectParameter(1)</Highlight>……。
-カヌ・エ様より、うかがっておる。
-そなたは、他者の心の壁を超え、真実を見通す力を持つ、と。"
-57,"TEXT_SUBCTS712_02388_EUNAKOTOR_000_054","超える力は、自在に操れる性質のものではないと聞くが、
-直接ニバスと触れた今の君なら、あるいは……。
-さあ、真実を辿るため……この書に触れてみるがいい。"
-58,"TEXT_SUBCTS712_02388_NYBETHOBDILORD_000_100","おかしい……どうしても、魂が肉体へと定着しませンね。
-いや、むしろ肉体へ留まるのを、拒んですらいる……？"
-59,"TEXT_SUBCTS712_02388_NYBETHOBDILORD_000_101","激しい想いを抱いた魂は、そのエーテル総量も膨大となる。
-彼女が抱える強き想いならば、魂をエーテル界へ還すことなく、
-この世界に、永遠に留まりつづけられるはずなのですが……。"
-60,"TEXT_SUBCTS712_02388_NYBETHOBDILORD_000_102","うーむ、魂から、生への執着が感じられない……。
-まさかとは思いますが、彼女の魂が、自らの意思で、
-エーテル界へと還りたがっている、とでも……？"
-61,"TEXT_SUBCTS712_02388_NYBETHOBDILORD_000_103","これほどに強く、愛する者への想いを抱きながら、
-あなたも、くだらぬ安息が望みだというのですか……？"
-62,"TEXT_SUBCTS712_02388_NYBETHOBDILORD_000_104","ゴリアテの……かつて私を糾弾したあの男なら……。
-彼女の自我は、心の底では恋人の死を受け入れ、
-安らかな眠りを願っているのだ、とでも言うのでしょうね。"
-63,"TEXT_SUBCTS712_02388_NYBETHOBDILORD_000_105","フ、フフフ……そんなはずはありませン。
-これほど強き想いを抱く彼女が、そんな陳腐な終焉を望むはずが！"
-64,"TEXT_SUBCTS712_02388_NYBETHOBDILORD_000_106","死からの復活を、不老不死を！　真に望まぬ者などいはしない！
-それこそが、我が理想、人々の願いを叶える唯一の道なのだから！"
-65,"TEXT_SUBCTS712_02388_NYBETHOBDILORD_000_107","……どうやら、あなたの心を縛る相手が、別にいるようですね。
-愛する者への想い以外の、俗な感情を植えつけた相手が。"
-66,"TEXT_SUBCTS712_02388_NYBETHOBDILORD_000_108","……あの冒険者、でしょう？
-あなたの魂、エーテル波動からその存在をひしと感じますよ。
-ずいぶんと強く、<If(PlayerParameter(4))>彼女<Else/>彼</If>に憧れを抱いているようですねぇ。"
-67,"TEXT_SUBCTS712_02388_NYBETHOBDILORD_000_109","ならば、その余計な感情の元を、
-あなたが断ち切ることができれば、すべては解決する……！"
-68,"TEXT_SUBCTS712_02388_NYBETHOBDILORD_000_110","さあ、エッダ、あなたを迷宮に解き放ちましょう。
-勝手に入り込んできた、侵入者どもの掃除も必要でしたしねぇ。
-あなた自身の手で、「魂」にかけた枷を破壊するのです！"
-69,"TEXT_SUBCTS712_02388_NYBETHOBDILORD_000_111","行きなさい……。
-件の冒険者も、この迷宮に挑もうとしているようだ……。
-あなたの「魂」を解き放つため、あの冒険者を殺すのです！"
-70,"TEXT_SUBCTS712_02388_NYBETHOBDILORD_000_112","……フフフ、もうすぐですよ。
-あなたと想い人の完全なる復活も、その先に待つ永遠も。"
-71,"TEXT_SUBCTS712_02388_NYBETHOBDILORD_000_113","我が妻よ……
-死したるあなたとの再会も、きっと、もうすぐ……。"
-72,"TEXT_SUBCTS712_02388_EUNAKOTOR_000_200","よくぞ、戻ってきた……。
-この手記の持ち主の想いを見通せたのだな……？"
-73,"TEXT_SUBCTS712_02388_WOODWAILER02388_000_201","ニバス・オブデロード……彼の目的は、
-死者を復活させ、愛する者と再会を果たすことだったと……？"
-74,"TEXT_SUBCTS712_02388_EUNAKOTOR_000_202","さて、な……。
-その言葉がどこまで本心だったのかはわからんよ。"
-75,"TEXT_SUBCTS712_02388_EUNAKOTOR_000_203","死者の完全なる復活など、本当に実現できるとも思えん。
-ただ、エッダなる娘の強い愛情につけこんで、
-面白半分に研究を行っていただけという可能性も大いにある。"
-76,"TEXT_SUBCTS712_02388_EUNAKOTOR_000_204","それに、その想いが真のものであったとしてもだ……。
-眠りについていた死者の魂と肉体を、いたずらに弄び、
-森のエーテルを乱して、危機に陥れようとしていたのは事実。"
-77,"TEXT_SUBCTS712_02388_EUNAKOTOR_000_205","たとえ、その目的に、一片の是があろうと、
-無関係のものに犠牲を生み出すような手段をとった時点で、
-決して、その行いを認めるわけにはいかんよ……。"
-78,"TEXT_SUBCTS712_02388_EUNAKOTOR_000_206","……と、この森に生きる角尊としては、そう思うがな。"
-79,"TEXT_SUBCTS712_02388_EUNAKOTOR_000_207","この手記から、私が感じ取れたのは、
-ただ、その目的を成そうという強い想いだけだ……。"
-80,"TEXT_SUBCTS712_02388_EUNAKOTOR_000_208","直接に対峙したそなたから見て……
-ニバスなる魔術師は、どのような男であった？"
-81,"TEXT_SUBCTS712_02388_Q2_000_000","なんと答える？"
-82,"TEXT_SUBCTS712_02388_A2_000_001","死者の身体と魂を弄ぶ邪悪な魔術師だった"
-83,"TEXT_SUBCTS712_02388_A2_000_002","理想を口にするだけの哀れな人だった"
-84,"TEXT_SUBCTS712_02388_A2_000_003","答えない"
-85,"TEXT_SUBCTS712_02388_EUNAKOTOR_000_210","そうだな、選んだ手段が間違ったものであった以上、
-真意がどうであれ、その行為は「悪」と評されるべきだろう。"
-86,"TEXT_SUBCTS712_02388_EUNAKOTOR_000_220","そうか……。
-人としての領分を超えねばならぬ域に目的があった。
-そう考えると、確かに哀れな男なのかもしれんな……。"
-87,"TEXT_SUBCTS712_02388_EUNAKOTOR_000_230","……そうだな、彼の想いの断片を見通したとて、
-そなたに尋ねるべきことではなかったかもしれんな。"
-88,"TEXT_SUBCTS712_02388_EUNAKOTOR_000_240","ともあれ、我らに今できるのは、
-地下迷宮を、彼の墓標として封印するのみだ……。"
-89,"TEXT_SUBCTS712_02388_EUNAKOTOR_000_241","黒幕が倒れた以上、新たな悲劇は防げよう。
-森の精霊の力を借りて、入念に結界を貼るつもりでおる。
-迷宮の死者たちが、再び安らかに眠れるように、な……。"
-90,"TEXT_SUBCTS712_02388_EUNAKOTOR_000_015","（★未使用／削除予定★）"
-91,"TEXT_SUBCTS712_02388_WOODWAILER00000_000_020","（★未使用／削除予定★）"
-92,"TEXT_SUBCTS712_02388_WOODWAILER01556_000_004","（★未使用／削除予定★）"
-93,"TEXT_SUBCTS712_02388_WOODWAILER01556_000_005","（★未使用／削除予定★）"
+48,"TEXT_SUBCTS712_02388_WOODWAILER01556_000_000","<If(PlayerParameter(4))>Madam!<Else/>Sir!</If> A moment, if you would. Are you not the adventurer who felled the dark sorcerer in the ruins? It <Emphasis>is</Emphasis> you, thank the Twelve! We are in immediate need of your assistance!"
+49,"TEXT_SUBCTS712_02388_WOODWAILER01556_000_001","Allow me to explain. On a recent reconnaissance mission, our men unearthed documents we believe were written by the selfsame sorcerer you encountered down in the labyrinth. As we have been desperately searching for more insight into this man and the unspeakable acts he committed, the importance of this discovery cannot be overstated. "
+50,"TEXT_SUBCTS712_02388_WOODWAILER01556_000_002","The documents have thus far proved beyond our comprehension, but now that <Emphasis>you</Emphasis> are here─why, who better to help us decipher their contents than the <If(PlayerParameter(4))>woman<Else/>man</If> who braved the depths of those fell ruins to confront the fiend!"
+51,"TEXT_SUBCTS712_02388_WOODWAILER01556_000_003","One of my fellow expeditionaries will be waiting for you at Issom–Har with the aforementioned documents. E–Una–Kotor communes with the elementals as we speak─he, too, shall join you anon."
+52,"TEXT_SUBCTS712_02388_WOODWAILER01556_000_010","Pray make haste to Issom–Har. E–Una–Kotor shall meet with you there anon."
+53,"TEXT_SUBCTS712_02388_WOODWAILER02338_000_050","Well met, adventurer. Your cooperation in this matter is much appreciated. We had hoped these documents would serve to enlighten us regarding the nature and motives of the dread sorcerer Nybeth, but I fear there is a rub..."
+54,"TEXT_SUBCTS712_02388_WOODWAILER02338_000_051","They are written in a foreign script that is entirely unfamiliar to our eyes. We know not where to begin in determining the origin of these odd glyphs, let alone deciphering their meaning."
+55,"TEXT_SUBCTS712_02388_EUNAKOTOR_000_052","'Tis little surprise they are not familiar to you. If that most curious aetheric signature is aught to judge by, I would surmise those papers, and the man who penned them, hail from a world not our own."
+56,"TEXT_SUBCTS712_02388_EUNAKOTOR_000_053","<Highlight>ObjectParameter(1)</Highlight>... Kan–E–Senna tells me that you possess a special gift─one that grants you a preternatural insight to the true nature of those around you."
+57,"TEXT_SUBCTS712_02388_EUNAKOTOR_000_054","From my understanding, this power is not one to be invoked at will. But having exposed yourself to the otherworldly presence of Nybeth, mayhap... Might you take these documents into hand, and see if aught appears before your mind's eye?"
+58,"TEXT_SUBCTS712_02388_NYBETHOBDILORD_000_100","No, no, no! This is all wrong! Her soul will not remain bound to the flesh. It is as if she is rejecting her corporeal form. Mayhap the vessel is too weak...?"
+59,"TEXT_SUBCTS712_02388_NYBETHOBDILORD_000_101","But that cannot be! A passionate spirit is possessed of inexhaustible stores of aether, and hers is by far the most strong-willed of my specimens. She should have the strength to remain tethered to this realm in perpetuity!"
+60,"TEXT_SUBCTS712_02388_NYBETHOBDILORD_000_102","But no...! Not even a glimmer of life in her body! Could it possibly be...? That her spirit would seek to return to the aetherial sea of its own accord...!? Preposterous!"
+61,"TEXT_SUBCTS712_02388_NYBETHOBDILORD_000_103","Would you be so foolish as to welcome the hollow embrace of eternal sleep? To sate yourself with memories of your worthless life as you drift off into the void?"
+62,"TEXT_SUBCTS712_02388_NYBETHOBDILORD_000_104","Hmph... And what would you say, <Emphasis>old friend</Emphasis>? Would you blather about the virtue of accepting death, and extol her pure-hearted wish to rest beside her lost love?"
+63,"TEXT_SUBCTS712_02388_NYBETHOBDILORD_000_105","Hah! I think not! My Edda would never be blinded to the truth by some starry-eyed fantasy! No, a spirit as strong as hers would never fade so meekly into nothingness."
+64,"TEXT_SUBCTS712_02388_NYBETHOBDILORD_000_106","Only a fool would yearn for death, to lay quietly within that mortiferous shade! And that is why I press on─to realize the dreams of all who came before me, and all who will come after!"
+65,"TEXT_SUBCTS712_02388_NYBETHOBDILORD_000_107","And yet... It would seem your spirit remains entangled with that of another. Not your lost love, no─but the one who besmirched your soul with these vulgar notions of accepting─nay, <Emphasis>embracing</Emphasis> that vain slumber!"
+66,"TEXT_SUBCTS712_02388_NYBETHOBDILORD_000_108","It's that rat sniffing about in my maze, isn't it? I can still smell <If(PlayerParameter(4))>her<Else/>his</If> stench upon you. And the repugnant foetor of the...<Emphasis>admiration</Emphasis> you feel for <If(PlayerParameter(4))>her<Else/>him</If>."
+67,"TEXT_SUBCTS712_02388_NYBETHOBDILORD_000_109","Let us conduct an experiment, shall we? Yesss, a test of loyalty─one that shall also serve to purge these halls of <If(PlayerParameter(4))>she<Else/>he</If> who would dare interfere with my most noble aims!"
+68,"TEXT_SUBCTS712_02388_NYBETHOBDILORD_000_110","Go forth, my sweet Edda! Go forth and seek out your <Emphasis>beloved</Emphasis> hero."
+69,"TEXT_SUBCTS712_02388_NYBETHOBDILORD_000_111","Give <If(PlayerParameter(4))>her<Else/>him</If> the gift of death you would seek yourself, and in the doing, free yourself from the shackles that bind your spirit so!"
+70,"TEXT_SUBCTS712_02388_NYBETHOBDILORD_000_112","Soon... Yes, soon the secrets of eternal life will be mine! Will be...<Emphasis>ours</Emphasis>."
+71,"TEXT_SUBCTS712_02388_NYBETHOBDILORD_000_113","Then, my love...I shall pull back the veil, and pluck your soul from the wastelands of the damned. And we shall be as one again, inseparable forevermore! Muahahaha!"
+72,"TEXT_SUBCTS712_02388_EUNAKOTOR_000_200","You return to us, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Pray tell, what did you see?"
+73,"TEXT_SUBCTS712_02388_WOODWAILER02388_000_201","This dread sorcerer sought to bring his beloved back from the dead? <Emphasis>That</Emphasis> is what impelled him to torment countless souls in his experiments down in those shadowy depths?"
+74,"TEXT_SUBCTS712_02388_EUNAKOTOR_000_202","While I cannot say for certain, I would rather not believe that such a simple, innocent desire could give birth to such blasphemous deeds."
+75,"TEXT_SUBCTS712_02388_EUNAKOTOR_000_203","Nor am I inclined to believe that resurrection of the manner he suggests is even possible. Nay, I find it far more likely he meant only to play some cruel game with poor Edda, preying on the love she bore for her friends."
+76,"TEXT_SUBCTS712_02388_EUNAKOTOR_000_204","Even if there was once an onze of compassion in that monster's heart, one thing is certain─his unholy quest to rejoin body and spirit has disturbed the balance of the Twelveswood."
+77,"TEXT_SUBCTS712_02388_EUNAKOTOR_000_205","Longing to reunite with a lost love is one thing, but to knowingly sacrifice the lives of countless others... 'Tis little wonder that such an odious act would incur the wrath of the elementals."
+78,"TEXT_SUBCTS712_02388_EUNAKOTOR_000_206","As a Padjal, I cannot sit idly by as such terrors endanger our forest home."
+79,"TEXT_SUBCTS712_02388_EUNAKOTOR_000_207","From the pages of that fiend, I could sense naught but an all-consuming obsession with life and death, and a hunger for the shadows."
+80,"TEXT_SUBCTS712_02388_EUNAKOTOR_000_208","You confronted the dread necromancer in the heart of the labyrinth. Tell me─what did you make of him and his goals?"
+81,"TEXT_SUBCTS712_02388_Q2_000_000","What will you say?"
+82,"TEXT_SUBCTS712_02388_A2_000_001","He was a depraved monster who saw the dead as mere playthings."
+83,"TEXT_SUBCTS712_02388_A2_000_002","He was a twisted, pitiful creature driven by false ideals."
+84,"TEXT_SUBCTS712_02388_A2_000_003","..."
+85,"TEXT_SUBCTS712_02388_EUNAKOTOR_000_210","I daresay you have the right of it. No matter what his stated aim, disturbing the peace of the departed is a heinous crime indeed."
+86,"TEXT_SUBCTS712_02388_EUNAKOTOR_000_220","Pitiful indeed. He chose to flee from death─from the natural order of existence─to go where no man should tread. I daresay his soul is unlikely to ever find peace."
+87,"TEXT_SUBCTS712_02388_EUNAKOTOR_000_230","Ah, pray forgive me. It was untoward of me to ask you to speculate on the aspirations of a madman after only a short glimpse into his past."
+88,"TEXT_SUBCTS712_02388_EUNAKOTOR_000_240","At the very least, we can take comfort in knowing that Nybeth and his ill ambitions are no more. Now, we must see to it that the labyrinth is purged of the abominable creations that run rampant within, that the wayward souls still trapped there may at long last find peace."
+89,"TEXT_SUBCTS712_02388_EUNAKOTOR_000_241","When the Palace of the Dead is at last cleansed of the sorcerer's taint, I will invoke the power of the elementals to seal closed the ingress, that none may ever be lost to its unholy halls again."
+90,"TEXT_SUBCTS712_02388_EUNAKOTOR_000_015","deleted"
+91,"TEXT_SUBCTS712_02388_WOODWAILER00000_000_020","deleted"
+92,"TEXT_SUBCTS712_02388_WOODWAILER01556_000_004","deleted"
+93,"TEXT_SUBCTS712_02388_WOODWAILER01556_000_005","deleted"

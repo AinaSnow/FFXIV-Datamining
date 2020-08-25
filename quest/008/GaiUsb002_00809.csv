@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB002_00809_SEQ_00","風車番の小屋にいるトラッハトゥームは、海雄旅団時代の武勇伝を語りたいようだ。"
-1,"TEXT_GAIUSB002_00809_SEQ_01","タコタン……タイタン討伐の情報を得たければ、<Sheet(BNpcName,417,0)/>を倒せというトラッハトゥーム。「<Sheet(EObj,2002033,0)/>」を調べて、現れた「<Sheet(BNpcName,417,0)/>」「<Sheet(BNpcName,678,0)/>」を全て倒そう。"
-2,"TEXT_GAIUSB002_00809_SEQ_02","<Sheet(BNpcName,417,0)/>、<Sheet(BNpcName,678,0)/>を全て倒した。グレイフリート風車群の風車番の小屋にいる「トラッハトゥーム」に報告しよう。"
-3,"TEXT_GAIUSB002_00809_SEQ_03","トラッハトゥームに討伐の報告をした。どうも彼がサボっていた仕事だったようだが……。タイタン討伐の情報を得るため、もう一度話しかけてみよう。"
+0,"TEXT_GAIUSB002_00809_SEQ_00","Trachtoum is eager to regale you with stories of his glory days."
+1,"TEXT_GAIUSB002_00809_SEQ_01","Although Trachtoum claims to have battled a dread primal known as “Tidus,” you cannot help but question his account. He quickly recognizes your doubt, and refuses to reveal the Company's secret strategy─that is, unless you destroy a nest of wild rats by one of the windmills outside. If you wish to defeat Titan, then you have no choice but to acquiesce to his demands."
+2,"TEXT_GAIUSB002_00809_SEQ_02","You effortlessly slay the vermin and destroy their nest. Return to Trachtoum and tell him the deed is done."
+3,"TEXT_GAIUSB002_00809_SEQ_03","It would appear that Trachtoum used you to handle work he himself had been tasked to do. In spite of this irritating revelation, you must swallow your pride and press him for more information."
 4,"TEXT_GAIUSB002_00809_SEQ_04",""
 5,"TEXT_GAIUSB002_00809_SEQ_05",""
 6,"TEXT_GAIUSB002_00809_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSB002_00809_SEQ_21",""
 22,"TEXT_GAIUSB002_00809_SEQ_22",""
 23,"TEXT_GAIUSB002_00809_SEQ_23",""
-24,"TEXT_GAIUSB002_00809_TODO_00","<Sheet(EObj,2002033,0)/>を調べて<Sheet(BNpcName,417,0)/>たちを全て討伐"
-25,"TEXT_GAIUSB002_00809_TODO_01","トラッハトゥームに報告"
+24,"TEXT_GAIUSB002_00809_TODO_00","Destroy the rats' nest."
+25,"TEXT_GAIUSB002_00809_TODO_01","Speak with Trachtoum."
 26,"TEXT_GAIUSB002_00809_TODO_02",""
 27,"TEXT_GAIUSB002_00809_TODO_03",""
 28,"TEXT_GAIUSB002_00809_TODO_04",""
@@ -49,31 +49,15 @@ int32,str,str
 45,"TEXT_GAIUSB002_00809_TODO_21",""
 46,"TEXT_GAIUSB002_00809_TODO_22",""
 47,"TEXT_GAIUSB002_00809_TODO_23",""
-48,"TEXT_GAIUSB002_00809_TRACHTOUM_000_000","なんだなんだー？
-俺様の武勇伝が聞きたいのか！？
-んもー、どうせ「あの」蛮神の話が聞きたいんだろ？"
-49,"TEXT_GAIUSB002_00809_TRACHTOUM_000_001","あぁ、言わなくてもわかってるって！
-蛮神「タコタン」……だろっ？"
-50,"TEXT_GAIUSB002_00809_TRACHTOUM_000_002","「タコタン」、あいつは強かった……！
-歴戦の勇者たる俺様にとっても、
-あれは心に残る戦いだった！"
-51,"TEXT_GAIUSB002_00809_TRACHTOUM_000_003","大地を揺るがすタコタンの、
-なんかかっこいい……パンチ！
-すげぇ早くてかっこいい……キック！"
-52,"TEXT_GAIUSB002_00809_TRACHTOUM_000_004","でもー？
-それを颯爽とかわしていたのはー？
-元海雄旅団の！　俺・様！！"
-53,"TEXT_GAIUSB002_00809_TRACHTOUM_000_005","縦横無尽に走る俺様の斧が、
-群がる小ダコどもをばったばったと……。"
-54,"TEXT_GAIUSB002_00809_TRACHTOUM_000_006","なんだ、俺様の武勇伝が聞きたいんじゃないのか。
-……タコタン討伐の詳細が知りたいだと？"
-55,"TEXT_GAIUSB002_00809_TRACHTOUM_000_007","……ちっ、知りたいなら対価が必要だな！
-近くに巣食っている「<Sheet(BNpcName,417,0)/>」どもを倒してこい。
-タコタン討伐の詳細の話は、それからだ！"
-56,"TEXT_GAIUSB002_00809_DUMMY_000_010","指定地点を調べる><Sheet(BNpcName,417,0)/>6匹がポップ"
-57,"TEXT_GAIUSB002_00809_TRACHTOUM_000_020","<Sheet(BNpcName,417,0)/>を倒してきたみたいだな。
-元海雄旅団のトラッハトゥームが、褒めてやろう！"
-58,"TEXT_GAIUSB002_00809_TRACHTOUM_000_021","あいつらめ、ちょっと駆除をさぼっていたら、
-やたら増えちまって……。
-……あ、いや、なんでもないぞ。"
-59,"TEXT_GAIUSB002_00809_POP_MESSAGE_000","敵の気配を感じた！！"
+48,"TEXT_GAIUSB002_00809_TRACHTOUM_000_000","Gah hah hah! So, ye want to hear the tale of how the Company of Heroes bested a primal, do ye?"
+49,"TEXT_GAIUSB002_00809_TRACHTOUM_000_001","Let me guess: ye mean that bastard Tidus, aye?"
+50,"TEXT_GAIUSB002_00809_TRACHTOUM_000_002","Oh, if only ye'd been there to see it!"
+51,"TEXT_GAIUSB002_00809_TRACHTOUM_000_003","'Twas a mighty struggle, like the legends of old! "
+52,"TEXT_GAIUSB002_00809_TRACHTOUM_000_004","Me an' the boys fought him for three days an' nights, we did!"
+53,"TEXT_GAIUSB002_00809_TRACHTOUM_000_005","The ground trembled with every step Tidus took, an' when he hit ye, <If(PlayerParameter(4))>girl<Else/>boy</If>, it felt like a cannonball to the gut. <Emphasis>Uggghhh</Emphasis>! Just like that!"
+54,"TEXT_GAIUSB002_00809_TRACHTOUM_000_006","Oi, what's that look for? I'm a godsdamned hero, I'll have you know! The people 'round here sing me praises! Don't tell me ye only care about learnin' the secret tactics we used to beat ol' Tidus..."
+55,"TEXT_GAIUSB002_00809_TRACHTOUM_000_007","Hmph! Well, too bad, 'cause now I'm not feelin' charitable. If yer so damn desperate, then why don't ye do me a favor an' kill those rats that've made a nest by the windmill just south of here? Aye, do that, then we'll talk!"
+56,"TEXT_GAIUSB002_00809_DUMMY_000_010",""
+57,"TEXT_GAIUSB002_00809_TRACHTOUM_000_020","Eh? So the beasties are dead, are they? Nice work, 'venturer!"
+58,"TEXT_GAIUSB002_00809_TRACHTOUM_000_021","Saved me the hassle of─ah, never mind."
+59,"TEXT_GAIUSB002_00809_POP_MESSAGE_000","A high-pitched squeal pierces the air!"

@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSA910_00805_SEQ_00","ダンスタン監視哨のマルセットは冒険者に研究を手伝わせたいようだ。"
-1,"TEXT_GAIUSA910_00805_SEQ_01","第六助手として、マルセットを手伝うことになった。「<Sheet(BNpcName,2190,0)/>」の体力を減らした状態で「<Sheet(EventItem,2000632,0)/>」を使い、「<Sheet(EventItem,2000633,0)/>」を入手しよう。"
-2,"TEXT_GAIUSA910_00805_SEQ_02","ダンスタン監視哨の「マルセット」に<Sheet(EventItem,2000633,0)/>を渡そう。"
-3,"TEXT_GAIUSA910_00805_SEQ_03","仮説の検証に着手できそうだと喜ぶマルセット。……研究を手伝った冒険者のことは、またしても忘れているようだ。"
+0,"TEXT_GAIUSA910_00805_SEQ_00","Marcette would put you to work again, whether you like it or not."
+1,"TEXT_GAIUSA910_00805_SEQ_01","The genius naturalist Marcette has deigned to appoint you to the most honorable position of Research Assistant Six, and promptly ordered you to procure a live lightning spark for her research. Weaken the creature and capture it in the receptacle she has provided for you."
+2,"TEXT_GAIUSA910_00805_SEQ_02","You have captured a live lightning spark. Despite your concerns for the creature's fate, you have agreed to deliver it to Marcette."
+3,"TEXT_GAIUSA910_00805_SEQ_03","Marcette is on the verge of another pioneering discovery. Despite your continued contributions to her research, she has yet to remember your number, let alone your name."
 4,"TEXT_GAIUSA910_00805_SEQ_04",""
 5,"TEXT_GAIUSA910_00805_SEQ_05",""
 6,"TEXT_GAIUSA910_00805_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSA910_00805_SEQ_21",""
 22,"TEXT_GAIUSA910_00805_SEQ_22",""
 23,"TEXT_GAIUSA910_00805_SEQ_23",""
-24,"TEXT_GAIUSA910_00805_TODO_00","弱らせた<Sheet(BNpcName,2190,0)/>に<Sheet(EventItem,2000632,0)/>を使う"
-25,"TEXT_GAIUSA910_00805_TODO_01","マルセットに<Sheet(EventItem,2000633,0)/>を渡す"
+24,"TEXT_GAIUSA910_00805_TODO_00","Use the thick glass jar on a weakened lightning spark."
+25,"TEXT_GAIUSA910_00805_TODO_01","Deliver the live lightning spark to Marcette."
 26,"TEXT_GAIUSA910_00805_TODO_02",""
 27,"TEXT_GAIUSA910_00805_TODO_03",""
 28,"TEXT_GAIUSA910_00805_TODO_04",""
@@ -49,22 +49,10 @@ int32,str,str
 45,"TEXT_GAIUSA910_00805_TODO_21",""
 46,"TEXT_GAIUSA910_00805_TODO_22",""
 47,"TEXT_GAIUSA910_00805_TODO_23",""
-48,"TEXT_GAIUSA910_00805_MARCETTE_000_000","そうそう、学説の証明に協力してくれたキミを、
-名誉ある私の「第六助手」に任命するわ。
-そんな訳だからキリキリ働きなさい？"
-49,"TEXT_GAIUSA910_00805_MARCETTE_000_001","次の仕事は「<Sheet(EventItem,2000633,0)/>」の入手よ！
-「<Sheet(BNpcName,2190,0)/>」を適度に弱らせて、
-この<Sheet(EventItem,2000632,0)/>に詰めこんできなさい！"
-50,"TEXT_GAIUSA910_00805_DUMMY_000_000","<Sheet(BNpcName,2190,0)/>を弱らせて、<Sheet(EventItem,2000632,0)/>に<Sheet(EventItem,2000633,0)/>をいれる×1"
-51,"TEXT_GAIUSA910_00805_MARCETTE_000_010","「<Sheet(EventItem,2000633,0)/>」は手に入ったかしら？
-キミが「新エオルゼア博物誌」の隅っこに、協力者として
-名を残すチャンスなんだから、キリキリ働きなさい？"
-52,"TEXT_GAIUSA910_00805_MARCETTE_000_020","ククク……ほどよく生きてるようね、スプライトちゃん。
-キノコの傘から採取した胞子に、
-この子を使ってビリビリ電流を流せば……アハハハハハッ！"
-53,"TEXT_GAIUSA910_00805_MARCETTE_000_021","私の学説が正しければ……
-電流によって「生命の危機」を感じたキノコちゃんが、
-通常よりも早く、多く、育つはずよ！"
-54,"TEXT_GAIUSA910_00805_MARCETTE_000_022","「雷の多い年はキノコが豊作」って俗説……
-そして、霊災後に増殖を続けるトードスツールと、
-ライトニング・スプライトの因果関係を証明してみせるわ！"
+48,"TEXT_GAIUSA910_00805_MARCETTE_000_000","Research Assistant Six. Yes, I am speaking to <Emphasis>you</Emphasis>, Research Assistant Six─that is the title I have deigned to bestow upon you after your humble contribution to my latest scientific breakthrough."
+49,"TEXT_GAIUSA910_00805_MARCETTE_000_001","Mind you, now that you are officially my slave─er, <Emphasis>research assistant</Emphasis>─there will be no slacking off. I require a live lightning spark. Here is a jar. Now hurry─I haven't all day!"
+50,"TEXT_GAIUSA910_00805_DUMMY_000_000",""
+51,"TEXT_GAIUSA910_00805_MARCETTE_000_010","The mere fact that you dare to interrupt me means that you must have the live lightning spark I require. Well, hand it over, then!"
+52,"TEXT_GAIUSA910_00805_MARCETTE_000_020","Oooh, aren't you a cute little one!? Just think of all the fun I can have with you! The next assistant who dares shirk <If(PlayerParameter(4))>her<Else/>his</If> duties is in for quite a shock! Muahahaha!!!"
+53,"TEXT_GAIUSA910_00805_MARCETTE_000_021","Now, where was I? Ah, yes, toadstools! If my theories are correct, sending a shock through the toadstools will trigger a sense of danger, causing them to reproduce with unheard-of speed!"
+54,"TEXT_GAIUSA910_00805_MARCETTE_000_022","Truly, my genius knows no bounds! To think of the discoveries I could make if I had but a single competent assistant! ...You! Assistant Seven! Or was it Four!? Oh, who<Emphasis>ever</Emphasis> you are, begone from my sight and let me concentrate for once!"

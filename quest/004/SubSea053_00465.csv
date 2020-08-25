@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBSEA053_00465_SEQ_00","サマーフォード庄を取り仕切るシュテールヴィルンは、農作業の時間になっても集まらない農夫たちを、探してきてほしいようだ。"
-1,"TEXT_SUBSEA053_00465_SEQ_01","「セヴリン」という名の農夫をはじめとする、元海賊の農夫5名が作業の時間になっても集まらないという。彼らを探しだし、シュテールヴィルンのもとへ向かうように伝えよう。彼らは皆、「サマーフォード庄」周辺にいるようだ。"
-2,"TEXT_SUBSEA053_00465_SEQ_02","「セヴリン」をはじめとする、さぼっていた元海賊の農夫たちに声をかけ終えた。「サマーフォード庄」の「シュテールヴィルン」に報告しよう。"
-3,"TEXT_SUBSEA053_00465_SEQ_03","探し出した元海賊の農夫たちは作業に戻ったが、唯一、セヴリンだけは姿すら現さなかったという。サマーフォード庄には、どうやら解決すべき問題が多そうだ。"
+0,"TEXT_SUBSEA053_00465_SEQ_00","Staelwyrn is up in arms, as his hired hands are nowhere to be found."
+1,"TEXT_SUBSEA053_00465_SEQ_01","Staelwyrn has work around Summerford Farms for his crew, but several of them are nowhere to be found. The old pirate captain requests that you round up the delinquent yeomen and send them back to him."
+2,"TEXT_SUBSEA053_00465_SEQ_02","You have tracked down and spoken with all five yeomen. Report back to Staelwyrn."
+3,"TEXT_SUBSEA053_00465_SEQ_03","Staelwyrn informs you that all the yeomen have returned to work except Sevrin. He is ill pleased by this, but does not hold you responsible for his own man's failings."
 4,"TEXT_SUBSEA053_00465_SEQ_04",""
 5,"TEXT_SUBSEA053_00465_SEQ_05",""
 6,"TEXT_SUBSEA053_00465_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_SUBSEA053_00465_SEQ_21",""
 22,"TEXT_SUBSEA053_00465_SEQ_22",""
 23,"TEXT_SUBSEA053_00465_SEQ_23",""
-24,"TEXT_SUBSEA053_00465_TODO_00","さぼっている農夫と話す"
-25,"TEXT_SUBSEA053_00465_TODO_01","シュテールヴィルンに報告"
+24,"TEXT_SUBSEA053_00465_TODO_00","Speak with the slacking yeomen."
+25,"TEXT_SUBSEA053_00465_TODO_01","Report to Staelwyrn."
 26,"TEXT_SUBSEA053_00465_TODO_02",""
 27,"TEXT_SUBSEA053_00465_TODO_03",""
 28,"TEXT_SUBSEA053_00465_TODO_04",""
@@ -49,66 +49,35 @@ int32,str,str
 45,"TEXT_SUBSEA053_00465_TODO_21",""
 46,"TEXT_SUBSEA053_00465_TODO_22",""
 47,"TEXT_SUBSEA053_00465_TODO_23",""
-48,"TEXT_SUBSEA053_00465_SYSTEM_100_000","受注するには、進行中のメインクエストを破棄する必要があります。
-メインコマンドの「コンテンツ情報」から、
-「ジャーナル」を選び、破棄してください。"
-49,"TEXT_SUBSEA053_00465_STAELWYRN_000_1","やれやれ、セヴリンたちめ……
-セヴリンってのは、お前も以前見かけてる赤帽野郎さ。
-連中め、野良仕事の時間だってのに集まってきやがらねえ。"
-50,"TEXT_SUBSEA053_00465_STAELWYRN_000_2","おおかた、またどこかでサボってるんだろう。
-悪いが、あたりの果樹園を一回りして、
-「セヴリン」とその仲間たちを呼んできてくれ。"
-51,"TEXT_SUBSEA053_00465_STAELWYRN_000_3","だが、ヤツらは枯れても元海賊よ。
-説得するにゃ、少々手間がかかるだろうが……頼んだぞ。"
-52,"TEXT_SUBSEA053_00465_SEVRIN_000_11","ああ、確かに俺がセヴリンだが……
-あんた、シュテールヴィルンの爺さんと話してた冒険者か。"
-53,"TEXT_SUBSEA053_00465_SEVRIN_000_12","爺さんに頼まれて、俺を呼びにきたんだな？
-爺さんめ、余計なマネを……ふん、じゃあ行ってやるよ。"
-54,"TEXT_SUBSEA053_00465_SEVRIN_000_13","お前のような、どこのチョコボの骨かわからんヤツとは、
-関わらないに越したことないからな、あばよ！"
-55,"TEXT_SUBSEA053_00465_AYLMER_000_21","シュテールヴィルンが呼んでるって？
-はあ……あんた、オレの今の気持ちがわかるか？
-正解したら、行ってやってもいいよ。"
-56,"TEXT_SUBSEA053_00465_Q1_000_1","この農夫の今の気持ちは？"
-57,"TEXT_SUBSEA053_00465_A1_000_1","逃げ出したい"
-58,"TEXT_SUBSEA053_00465_A1_000_2","農作業に向いてない"
-59,"TEXT_SUBSEA053_00465_AYLMER_000_23","おっと、正解だ。
-オレの自慢といえば、逃げ脚だけでね……
-まあ、今回は約束どおり、逃げずに仕事に行ってやるよ。"
-60,"TEXT_SUBSEA053_00465_EYRIMHUS_000_31","仕事の時間だって？
-木いじりなんざ、俺の自慢の斧が泣くぜ……
-おまえ、俺が昔、船で何してたか、わかるか？"
-61,"TEXT_SUBSEA053_00465_Q2_000_1","この農夫の海賊船での担当は？"
-62,"TEXT_SUBSEA053_00465_A2_000_1","戦闘員"
-63,"TEXT_SUBSEA053_00465_A2_000_2","外科医"
-64,"TEXT_SUBSEA053_00465_EYRIMHUS_000_33","あたりだ、まあ、この斧を見りゃ、察しがつくか？
-船じゃ毎日、誰かの手足をぶった切ってたもんさ。
-……さて、葡萄の枝をぶった切りに行くとするかね。"
-65,"TEXT_SUBSEA053_00465_SOZAIRARZAI_000_41","え、集合時間だって？
-でも、俺、腹ペコだから、動きたくないよ……
-そうだ、君が俺の朝飯を当てられたら、行ってあげるよ。"
-66,"TEXT_SUBSEA053_00465_Q3_000_1","この農夫の朝食は？"
-67,"TEXT_SUBSEA053_00465_A3_000_1","パサパサのコーンブレッド"
-68,"TEXT_SUBSEA053_00465_A3_000_2","野菜カスばかりのビースープ"
-69,"TEXT_SUBSEA053_00465_SOZAIRARZAI_000_43","アタリだ！　
-はあ……わびしい飯は、もう、うんざりだよ。
-肉を買うために、少しは働くか……"
-70,"TEXT_SUBSEA053_00465_SDHODJBI_000_51","空ラベル"
-71,"TEXT_SUBSEA053_00465_WAUTER_000_51","おっと、もう仕事の時間か？
-だが、気が乗らねえな……
-今、オレが飲んでるモンを、お前が当てたら行ってやるか。"
-72,"TEXT_SUBSEA053_00465_Q4_000_1","この農夫が飲んでいるものは？"
-73,"TEXT_SUBSEA053_00465_A4_000_1","水"
-74,"TEXT_SUBSEA053_00465_A4_000_2","薄いワイン"
-75,"TEXT_SUBSEA053_00465_SDHODJBI_000_53","空ラベル"
-76,"TEXT_SUBSEA053_00465_WAUTER_000_53","そうだ、これじゃ酔えやしねえぜ。
-ああ、うまい酒が飲みたいもんだ。
-その金を稼ぐためにも、ひと働きするかねえ。"
-77,"TEXT_SUBSEA053_00465_STAELWYRN_000_61","おお、ご苦労さん。
-セヴリン以外は、農作業に向かったぜ。"
-78,"TEXT_SUBSEA053_00465_STAELWYRN_000_62","セヴリンにも、ちゃんと声をかけたって？
-ああ、お前のことは、これっぽちも疑っちゃいないさ。
-お前は、よくやってくれた。"
-79,"TEXT_SUBSEA053_00465_STAELWYRN_000_63","セヴリンのことだ、また適当な言い逃れでもしたんだろう。
-ヤツが、この庄いちばんの困り種でね……。
-ヤツに関しては、腰据えて対処してくしかねえさ。"
+48,"TEXT_SUBSEA053_00465_SYSTEM_100_000","To accept this quest, you must abandon the current main scenario quest. Open the corresponding entry in the journal or duty list and select “Abandon.”"
+49,"TEXT_SUBSEA053_00465_STAELWYRN_000_1","That sea-sloth Sevrin and his lot─never around when there's work to be done!"
+50,"TEXT_SUBSEA053_00465_STAELWYRN_000_2","I'd sooner hire <Emphasis>you</Emphasis> for the sake of gettin' things done, but then the rapscallions would never learn."
+51,"TEXT_SUBSEA053_00465_STAELWYRN_000_3","Round them up and let them know that Staelwyrn would like a word... And don't take “no” for an answer!"
+52,"TEXT_SUBSEA053_00465_SEVRIN_000_11","Aye, I'm Sevrin. You the old man's errand <If(PlayerParameter(4))>girl<Else/>boy</If>, now?"
+53,"TEXT_SUBSEA053_00465_SEVRIN_000_12","Tell my <Emphasis>dear</Emphasis> old captain not to wet his britches. I'll be along."
+54,"TEXT_SUBSEA053_00465_SEVRIN_000_13","Oh, and just so we're clear─I don't care for landlubbers. Go find the chocobo you rode in on, and ride on out."
+55,"TEXT_SUBSEA053_00465_AYLMER_000_21","So, Staelwyrn sent you. And what do you reckon I say to that?"
+56,"TEXT_SUBSEA053_00465_Q1_000_1","What do you reckon he says?"
+57,"TEXT_SUBSEA053_00465_A1_000_1","Work is for the weak and witless."
+58,"TEXT_SUBSEA053_00465_A1_000_2","I've saucier seeds to sow."
+59,"TEXT_SUBSEA053_00465_AYLMER_000_23","Damn right! Didn't get where I am by takin' guff from any glorified gardeners! ...But I s'pose I could see what he wants to get him off my back."
+60,"TEXT_SUBSEA053_00465_EYRIMHUS_000_31","Axes were made for splittin' skulls, not stumps! You know what I did in my sailin' days?"
+61,"TEXT_SUBSEA053_00465_Q2_000_1","What did he do in his sailing days?"
+62,"TEXT_SUBSEA053_00465_A2_000_1","Skirmishing."
+63,"TEXT_SUBSEA053_00465_A2_000_2","Wanton slaughter."
+64,"TEXT_SUBSEA053_00465_EYRIMHUS_000_33","You bet your <If(PlayerParameter(4))>bosom<Else/>beard</If> I did, <If(PlayerParameter(4))>lass<Else/>lad</If>! Aye, <Emphasis>those</Emphasis> were the days... <sigh> I reckon now I'll have to be satisfied takin' my axe to the trees."
+65,"TEXT_SUBSEA053_00465_SOZAIRARZAI_000_41","<groan> How am I supposed to work on an empty stomach? Go on, have a guess at what I had for breakfast."
+66,"TEXT_SUBSEA053_00465_Q3_000_1","What did he eat for breakfast?"
+67,"TEXT_SUBSEA053_00465_A3_000_1","Breaded sticks."
+68,"TEXT_SUBSEA053_00465_A3_000_2","Ash tuna."
+69,"TEXT_SUBSEA053_00465_SOZAIRARZAI_000_43","Wha─ Gods, how'd you know!? It's my breath, ain't it? It probably smells as wooden as the food tasted... But I know why you're here. <sigh> I'd just as soon get some real food in me, but I ain't one to reject a summons from the cap'n."
+70,"TEXT_SUBSEA053_00465_SDHODJBI_000_51","Textless"
+71,"TEXT_SUBSEA053_00465_WAUTER_000_51","Work? Ha! Can't work when me hands are full liftin' this mug. Ye know, I'd wager me last gil ye'd never guess what I'm drinkin'."
+72,"TEXT_SUBSEA053_00465_Q4_000_1","What do you think is in his mug?"
+73,"TEXT_SUBSEA053_00465_A4_000_1","Swill water."
+74,"TEXT_SUBSEA053_00465_A4_000_2","Swill wine."
+75,"TEXT_SUBSEA053_00465_SDHODJBI_000_53","Textless"
+76,"TEXT_SUBSEA053_00465_WAUTER_000_53","Well, yer right about the “swill” part. I reckon it <Emphasis>might</Emphasis> be worth a day o' doin' Staelwyrn's chores if it'll afford me a taste o' proper grog."
+77,"TEXT_SUBSEA053_00465_STAELWYRN_000_61","You continue to impress, <If(PlayerParameter(4))>lass<Else/>lad</If>. All but Sevrin are accounted for."
+78,"TEXT_SUBSEA053_00465_STAELWYRN_000_62","It's no fault of yours he squirmed out. I've let that worm wriggle through my fingers more times than I can count."
+79,"TEXT_SUBSEA053_00465_STAELWYRN_000_63","But rest assured, the next time I see him, I'll put him squarely in the dirt, where all such worms belong."

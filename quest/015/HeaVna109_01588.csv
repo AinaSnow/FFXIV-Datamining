@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNA109_01588_SEQ_00","キャンプ・リバーズミートのアルトアレールは、異端者の追跡について考えがあるようだ。"
-1,"TEXT_HEAVNA109_01588_SEQ_01","哨戒部隊の騎兵を後方へ送り届けるアルトアレールに代わり、異端者のアジトを捜索することになった。キャンプ・リバーズミートの北にある「<Sheet(EObj,2005408,0)/>」を調べよう。"
-2,"TEXT_HEAVNA109_01588_SEQ_02","異端者のアジトに辿りつき、襲ってきた異端者をねじ伏せた。アジトである、クルザス中央高地のゴルガニュ牧場をもう少し調査しよう。"
-3,"TEXT_HEAVNA109_01588_SEQ_03","アジト内を見渡していたところ、氷の巫女イゼルが現れ、彼女が戦う理由を聞くことができた。ゴルガニュ牧場の「アルトアレール」と話そう。"
-4,"TEXT_HEAVNA109_01588_SEQ_04","アルトアレールと話した。彼は廃屋の地下が異端者のアジトとなっていたことに驚いたようだ。"
+0,"TEXT_HEAVNA109_01588_SEQ_00","Lord Artoirel seems loath to forgo any opportunity to locate the heretics' hiding place."
+1,"TEXT_HEAVNA109_01588_SEQ_01","Whatever trail the heretics left is all but certain to be obliterated by the next snowfall, and with it, any hope of tracking the heretics to their refuge. Accordingly, Lord Artoirel assigns you the unenviable task of following the trail alone, while he delivers the wounded knight to Falcon's Nest and rallies reinforcements. Plainly, the young lord is either supremely confident of your abilities, or eager to be rid of you. Begin your search in the area north of Camp Riversmeet, where the knight said the ambush took place."
+2,"TEXT_HEAVNA109_01588_SEQ_02","Within the secret lair hidden below Gorgagne Mills, you are reunited with an old foe: the Lady Iceheart. Before violence can erupt, however, Midgardsormr reveals himself to the heretic leader, who is shocked to see the ancient wyrm in your company. Momentarily sapped of her will to fight, she reveals that she too is blessed with the Echo, and that it allowed her to see the truth of the Dragonsong War through the eyes of Hraesvelgr, one of the first brood. As she shares this revelation, her voice swells with renewed conviction...but when you subsequently remind her of the indiscriminate slaughter committed by the Dravanians whom she helped to breach the wards, her doubts soon resurface. Though she will not forsake her cause, she swears to make things right. But how and when, she does not say..."
+3,"TEXT_HEAVNA109_01588_SEQ_03","Moments too late, Lord Artoirel arrives with reinforcements, and the knights set about searching the area. They find no sign of any remaining heretics, however, nor of the Lady Iceheart, whom you allowed to escape."
+4,"TEXT_HEAVNA109_01588_SEQ_04","With the tiniest hint of respect, Lord Artoirel contemplates how difficult it must have been to establish an outpost in so remote a place. In any case, there is little reason to remain, and he seems eager to return to Falcon's Nest."
 5,"TEXT_HEAVNA109_01588_SEQ_05",""
 6,"TEXT_HEAVNA109_01588_SEQ_06",""
 7,"TEXT_HEAVNA109_01588_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_HEAVNA109_01588_SEQ_21",""
 22,"TEXT_HEAVNA109_01588_SEQ_22",""
 23,"TEXT_HEAVNA109_01588_SEQ_23",""
-24,"TEXT_HEAVNA109_01588_TODO_00","<Sheet(EObj,2005408,0)/>を調べる"
-25,"TEXT_HEAVNA109_01588_TODO_01","<Sheet(EObj,2005408,0)/>を調べる"
-26,"TEXT_HEAVNA109_01588_TODO_02","アルトアレールと話す"
+24,"TEXT_HEAVNA109_01588_TODO_00","Search for the heretics' trail north of Camp Riversmeet."
+25,"TEXT_HEAVNA109_01588_TODO_01","Search for the heretics' trail north of Camp Riversmeet."
+26,"TEXT_HEAVNA109_01588_TODO_02","Speak with Artoirel."
 27,"TEXT_HEAVNA109_01588_TODO_03",""
 28,"TEXT_HEAVNA109_01588_TODO_04",""
 29,"TEXT_HEAVNA109_01588_TODO_05",""
@@ -49,42 +49,24 @@ int32,str,str
 45,"TEXT_HEAVNA109_01588_TODO_21",""
 46,"TEXT_HEAVNA109_01588_TODO_22",""
 47,"TEXT_HEAVNA109_01588_TODO_23",""
-48,"TEXT_HEAVNA109_01588_ARTOIREL_000_000","私は、彼をファルコンネストに送り届ける。
-<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>殿は、北へと向かい、
-アジトの捜索を試みてくれぬか？"
-49,"TEXT_HEAVNA109_01588_ARTOIREL_000_001","今ならまだ「<Sheet(EObj,2005408,0)/>」が残されていよう。
-これを辿れば、アジトを発見できるかもしれん……。
-だが、時を置けば、足跡は雪で消えてしまうだろう。"
-50,"TEXT_HEAVNA109_01588_ARTOIREL_000_002","つまり、ただちに動かねばならんということだ。
-……危険な任務だが頼めるか？"
-51,"TEXT_HEAVNA109_01588_ARTOIREL_000_003","助かる……だが、くれぐれも無理だけはしないようにな。
-ファルコンネストに戻り次第、増援を伴って取って返し、
-後を追うつもりだ。"
-52,"TEXT_HEAVNA109_01588_ARTOIREL_000_004","今ならまだ「<Sheet(EObj,2005408,0)/>」が残されていよう。
-これを辿れば、アジトを発見できるかもしれん……。"
-53,"TEXT_HEAVNA109_01588_KIGHTA01588_000_005","うぅ……異端者どもめ……。"
-54,"TEXT_HEAVNA109_01588_SYSTEM_000_010","「<Sheet(EObj,2005408,0)/>」は、北へと続いている……。
-痕跡を辿り、異端者のアジトを捜索しよう。"
-55,"TEXT_HEAVNA109_01588_Q1_000_000","（★未使用／削除予定★）"
-56,"TEXT_HEAVNA109_01588_A1_000_001","（★未使用／削除予定★）"
-57,"TEXT_HEAVNA109_01588_A1_000_002","（★未使用／削除予定★）"
-58,"TEXT_HEAVNA109_01588_ARTOIREL_000_020","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>殿！
-貴殿の足跡を辿り、どうにかここまで辿り着いたのだが……
-……その様子を見ると、すべて終わった後のようだな。"
-59,"TEXT_HEAVNA109_01588_ARTOIREL_000_021","なるほど……。
-牧場跡のあばら屋の地下が、異端者どものアジトだったとは……。"
-60,"TEXT_HEAVNA109_01588_ARTOIREL_000_022","「氷の巫女」を取り逃したのは惜しいが、これは殊勲だぞ。
-奴らのアジトのひとつをツブしたのだからな。
-改めて、感謝せねばなるまい。"
-61,"TEXT_HEAVNA109_01588_ARTOIREL_000_023","助かったぞ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>殿！
-貴殿の力には、感服した！"
-62,"TEXT_HEAVNA109_01588_ARTOIREL_000_030","それにしても、このような廃屋の地下に、
-アジトを築いていようとはな……。
-異端者どもの執念には、驚かされるというものだ。"
-63,"TEXT_HEAVNA109_01588_KIGHTB01588_000_031","どうやら周辺には、異端者の姿はないようです。
-もう制圧したと考えて良いでしょう。"
-64,"TEXT_HEAVNA109_01588_QIB_TODO001","異端者のアジトを捜索せよ！"
-65,"TEXT_HEAVNA109_01588_QIB_TODO002","異端者を泳がせて追跡し、アジトの場所を突き止めろ！"
-66,"TEXT_HEAVNA109_01588_QIB_TODO003","異端者たちを倒せ！"
-67,"TEXT_HEAVNA109_01588_QIB_TODO004","指定地点で周囲を見渡す"
-68,"TEXT_HEAVNA109_01588_HERETIC01588_BATTLETALK_000_100","グホッ……こ、こんなところで敗れるとは……。"
+48,"TEXT_HEAVNA109_01588_ARTOIREL_000_000","He has the right of it, <If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>. Whatever remains of the heretics' trail will be gone with the next snowfall. But we cannot very well leave our friend here..."
+49,"TEXT_HEAVNA109_01588_ARTOIREL_000_001","I will see him to Falcon's Nest and gather reinforcements. In the meantime, I would have you search the area to the north of the camp for signs of the attack. Should you pick up the heretics' trail, do not wait for me─follow it back to their lair forthwith, being sure to leave me some clear footprints."
+50,"TEXT_HEAVNA109_01588_ARTOIREL_000_002","...I realize that this plan may place you in considerable danger, but I see no alternative."
+51,"TEXT_HEAVNA109_01588_ARTOIREL_000_003","Rest assured we will not be far behind. And <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>...thank you."
+52,"TEXT_HEAVNA109_01588_ARTOIREL_000_004","Do not concern yourself with our wounded man. When he has caught his breath, I shall see him safely back to Falcon's Nest."
+53,"TEXT_HEAVNA109_01588_KIGHTA01588_000_005","I...I can still fight... <cough> <wheeze>"
+54,"TEXT_HEAVNA109_01588_SYSTEM_000_010","The tracks continue to the north..."
+55,"TEXT_HEAVNA109_01588_Q1_000_000",""
+56,"TEXT_HEAVNA109_01588_A1_000_001",""
+57,"TEXT_HEAVNA109_01588_A1_000_002",""
+58,"TEXT_HEAVNA109_01588_ARTOIREL_000_020","<If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>! Praise Halone, you are alive! We came as swiftly as we could, but I see we are too late..."
+59,"TEXT_HEAVNA109_01588_ARTOIREL_000_021","So they were lurking in the cellar of this farmhouse..."
+60,"TEXT_HEAVNA109_01588_ARTOIREL_000_022","'Tis a pity Lady Iceheart escaped, but we must not let that detract from your accomplishment! We have them on the run!"
+61,"TEXT_HEAVNA109_01588_ARTOIREL_000_023","You have dealt our foes a telling blow this <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>eve<Else/>day</If><Else/><If(LessThan(PlayerParameter(11),17))>day<Else/>eve</If></If>, my friend, and I shall see that your efforts are recognized."
+62,"TEXT_HEAVNA109_01588_ARTOIREL_000_030","Establishing an outpost in so remote a location could not have been easy. Tenacious devils."
+63,"TEXT_HEAVNA109_01588_KIGHTB01588_000_031","We are still searching the area, <If(PlayerParameter(4))>miss<Else/>sir</If>, but the only heretics we have found thus far are the ones you left behind."
+64,"TEXT_HEAVNA109_01588_QIB_TODO001","Find the heretics' hiding place!"
+65,"TEXT_HEAVNA109_01588_QIB_TODO002","Follow the fleeing heretic!"
+66,"TEXT_HEAVNA109_01588_QIB_TODO003","Defeat the heretics!"
+67,"TEXT_HEAVNA109_01588_QIB_TODO004","Survey the heretics' hiding place!"
+68,"TEXT_HEAVNA109_01588_HERETIC01588_BATTLETALK_000_100","N-No, I won't... Urrrgh!"

@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKHA102_03726_SEQ_00","名も無き者たちの広場のフランセルは、冒険者に所感を聞きたいようだ。"
-1,"TEXT_LUCKHA102_03726_SEQ_01","フランセルに、ジブリオンは仕出しの提供、エレイズは大型工具の調達、アンドゥルーは工兵の派遣を検討してくれていることを伝えた。フランセルの代理として街の人々の話を聞くように依頼されたため、名も無き者たちの広場の「フォンクリノー」と話そう。"
-2,"TEXT_LUCKHA102_03726_SEQ_02","総監の代理を務め、人々から話を聞いた。名も無き者たちの広場の「フォンクリノー」とともに、フランセルの帰りを待とう。"
-3,"TEXT_LUCKHA102_03726_SEQ_03","フランセルから話を聞くに、四大名家の協力も得られそうだ。しかし、慌てた様子で少女が駆け込んできた。どうしたというのだろうか……。"
+0,"TEXT_LUCKHA102_03726_SEQ_00","Francel is eager to learn how his petitions for aid were received."
+1,"TEXT_LUCKHA102_03726_SEQ_01","The news that Gibrillont, Handeloup, and Elaisse are all willing to cooperate heartens Francel, who says that he has since penned entreaties addressed to each of the four High Houses. Determined not to depend entirely upon you, the young lord declares that, this time, the missives will be delivered by his own hand. He strides off purposefully before Foncrineau can mention that people have been waiting for an audience with him, and you consent to treating with them in his stead."
+2,"TEXT_LUCKHA102_03726_SEQ_02","One after the next, workers and residents of the Firmament present themselves to you, and you send them on their way with helpful advice. With Francel expected to return shortly, Foncrineau suggests waiting for him together."
+3,"TEXT_LUCKHA102_03726_SEQ_03","Having thanked you sheepishly for acting in his stead, Francel proudly informs you that he has won the support of all the High Houses for the restoration effort. But delight quickly gives way to distress, as Noalle comes running to you with word that trouble has befallen her mother..."
 4,"TEXT_LUCKHA102_03726_SEQ_04",""
 5,"TEXT_LUCKHA102_03726_SEQ_05",""
 6,"TEXT_LUCKHA102_03726_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_LUCKHA102_03726_SEQ_21",""
 22,"TEXT_LUCKHA102_03726_SEQ_22",""
 23,"TEXT_LUCKHA102_03726_SEQ_23",""
-24,"TEXT_LUCKHA102_03726_TODO_00","フォンクリノーと話す"
-25,"TEXT_LUCKHA102_03726_TODO_01","フォンクリノーと再度話す"
+24,"TEXT_LUCKHA102_03726_TODO_00","Speak with Foncrineau."
+25,"TEXT_LUCKHA102_03726_TODO_01","Speak with Foncrineau again."
 26,"TEXT_LUCKHA102_03726_TODO_02",""
 27,"TEXT_LUCKHA102_03726_TODO_03",""
 28,"TEXT_LUCKHA102_03726_TODO_04",""
@@ -49,204 +49,94 @@ int32,str,str
 45,"TEXT_LUCKHA102_03726_TODO_21",""
 46,"TEXT_LUCKHA102_03726_TODO_22",""
 47,"TEXT_LUCKHA102_03726_TODO_23",""
-48,"TEXT_LUCKHA102_03726_FRANCEL_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、
-手紙を渡してきてくれて、本当にありがとう。
-それで、顔役方の反応はどうだった？"
-49,"TEXT_LUCKHA102_03726_FRANCEL_000_001","手紙の通り、ジブリオンさんは仕出し弁当の提供を、
-エレイズ氏は、大型工具の調達を確約してくれたのか。
-これで、作業員や職人の士気もあがるな。"
-50,"TEXT_LUCKHA102_03726_FRANCEL_000_002","アンドゥルー殿も、
-工兵の派遣を前向きに検討してくれて、なによりだよ。
-やはり、キミの人望によるところもあるんだろう。"
-51,"TEXT_LUCKHA102_03726_FRANCEL_000_003","おかげで僕も、先ほどの親子の様子を見てこられたよ。
-荷物が少ないこともあって、すぐに移住してきてくれたんだ。
-キミも今後、この街で見かける機会があるかもね。"
-52,"TEXT_LUCKHA102_03726_FRANCEL_000_004","それに、時間に余裕ができたから……
-ずっと書こうと思っていた手紙も書きあがったんだ。"
-53,"TEXT_LUCKHA102_03726_FRANCEL_000_005","キミが渡してくれたのとはまた違う……
-我が家も含めた、四大名家に宛てた手紙さ。"
-54,"TEXT_LUCKHA102_03726_FRANCEL_000_006","それぞれの家の長所を活かした協力をお願いしたいと、
-ずっと前から思っていたんだ。"
-55,"TEXT_LUCKHA102_03726_FRANCEL_000_007","僕みたいな若造の言葉がどこまで届くかわからないけれど……
-キミばかりを頼りにしてはいられないからね！
-次は僕が、直接届けてくるよ！"
-56,"TEXT_LUCKHA102_03726_FONCRINEAU_000_008","フ、フランセル坊ちゃん、お待ちを……！"
-57,"TEXT_LUCKHA102_03726_FONCRINEAU_000_009","ああ、行ってしまわれた……。
-街の者が、坊ちゃんをお待ちだというのに……。"
-58,"TEXT_LUCKHA102_03726_FONCRINEAU_000_010","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>様、
-こんなお願いをするのは心苦しいのですが……。"
-59,"TEXT_LUCKHA102_03726_FONCRINEAU_000_011","少しの間だけ総監代理として、
-来客の対応や、住人たちの話を聞いていただけませんか？"
-60,"TEXT_LUCKHA102_03726_FONCRINEAU_000_012","ああ、ありがとうございます！
-坊ちゃんへは、わたくしから伝えておきますので、
-街の者への助言などあればご遠慮なく、おっしゃってください。"
-61,"TEXT_LUCKHA102_03726_FONCRINEAU_000_013","もちろん、お時間のあるときでかまいませんから、
-ご準備が整いましたら、わたくしにお声かけくださいね。"
-62,"TEXT_LUCKHA102_03726_FONCRINEAU_000_015","おかえりなさいませ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>様。
-おかげさまで、フランセル坊ちゃんが戻られました。
-心より感謝申しあげます。"
-63,"TEXT_LUCKHA102_03726_FONCRINEAU_000_020","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>様、ご準備は整いましたでしょうか？
-では少しの間、総監の代理をお願いいたしますね。"
-64,"TEXT_LUCKHA102_03726_SYSTEM_000_021","イベントには数分の時間がかかりますので、
-コンテンツファインダー申請中の場合などは、ご注意ください。"
-65,"TEXT_LUCKHA102_03726_Q1_000_000","総監の代理を務めますか？"
-66,"TEXT_LUCKHA102_03726_AUGEBERT_000_022","あれ、フランセル坊ちゃんは留守かい？
-市民の受け入れかなんかで、どこかに行ってるのかね。
-最近はめっぽう忙しそうだな、我らが坊ちゃんは。"
-67,"TEXT_LUCKHA102_03726_AUGEBERT_000_023","近々、復興関係のでかい案件がありそうでな。
-人手の当てがないか、聞きたかったんだが……"
-68,"TEXT_LUCKHA102_03726_Q2_000_000","何と言う？"
-69,"TEXT_LUCKHA102_03726_A2_000_001","自分がいる！"
-70,"TEXT_LUCKHA102_03726_A2_000_002","神殿騎士団が工兵の派遣を検討してくれている"
-71,"TEXT_LUCKHA102_03726_A2_000_003","竜たちを呼ぶか"
-72,"TEXT_LUCKHA102_03726_AUGEBERT_000_024","ハハハ！　そりゃ頼もしいが、さすがに無理だ！
-いくらあんたが職人としての技術を持っていても、
-必要なのは、労働力のほうなんでね。"
-73,"TEXT_LUCKHA102_03726_AUGEBERT_000_025","気持ちだけ受け取っておくよ。
-当ての方は、あとで坊ちゃんに聞いてみるから気にせんでくれ。
-じゃあ、またな！"
-74,"TEXT_LUCKHA102_03726_SYSTEM_000_026","オーグベルトは、後ほど改めてフランセルと話すようだ……。
-的確な助言ができなかったかもしれない……。"
-75,"TEXT_LUCKHA102_03726_AUGEBERT_000_027","ほう！　それは初耳だ！
-神殿騎士団の工兵なら専門的な知識もあるし、申し分ねぇ。"
-76,"TEXT_LUCKHA102_03726_AUGEBERT_000_028","じゃあ派遣が決定したらすぐに動けるよう、
-こっちも準備しとかねぇとな。
-ありがとよ！"
-77,"TEXT_LUCKHA102_03726_SYSTEM_000_029","オーグベルトは、納得している様子だ。
-的確な助言ができたようだ！"
-78,"TEXT_LUCKHA102_03726_AUGEBERT_000_030","い、いやぁ、そんな大それたことじゃねぇんだ……！
-英雄のあんたはそう軽く言うが、一事業で竜を呼ばれちゃ、
-こっちの肝が冷えちまうぜ……！"
-79,"TEXT_LUCKHA102_03726_AUGEBERT_000_031","まったく英雄ってのは、一般人とは考えが端から違うのな。
-まぁ、当ての方はあとで坊ちゃんに聞いてみることにするか。
-じゃあ、またな。"
-80,"TEXT_LUCKHA102_03726_SYSTEM_000_032","オーグベルトは、後ほど改めてフランセルと話すようだ……。
-的確な助言ができなかったかもしれない……。"
-81,"TEXT_LUCKHA102_03726_ARTISANA03726_000_033","おうおうおう、フランセル卿は……
-ってなんだ、いねぇのかい。
-まったく、無駄足になっちまったじゃねぇか。"
-82,"TEXT_LUCKHA102_03726_ARTISANB03726_000_034","(-気弱そうな職人-)あ、姐さん……！
-この街の総監さんは、きっと忙しいんですよう。
-そんなこと言っちゃだめです……！"
-83,"TEXT_LUCKHA102_03726_ARTISANB03726_000_035","(-気弱そうな職人-)あ、あの、私たち、リムサ・ロミンサの職人で……
-イシュガルドの人々に、職人技術を伝えにきてるんです……！
-それで、その、えっと…………。"
-84,"TEXT_LUCKHA102_03726_ARTISANA03726_000_036","弟子たちも仕事を覚えてきたもんで、
-ちょっと凝ったことをやらせようと思ったが、
-それには専用の大型工具が入り用でね。"
-85,"TEXT_LUCKHA102_03726_ARTISANA03726_000_037","イシュガルドにはそんなものねぇから、
-総監殿に取り寄せを頼みたかったんだが……
-いねぇんじゃ、出直すしかなさそうだな。"
-86,"TEXT_LUCKHA102_03726_Q3_000_000","何と言う？"
-87,"TEXT_LUCKHA102_03726_A3_000_001","言えば宝杖通りの商会が用意してくれるだろう"
-88,"TEXT_LUCKHA102_03726_A3_000_002","優れた騎士は剣を選ばず"
-89,"TEXT_LUCKHA102_03726_A3_000_003","スカイスチール機工房で作ってくれるかも"
-90,"TEXT_LUCKHA102_03726_ARTISANA03726_000_038","本当か？　そりゃあ助かるぜ！
-必要なのは、海都が誇るナルディク＆ヴィメリー社製の工具でな。
-弟子たちもきっと気にいるはずだ。"
-91,"TEXT_LUCKHA102_03726_ARTISANA03726_000_039","じゃあ、商会に伝えといてくれ！
-よろしく頼むぜ！"
-92,"TEXT_LUCKHA102_03726_SYSTEM_000_040","職人たちは満足げだ。
-的確な助言ができたようだ！"
-93,"TEXT_LUCKHA102_03726_ARTISANA03726_000_041","ああーん？　なんだそりゃ、イシュガルドのことわざか？
-それも一理あるかもしれねぇけど、
-どうしても必要なんだよ……。"
-94,"TEXT_LUCKHA102_03726_ARTISANA03726_000_042","まぁいい、また来させてもらうわ。
-前向きに考えてくれるように、総監へ伝えといてくれや。"
-95,"TEXT_LUCKHA102_03726_SYSTEM_000_043","職人たちは、腑に落ちない様子だ……。
-的確な助言ができなかったかもしれない……。"
-96,"TEXT_LUCKHA102_03726_ARTISANA03726_000_044","機工房ぅ～～～～？
-いや、あたしらがほしいのは、使い慣れた工具なんだよなぁ。
-教える方がおぼつかないんじゃ、話にならないだろ？"
-97,"TEXT_LUCKHA102_03726_ARTISANA03726_000_045","まぁいい、また来させてもらうわ。
-前向きに考えてくれるように、総監へ伝えといてくれや。"
-98,"TEXT_LUCKHA102_03726_SYSTEM_000_046","職人たちは、腑に落ちない様子だ……。
-的確な助言ができなかったかもしれない……。"
-99,"TEXT_LUCKHA102_03726_GAELICAT03726_000_047","グキューーー、クルルルル。
-フシャーーーーーー！"
-100,"TEXT_LUCKHA102_03726_SYSTEM_000_048","どこからか、
-ゲイラキャットの幼体が、飛びだしてきた……！"
-101,"TEXT_LUCKHA102_03726_FIRMAMENT03726_000_049","わー！　英雄殿、すみません！
-こいつ、アバラシア雲海からの貨物に紛れていたようで、
-何度も追い払っても、なかなか逃げなくて……！"
-102,"TEXT_LUCKHA102_03726_FIRMAMENT03726_000_050","炊き出し場や調理師の近くをうろついているので、
-もしかしたら、腹が減っているのかもしれません……。
-人に危害を加える様子はなさそうですが、どうしましょう……？"
-103,"TEXT_LUCKHA102_03726_Q4_000_000","何と言う？"
-104,"TEXT_LUCKHA102_03726_A4_000_001","鞄に入れっぱなしの、よくわからない食材なら……"
-105,"TEXT_LUCKHA102_03726_A4_000_002","雲海に返してこい"
-106,"TEXT_LUCKHA102_03726_A4_000_003","ジブリオンが弁当を用意してくれる"
-107,"TEXT_LUCKHA102_03726_GAELICAT03726_000_051","ニャッ！？
-フシャーーーーーー！！"
-108,"TEXT_LUCKHA102_03726_FIRMAMENT03726_000_052","あ、あいつ、言葉が通じてるんですかね……？
-また街中へ逃げたようなんで、とりあえず追いかけます！"
-109,"TEXT_LUCKHA102_03726_SYSTEM_000_053","逃げゆくゲイラキャットの幼体から、
-食べ物をもらうまでは帰らない、という気概を感じた。
-的確な助言ができなかったかもしれない……。"
-110,"TEXT_LUCKHA102_03726_GAELICAT03726_000_054","フンフン、ニャーーーー。"
-111,"TEXT_LUCKHA102_03726_FIRMAMENT03726_000_055","あ、あいつ、言葉が通じてるんですかね……？
-なにかを嗅ぎつけたようなんで、とりあえず追いかけます！"
-112,"TEXT_LUCKHA102_03726_SYSTEM_000_056","ゲイラキャットの幼体は、満足げに鼻を鳴らして立ち去った。
-的確な助言ができたようだ！"
-113,"TEXT_LUCKHA102_03726_SYSTEM_000_057","（★未使用／削除予定★）"
-114,"TEXT_LUCKHA102_03726_FONCRINEAU_000_057","おや……どうやら皆さん、あまり納得されていないようですね。
-あの様子だと、再度お話しにいらっしゃるかもしれません。
-お手数ですが、その際はもう一度ご対応いただけますか？"
-115,"TEXT_LUCKHA102_03726_HILDA_000_058","おや、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
-最近よく、蒼天街へ顔を出しているようじゃないか。"
-116,"TEXT_LUCKHA102_03726_HILDA_000_059","アタシも、あの貴族の坊ちゃんが、
-この街へ自警団を配備してほしいって言うから、
-相談にきたんだよ。"
-117,"TEXT_LUCKHA102_03726_HILDA_000_060","アタシも、あの貴族の坊ちゃんが、
-この街へ銃士隊を配備してほしいって言うから、
-相談にきたんだよ。"
-118,"TEXT_LUCKHA102_03726_HILDA_000_061","そうだ、アイメリクの話はもう聞いてるかい？
-なんでも、あんたが職人としてこの街に協力していると聞いて、
-「議長としても個人としても、心からありがたく思っている」とさ。"
-119,"TEXT_LUCKHA102_03726_HILDA_000_062","まぁ、なかなか忙しくて、
-直接この街へ顔は出せないみたいだけどね。"
-120,"TEXT_LUCKHA102_03726_HILDA_000_063","ちょっと連絡をとる機会があって、
-そんな話を聞いたもんだから、あんたに伝えられてよかったよ。"
-121,"TEXT_LUCKHA102_03726_HILDA_000_064","アタシの要件は急ぎじゃないから、また出直すことにするさ。
-じゃあな、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。"
-122,"TEXT_LUCKHA102_03726_FONCRINEAU_000_070","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>様、
-総監の代理、まことにありがとうございました。
-訪問者の足は、ようやく途切れたようでございますね。"
-123,"TEXT_LUCKHA102_03726_FONCRINEAU_000_071","フランセル坊ちゃんもまもなく戻られるでしょうから、
-少々お待ちいただけますか？"
-124,"TEXT_LUCKHA102_03726_FRANCEL_000_072","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>！
-もしかして、待っていてくれたのかい？"
-125,"TEXT_LUCKHA102_03726_FONCRINEAU_000_073","コホン。
-坊ちゃん、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>様は、
-あなたの代わりに、訪問者のご対応をなさっていたのですよ。"
-126,"TEXT_LUCKHA102_03726_FRANCEL_000_074","なんと、それはすまないことをした……！
-気持ちが先走って、後先考えなかったばかりに、
-結果的にキミに迷惑をかけてしまった。"
-127,"TEXT_LUCKHA102_03726_FRANCEL_000_075","ただ、そのおかげで……
-フォルタン家はもちろん、デュランデル家とゼーメル家からも、
-いい返事がもらえたんだ……！"
-128,"TEXT_LUCKHA102_03726_FRANCEL_000_076","フォルタン家は、かねてより諸外国との連携役となり、
-外部からの労働者に、住まいの提供などをしてくれているんだ。
-今後とも、最大限の援助を行うと約束してくれた。"
-129,"TEXT_LUCKHA102_03726_FRANCEL_000_077","デュランデル家は、武門の家柄でね。
-協力できることは少ないと言われたが、
-ちょうどそこへ、占星院のジャンヌキナル殿が通りかかって……"
-130,"TEXT_LUCKHA102_03726_FRANCEL_000_078","蒼天街の子どもたちに、
-読み書きや計算、星読みなどを教える、
-青空教室を開くことを約束してくれたんだ！"
-131,"TEXT_LUCKHA102_03726_FRANCEL_000_079","そしてゼーメル家は、築城の名門。
-その優れた建築技術を生かし、助力をしてくれそうだ。"
-132,"TEXT_LUCKHA102_03726_FRANCEL_000_080","特に、先代のゼーメル伯は石工技術に熱心らしくてね。
-キミも職人なら、いつか顔をあわせる機会があるかもしれない。"
-133,"TEXT_LUCKHA102_03726_FRANCEL_000_081","先代のタレソン殿は、キミと面識があると聞く。
-きっと建築家として、復興事業に協力してくれるはずだ。"
-134,"TEXT_LUCKHA102_03726_FONCRINEAU_000_082","どの家も色よい返事とは……時代は変わるものですね。
-少し前までは、考えられなかったことです。"
-135,"TEXT_LUCKHA102_03726_FONCRINEAU_100_082","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>様が、
-戦争を終結に導いてくださったおかげですね。"
-136,"TEXT_LUCKHA102_03726_NOALLE_000_083","(-？？？？-)うぇーーーーん！
-さっきの<If(PlayerParameter(4))>お兄ちゃんとお姉ちゃん<Else/>お兄ちゃんたち</If>ー！！"
-137,"TEXT_LUCKHA102_03726_NOALLE_000_084","(-？？？？-)ねぇ、おねがい、助けて！
-ママが大変なの！"
-138,"TEXT_LUCKHA102_03726_FRANCEL_000_085","キミは、さっきお母さんと一緒にいた、ノアルだね？
-どういうことか、お兄ちゃんたちに詳しく教えてくれる？"
+48,"TEXT_LUCKHA102_03726_FRANCEL_000_000","Come, do not keep me waiting! What were the recipients' responses?"
+49,"TEXT_LUCKHA102_03726_FRANCEL_000_001","Both Gibrillont and Elaisse are willing? Glad am I to hear it. This shall do wonders for our workers' morale."
+50,"TEXT_LUCKHA102_03726_FRANCEL_000_002","As for Ser Handeloup, I know he is not wont to make promises out of hand, but I've confidence that he will come through for us."
+51,"TEXT_LUCKHA102_03726_FRANCEL_000_003","Thanks to your kind help, I was able to personally assist Audaine and her daughter meanwhile. Having but few possessions, they were able to promptly move to the Firmament."
+52,"TEXT_LUCKHA102_03726_FRANCEL_000_004","I also managed to find a moment to pen further missives."
+53,"TEXT_LUCKHA102_03726_FRANCEL_000_005","Lest you wonder, these are addressed to the four High Houses, my own included."
+54,"TEXT_LUCKHA102_03726_FRANCEL_000_006","Each of the houses has strengths that shall avail the project, and I would call upon their cooperation."
+55,"TEXT_LUCKHA102_03726_FRANCEL_000_007","I know not how a petition from an upstart such as I will be received, but it would not do to depend entirely on you. Nay, these missives, I shall deliver myself."
+56,"TEXT_LUCKHA102_03726_FONCRINEAU_000_008","Ah! L-Lord Francel, a moment!"
+57,"TEXT_LUCKHA102_03726_FONCRINEAU_000_009","Oh dear... There are people who have been waiting for an audience with my lord."
+58,"TEXT_LUCKHA102_03726_FONCRINEAU_000_010","<If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, it pains me to make such a request of you..."
+59,"TEXT_LUCKHA102_03726_FONCRINEAU_000_011","But will you not consent to serve as acting overseer, and speak with the workers and residents in my lord's stead?"
+60,"TEXT_LUCKHA102_03726_FONCRINEAU_000_012","I am truly grateful! Now, I expect that some advice will be asked of you, but I trust you to exercise your best judgment."
+61,"TEXT_LUCKHA102_03726_FONCRINEAU_000_013","I shall call the petitioners in turn whenever you are ready. You need but say the word."
+62,"TEXT_LUCKHA102_03726_FONCRINEAU_000_015","My thanks for taking the time to seek out my lord."
+63,"TEXT_LUCKHA102_03726_FONCRINEAU_000_020","Are you ready to receive the petitioners, my <If(PlayerParameter(4))>lady<Else/>lord</If>?"
+64,"TEXT_LUCKHA102_03726_SYSTEM_000_021","Speaking with the petitioners will take several minutes. You may wish to cancel any pending Duty Finder registrations."
+65,"TEXT_LUCKHA102_03726_Q1_000_000","Begin receiving the petitioners?"
+66,"TEXT_LUCKHA102_03726_AUGEBERT_000_022","Hm? Francel's away again, is he? Lad's been flat out of late helpin' folk get settled."
+67,"TEXT_LUCKHA102_03726_AUGEBERT_000_023","Anyroad, I wanted to speak with him about a big task what's comin' up. We need to bring in more hands for it."
+68,"TEXT_LUCKHA102_03726_Q2_000_000","What will you say?"
+69,"TEXT_LUCKHA102_03726_A2_000_001","Whatever the task is, I'll take care of it!"
+70,"TEXT_LUCKHA102_03726_A2_000_002","The Temple Knights might dispatch engineers."
+71,"TEXT_LUCKHA102_03726_A2_000_003","I have some dragon friends I could round up?"
+72,"TEXT_LUCKHA102_03726_AUGEBERT_000_024","Hahaha! I appreciate your zeal, my friend, but there're some things even you can't handle alone. It's manpower we need."
+73,"TEXT_LUCKHA102_03726_AUGEBERT_000_025","Look, it's no immediate rush at any rate. When Francel gets back, I'll have a word with him and sort it out."
+74,"TEXT_LUCKHA102_03726_SYSTEM_000_026","It appears your advice was not helpful."
+75,"TEXT_LUCKHA102_03726_AUGEBERT_000_027","Temple Knight engineers, you say? Aye, with their knowledge and experience, I reckon they'll do nicely."
+76,"TEXT_LUCKHA102_03726_AUGEBERT_000_028","I'll see to it we're ready to begin as soon as we get approval. My thanks, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>!"
+77,"TEXT_LUCKHA102_03726_SYSTEM_000_029","It appears your advice was helpful."
+78,"TEXT_LUCKHA102_03726_AUGEBERT_000_030","Er...might be as I said the task was big, but not <Emphasis>that</Emphasis> big. And you say it as though you're just roundin' up the lads to move furniture... Might be as it's a normal thing to you, but to us ordinary folk, dragons are a little dauntin', you know?"
+79,"TEXT_LUCKHA102_03726_AUGEBERT_000_031","Look, it's no immediate rush at any rate. When Francel gets back, I'll have a word with him and sort it out."
+80,"TEXT_LUCKHA102_03726_SYSTEM_000_032","It appears your advice was not helpful."
+81,"TEXT_LUCKHA102_03726_ARTISANA03726_000_033","What, Lord Francel isn't even here? Bah, what a waste of time."
+82,"TEXT_LUCKHA102_03726_ARTISANB03726_000_034","(-Apprehensive Artisan-)N-Now, sir, you mustn't say such things. You know the overseer is a busy man."
+83,"TEXT_LUCKHA102_03726_ARTISANB03726_000_035","(-Apprehensive Artisan-)We're artisans from Limsa Lominsa, charged with imparting our techniques to the locals."
+84,"TEXT_LUCKHA102_03726_ARTISANA03726_000_036","Our apprentices have been making good progress, and we've a mind to set them more advanced tasks. But for this we need specialized machinery they don't have in Ishgard."
+85,"TEXT_LUCKHA102_03726_ARTISANA03726_000_037","We want to ask the overseer if he could have it brought in, but seems it'll have to wait for another time..."
+86,"TEXT_LUCKHA102_03726_Q3_000_000","What will you say?"
+87,"TEXT_LUCKHA102_03726_A3_000_001","The Jeweled Crozier can bring in what you need."
+88,"TEXT_LUCKHA102_03726_A3_000_002","A bad knight blames his sword."
+89,"TEXT_LUCKHA102_03726_A3_000_003","The manufactory might be able to make what you need."
+90,"TEXT_LUCKHA102_03726_ARTISANA03726_000_038","Truly? That's good to hear!"
+91,"TEXT_LUCKHA102_03726_ARTISANA03726_000_039","In case you're wondering, the machinery in question's made by Naldiq & Vymelli's. We'll have the details for you soon, and we'd appreciate it if you could relay them to the people at the Jeweled Crozier!"
+92,"TEXT_LUCKHA102_03726_SYSTEM_000_040","It appears your advice was helpful."
+93,"TEXT_LUCKHA102_03726_ARTISANA03726_000_041","That's what the Ishgardians say, is it? Might make some sense if we're talking about a saw and a saw, but this is another tool altogether. We can't do our work without it."
+94,"TEXT_LUCKHA102_03726_ARTISANA03726_000_042","Look, we'll come again when the overseer's back. If you could just put in a good word for us, we'd appreciate it."
+95,"TEXT_LUCKHA102_03726_SYSTEM_000_043","It appears your advice was not helpful."
+96,"TEXT_LUCKHA102_03726_ARTISANA03726_000_044","Might be as they could, but they'd be making something they're not familiar with. And even if they somehow got it right, it wouldn't <Emphasis>feel</Emphasis> right in our hands. Not worth the trouble if you ask me."
+97,"TEXT_LUCKHA102_03726_ARTISANA03726_000_045","Look, we'll come again when the overseer's back. If you could just put in a good word for us, we'd appreciate it."
+98,"TEXT_LUCKHA102_03726_SYSTEM_000_046","It appears your advice was not helpful."
+99,"TEXT_LUCKHA102_03726_GAELICAT03726_000_047","<rumble> <rumble> Hissssss!"
+100,"TEXT_LUCKHA102_03726_SYSTEM_000_048","A gaelikitten suddenly appears!"
+101,"TEXT_LUCKHA102_03726_FIRMAMENT03726_000_049","B-Beg your pardons, my <If(PlayerParameter(4))>lady<Else/>lord</If>! This little critter came here amidst cargo from the Sea of Clouds. We've tried to send it on its way, but it refuses to leave."
+102,"TEXT_LUCKHA102_03726_FIRMAMENT03726_000_050","It's been lingering near the kitchen, so I suspect it's hungry. Thus far it hasn't done any harm...but what you suppose we should do with it?"
+103,"TEXT_LUCKHA102_03726_Q4_000_000","What will you say?"
+104,"TEXT_LUCKHA102_03726_A4_000_001","I could give it the mystery scraps in my bag."
+105,"TEXT_LUCKHA102_03726_A4_000_002","Take it back to the Sea of Clouds."
+106,"TEXT_LUCKHA102_03726_A4_000_003","Gibrillont will be bringing food."
+107,"TEXT_LUCKHA102_03726_GAELICAT03726_000_051","Hissssss!"
+108,"TEXT_LUCKHA102_03726_FIRMAMENT03726_000_052","If I didn't know better, I'd say it understood what you said. And it was none too pleased. Well, I had best go after it..."
+109,"TEXT_LUCKHA102_03726_SYSTEM_000_053","It appears your advice was not helpful."
+110,"TEXT_LUCKHA102_03726_GAELICAT03726_000_054","Meowww... Purrrrrr..."
+111,"TEXT_LUCKHA102_03726_FIRMAMENT03726_000_055","If I didn't know better, I'd say it understood what you said. And it seems to have caught scent of something. I'll go and keep an eye on it."
+112,"TEXT_LUCKHA102_03726_SYSTEM_000_056","It appears your advice was helpful."
+113,"TEXT_LUCKHA102_03726_SYSTEM_000_057",""
+114,"TEXT_LUCKHA102_03726_FONCRINEAU_000_057","Hm... Forgive me, my <If(PlayerParameter(4))>lady<Else/>lord</If>, but they did not seem entirely satisfied. Mayhap 'twould be prudent to hear them again."
+115,"TEXT_LUCKHA102_03726_HILDA_000_058","Well, well, if it ain't <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. You're certainly a common sight in the Firmament these days."
+116,"TEXT_LUCKHA102_03726_HILDA_000_059","Your friend Francel, he said he was keen on the guards I was offerin', so I came to discuss the details with him."
+117,"TEXT_LUCKHA102_03726_HILDA_000_060","Your friend Francel, he said that he wanted the guards I was offerin', and so I came to discuss the details with him."
+118,"TEXT_LUCKHA102_03726_HILDA_000_061","Seems he ain't here, though, so our talk'll have to keep. But there <Emphasis>was</Emphasis> somethin' I wanted to tell you."
+119,"TEXT_LUCKHA102_03726_HILDA_000_062","The other day, I had occasion to meet Ser Aymeric. Busy as he is, he hasn't been able to pay a proper visit to the Firmament."
+120,"TEXT_LUCKHA102_03726_HILDA_000_063","He knows all about your involvement, though, and was sayin' how grateful he was to you, as lord speaker of the house and a private citizen both."
+121,"TEXT_LUCKHA102_03726_HILDA_000_064","And that's all from me. Be seein' you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
+122,"TEXT_LUCKHA102_03726_FONCRINEAU_000_070","That is everyone, I believe. I thank you for assisting the people in Lord Francel's stead."
+123,"TEXT_LUCKHA102_03726_FONCRINEAU_000_071","Speaking of whom, I expect he will return anon. Shall we await him together?"
+124,"TEXT_LUCKHA102_03726_FRANCEL_000_072","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, you are still here?"
+125,"TEXT_LUCKHA102_03726_FONCRINEAU_000_073","Ahem. While you were absent, my lord, <If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> has been acting in your stead, attending the needs of those on site."
+126,"TEXT_LUCKHA102_03726_FRANCEL_000_074","Truly!? P-Pray forgive me. In my eagerness, it appears I have unduly burdened you with my duties."
+127,"TEXT_LUCKHA102_03726_FRANCEL_000_075","But my own task, I am pleased to report, was not without fruit. We have received promising responses from all the High Houses."
+128,"TEXT_LUCKHA102_03726_FRANCEL_000_076","Though it was largely a matter of formality, I first went to secure the support of House Haillenarte. I then paid a visit to House Fortemps, which has been providing lodgings to visiting workers. There, I was given the assurance that they will increase their capacity as the need arises."
+129,"TEXT_LUCKHA102_03726_FRANCEL_000_077","Next, I knocked upon the door of Durendaire Manor. As a house founded upon military traditions, I was informed that they had little to offer to the restoration effort."
+130,"TEXT_LUCKHA102_03726_FRANCEL_000_078","Resigned, I was about to take my leave when, by a stroke of good fortune, Lord Jannequinard appeared and pledged to open a school where children might learn their letters, numbers, and stars."
+131,"TEXT_LUCKHA102_03726_FRANCEL_000_079","Last but not least, I took myself to House Dzemael, renowned for its architectural prowess, and they agreed to employ their expertise for the Firmament's benefit."
+132,"TEXT_LUCKHA102_03726_FRANCEL_000_080","In particular, the retired count, Lord Tarresson, is a stonemason of unrivaled skill and passion. As a fellow artisan, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, I daresay you will have occasion to meet him one day."
+133,"TEXT_LUCKHA102_03726_FRANCEL_000_081","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, I understand you are acquainted with Lord Tarresson, the retired count. With his skill and passion, I doubt not but that he will prove a great ally to our cause."
+134,"TEXT_LUCKHA102_03726_FONCRINEAU_000_082","Well now, pledges of cooperation from <Emphasis>all</Emphasis> the High Houses... Not so long ago, this would have been unthinkable."
+135,"TEXT_LUCKHA102_03726_FONCRINEAU_100_082","It is due to the peace we now enjoy thanks to you, <If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
+136,"TEXT_LUCKHA102_03726_NOALLE_000_083","(-???-)<sob> Help! Please help!"
+137,"TEXT_LUCKHA102_03726_NOALLE_000_084","M-Mummy─she's in trouble! Please, you have to help her!"
+138,"TEXT_LUCKHA102_03726_FRANCEL_000_085","Noalle! Take a deep breath, child, and tell us what has happened to Audaine."

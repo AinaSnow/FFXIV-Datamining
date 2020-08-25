@@ -49,57 +49,30 @@ int32,str,str
 45,"TEXT_JOBREL399_02334_TODO_21",""
 46,"TEXT_JOBREL399_02334_TODO_22",""
 47,"TEXT_JOBREL399_02334_TODO_23",""
-48,"TEXT_JOBREL399_02334_SYSTEM_000_000","「人造精霊の再調整」では、
-アニマウェポンに振り分けたパラメータの、
-再調整を行うことができます。"
-49,"TEXT_JOBREL399_02334_SYSTEM_000_001","再調整を行えるアニマウェポンは、
-現在装備しているアニマウェポンとなります。"
-50,"TEXT_JOBREL399_02334_SYSTEM_000_002","<If(LessThan(PlayerParameter(68),8))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(GreaterThan(PlayerParameter(68),18))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/></If></If>のアニマウェポンのパラメータを、
-再調整しますか？"
-51,"TEXT_JOBREL399_02334_Q1_000_000","<If(LessThan(PlayerParameter(68),8))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(GreaterThan(PlayerParameter(68),18))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/></If></If>のアニマウェポンを再調整しますか？"
-52,"TEXT_JOBREL399_02334_A1_000_001","もう少し悩んでみる"
-53,"TEXT_JOBREL399_02334_A2_000_002","<If(LessThan(PlayerParameter(68),8))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(GreaterThan(PlayerParameter(68),18))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/></If></If>のアニマウェポンを再調整する"
-54,"TEXT_JOBREL399_02334_SYSTEM_000_003","アニマウェポンの再調整を行いたい場合は、
-再調整したいアニマウェポンを装備してから、
-ウランに声をかけてください。"
-55,"TEXT_JOBREL399_02334_SYSTEM_100_003","アニマウェポンの再調整を行いたい場合は、
-再調整したいアニマウェポンの剣と対となる盾を装備してから、
-ウランに声をかけてください。"
-56,"TEXT_JOBREL399_02334_SYSTEM_000_004","アニマウェポンの再調整を行いたい場合は、
-再調整したいアニマウェポンを装備してから、
-ウランに声をかけてください。"
-57,"TEXT_JOBREL399_02334_SYSTEM_100_004","アニマウェポンの再調整を行いたい場合は、
-再調整したいアニマウェポンの剣と対となる盾を装備してから、
-ウランに声をかけてください。"
-58,"TEXT_JOBREL399_02334_ULAN_000_000","やぁ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>くん。
-人造精霊の能力に手を加えたいんだって？"
-59,"TEXT_JOBREL399_02334_ULAN_000_001","わかった、協力しよう。
-再調整のためには、これまで人造精霊が得てきた能力を、
-一度、失わせる必要がある……。"
-60,"TEXT_JOBREL399_02334_ULAN_000_002","失わせた能力分、新たに<Sheet(Item,15841,0)/>を与え、
-改めて能力を伸ばしてあげてくれ。"
-61,"TEXT_JOBREL399_02334_ULAN_000_003","そこまで成長した人造精霊であれば、
-調整前の<Sheet(Item,15841,0)/>でも摂取し得るだろう。
-もう、<Sheet(Item,15840,0)/>を用意する必要はない。"
-62,"TEXT_JOBREL399_02334_ULAN_000_007","では、さっそく人造精霊の再調整に着手するよ！"
-63,"TEXT_JOBREL399_02334_Q1_000_020","何をしますか？"
-64,"TEXT_JOBREL399_02334_A1_000_021","人造精霊を再調整する"
-65,"TEXT_JOBREL399_02334_A2_000_022","「<Sheet(Item,15841,0)/>」の交換"
-66,"TEXT_JOBREL399_02334_A3_000_023","説明を聞く"
-67,"TEXT_JOBREL399_02334_A4_000_024","キャンセル"
-68,"TEXT_JOBREL399_02334_ULAN_000_010","おや、<Sheet(Item,15841,0)/>を持っていないみたいだね。
-欲しいのであれば、私が求める品を集めてくるのだな。"
-69,"TEXT_JOBREL399_02334_ULAN_000_030","人造精霊の能力を再調整する場合は、
-これまでに得てきた能力を、一度、失わせる必要がある……。
-必要なら、私が処置をするから言ってくれ。"
-70,"TEXT_JOBREL399_02334_ULAN_000_031","その後、<Sheet(Item,15841,0)/>を、再度、摂取させればいい。
-これまで同様、私が求める品を集めてくれれば、
-好きなだけ提供してあげよう。"
-71,"TEXT_JOBREL399_02334_ULAN_000_032","ああ、補足だが、もう<Sheet(Item,15840,0)/>は必要ないよ。
-そのまま摂取できる程度に、成長はしているからね。"
-72,"TEXT_JOBREL399_02334_Q1_000_030","人造精霊の再調整を終了しますか？"
-73,"TEXT_JOBREL399_02334_ULAN_000_050","おつかれさま。
-また、人造精霊の能力に手を加えたくなったら、
-声をかけてくれ。"
-74,"TEXT_JOBREL399_02334_SYSTEM_000_006","<If(LessThan(PlayerParameter(68),8))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(GreaterThan(PlayerParameter(68),18))><Sheet(ClassJob,PlayerParameter(68),0)/><Else/></If></If>のアニマウェポンが、
-再調整されました。"
+48,"TEXT_JOBREL399_02334_SYSTEM_000_000","By reconditioning the anima, you can redistribute the attribute points allocated to your weapon."
+49,"TEXT_JOBREL399_02334_SYSTEM_000_001","You may only recondition the anima of the weapon equipped when speaking with Ulan."
+50,"TEXT_JOBREL399_02334_SYSTEM_000_002","The process can be canceled at any time."
+51,"TEXT_JOBREL399_02334_Q1_000_000","What will you do?"
+52,"TEXT_JOBREL399_02334_A1_000_001","Recondition the anima of a different weapon."
+53,"TEXT_JOBREL399_02334_A2_000_002","Recondition the anima of your equipped weapon."
+54,"TEXT_JOBREL399_02334_SYSTEM_000_003","In order to recondition the anima of a weapon, you must first equip it, then speak with Ulan."
+55,"TEXT_JOBREL399_02334_SYSTEM_100_003","In order to recondition the anima of a weapon, you must first equip it, then speak with Ulan."
+56,"TEXT_JOBREL399_02334_SYSTEM_000_004","You must equip your anima weapon before speaking with Ulan to proceed."
+57,"TEXT_JOBREL399_02334_SYSTEM_100_004","You must equip both the Sword and Shield of the Twin Thegns before speaking with Ulan to proceed."
+58,"TEXT_JOBREL399_02334_ULAN_000_000","Ardashir tells me you wish to alter the state of the anima, is that right?"
+59,"TEXT_JOBREL399_02334_ULAN_000_001","Assuming we do not attempt to push beyond its current limitations, this should be a trivial matter."
+60,"TEXT_JOBREL399_02334_ULAN_000_002","Mind you, this process requires crystal sand. If you have none, I will gladly furnish you with more per our original arrangement."
+61,"TEXT_JOBREL399_02334_ULAN_000_003","But you need not worry about umbrite. For this we require elementally aspected sand to ever so slightly alter the anima's aetherial composition."
+62,"TEXT_JOBREL399_02334_ULAN_000_007","Unless you have any other questions, let us begin!"
+63,"TEXT_JOBREL399_02334_Q1_000_020","What will you do?"
+64,"TEXT_JOBREL399_02334_A1_000_021","Recondition the anima."
+65,"TEXT_JOBREL399_02334_A2_000_022","Exchange items for crystal sand."
+66,"TEXT_JOBREL399_02334_A3_000_023","Ask about reconditioning."
+67,"TEXT_JOBREL399_02334_A4_000_024","Nothing."
+68,"TEXT_JOBREL399_02334_ULAN_000_010","You appear to be out of crystal sand, my friend. If you would have more, then I must ask you bring me supplies in exchange."
+69,"TEXT_JOBREL399_02334_ULAN_000_030","To carefully modify the anima's aetherial composition, we must make use of crystal sand once more. The process is quite different from our previous endeavor, but thankfully much simpler."
+70,"TEXT_JOBREL399_02334_ULAN_000_031","Nevertheless, it still requires a fair amount of crystal sand. If you require more, you must supply me with materials in exchange. A deal is a deal, after all."
+71,"TEXT_JOBREL399_02334_ULAN_000_032","Oh, and you need not bother with the umbrite. Stripping the sand of its elemental aspect would be counterproductive this time."
+72,"TEXT_JOBREL399_02334_Q1_000_030","Conclude your business with Ulan?"
+73,"TEXT_JOBREL399_02334_ULAN_000_050","That went rather well, would you not agree? If you should have need of my services again, you have but to ask."
+74,"TEXT_JOBREL399_02334_SYSTEM_000_006","The anima has been transformed, gaining newfound strength!"

@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNZ701_01905_SEQ_00","聖大厩舎の休憩所のエルミアンスは、人々を元気づけたいようだ。"
-1,"TEXT_HEAVNZ701_01905_SEQ_01","エルミアンスは、人々を元気づけるために、料理をふるまいたいようだ。イシュガルドの聖徒門付近の「怒れる神殿騎士」、エーテライト・プラザ付近の「悲しみの未亡人」、雲霧街の「腹を空かせた少年」、フォルタン伯爵邸付近の「フォルタン家の騎兵」に、「<Sheet(EventItem,2001808,0)/>」を見せよう。"
-2,"TEXT_HEAVNZ701_01905_SEQ_02","イシュガルドの人々に<Sheet(EventItem,2001808,0)/>を見せ、聖大厩舎の休憩所に集まるよう伝えた。聖大厩舎の休憩所の「エルミアンス」に報告しよう。"
-3,"TEXT_HEAVNZ701_01905_SEQ_03","エルミアンスは、スープを飲んだ人々の表情がほぐれてきたのを見て、満足したようだ。怒りや悲しみに飲まれそうになったときは、エルミアンスがふるまった、温かいスープのことを思い出すといいだろう。"
+0,"TEXT_HEAVNZ701_01905_SEQ_00","Ermiance wants to spread a little cheer in Ishgard."
+1,"TEXT_HEAVNZ701_01905_SEQ_01","Ermiance tires of seeing people moping about, and wants to brighten their spirits with a few cups of soup. She asks that you search about Ishgard for those sad souls in need of cheer, and show them a bowl of her delicious cooking."
+2,"TEXT_HEAVNZ701_01905_SEQ_02","Walking about Ishgard, you encounter residents from various walks of life in need of respite. One look at your bowl sends them straight to Ermiance. Return to her and see if her cooking was the cure for what troubles them."
+3,"TEXT_HEAVNZ701_01905_SEQ_03","Her pot of soup is not large enough to feed all of Ishgard, but Ermiance takes satisfaction in seeing smiling faces again. She reminds you that, rather than letting the misery of the world consume you, it is sometimes better to forgo the inevitable and enjoy what few pleasures life has to offer."
 4,"TEXT_HEAVNZ701_01905_SEQ_04",""
 5,"TEXT_HEAVNZ701_01905_SEQ_05",""
 6,"TEXT_HEAVNZ701_01905_SEQ_06",""
@@ -25,11 +25,11 @@ int32,str,str
 21,"TEXT_HEAVNZ701_01905_SEQ_21",""
 22,"TEXT_HEAVNZ701_01905_SEQ_22",""
 23,"TEXT_HEAVNZ701_01905_SEQ_23",""
-24,"TEXT_HEAVNZ701_01905_TODO_00","怒れる神殿騎士に<Sheet(EventItem,2001808,0)/>を見せる"
-25,"TEXT_HEAVNZ701_01905_TODO_01","悲しみの未亡人に<Sheet(EventItem,2001808,0)/>を見せる"
-26,"TEXT_HEAVNZ701_01905_TODO_02","腹を空かせた少年に<Sheet(EventItem,2001808,0)/>を見せる"
-27,"TEXT_HEAVNZ701_01905_TODO_03","フォルタン伯爵邸付近のフォルタン家の騎兵に<Sheet(EventItem,2001808,0)/>を見せる"
-28,"TEXT_HEAVNZ701_01905_TODO_04","エルミアンスに報告"
+24,"TEXT_HEAVNZ701_01905_TODO_00","Show the bowl of soup to the annoyed knight."
+25,"TEXT_HEAVNZ701_01905_TODO_01","Show the bowl of soup to the wailing widow."
+26,"TEXT_HEAVNZ701_01905_TODO_02","Show the bowl of soup to the starving starveling."
+27,"TEXT_HEAVNZ701_01905_TODO_03","Show the bowl of soup to the House Fortemps knight."
+28,"TEXT_HEAVNZ701_01905_TODO_04","Report to Ermiance."
 29,"TEXT_HEAVNZ701_01905_TODO_05",""
 30,"TEXT_HEAVNZ701_01905_TODO_06",""
 31,"TEXT_HEAVNZ701_01905_TODO_07",""
@@ -49,58 +49,27 @@ int32,str,str
 45,"TEXT_HEAVNZ701_01905_TODO_21",""
 46,"TEXT_HEAVNZ701_01905_TODO_22",""
 47,"TEXT_HEAVNZ701_01905_TODO_23",""
-48,"TEXT_HEAVNZ701_01905_ERMIANCE_000_000","まったく、どこもかしこも暗い顔ばかりだね。
-そりゃ、最近は、暗い話題とか悲しい出来事が多いから、
-仕方ないかもしれないけどさ。"
-49,"TEXT_HEAVNZ701_01905_ERMIANCE_000_001","なにか、前を見るきっかけが必要かね……。
-仕方ない！　私が料理の腕を振るおうじゃないか！
-ちょいと手伝ってくれないかい？"
-50,"TEXT_HEAVNZ701_01905_ERMIANCE_000_002","沈んでる人や怒ってる人に、この「<Sheet(EventItem,2001808,0)/>」を見せて、
-「食べたいなら、ここにこい」って、伝えまわっておくれよ。
-お腹がふくれれば、気持ちも前向きにもなるってもんさ！"
-51,"TEXT_HEAVNZ701_01905_ERMIANCE_000_010","沈んでる人や怒ってる人に、この「<Sheet(EventItem,2001808,0)/>」を見せて、
-「食べたいなら、ここにこい」って、伝えまわっておくれよ。
-お腹がふくれれば、気持ちも前向きにもなるってもんさ！"
-52,"TEXT_HEAVNZ701_01905_ANGRYCOMMONER01905_000_015","くそっ！
-この頑固者がよぉ！"
-53,"TEXT_HEAVNZ701_01905_HAILLENARTESOLDIER01905_000_016","まったく……愚痴を言っても、解決はせぬだろう。"
-54,"TEXT_HEAVNZ701_01905_ANGRYTEMPLEKNIGHT01905_000_020","規制を守らねば、治安は守れぬであろう！！"
-55,"TEXT_HEAVNZ701_01905_ANGRYCOMMONER01905_000_021","その規制が押しつけなんじゃねぇのかって！！
-わかりきったことをグチグチと……！"
-56,"TEXT_HEAVNZ701_01905_ANGRYTEMPLEKNIGHT01905_000_022","なにをっ……！？"
-57,"TEXT_HEAVNZ701_01905_ANGRYTEMPLEKNIGHT01905_000_023","大体、そちらが……ん？　いい匂いだな……。"
-58,"TEXT_HEAVNZ701_01905_ANGRYCOMMONER01905_000_024","言い争ってたら、腹が減っちまったよ。
-休憩所に行けば食わせてもらえるのか？"
-59,"TEXT_HEAVNZ701_01905_ANGRYTEMPLEKNIGHT01905_000_024","……私も、腹が減ったようだ。
-少し邪魔することにしよう。"
-60,"TEXT_HEAVNZ701_01905_WIDOW01905_000_030","住み慣れたファルコンネストからは追い出されて……。
-夫は戦争で亡くしてしまって……。
-……どうして私は生きているのだろう。"
-61,"TEXT_HEAVNZ701_01905_WIDOW01905_000_031","……あら？　いい匂いね。
-どんなに悲しくても、お腹は減るみたい……。
-ちょっと行ってみようかしら。"
-62,"TEXT_HEAVNZ701_01905_HUNGRYBOY01905_000_040","寒い……。
-……おなかすいた……。
-…………もう、辛い……。"
-63,"TEXT_HEAVNZ701_01905_HUNGRYBOY01905_000_041","おいしそう……でも、僕、何も持ってないから。
-え？　休憩所にいけばもらえるの？
-行く！　すぐに行くよ！"
-64,"TEXT_HEAVNZ701_01905_FORTEMPSSOLDIER01905_000_050","戦いは、いつまで続くんだろうな……。
-ここまでして命をかける意味があるのか？"
-65,"TEXT_HEAVNZ701_01905_HAILLENARTESOLDIER01905_000_051","何を言ってるんだ。
-戦うことこそが我らの使命ではないのか。"
-66,"TEXT_HEAVNZ701_01905_FORTEMPSSOLDIER01905_000_052","……それはわかっているさ。
-でもよ、正直、嫌になるときもあるんだ……。"
-67,"TEXT_HEAVNZ701_01905_FORTEMPSSOLDIER01905_000_053","え？　スープ？
-……そうだな、食事ぐらい美味しいものを食べたいな。"
-68,"TEXT_HEAVNZ701_01905_HAILLENARTESOLDIER01905_000_054","聖大厩舎の近くの休憩所か？
-わかった、行ってくる。"
-69,"TEXT_HEAVNZ701_01905_ERMIANCE_000_060","やぁ、おかえり。
-人を集めてきてくれて、ありがとうね！
-ご覧のとおり、みんなの顔もほぐれてきたってもんさ。"
-70,"TEXT_HEAVNZ701_01905_ERMIANCE_000_061","怒っていようが、悲しんでいようが、辛くて耐え難かろうが、
-最後は笑ってたほうがいいだろ？
-これはただのスープだけど、体と同時に、心も温めるのさ。"
-71,"TEXT_HEAVNZ701_01905_ERMIANCE_000_062","さて……あんたも、一杯どうだい？
-あんたも、いろいろ大変なことを抱え込んでいる顔だよ。
-たまには一息ついて、自分をいたわることも大事さ。"
+48,"TEXT_HEAVNZ701_01905_ERMIANCE_000_000","Well, aren't you a sight to behold─rose to your cheeks and a glimmer of optimism besides. Seems everywhere else I turn people are sullen and dreary-eyed, trudgin' about as if the world's gonna end. Times are tough, to be sure, but they're bein' a bit dramatic if you ask me."
+49,"TEXT_HEAVNZ701_01905_ERMIANCE_000_001","What they need is some cheer, somethin' to warm their hearts and bodies in spite o' this blisterin' cold. I think I got a recipe that'll cure what ails 'em if yer willin' to help."
+50,"TEXT_HEAVNZ701_01905_ERMIANCE_000_002","If you see people sulkin' or surly or spoilin' for a bout o' fisticuffs, show 'em a bowl o' this here soup, and send 'em this way. As I always say, the surest way to the heart is through the stomach."
+51,"TEXT_HEAVNZ701_01905_ERMIANCE_000_010","If you find anyone down in the dumps, one whiff o' this'll have 'em headin' here in no time."
+52,"TEXT_HEAVNZ701_01905_ANGRYCOMMONER01905_000_015","You haven't listened to a word I said, you godsdamned pigheaded oaf!"
+53,"TEXT_HEAVNZ701_01905_HAILLENARTESOLDIER01905_000_016","Sometimes I wonder why I bother with you. All this whinging will solve nothing."
+54,"TEXT_HEAVNZ701_01905_ANGRYTEMPLEKNIGHT01905_000_020","We cannot expect to maintain public order if no one abides by the law!"
+55,"TEXT_HEAVNZ701_01905_ANGRYCOMMONER01905_000_021","All I'm saying is the rules are too damned strict! Quit blathering about the obvious and listen with those gargantuan Elezen ears! Or is your head too bloody thick to understand?"
+56,"TEXT_HEAVNZ701_01905_ANGRYTEMPLEKNIGHT01905_000_022","What did you say!?"
+57,"TEXT_HEAVNZ701_01905_ANGRYTEMPLEKNIGHT01905_000_023","How about I─ <sniff> Mmm... What's that smell?"
+58,"TEXT_HEAVNZ701_01905_ANGRYCOMMONER01905_000_024","We've been arguing for so long, I'd forgotten how famished I am. You say there's soup by the Holy Stables?"
+59,"TEXT_HEAVNZ701_01905_ANGRYTEMPLEKNIGHT01905_000_024","I suppose I could also do with a warm meal about now. My thanks for bringing word of this generous offering."
+60,"TEXT_HEAVNZ701_01905_WIDOW01905_000_030","<sob> First the cold, biting winds of Coerthas drove me from my home, and now the war has taken my dear husband... <sob> I don't think I can go on alone."
+61,"TEXT_HEAVNZ701_01905_WIDOW01905_000_031","Hm? <sniffle> Is that a bowl of soup? <sniffle> A warm meal would surely help calm my nerves. I...I think I'll have some."
+62,"TEXT_HEAVNZ701_01905_HUNGRYBOY01905_000_040","It's so cold...and I'm so hungry... <sniffle> I wish me mum was here."
+63,"TEXT_HEAVNZ701_01905_HUNGRYBOY01905_000_041","That looks awful tasty, <If(PlayerParameter(4))>miss<Else/>mister</If>, but I don't got any money. ...You say it's free!? Oh, boy! I hope there's some left for me!"
+64,"TEXT_HEAVNZ701_01905_FORTEMPSSOLDIER01905_000_050","Do you not grow tired of this war? The endless bloodshed? How long must we suffer, offering up our lives to a cause that has all but forgotten its purpose?"
+65,"TEXT_HEAVNZ701_01905_HAILLENARTESOLDIER01905_000_051","Watch your tongue. Our <Emphasis>purpose</Emphasis> is to protect the people of Ishgard, and see that the Horde is wiped clean from the realm."
+66,"TEXT_HEAVNZ701_01905_FORTEMPSSOLDIER01905_000_052","Forgive me. I'm merely tired is all."
+67,"TEXT_HEAVNZ701_01905_FORTEMPSSOLDIER01905_000_053","Soup, eh? A nice, warm meal is certainly one way to lift my spirits."
+68,"TEXT_HEAVNZ701_01905_HAILLENARTESOLDIER01905_000_054","You say it's near the Holy Stables? Well, that settles it. Let's go and have ourselves something to eat."
+69,"TEXT_HEAVNZ701_01905_ERMIANCE_000_060","Welcome back. You did well roundin' up all these folk. Been a while since I seen anyone this cheerful."
+70,"TEXT_HEAVNZ701_01905_ERMIANCE_000_061","Don't matter how angry you are, or if you think the world's against you. Sometimes you just gotta let it go. I find a little soup helps bring folk together and move things along."
+71,"TEXT_HEAVNZ701_01905_ERMIANCE_000_062","How about you, friend? You look like you've had a few rough days yourself. Why not sit a spell and help yerself to a cup?"

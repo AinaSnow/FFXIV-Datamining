@@ -1,8 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKZD203_03433_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-ヴォレクドルフの見回り役のアマロは、北の崖に謎の影を見たらしい。"
+0,"TEXT_LUCKZD203_03433_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+The watch amaro is troubled by a mysterious shadow."
 1,"TEXT_LUCKZD203_03433_SEQ_01",""
 2,"TEXT_LUCKZD203_03433_SEQ_02",""
 3,"TEXT_LUCKZD203_03433_SEQ_03",""
@@ -26,8 +26,8 @@ int32,str,str
 21,"TEXT_LUCKZD203_03433_SEQ_21",""
 22,"TEXT_LUCKZD203_03433_SEQ_22",""
 23,"TEXT_LUCKZD203_03433_SEQ_23",""
-24,"TEXT_LUCKZD203_03433_TODO_00","<Sheet(EObj,2010716,0)/>でエモート「見わたす」をする"
-25,"TEXT_LUCKZD203_03433_TODO_01","ヴォレクドルフの見回り役のアマロと話す"
+24,"TEXT_LUCKZD203_03433_TODO_00","Stand /lookout by the cliff."
+25,"TEXT_LUCKZD203_03433_TODO_01","Report to the watch amaro."
 26,"TEXT_LUCKZD203_03433_TODO_02",""
 27,"TEXT_LUCKZD203_03433_TODO_03",""
 28,"TEXT_LUCKZD203_03433_TODO_04",""
@@ -50,56 +50,35 @@ int32,str,str
 45,"TEXT_LUCKZD203_03433_TODO_21",""
 46,"TEXT_LUCKZD203_03433_TODO_22",""
 47,"TEXT_LUCKZD203_03433_TODO_23",""
-48,"TEXT_LUCKZD203_03433_PATROLAMARO03433_000_001","僕は毎日、北の地の見回りをしているんだけど……
-ここのところ、崖の向こうに謎の影を見かけるんだ。"
-49,"TEXT_LUCKZD203_03433_PATROLAMARO03433_000_002","正体が突き止められなくて、ずっと不安でね。
-君なら、僕とは違った視点で何かを見つけられそうだし、
-この辺りの見回りを頼めないかな？"
-50,"TEXT_LUCKZD203_03433_PATROLAMARO03433_000_003","ありがとう、心強いよ！
-「姿見の湖」と「ダメルン巡礼教会跡」の崖で、
-「見わたして」貰えれば大丈夫さ。"
-51,"TEXT_LUCKZD203_03433_PATROLAMARO03433_000_004","頼んだよ、僕は他の場所を見てくるから、
-終わったら、またここで集合しよう。"
-52,"TEXT_LUCKZD203_03433_SYSTEM_000_010","美しい湖面が、自分の姿を映している……。
-しかし、謎の影らしきものは見当たらないようだ。"
-53,"TEXT_LUCKZD203_03433_SYSTEM_000_011","山肌に亀裂が入っている……。
-しかし、謎の影らしきものは見当たらないようだ。"
-54,"TEXT_LUCKZD203_03433_SYSTEM_000_012","美しい景色が広がっているが、謎の影は現れるだろうか……。
-「指定地点」で「見わたす」をしよう。"
-55,"TEXT_LUCKZD203_03433_PATROLAMARO03433_000_015","やぁ、辺りの様子はどうだったかい？"
-56,"TEXT_LUCKZD203_03433_Q1_000_020","何と答える？"
-57,"TEXT_LUCKZD203_03433_A1_000_021","謎の影は見当たらなかった"
-58,"TEXT_LUCKZD203_03433_A1_000_022","景色が綺麗だった"
-59,"TEXT_LUCKZD203_03433_PATROLAMARO03433_000_030","そうかぁ、それなら安心したよ……。
-僕も、霧に映った自分の影を見ただけなんじゃないかとも、
-思えてきたところだったんだ。"
-60,"TEXT_LUCKZD203_03433_PATROLAMARO03433_000_031","ところで、君も見てきた北側の山肌に、
-あちこち亀裂が入っている理由を知っているかい？"
-61,"TEXT_LUCKZD203_03433_PATROLAMARO03433_000_032","あの亀裂は、北からやってきた「罪喰いの大群」を追い返すために、
-リェー・ギア城に住まう妖精王が穿った爪痕なんだ。"
-62,"TEXT_LUCKZD203_03433_PATROLAMARO03433_000_033","あの亀裂は、北からやってきた「罪喰いの大群」を追い返すために、
-先代の妖精王が穿った爪痕なんだ。"
-63,"TEXT_LUCKZD203_03433_PATROLAMARO03433_000_034","妖精王は、フッブート王国が崩壊したあと、
-この地方で唯一、罪喰いに対抗する力を発揮し、
-混乱に陥った「イル・メグ」をまとめ上げたお方だ。"
-64,"TEXT_LUCKZD203_03433_PATROLAMARO03433_000_035","罪喰いと戦い、妖精たちに采配を与える姿は、
-妖精たちも知る、フッブートの「王」の威光をまとうようだった。"
-65,"TEXT_LUCKZD203_03433_PATROLAMARO03433_000_036","そして「ティターニア様」に敬意を込め、
-妖精族を率いる者として、「妖精王」と呼ぶことにしたんだよ。
-戦いのすえ、罪喰いとなってしまったのは皮肉なことだが……。"
-66,"TEXT_LUCKZD203_03433_PATROLAMARO03433_000_037","しかし、あの山肌の亀裂を見るたび、妖精王の守護を思い出して、
-北側の警戒を怠らないようにしているんだ。
-ありがとう、また気を引き締められた気がするよ。"
-67,"TEXT_LUCKZD203_03433_PATROLAMARO_000_001","（★未使用／削除予定★）"
-68,"TEXT_LUCKZD203_03433_PATROLAMARO_000_002","（★未使用／削除予定★）"
-69,"TEXT_LUCKZD203_03433_PATROLAMARO_000_003","（★未使用／削除予定★）"
-70,"TEXT_LUCKZD203_03433_PATROLAMARO_000_004","（★未使用／削除予定★）"
-71,"TEXT_LUCKZD203_03433_PATROLAMARO_000_015","（★未使用／削除予定★）"
-72,"TEXT_LUCKZD203_03433_PATROLAMARO_000_030","（★未使用／削除予定★）"
-73,"TEXT_LUCKZD203_03433_PATROLAMARO_000_031","（★未使用／削除予定★）"
-74,"TEXT_LUCKZD203_03433_PATROLAMARO_000_032","（★未使用／削除予定★）"
-75,"TEXT_LUCKZD203_03433_PATROLAMARO_000_033","（★未使用／削除予定★）"
-76,"TEXT_LUCKZD203_03433_PATROLAMARO_000_034","（★未使用／削除予定★）"
-77,"TEXT_LUCKZD203_03433_PATROLAMARO_000_035","（★未使用／削除予定★）"
-78,"TEXT_LUCKZD203_03433_PATROLAMARO_000_036","（★未使用／削除予定★）"
-79,"TEXT_LUCKZD203_03433_PATROLAMARO_000_037","（★未使用／削除予定★）"
+48,"TEXT_LUCKZD203_03433_PATROLAMARO03433_000_001","Traveler, have you a moment? I patrol the area to the north regularly, and for a long while there was nothing of note. Of late, however, I've been seeing a mysterious figure on the other side of the cliff."
+49,"TEXT_LUCKZD203_03433_PATROLAMARO03433_000_002","I can't make out who─or what─that figure is, and it troubles me. Men are said to see better than us amaro. Will you not lend me your keen eyes?"
+50,"TEXT_LUCKZD203_03433_PATROLAMARO03433_000_003","My thanks. All you need to do is stand lookout at the cliffs by Longmirror Lake and the Church at Dammroen Field."
+51,"TEXT_LUCKZD203_03433_PATROLAMARO03433_000_004","I will see to other locations in the meantime. When you have finished, please come and meet me back here."
+52,"TEXT_LUCKZD203_03433_SYSTEM_000_010","You glimpse a reflection of yourself in the tranquil lake far below. However, there are no mysterious figures to be seen."
+53,"TEXT_LUCKZD203_03433_SYSTEM_000_011","You glimpse curious cracks on the mountain face. However, there are no mysterious figures to be seen."
+54,"TEXT_LUCKZD203_03433_SYSTEM_000_012","This appears to be one of the lookout locations."
+55,"TEXT_LUCKZD203_03433_PATROLAMARO03433_000_015","There you are. So tell me, what did you see?"
+56,"TEXT_LUCKZD203_03433_Q1_000_020","What will you say?"
+57,"TEXT_LUCKZD203_03433_A1_000_021","I saw no mysterious figures."
+58,"TEXT_LUCKZD203_03433_A1_000_022","I saw beautiful views."
+59,"TEXT_LUCKZD203_03433_PATROLAMARO03433_000_030","Well, if you saw nothing, then I may rest easier. If truth be told, I was beginning to think that perhaps I was simply seeing my own shadow cast upon the fog."
+60,"TEXT_LUCKZD203_03433_PATROLAMARO03433_000_031","By the way, when you looked out to the north, you may have noticed the strange cracks on the mountain face. Do you know how they came to be there?"
+61,"TEXT_LUCKZD203_03433_PATROLAMARO03433_000_032","They were hewn out by the faerie king when they fought the invading sin eaters."
+62,"TEXT_LUCKZD203_03433_PATROLAMARO03433_000_033","They were hewn out by the previous faerie king when they fought the invading sin eaters."
+63,"TEXT_LUCKZD203_03433_PATROLAMARO03433_000_034","To be sure, they weren't known as the king then, but simply Titania, ruler of the pixies. And it was they who rose to restore peace to the region in the wake of Voeburt's demise."
+64,"TEXT_LUCKZD203_03433_PATROLAMARO03433_000_035","In the manner in which Titania united us against the sin eaters, the faeries saw an image of the king of fallen Voeburt."
+65,"TEXT_LUCKZD203_03433_PATROLAMARO03433_000_036","So it was that, as a show of respect, we came to likewise refer to them as king. Alas, to our great sorrow, they would be corrupted by the Light and become that which they fought."
+66,"TEXT_LUCKZD203_03433_PATROLAMARO03433_000_037","Those cracks are a reminder of how our king protected us, and beholding them spurs me to remain vigilant. But forgive me, I've gone on quite a ramble. Thank you for helping me to put my worries to rest."
+67,"TEXT_LUCKZD203_03433_PATROLAMARO_000_001",""
+68,"TEXT_LUCKZD203_03433_PATROLAMARO_000_002",""
+69,"TEXT_LUCKZD203_03433_PATROLAMARO_000_003",""
+70,"TEXT_LUCKZD203_03433_PATROLAMARO_000_004",""
+71,"TEXT_LUCKZD203_03433_PATROLAMARO_000_015",""
+72,"TEXT_LUCKZD203_03433_PATROLAMARO_000_030",""
+73,"TEXT_LUCKZD203_03433_PATROLAMARO_000_031",""
+74,"TEXT_LUCKZD203_03433_PATROLAMARO_000_032",""
+75,"TEXT_LUCKZD203_03433_PATROLAMARO_000_033",""
+76,"TEXT_LUCKZD203_03433_PATROLAMARO_000_034",""
+77,"TEXT_LUCKZD203_03433_PATROLAMARO_000_035",""
+78,"TEXT_LUCKZD203_03433_PATROLAMARO_000_036",""
+79,"TEXT_LUCKZD203_03433_PATROLAMARO_000_037",""

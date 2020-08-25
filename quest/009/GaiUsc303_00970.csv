@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSC303_00970_SEQ_00","シルフの仮宿のジュルランは、冒険者に頼みたいことがあるようだ。"
-1,"TEXT_GAIUSC303_00970_SEQ_01","シルフ族と話すことが苦手らしいジュルラン。彼に代わって、シルフの仮宿の「デレシア」に「<Sheet(EventItem,2000749,0)/>」を渡そう。"
-2,"TEXT_GAIUSC303_00970_SEQ_02","シルフ族から採集場所を聞きだした。ラークスコールで「<Sheet(EventItem,2000750,0)/>」を集めよう。"
-3,"TEXT_GAIUSC303_00970_SEQ_03","「<Sheet(EventItem,2000750,0)/>」を入手した。十二神大聖堂に向かい「ケイン」に渡そう。"
-4,"TEXT_GAIUSC303_00970_SEQ_04","ケインに<Sheet(EventItem,2000750,0)/>を渡した。冒険者の運んだ種のおかげで、十二神大聖堂はますます美しくなるだろう。"
+0,"TEXT_GAIUSC303_00970_SEQ_00","What drives Jeulerand to seek an adventurer's help─the sweet smell of success or the acrid stench of failure?"
+1,"TEXT_GAIUSC303_00970_SEQ_01","Jeulerand confesses that he finds the sylphs discomfiting to talk to. Go in his stead to present Dellexia with sweetrose perfume."
+2,"TEXT_GAIUSC303_00970_SEQ_02","The sylphs complain that Jeulerand is discomfiting to talk to, but are delighted with the gift. Leave the sylphs oohing and aahing over the atomizer, and head to Larkscall to collect sylvan lily seeds."
+3,"TEXT_GAIUSC303_00970_SEQ_03","As Dellexia said, you need both luck and a keen eye to find the seeds. Luckily, you have both by the caskful. Now that you have the seeds, place them in the hands of Kain, the master botanist at the Sanctum of the Twelve."
+4,"TEXT_GAIUSC303_00970_SEQ_04","Kain seems serenely aware of his apprentice's disinclination to work. You see the beautiful garden that he has grown to exalt the Twelve, and wonder if mayhap there is more divinity outside the Sanctum than inside."
 5,"TEXT_GAIUSC303_00970_SEQ_05",""
 6,"TEXT_GAIUSC303_00970_SEQ_06",""
 7,"TEXT_GAIUSC303_00970_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_GAIUSC303_00970_SEQ_21",""
 22,"TEXT_GAIUSC303_00970_SEQ_22",""
 23,"TEXT_GAIUSC303_00970_SEQ_23",""
-24,"TEXT_GAIUSC303_00970_TODO_00","デレシアに<Sheet(EventItem,2000749,0)/>を渡す"
-25,"TEXT_GAIUSC303_00970_TODO_01","現れた魔物を退けながら<Sheet(EventItem,2000750,0)/>を入手"
-26,"TEXT_GAIUSC303_00970_TODO_02","ケインに<Sheet(EventItem,2000750,0)/>を渡す"
+24,"TEXT_GAIUSC303_00970_TODO_00","Give the sweetrose perfume to Dellexia."
+25,"TEXT_GAIUSC303_00970_TODO_01","Obtain sylvan lily seeds while warding off attackers."
+26,"TEXT_GAIUSC303_00970_TODO_02","Give the seeds to Kain."
 27,"TEXT_GAIUSC303_00970_TODO_03",""
 28,"TEXT_GAIUSC303_00970_TODO_04",""
 29,"TEXT_GAIUSC303_00970_TODO_05",""
@@ -49,41 +49,19 @@ int32,str,str
 45,"TEXT_GAIUSC303_00970_TODO_21",""
 46,"TEXT_GAIUSC303_00970_TODO_22",""
 47,"TEXT_GAIUSC303_00970_TODO_23",""
-48,"TEXT_GAIUSC303_00970_JEULERAND_000_000","僕は師匠に言われて「<Sheet(EventItem,2000750,0)/>」を採りに来たんだ。
-だけど、採取できる場所がさっぱりわからなくてね。"
-49,"TEXT_GAIUSC303_00970_JEULERAND_000_001","仕方ないから、シルフ族に訊いてみようと思ってさ。
-同僚のセレンに頼んで「<Sheet(EventItem,2000749,0)/>」を
-用意してもらったんだけど……。"
-50,"TEXT_GAIUSC303_00970_JEULERAND_000_002","そもそも僕は、シルフ族と話すのが苦手なんだよ。
-だから、シルフ族と通じあえるような、
-優秀な冒険者さんもセレンに探してもらったのさ。"
-51,"TEXT_GAIUSC303_00970_JEULERAND_000_003","優秀な冒険者さん、お願いだ。
-この「<Sheet(EventItem,2000749,0)/>」をシルフ族に贈って、
-「<Sheet(EventItem,2000750,0)/>」の採取場所を聞きだしてくれないかい？"
-52,"TEXT_GAIUSC303_00970_JEULERAND_000_004","それが終わったら……種の採集もお願いしようかな。
-もし、手に入ったら「十二神大聖堂」にいる、
-「ケイン」師匠に渡してくれるとうれしい。頼んだよ！"
-53,"TEXT_GAIUSC303_00970_DELLEXIA_000_010","向こうの園芸師のヒト……
-ヘンなシルフ語を話すのでふっち。
-もっとお勉強ちたほうがいいのでふっち！"
-54,"TEXT_GAIUSC303_00970_DELLEXIA_000_011","これは……<Sheet(EventItem,2000749,0)/>でふっち！
-ステキな香り、すっごくありがとなのでふっち！"
-55,"TEXT_GAIUSC303_00970_DELLEXIA_000_012","……「<Sheet(EventItem,2000750,0)/>」を探ちてるのでふっち？
-ラークスコールで、たまに落ちてるでふっちよ？"
-56,"TEXT_GAIUSC303_00970_DELLEXIA_000_013","でも、ラークスコールは、
-悪い子シルフがいっぱいいるのでふっち。
-行くなら、気をつけるでふっち！"
-57,"TEXT_GAIUSC303_00970_DUMMY_000_020","ラークスコールの<Sheet(EventItem,2000750,0)/>にアクセスすると、
-テンパードシルフ×1が襲ってくるので倒す。これを3セット。"
-58,"TEXT_GAIUSC303_00970_TODO_000_021","（★未使用／削除予定★）"
-59,"TEXT_GAIUSC303_00970_KAIN_000_030","美しい……あとは可憐な……
-シルヴァンリリーさえあれば、すべてが完璧だ……。"
-60,"TEXT_GAIUSC303_00970_KAIN_000_031","これは「<Sheet(EventItem,2000750,0)/>」ではないか。
-どうして君が……そうか、そういうことか。
-ジュルランめ、またサボりおったな。"
-61,"TEXT_GAIUSC303_00970_KAIN_000_032","この種は、真っ白で可憐な花を咲かすのだ。
-十二神大聖堂の荘厳さを損なわず、
-控えめに調和した美を演出する……。"
-62,"TEXT_GAIUSC303_00970_KAIN_000_033","どうだ、十二神大聖堂の植物は美しいだろう？
-ここの庭師である、僕の自慢の作品だからね。"
-63,"TEXT_GAIUSC303_00970_POP_MESSAGE_000","敵の気配を感じた！！"
+48,"TEXT_GAIUSC303_00970_JEULERAND_000_000","My master sent me to these parts to bring back the seeds of the sylvan lily, but look, it's really difficult to find something in a place you don't even know."
+49,"TEXT_GAIUSC303_00970_JEULERAND_000_001","So I thought I'd go to the sylphs. First I asked Selaine what gift I should get, and since I couldn't find any o' that sweetrose stuff, I asked Selaine to get me some..."
+50,"TEXT_GAIUSC303_00970_JEULERAND_000_002","...And then I thought about how much <Emphasis>better</Emphasis> it would be to have an envoy─you know, someone not me─talk to the sylphs. I mean, they're <Emphasis>very</Emphasis> strange. So I asked Selaine to find me a good adventurer."
+51,"TEXT_GAIUSC303_00970_JEULERAND_000_003","Look, I'm doin' the best I can here. Yes, I could be doing it myself, but then Master probably won't get his seeds. So will you please give the perfume to the sylphs and find out where the lily seeds are? That's all!"
+52,"TEXT_GAIUSC303_00970_JEULERAND_000_004","And when you're done with that, could you collect the seeds? And deliver them to Master Botanist Kain at the Sanctum of the Twelve? That's <Emphasis>all</Emphasis>. I'll ask Selaine to do the rest."
+53,"TEXT_GAIUSC303_00970_DELLEXIA_000_010","Gathering one does not observe common courtesies. This one thinks gathering one must learn manners!"
+54,"TEXT_GAIUSC303_00970_DELLEXIA_000_011","This one likes the scent of the sweetrose! The bottle makes a scented mist this one also likes. Walking one brings good gifts!"
+55,"TEXT_GAIUSC303_00970_DELLEXIA_000_012","Walking one seeks seeds of the sylvan lily? Walking one shall find it in Larkscall if lucky. Lucky and looking at the ground!"
+56,"TEXT_GAIUSC303_00970_DELLEXIA_000_013","This one warns walking one, Larkscall is full of touched ones. Touched ones not kind like these ones. Walking one will be careful, yes?"
+57,"TEXT_GAIUSC303_00970_DUMMY_000_020",""
+58,"TEXT_GAIUSC303_00970_TODO_000_021",""
+59,"TEXT_GAIUSC303_00970_KAIN_000_030","Good, good... All I need is a bed of sylvan lilies there."
+60,"TEXT_GAIUSC303_00970_KAIN_000_031","These are seeds of the sylvan lily! How did you know...? Ah, I see. Jeulerand. Had you do all the work, did he?"
+61,"TEXT_GAIUSC303_00970_KAIN_000_032","Out of these seeds will come white flowers─the tint of pure light without even a hint of color. That is what faith is, you see. There are twelve hues, twelve paths to travel to a place where all walls fall and all hues become as one."
+62,"TEXT_GAIUSC303_00970_KAIN_000_033","But I am a botanist, 'twould be a poor garden that has but one hue. I hope you will take respite here and see the beauty we have wrought."
+63,"TEXT_GAIUSC303_00970_POP_MESSAGE_000","An appalling screech assaults your ears!"

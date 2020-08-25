@@ -1,11 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANQIQ106_03811_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト受注クラス・ジョブ制限<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-※本クエストは受注時のクラスでのみ進行します。
+0,"TEXT_BANQIQ106_03811_SEQ_00","Qhoterl Pasol has a passion for rations.
 
-ホパル古盤のコテルリ・パソリは、地下へ向かう仲間たちに食料を持たせたいようだ。"
-1,"TEXT_BANQIQ106_03811_SEQ_01","コテルリ・パソリに依頼された品を納品"
+※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
+1,"TEXT_BANQIQ106_03811_SEQ_01","Deliver the requested items to Qhoterl Pasol."
 2,"TEXT_BANQIQ106_03811_SEQ_02",""
 3,"TEXT_BANQIQ106_03811_SEQ_03",""
 4,"TEXT_BANQIQ106_03811_SEQ_04",""
@@ -28,7 +27,7 @@ int32,str,str
 21,"TEXT_BANQIQ106_03811_SEQ_21",""
 22,"TEXT_BANQIQ106_03811_SEQ_22",""
 23,"TEXT_BANQIQ106_03811_SEQ_23",""
-24,"TEXT_BANQIQ106_03811_TODO_00","<If(Equal(IntegerParameter(4),16))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>割れた宝卵付近の岩場で<Sheet(Item,IntegerParameter(5),0)/>を砕岩<Else/>コテルリ・パソリに<Sheet(Item,IntegerParameter(5),0)/>を納品</If><Else/><If(Equal(IntegerParameter(4),17))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>割れた宝卵付近の草刈場で<Sheet(Item,IntegerParameter(5),0)/>を草刈<Else/>コテルリ・パソリに<Sheet(Item,IntegerParameter(5),0)/>を納品</If><Else/><If(Equal(IntegerParameter(4),18))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>トゥシ・メキタ湖の水中で<Sheet(Item,IntegerParameter(5),0)/>を刺突漁<Else/>コテルリ・パソリに<Sheet(Item,IntegerParameter(5),0)/>を納品</If><Else/></If></If></If>"
+24,"TEXT_BANQIQ106_03811_TODO_00","<If(Equal(IntegerParameter(4),16))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Mine splendid scorpions at the Husk<Else/>Deliver the splendid scorpions to Qhoterl Pasol</If><Else/><If(Equal(IntegerParameter(4),17))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Gather splendid wild berries at the Husk<Else/>Deliver the splendid wild berries to Qhoterl Pasol</If><Else/><If(Equal(IntegerParameter(4),18))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Spearfish a splendid piranha in the depths of Lake Tusi Mek'ta<Else/>Deliver the splendid piranha to Qhoterl Pasol</If><Else/></If></If></If>."
 25,"TEXT_BANQIQ106_03811_TODO_01",""
 26,"TEXT_BANQIQ106_03811_TODO_02",""
 27,"TEXT_BANQIQ106_03811_TODO_03",""
@@ -52,43 +51,18 @@ int32,str,str
 45,"TEXT_BANQIQ106_03811_TODO_21",""
 46,"TEXT_BANQIQ106_03811_TODO_22",""
 47,"TEXT_BANQIQ106_03811_TODO_23",""
-48,"TEXT_BANQIQ106_03811_QHOTERLPASOL_000_000","地下洞窟の探索には時間がかかりますゆえ、
-定期的に地上に戻って食事を摂るというのも、
-難しい場面がございましょ～。"
-49,"TEXT_BANQIQ106_03811_QHOTERLPASOL_000_001","ですので、探索に向かう者たちに、
-ある程度の食料を持たせたいと考えてございまする～！
-そのために、どうか力をお貸しくださいましな～。"
-50,"TEXT_BANQIQ106_03811_QHOTERLPASOL_000_010","具体的には、割れた宝卵の付近で採れる、
-「<Sheet(Item,29521,0)/>」を3つほど、
-調達していただきたいのでございまする～。"
-51,"TEXT_BANQIQ106_03811_QHOTERLPASOL_000_020","具体的には、割れた宝卵の付近で採れる、
-「<Sheet(Item,29547,0)/>」を3つほど、
-調達していただきたいのでございまする～。"
-52,"TEXT_BANQIQ106_03811_QHOTERLPASOL_000_030","具体的には、トゥシ・メキタ湖で獲れる、
-「<Sheet(Item,29573,0)/>」の調達をお願いいたしまする～。
-なんでも、刺突漁とやらで獲れるとか～。"
-53,"TEXT_BANQIQ106_03811_QHOTERLPASOL_000_040","腹が減っては、なんとやらと申しますゆえ、
-くれぐれもお願いいたしまする～。"
-54,"TEXT_BANQIQ106_03811_SYSTEM_100_040","本クエストを進行するためには、
-クエスト「「刺突漁」で魚を狙え」を完了し、
-「刺突漁」を開放しておく必要があります。"
-55,"TEXT_BANQIQ106_03811_QHOTERLPASOL_100_010","割れた宝卵の付近で採れる、
-「<Sheet(Item,29521,0)/>」を3つほど、
-調達してくださいましな～。"
-56,"TEXT_BANQIQ106_03811_QHOTERLPASOL_100_020","割れた宝卵の付近で採れる、
-「<Sheet(Item,29547,0)/>」を3つほど、
-調達してくださいましな～。"
-57,"TEXT_BANQIQ106_03811_QHOTERLPASOL_100_030","トゥシ・メキタ湖に生息する、
-「<Sheet(Item,29573,0)/>」を調達してくださいましな～。
-なんでも、刺突漁とやらで獲れるそうでございまする～。"
-58,"TEXT_BANQIQ106_03811_QHOTERLPASOL_000_050","お願いしていた食材は、集まりましたでしょか～？"
-59,"TEXT_BANQIQ106_03811_QHOTERLPASOL_000_060","新鮮なスコーピオンでございまする～。
-これを油でカリカリに揚げれば、
-香ばしくて美味しい保存食になりましょ～。"
-60,"TEXT_BANQIQ106_03811_QHOTERLPASOL_000_070","新鮮なベリーでございまする～。
-これを搾れば、良い飲み物になるでしょ～。
-地下水も、常に調達できるわけではありませぬゆえ～。"
-61,"TEXT_BANQIQ106_03811_QHOTERLPASOL_000_080","新鮮なピラニアでございまする～。
-これを干物にすれば、良い保存食になるでしょ～。"
-62,"TEXT_BANQIQ106_03811_QHOTERLPASOL_000_090","さてさて、さっそく仕込みを始めなければ～。
-ご協力、ありがとうございまする～！"
+48,"TEXT_BANQIQ106_03811_QHOTERLPASOL_000_000","Once we descend into the caverns, you'll appreciate that it isn't always practical to return to the surface to satisfy every bodily whim."
+49,"TEXT_BANQIQ106_03811_QHOTERLPASOL_000_001","In light of this, I provide our workers with some rations to take with them, and I'd be grateful if you could assist me by obtaining an ingredient."
+50,"TEXT_BANQIQ106_03811_QHOTERLPASOL_000_010","Scorpions are what I require─three ought to do nicely. You will find them if you search in the Husk."
+51,"TEXT_BANQIQ106_03811_QHOTERLPASOL_000_020","Wild berries are what I require─three handfuls ought to do nicely. You will find them growing in the Husk."
+52,"TEXT_BANQIQ106_03811_QHOTERLPASOL_000_030","A piranha is what I require─just one ought to do nicely. You will find them swimming in the waters of Lake Tusi Mek'ta, but you'll need to be handy with a spear."
+53,"TEXT_BANQIQ106_03811_QHOTERLPASOL_000_040","As they say, <If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, one can't work on an empty stomach─much less when one isn't down in the caverns. So please, bring me the ingredient."
+54,"TEXT_BANQIQ106_03811_SYSTEM_100_040","In order to proceed with this quest, you must first complete the quest “A New Fishing Ex-spear-ience” and unlock spearfishing."
+55,"TEXT_BANQIQ106_03811_QHOTERLPASOL_100_010","That's three scorpions I require, good <If(PlayerParameter(4))>madam<Else/>sir</If>. You will find them if you search in the Husk."
+56,"TEXT_BANQIQ106_03811_QHOTERLPASOL_100_020","That's three handfuls of wild berries I require, good <If(PlayerParameter(4))>madam<Else/>sir</If>. You will find them growing in the Husk."
+57,"TEXT_BANQIQ106_03811_QHOTERLPASOL_100_030","That's a piranha I require, good <If(PlayerParameter(4))>madam<Else/>sir</If>. You will find them swimming in the waters of Lake Tusi Mek'ta."
+58,"TEXT_BANQIQ106_03811_QHOTERLPASOL_000_050","Welcome back, <If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Did your procurement efforts meet with success?"
+59,"TEXT_BANQIQ106_03811_QHOTERLPASOL_000_060","Oho, such lively scorpions these are! And this one almost stung me, the cheeky fellow! But it won't be stinging anyone after I've fried it up to a crisp, oh no."
+60,"TEXT_BANQIQ106_03811_QHOTERLPASOL_000_070","Oho, such plump, juicy berries these are! I shall press them to make invigorating drinks for our workers in the event they can't readily find groundwater."
+61,"TEXT_BANQIQ106_03811_QHOTERLPASOL_000_080","Oho, such a lively piranha this is! And it almost took a bite out of me, the cheeky fellow! But it won't be biting anyone after I've cleaned out its guts and hung it up to dry, oh no."
+62,"TEXT_BANQIQ106_03811_QHOTERLPASOL_000_090","With that, I shall set about the preparations at once. My thanks for your kind assistance, good <If(PlayerParameter(4))>madam<Else/>sir</If>!"

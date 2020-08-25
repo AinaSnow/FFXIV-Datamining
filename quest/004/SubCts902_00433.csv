@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBCTS902_00433_SEQ_00","双蛇党：統合司令部のスカーレット少牙士は、闘神「オーディン」の討伐計画に協力してほしいようだ。"
-1,"TEXT_SUBCTS902_00433_SEQ_01","スカーレット少牙士から、闘神「オーディン」の討伐計画に参加してほしいと頼まれた。南部森林のウルズの泉で指揮を執っている「オ・アパ・ペシ」に計画について尋ねよう。"
-2,"TEXT_SUBCTS902_00433_SEQ_02","オ・アパ・ペシから計画について聞いた。彼らは、何度も姿を変えて再出現する「オーディン」の謎を解くため、討伐の様子を観測したいそうだ。冒険者部隊を率い、「オーディン」を討伐しよう。
+0,"TEXT_SUBCTS902_00433_SEQ_00","Lieutenant Scarlet would share with you most urgent tidings."
+1,"TEXT_SUBCTS902_00433_SEQ_01","The elder primal Odin has reared his head again. This time, however, Brother O–App–Pesi has devised a strategy to put an end to the Dark Divinity's hunt through the Shroud. He has personally asked for your aid, and has called for you to attend him in Urth's Fount."
+2,"TEXT_SUBCTS902_00433_SEQ_02","O–App–Pesi wastes no words─you are to head a company of adventurers against the Dark Divinity. The brother and E–Sumi–Yan will behold your battle with Odin from afar in hopes of learning why the primal is never long gone from the Shroud. When you are ready, proceed to Urth's Fount and challenge Odin.
 
-※コンテンツファインダーから攻略に参加できます。"
-3,"TEXT_SUBCTS902_00433_SEQ_03","「オーディン」を討伐した。ウルズの泉の「オ・アパ・ペシ」から、観測の成果を聞こう。"
-4,"TEXT_SUBCTS902_00433_SEQ_04","オ・アパ・ペシとエ・スミ・ヤンは、「斬鉄剣」こそが「オーディン」の本体である可能性を語った。しかし、回収された斬鉄剣は、移送を受け持った神勇隊の隊士に持ち去られてしまった。オ・アパ・ペシらが討伐計画を練り直し、再びオーディンに挑むときには、改めて力を貸そう。"
+※Urth's Fount can be accessed via the Duty Finder."
+3,"TEXT_SUBCTS902_00433_SEQ_03","The Dark Divinity rides no more. Speak with O–App–Pesi and learn what he has observed."
+4,"TEXT_SUBCTS902_00433_SEQ_04","The two brothers present a fascinating theory: Odin is not the being who wields the Zantetsuken, but rather a manifestation of the blade itself. Before they are able to study the sword further, however, a sworn man of the Gods' Quiver steals the Zantetsuken. O–App–Pesi vows you will get the chance to shatter the fell blade on the day the sword is again found."
 5,"TEXT_SUBCTS902_00433_SEQ_05",""
 6,"TEXT_SUBCTS902_00433_SEQ_06",""
 7,"TEXT_SUBCTS902_00433_SEQ_07",""
@@ -27,9 +27,9 @@ int32,str,str
 21,"TEXT_SUBCTS902_00433_SEQ_21",""
 22,"TEXT_SUBCTS902_00433_SEQ_22",""
 23,"TEXT_SUBCTS902_00433_SEQ_23",""
-24,"TEXT_SUBCTS902_00433_TODO_00","ウルズの泉のオ・アパ・ペシと話す"
-25,"TEXT_SUBCTS902_00433_TODO_01","闘神「オーディン」を討伐"
-26,"TEXT_SUBCTS902_00433_TODO_02","ウルズの泉のオ・アパ・ペシと話す"
+24,"TEXT_SUBCTS902_00433_TODO_00","Speak with O–App–Pesi in Urth's Fount."
+25,"TEXT_SUBCTS902_00433_TODO_01","Use the Duty Finder to confront Odin in Urth's Fount."
+26,"TEXT_SUBCTS902_00433_TODO_02","Speak with O–App–Pesi in Urth's Fount."
 27,"TEXT_SUBCTS902_00433_TODO_03",""
 28,"TEXT_SUBCTS902_00433_TODO_04",""
 29,"TEXT_SUBCTS902_00433_TODO_05",""
@@ -51,115 +51,45 @@ int32,str,str
 45,"TEXT_SUBCTS902_00433_TODO_21",""
 46,"TEXT_SUBCTS902_00433_TODO_22",""
 47,"TEXT_SUBCTS902_00433_TODO_23",""
-48,"TEXT_SUBCTS902_00433_SCARLET_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>殿、よいところに。
-<If(GreaterThan(PlayerParameter(53),0))><If(LessThan(PlayerParameter(53),127))>貴官<Else/>君</If><Else/>君</If>は、「オーディン」を知っているな？
-そう、<If(GreaterThan(PlayerParameter(53),0))><If(LessThan(PlayerParameter(53),127))>貴官<Else/>君</If><Else/>君</If>が以前に調査した古の蛮神だ。"
-49,"TEXT_SUBCTS902_00433_SCARLET_000_001","かの蛮神は、聖典に「闘神」とも記されている強大な存在……。
-今、その討伐計画が動いている。
-これに、<If(GreaterThan(PlayerParameter(53),0))><If(LessThan(PlayerParameter(53),127))>貴官<Else/>君</If><Else/>君</If>も参加してほしいのだ。"
-50,"TEXT_SUBCTS902_00433_SCARLET_000_002","本計画の指揮は「オ・アパ・ペシ」様がお執りになっている。
-まずは、「ウルズの泉」にいらっしゃる、かの御方に会って、
-計画の内容を確認してくれ……頼んだぞ！"
-51,"TEXT_SUBCTS902_00433_SCARLET_000_003","本計画の指揮は「オ・アパ・ペシ」様がお執りになっている。
-まずは、「ウルズの泉」にいらっしゃる、かの御方に会って、
-計画の内容を確認してくれ……頼んだぞ！"
-52,"TEXT_SUBCTS902_00433_OAPPPESI_000_010","ああ、久し振りだね、冒険者さん。
-あなたの協力に感謝するよ。
-……さっそくだけど、計画について説明しよう。"
-53,"TEXT_SUBCTS902_00433_OAPPPESI_000_011","実を言うと、闘神「オーディン」の討伐自体は、
-冒険者の活躍で、すでに幾度も成功しているんだよ。"
-54,"TEXT_SUBCTS902_00433_OAPPPESI_000_012","だけど、件の蛮神は、しばらくすると必ず再出現している。
-しかも、召喚者となる信者の存在が確認されていない上、
-出現の度に姿が変わるなど、謎だらけだ。"
-55,"TEXT_SUBCTS902_00433_OAPPPESI_000_013","この性質は、ほかの蛮神たちと、あまりにかけ離れている。
-聖典を紐解いても、謎の答えとなるような記述はなかった。"
-56,"TEXT_SUBCTS902_00433_OAPPPESI_000_014","そこで、今回の計画だ。
-まず、冒険者部隊によって、再度「オーディン」討伐を敢行。
-その様子を僕と、僕の師匠であるエ・スミ様で観測する。"
-57,"TEXT_SUBCTS902_00433_OAPPPESI_000_015","直に討伐の瞬間を見ることができれば、
-「オーディン」の謎に繋がる何かが、わかるかもしれない。"
-58,"TEXT_SUBCTS902_00433_OAPPPESI_000_016","あなたにお願いしたいのは、その冒険者部隊を率いて、
-「オーディン」を討伐することさ。
-光の戦士としての腕を見こんで、ぜひとも頼む。"
-59,"TEXT_SUBCTS902_00433_OAPPPESI_000_017","では、準備ができたら、声をかけてくれるかい？
-精霊の力を借りて、「オーディン」を泉におびき寄せよう。"
-60,"TEXT_SUBCTS902_00433_OAPPPESI_000_018","あなたの準備ができたら、声をかけてくれ。
-精霊の力を借りて、「オーディン」を泉におびき寄せよう。
-よろしく頼むよ、冒険者さん。"
-61,"TEXT_SUBCTS902_00433_OAPPPESI_000_020","闘神「オーディン」の討伐、お見事だったね。
-やはり、あなたに依頼したのは正解だったよ。"
-62,"TEXT_SUBCTS902_00433_OAPPPESI_100_020","おかげで、「オーディン」討伐の瞬間を、直に観測できた。
-その成果について、エ・スミ様を交えて話そう。
-……ああ、ちょうどいらっしゃったようだ。"
-63,"TEXT_SUBCTS902_00433_ESUMIYAN_000_021","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、戦いを見せていただきました。
-シルフィーに、良い土産話ができそうです。
-あなたの活躍を聞けば、あの子も喜ぶでしょう。"
-64,"TEXT_SUBCTS902_00433_ESUMIYAN_000_022","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、戦いを見せていただきました。
-さすがは光の戦士、実に頼もしい活躍ぶりでしたね。"
-65,"TEXT_SUBCTS902_00433_ESUMIYAN_000_023","この度は、計画へのご協力、ありがとうございました。
-私はエ・スミ・ヤン。
-幻術士ギルドのギルドマスターを務める者です。"
-66,"TEXT_SUBCTS902_00433_ESUMIYANI_000_024","さて、肝心の「オーディン」についてですが……。
-あなたが討伐してくれたおかげで、
-いくつかの「謎」が解明しました。"
-67,"TEXT_SUBCTS902_00433_ESUMIYANI_100_024","通常、蛮神が討伐されると、その肉体はエーテルに還り、
-大地へ還元されます……ここまではいいですね？"
-68,"TEXT_SUBCTS902_00433_OAPPPESI_000_025","僕らが確認したかぎり、「オーディン」も同様だったよ。
-けれど、あなたも見たとおり、かの蛮神が持つ魔剣、
-「斬鉄剣」だけは、消えずにその場に遺された……。"
-69,"TEXT_SUBCTS902_00433_ESUMIYANI_000_026","件の剣を確認しましたが、
-恐ろしいほどのエーテル密度を保っていました。
-……おそらく、あの剣こそが「オーディン」の本体なのでしょう。"
-70,"TEXT_SUBCTS902_00433_OAPPPESI_000_027","つまり、これまでは完全に討伐できていなかったんだ。
-生き残った「斬鉄剣」は、最後に触れた者の肉体を模倣し、
-新たな「オーディン」を作り上げる……これが再出現の仕組みさ。"
-71,"TEXT_SUBCTS902_00433_ESUMIYANI_000_028","ただし、クリスタルを捧げる信者がいない以上、
-肉体を構成するには、森に漂うエーテルを使うしかありません。
-それゆえに、再出現に時間がかかるのでしょう。"
-72,"TEXT_SUBCTS902_00433_OAPPPESI_000_029","この仮説で、「再出現に一定の時間がかかること」や、
-「再出現の度に姿が変わること」という謎が説明できるね。"
-73,"TEXT_SUBCTS902_00433_ESUMIYANI_000_030","しかし、「信者の存在もなく存在を維持できるのか」という謎は、
-解明できませんでした。
-召喚者の思いが、それだけ強かったのか、それとも……。"
-74,"TEXT_SUBCTS902_00433_OAPPPESI_000_031","「オーディン」が、あえて「闘神」と呼ばれたのには、
-理由があるのかもしれません……。
-「蛮神」という存在について、再検証の余地がありそうです。"
-75,"TEXT_SUBCTS902_00433_OAPPPESI_000_032","念のために僕の方から、「暁」のウリエンジェ殿に、
-今回判明した情報を伝えておくよ。
-あなたも、何か気がついたら、彼に伝えてほしい。"
-76,"TEXT_SUBCTS902_00433_OAPPPESI_000_033","……謎は残ったけど、「斬鉄剣」を回収することができた。
-あとは、この剣を封印すれば、
-闘神「オーディン」が再出現することもないはずさ。"
-77,"TEXT_SUBCTS902_00433_LEWIN_100_033","角尊様方、お話中に申し訳ありません！
-緊急事態です！"
-78,"TEXT_SUBCTS902_00433_LEWIN_000_034","回収した「斬鉄剣」を神勇隊が移送していたところ、
-隊士のひとりがそれを奪い、行方をくらませました。
-私がついていながら……申し訳ありません！"
-79,"TEXT_SUBCTS902_00433_OAPPPESI_000_035","馬鹿な！？
-あんな危険な物を持ち去るだなんて……。
-奪った理由に、心当たりはあるのかい？"
-80,"TEXT_SUBCTS902_00433_LEWIN_000_036","いえ、それがまったく……。
-消えたのは実に模範的な隊士で、前科もありませんでした。
-そもそも、あのような物を奪ったところで、利はありません。"
-81,"TEXT_SUBCTS902_00433_ESUMIYANI_000_037","オ・アパ、蛮神は人をテンパード化させる能力を持ちます。
-……もし本当に「斬鉄剣」が「オーディン」の本体ならば、
-人を操ることができたとして、何の不思議があるでしょう。"
-82,"TEXT_SUBCTS902_00433_OAPPPESI_000_038","確かに……その可能性は否定できません。
-くっ、予想できて当然なのに、考えもしなかった……！"
-83,"TEXT_SUBCTS902_00433_OAPPPESI_100_038","リュウィン隊長、すまない……。
-僕の考えが甘かったばかりに、
-君と、君の部下には、申し訳ないことをしてしまった……。"
-84,"TEXT_SUBCTS902_00433_ESUMIYANI_000_039","「斬鉄剣」を持ち去った隊士については、
-神勇隊と鬼哭隊を動員して、捜索するとしましょう。
-ですが、「オーディン」の討伐計画は見直さなければ……"
-85,"TEXT_SUBCTS902_00433_OAPPPESI_000_040","ええ、「斬鉄剣」の対処法を確立する必要がありますね。
-このような被害を、また出す訳にはいきませんから。"
-86,"TEXT_SUBCTS902_00433_OAPPPESI_100_040","……冒険者さん、今回は計画に参加してくれてありがとう。
-次の機会は必ず作るから、また力を貸してほしい。"
-87,"TEXT_SUBCTS902_00433_SCARLET_000_041","無事、「オーディン」の討伐に成功したそうだな。
-こちらにも連絡が来ているぞ。
-さすがは、光の戦士だ。"
-88,"TEXT_SUBCTS902_00433_SCARLET_000_042","「オ・アパ・ペシ」様が、討伐の結果について、
-<If(GreaterThan(PlayerParameter(53),0))><If(LessThan(PlayerParameter(53),127))>貴官<Else/>君</If><Else/>君</If>と話がしたいとおっしゃっている。
-「ウルズの泉」で待っておられるゆえ、すぐに向かってくれ。"
-89,"TEXT_SUBCTS902_00433_OAPPPESI_000_019","（★未使用／削除予定★）"
+48,"TEXT_SUBCTS902_00433_SCARLET_000_000","<If(GreaterThan(PlayerParameter(52),0))><Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Else/><If(GreaterThan(PlayerParameter(53),0))><Clickable(<If(GreaterThan(PlayerParameter(52),0))><Sheet(GCRankLimsaMaleText,PlayerParameter(52),8)/><Else/></If><If(GreaterThan(PlayerParameter(53),0))><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),8)/><Else/></If><If(GreaterThan(PlayerParameter(54),0))><Sheet(GCRankUldahMaleText,PlayerParameter(54),8)/><Else/></If>)/> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/><Else/><Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/></If></If>! Your timing never fails to amaze. Unless I am mistaken, you have knowledge of the elder primal Odin, correct?"
+49,"TEXT_SUBCTS902_00433_SCARLET_000_001","As I thought. Well, as you know, we have long pursued the Dark Divinity, from the pages of arcane scripture to the Shroud itself. Finally, we have a plan to put his prowling to an end. Brother O–App–Pesi has the command."
+50,"TEXT_SUBCTS902_00433_SCARLET_000_002","He has personally requested your aid in this venture, and awaits you at Urth's Fount. I am sure he will give you the details once you present yourself. Godsspeed, <If(GreaterThan(PlayerParameter(52),0))><Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Else/><If(GreaterThan(PlayerParameter(53),0))><Clickable(<If(GreaterThan(PlayerParameter(52),0))><Sheet(GCRankLimsaMaleText,PlayerParameter(52),8)/><Else/></If><If(GreaterThan(PlayerParameter(53),0))><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),8)/><Else/></If><If(GreaterThan(PlayerParameter(54),0))><Sheet(GCRankUldahMaleText,PlayerParameter(54),8)/><Else/></If>)/> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/><Else/><Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/></If></If>."
+51,"TEXT_SUBCTS902_00433_SCARLET_000_003","Brother O–App–Pesi has established his command in Urth's Fount, from where to bring down the Dark Rider. Attend him there to learn of his plans."
+52,"TEXT_SUBCTS902_00433_OAPPPESI_000_010","Adventurer, thank you for coming. We seek the Dark Divinity, and you must be made privy to the plan before the game is afoot."
+53,"TEXT_SUBCTS902_00433_OAPPPESI_000_011","As you know, Odin hunts in this forest. We would banish him from the Shroud. Yet in actual fact, he has fallen before countless adventurers already. By all rights, the primal should plague us no more."
+54,"TEXT_SUBCTS902_00433_OAPPPESI_000_012","Yet, though again and again he is vanquished, he rises always to charge through the Twelveswood. His constant reappearance is perplexing to say the least, and raises two questions: who summons him, and how does he change his visage upon manifesting?"
+55,"TEXT_SUBCTS902_00433_OAPPPESI_000_013","Odin is alone amongst the primals in these aspects. Indeed, I can find not a single sentence in the scriptures that sheds light on his devilish abilities."
+56,"TEXT_SUBCTS902_00433_OAPPPESI_000_014","There is no answer in words writ of the pen. Now, the sword must serve. Our plan is to send a band of adventurers against the Dark Divinity. Brother E–Sumi–Yan, my master, and I will observe the battle from afar."
+57,"TEXT_SUBCTS902_00433_OAPPPESI_000_015","We believe seeing the <Emphasis>moment</Emphasis> of Odin's defeat may give us a clue, one that will lead to uncovering the truth of the primal that has escaped us thus far."
+58,"TEXT_SUBCTS902_00433_OAPPPESI_000_016","Naturally, this hinges upon the company's victory. No one but a Warrior of Light could hope to survive the battle. Hence, I have asked you here."
+59,"TEXT_SUBCTS902_00433_OAPPPESI_000_017","Indeed, without you, our venture is doomed to failure. So I implore you: lend us your strength! If you acquiesce, I shall invoke the power of the elementals, and draw the Dark Divinity to this spring."
+60,"TEXT_SUBCTS902_00433_OAPPPESI_000_018","At your word, I will invoke the elementals to draw Odin to this spring. Pray enter as soon as you are ready."
+61,"TEXT_SUBCTS902_00433_OAPPPESI_000_020","Your bravery before the Dark Divinity was commendable, adventurer. I am relieved you escaped the battle with your life!"
+62,"TEXT_SUBCTS902_00433_OAPPPESI_100_020","And it was not for nothing, I might add. Brother E–Sumi–Yan and I have observed something remarkable...though I should like to discuss it with him present. Ah, and see how he comes."
+63,"TEXT_SUBCTS902_00433_ESUMIYAN_000_021","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! I am honored to have seen you fight. Why, I can scarcely wait to tell Sylphie how a Warrior of Light overcame the terror of the Shroud! No doubt the girl will smile to hear of your valor."
+64,"TEXT_SUBCTS902_00433_ESUMIYAN_000_022","That was a splendid show of force, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! Truly, people are right to call you a Warrior of Light."
+65,"TEXT_SUBCTS902_00433_ESUMIYAN_000_023","Adventurer, I would offer you thanks for all you have done today. I am E–Sumi–Yan, master of the Conjurers' Guild."
+66,"TEXT_SUBCTS902_00433_ESUMIYANI_000_024","Ah, but no doubt you are keen to learn more of the Dark Divinity. Very well. I shall share with you what I have gleaned in observing your battle."
+67,"TEXT_SUBCTS902_00433_ESUMIYANI_100_024","To begin, felling a primal allows the aether of their physical manifestation to return to the land─this much you know, yes?"
+68,"TEXT_SUBCTS902_00433_OAPPPESI_000_025","Odin seems to be subject to the selfsame laws. Yet his sword, the Zantetsuken, remains even after his body vanishes. Thus, we thought to examine the blade, and in so doing, found that its aetheric density is unimaginably high!"
+69,"TEXT_SUBCTS902_00433_ESUMIYANI_000_026","Now, we had always assumed the being who brandished the weapon was Odin. But what if we erred? What if the sword Zantetsuken is, in and of itself, the Dark Divinity? An unforeseen conclusion, yes, but one that clarifies much of the primal."
+70,"TEXT_SUBCTS902_00433_OAPPPESI_000_027","Indeed, that would explain why Odin has never truly fallen─no one has thought to destroy the blade. And if the Zantetsuken is the primal, could it not conjure itself a new wielder?"
+71,"TEXT_SUBCTS902_00433_ESUMIYANI_000_028","Yet, just as Ifrit's tempered or Leviathan's drowned, Odin must needs have his “sundered” to offer crystals in his name─<Emphasis>unless</Emphasis> he drinks of the Shroud's aether. Such a weak source of power could be why it takes time for the Dark Divinity to manifest again."
+72,"TEXT_SUBCTS902_00433_OAPPPESI_000_029","You see, adventurer, our theory accounts quite nicely for <Emphasis>two</Emphasis> of the mysteries that for so long surrounded the primal."
+73,"TEXT_SUBCTS902_00433_ESUMIYANI_000_030","And yet, as O–App–Pesi hints, a third mystery remains: if there are no sundered, how does Odin sustain himself? I cannot imagine the wishes of those who first summoned him were so strong as to echo throughout the centuries."
+74,"TEXT_SUBCTS902_00433_OAPPPESI_000_031","Brother, I do not think our theory is flawed. No, this discovery makes clear the holes in what we had for so long believed of the primals. We must revisit the beings with a keener eye."
+75,"TEXT_SUBCTS902_00433_OAPPPESI_000_032","I will inform Master Urianger of what we have gleaned here. Adventurer, I urge you to do the same should something else of Odin occur to you."
+76,"TEXT_SUBCTS902_00433_OAPPPESI_000_033","But today is a victory, all the same. We have the Zantetsuken, and the mysteries that remain pale in import to the act of locking the primal away. With any luck, we can seal the sword and end the Dark Divinity's ride."
+77,"TEXT_SUBCTS902_00433_LEWIN_100_033","Brothers! Something terrible has happened!"
+78,"TEXT_SUBCTS902_00433_LEWIN_000_034","The Zantetsuken is gone! One of my own men has stolen away with the blade, and left nary a trace to track his flight. I never dreamt he would do such a thing, and I stayed my hand too long to stop him..."
+79,"TEXT_SUBCTS902_00433_OAPPPESI_000_035","What!? Are your men so disloyal as to rob you!? Tell me, Lewin, why would someone do such a thing!?"
+80,"TEXT_SUBCTS902_00433_LEWIN_000_036","Forgive me, Brother, but I cannot say. I am as astonished as you. The thief was a sworn man of Gods' Quiver, true as any Gridanian arrow. Moreover, what could he stand to gain by stealing so fell a blade?"
+81,"TEXT_SUBCTS902_00433_ESUMIYANI_000_037","Mayhap the soul of the thief was stolen along with the blade. It is within the power of all primals to bend mortals to their wills. If the Zantetsuken and Odin are one and the same, then the sword may control the now-sundered man. Is that not right, Brother?"
+82,"TEXT_SUBCTS902_00433_OAPPPESI_000_038","That...that is indeed possible. Gods, could I have been so blind as that?"
+83,"TEXT_SUBCTS902_00433_OAPPPESI_100_038","Bowlord Lewin, it is I who needs apologize. Had I been more wary, I would have foreseen this. Instead, I have cost us dearly, and placed you and your men in great danger..."
+84,"TEXT_SUBCTS902_00433_ESUMIYANI_000_039","Let us not cry over lost swords. Bowlord Lewin, send forth the Gods' Quiver and Wood Wailers to scour the Shroud. Brother O–App–Pesi and I will devote ourselves to devising a way to fell Odin after the Zantetsuken is ours again."
+85,"TEXT_SUBCTS902_00433_OAPPPESI_000_040","...Yes, Brother. Indeed, it would be a poor thing to have the blade in our grasp, and no way to destroy it nor dull its bite."
+86,"TEXT_SUBCTS902_00433_OAPPPESI_100_040","Adventurer, I will call upon you again when we have something to show for our efforts. Until then, go in peace."
+87,"TEXT_SUBCTS902_00433_SCARLET_000_041","Word of your battle with Odin has traveled quickly. Toppling the Dark Divinity is no small feat, after all."
+88,"TEXT_SUBCTS902_00433_SCARLET_000_042","Needless to say, Brother O–App–Pesi will wish to discuss your victory. Pray report to him in Urth's Fount with all due haste."
+89,"TEXT_SUBCTS902_00433_OAPPPESI_000_019",""

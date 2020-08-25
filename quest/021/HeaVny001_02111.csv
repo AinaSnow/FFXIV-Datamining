@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNY001_02111_SEQ_00","聖フィネア連隊の露営地のウィルドテオは、協力者を探しているようだ。"
-1,"TEXT_HEAVNY001_02111_SEQ_01","ウィルドテオに<Sheet(EventItem,2001883,0)/>を取り返すよう頼まれた。ダスクヴィジルに入るため、クルザス西部高地のダスクヴィジル付近にいる警備の「ナディニー」と話そう。"
-2,"TEXT_HEAVNY001_02111_SEQ_02","ダスクヴィジルに入る許可を得た。「廃砦捜索 ダスクヴィジル」を攻略しよう。
+0,"TEXT_HEAVNY001_02111_SEQ_00","The dead care not for justice, but Wealdtheow would see them have it just the same."
+1,"TEXT_HEAVNY001_02111_SEQ_01","Recognizing you as the honored ward of House Fortemps, Wealdtheow implores you to enter the ruins of the Dusk Vigil and reclaim a priceless treasure: an ice rondel set in the helm of a sculpture within the Vigil's chapel. Though the Vigil has remained abandoned since it fell, knights now stand watch to deter scavengers. You will need to identify yourself before you can enter."
+2,"TEXT_HEAVNY001_02111_SEQ_02","The knight grants you leave to enter, but not before warning you that wild beasts and worse infest the ruins. The recent sighting of a massive winged creature gives you pause as well... Nevertheless, an agreement was made. Wealdtheow will have his stone.
 
-※コンテンツファインダーから攻略に参加できます。"
-3,"TEXT_HEAVNY001_02111_SEQ_03","ダスクヴィジルの捜索を終えて、<Sheet(EventItem,2001883,0)/>を入手した。聖フィネア連隊の露営地の「ウィルドテオ」に「<Sheet(EventItem,2001883,0)/>」を渡そう。"
-4,"TEXT_HEAVNY001_02111_SEQ_04","ウィルドテオに報告した。<Sheet(EventItem,2001883,0)/>は、彼の息子が戦神像に据えたものだったようだ。ダスクヴィジルを奪還し、かの地に眠る多くの人々を弔える日が、いつか来るかもしれない。"
+※The Dusk Vigil can be accessed via the Duty Finder."
+3,"TEXT_HEAVNY001_02111_SEQ_03","In the days following the Calamity, western Coerthas was abandoned by the knights of Ishgard, save for the Dusk Vigil, whose defenders refused to withdraw. Their tragic sacrifice is a tale known to many...but only those who have ventured within the ruins know what truly became of those brave men and women. As you hold the ice rondel in your hand, you consider how much you might share─and how much you might keep to yourself."
+4,"TEXT_HEAVNY001_02111_SEQ_04","Was it for duty, honor, or faith that Ser Yuhelmeric refused to yield the Dusk Vigil, even though he knew it would cost the lives of him and his knights? Or perhaps something else entirely─a sapphire, perhaps, one of many precious things stolen from his family by the inquisition. Wealdtheow knows that his family can never be made whole again, but for his son and the wife he left behind, at least this injustice can be righted."
 5,"TEXT_HEAVNY001_02111_SEQ_05",""
 6,"TEXT_HEAVNY001_02111_SEQ_06",""
 7,"TEXT_HEAVNY001_02111_SEQ_07",""
@@ -27,9 +27,9 @@ int32,str,str
 21,"TEXT_HEAVNY001_02111_SEQ_21",""
 22,"TEXT_HEAVNY001_02111_SEQ_22",""
 23,"TEXT_HEAVNY001_02111_SEQ_23",""
-24,"TEXT_HEAVNY001_02111_TODO_00","ナディニーと話す"
-25,"TEXT_HEAVNY001_02111_TODO_01","「廃砦捜索 ダスクヴィジル」を攻略"
-26,"TEXT_HEAVNY001_02111_TODO_02","聖フィネア連隊の露営地のウィルドテオに<Sheet(EventItem,2001883,0)/>を渡す"
+24,"TEXT_HEAVNY001_02111_TODO_00","Speak with Nadinie."
+25,"TEXT_HEAVNY001_02111_TODO_01","Use the Duty Finder to enter the Dusk Vigil."
+26,"TEXT_HEAVNY001_02111_TODO_02","Deliver the ice rondel to Wealdtheow."
 27,"TEXT_HEAVNY001_02111_TODO_03",""
 28,"TEXT_HEAVNY001_02111_TODO_04",""
 29,"TEXT_HEAVNY001_02111_TODO_05",""
@@ -51,61 +51,26 @@ int32,str,str
 45,"TEXT_HEAVNY001_02111_TODO_21",""
 46,"TEXT_HEAVNY001_02111_TODO_22",""
 47,"TEXT_HEAVNY001_02111_TODO_23",""
-48,"TEXT_HEAVNY001_02111_WEALDTHEOW_000_000","ええい、なんということだ！
-連隊の貴族たちの、なんと非協力的なことかっ！"
-49,"TEXT_HEAVNY001_02111_WEALDTHEOW_000_001","ムムッ！？
-貴殿はもしや、冒険者では……。
-頼む、私の話を聞いてくれないだろうか？"
-50,"TEXT_HEAVNY001_02111_WEALDTHEOW_000_002","イシュガルドが建設した対竜要塞「ダスクヴィジル」……。
-かつて、皇都を守る防衛線を担っていたかの要塞も、
-今や霊災により損壊し、廃墟と化してしまった。"
-51,"TEXT_HEAVNY001_02111_WEALDTHEOW_000_003","だが、あの奥には、今も「秘宝」が残されたままなのだ。
-……私は、それをどうしても取り返したい。"
-52,"TEXT_HEAVNY001_02111_WEALDTHEOW_000_004","ここにくれば、協力者が見つかると思ったのだが、
-皆、ドラゴン族の討伐に夢中で、話を聞いてはくれぬのだ……。"
-53,"TEXT_HEAVNY001_02111_WEALDTHEOW_000_005","そこに、こうして冒険者殿が現れたのもまた運命！
-どうか、協力を願えないだろうか？"
-54,"TEXT_HEAVNY001_02111_WEALDTHEOW_000_006","おお、協力していただけるか！　かたじけない！
-「ダスクヴィジル」内の礼拝堂に祀られた戦神像……
-その額にはめられた「<Sheet(EventItem,2001883,0)/>」を取り戻してもらいたい！"
-55,"TEXT_HEAVNY001_02111_WEALDTHEOW_000_007","北へと向かい、廃墟の警戒に当たっている、
-騎士「ナディニー」に声をかければ、門を開いてくれよう。
-どうか、よろしく願いたい……。"
-56,"TEXT_HEAVNY001_02111_WEALDTHEOW_000_009","おお、協力していただけるか！　かたじけない！
-「ダスクヴィジル」内の礼拝堂に祀られた戦神像……
-その額にはめられた「<Sheet(EventItem,2001883,0)/>」を取り戻してもらいたい！"
-57,"TEXT_HEAVNY001_02111_NADINIE_000_010","なに、この「ダスクヴィジル」に入りたいだと？
-やめておけ、氷漬けの廃墟には危険な魔物が巣喰っている。
-……もう、人が安易に入るような場所ではないのだ。"
-58,"TEXT_HEAVNY001_02111_NADINIE_000_012","それに、聖フィネア連隊からの報告によれば、
-砦の上空を旋回する巨大な影を見た者さえいるらしい……。
-貴公の安全も保証できない。"
-59,"TEXT_HEAVNY001_02111_NADINIE_000_013","……それでも、行くというのか。
-どうせ破棄された砦だ、入るのは構わぬ。
-ただし……どうなっても知らぬぞ。"
-60,"TEXT_HEAVNY001_02111_NADINIE_000_015","どうせ破棄された砦だ、入るのは構わぬ。
-ただし……どうなっても知らぬぞ。"
-61,"TEXT_HEAVNY001_02111_WEALDTHEOW_000_020","冒険者殿……。
-「<Sheet(EventItem,2001883,0)/>」は、取り返せただろうか？"
-62,"TEXT_HEAVNY001_02111_WEALDTHEOW_000_021","ああ、これだ……間違いなく、我が息子のもの……。
-……本当に、感謝しますぞ。"
-63,"TEXT_HEAVNY001_02111_WEALDTHEOW_000_022","ダスクヴィジルは、最前線に位置するだけに、
-名高い騎士と精兵がそろえられていた……。
-……それを率いた者こそ、我が息子ユヘルメリック。"
-64,"TEXT_HEAVNY001_02111_WEALDTHEOW_000_023","当時、デュランデル家の騎兵団長を務めていた息子は、
-砦への赴任を機に結婚し、愛の証にと秘宝を手に入れた。
-……そして、それを教皇庁に寄付し、戦神像に据えたのだ。"
-65,"TEXT_HEAVNY001_02111_WEALDTHEOW_000_024","……だが、霊災によって城塞は崩壊。
-その後の寒冷化で孤立し、戦いを経ずに陥落した。
-もちろん、指揮官である息子は殉職したよ……。"
-66,"TEXT_HEAVNY001_02111_WEALDTHEOW_000_026","私はそれを受け入れることができたが、かわいそうなのは義娘だ。
-未だに夫の死を信じられず、魂が抜けたような顔をしている。
-……毎日、息子の分の食事を、食卓に並べるのだ。"
-67,"TEXT_HEAVNY001_02111_WEALDTHEOW_000_027","息子との愛の証である、この宝石さえあれば、
-彼女もようやく、死を受け入れ、涙を流せるかもしれぬ……。"
-68,"TEXT_HEAVNY001_02111_WEALDTHEOW_000_028","息子だけではない……。
-あそこに、多くの騎士の霊が眠っている。
-いつか必ず奪還し、彼らを弔ってやらねばな……。"
-69,"TEXT_HEAVNY001_02111_NADINIE_100_015","無事に帰ってくるとは……。
-貴公、相当の腕前とみた。"
-70,"TEXT_HEAVNY001_02111_WEALDTHEOW_000_025","（★未使用／削除予定★）"
+48,"TEXT_HEAVNY001_02111_WEALDTHEOW_000_000","Cowards, all of you! Have you no shame at all!?"
+49,"TEXT_HEAVNY001_02111_WEALDTHEOW_000_001","Oh, I...I beg your─ Wait, are you not <If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>? Honored ward of House Fortemps? Praise Halone, surely you will consider my request!"
+50,"TEXT_HEAVNY001_02111_WEALDTHEOW_000_002","Know you the Dusk Vigil? Westernmost of the citadel watchtowers built to warn of the Horde's approach? 'Twas lost following the Calamity─another victim of the snows."
+51,"TEXT_HEAVNY001_02111_WEALDTHEOW_000_003","Within the ruins lies a priceless treasure which must needs be reclaimed."
+52,"TEXT_HEAVNY001_02111_WEALDTHEOW_000_004","I thought to enlist the services of these so-called dragonslayers, but it seems their courage is not as boundless as they would have you believe."
+53,"TEXT_HEAVNY001_02111_WEALDTHEOW_000_005","But you, <If(PlayerParameter(4))>madam<Else/>sir</If>─you are not one to shy away from danger, am I right?"
+54,"TEXT_HEAVNY001_02111_WEALDTHEOW_000_006","Very good, very good indeed! There is a sculpture of the Fury within the Dusk Vigil's chapel. An ice rondel is set in its helm. I would have you prise it free and deliver it to me."
+55,"TEXT_HEAVNY001_02111_WEALDTHEOW_000_007","The Vigil is not difficult to find. Simply head north towards Banepool until you come to the gates. Knights may bar your passage, but should you explain who you are, they will grant you leave to enter."
+56,"TEXT_HEAVNY001_02111_WEALDTHEOW_000_009","That ice rondel is dear to me. I should be most grateful if you could deliver it to me."
+57,"TEXT_HEAVNY001_02111_NADINIE_000_010","What's this? A ward of House Fortemps wishes to enter the Dusk Vigil? You are aware that the ruins are infested with wild beasts and gods only know what else, are you not?"
+58,"TEXT_HEAVNY001_02111_NADINIE_000_012","Why, just the other day, one of the Convictors claimed to have seen a massive winged beast─not a dragon, mind, but something altogether different."
+59,"TEXT_HEAVNY001_02111_NADINIE_000_013","But far be it from me to deny an esteemed personage the opportunity to kill <If(PlayerParameter(4))>herself<Else/>himself</If> in new and exciting ways. Pray go on ahead."
+60,"TEXT_HEAVNY001_02111_NADINIE_000_015","There's no telling what you'll find in there. No one's ventured inside since the Calamity..."
+61,"TEXT_HEAVNY001_02111_WEALDTHEOW_000_020","Do you have it, <If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>?"
+62,"TEXT_HEAVNY001_02111_WEALDTHEOW_000_021","Yes, there is no mistaking it! At last, it is ours once more..."
+63,"TEXT_HEAVNY001_02111_WEALDTHEOW_000_022","My parents presented this sapphire to me on my wedding day, as my wife and I presented it to Yuhelmeric on his. One day, they would do the same for their son..."
+64,"TEXT_HEAVNY001_02111_WEALDTHEOW_000_023","But for that disgrace of an inquisitor! Suspicion of heresy, what rot! He knew what he wanted from the start."
+65,"TEXT_HEAVNY001_02111_WEALDTHEOW_000_024","...By the time I secured her release, they had <Emphasis>interrogated</Emphasis> her for days. She...she was a shadow of her former self."
+66,"TEXT_HEAVNY001_02111_WEALDTHEOW_000_026","But the final insult─the final twisting of the knife─was when my son took command at the Dusk Vigil and found the ice rondel to be the centerpiece of the newly commissioned sculpture of the Fury. He couldn't prove it was the selfsame one which had vanished, but, oh, he <Emphasis>knew</Emphasis>..."
+67,"TEXT_HEAVNY001_02111_WEALDTHEOW_000_027","But no more, no more! It is back with the family, where it belongs."
+68,"TEXT_HEAVNY001_02111_WEALDTHEOW_000_028","...It is, admittedly, hollow comfort. Yet in my waning years I must accept what little that can be had."
+69,"TEXT_HEAVNY001_02111_NADINIE_100_015","I'd rather not know what you found inside. Some of us have to remain here on guard duty."
+70,"TEXT_HEAVNY001_02111_WEALDTHEOW_000_025",""

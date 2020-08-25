@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSC007_00944_SEQ_00","ホワイトブリム前哨地のダインバートは、弟のことで悩んでいるようだ。"
-1,"TEXT_GAIUSC007_00944_SEQ_01","ダインバートの弟、ローレンスの脱獄を依頼された。居眠りしている牢番フェルディエから「<Sheet(EventItem,2000736,0)/>」を入手しよう。"
-2,"TEXT_GAIUSC007_00944_SEQ_02","「<Sheet(EventItem,2000736,0)/>」を牢獄の中の「ローレンス」に渡そう。"
-3,"TEXT_GAIUSC007_00944_SEQ_03","ローレンスはイシュガルドからの逃亡を決意したようだ。ホワイトブリム前哨地の「ダインバート」に報告しよう。"
-4,"TEXT_GAIUSC007_00944_SEQ_04","ダインバートは弟が無事に生き延びることを祈っているようだ。ローレンスは、いつか恋人と再会できるのだろうか……。"
+0,"TEXT_GAIUSC007_00944_SEQ_00","Honest men make the best conspirators, and Ser Daimbert would seek your help with his own transformation."
+1,"TEXT_GAIUSC007_00944_SEQ_01","Ser Daimbert entrusts you with a most dangerous mission: to break his brother Laurence out of his fetters before the Holy See executes him for heresy. The gaoler Ferdillaix sleeps at his post, and you must borrow his key."
+2,"TEXT_GAIUSC007_00944_SEQ_02","The heavy key is safely in your hands, and Ser Ferdillaix remains asleep, dreaming of a happier night at the table. The bars are generously spaced, fortunately, and the key may be passed to Laurence without any difficulty."
+3,"TEXT_GAIUSC007_00944_SEQ_03","Laurence is overjoyed to learn that his brother loves him still, and has taken the monumental risk of breaking a heretic out of the gaol. Ser Daimbert needs to be told that once the light grows kinder, Laurence will make his attempt."
+4,"TEXT_GAIUSC007_00944_SEQ_04","You are taken aback by Ser Daimbert's thoroughness in planning this escape. None shall know of your part in this, of which you are grateful. You have no doubt scores will vouch for his and your innocence in this matter..."
 5,"TEXT_GAIUSC007_00944_SEQ_05",""
 6,"TEXT_GAIUSC007_00944_SEQ_06",""
 7,"TEXT_GAIUSC007_00944_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_GAIUSC007_00944_SEQ_21",""
 22,"TEXT_GAIUSC007_00944_SEQ_22",""
 23,"TEXT_GAIUSC007_00944_SEQ_23",""
-24,"TEXT_GAIUSC007_00944_TODO_00","<Sheet(EventItem,2000736,0)/>を入手"
-25,"TEXT_GAIUSC007_00944_TODO_01","ローレンスに<Sheet(EventItem,2000736,0)/>を渡す"
-26,"TEXT_GAIUSC007_00944_TODO_02","ダインバートに報告"
+24,"TEXT_GAIUSC007_00944_TODO_00","Obtain the dungeon key."
+25,"TEXT_GAIUSC007_00944_TODO_01","Give the key to Laurence."
+26,"TEXT_GAIUSC007_00944_TODO_02","Report to Daimbert."
 27,"TEXT_GAIUSC007_00944_TODO_03",""
 28,"TEXT_GAIUSC007_00944_TODO_04",""
 29,"TEXT_GAIUSC007_00944_TODO_05",""
@@ -49,37 +49,17 @@ int32,str,str
 45,"TEXT_GAIUSC007_00944_TODO_21",""
 46,"TEXT_GAIUSC007_00944_TODO_22",""
 47,"TEXT_GAIUSC007_00944_TODO_23",""
-48,"TEXT_GAIUSC007_00944_DAIMBERT_000_000","あんた、冒険者だろ？
-騎士たちには内緒で頼みをきいてくれないか。
-……弟を脱獄させたいんだ。"
-49,"TEXT_GAIUSC007_00944_DAIMBERT_000_001","オレの弟は、敵前逃亡の罪で投獄されちまった。
-だが、ドラゴン族との聖戦から逃亡する者は異端者だなんて、
-そんな言いがかりがあってたまるかよ！"
-50,"TEXT_GAIUSC007_00944_DAIMBERT_000_002","あいつは無実だ！
-病気の恋人を助けるため、薬を買いに行っただけなんだ！！
-オレは、無実の弟をそのままにしておけない。"
-51,"TEXT_GAIUSC007_00944_DAIMBERT_000_003","……今見張りをしているのは、居眠り「フェルディエ」だ。
-誰にも見つからないように、こっそりと近づき、
-ヤツから「<Sheet(EventItem,2000736,0)/>」を手に入れてくれないか。"
-52,"TEXT_GAIUSC007_00944_DAIMBERT_000_004","鍵は、鉄格子越しに弟の「ローレンス」に渡してやってくれ。
-オレはその間に、足がつかないように工作してくる。
-……本当にすまない、あんたにしか頼めないんだ……。"
-53,"TEXT_GAIUSC007_00944_DUMMY_000_020","指定地点(牢番フェルディエの足元)を調べ「<Sheet(EventItem,2000736,0)/>」をゲット"
-54,"TEXT_GAIUSC007_00944_DUMMYTODO_000_020","（★未使用／削除予定★）"
-55,"TEXT_GAIUSC007_00944_LAURENCE_000_030","あ……あんたは、この間の冒険者じゃないか。
-何故、こんな牢獄にまた来たんだ？"
-56,"TEXT_GAIUSC007_00944_LAURENCE_000_040","そうか、兄さんが僕のために……。
-ありがとう、僕は逃げることにするよ。"
-57,"TEXT_GAIUSC007_00944_LAURENCE_000_041","でも、必ずここに戻ってくるつもりだ。
-彼女を迎えに、ね。"
-58,"TEXT_GAIUSC007_00944_LAURENCE_000_045","頃合いを見計らって、役人の目を盗んで逃げることにするよ。
-少しの間、待っててくれよ……フリジア……。"
-59,"TEXT_GAIUSC007_00944_DAIMBERT_000_050","……その様子なら弟をうまく逃せたようだな。
-ありがとうよ。
-あんたに罪が被らないように工作済みだ、安心してくれ。"
-60,"TEXT_GAIUSC007_00944_DAIMBERT_000_051","異端者嫌疑に脱獄……
-もうあいつは、この地にはいられない。
-まぁ、ここにいたって、待っているのは刑死だけだがな。"
-61,"TEXT_GAIUSC007_00944_DAIMBERT_000_052","グリダニアでもウルダハでも……
-どこでもいいから、遠くに逃げてくれればいい。
-もう二度と会えないかもしれないが、死ぬよりマシだよ。"
+48,"TEXT_GAIUSC007_00944_DAIMBERT_000_000","Adventurer, a word. I heard of you from Ser Ferdillaix and another, though they know naught of my special...interest. You are a <If(PlayerParameter(4))>woman<Else/>man</If> just and clement─help me free my brother from the dungeons."
+49,"TEXT_GAIUSC007_00944_DAIMBERT_000_001","My brother was condemned to hard labor for desertion, but the Holy See now declares desertion to be heresy, and his life is forfeit. They speak falsehood with their reasoning, and I no longer have faith that they are one with Halone."
+50,"TEXT_GAIUSC007_00944_DAIMBERT_000_002","Laurence is doubly innocent, for he never deserted. He left his post, yes, but to treat with an Ul'dahn trader for medicine that saved his betrothed's life. Much have I given Ishgard, and willingly, but they shall not take my brother─and they shall not take the truth."
+51,"TEXT_GAIUSC007_00944_DAIMBERT_000_003","Ferdillaix alone guards him, and he is a great one for a nap─especially when he has been kept at the card table all night. I have seen you move like a shadow. Slip in and take his key."
+52,"TEXT_GAIUSC007_00944_DAIMBERT_000_004","Give the dungeon key to Laurence and wish him the speed of the Fury. Tell him I have cached supplies and a disguise in the usual place. Meanwhile, I shall prepare a distraction and cover all our tracks. We shall speak later."
+53,"TEXT_GAIUSC007_00944_DUMMY_000_020",""
+54,"TEXT_GAIUSC007_00944_DUMMYTODO_000_020",""
+55,"TEXT_GAIUSC007_00944_LAURENCE_000_030","You? I am glad to see you again, to bid you thanks for saving my beloved's life. Do you bring news of her today?"
+56,"TEXT_GAIUSC007_00944_LAURENCE_000_040","Daimbert... I thought he had forsworn me, for he came not once to see me. I cursed him in my mind, but his cruelness was kindness, after all... I know of the hiding place he speaks. Tell him I shall miss him, and to preserve himself from harm."
+57,"TEXT_GAIUSC007_00944_LAURENCE_000_041","But I swear to return, to fetch away my lady..."
+58,"TEXT_GAIUSC007_00944_LAURENCE_000_045","Go now and make yourself seen, and seen to be busy. Tell Daimbert I shall slip away when the shadows lie the heaviest on the postern door. Fridgia, my sweet, I will look on your face again in this world..."
+59,"TEXT_GAIUSC007_00944_DAIMBERT_000_050","Look somber. I am telling you of how a jackal ate the cook's cat. Success? Good. When? Hour of the wolf. I'll loose my works then."
+60,"TEXT_GAIUSC007_00944_DAIMBERT_000_051","He must never return. I left him instructions─he shall send for her and I will see she is protected and unpursued. There is only death for him here...<Emphasis>the beast tore the poor animal to shreds, what shame to lose a good ratter...</Emphasis>"
+61,"TEXT_GAIUSC007_00944_DAIMBERT_000_052","To the greenwood, desert, or the sea, anywhere but here. Likely I shall never see him again, but at least he lives...and it's thanks to you. Remember that you spent the past bell seeking Charmine's rosary. It is in your pocket; be seen with her soon."

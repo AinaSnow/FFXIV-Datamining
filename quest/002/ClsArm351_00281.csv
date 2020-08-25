@@ -1,12 +1,12 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSARM351_00281_SEQ_00","甲冑師ギルドのハ・ナンザは、冒険者に頼みたい仕事があるようだ。"
-1,"TEXT_CLSARM351_00281_SEQ_01","ハ・ナンザから依頼を受けた。リムサ・ロミンサの甲冑師ギルドにいる「ハ・ナンザ」に「<Sheet(ItemHQ,　2502,0)/>」を1個見せよう。"
-2,"TEXT_CLSARM351_00281_SEQ_02","ハ・ナンザに<Sheet(ItemHQ,　2502,0)/>を見せた。リムサ・ロミンサのレストラン「ビスマルク」にいる「リングサス」に、「<Sheet(ItemHQ,　2502,0)/>」を1個納品しよう。"
-3,"TEXT_CLSARM351_00281_SEQ_03","リングサスに<Sheet(ItemHQ,　2502,0)/>を納品した。リングサスには満足してもらえたようだ。フライパンの製作については、ハ・ナンザしか信用できなかったというリングサスに信用してもらえることができた。賞賛に恥じぬよう、さらに甲冑師として修業を積もう。
+0,"TEXT_CLSARM351_00281_SEQ_00","Forgemaster H'naanza wishes to assign you a new commission."
+1,"TEXT_CLSARM351_00281_SEQ_01","H'naanza is concerned that the growing animosity between you and Blanstyr will distract you from the improvement of your discipline. In order to focus your mind on more productive matters, the forgemaster has chosen you to craft the steel frypan requested by the eminent culinarian, Master Lyngsath. Once you have made a utensil of sufficient quality, deliver it to H'naanza for appraisal."
+2,"TEXT_CLSARM351_00281_SEQ_02","Your steel frypan has earned the praise of Forgemaster H'naanza. Deliver your finished work to Lyngsath at the Culinarians' Guild."
+3,"TEXT_CLSARM351_00281_SEQ_03","Master Lyngsath appears more than satisfied with your fine-quality frypan. You have joined Forgemaster H'naanza as one of the armorers whom the exacting culinarian is willing to trust in the forging of his cooking utensils.
 
-※甲冑師のレベルが40以上になると、ハ・ナンザから次の甲冑師クエストを受注することができます。"
+※The next armorer quest will be available from H'naanza upon reaching level 40."
 4,"TEXT_CLSARM351_00281_SEQ_04",""
 5,"TEXT_CLSARM351_00281_SEQ_05",""
 6,"TEXT_CLSARM351_00281_SEQ_06",""
@@ -27,8 +27,8 @@ int32,str,str
 21,"TEXT_CLSARM351_00281_SEQ_21",""
 22,"TEXT_CLSARM351_00281_SEQ_22",""
 23,"TEXT_CLSARM351_00281_SEQ_23",""
-24,"TEXT_CLSARM351_00281_TODO_00","ハ・ナンザに<Sheet(ItemHQ,　2502,0)/>を見せる"
-25,"TEXT_CLSARM351_00281_TODO_01","リングサスに<Sheet(ItemHQ,　2502,0)/>を納品"
+24,"TEXT_CLSARM351_00281_TODO_00","Present a steel frypan <Sheet(Addon,9,0)/> to H'naanza."
+25,"TEXT_CLSARM351_00281_TODO_01","Deliver the steel frypan <Sheet(Addon,9,0)/> to Lyngsath."
 26,"TEXT_CLSARM351_00281_TODO_02",""
 27,"TEXT_CLSARM351_00281_TODO_03",""
 28,"TEXT_CLSARM351_00281_TODO_04",""
@@ -51,44 +51,20 @@ int32,str,str
 45,"TEXT_CLSARM351_00281_TODO_21",""
 46,"TEXT_CLSARM351_00281_TODO_22",""
 47,"TEXT_CLSARM351_00281_TODO_23",""
-48,"TEXT_CLSARM351_00281_HNAANZA_000_000","先日は、ブランシュティルをやり込めたんだってね。
-大したもんだ、見直したよ。"
-49,"TEXT_CLSARM351_00281_HNAANZA_000_001","ただ、あいつは懲りないし、悪びれないし、諦めない。
-厄介な奴に目をつけられたもんだね、あんたも。"
-50,"TEXT_CLSARM351_00281_HNAANZA_000_002","でも気になるからって、仕事をおろそかにすんじゃないよ？
-しゃんとしな、あんたに任せたい仕事があるのさ。"
-51,"TEXT_CLSARM351_00281_HNAANZA_000_003","レストラン「ビスマルク」のリングサスの旦那に頼まれてね。
-「<Sheet(ItemHQ,　2502,0)/>」を1個、新調したいんだと。"
-52,"TEXT_CLSARM351_00281_HNAANZA_000_004","フライパンの類ってのは、鎧とかに比べると、
-薄くて小さいせいかしらね……繊細な作業が必要になる。
-集中力がいるんだよ、それも高度な。"
-53,"TEXT_CLSARM351_00281_HNAANZA_000_005","今のあんたは、集中力が欠けていると見た。
-それを取り戻すためにも、この仕事に打ち込んでみな。"
-54,"TEXT_CLSARM351_00281_HNAANZA_000_006","さぁ、リングサスの旦那を待たせるわけにはいかないよ。
-頼んだからね、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。"
-55,"TEXT_CLSARM351_00281_HNAANZA_000_010","「<Sheet(ItemHQ,　2502,0)/>」は完成したかい？
-たった1個だ、のろのろしてると、尻蹴り上げるよ！"
-56,"TEXT_CLSARM351_00281_HNAANZA_000_011","いいね……ズシリとくる、この金属の重さ。
-それに鍛造で作ったとは思えないくらい、厚みも均一だ。
-煮てよし炒めてよし、どんな使い方にも耐えられるね。"
-57,"TEXT_CLSARM351_00281_HNAANZA_000_012","集中力が必要な、硬いスチールプレートの加工作業で、
-この精度を出せるってのは、さすが<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>だ。"
-58,"TEXT_CLSARM351_00281_HNAANZA_000_013","この精度があればこそ、材料へ均一に火が通る……
-リングサスの旦那は、そこにすごくこだわるんだよ。"
-59,"TEXT_CLSARM351_00281_HNAANZA_000_014","そのせいで旦那は、何年かおきにフライパンを使い潰してさ。
-甲冑師ギルドに、代わりを注文するんだけど、
-旦那を満足させられる職人は、なかなかいなくてね。"
-60,"TEXT_CLSARM351_00281_HNAANZA_000_015","今回はあんたに任せるつもりだったが、あの男と揉めただろ？
-争いのあと、集中力を乱していないか心配になったんだよ。
-でも、このフライパンを見るに、杞憂だったようだ。"
-61,"TEXT_CLSARM351_00281_HNAANZA_000_016","この調子で、後輩たちの手本であってくれよ。
-それじゃあ、これを調理師ギルドの
-「リングサス」の旦那に手渡してきな。"
-62,"TEXT_CLSARM351_00281_LYNGSATH_000_020","なに、甲冑師ギルドに依頼していた
-「<Sheet(ItemHQ,　2502,0)/>」を届けに来たと？"
-63,"TEXT_CLSARM351_00281_LYNGSATH_000_021","むぅ、見事な「<Sheet(ItemHQ,　2502,0)/>」だ。
-これならば、微妙な火加減で料理を作り分けられる。
-これを作ったのが、お前なのか？"
-64,"TEXT_CLSARM351_00281_LYNGSATH_000_022","今までは、ハ・ナンザが作ったものでないと
-納得できなかったんだが、今後も安心できるな。
-今後とも、よろしく頼むぞ！"
+48,"TEXT_CLSARM351_00281_HNAANZA_000_000","Greetings, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I hear word you bested Blanstyr in an armorer's contest of skill. An impressive feat, and one of which you should be proud."
+49,"TEXT_CLSARM351_00281_HNAANZA_000_001","But I'm afraid you've made a most troublesome enemy, for he is both persistent and vindictive. As you well know, I speak from bitter experience on that matter."
+50,"TEXT_CLSARM351_00281_HNAANZA_000_002","Rather than dwell on this unpleasant rivalry, however, I would have you focus on your craft. Ready your hammer and pliers, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>─there is much and more to do!"
+51,"TEXT_CLSARM351_00281_HNAANZA_000_003","Master Lyngsath over at the Bismarck has commissioned a new steel frypan. And, as one might expect of the head of the Culinarians' Guild, he accepts only the finest of wares."
+52,"TEXT_CLSARM351_00281_HNAANZA_000_004","Now, compared to pounding out thick, protective plates of armor, cooking utensils─being generally smaller and lighter─require a somewhat more delicate touch. You must bring all of your concentration to bear, lest you risk ruining the entire piece with a single misplaced blow."
+53,"TEXT_CLSARM351_00281_HNAANZA_000_005","In light of recent events, which have no doubt left your mind scattered, I believe a task that fully engages your faculties will prove beneficial."
+54,"TEXT_CLSARM351_00281_HNAANZA_000_006","Let us not keep Master Lyngsath waiting, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. To the forge with you."
+55,"TEXT_CLSARM351_00281_HNAANZA_000_010","Where is that frypan, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>? It is true that you are no longer some rank novice, but do not think your posterior safe from the toe of my boot if you choose to dither and dally!"
+56,"TEXT_CLSARM351_00281_HNAANZA_000_011","Truly, another consummate work. I can find no flaw with its weight or balance; it is not so heavy as to be a struggle to lift, yet it remains sturdy enough to endure the frantic pace of the Bismarck's kitchens."
+57,"TEXT_CLSARM351_00281_HNAANZA_000_012","I trust at this juncture that you comprehend in full my earlier warning─to produce a frypan of this quality would most certainly have required your undivided attention. And I can tell this item received just that─the consistency of the metal's thickness is all the evidence one needs."
+58,"TEXT_CLSARM351_00281_HNAANZA_000_013","This type of precision should not be undervalued. In this case, should the frypan be poorly forged, the heat of its cooking surface will be uneven...and such flaws are unacceptable to an exacting culinarian such as Master Lyngsath."
+59,"TEXT_CLSARM351_00281_HNAANZA_000_014","Even the sturdiest of utensils, however, rarely last him more than a few seasons. It is a struggle to find armorers who can meet his demanding specifications when he turns to our guild for replacements."
+60,"TEXT_CLSARM351_00281_HNAANZA_000_015","I had long intended to assign this commission to you, but your encounter with Blanstyr had me doubting your ability to concentrate. This is one of those rare occasions when I am happy to be proven wrong."
+61,"TEXT_CLSARM351_00281_HNAANZA_000_016","Your uncompromising attention to detail continues to be an inspiration to your colleagues. Ah, and speaking of details, there is one that remains untended: delivering this frypan into Master Lyngsath's hands. I trust you do not need directions to the Culinarians' Guild."
+62,"TEXT_CLSARM351_00281_LYNGSATH_000_020","Ye've come to deliver me new frypan, 'ave ye?"
+63,"TEXT_CLSARM351_00281_LYNGSATH_000_021","Well, now, ain't she a beauty! With this pan, I'll be able to whip up all sorts o' dishes an' not fret about burnin' the middle or undercookin' the edges. Ye say this was <Emphasis>yer</Emphasis> work?"
+64,"TEXT_CLSARM351_00281_LYNGSATH_000_022","Only the forgemaster 'erself 'as ever been able to make utensils what I'd consider worthy o' the Bismarck. Seems like I finally got me another <If(PlayerParameter(4))>craftswoman<Else/>craftsman</If> I can trust. Yer welcome in me kitchen any time, <If(PlayerParameter(4))>lass<Else/>lad</If>."

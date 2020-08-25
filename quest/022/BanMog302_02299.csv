@@ -1,15 +1,16 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANMOG302_02299_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-バール・レス広場のお利口のモグエクは、冒険者に要請があるようだ。"
-1,"TEXT_BANMOG302_02299_SEQ_01","※本クエストには「<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow><UIGlow>01</UIGlow><UIForeground>01</UIForeground> レベルアジャスト」が、
-　設定されています。
+0,"TEXT_BANMOG302_02299_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Mogek the Marvelous gazes at the sky, an exasperated sigh on his lips."
+1,"TEXT_BANMOG302_02299_SEQ_01","Tharl Oom Khash contains some of the purest crystals in the realm, and Mogek, eager to get a hold of some, has sent Mogmenders to procure several chest-loads of these gleaming marvels. However, with their consignment now long overdue, Mogek's patience is wearing thin and, unable to contain his frustration, he bids you investigate the cause of this delay.
 
-モグエクから、サルウーム・カシュでクリスタル掘りをしているモーグリたちを手伝ってほしいと頼まれた。サルウーム・カシュにいる「結晶掘りのモーグリ族」と話そう。"
-2,"TEXT_BANMOG302_02299_SEQ_02","結晶掘りのモーグリ族と話したところ、エーテルにあてられて倒れてしまったため、クリスタルを運ぶための<Sheet(Item,15732,0)/>を作ってほしいと製作を頼まれた。「<Sheet(Item,15758,0)/>」をもとに「<Sheet(Item,15732,0)/>」を2つ製作し、サルウーム・カシュの「結晶集めのモーグリ族」に納品しよう。"
-3,"TEXT_BANMOG302_02299_SEQ_03","結晶集めのモーグリ族に、<Sheet(Item,15732,0)/>を納品した。バール・レス広場の「お利口のモグエク」に報告しよう。"
-4,"TEXT_BANMOG302_02299_SEQ_04","モグエクに報告した。モーグリ族は、エーテルを操るのは上手いのだが、その分エーテルの影響を受けやすいのだと教えてもらえた。"
+※Please note that the difficulty of this quest has been synced to your current level."
+2,"TEXT_BANMOG302_02299_SEQ_02","Upon entering the ruins, you are greeted by a moogle who expresses his relief that you're here. He goes on to explain that a number of his crew has been struck down, overwhelmed by the vast amounts of aether being emanated from the crystals around them. Believing he will be able to see their harvested crystals safely back to Mogek if he can shield the few remaining moogles from their adverse effects, he asks that you fashion an aetheric shielding for their chests. Synthesize the requested items and deliver them to the malaised moogle.
+
+※In the event you lose the materials or the synthesis ends in failure, you may try again by speaking with the muddled moogle."
+3,"TEXT_BANMOG302_02299_SEQ_03","The moogle you hand the aetheric shielding to is beginning to feel dizzy─a telltale sign of aether sickness. He is concerned that if his condition worsens, he will be unable to deliver the crystals he promised Mogek. Upon handing him the shielding you synthesized, however, he perks up, a great deal more confident he can handle the situation."
+4,"TEXT_BANMOG302_02299_SEQ_04","Mogek the Marvelous feels responsible for the complications that arose in Tharl Oom Khash. He tells you of how moogles are especially sensitive to aether and laments the fact that he failed to take this into account before sending his Mogmenders to a cave steeped with it."
 5,"TEXT_BANMOG302_02299_SEQ_05",""
 6,"TEXT_BANMOG302_02299_SEQ_06",""
 7,"TEXT_BANMOG302_02299_SEQ_07",""
@@ -29,9 +30,9 @@ int32,str,str
 21,"TEXT_BANMOG302_02299_SEQ_21",""
 22,"TEXT_BANMOG302_02299_SEQ_22",""
 23,"TEXT_BANMOG302_02299_SEQ_23",""
-24,"TEXT_BANMOG302_02299_TODO_00","結晶掘りのモーグリ族と話す"
-25,"TEXT_BANMOG302_02299_TODO_01","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>製作手帳 蛮族クエスト：<Sheet(Item,15732,0)/>を製作<Else/>結晶集めのモーグリ族に<Sheet(Item,15732,0)/>を納品</If>"
-26,"TEXT_BANMOG302_02299_TODO_02","お利口のモグエクに報告"
+24,"TEXT_BANMOG302_02299_TODO_00","Speak with the muddled moogle."
+25,"TEXT_BANMOG302_02299_TODO_01","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Synthesize aetheric shielding<Else/>Deliver the aetheric shielding to the malaised moogle</If>."
+26,"TEXT_BANMOG302_02299_TODO_02","Report to Mogek the Marvelous."
 27,"TEXT_BANMOG302_02299_TODO_03",""
 28,"TEXT_BANMOG302_02299_TODO_04",""
 29,"TEXT_BANMOG302_02299_TODO_05",""
@@ -53,54 +54,23 @@ int32,str,str
 45,"TEXT_BANMOG302_02299_TODO_21",""
 46,"TEXT_BANMOG302_02299_TODO_22",""
 47,"TEXT_BANMOG302_02299_TODO_23",""
-48,"TEXT_BANMOG302_02299_MOGEK_000_000","冒険者さんは、サルウーム・カシュっていう、
-クリスタルがいっぱいある場所はご存知ですくぽ？"
-49,"TEXT_BANMOG302_02299_MOGEK_000_001","あそこのクリスタルは純度が高く、触媒として最適なのですくぽ。
-なので、仲間が採掘に行ったのですが、
-賢いモグが立案した計画よりも、帰りが遅れているのですくぽ。"
-50,"TEXT_BANMOG302_02299_MOGEK_000_002","冒険者さん、どうか様子を見にいってもらえませんかくぽ？
-「サルウーム・カシュ」には、
-「結晶掘りのモーグリ族」がいるはずですくぽ。"
-51,"TEXT_BANMOG302_02299_DIGGINGMOOGLE02299_000_010","くぽぽぽぽ、もしかして、お手伝いくぽ～！
-冒険者さんが来てくれて、本当に助かったくぽ！"
-52,"TEXT_BANMOG302_02299_DIGGINGMOOGLE02299_000_011","実は、採掘に熱中していたら、
-がんばりすぎた仲間たちが、エーテルに酔ってしまったくぽ……。
-このままじゃ、ヘロヘロで掘ったクリスタルを持ち帰れないくぽ！"
-53,"TEXT_BANMOG302_02299_DIGGINGMOOGLE02299_000_012","そこで、冒険者さんにお願いくぽ。
-クリスタルを運ぶための、
-「<Sheet(Item,15732,0)/>」を用意してほしいくぽ。"
-54,"TEXT_BANMOG302_02299_DIGGINGMOOGLE02299_000_013","具体的に言うと、
-絶霊体の油を塗布した金属箱を作ってもらいたいくぽ。
-冒険者さんなら、お茶の子さいさいだと思うくぽ！"
-55,"TEXT_BANMOG302_02299_DIGGINGMOOGLE02299_000_014","具体的に言うと、
-絶霊体の油を塗布した箱を作ってもらいたいくぽ。
-冒険者さんなら、お茶の子さいさいだと思うくぽ！"
-56,"TEXT_BANMOG302_02299_DIGGINGMOOGLE02299_000_015","具体的に言うと、
-絶霊体の油を作って、容器に塗布してほしいくぽ。
-冒険者さんなら、お茶の子さいさいだと思うくぽ！"
-57,"TEXT_BANMOG302_02299_DIGGINGMOOGLE02299_000_016","材料ならモグが持っているから、
-必要だったら言ってくださいくぽ。
-用意できたら、「結晶集めのモーグリ族」に渡してほしいくぽ！"
-58,"TEXT_BANMOG302_02299_DIGGINGMOOGLE02299_000_017","材料ならモグが持っているから、
-必要だったら言ってくださいくぽ。
-用意できたら、「結晶集めのモーグリ族」に渡してほしいくぽ！"
-59,"TEXT_BANMOG302_02299_DIGGINGMOOGLE02299_000_018","お願いしたものは、もう用意できてるみたいくぽ。
-「結晶集めのモーグリ族」に渡してほしいくぽ！"
-60,"TEXT_BANMOG302_02299_COLLECTIONMOOGLE02299_000_019","掘って集めるのに夢中で、持ち帰ることなんて、
-すっかり忘れちゃってたくぽ……。"
-61,"TEXT_BANMOG302_02299_COLLECTIONMOOGLE02299_000_030","エーテル酔いで、ふーらふら……。
-これじゃあ、クリスタルを持って帰れないくぽ……。"
-62,"TEXT_BANMOG302_02299_COLLECTIONMOOGLE02299_000_031","こ、これは<Sheet(Item,15732,0)/>くぽ！？
-これで、集めたクリスタルも持ち帰れるくぽ！
-どうもありがとうくぽ～♪"
-63,"TEXT_BANMOG302_02299_COLLECTIONMOOGLE02299_000_032","これで、集めたクリスタルも持ち帰れるくぽ！
-どうもありがとうくぽ～♪"
-64,"TEXT_BANMOG302_02299_DIGGINGMOOGLE02299_000_033","掘り過ぎには注意するように、みんなにも言っておくくぽ～！"
-65,"TEXT_BANMOG302_02299_MOGEK_000_040","なんと、エーテル酔いで、フラフラしてたのですくぽ？
-賢いモグの計画に、そんな穴があったとは……。
-倒れた仲間には申し訳ないことをしたくぽ。"
-66,"TEXT_BANMOG302_02299_MOGEK_000_041","モグたちモーグリ族は、エーテルを操るのは上手なのですが、
-その分、エーテルの影響を受けやすいのですくぽ。"
-67,"TEXT_BANMOG302_02299_MOGEK_000_042","しかし、働き過ぎてフラフラとは、いい傾向ですくぽ。
-この調子で、ガンガン働かせて、ズンズン修復を進めますくぽ！
-とにかく助けていただき、ありがとうございましたくぽ。"
+48,"TEXT_BANMOG302_02299_MOGEK_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, have your travels ever taken you to a place called Tharl Oom Khash?"
+49,"TEXT_BANMOG302_02299_MOGEK_000_001","It is no secret the ruins hold some of the clearest crystals in the realm─crystals so pure they are often considered to be the perfect catalysts. As such, I sent some Mogmenders to harvest them."
+50,"TEXT_BANMOG302_02299_MOGEK_000_002","They should have returned by now, with chests overflowing, kupo. The reason they haven't, I imagine, is because they have run into trouble. <sigh> Great adventurer, might you go and see what the problem is?"
+51,"TEXT_BANMOG302_02299_DIGGINGMOOGLE02299_000_010","Kupooo! Thank the gods above Mogek finally sent help!"
+52,"TEXT_BANMOG302_02299_DIGGINGMOOGLE02299_000_011","It's terrible, kupo! We were so fixated on mining crystals that we didn't realize just how thick the air was with aether, until it struck down over half of our squad!"
+53,"TEXT_BANMOG302_02299_DIGGINGMOOGLE02299_000_012","While this puts us in a tenuous position, a few of us have yet to feel its full effects. If we proceed with caution, we might still be able to fulfill Mogek's request!"
+54,"TEXT_BANMOG302_02299_DIGGINGMOOGLE02299_000_013","This is where you come in! Please, if you could craft metal casings for our chests to shield us from the crystals, we would be most grateful."
+55,"TEXT_BANMOG302_02299_DIGGINGMOOGLE02299_000_014","This is where you come in! Please, if you could craft leather cases for the interiors of our chests to shield us from the crystals, we would be most grateful."
+56,"TEXT_BANMOG302_02299_DIGGINGMOOGLE02299_000_015","This is where you come in! Please, if you could make a wax sealant which might prevent any aether within the chests from leaking out, we would be most grateful."
+57,"TEXT_BANMOG302_02299_DIGGINGMOOGLE02299_000_016","Everything you need should be right here, but if there is something you can't find, please don't hesitate to ask!"
+58,"TEXT_BANMOG302_02299_DIGGINGMOOGLE02299_000_017","Yes, yes, of course! Take however much you need, kupo!"
+59,"TEXT_BANMOG302_02299_DIGGINGMOOGLE02299_000_018","This will certainly do the trick! Thank you, <If(PlayerParameter(4))>madam<Else/>sir</If>! Now, do you see the moogle over by our wooden chests? He is charged with organizing our trip back, so please deliver the shielding to him."
+60,"TEXT_BANMOG302_02299_COLLECTIONMOOGLE02299_000_019","Aether sickness is absolutely miserable, kupo! If only we had realized what was happening to us sooner we wouldn't be in this mess."
+61,"TEXT_BANMOG302_02299_COLLECTIONMOOGLE02299_000_030","So dizzy, kupo... Unless we make haste, I, too, will soon be joining those of our ranks who lay listless on the ground. <groan> How am I to transport the crystals back to Mogek in this condition?"
+62,"TEXT_BANMOG302_02299_COLLECTIONMOOGLE02299_000_031","What's this? A protective guard for our chests, you say? Oh, thank you! Thank you, adventurer─we are saved, kupo! "
+63,"TEXT_BANMOG302_02299_COLLECTIONMOOGLE02299_000_032","With this to shield us from the crystals' aether, we should have no problem taking these back!"
+64,"TEXT_BANMOG302_02299_DIGGINGMOOGLE02299_000_033","Now, to work out how we will transport those that are indisposed out of these ruins..."
+65,"TEXT_BANMOG302_02299_MOGEK_000_040","I admit, the possibility of Mogmenders becoming affected by aether sickness completely slipped my mind, kupo. It seems the fault, in this case, lies with me."
+66,"TEXT_BANMOG302_02299_MOGEK_000_041","We moogles are more adept at manipulating our aetheric flow than most. However, as this is less an acquired skill and more a natural talent, we are more like to succumb to overexposure."
+67,"TEXT_BANMOG302_02299_MOGEK_000_042","While there is no denying this was an unfortunate turn of events, I am happy to see that the Mogmenders appear, at least, to be learning the value of hard work!"

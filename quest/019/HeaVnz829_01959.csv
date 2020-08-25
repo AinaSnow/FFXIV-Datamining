@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNZ829_01959_SEQ_00","シャーレアン学士街のブームショクスは、最後のノルマを達成したがっている。"
-1,"TEXT_HEAVNZ829_01959_SEQ_01","ブームショクスの話を聞いた。彼のノルマ達成を手助けするため低地ドラヴァニアの聖モシャーヌ植物園の南東で「<Sheet(BNpcName,3604,0)/>」を討伐して、「<Sheet(EventItem,2001697,0)/>」を3枚入手しよう。"
-2,"TEXT_HEAVNZ829_01959_SEQ_02","<Sheet(EventItem,2001697,0)/>を入手した。シャーレアン学士街の「ブームショクス」に報告しよう。"
-3,"TEXT_HEAVNZ829_01959_SEQ_03","ブームショクスに<Sheet(EventItem,2001697,0)/>を渡した。無事にノルマを達成したようだ。イディルシャイアの「ドライドクス」に、彼のノルマが終わったことを報告しよう。"
-4,"TEXT_HEAVNZ829_01959_SEQ_04","ドライドクスに報告した。新米だというのに、無事ノルマをこなしたことが評価されてしまい、ブームショクスは、引き続き調査任務を任されることになりそうだ……。"
+0,"TEXT_HEAVNZ829_01959_SEQ_00","Boomshox is keen to finish her fieldwork and return to town."
+1,"TEXT_HEAVNZ829_01959_SEQ_01","Boomshox has nearly finished the fieldwork assigned to her by Drydox, but the last item on the list eludes her─she has been instructed to pluck three feathers from the Orn kites that live in the hills behind Saint Mocianne's Arboretum. However, the birds are less keen to part with their feathers than the goblin first imagined. Boomshox begs you to dispatch three of the creatures and pluck their feathers, so that she might finally return to the comfort and safety of Idyllshire."
+2,"TEXT_HEAVNZ829_01959_SEQ_02","You dispatch the Orn kites and pluck their feathers, carefully selecting the finest plume from each bird. Boomshox awaits your return to the north of the Answering Quarter."
+3,"TEXT_HEAVNZ829_01959_SEQ_03","You deliver the Orn kite feathers to Boomshox, completing her allocation of fieldwork. While she puts her results in order, she asks that you return to Idyllshire ahead of her and inform Drydox of her success."
+4,"TEXT_HEAVNZ829_01959_SEQ_04","You report to Drydox, who is amazed that a novice like Boomshox has completed what she believed to be an impossible task. As Boomshox has proven herself to be eminently suited to surveyance, Drydox resolves to entrust all such fieldwork to the novice in future. Just how Boomshox will react to this vote of confidence remains to be seen..."
 5,"TEXT_HEAVNZ829_01959_SEQ_05",""
 6,"TEXT_HEAVNZ829_01959_SEQ_06",""
 7,"TEXT_HEAVNZ829_01959_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_HEAVNZ829_01959_SEQ_21",""
 22,"TEXT_HEAVNZ829_01959_SEQ_22",""
 23,"TEXT_HEAVNZ829_01959_SEQ_23",""
-24,"TEXT_HEAVNZ829_01959_TODO_00","<Sheet(BNpcName,3604,0)/>を倒し<Sheet(EventItem,2001697,0)/>を入手"
-25,"TEXT_HEAVNZ829_01959_TODO_01","ブームショクスに<Sheet(EventItem,2001697,0)/>を渡す"
-26,"TEXT_HEAVNZ829_01959_TODO_02","イディルシャイアのドライドクスに報告"
+24,"TEXT_HEAVNZ829_01959_TODO_00","Defeat Orn kites and collect their feathers."
+25,"TEXT_HEAVNZ829_01959_TODO_01","Deliver the Orn kite feathers to Boomshox."
+26,"TEXT_HEAVNZ829_01959_TODO_02","Report to Drydox in Idyllshire."
 27,"TEXT_HEAVNZ829_01959_TODO_03",""
 28,"TEXT_HEAVNZ829_01959_TODO_04",""
 29,"TEXT_HEAVNZ829_01959_TODO_05",""
@@ -49,35 +49,17 @@ int32,str,str
 45,"TEXT_HEAVNZ829_01959_TODO_21",""
 46,"TEXT_HEAVNZ829_01959_TODO_22",""
 47,"TEXT_HEAVNZ829_01959_TODO_23",""
-48,"TEXT_HEAVNZ829_01959_BOOMSHOX_000_000","シュコォ……シュコォ……
-またまた　またまた　助けてほしい～！
-これが　最後のノルマ　何が何でも　達成したい～！"
-49,"TEXT_HEAVNZ829_01959_BOOMSHOX_000_001","「聖モシャーヌ植物園」　南東にいる　「<Sheet(BNpcName,3604,0)/>」
-バシッと倒して　その羽根を　3枚ばかり　採ってきて～！
-どうかよろしく　頼みたい～！"
-50,"TEXT_HEAVNZ829_01959_BOOMSHOX_000_010","「聖モシャーヌ植物園」　南東にいる　「<Sheet(BNpcName,3604,0)/>」
-バシッと倒して　その羽根を　3枚ばかり　採ってきて～！
-どうかよろしく　頼みたい～！"
-51,"TEXT_HEAVNZ829_01959_BOOMSHOX_000_020","「聖モシャーヌ植物園」　南東にいる　「<Sheet(BNpcName,3604,0)/>」
-バシッと倒して　その羽根を　3枚ばかり　採ってきて～！
-どうかよろしく　頼みたい～！"
-52,"TEXT_HEAVNZ829_01959_BOOMSHOX_000_021","シュコォ……シュコォ……
-やった　やった　ありがとう～！
-これで　ノルマ達成ね～　全部　冒険者のお陰だね～！"
-53,"TEXT_HEAVNZ829_01959_BOOMSHOX_000_022","ようやく　これにて　帰れるよ～！
-ゴブには　やっぱり調査より　機械いじり　向いてるみたい
-安全　安心できる場所　戻って　コツコツ　作業したい～！"
-54,"TEXT_HEAVNZ829_01959_BOOMSHOX_000_023","準備できたら　帰還する～！
-それじゃあ　「ドライドクス」に　報告よろしく～！
-いろいろ　手伝い　ありがとね～！"
-55,"TEXT_HEAVNZ829_01959_BOOMSHOX_000_030","準備できたら　帰還する～！
-それじゃあ　「ドライドクス」に　報告よろしく～！
-いろいろ　手伝い　ありがとね～！"
-56,"TEXT_HEAVNZ829_01959_DRYDOX_000_040","シュコォ……シュコォ……
-新人　様子は　どうだった～？"
-57,"TEXT_HEAVNZ829_01959_DRYDOX_000_041","……なんと　ノルマ達成　果たしたの！？
-はじめは　無理だと思っていたが
-どうやら　調査の才能あり　これは嬉しい　発見よ～！"
-58,"TEXT_HEAVNZ829_01959_DRYDOX_000_042","今後も　調査は　全部任せて
-あたしは　機械いじりに　戻れそう～
-冒険者には　感謝　感謝の　大感謝～！"
+48,"TEXT_HEAVNZ829_01959_BOOMSHOX_000_000","Pshhh... Shkohhh...
+Threetimes is lasttimes, promise! Boomshox nearly finish worklist, but lastlist is unpossible. Boomshox must tailpull feathers from Orn kites, but when tailpull, all Boomshox get is peckeyes!"
+49,"TEXT_HEAVNZ829_01959_BOOMSHOX_000_001","Boomshox is lovegobbie, not fightgobbie. Will uplander fight Orn kites behind planthouse and tailpull feathers from them? Boomshox need three feathers to finish checkwork, then can finally homego!"
+50,"TEXT_HEAVNZ829_01959_BOOMSHOX_000_010","All Boomshox need to finish checkwork is three feathers tailpulled from Orn kites. Can uplander tailpull them for Boomshox? Boomshox want to quickfinish and homego!"
+51,"TEXT_HEAVNZ829_01959_BOOMSHOX_000_020","Boomshox try to tailpull Orn kite feathers, but it's unpossible! For gobbie, anyway─for uplander it is easygame, yes?"
+52,"TEXT_HEAVNZ829_01959_BOOMSHOX_000_021","Pshhh... Shkohhh...
+Bigthanks, uplander! Now all checkwork is boxcrossed!"
+53,"TEXT_HEAVNZ829_01959_BOOMSHOX_000_022","Finally, finally, Boomshox can homego! Boomshox no like checkwork─tinkerwork is much more happytask. Want to go back to safeplace and gearfiddle in notloud!"
+54,"TEXT_HEAVNZ829_01959_BOOMSHOX_000_023","Boomshox put checkwork straightways, then homego to Idyllshire. Will uplander tell Drydox that checkwork of Boomshox is all done? Bigthanks for bighelp, uplander!"
+55,"TEXT_HEAVNZ829_01959_BOOMSHOX_000_030","Boomshox will straightmake checkwork, then backbring to Drydox. Will uplander tell Drydox that Boomshox come home soon? Bigthanks, uplander!"
+56,"TEXT_HEAVNZ829_01959_DRYDOX_000_040","Pshhh... Shkohhh...
+Freshface finish all of checkwork? Uplander is sure freshface said <Emphasis>all</Emphasis> of checkwork?"
+57,"TEXT_HEAVNZ829_01959_DRYDOX_000_041","Then Boomshox even tailpulls Orn kite feathers!? But...that task was unpossible! Drydox only put it in as laughtask! This is bigfind indeed, uplander─freshface Boomshox is natural-born checkworker!"
+58,"TEXT_HEAVNZ829_01959_DRYDOX_000_042","From now on, Drydox leave all checkwork to Boomshox and focus on gearfiddling. Thank you for bighelp, uplander!"

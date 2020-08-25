@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNY809_02118_SEQ_00","イディルシャイアの屈強な冒険者は、通行人を見定めているようだ。"
-1,"TEXT_HEAVNY809_02118_SEQ_01","屈強な冒険者から、ストーンスカイシーという場所の存在を聞いた。低地ドラヴァニアのシャーレアン選者街にいる「道案内する冒険者」と話そう。"
-2,"TEXT_HEAVNY809_02118_SEQ_02","道案内する冒険者から、案内を受けた。ストーンスカイシーでは、己の「敵を倒す力」を試すための、木人討滅戦ができるようだ。力を試したくなったら、再び道案内する冒険者に声をかけよう。"
+0,"TEXT_HEAVNY809_02118_SEQ_00","Your reputation precedes you, if the wide-eyed look the stranger is favoring you with is any indication."
+1,"TEXT_HEAVNY809_02118_SEQ_01","While passing through Idyllshire you find yourself accosted by a boisterous stranger, who marks you as a notorious adventurer prone to picking fights with gods. Though he claims to admire your “work,” he observes that, because you do not undertake such trials by yourself, it must be difficult to tell if you are pulling your weight. He too has such worries, which is why he has been training in Stone, Sky, Sea─a new training ground of some repute, of which a goodly adventurer outside Idyllshire can tell you more."
+2,"TEXT_HEAVNY809_02118_SEQ_02","Although he stumbles more than a few times in his explanation, the guide tells you that the new training ground, which was opened by the Adventurers' Guild, offers a variety of striking dummies which are tailored to the strength of certain legendary beings. By defeating these dummies in the allotted time, you can determine whether or not you have the potential to go toe-to-toe with said beings─that is, if you can survive their onslaught, for unlike their real-life counterparts, the dummies do not hit back..."
 3,"TEXT_HEAVNY809_02118_SEQ_03",""
 4,"TEXT_HEAVNY809_02118_SEQ_04",""
 5,"TEXT_HEAVNY809_02118_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_HEAVNY809_02118_SEQ_21",""
 22,"TEXT_HEAVNY809_02118_SEQ_22",""
 23,"TEXT_HEAVNY809_02118_SEQ_23",""
-24,"TEXT_HEAVNY809_02118_TODO_00","シャーレアン選者街の道案内する冒険者と話す"
+24,"TEXT_HEAVNY809_02118_TODO_00","Speak with the goodly adventurer outside Idyllshire."
 25,"TEXT_HEAVNY809_02118_TODO_01",""
 26,"TEXT_HEAVNY809_02118_TODO_02",""
 27,"TEXT_HEAVNY809_02118_TODO_03",""
@@ -49,40 +49,17 @@ int32,str,str
 45,"TEXT_HEAVNY809_02118_TODO_21",""
 46,"TEXT_HEAVNY809_02118_TODO_22",""
 47,"TEXT_HEAVNY809_02118_TODO_23",""
-48,"TEXT_HEAVNY809_02118_ADVENTURER02118_000_000","ヘイヘイヘ～イ！
-そこのお前、さては……強いな？
-わかるぜぇ～、オレっち、最強ストロングな破壊神だからな！"
-49,"TEXT_HEAVNY809_02118_ADVENTURER02118_000_001","けどさ～、いくらストロングな自信があってもよ？
-仲間と戦ってると、自分の実力を見失うことがあんじゃん？
-「アレ、もしかしてオレっちザコくない？」みたいな。"
-50,"TEXT_HEAVNY809_02118_ADVENTURER02118_000_002","そんな、冒険者たちのプルプル不安ハートを救う、
-とっておきの場所を教えてやるぜ。
-その名も……「ストーンスカイシー」ってんだ！"
-51,"TEXT_HEAVNY809_02118_ADVENTURER02118_000_003","裏表紙橋から低地ドラヴァニアに出たところに、
-「道案内する冒険者」がいるから、詳しくはそいつに聞きな。
-……それじゃ、戦場でまた会おうぜ、<If(PlayerParameter(4))>カワイコちゃん<Else/>ナイスガイ</If>！"
-52,"TEXT_HEAVNY809_02118_ONETIMEGUIDE_000_010","おっ、「ストーンスカイシー」について聞きに来たのか？
-いいぞいいぞ、喜んで案内してやるよ！"
-53,"TEXT_HEAVNY809_02118_ONETIMEGUIDE_000_011","最近、強敵に挑む冒険者が増えたことを受けて、
-冒険者ギルドが開設した、自己研鑽のための場所……
-それが「ストーンスカイシー」だ。"
-54,"TEXT_HEAVNY809_02118_ONETIMEGUIDE_000_012","「揺るぎなく大地に立ち、空に気を巡らせ、
-　海の如く雄大な心を以て戦う……」"
-55,"TEXT_HEAVNY809_02118_ONETIMEGUIDE_000_013","そんなエオルゼアに古くから伝わる武人の心得を体現すべく、
-冒険者たちが、そこで己の技を磨いてるってわけさ。"
-56,"TEXT_HEAVNY809_02118_ONETIMEGUIDE_000_014","戦いにおける強さってのはいろいろあるが、
-ここでは「敵を倒す力」を試すことができる。
-冒険者なら自由に利用できるから、指針のひとつにするといい。"
-57,"TEXT_HEAVNY809_02118_ONETIMEGUIDE_000_015","噂をすれば、ほら……
-また誰かが、「ヤツ」相手に戦いはじめたようだぞ！"
-58,"TEXT_HEAVNY809_02118_ONETIMEGUIDE_000_020","どうだ、見えたか？
-「ストーンスカイシー」で使われる木人は、職人の手によって、
-様々な強敵を想定した強度に仕上げられているんだ。"
-59,"TEXT_HEAVNY809_02118_ONETIMEGUIDE_000_021","木人を破壊するため、己の心技体を研ぎ澄まして戦うさまは、
-さながら「木人討滅戦」だって言われてるよ！"
-60,"TEXT_HEAVNY809_02118_ONETIMEGUIDE_000_022","お前もやってみたいと思ったなら、また声をかけてくれ。
-冒険者ギルドから管理人を任されたこの俺が、
-「ストーンスカイシー」まで案内してやるぜっ！"
-61,"TEXT_HEAVNY809_02118_SYSTEM_000_030","「木人討滅戦」に挑戦可能になりました。
-このコンテンツは、コンテンツファインダーからではなく、
-「道案内する冒険者」に話しかけることで開始できます。"
+48,"TEXT_HEAVNY809_02118_ADVENTURER02118_000_000","Cor, I know you! You're one o' them half-mad 'venturers what roams about pickin' fights with gods and every bugger else! Well met, well met. Love your work!"
+49,"TEXT_HEAVNY809_02118_ADVENTURER02118_000_001","Ah, but you're just one o' them pack o' right crazed killers, am I right? Hells, for all I know, might be they're the ones what do the work while you share in the credit!"
+50,"TEXT_HEAVNY809_02118_ADVENTURER02118_000_002","Now, now, killer─don't take it personally or nothin', but I've seen it before. When it's all blood and shite and explosions, it can be hard to tell if you're pullin' your weight. That's why I've been trainin' up in Stone, Sky, Sea."
+51,"TEXT_HEAVNY809_02118_ADVENTURER02118_000_003","Don't let the daft name fool you. It's a proper trainin' ground, where fightin' folk like me and you can go to refine our killin' prowess. If you've never been, go and look for the goodly fella out past the Backbridge. He'll tell you the rest. You won't regret it!"
+52,"TEXT_HEAVNY809_02118_ONETIMEGUIDE_000_010","You there─good <If(PlayerParameter(4))>madam<Else/>sir</If>! You look like you enjoy bathing in the blood of your enemies. Have you perchance heard about Stone, Sky, Sea?"
+53,"TEXT_HEAVNY809_02118_ONETIMEGUIDE_000_011","You see, as part of an initiative to reduce the number of disputes the Adventurers' Guild has been forced to arbitrate between members who accuse their comrades of not contributing sufficiently to─ Ahem. Let me try again."
+54,"TEXT_HEAVNY809_02118_ONETIMEGUIDE_000_012","“<If(PlayerParameter(4))>She<Else/>He</If> who fights with strength of stone unyielding, breathes deep of boundless sky and embraces serenity of rolling sea, against <If(PlayerParameter(4))>her<Else/>him</If> none can stand.”"
+55,"TEXT_HEAVNY809_02118_ONETIMEGUIDE_000_013","...Sorry, that's what the Doman fellow told me to say. I don't quite understand it myself, but he seemed to think it was all very clever."
+56,"TEXT_HEAVNY809_02118_ONETIMEGUIDE_000_014","Right, so, in essence, we've got these ridiculous contraptions that you attack in whatever manner you deem fit. Each is supposedly tailored to the strength of some legendary beast or being some madman decided to challenge once upon a time."
+57,"TEXT_HEAVNY809_02118_ONETIMEGUIDE_000_015","Speaking of which, I believe one should be dropping in right about...now!"
+58,"TEXT_HEAVNY809_02118_ONETIMEGUIDE_000_020","Apparently, the first time they dropped one of those was an accident. The trainees loved it so much they started doing it all the time, though."
+59,"TEXT_HEAVNY809_02118_ONETIMEGUIDE_000_021","...Right, so! Each is tailored to the strength of a legendary fiend, the idea being that if you can defeat the dummy, you can defeat the fiend. In principle, that is. Dummies don't hit back, after all."
+60,"TEXT_HEAVNY809_02118_ONETIMEGUIDE_000_022","But who gives a fig about any of that, eh!? I nearly forgot the best part: it's free!"
+61,"TEXT_HEAVNY809_02118_SYSTEM_000_030","You now have access to Stone, Sky, Sea. This training ground can be accessed by speaking with the goodly adventurer outside Idyllshire."

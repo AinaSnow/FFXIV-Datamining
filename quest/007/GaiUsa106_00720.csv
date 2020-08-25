@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSA106_00720_SEQ_00","シルフの仮宿のラキシオは、冒険者をまだ認めていないようだ。"
-1,"TEXT_GAIUSA106_00720_SEQ_01","ラキシオのご機嫌をとるため、エモート「つつく」をしよう。"
-2,"TEXT_GAIUSA106_00720_SEQ_02","魔法をかけられてしまったらしい、エモート「自分を見る」をしよう。"
-3,"TEXT_GAIUSA106_00720_SEQ_03","ラキシオのご機嫌をとるため、エモート「称賛する」をしよう。"
-4,"TEXT_GAIUSA106_00720_SEQ_04","ラキシオはご機嫌だ。冒険者はラキシオにもやっと認められたようだ。"
+0,"TEXT_GAIUSA106_00720_SEQ_00","Laxio of Little Solace remains unconvinced of your intentions."
+1,"TEXT_GAIUSA106_00720_SEQ_01","Laxio demands that you obey his every command as proof that you are a friend to the sylphs. First, /poke his back to scratch an itch."
+2,"TEXT_GAIUSA106_00720_SEQ_02","By touching Laxio, you have been afflicted with a sylphic curse that turns one's skin to moss. /examineself and ascertain its dire effect."
+3,"TEXT_GAIUSA106_00720_SEQ_03","The curse was a lie; Laxio was only fooling you. Express your adulation and /congratulate him on his brilliant ruse."
+4,"TEXT_GAIUSA106_00720_SEQ_04","Your sense of humor pleases Laxio, who now welcomes you to Little Solace with wings outspread."
 5,"TEXT_GAIUSA106_00720_SEQ_05",""
 6,"TEXT_GAIUSA106_00720_SEQ_06",""
 7,"TEXT_GAIUSA106_00720_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_GAIUSA106_00720_SEQ_21",""
 22,"TEXT_GAIUSA106_00720_SEQ_22",""
 23,"TEXT_GAIUSA106_00720_SEQ_23",""
-24,"TEXT_GAIUSA106_00720_TODO_00","ラキシオに「つつく」をする"
-25,"TEXT_GAIUSA106_00720_TODO_01","ラキシオをターゲットして「自分を見る」をする"
-26,"TEXT_GAIUSA106_00720_TODO_02","ラキシオに「称賛する」をする"
+24,"TEXT_GAIUSA106_00720_TODO_00","/poke Laxio."
+25,"TEXT_GAIUSA106_00720_TODO_01","/examineself before Laxio."
+26,"TEXT_GAIUSA106_00720_TODO_02","/congratulate Laxio."
 27,"TEXT_GAIUSA106_00720_TODO_03",""
 28,"TEXT_GAIUSA106_00720_TODO_04",""
 29,"TEXT_GAIUSA106_00720_TODO_05",""
@@ -49,34 +49,17 @@ int32,str,str
 45,"TEXT_GAIUSA106_00720_TODO_21",""
 46,"TEXT_GAIUSA106_00720_TODO_22",""
 47,"TEXT_GAIUSA106_00720_TODO_23",""
-48,"TEXT_GAIUSA106_00720_LAXIO_000_000","うちらに挨拶して回ってるのはお前ふっち？
-けっこう踊りが上手だけど、それくらいじゃ
-アタピは仲良くしてあげないふっち。"
-49,"TEXT_GAIUSA106_00720_LAXIO_000_001","仲良くちたいなら、アタピの言うこときくふっち！
-まずは背中がかゆいから掻いてほしいでふっち。
-ちょっと「つつく」くらいで丁度いいふっち。"
-50,"TEXT_GAIUSA106_00720_LAXIO_000_010","早く背中を「つつく」ふっち。
-優しくちないと怒るでふっち。"
-51,"TEXT_GAIUSA106_00720_LAXIO_000_015","ひっかかったでふっち！
-アタピに触ったお前には、
-姿が緑になる魔法をかけたふっち！"
-52,"TEXT_GAIUSA106_00720_LAXIO_000_016","よーく「自分を見る」でふっち。
-緑のマヌケな姿になってるでふっち。"
-53,"TEXT_GAIUSA106_00720_LAXIO_000_020","そうじゃないふっち！
-ちゃんと「つつく」のでふっち。"
-54,"TEXT_GAIUSA106_00720_LAXIO_000_030","緑の魔法は、よくきいてるでふっち。
-よく「自分を見る」でふっち。"
-55,"TEXT_GAIUSA106_00720_LAXIO_000_035","あははは、騙されたふっち。
-緑の魔法はウソふっち！"
-56,"TEXT_GAIUSA106_00720_LAXIO_000_036","アタピは、かなりウソがうまいでふっち？
-「称賛する」といいふっちよ。"
-57,"TEXT_GAIUSA106_00720_LAXIO_000_040","あはははは、そんなことしてもダメふっち。
-それじゃ「自分を見る」ことは、できないふっち。"
-58,"TEXT_GAIUSA106_00720_LAXIO_000_050","すごいでふっち？
-アタピを「称賛する」でふっち。"
-59,"TEXT_GAIUSA106_00720_LAXIO_000_055","そうでふっち。
-アタピはすごいのでふっち。"
-60,"TEXT_GAIUSA106_00720_LAXIO_000_056","お前はおもちろいのでふっち。
-しょうがないから仲良くちてやるでふっち！"
-61,"TEXT_GAIUSA106_00720_LAXIO_000_060","そんなのおもちろくないふっち！
-アタピを「称賛する」のでふっち。"
+48,"TEXT_GAIUSA106_00720_LAXIO_000_000","Walking one may dance many dances, but this one still doesn't like walking ones! Why? Because walking ones don't listen! That's why!"
+49,"TEXT_GAIUSA106_00720_LAXIO_000_001","If walking one wants to be friend to this one, walking one should listen, and listen good! This one has itchy spot on back. Walking one should <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>poke<UIGlow>01</UIGlow><UIForeground>01</UIForeground> it."
+50,"TEXT_GAIUSA106_00720_LAXIO_000_010","This one has itchy spot on back. Walking one should <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>poke<UIGlow>01</UIGlow><UIForeground>01</UIForeground> it. And not too hard! This one has sensitive fibers."
+51,"TEXT_GAIUSA106_00720_LAXIO_000_015","Tee hee! Walking one fell into trap! Touching this one turns walking ones' skin into moss!"
+52,"TEXT_GAIUSA106_00720_LAXIO_000_016","Tee hee! Mossy one's skin turns greener and greener! Mossy one should <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>examine self<UIGlow>01</UIGlow><UIForeground>01</UIForeground> to see how silly mossy one has become!"
+53,"TEXT_GAIUSA106_00720_LAXIO_000_020","Do walking one's ears not hear? This one said walking one should <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>poke<UIGlow>01</UIGlow><UIForeground>01</UIForeground> this one's back!"
+54,"TEXT_GAIUSA106_00720_LAXIO_000_030","Tee hee! Mossy one's skin turns greener and greener! Mossy one should <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>examine self<UIGlow>01</UIGlow><UIForeground>01</UIForeground>!"
+55,"TEXT_GAIUSA106_00720_LAXIO_000_035","Hee hee hee! Walking one is so silly! There is no curse, silly one!"
+56,"TEXT_GAIUSA106_00720_LAXIO_000_036","This one tricked silly one good, yes? This one is smart. Silly one should <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>congratulate<UIGlow>01</UIGlow><UIForeground>01</UIForeground> this one for being so very smart."
+57,"TEXT_GAIUSA106_00720_LAXIO_000_040","Does walking one's brain turn to moss, too? This one said mossy one should <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>examine self<UIGlow>01</UIGlow><UIForeground>01</UIForeground>. What is mossy one waiting for?"
+58,"TEXT_GAIUSA106_00720_LAXIO_000_050","This one is smart. Silly one should <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>congratulate<UIGlow>01</UIGlow><UIForeground>01</UIForeground> this one for being so very smart."
+59,"TEXT_GAIUSA106_00720_LAXIO_000_055","That's right, silly one! This one is very, very smart one. Silly one is smart to know this."
+60,"TEXT_GAIUSA106_00720_LAXIO_000_056","Silly one makes this one laugh. This one likes to laugh. Maybe silly one is not so bad, after all."
+61,"TEXT_GAIUSA106_00720_LAXIO_000_060","Silly one is no fun! This one tricked silly one. Silly one should <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>congratulate<UIGlow>01</UIGlow><UIForeground>01</UIForeground> this one for being so very smart."

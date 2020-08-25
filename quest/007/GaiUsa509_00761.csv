@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSA509_00761_SEQ_00","不滅隊のギシルベールト少闘佐は、仮面の男を探している冒険者に頼みごとをしたいらしい。"
-1,"TEXT_GAIUSA509_00761_SEQ_01","ギシルベールトの部下が、仮面の男を見ているかもしれない。差し入れの「<Sheet(EventItem,2000607,0)/>」を、リトルアラミゴの南の駐屯地にいる不滅隊の隊士3名に渡し、情報を聞き出そう。"
-2,"TEXT_GAIUSA509_00761_SEQ_02","<Sheet(EventItem,2000607,0)/>を渡して聞きこみをした。仮面の男はやはり、アラミゴ人と何かしらのつながりがあるようだ。リトルアラミゴの「ギシルベールト少闘佐」に報告しよう。"
-3,"TEXT_GAIUSA509_00761_SEQ_03","これ以上の情報を獲得するためには、アラミゴ人たちから聞くしかないようだ。仮面の男とアラミゴ人……いったい何を話していたのだろうか。"
+0,"TEXT_GAIUSA509_00761_SEQ_00","Gisilbehrt would like to aid in your manhunt."
+1,"TEXT_GAIUSA509_00761_SEQ_01","Gisilbehrt of the Immortal Flames believes that one of his lookouts may have seen the man you seek. That they might be more forthcoming, he provides you with cups of sweet Thanalan tea to distribute among his men at the outpost to the south."
+2,"TEXT_GAIUSA509_00761_SEQ_02","Based on the scant information you acquired from the sentries, it would seem that Lahabrea is in some way connected to Little Ala Mhigo. Return to Gisilbehrt and share with him what you have learned."
+3,"TEXT_GAIUSA509_00761_SEQ_03","Who was it that was speaking with Lahabrea, and what was the nature of their conversation? If you are to make further progress in your investigation, you must somehow gain the trust of the Ala Mhigan refugees."
 4,"TEXT_GAIUSA509_00761_SEQ_04",""
 5,"TEXT_GAIUSA509_00761_SEQ_05",""
 6,"TEXT_GAIUSA509_00761_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSA509_00761_SEQ_21",""
 22,"TEXT_GAIUSA509_00761_SEQ_22",""
 23,"TEXT_GAIUSA509_00761_SEQ_23",""
-24,"TEXT_GAIUSA509_00761_TODO_00","不滅隊の隊士に「<Sheet(EventItem,2000607,0)/>」を渡す"
-25,"TEXT_GAIUSA509_00761_TODO_01","ギシルベールト少闘佐に報告"
+24,"TEXT_GAIUSA509_00761_TODO_00","Deliver cups of tea to the lookouts."
+25,"TEXT_GAIUSA509_00761_TODO_01","Report to Gisilbehrt."
 26,"TEXT_GAIUSA509_00761_TODO_02",""
 27,"TEXT_GAIUSA509_00761_TODO_03",""
 28,"TEXT_GAIUSA509_00761_TODO_04",""
@@ -49,44 +49,22 @@ int32,str,str
 45,"TEXT_GAIUSA509_00761_TODO_21",""
 46,"TEXT_GAIUSA509_00761_TODO_22",""
 47,"TEXT_GAIUSA509_00761_TODO_23",""
-48,"TEXT_GAIUSA509_00761_GISILBEHRT_000_000","私はギシルベールト、ここの警備を任されている。
-グンドバルドと話していたようだが、問題でもあったのか？"
-49,"TEXT_GAIUSA509_00761_GISILBEHRT_000_001","……ふむ、怪しい「仮面の男」を追っていると。
-よりにもよって、このリトルアラミゴで人探しとは
-ずいぶん難儀な話だな。"
-50,"TEXT_GAIUSA509_00761_GISILBEHRT_000_002","ここのアラミゴ人たちは、同胞以外に寄りつかない。
-私たち「不滅隊」だって、食糧援助の契約がなきゃ、
-寝ている間に荒野へポイさ。"
-51,"TEXT_GAIUSA509_00761_GISILBEHRT_000_003","外様のよしみで協力してやりたいが……。
-ふむ、南のキャンプでアマルジャ族を見張っていた部下が、
-その男を見ているかもしれんな。"
-52,"TEXT_GAIUSA509_00761_GISILBEHRT_000_004","ちょうど差し入れにするつもりだった
-「<Sheet(EventItem,2000607,0)/>」がある。
-これを渡せば、話もしやすかろう。"
-53,"TEXT_GAIUSA509_00761_OSRIC_000_010","なんだぁ？
-悪いが、余計なおしゃべりする体力はないぞ。"
-54,"TEXT_GAIUSA509_00761_OSRIC_000_011","気が利くじゃないか！
-……なに、怪しい奴を探してるって？
-それならアラミゴ人に紛れこんでるかもな。"
-55,"TEXT_GAIUSA509_00761_OSRIC_000_012","どいつも死人みたいなツラしやがってさ。
-最近、妙にソワソワしてるみたいだしな……。
-そろって悪事に手を出してても、俺ぁ驚かないね。"
-56,"TEXT_GAIUSA509_00761_YAYAZUKE_000_020","すみませんが、大事な監視の任務中ですので……。"
-57,"TEXT_GAIUSA509_00761_YAYAZUKE_000_021","これはこれは……。
-仮面をつけている人なら、巡回中に見ましたよ。
-男かどうかまではわかりませんが。"
-58,"TEXT_GAIUSA509_00761_YAYAZUKE_000_022","アラミゴ人と話していたから、
-顔を隠して逃げてきた流民かと……違うんですか？"
-59,"TEXT_GAIUSA509_00761_ANGRYRIVER_000_030","お前、アマルジャ族じゃないなッ！？
-ならばッ、用はないッ！！"
-60,"TEXT_GAIUSA509_00761_ANGRYRIVER_000_031","うぉぉぉッ！！
-差し入れだったらッ、大歓迎ッ！"
-61,"TEXT_GAIUSA509_00761_ANGRYRIVER_000_032","仮面の男ッ！？
-知らんッ、俺たちが監視を命じられているのは、
-憎き黒光りアマルジャ族だけだッッ！！"
-62,"TEXT_GAIUSA509_00761_GISILBEHRT_000_040","部下たちの話は聞けたか？
-……あまりいい証言は無かったようだな。
-やはり、アラミゴ人の協力が必要か。"
-63,"TEXT_GAIUSA509_00761_GISILBEHRT_000_041","こうなっては、一筋縄ではいかないぞ。
-それでも、その男を追うというなら助言はするが……。
-よく考えてみるんだな。"
+48,"TEXT_GAIUSA509_00761_GISILBEHRT_000_000","Well met, adventurer. I'm Gisilbehrt, head of security here at Little Ala Mhigo. I heard tell that you had business with Gundobald. Knowing the bristly old bear, I don't doubt he told you to bugger off."
+49,"TEXT_GAIUSA509_00761_GISILBEHRT_000_001","Owing to their hardships, the refugees don't trust anyone but themselves. Not even my men and I can get so much as a word of thanks out of them despite watching the place day and night."
+50,"TEXT_GAIUSA509_00761_GISILBEHRT_000_002","But thanks or no, I try to help my fellow man when I can, and you seem a decent sort. If you tell me what's brought you here, might be as I can lend a hand."
+51,"TEXT_GAIUSA509_00761_GISILBEHRT_000_003","...On the trail of a masked villain, you say? Hmmm, can't say that sounds familiar, but I have men on lookout for Amalj'aa to the south of here. If there's been any suspicious activity, they are like to have seen it."
+52,"TEXT_GAIUSA509_00761_GISILBEHRT_000_004","I had a mind to take them each a cup of sweet Thanalan tea so as to lift their spirits. If you were to run this little errand in my stead, they'd be all the more willing to tell you what they know."
+53,"TEXT_GAIUSA509_00761_OSRIC_000_010","Who the hells're you? I'm tryin' to conserve energy here, so leave me alone."
+54,"TEXT_GAIUSA509_00761_OSRIC_000_011","Well, ain't ye considerate! My thanks, friend!
+...What's that? A masked villain? Hidin' among the refugees, like as not."
+55,"TEXT_GAIUSA509_00761_OSRIC_000_012","Me compatriots as live here go about as though they're dead on their feet. 'Tis near impossible to tell what's on their minds. For all I know, they're <Emphasis>all</Emphasis> up to no good."
+56,"TEXT_GAIUSA509_00761_YAYAZUKE_000_020","Shoo, shoo! Don't bother me! If the Amalj'aa overrun us, I'm blaming <Emphasis>you</Emphasis>!"
+57,"TEXT_GAIUSA509_00761_YAYAZUKE_000_021","For me? You shouldn't have!
+...Sorry? A suspicious masked man? As a matter of fact, I caught glimpse of someone fitting that description during patrol."
+58,"TEXT_GAIUSA509_00761_YAYAZUKE_000_022","Well, I couldn't quite make out whether it was a man or not, what with the mask and the robe. But assuming it <Emphasis>was</Emphasis> a he, he was talking with some Ala Mhigans. I assumed he was one of them."
+59,"TEXT_GAIUSA509_00761_ANGRYRIVER_000_030","You there! Are you an Amalj'aa? No? Then carry on!"
+60,"TEXT_GAIUSA509_00761_ANGRYRIVER_000_031","Ahhh, this sophisticated aroma! It has been forever since I had a drop of sweet Thanalan! I'm going to enjoy this!"
+61,"TEXT_GAIUSA509_00761_ANGRYRIVER_000_032","What? A masked man? Don't know, don't care! Unless he's got dark scaly skin, stands ten fulms tall, and has the face of a lizard, then I don't give a mummer's fart!"
+62,"TEXT_GAIUSA509_00761_GISILBEHRT_000_040","Ah, you're back. So, did my lookouts have aught to share with you?
+...Hmmm, that doesn't sound like much to go by. "
+63,"TEXT_GAIUSA509_00761_GISILBEHRT_000_041","If you're to get any further in your investigation, seems to me you'll need the cooperation of the Ala Mhigans. For this, you'll need to win their trust, and that won't be an easy task."

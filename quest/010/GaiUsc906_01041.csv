@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSC906_01041_SEQ_00","キャンプ・ブルーフォグのラフォルド二等闘兵は、冒険者に依頼したいことがあるようだ。"
-1,"TEXT_GAIUSC906_01041_SEQ_01","ダラガブの爪近くに、<Sheet(BNpcName,270,0)/>という凶暴な魔物が出現するらしい。「<Sheet(EObj,2002257,0)/>」で待機し、現れた「<Sheet(BNpcName,270,0)/>」を倒して「<Sheet(EventItem,2000788,0)/>」を入手しよう。"
-2,"TEXT_GAIUSC906_01041_SEQ_02","<Sheet(EventItem,2000788,0)/>を入手した。青燐精製所にいる「メメゾフ一等闘兵」に渡そう。"
-3,"TEXT_GAIUSC906_01041_SEQ_03","メメゾフ一等闘兵に<Sheet(EventItem,2000788,0)/>を渡した。ちょうど材料が足りずに困っていたようだ。"
+0,"TEXT_GAIUSC906_01041_SEQ_00","Rafold hopes to turn a curse into a cure."
+1,"TEXT_GAIUSC906_01041_SEQ_01","Rafold has asked you to harvest a grenade claw. Lie in ambush at Dalamud's Talons for a grenade, and slay the creature for its appendage."
+2,"TEXT_GAIUSC906_01041_SEQ_02","You have obtained a grenade claw. Deliver it to Memezofu at the Ceruleum Processing Plant."
+3,"TEXT_GAIUSC906_01041_SEQ_03","Memezofu is thankful for your delivery, as he had just exhausted his supply of grenade claws."
 4,"TEXT_GAIUSC906_01041_SEQ_04",""
 5,"TEXT_GAIUSC906_01041_SEQ_05",""
 6,"TEXT_GAIUSC906_01041_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSC906_01041_SEQ_21",""
 22,"TEXT_GAIUSC906_01041_SEQ_22",""
 23,"TEXT_GAIUSC906_01041_SEQ_23",""
-24,"TEXT_GAIUSC906_01041_TODO_00","<Sheet(EObj,2002257,0)/>で待機して<Sheet(BNpcName,270,0)/>から<Sheet(EventItem,2000788,0)/>を入手"
-25,"TEXT_GAIUSC906_01041_TODO_01","メメゾフ一等闘兵に<Sheet(EventItem,2000788,0)/>を渡す"
+24,"TEXT_GAIUSC906_01041_TODO_00","Lurk at the specified location and slay a grenade for its claw."
+25,"TEXT_GAIUSC906_01041_TODO_01","Deliver the grenade claw to Memezofu."
 26,"TEXT_GAIUSC906_01041_TODO_02",""
 27,"TEXT_GAIUSC906_01041_TODO_03",""
 28,"TEXT_GAIUSC906_01041_TODO_04",""
@@ -49,25 +49,13 @@ int32,str,str
 45,"TEXT_GAIUSC906_01041_TODO_21",""
 46,"TEXT_GAIUSC906_01041_TODO_22",""
 47,"TEXT_GAIUSC906_01041_TODO_23",""
-48,"TEXT_GAIUSC906_01041_RAFOLD_000_000","最近「ダラガブの爪」付近で、非常に凶暴な魔物……
-「<Sheet(BNpcName,270,0)/>」の目撃情報が寄せられています。"
-49,"TEXT_GAIUSC906_01041_RAFOLD_000_001","厄介ではありますが、これはチャンスでもあります。
-奴からは「<Sheet(EventItem,2000788,0)/>」という
-強力な錬金薬の素が採れるのです。"
-50,"TEXT_GAIUSC906_01041_RAFOLD_000_002","冒険者殿の腕前を見込んで、お願いいたします。
-どうか、<Sheet(BNpcName,270,0)/>を倒し、
-「<Sheet(EventItem,2000788,0)/>」を手に入れてください！"
-51,"TEXT_GAIUSC906_01041_RAFOLD_000_003","そして「青燐精製所」にいる、
-「メメゾフ一等闘兵」に渡してほしいのです。
-彼の薬は、これからの戦いにおいて必要になりますから！"
-52,"TEXT_GAIUSC906_01041_DUMMY_000_000","指定地点で待機をすると、<Sheet(BNpcName,270,0)/>がpopするので、倒す。錬金薬の元を入手×1"
-53,"TEXT_GAIUSC906_01041_TODO_000_000","（★未使用／削除予定★）"
-54,"TEXT_GAIUSC906_01041_MEMEZOFU_000_010","うう、困った……錬金薬の材料が足りないぞ。
-薬の在庫も心細いし……うう。"
-55,"TEXT_GAIUSC906_01041_MEMEZOFU_000_011","これは「<Sheet(EventItem,2000788,0)/>」じゃないか！
-ちょうど切らして困っていたんだ！
-ラフォルドが、君に頼んでくれたんだね。"
-56,"TEXT_GAIUSC906_01041_MEMEZOFU_000_012","ありがとう、助かったよ！
-よし、皆の役に立つ薬を作ってみせるね！
-ここからは僕の腕の見せどころだ！"
-57,"TEXT_GAIUSC906_01041_POP_MESSAGE_000","敵の気配を感じた！！"
+48,"TEXT_GAIUSC906_01041_RAFOLD_000_000","Danger lurks near Dalamud's Talons, as the winds whisper the presence of grenades."
+49,"TEXT_GAIUSC906_01041_RAFOLD_000_001","No petty pest to purge, but the price of pain pays a prize─grenade claws."
+50,"TEXT_GAIUSC906_01041_RAFOLD_000_002","While I'm unfamiliar with the reagent's exact medicinal effect, I do know it serves to pacify my alchemist; an effect alone I deem invaluable."
+51,"TEXT_GAIUSC906_01041_RAFOLD_000_003","And we will certainly need salves in the days ahead. When you have slain the grenade and collected its claw, I would ask that you deliver it to Memezofu directly."
+52,"TEXT_GAIUSC906_01041_DUMMY_000_000",""
+53,"TEXT_GAIUSC906_01041_TODO_000_000",""
+54,"TEXT_GAIUSC906_01041_MEMEZOFU_000_010","No, no, no... I'm afraid this won't do at all. How is one to perform alchemy without reagents? I cannot simply make something out of nothing!"
+55,"TEXT_GAIUSC906_01041_MEMEZOFU_000_011","Ah, yes, a grenade claw, and just when I'd run out! Good to know my pleas to Rafold were not entirely in vain."
+56,"TEXT_GAIUSC906_01041_MEMEZOFU_000_012","I shall tend to the task of formulating potions at once. On behalf of the several lives you've saved bringing me this, I thank you."
+57,"TEXT_GAIUSC906_01041_POP_MESSAGE_000","You sense a hostile presence!"

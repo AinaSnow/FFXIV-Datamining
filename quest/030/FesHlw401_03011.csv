@@ -1,17 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_FESHLW401_03011_SEQ_00","※本クエストは、期間限定のクエストとなります。
+0,"TEXT_FESHLW401_03011_SEQ_00","An investigator for the Adventurers' Guild appears to be more than a little concerned.
+※This quest is available for a limited time only."
+1,"TEXT_FESHLW401_03011_SEQ_01","It is a day like any other in Gridania, except that a wolfman from Doma has wandered into the city and expressed a desire to join the Continental Circus. Said circus is, of course, no place for any good-hearted individual─beastman or otherwise─and the investigator is desperate to save the Lupin from a life of devilry. For lack of a better plan, he begs you to join the Continental Circus along with the Doman traveler.
 
-グリダニアの冒険者ギルドの調査員は、冒険者に相談したいことがあるようだ。"
-1,"TEXT_FESHLW401_03011_SEQ_01","※本クエストは、シーズナルイベント開催中にかぎり、
-　受注、進行できます。
-　開催期間終了後は進行できませんので、ご注意ください。
-　期間等の詳細についてはLodestoneをご覧ください。
-
-冒険者ギルドの調査員から、ドマから来た人狼族が、コンチネンタル・サーカスへの入団を希望しており困っていると相談された。コンチネンタル・サーカスは魔物の集団のため、仲間にさせるわけにはいかないという。冒険者もサーカスへ体験入団し、人狼族が人と仲良くなれるよう、手伝ってほしいと頼まれた。口笛粉屋前で、人狼族の「ソウガ」と話そう。"
-2,"TEXT_FESHLW401_03011_SEQ_02","ソウガへ、一緒にサーカスへ入団することを話した。人狼族のソウガは、狼のような見た目で人を怖がらせてしまうが、それを活かしてサーカスの役に立ちたいという。入団の意思を伝えに、ミィ・ケット野外音楽堂の「ダンチョー」と話そう。"
-3,"TEXT_FESHLW401_03011_SEQ_03","ダンチョーに入団の意思を伝えた。そのままの姿では、冒険者は人に驚かれにくいだろうと、ウルフの仮装衣装が入った<If(PlayerParameter(4))><Sheet(Item,21105,0)/><Else/><Sheet(Item,21104,0)/></If>をもらった。仮装衣装を着て、ウルフになりきろう！"
+※Please note that you will be unable to complete this quest after the seasonal event has ended. For details, please check the Lodestone."
+2,"TEXT_FESHLW401_03011_SEQ_02","Soga, the Lupin come from distant Doma, is pleased to make your acquaintance and pleasantly surprised that you do not regard him with fear and uncertainty like so many others. He explains that he wishes to turn his uncommon appearance to his advantage by joining the troupe, where he believes he will be welcomed with open arms and be rich in “nakama” or some such. Yet all who wish to become a member of the Continental Circus must first receive the blessing of the Impresario..."
+3,"TEXT_FESHLW401_03011_SEQ_03","The Impresario is delighted to receive you and Soga, stating that he is more than willing to permit you to join. First, however, you must complete a simple task. To wit, you must frighten several Gridanians for reasons the Impresario is quick to obfuscate. While Soga may use his gods-given gifts to accomplish this, you must rely on other means provided by the Continental Circus: a guise of the werewolf, which you may use to assume a rather more beastly form!"
 4,"TEXT_FESHLW401_03011_SEQ_04",""
 5,"TEXT_FESHLW401_03011_SEQ_05",""
 6,"TEXT_FESHLW401_03011_SEQ_06",""
@@ -32,8 +28,8 @@ int32,str,str
 21,"TEXT_FESHLW401_03011_SEQ_21",""
 22,"TEXT_FESHLW401_03011_SEQ_22",""
 23,"TEXT_FESHLW401_03011_SEQ_23",""
-24,"TEXT_FESHLW401_03011_TODO_00","ソウガと話す"
-25,"TEXT_FESHLW401_03011_TODO_01","ダンチョーと話す"
+24,"TEXT_FESHLW401_03011_TODO_00","Speak with Soga."
+25,"TEXT_FESHLW401_03011_TODO_01","Speak with the Impresario."
 26,"TEXT_FESHLW401_03011_TODO_02",""
 27,"TEXT_FESHLW401_03011_TODO_03",""
 28,"TEXT_FESHLW401_03011_TODO_04",""
@@ -56,88 +52,36 @@ int32,str,str
 45,"TEXT_FESHLW401_03011_TODO_21",""
 46,"TEXT_FESHLW401_03011_TODO_22",""
 47,"TEXT_FESHLW401_03011_TODO_23",""
-48,"TEXT_FESHLW401_03011_INVESTIGATOR03011_000_000","あなたは、以前ご協力いただいた……！
-今回も、とても困ったことが起きているんですが、
-相談に乗っていただけますか？"
-49,"TEXT_FESHLW401_03011_INVESTIGATOR03011_100_000","見たところ、経験を積んだ冒険者のようですね。
-いま、とても困ったことが起きているんですが、
-相談に乗っていただけますか？"
-50,"TEXT_FESHLW401_03011_INVESTIGATOR03011_000_001","実は……ドマからやってきた「人狼族」が、
-エオルゼアの人と仲良くなることを目的に、
-「コンチネンタル・サーカス」へ入団したいと言っているのです！"
-51,"TEXT_FESHLW401_03011_INVESTIGATOR03011_000_002","確かに、あのサーカスは「守護天節」を盛り上げるため、
-エオルゼア三都市で出し物を行い、人を楽しませています。
-……ですが、入団を勧められるような一座ではありません。"
-52,"TEXT_FESHLW401_03011_INVESTIGATOR03011_000_003","それというのも……彼らは「人」ではないのです！
-魔物が跋扈する恐怖の現象、「魔人の夜」を再現するため、
-人の姿に化けている魔物たちなのですよ。"
-53,"TEXT_FESHLW401_03011_INVESTIGATOR03011_000_004","とはいえ、大きな悪さをするわけでもないので、
-事を荒立てないよう、陰から監視するだけに留めているのです。"
-54,"TEXT_FESHLW401_03011_INVESTIGATOR03011_000_005","もちろん、件の人狼族にも、この事実は伝えたのですが、
-冗談と思われたのか、信じてもらえませんでした。
-このままでは、遠方からの客人が魔物の仲間になってしまいます！"
-55,"TEXT_FESHLW401_03011_INVESTIGATOR03011_000_006","……そうだ、サーカスは人手不足で、体験入団者を募集しているとか。
-あなたも彼に同行して、本入団を決める前に、
-森都の民と仲良くなれるよう、手伝っていただけませんか！？"
-56,"TEXT_FESHLW401_03011_INVESTIGATOR03011_000_007","彼も、民と仲良くなれれば、入団のことは考えなくなるでしょう。
-件の人狼族「ソウガ」は、口笛粉屋の前で待たせていますので、
-協力していただけるようでしたら、話してきてもらえますか？"
-57,"TEXT_FESHLW401_03011_SOGA_000_010","アンタ……オレの姿が、怖くねぇのか？"
-58,"TEXT_FESHLW401_03011_Q1_000_000","何と答える？"
-59,"TEXT_FESHLW401_03011_A1_000_001","獣人は見慣れている"
-60,"TEXT_FESHLW401_03011_A1_000_002","実は怖い"
-61,"TEXT_FESHLW401_03011_SOGA_000_011","獣人を見慣れてんなんて、珍しいヒトもいるんだな！
-アンタと話すことができて、すごく嬉しいぜ。
-こっちに来てから、ヒトには怯えられてばかりだったから……。"
-62,"TEXT_FESHLW401_03011_SOGA_000_012","そうか……でも、返事してくれただけで嬉しいぜ。
-こっちに来てから、ヒトには怯えられてばかりだったから……。"
-63,"TEXT_FESHLW401_03011_SOGA_000_013","ドマが解放されて自由になったもんで、旅をしに来たが、
-エオルゼアのヒトは、人狼族に慣れてねぇらしいな……。
-それで、オレになんの用だ？"
-64,"TEXT_FESHLW401_03011_SOGA_000_014","レヴナンツトールにいる知人を頼って、ここまで来たが、
-エオルゼアのヒトは、人狼族に慣れてねぇらしいな……。
-それで、オレになんの用だ？"
-65,"TEXT_FESHLW401_03011_SOGA_000_015","アンタも一緒に、サーカスに入団してくれるって！？
-妙な冒険者に引きとめられて、ここで待てと言われてたが、
-ほかの入団希望者を紹介するってことだったんだな！"
-66,"TEXT_FESHLW401_03011_SOGA_000_016","オレは見ての通り、狼のような姿をしてっだろ？
-そのせいで、ヒトを怖がらせちまうんだが、
-あのサーカスは、怖がらせることで、ヒトを楽しませてんだ！"
-67,"TEXT_FESHLW401_03011_SOGA_000_017","だから、サーカスに入れば、オレも役に立てて、
-エオルゼアのヒトとも仲良くなれっかと思ってさ。
-どうしても入団したかったから、よかったぜ。"
-68,"TEXT_FESHLW401_03011_SOGA_000_018","それに……アンタも一緒に入団するってことは、
-オレにとって、「仲間」だって思っていいんだよな？"
-69,"TEXT_FESHLW401_03011_SOGA_000_019","ありがとう……！
-こっちに来て、やっと新しい友達ができたぜ！"
-70,"TEXT_FESHLW401_03011_SOGA_000_020","アンタの名前は……<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>か！
-それじゃあ、さっそく「ダンチョー」さんのとこへ行こうぜ！
-ミィ・ケット野外音楽堂にいるらしいからよ！"
-71,"TEXT_FESHLW401_03011_INVESTIGATOR03011_000_025","「ソウガ」は、口笛粉屋の前にいるはずです。
-彼と共に、サーカスへ入団していただけるようでしたら、
-話してきてもらえますか？"
-72,"TEXT_FESHLW401_03011_IMPHEAD_000_030","あなたが、入団したいという冒険者ですか……。
-以前、見たことがある気がしますが……
-記憶違いだと思うことにしましょう。"
-73,"TEXT_FESHLW401_03011_IMPHEAD_000_031","あなたが、入団したいという冒険者ですか……。
-ふむ……動機はわかりませんが、
-同じ種であるヒトを驚かせたいという、その気概を買いましょう。"
-74,"TEXT_FESHLW401_03011_IMPHEAD_000_032","わがサーカスは「フシギな舞踏会」の準備に忙しく、
-猫の手、狼の手も借りたい状態なのです。
-手伝ってくれるのならば、誰でも歓迎しますヨ！"
-75,"TEXT_FESHLW401_03011_SOGA_000_033","それじゃあ、サーカスに入団させてくれんだな！
-オレは何をしたらいいんだ！？"
-76,"TEXT_FESHLW401_03011_IMPHEAD_000_034","まあまあ、まずは体験入団、お手伝いからですヨ。
-何人かのヒトを驚かせて、少しでも恐怖の力を集め……
-いえ、楽しませることが任務です。"
-77,"TEXT_FESHLW401_03011_IMPHEAD_000_035","しかし、人狼クンはいいですが……
-あなたは、そのままの姿では驚かれにくいですネ。"
-78,"TEXT_FESHLW401_03011_IMPHEAD_000_036","ですが、こういうときのために、わがサーカスでは、
-ウルフの仮装衣装を用意してあるのです！
-これを一式、あなたにあげましょう！"
-79,"TEXT_FESHLW401_03011_SOGA_000_045","ここに来る前に、入団希望の手紙を送ってたんだ。
-<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>のことも軽く話しておいたから、
-「ダンチョー」さんに挨拶してくれ！"
-80,"TEXT_FESHLW401_03011_INVESTIGATOR03011_000_046","ソウガと話してきてくださったんですね、ご協力感謝します！
-「ダンチョー」は、ミィ・ケット野外音楽堂にいますから、
-そちらにも話をしてきてください。"
+48,"TEXT_FESHLW401_03011_INVESTIGATOR03011_000_000","Ah, it's you! The kind adventurer who helped us before! I do hope you'll forgive me for imposing upon you once more, but we have something of an unprecedented situation here..."
+49,"TEXT_FESHLW401_03011_INVESTIGATOR03011_100_000","You are an adventurer, yes, and an experienced one besides? Ah, Twelve be praised! We could do with the assistance of a <If(PlayerParameter(4))>woman<Else/>man</If> such as yourself..."
+50,"TEXT_FESHLW401_03011_INVESTIGATOR03011_000_001","You see, a wolfman claiming to have come from distant Doma wishes to join the Continental Circus!"
+51,"TEXT_FESHLW401_03011_INVESTIGATOR03011_000_002","Now, don't get me wrong─it's a fine thing the troupe does, going around Eorzea's great cities and livening up the various All Saints' Wake festivities. But I would never encourage someone to throw their lot in with the fiends!"
+52,"TEXT_FESHLW401_03011_INVESTIGATOR03011_000_003","And that's no exaggeration either. Mark me, friend: they're demons! Honest-to-gods monsters who delight in terrorizing decent folk like you and me!"
+53,"TEXT_FESHLW401_03011_INVESTIGATOR03011_000_004","...Though, to be fair, that mostly amounts to the occasional prank, like stealing your socks or spilling your drink when you're not looking. Still, there's no telling when they'll get a taste for blacker deeds!"
+54,"TEXT_FESHLW401_03011_INVESTIGATOR03011_000_005","I told all this and more to the wolfman, of course, but he just looked at me like I'd been quaffing milkroot all morning. Aye, at this rate, I fear there's nothing we can do to save him from a life of devilry..."
+55,"TEXT_FESHLW401_03011_INVESTIGATOR03011_000_006","Wait, I've got an idea! It's a little convoluted, but...if you and our Far Eastern friend joined the Continental Circus <Emphasis>together</Emphasis>, you could keep him from committing any truly unspeakable evils!"
+56,"TEXT_FESHLW401_03011_INVESTIGATOR03011_000_007","Yes, yes, that makes about as much sense as anything. By the by, the wolfman's name is Soga. He's quite sociable, so don't be hesitant to, say, wander over to the Whistling Miller and approach him without prompting."
+57,"TEXT_FESHLW401_03011_SOGA_000_010","You...you do not fear me, Eorzean?"
+58,"TEXT_FESHLW401_03011_Q1_000_000","What will you say?"
+59,"TEXT_FESHLW401_03011_A1_000_001","I've had dealings with beastmen before."
+60,"TEXT_FESHLW401_03011_A1_000_002","Oh, I'm quaking in my boots."
+61,"TEXT_FESHLW401_03011_SOGA_000_011","Would that more of your kinsmen could say the same. Most here regard me with suspicion, if not outright fear."
+62,"TEXT_FESHLW401_03011_SOGA_000_012","Are you, now... Nevertheless, you have mustered the courage to speak with me, and for that I am grateful. Others make a concerted effort to pretend I am not here, as if my very presence is an affront to their Matron."
+63,"TEXT_FESHLW401_03011_SOGA_000_013","I have found myself with more freedom to travel since the liberation of my homeland, and so I thought to come to Eorzea. Such is the reason for my being here, but what is yours for seeking me out?"
+64,"TEXT_FESHLW401_03011_SOGA_000_014","With the aid of my countrymen I came to Gridania by way of Revenant's Toll. Such is the reason for my being here, but what is yours for seeking me out?"
+65,"TEXT_FESHLW401_03011_SOGA_000_015","You too wish to join the Continental Circus? Ho, what fortune! I thought perhaps you were an associate of that nosy adventurer who attempted to deter me from my course..."
+66,"TEXT_FESHLW401_03011_SOGA_000_016","Wheresoever I go in these lands, I am feared. Men avert their gaze, women cross the road to avoid me, children burst into tears."
+67,"TEXT_FESHLW401_03011_SOGA_000_017","That, however, is my experience as a humble traveler. As a member of the Continental Circus, on the other hand, I would be lauded for this “talent,” would I not?"
+68,"TEXT_FESHLW401_03011_SOGA_000_018","No longer would I be scorned and alone─nay, I would be rich in “nakama,” as the Hingans say. We too could be nakama!"
+69,"TEXT_FESHLW401_03011_SOGA_000_019","Ah, but I am getting ahead of myself! I have yet to even ask you your name."
+70,"TEXT_FESHLW401_03011_SOGA_000_020","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, is it? It is an honor and a pleasure. Now, then─let us go and greet the Impresario!"
+71,"TEXT_FESHLW401_03011_INVESTIGATOR03011_000_025","It shouldn't be too hard to find Soga. Just stand around at a crossroads or some such and keep an eye out for, well...a wolfman!"
+72,"TEXT_FESHLW401_03011_IMPHEAD_000_030","Well, well, well. Two wanderers who wish to join our esteemed troupe of tricksters. Yet what is this strange sense of familiarity? Perchance naught more than a figment of my imagination, but...never mind."
+73,"TEXT_FESHLW401_03011_IMPHEAD_000_031","Well, well, well. Two wanderers who wish to join our esteemed troupe of tricksters. I cannot help but wonder at your motives, but it matters not in the end─if you truly yearn to strike fear into the hearts of your fellow man, that is enough."
+74,"TEXT_FESHLW401_03011_IMPHEAD_000_032","This year we will throw open the doors of our haunted manor once more, and as we have our hands full with the preparations, we would be fools to turn away you and your wolfman associate."
+75,"TEXT_FESHLW401_03011_SOGA_000_033","Then you will permit us to join the Continental Circus? Just like that? Kami be praised! I am grateful to you beyond measure, good sir, and should be glad to assist you in any way you desire!"
+76,"TEXT_FESHLW401_03011_IMPHEAD_000_034","My, such enthusiasm! Very well, let us begin with a simple task─a test of your skills, rather, in which you shall attempt to frighten several subjects, sowing seeds of terror into their─ahem─thereby showing them a jolly good time."
+77,"TEXT_FESHLW401_03011_IMPHEAD_000_035","Afterwards, you may then encourage them to join in the fun as well, though... Hmm. That said, your comparatively plain disposition will not serve you well in this endeavor."
+78,"TEXT_FESHLW401_03011_IMPHEAD_000_036","Fortunately, we have the means to bestow upon you rather simliar wolflike features! Take it, with our blessings!"
+79,"TEXT_FESHLW401_03011_SOGA_000_045","I wanted to let that adventurer know not to worry about me, so I gave a missive to one of those little postmen earlier. It twirled and said, “Thank you, kupo!”"
+80,"TEXT_FESHLW401_03011_INVESTIGATOR03011_000_046","Soga wrote me a letter saying that the two of you were off to meet the Impresario? I'll leave you to it, then."

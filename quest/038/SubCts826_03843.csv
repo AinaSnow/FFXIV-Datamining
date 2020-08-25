@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBCTS826_03843_SEQ_00","漁師ギルドのフィルスヌーは、冒険者に耳寄りな話があるようだ。"
-1,"TEXT_SUBCTS826_03843_SEQ_01","フィルスヌーから、大型漁船の話を聞いた。リムサ・ロミンサの巴術士ギルド付近にあるフェリードックで、「フールサギル」と話そう。"
-2,"TEXT_SUBCTS826_03843_SEQ_02","フールサギルから、大型漁船「エンデバー号」の案内を聞いた。乗船したいときは、受付であるドリスクトータに話しかけ、釣りに繰り出そう。"
+0,"TEXT_SUBCTS826_03843_SEQ_00","Fhilsnoe has news that should be of interest to any self-respecting fisher, no matter how seasoned."
+1,"TEXT_SUBCTS826_03843_SEQ_01","Fhilsnoe, sensing your love for the ocean and the animals within it, informs you of a new vessel constructed by the Fishermen's Guild, reportedly equipped for long voyages into the open sea. If you wish to know more of this ship, he bids you travel to the ferry docks near the Arcanists' Guild and speak with Captain Foerzagyl."
+2,"TEXT_SUBCTS826_03843_SEQ_02","Captain Foerzagyl eagerly welcomes you to the <Emphasis>Endeavor</Emphasis>, pride of the Fishermen's Guild. After explaining the rules, Captain Foerzagyl presents you with a set of lures to use on your maiden voyage, and welcomes you to join the crew whenever you like. Speak with Dryskthota to board the ship and embark on a grand fishing adventure."
 3,"TEXT_SUBCTS826_03843_SEQ_03",""
 4,"TEXT_SUBCTS826_03843_SEQ_04",""
 5,"TEXT_SUBCTS826_03843_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_SUBCTS826_03843_SEQ_21",""
 22,"TEXT_SUBCTS826_03843_SEQ_22",""
 23,"TEXT_SUBCTS826_03843_SEQ_23",""
-24,"TEXT_SUBCTS826_03843_TODO_00","フェリードックのフールサギルと話す"
+24,"TEXT_SUBCTS826_03843_TODO_00","Speak with Foerzagyl at the ferry docks."
 25,"TEXT_SUBCTS826_03843_TODO_01",""
 26,"TEXT_SUBCTS826_03843_TODO_02",""
 27,"TEXT_SUBCTS826_03843_TODO_03",""
@@ -49,62 +49,28 @@ int32,str,str
 45,"TEXT_SUBCTS826_03843_TODO_21",""
 46,"TEXT_SUBCTS826_03843_TODO_22",""
 47,"TEXT_SUBCTS826_03843_TODO_23",""
-48,"TEXT_SUBCTS826_03843_FHILSNOE_000_000","やあ、駆け出し漁師の<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>じゃないか。
-まだ見ぬ魚を求め、各地の漁場を巡っていこう……。
-そんな野望に燃えているであろう君に、耳寄りな話があるよ！"
-49,"TEXT_SUBCTS826_03843_FHILSNOE_000_005","やあ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>じゃないか。
-最近ギルドは、君が各地であげた釣果の話で持ちきりさ。
-そんな評判の漁師である君に、耳寄りな話があるよ！"
-50,"TEXT_SUBCTS826_03843_FHILSNOE_000_010","この度、漁師ギルドで、遠方まで釣りに繰り出せるよう、
-大型漁船を運行させることになったんだ！"
-51,"TEXT_SUBCTS826_03843_FHILSNOE_000_011","出港場所は、巴術士ギルド近くの港「フェリードック」さ。
-興味があるなら、船長の「フールサギル」に、
-話を聞いてごらんよ。"
-52,"TEXT_SUBCTS826_03843_FHILSNOE_000_020","出港場所は、巴術士ギルド近くの港「フェリードック」さ。
-興味があるなら、船長の「フールサギル」に、
-話を聞いてごらんよ。"
-53,"TEXT_SUBCTS826_03843_DRYSKTHOTA_000_025","乗船希望の方ですか？
-私は出港の受付係でして、
-横にいるのが、船長の「フールサギル」さんですよ。"
-54,"TEXT_SUBCTS826_03843_FOERZAGYL_000_040","おお！　乗船希望の漁師さんかい？
-俺は、大型漁船「エンデバー号」の船長フールサギル。
-歓迎するぜ、<If(PlayerParameter(4))>姉ちゃん<Else/>兄ちゃん</If>！"
-55,"TEXT_SUBCTS826_03843_FOERZAGYL_000_041","よーし……せっかくだから、次の航海では航路なんて気にせず、
-風の行くまま気の向くままに、まだ見ぬ大物を求めて……！"
-56,"TEXT_SUBCTS826_03843_DRYSKTHOTA_000_042","ちょ、ちょっと、船長！　ダメに決まってるでしょう！"
-57,"TEXT_SUBCTS826_03843_DRYSKTHOTA_100_042","一隻しかない船で、そんな自由気ままな航海されたら、
-いつまでも、この港に戻ってこられないじゃないですか！"
-58,"TEXT_SUBCTS826_03843_DRYSKTHOTA_000_043","失礼しました……。
-私は、漁師ギルドのドリスクトータです。"
-59,"TEXT_SUBCTS826_03843_DRYSKTHOTA_000_044","うちのギルドは、ワワラゴ親分といいフールサギル船長といい、
-釣り好きになればなるほど、なぜか時間に鈍感になるので……
-私が見張りも兼ねて、乗船受付と案内を担当しているんですよ。"
-60,"TEXT_SUBCTS826_03843_DRYSKTHOTA_000_045","ギルドが管理する大型漁船、その名も「エンデバー号」……。
-こちらは、決まった時間に出港し、
-いくつかある航路のひとつを巡って、この港に戻ってきます。"
-61,"TEXT_SUBCTS826_03843_DRYSKTHOTA_000_046","航路は、出港時刻によって異なりますから、
-乗船前に確認したいときは、私にお声がけください。
-「エンデバー号運行表」をお見せいたしますので。"
-62,"TEXT_SUBCTS826_03843_DRYSKTHOTA_000_047","あと……時間厳守は船長だけでなく、乗船する漁師も同様です。
-受付時間を過ぎたら、もう乗船はできませんので、
-そのときは次の乗船受付までお待ちくださいね！"
-63,"TEXT_SUBCTS826_03843_FOERZAGYL_100_048","いざ乗り込んだら、あとは釣りを楽しむのみ！
-よければ、この「<Sheet(Item,29717,0)/>」を使ってくれ。
-様々な種類の魚がかかる、初心者におすすめの釣り餌だ！"
-64,"TEXT_SUBCTS826_03843_FOERZAGYL_101_048","そいつがあれば一度の航海くらいは保つはずだ。
-ほかの釣り餌も、フェリードックと船上の両方で買えるからな。
-餌によって釣れる魚も変わるんで、いろいろ試してみるといい。"
-65,"TEXT_SUBCTS826_03843_FOERZAGYL_000_048","陸の上では、ドリスクトータに頼りきりだが……
-船に乗り込めば、釣り場や航路の案内は船長である俺の役目だ。
-船上では俺の言葉に耳を傾けつつ、釣りまくってくれ！"
-66,"TEXT_SUBCTS826_03843_DRYSKTHOTA_000_049","それでは、エンデバー号をよろしくお願いします。
-乗船したいときや、もっと詳しい説明が聞きたいときは、
-どうぞ、私に声をかけてくださいね！"
-67,"TEXT_SUBCTS826_03843_SYSTEM_000_070","大型漁船「エンデバー号」の乗船受付は、
-（地球時間）2時間おきに「15分間」行うことができます。"
-68,"TEXT_SUBCTS826_03843_SYSTEM_000_071","なお、乗船受付を行った人数が「24」人に達するごとに、
-船が用意され出港していきます。"
-69,"TEXT_SUBCTS826_03843_FHILSNOE_000_049","（★未使用／削除予定★）"
-70,"TEXT_SUBCTS826_03843_FHILSNOE_000_040","（★未使用／削除予定★）"
-71,"TEXT_SUBCTS826_03843_FHILSNOE_000_041","（★未使用／削除予定★）"
-72,"TEXT_SUBCTS826_03843_FHILSNOE_000_048","（★未使用／削除予定★）"
+48,"TEXT_SUBCTS826_03843_FHILSNOE_000_000","Well, if it ain't <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! You may have just taken up your rod, but anyone can see you've got the keen eye of a fisherman, and I reckon you're looking to make that eye keener still. Bigger fish, more exotic locales─aye, that's what we all seek, ain't it? And it just so happens, I can tell you how to find them!"
+49,"TEXT_SUBCTS826_03843_FHILSNOE_000_005","Why, if it ain't the fabled <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! I've heard tell you're a big fisher in a small pond, and by the looks of it the rumors are true. But what if I told you there were bigger ponds out there, and bigger fish besides? I reckon you'd be eager to know where, and it so happens I can tell you!"
+50,"TEXT_SUBCTS826_03843_FHILSNOE_000_010","You see, the Fishermen's Guild has just finished constructin' a vast boat equipped for voyages on the high seas."
+51,"TEXT_SUBCTS826_03843_FHILSNOE_000_011","Far as I know, Captain Foerzagyl is still lookin' for a band of fishermen adventurous enough to brave the deepest fishin' hole of them all. If you think you've the stones for it, I'm sure he'll be glad to take you on."
+52,"TEXT_SUBCTS826_03843_FHILSNOE_000_020","If you're lookin' to dip your fishin' hook in the high seas, speak with Captain Foerzagyl over at the docks near the Arcanists' Guild. "
+53,"TEXT_SUBCTS826_03843_DRYSKTHOTA_000_025","You wish to board with us? Well then, you've come to the right place. I'm in charge of processing the new crew, and the man next to me is Captain Foerzagyl. "
+54,"TEXT_SUBCTS826_03843_FOERZAGYL_000_040","Another daring soul come to join our crew, eh? Then let me be the first to welcome you to the <Emphasis>Endeavor</Emphasis>!"
+55,"TEXT_SUBCTS826_03843_FOERZAGYL_000_041","Now, this ain't your regular fishin' boat. We sail it where we please, holdin' only the course the wind provides to us. Aye, that's the only way we can see the unseen, know the unknown!"
+56,"TEXT_SUBCTS826_03843_DRYSKTHOTA_000_042","Captain Foerzagyl, if I may..."
+57,"TEXT_SUBCTS826_03843_DRYSKTHOTA_100_042","The <Emphasis>Endeavor</Emphasis> <Emphasis>is</Emphasis> the guild's only ship of this magnitude, and if we, ah, as you say, sail only where the wind pleases to take us, we may not ever return to this port. The guild may not look favorably upon such...liberal use of its property."
+58,"TEXT_SUBCTS826_03843_DRYSKTHOTA_000_043","Ah, my apologies for forgoing an introduction. I'm Dryskthota, sent from the Fishermen's Guild to oversee this venture. Why am I here when the ship already has a captain, you ask? "
+59,"TEXT_SUBCTS826_03843_DRYSKTHOTA_000_044","Well, as you may already know, members of our trade─Master Wawalago and Captain Foerzagyl included─seem to have difficulties managing time. I suppose the concept becomes something of an afterthought when one becomes so focused on water's surface. Regardless, I am here to ensure the ship adheres to its schedule, both by managing its finances and ensuring new crew members board smoothly."
+60,"TEXT_SUBCTS826_03843_DRYSKTHOTA_000_045","The <Emphasis>Endeavor</Emphasis> shall embark upon any number of predetermined routes, each of which have this port as their final destination. Rest assured, if you fail to join one voyage, the ship shall return before long."
+61,"TEXT_SUBCTS826_03843_DRYSKTHOTA_000_046","The route we travel will be determined by our departure time, and you may speak with me if you wish to know the route before boarding."
+62,"TEXT_SUBCTS826_03843_DRYSKTHOTA_000_047","Pray bear in mind that we must keep to a strict schedule. We cannot take on more crew members after we have begun boarding, and there are no exceptions to this rule. Even for captains."
+63,"TEXT_SUBCTS826_03843_FOERZAGYL_100_048","Aye, aye, I hear you. When we board the ship is when we get to the excitin' part: fishin'! Here, take these lures. They're certain to attract somethin' worth displayin' on your wall─or at the very least worth eatin'!"
+64,"TEXT_SUBCTS826_03843_FOERZAGYL_101_048","Should be enough to last for one voyage at least. If you're lookin' for other kinds of bait, you can buy it here on the docks or on the ship. Try to switch it up now and then, because if you only use the same bait, you're only gonna keep catchin' the same fish, and that ain't why we do this, is it?"
+65,"TEXT_SUBCTS826_03843_FOERZAGYL_000_048","And one last thing: while Dryskthota here may be in charge of the particulars on land, once we're on the ship it's my word you'll heed! So when I say we're fishin' here or we're sailin' there, I won't hear no objections. As long as we're clear on that, I believe there'll be bounteous fishin' for all."
+66,"TEXT_SUBCTS826_03843_DRYSKTHOTA_000_049","And with that, the <Emphasis>Endeavor</Emphasis> is yours to board. If you wish to enter the ship, or if you would like a more detailed explanation of what it is we do, you only need ask."
+67,"TEXT_SUBCTS826_03843_SYSTEM_000_070","Potential crew members may register to board the <Emphasis>Endeavor</Emphasis> in 15-minute intervals occurring every 2 hours (Earth time)."
+68,"TEXT_SUBCTS826_03843_SYSTEM_000_071","However, the <Emphasis>Endeavor</Emphasis> will depart early if the number of crew members reaches 24."
+69,"TEXT_SUBCTS826_03843_FHILSNOE_000_049",""
+70,"TEXT_SUBCTS826_03843_FHILSNOE_000_040",""
+71,"TEXT_SUBCTS826_03843_FHILSNOE_000_041",""
+72,"TEXT_SUBCTS826_03843_FHILSNOE_000_048",""

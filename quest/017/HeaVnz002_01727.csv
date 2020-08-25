@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNZ002_01727_SEQ_00","イシュガルド・ランディングのクリオは、書類に目を落として困ったように唸っている。"
-1,"TEXT_HEAVNZ002_01727_SEQ_01","クリオから、飛空艇の試験飛行の計画書を届けてほしいと頼まれた。イシュガルドの聖ガンリオル占星院にいる「ジャンヌキナル」に「<Sheet(EventItem,2001820,0)/>」を渡そう。"
-2,"TEXT_HEAVNZ002_01727_SEQ_02","ジャンヌキナルに<Sheet(EventItem,2001820,0)/>を渡した。ドラゴン族の活動周期と日程が重なっているそうで、修理を急いでほしいとの伝言を頼まれた。イシュガルドのスカイスチール機工房にいる「フロムロー」と話そう。"
-3,"TEXT_HEAVNZ002_01727_SEQ_03","フロムローと話した。修理を急ぐよう伝えると、できるだけのことはすると答え、そのことをクリオにも伝えるよう頼まれた。イシュガルド・ランディングの「クリオ」に報告しよう。"
-4,"TEXT_HEAVNZ002_01727_SEQ_04","クリオに報告した。飛空艇を飛ばすには、さまざまな苦労があるようだ。"
+0,"TEXT_HEAVNZ002_01727_SEQ_00","Cliaux cannot help but frown as she reads over her work."
+1,"TEXT_HEAVNZ002_01727_SEQ_01","Cliaux is preparing a test flight for an airship currently under repair, and needs her plan delivered right away. Take the flight plan to Jannequinard at the Athenaeum Astrologicum."
+2,"TEXT_HEAVNZ002_01727_SEQ_02","You deliver the flight plan to Jannequinard. Seeing the dates listed for the test flight leaves him gravely concerned, as he predicts significant dragon activity at that time. Rather than delaying the shipment, he suggests hastening repairs on the airship. Speak with Fromelaut at the Skysteel Manufactory and see what can be done about the repairs."
+3,"TEXT_HEAVNZ002_01727_SEQ_03","You relay Jannequinard's suggestion to rush repairs on the airship, leaving Fromelaut taken aback. Though he is hesitant to do so, he agrees to do whatever is necessary to make repairs as quickly as possible. Report to Cliaux and tell her it will be ready on the appointed day."
+4,"TEXT_HEAVNZ002_01727_SEQ_04","Cliaux thanks you for your help in setting her plans into motion. She tells you that conflicts with the Dravanian Horde make even simple airship deliveries a trying task, but the cooperation of the astrologians and machinists, under the guidance of the Holy See, has ensured safe passage through the skies of Ishgard."
 5,"TEXT_HEAVNZ002_01727_SEQ_05",""
 6,"TEXT_HEAVNZ002_01727_SEQ_06",""
 7,"TEXT_HEAVNZ002_01727_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_HEAVNZ002_01727_SEQ_21",""
 22,"TEXT_HEAVNZ002_01727_SEQ_22",""
 23,"TEXT_HEAVNZ002_01727_SEQ_23",""
-24,"TEXT_HEAVNZ002_01727_TODO_00","ジャンヌキナルに<Sheet(EventItem,2001820,0)/>を渡す"
-25,"TEXT_HEAVNZ002_01727_TODO_01","スカイスチール機工房のフロムローと話す"
-26,"TEXT_HEAVNZ002_01727_TODO_02","イシュガルド・ランディングのクリオに報告"
+24,"TEXT_HEAVNZ002_01727_TODO_00","Deliver the airship flight plan to Jannequinard."
+25,"TEXT_HEAVNZ002_01727_TODO_01","Speak with Fromelaut."
+26,"TEXT_HEAVNZ002_01727_TODO_02","Report to Cliaux."
 27,"TEXT_HEAVNZ002_01727_TODO_03",""
 28,"TEXT_HEAVNZ002_01727_TODO_04",""
 29,"TEXT_HEAVNZ002_01727_TODO_05",""
@@ -49,48 +49,20 @@ int32,str,str
 45,"TEXT_HEAVNZ002_01727_TODO_21",""
 46,"TEXT_HEAVNZ002_01727_TODO_22",""
 47,"TEXT_HEAVNZ002_01727_TODO_23",""
-48,"TEXT_HEAVNZ002_01727_CLIAUX_000_000","ひとつ頼まれごとをきいてくれるか？
-現在、修理中の物資輸送用飛空艇があるのだが、
-それの試験飛行計画を立てているんだ。"
-49,"TEXT_HEAVNZ002_01727_CLIAUX_000_001","そのため、安全な航行の段取りを整えなければならなくてね。
-「聖ガンリオル占星院」に行き、
-「ジャンヌキナル」に、この「<Sheet(EventItem,2001820,0)/>」を渡してほしい。"
-50,"TEXT_HEAVNZ002_01727_CLIAUX_000_010","「聖ガンリオル占星院」に行き、
-「ジャンヌキナル」に、その「<Sheet(EventItem,2001820,0)/>」を渡してほしい。"
-51,"TEXT_HEAVNZ002_01727_JANNEQUINARD_000_020","ごきげんうるわしゅう存じます。
-星々の導きを聞きにこられたのですか？"
-52,"TEXT_HEAVNZ002_01727_JANNEQUINARD_000_021","これはこれは、クリオ様の使いでしたか。
-しかしまた、ギリギリの日取りの計画ですね……。
-ドラゴン族の活動周期と重なっているようです。"
-53,"TEXT_HEAVNZ002_01727_JANNEQUINARD_000_022","航行中の飛空艇にとって、
-ドラゴン族との遭遇は死活問題でしてね。"
-54,"TEXT_HEAVNZ002_01727_JANNEQUINARD_000_023","星を観測し、ドラゴン族の活動周期を予測する占星術士が、
-飛空艇の航行予定を確認するのです。"
-55,"TEXT_HEAVNZ002_01727_JANNEQUINARD_000_024","しかし、輸送状況を鑑みると、遅らせるのは厳しそうですね。
-「スカイスチール機工房」の「フロムロー」様に、
-修理を急げないかとお伝えいただけませんか？"
-56,"TEXT_HEAVNZ002_01727_JANNEQUINARD_000_030","「スカイスチール機工房」の「フロムロー」様に、
-修理を急げないかとお伝えいただけませんか？"
-57,"TEXT_HEAVNZ002_01727_FROMELAUT_000_040","……ううむ、修理を急げと。
-そう簡単に言われましても……。"
-58,"TEXT_HEAVNZ002_01727_FROMELAUT_100_040","我々、「スカイスチール機工房」では、
-四大名家の一角、「アインハルト家」の管轄のもと、
-バリスタやカノン砲といった、対竜兵器の開発を行っています。"
-59,"TEXT_HEAVNZ002_01727_FROMELAUT_000_041","もちろん、近年エオルゼアに流入した魔導技術を用い、
-飛空艇の建造や修理を行うのも、我が工房の役目。
-急げと言われれば急ぎますが……。"
-60,"TEXT_HEAVNZ002_01727_FROMELAUT_000_042","とはいえ、相手がドラゴン族となれば、仕方ありませんね。
-できるかぎりのことはしましょう。
-「クリオ」さんにも、そのようにお伝えください。"
-61,"TEXT_HEAVNZ002_01727_FROMELAUT_000_050","とはいえ、相手がドラゴン族となれば、仕方ありませんね。
-できるかぎりのことはしましょう。
-「クリオ」さんにも、そのようにお伝えください。"
-62,"TEXT_HEAVNZ002_01727_CLIAUX_000_060","……ありがとう、事情はわかったよ。
-わざわざ、あちこち行ってもらって悪かったね。
-だが、飛空艇を飛ばすのも、一苦労だってよくわかったろう？"
-63,"TEXT_HEAVNZ002_01727_CLIAUX_000_061","氷壁の先のクルザス西部高地や、アバラシア雲海に渡るには、
-どうしたって、飛空艇頼りになりがちでね。
-ところが航行中をドラゴン族に襲われたら、イチコロだ。"
-64,"TEXT_HEAVNZ002_01727_CLIAUX_000_062","そんなこんなで、ランディングでは教皇庁の指導の下、
-占星術士や機工士の力を借りて、
-慎重に飛空艇を運用しているのさ。"
+48,"TEXT_HEAVNZ002_01727_CLIAUX_000_000","You've the look of someone in need of a task. Well, it just so happens I am looking for a helping hand. One of our delivery airships is under repairs, and we're in the midst of preparing a test flight."
+49,"TEXT_HEAVNZ002_01727_CLIAUX_000_001","Ensuring a safe flight path is of the utmost importance, and I need someone to take this flight plan to Jannequinard at the Athenaeum Astrologicum. I would be ever grateful if you could take it to him."
+50,"TEXT_HEAVNZ002_01727_CLIAUX_000_010","We cannot afford for anything to go awry with this test. Please see this plan to Jannequinard immediately. You will find him at the Athenaeum Astrologicum."
+51,"TEXT_HEAVNZ002_01727_JANNEQUINARD_000_020","Greetings and welcome to the Athenaeum Astrologicum. Might I ask what drew you here to this place of learning?"
+52,"TEXT_HEAVNZ002_01727_JANNEQUINARD_000_021","Ah, a missive from Miss Cliaux? Another test flight, I see. And it leaves us pressed for time... Our knowledge of the dragons' hunting cycles indicates they will be quite active around this time."
+53,"TEXT_HEAVNZ002_01727_JANNEQUINARD_000_022","I need not tell you what will happen should any of our airships encounter them."
+54,"TEXT_HEAVNZ002_01727_JANNEQUINARD_000_023","That is why our astrologians must interpret the stars for signs of Dravanian activity before airships are permitted leave."
+55,"TEXT_HEAVNZ002_01727_JANNEQUINARD_000_024","Hmmm... But delaying this shipment would have grave repercussions. Our only option is to hasten repairs on the airship. Pray speak with Fromelaut at the Skysteel Manufactory and see if there is aught he can do."
+56,"TEXT_HEAVNZ002_01727_JANNEQUINARD_000_030","If this test is to be conducted in a timely manner, they will have to be quick about the repairs. Speak with Fromelaut about this. You can find him at the Skysteel Manufactory."
+57,"TEXT_HEAVNZ002_01727_FROMELAUT_000_040","Hasten repairs of the airship? Easier said than done, my friend."
+58,"TEXT_HEAVNZ002_01727_FROMELAUT_100_040","We primarily oversee the production of dragon-slaying weapons such as ballistas and Bertha cannons under orders from House Haillenarte."
+59,"TEXT_HEAVNZ002_01727_FROMELAUT_000_041","The magitek utilized in these airships is most certainly not within our regular field of expertise; it is no simple matter to <Emphasis>rush</Emphasis> anything..."
+60,"TEXT_HEAVNZ002_01727_FROMELAUT_000_042","<sigh> But I suppose if we are to contend with the Horde, it cannot be helped. Tell Cliaux we will do what we can."
+61,"TEXT_HEAVNZ002_01727_FROMELAUT_000_050","While I'm not sure how we'll manage it, diverting more of our men to work on the repairs should satisfy Cliaux's flight schedule. Please inform her we will finish as quickly as we're able."
+62,"TEXT_HEAVNZ002_01727_CLIAUX_000_060","Oh, thank goodness. The swiftness of your report is most appreciated. The advent of the airship is truly a wonderful thing, but not without its hindrances, as you can see."
+63,"TEXT_HEAVNZ002_01727_CLIAUX_000_061","They allow us to cross the ice wall blocking passage to western Coerthas and navigate the Sea of Clouds. But Halone have mercy on the ship that should encounter dragons..."
+64,"TEXT_HEAVNZ002_01727_CLIAUX_000_062","That is why the Holy See has seen fit to employ machinists and astrologians in the operation of our airships."

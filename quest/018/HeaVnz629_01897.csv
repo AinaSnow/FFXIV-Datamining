@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNZ629_01897_SEQ_00","聖フィネア連隊の露営地のピエリケは、何か企んでいるようだ。"
-1,"TEXT_HEAVNZ629_01897_SEQ_01","ピエリケから<Sheet(EventItem,2001654,0)/>を3つ持ってきてほしいと頼まれた。クルザス西部高地のレッドリムで、「<Sheet(BNpcName,3492,0)/>」を討伐して、「<Sheet(EventItem,2001654,0)/>」を3つ入手しよう。"
-2,"TEXT_HEAVNZ629_01897_SEQ_02","<Sheet(EventItem,2001654,0)/>を入手した。聖フィネア連隊の露営地の「ピエリケ」に「<Sheet(EventItem,2001654,0)/>」を渡そう。"
-3,"TEXT_HEAVNZ629_01897_SEQ_03","ピエリケに<Sheet(EventItem,2001654,0)/>を渡した。どうやらピエリケは、キャンプ・リバーズミートの大砲を修理して、砲弾の代わりに<Sheet(EventItem,2001654,0)/>を打ち出すつもりのようだ。"
+0,"TEXT_HEAVNZ629_01897_SEQ_00","Pierriquet has a devilish glint in his eye."
+1,"TEXT_HEAVNZ629_01897_SEQ_01","Pierriquet has need of three zoblyn shells and has entreated your help in obtaining them. Slay three of the nearby ice zoblyns and gather their shells for him."
+2,"TEXT_HEAVNZ629_01897_SEQ_02","You collect the shells Pierriquet asked for. Take them back to him at the Convictory and find out what he plans to do with them."
+3,"TEXT_HEAVNZ629_01897_SEQ_03","Pierriquet is delighted at the gift of the zoblyn shells. He plans to use them to fashion affordable, sustainable ammunition for the old, battered cannons he's repairing down at Camp Riversmeet."
 4,"TEXT_HEAVNZ629_01897_SEQ_04",""
 5,"TEXT_HEAVNZ629_01897_SEQ_05",""
 6,"TEXT_HEAVNZ629_01897_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_HEAVNZ629_01897_SEQ_21",""
 22,"TEXT_HEAVNZ629_01897_SEQ_22",""
 23,"TEXT_HEAVNZ629_01897_SEQ_23",""
-24,"TEXT_HEAVNZ629_01897_TODO_00","<Sheet(BNpcName,3492,0)/>から<Sheet(EventItem,2001654,0)/>を入手"
-25,"TEXT_HEAVNZ629_01897_TODO_01","ピエリケに<Sheet(EventItem,2001654,0)/>を渡す"
+24,"TEXT_HEAVNZ629_01897_TODO_00","Slay ice zoblyns and obtain their shells."
+25,"TEXT_HEAVNZ629_01897_TODO_01","Deliver the shells to Pierriquet."
 26,"TEXT_HEAVNZ629_01897_TODO_02",""
 27,"TEXT_HEAVNZ629_01897_TODO_03",""
 28,"TEXT_HEAVNZ629_01897_TODO_04",""
@@ -49,23 +49,10 @@ int32,str,str
 45,"TEXT_HEAVNZ629_01897_TODO_21",""
 46,"TEXT_HEAVNZ629_01897_TODO_22",""
 47,"TEXT_HEAVNZ629_01897_TODO_23",""
-48,"TEXT_HEAVNZ629_01897_PIERRIQUET_000_000","冒険者さん……。
-よかった、ちょうど頼みたいことがあったんでさぁ。"
-49,"TEXT_HEAVNZ629_01897_PIERRIQUET_000_001","「レッドリム」に生息する「<Sheet(BNpcName,3492,0)/>」から、
-「<Sheet(EventItem,2001654,0)/>」を取ってきてほしいんですわ……。
-数は……そうですね、3つほど頼みます……。"
-50,"TEXT_HEAVNZ629_01897_PIERRIQUET_000_010","「レッドリム」に生息する「<Sheet(BNpcName,3492,0)/>」から、
-「<Sheet(EventItem,2001654,0)/>」を取ってきてほしいんですわ……。
-数は……そうですね、3つほど頼みます……。"
-51,"TEXT_HEAVNZ629_01897_PIERRIQUET_000_020","「レッドリム」に生息する「<Sheet(BNpcName,3492,0)/>」から、
-「<Sheet(EventItem,2001654,0)/>」を取ってきてほしいんですわ……。
-数は……そうですね、3つほど頼みます……。"
-52,"TEXT_HEAVNZ629_01897_PIERRIQUET_000_021","ほほう……こいつは上等な甲殻だぁ……。
-武器としては申し分ないですなぁ。
-ありがとうございやす。"
-53,"TEXT_HEAVNZ629_01897_PIERRIQUET_000_022","いやなに……。
-キャンプ・リバーズミートに放棄された大砲を、
-修理して利用するつもりなんですがね。"
-54,"TEXT_HEAVNZ629_01897_PIERRIQUET_000_023","砲弾なんざ、あっしの給金じゃ高価すぎるんで、
-甲殻を袋詰めして、撃ち出してやろうと思ってるんでさ。
-きっと鋭い散弾になりやすから、ドラゴン族も一網打尽ですわ。"
+48,"TEXT_HEAVNZ629_01897_PIERRIQUET_000_000","<If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>Good evening<Else/>Good morning</If><Else/><If(LessThan(PlayerParameter(11),17))>Good day<Else/>Good evening</If></If>, <If(PlayerParameter(4))>milady<Else/>milord</If>. If it pleases, might you be so kind as to help me out with summat?"
+49,"TEXT_HEAVNZ629_01897_PIERRIQUET_000_001","I'd be right indebted if you'd retrieve some zoblyn shells for me. There's ice zoblyns in the area─you could get the shells from 'em. I need at least three of 'em."
+50,"TEXT_HEAVNZ629_01897_PIERRIQUET_000_010","Three shells'd be enough, <If(PlayerParameter(4))>milady<Else/>milord</If>─assuming you've got the time to spare."
+51,"TEXT_HEAVNZ629_01897_PIERRIQUET_000_020","Have you got those zoblyn shells, <If(PlayerParameter(4))>milady<Else/>milord</If>?"
+52,"TEXT_HEAVNZ629_01897_PIERRIQUET_000_021","Oh, now these are marvelous, these are. Thank you so much."
+53,"TEXT_HEAVNZ629_01897_PIERRIQUET_000_022","You see, I found some old cannons down at Camp Riversmeet. They were in a right state when I found 'em, but I've been fixin' 'em up... 'Course, I ain't got any cannonballs to fire out of 'em."
+54,"TEXT_HEAVNZ629_01897_PIERRIQUET_000_023","But where there's a will, there's a way! These zoblyn shells are hard as iron, and if you break 'em just right, you can leave a fiendishly sharp edge on 'em. Reckon if we fire that out of a cannon, it'll shred a dragon's wings to ribbons!"

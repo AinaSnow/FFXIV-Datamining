@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ921_02877_SEQ_00","ポルタ・プレトリアのムニフリッドは、戦闘経験の豊富な冒険者に任務を頼みたいようだ。"
+0,"TEXT_STMBDZ921_02877_SEQ_00","Munifrid seeks a seasoned adventurer for an important task."
 1,"TEXT_STMBDZ921_02877_SEQ_01",""
 2,"TEXT_STMBDZ921_02877_SEQ_02",""
 3,"TEXT_STMBDZ921_02877_SEQ_03",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_STMBDZ921_02877_SEQ_21",""
 22,"TEXT_STMBDZ921_02877_SEQ_22",""
 23,"TEXT_STMBDZ921_02877_SEQ_23",""
-24,"TEXT_STMBDZ921_02877_TODO_00","<Sheet(BNpcName,5945,0)/>を討伐"
-25,"TEXT_STMBDZ921_02877_TODO_01","ムニフリッドに報告"
+24,"TEXT_STMBDZ921_02877_TODO_00","Slay the zu nestling."
+25,"TEXT_STMBDZ921_02877_TODO_01","Report to Munifrid."
 26,"TEXT_STMBDZ921_02877_TODO_02",""
 27,"TEXT_STMBDZ921_02877_TODO_03",""
 28,"TEXT_STMBDZ921_02877_TODO_04",""
@@ -49,24 +49,11 @@ int32,str,str
 45,"TEXT_STMBDZ921_02877_TODO_21",""
 46,"TEXT_STMBDZ921_02877_TODO_22",""
 47,"TEXT_STMBDZ921_02877_TODO_23",""
-48,"TEXT_STMBDZ921_02877_MUNIFRID_000_000","<If(GreaterThan(PlayerParameter(52),0))><Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/><If(GreaterThan(PlayerParameter(52),0))><Sheet(GCRankLimsaMaleText,PlayerParameter(52),0)/><Else/></If><Else/></If><If(GreaterThan(PlayerParameter(53),0))><Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/><If(GreaterThan(PlayerParameter(53),0))><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),0)/><Else/></If><Else/></If><If(GreaterThan(PlayerParameter(54),0))><Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/><If(GreaterThan(PlayerParameter(54),0))><Sheet(GCRankUldahMaleText,PlayerParameter(54),0)/><Else/></If><Else/></If>殿。
-あなたは、戦闘経験が豊富な冒険者であると、伺っております。"
-49,"TEXT_STMBDZ921_02877_MUNIFRID_000_001","私の任務は、ポルタ・プレトリア周辺の巡回なのですが、
-<Sheet(BNpcName,5945,0)/>が巡回路に棲み着いているのです。
-避ければ監視の穴となり、帝国につけいる隙を与えかねません。"
-50,"TEXT_STMBDZ921_02877_MUNIFRID_000_002","軍隊相手の戦いなら、後れを取るつもりはありません。
-しかし、狭い谷間を自由に飛びまわる、魔物が相手では、
-対人を想定した戦い方など、ほとんど役には立ちませんでした。"
-51,"TEXT_STMBDZ921_02877_MUNIFRID_000_003","仲間の巡回兵も被害に遭っていて、
-いつ命を落とす者が現れるともわかりません。
-そこで、経験豊富な冒険者殿に、あやつの討伐を頼みたいのです。"
-52,"TEXT_STMBDZ921_02877_MUNIFRID_000_004","「<Sheet(BNpcName,5945,0)/>」は、北東の狭い岩場を根城にしています。
-歴戦の冒険者にかける言葉では、ないのかもしれませんが、
-どうか……お気をつけて。"
-53,"TEXT_STMBDZ921_02877_MUNIFRID_000_005","「<Sheet(BNpcName,5945,0)/>」は、北東の狭い岩場を根城にしています。
-歴戦の冒険者にかける言葉では、ないのかもしれませんが、
-どうか……お気をつけて。"
-54,"TEXT_STMBDZ921_02877_MUNIFRID_000_010","おお、奴を倒していただけたのですね！？
-やはり専門家に任せて正解だったようです。"
-55,"TEXT_STMBDZ921_02877_MUNIFRID_000_011","誰かが命を落としてしまう前に解決でき、本当によかった。
-ご協力に感謝しますよ！"
+48,"TEXT_STMBDZ921_02877_MUNIFRID_000_000","<Clickable(<If(GreaterThan(PlayerParameter(52),0))><Sheet(GCRankLimsaMaleText,PlayerParameter(52),8)/><Else/></If><If(GreaterThan(PlayerParameter(53),0))><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),8)/><Else/></If><If(GreaterThan(PlayerParameter(54),0))><Sheet(GCRankUldahMaleText,PlayerParameter(54),8)/><Else/></If>)/> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>, you are well known for your deeds as a soldier. On this day, however, I would call upon your broad experiences as an adventurer."
+49,"TEXT_STMBDZ921_02877_MUNIFRID_000_001","As for the situation at hand, it would seem that part of our patrol route has been claimed as territory by a fearsome zu nestling. Yet we cannot simply choose to circumvent the area, lest we risk providing an unobserved entry point for imperial scouts."
+50,"TEXT_STMBDZ921_02877_MUNIFRID_000_002","My men and I will gladly go toe-to-toe with any military opponent. But nothing in our training has prepared us to combat a foe which can soar through the ravines and swoop down upon us with impunity."
+51,"TEXT_STMBDZ921_02877_MUNIFRID_000_003","My comrade here almost lost his arm to such an attack, and I fear it is only a matter of time ere the creature makes a kill...unless you kill it first."
+52,"TEXT_STMBDZ921_02877_MUNIFRID_000_004","The nestling surveys its domain from a narrow pillar of rock to the northeast. Pray find this predator, and end the threat to our patrols."
+53,"TEXT_STMBDZ921_02877_MUNIFRID_000_005","We might take the thing down eventually, but too much of our own blood would stain those rock walls. For a monster-slayer of your caliber, however, I should hope it will prove no great challenge..."
+54,"TEXT_STMBDZ921_02877_MUNIFRID_000_010","The nestling is slain, then? I knew I had chosen the right <If(PlayerParameter(4))>woman<Else/>man</If> for the job."
+55,"TEXT_STMBDZ921_02877_MUNIFRID_000_011","I am grateful you came along before any lives were lost to that monstrous bird. You have our thanks!"

@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ002_02636_SEQ_00","ラールガーズリーチのアヘリッサは、食材が足りず困っているようだ。"
+0,"TEXT_STMBDZ002_02636_SEQ_00","Ahelissa considers the cookpot with a frown."
 1,"TEXT_STMBDZ002_02636_SEQ_01",""
 2,"TEXT_STMBDZ002_02636_SEQ_02",""
 3,"TEXT_STMBDZ002_02636_SEQ_03",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_STMBDZ002_02636_SEQ_21",""
 22,"TEXT_STMBDZ002_02636_SEQ_22",""
 23,"TEXT_STMBDZ002_02636_SEQ_23",""
-24,"TEXT_STMBDZ002_02636_TODO_00","テッブと話す"
-25,"TEXT_STMBDZ002_02636_TODO_01","<Sheet(EventItem,2002077,0)/>を入手"
-26,"TEXT_STMBDZ002_02636_TODO_02","アヘリッサに<Sheet(EventItem,2002077,0)/>を渡す"
+24,"TEXT_STMBDZ002_02636_TODO_00","Speak with Tebbe."
+25,"TEXT_STMBDZ002_02636_TODO_01","Search Rhalgr's Reach for herbs."
+26,"TEXT_STMBDZ002_02636_TODO_02","Deliver the Reach greens to Ahelissa."
 27,"TEXT_STMBDZ002_02636_TODO_03",""
 28,"TEXT_STMBDZ002_02636_TODO_04",""
 29,"TEXT_STMBDZ002_02636_TODO_05",""
@@ -49,35 +49,15 @@ int32,str,str
 45,"TEXT_STMBDZ002_02636_TODO_21",""
 46,"TEXT_STMBDZ002_02636_TODO_22",""
 47,"TEXT_STMBDZ002_02636_TODO_23",""
-48,"TEXT_STMBDZ002_02636_AHELISSA_000_000","食事の準備ならまだよ……って、手伝ってくれるの？
-助かるわ、手が空いているなら、資材置場の「テッブ」から、
-「<Sheet(EventItem,2002077,0)/>」を6束ほど貰ってきてくれないかしら？"
-49,"TEXT_STMBDZ002_02636_AHELISSA_000_001","料理の隠し味に使いたいんだけれど、
-数が足りなくなってしまってね。
-調理の途中で、ちょっとここを離れられないから、お願いね。"
-50,"TEXT_STMBDZ002_02636_AHELISSA_000_002","資材置き場にいる「テッブ」から、
-「<Sheet(EventItem,2002077,0)/>」を6束ほど貰ってきてくれないかしら？
-調理の途中で、ちょっとここを離れられないから、お願いね。"
-51,"TEXT_STMBDZ002_02636_TEBBE_000_010","なるほど、「<Sheet(EventItem,2002077,0)/>」を6束ほど欲しいとな。
-困ったな、今は2束しかなくてな……
-とりあえず、ある分は渡しておこう。"
-52,"TEXT_STMBDZ002_02636_TEBBE_000_011","残りの4束は悪いが、お前が調達しに行ってくれないか？
-「<Sheet(EventItem,2002077,0)/>」なら、
-この辺りにも自生しているから、容易に見つけられるはずだ。"
-53,"TEXT_STMBDZ002_02636_TEBBE_000_012","「<Sheet(EventItem,2002077,0)/>」なら、
-この辺りにも自生しているから、容易に見つけられるはずだ。"
-54,"TEXT_STMBDZ002_02636_AHELISSA_000_013","資材置き場にいる「テッブ」から、
-「<Sheet(EventItem,2002077,0)/>」を6束ほど貰ってきてくれないかしら？
-調理の途中で、ちょっとここを離れられないから、お願いね。"
-55,"TEXT_STMBDZ002_02636_AHELISSA_000_031","お願いした「<Sheet(EventItem,2002077,0)/>」は、手に入ったかしら？"
-56,"TEXT_STMBDZ002_02636_AHELISSA_000_032","ありがとう、助かったわ！
-それから……その……ごめんなさい……。
-あなたのこと新兵だと勘違いして、雑用を頼んでしまったの。"
-57,"TEXT_STMBDZ002_02636_AHELISSA_000_033","しかも、在庫が足りなくて、香草集めまでさせてしまうなんて……。
-恥ずかしい話だけど、ここも食料が慢性的に不足していてね。"
-58,"TEXT_STMBDZ002_02636_AHELISSA_000_034","それでも、協力者の支援があるからマシな方よ。
-一部の集落じゃ、満足に食べることもできていない。
-痩せすぎた子どもを見かけて、涙が出ることだって……。"
-59,"TEXT_STMBDZ002_02636_AHELISSA_000_035","だから、日々の糧に感謝しつつ、
-皆が笑って食卓を囲める日がくることを夢見て、
-私たちは戦い続けるのよ。"
+48,"TEXT_STMBDZ002_02636_AHELISSA_000_000","You want to help, do you? Hmm... Seeing as how I'm in no position to leave the stewpot unattended, could you go and ask Tebbe for a variety of herbs? Six sprigs or so of whatever he's got on hand should suffice."
+49,"TEXT_STMBDZ002_02636_AHELISSA_000_001","It's not as haphazard as it may seem. Depending on the recipe, it doesn't really matter what sort you add, so long as you add something. I'll be here when you get back."
+50,"TEXT_STMBDZ002_02636_AHELISSA_000_002","If you'd rather not, it's just as well. I can assure you that the folks around here will eat it regardless."
+51,"TEXT_STMBDZ002_02636_TEBBE_000_010","Herbs, is it? Six sprigs of whatever's on hand? 'Fraid I can't spare that much. You'll take two, and be glad of it."
+52,"TEXT_STMBDZ002_02636_TEBBE_000_011","The remainder you'll have to gather yourself. Shouldn't be too much of a bother, though─you'd be surprised what you can find growing underfoot, even in the Reach."
+53,"TEXT_STMBDZ002_02636_TEBBE_000_012","Sorry, friend, but you'll get no more from me. Rules is rules."
+54,"TEXT_STMBDZ002_02636_AHELISSA_000_013","Tebbe can be a bit of a stickler, but he means well. I hope he didn't give you too much trouble."
+55,"TEXT_STMBDZ002_02636_AHELISSA_000_031","Ah, there you are. Got those herbs I asked for?"
+56,"TEXT_STMBDZ002_02636_AHELISSA_000_032","Thanks, that'll do nicely. And, uh...sorry to impose upon you, <If(PlayerParameter(4))>miss<Else/>sir</If>. Thought you were another new recruit. Didn't realize until after that you were, uh..."
+57,"TEXT_STMBDZ002_02636_AHELISSA_000_033","But to answer the question that's probably on your mind, yes. It's always like this. Never enough food or supplies to go around."
+58,"TEXT_STMBDZ002_02636_AHELISSA_000_034","All the more reason to be grateful when our countrymen can spare some for the cause. Though that comes at a cost, too. Too many villages, too many children more deserving than us..."
+59,"TEXT_STMBDZ002_02636_AHELISSA_000_035","But a man can't fight on an empty stomach, can he? So we partake, as we must. And we never lose sight of the dream."

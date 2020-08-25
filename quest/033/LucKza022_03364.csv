@@ -1,8 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKZA022_03364_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-隊商の野営地のセイモスは、知りたいことがあるようだ。"
+0,"TEXT_LUCKZA022_03364_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Thaymoth gazes wistfully into the distance, his thoughts malms away."
 1,"TEXT_LUCKZA022_03364_SEQ_01",""
 2,"TEXT_LUCKZA022_03364_SEQ_02",""
 3,"TEXT_LUCKZA022_03364_SEQ_03",""
@@ -26,9 +26,9 @@ int32,str,str
 21,"TEXT_LUCKZA022_03364_SEQ_21",""
 22,"TEXT_LUCKZA022_03364_SEQ_22",""
 23,"TEXT_LUCKZA022_03364_SEQ_23",""
-24,"TEXT_LUCKZA022_03364_TODO_00","ローロットと話す"
-25,"TEXT_LUCKZA022_03364_TODO_01","セイモスと話す"
-26,"TEXT_LUCKZA022_03364_TODO_02","ギーンギンに<Sheet(EventItem,2002624,0)/>を渡す"
+24,"TEXT_LUCKZA022_03364_TODO_00","Speak with Lorotte."
+25,"TEXT_LUCKZA022_03364_TODO_01","Speak with Thaymoth."
+26,"TEXT_LUCKZA022_03364_TODO_02","Deliver Thaymoth's letter to Ghin Gin."
 27,"TEXT_LUCKZA022_03364_TODO_03",""
 28,"TEXT_LUCKZA022_03364_TODO_04",""
 29,"TEXT_LUCKZA022_03364_TODO_05",""
@@ -50,65 +50,39 @@ int32,str,str
 45,"TEXT_LUCKZA022_03364_TODO_21",""
 46,"TEXT_LUCKZA022_03364_TODO_22",""
 47,"TEXT_LUCKZA022_03364_TODO_23",""
-48,"TEXT_LUCKZA022_03364_THAYMOTH_000_001","それにしても、親バカ、か……。
-実は私にも、クリスタリウムに娘がいてな。
-この地での任務が続いて、久しく顔を見れていないのだ。"
-49,"TEXT_LUCKZA022_03364_THAYMOTH_000_002","せめて、娘の喜ぶものを贈ってやりたいが、
-年頃の子が何を好むのかわからん。
-しかし、部下に聞いては、私の威厳というものがだな……。"
-50,"TEXT_LUCKZA022_03364_THAYMOTH_000_003","そこの「ローロット」にも娘がいるそうだから、
-自分の代わりに、参考になることを聞いてこい……
-いや、それとなく聞いてきてくれ、頼む。"
-51,"TEXT_LUCKZA022_03364_THAYMOTH_100_003","そこの「ローロット」から、
-娘へのプレゼントの参考になりそうな話を、
-それとなく聞いてきてくれ、頼む。"
-52,"TEXT_LUCKZA022_03364_LOROTTE_000_010","娘へのプレゼントは何を贈るかって？
-ははーん、さてはあんた、
-セイモスさんに頼まれたんだね。"
-53,"TEXT_LUCKZA022_03364_LOROTTE_000_011","娘さんへの溺愛ぶりなんか、部下全員が知ってるのに！
-本人だけは、バレてないと思ってるんだよ。"
-54,"TEXT_LUCKZA022_03364_LOROTTE_000_012","うちの娘なんかは、モルド族が売ってる宝飾品が好きでね。
-発掘した遺物を器用に修繕して、自分らの商品に加えてるんだ。"
-55,"TEXT_LUCKZA022_03364_LOROTTE_000_013","そんなの贈ったら喜ぶんじゃないかね。
-「セイモス」さんに伝えてやっておくれよ。"
-56,"TEXT_LUCKZA022_03364_LOROTTE_100_013","モルド族が売ってる装飾品なんかを贈ったら、
-娘さんも喜ぶんじゃないかね。
-「セイモス」さんに、そう伝えてやっておくれ。"
-57,"TEXT_LUCKZA022_03364_THAYMOTH_000_020","……ふむ、モルド族の宝飾品！
-その手の品なら、「ギーンギン」も扱っていたはずだ。"
-58,"TEXT_LUCKZA022_03364_THAYMOTH_000_021","この手紙を「ギーンギン」に渡してくれるか？
-よい品を見繕ってほしいと、書き添えてあるからな。"
-59,"TEXT_LUCKZA022_03364_THAYMOTH_000_022","……ゴホン。
-ところで、部下には悟られていないだろうな？"
-60,"TEXT_LUCKZA022_03364_THAYMOTH_000_023","すっかり親バカだと噂されているだと！？
-なんてこった……いや、次からは堂々と相談しにいくか……。"
-61,"TEXT_LUCKZA022_03364_THAYMOTH_100_023","手紙を「ギーンギン」に届けてくれ。
-頼んだぞ。"
-62,"TEXT_LUCKZA022_03364_GHINGIN_000_030","おつかれさまネ！
-セイモス、元気だったネ？"
-63,"TEXT_LUCKZA022_03364_GHINGIN_000_031","セイモスからのお手紙ネ？
-内容は……なるほどネ。
-これで安心して息子を送り出せるネ。"
-64,"TEXT_LUCKZA022_03364_GHINGIN_000_032","世話になってるあの人の頼みも、
-娘サンを喜ばせるためなら、張り切っちゃうヨ！
-ステキな首飾り、スカベンジャーから仕入れてたはずネ。"
-65,"TEXT_LUCKZA022_03364_GHINGIN_000_033","アンタったら、父親をふたりも幸せにしてしまったネ！
-ありがとネ！"
-66,"TEXT_LUCKZA022_03364_RANDINGCHIEF03364_000_001","（★未使用／削除予定★）"
-67,"TEXT_LUCKZA022_03364_RANDINGCHIEF03364_000_002","（★未使用／削除予定★）"
-68,"TEXT_LUCKZA022_03364_RANDINGCHIEF03364_000_003","（★未使用／削除予定★）"
-69,"TEXT_LUCKZA022_03364_RANDINGCHIEF03364_100_003","（★未使用／削除予定★）"
-70,"TEXT_LUCKZA022_03364_RANDINGMAN03364_000_010","（★未使用／削除予定★）"
-71,"TEXT_LUCKZA022_03364_RANDINGMAN03364_000_011","（★未使用／削除予定★）"
-72,"TEXT_LUCKZA022_03364_RANDINGMAN03364_000_012","（★未使用／削除予定★）"
-73,"TEXT_LUCKZA022_03364_RANDINGMAN03364_000_013","（★未使用／削除予定★）"
-74,"TEXT_LUCKZA022_03364_RANDINGMAN03364_100_013","（★未使用／削除予定★）"
-75,"TEXT_LUCKZA022_03364_RANDINGCHIEF03364_000_020","（★未使用／削除予定★）"
-76,"TEXT_LUCKZA022_03364_RANDINGCHIEF03364_000_021","（★未使用／削除予定★）"
-77,"TEXT_LUCKZA022_03364_RANDINGCHIEF03364_000_022","（★未使用／削除予定★）"
-78,"TEXT_LUCKZA022_03364_RANDINGCHIEF03364_000_023","（★未使用／削除予定★）"
-79,"TEXT_LUCKZA022_03364_RANDINGCHIEF03364_100_023","（★未使用／削除予定★）"
-80,"TEXT_LUCKZA022_03364_MORDMERCHANT03364_000_030","（★未使用／削除予定★）"
-81,"TEXT_LUCKZA022_03364_MORDMERCHANT03364_000_031","（★未使用／削除予定★）"
-82,"TEXT_LUCKZA022_03364_MORDMERCHANT03364_000_032","（★未使用／削除予定★）"
-83,"TEXT_LUCKZA022_03364_MORDMERCHANT03364_000_033","（★未使用／削除予定★）"
+48,"TEXT_LUCKZA022_03364_THAYMOTH_000_001","That Ghin Gin worries about his son more than is healthy. For either of them. But perhaps I'm not so different. I had to leave my daughter behind in the Crystarium while I oversee trade with Mord Souq, and I've not been back for some time."
+49,"TEXT_LUCKZA022_03364_THAYMOTH_000_002","I'd like to send her a gift, to let her know we haven't forgotten about her. Only thing is, I've no idea what young women are interested in these days. I'd ask the others, but I don't want them to think I'm doting on her."
+50,"TEXT_LUCKZA022_03364_THAYMOTH_000_003","I was wondering if you could find out for me? Lorotte over there has a daughter about the same age as mine. I expect she'll know what would make for a decent present."
+51,"TEXT_LUCKZA022_03364_THAYMOTH_100_003","Of course, something that's not too big or expensive would be ideal."
+52,"TEXT_LUCKZA022_03364_LOROTTE_000_010","A gift for a young lady? Let me guess, Thaymoth sent you to ask me, didn't he?"
+53,"TEXT_LUCKZA022_03364_LOROTTE_000_011","We all know how much he misses that girl of his. He tries to put on a brave face, but deep down, he's a big softie."
+54,"TEXT_LUCKZA022_03364_LOROTTE_000_012","Anyway, in answer to your question, the Mord make the most beautiful jewelry from precious stones and valuable relics excavated here in Amh Araeng."
+55,"TEXT_LUCKZA022_03364_LOROTTE_000_013","I'll bet you don't see many of those around the Crystarium. How about something like that?"
+56,"TEXT_LUCKZA022_03364_LOROTTE_100_013","Come to think of it, I wouldn't mind something like that myself."
+57,"TEXT_LUCKZA022_03364_THAYMOTH_000_020","Mord jewelry? I'll admit, that never would've occurred to me, but it's a fine choice. From what I recall, Ghin Gin deals in wares like that."
+58,"TEXT_LUCKZA022_03364_THAYMOTH_000_021","If I write a letter to him, would you be so kind as to deliver it to Mord Souq? I'll leave the particulars to him, since I don't know the first thing about gems and whatnot."
+59,"TEXT_LUCKZA022_03364_THAYMOTH_000_022","Oh, and by the way, you don't suppose Lorotte cottoned on, do you?"
+60,"TEXT_LUCKZA022_03364_THAYMOTH_000_023","Bloody hells, nothing gets past her! I might as well ask her myself next time, but I appreciate your help."
+61,"TEXT_LUCKZA022_03364_THAYMOTH_100_023","That Ghin Gin certainly is a strange one, but I daresay he knows a lot more about jewelry than I do. I'll leave the design and so on in his capable hands."
+62,"TEXT_LUCKZA022_03364_GHINGIN_000_030","Oh, welcome back! I take it everything went well with Thaymoth?"
+63,"TEXT_LUCKZA022_03364_GHINGIN_000_031","A letter, hmm? <mumble> ...jewelry...daughter...Crystarium... <mumble> I see! Yes, I know just the thing!"
+64,"TEXT_LUCKZA022_03364_GHINGIN_000_032","The scavengers have found some nice necklaces we can use. Old, but shiny! I'll have it ready in a jiffy, then my son can take care of the delivery."
+65,"TEXT_LUCKZA022_03364_GHINGIN_000_033","Before I forget, please accept this as payment for all of your hard work. You have certainly earned it!"
+66,"TEXT_LUCKZA022_03364_RANDINGCHIEF03364_000_001",""
+67,"TEXT_LUCKZA022_03364_RANDINGCHIEF03364_000_002",""
+68,"TEXT_LUCKZA022_03364_RANDINGCHIEF03364_000_003",""
+69,"TEXT_LUCKZA022_03364_RANDINGCHIEF03364_100_003",""
+70,"TEXT_LUCKZA022_03364_RANDINGMAN03364_000_010",""
+71,"TEXT_LUCKZA022_03364_RANDINGMAN03364_000_011",""
+72,"TEXT_LUCKZA022_03364_RANDINGMAN03364_000_012",""
+73,"TEXT_LUCKZA022_03364_RANDINGMAN03364_000_013",""
+74,"TEXT_LUCKZA022_03364_RANDINGMAN03364_100_013",""
+75,"TEXT_LUCKZA022_03364_RANDINGCHIEF03364_000_020",""
+76,"TEXT_LUCKZA022_03364_RANDINGCHIEF03364_000_021",""
+77,"TEXT_LUCKZA022_03364_RANDINGCHIEF03364_000_022",""
+78,"TEXT_LUCKZA022_03364_RANDINGCHIEF03364_000_023",""
+79,"TEXT_LUCKZA022_03364_RANDINGCHIEF03364_100_023",""
+80,"TEXT_LUCKZA022_03364_MORDMERCHANT03364_000_030",""
+81,"TEXT_LUCKZA022_03364_MORDMERCHANT03364_000_031",""
+82,"TEXT_LUCKZA022_03364_MORDMERCHANT03364_000_032",""
+83,"TEXT_LUCKZA022_03364_MORDMERCHANT03364_000_033",""

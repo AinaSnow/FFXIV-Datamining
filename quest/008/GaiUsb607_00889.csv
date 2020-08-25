@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB607_00889_SEQ_00","アドネール占星台のポルトゥレーンは、冒険者に捜索の仕事を頼みたいようだ。"
-1,"TEXT_GAIUSB607_00889_SEQ_01","ポルトゥレーンは賊に襲われた行商人の荷物を取り戻して欲しいそうだ。アドネール占星台の西の街道に赴き「<Sheet(EventItem,2000693,0)/>」を回収しよう。"
-2,"TEXT_GAIUSB607_00889_SEQ_02","賊の妨害があったが、見事<Sheet(EventItem,2000693,0)/>の回収に成功した。アドネール占星台のポルトゥレーンに渡そう。"
-3,"TEXT_GAIUSB607_00889_SEQ_03","「竜眼の祈鎖」とは、異端者の証であるらしい。証が入っていた荷物の宛先は四大名家の縁類、フランセル卿だった。ポルトゥレーンは、異端審問官に報告すると息巻いているが……。"
+0,"TEXT_GAIUSB607_00889_SEQ_00","Lord Portelaine requires that you perform a third task on behalf of House Durendaire."
+1,"TEXT_GAIUSB607_00889_SEQ_01","As a condition of providing you with three formal introductions to the other three High Houses, Lord Portelaine has asked you to investigate the scene of a recent robbery west of the Observatorium. Search for and recover any parcels that you find, but make sure that you are prepared to defend yourself if the perpetrators are still present."
+2,"TEXT_GAIUSB607_00889_SEQ_02","Your search yields three parcels which likely belong to the porter who was ambushed. Present them to Lord Portelaine in exchange for your introductions."
+3,"TEXT_GAIUSB607_00889_SEQ_03","Much to your dismay, your arrangement with Lord Portelaine is brushed aside when the Ishgardian discovers a draconian rosary in a chest belonging to Lord Francel of House Haillenarte. As this could be considered proof of heresy, Lord Portelaine advises you against associating with any man of House Haillenarte. As the lord talks of informing the inquisitors, the knight standing behind him locks eyes with you, in an obvious attempt to catch your attention. Perhaps you should take a moment to speak with the grizzled knight."
 4,"TEXT_GAIUSB607_00889_SEQ_04",""
 5,"TEXT_GAIUSB607_00889_SEQ_05",""
 6,"TEXT_GAIUSB607_00889_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSB607_00889_SEQ_21",""
 22,"TEXT_GAIUSB607_00889_SEQ_22",""
 23,"TEXT_GAIUSB607_00889_SEQ_23",""
-24,"TEXT_GAIUSB607_00889_TODO_00","荷物を回収"
-25,"TEXT_GAIUSB607_00889_TODO_01","ポルトゥレーンに荷物を渡す"
+24,"TEXT_GAIUSB607_00889_TODO_00","Recover the stolen wares."
+25,"TEXT_GAIUSB607_00889_TODO_01","Report to Portelaine."
 26,"TEXT_GAIUSB607_00889_TODO_02",""
 27,"TEXT_GAIUSB607_00889_TODO_03",""
 28,"TEXT_GAIUSB607_00889_TODO_04",""
@@ -49,36 +49,17 @@ int32,str,str
 45,"TEXT_GAIUSB607_00889_TODO_21",""
 46,"TEXT_GAIUSB607_00889_TODO_22",""
 47,"TEXT_GAIUSB607_00889_TODO_23",""
-48,"TEXT_GAIUSB607_00889_PORTELAINE_000_000","先ほど、アートボルグ砦群に向かっていた荷運び人が
-道中で賊に襲われたと逃げこんできた。"
-49,"TEXT_GAIUSB607_00889_PORTELAINE_000_001","荷運び人が襲われたという場所は、西の街道だ。
-ただちに現地へ向かい、賊から荷を取り戻せ。"
-50,"TEXT_GAIUSB607_00889_PORTELAINE_000_002","荷は四大名家のひとつ、アインハルト家が管轄する
-「アートボルグ砦群」に宛てられたものだ。
-無事に取り戻せたら、砦に紹介してやろう。"
-51,"TEXT_GAIUSB607_00889_DUMMY_000_010","（アドネールとゼーメルの中間地点、
-荷物EOBJに近寄ると賊（フードの異端）×３がＰＯＰ
-荷物EOBJにアクセスし拾う）"
-52,"TEXT_GAIUSB607_00889_PORTELAINE_000_020","荷は取り戻せたか？
-念のため、中身を確認させてもらうぞ。"
-53,"TEXT_GAIUSB607_00889_NPC_000_021","ああ、よかった！
-わたくしが運んでいた荷物は、これで全部……
-……おや、ひとつ多いようです。"
-54,"TEXT_GAIUSB607_00889_NPC_000_022","こちらの小箱は、荷車に積み込んだ覚えがありません。
-もしや、賊の持っていた別の荷物が混じったのでは？"
-55,"TEXT_GAIUSB607_00889_PORTELAINE_000_023","宛先は……フランセル卿？
-……ああ、アインハルト家のぱっとしない四男坊か。
-少々、中身を確認させてもらおう。"
-56,"TEXT_GAIUSB607_00889_PORTELAINE_000_024","こ、これは「竜眼の祈鎖」だとッ！？
-異端者の証が、何故ここに！？"
-57,"TEXT_GAIUSB607_00889_PORTELAINE_000_025","そういえば……このところ、アインハルト家の縁者から、
-多くの異端者が見つかっていると聞く。
-だが、まさかフランセル卿まで……？"
-58,"TEXT_GAIUSB607_00889_PORTELAINE_000_026","お前をアートボルグ砦群に紹介するのは取りやめだ。
-なにせ、フランセル卿は……
-その「アートボルグ砦群」の責任者なのだからな！"
-59,"TEXT_GAIUSB607_00889_PORTELAINE_000_027","我がイシュガルドにおいて、
-ドラゴン族とそれに与する異端者は、根絶すべき不浄の存在。
-すぐに異端審問官様に報告し、真実を暴いてくれる！"
-60,"TEXT_GAIUSB607_00889_POP_MESSAGE_000","敵の気配を感じた！！"
-61,"TEXT_GAIUSB607_00889_ACCESS_MESSAGE","その行動は出現した敵を倒さないと実行できません"
+48,"TEXT_GAIUSB607_00889_PORTELAINE_000_000","Now, now, I understand you are very eager to find your missing airship. Worry not, for this task should take a <If(PlayerParameter(4))>woman<Else/>man</If> of your skills but a moment to complete."
+49,"TEXT_GAIUSB607_00889_PORTELAINE_000_001","Not long ago, a porter bound for Skyfire Locks was ambushed on the road due west of here. Though he escaped with his life, he would very much like his wares as well. On the off chance any portion of his shipment remains, I would have you travel to the scene of the robbery and bring back what you find."
+50,"TEXT_GAIUSB607_00889_PORTELAINE_000_002","Lest you intend to perform only a cursory search, bear in mind that recovering the stolen merchandise will endear you to House Haillenarte, further improving the chances that they indulge your request for aid."
+51,"TEXT_GAIUSB607_00889_DUMMY_000_010",""
+52,"TEXT_GAIUSB607_00889_PORTELAINE_000_020","Have you good tidings to share? Or better yet, stolen merchandise to show?"
+53,"TEXT_GAIUSB607_00889_NPC_000_021","Gods bless ye, friend! It's all here, every last─ah, but wait. That chest over there looks like it might've been pillaged."
+54,"TEXT_GAIUSB607_00889_NPC_000_022","Bloody hells, that's the personal property of Lord Francel, too..."
+55,"TEXT_GAIUSB607_00889_PORTELAINE_000_023","Are you certain? Clearly an attempt was made to open it, but the lock appears to have held. Nevertheless, if you wish to verify the contents against your shipping manifest, be my guest."
+56,"TEXT_GAIUSB607_00889_PORTELAINE_000_024","Fury take me, a draconian rosary! In the possession of Lord Francel!?"
+57,"TEXT_GAIUSB607_00889_PORTELAINE_000_025","Yet...perhaps this is not so difficult to fathom. House Haillenarte is whispered to be infested with heretics..."
+58,"TEXT_GAIUSB607_00889_PORTELAINE_000_026","Thank you for bringing this matter to my attention, <If(PlayerParameter(4))>miss<Else/>sir</If>. I shall inform the inquisitors immediately. Under these circumstances, I must strongly advise against associating with House Haillenarte. "
+59,"TEXT_GAIUSB607_00889_PORTELAINE_000_027","Your other introductions will need to be postponed, as well. It is the duty of every Ishgardian to root out and destroy heretics─all else must wait until this matter is resolved."
+60,"TEXT_GAIUSB607_00889_POP_MESSAGE_000","You are being watched..."
+61,"TEXT_GAIUSB607_00889_ACCESS_MESSAGE","The enemy is still about!"

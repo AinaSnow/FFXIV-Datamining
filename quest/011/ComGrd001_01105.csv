@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_COMGRD001_01105_SEQ_00","双蛇党のボルセル大牙佐は冒険者に話があるようだ。"
-1,"TEXT_COMGRD001_01105_SEQ_01","ボルセル大牙佐から、グランドカンパニー将兵の練兵所「ウルヴズジェイル」を紹介された。リムサ・ロミンサ沖のウルヴズジェイルにいる「ベルクーヤ大甲士」に話しかけよう。"
-2,"TEXT_COMGRD001_01105_SEQ_02","ベルクーヤ大甲士と話すことができた。彼は冒険者を歓迎し、「ウルヴズジェイル」で存分に鍛えていくよう、激励してくれた。"
+0,"TEXT_COMGRD001_01105_SEQ_00","Vorsaile Heuloix would have you begin your training in earnest."
+1,"TEXT_COMGRD001_01105_SEQ_01","High Serpent Commander Vorsaile Heuloix has great hopes for your future in the Order of the Twin Adder, and would send you for training to see your potential fulfilled. Board the ferry from the Moraby Drydocks in lower La Noscea to get to the Wolves' Den. Once there, seek out Storm Captain Berkoeya Loetahlsyn."
+2,"TEXT_COMGRD001_01105_SEQ_02","After seeing fit to batter every last shred of confidence and self-respect out of you with a brutal tongue-lashing, Storm Captain Berkoeya Loetahlsyn reluctantly grants you permission to begin your training at the Wolves' Den."
 3,"TEXT_COMGRD001_01105_SEQ_03",""
 4,"TEXT_COMGRD001_01105_SEQ_04",""
 5,"TEXT_COMGRD001_01105_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_COMGRD001_01105_SEQ_21",""
 22,"TEXT_COMGRD001_01105_SEQ_22",""
 23,"TEXT_COMGRD001_01105_SEQ_23",""
-24,"TEXT_COMGRD001_01105_TODO_00","ウルヴズジェイルのベルクーヤ大甲士と話す"
+24,"TEXT_COMGRD001_01105_TODO_00","Speak with Berkoeya Loetahlsyn at the Wolves' Den."
 25,"TEXT_COMGRD001_01105_TODO_01",""
 26,"TEXT_COMGRD001_01105_TODO_02",""
 27,"TEXT_COMGRD001_01105_TODO_03",""
@@ -49,35 +49,15 @@ int32,str,str
 45,"TEXT_COMGRD001_01105_TODO_21",""
 46,"TEXT_COMGRD001_01105_TODO_22",""
 47,"TEXT_COMGRD001_01105_TODO_23",""
-48,"TEXT_COMGRD001_01105_VORSAILE_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><If(GreaterThan(PlayerParameter(53),0))><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),0)/><Else/></If>。
-聞いてくれるかい、僕たち「双蛇党」は、
-君に対して非常に大きな期待をかけている。"
-49,"TEXT_COMGRD001_01105_VORSAILE_000_001","この混乱の時代では、
-君のような者の力こそが、世界を平定へと導く……
-僕たちはそう考えているのさ。"
-50,"TEXT_COMGRD001_01105_VORSAILE_000_002","そんな将来有望な君だけど、
-この動乱の時代を生き抜くには、
-さらに腕を磨く必要があるんじゃないかな？"
-51,"TEXT_COMGRD001_01105_VORSAILE_000_003","そこで、君に紹介したい施設がある。
-エオルゼア都市軍事同盟が共同で設立した、
-グランドカンパニー将兵の練兵所があるんだよ。"
-52,"TEXT_COMGRD001_01105_VORSAILE_000_004","その名を……「ウルヴズジェイル」！"
-53,"TEXT_COMGRD001_01105_VORSAILE_000_005","すでに君が施設を利用できるよう、連絡しておいたよ。
-受付の「ベルクーヤ大甲士」に話しかければ、
-すぐさま「ウルヴズジェイル」に参加できるはずさ。"
-54,"TEXT_COMGRD001_01105_VORSAILE_000_006","「ウルヴズジェイル」は、ラノシアの沖合にあるんだ。
-低地ラノシアの「モラビー造船廠」から出ている
-渡し船を利用するといいと思うよ。"
-55,"TEXT_COMGRD001_01105_BERKOEYA_000_010","私の名はベルクーヤ・ルータルシン大甲士！
-狼たちの牢獄、「ウルヴズジェイル」の訓練教官である！"
-56,"TEXT_COMGRD001_01105_BERKOEYA_000_011","いいか、よく聞け！
-ここでは所属も階級も、ましてや過去の名声も
-等しくクソのひと掴みほどにも価値がない！！"
-57,"TEXT_COMGRD001_01105_BERKOEYA_000_012","今の貴様は、犬以下だ！
-ただ喰われるだけの、生肉に過ぎん！"
-58,"TEXT_COMGRD001_01105_BERKOEYA_000_013","牙を剥け！　爪を研げ！　
-ここで戦い、鍛え続け、敵に喰らいつく猛犬に……
-いや、獰猛なる狼となれ！"
-59,"TEXT_COMGRD001_01105_BERKOEYA_000_014","生肉のまま終わりたくなければ、話を聞きに来い！
-「ウルヴズジェイル」のなんたるかを、
-嫌というほど説明してやる！"
+48,"TEXT_COMGRD001_01105_VORSAILE_000_000","Listen well, <Clickable(<If(GreaterThan(PlayerParameter(52),0))><Sheet(GCRankLimsaMaleText,PlayerParameter(52),8)/><Else/></If><If(GreaterThan(PlayerParameter(53),0))><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),8)/><Else/></If><If(GreaterThan(PlayerParameter(54),0))><Sheet(GCRankUldahMaleText,PlayerParameter(54),8)/><Else/></If>)/> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>. The Order of the Twin Adder does not just welcome glory-seekers willy-nilly into our ranks."
+49,"TEXT_COMGRD001_01105_VORSAILE_000_001","You stand here today because we believe in your potential. We believe that you will go forth as a Serpent and help restore order to a world gone mad."
+50,"TEXT_COMGRD001_01105_VORSAILE_000_002","...And yet, potential alone will not carry you far. Indeed, the road to glory is littered with the bodies of would-be <If(PlayerParameter(4))>heroines<Else/>heroes</If> who lacked the determination and diligence to hone their innate talents."
+51,"TEXT_COMGRD001_01105_VORSAILE_000_003","But you will not suffer the same fate─I am certain of it. It is with such high hopes for your future that I would send you to begin the next phase of your training."
+52,"TEXT_COMGRD001_01105_VORSAILE_000_004","The venue shall be the Wolves' Den, a proving ground established by the Eorzean Alliance to prepare Grand Company recruits for the battles that lie ahead."
+53,"TEXT_COMGRD001_01105_VORSAILE_000_005","The Wolves' Den is to be found just off the shores of La Noscea. The ferry at the Moraby Drydocks in lower La Noscea will grant you passage there."
+54,"TEXT_COMGRD001_01105_VORSAILE_000_006","Upon your arrival, seek out Storm Captain Berkoeya Loetahlsyn. I have already taken the liberty of submitting a letter of recommendation on your behalf."
+55,"TEXT_COMGRD001_01105_BERKOEYA_000_010","I don't recall seein' yer ugly mug around here before. Hm? Ye say that <Emphasis>Heuloix</Emphasis> sent ye!?"
+56,"TEXT_COMGRD001_01105_BERKOEYA_000_011","He said he was sendin' an adventurer, not some simperin' sea louse! Bah! If I'd known it was <Emphasis>yer</Emphasis> sorry hide I'd be dealin' with, I'd have spit on yer recommendation papers and tossed 'em into the briny deep! But─much to my chagrin─ye made it here in one piece."
+57,"TEXT_COMGRD001_01105_BERKOEYA_000_012","So listen up! They call this place the Wolves' Den, but yer no wolf. No, yer the runt of the litter─a whimperin', droolin' pup who'd be lucky to suckle one drop from yer mum's teat before yer bigger siblin's grabbed ye by yer neck and tossed ye aside to starve like the wretch you are!"
+58,"TEXT_COMGRD001_01105_BERKOEYA_000_013","Stand up straight, maggot! This ain't no place for the faint of heart, and I give yer sorry arse till <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>dawn<Else/>midday</If><Else/><If(LessThan(PlayerParameter(11),17))>sundown<Else/>dawn</If></If> before ye run home with yer tail between yer legs, cryin' for yer mum."
+59,"TEXT_COMGRD001_01105_BERKOEYA_000_014","Yer beyond help, but because I'm feelin' so godsdamned generous, I'll give it to ye anyway! If ye've a mind to learn somethin', come back and I'll beat it into ye good and proper. And next time ye show yer ugly mug, I want to see fangs! Dismissed!"

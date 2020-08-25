@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNM302_02374_SEQ_00","パロック繋留基地のレオファードは、愛機レミーユ号の喪失に思うところがあるようだ。"
-1,"TEXT_HEAVNM302_02374_SEQ_01","レオファードは、皆に自分の部屋に向かうように命じ、自身はひとり飛空艇発着場に残るようだ。彼がなにを想っているのか、アバラシア雲海のコールドウィンド島に立つ「レッドビル」の旗から、パロック繋留基地に向かい、レオファードの私室で「スタシア」に尋ねよう。"
-2,"TEXT_HEAVNM302_02374_SEQ_02","スタシアから、レオファードの過去を聞いた。レオファードは、「レッドビル」の一員の証であるスカーフをケット・シーに贈り、ケット・シーもそれを身につけることで、レオファードに応えた。ひとつの冒険を終え、空賊団「レッドビル」と別れるときがきたようだ。アバラシア雲海のコールドウィンド島に立つ「レッドビル」の旗から、パロック繋留基地に向かい「レオファード」と話そう。"
-3,"TEXT_HEAVNM302_02374_SEQ_03","アバラシア雲海まで、レオファードたちが見送りに来てくれた。レオファードは、またとっておきの冒険を見つければ冒険者を連れだすつもりのようだ。いつか来るであろう、彼らとの次なる冒険のときを待とう。"
+0,"TEXT_HEAVNM302_02374_SEQ_00","Leofard appears to be mourning the loss of the <Emphasis>Raimille</Emphasis>."
+1,"TEXT_HEAVNM302_02374_SEQ_01","Leofard has ordered everyone to return to his quarters while he remains alone on the Parrock's airship landing. Join Cait Sith in Leofard's chambers and question Stacia concerning the captain's melancholy mood."
+2,"TEXT_HEAVNM302_02374_SEQ_02","Cait Sith shares his feelings of guilt with Stacia, and she assents to his request for an insight into Leofard's uncharacteristically gloomy manner. Soon after Stacia finishes the tale behind the <Emphasis>Raimille</Emphasis>, however, Leofard enters and sets matters straight regarding sky pirates and unnecessary apologies. He offers Cait Sith a place with the Redbills, then orders the familiar to join him in giving you a proper send-off. Speak with Leofard when you are ready to leave the Parrock."
+3,"TEXT_HEAVNM302_02374_SEQ_03","Leofard and his Redbills escort you back to Coldwind. Though your current journey together has come to an end, the captain promises that he will seek you out whenever the skies once more echo with the call of high adventure!"
 4,"TEXT_HEAVNM302_02374_SEQ_04",""
 5,"TEXT_HEAVNM302_02374_SEQ_05",""
 6,"TEXT_HEAVNM302_02374_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_HEAVNM302_02374_SEQ_21",""
 22,"TEXT_HEAVNM302_02374_SEQ_22",""
 23,"TEXT_HEAVNM302_02374_SEQ_23",""
-24,"TEXT_HEAVNM302_02374_TODO_00","レオファードの私室でスタシアと話す"
-25,"TEXT_HEAVNM302_02374_TODO_01","パロック繋留基地のレオファードと話す"
+24,"TEXT_HEAVNM302_02374_TODO_00","Speak with Stacia in Leofard's chambers."
+25,"TEXT_HEAVNM302_02374_TODO_01","Speak with Leofard at the Parrock."
 26,"TEXT_HEAVNM302_02374_TODO_02",""
 27,"TEXT_HEAVNM302_02374_TODO_03",""
 28,"TEXT_HEAVNM302_02374_TODO_04",""
@@ -49,123 +49,51 @@ int32,str,str
 45,"TEXT_HEAVNM302_02374_TODO_21",""
 46,"TEXT_HEAVNM302_02374_TODO_22",""
 47,"TEXT_HEAVNM302_02374_TODO_23",""
-48,"TEXT_HEAVNM302_02374_CAITSITH_000_005","……レオファード。
-結局は、奴に頼ることになってしまった。
-<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>殿と奴がおらなければ、私は……。"
-49,"TEXT_HEAVNM302_02374_STACIA_000_000","……大丈夫、命に別状はないわ。
-こんな無謀なことして、もし死んじゃってたら……。
-もう、本当に無茶ばかりして……馬鹿……。"
-50,"TEXT_HEAVNM302_02374_RADLIA_000_015","また、レオファードに助けられるとはねぇ……。
-だいぶ満身創痍のようだが、元気になってもらわないと困るよ。
-……でなきゃ今後、素直に敵対できやしない。"
-51,"TEXT_HEAVNM302_02374_LEOFARD_000_050","ったく、ゴーグルが滅茶苦茶だ……。
-……まあ、ゴーグルなんざ、いくらでも替えがきく。
-レミーユ号も含め、よくこの程度の犠牲で済んだと思うべきか。"
-52,"TEXT_HEAVNM302_02374_RADLIA_000_051","さて、妖異どももぶっ潰したことだし、アタイらは失礼するよ。
-「レッドビル」と「大鷲連合」の協力関係も、これでオシマイ。
-もちろん、アンタが望むならその限りじゃないけどね……。"
-53,"TEXT_HEAVNM302_02374_LEOFARD_000_052","へっ、ケバい間抜けババアの猫なで声なんざ響かねえよ。
-お前との慣れ合いは最初で最後……次に会うときは敵同士だ。
-また、いつも通りに、な……。"
-54,"TEXT_HEAVNM302_02374_RADLIA_000_053","……ウフフフ、そうこなくっちゃね。
-アタイは、ほしいものは必ず手に入れる。
-レオファード、アタイの執念深さを覚えておいで……！"
-55,"TEXT_HEAVNM302_02374_LEOFARD_000_054","…………お前ら、先に俺の部屋に行ってろ。
-そこのボロねこジジイの手当ても必要だろうしな……。
-俺も、後から向かう。"
-56,"TEXT_HEAVNM302_02374_CAITSITH_000_055","……<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>殿、私は自分が情けない。
-結局、レオファードに助けてもらう羽目になってしまった。
-<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>殿にも、迷惑を……。"
-57,"TEXT_HEAVNM302_02374_CAITSITH_000_056","……そなたの気持ち、痛みいる。
-どのような言葉なら、しかと詫びることができるのか……。
-この、情けない「ボロねこジジイ」には見当がつかぬよ。"
-58,"TEXT_HEAVNM302_02374_CAITSITH_000_057","……なんとか、レオファードに謝罪をしたいのだが。
-どうやら今の奴は、その言葉を聞ける状態ではなさそうだ。
-あのように、ひとり佇むレオファードは、はじめて見る……。"
-59,"TEXT_HEAVNM302_02374_CAITSITH_000_058","やはり、レミーユ号を失ったためか……？
-……気にはなるが、ひとまず奴をひとりにするべきであろう。
-今、ただ自己満足の謝罪をしても騒音にしかなるまい……。"
-60,"TEXT_HEAVNM302_02374_LEOFARD_000_100","……………………先に、俺の部屋に行ってろ。
-俺も、すぐに向かう。"
-61,"TEXT_HEAVNM302_02374_CAITSITH_000_105","……レオファードのあの態度。
-スタシア殿なら、なにか知っているはず。"
-62,"TEXT_HEAVNM302_02374_UTATA_000_110","レミーユ号は、浮島で壊れちまったんだってね。
-……今まで、ずっとレオファードの強引な操舵に耐えてきて、
-最後まで乗り手の命を守ったんだから、立派だったよ……。"
-63,"TEXT_HEAVNM302_02374_RADLIA_000_115","ほーら、アンタら！　キリキリ働きな！
-さっさと出航して、「大鷲連合」再始動の宴をあげるよ！"
-64,"TEXT_HEAVNM302_02374_CAITSITH_000_150","……スタシア殿。
-先ほどのレオファードの態度について、尋ねてもよいか？
-奴が、あのようにひとり佇むのを、私ははじめて見た……。"
-65,"TEXT_HEAVNM302_02374_CAITSITH_000_151","奴が苦しんでいるのは、レミーユ号を失ったからなのか？
-もし、レミーユ号に関係するのなら、どうか教えてほしい。
-レオファードが機体を失ったのは、私のせいなのだから……！"
-66,"TEXT_HEAVNM302_02374_STACIA_000_152","…………もう、ずいぶん昔の話。
-孤児だったレオファードは、運良く貴族の未亡人に拾われて、
-養子として育てられることになったの……。"
-67,"TEXT_HEAVNM302_02374_STACIA_000_153","物静かな優しい女性だったそうよ……。
-ただ、病弱でほとんど外を出歩くことができず、
-代わりに、沢山の異国の本を彼に読み聞かせていたらしいわ。"
-68,"TEXT_HEAVNM302_02374_STACIA_100_153","そんな優しい義母を、レオファードも懸命に看病した……。
-でも、残念ながら病を治すことはできず、亡くなってしまったの。"
-69,"TEXT_HEAVNM302_02374_STACIA_000_154","生前の彼女は、レオファードに決して多くを望まなかった。
-でもね、亡くなる寸前にひとつの願いを託したそうよ。
-「どうか、自分の望むように自由に生きてほしい」って……。"
-70,"TEXT_HEAVNM302_02374_STACIA_000_155","レオファードの大切な人……彼女の名前は、「レミーユ」……。
-この肖像画の女性よ……。"
-71,"TEXT_HEAVNM302_02374_CAITSITH_000_156","……な、なんと……！
-レオファードは、育ての親の……
-大切な者の名前を、己の愛機につけていたのか……！"
-72,"TEXT_HEAVNM302_02374_STACIA_000_157","空賊の道は、レオファード自身が己の意思で決めた生き方よ。
-……でも、飛空艇に「レミーユ」という名前をつけたのは、
-彼女にこの空を見せたかったからだって、私は思ってる。"
-73,"TEXT_HEAVNM302_02374_LEOFARD_000_159","……人の過去をべらべら喋るとは、
-いつからそんなに口が軽くなったんだ、スタシア……？"
-74,"TEXT_HEAVNM302_02374_LEOFARD_100_159","相手がお前らだろうと、不幸自慢をする主義じゃねえ。
-……他の誰にも話すんじゃねえぞ？"
-75,"TEXT_HEAVNM302_02374_LEOFARD_000_161","ったく、傷を手当てしろって言ったのに、なにお喋りしてんだ。
-ねこジジイ、お前、マントまでボロボロじゃねえか……。
-……ちょっと、こっちへ来い。"
-76,"TEXT_HEAVNM302_02374_CAITSITH_000_162","……この、スカーフは…………？"
-77,"TEXT_HEAVNM302_02374_LEOFARD_000_163","俺たち「レッドビル」では、新しくメンバーになった奴に、
-そのスカーフを贈ることにしている……。
-……ま、いわば「仲間」の証だ。"
-78,"TEXT_HEAVNM302_02374_LEOFARD_100_163","……俺がレミーユに教わったのは、思い出を守ることじゃねえ。
-自分がこうと決めた道を貫き通す意志を持つことだ。
-主への忠義の心を貫き通した、お前のようにな……。"
-79,"TEXT_HEAVNM302_02374_LEOFARD_000_164","確かに、あの飛空艇は、俺の想いをこめた愛機だった。
-……だが、おなじ想いを共有できる「仲間」のために失ったなら、
-決して、惜しくはねえさ。"
-80,"TEXT_HEAVNM302_02374_LEOFARD_000_165","ついでに言えば、「仲間」から謝罪の言葉を受け取るなんざ、
-組織として、これほどダセえことはねえ……。
-……だから、お前は謝るんじゃねえぞ？"
-81,"TEXT_HEAVNM302_02374_CAITSITH_000_166","…………そうだな、所詮、この現し世に目的も故郷もない身。
-貴様の提案に乗ってやろうではないか……。
-……あくまでも、仕方なく、な！"
-82,"TEXT_HEAVNM302_02374_LEOFARD_000_167","……上等だ。
-そんじゃ、お前に「レッドビル」としての初仕事を命じる。
-妖異の駆逐に尽力した、もうひとりの「仲間」を見送りに出るぞ！"
-83,"TEXT_HEAVNM302_02374_STACIA_000_168","まったく……あなたたちときたら……。
-レオファード、そんなボロボロで見送りに出るつもり？
-「仲間」の旅立ちなんだから、しっかり身なりも整えなさい！"
-84,"TEXT_HEAVNM302_02374_STACIA_000_200","レオファードには、予備機を使ってもらうわ。
-彼が、次の愛機を見つける気になれるまでね……。"
-85,"TEXT_HEAVNM302_02374_CAITSITH_000_205","1500年、主を失い、暗闇の中で生きてきた私が、
-こうして、新たな居場所を手に入れる日が来ようとは。
-不思議な気分であるよ……胸が、妙に暖かいのだ……。"
-86,"TEXT_HEAVNM302_02374_UTATA_000_210","ねえねえ！
-ケット・シーが、「レッドビル」のスカーフをつけてるよ！？
-もしかして、正式に仲間になったの！？　わーーいっ！！"
-87,"TEXT_HEAVNM302_02374_LEOFARD_000_250","さて、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>の旅立ちだ……。
-アバラシア雲海まで、俺たちがエスコートしてやるよ。"
-88,"TEXT_HEAVNM302_02374_LEOFARD_000_300","これで、ひとつのヤマが終わった。
-お前と未知の冒険に挑むのも、もう終わりだ……。"
-89,"TEXT_HEAVNM302_02374_LEOFARD_000_301","……なんて、安心してんじゃねえぞ？"
-90,"TEXT_HEAVNM302_02374_LEOFARD_000_302","とっておきの冒険を見つけたら、何処にいようと連れだすぜ。
-俺の命を預けられる実力の持ち主で……
-お前ほど面白い奴は、そういないからな！"
-91,"TEXT_HEAVNM302_02374_LEOFARD_000_303","もちろん、そのときは報酬をたんと弾むさ。
-極上の冒険と、そして危険という「報酬」を……！"
+48,"TEXT_HEAVNM302_02374_CAITSITH_000_005","The plan was a resounding success...though it did require some intervention on Leofard's part. I am afraid I misjudged his commitment to our cause..."
+49,"TEXT_HEAVNM302_02374_STACIA_000_000","Well, I think he'll live. Which is surprisin' considerin' he crashed his ship into a bloody demon... Damned fool."
+50,"TEXT_HEAVNM302_02374_RADLIA_000_015","How vexing to once again be rescued by Redbill...
+He'd better recover from those injuries so we can go back to hating each other on an equal footing."
+51,"TEXT_HEAVNM302_02374_LEOFARD_000_050","Bah, me goggles are a mess. But I can always get me a new pair of goggles...and a new airship. I suppose we should be glad we didn't lose aught else after divin' headlong into a voidsent nest."
+52,"TEXT_HEAVNM302_02374_RADLIA_000_051","Now that we've taken the skies back, it's time we were taking our leave. The Talons and the Redbills can kiss this brief alliance farewell...unless, of course, you're interested in a more permanent arrangement?"
+53,"TEXT_HEAVNM302_02374_LEOFARD_000_052","Your bootlickers might think your voice a siren song, but it grates on me ears like a harpy's screech. No, this is the first and last time we fly together. We're back to bein' rivals─the way it's always been."
+54,"TEXT_HEAVNM302_02374_RADLIA_000_053","You are a very stubborn man, Redbill. But you'd do well to remember: I always get what I want in the end!"
+55,"TEXT_HEAVNM302_02374_LEOFARD_000_054","...Head back to me quarters and see to the furball's hurts. I'll be along in a bit."
+56,"TEXT_HEAVNM302_02374_CAITSITH_000_055","I feel so foolish, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I demanded that Leofard remain behind, only to have him rescue my mission from certain failure─a failure that would have made mock of your heroic efforts, as well."
+57,"TEXT_HEAVNM302_02374_CAITSITH_000_056","You are too kind. Ah, what words exist that can properly express my contrition? I know not how to even begin making my apologies..."
+58,"TEXT_HEAVNM302_02374_CAITSITH_000_057","I should like to approach the captain, but he has the air of a man who seeks solitude. 'Tis strange to see him so melancholy."
+59,"TEXT_HEAVNM302_02374_CAITSITH_000_058","Could it be the loss of the <Emphasis>Raimille</Emphasis> which troubles him so...? Nay, I shan't intrude upon his contemplation with clumsy questions and trite platitudes. Let us leave him be for the moment."
+60,"TEXT_HEAVNM302_02374_LEOFARD_000_100","Go on ahead without me. I won't be long."
+61,"TEXT_HEAVNM302_02374_CAITSITH_000_105","The captain is not his usual bombastic self. Mayhap Stacia can enlighten us as to the source of this uncharacteristic malaise."
+62,"TEXT_HEAVNM302_02374_UTATA_000_110","...I heard the <Emphasis>Raimille</Emphasis> was an unsalvageable wreck. She was a fine vessel, built to endure the captain's reckless flying style, and it seems she kept him safe until her very end. Such a shame..."
+63,"TEXT_HEAVNM302_02374_RADLIA_000_115","Step up the pace, you sluggards! Let's leave this rock behind and get to celebrating the return of the Talons!"
+64,"TEXT_HEAVNM302_02374_CAITSITH_000_150","Mistress Stacia, if I might ask you a question: do you know the cause of the captain's melancholy?"
+65,"TEXT_HEAVNM302_02374_CAITSITH_000_151","Is it because of the <Emphasis>Raimille</Emphasis>? Pray tell me if it is so. I cannot help but feel responsible for the vessel's destruction and I would better understand Leofard's present distress."
+66,"TEXT_HEAVNM302_02374_STACIA_000_152","Hmmm... If you really want to understand, I suppose I should start with how the captain was orphaned as a child. As matters turned out, he was taken in by a highborn widow who raised him as her son."
+67,"TEXT_HEAVNM302_02374_STACIA_000_153","From what Leofard has told me, his adoptive mother was a kind, quiet-spoken woman, but due to some illness or other she was rarely able to venture outside. Instead, she spent hours readin' to her boy from a library well stocked with books from faraway lands."
+68,"TEXT_HEAVNM302_02374_STACIA_100_153","Leofard cared for her as her malady grew worse by the day...and he was there by her side when death finally carried her away to Thal's halls."
+69,"TEXT_HEAVNM302_02374_STACIA_000_154","While she was alive, she never did ask much of him. Not long before she passed on, however, she wrung from him one single promise: that he escape the conformity she had always endured, and live his life as free as a bird."
+70,"TEXT_HEAVNM302_02374_STACIA_000_155","As you've likely guessed, her name was Raimille. That's her portrait there hangin' on the wall..."
+71,"TEXT_HEAVNM302_02374_CAITSITH_000_156","Ah, this explains much! I had wondered as to the origin of his vessel's naming."
+72,"TEXT_HEAVNM302_02374_STACIA_000_157","The sky pirate way is the life Leofard chose for himself. But I like to think he named his ship the <Emphasis>Raimille</Emphasis> so that his mother would be there to watch over all of his adventures."
+73,"TEXT_HEAVNM302_02374_LEOFARD_000_159","Since when were you so loose-lipped about a comrade's private past, Stacia?"
+74,"TEXT_HEAVNM302_02374_LEOFARD_100_159","...I ain't in the habit of leanin' on people's sympathies, so you can all keep that tidbit to yourselves, eh?"
+75,"TEXT_HEAVNM302_02374_LEOFARD_000_161","And I thought I told you to see to the furball's wounds. Look at your cape, puss, it's in tatters. Come here a moment..."
+76,"TEXT_HEAVNM302_02374_CAITSITH_000_162","A scarf? For me...?"
+77,"TEXT_HEAVNM302_02374_LEOFARD_000_163","Aye, that's a little present we give to every new Redbill."
+78,"TEXT_HEAVNM302_02374_LEOFARD_100_163","Raimille taught me that it's not protectin' memories that's important─it's havin' the strength to follow your path and make those memories in the first place. Seein' how determined you were to clean your master's slate, I'd say you'd fit right in with our crew."
+79,"TEXT_HEAVNM302_02374_LEOFARD_000_164","Listen. If you're thinkin' that that little airship meant a lot to me, then you'd be right. But I'd rather mourn a hunk of metal than lose them as can share in me highs and lows."
+80,"TEXT_HEAVNM302_02374_LEOFARD_000_165","So let's get this straight, puss: there's no need for apologies. A sky pirate makes his choice, and he sticks by it."
+81,"TEXT_HEAVNM302_02374_CAITSITH_000_166","...The life of a sky pirate, hm? As I seem to be bereft of both place and purpose now, I suppose I shall accept your offer. I am yours to command, Captain!"
+82,"TEXT_HEAVNM302_02374_LEOFARD_000_167","Glad to hear it. Your first duty is to join us in givin' our adventurer here a proper send-off!"
+83,"TEXT_HEAVNM302_02374_STACIA_000_168","Well, it's about bloody time you two saw eye to eye. But honestly, Captain, you don't mean to head out in those rags, do you? Let's get you cleaned up as well before we say our fond farewells!"
+84,"TEXT_HEAVNM302_02374_STACIA_000_200","We've a spare airship the captain can use for now until he feels ready to build a new one..."
+85,"TEXT_HEAVNM302_02374_CAITSITH_000_205","For fifteen centuries did I wander in the dark, alone. To be so surrounded by companions and given a new hearth to call home fills me with a warmth I had almost forgotten was possible..."
+86,"TEXT_HEAVNM302_02374_UTATA_000_210","Did you see!? Cait Sith is wearing a Redbills scarf! Isn't that just wonderful!"
+87,"TEXT_HEAVNM302_02374_LEOFARD_000_250","It's time we parted ways, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Let's give you an escort down to Coldwind."
+88,"TEXT_HEAVNM302_02374_LEOFARD_000_300","That was some adventure, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, but our journey into the unknown is over..."
+89,"TEXT_HEAVNM302_02374_LEOFARD_000_301","...For the now."
+90,"TEXT_HEAVNM302_02374_LEOFARD_000_302","When the skies spit out some new mystery, you can bet that I'm comin' to find you. After all, there ain't nobody else who handles the unexpected quite like you do."
+91,"TEXT_HEAVNM302_02374_LEOFARD_000_303","High adventure and the heady rush of danger─surely in this life there is no greater reward!"
 92,"TEXT_HEAVNM302_02374_UTATA_000_010","（★未使用／削除予定★）"
 93,"TEXT_HEAVNM302_02374_STACIA_000_158","（★未使用／削除予定★）"
 94,"TEXT_HEAVNM302_02374_CAITSITH_000_160","（★未使用／削除予定★）"

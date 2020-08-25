@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNZ111_01760_SEQ_00","聖フィネア連隊の露営地のジャントゥローは、冒険者に眷属狩りを勧めようとしている。"
-1,"TEXT_HEAVNZ111_01760_SEQ_01","ジャントゥローから、ドラゴン族の眷属狩りをする前に肩慣らしをしないかと提案された。クルザス西部高地のツインプールズで「<Sheet(BNpcName,3482,0)/>」を3体討伐しよう。"
-2,"TEXT_HEAVNZ111_01760_SEQ_02","<Sheet(BNpcName,3482,0)/>を討伐した。聖フィネア連隊の露営地の「ジャントゥロー」に報告しよう。"
-3,"TEXT_HEAVNZ111_01760_SEQ_03","ジャントゥローに報告した。次は眷属狩りの本番のため、準備が整ったら再びジャントゥローに声をかけよう。"
+0,"TEXT_HEAVNZ111_01760_SEQ_00","Jantellot wants you to experience firsthand what life at the Convictory is like."
+1,"TEXT_HEAVNZ111_01760_SEQ_01","Jantellot wants you to know what life is like at the Convictory, and suggests a bit of hunting as an example. Though the Convictors slay dragons, Jantellot recommends a warm-up before confronting the Dravanian Horde itself. He suggests hunting rheums instead. Locate and slay three rheums."
+2,"TEXT_HEAVNZ111_01760_SEQ_02","You venture out into the highlands and slay the rheums as instructed. Return to Jantellot at the Convictory and let him know that you are ready for something a bit more draconic."
+3,"TEXT_HEAVNZ111_01760_SEQ_03","Jantellot congratulates you on your kills. It seems that the rheums were no match for you. But dragons are another thing altogether. He suggests you speak with him again some time if you want to try your hand at the real thing."
 4,"TEXT_HEAVNZ111_01760_SEQ_04",""
 5,"TEXT_HEAVNZ111_01760_SEQ_05",""
 6,"TEXT_HEAVNZ111_01760_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_HEAVNZ111_01760_SEQ_21",""
 22,"TEXT_HEAVNZ111_01760_SEQ_22",""
 23,"TEXT_HEAVNZ111_01760_SEQ_23",""
-24,"TEXT_HEAVNZ111_01760_TODO_00","<Sheet(BNpcName,3482,0)/>を討伐"
-25,"TEXT_HEAVNZ111_01760_TODO_01","ジャントゥローに報告"
+24,"TEXT_HEAVNZ111_01760_TODO_00","Slay rheums."
+25,"TEXT_HEAVNZ111_01760_TODO_01","Report to Jantellot."
 26,"TEXT_HEAVNZ111_01760_TODO_02",""
 27,"TEXT_HEAVNZ111_01760_TODO_03",""
 28,"TEXT_HEAVNZ111_01760_TODO_04",""
@@ -49,19 +49,9 @@ int32,str,str
 45,"TEXT_HEAVNZ111_01760_TODO_21",""
 46,"TEXT_HEAVNZ111_01760_TODO_22",""
 47,"TEXT_HEAVNZ111_01760_TODO_23",""
-48,"TEXT_HEAVNZ111_01760_JANTELLOT_000_000","……お前、かなり腕が立つんだろ？
-どうだい、せっかく「聖フィネア連隊の露営地」に来たんだ、
-ドラゴン族の眷属狩りを楽しんでみないか？"
-49,"TEXT_HEAVNZ111_01760_JANTELLOT_000_001","だが、眷属とはいえ、相手はなかなかに手強い……。
-まずは肩慣らしに、「<Sheet(BNpcName,3482,0)/>」を3体ほど倒してくるといい。
-ほらほら、物は試しって言うだろう？　さっそく行ってみろよ。"
-50,"TEXT_HEAVNZ111_01760_JANTELLOT_000_010","だが、眷属とはいえ、相手はなかなかに手強い……。
-まずは肩慣らしに、「<Sheet(BNpcName,3482,0)/>」を3体ほど倒してくるといい。
-ほらほら、物は試しって言うだろう？　さっそく行ってみろよ。"
-51,"TEXT_HEAVNZ111_01760_JANTELLOT_000_020","おう、どうやら「<Sheet(BNpcName,3482,0)/>」を仕留めてきたみてぇだな。
-どうだった、ヤツらもそれなりに歯ごたえがあったろう？
-……え？　そうでもなかった？"
-52,"TEXT_HEAVNZ111_01760_JANTELLOT_000_021","ハハハハッ、なかなかやるじゃねえか。
-「<Sheet(BNpcName,3482,0)/>」程度の小物じゃ、肩慣らしにもならないってか？"
-53,"TEXT_HEAVNZ111_01760_JANTELLOT_000_022","それじゃあ、お次は本番と行こうじゃないか。
-準備ができたら、声をかけてくれよな。"
+48,"TEXT_HEAVNZ111_01760_JANTELLOT_000_000","I remember you─how could I forget? You're the <If(PlayerParameter(4))>lass<Else/>lad</If> who was in the Azure Dragoon's company! Since you are here anyway, perhaps you might like to try your hand at a spot of hunting before you depart? See for yourself what life is like for us Convictors."
+49,"TEXT_HEAVNZ111_01760_JANTELLOT_000_001","The Dravanian Horde is stronger than you might expect. Unless you've been at it for years─like I have─I think it prudent to start with something simple and then work your way up to dragons. I suggest rheums. Slay three of those, then come back here. Consider it a warm-up!"
+50,"TEXT_HEAVNZ111_01760_JANTELLOT_000_010","The Horde has claimed more than a few overconfident young soldiers. Best to start with something a little safer: kill three rheums and then come back to me."
+51,"TEXT_HEAVNZ111_01760_JANTELLOT_000_020","Slain those rheums already, have you? How did you find them? Did they put up much of a fight?"
+52,"TEXT_HEAVNZ111_01760_JANTELLOT_000_021","Good work, <If(PlayerParameter(4))>lass<Else/>lad</If>! Clearly the Azure Dragoon doesn't travel with mere amateurs. It sounds like those rheums barely put up enough of a fight to be considered a proper warm-up!"
+53,"TEXT_HEAVNZ111_01760_JANTELLOT_000_022","You clearly know what you're doing. If you want to try your hand at hunting down some dragons, speak with me again some time."

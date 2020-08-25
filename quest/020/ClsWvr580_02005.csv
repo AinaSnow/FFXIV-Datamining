@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSWVR580_02005_SEQ_00","イシュガルドのアヴェリルは、なにやら困っているようだ。"
-1,"TEXT_CLSWVR580_02005_SEQ_01","アヴェリルは、グレンダから綿糸を作るよう頼まれたようだ。訓練へ行っているフレスキンが心配なため、代わりに冒険者に届けてほしいという。イシュガルドのレマノ―大聖堂にいる「グレンダ」に「<Sheet(EventItem,2001713,0)/>」を渡そう。"
-2,"TEXT_CLSWVR580_02005_SEQ_02","グレンダに<Sheet(EventItem,2001713,0)/>を渡した。グレンダは、さらにアヴェリルに修道士のローブを作るよう要求してきた。尊者の凱旋門の「アヴェリル」に報告しよう。"
-3,"TEXT_CLSWVR580_02005_SEQ_03","アヴェリルに報告した。アヴェリルにとって難題だが、自分で作る決意をしたようだ。素材となる「<Sheet(ItemHQ,12596,0)/>」を3つ製作して、尊者の凱旋門の「アヴェリル」に納品しよう。"
-4,"TEXT_CLSWVR580_02005_SEQ_04","アヴェリルに<Sheet(ItemHQ,12596,0)/>を納品した。アヴェリルは、見事に修道士のローブを作って、グレンダの要求に応えた。どうやら、母と娘の静かな戦いが繰り広げられているようだ。依頼人のアヴェリルを裁縫で支えていこう。
+0,"TEXT_CLSWVR580_02005_SEQ_00","Averil's eyes are shining with glee."
+1,"TEXT_CLSWVR580_02005_SEQ_01","Averil reveals that she is now officially a chirurgeon, and can join Freskin in battle. Glenda may suspect something is up, however, for she has recently demanded that Averil spin a wool donation. Averil has done so, and asks that you take it to her mother in Saint Reymanaud's Cathedral."
+2,"TEXT_CLSWVR580_02005_SEQ_02","You hand over the wool donation to a nonplussed Glenda, who demands in return that you tell Averil to fashion monastic robes. Return to the Arc of the Venerable, and inform Averil now."
+3,"TEXT_CLSWVR580_02005_SEQ_03","Averil is shocked to hear her mother's request. Much as she would like you to make the monastic robes in her place, she understands that she must do it by herself. However, Averil continues, her mother never forbade you from making the <Emphasis>materials</Emphasis> for the robes. To that end, she asks that you spin her three spindles of high-quality crawler silk."
+4,"TEXT_CLSWVR580_02005_SEQ_04","Using the crawler silk you painstakingly spun, Averil weaves and sews a fine set of monastic robes that pass even Glenda's stern inspection. With a hint of devilish glee, Averil announces that she will be staying out longer and later, and Glenda walks off in a huff. Averil says she will continue practicing, and will call upon you one last time when the day of battle draws near.
 
-※裁縫師のレベルが60以上になると、尊者の凱旋門のアヴェリルから次の裁縫師クエストを受注することができます。"
+※The next weaver quest will be available from Averil upon reaching level 60."
 5,"TEXT_CLSWVR580_02005_SEQ_05",""
 6,"TEXT_CLSWVR580_02005_SEQ_06",""
 7,"TEXT_CLSWVR580_02005_SEQ_07",""
@@ -27,9 +27,9 @@ int32,str,str
 21,"TEXT_CLSWVR580_02005_SEQ_21",""
 22,"TEXT_CLSWVR580_02005_SEQ_22",""
 23,"TEXT_CLSWVR580_02005_SEQ_23",""
-24,"TEXT_CLSWVR580_02005_TODO_00","グレンダに<Sheet(EventItem,2001713,0)/>を渡す"
-25,"TEXT_CLSWVR580_02005_TODO_01","アヴェリルに報告"
-26,"TEXT_CLSWVR580_02005_TODO_02","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))><Sheet(ItemHQ,12596,0)/>を製作<Else/>アヴェリルに<Sheet(ItemHQ,12596,0)/>を納品</If>"
+24,"TEXT_CLSWVR580_02005_TODO_00","Deliver the donation of wool to Glenda."
+25,"TEXT_CLSWVR580_02005_TODO_01","Report to Averil."
+26,"TEXT_CLSWVR580_02005_TODO_02","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Craft spindles of crawler silk <Sheet(Addon,9,0)/><Else/>Deliver the spindles of crawler silk <Sheet(Addon,9,0)/> to Averil</If>."
 27,"TEXT_CLSWVR580_02005_TODO_03",""
 28,"TEXT_CLSWVR580_02005_TODO_04",""
 29,"TEXT_CLSWVR580_02005_TODO_05",""
@@ -51,76 +51,36 @@ int32,str,str
 45,"TEXT_CLSWVR580_02005_TODO_21",""
 46,"TEXT_CLSWVR580_02005_TODO_22",""
 47,"TEXT_CLSWVR580_02005_TODO_23",""
-48,"TEXT_CLSWVR580_02005_AVERIL_000_000","裁縫師さん、聞いてください！
-おかげさまで、デュランデル家の騎兵団に入団できました！
-母には伝えてませんが、戦場に出てしまえばこっちのものです。"
-49,"TEXT_CLSWVR580_02005_AVERIL_000_001","……ところが、母も何か察したのか、
-私に、大聖堂に寄付する綿糸を紡ぐよう言ってきたのです。
-どうにか、急いで用意はしました……。"
-50,"TEXT_CLSWVR580_02005_AVERIL_000_002","裁縫師さん……申し訳ないのですが、
-「聖レマノー大聖堂」にいる母「グレンダ」に、
-「<Sheet(EventItem,2001713,0)/>」を届けていただきたいのです。"
-51,"TEXT_CLSWVR580_02005_AVERIL_000_003","個人的なことですし、私が渡しに行くべきなのですが、
-訓練に出かけたフレスキンが心配で……。
-彼が帰るまで待っていたいのです……お願いします！"
-52,"TEXT_CLSWVR580_02005_AVERIL_000_010","「聖レマノー大聖堂」にいる母「グレンダ」に、
-「<Sheet(EventItem,2001713,0)/>」を届けていただきたいのです。"
-53,"TEXT_CLSWVR580_02005_GLENDA_000_020","……なんでまた、あなたがここにいるのかしら？"
-54,"TEXT_CLSWVR580_02005_GLENDA_000_021","……あなたがこれを持ってくるなんて、どういうこと？
-それにしても、思ったより早くできちゃったわね。
-ちょっと、簡単すぎたかしら……。"
-55,"TEXT_CLSWVR580_02005_GLENDA_000_022","きっと、娘も成長しているってことね……
-それじゃあ次は、修道士のローブを作ってもらおうかしら……。"
-56,"TEXT_CLSWVR580_02005_GLENDA_000_023","娘に伝えておいてちょうだい。
-できないようだったら、外出を禁止することにするわ。
-裁縫をするのに、外に出る必要はありませんからね。"
-57,"TEXT_CLSWVR580_02005_GLENDA_000_024","ああ、もちろん……あなたが作っちゃダメよ。
-私には、娘が作ったものかどうかくらい、わかるんですから！"
-58,"TEXT_CLSWVR580_02005_GLENDA_000_030","娘に伝えておいてちょうだい。
-できないようだったら、外出を禁止することにするわ。
-裁縫をするのに、外に出る必要はありませんからね。"
-59,"TEXT_CLSWVR580_02005_AVERIL_000_040","裁縫師さん、お手数をおかけしました。
-フレスキンも無事に帰ってきましたよ。
-今度は帰り道で、滑って転んだみたいですけど……。"
-60,"TEXT_CLSWVR580_02005_AVERIL_000_041","……ええっ？
-そんな……修道士のローブだなんて……
-私には難しすぎます。"
-61,"TEXT_CLSWVR580_02005_AVERIL_000_042","やっぱり、母は何かを嗅ぎつけているようですね。
-どうしても私を裁縫漬けにして、家に閉じ込めたいようです。"
-62,"TEXT_CLSWVR580_02005_AVERIL_000_043","裁縫師さんに頼めば、すぐにでも作ってもらえるのでしょう。
-ですが、母が言うように、誰が作ったかは一目瞭然……
-やはり自力で作らなければなりません。"
-63,"TEXT_CLSWVR580_02005_AVERIL_000_044","問題は、修道士のローブに使われる、
-素材の「<Sheet(ItemHQ,12596,0)/>」です。
-イシュガルドでは、中々手に入らないもの……。"
-64,"TEXT_CLSWVR580_02005_AVERIL_000_045","裁縫師さん、力を貸してください。
-品質の高い「<Sheet(ItemHQ,12596,0)/>」を、
-3つほど紡いでほしいのです……よろしくお願いします！"
-65,"TEXT_CLSWVR580_02005_AVERIL_000_050","（★未使用／削除予定★）"
-66,"TEXT_CLSWVR580_02005_AVERIL_000_060","品質の高い「<Sheet(ItemHQ,12596,0)/>」を、
-3つほど紡いでほしいのです……よろしくお願いします！"
-67,"TEXT_CLSWVR580_02005_AVERIL_000_061","なんて、美しい糸でしょう……！
-これがあればきっと、母も納得する修道士のローブが作れます。"
-68,"TEXT_CLSWVR580_02005_AVERIL_000_062","よーし、今すぐ作ってきますね！
-裁縫師さんにも見てもらいたいので、しばらくお待ちください！"
-69,"TEXT_CLSWVR580_02005_AVERIL_000_063","……ハァハァ、なんとか……できました！
-裁縫師さんの糸が、高品質で丈夫だったからこそ、
-私の腕でも編みきることができましたよ。"
-70,"TEXT_CLSWVR580_02005_GLENDA_000_064","……アヴェリル、こんなところで油売ってるヒマあるの？
-修道士のローブはできたのかしら？"
-71,"TEXT_CLSWVR580_02005_AVERIL_000_065","はい、もうできました！"
-72,"TEXT_CLSWVR580_02005_GLENDA_000_066","なんですって……！？
-裁縫師さんに、作ってもらったんじゃないでしょうね！"
-73,"TEXT_CLSWVR580_02005_AVERIL_000_067","素材作りは裁縫師さんに手伝ってもらいましたが、
-品を作ったのは正真正銘、私です！"
-74,"TEXT_CLSWVR580_02005_GLENDA_000_068","……この縫い目の癖は……確かにあなたのもの……。
-まさか……本当に作れるなんて……。"
-75,"TEXT_CLSWVR580_02005_AVERIL_000_069","では、私はこれからも、外出させていただきますから……。
-ここは家の中より、ずっと居心地がいいんです。"
-76,"TEXT_CLSWVR580_02005_GLENDA_000_070","まぁ……なんて反抗的な物言いでしょう！
-……まるで、昔の私みたい。"
-77,"TEXT_CLSWVR580_02005_AVERIL_000_071","昔の……お母さん……？"
-78,"TEXT_CLSWVR580_02005_AVERIL_000_072","……ともかく、これで幻術の修行が再開できそうですね。
-初陣の日が近づいたら、また装束の製作をお願いしたいです！"
-79,"TEXT_CLSWVR580_02005_SYSTEM_100_001","（★未使用／削除予定★）"
-80,"TEXT_CLSWVR580_02005_SYSTEM_100_002","（★未使用／削除予定★）"
+48,"TEXT_CLSWVR580_02005_AVERIL_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! I've wonderful tidings: House Durendaire accepted me as a chirurgeon! I can go with Freskin now!"
+49,"TEXT_CLSWVR580_02005_AVERIL_000_001","Of course, I've yet to tell Mother...but she's been acting strangely. Why, she asked me to spin a wool donation, and told me she needed it last bell!"
+50,"TEXT_CLSWVR580_02005_AVERIL_000_002","So I worked as fast as I could, and just finished it. I hate to ask, but would you be a dear and take it to her?"
+51,"TEXT_CLSWVR580_02005_AVERIL_000_003","I ought to deliver it myself. But Freskin has been training with his master-at-arms, and I'm worried about him. I'd like to inspect him when he gets back to make sure he's all right."
+52,"TEXT_CLSWVR580_02005_AVERIL_000_010","Why would Mother need that donation now? Surely the cathedral can't want for wool."
+53,"TEXT_CLSWVR580_02005_GLENDA_000_020","You? What are <Emphasis>you</Emphasis> doing here?"
+54,"TEXT_CLSWVR580_02005_GLENDA_000_021","Oh, I had hoped Averil would come herself. But I wasn't expecting her until later. She shouldn't have finished this quickly..."
+55,"TEXT_CLSWVR580_02005_GLENDA_000_022","Maybe she is improving. Very well. Tell her to make a set of monastic robes."
+56,"TEXT_CLSWVR580_02005_GLENDA_000_023","If she can't do it, she will not be leaving the house on these ridiculous outings. I will forbid it! She has everything she needs for weaving in her chambers."
+57,"TEXT_CLSWVR580_02005_GLENDA_000_024","And don't you dare make the robes for her. If you sew so much as one stitch, I will be able to tell!"
+58,"TEXT_CLSWVR580_02005_GLENDA_000_030","Tell my daughter to make a set of fine monastic robes."
+59,"TEXT_CLSWVR580_02005_AVERIL_000_040","Freskin is safe, though he managed to bang himself up a bit on the road home, somehow. Now what of Mother? She wasn't too angry, was she?"
+60,"TEXT_CLSWVR580_02005_AVERIL_000_041","Is that a jest!? I can't just make monastic robes with a...with a flick of my wrist!"
+61,"TEXT_CLSWVR580_02005_AVERIL_000_042","It's as if she's sensed I'm lying! Why else would she burden me with an impossible task, and take my freedom if I fail?"
+62,"TEXT_CLSWVR580_02005_AVERIL_000_043","Gods, if only you could do it for me. But Mother will notice, and then I'll be locked at home forever and ever! <sigh> I'll just have to roll up my sleeves and do it myself."
+63,"TEXT_CLSWVR580_02005_AVERIL_000_044","Where do I begin? What do you use for monastic...oh, that's right─crawler silk. Ugh. It's impossible to find any of quality in Ishgard."
+64,"TEXT_CLSWVR580_02005_AVERIL_000_045","...But it's not cheating if <Emphasis>you</Emphasis> spin me the silk, and <Emphasis>I</Emphasis> make the robe, is it? Haha, that's it! I can do this if you make me three spindles! Please?"
+65,"TEXT_CLSWVR580_02005_AVERIL_000_050","deleted"
+66,"TEXT_CLSWVR580_02005_AVERIL_000_060","Honestly, what is she thinking? I'll show Mother I can do it! I just need crawler silk."
+67,"TEXT_CLSWVR580_02005_AVERIL_000_061","Beautiful! This is exactly what I'd expect from you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Gods willing, it shouldn't be too hard to make monastic robes using <Emphasis>these</Emphasis> materials."
+68,"TEXT_CLSWVR580_02005_AVERIL_000_062","I'll get to weaving them now. Wait here─I'd like you to look over my effort."
+69,"TEXT_CLSWVR580_02005_AVERIL_000_063","Well, that turned out much better than I expected! All thanks to the crawler silk you spun me, I daresay."
+70,"TEXT_CLSWVR580_02005_GLENDA_000_064","Averil! What are you doing, loafing about here? I gave you a task!"
+71,"TEXT_CLSWVR580_02005_AVERIL_000_065","Hello to you, too, Mother. Oh, and the robes <Emphasis>are</Emphasis> finished."
+72,"TEXT_CLSWVR580_02005_GLENDA_000_066","What? How!? Did <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> make them for you? Are you passing <If(PlayerParameter(4))>her<Else/>his</If> work off as your own!? Don't lie to me, girl!"
+73,"TEXT_CLSWVR580_02005_AVERIL_000_067","Why, Mother, you wrong me! <If(PlayerParameter(4))>She<Else/>He</If> did obtain the materials, but I stitched the robes from collar to hem <Emphasis>entirely</Emphasis> by myself, thank you."
+74,"TEXT_CLSWVR580_02005_GLENDA_000_068","Hmmm... The seams aren't quite even. Very much <Emphasis>your</Emphasis> handiwork."
+75,"TEXT_CLSWVR580_02005_AVERIL_000_069","I'm <Emphasis>so</Emphasis> happy you're satisfied, Mother. I take it I have your permission to be away from home more often? It's just more <Emphasis>pleasant</Emphasis> outside, don't you think?"
+76,"TEXT_CLSWVR580_02005_GLENDA_000_070","Hmph! Arrogant girl! You remind me of─ Hmph!"
+77,"TEXT_CLSWVR580_02005_AVERIL_000_071","What in the world...?"
+78,"TEXT_CLSWVR580_02005_AVERIL_000_072","Oh, who cares? She didn't say no─I've got all the time I need to practice conjury now! Thank you again, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I'll call you again for one last request, if that's all right. Just before Freskin and I leave."
+79,"TEXT_CLSWVR580_02005_SYSTEM_100_001","deleted"
+80,"TEXT_CLSWVR580_02005_SYSTEM_100_002","deleted"

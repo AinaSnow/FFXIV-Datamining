@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ913_02869_SEQ_00","ラールガーズリーチのアラミゴ解放軍の老闘士は、人を探しているようだ。"
+0,"TEXT_STMBDZ913_02869_SEQ_00","This elderly private needs help finding someone."
 1,"TEXT_STMBDZ913_02869_SEQ_01",""
 2,"TEXT_STMBDZ913_02869_SEQ_02",""
 3,"TEXT_STMBDZ913_02869_SEQ_03",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_STMBDZ913_02869_SEQ_21",""
 22,"TEXT_STMBDZ913_02869_SEQ_22",""
 23,"TEXT_STMBDZ913_02869_SEQ_23",""
-24,"TEXT_STMBDZ913_02869_TODO_00","カストルム・オリエンスの将兵と話す"
-25,"TEXT_STMBDZ913_02869_TODO_01","双蛇党の兵卒と話す"
+24,"TEXT_STMBDZ913_02869_TODO_00","Speak with the soldiers at Castrum Oriens."
+25,"TEXT_STMBDZ913_02869_TODO_01","Speak with the serpent recruit."
 26,"TEXT_STMBDZ913_02869_TODO_02",""
 27,"TEXT_STMBDZ913_02869_TODO_03",""
 28,"TEXT_STMBDZ913_02869_TODO_04",""
@@ -49,60 +49,24 @@ int32,str,str
 45,"TEXT_STMBDZ913_02869_TODO_21",""
 46,"TEXT_STMBDZ913_02869_TODO_22",""
 47,"TEXT_STMBDZ913_02869_TODO_23",""
-48,"TEXT_STMBDZ913_02869_ELDERLYPRIVATE02869_000_000","すみませぬが、人探しにご助力いただけないでしょうか？
-実は私の娘が、カストルム・オリエンスの辺りに向かってから、
-ずいぶん経つというのに帰ってこないのです……。"
-49,"TEXT_STMBDZ913_02869_ELDERLYPRIVATE02869_000_001","当地に詰めている同盟軍の将兵たちに、
-娘を見かけなかったか、聞いてみてはくれませぬか？
-貴方であれば、顔が利くかと思いまして……。"
-50,"TEXT_STMBDZ913_02869_ELDERLYPRIVATE02869_000_002","娘の髪は金色、目は栗色……。
-任務でバエサルの長城へと向かったはずなのです。
-どうか……どうか、娘を探し出してください！"
-51,"TEXT_STMBDZ913_02869_ELDERLYPRIVATE02869_000_003","娘の髪は金色、目は栗色……。
-任務でバエサルの長城へと向かったはずなのです。
-どうか……どうか、娘を探し出してください！"
-52,"TEXT_STMBDZ913_02869_SWETHRYKBROOKSTONE_000_010","<If(GreaterThan(PlayerParameter(52),0))><Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/><If(GreaterThan(PlayerParameter(52),0))><Sheet(GCRankLimsaMaleText,PlayerParameter(52),0)/><Else/></If><Else/></If><If(GreaterThan(PlayerParameter(53),0))><Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/><If(GreaterThan(PlayerParameter(53),0))><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),0)/><Else/></If><Else/></If><If(GreaterThan(PlayerParameter(54),0))><Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/><If(GreaterThan(PlayerParameter(54),0))><Sheet(GCRankUldahMaleText,PlayerParameter(54),0)/><Else/></If><Else/></If>ではないか。
-どうした、私に何か用か？"
-53,"TEXT_STMBDZ913_02869_SWETHRYKBROOKSTONE_000_011","該当する女性闘士が来たという報告は受けておらんな。
-……だが、以前そんな女性を探しに来た男性がいたと、
-部下から報告があったな。"
-54,"TEXT_STMBDZ913_02869_SWETHRYKBROOKSTONE_000_012","もしかしたら、詳細を知っているかもしれない。
-「双蛇党の兵卒」に話を聞いてみるといいだろう。"
-55,"TEXT_STMBDZ913_02869_KAKALAI_000_013","金髪の女性闘士ですか……
-すみません、ちょっと心当たりがないですね。
-力になれず、申し訳ありません。"
-56,"TEXT_STMBDZ913_02869_LOEZKIRZ_000_014","ふむ、アラミゴ解放軍の女性闘士を探していると？
-見たことがあるのは、ミコッテ族の女性だったが、
-きっと尋ね人とは違うのだろう？"
-57,"TEXT_STMBDZ913_02869_PIP_000_015","金髪で栗色の目をした女性をお探しと？
-私はわかりませんが、双蛇党の方なら何かご存知かもしれません。
-当地の歩哨は、双蛇党が担当しておりますので……。"
-58,"TEXT_STMBDZ913_02869_SWETHRYKBROOKSTONE_000_016","もしかしたら、詳細を知っているかもしれない。
-「双蛇党の兵卒」に話を聞いてみるといいだろう。"
-59,"TEXT_STMBDZ913_02869_KAKALAI_000_017","金髪の女性闘士ですか……
-すみません、ちょっと心当たりがないですね。
-力になれず、申し訳ありません。"
-60,"TEXT_STMBDZ913_02869_LOEZKIRZ_000_018","ふむ、アラミゴ解放軍の女性闘士を探していると？
-見たことがあるのは、ミコッテ族の女性だったが、
-きっと尋ね人とは違うのだろう？"
-61,"TEXT_STMBDZ913_02869_PIP_000_019","金髪で栗色の目をした女性をお探しと？
-私はわかりませんが、双蛇党の方なら何かご存知かもしれません。
-当地の歩哨は、双蛇党が担当しておりますので……。"
-62,"TEXT_STMBDZ913_02869_TWINADDERSONSTELOT02869_000_030","なんですって？
-ラールガーズリーチの老闘士に頼まれて、
-娘を探しているですって？"
-63,"TEXT_STMBDZ913_02869_TWINADDERSONSTELOT02869_000_031","あの方、まだ受け入れることができずにいるのですね……。
-……実は、その方が探されている娘さんは、行方不明ではなく、
-すでに亡くなられているのです。"
-64,"TEXT_STMBDZ913_02869_TWINADDERSONSTELOT02869_000_032","あとから調べてわかったことなのですが、彼女は、
-鉄仮面の演説に心を動かされ、バエサルの長城の襲撃に参加。
-そこで、命を落としたようです。"
-65,"TEXT_STMBDZ913_02869_TWINADDERSONSTELOT02869_000_033","我々が回収した遺品を手に、ラールガーズリーチへ赴き、
-遺族を探したときに、お父さまと出会い身元を確認しました。"
-66,"TEXT_STMBDZ913_02869_TWINADDERSONSTELOT02869_000_034","ですが、彼は娘の死を受け入れることができなかったようです。
-以降、何度もここを訪れては、娘の行方を探すようにと、
-嘆願を繰り返しているのですよ……。"
-67,"TEXT_STMBDZ913_02869_TWINADDERSONSTELOT02869_000_035","お父さまには、また私の方から説明をしに行こうと思いますので、
-あなたは戻られなくて大丈夫ですよ。
-わざわざ、ご苦労様でした。"
-68,"TEXT_STMBDZ913_02869_TWINADDERSONSTELOT02869_000_036","（★未使用／削除予定★）"
+48,"TEXT_STMBDZ913_02869_ELDERLYPRIVATE02869_000_000","Sorry to bother you, but would you mind helping me look for my daughter? She headed off in the direction of Castrum Oriens quite a while ago and should've been back by now."
+49,"TEXT_STMBDZ913_02869_ELDERLYPRIVATE02869_000_001","Would you mind asking the Alliance soldiers there if they've seen her?"
+50,"TEXT_STMBDZ913_02869_ELDERLYPRIVATE02869_000_002","She has blonde hair and brown eyes. Last I heard she had been dispatched to fight at Baelsar's Wall. Please, bring her back to me!"
+51,"TEXT_STMBDZ913_02869_ELDERLYPRIVATE02869_000_003","She has blonde hair and brown eyes. Last I heard she had been dispatched to fight at Baelsar's Wall. Please, bring her back to me!"
+52,"TEXT_STMBDZ913_02869_SWETHRYKBROOKSTONE_000_010","Ah, <Clickable(<If(GreaterThan(PlayerParameter(52),0))><Sheet(GCRankLimsaMaleText,PlayerParameter(52),8)/><Else/></If><If(GreaterThan(PlayerParameter(53),0))><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),8)/><Else/></If><If(GreaterThan(PlayerParameter(54),0))><Sheet(GCRankUldahMaleText,PlayerParameter(54),8)/><Else/></If>)/> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>! To what do we owe the pleasure?"
+53,"TEXT_STMBDZ913_02869_SWETHRYKBROOKSTONE_000_011","Hmm, I cannot say anyone here matches that description. That said, I do faintly recall hearing of a gentleman searching for such a lady in the past."
+54,"TEXT_STMBDZ913_02869_SWETHRYKBROOKSTONE_000_012","It may be worth your while asking some of my subordinates if they know aught."
+55,"TEXT_STMBDZ913_02869_KAKALAI_000_013","A blonde female soldier? Sorry, no one comes to mind."
+56,"TEXT_STMBDZ913_02869_LOEZKIRZ_000_014","I've seen a Miqo'te that matches that description, but no Hyurs."
+57,"TEXT_STMBDZ913_02869_PIP_000_015","Cannot say I have seen anyone like that around here. You may have better luck asking a member of the Order of the Twin Adder. This is their post after all."
+58,"TEXT_STMBDZ913_02869_SWETHRYKBROOKSTONE_000_016","It may be worth your while asking some of my subordinates if they know aught."
+59,"TEXT_STMBDZ913_02869_KAKALAI_000_017","A blonde female soldier? Sorry, no one comes to mind."
+60,"TEXT_STMBDZ913_02869_LOEZKIRZ_000_018","I've seen a Miqo'te that matches that description, but no Hyurs."
+61,"TEXT_STMBDZ913_02869_PIP_000_019","Cannot say I have seen anyone like that around here. You may have better luck asking a member of the Order of the Twin Adder. This is their post after all."
+62,"TEXT_STMBDZ913_02869_TWINADDERSONSTELOT02869_000_030","Wait, did you just say you were asked to search for this woman by an elderly private?"
+63,"TEXT_STMBDZ913_02869_TWINADDERSONSTELOT02869_000_031","Losing a loved one is never easy, but it really is about time he accepted reality. His daughter has been dead for a while now."
+64,"TEXT_STMBDZ913_02869_TWINADDERSONSTELOT02869_000_032","She was seduced by the Griffin's words and joined his forces in the battle at Baelsar's Wall. It was there she breathed her last."
+65,"TEXT_STMBDZ913_02869_TWINADDERSONSTELOT02869_000_033","We confirmed as much when we showed her belongings to her father."
+66,"TEXT_STMBDZ913_02869_TWINADDERSONSTELOT02869_000_034","However, it seems the shock was too much for him. He has repeatedly visited us since, requesting every time that we look for his daughter."
+67,"TEXT_STMBDZ913_02869_TWINADDERSONSTELOT02869_000_035","I will speak with him once more and make sure this does not happen again. My apologies for him sending you on a wild goose chase."
+68,"TEXT_STMBDZ913_02869_TWINADDERSONSTELOT02869_000_036",""

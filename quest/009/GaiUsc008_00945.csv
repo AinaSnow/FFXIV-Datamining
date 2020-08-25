@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSC008_00945_SEQ_00","ホワイトブリム前哨地のベランジョアには、どうしても証明したいことがあるようだ。"
-1,"TEXT_GAIUSC008_00945_SEQ_01","哨戒任務中にドラゴン族を射落としたというベランジョア。しかし、誰も信じてくれないらしい。ドラゴン族の死骸を探しだして「<Sheet(EventItem,2000933,0)/>」を持ち帰ろう。"
-2,"TEXT_GAIUSC008_00945_SEQ_02","<Sheet(EventItem,2000933,0)/>を見つけた。ホワイトブリム前哨地の「ベランジョア」に渡そう。"
-3,"TEXT_GAIUSC008_00945_SEQ_03","ベランジョアに<Sheet(EventItem,2000933,0)/>を渡した。彼の口ぶりから察するに、イシュガルドではドラゴン族を倒すことは大変な意味を持つようだ。"
+0,"TEXT_GAIUSC008_00945_SEQ_00","Ser Berengeoit strikes you as a man with a sizable chip upon his shoulder, and such men are often ready to spend handsomely."
+1,"TEXT_GAIUSC008_00945_SEQ_01","Ser Berengeoit insists that one dark night, he slew a wounded dragon with a well-aimed shot from a ballista. Alas, without a trophy, none will call him aught but a fevered fool. Someone must find the carcass and bring back a bone."
+2,"TEXT_GAIUSC008_00945_SEQ_02","To your mild surprise, you find a dead dragon on a gorge floor as the young knight insisted, and collect from it a fine bone. This trophy will mean more to Ser Berengeoit than all the fish in the Sea of Clouds."
+3,"TEXT_GAIUSC008_00945_SEQ_03","Ser Berengeoit receives the dragon bone with something resembling ecstasy. If even half the knights of Ishgard are as covetous of a kill, there is little to stop the war from continuing to rage..."
 4,"TEXT_GAIUSC008_00945_SEQ_04",""
 5,"TEXT_GAIUSC008_00945_SEQ_05",""
 6,"TEXT_GAIUSC008_00945_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSC008_00945_SEQ_21",""
 22,"TEXT_GAIUSC008_00945_SEQ_22",""
 23,"TEXT_GAIUSC008_00945_SEQ_23",""
-24,"TEXT_GAIUSC008_00945_TODO_00","<Sheet(EventItem,2000933,0)/>を探す"
-25,"TEXT_GAIUSC008_00945_TODO_01","ベランジョアに<Sheet(EventItem,2000933,0)/>を渡す"
+24,"TEXT_GAIUSC008_00945_TODO_00","Find the dragon bone."
+25,"TEXT_GAIUSC008_00945_TODO_01","Deliver the dragon bone to Berengeoit."
 26,"TEXT_GAIUSC008_00945_TODO_02",""
 27,"TEXT_GAIUSC008_00945_TODO_03",""
 28,"TEXT_GAIUSC008_00945_TODO_04",""
@@ -49,19 +49,11 @@ int32,str,str
 45,"TEXT_GAIUSC008_00945_TODO_21",""
 46,"TEXT_GAIUSC008_00945_TODO_22",""
 47,"TEXT_GAIUSC008_00945_TODO_23",""
-48,"TEXT_GAIUSC008_00945_BERENGEOIT_000_000","この間、哨戒任務に就いていたときさ。
-オレはイシュガルド本土から流れてきたと思われる、
-手負いのドラゴン族を1匹、バリスタで仕留めたんだ。"
-49,"TEXT_GAIUSC008_00945_BERENGEOIT_000_001","だけど、夜中のことだったから、誰も信じてくれねえ。
-なんとかして、仲間にオレの武勇を証明してやりたいんだ。"
-50,"TEXT_GAIUSC008_00945_BERENGEOIT_000_002","この辺りには、まだ奴の死骸が残っているはず。
-死骸を探して「<Sheet(EventItem,2000933,0)/>」を見つけてきてくれよ。"
-51,"TEXT_GAIUSC008_00945_DUMMY_000_010","渓谷の底にあるドラゴンの遺体(BG)をアクセスして「<Sheet(EventItem,2000933,0)/>」をゲット"
-52,"TEXT_GAIUSC008_00945_DUMMYTODO_000_010","（★未使用／削除予定★）"
-53,"TEXT_GAIUSC008_00945_BERENGEOIT_000_020","「<Sheet(EventItem,2000933,0)/>」は見つかったか？
-この手柄がフイになるなんて悔しすぎる！"
-54,"TEXT_GAIUSC008_00945_BERENGEOIT_000_030","……こ、これはまさしく「<Sheet(EventItem,2000933,0)/>」だ！
-うひょおおおおお！　やったぜ！
-やっぱりオレの腕は最高だ！"
-55,"TEXT_GAIUSC008_00945_BERENGEOIT_000_031","これでオレも念願のドラゴンスレイヤーだ！
-本土の教皇猊下に、お褒めの言葉をいただけるに違いない！"
+48,"TEXT_GAIUSC008_00945_BERENGEOIT_000_000","Adventurer, how would you like to assist a dragonslayer? I put a bolt through a dragon while manning the ballistas overlooking the gorges. I saw its death throes, and then it plunged..."
+49,"TEXT_GAIUSC008_00945_BERENGEOIT_000_001","But nobody will believe me! I had not the time to collect a trophy before I was relieved, and they will not credit what they do not see!"
+50,"TEXT_GAIUSC008_00945_BERENGEOIT_000_002","The carcass is out there in the bottom of a gorge, just waiting to be claimed. I hear you can find <Emphasis>anything</Emphasis>, and I need a dragon bone to show the others!"
+51,"TEXT_GAIUSC008_00945_DUMMY_000_010",""
+52,"TEXT_GAIUSC008_00945_DUMMYTODO_000_010",""
+53,"TEXT_GAIUSC008_00945_BERENGEOIT_000_020","Did you get my dragon bone? That was my <Emphasis>first</Emphasis> dragon, you know... It's <Emphasis>special</Emphasis>..."
+54,"TEXT_GAIUSC008_00945_BERENGEOIT_000_030","Yes! Yes! Dragon bone! Who's spinning yarns now, huh? By the Fury!"
+55,"TEXT_GAIUSC008_00945_BERENGEOIT_000_031","Berengeoit Dragonslayer, blessed in the eyes of Halone... I have <Emphasis>dreamed</Emphasis> of this. Do you realize that I shall be commended by the archbishop himself?"

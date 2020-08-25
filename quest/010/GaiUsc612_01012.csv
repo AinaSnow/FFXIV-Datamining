@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSC612_01012_SEQ_00","クォーリーミルのスィミは、冒険者に託したいものがあるようだ。"
-1,"TEXT_GAIUSC612_01012_SEQ_01","亡霊騎士についてまとめられた<Sheet(EventItem,2000846,0)/>を託された。砂の家に戻り「ウリエンジェ」に「<Sheet(EventItem,2000846,0)/>」を渡そう。"
-2,"TEXT_GAIUSC612_01012_SEQ_02","ウリエンジェに<Sheet(EventItem,2000846,0)/>を渡した。聖典に書かれていることは、あくまでアラグ帝国にとっての真実だというウリエンジェ。事件の全容は未だ見えないようだ……。"
+0,"TEXT_GAIUSC612_01012_SEQ_00","Simmie would entrust you with a delivery."
+1,"TEXT_GAIUSC612_01012_SEQ_01","With your aid, Simmie has completed her report on the ghostly horseman sighted in the Shroud─now identified as the primal Odin. Return to the Waking Sands and deliver a copy of the report to Urianger."
+2,"TEXT_GAIUSC612_01012_SEQ_02","After perusing the report, Urianger shares with you his misgivings about the historical accuracy of the scriptures. Casting light upon the events of ages past is a tall task, indeed."
 3,"TEXT_GAIUSC612_01012_SEQ_03",""
 4,"TEXT_GAIUSC612_01012_SEQ_04",""
 5,"TEXT_GAIUSC612_01012_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_GAIUSC612_01012_SEQ_21",""
 22,"TEXT_GAIUSC612_01012_SEQ_22",""
 23,"TEXT_GAIUSC612_01012_SEQ_23",""
-24,"TEXT_GAIUSC612_01012_TODO_00","砂の家のウリエンジェに<Sheet(EventItem,2000846,0)/>を渡す"
+24,"TEXT_GAIUSC612_01012_TODO_00","Deliver the Odin report to Urianger."
 25,"TEXT_GAIUSC612_01012_TODO_01",""
 26,"TEXT_GAIUSC612_01012_TODO_02",""
 27,"TEXT_GAIUSC612_01012_TODO_03",""
@@ -49,30 +49,14 @@ int32,str,str
 45,"TEXT_GAIUSC612_01012_TODO_21",""
 46,"TEXT_GAIUSC612_01012_TODO_22",""
 47,"TEXT_GAIUSC612_01012_TODO_23",""
-48,"TEXT_GAIUSC612_01012_SIMMIE_000_000","悪神「オーディン」調査へのご協力、
-ありがとうございました。"
-49,"TEXT_GAIUSC612_01012_SIMMIE_000_001","現時点で判明しているすべての被害、
-および独自調査による推論を、
-この「<Sheet(EventItem,2000846,0)/>」にまとめました。"
-50,"TEXT_GAIUSC612_01012_SIMMIE_000_002","オ・アパ・ペシ様とリュウィン様には、
-私から提出しておきましょう。"
-51,"TEXT_GAIUSC612_01012_SIMMIE_000_003","それから、こちらの1冊をお持ちください。
-「暁の血盟」のウリエンジェ様にお願いされていたものです。"
-52,"TEXT_GAIUSC612_01012_SIMMIE_000_004","もし、悪神「オーディン」が
-森の民を襲うようなことがあったら……
-そのときはどうか、我々の力となってください……。"
-53,"TEXT_GAIUSC612_01012_URIANGER_000_010","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん……。
-黒衣森の蛮神を覆う不知の闇、払うことはできましたか？"
-54,"TEXT_GAIUSC612_01012_URIANGER_000_020","……悪神「オーディン」。
-聖典に描かれた古の「闘神」ですか……。"
-55,"TEXT_GAIUSC612_01012_URIANGER_000_021","察しますところ……
-この聖典は、アラグ帝国の歴史を汲んでいるようです。"
-56,"TEXT_GAIUSC612_01012_URIANGER_000_022","歴史とは光にして、光の陰に闇が宿ることは、
-いまさら言葉を重ねることでもないでしょう……。
-聖典はあくまで、アラグの理を示しているにすぎぬはずです。"
-57,"TEXT_GAIUSC612_01012_URIANGER_000_023","アラグの英雄……
-森を彷徨う悪神「オーディン」の目的……。
-真実は……依然として闇の中……。"
-58,"TEXT_GAIUSC612_01012_URIANGER_000_024","いずれ、あなたという光が真実を照らすまで……
-私は新たな歴史の扉が叩かれる、
-その音を聞いていましょう……。"
+48,"TEXT_GAIUSC612_01012_SIMMIE_000_000","Your assistance in the investigation has proven invaluable, adventurer. You have our thanks."
+49,"TEXT_GAIUSC612_01012_SIMMIE_000_001","With your aid, I have finally managed to complete my report─a thorough survey of all eyewitness reports, along with the most credible theories regarding the Dark Divinity's presence in the Shroud."
+50,"TEXT_GAIUSC612_01012_SIMMIE_000_002","I intend to deliver copies of the report to Brother O–App–Pesi and Bowlord Lewin myself."
+51,"TEXT_GAIUSC612_01012_SIMMIE_000_003","The Scions, too, will no doubt be eager to learn of our findings. I would be most appreciative if you could deliver a copy to Urianger in my stead."
+52,"TEXT_GAIUSC612_01012_SIMMIE_000_004","My duties demand that I remain composed, but in all truth, I fear for the fate of our people. Should the time come that the Dark Divinity draws his blade against Gridania, promise me that we can count on your aid."
+53,"TEXT_GAIUSC612_01012_URIANGER_000_010","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, I am most heartened by thy safe return. Wert thou able to cast light on the shadows that haunt the Shroud?"
+54,"TEXT_GAIUSC612_01012_URIANGER_000_020","...So it is true. Having awakened from nigh-eternal slumber, the Dark Divinity now rides free in the Shroud."
+55,"TEXT_GAIUSC612_01012_URIANGER_000_021","Whilst you were afield, I immersed myself in the scriptures. The more I scoured the words, the more I did realize that the writings draw heavily upon Allagan historical chronicles."
+56,"TEXT_GAIUSC612_01012_URIANGER_000_022","History is quite a fascinating beast, is it not? One nation's glory is another's suffering─one nation's great hero, another's most abhorrent villain."
+57,"TEXT_GAIUSC612_01012_URIANGER_000_023","I mean not to speak in platitudes, only to say that there is never but a single side to any story─even a story that is presented as historical fact."
+58,"TEXT_GAIUSC612_01012_URIANGER_000_024","To what end did the great hero of Allag seal Odin in a gaol of crystal? What impels the Dark Divinity to ride once again? Cast thine light on the shadows of history, friend, that we might be delivered from the darkness."

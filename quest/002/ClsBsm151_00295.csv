@@ -1,12 +1,12 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSBSM151_00295_SEQ_00","鍛冶師ギルドのブリサエルは、冒険者に商売の悩みの相談に乗ってもらいたいようだ。"
-1,"TEXT_CLSBSM151_00295_SEQ_01","気後れしているブリサエルに代わって、鍛冶師ギルドの近くにいる「フェーズアール」から市場開拓についての話を聞こう。"
-2,"TEXT_CLSBSM151_00295_SEQ_02","フェーズアールに勧められ、グリダニアに輸出できそうな製品を試しに製作してみることになった。「<Sheet(Item,1605,0)/>」と「<Sheet(Item,1753,0)/>」を製作し、「フェーズアール」に納品しよう。"
-3,"TEXT_CLSBSM151_00295_SEQ_03","納品した<Sheet(Item,1605,0)/>と<Sheet(Item,1753,0)/>を、フェーズアールは絶賛する。すぐにでもグリダニアで商売できると言ってくれた、彼の期待に応えるためにも、より一層鍛冶師の腕を磨き上げよう。
+0,"TEXT_CLSBSM151_00295_SEQ_00","Forgemaster Brithael seems upset. Perhaps there is something you can do to help."
+1,"TEXT_CLSBSM151_00295_SEQ_01","Forgemaster Brithael has no interest in matters of coin, but has nevertheless been ordered by Forgemaster H'naanza of the Armorers' Guild to find a way to increase exports to Gridania. This requires him to work closely with a trader named Faezahr, whom he seems loath to meet. Speak with the merchant outside the guild on the forgemaster's behalf."
+2,"TEXT_CLSBSM151_00295_SEQ_02","Faezahr wastes no time explaining how best to approach the Gridanians. However, before he will agree to negotiate on the guild's behalf, he requires samples of merchandise to present to potential buyers. Craft a bronze spatha and a spiked bronze labrys for the seasoned trader."
+3,"TEXT_CLSBSM151_00295_SEQ_03","Having initially dismissed you as a mere errand <If(PlayerParameter(4))>girl<Else/>boy</If>, Faezahr is impressed by the quality of your craftsmanship, and readily agrees to present the weapons you made to his Gridanian contacts. 
 
-※鍛冶師のレベルが20以上になると、ブリサエルから次の鍛冶師クエストを受注することができます。"
+※The next blacksmith quest will be available from Brithael upon reaching level 20."
 4,"TEXT_CLSBSM151_00295_SEQ_04",""
 5,"TEXT_CLSBSM151_00295_SEQ_05",""
 6,"TEXT_CLSBSM151_00295_SEQ_06",""
@@ -27,8 +27,8 @@ int32,str,str
 21,"TEXT_CLSBSM151_00295_SEQ_21",""
 22,"TEXT_CLSBSM151_00295_SEQ_22",""
 23,"TEXT_CLSBSM151_00295_SEQ_23",""
-24,"TEXT_CLSBSM151_00295_TODO_00","フェーズアールと話す"
-25,"TEXT_CLSBSM151_00295_TODO_01","フェーズアールに依頼品を納品"
+24,"TEXT_CLSBSM151_00295_TODO_00","Speak with Faezahr."
+25,"TEXT_CLSBSM151_00295_TODO_01","Deliver a bronze spatha and a spiked bronze labrys to Faezahr."
 26,"TEXT_CLSBSM151_00295_TODO_02",""
 27,"TEXT_CLSBSM151_00295_TODO_03",""
 28,"TEXT_CLSBSM151_00295_TODO_04",""
@@ -51,82 +51,34 @@ int32,str,str
 45,"TEXT_CLSBSM151_00295_TODO_21",""
 46,"TEXT_CLSBSM151_00295_TODO_22",""
 47,"TEXT_CLSBSM151_00295_TODO_23",""
-48,"TEXT_CLSBSM151_00295_BRITHAEL_000_1","聞いてください、僕、少々悩みごとがありまして……。
-しかし良案は浮かばず、胃が痛くなるばかりで
-減った胃薬の量がまた増えちゃいました。"
-49,"TEXT_CLSBSM151_00295_BRITHAEL_000_2","僕はリムサ・ロミンサ最大の造船会社である
-ナルディク＆ヴィメリー社の副社長をやっております。"
-50,"TEXT_CLSBSM151_00295_BRITHAEL_000_3","そこで、会社の営業戦略について、
-ここのところずっと悩んでいるんですよ。"
-51,"TEXT_CLSBSM151_00295_BRITHAEL_000_4","モラビー造船廠での新規造船は順調なのですが、
-黒渦団からの発注ばかりに頼るわけにもいきません。"
-52,"TEXT_CLSBSM151_00295_BRITHAEL_000_5","もっと仕事の受注先を広げなくてはと考えまして、
-今まで交流の少なかったグリダニアに、
-商売の手を広げていこうかと。"
-53,"TEXT_CLSBSM151_00295_BRITHAEL_000_6","しかし、生憎とあの都市については、
-あまり詳しくないのですよね。"
-54,"TEXT_CLSBSM151_00295_BRITHAEL_000_7","グリダニアで売れそうな製品について、
-詳しい人から話を聞きたいところなのですが……
-ちょっと困っているんですよ。"
-55,"TEXT_CLSBSM151_00295_BRITHAEL_000_8","リムサ・ロミンサで他都市に詳しい方といえば、
-「フェーズアール」氏という方なのですが……。
-ええ、取引先の交易商人です。"
-56,"TEXT_CLSBSM151_00295_BRITHAEL_000_9","……実は、僕、ちょっとあの方が苦手でして。
-強面なんで、ビビってしまうんですよ……。
-そこで僕の代わりに聞いてもらえないかと。"
-57,"TEXT_CLSBSM151_00295_FAEZAHL_000_10","……ほほう、グリダニアで商売をするために
-ワガハイの助言をもらいに来たと？
-ブリサエルの言いつけで？"
-58,"TEXT_CLSBSM151_00295_FAEZAHL_000_11","まったく、相変わらず気が小さく、小賢しい男よ。
-ワガハイに直接、声をかければ良かろうに。
-そんな気弱だから胃薬が手放せないんじゃ。"
-59,"TEXT_CLSBSM151_00295_FAEZAHL_000_12","まぁ、ええわい。
-ブリサエルのバカにも聞こえるよう、デカい声で教えてやるぞい。"
-60,"TEXT_CLSBSM151_00295_FAEZAHL_000_13","……ワガハイが改めて言うほどのことではないが
-需要のあるところに、需要のある品を供給すれば、
-商売は儲かる、これが真理じゃ。"
-61,"TEXT_CLSBSM151_00295_FAEZAHL_000_14","そういう観点から考えると
-グリダニアに目をつけたのは悪くない。
-あの都市では今、金属製品の需要が増えておる。"
-62,"TEXT_CLSBSM151_00295_FAEZAHL_000_15","かの地は、革細工師ギルドと木工師ギルドを擁し、
-皮革や木材を使った品が主流じゃった。"
-63,"TEXT_CLSBSM151_00295_FAEZAHL_000_16","そのため、ヌシら鍛冶師が得意とする金属製品は
-グリダニアにおいて主流足り得なかった。
-何せ刃にすら翡翠を使ったりする連中じゃからの。"
-64,"TEXT_CLSBSM151_00295_FAEZAHL_000_17","しかし、第七霊災の傷も癒えてきた昨今では
-かの地の情勢も変わりつつある。"
-65,"TEXT_CLSBSM151_00295_FAEZAHL_000_18","……冒険者の流入が増えてきたのじゃよ。
-彼らはグリダニアの伝統にこだわることはない。
-純粋に品質だけを求める傾向があるんじゃ。"
-66,"TEXT_CLSBSM151_00295_FAEZAHL_000_19","ならば彼らが納得いく品質の製品を送り出せば
-商売としては十二分に成算が見込めるはずじゃよ。
-どうする？　試しにやってみるか？"
-67,"TEXT_CLSBSM151_00295_FAEZAHL_000_20","「<Sheet(Item,1605,0)/>」と「<Sheet(Item,1753,0)/>」じゃ。
-その二つを作ってみるがいい。
-ヌシの腕前で商売になるか、確かめてやろう。"
-68,"TEXT_CLSBSM151_00295_FAEZAHL_000_30","品物は覚えているか？
-「<Sheet(Item,1605,0)/>」と「<Sheet(Item,1753,0)/>」じゃ。
-両方を1個ずつじゃぞ？"
-69,"TEXT_CLSBSM151_00295_FAEZAHL_000_31","待っておったぞ。
-では、あちらで見立てるとしようかのう……！"
-70,"TEXT_CLSBSM151_00295_FAEZAHL_000_32","ふぅむ……なるほど、これはこれは。
-必要十分……以上じゃな、この出来は。"
-71,"TEXT_CLSBSM151_00295_FAEZAHL_000_33","ブリサエルの使いっ走りだと思っておったが、
-どうやら考え違いをしておったようじゃの。
-ワガハイ、ヌシを少々侮っておったか。"
-72,"TEXT_CLSBSM151_00295_FAEZAHL_000_34","「<Sheet(Item,1605,0)/>」なる剣は、取り回しやすさが肝心。
-やや細身で長めに作られた刀身が、
-しっくりと手に馴染まねば完璧とは言えぬ。"
-73,"TEXT_CLSBSM151_00295_FAEZAHL_000_35","ヌシの作った「<Sheet(Item,1605,0)/>」はその点、素晴らしい。
-ワシでも敵をバッタバッタと斬り倒せそうじゃわい。"
-74,"TEXT_CLSBSM151_00295_FAEZAHL_000_36","この「<Sheet(Item,1753,0)/>」も大したものよ。
-肉厚の刃には飾り気こそないが、それがまたいい。
-ただものではない強度と破壊力を予感させる……！"
-75,"TEXT_CLSBSM151_00295_FAEZAHL_000_37","保証しよう、ヌシが作った武具ならば
-すぐにでもグリダニアで商売ができるぞい。
-いや、むしろワガハイに売らせてほしい。"
-76,"TEXT_CLSBSM151_00295_FAEZAHL_000_38","今回の品物はワガハイが預かっておくでな。
-何、ブリサエルも文句など言いはせんよ。"
-77,"TEXT_CLSBSM151_00295_FAEZAHL_000_39","これから早速、グリダニアに渡りをつけるぞい。
-はてさて、あちらでどれほどの儲けになるか。
-久しぶりに楽しみになってきたの。"
+48,"TEXT_CLSBSM151_00295_BRITHAEL_000_1","Ah, hells─not now, <If(PlayerParameter(4))>lass<Else/>lad</If>! Can't ye see I'm strugglin' with a matter o' great import?"
+49,"TEXT_CLSBSM151_00295_BRITHAEL_000_2","Bein' forgemaster ain't all drink an' debauchery─'specially when H'naanza's breathin' down me neck."
+50,"TEXT_CLSBSM151_00295_BRITHAEL_000_3","We're a business, she says, an' it's our job to ensure Naldiq & Vymelli's stays profitable or some such bollocks."
+51,"TEXT_CLSBSM151_00295_BRITHAEL_000_4","To which I says, “Now look here, ye greedy shrew─we're makin' a mint off our commission from the Maelstrom, ain't we!?” Well, I mayn't've said shrew... <Emphasis>Anyroad</Emphasis>, the greedy shrew then starts yatterin' on about expandin' into new bleedin' markets..."
+52,"TEXT_CLSBSM151_00295_BRITHAEL_000_5","Says we should be sellin' more to the treefolk in Gridania─says <Emphasis>I</Emphasis> should be the one to develop a “plan of action.”"
+53,"TEXT_CLSBSM151_00295_BRITHAEL_000_6","Seven hells, <If(PlayerParameter(4))>lass<Else/>lad</If>─I'm a smitty, not a merchant! I've never even been to bleedin' Gridania!"
+54,"TEXT_CLSBSM151_00295_BRITHAEL_000_7","Oh, an' it gets worse. See, we need a man with connections, don't we─someone as can make arrangements with the treefolk."
+55,"TEXT_CLSBSM151_00295_BRITHAEL_000_8","So H'naanza goes an' finds one─right clever bastard by the sound of it─an' orders me to go an' meet him. So I <Emphasis>goes</Emphasis> an' meets him, only to find it's none other than bleedin' <Emphasis>Faezahr</Emphasis>. An' I'd sooner bash me own teeth in than talk to that piece o'─"
+56,"TEXT_CLSBSM151_00295_BRITHAEL_000_9","Wait a minute! I know how to deal with this! <Emphasis>You</Emphasis> can talk to him! Ye'll help ol' Brithael handle this Gridanian nonsense, won't ye? 'Course ye will! Go on then, chop-chop!"
+57,"TEXT_CLSBSM151_00295_FAEZAHL_000_10","Here on Brithael's behalf, you say? I might've guessed..."
+58,"TEXT_CLSBSM151_00295_FAEZAHL_000_11","<spit> That whoreson doesn't realize the trouble he's in."
+59,"TEXT_CLSBSM151_00295_FAEZAHL_000_12","...Well, it's his neck.
+I'll work with you, smith, and I'll even keep my diction simple. Taking instruction from that drunkard will have dulled your wits. Now listen."
+60,"TEXT_CLSBSM151_00295_FAEZAHL_000_13","Dealing with Gridanians is no different from dealing with anyone else. Everyone has needs─it's just a matter of identifying and fulfilling them."
+61,"TEXT_CLSBSM151_00295_FAEZAHL_000_14","Anyone with half a brain─which discounts your mentor─knows that the forestborn do not want for wood or leather goods. You'd have more luck selling brine to a fishback."
+62,"TEXT_CLSBSM151_00295_FAEZAHL_000_15","What they do lack is steel."
+63,"TEXT_CLSBSM151_00295_FAEZAHL_000_16","Theirs is an insular, isolated nation that has long sought to survive without relying overmuch on foreign trade."
+64,"TEXT_CLSBSM151_00295_FAEZAHL_000_17","But the Calamity changed all that."
+65,"TEXT_CLSBSM151_00295_FAEZAHL_000_18","Half a decade on, and with no end to the rebuilding in sight, they have been forced to open their gates to adventurers. And where there are adventurers, there's demand for weapons and armor."
+66,"TEXT_CLSBSM151_00295_FAEZAHL_000_19","<Emphasis>Quality</Emphasis> weapons and armor, mind you. My Gridanian contacts would accept nothing less."
+67,"TEXT_CLSBSM151_00295_FAEZAHL_000_20","I will need some samples to show them. Bring me a bronze spatha and a spiked bronze labrys for this purpose."
+68,"TEXT_CLSBSM151_00295_FAEZAHL_000_30","Bring me a bronze spatha and a spiked bronze labrys. Until I have them in my hands, we've nothing more to discuss."
+69,"TEXT_CLSBSM151_00295_FAEZAHL_000_31","Hmmm. These will require closer inspection. Inside, smith."
+70,"TEXT_CLSBSM151_00295_FAEZAHL_000_32","<Emphasis>You</Emphasis> made these weapons? I must confess, the quality is quite good..."
+71,"TEXT_CLSBSM151_00295_FAEZAHL_000_33","I thought you no more than Brithael's errand <If(PlayerParameter(4))>girl<Else/>boy</If>, but it seems I was wrong. Only a true smith could have made these pieces."
+72,"TEXT_CLSBSM151_00295_FAEZAHL_000_34","As I rather suspect you are aware, a poorly wrought weapon can cost a man his life. Be it brittle, prone to blunting, or unevenly weighted, every flaw will serve to hinder its owner on the battlefield."
+73,"TEXT_CLSBSM151_00295_FAEZAHL_000_35","Not so this spatha. Well-tempered and perfectly balanced, it is a weapon fit for a warrior. Hells, with a blade like this, even <Emphasis>I</Emphasis> could probably best a beast or two."
+74,"TEXT_CLSBSM151_00295_FAEZAHL_000_36","And this labrys is a work of art as well. Simple, solid, and more than capable of cleaving a fishback in two."
+75,"TEXT_CLSBSM151_00295_FAEZAHL_000_37","If even a relative newcomer to the guild can produce work of this quality, then my contacts will have naught to worry about. These samples should convince them of that."
+76,"TEXT_CLSBSM151_00295_FAEZAHL_000_38","...It seems you've saved your mentor's job."
+77,"TEXT_CLSBSM151_00295_FAEZAHL_000_39","You just leave the rest to me, smith. There's nothing easier than selling an excellent product."

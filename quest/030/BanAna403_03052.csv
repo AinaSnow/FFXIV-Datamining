@@ -1,10 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANANA403_03052_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト受注クラス・ジョブ制限<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-※本クエストは受注時のクラス・ジョブでのみ進行します。
+0,"TEXT_BANANA403_03052_SEQ_00","Eshana needs help with a pair of troublesome griffins.
 
-カステッルム・ベロジナのエシャナは、グリフィンの兄弟に手を焼いているようだ。"
+※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
 1,"TEXT_BANANA403_03052_SEQ_01",""
 2,"TEXT_BANANA403_03052_SEQ_02",""
 3,"TEXT_BANANA403_03052_SEQ_03",""
@@ -28,9 +27,9 @@ int32,str,str
 21,"TEXT_BANANA403_03052_SEQ_21",""
 22,"TEXT_BANANA403_03052_SEQ_22",""
 23,"TEXT_BANANA403_03052_SEQ_23",""
-24,"TEXT_BANANA403_03052_TODO_00","ストライプヒルズの体の大きな若いグリフィンに「なだめる」をする"
-25,"TEXT_BANANA403_03052_TODO_01","ベロジナ川周辺の体の小さな若いグリフィンに「励ます」をする"
-26,"TEXT_BANANA403_03052_TODO_02","エシャナに報告"
+24,"TEXT_BANANA403_03052_TODO_00","/soothe the big juvenile griffin."
+25,"TEXT_BANANA403_03052_TODO_01","/rally the small juvenile griffin."
+26,"TEXT_BANANA403_03052_TODO_02","Report to Eshana."
 27,"TEXT_BANANA403_03052_TODO_03",""
 28,"TEXT_BANANA403_03052_TODO_04",""
 29,"TEXT_BANANA403_03052_TODO_05",""
@@ -52,29 +51,15 @@ int32,str,str
 45,"TEXT_BANANA403_03052_TODO_21",""
 46,"TEXT_BANANA403_03052_TODO_22",""
 47,"TEXT_BANANA403_03052_TODO_23",""
-48,"TEXT_BANANA403_03052_ESHANA_000_000","シュー……グリフィン騎兵隊からの応援要請だ。
-ギッフたちが調教している、若いグリフィンの兄弟が、
-訓練中にケンカをして、脱走してしまったらしい。"
-49,"TEXT_BANANA403_03052_ESHANA_000_001","兄弟は、別々の方向へ飛び去ったと報告を受けている。
-ベロジナ川周辺と、ストライプヒルズを探し、
-呼び戻してほしい。"
-50,"TEXT_BANANA403_03052_ESHANA_000_002","本来グリフィンは気高く、容易にヒトには慣れぬ……。
-だが以前、見事に乗りこなしてみせた君であれば、
-きっと彼らも、大人しく従うはずだ。"
-51,"TEXT_BANANA403_03052_ESHANA_000_003","機嫌が直れば、自らグリフィン留に帰ってくるだろう。
-興奮している兄は「なだめ」て、
-気落ちしている弟は「励ます」んだ。"
-52,"TEXT_BANANA403_03052_SYSTEM_000_010","気持ちが落ち着き、機嫌が直ったようだ！"
-53,"TEXT_BANANA403_03052_SYSTEM_000_011","怪訝そうに、こちらを見ている……。"
-54,"TEXT_BANANA403_03052_SYSTEM_000_012","怒りが収まらず、興奮しているようだ。
-エモート「なだめる」をしてあげよう。"
-55,"TEXT_BANANA403_03052_SYSTEM_000_013","落ち込んでいたが、元気が出たようだ！"
-56,"TEXT_BANANA403_03052_SYSTEM_000_014","不審そうに、こちらを見ている……。"
-57,"TEXT_BANANA403_03052_SYSTEM_000_015","兄に敵わず、落ち込んでいるようだ。
-エモート「励ます」をしてあげよう。"
-58,"TEXT_BANANA403_03052_ESHANA_000_020","シュー……2頭とも帰ってきたのを確認した、ありがとう。
-あの兄弟は威勢がよく将来有望なのだが、わがままで、
-ギッフたち熟練の獣牧士も、手を焼かされているようだ。"
-59,"TEXT_BANANA403_03052_ESHANA_000_021","それにしても、彼らはすぐに機嫌が直って帰ってきたな。
-どうやら君の人徳は、種を越えてグリフィンにまで通用するらしい。
-獣牧士の連中が今回の件を聞いたら、嫉妬するだろうな。"
+48,"TEXT_BANANA403_03052_ESHANA_000_000","We have a requessst from the griffin handlers. Giff tells me that a young pair of griffin sssiblings butted heads during training, and then flew off in a flurry of talons and feathers."
+49,"TEXT_BANANA403_03052_ESHANA_000_001","These cloudkin are prideful creatures─easily aggravated and difficult to tame─but you ssseem to have a way with them."
+50,"TEXT_BANANA403_03052_ESHANA_000_002","If you're willing to help, they were lassst ssseen heading north. The smaller griffin veered ssslightly to the wessst after a final ssswipe from his bigger brother, who banked away to the eassst."
+51,"TEXT_BANANA403_03052_ESHANA_000_003","Once you've rallied the younger's ssspirits and sssoothed the older's agitation, I'm certain they'll find their way back to the ssstables on their own."
+52,"TEXT_BANANA403_03052_SYSTEM_000_010","The griffin responds to your soothing tone, becoming visibly calmer!"
+53,"TEXT_BANANA403_03052_SYSTEM_000_011","The griffin eyes you with obvious distrust..."
+54,"TEXT_BANANA403_03052_SYSTEM_000_012","The griffin appears agitated and unhappy. Use the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>soothe<UIGlow>01</UIGlow><UIForeground>01</UIForeground> emote to calm the creature."
+55,"TEXT_BANANA403_03052_SYSTEM_000_013","The griffin's mood seems improved by your encouragement!"
+56,"TEXT_BANANA403_03052_SYSTEM_000_014","The griffin seems hesitant and wary..."
+57,"TEXT_BANANA403_03052_SYSTEM_000_015","The small griffin appears to be sulking after losing to his older brother. Use the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>rally<UIGlow>01</UIGlow><UIForeground>01</UIForeground> emote to lift his spirits."
+58,"TEXT_BANANA403_03052_ESHANA_000_020","Thank you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>─the griffin sssiblings are back in their ssstables, sssafe and sssound. They show great promissse, but the lively temperament for which they are admired is a double-edged sssword for those who ssstruggle to tame them."
+59,"TEXT_BANANA403_03052_ESHANA_000_021","And yet you handled them with relative ease! You have a talent for reaching the heartsss of both man and beassst─the trainers will be mossst enviousss to hear of your effortless sssuccess."

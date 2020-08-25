@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_JOBBLM560_01681_SEQ_00","ミルバネス礼拝堂のラライの元に、ふたたび手紙が届いたようだ。"
-1,"TEXT_JOBBLM560_01681_SEQ_01","ラライから、ドゾル・メロックから手紙があったと聞いた。ドゾル・メロックが、窮地に立たされているようだ。北部森林のアルダースプリングスへ向かい、ドゾル・メロックを探そう。"
-2,"TEXT_JOBBLM560_01681_SEQ_02","ドゾル・メロックを取り囲んでいた「まつろわぬ魔道士」を討伐した。アルダースプリングスの「ドゾル・メロック」を救助しよう。"
-3,"TEXT_JOBBLM560_01681_SEQ_03","「まつろわぬ魔道士」の構成員を討伐し、ドゾル・メロックを救助した。かけつけたザイ・ア・ネルハーは、ふたたび構成員が死んでしまったことを責めるが、その直後、構成員が「内側から焼かれていた」ことが判明。ドゾル・メロックは、彼らが、「シャトトの魔石」も持たずに、強力な黒魔法を使ったために、構成員たちは死んでしまったのではないかと意見を述べ、ザイ・ア・ネルハーは、己の誤解に気づき、冒険者に謝罪をして去っていった。ウルダハに戻り、ミルバネス礼拝堂の「ラライ」に報告しよう。"
-4,"TEXT_JOBBLM560_01681_SEQ_04","ラライに報告をした。「まつろわぬ魔道士」が黒魔法を制御する知識を得られていないのなら、うまく勢力を拡大できていない可能性がある。「まつろわぬ魔道士」が焦って行動を起こすのを待ちつつ、新しく覚えた黒魔法を使いこなせるよう、力を蓄えておこう。
+0,"TEXT_JOBBLM560_01681_SEQ_00","Lalai has received another letter."
+1,"TEXT_JOBBLM560_01681_SEQ_01","Lalai tells you of a letter she received from Dozol Meloc. He is hiding from someone at Alder Springs, and asks urgently for your assistance. It is clear that, as was the case with Da Za, this is the work of the Defiant. Travel to Alder Springs and stop them before anything happens to Dozol Meloc. Lalai will inform Zhai'a Nelhah of the letter."
+2,"TEXT_JOBBLM560_01681_SEQ_02","You find Dozol Meloc surrounded by Defiant mages ready to attack. You intervene and they soon fall to your dark magicks. Assist the Ixali mage and confirm that he is unharmed."
+3,"TEXT_JOBBLM560_01681_SEQ_03","You have successfully defended Dozol Meloc from the Defiant mages. As he is thanking you for your help, Zhai'a Nelhah arrives. He once again berates you for slaying every last attacker─again leaving not one alive to be questioned─before realizing that they appear to have been burned alive <Emphasis>from the inside</Emphasis>. Dozol Meloc suggests that, without the Gem of Shatotto to control their dark magicks, the very aether within their bodies ignited when they resorted to their most powerful spells. Zhai'a Nelhah offers his apologies for blaming you for the previous deaths before leaving. Dozol Meloc is safe and the Defiant mages have been defeated. Return to Ul'dah and report to Lalai."
+4,"TEXT_JOBBLM560_01681_SEQ_04","You tell Lalai what happened. She points out that the Defiant's inability to utilize their powers without dying horrible, fiery deaths probably hinders their ability to recruit new members. This explains the desperation with which they approached your beastman allies. Although you have no information to assist in locating Waldeve and his cult, they are in no position to stay in hiding. Frantic for answers, they will soon be forced to reveal themselves. You need simply wait for that moment.
 
-※黒魔道士のレベルが58以上になると、ミルバネス礼拝堂のラライから、次の黒魔道士クエストを受注することができます。"
+※The next black mage quest will be available from Lalai upon reaching level 58."
 5,"TEXT_JOBBLM560_01681_SEQ_05",""
 6,"TEXT_JOBBLM560_01681_SEQ_06",""
 7,"TEXT_JOBBLM560_01681_SEQ_07",""
@@ -27,9 +27,9 @@ int32,str,str
 21,"TEXT_JOBBLM560_01681_SEQ_21",""
 22,"TEXT_JOBBLM560_01681_SEQ_22",""
 23,"TEXT_JOBBLM560_01681_SEQ_23",""
-24,"TEXT_JOBBLM560_01681_TODO_00","アルダースプリングスでドゾル・メロックを探す"
-25,"TEXT_JOBBLM560_01681_TODO_01","ドゾル・メロックを救助する"
-26,"TEXT_JOBBLM560_01681_TODO_02","ミルバネス礼拝堂のラライに報告"
+24,"TEXT_JOBBLM560_01681_TODO_00","Search Alder Springs for Dozol Meloc."
+25,"TEXT_JOBBLM560_01681_TODO_01","Aid Dozol Meloc."
+26,"TEXT_JOBBLM560_01681_TODO_02","Report to Lalai."
 27,"TEXT_JOBBLM560_01681_TODO_03",""
 28,"TEXT_JOBBLM560_01681_TODO_04",""
 29,"TEXT_JOBBLM560_01681_TODO_05",""
@@ -51,104 +51,47 @@ int32,str,str
 45,"TEXT_JOBBLM560_01681_TODO_21",""
 46,"TEXT_JOBBLM560_01681_TODO_22",""
 47,"TEXT_JOBBLM560_01681_TODO_23",""
-48,"TEXT_JOBBLM560_01681_LALAI_000_000","大変です、<Highlight>ObjectParameter(1)</Highlight>よ！
-私の元に、ふたたび手紙が届きました！"
-49,"TEXT_JOBBLM560_01681_LALAI_000_001","「やばい！　命の危機！　アルダースプリングスに隠れてる。
-　<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>に伝えてくれ！　どぞる」……。"
-50,"TEXT_JOBBLM560_01681_LALAI_000_002","……この汚い文字と、「どぞる」という言葉。"
-51,"TEXT_JOBBLM560_01681_LALAI_000_003","私たちに助けを求めているのは、
-イクサル族の、ドゾル・メロックに違いありません！
-急いで救助に向かわねば……！"
-52,"TEXT_JOBBLM560_01681_LALAI_000_004","……ザイ・ア・ネルハーにも伝えておくべきでしょうね。
-大丈夫、私はあなたが力を制御できていると信じています！"
-53,"TEXT_JOBBLM560_01681_LALAI_000_005","あなたの戦いぶりを見せる、いい機会になるかもしれません。
-真の黒魔道士の戦いぶりを、
-ザイ・ア・ネルハーに見せつけてやりなさい！"
-54,"TEXT_JOBBLM560_01681_LALAI_000_006","黒魔道士<Highlight>ObjectParameter(1)</Highlight>よ。
-「アルダースプリングス」に向かい、
-「ドゾル・メロック」を救うのです！"
-55,"TEXT_JOBBLM560_01681_LALAI_000_007","黒魔道士<Highlight>ObjectParameter(1)</Highlight>よ。
-「アルダースプリングス」に向かい、
-「ドゾル・メロック」を救うのです！"
-56,"TEXT_JOBBLM560_01681_DOZOLMELOC_000_010","助かったッァ、間一髪ってやつだぜッェ……。
-カザグ・チャーから伝言をもらってよおッォ、
-慌てて逃げ出したんだがッァ、見つかっちまってなッァ。"
-57,"TEXT_JOBBLM560_01681_DOZOLMELOC_000_011","連中はッァ、オレが同族の住処に近づけないことッォ、
-知ってやがったみたいだッァ。
-森に囲いこむようにッィ、追っかけてきやがってッェ……！"
-58,"TEXT_JOBBLM560_01681_DOZOLMELOC_000_012","結局は追い詰められてよッォ、
-仲間になることを断ったらッァ、このザマだッァ。
-面倒かけてッェ、すまなかったなッァ……。"
-59,"TEXT_JOBBLM560_01681_ZHAIANELHAH_000_013","クソッ、間に合わなかったか……！
-また、破壊の力を無闇にふるったな！"
-60,"TEXT_JOBBLM560_01681_ZHAIANELHAH_000_014","君は、なにを考えているんだ……。
-このような無駄な殺生を、幾度くりかえせば……。"
-61,"TEXT_JOBBLM560_01681_ZHAIANELHAH_000_015","……これは……どういうことだ？
-通常の魔法による外傷とは違う……！
-まるで「内側から焼かれている」みたいじゃないか！？"
-62,"TEXT_JOBBLM560_01681_ZHAIANELHAH_000_016","こいつらの死因は、
-<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>の黒魔法ではないのか……？"
-63,"TEXT_JOBBLM560_01681_DOZOLMELOC_000_017","この兄ちゃんはッァ、なにを言ってるんだッァ？
-こちとらッァ、ずっと逃亡生活だったんだからよッォ。
-わかったことがあるんならッァ、教えやがれッェ！"
-64,"TEXT_JOBBLM560_01681_DOZOLMELOC_000_018","なるほどッォ、その「ザルの書」を読んでッェ、
-ひいバアちゃんの境遇を知っていたからッァ、
-連中はッァ、オレを黒衣森に追い詰めたのかッァ。"
-65,"TEXT_JOBBLM560_01681_DOZOLMELOC_000_019","……ところでッェ、この兄ちゃんの疑問だがよッォ。
-ずばりッィ、連中が死んじまったのはッァ、
-「シャトトの魔石」を持ってなかったからじゃねえかッァ？"
-66,"TEXT_JOBBLM560_01681_ZHAIANELHAH_000_020","……その「シャトトの魔石」というのはなんだ？"
-67,"TEXT_JOBBLM560_01681_DOZOLMELOC_000_021","「シャトトの魔石」こそッォ、
-この<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>がッァ、
-正統な黒魔道士である証さッァ。"
-68,"TEXT_JOBBLM560_01681_DOZOLMELOC_000_022","多量の魔力を宿した魔石でよおッォ。
-その助けもなくッゥ、強力な黒魔法を使おうとしたってッェ、
-制御できるはずがねえッェ。"
-69,"TEXT_JOBBLM560_01681_DOZOLMELOC_000_023","だからッァ、連中は己のエーテルが燃えちまってッェ、
-内側から焼かれちまったんじゃねぇかッァ？"
-70,"TEXT_JOBBLM560_01681_ZHAIANELHAH_000_024","「まつろわぬ魔道士」が死んでしまったのは、
-制御の方法を知らずに、強大な破壊の力を使ったから……。
-<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>のせいじゃない…………？"
-71,"TEXT_JOBBLM560_01681_DOZOLMELOC_000_025","なにか誤解があったならッァ、しっかり話し合うんだなッァ。
-オレはッァ、ここいらで退散するぜッェ。
-この恩はッァ、かならず返すからよッォ！"
-72,"TEXT_JOBBLM560_01681_ZHAIANELHAH_000_026","……ドゾルの見解が本当だとしてもだ。
-君の黒魔法に対抗しようとして、
-連中が力を使いすぎてしまったことは事実……。"
-73,"TEXT_JOBBLM560_01681_ZHAIANELHAH_000_027","君ひとりが黒魔法を制御できているからといって、
-事態が解決したわけではない。
-そのことは、しっかりと認識しておけ……。"
-74,"TEXT_JOBBLM560_01681_ZHAIANELHAH_000_028","君は、このことを「ラライ」に伝えるといいだろう。
-………………君を責めて、すまなかった。"
-75,"TEXT_JOBBLM560_01681_LALAI_000_040","<Highlight>ObjectParameter(1)</Highlight>よ。
-ドゾル・メロックは無事でしたか……？"
-76,"TEXT_JOBBLM560_01681_LALAI_000_041","……なるほど、そのようなことが。
-ザイ・ア・ネルハーも、
-これで、少しは丸くなればいいのですが。"
-77,"TEXT_JOBBLM560_01681_LALAI_000_042","しかし、「内側から焼かれていた」とは……。
-ドゾル・メロックの見解が正しいとするならば、
-「まつろわぬ魔道士」の情勢も読めてきますね……！"
-78,"TEXT_JOBBLM560_01681_Q1_000_000","なんと返答する？"
-79,"TEXT_JOBBLM560_01681_A1_000_001","君も気づいたのか……"
-80,"TEXT_JOBBLM560_01681_A1_000_002","どういうこと……？"
-81,"TEXT_JOBBLM560_01681_LALAI_000_050","……なんです、そのザイ・ア・ネルハーのような口調は。
-私も、凡庸な魔力で、必死に黒魔法の研鑽を積む者。
-彼らの考えは、私が一番想像できます……。"
-82,"TEXT_JOBBLM560_01681_LALAI_000_060","あなたのように、黒魔法を不自由なく使いこなす者には、
-逆に気づきにくい点なのかもしれませんね……。"
-83,"TEXT_JOBBLM560_01681_LALAI_000_070","おそらく敵の陣営は、そう人数を増やせていません。
-力を使いすぎただけで、術者が死んでしまうのでは、
-勢力を拡大させることなどできませんからね……。"
-84,"TEXT_JOBBLM560_01681_LALAI_000_071","だからこそ彼らは、「制御」の方法を求めている……！
-知識を有する獣人たちの前にばかり姿を現したのも、
-そういった目的があったからでしょう……。"
-85,"TEXT_JOBBLM560_01681_LALAI_000_072","しかし、あなたの活躍により、知識は得られぬまま……。
-「制御」の方法を知る術を失い、
-ウォルディーヴは、かなり焦っているに違いありません！"
-86,"TEXT_JOBBLM560_01681_LALAI_000_073","「まつろわぬ魔道士」の足取りは途絶えてしまいましたが、
-根気比べでは、こちらに分があります。
-きっと、すぐに姿を現すでしょう！"
-87,"TEXT_JOBBLM560_01681_LALAI_000_074","今は下手に動かずに、敵が動き出すのを待つべきです！
-新たに解読した禁術「エノキアン」を授けましょう。
-敵が行動を開始する前に、熟達しておくのですよ！"
-88,"TEXT_JOBBLM560_01681_SYSTEM_000_075","（★未使用／削除予定★）"
+48,"TEXT_JOBBLM560_01681_LALAI_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! I've received another letter!"
+49,"TEXT_JOBBLM560_01681_LALAI_000_001","“Danjer! Pleez Help! Me Hide In Alder Springs
+Tell <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>!
+
+─ DOZOL”"
+50,"TEXT_JOBBLM560_01681_LALAI_000_002","That's all it says... The handwriting is barely legible."
+51,"TEXT_JOBBLM560_01681_LALAI_000_003","It doubtless goes without saying, but Dozol Meloc is in need of our help."
+52,"TEXT_JOBBLM560_01681_LALAI_000_004","I shall have to tell Zhai'a Nelhah about this. Do not dwell on his previous outburst. I know you have full control of your powers."
+53,"TEXT_JOBBLM560_01681_LALAI_000_005","Use this opportunity to show that man the true cunning and finesse that a black mage can bring to the fight!"
+54,"TEXT_JOBBLM560_01681_LALAI_000_006","Enough talk. Hurry to Alder Springs and save Dozol Meloc!"
+55,"TEXT_JOBBLM560_01681_LALAI_000_007","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, why are you still here!? Dozol Meloc is clearly in danger! Hurry to Alder Springs and save him!"
+56,"TEXT_JOBBLM560_01681_DOZOLMELOC_000_010","Thank you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! Save Dozol's life, you have! Kazagg Chah tried to warn Dozol. Dozol panicked, tried to flee. But get caught, Dozol did! Squaaawk!"
+57,"TEXT_JOBBLM560_01681_DOZOLMELOC_000_011","Somehow knew that Dozol was exiled from tribe, these mages did. So into the forest, they chased Dozol! Squaaawk!"
+58,"TEXT_JOBBLM560_01681_DOZOLMELOC_000_012","Finally, they surrounded Dozol. Offered friendship at first...but rejected, Dozol did. They said if Dozol is not friend, then Dozol enemy... But save Dozol, you did. Many thanks."
+59,"TEXT_JOBBLM560_01681_ZHAIANELHAH_000_013","Gods! I was too late <Emphasis>again</Emphasis>! You've already cut your swath of reckless destruction."
+60,"TEXT_JOBBLM560_01681_ZHAIANELHAH_000_014","What did you plan to achieve? How many more lives must you end before you realize how fruitless this is?"
+61,"TEXT_JOBBLM560_01681_ZHAIANELHAH_000_015","Wait... These wounds...they're unlike anything I've ever seen. It looks like they were incinerated from the <Emphasis>inside</Emphasis>."
+62,"TEXT_JOBBLM560_01681_ZHAIANELHAH_000_016","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, was this perhaps not your doing, after all?"
+63,"TEXT_JOBBLM560_01681_DOZOLMELOC_000_017","Of what does this man speak? Pursued Dozol for a long time, these men did. Tried to kill Dozol! Squaaawk! Explain! Who are they? What did they want!?"
+64,"TEXT_JOBBLM560_01681_DOZOLMELOC_000_018","Dozol understands now! Squaaawk! Read the Book of Thal, they did. Learned of mother of mother of mother of Dozol, learned of her secrets─Dozol's secrets. Made clear, their pursuit is!"
+65,"TEXT_JOBBLM560_01681_DOZOLMELOC_000_019","But these wounds... Perhaps Dozol has an explanation. These men did not have the Gem of Shatotto! Squaaawk! Dozol thinks that is why they died."
+66,"TEXT_JOBBLM560_01681_ZHAIANELHAH_000_020","Gem of Shatotto? Whatever are you talking about?"
+67,"TEXT_JOBBLM560_01681_DOZOLMELOC_000_021","Gem is proof that <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> is <Emphasis>true</Emphasis> black mage."
+68,"TEXT_JOBBLM560_01681_DOZOLMELOC_000_022","Gem brims with magical power. Without the Gem of Shatotto, impossible to control, the most powerful black magic is! Squaaawk!"
+69,"TEXT_JOBBLM560_01681_DOZOLMELOC_000_023","Lost control, these mages did. Aether within their own bodies ignited! Burned alive from the inside. Painful way to die, it is."
+70,"TEXT_JOBBLM560_01681_ZHAIANELHAH_000_024","So these Defiant mages fell victim to their own arrogance─using dark magicks that far outstripped their ability to control them. So <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> isn't at fault..."
+71,"TEXT_JOBBLM560_01681_DOZOLMELOC_000_025","The answers you seek, Dozol hopes you find. But Dozol cannot stay here. Dozol must leave. Thank you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Dozol owes you debt of life. Squaaawk! One day, Dozol will repay!"
+72,"TEXT_JOBBLM560_01681_ZHAIANELHAH_000_026","So these men were slain not by your hand, but by their own use of powers they couldn't control."
+73,"TEXT_JOBBLM560_01681_ZHAIANELHAH_000_027","But please understand that the fact that <Emphasis>you</Emphasis> can control your powers does nothing to resolve the issue at hand."
+74,"TEXT_JOBBLM560_01681_ZHAIANELHAH_000_028","You should return to Lalai and explain to her what happened here. Please accept my apologies for my earlier accusations."
+75,"TEXT_JOBBLM560_01681_LALAI_000_040","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! Was Dozol Meloc unharmed?"
+76,"TEXT_JOBBLM560_01681_LALAI_000_041","Hmmm, I see... Well, if nothing else, it seems that Zhai'a Nelhah no longer doubts your innocence."
+77,"TEXT_JOBBLM560_01681_LALAI_000_042","But...the Defiant were immolated from within? If Dozol Meloc's conjecture is accurate, the cult's situation becomes quite clear! But I hardly need to explain that to <Emphasis>you</Emphasis>, do I?"
+78,"TEXT_JOBBLM560_01681_Q1_000_000","How will you answer?"
+79,"TEXT_JOBBLM560_01681_A1_000_001","Ah, so you have noticed, too."
+80,"TEXT_JOBBLM560_01681_A1_000_002","But if you <Emphasis>were</Emphasis> to explain it to me...?"
+81,"TEXT_JOBBLM560_01681_LALAI_000_050","But I still cannot condone Zhai'a Nelhah's attitude. I have struggled ceaselessly through my studies of the dark arts myself with what little power I have. Perhaps none can understand the Defiant's motivations better than I..."
+82,"TEXT_JOBBLM560_01681_LALAI_000_060","I suppose for one to whom these powers come as second nature, some things are not so easily noticed."
+83,"TEXT_JOBBLM560_01681_LALAI_000_070","The Defiant's numbers cannot continue to grow indefinitely. They will have difficulty swelling their ranks when they cannot use their powers without the risk of a horrifying death by immolation."
+84,"TEXT_JOBBLM560_01681_LALAI_000_071","Thus they strive for control over the dark arts, while showing themselves only to our beastman friends in the hope that they might reveal the secrets to controlling these magicks."
+85,"TEXT_JOBBLM560_01681_LALAI_000_072","Fortunately, we have prevented them from learning anything. With these avenues now lost to him, Waldeve must realize that he is running out of options."
+86,"TEXT_JOBBLM560_01681_LALAI_000_073","Though we may lack leads from which to track down the Defiant, their position becomes weaker the longer they wait. They will soon be forced to take action."
+87,"TEXT_JOBBLM560_01681_LALAI_000_074","There is no need to rush─we need simply wait the enemy out. In the meantime, let me teach you a new spell I deciphered from the Book of Nald: Enochian. Try to master it before the Defiant make their move!"
+88,"TEXT_JOBBLM560_01681_SYSTEM_000_075",""

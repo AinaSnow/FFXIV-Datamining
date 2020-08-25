@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANSYL307_01283_SEQ_00","シルフの仮宿のモキシアは、ゆりかごの心配をしているようだ。"
-1,"TEXT_BANSYL307_01283_SEQ_01","モキシアの依頼を受けた。ゆりかごの大樹の周辺にある「<Sheet(EObj,2003292,0)/>」を持ち上げよう。"
-2,"TEXT_BANSYL307_01283_SEQ_02","ゆりかごの大樹にある「<Sheet(EObj,2003292,0)/>」を、シルフ領北部を訪れている仮宿のシルフのもとへ運び、「<Sheet(EObj,2003390,0)/>」に置こう。
+0,"TEXT_BANSYL307_01283_SEQ_00","Moxia fears for the safety of the little ones."
+1,"TEXT_BANSYL307_01283_SEQ_01","Moxia explains to you how newborn sylphs sprout forth from “podlings,” which are bulb-like objects that must be incubated deep in the heart of the Sylphlands. With touched sylphs ever looking to steal away podlings to add to their numbers, Moxia would ask your aid in delivering a ready-to-sprout podling back to the safety of Little Solace. Travel to the Seedbed and take the podling in hand."
+2,"TEXT_BANSYL307_01283_SEQ_02","You have successfully retrieved the podling. Deliver it to the specified location, where two sylphs of Little Solace await.
 
-※運搬状態は、一定時間が過ぎると効果を失います。「<Sheet(EObj,2003389,0)/>」に触れることで、運搬状態の効果時間を延長できます。"
-3,"TEXT_BANSYL307_01283_SEQ_03","<Sheet(EObj,2003292,0)/>を<Sheet(EObj,2003390,0)/>に置いた。シルフの仮宿の「モキシア」に報告しよう。"
-4,"TEXT_BANSYL307_01283_SEQ_04","モキシアに報告した。<Sheet(EObj,2003292,0)/>を持ったモキシアの仲間たちは仮宿に戻ったらしい。無事に保護された<Sheet(EObj,2003292,0)/>は、仮宿にていい子に育てられることだろう。またの機会に協力しよう。"
+※To bolster your strength while carrying the podling, interact with the patches of moongrass that you find along the way."
+3,"TEXT_BANSYL307_01283_SEQ_03","You have safely navigated the most dangerous depths of the Sylphlands and delivered the podling to the waiting hands of the sylphs. Inform Moxia that the little one is safe."
+4,"TEXT_BANSYL307_01283_SEQ_04","Moxia joyously informs you that a healthy little one has sprouted forth from the podling you helped deliver to safety, leading to much rejoicing among the sylphs of Little Solace. She fears, however, that the touched sylphs will not cease their attempt to rob the Seedbed, and asks that you lend your aid again."
 5,"TEXT_BANSYL307_01283_SEQ_05",""
 6,"TEXT_BANSYL307_01283_SEQ_06",""
 7,"TEXT_BANSYL307_01283_SEQ_07",""
@@ -27,9 +27,9 @@ int32,str,str
 21,"TEXT_BANSYL307_01283_SEQ_21",""
 22,"TEXT_BANSYL307_01283_SEQ_22",""
 23,"TEXT_BANSYL307_01283_SEQ_23",""
-24,"TEXT_BANSYL307_01283_TODO_00","ゆりかごの大樹にある<Sheet(EObj,2003292,0)/>を持ち上げる"
-25,"TEXT_BANSYL307_01283_TODO_01","<Sheet(EObj,2003390,0)/>に<Sheet(EObj,2003292,0)/>を置く"
-26,"TEXT_BANSYL307_01283_TODO_02","モキシアに報告"
+24,"TEXT_BANSYL307_01283_TODO_00","Pick up the podling from the Seedbed."
+25,"TEXT_BANSYL307_01283_TODO_01","Carry the podling to the specified location."
+26,"TEXT_BANSYL307_01283_TODO_02","Report to Moxia."
 27,"TEXT_BANSYL307_01283_TODO_03",""
 28,"TEXT_BANSYL307_01283_TODO_04",""
 29,"TEXT_BANSYL307_01283_TODO_05",""
@@ -51,55 +51,22 @@ int32,str,str
 45,"TEXT_BANSYL307_01283_TODO_21",""
 46,"TEXT_BANSYL307_01283_TODO_22",""
 47,"TEXT_BANSYL307_01283_TODO_23",""
-48,"TEXT_BANSYL307_01283_MOXIA_000_000","わたぴらシルフ族は、「種子」から生まれるのでふっち。
-親から生まれた「種子」は、成熟して羽化するまで
-「シルフのゆりかご」という植物の中で育てるのでふっち。"
-49,"TEXT_BANSYL307_01283_MOXIA_000_001","でも、この「ゆりかご」があるのは、
-シルフ領の奥深くにある「ゆりかごの大樹」だけでふっち。"
-50,"TEXT_BANSYL307_01283_MOXIA_000_002","大樹の周りにある「<Sheet(EObj,2003292,0)/>」は、
-このままだと悪い子シルフたちに育てられて、
-テンパードにされちゃうのでふっち！"
-51,"TEXT_BANSYL307_01283_MOXIA_000_003","冒険者さん、お願いでふっち！
-「ゆりかごの大樹」にある「<Sheet(EObj,2003292,0)/>」を、
-持ち帰ってほしいのでふっち。"
-52,"TEXT_BANSYL307_01283_MOXIA_000_004","実は仮宿の仲間が、すでにゆりかごをとりに行ってるでふっち。
-でも、シルフ領は広くて恐いから、
-きっと「ゆりかごの大樹」までは行けず、困ってるはずでふっち。"
-53,"TEXT_BANSYL307_01283_MOXIA_001_005","「<Sheet(EObj,2003292,0)/>」を持ち出せたら、
-彼らに渡してくれればいいでふっち。
-あとは仲間が、なんとかして仮宿にもってくるでふっち！"
-54,"TEXT_BANSYL307_01283_MOXIA_000_010","冒険者さん、お願いでふっち！
-「ゆりかごの大樹」にある「<Sheet(EObj,2003292,0)/>」を、
-持ち帰ってほしいのでふっち。"
-55,"TEXT_BANSYL307_01283_MOXIA_000_011","「<Sheet(EObj,2003292,0)/>」を持ち出せたら、
-彼らに渡してくれればいいでふっち。
-あとは仲間が、なんとかして仮宿にもってくるでふっち！"
-56,"TEXT_BANSYL307_01283_RECOVER_000_001","清らかな空気により疲れが癒され、
-運搬状態の効果時間が延長された！"
-57,"TEXT_BANSYL307_01283_NOTRECOVER_000_001","指定された運搬状態でなければ効果はありません。
-開始地点に戻ると、再び運搬状態になります。"
-58,"TEXT_BANSYL307_01283_DECRIPT_000_001","「<Sheet(EObj,2003292,0)/>」を持ち上げて、
-制限時間内に、シルフの仮宿にある
-「<Sheet(EObj,2003390,0)/>」まで運搬しましょう。"
-59,"TEXT_BANSYL307_01283_DECRIPT_000_002","運搬状態の効果時間は「50秒」です。
-時間切れになった場合、運搬は失敗になりますが、
-開始地点から再挑戦することができます。"
-60,"TEXT_BANSYL307_01283_DECRIPT_000_003","なお、攻撃を受けると、効果時間が減ってしまいます。
-運搬状態の残り時間が少なくなってきたら、
-道中の「<Sheet(EObj,2003389,0)/>」に触れ、時間を回復しましょう。"
-61,"TEXT_BANSYL307_01283_KARIYADOSHIRUF_000_015","冒険者さん、お願いでふっち！
-「<Sheet(EObj,2003292,0)/>」を持ち帰ってほしいでふっち。
-そーっと、そーっと、この場所に置いてほしいでふっち。"
-62,"TEXT_BANSYL307_01283_KARIYADOSHIRUF_000_016","(-仮宿のシルフ-)ああ、「<Sheet(EObj,2003292,0)/>」だふっち！
-あたぴたち、なんとかここまでこれたけど、
-魔物や悪い子シルフが多すぎて、困ってたとこなのでふっち！"
-63,"TEXT_BANSYL307_01283_KARIYADOSHIRUF_000_017","「ゆりかごの大樹」から帰ってくるとは、さすがは冒険者さん！
-この子は、あたぴらが仮宿に運ぶでふっち。
-冒険者さんは、気をつけて帰ってきてでふっち！"
-64,"TEXT_BANSYL307_01283_MOXIA_000_020","お帰りでふっち！
-ついさっき、仲間が無事、ゆりかごをもってきたでふっち。
-それもこれも、冒険者さんのおかげでふっち！"
-65,"TEXT_BANSYL307_01283_MOXIA_000_021","また、ゆりかごが成熟するころに、
-保護をお願いしたいでふっち！
-よろしくでふっち！"
-66,"TEXT_BANSYL307_01283_POP_MESSAGE_000","敵の気配を感じた！！"
+48,"TEXT_BANSYL307_01283_MOXIA_000_000","Brave one has seen podlings, yes? To say it in a way that a walking one can understand, podlings are where these ones' little ones come from."
+49,"TEXT_BANSYL307_01283_MOXIA_000_001","These ones bring podlings to a place called the Seedbed, deep in the forest. Given light and warmth, podlings ripen."
+50,"TEXT_BANSYL307_01283_MOXIA_000_002","When podling is fully ripened, these ones bring podling back to Little Solace, and...pop! Out comes a little one. Tee hee! Cute little ones always bring a smile to this one's face."
+51,"TEXT_BANSYL307_01283_MOXIA_000_003","Yet smiles are not so many these days. The Seedbed where podlings must slumber lies deep in Sylphlands, where touched ones are many."
+52,"TEXT_BANSYL307_01283_MOXIA_000_004","Touched ones steal podlings from these ones, raise little ones to be touched ones. This one weeps for little ones that will know nothing but shadows and stink."
+53,"TEXT_BANSYL307_01283_MOXIA_001_005","Usually, one of these ones goes to carry back podlings, but touched ones are too many. A podling is ready to sprout, but touched ones will not let these ones near the Seedbed. Will brave one go and bring podling back?"
+54,"TEXT_BANSYL307_01283_MOXIA_000_010","This one begs of brave one. Brave one must help these ones bring little one back to safety!"
+55,"TEXT_BANSYL307_01283_MOXIA_000_011","These ones and brave one will work together. Brave one will go to Seedbed, carry podling back to these ones. These ones will bring podling back to Little Solace, where little one will be born."
+56,"TEXT_BANSYL307_01283_RECOVER_000_001","Cool, crisp air fills your lungs, giving your arms and legs new strength!"
+57,"TEXT_BANSYL307_01283_NOTRECOVER_000_001","You are not carrying the specified object. Return to the starting point and reattempt the delivery."
+58,"TEXT_BANSYL307_01283_DECRIPT_000_001","Carry the podling back to Little Solace while your arms and legs still have strength."
+59,"TEXT_BANSYL307_01283_DECRIPT_000_002","You will have fifty seconds to complete the task. Should you fail, return to the starting location and begin anew."
+60,"TEXT_BANSYL307_01283_DECRIPT_000_003","Be wary of attacks from enemies. Should you find yourself tiring, seek out patches of glimmering moongrass, which will restore your strength."
+61,"TEXT_BANSYL307_01283_KARIYADOSHIRUF_000_015","Walking one will go to Seedbed, yes? Find podling, bring to this one? Walking one must walk gently─inside podling, little one slumbers."
+62,"TEXT_BANSYL307_01283_KARIYADOSHIRUF_000_016","(-Little Solace Sylph-)Walking one is strong indeed to survive the journey from the Seedbed. This one will carry podling back to Little Solace from here."
+63,"TEXT_BANSYL307_01283_KARIYADOSHIRUF_000_017","Little one will be safe, thanks to walking one. There is no end to this one's gratitude."
+64,"TEXT_BANSYL307_01283_MOXIA_000_020","Brave one will be happy to hear that little one sprouted from podling not moments ago. Because of brave one, little one is safe, and these ones smile again."
+65,"TEXT_BANSYL307_01283_MOXIA_000_021","But touched ones will not give up so easily...this one knows. These ones would ask brave one to protect little ones again."
+66,"TEXT_BANSYL307_01283_POP_MESSAGE_000","You sense a hostile presence!"

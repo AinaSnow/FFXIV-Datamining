@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSWDK530_01998_SEQ_00","雲霧街のバルトヴューは、新しい弓が欲しいようだ。"
-1,"TEXT_CLSWDK530_01998_SEQ_01","バルトヴューは、弓を新調して大物のドラゴン族を狙いたいようだ。「<Sheet(ItemHQ,10611,0)/>」を製作し、雲霧街の「バルトヴュー」に納品しよう。"
-2,"TEXT_CLSWDK530_01998_SEQ_02","バルトヴューに<Sheet(ItemHQ,10611,0)/>を納品した。バルトヴューは、息子に無視されているようだ。代わりにイシュガルドのスカイスチール機工房付近にいる「フィリパレ」と話そう。"
-3,"TEXT_CLSWDK530_01998_SEQ_03","フィリパレは呼んでも来ないようだ。雲霧街の「バルトヴュー」に報告しよう。"
-4,"TEXT_CLSWDK530_01998_SEQ_04","バルトヴューに報告した。冒険者の作った弓で、ヌーグルヴィルを狩りにいくバルトヴューの武運を祈りつつ、木工師としての修行を続けよう。
+0,"TEXT_CLSWDK530_01998_SEQ_00","You can see the ambition burning in Barthovieu's eyes."
+1,"TEXT_CLSWDK530_01998_SEQ_01","Barthovieu has earned some coin, maybe even enough for a proper bow if you offer him a discount, anyway. He has killed many a lesser Dravanian, but the pay for these is low─true glory and coin are won with the heads of great dragons in Ishgard. Fashion Barthovieu his desired high-quality holy cedar composite bow, so that he may join the ranks of the great dragonslayers."
+2,"TEXT_CLSWDK530_01998_SEQ_02","Barthovieu is overjoyed to receive his bow. He reveals that he means to kill Nguruvilu, a fearsome Dravanian with scales of steel. With this dragon's head, he says he can win a better life for himself and his boy. However, some unspoken conflict between father and son is keeping Philipallais away from home. Speak with the child near the manufactory, and try to convince him to return."
+3,"TEXT_CLSWDK530_01998_SEQ_03","Philipallais tells you in no uncertain terms that he is currently hunting, and will not go home until he is through, whenever that is. Return to Barthovieu and pass along the message."
+4,"TEXT_CLSWDK530_01998_SEQ_04","Barthovieu is not surprised to hear his son's message. However, he cannot wait for Philipallais to return home, and announces his intent to hunt Nguruvilu. The soldier thanks you again for your service, and vows to have something to show come your next meeting.
 
-※木工師のレベルが55以上になると、雲霧街のバルトヴューから次の木工師クエストを受注することができます。"
+※The next carpenter quest will be available from Barthovieu upon reaching level 55."
 5,"TEXT_CLSWDK530_01998_SEQ_05",""
 6,"TEXT_CLSWDK530_01998_SEQ_06",""
 7,"TEXT_CLSWDK530_01998_SEQ_07",""
@@ -27,9 +27,9 @@ int32,str,str
 21,"TEXT_CLSWDK530_01998_SEQ_21",""
 22,"TEXT_CLSWDK530_01998_SEQ_22",""
 23,"TEXT_CLSWDK530_01998_SEQ_23",""
-24,"TEXT_CLSWDK530_01998_TODO_00","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))><Sheet(ItemHQ,10611,0)/>を製作<Else/>バルトヴューに<Sheet(ItemHQ,10611,0)/>を納品</If>"
-25,"TEXT_CLSWDK530_01998_TODO_01","フィリパレと話す"
-26,"TEXT_CLSWDK530_01998_TODO_02","バルトヴューに報告"
+24,"TEXT_CLSWDK530_01998_TODO_00","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Craft a holy cedar composite bow <Sheet(Addon,9,0)/><Else/>Deliver the holy cedar composite bow <Sheet(Addon,9,0)/> to Barthovieu</If>."
+25,"TEXT_CLSWDK530_01998_TODO_01","Speak with Philipallais."
+26,"TEXT_CLSWDK530_01998_TODO_02","Report to Barthovieu."
 27,"TEXT_CLSWDK530_01998_TODO_03",""
 28,"TEXT_CLSWDK530_01998_TODO_04",""
 29,"TEXT_CLSWDK530_01998_TODO_05",""
@@ -51,52 +51,22 @@ int32,str,str
 45,"TEXT_CLSWDK530_01998_TODO_21",""
 46,"TEXT_CLSWDK530_01998_TODO_22",""
 47,"TEXT_CLSWDK530_01998_TODO_23",""
-48,"TEXT_CLSWDK530_01998_BARTHOVIEU_000_000","よう、木工師さん！
-ちっとばかり、金が貯まってきたから、
-「<Sheet(ItemHQ,10611,0)/>」を作ってほしいんだ。"
-49,"TEXT_CLSWDK530_01998_BARTHOVIEU_000_001","今の俺に倒せるのは、下位の眷属程度で報酬も少ないが、
-何とかやりくりして代金をこさえたのさ。"
-50,"TEXT_CLSWDK530_01998_BARTHOVIEU_000_002","「<Sheet(ItemHQ,10611,0)/>」さえあれば、
-上位の眷属どころか、大物のドラゴン族だって……。
-そうなりゃ、一気に騎士の称号を得ることだって夢じゃない！"
-51,"TEXT_CLSWDK530_01998_BARTHOVIEU_000_003","払える金額は、決して多くはないが……
-……頼む、このとおりだ！"
-52,"TEXT_CLSWDK530_01998_BARTHOVIEU_000_010","俺が欲しいのは「<Sheet(ItemHQ,10611,0)/>」だ。
-払える金額は、決して多くはないが……
-……頼む、このとおりだ！"
-53,"TEXT_CLSWDK530_01998_BARTHOVIEU_000_011","ありがとよ！　こいつはスゲェ弓だぜ！
-軽くて取り回しもしやすいが、何より弦の張りが別格だ。
-これなら、重めの矢だって自在に放てるだろうな！"
-54,"TEXT_CLSWDK530_01998_BARTHOVIEU_000_012","……実はな、ずっと狙ってた獲物がいるんだ。
-「ヌーグルヴィル」って名のドラゴン族なんだが……。"
-55,"TEXT_CLSWDK530_01998_BARTHOVIEU_000_013","まるで、鋼鉄の鎧を着込んでいるかのような硬い鱗を持ち、
-矢どころか、騎兵の槍ですら通さないと言われる難物だ。
-だが、この弓ならきっと戦えるはずさ……！"
-56,"TEXT_CLSWDK530_01998_BARTHOVIEU_000_014","そんな悪名高い存在を仕留めたとなりゃ、
-騎士に取り立てられ、息子にも楽させてやれる……！
-……そうだ、息子の「フィリパレ」を呼んできてくれないか？"
-57,"TEXT_CLSWDK530_01998_BARTHOVIEU_000_015","難しい年頃で、近ごろは俺が呼んでも無視しやがるもんでね……
-おそらく「スカイスチール機工房」付近で、
-いつものように狩りをしていると思う……すまんが頼んだぜ。"
-58,"TEXT_CLSWDK530_01998_BARTHOVIEU_000_020","難しい年頃で、近ごろは俺が呼んでも無視しやがるもんでね……
-おそらく「スカイスチール機工房」付近で、
-いつものように狩りをしていると思う……すまんが頼んだぜ。"
-59,"TEXT_CLSWDK530_01998_PHILIPALLAIS_000_030","……静かに……今、狩りの真っ最中なんだ。
-クルザスの強風から逃れるために、
-皇都に迷い込んだ野鳥を狙ってるんだよ。"
-60,"TEXT_CLSWDK530_01998_PHILIPALLAIS_000_031","父ちゃんみたいに弓を持たなくても、
-罠を仕掛ければ、けっこう捕れるんだぜ。
-……え、父ちゃんが呼んでるって？"
-61,"TEXT_CLSWDK530_01998_PHILIPALLAIS_000_032","どうせ、またドラゴン族退治に行くんだろ。
-いっつも怪我して帰ってきて、少し良くなったらすぐこれだ……。
-……最近の父ちゃんは嫌いだ、会いたくないよ。"
-62,"TEXT_CLSWDK530_01998_PHILIPALLAIS_000_035","どうせ、またドラゴン族退治に行くんだろ。
-いっつも怪我して帰ってきて、少し良くなったらすぐこれだ……。
-……最近の父ちゃんは嫌いだ、会いたくないよ。"
-63,"TEXT_CLSWDK530_01998_BARTHOVIEU_000_040","……そうか、手間をとらせちまって、すまなかったな。
-せめて出発前に、息子の顔を見たかったが仕方あるまい。"
-64,"TEXT_CLSWDK530_01998_BARTHOVIEU_000_041","よし、ヌーグルヴィル討伐に行ってくる！
-あんたが作ってくれた弓で、奴を撃ち落としてやるさ！
-……いい報せを、待っていてくれよな！"
-65,"TEXT_CLSWDK530_01998_SYSTEM_100_001","（★未使用／削除予定★）"
-66,"TEXT_CLSWDK530_01998_SYSTEM_100_002","（★未使用／削除予定★）"
+48,"TEXT_CLSWDK530_01998_BARTHOVIEU_000_000","I was about to look for you! I've been checking the markets, and by my reckoning I've enough to pay for the best holy cedar composite bow you can fashion─if you'll allow me a discount."
+49,"TEXT_CLSWDK530_01998_BARTHOVIEU_000_001","I had to kill a number of lesser dragons for this coin. The pay's shite, since any fool with a pointed stick can do for them."
+50,"TEXT_CLSWDK530_01998_BARTHOVIEU_000_002","The real money's in the greater Dravanians. 'Tis where the glory is, too. A proper bow'll let me take one's head, and win my knighthood, with any luck."
+51,"TEXT_CLSWDK530_01998_BARTHOVIEU_000_003","I ask you on bended knee, friend─accept what I can pay, and make me a fine bow!"
+52,"TEXT_CLSWDK530_01998_BARTHOVIEU_000_010","I've long dreamed of owning a fine holy cedar composite bow. Please, adventurer..."
+53,"TEXT_CLSWDK530_01998_BARTHOVIEU_000_011","Why, 'tis light as a feather... Even in mail, my arm'll never tire while holding it! And the draw weight's <Emphasis>thrice</Emphasis> that of my last bow! Aye, this'll fling a heavy broadhead a good two hundred yalms. Thank you, my friend!"
+54,"TEXT_CLSWDK530_01998_BARTHOVIEU_000_012","To tell the truth, I don't mean to hunt just any dragon. I've got a target in mind─Nguruvilu."
+55,"TEXT_CLSWDK530_01998_BARTHOVIEU_000_013","Bastard might as well be covered in steel armor. Even knights can't pierce his scales with their lances, let alone their arrows. But a well-aimed shot from this bow might slide between his plates!"
+56,"TEXT_CLSWDK530_01998_BARTHOVIEU_000_014","He's woken from a long sleep, you see. Last time he did, he left a trail of corpses. Nguruvilu's head will win me my knighthood, and a better life for my boy! Not that Philipallais sees it that way."
+57,"TEXT_CLSWDK530_01998_BARTHOVIEU_000_015","Could you call him, adventurer? He's always away from home these days. Spends all his time hunting out near the manufactory..."
+58,"TEXT_CLSWDK530_01998_BARTHOVIEU_000_020","I know Philipallais is at a difficult age, but must he spend all his time hunting by the manufactory? <sigh> If he'd just talk to me..."
+59,"TEXT_CLSWDK530_01998_PHILIPALLAIS_000_030","Shhh! Can't you see I'm busy hunting? These birds come into the city to avoid the winds."
+60,"TEXT_CLSWDK530_01998_PHILIPALLAIS_000_031","They're easy to catch, even without a bow. I just lay out traps for them."
+61,"TEXT_CLSWDK530_01998_PHILIPALLAIS_000_032","Father wants me to come home? No! He keeps leaving to fight dragons, no matter how many times he gets hurt! I...I don't want to see him."
+62,"TEXT_CLSWDK530_01998_PHILIPALLAIS_000_035","Tell my father whatever you want. But I'm not going home."
+63,"TEXT_CLSWDK530_01998_BARTHOVIEU_000_040","No luck? Sorry to have put you through that. I just...I just wanted to see his face before I left."
+64,"TEXT_CLSWDK530_01998_BARTHOVIEU_000_041","But no matter. I'm off to hunt, and if the gods are good, I'll have slain Nguruvilu by the time we meet next!"
+65,"TEXT_CLSWDK530_01998_SYSTEM_100_001","deleted"
+66,"TEXT_CLSWDK530_01998_SYSTEM_100_002","deleted"

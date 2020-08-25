@@ -1,10 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANKJN403_02987_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト受注クラス・ジョブ制限<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-※本クエストは受注時のクラス・ジョブでのみ進行します。
-
-碧のタマミズのズキンは、何やら心配しているようだ。"
+0,"TEXT_BANKJN403_02987_SEQ_00","One of the elders has been gone a long time.
+※The difficulty of this quest will be synced to your current level."
 1,"TEXT_BANKJN403_02987_SEQ_01",""
 2,"TEXT_BANKJN403_02987_SEQ_02",""
 3,"TEXT_BANKJN403_02987_SEQ_03",""
@@ -28,9 +26,9 @@ int32,str,str
 21,"TEXT_BANKJN403_02987_SEQ_21",""
 22,"TEXT_BANKJN403_02987_SEQ_22",""
 23,"TEXT_BANKJN403_02987_SEQ_23",""
-24,"TEXT_BANKJN403_02987_TODO_00","筋違砦の老いた碧甲羅と話す"
-25,"TEXT_BANKJN403_02987_TODO_01","筋違砦の美しい長髪の海賊に<Sheet(EventItem,2002404,0)/>を渡す"
-26,"TEXT_BANKJN403_02987_TODO_02","ズキンに報告"
+24,"TEXT_BANKJN403_02987_TODO_00","Speak with the wizened Kojin."
+25,"TEXT_BANKJN403_02987_TODO_01","Deliver the jars of lotion to the long-haired pirates."
+26,"TEXT_BANKJN403_02987_TODO_02","Report to Zukin."
 27,"TEXT_BANKJN403_02987_TODO_03",""
 28,"TEXT_BANKJN403_02987_TODO_04",""
 29,"TEXT_BANKJN403_02987_TODO_05",""
@@ -52,51 +50,20 @@ int32,str,str
 45,"TEXT_BANKJN403_02987_TODO_21",""
 46,"TEXT_BANKJN403_02987_TODO_22",""
 47,"TEXT_BANKJN403_02987_TODO_23",""
-48,"TEXT_BANKJN403_02987_ZUKIN_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><If(PlayerParameter(4))>姉<Else/>兄</If>、良いところにぃ～！
-里の爺さんが、筋違砦に行商に出たのはいいんだが、
-最近、物忘れがひどいから心配でなぁ～。"
-49,"TEXT_BANKJN403_02987_ZUKIN_000_001","後生だから、筋違砦で「老いた碧甲羅」を探して、
-手伝ってやってくれねぇかぁ～？
-よろしく頼むぜぇ～。"
-50,"TEXT_BANKJN403_02987_OLDTURTLE02987_000_010","おお、貴方様を探しておりましたぁ～。
-こちらが、ご依頼の品でございます～。"
-51,"TEXT_BANKJN403_02987_OLDTURTLE02987_000_011","なんと、人違いでしたかぁ～！？
-これは失敬、失敬～。"
-52,"TEXT_BANKJN403_02987_OLDTURTLE02987_100_011","……おんや、貴方様が、代わりに品を届けてくださるとぉ～！？
-そりゃ、助かります～！！
-歩き回ったせいで、しんどくなり始めていたところでしたぁ～。"
-53,"TEXT_BANKJN403_02987_OLDTURTLE02987_000_012","届ける品は、こちらの軟膏です～。
-届け先は……確か……美しい長髪の海賊でしたぁ～！
-では、わしは里に引き上げ、休ませてもらいます～。"
-54,"TEXT_BANKJN403_02987_OKMID2987_000_012","おや、爺さんに頼んだ「<Sheet(EventItem,2002404,0)/>」を、
-代わりに届けてくれたのか？"
-55,"TEXT_BANKJN403_02987_OKMID2987_000_013","この軟膏を待ってたんだ、ありがとよ！
-こいつは、日焼け止めとして欠かせなくてね。
-ああ見えて碧甲羅のコウジン族は、いい軟膏を作るのさ。"
-56,"TEXT_BANKJN403_02987_OKMID2987_000_014","山育ちの私にとっちゃ、海の太陽は強すぎるが、
-海藻で作ったこの軟膏がありゃ、肌が焼けることはないよ。
-それじゃ、爺さんにもよろしくな！"
-57,"TEXT_BANKJN403_02987_OKAURA2987_000_015","え、依頼の品を届けにきたって……？
-ああ、老いた碧甲羅の代わりか。
-ありがとよ！"
-58,"TEXT_BANKJN403_02987_OKAURA2987_000_016","そうそう、この軟膏さ。
-これがあれば、クラゲに刺されても、心配ないんだ。
-海を知り尽くしたコウジン族ならではの技ってやつだね。"
-59,"TEXT_BANKJN403_02987_OKAURA2987_000_017","ところで、いつものコウジン族は調子でも悪いのか？
-回復を願っていると伝えてくれ。
-それでは。"
-60,"TEXT_BANKJN403_02987_OKRUGA2987_000_018","ああ、確かにおれっちは、爺さんの碧甲羅に、
-「<Sheet(EventItem,2002404,0)/>」を定期的に届けてもらってんだ。
-今回は、アンタが持ってきてくれたのか？"
-61,"TEXT_BANKJN403_02987_OKRUGA2987_000_019","おお、コイツを待ち望んでたんだ！
-この軟膏が、おれっちの自慢の髪のツヤの秘訣でい。
-届けてくれて、感謝するぜ！"
-62,"TEXT_BANKJN403_02987_OKRUGA2987_000_020","ところで、いつもの爺さんは、具合でも悪いのか？
-また、届けに来てくれるのを待ってると、伝えてくれ。
-じゃあな！"
-63,"TEXT_BANKJN403_02987_ZUKIN_000_040","<If(PlayerParameter(4))>姉さん<Else/>兄さん</If>、おつかれさん～！
-爺さんの手伝いをしてくれて、ありがとなぁ～！
-<If(PlayerParameter(4))>姉さん<Else/>兄さん</If>を、「わしの若いころにそっくり」って褒めてたぜぇ～！"
-64,"TEXT_BANKJN403_02987_ZUKIN_000_041","爺さんは、里の最高齢のひとりだってのに、
-結んだ縁を守るため、今でも取引先に泳いで回ってんだぁ～！
-俺も、いつまでも活躍したいぜぇ～！"
+48,"TEXT_BANKJN403_02987_ZUKIN_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, would you be able to assist one of the village elders? He swam all the way to Onokoro to trade with the locals, but he has been getting somewhat forgetful lately."
+49,"TEXT_BANKJN403_02987_ZUKIN_000_001","Although we are on good terms with the local pirates, there may be some who would take advantage of him. I would be grateful if you could assist him in his duties."
+50,"TEXT_BANKJN403_02987_OLDTURTLE02987_000_010","Good day to you, most valued of customers! I have brought your order, as instructed."
+51,"TEXT_BANKJN403_02987_OLDTURTLE02987_000_011","Kami strike me down! Are you not the one awaiting delivery? Please forgive me─I fear my eyesight is beginning to fail me."
+52,"TEXT_BANKJN403_02987_OLDTURTLE02987_100_011","Mean you to say that you will deliver these jars in my stead? Truth be told, I feel like I have been wandering around in circles trying to find my clients."
+53,"TEXT_BANKJN403_02987_OLDTURTLE02987_000_012","I remember that they both have flowing, shimmering hair, but their names escape me. I shall return to Tamamizu forthwith, and let the others know that you have offered to help."
+54,"TEXT_BANKJN403_02987_OKMID2987_000_012","Good day to you! So you've come in place of the usual bloke to deliver my order, have you?"
+55,"TEXT_BANKJN403_02987_OKMID2987_000_013","I've been waiting for this! It's a special lotion that takes the edge off the blazing sunshine. You see, in the mountains where I grew up, we're not used to having the sun beating down on us all day."
+56,"TEXT_BANKJN403_02987_OKMID2987_000_014","Without this I'd end up all red and crispy, like a boiled coralshell! Be sure to let the folk back in Tamamizu know this stuff works wonders!"
+57,"TEXT_BANKJN403_02987_OKAURA2987_000_015","Is that my order? Oh, so you're the one doing the deliveries today?"
+58,"TEXT_BANKJN403_02987_OKAURA2987_000_016","Have you seen this before? It's a traditional Kojin remedy for jellyfish stings, but it works just as well on you and me. Nowadays, we don't go fishing without it."
+59,"TEXT_BANKJN403_02987_OKAURA2987_000_017","Could you pass on my regards to the merchant? I know he's getting on a bit, but I hope he's well enough to carry on with his usual rounds."
+60,"TEXT_BANKJN403_02987_OKRUGA2987_000_018","What's this? My order from Tamamizu? Not who I was expecting, but I'll be glad to get it all the same."
+61,"TEXT_BANKJN403_02987_OKRUGA2987_000_019","Yes, yes! My luscious locks have been crying out for this miraculous formula! Rubbing a dollop of this into my hair gives it the most wonderful shine."
+62,"TEXT_BANKJN403_02987_OKRUGA2987_000_020","You know, I thought it would never arrive. Has that doddery old salesman fallen on his back and can't get up? Send him my thanks, would you?"
+63,"TEXT_BANKJN403_02987_ZUKIN_000_040","Oh, back so soon? And you found the customers, you say? I am glad the delivery was successful, even if it did require considerable intervention on your part."
+64,"TEXT_BANKJN403_02987_ZUKIN_000_041","Our elderly entrepreneur wanted to express his gratitude, but has already sped off on another pressing engagement. I hope I am that sprightly when I reach his age!"

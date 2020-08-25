@@ -1,8 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKZA026_03368_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-旅立ちの宿の疲れた様子の番兵は、護衛を頼みたいようだ。"
+0,"TEXT_LUCKZA026_03368_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+The bleary-eyed guard appears to be suffering from a lack of sleep."
 1,"TEXT_LUCKZA026_03368_SEQ_01",""
 2,"TEXT_LUCKZA026_03368_SEQ_02",""
 3,"TEXT_LUCKZA026_03368_SEQ_03",""
@@ -26,9 +26,9 @@ int32,str,str
 21,"TEXT_LUCKZA026_03368_SEQ_21",""
 22,"TEXT_LUCKZA026_03368_SEQ_22",""
 23,"TEXT_LUCKZA026_03368_SEQ_23",""
-24,"TEXT_LUCKZA026_03368_TODO_00","疲れた様子の番兵と話す"
-25,"TEXT_LUCKZA026_03368_TODO_01","<Sheet(EObj,2010705,0)/>に向かい、解呪の魔具でグラームを討伐"
-26,"TEXT_LUCKZA026_03368_TODO_02","疲れた様子の番兵と話す"
+24,"TEXT_LUCKZA026_03368_TODO_00","Speak with the bleary-eyed guard."
+25,"TEXT_LUCKZA026_03368_TODO_01","Use the blowgun to shoot ghilman from the designated location."
+26,"TEXT_LUCKZA026_03368_TODO_02","Speak with the bleary-eyed guard."
 27,"TEXT_LUCKZA026_03368_TODO_03",""
 28,"TEXT_LUCKZA026_03368_TODO_04",""
 29,"TEXT_LUCKZA026_03368_TODO_05",""
@@ -50,38 +50,17 @@ int32,str,str
 45,"TEXT_LUCKZA026_03368_TODO_21",""
 46,"TEXT_LUCKZA026_03368_TODO_22",""
 47,"TEXT_LUCKZA026_03368_TODO_23",""
-48,"TEXT_LUCKZA026_03368_GUARD03368_000_000","ああ、旅人よ。
-アリゼーから聞いたが、かなり腕が立つそうだな。
-よければ手を貸してくれないか？"
-49,"TEXT_LUCKZA026_03368_GUARD03368_000_001","「旅立って」しまった母の形見を、
-哨戒任務の際に落としてしまったようでね。
-幸い、落とした場所はわかっているから、探しに行きたいのだ。"
-50,"TEXT_LUCKZA026_03368_GUARD03368_000_002","しかし、その場所には、
-グラームという彷徨える死霊が現れる。
-捜し物中に近づかれれば、非常に危険だ。"
-51,"TEXT_LUCKZA026_03368_GUARD03368_000_003","しかし、吹き矢を使って「解呪の魔具」を打ち込めば、
-簡単かつ安全に、仕留められる。"
-52,"TEXT_LUCKZA026_03368_GUARD03368_000_004","すまないが、俺が捜し物をしている間、
-この「解呪の魔具」を使って、護衛してもらえないだろうか？
-これ以上、見張りを手薄にする訳にもいかず……どうか頼む！"
-53,"TEXT_LUCKZA026_03368_GUARD03368_000_005","ありがとう、旅人よ！
-では、ついてきてくれ。"
-54,"TEXT_LUCKZA026_03368_GUARD03368_100_010","形見を落としたのは、この崖の下の遺跡のあたりだ。
-君はここから、近づいてくるグラームを倒してくれ。
-終わったら旅立ちの宿で合流しよう……よろしく頼んだぞ！"
-55,"TEXT_LUCKZA026_03368_SYSTEM_200_010","グラームの討伐を開始します。
-番兵に近づくグラームを発見したら、
-<If(Equal(PlayerParameter(80),0))><UIForeground>F20222</UIForeground>左クリック<UIForeground>01</UIForeground><Else/><CommandIcon(15)/>ボタン/<CommandIcon(8)/>ボタン</If>で解呪の魔具を放ちましょう！"
-56,"TEXT_LUCKZA026_03368_GUARD03368_000_020","ありがとう。
-おかげで形見は見つかったよ。"
-57,"TEXT_LUCKZA026_03368_GUARD03368_000_021","それにしても、解呪の魔具の効果は抜群だったろう？
-あの魔具は、廃都ナバスアレンの遺跡で、
-よく出土するのだ。"
-58,"TEXT_LUCKZA026_03368_GUARD03368_000_022","つまり、ナバスアレンの時代から、
-グラームは現れていて、その対処のために、
-解呪の魔具が大量に作られていたわけだ。"
-59,"TEXT_LUCKZA026_03368_GUARD03368_000_024","さて、俺の依頼はここまでだ。
-少ないが報酬を受け取ってくれ。
-そしてありがとう、本当に助かったよ。"
-60,"TEXT_LUCKZA026_03368_GUARD03368_000_010","（★未使用／削除予定★）"
-61,"TEXT_LUCKZA026_03368_GUARD03368_000_023","（★未使用／削除予定★）"
+48,"TEXT_LUCKZA026_03368_GUARD03368_000_000","You're one of Alisaie's friends, aren't you? I hear you lot have a knack for putting down troublesome beasts."
+49,"TEXT_LUCKZA026_03368_GUARD03368_000_001","I'm not sure if that includes the supernatural, but walking corses known as ghilman have been running amok outside of the south entrance. They grab anyone who wanders too close, and drag them under the sand."
+50,"TEXT_LUCKZA026_03368_GUARD03368_000_002","I almost fell victim to them myself, and I was lucky to escape. Thing is, I dropped my mother's pendant as I fled, and I'll do anything to get it back. She was a patient here, you see, and it's all I have to remember her by."
+51,"TEXT_LUCKZA026_03368_GUARD03368_000_003","Luckily, we've found that enchanted darts shot from a blowgun send the ghilman back to whichever hell they crawled from."
+52,"TEXT_LUCKZA026_03368_GUARD03368_000_004","My plan is to rush in and grab the pendant, while you shoot those undead bastards from a distance. So, will you help me?"
+53,"TEXT_LUCKZA026_03368_GUARD03368_000_005","I knew you would! Come on, let's get this over with."
+54,"TEXT_LUCKZA026_03368_GUARD03368_100_010","I'm fairly certain I dropped the pendant by those ruins over there. As soon as I've found it, I'll race back to the inn. In the meantime, I'll need you to keep the ghilman off my back. Here goes nothing!"
+55,"TEXT_LUCKZA026_03368_SYSTEM_200_010","If any ghilman appear, shoot them with the enchanted darts. You may move the camera, as well as zoom in and out. Target the ghilman and use the blowgun with <If(Equal(PlayerParameter(80),0))><UIForeground>F20222</UIForeground><UIForeground>01</UIForeground><Else/><CommandIcon(15)/> / <CommandIcon(8)/></If>."
+56,"TEXT_LUCKZA026_03368_GUARD03368_000_020","Ha ha! They didn't like that very much, did they? And best of all, I got the pendant!"
+57,"TEXT_LUCKZA026_03368_GUARD03368_000_021","Do you know, I've never seen such fine aim with a blowgun. The secret, though, lies in the darts. They were excavated from the ruins of Nabaath Areng."
+58,"TEXT_LUCKZA026_03368_GUARD03368_000_022","According to the historians, these same darts were used by the Nabaath to destroy ghilman all those years ago. There were whole stockpiles of the things, in fact."
+59,"TEXT_LUCKZA026_03368_GUARD03368_000_024","Anyway, that's enough about ancient history for one day. More importantly, I'd like to thank you for all you've done! Please accept this as thanks and give Alisaie my regards."
+60,"TEXT_LUCKZA026_03368_GUARD03368_000_010",""
+61,"TEXT_LUCKZA026_03368_GUARD03368_000_023",""

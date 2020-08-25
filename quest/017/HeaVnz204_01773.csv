@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNZ204_01773_SEQ_00","テイルフェザー周辺キャンプのゲナレは、鳴き続けるチョコボを気にしているようだ。"
-1,"TEXT_HEAVNZ204_01773_SEQ_01","ゲナレに、チョコボを捕まえた場所を調べるよう頼まれた。高地ドラヴァニアのチョコボの森の「<Sheet(EObj,2005597,0)/>」を調べよう。"
-2,"TEXT_HEAVNZ204_01773_SEQ_02","<Sheet(EObj,2005597,0)/>には、チョコボのタマゴが残っていた。テイルフェザー周辺キャンプの「ゲナレ」に報告しよう。"
-3,"TEXT_HEAVNZ204_01773_SEQ_03","タマゴが残っていたことをゲナレに報告した。タマゴを温めているチョコボを捕らえるのは、将来的な取り分が減るため禁じられているそうだ。ゲナレは、今回捕えたチョコボを放すことにした。"
+0,"TEXT_HEAVNZ204_01773_SEQ_00","Guenaret needs help calming a distressed chocobo."
+1,"TEXT_HEAVNZ204_01773_SEQ_01","The chocobo just taken by Guenaret has been crying out incessantly, and he asks that you return to the site of the capture─specifically to look out for a chocobo nest."
+2,"TEXT_HEAVNZ204_01773_SEQ_02","Upon investigating the site, you find several chocobo eggs lying in an undisturbed nest. Return to Guenaret and report your findings."
+3,"TEXT_HEAVNZ204_01773_SEQ_03","After returning to Guenaret, he informs you that a rule among hunters forbids the capture of chocobos that are nursing eggs. The future mother will be released back to her nest, ensuring the chocobo population remains stable."
 4,"TEXT_HEAVNZ204_01773_SEQ_04",""
 5,"TEXT_HEAVNZ204_01773_SEQ_05",""
 6,"TEXT_HEAVNZ204_01773_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_HEAVNZ204_01773_SEQ_21",""
 22,"TEXT_HEAVNZ204_01773_SEQ_22",""
 23,"TEXT_HEAVNZ204_01773_SEQ_23",""
-24,"TEXT_HEAVNZ204_01773_TODO_00","<Sheet(EObj,2005597,0)/>を調べる"
-25,"TEXT_HEAVNZ204_01773_TODO_01","ゲナレに報告"
+24,"TEXT_HEAVNZ204_01773_TODO_00","Investigate the specified location."
+25,"TEXT_HEAVNZ204_01773_TODO_01","Report to Guenaret."
 26,"TEXT_HEAVNZ204_01773_TODO_02",""
 27,"TEXT_HEAVNZ204_01773_TODO_03",""
 28,"TEXT_HEAVNZ204_01773_TODO_04",""
@@ -49,30 +49,15 @@ int32,str,str
 45,"TEXT_HEAVNZ204_01773_TODO_21",""
 46,"TEXT_HEAVNZ204_01773_TODO_22",""
 47,"TEXT_HEAVNZ204_01773_TODO_23",""
-48,"TEXT_HEAVNZ204_01773_SYSTEM_000_000","檻の中でチョコボが鳴き続けている……。"
-49,"TEXT_HEAVNZ204_01773_GUENARET_000_010","ふむ……どうしたんでしょう？
-捕まえたばかりのチョコボが鳴き続けているのですが、
-怪我はさせていないし、病気でもなさそうです。"
-50,"TEXT_HEAVNZ204_01773_GUENARET_000_011","……ひとつ心当たりがあるんですが、
-冒険者殿の手を貸してはいただけないでしょうか？"
-51,"TEXT_HEAVNZ204_01773_GUENARET_000_012","この子を捕まえた場所を地図に記しますから、
-その辺りに「<Sheet(EObj,2005597,0)/>」がないか探してきてほしいのです。
-よろしくお願いしますよ。"
-52,"TEXT_HEAVNZ204_01773_GUENARET_000_020","この子を捕まえた場所を地図に記しますから、
-そこを見てきてほしいのです。
-よろしくお願いします。"
-53,"TEXT_HEAVNZ204_01773_SYSTEM_000_021","（★未使用／削除予定★）"
-54,"TEXT_HEAVNZ204_01773_SYSTEM_000_030","<Sheet(EObj,2005597,0)/>を見つけた。
-大振りのタマゴが置かれている……。"
-55,"TEXT_HEAVNZ204_01773_SYSTEM_000_041","チョコボが暴れないように捕えられている。
-心配そうな顔をしているようだ……。"
-56,"TEXT_HEAVNZ204_01773_GUENARET_000_050","あぁ、やはりタマゴがありましたか……。
-放す用意はしてあります、この子は逃がしてあげないと。
-闘争心が高く頭も良い、優れたチョコボなんですけどね。"
-57,"TEXT_HEAVNZ204_01773_GUENARET_000_051","タマゴを温めているチョコボを捕らえるのは、
-猟師仲間の掟で禁じられているんですよ……。
-将来的な取り分が減ってしまいますからね。"
-58,"TEXT_HEAVNZ204_01773_GUENARET_000_052","私たちの仕事は、チョコボを捕まえること……。
-つまりは、チョコボに生かされているってわけです。
-その恩恵を忘れてはいけませんよね。"
-59,"TEXT_HEAVNZ204_01773_SYSTEM_000_040","（★未使用／削除予定★）"
+48,"TEXT_HEAVNZ204_01773_SYSTEM_000_000","The chocobo whines pitifully..."
+49,"TEXT_HEAVNZ204_01773_GUENARET_000_010","By the Twelve, this chocobo just won't shut up. She's got no hurts as far as I can see, and a sick bird wouldn't make such a fuss. Which leaves just one possibility."
+50,"TEXT_HEAVNZ204_01773_GUENARET_000_011","I've a mind to go and verify my suspicion, but I'm not overly keen on leaving this bird while it's wailing away like this─could attract predators. Would you mind going?"
+51,"TEXT_HEAVNZ204_01773_GUENARET_000_012","Here, lend me your map─I'll mark the place we caught this bird. Chances are there's a nest nearby. If you find it, note what's inside and come back to tell me."
+52,"TEXT_HEAVNZ204_01773_GUENARET_000_020","We caught that chocobo at the place I marked on your map. I need you to look for a nest nearby and see what's in it."
+53,"TEXT_HEAVNZ204_01773_SYSTEM_000_021","The chocobo whines pitifully..."
+54,"TEXT_HEAVNZ204_01773_SYSTEM_000_030","There are eggs in the nest."
+55,"TEXT_HEAVNZ204_01773_SYSTEM_000_041","The chocobo is visibly distressed."
+56,"TEXT_HEAVNZ204_01773_GUENARET_000_050","Just as I thought, this one's 'bout to be a mother. There's no helping it, then. As fine a bird as she is, she's gotta go back to her nest."
+57,"TEXT_HEAVNZ204_01773_GUENARET_000_051","It's a rule of ours, you see: you can't catch a chocobo what's brooding. Don't matter that it's the finest specimen you've ever seen, or that you've been having a bad spell."
+58,"TEXT_HEAVNZ204_01773_GUENARET_000_052","Nay, whatever the circumstance, we've got to see beyond the present, elsewise we hunters won't have much of a future."
+59,"TEXT_HEAVNZ204_01773_SYSTEM_000_040","There are eggs in the nest."

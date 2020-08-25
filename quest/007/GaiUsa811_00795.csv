@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSA811_00795_SEQ_00","ゴゴラタがウルダハに帰らないのは、理由があるようだ。"
-1,"TEXT_GAIUSA811_00795_SEQ_01","ゴゴラタは、商品をキキルン族に奪われてしまったらしい。フォールゴウドの南にあるキキルン野営地に行き、「<Sheet(EventItem,2000625,0)/>」を取ってきてあげよう。"
-2,"TEXT_GAIUSA811_00795_SEQ_02","<Sheet(EventItem,2000625,0)/>を取り返すことができた。フォールゴウドの浮かぶコルク亭にいる「ゴゴラタ」に届けよう。"
-3,"TEXT_GAIUSA811_00795_SEQ_03","商品を取り戻したものの、あまりうれしくなさげなゴゴラタ。結局、何やかやと理由をつけて、宿に留まるつもりのようだ……。"
+0,"TEXT_GAIUSA811_00795_SEQ_00","Gogolata has a confession to make."
+1,"TEXT_GAIUSA811_00795_SEQ_01","Gogolata confesses to you the true reason he is reluctant to return to Ul'dah: his wares were stolen by Qiqirn bandits, and he will bear the full brunt of his wife's wrath if he returns without them. Gogolata suspects the thieves have taken the loot to their hideout south of Fallgourd Float. Retrieve them to spare the merchant a dire fate."
+2,"TEXT_GAIUSA811_00795_SEQ_02","You have recovered the stolen wares. Return them to Gogolata at the Bobbing Cork."
+3,"TEXT_GAIUSA811_00795_SEQ_03","Though relieved at the return of his property, Gogolata remains less than elated at the thought of returning to Ul'dah. What with ill rumors about, he decides to extend his sojourn for a while longer."
 4,"TEXT_GAIUSA811_00795_SEQ_04",""
 5,"TEXT_GAIUSA811_00795_SEQ_05",""
 6,"TEXT_GAIUSA811_00795_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSA811_00795_SEQ_21",""
 22,"TEXT_GAIUSA811_00795_SEQ_22",""
 23,"TEXT_GAIUSA811_00795_SEQ_23",""
-24,"TEXT_GAIUSA811_00795_TODO_00","<Sheet(EventItem,2000625,0)/>を入手"
-25,"TEXT_GAIUSA811_00795_TODO_01","ゴゴラタに<Sheet(EventItem,2000625,0)/>を渡す"
+24,"TEXT_GAIUSA811_00795_TODO_00","Retrieve Gogolata's goods."
+25,"TEXT_GAIUSA811_00795_TODO_01","Return the goods to Gogolata."
 26,"TEXT_GAIUSA811_00795_TODO_02",""
 27,"TEXT_GAIUSA811_00795_TODO_03",""
 28,"TEXT_GAIUSA811_00795_TODO_04",""
@@ -49,21 +49,10 @@ int32,str,str
 45,"TEXT_GAIUSA811_00795_TODO_21",""
 46,"TEXT_GAIUSA811_00795_TODO_22",""
 47,"TEXT_GAIUSA811_00795_TODO_23",""
-48,"TEXT_GAIUSA811_00795_GOGOLATA_000_000","迎えの者にも言ったのだがね、
-私だって、好んで宿泊しているのではないのだよ。
-商品を盗んだ、キキルン族が悪いのだ！"
-49,"TEXT_GAIUSA811_00795_GOGOLATA_000_001","キキルン族に持ち去られた商品があれば、
-今すぐにでもウルダハへ戻るのだが……いや、無念。
-商品が戻ってくるまでは、ここで待つしかあるまい。"
-50,"TEXT_GAIUSA811_00795_GOGOLATA_000_010","キキルン野営地でゴゴラタの商売道具×1を回収"
-51,"TEXT_GAIUSA811_00795_GOGOLATA_000_020","いや、無念。
-商品が戻ってくるまでは、ウルダハに帰れんな。"
-52,"TEXT_GAIUSA811_00795_GOGOLATA_000_025","こ、これは私の商品！？　なんて余計な真似を！
-ゴホン……いやいや、こっちの話だ。
-……そ、そういえば、冒険者だったら知ってるだろう！"
-53,"TEXT_GAIUSA811_00795_GOGOLATA_000_026","以前この辺りで、多くの他殺体が発見されたことを！
-なんでも、女ばかりが襲われたらしいが、
-これからは男も狙われるかもしれん！"
-54,"TEXT_GAIUSA811_00795_GOGOLATA_000_027","となれば、あと5年はこの宿で様子を見たほうがいいな。
-事件がなければ、すぐにでもウルダハへ戻るのだがねぇ。
-いやぁ、無念だ！！"
+48,"TEXT_GAIUSA811_00795_GOGOLATA_000_000","In all truth, friend, I would like nothing more than to return home to Ul'dah where my loving wife awaits. That is, were it not for a small complicating matter..."
+49,"TEXT_GAIUSA811_00795_GOGOLATA_000_001","My wares, you see, were stolen from me by the positively frightful band of Qiqirn thieves encamped to the south. Why, were I to return home empty-handed, my wife's wrath would make the Calamity look like a minor brushfire. No, I fear I have no choice but to prolong my stay..."
+50,"TEXT_GAIUSA811_00795_GOGOLATA_000_010","//: retrieve goods from Qiqirn bandit"
+51,"TEXT_GAIUSA811_00795_GOGOLATA_000_020","Oh woe, woe is me! A merchant without his wares is not worth a lump of opo–opo dung! How can I ever show my face to my dearest wife again?"
+52,"TEXT_GAIUSA811_00795_GOGOLATA_000_025","M-My wares! Why, wherever did you find them? The Qiqirn camp...exactly as I told you? Preposterous! Why, I didn't think you'd <Emphasis>actually</Emphasis>─er, ah!"
+53,"TEXT_GAIUSA811_00795_GOGOLATA_000_026","Ahem! That is to say, I am in your debt once again, friend! Thanks to you, I can at long last return to Ul'dah, where my loving wife awaits!"
+54,"TEXT_GAIUSA811_00795_GOGOLATA_000_027","...Then again, there are those nasty rumors going around of late. A masked man, was it? Indeed, the roads may not yet be safe. Though it pains me so, I fear I've no recourse but to sojourn here a while longer..."

@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSWDK550_01999_SEQ_00","雲霧街のバルトヴューは、少し落ち込んでいるようだ。"
-1,"TEXT_CLSWDK550_01999_SEQ_01","バルトヴューは、命の恩人の正教の修道士に杖を送りたいようだ。イシュガルドのエーテライト・プラザにいる「正教の修道士」と話そう。"
-2,"TEXT_CLSWDK550_01999_SEQ_02","正教の修道士は<Sheet(ItemHQ,10636,0)/>が欲しいようだ。「<Sheet(ItemHQ,10636,0)/>」を製作し、エーテライト・プラザの「正教の修道士」に納品しよう。"
-3,"TEXT_CLSWDK550_01999_SEQ_03","正教の修道士に<Sheet(ItemHQ,10636,0)/>を納品した。フィリパレが雇っていたことは内緒にして、雲霧街の「バルトヴュー」に報告しよう。"
-4,"TEXT_CLSWDK550_01999_SEQ_04","バルトヴューに報告した。彼は、子の心配も知らず、竜に再び挑むと気炎を吐いた。バルトヴューの弓術士の訓練に負けないくらい、木工師の修行に励もう。
+0,"TEXT_CLSWDK550_01999_SEQ_00","Barthovieu has a gloomy air about him."
+1,"TEXT_CLSWDK550_01999_SEQ_01","Barthovieu fought the good fight, but to no avail─his arrows could not pierce Nguruvilu's scales. He avoided death narrowly because a passing priest saved his life. Now, Barthovieu wishes to repay the debt, and turns to you for help. It appears the good brother is something of a conjurer, who would no doubt welcome a new staff. Speak with the Orthodox monastic at the aetheryte plaza in Ishgard, and see what kind of cane he would like."
+2,"TEXT_CLSWDK550_01999_SEQ_02","The priest is a jolly fellow, who has apparently already refused a gift of thanks once. However, he is in need of a new staff, and gives in to your gracious offer. Fashion for him a high-quality dark chestnut rod, so that he may better his ministrations."
+3,"TEXT_CLSWDK550_01999_SEQ_03","The priest is delighted with the rod, but admits he had not expected anything so grand. You are perplexed for a moment, until Philipallais enters with a brace of fowl. It so happens that the child had actually asked the priest to watch over his father, and had promised him a gift of thanks for the service. The confusion cleared up, the priest takes his leave of you. Philipallais asks you in a quiet voice to keep all this secret from his father, for fear that Barthovieu's pride would suffer. Return now to Barthovieu, and inform him that the priest has been properly thanked."
+4,"TEXT_CLSWDK550_01999_SEQ_04","Barthovieu is pleased your work has settled any debt he owed the priest. He reaffirms his intent to go after Nguruvilu, but only after a fair bit of time spent honing his skills with the bow.
 
-※木工師のレベルが58以上になると、雲霧街のバルトヴューから次の木工師クエストを受注することができます。"
+※The next carpenter quest will be available from Barthovieu upon reaching level 58."
 5,"TEXT_CLSWDK550_01999_SEQ_05",""
 6,"TEXT_CLSWDK550_01999_SEQ_06",""
 7,"TEXT_CLSWDK550_01999_SEQ_07",""
@@ -27,9 +27,9 @@ int32,str,str
 21,"TEXT_CLSWDK550_01999_SEQ_21",""
 22,"TEXT_CLSWDK550_01999_SEQ_22",""
 23,"TEXT_CLSWDK550_01999_SEQ_23",""
-24,"TEXT_CLSWDK550_01999_TODO_00","正教の修道士と話す"
-25,"TEXT_CLSWDK550_01999_TODO_01","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))><Sheet(ItemHQ,10636,0)/>を製作<Else/>正教の修道士に<Sheet(ItemHQ,10636,0)/>を納品</If>"
-26,"TEXT_CLSWDK550_01999_TODO_02","バルトヴューに報告"
+24,"TEXT_CLSWDK550_01999_TODO_00","Speak with the Orthodox monastic at the aetheryte plaza in Ishgard. "
+25,"TEXT_CLSWDK550_01999_TODO_01","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Craft a dark chestnut rod <Sheet(Addon,9,0)/><Else/>Deliver the dark chestnut rod <Sheet(Addon,9,0)/> to the Orthodox monastic</If>."
+26,"TEXT_CLSWDK550_01999_TODO_02","Report to Barthovieu."
 27,"TEXT_CLSWDK550_01999_TODO_03",""
 28,"TEXT_CLSWDK550_01999_TODO_04",""
 29,"TEXT_CLSWDK550_01999_TODO_05",""
@@ -51,71 +51,31 @@ int32,str,str
 45,"TEXT_CLSWDK550_01999_TODO_21",""
 46,"TEXT_CLSWDK550_01999_TODO_22",""
 47,"TEXT_CLSWDK550_01999_TODO_23",""
-48,"TEXT_CLSWDK550_01999_BARTHOVIEU_000_000","……おう、あんたか。
-ヌーグルヴィルに戦いを挑んだものの、
-未だ、騎士にはなれてないよ……。"
-49,"TEXT_CLSWDK550_01999_BARTHOVIEU_000_001","あんたが作ってくれた弓が悪かった訳じゃねぇ。
-矢の伸びも威力もスゲェ、本当にいい代物だったさ。
-……だが、俺は弓術士として、まだまだ半端者らしい。"
-50,"TEXT_CLSWDK550_01999_BARTHOVIEU_000_002","ヌーグルヴィルに向けて、ありったけの矢を放ったが、
-素早く飛び回られて仕留めることができなかった。
-それどころか、怒り狂った奴の猛反撃で危うく死にかけてな……。"
-51,"TEXT_CLSWDK550_01999_BARTHOVIEU_000_003","……ところが、幸いにも、正教の修道士がとおりがかり、
-気を失っていた俺を助けてくれたのさ。"
-52,"TEXT_CLSWDK550_01999_BARTHOVIEU_000_004","修道士さまには、デッカイ恩ができちまった……。
-恩は必ず返すのが、俺の性分だ。"
-53,"TEXT_CLSWDK550_01999_BARTHOVIEU_000_005","そんなこんなで、何で返すべきか考えあぐねていたんだが、
-いいところに来てくれたぜ……。
-……あんた、木工師なら杖も作れるだろう？"
-54,"TEXT_CLSWDK550_01999_BARTHOVIEU_000_006","正教の修道士には、幻術の心得があってな。
-良い幻具を贈ってやることができれば、喜ぶと思うんだ。
-とはいえ、俺には、杖の良し悪しはさっぱりわからねぇ……。"
-55,"TEXT_CLSWDK550_01999_BARTHOVIEU_000_007","すまないが、「エーテライト・プラザ」にいる、
-「正教の修道士」から話を聞いて、好みの杖を作ってくれよ。
-代金は必ず後で支払う……頼んだぜ。"
-56,"TEXT_CLSWDK550_01999_BARTHOVIEU_000_010","すまないが、「エーテライト・プラザ」にいる、
-「正教の修道士」から話を聞いて、好みの杖を作ってくれよ。
-代金は必ず後で支払う……頼んだぜ。"
-57,"TEXT_CLSWDK550_01999_GENJUTSUSHI01999_000_020","……ほう、君があの人に頼まれて杖を？
-礼は不要だと言ったのですが、彼も律儀な男ですね。
-しかし、これ以上、断り続けるのも失礼というもの……。"
-58,"TEXT_CLSWDK550_01999_GENJUTSUSHI01999_000_021","それでは、お言葉に甘えさせていただきましょう。
-「<Sheet(ItemHQ,10636,0)/>」を、作っていただけないでしょうか？
-ちょうど幻具が傷んでいて、替え時だったのです。"
-59,"TEXT_CLSWDK550_01999_BARTHOVIEU_000_025","俺には、杖の良し悪しはさっぱりわからねぇ……。
-木工師のあんたに任せるぜ。"
-60,"TEXT_CLSWDK550_01999_GENJUTSUSHI01999_000_030","「<Sheet(ItemHQ,10636,0)/>」を、作っていただけないでしょうか？
-ちょうど幻具が傷んでいて、替え時だったのです。"
-61,"TEXT_CLSWDK550_01999_GENJUTSUSHI01999_000_031","これは……大地に根付いていた頃の大木の息吹さえ、
-感じられるほど、素材の生命力を感じる素晴らしい幻具です！
-今まで以上に、癒し手として働くことができそうですよ。"
-62,"TEXT_CLSWDK550_01999_GENJUTSUSHI01999_000_032","それにしても、フィリパレ君のような小さな依頼人が、
-君のような熟練木工師を雇うとは……少しばかり驚きました。"
-63,"TEXT_CLSWDK550_01999_GENJUTSUSHI01999_000_033","……え？　私のために杖を作るよう依頼したのは、
-フィリパレ君ではなく、父親のバルトヴュー氏ですって？"
-64,"TEXT_CLSWDK550_01999_PHILIPALLAIS_000_034","修道士さま、父ちゃんを助けてくれたお礼を持ってきたよ。
-僕が捕った野鳥、食べ応えのある大物さ！"
-65,"TEXT_CLSWDK550_01999_GENJUTSUSHI01999_000_035","……なるほど、どうやら私の早とちりだったようですね。
-お礼でしたら、君のお父さんからすでにいただいたところですよ。"
-66,"TEXT_CLSWDK550_01999_GENJUTSUSHI01999_000_036","だから、お気持ちだけで充分です。
-その獲物は、食べ盛りの君にこそ必要でしょう。"
-67,"TEXT_CLSWDK550_01999_PHILIPALLAIS_000_037","……なんだ、父ちゃんが先に礼をしてたのか。"
-68,"TEXT_CLSWDK550_01999_GENJUTSUSHI01999_000_038","ありがとう、フィリパレ君。
-君は、実に父親想いの孝行息子なのですね。"
-69,"TEXT_CLSWDK550_01999_GENJUTSUSHI01999_000_039","さて、あなたにも礼をせねばなりません。
-バルトヴュー氏にも、よくよく礼を伝えてください。
-それでは、私は聖務がありますので失礼しますね。"
-70,"TEXT_CLSWDK550_01999_PHILIPALLAIS_000_040","実はね……あの修道士さんに頼んで、
-父ちゃんを助けに行ってもらっていたんだ。
-ドラゴン族との戦いで、怪我人が出るかもしれないからって。"
-71,"TEXT_CLSWDK550_01999_PHILIPALLAIS_000_041","でも、この事は内緒だよ？
-父ちゃんの面子が丸潰れになっちゃうからね。
-今回で懲りて、もう危ないことはやめてくれればいいけど……。"
-72,"TEXT_CLSWDK550_01999_BARTHOVIEU_000_050","届けてくれたかい、ありがとよ！
-あんたが作った杖だったら、きっといい恩返しになったはずだ。
-少ないが、代金を受け取ってくれ……。"
-73,"TEXT_CLSWDK550_01999_BARTHOVIEU_000_051","今回の敗北で、俺は弓術士としての未熟さを痛感した……。
-でも、ヌーグルヴィル狩りを諦めたわけじゃないぜ。
-これからは、しばらく訓練に励むことにするよ！"
-74,"TEXT_CLSWDK550_01999_SYSTEM_100_001","（★未使用／削除予定★）"
-75,"TEXT_CLSWDK550_01999_SYSTEM_100_002","（★未使用／削除予定★）"
+48,"TEXT_CLSWDK550_01999_BARTHOVIEU_000_000","Ah, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Things did not... Well, I've not yet won my knighthood."
+49,"TEXT_CLSWDK550_01999_BARTHOVIEU_000_001","Not on account of your bow. Why, I wager it could send an arrow clean through the greatest of dragons. But it would require the right bowman to do it."
+50,"TEXT_CLSWDK550_01999_BARTHOVIEU_000_002","I fear I'm not that bowman. I waited for the right moment and loosed the shot with all my strength...only to watch Nguruvilu dodge it with ease. All I did was anger the dragon. And his ire was terrible."
+51,"TEXT_CLSWDK550_01999_BARTHOVIEU_000_003","<sigh> I ought to be dead by rights. It's a miracle that priest passed by when he did."
+52,"TEXT_CLSWDK550_01999_BARTHOVIEU_000_004","I owe him my life, and I'll not leave that debt unpaid."
+53,"TEXT_CLSWDK550_01999_BARTHOVIEU_000_005","But I was unsure how I might go about it until you showed up. You're a crafts<If(PlayerParameter(4))>woman<Else/>man</If> of no small repute─couldn't you make the man a staff for me?"
+54,"TEXT_CLSWDK550_01999_BARTHOVIEU_000_006","He's something of a conjurer. I've no doubt he would admire your handiwork, though I can't say I know what kind of staff he'd like. You'll have to take that up with the man himself."
+55,"TEXT_CLSWDK550_01999_BARTHOVIEU_000_007","Please, make him whatever he desires. On my honor, you will not go unpaid!"
+56,"TEXT_CLSWDK550_01999_BARTHOVIEU_000_010","Where will I find the coin to pay for the priest's staff, I wonder...?"
+57,"TEXT_CLSWDK550_01999_GENJUTSUSHI01999_000_020","Can I help you? Sent to <Emphasis>repay</Emphasis> me, you say? Even after I insisted that I didn't need anything! Ah, well. You know how these fellows are─never happy until their honor is satisfied."
+58,"TEXT_CLSWDK550_01999_GENJUTSUSHI01999_000_021","Well, I shan't play coy any longer. My cane was damaged, and it's about time I had a new one. I would welcome a dark chestnut rod, if you would be so kind."
+59,"TEXT_CLSWDK550_01999_BARTHOVIEU_000_025","A dark chestnut rod? Can't say I know what that is, but if he wants it, see he gets the best you can make. He truly deserves it."
+60,"TEXT_CLSWDK550_01999_GENJUTSUSHI01999_000_030","Have you found your way to crafting a dark chestnut rod, my child?"
+61,"TEXT_CLSWDK550_01999_GENJUTSUSHI01999_000_031","Halone above! The wood feels alive, warm, as if it still remained rooted in the ground! Why, I can attend to far more ailments now! This is a masterwork. And you...you mean to say that <Emphasis>you</Emphasis> made this, my child?"
+62,"TEXT_CLSWDK550_01999_GENJUTSUSHI01999_000_032","I mean no offense, of course, but I expected something...less than this. Philipallais is a fine, fine boy, but when he promised to repay me for interceding on his father's behalf, I did not think he would have the means to do so."
+63,"TEXT_CLSWDK550_01999_GENJUTSUSHI01999_000_033","...I beg your pardon? His <Emphasis>father</Emphasis> commissioned you?"
+64,"TEXT_CLSWDK550_01999_PHILIPALLAIS_000_034","I've brought a clutch of fowl as thanks! They're good plump ones, too."
+65,"TEXT_CLSWDK550_01999_GENJUTSUSHI01999_000_035","Ah, Philipallais, that is <Emphasis>most</Emphasis> kind of you. I very much appreciate the thought."
+66,"TEXT_CLSWDK550_01999_GENJUTSUSHI01999_000_036","But a growing boy needs food more than I, eh? Please, take them for yourself. What your father sent was thanks enough."
+67,"TEXT_CLSWDK550_01999_PHILIPALLAIS_000_037","Father sent thanks? <Emphasis>My</Emphasis> father?"
+68,"TEXT_CLSWDK550_01999_GENJUTSUSHI01999_000_038","Indeed, my dear boy. He's an honorable man. Like father, like son, eh?"
+69,"TEXT_CLSWDK550_01999_GENJUTSUSHI01999_000_039","Now, I must be going. There are many and more who need tending, and I'm itching to try out the staff. Halone keep you all. Oh, and pass along my thanks to Barthovieu, if you please."
+70,"TEXT_CLSWDK550_01999_PHILIPALLAIS_000_040","...I'm the one who told the monastic, you know─told him that my father might get hurt fighting the dragon."
+71,"TEXT_CLSWDK550_01999_PHILIPALLAIS_000_041","But don't you dare tell Father what I did. Knowing I asked for help would only shame him. If only he'd stop this nonsense on his own..."
+72,"TEXT_CLSWDK550_01999_BARTHOVIEU_000_050","Did the priest like it? Hah, I'll wager he did at that! You made it, after all. It's not much, but here─your payment."
+73,"TEXT_CLSWDK550_01999_BARTHOVIEU_000_051","Now, I'm off to practice. I'm no true archer just yet, and that almost cost me my life. But no matter what, I'll not suffer that dragon to live."
+74,"TEXT_CLSWDK550_01999_SYSTEM_100_001","delete"
+75,"TEXT_CLSWDK550_01999_SYSTEM_100_002","delete"

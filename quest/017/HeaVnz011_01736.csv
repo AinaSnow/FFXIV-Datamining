@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNZ011_01736_SEQ_00","ファルコンネストのインガレットは、思い出の品を探しているようだ。"
-1,"TEXT_HEAVNZ011_01736_SEQ_01","インガレットに探し物を頼まれた。クルザス西部高地のキャンプ・リバーズミート付近で「<Sheet(EventItem,2001595,0)/>」を3個探そう。"
-2,"TEXT_HEAVNZ011_01736_SEQ_02","<Sheet(EventItem,2001595,0)/>をすべて見つけた。ファルコンネストの「インガレット」に「<Sheet(EventItem,2001595,0)/>」を渡そう。"
-3,"TEXT_HEAVNZ011_01736_SEQ_03","発見した<Sheet(EventItem,2001595,0)/>を、インガレットに渡した。彼女の祖父はかつて船渡しをしていたが、その河ももう凍りついてしまったらしい。"
+0,"TEXT_HEAVNZ011_01736_SEQ_00","Ingaret lets out a long, forlorn sigh."
+1,"TEXT_HEAVNZ011_01736_SEQ_01","Ingaret had hoped for an opportunity to search the frozen docks near Camp Riversmeet for her grandfather's lost things, but cannot leave her post unmanned. With feral beasts prowling the docks, she cannot send just anyone to search the area in her place─she decides that you are just the <If(PlayerParameter(4))>woman<Else/>man</If> for the job. Prove her judgment sound by negotiating the wildlife and returning with her grandfather's trappings."
+2,"TEXT_HEAVNZ011_01736_SEQ_02","After scouring the docks, you find everything you can that matches Ingaret's description. Return these items to her at Falcon's Nest."
+3,"TEXT_HEAVNZ011_01736_SEQ_03","Ingaret thanks you for recovering her grandfather's trappings─reminders of his time as a ferryman at Riversmeet. As mementos of the duty and responsibilities he left behind when fleeing the highlands, she hopes they will help him rediscover the purpose he has lost in his life in recent years."
 4,"TEXT_HEAVNZ011_01736_SEQ_04",""
 5,"TEXT_HEAVNZ011_01736_SEQ_05",""
 6,"TEXT_HEAVNZ011_01736_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_HEAVNZ011_01736_SEQ_21",""
 22,"TEXT_HEAVNZ011_01736_SEQ_22",""
 23,"TEXT_HEAVNZ011_01736_SEQ_23",""
-24,"TEXT_HEAVNZ011_01736_TODO_00","<Sheet(EventItem,2001595,0)/>を探す"
-25,"TEXT_HEAVNZ011_01736_TODO_01","インガレットに<Sheet(EventItem,2001595,0)/>を渡す"
+24,"TEXT_HEAVNZ011_01736_TODO_00","Search near Camp Riversmeet for the lost items."
+25,"TEXT_HEAVNZ011_01736_TODO_01","Deliver the trappings to Ingaret."
 26,"TEXT_HEAVNZ011_01736_TODO_02",""
 27,"TEXT_HEAVNZ011_01736_TODO_03",""
 28,"TEXT_HEAVNZ011_01736_TODO_04",""
@@ -49,26 +49,11 @@ int32,str,str
 45,"TEXT_HEAVNZ011_01736_TODO_21",""
 46,"TEXT_HEAVNZ011_01736_TODO_22",""
 47,"TEXT_HEAVNZ011_01736_TODO_23",""
-48,"TEXT_HEAVNZ011_01736_INGARET_000_000","はぁ、どうしよ……困ったな……。
-魔物に見つかったらひとりで戦うなんて無茶だし……。
-……あ、冒険者さん！"
-49,"TEXT_HEAVNZ011_01736_INGARET_000_001","実は、お爺ちゃんの思い出の品を探しに来たのですが……。
-目的の場所が、かなり離れた場所にあるようなんです。
-とても、私だけでは行けそうにもなくて……。"
-50,"TEXT_HEAVNZ011_01736_INGARET_000_002","も、もしよければ、「キャンプ・リバーズミート」付近で、
-お爺ちゃんの……「<Sheet(EventItem,2001595,0)/>」を、
-探してきてもらえませんか？"
-51,"TEXT_HEAVNZ011_01736_INGARET_000_010","も、もしよければ、「キャンプ・リバーズミート」付近で、
-お爺ちゃんの……「<Sheet(EventItem,2001595,0)/>」を、
-探してきてもらえませんか？"
-52,"TEXT_HEAVNZ011_01736_INGARET_000_020","も、もしよければ、「キャンプ・リバーズミート」付近で、
-お爺ちゃんの……「<Sheet(EventItem,2001595,0)/>」を、
-探してきてもらえませんか？"
-53,"TEXT_HEAVNZ011_01736_INGARET_000_021","も、もう探してきてくれたんですか！？
-ありがとうございます！"
-54,"TEXT_HEAVNZ011_01736_INGARET_000_022","……この荷袋は、ヘミングお爺ちゃんが、
-船渡しとして現役だったころ、使っていた物なんです。
-今は、イシュガルドで寝たきりですけどね……。"
-55,"TEXT_HEAVNZ011_01736_INGARET_000_023","もう河が凍ってしまって、
-船で渡す必要もなくなっちゃったんですが、
-これを見れば、昔を思い出して元気になると思うんです。"
+48,"TEXT_HEAVNZ011_01736_INGARET_000_000","<sigh> Even if I had the time to head out there alone, if I ran afoul of those beasts, I wouldn't stand a chance..."
+49,"TEXT_HEAVNZ011_01736_INGARET_000_001","You see, one of the reasons I requested this posting was so I could recover my grandfather's belongings. They ought to be near the frozen docks of Camp Riversmeet."
+50,"TEXT_HEAVNZ011_01736_INGARET_000_002","But things being busy as they are, I'm not at liberty to leave my post at the moment. What's worse, the area is absolutely teeming with monsters, so I can't send just anyone in my stead. But you look like you could handle yourself. Might you be so kind as to help me?"
+51,"TEXT_HEAVNZ011_01736_INGARET_000_010","If you search the docks near Camp Riversmeet, you're certain to find his things."
+52,"TEXT_HEAVNZ011_01736_INGARET_000_020","Did you find them? Did you find my grandfather's things?"
+53,"TEXT_HEAVNZ011_01736_INGARET_000_021","Oh, this looks to be everything! Halone's blessings be upon you!"
+54,"TEXT_HEAVNZ011_01736_INGARET_000_022","My grandfather used to make a living as a ferryman, back before the Calamity. But what good's a ferryman when the ice is thick enough to walk across?"
+55,"TEXT_HEAVNZ011_01736_INGARET_000_023","Little wonder that his health has gotten so much worse over the years. Aye, a man without purpose is prone to sickness. If I could but remind him of what he once had, though, maybe he'd recover..."

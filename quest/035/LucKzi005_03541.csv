@@ -1,8 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKZI005_03541_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-アミティーの身なりのいい貴婦人は、謝りたい人物がいるようだ。"
+0,"TEXT_LUCKZI005_03541_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+The well-dressed noblewoman wishes to make an apology."
 1,"TEXT_LUCKZI005_03541_SEQ_01",""
 2,"TEXT_LUCKZI005_03541_SEQ_02",""
 3,"TEXT_LUCKZI005_03541_SEQ_03",""
@@ -26,9 +26,9 @@ int32,str,str
 21,"TEXT_LUCKZI005_03541_SEQ_21",""
 22,"TEXT_LUCKZI005_03541_SEQ_22",""
 23,"TEXT_LUCKZI005_03541_SEQ_23",""
-24,"TEXT_LUCKZI005_03541_TODO_00","怯えた様子の女性と話す"
-25,"TEXT_LUCKZI005_03541_TODO_01","身なりのいい貴婦人に報告"
-26,"TEXT_LUCKZI005_03541_TODO_02","怯えた様子の女性に<Sheet(EventItem,2002696,0)/>を渡す"
+24,"TEXT_LUCKZI005_03541_TODO_00","Speak with the fearful fugitive."
+25,"TEXT_LUCKZI005_03541_TODO_01","Report to the well-dressed noblewoman."
+26,"TEXT_LUCKZI005_03541_TODO_02","Deliver the letter of contrition to the fearful fugitive."
 27,"TEXT_LUCKZI005_03541_TODO_03",""
 28,"TEXT_LUCKZI005_03541_TODO_04",""
 29,"TEXT_LUCKZI005_03541_TODO_05",""
@@ -50,56 +50,29 @@ int32,str,str
 45,"TEXT_LUCKZI005_03541_TODO_21",""
 46,"TEXT_LUCKZI005_03541_TODO_22",""
 47,"TEXT_LUCKZI005_03541_TODO_23",""
-48,"TEXT_LUCKZI005_03541_MADAM03541_000_001","わ、わたくしは怪しい者ではないわ。
-尋ね人がアミティーにいるという情報をつかんだから、
-大昇降機とやらに乗って、やってきたのよ……。"
-49,"TEXT_LUCKZI005_03541_MADAM03541_000_002","使用人だった娘に、どうしても謝りたいことがあるの……。
-でも、いざ近くまで来て、怖気づいてしまって……。"
-50,"TEXT_LUCKZI005_03541_MADAM03541_000_003","ねぇあなた、悪いのだけれど……
-彼女がユールモアをどう思っているか、聞いてきてくださらない？
-薄紅色の髪がキレイな若いヒュム族の娘よ。"
-51,"TEXT_LUCKZI005_03541_MADAM03541_000_004","ねぇあなた、悪いのだけれど……
-彼女がユールモアをどう思っているか、聞いてきてくださらない？
-薄紅色の髪がキレイな若いヒュム族の娘よ。"
-52,"TEXT_LUCKZI005_03541_FRIGHTENEDGIRL03541_000_011","あ、あなた様はこの間の……？"
-53,"TEXT_LUCKZI005_03541_FRIGHTENEDGIRL03541_000_012","ユールモア……ですか……。
-思い出すだけでも体の震えが止まりません……。"
-54,"TEXT_LUCKZI005_03541_FRIGHTENEDGIRL03541_000_013","あなた様もわかっていただけるはず……。
-欲望とともに人の本性が見える、恐ろしいところだと……。"
-55,"TEXT_LUCKZI005_03541_FRIGHTENEDGIRL03541_000_014","ユールモアは……
-欲望とともに人の本性が見える、恐ろしいところです……。"
-56,"TEXT_LUCKZI005_03541_MADAM03541_000_020","あの子は、ユールモアのことを何と……？"
-57,"TEXT_LUCKZI005_03541_MADAM03541_000_021","それほどまでに、恐怖を感じているとは……。
-いえ、当然ですわね……。"
-58,"TEXT_LUCKZI005_03541_MADAM03541_000_022","当時のわたくしたちは、欲望のままに生きていました。
-それで、夫は使用人だった彼女にちょっかいを出し、
-わたくしは、嫉妬心から彼女を傷つけた……。"
-59,"TEXT_LUCKZI005_03541_MADAM03541_000_023","ドン・ヴァウスリーが去った今、
-頭にかかっていた靄が晴れたかのように、
-自分がしてきた過ちを実感しているわ……。"
-60,"TEXT_LUCKZI005_03541_MADAM03541_000_024","夫も反省して、わたくしに謝罪をしてくれた。
-ならばわたくしも、きちんと彼女に謝るべき……。"
-61,"TEXT_LUCKZI005_03541_MADAM03541_000_025","でも、いきなり会いに行ってしまえば、
-彼女に迷惑をかけてしまう……。"
-62,"TEXT_LUCKZI005_03541_MADAM03541_000_026","実は、彼女宛てに「<Sheet(EventItem,2002696,0)/>」を用意しているのです……。
-申し訳ないけれど、彼女に渡してくださらないかしら。
-わたくしはトップラングで返事を待ちます……。"
-63,"TEXT_LUCKZI005_03541_FRIGHTENEDGIRL03541_000_030","私に手紙、ですか……？"
-64,"TEXT_LUCKZI005_03541_FRIGHTENEDGIRL03541_000_031","そんな……これは、奥様から……！
-な、内容は……"
-65,"TEXT_LUCKZI005_03541_FRIGHTENEDGIRL03541_000_032","(-謝罪の手紙-)……あなたは、わたくしたち夫婦のために尽くしてくれました。
-ですが、その行いに対して、わたくしたちは欲望と嫉妬で応じ、
-身も心も傷つけてしまったのです。"
-66,"TEXT_LUCKZI005_03541_FRIGHTENEDGIRL03541_000_033","(-謝罪の手紙-)あなたが、わたくしたちを恐れ憎むことは無理もありません。
-ですがもし、謝罪の言葉に耳を傾けてくださるのであれば、
-どうかトップラングにいらしてください……。"
-67,"TEXT_LUCKZI005_03541_FRIGHTENEDGIRL03541_000_034","………………。"
-68,"TEXT_LUCKZI005_03541_FRIGHTENEDGIRL03541_000_035","そう簡単に、人は変われるものでしょうか……？"
-69,"TEXT_LUCKZI005_03541_Q1_000_000","何と言う？"
-70,"TEXT_LUCKZI005_03541_A1_000_001","彼女は変わったはずだ"
-71,"TEXT_LUCKZI005_03541_A1_000_002","ドン・ヴァウスリーの影響だったのだろう"
-72,"TEXT_LUCKZI005_03541_FRIGHTENEDGIRL03541_000_036","あなたがそうおっしゃるのでしたら……。
-話だけでも、聞いてみようと思います……。"
-73,"TEXT_LUCKZI005_03541_FRIGHTENEDGIRL03541_000_037","奥様からの手紙に、
-仲介者となってくださったあなたにと、謝礼が入っていました。
-お付き合いくださって、ありがとうございました。"
+48,"TEXT_LUCKZI005_03541_MADAM03541_000_001","Oh, I-I'm not here to cause trouble! I've simply come to pay a visit to one of Amity's residents."
+49,"TEXT_LUCKZI005_03541_MADAM03541_000_002","A former maidservant, in fact, to whom I owe a belated apology. But now that I've finally found her, I find myself beset with unease..."
+50,"TEXT_LUCKZI005_03541_MADAM03541_000_003","Before I approach, I need to know her state of mind─how does she feel now about Eulmore? About me? I would appreciate any insight that might better prepare me for what I must do..."
+51,"TEXT_LUCKZI005_03541_MADAM03541_000_004","Pray find my former maidservant, and ask for her thoughts on Eulmore. She's a young and pretty Hume girl, with hair the color of the palest rose..."
+52,"TEXT_LUCKZI005_03541_FRIGHTENEDGIRL03541_000_011","Hello again, <If(PlayerParameter(4))>miss<Else/>sir</If>. Was there something...?"
+53,"TEXT_LUCKZI005_03541_FRIGHTENEDGIRL03541_000_012","You...want to know how I feel about Eulmore and my former masters? I thought I made that quite clear the last time we met: the very mention of that place leaves me shaking in terror."
+54,"TEXT_LUCKZI005_03541_FRIGHTENEDGIRL03541_000_013","It is a terrible city filled with terrible people, who care for naught but indulging their basest instincts..."
+55,"TEXT_LUCKZI005_03541_FRIGHTENEDGIRL03541_000_014","Eulmore was a nightmare from which I've escaped in body only. I long for the day my mind is released from this fear..."
+56,"TEXT_LUCKZI005_03541_MADAM03541_000_020","And? What did she have to say of Eulmore...?"
+57,"TEXT_LUCKZI005_03541_MADAM03541_000_021","...Trembles at the very mention of it? Well, I suppose that is to be expected."
+58,"TEXT_LUCKZI005_03541_MADAM03541_000_022","'Tis all true. We lived in decadent abandon, seeking only to fulfill our whims and appetites. And when <Emphasis>she</Emphasis> became the object of my husband's desires, a jealous rage consumed me. All I could think of was making her suffer..."
+59,"TEXT_LUCKZI005_03541_MADAM03541_000_023","With Lord Vauthry gone, 'tis almost as if a fog has lifted from my mind. How clearly I see now the awful person I had become."
+60,"TEXT_LUCKZI005_03541_MADAM03541_000_024","My husband, too, regrets his behavior. He has made his apologies...and it is time for me to make mine."
+61,"TEXT_LUCKZI005_03541_MADAM03541_000_025","...Yet it seems a sudden confrontation may be ill-advised."
+62,"TEXT_LUCKZI005_03541_MADAM03541_000_026","Anticipating such, I have penned a brief letter to explain my intentions. Pray deliver this to the girl─I shall be waiting at Top Rung."
+63,"TEXT_LUCKZI005_03541_FRIGHTENEDGIRL03541_000_030","A letter? For me?"
+64,"TEXT_LUCKZI005_03541_FRIGHTENEDGIRL03541_000_031","...Good gracious, this is from my old mistress!"
+65,"TEXT_LUCKZI005_03541_FRIGHTENEDGIRL03541_000_032","(-Letter of Contrition-)<Emphasis>My dear girl, you served my husband and me with unrelenting diligence. And we repaid your efforts with vulgarity and violence, wounding you in heart and body alike.</Emphasis>"
+66,"TEXT_LUCKZI005_03541_FRIGHTENEDGIRL03541_000_033","(-Letter of Contrition-)<Emphasis>I am deserving of your hatred. Of your fear. Words of apology can do little to salve the suffering I've caused, yet I would speak them nonetheless. I await your pleasure at Top Rung...</Emphasis>"
+67,"TEXT_LUCKZI005_03541_FRIGHTENEDGIRL03541_000_034","......"
+68,"TEXT_LUCKZI005_03541_FRIGHTENEDGIRL03541_000_035","Am I to believe she has changed so dramatically...?"
+69,"TEXT_LUCKZI005_03541_Q1_000_000","What will you say?"
+70,"TEXT_LUCKZI005_03541_A1_000_001","She seemed sincere..."
+71,"TEXT_LUCKZI005_03541_A1_000_002","Vauthry's society brought out the worst in people..."
+72,"TEXT_LUCKZI005_03541_FRIGHTENEDGIRL03541_000_036","Hm. I'm not entirely convinced...but I will at least hear what she has to say."
+73,"TEXT_LUCKZI005_03541_FRIGHTENEDGIRL03541_000_037","Oh, and this is for you─her ladyship included a token of thanks for her “mediator.” I suppose I should be on my way..."

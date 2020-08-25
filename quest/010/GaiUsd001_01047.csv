@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSD001_01047_SEQ_00","ミンフィリアは、さっそく冒険者に蛮神問題に関する依頼をしたいようだ。"
-1,"TEXT_GAIUSD001_01047_SEQ_01","冒険者が帝国と戦っている間に、各地の蛮族が「神降ろし」を始めていたらしい。再召喚された蛮神を倒すよう、ミンフィリアから依頼された。詳しい話は、砂の家の「ウリエンジェ」に聞いてみよう。"
-2,"TEXT_GAIUSD001_01047_SEQ_02","ウリエンジェによると、アマルジャ族、イクサル族、コボルド族が「神降ろし」を始めたらしい。最もその行動が早かったアマルジャ族の最新情報を聞くため、砂の家にいるサンクレッドに話を聞いてみよう。"
+0,"TEXT_GAIUSD001_01047_SEQ_00","Minfilia has need of your talents for a reemerging primal problem."
+1,"TEXT_GAIUSD001_01047_SEQ_01","In an amazing display of teamwork, your fellow Scions inform you that the beast tribes are seeking to summon their primals once more. With the Grand Companies having suffered grievous losses in the recent operation, the task of vanquishing the godlike beings has fallen to you. Speak with Urianger for an overview of your mission."
+2,"TEXT_GAIUSD001_01047_SEQ_02","In cryptic words, Urianger informs you that the Amalj'aa may have already succeeded in summoning Ifrit. Speak with Thancred, who has recently resumed his duties as a Scion, and ascertain the latest situation in Thanalan."
 3,"TEXT_GAIUSD001_01047_SEQ_03",""
 4,"TEXT_GAIUSD001_01047_SEQ_04",""
 5,"TEXT_GAIUSD001_01047_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_GAIUSD001_01047_SEQ_21",""
 22,"TEXT_GAIUSD001_01047_SEQ_22",""
 23,"TEXT_GAIUSD001_01047_SEQ_23",""
-24,"TEXT_GAIUSD001_01047_TODO_00","ウリエンジェと話す"
+24,"TEXT_GAIUSD001_01047_TODO_00","Speak with Urianger."
 25,"TEXT_GAIUSD001_01047_TODO_01",""
 26,"TEXT_GAIUSD001_01047_TODO_02",""
 27,"TEXT_GAIUSD001_01047_TODO_03",""
@@ -49,72 +49,31 @@ int32,str,str
 45,"TEXT_GAIUSD001_01047_TODO_21",""
 46,"TEXT_GAIUSD001_01047_TODO_22",""
 47,"TEXT_GAIUSD001_01047_TODO_23",""
-48,"TEXT_GAIUSD001_01047_MINFILIA_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
-さっそくなんだけど……
-光の戦士である、あなたの力を借りたいの。"
-49,"TEXT_GAIUSD001_01047_YSHTOLA_000_001","帝国軍のアルテマウェポンが排除されたことで、
-各地の蛮族勢力が、ふたたび動きを活発化させているの。
-……そう、「神降ろし」を再開したのよ。"
-50,"TEXT_GAIUSD001_01047_PAPALYMO_000_002","アマルジャ族の蛮神「イフリート」を始めとして、
-イクサル族の「ガルーダ」に、コボルド族の「タイタン」だ。
-これまで君が戦ってきた蛮神たちが勢揃いさ。"
-51,"TEXT_GAIUSD001_01047_PAPALYMO_000_003","……しかも、大量にクリスタルを捧げたみたいでね。
-前回の比じゃない量を溜めこんでいたらしい。"
-52,"TEXT_GAIUSD001_01047_YDA_000_004","とゆーことは、召喚された蛮神は間違いなく、
-前に戦ったときより、強くなっているはずだよー！"
-53,"TEXT_GAIUSD001_01047_MINFILIA_000_005","それも、おそらく圧倒的にね……。
-……いわば「真」の蛮神といったところかしら。"
-54,"TEXT_GAIUSD001_01047_THANCRED_000_006","アルテマウェポンに、いとも簡単に吸収された三蛮神……。
-蛮族たちも、あれに対抗するため、
-準備を進めていたってことか……。"
-55,"TEXT_GAIUSD001_01047_MINFILIA_000_007","各国のグランドカンパニーは、
-攻勢に転じた蛮族への対応で精一杯……。"
-56,"TEXT_GAIUSD001_01047_MINFILIA_000_008","それに、帝国の脅威が去って、
-市民の目は再び国内問題に向いているわ。
-とても動ける状態ではないの。"
-57,"TEXT_GAIUSD001_01047_URIANGER_000_009","そこで……三国の盟主は貴方の名をあげた……。
-英雄、<Highlight>ObjectParameter(1)</Highlight>……。"
-58,"TEXT_GAIUSD001_01047_MINFILIA_000_010","モードゥナで聞いた、あの咆哮……。
-記録されていたエーテルの波形をみるかぎり、
-各地の蛮神とは直接関係はないでしょう。"
-59,"TEXT_GAIUSD001_01047_MINFILIA_000_011","でも、少なくとも、今回の一連の事件の延長上に、
-何らかの形で関係していると思うの。"
-60,"TEXT_GAIUSD001_01047_MINFILIA_000_012","帝国との死闘の後で、申し訳ないんだけど……
-エオルゼアの人々を守るためにも、
-<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>の力が必要なの。"
-61,"TEXT_GAIUSD001_01047_MINFILIA_000_013","ありがとう！
-本当に、頼りにしているわ！"
-62,"TEXT_GAIUSD001_01047_MINFILIA_000_020","サンクレッド……？"
-63,"TEXT_GAIUSD001_01047_THANCRED_000_021","ああ……。"
-64,"TEXT_GAIUSD001_01047_THANCRED_000_022","あれから、いろいろバタバタしちまって、
-まともに礼も言えていなかったからな。
-みんながいるこの場で、改めて言わせてくれ。"
-65,"TEXT_GAIUSD001_01047_THANCRED_000_023","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、ありがとう。
-こうしてまたお前と話せて、本当に良かった。"
-66,"TEXT_GAIUSD001_01047_THANCRED_000_024","俺はずっと力を欲していた。
-だから、闇のクリスタルの調査に深入りしすぎたんだ。
-すべては、アシエンの罠だったというのに……。"
-67,"TEXT_GAIUSD001_01047_THANCRED_000_025","……本当に、迷惑をかけてしまったな。
-もう二度と同じ過ちは犯さないと誓うよ。"
-68,"TEXT_GAIUSD001_01047_THANCRED_000_026","みんなのおかげで、体の具合もずいぶんと良くなったんだ。
-これからは、また「暁」の一員として、
-がんばらせてもらうよ。"
-69,"TEXT_GAIUSD001_01047_MINFILIA_000_030","よし、「暁の血盟」の活動再開ね！
-みんな、はりきっていきましょう！"
-70,"TEXT_GAIUSD001_01047_MINFILIA_000_031","まずは、この「蛮神対策」からね。
-一度にすべての問題の解決は無理だわ。
-ひとつひとつ、片付けていくわよ。"
-71,"TEXT_GAIUSD001_01047_MINFILIA_000_032","各蛮族の具体的な動きについては、
-ウリエンジェさんが情報を統括しているわ。
-彼から話を聞いてみてね。"
-72,"TEXT_GAIUSD001_01047_URIANGER_000_040","私が集めた真実……。
-それは、アマルジャ族、イクサル族、コボルド族の、
-三蛮族による「神降ろし」の兆候です……。"
-73,"TEXT_GAIUSD001_01047_URIANGER_000_041","人はみな、闇の淵で力を求めるもの……。
-それはあなたも、私も、そして蛮族も変わりありません……。"
-74,"TEXT_GAIUSD001_01047_URIANGER_000_043","始まりの闇は、猛き赤熱の民……アマルジャ族。
-新たな力宿せし焔神「イフリート」が、
-すでに現に顕れている可能性は高いと言えます……。"
-75,"TEXT_GAIUSD001_01047_URIANGER_000_044","砂の都の言葉の如く、速さこそが勝利を呼びましょう。
-ウルダハの担当である、
-サンクレッドから指示を受けるのです……。"
+48,"TEXT_GAIUSD001_01047_MINFILIA_000_000","I know you have scarce had a chance to rest, but I am afraid there is still work to do."
+49,"TEXT_GAIUSD001_01047_YSHTOLA_000_001","The Ultima Weapon's destruction, 'twould seem, has served to embolden the beastmen, who now seek to call down their gods once more."
+50,"TEXT_GAIUSD001_01047_PAPALYMO_000_002","Even as we speak, the Amalj'aa, the Ixal, and the kobolds are making preparations for their respective summoning rites. And that is but the half of it."
+51,"TEXT_GAIUSD001_01047_PAPALYMO_000_003","Much to our dismay, all three tribes were somehow able to procure vast quantities of crystals."
+52,"TEXT_GAIUSD001_01047_YDA_000_004","...Oh! My turn to say something? Ahem! Basically, this means the primals will be stronger than they were before!"
+53,"TEXT_GAIUSD001_01047_MINFILIA_000_005","Far, far stronger. Their previous incarnations will seem as pale imitations."
+54,"TEXT_GAIUSD001_01047_THANCRED_000_006","The beast tribes, we believe, began hoarding crystals with a vengeance in the wake of the Ultima Weapon's maiden appearance. You will remember that as the time it devoured three primals in one sitting."
+55,"TEXT_GAIUSD001_01047_MINFILIA_000_007","The Grand Companies are aware of the potential primal outbreak."
+56,"TEXT_GAIUSD001_01047_MINFILIA_000_008","Alas, due to the losses they incurred to ensure the success of Operation Archon, they are ill equipped to take any meaningful measures."
+57,"TEXT_GAIUSD001_01047_URIANGER_000_009","After deliberation, the leaders concluded that they must needs turn to us once more─to <Emphasis>thee</Emphasis>."
+58,"TEXT_GAIUSD001_01047_MINFILIA_000_010","The aetheric waves that were observed in Mor Dhona do not appear to bear a connection to any beast tribe."
+59,"TEXT_GAIUSD001_01047_MINFILIA_000_011","Yet much and more still remains beyond our knowing. We must be prepared for all possibilities."
+60,"TEXT_GAIUSD001_01047_MINFILIA_000_012","I am loath to send you into the midst of danger again so soon, but none have proven themselves more capable against the primals than you. Will you undertake this mission, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>?"
+61,"TEXT_GAIUSD001_01047_MINFILIA_000_013","You have my thanks! I truly do not know what we would do without you!"
+62,"TEXT_GAIUSD001_01047_MINFILIA_000_020","Go ahead, Thancred."
+63,"TEXT_GAIUSD001_01047_THANCRED_000_021","Ahem."
+64,"TEXT_GAIUSD001_01047_THANCRED_000_022","With circumstances as they were, I haven't had the chance to properly express my gratitude."
+65,"TEXT_GAIUSD001_01047_THANCRED_000_023","I owe you my life, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Thank you, from the bottom of my heart."
+66,"TEXT_GAIUSD001_01047_THANCRED_000_024","A string of failures had left me feeling powerless. I wanted to be stronger, that I might do right by my fellow Scions."
+67,"TEXT_GAIUSD001_01047_THANCRED_000_025","But instead I caused you all no end of grief and suffering. I swear to you, it shan't happen again."
+68,"TEXT_GAIUSD001_01047_THANCRED_000_026","Owing to everyone's ministrations, I am quite recovered now. I hope to return to my duties again soon."
+69,"TEXT_GAIUSD001_01047_MINFILIA_000_030","Thancred's return marks the beginning of a new chapter for the Scions. Let us renew the fire in our hearts and continue to press ever forward!"
+70,"TEXT_GAIUSD001_01047_MINFILIA_000_031","Now then, back to the matter of the primals. With no fewer than three of the beings threatening to appear, it is easy to feel overwhelmed. We must take it one sure step at a time."
+71,"TEXT_GAIUSD001_01047_MINFILIA_000_032","Urianger has the overview of the situation as it stands. Please speak with him to receive guidance on your mission."
+72,"TEXT_GAIUSD001_01047_URIANGER_000_040","Such knowledge as I possess of the beast tribes and their primals is at thy disposal."
+73,"TEXT_GAIUSD001_01047_URIANGER_000_041","Whether man or beastman, we are wont to seek power when plunged into the black depths of despair."
+74,"TEXT_GAIUSD001_01047_URIANGER_000_043","That despair doth begin with the Amalj'aa, who may have already summoned forth Ifrit."
+75,"TEXT_GAIUSD001_01047_URIANGER_000_044","With our comrade Thancred now returned, thou wouldst do well to seek his counsel."

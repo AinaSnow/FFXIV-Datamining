@@ -1,12 +1,12 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNZ802_01932_SEQ_00","イディルシャイアのミッドナイト・デューは、冒険者を試したいようだ。"
-1,"TEXT_HEAVNZ802_01932_SEQ_01","ミッドナイト・デューから、この集落に馴染むための仕事を任された。イディルシャイアの「荷運びの冒険者」と話そう。"
-2,"TEXT_HEAVNZ802_01932_SEQ_02","荷運びの冒険者は、<Sheet(EventItem,2001690,0)/>をばらまいてしまったらしい。イディルシャイアで「<Sheet(EventItem,2001690,0)/>」を5個入手しよう。"
-3,"TEXT_HEAVNZ802_01932_SEQ_03","<Sheet(EventItem,2001690,0)/>を5個入手した。イディルシャイアの「荷運びの冒険者」に「<Sheet(EventItem,2001690,0)/>」を渡そう。"
-4,"TEXT_HEAVNZ802_01932_SEQ_04","荷運びの冒険者に<Sheet(EventItem,2001690,0)/>を渡した。どうやら無事に受け入れてもらえたようだ。イディルシャイアの「ミッドナイト・デュー」に報告しよう。"
-5,"TEXT_HEAVNZ802_01932_SEQ_05","イディルシャイアの冒険者に受け入れられたことを、ミッドナイト・デューに報告した。ミッドナイト・デューたちも、様々な軋轢を経たうえで、ゴブリン族たちと意気投合することができたのだそうだ。"
+0,"TEXT_HEAVNZ802_01932_SEQ_00","Midnight Dew wishes to learn more of you."
+1,"TEXT_HEAVNZ802_01932_SEQ_01","Midnight Dew wants to see how you fit into Idyllshire's burgeoning community. To that end, she bids you work together with a young adventurer currently tasked with moving foodstuffs into Idyllshire's storerooms. Go to him now, and see what you can do."
+2,"TEXT_HEAVNZ802_01932_SEQ_02","You find the green adventurer in a slight tizzy. He informs you that the last of the vessels he carried across the settlement had a hole in it, and subsequently he has lost five crabapples. Find these for him now, whilst he repairs the broken urn."
+3,"TEXT_HEAVNZ802_01932_SEQ_03","After looking all over, you find the five missing crabapples. Return these slightly dusty fruits now to the young adventurer."
+4,"TEXT_HEAVNZ802_01932_SEQ_04","The adventure-dreaming youth takes the crabapples back, and gives you his thanks. Now, report back to Midnight Dew."
+5,"TEXT_HEAVNZ802_01932_SEQ_05","Midnight Dew is happy to learn that you aided the inhabitants of Idyllshire, even in a small way. She tells you that all this was a test of sorts, to learn what manner of person you are. However, you have allayed any doubts she may have had, and earned yourself a modicum of respect within the settlement."
 6,"TEXT_HEAVNZ802_01932_SEQ_06",""
 7,"TEXT_HEAVNZ802_01932_SEQ_07",""
 8,"TEXT_HEAVNZ802_01932_SEQ_08",""
@@ -25,10 +25,10 @@ int32,str,str
 21,"TEXT_HEAVNZ802_01932_SEQ_21",""
 22,"TEXT_HEAVNZ802_01932_SEQ_22",""
 23,"TEXT_HEAVNZ802_01932_SEQ_23",""
-24,"TEXT_HEAVNZ802_01932_TODO_00","荷運びの冒険者と話す"
-25,"TEXT_HEAVNZ802_01932_TODO_01","<Sheet(EventItem,2001690,0)/>を入手"
-26,"TEXT_HEAVNZ802_01932_TODO_02","荷運びの冒険者に<Sheet(EventItem,2001690,0)/>を渡す"
-27,"TEXT_HEAVNZ802_01932_TODO_03","ミッドナイト・デューに報告"
+24,"TEXT_HEAVNZ802_01932_TODO_00","Speak with the adventure-dreaming porter."
+25,"TEXT_HEAVNZ802_01932_TODO_01","Obtain ripe crabapples."
+26,"TEXT_HEAVNZ802_01932_TODO_02","Deliver the ripe crabapples to the adventure-dreaming porter."
+27,"TEXT_HEAVNZ802_01932_TODO_03","Report to Midnight Dew."
 28,"TEXT_HEAVNZ802_01932_TODO_04",""
 29,"TEXT_HEAVNZ802_01932_TODO_05",""
 30,"TEXT_HEAVNZ802_01932_TODO_06",""
@@ -49,49 +49,21 @@ int32,str,str
 45,"TEXT_HEAVNZ802_01932_TODO_21",""
 46,"TEXT_HEAVNZ802_01932_TODO_22",""
 47,"TEXT_HEAVNZ802_01932_TODO_23",""
-48,"TEXT_HEAVNZ802_01932_MIDNIGHTDEW_000_000","アンタ、仕事を手伝ってみないかい？"
-49,"TEXT_HEAVNZ802_01932_MIDNIGHTDEW_000_001","ここは、寄せ集めが作った新興の集落だからね。
-お互いを知るには、一緒に働くのが手っ取り早いのさ。
-そうだね……試してみようじゃないか。"
-50,"TEXT_HEAVNZ802_01932_MIDNIGHTDEW_000_002","アタシたちの同業の冒険者が、そこらで荷運びをしてるはずだ。
-ちょいと、奴の手伝いに行っておくれ。"
-51,"TEXT_HEAVNZ802_01932_MIDNIGHTDEW_000_010","アタシたちの同業の冒険者が、そこらで荷運びをしてるはずだ。
-ちょいと、奴の手伝いに行っておくれ。"
-52,"TEXT_HEAVNZ802_01932_HOMIE01932_000_020","……ん？　あれ！？
-壺の底に穴が空いてるぞ……どうりで軽いと思った！"
-53,"TEXT_HEAVNZ802_01932_HOMIE01932_000_021","……おおっ、あんた、ちょうどいいところに！
-手が空いてたら、そこら辺に「<Sheet(EventItem,2001690,0)/>」がないか、
-探してみちゃくれないかな？"
-54,"TEXT_HEAVNZ802_01932_HOMIE01932_000_030","……おおっ、あんた、ちょうどいいところに！
-手が空いてたら、そこら辺に「<Sheet(EventItem,2001690,0)/>」がないか、
-探してみちゃくれないかな？"
-55,"TEXT_HEAVNZ802_01932_KINDNESSGOBA01932_000_031","シュコォ……シュコォ……
-冒険者　<Sheet(EventItem,2001690,0)/>を　拾ったぞ～
-持ち主　探して　渡してちょ～だい"
-56,"TEXT_HEAVNZ802_01932_KINDNESSGOBB01932_000_032","シュコォ……シュコォ……
-ゴロゴロ転がる　<Sheet(EventItem,2001690,0)/>　拾ったぞ～
-探してたのなら　はいどうぞ～"
-57,"TEXT_HEAVNZ802_01932_KINDNESSGOBA01932_000_035","シュコォ……シュコォ……
-持ち主に　<Sheet(EventItem,2001690,0)/>　渡せたか～？"
-58,"TEXT_HEAVNZ802_01932_KINDNESSGOBB01932_000_036","シュコォ……シュコォ……
-<Sheet(EventItem,2001690,0)/>　転がってきたときゃ　ビックリしたぞ～！"
-59,"TEXT_HEAVNZ802_01932_HOMIE01932_000_040","……おおっ、あんた、ちょうどいいところに！
-手が空いてたら、そこら辺に「<Sheet(EventItem,2001690,0)/>」がないか、
-探してみちゃくれないかな？"
-60,"TEXT_HEAVNZ802_01932_HOMIE01932_000_041","ひぃ、ふぅ、みぃ……。
-ちゃんと、全部あるみたいだ！
-ありがとな、助かった！！"
-61,"TEXT_HEAVNZ802_01932_HOMIE01932_000_042","……って、あんた、ミッドナイト・デューに言われてきたのか。
-ははっ！　挨拶する前に、世話になっちまった。
-これからもよろしくな！"
-62,"TEXT_HEAVNZ802_01932_HOMIE01932_000_045","お前さんのおかげで、果実が全部集まったぜ。
-これからもよろしくな！"
-63,"TEXT_HEAVNZ802_01932_MIDNIGHTDEW_000_050","戻ってきたね……。
-どうやら、その様子だとウチの仲間たちと、
-上手くやっていけそうじゃないか。"
-64,"TEXT_HEAVNZ802_01932_MIDNIGHTDEW_000_051","アタシらも、来たばかりの時は、荒れてたけどね。
-今じゃ、ここで出会ったゴブリン族とも意気投合して、
-お互い支えあいながら、新しい街をこさえようとしてるのさ。"
-65,"TEXT_HEAVNZ802_01932_MIDNIGHTDEW_000_052","助け合うってことに、種族なんて関係ない。
-案外、ゴブリン族とわかりあうのも簡単なんだ。
-試すようなことをしてすまなかったね、よろしく頼むよ。"
+48,"TEXT_HEAVNZ802_01932_MIDNIGHTDEW_000_000","Don't suppose you could lend me a hand, <If(PlayerParameter(4))>lass<Else/>lad</If>?"
+49,"TEXT_HEAVNZ802_01932_MIDNIGHTDEW_000_001","See, Idyllshire's made of mismatched odds and ends, and the fastest way to learn about newcomers is to work with 'em. So I'm of the mind you should pitch in a bit."
+50,"TEXT_HEAVNZ802_01932_MIDNIGHTDEW_000_002","Ain't a lot of glory in it, but I've got a green adventurer movin' foodstuffs into our storerooms. Go and see if the lad needs help, eh?"
+51,"TEXT_HEAVNZ802_01932_MIDNIGHTDEW_000_010","Workin' to keep the settlement afloat is hard work more oft than not, but it's worth it. I'm sure the lad yonder would say the same."
+52,"TEXT_HEAVNZ802_01932_HOMIE01932_000_020","Wha─ Oh, confound it all! I <Emphasis>knew</Emphasis> that one was a bit too bloody light!"
+53,"TEXT_HEAVNZ802_01932_HOMIE01932_000_021","Oh, pardon me! I've just discovered there's a crack in the urn I was carrying. I've been dropping crabapples left and right without even knowing it! Could I trouble you to look for them whilst I patch the hole?"
+54,"TEXT_HEAVNZ802_01932_HOMIE01932_000_030","Carrying food would be easy, I said. Nothing could go wrong, I said. <sigh>"
+55,"TEXT_HEAVNZ802_01932_KINDNESSGOBA01932_000_031","Pshkohhh... Uplander is looking for crabapples, perhaps? Here, I found this lying on ground. But uplander had better wash it muchly before eating..."
+56,"TEXT_HEAVNZ802_01932_KINDNESSGOBB01932_000_032","Psssheehee! Young uplander is so funny, carrying heavy urn! He does not see crabapples falling from hole in bottom─plop, plop, plop! Uplander, take this back to him."
+57,"TEXT_HEAVNZ802_01932_KINDNESSGOBA01932_000_035","Pshkohhh... Even after goodly washing, I would not eat that crabapple..."
+58,"TEXT_HEAVNZ802_01932_KINDNESSGOBB01932_000_036","Pshkohhh... Ahhh, young uplander─so funny..."
+59,"TEXT_HEAVNZ802_01932_HOMIE01932_000_040","<sigh> Midnight Dew will have my hide if she learns I mucked up just carrying about crabapples..."
+60,"TEXT_HEAVNZ802_01932_HOMIE01932_000_041","Oh! One...three... Yes, that's all of them! Thank you, adventurer! Now, what was it that you wanted of me?"
+61,"TEXT_HEAVNZ802_01932_HOMIE01932_000_042","Hah, so Midnight Dew sent you to help me? Well, I hope I'll have cause to help you in return. That is the way of Idyllshire, after all."
+62,"TEXT_HEAVNZ802_01932_HOMIE01932_000_045","Hmmm... How do I patch this urn?"
+63,"TEXT_HEAVNZ802_01932_MIDNIGHTDEW_000_050","From what I've heard of how you helped out that lad, adventurer, I'm thinkin' you'll do just fine here. Sorry for testin' you without tellin' you."
+64,"TEXT_HEAVNZ802_01932_MIDNIGHTDEW_000_051","When me and mine first got here, it took us a while to find a rhythm. But afore long, we were the best of friends with the gobbies. Now, we're as dedicated as them to buildin' this place into a proper town."
+65,"TEXT_HEAVNZ802_01932_MIDNIGHTDEW_000_052","And if you're willin' to pitch in, it don't much matter where you're from or what brought you here. Long as you help out, you're good in my book, and the gobbies'."

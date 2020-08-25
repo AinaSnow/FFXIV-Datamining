@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_XXAUSA002_03856_SEQ_00","双蛇党：統合司令部のボルセル大牙佐は、冒険者に依頼の詳細を話したいようだ。"
-1,"TEXT_XXAUSA002_03856_SEQ_01","ボルセル大牙佐は、蛮神ラムウについての考えをシルフ族に聞いてほしいようだ。シルフ族の文化については、ホウソーン家の山塞にいる将校に聞いたほうがいいようだ。山塞に向かうため、旧市街の東桟橋にいる「ミテニー」に話しかけよう。"
-2,"TEXT_XXAUSA002_03856_SEQ_02","ミテニーと話した。ホウソーン家の山塞は、舟を降りた先で、東へ進めばいいようだ。東部森林のホウソーン家の山塞にいる「アムラン少牙士」と話そう。"
-3,"TEXT_XXAUSA002_03856_SEQ_03","アムラン少牙士と話した。シルフ族の習慣については、ロルフ・ホウソーンに聞いてみたらいい、と教えてくれた。"
+0,"TEXT_XXAUSA002_03856_SEQ_00","Commander Vorsaile Heuloix has been awaiting the aid of the Scions."
+1,"TEXT_XXAUSA002_03856_SEQ_01","Vorsaile Heuloix would have you communicate directly with the sylphs and ascertain their true intentions regarding the primal Ramuh. To avoid any cross-cultural misunderstandings, you are to first travel to the Hawthorne Hut and receive a briefing on sylphic culture with the officer stationed there. Speak to Mitainie outside Westshore Pier in Old Gridania to see about transportation."
+2,"TEXT_XXAUSA002_03856_SEQ_02","Mitainie has instructed you to take the ferry from Westshore Pier to reach the East Shroud. Once there, you will only need to head due east to find the Hawthorne Hut, where you will find Amelain of the Twin Adder."
+3,"TEXT_XXAUSA002_03856_SEQ_03","Amelain has informed you that Rolfe Hawthorne is well versed in sylphic culture and should hold the answers you seek."
 4,"TEXT_XXAUSA002_03856_SEQ_04",""
 5,"TEXT_XXAUSA002_03856_SEQ_05",""
 6,"TEXT_XXAUSA002_03856_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_XXAUSA002_03856_SEQ_21",""
 22,"TEXT_XXAUSA002_03856_SEQ_22",""
 23,"TEXT_XXAUSA002_03856_SEQ_23",""
-24,"TEXT_XXAUSA002_03856_TODO_00","東桟橋でミテニーから案内を受ける"
-25,"TEXT_XXAUSA002_03856_TODO_01","ホウソーン家の山塞のアムラン少牙士と話す"
+24,"TEXT_XXAUSA002_03856_TODO_00","Speak with Mitainie at Westshore Pier."
+25,"TEXT_XXAUSA002_03856_TODO_01","Speak with Amelain at the Hawthorne Hut."
 26,"TEXT_XXAUSA002_03856_TODO_02",""
 27,"TEXT_XXAUSA002_03856_TODO_03",""
 28,"TEXT_XXAUSA002_03856_TODO_04",""
@@ -49,70 +49,30 @@ int32,str,str
 45,"TEXT_XXAUSA002_03856_TODO_21",""
 46,"TEXT_XXAUSA002_03856_TODO_22",""
 47,"TEXT_XXAUSA002_03856_TODO_23",""
-48,"TEXT_XXAUSA002_03856_SYSTEM_100_000","受注するには、進行中のメインクエストを破棄する必要があります。
-メインコマンドの「コンテンツ情報」から、
-「ジャーナル」を選び、破棄してください。"
-49,"TEXT_XXAUSA002_03856_VORSAILE_000_000","誰かと思えば、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><If(GreaterThan(PlayerParameter(53),0))><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),0)/><Else/></If>か。
-双蛇党の任務に励んでるかい？"
-50,"TEXT_XXAUSA002_03856_VORSAILE_000_001","ここは、グランドカンパニー「双蛇党」の統合司令部だがね。
-入党志願かな？　冒険者くん。"
-51,"TEXT_XXAUSA002_03856_YDA_000_002","やっほー！
-ざんねんだけど、今日は別件だよ。"
-52,"TEXT_XXAUSA002_03856_VORSAILE_000_003","やあ、イダくんに、パパリモくんじゃないか。
-そうか、君は「暁の血盟」に協力してるんだね。"
-53,"TEXT_XXAUSA002_03856_PAPALYMO_000_004","依頼があったって聞いてね。
-……詳しい内容を教えてくれるかい。"
-54,"TEXT_XXAUSA002_03856_VORSAILE_000_005","うん、お願いしたい調査というのは、ほかでもない。
-黒衣森の奥に住む、シルフ族。
-……そして、蛮神「ラムウ」の調査さ。"
-55,"TEXT_XXAUSA002_03856_VORSAILE_000_006","僕らグリダニアは、カヌ・エ様の方針により、
-軽々と戦を起こすことを良しとしない。"
-56,"TEXT_XXAUSA002_03856_VORSAILE_000_007","だからこそ、僕らの目の届かないところで、
-グリダニアの脅威が育っていくのを、
-見逃している可能性があるんだよ。"
-57,"TEXT_XXAUSA002_03856_VORSAILE_000_008","グリダニアとシルフ族とは、友好的な関係にある。
-……とはいえ、彼らもまた蛮族だ。"
-58,"TEXT_XXAUSA002_03856_VORSAILE_000_009","第七霊災以降、この不安定な状況では、
-彼らも、いつ蛮神「ラムウ」を顕現させるのか、
-わかったものではないからねえ。"
-59,"TEXT_XXAUSA002_03856_PAPALYMO_000_010","……なるほどね。
-グリダニアの言い分は理解できるよ。"
-60,"TEXT_XXAUSA002_03856_VORSAILE_000_011","……シルフ族と、そして蛮神「ラムウ」と、どう関わっていくか。
-これまでの関係を問わず、
-中立的な意見を集めたいんだよ。"
-61,"TEXT_XXAUSA002_03856_VORSAILE_000_012","まずは、蛮神「ラムウ」を崇める、
-当のシルフ族に、話を聞いてきてもらえるかい？
-彼らが今、どういう考えなのか把握しておきたいんだ。"
-62,"TEXT_XXAUSA002_03856_VORSAILE_000_013","僕らが話したんじゃ、どうしたって、
-グリダニア寄りの意見になってしまうだろ？
-君たち「暁」の立場で、冷静な分析を頼むよ。"
-63,"TEXT_XXAUSA002_03856_VORSAILE_000_014","東部森林にある「シルフの仮宿」に住まうシルフ族は、
-蛮神「ラムウ」のテンパード（信徒）ではなく、
-我々と常に対話を続けてきた温厚な一族だ。"
-64,"TEXT_XXAUSA002_03856_VORSAILE_000_015","ただ、シルフ族は独自の文化をもった蛮族でねえ。
-対話の際に失礼があっちゃあ困るだろ？"
-65,"TEXT_XXAUSA002_03856_VORSAILE_000_016","シルフの仮宿への道中「ホウソーン家の山塞」に寄って、
-現地に居る将校から、彼らの習慣について話を聞くといい。
-よろしく頼んだよ。"
-66,"TEXT_XXAUSA002_03856_PAPALYMO_000_017","よし、依頼内容はわかった。
-まずは、その将校に話を聞けば良さそうだ。"
-67,"TEXT_XXAUSA002_03856_PAPALYMO_000_018","「ホウソーン家の山塞」に立ち寄るなら、
-旧市街の東桟橋から出ている舟を使おう。"
-68,"TEXT_XXAUSA002_03856_YDA_000_019","なんとしても、シルフ族とは話し合いで解決したいね！"
-69,"TEXT_XXAUSA002_03856_MITAINIE_000_020","この坂の下にある桟橋から、
-黒衣森の東部方面への舟が出ている。"
-70,"TEXT_XXAUSA002_03856_MITAINIE_000_021","……ふむ。
-「ホウソーン家の山塞」へ行きたいのか。
-ならば、ここから舟に乗り、到着後は東へ進むといい。"
-71,"TEXT_XXAUSA002_03856_AMELAIN_000_030","……いかにも、私が「双蛇党」のアムラン少牙士だ。
-「暁」の方だな、統合司令部から連絡は受けているよ。
-たしか、シルフ族について知りたい、だったか。"
-72,"TEXT_XXAUSA002_03856_AMELAIN_000_031","シルフ族は警戒心が強いのだ。
-特に黒衣森に「ガレマール帝国」が侵入してからは、
-急速に態度を硬化させている。"
-73,"TEXT_XXAUSA002_03856_AMELAIN_000_032","しかし、警戒さえ解ければ、とても友好的な種族になる。
-彼らは警戒心と同じくらい好奇心が強いからな。
-そういう意味では、我々も変わらないか。"
-74,"TEXT_XXAUSA002_03856_AMELAIN_000_033","そうだな、ロルフの旦那にも聞いてみるといい。
-シルフ族の習慣については、この地に長く住む、
-旦那のほうが詳しいだろう。"
+48,"TEXT_XXAUSA002_03856_SYSTEM_100_000","To accept this quest, you must abandon the current main scenario quest. Open the corresponding entry in the journal or duty list and select “Abandon.”"
+49,"TEXT_XXAUSA002_03856_VORSAILE_000_000","Well! If it isn't <Clickable(<If(GreaterThan(PlayerParameter(52),0))><Sheet(GCRankLimsaMaleText,PlayerParameter(52),8)/><Else/></If><If(GreaterThan(PlayerParameter(53),0))><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),8)/><Else/></If><If(GreaterThan(PlayerParameter(54),0))><Sheet(GCRankUldahMaleText,PlayerParameter(54),8)/><Else/></If>)/> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>, reporting for duty. That's the zeal I like to see from an enterprising young Serpent."
+50,"TEXT_XXAUSA002_03856_VORSAILE_000_001","Hail, adventurer. I bid you welcome to the Adders' Nest. Do you seek to entwine your destiny with the Twin Adder?"
+51,"TEXT_XXAUSA002_03856_YDA_000_002","<If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>Good evening<Else/>Morning</If><Else/><If(LessThan(PlayerParameter(11),17))>Good day<Else/>Good evening</If></If>, Commander! Sorry to disappoint you, but other business brings us here today."
+52,"TEXT_XXAUSA002_03856_VORSAILE_000_003","Yda and Papalymo, always a pleasure to see the two of you. My men tell me you quest in the name of the Scions of late."
+53,"TEXT_XXAUSA002_03856_PAPALYMO_000_004","Quite so, Commander. A little bird told us that the Twin Adder was in need of our adventuring prowess."
+54,"TEXT_XXAUSA002_03856_VORSAILE_000_005","Aye, your little bird sings true. No doubt you've heard that we're investigating the sylphs─that curious beast tribe that calls the depths of the Twelveswood home."
+55,"TEXT_XXAUSA002_03856_VORSAILE_000_006","The sylphs are, for the most part, a peaceable bunch─much to the delight of the Elder Seedseer, who has no desire to see her people embroiled in yet another fruitless war."
+56,"TEXT_XXAUSA002_03856_VORSAILE_000_007","The Twin Adder is of the same mind, and 'tis precisely for this reason that the sylphs' relation to the primal Ramuh has raised a flag of warning amongst our ranks."
+57,"TEXT_XXAUSA002_03856_VORSAILE_000_008","Friendly as they may appear, beastmen will be beastmen."
+58,"TEXT_XXAUSA002_03856_VORSAILE_000_009","Should there be even a sliver of a chance that the summoning of the primal might disturb the balance between Gridania and the sylphic tribes, it is a possibility we cannot ignore."
+59,"TEXT_XXAUSA002_03856_PAPALYMO_000_010","Better to be safe than sorry, indeed."
+60,"TEXT_XXAUSA002_03856_VORSAILE_000_011","Do we strike at Ramuh, or leave the sylphs to their own ways? That is the question, yet I find myself lacking ample knowledge to arrive at an answer."
+61,"TEXT_XXAUSA002_03856_VORSAILE_000_012","Opinions abound within Gridania, but to listen only to one's own is among the greatest mistakes a commander can make."
+62,"TEXT_XXAUSA002_03856_VORSAILE_000_013","I would hear from the other side─the sylphs themselves─and seek an impartial party to serve as my liaison. That is where you Scions come in."
+63,"TEXT_XXAUSA002_03856_VORSAILE_000_014","The sylphs of Little Solace remain untempered, and have held many a productive dialogue with our people. I would hear their candid thoughts on their tempered brethren."
+64,"TEXT_XXAUSA002_03856_VORSAILE_000_015","That said, I urge you to exercise due caution. Sylphic tradition and etiquette bear little resemblance to our own. It would not do to have any cross-cultural <Emphasis>faux pas</Emphasis> get in the way of a productive parley."
+65,"TEXT_XXAUSA002_03856_VORSAILE_000_016","En route to Little Solace, you will come upon the Hawthorne Hut. Our officer stationed there can enlighten you as to how to win the sylphs' favor. May your expedition be a worthwhile one."
+66,"TEXT_XXAUSA002_03856_PAPALYMO_000_017","A friendly palaver with the sylphs? This should be a pleasant enough diversion."
+67,"TEXT_XXAUSA002_03856_PAPALYMO_000_018","The Hawthorne Hut, was it? Why, I believe the ferry departing from Westshore Pier should take us straight there."
+68,"TEXT_XXAUSA002_03856_YDA_000_019","A friendly palaver, indeed! I hope this will be as straightforward as you say, Papalymo."
+69,"TEXT_XXAUSA002_03856_MITAINIE_000_020","Aye, the ferry docked at the base of this hill will carry you across the lake to the East Shroud."
+70,"TEXT_XXAUSA002_03856_MITAINIE_000_021","Once you're ashore, head due east and you should find the Hawthorne Hut without much trouble."
+71,"TEXT_XXAUSA002_03856_AMELAIN_000_030","Indeed, I am Amelain of the Twin Adder. I understand you're here to learn of the sylphs, yes?"
+72,"TEXT_XXAUSA002_03856_AMELAIN_000_031","For all their whimsy, they are a wary lot. Particularly since the Empire has come to the Shroud."
+73,"TEXT_XXAUSA002_03856_AMELAIN_000_032","Earn their trust, however, and they're as friendly as any folk. They have their quirks, but so do we all, no?"
+74,"TEXT_XXAUSA002_03856_AMELAIN_000_033","Would you know more, you'd do well to speak with the master of this hut, Rolfe. He's <Emphasis>forgotten</Emphasis> more about the sylphs than I'll ever know."

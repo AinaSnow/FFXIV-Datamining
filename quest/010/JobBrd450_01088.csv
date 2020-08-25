@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_JOBBRD450_01088_SEQ_00","ジェアンテルが、「罪深き愚者」を歌ってくれるようだ。"
-1,"TEXT_JOBBRD450_01088_SEQ_01","ジェアンテルから依頼を受けた。北部森林のゲルモラ遺跡にある「<Sheet(EObj,2002367,0)/>」に「<Sheet(EventItem,2000952,0)/>」を使おう。"
-2,"TEXT_JOBBRD450_01088_SEQ_02","<Sheet(EObj,2002367,0)/>に<Sheet(EventItem,2000952,0)/>を使った。南部森林のクォーリーミルの西にいる「ジェアンテル」と話してみよう。"
-3,"TEXT_JOBBRD450_01088_SEQ_03","ジェアンテルに報告した。「中央高地の惨劇」を引き起こした「罪深き愚者」とは、ジェアンテルであった。仲間を殺してしまった罪の意識から、ジェアンテルは弓が撃てなくなったという。ジェアンテルは冒険者を危険に巻き込んだことを嘆いていたが、それでも冒険者に頼みたいことがあるようだ。心の準備ができたら、再度、「ジェアンテル」に話しかけよう。"
+0,"TEXT_JOBBRD450_01088_SEQ_00","Jehantel assents to sing for you the Ballad of the Vainglorious Fool."
+1,"TEXT_JOBBRD450_01088_SEQ_01","After singing the ballad for you, Jehantel asks that you travel to the Gelmorra Ruins in the North Shroud. Once there, you are to lay a bouquet of Nymeia lilies at the resting place of the fallen."
+2,"TEXT_JOBBRD450_01088_SEQ_02","You have laid the flowers at the resting place as instructed by Jehantel. Return to the South Shroud and speak with the bard at his camp west of Quarrymill."
+3,"TEXT_JOBBRD450_01088_SEQ_03","You have returned to Jehantel at his camp. You learn from the tormented bard that the vainglorious fool of the ballad is none other than himself. With the deaths of his companions weighing heavily on his soul, Jehantel could never again summon the will to bend back his bow. He also regrets exposing you to danger, but nevertheless has a further request to make of you. Speak with the bard once more when you have steeled your resolve."
 4,"TEXT_JOBBRD450_01088_SEQ_04",""
 5,"TEXT_JOBBRD450_01088_SEQ_05",""
 6,"TEXT_JOBBRD450_01088_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_JOBBRD450_01088_SEQ_21",""
 22,"TEXT_JOBBRD450_01088_SEQ_22",""
 23,"TEXT_JOBBRD450_01088_SEQ_23",""
-24,"TEXT_JOBBRD450_01088_TODO_00","ゲルモラ遺跡の<Sheet(EObj,2002367,0)/>に<Sheet(EventItem,2000952,0)/>を使う"
-25,"TEXT_JOBBRD450_01088_TODO_01","クォーリーミルの西にいるジェアンテルと話す"
+24,"TEXT_JOBBRD450_01088_TODO_00","Lay the bouquet of Nymeia lilies at the resting place of the fallen at the Gelmorra Ruins."
+25,"TEXT_JOBBRD450_01088_TODO_01","Speak with Jehantel at his camp west of Quarrymill."
 26,"TEXT_JOBBRD450_01088_TODO_02",""
 27,"TEXT_JOBBRD450_01088_TODO_03",""
 28,"TEXT_JOBBRD450_01088_TODO_04",""
@@ -49,64 +49,38 @@ int32,str,str
 45,"TEXT_JOBBRD450_01088_TODO_21",""
 46,"TEXT_JOBBRD450_01088_TODO_22",""
 47,"TEXT_JOBBRD450_01088_TODO_23",""
-48,"TEXT_JOBBRD450_01088_JEHANTEL_000_000","おお、そのたたずまい……
-秘められた真実を見抜く心と、強さを手にしたようだね。"
-49,"TEXT_JOBBRD450_01088_JEHANTEL_000_001","今のお主なら、「罪深き愚者」の詩歌に込められた教訓を、
-正しく読み取ることができるだろう。"
-50,"TEXT_JOBBRD450_01088_JEHANTEL_000_002","「罪深き愚者」は、己の力に溺れた
-傲慢な弓術士の物語……。"
-51,"TEXT_JOBBRD450_01088_JEHANTEL_000_003","己の腕を過信するあまり、軍命に背き……
-多くの神勇隊員を死へ追い込んだ
-「中央高地の惨劇」を描いている。"
-52,"TEXT_JOBBRD450_01088_JEHANTEL_000_004","<Emphasis>♪驕りし弓兵　見張りに飽きた　月を見上げて　愚考した♪</Emphasis>
-<Emphasis>♪今こそ攻め時　敵地へ向かわん♪</Emphasis>
-<Emphasis>♪千の敵を射ころし　千の仲間を助けん♪</Emphasis>"
-53,"TEXT_JOBBRD450_01088_JEHANTEL_000_005","<Emphasis>♪愚かな弓兵　罪を犯した　軍命に背き　勇み矢放つ♪</Emphasis>"
-54,"TEXT_JOBBRD450_01088_JEHANTEL_000_006","<Emphasis>♪驕りし弓兵　雄叫び聞いた　後ろ振り向き　慙愧した♪</Emphasis>
-<Emphasis>♪敵兵攻め込み　自陣は壊乱♪</Emphasis>
-<Emphasis>♪千の敵を射ころし　千の仲間も亡くした♪</Emphasis>"
-55,"TEXT_JOBBRD450_01088_JEHANTEL_000_007","<Emphasis>♪愚かな弓兵　罪から逃げた　天罰求めて　あがき矢を折る♪</Emphasis>"
-56,"TEXT_JOBBRD450_01088_JEHANTEL_000_008","……さて、この愚か者の詩歌からは、
-学び取れることが無数にある。
-だが、言葉による理解に価値などありはしない。"
-57,"TEXT_JOBBRD450_01088_JEHANTEL_000_009","お主の心が理解し、その教訓を糧とし、行動へ表さねば、
-真に学び取ったとは言えないのだから。"
-58,"TEXT_JOBBRD450_01088_JEHANTEL_000_010","お主の行動を、じっくりと見守らせてもらうとしよう。
-……今回はわしと、ある場所へ同行してもらいたいのだ。"
-59,"TEXT_JOBBRD450_01088_JEHANTEL_000_011","目的地は、北部森林の「ゲルモラ遺跡」。
-「中央高地の惨劇」の犠牲者が数名、葬られている場所さ。
-そこに「<Sheet(EventItem,2000952,0)/>」をたむけてやってくれ。"
-60,"TEXT_JOBBRD450_01088_JEHANTEL_000_012","<Emphasis>♪時神アルジクよ　雨を天に返し……♪</Emphasis>
-<Emphasis>♪かつてみた戦いを　我とこの者に　語りたまえ……♪</Emphasis>"
-61,"TEXT_JOBBRD450_01088_JEHANTEL_000_020","イクサル兵だと！？"
-62,"TEXT_JOBBRD450_01088_JEHANTEL_000_021","……できぬ……わしには……。"
-63,"TEXT_JOBBRD450_01088_JEHANTEL_000_022","なぜ、わしだけが、まだ生きている……？"
-64,"TEXT_JOBBRD450_01088_JEHANTEL_000_023","消せぬ罪が、新たな罪を呼ぶのか……。
-すまぬ……<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>……。"
-65,"TEXT_JOBBRD450_01088_JEHANTEL_000_030","……危険にさらしてしまい、すまなかった……。
-わしは弓を捨てたのではない、もはや弓を射れぬのだ。
-神勇隊の「強弓」ジェアンテルが、聞いてあきれる。"
-66,"TEXT_JOBBRD450_01088_JEHANTEL_000_031","「中央高地の惨劇」を招いた「罪深き愚者」……
-己の腕に驕り、持ち場を離れてしまい
-多くの仲間を死へ追いやった弓術士……。"
-67,"TEXT_JOBBRD450_01088_JEHANTEL_000_032","それが、わしの……
-かつて、強弓と呼ばれた男の真実……。"
-68,"TEXT_JOBBRD450_01088_JEHANTEL_000_033","お主なら、わかっておろう？
-弓の使い手は、仲間の道を切り拓き、支援するのが務め……。"
-69,"TEXT_JOBBRD450_01088_JEHANTEL_000_034","弓の初歩すら解さぬわしに、弓を握る資格などない……。"
-70,"TEXT_JOBBRD450_01088_JEHANTEL_000_035","今でも、目を閉じるたび……仲間が……わしを責めたてる。
-だが、あの日、わが魂も、仲間の命とともに粉と砕けた……。
-以来、わしは……己の死地を求めて彷徨い歩く、生ける屍……。"
-71,"TEXT_JOBBRD450_01088_JEHANTEL_000_036","この苦悶こそ、わが身に課された罰……。"
-72,"TEXT_JOBBRD450_01088_JEHANTEL_000_037","お主の心に、古き旋律が響いたか。
-お主に新たな学びがあったのが、せめてもの救い……。"
-73,"TEXT_JOBBRD450_01088_JEHANTEL_000_038","目的は、もう十分に果たせた。
-お主ならば、「罪深き愚者」の轍を踏むことはなかろう。
-さあ、ここで、引き返すとしよう……。"
-74,"TEXT_JOBBRD450_01088_JEHANTEL_000_039","わしは、先に戻る。
-いつもの場所で待っているぞ。"
-75,"TEXT_JOBBRD450_01088_JEHANTEL_000_040","無事に戻ったか。
-危険に巻き込んで、すまなかった……何度でも謝ろう。"
-76,"TEXT_JOBBRD450_01088_JEHANTEL_000_041","今一度、お主に聞いてもらいたい願いがある……。
-聞いてくれるのなら、再び声をかけてくれ。"
-77,"TEXT_JOBBRD450_01088_QIB_001_TODO_1","イクサル・サーベラーを倒せ！"
+48,"TEXT_JOBBRD450_01088_JEHANTEL_000_000","Welcome back, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. By your tranquil countenance, it is plain that both your body and soul are in readiness for the next stage of your journey."
+49,"TEXT_JOBBRD450_01088_JEHANTEL_000_001","Very well. The time is ripe that I teach you the Ballad of the Vainglorious Fool."
+50,"TEXT_JOBBRD450_01088_JEHANTEL_000_002","The song tells the tale of an archer of the Gods' Quiver whose peerless skill was surpassed only by his hubris."
+51,"TEXT_JOBBRD450_01088_JEHANTEL_000_003","Alas, that hubris led to the annihilation of his entire regiment at the battle which has come to be called the Massacre of Griffin Crossing. Ahem!"
+52,"TEXT_JOBBRD450_01088_JEHANTEL_000_004","Standing guard in dead of night,♪
+An archer, wearying of the sight,♪"
+53,"TEXT_JOBBRD450_01088_JEHANTEL_000_005","Drunk on pride and starved of glory,♪
+Forsook his post to claim victory.♪"
+54,"TEXT_JOBBRD450_01088_JEHANTEL_000_006","Ten score yalms had the archer crept,♪
+When shrieks rang out whence his comrades slept,♪"
+55,"TEXT_JOBBRD450_01088_JEHANTEL_000_007","For he was not there to see the knives,♪
+Nor to ring the bell and save friends' lives.♪"
+56,"TEXT_JOBBRD450_01088_JEHANTEL_000_008","Tell me, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, what lessons can be learned from this tale?"
+57,"TEXT_JOBBRD450_01088_JEHANTEL_000_009","Ah, but hold that thought─what your tongue claims to understand interests me not."
+58,"TEXT_JOBBRD450_01088_JEHANTEL_000_010","As before, I'd sooner have you demonstrate the fruits of your learning with bow in hand. This time, however, you shall have the pleasure of my company."
+59,"TEXT_JOBBRD450_01088_JEHANTEL_000_011","I would have you escort me to the Gelmorra Ruins in the North Shroud. It is there that some few fallen from the Massacre of Griffin Crossing have been laid to rest. Pray honor this place of remembrance with a bouquet of lilies."
+60,"TEXT_JOBBRD450_01088_JEHANTEL_000_012","Heed me, O Puissant Althyk! Cast Thee back the rains to the firmament, that we might gaze upon the battles of yore!"
+61,"TEXT_JOBBRD450_01088_JEHANTEL_000_020","The enemy van!?"
+62,"TEXT_JOBBRD450_01088_JEHANTEL_000_021","No... I...I cannot..."
+63,"TEXT_JOBBRD450_01088_JEHANTEL_000_022","Why? Why do I still draw breath?"
+64,"TEXT_JOBBRD450_01088_JEHANTEL_000_023","That a sin of the past would beget another...
+Forgive me, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
+65,"TEXT_JOBBRD450_01088_JEHANTEL_000_030","As you have doubtless noticed, I am no longer capable of wielding a bow─I, whom they call the Godsbow."
+66,"TEXT_JOBBRD450_01088_JEHANTEL_000_031","I had hoped that the years would take the edge off the memories...but I hoped in vain. Absolution does not come so easily. Heed me well, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, for I shall reveal all to you."
+67,"TEXT_JOBBRD450_01088_JEHANTEL_000_032","The man sung of in the Ballad of the Vainglorious Fool, whose hubris doomed an entire regiment─he and I are one and the same."
+68,"TEXT_JOBBRD450_01088_JEHANTEL_000_033","Being no stranger to the bow, you will know that the archer's role in battle is that of support. His charge is to thin out the enemy line, that his comrades might gain ground in the field of battle."
+69,"TEXT_JOBBRD450_01088_JEHANTEL_000_034","By that most basic of criteria, I was unfit to hold a bow from the first."
+70,"TEXT_JOBBRD450_01088_JEHANTEL_000_035","In my pride and lust for glory, I sent countless souls to a bloody grave─good men and women all, with loved ones and bright futures awaiting them. I lost the will to live that day, becoming an empty husk of a man, tormented in sleep and wakefulness both by the memories of my crime."
+71,"TEXT_JOBBRD450_01088_JEHANTEL_000_036","But the gods were not without mercy. They gifted me with song, that I might find a measure of solace in my wretched existence."
+72,"TEXT_JOBBRD450_01088_JEHANTEL_000_037","A new melody resounds within you, I see. Though this outing was rather far departed from what I had in mind, that it still bore fruit gives me comfort."
+73,"TEXT_JOBBRD450_01088_JEHANTEL_000_038","On that note, let us conclude the lesson. I daresay I have no cause to worry that you will repeat the selfsame mistake as the vainglorious fool."
+74,"TEXT_JOBBRD450_01088_JEHANTEL_000_039","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, I would be alone for a while. Take yourself back to camp─I shall make my own way there presently."
+75,"TEXT_JOBBRD450_01088_JEHANTEL_000_040","I am glad to see you safely returned. Though I rasp my voice hoarse through the saying of it, I cannot tell you enough times how much I regret dragging you into such danger."
+76,"TEXT_JOBBRD450_01088_JEHANTEL_000_041","...And yet, there is more I would ask of you. If you would do me the kindness of lending your ear, then pray speak now."
+77,"TEXT_JOBBRD450_01088_QIB_001_TODO_1","Defeat the Ixali sabreur!"

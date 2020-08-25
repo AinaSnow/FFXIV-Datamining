@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB004_00811_SEQ_00","風車番の小屋にいるトラッハトゥームは、それでも冒険者を認めようとしていないようだ。"
-1,"TEXT_GAIUSB004_00811_SEQ_01","グレイフリートの風車番によると、トラッハトゥームが冒険者に依頼した仕事は、もとは彼がトラッハトゥームに依頼したものだったらしい。トラッハトゥームの実力が本当かどうか怪しい。風車番の小屋の外にいる「グレイフリートの風車番」に話しかけ、トラッハトゥームとの決闘を始めよう。"
-2,"TEXT_GAIUSB004_00811_SEQ_02","トラッハトゥームは、やはり元海雄旅団ではなかった。本物の海雄旅団だという、東ラノシアのコスタ・デル・ソルにいる「ヴェイスケート」と話そう。"
-3,"TEXT_GAIUSB004_00811_SEQ_03","本物の元海雄旅団、ヴェイスケートによると、彼の雇い主であるゲゲルジュからの依頼をこなしたら、オ・ゴモロ山の火口に乗り込む方法を教えてくれるらしい。"
+0,"TEXT_GAIUSB004_00811_SEQ_00","Trachtoum remains unconvinced of your readiness to defeat the dread primal Tidus."
+1,"TEXT_GAIUSB004_00811_SEQ_01","Your conversation with Trachtoum is interrupted by an irate miller, who accuses the flustered marauder of shirking his duty. As you look on in stunned silence, Trachtoum claims to have slain the goobbue that you but recently dispatched. Unconvinced, the miller decides that the truth will be revealed “the Lominsan way.” Speak with the miller outside and discover what this entails."
+2,"TEXT_GAIUSB004_00811_SEQ_02","After besting Trachtoum in a boulder-breaking contest, you discover that the marauder was never a member of the Company of Heroes. However, he tells you that one of the Company's former captains now works at Costa del Sol. Journey to the resort and beg the veteran's assistance."
+3,"TEXT_GAIUSB004_00811_SEQ_03","While Wheiskaet acknowledges your passion, he is reluctant to send an adventurer of unknown character to <If(PlayerParameter(4))>her<Else/>his</If> death. If you wish to learn how the Company of Heroes defeated Titan, you must yet again prove yourself by completing Wheiskaet's challenges."
 4,"TEXT_GAIUSB004_00811_SEQ_04",""
 5,"TEXT_GAIUSB004_00811_SEQ_05",""
 6,"TEXT_GAIUSB004_00811_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSB004_00811_SEQ_21",""
 22,"TEXT_GAIUSB004_00811_SEQ_22",""
 23,"TEXT_GAIUSB004_00811_SEQ_23",""
-24,"TEXT_GAIUSB004_00811_TODO_00","グレイフリートの風車番と話す"
-25,"TEXT_GAIUSB004_00811_TODO_01","コスタ・デル・ソルのヴェイスケートと話す"
+24,"TEXT_GAIUSB004_00811_TODO_00","Speak with the miller."
+25,"TEXT_GAIUSB004_00811_TODO_01","Speak with Wheiskaet in Costa del Sol."
 26,"TEXT_GAIUSB004_00811_TODO_02",""
 27,"TEXT_GAIUSB004_00811_TODO_03",""
 28,"TEXT_GAIUSB004_00811_TODO_04",""
@@ -49,124 +49,57 @@ int32,str,str
 45,"TEXT_GAIUSB004_00811_TODO_21",""
 46,"TEXT_GAIUSB004_00811_TODO_22",""
 47,"TEXT_GAIUSB004_00811_TODO_23",""
-48,"TEXT_GAIUSB004_00811_TRACHTOUM_000_000","え、えーと……
-<Sheet(BNpcName,1986,0)/>ぐらいじゃあ、
-課題が甘すぎたようだなぁ……それじゃ次は……。"
-49,"TEXT_GAIUSB004_00811_NPC1_000_001","トラッハトゥームさんや、
-<Sheet(BNpcName,1986,0)/>は退治できましたか？
-あんまりサボるようなら契約の見直しも……。"
-50,"TEXT_GAIUSB004_00811_TRACHTOUM_000_002","こ……これはこれは、風車番どの！
-その魔物なら、お、俺様が倒しておいたぜ！！"
-51,"TEXT_GAIUSB004_00811_NPC1_000_003","……あんなに渋ってたのに？
-本っ当に、あんたが倒したのかい？"
-52,"TEXT_GAIUSB004_00811_TRACHTOUM_000_004","ほほほ、ほほほほほ……本当だとも！
-な、なあ！？"
-53,"TEXT_GAIUSB004_00811_NPC1_000_005","……ずいぶん強そうな冒険者さんじゃな。
-<If(PlayerParameter(4))>彼女<Else/>彼</If>に頼んで、倒してもらったんじゃないでしょうね？"
-54,"TEXT_GAIUSB004_00811_TRACHTOUM_000_006","な、何を疑っているんだ！
-俺様は、あの蛮神「タコタン」を倒した、
-元海雄旅団一番の実力者、トラッハトゥームなんだぞ！"
-55,"TEXT_GAIUSB004_00811_NPC1_000_007","……前から言おうと思ってたんですがねぇ！
-蛮神「タコタン」って何じゃい！　どんなタコじゃ！！
-コボルド族が崇めとる神なら「タイタン」じゃろッ！！"
-56,"TEXT_GAIUSB004_00811_TRACHTOUM_000_008","あ、あれぇ！？
-いや……その……タコタンというのは……
-海雄旅団特有の呼び方で……。"
-57,"TEXT_GAIUSB004_00811_NPC1_000_009","言い訳は、もうええわ！
-風車小屋の傭兵として雇ったのに、サボってばっかりで！！
-ええい、表に出るんじゃっ！"
-58,"TEXT_GAIUSB004_00811_NPC1_000_010","本当に、あんたがグゥーブーを倒したというのなら、
-その強そうな冒険者さんと、手合わせしてみせい！
-もし勝てなんだら、あんたなんぞクビじゃっ！！"
-59,"TEXT_GAIUSB004_00811_NPC_000_010","建物の外の風車番（可視）にアクション"
-60,"TEXT_GAIUSB004_00811_NPC_000_011","ＱＩＢ開始"
-61,"TEXT_GAIUSB004_00811_TRACHTOUM_000_012","すすす、すいませんっしたー！
-俺、実は「海雄旅団員」じゃないっす！
-ただの、ケチで名もない傭兵くずれなんす！"
-62,"TEXT_GAIUSB004_00811_NPC_000_013","……はっ、なんとなく察してましたわい。
-経歴の詐称で、とりあえずクビじゃな。"
-63,"TEXT_GAIUSB004_00811_TRACHTOUM_000_014","こ、心をっ！
-心を入れ替えますから、クビだけはっ！！
-元海雄旅団を名乗ったのだって、悪気はなかったんす！"
-64,"TEXT_GAIUSB004_00811_TRACHTOUM_000_016","前に「コスタ・デル・ソル」で働いてたとき、
-そこの上司が元海雄旅団だって小耳にはさんで……
-だから！　最初は冗談で旅団員だって名乗ったんす！"
-65,"TEXT_GAIUSB004_00811_TRACHTOUM_000_017","そしたら、おもしろいように仕事が……
-申し訳ありまっせんでしたあああぁぁっ！！
-もうそんな嘘つかないっすよぉぉぉっっ！！"
-66,"TEXT_GAIUSB004_00811_TRACHTOUM_000_018","お前、タコタ……タイタンの情報を探していたな？
-その上司の名前は「ヴェイスケート」さんだ！
-べらぼうに強い、本物の元海雄旅団員だ！"
-67,"TEXT_GAIUSB004_00811_TRACHTOUM_000_019","ほ、本物の旅団員の名前と、居場所を教えたんだ！
-だからお前も、俺をクビにしないよう頼んでくれよぉぉ！"
-68,"TEXT_GAIUSB004_00811_WHEISKAET_000_050","俺がヴェイスケートだが、何の用だ？
-……何っ？
-お前たちが、蛮神「タイタン」を討伐するだと？"
-69,"TEXT_GAIUSB004_00811_YSHTOLA_000_051","ええ、そうよ。
-リムサ・ロミンサに被害が出る前に、
-討たなくてはならない……。"
-70,"TEXT_GAIUSB004_00811_WHEISKAET_000_052","フンッ！
-お前たちのような英雄気取りに、
-とても、討伐できるとは思えんな。"
-71,"TEXT_GAIUSB004_00811_YSHTOLA_000_053","なぜかしら？
-この<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>は、
-ウルダハで召喚された、蛮神「イフリート」を倒したわ。"
-72,"TEXT_GAIUSB004_00811_YSHTOLA_000_054","それに、蛮神のテンパード（信徒）になることがない、
-特別な「力」を持っている。"
-73,"TEXT_GAIUSB004_00811_YSHTOLA_000_055","……危険なのは十分理解しているわ。
-そのために「海雄旅団」の副団長だったというあなたに、
-蛮神「タイタン」のもとへ行く方法を聞きに来たのよ。"
-74,"TEXT_GAIUSB004_00811_WHEISKAET_000_056","……いったい、どこでその話を……まぁ、いい。
-あれを防ぐ力を持っていたとしても……。"
-75,"TEXT_GAIUSB004_00811_WHEISKAET_000_057","俺たち「海雄旅団」は、生え抜きの命知らずだった。
-名誉のために、多くの犠牲をいとわず、
-数々の蛮神を倒してきたんだ。"
-76,"TEXT_GAIUSB004_00811_WHEISKAET_000_058","その中でも、蛮神「タイタン」は別格だった。
-奴のために何人の仲間が散っていったことか……。"
-77,"TEXT_GAIUSB004_00811_WHEISKAET_000_059","蛮神とやり合おうってんだから、
-それなりの力は持っているんだろうが……。
-しかし、俺がお前たちの力を認める理由はねえ。"
-78,"TEXT_GAIUSB004_00811_WHEISKAET_000_060","あなたに信頼してもらわなくてもいいわ。
-それでも、私たちはやらなくてはならないのよ。"
-79,"TEXT_GAIUSB004_00811_YSHTOLA_000_061","リムサ・ロミンサを……。
-いいえ、エオルゼアを救うために。"
-80,"TEXT_GAIUSB004_00811_WHEISKAET_000_062","俺は、蛮神との戦いや、第七霊災で多くの部下を失い、
-自身も深手を負った。"
-81,"TEXT_GAIUSB004_00811_WHEISKAET_000_063","そして、知ってのとおり海雄旅団は解散した。
-……それでも、未だに傭兵稼業を続けている。"
-82,"TEXT_GAIUSB004_00811_WHEISKAET_000_064","ここコスタ・デル・ソルの主、
-ゲゲルジュの旦那の警護長というのが、今の俺の肩書きだ。"
-83,"TEXT_GAIUSB004_00811_WHEISKAET_000_065","お前たちが、どうしてもというのなら、
-旦那からの依頼を、代わりにやってみるがいい。"
-84,"TEXT_GAIUSB004_00811_YSHTOLA_000_066","なんですって？
-蛮神「タイタン」の脅威は、そこまで迫っているのよ！？
-そんな悠長なことは……。"
-85,"TEXT_GAIUSB004_00811_WHEISKAET_000_067","ならば、自分たちで探すことだ。
-……オ・ゴモロ山の火口に乗りこむ方法をな。"
-86,"TEXT_GAIUSB004_00811_WHEISKAET_000_068","俺が情報を出すための条件は、もう伝えた。
-結果的に、どちらが早いかは、
-お前たちの判断に任せるさ。"
-87,"TEXT_GAIUSB004_00811_YSHTOLA_000_069","……悔しいけれど、ここは話をのむしかなさそうよ。
-これ以上、回り道はできないわ。"
-88,"TEXT_GAIUSB004_00811_YSHTOLA_000_070","あなたの力は本物よ。
-それを見せつけてやりましょう！"
-89,"TEXT_GAIUSB004_00811_WHEISKAET_000_071","ほう、やる気になったかい。
-……せいぜい、頑張るこったな。"
-90,"TEXT_GAIUSB004_00811_YSHTOLA_000_072","あなたは、依頼の方をお願い。
-私は、ほかに情報がないか探ってみる。
-またあとで会いましょう。"
-91,"TEXT_GAIUSB004_00811_QIB_TODO001","大ぶりな岩を壊せ！"
-92,"TEXT_GAIUSB004_00811_TRACHTOUM_BATTLETALK_01","お、俺様の実力じゃ、お前を殺しちまうかもしれねぇ！
-「岩を先に壊した方が勝ち」ってことにしようぜ！"
-93,"TEXT_GAIUSB004_00811_TRACHTOUM_BATTLETALK_02","だから俺様を殴るなよ？　絶対だぞ？
-「俺様を殴ったらお前の負け」だかんなッ！"
-94,"TEXT_GAIUSB004_00811_WINDMILGUARD_GAIUSB004_BATTLETALK_03","ムム、びみょ～に岩の大きさが違う気が……？
-まぁよいか……岩割り勝負、はじめッ！"
-95,"TEXT_GAIUSB004_00811_TRACHTOUM_BATTLETALK_04","おっとぉー？
-俺様の魅力にシビレちまったようだなぁーッ！"
-96,"TEXT_GAIUSB004_00811_TRACHTOUM_BATTLETALK_05","フフフ、邪魔しないとは言ってないからな。
-勝つのはだれー？　俺様だぁーーッ！"
-97,"TEXT_GAIUSB004_00811_TRACHTOUM_BATTLETALK_06","ゲゲッ、もう壊れそうだと！？
-仕方ねぇ……こっちも「爆弾」で一気にいくぜ！"
-98,"TEXT_GAIUSB004_00811_TRACHTOUM_BATTLETALK_07","うっうっ……壊れろ……壊れろよォ……！"
-99,"TEXT_GAIUSB004_00811_TRACHTOUM_BATTLETALK_DEAD","「俺様を殴ったらお前の負け」って言っただろォ！"
+48,"TEXT_GAIUSB004_00811_TRACHTOUM_000_000","So, uh...as I was sayin', I still don't know if ye've got what it takes to face Tidus. Maybe if ye slew a─"
+49,"TEXT_GAIUSB004_00811_NPC1_000_001","Trachtoum? You in here drinking again? If you are, that goobbue had better be dead!"
+50,"TEXT_GAIUSB004_00811_TRACHTOUM_000_002","Oh, it's dead, chief, ye have me word on that! Cleaved the beast's skull in two with me trusty axe, I did!"
+51,"TEXT_GAIUSB004_00811_NPC1_000_003","Is that a fact? And what will your friend here say if I ask <If(PlayerParameter(4))>her<Else/>him</If>?"
+52,"TEXT_GAIUSB004_00811_TRACHTOUM_000_004","<Clickable(<If(PlayerParameter(4))>Sh-She'll<Else/>H-He'll</If>)/> vouch for me, of course! Ain't that right...friend?"
+53,"TEXT_GAIUSB004_00811_NPC1_000_005","Tell me true: was it Trachtoum who slew that goobbue...or was it <Emphasis>you</Emphasis>?"
+54,"TEXT_GAIUSB004_00811_TRACHTOUM_000_006","Chief! Wh-What are ye sayin'!? It's me, <Emphasis>Trachtoum</Emphasis>, the finest axeman ever to serve in the Company of Heroes, the legendary mercenaries who slew that bastard Tidus!"
+55,"TEXT_GAIUSB004_00811_NPC1_000_007","...Tidus? <Emphasis>Tidus</Emphasis>? Who in the seven hells is Tidus!? Some primal you fought in a drink-sodden dream? The Company of Heroes slew <Emphasis>Titan</Emphasis>, you bloody half-wit!"
+56,"TEXT_GAIUSB004_00811_TRACHTOUM_000_008","Ah. Aye, well...see, Tidus was what me an' the lads used to call him."
+57,"TEXT_GAIUSB004_00811_NPC1_000_009","That's the biggest load of Sahagin shite I've ever heard.
+Both of you, outside! We'll learn the truth the Lominsan way!"
+58,"TEXT_GAIUSB004_00811_NPC1_000_010","Trachtoum─if you didn't slay that goobbue, you may consider your contract revoked!"
+59,"TEXT_GAIUSB004_00811_NPC_000_010",""
+60,"TEXT_GAIUSB004_00811_NPC_000_011",""
+61,"TEXT_GAIUSB004_00811_TRACHTOUM_000_012","All right, all right, I admit it! I lied about bein' in the Company of Heroes. But I'm beggin' ye, chief─please don't dismiss me! I've learned me lesson, honest I have!"
+62,"TEXT_GAIUSB004_00811_NPC_000_013","Save your blubbering, Trachtoum. <sigh> Gods, I should've known..."
+63,"TEXT_GAIUSB004_00811_TRACHTOUM_000_014","Mercy, please! I didn't want to deceive ye, I swear! It's just that I kept gettin' turned away by all the folk I asked for work, an' I panicked!"
+64,"TEXT_GAIUSB004_00811_TRACHTOUM_000_016","See, the last job I had was at Costa del Sol, an' there was this grizzled marauder everyone treated like royalty. When I heard he was a captain in the Company of Heroes, I finally understood why."
+65,"TEXT_GAIUSB004_00811_TRACHTOUM_000_017","I-I wasn't bein' <Emphasis>serious</Emphasis> when I said I was one of 'em! But ye went an' believed me, so I...so I, er..."
+66,"TEXT_GAIUSB004_00811_TRACHTOUM_000_018","L-Look─his name was Wheiskaet, all right!? Wheiskaet! He'll tell ye how to defeat Titus or whatever the hells that thing's name is!"
+67,"TEXT_GAIUSB004_00811_TRACHTOUM_000_019","That's what ye wanted, ain't it!? So come on, then! Tell the chief to forgive me! It's only fair!"
+68,"TEXT_GAIUSB004_00811_WHEISKAET_000_050","Pardon? You wish to slay the Lord of Crags?"
+69,"TEXT_GAIUSB004_00811_YSHTOLA_000_051","We <Emphasis>must</Emphasis> slay him, Captain. The people of Limsa Lominsa are depending upon us."
+70,"TEXT_GAIUSB004_00811_WHEISKAET_000_052","Hmph. You fancy yourselves heroes, then─just like in the tales?"
+71,"TEXT_GAIUSB004_00811_YSHTOLA_000_053","Be not so quick to judge. Long have I labored for the well-being of you and yours. And my associate here has bathed in Ifrit's hellfire and lived."
+72,"TEXT_GAIUSB004_00811_YSHTOLA_000_054","<Clickable(<If(PlayerParameter(4))>She<Else/>He</If>)/> is blessed with a power that protects <If(PlayerParameter(4))>her<Else/>him</If> from primal influence. Thus was <If(PlayerParameter(4))>she<Else/>he</If> able to lay low the Lord of the Inferno."
+73,"TEXT_GAIUSB004_00811_YSHTOLA_000_055","We know full well the risks, and have taken every possible precaution. We lack only the knowledge of how to enter Titan's lair. Pray be so good as to grant us the boon of your wisdom, and we shall be on our way."
+74,"TEXT_GAIUSB004_00811_WHEISKAET_000_056","A <If(PlayerParameter(4))>woman<Else/>man</If> who can't be tempered? Useful...but it will not be enough."
+75,"TEXT_GAIUSB004_00811_WHEISKAET_000_057","It is true that the Company of Heroes fought and felled primals─but each victory was bought with the lifeblood of brave men and women."
+76,"TEXT_GAIUSB004_00811_WHEISKAET_000_058","And Titan was the worst we faced. Aye, we defeated him─in the end─but he took from us some of our very best."
+77,"TEXT_GAIUSB004_00811_WHEISKAET_000_059","Even <Emphasis>if</Emphasis> you possess the power you claim, I have no reason to believe you will succeed."
+78,"TEXT_GAIUSB004_00811_WHEISKAET_000_060","Believe what you will. We mean to try."
+79,"TEXT_GAIUSB004_00811_YSHTOLA_000_061","Though our lives be forfeit, we will not abandon Limsa to the wrath of Titan."
+80,"TEXT_GAIUSB004_00811_WHEISKAET_000_062","You are passionate, I'll grant you that..."
+81,"TEXT_GAIUSB004_00811_WHEISKAET_000_063","...And you deserved better than the greeting I gave you. But I will not send you into O'Ghomoro on a whim. To be plain, I do not wish to see you give your lives in vain."
+82,"TEXT_GAIUSB004_00811_WHEISKAET_000_064","At the very least, I must have assurances that you are more than common adventurers."
+83,"TEXT_GAIUSB004_00811_WHEISKAET_000_065","I oversee security for Master Gegeruju's estates. Perhaps you can demonstrate your abilities by attending to one of our─"
+84,"TEXT_GAIUSB004_00811_YSHTOLA_000_066","Ye gods, man─have you heard nothing I have said? We have not the <Emphasis>time</Emphasis> to perform trivial tasks. The enemy is at the gates!"
+85,"TEXT_GAIUSB004_00811_WHEISKAET_000_067","Do you imagine words can sway me, girl?"
+86,"TEXT_GAIUSB004_00811_WHEISKAET_000_068","If you dislike my conditions, then you are welcome to find your own way into O'Ghomoro."
+87,"TEXT_GAIUSB004_00811_YSHTOLA_000_069","<sigh> Though it pains me to admit it, I fear we have no choice but to acquiesce to the man's demands."
+88,"TEXT_GAIUSB004_00811_YSHTOLA_000_070","Yet much remains to be done if we are to best Titan. Forgive me, but I must ask you to undertake this task alone. I will use the time to see to the remaining preparations."
+89,"TEXT_GAIUSB004_00811_WHEISKAET_000_071","Leaving the dirty work to others, are we? Heh, very well."
+90,"TEXT_GAIUSB004_00811_YSHTOLA_000_072","Pray do whatever the good captain bids...however trifling. Remember: the fate of Limsa Lominsa hangs in the balance."
+91,"TEXT_GAIUSB004_00811_QIB_TODO001","Destroy the large boulder!"
+92,"TEXT_GAIUSB004_00811_TRACHTOUM_BATTLETALK_01","All right─ye know the rules! First <If(PlayerParameter(4))>one<Else/>man</If> to smash <If(PlayerParameter(4))>their<Else/>his</If> boulder will be judged the goobbue slayer!"
+93,"TEXT_GAIUSB004_00811_TRACHTOUM_BATTLETALK_02","An' don't even think about tryin' to kill me! That's cheatin'!"
+94,"TEXT_GAIUSB004_00811_WINDMILGUARD_GAIUSB004_BATTLETALK_03","Who picked these boulders!? They're nothing alike!
+Ah, the hells with it─let the contest begin!"
+95,"TEXT_GAIUSB004_00811_TRACHTOUM_BATTLETALK_04","How ye doin', <If(PlayerParameter(4))>lass<Else/>matey</If>? Feelin' a bit stiff, by any chance?"
+96,"TEXT_GAIUSB004_00811_TRACHTOUM_BATTLETALK_05","Heh heh...only killin's against the rules!"
+97,"TEXT_GAIUSB004_00811_TRACHTOUM_BATTLETALK_06","Y-Yer still at it!? Bugger me─'tis lucky I've got one of these!"
+98,"TEXT_GAIUSB004_00811_TRACHTOUM_BATTLETALK_07","Me arms, me bleedin' arms..."
+99,"TEXT_GAIUSB004_00811_TRACHTOUM_BATTLETALK_DEAD","Ack...ye rotten, stinkin' pile of...goobbue shite!"

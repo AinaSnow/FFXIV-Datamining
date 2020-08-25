@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBPST000_01481_SEQ_00","聖コイナク財団の調査地のクリントータは、冒険者にあるものを託したいようだ。"
-1,"TEXT_SUBPST000_01481_SEQ_01","クリントータから、誤って配達されたという彼女の兄宛の手紙を受け取った。リムサ・ロミンサのブルワークホール付近にいる「リスフロー」へ届けよう。"
-2,"TEXT_SUBPST000_01481_SEQ_02","リスフローへ手紙を届けたところ、レターモーグリに才能を認められ、冒険者は「配達士」に任命された。「配達士」の仕事があるときは、ブルワークホール付近で先輩レターモーグリが待っているようだ。先輩レターモーグリを見かけたら、積極的に配達を引き受けて、エオルゼア中の人々へ手紙を届けてあげよう。"
+0,"TEXT_SUBPST000_01481_SEQ_00","Klynthota tires of having the possessions of others foisted upon her."
+1,"TEXT_SUBPST000_01481_SEQ_01","A careless moogle has mistakenly delivered to Klynthota a letter intended for her brother. Resolve the mess by redirecting the missive to Ryssfloh, a guard stationed at the Octant in Limsa Lominsa."
+2,"TEXT_SUBPST000_01481_SEQ_02","As Ryssfloh thanks you for your kindness, the delivery moogle responsible for the confusion appears, offering a profuse apology. It would seem that the burgeoning adventurer population has brought about an influx of letters, far too many to be properly delivered by the paws of moogles alone. Recognizing your talents, he offers to initiate you into their ranks. With the furry courier not likely to take no for an answer, you resolve to make the most of your new career as a delivery <Switch(PlayerParameter(71))><Case(1)>Hyur</Case><Case(2)>Elezen</Case><Case(3)>Lalafell</Case><Case(4)>Miqo'te</Case><Case(5)>Roegadyn</Case><Case(6)>Au Ra</Case><Case(7)>Hrothgar</Case><Case(8)>Viera</Case></Switch>."
 3,"TEXT_SUBPST000_01481_SEQ_03",""
 4,"TEXT_SUBPST000_01481_SEQ_04",""
 5,"TEXT_SUBPST000_01481_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_SUBPST000_01481_SEQ_21",""
 22,"TEXT_SUBPST000_01481_SEQ_22",""
 23,"TEXT_SUBPST000_01481_SEQ_23",""
-24,"TEXT_SUBPST000_01481_TODO_00","リムサ・ロミンサのリスフローに手紙を渡す"
+24,"TEXT_SUBPST000_01481_TODO_00","Deliver the letter to Ryssfloh in Limsa Lominsa."
 25,"TEXT_SUBPST000_01481_TODO_01",""
 26,"TEXT_SUBPST000_01481_TODO_02",""
 27,"TEXT_SUBPST000_01481_TODO_03",""
@@ -49,97 +49,41 @@ int32,str,str
 45,"TEXT_SUBPST000_01481_TODO_21",""
 46,"TEXT_SUBPST000_01481_TODO_22",""
 47,"TEXT_SUBPST000_01481_TODO_23",""
-48,"TEXT_SUBPST000_01481_KLYNTHOTA_000_000","やあ冒険者さん、いいところに来てくれた。
-先ほど、レターモーグリが手紙を届けてくれたようなんだが、
-ボク宛てじゃなかったんだ……。"
-49,"TEXT_SUBPST000_01481_KLYNTHOTA_000_001","父親の名が同じだったから、間違えてしまったんだろう。
-ほら、ゼーヴォルフって、父親の名を受け継ぐからさ。"
-50,"TEXT_SUBPST000_01481_KLYNTHOTA_000_002","モーグリ族って、魔法で姿を消しているんだろ？
-いつも、いつの間にか手紙が配達されているから、
-間違っていることにも気付けなかったのさ。"
-51,"TEXT_SUBPST000_01481_KLYNTHOTA_000_003","……この手紙を、冒険者さんに託してもいいかな？
-レターモーグリが手紙を回収しに来るのを待ってたら、
-いつになるかわからないからね。"
-52,"TEXT_SUBPST000_01481_KLYNTHOTA_000_004","本当の受取人は、我が兄の「リスフロー」。
-リムサ・ロミンサのブルワークホール付近で、
-警備にあたっているはずさ。"
-53,"TEXT_SUBPST000_01481_KLYNTHOTA_000_005","急ぎの手紙ではなさそうだから、
-近くに立ち寄ったときに届けてくれればいい。
-……ついでに、食べ過ぎに注意するよう伝えてくれよ。"
-54,"TEXT_SUBPST000_01481_KLYNTHOTA_000_008","本当の受取人は、我が兄の「リスフロー」。
-リムサ・ロミンサのブルワークホール付近で、
-警備にあたっているはずさ。"
-55,"TEXT_SUBPST000_01481_KLYNTHOTA_000_009","急ぎの手紙ではなさそうだから、
-近くに立ち寄ったときに届けてくれればいい。
-……ついでに、食べ過ぎに注意するよう伝えてくれよ。"
-56,"TEXT_SUBPST000_01481_RYSSFLOH_000_010","おう、久しぶりだな！
-君の活躍は聞いてるよ、立派になったもんだな！
-それで、今日は何か用か？"
-57,"TEXT_SUBPST000_01481_RYSSFLOH_000_011","どうした、道にでも迷ったか？
-俺はここの警備を担当している者だが、何か用か？"
-58,"TEXT_SUBPST000_01481_RYSSFLOH_000_012","……俺宛ての手紙が、妹のところに行ってたのか。
-わざわざ届けてくれて、ありがとよ。
-妹の伝言どおり、食べ過ぎにも注意するよ！"
-59,"TEXT_SUBPST000_01481_LETTERMOOGLE_000_013","(-？？？？-)クポ、クポ、クポー！
-リスフローさん、ごめんなさいクポー！！"
-60,"TEXT_SUBPST000_01481_LETTERMOOGLE_000_014","みんなの大切な手紙を預かる「配達士」モグとしたことが、
-リスフローさん宛てのレターを、
-なくしちゃったみたいなのクポ……。"
-61,"TEXT_SUBPST000_01481_LETTERMOOGLE_000_015","これは、配達士としてあるまじきことクポ！
-お詫びにモグの、とっておきダンスを……。"
-62,"TEXT_SUBPST000_01481_RYSSFLOH_000_016","おお、こいつはモーグリ族じゃないか！
-自分から姿を見せてくれるなんて、珍しいこともあるもんだ！"
-63,"TEXT_SUBPST000_01481_RYSSFLOH_100_016","はっはっはっ、そう落ち込むなって！
-一生見ることがないと思ってたモーグリ族と話ができて、
-俺としちゃ、むしろ嬉しいぐらいさ！"
-64,"TEXT_SUBPST000_01481_RYSSFLOH_000_017","レターモーグリっていやぁ……
-お前ひとりで、エオルゼアの各地に行っては、
-たくさんの手紙を届けてるらしいじゃないか。"
-65,"TEXT_SUBPST000_01481_RYSSFLOH_100_017","最近は、冒険者の数も増えてきたから、
-手紙の量も多くなったんだろう？
-たまに間違えるのも無理ないさ！"
-66,"TEXT_SUBPST000_01481_RYSSFLOH_000_018","それに、俺宛ての手紙なら、ちゃんと受け取ったぞ。
-この冒険者が、届けてくれたんだ。"
-67,"TEXT_SUBPST000_01481_LETTERMOOGLE_000_019","よかったクポ～！！
-冒険者さんは「配達士」の才能があるクポね！"
-68,"TEXT_SUBPST000_01481_LETTERMOOGLE_100_019","冒険者さん、はじめまして、ありがとうクポ。
-いつでもどこでも誰にでも、ちゃっちゃか手紙をお届けする、
-レターモーグリとは、モグのことクポ！"
-69,"TEXT_SUBPST000_01481_LETTERMOOGLE_110_019","思い返すは5年前……
-空からお星さまが降ってきて、
-それはもう大変なことになったクポ。"
-70,"TEXT_SUBPST000_01481_LETTERMOOGLE_120_019","エーテライトもリンクシェルも
-みんな使えなくなって大混乱だったクポ。"
-71,"TEXT_SUBPST000_01481_LETTERMOOGLE_130_019","そんなとき、カヌ・エ様に頼まれて、
-モグがみんなに大切なお手紙を届けたクポ。"
-72,"TEXT_SUBPST000_01481_LETTERMOOGLE_140_019","森を出て見知らぬ土地を飛び回るのは怖かったけど、
-いつの間にか、旅のミリョクの虜になってしまったクポ！
-そこでモグは、「配達士」になったクポ！"
-73,"TEXT_SUBPST000_01481_LETTERMOOGLE_000_020","はっ……！！
-もしよかったら、冒険者さんも「配達士」になって、
-モグのお仕事を手伝ってみないクポ？"
-74,"TEXT_SUBPST000_01481_Q1_000_000","「配達士」になりますか？"
-75,"TEXT_SUBPST000_01481_A1_000_001","はい"
-76,"TEXT_SUBPST000_01481_A1_000_002","いいえ"
-77,"TEXT_SUBPST000_01481_LETTERMOOGLE_000_021","それは認められないクポ！
-エオルゼア中の人とお話しできるステキなお仕事クポ。
-とにかく、今からモグが「配達士」の先輩クポ！"
-78,"TEXT_SUBPST000_01481_LETTERMOOGLE_100_021","よくぞいってくれたクポ！
-じゃあ今から、モグが「配達士」の先輩クポ！"
-79,"TEXT_SUBPST000_01481_LETTERMOOGLE_000_022","(-先輩レターモーグリ-)今後、「配達士」の仕事を任せるときは、
-モグは先輩として接するから覚悟するクポ！
-何事も、ケジメが大切クポ！"
-80,"TEXT_SUBPST000_01481_LETTERMOOGLE_000_023","(-先輩レターモーグリ-)後輩君に「配達士」の仕事の依頼や指導があるときは、
-この場所にモグがいるクポ！
-見かけたら、必ず声をかけるクポ！"
-81,"TEXT_SUBPST000_01481_LETTERMOOGLE_100_023","(-先輩レターモーグリ-)普通のヒトは、モーグリ族の姿が見えないクポ！
-その点、後輩君みたいに魔法の才能があるヒトは、
-いつでもモグを見つけられるから楽ちんクポ！"
-82,"TEXT_SUBPST000_01481_LETTERMOOGLE_110_023","(-先輩レターモーグリ-)さあ、これで配達士の最初の指導は終わりクポ！
-さっそく「配達士」の初仕事に取り組むクポ～！"
-83,"TEXT_SUBPST000_01481_SYSYTEM_000_024","「配達士」クエストが受注できるようになりました。
-ブルワークホール付近の「先輩レターモーグリ」と話すと、
-手紙の配達を依頼されます。"
-84,"TEXT_SUBPST000_01481_SYSYTEM_000_025","「先輩レターモーグリ」から手紙を受け取り、
-エオルゼア各地の人に迅速確実に届けて、
-「配達士」として成長していきましょう！"
+48,"TEXT_SUBPST000_01481_KLYNTHOTA_000_000","Seven hells, are those bloody furballs blind? Skarnfrusk<Emphasis>syn</Emphasis>, not Skarnfrusk<Emphasis>wyn</Emphasis>─it's writ clear as day!"
+49,"TEXT_SUBPST000_01481_KLYNTHOTA_000_001","...Ahem, pardon me. The moogle meant no harm, I'm sure, but this marks the third time this past fortnight I've found myself in possession of a delivery intended for another."
+50,"TEXT_SUBPST000_01481_KLYNTHOTA_000_002","I do not expect all moogles to be well versed in Roegadyn naming conventions. But when they are unsure of the intended recipient, could they at least have the courtesy to <Emphasis>ask</Emphasis> before dumping it off and flitting away unseen?"
+51,"TEXT_SUBPST000_01481_KLYNTHOTA_000_003","Look closely, here: this missive is clearly marked for my brother, Ryssfloh Skarnfrusk<Emphasis>syn</Emphasis>. He makes his home in Limsa, and serves on guard duty at the Octant more often than not."
+52,"TEXT_SUBPST000_01481_KLYNTHOTA_000_004","I've a mind to send this letter right back where it came from, but my confidence in those furballs wears thin. Aye, put my trust in them, and I'd not be surprised to see the letter end up in the hands of One-eyed Hyllfyr himself!"
+53,"TEXT_SUBPST000_01481_KLYNTHOTA_000_005","Perhaps you could deliver this letter to Ryssfloh the next time your travels take you to Limsa? And tell him that though his sister would never <Emphasis>think</Emphasis> of reading his mail, she thinks he could do <Emphasis>much</Emphasis> better for himself than some vapid tavern wench."
+54,"TEXT_SUBPST000_01481_KLYNTHOTA_000_008","The letter I gave you was intended for my brother, Ryssfloh. He makes his home in Limsa, and serves on guard duty at the Octant more often than not."
+55,"TEXT_SUBPST000_01481_KLYNTHOTA_000_009","Perhaps you could deliver it to him the next time your travels take you to Limsa? And tell him that though his sister would never <Emphasis>think</Emphasis> of reading his mail, she thinks he could do <Emphasis>much</Emphasis> better for himself than some vapid tavern wench."
+56,"TEXT_SUBPST000_01481_RYSSFLOH_000_010","Well, if it ain't what's-your-face! I remember when you were just another wide-eyed whelp fresh off the boat. Reckoned this city would eat you alive, but I'm glad to see you've proven me wrong."
+57,"TEXT_SUBPST000_01481_RYSSFLOH_000_011","If you're lost, you'd best get found─and quickly. The streets of Limsa aren't known to be kind to lubbers and loiterers."
+58,"TEXT_SUBPST000_01481_RYSSFLOH_000_012","A letter for me, delivered to my <Emphasis>sister</Emphasis> of all people!? Well, isn't that just bloody brilliant! Perhaps next time those bloody furballs could just forward all of my personal correspondence to the Admiral herself─I daresay the consequences would be less dire."
+59,"TEXT_SUBPST000_01481_LETTERMOOGLE_000_013","(-???-)A hundred, a thousand─no, a hundred thousand apologies, my good sir!"
+60,"TEXT_SUBPST000_01481_LETTERMOOGLE_000_014","I am most profusely, profoundly sorry for the terrible inconvenience I have caused. You may rest assured that the offending moogle has been flogged several times with a large harbor herring as due punishment for his negligence. Kupo-ow-ow..."
+61,"TEXT_SUBPST000_01481_LETTERMOOGLE_000_015","You have my word that we delivery moogles shall redouble─retriple, even!─our efforts to ensure that no precious parcel or missive ever again goes astray. Behold, for I shall now perform for you the moogle dance of inimitable integrity!"
+62,"TEXT_SUBPST000_01481_RYSSFLOH_000_016","Settle your wings, my moogle friend─I don't believe that will be necessary. And by that I mean, for the love of the gods, just...<Emphasis>don't</Emphasis>."
+63,"TEXT_SUBPST000_01481_RYSSFLOH_100_016","Wait a bleedin' minute...am I to believe I'm talkin' to a moogle? In the flesh!? Well, if this isn't a rare occasion! Har har!"
+64,"TEXT_SUBPST000_01481_RYSSFLOH_000_017","...And Llymlaen take me if you aren't a cute little bugger! Just moments ago, I'd half a mind to wring the incompetent courier's neck─but I'm not so petty a man as to vent my frustrations on a defenseless ball of fur."
+65,"TEXT_SUBPST000_01481_RYSSFLOH_100_017","'Sides, how can I hold it against you? What with the population of the realm burgeoning of late, I'd be lyin' if I said I myself didn't have trouble keeping names and faces straight."
+66,"TEXT_SUBPST000_01481_RYSSFLOH_000_018","Anyroad, <If(PlayerParameter(4))>what's-her-face<Else/>what's-his-face</If> here was kind enough to deliver my letter, and I have your word that no more mistakes will be made. As far as I'm concerned, this is all water under the bridge."
+67,"TEXT_SUBPST000_01481_LETTERMOOGLE_000_019","Oh, you are too kind─the kindest, good sir! As for <Emphasis>you</Emphasis>, my adventuring friend, I daresay you would make a superlative delivery <Switch(PlayerParameter(71))><Case(1)>Hyur</Case><Case(2)>Elezen</Case><Case(3)>Lalafell</Case><Case(4)>Miqo'te</Case><Case(5)>Roegadyn</Case><Case(6)>Au Ra</Case><Case(7)>Hrothgar</Case><Case(8)>Viera</Case></Switch> if you put your mind to it."
+68,"TEXT_SUBPST000_01481_LETTERMOOGLE_100_019","Phew, what a relief, kupo! It would appear I owe you my thanks, tall one! But where are my manners? Allow me to introduce myself─I am a delivery moogle."
+69,"TEXT_SUBPST000_01481_LETTERMOOGLE_110_019","Oh, I know what you're thinking. “Moogles are supposed to hide in trees and avoid contact with outsiders! Why ever would they agree to carry about letters?”"
+70,"TEXT_SUBPST000_01481_LETTERMOOGLE_120_019","""Why"" indeed! If I had <Emphasis>my</Emphasis> way, I'd be curled up under the canopy of a nice oak dreaming about some beautiful mooglette with a rainbow-colored pom-pom, kupo!"
+71,"TEXT_SUBPST000_01481_LETTERMOOGLE_130_019","But <Emphasis>no</Emphasis>, the moon had to go and drop from the sky, causing all of that terrible commotion! Aetherytes were shattered and linkpearls rendered useless. For moons, the poor, wingless people of Eorzea had no way of communicating with each other.
+...Beyond screaming at the top of their lungs, that is─which no one really approved of, kupo."
+72,"TEXT_SUBPST000_01481_LETTERMOOGLE_140_019","That is, until the little horned ones asked us to assist them by delivering messages. At first we were wary of showing ourselves, worried that one of you might catch and skin us, like you do every other forest furry. But once we saw how much we were appreciated, we knew we'd found our new calling!"
+73,"TEXT_SUBPST000_01481_LETTERMOOGLE_000_020","Traveling to far-flung lands, rekindling old friendships and cultivating new ones, staying abreast of the latest happenings in the realm... Why, if there's a more fulfilling career to be had, I know not of it! So, what say you, kupo?"
+74,"TEXT_SUBPST000_01481_Q1_000_000","Do you want to be a delivery <Switch(PlayerParameter(71))><Case(1)>Hyur</Case><Case(2)>Elezen</Case><Case(3)>Lalafell</Case><Case(4)>Miqo'te</Case><Case(5)>Roegadyn</Case><Case(6)>Au Ra</Case><Case(7)>Hrothgar</Case><Case(8)>Viera</Case></Switch>, kupo?"
+75,"TEXT_SUBPST000_01481_A1_000_001","Yes"
+76,"TEXT_SUBPST000_01481_A1_000_002","No"
+77,"TEXT_SUBPST000_01481_LETTERMOOGLE_000_021","Splendid answer! You did say yes, right? My ears are covered with fur, you see. Anyhow! In recognition of your efforts on behalf of our friend Ryssfloh, I hereby waive the stringent screening examination typically administered to those who would join our ranks. Welcome aboard!"
+78,"TEXT_SUBPST000_01481_LETTERMOOGLE_100_021","Now that's the spirit! In recognition of your efforts on behalf of our friend Ryssfloh, I hereby waive the stringent screening examination typically administered to those who would join our ranks. Welcome aboard!"
+79,"TEXT_SUBPST000_01481_LETTERMOOGLE_000_022","(-Deputy Postmoogle-)I am the deputy postmoogle in charge of tutelage and training─in other words, your superior. As such, you will address me with due respect and follow each and every one of my instructions to the letter, no pun intended. Are we understood, kupo?"
+80,"TEXT_SUBPST000_01481_LETTERMOOGLE_000_023","(-Deputy Postmoogle-)Of course we are! Now, allow me to explain your duties. When you see me floating about in the vicinity of where we now stand, you may take this as a sign I have one or more letters that I cannot be bother─er, that I have deemed suitable for your training."
+81,"TEXT_SUBPST000_01481_LETTERMOOGLE_100_023","(-Deputy Postmoogle-)Approach me and declare your readiness for the task, and I will entrust one of said letters to you, along with directions for its delivery. And so your journey begins, kupo!"
+82,"TEXT_SUBPST000_01481_LETTERMOOGLE_110_023","(-Deputy Postmoogle-)Mind you, until you prove yourself, I will be overseeing all your deliveries to ensure that you do not shirk or slack in your duties. Not that a dutiful delivery <Switch(PlayerParameter(71))><Case(1)>Hyur</Case><Case(2)>Elezen</Case><Case(3)>Lalafell</Case><Case(4)>Miqo'te</Case><Case(5)>Roegadyn</Case><Case(6)>Au Ra</Case><Case(7)>Hrothgar</Case><Case(8)>Viera</Case></Switch> like you would even consider such a thing, yes?"
+83,"TEXT_SUBPST000_01481_SYSYTEM_000_024","You are now able to undertake delivery quests. To review available quests and accept an assignment, speak with the deputy postmoogle at the Octant."
+84,"TEXT_SUBPST000_01481_SYSYTEM_000_025","Upon accepting the quest, you will be entrusted with a letter or package addressed to a prominent Eorzean. Deliver it with swiftness and accuracy, and earn a name for yourself as one of the most trusted carriers in the realm!"

@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB614_01310_SEQ_00","チョコボ厩務員のマーコリンは、冒険者に伝えたいことがあるようだ。"
-1,"TEXT_GAIUSB614_01310_SEQ_01","マーコリンは、この辺りにいる酒保商人が雪投げをしている姿を目撃したそうだ。アドネール占星台にいる酒保商人の「ドゥビコロワ」と話そう。"
-2,"TEXT_GAIUSB614_01310_SEQ_02","ドゥビコロワは、寒さをしのぐために雪投げをしていたらしい。彼は雪を投げる準備として、冒険者にエモート「投げる」を教えてくれた。"
+0,"TEXT_GAIUSB614_01310_SEQ_00","Torn between curiosity and scorn, Maucolyn would report an odd sighting."
+1,"TEXT_GAIUSB614_01310_SEQ_01","Maucolyn has recently observed a local trader capering in the cold, tossing snowballs in what the dour chocobokeep assumes to be a fit of hypothermic hysteria. Speak with this trader, Duvicauroix, and inquire as to his well-being."
+2,"TEXT_GAIUSB614_01310_SEQ_02","Happily, there proves to be a method to Duvicauroix's madness. The trader asserts that playing in the snow can warm the body and heart on a cold winter's day more so than even a fire, and teaches you how to /throw a snowball as the first step toward mastering this invigorating form of play..."
 3,"TEXT_GAIUSB614_01310_SEQ_03",""
 4,"TEXT_GAIUSB614_01310_SEQ_04",""
 5,"TEXT_GAIUSB614_01310_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_GAIUSB614_01310_SEQ_21",""
 22,"TEXT_GAIUSB614_01310_SEQ_22",""
 23,"TEXT_GAIUSB614_01310_SEQ_23",""
-24,"TEXT_GAIUSB614_01310_TODO_00","ドゥビコロワと話す"
+24,"TEXT_GAIUSB614_01310_TODO_00","Speak with Duvicauroix."
 25,"TEXT_GAIUSB614_01310_TODO_01",""
 26,"TEXT_GAIUSB614_01310_TODO_02",""
 27,"TEXT_GAIUSB614_01310_TODO_03",""
@@ -49,23 +49,11 @@ int32,str,str
 45,"TEXT_GAIUSB614_01310_TODO_21",""
 46,"TEXT_GAIUSB614_01310_TODO_22",""
 47,"TEXT_GAIUSB614_01310_TODO_23",""
-48,"TEXT_GAIUSB614_01310_MAUCOLYN_000_000","ちょっと聞いてくれよ……。
-この前、雪だるまに向かって、雪玉を投げてる奴がいてな。
-しかも汗をかくほど一生懸命にさ。"
-49,"TEXT_GAIUSB614_01310_MAUCOLYN_000_001","こんな極寒の場所で、必死に雪玉を投げるだなんて、
-何か意味があってのことなのかねェ。
-それとも、寒さにやられちまったかなァ……。"
-50,"TEXT_GAIUSB614_01310_MAUCOLYN_000_002","まぁ、オレには関係ないことだ。
-気になるってんなら、本人に聞いてみるといいさ。"
-51,"TEXT_GAIUSB614_01310_MAUCOLYN_000_003","奴は「ドゥビコロワ」っていう酒保商人だ。
-この辺りにいるだろうから、すぐに会えるだろうよ。"
-52,"TEXT_GAIUSB614_01310_DUVICAUROIX_000_010","うん？　オレに用事か？
-……なんで雪だるまに雪玉を投げていたかって？
-ああ、「雪投げ」を見られていたのか。"
-53,"TEXT_GAIUSB614_01310_DUVICAUROIX_000_011","雪玉を投げると、いい運動になるんだよ。
-体は温まるし、気分も晴れ晴れとするんだ。
-別に、寒さにやられちまったわけじゃないさ。"
-54,"TEXT_GAIUSB614_01310_DUVICAUROIX_000_012","なんなら、アンタにも「雪投げ」を教えてやろうか？
-投げ方を覚えちまえば、すぐにできる。
-そうだな……まずは「投げる」ことから覚えないとな。"
-55,"TEXT_GAIUSB614_01310_SYSTEM_000_300","エモートアクション「投げる」を覚えた！"
+48,"TEXT_GAIUSB614_01310_MAUCOLYN_000_000","I can't see as how I oughta care, but I saw a fella out throwin' snowballs at a snowman. Why anyone'd engage in such japery in the cold, I can't rightly say."
+49,"TEXT_GAIUSB614_01310_MAUCOLYN_000_001","Went nut gatherin' and lost more'n he found, is my guess. Ye better make sure that don't happen to <Emphasis>you</Emphasis>, <If(PlayerParameter(4))>lass<Else/>lad</If>. Not that I know precisely <Emphasis>what</Emphasis> happened, mind ye."
+50,"TEXT_GAIUSB614_01310_MAUCOLYN_000_002","What's that? Me? <Emphasis>Ask</Emphasis>? I got my chocobos to see to. If Duvicauroix wants to upend his head soup on the snow, I can't see what business o' mine it'd be."
+51,"TEXT_GAIUSB614_01310_MAUCOLYN_000_003","Yep, that's his name─Duvicauroix. I don't know, he sells things, goes places. Don't seem like no kind o' life to me, beggin' pardon. Ye want to see him, I reckon he's somewhere about."
+52,"TEXT_GAIUSB614_01310_DUVICAUROIX_000_010","Walking softly, eh, adventurer? Those around here think I'm winter–drunk, I'll wager. Hah! Never seen a snow–toss before, the lazy by–blows."
+53,"TEXT_GAIUSB614_01310_DUVICAUROIX_000_011","Sit on your arse in front of a poor fire too long, and soon you got the swivin' white–knuckles. You'll sleep the better for tossing snowballs, without needing Lady Mead or Mistress Ale to sing the lullaby."
+54,"TEXT_GAIUSB614_01310_DUVICAUROIX_000_012","What do you say, eh? Why not give it a try? It's as simple as you'd imagine. Just reach on down, grab some of the powdery white, and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>throw<UIGlow>01</UIGlow><UIForeground>01</UIForeground>!"
+55,"TEXT_GAIUSB614_01310_SYSTEM_000_300","You have learned the emote <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Throw<UIGlow>01</UIGlow><UIForeground>01</UIForeground>!"

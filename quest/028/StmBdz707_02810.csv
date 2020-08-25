@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ707_02810_SEQ_00","烈士庵のモトジロは、冒険者にお願いしたいことがあるようだ。"
+0,"TEXT_STMBDZ707_02810_SEQ_00","Motojiro has the look of a man with a heavy heart."
 1,"TEXT_STMBDZ707_02810_SEQ_01",""
 2,"TEXT_STMBDZ707_02810_SEQ_02",""
 3,"TEXT_STMBDZ707_02810_SEQ_03",""
@@ -25,9 +25,8 @@ int32,str,str
 21,"TEXT_STMBDZ707_02810_SEQ_21",""
 22,"TEXT_STMBDZ707_02810_SEQ_22",""
 23,"TEXT_STMBDZ707_02810_SEQ_23",""
-24,"TEXT_STMBDZ707_02810_TODO_00","<Sheet(BNpcName,5768,0)/>を討伐し、
-おびき寄せた<Sheet(BNpcName,5939,0)/>に<Sheet(EventItem,2002305,0)/>を使い討伐"
-25,"TEXT_STMBDZ707_02810_TODO_01","モトジロに報告"
+24,"TEXT_STMBDZ707_02810_TODO_00","Defeat magatsu kiyofusa to draw out a reinforced kiyofusa and defeat it with armormelt."
+25,"TEXT_STMBDZ707_02810_TODO_01","Report to Motojiro."
 26,"TEXT_STMBDZ707_02810_TODO_02",""
 27,"TEXT_STMBDZ707_02810_TODO_03",""
 28,"TEXT_STMBDZ707_02810_TODO_04",""
@@ -50,38 +49,18 @@ int32,str,str
 45,"TEXT_STMBDZ707_02810_TODO_21",""
 46,"TEXT_STMBDZ707_02810_TODO_22",""
 47,"TEXT_STMBDZ707_02810_TODO_23",""
-48,"TEXT_STMBDZ707_02810_MOTOJIRO_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>様。
-よろしければ、私の願いを聞いていただけませんか？"
-49,"TEXT_STMBDZ707_02810_MOTOJIRO_000_001","その願いとは、ほかでもありません。
-我が子らを……討伐していただきたいのです。"
-50,"TEXT_STMBDZ707_02810_MOTOJIRO_000_002","言い方が、悪うございました。
-我が子とは、「<Sheet(BNpcName,5768,0)/>」のこと。
-ドマ防衛のため、我ら人形師が造った、からくり兵でございます。"
-51,"TEXT_STMBDZ707_02810_MOTOJIRO_000_003","からくり兵たちは、帝国軍相手に奮戦したのですが、
-ドマが敗れた後、武器ともども接収されてしまいました。
-いずれ廃棄されるのだろう……我々は、そう考えておりました。"
-52,"TEXT_STMBDZ707_02810_MOTOJIRO_000_004","しかし、代理総督のヨツユめは<Sheet(BNpcName,5768,0)/>を、
-門前侍町を破壊するために投入してきたのです……！"
-53,"TEXT_STMBDZ707_02810_MOTOJIRO_000_005","ドマを守るために生まれた子らが、
-守るべき街並みの破壊を命じられる……。
-これ以上ない、残酷な仕打ちといえましょう。"
-54,"TEXT_STMBDZ707_02810_MOTOJIRO_000_006","そこで貴方様に、「門前侍町」で破壊を続ける我が子らを、
-倒していただきたいのです。"
-55,"TEXT_STMBDZ707_02810_MOTOJIRO_000_007","ただ、<Sheet(BNpcName,5768,0)/>を倒していると現れる、
-ひときわ大きな「<Sheet(BNpcName,5939,0)/>」には、
-注意してかかってください。"
-56,"TEXT_STMBDZ707_02810_MOTOJIRO_000_008","特別な鋼で鎧われているため、力押しで倒すのは骨が折れますが、
-この「<Sheet(EventItem,2002305,0)/>」を使って装甲を脆くすれば、必ず破壊できるはず。
-どうか、よろしくお願いいたします……！"
-57,"TEXT_STMBDZ707_02810_MOTOJIRO_000_009","（★未使用／削除予定★）"
-58,"TEXT_STMBDZ707_02810_MOTOJIRO_000_020","我が子らを倒していただき、ありがとうございました。
-あの<Sheet(BNpcName,5939,0)/>は、今は亡き我が父の、最後の作でした。"
-59,"TEXT_STMBDZ707_02810_MOTOJIRO_000_021","父が精魂込めて造ったキヨフサたちが、
-亡霊のように彷徨い続けている姿は忍びなかったですが、
-これで、気持ちにひとつの区切りがつきました。"
-60,"TEXT_STMBDZ707_02810_MOTOJIRO_000_022","人形師として、私には今、やらねばならぬことがあります。
-……それは、真の意味でドマを守る、からくり兵を造ること。"
-61,"TEXT_STMBDZ707_02810_MOTOJIRO_000_023","時間はかかるやもしれませぬが、必ずや成し遂げてみせます。
-重ね重ね、ありがとうございました。
-すべての人形師に代わり、お礼を申し上げます。"
-62,"TEXT_STMBDZ707_02810_MOTOJIRO_000_024","（★未使用／削除予定★）"
+48,"TEXT_STMBDZ707_02810_MOTOJIRO_000_000","My <If(PlayerParameter(4))>lady<Else/>lord</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, I have a favor to ask of you."
+49,"TEXT_STMBDZ707_02810_MOTOJIRO_000_001","I need you...to slay my children."
+50,"TEXT_STMBDZ707_02810_MOTOJIRO_000_002","Ah, mine apologies for the poor choice of words. When I say my children, I mean my creations, the automata known as magatsu kiyofusa."
+51,"TEXT_STMBDZ707_02810_MOTOJIRO_000_003","We created them to defend Doma, but though they fought fiercely, in the end we were no match for the might of Garlemald."
+52,"TEXT_STMBDZ707_02810_MOTOJIRO_000_004","After our defeat, I feared that my children would be destroyed...but a far worse fate awaited them. For to my horror, they were sent to lay waste to Monzen!"
+53,"TEXT_STMBDZ707_02810_MOTOJIRO_000_005","To be forced to turn against those whom they were made to protect... I cannot imagine a crueler existence."
+54,"TEXT_STMBDZ707_02810_MOTOJIRO_000_006","If you can comprehend my pain as a parent, I ask that you end both my children's suffering and the destruction they wreak."
+55,"TEXT_STMBDZ707_02810_MOTOJIRO_000_007","But beware, for among the magatsu kiyofusa there is one that is bigger and mightier than the rest, that is clad in reinforced armor."
+56,"TEXT_STMBDZ707_02810_MOTOJIRO_000_008","With your skills, I do not doubt that you could defeat it, but there is an easier way. This flask contains a concoction called armormelt. Use it to weaken your opponent's armor, and it shouldn't pose any threat."
+57,"TEXT_STMBDZ707_02810_MOTOJIRO_000_009",""
+58,"TEXT_STMBDZ707_02810_MOTOJIRO_000_020","You have ended my children's suffering? I am in your debt."
+59,"TEXT_STMBDZ707_02810_MOTOJIRO_000_021","The armormelt I gave you─it was my father's final invention before he died. His were the hands that first forged the magatsu kiyofusa, and the sight of them wreaking mindless destruction haunted him to his dying breath. But thanks to you, he may now know peace in the realm yonder."
+60,"TEXT_STMBDZ707_02810_MOTOJIRO_000_022","Though our last creations were turned against us, we cannot let ourselves be disheartened. Nay, such knowledge as we possess, we must ever apply for the good of Doma."
+61,"TEXT_STMBDZ707_02810_MOTOJIRO_000_023","It may take time, but I will create new automata, stronger and better than before, to defend our fair nation. This I swear on my father's grave."
+62,"TEXT_STMBDZ707_02810_MOTOJIRO_000_024",""

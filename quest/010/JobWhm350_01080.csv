@@ -1,12 +1,12 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_JOBWHM350_01080_SEQ_00","キャンプ・トランキルのラヤ・オ・センナは冒険者にやらせたいことがあるようだ。"
-1,"TEXT_JOBWHM350_01080_SEQ_01","ラヤ・オ・センナから依頼を受けた。中央森林のスカンポの安息所にある樹の「<Sheet(EObj,2002392,0)/>」を鎮めよう。"
-2,"TEXT_JOBWHM350_01080_SEQ_02","スカンポの安息所にある、怒りに囚われた樹を鎮めた。南部森林のキャンプ・トランキルにいる「ラヤ・オ・センナ」に報告しよう。"
-3,"TEXT_JOBWHM350_01080_SEQ_03","ラヤ・オ・センナに報告した。精霊が怒りに囚われることと、黒衣森の乱れには密接な関係があると彼女は語った。その乱れを癒すための存在が白魔道士であり、角尊であるかどうかは関係ないというが、それを受け入れることのできない弟ア・ルン・センナのことを心配しているようだ。ア・ルン・センナに認めてもらえるよう、白魔道士として修業に励もう。
+0,"TEXT_JOBWHM350_01080_SEQ_00","Raya–O–Senna would teach you to commune with the elementals."
+1,"TEXT_JOBWHM350_01080_SEQ_01","The process of pacifying ireful trees involves communing with the elementals that dwell within, such that a state of harmony might be restored. As the next stage of your training as a white mage, Raya–O–Senna would have you pacify a small tree in the northwest area of Sorrel Haven."
+2,"TEXT_JOBWHM350_01080_SEQ_02","You have attuned yourself with the elementals and soothed the tree's anger. Inform Raya–O–Senna of your success."
+3,"TEXT_JOBWHM350_01080_SEQ_03","According to Raya–O–Senna, the unrest that has come to the Twelveswood is a manifestation of the elementals' fury. Soothing their anger and restoring harmony to the forest is the duty of the white mage─a duty she feels transcends race or nation. She would ask that you continue to hone your skills while she thinks of a way to persuade her brother, A–Ruhn–Senna, that you are the right <If(PlayerParameter(4))>woman<Else/>man</If> for the job.
 
-※白魔道士のレベルが40以上になると、ラヤ・オ・センナから次の白魔道士クエストを受注することができます。"
+※The next white mage quest will be available from Raya–O–Senna upon reaching level 40."
 4,"TEXT_JOBWHM350_01080_SEQ_04",""
 5,"TEXT_JOBWHM350_01080_SEQ_05",""
 6,"TEXT_JOBWHM350_01080_SEQ_06",""
@@ -27,8 +27,8 @@ int32,str,str
 21,"TEXT_JOBWHM350_01080_SEQ_21",""
 22,"TEXT_JOBWHM350_01080_SEQ_22",""
 23,"TEXT_JOBWHM350_01080_SEQ_23",""
-24,"TEXT_JOBWHM350_01080_TODO_00","スカンポの安息所の<Sheet(EObj,2002392,0)/>を鎮める"
-25,"TEXT_JOBWHM350_01080_TODO_01","キャンプ・トランキルのラヤ・オ・センナに報告"
+24,"TEXT_JOBWHM350_01080_TODO_00","Quell the anger of a tree in Sorrel Haven."
+25,"TEXT_JOBWHM350_01080_TODO_01","Report to Raya–O–Senna."
 26,"TEXT_JOBWHM350_01080_TODO_02",""
 27,"TEXT_JOBWHM350_01080_TODO_03",""
 28,"TEXT_JOBWHM350_01080_TODO_04",""
@@ -51,46 +51,21 @@ int32,str,str
 45,"TEXT_JOBWHM350_01080_TODO_21",""
 46,"TEXT_JOBWHM350_01080_TODO_22",""
 47,"TEXT_JOBWHM350_01080_TODO_23",""
-48,"TEXT_JOBWHM350_01080_RAYAOSENNA_000_000","へぇ……前より白魔道士らしい顔つきになってる。
-でもまだまだ、今のあんたは雛チョコボみたいなものよ？
-「鎮撫の儀」までに覚えること、いっぱいあるんだから。"
-49,"TEXT_JOBWHM350_01080_RAYAOSENNA_000_001","そもそも、儀式をするためには、
-まず精霊と交感できるようにならないとね。"
-50,"TEXT_JOBWHM350_01080_RAYAOSENNA_000_002","ちょうど、「スカンポの安息所」の近くに、
-「長老の木」ほどの大きさではないけど、
-怒りに囚われた樹があるのよ。"
-51,"TEXT_JOBWHM350_01080_RAYAOSENNA_000_003","この樹の精霊を鎮め、癒してあげてほしいの。
-樹に向かって手を掲げ、精霊の心と直接、交感するのよ。"
-52,"TEXT_JOBWHM350_01080_RAYAOSENNA_000_004","その時、もしかしたら……
-精霊の怒りが、魔物を喚んでしまうかもしれないわ。
-でも、恐れないで<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。"
-53,"TEXT_JOBWHM350_01080_RAYAOSENNA_000_005","まずは魔物を追いはらい、
-心を落ち着けて、樹の精霊と交感すれば……
-必ず怒りに囚われた心を鎮め、癒せるはずだから。"
-54,"TEXT_JOBWHM350_01080_RAYAOSENNA_000_006","あたしたち白魔道士の力は、癒しのための力よ。
-そのことを、決して忘れないで。"
-55,"TEXT_JOBWHM350_01080_RAYAOSENNA_000_010","……さっき、精霊の怒気が、ひとつ減ったのを感じたわ。
-見事にやり遂げたようね、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。"
-56,"TEXT_JOBWHM350_01080_RAYAOSENNA_000_011","精霊と交感して、その心を癒したことでわかったろうけど、
-黒衣森と精霊ってね、分けられないものなのよ。"
-57,"TEXT_JOBWHM350_01080_RAYAOSENNA_000_012","今、黒衣森がおかしくなっているのも同じ……！
-本来なら少し森が傷ついても、精霊たちが調和を保つの。
-でも、精霊が怒りに囚われれば「敵」を排除しようとする。"
-58,"TEXT_JOBWHM350_01080_RAYAOSENNA_000_013","「敵」とは、森にとっての異物……人もその内に含むのよ。
-だからこそ、長老の木に棲まう大精霊を鎮めなくては！
-私たち、白魔道士がね。"
-59,"TEXT_JOBWHM350_01080_RAYAOSENNA_000_014","そこには、種族や部族の違いなんて関係がないのよ。
-精霊と交感し、森を癒す……癒し手として、
-純粋にその「力」だけが求められるの。"
-60,"TEXT_JOBWHM350_01080_RAYAOSENNA_000_015","……そこら辺、ア・ルンにもわかってほしいのよね。
-まったくあの子ってば、二十歳にもなろうっていうのに、
-伝統に縛られて、アッタマが固いんだから……。"
-61,"TEXT_JOBWHM350_01080_RAYAOSENNA_000_016","そりゃ、「角尊」としての立場やプライドにこだわる
-ア・ルンの気持ちはわかるわよ……？"
-62,"TEXT_JOBWHM350_01080_RAYAOSENNA_000_017","でも実際問題、それじゃ解決できない問題はあるんだもの。
-そろそろ、あの子にも納得してもらわないと……。"
-63,"TEXT_JOBWHM350_01080_RAYAOSENNA_000_018","……よし、少し時間をくれる？
-あんたのことをア・ルンが認められるように、
-ちょっと方法を考えてみるわ。"
-64,"TEXT_JOBWHM350_01080_POP_MESSAGE","敵の気配を感じた！！"
-65,"TEXT_JOBWHM350_01080_ACCESS_MESSAGE","その行動は出現した敵を倒さないと実行できません"
+48,"TEXT_JOBWHM350_01080_RAYAOSENNA_000_000","Ah, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Looking ever more the white mage, I see. And yet, I fear you are as ready to perform the Quieting as a chocobo chick is to carry a Wood Wailer clad in full plate."
+49,"TEXT_JOBWHM350_01080_RAYAOSENNA_000_001","But take heart, for we all must begin somewhere. Today, I would teach you the art of communing with the elementals. This is, by any measure, the very foundation of our art, the means by which we preserve harmony between the forest and our people."
+50,"TEXT_JOBWHM350_01080_RAYAOSENNA_000_002","Not far from Sorrel Haven you shall find a tree─a mere sapling in the shadow of the Guardian Tree, but one that has likewise been consumed by anger and fear."
+51,"TEXT_JOBWHM350_01080_RAYAOSENNA_000_003","I would ask you to placate this tree. The process is quite simple: stand before the tree and raise your hands. Commune with the elementals that reside within, and attune yourself to them, until your feelings are in absolute harmony."
+52,"TEXT_JOBWHM350_01080_RAYAOSENNA_000_004","Be forewarned, however: an angry elemental can be as stubborn as my dear brother. Do not be surprised if you find your honest plea rebuffed, and foul creatures sent to drive you from the forest."
+53,"TEXT_JOBWHM350_01080_RAYAOSENNA_000_005","No matter what happens, you must remain calm. Dispatch the creatures, settle your heart, and speak to the tree once more. If your heart is true, your voice will reach the elemental ere long."
+54,"TEXT_JOBWHM350_01080_RAYAOSENNA_000_006","Remember this, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>: under no circumstances must you allow your anger and fear to overcome you. As practitioners of white magic─the magic of succor and solace─such emotions are anathema to our very existence."
+55,"TEXT_JOBWHM350_01080_RAYAOSENNA_000_010","A short while ago, I sensed a great anger abate. The forest is quieter, more welcoming now. It would seem you have passed your first test, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
+56,"TEXT_JOBWHM350_01080_RAYAOSENNA_000_011","The trees are the elementals, the elementals are the trees─the lush verdure of the wood is inseparable from the spirits that dwell within it. But you do not need to hear this from me. Doubtless you felt it for yourself, when you healed that tree."
+57,"TEXT_JOBWHM350_01080_RAYAOSENNA_000_012","Above all else, the elementals prize harmony. When they sense a threat to harmony, they summon forth all the powers at their disposal to expulse it."
+58,"TEXT_JOBWHM350_01080_RAYAOSENNA_000_013","For so long have we lived in peace with the elementals. Why, now, do they turn against us? I can offer no answers, only theories. But one thing is certain─we must quell the great one's fury, and do it soon, lest Gridania bear the full brunt of the forest's wrath."
+59,"TEXT_JOBWHM350_01080_RAYAOSENNA_000_014","To soothe the forest's wounds, and restore harmony─that is our duty as mages of the white, and it is a responsibility that transcends race or nation."
+60,"TEXT_JOBWHM350_01080_RAYAOSENNA_000_015","I sensed your success in soothing the ailing tree, and am more certain of this than ever. Sadly, many cannot see past established practice and tradition─my dear brother among them."
+61,"TEXT_JOBWHM350_01080_RAYAOSENNA_000_016","One would hope for a bit more open-mindedness given his youth, but alas, his pride as a Padjal will not permit it."
+62,"TEXT_JOBWHM350_01080_RAYAOSENNA_000_017","For my part, I am not entirely unsympathetic to his concerns. And yet, the task before us is too great. We must bring him around to see reason...but how?"
+63,"TEXT_JOBWHM350_01080_RAYAOSENNA_000_018","Forgive me, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I would be alone with my thoughts for a while. Worry not─I will find a way to deal with A–Ruhn."
+64,"TEXT_JOBWHM350_01080_POP_MESSAGE","You sense a hostile presence!"
+65,"TEXT_JOBWHM350_01080_ACCESS_MESSAGE","The enemy is still about!"

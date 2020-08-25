@@ -1,14 +1,14 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_JOBNIN520_01684_SEQ_00","船着場の平屋のオボロに、アカギからの連絡が来たようだ。"
-1,"TEXT_JOBNIN520_01684_SEQ_01","オボロに届いたアカギからの連絡によると、ユキが猟犬同盟の拠点へ侵入するつもりらしい。高地ラノシアのメメルン交易商店にいる「アカギ」と話そう。"
-2,"TEXT_JOBNIN520_01684_SEQ_02","アカギから事情を聞いている最中、ユキは黙って猟犬同盟の拠点へ向かってしまった。彼女のために、陽動を行うしかなさそうだ。高地ラノシアのプアメイドミル付近にある「<Sheet(EObj,2005925,0)/>」に「<Sheet(EventItem,2001723,0)/>」を使い現れた敵を討伐しよう。"
-3,"TEXT_JOBNIN520_01684_SEQ_03","陽動に成功した。プアメイドミル付近の「オボロ」と話そう。"
-4,"TEXT_JOBNIN520_01684_SEQ_04","ユキは無事に侵入を果たし、家宝の情報を得ることができた。しかし、彼女は冒険者たちの陽動に、まったく気がついていなかった……。船着場の平屋の「オボロ」と話そう。"
-5,"TEXT_JOBNIN520_01684_SEQ_05","瞑想によって、忍者の新たな境地に開眼した。これに満足することなく己を鍛えつつ、アカギからの連絡を待とう。
+0,"TEXT_JOBNIN520_01684_SEQ_00","Oboro has received a missive from Akagi."
+1,"TEXT_JOBNIN520_01684_SEQ_01","Akagi's letter is a call to action: Princess Yuki is attempting to breach a Salthound base, and may have need of your help. Find out how you might be able to from the retainer, who is waiting near Memeroon's Trading Post in upper La Noscea."
+2,"TEXT_JOBNIN520_01684_SEQ_02","Unsurprisingly, the princess is displeased to see you, and has little to say about your offer of assistance. Akagi, meanwhile, all too gladly explains that the Salthounds are in possession of a trading record that is passing through the black markets. Somewhere within this log, he says, there should be information on the Yatsurugi clan's stolen treasures. After this explanation, the retainer then turns to ask Yuki to use you shinobi, only to find that she has already left to infiltrate the base. Oboro quickly outlines a plan to aid her entry: use smoke bombs to distract the guards. Make your way to the designated areas, and defeat any guards attracted by your diversion."
+3,"TEXT_JOBNIN520_01684_SEQ_03","Your role in diverting the guards' attention has succeeded. Rendezvous with Oboro and Akagi near Poor Maid's Mill to see how they have fared."
+4,"TEXT_JOBNIN520_01684_SEQ_04","After a brief moment of panic, you turn to see that the puissant princess has already successfully infiltrated the base and returned with the prize. For better or worse, she did not notice the part you played from the shadows. Return to the dock storehouse, and consult with Oboro."
+5,"TEXT_JOBNIN520_01684_SEQ_05","Though you failed to win over the princess, Oboro nevertheless thinks the day a success. He asks that you now devote yourself to quiet meditation, wherein you might realize new skills and strategies based upon your experiences.
 
-※忍者のレベルが54以上になると、船着場の平屋のオボロから次の忍者クエストを受注することができます。"
+※The next ninja quest will be available from Oboro upon reaching level 54."
 6,"TEXT_JOBNIN520_01684_SEQ_06",""
 7,"TEXT_JOBNIN520_01684_SEQ_07",""
 8,"TEXT_JOBNIN520_01684_SEQ_08",""
@@ -27,10 +27,10 @@ int32,str,str
 21,"TEXT_JOBNIN520_01684_SEQ_21",""
 22,"TEXT_JOBNIN520_01684_SEQ_22",""
 23,"TEXT_JOBNIN520_01684_SEQ_23",""
-24,"TEXT_JOBNIN520_01684_TODO_00","メメルン交易商店前のアカギと話す"
-25,"TEXT_JOBNIN520_01684_TODO_01","<Sheet(EObj,2005925,0)/>に<Sheet(EventItem,2001723,0)/>を使い現れた敵を討伐"
-26,"TEXT_JOBNIN520_01684_TODO_02","プアメイドミル付近のオボロと話す"
-27,"TEXT_JOBNIN520_01684_TODO_03","船着場の平屋のオボロと話す"
+24,"TEXT_JOBNIN520_01684_TODO_00","Speak with Akagi at Memeroon's Trading Post."
+25,"TEXT_JOBNIN520_01684_TODO_01","Throw smoke bombs at the designated spots and dispatch foes."
+26,"TEXT_JOBNIN520_01684_TODO_02","Speak with Oboro near Poor Maid's Mill."
+27,"TEXT_JOBNIN520_01684_TODO_03","Speak with Oboro at the dock storehouse."
 28,"TEXT_JOBNIN520_01684_TODO_04",""
 29,"TEXT_JOBNIN520_01684_TODO_05",""
 30,"TEXT_JOBNIN520_01684_TODO_06",""
@@ -51,82 +51,38 @@ int32,str,str
 45,"TEXT_JOBNIN520_01684_TODO_21",""
 46,"TEXT_JOBNIN520_01684_TODO_22",""
 47,"TEXT_JOBNIN520_01684_TODO_23",""
-48,"TEXT_JOBNIN520_01684_OBORO_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、来たか。
-さっそくアカギ殿から文がござった。
-……ユキ姫が、猟犬同盟の拠点に侵入しようとしているらしい。"
-49,"TEXT_JOBNIN520_01684_OBORO_000_001","至急、助けにきてほしいそうだ。
-アカギ殿は、メメルン交易商店の近くで待つと書いてある。
-さっそく向かおうではないか。"
-50,"TEXT_JOBNIN520_01684_OBORO_000_010","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、忍びとしての務めを果たすのだぞ。"
-51,"TEXT_JOBNIN520_01684_YUKI_000_010","……いったい、何をしにきたのだ。"
-52,"TEXT_JOBNIN520_01684_OBORO_000_015","さあ、アカギ殿に事情を聞いてみよう。"
-53,"TEXT_JOBNIN520_01684_AKAGI_000_030","やあ、来てくれたのかい！
-今か今かと待ちわびていたよ！
-姫様を半刻と同じ場所に留めておくのも一仕事でねぇ。"
-54,"TEXT_JOBNIN520_01684_YUKI_000_031","アカギが待てと言うから、何かと思えば……。
-不要なことはするなと言っただろう？
-……俺は忍びなんて頼らん、帰れ。"
-55,"TEXT_JOBNIN520_01684_OBORO_000_032","まあまあ、ここまで来たのだ。
-用件くらい聞かせてもらってもよいでござろう。"
-56,"TEXT_JOBNIN520_01684_AKAGI_000_033","ああ、是非ことの経緯を聞いてくれ！
-残りの家宝について調べてわかったんだが、
-それらしき品が、闇市場で売りにかけられているようなんだ。"
-57,"TEXT_JOBNIN520_01684_AKAGI_000_034","そんで、「猟犬同盟」とかいう海賊崩れのはみ出しモンが、
-闇市場に手を出していて、販売目録を持っているんだとか……。
-目録を見れば、残りふたつの家宝の行方がわかるかもしれない。"
-58,"TEXT_JOBNIN520_01684_AKAGI_000_035","だから、なんとしてでも手に入れるって、
-姫様がひとりで敵陣に飛び込もうとしてるのさ……。
-なんとか止めてくれねぇか？"
-59,"TEXT_JOBNIN520_01684_AKAGI_000_036","あーーーーっ！　またひとりで行きやがった！
-まったく、本当に敏捷いお姫様だよ！！"
-60,"TEXT_JOBNIN520_01684_OBORO_000_037","ユキ姫がひとりで行くと決めたのならば、仕方がない。
-潜入が滞りなく進むよう、縁の下の力持ちとなろう。
-私も手伝うさ。"
-61,"TEXT_JOBNIN520_01684_OBORO_000_038","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、この「秘製の煙玉」を持て。
-敵の拠点の近くで使えば、警戒にあたっている者が現れよう。
-その者共を倒せば、ユキ姫の潜入が楽になるはずだ。"
-62,"TEXT_JOBNIN520_01684_AKAGI_000_039","な、なるほど、陽動作戦か……。
-俺……こう見えて、めちゃくちゃ臆病なんだけど……
-それくらいなら手伝えるぜ！"
-63,"TEXT_JOBNIN520_01684_OBORO_000_040","……では、アカギ殿は東を頼む、私は北側に行く。
-すべて終わったら、プアメイドミルの南東で集まるぞ。"
-64,"TEXT_JOBNIN520_01684_MONSTERA01684_000_041","何者だ！？"
-65,"TEXT_JOBNIN520_01684_MONSTERB01684_000_042","何の音だ！？"
-66,"TEXT_JOBNIN520_01684_MONSTERC01684_000_043","侵入者はお前か！"
-67,"TEXT_JOBNIN520_01684_AKAGI_000_050","やれやれ、陽動とはいえ怖かったぜ……。"
-68,"TEXT_JOBNIN520_01684_OBORO_000_100","……さて、できるだけのことはした。
-ユキ姫も安全に侵入できているはずだろう。"
-69,"TEXT_JOBNIN520_01684_MONSTER01684_000_101","ヘ……へへ……安全に侵入……？
-馬鹿め……警備は減ったが、まだ番犬が残ってる……。
-……侵入者も、貴様らも、番犬が噛み殺してくれるわ！"
-70,"TEXT_JOBNIN520_01684_OBORO_000_102","何だと……！？
-<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、すぐに中に向かおう！！"
-71,"TEXT_JOBNIN520_01684_YUKI_000_103","(-聞き覚えのある声-)……なんだ、まだいたのか。
-闇市場の販売目録なら、もう手に入れたぞ？"
-72,"TEXT_JOBNIN520_01684_YUKI_100_103","残る家宝……宝珠「翡翠蘭（ひすいらん）」と、
-短刀「乱光包（みだれみつかね）」の情報も載っていた。"
-73,"TEXT_JOBNIN520_01684_YUKI_200_103","どうやら、「翡翠蘭」はすでに売約済みのようだが、
-買い手を追えば、なんとか見つけることができそうだ。
-「乱光包」は……ふむ、次の闇市で売りに出されるようだな。"
-74,"TEXT_JOBNIN520_01684_OBORO_000_104","おお、ユキ姫……無事でござったか！
-番犬には出会わずにすんだのか？"
-75,"TEXT_JOBNIN520_01684_YUKI_000_105","……番犬？
-ああ……あいつらのことかい？"
-76,"TEXT_JOBNIN520_01684_OBORO_000_106","…………これは、ユキ姫が？"
-77,"TEXT_JOBNIN520_01684_AKAGI_000_107","……ユキ姫は、「井ノ国」でも随一の手練だ。
-武道の鍛錬にのめり込み、忍術にまで手を出されてな……。
-終いにゃ、指南役の腕すら凌駕しちまったくらいさ。"
-78,"TEXT_JOBNIN520_01684_YUKI_000_108","フッフッフ、わかっただろう？
-だから、俺はお前らの手助けなんていらぬのだ！！
-俺が、すべての家宝を取り戻すのだからな！"
-79,"TEXT_JOBNIN520_01684_AKAGI_000_109","はぁ……少しは、ご自分の立場をわかってほしいもんだ。
-つーわけで、またなんかあったら頼むよ。
-今みたいな感じだったら、姫様も気づかないみたいだしな。"
-80,"TEXT_JOBNIN520_01684_OBORO_000_110","……さて、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
-磨いた心は、深い瞑想から新たな刃となる。
-一度、船着場の平屋に戻ろう。"
-81,"TEXT_JOBNIN520_01684_OBORO_000_150","やれやれ、何とかなったな。
-まだ心を許してはくれぬようだが、彼女に怪我はない。
-……まずは、忍びとしても及第点でござろう。"
-82,"TEXT_JOBNIN520_01684_OBORO_000_151","さあ、瞑想し、内なる声に耳を傾けろ。
-「忍び」としての新たな境地を、開眼できることだろう。"
+48,"TEXT_JOBNIN520_01684_OBORO_000_000","Akagi has summoned us, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Princess Yuki is attempting to infiltrate a Salthound stronghold. He would have us “save her,” to use his words."
+49,"TEXT_JOBNIN520_01684_OBORO_000_001","He has managed to delay her near Memeroon's Trading Post. I trust you know the place. Let us away with all haste."
+50,"TEXT_JOBNIN520_01684_OBORO_000_010","Your mission awaits, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
+51,"TEXT_JOBNIN520_01684_YUKI_000_010","...Yes?"
+52,"TEXT_JOBNIN520_01684_OBORO_000_015","I think it best that you approach Akagi."
+53,"TEXT_JOBNIN520_01684_AKAGI_000_030","Finally! It's not easy keepin' the princess in one place, you know!"
+54,"TEXT_JOBNIN520_01684_YUKI_000_031","Incredible. <Emphasis>This</Emphasis> is why you had me wait, Akagi? I had thought myself clear: I neither need nor want their help. Go home, shinobi."
+55,"TEXT_JOBNIN520_01684_OBORO_000_032","Princess, now that we are here, surely there is no harm in telling us your plan."
+56,"TEXT_JOBNIN520_01684_AKAGI_000_033","Oh, we'd be happy to. It's a long story, too. Rumors have been swirlin' about your black markets, about things that sound much like our clan's stolen treasures."
+57,"TEXT_JOBNIN520_01684_AKAGI_000_034","It's hard to pin down rumors like that. But we've also gotten word that some group of pirates─the hounds of salt, or some such─keep records of the black markets. I don't need to tell you how valuable those could be."
+58,"TEXT_JOBNIN520_01684_AKAGI_000_035","'Course, a <Emphasis>certain</Emphasis> someone is all set on slippin' in to their camp by herself. But I can't see to lettin' that─"
+59,"TEXT_JOBNIN520_01684_AKAGI_000_036","Ahhh! Not again! Always sneakin' off on her own like that..."
+60,"TEXT_JOBNIN520_01684_OBORO_000_037","Seeing as she is already gone, we cannot stop her. However, we still might lend her aid by clearing obstacles from her path."
+61,"TEXT_JOBNIN520_01684_OBORO_000_038","Here, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>─smoke bombs. You will catch the attention of the nearby watchmen if you set these off near the camp. Incapacitate them, and the princess may pass unnoticed."
+62,"TEXT_JOBNIN520_01684_AKAGI_000_039","Ah, a fake attack? My axe is for show, mainly, but I'll help where I can."
+63,"TEXT_JOBNIN520_01684_OBORO_000_040","Very well. Akagi, go east. I will go north. We will rendezvous to the southeast of Poor Maid's Mill when done."
+64,"TEXT_JOBNIN520_01684_MONSTERA01684_000_041","Who goes there?"
+65,"TEXT_JOBNIN520_01684_MONSTERB01684_000_042","Wh-What's that sound!?"
+66,"TEXT_JOBNIN520_01684_MONSTERC01684_000_043","Intruder! We've got an intruder!"
+67,"TEXT_JOBNIN520_01684_AKAGI_000_050","Whew... Only a diversion, you said, but it was bloody frightenin'!"
+68,"TEXT_JOBNIN520_01684_OBORO_000_100","All we can do, we have done. Princess Yuki should have made it inside by now."
+69,"TEXT_JOBNIN520_01684_MONSTER01684_000_101","Heh...hehe... P–Put paid to the watch, but n–not the watchdogs... Wh–When they get their teeth into you lot... Ehehehe! <gurgle> "
+70,"TEXT_JOBNIN520_01684_OBORO_000_102","What!? Quickly, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, inside the camp!"
+71,"TEXT_JOBNIN520_01684_YUKI_000_103","(-Yuki-)Save yourselves the effort. The black market records are mine."
+72,"TEXT_JOBNIN520_01684_YUKI_100_103","Our jade jewel is mentioned in here. The Midare Kanemitsu dagger, as well."
+73,"TEXT_JOBNIN520_01684_YUKI_200_103","It seems the former was sold, but finding the buyer should not be difficult. And the blade will be up for auction shortly."
+74,"TEXT_JOBNIN520_01684_OBORO_000_104","Princess! You are safe! Did you not meet with any resistance?"
+75,"TEXT_JOBNIN520_01684_YUKI_000_105","Resistance? Oh, <Emphasis>them</Emphasis>?"
+76,"TEXT_JOBNIN520_01684_OBORO_000_106","You did that, Princess?"
+77,"TEXT_JOBNIN520_01684_AKAGI_000_107","She's not the pride of our clan for nothin'! The princess's a skilled fighter. She's tried her hand at your ninjutsu, too. Not even her instructors can keep up with her these days."
+78,"TEXT_JOBNIN520_01684_YUKI_000_108","I trust you see now why I have no need of your help. I will reclaim my clan's property myself!"
+79,"TEXT_JOBNIN520_01684_AKAGI_000_109","<sigh> I just wish she understood what she means to our clan... Well, thank you for today. I'll have need of your help again soon─but let's keep it on the sly, eh?"
+80,"TEXT_JOBNIN520_01684_OBORO_000_110","Come, let us return to our haunt. You must meditate on what you have seen here, to focus your thoughts into weapons anew."
+81,"TEXT_JOBNIN520_01684_OBORO_000_150","Well, the princess's trust is not yet yours, but she is safe. Were this a trial, you would have passed."
+82,"TEXT_JOBNIN520_01684_OBORO_000_151","But your mind is full. Still your thoughts. Listen to what your heart says in the silence. In so doing, you will grow as a shinobi."

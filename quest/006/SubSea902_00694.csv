@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBSEA902_00694_SEQ_00","エールポートのギルドリーヴ発行窓口、オルウェンは、ギルドリーヴを引き受ける冒険者を探しているようだ。"
-1,"TEXT_SUBSEA902_00694_SEQ_01","オルウェンからギルドリーヴを受注するためには、依頼を遂行できる実力があると認めてもらわねばならない。まずは、ギルドリーヴ『誘導任務：取引帰りのメメルン』を攻略しよう。"
-2,"TEXT_SUBSEA902_00694_SEQ_02","無事、オルウェンから引き受けたギルドリーヴを遂行することができた。「エールポート」の「オルウェン」に報告しよう。"
-3,"TEXT_SUBSEA902_00694_SEQ_03","オルウェンは、依頼を遂行した冒険者の実力を認めたようだ。今後、エールポート周辺の依頼を、彼から引き受けることができる。オルウェンの期待に応えられるよう、積極的にギルドリーヴを引き受けていこう。"
+0,"TEXT_SUBSEA902_00694_SEQ_00","Orwen, the Adventurers' Guild representative for local levequests in Aleport, is seeking an adventurer to undertake guildleves."
+1,"TEXT_SUBSEA902_00694_SEQ_01","In order to gauge your ability to handle the various guildleves he has to offer, Orwen requires that you carry out a preliminary task."
+2,"TEXT_SUBSEA902_00694_SEQ_02","You have successfully completed the trial guildleve. Report to Orwen in Aleport."
+3,"TEXT_SUBSEA902_00694_SEQ_03","Orwen is now confident that you are capable of handling any of the trials and tribulations you might encounter around Aleport. Prove your worth as an adventurer, and continue to undertake the guildleves he has to offer."
 4,"TEXT_SUBSEA902_00694_SEQ_04",""
 5,"TEXT_SUBSEA902_00694_SEQ_05",""
 6,"TEXT_SUBSEA902_00694_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_SUBSEA902_00694_SEQ_21",""
 22,"TEXT_SUBSEA902_00694_SEQ_22",""
 23,"TEXT_SUBSEA902_00694_SEQ_23",""
-24,"TEXT_SUBSEA902_00694_TODO_00","『誘導任務：取引帰りのメメルン』を攻略"
-25,"TEXT_SUBSEA902_00694_TODO_01","エールポートのオルウェンに報告"
+24,"TEXT_SUBSEA902_00694_TODO_00","Complete Orwen's trial guildleve."
+25,"TEXT_SUBSEA902_00694_TODO_01","Report to Orwen."
 26,"TEXT_SUBSEA902_00694_TODO_02",""
 27,"TEXT_SUBSEA902_00694_TODO_03",""
 28,"TEXT_SUBSEA902_00694_TODO_04",""
@@ -49,29 +49,14 @@ int32,str,str
 45,"TEXT_SUBSEA902_00694_TODO_21",""
 46,"TEXT_SUBSEA902_00694_TODO_22",""
 47,"TEXT_SUBSEA902_00694_TODO_23",""
-48,"TEXT_SUBSEA902_00694_ORWEN_000_1","仕事をお探しですか？
-私はオルウェン。冒険者ギルドの一員です。"
-49,"TEXT_SUBSEA902_00694_ORWEN_000_2","こちらでは、魔物討伐や物資の調達など
-「エールポート」周辺から寄せられた依頼を
-ご紹介しております。"
-50,"TEXT_SUBSEA902_00694_ORWEN_000_3","とはいえ、依頼には危険を伴うものも多くあります。
-あなたに本格的にお仕事をお願いする前に、
-実力を確認させてください。"
-51,"TEXT_SUBSEA902_00694_ORWEN_000_4","私が取り扱っている依頼をひとつお見せします。
-まずは、このリーヴをこなしてください。"
-52,"TEXT_SUBSEA902_00694_ORWEN_000_5","ありがとうございます。
-依頼主のメメルンは「手まねき」してあげれば
-誘導することができますよ。よろしくお願いします。"
-53,"TEXT_SUBSEA902_00694_SYS_000_6","エモート「手まねき」を使うことで誘導できます。
-前もってホットバーに入れておくと、
-誘導操作が便利になります。"
-54,"TEXT_SUBSEA902_00694_ORWEN_000_10","準備が整いましたら、ギルドリーヴを開始してください。
-依頼の遂行、よろしくお願いします。"
-55,"TEXT_SUBSEA902_00694_ORWEN_000_15","依頼したリーヴを達成していただけたようですね。
-では、報酬をお受け取りください。"
-56,"TEXT_SUBSEA902_00694_ORWEN_000_20","ギルドリーヴを開始されたようですね。
-依頼遂行、頑張ってください。"
-57,"TEXT_SUBSEA902_00694_ORWEN_000_25","あなたの働きぶり、素晴らしいものでした。
-これなら、安心して仕事をお任せできそうです。"
-58,"TEXT_SUBSEA902_00694_ORWEN_000_26","ここ、エールポートは交易の要所でもあります。
-お仕事は沢山ありますから、どんどんこなしてください！"
+48,"TEXT_SUBSEA902_00694_ORWEN_000_1","You in need of work, <If(PlayerParameter(4))>lass<Else/>lad</If>? The name's Orwen, and I'm a representative of the Adventurers' Guild. Notice the hat?"
+49,"TEXT_SUBSEA902_00694_ORWEN_000_2","I keep a record of tasks what the locals need doin', then dole 'em out to adventurers what look capable."
+50,"TEXT_SUBSEA902_00694_ORWEN_000_3","Now, you <Emphasis>look</Emphasis> capable, but the last sod I reckoned was tough enough got his face bit off by a bleedin' wharf rat. You need to prove to me you can handle me jobs."
+51,"TEXT_SUBSEA902_00694_ORWEN_000_4","Take a look at this here task. Does that seem like someaught you could do?"
+52,"TEXT_SUBSEA902_00694_ORWEN_000_5","Alright, then. You need to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>beckon<UIGlow>01</UIGlow><UIForeground>01</UIForeground> to your client, Memeroon, to help lead him to his destination."
+53,"TEXT_SUBSEA902_00694_SYS_000_6","Use the /beckon emote to lead your client safely to the destination. You may find it convenient to add the emote to your hotbar before beginning the guildleve."
+54,"TEXT_SUBSEA902_00694_ORWEN_000_10","You can start the guildleve whenever you're ready."
+55,"TEXT_SUBSEA902_00694_ORWEN_000_15","Completed the task, have you? Then you need only collect your reward."
+56,"TEXT_SUBSEA902_00694_ORWEN_000_20","You've started me trial guildleve, then? Good fortune to you, <If(PlayerParameter(4))>lass<Else/>lad</If>."
+57,"TEXT_SUBSEA902_00694_ORWEN_000_25","Aye, I reckon you're tough enough to take on the rest of me leves."
+58,"TEXT_SUBSEA902_00694_ORWEN_000_26","Aleport's an important hub for trade in the region, and there's no shortage of tasks to be had. I look forward to seein' you make a difference here, adventurer."

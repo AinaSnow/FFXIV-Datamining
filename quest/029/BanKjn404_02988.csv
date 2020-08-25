@@ -1,10 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANKJN404_02988_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト受注クラス・ジョブ制限<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-※本クエストは受注時のクラス・ジョブでのみ進行します。
-
-碧のタマミズのズキンは、気になる匂いがあるようだ。"
+0,"TEXT_BANKJN404_02988_SEQ_00","Zukin hopes to identify the source of an unusual aroma.
+※The difficulty of this quest will be synced to your current level."
 1,"TEXT_BANKJN404_02988_SEQ_01",""
 2,"TEXT_BANKJN404_02988_SEQ_02",""
 3,"TEXT_BANKJN404_02988_SEQ_03",""
@@ -28,9 +26,9 @@ int32,str,str
 21,"TEXT_BANKJN404_02988_SEQ_21",""
 22,"TEXT_BANKJN404_02988_SEQ_22",""
 23,"TEXT_BANKJN404_02988_SEQ_23",""
-24,"TEXT_BANKJN404_02988_TODO_00","海上の<Sheet(EObj,2009102,0)/>に<Sheet(EventItem,2002405,0)/>を使い入手"
-25,"TEXT_BANKJN404_02988_TODO_01","碧のタマミズのマクラに<Sheet(EventItem,2002406,0)/>を渡す"
-26,"TEXT_BANKJN404_02988_TODO_02","ズキンに報告"
+24,"TEXT_BANKJN404_02988_TODO_00","Put the fragrant substance into the waterproof bag."
+25,"TEXT_BANKJN404_02988_TODO_01","Deliver the bag of fragrant substance to Makura."
+26,"TEXT_BANKJN404_02988_TODO_02","Report to Zukin."
 27,"TEXT_BANKJN404_02988_TODO_03",""
 28,"TEXT_BANKJN404_02988_TODO_04",""
 29,"TEXT_BANKJN404_02988_TODO_05",""
@@ -52,42 +50,17 @@ int32,str,str
 45,"TEXT_BANKJN404_02988_TODO_21",""
 46,"TEXT_BANKJN404_02988_TODO_22",""
 47,"TEXT_BANKJN404_02988_TODO_23",""
-48,"TEXT_BANKJN404_02988_ZUKIN_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><If(PlayerParameter(4))>姉<Else/>兄</If>さん、ひと仕事頼みてぇ～。
-近くの海の上に、「<Sheet(EObj,2009102,0)/>」が浮いてんのを、
-宝探衆の仲間が見つけたんだぁ～。"
-49,"TEXT_BANKJN404_02988_ZUKIN_000_001","とっても貴重なモンかもしれねぇから、早めに回収してぇんだぁ～。
-けどな、慎重に扱わないと、価値が下がっちまうから、
-「<Sheet(EventItem,2002405,0)/>」を使って、回収してくれぇ～。"
-50,"TEXT_BANKJN404_02988_ZUKIN_000_002","そんでもって、手に入れた代物は、
-「マクラ」に渡して、鑑定してもらってくれるかぁ～。
-俺より、あいつのほうが鼻は利くんでなぁ～。"
-51,"TEXT_BANKJN404_02988_MAKURA_000_005","あらぁ～、「<Sheet(EObj,2009102,0)/>」探しを頼まれたのねぇ～？
-あれは海の上で見つかるから、「<Sheet(EventItem,2002405,0)/>」に入れて、
-うちのところに持ってきてねぇ～！"
-52,"TEXT_BANKJN404_02988_MAKURA_000_010","待ってたわぁ～！
-ねぇ、早くあの<Sheet(EObj,2009102,0)/>の香りを、
-確認させてちょうだい～！"
-53,"TEXT_BANKJN404_02988_MAKURA_000_011","う～ん……残念だけど、これは、
-うちらが求めてる塊、「リュウゼンコウ」じゃないみたい～。"
-54,"TEXT_BANKJN404_02988_MAKURA_000_012","ん～……ちょっと匂いが違うわねぇ～。
-うちらが求めてる塊、「リュウゼンコウ」は、
-これじゃないみたい～。"
-55,"TEXT_BANKJN404_02988_MAKURA_000_013","きゃああ～！　これ、これよぉ～！
-うちらが求めてる塊、「リュウゼンコウ」は、
-この香りよぉ～！"
-56,"TEXT_BANKJN404_02988_MAKURA_000_014","あなた、これを見つけるなんて、ツイてるわねぇ～！
-あんまり見た目はよくないけど、
-この塊は、珍しくて、すっごい価値があるものなのよぉ～。"
-57,"TEXT_BANKJN404_02988_MAKURA_000_015","リュウゼンコウっていうのはね、
-龍の涎が固まったとも言われる、不思議な塊なのぉ～。
-これを材料にすると、とてもいい香りの香ができるのよぉ～。"
-58,"TEXT_BANKJN404_02988_MAKURA_000_016","けれど、いつリュウゼンコウが浮かぶのかは、
-誰にもわからないから、偶然見つけるしかなくてぇ～。
-珍しさもあいまって、昔から珍重されてきたお香なのぉ～。"
-59,"TEXT_BANKJN404_02988_MAKURA_000_017","見つけてもらった塊は、こっちで預かっておくわねぇ～。
-また、気になるものがあったら、持ってきてぇ～！"
-60,"TEXT_BANKJN404_02988_ZUKIN_000_020","マクラに鑑定してもらったんだなぁ～。
-手伝ってくれて、ありがとよぉ～。"
-61,"TEXT_BANKJN404_02988_ZUKIN_000_021","リュウゼンコウは、「海の金塊」って呼ばれるくらい貴重で、
-お宝のひとつやふたつ、買えるくれぇの儲けになんだぁ～。
-一攫千金の代物だから、これからも探してくれよなぁ～！"
+48,"TEXT_BANKJN404_02988_ZUKIN_000_000","There's something I would like you to investigate. I have had a report of an unusual object bobbing up and down on the waves. Apparently, it is giving off an unusual scent too."
+49,"TEXT_BANKJN404_02988_ZUKIN_000_001","It is probably nothing, but we should look into it all the same. The smell might be caused by it dissolving into the water, so we should put it into a waterproof bag to help keep it intact."
+50,"TEXT_BANKJN404_02988_ZUKIN_000_002","I would recommend showing it to Makura once you get back. She has a keen sense of smell, and will hopefully be able to tell us what it is."
+51,"TEXT_BANKJN404_02988_MAKURA_000_005","An unidentified fragrant object you say? Floating on the waves? If that's what I think it is, we had best retrieve it posthaste!"
+52,"TEXT_BANKJN404_02988_MAKURA_000_010","How goes the search?"
+53,"TEXT_BANKJN404_02988_MAKURA_000_011","Not quite what I was hoping for, but I'm sure we can find a use for it. I half expected it to be ambergris."
+54,"TEXT_BANKJN404_02988_MAKURA_000_012","While the fragrance is certainly pleasing, it's definitely not ambergris."
+55,"TEXT_BANKJN404_02988_MAKURA_000_013","This is it! Ambergris! Our devotion to the kami has been rewarded!"
+56,"TEXT_BANKJN404_02988_MAKURA_000_014","Although we do not treat ambergris as “treasure” as such, it is nonetheless very rare and precious to the Kojin."
+57,"TEXT_BANKJN404_02988_MAKURA_000_015","Allow me to explain. Ambergris is said to be formed inside a dragon's gut─I jest not─and is sometimes found floating on the Ruby Sea."
+58,"TEXT_BANKJN404_02988_MAKURA_000_016","We have no method for ascertaining when or where it can be found. Owing to its scarcity, we treat it with the utmost care. It is used to produce incense like no other."
+59,"TEXT_BANKJN404_02988_MAKURA_000_017","I'll show this to the others and we'll decide how it should be used. If you come across anything similar, I would very much like to examine it!"
+60,"TEXT_BANKJN404_02988_ZUKIN_000_020","Makura seemed very interested by your findings. Did I hear her mention ambergris? She would use it to make incense and whatnot, but that seems like a waste to me. Think of how much it would fetch at market!"
+61,"TEXT_BANKJN404_02988_ZUKIN_000_021","Well, once again, your help in our investigations is much appreciated."

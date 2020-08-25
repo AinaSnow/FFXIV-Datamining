@@ -1,8 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKZF006_03465_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-ファノヴの里のナイメは、気がかりなことがあるようだ。"
+0,"TEXT_LUCKZF006_03465_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Nymet seems troubled by something."
 1,"TEXT_LUCKZF006_03465_SEQ_01",""
 2,"TEXT_LUCKZF006_03465_SEQ_02",""
 3,"TEXT_LUCKZF006_03465_SEQ_03",""
@@ -26,9 +26,9 @@ int32,str,str
 21,"TEXT_LUCKZF006_03465_SEQ_21",""
 22,"TEXT_LUCKZF006_03465_SEQ_22",""
 23,"TEXT_LUCKZF006_03465_SEQ_23",""
-24,"TEXT_LUCKZF006_03465_TODO_00","<Sheet(EventItem,2002865,0)/>を入手"
-25,"TEXT_LUCKZF006_03465_TODO_01","髪をふたつに結った少女に<Sheet(EventItem,2002864,0)/>と<Sheet(EventItem,2002865,0)/>を渡す"
-26,"TEXT_LUCKZF006_03465_TODO_02","ナイメに<Sheet(EventItem,2002866,0)/>を渡す"
+24,"TEXT_LUCKZF006_03465_TODO_00","Obtain a Ronkan lilybell."
+25,"TEXT_LUCKZF006_03465_TODO_01","Deliver the carved wood earrings and the Ronkan lilybell to the girl with pigtails."
+26,"TEXT_LUCKZF006_03465_TODO_02","Deliver the engraven ring to Nymet."
 27,"TEXT_LUCKZF006_03465_TODO_03",""
 28,"TEXT_LUCKZF006_03465_TODO_04",""
 29,"TEXT_LUCKZF006_03465_TODO_05",""
@@ -50,46 +50,19 @@ int32,str,str
 45,"TEXT_LUCKZF006_03465_TODO_21",""
 46,"TEXT_LUCKZF006_03465_TODO_22",""
 47,"TEXT_LUCKZF006_03465_TODO_23",""
-48,"TEXT_LUCKZF006_03465_NYMET_000_000","異郷より来訪したロンカの同盟者よ、ちょうどよかった。
-お前に頼みたいことがある。"
-49,"TEXT_LUCKZF006_03465_NYMET_000_001","先日、僕らの森にひとりの少女が侵入してな。
-威嚇の矢を足元へ放ったら、尻もちをついて逃げ出した。
-その際、この<Sheet(EventItem,2002864,0)/>を落としていったんだ。"
-50,"TEXT_LUCKZF006_03465_NYMET_000_002","持ち主に返したいが……
-矢を射かけた僕が、彼女の領地を訪れるわけにはいかない。
-どうか、頼めないだろうか。"
-51,"TEXT_LUCKZF006_03465_NYMET_000_003","その「<Sheet(EventItem,2002864,0)/>」に、
-イキス・マヤエの森に生える「<Sheet(EventItem,2002865,0)/>」を一輪添えて、
-スリザーバウの「髪をふたつに結った少女」に渡してほしい。"
-52,"TEXT_LUCKZF006_03465_NYMET_000_004","<Sheet(EventItem,2002865,0)/>は、詫びのしるしだ。
-お前にすべて任せて申し訳ないが、
-その方が、彼女も怯えずに済むだろうから……。"
-53,"TEXT_LUCKZF006_03465_NYMET_000_010","その「<Sheet(EventItem,2002864,0)/>」に、
-イキス・マヤエの森に生える「<Sheet(EventItem,2002865,0)/>」を一輪添えて、
-スリザーバウの「髪をふたつに結った少女」に渡してほしい。"
-54,"TEXT_LUCKZF006_03465_SLITHERBOUGHGIRLA03465_000_020","<Sheet(EventItem,2002864,0)/>？
-ううん、あたしのじゃないよ。
-あたし、耳飾りよりも首飾りの方が好きだもん！"
-55,"TEXT_LUCKZF006_03465_SLITHERBOUGHGIRLB03465_000_021","耳飾り、私は落としてないよ……。
-でもお友達がなくしちゃったやつに、よく似てる……。"
-56,"TEXT_LUCKZF006_03465_SLITHERBOUGHGIRLC03465_000_022","<Sheet(EventItem,2002864,0)/>……？
-うん、この前、東の森の方へ行っちゃったときに、
-落っことしちゃって……。"
-57,"TEXT_LUCKZF006_03465_SLITHERBOUGHGIRLC03465_000_023","わぁー！　すごい！
-<If(PlayerParameter(4))>お姉さん<Else/>お兄さん</If>が見つけてくれたの！？
-それに、<Sheet(EventItem,2002865,0)/>まで！"
-58,"TEXT_LUCKZF006_03465_SLITHERBOUGHGIRLC03465_000_024","そっか、あのヴィースのお姉さん、
-やっぱり本当は、すごく優しい人なんだね。"
-59,"TEXT_LUCKZF006_03465_SLITHERBOUGHGIRLC03465_000_025","マトーヤさまがね、言ってたの。
-「あの人たちも森を守るって大事な使命があるのよ」って。
-その邪魔したら、怒られるの、当たり前だよね。"
-60,"TEXT_LUCKZF006_03465_SLITHERBOUGHGIRLC03465_000_026","<If(PlayerParameter(4))>お姉さん<Else/>お兄さん</If>、私の指輪、ヴィースのお姉さんに渡してくれる？
-勝手に森に入ってごめんなさい、
-これからも頑張ってくださいって、伝えてほしいの。"
-61,"TEXT_LUCKZF006_03465_SLITHERBOUGHGIRLC03465_000_030","<If(PlayerParameter(4))>お姉さん<Else/>お兄さん</If>、私の指輪、ヴィースのお姉さんに渡してくれる？
-勝手に森に入ってごめんなさい、
-これからも頑張ってくださいって、伝えてほしいの。"
-62,"TEXT_LUCKZF006_03465_NYMET_000_040","無事に耳飾りは返せたか？"
-63,"TEXT_LUCKZF006_03465_NYMET_000_041","そうか、彼女は聡明で、心優しい子だな。
-指輪は紐に通して、肌身離さず首から下げるとしよう。
-僕のわがままをきいてくれて、感謝するよ。"
+48,"TEXT_LUCKZF006_03465_NYMET_000_000","Greetings, ally of Ronka. You have come at an opportune time. I am faced with a problem that I could use an outsider's assistance to solve."
+49,"TEXT_LUCKZF006_03465_NYMET_000_001","Several days ago we sighted a young girl wandering the wood. We loosed warning arrows, and she fled back whence she came. However, she dropped these earrings in her haste."
+50,"TEXT_LUCKZF006_03465_NYMET_000_002","I bear no ill will toward her, so I would like to return them, but I cannot leave. If it is not too much trouble, could you bring them to their owner?"
+51,"TEXT_LUCKZF006_03465_NYMET_000_003","As a sign of apology, I would like to affix a Ronkan lilybell to the earrings. They can be found growing in the woods of Yx'Maja. When you are done, please make your way to Slitherbough and find her. I believe she wore her hair in pigtails."
+52,"TEXT_LUCKZF006_03465_NYMET_000_004","I apologize for requesting such a menial task from you, but as you know I have little recourse. I simply wish to put her heart at ease."
+53,"TEXT_LUCKZF006_03465_NYMET_000_010","When you have affixed the earrings with the lilybell, please bring them to the young lady in Slitherbough. I pray this sets her heart at ease."
+54,"TEXT_LUCKZF006_03465_SLITHERBOUGHGIRLA03465_000_020","What's this? Earrings? They aren't mine, although they are pretty. If it was a necklace I might've been tempted to lie, tee hee."
+55,"TEXT_LUCKZF006_03465_SLITHERBOUGHGIRLB03465_000_021","Earrings? Mine have been firmly attached to my ears as far as I know. A friend of mine was lamenting over something she had lost, however..."
+56,"TEXT_LUCKZF006_03465_SLITHERBOUGHGIRLC03465_000_022","Hmm? A pair of earrings? It just so happens I lost my own while in the woods some time ago..."
+57,"TEXT_LUCKZF006_03465_SLITHERBOUGHGIRLC03465_000_023","You didn't! You found them! And the lilybell is a masterful touch!"
+58,"TEXT_LUCKZF006_03465_SLITHERBOUGHGIRLC03465_000_024","That Viis asked you to do this? I...I suppose she didn't mean me harm after all..."
+59,"TEXT_LUCKZF006_03465_SLITHERBOUGHGIRLC03465_000_025","It is as Master Matoya said. They uphold their duty as the wood's protectors with grave severity. They only reacted as they should have."
+60,"TEXT_LUCKZF006_03465_SLITHERBOUGHGIRLC03465_000_026","Please, give this ring to the one who sent you. Tell her I apologize for my rudeness, and will be more careful when next I go into the woods."
+61,"TEXT_LUCKZF006_03465_SLITHERBOUGHGIRLC03465_000_030","Please give my ring to the Viis by way of apology. It's the least I can give after I encroached upon their sacred space."
+62,"TEXT_LUCKZF006_03465_NYMET_000_040","You have returned. Did you find the girl?"
+63,"TEXT_LUCKZF006_03465_NYMET_000_041","I see. She is kind as well as wise. I shall hang this ring from my neck as a keepsake, to remind me of her. You have my gratitude for everything you have done."

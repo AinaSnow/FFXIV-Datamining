@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ011_02645_SEQ_00","アラガーナのアンスガーは、石切作業に必要な物が欲しいようだ。"
+0,"TEXT_STMBDZ011_02645_SEQ_00","Ansger is worried about the village's water supply."
 1,"TEXT_STMBDZ011_02645_SEQ_01",""
 2,"TEXT_STMBDZ011_02645_SEQ_02",""
 3,"TEXT_STMBDZ011_02645_SEQ_03",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_STMBDZ011_02645_SEQ_21",""
 22,"TEXT_STMBDZ011_02645_SEQ_22",""
 23,"TEXT_STMBDZ011_02645_SEQ_23",""
-24,"TEXT_STMBDZ011_02645_TODO_00","<Sheet(BNpcName,5698,0)/>から<Sheet(EventItem,2002335,0)/>を入手"
-25,"TEXT_STMBDZ011_02645_TODO_01","アンスガーに<Sheet(EventItem,2002335,0)/>を渡す"
+24,"TEXT_STMBDZ011_02645_TODO_00","Slay three dust anilas for their cores."
+25,"TEXT_STMBDZ011_02645_TODO_01","Deliver the anila cores to Ansger."
 26,"TEXT_STMBDZ011_02645_TODO_02",""
 27,"TEXT_STMBDZ011_02645_TODO_03",""
 28,"TEXT_STMBDZ011_02645_TODO_04",""
@@ -49,30 +49,14 @@ int32,str,str
 45,"TEXT_STMBDZ011_02645_TODO_21",""
 46,"TEXT_STMBDZ011_02645_TODO_22",""
 47,"TEXT_STMBDZ011_02645_TODO_23",""
-48,"TEXT_STMBDZ011_02645_ANSGER_000_000","<If(PlayerParameter(4))>姉ちゃん<Else/>兄ちゃん</If>、タフそうだな。
-よかったら、この村のために、ひとつ頼まれてくれないか？"
-49,"TEXT_STMBDZ011_02645_ANSGER_000_001","その昔、ここは、採石がウリの村だったんだが、
-今は、イロイロ問題があって、最低限しかやってない。
-そのひとつが、水の問題でな。"
-50,"TEXT_STMBDZ011_02645_ANSGER_000_002","石切には、大量の水が必要で、作業の後には汚水が出る。
-だが、村に隣接する水場は飲み水としても使うから、
-そこに汚水を流すわけにもいかない……。"
-51,"TEXT_STMBDZ011_02645_ANSGER_000_003","だが、「<Sheet(EventItem,2002335,0)/>」がありゃ、問題は解決するんだ。
-ところが、コイツが足りなくなっちまったもんでな。
-急いで、調達してきてほしいんだ。"
-52,"TEXT_STMBDZ011_02645_ANSGER_000_004","この村の南にいる「<Sheet(BNpcName,5698,0)/>」をブッ倒して、
-「<Sheet(EventItem,2002335,0)/>」を3つ確保してくれ！"
-53,"TEXT_STMBDZ011_02645_ANSGER_000_010","この村の南にいる「<Sheet(BNpcName,5698,0)/>」をブッ倒して、
-「<Sheet(EventItem,2002335,0)/>」を3つ確保してくれ！"
-54,"TEXT_STMBDZ011_02645_ANSGER_000_020","よお、「<Sheet(EventItem,2002335,0)/>」は、手に入ったか？"
-55,"TEXT_STMBDZ011_02645_ANSGER_000_030","うまくやってくれたか、ありがとよ！
-コイツを利用することで、石を切るときに出る粉じんを、
-汚水から取り除くことができるんだ。"
-56,"TEXT_STMBDZ011_02645_ANSGER_000_031","昔は、心核を集めるため、村人総出でアニラ狩りをしたもんさ。
-だが、帝国軍に徴兵されたりで、人手が減っちまって、
-今では、大規模な狩りも難しい有様だ……。"
-57,"TEXT_STMBDZ011_02645_ANSGER_000_032","と言っても、金属主体の帝国文化の影響で、
-建築分野でも石材の需要が減っちまったからな……。
-石切場も開店休業で、心核の数も少しで足りちまうんだがよ。"
-58,"TEXT_STMBDZ011_02645_ANSGER_000_033","ともかく手伝ってくれて、助かったよ。
-<If(PlayerParameter(4))>姉ちゃん<Else/>兄ちゃん</If>、感謝するぜ！"
+48,"TEXT_STMBDZ011_02645_ANSGER_000_000","Good <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>evening<Else/>morning</If><Else/><If(LessThan(PlayerParameter(11),17))>day<Else/>evening</If></If>, <If(PlayerParameter(4))>lass<Else/>lad</If>. You look like you can hold your own in a fight. Would you mind lending me a hand?"
+49,"TEXT_STMBDZ011_02645_ANSGER_000_001","Once upon a time, Ala Gannha was known for its quarry and the stone it produced. However, a string of problems combined to put an end to that. One such problem facing us right now concerns the local water supply."
+50,"TEXT_STMBDZ011_02645_ANSGER_000_002","Quarrying requires huge amounts of water─which becomes awfully dirty in the process. Should this water find its way into the reservoir next to the village, we'd lose our only source of clean drinking water."
+51,"TEXT_STMBDZ011_02645_ANSGER_000_003","Although, if we had an anila core or two─make that three─we could easily purify the water."
+52,"TEXT_STMBDZ011_02645_ANSGER_000_004","I'd like you to slay three dust anilas and bring back their cores. You should find some to the south."
+53,"TEXT_STMBDZ011_02645_ANSGER_000_010","I'd like you to slay three dust anilas and bring back their cores. You should find some to the south."
+54,"TEXT_STMBDZ011_02645_ANSGER_000_020","Did you manage to get three cores?"
+55,"TEXT_STMBDZ011_02645_ANSGER_000_030","Brilliant! These will help us to remove any mineral dust from the water we use when quarrying."
+56,"TEXT_STMBDZ011_02645_ANSGER_000_031","In the days before the Empire invaded, the entire village used to go out on anila hunts together to collect their cores. We just don't have the bodies for it now that half of Ala Gannha has been absorbed into the imperial army."
+57,"TEXT_STMBDZ011_02645_ANSGER_000_032","That's not to say we'd have any business even if there were more people around. Garlemald only uses metal for its buildings."
+58,"TEXT_STMBDZ011_02645_ANSGER_000_033","Never mind that anyway. Thanks for your help, <If(PlayerParameter(4))>lass<Else/>lad</If>. It's much appreciated."

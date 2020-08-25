@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANAMA305_01246_SEQ_00","灰の陣営のヤドヴ・ガーは、冒険者に破壊してほしいものがあるようだ。"
-1,"TEXT_BANAMA305_01246_SEQ_01","ヤドヴ・ガーの依頼を受けた。ザンラク中央の「灰の獣牧士」に話しかけ、キャバルリー・ドレイクに騎乗しよう。"
-2,"TEXT_BANAMA305_01246_SEQ_02","キャバルリー・ドレイクに騎乗した状態で、ザハラク戦陣にある2つの「<Sheet(EObj,2003197,0)/>」にキャバルリー・ドレイクの「炎の息」を使おう。
+0,"TEXT_BANAMA305_01246_SEQ_00","Yadovv Gah seeks to employ your skills in demolition."
+1,"TEXT_BANAMA305_01246_SEQ_01","Yadovv Gah bids you ride a cavalry drake into Zahar'ak and incinerate the enemies' supply stores. Speak with the drake whisperer in Zanr'ak to borrow a mount."
+2,"TEXT_BANAMA305_01246_SEQ_02","Ride the cavalry drake into Zahar'ak, and destroy the Amalj'aa supply caches using your mount's Fiery Breath.
 
-※ザンラクの「灰の獣牧士」に話しかけると「キャバルリー・ドレイク」に騎乗できます。"
-3,"TEXT_BANAMA305_01246_SEQ_03","炎の息を使って<Sheet(EObj,2003197,0)/>を焼き払った。灰の陣営の「ヤドヴ・ガー」に報告しよう。"
-4,"TEXT_BANAMA305_01246_SEQ_04","ヤドヴ・ガーに報告した。冒険者の活躍によって、敵アマルジャ族の戦力を大きく削げたと喜ぶヤドヴ・ガー。これで灰の一党の士気も上がるだろう。またの機会に協力しよう。"
+※Speak with the drake whisperer in Zanr'ak to mount a cavalry drake."
+3,"TEXT_BANAMA305_01246_SEQ_03","You have reduced the supply stores of the Amalj'aa to smoldering ruin. Return to the Ring of Ash and report to Yadovv Gah."
+4,"TEXT_BANAMA305_01246_SEQ_04","Yadovv Gah is grimly satisfied with your demolition handiwork. He appears eager to witness the widespread effects the supplies' destruction will have on the Zahar'ak Amalj'aa, overconfident as they are in the omnipotence of their god."
 5,"TEXT_BANAMA305_01246_SEQ_05",""
 6,"TEXT_BANAMA305_01246_SEQ_06",""
 7,"TEXT_BANAMA305_01246_SEQ_07",""
@@ -27,10 +27,9 @@ int32,str,str
 21,"TEXT_BANAMA305_01246_SEQ_21",""
 22,"TEXT_BANAMA305_01246_SEQ_22",""
 23,"TEXT_BANAMA305_01246_SEQ_23",""
-24,"TEXT_BANAMA305_01246_TODO_00","ザンラク中央の灰の獣牧士と話し、キャバルリー・ドレイクに騎乗"
-25,"TEXT_BANAMA305_01246_TODO_01","キャバルリー・ドレイクに騎乗してザハラク戦陣の
-<Sheet(EObj,2003197,0)/>に炎の息を使う"
-26,"TEXT_BANAMA305_01246_TODO_02","ヤドヴ・ガーに報告"
+24,"TEXT_BANAMA305_01246_TODO_00","Speak with the drake whisperer and mount the cavalry drake."
+25,"TEXT_BANAMA305_01246_TODO_01","Ride the cavalry drake into Zahar'ak and use its Fiery Breath to destroy Amalj'aa caches."
+26,"TEXT_BANAMA305_01246_TODO_02","Report to Yadovv Gah."
 27,"TEXT_BANAMA305_01246_TODO_03",""
 28,"TEXT_BANAMA305_01246_TODO_04",""
 29,"TEXT_BANAMA305_01246_TODO_05",""
@@ -52,23 +51,11 @@ int32,str,str
 45,"TEXT_BANAMA305_01246_TODO_21",""
 46,"TEXT_BANAMA305_01246_TODO_22",""
 47,"TEXT_BANAMA305_01246_TODO_23",""
-48,"TEXT_BANAMA305_01246_YADOVVGAH_000_000","ザハラク戦陣の各所にある「<Sheet(EObj,2003197,0)/>」には、
-焔神の炎で鍛えた武器や、ドレイクの飼料が備蓄されておる。
-この物資を滅すれば、奴らに痛手を与えることができ申す。"
-49,"TEXT_BANAMA305_01246_YADOVVGAH_000_001","物資を焼き払うには、ドレイクの炎がもってこいであり申す。
-キャバルリー・ドレイクを駆って、その炎の息により、
-<Sheet(EObj,2003197,0)/>もろとも、物資を灰燼と化す！"
-50,"TEXT_BANAMA305_01246_YADOVVGAH_000_004","冒険者殿、お頼み申す。
-すでに灰の獣牧士へ、話は通しており申す。"
-51,"TEXT_BANAMA305_01246_MOUNTAMALJAA_000_010","うむ、「<Sheet(EObj,2003197,0)/>」を焼き払うとな。
-手塩にかけし我がドレイクの炎は強烈ぞ。
-火傷せぬよう、気をつけめされい。"
-52,"TEXT_BANAMA305_01246_YADOVVGAH_000_020","ドレイクに乗り「<Sheet(EObj,2003197,0)/>」に備蓄された物資を灰燼と帰さん。
-冒険者よ、お頼み申す。"
-53,"TEXT_BANAMA305_01246_MOUNTAMALJAA_000_021","ドレイクより降り、再び騎乗を望む時は我を訪ねよ。
-さぁ、存分に任務を遂行めされい。"
-54,"TEXT_BANAMA305_01246_YADOVVGAH_000_030","おお、「<Sheet(EObj,2003197,0)/>」の物資を焼き払ってくださったか！
-冒険者殿こそ、まさしく一世之雄。
-百戦百勝とは貴殿のためにある言葉であり申す。"
-55,"TEXT_BANAMA305_01246_YADOVVGAH_000_031","これで奴らの力も、大いに削げたはず。
-いずれ、目にもの見せてくれようぞ！"
+48,"TEXT_BANAMA305_01246_YADOVVGAH_000_000","Outnumbered as we are, our strategies must be brutal and efficient. Though I would gladly wring the necks of our detestable enemies one by one, we can weaken their entire force by striking at their supplies."
+49,"TEXT_BANAMA305_01246_YADOVVGAH_000_001","Behind the gates of Zahar'ak, there are locked caches of foodstuffs and flame-touched weapons. Let us not be concerned with keys─take a drake and burn their stores to the ground!"
+50,"TEXT_BANAMA305_01246_YADOVVGAH_000_004","Our master of drakes awaits you, honored ally."
+51,"TEXT_BANAMA305_01246_MOUNTAMALJAA_000_010","My drake's volatile breath will have those caches blazing within moments. Have a care not to be caught in the flames."
+52,"TEXT_BANAMA305_01246_YADOVVGAH_000_020","Ride a cavalry drake into Zahar'ak, and reduce their supply caches to ash!"
+53,"TEXT_BANAMA305_01246_MOUNTAMALJAA_000_021","Should you need to dismount, the drake will return here to me. I will hold her in readiness until you are prepared to continue your mission. Now go, and let me see the pillars of smoke rising from our enemies' camp."
+54,"TEXT_BANAMA305_01246_YADOVVGAH_000_030","You have incinerated their stores? Hah! No matter how powerful their precious deity, an army is only as strong as its supply lines─this, they will learn."
+55,"TEXT_BANAMA305_01246_YADOVVGAH_000_031","Your victories continue to mount, honored ally."

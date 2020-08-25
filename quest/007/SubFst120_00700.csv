@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBFST120_00700_SEQ_00","ボルセル大牙佐は冒険者にマイチョコボの入手方法を教えたい。"
-1,"TEXT_SUBFST120_00700_SEQ_01","補給担当官から、軍票と引き換えに「<Sheet(Item,6018,0)/>」を受け取り、「チョコボ屋 シングール」に渡すと「マイチョコボ」が手に入る。頑張って軍票を貯めよう。"
-2,"TEXT_SUBFST120_00700_SEQ_02","シングールが「マイチョコボ」を連れてきた。チョコボに素敵な名前をつけてあげよう。"
-3,"TEXT_SUBFST120_00700_SEQ_03","チョコボに<Highlight>ObjectParameter(55)</Highlight>とつけた。「チョコボ屋 シングール」と話そう。"
-4,"TEXT_SUBFST120_00700_SEQ_04","チョコボ屋 シングールと話して、チョコボ支給手続きを済ませた。<Highlight>ObjectParameter(55)</Highlight>は、これからよい旅の友になるだろう。"
+0,"TEXT_SUBFST120_00700_SEQ_00","Vorsaile believes it past time you were issued a personal chocobo."
+1,"TEXT_SUBFST120_00700_SEQ_01","To obtain your personal chocobo, you must present Cingur with a Serpent Chocobo Issuance. This document can be obtained by exchanging company seals with the serpent quartermaster. Here's hoping you have been setting aside your seals..."
+2,"TEXT_SUBFST120_00700_SEQ_02","Cingur brings you your bird, and it is love at first sight. Name your new companion, and make it official."
+3,"TEXT_SUBFST120_00700_SEQ_03","After much deliberation, you decide on a name worthy of the noblest steed. Inform Cingur to complete the last of the formalities."
+4,"TEXT_SUBFST120_00700_SEQ_04","And so begins the adventures of <Highlight>ObjectParameter(1)</Highlight> and <Highlight>ObjectParameter(55)</Highlight>. May their friendship last for eternity!"
 5,"TEXT_SUBFST120_00700_SEQ_05",""
 6,"TEXT_SUBFST120_00700_SEQ_06",""
 7,"TEXT_SUBFST120_00700_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_SUBFST120_00700_SEQ_21",""
 22,"TEXT_SUBFST120_00700_SEQ_22",""
 23,"TEXT_SUBFST120_00700_SEQ_23",""
-24,"TEXT_SUBFST120_00700_TODO_00","シングールに<Sheet(Item,6018,0)/>を渡す"
-25,"TEXT_SUBFST120_00700_TODO_01","チョコボに名前をつける"
-26,"TEXT_SUBFST120_00700_TODO_02","シングールと話す"
+24,"TEXT_SUBFST120_00700_TODO_00","Present a Serpent Chocobo Issuance to Cingur."
+25,"TEXT_SUBFST120_00700_TODO_01","Name your chocobo."
+26,"TEXT_SUBFST120_00700_TODO_02","Speak with Cingur."
 27,"TEXT_SUBFST120_00700_TODO_03",""
 28,"TEXT_SUBFST120_00700_TODO_04",""
 29,"TEXT_SUBFST120_00700_TODO_05",""
@@ -49,54 +49,27 @@ int32,str,str
 45,"TEXT_SUBFST120_00700_TODO_21",""
 46,"TEXT_SUBFST120_00700_TODO_22",""
 47,"TEXT_SUBFST120_00700_TODO_23",""
-48,"TEXT_SUBFST120_00700_Vorsaile_000","任務に励んでいるようだな、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/><If(GreaterThan(PlayerParameter(53),0))><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),0)/><Else/></If>。
-その活躍ぶりは、我らの耳にも届いているぞ。
-中々の腕前だそうじゃないか。"
-49,"TEXT_SUBFST120_00700_Vorsaile_001","ところでお主は、任務の際に、
-より迅速に移動できたらと感じたことはないか？"
-50,"TEXT_SUBFST120_00700_Vorsaile_002","そのような時に役立つのが俊足のチョコボだ。
-見たところ、お主はまだ「マイチョコボ」を持っていない様子。
-お主のような兵は、直ぐにでも取得すべきであろう。"
-51,"TEXT_SUBFST120_00700_Vorsaile_003","補給担当官から「<Sheet(Item,6018,0)/>」を、
-軍票にて取得し、「チョコボ屋 シングール」に渡すのだ。
-さすれば、お主にぴったりのチョコボを用意してくれるだろう。"
-52,"TEXT_SUBFST120_00700_Vorsaile_010","補給担当官から「<Sheet(Item,6018,0)/>」を、
-軍票にて取得し、「チョコボ屋 シングール」に渡すのだ。
-さすれば、お主にぴったりのチョコボを用意してくれるだろう。"
-53,"TEXT_SUBFST120_00700_Cingur_000","「マイチョコボ」が欲しいですって？
-それでは、「<Sheet(Item,6018,0)/>」を渡してください。"
-54,"TEXT_SUBFST120_00700_Cingur_010","確かに、こちらはグランドカンパニーが発行した
-「<Sheet(Item,6018,0)/>」のようですね。"
-55,"TEXT_SUBFST120_00700_Cingur_011","それでは、お客様に相応しい
-素敵なチョコボを連れてきますから、少々お待ちください。"
-56,"TEXT_SUBFST120_00700_Cingur_012","お客様が来る少し前から、この子、嬉しそうに騒いでました。
-お客様との対面を、予感していたのかもしれませんね。"
-57,"TEXT_SUBFST120_00700_Cingur_013","さあ、さあ、お客様！
-早速、このオスのチョコボに名前をつけてあげてください。"
-58,"TEXT_SUBFST120_00700_Cingur_020","「マイチョコボ」が欲しいですって？
-それでしたら、グランドカンパニーの補給担当官から、
-「<Sheet(Item,6018,0)/>」をもらってきてください。"
-59,"TEXT_SUBFST120_00700_Cingur_021","確か、グランドカンパニーの任務でもらえる
-「軍票」とかいうものを貯めると、交換できるらしいですよ。"
-60,"TEXT_SUBFST120_00700_CHOCOBO_000","クェ～ッ！"
-61,"TEXT_SUBFST120_00700_Cingur_030","さあ、さあ、お客様！
-早速、このオスのチョコボに名前をつけてあげてください。"
-62,"TEXT_SUBFST120_00700_Cingur_040","あなたのつけた名前を、
-チョコボも気に入ってくれたみたいですね。"
-63,"TEXT_SUBFST120_00700_Cingur_041","さあ、こちらの「<Sheet(Item,6001,0)/>」を受け取ってください。
-こいつを吹き鳴らせば「マイチョコボ」が、
-駆けつけてくれますよ。"
-64,"TEXT_SUBFST120_00700_Cingur_042","ただし、人通りが多い都市内や、
-魔物が巣くう洞窟など、チョコボが嫌がる場所には
-来てくれませんから、注意してくださいね。"
-65,"TEXT_SUBFST120_00700_Cingur_043","それから、もうひとつ各都市が発行している
-「初級騎乗免許」もお渡ししておきます。"
-66,"TEXT_SUBFST120_00700_Cingur_044","さあ、これで手続きは完了ですよ。
-さっそく都市の外へと出て、マイチョコボとの旅を
-楽しんでみてはいかがですか？"
-67,"TEXT_SUBFST120_00700_CHOCOBO_PROMPT_TITLE","マイチョコボの名前を入力してください"
-68,"TEXT_SUBFST120_00700_CHOCOBO_PROMPT_CAPTION","名前"
-69,"TEXT_SUBFST120_00700_CHOCOBO_PROMPT_MES0","アルファベット及びアポストロフィが使えます。
-2文字以上20文字以内の名前を入力してください。"
+48,"TEXT_SUBFST120_00700_Vorsaile_000","Ah, <Clickable(<If(GreaterThan(PlayerParameter(52),0))><Sheet(GCRankLimsaMaleText,PlayerParameter(52),8)/><Else/></If><If(GreaterThan(PlayerParameter(53),0))><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),8)/><Else/></If><If(GreaterThan(PlayerParameter(54),0))><Sheet(GCRankUldahMaleText,PlayerParameter(54),8)/><Else/></If>)/> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>. I understand you have been working tirelessly in Gridania's name. You are truly an example to your fellow Serpents."
+49,"TEXT_SUBFST120_00700_Vorsaile_001","But tell me, have you ever felt as though you couldn't get to your destination quickly enough? That perhaps you could do with a swifter pair of legs?"
+50,"TEXT_SUBFST120_00700_Vorsaile_002","If so, you might consider getting a personal chocobo. You have yet to be issued your own bird, am I correct? Given your considerable talents, you should be able to obtain one in no time at all. Let me tell you how to go about it."
+51,"TEXT_SUBFST120_00700_Vorsaile_003","First, you must obtain a Serpent Chocobo Issuance by exchanging company seals with the quartermaster. Once you have this deed, present it to our man Cingur, and he will furnish you with a suitable bird."
+52,"TEXT_SUBFST120_00700_Vorsaile_010","To be issued a personal chocobo, you must first obtain a Serpent Chocobo Issuance by exchanging company seals with the quartermaster. Once you have this deed, present it to our man Cingur, and he will furnish you with a suitable bird."
+53,"TEXT_SUBFST120_00700_Cingur_000","Want a bird issued, you say? Then I'll need to see your Serpent Chocobo Issuance."
+54,"TEXT_SUBFST120_00700_Cingur_010","Yes, everything appears to be in order."
+55,"TEXT_SUBFST120_00700_Cingur_011","A moment please. I'll be right back with your chocobo."
+56,"TEXT_SUBFST120_00700_Cingur_012","And here he is! The fellow has been in high spirits the past few bells. He must have sensed that his master was coming!"
+57,"TEXT_SUBFST120_00700_Cingur_013","Now then, to make it official, you'll want to give your noble steed a name."
+58,"TEXT_SUBFST120_00700_Cingur_020","Want a bird issued, you say? Then I'll need to see your Serpent Chocobo Issuance. You can get one from the serpent quartermaster, over at the Adders' Nest."
+59,"TEXT_SUBFST120_00700_Cingur_021","Of course, you will need to exchange Serpent Seals for it. You can earn these by completing tasks for the Order of the Twin Adder, Gridania's Grand Company."
+60,"TEXT_SUBFST120_00700_CHOCOBO_000","Kweh!"
+61,"TEXT_SUBFST120_00700_Cingur_030","Now then, to make it official, you'll want to give your noble steed a name."
+62,"TEXT_SUBFST120_00700_Cingur_040","Heh heh! I daresay he likes his name!"
+63,"TEXT_SUBFST120_00700_Cingur_041","Here is your very own chocobo whistle. Simply blow into it, and your feathered friend will come bounding to your side."
+64,"TEXT_SUBFST120_00700_Cingur_042","But do forgive him if he doesn't respond when summoned in crowded city areas or monster-infested lairs. Chocobos are stout-hearted creatures, but they have their limits."
+65,"TEXT_SUBFST120_00700_Cingur_043","And lastly, I present you with your chocobo rider's license, as is required by law."
+66,"TEXT_SUBFST120_00700_Cingur_044","And that concludes all the formalities! I wish you and your chocobo long years of fulfilling companionship!"
+67,"TEXT_SUBFST120_00700_CHOCOBO_PROMPT_TITLE","Name Your Chocobo"
+68,"TEXT_SUBFST120_00700_CHOCOBO_PROMPT_CAPTION","Name"
+69,"TEXT_SUBFST120_00700_CHOCOBO_PROMPT_MES0","Names must be between 2 and 20 alphabetic characters."
 70,"TEXT_SUBFST120_00700_CHOCOBO_PROMPT_MES1",""
 71,"TEXT_SUBFST120_00700_CHOCOBO_PROMPT_MES2",""

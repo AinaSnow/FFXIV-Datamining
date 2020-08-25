@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDA204_02473_SEQ_00","ウルダハ商館のアルフィノは、提案したいことがあるようだ。"
+0,"TEXT_STMBDA204_02473_SEQ_00","Alphinaud is a man with a plan."
 1,"TEXT_STMBDA204_02473_SEQ_01",""
 2,"TEXT_STMBDA204_02473_SEQ_02",""
 3,"TEXT_STMBDA204_02473_SEQ_03",""
@@ -25,12 +25,12 @@ int32,str,str
 21,"TEXT_STMBDA204_02473_SEQ_21",""
 22,"TEXT_STMBDA204_02473_SEQ_22",""
 23,"TEXT_STMBDA204_02473_SEQ_23",""
-24,"TEXT_STMBDA204_02473_TODO_00","リセと話す"
-25,"TEXT_STMBDA204_02473_TODO_01","リセの近くで<Sheet(EventItem,2002099,0)/>を使う"
-26,"TEXT_STMBDA204_02473_TODO_02","カラクに<Sheet(EventItem,2002099,0)/>を渡す"
-27,"TEXT_STMBDA204_02473_TODO_03","コトカゼに<Sheet(EventItem,2002099,0)/>を渡す"
-28,"TEXT_STMBDA204_02473_TODO_04","船頭に<Sheet(EventItem,2002099,0)/>を渡す"
-29,"TEXT_STMBDA204_02473_TODO_05","リセと話す"
+24,"TEXT_STMBDA204_02473_TODO_00","Speak with Lyse."
+25,"TEXT_STMBDA204_02473_TODO_01","View Alphinaud's sketch with Lyse."
+26,"TEXT_STMBDA204_02473_TODO_02","Hand the sketch to Karaku."
+27,"TEXT_STMBDA204_02473_TODO_03","Hand the sketch to Kotokaze."
+28,"TEXT_STMBDA204_02473_TODO_04","Show the sketch to the captains on the Short Pier."
+29,"TEXT_STMBDA204_02473_TODO_05","Speak with Lyse."
 30,"TEXT_STMBDA204_02473_TODO_06",""
 31,"TEXT_STMBDA204_02473_TODO_07",""
 32,"TEXT_STMBDA204_02473_TODO_08",""
@@ -49,140 +49,55 @@ int32,str,str
 45,"TEXT_STMBDA204_02473_TODO_21",""
 46,"TEXT_STMBDA204_02473_TODO_22",""
 47,"TEXT_STMBDA204_02473_TODO_23",""
-48,"TEXT_STMBDA204_02473_LYSE_000_001","ひんがしの国で、エオルゼア風の建物に招待されるなんて、
-ちょっと変な気分だと思わない？"
-49,"TEXT_STMBDA204_02473_ALISAIE_000_005","言われてみれば、確かに魔法の作用を感じるわ。
-微かな痕跡しか残していないのだから、この結界を張った人物は、
-かなり腕の立つ使い手なんでしょうね。"
-50,"TEXT_STMBDA204_02473_TATARU_000_010","いかにも、ウルダハ人らしい趣味の部屋でっす。
-その昔、私が働いていた宝石商の商談室に、
-どことなく似ているのでっす。"
-51,"TEXT_STMBDA204_02473_HANCOCK_000_011","ウルダハの名産品に加えて、ワタシがクガネで買いそろえた、
-東方の逸品や珍品の数々も展示しているのデ～ス！
-思う存分、鑑賞してくださいネ？"
-52,"TEXT_STMBDA204_02473_ALPHINAUD_000_020","さて、ユウギリ殿とゴウセツ殿の足取りを追うにしても、
-全員で行動するというのは、いかにも効率が悪い。
-手分けをすべきだと思うがどうだろう？"
-53,"TEXT_STMBDA204_02473_ALISAIE_000_021","いいんじゃないかしら。
-ただ、活動拠点を整える役も必要だと思うのだけれど。"
-54,"TEXT_STMBDA204_02473_ALPHINAUD_000_022","よし、ではこうしよう。
-まずタタルは、クガネでの活動に備えて、
-荷ほどきと必要物資の買い出しを頼む。"
-55,"TEXT_STMBDA204_02473_ALPHINAUD_000_023","その間に、私とアリゼーは街の南側、
-<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>とリセは街の北側で、
-それぞれハンコックが教えてくれた心当たりを回っていこう。"
-56,"TEXT_STMBDA204_02473_ALPHINAUD_000_024","それと……私が船旅の最中に描いておいた、
-「尋ね人の人相書き」を、君たちにも渡しておく。
-これを使って、聞き込みをしてくれ。"
-57,"TEXT_STMBDA204_02473_LYSE_000_025","うわっ……ユウギリとゴウセツの顔、そっくり！
-これなら、人捜しも楽に進みそうだね。"
-58,"TEXT_STMBDA204_02473_LYSE_000_026","それじゃ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、
-部屋の外で待ってるから、準備できたら、
-声をかけてよね！"
-59,"TEXT_STMBDA204_02473_TATARU_000_030","まずは荷ほどきでっす。
-この一室を「砂の家」「石の家」「雪の家」に続く、
-「暁」第四の家にしてみせまっす！"
-60,"TEXT_STMBDA204_02473_LYSE_000_027","それじゃ、さっそく始めたいんだけど……
-アルフィノの描いた「<Sheet(EventItem,2002099,0)/>」ったら、
-本当にすごいんだよ？"
-61,"TEXT_STMBDA204_02473_LYSE_100_027","ほら、あなたも一度見てみなよ！"
-62,"TEXT_STMBDA204_02473_SYSTEM_000_028","イベントアイテム「<Sheet(EventItem,2002099,0)/>」は、
-クエスト進行中に使用することで、いつでも閲覧できます。
-試しに「リセ」の近くで使い、一緒に見てみましょう！"
-63,"TEXT_STMBDA204_02473_LYSE_100_028","アルフィノの描いた「<Sheet(EventItem,2002099,0)/>」ったら、
-本当にすごいんだよ？
-ほら、あなたも一度見てみなよ！"
-64,"TEXT_STMBDA204_02473_SYSTEM_200_028","イベントアイテム「<Sheet(EventItem,2002099,0)/>」は、
-クエスト進行中に使用することで、いつでも閲覧できます。
-試しに「リセ」の近くで使い、一緒に見てみましょう！"
-65,"TEXT_STMBDA204_02473_LYSE_000_029","やっぱり似てるよね……。
-アルフィノが絵が上手いって本当だったんだ……。"
-66,"TEXT_STMBDA204_02473_LYSE_000_031","って感心している場合じゃないよね。
-最初の心当たりは……温泉宿の「望海楼」ってとこみたい。
-そこの主、「カラク」さんから当たってみよう！"
-67,"TEXT_STMBDA204_02473_KARAKU_000_040","おいでませ！
-火傷によし、切り傷によし、皮膚の病によし！
-海を望む温泉が自慢の宿、「望海楼」へようこそ！"
-68,"TEXT_STMBDA204_02473_KARAKU_000_041","おや、その手に持っているのは、いったい何です？"
-69,"TEXT_STMBDA204_02473_KARAKU_000_042","ふむ、この人相書きに描かれている、
-ふたり組の東方人を探しておられる……と。"
-70,"TEXT_STMBDA204_02473_KARAKU_000_043","申し訳ございませんが、お力にはなれそうにもありません。
-どなたが何時、この宿をご利用になられたのかは、
-教えられないのでございます。"
-71,"TEXT_STMBDA204_02473_LYSE_000_044","そんな……！
-はるばるエオルゼアから、このふたりを探しに来たんだ。
-お願いだから、教えてよ……！"
-72,"TEXT_STMBDA204_02473_KARAKU_000_045","こちらは湯が自慢の温泉宿……
-身も心もくつろげる場所でありたいと願っております。"
-73,"TEXT_STMBDA204_02473_KARAKU_000_046","それゆえに、罪人を追う赤誠組のお侍様でもないかぎり、
-お客様について、話さないのが開業以来の決まり……。
-どうか、ご容赦くださいませ……。"
-74,"TEXT_STMBDA204_02473_LYSE_000_047","そっか……ここで駄々をこねても、仕方ないね。
-<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、次の場所で聞いてみよう……。
-「潮風亭」の女将、「コトカゼ」さんって人らしいよ。"
-75,"TEXT_STMBDA204_02473_KARAKU_000_050","力になれなくて申し訳ありません。
-人捜しに疲れたときは、ぜひとも温泉に浸かって、
-身体を休めていってくださいよ。"
-76,"TEXT_STMBDA204_02473_KOTOKAZE_000_060","いらっしゃい。
-極上の純米酒が入荷しているよ。
-えっ……酒じゃなくて、人探しをしているだって？"
-77,"TEXT_STMBDA204_02473_KOTOKAZE_000_061","アウラ族の忍びに、ルガディン族の侍のふたり組……ね。
-事情はわかったけど、その質問に答える前にひとついいかい？"
-78,"TEXT_STMBDA204_02473_KOTOKAZE_000_062","お前さんたちは、異国人のようだから言うんだが、
-海向こうのオサード小大陸が、動乱続きってことは知ってるね？
-25年前の帝国侵攻以来、反乱だ何だと未だに騒がしい。"
-79,"TEXT_STMBDA204_02473_KOTOKAZE_000_063","それでも、この「ひんがしの国」が和を保っていられるのは、
-対立する陣営のいずれにも荷担せず、中立を維持してきたからだ。
-非情に思えるかもしれないけど、それが小さな島国の処世術でね。"
-80,"TEXT_STMBDA204_02473_KOTOKAZE_000_064","とはいえ、ここは異国に開かれた港街だ。
-だから、お前さんたちに問われれば、何でも答えるが、
-その代わり、お前さんたち以外の者にも、同じようにするよ。"
-81,"TEXT_STMBDA204_02473_KOTOKAZE_000_065","それでもいいってんなら、何でも聞いておくれ。"
-82,"TEXT_STMBDA204_02473_LYSE_000_066","アタシたちを捜す人がいても、同じように答えるってことだね？
-……わかった、その条件で構わないから、
-知ってることがあったら教えて？"
-83,"TEXT_STMBDA204_02473_KOTOKAZE_000_067","それじゃあ、答えるとしようか。
-確かに、その人相書きによく似たふたり組が、
-紅玉海を渡る手段はないものかと、相談してきたよ。"
-84,"TEXT_STMBDA204_02473_KOTOKAZE_000_068","とはいえ、最近は紅玉海に船を出す者は減っていてね。
-何人か船主を紹介してやったが、果たして上手くいったのか、
-そこまではわからないよ。"
-85,"TEXT_STMBDA204_02473_KOTOKAZE_000_069","船主の名は、覚え書きに記してやるから、
-後は自分たちで調べておくれ。"
-86,"TEXT_STMBDA204_02473_LYSE_000_070","ありがとう。
-助かったよ、コトカゼさん。
-今度は、ちゃんとお客として来るからね。"
-87,"TEXT_STMBDA204_02473_KOTOKAZE_000_071","ああ、待ってるよ、嬢ちゃん。
-美味い酒と肴を用意してるから、いつでも来とくれ。"
-88,"TEXT_STMBDA204_02473_LYSE_000_072","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、
-教えてもらった船主たちに話を聞いてみよう。
-手分けして聞いて回って、終わったらこの酒場で合流ね！"
-89,"TEXT_STMBDA204_02473_KOTOKAZE_000_075","クガネに、海の外のいざこざを持ち込まれないようにするには、
-誰に対しても、公平に接するしか道はないのさ。"
-90,"TEXT_STMBDA204_02473_KUGANEFERRYMAN_000_080","あん、人捜しをしてるだって？
-確かにルガディン族の爺さんなら、俺のところにも来たな。
-渡し船を探しているとか何とかでよ……。"
-91,"TEXT_STMBDA204_02473_KUGANEFERRYMAN_000_081","だが、断りを入れて、追い返しちまったよ。
-あんな危ない海を渡るのは、ご免だってことさ。
-ただ、そのアウラ族の姉ちゃんの方は、見てないな……。"
-92,"TEXT_STMBDA204_02473_KUGANEFERRYMAN_000_085","アウラ族の姉ちゃんについては知らんが、
-ルガディン族の爺さんなら、俺のところに来たぞ。
-あんな危ない海を渡るのはご免だって、追い返したがね。"
-93,"TEXT_STMBDA204_02473_KUGANECAPTAIN_000_090","尋ね人か……だったら、尋ねるべき相手を間違えているな。
-俺は、商品を運ぶことはあっても、人は運ばない。
-侍風の大男についても、乗船は拒否したよ。"
-94,"TEXT_STMBDA204_02473_KUGANECAPTAIN_000_091","女の方は知らん。
-女が入り用なら、花街の方でも探すんだな。"
-95,"TEXT_STMBDA204_02473_KUGANECAPTAIN_000_095","女の方は知らん。
-女が入り用なら、花街の方でも探すんだな。"
-96,"TEXT_STMBDA204_02473_RADZATHANMERCHANT_000_100","アウラ族とルガディン族のふたり組を知らないかですって？
-すみませんが、その様な者たちは見かけていませんね。
-私が見たのは、ルガディン族の大男だけです。"
-97,"TEXT_STMBDA204_02473_RADZATHANMERCHANT_000_101","しかも、行き先が大陸だというので、乗船を断りました。
-何せ私の船は、ラザハンとの間を行き来する商船でして、
-オサード小大陸に立ち寄ることはないのです。"
-98,"TEXT_STMBDA204_02473_RADZATHANMERCHANT_000_105","私が見たのは、ルガディン族の大男だけです。
-しかも、行き先が大陸だというので、乗船を断りました。"
-99,"TEXT_STMBDA204_02473_LYSE_000_110","ありゃ、その様子だと空振りだったみたいだね。
-こっちも、有力な情報はなかったよ。
-なかなか上手くいかないもんだね。"
+48,"TEXT_STMBDA204_02473_LYSE_000_001","I'm not sure how I imagined our time in the Far East unfolding, but it definitely didn't involve Ul'dahns. And especially not <Emphasis>these</Emphasis> Ul'dahns. Still...whatever works, right?"
+49,"TEXT_STMBDA204_02473_ALISAIE_000_005","He was not exaggerating when he spoke of their wards' efficacy. Whoever wove them did so with consummate skill..."
+50,"TEXT_STMBDA204_02473_TATARU_000_010","Oh, this place takes me back! It reminds me of the workshop of an Ul'dahn lapidary I once served!"
+51,"TEXT_STMBDA204_02473_HANCOCK_000_011","I must confess, I am an avid collector of all things Far Eastern. See for yourself. I insist!"
+52,"TEXT_STMBDA204_02473_ALPHINAUD_000_020","It would seem inefficient for us all to venture out together in search of information on Yugiri and Gosetsu's whereabouts. Agreed?"
+53,"TEXT_STMBDA204_02473_ALISAIE_000_021","Agreed. We need to cast our net wider─split up and pursue all available avenues of inquiry. But if we're to coordinate our efforts effectively, we'll need to establish a working base of operations here."
+54,"TEXT_STMBDA204_02473_ALPHINAUD_000_022","Indeed. Tataru would seem best suited to the task of organizing our supplies and procuring new ones."
+55,"TEXT_STMBDA204_02473_ALPHINAUD_000_023","While she attends to that, we four can begin our search by questioning the individuals Hancock identified. Alisaie and I will take those in the southern districts of the city, and the two of you can take those in the north."
+56,"TEXT_STMBDA204_02473_ALPHINAUD_000_024","In, uh...anticipation of just such an eventuality, I took the liberty of preparing some few sketches of Yugiri and Gosetsu during our voyage."
+57,"TEXT_STMBDA204_02473_LYSE_000_025","Wow... Y'shtola warned me that you were a bit of an artist, but these are <Emphasis>great</Emphasis>! They'll definitely come in handy."
+58,"TEXT_STMBDA204_02473_LYSE_000_026","Looks like it's you and me, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Let's step outside and talk about where to start!"
+59,"TEXT_STMBDA204_02473_TATARU_000_030","Leave everything here to me! If I can keep the Waking Sands, the Rising Stones, and the Falling Snows afloat, then this should be easy! I just need to think of a new name. The Blooming Cherry Blossoms? No, no, that's no good..."
+60,"TEXT_STMBDA204_02473_LYSE_000_027","Wow, Alphinaud's sketches are so... I don't know how to put it, but they're very..."
+61,"TEXT_STMBDA204_02473_LYSE_100_027","Well, see for yourself!"
+62,"TEXT_STMBDA204_02473_SYSTEM_000_028","You may view Alphinaud's sketch at any time during this quest by using the relevant item in the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Key Items<UIGlow>01</UIGlow><UIForeground>01</UIForeground> menu."
+63,"TEXT_STMBDA204_02473_LYSE_100_028","Go on, take a look! You'll see what I mean."
+64,"TEXT_STMBDA204_02473_SYSTEM_200_028","You may view Alphinaud's sketch at any time during this quest by using the relevant item in the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Key Items<UIGlow>01</UIGlow><UIForeground>01</UIForeground> menu."
+65,"TEXT_STMBDA204_02473_LYSE_000_029","It looks more like them than they do! Honestly, he could make a living doing this..."
+66,"TEXT_STMBDA204_02473_LYSE_000_031","Ah, sorry, sorry! No time for distractions! Why don't we start by visiting...Karaku at the...on-something? Onsun? Onsan? Onsen! That was it!"
+67,"TEXT_STMBDA204_02473_KARAKU_000_040","Come one, come all! Burns, cuts, embarrassing rashes─there is naught that the mystical waters of the Bokaisen Hot Springs cannot heal!"
+68,"TEXT_STMBDA204_02473_KARAKU_000_041","Ho, what is that in your hand?"
+69,"TEXT_STMBDA204_02473_KARAKU_000_042","Hmm...you seek this Au Ra and this Roegadyn, do you?"
+70,"TEXT_STMBDA204_02473_KARAKU_000_043","A thousand apologies, but I cannot help you. It is against our policy to divulge information regarding patrons past or present."
+71,"TEXT_STMBDA204_02473_LYSE_000_044","Please! We came all the way from Eorzea to find our friends!"
+72,"TEXT_STMBDA204_02473_KARAKU_000_045","We have our reputation to consider, miss. Men and women from all walks of life come here in search of rejuvenation─body and soul."
+73,"TEXT_STMBDA204_02473_KARAKU_000_046","They seek privacy and discretion, and we have ever honored their wishes. Only the Sekiseigumi may demand otherwise. I am sorry, but there is naught I can do."
+74,"TEXT_STMBDA204_02473_LYSE_000_047","I suppose we'll just have to ask someone else, then. What about that woman who runs the hostelry? Kotokaze, was it?"
+75,"TEXT_STMBDA204_02473_KARAKU_000_050","You seem a kind soul, and it pains me that I cannot help you. If the strain of your troubles weighs too heavily on your heart, I could recommend a number of treatments..."
+76,"TEXT_STMBDA204_02473_KOTOKAZE_000_060","Welcome, traveler. Can I interest you in some rice wine? Exceptional quality, delivered but the other day..."
+77,"TEXT_STMBDA204_02473_KOTOKAZE_000_061","...Ah. An Auri shinobi and a Roegadyn samurai. If I may, I would answer your question with some few of mine own."
+78,"TEXT_STMBDA204_02473_KOTOKAZE_000_062","If I speak of that which you know, ijin, be not offended. You are familiar with the situation in the lands across the Ruby Sea? The doomed rebellion, after two and a half decades of quiet?"
+79,"TEXT_STMBDA204_02473_KOTOKAZE_000_063","I see. And you are familiar with the ways of Hingashi? How we elect to stand apart and support no cause but our own? Indifferent and callous, some may call us, but pragmatism is essential if a humble island nation such as ours is to survive."
+80,"TEXT_STMBDA204_02473_KOTOKAZE_000_064","But we are not fools. Complete isolation is impractical. And so Kugane is open to ijin, and we are <Emphasis>equally</Emphasis> hospitable to <Emphasis>all</Emphasis>. Or, if I must speak more plainly: Yes, I can help you. But if I do, I must <Emphasis>also</Emphasis> oblige the ones who ask after <Emphasis>you</Emphasis>."
+81,"TEXT_STMBDA204_02473_KOTOKAZE_000_065","Are you willing to accept this fair and equitable treatment?"
+82,"TEXT_STMBDA204_02473_LYSE_000_066","If anyone comes looking for us, tell them whatever you like."
+83,"TEXT_STMBDA204_02473_KOTOKAZE_000_067","As you wish. The two individuals of whom you speak did indeed come here. They sought passage across the Ruby Sea."
+84,"TEXT_STMBDA204_02473_KOTOKAZE_000_068","Few ships are willing to make the trip at the moment. Nevertheless, I made several introductions on their behalf. That was the extent of our interaction."
+85,"TEXT_STMBDA204_02473_KOTOKAZE_000_069","I will provide you with the names of the captains, if you like."
+86,"TEXT_STMBDA204_02473_LYSE_000_070","You've been a great help, Mistress Kotokaze. I'll be sure to come back for that wine sometime."
+87,"TEXT_STMBDA204_02473_KOTOKAZE_000_071","We would welcome your custom, miss."
+88,"TEXT_STMBDA204_02473_LYSE_000_072","We should question these captains as soon as we can. You take the first three, I'll take the rest, and we'll meet here when we've finished. All right? Good luck!"
+89,"TEXT_STMBDA204_02473_KOTOKAZE_000_075","All ijin are subject to the same rules, and must receive the same treatment. To be equal is to be fair, and to be fair is to be free."
+90,"TEXT_STMBDA204_02473_KUGANEFERRYMAN_000_080","...Yes, a Roegadyn gentleman did approach me. He wanted to charter a ship to take him across the Ruby Sea, the mad devil."
+91,"TEXT_STMBDA204_02473_KUGANEFERRYMAN_000_081","I sent him away, like all the others before him. The woman? Nay, I know her not."
+92,"TEXT_STMBDA204_02473_KUGANEFERRYMAN_000_085","I told you, I refused the man's request, and I know nothing of the woman. Now leave me be!"
+93,"TEXT_STMBDA204_02473_KUGANECAPTAIN_000_090","Passengers? No. We no longer offer that service. Too much trouble. Now, we only transport goods. I told this to the samurai and sent him on his way."
+94,"TEXT_STMBDA204_02473_KUGANECAPTAIN_000_091","The woman? Pah. If it is women you seek, the pleasure houses have plenty."
+95,"TEXT_STMBDA204_02473_KUGANECAPTAIN_000_095","I told you, the man was alone, and I sent him away. What more do you want?"
+96,"TEXT_STMBDA204_02473_RADZATHANMERCHANT_000_100","You ask me if I have seen this Auri woman and this Roegadyn samurai? Hmm... The woman is unknown to me, but the man is not."
+97,"TEXT_STMBDA204_02473_RADZATHANMERCHANT_000_101","He was for Doma, but I could not help him. We travel solely between here and Radz–at–Han. It would be an unreasonable detour."
+98,"TEXT_STMBDA204_02473_RADZATHANMERCHANT_000_105","As I said, I spoke only with the man. He wished to go to Doma, and went away when I said I could not help him. Will that be all?"
+99,"TEXT_STMBDA204_02473_LYSE_000_110","How did it─ Oh. Never mind. Judging from the look on your face, you didn't have much better luck than I did..."

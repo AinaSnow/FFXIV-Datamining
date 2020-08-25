@@ -1,12 +1,12 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ907_02863_SEQ_00","スペキュラ・インペラトリス付近の金髪の少闘士は、冒険者に教えたいことがあるようだ。"
-1,"TEXT_STMBDZ907_02863_SEQ_01","金髪の少闘士から、山岳地帯の事情にくわしい解放軍の闘士を教えてもらった。ギラバニア山岳地帯のワイトロックにいる「グントマル」と話そう。"
-2,"TEXT_STMBDZ907_02863_SEQ_02","グントマルと話した。彼によると、エラートの所属している部隊がアラミゴ方面へ移動中だそうだ。ギラバニア山岳地帯のカストルム・アバニア付近にいる「アラミゴ解放軍の闘士長」を探そう。"
-3,"TEXT_STMBDZ907_02863_SEQ_03","アラミゴ解放軍の闘士長と話した。彼は言いにくいことがあるようだ。カストルム・アバニア付近の「アラミゴ解放軍の闘士長」にエモート「問い詰める」をしよう。"
-4,"TEXT_STMBDZ907_02863_SEQ_04","アラミゴ解放軍の闘士長を問い詰めた。彼は、エラートが髑髏連隊に潜入していた工作員であると明かした。また、エラートが書いた手紙を届けて、彼が戦死したと伝えてくれと頼まれた。ギラバニア山岳地帯のコールドハースにいる「ベレータ」に「<Sheet(EventItem,2002330,0)/>」を渡そう。"
-5,"TEXT_STMBDZ907_02863_SEQ_05","ベレータに<Sheet(EventItem,2002330,0)/>を渡した。息子の訃報を聞いたベレータは、堪えきれない悲しみを冒険者に漏らすのだった……。"
+0,"TEXT_STMBDZ907_02863_SEQ_00","This golden-locked lieutenant seems to have something else to share with you."
+1,"TEXT_STMBDZ907_02863_SEQ_01","While the lieutenant has no other information to offer you about Erart, he knows someone who can─Guntmar of the Resistance, who is quite knowledgeable of any and all happenings in the Peaks."
+2,"TEXT_STMBDZ907_02863_SEQ_02","For a blessing, Guntmar not only knows Erart, but also the unit to which he has been assigned. He goes on to tell you that, at this very moment, they are making their way to Ala Mhigo. He suggests you make haste to Castrum Abania if you wish to catch up with them."
+3,"TEXT_STMBDZ907_02863_SEQ_03","You finally track down the captain of Erart's unit. When you mention his name, the captain dithers about what to say next. You sincerely /doubt he has any reason to hesitate."
+4,"TEXT_STMBDZ907_02863_SEQ_04","The captain eventually relents and tells you all. Erart assumed the identity of a wealthy Ala Mhigan merchant's son in order to infiltrate the Garleans' army. After a recent clash with the Allied forces, however, they lost contact with him. Assuming the worst, the captain was prepared to deliver a letter to his mother, penned by Erart in the event of his death. Having come so far for answers, the captain feels it appropriate that you take the letter to Berehta."
+5,"TEXT_STMBDZ907_02863_SEQ_05","You deliver the letter to Berehta, explaining to her what became of Erart. Too overwhelmed by grief to even open the letter, she begs you a moment to regain her composure."
 6,"TEXT_STMBDZ907_02863_SEQ_06",""
 7,"TEXT_STMBDZ907_02863_SEQ_07",""
 8,"TEXT_STMBDZ907_02863_SEQ_08",""
@@ -25,10 +25,10 @@ int32,str,str
 21,"TEXT_STMBDZ907_02863_SEQ_21",""
 22,"TEXT_STMBDZ907_02863_SEQ_22",""
 23,"TEXT_STMBDZ907_02863_SEQ_23",""
-24,"TEXT_STMBDZ907_02863_TODO_00","グントマルと話す"
-25,"TEXT_STMBDZ907_02863_TODO_01","アラミゴ解放軍の闘士長を探す"
-26,"TEXT_STMBDZ907_02863_TODO_02","アラミゴ解放軍の闘士長に「問い詰める」をする"
-27,"TEXT_STMBDZ907_02863_TODO_03","ベレータに<Sheet(EventItem,2002330,0)/>を渡す"
+24,"TEXT_STMBDZ907_02863_TODO_00","Speak with Guntmar."
+25,"TEXT_STMBDZ907_02863_TODO_01","Speak with the Resistance captain."
+26,"TEXT_STMBDZ907_02863_TODO_02","Express your /doubt of the captain's hesitation."
+27,"TEXT_STMBDZ907_02863_TODO_03","Deliver Erart's letter to Berehta."
 28,"TEXT_STMBDZ907_02863_TODO_04",""
 29,"TEXT_STMBDZ907_02863_TODO_05",""
 30,"TEXT_STMBDZ907_02863_TODO_06",""
@@ -49,67 +49,26 @@ int32,str,str
 45,"TEXT_STMBDZ907_02863_TODO_21",""
 46,"TEXT_STMBDZ907_02863_TODO_22",""
 47,"TEXT_STMBDZ907_02863_TODO_23",""
-48,"TEXT_STMBDZ907_02863_SECONDLIEUTENANT02863_000_000","エラートの坊主のことを、解放軍に聞きに行くつもりなら、
-「グントマル」って名の闘士に、話してみるといい。
-彼は山岳地帯の出身で、このあたりの事情にくわしいからな。"
-49,"TEXT_STMBDZ907_02863_SECONDLIEUTENANT02863_000_001","スペキュラ・インペラトリスを越えた後、
-北西へ向かってしばらく歩いたところに、
-「グントマル」はいるはずだ。"
-50,"TEXT_STMBDZ907_02863_SECONDLIEUTENANT02863_000_002","エラートの坊主のことは、「グントマル」に尋ねるといい。
-彼なら、スペキュラ・インペラトリスを越えた後、
-北西へ向かってしばらく歩いたところにいるはずだ。"
-51,"TEXT_STMBDZ907_02863_BEREHTA_000_003","エラートはいったい、どこをほっつき歩いているのやら。
-冒険者さん、見つけたら思いっきり叱りつけとくれよ。
-この親不孝者め、ってね！"
-52,"TEXT_STMBDZ907_02863_GUNTMAR_000_010","……エラートという男を探しているだと？
-ああ、その男なら、確かにアラミゴ解放軍にいるぞ。
-同じ部隊というわけではないがな。"
-53,"TEXT_STMBDZ907_02863_GUNTMAR_000_011","エラートが所属する部隊は、アラミゴ方面へ移動中だったはず。
-いまから追いかければ、カストルム・アバニア付近で、
-捕まえることができるだろうよ。"
-54,"TEXT_STMBDZ907_02863_GUNTMAR_000_012","エラートが所属する部隊は、アラミゴ方面へ移動中だったはず。
-いまから追いかければ、カストルム・アバニア付近で、
-捕まえることができるだろうよ。"
-55,"TEXT_STMBDZ907_02863_ARMYLEADER02863_000_020","おや、貴殿は「暁」の冒険者殿。
-これはおつかれさまです。
-自分に何かご用ですかな？"
-56,"TEXT_STMBDZ907_02863_ARMYLEADER02863_000_021","……むぅ、エラートを探している、と。
-ご母堂の依頼ですか……それはまた……。
-なんともはや……。"
-57,"TEXT_STMBDZ907_02863_SYSTEM_000_022","どうやら、言いにくいことがあるようだ……。
-口ごもる「アラミゴ解放軍の闘士長」を「問い詰め」てみよう。"
-58,"TEXT_STMBDZ907_02863_ARMYLEADER02863_000_023","ううむ……彼のことを言っていいものか……。
-しかし、冒険者殿には隠しきれぬだろうし……。"
-59,"TEXT_STMBDZ907_02863_ARMYLEADER02863_000_030","……そうですな、冒険者殿にはすべて、お教えしましょう。
-エラートは、1年前まで自分の部隊に所属していましたが、
-いまは指揮下から離れております。"
-60,"TEXT_STMBDZ907_02863_ARMYLEADER02863_000_031","帝国の市民権を持った、あるアラミゴ人商人の息子と、
-彼は容姿がよく似ておりましてね……。
-ですから、身分を偽り、帝国軍に潜入してもらったのです。"
-61,"TEXT_STMBDZ907_02863_ARMYLEADER02863_000_032","彼が配属されたのは……冒険者殿も、予想がつくと思います。
-そう、かの悪名高き、「髑髏連隊」……。
-憎き裏切り者たちの部隊ですよ。"
-62,"TEXT_STMBDZ907_02863_ARMYLEADER02863_000_033","彼は、多くの有益な情報を我々に流しつつ、
-表向きは髑髏連隊の一員として、解放軍と戦っていました。
-……おそらくは、あのスペキュラ・インペラトリスでも。"
-63,"TEXT_STMBDZ907_02863_ARMYLEADER02863_000_034","あの戦い以降、エラートとは連絡が取れなくなりました。
-つまりは、最悪の事態、ということでしょう。
-とても……残念です……。"
-64,"TEXT_STMBDZ907_02863_ARMYLEADER02863_000_035","……もしもの時にと預かっていた、ご母堂宛の手紙があります。
-状況が落ち着いたころ、お届けにあがろうと思っていましたが、
-冒険者殿から、調査結果として渡す方がよいでしょう。"
-65,"TEXT_STMBDZ907_02863_ARMYLEADER02863_000_036","彼は、アラミゴの自由のために戦い、散っていった。
-解放軍一同、その生命を賭した献身に敬意を表する。
-そう、ご母堂にはお伝えください……では。"
-66,"TEXT_STMBDZ907_02863_BEREHTA_000_040","ああ、待っていたよ、冒険者さん！
-エラートのことは、なにかわかったかい？
-……あの子の手紙だって？"
-67,"TEXT_STMBDZ907_02863_BEREHTA_100_040","これが……ど、どうして、エラートが手紙を……？"
-68,"TEXT_STMBDZ907_02863_BEREHTA_000_041","あ、あの子が……戦死した……。
-そうかい……いいや、大丈夫だよ……。
-覚悟だけはしていたんだ……。"
-69,"TEXT_STMBDZ907_02863_BEREHTA_000_042","帝国に苛め殺されたんじゃなく、
-自分の誇りを胸に、死んだんだ……。
-それがわかって、本当によかった……。"
-70,"TEXT_STMBDZ907_02863_BEREHTA_000_043","でも、やっぱり、オバチャン……ちょっと、悲しいねえ……。
-冒険者さん……息子の手紙、ありがとうよ……。"
+48,"TEXT_STMBDZ907_02863_SECONDLIEUTENANT02863_000_000","If you plan on speaking with someone from the Resistance, might I suggest seeking out Guntmar? You would be hard-pressed to find a man who knows more of the Peaks than him."
+49,"TEXT_STMBDZ907_02863_SECONDLIEUTENANT02863_000_001","He should be back at our camp, due west of here."
+50,"TEXT_STMBDZ907_02863_SECONDLIEUTENANT02863_000_002","Guntmar was born and raised here in the Peaks, and makes it his business to know anything of importance that goes on here. I'm certain he can help you."
+51,"TEXT_STMBDZ907_02863_BEREHTA_000_003","If you find Erart, tell him he can expect a piece of my mind when he returns. I'll teach him to leave his mother sick with worry for two years."
+52,"TEXT_STMBDZ907_02863_GUNTMAR_000_010","Erart? Why yes, he's a member of the Resistance. Good lad. Can't say I've heard any complaints about him. "
+53,"TEXT_STMBDZ907_02863_GUNTMAR_000_011","His unit was dispatched to Ala Mhigo not long ago. If you hurry, you may be able to catch him near Castrum Abania."
+54,"TEXT_STMBDZ907_02863_GUNTMAR_000_012","If you wish to speak with him, I suggest you leave now. He and his men are likely passing Castrum Abania even as we speak."
+55,"TEXT_STMBDZ907_02863_ARMYLEADER02863_000_020","Ah, <Highlight>ObjectParameter(1)</Highlight> of the Scions. Well met. What brings you here to the Peaks?"
+56,"TEXT_STMBDZ907_02863_ARMYLEADER02863_000_021","You're looking for Erart? On behalf of his mother, you say? I see... Well, he is... Erm, how should I put this?"
+57,"TEXT_STMBDZ907_02863_SYSTEM_000_022","The Resistance captain seems to be bearing distressing news. Expressing your <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>doubt<UIGlow>01</UIGlow><UIForeground>01</UIForeground> for the need to hesitate may convince him to speak."
+58,"TEXT_STMBDZ907_02863_ARMYLEADER02863_000_023","This is rather confidential business you're asking about. Though I suppose it would only be a matter of time before you were made privy to it..."
+59,"TEXT_STMBDZ907_02863_ARMYLEADER02863_000_030","Alright, alright. I'll tell you. Erart is─or rather, was─a member of my unit. He was reassigned in light of an opportunity for him to assist in gathering Garlean intelligence."
+60,"TEXT_STMBDZ907_02863_ARMYLEADER02863_000_031","As it turns out, he bears a striking resemblance to the son of one of our Garlean contacts─an Ala Mhigan merchant who bribed his way into citizenship. He agreed to allow Erart to stand in for his son that he could infiltrate their military."
+61,"TEXT_STMBDZ907_02863_ARMYLEADER02863_000_032","The price was steep. Steeper still to have him placed among the most renowned unit of Ala Mhigans in service to the imperials─the Skulls."
+62,"TEXT_STMBDZ907_02863_ARMYLEADER02863_000_033","He's supplied us with indispensable insight into the inner workings of their military, all the while maintaining his turncoat facade. He's even gone so far as to take arms against his Eorzean comrades. "
+63,"TEXT_STMBDZ907_02863_ARMYLEADER02863_000_034","However, after a recent clash with the Skulls, he's ceased all contact with us. To be frank, we fear the worst."
+64,"TEXT_STMBDZ907_02863_ARMYLEADER02863_000_035","In the event anything should happen to him, he prepared a final letter to be delivered to his mother. Having come this far on her behalf, I think it only appropriate you be the one to deliver it."
+65,"TEXT_STMBDZ907_02863_ARMYLEADER02863_000_036","Tell his mother he died fighting for the freedom of Ala Mhigo, that his selfless sacrifice will be forever honored by soldiers and civilians alike."
+66,"TEXT_STMBDZ907_02863_BEREHTA_000_040","Oh my, you're back! You were gone for so long. Did you find anythin'?"
+67,"TEXT_STMBDZ907_02863_BEREHTA_100_040","A letter from Erart? Does this mean he'll be comin' home soon?"
+68,"TEXT_STMBDZ907_02863_BEREHTA_000_041","Oh, Erart... I suspected somethin' had happened, but I didn't want to believe it."
+69,"TEXT_STMBDZ907_02863_BEREHTA_000_042","My boy was always so kind, so fierce. He was the sort of man who'd want to die fightin', with his head held high. I'm sure that's what happened."
+70,"TEXT_STMBDZ907_02863_BEREHTA_000_043","At least now I know he's...he's... Excuse me, I need a moment."

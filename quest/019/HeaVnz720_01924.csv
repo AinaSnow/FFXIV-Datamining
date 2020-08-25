@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNZ720_01924_SEQ_00","テイルフェザーにいるエルヴォワは、先輩から任された仕事をそのまま渡すつもりのようだ。"
-1,"TEXT_HEAVNZ720_01924_SEQ_01","エルヴォワに、またしても雑用を任された。高地ドラヴァニアの、チョコボの森の北にあるキャンプで「テイルフェザーの猟師」から話を聞こう。"
-2,"TEXT_HEAVNZ720_01924_SEQ_02","テイルフェザーの猟師に、トラバサミの危険性について教わった。チョコボの森の北にあるキャンプ付近を捜索し、妨害を退けて、「<Sheet(EObj,2006149,0)/>」を3つ撤去しよう。"
-3,"TEXT_HEAVNZ720_01924_SEQ_03","トラバサミを撤去した。テイルフェザーの「エルヴォワ」に報告しよう。"
-4,"TEXT_HEAVNZ720_01924_SEQ_04","エルヴォワに報告した。エルヴォワは、後輩である自分に危険が及ぶような仕事だったことに驚き、先輩への不信を感じているようだ。"
+0,"TEXT_HEAVNZ720_01924_SEQ_00","Hervoix is looking at his list of tasks in disgust."
+1,"TEXT_HEAVNZ720_01924_SEQ_01","Next on Hervoix's list of tasks is the removal of iron leg traps that have been set up around a camp to the north. He ignores the obvious connection between chocobo traps and hunting, and insists that this should not be among a hunter's duties. Eager to push his work onto the nearest adventurer in need of coin, Hervoix enlists your aid. Head to the northern chocobo camp and ask any nearby hunters if they know aught of the reported traps."
+2,"TEXT_HEAVNZ720_01924_SEQ_02","At the camp you come across a hunter who explains that O'bhen Tia forcefully stopped him from removing the traps. It seems the chief was insistent upon letting his “apprentice” disable the traps himself. He says the traps were likely set by a band of outlaw hunters, as such traps are liable to injure the most profitable part of a chocobo: its legs. Go east of the camp and search for the traps, and be on guard for any hostile hunters along the way."
+3,"TEXT_HEAVNZ720_01924_SEQ_03","You are attacked by one of the outlaw hunters while you attempt to disable the traps, but you manage to complete your task relatively unscathed. Report to Hervoix, who is surely eager to be able to check off another job from his rather short list."
+4,"TEXT_HEAVNZ720_01924_SEQ_04","Hervoix, apparently unaware of the inherent danger of his occupation, is absolutely shocked that O'bhen Tia would ask him to perform any task that entails a degree of risk. Skeptical of his chief's aims, Hervoix returns to consider the next job he─or <Emphasis>someone</Emphasis> else─will undertake."
 5,"TEXT_HEAVNZ720_01924_SEQ_05",""
 6,"TEXT_HEAVNZ720_01924_SEQ_06",""
 7,"TEXT_HEAVNZ720_01924_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_HEAVNZ720_01924_SEQ_21",""
 22,"TEXT_HEAVNZ720_01924_SEQ_22",""
 23,"TEXT_HEAVNZ720_01924_SEQ_23",""
-24,"TEXT_HEAVNZ720_01924_TODO_00","テイルフェザーの猟師と話す"
-25,"TEXT_HEAVNZ720_01924_TODO_01","妨害を退け<Sheet(EObj,2006149,0)/>を撤去"
-26,"TEXT_HEAVNZ720_01924_TODO_02","エルヴォワに報告"
+24,"TEXT_HEAVNZ720_01924_TODO_00","Speak with the Tailfeather hunter."
+25,"TEXT_HEAVNZ720_01924_TODO_01","Remove the iron leg traps."
+26,"TEXT_HEAVNZ720_01924_TODO_02","Report to Hervoix."
 27,"TEXT_HEAVNZ720_01924_TODO_03",""
 28,"TEXT_HEAVNZ720_01924_TODO_04",""
 29,"TEXT_HEAVNZ720_01924_TODO_05",""
@@ -49,40 +49,19 @@ int32,str,str
 45,"TEXT_HEAVNZ720_01924_TODO_21",""
 46,"TEXT_HEAVNZ720_01924_TODO_22",""
 47,"TEXT_HEAVNZ720_01924_TODO_23",""
-48,"TEXT_HEAVNZ720_01924_HERVOIX_000_000","んっと、先輩にあたえられた雑用は……？"
-49,"TEXT_HEAVNZ720_01924_HERVOIX_000_001","「北にある、無人のキャンプ付近で、
-　トラバサミの発見報告があった、撤去してこい」……。"
-50,"TEXT_HEAVNZ720_01924_HERVOIX_000_002","……だから、猟師の俺がやる必要あんのかよ！？
-こういうのは、優秀な冒険者さんに頼むもんだろ！！"
-51,"TEXT_HEAVNZ720_01924_HERVOIX_000_003","って、あれあれー、冒険者さんじゃないっすか～！
-時間あったりします？
-……撤去、お願いできます？"
-52,"TEXT_HEAVNZ720_01924_HERVOIX_000_004","ありがとうっす！
-ここから北に行ったところに、キャンプはあります。
-詳しい情報は、「テイルフェザーの猟師」に聞くといいっす！"
-53,"TEXT_HEAVNZ720_01924_HERVOIX_000_015","ここから北に行ったところに、キャンプはあります。
-詳しい情報は、「テイルフェザーの猟師」に聞くといいっす！"
-54,"TEXT_HEAVNZ720_01924_HUNTER01780_000_010","トラバサミを探しているって？
-ああ、それなら俺も撤去しようとしたんだが……。
-オ・ベン・ティアに止められたから、そのままにしてあるぜ。"
-55,"TEXT_HEAVNZ720_01924_HUNTER01780_000_012","早いとこ撤去したかったのに、
-自分の後輩にやらせるから、手を出すなって言うんだぜ？
-いったい、何のつもりだろうか。"
-56,"TEXT_HEAVNZ720_01924_HUNTER01780_000_013","……まあ、おまえが来てくれて助かった。
-騎乗獣としてのチョコボにとって、脚はまさに生命線だ。
-だから、脚を傷める罠を狩りに使うのは厳禁なんだよ。"
-57,"TEXT_HEAVNZ720_01924_HUNTER01780_000_014","トラバサミを使った狩りをするのは、無法者の連中だ。
-あいつらには、掟も何も通用しねぇんだ。"
-58,"TEXT_HEAVNZ720_01924_HUNTER01780_000_015","さあ、トラバサミはこの辺に3つあるぜ。
-無法者が現れるかもしれないから、注意するこったな。"
-59,"TEXT_HEAVNZ720_01924_HUNTER01780_000_020","さあ、トラバサミはこの辺に3つあるぜ。
-無法者が現れるかもしれないから、注意するこったな。"
-60,"TEXT_HEAVNZ720_01924_BALOON_000_025","勝手に撤去をするな！"
-61,"TEXT_HEAVNZ720_01924_HERVOIX_000_030","お、撤去できましたか！
-いやぁ～、よかったよかった！"
-62,"TEXT_HEAVNZ720_01924_HERVOIX_000_031","……えっ、無法者の連中に襲われたんっすか！？
-そんな危険な仕事、俺にやらせようとするなんて……
-ひっでぇ先輩だなぁ、マジで……。"
-63,"TEXT_HEAVNZ720_01924_HERVOIX_000_032","普通の先輩は、かわいい後輩に、
-そんな危険なことさせないっすよねぇ！？
-あ、お礼をどうぞ……どうも、ありがとうでした！"
+48,"TEXT_HEAVNZ720_01924_HERVOIX_000_000","Let's see here... What other mundane tasks did O'bhen Tia have in mind?"
+49,"TEXT_HEAVNZ720_01924_HERVOIX_000_001","“Some unscrupulous hunters have set up iron leg traps near the camp to the north. Get rid of them before any chocobos fall victim to the traps.”"
+50,"TEXT_HEAVNZ720_01924_HERVOIX_000_002","He...he expects a <Emphasis>hunter</Emphasis> to be doing a job like this? Especially when there are so many <Emphasis>adventurers</Emphasis> around..."
+51,"TEXT_HEAVNZ720_01924_HERVOIX_000_003","Wait a minute, <Emphasis>you're</Emphasis> the most famous adventurer in Tailfeather! This shouldn't be too difficult a task for you, and there's still some coin left for a reward. How about lending your aid again?"
+52,"TEXT_HEAVNZ720_01924_HERVOIX_000_004","Marvelous! Well, as the note said, there's a camp north of here. Might be some hunters around that could offer you advice about these traps."
+53,"TEXT_HEAVNZ720_01924_HERVOIX_000_015","Seems the traps were set up near the northern camp. The other hunters probably know more, ask them if they know anything."
+54,"TEXT_HEAVNZ720_01924_HUNTER01780_000_010","Yer lookin' for the iron leg traps? As a matter o' fact I was just about to get rid o' them meself, but then O'bhen Tia comes along, saying somethin' 'bout how he'll send his apprentice to do it. I take it that's <Emphasis>you</Emphasis>."
+55,"TEXT_HEAVNZ720_01924_HUNTER01780_000_012","He seemed bloody insistent on keepin' me from doin' me job. They would've been gone days ago if not for him buttin' his nose in me business."
+56,"TEXT_HEAVNZ720_01924_HUNTER01780_000_013","But I've had enough o' waitin'─if ye wanna go get rid o' the traps then yer welcome to. Ye see, without their legs a chocobo's not much use to anyone, which is why traps o' that sort're forbidden amongst the hunters o' Tailfeather."
+57,"TEXT_HEAVNZ720_01924_HUNTER01780_000_014","Most like the traps were set up by some rogue group of hunters. Ain't no use tryin' to impose our rules or regulations on those sorts..."
+58,"TEXT_HEAVNZ720_01924_HUNTER01780_000_015","Anyroad, I seen three traps set up 'round the area. Mind you, I've no doubt those bastards what set up the traps could be skulkin' nearby, so make sure to bring a weapon!"
+59,"TEXT_HEAVNZ720_01924_HUNTER01780_000_020","I seen three iron leg traps set up 'round the area. Keep your guard up, those degenerate hunters ain't bound to be far away."
+60,"TEXT_HEAVNZ720_01924_BALOON_000_025","Get yer hands off of our traps!"
+61,"TEXT_HEAVNZ720_01924_HERVOIX_000_030","Ah, so you're done with those troublesome traps? I never doubted you for a second!"
+62,"TEXT_HEAVNZ720_01924_HERVOIX_000_031","What!? A renegade hunter attacked you!? To think that O'bhen Tia wanted <Emphasis>me</Emphasis> to do such hazardous work... I could've been..."
+63,"TEXT_HEAVNZ720_01924_HERVOIX_000_032","What would he do, what would this <Emphasis>whole camp</Emphasis> do, if my beautiful face were to suffer injury!? My thanks for sparing us all such a terrible fate, adventurer!"

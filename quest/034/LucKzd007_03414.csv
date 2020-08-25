@@ -1,8 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKZD007_03414_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-プラ・エンニ茸窟の怒った様子のン・モゥは、ピクシーの帰りを待っているようだ。"
+0,"TEXT_LUCKZD007_03414_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+The vengeful Nu Mou is bent on revenge."
 1,"TEXT_LUCKZD007_03414_SEQ_01",""
 2,"TEXT_LUCKZD007_03414_SEQ_02",""
 3,"TEXT_LUCKZD007_03414_SEQ_03",""
@@ -26,8 +26,8 @@ int32,str,str
 21,"TEXT_LUCKZD007_03414_SEQ_21",""
 22,"TEXT_LUCKZD007_03414_SEQ_22",""
 23,"TEXT_LUCKZD007_03414_SEQ_23",""
-24,"TEXT_LUCKZD007_03414_TODO_00","ピクシーたちに<Sheet(EventItem,2002645,0)/>を渡す"
-25,"TEXT_LUCKZD007_03414_TODO_01","怒った様子のン・モゥと話す"
+24,"TEXT_LUCKZD007_03414_TODO_00","Deliver the mock ancient texts to the pixies."
+25,"TEXT_LUCKZD007_03414_TODO_01","Report to the vengeful Nu Mou."
 26,"TEXT_LUCKZD007_03414_TODO_02",""
 27,"TEXT_LUCKZD007_03414_TODO_03",""
 28,"TEXT_LUCKZD007_03414_TODO_04",""
@@ -50,41 +50,17 @@ int32,str,str
 45,"TEXT_LUCKZD007_03414_TODO_21",""
 46,"TEXT_LUCKZD007_03414_TODO_22",""
 47,"TEXT_LUCKZD007_03414_TODO_23",""
-48,"TEXT_LUCKZD007_03414_ANGRYNUMOU03414_000_000","騙された！　舐められたッ！
-あのイタズラピクシーどもめッ！
-くそー、もぅ許さんー！！！"
-49,"TEXT_LUCKZD007_03414_ANGRYNUMOU03414_000_001","ピクシーたちに、新鮮な羊乳を持ってくるように頼んだのですが、
-先に「褒美」をくれないとやらないと言うもので……。
-それで先に支払ったのに、いくら待っても帰ってきやしない！"
-50,"TEXT_LUCKZD007_03414_ANGRYNUMOU03414_000_002","どうやら、まんまと騙されたようです！
-だが！　私はそこまで甘くない！
-仕返しだ、今に見てろッ！！"
-51,"TEXT_LUCKZD007_03414_ANGRYNUMOU03414_000_003","あなた、褒美を渡す代わりに、哀れな私に手を貸してくれませんか？
-この「<Sheet(EventItem,2002645,0)/>」を「噂好きのピクシー」たちに、
-渡してくれれば結構ですので！"
-52,"TEXT_LUCKZD007_03414_ANGRYNUMOU03414_000_004","そうですね……。
-ダメルン巡礼教会跡あたりで見つけたとでも、
-説明してくださればいいでしょう。"
-53,"TEXT_LUCKZD007_03414_ANGRYNUMOU03414_000_005","あなた、褒美を渡す代わりに、哀れな私に手を貸してくれませんか？
-この「<Sheet(EventItem,2002645,0)/>」を「噂好きのピクシー」たちに、
-渡してくれれば結構ですので！"
-54,"TEXT_LUCKZD007_03414_EARHUSTLERPIXIEA03414_000_010","なぁに、私に何かくれるの？"
-55,"TEXT_LUCKZD007_03414_EARHUSTLERPIXIEA03414_000_011","面白そうな文章が書いてあるじゃない！
-北の草人の前へ新鮮な羊乳を3瓶備え、祈りを捧げるべし？
-さすれば東の洞窟にて、秘密の花園への入口が……！？"
-56,"TEXT_LUCKZD007_03414_EARHUSTLERPIXIEA03414_000_012","うわわわ、すっごいこと知っちゃった！
-早速イチバンに試して、里中に噂を広めなきゃだわ！
-じゃあねー！"
-57,"TEXT_LUCKZD007_03414_EARHUSTLERPIXIEB03414_000_012","あれあれ、ヒトがこんなところでどうしたの？
-アタシと遊んでくれるの？"
-58,"TEXT_LUCKZD007_03414_EARHUSTLERPIXIEB03414_000_013","ダメルン巡礼教会跡あたりで見つけた？
-どれどれ……わっ、えええ！？
-秘密の花園への入口を開く方法が書いてある！"
-59,"TEXT_LUCKZD007_03414_EARHUSTLERPIXIEB03414_000_014","ちょうど、おバカなン・モゥからチョロまかした羊乳もある！
-ウヒヒヒ……いい情報貰っちゃった♪
-じゃあねー！"
-60,"TEXT_LUCKZD007_03414_ANGRYNUMOU03414_000_020","ピクシーたちに渡してきてくれましたか！
-ご苦労様です、やはりヒトの方が信頼できますね！"
-61,"TEXT_LUCKZD007_03414_ANGRYNUMOU03414_000_021","さぁて、そろそろ草人の前にいくとしましょうかね。
-ククク……おバカな彼らが、羊乳を捧げているはずですから！
-さあ、これは約束の報酬です、ありがとうございました。"
+48,"TEXT_LUCKZD007_03414_ANGRYNUMOU03414_000_000","Grrr, those accursed pixies! I never should've trusted them!"
+49,"TEXT_LUCKZD007_03414_ANGRYNUMOU03414_000_001","I asked them for sheep's milk. They demanded their payment first, and against my better judgment, I gave it to them. I've not seen neither hide nor hair of them since!"
+50,"TEXT_LUCKZD007_03414_ANGRYNUMOU03414_000_002","But they will rue the day they cheated this Nu Mou! I'll get my revenge─with your help, mortal!"
+51,"TEXT_LUCKZD007_03414_ANGRYNUMOU03414_000_003","Your task is simple. Take these mock ancient texts I've prepared and give them to the pixies. The rest should play out by itself, and I will have my revenge─and you your fitting payment!"
+52,"TEXT_LUCKZD007_03414_ANGRYNUMOU03414_000_004","And if the pixies think to ask where the texts come from, just say that you found it at the Church at Dammroen Field."
+53,"TEXT_LUCKZD007_03414_ANGRYNUMOU03414_000_005","Please find the cheating pixies and give them the mock ancient texts. The rest should play out by itself, and I will have my revenge─and you your fitting payment!"
+54,"TEXT_LUCKZD007_03414_EARHUSTLERPIXIEA03414_000_010","Hm? You wish to give me something, you say?"
+55,"TEXT_LUCKZD007_03414_EARHUSTLERPIXIEA03414_000_011","Ooh, it says here there's a secret flower garden! And the way will be revealed if one makes an offering of sheep's milk to the leafman north of here!"
+56,"TEXT_LUCKZD007_03414_EARHUSTLERPIXIEA03414_000_012","Tee hee, I must go and tell everyone...right after I've had my fill of the garden!"
+57,"TEXT_LUCKZD007_03414_EARHUSTLERPIXIEB03414_000_012","Well now, what's a mortal doing here?"
+58,"TEXT_LUCKZD007_03414_EARHUSTLERPIXIEB03414_000_013","This was at the church? Let's see, now... <gasp> It tells you the way to get to a secret garden!"
+59,"TEXT_LUCKZD007_03414_EARHUSTLERPIXIEB03414_000_014","All you need is sheep's milk, and it just so happens we have the extra we didn't give the Nu Mou! I'll go and test it out at once!"
+60,"TEXT_LUCKZD007_03414_ANGRYNUMOU03414_000_020","You gave the pixies the texts, and they believed it? Hah hah hah! Such sweet revenge!"
+61,"TEXT_LUCKZD007_03414_ANGRYNUMOU03414_000_021","Here, mortal─the fitting payment for your excellent service! Now, if you'll excuse me, I have sheep's milk to collect!"

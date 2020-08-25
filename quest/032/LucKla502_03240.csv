@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKLA502_03240_SEQ_00","ミーン工芸館のフリスリックは、冒険者に話したいことがあるようだ。"
+0,"TEXT_LUCKLA502_03240_SEQ_00","Frithrik appears to have decided on his next project, and the chances of it involving fish are extremely high."
 1,"TEXT_LUCKLA502_03240_SEQ_01",""
 2,"TEXT_LUCKLA502_03240_SEQ_02",""
 3,"TEXT_LUCKLA502_03240_SEQ_03",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_LUCKLA502_03240_SEQ_21",""
 22,"TEXT_LUCKLA502_03240_SEQ_22",""
 23,"TEXT_LUCKLA502_03240_SEQ_23",""
-24,"TEXT_LUCKLA502_03240_TODO_00","博物陳列館のフリスリックと話す"
-25,"TEXT_LUCKLA502_03240_TODO_01","水没した教会付近のフリスリックと話す"
-26,"TEXT_LUCKLA502_03240_TODO_02","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>姿見の湖で<Sheet(ItemHQ,26750,0)/>を釣る<Else/><Sheet(ItemHQ,26750,0)/>をミーン工芸館のロブに納品</If>"
+24,"TEXT_LUCKLA502_03240_TODO_00","Speak with Frithrik in the Cabinet of Curiosity."
+25,"TEXT_LUCKLA502_03240_TODO_01","Speak with Frithrik near the House of the First Light."
+26,"TEXT_LUCKLA502_03240_TODO_02","Deliver a calico trout <Sheet(Addon,9,0)/> to Lobb in the Crystalline Mean."
 27,"TEXT_LUCKLA502_03240_TODO_03",""
 28,"TEXT_LUCKLA502_03240_TODO_04",""
 29,"TEXT_LUCKLA502_03240_TODO_05",""
@@ -49,137 +49,56 @@ int32,str,str
 45,"TEXT_LUCKLA502_03240_TODO_21",""
 46,"TEXT_LUCKLA502_03240_TODO_22",""
 47,"TEXT_LUCKLA502_03240_TODO_23",""
-48,"TEXT_LUCKLA502_03240_SYSTEM_000_900","本クエストを進行するためには、
-「メインクエスト：漆黒のヴィランズ」の、
-「アクトラ・オルワ・イン」を完了する必要があります。"
-49,"TEXT_LUCKLA502_03240_FRITHRIK_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん、
-ちょっと話を聞いてくれる？"
-50,"TEXT_LUCKLA502_03240_FRITHRIK_000_001","ロブさんに、気になる病状の知人がいるらしくてね。
-詳しい話を聞いていたところなんだ。"
-51,"TEXT_LUCKLA502_03240_LOBB_000_002","ああ……知り合いの女性なんだがな……。
-彼女は白目が黄色く変色していて、
-めまいがひどくて起きあがれないこともあるらしい。"
-52,"TEXT_LUCKLA502_03240_FRITHRIK_000_003","目が黄色いのは黄疸と……
-ひどいめまいは貧血かな……。
-うーん、どんな病気なんだろう……。"
-53,"TEXT_LUCKLA502_03240_LOBB_000_004","彼女はもうずいぶん長く、その症状に悩まされているようだ。
-救う術がないか、調べてくれないか？"
-54,"TEXT_LUCKLA502_03240_FRITHRIK_000_005","もちろんですよ……！
-じゃあさっそく博物陳列館に行って、情報を探してみましょう！"
-55,"TEXT_LUCKLA502_03240_FRITHRIK_000_006","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん、
-君も来てくれると助かるよ！"
-56,"TEXT_LUCKLA502_03240_LOBB_000_009","俺の持病が良くなったのは、
-本当に、お前たちのおかげだ……。"
-57,"TEXT_LUCKLA502_03240_LOBB_000_010","フリスリックは……
-いつもこんなに難しい本を読んでるのか……。"
-58,"TEXT_LUCKLA502_03240_FRITHRIK_000_015","このあたりの本に情報がありそうなんだけど……
-<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さんも、
-探してみてくれる？"
-59,"TEXT_LUCKLA502_03240_MERVYL_000_016","なっ……！
-おまえら、なんでこんなところに……！"
-60,"TEXT_LUCKLA502_03240_FRITHRIK_000_017","ま、マーヴィルさん……！？
-あなたこそ、なぜここに…………？
-今日は「始まりの湖」で漁に出ているはずでは？"
-61,"TEXT_LUCKLA502_03240_MERVYL_000_018","て、てめえらには関係ねえだろ！
-またこんなところで、
-漁をサボって、うつつを抜かしてやがるのか！"
-62,"TEXT_LUCKLA502_03240_MERVYL_000_019","それにロブ、てめえまで……。
-最近顔を出さないからどうしたのかと思ったら……
-まさか、フリスリックの野郎とつるんでるとはな！"
-63,"TEXT_LUCKLA502_03240_LOBB_000_020","マーヴィル……意固地になるのはもうやめろ。
-彼らは、俺を持病から救ってくれた恩人だ。
-俺は、彼らに協力する。"
-64,"TEXT_LUCKLA502_03240_MERVYL_000_021","まったく、どいつもこいつも……！
-魚は、書庫にいるんじゃねえんだぞ！"
-65,"TEXT_LUCKLA502_03240_MERVYL_000_022","漁師が魚を獲らなくなったら、
-飢え死にするのは住人たちだ！
-その覚悟もないなら、漁師なんて辞めろ！"
-66,"TEXT_LUCKLA502_03240_LOBB_000_023","…………マーヴィルもあいつなりに、
-クリスタリウムのことを思っているんだ……。
-許してやってくれ……。"
-67,"TEXT_LUCKLA502_03240_LOBB_000_024","いまでこそ魚の供給は安定しているが、
-昔は食料難がひどくて……。
-年配の者は特に、飢えに対する危機感が強いんだ。"
-68,"TEXT_LUCKLA502_03240_LOBB_000_025","だから、未だにあんたの方針に従わない者が多いが……
-若い者の中には、フリスリックに協力すべきなのではと、
-考えている者たちも、増えてきている。"
-69,"TEXT_LUCKLA502_03240_LOBB_000_026","住人の治療も大事だが……漁業科の問題も根深い。
-どうだ、ここはひとつ、協力者を増やすために、
-手を打ってみるというのは。"
-70,"TEXT_LUCKLA502_03240_FRITHRIK_000_027","でも……今から本を調べないと……。"
-71,"TEXT_LUCKLA502_03240_LOBB_000_028","一刻を争うってわけでもないだろうし、
-本探しなら、俺から司書たちに依頼しておくさ。"
-72,"TEXT_LUCKLA502_03240_LOBB_000_029","ただマーヴィルのやつは、あの調子だと、
-漁師仲間に、あることないこと吹き込みそうでな……。
-放っておけば、状況は悪くなる一方だろう。"
-73,"TEXT_LUCKLA502_03240_FRITHRIK_000_030","そうだとしても、どうやって手を打てばいいんでしょう？
-ロブさんのように、身をもって体験してもらうわけにも……。"
-74,"TEXT_LUCKLA502_03240_LOBB_000_031","それなら改めて、代表にふさわしい能力を見せてやればいい。
-「<Sheet(ItemHQ,26750,0)/>」でも釣りあげてみせれば、
-みんな見る目が変わるだろう。"
-75,"TEXT_LUCKLA502_03240_LOBB_000_032","漁業科では釣った記録が極端に少ない、幻の魚だが……
-お前たちなら釣りあげられる知識と能力があると、
-俺は信じている。"
-76,"TEXT_LUCKLA502_03240_FRITHRIK_000_033","「<Sheet(ItemHQ,26750,0)/>」、ですね……。
-わかりました、釣ってみせます！"
-77,"TEXT_LUCKLA502_03240_FRITHRIK_000_034","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん、一緒にきてくれる？"
-78,"TEXT_LUCKLA502_03240_FRITHRIK_100_034","漁業科が管理する釣果記録によると、
-この魚は過去に、イル・メグの「水没した教会」付近で、
-「フルーツワーム」という餌を使って、釣れたようなんだ。"
-79,"TEXT_LUCKLA502_03240_FRITHRIK_000_035","君がいてくれるなら、きっと妖精たちも悪さをしないはず。
-そこで一緒に、「<Sheet(ItemHQ,26750,0)/>」を釣ろう！"
-80,"TEXT_LUCKLA502_03240_LOBB_000_036","じゃあ俺は、本探しを司書たちに頼んでから、
-ミーン工芸館の窓口に戻っておこう。
-受付がいないと、困るだろうからな。"
-81,"TEXT_LUCKLA502_03240_LOBB_000_037","フリスリックが向かうと言っていたのは……
-イル・メグの「水没した教会」だったか？
-そこで彼と合流してくれ。"
-82,"TEXT_LUCKLA502_03240_FRITHRIK_000_040","きてくれてありがとう……！
-君がくるまでの間、妖精に襲われないか、
-ひやひやしてたんだ。"
-83,"TEXT_LUCKLA502_03240_FRITHRIK_000_041","イル・メグって初めてきたけど……
-すごくきれいで、豊かで、のどかに見えて……
-人を拒む恐ろしい土地だとは、信じられないね。"
-84,"TEXT_LUCKLA502_03240_FRITHRIK_000_042","それにしても…………。
-誰かと一緒に、釣りにでかけるのは久しぶりで、
-実はわくわくしてるんだ。"
-85,"TEXT_LUCKLA502_03240_FRITHRIK_000_043","この姿見の湖で「<Sheet(ItemHQ,26750,0)/>」が釣れたら、
-ミーン工芸館の「ロブ」さんのところへ持っていこう。
-君と僕、どっちが先に釣れるか……腕の見せどころだね！"
-86,"TEXT_LUCKLA502_03240_FRITHRIK_000_045","この姿見の湖で「<Sheet(ItemHQ,26750,0)/>」が釣れたら、
-ミーン工芸館の「ロブ」さんのところへ持っていこう。
-君と僕、どっちが先に釣れるかな……！"
-87,"TEXT_LUCKLA502_03240_FRITHRIK_000_050","もう釣れたの？　さすがだね！
-じゃあ、先に戻って「ロブ」さんに、
-「<Sheet(ItemHQ,26750,0)/>」を渡してくれる？"
-88,"TEXT_LUCKLA502_03240_FRITHRIK_000_051","僕の竿も、つついてる感触があって……
-釣れたらすぐに戻るから！"
-89,"TEXT_LUCKLA502_03240_LOBB_000_055","どうだ、「<Sheet(ItemHQ,26750,0)/>」は釣れたか？"
-90,"TEXT_LUCKLA502_03240_LOBB_000_056","ふむ、この色といい形といい……
-まごうことなき「<Sheet(ItemHQ,26750,0)/>」だ。
-<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、さすがだな。"
-91,"TEXT_LUCKLA502_03240_FRITHRIK_000_057","ロブさん、僕も釣れましたよ……！"
-92,"TEXT_LUCKLA502_03240_LOBB_000_058","そうか……。
-ふたりとも、やってのけたか……。
-本当にすごいな……。"
-93,"TEXT_LUCKLA502_03240_LOBB_000_059","若手の漁師には、その魚を見せて、
-協力してくれるように頼んでみよう……。
-きっとふたりのことを、認めてくれるはずだ。"
-94,"TEXT_LUCKLA502_03240_FRITHRIK_000_060","よかった……！
-協力者が増えれば、いままで君が獲ってきてくれた魚介類を、
-その人たちに任せられるね……！"
-95,"TEXT_LUCKLA502_03240_LOBB_000_062","ああ、俺も本業の漁と一緒に、窓口の仕事を手伝おう。
-いままで、お前ひとりに任せてしまっていたからな。"
-96,"TEXT_LUCKLA502_03240_LOBB_000_063","マーヴィルも、いずれはどうにか説得したいが……。
-古い人間ほど、考えを変えるのは簡単でないからな……。
-少し、時間を置こう。"
-97,"TEXT_LUCKLA502_03240_LOBB_000_064","君たちは、食事療法に関する活動に戻ってくれ。
-司書たちの調べも、終わっている頃合いだろうしな。"
-98,"TEXT_LUCKLA502_03240_FRITHRIK_000_065","はい、ロブさんのお知り合いの方に役立つ魚介類がないか、
-さっそく調査してみますね……！"
-99,"TEXT_LUCKLA502_03240_FRITHRIK_000_066","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん、
-なにかわかったら伝えるから、
-そのときは、また手伝ってくれると嬉しいな……！"
-100,"TEXT_LUCKLA502_03240_SYSTEM_000_067","次の納品依頼は、
-「漁師」がレベル78以上になると、
-ミーン工芸館の「フリスリック」から受注可能です。"
+48,"TEXT_LUCKLA502_03240_SYSTEM_000_900","In order to undertake this quest, you must first complete the main scenario quest “Acht-la Ormh Inn.”"
+49,"TEXT_LUCKLA502_03240_FRITHRIK_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, you've come at a good time."
+50,"TEXT_LUCKLA502_03240_FRITHRIK_000_001","Lobb was telling me about a young woman stricken with a most unusual combination of symptoms."
+51,"TEXT_LUCKLA502_03240_LOBB_000_002","She's been having frequent dizzy spells, much like I was. But if that weren't bad enough, there's something wrong with her eyes. The whites have gone all yellow!"
+52,"TEXT_LUCKLA502_03240_FRITHRIK_000_003","Yes, as far as I can tell, the dizziness is due to a certain “thinness” of the blood, while the discoloration is a sign of jaundice."
+53,"TEXT_LUCKLA502_03240_LOBB_000_004","She's been like this for a long time, and she's understandably reluctant to go outside, which isn't doing her much good, either. Is there something we can do for the lass?"
+54,"TEXT_LUCKLA502_03240_FRITHRIK_000_005","Well, those ancient tomes might have something to say on the matter. Lobb, follow me!"
+55,"TEXT_LUCKLA502_03240_FRITHRIK_000_006","I have a feeling we'll be needing your help, too!"
+56,"TEXT_LUCKLA502_03240_LOBB_000_009","Without your help, I don't think I would ever have recovered. If there's anything you need from me, just say the word."
+57,"TEXT_LUCKLA502_03240_LOBB_000_010","When it comes to history and medicine, I'm all at sea!"
+58,"TEXT_LUCKLA502_03240_FRITHRIK_000_015","I believe the information we seek should be in this section. Would you mind checking over there?"
+59,"TEXT_LUCKLA502_03240_MERVYL_000_016","Bloody hells! So much for peace and quiet..."
+60,"TEXT_LUCKLA502_03240_FRITHRIK_000_017","Mervyl, what a surprise to see you here! I never pictured you as much of a reader."
+61,"TEXT_LUCKLA502_03240_MERVYL_000_018","I'm not here for my own enjoyment!"
+62,"TEXT_LUCKLA502_03240_MERVYL_000_019","And as for you, Lobb, I thought you'd have more sense than to throw in your lot with these two."
+63,"TEXT_LUCKLA502_03240_LOBB_000_020","Mervyl, for once in your life, would you shut up and listen? They're the reason why I'm up and walking again. Don't you see? Frithrik was right!"
+64,"TEXT_LUCKLA502_03240_MERVYL_000_021","Is that so? Be that as it may, we should leave healing the sick to the professionals!"
+65,"TEXT_LUCKLA502_03240_MERVYL_000_022","They've got their duties and we've got ours. Are you fishers or not!?"
+66,"TEXT_LUCKLA502_03240_LOBB_000_023","Hmm... He never was one for civilized debate, but he only wants what's best for our people. At least, what he <Emphasis>thinks</Emphasis> is best, at any rate."
+67,"TEXT_LUCKLA502_03240_LOBB_000_024","He's been around long enough to remember the days when starvation was all too real a threat."
+68,"TEXT_LUCKLA502_03240_LOBB_000_025","That's why Mervyl and the rest of the old guard are not like to agree with anything that might lead to fewer fish being caught. The younger ones will be more likely to support your cause, though."
+69,"TEXT_LUCKLA502_03240_LOBB_000_026","To be honest, I can't see your talk of balanced diets winning their support. But there must be a way to get through to them..."
+70,"TEXT_LUCKLA502_03240_FRITHRIK_000_027","I'm sure there will be time to think about that once I've found a treatment for your friend."
+71,"TEXT_LUCKLA502_03240_LOBB_000_028","I appreciate what you're doing for her, but why don't we have the curators look for the information instead?"
+72,"TEXT_LUCKLA502_03240_LOBB_000_029","In the meantime, we can concentrate on getting some of the other fishers on your side."
+73,"TEXT_LUCKLA502_03240_FRITHRIK_000_030","Hmm... I tried that before, but they weren't interested in any of my ideas."
+74,"TEXT_LUCKLA502_03240_LOBB_000_031","Can you blame them? They're not culinarians or chirurgeons, they're fishers. I think they'd be a lot easier to persuade if you can prove you're worthy of being their leader."
+75,"TEXT_LUCKLA502_03240_LOBB_000_032","Perhaps you could try catching something they've never seen before, like a calico trout. That'd impress them."
+76,"TEXT_LUCKLA502_03240_FRITHRIK_000_033","Yes, that might work! Now all we need to do is locate and catch one of the most elusive fish in the history of our art. Hmm... It's no easy feat, that much is certain."
+77,"TEXT_LUCKLA502_03240_FRITHRIK_000_034","And to make matters worse, the last known sighting of a calico trout was in Il Mheg, which until now, I have gone to great lengths to avoid."
+78,"TEXT_LUCKLA502_03240_FRITHRIK_100_034","Perhaps you could come with me, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>?"
+79,"TEXT_LUCKLA502_03240_FRITHRIK_000_035","Since you seem to be on good terms with at least one pixie, they may decide to leave us alone long enough for us to hook our prey."
+80,"TEXT_LUCKLA502_03240_LOBB_000_036","Pixies!? Rather you than me! Anyway, once I've asked the curators to lend us a hand with these books, I'll keep an eye on things at the Mean. Someone's got to take care of the place while you're away!"
+81,"TEXT_LUCKLA502_03240_LOBB_000_037","Frithrik is already at the waters by the House of the First Light. You'd better catch up before he gets himself into trouble."
+82,"TEXT_LUCKLA502_03240_FRITHRIK_000_040","This place is a lot more pleasant than I was expecting, and I haven't been accosted by even one pixie thus far!"
+83,"TEXT_LUCKLA502_03240_FRITHRIK_000_041","You don't think they'd play any mean tricks on us, do you?"
+84,"TEXT_LUCKLA502_03240_FRITHRIK_000_042","If it's all the same to you, I'd like to catch that fish as soon as possible and get back to the Crystarium."
+85,"TEXT_LUCKLA502_03240_FRITHRIK_000_043","We might even be able to get this done more quickly if we make it into a friendly competition. The first one to deliver a calico trout to Lobb is the winner!"
+86,"TEXT_LUCKLA502_03240_FRITHRIK_000_045","I'll admit, I can't escape the feeling we're being watched. Is it still paranoia if you're right?"
+87,"TEXT_LUCKLA502_03240_FRITHRIK_000_050","Wh-What!? You've already caught one? I thought I'd offer a bit more resistance in our little contest, but I'll be joining you back in the Mean after I've caught one for myself."
+88,"TEXT_LUCKLA502_03240_FRITHRIK_000_051","I have a feeling I'll get a bite any moment now!"
+89,"TEXT_LUCKLA502_03240_LOBB_000_055","So, how did it go?"
+90,"TEXT_LUCKLA502_03240_LOBB_000_056","As I live and breathe! It's...magnificent."
+91,"TEXT_LUCKLA502_03240_FRITHRIK_000_057","Lobb! I caught one too!"
+92,"TEXT_LUCKLA502_03240_LOBB_000_058","Of course, I'd expect nothing less from the head of the Facet of Fishing!"
+93,"TEXT_LUCKLA502_03240_LOBB_000_059","Anyone who doubted you will be put firmly in their place when they see what you've caught."
+94,"TEXT_LUCKLA502_03240_FRITHRIK_000_060","I hope you're right. If all goes according to plan, we'll be able to get a few of the younger members to go after the rarer species in your stead."
+95,"TEXT_LUCKLA502_03240_LOBB_000_062","Yes, and that'll give me more time to help here with giving assignments and seeing to deliveries, which in turn will make it easier for you to show your face down at the Source a bit more often."
+96,"TEXT_LUCKLA502_03240_LOBB_000_063","Mervyl and his cronies will find it a lot harder to ignore you that way. Once they see you're taking care of the day-to-day running of the Facet of Fishing, they're more likely to lend you an ear, and maybe even a hand."
+97,"TEXT_LUCKLA502_03240_LOBB_000_064","But before all that, there's a certain young lady in need of help. Maybe the curators have dug up the information we were after?"
+98,"TEXT_LUCKLA502_03240_FRITHRIK_000_065","Goodness me! I have to admit that had all but slipped my mind! I'm lucky I have you here to remind me."
+99,"TEXT_LUCKLA502_03240_FRITHRIK_000_066","I'll go ahead to the Cabinet of Curiosity, but we'll send word if there is anything that requires your assistance. I shall see you anon!"
+100,"TEXT_LUCKLA502_03240_SYSTEM_000_067","The next request will be available from Frithrik upon reaching level 78 as a fisher."

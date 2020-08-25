@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNY801_02095_SEQ_00","清貧の凱旋門のモルゲインは、一流の職人である冒険者に仕事を紹介したいようだ。"
-1,"TEXT_HEAVNY801_02095_SEQ_01","モルゲインから、「収集品」について聞いた。興味があるならと、リディルロナという人物宛の紹介状を書いてもらった。モードゥナのレヴナンツトールにいる「リディルロナ」に「<Sheet(EventItem,2001784,0)/>」を渡そう。"
-2,"TEXT_HEAVNY801_02095_SEQ_02","リディルロナから「収集品」の説明を受けた。「収集品」を納品して対価を得る、「ロウェナ商会取引」の紹介を受けた。収集品の仕事をこなし、職人としての腕を磨いていこう。"
+0,"TEXT_HEAVNY801_02095_SEQ_00","Morgayne is curious whether a talented individual like yourself is familiar with the latest fad."
+1,"TEXT_HEAVNY801_02095_SEQ_01","Apparently, there is a new “collectables” fad, which a <If(PlayerParameter(4))>woman<Else/>man</If> with your talent stands to benefit from, should you choose to do so. Journey to Revenant's Toll and speak with Lydirlona to learn more."
+2,"TEXT_HEAVNY801_02095_SEQ_02","The realm is filled with wealthy individuals who covet a great many things, yet have no intention of obtaining them themselves. They turn to Rowena's House of Splendors to supply them with the objects of their desire, and the consortium employs various tradesmen to procure the collectables in question. Such an opportunity is now available to you, should you be so inclined...and willing to receive payment in the form of scrips redeemable only with the House of Splendors."
 3,"TEXT_HEAVNY801_02095_SEQ_03",""
 4,"TEXT_HEAVNY801_02095_SEQ_04",""
 5,"TEXT_HEAVNY801_02095_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_HEAVNY801_02095_SEQ_21",""
 22,"TEXT_HEAVNY801_02095_SEQ_22",""
 23,"TEXT_HEAVNY801_02095_SEQ_23",""
-24,"TEXT_HEAVNY801_02095_TODO_00","レヴナンツトールのリディルロナに<Sheet(EventItem,2001784,0)/>を渡す"
+24,"TEXT_HEAVNY801_02095_TODO_00","Deliver the letter to Lydirlona in Revenant's Toll."
 25,"TEXT_HEAVNY801_02095_TODO_01",""
 26,"TEXT_HEAVNY801_02095_TODO_02",""
 27,"TEXT_HEAVNY801_02095_TODO_03",""
@@ -49,54 +49,26 @@ int32,str,str
 45,"TEXT_HEAVNY801_02095_TODO_21",""
 46,"TEXT_HEAVNY801_02095_TODO_22",""
 47,"TEXT_HEAVNY801_02095_TODO_23",""
-48,"TEXT_HEAVNY801_02095_MORGAYNE_000_000","アンタ、見たところ、かなり腕の立つ職人のようだね……。
-そんなアンタに、ちょいと面白い仕事の話があるんだ。
-……「収集品」ってヤツに、手を出してみる気はないかい？"
-49,"TEXT_HEAVNY801_02095_MORGAYNE_000_001","アンタの話は聞いているよ、マイスター。
-超一流の職人に相応しい仕事があるんだ。
-……「収集品」ってヤツに、手を出してみる気はないかい？"
-50,"TEXT_HEAVNY801_02095_MORGAYNE_000_002","フフ、興味があるなら、この「紹介状」を、
-「レヴナンツトール」の「リディルロナ」って女に渡しなよ。
-アイツが懇切丁寧、説明してくれるはずさ。"
-51,"TEXT_HEAVNY801_02095_MORGAYNE_000_003","フフ、興味があるなら、この「紹介状」を、
-「レヴナンツトール」の「リディルロナ」って女に渡しなよ。
-アイツが懇切丁寧、説明してくれるはずさ。"
-52,"TEXT_HEAVNY801_02095_LYDIRLONA_000_010","ようこそいらっしゃいました、冒険者様。
-こちらは「収集品」取引窓口でございますが、
-何かご用でしょうか？"
-53,"TEXT_HEAVNY801_02095_LYDIRLONA_000_011","……これは、モルゲイン様からの紹介状。
-なるほど、「収集品」にご興味がお有りと。
-では、簡単ではありますが、説明させていただきます。"
-54,"TEXT_HEAVNY801_02095_LYDIRLONA_000_012","「収集品」とは名のとおり、集めるための物。
-世の中には、物を集めること自体を目的とする方がいます。
-「収集品」は、そのような好事家に向けた品なのです。"
-55,"TEXT_HEAVNY801_02095_LYDIRLONA_000_013","我らの主、ロウェナ様の取引相手には好事家も多く、
-さまざまな「収集品」のご注文があります。"
-56,"TEXT_HEAVNY801_02095_LYDIRLONA_000_014","冒険者様が注文に合った「収集品」を持ち込んでくだされば、
-その「収集価値」に応じ、適切な価格にて、
-買い取らせていただきましょう。"
-57,"TEXT_HEAVNY801_02095_LYDIRLONA_100_014","リムサ・ロミンサ、グリダニア、ウルダハの支店においても、
-取引を行っていますので、あわせてご利用ください。"
-58,"TEXT_HEAVNY801_02095_LYDIRLONA_000_015","なお、買い取り代金については、
-ロウェナ商会の発行する代替貨幣での支払となりますので、
-あしからず、ご了承ください。"
-59,"TEXT_HEAVNY801_02095_LYDIRLONA_000_016","説明は、以上になります。
-冒険者様の「収集品」の持ち込みを、
-心より、お待ち申し上げます。"
-60,"TEXT_HEAVNY801_02095_SYSTEM_000_017","「ロウェナ商会取引」が開放されました！
-専用のレシピやアクションにより、
-「収集品」の製作や採集が可能になります。"
-61,"TEXT_HEAVNY801_02095_SYSTEM_000_018","製作、採集した「収集品」は、「収集品納品窓口」に納品すると、
-経験値とともに、「クラフタースクリップ」、
-もしくは「ギャザラースクリップ」を取得できます。"
-62,"TEXT_HEAVNY801_02095_SYSTEM_100_018","これらの「スクリップ」は、「スクリップ取引窓口」で、
-クラフターやギャザラー用のアイテムと取引できます。"
-63,"TEXT_HEAVNY801_02095_SYSTEM_000_019","なお、「ロウェナ商会取引」についての詳しい説明は、
-リディルロナから聞くことができます。"
-64,"TEXT_HEAVNY801_02095_DICKON_000_010","（★未使用／削除予定★）"
-65,"TEXT_HEAVNY801_02095_DICKON_000_011","（★未使用／削除予定★）"
-66,"TEXT_HEAVNY801_02095_DICKON_000_012","（★未使用／削除予定★）"
-67,"TEXT_HEAVNY801_02095_DICKON_000_013","（★未使用／削除予定★）"
-68,"TEXT_HEAVNY801_02095_DICKON_000_014","（★未使用／削除予定★）"
-69,"TEXT_HEAVNY801_02095_DICKON_000_015","（★未使用／削除予定★）"
-70,"TEXT_HEAVNY801_02095_DICKON_000_016","（★未使用／削除予定★）"
+48,"TEXT_HEAVNY801_02095_MORGAYNE_000_000","You're <If(Equal(PlayerParameter(68),10))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),14))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),5))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),26))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/><If(Equal(PlayerParameter(68),33))>an <Sheet(ClassJob,PlayerParameter(68),0)/><Else/>a <Sheet(ClassJob,PlayerParameter(68),0)/></If></If></If></If></If>, yes? Aye, I thought so. I pride myself on having an eye for talent and you, <If(PlayerParameter(4))>miss<Else/>sir</If>, have it in abundance."
+49,"TEXT_HEAVNY801_02095_MORGAYNE_000_001","Why, if it isn't <If(PlayerParameter(4))>Mistress<Else/>Master</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>. Chosen a specialty yet? Ah, but leaving that aside for the moment..."
+50,"TEXT_HEAVNY801_02095_MORGAYNE_000_002","Don't suppose you've heard of this new “collectables” fad, have you? No? Oh, we've got to do something about that, then. Here, take this letter to Lydirlona in Revenant's Toll. She'll take care of the rest."
+51,"TEXT_HEAVNY801_02095_MORGAYNE_000_003","Really now, someone with your talent ought to have learned about collectables by now! You should head to Revenant's Toll right this instant!"
+52,"TEXT_HEAVNY801_02095_LYDIRLONA_000_010","Greetings, <If(PlayerParameter(4))>miss<Else/>sir</If>. How may I assist you this <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>eve<Else/>day</If><Else/><If(LessThan(PlayerParameter(11),17))>day<Else/>eve</If></If>?"
+53,"TEXT_HEAVNY801_02095_LYDIRLONA_000_011","Very well. It would be my pleasure to enlighten you."
+54,"TEXT_HEAVNY801_02095_LYDIRLONA_000_012","As you are doubtless aware, there are wealthy individuals who covet certain items, but who would rather pay others to procure them."
+55,"TEXT_HEAVNY801_02095_LYDIRLONA_000_013","Rowena's House of Splendors is glad to receive the custom of such individuals."
+56,"TEXT_HEAVNY801_02095_LYDIRLONA_000_014","To supply these collectables, we turn to men and women such as you who possess the talents to craft or procure them."
+57,"TEXT_HEAVNY801_02095_LYDIRLONA_100_014","Compensation will be commensurate to the collectability of items provided and paid in scrips, which can be exchanged for all manner of fine wares."
+58,"TEXT_HEAVNY801_02095_LYDIRLONA_000_015","You may sell these items to the House at any of our branch offices, including those in Limsa Lominsa, Gridania, and Ul'dah."
+59,"TEXT_HEAVNY801_02095_LYDIRLONA_000_016","Please be advised that these terms are not negotiable, <If(PlayerParameter(4))>miss<Else/>sir</If>. We appreciate your understanding."
+60,"TEXT_HEAVNY801_02095_SYSTEM_000_017","You can now craft and gather collectables!"
+61,"TEXT_HEAVNY801_02095_SYSTEM_000_018","Collectables can be traded for crafter and gatherer scrips by speaking with appraisers employed by Rowena's House of Splendors."
+62,"TEXT_HEAVNY801_02095_SYSTEM_100_018","These scrips can be exchanged for items usable by Disciples of the Land or Hand."
+63,"TEXT_HEAVNY801_02095_SYSTEM_000_019","To learn more about collectables, speak with Lydirlona."
+64,"TEXT_HEAVNY801_02095_DICKON_000_010",""
+65,"TEXT_HEAVNY801_02095_DICKON_000_011",""
+66,"TEXT_HEAVNY801_02095_DICKON_000_012",""
+67,"TEXT_HEAVNY801_02095_DICKON_000_013",""
+68,"TEXT_HEAVNY801_02095_DICKON_000_014",""
+69,"TEXT_HEAVNY801_02095_DICKON_000_015",""
+70,"TEXT_HEAVNY801_02095_DICKON_000_016",""

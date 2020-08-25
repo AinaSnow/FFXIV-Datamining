@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBSEA921_00699_SEQ_00","スウィルゲイムは冒険者に、染色について教えたいようだ。"
-1,"TEXT_SUBSEA921_00699_SEQ_01","スウィルゲイムは喉が渇いているようだ。染色について教わる前に、スウィルゲイムへ「<Sheet(Item,4745,0)/>」を届けよう。「<Sheet(Item,4745,0)/>」は、ベスパーベイの「よろず屋」に売っているようだ。"
-2,"TEXT_SUBSEA921_00699_SEQ_02","スウィルゲイムに<Sheet(Item,4745,0)/>を届けると、満足した彼女は、染色について教えてくれた。装備品の染色ができるようになったので、機会があれば試してみよう。"
+0,"TEXT_SUBSEA921_00699_SEQ_00","Swyrgeim wants to show you a whole new world of colors."
+1,"TEXT_SUBSEA921_00699_SEQ_01","Swyrgeim is dismayed at your appearance, and offers to help you remedy it. Before she will do so, however, she requires that you purchase a bottle of orange juice from the merchant by the northern gates and bring it to her so that her thirst might be sated."
+2,"TEXT_SUBSEA921_00699_SEQ_02","Thanking you for the orange juice, Swyrgeim proceeds to teach you how to go about dyeing your gear. Armed with this knowledge, go forth and fill your life with color."
 3,"TEXT_SUBSEA921_00699_SEQ_03",""
 4,"TEXT_SUBSEA921_00699_SEQ_04",""
 5,"TEXT_SUBSEA921_00699_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_SUBSEA921_00699_SEQ_21",""
 22,"TEXT_SUBSEA921_00699_SEQ_22",""
 23,"TEXT_SUBSEA921_00699_SEQ_23",""
-24,"TEXT_SUBSEA921_00699_TODO_00","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))><Sheet(Item,4745,0)/>を入手<Else/>スウィルゲイムに<Sheet(Item,4745,0)/>を渡す</If>"
+24,"TEXT_SUBSEA921_00699_TODO_00","Deliver a bottle of orange juice to Swyrgeim."
 25,"TEXT_SUBSEA921_00699_TODO_01",""
 26,"TEXT_SUBSEA921_00699_TODO_02",""
 27,"TEXT_SUBSEA921_00699_TODO_03",""
@@ -49,34 +49,15 @@ int32,str,str
 45,"TEXT_SUBSEA921_00699_TODO_21",""
 46,"TEXT_SUBSEA921_00699_TODO_22",""
 47,"TEXT_SUBSEA921_00699_TODO_23",""
-48,"TEXT_SUBSEA921_00699_SWYRGEIM_000_0","そこのイケてない冒険者のアナタ！
-この美の伝道師、アナタを見てビビッときたわん！"
-49,"TEXT_SUBSEA921_00699_SWYRGEIM_000_1","薫る戦いの残香、鉄と脂と血の臭い！
-実用一辺倒の、オシャレとは言えないその姿！
-なんだかとってもイケてない加減が実にステキ！"
-50,"TEXT_SUBSEA921_00699_SWYRGEIM_000_2","イケてない冒険者を、鮮やかな色に染め上げることこそ、
-アテクシが神より授かった天命なんだわっ！
-……って確信したのよ、たった今。"
-51,"TEXT_SUBSEA921_00699_SWYRGEIM_000_3","さっそくアナタに教えてあげる……と言いたいけど、
-本格的に喋る前にちょっと、口を湿らせたいわね。
-……ちょっと頼まれてくれる？"
-52,"TEXT_SUBSEA921_00699_SWYRGEIM_000_4","「<Sheet(Item,4745,0)/>」を買ってきなさァい。
-この港街の「よろず屋」に売っていたはずよ。
-「染色」のレクチャーはそれからね。"
-53,"TEXT_SUBSEA921_00699_SWYRGEIM_000_10","「<Sheet(Item,4745,0)/>」はまだなのォン？
-ワルい人ね、いつまでアテクシを待たせる気かしら？
-この港街の「よろず屋」に売っていたはずよ、早くしてね。"
-54,"TEXT_SUBSEA921_00699_SWYRGEIM_000_11","ほァ……これで人心地ついたかしら。
-喉の調子もイイ感じになってきたわァ。
-それじゃあ、始めましょうか？"
-55,"TEXT_SUBSEA921_00699_SWYRGEIM_000_12","いいこと？　アナタがイケてない理由……
-それは装備品の「染色」をしてないからだわ！"
-56,"TEXT_SUBSEA921_00699_SWYRGEIM_000_13","装備品は「カララント」を使うことで、
-誰でも手軽に、様々な色へと染めることができるの。"
-57,"TEXT_SUBSEA921_00699_SWYRGEIM_000_14","装備品を「染色」しても性能は変わらないし、
-気に入らなければ、何度色を変えたっていいワケ。
-何の心配もなく、美を追求できちゃうのよォ。"
-58,"TEXT_SUBSEA921_00699_SWYRGEIM_000_15","さあ、分かったらアナタもやってみなさァい！
-買った装備品、作った装備品をそのまま着るだけの、
-イケてない冒険者ライフは今日でオサラバよ～ッ！"
-59,"TEXT_SUBSEA921_00699_SWYRGEIM_000_20","やだも～、はやくもってきてちょうだい！"
+48,"TEXT_SUBSEA921_00699_SWYRGEIM_000_0","You there! Yes, <Emphasis>you</Emphasis>, the decisively unfashionable adventurer!"
+49,"TEXT_SUBSEA921_00699_SWYRGEIM_000_1","Gods be good, never in my life have I seen such unapologetic focus on function at extreme cost to form. The mere sight of you fair makes my eyes bleed!"
+50,"TEXT_SUBSEA921_00699_SWYRGEIM_000_2","As a lover of all things aesthetically pleasing, I cannot in good conscience allow you to continue roaming the realm in that sorry state. I believe your appearance can yet be salvaged...through the use of color."
+51,"TEXT_SUBSEA921_00699_SWYRGEIM_000_3","I will teach you how to go about dyeing your outfit, but first I must have a drink. The heat has given me a vicious thirst, and I won't be able to talk for any length of time."
+52,"TEXT_SUBSEA921_00699_SWYRGEIM_000_4","Be a dear and buy me a bottle of orange juice at the stall by the northern gates, would you? Once I have moistened my throat, we shall see to the business of remedying your appearance."
+53,"TEXT_SUBSEA921_00699_SWYRGEIM_000_10","Pray tell, have you brought my orange juice? Lest you have forgotten, the merchant who sells it can be found just inside the northern gates."
+54,"TEXT_SUBSEA921_00699_SWYRGEIM_000_11","<gulp> Phew... That's a relief. Finally, I can teach you how to bring color into your life. Listen well."
+55,"TEXT_SUBSEA921_00699_SWYRGEIM_000_12","There are handy items called <Emphasis>colorants</Emphasis> which allow folk to dye their outfits a veritable rainbow of colors. These colorants are so simple to use, adventurers have no excuse to be fashion-unconscious."
+56,"TEXT_SUBSEA921_00699_SWYRGEIM_000_13","Lest you worry that dyeing will affect your garment's precious properties, you may rest assured it will not. The practicality you adventurers love so much will not suffer for the change in appearance─a change for the better!"
+57,"TEXT_SUBSEA921_00699_SWYRGEIM_000_14","It should also gladden you to know that garments can be dyed repeatedly, so there is no fear of getting locked into one color. The garish pink that seemed like such a wonderful idea after a dozen glasses of red <Emphasis>can</Emphasis> be undone!"
+58,"TEXT_SUBSEA921_00699_SWYRGEIM_000_15","And that is all you need to know about dyeing gear. Now, what are you waiting for? Get out there and bring some color into your life!"
+59,"TEXT_SUBSEA921_00699_SWYRGEIM_000_20","Hurry, else I am like to die of thirst!"

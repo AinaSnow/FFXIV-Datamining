@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_XXAUSE119_03878_SEQ_00","砂の家のミンフィリアは、冒険者にあるものを届けてほしいようだ。"
-1,"TEXT_XXAUSE119_03878_SEQ_01","ミンフィリアの亡父がつづったという手記を託された。砂の家の「ウリエンジェ」に「<Sheet(EventItem,2002998,0)/>」を渡そう。"
-2,"TEXT_XXAUSE119_03878_SEQ_02","ウリエンジェに<Sheet(EventItem,2002998,0)/>を渡したところ、ミンフィリアからの連絡が入った。モードゥナのレヴナンツトールにいる「タタル」と話そう。"
-3,"TEXT_XXAUSE119_03878_SEQ_03","タタルから「石の家」へと案内してもらった。レヴナンツトールの石の家にいる「ミンフィリア」と話そう。"
-4,"TEXT_XXAUSE119_03878_SEQ_04","新たな拠点を得て、「暁」の仲間たちはエオルゼア救済の志を新たにしたようだ。一方のミンフィリアは、新たな戦いの予兆に頭を悩ませている様子だが……。今後の活動に備え、冒険者としての腕をしっかり磨いておこう。"
+0,"TEXT_XXAUSE119_03878_SEQ_00","Minfilia has a final favor to ask of you."
+1,"TEXT_XXAUSE119_03878_SEQ_01","Minfilia's father, Warburton, was a Garlean spy whose true loyalties lay with the Ala Mhigan Resistance. Before his untimely death some fifteen years ago, he stole a wealth of imperial research on the primals, and compiled the findings in his private journal. Though this journal has served to guide Minfilia ever since, she has resolved─after no small amount of soul-searching─to entrust it to Urianger, in the hope that he may succeed in unraveling its remaining mysteries. Present Warburton's journal to Urianger on Minfilia's behalf."
+2,"TEXT_XXAUSE119_03878_SEQ_02","By curious coincidence, Minfilia contacts you via linkpearl immediately after you deliver the journal to Urianger. She has departed for Revenant's Toll, and bids you follow as soon as you are able. Travel to Mor Dhona and speak with Tataru to gain entrance to the Rising Stones."
+3,"TEXT_XXAUSE119_03878_SEQ_03","Tataru welcomes you to Revenant's Toll and the Scions' new headquarters, and explains that Minfilia awaits you inside. Join her and see how you might be of aid to your companions as they settle into their new home."
+4,"TEXT_XXAUSE119_03878_SEQ_04","Even as the Scions of the Seventh Dawn celebrate the inauguration of their new headquarters, Urianger arrives unannounced, bearing troubling news. The distant yet dependable Students of Baldesion are no longer responding to his messages. Fearing the worst, Minfilia bids Urianger do everything he can to determine the cause of their uncharacteristic silence. For the time being, however, the Scions have no choice but to continue their work without the aid of one of their closest allies."
 5,"TEXT_XXAUSE119_03878_SEQ_05",""
 6,"TEXT_XXAUSE119_03878_SEQ_06",""
 7,"TEXT_XXAUSE119_03878_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_XXAUSE119_03878_SEQ_21",""
 22,"TEXT_XXAUSE119_03878_SEQ_22",""
 23,"TEXT_XXAUSE119_03878_SEQ_23",""
-24,"TEXT_XXAUSE119_03878_TODO_00","ウリエンジェに<Sheet(EventItem,2002998,0)/>を渡す"
-25,"TEXT_XXAUSE119_03878_TODO_01","レヴナンツトールのタタルと話す"
-26,"TEXT_XXAUSE119_03878_TODO_02","石の家のミンフィリアと話す"
+24,"TEXT_XXAUSE119_03878_TODO_00","Give Warburton's journal to Urianger."
+25,"TEXT_XXAUSE119_03878_TODO_01","Speak with Tataru in Revenant's Toll."
+26,"TEXT_XXAUSE119_03878_TODO_02","Speak with Minfilia in the Rising Stones."
 27,"TEXT_XXAUSE119_03878_TODO_03",""
 28,"TEXT_XXAUSE119_03878_TODO_04",""
 29,"TEXT_XXAUSE119_03878_TODO_05",""
@@ -49,123 +49,49 @@ int32,str,str
 45,"TEXT_XXAUSE119_03878_TODO_21",""
 46,"TEXT_XXAUSE119_03878_TODO_22",""
 47,"TEXT_XXAUSE119_03878_TODO_23",""
-48,"TEXT_XXAUSE119_03878_SYSTEM_100_000","受注するには、進行中のメインクエストを破棄する必要があります。
-メインコマンドの「コンテンツ情報」から、
-「ジャーナル」を選び、破棄してください。"
-49,"TEXT_XXAUSE119_03878_MINFILIA_000_000","アシエン・エリディブスのことは気になるけど、
-こっちも進めないとね……。
-そう、「砂の家」での仕事も、残すところあとひとつよ。"
-50,"TEXT_XXAUSE119_03878_MINFILIA_000_001","……ここに一冊の手記があります。
-著者は、ガレマール帝国の密偵でありながら、
-アラミゴ解放軍へ帝国の情報を流していた男、わたしの父よ。"
-51,"TEXT_XXAUSE119_03878_MINFILIA_000_002","父は任務のためにウルダハへやってきて、
-不慮の事故に遭い、亡くなったわ。
-死の間際に、この手記をわたしに託して、ね。"
-52,"TEXT_XXAUSE119_03878_MINFILIA_000_003","ここには、15年前に
-父や反帝国派の人々が集めた情報がつづられているの。
-……それに、帝国側が持つ蛮神の情報もね。"
-53,"TEXT_XXAUSE119_03878_MINFILIA_000_004","古い情報だけど、今後の調査に役立つかもしれない。
-これを「砂の家」に残って蛮神の調査を続ける
-ウリエンジェさんに託そうと思うんだけど……"
-54,"TEXT_XXAUSE119_03878_MINFILIA_000_005","この「砂の家」最後の仕事は、
-<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、あなたにお願いしたいの。
-「砂の家」で生まれた、光の戦士たるあなたに。"
-55,"TEXT_XXAUSE119_03878_MINFILIA_000_006","わたしは、調べることがあるから先に出ます。
-……よろしく、お願いするわね。"
-56,"TEXT_XXAUSE119_03878_MINFILIA_000_007","この「砂の家」最後の仕事は、
-あなたにお願いしたいの。
-「砂の家」で生まれた、光の戦士たるあなたに。"
-57,"TEXT_XXAUSE119_03878_URIANGER_000_010","……やはり。
-ミンフィリアは、あなたに託したのですね。
-さあ、最後の仕事を私とあなたの手で……。"
-58,"TEXT_XXAUSE119_03878_URIANGER_000_011","……今を惑う者、過去のささやきにこそ耳を傾くべし。
-古き友の遺志、新たな友の意志、
-私が知るべき物語に、この手記も加えておきましょう。"
-59,"TEXT_XXAUSE119_03878_URIANGER_000_012","さあ、あなたは出立を。
-タタル嬢が先行してレヴナンツトールへ入っています。
-彼女へ問えば、新しき石の扉は開かれるでしょう……。"
-60,"TEXT_XXAUSE119_03878_MINFILIA_000_020","……聞こえる？
-わたしよ、ミンフィリア。"
-61,"TEXT_XXAUSE119_03878_MINFILIA_000_021","そろそろ、ウリエンジェさんとのお話が
-終わったころかと思って連絡したの。
-……「砂の家」最後の仕事、おつかれさま。"
-62,"TEXT_XXAUSE119_03878_MINFILIA_000_022","あなたには、これまで幾度となく砂の家にきてもらったけど、
-これが最後なんて、少し寂しいわね。
-そうそう、さっそくなんだけど……。"
-63,"TEXT_XXAUSE119_03878_MINFILIA_000_023","あなたに伝えたいことがあるの。
-一度、「石の家」に来てくれるかしら。"
-64,"TEXT_XXAUSE119_03878_MINFILIA_000_024","フフ、心配しないで。
-テレポの……エーテライトの利用料金くらい支給するわ。"
-65,"TEXT_XXAUSE119_03878_URIANGER_000_025","あなたは出立を……。
-タタル嬢が先行してレヴナンツトールへ入っています。
-彼女へ問えば、新しき石の扉は開かれるでしょう……。"
-66,"TEXT_XXAUSE119_03878_SLAFBORN_000_026","おう、来たな。
-みんな、お前が来るのを待ってたぞ。"
-67,"TEXT_XXAUSE119_03878_TATARU_000_100","あっ……！
-<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さんも、ご到着でっすね！"
-68,"TEXT_XXAUSE119_03878_SLAFBORN_000_101","受け入れ先の準備は、もうすっかり整っているぞ。
-ちょうど今、建物の譲渡が完了したことを示す書類に、
-盟主殿のサインを入れてきてもらったのだ。"
-69,"TEXT_XXAUSE119_03878_TATARU_000_102","「砂の家」に負けず劣らず、
-居心地のいい拠点になりそうでっす！"
-70,"TEXT_XXAUSE119_03878_TATARU_000_103","ただ、勝手知ったるベスパーベイと違って、
-周りにいるのが知らない人ばかりというのは、
-ちょっと緊張してしまいまっすが……。"
-71,"TEXT_XXAUSE119_03878_TATARU_000_110","ほら、あの人なんて、いかにも怪しいでっす……！
-本当に、この場所で「暁」の活動をしても平気でっすかね……？"
-72,"TEXT_XXAUSE119_03878_SLAFBORN_000_111","ああ、あの男は恐らく、
-「クリスタルタワー」にまつわる遺産を狙っているのだろう。"
-73,"TEXT_XXAUSE119_03878_SLAFBORN_000_112","ほら、南東に、巨大な水晶の塔があるだろう？
-あの塔を含む一帯が、古代文明の遺構になっていて、
-ここ最近は調査が活発に進められているらしい。"
-74,"TEXT_XXAUSE119_03878_SLAFBORN_000_113","目ざとい冒険者や研究者は、その調査に潜り込みたがってる。
-あいつも、クリスタルタワーについて聞き込みをしていたから、
-そういったクチなのだろう。"
-75,"TEXT_XXAUSE119_03878_SLAFBORN_000_114","お前も、冒険者としてクリスタルタワーのことが気になるなら、
-「暁」の活動の合間にでも、あいつに声をかけてみるといい。"
-76,"TEXT_XXAUSE119_03878_SLAFBORN_000_115","どこに所属していようが、冒険は我々の本分だろう？
-そこで得た出会いと経験が、
-お前をさらに高く遠くへ導くかもしれないぞ。"
-77,"TEXT_XXAUSE119_03878_SLAFBORN_000_120","フッ、ここは冒険者の街だからな……
-良くも悪くも、人の出入りは多いだろう。"
-78,"TEXT_XXAUSE119_03878_SLAFBORN_000_121","最近はとくに、
-「クリスタルタワー」の調査が進められているのを聞きつけて、
-潜り込もうとしに来る冒険者や研究者も多い。"
-79,"TEXT_XXAUSE119_03878_SLAFBORN_000_122","……お前も、冒険者として、
-あの遺構に興味があったりはしないのか？"
-80,"TEXT_XXAUSE119_03878_SLAFBORN_000_123","なに、もう協力者として名乗りをあげたと！
-さすがの行動力だな！"
-81,"TEXT_XXAUSE119_03878_SLAFBORN_000_124","俺としても、クリスタルタワーの正体は気になるところだ。
-お前たちの調査の成功と、
-そこに胸躍る冒険が待っていることを祈っているぞ。"
-82,"TEXT_XXAUSE119_03878_SLAFBORN_000_130","なに、ここに集まっている者の多くは、
-新しい挑戦をしようと飛び出してきた冒険者だ。
-しがらみが少ない分、お前たちも付き合いやすかろう。"
-83,"TEXT_XXAUSE119_03878_SLAFBORN_000_131","現に、お前はもうずいぶんと、
-この街に馴染んでいるんじゃないか？"
-84,"TEXT_XXAUSE119_03878_TATARU_000_140","ではでは、私も、この街で「暁」が問題なく活動できるよう、
-受付嬢として奮闘したいと思いまっす！"
-85,"TEXT_XXAUSE119_03878_TATARU_000_141","さあ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん！
-私たちの新たな拠点……「石の家」へ！"
-86,"TEXT_XXAUSE119_03878_TATARU_000_142","「ミンフィリア」さんも、ほかのみなさんも、
-首を長ーくしてお待ちでっすよ。"
-87,"TEXT_XXAUSE119_03878_SYSTEM_000_116","レヴナンツトールの「異国風の男」から、
-「クロニクルクエスト：クリスタルタワー」を、
-受注することができます。"
-88,"TEXT_XXAUSE119_03878_SYSTEM_000_117","「メインクエスト：第七星暦ストーリー」を最後まで進めるには、
-「クロニクルクエスト：クリスタルタワー」を、
-特定のクエストまで完了する必要があります。"
-89,"TEXT_XXAUSE119_03878_SYSTEM_000_118","メインクエストを進める合間に、
-「クロニクルクエスト：クリスタルタワー」も、
-積極的に進めていきましょう！"
-90,"TEXT_XXAUSE119_03878_SYSTEM_000_125","「メインクエスト：第七星暦ストーリー」を最後まで進めるには、
-「クロニクルクエスト：クリスタルタワー」を、
-特定のクエストまで完了する必要があります。"
-91,"TEXT_XXAUSE119_03878_SYSTEM_000_126","メインクエストを進める合間に、
-「クロニクルクエスト：クリスタルタワー」も、
-積極的に進めていきましょう！"
-92,"TEXT_XXAUSE119_03878_TATARU_000_150","こちらが、私たちの新しい拠点……
-「石の家」の入口となっておりまっす！"
-93,"TEXT_XXAUSE119_03878_TATARU_000_151","「ミンフィリア」さんも、ほかのみなさんも、
-首を長ーくしてお待ちでっすよ。
-さっそく中へズズイっと、どうぞでっす！"
+48,"TEXT_XXAUSE119_03878_SYSTEM_100_000","To accept this quest, you must abandon the current main scenario quest. Open the corresponding entry in the journal or duty list and select “Abandon.”"
+49,"TEXT_XXAUSE119_03878_MINFILIA_000_000","Let us set aside the matter of this Ascian until after we have completed our move to the Rising Stones. There is but one final favor I would ask of you before I depart."
+50,"TEXT_XXAUSE119_03878_MINFILIA_000_001","I believe I mentioned before that my father was a member of the Ala Mhigan Resistance. The truth, however, is more complicated than that."
+51,"TEXT_XXAUSE119_03878_MINFILIA_000_002","As far as the Empire knew, he was their spy. He maintained the deception for nigh on half a decade, furnishing the Resistance with vital imperial secrets while feeding his paymasters subtly conceived misinformation."
+52,"TEXT_XXAUSE119_03878_MINFILIA_000_003","When he died some fifteen years ago, my father left behind his journal, which I have closely guarded ever since. It contains every shred of information he and his agents could steal on what they believed to be the single greatest threat to Eorzea: the primals."
+53,"TEXT_XXAUSE119_03878_MINFILIA_000_004","Its wisdom has guided me through the years, though there is much within I still do not understand..."
+54,"TEXT_XXAUSE119_03878_MINFILIA_000_005","It is my hope that Urianger will fare better."
+55,"TEXT_XXAUSE119_03878_MINFILIA_000_006","Tell him to treat it with care. It is all I have left of my father."
+56,"TEXT_XXAUSE119_03878_MINFILIA_000_007","Please, before I reconsider, give my father's journal to Urianger."
+57,"TEXT_XXAUSE119_03878_URIANGER_000_010","I thought thee departed. To what end dost thou linger?"
+58,"TEXT_XXAUSE119_03878_URIANGER_000_011","The father's final bequest...the daughter's lifelong labor."
+59,"TEXT_XXAUSE119_03878_URIANGER_000_012","It is no small thing to surrender such a cherished memento. Well can I imagine the Antecedent's pain. Upon mine honor, I swear to spare no effort in the study of these materials, lest my lady's sacrifice be in vain."
+60,"TEXT_XXAUSE119_03878_MINFILIA_000_020","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, this is Minfilia."
+61,"TEXT_XXAUSE119_03878_MINFILIA_000_021","Forgive me, but I could wait no longer─I have departed for the Rising Stones."
+62,"TEXT_XXAUSE119_03878_MINFILIA_000_022","If...if you have yet to..."
+63,"TEXT_XXAUSE119_03878_MINFILIA_000_023","...Once you have given the journal to Urianger, I bid you come to the Seventh Heaven in Revenant's Toll. Tataru will be there to show you inside our new headquarters."
+64,"TEXT_XXAUSE119_03878_MINFILIA_000_024","Assuming you have already attuned to it, you may wish to make use of our new aetheryte in Revenant's Toll. After all, it is right on our doorstep!"
+65,"TEXT_XXAUSE119_03878_URIANGER_000_025","Thou hast been summoned to the Rising Stones, yes? Then keep not thy fellows waiting."
+66,"TEXT_XXAUSE119_03878_SLAFBORN_000_026","Ah, there you are. Your friends are waiting for you inside."
+67,"TEXT_XXAUSE119_03878_TATARU_000_100","Oh, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! You're here! Good, good. We were all wondering when you'd show up!"
+68,"TEXT_XXAUSE119_03878_SLAFBORN_000_101","As I was just telling your restive receptionist here, I'm pleased to inform you that all the documents have been prepared and all signatures signed. The Rising Stones is officially yours!"
+69,"TEXT_XXAUSE119_03878_TATARU_000_102","Splendid! From this day forward, I will spare no effort in seeing that it is as welcoming and comfortable a home for us as the Waking Sands ever was!"
+70,"TEXT_XXAUSE119_03878_TATARU_000_103","That said, this is all somewhat intimidating, is it not? So many unfamiliar places, and unfamiliar faces..."
+71,"TEXT_XXAUSE119_03878_TATARU_000_110","Take that odd-looking fellow over there, for example. He's been eyeing us most suspiciously ever since we arrived. I cannot help but wonder if we are truly safe here..."
+72,"TEXT_XXAUSE119_03878_SLAFBORN_000_111","Ah, that man. I can't say I've spoken to him myself, but rumor has it he's come to hunt for ancient treasures in the Crystal Tower."
+73,"TEXT_XXAUSE119_03878_SLAFBORN_000_112","You've seen the structure I speak of, no? It'd be hard to miss it. That massive pillar of shining crystal that looms high over the land just to the southeast of here."
+74,"TEXT_XXAUSE119_03878_SLAFBORN_000_113","If the tales are to be believed, it's a remnant of some ancient civilization. The details remain a mystery, and that's no doubt why it's drawn adventurers and scholars from all over looking to unearth its secrets."
+75,"TEXT_XXAUSE119_03878_SLAFBORN_000_114","The man over there is no exception─and if my instincts are true, he knows more than most. If you're curious about the tower yourself, you could do worse than to talk to him and see what he knows."
+76,"TEXT_XXAUSE119_03878_SLAFBORN_000_115","Why, if I weren't otherwise occupied with my duties here, I'd have half a mind to join you. I mean, just look at it! I can scarce begin to imagine what wonders lie inside..."
+77,"TEXT_XXAUSE119_03878_SLAFBORN_000_120","Revenant's Toll is populated mostly by adventurers, which means─as you might expect─that there's quite a bit of coming and going."
+78,"TEXT_XXAUSE119_03878_SLAFBORN_000_121","Emphasis on the <Emphasis>coming</Emphasis>─at least of late, what with the investigation of the Crystal Tower hitting full stride. I've lost track of how many fortune-seekers and scholars have shown up in the past few days alone, hoping to unearth ancient secrets."
+79,"TEXT_XXAUSE119_03878_SLAFBORN_000_122","I don't suppose the tower's piqued your interest as well?"
+80,"TEXT_XXAUSE119_03878_SLAFBORN_000_123","You've already offered your aid to the effort, you say? You certainly move quickly, my friend."
+81,"TEXT_XXAUSE119_03878_SLAFBORN_000_124","If I weren't otherwise occupied with my duties here, I'd have half a mind to join you. Alas, I'll have to settle for hearing the tales of all you've seen upon your return. Be safe in there, yes?"
+82,"TEXT_XXAUSE119_03878_SLAFBORN_000_130","Most of the men and women you see around you here in Revenant's Toll are adventurers who come and go as they wish. I daresay that should make it easier for you to go about your business here."
+83,"TEXT_XXAUSE119_03878_SLAFBORN_000_131","And it shouldn't hurt that <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> here has already made something of a name for <If(PlayerParameter(4))>herself<Else/>himself</If> here. Isn't that so, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>?"
+84,"TEXT_XXAUSE119_03878_TATARU_000_140","Why, that's wonderful to hear! Rest assured that this receptionist will work just as hard to see that our efforts do not skip a beat despite the relocation."
+85,"TEXT_XXAUSE119_03878_TATARU_000_141","And with that, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, I do believe it's time you officially announced your presence to everyone inside."
+86,"TEXT_XXAUSE119_03878_TATARU_000_142","The Antecedent and the others will surely be overjoyed to see you."
+87,"TEXT_XXAUSE119_03878_SYSTEM_000_116","The Crystal Tower quest series is now available from the outlandish man."
+88,"TEXT_XXAUSE119_03878_SYSTEM_000_117","In order to progress in the main scenario, you must first complete certain quests in the Crystal Tower series."
+89,"TEXT_XXAUSE119_03878_SYSTEM_000_118","While you are granted a respite from your duties as a Scion, use your time to probe the depths of the Crystal Tower and see what ancient secrets may be gleaned!"
+90,"TEXT_XXAUSE119_03878_SYSTEM_000_125","In order to progress in the main scenario, you must first complete certain quests in the Crystal Tower series."
+91,"TEXT_XXAUSE119_03878_SYSTEM_000_126","While you are granted a respite from your duties as a Scion, use your time to probe the depths of the Crystal Tower and see what ancient secrets may be gleaned!"
+92,"TEXT_XXAUSE119_03878_TATARU_000_150","Welcome to our new home─the Rising Stones! Isn't it lovely?"
+93,"TEXT_XXAUSE119_03878_TATARU_000_151","But why are you standing around here talking to me? Everyone's waiting for you inside!"

@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSGLD400_00656_SEQ_00","彫金師ギルドのセレンディピティーは、冒険者に仕事を紹介したいようだ。"
-1,"TEXT_CLSGLD400_00656_SEQ_01","セレンディピティーから依頼を受けた。ウルダハの彫金師ギルドにいる「セレンディピティー」に「<Sheet(ItemHQ,　2125,0)/>」を見せよう。"
-2,"TEXT_CLSGLD400_00656_SEQ_02","セレンディピティーに<Sheet(ItemHQ,　2125,0)/>を見せた。ウルダハのルビーロード国際市場にいる「ロロトン」に「<Sheet(ItemHQ,　2125,0)/>」を納品しよう。"
-3,"TEXT_CLSGLD400_00656_SEQ_03","ロロトンに<Sheet(ItemHQ,　2125,0)/>を納品した。ウルダハの彫金師ギルドにいる「セレンディピティー」に報告しよう。"
-4,"TEXT_CLSGLD400_00656_SEQ_04","セレンディピティーに報告した。「狐のジェイド」の噂は、ウルダハを騒がせている。高額な品物を扱う彫金師は気をつけたほうがよさそうだ。詐欺師を十分に警戒しつつ、彫金師として腕を磨こう。
+0,"TEXT_CLSGLD400_00656_SEQ_00","Serendipity has another commission for you."
+1,"TEXT_CLSGLD400_00656_SEQ_01","Once again, Roroton has decided to request your services by name. Craft a high-quality horn staff and present it to Serendipity for inspection."
+2,"TEXT_CLSGLD400_00656_SEQ_02","Gigi and Serendipity both agree that your growth as a goldsmith is undeniable. Since you have not spoken with Roroton in some time, Serendipity suggests that you deliver the staff in person. Seek out the merchant at the Ruby Road Exchange in the Steps of Nald."
+3,"TEXT_CLSGLD400_00656_SEQ_03","Roroton is happy to see you again, and is surprised that you have already finished the staff. Your conversation soon turns to the topic of the Jade Fox, a legendary thief and master of disguise rumored to have come to Ul'dah. Roroton urges you and your guildmates to be careful, as the Jade Fox is known to have a penchant for fine jewelry. Report to Serendipity at the Goldsmiths' Guild and inform her that the commission is complete."
+4,"TEXT_CLSGLD400_00656_SEQ_04","Serendipity congratulates you on another successful assignment, and echoes Roroton's warning about the Jade Fox. However, she states that you need not worry about any commissions made through the Goldsmiths' Guild, as she will personally scrutinize each and every customer. Whether or not her confidence is justified remains to be seen...
 
-※彫金師のレベルが45以上になると、セレンディピティーから次の彫金師クエストを受注することができます。"
+※The next goldsmith quest will be available from Serendipity upon reaching level 45."
 5,"TEXT_CLSGLD400_00656_SEQ_05",""
 6,"TEXT_CLSGLD400_00656_SEQ_06",""
 7,"TEXT_CLSGLD400_00656_SEQ_07",""
@@ -27,9 +27,9 @@ int32,str,str
 21,"TEXT_CLSGLD400_00656_SEQ_21",""
 22,"TEXT_CLSGLD400_00656_SEQ_22",""
 23,"TEXT_CLSGLD400_00656_SEQ_23",""
-24,"TEXT_CLSGLD400_00656_TODO_00","セレンディピティーに<Sheet(ItemHQ,　2125,0)/>を見せる"
-25,"TEXT_CLSGLD400_00656_TODO_01","ルビーロード国際市場のロロトンに<Sheet(ItemHQ,　2125,0)/>を納品"
-26,"TEXT_CLSGLD400_00656_TODO_02","彫金師ギルドのセレンディピティーに報告"
+24,"TEXT_CLSGLD400_00656_TODO_00","Present a horn staff <Sheet(Addon,9,0)/> to Serendipity."
+25,"TEXT_CLSGLD400_00656_TODO_01","Deliver the horn staff <Sheet(Addon,9,0)/> to Roroton."
+26,"TEXT_CLSGLD400_00656_TODO_02","Report to Serendipity."
 27,"TEXT_CLSGLD400_00656_TODO_03",""
 28,"TEXT_CLSGLD400_00656_TODO_04",""
 29,"TEXT_CLSGLD400_00656_TODO_05",""
@@ -51,78 +51,31 @@ int32,str,str
 45,"TEXT_CLSGLD400_00656_TODO_21",""
 46,"TEXT_CLSGLD400_00656_TODO_22",""
 47,"TEXT_CLSGLD400_00656_TODO_23",""
-48,"TEXT_CLSGLD400_00656_SERENDIPITY_000_001","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん！
-また困ったことが……
-ネジがまたしても、ロロトンさんに暴言を吐きまして……。"
-49,"TEXT_CLSGLD400_00656_SERENDIPITY_000_002","「オマエ　ノ　目　ハ　マダマダ　甘イ！
-イチカラ　出直シテコイ！　コノヤロー！」
-……とか言って、彼を叩き出してしまったんです！"
-50,"TEXT_CLSGLD400_00656_SERENDIPITY_000_003","はぁ……まったく、ネジの口の悪さにも困ったものです。
-あ、そうそう、彼がギルドに来た目的は、
-あなたに「<Sheet(ItemHQ,　2125,0)/>」を作ってほしいとのことです。"
-51,"TEXT_CLSGLD400_00656_SERENDIPITY_000_004","これはまた難しい依頼ですが、がんばって製作して、
-私のところまで持ってきてくださいっ！"
-52,"TEXT_CLSGLD400_00656_SERENDIPITY_000_010","あっ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん！
-「<Sheet(ItemHQ,　2125,0)/>」はできましたか？"
-53,"TEXT_CLSGLD400_00656_GIGI_000_011","ネジジジ……ホ……ホーンスタッフ……
-ホーン……ホーン……ホーンホーン！
-コレガ　ホーント　ニ　ホーンスタッフ　カヨ！"
-54,"TEXT_CLSGLD400_00656_GIGI_000_012","チクショウ　ナカナカ　イイジャネェカ！
-オトトイキヤガレッテンダ！
-コノ　スットコドッコイ　ノ　コンコンチキ！！"
-55,"TEXT_CLSGLD400_00656_SERENDIPITY_000_013","……ええと。
-ほ、褒めてます！　すごく！
-………………多分。"
-56,"TEXT_CLSGLD400_00656_SERENDIPITY_000_014","<Sheet(Item,5436,0)/>から柄を削り出しているのは
-<Sheet(Item,　2078,0)/>と同じですが、より凝った装飾を
-施しているのが、この<Sheet(Item,　2125,0)/>です。"
-57,"TEXT_CLSGLD400_00656_SERENDIPITY_000_015","特に、幾多の命を奪ってきた<Sheet(Item,5444,0)/>で
-杖頭を飾ることで、禍々しい魔力を帯びさせることに
-成功しています！"
-58,"TEXT_CLSGLD400_00656_SERENDIPITY_000_016","<Sheet(Item,　2078,0)/>と共通の素材を多く使いながらも、
-全く異なる、優れた杖を作り上げた手腕……
-本当に、見事です！"
-59,"TEXT_CLSGLD400_00656_SERENDIPITY_000_017","では、この杖をルビーロード国際市場にいる
-「ロロトン」さんに届けてあげてください。
-きっと、びっくりすると思います！"
-60,"TEXT_CLSGLD400_00656_ROROTON_000_020","ああ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん！
-実は、お願いがありまして……
-新しい仕事の話なのですが……。"
-61,"TEXT_CLSGLD400_00656_ROROTON_000_021","あっ！　これは「<Sheet(ItemHQ,　2125,0)/>」！
-ありがとうございます！
-よかった、ちゃんと話が通っていたんですね。"
-62,"TEXT_CLSGLD400_00656_ROROTON_000_022","ギルドに注文に行ったのですが、
-例の魔法人形に叩き出されてしまいまして……
-はは、お恥ずかしい。"
-63,"TEXT_CLSGLD400_00656_ROROTON_000_023","あ、いやいや、別に気にしていませんよ。
-きっと魔法人形も、私の宝石商としての素質を
-試すつもりで言ったのでしょう。何事も勉強です。"
-64,"TEXT_CLSGLD400_00656_ROROTON_000_024","そうそう、そういえば、ご存知ですか？
-最近、マーケットの商人たちの間で
-話題になっている噂なのですが……"
-65,"TEXT_CLSGLD400_00656_ROROTON_000_025","なんでもこのウルダハに、
-「狐のジェイド」と呼ばれる
-有名な詐欺師が出没したそうなのです。"
-66,"TEXT_CLSGLD400_00656_ROROTON_000_026","正体不明、神出鬼没。
-変装の達人で、素顔どころか種族や性別も謎だとか。
-共通点はただひとつ、高額の装飾品を狙う点のみです。"
-67,"TEXT_CLSGLD400_00656_ROROTON_000_027","私たち宝石商にとっては、まさに天敵。
-いやはや、狐に狩られるネズミのようには
-なりたくないもんですな。"
-68,"TEXT_CLSGLD400_00656_ROROTON_000_028","特に彫金師ギルドなどは、ヤツの恰好のターゲットです。
-「セレンさん」にも気をつけるよう、お伝えください。"
-69,"TEXT_CLSGLD400_00656_ROROTON_000_029","彫金師ギルドなどは、
-詐欺師「狐のジェイド」の恰好のターゲットです。
-「セレンさん」にも気をつけるよう、お伝えください。"
-70,"TEXT_CLSGLD400_00656_SERENDIPITY_000_030","おかえりなさい。
-「<Sheet(ItemHQ,　2125,0)/>」を喜んでいただけたようですね。"
-71,"TEXT_CLSGLD400_00656_SERENDIPITY_000_031","そういえば、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん、
-先日、お得意様から気になる噂話を聞いたのですが……"
-72,"TEXT_CLSGLD400_00656_SERENDIPITY_000_032","えっ？　詐欺師「狐のジェイド」の話だろうって？
-何で知ってるんですか!?
-そうなんです！　やはり噂は本当だったんですね！"
-73,"TEXT_CLSGLD400_00656_SERENDIPITY_000_033","騙されたら一大事ですっ！
-ギルドマスターである私がしっかりしなくてはっ！"
-74,"TEXT_CLSGLD400_00656_SERENDIPITY_000_034","あっ！　<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん、
-今「頼りないなぁ～」って顔しませんでした？
-ヒドイっ！"
+48,"TEXT_CLSGLD400_00656_SERENDIPITY_000_001","Good to see you again! You'll be pleased to know that Gigi is completely back to normal. Why, when Roroton was here not too long ago, he only had to contend with Gigi's traditional repertoire of insults."
+49,"TEXT_CLSGLD400_00656_SERENDIPITY_000_002","You know what I mean, I'm sure─that Roroton was a hopeless fool, that he was completely devoid of artistic sensibilities, that he smelt of rolanberries─that sort of thing."
+50,"TEXT_CLSGLD400_00656_SERENDIPITY_000_003","Oh, don't get me wrong; it was still terribly distressing. <Emphasis>But</Emphasis>, at least there was no more talk of fires."
+51,"TEXT_CLSGLD400_00656_SERENDIPITY_000_004","Anyway, as for why Roroton was here in the first place, he wished to commission you once more─this time, for a horn staff. It goes without saying that he desires a staff of the highest quality, so please bear that in mind before you present your work to me for inspection. Good luck!"
+52,"TEXT_CLSGLD400_00656_SERENDIPITY_000_010","Oh, have you finished the horn staff already?"
+53,"TEXT_CLSGLD400_00656_GIGI_000_011","NE※GIGIGI★※...
+HoRn...StAfF...aHa! So ThIs Is GrEeNhOrN's StAfF! yOu ArE iMpRoViNg."
+54,"TEXT_CLSGLD400_00656_GIGI_000_012","PeRhApS gReEnHoRn HaS fInAlLy OuTgRoWn <If(PlayerParameter(4))>HeR<Else/>HiS</If> tItLe! I mUsT tHiNk Of A mOrE sUiTaBlE oNe─SoMeThInG tHaT aCkNoWlEdGeS yOuR rEcEnT gRoWtH, bUt StIlL cOnVeYs DiSdAiN fOr ThE mAjOrItY oF yOuR wOrK."
+55,"TEXT_CLSGLD400_00656_SERENDIPITY_000_013","Hm. That's extremely high praise! At least, I think it is..."
+56,"TEXT_CLSGLD400_00656_SERENDIPITY_000_014","But there is one thing that I can say with certainty: this particular commission has made it even easier than usual to evaluate your growth. After all, the fire brand you made before required you to work with many of the same materials, so this is a perfect opportunity to see how your technique has improved since then."
+57,"TEXT_CLSGLD400_00656_SERENDIPITY_000_015","Although both were carved from aldgoat horn and adorned with an eye of fire, I would say that this staff is much more refined by comparison."
+58,"TEXT_CLSGLD400_00656_SERENDIPITY_000_016","The wolf fangs flaring from the tip are the coup de grâce, not only strengthening the thaumaturgical properties of the weapon, but also improving the wielder's ability to cut an imposing figure!"
+59,"TEXT_CLSGLD400_00656_SERENDIPITY_000_017","Why don't you deliver this commission to Roroton at the Ruby Road Exchange personally? It's been a while since you last met, so I'm sure he'd be happy to see you."
+60,"TEXT_CLSGLD400_00656_ROROTON_000_020","Why, if it isn't <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! You're a hard <If(PlayerParameter(4))>woman<Else/>man</If> to find. As it happens, I had another commission for you. Mistress Serendipity has the details. Or would you prefer that I tell you?"
+61,"TEXT_CLSGLD400_00656_ROROTON_000_021","You've already crafted the horn staff!? Beg your pardon, I had no idea!"
+62,"TEXT_CLSGLD400_00656_ROROTON_000_022","I appreciate that you came to deliver it. I was dreading the inevitable encounter with that irrepressible mammet."
+63,"TEXT_CLSGLD400_00656_ROROTON_000_023","Don't misunderstand─it's not that I'm offended. On the contrary, his assessment of my abilities is harsh but fair. He reminds me that I have much and more to learn before I can call myself a connoisseur of the fine arts."
+64,"TEXT_CLSGLD400_00656_ROROTON_000_024","And in times like these, ignorance can be a fatal failing─especially if the rumors sweeping the markets are to be given credence."
+65,"TEXT_CLSGLD400_00656_ROROTON_000_025","Surely you've heard them as well. This talk of the Jade Fox?"
+66,"TEXT_CLSGLD400_00656_ROROTON_000_026","Aye, the legendary thief has come to Ul'dah at last. A master of disguise, whose identity is a complete mystery. There is but one thing on which everyone can agree: that his lust for fine jewelry is insatiable!"
+67,"TEXT_CLSGLD400_00656_ROROTON_000_027","So you must understand why a merchant like me would feel ill at ease. There is no greater enemy to the industrious businessman than a dastardly thief who would steal his wares without compunction."
+68,"TEXT_CLSGLD400_00656_ROROTON_000_028","You and your fellow goldsmiths should take care. In fact, it would not surprise me in the slightest if the Jade Fox were to turn his attentions toward <Emphasis>you</Emphasis>."
+69,"TEXT_CLSGLD400_00656_ROROTON_000_029","Do be careful, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. This Jade Fox character is out there somewhere, and any one of us could be his next target."
+70,"TEXT_CLSGLD400_00656_SERENDIPITY_000_030","Welcome back, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! I hope the staff was to Roroton's satisfaction."
+71,"TEXT_CLSGLD400_00656_SERENDIPITY_000_031","Congratulations on a job well done, then! Oh, but before you go, I've recently been informed that a dangerous thief has come to Ul'dah, and that we goldsmiths might be the target of his machina─"
+72,"TEXT_CLSGLD400_00656_SERENDIPITY_000_032","What? You've already heard about the Jade Fox!? Well now, aren't <Emphasis>we</Emphasis> well-informed!"
+73,"TEXT_CLSGLD400_00656_SERENDIPITY_000_033","Anyway, I must urge you to be cautious when dealing with new customers. The Jade Fox may disguise himself as one in an attempt to defraud you! As for the guild, rest assured that I will personally scrutinize anyone who seeks to commission our goldsmiths. And I am an <Emphasis>excellent</Emphasis> judge of character!"
+74,"TEXT_CLSGLD400_00656_SERENDIPITY_000_034","What was that? Did I just hear you <Emphasis>snicker</Emphasis>, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>!? And I thought you respected your kind and lovely guildmaster..."

@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB203_00834_SEQ_00","コスタ・デル・ソルのクザイ・タザイは、まだまだ困りごとがあるようだ。"
-1,"TEXT_GAIUSB203_00834_SEQ_01","地震の影響で、<Sheet(BNpcName,560,0)/>が陸に上がってくるらしい。まずは「<Sheet(BNpcName,560,0)/>」を5匹倒そう。"
-2,"TEXT_GAIUSB203_00834_SEQ_02","<Sheet(BNpcName,560,0)/>を倒した。はたして、大ガニは現れるのだろうか……。「<Sheet(EObj,2002052,0)/>」で待機し、現れた魔物を倒そう。魔物には「<Sheet(EventItem,2000830,0)/>」が有効らしい。"
-3,"TEXT_GAIUSB203_00834_SEQ_03","<Sheet(BNpcName,1995,0)/>を倒した。コスタ・デル・ソルのクザイ・タザイに報告しよう。"
-4,"TEXT_GAIUSB203_00834_SEQ_04","カニが陸に上がってくる原因であった地震は、魔物に起因しているという。いったいそれは、どんな魔物なのだろうか……。"
+0,"TEXT_GAIUSB203_00834_SEQ_00","Kuzai Tazai wants your help with some crustacean issues."
+1,"TEXT_GAIUSB203_00834_SEQ_01","Recent tremors off the shore of Costa del Sol have caused a troublesome influx of snippers. If that were not bad enough, Kuzai Tazai has informed you that the group is led by an even more fearsome creature. Providing you with a concoction that might be used to debilitate the larger foe, the Lalafell has bid you slay five of the snippers so that you might lure him out."
+2,"TEXT_GAIUSB203_00834_SEQ_02","You have dispatched five snippers, which should serve to provoke the gripper. Lie in wait at the specified location, and ambush the crab with your alchemic concoction when it appears."
+3,"TEXT_GAIUSB203_00834_SEQ_03","You have heroically slain the formidable gripper, making the shores safer for the time being. Report back to Kuzai Tazai."
+4,"TEXT_GAIUSB203_00834_SEQ_04","As before, Kuzai Tazai seems gladdened by your achievement, but remains reserved about the situation. There are rumors afloat that the seaside quakes are being caused by an unknown monster."
 5,"TEXT_GAIUSB203_00834_SEQ_05",""
 6,"TEXT_GAIUSB203_00834_SEQ_06",""
 7,"TEXT_GAIUSB203_00834_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_GAIUSB203_00834_SEQ_21",""
 22,"TEXT_GAIUSB203_00834_SEQ_22",""
 23,"TEXT_GAIUSB203_00834_SEQ_23",""
-24,"TEXT_GAIUSB203_00834_TODO_00","<Sheet(BNpcName,560,0)/>を討伐"
-25,"TEXT_GAIUSB203_00834_TODO_01","<Sheet(EObj,2002052,0)/>で待機し<Sheet(EventItem,2000830,0)/>を使って魔物を討伐"
-26,"TEXT_GAIUSB203_00834_TODO_02","クザイ・タザイに報告"
+24,"TEXT_GAIUSB203_00834_TODO_00","Slay snippers."
+25,"TEXT_GAIUSB203_00834_TODO_01","Lie in wait and defeat the gripper with the alchemic concoction."
+26,"TEXT_GAIUSB203_00834_TODO_02","Report to Kuzai Tazai."
 27,"TEXT_GAIUSB203_00834_TODO_03",""
 28,"TEXT_GAIUSB203_00834_TODO_04",""
 29,"TEXT_GAIUSB203_00834_TODO_05",""
@@ -49,25 +49,12 @@ int32,str,str
 45,"TEXT_GAIUSB203_00834_TODO_21",""
 46,"TEXT_GAIUSB203_00834_TODO_22",""
 47,"TEXT_GAIUSB203_00834_TODO_23",""
-48,"TEXT_GAIUSB203_00834_KUZAITAZAI_000_000","冒険者さんに、またお願いがあります……。
-最近、地震が増えてるんですが、そのたびに危険を察知して、
-「<Sheet(BNpcName,560,0)/>」が陸にあがってくるんです。"
-49,"TEXT_GAIUSB203_00834_KUZAITAZAI_000_001","しかも、<Sheet(BNpcName,560,0)/>を退治しようとすると、
-奴らの親分みたいな大ガニが現れて大暴れするもんで、
-まったく始末におえません！"
-50,"TEXT_GAIUSB203_00834_KUZAITAZAI_000_002","この「<Sheet(EventItem,2000830,0)/>」を渡しておきますね。
-なんでも硬い甲羅を柔らかくする薬だとかで……
-ゲゲルジュ様が、急いで作らせたものなんです。"
-51,"TEXT_GAIUSB203_00834_KUZAITAZAI_000_003","どうぞ、大ガニを退治するときに使ってください。
-腕の立つ冒険者さんにしか、お願いできないんです！
-どうか、よろしくお願いします！"
-52,"TEXT_GAIUSB203_00834_DUMMY_000_010","（スニッパーを５匹倒す）"
-53,"TEXT_GAIUSB203_00834_DUMMY_000_020","（現れた「不審な地点」で待機→特殊スニッパーがPOP
-　バトルアイテムを使って防御力を下げる→倒す）"
-54,"TEXT_GAIUSB203_00834_KUZAITAZAI_000_030","お帰りなさい！
-こんなに早く解決しちゃうだなんて、さすがですね！
-ありがとうございました。"
-55,"TEXT_GAIUSB203_00834_KUZAITAZAI_000_031","ところで、これはタダの噂なんですが……
-そもそもの地震の原因も、なんと魔物なんですって。
-どんな魔物の仕業か知りませんが……不安ですよね。"
-56,"TEXT_GAIUSB203_00834_POP_MESSAGE_000","敵の気配を感じた！！"
+48,"TEXT_GAIUSB203_00834_KUZAITAZAI_000_000","Ah, <If(PlayerParameter(4))>ma'am<Else/>sir</If>. I didn't catch your name before. <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>? Nice to meet you! Even <Emphasis>more</Emphasis> so because I could use your help once again. It's those quakes that started up a little while ago. The tremors have been sending snippers up out of the water."
+49,"TEXT_GAIUSB203_00834_KUZAITAZAI_000_001","They're bloody dangerous things to get rid of by themselves, but there's a gnarled old gripper to tackle into the bargain. Took a toe off the salter's boy not three days past. <sigh> We know how to best it, but we can't get close enough."
+50,"TEXT_GAIUSB203_00834_KUZAITAZAI_000_002","But that's where you come in. Master Gegeruju had an alchemic concoction made that should be able to soften the old gripper's shell."
+51,"TEXT_GAIUSB203_00834_KUZAITAZAI_000_003","Here, take it. It'll be your job to survive the ill-tempered wavekin's swipes long enough to make sure it gets several dousings. You already took care of those kobolds─surely, <Emphasis>these</Emphasis> shouldn't pose any challenge!"
+52,"TEXT_GAIUSB203_00834_DUMMY_000_010",""
+53,"TEXT_GAIUSB203_00834_DUMMY_000_020",""
+54,"TEXT_GAIUSB203_00834_KUZAITAZAI_000_030","That was most quick! You are a credit to all adventurers, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>!"
+55,"TEXT_GAIUSB203_00834_KUZAITAZAI_000_031","You know, I've heard talk of late about what's been causing those tremors. Folk seem certain it's the work of some monster. I know from experience that such words are oft naught but wind, but I can't help but wonder..."
+56,"TEXT_GAIUSB203_00834_POP_MESSAGE_000","The gripper rears its ugly head!"

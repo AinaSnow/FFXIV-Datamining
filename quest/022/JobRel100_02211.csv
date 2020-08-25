@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_JOBREL100_02211_SEQ_00","イディルシャイアのロウェナは、帰り支度をしているようだ。"
-1,"TEXT_JOBREL100_02211_SEQ_01","ロウェナと話をしていたところ、ふたりの珍客が訪れ、彼らの仕事を手伝うはめになった。「人造精霊」を育てる研究を行っているというアルダシールと、伝説の武具職人ゲロルト。彼らの研究場所となるアジス・ラーへ向かい、「アルダシール」と合流しよう。"
-2,"TEXT_JOBREL100_02211_SEQ_02","アルダシールと合流することができた。さっそくアルダシールやゲロルトとともに「人造精霊」の研究を始めよう。"
+0,"TEXT_JOBREL100_02211_SEQ_00","Rowena is planning a trip to Revenant's Toll."
+1,"TEXT_JOBREL100_02211_SEQ_01","You happen upon Rowena just as two unexpected visitors arrive. The first is an earnest young researcher bearing an urgent request, the second, Gerolt the ale-sodden blacksmith. Wasting no time, the researcher, one Ardashir, declares that he has been conducting research into the creation of artificial life─something he refers to as “anima.” Though all of his trials have thus far ended in failure, he is convinced that the Sharlayans' work on arcane sentries holds the key to success. Before he can continue with his suit, however, Gerolt decries him for his lack of imagination, and wryly suggests fusing the anima with a weapon─a proposal which Ardashir considers a stroke of genius. Never one to miss a chance to turn a profit, Rowena sets about persuading Gerolt to take part in the venture, and before you know it, you too have been roped in to test the finished product. You are to rendezvous with Ardashir and Gerolt in Azys Lla, where the pair will apparently be working."
+2,"TEXT_JOBREL100_02211_SEQ_02","You find Ardashir in Azys Lla marveling at the technological wonders of the once-great Allagan Empire. Now that you have arrived, he is ready to begin work on the anima weapon."
 3,"TEXT_JOBREL100_02211_SEQ_03",""
 4,"TEXT_JOBREL100_02211_SEQ_04",""
 5,"TEXT_JOBREL100_02211_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_JOBREL100_02211_SEQ_21",""
 22,"TEXT_JOBREL100_02211_SEQ_22",""
 23,"TEXT_JOBREL100_02211_SEQ_23",""
-24,"TEXT_JOBREL100_02211_TODO_00","ポート・ヘリックスのアルダシールと話す"
+24,"TEXT_JOBREL100_02211_TODO_00","Speak with Ardashir in Azys Lla."
 25,"TEXT_JOBREL100_02211_TODO_01",""
 26,"TEXT_JOBREL100_02211_TODO_02",""
 27,"TEXT_JOBREL100_02211_TODO_03",""
@@ -49,127 +49,50 @@ int32,str,str
 45,"TEXT_JOBREL100_02211_TODO_21",""
 46,"TEXT_JOBREL100_02211_TODO_22",""
 47,"TEXT_JOBREL100_02211_TODO_23",""
-48,"TEXT_JOBREL100_02211_ROWENA_000_000","あら、英雄様じゃない。
-これから、レヴナンツトールに帰ろうと思っていたのだけど、
-……新しい儲け話だったら、話を聞くわよ？"
-49,"TEXT_JOBREL100_02211_ROWENA_100_000","って、また別の客が来たようね。
-あの少年と……ゲロルトの野郎か……。"
-50,"TEXT_JOBREL100_02211_ARDASHIR_000_001","(-怪しげな少年-)お話し中、すみません。
-ロウェナさん、少し気が早いかもしれませんが例の件は……。"
-51,"TEXT_JOBREL100_02211_GEROLT_000_002","よう、ロウェナ、借金返済の件なンだがよ。
-もうちっとだけ待っちゃくれねェか？
-聞くも涙、語るも涙の事情ってもンがあってよォ……。"
-52,"TEXT_JOBREL100_02211_ARDASHIR_000_003","……ちょっと、オジサン。
-今は、このアルダシールが彼女と話しているんです。
-くだらない内容ならば、後にしてもらえませんか？"
-53,"TEXT_JOBREL100_02211_ARDASHIR_000_004","それで、ロウェナさん。
-魔法生物の権威を紹介していただきたいという話ですが、
-その後、進展はありましたでしょうか？"
-54,"TEXT_JOBREL100_02211_GEROLT_000_005","オイオイオイオイオイ……！？
-こちとら、命と酒代が懸かってンだよ！
-ガキはおとなしく、すっこみあそばされやがれ！！"
-55,"TEXT_JOBREL100_02211_ROWENA_000_006","あぁ、もう、煩いわね！
-あんたたち、少し黙ってちょうだい！"
-56,"TEXT_JOBREL100_02211_ROWENA_000_007","アルダシール、そのことだけれど……
-相手がかなりの偏屈ババァで、なかなか協力してくれないのよ。
-こっちも困っていてね。"
-57,"TEXT_JOBREL100_02211_GEROLT_000_008","なぁ、ロウェナよォ……。
-頼むから借金返済を待ってくれよ。
-あと一年、いや、なんだったら半年でもいいから！"
-58,"TEXT_JOBREL100_02211_ARDASHIR_000_009","いい加減にしてください……！！
-こちらは、大事な話をしているんです！
-ダメな大人の借金より、重要な話なんですよ！！"
-59,"TEXT_JOBREL100_02211_GEROLT_000_010","……ンだとこのクソガキ！！
-何の話か知らんが、こっちは生きるか死ぬかなンだよ！
-人命より重要な話だと、説明できンのか、アァン！？"
-60,"TEXT_JOBREL100_02211_ARDASHIR_000_011","いいでしょう、説明してあげますよ……！"
-61,"TEXT_JOBREL100_02211_ARDASHIR_000_012","……「人造精霊」を知っていますか？
-核となるソウルストーンにエーテルを注ぎ、新たな命を創り出す。
-俺は師匠とともに、近東でその研究をしていました。"
-62,"TEXT_JOBREL100_02211_ARDASHIR_000_013","長年の研究の末、俺たちは、
-ついに「人造精霊」を創造することができたんです。"
-63,"TEXT_JOBREL100_02211_ARDASHIR_000_014","……でも、生まれた命は育つことなく消え、
-残されるのは輝きを失ったクズ石ばかり……。
-実らぬ成果に絶望したのか、師匠は失踪しました……。"
-64,"TEXT_JOBREL100_02211_ARDASHIR_000_015","でも、俺は諦めたくなかった……。
-だから故郷を出て、この身ひとつでエオルゼアまでやってきた！
-この崇高な研究を成功させるために！"
-65,"TEXT_JOBREL100_02211_ARDASHIR_000_016","魔法生物の権威の助けがあれば、今度こそ……！
-酒臭いオジサンよりも、
-はるかに価値のある美しい命を創りだすことができる！"
-66,"TEXT_JOBREL100_02211_GEROLT_000_017","ペラペラペラペラ話が長げェンだよ！
-何が人命より重要だ？　何が崇高な研究だ……？
-黙って聞いてりゃなンのこたぁねェ、ガキの泣き言じゃねェか！"
-67,"TEXT_JOBREL100_02211_GEROLT_000_018","オレがオレがと一丁前に語ってやがるが、
-困難にブチ当たると、すぐに他人を頼りやがる……。
-最近の若造にゃ、ヘドが出るぜ。"
-68,"TEXT_JOBREL100_02211_GEROLT_000_019","自分の力で、新しい手法を考えようとは思わねェのか！？
-オレだったら他人のマネゴトなんかしねぇ。"
-69,"TEXT_JOBREL100_02211_GEROLT_000_020","……例えば、武器を触媒にして、
-「人造精霊」とやらの命が散る前に、封じ込めるってのはどうだ。
-そいつの自由はなくなるが、死にもしねェ。"
-70,"TEXT_JOBREL100_02211_GEROLT_100_020","それに、事が上手くいって「人造精霊」が育ちでもしたら、
-その武器は「自ら考えて使い手を助ける武器」となる……！
-命を創りだすことだけじゃねぇ、こういうのが創造ってヤツだろ！"
-71,"TEXT_JOBREL100_02211_ARDASHIR_000_021","なっ、なんて、発想なんだ……。
-自ら思考する武器だなんて、考えたことすら……。"
-72,"TEXT_JOBREL100_02211_ROWENA_100_022","……儲かりそうね、それ。"
-73,"TEXT_JOBREL100_02211_ROWENA_000_022","面白そうな話じゃない。
-完成したら、間違いなく大儲けできるわよ。
-……ゲロルト、あんたアルダシールを手伝いなさい。"
-74,"TEXT_JOBREL100_02211_GEROLT_000_023","はァ！？　ふ……ふざけンじゃねェぞ！
-なンでオレが、クソガキの面倒をみなきゃならねェンだ！
-それに、さっきのは例えだ、例え！"
-75,"TEXT_JOBREL100_02211_ROWENA_000_024","借金のこと、忘れたわけじゃないんでしょうね？
-あんたたちが見事に「人造精霊」を武器に込めて商品化できれば、
-借金をチャラにしてあげてもいいわ。"
-76,"TEXT_JOBREL100_02211_ROWENA_000_025","……いいこと、アルダシール。
-このハゲはね、これでもエオルゼア随一の武具職人なの。
-きっと「人造精霊」を込めることができる武器を作れるはず。"
-77,"TEXT_JOBREL100_02211_ROWENA_100_025","そして、こっちの冒険者……
-<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>は、現代の英雄と呼ばれる逸材。
-できた武器を振るって確かめるにはもってこいよ。"
-78,"TEXT_JOBREL100_02211_ROWENA_000_026","ふたりの逸材の力を借りれば、新たな武器……
-そうね、「アニマウェポン」とでも名付けましょうか。
-それを完成させることも夢じゃないわ。"
-79,"TEXT_JOBREL100_02211_ROWENA_000_027","観念なさいな、ここに居合わせたのも運命よ。
-それに「自ら考えて使い手を助ける武器」が手に入れば、
-あんた自身にとっても、これ以上ない報酬になるでしょう？"
-80,"TEXT_JOBREL100_02211_ARDASHIR_000_028","オジ……ゲロルトさん、失礼な物言いを謝罪します……。
-俺の研究を手伝っていただけないでしょうか？"
-81,"TEXT_JOBREL100_02211_ARDASHIR_100_028","俺はどうしても「人造精霊」を育て上げたいんです！
-ゲロルトさん、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん……
-どうか、お願いします！"
-82,"TEXT_JOBREL100_02211_GEROLT_000_029","チッ……。
-借金がチャラになるってンなら仕方ねェ。
-テメェの「人造精霊」の研究につきあってやンよ。"
-83,"TEXT_JOBREL100_02211_GEROLT_000_030","……乗りかかった船だ、テメェも付き合えよ？"
-84,"TEXT_JOBREL100_02211_ARDASHIR_000_031","あ、ありがとうございます！"
-85,"TEXT_JOBREL100_02211_ROWENA_000_032","……話はまとまったようね。
-必要な人材が集まったとなれば、次は研究場所だけど……
-あたしに提案があるわ。"
-86,"TEXT_JOBREL100_02211_ROWENA_000_033","最近、発見されたっていう噂の魔大陸「アジス・ラー」。
-古代アラグ文明が誇った、未知の技術が眠るあそこなら、
-研究にも良い刺激になると思うの。"
-87,"TEXT_JOBREL100_02211_ROWENA_000_034","ハイウィンド飛空社から、飛空艇を一隻借りておくから、
-アルダシールとゲロルトは、それに乗っていきなさい。
-ほら、行った行った。"
-88,"TEXT_JOBREL100_02211_ARDASHIR_000_035","では、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん！
-その「アジス・ラー」とやらで合流しましょう！"
-89,"TEXT_JOBREL100_02211_ROWENA_100_035","さてと、忙しくなってきたわ。
-こっちの店でもやることがいっぱいね。
-ふふ、「アニマウェポン」の完成が今から楽しみよ……。"
-90,"TEXT_JOBREL100_02211_GEROLT_000_040","……ったく、妙な成り行きになっちまったな。
-ヤカン作りや何やら、普段の仕事は「ハーストミル」で、
-「アニマウェポン」の研究はこっちでやるしかねぇか……。"
-91,"TEXT_JOBREL100_02211_GEROLT_100_040","……ったく、妙な成り行きになっちまったな。
-「アニマウェポン」の研究は「アジス・ラー」で、
-ヤカン作りや何やら、普段の仕事はこっちでやるしかねぇか……。"
-92,"TEXT_JOBREL100_02211_ROWENA_000_041","アルダシールの研究は、
-ゲロルトの借金をチャラにする価値がありそうよ。
-あんたも「アジス・ラー」に行って、彼らと合流しなさい。"
-93,"TEXT_JOBREL100_02211_ARDASHIR_000_056","伝説の「魔大陸」が実在していただなんて……。
-こんな場所で、研究を行えると師匠が知ったら、
-転げまわって、うらやましがるでしょう。"
-94,"TEXT_JOBREL100_02211_ARDASHIR_000_057","よし、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん！
-さっそく研究を始めますよ！"
+48,"TEXT_JOBREL100_02211_ROWENA_000_000","<If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>Good evenin'<Else/>Good mornin'</If><Else/><If(LessThan(PlayerParameter(11),17))>Afternoon<Else/>Good evenin'</If></If> to you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Somethin' on your mind? I've been called back to Revenant's Toll to take care of a new shipment o' wares, but if you've matters o' money that require my attention─"
+49,"TEXT_JOBREL100_02211_ROWENA_100_000","<sigh> Hold that thought. It seems I have visitors. Some more welcome than others..."
+50,"TEXT_JOBREL100_02211_ARDASHIR_000_001","(-Dubious Youth-)Pardon the intrusion, Mistress Rowena. I realize I was here only a few days ago, but I really must speak with you about─"
+51,"TEXT_JOBREL100_02211_GEROLT_000_002","Good, yer still here. We need to talk about that promissory note. Now I know what yer thinkin': “That stinkin' sack o' goobbue shite ain't got me godsdamned money!” Well, yer <Emphasis>wrong</Emphasis>. I saved it up, every last gil. The thing is, me mates took me out for a drink to celebrate, and─"
+52,"TEXT_JOBREL100_02211_ARDASHIR_000_003","(-Dubious Youth-)Excuse me, sir, but when people are talking, it is generally considered rude to interrupt. I know not what manner of business you have with Rowena, but I am quite sure it can wait."
+53,"TEXT_JOBREL100_02211_ARDASHIR_000_004","(-Dubious Youth-)<Emphasis>As I was saying</Emphasis>, Mistress Rowena─have you perchance been able to arrange a meeting with your associates? There is much I would ask them about their work on arcane sentries."
+54,"TEXT_JOBREL100_02211_GEROLT_000_005","Hold on a bleedin' minute! <Emphasis>You</Emphasis> are tellin' <Emphasis>me</Emphasis> to wait? Didn't no one ever teach ye to shut yer gob when grown-ups are talkin'? Me life and, more importantly, me note at the tavern's at stake here. Now be a good lad and bugger off till Uncle Gerolt's had his say."
+55,"TEXT_JOBREL100_02211_ROWENA_000_006","Gerolt! Mind your own advice for once and keep quiet. I'll deal with you soon enough."
+56,"TEXT_JOBREL100_02211_ROWENA_000_007","Regardin' your question, Ardashir─the answer's no. The client I had in mind's a bit of a recluse, and stubborn as all hells in her old age. She wouldn't hear of any meetin', and I ain't got time to press her on it at the moment. Too much to do by half."
+57,"TEXT_JOBREL100_02211_GEROLT_000_008","Sounds like ye've got enough on yer plate without havin' to worry yerself over an old mate's owin's. I tell ye what, let's forget about it for─"
+58,"TEXT_JOBREL100_02211_ARDASHIR_000_009","I know not what hole you have drunken yourself into, <Emphasis>sir</Emphasis>, and quite frankly, I do not care. I have important business to discuss with Mistress Rowena, and I demand you leave us be this instant!"
+59,"TEXT_JOBREL100_02211_GEROLT_000_010","Bah, the youth o' today! Jumped-up, self-servin' little shites the lot o' ye! ...Fine! Tell us then, Yer Highness─what's this business o' yers that's more important than a man's life, eh? Well? Out with it!"
+60,"TEXT_JOBREL100_02211_ARDASHIR_000_011","Very well. If only to explain myself to Rowena."
+61,"TEXT_JOBREL100_02211_ARDASHIR_000_012","Together with my master, I have been conducting research into the manipulation of spiritual and aetheric energies in what you call the Near East. Our work has shown that the soul is in fact an agglomeration of a specific type of force. This force defines the quiddity of man and makes us who we are."
+62,"TEXT_JOBREL100_02211_ARDASHIR_000_013","While the soul is indeed inimitable, we believe it possible to create a quasi-soul. Thus we turned our attention to anima─the selfsame force which allows individuals to traverse the Lifestream via aetherytes. By infusing a soulstone with the requisite quantities of aether, this force may be harnessed."
+63,"TEXT_JOBREL100_02211_ARDASHIR_000_014","Yet after years of research and experimentation, we have naught to show for it but inert husks of stone. We repeated the process again and again, adjusting every element, but the result was always the same. At length, my master declared the project a failure, and turned his thoughts to other matters."
+64,"TEXT_JOBREL100_02211_ARDASHIR_000_015","But I could not give up! Not after witnessing the beauty of anima. Not after coming so close. And that is why I have journeyed hither to Eorzea."
+65,"TEXT_JOBREL100_02211_ARDASHIR_000_016","I am certain that with the Sharlayans' knowledge of arcane sentries, I can complete my project. I am also certain that the resultant souls will be worth more to mankind than the ale-soaked dishclout that passes for yours!"
+66,"TEXT_JOBREL100_02211_GEROLT_000_017","Finished, have ye? Well then, <Emphasis>allow me to retort</Emphasis>. Seems to me yer a cockered little brat as speaks a lot without sayin' aught. Ye talk like a man o' learnin' when 'tis plain yer just a boy what's never had a thought o' his own, and couldn't even if he tried─not that ye ever would, o' course."
+67,"TEXT_JOBREL100_02211_GEROLT_000_018","And why? 'Cause the youth of today can't be bothered to do an onze of honest work for 'emselves. No sense o' duty. Things get rough, and ye run fer help, leavin' a trail o' piss in yer wake."
+68,"TEXT_JOBREL100_02211_GEROLT_000_019","D'ye reckon them scholarly folks from Sharlayan asked for the answer whenever they got stuck? Not bloody likely! 'Cause they used their bloody brains!"
+69,"TEXT_JOBREL100_02211_GEROLT_000_020","'Tain't even that hard! If <Emphasis>I</Emphasis> saw these soul things burnin' out too quick, I'd think about sealin' 'em inside summat strong, like a weapon maybe, to keep all that life from escapin'. It'd cost 'em a bit o' freedom, aye, but it'd keep 'em around for a damn sight longer than you managed."
+70,"TEXT_JOBREL100_02211_GEROLT_100_020","What's more, if the bloody things really <Emphasis>are</Emphasis> alive like ye say, ye'd end up with a weapon what could think for itself, which could be bloody <Emphasis>lethal</Emphasis> in the right hands! What do ye say to that, ye preenin' little shite?"
+71,"TEXT_JOBREL100_02211_ARDASHIR_000_021","An anima <Emphasis>weapon</Emphasis>!? That...that is absolute genius! A means not only to preserve created anima, but to <Emphasis>employ</Emphasis> it..."
+72,"TEXT_JOBREL100_02211_ROWENA_100_022","Anima weapons, eh? Aye, that'll sell."
+73,"TEXT_JOBREL100_02211_ROWENA_000_022","Quite an interestin' proposition, Gerolt. One that could be quite lucrative. Why not help poor Ardashir here with his work an' see what you can make of it?"
+74,"TEXT_JOBREL100_02211_GEROLT_000_023","Help that spineless streak o' piss? Yer jokin', ain't ye? Why in the seven hells would I play nursemaid to a watery-eyed brat like him? I was just spoutin' shite! I didn't really <Emphasis>mean</Emphasis> none of it!"
+75,"TEXT_JOBREL100_02211_ROWENA_000_024","Is that right? Pity. Sounded like somethin' we could've made a good bit o' coin out of. Enough to make me forget your debts, like as not... <Emphasis>Your debts that I won't be forgettin' otherwise.</Emphasis> Changed your mind? Good."
+76,"TEXT_JOBREL100_02211_ROWENA_000_025","Listen, Ardashir: he may be a drunken bloody fool, but he's also the finest blacksmith in all the realm. If anyone can forge a weapon capable o' holdin' your souls, it's him."
+77,"TEXT_JOBREL100_02211_ROWENA_100_025","And our adventurin' friend here, my dear sweet <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, is a well-known hero 'round these parts. I'm sure <If(PlayerParameter(4))>she'd<Else/>he'd</If> love nothin' more than to try out your new weapon when it's finished─ain't that right?"
+78,"TEXT_JOBREL100_02211_ROWENA_000_026","Just think of it: you'd be the first in all of Eorzea to wield one o' these anima weapons─which ain't a bad name now that I come to think of it. “Anima weapon.” Aye, that'll do."
+79,"TEXT_JOBREL100_02211_ROWENA_000_027","Now don't be so hasty, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. This here is fate! What else could've brought the three of you to me at the selfsame time, eh? And don't go tellin' me the thought of a weapon that learns and adapts to combat don't interest you, 'cos we both know it does."
+80,"TEXT_JOBREL100_02211_ARDASHIR_000_028","Gerolt, was it? Pray forgive me my rudeness earlier. If you truly are the smith she claims, I would be honored to have your assistance."
+81,"TEXT_JOBREL100_02211_ARDASHIR_100_028","And you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I gather you are the perfect candidate to test the weapon once it's complete."
+82,"TEXT_JOBREL100_02211_GEROLT_000_029","Hmph. Well, if this'll get me square with Rowena, then I s'pose me hammer's yours."
+83,"TEXT_JOBREL100_02211_GEROLT_000_030","But don't think I'm gettin' roped into this alone. If I have to forge it, you have to wield it."
+84,"TEXT_JOBREL100_02211_ARDASHIR_000_031","Thank you, both of you. I promise you will not regret this."
+85,"TEXT_JOBREL100_02211_ROWENA_000_032","Nice to see you're all gettin' on. Now, you're goin' to need a place to work, and I know just the spot."
+86,"TEXT_JOBREL100_02211_ROWENA_000_033","Azys Lla, the seat of Allagan science, floatin' on high over Abalathia's Spine."
+87,"TEXT_JOBREL100_02211_ROWENA_000_034","Not that the equipment up there'll be any use to you, mind. Only the Twelve know how that stuff works. Still, it'll keep pryin' eyes away until the weapon's ready. I'll arrange for an airship to take you within the day."
+88,"TEXT_JOBREL100_02211_ARDASHIR_000_035","The fabled Azys Lla... I look forward to seeing you there, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>!"
+89,"TEXT_JOBREL100_02211_ROWENA_100_035","<If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>Today has proven<Else/>Today is already provin'</If><Else/><If(LessThan(PlayerParameter(11),17))>Today is provin'<Else/>Today has proven</If></If> to be more productive than I thought. Gerolt's out o' my hair, and soon I'll have new merchandise for the House o' Splendors. Assumin' this ridiculous plan o' his works. I'm countin' on you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
+90,"TEXT_JOBREL100_02211_GEROLT_000_040","We come all this way, and we can't even use the godsdamned equipment. D'ye know how heavy this anvil is? Too bloody heavy! Should've given it to his lordship to carry─that would've been good for a laugh."
+91,"TEXT_JOBREL100_02211_GEROLT_100_040","Aye, I know. I have to go and help that little shite with his godsdamned research. Still think we should've done the work here, but there's no arguin' with Rowena. <sigh> Just let me finish one more kettle."
+92,"TEXT_JOBREL100_02211_ROWENA_000_041","Safe travels, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Gerolt's sure to start gripin' and moanin' after a while, but you just remind him o' what he owes me. That should set him straight."
+93,"TEXT_JOBREL100_02211_ARDASHIR_000_056","The fabled Azys Lla. I'd heard stories, but who would believe such a technological marvel could exist, and floating in the sky at that. If only my master could see me now."
+94,"TEXT_JOBREL100_02211_ARDASHIR_000_057","But this is not the time for gawping. Come, let us begin our work on the anima weapon."

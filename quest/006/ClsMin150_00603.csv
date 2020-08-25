@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSMIN150_00603_SEQ_00","採掘師ギルドのアダルベルタは、冒険者がやって来るのを待っていたようだ。"
-1,"TEXT_CLSMIN150_00603_SEQ_01","アダルベルタは、冒険者に興味を持ったアマジナ鉱山社の副社長、ディープ・キャニオンを紹介したいらしい。彼女の頼み通り、採掘師ギルドにいる「ディープ・キャニオン」に会いに行こう。"
-2,"TEXT_CLSMIN150_00603_SEQ_02","「ディープ・キャニオン」は、かつて黒曜石を求めた依頼をこなした冒険者を賞賛しつつも、より深く冒険者の実力を知りたいようだった。彼から<Sheet(ItemHQ,5519,0)/>の採掘を頼まれたが、仕事を受けたことを採掘師ギルドの「アダルベルタ」に報告しよう。"
-3,"TEXT_CLSMIN150_00603_SEQ_03","アダルベルタは、<Sheet(ItemHQ,5519,0)/>が簡単には採掘できる物ではないことを教えてくれる。しかし同時に、ディープ・キャニオンによって試されていることを理解し、頑張れと激励してくれた。サンライズ門を出たあたりで入手できる<Sheet(ItemHQ,5519,0)/>を採掘し、採掘師ギルドにいる「ディープ・キャニオン」に10個納品しよう。"
-4,"TEXT_CLSMIN150_00603_SEQ_04","ディープキャニオンに<Sheet(ItemHQ,5519,0)/>を無事に納品した。彼は冒険者の実力を認めつつも、もう少し身なりに気をつけたほうがいいと、忠告してきた。
+0,"TEXT_CLSMIN150_00603_SEQ_00","Adalberta would like you to meet a prominent member of the mining community."
+1,"TEXT_CLSMIN150_00603_SEQ_01","It would seem your recent efforts have attracted the attention of Deep Canyon, vice foreman of Amajina & Sons Mineral Concern. According to Adalberta, he is eager to meet with you, and has come to the guild for that very purpose. Seek him near the entrance, and introduce yourself."
+2,"TEXT_CLSMIN150_00603_SEQ_02","Wishing to assess your reported potential for himself, Deep Canyon bids you procure ten onzes of high-purity cinnabar. For the sake of formality, report back to Adalberta prior to beginning your task."
+3,"TEXT_CLSMIN150_00603_SEQ_03","According to Adalberta, ten onzes of high-purity cinnabar will not be easy to find. Nevertheless, the guildmaster believes you equal to the task. Search for the elusive mineral in the vicinity of Horizon in western Thanalan, and when you have found the requisite quantity, deliver the lot to Deep Canyon."
+4,"TEXT_CLSMIN150_00603_SEQ_04","Deep Canyon is impressed that you were able to find the quantity of cinnabar he requested, and promises you more work from the Concern. Now convinced of your potential, he advises you to invest in better gear, arguing that the benefits of quality equipment far outweigh the initial cost.
 
-※採掘師のレベルが20以上になると、アダルベルタから次の採掘師クエストを受注することができます。"
+※The next miner quest will be available from Adalberta upon reaching level 20."
 5,"TEXT_CLSMIN150_00603_SEQ_05",""
 6,"TEXT_CLSMIN150_00603_SEQ_06",""
 7,"TEXT_CLSMIN150_00603_SEQ_07",""
@@ -27,9 +27,9 @@ int32,str,str
 21,"TEXT_CLSMIN150_00603_SEQ_21",""
 22,"TEXT_CLSMIN150_00603_SEQ_22",""
 23,"TEXT_CLSMIN150_00603_SEQ_23",""
-24,"TEXT_CLSMIN150_00603_TODO_00","ディープ・キャニオンと話す"
-25,"TEXT_CLSMIN150_00603_TODO_01","アダルベルタと話す"
-26,"TEXT_CLSMIN150_00603_TODO_02","<Sheet(ItemHQ,5519,0)/>を採掘師ギルドのディープ・キャニオンに納品"
+24,"TEXT_CLSMIN150_00603_TODO_00","Speak with Deep Canyon."
+25,"TEXT_CLSMIN150_00603_TODO_01","Speak with Adalberta."
+26,"TEXT_CLSMIN150_00603_TODO_02","Deliver onzes of cinnabar <Sheet(Addon,9,0)/> to Deep Canyon."
 27,"TEXT_CLSMIN150_00603_TODO_03",""
 28,"TEXT_CLSMIN150_00603_TODO_04",""
 29,"TEXT_CLSMIN150_00603_TODO_05",""
@@ -51,92 +51,40 @@ int32,str,str
 45,"TEXT_CLSMIN150_00603_TODO_21",""
 46,"TEXT_CLSMIN150_00603_TODO_22",""
 47,"TEXT_CLSMIN150_00603_TODO_23",""
-48,"TEXT_CLSMIN150_00603_ADALBERTA_000_0","ああ、いらっしゃい<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
-キミが来るのを待ってたのよ。"
-49,"TEXT_CLSMIN150_00603_ADALBERTA_000_1","このあいだ、黒曜石を採掘してもらったわよね？
-あの仕事ぶりが、依頼主の耳に届いたらしくてね。"
-50,"TEXT_CLSMIN150_00603_ADALBERTA_000_2","アマジナ鉱山社の副社長「ディープ・キャニオン」さんが、
-キミに会ってみたいと言ってるのよ。"
-51,"TEXT_CLSMIN150_00603_ADALBERTA_000_3","……実は、あたしとちょっと因縁のある人でね。
-できれば、キミを巻き込みたくなかったけど……
-名指しで来られたんじゃ、断ることもできない。"
-52,"TEXT_CLSMIN150_00603_ADALBERTA_000_4","……今のは失言だったわ。
-悪いけど、聞かなかったことにしてくれる？"
-53,"TEXT_CLSMIN150_00603_ADALBERTA_000_5","ともかく、ギルドの入口近くで待ってるはずだから、
-ちょっと彼に挨拶してきてほしいのよ。
-大口の顧客だから、くれぐれも失礼ないようにね。"
-54,"TEXT_CLSMIN150_00603_DEEPCANYON_000_10","<Highlight>ObjectParameter(1)</Highlight>君だね？
-話はギルドマスターより聞いている。
-一度、君と話をしてみたかった。"
-55,"TEXT_CLSMIN150_00603_DEEPCANYON_000_11","私の名は「ディープ・キャニオン」。
-アマジナ鉱山社において、副社長の職にある者だ。"
-56,"TEXT_CLSMIN150_00603_DEEPCANYON_000_12","しかし、あのギルドマスターが目をかけていると聞いて、
-どんな人物かと思っていたが……冒険者だったとはな。
-少々驚かされたよ。"
-57,"TEXT_CLSMIN150_00603_DEEPCANYON_000_13","やはり採掘師と言えばアラミゴ出身者が目立つものでな。
-こう言ってはなんだが、根無し草の冒険者が、
-はたして、ウルダハの役に立つのだろうかと思っていた。"
-58,"TEXT_CLSMIN150_00603_DEEPCANYON_000_14","しかし、どうやら君はそこらの冒険者とは一味違うようだ。
-我が社の依頼を、見事に果たしてみせたのだからな。
-そこはまず、素直に認めよう。"
-59,"TEXT_CLSMIN150_00603_DEEPCANYON_000_15","だが、私はまだ君のことを知らな過ぎる。
-依頼主としてもう少し、詳しく君の実力が知りたい。"
-60,"TEXT_CLSMIN150_00603_DEEPCANYON_000_16","そこでだ……<Highlight>ObjectParameter(1)</Highlight>君。
-試すようで悪いが、ひとつ頼まれてくれないか？
-「<Sheet(ItemHQ,5519,0)/>」が10個ほど、急に要り用になってしまったのだ。"
-61,"TEXT_CLSMIN150_00603_DEEPCANYON_000_17","まさか、できぬとは言うまい？
-採掘師ギルドの一員なのだから、それぐらいお安いご用だろう？"
-62,"TEXT_CLSMIN150_00603_DEEPCANYON_000_18","おっと……そうだ。
-君が採掘に出かける前に
-一応、アダルベルタにこの件を報告しておいてくれ。"
-63,"TEXT_CLSMIN150_00603_DEEPCANYON_000_19","依頼主とはいえ、
-彼女を通さずにギルド員をあごでは使えないのでな。"
-64,"TEXT_CLSMIN150_00603_ADALBERTA_000_20","ふぅん……そんなことを、副社長がねぇ。
-相変わらず、回りくどいことが好きな人だわ。"
-65,"TEXT_CLSMIN150_00603_ADALBERTA_000_21","それにしても<Sheet(ItemHQ,5519,0)/>を10個だっけ。
-意地が悪いというか、知識がなきゃ掘れないものを……。"
-66,"TEXT_CLSMIN150_00603_ADALBERTA_000_22","水銀なんかの材料として使われている赤褐色の鉱物なんだけど、
-こいつはね、普通の採掘場では取れないのよ。"
-67,"TEXT_CLSMIN150_00603_ADALBERTA_000_23","このあいだ渡したモールを使って、岩場を砕岩するの。
-そうすれば、手に入れることができるはず。"
-68,"TEXT_CLSMIN150_00603_ADALBERTA_000_24","<Sheet(ItemHQ,5519,0)/>を10個……大変だろうけど、よろしくね。
-副社長は、実力を見せろって言っていたんでしょう？
-とくと見せてあげて、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。"
-69,"TEXT_CLSMIN150_00603_DEEPCANYON_000_30","頼んだ「<Sheet(ItemHQ,5519,0)/>」10個はまだかね？
-「サンライズ門」から出たあたりで、採れるはずなのだが。"
-70,"TEXT_CLSMIN150_00603_DEEPCANYON_000_31","ふむ……なかなかの品質だ。まずは褒めておこう。
-どうやら、砕岩をこなせる程度の技術はあるというわけか。"
-71,"TEXT_CLSMIN150_00603_DEEPCANYON_000_32","なるほど……どうやら<Highlight>ObjectParameter(1)</Highlight>君は、
-私が考えていた以上に優秀らしい。
-アダルベルタの下にいることが、惜しいくらいだ。"
-72,"TEXT_CLSMIN150_00603_DEEPCANYON_000_33","どうかね、私の直属に……いや、君は冒険者だったな。
-このウルダハに根付いてくれる者でなければ、
-副社長であるこの私の右腕は務まらん。"
-73,"TEXT_CLSMIN150_00603_DEEPCANYON_000_34","このウルダハが栄えてこその、鉱山運営だろうに。
-大事な採掘師の技術をよそ者に教えてしまう、
-今のギルドマスターのやり方は、どうにも馴染めん。"
-74,"TEXT_CLSMIN150_00603_DEEPCANYON_000_35","無論、君のような異邦人でも
-見込みのある若者がいることは理解したが……
-金になる技術はウルダハで独占したいのが本音だ。"
-75,"TEXT_CLSMIN150_00603_DEEPCANYON_000_36","やはり彼女には近いうちに……
-おっとすまない、つい考え事をしてしまった。"
-76,"TEXT_CLSMIN150_00603_DEEPCANYON_000_37","ともかく君の実力はよくわかった。
-いずれ、また仕事を頼むこともあるだろう。"
-77,"TEXT_CLSMIN150_00603_DEEPCANYON_000_38","だが、ひとつだけ注文をつけるなら……
-もう少し身なりに気を遣いたまえ。"
-78,"TEXT_CLSMIN150_00603_DEEPCANYON_000_39","採掘師にとって、服装は見た目だけでなく、
-仕事の上でも大きな影響があることを知るといい。
-採掘師には、採掘師らしい格好があるということだ。"
-79,"TEXT_CLSMIN150_00603_DEEPCANYON_000_40","手袋ひとつ、靴ひとつ変えただけでも、
-作業効率は大きく変わるということを、覚えておきたまえ。"
-80,"TEXT_CLSMIN150_00603_DEEPCANYON_000_41","では、機会があればまた会おう。
-君が採掘師を続ける限り、それはおそらく……
-それほど遠い日のことではないと思うが、な。"
-81,"TEXT_CLSMIN150_00603_SYSTEM_000_50","装備を変更することによって「獲得力」「識質力」「GP」
-を上昇させることができます。"
-82,"TEXT_CLSMIN150_00603_SYSTEM_000_51","「獲得力」は採掘の成功率がアップし、
-「識質力」は入手可能なアイテムの質がアップし、
-「GP」はGPの最大値がアップします。"
-83,"TEXT_CLSMIN150_00603_SYSTEM_000_52","あなたの採掘の目的に合わせて、装備を整えていきましょう。"
-84,"TEXT_CLSMIN150_00603_DEEPCANYON_000_60","おや、どうしたね<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>君？
-アダルベルタに、話を通してくれたかね？"
+48,"TEXT_CLSMIN150_00603_ADALBERTA_000_0","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! I've been searching high and low for you!"
+49,"TEXT_CLSMIN150_00603_ADALBERTA_000_1","You have a visitor, and no ordinary one at that! I speak of Deep Canyon, vice foreman of Amajina & Sons Mineral Concern."
+50,"TEXT_CLSMIN150_00603_ADALBERTA_000_2","It seems word of your sizable haul of obsidian has reached his ears, and now he wishes to meet with you."
+51,"TEXT_CLSMIN150_00603_ADALBERTA_000_3","I can only speculate as to his intentions, I'm afraid. We haven't spoken much of late."
+52,"TEXT_CLSMIN150_00603_ADALBERTA_000_4","Truth be told, I've scarcely seen him. You'd never know it, but we used to be close..."
+53,"TEXT_CLSMIN150_00603_ADALBERTA_000_5","<Emphasis>Anyway</Emphasis>, I suggest you go and see the man─find out what he wants of you. He's waiting by the entrance."
+54,"TEXT_CLSMIN150_00603_DEEPCANYON_000_10","You must be <Highlight>ObjectParameter(1)</Highlight>. I've been waitin' for you."
+55,"TEXT_CLSMIN150_00603_DEEPCANYON_000_11","I'm Deep Canyon, vice foreman of the Concern."
+56,"TEXT_CLSMIN150_00603_DEEPCANYON_000_12","I must say, you're not what I was expectin'. I was sure Adalberta's newest protégé would be an Ala Mhigan─like every other miner this place produces these days. But I'll wager you're from even farther afield...an' that you're an <Emphasis>adventurer</Emphasis>. Hmph."
+57,"TEXT_CLSMIN150_00603_DEEPCANYON_000_13","No offense, but in these parts, adventurers are known for bein' fickle buggers who break pledges like the rest of us break bread. Truth be told, I've always wondered whether you lot are actually good for Ul'dah."
+58,"TEXT_CLSMIN150_00603_DEEPCANYON_000_14","But it seems you're not like the others. It takes more than a jobbin' miner to deliver on an order from the Concern."
+59,"TEXT_CLSMIN150_00603_DEEPCANYON_000_15","I've a mind to assign you work─<Emphasis>real</Emphasis> work. But before I do, I'm obliged to test you."
+60,"TEXT_CLSMIN150_00603_DEEPCANYON_000_16","I want you to procure ten onzes of high-purity cinnabar for me. Do this, an' we'll talk about more lucrative undertakin's."
+61,"TEXT_CLSMIN150_00603_DEEPCANYON_000_17","'Course, a bit of cinnabar shouldn't pose much trouble for the guild's risin' star. 'Tis but a formality."
+62,"TEXT_CLSMIN150_00603_DEEPCANYON_000_18","An' speakin' of formalities, be sure to tell the guildmaster about your little test."
+63,"TEXT_CLSMIN150_00603_DEEPCANYON_000_19","She's the one in charge 'round here, after all. I won't have it said that I'm underminin' her authority."
+64,"TEXT_CLSMIN150_00603_ADALBERTA_000_20","A test from Deep Canyon, you say? I thought as much..."
+65,"TEXT_CLSMIN150_00603_ADALBERTA_000_21","In case you don't know, cinnabar's the mineral used to make quicksilver. It's found in certain types of rock, and you invariably need a sledgehammer to get at it."
+66,"TEXT_CLSMIN150_00603_ADALBERTA_000_22","Now, I don't mean to dampen your spirits, but contrary to what you were told, cinnabar <Emphasis>isn't</Emphasis> easy to find. In fact, it's known to elude even experienced miners. And here you are, tasked with procuring ten onzes of the stuff!"
+67,"TEXT_CLSMIN150_00603_ADALBERTA_000_23","Safe to say, this test is no mere formality. Hmmm...I may not be able to help you dig, but I <Emphasis>can</Emphasis> point you in the right direction. Search just outside the Sunrise Gate─the rocky outcrops thereabouts are known to yield cinnabar."
+68,"TEXT_CLSMIN150_00603_ADALBERTA_000_24","Ten onzes may sound like nothing, but take it from me: you'll have to work for every one. This is a big task, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, but I believe you're equal to it."
+69,"TEXT_CLSMIN150_00603_DEEPCANYON_000_30","I want ten onzes of high-purity cinnabar, an' not one less. Oh, an' make it quick─I've got other commissions that want seein' to."
+70,"TEXT_CLSMIN150_00603_DEEPCANYON_000_31","Well, well...the full amount. Congratulations, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>─you've passed the test."
+71,"TEXT_CLSMIN150_00603_DEEPCANYON_000_32","Seems you've got even more potential than I'd been led to believe. This guild's no place for a <If(PlayerParameter(4))>lass<Else/>lad</If> of your talent."
+72,"TEXT_CLSMIN150_00603_DEEPCANYON_000_33","I'd make you my personal assistant, but sadly for you, the position's not open to adventurers. Why? 'Cause the Concern only employs those whose roots're firmly planted in Ul'dah."
+73,"TEXT_CLSMIN150_00603_DEEPCANYON_000_34","Our nation owes much of its prosperity to the minin' trade, but more an' more, we see outsiders growin' fat off the knowledge of our forebears."
+74,"TEXT_CLSMIN150_00603_DEEPCANYON_000_35","Oh, I know full well that there're decent foreigners out there who give as much as they get─yourself, for one─but ultimately, what belongs to Ul'dah should stay in Ul'dahn hands."
+75,"TEXT_CLSMIN150_00603_DEEPCANYON_000_36","'Course, the current guildmaster doesn't share our way of thinkin'─which is somethin' I daresay we'll need to see about correctin' before long. Might be as business is good, but 'tis better to be shorthanded than to watch outsiders make off with our wealth."
+76,"TEXT_CLSMIN150_00603_DEEPCANYON_000_37","...But we were talkin' about you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. You've proven yourself capable, an' the Concern'll have more work for you in the comin' days. Depend on it."
+77,"TEXT_CLSMIN150_00603_DEEPCANYON_000_38","Before I go, here's some free advice from me: pay more attention to your gear."
+78,"TEXT_CLSMIN150_00603_DEEPCANYON_000_39","What you wear an' wield affects how well you work. Even a decent pair of gloves can make a world of difference, take my word for it."
+79,"TEXT_CLSMIN150_00603_DEEPCANYON_000_40","These things cost money, 'tis true, but what's the price of a pair of gloves compared to the untold wealth that lies out there, waitin' to be dug up? Bugger all, that's what."
+80,"TEXT_CLSMIN150_00603_DEEPCANYON_000_41","An' on that note, I'll be off. I don't doubt we'll meet again soon─assumin' you stick with the trade long enough, that is."
+81,"TEXT_CLSMIN150_00603_SYSTEM_000_50","Certain gear grants bonuses to your <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>gathering<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>perception<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, and <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>GP<UIGlow>01</UIGlow><UIForeground>01</UIForeground> values."
+82,"TEXT_CLSMIN150_00603_SYSTEM_000_51","A higher gathering rating improves your chances of obtaining an item; greater perception raises the probability of finding high-quality items; and additional GP increases your extracting stamina."
+83,"TEXT_CLSMIN150_00603_SYSTEM_000_52","Outfitting yourself with an eye to your objectives will increase the efficiency of your gathering endeavors."
+84,"TEXT_CLSMIN150_00603_DEEPCANYON_000_60","Don't forget to tell the guildmaster about your little task. She's the one in charge 'round here, after all."

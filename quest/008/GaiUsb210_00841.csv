@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB210_00841_SEQ_00","ワインポートのエトガルは、冒険者に魔物の討伐を頼みたいようだ。"
-1,"TEXT_GAIUSB210_00841_SEQ_01","ワインポート周辺で暴れまわっている「<Sheet(BNpcName,411,0)/>」を退治してほしいらしい。<Sheet(BNpcName,411,0)/>を4匹討伐しよう。"
-2,"TEXT_GAIUSB210_00841_SEQ_02","<Sheet(BNpcName,411,0)/>を討伐した。ワインポートの「エトガル」に報告しよう。"
-3,"TEXT_GAIUSB210_00841_SEQ_03","冒険者の活躍にエトガルは満足したようだ。"
+0,"TEXT_GAIUSB210_00841_SEQ_00","Etgar requires your assistance with a raptor predicament."
+1,"TEXT_GAIUSB210_00841_SEQ_01","Etgar, a local tender of Wineport's vineyards, has requested your assistance with a grass raptor problem. The scalekin have been munching on the outpost's precious vines, and they must be stopped. Track down four of the beasts and teach them a lesson."
+2,"TEXT_GAIUSB210_00841_SEQ_02","You have shown a quartet of raptors what for, and made the vineyards safe for another day. Report your success to Etgar."
+3,"TEXT_GAIUSB210_00841_SEQ_03","Etgar seems well pleased by your tidings, and vows to keep you in mind should he have need of your services in the future."
 4,"TEXT_GAIUSB210_00841_SEQ_04",""
 5,"TEXT_GAIUSB210_00841_SEQ_05",""
 6,"TEXT_GAIUSB210_00841_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSB210_00841_SEQ_21",""
 22,"TEXT_GAIUSB210_00841_SEQ_22",""
 23,"TEXT_GAIUSB210_00841_SEQ_23",""
-24,"TEXT_GAIUSB210_00841_TODO_00","<Sheet(BNpcName,411,0)/>を討伐"
-25,"TEXT_GAIUSB210_00841_TODO_01","エドガルに報告"
+24,"TEXT_GAIUSB210_00841_TODO_00","Slay grass raptors."
+25,"TEXT_GAIUSB210_00841_TODO_01","Report to Etgar."
 26,"TEXT_GAIUSB210_00841_TODO_02",""
 27,"TEXT_GAIUSB210_00841_TODO_03",""
 28,"TEXT_GAIUSB210_00841_TODO_04",""
@@ -49,13 +49,8 @@ int32,str,str
 45,"TEXT_GAIUSB210_00841_TODO_21",""
 46,"TEXT_GAIUSB210_00841_TODO_22",""
 47,"TEXT_GAIUSB210_00841_TODO_23",""
-48,"TEXT_GAIUSB210_00841_ETGAR_000_000","ビルギレント様の愛弟子である私の話を聞いてくだされば、
-あとで便宜を図らないでもないですよぉ？"
-49,"TEXT_GAIUSB210_00841_ETGAR_000_001","そうですねぇ～、ワインポート周辺で暴れまわっている
-「<Sheet(BNpcName,411,0)/>」を退治してきてほしいですねぇ。
-アイツらが畑に来たら、仕事どころじゃなくなりますしぃ。"
-50,"TEXT_GAIUSB210_00841_DUMMY_000_010","クラスラプトルを討伐(4体)"
-51,"TEXT_GAIUSB210_00841_DUMMYTODO_000_010","（★未使用／削除予定★）"
-52,"TEXT_GAIUSB210_00841_ETGAR_000_020","ありがとうございますぅ。
-いやぁ～、冒険者さんは、お強いですねぇ。
-ご活躍は、ビルギレント様にお伝えしておきますねぇ。"
+48,"TEXT_GAIUSB210_00841_ETGAR_000_000","Hallo, adventurer! Hear me, or Master Byrglaent will know the reason why! I mean that he'll simply tell you himself if you refuse to hear it from <Emphasis>me</Emphasis>."
+49,"TEXT_GAIUSB210_00841_ETGAR_000_001","You've no doubt seen those ghastly grass raptors skulking about outside our gates. Well, they've developed a taste for the vines we use to grow our brandewine cherries, and we can't abide that. You <Emphasis>must</Emphasis> kill the horrible creatures!"
+50,"TEXT_GAIUSB210_00841_DUMMY_000_010",""
+51,"TEXT_GAIUSB210_00841_DUMMYTODO_000_010",""
+52,"TEXT_GAIUSB210_00841_ETGAR_000_020","Ah, the conquering <If(PlayerParameter(4))>heroine<Else/>hero</If> returns! And so quickly, too. You are as strong as you are kind, and <If(PlayerParameter(4))>pleasingly made about the shoulders<Else/>wonderfully trim of waist</If>. I shall make sure to keep you in mind should any future troubles creep up."

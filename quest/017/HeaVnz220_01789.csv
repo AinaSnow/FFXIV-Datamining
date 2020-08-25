@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNZ220_01789_SEQ_00","ヴァスの塚のウマソウは、森を気にしているようだ。"
-1,"TEXT_HEAVNZ220_01789_SEQ_01","ウマソウに<Sheet(BNpcName,3568,0)/>を討伐するよう頼まれた。高地ドラヴァニアのスモーキングウェイストにいる「<Sheet(BNpcName,3568,0)/>」を4体討伐しよう。"
-2,"TEXT_HEAVNZ220_01789_SEQ_02","<Sheet(BNpcName,3568,0)/>を討伐した。ヴァスの塚の「ウマソウ」に報告しよう。"
-3,"TEXT_HEAVNZ220_01789_SEQ_03","<Sheet(BNpcName,3568,0)/>を倒したことをウマソウに報告した。彼女たちにとって、戦いとは食べ物を得るためにすることらしい。<Sheet(BNpcName,3568,0)/>がマズいと知っているあたり、食べてみたことがあるに違いない……。"
+0,"TEXT_HEAVNZ220_01789_SEQ_00","The Vath Hungerer seems distracted by something in the forest."
+1,"TEXT_HEAVNZ220_01789_SEQ_01","The Vath Hungerer explains that the nearby meliae interfere with the Vath's hunting and gathering. She asks you to kill four of the monsters, lest her tribe go hungry, unable to collect food."
+2,"TEXT_HEAVNZ220_01789_SEQ_02","You fell the meliae as requested. Return to the Hungerer with the good news."
+3,"TEXT_HEAVNZ220_01789_SEQ_03","The Hungerer tells you that, to the Vath, fighting is simply a means to gather food. The idea of attacking something inedible is unpalatable to them. Though, from the way they talk, it is clear they have tried to eat meliae before."
 4,"TEXT_HEAVNZ220_01789_SEQ_04",""
 5,"TEXT_HEAVNZ220_01789_SEQ_05",""
 6,"TEXT_HEAVNZ220_01789_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_HEAVNZ220_01789_SEQ_21",""
 22,"TEXT_HEAVNZ220_01789_SEQ_22",""
 23,"TEXT_HEAVNZ220_01789_SEQ_23",""
-24,"TEXT_HEAVNZ220_01789_TODO_00","<Sheet(BNpcName,3568,0)/>を討伐"
-25,"TEXT_HEAVNZ220_01789_TODO_01","ウマソウに報告"
+24,"TEXT_HEAVNZ220_01789_TODO_00","Slay meliae."
+25,"TEXT_HEAVNZ220_01789_TODO_01","Report to the Vath Hungerer."
 26,"TEXT_HEAVNZ220_01789_TODO_02",""
 27,"TEXT_HEAVNZ220_01789_TODO_03",""
 28,"TEXT_HEAVNZ220_01789_TODO_04",""
@@ -49,21 +49,10 @@ int32,str,str
 45,"TEXT_HEAVNZ220_01789_TODO_21",""
 46,"TEXT_HEAVNZ220_01789_TODO_22",""
 47,"TEXT_HEAVNZ220_01789_TODO_23",""
-48,"TEXT_HEAVNZ220_01789_UMASOU_000_000","シシシシシ……ヒトの狩人に、力を貸してもらいたいわ。
-「<Sheet(BNpcName,3568,0)/>」を4体ほど、倒してもらいたいの……
-報酬と引き替えに……できるのでしょう？"
-49,"TEXT_HEAVNZ220_01789_CIBLEROIT_100_001","……あいつに食べれるところなどないだろうに……シシシシシ。
-あんなもの倒してもらって、どうするつもりだ？"
-50,"TEXT_HEAVNZ220_01789_UMASOU_000_001","もちろん、あんな芯まで硬い魔物は、食べないわ。
-私は、ウマソウなものを狩りに行くから、
-邪魔になるマズそうなものを倒してほしいだけ……シシシシシ。"
-51,"TEXT_HEAVNZ220_01789_UMASOU_000_010","「<Sheet(BNpcName,3568,0)/>」を4体ほど、倒してもらいたいの……
-報酬と引き替えに……できるのでしょう？"
-52,"TEXT_HEAVNZ220_01789_UMASOU_000_020","シシシシシ……やってくれたのね。
-やはり持つべきは、気前のいい狩人だわ。"
-53,"TEXT_HEAVNZ220_01789_CIBLEROIT_000_021","……我らにとって戦いとは、食べ物を得るためのこと。
-食べることのできない相手と戦うのは、途方もない無駄。
-逆に腹が空くだけだ……シシシシシ。"
-54,"TEXT_HEAVNZ220_01789_UMASOU_000_021","そのとおり、<Sheet(BNpcName,3568,0)/>と戦うのは無駄！
-樹皮は堅いし、幹もパサパサして、とてつもなくマズいもの。
-食べる奴の気がしれないわ……シシシシシ。"
+48,"TEXT_HEAVNZ220_01789_UMASOU_000_000","Greetings, hunter. Do you know the meliae? They wander the forest. We would like you to kill some."
+49,"TEXT_HEAVNZ220_01789_CIBLEROIT_100_001","Why would you ask <If(PlayerParameter(4))>her<Else/>him</If> to hunt meliae? You cannot eat them. They are far too tough!"
+50,"TEXT_HEAVNZ220_01789_UMASOU_000_001","We do not want to eat them. We cannot eat them. Not one part of them is edible. But those evil creatures stop us from gathering food. They interfere with our hunting! Please kill four of them. It would make our lives much easier."
+51,"TEXT_HEAVNZ220_01789_UMASOU_000_010","We are hungry, but cannot gather food. The meliae interfere. Please slay them for us."
+52,"TEXT_HEAVNZ220_01789_UMASOU_000_020","Thank you, hunter. You are a strong ally."
+53,"TEXT_HEAVNZ220_01789_CIBLEROIT_000_021","When we fight, it is only to hunt food. It is a waste to hunt what we cannot eat. We would only grow hungrier."
+54,"TEXT_HEAVNZ220_01789_UMASOU_000_021","You are right, Cibleroit. Hunting meliae is pointless. They taste terrible. They are tough and dry. You find yourself picking splinters from your mandibles for days afterwards."

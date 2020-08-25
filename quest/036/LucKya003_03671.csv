@@ -1,8 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKYA003_03671_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-トメラの村の噂好きのドワーフは、冒険者に頼みたいことがあるようだ。"
+0,"TEXT_LUCKYA003_03671_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+A new rumor has the dwarves of Komra in a right tizzy."
 1,"TEXT_LUCKYA003_03671_SEQ_01",""
 2,"TEXT_LUCKYA003_03671_SEQ_02",""
 3,"TEXT_LUCKYA003_03671_SEQ_03",""
@@ -26,14 +26,14 @@ int32,str,str
 21,"TEXT_LUCKYA003_03671_SEQ_21",""
 22,"TEXT_LUCKYA003_03671_SEQ_22",""
 23,"TEXT_LUCKYA003_03671_SEQ_23",""
-24,"TEXT_LUCKYA003_03671_TODO_00","コメラの村の外れにある坑道前にいる坑道の番人と話す"
-25,"TEXT_LUCKYA003_03671_TODO_01","ドワーフ族の親方と話す"
-26,"TEXT_LUCKYA003_03671_TODO_02","アノッグと話す"
-27,"TEXT_LUCKYA003_03671_TODO_03","<Sheet(EventItem,2002900,0)/>を入手"
-28,"TEXT_LUCKYA003_03671_TODO_04","アノッグに<Sheet(EventItem,2002900,0)/>を渡す"
-29,"TEXT_LUCKYA003_03671_TODO_05","<Sheet(EventItem,2002901,0)/>を入手"
-30,"TEXT_LUCKYA003_03671_TODO_06","ドワーフ族の親方に<Sheet(EventItem,2002901,0)/>を渡す"
-31,"TEXT_LUCKYA003_03671_TODO_07","トメラの村にいる噂好きのドワーフに報告"
+24,"TEXT_LUCKYA003_03671_TODO_00","Speak with the dig site watch."
+25,"TEXT_LUCKYA003_03671_TODO_01","Speak with the dig site chief."
+26,"TEXT_LUCKYA003_03671_TODO_02","Speak with Anogg."
+27,"TEXT_LUCKYA003_03671_TODO_03","Search for the automaton core."
+28,"TEXT_LUCKYA003_03671_TODO_04","Deliver the automaton core to Anogg."
+29,"TEXT_LUCKYA003_03671_TODO_05","Search for the mining lantern."
+30,"TEXT_LUCKYA003_03671_TODO_06","Deliver the mining lantern to the dig site chief."
+31,"TEXT_LUCKYA003_03671_TODO_07","Speak with the gossipy dwarf."
 32,"TEXT_LUCKYA003_03671_TODO_08",""
 33,"TEXT_LUCKYA003_03671_TODO_09",""
 34,"TEXT_LUCKYA003_03671_TODO_10",""
@@ -50,165 +50,95 @@ int32,str,str
 45,"TEXT_LUCKYA003_03671_TODO_21",""
 46,"TEXT_LUCKYA003_03671_TODO_22",""
 47,"TEXT_LUCKYA003_03671_TODO_23",""
-48,"TEXT_LUCKYA003_03671_RUMORSDWARF03671_000_001","なあ、コメラの村の噂を知っているか？
-何でも珍しい資源が発掘されたらしいのだが……
-噂が本当かどうか確かめてきてくれないか？"
-49,"TEXT_LUCKYA003_03671_RUMORSDWARF03671_000_002","様子がわかったら、報告しにきてくれ。
-うーん……どんな資源が発掘できるんだろう……？"
-50,"TEXT_LUCKYA003_03671_RUMORSDWARF03671_000_003","様子がわかったら、報告しにきてくれ。
-うーん……どんな資源が発掘できるんだろう……？"
-51,"TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_050","ここは現在、貴重な資源を発掘しているんだ。
-関係者以外は立ち入り禁止だよ。"
-52,"TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_051","でも……
-まあ、時と場合によっては、ここを通してあげてもいい。"
-53,"TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_052","…………。"
-54,"TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_053","……ほら、大人だからわかるでしょう？"
-55,"TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_054","もう～物わかりの悪い人だな！"
-56,"TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_055","具体的に言うと10000ギルを、
-アナタが、ボクに、くれればいいの。
-そうすれば、ここを通してあげるって言ってるの！"
-57,"TEXT_LUCKYA003_03671_Q1_000_000","通行料を支払いますか？"
-58,"TEXT_LUCKYA003_03671_A1_000_001","（★未使用／削除予定★）"
-59,"TEXT_LUCKYA003_03671_A1_000_002","（★未使用／削除予定★）"
-60,"TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_057","じゃあいいよ。
-ここは永久に通さないから！"
-61,"TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_058","へへっ……最初からそうやってカネを出していれば……。"
-62,"TEXT_LUCKYA003_03671_DWARFMASTER03671_000_059","コラアアアアアアアアッ！！！
-ちゃんと番をしてろって言ってるだろうが！！！"
-63,"TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_060","ヒイイッ！！　親方！！！"
-64,"TEXT_LUCKYA003_03671_DWARFMASTER03671_000_061","今日の晩飯は抜きだ！！"
-65,"TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_062","ヒイイイッ……！！！"
-66,"TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_063","うううっ辛い……人にコキ使われるのは辛スギル……。
-クソッ……カネだ……カネさえあれば……ボクは……。"
-67,"TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_064","というわけで、ここは立ち入り禁止だ……。
-どうしても入りたきゃ、そこにいる「ドワーフ族の親方」に、
-かけあってみるんだな。"
-68,"TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_065","ここは立ち入り禁止だ。
-どうしても入りたきゃ、そこにいる「ドワーフ族の親方」に、
-かけあってみるんだな。"
-69,"TEXT_LUCKYA003_03671_DWARFMASTER03671_000_070","貴重な資源が出土したのでな、
-採掘現場への道は「坑道の番人」に見張らせているんだ。"
-70,"TEXT_LUCKYA003_03671_DWARFMASTER03671_000_100","ところで……あんた、もしかして面接に応募してきた人か？
-悪いが、実はもう決まっちまったんだ。"
-71,"TEXT_LUCKYA003_03671_Q2_000_000","ドワーフ族の親方に何と言う？"
-72,"TEXT_LUCKYA003_03671_A2_000_001","面接って何のこと？"
-73,"TEXT_LUCKYA003_03671_A2_000_002","この洞窟は？"
-74,"TEXT_LUCKYA003_03671_DWARFMASTER03671_000_102","最近この洞窟の奥で、未知の遺跡が発掘されたんだ。
-珍しい機械が沢山出てくるから、
-俺たちは「機械遺跡」って呼んでる。"
-75,"TEXT_LUCKYA003_03671_DWARFMASTER03671_000_103","それで、ここの門番を募集してたんだけどね。
-ちょうど先週に決まったところなんだ。"
-76,"TEXT_LUCKYA003_03671_DWARFMASTER03671_000_104","まあ、こうやって経済を回すのは良い事だよな、うん。"
-77,"TEXT_LUCKYA003_03671_DWARFMASTER03671_000_105","そうだ、ついでにひとつ伝言を頼みたいのだが……。
-コメラの村に白い服と黒い服を着た、
-「アノッグ」とコノッグという双子の姉弟がいてな。"
-78,"TEXT_LUCKYA003_03671_DWARFMASTER03671_100_105","そいつらに、この遺跡はお前らのような、
-子供の来る場所ではない！　と言っておいてくれないか？
-仕事の邪魔をされて困っているんだ、よろしく頼む。"
-79,"TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_110","悪いね。
-ここは立入禁止なんだ。"
-80,"TEXT_LUCKYA003_03671_DWARFMASTER03671_000_115","「アノッグ」とコノッグという双子の姉弟だ。
-コメラの村にいるはずだから、伝言を頼む。"
-81,"TEXT_LUCKYA003_03671_ANOGG_000_150","ん？　何か用か？"
-82,"TEXT_LUCKYA003_03671_ANOGG_100_150","ふむふむ……ドワーフ族の親方から伝言？
-今はそんなことにかまっている場合ではないのだ。"
-83,"TEXT_LUCKYA003_03671_KONOGG_000_151","あ……もしや、この人は……"
-84,"TEXT_LUCKYA003_03671_KONOGG_000_152","噂に聞く「ヨソ者」のようだよ、アノッグ。
-コイツを利用しようよ。"
-85,"TEXT_LUCKYA003_03671_ANOGG_000_153","おお、そうだな。
-コノッグは賢いな。"
-86,"TEXT_LUCKYA003_03671_ANOGG_000_154","あー、コホン。
-キミはどうやらヨソ者のようだが……
-ちょっと頼まれてくれないか？"
-87,"TEXT_LUCKYA003_03671_ANOGG_000_155","ワタシ達姉弟は、とある秘密の研究をしている。
-その研究に必要な「<Sheet(EventItem,2002900,0)/>」を取ってきて欲しいんだ。"
-88,"TEXT_LUCKYA003_03671_Q3_000_000","アノッグに何と言う？"
-89,"TEXT_LUCKYA003_03671_A3_000_001","なぜ？"
-90,"TEXT_LUCKYA003_03671_A3_000_002","自分で取りに行かないのか？"
-91,"TEXT_LUCKYA003_03671_KONOGG_000_157","ボク達は知ってるんだ。
-この世界のヨソ者は「お使い」が大好きだって。
-困ってる人を見ていると助けずにはいられないらしいじゃないか？"
-92,"TEXT_LUCKYA003_03671_Q4_000_000","アノッグとコノッグを助けますか？"
-93,"TEXT_LUCKYA003_03671_A4_000_001","助ける"
-94,"TEXT_LUCKYA003_03671_A4_000_002","助けない"
-95,"TEXT_LUCKYA003_03671_ANOGG_000_159","ちぇっ、ケチー！！"
-96,"TEXT_LUCKYA003_03671_KONOGG_000_160","ケチー！！"
-97,"TEXT_LUCKYA003_03671_ANOGG_000_161","でも、そんなつれない事を言いながらも、
-実は助けたくて仕方がないのだろう？
-ワタシは何でもお見通しなのだ。"
-98,"TEXT_LUCKYA003_03671_ANOGG_000_162","さすが、噂に聞く旅人。"
-99,"TEXT_LUCKYA003_03671_KONOGG_000_163","ではさっそく、「<Sheet(EventItem,2002900,0)/>」の在り処を教えよう。
-村外れに資材置き場があるから、こっそり仕入れてくるんだ。
-手に入れたら、「アノッグ」に渡してくれ。"
-100,"TEXT_LUCKYA003_03671_ANOGG_000_165","お使いを頼んだからな。
-「<Sheet(EventItem,2002900,0)/>」だぞ。"
-101,"TEXT_LUCKYA003_03671_KONOGG_000_170","お使いを頼んだからな。
-「<Sheet(EventItem,2002900,0)/>」があるのは、村外れの資材置き場だぞ。"
-102,"TEXT_LUCKYA003_03671_KONOGG_000_180","今は取り込み中だぞ。
-「アノッグ」と作戦会議をしているのだ。"
-103,"TEXT_LUCKYA003_03671_DWARFMASTER03671_000_200","まさか、アノッグとコノッグが、
-迷惑をかけているんじゃなかろうな？"
-104,"TEXT_LUCKYA003_03671_ANOGG_000_250","おお、ヨソ者よ。
-帰ってきたか。"
-105,"TEXT_LUCKYA003_03671_KONOGG_000_251","ちゃんと「<Sheet(EventItem,2002900,0)/>」を、
-手に入れてきたようじゃないか。"
-106,"TEXT_LUCKYA003_03671_ANOGG_000_252","では、お小遣いをやろう！
-これで、ワレワレの世界征服が一歩前進し……"
-107,"TEXT_LUCKYA003_03671_KONOGG_000_253","シッ、ダメだよアノッグ。
-ボク達だけの秘密だ。"
-108,"TEXT_LUCKYA003_03671_ANOGG_000_254","おお、そうだったな。
-賢い弟よ。"
-109,"TEXT_LUCKYA003_03671_KONOGG_000_255","では、次なる「お使い」を頼んでやろう……"
-110,"TEXT_LUCKYA003_03671_DWARFMASTER03671_000_256","コラアアッ！！
-また、人様に迷惑かけてるのか！？
-三枚に下ろして海に叩き込むぞッ！！"
-111,"TEXT_LUCKYA003_03671_ANOGG_000_257","(-アノッグとコノッグ-)ヒイイイッ！！！"
-112,"TEXT_LUCKYA003_03671_DWARFMASTER03671_000_258","……すまないな。
-あいつら、親がいなくてね。"
-113,"TEXT_LUCKYA003_03671_DWARFMASTER03671_000_259","あんたに、いろいろ失礼があったかもしれないな……
-許してくれ。"
-114,"TEXT_LUCKYA003_03671_DWARFMASTER03671_000_260","……ところで、あんたは「ヨソ者」なんだろう？
-ヨソ者は「お使い」が大好きらしいじゃないか？"
-115,"TEXT_LUCKYA003_03671_Q5_000_000","ドワーフ族の親方に何と言う？"
-116,"TEXT_LUCKYA003_03671_A5_000_001","…………"
-117,"TEXT_LUCKYA003_03671_A5_000_002","あの姉弟からも同じことを言われた"
-118,"TEXT_LUCKYA003_03671_DWARFMASTER03671_000_262","現場で「<Sheet(EventItem,2002901,0)/>」が足りてなくてな。
-村の外の洞窟を探せば見つかるはずだ。"
-119,"TEXT_LUCKYA003_03671_DWARFMASTER03671_000_263","「<Sheet(EventItem,2002901,0)/>」を見つけたら、遺跡の入口の、
-坑道の番人がいた場所まで持ってきてくれ。
-もちろん報酬は払う、頼んだぞ。"
-120,"TEXT_LUCKYA003_03671_DWARFMASTER03671_000_265","「<Sheet(EventItem,2002901,0)/>」を見つけたら、遺跡の入口の、
-坑道の番人がいた場所まで持ってきてくれ。
-村の外の洞窟を探せば見つかるはずだ。"
-121,"TEXT_LUCKYA003_03671_DWARFMASTER03671_000_350","「<Sheet(EventItem,2002901,0)/>」は手に入ったか？"
-122,"TEXT_LUCKYA003_03671_DWARFMASTER03671_000_351","おお、コレコレ。
-助かるよ、報酬はコレだ。"
-123,"TEXT_LUCKYA003_03671_DWARFMASTER03671_000_352","さて、これであんたもカネを稼ぐことができて満足だろう。
-ほかに用事がなければ、俺も仕事に戻るが……。"
-124,"TEXT_LUCKYA003_03671_ANOGG_000_353","そこの遺跡に、入れておくれよぉ！"
-125,"TEXT_LUCKYA003_03671_KONOGG_000_354","入れておくれよぉ！"
-126,"TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_355","ダメだって言ってるだろ。
-ここは危ないから立ち入り禁止だ。"
-127,"TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_356","まったく……どうしてこんな遺跡に皆興味を持つんだ？
-もしかして、機械以外にも、スゴイお宝が……？"
-128,"TEXT_LUCKYA003_03671_ANOGG_000_357","ワレワレの発見によれば、あの遺跡の中には……。"
-129,"TEXT_LUCKYA003_03671_KONOGG_000_358","シッ、ダメだよアノッグ。
-ボク達だけの秘密だ。"
-130,"TEXT_LUCKYA003_03671_ANOGG_000_359","そうだったね、コノッグ。"
-131,"TEXT_LUCKYA003_03671_KONOGG_000_360","という事で、何でも無いです。
-ボク達は平気です、ハイ。"
-132,"TEXT_LUCKYA003_03671_DWARFMASTER03671_000_361","……ったく、アイツらときたら……。
-あんたも用事がないなら「機械遺跡」には近づくんじゃねぇぞ。
-ケガでもされたら大変だからな。"
-133,"TEXT_LUCKYA003_03671_ANOGG_000_370","クソッ……こんなところで油を売っている場合では……。"
-134,"TEXT_LUCKYA003_03671_KONOGG_000_371","ワレワレはこの遺跡に用があるのだ……。"
-135,"TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_372","この双子、さっきから何をブツブツ言っているんだ？"
-136,"TEXT_LUCKYA003_03671_RUMORSDWARF03671_000_400","おお、コメラの村からやっと帰ってきたか。
-で、珍しい資源の情報は何かわかったか？"
-137,"TEXT_LUCKYA003_03671_RUMORSDWARF03671_000_401","なるほど、「機械遺跡」とやらに入れてもらえなかった、と。
-そこでいったいどんな資源が発掘できるんだろう……。
-ともあれ、ご苦労だった。これはお礼だ。"
-138,"TEXT_LUCKYA003_03671_DWARFMASTER03671_000_410","人間、忙しくしてるのが一番だ。
-ヒマだとロクな事考えやしねぇからな。"
-139,"TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_411","ここは立ち入り禁止だよ。
-はぁ……カネが欲しいなあ。"
+48,"TEXT_LUCKYA003_03671_RUMORSDWARF03671_000_001","You heard the latest rumor out of Komra? The strangest find in recent memory, though actual details as to what said find actually is have yet to emerge."
+49,"TEXT_LUCKYA003_03671_RUMORSDWARF03671_000_002","If you do happen to come into any juicy tidbits, I'd be keen to hear 'em. The suspense is killing me here..."
+50,"TEXT_LUCKYA003_03671_RUMORSDWARF03671_000_003","Remember: I'm the one what put you on the scent! So if you learn any exciting secrets, you'd best share them with me! 'Tis only fair!"
+51,"TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_050","I can neither confirm nor deny the existence of a new discovery of untold value that only a select few are allowed to see for themselves."
+52,"TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_051","That said...there may come a time when I find myself utterly fascinated by that pile of rocks over there and would be completely oblivious to anyone attempting to sneak past..."
+53,"TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_052","..."
+54,"TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_053","...You're a <If(PlayerParameter(4))>woman<Else/>man</If> of the world, ain't you? Don't make me say it plain."
+55,"TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_054","Wicked white! How bloody stupid are you!?"
+56,"TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_055","You─the imbecile─give me─the guard─ten thousand gil. Then you─the imbecile─get to walk past me─the guard─and see the amazing find. Got it?"
+57,"TEXT_LUCKYA003_03671_Q1_000_000","Bribe the guard?"
+58,"TEXT_LUCKYA003_03671_A1_000_001",""
+59,"TEXT_LUCKYA003_03671_A1_000_002",""
+60,"TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_057","Then you do not get to pass. You go away! Good day, <If(PlayerParameter(4))>miss<Else/>sir</If>!"
+61,"TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_058","Heh heh, about time you started playing by the rules..."
+62,"TEXT_LUCKYA003_03671_DWARFMASTER03671_000_059","Lali-what in the blazing hells do you think you're doing man-ho!? Is that any way for a guard to behave? Is it!?"
+63,"TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_060","N-N-No sir, Chief! Sir!"
+64,"TEXT_LUCKYA003_03671_DWARFMASTER03671_000_061","No rations for you tonight!"
+65,"TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_062","Chief, no! Mercy! Meeeeeercy!"
+66,"TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_063","It's...<sniffle>...it's not fair, I tell you... A dwarf toils day in and day out for a pittance, only to try and make a little something extra on the side, and what does it get him... <sob>"
+67,"TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_064","Right, well, anyway─bugger off. None may pass without the Chief's permission, which I know you haven't got."
+68,"TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_065","Oh look, it's the sinner who cost me my dinner. Go hassle the chief if you want to go in, 'cause I sure as hells ain't letting you pass."
+69,"TEXT_LUCKYA003_03671_DWARFMASTER03671_000_070","No time for you, friend. We've our hands full with this latest find of ours..."
+70,"TEXT_LUCKYA003_03671_DWARFMASTER03671_000_100","Wait, wait, don't tell me. I assume you came all this way to put in for the position? Sorry, but it's already been filled."
+71,"TEXT_LUCKYA003_03671_Q2_000_000","What will you say?"
+72,"TEXT_LUCKYA003_03671_A2_000_001","Came all this way for the what-now?"
+73,"TEXT_LUCKYA003_03671_A2_000_002","You know what they say about assumptions..."
+74,"TEXT_LUCKYA003_03671_DWARFMASTER03671_000_102","Eh? Don't go playing silly buggers with me. The queer ruins we found deep in a cavern through a tunnel over there! The one filled with all kinds of machina? To the point we've started calling it a bloody machina graveyard?"
+75,"TEXT_LUCKYA003_03671_DWARFMASTER03671_000_103","Yes, well, we were looking to hire on another guard, but the position's since been filled by that fellow what tried to swindle you a moment ago."
+76,"TEXT_LUCKYA003_03671_DWARFMASTER03671_000_104","So you're out of luck, I'm afraid. But chin up, <If(PlayerParameter(4))>lass<Else/>lad</If>. Your time'll come round again soon enough."
+77,"TEXT_LUCKYA003_03671_DWARFMASTER03671_000_105","Since you're here and still unemployed, mind delivering a message for me? It's for two younglings in Komra, Anogg and Konogg─sister and brother, twins. Fond of wearing white and black. Twin thing, I suppose."
+78,"TEXT_LUCKYA003_03671_DWARFMASTER03671_100_105","The message is as follows: “Lali-bleeding-ho! This is no place for children to be messing about! Stay far, far, far away, or else!” Got it?"
+79,"TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_110","If I told you several times before you're not getting in, what makes you think I've since changed my mind? I mean, think about it..."
+80,"TEXT_LUCKYA003_03671_DWARFMASTER03671_000_115","Anogg and Konogg, wearing white and black. You'll know 'em when you see 'em. And don't forget the lali-bleeding-ho!"
+81,"TEXT_LUCKYA003_03671_ANOGG_000_150","Hm? You got business with us?"
+82,"TEXT_LUCKYA003_03671_ANOGG_100_150","...The chief put you up to this? And you <Emphasis>agreed</Emphasis>? Haven't you got anything better to do with your time?"
+83,"TEXT_LUCKYA003_03671_KONOGG_000_151","Wait...those garments...that quiet confidence...those powerful neck muscles sculpted by a lifetime of nodding..."
+84,"TEXT_LUCKYA003_03671_KONOGG_000_152","(This is that sinner everyone's been talking about, Sister! <If(PlayerParameter(4))>She<Else/>He</If>'s the guileless fool we've been waiting for! The perfect patsy!)"
+85,"TEXT_LUCKYA003_03671_ANOGG_000_153","(Good thinking, Brother. Let's get right to it, then!)"
+86,"TEXT_LUCKYA003_03671_ANOGG_000_154","Ah... Ahem! You wouldn't happen to be that kindly stranger everyone likes and adores? You are, aren't you!? Perhaps you would be willing to do us a teensy little favor? Of course you would!"
+87,"TEXT_LUCKYA003_03671_ANOGG_000_155","My brother and I are conducting some highly secret research at the moment, but we've hit a dead end. To continue, we need to get our hands on an automaton core..."
+88,"TEXT_LUCKYA003_03671_Q3_000_000","What will you say?"
+89,"TEXT_LUCKYA003_03671_A3_000_001","...So I'm to be your patsy?"
+90,"TEXT_LUCKYA003_03671_A3_000_002","Good luck with that."
+91,"TEXT_LUCKYA003_03671_KONOGG_000_157","Oh, don't be silly! Everyone knows you're the soul of generosity! A sinner who cannot help but render aid to <If(PlayerParameter(4))>her<Else/>his</If> fellow sinner in their hour of need! Not for fame or fortune or any other reward, but simply for the joy of it! Am I wrong?"
+92,"TEXT_LUCKYA003_03671_Q4_000_000","What will you say?"
+93,"TEXT_LUCKYA003_03671_A4_000_001","...This is another one of those moments where it really doesn't matter what I have to say, isn't it?"
+94,"TEXT_LUCKYA003_03671_A4_000_002","Oh, sod this."
+95,"TEXT_LUCKYA003_03671_ANOGG_000_159","How rude!"
+96,"TEXT_LUCKYA003_03671_KONOGG_000_160","So rude!"
+97,"TEXT_LUCKYA003_03671_ANOGG_000_161","But despite your vehement refusal, deep down we both know you cannot help but aid us in our endeavor. 'Tis your nature. We will pretend that you agreed without a fuss and that will be the end of it."
+98,"TEXT_LUCKYA003_03671_ANOGG_000_162","Now you're on the trolley."
+99,"TEXT_LUCKYA003_03671_KONOGG_000_163","The core we require is being stored with other sundry materials on the cliffs above us. Once you have it, bring it to my sister."
+100,"TEXT_LUCKYA003_03671_ANOGG_000_165","As soon as you have that automaton core, bring it to me straightaway."
+101,"TEXT_LUCKYA003_03671_KONOGG_000_170","Don't dally, sinner! We need that core for our research!"
+102,"TEXT_LUCKYA003_03671_KONOGG_000_180","Can't you see we're in the middle of a very important conversation?"
+103,"TEXT_LUCKYA003_03671_DWARFMASTER03671_000_200","You gave 'em the ol' lali-bleeding-ho, did you? Hope they took it to heart."
+104,"TEXT_LUCKYA003_03671_ANOGG_000_250","Ahh, there's the sinner now!"
+105,"TEXT_LUCKYA003_03671_KONOGG_000_251","And is that the core I spy in <If(PlayerParameter(4))>her<Else/>his</If> hot little hands?"
+106,"TEXT_LUCKYA003_03671_ANOGG_000_252","Heh heh heh, brilliant! All we've got to do is sell this for a small fortune, and then we'll be one step closer to seeing our plans for world domination to fruition..."
+107,"TEXT_LUCKYA003_03671_KONOGG_000_253","(Oi, Anogg! Lali-nay on the domination-ho!)"
+108,"TEXT_LUCKYA003_03671_ANOGG_000_254","(Oh, right! That was a close one, Brother!)"
+109,"TEXT_LUCKYA003_03671_KONOGG_000_255","Now then, for our next request..."
+110,"TEXT_LUCKYA003_03671_DWARFMASTER03671_000_256","Lali-what in the hells are you two up to-ho!? If you're even thinking of taking advantage of this good sinner, I'll tan both your hides and toss you from the top of White Oil Falls! Now get you gone!"
+111,"TEXT_LUCKYA003_03671_ANOGG_000_257","(-Anogg and Konogg-)Sir, yes, sir!"
+112,"TEXT_LUCKYA003_03671_DWARFMASTER03671_000_258","Sorry about that. They don't know any better, on account of them being all on their own. No parents."
+113,"TEXT_LUCKYA003_03671_DWARFMASTER03671_000_259","They've lost more than most, you could say. More than anyone ever should."
+114,"TEXT_LUCKYA003_03671_DWARFMASTER03671_000_260","Anyway, I've been meaning to ask. Everyone says you're the soul of generosity─a sinner who cannot help but render aid to <If(PlayerParameter(4))>her<Else/>his</If> fellow sinner in their hour of need. Not for fame or fortune or any other reward, but simply for the joy of it. Am I wrong?"
+115,"TEXT_LUCKYA003_03671_Q5_000_000","What will you say?"
+116,"TEXT_LUCKYA003_03671_A5_000_001","..."
+117,"TEXT_LUCKYA003_03671_A5_000_002","I'd swear you just repeated nearly word for word what those two...never mind."
+118,"TEXT_LUCKYA003_03671_DWARFMASTER03671_000_262","We're short a lantern at the dig site. Should be another in the cave just outside of the village. Mind going and fetching it for me? 'Course you don't."
+119,"TEXT_LUCKYA003_03671_DWARFMASTER03671_000_263","Once you've got it, bring it to me back at the dig. Oh, and don't worry─I'll see you compensated for the trouble."
+120,"TEXT_LUCKYA003_03671_DWARFMASTER03671_000_265","Got that lantern for me? No? It should be in the cave just outside of town."
+121,"TEXT_LUCKYA003_03671_DWARFMASTER03671_000_350","There you are. I presume that lantern you're holding's for yours truly?"
+122,"TEXT_LUCKYA003_03671_DWARFMASTER03671_000_351","Much obliged. Here─a little something for your trouble."
+123,"TEXT_LUCKYA003_03671_DWARFMASTER03671_000_352","Never let it be said a dwarf of character doesn't pay his debts. Anyway, if we've nothing else to discuss..."
+124,"TEXT_LUCKYA003_03671_ANOGG_000_353","Just let us pass already!"
+125,"TEXT_LUCKYA003_03671_KONOGG_000_354","We want to see the ruins! Please please please please please!?"
+126,"TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_355","No, no, no, no, no. It's dangerous and off-limits and even if I were the sort of man who could be bribed─which I'm not─I'd be shocked if you two had anything valuable enough for me to risk my neck looking the other way."
+127,"TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_356","Why are you and everyone else so bloody obsessed with trying to get a look at the cavern filled with mysterious machina anyway? It's just a bloody scrap heap, isn't it?"
+128,"TEXT_LUCKYA003_03671_ANOGG_000_357","No no─it's so much more! Based on our research, we have reason to believe that those ruins contain─"
+129,"TEXT_LUCKYA003_03671_KONOGG_000_358","(Hush, Sister! How many times must you nearly give the game away!? It's supposed to be our secret!)"
+130,"TEXT_LUCKYA003_03671_ANOGG_000_359","(Oh, yes, right. Right. It's just so hard sometimes to contain my enthusiasm...)"
+131,"TEXT_LUCKYA003_03671_KONOGG_000_360","Nothing. These ruins contain nothing of value whatsoever. We shall leave you to your affairs, honorable guard sir, and bid thee farewell."
+132,"TEXT_LUCKYA003_03671_DWARFMASTER03671_000_361","Honestly, I'm beginning to hope that there really is nothing of value in there, for all the trouble it's causing. But as I was about to say─if we've got nothing else to discuss, then you'd best be on your way. It's dangerous to wander about an active dig, and I don't want anyone getting hurt."
+133,"TEXT_LUCKYA003_03671_ANOGG_000_370","What does it matter to you if we go through? It's not like it's your find! You have nothing to lose!"
+134,"TEXT_LUCKYA003_03671_KONOGG_000_371","You really must let us through. It's a matter of the utmost importance!"
+135,"TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_372","...What in the hells are you two on about?"
+136,"TEXT_LUCKYA003_03671_RUMORSDWARF03671_000_400","Poked around Komra, did you? Learn anything about that big find?"
+137,"TEXT_LUCKYA003_03671_RUMORSDWARF03671_000_401","A machine graveyard, eh? Interesting, interesting... This could be the beginning of a great and grand adventure. Or an utterly nonsensical one─though that does have its appeal on occasion, I'll allow."
+138,"TEXT_LUCKYA003_03671_DWARFMASTER03671_000_410","Folks ought to keep busy, that's my motto. Idle hands are the fae's playthings."
+139,"TEXT_LUCKYA003_03671_TUNNELGUARD03671_000_411","Wicked white, if you start pestering me like those twins to get inside... <sigh> I tell you, what's the point of being a guard if you can't profit off it? Why would anyone ever take this job?"

@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSMIN050_00600_SEQ_00","採掘師ギルドのアダルベルタは、冒険者に新しい試練を課そうとしているようだ。"
-1,"TEXT_CLSMIN050_00600_SEQ_01","冒険者の成長を認めたアダルベルタは、今度は掘る物を選んで掘ることを覚えろと言っている。ザル大門から出た先で「<Sheet(Item,5432,0)/>」を50個採掘し、採掘師ギルドの「アダルベルタ」に渡そう。"
-2,"TEXT_CLSMIN050_00600_SEQ_02","採掘した「<Sheet(Item,5432,0)/>」を、アダルベルタに納品した。今回得た知識は採掘師という技術体系のほんのひとかけらに過ぎないが、そうやって何事も重ねた経験が、最後には物を言うのだとアダルベルタは教えてくれた。彼女の教えに従い、薄紙を貼り重ねるように採掘師の修行を積もう。
+0,"TEXT_CLSMIN050_00600_SEQ_00","Adalberta wants to teach you the importance of knowing the land."
+1,"TEXT_CLSMIN050_00600_SEQ_01","In recognition of your progress, Adalberta has set you a new task. Wishing to impress upon you the importance of knowing the land, the guildmaster bids you procure fifty bone chips. Mine the required quantity beyond the Gate of Nald and deliver them to her."
+2,"TEXT_CLSMIN050_00600_SEQ_02","After counting all fifty of your bone chips, Adalberta explains that knowledge acquired through practical experience is what allows a miner to grow. With your trusty gathering log to guide you, venture forth into the wilderness in search of further riches, and amass a wealth of knowledge in so doing.
 
-※採掘師のレベルが10以上になると、アダルベルタから次の採掘師クエストを受注することができます。"
+※The next miner quest will be available from Adalberta upon reaching level 10."
 3,"TEXT_CLSMIN050_00600_SEQ_03",""
 4,"TEXT_CLSMIN050_00600_SEQ_04",""
 5,"TEXT_CLSMIN050_00600_SEQ_05",""
@@ -27,7 +27,7 @@ int32,str,str
 21,"TEXT_CLSMIN050_00600_SEQ_21",""
 22,"TEXT_CLSMIN050_00600_SEQ_22",""
 23,"TEXT_CLSMIN050_00600_SEQ_23",""
-24,"TEXT_CLSMIN050_00600_TODO_00","<Sheet(Item,5432,0)/>を採掘師ギルドのアダルベルタに納品"
+24,"TEXT_CLSMIN050_00600_TODO_00","Deliver bone chips to Adalberta."
 25,"TEXT_CLSMIN050_00600_TODO_01",""
 26,"TEXT_CLSMIN050_00600_TODO_02",""
 27,"TEXT_CLSMIN050_00600_TODO_03",""
@@ -51,52 +51,23 @@ int32,str,str
 45,"TEXT_CLSMIN050_00600_TODO_21",""
 46,"TEXT_CLSMIN050_00600_TODO_22",""
 47,"TEXT_CLSMIN050_00600_TODO_23",""
-48,"TEXT_CLSMIN050_00600_ADALBERTA_000_0","おっ！　来たわね、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
-ちゃーんと、働き続けていたみたいじゃない？
-使い込まれたそのピックを見ればわかるわ。"
-49,"TEXT_CLSMIN050_00600_ADALBERTA_000_1","その様子なら、次のシゴトを任せられそうね。
-今回のシゴトで覚えてもらうのは「掘らないこと」……
-ああ、もちろん休むって意味じゃないからね。"
-50,"TEXT_CLSMIN050_00600_ADALBERTA_000_3","闇雲に掘るんじゃなくて、
-欲しい物に合わせて、採掘場を選べってことよ。
-そういうコトを学んでほしいの。"
-51,"TEXT_CLSMIN050_00600_ADALBERTA_000_4","地域ごとに、埋蔵されている資源は違うわ。"
-52,"TEXT_CLSMIN050_00600_ADALBERTA_000_5","例えばここザナラーンでも、
-西と東では、採れる鉱石はガラリと変わる。"
-53,"TEXT_CLSMIN050_00600_ADALBERTA_000_6","どの地域で、どんな物が採れるのかという知識が
-駆け出し採掘師と、熟練採掘師の分け目になるのよ。"
-54,"TEXT_CLSMIN050_00600_ADALBERTA_000_7","その知識を学ぶことが、今回の課題よ。
-今回は「<Sheet(Item,5432,0)/>」を50個、採掘してきてくれる？"
-55,"TEXT_CLSMIN050_00600_ADALBERTA_000_8","この<Sheet(Item,5432,0)/>は、
-前に採掘してもらった銅鉱とは、違う場所で採れるものよ。
-ザル大門のほうから出て探したりすると、いいかもね。"
-56,"TEXT_CLSMIN050_00600_ADALBERTA_000_20","今回納品してもらうものは、「<Sheet(Item,5432,0)/>」を50個よ。
-どこで採掘できるのか、しっかり探して見つけなさい。
-さ、がんばって！"
-57,"TEXT_CLSMIN050_00600_ADALBERTA_000_21","うん、無事に<Sheet(Item,5432,0)/>を採掘できたわね。
-どうかしら、目当ての採掘場を見つけるのに苦労した？"
-58,"TEXT_CLSMIN050_00600_ADALBERTA_000_22","でもね、その経験を重ねたぶんだけ、
-キミの採掘師としての知識は増したわ。"
-59,"TEXT_CLSMIN050_00600_ADALBERTA_000_23","次に<Sheet(Item,5432,0)/>を探すときには、
-迷わず正しい採掘場を選べるでしょ？
-それが知識を得るってことよ。"
-60,"TEXT_CLSMIN050_00600_ADALBERTA_000_40","ほかにも、クラフターたちがどんな素材を扱うのか……
-その知識を持っておくと、採掘師としての視野が広がるわ。"
-61,"TEXT_CLSMIN050_00600_ADALBERTA_000_41","たとえば……採掘師は鉱物を入手できるでしょう？
-金属製品を扱う「鍛冶師」や「甲冑師」と相性がいいの。"
-62,"TEXT_CLSMIN050_00600_ADALBERTA_000_42","「彫金師」には宝石を納品すると喜ばれるし、
-岩塩や辰砂を求める「錬金術師」とも、関係は深い。
-採掘するときは、そういうことも意識してみて。"
-63,"TEXT_CLSMIN050_00600_ADALBERTA_000_27","そのためにも、「採集手帳」は上手く使いなさい。
-キミが採掘師としてやっていくための、力になるわ。"
-64,"TEXT_CLSMIN050_00600_ADALBERTA_000_28","最初は、理解できない部分も多いとは思うけど、
-経験を積んでいくうちに、わかるようになるはずよ。"
-65,"TEXT_CLSMIN050_00600_ADALBERTA_000_29","そう、何事も経験なの。
-さらに経験を積んで、キミの知識が増したとき、
-次の課題を回してあげるから、また来てちょうだいね。"
-66,"TEXT_CLSMIN050_00600_SYSTEM_000_30","採掘師はレベル5、10、15、と成長するごとに、
-よりレベルの高い「採掘場」を発見できるようになり、
-採集可能なアイテムが「採集手帳」に追記されます。"
-67,"TEXT_CLSMIN050_00600_SYSTEM_000_31","なお、アクション「ランドサーベイ」を使うと、
-周辺で最も近くにある「採掘場」の位置が判明します。
-「採掘場」がうまく見つからない場合は使ってみましょう。"
+48,"TEXT_CLSMIN050_00600_ADALBERTA_000_0","Hello there, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. 'Tis good to see you again."
+49,"TEXT_CLSMIN050_00600_ADALBERTA_000_1","Judging by the blisters on your hands, it's plain you've been hard at it with your pickaxe. Good. You're ready for the next stage of your training."
+50,"TEXT_CLSMIN050_00600_ADALBERTA_000_3","Eorzea's a vast realm filled with diverse environments, and her mineral wealth varies from region to region."
+51,"TEXT_CLSMIN050_00600_ADALBERTA_000_4","Even within Thanalan, there's a marked difference between east and west."
+52,"TEXT_CLSMIN050_00600_ADALBERTA_000_5","If you want to be a successful miner, it's essential that you know where to look for what."
+53,"TEXT_CLSMIN050_00600_ADALBERTA_000_6","And for that, you have to become intimate with Eorzea. How else can you expect her to reveal her innermost secrets to you?"
+54,"TEXT_CLSMIN050_00600_ADALBERTA_000_7","Getting to know her every square malm is no small undertaking, of course, but the yalms soon add up─as I'm sure you'll find with my next task. I'd like you to seek out fifty─aye, that's <Emphasis>fifty</Emphasis>─bone chips for me."
+55,"TEXT_CLSMIN050_00600_ADALBERTA_000_8","Just so you don't go about it completely blind, here's a hint: you'll find these just beyond the Gate of Nald. Off you go now, and happy digging!"
+56,"TEXT_CLSMIN050_00600_ADALBERTA_000_20","Remember, that's <Emphasis>fifty</Emphasis> bone chips I want you to bring. Good luck!"
+57,"TEXT_CLSMIN050_00600_ADALBERTA_000_21","Ah, yes. Precisely fifty bone chips. You've done well, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
+58,"TEXT_CLSMIN050_00600_ADALBERTA_000_22","No doubt you had trouble tracking these down at first, but each chip you found added to your understanding."
+59,"TEXT_CLSMIN050_00600_ADALBERTA_000_23","For your efforts, you've come to know where best to search for bone chips. And so it goes for everything else we mine."
+60,"TEXT_CLSMIN050_00600_ADALBERTA_000_40","Now, in addition to learning <Emphasis>where</Emphasis> to find materials, you should also make a point of knowing who needs them."
+61,"TEXT_CLSMIN050_00600_ADALBERTA_000_41","For instance, armorers and blacksmiths are our best customers when it comes to ores, while goldsmiths would struggle to ply their trade if we didn't supply them with gold and gemstones."
+62,"TEXT_CLSMIN050_00600_ADALBERTA_000_42","Oh, and I mustn't forget the alchemists. Those fellows can never have too much rock salt and cinnabar, and we often rub shoulders with them."
+63,"TEXT_CLSMIN050_00600_ADALBERTA_000_27","In short: know whence it comes, and whither it goes. To be sure, you still have much and more to learn, and there's no substitute for hard work."
+64,"TEXT_CLSMIN050_00600_ADALBERTA_000_28","Oh, don't look so glum! Just be thankful you don't have to bleeding <Emphasis>memorize</Emphasis> all that information─you have a gathering log for such stuff. Make good use of it, and you can't go wrong."
+65,"TEXT_CLSMIN050_00600_ADALBERTA_000_29","That's all for now. Keep up your efforts, and visit me again when you've spent more time in the wilds, with pickaxe in hand. I'll have another task for you when you've perfected your swing."
+66,"TEXT_CLSMIN050_00600_SYSTEM_000_30","For every fifth level you reach as a miner, you will gain the ability to detect higher-level mineral deposits. When this occurs, any new items that are available through gathering will be added to your <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>gathering log<UIGlow>01</UIGlow><UIForeground>01</UIForeground>."
+67,"TEXT_CLSMIN050_00600_SYSTEM_000_31","You can use the <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Lay of the Land<UIGlow>01</UIGlow><UIForeground>01</UIForeground> miner action to help you locate the nearest mineral deposits within your skill range."

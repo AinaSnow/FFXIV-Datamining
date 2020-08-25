@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBSEA015_00663_SEQ_00","溺れた海豚亭で情報交換している冒険者ニニヤが、今度こそ、新米の冒険者に耳寄りな情報を教えようとしている。"
-1,"TEXT_SUBSEA015_00663_SEQ_01","ベテラン冒険者ニニヤによると、重要な輸送路である迷子橋の周辺には、おいしい仕事があるという。眼鏡岩にいる警備兵「アンクタ」に問い合わせてみよう。"
-2,"TEXT_SUBSEA015_00663_SEQ_02","またもや、ニニヤにからかわれたようだ。眼鏡岩周辺は、重要な輸送路であるからこそ、イエロージャケットの仕事は冒険者ギルドを通じて依頼されるようだ。しかし、アンクタの個人的な依頼なら受けられそうだ。"
+0,"TEXT_SUBSEA015_00663_SEQ_00","Niniya has information that, unlike last time, is sure to be of interest to you."
+1,"TEXT_SUBSEA015_00663_SEQ_01","According to Niniya, the sentries stationed at the Eyes in lower La Noscea often turn to adventurers when they have too much work. Venture outside the city and speak with Ancreta to learn more."
+2,"TEXT_SUBSEA015_00663_SEQ_02","Once again, it appears Niniya was playing a prank on you, as Ancreta is forbidden from officially offering you work. If you are willing to assist in an unofficial capacity, though, the Yellowjacket might have something for you..."
 3,"TEXT_SUBSEA015_00663_SEQ_03",""
 4,"TEXT_SUBSEA015_00663_SEQ_04",""
 5,"TEXT_SUBSEA015_00663_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_SUBSEA015_00663_SEQ_21",""
 22,"TEXT_SUBSEA015_00663_SEQ_22",""
 23,"TEXT_SUBSEA015_00663_SEQ_23",""
-24,"TEXT_SUBSEA015_00663_TODO_00","眼鏡岩にいるアンクタと話す"
+24,"TEXT_SUBSEA015_00663_TODO_00","Speak with Ancreta at the Eyes."
 25,"TEXT_SUBSEA015_00663_TODO_01",""
 26,"TEXT_SUBSEA015_00663_TODO_02",""
 27,"TEXT_SUBSEA015_00663_TODO_03",""
@@ -49,25 +49,12 @@ int32,str,str
 45,"TEXT_SUBSEA015_00663_TODO_21",""
 46,"TEXT_SUBSEA015_00663_TODO_22",""
 47,"TEXT_SUBSEA015_00663_TODO_23",""
-48,"TEXT_SUBSEA015_00663_NINIYA_000_0","やあ、ちょっぴり貫禄が出てきたね？
-人は騙されて、成長するものだからね。あははは。
-そんな君に、今度こそおいしい話を教えてあげよう。"
-49,"TEXT_SUBSEA015_00663_NINIYA_000_1","低地ラノシアの「迷子橋」は、
-リムサ・ロミンサの重要な輸送路らしくてね。"
-50,"TEXT_SUBSEA015_00663_NINIYA_000_2","そういうところには、仕事が転がってるもんさ。
-冒険者としてやっていきたいなら、
-こういう鼻の良さを養うといいと思うよ。"
-51,"TEXT_SUBSEA015_00663_NINIYA_000_3","さあ、テンペスト陸門から出て北東へ進み、
-「眼鏡岩」にいる警備兵「アンクタ」に
-仕事がないか聞いてみるといい。"
+48,"TEXT_SUBSEA015_00663_NINIYA_000_0","Oh, you've returned. I hope you do not harbor any ill will towards me for my earlier deception. You see, I believe the most important lesson for a green adventurer to learn is that <If(PlayerParameter(4))>she<Else/>he</If> should always question the motives of everyone <If(PlayerParameter(4))>she<Else/>he</If> meets."
+49,"TEXT_SUBSEA015_00663_NINIYA_000_1","If I have given offense, allow me to make it up to you with some advice. Tell me, have you visited the Eyes, outside the Tempest Gate and past Madman Bridge?"
+50,"TEXT_SUBSEA015_00663_NINIYA_000_2","The sentries stationed there keep watch over the road, and when trouble arises they sometimes turn to outside help."
+51,"TEXT_SUBSEA015_00663_NINIYA_000_3","If you wish to make a name for yourself as a trustworthy adventurer, you should speak with Ancreta at the Eyes and offer your assistance."
 52,"TEXT_SUBSEA015_00663_TALK_SCENE00002_000",""
-53,"TEXT_SUBSEA015_00663_ANCRETA_000_10","……仕事があるって言われて、ココへ来たって？
-ふふふ、きっとその先輩冒険者に、からかわれたんだね。"
-54,"TEXT_SUBSEA015_00663_ANCRETA_000_11","ここは、確かに重要な輸送路だ。
-だからこそ、イエロージャケットの仕事は、
-冒険者ギルドを通して発行しているんだよ。"
-55,"TEXT_SUBSEA015_00663_ANCRETA_000_12","何より私のような新米には、見ず知らずの君に
-直接組織の仕事を依頼するような権限はないのさ。"
-56,"TEXT_SUBSEA015_00663_ANCRETA_000_13","ただ、個人的に頼みたいことならば、ないわけじゃない。
-迷子橋周辺の魔物退治をする覚悟があるなら
-声をかけてくれ。"
+53,"TEXT_SUBSEA015_00663_ANCRETA_000_10","Ye say someone told ye to come to me for work, <If(PlayerParameter(4))>lass<Else/>lad</If>? I'm afraid ye've been had."
+54,"TEXT_SUBSEA015_00663_ANCRETA_000_11","We're known to hire adventurers, 'tis true, but we always go through the Adventurers' Guild."
+55,"TEXT_SUBSEA015_00663_ANCRETA_000_12","Even if I wanted to assign ye duties, Yellowjacket regulations prohibit me from doin' so directly."
+56,"TEXT_SUBSEA015_00663_ANCRETA_000_13","Now, if ye don't mind workin' in an unofficial capacity, I've a personal request I could make of ye..."

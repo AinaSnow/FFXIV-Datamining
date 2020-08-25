@@ -1,8 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKZA003_03345_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-彷徨う階段亭のダールフォートは困っているようだ。"
+0,"TEXT_LUCKZA003_03345_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Darlfort seems troubled."
 1,"TEXT_LUCKZA003_03345_SEQ_01",""
 2,"TEXT_LUCKZA003_03345_SEQ_02",""
 3,"TEXT_LUCKZA003_03345_SEQ_03",""
@@ -26,9 +26,9 @@ int32,str,str
 21,"TEXT_LUCKZA003_03345_SEQ_21",""
 22,"TEXT_LUCKZA003_03345_SEQ_22",""
 23,"TEXT_LUCKZA003_03345_SEQ_23",""
-24,"TEXT_LUCKZA003_03345_TODO_00","エイディスから<Sheet(EventItem,2002581,0)/>を入手"
-25,"TEXT_LUCKZA003_03345_TODO_01","カテナリー居住館の管理人に<Sheet(EventItem,2002581,0)/>を渡す"
-26,"TEXT_LUCKZA003_03345_TODO_02","ダールフォートと話す"
+24,"TEXT_LUCKZA003_03345_TODO_00","Obtain the potent liquor from Eidith."
+25,"TEXT_LUCKZA003_03345_TODO_01","Deliver the potent liquor to the Catenaries manager."
+26,"TEXT_LUCKZA003_03345_TODO_02","Speak with Darlfort."
 27,"TEXT_LUCKZA003_03345_TODO_03",""
 28,"TEXT_LUCKZA003_03345_TODO_04",""
 29,"TEXT_LUCKZA003_03345_TODO_05",""
@@ -50,64 +50,34 @@ int32,str,str
 45,"TEXT_LUCKZA003_03345_TODO_21",""
 46,"TEXT_LUCKZA003_03345_TODO_22",""
 47,"TEXT_LUCKZA003_03345_TODO_23",""
-48,"TEXT_LUCKZA003_03345_DARLFORT_000_000","お客さん、すみませんがひとつ、
-届け物をしてきていただけませんか？"
-49,"TEXT_LUCKZA003_03345_DARLFORT_000_001","実は昨晩、クリスタリウムに到着したばかりのお客さんに、
-酒精の強い蒸留酒を頼まれましてね。
-明日が仕入れだと伝えたら、それでいいから届けてくれと。"
-50,"TEXT_LUCKZA003_03345_DARLFORT_000_002","息も絶え絶えな様子でここに来たと思ったら、
-麦酒を何杯も飲んでいかれたんですよ。
-チップもかなりの額をいただきました。"
-51,"TEXT_LUCKZA003_03345_DARLFORT_000_003","どうも心配で……手が離せない私の代わりに、
-その方に蒸留酒を届けてきていただけませんか？"
-52,"TEXT_LUCKZA003_03345_DARLFORT_000_004","件のお客さんは、
-「カテナリー居住館」に宿泊されているはずです。
-管理人の方に酒を渡しつつ、様子も聞いてきてください。"
-53,"TEXT_LUCKZA003_03345_DARLFORT_100_004","肝心の酒は、ムジカ・ユニバーサリスにいる、
-「エイディス」から受け取ってください。
-よろしくお願いいたしますね。"
-54,"TEXT_LUCKZA003_03345_DARLFORT_000_005","肝心の酒は、ムジカ・ユニバーサリスにいる、
-「エイディス」から受け取ってください。
-よろしくお願いいたしますね。"
-55,"TEXT_LUCKZA003_03345_EIDITH_000_010","話は聞いています、こちらが「<Sheet(EventItem,2002581,0)/>」です。
-たしか、その酒……カテナリー居住館にいる、
-お客さんからの注文でしたよね？"
-56,"TEXT_LUCKZA003_03345_EIDITH_000_011","それでしたら、「カテナリー居住館の管理人」に手渡せば、
-届けてもらえることでしょう。
-ご利用、ありがとうございました。"
-57,"TEXT_LUCKZA003_03345_EIDITH_000_012","「カテナリー居住館の管理人」に手渡せば、
-お客さんの元まで、届けてもらえることでしょう。
-ご利用、ありがとうございました。"
-58,"TEXT_LUCKZA003_03345_ATTENDANT03345_000_020","おや、何か用かな？"
-59,"TEXT_LUCKZA003_03345_ATTENDANT03345_000_021","ふむ、なるほど……。
-事情はわかった、私が彼に届けておこう。
-その酒を渡してもらえるだろうか？"
-60,"TEXT_LUCKZA003_03345_ATTENDANT03345_000_022","昨晩の彼がどうだったかって？
-そりゃあ、ひどいありさまだったよ……
-廊下にまで、うめき声が聞こえてきてな。"
-61,"TEXT_LUCKZA003_03345_ATTENDANT03345_000_023","あの様子だと「溢れて」しまったのかもしれないな……
-このままでは、じきに罪喰いに……。"
-62,"TEXT_LUCKZA003_03345_ATTENDANT03345_000_024","おっと、すまない。
-ともかく酒を届けてくれてありがとう。
-必ず本人に渡しておくから、「ダールフォート」に伝えてくれ。"
-63,"TEXT_LUCKZA003_03345_ATTENDANT03345_000_025","ともかく酒を届けてくれてありがとう。
-必ず本人に渡しておくから、「ダールフォート」に伝えてくれ。"
-64,"TEXT_LUCKZA003_03345_DARLFORT_000_030","そうですか、彼は「溢れて」しまったのですね……。
-ああ、「溢れる」というのは、
-光に蝕まれ、変わり始めてしまったことの隠語です。"
-65,"TEXT_LUCKZA003_03345_DARLFORT_000_031","苦しみの果てにどうなるか……
-みなまで言わずとも、お客さんもおわかりでしょう？"
-66,"TEXT_LUCKZA003_03345_DARLFORT_000_032","わざわざ届けてくださって、ありがとうございました。
-あの酒が、きっと彼の助けになることでしょう。"
-67,"TEXT_LUCKZA003_03345_WAITER03345_000_000","（★未使用／削除予定★）"
-68,"TEXT_LUCKZA003_03345_WAITER03345_000_001","（★未使用／削除予定★）"
-69,"TEXT_LUCKZA003_03345_WAITER03345_000_002","（★未使用／削除予定★）"
-70,"TEXT_LUCKZA003_03345_WAITER03345_000_003","（★未使用／削除予定★）"
-71,"TEXT_LUCKZA003_03345_WAITER03345_100_004","（★未使用／削除予定★）"
-72,"TEXT_LUCKZA003_03345_WAITER03345_000_005","（★未使用／削除予定★）"
-73,"TEXT_LUCKZA003_03345_WAITER03345_000_010","（★未使用／削除予定★）"
-74,"TEXT_LUCKZA003_03345_WAITER03345_000_011","（★未使用／削除予定★）"
-75,"TEXT_LUCKZA003_03345_WAITER03345_000_012","（★未使用／削除予定★）"
-76,"TEXT_LUCKZA003_03345_WAITER03345_000_030","（★未使用／削除予定★）"
-77,"TEXT_LUCKZA003_03345_WAITER03345_000_031","（★未使用／削除予定★）"
-78,"TEXT_LUCKZA003_03345_WAITER03345_000_032","（★未使用／削除予定★）"
+48,"TEXT_LUCKZA003_03345_DARLFORT_000_000","Good morrow, <If(PlayerParameter(4))>ma'am<Else/>sir</If>. I'm terribly sorry to ask this of a patron, but could you perchance find the time to make a delivery for me?"
+49,"TEXT_LUCKZA003_03345_DARLFORT_000_001","Just yesterday, you see, a customer─not a regular, I believe he's visiting from outside the Crystarium─came asking after a particularly strong spirit that we're known to serve. At the time, we had just run out, but I offered that our supplier would have more ready today."
+50,"TEXT_LUCKZA003_03345_DARLFORT_000_002","He told me that that would be fine, but that he would require it be delivered to his lodgings. He then paid quite a handsome sum in advance...before consuming more than a half-dozen pints of ale in short order and wandering off."
+51,"TEXT_LUCKZA003_03345_DARLFORT_000_003","The whole experience was incredibly odd. I do, of course, fully intend to provide him with the alcohol that he paid for─but I also cannot help but be concerned by his behavior. It seems to me that someone ought to check on him."
+52,"TEXT_LUCKZA003_03345_DARLFORT_000_004","Alas, between brewing and serving the customers, I can't seem to find time to slip away. Could I impose upon you to deliver the liquor in my stead, and inquire as to whether the man is quite well?"
+53,"TEXT_LUCKZA003_03345_DARLFORT_100_004","Eidith should have the alcohol in question ready at Musica Universalis. And as for our eccentric patron─you will find him at the Catenaries, assuming he gave me the correct information."
+54,"TEXT_LUCKZA003_03345_DARLFORT_000_005","By his conduct, I cannot help but wonder─no, best not to speculate."
+55,"TEXT_LUCKZA003_03345_EIDITH_000_010","Here on behalf of Darlfort? Aye, I have the liquor right here."
+56,"TEXT_LUCKZA003_03345_EIDITH_000_011","You'll be delivering this to a customer at the Catenaries, right? In that case, you'd do well to speak with the manager there. He's a helpful sort─should make sure it gets to the right person."
+57,"TEXT_LUCKZA003_03345_EIDITH_000_012","Tell Darlfort I appreciate the business, as always."
+58,"TEXT_LUCKZA003_03345_ATTENDANT03345_000_020","How might I be of service?"
+59,"TEXT_LUCKZA003_03345_ATTENDANT03345_000_021","Ah, I see. That guest is somewhat...indisposed, I'm afraid to say. But I will ensure that the liquor is delivered into his hands, if you will entrust it to me."
+60,"TEXT_LUCKZA003_03345_ATTENDANT03345_000_022","As to his condition─it does seem to be rather severe. His cries echoed through the corridors late into the evening."
+61,"TEXT_LUCKZA003_03345_ATTENDANT03345_000_023","Judging by what I have glimpsed, I fear that it is a mere matter of time ere he turns..."
+62,"TEXT_LUCKZA003_03345_ATTENDANT03345_000_024","But you need not concern yourself with that. Rest assured that we have matters well in hand here."
+63,"TEXT_LUCKZA003_03345_ATTENDANT03345_000_025","I will see to it that the alcohol reaches the intended recipient with all haste."
+64,"TEXT_LUCKZA003_03345_DARLFORT_000_030","A matter of time before he turns, you say... I suppose that does explain it."
+65,"TEXT_LUCKZA003_03345_DARLFORT_000_031","It's hardly a wonder that he turned to drink, I'm sure you would agree. In the throes of such agony and despair...what is a man to do?"
+66,"TEXT_LUCKZA003_03345_DARLFORT_000_032","I know not if it will bring him solace, in the end... But nevertheless, I thank you for making the delivery. "
+67,"TEXT_LUCKZA003_03345_WAITER03345_000_000",""
+68,"TEXT_LUCKZA003_03345_WAITER03345_000_001",""
+69,"TEXT_LUCKZA003_03345_WAITER03345_000_002",""
+70,"TEXT_LUCKZA003_03345_WAITER03345_000_003",""
+71,"TEXT_LUCKZA003_03345_WAITER03345_100_004",""
+72,"TEXT_LUCKZA003_03345_WAITER03345_000_005",""
+73,"TEXT_LUCKZA003_03345_WAITER03345_000_010",""
+74,"TEXT_LUCKZA003_03345_WAITER03345_000_011",""
+75,"TEXT_LUCKZA003_03345_WAITER03345_000_012",""
+76,"TEXT_LUCKZA003_03345_WAITER03345_000_030",""
+77,"TEXT_LUCKZA003_03345_WAITER03345_000_031",""
+78,"TEXT_LUCKZA003_03345_WAITER03345_000_032",""

@@ -1,8 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKZF009_03468_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-ファノヴの里の優しげなヴィースは、動揺している。"
+0,"TEXT_LUCKZF009_03468_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+The flustered sentinel looks at you expectantly."
 1,"TEXT_LUCKZF009_03468_SEQ_01",""
 2,"TEXT_LUCKZF009_03468_SEQ_02",""
 3,"TEXT_LUCKZF009_03468_SEQ_03",""
@@ -26,9 +26,9 @@ int32,str,str
 21,"TEXT_LUCKZF009_03468_SEQ_21",""
 22,"TEXT_LUCKZF009_03468_SEQ_22",""
 23,"TEXT_LUCKZF009_03468_SEQ_23",""
-24,"TEXT_LUCKZF009_03468_TODO_00","オルメと話す"
-25,"TEXT_LUCKZF009_03468_TODO_01","キュイルと話す"
-26,"TEXT_LUCKZF009_03468_TODO_02","優しげなヴィースに<Sheet(EventItem,2002862,0)/>と<Sheet(EventItem,2002863,0)/>を渡す"
+24,"TEXT_LUCKZF009_03468_TODO_00","Speak with Olmet."
+25,"TEXT_LUCKZF009_03468_TODO_01","Speak with Ciuille."
+26,"TEXT_LUCKZF009_03468_TODO_02","Deliver the fur blanket and purified water to the flustered sentinel."
 27,"TEXT_LUCKZF009_03468_TODO_03",""
 28,"TEXT_LUCKZF009_03468_TODO_04",""
 29,"TEXT_LUCKZF009_03468_TODO_05",""
@@ -50,36 +50,16 @@ int32,str,str
 45,"TEXT_LUCKZF009_03468_TODO_21",""
 46,"TEXT_LUCKZF009_03468_TODO_22",""
 47,"TEXT_LUCKZF009_03468_TODO_23",""
-48,"TEXT_LUCKZF009_03468_KINDVIIS03468_000_000","ああっ、ロンカの同盟者さん！
-こんなことを頼むの申し訳ないんだけど、
-急な事態で……手伝ってほしいことがあるの！"
-49,"TEXT_LUCKZF009_03468_KINDVIIS03468_000_001","この奥の小屋にいる仲間が、今にも子を産みそうなのよ！
-だから<Sheet(EventItem,2002862,0)/>と<Sheet(EventItem,2002863,0)/>が、すぐに必要で……！
-どうかお願い！"
-50,"TEXT_LUCKZF009_03468_KINDVIIS03468_000_002","「<Sheet(EventItem,2002862,0)/>」は「オルメ」が、
-「<Sheet(EventItem,2002863,0)/>」は「キュイル」が、
-それぞれ用意しているはずよ！"
-51,"TEXT_LUCKZF009_03468_KINDVIIS03468_000_010","「<Sheet(EventItem,2002862,0)/>」は「オルメ」が、
-「<Sheet(EventItem,2002863,0)/>」は「キュイル」が、
-それぞれ用意しているはずよ！"
-52,"TEXT_LUCKZF009_03468_OLMET_000_020","<Sheet(EventItem,2002862,0)/>なら、用意してあるわ。
-子をくるむのには、森の獣の毛皮でつくった毛布が一番。
-さあ、どうぞ。"
-53,"TEXT_LUCKZF009_03468_CIUILLE_000_021","<Sheet(EventItem,2002863,0)/>か、そろそろだと思って用意していたんだ。
-この水で耳を拭い、生まれた子は初めて森の声を聴くのさ。
-早く持っていってあげてくれ。"
-54,"TEXT_LUCKZF009_03468_OLMET_000_030","<Sheet(EventItem,2002862,0)/>に包まれると、子は安心するの。
-早く持っていってあげて。"
-55,"TEXT_LUCKZF009_03468_CIUILLE_000_035","<Sheet(EventItem,2002863,0)/>をこぼさないように、気をつけるんだよ！"
-56,"TEXT_LUCKZF009_03468_KINDVIIS03468_000_040","「<Sheet(EventItem,2002862,0)/>」と「<Sheet(EventItem,2002863,0)/>」は、
-用意できたかしら……！？"
-57,"TEXT_LUCKZF009_03468_KINDVIIS03468_000_041","ああっ、ありがとう……！
-これで生まれてくる子を安心して迎えられるわ！"
-58,"TEXT_LUCKZF009_03468_KINDVIIS03468_000_042","里で子が生まれるなんて、本当に久しぶり。
-しかも、ロンカの同盟者が手伝ってくれたなんて……！
-生まれてくる子は、きっと良い森の護人になれるわ。"
-59,"TEXT_LUCKZF009_03468_KINDVIIS03468_000_043","うちの里では、子どもは大きくなるまで、
-母親と数人の乳母としか会えない決まりなの。"
-60,"TEXT_LUCKZF009_03468_KINDVIIS03468_000_044","だから、会わせてあげられないのが、
-すごく申し訳ないけれど……。
-大きくなったら、絶対にあなたのことを伝えるわね。"
+48,"TEXT_LUCKZF009_03468_KINDVIIS03468_000_000","Normally I would not think to make a request of the allies of Ronka, but this is an emergency."
+49,"TEXT_LUCKZF009_03468_KINDVIIS03468_000_001","One of our sisters is in labor. Would you help us make ready for the delivery?"
+50,"TEXT_LUCKZF009_03468_KINDVIIS03468_000_002","I have asked Olmet to prepare a blanket for the child, and Ciuille fresh water."
+51,"TEXT_LUCKZF009_03468_KINDVIIS03468_000_010","Time is of the essence. Go and speak with Olmet and Ciuille. They will have what we need."
+52,"TEXT_LUCKZF009_03468_OLMET_000_020","Ah, I was told someone would be coming. Here─a blanket of our finest fur. Go on, now. They will be waiting."
+53,"TEXT_LUCKZF009_03468_CIUILLE_000_021","It is time, then? I finished purifying the water but moments ago. The child's ears must be cleansed before first hearkening to the call of the woods."
+54,"TEXT_LUCKZF009_03468_OLMET_000_030","I will not keep you. The others are waiting for that blanket."
+55,"TEXT_LUCKZF009_03468_CIUILLE_000_035","Be careful not to spill the water."
+56,"TEXT_LUCKZF009_03468_KINDVIIS03468_000_040","Do you have the blanket and water?"
+57,"TEXT_LUCKZF009_03468_KINDVIIS03468_000_041","Good, good. With this, everything is in order."
+58,"TEXT_LUCKZF009_03468_KINDVIIS03468_000_042","It has been far too long since any of our sisters has given birth."
+59,"TEXT_LUCKZF009_03468_KINDVIIS03468_000_043","You honor us with your assistance. Would that we could allow you to meet the child once born."
+60,"TEXT_LUCKZF009_03468_KINDVIIS03468_000_044","To ensure their safety, it is strictly forbidden for any save the wet nurse and immediate family to see them. Even should the opportunity never arise, make no mistake: the child will hear of your deeds. You have my word on that."

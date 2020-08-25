@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ212_02684_SEQ_00","筋違砦のヒラセは、献立の思案をしているようだ。"
+0,"TEXT_STMBDZ212_02684_SEQ_00","Hirase is pondering what to make the Confederates for <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>dinner<Else/>breakfast</If><Else/><If(LessThan(PlayerParameter(11),17))>lunch<Else/>dinner</If></If>."
 1,"TEXT_STMBDZ212_02684_SEQ_01",""
 2,"TEXT_STMBDZ212_02684_SEQ_02",""
 3,"TEXT_STMBDZ212_02684_SEQ_03",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_STMBDZ212_02684_SEQ_21",""
 22,"TEXT_STMBDZ212_02684_SEQ_22",""
 23,"TEXT_STMBDZ212_02684_SEQ_23",""
-24,"TEXT_STMBDZ212_02684_TODO_00","<Sheet(BNpcName,5734,0)/>から<Sheet(EventItem,2002212,0)/>を入手"
-25,"TEXT_STMBDZ212_02684_TODO_01","ヒラセに<Sheet(EventItem,2002212,0)/>を渡す"
+24,"TEXT_STMBDZ212_02684_TODO_00","Obtain slabs of hearty gyuki meat from gyuki."
+25,"TEXT_STMBDZ212_02684_TODO_01","Deliver the slabs of hearty gyuki meat to Hirase."
 26,"TEXT_STMBDZ212_02684_TODO_02",""
 27,"TEXT_STMBDZ212_02684_TODO_03",""
 28,"TEXT_STMBDZ212_02684_TODO_04",""
@@ -49,33 +49,14 @@ int32,str,str
 45,"TEXT_STMBDZ212_02684_TODO_21",""
 46,"TEXT_STMBDZ212_02684_TODO_22",""
 47,"TEXT_STMBDZ212_02684_TODO_23",""
-48,"TEXT_STMBDZ212_02684_HIRASE_000_000","おおっと、驚いた……！
-メシの献立を考えるのに、必死だったもんでな。
-俺は海賊衆の料理番、奔放な連中の腹の面倒をみてるのさ。"
-49,"TEXT_STMBDZ212_02684_HIRASE_000_001","俺が考え抜いた、今日の献立を教えてやろうか？
-な、な、なーんと、具だくさんの「海賊鍋」でい！
-ほーら、聞いただけでヨダレが出てきたろ？"
-50,"TEXT_STMBDZ212_02684_HIRASE_000_002","しかしな……最近は、帆別銭の徴収が滞ってるもんで、
-食糧費を減らすように、勘定方から言われてんだ……。"
-51,"TEXT_STMBDZ212_02684_HIRASE_000_003","だが、俺の役目は野郎どもの腹を満たすことだ！
-ってわけで、節約しながら食材を調達するしかない！
-そこで相談なんだが、手伝ってくれないか？"
-52,"TEXT_STMBDZ212_02684_HIRASE_000_004","お前は、砦の西あたりにいる「<Sheet(BNpcName,5734,0)/>」を倒して、
-「<Sheet(EventItem,2002212,0)/>」を3切れほど、取ってきてくれ。
-俺は、海でほかの食材を諸々調達しておくからよ！"
-53,"TEXT_STMBDZ212_02684_HIRASE_000_005","お前は、砦の西あたりにいる「<Sheet(BNpcName,5734,0)/>」を倒して、
-「<Sheet(EventItem,2002212,0)/>」を3切れほど、取ってきてくれ！"
-54,"TEXT_STMBDZ212_02684_HIRASE_000_011","おお、<If(PlayerParameter(4))>姉ちゃん<Else/>兄ちゃん</If>、ご苦労さん！
-俺の方も、いろいろと収穫があったぞ！
-あとは鍋の主役、「<Sheet(EventItem,2002212,0)/>」を待つばかりでい！"
-55,"TEXT_STMBDZ212_02684_HIRASE_000_020","はぁ～この匂い……たまんねえぜ！
-肉はまずいが、肝は火を通すと、絶品でなあ。
-こいつが、海賊鍋の主役と言われる由縁よ！"
-56,"TEXT_STMBDZ212_02684_HIRASE_000_021","海水を入れた鍋に、たっぷりの海産物と焼き石をぶち込み、
-最後に、この肝をど真ん中に鎮座させて、ごった煮すれば、
-海賊鍋の出来上がりでい！"
-57,"TEXT_STMBDZ212_02684_HIRASE_000_022","紅玉海の恵みが、たっぷりつまったこの鍋は、
-この海を守る、俺たち海賊衆の誇りでもあるんだぜ～！"
-58,"TEXT_STMBDZ212_02684_HIRASE_000_023","さあて、こいつは礼だ。
-食の恩は必ず返す、これも海賊衆の仕来りよ！
-<If(PlayerParameter(4))>姉ちゃん<Else/>兄ちゃん</If>、ありがとよ！！"
+48,"TEXT_STMBDZ212_02684_HIRASE_000_000","Bah! You scared me! I was just contemplating what to make the hungry men and women of Onokoro for <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>dinner<Else/>breakfast</If><Else/><If(LessThan(PlayerParameter(11),17))>lunch<Else/>dinner</If></If>. As the resident chef, it is my responsibility to see that they are provided with good, nutritious meals."
+49,"TEXT_STMBDZ212_02684_HIRASE_000_001","I think today we will be having a pirate's stew. Makes your mouth water, doesn't it?"
+50,"TEXT_STMBDZ212_02684_HIRASE_000_002","Problem is, I am missing a key ingredient. <sigh> Our revenue from the Ruby Tithe has been slowly declining and the treasurer has cut down on my budget. I am now unable to afford the juicy meat that makes this stew a proper pirate's stew."
+51,"TEXT_STMBDZ212_02684_HIRASE_000_003","Regardless, it is my job to find a way to keep our pirates healthy and full. That means I must find an alternative way to procure my meats. Perhaps you could assist me?"
+52,"TEXT_STMBDZ212_02684_HIRASE_000_004","To the west of here are wild gyuki. Might you kill a few and bring me back slabs of this meat? In the meantime, I will go and search the sea for other foods to put into the stew."
+53,"TEXT_STMBDZ212_02684_HIRASE_000_005","Please bring back a few slabs of meat from the wild gyuki wandering to the west of here."
+54,"TEXT_STMBDZ212_02684_HIRASE_000_011","You have brought me back my meat? Fantastic! Simply fantastic! With this, my stew is now complete!"
+55,"TEXT_STMBDZ212_02684_HIRASE_000_020","Do you smell that, my good <If(PlayerParameter(4))>lady<Else/>man</If>? Now, that is the smell of a proper meal!"
+56,"TEXT_STMBDZ212_02684_HIRASE_000_021","Once we slide the hot stones into the pot, and the seawater begins to boil the seafood and meat, the already heavenly aroma will become all the sweeter!"
+57,"TEXT_STMBDZ212_02684_HIRASE_000_022","We have the Ruby Sea to thank for such a luxurious bounty. By her we are blessed and in partaking of her food we shall be protected─unless you are foolish enough to swallow one of the hot stones, that is! Hahaha!"
+58,"TEXT_STMBDZ212_02684_HIRASE_000_023","Thank you for your help, my friend. I hope this shall suffice as payment for your services."

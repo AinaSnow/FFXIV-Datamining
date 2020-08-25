@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSC203_00962_SEQ_00","エールポートのシアーナは幻影諸島へ向かいたいようだ。"
-1,"TEXT_GAIUSC203_00962_SEQ_01","<Sheet(EventItem,2000843,0)/>は持っている。エールポートの桟橋にいる「幻影諸島行きの船頭」に話しかけて、幻影諸島へ運んでもらおう。"
-2,"TEXT_GAIUSC203_00962_SEQ_02","幻影諸島についた。これからの行動について「シアーナ」と話そう。"
-3,"TEXT_GAIUSC203_00962_SEQ_03","シアーナは足が震えて動けないらしい。シリウス大灯台の「ダヴィッド」に「<Sheet(EventItem,2000840,0)/>」を渡そう。"
-4,"TEXT_GAIUSC203_00962_SEQ_04","ダヴィッドに<Sheet(EventItem,2000840,0)/>を渡した。しかし、何か問題が発生しているようだ。"
+0,"TEXT_GAIUSC203_00962_SEQ_00","Ceana has no desire to journey to the Isles of Umbra."
+1,"TEXT_GAIUSC203_00962_SEQ_01","At your insistence, Ceana agrees to accompany you to the Isles of Umbra to help you acquire a corrupted crystal. Speak with the ferry skipper to begin your journey."
+2,"TEXT_GAIUSC203_00962_SEQ_02","A cursory survey of the shore reveals no signs of undead. Even so, you observe that Ceana's hands are visibly shaking as she grips your warded pot. Find out what is troubling her."
+3,"TEXT_GAIUSC203_00962_SEQ_03","In the end, Ceana succumbs to her fear and flees back to the mainland, though not before returning your warded pot to you, and instructing you to speak with the man standing guard at the gates to Pharos Sirius."
+4,"TEXT_GAIUSC203_00962_SEQ_04","Though Davyd understands your intent, he is nevertheless unable to oblige you. It would be easy to slay the man and proceed inside to claim your crystal. However, as that is not particularly heroic, you might as well make an earnest attempt to change his mind."
 5,"TEXT_GAIUSC203_00962_SEQ_05",""
 6,"TEXT_GAIUSC203_00962_SEQ_06",""
 7,"TEXT_GAIUSC203_00962_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_GAIUSC203_00962_SEQ_21",""
 22,"TEXT_GAIUSC203_00962_SEQ_22",""
 23,"TEXT_GAIUSC203_00962_SEQ_23",""
-24,"TEXT_GAIUSC203_00962_TODO_00","幻影諸島行きの船頭と話す"
-25,"TEXT_GAIUSC203_00962_TODO_01","幻影諸島のシアーナと話す"
-26,"TEXT_GAIUSC203_00962_TODO_02","シリウス大灯台のダヴィッドに<Sheet(EventItem,2000840,0)/>を渡す"
+24,"TEXT_GAIUSC203_00962_TODO_00","Speak with the ferry skipper."
+25,"TEXT_GAIUSC203_00962_TODO_01","Speak with Ceana."
+26,"TEXT_GAIUSC203_00962_TODO_02","Show the warded pot to Davyd."
 27,"TEXT_GAIUSC203_00962_TODO_03",""
 28,"TEXT_GAIUSC203_00962_TODO_04",""
 29,"TEXT_GAIUSC203_00962_TODO_05",""
@@ -49,37 +49,17 @@ int32,str,str
 45,"TEXT_GAIUSC203_00962_TODO_21",""
 46,"TEXT_GAIUSC203_00962_TODO_22",""
 47,"TEXT_GAIUSC203_00962_TODO_23",""
-48,"TEXT_GAIUSC203_00962_CEANA_000_000","ううう、サイアク……。
-君、強いんでしょ？　幽霊が出たら守ってよね！
-私を置いて逃げたらゼッタイ許さないんだから！"
-49,"TEXT_GAIUSC203_00962_CEANA_000_001","じゃあ「幻影諸島」行きの船着場に行くよ……。
-ううう、怖い……さ、先行ってて。
-お手洗い行ってから追いかけるから……。"
-50,"TEXT_GAIUSC203_00962_SENDO_000_010","こんな時に「幻影諸島」に行くのかね？
-……ちゃんと許可証もあるようだな……。
-じゃあ、乗りな……クックックッ……。"
-51,"TEXT_GAIUSC203_00962_CEANA_000_020","はー、着いた着いた。
-……どうやら、見た感じは普通みたいね。"
-52,"TEXT_GAIUSC203_00962_CEANA_000_021","わ、わわわ悪いんだけど、
-ここから先はひとりで行ってくれない？
-あ、足が震えて……う、動けないの……。"
-53,"TEXT_GAIUSC203_00962_CEANA_000_022","あ、これ預かっていた「<Sheet(EventItem,2000840,0)/>」ね。
-灯台守さんに渡せばいいから。
-じゃ、クリスタル回収、よろしくーっ！"
-54,"TEXT_GAIUSC203_00962_SENDO_000_025","「幻影諸島」に行くのかね？
-じゃあ、乗りな……クックックッ……。"
-55,"TEXT_GAIUSC203_00962_CEANA_000_028","あーっ！　あんたーっ！
-島に私を置いて、ひとりで逃げやがってーっ！
-マジ怖かったんだからーっ！"
-56,"TEXT_GAIUSC203_00962_CEANA_000_029","ももも、もう一回、行くからね！
-さっさと船着場の船頭に話しかけなさいよ！
-今度逃げたら、マジ許さないんだからっ！"
-57,"TEXT_GAIUSC203_00962_DAVYD_000_030","君は……冒険者か？
-まったく、関係者以外、禁止だと言っているのに、
-無断で渡航してきたのかい？"
-58,"TEXT_GAIUSC203_00962_DAVYD_000_040","おや、この壺は？　……フム、なるほど。
-大灯台の偏属性クリスタルを採集しにきたのだね？
-だが……それは厳しいかもしれんな。"
-59,"TEXT_GAIUSC203_00962_Q1_000_100","「幻影諸島」に移動しますか？"
-60,"TEXT_GAIUSC203_00962_A1_000_101","はい"
-61,"TEXT_GAIUSC203_00962_A1_000_102","いいえ"
+48,"TEXT_GAIUSC203_00962_CEANA_000_000","<sigh> Fine, fine! I fail to see the justification for dragging me along on your journey, but if you insist, I will go as well."
+49,"TEXT_GAIUSC203_00962_CEANA_000_001","But Twelve as my witness, if you leave me behind to be devoured by some horrid abomination, I...I shall come back to haunt you!"
+50,"TEXT_GAIUSC203_00962_SENDO_000_010","Hah! “Take me to the Isles of Umbra,” <If(PlayerParameter(4))>she<Else/>he</If> bids! As if it's as simple as─ Oh, I see you've got a writ of passage. All right, then, climb aboard."
+51,"TEXT_GAIUSC203_00962_CEANA_000_020","Th-Th-This doesn't seem all that bad..."
+52,"TEXT_GAIUSC203_00962_CEANA_000_021","I'm not saying I'd like to build a summer home here, but─ Oh, the hells with this. Here, take your pot and go on without me."
+53,"TEXT_GAIUSC203_00962_CEANA_000_022","You've harvested corrupted crystals before, right? So it isn't as though you require my assistance. Speak to the man guarding the gate─I'm sure he'll let you in. Now, if you would please excuse me..."
+54,"TEXT_GAIUSC203_00962_SENDO_000_025","Hah! “Take me <Emphasis>back</Emphasis> to the Isles of Umbra,” <If(PlayerParameter(4))>she<Else/>he</If> jests! As if anyone would ever want to─ Oh, I see you're serious. All right, then, climb aboard."
+55,"TEXT_GAIUSC203_00962_CEANA_000_028","You awful, awful <If(PlayerParameter(4))>woman<Else/>man</If>! I explicitly told you <Emphasis>not</Emphasis> to abandon me!"
+56,"TEXT_GAIUSC203_00962_CEANA_000_029","And you even have the audacity to request that I accompany you <Emphasis>again</Emphasis>!? <sigh> Very well─but do not think I will forget this, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>!"
+57,"TEXT_GAIUSC203_00962_DAVYD_000_030","Beg your pardon, <If(PlayerParameter(4))>madam<Else/>sir</If>, but how did you come here? Access to this island is currently restricted..."
+58,"TEXT_GAIUSC203_00962_DAVYD_000_040","An old pot? I'm not sure I follow. ...Oh, I see. You wish to harvest a corrupted crystal. Sorry, friend, but you may have to return empty-handed."
+59,"TEXT_GAIUSC203_00962_Q1_000_100","Travel to the Isles of Umbra?"
+60,"TEXT_GAIUSC203_00962_A1_000_101","Yes"
+61,"TEXT_GAIUSC203_00962_A1_000_102","No"

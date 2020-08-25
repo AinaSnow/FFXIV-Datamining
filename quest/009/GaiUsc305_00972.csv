@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSC305_00972_SEQ_00","十二神大聖堂のケインは、ある青年の後押しをしたいようだ。"
-1,"TEXT_GAIUSC305_00972_SEQ_01","告白しようとしている青年を見かけたというケイン。緊張しきった青年に「<Sheet(EventItem,2000865,0)/>」を渡してあげよう。"
-2,"TEXT_GAIUSC305_00972_SEQ_02","青年は<Sheet(EventItem,2000865,0)/>を持って去っていった。十二神大聖堂の「ケイン」に報告しよう。"
-3,"TEXT_GAIUSC305_00972_SEQ_03","ケインと冒険者の働きにより、青年は告白する決心がついたようだ。青年とその伴侶の行く末に、幸多からんことを祈ろう。"
+0,"TEXT_GAIUSC305_00972_SEQ_00","A rose is a rose is a helping hand, at least when a kindly botanist spots a man on the verge of botching his troth."
+1,"TEXT_GAIUSC305_00972_SEQ_01","Unlike the <Switch(PlayerParameter(70))><Case(1)>botanists you remember from back in Limsa Lominsa</Case><Case(2)>other Gridanian botanists of your acquaintance</Case><Case(3)>botanists who used to chase you out of the apricot trees back home</Case></Switch>, Kain keeps a kindly eye on the people who walk the grounds. Taking pity on a painfully nervous young lover, he asks you to deliver a bouquet of roses to him."
+2,"TEXT_GAIUSC305_00972_SEQ_02","The sight of the flowers brings the young man out of his fluster. He heads for his lady love, full of happy determination. Kain will be pleased─but not surprised─to hear of this."
+3,"TEXT_GAIUSC305_00972_SEQ_03","Was it the flowers, or the kindness of strangers that smoothed the course of this love? To love is to be smiled upon by one, but to be wed is to be smiled upon by the sundry..."
 4,"TEXT_GAIUSC305_00972_SEQ_04",""
 5,"TEXT_GAIUSC305_00972_SEQ_05",""
 6,"TEXT_GAIUSC305_00972_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSC305_00972_SEQ_21",""
 22,"TEXT_GAIUSC305_00972_SEQ_22",""
 23,"TEXT_GAIUSC305_00972_SEQ_23",""
-24,"TEXT_GAIUSC305_00972_TODO_00","緊張しきった青年に<Sheet(EventItem,2000865,0)/>を渡す"
-25,"TEXT_GAIUSC305_00972_TODO_01","ケインに報告"
+24,"TEXT_GAIUSC305_00972_TODO_00","Give the roses to the nervy nipper."
+25,"TEXT_GAIUSC305_00972_TODO_01","Report to Kain."
 26,"TEXT_GAIUSC305_00972_TODO_02",""
 27,"TEXT_GAIUSC305_00972_TODO_03",""
 28,"TEXT_GAIUSC305_00972_TODO_04",""
@@ -49,23 +49,11 @@ int32,str,str
 45,"TEXT_GAIUSC305_00972_TODO_21",""
 46,"TEXT_GAIUSC305_00972_TODO_22",""
 47,"TEXT_GAIUSC305_00972_TODO_23",""
-48,"TEXT_GAIUSC305_00972_KAIN_000_000","ここの庭で仕事をしていたとき、
-彫金細工の修復に来た、彫金師と知り合ってね。
-それが今の僕の妻さ。"
-49,"TEXT_GAIUSC305_00972_KAIN_000_001","ははは、十二神が導いた運命かもしれないね。
-この十二神大聖堂は、愛の聖地でもあるから。
-……そういえば、さっき告白秒読みって感じの青年を見たな。"
-50,"TEXT_GAIUSC305_00972_KAIN_000_002","勇気を後押しするのは、いつも小さなきっかけだ。
-……君、僕特製の「<Sheet(EventItem,2000865,0)/>」を
-あの青年に渡してあげてくれないか。"
-51,"TEXT_GAIUSC305_00972_YOUTH_000_020","……けけけ、けっこんちてくだちゃい！
-ううう、緊張する……落ち着けー落ち着けー。"
-52,"TEXT_GAIUSC305_00972_YOUTH_000_025","い、いきなり何を……！？
-あれ、この花束……いい香り、そしてきれいだ。
-こんな素敵なものをいただいていいのかい？"
-53,"TEXT_GAIUSC305_00972_YOUTH_000_026","……ありがとう！
-これを持って彼女に告白してくる！
-十二神に、彼女への愛を誓ってくるよ！！"
-54,"TEXT_GAIUSC305_00972_KAIN_000_040","ははは、うまくいったみたいだね。
-彼らがここで結婚式をするまでに、
-君に届けてもらった種を咲かせておかねばならないな！"
+48,"TEXT_GAIUSC305_00972_KAIN_000_000","Once when I was doing some work in the herb garden, a goldsmith was there installing new vanes on the whirligig. We got to talking, and do you know what she did? She wed me, the minx."
+49,"TEXT_GAIUSC305_00972_KAIN_000_001","The Twelve give in mysterious ways, and these gardens have seen their share of lovers. I can spot them quite easily. Why, there was one just now─head over heels, yet tongue-tied. Youth is wasted on the young!"
+50,"TEXT_GAIUSC305_00972_KAIN_000_002","Well, I must have been such a clod as that once, though I refuse to believe it in my heart. We must stand together, we clods in love. May I ask you to slip him a bouquet of my special Azeyma roses?"
+51,"TEXT_GAIUSC305_00972_YOUTH_000_020","W–We are two souls inhabiting one body and─wait, that's not right. Oh nooo, I should of learned to talk! I mean, should have, should <Emphasis>have</Emphasis>!"
+52,"TEXT_GAIUSC305_00972_YOUTH_000_025","No thanks, I'm taken!
+...Oh. A delivery─from “a friend of the happy couple”? This is...beautiful. And it smells so good. Thank you."
+53,"TEXT_GAIUSC305_00972_YOUTH_000_026","Really, thank you! I don't need a speech, I'm just going to give her these roses and tell her the truth! I spent the morning at the Sanctum pledging my love for her before the Twelve."
+54,"TEXT_GAIUSC305_00972_KAIN_000_040","Went well, did it? Everyone needs a little help sometimes. We who work in the gardens know that better than most─the great oaks, the tender seedling, exotics, and the commonplace; they all need care. Even you, adventurer."

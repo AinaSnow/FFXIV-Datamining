@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBCTS819_01558_SEQ_00","レヴナンツトールのアリスは、冒険者に折り入って頼みたいことがあるようだ。"
-1,"TEXT_SUBCTS819_01558_SEQ_01","セブンスヘブンの常連である、武具職人「エギンオルフ」が何か悩み事を抱えているらしい。アリスは、冒険者になら悩みが解決できると言うが……。レヴナンツトールの工房「ダイヤモンドフォージ」にいる「エギンウルフ」と話そう。"
-2,"TEXT_SUBCTS819_01558_SEQ_02","エギンオルフと話した。彼は雇い主であるロウェナの注文する無理難題に悩んでいた。しかし、冒険者と話し、新たな武具を作る意欲を取り戻したようだ。エギンオルフはお礼に、冒険者の持つ古のジョブの装束を自由に染色できるよう調整してくれるという。「補材」を用意し、弟子のカカランに交換してもらおう。"
+0,"TEXT_SUBCTS819_01558_SEQ_00","Alys would ask you to speak with a troubled patron."
+1,"TEXT_SUBCTS819_01558_SEQ_01","While normally delighted by the company of her patrons at the Seventh Heaven, Alys is at a loss about how to console a particular customer. Eginolf, a renowned craftsman and regular at the tavern, has been more than voracious with his drinking of late, and Alys suspects he is beleaguered with work-related problems. To put an end to his troubles, and preserve the decorum of her establishment, she asks that you speak with him, that his mind may be put at ease. Make your way to Rowena's House of Splendors and speak with Eginolf to discover the cause of his distress."
+2,"TEXT_SUBCTS819_01558_SEQ_02","You speak with Eginolf, and discover the source of his troubles is an arduous undertaking at the behest of his employer, the trader Rowena. Tasked with creating a new line of wares, the likes of which the realm has never known, he was at a loss as to how he could fulfill his duty to her. Meeting you, however, has inspired a return to the basics, that he may better tailor his wares to the adventurers who would purchase them. As thanks, he offers to dye your artifact armor any color you desire. After acquiring the necessary augmentation item, try speaking with his assistant, Kakalan."
 3,"TEXT_SUBCTS819_01558_SEQ_03",""
 4,"TEXT_SUBCTS819_01558_SEQ_04",""
 5,"TEXT_SUBCTS819_01558_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_SUBCTS819_01558_SEQ_21",""
 22,"TEXT_SUBCTS819_01558_SEQ_22",""
 23,"TEXT_SUBCTS819_01558_SEQ_23",""
-24,"TEXT_SUBCTS819_01558_TODO_00","エギンオルフと話す"
+24,"TEXT_SUBCTS819_01558_TODO_00","Speak with Eginolf."
 25,"TEXT_SUBCTS819_01558_TODO_01",""
 26,"TEXT_SUBCTS819_01558_TODO_02",""
 27,"TEXT_SUBCTS819_01558_TODO_03",""
@@ -49,56 +49,23 @@ int32,str,str
 45,"TEXT_SUBCTS819_01558_TODO_21",""
 46,"TEXT_SUBCTS819_01558_TODO_22",""
 47,"TEXT_SUBCTS819_01558_TODO_23",""
-48,"TEXT_SUBCTS819_01558_ALYS_000_000","ようこそ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>様。
-本日は、貴方様に折り入ってお願いしたいことがあるのです。"
-49,"TEXT_SUBCTS819_01558_ALYS_000_001","「エギンオルフ」という御方を御存じでしょうか？
-なんでも、巷では高名な武具職人で、
-ロウェナさんおかかえの熟練の名匠とか……。"
-50,"TEXT_SUBCTS819_01558_ALYS_000_002","その御方は、ここ「セブンスヘブン」の常連様なのですが、
-最近、よく深酒をして、愚痴ばかりこぼしているのです。
-どうやら、仕事で行き詰まっているようでして……。"
-51,"TEXT_SUBCTS819_01558_ALYS_000_003","おそらく、エギンオルフ様の悩みを解決するには、
-貴方様のような、熟練の冒険者の助言が不可欠……。
-よろしければ、彼の話し相手になってはいただけませんか？"
-52,"TEXT_SUBCTS819_01558_ALYS_000_004","「エギンオルフ」様は、工房にいらっしゃると思います。
-彼の悩みを解決できるのは、貴方様をおいてほかにおりません。
-どうか、よろしくお願いいたします。"
-53,"TEXT_SUBCTS819_01558_EGINOLF_000_000","ううう……困った……ああ、何も思い浮かばない……。
-……おや、あなたは？
-そうですか、アリスさんに頼まれて来たのですね。"
-54,"TEXT_SUBCTS819_01558_EGINOLF_000_001","私は、エギンオルフ。
-ロウェナ女史に隷属……
-もとい、専属契約させていただいている武具職人です。"
-55,"TEXT_SUBCTS819_01558_EGINOLF_000_002","私の製作した「復古調装備群」をご存知ですか？
-伝承に伝わる「古のジョブ」の戦装束を、現代に復刻したもので、
-冒険者の間で大評判となりまして、一世を風靡したものです。"
-56,"TEXT_SUBCTS819_01558_EGINOLF_000_003","……ですが、最近は取引量がめっきり減りまして、
-ロウェナ女史の眼光は、ますます鋭くなる一方。
-しまいには「今までにない斬新な武具を作れ！」……と。"
-57,"TEXT_SUBCTS819_01558_EGINOLF_000_004","無茶だと思いませんかっ！
-斬新な武具なんて、そうそう思いつくわけがないでしょうに！
-……はぁ、そういうわけで、途方に暮れているのです。"
-58,"TEXT_SUBCTS819_01558_EGINOLF_000_005","おや？　冒険者さん、あなたはもしかして……やはりそうだ！
-あなたは「古のジョブ」の戦装束……
-アーティファクト装備を、現代に蘇らせたという冒険者では！？"
-59,"TEXT_SUBCTS819_01558_EGINOLF_000_006","素晴らしい！　一度お会いしたいと思っていたのですよ！
-私の「復古調装備群」も、原型には遠く及びませんでした。
-歴史のある装備は、やはり格が違った……。"
-60,"TEXT_SUBCTS819_01558_EGINOLF_000_007","……そうか。
-アリスさんが私の元に、あなたを遣わせた意味が分かりました。"
-61,"TEXT_SUBCTS819_01558_EGINOLF_000_008","武具を知るには、まずそれを使う者……
-すなわち冒険者のことを知ることが肝要。
-「基本に立ち返れ」という当たり前のことを忘れていました。"
-62,"TEXT_SUBCTS819_01558_EGINOLF_000_009","なんだか新たなアイデアが浮かびそうです！
-ありがとうございました！"
-63,"TEXT_SUBCTS819_01558_EGINOLF_000_010","お礼と言っては何ですが……
-あなたが使い込んだ、そのアーティファクト装備を、
-自分好みに染色できるよう調節して差し上げましょう。"
-64,"TEXT_SUBCTS819_01558_EGINOLF_000_011","調節に必要な「補材」を持ってきてください。
-アーティファクトとともに、そこにいる私の弟子、
-「カカラン」に渡していただければ、すぐさま調節しますから！"
-65,"TEXT_SUBCTS819_01558_SYSTEM_000_015","カカランと取引可能になりました。
-アーティファクト装備と「補材」を渡すことで、
-染色可能なアーティファクトと交換できます。"
-66,"TEXT_SUBCTS819_01558_SYSTEM_000_016","なお、必要となる「補材」は装備ごとに異なります。
-必要な種類を調べ、製作や取引を通じて入手しましょう。"
+48,"TEXT_SUBCTS819_01558_ALYS_000_000","Ah, well if it isn't <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Just the adventurer I was hoping to see."
+49,"TEXT_SUBCTS819_01558_ALYS_000_001","Do you know of the blacksmith Eginolf? He's quite an accomplished craftsman. In fact, anyone who's had dealings with Rowena is sure to have come across his creations."
+50,"TEXT_SUBCTS819_01558_ALYS_000_002","It's always been a pleasure to have him as a regular here at the Seventh Heaven, but he's been quite irritable of late, and practically drowning in his cups, besides. I fear his recent work, or perhaps a lack thereof, may have something to do with it."
+51,"TEXT_SUBCTS819_01558_ALYS_000_003","This may seem but a trifling matter to someone as traveled as yourself, but it would mean so much to me if you would speak with him. I can think of no one better to offer him a word or three of encouragement."
+52,"TEXT_SUBCTS819_01558_ALYS_000_004","You can find him just down the way at the Diamond Forge within Rowena's House of Splendors. I do pray his predicament is nothing serious."
+53,"TEXT_SUBCTS819_01558_EGINOLF_000_000","Can't ye see I'm thinkin', <If(PlayerParameter(4))>lass<Else/>lad</If>? Off with ye!
+...Hm? Alys sent ye, did she?"
+54,"TEXT_SUBCTS819_01558_EGINOLF_000_001","<scoff> And I suppose she just <Emphasis>happened</Emphasis> to mention me <Emphasis>contract</Emphasis> with Rowena, eh?"
+55,"TEXT_SUBCTS819_01558_EGINOLF_000_002","I thought she'd be satisfied with me vintage gear. There was a time it practically flew off the shelves, bringin' in 'venturers with tomestones by the bucket. But now..."
+56,"TEXT_SUBCTS819_01558_EGINOLF_000_003","Ye damned divas are a fickle lot, and apparently none o' ye'll be caught dead in me stuff no more. Now I've got Rowena jumpin' down me throat, clamorin' for summat <Emphasis>new</Emphasis>. Summat the realm ain't heretofore seen..."
+57,"TEXT_SUBCTS819_01558_EGINOLF_000_004","The woman expects too bloody much, I tell ye! But if I don't fill me contract, she'll have thugs fittin' me feet fer lead boots. If only I pissed out bright ideas each dawn like I did me ale..."
+58,"TEXT_SUBCTS819_01558_EGINOLF_000_005","Hold yer horsebirds! I...I know ye from somewhere... Yer one of them 'venturers what started the bloody relic armor movement way back when, ain't ye? As I live an' breathe!"
+59,"TEXT_SUBCTS819_01558_EGINOLF_000_006","Tried as I might─and holy hells, did I try─I wasn't quite able to recreate them masterworks. There was summat about 'em─a certain quality even the great Eginolf weren't goin' to match. I s'pose one never truly can rival the classics, eh?"
+60,"TEXT_SUBCTS819_01558_EGINOLF_000_007","Ah, Alys, ye sly shrew. <Emphasis>That's</Emphasis> why you sent this one."
+61,"TEXT_SUBCTS819_01558_EGINOLF_000_008","Ye wanted <If(PlayerParameter(4))>her<Else/>him</If> to remind me of the old days when armorcraft was about the armor, and naught else. Somewhere along the way, I reckon I got caught up in the hurly-burly and lost me way."
+62,"TEXT_SUBCTS819_01558_EGINOLF_000_009","Ye know, I reckon it's high time I got back to basics─focus more on who'll be wearin' me gear than the pretty tail on that Miqo'te sellin' me the parts. Might be then I can come up with summat what'll satisfy ol' Rowena. Cheers, <If(PlayerParameter(4))>lass<Else/>lad</If>. 'Twas kind of ye to stop by."
+63,"TEXT_SUBCTS819_01558_EGINOLF_000_010","And while yer here, how about I fix up yer own set o' relic gear? Mine assistant Kakalan here can augment each and every piece..."
+64,"TEXT_SUBCTS819_01558_EGINOLF_000_011","'Course, that's assumin' ye can bring him the proper parts. I ain't runnin' a charity. Don't go forgetting yer gear, neither."
+65,"TEXT_SUBCTS819_01558_SYSTEM_000_015","You may now trade with Kakalan. After obtaining the appropriate augmentation item, you can exchange it along with artifact armor for augmented artifact armor, which, unlike regular relic armor, can be dyed any color of your choice."
+66,"TEXT_SUBCTS819_01558_SYSTEM_000_016","Please note that the augmentation item required will vary depending on the artifact armor you wish to exchange."

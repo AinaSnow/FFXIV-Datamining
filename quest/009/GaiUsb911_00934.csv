@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB911_00934_SEQ_00","ホワイトブリム前哨地の異端者ボイルは、ドラゴン族に祈りを捧げたいようだ。"
-1,"TEXT_GAIUSB911_00934_SEQ_01","ボイルはドラゴン族に捧げる供物が欲しいようだ。牢番の騎兵「フェルディエ」に話してみよう。"
-2,"TEXT_GAIUSB911_00934_SEQ_02","フェルディエから受け取った「<Sheet(EventItem,2000730,0)/>」を、異端者「ボイル」に渡してみよう。"
-3,"TEXT_GAIUSB911_00934_SEQ_03","冒険者から受け取った<Sheet(EventItem,2000730,0)/>を、ボイルは大喜びでドラゴン族に捧げた。牢番の騎兵「フェルディエ」に報告しよう。"
-4,"TEXT_GAIUSB911_00934_SEQ_04","ボイルの奇行に、フェルディエは頭を痛めている。異端者に近づきすぎると、自分にも異端者の嫌疑がかけられてしまうようだ。"
+0,"TEXT_GAIUSB911_00934_SEQ_00","When a chance to see a real-life heretic presents itself, how could an adventurer resist? Visit with Boyle and see what rattles his cage today."
+1,"TEXT_GAIUSB911_00934_SEQ_01","The heretic Boyle demands a sacrifice to offer to the dragons. This stretches even the very elastic definition of an adventurer's trade, but the imprisoned madman excites your pity. Ferdillaix may know if something can be done."
+2,"TEXT_GAIUSB911_00934_SEQ_02","While unmoved by the broken, raving man in his dungeons, Ferdillaix gives you a dead rat solely to have some peace and quiet. A mangy dungeon rat is no fatted calf, but give it to Boyle anyway, for heretics cannot be choosers."
+3,"TEXT_GAIUSB911_00934_SEQ_03","Boyle croons ecstatically over the dead rat, and begins some sort of a mumbled ritual chant. The less you linger near these doomed men, the better for your health. Make your report to Ferdillaix, and make haste."
+4,"TEXT_GAIUSB911_00934_SEQ_04","Ferdillaix grouses about the din caused by Boyle. It does seem inconvenient that in exposing a man's heresy, the inquisitors also make him loud and more than a little mad. However, no good can come of humoring unbelievers or criticizing the inquisitors..."
 5,"TEXT_GAIUSB911_00934_SEQ_05",""
 6,"TEXT_GAIUSB911_00934_SEQ_06",""
 7,"TEXT_GAIUSB911_00934_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_GAIUSB911_00934_SEQ_21",""
 22,"TEXT_GAIUSB911_00934_SEQ_22",""
 23,"TEXT_GAIUSB911_00934_SEQ_23",""
-24,"TEXT_GAIUSB911_00934_TODO_00","フェルディエと話す"
-25,"TEXT_GAIUSB911_00934_TODO_01","ボイルに<Sheet(EventItem,2000730,0)/>を渡す"
-26,"TEXT_GAIUSB911_00934_TODO_02","フェルディエに報告"
+24,"TEXT_GAIUSB911_00934_TODO_00","Speak with Ferdillaix."
+25,"TEXT_GAIUSB911_00934_TODO_01","Give Boyle the dead rat."
+26,"TEXT_GAIUSB911_00934_TODO_02","Report to Ferdillaix."
 27,"TEXT_GAIUSB911_00934_TODO_03",""
 28,"TEXT_GAIUSB911_00934_TODO_04",""
 29,"TEXT_GAIUSB911_00934_TODO_05",""
@@ -49,24 +49,11 @@ int32,str,str
 45,"TEXT_GAIUSB911_00934_TODO_21",""
 46,"TEXT_GAIUSB911_00934_TODO_22",""
 47,"TEXT_GAIUSB911_00934_TODO_23",""
-48,"TEXT_GAIUSB911_00934_BOYLE_000_000","ヒハハハハハハハハ！
-ドラゴン族こそ至上、ドラゴン族こそ我が主！
-愚民どもよ、偉大なるドラゴン様を畏れよ、讃えよ！"
-49,"TEXT_GAIUSB911_00934_BOYLE_000_001","そこなる愚民、ドラゴン様への供物を持てい！
-卑しき騎兵「フェルディエ」に命じれば、
-何かしら差しだすであろうよ！"
-50,"TEXT_GAIUSB911_00934_FERDILLAIX_000_010","……ボイルの奴から、ドラゴン族への供物を要求されたって？
-あの異端野郎は、随分前から正気を失ってるんだ。
-まともに相手するな。"
-51,"TEXT_GAIUSB911_00934_FERDILLAIX_000_011","この「<Sheet(EventItem,2000730,0)/>」でもくれてやるといいさ。
-泣いて喜んで、ドラゴン様に献上するだろうよ。"
-52,"TEXT_GAIUSB911_00934_BOYLE_000_020","さあ愚民よ、悔い改めるのだ。
-ドラゴン様への供物をここに差しだすがよい！"
-53,"TEXT_GAIUSB911_00934_BOYLE_000_030","おお、すばらしい！
-なんとかぐわしき血の臭いか。
-ドラゴン様、どうぞお受け取りください！"
-54,"TEXT_GAIUSB911_00934_BOYLE_000_031","……フッ、フヒッ、フヒヒヒヒヒ！
-クケケケケケケケケケケ……。"
-55,"TEXT_GAIUSB911_00934_FERDILLAIX_000_040","はあ……暴れるよりはいいが、面倒くさい奴だぜ。
-これに懲りたら、異端者には近づくなよ。
-あんたにまで異端者の嫌疑がかかるぜ。"
+48,"TEXT_GAIUSB911_00934_BOYLE_000_000","Muahahaha! Do you see? Do you see the great dragons? Dravanius mundi has risen! Bend the knee, bend the knee, <If(PlayerParameter(4))>bondswoman<Else/>bondsman</If>, before our righteous conquerors!"
+49,"TEXT_GAIUSB911_00934_BOYLE_000_001","<Emphasis>They</Emphasis> sent you, I know. A slave or a servant, a slave or a servant, those are the choices, so many voices...shhh. I must make an offering. Quickly, <If(PlayerParameter(4))>bondswoman<Else/>bondsman</If>, tell the slave Ferdillaix to send a fatted calf."
+50,"TEXT_GAIUSB911_00934_FERDILLAIX_000_010","Boyle wants another sacrifice, eh? That crazy unbelieving son of a trull, he won't shut up when he gets in this state. Makes these dungeons a living hell, believe you me."
+51,"TEXT_GAIUSB911_00934_FERDILLAIX_000_011","Here, just give him this dead rat. That'll keep him quiet for a bit. He does these...rituals, you know. Fair turns the stomach, but anything for a little peace."
+52,"TEXT_GAIUSB911_00934_BOYLE_000_020","<If(PlayerParameter(4))>Bondswoman<Else/>Bondsman</If>! I see the thrall Ferdillaix has prepared for us the fatted calf. The dragon-lords will be most pleased!"
+53,"TEXT_GAIUSB911_00934_BOYLE_000_030","Beautiful! Hm? “Innocent”? Shhh, my moo-cow, don't tell them you're innocent, it's <Emphasis>worse</Emphasis> that way... O dravanius mundi! Accept this offering and let me be reborn in flames..."
+54,"TEXT_GAIUSB911_00934_BOYLE_000_031","...Pine pitch, pig's fat, dry brush, rock oil─don't forget hair, hair burns─but a little bronze rattle that he loved so well, that only melts. Muahaha, that only <Emphasis>melts</Emphasis>."
+55,"TEXT_GAIUSB911_00934_FERDILLAIX_000_040","Finally, some peace! I tell you, some of these unbelievers <Emphasis>seem</Emphasis> normal enough at first, but they show their true face after the inquisitors get to work on them. Best not consort with them that's in the dungeons, eh?"

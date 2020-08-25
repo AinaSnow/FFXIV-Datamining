@@ -1,8 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKZJ009_03572_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-ラップ島のヤルリックは、何やら友だちと揉めているようだ。"
+0,"TEXT_LUCKZJ009_03572_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Yalric appears to be having a heated disagreement with his friends."
 1,"TEXT_LUCKZJ009_03572_SEQ_01",""
 2,"TEXT_LUCKZJ009_03572_SEQ_02",""
 3,"TEXT_LUCKZJ009_03572_SEQ_03",""
@@ -26,8 +26,8 @@ int32,str,str
 21,"TEXT_LUCKZJ009_03572_SEQ_21",""
 22,"TEXT_LUCKZJ009_03572_SEQ_22",""
 23,"TEXT_LUCKZJ009_03572_SEQ_23",""
-24,"TEXT_LUCKZJ009_03572_TODO_00","迷える羊飼いの森で宝を探す"
-25,"TEXT_LUCKZJ009_03572_TODO_01","ヤルリックに<Sheet(EventItem,2002818,0)/>を渡す"
+24,"TEXT_LUCKZJ009_03572_TODO_00","Search for hidden treasure in the Forest of the Lost Shepherd."
+25,"TEXT_LUCKZJ009_03572_TODO_01","Deliver the treasure chest to Yalric."
 26,"TEXT_LUCKZJ009_03572_TODO_02",""
 27,"TEXT_LUCKZJ009_03572_TODO_03",""
 28,"TEXT_LUCKZJ009_03572_TODO_04",""
@@ -50,38 +50,20 @@ int32,str,str
 45,"TEXT_LUCKZJ009_03572_TODO_21",""
 46,"TEXT_LUCKZJ009_03572_TODO_22",""
 47,"TEXT_LUCKZJ009_03572_TODO_23",""
-48,"TEXT_LUCKZJ009_03572_YALRIC_000_000","なあ、大丈夫だって！
-俺らでお宝を探しに行こうぜ！"
-49,"TEXT_LUCKZJ009_03572_VONNDEN_000_001","ダメだって！　母さんに見つかったら叱られるよ！
-……って、あれ？"
-50,"TEXT_LUCKZJ009_03572_VAYNE_000_002","旅人の<If(PlayerParameter(4))>お姉さん<Else/>お兄さん</If>、私たちになにか用？
-もしかして……<If(PlayerParameter(4))>お姉さん<Else/>お兄さん</If>も宝探しに興味があるの？"
-51,"TEXT_LUCKZJ009_03572_VONNDEN_000_003","この村の大人には内緒ですよ……？
-この間、遊び場の木のウロで、瓶に入った地図を見つけたんです。
-きっと宝の地図に違いありません！"
-52,"TEXT_LUCKZJ009_03572_VONNDEN_000_004","あっ、そうだ……！
-<If(PlayerParameter(4))>お姉さん<Else/>お兄さん</If>、僕たちの代わりに、宝探しに行ってくれませんか？"
-53,"TEXT_LUCKZJ009_03572_VONNDEN_000_005","僕たちが行って、大人たちにバレたら、
-宝探しを止められるうえに、最悪、地図を没収されるかもしれません。
-どうか、お願いします！"
-54,"TEXT_LUCKZJ009_03572_YALRIC_000_006","う～ん……たしかに、地図を取り上げられるのは嫌だしなあ。
-……その代わり、宝は4人で山分けだぞ！"
-55,"TEXT_LUCKZJ009_03572_VAYNE_000_007","これが宝の地図だよ！
-ここから東の方角に宝があるみたい。
-お宝探し、よろしくお願いしますっ！"
-56,"TEXT_LUCKZJ009_03572_YALRIC_000_008","ほんとは俺たちで探しに行きたかったよ。
-でも、母ちゃんに見つかったら、
-危ないことはするなって怒られるんだろうなあ……。"
-57,"TEXT_LUCKZJ009_03572_VONNDEN_000_009","宝の地図は、サレン郷の東を指しています。
-絶対にお宝があるはずです！
-僕たちの代わりに、探してきてください！"
-58,"TEXT_LUCKZJ009_03572_VAYNE_000_010","<If(PlayerParameter(4))>お姉ちゃん<Else/>お兄ちゃん</If>、お宝探し、よろしくお願いしますっ！"
-59,"TEXT_LUCKZJ009_03572_SYSTEM_000_015","地面に埋められていた、古い木箱を見つけた！"
-60,"TEXT_LUCKZJ009_03572_YALRIC_000_020","お宝が見付かったのか！？"
-61,"TEXT_LUCKZJ009_03572_YALRIC_100_021","なんだ、この箱……指輪がいっぱい詰まってるな。"
-62,"TEXT_LUCKZJ009_03572_VONNDEN_000_022","これ……「光耀教会の人たち」が付けてた指輪に似てる！
-僕、絵本で見たことがあるよ！"
-63,"TEXT_LUCKZJ009_03572_YALRIC_000_023","光耀教会って、あの光の神サマだかを信じていたんだろ？
-今はもういないんだし、宝は山分けしてもいいよな！"
-64,"TEXT_LUCKZJ009_03572_YALRIC_000_024","まずは宝を見つけてくれた<If(PlayerParameter(4))>姉ちゃん<Else/>兄ちゃん</If>から選んでくれよ！
-こういうのって、最初に見つけた奴が選ぶもんなんだろ？"
+48,"TEXT_LUCKZJ009_03572_YALRIC_000_000","I'm telling you, it'll be fine! Let's go and find the treasure!"
+49,"TEXT_LUCKZJ009_03572_VONNDEN_000_001","Are you mad, Yalric? If Mother finds out we went to the forest, I don't even want to think about what she'll─hm?"
+50,"TEXT_LUCKZJ009_03572_VAYNE_000_002","Oh, hullo there, <If(PlayerParameter(4))>missus<Else/>mister</If> traveler. What can we do for you? Wait─did you hear us talking about the treasure!?"
+51,"TEXT_LUCKZJ009_03572_VONNDEN_000_003","Shhh, Vayne! Oh, it's too late now. We'll share our secret with you─just promise you won't tell anyone, okay? We were playing by our favorite tree, and we found a bottle stuffed into a hollow. And inside the bottle...was a treasure map!"
+52,"TEXT_LUCKZJ009_03572_VONNDEN_000_004","You look like you've been all over the place. Have you ever hunted for treasure? Hey, maybe you could go treasure hunting for us!"
+53,"TEXT_LUCKZJ009_03572_VONNDEN_000_005","We were going to go ourselves, but if the grown-ups caught us sneaking around in the forest, we'd be in real trouble. Please, won't you do this for us?"
+54,"TEXT_LUCKZJ009_03572_YALRIC_000_006","Awww, I wanted to be the one to dig up the treasure... But fine. You can go, as long as we get to split the treasure four ways. We're the ones who found the map, after all!"
+55,"TEXT_LUCKZJ009_03572_VAYNE_000_007","Thanks, <If(PlayerParameter(4))>missus<Else/>mister</If> traveler! Here's the map. The treasure's buried to the east of here, right where you see that big red cross. Good luck!"
+56,"TEXT_LUCKZJ009_03572_YALRIC_000_008","Why do you grown-ups get to have all the fun? I can't wait until I'm old enough to go searching for treasure by myself..."
+57,"TEXT_LUCKZJ009_03572_VONNDEN_000_009","See that big red cross east of Sullen? That's where the treasure's buried! What do you think it is?"
+58,"TEXT_LUCKZJ009_03572_VAYNE_000_010","Thanks for helping us, <If(PlayerParameter(4))>missus<Else/>mister</If> traveler! And good luck finding our treasure!"
+59,"TEXT_LUCKZJ009_03572_SYSTEM_000_015","Digging up the earth, you find a weathered wooden casket!"
+60,"TEXT_LUCKZJ009_03572_YALRIC_000_020","Well? Did you find the treasure? Did you!?"
+61,"TEXT_LUCKZJ009_03572_YALRIC_100_021","Huh? It's full of old rings..."
+62,"TEXT_LUCKZJ009_03572_VONNDEN_000_022","Wait...I've seen these before in a picture book! These are the rings that the people in the Church of the First Light used to wear!"
+63,"TEXT_LUCKZJ009_03572_YALRIC_000_023","The Church? You mean those crazy people who used to worship the Light? Well, they're not around anymore, so I guess they won't mind us taking their treasure! Haha!"
+64,"TEXT_LUCKZJ009_03572_YALRIC_000_024","Remember, we're splitting it four ways, just like we promised. You can take the first pick, stranger. After all, we never would have found the treasure without you!"

@@ -1,20 +1,17 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANIXA104_01497_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-※本クエストは、クラフタークラス：レベル1以上、
-　バトルクラス：レベル41以上推奨です。 
+0,"TEXT_BANIXA104_01497_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+An able Ixal keeps able allies close, and Yazel Ahuatan the Able prays you are one such <If(PlayerParameter(4))>woman<Else/>man</If>.
+※The crafting portion of this quest is recommended for Disciples of the Hand level 1 and above, and the battle portion for Disciples of War or Magic level 41 and above."
+1,"TEXT_BANIXA104_01497_SEQ_01","While transporting a shipment of larboard hull component materials to Ehcatl, one of Yazel Ahuatan's carriers was waylaid by Gridanian forces. To ensure that the construction of the <Emphasis>Dezul Qualan</Emphasis> continues as scheduled, you have been asked to retrieve the component materials. Should the Ehcatl Nine carrier yet live, you will likely find him in hiding. If so, with the chat mode in <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Say<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, enter the password “With the Wind” to identify yourself as a friend.
 
-エカトル実験場の職工のヤゼル・アファタンは、冒険者に厄介な依頼があるようだ。"
-1,"TEXT_BANIXA104_01497_SEQ_01","※本クエストには「<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow><UIGlow>01</UIGlow><UIForeground>01</UIForeground> レベルアジャスト」が、
-　設定されています。
+※Please note that the difficulty of this quest has been synced to your current level."
+2,"TEXT_BANIXA104_01497_SEQ_02","You find the carrier alive and well, and retrieve from him the component materials. Alas, simply completing the delivery will not suffice, as the components themselves are urgently needed. Visit the crafting facility at Treespeak Stables, and present the component materials to Nellemond, so that you may use the facilities to construct the requisite components."
+3,"TEXT_BANIXA104_01497_SEQ_03","You have handed over the component materials to Nellemond, and gained access to the crafting facility. Synthesize three larboard hull components, and deliver them to Yazel Ahuatan at Ehcatl.
 
-職工のヤゼル・アファタンから材料の受け取りを依頼された。材料を受け取るには、精霊の幼木付近に隠れている「空力団の運び屋」に合言葉を言う必要があるそうだ。チャットの会話モードを「Say」モードにして、キーボードやソフトウェアキーボードで『風のごとく！』と入力し、空力団の運び屋から「<Sheet(EventItem,2001380,0)/>」を受け取ろう。"
-2,"TEXT_BANIXA104_01497_SEQ_02","空力団の運び屋から<Sheet(EventItem,2001380,0)/>を受け取り、さらに「<Sheet(Item,　8094,0)/>」の製作を依頼された。ツリースピーク厩舎の「ネルモン」に「<Sheet(EventItem,2001380,0)/>」を渡し、製作施設の使用許可をもらおう。"
-3,"TEXT_BANIXA104_01497_SEQ_03","製作施設の準備が整った。「<Sheet(Item,　8055,0)/>」をもとに「<Sheet(Item,　8094,0)/>」を3つ製作し、エカトル実験場の「職工のヤゼル・アファタン」に納品しよう。
-
-※バフステータス「製作施設：精密工作」が終了した場合や、「<Sheet(Item,　8055,0)/>」を失った場合は、再びネルモンに話しかけましょう。バフステータスと材料が付与され、再挑戦が可能になります。"
-4,"TEXT_BANIXA104_01497_SEQ_04","職工のヤゼル・アファタンに<Sheet(Item,　8094,0)/>を納品した。受け取った材料を部材にまで仕上げた冒険者の機転が功を奏し、建造計画の遅延は回避された。これからも、「風のごとく！」を合言葉に邁進するエカトル空力団と、未踏の高みをめざそう。"
+※In the event that the status <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Facility Access: Finishing<UIGlow>01</UIGlow><UIForeground>01</UIForeground> wears off or the synthesis ends in failure, you may try again by speaking with Nellemond."
+4,"TEXT_BANIXA104_01497_SEQ_04","Your unexpected display of initiative surprises the able Yazel Ahuatan, who expresses his delight with a requisite squa-hawk. Thanks to your efforts, he will be held in even higher esteem by his comrades, for able is the Ixal served by able subordinates."
 5,"TEXT_BANIXA104_01497_SEQ_05",""
 6,"TEXT_BANIXA104_01497_SEQ_06",""
 7,"TEXT_BANIXA104_01497_SEQ_07",""
@@ -34,10 +31,9 @@ int32,str,str
 21,"TEXT_BANIXA104_01497_SEQ_21",""
 22,"TEXT_BANIXA104_01497_SEQ_22",""
 23,"TEXT_BANIXA104_01497_SEQ_23",""
-24,"TEXT_BANIXA104_01497_TODO_00","チャットの「Say」モードで『風のごとく！』と入力し
-精霊の幼木の空力団の運び屋に合言葉を言う"
-25,"TEXT_BANIXA104_01497_TODO_01","ツリースピーク厩舎のネルモンに<Sheet(EventItem,2001380,0)/>を渡す"
-26,"TEXT_BANIXA104_01497_TODO_02","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>製作手帳 蛮族クエストLv1：<Sheet(Item,　8094,0)/>を製作<Else/>職工のヤゼル・アファタンに<Sheet(Item,　8094,0)/>を納品</If>"
+24,"TEXT_BANIXA104_01497_TODO_00","With the chat mode in <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Say<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, enter “With the Wind” to let the Ehcatl Nine carrier know you are not an enemy."
+25,"TEXT_BANIXA104_01497_TODO_01","Present the larboard hull component materials to Nellemond at Treespeak Stables."
+26,"TEXT_BANIXA104_01497_TODO_02","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Synthesize larboard hull components<Else/>Deliver the larboard hull components to Yazel Ahuatan the Able</If>."
 27,"TEXT_BANIXA104_01497_TODO_03",""
 28,"TEXT_BANIXA104_01497_TODO_04",""
 29,"TEXT_BANIXA104_01497_TODO_05",""
@@ -59,64 +55,26 @@ int32,str,str
 45,"TEXT_BANIXA104_01497_TODO_21",""
 46,"TEXT_BANIXA104_01497_TODO_22",""
 47,"TEXT_BANIXA104_01497_TODO_23",""
-48,"TEXT_BANIXA104_01497_YAZELAHUATAN_000_000","<If(PlayerParameter(4))>ネエチャン<Else/>アンチャン</If>、お願いじゃッァ！
-ひとっ走り、使いを頼まれてくれんかッァ！
-ちょっと厄介なことになっとるんじゃッァ！"
-49,"TEXT_BANIXA104_01497_YAZELAHUATAN_000_001","「<Sheet(Item,　8094,0)/>」の材料が届かんのじゃッァ！
-調達を頼んだ「空力団の運び屋」のひとりが、
-グリダニアの兵に追われて、逃げ隠れとるらしいッィ！"
-50,"TEXT_BANIXA104_01497_YAZELAHUATAN_000_010","材料は、軽金属板の製作に使うモノなんじゃッァ！
-実験場に予備は残されとらんッン！
-だがワシらが動けば、さらにヒトの目を引いちまうッゥ！"
-51,"TEXT_BANIXA104_01497_YAZELAHUATAN_000_020","材料は、船体外装の上塗り剤に使うモンなんじゃッァ！
-実験場に予備は残されとらんッン！
-だがワシらが動けば、さらにヒトの目を引いちまうッゥ！"
-52,"TEXT_BANIXA104_01497_YAZELAHUATAN_000_030","材料は、合板に使うモンなんじゃッァ！
-実験場に予備は残されとらんッン！
-だがワシらが動けば、さらにヒトの目を引いちまうッゥ！"
-53,"TEXT_BANIXA104_01497_YAZELAHUATAN_000_040","<If(PlayerParameter(4))>ネエチャン<Else/>アンチャン</If>、材料を受け取ってきてくれッェ！
-運び屋は、「精霊の幼木」のあたりに隠れとるらしいッィ！
-会ったら「風のごとく！」と言えッェ、それが合言葉だッァ！"
-54,"TEXT_BANIXA104_01497_YAZELAHUATAN_000_050","<If(PlayerParameter(4))>ネエチャン<Else/>アンチャン</If>、材料を受け取ってきてくれッェ！
-運び屋は、「精霊の幼木」のあたりに隠れとるらしいッィ！
-会ったら「風のごとく！」と言えッェ、それが合言葉だッァ！"
-55,"TEXT_BANIXA104_01497_IXALGATHERER01497_100_060","……な、何ですかいッィ！？
-ヒトなんかが、あっしに何の用ですかッァ！"
-56,"TEXT_BANIXA104_01497_SYSTEM_100_061","チャットの会話モードを「Say」モードにして、
-キーボードやソフトウェアキーボードで
-『風のごとく！』と合言葉を入力しましょう。"
-57,"TEXT_BANIXA104_01497_SYSTEM_100_062","風のごとく"
-58,"TEXT_BANIXA104_01497_IXALGATHERER01497_000_060","その言葉……お味方ですかッァ！
-面倒おかけしやす、ヒトの顔を見分けるのが苦手なもんでッェ！
-頼まれてた材料、実験場まで届けてくれますかいッィ！"
-59,"TEXT_BANIXA104_01497_IXALGATHERER01497_000_061","……いや、ちょっとお待ちやすッゥ！
-あっしの不手際とはいえ、予定時刻を随分すぎちまったッァ。
-ここはひとつ、部材の仕上げも、頼まれてくれやせんかッァ？"
-60,"TEXT_BANIXA104_01497_IXALGATHERER01497_000_062","「<Sheet(Item,　8094,0)/>」が届けば、すぐさま組み立てに移れやすッゥ！
-必要な数は、たしか3つ……「ネルモン」という男が仕切る、
-ツリースピーク厩舎の施設で製作して届けてくだせッェ！"
-61,"TEXT_BANIXA104_01497_IXALGATHERER01497_000_063","「<Sheet(Item,　8094,0)/>」が届けば、すぐさま組み立てに移れやすッゥ！
-必要な数は、たしか3つ……「ネルモン」という男が仕切る、
-ツリースピーク厩舎の施設で製作して届けてくだせッェ！"
-62,"TEXT_BANIXA104_01497_NELLEMOND_000_090","こちらの製作施設は、冒険者の方にも広く開放しております。
-利用される前に、持ち込んだ材料を私にお預けください。"
-63,"TEXT_BANIXA104_01497_NELLEMOND_000_091","ふむ……材料袋のほう、たしかに預かりました。
-多めに入っていますので、製作に必要なだけお渡ししますね。
-準備はできておりますので、作業台はご自由にお使いください。"
-64,"TEXT_BANIXA104_01497_NELLEMOND_000_100","材料が足りなかったり、
-またこの製作施設を使いたくなったら声をかけてくださいね。"
-65,"TEXT_BANIXA104_01497_NELLEMOND_100_100","仕事はお済みのようですから、納品に行くとよいでしょう。
-製作した品を紛失するなどして、
-再度この施設を使用したいときは、私にお申し出ください。"
-66,"TEXT_BANIXA104_01497_YAZELAHUATAN_000_130","<Sheet(Item,　8094,0)/>がないと、建造が進まんッン。
-うーん、心配じゃッァ……！"
-67,"TEXT_BANIXA104_01497_YAZELAHUATAN_000_131","んッン！？
-それは……もしかして受け取った材料から、
-部材を作ってきてくれたんかッァ！？"
-68,"TEXT_BANIXA104_01497_YAZELAHUATAN_000_132","おおッ、しかもピッタリ3つ……なんという職人魂じゃッァ！
-<If(PlayerParameter(4))>ネエチャン<Else/>アンチャン</If>の心意気に、惚れてしもうたわッァ！
-さすが、親方の見つけてきた腕利きッィ！"
-69,"TEXT_BANIXA104_01497_YAZELAHUATAN_000_133","ウウッゥ、親方と……<If(PlayerParameter(4))>ネエチャン<Else/>アンチャン</If>と同じ夢を見られて、
-ワシは天下一の幸せモンじゃッァー！
-さあッァ、ワシらと一緒に、疾風（かぜ）になろうやッァー！"
-70,"TEXT_BANIXA104_01497_POPMESSAGE_000_200","製作の準備が整った。"
+48,"TEXT_BANIXA104_01497_YAZELAHUATAN_000_000","Ill tidings, featherless <If(PlayerParameter(4))>craftswoman<Else/>craftsman</If>! Waylaid by featherless ones, our carrier has been! Squa-hawk! Trapped at best, dead at worst, Yazel fears!"
+49,"TEXT_BANIXA104_01497_YAZELAHUATAN_000_001","Of the essence, time was, so risky route near Treespeak Stables I bade him take. Larboard hull component materials, to Ehcatl, he was to bring."
+50,"TEXT_BANIXA104_01497_YAZELAHUATAN_000_010","For the plates to construct the hull, materials precious and strong. Nearly depleted, our supply is!"
+51,"TEXT_BANIXA104_01497_YAZELAHUATAN_000_020","For the finish to prepare the plating, materials precious and essential. Nearly depleted, our supply is!"
+52,"TEXT_BANIXA104_01497_YAZELAHUATAN_000_030","For the leather-backed plywood to construct the hull, materials precious and light. Nearly depleted, our supply is!"
+53,"TEXT_BANIXA104_01497_YAZELAHUATAN_000_040","If yet alive, likely in hiding, the carrier is. Know you for friend, he may not, so “With the Wind,” to him you must whisper. Words of power, they are, known only to Ehcatl and their allies. Squa-hawk!"
+54,"TEXT_BANIXA104_01497_YAZELAHUATAN_000_050","Simple enough, the retrieval of materials is, if the carrier is fallen. However, if yet alive, words of power, you must say to him. “With the Wind,” forget it not. Squa-hawk!"
+55,"TEXT_BANIXA104_01497_IXALGATHERER01497_100_060","Squaaawk! Featherless neuker! Back, you must stay, or...or a second time, I will demand!"
+56,"TEXT_BANIXA104_01497_SYSTEM_100_061","With the chat mode in <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Say<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, use your keyboard or the software keyboard to enter the password “With the Wind” to let the Ehcatl Nine carrier know you are a friend."
+57,"TEXT_BANIXA104_01497_SYSTEM_100_062","With the Wind"
+58,"TEXT_BANIXA104_01497_IXALGATHERER01497_000_060","Squawawk!? With the wind, featherless neuker is!? Relieved and contrite, I am! All neukers, look alike to me, they do. As a friend of Ehcatl, recognize, I did not!"
+59,"TEXT_BANIXA104_01497_IXALGATHERER01497_000_061","Deliver the materials in my stead, I would ask, but that alone, suffice it will not. Too late, this shipment is; completed components, we must now deliver. Squawk!"
+60,"TEXT_BANIXA104_01497_IXALGATHERER01497_000_062","Open to all featherless, the facilities of Treespeak Stables are. There, craft three larboard hull components, featherless friend can. Other recourse, we have not!"
+61,"TEXT_BANIXA104_01497_IXALGATHERER01497_000_063","Afraid, I am, but patient, I am too. When featherless ones leave, chance to escape, I shall seize. Wait not for me, friend of Ehcatl─craft larboard hull components, you must!"
+62,"TEXT_BANIXA104_01497_NELLEMOND_000_090","Greetings, friend! Our doors─assuming we had any─are open to all! You wish to process those materials, yes? Hmmm... If you would first permit me to conduct an inspection...?"
+63,"TEXT_BANIXA104_01497_NELLEMOND_000_091","Ah, my concern was for naught. These materials are both quality and plentiful! In fact, I have calculated the optimum amount required to craft the components you have in mind. I shall hold on to the excess while you work your synthesizing magic! Pray let me know if you require any replacements."
+64,"TEXT_BANIXA104_01497_NELLEMOND_000_100","The use of the crafting facility here at Treespeak Stables is entirely free of charge! Pray put concerns of sordid coin from your mind and concentrate on your wondrous creation!"
+65,"TEXT_BANIXA104_01497_NELLEMOND_100_100","Your crafting endeavor was a success? Then you must waste no time in returning to your client. Ah, and should something unfortunate befall your commission─accidental loss, theft, act of primal─you always have the option of retrieving from me the remaining materials and trying again!"
+66,"TEXT_BANIXA104_01497_YAZELAHUATAN_000_130","Squaaawk! Without component materials, soon halt, construction of the <Emphasis>Dezul Qualan</Emphasis> will. Disastrous for Ehcatl─and Yazel, this would be!"
+67,"TEXT_BANIXA104_01497_YAZELAHUATAN_000_131","Squa-hawk! Materials, I expected, yet components, you have brought!?"
+68,"TEXT_BANIXA104_01497_YAZELAHUATAN_000_132","My mind, waylaid courier and featherless crafter did read! Squahaha! Initiative, Yazel values much in his allies."
+69,"TEXT_BANIXA104_01497_YAZELAHUATAN_000_133","Who better than able allies to prove Yazel's own ableness, I say!? Rise ever higher, I will, with the aid of featherless <If(PlayerParameter(4))>craftswoman<Else/>craftsman</If> and <If(PlayerParameter(4))>her<Else/>his</If> ilk!"
+70,"TEXT_BANIXA104_01497_POPMESSAGE_000_200","You now have access to the crafting facility."

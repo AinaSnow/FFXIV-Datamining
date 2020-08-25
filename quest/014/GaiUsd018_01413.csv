@@ -1,12 +1,12 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSD018_01413_SEQ_00","ウリエンジェは、冒険者に蛮神問題に関する依頼をしたいようだ。"
-1,"TEXT_GAIUSD018_01413_SEQ_01","ウリエンジェによると、冒険者が討伐した蛮神「リヴァイアサン」が、早くも再召喚される兆しがあるらしい。リムサ・ロミンサの黒渦団：軍令部に向かい、「ル・アシャ大甲佐」に状況を確認しよう。"
-2,"TEXT_GAIUSD018_01413_SEQ_02","ル・アシャ大甲佐と話した。蛮神「リヴァイアサン」は再召喚され、すでに被害を受けた船があるという。討伐作戦に参加するため、低地ラノシアの「モラビー造船廠」にいる「スティルンロナ甲曹長」と話そう。"
-3,"TEXT_GAIUSD018_01413_SEQ_03","スティルンロナ甲曹長から、間もなく作戦の準備が整うことを告げられた。双胴船に乗り込み、再召喚された蛮神「リヴァイアサン」を討伐しよう。
+0,"TEXT_GAIUSD018_01413_SEQ_00","When Urianger appears pensive, you can be sure another primal problem looms on the horizon."
+1,"TEXT_GAIUSD018_01413_SEQ_01","According to the request for aid Urianger received from Maelstrom Command, the primal Leviathan has made an unexpectedly swift and deadly reappearance. Travel to Limsa Lominsa and report to High Storm Commander R'ashaht Rhiki for a briefing on the situation."
+2,"TEXT_GAIUSD018_01413_SEQ_02","R'ashaht Rhiki confirms that the Lord of the Whorl has indeed returned to terrorize the seas. Reports of the primal's most recent attack suggest that this incarnation of Leviathan is possessed of truly nightmarish power and represents a threat that must be neutralized with all possible haste. As soon as your preparations are complete, make your way to the Moraby Drydocks and speak with Sergeant Styrnlona."
+3,"TEXT_GAIUSD018_01413_SEQ_03","Sergeant Styrnlona eagerly informs you that the twin vessel, the <Emphasis>Whorleater</Emphasis>, and its towing ship are ready to leave port as soon as you board. The time has come to sail forth and confront the Lord of the Whorl once more.
 
-※コンテンツファインダーから攻略に参加できます。"
+※The <Emphasis>Whorleater</Emphasis> (Extreme) can be accessed via the Duty Finder."
 4,"TEXT_GAIUSD018_01413_SEQ_04",""
 5,"TEXT_GAIUSD018_01413_SEQ_05",""
 6,"TEXT_GAIUSD018_01413_SEQ_06",""
@@ -27,8 +27,8 @@ int32,str,str
 21,"TEXT_GAIUSD018_01413_SEQ_21",""
 22,"TEXT_GAIUSD018_01413_SEQ_22",""
 23,"TEXT_GAIUSD018_01413_SEQ_23",""
-24,"TEXT_GAIUSD018_01413_TODO_00","黒渦団：軍令部のル・アシャ大甲佐と話す"
-25,"TEXT_GAIUSD018_01413_TODO_01","モラビー造船廠のスティルンロナ甲曹長と話す"
+24,"TEXT_GAIUSD018_01413_TODO_00","Speak with R'ashaht Rhiki at Maelstrom Command."
+25,"TEXT_GAIUSD018_01413_TODO_01","Speak with Styrnlona at the Moraby Drydocks."
 26,"TEXT_GAIUSD018_01413_TODO_02",""
 27,"TEXT_GAIUSD018_01413_TODO_03",""
 28,"TEXT_GAIUSD018_01413_TODO_04",""
@@ -51,50 +51,20 @@ int32,str,str
 45,"TEXT_GAIUSD018_01413_TODO_21",""
 46,"TEXT_GAIUSD018_01413_TODO_22",""
 47,"TEXT_GAIUSD018_01413_TODO_23",""
-48,"TEXT_GAIUSD018_01413_URIANGER_000_000","託されし英雄譚に……新たな勝利が刻まれん……。
-……蛮神「リヴァイアサン」の討伐、お見事でした。"
-49,"TEXT_GAIUSD018_01413_URIANGER_000_001","しかし、蒼茫洋の大渦は、未だ消えておらぬ様子……。
-……蛮神「リヴァイアサン」再召喚の兆しを受け、
-黒渦団から協力要請が届いています……。"
-50,"TEXT_GAIUSD018_01413_URIANGER_000_002","再召喚が真のことなれば、それは大変に奇異なる事態……。
-蛮神「リヴァイアサン」は、すべてを呑み込む飽食の神。
-召喚に要するクリスタル量は莫大です……。"
-51,"TEXT_GAIUSD018_01413_URIANGER_000_003","それを、この短期間に集めたとは、到底思えません……。
-なればサハギン族が、ほかの蛮族たちと同様に、
-新たな召喚法にすがったと考えるのが理。"
-52,"TEXT_GAIUSD018_01413_URIANGER_000_004","それを、この短期間に集めたとは、到底思えません……。
-よからぬ者の導き……アシエンの介在は必定……。"
-53,"TEXT_GAIUSD018_01413_URIANGER_000_005","海都に未曾有の危機は迫らん……。
-「黒渦団：軍令部」へ向かい、状況を確認してください。
-あなたが、海上に輝く、救いの星たらんことを……。"
-54,"TEXT_GAIUSD018_01413_RASHAHT_000_010","<If(GreaterThan(PlayerParameter(52),0))><If(LessThan(PlayerParameter(52),127))><Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><If(GreaterThan(PlayerParameter(52),0))><Sheet(GCRankLimsaMaleText,PlayerParameter(52),0)/><Else/></If><Else/><Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/></If><Else/><Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/></If>！
-大変だ、悪い兆しが現実になった……
-蛮神「リヴァイアサン」が再召喚されたんだよっ！"
-55,"TEXT_GAIUSD018_01413_RASHAHT_000_011","こんなに短時間で再召喚されるなんて、信じられないよ。
-あたしたちも、まさかと思ってたんだけど……。"
-56,"TEXT_GAIUSD018_01413_RASHAHT_000_012","今しがた、このリムサ・ロミンサへ向かっていた商船団が、
-沖合いで奴の襲撃を受けたという報告が入ったんだ。
-商船団は壊滅、入港できたのは一隻のみ……。"
-57,"TEXT_GAIUSD018_01413_RASHAHT_000_013","その乗組員の証言から推測したところ、
-蛮神「リヴァイアサン」の繰る大波は、
-先日の召喚時より、ずっと大規模になっているらしい！"
-58,"TEXT_GAIUSD018_01413_RASHAHT_000_014","まずいよ、このまま「大海嘯」でも起こされたら……！
-奴の討伐経験があるキミには、
-至急、討伐作戦へ参加してほしいんだ！"
-59,"TEXT_GAIUSD018_01413_RASHAHT_000_015","作戦は前回と一緒だよ。
-すでにエインザル大甲将の指示で、双胴船の準備が進んでる。"
-60,"TEXT_GAIUSD018_01413_RASHAHT_000_016","キミは準備を整えて、「モラビー造船廠」へ！
-現地で待機中の「スティルンロナ甲曹長」に声をかけ、
-双胴船に乗り込んでほしい……よろしく頼むね！"
-61,"TEXT_GAIUSD018_01413_RASHAHT_000_019","蛮神「リヴァイアサン」の討伐は一刻を争うんだ。
-モラビー造船廠で「スティルンロナ甲曹長」に声をかけ、
-双胴船に乗り込んでほしい……よろしく頼むね！"
-62,"TEXT_GAIUSD018_01413_STYRNLONA_000_020","お疲れさまですッ！
-蛮神「リヴァイアサン」討伐作戦は、
-準備の最終段階にさしかかっております！"
-63,"TEXT_GAIUSD018_01413_STYRNLONA_000_021","牽引船、双胴船ともに出港準備が完了。
-<If(GreaterThan(PlayerParameter(52),0))><If(LessThan(PlayerParameter(52),127))><Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><If(GreaterThan(PlayerParameter(52),0))><Sheet(GCRankLimsaMaleText,PlayerParameter(52),0)/><Else/></If><Else/>あなた</If><Else/>あなた</If>の乗船後、
-沖合いの標的に向けて出港いたしますッ！"
-64,"TEXT_GAIUSD018_01413_STYRNLONA_000_022","船員一同、決死の覚悟で、
-あなたの乗る双胴船を送り届けましょう。
-……どうか、我らに勝利をッ！"
+48,"TEXT_GAIUSD018_01413_URIANGER_000_000","The Lord of the Whorl, slain at thy hand... 'Twas a deed both heroic and historic─a tale to be told down the ages."
+49,"TEXT_GAIUSD018_01413_URIANGER_000_001","I fear, however, that the terror of the Indigo Deep did slumber but briefly in the aetherial sea. The Maelstrom hath assured me with unhappy certitude that Leviathan doth stir from the abyss once more."
+50,"TEXT_GAIUSD018_01413_URIANGER_000_002","Should this indeed prove the case, then we face a most troubling and chilling predicament. The Lord of the Whorl is a voracious being─naught less than a treasure trove of crystals would serve to lure the entity back to our plane of existence."
+51,"TEXT_GAIUSD018_01413_URIANGER_000_003","'Tis folly, then, to believe the sea-bound beastmen could gather such a haul with such impossible alacrity. No, we must assume the Sahagin have adopted the disturbing new summoning ritual we observed amongst the other beast tribes."
+52,"TEXT_GAIUSD018_01413_URIANGER_000_004","'Tis folly, then, to believe the sea-bound beastmen could gather such a haul with such impossible alacrity. The Sahagin, I believe, have been entertaining Ascian guests..."
+53,"TEXT_GAIUSD018_01413_URIANGER_000_005","A threat of unprecedented magnitude now loometh over Limsa Lominsa. Take thee the swiftest road to Maelstrom Command and offer thy stalwart service. Thy shining light must needs illuminate the ocean's darkened swell."
+54,"TEXT_GAIUSD018_01413_RASHAHT_000_010","<If(GreaterThan(PlayerParameter(52),0))><Clickable(<If(GreaterThan(PlayerParameter(52),0))><Sheet(GCRankLimsaMaleText,PlayerParameter(52),8)/><Else/></If><If(GreaterThan(PlayerParameter(53),0))><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),8)/><Else/></If><If(GreaterThan(PlayerParameter(54),0))><Sheet(GCRankUldahMaleText,PlayerParameter(54),8)/><Else/></If>)/> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/><Else/><If(GreaterThan(PlayerParameter(53),0))><Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> of the Scions<Else/><Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> of the Scions</If></If>, you are, as ever, a welcome sight at Maelstrom Command. Our worst fears are realized: the primal Leviathan has returned to threaten our shores."
+55,"TEXT_GAIUSD018_01413_RASHAHT_000_011","We did not think it possible for the fishbacks to summon their rapacious god without a considerably longer period of preparation, but there can be no mistake..."
+56,"TEXT_GAIUSD018_01413_RASHAHT_000_012","Prior to contacting Urianger, we received a report detailing the almost complete destruction of a merchant fleet upon the open sea. Only one vessel managed to limp into port, bearing the decidedly unwelcome news of Leviathan's resurgence."
+57,"TEXT_GAIUSD018_01413_RASHAHT_000_013","Judging by the testimony given by the surviving crew members, the massive waves the entity leveled against the ships dwarfed anything we have ever seen the primal command before."
+58,"TEXT_GAIUSD018_01413_RASHAHT_000_014","Should he unleash a tidal wave of similarly empowered proportions, Limsa would be scraped from this island like a barnacle from a hull. It is with such dread imaginings in mind that I bid you sail forth to slay the Lord of the Whorl yet again!"
+59,"TEXT_GAIUSD018_01413_RASHAHT_000_015","Our strategy remains unchanged: the twin vessel, the <Emphasis>Whorleater</Emphasis>, is already being prepared under the command of Storm Marshal Slafyrsyn."
+60,"TEXT_GAIUSD018_01413_RASHAHT_000_016","Make your way to the Moraby Drydocks once your own preparations are complete. Seek out Sergeant Styrnlona, and she will see you safely aboard the ship. May the Navigator guide and protect you!"
+61,"TEXT_GAIUSD018_01413_RASHAHT_000_019","The primal Leviathan <Emphasis>must</Emphasis> be dealt with before his strength is allowed to peak. Inform Sergeant Styrnlona at the Moraby Drydocks when you are ready to begin the operation. One day, the sea may swallow all, but it will not be <Emphasis>this</Emphasis> day!"
+62,"TEXT_GAIUSD018_01413_STYRNLONA_000_020","Storm Sergeant Styrnlona, at your service! The <Emphasis>Whorleater</Emphasis> is loaded and ready, <If(PlayerParameter(4))>madam<Else/>sir</If>!"
+63,"TEXT_GAIUSD018_01413_STYRNLONA_000_021","I'll give the signal for the towing vessel to depart as soon as you're aboard. Leviathan was sighted some distance from the coast, so there should be more than enough time to build up to ramming speed."
+64,"TEXT_GAIUSD018_01413_STYRNLONA_000_022","The entire crew is willing to lay down their lives to ensure you reach your target, <If(PlayerParameter(4))>madam<Else/>sir</If>, so you just concentrate on skewering that overgrown sea serpent!"

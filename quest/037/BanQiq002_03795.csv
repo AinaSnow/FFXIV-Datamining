@@ -1,17 +1,14 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANQIQ002_03795_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト受注クラス・ジョブ制限<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-ホパル古盤のチャクルリ・コテルは、洞窟遺跡の第一次調査を開始したいようだ。"
-1,"TEXT_BANQIQ002_03795_SEQ_01","※本クエストには
-「<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow><UIGlow>01</UIGlow><UIForeground>01</UIForeground> レベルアジャスト受注クラス・ジョブ制限」が、
-　設定されています。
-　受注時と同じクラスでのみ進行できます。
+0,"TEXT_BANQIQ002_03795_SEQ_00","Chaqurl Qhotl's eyes eagerly dart about the caves of Hopl's Stopple.
+※The difficulty of this quest will be synced to your current level."
+1,"TEXT_BANQIQ002_03795_SEQ_01","Thanks in no small part to your aid in gathering resources for the excavation effort, Qitarl Natl and his Stewards are at last prepared to delve deeper into the tunnels of Hopl's Stopple. Alas, there is one small complication: the presence of an arcane ward preventing access to the inner chambers that is passable only by servants of Ox'Dalan, protector of the underworld. As all present ponder a suitable course of action, the Great Serpent of Ronka lets forth a great scree, no doubt seeking to impart wisdom to your band. Sadly, no one present is able to comprehend the meaning of the divine protector's words, leaving you no choice but to accompany Chaqurl Qhotl to Slitherbough to seek the aid of the one man who can.
 
-チャクルリ・コテルと話した。洞窟内に現れた魔物への対策を探さねばならないようだ。スリザーバウの「キンフォート」と話そう。"
-2,"TEXT_BANQIQ002_03795_SEQ_02","キンフォートたちと話した。魔除けの護符を作るため、護符の核となる材料を探すこととなった。材料を入手し、発掘キャンプ地で「ヴァラン」に納品しよう。"
-3,"TEXT_BANQIQ002_03795_SEQ_03","材料をヴァランに納品し、魔除けの護符が作られた。ぶじ第一次調査が開始されたが、先祖の石碑は見つかったのだろうか？「チャクルリ・コテル」と話そう。"
-4,"TEXT_BANQIQ002_03795_SEQ_04","発掘隊の拠点に魔除けの護符が飾られ、洞窟遺跡の内部では、壊れた「第一の石碑」が見つかった。現れた水蛇様の導きにより、キタリたちは石碑を新たに復元することを決めたようだ。石碑に彫り残す歴史について、親子の見解は割れており、冒険者は、ロンカの同盟者として選択を託されたが……！？"
+※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
+2,"TEXT_BANQIQ002_03795_SEQ_02","You find Quinfort, who does not hesitate to interpret the words of the great serpent in his typically grandiose, pontificating, and highly dubious fashion. Valan gives cursory consideration to the Keeper of Whispers's wisdom before offering up a more practical solution to the problem at hand: to construct a talisman enchanted with the incantations that keep Slitherbough safe from the selfsame beasts that would make the Qitari explorers their next meal."
+3,"TEXT_BANQIQ002_03795_SEQ_03","You deliver the requested supplies to Valan, who deftly fashions a talisman according to Quinfort's instructions. Now able to probe the depths of Hopl's Stopple without fear of being devoured by creatures of the darkness, the Stewards' excavation team begins their dig, but will they succeed in finding the stone tablets they seek? Chaqurl Qhotl can scarce contain his anticipation to learn what secrets might be unearthed."
+4,"TEXT_BANQIQ002_03795_SEQ_04","The Qitari rejoice as their excavation effort succeeds in exhuming the first Qitari stela: one of many great stone tablets on which is writ the sum total of the knowledge and history of their ancient race. The stone, however, has been weathered over the ages, obscuring key passages necessary to comprehend the writings in full. At the exhortation of the great serpent, the Qitari resolve to restore the tablets to the best of their ability. However, the missing text leaves many passages open for interpretation, and Qitarl Natl and his son Chaqurl Qhotl have differing views about the intended message. Seeking the wisdom of an impartial arbitrator, they turn to you..."
 5,"TEXT_BANQIQ002_03795_SEQ_05",""
 6,"TEXT_BANQIQ002_03795_SEQ_06",""
 7,"TEXT_BANQIQ002_03795_SEQ_07",""
@@ -31,9 +28,9 @@ int32,str,str
 21,"TEXT_BANQIQ002_03795_SEQ_21",""
 22,"TEXT_BANQIQ002_03795_SEQ_22",""
 23,"TEXT_BANQIQ002_03795_SEQ_23",""
-24,"TEXT_BANQIQ002_03795_TODO_00","スリザーバウのキンフォートと話す"
-25,"TEXT_BANQIQ002_03795_TODO_01","<If(Equal(IntegerParameter(4),16))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>ミュリルの郷愁の採掘場で<Sheet(Item,IntegerParameter(5),0)/>を採掘<Else/>ヴァランに<Sheet(Item,IntegerParameter(5),0)/>を納品</If><Else/><If(Equal(IntegerParameter(4),17))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>ミュリルの郷愁の草刈場で<Sheet(Item,IntegerParameter(5),0)/>を草刈<Else/>ヴァランに<Sheet(Item,IntegerParameter(5),0)/>を納品</If><Else/><If(Equal(IntegerParameter(4),18))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>ミュリルの落涙で<Sheet(Item,IntegerParameter(5),0)/>を釣る<Else/>ヴァランに<Sheet(Item,IntegerParameter(5),0)/>を納品</If><Else/></If></If></If>"
-26,"TEXT_BANQIQ002_03795_TODO_02","チャクルリ・コテルと話す"
+24,"TEXT_BANQIQ002_03795_TODO_00","Speak with Quinfort at Slitherbough."
+25,"TEXT_BANQIQ002_03795_TODO_01","<If(Equal(IntegerParameter(4),16))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Mine <SheetEn(Item,1,IntegerParameter(5),1,1)/> at Mjrl's Regret<Else/>Deliver <SheetEn(Item,2,IntegerParameter(5),1,1)/> to Valan</If><Else/><If(Equal(IntegerParameter(4),17))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Gather <SheetEn(Item,1,IntegerParameter(5),1,1)/> at Mjrl's Regret<Else/>Deliver <SheetEn(Item,2,IntegerParameter(5),1,1)/> to Valan</If><Else/><If(Equal(IntegerParameter(4),18))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Catch <SheetEn(Item,1,IntegerParameter(5),1,1)/> at Mjrl's Tears<Else/>Deliver <SheetEn(Item,2,IntegerParameter(5),1,1)/> to Valan</If><Else/></If></If></If>."
+26,"TEXT_BANQIQ002_03795_TODO_02","Speak with Chaqurl Qhotl."
 27,"TEXT_BANQIQ002_03795_TODO_03",""
 28,"TEXT_BANQIQ002_03795_TODO_04",""
 29,"TEXT_BANQIQ002_03795_TODO_05",""
@@ -55,284 +52,132 @@ int32,str,str
 45,"TEXT_BANQIQ002_03795_TODO_21",""
 46,"TEXT_BANQIQ002_03795_TODO_22",""
 47,"TEXT_BANQIQ002_03795_TODO_23",""
-48,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_001","発掘隊をたくさんお手伝いくださってるって、
-母上から伺っておるでござう！
-おかげさまで、発掘の準備も整ってまいったよ！"
-49,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_002","いよいよ洞窟遺跡の本格的な調査を、
-開始できそうでござう！"
-50,"TEXT_BANQIQ002_03795_QITARLNATL_000_003","ただし、油断は禁物……。
-どうやら洞窟遺跡は、想像以上に広いようでな。"
-51,"TEXT_BANQIQ002_03795_QITARLNATL_000_004","そこで本格的な「第一次調査」に先立ち、
-仲間たちを洞窟に送り込み、予備調査を行っているところ。
-その報告を待って、我ら親子が出発する計画なのでござる。"
-52,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_005","そるかしも、はやく洞窟のなかに行きたいでござう！"
-53,"TEXT_BANQIQ002_03795_QITARLNATL_000_006","おお、トワルリ！
-予備調査に向かってくれたのでござったな。"
-54,"TEXT_BANQIQ002_03795_TWARLMANOL_000_007","キタルリ隊長ぉ……「第一次調査」の開始、
-ただちに始めるのは、難しそうにござりまするぅ……。"
-55,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_008","ええっ！？
-洞窟のなかで、何があったでござうか！？"
-56,"TEXT_BANQIQ002_03795_TWARLMANOL_000_009","入口からしばし進んだところ……
-この先に何か見つかる、そう期待を感じた矢先にございました。
-洞窟の小空間を埋めるように、魔物が、うようよとぉ……！！"
-57,"TEXT_BANQIQ002_03795_QITARLNATL_000_010","なんたることか……。
-我らキタリ族は、魔物相手には逃げ惑うのがせいぜい……
-道を塞がれては、先に進むこと叶わぬでござる。"
-58,"TEXT_BANQIQ002_03795_Q1_000_000","何と言う？"
-59,"TEXT_BANQIQ002_03795_A1_000_001","大罪喰いを倒した自分に任せろ"
-60,"TEXT_BANQIQ002_03795_A1_000_002","得意なのは採集だけじゃない"
-61,"TEXT_BANQIQ002_03795_QITARLNATL_000_011","ロンカの同盟者殿の、光の精を仕留めた腕をお貸しくださると？
-うーむ、そのお申し出に頼りたいところではござるが……。"
-62,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_012","ダメなのでござうか？"
-63,"TEXT_BANQIQ002_03795_QITARLNATL_000_013","うむ……すでに入口が開かれた「ホパル古盤」だがな。
-実はさらに、ダラン神を奉ずる古き民……キタリ族しか通さぬ、
-魔法壁が張られておるようなのでござる。"
-64,"TEXT_BANQIQ002_03795_QITARLNATL_000_014","しかし、この魔法壁、地上からの侵入者は阻むことができても、
-岩間から湧く魔物の繁殖は、防げなかったと見える……。"
-65,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_015","えーっ！
-そるかしたちだけじゃ、
-ご先祖様の石碑、探しに行けないでござうか……。"
-66,"TEXT_BANQIQ002_03795_BOUSHITSUCHINOKO_000_016","キィっキィ～！！"
-67,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_017","水蛇様、なにかおっしゃってるでござう？"
-68,"TEXT_BANQIQ002_03795_QITARLNATL_000_018","う～む、我らは水蛇様のお導きを信じ、付き従ってまいったが、
-お示しになる考えは、よくわからん。
-キンフォート殿らに伺えば、何か糸口も掴めようが……。"
-69,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_019","それじゃあ、そるかしが、
-キンフォートどのに、おたずねにまいるでござう！"
-70,"TEXT_BANQIQ002_03795_QITARLNATL_000_020","うむ、頼れるお方に頼るのが、早道であるかもしれぬな。
-<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>殿、すまぬが、
-「スリザーバウ」まで、チャクルリの供を願えようか？"
-71,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_021","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>どのがいっしょなら、
-これ以上になく安心でござう！
-水蛇様も、つれていくでござうよ～。"
-72,"TEXT_BANQIQ002_03795_VALAN_000_030","チャクルリから話は聞いたよ。
-まさか、キンフォートを頼って訪ねてくるなんてね。"
-73,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_031","スリザーバウも、洞窟がたくさんでござう！"
-74,"TEXT_BANQIQ002_03795_BOUSHITSUCHINOKO_000_032","キュィ～っ！"
-75,"TEXT_BANQIQ002_03795_QUINFORT_000_040","なるほどなるほど……地下洞窟に巣食う魔物……。
-森に浮浪する、影の残滓が理を知ったか？
-地脈の輝きをすする、痛ましき悪鬼よ……ッ！"
-76,"TEXT_BANQIQ002_03795_VALAN_000_041","あー、訪ねてきてくれたところ悪いけど、
-コイツの話は適当に流しといて、っと……。
-岩の隙間から湧く魔物の話なら、ここでも聞いたことがあるよ。"
-77,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_042","ヴァランどの、まことにござうか！"
-78,"TEXT_BANQIQ002_03795_VALAN_000_043","ああ、スリザーバウの入植当初の話だけど……
-洞窟部屋から魔物が現れるたびに、
-導師様が祈りを捧げて、追い払っていたらしいよ。"
-79,"TEXT_BANQIQ002_03795_VALAN_000_044","ここは壁のあちこちに、祈りの言葉が書かれてるだろ？
-ああいうのや、岩陰に取り付けた護符が魔除けになっていて、
-今は、集落全体が結界のように守られてる、ってワケさ。"
-80,"TEXT_BANQIQ002_03795_QUINFORT_000_045","まさしくッ！
-そうした里の防守の備えを維持するのも、
-ボクのような修行中の導師に分け授けられし、聖務の一部なのだ！"
-81,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_046","「夜の民」のみなさん、すごいでござうー！
-もしかして、その魔除けの護符のことを、
-水蛇様はお伝えくださろうとしてた、でござうか？"
-82,"TEXT_BANQIQ002_03795_BOUSHITSUCHINOKO_000_047","キィ？"
-83,"TEXT_BANQIQ002_03795_QUINFORT_000_048","水蛇様が、「夜の民」の祈りの業（わざ）を賞せられたと……！？
-おお、なんたる誉れかッ……！！"
-84,"TEXT_BANQIQ002_03795_VALAN_000_049","水蛇様ねぇ……やっぱりオレには、よくわかんないけど。
-でも確かに、キタリ族たちが洞窟遺跡の発掘を進めるために、
-魔除けの護符なら、ちょうど役立ちそうだね。"
-85,"TEXT_BANQIQ002_03795_VALAN_000_050","魔物を遠ざける祈りを込めるのは、導師さまたちの仕事だけど、
-護符の土台そのものだったら、オレでも作ってあげられるよ。
-ただ、特殊な材料が必要なんだ。"
-86,"TEXT_BANQIQ002_03795_VALAN_100_050","オレたちのなら、ここから近いシチュア湿地の水場で探すけど……
-キタリ族の拠点のための護符だから、東の森で探すのがいいはずさ。"
-87,"TEXT_BANQIQ002_03795_VALAN_000_051","そうだな……<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さんには、
-護符の核になる「<Sheet(Item,29513,0)/>」を探してきて欲しい。
-ミュリルの郷愁あたりで、見つけられるんじゃないかな。"
-88,"TEXT_BANQIQ002_03795_VALAN_100_051","そうだな……<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さんには、
-護符の核になる「<Sheet(Item,29539,0)/>」を探してきて欲しい。
-ミュリルの郷愁あたりで、見つけられるんじゃないかな。"
-89,"TEXT_BANQIQ002_03795_VALAN_200_051","そうだな……<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さんには、
-護符の核になる「<Sheet(Item,29565,0)/>」を探してきて欲しい。
-ミュリルの落涙あたりで、採れるんじゃないかな。"
-90,"TEXT_BANQIQ002_03795_VALAN_300_051","釣り餌なら「<Sheet(Item,27582,0)/>」でいいと思うよ。
-……そういえばフルーツワームって、
-ちょっと水蛇様に似てるような……ううん、なんでもない。"
-91,"TEXT_BANQIQ002_03795_QUINFORT_000_052","ならば導師であるボクは、キタリ族の洞窟遺跡を護るべく、
-ふさわしい祈りの言葉を編み出しておこう！"
-92,"TEXT_BANQIQ002_03795_VALAN_000_053","チャクルリは、オレと一緒に、
-護符の核以外の材料を、スリザーバウで分けてもらってこようか。
-里のみんなにもキタリ族を紹介したら、きっと喜ぶよ。"
-93,"TEXT_BANQIQ002_03795_VALAN_000_054","材料が集まったら、「ホパル古盤」で集合しよう。
-きちんと魔除けの効果が出るか、オレらも確かめたいしね。"
-94,"TEXT_BANQIQ002_03795_QUINFORT_000_064","魔除けの護符に、祈りを込めるのが楽しみだ！"
-95,"TEXT_BANQIQ002_03795_VALAN_000_065","お疲れさま！
-護符の核に使う材料は見つかった？"
-96,"TEXT_BANQIQ002_03795_VALAN_000_066","うん、さすが<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん！
-チャクルリと集めた素材と合わせて、さっそく作ってみるよ！"
-97,"TEXT_BANQIQ002_03795_VALAN_000_067","これをこうして……模様を編み込んで、っと……
-よし、こんな感じかな！"
-98,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_070","わぁ～！！
-これで、「第一次調査」を始められるでござう！"
-99,"TEXT_BANQIQ002_03795_VALAN_000_071","いいや、まだだよ。
-導師さまに聖別の祈りを込めてもらわないと、
-護符の形をした、ただの飾りだからね。"
-100,"TEXT_BANQIQ002_03795_VALAN_000_072","で、導師見習いさま？
-祈りの言葉は、お前が準備してくるって言ってたけど？"
-101,"TEXT_BANQIQ002_03795_QUINFORT_000_073","フッハハ……今こそ、ボクの導師としての真価を示すときッ！！"
-102,"TEXT_BANQIQ002_03795_VALAN_000_074","うわっ、イヤな予感しかしない……！！"
-103,"TEXT_BANQIQ002_03795_QUINFORT_000_075","キタリ族のため、護符に込めるべき祈りの言葉……ッ！
-「夜の民」の祈りか、ロンカの叡智の響きを求むるか……
-その選定は、まさしく難航を極めた！"
-104,"TEXT_BANQIQ002_03795_QUINFORT_000_076","しかしッ！　水蛇様が、このたびもボクに天啓を与え給うた！
-脳裏に星が瞬くが如くひらめいた言葉は、
-ボクが「昏き森の聖詩」に紡いだ、「あの言葉」だったのだよッ！"
-105,"TEXT_BANQIQ002_03795_VALAN_000_077","……えっとー、昏き森の聖詩っていうのは……前も言ったっけ。
-大事なのは、護符に祈りを込める力自体のはずだから、うん。"
-106,"TEXT_BANQIQ002_03795_QUINFORT_000_078","「夜の民」が導師……神の贄の末孫、キンフォートが唱える。
-「昏き森の聖詩」は第52章14節より…………"
-107,"TEXT_BANQIQ002_03795_QUINFORT_100_078","『女神の爪先は碧（あお）に染まり　青史の聖護官が辿るを待つ
-　白光還りし刻　其れは果てなき漂浪　黄昏に明ける刻
-　星海より落つ　宝卵根づる森へ……』"
-108,"TEXT_BANQIQ002_03795_QUINFORT_200_078","『我が求め　汝は与えん……轟け！
-　ウィズダム・オブ・ガーディアンサーペントッ！！
-　ロンカの子らが崇め　汝は応じん　魔を却ける力を授けよ……！』"
-109,"TEXT_BANQIQ002_03795_QUINFORT_000_079","……水蛇様！
-「ロンカの水蛇様」へ、キタリ族の無事を乞い願うボクの祈りの言葉、
-いかがでしたでしょうか！？"
-110,"TEXT_BANQIQ002_03795_BOUSHITSUCHINOKO_000_080","キュィ～っキィ！"
-111,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_081","なんだか、とってもすごぉ～い感じがしたでござう！
-キンフォートどのは、大変ユウシュウな導師さまなのでござうな！"
-112,"TEXT_BANQIQ002_03795_QUINFORT_000_082","フッ……ボクの溢れんばかりの才が、
-キタリの少年にもわかってしまったか……！"
-113,"TEXT_BANQIQ002_03795_VALAN_000_083","………………まぁ、導師としての腕は間違いないハズだから、
-ヤバい祈りの言葉はともかく、護符はちゃんと力を持ったはずだよ。"
-114,"TEXT_BANQIQ002_03795_QITARLNATL_000_084","魔除けの準備が整ったなら、何よりでござる。
-これでようやく、洞窟遺跡の奥へと進めるでござろう！"
-115,"TEXT_BANQIQ002_03795_QITARLNATL_000_085","さて……チャクルリよ。
-洞窟の奥には、魔物や、より恐ろしい危険が待つやもしれぬ。
-本当に、それがしと発掘調査に同行するのか？"
-116,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_086","もちろん！　そのために、ともに森を越えてまいったでござうよ。
-父上といっしょに、ご先祖様の石碑を見つけて、
-チャクルリも立派なキタリの大人になるでござうっ！！"
-117,"TEXT_BANQIQ002_03795_QITARLNATL_000_087","……よくぞ申した。
-父としては不安もあるが、
-子には、逞しく生い育つための冒険が、ときに必要にござる。"
-118,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_088","「第一次調査」、はじまりでござう！"
-119,"TEXT_BANQIQ002_03795_SYSTEM_001_031","しばらくして……"
-120,"TEXT_BANQIQ002_03795_SYSTEM_001_032","チャクルリ・コテルとキタルリ・ナトルによる、
-「第一次調査」が完了した！"
-121,"TEXT_BANQIQ002_03795_QUINFORT_000_091","水蛇様が、さらに……！！
-神託の数だけ、ということは……！"
-122,"TEXT_BANQIQ002_03795_VALAN_000_092","チャクルリたち、石碑らしいものは、
-持ち帰ってないみたいだけど……？"
-123,"TEXT_BANQIQ002_03795_HELMETTSUCHINOKO_000_094","キィっキィっ！"
-124,"TEXT_BANQIQ002_03795_SYSTEM_000_095","ホパル古盤の洞窟遺跡から現れた「ホパルの水蛇様？」は、
-凛とした鳴き声をあげている。
-石碑発見を助けるべく、熱意に満ち溢れているようだ。"
-125,"TEXT_BANQIQ002_03795_QUINFORT_000_096","お、おぉなんたることだ……聞かせてくれッ！！
-こちらにおわす、新たな水蛇様はいったい！？"
-126,"TEXT_BANQIQ002_03795_QITARLNATL_000_097","キンフォート殿、落ち着きめされよ！
-順を追って、洞窟のなかで起こったことをお話しさせてくだされ。"
-127,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_098","父上とそるかし、確かに石碑を見つけたでござう！
-賽のように四角くて、彫刻が刻まれていて……
-おはなしに聞いていた通りだったでござうよ。"
-128,"TEXT_BANQIQ002_03795_QITARLNATL_000_099","ああ、しかし……
-石碑は、大きく損壊しておったのでござる。"
-129,"TEXT_BANQIQ002_03795_VALAN_000_100","な、なんだって……！？"
-130,"TEXT_BANQIQ002_03795_QITARLNATL_000_101","口伝によれば、石碑は4段に重ねられ、
-柱の如く、そびえ立っていたとされるでござる。
-だが、見つかったのは1段のみ……。"
-131,"TEXT_BANQIQ002_03795_QITARLNATL_000_102","おそらく、洞窟に隠し入れる際に分割したのであろうが、
-その「第一の石碑」さえ、大きく破損しておった。"
-132,"TEXT_BANQIQ002_03795_QITARLNATL_000_103","光の精……罪喰いに追い襲われ、壊されたものかと……。
-石碑の周囲には、墓もなく眠るご先祖様たちの遺骨がござった。"
-133,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_104","大きな破片だけでも、地上に持ち出そうとしたでござうよ。
-でも……そるかしを止めるように現れたのが、
-こちらの、鉄冑のようなものを被った水蛇様なのでござう。"
-134,"TEXT_BANQIQ002_03795_HELMETTSUCHINOKO_000_105","キィ～！"
-135,"TEXT_BANQIQ002_03795_QUINFORT_000_106","チャクルリ氏が連れた、帽子をお被りになった水蛇様は、
-ずっと地上におわしたのを、ボクたちが見ていた……。
-なれば、新たな神託を携えし、次なる水蛇様とみるべきであろう！"
-136,"TEXT_BANQIQ002_03795_VALAN_000_107","これで3体目なんて……ほんとに？
-洞窟のなかで、大量発生してるとかなんじゃない？"
-137,"TEXT_BANQIQ002_03795_QITARLNATL_100_108","こたび導きとなったのは、この水蛇様のみにござる。
-しかし、森への道を示した大いなるご意思と異なる存在なら、
-発掘を助くるため、また顕現されることも、あるやもしれぬな。"
-138,"TEXT_BANQIQ002_03795_QITARLNATL_000_108","事実……鉄兜の水蛇様の啓示を汲み取れず、
-チャクルリが触れた石碑の破片は、粉々に砕けてしまい申した。"
-139,"TEXT_BANQIQ002_03795_QITARLNATL_000_109","我ら親子は、その水蛇様の訪れから、かように解釈したでござる。
-つまり……地下に残された石碑の破片をよ～く観察し、
-ご先祖様の記憶を、新たな石に彫り直せとのことであろうと！"
-140,"TEXT_BANQIQ002_03795_VALAN_000_110","石碑を、見てきたまま復元しようって言うんだね？
-確かに壊れてしまってたなら、それも手段だろうけど……。"
-141,"TEXT_BANQIQ002_03795_QUINFORT_000_111","しかして、石碑から読み取ることができたのは、
-いったいどのような歴史であったのだ……！？"
-142,"TEXT_BANQIQ002_03795_QITARLNATL_000_112","うむ……石碑には彫刻が彫られていた。
-逞しきロンゾ族の姿をした「初代ロンカ皇帝」の像と、
-皇帝の携えし「大きな剣」、そして「キタリ族」の似姿が……。"
-143,"TEXT_BANQIQ002_03795_QITARLNATL_000_113","我らとロンカの、最初の接触の場面にござろう。
-皇帝が怯えるキタリに、剣を振り下ろさんとする図に見て取れた。"
-144,"TEXT_BANQIQ002_03795_QITARLNATL_000_114","つまり、初代ロンカ皇帝は、剣が象徴する武力によって、
-キタリ族を制圧し、支配下においたのでござる。
-第一層に残された歴史は、その記憶を描いたものに違いなかろう！"
-145,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_115","うーん……そるかしは、おんなじ石碑を見て、
-父上とは、ちょっと違う風に考えたでござうよ。"
-146,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_116","皇帝は、弱～いキタリ族を、魔物から剣で守ろうとしたでござう。
-そんな皇帝をキタリも信頼して、
-ふたつの種族は、トモダチになったに違いないでござうよ！"
-147,"TEXT_BANQIQ002_03795_QITARLNATL_000_117","チャクルリよ、歴史とは存外残酷なものにござる。
-そのように、童話めいたものではあるまいて。"
-148,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_118","でもでも、ロンカの皇帝はとっても偉大なお人にござうよ。
-そるかし……ずっと憧れてきたでござう。
-キタリ族を殺して支配するなんて、考えられないでござう！"
-149,"TEXT_BANQIQ002_03795_VALAN_000_119","うーん……どうやら石碑を復元するために、ふたりが唱える説の、
-どちらを語り継ぐ歴史とするのか、決めなきゃいけないみたいだ。"
-150,"TEXT_BANQIQ002_03795_QUINFORT_000_120","選んだ説を元に、石碑を作り直し……
-それが、キタリ族がこれから語り継ぐ歴史になろうという訳か！
-選ばれなかった説は、刻まれず消え去るのみ……ッ！"
-151,"TEXT_BANQIQ002_03795_VALAN_000_121","さて、十分お役に立てたかと思うし、
-キンフォートが迷惑かける前に、オレらはスリザーバウに戻るよ。
-また困ったことがあったら、頼ってくれよな！"
-152,"TEXT_BANQIQ002_03795_QUINFORT_000_122","お、おい、ヴァラン！
-むしろこれから、歴史の再生を見届けるところではないかーッ！！"
-153,"TEXT_BANQIQ002_03795_QITARLNATL_000_123","むむ、それがしも父とて、己の説を押し通すつもりはござらぬ。
-しかし我ら親子だけでは、意見も平行線を辿るのみ……。"
-154,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_124","むむむ～っ！
-いかがしたものでござうか～！"
-155,"TEXT_BANQIQ002_03795_BOUSHITSUCHINOKO_000_125","キィ、キュィっキィ～！"
-156,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_126","み、水蛇様！？"
-157,"TEXT_BANQIQ002_03795_QITARLNATL_000_127","うぅむ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>殿をお示しに？
-ロンカの同盟者であるお方に、我ら親子の説をお選びいただき、
-キタリの語る歴史を託せと、そう仰せなのですかな？"
-158,"TEXT_BANQIQ002_03795_BOUSHITSUCHINOKO_000_128","キュィ～っ！"
-159,"TEXT_BANQIQ002_03795_SYSTEM_000_150","キタリ族の親子は、新たな石碑に残す先祖の逸話について、
-互いに異なる説を唱えているようです。
-水蛇様は、あなたにキタリ族の歴史を託そうとしていますが……？"
-160,"TEXT_BANQIQ002_03795_SYSTEM_000_151","「キタリ族：ルリの発掘隊」との友好関係が、
-「信頼」になりました。
-護符の材料の採集に力を貸したことで、信頼を勝ち得たようです。"
-161,"TEXT_BANQIQ002_03795_SYSTEM_100_151","ホパル古盤の拠点には、スリザーバウの人々の知恵により、
-魔除けの護符が飾られました。
-地下の魔物を遠ざけることで、発掘は順調に進むでしょう！"
-162,"TEXT_BANQIQ002_03795_SYSTEM_400_151","また、不思議な鉄冑を被った「ホパルの水蛇様？」が、
-ルリの発掘隊を導くため、洞窟から拠点に現れはじめました。
-それぞれ発掘の啓示を携え、キタリ族を見守っているようです。"
-163,"TEXT_BANQIQ002_03795_SYSTEM_200_151","蛮族デイリークエスト：キタリ族のストーリーを進行させるため、
-「ホパル古盤」で親子ふたりの説のいずれかを選び、
-石碑の復元を行いましょう。"
-164,"TEXT_BANQIQ002_03795_SYSTEM_300_151","あなたの選択により、これから復元される石碑の彫刻と、
-今後語り継がれる歴史の一部が異なっていきます。
-次のクエストを一度完了させると、選び直すことはできません。"
-165,"TEXT_BANQIQ002_03795_SYSTEM_000_152","これ以降、ホパル古盤にいる「コテルリ・パソリ」より、
-新たな「蛮族デイリークエスト」を受注することができます。"
-166,"TEXT_BANQIQ002_03795_SYSTEM_000_153","なお、友好ランクが上がった当日に限り、
-「コテルリ・パソリ」から受注できるデイリークエストの数が、
-ボーナスとして、3つ追加されています。"
-167,"TEXT_BANQIQ002_03795_SYSTEM_000_154","友好ランクが上がる前に発行されたデイリークエストを、
-すべて受注するとボーナス分が発行され、
-受注権のある限り、これを受注することができます。"
-168,"TEXT_BANQIQ002_03795_SYSTEM_000_155","また、「ユクルリ・マノル」より、
-「友好関係：信頼」の商品を購入できるようになりました。
-今後の冒険に役立てましょう！"
-169,"TEXT_BANQIQ002_03795_QITARLNATL_100_001","（★未使用／削除予定★）"
-170,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_060","（★未使用／削除予定★）"
-171,"TEXT_BANQIQ002_03795_QITARLNATL_000_061","（★未使用／削除予定★）"
-172,"TEXT_BANQIQ002_03795_BOUSHITSUCHINOKO_000_062","（★未使用／削除予定★）"
-173,"TEXT_BANQIQ002_03795_SYSTEM_000_063","（★未使用／削除予定★）"
-174,"TEXT_BANQIQ002_03795_QITARLNATL_000_025","（★未使用／削除予定★）"
-175,"TEXT_BANQIQ002_03795_QITARLNATL_000_090","（★未使用／削除予定★）"
-176,"TEXT_BANQIQ002_03795_BOUSHITSUCHINOKO_000_093","（★未使用／削除予定★）"
+48,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_001","Good <If(PlayerParameter(4))>sir<Else/>madam</If>! It was <If(PlayerParameter(4))>sir<Else/>madam</If>, wasn't it? Mother tells me you've been working your tail off around the Stopple! Is that why I can't see your tail, perhaps?"
+49,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_002","Anyhow! Thanks to you, Father says that we're ready to begin the ex-<Emphasis>vacation</Emphasis>! Isn't this all so exciting?"
+50,"TEXT_BANQIQ002_03795_QITARLNATL_000_003","Chaqurl. We must remember to remain calm and composed. These caves are vast, their tunnels burrowing deep into the bowels of the land. Slow, steady, and <Emphasis>circumspect</Emphasis> is the order of the day."
+51,"TEXT_BANQIQ002_03795_QITARLNATL_000_004","As we speak, a preliminary exploration team is surveying the tunnels to determine where we might best begin the excavation. We will await their findings before deciding on the best way to move forward."
+52,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_005","Understood, Father! I promise to be <Emphasis>sir</Emphasis>-sumspect. Does that mean we can begin digging already?"
+53,"TEXT_BANQIQ002_03795_QITARLNATL_000_006","Towarl Manol! What news from the depths?"
+54,"TEXT_BANQIQ002_03795_TWARLMANOL_000_007","Digmaster Qitarl. I fear we encountered something rather...unexpected. I fear that we may not be able to commence the excavation effort as quickly as we had hoped..."
+55,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_008","We can't start digging? But why? What did you find down there?"
+56,"TEXT_BANQIQ002_03795_TWARLMANOL_000_009","No sooner had we stepped through the entrance, our whiskers twitching in anticipation of the wonders that awaited, than did we see them─nasty creatures swarming in every nook and cranny of the caves!"
+57,"TEXT_BANQIQ002_03795_QITARLNATL_000_010","...A most troubling development indeed. We Qitari are scribes, not warriors. Indeed, it was the presence of fearsome fiends─and worse─blocking our way through the Ravel that kept us trapped for a hundred years. Are we doomed to suffer a similar fate here?"
+58,"TEXT_BANQIQ002_03795_Q1_000_000","What will you say?"
+59,"TEXT_BANQIQ002_03795_A1_000_001","I did defeat the Lightwarden, you know."
+60,"TEXT_BANQIQ002_03795_A1_000_002","I can do more than just gather things."
+61,"TEXT_BANQIQ002_03795_QITARLNATL_000_011","The ally of Ronka and bringer of the night would fell these terrible beasts for us? I would like little more than to take advantage of your kindness, but...I fear there is a rub."
+62,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_012","A rub?"
+63,"TEXT_BANQIQ002_03795_QITARLNATL_000_013","...A rub. In our preliminary explorations of the Stopple, we have discovered that another ward seals off the tunnels below. A ward not unlike the one that barred the entrance, but with one notable─and unfortunate─difference."
+64,"TEXT_BANQIQ002_03795_QITARLNATL_000_014","It is a ward impassable to all but the servants of Dalan─namely, the Qitari. No, I fear we will have to find our own way to dispatch the beasts that have burrowed their way up from the depths..."
+65,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_015","But without Sirmadam <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>'s aid, we'll be chewed up the moment we step in there─tails and whiskers and all!"
+66,"TEXT_BANQIQ002_03795_BOUSHITSUCHINOKO_000_016","Scree!"
+67,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_017","The great serpent...it speaks!"
+68,"TEXT_BANQIQ002_03795_QITARLNATL_000_018","Indeed...and yet, it does not move. Till now, we have had only to follow where it goes. This time, it appears we must fully grasp the import of his message. A message which, sadly, is beyond my comprehension. If only there were someone who─but, of course! The son of Dwatl!"
+69,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_019","The son of... You mean, that tall fellow who likes to wave his arms in the air when he talks!?"
+70,"TEXT_BANQIQ002_03795_QITARLNATL_000_020","The very same. Ahem...<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. It appears we will require your assistance once more. Might you be so kind as to see my boy safely to Slitherbough, that he might summon this Quinfort for us?"
+71,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_021","Would you kindly, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>? Father and I would appreciate it ever so muchly and more! Now come along, great serpent!"
+72,"TEXT_BANQIQ002_03795_VALAN_000_030","The Qitari boy told me you came seeking Quinfort's counsel. Are you sure you're feeling quite okay, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>?"
+73,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_031","Slitherbough is full of tunnels, too! If Father wasn't waiting for us back at the Stopple, I'd love to go digging and delving here, too!"
+74,"TEXT_BANQIQ002_03795_BOUSHITSUCHINOKO_000_032","Scree!"
+75,"TEXT_BANQIQ002_03795_QUINFORT_000_040","What's this you say!? Fell beasts prowl the tunnels at every turn? No doubt they are remnants of the shadows that wander the forests come to life! Demons, come to suck dry the currents of aether that give the Greatwood life, reducing our home to a withered husk!"
+76,"TEXT_BANQIQ002_03795_VALAN_000_041","They <Emphasis>could</Emphasis> be that. Or they could simply be nasty little brutes that crawled their way up from between the rocks. You know, like the ones around here."
+77,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_042","Valan, my good sirmadam! You know of these creatures, too?"
+78,"TEXT_BANQIQ002_03795_VALAN_000_043","I do. Mother tells me that when our ancestors first came to Slitherbough, they were set upon by a swarm of ravenous creatures that crawled up from below. Fortunately, one of the elder priests managed to utter an incantation that drove them away."
+79,"TEXT_BANQIQ002_03795_VALAN_000_044","If you look closely at the walls around us, you can see glyphs carved in them. The same protective magic that saved our forefathers then has been worked into the very walls around us. In a sense, the settlement of Slitherbough itself serves as a ward against the dangers that lurk beneath us."
+80,"TEXT_BANQIQ002_03795_QUINFORT_000_045","Just so, Valan! And it is precisely wards and incantations of this sort that I have made the focus of my studies of late!"
+81,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_046","I remain ever impressed with your knowledge, my good sirmadams. Might it be too much to ask if you could teach this incantation to the great serpent, that he might protect us in our expedition below?"
+82,"TEXT_BANQIQ002_03795_BOUSHITSUCHINOKO_000_047","Scree...?"
+83,"TEXT_BANQIQ002_03795_QUINFORT_000_048","Wh-What...what blasphemy do you speak, child!? Do you think <Emphasis>me</Emphasis>, a humble servant of the wood, so brazen as to believe he could enlighten the divine protector itself!?"
+84,"TEXT_BANQIQ002_03795_VALAN_000_049","<sigh> Look...this isn't exactly my area of expertise, but it strikes me that there might be a simpler way to approach this."
+85,"TEXT_BANQIQ002_03795_VALAN_000_050","Why don't we simply fashion a talisman or two for them? You know, like the ones we've always used to keep danger at bay. I can craft a simple object to serve as the vessel, then Quinfort can mutter a few words and enchant it as he sees fit."
+86,"TEXT_BANQIQ002_03795_VALAN_100_050","Tradition dictates that the talisman be fashioned from materials indelibly connected to the bearer's home. Those of us who live in Slitherbough usually gather what we need from the Citia Swamps, but for our Qitari friends, we'll have to look further east."
+87,"TEXT_BANQIQ002_03795_VALAN_000_051","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>...your knowledge of rocks and stones just might serve us well here. Why don't you head over to Mjrl's Regret and see if you can't find us a serpent's-eye? It's a rare gem that we often carry about to ward off danger."
+88,"TEXT_BANQIQ002_03795_VALAN_100_051","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>...your knowledge of trees and shrubs just might serve us well here. Why don't you head over to Mjrl's Regret and see if you can't find us a spectral cocoon. It's a casing of spun silk that we often carry about to ward off danger."
+89,"TEXT_BANQIQ002_03795_VALAN_200_051","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>...your angling aptitude just might serve us well here. Why don't you head over to Mjrl's Tears and see if you can't fish us up a shimmershell. It's a sea-dwelling creature whose husk we often carry about to ward off danger."
+90,"TEXT_BANQIQ002_03795_VALAN_300_051","If you're in need of appetizing bait, I figure a fruit worm should suffice. Speaking of fruit worms, doesn't the way they wriggle and squirm remind you of─on second thought, never mind."
+91,"TEXT_BANQIQ002_03795_QUINFORT_000_052","And I shall immediately begin weaving an incantation especially tailored to protect our good friends from the sort of terrifying creatures that infest the caves and tunnels they seek to explore! Muahahaha! A foolproof plan if ever there was one!"
+92,"TEXT_BANQIQ002_03795_VALAN_000_053","Chaqurl, you can stay here with me in Slitherbough and help me collect the other materials I need. It'll be the perfect opportunity to introduce you to my fellow Blessed."
+93,"TEXT_BANQIQ002_03795_VALAN_000_054","Once we have everything we need, let's meet up again at Hopl's Stopple. I want to test the effectiveness of the talisman for myself before we leave Chaqurl and his friends on their own."
+94,"TEXT_BANQIQ002_03795_QUINFORT_000_064","I can scarce wait to put my prodigious talents to use for the sake of our Qitari friends!"
+95,"TEXT_BANQIQ002_03795_VALAN_000_065","Oh, there you are! Were you able to find something suitable for making our talisman?"
+96,"TEXT_BANQIQ002_03795_VALAN_000_066","Why, yes. This should serve us quite well. Just give me a moment or two─I'll round up the materials Chaqurl and I gathered from the village and whip up something in no time."
+97,"TEXT_BANQIQ002_03795_VALAN_000_067","Just add a feather here, here, and here, then thread through this length of rope, and...yes, this should do it!"
+98,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_070","It's...it's beautiful! And this will let us begin the ex-<Emphasis>vacation</Emphasis> in safety, you say?"
+99,"TEXT_BANQIQ002_03795_VALAN_000_071","Not so fast. The talisman needs to be enchanted before it's of any use. As it is now, it's little more than a fancy little ornament."
+100,"TEXT_BANQIQ002_03795_VALAN_000_072","Well, Quinfort? This is the moment you've been waiting for, isn't it?"
+101,"TEXT_BANQIQ002_03795_QUINFORT_000_073","Muahahaha! Say no more! Stand back and bear witness as Quinfort, descendant of Dwatl, weaves an incantation the likes of which your eyes have never seen!"
+102,"TEXT_BANQIQ002_03795_VALAN_000_074","Why do I have a bad feeling about this...?"
+103,"TEXT_BANQIQ002_03795_QUINFORT_000_075","Worry not, dear Valan! In truth, at first I was uncertain which of the many prayers I have memorized would serve us best. A traditional chant of the Night's Blessed? But wait...the Qitari are an ancient race, so perhaps this calls for an incantation from ancient Ronka?"
+104,"TEXT_BANQIQ002_03795_QUINFORT_000_076","Long did I ponder─choose poorly, after all, and it could mean death and destruction for our friends, if not the forest itself! Fortunately, it was then that the great serpent came to me in a vision, enlightening me as to the precise words that will deliver us to salvation: words which have long been writ in the <Emphasis>Gospel of Quinfort</Emphasis>!"
+105,"TEXT_BANQIQ002_03795_VALAN_000_077","You're going to enchant this talisman with ramblings from your dream diary? Now I <Emphasis>really</Emphasis> have a bad feeling about this..."
+106,"TEXT_BANQIQ002_03795_QUINFORT_000_078","Do not be silly, Valan. The great serpent speaks through me, and I am but a vessel for his divine wisdom. Hark, it is precisely as it says in chapter fifty-two, verse five..."
+107,"TEXT_BANQIQ002_03795_QUINFORT_100_078","“The goddess's claws stained cerulean, she did await the arrival of the stewards. The coming of the darkness marked a new dawn; a proud people returned to the wood where the egg once fell from high above...”"
+108,"TEXT_BANQIQ002_03795_QUINFORT_200_078","“O, Great Serpent of Ronka, gifted to us by the heavens! Hear the plea of the great sage's scion, and guide the children of Ronka safely to their ancestral home!”"
+109,"TEXT_BANQIQ002_03795_QUINFORT_000_079","O, Great Serpent! Do tell me, were my prayers heard?"
+110,"TEXT_BANQIQ002_03795_BOUSHITSUCHINOKO_000_080","Scree-eee!"
+111,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_081","Why, I've never heard an in-<Emphasis>tank</Emphasis>-ation so inspiring! Your powers truly are something else, Master Quinfort!"
+112,"TEXT_BANQIQ002_03795_QUINFORT_000_082","Oho! You are wise beyond your years, my young Qitari friend. My knowledge is vast, my powers indeed prodigious, and it is more than an honor to wield them in service of your esteemed people!"
+113,"TEXT_BANQIQ002_03795_VALAN_000_083","Though he's prone to bouts of madness from time to time, Quinfort <Emphasis>is</Emphasis> an accomplished priest. The talisman should serve you well."
+114,"TEXT_BANQIQ002_03795_QITARLNATL_000_084","Splendid. Our excavation effort has already been delayed for far longer than we can afford."
+115,"TEXT_BANQIQ002_03795_QITARLNATL_000_085","Well, Chaqurl? This is the moment of truth. There is no telling what dangers lurk beneath us. Are you quite certain you wish to accompany me to the tunnels below?"
+116,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_086","But of course, Father! Why else would I have come to this place with you? Together, we will unearth the secrets of our <Emphasis>far</Emphasis>-forethers, and reclaim our history!"
+117,"TEXT_BANQIQ002_03795_QITARLNATL_000_087","Very well. It is clear you do not take the task lightly. Perhaps you are coming of age after all. And with that, I believe it's time we started digging."
+118,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_088","Let the ex-<Emphasis>vacation</Emphasis> begin!"
+119,"TEXT_BANQIQ002_03795_SYSTEM_001_031","Some time later..."
+120,"TEXT_BANQIQ002_03795_SYSTEM_001_032","Qitarl Natl and Chaqurl Qhotl have safely returned from their preliminary investigation of the tunnels."
+121,"TEXT_BANQIQ002_03795_QUINFORT_000_091","Yet <Emphasis>more</Emphasis> manifestations of the great serpent! Whatever have we done to deserve such a blessing!?"
+122,"TEXT_BANQIQ002_03795_VALAN_000_092","Well, Chaqurl? Were you able to find any of the tablets you were searching for?"
+123,"TEXT_BANQIQ002_03795_HELMETTSUCHINOKO_000_094","Scree! Scree!"
+124,"TEXT_BANQIQ002_03795_SYSTEM_000_095","The great serpent wriggles about and lets out a clear, clarion call. It would seem that it wishes to aid the Qitari in their effort to reclaim their history."
+125,"TEXT_BANQIQ002_03795_QUINFORT_000_096","What is this!? Another incarnation of the great serpent made manifest before us!? Whatever could be the meaning of this!? I must know at once!"
+126,"TEXT_BANQIQ002_03795_QITARLNATL_000_097","...Ahem. If you could settle down for just a moment, Master Quinfort, I will explain in detail all I witnessed down below."
+127,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_098","Father and I found a stone! It was big and square and covered with all sorts of writings, just like in the legends!"
+128,"TEXT_BANQIQ002_03795_QITARLNATL_000_099","As my boy says, we did indeed find the stelae. Or at least...one piece of them."
+129,"TEXT_BANQIQ002_03795_VALAN_000_100","What remains...?"
+130,"TEXT_BANQIQ002_03795_QITARLNATL_000_101","According to Qitari legend, the stelae comprised four perfectly square stones, stacked to form a massive pillar. Which is to say, what we have found is but one part of the larger whole..."
+131,"TEXT_BANQIQ002_03795_QITARLNATL_000_102","And if that were not unfortunate enough, even the single stela we found has been badly weathered through the years. In many places, the engravings are all but indecipherable."
+132,"TEXT_BANQIQ002_03795_QITARLNATL_000_103","That is not all we found. Lying beside the shattered stone were several sad piles of bones─no doubt the remains of our once-proud forefathers who carried the stelae down below. I shudder to think of their last moments, torn apart by sin eaters as they hid away our legacy for safekeeping."
+133,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_104","Father and I thought to carry the stone to the surface, but in that moment, something jumped out and stood in our path!"
+134,"TEXT_BANQIQ002_03795_HELMETTSUCHINOKO_000_105","Scree!"
+135,"TEXT_BANQIQ002_03795_QUINFORT_000_106","Are mine eyes to be believed!? The behatted serpent that first accompanied our Qitari friends remains on the surface, which means...we are graced by yet another incarnation of the divine protector!"
+136,"TEXT_BANQIQ002_03795_VALAN_000_107","A <Emphasis>third</Emphasis> manifestation of the great serpent? Just how many of them are there, anyway?"
+137,"TEXT_BANQIQ002_03795_QITARLNATL_100_108","At the very least, this is the only one we encountered on our expedition. And yet, if it traveled here from somewhere to guide us in our efforts, it would not be unreasonable to assume that there are others where this one came from."
+138,"TEXT_BANQIQ002_03795_QITARLNATL_000_108","In truth, it appeared and spoke to us just as we stood before the shattered stone. I cannot help but believe it was conveying to us a message, just as its brethren guided us to these ancient tunnels."
+139,"TEXT_BANQIQ002_03795_QITARLNATL_000_109","Chaqurl and I pondered the matter, and we believe that we understand. The great serpent bids us to unearth what remains of the scattered and weathered stelae, and piece together our people's history anew with our own hands and minds."
+140,"TEXT_BANQIQ002_03795_VALAN_000_110","I see. If the stones truly have been scattered and weathered by time, that's the best you could hope to do."
+141,"TEXT_BANQIQ002_03795_QUINFORT_000_111","Yet surely you must have been able to make out something from what remained of the stone! What chronicles of eld were writ there!?"
+142,"TEXT_BANQIQ002_03795_QITARLNATL_000_112","...Ahem. What we were able to make of the markings could be described thus: a mighty Ronso wearing a crown─no doubt meant to represent the first emperor of Ronka, stood tall with a blade raised high over his head."
+143,"TEXT_BANQIQ002_03795_QITARLNATL_000_113","Before him, cowered a Qitari─one of our forefathers, no doubt. The carving would seem to depict the momentous occasion that was the first encounter between our people and the empire."
+144,"TEXT_BANQIQ002_03795_QITARLNATL_000_114","And the implications could not be more clear. Doubtless our ancestors, ill-suited for battle, were conquered and subjugated by the might of Ronka, under whose yoke they would find new purpose as the stewards of history."
+145,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_115","A most fascinating interpretation, Father. But if I might be so bold, I saw the drawings quite differently."
+146,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_116","I do not believe the Ronkan emperor would be so cruel as to threaten the poor, weak Qitari. No, I believe that he found us vulnerable and at the mercy of the fearsome beasts of the forest. He slew the beasts by his own hand, and befriended our ancestors, giving us new purpose as his subjects."
+147,"TEXT_BANQIQ002_03795_QITARLNATL_000_117","Your optimism is admirable, my boy, but I fear that such a bright and cheery interpretation of events is unlikely at best. History is full of harsh truths from which we must not avert our eyes."
+148,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_118","But tales are still sung of the first emperor's might and majesty to this day, are they not? I simply cannot fathom that he would be so cruel as to enslave our people!"
+149,"TEXT_BANQIQ002_03795_VALAN_000_119","If you ask me, both theories seem reasonable. But if you intend to keep a record of history to pass down to posterity, you're going to have to choose one."
+150,"TEXT_BANQIQ002_03795_QUINFORT_000_120","Two conflicting theories of the past─one to be etched in stone and sung until the end of time, and the other, destined to be consigned to the dust of the deep, dank caverns below! Truly, this is a turning point in the grand tapestry that is the history of the Qitari...!"
+151,"TEXT_BANQIQ002_03795_VALAN_000_121","Yes, yes. At any rate, I believe we've done all we can here. "
+152,"TEXT_BANQIQ002_03795_QUINFORT_000_122","Valan! I say, Valan─have you no interest in witnessing this momentous occasion in history!?"
+153,"TEXT_BANQIQ002_03795_QITARLNATL_000_123","I would not think of insisting that my interpretation is the only valid one. And yet, I cannot simply toss it aside in favor of my son's rose-colored view of the past."
+154,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_124","How poso-<Emphasis>lute</Emphasis>-ly, absi-<Emphasis>tive</Emphasis>-ly vexing!"
+155,"TEXT_BANQIQ002_03795_BOUSHITSUCHINOKO_000_125","S-Screeeeeeeee!"
+156,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_126","The great serpent...it speaks again!"
+157,"TEXT_BANQIQ002_03795_QITARLNATL_000_127","It does, and this time its message could not be more clear. It believes that <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, the ally of Ronka, should be the one to weigh the options at hand and decide which version of history shall be inscribed upon the stone."
+158,"TEXT_BANQIQ002_03795_BOUSHITSUCHINOKO_000_128","Scree!"
+159,"TEXT_BANQIQ002_03795_SYSTEM_000_150","The Qitari father and son have arrived at conflicting interpretations of the events depicted on the stela. At the bidding of the Great Serpent of Ronka, it has fallen to you to determine which version of history will be recorded."
+160,"TEXT_BANQIQ002_03795_SYSTEM_000_151","You have achieved <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>Trusted<UIGlow>01</UIGlow><UIForeground>01</UIForeground> reputation with the Stewards."
+161,"TEXT_BANQIQ002_03795_SYSTEM_100_151","Borrowing the wisdom of the Night's Blessed, the Qitari have set up warding talismans around Hopl's Stopple. Free from the danger of wandering beasts, the excavation effort should proceed smoothly from here."
+162,"TEXT_BANQIQ002_03795_SYSTEM_400_151","Furthermore, yet another serpent clad in curious armor has arrived at the Qitari camp."
+163,"TEXT_BANQIQ002_03795_SYSTEM_200_151","In order to continue the Qitari quests, speak with either Qitarl Natl or Chaqurl Qhotl, and choose the interpretation of history that you find most convincing."
+164,"TEXT_BANQIQ002_03795_SYSTEM_300_151","Your choice will affect not only the restoration of the stela, but history as it will be told for years to come. Once you make your choice, you will be unable to go back, so choose carefully."
+165,"TEXT_BANQIQ002_03795_SYSTEM_000_152","New Qitari beast tribe daily quests are now available from Qhoterl Pasol at Hopl's Stopple."
+166,"TEXT_BANQIQ002_03795_SYSTEM_000_153","Furthermore, you will be able to undertake three additional quests from Qhoterl Pasol as a reputation bonus. This bonus is available until the daily reset time for beast tribe quests."
+167,"TEXT_BANQIQ002_03795_SYSTEM_000_154","These additional quests will become available after accepting all current daily quests from Qhoterl Pasol. Please be advised that you cannot undertake these quests if you have no remaining allowances."
+168,"TEXT_BANQIQ002_03795_SYSTEM_000_155","Furthermore, you now have access to a wider selection of wares from Yuqurl Manl."
+169,"TEXT_BANQIQ002_03795_QITARLNATL_100_001",""
+170,"TEXT_BANQIQ002_03795_CHAQURLQHOTL_000_060",""
+171,"TEXT_BANQIQ002_03795_QITARLNATL_000_061",""
+172,"TEXT_BANQIQ002_03795_BOUSHITSUCHINOKO_000_062",""
+173,"TEXT_BANQIQ002_03795_SYSTEM_000_063",""
+174,"TEXT_BANQIQ002_03795_QITARLNATL_000_025",""
+175,"TEXT_BANQIQ002_03795_QITARLNATL_000_090",""
+176,"TEXT_BANQIQ002_03795_BOUSHITSUCHINOKO_000_093",""

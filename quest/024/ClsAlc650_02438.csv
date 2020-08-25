@@ -1,18 +1,18 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSALC650_02438_SEQ_00","錬金術師ギルドのセヴェリアンは、報告したいことがあるようだ。"
-1,"TEXT_CLSALC650_02438_SEQ_01","セヴェリアンは、「心の臓の刃」について、ムムエポから話を聞くことができなかったようだ。ウルダハのエラリグ墓地にいる「イードギサ」と話し、棺に眠る遺体の遺族について聞きだそう。"
-2,"TEXT_CLSALC650_02438_SEQ_02","イードギサから、遺体の遺族がフ・ラミンであることを聞き出した。モードゥナのレヴナンツトールにいる「フ・ラミン」と話そう。"
-3,"TEXT_CLSALC650_02438_SEQ_03","フ・ラミンによると、棺の中には、元恋人のニエルフレーヌが眠っているという。彼女の旧友と合流するため、エラリグ墓地へ向かい、「フ・ラミン」と話そう。"
-4,"TEXT_CLSALC650_02438_SEQ_04","フ・ラミンの旧友、グレインファルとともに、「心の臓の刃」の行方を追うことになった。エラリグ墓地の外に出て、「グレインファル」と話そう。"
-5,"TEXT_CLSALC650_02438_SEQ_05","グレインファルから、ムムエポから真相を聞き出すための、「差し入れ」を用意するよう頼まれた。錬金術師ギルドの「セヴェリアン」と話そう。"
-6,"TEXT_CLSALC650_02438_SEQ_06","セヴェリアンは、前回ムムエポと面会したときから、口を割らせるための薬を用意していたようだ。「<Sheet(Item,17927,0)/>」をもとに「<Sheet(ItemHQ,17928,0)/>」を製作し、エラリグ墓地前の「グレインファル」に納品しよう。
+0,"TEXT_CLSALC650_02438_SEQ_00","Severian of the Alchemists' Guild has news he wishes to share with you."
+1,"TEXT_CLSALC650_02438_SEQ_01","Severian was able to meet with Mumuepo and obtain information from him about the enchanted blade, Heartstrike. Go and speak with Eadgytha at Erralig's Burial Chamber and discover what you can of the relatives who survive the young lady interred there."
+2,"TEXT_CLSALC650_02438_SEQ_02","Eadgytha informs you that the deceased in the coffin you wish to examine is survived by none other than the Songstress of Ul'dah, F'lhaminn. Travel to Revenant's Toll in Mor Dhona to speak with her."
+3,"TEXT_CLSALC650_02438_SEQ_03","F'lhaminn tells you of a coffin that contains the remains of her deceased lover, Niellefresne. Return to Erralig's Burial Chamber to speak with F'lhaminn once more and meet with an old friend of hers."
+4,"TEXT_CLSALC650_02438_SEQ_04","Together with Greinfarr, an old friend of F'lhaminn's, you are to set out to find the enchanted blade, Heartstrike. First leave Erralig's Burial Chamber and speak with Greinfarr to begin your search."
+5,"TEXT_CLSALC650_02438_SEQ_05","Greinfarr has advised you to prepare a token of good intentions to coax the truth out of Mumuepo. Return to the Alchemists' Guild and speak with Severian."
+6,"TEXT_CLSALC650_02438_SEQ_06","Severian tells you that since his prior meeting with Mumuepo, he has been preparing a concoction to loosen the tongue of the thaumaturge. Use the set of juice ingredients you have obtained to synthesize a bottle of high-quality twice-fermented Mun-Tuy juice, and then deliver it to Greinfarr at Erralig's Burial Chamber.
 
-※「<Sheet(Item,17927,0)/>」を失った場合は、セヴェリアンに話しかけましょう。材料を入手し、再挑戦が可能になります。"
-7,"TEXT_CLSALC650_02438_SEQ_07","グレインファルに<Sheet(ItemHQ,17928,0)/>を渡した。グレインファルの報告を待とう。
+※In the event you lose the ingredients or the synthesis ends in failure, you may try again by speaking with Severian."
+7,"TEXT_CLSALC650_02438_SEQ_07","You have delivered the bottle of high-quality twice-fermented Mun-Tuy juice to Greinfarr. All that remains is to wait to hear back from him.
 
-※錬金術師のレベルが68以上になると、エラリグ墓地前のグレインファルから次の錬金術師クエストを受注することができます。"
+※The next alchemist quest will be available from Greinfarr in front of Erralig's Burial Chamber upon reaching level 68."
 8,"TEXT_CLSALC650_02438_SEQ_08",""
 9,"TEXT_CLSALC650_02438_SEQ_09",""
 10,"TEXT_CLSALC650_02438_SEQ_10",""
@@ -29,12 +29,12 @@ int32,str,str
 21,"TEXT_CLSALC650_02438_SEQ_21",""
 22,"TEXT_CLSALC650_02438_SEQ_22",""
 23,"TEXT_CLSALC650_02438_SEQ_23",""
-24,"TEXT_CLSALC650_02438_TODO_00","エラリグ墓地のイードギサと話す"
-25,"TEXT_CLSALC650_02438_TODO_01","レヴナンツトールのフ・ラミンと話す"
-26,"TEXT_CLSALC650_02438_TODO_02","エラリグ墓地のフ・ラミンと話す"
-27,"TEXT_CLSALC650_02438_TODO_03","グレインファルと話す"
-28,"TEXT_CLSALC650_02438_TODO_04","錬金術師ギルドのセヴェリアンと話す"
-29,"TEXT_CLSALC650_02438_TODO_05","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>製作手帳 クラスクエスト：<Sheet(ItemHQ,17928,0)/>を製作<Else/>エラリグ墓地前のグレインファルに<Sheet(ItemHQ,17928,0)/>を納品</If>"
+24,"TEXT_CLSALC650_02438_TODO_00","Speak with Eadgytha at Erralig's Burial Chamber."
+25,"TEXT_CLSALC650_02438_TODO_01","Speak with F'lhaminn at Revenant's Toll."
+26,"TEXT_CLSALC650_02438_TODO_02","Speak with F'lhaminn in Ul'dah."
+27,"TEXT_CLSALC650_02438_TODO_03","Speak with Greinfarr."
+28,"TEXT_CLSALC650_02438_TODO_04","Speak with Severian."
+29,"TEXT_CLSALC650_02438_TODO_05","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Synthesize a bottle of twice-fermented Mun-Tuy juice <Sheet(Addon,9,0)/><Else/>Deliver the bottle of twice-fermented Mun-Tuy juice <Sheet(Addon,9,0)/> to Greinfarr at Erralig's Burial Chamber</If>."
 30,"TEXT_CLSALC650_02438_TODO_06",""
 31,"TEXT_CLSALC650_02438_TODO_07",""
 32,"TEXT_CLSALC650_02438_TODO_08",""
@@ -53,192 +53,74 @@ int32,str,str
 45,"TEXT_CLSALC650_02438_TODO_21",""
 46,"TEXT_CLSALC650_02438_TODO_22",""
 47,"TEXT_CLSALC650_02438_TODO_23",""
-48,"TEXT_CLSALC650_02438_SEVERIAN_000_001","……うむ、助手か。
-あの後、ムムエポに面会を試みたのだが……
-「心の臓の刃」について聞き出すことはできなかった。"
-49,"TEXT_CLSALC650_02438_SEVERIAN_000_002","ただでさえ、大罪を犯して収監されている身だ。
-死者の蘇生などという禁忌を犯した余罪が明らかになれば、
-刑期が延びることは必至……それを危惧するのは当然といえる。"
-50,"TEXT_CLSALC650_02438_SEVERIAN_000_003","棺を調べる許可だけでも、と思ったが……それも叶わなかった。
-だが、死体を調べる方法がほかにないわけではない。
-所有者以外にも、棺を開けることが許されている存在はいる。"
-51,"TEXT_CLSALC650_02438_SEVERIAN_000_004","それは、死体の親族や恋人……つまり、遺族だ。
-当事者の立ち会いの下でなら、墓守も何も言うまい。
-お前は気が進まないかもしれないが……致し方ないのだ。"
-52,"TEXT_CLSALC650_02438_SEVERIAN_000_005","……よし、助手よ。
-エラリグ墓地へと向かい、墓守の「イードギサ」から、
-棺に眠る人物の遺族について聞き出してくるのだ。"
-53,"TEXT_CLSALC650_02438_EADGYTHA_000_010","なんだ、また来たのか。
-立ち去れと申したはずだが？"
-54,"TEXT_CLSALC650_02438_EADGYTHA_000_011","……なに？
-錬金術師ギルドのセヴェリアンからの使いで、
-遺体の遺族について聞きに来たと？"
-55,"TEXT_CLSALC650_02438_EADGYTHA_000_012","……ふうむ。
-錬金術師には、遺体の保存方法について相談する間柄だ。
-それぐらいなら話してもよかろう。"
-56,"TEXT_CLSALC650_02438_EADGYTHA_000_013","棺に納められている者の遺族は、
-かつてウルダハで名を馳せていた歌姫「フ・ラミン」さ。
-ここ最近はレヴナンツトールに居を移したようだが。"
-57,"TEXT_CLSALC650_02438_EADGYTHA_000_014","もし、彼女を連れて来ることができれば、
-遺族の許可の下、棺に触れることを許そうではないか。
-そういう決まりなのでな。"
-58,"TEXT_CLSALC650_02438_SEVERIAN_000_015","我がギルドは、墓守からの依頼を受けて、
-死体保存のための薬品などを提供している。
-私の名前を出せば、あの老婆も少しはおしゃべりになるはずだ。"
-59,"TEXT_CLSALC650_02438_FLHAMINN_000_020","あら、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん。
-どうかしたの？"
-60,"TEXT_CLSALC650_02438_FLHAMINN_000_021","エラリグ墓地に埋葬された遺体について、
-教えてほしい……ですって？"
-61,"TEXT_CLSALC650_02438_FLHAMINN_000_022","……そんなことを聞いてどうするの？
-あの棺に眠っている人は、私にとって、とても大切な人。
-興味本位で聞いているのなら、遠慮してほしいのだけど。"
-62,"TEXT_CLSALC650_02438_FLHAMINN_000_023","ウルダハで、まるで生きているような不可解な遺体が……。
-その事件と彼……いえ、あの棺に眠っている人とが、
-関係あるのではないかと考えているのね？"
-63,"TEXT_CLSALC650_02438_FLHAMINN_000_024","「心の臓の刃」という呪具を使った、死者の蘇生実験……
-もしそれが本当なのだとすれば…………。"
-64,"TEXT_CLSALC650_02438_FLHAMINN_000_025","……わかったわ。
-あの棺に眠る人物について、話しましょう。"
-65,"TEXT_CLSALC650_02438_FLHAMINN_000_026","彼の名は、ニエルフレーヌ……私の恋人よ……。
-第七霊災が起こる直前に、何者かに殺されてしまったの。"
-66,"TEXT_CLSALC650_02438_FLHAMINN_000_027","それも、ただ殺されたのではない……。
-まるで時間が止まってしまったみたいに、自然の摂理から外れ、
-腐敗することなく、彼は今も変わらぬ姿で眠り続けているわ……。"
-67,"TEXT_CLSALC650_02438_FLHAMINN_000_028","ニエルフレーヌを失った当時、私は悲しみに暮れるあまり、
-不可解な現象を、いつか目覚める徴候だと信じていたの。
-そうしなければ、自分を保つことができなかった……。"
-68,"TEXT_CLSALC650_02438_FLHAMINN_000_029","だけど、アシリア……ミンフィリアのことを育てながら、
-日々を暮らすうちに、少しずつだけど受け入れていったわ。
-もう彼が二度と私の下に帰ってくることはないという事実を……。"
-69,"TEXT_CLSALC650_02438_FLHAMINN_000_030","今は、彼の魂がザル神の御許で安らげるよう願い、
-状況を打破する方法を探しているのだけれどね……。
-何の手がかりも得られていないのが現状よ。"
-70,"TEXT_CLSALC650_02438_FLHAMINN_000_031","ニエルフレーヌと似た状態だという、その女性の遺体……
-これに「心の臓の刃」という呪具が関連しているかもしれない。
-あなたは、そう考えているのね？"
-71,"TEXT_CLSALC650_02438_FLHAMINN_000_032","それなら、私も協力するわ。
-一緒に「心の臓の刃」を見つけましょう。"
-72,"TEXT_CLSALC650_02438_FLHAMINN_000_033","とはいえ、過去の事件を私たちふたりで追うのは……
-……そうだわ、あの人に連絡すれば……！"
-73,"TEXT_CLSALC650_02438_FLHAMINN_000_034","頼りになる旧友に、助力をお願いしたの。
-「エラリグ墓地」へと来るよう伝えたから、一緒に来てくれる？
-あなたにも、ニエルフレーヌを紹介したいしね……。"
-74,"TEXT_CLSALC650_02438_EADGYTHA_000_040","棺に納められている者の遺族は、
-かつてウルダハで名を馳せていた歌姫「フ・ラミン」さ。
-ここ最近はレヴナンツトールに居を移したようだが。"
-75,"TEXT_CLSALC650_02438_FLHAMINN_000_050","どうやら、旧友はまだ到着していないみたいね。
-彼が来る前に、ニエルフレーヌを紹介させてもらうわ。
-さあ、棺を開けてみましょう。"
-76,"TEXT_CLSALC650_02438_SYSTEM_000_051","古い棺の中をのぞき込むと、
-美しい顔立ちをしたエレゼン族の男性が、
-まるで眠っているかのように安らかな顔で横たわっている。"
-77,"TEXT_CLSALC650_02438_SYSTEM_000_052","呼吸も脈も感じられず、完全に死を迎えているようだが、
-どこか、今にも動き出しそうな奇妙な違和感を感じる……。
-ウルダハの都市外で見つかった遺体と、よく似た現象のようだ。"
-78,"TEXT_CLSALC650_02438_GREINFARR_000_053","(-？？？？-)久しぶりに連絡をよこしたと思ったら、
-まさかここに呼び出されるとはな……ラミン。"
-79,"TEXT_CLSALC650_02438_FLHAMINN_000_054","あなたに会うのも、久しぶりね。
-今はブロンズ・ブル……と呼んだほうがいいかしら？"
-80,"TEXT_CLSALC650_02438_GREINFARR_000_055","よしてくれ。
-昔みたいに、グレインファルでいいさ。"
-81,"TEXT_CLSALC650_02438_FLHAMINN_000_056","彼の名はグレインファル。
-私やニエルフレーヌの古い友人なの。"
-82,"TEXT_CLSALC650_02438_GREINFARR_000_057","おお、あんたは……俺っちに剣を作ってくれた冒険者じゃないか！
-その節は世話になったな……あの剣は、今でも大事に使ってるぜ。
-それで、どうしてここに？"
-83,"TEXT_CLSALC650_02438_GREINFARR_000_058","あんたは……手練れの獄門剣闘士たちを相手に、
-見事な立ち回りを見せた、あの冒険者か！？
-どうしてここに？"
-84,"TEXT_CLSALC650_02438_GREINFARR_000_059","あんたは……見たところ冒険者か？
-ラミンと知り合いのようだが……どうしてここに？"
-85,"TEXT_CLSALC650_02438_FLHAMINN_000_060","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さんは、
-私たちの頼りになる味方よ。
-ニエルフレーヌを救うための……ね。"
-86,"TEXT_CLSALC650_02438_FLHAMINN_000_061","……私ね、気づいたんだ。
-このままずっと彼の死に囚われていたら、
-私たちはいつまでも前に進むことができない、って。"
-87,"TEXT_CLSALC650_02438_GREINFARR_000_062","……ニエルフレーヌが殺されたとき、
-俺っちは奴の死から目をそらし、
-仲間の前から姿を消すことを選んだ。"
-88,"TEXT_CLSALC650_02438_GREINFARR_000_063","それからずっと、俺っちは自分を信じることができなかった。
-だから今度こそ……自分にやれることをしたい……
-……いいぜ、ニエルフレーヌを救おう。"
-89,"TEXT_CLSALC650_02438_FLHAMINN_000_064","ありがとう……。
-そう言ってくれると信じていたわ。"
-90,"TEXT_CLSALC650_02438_FLHAMINN_000_065","それじゃ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん、
-グレインファルにも、例の事件を含めて説明してくれないかしら？
-「心の臓の刃」についてもね……。"
-91,"TEXT_CLSALC650_02438_GREINFARR_000_066","ニエルフレーヌのように、朽ちない遺体が見つかったって！？
-馬鹿な……「心の臓の刃」は魔力を失い、使い物にならないはずだ！
-俺っちが5年前にロロリト邸から盗み出したときには、すでに……！"
-92,"TEXT_CLSALC650_02438_FLHAMINN_000_067","ちょっと待って、盗み出したって……！？
-もしかして、ニエルフレーヌがこんな状態になったのは、
-あなたが「心の臓の刃」を使ったからなの？"
-93,"TEXT_CLSALC650_02438_GREINFARR_000_068","いや、事態はもう少し複雑だ。
-俺っちは、変わり果てたニエルフレーヌの姿を見て、
-噂の「心の臓の刃」が使われたと疑いを抱いたんだ……。"
-94,"TEXT_CLSALC650_02438_GREINFARR_000_069","そこで、俺っちは「心の臓の刃」をもう一度使えば、
-ニエルフレーヌの魂を解放できるんじゃないかと考えてな。
-「刃」の持ち主だったロロリトの邸宅に忍び込み、盗んだんだ。"
-95,"TEXT_CLSALC650_02438_FLHAMINN_000_070","でも、盗み出した「心の臓の刃」は、すでに魔力を失っていて、
-ニエルフレーヌを助けることもできなかったと……。"
-96,"TEXT_CLSALC650_02438_GREINFARR_000_071","そうだ……。
-使い物にならなかった「心の臓の刃」は、
-スートクリークに棄てちまったんだが……。"
-97,"TEXT_CLSALC650_02438_GREINFARR_000_072","ともかく、ムムエポが禁忌の「死者の蘇生」を研究していたのなら、
-ニエルフレーヌを救う方法を、聞き出すことができるかもな。
-問題は、あの酔狂人が素直に真実を話すかどうかだが……。"
-98,"TEXT_CLSALC650_02438_GREINFARR_000_073","ひとまず旧友のツテを使って、俺っちも面会を申し入れてみよう。
-冒険者……あんたにも頼みたいことがある。
-墓地の外で、少し話せるか？"
-99,"TEXT_CLSALC650_02438_FLHAMINN_000_074","「エラリグ墓地」で、旧友と落ち合いましょう。
-ニエルフレーヌをあなたに紹介したいしね。"
-100,"TEXT_CLSALC650_02438_EADGYTHA_000_075","遺族を連れてきたのならば、言うことはない。
-好きなだけ調べるがよい。
-だが、死者を貶めるような真似はするんじゃないよ。"
-101,"TEXT_CLSALC650_02438_GREINFARR_000_080","ムムエポとの面会が成功したとて、
-ヤツから真相を聞き出すのは至難の業だろう。
-そこで、あんたに相談がある。"
-102,"TEXT_CLSALC650_02438_GREINFARR_000_081","錬金術師ギルドを率いる「セヴェリアン」に、
-どんな頑固者でも、素直にペラペラと話したくなるような、
-「差し入れ」を作ってもらいたいんだ。"
-103,"TEXT_CLSALC650_02438_GREINFARR_000_082","こんなやり方、ラミンの前では話せないからな。
-すまんが、頼んだぞ。"
-104,"TEXT_CLSALC650_02438_FLHAMINN_000_085","グレインファルが協力してくれてよかった。
-ニエルフレーヌの死後、彼は抜け殻のようになっていたから……。"
-105,"TEXT_CLSALC650_02438_SEVERIAN_000_090","ほう、かの有名な彫金師、ニエルフレーヌの身にも、
-件の朽ちない死体と同様の現象が起こっていただと？
-そして、両者を繋ぐ「心の臓の刃」の存在か……。"
-106,"TEXT_CLSALC650_02438_SEVERIAN_000_091","それにしても、ムムエポの口を割らせるために、
-「差し入れ」がほしいとは……ククク、よからぬことを考えおって。
-グレインファル、なかなかに面白い男ではないか……。"
-107,"TEXT_CLSALC650_02438_SEVERIAN_000_092","実は私自身も、同じことを考えていてな。
-ムムエポの舌が滑らかになる薬を、すでに作っていたのだ。
-だが、妖しげな薬を渡されて飲むほど、ムムエポは愚かではない。"
-108,"TEXT_CLSALC650_02438_SEVERIAN_000_093","奴の好物だという「ムントゥイジュース」と混ぜることで、
-警戒されることなく、飲ませることができるだろう。"
-109,"TEXT_CLSALC650_02438_SEVERIAN_100_093","では、試薬を受け取るがいい。
-これは我々一流の錬金術師にしか扱えない、危険な薬だ。
-注意して製作にあたるように。"
-110,"TEXT_CLSALC650_02438_SEVERIAN_000_094","さて……「グレインファル」は、エラリグ墓地で、
-「<Sheet(ItemHQ,17928,0)/>」を待っているのだろう？
-急ぎ届けてやるといい……何かわかったら私への報告も怠るなよ。"
-111,"TEXT_CLSALC650_02438_SEVERIAN_000_95","材料をなくしたから、もう一度くれ、だと……？
-私はお前の給仕係ではないんだぞ！
-……ふん、いいか、二度と同じ轍は踏まないと誓え！"
-112,"TEXT_CLSALC650_02438_SEVERIAN_000_96","うむ……上手くできたようだな。
-これならムムエポも疑わず口にするだろう。
-急ぎ「グレインファル」の下に届けてやるがいい。"
-113,"TEXT_CLSALC650_02438_GREINFARR_000_097","ムムエポの口を割ることは容易じゃない……。
-だから、あんたの協力が必要なんだ。
-よろしく頼んだぞ。"
-114,"TEXT_CLSALC650_02438_FLHAMINN_000_098","あなたたちに任せてばかりというのは……ね。
-私も情報を集めておくわ。
-ここには、顔なじみが多いから。"
-115,"TEXT_CLSALC650_02438_GREINFARR_000_100","ムムエポへの差し入れは用意できたか？"
-116,"TEXT_CLSALC650_02438_GREINFARR_000_101","おお、ありがとうよ！
-やっぱり、あんたに頼んで正解だったぜ。"
-117,"TEXT_CLSALC650_02438_GREINFARR_000_102","結果を報告できるまで、少し時間がかかると思う。
-それまでの間、ふたりはしばらく待っていてほしい。"
-118,"TEXT_CLSALC650_02438_SYSTEM_000_103","錬金術師として、真実を追い求めたことにより、
-「マニピュレーション」を修得しました！"
+48,"TEXT_CLSALC650_02438_SEVERIAN_000_001","Ah, my erudite extern. Welcome, welcome. I have been wanting to tell you, I did indeed meet and speak with Mumuepo. Alas, even for all my charm, I was unable to get the truth out of him with regards to Heartstrike."
+49,"TEXT_CLSALC650_02438_SEVERIAN_000_002","And rightly so. He is a gaoled man─imprisoned for crimes he is known to have committed. Should he confess to any further crimes, his sentence will only be extended. One can hardly fault him for his reticence."
+50,"TEXT_CLSALC650_02438_SEVERIAN_000_003","I hoped at the very least to acquire permission to investigate the coffin in his charge, yet I failed even in that. But we must not give ourselves to despair just yet. There are other ways to exhume the dead beyond the keeper of the burial rights."
+51,"TEXT_CLSALC650_02438_SEVERIAN_000_004","We must turn our efforts to those the deceased has left behind─relatives, a spouse. In their presence, the gravekeeper will have no pretense for preventing us to proceed. No doubt it may sound somewhat unagreeable to you, but I fear there is no other means at our disposal."
+52,"TEXT_CLSALC650_02438_SEVERIAN_000_005","What you must do now is clear─travel to Erralig's Burial Chamber and speak with Eadgytha. Learn what you can from her of whatever family survives our queer corpse."
+53,"TEXT_CLSALC650_02438_EADGYTHA_000_010","You again? I told you once before to leave, and I won't again."
+54,"TEXT_CLSALC650_02438_EADGYTHA_000_011","You come on behalf of the alchemist Severian? And you wish to know of the deceased's relatives?"
+55,"TEXT_CLSALC650_02438_EADGYTHA_000_012","Very well. We've had such requests from him before with regards to preservation of the dead. For such a noble deed, I'll not deny you the information you seek."
+56,"TEXT_CLSALC650_02438_EADGYTHA_000_013","The man at rest in the sarcophagus you speak of is survived by the great Songstress of Ul'dah in days past, F'lhaminn. I am told she can be found in Revenant's Toll."
+57,"TEXT_CLSALC650_02438_EADGYTHA_000_014","If you are able to convince her to come here with you, protocol will permit me to give you leave to examine the dead in her care."
+58,"TEXT_CLSALC650_02438_SEVERIAN_000_015","Our guild often provides the burial chamber with embalming fluids and myriad other solvents at the request of the gravekeeper. If you mention my name to Eadgytha, it may well serve to loosen the old bat's lips."
+59,"TEXT_CLSALC650_02438_FLHAMINN_000_020","Why, hello there, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Whatever brings you to these parts?"
+60,"TEXT_CLSALC650_02438_FLHAMINN_000_021","Erralig's Burial Chamber? You wish to know of the body interred there in my charge?"
+61,"TEXT_CLSALC650_02438_FLHAMINN_000_022","And what could you possibly mean to do with such knowledge? The body at rest there is someone very special to me. If this is simply a matter of satisfying your curiosity, I'm afraid I must refuse."
+62,"TEXT_CLSALC650_02438_FLHAMINN_000_023","So, you have a discovered a corpse that seems to be yet alive. I do not understand what that has to do with my Ni─with the deceased in my care. Surely you do not think there some connection between the two?"
+63,"TEXT_CLSALC650_02438_FLHAMINN_000_024","Heartstrike, you say? A blade imbued with the power to resurrect the dead? And you suspect a thaumaturge of conducting such experiments? If that were to be true, then..."
+64,"TEXT_CLSALC650_02438_FLHAMINN_000_025","Very well. I will tell you of the one laid to rest in my keep."
+65,"TEXT_CLSALC650_02438_FLHAMINN_000_026","It is my love, my dearest Nielle. He was murdered, just before the coming of the Calamity."
+66,"TEXT_CLSALC650_02438_FLHAMINN_000_027","But there is more. Once dead, it was as if time itself stopped. As if the natural laws were suspended just for him. His body did not, does not, deteriorate. Even now he appears as the day he died."
+67,"TEXT_CLSALC650_02438_FLHAMINN_000_028","The grief of losing my Nielle was more than I could bear. I surrendered myself to the belief that some strange affliction had taken him, but that someday he would waken from it and return to me. Without that to carry me, I myself could not have survived."
+68,"TEXT_CLSALC650_02438_FLHAMINN_000_029","But as I spent my days raising Ascilia, I slowly came to live with the realization that he was dead─and that never would he return to me."
+69,"TEXT_CLSALC650_02438_FLHAMINN_000_030","And now the belief I cling to is that his soul is at peace at Thal's side. Even so, I search tirelessly for some way to make sense of what is happening to my Nielle, but I have found nothing to lead me to an answer."
+70,"TEXT_CLSALC650_02438_FLHAMINN_000_031","You say you have found a young lady whose remains exhibit the same strangeness as my love's. And that this blade, this Heartstrike, may well be responsible for it. That is what you are thinking, is it not?"
+71,"TEXT_CLSALC650_02438_FLHAMINN_000_032","Then I will help you where I can. Let us find this Heartstrike─together."
+72,"TEXT_CLSALC650_02438_FLHAMINN_000_033","But I am reminded now of what transpired the last time you and I worked together in such a way. Perhaps... Yes, I know just who to call upon for this!"
+73,"TEXT_CLSALC650_02438_FLHAMINN_000_034","An old friend of mine will lend his aid. I have asked him to meet with us at Erralig's Burial Chamber. Will you come? I should very much like to introduce you to my Nielle."
+74,"TEXT_CLSALC650_02438_EADGYTHA_000_040","The man at rest in the sarcophagus you speak of is survived by the great Songstress of Ul'dah in days past, F'lhaminn. I am told she can be found in Revenant's Toll."
+75,"TEXT_CLSALC650_02438_FLHAMINN_000_050","It looks as though my old friend has yet to arrive. Come, let us meet Nielle while we wait. It is time to open his coffin."
+76,"TEXT_CLSALC650_02438_SYSTEM_000_051","Inside the old coffin lies a perfectly preserved Elezen male. His beautiful, peaceful visage suggests a state of slumber rather than death."
+77,"TEXT_CLSALC650_02438_SYSTEM_000_052","The absence of a pulse and breath suggest the absence of life, but it feels as though the corpse could awaken at any moment. It is the same phenomenon displayed by the remains of the young lady."
+78,"TEXT_CLSALC650_02438_GREINFARR_000_053","(-???-)Well, I'd not expected to be called here of all places. It's been a long time, Lhaminn."
+79,"TEXT_CLSALC650_02438_FLHAMINN_000_054","Indeed it has. I wonder, should I still call you the Bronze Bull?"
+80,"TEXT_CLSALC650_02438_GREINFARR_000_055","Don't start with that. It's Greinfarr, just like it always was."
+81,"TEXT_CLSALC650_02438_FLHAMINN_000_056","Greinfarr is an old friend─to both Nielle and myself."
+82,"TEXT_CLSALC650_02438_GREINFARR_000_057","Hoho, I know this adventurer! The one what forged me a sword. You've my thanks for that, still. I cherish it to this very day. Tell me, then, for what are we here?"
+83,"TEXT_CLSALC650_02438_GREINFARR_000_058","Hoho, I know this adventurer. The one what made short work of those gladiators. Tell me, then, for what are we here?"
+84,"TEXT_CLSALC650_02438_GREINFARR_000_059","You... I know your face, adventurer. And it seems you know Lhaminn. Tell me, then, for what are we here?"
+85,"TEXT_CLSALC650_02438_FLHAMINN_000_060","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> is with us, Greinfarr, and <If(PlayerParameter(4))>she<Else/>he</If> is here to help─to save Nielle."
+86,"TEXT_CLSALC650_02438_FLHAMINN_000_061","I've come to realize that so long as we are unable to put his death behind us, we will never be able to move forward with our lives. "
+87,"TEXT_CLSALC650_02438_GREINFARR_000_062","There were choices I made when Niellefresne was killed. I chose not to dwell on his death. I chose to leave my friends and make myself scarce."
+88,"TEXT_CLSALC650_02438_GREINFARR_000_063","Ever since, I haven't been able to live with myself. So if there's aught I can do now, I'll do it. Let us give him, and ourselves, peace."
+89,"TEXT_CLSALC650_02438_FLHAMINN_000_064","Thank you, Greinfarr. Your words bring me great comfort."
+90,"TEXT_CLSALC650_02438_FLHAMINN_000_065","Then I turn now to you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Tell your tale to Greinfarr. Tell him of the corpses, the thaumaturge, Heartstrike─everything."
+91,"TEXT_CLSALC650_02438_GREINFARR_000_066","Another corpse that doesn't rot? It can't be. Heartstrike lost its power. It's useless, and has been ever since I stole it from Lord Lolorito some five years past!"
+92,"TEXT_CLSALC650_02438_FLHAMINN_000_067","<Emphasis>You</Emphasis>!? You mean to say you had it in your possession? Greinfarr, tell me now. Do you know who did this to Nielle!?"
+93,"TEXT_CLSALC650_02438_GREINFARR_000_068","If only. I saw how he was. Dead, but not. It wasn't natural. I'd heard of the blade and what it could do. I suspected it had been used on him."
+94,"TEXT_CLSALC650_02438_GREINFARR_000_069","So I thought if Heartstrike could be used to do this, perhaps it could be used to undo it. I meant to free his spirit from whatever gaol it's in. I learned the blade belonged to Lord Lolorito, and so I broke into his estate and stole it."
+95,"TEXT_CLSALC650_02438_FLHAMINN_000_070","But the Heartstrike you took was already void of power, if it ever had any at all. And so you weren't able to save Nielle with it."
+96,"TEXT_CLSALC650_02438_GREINFARR_000_071","Right. After that, I threw the blade into Soot Creek to be done with it."
+97,"TEXT_CLSALC650_02438_GREINFARR_000_072","But this changes things. If Mumuepo dealt in these darkest of arts, might be he knows a way to save Nielle. Problem is, that crazed mummer's not like to speak any truths from his cell."
+98,"TEXT_CLSALC650_02438_GREINFARR_000_073","I'll meet with him myself. I've some old friends of my own what may be able to arrange it. And you, adventurer─I'll have a word outside with you. "
+99,"TEXT_CLSALC650_02438_FLHAMINN_000_074","Let us await my old friend within Erralig's Burial Chamber. I should very much like to introduce you to my Nielle."
+100,"TEXT_CLSALC650_02438_EADGYTHA_000_075","If the widow of the dead man you seek to examine walks with you, and you have her blessing, then his coffin is yours to open. But I warn you─do nothing to dishonor the dead here, or you'll answer to me."
+101,"TEXT_CLSALC650_02438_GREINFARR_000_080","To meet with Mumuepo may prove simple enough, but having the truth from him will not. That is where I ask your aid."
+102,"TEXT_CLSALC650_02438_GREINFARR_000_081","I need you to speak with the alchemist Severian. Find out what tonics or potions he can muster to loose the lips of our Lalafell. I mean to present it under the guise of good intentions."
+103,"TEXT_CLSALC650_02438_GREINFARR_000_082","Forgive me. This is the way, but I did not wish to speak of it to F'lhaminn. Now go, and may the gods go with you."
+104,"TEXT_CLSALC650_02438_FLHAMINN_000_085","I am so happy Greinfarr agreed to help us. After Nielle died, he grew so...withdrawn. He has been a shadow of his former self."
+105,"TEXT_CLSALC650_02438_SEVERIAN_000_090","So, the remains of the famed goldsmith Niellefresne suffer the same twisted fate as that of our young lady? And you believe the blade Heartstrike to be the common thread that weaves this tapestry together? Most intriguing!"
+106,"TEXT_CLSALC650_02438_SEVERIAN_000_091","And now Greinfarr asks for a gift for Mumuepo, does he? A concoction to turn the Lalafell's tongue to talking. Such deviousness! I daresay I like the way our Greinfarr thinks."
+107,"TEXT_CLSALC650_02438_SEVERIAN_000_092","As it just so happens, I was considering a similar tactic myself. Indeed, I have already begun preparation of the ingredients needed. Yet a dilemma lies before us. Namely this─Mumuepo is not fool enough to simply imbibe some unknown tonic presented him by a random caller."
+108,"TEXT_CLSALC650_02438_SEVERIAN_000_093","But as can be expected, I have the solution. It has come to my knowledge that Mumuepo has an unslakable thirst for Mun-Tuy juice. And it just so happens that exposing said juice to the fermentation process twice over yields a natural truth serum─one our unsuspecting Lalafell is like to quaff heartily and without heed."
+109,"TEXT_CLSALC650_02438_SEVERIAN_100_093","Here, then. Take these reagents. But mind your hand. They may appear to be no more than mere juice ingredients, but within them lies the potential for great chemical catastrophe."
+110,"TEXT_CLSALC650_02438_SEVERIAN_000_094","Why do you tarry here? Greinfarr awaits the twice-fermented Mun-Tuy juice at Erralig's Burial Chamber, does he not? See it to him with all haste. And should you discover aught else, bring word to me forthwith!"
+111,"TEXT_CLSALC650_02438_SEVERIAN_000_95","You require another batch of ingredients? Good gods, <If(PlayerParameter(4))>woman<Else/>man</If>, what do you take me for? Some alchemist-in-waiting here to fulfill the pathetic demands born of the failures by your amateur hands? Bah! Here, but do not dare to ask again."
+112,"TEXT_CLSALC650_02438_SEVERIAN_000_96","Yes, yes, this will do nicely. Color, aroma, taste─all are such that no lover of Mun-Tuy juice could resist. If Mumuepo is to accept any drink at all, it will be this. Hurry, you must deliver it to Greinfarr. There is no time to waste!"
+113,"TEXT_CLSALC650_02438_GREINFARR_000_097","It will not be easy to have the truth from Mumuepo's mouth. That is where I need your help. Go, do as I have asked."
+114,"TEXT_CLSALC650_02438_FLHAMINN_000_098","I cannot abide to stand here and do nothing while you and Greinfarr toil so. I will gather whatever other knowledge I can of these matters. There are many here I know who will speak freely with me."
+115,"TEXT_CLSALC650_02438_GREINFARR_000_100","Were you able to mix us a gift for Mumuepo?"
+116,"TEXT_CLSALC650_02438_GREINFARR_000_101","Hoho! A job well done, my friend. I knew I was in the right to ask this of you."
+117,"TEXT_CLSALC650_02438_GREINFARR_000_102","I need time to see the deed done. You and F'lhaminn will have to wait."
+118,"TEXT_CLSALC650_02438_SYSTEM_000_103","In probing fundamental reality as an alchemist, you have learned “Manipulation”!"

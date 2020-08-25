@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANSAH202_01391_SEQ_00","ノォヴの育成地のホォウは、「珊瑚の銛」の戦力を削ぎたいようだ。"
-1,"TEXT_BANSAH202_01391_SEQ_01","ホォウから、「珊瑚の銛」が飼育するエルブストを討伐してほしいと依頼された。サプサ産卵地にいる「<Sheet(BNpcName,2527,0)/>」を2体討伐し、おびき寄せた「<Sheet(BNpcName,2727,0)/>」を「<Sheet(EventItem,2001271,0)/>」を使って討伐しよう。"
-2,"TEXT_BANSAH202_01391_SEQ_02","<Sheet(BNpcName,2527,0)/>と<Sheet(BNpcName,2727,0)/>を討伐した。ノォヴの育成地の「ホォウ」に報告しよう。"
-3,"TEXT_BANSAH202_01391_SEQ_03","ホォウに、産卵地のエルブストを討伐したと報告した。サハギン族にとって重要な軍用獣であるエルブストを討つことで、「珊瑚の銛」の戦力を削げただろうと、ホォウは喜んでいた。戦力を更に削ぐため、またの機会にも協力しよう。"
+0,"TEXT_BANSAH202_01391_SEQ_00","It seems the Sapsa Spawning Grounds are producing more than baby Sahagin, and Houu requests a little groundskeeping."
+1,"TEXT_BANSAH202_01391_SEQ_01","The Coral Tridents have established a breeding program for elbst, but there is only one stud animal. Instinct being what it is, anyone slaying a couple of young Sapsa elbst should find <If(PlayerParameter(4))>herself<Else/>himself</If> in the company of the irate sire. With this knowledge in the back of your mind, proceed into Trident territory and start dispatching elbst. When the sire arrives, use the milky vitriol given to you against the steely skinned creature and lay it low."
+2,"TEXT_BANSAH202_01391_SEQ_02","You have made a burial ground of Sapsa today, with both the sire and the young dead by your hands. Console yourself that the sea and the shore are safer for it, and report your success to Houu."
+3,"TEXT_BANSAH202_01391_SEQ_03","Houu has no doubt that your actions have saved lives─certainly in Novv's Nursery, and perhaps among the Tridents as well, though they seem to offer their lives willingly in the cause of ultimate ascendancy. Things are definitely not better under this sea, and there may be calls on your service again."
 4,"TEXT_BANSAH202_01391_SEQ_04",""
 5,"TEXT_BANSAH202_01391_SEQ_05",""
 6,"TEXT_BANSAH202_01391_SEQ_06",""
@@ -25,9 +25,8 @@ int32,str,str
 21,"TEXT_BANSAH202_01391_SEQ_21",""
 22,"TEXT_BANSAH202_01391_SEQ_22",""
 23,"TEXT_BANSAH202_01391_SEQ_23",""
-24,"TEXT_BANSAH202_01391_TODO_00","サプサ産卵地の<Sheet(BNpcName,2527,0)/>を2体討伐し
-おびき寄せた<Sheet(BNpcName,2727,0)/>を<Sheet(EventItem,2001271,0)/>を使って討伐"
-25,"TEXT_BANSAH202_01391_TODO_01","ホォウに報告"
+24,"TEXT_BANSAH202_01391_TODO_00","Dispatch two Sapsa elbst, use milky vitriol on the big flipper when it appears, then slay it."
+25,"TEXT_BANSAH202_01391_TODO_01","Report to Houu."
 26,"TEXT_BANSAH202_01391_TODO_02",""
 27,"TEXT_BANSAH202_01391_TODO_03",""
 28,"TEXT_BANSAH202_01391_TODO_04",""
@@ -50,26 +49,13 @@ int32,str,str
 45,"TEXT_BANSAH202_01391_TODO_21",""
 46,"TEXT_BANSAH202_01391_TODO_22",""
 47,"TEXT_BANSAH202_01391_TODO_23",""
-48,"TEXT_BANSAH202_01391_HOUU_000_000","フスィーッ……「珊瑚の銛」の力を削ぎたい……。
-奴らの軍用獣……エルブストを討伐するのだ……。"
-49,"TEXT_BANSAH202_01391_HOUU_000_001","まずは……サプサ産卵地に放してある、
-若く活きのいい「<Sheet(BNpcName,2527,0)/>」を討伐してこい……。"
-50,"TEXT_BANSAH202_01391_HOUU_000_002","フスィーッ……さすれば、そいつらの親……
-「<Sheet(BNpcName,2727,0)/>」が怒り狂い、現れるはずだ……。
-そいつこそが繁殖用……真の狙い目……フスィーッ。"
-51,"TEXT_BANSAH202_01391_HOUU_000_003","しかし、老成したエルブストの皮膚は硬い……
-この「<Sheet(EventItem,2001271,0)/>」を、「<Sheet(BNpcName,2727,0)/>」に使え。
-攻撃が、より効くはずだ……フスィーッ……。"
-52,"TEXT_BANSAH202_01391_HOUU_000_010","フスィーッ……まずは「サプサ産卵地」に放してある、
-若い「<Sheet(BNpcName,2527,0)/>」を討伐してこい……。"
-53,"TEXT_BANSAH202_01391_HOUU_000_011","そうすると現れる「<Sheet(BNpcName,2727,0)/>」を……
-「<Sheet(EventItem,2001271,0)/>」を使って……討伐してくれ……。
-フスィーッ……頼むぞ……。"
-54,"TEXT_BANSAH202_01391_HOUU_000_020","フスィーッ……エルブストを討ってくれたか……。
-これで「珊瑚の銛」の戦力は落ちる……。"
-55,"TEXT_BANSAH202_01391_HOUU_000_021","エルブストは、我らにとって重要な獣……。
-フスィーッ、奴ら……きっと困るだろう……。"
-56,"TEXT_BANSAH202_01391_HOUU_000_022","フスィーッ……。
-サハギン族が困ると、ヒレナシも嬉しいのだろ……？
-なら……お互い、よかったな……。"
-57,"TEXT_BANSAH202_01391_POPMESSAGE_000_000","<Sheet(BNpcName,2727,0)/>が姿を現した！"
+48,"TEXT_BANSAH202_01391_HOUU_000_000","We cannot shhhwallow whole the Coral Tridents, but we can nibble at that which makes them shhhtrong. Many creatures they use for their fell purpose, among them elbst. Shhhorewalker, might you aid ushhh in removing thishhh threat?"
+49,"TEXT_BANSAH202_01391_HOUU_000_001","There are in the Shhhapsa Shhhpawning Grounds elbst young and frisky. They will not be easy to shhhlay, but shhhlay them you must..."
+50,"TEXT_BANSAH202_01391_HOUU_000_002","Doing so will bring down the wrath of their shhhire, the big flipper. This is the shhhtud for the Tridents' elbst stable, and with it gone, the breeding will shhhtop."
+51,"TEXT_BANSAH202_01391_HOUU_000_003","Take this milky vitriol and use it on the big flipper. Even your shhhorewalker arms are no match for the hide of a mature elbst... The shhhea forgives only the shhhoftest and the hardest. Pshhh..."
+52,"TEXT_BANSAH202_01391_HOUU_000_010","First, shhhtrike at the young Shhhapsa elbst in the shhhpawning grounds."
+53,"TEXT_BANSAH202_01391_HOUU_000_011","The big flipper will rushhh to their defense. This milky vitriol you shall use to shhhlay him and end the Tridents' breeding stable."
+54,"TEXT_BANSAH202_01391_HOUU_000_020","Pshhh... You have done well to dispatch the elbst. A nibble there, a nibble here... It keeps us shhhafe from the Tridents' warring ways."
+55,"TEXT_BANSAH202_01391_HOUU_000_021","They had but one shhhtud, procured at great cost, or so the waves tell me. There will be no elbst hatchlings for a while. Pshhh..."
+56,"TEXT_BANSAH202_01391_HOUU_000_022","You shhhorewalkers have no elbst; you have grounded gulls instead. Shhhtrange it shhheems to ride a gull that cannot even fly, but the clutchfather teaches us that there are as many ways as there are grains of shhhand."
+57,"TEXT_BANSAH202_01391_POPMESSAGE_000_000","The big flipper demands satisfaction!"

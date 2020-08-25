@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBFST023_00098_SEQ_00","ハーストミルの主婦アメッタは、料理の味付けに使うコチューの若葉を必要としているようだ。"
-1,"TEXT_SUBFST023_00098_SEQ_01","ムントゥイ豆乳の味付けに使うコチューの若葉が足りないらしい。ハーストミル付近にいる「コチュー」を倒し、「コチューの若葉」を4枚集めよう。"
-2,"TEXT_SUBFST023_00098_SEQ_02","コチューの若葉を集め終えた。急ぎ、ハーストミルで待つ「アメッタ」に届けよう。"
-3,"TEXT_SUBFST023_00098_SEQ_03","すべては森からの頂きものだからこそ、必要なものを必要なだけ、必要なときに使うのが大切だというアメッタ。その信条が、彼女の息子にも受け継がれるといいのだが……。"
+0,"TEXT_SUBFST023_00098_SEQ_00","Dametta needs someone to gather microchu leaflets for her cooking."
+1,"TEXT_SUBFST023_00098_SEQ_01","Dametta of Hyrstmill is making a batch of Mun–Tuy tonic, a nutritious but notoriously foul-tasting drink. If she could get her hands on some microchu leaflets to flavor the concoction, however, she could render it palatable for normal folk. Slay the microchus surrounding Hyrstmill and gather four leaflets from their remains."
+2,"TEXT_SUBFST023_00098_SEQ_02","You've gathered four microchu leaflets. Deliver them to Dametta posthaste, before she makes some hapless soul drink the unadulterated brew!"
+3,"TEXT_SUBFST023_00098_SEQ_03","To respect the forest and take only that which is needed, to lead a life without waste─such is the tenet by which Gridanians live. Dametta stresses the importance of this belief, before lamenting that her son has yet to take it to heart..."
 4,"TEXT_SUBFST023_00098_SEQ_04",""
 5,"TEXT_SUBFST023_00098_SEQ_05",""
 6,"TEXT_SUBFST023_00098_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_SUBFST023_00098_SEQ_21",""
 22,"TEXT_SUBFST023_00098_SEQ_22",""
 23,"TEXT_SUBFST023_00098_SEQ_23",""
-24,"TEXT_SUBFST023_00098_TODO_00","コチューからコチューの若葉を入手"
-25,"TEXT_SUBFST023_00098_TODO_01","アメッタにコチューの若葉を渡す"
+24,"TEXT_SUBFST023_00098_TODO_00","Slay microchus and gather leaflets from their remains."
+25,"TEXT_SUBFST023_00098_TODO_01","Deliver the microchu leaflets to Dametta."
 26,"TEXT_SUBFST023_00098_TODO_02",""
 27,"TEXT_SUBFST023_00098_TODO_03",""
 28,"TEXT_SUBFST023_00098_TODO_04",""
@@ -49,31 +49,15 @@ int32,str,str
 45,"TEXT_SUBFST023_00098_TODO_21",""
 46,"TEXT_SUBFST023_00098_TODO_22",""
 47,"TEXT_SUBFST023_00098_TODO_23",""
-48,"TEXT_SUBFST023_00098_DAMETTA_000_1","うーん、このムントゥイ豆の量だと、
-豆乳を作るには「コチューの若葉」が足りないねぇ……。"
-49,"TEXT_SUBFST023_00098_DAMETTA_000_2","ああ、あんた。
-近くに「コチュー」がいたのを見ただろう。
-「コチューの若葉」を4枚採ってきてくれないかい。"
-50,"TEXT_SUBFST023_00098_DAMETTA_000_3","今作ってる、ムントゥイ豆乳の香りつけに必要なのさ。
-このままじゃ青臭くって飲めやしないよ。"
-51,"TEXT_SUBFST023_00098_DAMETTA_000_4","さぁ、さっさと行ってちょうだいな。
-あんたがぐずぐずしてると、豆乳が煮立っちゃうだろう？"
-52,"TEXT_SUBFST023_00098_DAMETTA_000_10","あら、もうコチューの若葉を集めてきたのかい？"
-53,"TEXT_SUBFST023_00098_DAMETTA_000_11","ひい、ふう、みい……ぴったり4枚あるようだねぇ。
-うん、いい香りだ。"
-54,"TEXT_SUBFST023_00098_DAMETTA_000_12","生き物から頂く食材も、
-森が与えてくれたものだからねぇ。
-必要以上に取りすぎないことも、大事なのよ。"
-55,"TEXT_SUBFST023_00098_DAMETTA_000_13","だからこそ、無駄にしないように、
-必要な時、必要なだけの量を頂くのさ。"
-56,"TEXT_SUBFST023_00098_DAMETTA_000_14","あんたもね、ここにいる限り、
-森と精霊への感謝の気持ちを忘れちゃいけないよ。"
-57,"TEXT_SUBFST023_00098_DAMETTA_000_15","ああ、そうそう、森への感謝といえばねぇ…………
-この間……うちの子ったらムントゥイ豆を…………
-友達と……………………………………投げ…………"
-58,"TEXT_SUBFST023_00098_DAMETTA_000_16","まったく昨日も…………………………………………
-……………………その豆が……………………………
-それで…………うちの子も…………豆………………"
-59,"TEXT_SUBFST023_00098_DAMETTA_000_17","……………………………………………………………
-……………………………………………………………
-………………………………更に驚いたのが…………"
+48,"TEXT_SUBFST023_00098_DAMETTA_000_1","Oh dear... If I'm to make this much Mun–Tuy tonic, I'll need far more microchu leaflets..."
+49,"TEXT_SUBFST023_00098_DAMETTA_000_2","Young <If(PlayerParameter(4))>lady<Else/>man</If>, would you be so kind as to fetch me four leaflets from the microchus outside the hamlet?"
+50,"TEXT_SUBFST023_00098_DAMETTA_000_3","I'm whipping up a fresh batch of Mun–Tuy tonic, you see. Oh, it's a <Emphasis>lovely</Emphasis> drink, absolutely bursting with nutrients and goodness. I'll have you know I always drink at least one cup a day! Alas, few people share my <Emphasis>passion</Emphasis> for healthy living... Truth be told, most won't touch the stuff─not unless you add microchu leaflets, anyway. Apparently, the taste and the smell are too distracting or some such nonsense."
+51,"TEXT_SUBFST023_00098_DAMETTA_000_4","Oh, but listen to me prattling on like an Ishgardian priest! I shall stop talking and start stirring! Well, don't just stand there, dear─run along and fetch me those leaves! This batch will be ready soon, and it'd be <Emphasis>such</Emphasis> a shame if no one could drink it but me."
+52,"TEXT_SUBFST023_00098_DAMETTA_000_10","Ah, you're back! Did you manage to find the microchu leaflets I asked for?"
+53,"TEXT_SUBFST023_00098_DAMETTA_000_11","Let's see... Yes, that's four, alright! <sniff> <sniff> Ah, such a <Emphasis>lovely</Emphasis> scent!"
+54,"TEXT_SUBFST023_00098_DAMETTA_000_12","Now, you gathered only the four I asked for, and not one more, yes? Oh, I know I shouldn't have to ask, but these days, more and more people forget to take only what they need. If we're to live in harmony with the wood, we must respect life and remember what it means to take it."
+55,"TEXT_SUBFST023_00098_DAMETTA_000_13","<Emphasis>Never be wasteful</Emphasis>! Know the value of life and know the value of our time here in this world. That's why I always live my life to the fullest, wasting nary a moment and nary a word─nay, not so much as a single one!"
+56,"TEXT_SUBFST023_00098_DAMETTA_000_14","Remember: if you mean to remain within the Twelveswood, you must be ever mindful to show respect and gratitude to the forest and to the elementals."
+57,"TEXT_SUBFST023_00098_DAMETTA_000_15","You know, you remind me of my son. He's a good boy, but sometimes forgets what it means to be Gridanian. Why, just the other day, I caught him and his friends throwing Mun–Tuy beans at each other!"
+58,"TEXT_SUBFST023_00098_DAMETTA_000_16","Needless to say, I was terribly cross─who wouldn't be?─and all set to give them a memorable scolding, when I noticed they were playing in teams, and that <Emphasis>my son</Emphasis> was leading the winners!"
+59,"TEXT_SUBFST023_00098_DAMETTA_000_17","Oh, I know I shouldn't have been proud, but when I saw the way he marshaled his troops─by which I mean his friends─it was so <Emphasis>clear</Emphasis> to me that he was a born leader... Ah, where was I? Oh, yes! You see, later that day, I was cooking dinner and he, quite without prompting, offered to wash the vegetables! He's <Emphasis>such</Emphasis> a good boy, you know..."

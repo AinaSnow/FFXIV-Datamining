@@ -1,8 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKZG012_03497_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-トゥワインの冴えない労働者は、ツケを返すよう迫られ困っているようだ。"
+0,"TEXT_LUCKZG012_03497_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+A hapless miner is having difficulty paying his tab."
 1,"TEXT_LUCKZG012_03497_SEQ_01",""
 2,"TEXT_LUCKZG012_03497_SEQ_02",""
 3,"TEXT_LUCKZG012_03497_SEQ_03",""
@@ -26,9 +26,9 @@ int32,str,str
 21,"TEXT_LUCKZG012_03497_SEQ_21",""
 22,"TEXT_LUCKZG012_03497_SEQ_22",""
 23,"TEXT_LUCKZG012_03497_SEQ_23",""
-24,"TEXT_LUCKZG012_03497_TODO_00","トゥワイン南の印の上で<Sheet(EventItem,2002724,0)/>を使う"
-25,"TEXT_LUCKZG012_03497_TODO_01","<Sheet(EventItem,2002725,0)/>を入手"
-26,"TEXT_LUCKZG012_03497_TODO_02","冴えない労働者に<Sheet(EventItem,2002724,0)/>と<Sheet(EventItem,2002725,0)/>を渡す"
+24,"TEXT_LUCKZG012_03497_TODO_00","Use the safety lamp south of Twine."
+25,"TEXT_LUCKZG012_03497_TODO_01","Obtain the sparkling gemstone."
+26,"TEXT_LUCKZG012_03497_TODO_02","Give the safety lamp and sparkling gemstone to the hapless miner."
 27,"TEXT_LUCKZG012_03497_TODO_03",""
 28,"TEXT_LUCKZG012_03497_TODO_04",""
 29,"TEXT_LUCKZG012_03497_TODO_05",""
@@ -50,41 +50,19 @@ int32,str,str
 45,"TEXT_LUCKZG012_03497_TODO_21",""
 46,"TEXT_LUCKZG012_03497_TODO_22",""
 47,"TEXT_LUCKZG012_03497_TODO_23",""
-48,"TEXT_LUCKZG012_03497_COLLECTION03497_000_000","おうおう、今度こそ酒代のツケ、
-払ってもらうからな！"
-49,"TEXT_LUCKZG012_03497_MINER03497_000_010","鉱山で良質な宝石の原石を見つけたから、それで払える！
-けど、帰り道に落としたようで今はないんだ！
-きっとスパイクモールに追いかけられたときだ！"
-50,"TEXT_LUCKZG012_03497_COLLECTION03497_000_011","そう言ってまた逃げるつもりか！
-今度という今度は酒代のツケ、
-全部支払ってもらうからな！"
-51,"TEXT_LUCKZG012_03497_MINER03497_000_012","嘘じゃない、本当なんだ！
-くそっ、どうしたら……。"
-52,"TEXT_LUCKZG012_03497_MINER03497_000_013","そこの旅人さん、助けてくれ！
-俺の代わりに、落とした原石を探してほしいんだ！"
-53,"TEXT_LUCKZG012_03497_MINER03497_000_014","トゥワインの南で、この「<Sheet(EventItem,2002724,0)/>」を使えば、
-その光に反応して、「<Sheet(EventItem,2002725,0)/>」が見つかるはずだ。
-もちろん謝礼は支払う……だからお願いだよ！"
-54,"TEXT_LUCKZG012_03497_MINER03497_000_020","トゥワインの南で「<Sheet(EventItem,2002724,0)/>」を使えば、
-その光に反応して、「<Sheet(EventItem,2002725,0)/>」が見つかるはずだ。
-もちろん謝礼は支払う……だからお願いだよ！"
-55,"TEXT_LUCKZG012_03497_COLLECTION03497_000_021","コイツの嘘につきあうとは、
-アンタもとんだお人好しだな。
-……帰ってくるまでは、待っててやるよ。"
-56,"TEXT_LUCKZG012_03497_SYSTEM_000_030","<Sheet(EventItem,2002724,0)/>の光に、何かが反応した！"
-57,"TEXT_LUCKZG012_03497_SYSTEM_100_030","<Sheet(EventItem,2002724,0)/>の光に、何も反応しなかった……。
-周囲に「<Sheet(EventItem,2002725,0)/>」はないようだ。"
-58,"TEXT_LUCKZG012_03497_MINER03497_000_040","ど、どうだった……？
-「<Sheet(EventItem,2002724,0)/>」と「<Sheet(EventItem,2002725,0)/>」を渡してくれ！"
-59,"TEXT_LUCKZG012_03497_MINER03497_000_041","こ、これだよこれ！
-これなら、ツケも払える！"
-60,"TEXT_LUCKZG012_03497_MINER03497_000_042","さあ、この原石なら文句はないだろ！"
-61,"TEXT_LUCKZG012_03497_COLLECTION03497_000_043","……嘘じゃなかったんだな。
-「<Sheet(EventItem,2002725,0)/>」なら文句はねえ。
-ツケはチャラにしてやらあ！"
-62,"TEXT_LUCKZG012_03497_MINER03497_000_044","……あの「<Sheet(EventItem,2002725,0)/>」は、磨けば特殊なレンズになる。
-クリスタリウムって街じゃ、そのレンズを使って、
-「魔装砲」とかいう武器を作るらしく、高値で売れるのさ。"
-63,"TEXT_LUCKZG012_03497_MINER03497_000_045","借金取りが僕の言葉を信じてくれていれば、
-君に、迷惑をかけずに済んだのに……。
-とにかく助かったよ、ありがとう旅人さん……！"
+48,"TEXT_LUCKZG012_03497_COLLECTION03497_000_000","No more excuses! You'll not get another drop until you pay your tab!"
+49,"TEXT_LUCKZG012_03497_MINER03497_000_010","But the gemstone I was gonna give you, I lost it on the way back from the mine! It was right there in my hands, I swear!"
+50,"TEXT_LUCKZG012_03497_COLLECTION03497_000_011","Then how'd you end up losing it? I don't care what you dug up, it won't be paying off your tab while it's sitting in some ditch."
+51,"TEXT_LUCKZG012_03497_MINER03497_000_012","I ain't makin' it up, honest!"
+52,"TEXT_LUCKZG012_03497_MINER03497_000_013","Ah, you there! You don't look the sort to turn your back on a man who's down on his luck. Help me find it, would you?"
+53,"TEXT_LUCKZG012_03497_MINER03497_000_014","Here, take this lantern. The gemstone'll glint when the light hits it. Bring it to me, and I'll...errr, think of some way to pay you back!"
+54,"TEXT_LUCKZG012_03497_MINER03497_000_020","I've tried lookin' meself, but no joy. Why does nothin' ever go my way!?"
+55,"TEXT_LUCKZG012_03497_COLLECTION03497_000_021","You must be a fool to let yourself be caught up in one of his schemes. I don't think a true word's ever come out of his mouth."
+56,"TEXT_LUCKZG012_03497_SYSTEM_000_030","Something is glimmering in the light of the lantern!"
+57,"TEXT_LUCKZG012_03497_SYSTEM_100_030","It seems the gemstone you seek is elsewhere."
+58,"TEXT_LUCKZG012_03497_MINER03497_000_040","Did you find it!?"
+59,"TEXT_LUCKZG012_03497_MINER03497_000_041","It's a miracle!"
+60,"TEXT_LUCKZG012_03497_MINER03497_000_042","Ahem! I think this should cover it."
+61,"TEXT_LUCKZG012_03497_COLLECTION03497_000_043","It certainly does. But from now on, you'll pay up front for every drink. No more tabs!"
+62,"TEXT_LUCKZG012_03497_MINER03497_000_044","I wonder if I'll be able to find any more stones like that? Folk at the Crystarium use them as lenses in some sort of magical cannons, so they sell for a hefty price."
+63,"TEXT_LUCKZG012_03497_MINER03497_000_045","If I manage to dig any more up, I'll take care not to drop 'em! Next time, I might not have someone like you around to help me! Many thanks to you, friend!"

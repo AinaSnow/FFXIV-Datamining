@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBWIL092_00341_SEQ_00","ホライズンのチェチェザンは仕事を手伝ってくれる者を探しているようだ。"
-1,"TEXT_SUBWIL092_00341_SEQ_01","チェチェザンから「モングレルの血」の調達を依頼された。「モングレル」を倒し、「モングレルの血」を4個入手しよう。"
-2,"TEXT_SUBWIL092_00341_SEQ_02","モングレルの血を手に入れた。「アラグ陽道」の街道沿いにいる「ノノンゾ」に渡そう。"
-3,"TEXT_SUBWIL092_00341_SEQ_03","「モングレルの血」は篝火に入れて焚くと獣避けになるそうだ。冒険者のおかげで、銅刃団や旅商人の道中も少しは安全になるだろう。"
+0,"TEXT_SUBWIL092_00341_SEQ_00","Chechezan, a Brass Blade in Horizon, has a task for an unoccupied adventurer."
+1,"TEXT_SUBWIL092_00341_SEQ_01","Chechezan has asked that you procure four bottles of mongrel blood. Find the creatures to the south of Horizon, and slay them for their vital fluids."
+2,"TEXT_SUBWIL092_00341_SEQ_02","You have obtained the requisite amount of mongrel blood. Seek out Nononzo along the Royal Allagan Sunway, and deliver to him the foul-smelling liquid."
+3,"TEXT_SUBWIL092_00341_SEQ_03","Nononzo explains that the stench of burning mongrel blood is perfect for warning away the creatures' natural enemies─which happen to include most other beastkin. Thanks to your aid, the roads are now a good deal safer for both Brass Blades and traveling merchants alike."
 4,"TEXT_SUBWIL092_00341_SEQ_04",""
 5,"TEXT_SUBWIL092_00341_SEQ_05",""
 6,"TEXT_SUBWIL092_00341_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_SUBWIL092_00341_SEQ_21",""
 22,"TEXT_SUBWIL092_00341_SEQ_22",""
 23,"TEXT_SUBWIL092_00341_SEQ_23",""
-24,"TEXT_SUBWIL092_00341_TODO_00","モングレルからモングレルの血を入手"
-25,"TEXT_SUBWIL092_00341_TODO_01","ノノンゾにモングレルの血を渡す"
+24,"TEXT_SUBWIL092_00341_TODO_00","Collect bottles of mongrel blood."
+25,"TEXT_SUBWIL092_00341_TODO_01","Deliver the mongrel blood to Nononzo."
 26,"TEXT_SUBWIL092_00341_TODO_02",""
 27,"TEXT_SUBWIL092_00341_TODO_03",""
 28,"TEXT_SUBWIL092_00341_TODO_04",""
@@ -49,22 +49,12 @@ int32,str,str
 45,"TEXT_SUBWIL092_00341_TODO_21",""
 46,"TEXT_SUBWIL092_00341_TODO_22",""
 47,"TEXT_SUBWIL092_00341_TODO_23",""
-48,"TEXT_SUBWIL092_00341_CHECHEZAN_000","お前、仕事を探しているのか？
-だったら、ちょうど良かった。"
-49,"TEXT_SUBWIL092_00341_CHECHEZAN_001","集落の南に棲みついている「モングレル」から
-「モングレルの血」を4体ぶんとってきてくれないか。"
-50,"TEXT_SUBWIL092_00341_CHECHEZAN_002","集まった「モングレルの血」は、
-銅刃団の衛兵「ノノンゾ」という男に渡してほしい。"
-51,"TEXT_SUBWIL092_00341_CHECHEZAN_003","ノノンゾには、このホライズンを出て、
-街道沿いに進めば、出会えるはずだ、頼んだぞ。"
-52,"TEXT_SUBWIL092_00341_CHECHEZAN_010","なんだい、僕に何か用かい？"
-53,"TEXT_SUBWIL092_00341_CHECHEZAN_011","こいつは「モングレルの血」か！
-助かったよ、これでようやくホライズンに帰れそうだ。"
-54,"TEXT_SUBWIL092_00341_CHECHEZAN_012","モングレルってのは、さまざまな獣にとって天敵だからね。
-その血を使って作った香を、篝火に入れて焚くと
-獣避けになるんだよ。"
-55,"TEXT_SUBWIL092_00341_CHECHEZAN_013","ホライズンでも、獣避けの香を使っているから、
-こうして銅刃団の衛兵が、交代で血を集めるんだが……
-人手不足で苦労していてね。"
-56,"TEXT_SUBWIL092_00341_CHECHEZAN_014","まぁそれはともかく……
-君の協力で必要な分は集まった、感謝するよ！"
+48,"TEXT_SUBWIL092_00341_CHECHEZAN_000","Looking for a task to fill your <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>evening<Else/>morning</If><Else/><If(LessThan(PlayerParameter(11),17))>day<Else/>evening</If></If>, adventurer? I may have just the thing if you're not feeling squeamish."
+49,"TEXT_SUBWIL092_00341_CHECHEZAN_001","Here's the job: I need you to draw four bottles' worth of blood from the mongrels that roam to the south of here."
+50,"TEXT_SUBWIL092_00341_CHECHEZAN_002","Once you have enough, take the foul fluid to a Brass Blade by the name of Nononzo."
+51,"TEXT_SUBWIL092_00341_CHECHEZAN_003","You should find him somewhere along the road out of Horizon, bemoaning his terrible fortune, no doubt. Happy hunting."
+52,"TEXT_SUBWIL092_00341_CHECHEZAN_010","What do you want with me, then?"
+53,"TEXT_SUBWIL092_00341_CHECHEZAN_011","<sniff> Is this mongrel blood!? Thank the gods! Now I can finally head back to Horizon."
+54,"TEXT_SUBWIL092_00341_CHECHEZAN_012","Mongrels are the natural enemy of most other predators, you see. Throw their thick blood onto a fire, and the resulting stench'll send beastkin fleeing for malms around."
+55,"TEXT_SUBWIL092_00341_CHECHEZAN_013","Makes light work of our patrols...as long as we have a steady supply of the nasty stuff. And I'll wager you can guess which Brass Blade picked the short straw to kill mongrels this time around."
+56,"TEXT_SUBWIL092_00341_CHECHEZAN_014","But thanks to you, I'm off to enjoy a hot meal and a tankard! May Thal's golden halls await you in the afterlife!"

@@ -1,8 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKZC009_03392_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-リダ・ラーンのシグン＝ウルは、冒険者と遊びたがっているようだ。"
+0,"TEXT_LUCKZC009_03392_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+Sigun Ul is looking for fun."
 1,"TEXT_LUCKZC009_03392_SEQ_01",""
 2,"TEXT_LUCKZC009_03392_SEQ_02",""
 3,"TEXT_LUCKZC009_03392_SEQ_03",""
@@ -26,8 +26,8 @@ int32,str,str
 21,"TEXT_LUCKZC009_03392_SEQ_21",""
 22,"TEXT_LUCKZC009_03392_SEQ_22",""
 23,"TEXT_LUCKZC009_03392_SEQ_23",""
-24,"TEXT_LUCKZC009_03392_TODO_00","ピクシーたちと話す"
-25,"TEXT_LUCKZC009_03392_TODO_01","シグン＝ウルと話す"
+24,"TEXT_LUCKZC009_03392_TODO_00","Speak with pixies."
+25,"TEXT_LUCKZC009_03392_TODO_01","Speak with Sigun Ul."
 26,"TEXT_LUCKZC009_03392_TODO_02",""
 27,"TEXT_LUCKZC009_03392_TODO_03",""
 28,"TEXT_LUCKZC009_03392_TODO_04",""
@@ -50,60 +50,30 @@ int32,str,str
 45,"TEXT_LUCKZC009_03392_TODO_21",""
 46,"TEXT_LUCKZC009_03392_TODO_22",""
 47,"TEXT_LUCKZC009_03392_TODO_23",""
-48,"TEXT_LUCKZC009_03392_SIGUNUL_000_000","まあ、ヒトなんて珍しい！
-あなた、なんて名前なの……？"
-49,"TEXT_LUCKZC009_03392_SIGUNUL_000_001","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>だなんて、素敵な名前ね！
-でも、私たちピクシーの名前だって、とっても素敵なのよ？"
-50,"TEXT_LUCKZC009_03392_SIGUNUL_000_002","そうだ、私の仲間のところを巡って、
-「名前」と、その「由来」を聞いてきてちょうだい！
-素敵な遊びを、思いついちゃったから！"
-51,"TEXT_LUCKZC009_03392_SIGUNUL_000_003","私の仲間のところを巡って、
-「名前」と、その「由来」を聞いてきてちょうだい！
-素敵な遊びを、思いついちゃったから！"
-52,"TEXT_LUCKZC009_03392_JULFEO_000_010","名前と由来が知りたいの？
-ワタシは「ユル＝フェオ」！
-「イチイの木と宝物」って意味だよぉ！"
-53,"TEXT_LUCKZC009_03392_JULFEO_000_011","ワタシは「ユル＝フェオ」！
-「イチイの木と宝物」って意味だよぉ！"
-54,"TEXT_LUCKZC009_03392_IALASUL_000_012","ぼくの名前？　「ヤラ＝スール」っていうんだ！
-きみたちヒトの言葉だと、「季節の巡りと花」って意味になるよ。
-ふふん、カワイイ名前でしょ？"
-55,"TEXT_LUCKZC009_03392_IALASUL_000_013","ぼくの名前？　「ヤラ＝スール」っていうんだ！
-きみたちヒトの言葉だと、「季節の巡りと花」って意味になるよ。
-ふふん、カワイイ名前でしょ？"
-56,"TEXT_LUCKZC009_03392_AENCUIN_000_014","あたしの名前は「インク＝ウィン」よ！
-意味は「水と喜び」！　今のあたしも大喜び！
-だってアナタがいるんだもの……どうやって遊ぼうかしら！"
-57,"TEXT_LUCKZC009_03392_AENCUIN_000_015","あたしの名前は「インク＝ウィン」よ！
-意味は「水と喜び」！　今のあたしも大喜び！
-だってアナタがいるんだもの……どうやって遊ぼうかしら！"
-58,"TEXT_LUCKZC009_03392_SIGUNUL_000_020","おかえりなさい！　皆の名前は聞けたかしら？
-ちゃんと覚えているか、試させてもらうわよ！"
-59,"TEXT_LUCKZC009_03392_SIGUNUL_000_021","さあ、ひとつめの問題！
-「イチイの木と宝物」の子は誰だったかしら？"
-60,"TEXT_LUCKZC009_03392_Q1_000_000","「イチイの木と宝物」なピクシーは？"
-61,"TEXT_LUCKZC009_03392_A1_000_001","ユル＝フェオ"
-62,"TEXT_LUCKZC009_03392_A1_000_002","ヤラ＝スール"
-63,"TEXT_LUCKZC009_03392_A1_000_003","インク＝ウィン"
-64,"TEXT_LUCKZC009_03392_SIGUNUL_000_022","ふふ～ん……なるほどなるほど。
-それじゃあ次の問題よ。
-「季節の巡りと花」な子は、どこで遊んでいたかしら？"
-65,"TEXT_LUCKZC009_03392_Q2_000_000","「季節の巡りと花」なピクシーはどこにいた？"
-66,"TEXT_LUCKZC009_03392_A2_000_001","エーテライトの近く"
-67,"TEXT_LUCKZC009_03392_A2_000_002","牧場の近く"
-68,"TEXT_LUCKZC009_03392_A2_000_003","姿見の湖の近く"
-69,"TEXT_LUCKZC009_03392_SIGUNUL_000_023","はずれ～！　もっとちゃんと覚えてほしいわ！
-ほらほら、もう一度皆に聞いてらっしゃい！"
-70,"TEXT_LUCKZC009_03392_SIGUNUL_000_024","うーん……1問間違ってるけど、まあいいわ！
-わたしたちの名前について、もっと詳しく教えてあげる！"
-71,"TEXT_LUCKZC009_03392_SIGUNUL_000_025","大正解！　嬉しいわ、ちゃんと覚えてくれたのね！
-特別に、わたしたちの名前について、もっと詳しく教えてあげる！"
-72,"TEXT_LUCKZC009_03392_SIGUNUL_000_026","わたしたちの名前はね、魔力が込められた、
-特別な「ルーン」の組み合わせでできているの。
-それぞれの命の煌めき、魔力の性質に、ぴったりな言葉を選ぶのよ。"
-73,"TEXT_LUCKZC009_03392_SIGUNUL_000_027","アナタの名前をつけるなら……。
-そうね、「シグン＝ティル」……
-いえ、もしかしたら、「ウル＝ティル」かもしれないわね。"
-74,"TEXT_LUCKZC009_03392_SIGUNUL_000_028","ふふふ！　意味は教えてあげない！
-どこかで調べてみてちょうだい！
-お話してくれて、ありがと、楽しかったわ！"
+48,"TEXT_LUCKZC009_03392_SIGUNUL_000_000","Mortals in our village, how exciting! Tell me, what is your name?"
+49,"TEXT_LUCKZC009_03392_SIGUNUL_000_001","<Highlight>ObjectParameter(1)</Highlight>, a lovely name. But <Emphasis>our</Emphasis> names are lovely too!"
+50,"TEXT_LUCKZC009_03392_SIGUNUL_000_002","Ah, but here's an idea! I want you to go and speak with my fellows. Ask them what their names mean. When you're done, return hither and we'll have some fun. Tee hee hee!"
+51,"TEXT_LUCKZC009_03392_SIGUNUL_000_003","Go around the village and ask my fellows what their names mean. When you're done, return hither and we'll have some fun!"
+52,"TEXT_LUCKZC009_03392_JULFEO_000_010","You wish to know the meaning of my name? Well, Jul is yew and Feo is treasure! Together it means “a treasure beneath the yew”! Beautiful, even if I do say so myself!"
+53,"TEXT_LUCKZC009_03392_JULFEO_000_011","Remember, Jul is yew and Feo is treasure! Together it means “a treasure beneath the yew”! Beautiful, even if I do say so myself!"
+54,"TEXT_LUCKZC009_03392_IALASUL_000_012","My name is Iala Sul. Separately, the words mean the turn of the seasons and flower. Together, they make me “a flower that blooms always.” Precious, I'm sure you'll agree."
+55,"TEXT_LUCKZC009_03392_IALASUL_000_013","A flower that blooms always─that is my name in your tongue. Precious, I'm sure you'll agree."
+56,"TEXT_LUCKZC009_03392_AENCUIN_000_014","I'm Aenc Uin! Water and happiness! Happiness in the water! And I'm very happy now! Why? Because you're here! Oh, how shall we play? There are so many ways!"
+57,"TEXT_LUCKZC009_03392_AENCUIN_000_015","Water and happiness! Happiness in the water! Oh, I'll think of a game for us to play soon! And then we'll have a jolly good time!"
+58,"TEXT_LUCKZC009_03392_SIGUNUL_000_020","Welcome back! I hope you were paying attention to my fellows, because I'm going to test you on the meaning of our names!"
+59,"TEXT_LUCKZC009_03392_SIGUNUL_000_021","First question! Who is the pixie whose name means a treasure beneath the yew?"
+60,"TEXT_LUCKZC009_03392_Q1_000_000","Which pixie's name means a treasure beneath the yew?"
+61,"TEXT_LUCKZC009_03392_A1_000_001","Jul Feo."
+62,"TEXT_LUCKZC009_03392_A1_000_002","Iala Sul."
+63,"TEXT_LUCKZC009_03392_A1_000_003","Aenc Uin."
+64,"TEXT_LUCKZC009_03392_SIGUNUL_000_022","I see, I see... Right, second question. The pixie whose name means a flower that blooms always─where were they playing?"
+65,"TEXT_LUCKZC009_03392_Q2_000_000","Where was a flower that blooms always?"
+66,"TEXT_LUCKZC009_03392_A2_000_001","By the aetheryte."
+67,"TEXT_LUCKZC009_03392_A2_000_002","By the meadow."
+68,"TEXT_LUCKZC009_03392_A2_000_003","By the lake."
+69,"TEXT_LUCKZC009_03392_SIGUNUL_000_023","Boo, you got <Emphasis>both</Emphasis> answers wrong! But I'm a kind pixie, so I'll give you another chance. Go and speak with my fellows once more, and this time mark their words well, yes?"
+70,"TEXT_LUCKZC009_03392_SIGUNUL_000_024","Hmmm, one out of two isn't terrible, I suppose. All right, by way of a reward, I shall tell you more about our names!"
+71,"TEXT_LUCKZC009_03392_SIGUNUL_000_025","Huzzah, you got both answers correct! You were clearly paying attention, and by way of a reward, I shall tell you more about our names!"
+72,"TEXT_LUCKZC009_03392_SIGUNUL_000_026","You see, our names are composed of special runes of power. They are chosen to best represent our nature, and the spark of life that abides in us."
+73,"TEXT_LUCKZC009_03392_SIGUNUL_000_027","If I were to name you by our custom, it would be... Ooh, this is a tough one! Sigun Tyr, perhaps...or Ul Tyr─it really could go either way!"
+74,"TEXT_LUCKZC009_03392_SIGUNUL_000_028","You wish to know the meaning, do you? Ah, but where's the fun in just telling you? You'll have to find out for yourself! Tee hee!"

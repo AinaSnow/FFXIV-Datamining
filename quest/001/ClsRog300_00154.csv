@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSROG300_00154_SEQ_00","双剣士ギルドのジャックは、最後の「秘宝」について突き止めたようだ。"
-1,"TEXT_CLSROG300_00154_SEQ_01","ジャックたちの調べにより、秘宝「黒の棺」が爆雷であることが判明した。話し合いの最中、根なしの闇商人から呼び出しの手紙が届いたが……。高地ラノシアのサラオスの亡骸付近で「根なしの闇商人」を探そう。"
-2,"TEXT_CLSROG300_00154_SEQ_02","倒れている根なしの闇商人に近づいたところ、「断罪党」の海賊が襲ってきた。サラオスの亡骸付近の「根なしの闇商人」を救助しよう。"
-3,"TEXT_CLSROG300_00154_SEQ_03","根なしの闇商人は「断罪党」急進派の海賊によって殺されていた。彼らはメルウィブ提督をも「黒の棺」で抹殺するつもりらしい。サラオスの亡骸付近の「ジャック」と話そう。"
-4,"TEXT_CLSROG300_00154_SEQ_04","ジャックと話し、ミリララへの伝言を頼まれた。中央ラノシアのフォアマストにいる「ミリララ」と話そう。"
-5,"TEXT_CLSROG300_00154_SEQ_05","ミリララに事情を伝えた。双剣士ギルドの「ジャック」と話そう。"
-6,"TEXT_CLSROG300_00154_SEQ_06","ジャックと話した。「黒の棺」は、爆発させることなく奪還しなければならない。ジャックから託された技を活用して、急進派に挑もう。"
+0,"TEXT_CLSROG300_00154_SEQ_00","Jacke's rogues have new information on the final missing treasure."
+1,"TEXT_CLSROG300_00154_SEQ_01","Jacke calls a meeting to discuss the true nature of the enigmatic Black Sarcophagus. According to Perimu's investigation, the ominously named object is, in fact, an experimental explosive developed by the Garlean Empire. As the gathered rogues ponder the implications of their discovery, Lonwoerd interrupts to deliver a letter from their itinerant underworld contact. Travel to Thalaos in upper La Noscea, and seek out the black marketeer."
+2,"TEXT_CLSROG300_00154_SEQ_02","Upon approaching the inert form of the dark-robed old man, you suddenly find yourself the target of an Executioner ambush. Though the odds are against you, your deadly rogue training eventually prevails. Wipe the blood from your blades and see what can be done for the black marketeer."
+3,"TEXT_CLSROG300_00154_SEQ_03","The eccentric information broker has been murdered by the Executioners for his meddling. You learn from the lone pirate remaining at the scene that the captain of the Reformists plans to use the Black Sarcophagus to assassinate Admiral Bloefhiswyn. Speak with Jacke and discuss what can be done."
+4,"TEXT_CLSROG300_00154_SEQ_04","While he is busy escorting his pirate prisoner back to the guild, Jacke asks that you share your revelations with the Yellowjackets. Head to the Foremast in middle La Noscea and speak with Captain Milala."
+5,"TEXT_CLSROG300_00154_SEQ_05","Though she initially suspects you of harboring larcenous intentions, Milala nevertheless accepts the news of the impending assassination attempt at face value. Return to the Rogues' Guild and report to Jacke."
+6,"TEXT_CLSROG300_00154_SEQ_06","Jacke appears relieved to hear of the Yellowjackets' immediate deployment. Master the use of your new trick, and join your fellow rogues in their efforts to reclaim the Black Sarcophagus...before it is too late."
 7,"TEXT_CLSROG300_00154_SEQ_07",""
 8,"TEXT_CLSROG300_00154_SEQ_08",""
 9,"TEXT_CLSROG300_00154_SEQ_09",""
@@ -25,11 +25,11 @@ int32,str,str
 21,"TEXT_CLSROG300_00154_SEQ_21",""
 22,"TEXT_CLSROG300_00154_SEQ_22",""
 23,"TEXT_CLSROG300_00154_SEQ_23",""
-24,"TEXT_CLSROG300_00154_TODO_00","サラオスの亡骸付近で根なしの闇商人を探す"
-25,"TEXT_CLSROG300_00154_TODO_01","根なしの闇商人を救助する"
-26,"TEXT_CLSROG300_00154_TODO_02","サラオスの亡骸付近のジャックと話す"
-27,"TEXT_CLSROG300_00154_TODO_03","フォアマストのミリララと話す"
-28,"TEXT_CLSROG300_00154_TODO_04","双剣士ギルドのジャックと話す"
+24,"TEXT_CLSROG300_00154_TODO_00","Search for the black marketeer at Thalaos."
+25,"TEXT_CLSROG300_00154_TODO_01","Tend to the black marketeer."
+26,"TEXT_CLSROG300_00154_TODO_02","Speak with Jacke at Thalaos."
+27,"TEXT_CLSROG300_00154_TODO_03","Speak with Milala at the Foremast."
+28,"TEXT_CLSROG300_00154_TODO_04","Speak with Jacke at the Rogues' Guild."
 29,"TEXT_CLSROG300_00154_TODO_05",""
 30,"TEXT_CLSROG300_00154_TODO_06",""
 31,"TEXT_CLSROG300_00154_TODO_07",""
@@ -49,148 +49,66 @@ int32,str,str
 45,"TEXT_CLSROG300_00154_TODO_21",""
 46,"TEXT_CLSROG300_00154_TODO_22",""
 47,"TEXT_CLSROG300_00154_TODO_23",""
-48,"TEXT_CLSROG300_00154_JACKE_000_000","待ってたぜ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
-腕もしっかり鍛え上げて、万全って感じじゃねぇか。"
-49,"TEXT_CLSROG300_00154_JACKE_000_001","こっちも、最後の「秘宝」について突き止めた。
-イエロージャケットの派手女との勝負は、今のところ1対1……
-奪還を成功させて、勝ちにいくぞ。"
-50,"TEXT_CLSROG300_00154_JACKE_000_002","それじゃ、あいつらも呼んで、最後の作戦会議だ！"
-51,"TEXT_CLSROG300_00154_JACKE_000_003","さて、残る「秘宝」は、「黒の棺」ただひとつだ。
-……ペリム・ハウリム、こいつの正体がわかったんだな？"
-52,"TEXT_CLSROG300_00154_PERIMUHAURIMU_000_004","ええ、どうにか。
-「秘宝」って呼び名に、ずいぶん踊らされましたけどね。
-てっきり、ほかの2つみたいな年代物かと……。"
-53,"TEXT_CLSROG300_00154_PERIMUHAURIMU_000_005","最後の秘宝「黒の棺」……
-こいつの正体は、帝国の輸送船から略奪された試作兵器、
-「LI式魔導爆雷」だったんです！"
-54,"TEXT_CLSROG300_00154_PERIMUHAURIMU_000_006","しかも、ただの爆雷じゃありませんよ。
-小型ながら、伝説の魔獣ベヒーモスすら一撃で爆砕するという、
-超高威力の兵器だとか……。"
-55,"TEXT_CLSROG300_00154_PERIMUHAURIMU_000_007","ラノシアにある帝国基地で製作され、
-洋上の補給基地を通じて、配備するつもりだったんでしょう。
-……確かに、ある意味では「秘められた宝」ってわけですね。"
-56,"TEXT_CLSROG300_00154_VKEBBE_000_008","リムサ・ロミンサ政庁はきっと、
-軍事的な研究のために、「黒の棺」を落札したのね……。
-どうりで、私たちにさえ詳細を告げないはずだ……。"
-57,"TEXT_CLSROG300_00154_PERIMUHAURIMU_000_009","……で、肝心の「黒の棺」の在り処ですが、
-「断罪党」の急進派に渡ったところまでは確認がとれました。"
-58,"TEXT_CLSROG300_00154_PERIMUHAURIMU_000_010","でも、それ以降はさっぱり！
-今のところ、使われた形跡こそありませんが、
-連中の手元にあるのか、売り払ったのかは不明です……。"
-59,"TEXT_CLSROG300_00154_JACKE_000_011","「断罪党」の急進派は、
-反メルウィブ提督を掲げる過激な連中だ。
-何にせよ、ろくな使い方には期待できねぇな……。"
-60,"TEXT_CLSROG300_00154_JACKE_100_011","……どうした？"
-61,"TEXT_CLSROG300_00154_LONWOERD_000_012","取り込み中に、すまない。
-お前たちの仕事に関する手紙が届いてるぞ。"
-62,"TEXT_CLSROG300_00154_JACKE_000_013","……手紙ぃ？
-覚えがねぇな、いったい誰からだ？"
-63,"TEXT_CLSROG300_00154_LONWOERD_000_014","爺……根なしの闇商人からのようだ。
-「エーデルワイス商会」宛の荷物に、いつの間にか紛れていた。"
-64,"TEXT_CLSROG300_00154_JACKE_000_015","なになに……。
-「至急、サラオスの亡骸に来られたし」だって……？"
-65,"TEXT_CLSROG300_00154_PERIMUHAURIMU_000_016","おお、爺から呼び出しなんて珍しいですね！
-ここのところ、どこに行っても会えなかったので、
-とっておきの情報を仕入れて待ってるのかもしれませんよ？"
-66,"TEXT_CLSROG300_00154_JACKE_000_017","とっておき情報ね…………。
-……本当にそうだといいんだがな。"
-67,"TEXT_CLSROG300_00154_JACKE_000_018","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、俺とお前で「サラオスの亡骸」へ行くぞ。
-ペリム・ハウリムとヴァ・ケビは、俺たちが戻るまで、
-もう一度「黒の棺」の在り処を追ってくれ。"
-68,"TEXT_CLSROG300_00154_JACKE_000_020","俺とお前で「サラオスの亡骸」へ行くぞ。
-爺からの呼び出し……嫌な予感が当たらなきゃいいが。"
-69,"TEXT_CLSROG300_00154_BALLOON_000_025","かかったぞ、双剣士だ！"
-70,"TEXT_CLSROG300_00154_BALLOON_000_026","叩き潰せ…！"
-71,"TEXT_CLSROG300_00154_BALLOON_000_027","愚かですねぇ"
-72,"TEXT_CLSROG300_00154_PIRATE00154_000_030","(-？？？？-)ウフフ……助けようとしても無駄よぉ？
-だってそいつ、とっくにあたしたちが殺したものぉ……。"
-73,"TEXT_CLSROG300_00154_PIRATE00154_000_031","「断罪党」……
-中でも、急進派って呼ばれてるあたしたちを敵に回すと、
-こういうことになっちゃうんだから。"
-74,"TEXT_CLSROG300_00154_PIRATE00154_000_032","あなたたちに送った手紙も偽物だったわけ。
-ウフフフ……まんまと偽の誘いに乗っちゃったわねぇ、
-お邪魔虫の双剣士さん……？"
-75,"TEXT_CLSROG300_00154_PIRATE00154_000_033","やだ、怖い顔しないでぇ？
-あたしたち急進派を率いる御方……「アイシービル」船長が、
-双剣士と遊んでやれって言ったから、仕方ないのよぉ。"
-76,"TEXT_CLSROG300_00154_PIRATE00154_000_034","もとはといえば、あなたたちが、
-あたしたちの邪魔をしてくるのが悪いんでしょぉ？
-今さら「掟」なんて守って、何になるんだか……。"
-77,"TEXT_CLSROG300_00154_PIRATE00154_000_035","それよりも、あたしたち急進派の野望の方が、ずぅっと素敵。
-メルウィブと協定を結んで腑抜けになった「断罪党」を、
-アイシービル船長が、新たな首領となって立て直すの！"
-78,"TEXT_CLSROG300_00154_PIRATE00154_000_036","新首領アイシービルの元で、あたしたちは楔から解放される……！
-自由な海を取り戻し、再び海賊の時代を築くのよ！"
-79,"TEXT_CLSROG300_00154_PIRATE00154_000_037","……その野望のためなら、なんだってするわ！
-死んで腐った「掟」なんて、粉々に打ち砕けばいい！
-古臭い双剣士ともども「断罪」してあげるッ！"
-80,"TEXT_CLSROG300_00154_JACKE_000_038","(-？？？？-)させるかよ！
-ここで終いなのは、お前の方だ……！"
-81,"TEXT_CLSROG300_00154_PIRATE00154_000_039","あら、いつのまに……。
-双剣士、まだいたのねぇ。"
-82,"TEXT_CLSROG300_00154_JACKE_000_040","お前らの野望とやらは聞かせてもらった。
-自由な海とか、海賊の時代とか……
-聞こえはいいが、どうも勘違いしちゃいねぇか？"
-83,"TEXT_CLSROG300_00154_JACKE_000_041","お前らが死んだと言った「掟」こそ、海賊たちの魂だ。
-連中が血みどろの戦いを重ねてやっと掴んだ、
-この地で仲間と生きる誇りなんだよ……！"
-84,"TEXT_CLSROG300_00154_JACKE_000_042","……それを踏みにじる奴に、海賊を名乗る資格はねぇッ！"
-85,"TEXT_CLSROG300_00154_PIRATE00154_000_043","はぁ……お説教は嫌いよぉ……。
-……でも、2対1じゃ、大した時間稼ぎもできなさそうね。"
-86,"TEXT_CLSROG300_00154_PIRATE00154_100_043","殺せないのは心残りだけど……まあ、いいわぁ。
-双剣士をふたり、こんな辺境へ連れ出したんだもの。
-時間稼ぎのお役目としては、十分だと思わない？"
-87,"TEXT_CLSROG300_00154_JACKE_110_043","どういうことだ……！"
-88,"TEXT_CLSROG300_00154_PIRATE00154_000_044","ウフフ……ハハ……フハハハハハッ！
-あんたたちは、あたしたちが持ってる「黒の棺」を、
-奪還したいんでしょう……？"
-89,"TEXT_CLSROG300_00154_PIRATE00154_000_045","あれは今、我らがアイシービル船長の手元にあるわぁ。
-彼は「黒の棺」を使って、
-自分こそが「断罪党」の次期首領にふさわしいと証明するの！"
-90,"TEXT_CLSROG300_00154_PIRATE00154_000_046","そう……「断罪党」を腑抜けにした、憎い女……
-メルウィブを処刑することによってねぇッ！"
-91,"TEXT_CLSROG300_00154_JACKE_000_047","……お前ら、まさか提督を狙って……ッ！？
-リムサ・ロミンサの提督室を、爆破するつもりかッ！"
-92,"TEXT_CLSROG300_00154_PIRATE00154_000_048","わかったなら、せいぜい慌ててみればぁ？
-ここであたしと遊んでたいなら、喜んで相手するけどねぇ！
-ウフフ……フハハハハッ！"
-93,"TEXT_CLSROG300_00154_JACKE_000_050","一度「サラオスの亡骸」へ戻るぞ。
-あの女海賊を、なんとかしなきゃな……。"
-94,"TEXT_CLSROG300_00154_PIRATE00154_000_055","フフフ……あなたたちに、アイシービル船長を止められるぅ？
-あたしたち急進派が「断罪党」を改革するのよ！"
-95,"TEXT_CLSROG300_00154_JACKE_000_060","最悪な状況なのに、この女海賊、状況を楽しんでやがる……。
-こうなっちまったら、むやみに暴れたりはしないだろう。
-ともかく俺は、こいつを連れて行く。"
-96,"TEXT_CLSROG300_00154_JACKE_000_061","お前もすぐに戻ってきてほしいが……
-その前に、中央ラノシアの「フォアマスト」に寄ってくれ。
-そこに、イエロージャケットの派手女がいるはずだ。"
-97,"TEXT_CLSROG300_00154_JACKE_000_062","勝負のことはいったん忘れて、あいつに事情をすべて伝えろ。
-俺の見込み違いじゃなきゃ、適切な判断をするはずだ。
-……それじゃ、頼んだぞ。"
-98,"TEXT_CLSROG300_00154_JACKE_000_070","中央ラノシアの「フォアマスト」に行って、
-イエロージャケットの派手女に、事情を伝えてくれ。
-俺の見込み違いじゃなきゃ、適切な判断をするはずだ。"
-99,"TEXT_CLSROG300_00154_MILALA_000_080","あら、貴方は双剣士の……
-ハッ！　さては、「銀の涙」を奪い返しにきましたわね！？"
-100,"TEXT_CLSROG300_00154_MILALA_000_081","おあいにくですが、「銀の涙」はこのとおり……
-わたくしが肌身離さずつけておりますわ！
-これでは手も出ないはず…………あら、違う話ですの？"
-101,"TEXT_CLSROG300_00154_MILALA_000_082","……なんてこと！
-急進派の長が、「黒の棺」で提督を狙ってるですって！？
-すぐに警備の手をまわさなくては！"
-102,"TEXT_CLSROG300_00154_MILALA_000_083","これで勝負をなしにするつもりはありませんわよ。
-あの男にも、そう伝えることですわね。
-……でも、情報をくれたこと、一応、感謝いたしますわ。"
-103,"TEXT_CLSROG300_00154_JACKE_000_090","……そうか、派手女は動いたんだな、ありがとうよ。
-あの「断罪党」の女海賊は尋問にかけてるが、
-すでに聞いた情報以外は、望めなさそうだ。"
-104,"TEXT_CLSROG300_00154_JACKE_000_091","ぐずぐずしてる時間はねぇし、
-今ある手がかりだけで、「黒の棺」を奪還する。
-もちろん、爆発させることなくな！"
-105,"TEXT_CLSROG300_00154_JACKE_000_092","そのためにも、お前に新たな戦い方を教えておくぜ。
-それは……「影牙」だ。"
-106,"TEXT_CLSROG300_00154_JACKE_000_093","この技をきめれば、相手の体力を徐々に奪うことができる。
-タフな敵がいたら、迅速に使うといい。"
-107,"TEXT_CLSROG300_00154_JACKE_000_095","状況をみて、さまざまな技を使いわけるのは簡単じゃないが……
-お前ほどの資質があれば、きっとできるさ。"
+48,"TEXT_CLSROG300_00154_JACKE_000_000","I was wonderin' when ye'd show up, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, but bugger me if ye don't look ready to mill an entire crew o' sods by yerself."
+49,"TEXT_CLSROG300_00154_JACKE_000_001","An' bene that ye are, 'cause we've finally uncovered some hard facts about that last treasure. Won't be long now afore we cloy the winnin' piece an' put this daft challenge to bed."
+50,"TEXT_CLSROG300_00154_JACKE_000_002","All right. I've gathered the other coves for a meetin', so let's get down to it."
+51,"TEXT_CLSROG300_00154_JACKE_000_003","At long bloody last, the Black Sarcophagus has given up its secrets. ...Underfoot, ye've some news for us?"
+52,"TEXT_CLSROG300_00154_PERIMUHAURIMU_000_004","Aye, Jacke. I think half our troubles in whiddlin' the truth of it lay in callin' this nasty thing a “treasure.”"
+53,"TEXT_CLSROG300_00154_PERIMUHAURIMU_000_005","The Black Sarcophagus ain't no dimber bauble...it's the Mark LI magitek mine─a bleedin' prototype explosive what was bitten from an imperial transport vessel!"
+54,"TEXT_CLSROG300_00154_PERIMUHAURIMU_000_006","An' even though it ain't that big─maybe the size of a small cargo box─they say the blast'd have enough kick to incinerate a bloody behemoth."
+55,"TEXT_CLSROG300_00154_PERIMUHAURIMU_000_007","Seems the Garleans meant to start production at their factory in La Noscea, then distribute the mines through Castrum Marinum. Lucky some plucky privateer cloyed the prototype en route, then, eh?"
+56,"TEXT_CLSROG300_00154_VKEBBE_000_008","An experimental weapon... That explains why the thalassocracy was so bleedin' eager to bid at that auction, an' so reluctant to share the details with us."
+57,"TEXT_CLSROG300_00154_PERIMUHAURIMU_000_009","At least now we know the “what”...but there's still the question of the “where.” The Curs delivered their bitten goods to the Reformists, that much is certain."
+58,"TEXT_CLSROG300_00154_PERIMUHAURIMU_000_010","What happened to the sarcophagus after that, though, we ain't so sure. There've been no reports o' huge explosions or the like, so either the Executioners still have the mine, or they've peddled it to some other buyer..."
+59,"TEXT_CLSROG300_00154_JACKE_000_011","The Reformist faction came together out o' their shared hatred for the Admiral an' her ways. I'm guessin' they didn't cloy that bomb just to sell it..."
+60,"TEXT_CLSROG300_00154_JACKE_100_011","...What is it, Lonny?"
+61,"TEXT_CLSROG300_00154_LONWOERD_000_012","A letter for ye, Jacke. Says it's urgent."
+62,"TEXT_CLSROG300_00154_JACKE_000_013","A letter? Who's it from?"
+63,"TEXT_CLSROG300_00154_LONWOERD_000_014","The old man. I found it while I was sortin' through our daily deliveries."
+64,"TEXT_CLSROG300_00154_JACKE_000_015","Let's see now...
+
+<Emphasis>Come to Thalaos. I have urgent news.</Emphasis>"
+65,"TEXT_CLSROG300_00154_PERIMUHAURIMU_000_016","I've never known the old man to summon a customer! No one's seen him at his usual haunts for a while, so do ye reckon this's some rum morsel he's dug up just for us?"
+66,"TEXT_CLSROG300_00154_JACKE_000_017","Aye, it could be..."
+67,"TEXT_CLSROG300_00154_JACKE_000_018","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, you an' me are headed to Thalaos. Underfoot, V'kebbe, yer to take another stab at pinnin' down the location o' the sarcophagus."
+68,"TEXT_CLSROG300_00154_JACKE_000_020","You an' me'll head to Thalaos to see what the old man wants. I hope it's good news...but me gut is tellin' me otherwise."
+69,"TEXT_CLSROG300_00154_BALLOON_000_025","Yer done for, rogue!"
+70,"TEXT_CLSROG300_00154_BALLOON_000_026","Slice <If(PlayerParameter(4))>'er<Else/>'im</If> up!"
+71,"TEXT_CLSROG300_00154_BALLOON_000_027","Trustin' fool!"
+72,"TEXT_CLSROG300_00154_PIRATE00154_000_030","(-???-)<giggle> Yer wastin' yer time, darlin'. We opened that scrag's wrinkled throat bells ago."
+73,"TEXT_CLSROG300_00154_PIRATE00154_000_031","Ye cross the Bloody Executioners, an' ye get what's comin' to ye."
+74,"TEXT_CLSROG300_00154_PIRATE00154_000_032","...Did ye like our message? We wasn't sure ye'd fall for it, but a little mystery goes a long way, eh?"
+75,"TEXT_CLSROG300_00154_PIRATE00154_000_033","Aw, now don't be like that, darlin'. Me an' me mates didn't have much choice─when the boss says “go <Emphasis>play</Emphasis> wiv the rogues,” then we gotta go play wiv the rogues."
+76,"TEXT_CLSROG300_00154_PIRATE00154_000_034","After all, we never asked ye to come ruin our game, now, did we? An' don't give me no long-winded speech about yer precious code..."
+77,"TEXT_CLSROG300_00154_PIRATE00154_000_035","The Reformists' vision stretches far beyond what them tired ol' rules is good for. Once Cap'n Aisibhir takes command o' the Executioners, 'e'll give us back the teeth we lost when we submitted to the Admiral's leash!"
+78,"TEXT_CLSROG300_00154_PIRATE00154_000_036","We'll be the terrors of the sea once more! Free to rove an' plunder in a new age o' pirate glory!"
+79,"TEXT_CLSROG300_00154_PIRATE00154_000_037","...An' I'll bathe in blood to see that age come to pass! I'll kick down yer shite-stinkin' code, an' 'ave all yer sneaky 'eads on the choppin' block!"
+80,"TEXT_CLSROG300_00154_JACKE_000_038","(-???-)Like hells you will! The only sentence what's bein' passed today is yers!"
+81,"TEXT_CLSROG300_00154_PIRATE00154_000_039","Well, 'ello there, darlin'. Ain't you a fine-lookin' lad?"
+82,"TEXT_CLSROG300_00154_JACKE_000_040","I've heard all this prattle afore. Free to pillage an' plunder, is it? Aye, it all sounds grand, but ye don't think o' the price."
+83,"TEXT_CLSROG300_00154_JACKE_000_041","That “shite-stinkin' code” is the only thing what keeps you bloody coves from millin' one another! Without it─without Limsa Lominsa to call home─ye'd be adrift in an ocean o' quarrons!"
+84,"TEXT_CLSROG300_00154_JACKE_000_042","...But if yer so keen to keep company with the dead, I'll be soddin' happy to oblige!"
+85,"TEXT_CLSROG300_00154_PIRATE00154_000_043","<sigh> You was prettier wiv yer gob shut... But I can see I'm outta me depth, 'ere."
+86,"TEXT_CLSROG300_00154_PIRATE00154_100_043","As much as I'd like to lop off yer noggins, I'll 'ave to be satisfied wiv draggin' the two o' ye out into the wilds. Kept ye well outta the way, 'aven't I?"
+87,"TEXT_CLSROG300_00154_JACKE_110_043","...Out with it, then!"
+88,"TEXT_CLSROG300_00154_PIRATE00154_000_044","Gahahahahaha! Ain't it obvious? You stubborn scrags is lookin' to swipe our new toy, an' my job was to stall ye."
+89,"TEXT_CLSROG300_00154_PIRATE00154_000_045","The cap'n 'as the mine wiv 'im right now. 'E's set to show the rest o' the Executioners that 'e's got the stones to sit in the leader's chair!"
+90,"TEXT_CLSROG300_00154_PIRATE00154_000_046","...An' what better way to do that than <Emphasis>executin'</Emphasis> the bitch what snapped the chains on our crew!"
+91,"TEXT_CLSROG300_00154_JACKE_000_047","He's targetin' the Admiral herself!? ...Yer plannin' to blow up the command room, ain't ye?"
+92,"TEXT_CLSROG300_00154_PIRATE00154_000_048","Aye, you 'ave me permission to panic! 'Course, if ye'd rather steer clear o' the city, I'd be glad to keep ye company right 'ere, sweetmeat! Gahaha!"
+93,"TEXT_CLSROG300_00154_JACKE_000_050","Back to Thalaos, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. We ain't done with that cacklin' pirate mort just yet..."
+94,"TEXT_CLSROG300_00154_PIRATE00154_000_055","Think ye can stop Cap'n Aisibhir? If ye sprout yerself some wings, then ye might still make it! Gahaha!"
+95,"TEXT_CLSROG300_00154_JACKE_000_060","We've got this mad mort at our mercy, but she seems to be enjoyin' herself... I'd better drag her back to the guild an' see what other information she'll spill."
+96,"TEXT_CLSROG300_00154_JACKE_000_061","I'll need you back in Limsa as well, but ye've business at the Foremast first. Ye should find Captain Milala at her post there."
+97,"TEXT_CLSROG300_00154_JACKE_000_062","Forget about the soddin' challenge an' tell her everythin' we know. Unless me judgment's well off-kilter, she'll do what needs to be done. "
+98,"TEXT_CLSROG300_00154_JACKE_000_070","Have ye been to the Foremast yet? Well, ye'd best get yerself out to middle La Noscea on the bloody double! Milala needs to hear the Executioners' plans!"
+99,"TEXT_CLSROG300_00154_MILALA_000_080","Oh, you're one of Jacke's rogues. ...You've come to steal the Sorrows, have you!?"
+100,"TEXT_CLSROG300_00154_MILALA_000_081","Well, you shan't have them. As you can see, they're safely clasped upon my very own─ Hm? You're not here for the earrings?"
+101,"TEXT_CLSROG300_00154_MILALA_000_082","...The Admiral, you say!? And you are sure these fiends are in possession of the sarcophagus? I must deploy more sentries at once!"
+102,"TEXT_CLSROG300_00154_MILALA_000_083","Do not think this voids our challenge, rogue! And you can relay as much to your impudent guildmaster! ...I suppose you can thank him for the warning, as well."
+103,"TEXT_CLSROG300_00154_JACKE_000_090","...So the 'Jackets are on the move? Bene. I've been listenin' to that addled pirate cackle since I got her back to the Sisters, but she's given us naught what we didn't already know."
+104,"TEXT_CLSROG300_00154_JACKE_000_091","An' we know more'n enough. I say we rally the rogues an' go after that mine...afore it blows up in our muns."
+105,"TEXT_CLSROG300_00154_JACKE_000_092","Ye'll need all the edge ye can get for what's to come, so let's introduce ye to a new trick. This one's called Shadow Fang."
+106,"TEXT_CLSROG300_00154_JACKE_000_093","Do it right, an' ye'll see yer opponent start to wither afore ye─even the toughest swads'll be wonderin' why their knees are tremblin' halfway through the fight."
+107,"TEXT_CLSROG300_00154_JACKE_000_095","I'd tell ye it's best to sink the fang in early, but I'm sure a clever <If(PlayerParameter(4))>lass<Else/>cove</If> like yerself'll figure that out."
 108,"TEXT_CLSROG300_00154_JACKE_000_094","（★未使用／削除予定★）"

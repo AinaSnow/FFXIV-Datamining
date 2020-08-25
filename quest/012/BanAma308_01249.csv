@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANAMA308_01249_SEQ_00","灰の陣営のヤドヴ・ガーは、冒険者に懸念を解消してほしいようだ。"
-1,"TEXT_BANAMA308_01249_SEQ_01","ヤドヴ・ガーの依頼を受けた。ザハラク戦陣の「<Sheet(EObj,2003087,0)/>」で待機し、出現した「<Sheet(BNpcName,2304)/>」を討伐して、「<Sheet(EventItem,2001170,0)/>」を3個入手しよう。"
-2,"TEXT_BANAMA308_01249_SEQ_02","<Sheet(BNpcName,2304)/>を討伐して<Sheet(EventItem,2001170,0)/>を入手した。ザンラクの「<Sheet(EObj,2003083,0)/>」と「<Sheet(EObj,2003094,0)/>」に「<Sheet(EventItem,2001170,0)/>」を使おう。"
-3,"TEXT_BANAMA308_01249_SEQ_03","<Sheet(EObj,2003083,0)/>と<Sheet(EObj,2003094,0)/>に<Sheet(EventItem,2001170,0)/>を使い、虜囚を解放した。灰の陣営の「ヤドヴ・ガー」に報告しよう。"
-4,"TEXT_BANAMA308_01249_SEQ_04","ヤドヴ・ガーに報告した。冒険者のおかげで、後顧の憂いなく戦いに行けると喜ぶヤドヴ・ガー。冒険者のことをとても頼りにしているようだ。またの機会に協力しよう。"
+0,"TEXT_BANAMA308_01249_SEQ_00","Yadovv Gah requires your skill at subterfuge."
+1,"TEXT_BANAMA308_01249_SEQ_01","The Flamefangs have kidnapped more men and women to offer up to the Lord of the Inferno. Believing that the captives will be tempered ere long, Yadovv Gah urges you to act with all haste. Stalk and slay the guards who hold the keys to the cages."
+2,"TEXT_BANAMA308_01249_SEQ_02","Having obtained the keys, you must now liberate the prisoners. Search for the cages which hold the captive men and women, then use the keys to set them free."
+3,"TEXT_BANAMA308_01249_SEQ_03","The Lord of the Inferno will claim no new souls this day, for the captives have all escaped. Return to the Ring of Ash and report to Yadovv Gah."
+4,"TEXT_BANAMA308_01249_SEQ_04","Yadovv Gah thanks you for sparing him and his brothers from the loathsome task of slaying more tempered slaves in battle. As he decries the cowardice of the Flamefangs, you observe that his distaste for the enemy runs deep..."
 5,"TEXT_BANAMA308_01249_SEQ_05",""
 6,"TEXT_BANAMA308_01249_SEQ_06",""
 7,"TEXT_BANAMA308_01249_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_BANAMA308_01249_SEQ_21",""
 22,"TEXT_BANAMA308_01249_SEQ_22",""
 23,"TEXT_BANAMA308_01249_SEQ_23",""
-24,"TEXT_BANAMA308_01249_TODO_00","ザハラク戦陣の<Sheet(EObj,2003087,0)/>で待機して<Sheet(BNpcName,2304)/>から<Sheet(EventItem,2001170,0)/>を入手"
-25,"TEXT_BANAMA308_01249_TODO_01","ザンラクの<Sheet(EObj,2003083,0)/>と<Sheet(EObj,2003094,0)/>に<Sheet(EventItem,2001170,0)/>を使う"
-26,"TEXT_BANAMA308_01249_TODO_02","ヤドヴ・ガーに報告"
+24,"TEXT_BANAMA308_01249_TODO_00","Lie in wait for Zahar'ak guards."
+25,"TEXT_BANAMA308_01249_TODO_01","Free the captives from their cages."
+26,"TEXT_BANAMA308_01249_TODO_02","Report to Yadovv Gah."
 27,"TEXT_BANAMA308_01249_TODO_03",""
 28,"TEXT_BANAMA308_01249_TODO_04",""
 29,"TEXT_BANAMA308_01249_TODO_05",""
@@ -49,41 +49,21 @@ int32,str,str
 45,"TEXT_BANAMA308_01249_TODO_21",""
 46,"TEXT_BANAMA308_01249_TODO_22",""
 47,"TEXT_BANAMA308_01249_TODO_23",""
-48,"TEXT_BANAMA308_01249_YADOVVGAH_000_000","冒険者殿のお力添えもあり、
-我ら「灰の一党」の力もずいぶんと増し申した。"
-49,"TEXT_BANAMA308_01249_YADOVVGAH_000_001","我らが本気となれば、「炎牙衆」など
-鎧袖一触に伏すこと難くないと自負しておりまするが……
-されどそれがし、ひとつ懸念があり申す。"
-50,"TEXT_BANAMA308_01249_YADOVVGAH_000_002","炎牙衆によって連れ去られた者たちは、
-いまだ少なからず、奴らの牢に繋がれていると聞きまする。
-これを助け出さねば、後顧の憂いとなるは必定。"
-51,"TEXT_BANAMA308_01249_YADOVVGAH_000_003","冒険者殿……敵地にある、
-「<Sheet(EObj,2003083,0)/>」と「<Sheet(EObj,2003094,0)/>」より、
-虜囚を解放してはもらえぬか。"
-52,"TEXT_BANAMA308_01249_YADOVVGAH_000_004","牢を開く「<Sheet(EventItem,2001170,0)/>」は、ザハラク戦陣にいる、
-炎牙衆「<Sheet(BNpcName,2304)/>」が持っておる。
-まずは鍵を預かる戦陣の敵を倒し、その後に牢を探すが肝要。"
-53,"TEXT_BANAMA308_01249_YADOVVGAH_000_005","いかんせん、我らの巨躯は目立ちすぎ申す。
-それにかような隠密行動は、貴殿の得意分野ではあるまいか。"
-54,"TEXT_BANAMA308_01249_YADOVVGAH_000_010","「<Sheet(BNpcName,2304)/>」より「<Sheet(EventItem,2001170,0)/>」を奪い、
-「<Sheet(EObj,2003083,0)/>」と「<Sheet(EObj,2003094,0)/>」より虜囚を解放してはもらえぬか。
-お頼み申す！"
-55,"TEXT_BANAMA308_01249_YADOVVGAH_000_020","虜囚の解放は、上手くいったようでありまするな！
-これでそれがしらも、心残りなく戦にのぞめるというもの！"
-56,"TEXT_BANAMA308_01249_YADOVVGAH_000_021","貴殿にこの任を授けた、それがしの目は、
-どうやら間違いではなかったようであり申す。
-汗馬之労……ご助力、感謝いたす。"
-57,"TEXT_BANAMA308_01249_POP_MESSAGE","敵の気配を感じた！！"
-58,"TEXT_BANAMA308_01249_POP_MESSAGE_000_000","その行動は出現した敵を倒さないと実行できません"
-59,"TEXT_BANAMA308_01249_PRISONER_001","(-囚われた者-)に……逃がしてくれるのか！？"
-60,"TEXT_BANAMA308_01249_PRISONER_002","(-囚われた者-)ありがたい！　この恩は忘れないよ！"
-61,"TEXT_BANAMA308_01249_PRISONER_003","(-囚われた者-)まさか、正気でこの檻を出られる日が来るとは……。"
-62,"TEXT_BANAMA308_01249_PRISONER_004","(-囚われた者-)ああ……！
-助かったのか、私は……！"
-63,"TEXT_BANAMA308_01249_PRISONER_005","(-囚われた者-)すげぇなあんた……アマルジャ族を出し抜いて、
-俺たちの檻を解放してみせるなんて。"
-64,"TEXT_BANAMA308_01249_PRISONER_006","(-囚われた者-)くそぅ……トカゲ野郎どもめ……！
-今回は不覚をとったが、次は返り討ちにしてくれる！
-アラミゴの戦士をナメんじゃねぇぞ！"
-65,"TEXT_BANAMA308_01249_PRISONER_007","(-囚われた者-)まさか、助けが来るとは思ってなかったからな……。
-まだこれが夢じゃないのかって疑っちまうよ。"
+48,"TEXT_BANAMA308_01249_YADOVVGAH_000_000","The Brotherhood thrives, and the Flamefangs cower. Share in our glory, honored ally, for you have labored much for our cause."
+49,"TEXT_BANAMA308_01249_YADOVVGAH_000_001","But share too in our sorrow, for more men and women have been taken to swell the ranks of our enemies."
+50,"TEXT_BANAMA308_01249_YADOVVGAH_000_002","The zealots will brook no further delay. The captives will be tempered ere long if we do not act."
+51,"TEXT_BANAMA308_01249_YADOVVGAH_000_003","Stalk the guards who hold the keys to the cages. Lie in wait for their arrival and slay them with impunity!"
+52,"TEXT_BANAMA308_01249_YADOVVGAH_000_004","When finished, move with all haste to free the captives. Let not the Flamefangs delay you, for every second is precious."
+53,"TEXT_BANAMA308_01249_YADOVVGAH_000_005","This occasion calls for subterfuge, not bravado. Slake your bloodlust another day."
+54,"TEXT_BANAMA308_01249_YADOVVGAH_000_010","Remember that time is of the essence. Move in shadow and strike only when necessary. The welfare of the prisoners takes priority above all else!"
+55,"TEXT_BANAMA308_01249_YADOVVGAH_000_020","There is no honor in facing a mindless slave in battle. That you have spared us this loathsome task is of great comfort to me."
+56,"TEXT_BANAMA308_01249_YADOVVGAH_000_021","The cowardice of the Flamefangs is beyond all measure─beyond all forgiveness! That they offer themselves willingly is pathetic; that they sacrifice others is sickening..."
+57,"TEXT_BANAMA308_01249_POP_MESSAGE","Your quarry approaches..."
+58,"TEXT_BANAMA308_01249_POP_MESSAGE_000_000","The enemy is still about!"
+59,"TEXT_BANAMA308_01249_PRISONER_001","(-Relieved Captive-)Th-Thank the gods you've come!"
+60,"TEXT_BANAMA308_01249_PRISONER_002","(-Grateful Captive-)Bless you, <If(PlayerParameter(4))>miss<Else/>sir</If>, bless you!"
+61,"TEXT_BANAMA308_01249_PRISONER_003","(-Surprised Captive-)I...I never believed I'd... Thank you!"
+62,"TEXT_BANAMA308_01249_PRISONER_004","(-Disheveled Captive-)I'm...I'm free? Truly?"
+63,"TEXT_BANAMA308_01249_PRISONER_005","(-Impressed Captive-)What!? How in the seven hells did you─ Gah, there's no time for this!"
+64,"TEXT_BANAMA308_01249_PRISONER_006","(-Enraged Captive-)I'll kill them all, I swear! They were fools to cross an Ala Mhigan!"
+65,"TEXT_BANAMA308_01249_PRISONER_007","(-Disbelieving Captive-)This is a dream, right? You're not real...are you?"

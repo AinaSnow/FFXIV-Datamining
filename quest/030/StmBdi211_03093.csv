@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDI211_03093_SEQ_00","大道具部屋の妖艶な劇団員は、冒険者に頼み事があるようだ。"
-1,"TEXT_STMBDI211_03093_SEQ_01","異邦の劇作家が、冒険者に用事があるらしい。大道具部屋の「異邦の劇作家」と話そう。"
-2,"TEXT_STMBDI211_03093_SEQ_02","異邦の劇作家から、ベーコンエピの調達を頼まれた。「<Sheet(ItemHQ,9331,0)/>」を10個調達し、大道具部屋の「異邦の劇作家」に納品しよう。"
-3,"TEXT_STMBDI211_03093_SEQ_03","異邦の劇作家に<Sheet(ItemHQ,9331,0)/>を納品した。喜んだ異邦の劇作家は、お礼にこのあたりでは貴重な品を進呈してくれた。おつかいの報酬として、遠慮なくもらっておこう。"
+0,"TEXT_STMBDI211_03093_SEQ_00","A request from the company belle? Hopefully this is not about bacon bread again."
+1,"TEXT_STMBDI211_03093_SEQ_01","Relief washes over you as your conversation with the company belle ends without a single mention of bacon bread. According to the wandering dramaturge's scantily clad soul mate, the good man would simply like to learn more of your exploits at the Ridorana Cataract."
+2,"TEXT_STMBDI211_03093_SEQ_02","The dramaturge is somehow able to turn a congratulatory toast to your recent victory over the forces of darkness into a request to fetch him ten loaves of─you guessed it─bacon bread of the highest quality."
+3,"TEXT_STMBDI211_03093_SEQ_03","Ever impressed by your resourcefulness, the dramaturge rewards you with a pair of rare trinkets which may well be worth far more than he realizes. Not that you should feel any compunction to tell him..."
 4,"TEXT_STMBDI211_03093_SEQ_04",""
 5,"TEXT_STMBDI211_03093_SEQ_05",""
 6,"TEXT_STMBDI211_03093_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_STMBDI211_03093_SEQ_21",""
 22,"TEXT_STMBDI211_03093_SEQ_22",""
 23,"TEXT_STMBDI211_03093_SEQ_23",""
-24,"TEXT_STMBDI211_03093_TODO_00","異邦の劇作家と話す"
-25,"TEXT_STMBDI211_03093_TODO_01","異邦の劇作家に<Sheet(ItemHQ,9331,0)/>を納品"
+24,"TEXT_STMBDI211_03093_TODO_00","Speak with the wandering dramaturge."
+25,"TEXT_STMBDI211_03093_TODO_01","Deliver loaves of bacon bread <Sheet(Addon,9,0)/> to the wandering dramaturge."
 26,"TEXT_STMBDI211_03093_TODO_02",""
 27,"TEXT_STMBDI211_03093_TODO_03",""
 28,"TEXT_STMBDI211_03093_TODO_04",""
@@ -49,60 +49,22 @@ int32,str,str
 45,"TEXT_STMBDI211_03093_TODO_21",""
 46,"TEXT_STMBDI211_03093_TODO_22",""
 47,"TEXT_STMBDI211_03093_TODO_23",""
-48,"TEXT_STMBDI211_03093_BEWITCHINGMEMBER_100_000","お疲れ様。
-……いろいろと気を遣うことも多くて、
-たいへんな遠征になってしまったわね。"
-49,"TEXT_STMBDI211_03093_BEWITCHINGMEMBER_101_000","お疲れのところ、本当に申し訳ないんだけど、
-ウチのダーリンが……異邦の劇作家が、
-<If(PlayerParameter(4))>貴女<Else/>貴方</If>に用事があるって言ってるわよ。"
-50,"TEXT_STMBDI211_03093_BEWITCHINGMEMBER_100_010","お疲れのところ、本当に申し訳ないんだけど、
-ウチのダーリンが……異邦の劇作家が、
-<If(PlayerParameter(4))>貴女<Else/>貴方</If>に用事があるって言ってるわよ。"
-51,"TEXT_STMBDI211_03093_WANDERINGWRITER_000_000","いやぁ、お疲れお疲れ。
-リドルアナ大灯台が機工都市ゴーグの基部だったとは驚きだねぇ。
-ゴーグの様子がどうだったのか、詳しく聞かせてほしいな。"
-52,"TEXT_STMBDI211_03093_WANDERINGWRITER_000_001","おっと、その前に、
-ゴーグの発見と英雄殿の無事を祝って乾杯といこうじゃないか。
-せっかくだ、私のワインコレクションを持ってくるよ。"
-53,"TEXT_STMBDI211_03093_WANDERINGWRITER_000_002","ああ、そうだ。
-お疲れのところ、すまないが、
-英雄殿にもちょっと手伝ってもらおうかな。"
-54,"TEXT_STMBDI211_03093_WANDERINGWRITER_000_003","私と妻の大好物のベーコンエピを調達してくれるかな。
-皆で乾杯するから、そうだね、ひぃ、ふぅ、みぃ……
-<Sheet(ItemHQ,9331,0)/>を10個、持ってきてくれたまえ、頼んだよ。"
-55,"TEXT_STMBDI211_03093_BEWITCHINGMEMBER_000_030","彼はベーコンエピが好きというより、
-お酒に合うつまみを作るのが好きなのね。
-ベーコンも自分で仕込んでしまうぐらいなのよ。"
-56,"TEXT_STMBDI211_03093_BEWITCHINGMEMBER_000_200","アレが……話に聞いていた「聖石」がもたらす「災い」ね？
-何者かが聖石オティスを中継してアルマちゃんを転移させた……。
-それはいったい何のためなの……？"
-57,"TEXT_STMBDI211_03093_BEWITCHINGMEMBER_000_201","ううん、いいの……。
-一刻も早くゴルモア大密林へ……
-オーボンヌ修道院へ行かないと……ね。"
-58,"TEXT_STMBDI211_03093_BEWITCHINGMEMBER_000_210","なんですって、今度はラムザが囚われたですって！？
-お願い！　彼を無事に連れ戻すと約束して！
-<If(PlayerParameter(4))>貴女<Else/>貴方</If>にならできるわ……必ず成し遂げられる！！"
-59,"TEXT_STMBDI211_03093_BEWITCHINGMEMBER_000_220","ティアの息子を死なせるなんてできないわ……。
-お願い！　彼を無事に連れ戻すと約束して！
-<If(PlayerParameter(4))>貴女<Else/>貴方</If>にならできるわ……必ず成し遂げられる！！"
-60,"TEXT_STMBDI211_03093_BEWITCHINGMEMBER_000_230","ありがとう……感謝に堪えないわ。
-もし、ラムザに何かあったらティアに顔向けできなかった……。
-……安心したら、どっと疲れが出てきたみたい。フフフ、歳ね。"
-61,"TEXT_STMBDI211_03093_BEWITCHINGMEMBER_000_240","『貴様たちはオヴェリア様を戦争の道具にしようとしている！
-　恥ずかしくないのか！？　犬になりさがっている自分が！
-　人間としての誇りはないのかッ！？"
-62,"TEXT_STMBDI211_03093_BEWITCHINGMEMBER_000_241","……ここはもうちょっと凜とした声が必要ね。
-素早く振り向き、視線をやや流しながら向ける……。
-そして、台詞……っと。"
-63,"TEXT_STMBDI211_03093_WANDERINGWRITER_000_050","きみはなんといったって「おつかいのエキスパート」だ！
-プロ中のプロ、戦闘よりもそっちの腕前がよかったりして、ハハハハ。
-……そんなわけで、<Sheet(ItemHQ,9331,0)/>を10個だ、よろしく頼むよ。"
-64,"TEXT_STMBDI211_03093_WANDERINGWRITER_000_070","おお、これがエオルゼア産のベーコンエピだね！
-小麦の香りといい、ロースベーコンの香りといい、実に芳醇だ！
-わずかに海の香りがするのもイイね！"
-65,"TEXT_STMBDI211_03093_WANDERINGWRITER_000_071","英雄殿のおかげで、乾杯できそうだ。
-美味しいワインのつまみは、チーズとパンがあれば十分。
-しかも、ベーコンエピがここにある、うん、サイコーだ！"
-66,"TEXT_STMBDI211_03093_WANDERINGWRITER_000_072","お礼にこの不活性クリスタルと不活性クラスターを進呈しよう。
-なんでも、このあたりでは品不足だとか。
-遠慮なく取っておいてくれたまえ、本当にありがとう！"
+48,"TEXT_STMBDI211_03093_BEWITCHINGMEMBER_100_000","I am sure you are aching to take the weight off your feet after so long and arduous a journey─but my husband seeks an audience."
+49,"TEXT_STMBDI211_03093_BEWITCHINGMEMBER_101_000","You must forgive the man. He can be a trifle...demanding at times, but I assure you he means no ill."
+50,"TEXT_STMBDI211_03093_BEWITCHINGMEMBER_100_010","I am sure you are aching to take the weight off your feet after so long and arduous a journey─but my husband seeks an audience. Humor him, I prithee...for me?"
+51,"TEXT_STMBDI211_03093_WANDERINGWRITER_000_000","A beacon built atop the ruins of a lost city, you say? I would so like to hear more of this latest adventure..."
+52,"TEXT_STMBDI211_03093_WANDERINGWRITER_000_001","But to do so <Emphasis>sans refreshment</Emphasis> would be in poor taste, indeed. I shall send for an assortment of viands and a bottle of my finest."
+53,"TEXT_STMBDI211_03093_WANDERINGWRITER_000_002","Then again, why send a minion to do the job of a master? Before me stands a <If(PlayerParameter(4))>woman<Else/>man</If> in a class all <If(PlayerParameter(4))>her<Else/>his</If> own when it comes to matters of procurement...as you amply proved earlier."
+54,"TEXT_STMBDI211_03093_WANDERINGWRITER_000_003","After decades of experimentation, I have found that naught save the <Emphasis>freshest</Emphasis> of freshly baked bacon bread can truly be said to complement my vintage collection. So, shall we say...ten loaves? And none of that day-old stuff. Only the highest quality will do. Understood?"
+55,"TEXT_STMBDI211_03093_BEWITCHINGMEMBER_000_030","My beloved's obsession with bacon runs deep. There was a time when he would cure and smoke his own meat here on the <Emphasis>Prima Vista</Emphasis>...that is, until the Principal forbade it after being forced to replace half of the company wardrobe due the smell."
+56,"TEXT_STMBDI211_03093_BEWITCHINGMEMBER_000_200","From both the principal and my husband I've heard mention of a “blight” brought about by the auracite. Could that portal we just witnessed be a means of spreading it?"
+57,"TEXT_STMBDI211_03093_BEWITCHINGMEMBER_000_201","No... Now is not the time for idle speculation. You must focus your efforts on the task at hand."
+58,"TEXT_STMBDI211_03093_BEWITCHINGMEMBER_000_210","You rescued Alma only to watch as Ramza was taken in her stead? Promise me, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! Promise me you will see this right!"
+59,"TEXT_STMBDI211_03093_BEWITCHINGMEMBER_000_220","We must do something, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! Anything! We cannot let it end like this. Tia would never forgive us..."
+60,"TEXT_STMBDI211_03093_BEWITCHINGMEMBER_000_230","Our thanks, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. If aught ill had befallen Ramza, his mother would have risen from the Lifestream to haunt us for all eternity. Oh, you presume I jest?"
+61,"TEXT_STMBDI211_03093_BEWITCHINGMEMBER_000_240","""Lord Dycedarg and the duke would use her as a pawn in their game of thrones! Just as the two of them now use you! Is a man like you not ashamed to be no more than a piece in their game? Have you no pride―no honor?“"
+62,"TEXT_STMBDI211_03093_BEWITCHINGMEMBER_000_241","Hmmm... There is something lacking in the delivery. A touch more tempered fury, perhaps. A sidelong glance into a swift turn and then─ Ah, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Simply practicing my lines."
+63,"TEXT_STMBDI211_03093_WANDERINGWRITER_000_050","I imagine one with your myriad talents could procure ten loaves of high-quality bacon bread without a second thought. Mayhap I should have asked for a score...?"
+64,"TEXT_STMBDI211_03093_WANDERINGWRITER_000_070","Tell me, what is that breathtaking aroma? The bouquet of roasted grain and sweet cream butter, accented by the subtle tang of woodsmoke... Could it be...?"
+65,"TEXT_STMBDI211_03093_WANDERINGWRITER_000_071","Ahhh, it is! Bacon bread─and of a quality seldom seen outside the realm's most decorated bakeries. So armed, we can at last celebrate the latest of your unparalleled achievements. A toast!"
+66,"TEXT_STMBDI211_03093_WANDERINGWRITER_000_072","And yes, your reward. You must forgive me, for all I have to offer are these cracked crystals found on one of my wanderings through the ancient thoroughfares of Mhach. If you do not care for them, feel free to throw them away. I shall not be in the least offended."

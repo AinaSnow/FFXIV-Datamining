@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBFST014_00041_SEQ_00","園芸師のサミアヌは、道にばら撒いてしまった、あるモノを集める手伝いを頼みたいようだ。"
-1,"TEXT_SUBFST014_00041_SEQ_01","園芸師ギルドまでの道を辿り、散らばった「アーゼマローズの実」を回収しよう。"
-2,"TEXT_SUBFST014_00041_SEQ_02","ひととおり、実を拾い終えたようだ。「サミアヌ」に届けよう。"
-3,"TEXT_SUBFST014_00041_SEQ_03","冒険者のおかげで、道を花だらけにせずに済んだと胸をなでおろしたサミアヌ。道が花であふれれば見た目は美しいが、育つべき場所で育てるのが植物の為なのだという。"
+0,"TEXT_SUBFST014_00041_SEQ_00","A botanist named Samiane is hoping that an adventurer will pick up scattered rose hips for her."
+1,"TEXT_SUBFST014_00041_SEQ_01","Like all good Gridanians, Samiane treats her belongings with respect and is loath to discard them before they reach the end of their useful lives. An admirable stance, to be sure, but one which leads to disaster when her venerable seed pouch splits, depositing its cargo of Azeyma rose hips in her wake. Help the unfortunate botanist by gathering the lost rose hips strewn along the road to the Greatloam Growery."
+2,"TEXT_SUBFST014_00041_SEQ_02","You gather the scattered rose hips with great care. Return them to Samiane and set her mind at ease."
+3,"TEXT_SUBFST014_00041_SEQ_03","Samiane thanks you for your assistance in collecting the Azeyma rose hips. Though some seeds may have sprouted where they fell, she explains that all botanists consider it their responsibility to raise the Twelveswood's flora in the best possible conditions. That said, she concedes that a rose-lined path might not have been so bad..."
 4,"TEXT_SUBFST014_00041_SEQ_04",""
 5,"TEXT_SUBFST014_00041_SEQ_05",""
 6,"TEXT_SUBFST014_00041_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_SUBFST014_00041_SEQ_21",""
 22,"TEXT_SUBFST014_00041_SEQ_22",""
 23,"TEXT_SUBFST014_00041_SEQ_23",""
-24,"TEXT_SUBFST014_00041_TODO_00","アーゼマローズの実を拾う"
-25,"TEXT_SUBFST014_00041_TODO_01","サミアヌにアーゼマローズの実を渡す"
+24,"TEXT_SUBFST014_00041_TODO_00","Gather Azeyma rose hips."
+25,"TEXT_SUBFST014_00041_TODO_01","Deliver the Azeyma rose hips to Samiane."
 26,"TEXT_SUBFST014_00041_TODO_02",""
 27,"TEXT_SUBFST014_00041_TODO_03",""
 28,"TEXT_SUBFST014_00041_TODO_04",""
@@ -49,23 +49,11 @@ int32,str,str
 45,"TEXT_SUBFST014_00041_TODO_21",""
 46,"TEXT_SUBFST014_00041_TODO_22",""
 47,"TEXT_SUBFST014_00041_TODO_23",""
-48,"TEXT_SUBFST014_00041_SAMIANE_000_1","あら、何かご用かしら……
-……って、わ、わ、わ！
-ちょっと待って！　止まって、止まって！！"
-49,"TEXT_SUBFST014_00041_SAMIANE_000_2","あああ、やっぱり……！
-花の実を入れてた袋に、でっかい穴が……っ！"
-50,"TEXT_SUBFST014_00041_SAMIANE_000_3","すみません、通りすがりのあなた！
-道にばら撒いてしまった「アーゼマローズの実」を
-拾うのを手伝ってくれませんか！？"
-51,"TEXT_SUBFST014_00041_SAMIANE_000_4","私が歩いてきた道……
-ここから農場までの道を辿って、拾い集めてください！
-どうか、お願いします！"
-52,"TEXT_SUBFST014_00041_SAMIANE_000_10","実を拾い終わったんですか！？
-……踏んづけたり、してないですよね？"
-53,"TEXT_SUBFST014_00041_SAMIANE_000_11","ありがとうございます！
-お陰で、この通りを花だらけにしなくて済みそうです。"
-54,"TEXT_SUBFST014_00041_SAMIANE_000_12","うふふ……もちろん、都市が
-草花でいっぱいになれば美しいでしょうけど……
-植物にはそれぞれ、過ごしやすい場所があるんですよ。"
-55,"TEXT_SUBFST014_00041_SAMIANE_000_13","手伝ってくれて、ありがとうございました。
-親切なあなたに森と精霊の加護がありますように。"
+48,"TEXT_SUBFST014_00041_SAMIANE_000_1","Stop right there! Not another step!"
+49,"TEXT_SUBFST014_00041_SAMIANE_000_2","I apologize if I have startled you, but please be careful─the ground here is covered in rose hips. You see, my seed pouch had grown so threadbare that it finally split open."
+50,"TEXT_SUBFST014_00041_SAMIANE_000_3","Unbeknown to myself, I've been scattering Azeyma rose hips all along this road. Oh, good <If(PlayerParameter(4))>madam<Else/>sir</If>, if you would help me gather them, I'd be ever so grateful."
+51,"TEXT_SUBFST014_00041_SAMIANE_000_4","Thank you! Your kindness is truly a blessing from the elementals. The rose hips should be lying on the road between here and the Greatloam Growery. Remember to tread lightly, lest you crush them underfoot!"
+52,"TEXT_SUBFST014_00041_SAMIANE_000_10","Good <If(PlayerParameter(4))>madam<Else/>sir</If>, pray tell me you have recovered all the rose hips and abandoned not one to a traveler's boot!"
+53,"TEXT_SUBFST014_00041_SAMIANE_000_11","Blessings be upon you! I feared this path would be lined with roses next year."
+54,"TEXT_SUBFST014_00041_SAMIANE_000_12","Not that such a wondrous sight would be wholly objectionable, but Azeyma roses are ill-suited to this location. As a botanist, it's my responsibility to see Gridania's plants grow and thrive in the most ideal conditions. A place for every seed and every seed in its place, you might say."
+55,"TEXT_SUBFST014_00041_SAMIANE_000_13","'Twas most gracious of you to aid me in my time of need. I pray the elementals extend you the same kindness."

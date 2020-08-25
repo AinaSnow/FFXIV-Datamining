@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSA806_00790_SEQ_00","フロランテル監視哨の鬼哭隊オリアヌは、周辺の木々を気にしているようだ。"
-1,"TEXT_GAIUSA806_00790_SEQ_01","オリアヌは<Sheet(BNpcName,40,0)/>による樹木の被害を心配しているようだ。「<Sheet(EventItem,2000620,0)/>」を3箇所の「<Sheet(EObj,2001990,0)/>」で使い、現れた「<Sheet(BNpcName,40,0)/>」を駆除しよう。"
-2,"TEXT_GAIUSA806_00790_SEQ_02","すべての<Sheet(BNpcName,40,0)/>を駆除することができた。フロランテル監視哨の「オリアヌ」に報告しよう。"
-3,"TEXT_GAIUSA806_00790_SEQ_03","フロランテル監視哨の名は、森を愛した英雄に由来しているのだという。オリアヌは、英雄のためにも監視哨の周囲に美しい木々を育てたいようだ。"
+0,"TEXT_GAIUSA806_00790_SEQ_00","Oriane of Florentel's Spire is concerned for the trees."
+1,"TEXT_GAIUSA806_00790_SEQ_01","Their resources needed to stave off Ixali raids, Oriane and her fellow Wood Wailers cannot attend to the baneful hares that are ravaging the flora of the Twelveswood. Pour flat ale on scarred trees to attract the pests, then slay them."
+2,"TEXT_GAIUSA806_00790_SEQ_02","The bark-chewing, leaf-eating hares will feast on local flora no more. Report your success to Oriane."
+3,"TEXT_GAIUSA806_00790_SEQ_03","Oriane thanks you for your efforts. She is resolved to protect the Twelveswood to honor the memory of Florentel, the legendary hero whose name the spire bears."
 4,"TEXT_GAIUSA806_00790_SEQ_04",""
 5,"TEXT_GAIUSA806_00790_SEQ_05",""
 6,"TEXT_GAIUSA806_00790_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSA806_00790_SEQ_21",""
 22,"TEXT_GAIUSA806_00790_SEQ_22",""
 23,"TEXT_GAIUSA806_00790_SEQ_23",""
-24,"TEXT_GAIUSA806_00790_TODO_00","<Sheet(EObj,2001990,0)/>に<Sheet(EventItem,2000620,0)/>を使い<Sheet(BNpcName,40,0)/>を討伐"
-25,"TEXT_GAIUSA806_00790_TODO_01","オリアヌに報告"
+24,"TEXT_GAIUSA806_00790_TODO_00","Pour flat ale on the scarred trees and slay Shroud hares."
+25,"TEXT_GAIUSA806_00790_TODO_01","Report to Oriane."
 26,"TEXT_GAIUSA806_00790_TODO_02",""
 27,"TEXT_GAIUSA806_00790_TODO_03",""
 28,"TEXT_GAIUSA806_00790_TODO_04",""
@@ -49,25 +49,13 @@ int32,str,str
 45,"TEXT_GAIUSA806_00790_TODO_21",""
 46,"TEXT_GAIUSA806_00790_TODO_22",""
 47,"TEXT_GAIUSA806_00790_TODO_23",""
-48,"TEXT_GAIUSA806_00790_ORIANE_000_000","私たちの任務は、黒衣森への外敵の侵入を警戒すること。
-気球を使うイクサル族を警戒するためには、
-片時も空から目を離せないの。"
-49,"TEXT_GAIUSA806_00790_ORIANE_000_001","だから、魔物退治にまで手がまわらなくてね。
-最近、増加してきた「<Sheet(BNpcName,40,0)/>」による
-樹木の被害を心配しているのよ。"
-50,"TEXT_GAIUSA806_00790_ORIANE_000_002","この「<Sheet(EventItem,2000620,0)/>」を撒いて、
-奴らを誘きだし、駆除してくれないかしら。
-この辺りの<Sheet(EObj,2001990,0)/>に使えば、飛び出てくるはずよ。"
-51,"TEXT_GAIUSA806_00790_BATTLE_000_010","木を調べてpopした「<Sheet(BNpcName,40,0)/>」を殺戮"
-52,"TEXT_GAIUSA806_00790_BATTLE_000_011","木を調べてpopした「<Sheet(BNpcName,40,0)/>」を殺戮"
-53,"TEXT_GAIUSA806_00790_BATTLE_000_012","木を調べてpopした「<Sheet(BNpcName,40,0)/>」を殺戮"
-54,"TEXT_GAIUSA806_00790_ORIANE_000_020","倒してくれたみたいね、ありがとう！
-私たちが国境の監視を緩めるわけにはいかないから、
-こういうことを手伝ってくれると、助かるわ。"
-55,"TEXT_GAIUSA806_00790_ORIANE_000_021","この監視哨の名の由来となった「フロランテル」はね、
-グリダニア建国初期に活躍した英雄なの。
-森を愛した彼のためにも、美しい木々を守りたいわ。"
-56,"TEXT_GAIUSA806_00790_ORIANE_000_022","ちなみに、プラウドクリークにある
-「ユージニア監視哨」の由来である英雄「ユージニア」は、
-「フロランテル」と恋仲だったみたい。素敵よね！"
-57,"TEXT_GAIUSA806_00790_POP_MESSAGE_000","敵の気配を感じた！！"
+48,"TEXT_GAIUSA806_00790_ORIANE_000_000","As a Wood Wailer, it is my sworn duty to protect my nation from the Ixal. Yet as a Gridanian, it pains me to see the trees around me wither and die while we are off fighting battles."
+49,"TEXT_GAIUSA806_00790_ORIANE_000_001","Shroud hares have grown destructive of late, gnawing away at trees and ripping shrubs from the ground. Yet we cannot very well tell the birdmen to stay their spears while we hunt oversized slugs, can we?"
+50,"TEXT_GAIUSA806_00790_ORIANE_000_002","...And so I turn to you, adventurer. Pour this week-old ale over the scarred trees, and the culprits should be along in short order. You would bring the wood much succor if you could put them down."
+51,"TEXT_GAIUSA806_00790_BATTLE_000_010","//: pop hares and kill them"
+52,"TEXT_GAIUSA806_00790_BATTLE_000_011",""
+53,"TEXT_GAIUSA806_00790_BATTLE_000_012",""
+54,"TEXT_GAIUSA806_00790_ORIANE_000_020","Thank you, adventurer. I can battle the Ixal with a clear conscience now, knowing that those like you are friends to the forest."
+55,"TEXT_GAIUSA806_00790_ORIANE_000_021","Florentel, whose name this spire bears, was one of the greatest heroes from the time of Gridania's founding. His martial exploits were exceeded only by his love for the forest."
+56,"TEXT_GAIUSA806_00790_ORIANE_000_022","...And his love for Eugenia─the namesake of our sister spire. Ah...do such tales of yore not set your heart aflutter?"
+57,"TEXT_GAIUSA806_00790_POP_MESSAGE_000","You sense a hostile presence!"

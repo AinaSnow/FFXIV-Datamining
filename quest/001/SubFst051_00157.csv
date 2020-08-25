@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBFST051_00157_SEQ_00","ベントブランチ牧場のルクロは、ダイアマイトから柵作りに使う素材の調達を頼みたいようだ。"
-1,"TEXT_SUBFST051_00157_SEQ_01","チョコボにちょっかいを出す不届き者がいるらしい。対策に新しい柵を作るため、ダイアマイトから「新鮮なダイアマイトウェブ」を6体分調達しよう。"
-2,"TEXT_SUBFST051_00157_SEQ_02","新鮮なダイアマイトウェブを集め終えた。ベントブランチ牧場の「ルクロ」に届けよう。"
-3,"TEXT_SUBFST051_00157_SEQ_03","ルクロはイシュガルドという都市の出身らしい。かつてチョコボ飼育を独占したほどの都市で育った彼は、チョコボに関する知識は豊富だが、その一方グリダニアでの生活で気付かされることも多いという。"
+0,"TEXT_SUBFST051_00157_SEQ_00","Luquelot at Bentbranch Meadows wishes you to procure fence-building materials from diremites."
+1,"TEXT_SUBFST051_00157_SEQ_01","A cruel intruder has been sneaking into the ranch to frighten the chocobos. Obtain six strands of diremite web to aid in the construction of a fence."
+2,"TEXT_SUBFST051_00157_SEQ_02","You have collected the strands of diremite web. Deliver them to Luquelot at Bentbranch Meadows."
+3,"TEXT_SUBFST051_00157_SEQ_03","Luquelot originally hails from Ishgard, a nation renowned for chocobo husbandry. Having been brought up around the birds, the Elezen possesses a wealth of knowledge on chocobos that serves him well at the ranch. He is, however, frequently surprised by the vagaries of Gridanian life."
 4,"TEXT_SUBFST051_00157_SEQ_04",""
 5,"TEXT_SUBFST051_00157_SEQ_05",""
 6,"TEXT_SUBFST051_00157_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_SUBFST051_00157_SEQ_21",""
 22,"TEXT_SUBFST051_00157_SEQ_22",""
 23,"TEXT_SUBFST051_00157_SEQ_23",""
-24,"TEXT_SUBFST051_00157_TODO_00","ダイアマイトから新鮮なダイアマイトウェブを入手"
-25,"TEXT_SUBFST051_00157_TODO_01","ルクロに新鮮なダイアマイトウェブを渡す"
+24,"TEXT_SUBFST051_00157_TODO_00","Obtain six strands of diremite web."
+25,"TEXT_SUBFST051_00157_TODO_01","Deliver the strands of diremite web to Luquelot at Bentbranch Meadows."
 26,"TEXT_SUBFST051_00157_TODO_02",""
 27,"TEXT_SUBFST051_00157_TODO_03",""
 28,"TEXT_SUBFST051_00157_TODO_04",""
@@ -49,31 +49,13 @@ int32,str,str
 45,"TEXT_SUBFST051_00157_TODO_21",""
 46,"TEXT_SUBFST051_00157_TODO_22",""
 47,"TEXT_SUBFST051_00157_TODO_23",""
-48,"TEXT_SUBFST051_00157_LUQUELOT_000_1","おや、見慣れない方ですね。
-冒険者ですか？
-少し、手伝ってほしいことがあるのですが。"
-49,"TEXT_SUBFST051_00157_LUQUELOT_000_2","近頃、牧場のチョコボに
-ちょっかいを出す不届き者がいるようでして。
-チョコボたちにとって、ストレスになっているようなんです。"
-50,"TEXT_SUBFST051_00157_LUQUELOT_000_3","対策に、柵を増やそうと思いまして。
-「新鮮なダイアマイトウェブ」が必要なので、
-調達を頼めますか？"
-51,"TEXT_SUBFST051_00157_LUQUELOT_000_4","たしか、牧場の付近にいる
-「ダイアマイト」から手に入れられるはずです。
-6体分もあれば十分でしょう。"
-52,"TEXT_SUBFST051_00157_LUQUELOT_000_10","ああ、新鮮なダイアマイトウェブの調達を
-依頼した冒険者ですね。
-調子はどうですか？"
-53,"TEXT_SUBFST051_00157_LUQUELOT_000_11","……はい、ばっちりです。助かりました。
-柵作りには、この粘着力が欠かせませんから。"
-54,"TEXT_SUBFST051_00157_LUQUELOT_000_12","それにしても、柵作りに魔物の粘液を使うなんて、
-イシュガルドにいたころは考えもしませんでした。"
-55,"TEXT_SUBFST051_00157_LUQUELOT_000_13","……ああ、言っていませんでしたね。
-僕は「イシュガルド」という都市の出身、
-グリダニアの者ではないんです。"
-56,"TEXT_SUBFST051_00157_LUQUELOT_000_14","かつては「チョコボといえばイシュガルド」というほど
-チョコボの飼育を独占した時期もありました。
-……まあ、昔の話ですが。"
-57,"TEXT_SUBFST051_00157_LUQUELOT_000_15","チョコボ飼育の指導を請われ、故郷を離れましたが
-こうして逆に、学ばされることも多い。
-世の中、何があるかわからないものです。"
+48,"TEXT_SUBFST051_00157_LUQUELOT_000_1","Greetings, <If(PlayerParameter(4))>madam<Else/>sir</If>. You have the distinct air of an adventurer. Might I trouble you for some assistance?"
+49,"TEXT_SUBFST051_00157_LUQUELOT_000_2","In recent days, a heartless cad has been sneaking into the ranch to scare our chocobos. The poor birds are in a state of constant unease, wondering when the next fright will come."
+50,"TEXT_SUBFST051_00157_LUQUELOT_000_3","It is my hope that extending the fencing will help to keep the intruder out. To that end, could I ask you to procure some strands of diremite web? They make for a surprisingly sturdy construction material."
+51,"TEXT_SUBFST051_00157_LUQUELOT_000_4","You should be able to obtain the web from the diremites themselves. There are usually a few to be found roaming the lands around the ranch. Six strands should be sufficient."
+52,"TEXT_SUBFST051_00157_LUQUELOT_000_10","Ah, you have returned. Tell me, were you able to procure the diremite web I requested?"
+53,"TEXT_SUBFST051_00157_LUQUELOT_000_11","Yes, yes, these will do nicely. These are perfect for binding posts together."
+54,"TEXT_SUBFST051_00157_LUQUELOT_000_12","Were I still in Ishgard, I would never have entertained the notion of using such a bizarre material in this manner."
+55,"TEXT_SUBFST051_00157_LUQUELOT_000_13","Oh, did I not mention I was from Ishgard? Aye, well, Gridania is, in actual fact, my second home."
+56,"TEXT_SUBFST051_00157_LUQUELOT_000_14","My native land was once famous for its chocobo stables. No man in Eorzea could speak of the creatures without his thoughts turning naturally to Ishgard. Sadly, however, that time has passed."
+57,"TEXT_SUBFST051_00157_LUQUELOT_000_15","I left my homeland to accept employment here at the ranch, instructing others in the methods of chocobo husbandry. Yet I have found that it is often I who am the recipient of others' instruction─and on a great many matters! Truly, one can never know what life may hold in store."

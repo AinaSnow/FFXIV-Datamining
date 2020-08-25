@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANSYL107_01263_SEQ_00","シルフの仮宿のトナクシアは、冒険者に自分の代わりを務めてほしいようだ。"
-1,"TEXT_BANSYL107_01263_SEQ_01","トナクシアの依頼を受けた。ラークスコールにいる4人の「帝国軍の軍団兵」に、トナクシアからもらった「<Sheet(EventItem,2001179,0)/>」を投げつけよう。また、<Sheet(EventItem,2001179,0)/>を投げつけると反撃される可能性があるらしい。現れた「<Sheet(BNpcName,2310,0)/>」を討伐しよう。"
-2,"TEXT_BANSYL107_01263_SEQ_02","<Sheet(EventItem,2001179,0)/>を投げつけて帝国兵を追い払った。シルフの仮宿の「トナクシア」に報告しよう。"
-3,"TEXT_BANSYL107_01263_SEQ_03","トナクシアに報告した。帝国のヒミツヘイキには、トナクシアの仲間もたくさんやられているらしい。冒険者が倒してくれてよかったと、トナクシアは喜んでいた。またの機会に協力しよう。"
+0,"TEXT_BANSYL107_01263_SEQ_00","Unwelcome visitors to the forest have Tonaxia ill at ease."
+1,"TEXT_BANSYL107_01263_SEQ_01","Frightening “steel ones”─imperial soldiers─are roving the forest, and Tonaxia fears for her people's safety. Furnishing you with makeshift projectile weapons capable of unleashing an obscenely foul odor, she bids you chase off the intruders."
+2,"TEXT_BANSYL107_01263_SEQ_02","You have seen to the Garlean menace. Assure Tonaxia that the steel ones will bother her people no more."
+3,"TEXT_BANSYL107_01263_SEQ_03","Tonaxia is profoundly impressed by your strength and selflessness. Shedding a tear for the friends she has already lost to the Garleans and their fearsome weaponry, she is nonetheless heartened to hear that the danger has been quelled for the moment."
 4,"TEXT_BANSYL107_01263_SEQ_04",""
 5,"TEXT_BANSYL107_01263_SEQ_05",""
 6,"TEXT_BANSYL107_01263_SEQ_06",""
@@ -25,9 +25,8 @@ int32,str,str
 21,"TEXT_BANSYL107_01263_SEQ_21",""
 22,"TEXT_BANSYL107_01263_SEQ_22",""
 23,"TEXT_BANSYL107_01263_SEQ_23",""
-24,"TEXT_BANSYL107_01263_TODO_00","<If(LessThan(IntegerParameter(1),IntegerParameter(3)))>ラークスコールの4人の帝国軍の軍団兵に<Sheet(EventItem,2001179,0)/>を使う<Else/>4人目の帝国軍の軍団兵に<Sheet(EventItem,2001179,0)/>を使い
-増援が現れれば討伐</If>"
-25,"TEXT_BANSYL107_01263_TODO_01","トナクシアに報告する"
+24,"TEXT_BANSYL107_01263_TODO_00","<If(LessThan(IntegerParameter(1),IntegerParameter(3)))>Use morbol bilebombs on the imperial soldiers, and defeat any reinforcements<Else/>Use a morbol bilebomb on the final imperial soldier, and defeat any reinforcements.</If>"
+25,"TEXT_BANSYL107_01263_TODO_01","Report to Tonaxia."
 26,"TEXT_BANSYL107_01263_TODO_02",""
 27,"TEXT_BANSYL107_01263_TODO_03",""
 28,"TEXT_BANSYL107_01263_TODO_04",""
@@ -50,33 +49,17 @@ int32,str,str
 45,"TEXT_BANSYL107_01263_TODO_21",""
 46,"TEXT_BANSYL107_01263_TODO_22",""
 47,"TEXT_BANSYL107_01263_TODO_23",""
-48,"TEXT_BANSYL107_01263_TONAXIA_000_000","大変でふっち！　「テイコク」のやつらが、
-「ラークスコール」にいたでふっち！
-わたぴらの森で、好き勝手してるでふっち！"
-49,"TEXT_BANSYL107_01263_TONAXIA_000_001","追い出したいけど、あいつら怖いでふっち……鎧黒いし。
-あんた、わたぴの代わりにやっつけてほしいでふっち！"
-50,"TEXT_BANSYL107_01263_TONAXIA_000_002","この「<Sheet(EventItem,2001179,0)/>」をあげるでふっち。
-これは、モルボルの胆汁を煮しめたイタズラ道具でふっち！"
-51,"TEXT_BANSYL107_01263_TONAXIA_000_003","こいつを「テイコク」のやつらの周りに投げつければ、
-くさ～いニオイで逃げ出すはずでふっち！
-でも、反撃してくるかもしれないから、気をつけてでふっち！"
-52,"TEXT_BANSYL107_01263_TONAXIA_000_010","「<Sheet(EventItem,2001179,0)/>」を「テイコク」のやつらに投げつけて、「ラークスコール」から追い出すでふっち。
-こいつのニオイはキョーレツでふっち！"
-53,"TEXT_BANSYL107_01263_IMPERIALA_000_015","……ぐふほっ！　な、何事だ！？
-こ、こいつはたまらんっ！"
-54,"TEXT_BANSYL107_01263_IMPERIALB_000_016","ぐむっ……！？
-な、なんだこのニオイは……ぐほっ、ごほっ！"
-55,"TEXT_BANSYL107_01263_IMPERIALC_000_017","くうっ！　なんなんだ、一体！？
-あまりの臭さに、め、めまいが……。"
-56,"TEXT_BANSYL107_01263_IMPERIALD_000_018","おのれ……こしゃくなマネをっ！
-こいつで、ぶっ潰してやるっ！"
-57,"TEXT_BANSYL107_01263_TONAXIA_000_020","おかえりでふっち、どうだったでふっち？
-……なんと、デッカくて黒くて固いのが出てきたふっち！？
-あわわ……わたぴが行かなくてよかったでふっち……。"
-58,"TEXT_BANSYL107_01263_TONAXIA_000_021","あのデッカいのには、わたぴのお友達も、
-いっぱいやられてるでふっち。
-「テイコク」の「ヒミツヘイキ」でふっち！"
-59,"TEXT_BANSYL107_01263_TONAXIA_000_022","あんたがいてくれてよかったでふっち。
-これでもう、出てこないといいんでふっち……。"
-60,"TEXT_BANSYL107_01263_POP_MESSAGE","帝国兵は魔導ヴァンガードを呼び寄せた！"
-61,"TEXT_BANSYL107_01263_POP_MESSAGE_000_000","その行動は出現した敵を倒さないと実行できません"
+48,"TEXT_BANSYL107_01263_TONAXIA_000_000","Scary steel ones come to the forest, stomping flowers and snapping trees!"
+49,"TEXT_BANSYL107_01263_TONAXIA_000_001","The forest is no place for steel ones, but these ones have not the strength to face strong, scary steel ones! Will walking one chase off steel ones?"
+50,"TEXT_BANSYL107_01263_TONAXIA_000_002","This one can help. This one made stink bombs from bigmouth one's stink-juice. Any nose-having one will run away from the stink, this one is certain."
+51,"TEXT_BANSYL107_01263_TONAXIA_000_003","Walking one must throw stink bomb at any steel one walking one sees─but be careful! Strong steel ones may fight back!"
+52,"TEXT_BANSYL107_01263_TONAXIA_000_010","Walking one must find steel ones, then use stinky-juice stink bomb to drive them from these ones home!"
+53,"TEXT_BANSYL107_01263_IMPERIALA_000_015","Seven hells! What is this stench!?"
+54,"TEXT_BANSYL107_01263_IMPERIALB_000_016","Who goes th─<Emphasis>hurk</Emphasis>... Eaaaggghhh!"
+55,"TEXT_BANSYL107_01263_IMPERIALC_000_017","Did a morbol just empty its innards? I feel ill..."
+56,"TEXT_BANSYL107_01263_IMPERIALD_000_018","Hah, I drank swill worse than this last night! You'll not escape alive!"
+57,"TEXT_BANSYL107_01263_TONAXIA_000_020","Steel ones are gone from forest? This one is beside oneself in gratitude!"
+58,"TEXT_BANSYL107_01263_TONAXIA_000_021","Steel one brought giant, spiky one? This one has lost many friends to those ones. This one is frightened."
+59,"TEXT_BANSYL107_01263_TONAXIA_000_022","This one is fortunate to have strong friend like walking one. Promise this one that strong one will stay and keep these ones safe."
+60,"TEXT_BANSYL107_01263_POP_MESSAGE","The imperial soldier has summoned a magitek vanguard!"
+61,"TEXT_BANSYL107_01263_POP_MESSAGE_000_000","The enemy is still about!"

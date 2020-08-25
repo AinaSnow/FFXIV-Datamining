@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_XXAUSC307_03870_SEQ_00","エールポートのシアーナは冒険者に伝えたい情報があるようだ。"
-1,"TEXT_XXAUSC307_03870_SEQ_01","<Sheet(EventItem,2003020,0)/>の有力な手がかりを得た。グリダニア：旧市街にいる「ヘディン」から詳しい話を聞こう。"
-2,"TEXT_XXAUSC307_03870_SEQ_02","ヘディンから、偏属性クリスタルを持っているというスプリガン、ゴギーの話を聞いた。中央森林のスプリガンの巣窟にある<Sheet(EObj,2002195,0)/>に「<Sheet(EventItem,2003019,0)/>」を使い、現れた「<Sheet(BNpcName,1982,0)/>」から「<Sheet(EventItem,2003020,0)/>」を入手しよう。"
-3,"TEXT_XXAUSC307_03870_SEQ_03","<Sheet(EventItem,2003020,0)/>を入手した。グリダニアの「ヘディン」に「<Sheet(EventItem,2003020,0)/>」を渡そう。"
-4,"TEXT_XXAUSC307_03870_SEQ_04","ヘディンに<Sheet(EventItem,2003020,0)/>を渡した。飛空艇「エンタープライズ」を改良するクリスタルが、ようやくそろったようだ。"
+0,"TEXT_XXAUSC307_03870_SEQ_00","Ceana knows where the corrupted crystal that you seek can be found."
+1,"TEXT_XXAUSC307_03870_SEQ_01","An associate of Ceana's is conducting studies on a corrupted crystal which fits your criteria. Return to Gridania and meet with Hedyn to learn where your quarry can be found."
+2,"TEXT_XXAUSC307_03870_SEQ_02","According to Hedyn, ascertaining the precise location of the crystal at any given moment is difficult, due to the fact that it has been devoured by a notorious spriggan named Giggity. Although this ravenous beast tends to conceal its whereabouts, Hedyn has the perfect lure to draw him into the open: the unusually named true heart. Make your way into the lair of the spriggans and use the true heart to lure out and slay Giggity."
+3,"TEXT_XXAUSC307_03870_SEQ_03","In a primal frenzy, you rip and tear open the spriggan's huge guts and claim the corrupted crystal nestled deep within. Present your prize to Hedyn so that he can confirm it is the crystal you seek."
+4,"TEXT_XXAUSC307_03870_SEQ_04","Hedyn confirms that the foul-smelling, offal-laden crystal is comprised of ice-aspected aether. To your chagrin, you learn that you cannot cleanse the crystal of the spriggan entrails, as the thick coating of digestive juices is the only thing protecting you from the crystal's detrimental effects. Hopefully Cid will have developed a less irksome way to do the same..."
 5,"TEXT_XXAUSC307_03870_SEQ_05",""
 6,"TEXT_XXAUSC307_03870_SEQ_06",""
 7,"TEXT_XXAUSC307_03870_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_XXAUSC307_03870_SEQ_21",""
 22,"TEXT_XXAUSC307_03870_SEQ_22",""
 23,"TEXT_XXAUSC307_03870_SEQ_23",""
-24,"TEXT_XXAUSC307_03870_TODO_00","グリダニアのヘディンと話す"
-25,"TEXT_XXAUSC307_03870_TODO_01","<Sheet(EObj,2002195,0)/>に<Sheet(EventItem,2003019,0)/>を使い<Sheet(BNpcName,1982,0)/>から<Sheet(EventItem,2003020,0)/>を入手"
-26,"TEXT_XXAUSC307_03870_TODO_02","グリダニアのヘディンに<Sheet(EventItem,2003020,0)/>を渡す"
+24,"TEXT_XXAUSC307_03870_TODO_00","Speak with Hedyn in Gridania."
+25,"TEXT_XXAUSC307_03870_TODO_01","Use the true heart to lure out the crystal bearer."
+26,"TEXT_XXAUSC307_03870_TODO_02","Deliver the corrupted crystal to Hedyn."
 27,"TEXT_XXAUSC307_03870_TODO_03",""
 28,"TEXT_XXAUSC307_03870_TODO_04",""
 29,"TEXT_XXAUSC307_03870_TODO_05",""
@@ -49,55 +49,23 @@ int32,str,str
 45,"TEXT_XXAUSC307_03870_TODO_21",""
 46,"TEXT_XXAUSC307_03870_TODO_22",""
 47,"TEXT_XXAUSC307_03870_TODO_23",""
-48,"TEXT_XXAUSC307_03870_SYSTEM_100_000","受注するには、進行中のメインクエストを破棄する必要があります。
-メインコマンドの「コンテンツ情報」から、
-「ジャーナル」を選び、破棄してください。"
-49,"TEXT_XXAUSC307_03870_CEANA_000_000","さってと！
-がんばった君に、良いニュースと悪いニュースがあるよ？"
-50,"TEXT_XXAUSC307_03870_CEANA_000_001","どどーん！　良いニュースねー！
-君の探す偏属性クリスタルの発見情報だーっ！"
-51,"TEXT_XXAUSC307_03870_CEANA_000_002","私たち「零組」の頼もしき仲間から、
-ついさっきモグレターで受け取った情報だよ！
-ピッチピチだよっ！"
-52,"TEXT_XXAUSC307_03870_CEANA_000_003","ででーん！　悪いニュース……。
-それは、ここで私と君がお別れってことかな？
-楽しかったから残念だよー。"
-53,"TEXT_XXAUSC307_03870_CEANA_000_004","仲間の「ヘディン」は「グリダニア」にいるの！
-いってらっしゃい！　また会おうねー！"
-54,"TEXT_XXAUSC307_03870_HEDYN_000_010","あっハイ、僕が「零組」のヘディンです……。
-どど、どうも……ハイ。"
-55,"TEXT_XXAUSC307_03870_HEDYN_000_011","せ、先生から……
-「水属性を土属性に変換する偏属性クリスタル」を、
-お探しになっていると聞きました……ハイ。"
-56,"TEXT_XXAUSC307_03870_HEDYN_000_012","僕の計算によると、大食いスプリガン「ゴギー」が、
-その偏属性クリスタルを持っているはずです……ハイ。"
-57,"TEXT_XXAUSC307_03870_HEDYN_000_013","霊災時、巨大な<Sheet(EventItem,2003020,0)/>が、
-白狼門の先「枯骨の森」に発生したのです、ハイ。
-ただ、ゴギーがほとんど食べてしまったようです、ハイ。"
-58,"TEXT_XXAUSC307_03870_HEDYN_000_014","偏属性クリスタルの残りも、ゴギーが抱えています。
-で、でも、警戒心が強くてめったに姿を現さず、
-その上とても凶暴なので、誰も捕まえられませんです、ハイ……。"
-59,"TEXT_XXAUSC307_03870_HEDYN_000_015","し、しかし、ここでひとつ僕に策があります、ハイ。
-ゴギーは貴重な鉱石を好むらしいので、
-それを餌にするのです、ハイ。"
-60,"TEXT_XXAUSC307_03870_HEDYN_000_016","以前、僕が伝手を使って手に入れた、この「<Sheet(EventItem,2003019,0)/>」は、
-実用性こそないものの、とても貴重なものでして、
-これを使えば、きっとゴギーも姿を現すはずです、ハイ。"
-61,"TEXT_XXAUSC307_03870_HEDYN_000_017","「<Sheet(EventItem,2003019,0)/>」は、スプリガンの巣窟に仕掛けるのがよいでしょう。
-そして、のこのことやってきたゴギーを倒し、
-持っている偏属性クリスタルを手に入れるのです、ハイ！"
-62,"TEXT_XXAUSC307_03870_HEDYN_000_020","わわわ！　もう帰ってきたんですか……！？
-もしや「<Sheet(EventItem,2003020,0)/>」を……？"
-63,"TEXT_XXAUSC307_03870_HEDYN_000_030","わ、わわわわ……ハイ！
-素晴らしい、本当に手に入れてきたのですね！"
-64,"TEXT_XXAUSC307_03870_HEDYN_000_031","う、うわぁ……。
-……なんかこれ、スプリガンの体液で、
-ぬっちょぬちょじゃないですか……。"
-65,"TEXT_XXAUSC307_03870_HEDYN_000_032","あ、でもこれが「絶霊体」のかわりになって、
-エーテルの干渉から偏属性クリスタルを
-保護していたようですね。"
-66,"TEXT_XXAUSC307_03870_HEDYN_000_033","……どれどれ。
-やりましたです、ハイ！
-これはまさに「水属性を土属性に換えるクリスタル」です！"
-67,"TEXT_XXAUSC307_03870_HEDYN_000_034","僕たち「零組」の後学のため、少しばかり分けて……。
-い、いえいえ、冗談ですよ……ハイ。"
+48,"TEXT_XXAUSC307_03870_SYSTEM_100_000","To accept this quest, you must abandon the current main scenario quest. Open the corresponding entry in the journal or duty list and select “Abandon.”"
+49,"TEXT_XXAUSC307_03870_CEANA_000_000","Don't fret, now─I know exactly where to find a corrupted crystal comprised of <Emphasis>ice</Emphasis>-aspected aether. An associate of mine in Gridania has been studying the effects of one such crystal on living beings."
+50,"TEXT_XXAUSC307_03870_CEANA_000_001","Eh? What's with that expression? I thought you would be pleased to hear this news! This is <Emphasis>not</Emphasis> another wild-dodo chase, I assure you!"
+51,"TEXT_XXAUSC307_03870_CEANA_000_002","And what's even better is that <Emphasis>this</Emphasis> time, you needn't use that warded pot of yours to protect yourself from this crystal's energies. Hedyn's findings suggest that it is quite safe."
+52,"TEXT_XXAUSC307_03870_CEANA_000_003","Why, you ask? Well...let's just say that it has undergone a <Emphasis>unique</Emphasis> process that has rendered such precautions unnecessary."
+53,"TEXT_XXAUSC307_03870_CEANA_000_004","Anyway, do not let me keep you. It has been a pleasure, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Come back and see me sometime, all right?"
+54,"TEXT_XXAUSC307_03870_HEDYN_000_010","Greetings and salutations. <If(PlayerParameter(4))>Miss<Else/>Mister</If> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>, I presume? Ceana informed me of your adventures in Aleport. Terribly sorry about the misunderstanding. Though, as Professor Lamberteint is fond of saying, “No action taken in the name of science is ever truly wasteful.”"
+55,"TEXT_XXAUSC307_03870_HEDYN_000_011","To the matter at hand─corrupted crystals possessing the properties you seek could be found in abundance at the Standing Corses following the Calamity."
+56,"TEXT_XXAUSC307_03870_HEDYN_000_012","Alas, that is no longer the case...and while there is at least one suitable crystal that remains to be found within the Twelveswood, precisely where it is at any given moment is more difficult to say."
+57,"TEXT_XXAUSC307_03870_HEDYN_000_013","Permit me to explain. You are familiar with spriggans, yes? The furry little rascals that are wont to seek out ores and other stones? Well, one such creature with an infamously insatiable appetite has single-handedly devoured every corrupted crystal in the Twelveswood. Fortunately for you, these crystals take an eternity to digest─assuming they can even <Emphasis>be</Emphasis> digested─and I am reasonably confident that one still resides within his gut."
+58,"TEXT_XXAUSC307_03870_HEDYN_000_014","It's quite fascinating, really. My theory is that this “Giggity” first consumed a corrupted crystal when... <sigh> You couldn't care less about all this, could you?"
+59,"TEXT_XXAUSC307_03870_HEDYN_000_015","To the point, then. Giggity seldom makes his presence felt unless there is particularly fine fodder to be had. Therefore, we shall require a lure, and I have precisely the sort he will find impossible to resist."
+60,"TEXT_XXAUSC307_03870_HEDYN_000_016","Simply place this true heart─I shall save the story of the origin of its unusual name for another occasion─outside of the spriggans' lair and wait for the opportune moment to pounce."
+61,"TEXT_XXAUSC307_03870_HEDYN_000_017","As for the method by which you retrieve the crystal from his gut...I shall leave that to your discretion."
+62,"TEXT_XXAUSC307_03870_HEDYN_000_020","Ah! Pray do not sneak up on me like that. I was engrossed in─wait, what is that─<sniff> <sniff>─what is that gods-awful smell?"
+63,"TEXT_XXAUSC307_03870_HEDYN_000_030","My word, that is a breathtakingly beautiful crystal. I see my supposition was not mistaken."
+64,"TEXT_XXAUSC307_03870_HEDYN_000_031","Ugh... And I also see you weren't averse to digging through spriggan entrails for your prize."
+65,"TEXT_XXAUSC307_03870_HEDYN_000_032","We owe our furry friend a debt of gratitude, you know. This thick coating of digestive juices is protecting us from the harmful effects of the crystal, just as the warded pot you once used did."
+66,"TEXT_XXAUSC307_03870_HEDYN_000_033","Why so glum, friend? You've finally obtained the corrupted crystal you sought─one overflowing with <Emphasis>earth</Emphasis>-aspected aether!"
+67,"TEXT_XXAUSC307_03870_HEDYN_000_034","Calm down─I jest, I jest! It is comprised of <Emphasis>ice</Emphasis>-aspected aether, worry not. I suppose that joke was in poor taste, considering your previous two attempts were for naught..."

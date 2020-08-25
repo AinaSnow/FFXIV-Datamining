@@ -1,10 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANKJN302_02980_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト受注クラス・ジョブ制限<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-※本クエストは受注時のクラス・ジョブでのみ進行します。
-
-碧のタマミズのズキンは、タコの手も借りたいようだ。"
+0,"TEXT_BANKJN302_02980_SEQ_00","Zukin needs pearls, and he needs them now.
+※The difficulty of this quest will be synced to your current level."
 1,"TEXT_BANKJN302_02980_SEQ_01",""
 2,"TEXT_BANKJN302_02980_SEQ_02",""
 3,"TEXT_BANKJN302_02980_SEQ_03",""
@@ -28,9 +26,9 @@ int32,str,str
 21,"TEXT_BANKJN302_02980_SEQ_21",""
 22,"TEXT_BANKJN302_02980_SEQ_22",""
 23,"TEXT_BANKJN302_02980_SEQ_23",""
-24,"TEXT_BANKJN302_02980_TODO_00","海中の<Sheet(EObj,2009080,0)/>から<Sheet(EventItem,2002399,0)/>を入手"
-25,"TEXT_BANKJN302_02980_TODO_01","紅玉台場の東アルデナード商会の手代に<Sheet(EventItem,2002399,0)/>を渡す"
-26,"TEXT_BANKJN302_02980_TODO_02","ズキンに<Sheet(EventItem,2002428,0)/>を渡す"
+24,"TEXT_BANKJN302_02980_TODO_00","Harvest pearls from pearl oysters."
+25,"TEXT_BANKJN302_02980_TODO_01","Deliver pearls to the East Aldenard Trading Company associate at the Ruby Price."
+26,"TEXT_BANKJN302_02980_TODO_02","Deliver the payment to Zukin."
 27,"TEXT_BANKJN302_02980_TODO_03",""
 28,"TEXT_BANKJN302_02980_TODO_04",""
 29,"TEXT_BANKJN302_02980_TODO_05",""
@@ -52,49 +50,23 @@ int32,str,str
 45,"TEXT_BANKJN302_02980_TODO_21",""
 46,"TEXT_BANKJN302_02980_TODO_22",""
 47,"TEXT_BANKJN302_02980_TODO_23",""
-48,"TEXT_BANKJN302_02980_ZUKIN_000_000","東アルデナード商会から、急ぎで真珠の注文が入ったんだぁ～！
-「<Sheet(EObj,2009080,0)/>」が見つかる、とっておきの場所を教えっから、
-そん中から「<Sheet(EventItem,2002399,0)/>」を採ってきてくれぇ～！"
-49,"TEXT_BANKJN302_02980_ZUKIN_000_001","でも、海の調和を乱すのは、ブンチン長老に禁止されてんだぁ～。
-だから、一度に真珠を採る貝は、3つまでって決まりなんだぜぇ～。
-いかにでっかい真珠が入ってる貝を見抜くかが、腕の見せ所さぁ～。"
-50,"TEXT_BANKJN302_02980_ZUKIN_000_002","急いでるらしいから、採ったらそのまま、
-「東アルデナード商会の手代」へ、届けてくれるかぁ～？
-紅玉台場で待ってるそうだから、よろしく頼むぞぉ～！"
-51,"TEXT_BANKJN302_02980_MERCHANT02980_100_010","おお、あなたはコウジン族のお手伝いの方ですか！？
-それでは、「<Sheet(EventItem,2002399,0)/>」が手に入ったのですね？
-早く、ひとつでも手に入れないと、大変なことになります……！"
-52,"TEXT_BANKJN302_02980_MERCHANT02980_100_011","まあ、なんて小粒でかわいらしい真珠でしょう。
-繊細で優美な指輪ができそうです。
-しかし、あの奥方様ったら……。"
-53,"TEXT_BANKJN302_02980_MERCHANT02980_100_012","おお、大きすぎず、小さすぎない、素晴らしい真珠です！
-職人の技を活かした魅力的な耳飾りが一揃い作れそうですね！
-しかし、あの奥方様ったら……。"
-54,"TEXT_BANKJN302_02980_MERCHANT02980_100_013","なんと、こんなに大きな真珠は見たことがありません！
-これなら、逸品として語り継がれる首飾りが作れます！
-奥方様も、さぞや満足されることでしょう！！"
-55,"TEXT_BANKJN302_02980_MERCHANT02980_100_014","（★未使用／削除予定★）"
-56,"TEXT_BANKJN302_02980_MERCHANT02980_100_015","実は、イシュガルド貴族の奥方様から、
-紅玉海の真珠を使った装飾品の注文が入りまして……。
-明日までに用意しろと、無茶なことも言われる始末……。"
-57,"TEXT_BANKJN302_02980_MERCHANT02980_100_016","いくら大口のお客様だからって、
-ワガママ言うのも、いいかげんにしてほしいのですが……。
-おっと……いまの発言は、聞かなかったことにしていただきたい。"
-58,"TEXT_BANKJN302_02980_MERCHANT02980_100_017","では、こちらをコウジン族にお渡しください。
-急いでいただいたぶん、代金は奮発しておきました。
-今後とも、よき取引をお願いします！"
-59,"TEXT_BANKJN302_02980_MERCHANT02980_100_018","今回は、ありがとうございました。
-急いで、真珠を調達していただき助かりました。
-今後とも、よき取引をお願いします。"
-60,"TEXT_BANKJN302_02980_ZUKIN_000_010","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><If(PlayerParameter(4))>姉<Else/>兄</If>、取引はうまくいったかぁ～？"
-61,"TEXT_BANKJN302_02980_ZUKIN_000_012","そんな事情があったんだなぁ～。
-謝礼もはずんでくれたみてぇだし、こっちは満足だがなぁ～。"
-62,"TEXT_BANKJN302_02980_ZUKIN_000_013","しかし、さくっと<Sheet(EventItem,2002399,0)/>を集めちまうなんて、
-<If(PlayerParameter(4))>姉さん<Else/>兄さん</If>は、海の神様に愛されてるに違いねぇなぁ～！"
-63,"TEXT_BANKJN302_02980_ZUKIN_000_014","真珠は、神様が貝殻の中にお入れになった賜物だからなぁ～、
-次の注文のときも、また力を貸してくれぇ～！
-頼りにしてるぜぇ～！"
-64,"TEXT_BANKJN302_02980_ZUKIN_000_015","（★未使用／削除予定★）"
-65,"TEXT_BANKJN302_02980_ZUKIN_000_016","（★未使用／削除予定★）"
-66,"TEXT_BANKJN302_02980_ZUKIN_000_017","（★未使用／削除予定★）"
-67,"TEXT_BANKJN302_02980_ZUKIN_000_018","（★未使用／削除予定★）"
+48,"TEXT_BANKJN302_02980_ZUKIN_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, we've received an urgent order of pearls from the East Aldenard Trading Company! There's no time to waste─you must go and harvest them at once. I shall mark the location on your map."
+49,"TEXT_BANKJN302_02980_ZUKIN_000_001","Ah, but before you strike out, there is an important rule you must observe. To preserve the natural order, the elder has decreed that no more than three oysters may be prised open in a single harvest. That is to say, choose well."
+50,"TEXT_BANKJN302_02980_ZUKIN_000_002","Once you have three pearls, pray bear them directly to the Ruby Price, where the company's associate awaits. The kami speed your way, my friend!"
+51,"TEXT_BANKJN302_02980_MERCHANT02980_100_010","You are come from the Kojin, you say? Dare I hope you have the pearls? Our client is in considerable haste..."
+52,"TEXT_BANKJN302_02980_MERCHANT02980_100_011","Well, what delightful little pearls, small yet captivating! Yes, I believe they shall make a most elegant ring! Phew, this should serve to satisfy the mistress..."
+53,"TEXT_BANKJN302_02980_MERCHANT02980_100_012","Why, these are paragons among pearls, such as might be described in tomes! Yes, they shall make a fetching set of earrings! Phew, this should serve to satisfy the mistress..."
+54,"TEXT_BANKJN302_02980_MERCHANT02980_100_013","By the gods, never have I laid eyes upon such enormous pearls! Oh, I can picture it now, the centerpiece for a sumptuous choker that shall be the talk of the town... The mistress shall doubtless be pleased!"
+55,"TEXT_BANKJN302_02980_MERCHANT02980_100_014",""
+56,"TEXT_BANKJN302_02980_MERCHANT02980_100_015","Lest you wonder, the order comes from an Ishgardian noblewoman, a regular client of ours. She requested an adornment, specifying that it must feature the finest pearls...and that it must be ready on the morrow."
+57,"TEXT_BANKJN302_02980_MERCHANT02980_100_016","As much as we appreciate her custom, did she not stop to consider that her request might be unreasonable? ...Ack, I shouldn't be complaining openly. Please forget I said any of this."
+58,"TEXT_BANKJN302_02980_MERCHANT02980_100_017","On behalf of the East Aldenard Trading Company, I give you my profuse thanks. Here is your payment, with a little extra for your troubles. The company is fortunate to have dependable suppliers such as you and yours."
+59,"TEXT_BANKJN302_02980_MERCHANT02980_100_018","My thanks again, good <If(PlayerParameter(4))>madam<Else/>sir</If>. The company is fortunate to have dependable suppliers such as you and yours."
+60,"TEXT_BANKJN302_02980_ZUKIN_000_010","I've awaited your return, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Were you able to make the delivery in a timely fashion?"
+61,"TEXT_BANKJN302_02980_ZUKIN_000_012","...So that was the way of it. We can choose our friends, but not our customers. Such is business. At any rate, we fulfilled our obligation and were duly compensated. And we have you to thank for it."
+62,"TEXT_BANKJN302_02980_ZUKIN_000_013","In case you weren't aware, 'tis no easy thing to harvest fine pearls. Yet by your account, you did so quite effortlessly."
+63,"TEXT_BANKJN302_02980_ZUKIN_000_014","Pearls are a gift from the kami, and this is proof that they favor you. When next we receive an order for pearls, I know to whom I shall turn!"
+64,"TEXT_BANKJN302_02980_ZUKIN_000_015",""
+65,"TEXT_BANKJN302_02980_ZUKIN_000_016",""
+66,"TEXT_BANKJN302_02980_ZUKIN_000_017",""
+67,"TEXT_BANKJN302_02980_ZUKIN_000_018",""

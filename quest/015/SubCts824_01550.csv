@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBCTS824_01550_SEQ_00","イディルシャイアの道案内したい冒険者は、冒険者を道案内したいようだ。"
-1,"TEXT_SUBCTS824_01550_SEQ_01","道案内したい冒険者から、人と会うように依頼された。イディルシャイアのスネイル広場付近で、冒険者を待つ人物と話そう。"
-2,"TEXT_SUBCTS824_01550_SEQ_02","冒険者を待っていたのは、異邦の詩人だった。彼によると、神々に祝福されし大隼を従えた冒険者ならば、伝説の王鳥「鳳凰」に友と認められるだろうという。低地ドラヴァニアのクルザス西部高地に続く高台にある「<Sheet(EObj,2007704,0)/>」にて、「<Sheet(EventItem,2002052,0)/>」を吹き鳴らそう。"
-3,"TEXT_SUBCTS824_01550_SEQ_03","「<Sheet(EventItem,2002052,0)/>」を吹き鳴らしたところ、鳳凰が現れた。鳳凰は、冒険者を友と認め、旅路をともにしてくれるようだ。再び魔笛を吹き鳴らし、復活の翼を羽ばたかせる鳳凰とともにエオルゼアの蒼天を翔けめぐり、新たな英雄譚を創りあげていこう。"
+0,"TEXT_SUBCTS824_01550_SEQ_00","The walking atlas has an eye to share his navigational expertise with you."
+1,"TEXT_SUBCTS824_01550_SEQ_01","The man known as the walking atlas attempts to sell you his guiding services, only to recognize you as the lanner-taming hero he has been tasked to find. He urges you to meet his mysterious employer, who awaits you at the Snail in Idyllshire."
+2,"TEXT_SUBCTS824_01550_SEQ_02","The mysterious employer is revealed to be none other than the wandering minstrel. The man tells you of the immortal Firebird, a king among its kind, whom he believes you can befriend owing to your mastery of the seven divine lanners. To call the creature, he gives you a whistle, which is to be used upon a rise in the southeastern reach of the Dravanian hinterlands."
+3,"TEXT_SUBCTS824_01550_SEQ_03","Arriving at the rise, you sound the whistle. After a moment in tense silence, the mighty Firebird appears and recognizes you as its equal. The majestic sight inspires new verses within the wandering minstrel, who offers his thanks and bids you continue your adventures upon fiery wings."
 4,"TEXT_SUBCTS824_01550_SEQ_04",""
 5,"TEXT_SUBCTS824_01550_SEQ_05",""
 6,"TEXT_SUBCTS824_01550_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_SUBCTS824_01550_SEQ_21",""
 22,"TEXT_SUBCTS824_01550_SEQ_22",""
 23,"TEXT_SUBCTS824_01550_SEQ_23",""
-24,"TEXT_SUBCTS824_01550_TODO_00","冒険者を待つ人物と話す"
-25,"TEXT_SUBCTS824_01550_TODO_01","低地ドラヴァニア南東の<Sheet(EObj,2007704,0)/>で<Sheet(EventItem,2002052,0)/>を吹く"
+24,"TEXT_SUBCTS824_01550_TODO_00","Seek out the walking atlas's employer."
+25,"TEXT_SUBCTS824_01550_TODO_01","Travel to the Dravanian hinterlands and blow the Firebird whistle at the designated location."
 26,"TEXT_SUBCTS824_01550_TODO_02",""
 27,"TEXT_SUBCTS824_01550_TODO_03",""
 28,"TEXT_SUBCTS824_01550_TODO_04",""
@@ -49,71 +49,32 @@ int32,str,str
 45,"TEXT_SUBCTS824_01550_TODO_21",""
 46,"TEXT_SUBCTS824_01550_TODO_22",""
 47,"TEXT_SUBCTS824_01550_TODO_23",""
-48,"TEXT_SUBCTS824_01550_WALKINGATLAS_000_000","道案内するよー！　どこでも片道1000ギルだ！
-って、おやおや君の風貌……かなりの手練れのようだね。
-もしや「神々に祝福されし大隼」について知っているかい？"
-49,"TEXT_SUBCTS824_01550_WALKINGATLAS_000_001","なんと、すでに大隼を7羽も従えているだって！？
-大物だろうとは思ったが、まさか探し求めた英雄だったとは！
-頼む、どうか俺に、君の道案内をさせてくれ！！"
-50,"TEXT_SUBCTS824_01550_WALKINGATLAS_000_002","なあに、お代なら不要さ。
-なんせ君を案内するように依頼してきた、
-派手な出で立ちのお客から、すでに受け取っているからね。"
-51,"TEXT_SUBCTS824_01550_WALKINGATLAS_000_003","依頼者が、誰か気になるって？
-ならば、崖っぷち亭に面したスネイル広場に出向くといい。
-依頼者なら、そこで君を待ってるはずさ！"
-52,"TEXT_SUBCTS824_01550_WALKINGATLAS_000_009","ならば、崖っぷち亭に面したスネイル広場に出向くといい。
-依頼者なら、そこで君を待ってるはずさ！"
-53,"TEXT_SUBCTS824_01550_WANDERINGMINSTREL_000_010","やあ、こんなところで麒麟を従えた君に会うとは、
-なんと幸運な巡り合わせ……。
-ある人物を探して、ここにたどり着いたんだが、もしや……"
-54,"TEXT_SUBCTS824_01550_WANDERINGMINSTREL_100_010","おや、こんなところで有名な君に会うとは、
-なんと幸運な巡り合わせ。
-僕は、ある人物を探し求めて、ここにたどり着いたんだ。"
-55,"TEXT_SUBCTS824_01550_WANDERINGMINSTREL_000_011","なんと、君が僕の探し求めていた英雄……！？
-神々に祝福されし大隼を束ね、蒼天翔ける者とは……！
-では、大隼の頂点に君臨する王鳥「鳳凰」を知っているかい？"
-56,"TEXT_SUBCTS824_01550_WANDERINGMINSTREL_000_012","「鳳凰」とは、自らの命を太陽のごとく黄金に燃え盛らせ、
-その炎で自らを焼きつくしては蘇る、不滅の幻獣さ。
-姿を見れば希望が湧き、羽根に触れれば永久の幸があるという。"
-57,"TEXT_SUBCTS824_01550_WANDERINGMINSTREL_000_013","この気高き鳥は、長らく友を求めて七天を飛翔しているという。
-友とは、鳳凰と同等の王者たる風格と実力を併せ持つ英雄……。
-そう、まさに大隼を従える君のことだと思わないか？"
-58,"TEXT_SUBCTS824_01550_WANDERINGMINSTREL_000_014","さぁ、この「<Sheet(EventItem,2002052,0)/>」を受け取ってくれ！
-世界を旅する道中で巡り会った覚者から譲り受けたもので、
-吹き鳴らした者が友の器であれば、鳳凰が姿を現すそうだ。"
-59,"TEXT_SUBCTS824_01550_WANDERINGMINSTREL_000_015","君が笛を吹き鳴らせば、鳳凰はきっと現れる……！
-だから、どうか見晴らしのいい場所で、
-笛の音を天に響かせてみてくれないか？"
-60,"TEXT_SUBCTS824_01550_WANDERINGMINSTREL_000_016","そして、麒麟と君が出会った時のように、
-君と鳳凰が邂逅する奇跡の瞬間に、立ちあわせてほしい。
-あの時の体験は、英雄譚の創作に大いに役立ったからね。"
-61,"TEXT_SUBCTS824_01550_WANDERINGMINSTREL_100_016","そして、願わくば、君と鳳凰が邂逅する奇跡の瞬間に、
-この僕を、ぜひとも立ちあわせてほしい。
-それは、誰もが心震わせる英雄譚になるはずだからね。"
-62,"TEXT_SUBCTS824_01550_WANDERINGMINSTREL_000_017","ありがとう。
-笛を吹く場所は、低地ドラヴァニアの南東、
-クルザス西部高地に通じる高台がふさわしいだろう。"
-63,"TEXT_SUBCTS824_01550_WANDERINGMINSTREL_000_018","もちろん、奇跡の瞬間を邪魔するつもりはないさ。
-鳳凰が現れるまでは、僕は密かに見守っているとしよう。
-では、君と鳳凰が織りなす奇跡の瞬間を楽しみにしているよ。"
-64,"TEXT_SUBCTS824_01550_WANDERINGMINSTREL_000_020","ああ、なんという美しい光景……。
-この燃え盛る幻獣こそ、異界より舞い降りた王鳥「鳳凰」！"
-65,"TEXT_SUBCTS824_01550_WANDERINGMINSTREL_000_021","友を求めて飛翔し続けた鳳凰が、
-ついに、君という友を見つけ出したんだね……！"
-66,"TEXT_SUBCTS824_01550_WANDERINGMINSTREL_000_022","君、鳳凰、そして大隼……9つの煌めく命が、
-苦難と悠久の時を越え巡りあった奇跡の衝撃に、
-心震えるばかりだ……。"
-67,"TEXT_SUBCTS824_01550_WANDERINGMINSTREL_000_023","『蒼天の英雄　魔笛　吹き鳴らせし時
-　応えし王鳥　鳳凰　地に舞い降り　その背を預けん』"
-68,"TEXT_SUBCTS824_01550_WANDERINGMINSTREL_000_024","ああ……創作意欲が、とめどなくあふれ出るよ。
-「復活の翼で、蒼天を翔ける英雄の物語」……
-新たなる詩を紡ぐことができそうだ、ありがとう！！"
-69,"TEXT_SUBCTS824_01550_WANDERINGMINSTREL_000_025","それにしても、麒麟に引き続き、鳳凰とも絆を結ぶなんて……
-いったい君という冒険者は、どこまで奇跡を生み出すんだろう……。
-君という存在から、目を離すことができないよ。"
-70,"TEXT_SUBCTS824_01550_WANDERINGMINSTREL_000_026","今後も、鳳凰や麒麟とともに、新たな冒険に挑んでくれ！
-そして、いつか必ず、君の土産話をまた聞かせてほしい。
-君の武運を祈っているよ……！"
-71,"TEXT_SUBCTS824_01550_WANDERINGMINSTREL_000_027","今後も、鳳凰とともに天を翔け巡り、新たな冒険に挑んでくれ！
-そして、いつかまた君の土産話を聞かせてほしい。
-君の武運を祈っているよ……！"
+48,"TEXT_SUBCTS824_01550_WALKINGATLAS_000_000","New to Idyllshire? Never fear! For a mere thousand gil, I will <Emphasis>personally</Emphasis> give you a guided─
+...I say, you look like an adventurer who knows <If(PlayerParameter(4))>her<Else/>his</If> business. Might you perchance be familiar with the divine lanners?"
+49,"TEXT_SUBCTS824_01550_WALKINGATLAS_000_001","Y-You've tamed <Emphasis>seven</Emphasis> of them? I knew you were no ordinary adventurer, but to think that you should be the very hero I sought! Please, you must allow me to be your guide!"
+50,"TEXT_SUBCTS824_01550_WALKINGATLAS_000_002","Worry not, I wouldn't dream of charging you for my services. For they are already paid for─by a well-spoken and well-dressed fellow."
+51,"TEXT_SUBCTS824_01550_WALKINGATLAS_000_003","Who is my mysterious employer, you ask? Well, if you are keen to meet him, it just so happens he is keen to meet you, too. You'll find him at the Snail, over by the Hard Place."
+52,"TEXT_SUBCTS824_01550_WALKINGATLAS_000_009","If you are keen to meet my mysterious employer, it just so happens he is keen to meet you, too. You'll find him at the Snail, over by the Hard Place."
+53,"TEXT_SUBCTS824_01550_WANDERINGMINSTREL_000_010","Ah, always a pleasure, my friend. After our encounter with the Kirin, I caught wind of a brave soul said to command a veritable flock of divine lanners. 'Tis to find that individual that I have journeyed here."
+54,"TEXT_SUBCTS824_01550_WANDERINGMINSTREL_100_010","Well, well, what brings the famous <Highlight>ObjectParameter(1)</Highlight> here? This humble minstrel seeks a brave soul said to command a veritable flock of divine lanners. Perhaps you have heard of <If(PlayerParameter(4))>her<Else/>him</If>?"
+55,"TEXT_SUBCTS824_01550_WANDERINGMINSTREL_000_011","<Emphasis>You</Emphasis> are <Emphasis><If(PlayerParameter(4))>she<Else/>he</If></Emphasis>? I find myself wholly unsurprised! Without further ado, while you are no stranger to lanners, know you of the creature that rules over them all: the immortal Firebird?"
+56,"TEXT_SUBCTS824_01550_WANDERINGMINSTREL_000_012","Appearing in Far Eastern legends, the Firebird immolates itself in death to rise again from its own ashes. A glimpse of the creature fills one with hope, it is said, while a brush of its feather bestows eternal happiness."
+57,"TEXT_SUBCTS824_01550_WANDERINGMINSTREL_000_013","Yet, for all its mesmerizing majesty, the Firebird is a lonely soul. Long has it soared the heavens in search of a companion─a hero whom this king among birds can count as its equal. Who else could that hero be but you, master to the seven divine lanners?"
+58,"TEXT_SUBCTS824_01550_WANDERINGMINSTREL_000_014","This is the Firebird whistle. It was passed to me during my journeys, and now I pass it to you. If <If(PlayerParameter(4))>she<Else/>he</If> who sounds it is worthy, the Firebird will answer <If(PlayerParameter(4))>her<Else/>his</If> call."
+59,"TEXT_SUBCTS824_01550_WANDERINGMINSTREL_000_015","And I have no doubt that it will answer yours. I ask that you take the whistle to a vantage point, and there sound it at the heavens."
+60,"TEXT_SUBCTS824_01550_WANDERINGMINSTREL_000_016","As I did when you summoned the Kirin, I would behold the moment the Firebird descends. Such verses the sight would inspire within me!"
+61,"TEXT_SUBCTS824_01550_WANDERINGMINSTREL_100_016","When the Firebird descends, I would be present to behold the moment. Such verses the sight would inspire within me!"
+62,"TEXT_SUBCTS824_01550_WANDERINGMINSTREL_000_017","I knew I could count on you. Now, I have taken the liberty of scouting a likely location for using the whistle: the southeastern reach of the Dravanian hinterlands, upon a rise leading to Coerthas."
+63,"TEXT_SUBCTS824_01550_WANDERINGMINSTREL_000_018","Between now and the moment of the meeting, I shall make myself scarce, keeping to the shadows with bated breath. I take my leave of you."
+64,"TEXT_SUBCTS824_01550_WANDERINGMINSTREL_000_020","Beautiful beyond all imagining... The mighty Firebird is come!"
+65,"TEXT_SUBCTS824_01550_WANDERINGMINSTREL_000_021","At long last, the creature has met its match─a worthy hero to whom it would lend its wings."
+66,"TEXT_SUBCTS824_01550_WANDERINGMINSTREL_000_022","The divine lanners, the Firebird, and you... Traversing hardship and eternity, nine brilliant lives have come together to outshine the stars. 'Tis naught short of a miracle."
+67,"TEXT_SUBCTS824_01550_WANDERINGMINSTREL_000_023","High above the heavens, a king in his domain,♪
+Soaring o'er creation, the lonely monarch reigns.♪
+Borne upon the wind, a whistle's piercing sound,♪
+Calls him to descend to find a soul by destiny bound.♪
+"
+68,"TEXT_SUBCTS824_01550_WANDERINGMINSTREL_000_024","Ah, the words well up as a gushing font! I believe I have my next creation, and I owe it all to you! It shall be called...<Emphasis>Fiery Wings, Fiery Hearts</Emphasis>!"
+69,"TEXT_SUBCTS824_01550_WANDERINGMINSTREL_000_025","But I must say, to bond with not only the Kirin, but the Firebird besides... You truly are a marvel, my friend. I am loath to take my eyes off you lest I miss a momentous moment."
+70,"TEXT_SUBCTS824_01550_WANDERINGMINSTREL_000_026","Ah, but I am not one to overstay my welcome. I shall leave you to resume your adventures. Doubtless there will be many more, with fiery wings bearing you, and I look forward to hearing of them. Till next we meet, godsspeed!"
+71,"TEXT_SUBCTS824_01550_WANDERINGMINSTREL_000_027","You truly are a marvel, my friend. I am loath to take my eyes off you lest I miss a momentous moment. But I am not one to overstay my welcome. I shall leave you to resume your adventures. Doubtless there will be many more, with fiery wings bearing you, and I look forward to hearing of them. Godsspeed!"

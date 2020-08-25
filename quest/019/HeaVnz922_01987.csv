@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNZ922_01987_SEQ_00","ガンマ管区の輸送システムは、静かに佇んでいる。"
-1,"TEXT_HEAVNZ922_01987_SEQ_01","輸送システムから、未登録の浮行型運送端末が動作しているので停止させてほしいと聞いた。ガンマ管区の「<Sheet(BNpcName,3552,0)/>」を4体討伐しよう。"
-2,"TEXT_HEAVNZ922_01987_SEQ_02","<Sheet(BNpcName,3552,0)/>を破壊した。ガンマ管区の「輸送システム」に報告しよう。"
-3,"TEXT_HEAVNZ922_01987_SEQ_03","輸送システムに報告した。浮行型運送端末を破壊して止めた冒険者の行為を、輸送システムは破壊活動と認識したようだ……。"
+0,"TEXT_HEAVNZ922_01987_SEQ_00","The Allagan logistics node is spinning frantically."
+1,"TEXT_HEAVNZ922_01987_SEQ_01","The Allagan logistics node informs you that several freight-handling units never received deactivation commands and have been operating continuously for over five thousand years. Lacking the ability to remotely deactivate these units itself, the logistics node authorizes you to do so in its stead. Find and deactivate four adamantite claws."
+2,"TEXT_HEAVNZ922_01987_SEQ_02","You have successfully destroyed the adamantite claws. Report your success to the logistics node."
+3,"TEXT_HEAVNZ922_01987_SEQ_03","The logistics node reminds you that you were asked to <Emphasis>deactivate</Emphasis> the non-responsive units, not destroy them. In light of your crimes, it immediately rescinds the authorization it previously granted."
 4,"TEXT_HEAVNZ922_01987_SEQ_04",""
 5,"TEXT_HEAVNZ922_01987_SEQ_05",""
 6,"TEXT_HEAVNZ922_01987_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_HEAVNZ922_01987_SEQ_21",""
 22,"TEXT_HEAVNZ922_01987_SEQ_22",""
 23,"TEXT_HEAVNZ922_01987_SEQ_23",""
-24,"TEXT_HEAVNZ922_01987_TODO_00","<Sheet(BNpcName,3552,0)/>を討伐"
-25,"TEXT_HEAVNZ922_01987_TODO_01","輸送システムに報告"
+24,"TEXT_HEAVNZ922_01987_TODO_00","Slay adamantite claws."
+25,"TEXT_HEAVNZ922_01987_TODO_01","Report to the logistics node."
 26,"TEXT_HEAVNZ922_01987_TODO_02",""
 27,"TEXT_HEAVNZ922_01987_TODO_03",""
 28,"TEXT_HEAVNZ922_01987_TODO_04",""
@@ -49,18 +49,8 @@ int32,str,str
 45,"TEXT_HEAVNZ922_01987_TODO_21",""
 46,"TEXT_HEAVNZ922_01987_TODO_22",""
 47,"TEXT_HEAVNZ922_01987_TODO_23",""
-48,"TEXT_HEAVNZ922_01987_TRANSPORTATIONSYSTEM_000_000","ザ……ザザ……問題が発生。
-未登録の浮行型運送端末を、複数確認しました。
-停止命令を送ったものの、これに従う様子がありません。"
-49,"TEXT_HEAVNZ922_01987_TRANSPORTATIONSYSTEM_000_001","輸送を管理する本システムとしては、まことに遺憾な状況です。
-至急、未登録のクロータイプ輸送端末を停止させてください。
-ザザ……ひとりにつき、4体停止すれば……ザザ……。"
-50,"TEXT_HEAVNZ922_01987_TRANSPORTATIONSYSTEM_000_010","輸送を管理する本システムとしては、まことに遺憾な状況です。
-至急、未登録のクロータイプ輸送端末を停止させてください。
-ザザ……ひとりにつき、4体停止すれば……ザザ……。"
-51,"TEXT_HEAVNZ922_01987_TRANSPORTATIONSYSTEM_000_020","ザ……ザザ……浮行型運送端末の反応消失を確認。
-破壊活動が行われた模様です……ザザ……。
-監視システムにより、貴方の犯行と確認されました。"
-52,"TEXT_HEAVNZ922_01987_TRANSPORTATIONSYSTEM_000_021","当システムが要望したのは停止であり、破壊ではありません。
-あなたの権限の剥奪を運輸部に要求します。
-繰り返します……ザザ……。"
+48,"TEXT_HEAVNZ922_01987_TRANSPORTATIONSYSTEM_000_000","<Switch(PlayerParameter(71))><Case(1)>Hyur</Case><Case(2)>Elezen</Case><Case(3)>Lalafell</Case><Case(4)>Miqo'te</Case><Case(5)>Roegadyn</Case><Case(6)>Au Ra</Case><Case(7)>Hrothgar</Case><Case(8)>Viera</Case></Switch>, please help! The freight-handling subsystem never received a deactivation command and has been running for five thousand and twelve years, eight months, and two days."
+49,"TEXT_HEAVNZ922_01987_TRANSPORTATIONSYSTEM_000_001","Unfortunately, I do not have direct control over that subsystem and cannot issue an override command to deactivate it. Due to the severity of the situation, I am authorizing you to deactivate the affected units. At least four adamantite claws must be deactivated."
+50,"TEXT_HEAVNZ922_01987_TRANSPORTATIONSYSTEM_000_010","<Switch(PlayerParameter(71))><Case(1)>Hyur</Case><Case(2)>Elezen</Case><Case(3)>Lalafell</Case><Case(4)>Miqo'te</Case><Case(5)>Roegadyn</Case><Case(6)>Au Ra</Case><Case(7)>Hrothgar</Case><Case(8)>Viera</Case></Switch>, please find and deactivate four of the non-responsive adamantite claws."
+51,"TEXT_HEAVNZ922_01987_TRANSPORTATIONSYSTEM_000_020","<beep> <beep> Freight-handling units confirmed destroyed. <Switch(PlayerParameter(71))><Case(1)>Hyur</Case><Case(2)>Elezen</Case><Case(3)>Lalafell</Case><Case(4)>Miqo'te</Case><Case(5)>Roegadyn</Case><Case(6)>Au Ra</Case><Case(7)>Hrothgar</Case><Case(8)>Viera</Case></Switch>, you were authorized to deactivate these units. You were not authorized to destroy them!"
+52,"TEXT_HEAVNZ922_01987_TRANSPORTATIONSYSTEM_000_021","Your authorization has been revoked and your crimes have been registered with the central justice authority."

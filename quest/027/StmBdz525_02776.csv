@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ525_02776_SEQ_00","明けの玉座のチャラカは、異国の戦士へ教えたいことがあるようだ。"
+0,"TEXT_STMBDZ525_02776_SEQ_00","Charakha stares at you with admiration."
 1,"TEXT_STMBDZ525_02776_SEQ_01",""
 2,"TEXT_STMBDZ525_02776_SEQ_02",""
 3,"TEXT_STMBDZ525_02776_SEQ_03",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_STMBDZ525_02776_SEQ_21",""
 22,"TEXT_STMBDZ525_02776_SEQ_22",""
 23,"TEXT_STMBDZ525_02776_SEQ_23",""
-24,"TEXT_STMBDZ525_02776_TODO_00","<Sheet(EObj,2008720,0)/>に<Sheet(EventItem,2002297,0)/>を使う"
-25,"TEXT_STMBDZ525_02776_TODO_01","チャラカに報告"
+24,"TEXT_STMBDZ525_02776_TODO_00","Use the Oroniri kumis on the designated locations."
+25,"TEXT_STMBDZ525_02776_TODO_01","Report to Charakha."
 26,"TEXT_STMBDZ525_02776_TODO_02",""
 27,"TEXT_STMBDZ525_02776_TODO_03",""
 28,"TEXT_STMBDZ525_02776_TODO_04",""
@@ -49,31 +49,14 @@ int32,str,str
 45,"TEXT_STMBDZ525_02776_TODO_21",""
 46,"TEXT_STMBDZ525_02776_TODO_22",""
 47,"TEXT_STMBDZ525_02776_TODO_23",""
-48,"TEXT_STMBDZ525_02776_CHARAKHA_000_000","ほう……そなたがあの、
-バルダム覇道を越えてきたという、異国の戦士か。
-なるほど、良い面構えをしている。"
-49,"TEXT_STMBDZ525_02776_CHARAKHA_000_001","一部の兄弟たちは、異人を侮っている節があるが、
-あの試練を越えたのであれば、認めるに値するというもの！"
-50,"TEXT_STMBDZ525_02776_CHARAKHA_000_002","せっかくだ、オロニルに伝わる儀式をしてみないか？
-試練を越えた者が行なう神聖なものだが、
-異人が行ってはならないとは、決められていないからな。"
-51,"TEXT_STMBDZ525_02776_CHARAKHA_000_003","内容は簡単だ。
-この「<Sheet(EventItem,2002297,0)/>」を、周囲の巨石へ撒くのみ。"
-52,"TEXT_STMBDZ525_02776_CHARAKHA_100_003","しかし、ただ撒くのではない。
-心の中で、成し遂げたい野望を唱えながらだ。"
-53,"TEXT_STMBDZ525_02776_CHARAKHA_000_004","玉座の周囲にある巨石は、全部で5か所ある。
-儀式を終えたら、戻ってくるがよい。"
-54,"TEXT_STMBDZ525_02776_CHARAKHA_000_005","玉座の周辺に置かれた5カ所の巨石に、
-その「<Sheet(EventItem,2002297,0)/>」を撒くのだ。
-己が成し遂げたい野望を、心の中で唱えながらな。"
-55,"TEXT_STMBDZ525_02776_CHARAKHA_000_010","ふむ。
-その様子だと、儀式を終えてきたようだな。"
-56,"TEXT_STMBDZ525_02776_CHARAKHA_000_011","あの巨石は、「アジムの指」といい、太陽神の象徴である。
-我らは試練の後、その指へ乳酒を捧げ、野望を伝えることで、
-神への誓いを立てるのだ。"
-57,"TEXT_STMBDZ525_02776_CHARAKHA_000_012","己が望みに相応しいだけの研鑽を積み、
-アジムの御心に適ったならば、野望は果たされる。
-儀式には、このような趣旨があるのだ。"
-58,"TEXT_STMBDZ525_02776_CHARAKHA_000_013","異国の戦士よ、そなたが何を願ったかは聞かぬ。
-その望みを叶えるため、これからも鍛錬に励むがよい。
-太陽神アジムも、そなたの成長を楽しみにしておられよう。"
+48,"TEXT_STMBDZ525_02776_CHARAKHA_000_000","Aha! I recognize you─you are the <If(PlayerParameter(4))>woman<Else/>man</If> that conquered Bardam's Mettle. You must be possessed of an inhuman strength."
+49,"TEXT_STMBDZ525_02776_CHARAKHA_000_001","Rare are the outsiders who win the respect of Azim's sons and daughters."
+50,"TEXT_STMBDZ525_02776_CHARAKHA_000_002","We must celebrate your triumph of this most arduous of trials the Oronir way: you are to perform a sacred ritual."
+51,"TEXT_STMBDZ525_02776_CHARAKHA_000_003","It is not complicated. All you must do to complete it is visit five stones in the area and sprinkle some kumis on them."
+52,"TEXT_STMBDZ525_02776_CHARAKHA_100_003","You are not to do this lightly, however. With each drop of liquid that hits the stone, you must think of a goal you wish to achieve and make a vow to yourself to attain it."
+53,"TEXT_STMBDZ525_02776_CHARAKHA_000_004","Once you are finished, come back to see me. Good luck!"
+54,"TEXT_STMBDZ525_02776_CHARAKHA_000_005","Whatever you do, be sure to keep your goals at the forefronts of your mind as you sprinkle the kumis upon the stones─that is the most important part, after all."
+55,"TEXT_STMBDZ525_02776_CHARAKHA_000_010","You have finished the ritual, I take it? Very good. Then, please allow me to share with you the meaning behind this practice."
+56,"TEXT_STMBDZ525_02776_CHARAKHA_000_011","You see, the five stones upon which you poured the kumis are also referred to as the “fingers of Azim.” This ritual is way of showing him our respect and allows us to receive his guidance."
+57,"TEXT_STMBDZ525_02776_CHARAKHA_000_012","If he deems our desire great enough, he will carve a path for us to achieve it. Though, that is not to say we can simply sit back and relax. We must also work hard to fulfill our dreams."
+58,"TEXT_STMBDZ525_02776_CHARAKHA_000_013","Father Azim sees all and hears all. Your wishes have reached him and, should he deem you worthy, he shall grant them unto you."

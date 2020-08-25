@@ -1,16 +1,16 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSGLD650_02601_SEQ_00","ラールガーズリーチのエメロスは、新たな悩みをかかえているようだ。"
-1,"TEXT_CLSGLD650_02601_SEQ_01","エメロスと話した。ラールガーズリーチの「ジャ・ケビカ」「ウィド」「ハル」と話そう。"
-2,"TEXT_CLSGLD650_02601_SEQ_02","徒弟たちと話した。ラールガーズリーチの「エメロス」と話そう。"
-3,"TEXT_CLSGLD650_02601_SEQ_03","エメロスと話した。ジャ・ケビカの視力を検査することになった。ラールガーズリーチの「ジャ・ケビカ」と話そう。"
-4,"TEXT_CLSGLD650_02601_SEQ_04","眼鏡がまるで合ってないジャ・ケビカのために、新しい眼鏡を作ることになった。「<Sheet(Item,17903,0)/>」をもとに「<Sheet(ItemHQ,17904,0)/>」を製作し、ラールガーズリーチの「エメロス」に納品しよう。
+0,"TEXT_CLSGLD650_02601_SEQ_00","Emeloth has a new worry to replace the old."
+1,"TEXT_CLSGLD650_02601_SEQ_01","Not long after you address the issue of the two brothers' shortcomings, a new problem arises with J'khebica. In spite of her many promising qualities, it turns out she is remarkably clumsy, suffering repeated mishaps while applying the finishing touches. Unable to discern the cause, Emeloth bids you look in on the struggling apprentice. Speak with J'khebica and her fellows to see what you might be able to glean."
+2,"TEXT_CLSGLD650_02601_SEQ_02","You learn from J'khebica that her struggles are relatively new. Meanwhile, the two brothers offer further insights, namely that she cannot reliably distinguish between the two of them, and that she invariably furrows her brows prior to failing. Take these revelations back to Emeloth for her consideration."
+3,"TEXT_CLSGLD650_02601_SEQ_03","Listening in on your report, Kanchana posits that J'khebica's problem may lie with her vision, and Emeloth decides to check her eyesight to ascertain the possibility. Go and summon J'khebica for the test and put the mystery to rest."
+4,"TEXT_CLSGLD650_02601_SEQ_04","It quickly becomes apparent that J'khebica's eyesight has deteriorated beyond what her current spectacles are able to correct. Kanchana suggests that you make her a new pair, which would double as the sample for the next task Emeloth has in mind for the apprentices. Synthesize a pair of spectacles for J'khebica, and present the finished product to your deputy for inspection.
 
-※「<Sheet(Item,17903,0)/>」を失った場合は、カンチャナに話しかけましょう。材料を入手し、再挑戦が可能になります。"
-5,"TEXT_CLSGLD650_02601_SEQ_05","エメロスに納品した。ジャ・ケビカの矯正視力は劇的に改善され、ウィドとハルも大いに刺激を受けたようだ。彼らの向上心に負けないよう、さらなる彫金技術の研鑽に励んでいこう。
+※In the event you lose the materials or the synthesis ends in failure, you may try again by speaking with Kanchana."
+5,"TEXT_CLSGLD650_02601_SEQ_05","The new spectacles do the trick, and J'khebica is fairly enraptured to have her vision back. Wido observes that, even in her semiblind state, J'khebica was still the better goldsmith, and he and Hal are spurred to greater effort. In this way, all three apprentices resume their training with the fire of their enthusiasm further stoked. Let their zeal inspire you as you continue striving for new heights in your craft.
 
-※彫金師のレベルが68以上になると、ラールガーズリーチのエメロスから、次の彫金師クエストを受注することができます。"
+※The next goldsmith quest will be available from Emeloth upon reaching level 68."
 6,"TEXT_CLSGLD650_02601_SEQ_06",""
 7,"TEXT_CLSGLD650_02601_SEQ_07",""
 8,"TEXT_CLSGLD650_02601_SEQ_08",""
@@ -29,12 +29,12 @@ int32,str,str
 21,"TEXT_CLSGLD650_02601_SEQ_21",""
 22,"TEXT_CLSGLD650_02601_SEQ_22",""
 23,"TEXT_CLSGLD650_02601_SEQ_23",""
-24,"TEXT_CLSGLD650_02601_TODO_00","ジャ・ケビカと話す"
-25,"TEXT_CLSGLD650_02601_TODO_01","ウィドと話す"
-26,"TEXT_CLSGLD650_02601_TODO_02","ハルと話す"
-27,"TEXT_CLSGLD650_02601_TODO_03","エメロスと話す"
-28,"TEXT_CLSGLD650_02601_TODO_04","ジャ・ケビカと話す"
-29,"TEXT_CLSGLD650_02601_TODO_05","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>製作手帳 クラスクエスト：<Sheet(ItemHQ,17904,0)/>を製作<Else/>エメロスに<Sheet(ItemHQ,17904,0)/>を納品</If>"
+24,"TEXT_CLSGLD650_02601_TODO_00","Speak with J'khebica."
+25,"TEXT_CLSGLD650_02601_TODO_01","Speak with Wido."
+26,"TEXT_CLSGLD650_02601_TODO_02","Speak with Hal."
+27,"TEXT_CLSGLD650_02601_TODO_03","Speak with Emeloth."
+28,"TEXT_CLSGLD650_02601_TODO_04","Speak with J'khebica."
+29,"TEXT_CLSGLD650_02601_TODO_05","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Synthesize a pair of precision spectacles <Sheet(Addon,9,0)/><Else/>Show the pair of precision spectacles <Sheet(Addon,9,0)/> to Emeloth</If>."
 30,"TEXT_CLSGLD650_02601_TODO_06",""
 31,"TEXT_CLSGLD650_02601_TODO_07",""
 32,"TEXT_CLSGLD650_02601_TODO_08",""
@@ -53,147 +53,65 @@ int32,str,str
 45,"TEXT_CLSGLD650_02601_TODO_21",""
 46,"TEXT_CLSGLD650_02601_TODO_22",""
 47,"TEXT_CLSGLD650_02601_TODO_23",""
-48,"TEXT_CLSGLD650_02601_EMELOTH_000_030","ごきげんよう。
-ウィドとハルの問題は、ひとまず解決いたしました。
-これも師範のおかげです……！"
-49,"TEXT_CLSGLD650_02601_EMELOTH_000_031","次は、ジャ・ケビカのことで相談がありますの。
-あの子は熱心でセンスもいいし、何より宝飾品が好きなので、
-絶対にいい彫金師になると思うのですけれど……"
-50,"TEXT_CLSGLD650_02601_EMELOTH_000_032","ただ……ものすごくドジなんですよ。
-大事な仕上げのときに、致命的な失敗をやって、最初からやり直し。
-それがあんまり続くので、本人も落ち込んでるみたいです。"
-51,"TEXT_CLSGLD650_02601_EMELOTH_000_033","成形はとても上手だから、手先が不器用ってことはないはずですの。
-失敗を意識しすぎて、手元が狂ってるのでしょうか……？"
-52,"TEXT_CLSGLD650_02601_EMELOTH_000_034","……師範なら、原因がわかるかもしれません。
-徒弟さんたちと、少し話をしてみてもらえませんか？
-あの子たちは、酒保商人の天幕あたりで休憩中のようです。"
-53,"TEXT_CLSGLD650_02601_EMELOTH_000_040","徒弟さんたちと、少し話をしてみてもらえませんか？
-あの子たちは、酒保商人の天幕あたりで休憩中のようです。"
-54,"TEXT_CLSGLD650_02601_KANCHANA_000_050","シュー……ケビカなら、よく製作中に悲鳴をあげてるわ。
-最後の最後で大失敗するのが、お約束のようね。"
-55,"TEXT_CLSGLD650_02601_JKHEBICA_000_090","……あ、師範。
-近ごろあたし、あまりにも仕上げの失敗が多くて、
-ちょっと悩んでるっす！"
-56,"TEXT_CLSGLD650_02601_JKHEBICA_000_091","むかしからドジだったわけじゃないっすけど……
-なぜだか最近は、よく手元が狂うっす。"
-57,"TEXT_CLSGLD650_02601_JKHEBICA_000_092","原因は、さっぱり……。
-自分のことながら、お手上げっす！"
-58,"TEXT_CLSGLD650_02601_WIDO_000_100","師範、こないだはありがとな！
-お手本の指輪に、少しでも近づけようと、
-みんなで一生懸命、工夫してるよ。"
-59,"TEXT_CLSGLD650_02601_WIDO_000_101","……ん、ジャ・ケビカの仕事ぶりで気づいたことはないかって？
-あー、オレなんかより全然うまいよ。
-例のドジがなければ、もっとすごいだろうな！"
-60,"TEXT_CLSGLD650_02601_WIDO_000_102","ふだんから、よくオレとハルを間違えてたりするし、
-あれは単に、そそっかしいんじゃないのかな……。
-まあ、オレたち自身、似たもの兄弟ってよく言われるけどな！"
-61,"TEXT_CLSGLD650_02601_HAL_000_110","あっ、師範。
-最近はほかのふたりやエメロスさんの手つきを、真似してるんだ。
-こんど、師範の仕事ぶりも見せてほしいな！"
-62,"TEXT_CLSGLD650_02601_HAL_000_111","……ん、ジャ・ケビカの様子？
-ああ……続けて大失敗したんで、ちょっと落ち込んでるみたいだね。"
-63,"TEXT_CLSGLD650_02601_HAL_000_112","失敗する前は、いつも前ぶれを感じるよ。
-顔をしかめて唸ってるから、どうしたのって聞こうと思うと……
-ガッシャーン……って感じ！"
-64,"TEXT_CLSGLD650_02601_JKHEBICA_000_120","「ここっ！」と狙いを定めて、たがねを打ち込むんですけど、
-なぜか大きくずれちゃうっす……。
-あたし、もしかして…………彫金師に向いてないっす？"
-65,"TEXT_CLSGLD650_02601_WIDO_000_130","ハルと間違われないように、意識して服装は変えてるんだ。
-それでもジャ・ケビカは半々の確率で間違うね。
-…………つまり、まったく区別がついてないってことだな！"
-66,"TEXT_CLSGLD650_02601_HAL_000_140","師範がクラウンジェム工房にいるうちに、
-いっぱい教えてもらわないと……！"
-67,"TEXT_CLSGLD650_02601_KANCHANA_000_150","シュー……みんな、ケビカの心配してる。
-クラウンジェム工房の人たちは、優しいわね。"
-68,"TEXT_CLSGLD650_02601_EMELOTH_000_180","おかえりなさい。
-徒弟さんたちは、どんな様子でしたの？"
-69,"TEXT_CLSGLD650_02601_EMELOTH_000_181","失敗する前は、顔をしかめて唸ってる……？
-それに兄弟をよく間違える……？
-言われてみると、あの子、いつもそうですね。"
-70,"TEXT_CLSGLD650_02601_KANCHANA_000_182","シュー……それ、眼が悪いんじゃないのかしら？"
-71,"TEXT_CLSGLD650_02601_EMELOTH_000_183","視力がよくないとは聞いています。
-でも、眼鏡をかけているから、問題ないという話でしたが……。"
-72,"TEXT_CLSGLD650_02601_EMELOTH_000_184","ここは、彼女の視力を試してみることにしましょうか？
-わたくしが準備をしておきますので、
-「ジャ・ケビカ」に、お声をかけていただけますか？"
-73,"TEXT_CLSGLD650_02601_EMELOTH_000_210","わたくしが検査の準備をしておきますので、
-「ジャ・ケビカ」に、お声をかけていただけますか？"
-74,"TEXT_CLSGLD650_02601_WIDO_000_220","ジャ・ケビカの眼鏡が合ってないんじゃないかって？
-なるほど……それでよく、ハルと間違われるのか？"
-75,"TEXT_CLSGLD650_02601_HAL_000_230","うん、何か始まるの……？
-みんな、ジャ・ケビカに注目してるみたいだけど。"
-76,"TEXT_CLSGLD650_02601_KANCHANA_000_240","シュー……ケビカはきっと、視力が落ちたのよ。
-それで、むかしの眼鏡が合わなくなったんだわ。"
-77,"TEXT_CLSGLD650_02601_JKHEBICA_000_260","え、あたしの視力を検査したいっす？
-何でまた急に……？
-とにかく、了解っす！"
-78,"TEXT_CLSGLD650_02601_JKHEBICA_000_270","ここに立てばいいっすね？
-眼鏡は、外したほうがいいっす？"
-79,"TEXT_CLSGLD650_02601_KANCHANA_000_271","シュー……あ、眼鏡はそのままで。
-普段の視力を試したいから……。"
-80,"TEXT_CLSGLD650_02601_KANCHANA_000_272","じゃ、検査を始めようかしら。
-私とエメロス、どっちが手を上げたか答えて？"
-81,"TEXT_CLSGLD650_02601_JKHEBICA_000_273","えーっと…………カンチャナさんっす！"
-82,"TEXT_CLSGLD650_02601_EMELOTH_000_274","えっ…………本当にそう見えますの！？
-あなたいったい、どんな世界で生きてるのかしら……？"
-83,"TEXT_CLSGLD650_02601_KANCHANA_000_275","シュー……これで決まり。"
-84,"TEXT_CLSGLD650_02601_KANCHANA_000_276","あの子の眼鏡、全然合ってないみたいね。
-師範、ぴったり合うのを作ってあげたらどうかしら？"
-85,"TEXT_CLSGLD650_02601_EMELOTH_000_277","うーん、そうですね…………実は、徒弟さんたちの次の課題に、
-眼鏡の製作をさせようかと考えていたところだったんです。
-レンズ磨きや金属の加工精度など、高度な技術が要求されますから。"
-86,"TEXT_CLSGLD650_02601_EMELOTH_000_278","師範の作品ならば、とてもよいお手本になると思いますの。
-どうでしょう……ひとつ、模範演技をお願いできませんか？"
-87,"TEXT_CLSGLD650_02601_JKHEBICA_000_279","……えっと、師範があたしの眼鏡を作ってくれるっす？
-で、次はそれを参考に、あたしたちが同じものを作るって課題っす？"
-88,"TEXT_CLSGLD650_02601_EMELOTH_000_280","お願いいたします。
-材料が足りないときは、カンチャナさんに言ってくださいね。"
-89,"TEXT_CLSGLD650_02601_JKHEBICA_000_300","師範じきじきに、あたしの眼鏡を作ってもらえるなんて……
-畏れ多くて、かけられないかもっす……！"
-90,"TEXT_CLSGLD650_02601_WIDO_000_310","ジャ・ケビカの眼鏡を、師範が製作……。
-何か、意外な展開になった感じだな！"
-91,"TEXT_CLSGLD650_02601_HAL_000_320","師範はどこで製作するつもり？
-できればここで、製作工程をじっくり見せてほしいな！"
-92,"TEXT_CLSGLD650_02601_KANCHANA_000_330","シュー……
-<Sheet(Item,17903,0)/>なら、ここにあるわ。"
-93,"TEXT_CLSGLD650_02601_KANCHANA_000_340","シュー……ケビカの眼鏡が、完成したようね。
-「エメロス」に渡すといいわ。"
-94,"TEXT_CLSGLD650_02601_EMELOTH_000_360","いかがですか……？
-眼鏡の製作のほどは……。"
-95,"TEXT_CLSGLD650_02601_JKHEBICA_000_370","おおお……見える見える！
-なんか、すごく世界が広くなったっす！"
-96,"TEXT_CLSGLD650_02601_JKHEBICA_000_371","いまのあたしなら、何でも作れる気がするっす！
-……ありがとっす！
-師範、大好きー！"
-97,"TEXT_CLSGLD650_02601_EMELOTH_000_372","なるほど……何か勝手が違うと思いながら、
-眼鏡が合わなくなったのに、気づいてなかったと……。
-それでよく、手元が狂ってたのですね。"
-98,"TEXT_CLSGLD650_02601_WIDO_000_373","まともに見えてない状態で、オレたち以上の腕前だったんだ。
-死ぬ気で上達しないと、置いてかれるぞ……？"
-99,"TEXT_CLSGLD650_02601_HAL_000_374","うん……がんばらないと、まずいね……。"
-100,"TEXT_CLSGLD650_02601_JKHEBICA_000_375","師範、素敵な眼鏡をありがとっす！
-どこまでできるかわからないけど、次は3人で、
-同じものを作ってみるっす！"
-101,"TEXT_CLSGLD650_02601_EMELOTH_000_376","前からその片鱗を見せていたジャ・ケビカの素質が、
-あの眼鏡のおかげで、一気に花開きそうですね。
-ウィドとハルまで本気を出してくれて、いい雰囲気になりました。"
-102,"TEXT_CLSGLD650_02601_KANCHANA_000_377","シュー……まだまだ成長途上の彼らだけど、
-それでもずいぶん力をつけたわ。
-職人の端くれと呼べるくらいには、なってきているわね。"
-103,"TEXT_CLSGLD650_02601_EMELOTH_000_378","わたくしたちから見れば、まだまだ未熟ですが、
-売りモノになる品も、ぼちぼち作れるようになっておりますの。"
-104,"TEXT_CLSGLD650_02601_EMELOTH_000_379","実は、大衆向けのアクセサリーなど、あの子たちの製作した品を、
-取り扱ってもらえるツテはないか……
-ウルダハのマルセルさんたちに、相談しているところなんです。"
-105,"TEXT_CLSGLD650_02601_EMELOTH_000_380","いつか、ウルダハじゅうの人々が、
-「クラウンジェム工房」の品を求めて、店に列をなす……。
-そんな日が来ることを夢見て、あの子たちを導いてあげたいですね。"
-106,"TEXT_CLSGLD650_02601_KANCHANA_000_381","シュー……ところで、師範の眼鏡を参考にするには、
-眼鏡を外さないといけないと思うのだけど。
-……ケビカは、眼鏡なしで製作に入るつもりかしら？"
-107,"TEXT_CLSGLD650_02601_EMELOTH_000_382","あ…………それは……どうしましょう？"
-108,"TEXT_CLSGLD650_02601_EMELOTH_000_383","そ……それも含めて今回の課題ということにいたしましょうか？
-とにかく次の課題へと進むのは、彼女たちが、
-無事に眼鏡を仕上げてからにしたいと思いますの。"
-109,"TEXT_CLSGLD650_02601_SYSTEM_000_900","彫金師として、さらなる技術的洗練を高め、
-「マニピュレーション」を修得しました！"
+48,"TEXT_CLSGLD650_02601_EMELOTH_000_030","Thanks to your inspired idea and extraordinary craftsmanship, we have addressed the issue of the two brothers' shortcomings, and may carry on their education. "
+49,"TEXT_CLSGLD650_02601_EMELOTH_000_031","Alas, another issue has arisen, this time with J'khebica. She possesses determination, artistic sense, and above all a love for jewelry. I was quite certain she would succeed as a goldsmith."
+50,"TEXT_CLSGLD650_02601_EMELOTH_000_032","But she is, for want of a better word, clumsy. Remarkably so. She falters at the most vital steps when applying the finishing touches, and ends up having to start from scratch. This has happened so many times now, she has become quite depressed."
+51,"TEXT_CLSGLD650_02601_EMELOTH_000_033","Considering how reliable she is at molding, I cannot understand why she would struggle in this way. Could it be she puts too much pressure on herself, and it robs her of a steady touch?"
+52,"TEXT_CLSGLD650_02601_EMELOTH_000_034","Whatever the cause might be, perhaps you will be able to discern it where I could not. Might I trouble you to look in on J'khebica, Schoolmaster? And the other two as well while you are at it. You are like to find them at the Sutler's Tent."
+53,"TEXT_CLSGLD650_02601_EMELOTH_000_040","Might I trouble you to look in on the apprentices, Schoolmaster? You are like to find them at the Sutler's Tent."
+54,"TEXT_CLSGLD650_02601_KANCHANA_000_050","Of late, J'khebica's shrill cry piercesss the air with clockwork regularity. Such a ssslump she must be sssuffering."
+55,"TEXT_CLSGLD650_02601_JKHEBICA_000_090","S-Schoolmaster, I'm at my wit's end! I keep on botching the finishing touches and it's just so frustrating and I don't know what to do anymore!"
+56,"TEXT_CLSGLD650_02601_JKHEBICA_000_091","I was never clumsy like this in the past and though people say I talk in streams of thought I never rush my work, but for some reason my hands and fingers don't move as I will them."
+57,"TEXT_CLSGLD650_02601_JKHEBICA_000_092","I can't for the life of me work out what's wrong and it's driving me mad and I'm just about ready to give up!"
+58,"TEXT_CLSGLD650_02601_WIDO_000_100","Thanks again for the other day, Chief. We've got our heads down an' together, tryin' to put out a ring what won't shame you."
+59,"TEXT_CLSGLD650_02601_WIDO_000_101","...Eh? Have I noticed anythin' about J'khebica's work? Well, she's a sight better than me, an' that's takin' all her bunglin' into account. More's the pity 'cause she seems to know exactly what she wants to do."
+60,"TEXT_CLSGLD650_02601_WIDO_000_102","I ain't no expert─not yet anyway─but might be she could stand to slow it down some? I mean, outside o' work, she always gets me an' Hal mixed up. I won't deny the resemblance, but I'm clearly the better lookin' one."
+61,"TEXT_CLSGLD650_02601_HAL_000_110","M-Me? I've been watchin' Miss Emeloth, tryin' to imitate her movements. She's real graceful with her hands, y'know? Next time, maybe you could let us watch you, too?"
+62,"TEXT_CLSGLD650_02601_HAL_000_111","...J'khebica? Aye, she's been havin' a lot o' mishaps o' late, an' it's gotten her down."
+63,"TEXT_CLSGLD650_02601_HAL_000_112","Funny thing is you <Emphasis>know</Emphasis> when somethin's about to go wrong. She furrows her brows, lookin' real focused, like, then lets out a growl. An' the next moment, all her hard work's undone."
+64,"TEXT_CLSGLD650_02601_JKHEBICA_000_120","I think I've got the chisel perfectly lined up but then I swing the hammer and it's way off the mark... <sigh> Maybe I'm just not cut out to be a goldsmith..."
+65,"TEXT_CLSGLD650_02601_WIDO_000_130","Me an' Hal, we wear different clothes, but even so J'khebica can't tell who's who half the time. At these odds, she might as well be guessin' blindfolded."
+66,"TEXT_CLSGLD650_02601_HAL_000_140","Right! I'm gonna learn as much as I can from you while you're here!"
+67,"TEXT_CLSGLD650_02601_KANCHANA_000_150","Everyone worries so for J'khebica. She is blessed to have sssuch caring friends."
+68,"TEXT_CLSGLD650_02601_EMELOTH_000_180","Were you able to learn aught of J'khebica's situation?"
+69,"TEXT_CLSGLD650_02601_EMELOTH_000_181","She furrows her eyebrows before an instance of bungling, you say? And struggles to tell the two brothers apart besides..."
+70,"TEXT_CLSGLD650_02601_KANCHANA_000_182","It seemsss to me the problem liesss with her eyesss."
+71,"TEXT_CLSGLD650_02601_EMELOTH_000_183","I was aware of her poor eyesight, but I assumed that her spectacles corrected it..."
+72,"TEXT_CLSGLD650_02601_EMELOTH_000_184","Hm, well, J'khebica is right there, so let us test her vision and ascertain the possibility. Schoolmaster, may I trouble you to summon her while Kanchana and I set things up?"
+73,"TEXT_CLSGLD650_02601_EMELOTH_000_210","Let us test J'khebica's vision and see whether that is indeed the cause of her grief. Schoolmaster, may I trouble you to summon her while Kanchana and I set things up?"
+74,"TEXT_CLSGLD650_02601_WIDO_000_220","Her spectacles might be the problem, you say? Well, that'd explain why she can't tell who's the better lookin' o' me an' Hal."
+75,"TEXT_CLSGLD650_02601_HAL_000_230","Er, what's goin' on? Is J'khebica alright?"
+76,"TEXT_CLSGLD650_02601_KANCHANA_000_240","In all likelihood, J'khebica's vision has sssince deteriorated and her spectaclesss no longer serve her needsss."
+77,"TEXT_CLSGLD650_02601_JKHEBICA_000_260","You wish to test my vision, Schoolmaster <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>? B-But of course!"
+78,"TEXT_CLSGLD650_02601_JKHEBICA_000_270","So, I just stand here and should I take off my spectacles?"
+79,"TEXT_CLSGLD650_02601_KANCHANA_000_271","Nay, young goldsmith, pray leave them on."
+80,"TEXT_CLSGLD650_02601_KANCHANA_000_272","Let us begin, then. Whose hand is raisssed? Miss Emeloth'sss...or mine?"
+81,"TEXT_CLSGLD650_02601_JKHEBICA_000_273","Oh, that's easy. Yours, Kanchana!"
+82,"TEXT_CLSGLD650_02601_EMELOTH_000_274","...It honestly appears that way to you? By the gods, girl, what world have you been living in? How have you not already strolled off a cliff?"
+83,"TEXT_CLSGLD650_02601_KANCHANA_000_275","We have our anssswer. Her spectaclesss have outlived their usefulness."
+84,"TEXT_CLSGLD650_02601_KANCHANA_000_276","Mayhap her ssschoolmaster would be so kind as to make her a new pair?"
+85,"TEXT_CLSGLD650_02601_EMELOTH_000_277","Hm, it just so happens I had spectacles in mind for the next task. From the curves of the lenses to the joints of the frame, these items demand a high degree of precision, and are thus ideal for cultivating attention to detail."
+86,"TEXT_CLSGLD650_02601_EMELOTH_000_278","The spectacles you craft for J'khebica would also serve admirably as a sample for our apprentices. And for their added benefit, may I suggest that you make a demonstration of it?"
+87,"TEXT_CLSGLD650_02601_JKHEBICA_000_279","So, the schoolmaster will make me a new pair of spectacles and it'll be our reference for the next task?"
+88,"TEXT_CLSGLD650_02601_EMELOTH_000_280","Whenever you are ready, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. As before, if you are short of materials, Kanchana will furnish you with whatever you require."
+89,"TEXT_CLSGLD650_02601_JKHEBICA_000_300","Oh, to think that spectacles crafted by a renowned goldsmith such as you will soon grace my face and restore my vision! The excitement is almost too much to bear!"
+90,"TEXT_CLSGLD650_02601_WIDO_000_310","You're gonna make J'khebica a new pair of specs? Heh, didn't see that comin'!"
+91,"TEXT_CLSGLD650_02601_HAL_000_320","This time you're gonna do the craftin' in front of us, right? Right!?"
+92,"TEXT_CLSGLD650_02601_KANCHANA_000_330","If you need more materialsss for the spectaclesss, I have them here."
+93,"TEXT_CLSGLD650_02601_KANCHANA_000_340","Ah, so J'khebica's spectaclesss are ready? Go on and let Emeloth know."
+94,"TEXT_CLSGLD650_02601_EMELOTH_000_360","How are the spectacles coming along?"
+95,"TEXT_CLSGLD650_02601_JKHEBICA_000_370","Oh, praise be, I can see again! All the beauty of nature in its fullest brilliance extending as high as the heavens and as far as the horizon!"
+96,"TEXT_CLSGLD650_02601_JKHEBICA_000_371","My world is so wide now I feel as though anything and everything is possible! Thank you, Schoolmaster, thank you from the bottom of my heart!"
+97,"TEXT_CLSGLD650_02601_EMELOTH_000_372","To look at your glee, it's a wonder you didn't realize the fault lay in your spectacles. At any rate, you may again work with confidence."
+98,"TEXT_CLSGLD650_02601_WIDO_000_373","She could hardly see worth a damn, but she could still do a sight better than us. We're gonna have to lift our game somethin' fierce. You hear me, Hal?"
+99,"TEXT_CLSGLD650_02601_HAL_000_374","Loud an' clear, Wido. Loud an' clear."
+100,"TEXT_CLSGLD650_02601_JKHEBICA_000_375","These are the finest spectacles a girl could hope to own and I don't know how close we can get to such quality, but we're going to give it our all!"
+101,"TEXT_CLSGLD650_02601_EMELOTH_000_376","Prior to this, J'khebica showed a glimpse of promise, but with her new spectacles I believe she is set to give us a veritable eyeful. Seeing this has served to stoke the fires within Wido and Hal, and we may expect much and more from them also."
+102,"TEXT_CLSGLD650_02601_KANCHANA_000_377","They may be worksss in progress, but quickly are they taking shape. Ere long they will become goldsmiths in their own right."
+103,"TEXT_CLSGLD650_02601_EMELOTH_000_378","From our perspective they still have far to go, but they now have it in them to craft wares fit to grace shop displays."
+104,"TEXT_CLSGLD650_02601_EMELOTH_000_379","In anticipation of this, I've been consulting Master Marcel on finding purveyors willing to stock their handiwork."
+105,"TEXT_CLSGLD650_02601_EMELOTH_000_380","Ours is an unknown name for now, but the day will come when people the realm over gather in droves seeking Crown Gemworks articles. It is to see such a day arrive that we labor."
+106,"TEXT_CLSGLD650_02601_KANCHANA_000_381","...It occursss to me that if the spectaclesss are to serve as reference, would J'khebica not need to remove them? How would she carry out the work in that cassse?"
+107,"TEXT_CLSGLD650_02601_EMELOTH_000_382","Oh. Right you are."
+108,"TEXT_CLSGLD650_02601_EMELOTH_000_383","Sh-Shall we say that this is part of the challenge? It would afford us a little more time to prepare for the next task..."
+109,"TEXT_CLSGLD650_02601_SYSTEM_000_900","In polishing your skills as a goldsmith, you have learned “Manipulation”!"

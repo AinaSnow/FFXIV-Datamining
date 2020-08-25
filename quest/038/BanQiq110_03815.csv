@@ -1,11 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANQIQ110_03815_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト受注クラス・ジョブ制限<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-※本クエストは受注時のクラスでのみ進行します。
+0,"TEXT_BANQIQ110_03815_SEQ_00","Qhoterl Pasol is despairing at the workers' clumsiness.
 
-ホパル古盤のコテルリ・パソリは、傷薬がほしいようだ。"
-1,"TEXT_BANQIQ110_03815_SEQ_01","コテルリ・パソリに依頼された品を納品"
+※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest."
+1,"TEXT_BANQIQ110_03815_SEQ_01","Deliver the requested items to Qhoterl Pasol."
 2,"TEXT_BANQIQ110_03815_SEQ_02",""
 3,"TEXT_BANQIQ110_03815_SEQ_03",""
 4,"TEXT_BANQIQ110_03815_SEQ_04",""
@@ -28,7 +27,7 @@ int32,str,str
 21,"TEXT_BANQIQ110_03815_SEQ_21",""
 22,"TEXT_BANQIQ110_03815_SEQ_22",""
 23,"TEXT_BANQIQ110_03815_SEQ_23",""
-24,"TEXT_BANQIQ110_03815_TODO_00","<If(Equal(IntegerParameter(4),16))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>クムル星遺跡群の岩場で<Sheet(Item,IntegerParameter(5),0)/>を砕岩<Else/>コテルリ・パソリに<Sheet(Item,IntegerParameter(5),0)/>を納品</If><Else/><If(Equal(IntegerParameter(4),17))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>クムル星遺跡群の草刈場で<Sheet(Item,IntegerParameter(5),0)/>を草刈<Else/>コテルリ・パソリに<Sheet(Item,IntegerParameter(5),0)/>を納品</If><Else/><If(Equal(IntegerParameter(4),18))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>ロツァトル川で<Sheet(Item,IntegerParameter(5),0)/>を釣る<Else/>コテルリ・パソリに<Sheet(Item,IntegerParameter(5),0)/>を納品</If><Else/></If></If></If>"
+24,"TEXT_BANQIQ110_03815_TODO_00","<If(Equal(IntegerParameter(4),16))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Mine splendid mineral oil in the K'mul Astropolis<Else/>Deliver the splendid mineral oil to Qhoterl Pasol</If><Else/><If(Equal(IntegerParameter(4),17))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Gather splendid greenwattle in the K'mul Astropolis<Else/>Deliver the splendid greenwattle to Qhoterl Pasol</If><Else/><If(Equal(IntegerParameter(4),18))><If(LessThan(IntegerParameter(1),IntegerParameter(2)))>Gather a splendid pondfrond at the Lozatl<Else/>Deliver the splendid pondfrond to Qhoterl Pasol</If><Else/></If></If></If>."
 25,"TEXT_BANQIQ110_03815_TODO_01",""
 26,"TEXT_BANQIQ110_03815_TODO_02",""
 27,"TEXT_BANQIQ110_03815_TODO_03",""
@@ -52,35 +51,14 @@ int32,str,str
 45,"TEXT_BANQIQ110_03815_TODO_21",""
 46,"TEXT_BANQIQ110_03815_TODO_22",""
 47,"TEXT_BANQIQ110_03815_TODO_23",""
-48,"TEXT_BANQIQ110_03815_QHOTERLPASOL_000_000","地下洞窟の内部は暗く、凹凸も数多いとか～。
-そのため、探索に出た者たちは、転んだりひっかけたりと、
-頻繁に傷を負っているのでございまする～！"
-49,"TEXT_BANQIQ110_03815_QHOTERLPASOL_000_001","ヴィース族から教えてもらったのですが、
-この辺りの森でも、傷薬の材料が採れるのだとか～。
-負傷者のために、採ってきてくださいましな～。"
-50,"TEXT_BANQIQ110_03815_QHOTERLPASOL_000_010","なんでも、クムル星遺跡群で採れる、
-「<Sheet(Item,29524,0)/>」が、よく効くそうなので、
-それを3つほど、お願いいたしまする～。"
-51,"TEXT_BANQIQ110_03815_QHOTERLPASOL_000_020","なんでも、クムル星遺跡群で採れる、
-「<Sheet(Item,29550,0)/>」が、よく効くそうなので、
-それを3つほど、お願いいたしまする～。"
-52,"TEXT_BANQIQ110_03815_QHOTERLPASOL_000_030","なんでも、「<Sheet(Item,29576,0)/>」が、
-よく効くそうなので、調達をお願いいたしまする～。
-ロツァトル川で、<Sheet(Item,27582,0)/>を餌にすれば釣れるかと～。"
-53,"TEXT_BANQIQ110_03815_QHOTERLPASOL_000_040","クムル星遺跡群で採れる「<Sheet(Item,29524,0)/>」が、
-傷によく効くそうなので、それを3つほど、
-調達してくださいましな～。"
-54,"TEXT_BANQIQ110_03815_QHOTERLPASOL_000_050","クムル星遺跡群で採れる「<Sheet(Item,29550,0)/>」が、
-傷によく効くそうなので、それを3つほど、
-調達してくださいましな～。"
-55,"TEXT_BANQIQ110_03815_QHOTERLPASOL_000_060","「<Sheet(Item,29576,0)/>」が、
-傷によく効くそうなので、ロツァトル川で、
-<Sheet(Item,27582,0)/>を餌に、釣ってきてくださいましな～。"
-56,"TEXT_BANQIQ110_03815_QHOTERLPASOL_000_070","お待ちしておりました～。
-目当てのものは、手に入りましたので～？"
-57,"TEXT_BANQIQ110_03815_QHOTERLPASOL_000_080","ありがとうございまする～！
-これで生傷の絶えぬ夫たちも、
-一安心というところでございましょ～！"
-58,"TEXT_BANQIQ110_03815_QHOTERLPASOL_000_081","ところで、この近辺では他にも良薬が採れるとか～。
-その中には、わたくし向けの美容薬になるものも……
-あら、今の話は秘密にしてくださいましな～。"
+48,"TEXT_BANQIQ110_03815_QHOTERLPASOL_000_000","Underground caverns can be frightfully dangerous, you know! The workers are constantly tripping over and grazing their snouts and whatnot."
+49,"TEXT_BANQIQ110_03815_QHOTERLPASOL_000_001","Thankfully, the Viis were kind enough to share a recipe for a salve that works wonders for scrapes and cuts. If you're not terribly busy, I was wondering if you'd help gather some of the necessary ingredients?"
+50,"TEXT_BANQIQ110_03815_QHOTERLPASOL_000_010","For now, I need some mineral oil, which you should be able to find near the K'mul Astropolis. There's no rush, but sooner is always infinitely preferable to later!"
+51,"TEXT_BANQIQ110_03815_QHOTERLPASOL_000_020","For now, I need some greenwattle, which you should be able to find near the K'mul Astropolis. There's no rush, but sooner is always infinitely preferable to later!"
+52,"TEXT_BANQIQ110_03815_QHOTERLPASOL_000_030","For now, I just need a piece of pondfrond, which grows in the Lozatl. It's rather difficult to find, but a fruit worm will lead you right to it. By all accounts, they're drawn to the smell!"
+53,"TEXT_BANQIQ110_03815_QHOTERLPASOL_000_040","How are those ingredients coming along?"
+54,"TEXT_BANQIQ110_03815_QHOTERLPASOL_000_050","How are those ingredients coming along?"
+55,"TEXT_BANQIQ110_03815_QHOTERLPASOL_000_060","Any luck with that pondfrond?"
+56,"TEXT_BANQIQ110_03815_QHOTERLPASOL_000_070","I can tell by the spring in your step you've met with some success. Come along then, let's see what you've brought me!"
+57,"TEXT_BANQIQ110_03815_QHOTERLPASOL_000_080","Splendid! With this, I'll have a fresh batch of ointment ready in no time at all, though I cannot help but feel that, in this case, prevention would be better than cure."
+58,"TEXT_BANQIQ110_03815_QHOTERLPASOL_000_081","Perhaps if the workers could refrain from injuring themselves at every given opportunity, there wouldn't be such high demand for the stuff. Until then, I may have need to call on your talents again!"

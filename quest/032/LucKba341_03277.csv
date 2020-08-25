@@ -1,14 +1,14 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKBA341_03277_SEQ_00","ゲートタウンのオルヴァラは、ルー・リークのことを心配しているようだ。"
-1,"TEXT_LUCKBA341_03277_SEQ_01","オルヴァラから、ひとりぼっちのルー・リークの様子を見てくるよう頼まれた。クリスタリウムの彷徨う階段亭の「<Sheet(EObj,2010405,0)/>」で見渡そう。"
-2,"TEXT_LUCKBA341_03277_SEQ_02","<Sheet(EObj,2010405,0)/>で見渡したが、ルー・リークの姿はなかった。彼の行方を知るため、彷徨う階段亭で情報を集めよう。"
-3,"TEXT_LUCKBA341_03277_SEQ_03","情報を集めたところ、ルー・リークはひとりで、アンドレイアの討伐に向かったようだ。ラケティカ大森林のシチュア湿地で「ルー・リーク」を探そう。"
-4,"TEXT_LUCKBA341_03277_SEQ_04","ルー・リークを見つけたところ、冒険者は過去視によって、アンドレイアが賞金稼ぎを罪喰い化して、光の戦士一行を再現したことを知る。ルー・リークと冒険者は仲直りして、アンドレイアの討伐を誓うのだった。ゲートタウンの「オルヴァラ」と話そう。"
-5,"TEXT_LUCKBA341_03277_SEQ_05","オルヴァラと話した。ルー・リークは、次こそアンドレイアを討伐すると意気込むのだった。腕を磨いて、またルー・リークを訪ねよう。
+0,"TEXT_LUCKBA341_03277_SEQ_00","Olvara cannot help but worry for Lue-Reeq's well-being."
+1,"TEXT_LUCKBA341_03277_SEQ_01","In the days since your somewhat acrimonious parting, Lue-Reeq has come to visit Miss Olvara some few times. Though he seems to be in good health, he has yet to forge a new partnership with another Virtue-hunter, and so the elderly woman hopes that you can put aside whatever negative feelings you may harbor against the youth, and go to the Crystarium to see how he is faring."
+2,"TEXT_LUCKBA341_03277_SEQ_02","Lue-Reeq is not at his usual table, nor does he appear to be anywhere in the general vicinity. Surely someone nearby will have noted his passing, though..."
+3,"TEXT_LUCKBA341_03277_SEQ_03","In questioning the patrons of the Wandering Stairs you learn that Lue-Reeq's former partner, Lanbyrd, took his entourage to Rak'tika in order to slay Andreia. They were overmatched, however, and nearly slaughtered to a man, leaving a sole survivor of the battle to recount the tale to others at the Crystarium. Others then left to take up the hunt in their fallen comrades' stead, Lue-Reeq among them. Most likely he is still in the Greatwood─assuming he is still alive..."
+4,"TEXT_LUCKBA341_03277_SEQ_04","Blessedly, you find the young lordling alive and well, and through the power of the Echo observe how he confronted Andreia, only to his horror discover that Lanbyrd and his fallen comrades had risen once more as eaters in service to the Virtue. Though Lue-Reeq is at first unsure how to reconcile this behavior with his knowledge of Renda-Rae's past, you explain that in truth she did not defeat Balam–Quitz alone, but rather with the aid of her fellow Warriors of Light. Finally recognizing his folly, the young lordling at last begs your forgiveness for his harsh words, and asks that you return with him to Gatetown to speak with Miss Olvara before you prepare for your final confrontation with Andreia."
+5,"TEXT_LUCKBA341_03277_SEQ_05","A rather apologetic Lue-Reeq thanks both you and his former wet nurse for your constant support in spite of his myriad failings. Though he is far from certain how he might overcome his limitations and lay the spirit of Renda-Rae to rest, even with your assistance, he is willing to do whatever it takes to see his hunt through to the end.
 
-※いずれかのファイター系DPSジョブのレベルが80以上になると、ゲートタウンのルー・リークから次のファイター系DPSロールクエストを受注することができます。"
+※The next role quest will be available from Lue-Reeq upon reaching level 80 in any physical DPS class."
 6,"TEXT_LUCKBA341_03277_SEQ_06",""
 7,"TEXT_LUCKBA341_03277_SEQ_07",""
 8,"TEXT_LUCKBA341_03277_SEQ_08",""
@@ -27,10 +27,10 @@ int32,str,str
 21,"TEXT_LUCKBA341_03277_SEQ_21",""
 22,"TEXT_LUCKBA341_03277_SEQ_22",""
 23,"TEXT_LUCKBA341_03277_SEQ_23",""
-24,"TEXT_LUCKBA341_03277_TODO_00","彷徨う階段亭の<Sheet(EObj,2010405,0)/>で見渡す"
-25,"TEXT_LUCKBA341_03277_TODO_01","彷徨う階段亭で情報を集める"
-26,"TEXT_LUCKBA341_03277_TODO_02","シチュア湿地でルー・リークを探す"
-27,"TEXT_LUCKBA341_03277_TODO_03","ゲートタウンのオルヴァラと話す"
+24,"TEXT_LUCKBA341_03277_TODO_00","Search for Lue-Reeq in the Crystarium."
+25,"TEXT_LUCKBA341_03277_TODO_01","Question the people at the Wandering Stairs."
+26,"TEXT_LUCKBA341_03277_TODO_02","Search for Lue-Reeq in Rak'tika."
+27,"TEXT_LUCKBA341_03277_TODO_03","Speak with Olvara in Kholusia."
 28,"TEXT_LUCKBA341_03277_TODO_04",""
 29,"TEXT_LUCKBA341_03277_TODO_05",""
 30,"TEXT_LUCKBA341_03277_TODO_06",""
@@ -51,136 +51,65 @@ int32,str,str
 45,"TEXT_LUCKBA341_03277_TODO_21",""
 46,"TEXT_LUCKBA341_03277_TODO_22",""
 47,"TEXT_LUCKBA341_03277_TODO_23",""
-48,"TEXT_LUCKBA341_03277_OLVARA_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん、
-こんな年寄りのもとに、わざわざ来てくれてどうもありがとう。"
-49,"TEXT_LUCKBA341_03277_OLVARA_000_001","リーク坊ちゃんは、あれから何度か私に会いにきてくれたわ。
-でも、新しいお友達もできず、ずっとひとりぼっちなの。
-心配だけど、私は歩くのもやっと……。"
-50,"TEXT_LUCKBA341_03277_OLVARA_000_002","どうかお願い、クリスタリウムの彷徨う階段亭まで、
-リーク坊ちゃんの様子を見にいってもらえないかしら？
-お礼はこれから精魂込めて用意するわ……。"
-51,"TEXT_LUCKBA341_03277_OLVARA_000_008","クリスタリウムの彷徨う階段亭まで、
-リーク坊ちゃんの様子を見にいってもらえないかしら？
-お礼はこれから精魂込めて用意するわ……。"
-52,"TEXT_LUCKBA341_03277_DRAHNCONJURER_000_009","あんたは、どこかで会ったような……？"
-53,"TEXT_LUCKBA341_03277_SYSTEM_000_010","ルー・リークの姿が見当たらないようだ……。
-辺りの者に彼の行方を訪ねてみよう。"
-54,"TEXT_LUCKBA341_03277_DARLFORT_100_020","ルー・リーク……さん？
-ああ、あまり評判がよろしくない方ですね。
-いつもの席にいらっしゃらないなら、私はわかりません……。"
-55,"TEXT_LUCKBA341_03277_MEITATCH_100_021","ルー・リークか……。
-あの、「アホぼん」は金だけが取り柄だったが、
-どうやら、それもなくなっちまったらしいからな……。"
-56,"TEXT_LUCKBA341_03277_MEITATCH_100_022","そうなると、いよいよ誰にも相手にされなくなって、
-ずっとひとりで、寂しそうにしていたよ。
-行く当てもなさそうだし、そのうち戻ってくるんじゃないか？"
-57,"TEXT_LUCKBA341_03277_PERSONA_000_020","（★未使用／削除予定★）"
-58,"TEXT_LUCKBA341_03277_PERSONB_000_021","（★未使用／削除予定★）"
-59,"TEXT_LUCKBA341_03277_PERSONB_000_022","（★未使用／削除予定★）"
-60,"TEXT_LUCKBA341_03277_DRAHNCONJURER_000_023","あんたは、コルシア島でルー・リークといた……。
-覚えてないかもしれないが、俺はランビルドの仲間だった者だよ。"
-61,"TEXT_LUCKBA341_03277_DRAHNCONJURER_000_024","あれから、俺たちはラケティカ大森林に出没するようになった、
-アンドレイアの討伐に向かったんだ……。
-だが、ヤツの強さは規格外だった。"
-62,"TEXT_LUCKBA341_03277_DRAHNCONJURER_000_025","ランビルドもほかの仲間も次々とやられてしまい、
-俺は命からがら何とか逃げてきたんだ。"
-63,"TEXT_LUCKBA341_03277_DRAHNCONJURER_000_026","臆病者と言われても構わない、
-なんせヤツにやられたはずの、ランビルドが立ち上がり……。
-ああ、思い出すだけでも震え上がる！"
-64,"TEXT_LUCKBA341_03277_DRAHNCONJURER_000_027","その後も、次々と賞金稼ぎたちが討伐に向かったが、
-帰ってきた者は誰ひとりとしていない。"
-65,"TEXT_LUCKBA341_03277_DRAHNCONJURER_000_028","ルー・リークも、ついさっき、
-ひとりでラケティカ大森林のシチュア湿地に向かったよ。
-かわいそうに、もう見ることもないだろうな……。"
-66,"TEXT_LUCKBA341_03277_DARLFORT_100_030","ルー・リークさんが、いつもの席にいないのなら、
-私はわかりません……。"
-67,"TEXT_LUCKBA341_03277_MEITATCH_100_031","ルー・リークはずっとひとりで、寂しそうにしていたよ。
-行く当てもなさそうだし、そのうち戻ってくるんじゃないか？"
-68,"TEXT_LUCKBA341_03277_DRAHNCONJURER_000_032","ルー・リークは、ついさっき、
-ひとりでラケティカ大森林のシチュア湿地に向かったよ。
-かわいそうに、もう見ることもないだろうな……。"
-69,"TEXT_LUCKBA341_03277_PERSONA_000_030","（★未使用／削除予定★）"
-70,"TEXT_LUCKBA341_03277_PERSONB_000_031","（★未使用／削除予定★）"
-71,"TEXT_LUCKBA341_03277_LUEREEQ_000_060","お、お前……。
-わざわざ駆けつけてくれたってのか……？"
-72,"TEXT_LUCKBA341_03277_LUEREEQ_000_061","大変なことになったんだ！
-アンドレイアが、アンドレイアが……！"
-73,"TEXT_LUCKBA341_03277_LUEREEQ_000_062","おい、アンドレイア！
-いや……レンダ・レイ！"
-74,"TEXT_LUCKBA341_03277_LUEREEQ_000_063","お前がひとりでバラム・キツェーを倒したように、
-俺も仲間なんかに頼らず、ひとりでお前を倒してみせる……！"
-75,"TEXT_LUCKBA341_03277_LUEREEQ_000_064","ラ、ランビルド……ッ！？"
-76,"TEXT_LUCKBA341_03277_LUEREEQ_000_065","お前、また過去を視たのか？
-今度は何を視たっていうんだ……？"
-77,"TEXT_LUCKBA341_03277_LUEREEQ_000_066","そうか、俺が見た直前の光景を……。
-過去を視る力ってのも、使いようによっては便利なもんだな。
-だがなぜ、あのとき敵前で使ったんだ？"
-78,"TEXT_LUCKBA341_03277_Q1_000_000","何と言う？"
-79,"TEXT_LUCKBA341_03277_A1_000_001","自分で制御できるわけじゃない"
-80,"TEXT_LUCKBA341_03277_A1_000_002","いつ発動するかわからない"
-81,"TEXT_LUCKBA341_03277_LUEREEQ_000_067","そ、そうだったのか……。
-俺はてっきり、お前の不注意かと……。"
-82,"TEXT_LUCKBA341_03277_LUEREEQ_000_068","お前もあの光景を視たのなら話が早い。
-ヤツは、ランビルドやほかの賞金稼ぎたちを、
-罪喰い化して仲間にしたようだ。"
-83,"TEXT_LUCKBA341_03277_LUEREEQ_000_069","それも、ヒュム族の斧使いに、ガルジェント族の剣士、
-ドワーフ族の癒し手に、エルフ族の魔道士ときた。
-この面子は、「光の戦士たち」と符合する。"
-84,"TEXT_LUCKBA341_03277_LUEREEQ_000_070","つまり……
-アンドレイアは、かつての仲間たちを再現したってことだ！"
-85,"TEXT_LUCKBA341_03277_LUEREEQ_000_071","だが、腑に落ちない点もある……。
-アンドレイアがラケティカ大森林をうろつくのは、
-バラム・キツェーを探しているからに違いない。"
-86,"TEXT_LUCKBA341_03277_LUEREEQ_000_072","レンダ・レイは、バラム・キツェーをひとりで討伐したはず。
-ここで仲間を作るのは、過去と食い違う……。"
-87,"TEXT_LUCKBA341_03277_LUEREEQ_000_073","な、なんだって？
-レンダ・レイは仲間とともに討伐しただって？
-じゃあ……伝わっていた話は間違いだったのか……？"
-88,"TEXT_LUCKBA341_03277_LUEREEQ_000_074","なんてこった……
-俺はレンダ・レイに倣って、ひとりで戦おうとしたってのに……。"
-89,"TEXT_LUCKBA341_03277_LUEREEQ_000_075","でも、お前が駆けつけてくれたときに痛感したよ。
-仲間って、やっぱりいいもんだなって……。"
-90,"TEXT_LUCKBA341_03277_LUEREEQ_000_076","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>……。
-お前に暴言を吐いて、仲違いしてしまったこと、
-ずっと後悔していたんだ……。"
-91,"TEXT_LUCKBA341_03277_LUEREEQ_000_077","本当に、本当に、すまなかった……！"
-92,"TEXT_LUCKBA341_03277_Q2_000_000","何と言う？"
-93,"TEXT_LUCKBA341_03277_A2_000_001","もういいんだ"
-94,"TEXT_LUCKBA341_03277_A2_000_002","…………"
-95,"TEXT_LUCKBA341_03277_LUEREEQ_000_078","ありがとう……。
-俺の本当の仲間になってくれたのは、お前だけだ……。"
-96,"TEXT_LUCKBA341_03277_LUEREEQ_000_079","やっぱり怒ってるよな……。
-絶対、埋め合わせをするからカンベンしてくれ！"
-97,"TEXT_LUCKBA341_03277_LUEREEQ_000_080","アンドレイアはこの先、バラム・キツェーとの決着をつけるために、
-罪喰い化した者たちとともに、延々と森をさまよい続けるだろう。"
-98,"TEXT_LUCKBA341_03277_LUEREEQ_000_081","ランビルドは、かつて一緒に組んでいたこともあったし、
-ほかの賞金稼ぎたちも、このままじゃ浮かばれない。
-討伐することで、その魂を救ってやりたいんだ。"
-99,"TEXT_LUCKBA341_03277_LUEREEQ_000_082","そして何より、俺が幼い頃に憧れた、
-レンダ・レイの魂を解き放ってやりたくなった。
-もう名声目当ての討伐じゃあない……！"
-100,"TEXT_LUCKBA341_03277_LUEREEQ_000_083","だが、向こうに仲間ができたいま、俺にもお前という仲間が必要だ。
-どうかまた、アンドレイア討伐に力を貸してくれ……！"
-101,"TEXT_LUCKBA341_03277_LUEREEQ_000_084","ありがとう、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>……！
-さあ、オルヴァラが心配しているだろうから、
-ゲートタウンに戻るとしよう。"
-102,"TEXT_LUCKBA341_03277_LUEREEQ_000_088","オルヴァラにも感謝しないとな……。"
-103,"TEXT_LUCKBA341_03277_OLVARA_000_090","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん、
-この度は、本当にありがとうございました。
-リーク坊ちゃんが無事で安心したわ。"
-104,"TEXT_LUCKBA341_03277_LUEREEQ_000_091","オルヴァラ、心配かけてすまなかったな。
-おかげで、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>と、
-仲直りすることができたよ。"
-105,"TEXT_LUCKBA341_03277_LUEREEQ_000_092","きっと彼女が俺のことを心配して、お前を寄こしたんだろ？
-そんなことはわかっていたけど、それでも感謝してるよ。
-しかし……いよいよ、お前に渡す報酬がまったくない。"
-106,"TEXT_LUCKBA341_03277_OLVARA_000_093","大丈夫よ、リーク坊ちゃん。
-私が頼んだことだから、報酬を用意しておいたわ。
-口に合うかわからないけど、精魂込めてお料理も作ったのよ。"
-107,"TEXT_LUCKBA341_03277_LUEREEQ_000_094","ありがとう、オルヴァラ。
-この借りはアンドレイアを討伐して、その懸賞金で必ず払うよ。"
-108,"TEXT_LUCKBA341_03277_LUEREEQ_000_095","さあ、リーク＆<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>の再結成だな！
-アンドレイアは仲間ができたことで、より強力になった。
-しばらく、お互い腕を磨くことにしよう。"
-109,"TEXT_LUCKBA341_03277_LUEREEQ_000_096","今度こそ、ヤツを討伐するぞ！
-その際には懸賞金が入るから、また必ず来てくれよな……！"
+48,"TEXT_LUCKBA341_03277_OLVARA_000_000","I am sure a talented <If(PlayerParameter(4))>woman<Else/>man</If> like yourself is needed all over the realm, and so I thank you for sparing a moment to hear me out."
+49,"TEXT_LUCKBA341_03277_OLVARA_000_001","Since you two parted ways, Reeq has come to visit me several times. Though he is blessedly in good health, I worry for his spirits. I think you may have been the only friend he has had for some time..."
+50,"TEXT_LUCKBA341_03277_OLVARA_000_002","I considered journeying to the Crystarium myself to look in on him, but I find travel rather difficult these days. If you would go in my stead, it would put my heart at ease..."
+51,"TEXT_LUCKBA341_03277_OLVARA_000_008","All I ask is that you go to the Crystarium and see Reeq. I won't ask you to take pity on or forgive him. I only want to make sure that he is well..."
+52,"TEXT_LUCKBA341_03277_DRAHNCONJURER_000_009","Hmm? Haven't we met somewhere before?"
+53,"TEXT_LUCKBA341_03277_SYSTEM_000_010","Lue-Reeq's customary seat is empty, and there is nothing to suggest he has occupied it recently. Perhaps someone will have noted his passing..."
+54,"TEXT_LUCKBA341_03277_DARLFORT_100_020","Lue-Reeq? The Mystel lordling? If he ain't sat at his usual table, then I've no idea where else to look."
+55,"TEXT_LUCKBA341_03277_MEITATCH_100_021","Looking for “Master Reeq,” are we? Heh, I daresay you're the only one."
+56,"TEXT_LUCKBA341_03277_MEITATCH_100_022","Word is mummy and daddy cut him off, so there's no point in pretending to like the little shite anymore. Last I saw him he was moping about like someone had shot his amaro. I'm sure he'll turn up eventually."
+57,"TEXT_LUCKBA341_03277_PERSONA_000_020",""
+58,"TEXT_LUCKBA341_03277_PERSONB_000_021",""
+59,"TEXT_LUCKBA341_03277_PERSONB_000_022",""
+60,"TEXT_LUCKBA341_03277_DRAHNCONJURER_000_023","Kholusia, right? You're Lue-Reeq's partner. I was with Lanbyrd, remember?"
+61,"TEXT_LUCKBA341_03277_DRAHNCONJURER_000_024","Was, I oughta stress, 'cause after we left you we headed straight to Rak'tika. We'd heard a rumor Andreia was there, and Lanbyrd wanted to strike while the iron was hot..."
+62,"TEXT_LUCKBA341_03277_DRAHNCONJURER_000_025","By the time we realized we were overmatched, it was too late. I saw Lanbyrd fall, and when the eater set her sights on the others, I fled."
+63,"TEXT_LUCKBA341_03277_DRAHNCONJURER_000_026","Call me a coward if you like, but my cowardice saved my life! Wicked white, I still remember looking back as I ran, and seeing Lanbyrd rise to his feet..."
+64,"TEXT_LUCKBA341_03277_DRAHNCONJURER_000_027","I told everyone what had happened, to warn them off the hunt. Some listened, but a few bloody fools took up their weapons and joined the hunt. Glory hungry imbeciles. And not a one of them has returned."
+65,"TEXT_LUCKBA341_03277_DRAHNCONJURER_000_028","Didn't expect Lue-Reeq to be one of them neither. I remember thinking it odd─especially when I saw him leave for Rak'tika alone. You're meeting him there, I presume? Good luck, friend...but have no doubt that you're going to your doom."
+66,"TEXT_LUCKBA341_03277_DARLFORT_100_030","If he never comes back, good riddance, says I. Still, I'm sure he'll come crawling back here eventually, tail between his legs like the whelp he is."
+67,"TEXT_LUCKBA341_03277_MEITATCH_100_031","I told you, if the little lordling isn't at his table, then I've no idea where he is. Ask someone else."
+68,"TEXT_LUCKBA341_03277_DRAHNCONJURER_000_032","If I were you, I'd leave Lue-Reeq to hunt the Virtue on his own. No shame in recognizing when you've got no chance. Only a fool would fight this fight."
+69,"TEXT_LUCKBA341_03277_PERSONA_000_030",""
+70,"TEXT_LUCKBA341_03277_PERSONB_000_031",""
+71,"TEXT_LUCKBA341_03277_LUEREEQ_000_060","...<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>? Why are you here? Don't tell me you came for me?"
+72,"TEXT_LUCKBA341_03277_LUEREEQ_000_061","It's terrible! It's horrible! Andreia, she's...she's..."
+73,"TEXT_LUCKBA341_03277_LUEREEQ_000_062","Renda-Rae! If aught of you remains, then hearken to my words!"
+74,"TEXT_LUCKBA341_03277_LUEREEQ_000_063","I have come to lay your soul to rest─alone, as you yourself faced Balam–Quitz a century ago on this very ground!"
+75,"TEXT_LUCKBA341_03277_LUEREEQ_000_064","Lanbyrd? Oh gods, no..."
+76,"TEXT_LUCKBA341_03277_LUEREEQ_000_065","Don't tell me─you beheld a vision of my past just now, didn't you?"
+77,"TEXT_LUCKBA341_03277_LUEREEQ_000_066","Aye, I thought as much. Wasn't but a moment ago that I confronted them. Awfully useful, that trick of yours, though I can't understand why you kept using it every time we ran into Andreia..."
+78,"TEXT_LUCKBA341_03277_Q1_000_000","What will you say?"
+79,"TEXT_LUCKBA341_03277_A1_000_001","I can't control when it happens."
+80,"TEXT_LUCKBA341_03277_A1_000_002","Believe me, I was just as surprised as you were..."
+81,"TEXT_LUCKBA341_03277_LUEREEQ_000_067","Huh? So it wasn't something you did deliberately? Good to know..."
+82,"TEXT_LUCKBA341_03277_LUEREEQ_000_068","Anyway, unintentional or not, at least I won't have to convince you of what I saw. She's turned Lanbyrd and those other hunters into sin eaters like herself."
+83,"TEXT_LUCKBA341_03277_LUEREEQ_000_069","A Hume axeman, a Galdjent swordsman, a dwarven healer, an elven mage. Looked awfully familiar, didn't it?"
+84,"TEXT_LUCKBA341_03277_LUEREEQ_000_070","She's rebuilding her fellowship─she's remaking the Warriors of Light!"
+85,"TEXT_LUCKBA341_03277_LUEREEQ_000_071","But for the life of me, I can't understand why. I mean, I understand why she came here in the first place. She's reliving the hunt for Balam–Quitz."
+86,"TEXT_LUCKBA341_03277_LUEREEQ_000_072","But Renda-Rae slew the beast by herself! The stories were clear about that!"
+87,"TEXT_LUCKBA341_03277_LUEREEQ_000_073","What? They were there too!? Then the stories were <Emphasis>wrong</Emphasis>?"
+88,"TEXT_LUCKBA341_03277_LUEREEQ_000_074","Gods strike me down, I've been such a fool! Why did I ever think I could do this alone..."
+89,"TEXT_LUCKBA341_03277_LUEREEQ_000_075","I...I hope you can find it in your heart to forgive me for all the things I said, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>..."
+90,"TEXT_LUCKBA341_03277_LUEREEQ_000_076","I've regretted my behavior ever since the day we parted ways. It was stupid and nonsensical and utterly pointless."
+91,"TEXT_LUCKBA341_03277_LUEREEQ_000_077","I'm not sure I could even tell you why I did what I did..."
+92,"TEXT_LUCKBA341_03277_Q2_000_000","What will you say?"
+93,"TEXT_LUCKBA341_03277_A2_000_001","It's fine. Water under the bridge."
+94,"TEXT_LUCKBA341_03277_A2_000_002","..."
+95,"TEXT_LUCKBA341_03277_LUEREEQ_000_078","Thank you, my friend. I hope it is all right if I call you that..."
+96,"TEXT_LUCKBA341_03277_LUEREEQ_000_079","You're still upset, as you have every right to be. But I will make it up to you, I will! I don't know how or when, but I will! I swear!"
+97,"TEXT_LUCKBA341_03277_LUEREEQ_000_080","Right, then. Andreia should be around here somewhere. Still on the hunt for Balam–Quitz, I expect...not that she'll ever find it."
+98,"TEXT_LUCKBA341_03277_LUEREEQ_000_081","No doubt Lanbyrd and the others are with her, too. He and I may have had our differences, but I'd not wish that fate on my worst enemy."
+99,"TEXT_LUCKBA341_03277_LUEREEQ_000_082","He deserves to be laid to rest. They all do. Renda-Rae most of all. She was...she is my hero, and if I have to kill her to save her soul, then so be it!"
+100,"TEXT_LUCKBA341_03277_LUEREEQ_000_083","But this is too much for even the best hunter to handle alone─and I am far from the best. The only way to see this through is together. You and me, my friend. What say you?"
+101,"TEXT_LUCKBA341_03277_LUEREEQ_000_084","Hah! I ask for a word and you give me a nod. Fair enough. Before we resume the hunt in earnest, though, let us return to Gatetown and let Miss Olvara know all is well. After all, you wouldn't have come unless she sent you..."
+102,"TEXT_LUCKBA341_03277_LUEREEQ_000_088","I owe her so much. Then and now..."
+103,"TEXT_LUCKBA341_03277_OLVARA_000_090","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, what a pleasure to see you again! And in the company of little Reeq, no less. Am I right in assuming you've patched things up?"
+104,"TEXT_LUCKBA341_03277_LUEREEQ_000_091","I should like to think so, yes...and it is all thanks to you. Had you not implored <If(PlayerParameter(4))>her<Else/>him</If> to give me another chance, I might well still be sitting alone in the swamps, dwelling on my myriad failings."
+105,"TEXT_LUCKBA341_03277_LUEREEQ_000_092","And you, my friend─I know not why you sought her out on your own, but I am glad that you did. Miss Olvara is perhaps the only person who truly cares for my well-being, but she has no one to look after her─"
+106,"TEXT_LUCKBA341_03277_OLVARA_000_093","Don't be silly, Reeq. I have you, don't I! And before you start blabbering about how you wish you could properly reward <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>─as I can tell you're about to─know that I've prepared a hearty meal just for <If(PlayerParameter(4))>her<Else/>him</If>!"
+107,"TEXT_LUCKBA341_03277_LUEREEQ_000_094","Oh, that's...very thoughtful of you. Nevertheless, I shall see you both duly compensated once we have claimed the bounty for Andreia."
+108,"TEXT_LUCKBA341_03277_LUEREEQ_000_095","And claim it we shall, for united, Reeq and <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> are unstoppable...is what I would like to say, but I know my own limitations better than anyone. 'Twould be prudent to make proper preparations at this juncture."
+109,"TEXT_LUCKBA341_03277_LUEREEQ_000_096","You too should see to it that you are ready for the struggle ahead. It will be a mighty one indeed, but one well worth the effort, my friend!"

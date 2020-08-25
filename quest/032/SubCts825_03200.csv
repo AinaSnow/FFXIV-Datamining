@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBCTS825_03200_SEQ_00","転魂塔広場のかわら版売りは、冒険者に訊きたいことがあるようだ。"
-1,"TEXT_SUBCTS825_03200_SEQ_01","かわら版売りから、赤い着物の侍と会うように依頼された。ヤンサのナマイ村で、冒険者を待つ人物と話そう。"
-2,"TEXT_SUBCTS825_03200_SEQ_02","冒険者を待っていたのは、異邦の詩人だった。彼によると、神々に祝福されし聖狗を従えた冒険者ならば、伝説の瑞獣「九尾」に相棒と認められるだろうという。ヤンサの玄水連山付近にある「<Sheet(EObj,2009663,0)/>」にて、「<Sheet(EventItem,2002496,0)/>」を吹き鳴らそう。"
-3,"TEXT_SUBCTS825_03200_SEQ_03","「<Sheet(EventItem,2002496,0)/>」を吹き鳴らしたところ、九尾が現れた。九尾は、冒険者を相棒と認め、旅路をともにしてくれるようだ。再び魔笛を吹き鳴らし、永久なる友愛を求め舞い降りた九尾のカムイとともに、紅蓮の解放者として魔を祓い、新たな英雄譚を創りあげていこう。"
+0,"TEXT_SUBCTS825_03200_SEQ_00","The news hawker is displaying a worrying degree of interest in you."
+1,"TEXT_SUBCTS825_03200_SEQ_01","As you pass through Kugane, you are called over by a news hawker. Rather than attempting to sell you a local publication as one might expect, he instead asks if you are aware of someone known as the Kamuy Whisperer. Being familiar with several such mystical hounds, you have the sneaking suspicion that he is referring to you. He suggests that you visit his crimson-garbed employer in Namai, claiming only that it will be “worth your while.”"
+2,"TEXT_SUBCTS825_03200_SEQ_02","Shortly after arriving in Namai, you locate the news hawker's mysterious client, the wandering minstrel. Having wandered even further than usual, he wastes little time in revealing the reason for his visit. He wishes for you, as the Kamuy Whisperer, to call forth the fabled Kamuy of the Nine Tails, the most divine even among their mystical kind. The auspice is said to be centuries old, yet has led a life of solitude, the pain of living on while loved ones pass away being too much to bear. However, the creature yet searches for a companion it can consider its equal, and the itinerant bard believes that you have the necessary credentials. He hands you a magical fife and requests that you play it in a specific location in hopes that the legendary beast will heed your call."
+3,"TEXT_SUBCTS825_03200_SEQ_03","Upon playing the fife, the Kamuy of the Nine Tails descends from the heavens. As formidable as its assembled kin may be, their powers pale in comparison to the might of the ferocious beast that has answered your summons. Yet for all its strength, you sense a gentle spirit, and it soon becomes clear that you are in no danger. The minstrel, coming to the same conclusion, steps forward for a closer look and conjures a heartfelt tanka to mark this fateful encounter. Finally, he says his farewells, wishing you luck in your adventures with the Kamuy of the Nine Tails."
 4,"TEXT_SUBCTS825_03200_SEQ_04",""
 5,"TEXT_SUBCTS825_03200_SEQ_05",""
 6,"TEXT_SUBCTS825_03200_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_SUBCTS825_03200_SEQ_21",""
 22,"TEXT_SUBCTS825_03200_SEQ_22",""
 23,"TEXT_SUBCTS825_03200_SEQ_23",""
-24,"TEXT_SUBCTS825_03200_TODO_00","ナマイ村に向かい、赤い着物の侍と話す"
-25,"TEXT_SUBCTS825_03200_TODO_01","玄水連山付近の<Sheet(EObj,2009663,0)/>で<Sheet(EventItem,2002496,0)/>を吹く"
+24,"TEXT_SUBCTS825_03200_TODO_00","Speak with the mysterious client in Namai."
+25,"TEXT_SUBCTS825_03200_TODO_01","Play the Fife of Nine Tails at the specified location."
 26,"TEXT_SUBCTS825_03200_TODO_02",""
 27,"TEXT_SUBCTS825_03200_TODO_03",""
 28,"TEXT_SUBCTS825_03200_TODO_04",""
@@ -49,73 +49,34 @@ int32,str,str
 45,"TEXT_SUBCTS825_03200_TODO_21",""
 46,"TEXT_SUBCTS825_03200_TODO_22",""
 47,"TEXT_SUBCTS825_03200_TODO_23",""
-48,"TEXT_SUBCTS825_03200_PAPERDELIVERY_000_001","かわら版だよ、かわら版ー！
-おっと、そこの道行く<If(PlayerParameter(4))>お姐さん<Else/>旦那さん</If>！
-「カムイを束ねた英雄」について、興味ないかい？"
-49,"TEXT_SUBCTS825_03200_Q1_000_000","何と答える？"
-50,"TEXT_SUBCTS825_03200_A1_000_001","自分のことだ！"
-51,"TEXT_SUBCTS825_03200_A1_000_002","興味ないね……"
-52,"TEXT_SUBCTS825_03200_PAPERDELIVERY_000_003","なんと、君がその英雄だって！？
-頼む、実は君のことを探していたんだ！！"
-53,"TEXT_SUBCTS825_03200_PAPERDELIVERY_000_004","興味ないって……
-そうか、その風体、君自身が件の英雄なんだな！？
-だったら頼む、実は君のことを探していたんだ！"
-54,"TEXT_SUBCTS825_03200_PAPERDELIVERY_000_005","実は、7頭のカムイを束ねた英雄が現れたら紹介してくれって、
-気前のいいお侍さんから、前金をもらっていてね。"
-55,"TEXT_SUBCTS825_03200_PAPERDELIVERY_000_006","ナマイ村にいる「赤い着物のお侍さん」に、ぜひ会ってみてほしい！
-どうか、よろしく頼んだよ！"
-56,"TEXT_SUBCTS825_03200_PAPERDELIVERY_000_010","ナマイ村にいる「赤い着物のお侍さん」に、ぜひ会ってみてほしい！
-どうか、よろしく頼んだよ！"
-57,"TEXT_SUBCTS825_03200_WANDERINGMINSTREL_000_020","やあ、こんなところで伝説の幻獣を従えた君に会うとは、
-なんと美しい巡り合わせ……。
-ある人物を探していたんだが、もしや……。"
-58,"TEXT_SUBCTS825_03200_WANDERINGMINSTREL_000_021","なんだって、あのかわら版売りから、
-僕に会うように言われただって？"
-59,"TEXT_SUBCTS825_03200_WANDERINGMINSTREL_000_022","やはり、僕が探し求めていた英雄とは、君のことだったか！
-神々に祝福されしカムイを束ねる、紅蓮の解放者……！
-では、カムイの頂点に君臨する幻獣を知っているかい？"
-60,"TEXT_SUBCTS825_03200_WANDERINGMINSTREL_000_023","その名は「九尾のカムイ」……！
-麗しき九本の神尾で大空を駈け魔を伏し、
-喉を鳴らして永遠の友愛を探し求める……孤高の幻獣さ。"
-61,"TEXT_SUBCTS825_03200_WANDERINGMINSTREL_000_024","九尾が求める相棒は、同等の威厳と尊厳を兼ね備える英雄……。
-そう、まさにカムイを従える君のことだと思わないか？"
-62,"TEXT_SUBCTS825_03200_WANDERINGMINSTREL_000_025","さぁ、この「<Sheet(EventItem,2002496,0)/>」を受け取ってくれ！
-世界を旅する道中で巡り会った覚者から譲り受けたもので、
-吹き鳴らした者が相棒の器であれば、九尾が姿を現すそうだ。"
-63,"TEXT_SUBCTS825_03200_WANDERINGMINSTREL_000_026","君が笛を吹き鳴らせば、九尾はきっと現れる……！
-だから、どうか見晴らしのいい場所で、
-笛の音を天に響かせてみてくれないか？"
-64,"TEXT_SUBCTS825_03200_WANDERINGMINSTREL_000_027","そして、かつて幻獣と君が出会った時のように、
-君と九尾が邂逅する奇跡の瞬間に、立ちあわせてほしい。
-英雄譚にはまだまだ続きがあるようだからね。"
-65,"TEXT_SUBCTS825_03200_WANDERINGMINSTREL_000_028","そして、願わくば、君と九尾が邂逅する奇跡の瞬間に、
-この僕を、ぜひとも立ちあわせてほしい。
-それは、誰もが心震わせる英雄譚になるはずだからね。"
-66,"TEXT_SUBCTS825_03200_WANDERINGMINSTREL_000_029","では、早速だが「玄水連山」の高台に向かってくれ。
-あの場所で、「<Sheet(EventItem,2002496,0)/>」を吹き鳴らせば、
-山々がその音色を、伝説の幻獣の耳へと運んでくれるはずだからね。"
-67,"TEXT_SUBCTS825_03200_WANDERINGMINSTREL_000_030","もちろん、奇跡の瞬間を邪魔するつもりはないさ。
-九尾が現れるまでは、僕は密かに見守っているとしよう。
-では、君と九尾が織りなす奇跡の瞬間を楽しみにしているよ。"
-68,"TEXT_SUBCTS825_03200_WANDERINGMINSTREL_000_040","(-？？？？-)ああ、なんという荘厳な光景……。
-種の寿命を越えて瑞獣となり、さらに死してなお地を守らんと、
-神霊の獣たるカムイへと昇華した存在、九尾！"
-69,"TEXT_SUBCTS825_03200_WANDERINGMINSTREL_000_041","相棒を求めて旅し続けた九尾が、
-ついに、君という運命にたどり着いたんだね……！"
-70,"TEXT_SUBCTS825_03200_WANDERINGMINSTREL_000_042","君、九尾、そしてカムイたち……9つの煌めく魂が、
-天変と受難を乗り越え巡りあった運命の奇跡には、
-畏怖すら感じるほどだ……。"
-71,"TEXT_SUBCTS825_03200_WANDERINGMINSTREL_000_043","『天（あま）駆ける　九尾のカムイ　出会いしは
-　西の英雄　運命の友』"
-72,"TEXT_SUBCTS825_03200_WANDERINGMINSTREL_000_044","ああ……創作意欲が、とめどなくあふれ出てくるよ。
-「9本の神尾と、紅蓮の尊厳を示す英雄の物語」……。
-新たなる詩を紡ぐことができそうだ、ありがとう！！"
-73,"TEXT_SUBCTS825_03200_WANDERINGMINSTREL_000_045","しかし、西の幻獣に続き、東の幻獣とも絆を通わすとは……。
-君という冒険者こそ、奇跡そのものなのかもしれないね。
-どんなに音節麗しい詩編を束ねても、かないっこない。"
-74,"TEXT_SUBCTS825_03200_WANDERINGMINSTREL_000_046","今後も、かの幻獣とともに、新たな冒険に挑んでくれ！
-そして、また必ず、君の土産話を聞かせてほしい。
-君の武運を祈っているよ……！"
-75,"TEXT_SUBCTS825_03200_WANDERINGMINSTREL_000_047","今後も、九尾とともに天空を巡り、新たな冒険に挑んでくれ！
-そして、いつかまた君の土産話を聞かせてほしい。
-君の武運を祈っているよ……！"
+48,"TEXT_SUBCTS825_03200_PAPERDELIVERY_000_001","<If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>Good evening<Else/>Good morning</If><Else/><If(LessThan(PlayerParameter(11),17))>Good day<Else/>Good evening</If></If>! This may seem rather out of the blue, but are you by any chance the Kamuy Whisperer?"
+49,"TEXT_SUBCTS825_03200_Q1_000_000","What will you say?"
+50,"TEXT_SUBCTS825_03200_A1_000_001","That does sound a bit like me."
+51,"TEXT_SUBCTS825_03200_A1_000_002","I don't know who you are, and you're scaring me."
+52,"TEXT_SUBCTS825_03200_PAPERDELIVERY_000_003","Perhaps it <Emphasis>is</Emphasis> you!"
+53,"TEXT_SUBCTS825_03200_PAPERDELIVERY_000_004","Ha ha! Come now, you have nothing to fear from me. I am but a simple messenger."
+54,"TEXT_SUBCTS825_03200_PAPERDELIVERY_000_005","You see, I've been asked to find the one who has tamed the seven kamuy of legend. If the information I received is accurate, I believe my search has come to an end."
+55,"TEXT_SUBCTS825_03200_PAPERDELIVERY_000_006","Should I locate the Kamuy Whisperer, I am to direct said person to Namai, where a bard dressed in crimson robes awaits. If you are indeed who I think you are, I am sure the trip will be worth your while!"
+56,"TEXT_SUBCTS825_03200_PAPERDELIVERY_000_010","My master has a habit of standing out wherever he goes, which should be especially true in a drab place like Namai."
+57,"TEXT_SUBCTS825_03200_WANDERINGMINSTREL_000_020","I have been expecting you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. My prediction that you would indeed be the one to gather the seven kamuy has─much to my delight─been proven correct. After all, 'tis not the first time you have managed a feat of this nature."
+58,"TEXT_SUBCTS825_03200_WANDERINGMINSTREL_000_021","Ah, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. What a pleasant surprise! Long have I waited for the one who would bring together seven of the kamuy, but I never expected it would be you, my friend."
+59,"TEXT_SUBCTS825_03200_WANDERINGMINSTREL_000_022","You have formed an unbreakable bond with these mystical hounds, but what you may not know is that there is another, said to surpass them all─majestic and fearsome to behold. Do you have any inkling of whom I speak?"
+60,"TEXT_SUBCTS825_03200_WANDERINGMINSTREL_000_023","Why, 'tis none other than the Kamuy of the Nine Tails, an auspice said to have once soared across the skies of Doma. Many believe it to be immortal, able to overcome death itself, yet doomed to witness all it has come to cherish wither and fade from existence."
+61,"TEXT_SUBCTS825_03200_WANDERINGMINSTREL_000_024","Its howls echo through the valleys as it searches for one it considers to be its equal, that it may find a companion with whom to share eternity. While I cannot comment on your longevity, I daresay you otherwise possess the necessary credentials to be granted an audience."
+62,"TEXT_SUBCTS825_03200_WANDERINGMINSTREL_000_025","All that remains is to play this fife to summon the beast. You need not concern yourself with where I procured such an item, only that the Kamuy of the Nine Tails will heed its call should you be judged worthy."
+63,"TEXT_SUBCTS825_03200_WANDERINGMINSTREL_000_026","So, what say you, my friend? Will you place your trust in me and embark on this quest to befriend a divine being?"
+64,"TEXT_SUBCTS825_03200_WANDERINGMINSTREL_000_027","Naturally, I will be close at hand to observe, as I have in the past. I could not possibly miss the opportunity to bask in such a glorious spectacle! Will you permit me to attend?"
+65,"TEXT_SUBCTS825_03200_WANDERINGMINSTREL_000_028","I should also mention that I will be in attendance, watching this fateful encounter from a safe distance. Doubtless it will be the inspiration for glorious tales with which I shall enthrall my audiences. But I shan't interfere in the proceedings─on that you have my word."
+66,"TEXT_SUBCTS825_03200_WANDERINGMINSTREL_000_029","Splendid! Fortunately, I have already ascertained a suitable location, not far from here, where the view of the One River should provide the perfect backdrop."
+67,"TEXT_SUBCTS825_03200_WANDERINGMINSTREL_000_030","Once you arrive, take the fife in hand and let your soul pour forth as melody. Try not to let the fact that a professional musician is paying extremely close attention to your every note put you off. I am sure it will be an unforgettable performance!"
+68,"TEXT_SUBCTS825_03200_WANDERINGMINSTREL_000_040","(-???-)Such radiance, such magnificence. The Kamuy of the Nine Tails, most revered of its kind, is come!"
+69,"TEXT_SUBCTS825_03200_WANDERINGMINSTREL_000_041","Its days of wandering alone across the realm have come to an end. Indeed, you have earned your place alongside this divine being, my friend."
+70,"TEXT_SUBCTS825_03200_WANDERINGMINSTREL_000_042","Ah... To witness the Warrior of Light joined by the Kamuy of the Nine Tails and its brethren before my very eyes... 'Tis a moment that must be preserved in verse for future generations. Ahem!"
+71,"TEXT_SUBCTS825_03200_WANDERINGMINSTREL_000_043","Trailed by tails of nine, soaring across moonlit sky,
+Restless traveler.
+Summoned home by hero's call,
+Kindred soul, adventurer."
+72,"TEXT_SUBCTS825_03200_WANDERINGMINSTREL_000_044","Yes, yes... I think I shall name this piece <Emphasis>A Lone Wolf No More</Emphasis>. It shall serve as testament to the friendship between two great beings favored by the gods."
+73,"TEXT_SUBCTS825_03200_WANDERINGMINSTREL_000_045","That you are able to earn the respect of such heavenly creatures fills me with awe. You certainly seem to have a talent for it!"
+74,"TEXT_SUBCTS825_03200_WANDERINGMINSTREL_000_046","My retelling of today's events is sure to enrapture souls the world over. And perhaps they too will one day be fortunate enough to glimpse the two of you racing across the sky. Farewell, hero!"
+75,"TEXT_SUBCTS825_03200_WANDERINGMINSTREL_000_047","While I regale audiences with tales of your heroism, no doubt you and your newfound companion will be racing across the skies in search of adventure. As ever, I am eager to hear of your exploits, and will be counting the days until our next meeting. Until then, farewell!"

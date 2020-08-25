@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ104_02654_SEQ_00","アラガーナの酒保商人の男は、冒険者に頼みたいことがあるようだ。"
+0,"TEXT_STMBDZ104_02654_SEQ_00","This luckless merchant is desperate for help."
 1,"TEXT_STMBDZ104_02654_SEQ_01",""
 2,"TEXT_STMBDZ104_02654_SEQ_02",""
 3,"TEXT_STMBDZ104_02654_SEQ_03",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_STMBDZ104_02654_SEQ_21",""
 22,"TEXT_STMBDZ104_02654_SEQ_22",""
 23,"TEXT_STMBDZ104_02654_SEQ_23",""
-24,"TEXT_STMBDZ104_02654_TODO_00","<Sheet(EventItem,2002276,0)/>を入手"
-25,"TEXT_STMBDZ104_02654_TODO_01","アンスガーに<Sheet(EventItem,2002276,0)/>を渡す"
-26,"TEXT_STMBDZ104_02654_TODO_02","ラールガーズリーチの酒保商人の男に<Sheet(EventItem,2002277,0)/>を渡す"
+24,"TEXT_STMBDZ104_02654_TODO_00","Obtain the stolen sack."
+25,"TEXT_STMBDZ104_02654_TODO_01","Deliver the stolen sack to Ansger."
+26,"TEXT_STMBDZ104_02654_TODO_02","Deliver the crate of minerals to the luckless merchant."
 27,"TEXT_STMBDZ104_02654_TODO_03",""
 28,"TEXT_STMBDZ104_02654_TODO_04",""
 29,"TEXT_STMBDZ104_02654_TODO_05",""
@@ -49,41 +49,18 @@ int32,str,str
 45,"TEXT_STMBDZ104_02654_TODO_21",""
 46,"TEXT_STMBDZ104_02654_TODO_22",""
 47,"TEXT_STMBDZ104_02654_TODO_23",""
-48,"TEXT_STMBDZ104_02654_PITYMERCHANT02654_000_000","その堂々とした立ち振る舞い……
-きみは、長城の向こうから来た冒険者だろう？
-その腕を、崖っぷちの私に貸してくれないか？"
-49,"TEXT_STMBDZ104_02654_PITYMERCHANT02654_000_001","解放軍に納入する鉱石を買い付けにきたんだが、
-道中、小汚いキキルン族に襲われ、金を奪われたんだ！！"
-50,"TEXT_STMBDZ104_02654_PITYMERCHANT02654_000_002","これじゃ、取引は失敗だわ、信用は失うわで、廃業だ……！
-どうか、南にあるモモルーンズミルクに忍び込んで、
-金が入った「<Sheet(EventItem,2002276,0)/>」を取り返してほしい！"
-51,"TEXT_STMBDZ104_02654_PITYMERCHANT02654_000_003","無事に取り戻せたら、
-この村にいる「アンスガー」という男に渡してほしい。
-彼に鉱石を用意するよう、頼んでいるものでね。"
-52,"TEXT_STMBDZ104_02654_PITYMERCHANT02654_000_004","私は、一足先にラールガーズリーチに戻り、
-解放軍側に、今しばらく納品を待って欲しいと交渉してくる。
-だから、鉱石を受け取ったら、すぐに私まで運んでくれ！"
-53,"TEXT_STMBDZ104_02654_ANSGER_000_010","おう、タフそうな<If(PlayerParameter(4))>姉ちゃん<Else/>兄ちゃん</If>、俺になんか用かい？"
-54,"TEXT_STMBDZ104_02654_ANSGER_000_011","酒保商人から頼まれて、代金を持ってきただって！？
-そうか、<If(PlayerParameter(4))>姉ちゃん<Else/>兄ちゃん</If>が、キキルン族から取り返してきてくれたのか。"
-55,"TEXT_STMBDZ104_02654_ANSGER_000_012","はははっ、それは助かったぜ！
-こっちも、急に代金の支払いができないと言われて、
-売る当てのない鉱石をもてあましてたところだ。"
-56,"TEXT_STMBDZ104_02654_ANSGER_000_013","さあ、こいつが依頼の鉱石だ。
-廃業の不安を抱えた酒保商人が、待ってるんだろ？
-急いで届けてやりな！"
-57,"TEXT_STMBDZ104_02654_ANSGER_000_014","急いで鉱石を届けてやりな！
-廃業の不安を抱えた酒保商人が、待ってるんだろ？"
-58,"TEXT_STMBDZ104_02654_PITYMERCHANT02654_000_020","おお、来てくれたか！！
-うまく鉱石を仕入れることができたかね！？"
-59,"TEXT_STMBDZ104_02654_PITYMERCHANT02654_000_021","はあ～助かった。
-これで、契約どおりの鉱石を解放軍に納められる……。"
-60,"TEXT_STMBDZ104_02654_PITYMERCHANT02654_000_022","正直、アラガーナの周辺で採掘できる鉱石は、
-さほど質が高いわけではないんだ。
-辛うじて使い物になるかどうかって程度でな……。"
-61,"TEXT_STMBDZ104_02654_PITYMERCHANT02654_000_023","でも、採石業が衰退して苦しんでいる村に、
-少しでも金を落としたいのが、人情ってものだろう？
-その代金を、奪われたときには、どうなるかと思ったよ。"
-62,"TEXT_STMBDZ104_02654_PITYMERCHANT02654_000_024","もう二度と、あんな崖っぷちな思いはごめんだ……。
-今後は、道中の護衛にも、金を惜しまないようにしよう。
-手始めに、恩人であるきみへの礼を弾んでおくよ。"
+48,"TEXT_STMBDZ104_02654_PITYMERCHANT02654_000_000","Hello there, friend. Don't suppose you'd have time to help a man in his hour of need?"
+49,"TEXT_STMBDZ104_02654_PITYMERCHANT02654_000_001","I'd come here to buy minerals that I was meant to supply the Resistance with. The only problem is, I was robbed of all my gil by Qiqirn bandits on the way here!"
+50,"TEXT_STMBDZ104_02654_PITYMERCHANT02654_000_002","Who's going to use a merchant that can't deliver the goods he claims to sell? Please, head to Momoroon's Milk and take back my money."
+51,"TEXT_STMBDZ104_02654_PITYMERCHANT02654_000_003","Once you have collected my gil, give it to a man by the name of Ansger in this village. He's the one I had procure the minerals for me."
+52,"TEXT_STMBDZ104_02654_PITYMERCHANT02654_000_004","In the meantime, I'll head back to Rhalgr's Reach and ask them to wait a little longer for their order. Bring the minerals to me as soon as you have them."
+53,"TEXT_STMBDZ104_02654_ANSGER_000_010","Hello there, <If(PlayerParameter(4))>lass<Else/>lad</If>! Do you have business with me?"
+54,"TEXT_STMBDZ104_02654_ANSGER_000_011","The merchant who ordered the minerals asked you to bring me his payment? I take it you must've reclaimed his gil from those pesky Qiqirn?"
+55,"TEXT_STMBDZ104_02654_ANSGER_000_012","Ha ha, you have my thanks! I was not best pleased when I heard he would be late in paying me."
+56,"TEXT_STMBDZ104_02654_ANSGER_000_013","Here are his minerals. Get them to him as quickly as possible. No doubt he's worrying himself sick."
+57,"TEXT_STMBDZ104_02654_ANSGER_000_014","Get his minerals to him as quickly as possible. No doubt that merchant's worrying himself sick."
+58,"TEXT_STMBDZ104_02654_PITYMERCHANT02654_000_020","The minerals. Do you have them?"
+59,"TEXT_STMBDZ104_02654_PITYMERCHANT02654_000_021","Oh, I am positively indebted to you. At last, I can fulfill the Resistance's order."
+60,"TEXT_STMBDZ104_02654_PITYMERCHANT02654_000_022","Frankly speaking, the minerals found around Ala Gannha aren't of the best quality."
+61,"TEXT_STMBDZ104_02654_PITYMERCHANT02654_000_023","But I can't help but want to support a struggling village. They have been through so much."
+62,"TEXT_STMBDZ104_02654_PITYMERCHANT02654_000_024","I will need to be careful I do not go the same way as their quarry. I had made a point of not hiring protection when traveling to save on money, but I'm not much use to anyone if I'm robbed of all my gil. Here, take this as a token of my thanks."

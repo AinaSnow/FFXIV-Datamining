@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBSEA155_01146_SEQ_00","エールポートのアルドフートは、さらに冒険者へ頼みたいことがあるようだ。"
-1,"TEXT_SUBSEA155_01146_SEQ_01","アルドフートから依頼を受けた。キャンプ・スカルバレーにいる「ウィルトスィス」に「<Sheet(EventItem,2000969,0)/>」を渡そう。"
-2,"TEXT_SUBSEA155_01146_SEQ_02","ウィルトスィスに<Sheet(EventItem,2000969,0)/>を渡した。差出人は彼女の母だったようだ。手紙には、仕送りをしてほしいと書いてあったという……。"
+0,"TEXT_SUBSEA155_01146_SEQ_00","The bashful air ill suits a Roegadyn but Ahldfoet has it nevertheless, wearing the sheepishness like an incommodious singlet."
+1,"TEXT_SUBSEA155_01146_SEQ_01","Ahldfoet has promised a favor to a mother he met at a port of call, one whose entreaties seem to stir the poet in him. Take her letter to Wiltswys at Camp Skull Valley."
+2,"TEXT_SUBSEA155_01146_SEQ_02","Expecting a heartwarming scene, you hand Wiltswys the letter from her mother. Alas, you are sent away with a flea in your ear instead. Ah, family matters."
 3,"TEXT_SUBSEA155_01146_SEQ_03",""
 4,"TEXT_SUBSEA155_01146_SEQ_04",""
 5,"TEXT_SUBSEA155_01146_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_SUBSEA155_01146_SEQ_21",""
 22,"TEXT_SUBSEA155_01146_SEQ_22",""
 23,"TEXT_SUBSEA155_01146_SEQ_23",""
-24,"TEXT_SUBSEA155_01146_TODO_00","ウィルトスィスに<Sheet(EventItem,2000969,0)/>を渡す"
+24,"TEXT_SUBSEA155_01146_TODO_00","Deliver the letter to Wiltswys."
 25,"TEXT_SUBSEA155_01146_TODO_01",""
 26,"TEXT_SUBSEA155_01146_TODO_02",""
 27,"TEXT_SUBSEA155_01146_TODO_03",""
@@ -49,22 +49,10 @@ int32,str,str
 45,"TEXT_SUBSEA155_01146_TODO_21",""
 46,"TEXT_SUBSEA155_01146_TODO_22",""
 47,"TEXT_SUBSEA155_01146_TODO_23",""
-48,"TEXT_SUBSEA155_01146_AHLDFOET_000_000","お前さん、ひとつ頼まれてくれないかな？
-オジサンは恥ずかしながら、陸の上は不案内でさ。
-代わりに、届け物をしてほしいんだよ。"
-49,"TEXT_SUBSEA155_01146_AHLDFOET_000_001","前に、オジサンが名前もなき島へ寄港したとき、
-ある人から、愛娘に渡してくれと託されたものがあるんだ。
-涙ながらにね。"
-50,"TEXT_SUBSEA155_01146_AHLDFOET_000_002","「ウィルトスィス」って子への手紙だよ。
-彼女は「キャンプ・スカルバレー」で働いてるらしい。
-人助けだと思って頼むぜ、なぁオイ。"
-51,"TEXT_SUBSEA155_01146_WILTSWYS_000_010","あら、冒険者さん？
-私に何か御用かしら？"
-52,"TEXT_SUBSEA155_01146_WILTSWYS_000_011","……これは、ママンからのお手紙！
-あ、ありがとうございました……さっそく読んでみます！"
-53,"TEXT_SUBSEA155_01146_WILTSWYS_000_012","……………………。
-…………仕送りをしろですって？
-たまに手紙をよこせばこれなの！？"
-54,"TEXT_SUBSEA155_01146_WILTSWYS_000_013","はぁ、何もかも、貧乏が悪いの？
-まったく、心がすさむわ……。
-いっそのこと、縁切っちゃおうかしら。"
+48,"TEXT_SUBSEA155_01146_AHLDFOET_000_000","Ahoy, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. It clean slipped my mind the last time, but I've another thing to ask of ye. My bearings are lively on the water, but on land─well, I'm what you landlubbers call <Emphasis>at sea</Emphasis>. Got a letter that needs delivering and you're the <If(PlayerParameter(4))>maid<Else/>man</If> for it."
+49,"TEXT_SUBSEA155_01146_AHLDFOET_000_001","I went ashore on some rock on the voyage in, and a faded petticoat comes up to me, says she got a daughter in Camp Skull Valley what she hadn't seen in years. Had tears in her eyes─pretty eyes too, for a woman past her childin' years. She must've been a real beauty in her day."
+50,"TEXT_SUBSEA155_01146_AHLDFOET_000_002","Always had a soft spot for tawny eyes...mayhap because the sea is a green-eyed virago and the skies, her sisters, have eyes blue and red, grey and black... Well, this daughter of hers goes by Wiltswys. You'll take the letter to her?"
+51,"TEXT_SUBSEA155_01146_WILTSWYS_000_010","Greetings, adventurer. They said you were looking for me?"
+52,"TEXT_SUBSEA155_01146_WILTSWYS_000_011","A letter from Mama! I haven't heard from her in so long... She never answered my letters. No, stay, for I'll have a reply to send!"
+53,"TEXT_SUBSEA155_01146_WILTSWYS_000_012","What the...! Oh, the stone-hearted, grasping hag! Wouldn't let me take so much as a hunk of dried fish when I left the island, and now she wants gil? That...that <Emphasis>succubus</Emphasis>!"
+54,"TEXT_SUBSEA155_01146_WILTSWYS_000_013","You think me cold? Well, fie on what you think! I wanted something better than tilling salty fields and spilling small fry out the nets, and occasionally taking a passing sailor into my bed for more o' the same! She'll receive no reply from me. Thank you for your service, and good <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>evening<Else/>day</If><Else/><If(LessThan(PlayerParameter(11),17))>day<Else/>evening</If></If> to you!"

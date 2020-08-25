@@ -1,96 +1,58 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_000","「ゾディアックウェポン」の「我」を完全に目覚めさせ、
-覚醒へと導く時が来たか！"
-1,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_001","新たな「ゾディアックウェポン」は、かような力を持つであろう！
-決意が揺らがぬようであれば、さっそく覚醒させるぞ！"
-2,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_MENU_TITLE","覚醒させる「ゾディアックウェポン」を選択してください"
-3,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_MENU_CHOICES","<If(Equal(IntegerParameter(1),9491))>「<Sheet(Item,9491,0)/>」と「<Sheet(Item,9500,0)/>」を覚醒<Else/>「<Sheet(Item,IntegerParameter(1),0)/>」を覚醒</If>"
-4,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_MENU_CANCEL","キャンセル"
+0,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_000","Does sentience stir now within your Zodiac Weapon? Then the time is nigh to end its dreaming!"
+1,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_001","Upon waking, your Zodiac Weapon will truly be the finest arm and fiercest ally in all the realm. If you are firm in your purpose, let us begin!"
+2,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_MENU_TITLE","Select the Zodiac Weapon you wish to awaken."
+3,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_MENU_CHOICES","Awaken <If(Equal(IntegerParameter(1),9491))><Sheet(Item,9491,9)/> and <Sheet(Item,9500,9)/><Else/><Sheet(Item,IntegerParameter(1),9)/></If>?"
+4,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_MENU_CANCEL","None."
 5,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_YESNO_MESSAGE","（★未使用／削除予定★）"
 6,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_YESNO_YES","（★未使用／削除予定★）"
 7,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_YESNO_NO","（★未使用／削除予定★）"
-8,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_030","ふむ、<If(Equal(IntegerParameter(1),9491))>「<Sheet(Item,9491,0)/>」と、
-「<Sheet(Item,9500,0)/>」<Else/>「<Sheet(Item,IntegerParameter(1),0)/>」</If>が見当たらぬようだ。
-武器がなければ、覚醒させられぬぞ？"
-9,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_SYSTEM_000_031","「ゾディアックウェポン」を覚醒させるには、
-装備を外して「アーマリーチェスト」か「所持品」に収納し、
-ジャルザーンに話しかける必要があります。"
+8,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_030","Where is your Zodiac Weapon? We cannot awaken the sentience within unless it is in your possession."
+9,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_SYSTEM_000_031","Please ensure that the Zodiac Weapon you wish to awaken is placed in your Armoury Chest or inventory before speaking with Jalzahn."
 10,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_040","（★未使用／削除予定★）"
-11,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_050","ふむ、お主の「ゾディアックウェポン」は、
-未だに「我」が目覚めてはおらぬようだな。
-「マハトマ」との共鳴が足りていないということよ。"
-12,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_SYSTEM_000_051","すべての「マハトマ」と完全に共鳴させなければ、
-「ゾディアックウェポン」の覚醒はできません。"
-13,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_060","むう、この武器は特別な「ゾディアックウェポン」。
-……ふたつを持つことは叶わぬぞ。"
-14,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_SYSTEM_000_061","すでに「<Sheet(Item,IntegerParameter(1),0)/>」を所持しています。"
-15,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_100_070","（★未使用／削除予定★）"
-16,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_300","待ちかねたぞ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>！
-おお……私にもわかるぞ、以前とは魂の脈動が異なる。"
-17,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_GEROLT_000_301","よう、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
-準備ができたみてーだな。
-……そンじゃあジジイ、締めの作業に入るぜ。"
-18,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_302","そういえば、締めに霊薬が必要となると言っていたな。
-霊薬でいったい、何をするのだ？"
-19,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_GEROLT_000_303","……「黄道十二文書：霊獄」。
-存在すらほとんど知られていない、未完の一冊なンだが、
-そこに「ゾディアックウェポン」の秘密が記されていたンだ。"
-20,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_304","……どういうことだ？"
-21,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_GEROLT_000_305","古の昔、黄道の名を冠する魔人が現れたとき、
-英雄たちが現れ、光り輝く武器でこれを打ち倒した……。
-……ジジイ、これは知ってンな？"
-22,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_306","ああ、ゾディアックブレイブの英雄譚だろう？
-そもそも、私がこの研究を始めたのも、
-そこに記された武器の記述に、信憑性を見出したからだ。"
-23,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_GEROLT_000_307","フン……そンじゃあ、これは知ってるか？
-ゾディアックブレイブは、輝きを帯びた武器で、
-魔人を倒したのではない……ってことを。"
-24,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_GEROLT_000_308","英雄たちが魔人を倒し、その血を受けた瞬間に輝きを放ち、
-「ゾディアックウェポン」が覚醒したンだよ。
-これが後世に伝わる過程で、話がすりかわっちまったンだ。"
-25,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_309","つまり、疑似霊魂である我が「霊薬」を、
-濃いエーテルを帯びた魔人の血に見立てようというのだな？"
-26,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_GEROLT_000_310","フン、話のわかるジジイだぜ。
-……さて、そうとなったら、さっそく始めるぜ！？"
-27,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_311","……よし、特製の霊薬を十分に塗りこんだぞ。
-あとはゲロルト、お主に任せよう。"
-28,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_GEROLT_000_312","ヘヘ、現世に黄道の魔人たちはいねぇからな。
-鍛冶炉の熱とオレの腕で、伝説の激戦を再現するぜ。
-古の武器の強化が始まった、この炉で……最後のひと仕上げだ！"
-29,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_GEROLT_000_313","ヘッヘッヘ、いい反応だ……。
-魂が震えるのが、手応えで解るぜ……
-さぁ、覚醒しやがれ！！"
-30,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_GEROLT_000_314","はぁ、はぁ、はぁ……。
-つ、ついにできたぞ……それが覚醒した「我」を持つ、
-「ゾディアックウェポン」の最終形態だ……！"
-31,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_315","おお、こ、これが！！！
-さぁ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>よ、受け取ってくれ……！"
-32,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_350","よし、霊薬を塗りこみ、
-ゾディアックウェポンの「我」を覚醒させようぞ！"
-33,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_400","お主の相棒たる「ゾディアックウェポン」の「終」の姿……！
-一流の冒険者と、一流の武具職人と、一流の錬金術師が、
-この世に復元した……唯一無二の武器！"
-34,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_401","……いや、現代に「新生」させた、お主だけの新しい武器！
-その名も「<Sheet(Item,10054,0)/>」だ！"
-35,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_100_401","……そして、もちろんこちらも持っていくがいい！
-その名も「<Sheet(Item,10063,0)/>」だ！"
-36,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_402","……いや、現代に「新生」させた、お主だけの新しい武器！
-その名も「<Sheet(Item,10055,0)/>」だ！"
-37,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_403","……いや、現代に「新生」させた、お主だけの新しい武器！
-その名も「<Sheet(Item,10056,0)/>」だ！"
-38,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_404","……いや、現代に「新生」させた、お主だけの新しい武器！
-その名も「<Sheet(Item,10057,0)/>」だ！"
-39,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_405","……いや、現代に「新生」させた、お主だけの新しい武器！
-その名も「<Sheet(Item,10058,0)/>」だ！"
-40,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_406","……いや、現代に「新生」させた、お主だけの新しい武器！
-その名も「<Sheet(Item,10059,0)/>」だ！"
-41,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_407","……いや、現代に「新生」させた、お主だけの新しい武器！
-その名も「<Sheet(Item,10060,0)/>」だ！"
-42,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_408","……いや、現代に「新生」させた、お主だけの新しい武器！
-その名も「<Sheet(Item,10061,0)/>」だ！"
-43,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_409","……いや、現代に「新生」させた、お主だけの新しい武器！
-その名も「<Sheet(Item,10062,0)/>」だ！"
-44,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_410","……いや、現代に「新生」させた、お主だけの新しい武器！
-その名も「<Sheet(Item,10064,0)/>」だ！"
+11,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_050","It would appear your Zodiac Weapon's soul resonance with the mahatma is still lacking, and the sentience inside yet slumbering."
+12,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_SYSTEM_000_051","You cannot awaken your Zodiac Weapon until after you have achieved full soul resonance with each of the twelve varieties of mahatma."
+13,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_060","We are seeking to make unique weapons beyond compare. Dream all you will, but even the greatest hero can own no more than one."
+14,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_SYSTEM_000_061","You already possess <SheetEn(Item,2,IntegerParameter(1),1,1)/>."
+15,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_100_070","I cannot well perform my work until you make room among your mess of possessions."
+16,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_300","I confess, my friend, I have awaited your return most eagerly. Even holding your weapon in my hands, I can sense the soul within pulses more strongly than ever before."
+17,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_GEROLT_000_301","If I heard all that rightly, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, yer weapon's ready an' rarin' to wake up. Meanin' it's time fer the grand finale, eh, Jalzahn?"
+18,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_302","I am unclear on what part I must play, Gerolt. I have made ready my alchemical supplies for the occasion, but I do not know what you would have me concoct─nor, for that matter, why."
+19,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_GEROLT_000_303","Oh, right. Well, ye remember the Book of Netherdark? Though there's precious few what've ever heard of it, 'tis a fact that its pages hold the last truth o' the Zodiac Weapons."
+20,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_304","Truth? What do you mean?"
+21,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_GEROLT_000_305","In ages past, terrible demons known by the name “Zodiac” would appear in our world. But when they did, a hero wieldin' a shinin' weapon would arise to strike the fiends down. Do ye know that particular tale?"
+22,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_306","There are few who know it better! You speak of the Song of the Zodiac Braves. I began my research precisely because I thought its accounts of the legendary weapons held a grain of truth."
+23,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_GEROLT_000_307","Ah, but did ye know the weapons <Emphasis>weren't</Emphasis> wreathed in light when the Braves slew the fiends?"
+24,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_GEROLT_000_308","Aye, wasn't till those arms tasted o' demons' blood that sentience blossomed deep within, an' they burst forth in a brilliant halo! 'Tis how the Zodiac Weapons were truly born, but that bit o' the tale got lost as it was handed down through the ages."
+25,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_309","Aaah, very good, Gerolt, very good indeed! We have no demon's blood to awaken <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>'s arm, but we can mimic it with a quasi-soul potion thick with aether."
+26,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_GEROLT_000_310","Yer a quick-witted one, make no mistake! Well, now we're all caught up, let's give it a try!"
+27,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_311","There, that ought to be a thick enough coat of my “demon's blood” potion. The rest I shall leave to you, Gerolt."
+28,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_GEROLT_000_312","Seein' as there ain't any demons o' the Zodiac around to fight, I'll jus' have to mimic that battle with the flames o' me forge an' the poundin' o' me hammer. Now, let's perfect the old relic what we began with so long ago!"
+29,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_GEROLT_000_313","Hehehe, the weapon's respondin' to me touch like a wonder! I can feel the soul inside tremblin', like it's achin' to wake up. So let's give it what it wants!"
+30,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_GEROLT_000_314","We've...we've done it! Recreated a legendary arm <Emphasis>exactly</Emphasis> as it was, sense o' self an' all!"
+31,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_315","Ye gods! Come, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, take up your weapon!"
+32,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_350","Well, I shall apply my concoction to your arm, and then together we shall see the sentience inside fully awoken!"
+33,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_400","Behold, the legend made manifest in all its glory! None but the realm's most valiant adventurer, her most masterful blacksmith, and her most accomplished alchemist could have recreated this true heir to the weapons of yore!"
+34,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_401","Nay, here we have forged a new legend, a weapon beyond all compare.
+The ages will echo with its name─the Excalibur Zeta!"
+35,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_100_401","And while your sword sings, this, the Aegis Shield Zeta, will ward even the fiercest of onslaughts! "
+36,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_402","Nay, here we have forged a new legend, weapons beyond all compare.
+The ages will echo with their name─the Kaiser Knuckles Zeta!"
+37,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_403","Nay, here we have forged a new legend, a weapon beyond all compare.
+The ages will echo with its name─the Ragnarok Zeta!"
+38,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_404","Nay, here we have forged a new legend, a weapon beyond all compare.
+The ages will echo with its name─the Longinus Zeta!"
+39,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_405","Nay, here we have forged a new legend, a weapon beyond all compare.
+The ages will echo with its name─the Yoichi Bow Zeta!"
+40,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_406","Nay, here we have forged a new legend, a weapon beyond all compare.
+The ages will echo with its name─the Nirvana Zeta!"
+41,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_407","Nay, here we have forged a new legend, a weapon beyond all compare.
+The ages will echo with its name─the Lilith Rod Zeta!"
+42,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_408","Nay, here we have forged a new legend, a weapon beyond all compare.
+The ages will echo with its name─the Apocalypse Zeta!"
+43,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_409","Nay, here we have forged a new legend, a weapon beyond all compare.
+The ages will echo with its name─the Last Resort Zeta!"
+44,"TEXT_CMNDEFRELICWEAPON060TRADE_00250_JALZAHN_000_410","Nay, here we have forged a new legend, weapons beyond all compare.
+The ages will echo with their name─the pair of Sasuke's Blades Zeta!"

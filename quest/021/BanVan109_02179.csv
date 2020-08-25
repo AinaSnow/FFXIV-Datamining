@@ -1,17 +1,14 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANVAN109_02179_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト受注クラス・ジョブ制限<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-ナッキ島のムナバヌは、冒険者にしかできないことを頼みたいようだ。"
-1,"TEXT_BANVAN109_02179_SEQ_01","※本クエストには
-「<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow><UIGlow>01</UIGlow><UIForeground>01</UIForeground> レベルアジャスト受注クラス・ジョブ制限」が、
-　設定されています。
-　受注時と同じクラス・ジョブでのみ進行できます。
+0,"TEXT_BANVAN109_02179_SEQ_00","Muna Vanu knows there are tasks you are uniquely suited to.
+※The difficulty of this quest will be synced to your current level."
+1,"TEXT_BANVAN109_02179_SEQ_01","The comings and goings of the Vundu tribe are largely unknown to the Gundu. This greatly concerns Muna Vanu. He worries that they secretly plot to attack his people, but without the manpower to observe this threat, he remains unable to adequately appraise the situation. Fortunately, the accomplished knights of Camp Cloudtop keep a close eye on all that transpires around them, and should be well aware of what the Vundu are doing. Fearing they will be uneager to take sides in Vanu Vanu politics, he suggests you speak with the knights on his behalf and find out whether his concerns of Vundu attack are unfounded.
 
-ムナバヌから、ブンドの動きを探ってほしいと頼まれた。まずは人から情報を集めるのが良いようだ。キャンプ・クラウドトップとローズハウスで、ブンド族の動きについて情報を集めよう。"
-2,"TEXT_BANVAN109_02179_SEQ_02","ブンド族の情報を集めた。ヴール・シアンシランに、ブンド族の斥候が現れるらしいので調べてみるのが良さそうだ。ヴール・シアンシランにある2ヶ所の「<Sheet(EObj,2006701,0)/>」で周囲を見渡そう。"
-3,"TEXT_BANVAN109_02179_SEQ_03","ブンド族の斥候の独り言を聞いた。ナッキ島の「ムナバヌ」に報告しよう。"
-4,"TEXT_BANVAN109_02179_SEQ_04","ムナバヌに報告した。彼は冒険者が集めたブンド族の情報に満足したようだ。"
+※Please note that the difficulty of this quest has been synced to your current level. Furthermore, you may not proceed with a class or job that is different from when you accepted this quest. "
+2,"TEXT_BANVAN109_02179_SEQ_02","The Ishgardians stationed at the camp tell you that the Vundu have been spotted in the vicinity of Voor Sian Siran. With little further information forthcoming, you will need to travel there yourself to allay Muna Vanu's suspicions."
+3,"TEXT_BANVAN109_02179_SEQ_03","You happen upon a Vundu scout muttering something to himself about the Gundu. Report back to Muna Vanu with this news."
+4,"TEXT_BANVAN109_02179_SEQ_04","Muna Vanu is pleased with your work. The information you have gathered will help him in taking steps to ensure the safety of all those under his care."
 5,"TEXT_BANVAN109_02179_SEQ_05",""
 6,"TEXT_BANVAN109_02179_SEQ_06",""
 7,"TEXT_BANVAN109_02179_SEQ_07",""
@@ -31,10 +28,10 @@ int32,str,str
 21,"TEXT_BANVAN109_02179_SEQ_21",""
 22,"TEXT_BANVAN109_02179_SEQ_22",""
 23,"TEXT_BANVAN109_02179_SEQ_23",""
-24,"TEXT_BANVAN109_02179_TODO_00","キャンプ・クラウドトップで情報を集める"
-25,"TEXT_BANVAN109_02179_TODO_01","ローズハウスで情報を集める"
-26,"TEXT_BANVAN109_02179_TODO_02","<Sheet(EObj,2006701,0)/>で見渡す"
-27,"TEXT_BANVAN109_02179_TODO_03","ムナバヌに報告する"
+24,"TEXT_BANVAN109_02179_TODO_00","Gather information at Camp Cloudtop."
+25,"TEXT_BANVAN109_02179_TODO_01","Gather information at the Rosehouse."
+26,"TEXT_BANVAN109_02179_TODO_02","Search for Vundu warriors near Voor Sian Siran."
+27,"TEXT_BANVAN109_02179_TODO_03","Report to Muna Vanu."
 28,"TEXT_BANVAN109_02179_TODO_04",""
 29,"TEXT_BANVAN109_02179_TODO_05",""
 30,"TEXT_BANVAN109_02179_TODO_06",""
@@ -55,82 +52,41 @@ int32,str,str
 45,"TEXT_BANVAN109_02179_TODO_21",""
 46,"TEXT_BANVAN109_02179_TODO_22",""
 47,"TEXT_BANVAN109_02179_TODO_23",""
-48,"TEXT_BANVAN109_02179_MUNAVANU_000_000","これは、これは、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さま。
-「冷酷なるブンド」の動きを探っていただけませんか？
-どうにも、どうにも、心配でございまして……。"
-49,"TEXT_BANVAN109_02179_MUNAVANU_000_001","南に陣取るヒトの騎兵たちであれば、
-最近のブンドどもの動向に詳しいでしょう。
-まずは、まずは、騎兵に聞き込みをお願いします。"
-50,"TEXT_BANVAN109_02179_MUNAVANU_000_002","そこで得た情報を元に偵察を行えば、
-ブンドの悪だくみも、晴天のように暴かれるでしょう。
-これはヒトである貴方にしかできぬこと、どうかお願いいたします。"
-51,"TEXT_BANVAN109_02179_RONTREMONT_000_010","……ブンド族の動き、だと？
-最近、やたらと斥候を多く放っているようだぞ。
-何を探しているのかまでは、よくわからぬがな。"
-52,"TEXT_BANVAN109_02179_RONTREMONT_000_011","……ブンド族の動き、だと？
-最近は、兵たちの訓練を進めているようだ。
-まるで戦いの前触れのようで、我々も警戒している。"
-53,"TEXT_BANVAN109_02179_RONTREMONT_000_012","……ブンド族の動き、だと？
-最近は、すっかり大人しいものだ。
-バヌバヌ族内部の小競り合いで、敗れたようだが……。"
-54,"TEXT_BANVAN109_02179_RONTREMONT_000_013","……ブンド族の動き、だと？
-最近、やたらと斥候を多く放っているようだぞ。
-何を探しているのかまでは、よくわからぬがな。"
-55,"TEXT_BANVAN109_02179_RONTREMONT_000_014","……ブンド族の動き、だと？
-最近は、兵たちの訓練を進めているようだ。
-まるで戦いの前触れのようで、我々も警戒している。"
-56,"TEXT_BANVAN109_02179_RONTREMONT_000_015","……ブンド族の動き、だと？
-最近は、すっかり大人しいものだ。
-バヌバヌ族内部の小競り合いで、敗れたようだが……。"
-57,"TEXT_BANVAN109_02179_HARMIETTE_000_020","バヌバヌ族の動きが知りたいの？
-そういえば、仲間の騎兵から「ブンド族の斥候」を、
-「ヴール・シアンシラン」で見かけたって話は聞いたわね。"
-58,"TEXT_BANVAN109_02179_HARMIETTE_000_021","バヌバヌ族の動きが知りたいの？
-そういえば、仲間の騎兵から「ブンド族の斥候」を、
-「ヴール・シアンシラン」で見かけたって話は聞いたわね。"
-59,"TEXT_BANVAN109_02179_ROSESKNIGHT02179_000_030","私自身が見た訳ではありませんが、
-「ヴール・シアンシラン」で斥候の目撃情報がありますね。
-気になるのであれば、ご自身で調べたらいかがでしょう？"
-60,"TEXT_BANVAN109_02179_ROSESKNIGHT02179_000_031","私自身が見た訳ではありませんが、
-「ヴール・シアンシラン」で斥候の目撃情報がありますね。
-気になるのであれば、ご自身で調べたらいかがでしょう？"
-61,"TEXT_BANVAN109_02179_GUARDVANU02179_000_040","……そよ風の如く異常なし。
-しかし、グンドの鳥頭どもはまだ見つからんのか。
-私が出れば、奴らなど瞬く雷光の如く即座に見つけるものを。"
-62,"TEXT_BANVAN109_02179_GUARDVANU01_000_041","……そよ風の如く異常なし。
-しかし、グンドの鳥頭どもとの戦いはまだ始まらんのか。
-すぐに準備は整うと長老は言うが、いつまで待たせるつもりやら。"
-63,"TEXT_BANVAN109_02179_GUARDVANU01_000_042","……そよ風の如く異常なし。
-しかし、グンドとズンドがあれほど恐ろ……精強とは思わなんだ。
-長老も怯えているし、手出しは控えるのが賢明だろうな……。"
-64,"TEXT_BANVAN109_02179_SYSTEM_000_043","辺りに、ブンド族の姿はないようだ……。
-ほかの場所を探してみよう。"
-65,"TEXT_BANVAN109_02179_MUNAVANU_000_050","さすがは、さすがは<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さま！
-我々が欲していた情報を持ち帰ってくださるとは！
-雲海に響き渡る雷鳴のように、感謝いたしますぞ！"
-66,"TEXT_BANVAN109_02179_MUNAVANU_000_051","しかし、しかし、「冷酷なるブンド」は、我々の居場所を、
-いまだに掴んではいない様子ですな。
-油断できませんが、ひとまずは安心です。"
-67,"TEXT_BANVAN109_02179_MUNAVANU_000_052","しかし、しかし、「冷酷なるブンド」がやって来るまで、
-今しばらく、時間がかかるようですな。
-この猶予を活かし、「太陽の舞」の修練に励まねば！"
-68,"TEXT_BANVAN109_02179_MUNAVANU_000_053","しかし、しかし、「冷酷なるブンド」は、
-ずぶ濡れのゲイラキャットの如く怯えている様子。
-油断できませんが、これならしばらくは安全でしょう！"
-69,"TEXT_BANVAN109_02179_FABRELLET_000_010","（★未使用／削除予定★）"
-70,"TEXT_BANVAN109_02179_FABRELLET_000_011","（★未使用／削除予定★）"
-71,"TEXT_BANVAN109_02179_FABRELLET_000_012","（★未使用／削除予定★）"
-72,"TEXT_BANVAN109_02179_FABRELLET_000_013","（★未使用／削除予定★）"
-73,"TEXT_BANVAN109_02179_FABRELLET_000_014","（★未使用／削除予定★）"
-74,"TEXT_BANVAN109_02179_FABRELLET_000_015","（★未使用／削除予定★）"
-75,"TEXT_BANVAN109_02179_GILDON_000_020","（★未使用／削除予定★）"
-76,"TEXT_BANVAN109_02179_GILDON_000_021","（★未使用／削除予定★）"
-77,"TEXT_BANVAN109_02179_GILDON_000_022","（★未使用／削除予定★）"
-78,"TEXT_BANVAN109_02179_GILDON_000_023","（★未使用／削除予定★）"
-79,"TEXT_BANVAN109_02179_GILDON_000_024","（★未使用／削除予定★）"
-80,"TEXT_BANVAN109_02179_GILDON_000_025","（★未使用／削除予定★）"
-81,"TEXT_BANVAN109_02179_MARIELLE_000_030","（★未使用／削除予定★）"
-82,"TEXT_BANVAN109_02179_MARIELLE_000_031","（★未使用／削除予定★）"
-83,"TEXT_BANVAN109_02179_MARIELLE_000_032","（★未使用／削除予定★）"
-84,"TEXT_BANVAN109_02179_MARIELLE_000_033","（★未使用／削除予定★）"
-85,"TEXT_BANVAN109_02179_MARIELLE_000_034","（★未使用／削除予定★）"
+48,"TEXT_BANVAN109_02179_MUNAVANU_000_000","Lately, we hear no news of Vundu movement, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. But Muna Vanu knows they are always searching, always spying. We need your help. Please find out what they scheme─what evil plan they hide."
+49,"TEXT_BANVAN109_02179_MUNAVANU_000_001","Netherling knights south of here send scouts out regularly. They intently watch all Vanu Vanu─Vundu, Gundu, Zundu─as griffin looks over land from its perch."
+50,"TEXT_BANVAN109_02179_MUNAVANU_000_002","But they are friendly with you, netherling. Speak with them on behalf of Gundu─and share with us what news they have of sinister Vundu plans."
+51,"TEXT_BANVAN109_02179_RONTREMONT_000_010","You want to know what the Vundu are planning? They have been sending out a frightful number of scouts of late. All signs suggest they are searching for something, though for what, I cannot say."
+52,"TEXT_BANVAN109_02179_RONTREMONT_000_011","This is about the Vundu, is it? Their warriors have been training ceaselessly. A betting man might say they're preparing for war. We even stepped up our patrols somewhat as a precaution."
+53,"TEXT_BANVAN109_02179_RONTREMONT_000_012","You are asking about the Vundu, I take it? You know, we have not heard a peep from them for some time. If you ask me, they were on the wrong end of some tribal dispute or another."
+54,"TEXT_BANVAN109_02179_RONTREMONT_000_013","Clear though it is that the Vundu are plotting something, when it comes to the particulars, your guess is as good as mine."
+55,"TEXT_BANVAN109_02179_RONTREMONT_000_014","We try to keep abreast of the goings-on here as well we can, but when we see something like this brewing, there is not much more we can do but gird ourselves and hope for the storm to pass us by."
+56,"TEXT_BANVAN109_02179_RONTREMONT_000_015","Those Vundu must have really been given what for. They are going quite out of their way to avoid drawing any attention to themselves."
+57,"TEXT_BANVAN109_02179_HARMIETTE_000_020","I really can't say much about the Vanu Vanu, I'm afraid... No, I tell a lie─though I didn't see them myself, one of the other knights mentioned seeing them at Voor Sian Siran."
+58,"TEXT_BANVAN109_02179_HARMIETTE_000_021","Now, I'll admit I didn't see them myself, but the chap who <Emphasis>did</Emphasis> is a reliable man."
+59,"TEXT_BANVAN109_02179_ROSESKNIGHT02179_000_030","I didn't see no Vanu Vanu meself, but I've heard folk sayin' they were spotted down at Voor Sian Siran. If ye want to be sure, ye'd do well to head out and take a look yerself."
+60,"TEXT_BANVAN109_02179_ROSESKNIGHT02179_000_031","If ye want to know more about the Vanu Vanu, ye'll have to go to Voor Sian Siran and see for yerself."
+61,"TEXT_BANVAN109_02179_GUARDVANU02179_000_040","Unchanging as still night air... Still no sign of pathetic Gundu. Search takes far too long─would be sooner to wait for grass to fall from sky and rain to grow from dirt!"
+62,"TEXT_BANVAN109_02179_GUARDVANU01_000_041","Unchanging as still night air... Our battle with Gundu is yet to start. Chief makes us wait and prepare and wait yet more. How long would he have us delay!?"
+63,"TEXT_BANVAN109_02179_GUARDVANU01_000_042","Unchanging as still night air... But do Gundu and Zundu have such...such power that chieftain would fear them? Or perhaps chief's caution is borne of wisdom, not cowardice."
+64,"TEXT_BANVAN109_02179_SYSTEM_000_043","There is no sign of the Vundu here. Perhaps you will have more luck from a different vantage."
+65,"TEXT_BANVAN109_02179_MUNAVANU_000_050","Dependable as sun rising each morn, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> returns─and brings with <If(PlayerParameter(4))>her<Else/>him</If> valuable information about Vundu treachery, yes?"
+66,"TEXT_BANVAN109_02179_MUNAVANU_000_051","Maybe Vundu have eyes on Gundu lands. Maybe they do not. To lower our guard would be folly, but it brings comfort to know tribe may live without fear of impending Vundu attack─for now."
+67,"TEXT_BANVAN109_02179_MUNAVANU_000_052","That Vundu still train and prepare means they are not yet ready to attack, giving Gundu time to prepare defense. This time affords us chance to perfect mighty sundrop dance!"
+68,"TEXT_BANVAN109_02179_MUNAVANU_000_053","Vundu now tremble in fear─quivering like soaked gaelicat in frigid winter gale. Still we must be wary, but we have bought our peace for a time."
+69,"TEXT_BANVAN109_02179_FABRELLET_000_010",""
+70,"TEXT_BANVAN109_02179_FABRELLET_000_011",""
+71,"TEXT_BANVAN109_02179_FABRELLET_000_012",""
+72,"TEXT_BANVAN109_02179_FABRELLET_000_013",""
+73,"TEXT_BANVAN109_02179_FABRELLET_000_014",""
+74,"TEXT_BANVAN109_02179_FABRELLET_000_015",""
+75,"TEXT_BANVAN109_02179_GILDON_000_020",""
+76,"TEXT_BANVAN109_02179_GILDON_000_021",""
+77,"TEXT_BANVAN109_02179_GILDON_000_022",""
+78,"TEXT_BANVAN109_02179_GILDON_000_023",""
+79,"TEXT_BANVAN109_02179_GILDON_000_024",""
+80,"TEXT_BANVAN109_02179_GILDON_000_025",""
+81,"TEXT_BANVAN109_02179_MARIELLE_000_030",""
+82,"TEXT_BANVAN109_02179_MARIELLE_000_031",""
+83,"TEXT_BANVAN109_02179_MARIELLE_000_032",""
+84,"TEXT_BANVAN109_02179_MARIELLE_000_033",""
+85,"TEXT_BANVAN109_02179_MARIELLE_000_034",""

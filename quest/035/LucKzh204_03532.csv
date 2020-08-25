@@ -1,8 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKZH204_03532_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-水の駅のモルド族の戦士は、悪しき行いをする同族を撃退したいようだ。"
+0,"TEXT_LUCKZH204_03532_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow> Quest Sync<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+The battle-ready Mord's prey has led him to Ladle."
 1,"TEXT_LUCKZH204_03532_SEQ_01",""
 2,"TEXT_LUCKZH204_03532_SEQ_02",""
 3,"TEXT_LUCKZH204_03532_SEQ_03",""
@@ -26,8 +26,8 @@ int32,str,str
 21,"TEXT_LUCKZH204_03532_SEQ_21",""
 22,"TEXT_LUCKZH204_03532_SEQ_22",""
 23,"TEXT_LUCKZH204_03532_SEQ_23",""
-24,"TEXT_LUCKZH204_03532_TODO_00","結晶採りのモルド族と話し襲われたら討伐"
-25,"TEXT_LUCKZH204_03532_TODO_01","モルド族の戦士と話す"
+24,"TEXT_LUCKZH204_03532_TODO_00","Confront the crystal peddlers."
+25,"TEXT_LUCKZH204_03532_TODO_01","Report to the battle-ready Mord."
 26,"TEXT_LUCKZH204_03532_TODO_02",""
 27,"TEXT_LUCKZH204_03532_TODO_03",""
 28,"TEXT_LUCKZH204_03532_TODO_04",""
@@ -50,27 +50,13 @@ int32,str,str
 45,"TEXT_LUCKZH204_03532_TODO_21",""
 46,"TEXT_LUCKZH204_03532_TODO_22",""
 47,"TEXT_LUCKZH204_03532_TODO_23",""
-48,"TEXT_LUCKZH204_03532_MOLDWARRIOR03532_000_000","……私、悪しき行いに手を染める同族追ってきたネ。"
-49,"TEXT_LUCKZH204_03532_MOLDWARRIOR03532_000_001","ナバスアレンに広がる白い結晶、
-あれは「光の氾濫」止めたときにできたものヨ。"
-50,"TEXT_LUCKZH204_03532_MOLDWARRIOR03532_000_002","遺跡の周囲には、剥落した破片いっぱい落ちてるネ。
-白く輝いてキレイだけど、高い純度の光の力秘めて、
-罪喰い化を促す可能性が噂される代物ヨ。"
-51,"TEXT_LUCKZH204_03532_MOLDWARRIOR03532_000_003","だから、モルド・スークでは売買禁止ネ。
-でもでも、宝石だとウソついて売る者もいるネ。"
-52,"TEXT_LUCKZH204_03532_MOLDWARRIOR03532_000_004","そんな「結晶採りのモルド族」を撃退するのに、
-協力してもらえないかネ？
-報酬はきちんと払うヨ！"
-53,"TEXT_LUCKZH204_03532_MOLDWARRIOR03532_000_005","私はアム・マリク新宮殿の西側を見てくるから、
-あなたは新宮殿の東側を頼むネ。
-よろしく頼んだヨ！"
-54,"TEXT_LUCKZH204_03532_MOLDCRIMINALA03532_000_010","アナタ、何用かネ！？
-結晶採り邪魔するなら、容赦しないヨ！"
-55,"TEXT_LUCKZH204_03532_MOLDWARRIOR03532_000_020","おつかれさまネ。
-その様子だと、あなたも襲われたネ？
-こっちでも3人ほど、結晶採りを撃退したネ……。"
-56,"TEXT_LUCKZH204_03532_MOLDWARRIOR03532_000_021","まったく、嘆かわしいことネ。
-罪喰い化は謎が多く、本当に危険かわからないけど、
-安全を証明できない以上、結晶を売るのは信用の問題ネ。"
-57,"TEXT_LUCKZH204_03532_MOLDWARRIOR03532_000_022","信用を損なおうとする同族、とても許せないヨ！
-撃退を手伝ってくれて、ありがとネ！"
+48,"TEXT_LUCKZH204_03532_MOLDWARRIOR03532_000_000","They will not escape me this time, oh no. Who? Criminals! They ignore Mord law and shame us all!"
+49,"TEXT_LUCKZH204_03532_MOLDWARRIOR03532_000_001","We must never take crystals from the Wall, for we believe that they can turn people into sin eaters. Even pieces that fall off are forbidden!"
+50,"TEXT_LUCKZH204_03532_MOLDWARRIOR03532_000_002","But those swindlers collect them, sell them! Of course, they do not tell their customers where the crystals come from, but I know their secret."
+51,"TEXT_LUCKZH204_03532_MOLDWARRIOR03532_000_003","That is why I am here, to bring them to justice. Breaking our code, selling under false pretenses. Very serious crimes!"
+52,"TEXT_LUCKZH204_03532_MOLDWARRIOR03532_000_004","I have tracked them this far and they will soon be mine! But there are too many to catch by myself and I dare not risk failure. Stranger, will you lend me your aid?"
+53,"TEXT_LUCKZH204_03532_MOLDWARRIOR03532_000_005","I will circle around from the west of the palace while you approach from the east. Like the jaws of a zonure snapping shut! Take them alive if possible, but if they resist, show no mercy, for you will get none from them. When it's over, meet me back here."
+54,"TEXT_LUCKZH204_03532_MOLDCRIMINALA03532_000_010","<If(PlayerParameter(4))>She<Else/>He</If>'s seen too much! Kill <If(PlayerParameter(4))>her<Else/>him</If>!"
+55,"TEXT_LUCKZH204_03532_MOLDWARRIOR03532_000_020","Heh. I take it that's not your blood? The ones I caught also refused to come quietly. Well, what is done is done. They got what they deserved for spitting on our code!"
+56,"TEXT_LUCKZH204_03532_MOLDWARRIOR03532_000_021","Whether the Wall's crystals have anything to do with sin eaters is not for me to say. What I do know is that without rules, without law, we are no better than beasts. Beasts, I tell you!"
+57,"TEXT_LUCKZH204_03532_MOLDWARRIOR03532_000_022","Ahem! Excuse me. Before we part ways, here is your reward for punishing the wicked."

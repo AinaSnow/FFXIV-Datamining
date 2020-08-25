@@ -1,7 +1,7 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_LUCKHZ102_03840_SEQ_00","ロランベリー・フィールドのペーラキルは、目を輝かせている。"
+0,"TEXT_LUCKHZ102_03840_SEQ_00","Peyraquile's eyes shine at the sight of you."
 1,"TEXT_LUCKHZ102_03840_SEQ_01",""
 2,"TEXT_LUCKHZ102_03840_SEQ_02",""
 3,"TEXT_LUCKHZ102_03840_SEQ_03",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_LUCKHZ102_03840_SEQ_21",""
 22,"TEXT_LUCKHZ102_03840_SEQ_22",""
 23,"TEXT_LUCKHZ102_03840_SEQ_23",""
-24,"TEXT_LUCKHZ102_03840_TODO_00","神殿騎士団リーヴ前のジュルシエザンと話す"
-25,"TEXT_LUCKHZ102_03840_TODO_01","十字鍬通りのアカードと話す"
-26,"TEXT_LUCKHZ102_03840_TODO_02","ジュルシエザンに<Sheet(EventItem,2002976,0)/>を渡す"
+24,"TEXT_LUCKHZ102_03840_TODO_00","Speak with Julchiezain in front of the Temple leve counter."
+25,"TEXT_LUCKHZ102_03840_TODO_01","Speak with Achard in the Firmament."
+26,"TEXT_LUCKHZ102_03840_TODO_02","Deliver the salvaged wood scraps to Julchiezain."
 27,"TEXT_LUCKHZ102_03840_TODO_03",""
 28,"TEXT_LUCKHZ102_03840_TODO_04",""
 29,"TEXT_LUCKHZ102_03840_TODO_05",""
@@ -49,102 +49,48 @@ int32,str,str
 45,"TEXT_LUCKHZ102_03840_TODO_21",""
 46,"TEXT_LUCKHZ102_03840_TODO_22",""
 47,"TEXT_LUCKHZ102_03840_TODO_23",""
-48,"TEXT_LUCKHZ102_03840_JULCHIEZAIN_000_000","（★未使用／削除予定★）"
-49,"TEXT_LUCKHZ102_03840_LYCELLE_000_005","（★未使用／削除予定★）"
-50,"TEXT_LUCKHZ102_03840_PEYRAQUILE_000_010","わぁ……！
-本物の、英雄の<If(PlayerParameter(4))>お姉ちゃん<Else/>お兄ちゃん</If>だ……！
-ねぇねぇ、ラスクインお兄ちゃんたちとお話ししてたよね？"
-51,"TEXT_LUCKHZ102_03840_PEYRAQUILE_000_011","僕たち、ロランベリー・フィールドの年長組なんだ。
-お兄ちゃんたちのお仕事が、少しでも楽になるように、
-助けてあげたいって相談してたんだけど……"
-52,"TEXT_LUCKHZ102_03840_PEYRAQUILE_000_012","<If(PlayerParameter(4))>お姉ちゃん<Else/>お兄ちゃん</If>は、どうしたらいいと思う？"
-53,"TEXT_LUCKHZ102_03840_JULCHIEZAIN_000_013","そんなの聞くまでもないよ！
-戦いの依頼を受けてがっぽり稼ぐのが、
-いちばんに決まってるだろ！"
-54,"TEXT_LUCKHZ102_03840_LYCELLE_000_014","いいえ、そんな危険なことしたら、
-お兄ちゃんたちが心配するでしょう？
-この街の中で、子守りとか安全な仕事を探した方がいいわ。"
-55,"TEXT_LUCKHZ102_03840_JULCHIEZAIN_000_015","まったく、リセルはいつも俺の言うことに反対するよな！
-いいよもう、俺はひとりでも、
-「神殿騎士団リーヴ」を受けにいってやるから！"
-56,"TEXT_LUCKHZ102_03840_PEYRAQUILE_000_016","ど、どうしよう……！
-<If(PlayerParameter(4))>お姉ちゃん<Else/>お兄ちゃん</If>、一緒に追いかけて！"
-57,"TEXT_LUCKHZ102_03840_JULCHIEZAIN_000_020","あれ、<If(PlayerParameter(4))>姉ちゃん<Else/>兄ちゃん</If>。
-なんだよ、ついてきたのか？
-心配いらないよ、見てて！"
-58,"TEXT_LUCKHZ102_03840_JULCHIEZAIN_000_021","すいませーん。
-報酬のがっつりある、討伐の依頼はありませんかー？"
-59,"TEXT_LUCKHZ102_03840_ELOIN_000_022","申し訳ございません。
-あなた方のような年端もいかぬ子どもたちには、
-討伐依頼は危険がすぎるかと。"
-60,"TEXT_LUCKHZ102_03840_ELOIN_000_023","神殿騎士団リーヴは、総長殿の発案による新たな試み……。
-傭兵稼業は、熟練の狩人や冒険者の協力を依頼するものですので。"
-61,"TEXT_LUCKHZ102_03840_LYCELLE_000_024","ほらね、言ったでしょう？"
-62,"TEXT_LUCKHZ102_03840_JULCHIEZAIN_000_025","でも、俺たちだって、
-孤児院の兄ちゃんたちの助けになりたいだろ！？
-どうすりゃいいんだよ……。"
-63,"TEXT_LUCKHZ102_03840_ELOIN_000_026","ふむ……。
-では代わりに、製作稼業の任務をお願いしましょうかね。"
-64,"TEXT_LUCKHZ102_03840_PEYRAQUILE_000_027","製作、かぎょう……？"
-65,"TEXT_LUCKHZ102_03840_ELOIN_000_028","ええ、物資の不足している地域から、
-製作の依頼があまた入ってきておりまして。"
-66,"TEXT_LUCKHZ102_03840_ELOIN_000_029","聖フィネア連隊からの「薪とロープ」の製作依頼なら、
-あなたたちに発行することができそうです。
-金銭の報酬に加え、新鮮な獣肉も提供してくれるそうですよ。"
-67,"TEXT_LUCKHZ102_03840_JULCHIEZAIN_000_030","(-子どもたち-)肉だーーーー！！"
-68,"TEXT_LUCKHZ102_03840_JULCHIEZAIN_000_031","お金と肉がもらえたら、きっと兄ちゃんたちも喜ぶな！
-さっそく、麦わらを譲ってもらいにいこうぜ！
-ロープの材料になるような、丈夫なやつ！"
-69,"TEXT_LUCKHZ102_03840_JULCHIEZAIN_000_032","なぁ、<If(PlayerParameter(4))>姉ちゃん<Else/>兄ちゃん</If>。
-十字鍬通りあたりに「アカード」さんがいたら、
-<Sheet(EventItem,2002976,0)/>をもらってきてくれないか？"
-70,"TEXT_LUCKHZ102_03840_JULCHIEZAIN_000_033","蒼天街で、資材を安く売ってくれる人なんだ。
-でも、俺たち子どもには「遊ぶためのものじゃない」って、
-譲ってくれないからさ。"
-71,"TEXT_LUCKHZ102_03840_JULCHIEZAIN_000_034","じゃあ、「<Sheet(EventItem,2002976,0)/>」が手に入ったら、
-「ロランベリー・フィールド」に集合な！"
-72,"TEXT_LUCKHZ102_03840_ACHARD_000_040","おや、あんたまさか、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>かい？
-こりゃまた、すごい人がいるもんだね。"
-73,"TEXT_LUCKHZ102_03840_ACHARD_000_041","俺は、復興で出た端材や余った石材、金属片なんかを引き取って、
-生活用品なんかを作る職人たちに、格安で売り歩いてんだ。
-もしかしてあんたも、入り用なものがあるのかい？"
-74,"TEXT_LUCKHZ102_03840_ACHARD_000_042","そういうことなら、この材木の切れ端を持っていってくれ。
-もちろん金はいらねぇ。"
-75,"TEXT_LUCKHZ102_03840_ACHARD_000_043","まさか孤児院の子どもらが、
-製作稼業で運営を助けようなんて……泣ける話じゃねぇかっ！
-あんたに倣って、これからは俺も援助させてもらうぜ。"
-76,"TEXT_LUCKHZ102_03840_ACHARD_000_050","「ロランベリー・フィールド」の子どもらが、
-製作稼業で運営を助けようなんて……泣ける話じゃねぇかっ！
-あんたに倣って、これからは俺も援助させてもらうぜ。"
-77,"TEXT_LUCKHZ102_03840_PEYRAQUILE_000_055","あ、<If(PlayerParameter(4))>お姉ちゃん<Else/>お兄ちゃん</If>、おかえりなさい……！"
-78,"TEXT_LUCKHZ102_03840_LYCELLE_000_060","どう？
-端材は手に入った？"
-79,"TEXT_LUCKHZ102_03840_JULCHIEZAIN_000_070","<If(PlayerParameter(4))>姉ちゃん<Else/>兄ちゃん</If>！
-端材はあったかー？"
-80,"TEXT_LUCKHZ102_03840_JULCHIEZAIN_000_071","ありがとー！
-じゃあ、さっそく薪とロープを作っちゃおうぜ！"
-81,"TEXT_LUCKHZ102_03840_JULCHIEZAIN_000_072","<If(PlayerParameter(4))>姉ちゃん<Else/>兄ちゃん</If>！
-ちょっとそっち持ってて！"
-82,"TEXT_LUCKHZ102_03840_LYCELLE_000_073","違うわよ、ロープはこうやってひねったほうが……"
-83,"TEXT_LUCKHZ102_03840_JULCHIEZAIN_000_074","(-子どもたち-)できたーーーー！"
-84,"TEXT_LUCKHZ102_03840_JANTELLOT_000_075","(-？？？？-)おいおい、神殿騎士団に頼んだ依頼の品……
-受け取りの場所がここだと言われたんだが、
-まさかお前たちが作ったのか？"
-85,"TEXT_LUCKHZ102_03840_PEYRAQUILE_000_076","は、はい……！"
-86,"TEXT_LUCKHZ102_03840_JANTELLOT_000_077","極寒の西部高地で使う薪とロープ、品質に問題はねぇんだろうな？
-俺は子どもだろうと容赦しねぇぞ。
-命がかかってるんだからな。"
-87,"TEXT_LUCKHZ102_03840_JANTELLOT_000_078","おいおい、あんたが作業を見守ってたのか！
-まぁ、それだけ自信があるなら大丈夫か。"
-88,"TEXT_LUCKHZ102_03840_JANTELLOT_000_079","じゃあ、報酬の金とヤクの肉だ。
-品質が良かったら、またお前たちに依頼してやるよ。"
-89,"TEXT_LUCKHZ102_03840_JULCHIEZAIN_000_080","わーい！
-この肉、さっそく兄ちゃんたちに渡して、
-今日のシチューに入れてもらおうぜ！"
-90,"TEXT_LUCKHZ102_03840_LYCELLE_000_081","それより、燻して保存したほうがいいわ。
-長く食べられたほうがいいじゃない。"
-91,"TEXT_LUCKHZ102_03840_PEYRAQUILE_000_082","い、いっぱいあるから、
-半分ずつシチューと燻製にしよ……！"
-92,"TEXT_LUCKHZ102_03840_PEYRAQUILE_000_083","英雄の<If(PlayerParameter(4))>お姉ちゃん<Else/>お兄ちゃん</If>！
-お仕事って、達成感があって楽しいねぇ……！
-お手伝いしてくれて、ありがとう！"
+48,"TEXT_LUCKHZ102_03840_JULCHIEZAIN_000_000",""
+49,"TEXT_LUCKHZ102_03840_LYCELLE_000_005",""
+50,"TEXT_LUCKHZ102_03840_PEYRAQUILE_000_010","Ooh! You're the hero who was talking with Rasequin and the others!"
+51,"TEXT_LUCKHZ102_03840_PEYRAQUILE_000_011","The three of us, we're the oldest children at the orphanage."
+52,"TEXT_LUCKHZ102_03840_PEYRAQUILE_000_012","We know that our carers do much for us, and we want to do something to ease their burden...but we don't know what. You don't have any ideas, do you?"
+53,"TEXT_LUCKHZ102_03840_JULCHIEZAIN_000_013","Come now, we've already spoken about this! The best way to help is to earn coin as sellswords!"
+54,"TEXT_LUCKHZ102_03840_LYCELLE_000_014","And I've already told you, it's too dangerous. Better to find work here in the district─minding other people's children and the like."
+55,"TEXT_LUCKHZ102_03840_JULCHIEZAIN_000_015","Hmph, you're always against my ideas, Lycelle! Well, if you don't have a stomach for battle, you can just stay here! I'll go and get a Temple leve and I'll handle it all by myself!"
+56,"TEXT_LUCKHZ102_03840_PEYRAQUILE_000_016","He's going to get himself hurt! Please, help us stop him!"
+57,"TEXT_LUCKHZ102_03840_JULCHIEZAIN_000_020","Oh, it's you again. If you're worried about me, don't be!"
+58,"TEXT_LUCKHZ102_03840_JULCHIEZAIN_000_021","Excuse me, I want to take on a leve. Something with fighting. That pays good coin."
+59,"TEXT_LUCKHZ102_03840_ELOIN_000_022","(-Eloin-)Is that so...? While your courage is commendable, I fear such a task is too dangerous for young ones."
+60,"TEXT_LUCKHZ102_03840_ELOIN_000_023","And even if you were of a suitable age, Temple leves are still in the proposal stage. At present, our order only accepts proven hunters and adventurers for mercenary work."
+61,"TEXT_LUCKHZ102_03840_LYCELLE_000_024","See? What did I tell you?"
+62,"TEXT_LUCKHZ102_03840_JULCHIEZAIN_000_025","Awww... What can we do to help at the orphanage, then?"
+63,"TEXT_LUCKHZ102_03840_ELOIN_000_026","If you are interested, children, we can issue you tradecraft leves instead."
+64,"TEXT_LUCKHZ102_03840_PEYRAQUILE_000_027","Tradecraft leves?"
+65,"TEXT_LUCKHZ102_03840_ELOIN_000_028","Aye. We receive requests for all manner of supplies, and we can never have too many hands fulfilling them."
+66,"TEXT_LUCKHZ102_03840_ELOIN_000_029","And right now, the Convictors have need of firewood and rope. By way of recompense, they offer not only coin, but freshly caught game as well. "
+67,"TEXT_LUCKHZ102_03840_JULCHIEZAIN_000_030","(-All-)Huzzah!"
+68,"TEXT_LUCKHZ102_03840_JULCHIEZAIN_000_031","Coin <Emphasis>and</Emphasis> meat─Rasequin and the others will be so happy! Let's get to work at once! I know where we can get straw to make the rope!"
+69,"TEXT_LUCKHZ102_03840_JULCHIEZAIN_000_032","Do you think you could give us a hand with the firewood?"
+70,"TEXT_LUCKHZ102_03840_JULCHIEZAIN_000_033","In the Firmament, there's a man named Achard. He sells all sorts of materials, but he doesn't let us have any, saying that it's not for play. Could you go and ask him for some wood scraps for us?"
+71,"TEXT_LUCKHZ102_03840_JULCHIEZAIN_000_034","Great! Afterwards, come and meet us back at the orphanage!"
+72,"TEXT_LUCKHZ102_03840_ACHARD_000_040","Wait, ain't you <Highlight>ObjectParameter(1)</Highlight>!? Heh, never thought I'd get custom from a great hero!"
+73,"TEXT_LUCKHZ102_03840_ACHARD_000_041","I salvage materials left over from the reconstruction and sell 'em cheap to craftsmen who make everyday wares. Is there somethin' you need?"
+74,"TEXT_LUCKHZ102_03840_ACHARD_000_042","...Is that the way of it? Well then, here's some wood scraps you can take. Free of charge."
+75,"TEXT_LUCKHZ102_03840_ACHARD_000_043","To hear that those children are tryin' to do their part for the orphanage... Brings a tear to the eye, you know? From now on, I'll do what I can to support them."
+76,"TEXT_LUCKHZ102_03840_ACHARD_000_050","To hear that those children are tryin' to do their part for the orphanage... Brings a tear to the eye. From now on, I'll do what I can to support them."
+77,"TEXT_LUCKHZ102_03840_PEYRAQUILE_000_055","We've been waiting for you!"
+78,"TEXT_LUCKHZ102_03840_LYCELLE_000_060","So, do you have the wood scraps?"
+79,"TEXT_LUCKHZ102_03840_JULCHIEZAIN_000_070","There you are! Did you manage to get the wood scraps?"
+80,"TEXT_LUCKHZ102_03840_JULCHIEZAIN_000_071","Thank you! We'll get to work making the rope and firewood at once!"
+81,"TEXT_LUCKHZ102_03840_JULCHIEZAIN_000_072","Twist it like this...then loop it like that..."
+82,"TEXT_LUCKHZ102_03840_LYCELLE_000_073","You're doing it wrong. It's just going to unravel again."
+83,"TEXT_LUCKHZ102_03840_JULCHIEZAIN_000_074","(-All-)We did it!"
+84,"TEXT_LUCKHZ102_03840_JANTELLOT_000_075","(-???-)Eloin said that I was to collect from here... Do you mean to say you children made the items?"
+85,"TEXT_LUCKHZ102_03840_PEYRAQUILE_000_076","Y-Yes, sir!"
+86,"TEXT_LUCKHZ102_03840_JANTELLOT_000_077","I see. Children though you may be, do not expect that I will treat you with any leniency. The lives of my men may well depend upon this rope and firewood, and I'll accept naught of inferior quality."
+87,"TEXT_LUCKHZ102_03840_JANTELLOT_000_078","You supervised them, you say? Then perhaps there is no cause for concern."
+88,"TEXT_LUCKHZ102_03840_JANTELLOT_000_079","Here, the coin and meat promised. If we are satisfied with the items, there shall be opportunities for you to earn more."
+89,"TEXT_LUCKHZ102_03840_JULCHIEZAIN_000_080","Huzzah! Let's take this meat to Rasequin and have him use it in today's stew!"
+90,"TEXT_LUCKHZ102_03840_LYCELLE_000_081","I think it best if we had it cured and set aside for later."
+91,"TEXT_LUCKHZ102_03840_PEYRAQUILE_000_082","There's plenty of it! We can do both!"
+92,"TEXT_LUCKHZ102_03840_PEYRAQUILE_000_083","Heh, it's a fine feeling to make ourselves useful. We'll keep on doing what we can to help at the orphanage. Thank you, and please visit us again!"

@@ -1,12 +1,12 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSD002_01048_SEQ_00","「暁の血盟」のサンクレッドは、蛮神「イフリート」を討伐してほしいようだ。"
-1,"TEXT_GAIUSD002_01048_SEQ_01","蛮神「イフリート」が再召喚されてしまったらしい。ウルダハの不滅隊：作戦本部にいる「スウィフト大闘佐」に話を聞こう。"
-2,"TEXT_GAIUSD002_01048_SEQ_02","スウィフト大闘佐によると「イフリート」のいる「炎帝祭跡」に行くためには、南ザナラーンのザハラク戦陣奥地にある「エーテライト」を使うといいらしい。"
-3,"TEXT_GAIUSD002_01048_SEQ_03","エーテライトと交感した。仲間と共に、再召喚された蛮神「イフリート」を倒そう。
+0,"TEXT_GAIUSD002_01048_SEQ_00","Thancred wants you to vanquish Ifrit, and has information that will help you to arrange an encounter."
+1,"TEXT_GAIUSD002_01048_SEQ_01","Thancred confirms Urianger's words that Ifrit has been summoned once more. Report to the Hall of Flames and speak with Commander Swift to learn how you might arrange a meeting with the Lord of the Inferno."
+2,"TEXT_GAIUSD002_01048_SEQ_02","According to Commander Swift, a beastman aetheryte leading to Ifrit's domain, the Bowl of Embers, has been discovered within Zahar'ak in southern Thanalan. Fight your way to the innermost depths of the Amalj'aa stronghold, and attune to the aetheryte."
+3,"TEXT_GAIUSD002_01048_SEQ_03","You have attuned yourself to the Zahar'ak aetheryte, and the path to the Bowl of Embers lies wide open. Assemble your stoutest adventuring comrades, and vanquish the Lord of the Inferno.
 
-※コンテンツファインダーから攻略に参加できます。"
+※The Bowl of Embers (Hard) can be accessed via the Duty Finder."
 4,"TEXT_GAIUSD002_01048_SEQ_04",""
 5,"TEXT_GAIUSD002_01048_SEQ_05",""
 6,"TEXT_GAIUSD002_01048_SEQ_06",""
@@ -27,8 +27,8 @@ int32,str,str
 21,"TEXT_GAIUSD002_01048_SEQ_21",""
 22,"TEXT_GAIUSD002_01048_SEQ_22",""
 23,"TEXT_GAIUSD002_01048_SEQ_23",""
-24,"TEXT_GAIUSD002_01048_TODO_00","不滅隊：作戦本部のスウィフト大闘佐と話す"
-25,"TEXT_GAIUSD002_01048_TODO_01","ザハラク戦陣奥地のエーテライトと交感"
+24,"TEXT_GAIUSD002_01048_TODO_00","Speak with Swift at the Hall of Flames."
+25,"TEXT_GAIUSD002_01048_TODO_01","Attune to the aetheryte at Zahar'ak."
 26,"TEXT_GAIUSD002_01048_TODO_02",""
 27,"TEXT_GAIUSD002_01048_TODO_03",""
 28,"TEXT_GAIUSD002_01048_TODO_04",""
@@ -51,41 +51,18 @@ int32,str,str
 45,"TEXT_GAIUSD002_01048_TODO_21",""
 46,"TEXT_GAIUSD002_01048_TODO_22",""
 47,"TEXT_GAIUSD002_01048_TODO_23",""
-48,"TEXT_GAIUSD002_01048_THANCRED_000_000","さっそく、俺の出番さ。
-よろしくな！"
-49,"TEXT_GAIUSD002_01048_THANCRED_000_001","アマルジャ族による神降ろし……。
-ウルダハの「不滅隊」からの連絡によれば、
-蛮神「イフリート」は、すでに再召喚されたようだ。"
-50,"TEXT_GAIUSD002_01048_THANCRED_000_002","俺も一緒に向かいたいところだが……
-バルデシオン委員会から止められていてね。
-……すまないが、できるのは情報の共有だけだ。"
-51,"TEXT_GAIUSD002_01048_THANCRED_000_003","……なんでも、アシエンに憑依された影響で、
-今の俺は、テンパード化しやすい体らしい。"
-52,"TEXT_GAIUSD002_01048_THANCRED_000_004","これ以上迷惑をかけれないからな……。
-悔しいけど、今回は自重して情報解析に回るつもりだ。"
-53,"TEXT_GAIUSD002_01048_THANCRED_000_005","蛮神「イフリート」については、
-「不滅隊」が先行調査を行っているはずだ。"
-54,"TEXT_GAIUSD002_01048_THANCRED_000_006","ウルダハ「不滅隊：作戦本部」の、
-「スウィフト大闘佐」に話を聞くといい。"
-55,"TEXT_GAIUSD002_01048_THANCRED_000_007","ミンフィリアが言っていたとおり、
-今回のは手強いぞ……。
-冒険者の仲間を集めて、十分に注意をして向かってくれ。"
-56,"TEXT_GAIUSD002_01048_SWIFT_000_020","<If(GreaterThan(PlayerParameter(54),0))><If(LessThan(PlayerParameter(54),127))><Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><If(GreaterThan(PlayerParameter(54),0))><Sheet(GCRankUldahMaleText,PlayerParameter(54),0)/><Else/></If>、<Else/>……来たか「暁」の者よ。</If><Else/>……来たか「暁」の者よ。</If>
-数々の強敵を屠ってきた、貴公の腕を借りたい。
-これは、ラウバーン局長からの任務でもある。"
-57,"TEXT_GAIUSD002_01048_SWIFT_000_022","すでに「暁」に情報を伝えてあるとおり、
-アマルジャ族による神降ろしが確認された。"
-58,"TEXT_GAIUSD002_01048_SWIFT_000_023","貴公には、再召喚された蛮神「イフリート」の
-撃退に向かってほしいのだ。"
-59,"TEXT_GAIUSD002_01048_SWIFT_000_024","蛮神「イフリート」を強襲するには、
-アマルジャ族の拠点「ザハラク戦陣」の奥深くにある、
-奴らのエーテライトを利用するのが良かろう。"
-60,"TEXT_GAIUSD002_01048_SWIFT_000_025","どうやら連中は、破棄されたエーテライトの残骸を回収し、
-独自にエーテライト網を作りあげたようだ。
-これならば、我ら人も利用できよう。"
-61,"TEXT_GAIUSD002_01048_SWIFT_000_026","だが、再召喚された「イフリート」の強さは未知数……。
-彼の神が座する「炎帝祭跡」に乗り込む際は、
-8名は冒険者を集めたほうがいいだろう。"
-62,"TEXT_GAIUSD002_01048_SWIFT_000_027","どうか、蛮神「イフリート」を倒し、
-このウルダハに平和を！
-……貴公の健闘を祈る！"
+48,"TEXT_GAIUSD002_01048_THANCRED_000_000","Confirmation has just arrived from the Immortal Flames."
+49,"TEXT_GAIUSD002_01048_THANCRED_000_001","'Tis as Urianger said, I fear─the Amalj'aa have already summoned Ifrit. A confrontation with the Lord of the Inferno is inevitable."
+50,"TEXT_GAIUSD002_01048_THANCRED_000_002","I would like nothing more than to lend you my blade, but the Students of Baldesion insisted that I refrain from taking to the field where it concerns primals."
+51,"TEXT_GAIUSD002_01048_THANCRED_000_003","I know not the workings of it, but it would seem that recent events have left me especially susceptible to tempering."
+52,"TEXT_GAIUSD002_01048_THANCRED_000_004","As much as I hate missing out on the fun, for everybody's sake, I must sit this one out. Instead I will focus on gathering and analyzing data."
+53,"TEXT_GAIUSD002_01048_THANCRED_000_005","Now, the Immortal Flames have already conducted a preliminary investigation into Ifrit."
+54,"TEXT_GAIUSD002_01048_THANCRED_000_006","They may well have information that will be of use to you. Do pay a visit to the Hall of Flames and speak with Commander Swift."
+55,"TEXT_GAIUSD002_01048_THANCRED_000_007","One last thing before you depart. Doubtless you remember Minfilia's words, but this Ifrit is a far cry from the primal you first defeated. You will want to assemble your most dependable comrades for the mission. Be safe, my friend."
+56,"TEXT_GAIUSD002_01048_SWIFT_000_020","<If(GreaterThan(PlayerParameter(52),0))><Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Else/><If(GreaterThan(PlayerParameter(53),0))><Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><Else/><Clickable(<If(GreaterThan(PlayerParameter(52),0))><Sheet(GCRankLimsaMaleText,PlayerParameter(52),8)/><Else/></If><If(GreaterThan(PlayerParameter(53),0))><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),8)/><Else/></If><If(GreaterThan(PlayerParameter(54),0))><Sheet(GCRankUldahMaleText,PlayerParameter(54),8)/><Else/></If>)/> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/></If></If>, we thank you for coming. The Flame General will be heartened to hear that you have answered the call."
+57,"TEXT_GAIUSD002_01048_SWIFT_000_022","As we have already relayed to the Waking Sands, Ifrit is returned."
+58,"TEXT_GAIUSD002_01048_SWIFT_000_023","For the sake of peace in the region, we humbly request that you vanquish him."
+59,"TEXT_GAIUSD002_01048_SWIFT_000_024","The primal is to be found in his domain, the Bowl of Embers. To get there, you must use the beastman aetheryte found within the depths of Zahar'ak, the Amalj'aa stronghold."
+60,"TEXT_GAIUSD002_01048_SWIFT_000_025","The Amalj'aa have constructed their own Aethernet from salvaged aetheryte shards. This being the case, you should be able to use it without problem."
+61,"TEXT_GAIUSD002_01048_SWIFT_000_026","No doubt you already know this from your fellow Scions, but the present incarnation of Ifrit is far stronger than the last. Facing him with any fewer than seven of your stoutest comrades would be ill-advised."
+62,"TEXT_GAIUSD002_01048_SWIFT_000_027","That is all the intelligence we have to share─the rest is in your hands. I shall pray for your victory and safe return."

@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSC508_00996_SEQ_00","「聖コイナク財団の調査地」のナジル・ドゥジルは、冒険者の助けを借りたいようだ。"
-1,"TEXT_GAIUSC508_00996_SEQ_01","湖畔を調査中の調査員が、海に落ちてしまったらしい。「聖コイナク財団の調査地」の西にいる「心配そうな調査員」に「<Sheet(EventItem,2000854,0)/>」を届けよう。"
-2,"TEXT_GAIUSC508_00996_SEQ_02","心配そうな調査員に「<Sheet(EventItem,2000854,0)/>」を渡した。レヴナンツトールの「カカメヒ」に薬品類を届けてもらうよう頼みに行こう。"
-3,"TEXT_GAIUSC508_00996_SEQ_03","カカメヒに医療用品は手配してもらった。調査員の無事を願おう。"
+0,"TEXT_GAIUSC508_00996_SEQ_00","You feel the call of the road, but when a mishap strikes, Nazyl Duzyl has one more call on your time."
+1,"TEXT_GAIUSC508_00996_SEQ_01","One of a pair of researchers excavating a lakeside site has fallen down a hole. Nazyl Duzyl bids you head west and deliver a length of thick rope to the wrought researcher that awaits assistance for his learned colleague."
+2,"TEXT_GAIUSC508_00996_SEQ_02","Once given the rope, the researcher trades his anxiety for resoluteness. He orders you to leave the rescue to him and take an urgent message to Kakamehi in Revenant's Toll: send medicines."
+3,"TEXT_GAIUSC508_00996_SEQ_03","Having delivered the message to Kakamehi, your work is done. Kakamehi is dispatching the potions and liniments even as you settle in for a well-earned rest. Another day, another job well done."
 4,"TEXT_GAIUSC508_00996_SEQ_04",""
 5,"TEXT_GAIUSC508_00996_SEQ_05",""
 6,"TEXT_GAIUSC508_00996_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSC508_00996_SEQ_21",""
 22,"TEXT_GAIUSC508_00996_SEQ_22",""
 23,"TEXT_GAIUSC508_00996_SEQ_23",""
-24,"TEXT_GAIUSC508_00996_TODO_00","心配そうな調査員に<Sheet(EventItem,2000854,0)/>を渡す"
-25,"TEXT_GAIUSC508_00996_TODO_01","カカメヒに話す"
+24,"TEXT_GAIUSC508_00996_TODO_00","Give the rope to the wrought researcher."
+25,"TEXT_GAIUSC508_00996_TODO_01","Speak with Kakamehi."
 26,"TEXT_GAIUSC508_00996_TODO_02",""
 27,"TEXT_GAIUSC508_00996_TODO_03",""
 28,"TEXT_GAIUSC508_00996_TODO_04",""
@@ -49,32 +49,15 @@ int32,str,str
 45,"TEXT_GAIUSC508_00996_TODO_21",""
 46,"TEXT_GAIUSC508_00996_TODO_22",""
 47,"TEXT_GAIUSC508_00996_TODO_23",""
-48,"TEXT_GAIUSC508_00996_NAZYLDUZYL_000_000","冒険者さん、よいところに！
-湖畔の発掘に向かった調査員が、断崖を滑り落ちて、
-怪我をしてしまったらしいのですよ。"
-49,"TEXT_GAIUSC508_00996_NAZYLDUZYL_000_001","救助に向かわねばなりませんが、
-そもそも、手元に薬品類が不足しておりましてな。
-このままでは、まともに治療することもできません。"
-50,"TEXT_GAIUSC508_00996_NAZYLDUZYL_000_002","冒険者さん、この「<Sheet(EventItem,2000854,0)/>」を持っていき、
-救助の手助けをしていただけますかな？"
-51,"TEXT_GAIUSC508_00996_NAZYLDUZYL_000_003","そして「レヴナンツトール」の「カカメヒ」さんに、
-薬品類を届けるように伝えてほしいのです。"
-52,"TEXT_GAIUSC508_00996_NAZYLDUZYL_000_004","冒険者さんには、お世話になりました。
-もうひと働きお願いできれば幸いですぞ。"
-53,"TEXT_GAIUSC508_00996_NPCA_000_010","おお、救助の者か、よく来てくれた！
-どうも、この穴から下に滑り落ちて、
-足を折っちまったらしい。"
-54,"TEXT_GAIUSC508_00996_NPCA_000_011","手当てするにしろどこかに運ぶにしろ、
-まずは「<Sheet(EventItem,2000854,0)/>」で引き上げてやらないと……。
-何か持っていないか？"
-55,"TEXT_GAIUSC508_00996_NPCA_000_020","……ありがとう、助かった！
-よし、引き上げはこっちで何とかする。"
-56,"TEXT_GAIUSC508_00996_NPCA_000_021","そのまま「レヴナンツトール」に向かって、
-薬品類の手配を頼む！"
-57,"TEXT_GAIUSC508_00996_NPCA_000_025","引き上げはこっちで何とかする。
-そのまま「レヴナンツトール」に向かって、
-薬品類の手配を頼む！"
-58,"TEXT_GAIUSC508_00996_KAKAMEHI_000_030","よう、聖コイナク財団では仕事にありつけたかい？
-……ふむ、薬品類が足らないんだな？"
-59,"TEXT_GAIUSC508_00996_KAKAMEHI_000_031","任せとけ、急いで手配してやるぜ。
-連絡ご苦労さん！"
+48,"TEXT_GAIUSC508_00996_NAZYLDUZYL_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, how fortunate to have you here! One of the researchers excavating the lakeside has tumbled down a hole!"
+49,"TEXT_GAIUSC508_00996_NAZYLDUZYL_000_001","He remains there still and has wounds that will need tending, but his team traveled quite light. They lack the necessary supplies for his rescue."
+50,"TEXT_GAIUSC508_00996_NAZYLDUZYL_000_002","Will you take this length of rope to the lakeside, for the rescue?"
+51,"TEXT_GAIUSC508_00996_NAZYLDUZYL_000_003","After that, you must hasten to Revenant's Toll and tell Kakamehi to dispatch medicines thither."
+52,"TEXT_GAIUSC508_00996_NAZYLDUZYL_000_004","We are already much in your debt, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, if not in gil then in spirit─but may I impose on you one last time?"
+53,"TEXT_GAIUSC508_00996_NPCA_000_010","Hallo! Thank the Twelve you're here! He fell right down this hole, thinks he broke a leg."
+54,"TEXT_GAIUSC508_00996_NPCA_000_011","We have to get him out before he passes out again─the pain seems to be bad. Have you any rope?"
+55,"TEXT_GAIUSC508_00996_NPCA_000_020","Good and stout! Right, I can fish him out by myself here. But once he's out, he'll need some true physicking."
+56,"TEXT_GAIUSC508_00996_NPCA_000_021","Go on to Revenant's Toll and tell them to send potions─buckets of them!"
+57,"TEXT_GAIUSC508_00996_NPCA_000_025","I'll fish him out by myself. You go on to Revenant's Toll and tell them to send potions."
+58,"TEXT_GAIUSC508_00996_KAKAMEHI_000_030","Long time no see, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! They keeping you busy at Saint Coinach's Find? Ah, an accident, eh? Not enough physick, sure, sure."
+59,"TEXT_GAIUSC508_00996_KAKAMEHI_000_031","I'll get what's needed to the Sons. You look like you ran all the way─go sun those soles, you've earned a rest."

@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBFST046_00210_SEQ_00","バノック練兵所のツブ・カマゾンは、訓練の時間になっても姿を現さない新兵たちを探してきてほしいようだ。"
-1,"TEXT_SUBFST046_00210_SEQ_01","訓練の時間になっても集合しない3名の新兵を探しだしてツブ・カマゾンのもとに戻るように伝えよう。彼らは皆、「バノック練兵所」付近にいるようだ。"
-2,"TEXT_SUBFST046_00210_SEQ_02","さぼっていた新兵たちに声をかけ終えた。「バノック練兵所」の「ツブ・カマゾン」に報告しよう。"
-3,"TEXT_SUBFST046_00210_SEQ_03","新兵たちは配属されてしばらく経つと、気が緩んでしまうようだ。ツブ・カマゾンは、ただ叱るのではなく、彼らが訓練に精を出せるよう、気を配ってやるつもりだという。"
+0,"TEXT_SUBFST046_00210_SEQ_00","Tsubh Khamazom, a soldier at the Bannock, wants you to track down some initiates that failed to appear for training."
+1,"TEXT_SUBFST046_00210_SEQ_01","Find the three Twin Adder initiates missing from training, and tell them to report to Tsubh Khamazom. It is unlikely they have strayed far from the Bannock."
+2,"TEXT_SUBFST046_00210_SEQ_02","You have spoken with all three initiates. Report to Tsubh Khamazom at the Bannock."
+3,"TEXT_SUBFST046_00210_SEQ_03","Tsubh Khamazom reveals that initiates often lose their focus a short while after they are assigned to a unit. While enforcing a stricter code of discipline would seem to be the obvious solution, she is loath to do anything which might damage her troops' morale."
 4,"TEXT_SUBFST046_00210_SEQ_04",""
 5,"TEXT_SUBFST046_00210_SEQ_05",""
 6,"TEXT_SUBFST046_00210_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_SUBFST046_00210_SEQ_21",""
 22,"TEXT_SUBFST046_00210_SEQ_22",""
 23,"TEXT_SUBFST046_00210_SEQ_23",""
-24,"TEXT_SUBFST046_00210_TODO_00","さぼっている新兵と話す"
-25,"TEXT_SUBFST046_00210_TODO_01","ツブ・カマゾンに報告"
+24,"TEXT_SUBFST046_00210_TODO_00","Speak with the idle initiates."
+25,"TEXT_SUBFST046_00210_TODO_01","Report to Tsubh Khamazom at the Bannock."
 26,"TEXT_SUBFST046_00210_TODO_02",""
 27,"TEXT_SUBFST046_00210_TODO_03",""
 28,"TEXT_SUBFST046_00210_TODO_04",""
@@ -49,33 +49,15 @@ int32,str,str
 45,"TEXT_SUBFST046_00210_TODO_21",""
 46,"TEXT_SUBFST046_00210_TODO_22",""
 47,"TEXT_SUBFST046_00210_TODO_23",""
-48,"TEXT_SUBFST046_00210_TSUBHKHAMAZOM_000_1","ああ、君か。
-いいところに来たね、
-人探しに手を貸してくれないか？"
-49,"TEXT_SUBFST046_00210_TSUBHKHAMAZOM_000_2","ひと月前に配属された新兵のうち3名が、
-訓練の時間になっても集合場所に来ていないのだ。
-おそらく、疲れてどこかでサボっているのだろう。"
-50,"TEXT_SUBFST046_00210_TSUBHKHAMAZOM_000_3","さほど遠いところには行っていないと思う。
-見つけ出してツブ・カマゾンが探していたと伝えてくれ。"
-51,"TEXT_SUBFST046_00210_BOOTA_000_10","……ふ、私は今瞑想をしているのだ、
-邪魔をしないでもらおうか。"
-52,"TEXT_SUBFST046_00210_BOOTA_000_11","……何、ツブ・カマゾン様が探しているだと……！？
-やっべえ！　格好つけてる場合じゃないって！
-はい、戻ります！！"
-53,"TEXT_SUBFST046_00210_BOOTB_000_15","川のせせらぎはいいなあ……
-落ち着くなあ……。"
-54,"TEXT_SUBFST046_00210_BOOTB_000_16","え？　なになに？　何なの？
-ツブ・カマゾン様が探してたって？
-うわわわわわ、もうそんな時間か！　戻らないと！！"
-55,"TEXT_SUBFST046_00210_BOOTC_000_20","ぐう……ぐう……
-……………………むにゃ……"
-56,"TEXT_SUBFST046_00210_BOOTC_000_21","んん……もう、時間……？
-……ふぁあ……行かなきゃ…………"
-57,"TEXT_SUBFST046_00210_TSUBHKHAMAZOM_000_30","ご苦労だったな。
-全員が戻ってきたのを確認したよ。"
-58,"TEXT_SUBFST046_00210_TSUBHKHAMAZOM_000_31","新兵が配属されると、
-だいたいこれくらいの時期にサボる者が出る。
-最初の緊張がとけて、気が緩むんだろうな。"
-59,"TEXT_SUBFST046_00210_TSUBHKHAMAZOM_000_32","叱るだけでなく、
-彼らが前向きに鍛錬に励むよう、
-上官の私が気をつけてやらないといけないな。"
+48,"TEXT_SUBFST046_00210_TSUBHKHAMAZOM_000_1","Ah, perfect timing. I was just looking for a likely <If(PlayerParameter(4))>lass<Else/>lad</If> to track down some Twin Adder initiates."
+49,"TEXT_SUBFST046_00210_TSUBHKHAMAZOM_000_2","Three of our newest recruits have failed to report for training─exhausted from a month of solid drills, I expect."
+50,"TEXT_SUBFST046_00210_TSUBHKHAMAZOM_000_3","Considering their current physical state, I rather doubt they've wandered far. Hm? Oh gods, please don't mention wild beasts. Or blood. They're fine, I'm certain of it. Seek out my wayward troops and tell them to report back to me on the double."
+51,"TEXT_SUBFST046_00210_BOOTA_000_10","Can you not see I am attempting to become one with nature? Leave me be, good <If(PlayerParameter(4))>madam<Else/>sir</If>."
+52,"TEXT_SUBFST046_00210_BOOTA_000_11","What!? Sergeant Khamazom sent you!? Matron's teats! I better get back before she makes her boot one with my backside..."
+53,"TEXT_SUBFST046_00210_BOOTB_000_15","Such a soothing sound. One day I shall build a home by the river..."
+54,"TEXT_SUBFST046_00210_BOOTB_000_16","Hm? Who are─ You say the sergeant's looking for me!? How long have I been here? What bell is it now? Stand aside, I must make haste!"
+55,"TEXT_SUBFST046_00210_BOOTC_000_20","<snore> Just...a few more moments, Mother..."
+56,"TEXT_SUBFST046_00210_BOOTC_000_21","<snort> ...Huh? Sergeant Khamazom? Oh...eft droppings. I must be late for training."
+57,"TEXT_SUBFST046_00210_TSUBHKHAMAZOM_000_30","Thank you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. All the initiates are now present and accounted for."
+58,"TEXT_SUBFST046_00210_TSUBHKHAMAZOM_000_31","It's always the same, you know. A handful of recruits invariably lose focus a short while after being assigned to their new unit. That first rush of tension and excitement wears off, and the strain from constant drills begins to show."
+59,"TEXT_SUBFST046_00210_TSUBHKHAMAZOM_000_32","Reprimanding them isn't always the best solution, though─I've their morale to think about, after all. Still, I might give them a quick blast for good measure. What can I say? This is one battle I'm <Emphasis>not</Emphasis> afraid to fight!"

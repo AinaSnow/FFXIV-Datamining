@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB805_00914_SEQ_00","キャンプ・ドラゴンヘッドのジュリヌは、あるものを探してほしいようだ。"
-1,"TEXT_GAIUSB805_00914_SEQ_01","ジュリヌは、異端審問を受けた恋人が身に着けていた、クリスタルの祈鎖を探しているようだ。祈鎖に使われていた「<Sheet(EventItem,2000717,0)/>」を探すため、キャンプ・ドラゴンヘッドの東、「ウィッチドロップ」の谷底を捜索しよう。"
-2,"TEXT_GAIUSB805_00914_SEQ_02","<Sheet(EventItem,2000717,0)/>を手に入れた。「キャンプ・ドラゴンヘッド」へ戻って「ジュリヌ」に<Sheet(EventItem,2000717,0)/>を渡そう。"
-3,"TEXT_GAIUSB805_00914_SEQ_03","恋人の遺品をジュリヌに届けることができた。彼女はこれからも、恋人への想いを胸に秘して生きていくという……。"
+0,"TEXT_GAIUSB805_00914_SEQ_00","Only Ishgard would have an actual valley of death, conveniently located nearby. A lady nobly born seeks an adventurer to walk in its shadow."
+1,"TEXT_GAIUSB805_00914_SEQ_01","Juline desires whatever remains of the rosary her beloved wore when he perished at the hands of the inquisitors. Plumb the grim depth of Witchdrop to the east, and find the crystal beads."
+2,"TEXT_GAIUSB805_00914_SEQ_02","After a long search and an unsettling encounter, you have found three of the four beads. Keep the whereabouts of the fourth to yourself, for closed lips are a virtue in Ishgard, and deliver the beads to Juline."
+3,"TEXT_GAIUSB805_00914_SEQ_03","Seemingly at peace in the calm waters between knowing and unknowing, Juline speaks of her lost love with a quiet grace that shames the sound and fury of the inquisition. How fragile life is in Ishgard, that a single accusation can end it all..."
 4,"TEXT_GAIUSB805_00914_SEQ_04",""
 5,"TEXT_GAIUSB805_00914_SEQ_05",""
 6,"TEXT_GAIUSB805_00914_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSB805_00914_SEQ_21",""
 22,"TEXT_GAIUSB805_00914_SEQ_22",""
 23,"TEXT_GAIUSB805_00914_SEQ_23",""
-24,"TEXT_GAIUSB805_00914_TODO_00","ウィッチドロップの谷底を捜索"
-25,"TEXT_GAIUSB805_00914_TODO_01","ジュリヌに<Sheet(EventItem,2000717,0)/>を渡す"
+24,"TEXT_GAIUSB805_00914_TODO_00","Go to Witchdrop and search the gorge floor."
+25,"TEXT_GAIUSB805_00914_TODO_01","Give the crystal beads to Juline."
 26,"TEXT_GAIUSB805_00914_TODO_02",""
 27,"TEXT_GAIUSB805_00914_TODO_03",""
 28,"TEXT_GAIUSB805_00914_TODO_04",""
@@ -49,42 +49,20 @@ int32,str,str
 45,"TEXT_GAIUSB805_00914_TODO_21",""
 46,"TEXT_GAIUSB805_00914_TODO_22",""
 47,"TEXT_GAIUSB805_00914_TODO_23",""
-48,"TEXT_GAIUSB805_00914_JULINE_000_000","ウィッチドロップという谷を知っていますか？
-あそこは「異端者」の疑いをかけられた者が、
-戦神ハルオーネの審判を受ける場所なのです。"
-49,"TEXT_GAIUSB805_00914_JULINE_000_001","疑いをかけられた者が異端者であった場合……
-その者はドラゴン族から授かった力で空を飛ぶため、
-すぐに弓で射落として、殺すのだそうです。"
-50,"TEXT_GAIUSB805_00914_JULINE_000_002","逆に、疑いをかけられた者が異端者でなかった場合……
-その者は谷底へ落ちて死ぬことで無実を証明され、
-魂は戦神ハルオーネに救われるといいます。"
-51,"TEXT_GAIUSB805_00914_JULINE_000_003","かつて私が愛した人も、
-あの谷でハルオーネ様の審判を受けました。"
-52,"TEXT_GAIUSB805_00914_JULINE_000_004","審判の当日、あの人は
-私が作ったクリスタルの祈鎖を着けていた……。
-飛び散った飾り珠が、谷底に残っているかもしれません。"
-53,"TEXT_GAIUSB805_00914_JULINE_000_005","ウィッチドロップの谷底をくまなく探し、
-祈鎖に使った四連の「<Sheet(EventItem,2000717,0)/>」を探してください。
-すべて揃わなくても、1粒でも多く……お願いします！"
-54,"TEXT_GAIUSB805_00914_SYSTEM_000_010","「<Sheet(EventItem,2000717,0)/>」を1粒手に入れた！"
-55,"TEXT_GAIUSB805_00914_MATIGNIANT_000_010","おや、道に迷ったのか？
-もう一方の谷底へ行きたいなら、この洞窟を通りな。
-上へ戻りたければ、壁沿いに歩いていけばいい。"
-56,"TEXT_GAIUSB805_00914_MATIGNIANT_000_011","たった一筋の光が、人を生かすことだってある。
-長生きしたけりゃ、周囲によく目を凝らすんだな。"
-57,"TEXT_GAIUSB805_00914_MATIGNIANT_000_015","ほう、その<Sheet(EventItem,2000717,0)/>は……。
-奇遇だな、俺も1粒だが同じ物を持っているんだ。"
-58,"TEXT_GAIUSB805_00914_MATIGNIANT_000_016","だが、こいつは見逃してくれ。
-今となっては唯一の、俺が俺であった証なんだ。
-……ジュリヌならわかってくれるさ。"
-59,"TEXT_GAIUSB805_00914_JULINE_000_020","どうでしたか？
-お願いしていたものはみつかりましたか？"
-60,"TEXT_GAIUSB805_00914_JULINE_000_025","ありがとう、珠を3粒見つけてくださったのですね。
-見つからなかった最後の1粒は、
-彼……マティニアンと共にあると信じましょう。"
-61,"TEXT_GAIUSB805_00914_JULINE_000_026","あの人が「異端者」だったのか、そうでなかったのか。
-……真実は、今となってはわかりません。"
-62,"TEXT_GAIUSB805_00914_JULINE_000_027","でも、これだけはわかるのです。
-私はこれからも、あの人への想いを胸に秘めて生きていく。
-それだけは、誰にも違えることができないのですから。"
-63,"TEXT_GAIUSB805_00914_POP_MESSAGE_000","敵の気配を感じた！！"
+48,"TEXT_GAIUSB805_00914_JULINE_000_000","Know you a gorge called Witchdrop? Sharp as claws and hard as steel. It is where those suspected of heresy are judged by the inquisition."
+49,"TEXT_GAIUSB805_00914_JULINE_000_001","The guilty would fly to escape death, using the power granted them by the Dravanians─and the temple archers would put an arrow through their black hearts."
+50,"TEXT_GAIUSB805_00914_JULINE_000_002","The innocent would break upon the gorge floor, their purity proven. Their souls would ascend to Halone's halls and there await their loved ones."
+51,"TEXT_GAIUSB805_00914_JULINE_000_003","The one I loved was judged at Witchdrop..."
+52,"TEXT_GAIUSB805_00914_JULINE_000_004","He went to his death with a rosary upon him. I carved the crystals myself...I had only made four before he was taken. I think that mayhap the beads lie forgotten on the floor of that gorge."
+53,"TEXT_GAIUSB805_00914_JULINE_000_005","They say you have keen eyes, closed lips, and a kind heart. Will you find the rosary for my heart's succor? I do not expect all four beads, but please, good adventurer, as many as you can."
+54,"TEXT_GAIUSB805_00914_SYSTEM_000_010","You find a crystal bead from the rosary!"
+55,"TEXT_GAIUSB805_00914_MATIGNIANT_000_010","Lost your way? If it's the other side of the gorge you seek, go through this cavern. Walk along the cliff wall if you wish to climb out."
+56,"TEXT_GAIUSB805_00914_MATIGNIANT_000_011","Curious how life and death can hang on a small thing─like a glancing light that catches the eye. The secret to long life, stranger, is to keep your eyes open."
+57,"TEXT_GAIUSB805_00914_MATIGNIANT_000_015","What is it that you have there?
+...Crystal beads, is it? Hm. I found one down here myself not so long ago. But just the one."
+58,"TEXT_GAIUSB805_00914_MATIGNIANT_000_016","And this one will stay with me, stranger. It is my only link to another life, you see─a proof of that life. She would understand. After all, why are <Emphasis>you</Emphasis> here?"
+59,"TEXT_GAIUSB805_00914_JULINE_000_020","Adventurer! Did you find what my heart seeks?"
+60,"TEXT_GAIUSB805_00914_JULINE_000_025","There they are. How strange to see them again after all that has passed. Thank you for finding so many... I thought mayhap that there would be one missing. Matigniant has it, I believe, and so this rosary binds us together."
+61,"TEXT_GAIUSB805_00914_JULINE_000_026","Was he an unbeliever? His faith was not the conflagration that other men set to the house of their heart, yet...I do not know, and never shall."
+62,"TEXT_GAIUSB805_00914_JULINE_000_027","I sought to mislay all memory of him, but he was my great friend as well as my betrothed. A lady of Ishgard does not deny a friend, even if the ways of the world would have us deny our own fathers and husbands. And so I shall never forget Matigniant."
+63,"TEXT_GAIUSB805_00914_POP_MESSAGE_000","You hear a creak of bones!"

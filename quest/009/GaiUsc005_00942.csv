@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSC005_00942_SEQ_00","ホワイトブリム前哨地のリオトロアは、冒険者にあるものを集めてほしいようだ。"
-1,"TEXT_GAIUSC005_00942_SEQ_01","壊れたきりの釣鐘を修復したいと考えているリオトロア。ホワイトブリム前哨地にある「<Sheet(EventItem,2000734,0)/>」を集めよう。"
-2,"TEXT_GAIUSC005_00942_SEQ_02","<Sheet(EventItem,2000734,0)/>を集めることができた。ホワイトブリム前哨地にいる「トゥアク」に「<Sheet(EventItem,2000734,0)/>」を渡そう。"
-3,"TEXT_GAIUSC005_00942_SEQ_03","トゥアクは、こころよく修復作業を引き受けてくれた。ホワイトブリム前哨地の鐘楼前にいる「リオトロア」に報告しよう。"
-4,"TEXT_GAIUSC005_00942_SEQ_04","リオトロアに修復作業のことを報告した。彼は戦時下だからこそ、形ある拠り所を守るべきだと考えているらしい。"
+0,"TEXT_GAIUSC005_00942_SEQ_00","Ser Liautroix has heard of your growing repute and wishes to engage you."
+1,"TEXT_GAIUSC005_00942_SEQ_01","Ser Liautroix has it in his mind to repair the outpost's bell, the very same that serves as the sigil of House Durendaire. To this end, the dragoons must be persuaded to hand over their discarded weapons."
+2,"TEXT_GAIUSC005_00942_SEQ_02","No persuasion proves necessary, for the fighting men and women of the Front are all eager to see their bell restored to its former glory. You hope that Tuatkk the smith will feel as they do, especially when he sees the arms you have collected."
+3,"TEXT_GAIUSC005_00942_SEQ_03","It must be your nameday for everyone to fall in so eagerly with your requests. Tuatkk promises to begin work before the <If(LessThan(PlayerParameter(11),12))><If(LessThan(PlayerParameter(11),4))>evening stars clamber much farther over the horizon<Else/>morning mist is gone</If><Else/><If(LessThan(PlayerParameter(11),17))>day grows riper<Else/>evening stars clamber much farther over the horizon</If></If>. Ser Liautroix will want to know the good news as soon as possible."
+4,"TEXT_GAIUSC005_00942_SEQ_04","Ser Liautroix is moved to discover that others are with him in this endeavor. Cold are the winds that blow on the Front, and from a green recruit to a seasoned smith, all who dwell there must hold fast to one another..."
 5,"TEXT_GAIUSC005_00942_SEQ_05",""
 6,"TEXT_GAIUSC005_00942_SEQ_06",""
 7,"TEXT_GAIUSC005_00942_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_GAIUSC005_00942_SEQ_21",""
 22,"TEXT_GAIUSC005_00942_SEQ_22",""
 23,"TEXT_GAIUSC005_00942_SEQ_23",""
-24,"TEXT_GAIUSC005_00942_TODO_00","<Sheet(EventItem,2000734,0)/>を入手"
-25,"TEXT_GAIUSC005_00942_TODO_01","トゥアクに<Sheet(EventItem,2000734,0)/>を渡す"
-26,"TEXT_GAIUSC005_00942_TODO_02","リオトロアに報告"
+24,"TEXT_GAIUSC005_00942_TODO_00","Collect discarded weapons."
+25,"TEXT_GAIUSC005_00942_TODO_01","Give the weapons to Tuatkk."
+26,"TEXT_GAIUSC005_00942_TODO_02","Report to Liautroix."
 27,"TEXT_GAIUSC005_00942_TODO_03",""
 28,"TEXT_GAIUSC005_00942_TODO_04",""
 29,"TEXT_GAIUSC005_00942_TODO_05",""
@@ -49,38 +49,20 @@ int32,str,str
 45,"TEXT_GAIUSC005_00942_TODO_21",""
 46,"TEXT_GAIUSC005_00942_TODO_22",""
 47,"TEXT_GAIUSC005_00942_TODO_23",""
-48,"TEXT_GAIUSC005_00942_LIAUTROIX_000_000","この釣鐘は、ホワイトブリムのシンボルなのだが、
-しばらく前に壊れたきり、今は放置されているのだ。"
-49,"TEXT_GAIUSC005_00942_LIAUTROIX_000_001","聞くところによると、
-貴殿は、たいそう信の置ける人物だそうだな。
-どうだろうか、釣鐘修復に力を貸してくれまいか？"
-50,"TEXT_GAIUSC005_00942_LIAUTROIX_000_002","修復には、金属が必要だが……
-幸いここには、戦いで壊れた武器がいくらもある。
-それらを集め、甲冑師の「トゥアク」殿へ渡してほしい。"
-51,"TEXT_GAIUSC005_00942_BENEDICT_000_010","壊れた武器が欲しいだと？
-ほう、釣鐘の修復に使うのか。
-あるにはあるが……そらよ、これでいいのか？"
-52,"TEXT_GAIUSC005_00942_IGNEMORTEL_000_020","ついに鐘楼が修復されるのか！
-我輩も協力しないわけにはいかないのである。
-さあ、これを持っていくのである！"
-53,"TEXT_GAIUSC005_00942_DUMMY_000_000","ホワイトブリムの兵舎と倉庫の指定地点にアクセスし壊れた武器を集める×３"
-54,"TEXT_GAIUSC005_00942_DUMMY_000_001","ホワイトブリムの兵舎と倉庫の指定地点にアクセスし壊れた武器を集める×３"
-55,"TEXT_GAIUSC005_00942_DUMMY_000_002","ホワイトブリムの兵舎と倉庫の指定地点にアクセスし壊れた武器を集める×３"
+48,"TEXT_GAIUSC005_00942_LIAUTROIX_000_000","Long has this bell marked the time at our keep, but as you can see, it was ill used by dragons and has been silent since."
+49,"TEXT_GAIUSC005_00942_LIAUTROIX_000_001","Others of this keep have naught but praise for your work, adventurer. I wonder if you are the ideal confederate for this enterprise... Will you assist me in repairing the bell?"
+50,"TEXT_GAIUSC005_00942_LIAUTROIX_000_002","We need a goodly amount of metal, and arms damaged in battle are in plentiful supply. Yet, 'twould not do for one dragoon to ask another for his arms. Will you collect them and take them around to Tuatkk the smith?"
+51,"TEXT_GAIUSC005_00942_BENEDICT_000_010","You want what? Oh, to repair the bell! I cannot well recall its peal─I was still falling off chocobos when the dragons cleft it thus. Here, will this do?"
+52,"TEXT_GAIUSC005_00942_IGNEMORTEL_000_020","Ha, repairs are to finally move forward! Metal hither, metal thither! Take it, take it away and let the anvil ring!"
+53,"TEXT_GAIUSC005_00942_DUMMY_000_000",""
+54,"TEXT_GAIUSC005_00942_DUMMY_000_001",""
+55,"TEXT_GAIUSC005_00942_DUMMY_000_002",""
 56,"TEXT_GAIUSC005_00942_SYSTEM_000_000",""
 57,"TEXT_GAIUSC005_00942_SYSTEM_000_001",""
-58,"TEXT_GAIUSC005_00942_SYSTEM_000_002","（★未使用／削除予定★）"
-59,"TEXT_GAIUSC005_00942_TUATKK_000_030","どうなすった？
-なんぞ、私にご用ですかな？"
-60,"TEXT_GAIUSC005_00942_TUATKK_000_040","あの釣鐘を修復したいと？
-……たしかに、私も気になっておったのですよ。"
-61,"TEXT_GAIUSC005_00942_TUATKK_000_041","これだけの金属があれば、十分に修復できるでしょう。
-修復作業、つつしんでお受けすると、
-リオトロア殿にお伝えください。"
-62,"TEXT_GAIUSC005_00942_LIAUTROIX_000_050","トゥアク殿が引き受けてくれたか。
-おお、それは喜ばしい！"
-63,"TEXT_GAIUSC005_00942_LIAUTROIX_000_051","イシュガルドは戦時下にある。
-ゆえに、物資は全て戦いそのものに回すべきと
-皆、考えがちなのだ。"
-64,"TEXT_GAIUSC005_00942_LIAUTROIX_000_052","しかし、この聖戦を制するには、形ある拠り所……
-我らの心の象徴を守ることも、
-また肝要と私は考えるのだよ。"
+58,"TEXT_GAIUSC005_00942_SYSTEM_000_002",""
+59,"TEXT_GAIUSC005_00942_TUATKK_000_030","You seek a smith? What can I do for you? "
+60,"TEXT_GAIUSC005_00942_TUATKK_000_040","Repair the bell? Ah! A worthy endeavor, 'specially with such a shadow as this over Whitebrim Front. A dragoon must needs see and hear what <If(PlayerParameter(4))>she<Else/>he</If> fights for, or the heart'll go out of <If(PlayerParameter(4))>her<Else/>him</If>."
+61,"TEXT_GAIUSC005_00942_TUATKK_000_041","There's more than enough metal here to cast a new clapper and make the other repairs. I'll start as soon as I'm done hammering out this breastplate. Tell Ser Liautroix that we'll make this place ring, will you?"
+62,"TEXT_GAIUSC005_00942_LIAUTROIX_000_050","Tuatkk said this? The Fury bless him, to see it as I do!"
+63,"TEXT_GAIUSC005_00942_LIAUTROIX_000_051","Ishgard is at war, and we hoard our resources with an almost...Dravanian avidity. All must fuel the crusade, while removing as little from the battlefield as possible."
+64,"TEXT_GAIUSC005_00942_LIAUTROIX_000_052","We at Whitebrim Front live between the anvil of winter and the hammer of the dragons. We have been tested much, and not found wanting, I believe. This is our keep and our home─it must have a measure of beauty, else it becomes a gaol."

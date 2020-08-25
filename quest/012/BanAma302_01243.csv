@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANAMA302_01243_SEQ_00","灰の陣営のヤドヴ・ガーは、冒険者に好機が来たことを伝えたいようだ。"
-1,"TEXT_BANAMA302_01243_SEQ_01","ヤドヴ・ガーの依頼を受けた。ザハラク戦陣にいる「<Sheet(BNpcName,1840,0)/>」と、その護衛「<Sheet(BNpcName,1839,0)/>」を3体ずつ討伐しよう。"
-2,"TEXT_BANAMA302_01243_SEQ_02","<Sheet(BNpcName,1839,0)/>と<Sheet(BNpcName,1840,0)/>を討伐した。灰の陣営の「ヤドヴ・ガー」に報告しよう。"
-3,"TEXT_BANAMA302_01243_SEQ_03","灰の陣営のヤドヴ・ガーに報告した。冒険者の助力のおかげで、灰の一党の未来は明るいと語るヤドヴ・ガー。しかし、冒険者だけに頼り切らぬようにと、自分自身を鍛えることも忘れていないようだ。またの機会に協力しよう。"
+0,"TEXT_BANAMA302_01243_SEQ_00","Yadovv Gah wishes you to make an attack of opportunity."
+1,"TEXT_BANAMA302_01243_SEQ_01","Members of Ifrit's high clergy, the thaumaturges and their pugilist bodyguards, have been spotted moving among the rank and file. Cut your way into Zahar'ak, and slay these priests of flame before their ritual magic can be brought to bear against the Brotherhood of Ash."
+2,"TEXT_BANAMA302_01243_SEQ_02","You have slain the Zahar'ak thaumaturges and pugilists. Return to the Ring of Ash and report to Yadovv Gah."
+3,"TEXT_BANAMA302_01243_SEQ_03","Yadovv Gah revels in the confusion left in the wake of your assault on the high clergy. The Brotherhood warrior notes the effect your glorious deeds have on the morale of his fellow soldiers, and praises his warleader's decision to recruit you to their cause."
 4,"TEXT_BANAMA302_01243_SEQ_04",""
 5,"TEXT_BANAMA302_01243_SEQ_05",""
 6,"TEXT_BANAMA302_01243_SEQ_06",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_BANAMA302_01243_SEQ_21",""
 22,"TEXT_BANAMA302_01243_SEQ_22",""
 23,"TEXT_BANAMA302_01243_SEQ_23",""
-24,"TEXT_BANAMA302_01243_TODO_00","<Sheet(BNpcName,1840,0)/>を討伐"
-25,"TEXT_BANAMA302_01243_TODO_01","<Sheet(BNpcName,1839,0)/>を討伐"
-26,"TEXT_BANAMA302_01243_TODO_02","ヤドヴ・ガーに報告"
+24,"TEXT_BANAMA302_01243_TODO_00","Slay Zahar'ak thaumaturges."
+25,"TEXT_BANAMA302_01243_TODO_01","Slay Zahar'ak pugilists."
+26,"TEXT_BANAMA302_01243_TODO_02","Report to Yadovv Gah."
 27,"TEXT_BANAMA302_01243_TODO_03",""
 28,"TEXT_BANAMA302_01243_TODO_04",""
 29,"TEXT_BANAMA302_01243_TODO_05",""
@@ -49,26 +49,11 @@ int32,str,str
 45,"TEXT_BANAMA302_01243_TODO_21",""
 46,"TEXT_BANAMA302_01243_TODO_22",""
 47,"TEXT_BANAMA302_01243_TODO_23",""
-48,"TEXT_BANAMA302_01243_YADOVVGAH_000_000","ザハラク戦陣の者どもと戦い続けて幾星霜。
-近頃は、ザハラク戦陣に属する祈祷師どもまで、
-この近くに姿を見せるようになり申した。"
-49,"TEXT_BANAMA302_01243_YADOVVGAH_000_001","祈祷師どもは、陣内にて祭事を執り行うのが務め。
-それが前線に出たとなれば、いよいよ本気ということ。
-しかし、一気に奴らを仕留める好機とも言えまする。"
-50,"TEXT_BANAMA302_01243_YADOVVGAH_000_002","敵陣に切り込み、祈祷師「<Sheet(BNpcName,1840,0)/>」を、
-護衛の「<Sheet(BNpcName,1839,0)/>」もろとも
-屠り去ってしまいましょうぞ！"
-51,"TEXT_BANAMA302_01243_YADOVVGAH_000_003","包蔵禍心、奴らが何を企んでいるにせよ、
-各々3名ずつも討てば、策謀を潰すことができましょう。
-貴殿の御武運をお祈り申す！"
-52,"TEXT_BANAMA302_01243_YADOVVGAH_000_010","冒険者殿、ザハラク戦陣の祈祷師ども……
-すなわち「<Sheet(BNpcName,1840,0)/>」と、
-護衛の「<Sheet(BNpcName,1839,0)/>」を討たれよ！"
-53,"TEXT_BANAMA302_01243_YADOVVGAH_000_020","戻られたか……さすがは冒険者殿。
-大信不約、その強さには無条件の信頼が置け申す。"
-54,"TEXT_BANAMA302_01243_YADOVVGAH_000_021","冒険者殿の助力があるのは、
-我ら「灰の一党」にとって真に心強きこと。
-それがしには、前途は明るいと見えまする。"
-55,"TEXT_BANAMA302_01243_YADOVVGAH_000_022","此の上は助力くださる貴殿の心意気に恥じぬよう、
-それがし自身もより一層の武を重ね、
-志を貫き通す所存であり申す。"
+48,"TEXT_BANAMA302_01243_YADOVVGAH_000_000","For many moons has the Brotherhood skirmished with the rank and file of Zahar'ak. In recent days, however, the ritual priests themselves have begun to appear about the enemy camp."
+49,"TEXT_BANAMA302_01243_YADOVVGAH_000_001","If the superior members of Ifrit's clergy have deigned to join the grunts on the front line, then matters are soon to escalate. Yet though their presence signifies trouble for the region, it also provides us with a worthy target."
+50,"TEXT_BANAMA302_01243_YADOVVGAH_000_002","Leave the hatchlings for lesser soldiers, honored ally─your quarry awaits deeper within Zahar'ak."
+51,"TEXT_BANAMA302_01243_YADOVVGAH_000_003","Seek out the high-ranking thaumaturges and their pugilist lackeys, and cut down a fistful of each. Such slaughter should prove fatal to any scheme they had hoped to enact. May fortune find you in battle!"
+52,"TEXT_BANAMA302_01243_YADOVVGAH_000_010","Blow past the rank and file, and howl directly into the heart of Zahar'ak like an avenging wind! Sever a few fingers from the grasping hand that is Ifrit's high clergy!"
+53,"TEXT_BANAMA302_01243_YADOVVGAH_000_020","You return at the crest of a wave of confusion, honored ally. Our foe is left bloodied and gasping, wondering at the demon who left behind such unexpected carnage."
+54,"TEXT_BANAMA302_01243_YADOVVGAH_000_021","Our plans to debilitate the enemy continue apace─in no small part thanks to your glorious victories."
+55,"TEXT_BANAMA302_01243_YADOVVGAH_000_022","Reports of your exploits stir the souls of our soldiers, mighty warrior. The warleader was shrewd to recruit your steelclad spirit to our cause."

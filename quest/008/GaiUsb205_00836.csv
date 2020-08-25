@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSB205_00836_SEQ_00","コスタ・デル・ソルの執事ペ・エバローは、冒険者に頼みたいことがあるようだ。"
-1,"TEXT_GAIUSB205_00836_SEQ_01","ペ・エバローの主人ゲゲルジュが、ここ最近の地震の原因は<Sheet(BNpcName,1313,0)/>だと言い張っているらしい。「<Sheet(BNpcName,1313,0)/>」を6体討伐しよう。"
-2,"TEXT_GAIUSB205_00836_SEQ_02","<Sheet(BNpcName,1313,0)/>を討伐した。コスタ・デル・ソルの「ペ・エバロー」に報告しよう。"
-3,"TEXT_GAIUSB205_00836_SEQ_03","ペ・エバローは、冒険者の働きに感謝していた。実際のところ、地震の原因は<Sheet(BNpcName,1313,0)/>ではなく、蛮神「タイタン」だという噂らしい……。"
+0,"TEXT_GAIUSB205_00836_SEQ_00","P'ebaloh is a maidservant of dignity on a rather inglorious errand."
+1,"TEXT_GAIUSB205_00836_SEQ_01","P'ebaloh is vexed by Master Gegeruju's belief that nearby buffaloes are to blame for the recent quakes. Though she has tried to persuade him otherwise, he is convinced the large beasts need to be taken care of. To satisfy him, P'ebaloh would have you cull six of them."
+2,"TEXT_GAIUSB205_00836_SEQ_02","You have slain six large buffaloes on a flimsy pretext. Report the slaughter to P'ebaloh."
+3,"TEXT_GAIUSB205_00836_SEQ_03","P'ebaloh thanks you for appeasing her master's whims. However, she believes that, deep in his heart, Gegeruju realizes that the true cause of the tremors is the primal Titan."
 4,"TEXT_GAIUSB205_00836_SEQ_04",""
 5,"TEXT_GAIUSB205_00836_SEQ_05",""
 6,"TEXT_GAIUSB205_00836_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSB205_00836_SEQ_21",""
 22,"TEXT_GAIUSB205_00836_SEQ_22",""
 23,"TEXT_GAIUSB205_00836_SEQ_23",""
-24,"TEXT_GAIUSB205_00836_TODO_00","<Sheet(BNpcName,1313,0)/>を討伐"
-25,"TEXT_GAIUSB205_00836_TODO_01","ペ・エバローに報告"
+24,"TEXT_GAIUSB205_00836_TODO_00","Slay large buffaloes."
+25,"TEXT_GAIUSB205_00836_TODO_01","Report to P'ebaloh."
 26,"TEXT_GAIUSB205_00836_TODO_02",""
 27,"TEXT_GAIUSB205_00836_TODO_03",""
 28,"TEXT_GAIUSB205_00836_TODO_04",""
@@ -49,22 +49,10 @@ int32,str,str
 45,"TEXT_GAIUSB205_00836_TODO_21",""
 46,"TEXT_GAIUSB205_00836_TODO_22",""
 47,"TEXT_GAIUSB205_00836_TODO_23",""
-48,"TEXT_GAIUSB205_00836_PEBALOH_000_000","わたくしの主……ゲゲルジュ様は、
-流行の先取りとお金儲けにかけては天下一品。
-しかし、それ以外には少々……ご不自由であらせられます。"
-49,"TEXT_GAIUSB205_00836_PEBALOH_000_001","つい最近も、ここのところの地震の原因は、
-「<Sheet(BNpcName,1313,0)/>」だと仰って譲らず、
-わたくしが、いくら意見しても聞いてくださいませんでした。"
-50,"TEXT_GAIUSB205_00836_PEBALOH_000_002","冒険者様、申し訳ございませんが、
-<Sheet(BNpcName,1313,0)/>の討伐をお願いできませんか。
-ゲゲルジュ様も、それで満足されると思うのです。"
-51,"TEXT_GAIUSB205_00836_DUMMY_000_010","（バッファロー討伐＊６。　倒す）"
-52,"TEXT_GAIUSB205_00836_PEBALOH_000_020","<Sheet(BNpcName,1313,0)/>を討伐してくださったのですね。
-ああ、なんとお礼を申し上げればよいものか。
-これでゲゲルジュ様も満足することでしょう。"
-53,"TEXT_GAIUSB205_00836_PEBALOH_000_021","……コスタ・デル・ソルでは、
-地震の原因は蛮神「タイタン」なのではないかと、
-もっぱらの噂になっております。"
-54,"TEXT_GAIUSB205_00836_PEBALOH_000_022","……また、誰かが蛮神と戦い、傷つくのでしょうか。
-誰の上にも、幸いだけが降るのなら、
-世に戦いなんてないでしょうに……。"
+48,"TEXT_GAIUSB205_00836_PEBALOH_000_000","Master Gegeruju is of course second to none in matters of business and connoisseurship. However, he can be somewhat naive as regards other matters."
+49,"TEXT_GAIUSB205_00836_PEBALOH_000_001","For example, he has become convinced that the recent spate of earthquakes is the fault of the large buffaloes that roam near. I would grant <Emphasis>some</Emphasis> amount of exasperation over our local children being mauled in the wake of the tremors, but really now."
+50,"TEXT_GAIUSB205_00836_PEBALOH_000_002","It's one thing to see the buffaloes in a tizzy, but another to think they could have anything to do with the quakes. I have tried to reason with him, but it's been to no avail. Might you simply indulge my master and slay a half-dozen of the creatures?"
+51,"TEXT_GAIUSB205_00836_DUMMY_000_010",""
+52,"TEXT_GAIUSB205_00836_PEBALOH_000_020","I am indebted to you, kind adventurer. I am quite certain those beasts were innocent of any earth-shattering crimes, but it is well they have been dispatched regardless."
+53,"TEXT_GAIUSB205_00836_PEBALOH_000_021","In truth, I believe Master Gegeruju knows in his heart that the buffaloes are not the cause, and that it is in fact the primal Titan. However, he also realizes that his wealth would not avail against such a threat."
+54,"TEXT_GAIUSB205_00836_PEBALOH_000_022","While it does him credit that he strives to do right by the people of Costa del Sol, he must allow that certain problems are not within his means to solve."

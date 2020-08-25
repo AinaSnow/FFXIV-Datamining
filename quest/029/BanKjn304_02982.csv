@@ -1,10 +1,8 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_BANKJN304_02982_SEQ_00","<UIForeground>F201FC</UIForeground><UIGlow>F201FD</UIGlow>特殊ルール： レベルアジャスト受注クラス・ジョブ制限<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-※本クエストは受注時のクラス・ジョブでのみ進行します。
-
-碧のタマミズのズキンは、シマエイの世話を任せたいようだ。"
+0,"TEXT_BANKJN304_02982_SEQ_00","A happy ray is a productive ray, as Zukin well knows.
+※The difficulty of this quest will be synced to your current level."
 1,"TEXT_BANKJN304_02982_SEQ_01",""
 2,"TEXT_BANKJN304_02982_SEQ_02",""
 3,"TEXT_BANKJN304_02982_SEQ_03",""
@@ -28,9 +26,9 @@ int32,str,str
 21,"TEXT_BANKJN304_02982_SEQ_21",""
 22,"TEXT_BANKJN304_02982_SEQ_22",""
 23,"TEXT_BANKJN304_02982_SEQ_23",""
-24,"TEXT_BANKJN304_02982_TODO_00","マクラと話す"
-25,"TEXT_BANKJN304_02982_TODO_01","シマエイに騎乗して海中の<Sheet(EObj,2009233,0)/>で吸引を使う"
-26,"TEXT_BANKJN304_02982_TODO_02","ズキンに報告"
+24,"TEXT_BANKJN304_02982_TODO_00","Speak with Makura."
+25,"TEXT_BANKJN304_02982_TODO_01","Feed the striped ray at krill swarms by using its Inhale ability."
+26,"TEXT_BANKJN304_02982_TODO_02","Report to Zukin."
 27,"TEXT_BANKJN304_02982_TODO_03",""
 28,"TEXT_BANKJN304_02982_TODO_04",""
 29,"TEXT_BANKJN304_02982_TODO_05",""
@@ -52,33 +50,15 @@ int32,str,str
 45,"TEXT_BANKJN304_02982_TODO_21",""
 46,"TEXT_BANKJN304_02982_TODO_22",""
 47,"TEXT_BANKJN304_02982_TODO_23",""
-48,"TEXT_BANKJN304_02982_ZUKIN_000_000","<If(PlayerParameter(4))>姉<Else/>兄</If>さん、海中遊泳としゃれこんでみねぇかぁ～？
-いつも頑張ってるシマエイに、ご褒美をやってほしいんだぁ～。
-詳しくは、シマエイを世話してる「マクラ」に聞いてくれぇ～。"
-49,"TEXT_BANKJN304_02982_MAKURA_000_010","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>様、待ってたわぁ～！
-うちらの移動や輸送で、毎日、頑張ってるシマエイに、
-御馳走をたくさん食べさせてほしいのぉ～！"
-50,"TEXT_BANKJN304_02982_MAKURA_000_011","地図に、シマエイの好物「オキアミ」のたまり場を印したよぉ～。
-シマエイに乗って、そこまで連れていったら、
-「吸引」をさせて、お腹いっぱい食べさせてあげてぇ～。"
-51,"TEXT_BANKJN304_02982_MAKURA_000_012","貴方が降りたら、うちのもとに戻ってくるように躾けてあるのぉ～！
-だから、「吸引」を使い終わったら、
-シマエイから降りて、「ズキン」に報告してくれるだけでいいよぉ～！"
-52,"TEXT_BANKJN304_02982_SYSTEM_000_020","シマエイは、海水ごとオキアミを吸い込んだ！"
-53,"TEXT_BANKJN304_02982_SYSTEM_000_021","シマエイは、海水ごとオキアミを吸い込んだ！
-大好物を食べられて、喜んでいるようだ。"
-54,"TEXT_BANKJN304_02982_SYSTEM_000_022","シマエイは、海水ごとオキアミを吸い込んだ！
-お腹が膨れて、ご機嫌になったようだ。"
-55,"TEXT_BANKJN304_02982_MAKURA_000_025","あらぁ～、シマエイから降りちゃったのねぇ～？
-あの子なら戻ってきてるから、もう一度乗せてあげるわぁ～。"
-56,"TEXT_BANKJN304_02982_SYSTEM_000_026","オキアミのたまり場のようだ。
-碧のタマミズの「マクラ」に話しかけ、
-シマエイに騎乗して、「吸引」を行わせよう。"
-57,"TEXT_BANKJN304_02982_ZUKIN_000_030","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/><If(PlayerParameter(4))>姉<Else/>兄</If>、
-シマエイをたっぷりもてなしてくれたみてぇだなぁ～？
-やっぱりたまには御馳走を食べねぇとなぁ～！"
-58,"TEXT_BANKJN304_02982_ZUKIN_000_031","マクラから聞いたが、シマエイも<If(PlayerParameter(4))>姉<Else/>兄</If>さんを乗せて、
-海中を泳ぐのが大好きみてぇだぜぇ～。
-次の御馳走のときも、よろしくだってよぉ～！"
-59,"TEXT_BANKJN304_02982_MAKURA_000_035","あのシマエイったら、お腹いっぱいで満足したみたい～。
-<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>様、お手伝いありがとぉ～！"
+48,"TEXT_BANKJN304_02982_ZUKIN_000_000","Fancy going for a little swim, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>? If you have a moment to spare, Makura could use your help with the rays. They look after us, and so we must look after them."
+49,"TEXT_BANKJN304_02982_MAKURA_000_010","Ah, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, I've been waiting for you. I need you to take one of our rays out for a good feed─a reward for all of its toils."
+50,"TEXT_BANKJN304_02982_MAKURA_000_011","Now, the fellow loves few things more than krill, and you'll find swarms of them close by. Please have him feed till he's had his fill."
+51,"TEXT_BANKJN304_02982_MAKURA_000_012","Should you become separated from the ray, worry not─he is trained to return here. Happy feeding, then, and let Zukin know when you're done!"
+52,"TEXT_BANKJN304_02982_SYSTEM_000_020","The ray sucks in a copious amount of seawater and krill."
+53,"TEXT_BANKJN304_02982_SYSTEM_000_021","The ray sucks in a copious amount of seawater and krill."
+54,"TEXT_BANKJN304_02982_SYSTEM_000_022","The ray sucks in a copious amount of seawater and krill."
+55,"TEXT_BANKJN304_02982_MAKURA_000_025","There you are! The ray returned without you, and he's been champing at the bit to get back to his krill."
+56,"TEXT_BANKJN304_02982_SYSTEM_000_026","There is a large swarm of krill. You make a mental note of the spot for feeding the ray."
+57,"TEXT_BANKJN304_02982_ZUKIN_000_030","Welcome back, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I understand you treated the ray to a veritable banquet. This will doubtless do wonders for its spirit."
+58,"TEXT_BANKJN304_02982_ZUKIN_000_031","Makura tells me the creature is very fond of you, and who could blame it? When next it needs a good feed, I trust we can rely on you again."
+59,"TEXT_BANKJN304_02982_MAKURA_000_035","Our little ray returned with a belly full of krill and a grin from gill to gill! Thank you so much, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>!"

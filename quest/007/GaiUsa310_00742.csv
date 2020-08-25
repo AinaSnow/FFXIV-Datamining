@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSA310_00742_SEQ_00","酒房「バスカロンドラザーズ」のオフィリオ―は、冒険者に依頼したいことがあるようだ。"
-1,"TEXT_GAIUSA310_00742_SEQ_01","「トトラクの千獄」の周辺に帝国兵がまだ潜伏している。<Sheet(EObj,2001955,0)/>を見まわり、帝国兵「<Sheet(BNpcName,61,0)/>」「<Sheet(BNpcName,60,0)/>」を討伐しよう。"
-2,"TEXT_GAIUSA310_00742_SEQ_02","酒房「バスカロンドラザーズ」の「オフィリオー」に報告しよう。"
-3,"TEXT_GAIUSA310_00742_SEQ_03","冒険者のおかげで、帝国兵が一掃された。これで森に平穏が戻ってくるだろう。"
+0,"TEXT_GAIUSA310_00742_SEQ_00","Auphiliot would be most grateful if you could hunt down some Garlean interlopers in his stead."
+1,"TEXT_GAIUSA310_00742_SEQ_01","A number of the Garleans responsible for the disappearance of the sylph elder remain in the area. Investigate the specified locations, and vanquish any Garleans you come upon."
+2,"TEXT_GAIUSA310_00742_SEQ_02","The Garlean intruders are no more. Report your success to Auphiliot."
+3,"TEXT_GAIUSA310_00742_SEQ_03","Thanks to your efforts, the Garleans have been driven off, and a small measure of peace has returned to the Twelveswood. At least for the moment."
 4,"TEXT_GAIUSA310_00742_SEQ_04",""
 5,"TEXT_GAIUSA310_00742_SEQ_05",""
 6,"TEXT_GAIUSA310_00742_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSA310_00742_SEQ_21",""
 22,"TEXT_GAIUSA310_00742_SEQ_22",""
 23,"TEXT_GAIUSA310_00742_SEQ_23",""
-24,"TEXT_GAIUSA310_00742_TODO_00","<Sheet(EObj,2001955,0)/>を見まわり帝国兵を討伐"
-25,"TEXT_GAIUSA310_00742_TODO_01","オフィリオーに報告"
+24,"TEXT_GAIUSA310_00742_TODO_00","Investigate the specified locations and defeat Garleans."
+25,"TEXT_GAIUSA310_00742_TODO_01","Report to Auphiliot."
 26,"TEXT_GAIUSA310_00742_TODO_02",""
 27,"TEXT_GAIUSA310_00742_TODO_03",""
 28,"TEXT_GAIUSA310_00742_TODO_04",""
@@ -49,17 +49,10 @@ int32,str,str
 45,"TEXT_GAIUSA310_00742_TODO_21",""
 46,"TEXT_GAIUSA310_00742_TODO_22",""
 47,"TEXT_GAIUSA310_00742_TODO_23",""
-48,"TEXT_GAIUSA310_00742_AUPHILIOT_000_000","頼ってばかりで悪いが、また手を貸してくれ。
-シルフ族の長を追っていた帝国兵が、
-まだ、この辺りをうろついているようだ。"
-49,"TEXT_GAIUSA310_00742_AUPHILIOT_000_001","連中を野放しにするわけにはいかん、
-探しだして倒してきてくれ。"
-50,"TEXT_GAIUSA310_00742_SYSTEM_000_000","二箇所で捜索。帝国兵がそれぞれ一隊ずつpopするので討伐"
-51,"TEXT_GAIUSA310_00742_SYSTEM_000_002","二箇所で捜索。帝国兵がそれぞれ一隊ずつpopするので討伐"
-52,"TEXT_GAIUSA310_00742_AUPHILIOT_000_010","やはり、森に帝国兵が潜んでいたか。
-お前が奴らを倒してくれたおかげで、
-酒場の空気も元通りになりそうだ。"
-53,"TEXT_GAIUSA310_00742_AUPHILIOT_000_011","この付近で悪事など、働かせるものか……！
-「バスカロンドラザーズ」付近の静けさは、
-俺たちの手で守っていくんだ！"
-54,"TEXT_GAIUSA310_00742_POP_MESSAGE_000","敵の気配を感じた！！"
+48,"TEXT_GAIUSA310_00742_AUPHILIOT_000_000","Yer back, <If(PlayerParameter(4))>lass<Else/>lad</If>, an' somethin' tells me ye've not come for a flagon o' Buscarron's ale. All the better, that. I just overheard some Garlean stragglers was seen in the Twelveswood, an' ye know they're not like to be up to any good."
+49,"TEXT_GAIUSA310_00742_AUPHILIOT_000_001","Me? Why, I'd like nothin' more than to gut those imperial whoresons meself, but I fear I've─<Emphasis>hic</Emphasis>!─other...duties...to attend this day. We're countin' on ye, <If(PlayerParameter(4))>lass<Else/>lad</If>!"
+50,"TEXT_GAIUSA310_00742_SYSTEM_000_000",""
+51,"TEXT_GAIUSA310_00742_SYSTEM_000_002",""
+52,"TEXT_GAIUSA310_00742_AUPHILIOT_000_010","Saw to those Garlean dogs as swift an' sure as I saw to me pint o'─er, me <Emphasis>duties</Emphasis>, did ye? On behalf of old man Buscarron an' me compatriots here at the Druthers, ye have─<Emphasis>hurk</Emphasis>!─me gratitude, an' then some."
+53,"TEXT_GAIUSA310_00742_AUPHILIOT_000_011","What with ye an' meself seein' to matters, <If(PlayerParameter(4))>lass<Else/>lad</If>, I tell ye: no flagon o' mead or Garlean troublemaker on or around these premises is─<Emphasis>hic</Emphasis>─safe!"
+54,"TEXT_GAIUSA310_00742_POP_MESSAGE_000","You sense a hostile presence!"

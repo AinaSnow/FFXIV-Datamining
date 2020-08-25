@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSC011_00948_SEQ_00","スノークローク大氷壁のランスフェルは、あることを手伝ってほしいようだ。"
-1,"TEXT_GAIUSC011_00948_SEQ_01","スノークローク大氷壁西部には、ファルコンネストの住人の遺体が埋まっているらしい。ランスフェルに渡された「<Sheet(EventItem,2000737,0)/>」を使って、スノークローク大氷壁西部にある<Sheet(EObj,2002185,0)/>の遺体を掘り起こそう。"
-2,"TEXT_GAIUSC011_00948_SEQ_02","「凍死した遺体」を見つけた。ランスフェルの妻なら、<Sheet(EventItem,2000844,0)/>をしているはずだ。遺体を調べてみよう。"
-3,"TEXT_GAIUSC011_00948_SEQ_03","<Sheet(EventItem,2000844,0)/>を見つけた。スノークローク大氷壁の「ランスフェル」に渡そう。"
-4,"TEXT_GAIUSC011_00948_SEQ_04","第七霊災直後、ファルコンネストの住人は都へ避難しようとして、雪崩に巻きこまれてしまったらしい。ランスフェルはその際に妻を亡くしたのだという……。彼が無事に立ち直れることを祈ろう。"
+0,"TEXT_GAIUSC011_00948_SEQ_00","When lovers call, an adventurer must answer─for along with art, truth, and justice, love is one of life's great adventures. Will you hear Lancefer's plea?"
+1,"TEXT_GAIUSC011_00948_SEQ_01","Behind the western face of Snowcloak are entombed villagers of Falcon's Nest, and Lancefer begs you to free one body in particular from its icy embrace. Use the iron pick on the weak spot on the western face."
+2,"TEXT_GAIUSC011_00948_SEQ_02","Your efforts are rewarded by a frozen corpse. If this is Lancefer's wife, she should have a ring of troth upon her hand. Check the body for the ring."
+3,"TEXT_GAIUSC011_00948_SEQ_03","You find a ring. This, then, is the mortal remain of the woman Lancefer calls his heart, for whom he returned to this perilous place. Tarry not in this icy crypt, and take the ring back to Lancefer."
+4,"TEXT_GAIUSC011_00948_SEQ_04","They say Ishgardian wives are adept at waiting─for their men to return from the Front, for the scorched earth to sprout again, for happiness to find them─but Lancefer's wife need wait no more. In this act of love, surely he will find some peace."
 5,"TEXT_GAIUSC011_00948_SEQ_05",""
 6,"TEXT_GAIUSC011_00948_SEQ_06",""
 7,"TEXT_GAIUSC011_00948_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_GAIUSC011_00948_SEQ_21",""
 22,"TEXT_GAIUSC011_00948_SEQ_22",""
 23,"TEXT_GAIUSC011_00948_SEQ_23",""
-24,"TEXT_GAIUSC011_00948_TODO_00","<Sheet(EObj,2002185,0)/>に<Sheet(EventItem,2000737,0)/>を使う"
-25,"TEXT_GAIUSC011_00948_TODO_01","凍死した遺体を調べ<Sheet(EventItem,2000844,0)/>を入手"
-26,"TEXT_GAIUSC011_00948_TODO_02","ランスフェルに<Sheet(EventItem,2000844,0)/>を渡す"
+24,"TEXT_GAIUSC011_00948_TODO_00","Use the iron pick on the target area."
+25,"TEXT_GAIUSC011_00948_TODO_01","Check the frozen corpse and collect the ring."
+26,"TEXT_GAIUSC011_00948_TODO_02","Give the ring to Lancefer."
 27,"TEXT_GAIUSC011_00948_TODO_03",""
 28,"TEXT_GAIUSC011_00948_TODO_04",""
 29,"TEXT_GAIUSC011_00948_TODO_05",""
@@ -49,29 +49,17 @@ int32,str,str
 45,"TEXT_GAIUSC011_00948_TODO_21",""
 46,"TEXT_GAIUSC011_00948_TODO_22",""
 47,"TEXT_GAIUSC011_00948_TODO_23",""
-48,"TEXT_GAIUSC011_00948_LANCEFER_000_000","あんた、俺たちの護衛の人だろ？
-ある遺体を探したいんだが、手を貸してくれないか。
-俺は心の傷のせいで、あそこに近づくことすらできなくてな。"
-49,"TEXT_GAIUSC011_00948_LANCEFER_000_001","実は、スノークローク大氷壁西部には遺体が埋まってるんだ。
-……俺の故郷、ファルコンネストの住人たちさ。
-探してほしい遺体は、俺の妻のものだ。"
-50,"TEXT_GAIUSC011_00948_LANCEFER_000_002","妻は俺が贈った指輪を着けているはず。
-この砕氷ピックを使って、妻の遺体を見つけだし、
-その指輪を持ち帰ってくれ。"
-51,"TEXT_GAIUSC011_00948_DUMM_000_010","氷壁の「捜査地点」でスコップ使用→「氷漬けの凍死体」が出現"
-52,"TEXT_GAIUSC011_00948_DUMMY_000_012","「氷漬けの凍死体」にアクセスして「<Sheet(EventItem,2000844,0)/>」をゲット"
+48,"TEXT_GAIUSC011_00948_LANCEFER_000_000","You are our new protector, is that not so? I must have your help in laying something to rest."
+49,"TEXT_GAIUSC011_00948_LANCEFER_000_001","There are bodies entombed in the ice, over there to the west. When the freeze came, the folk of Falcon's Nest fled, but not all of them in time. One of them was my wife."
+50,"TEXT_GAIUSC011_00948_LANCEFER_000_002","To search for the corse of my beloved among those of folk I knew all my life─'tis more than I can bear. I beg you to go in my stead. Here is a pick. Find her for me, and bring back her ring of troth."
+51,"TEXT_GAIUSC011_00948_DUMM_000_010",""
+52,"TEXT_GAIUSC011_00948_DUMMY_000_012",""
 53,"TEXT_GAIUSC011_00948_DUMMYTODO_000_010",""
 54,"TEXT_GAIUSC011_00948_DUMMYTODO_000_011",""
-55,"TEXT_GAIUSC011_00948_DUMMYTODO_000_012","（★未使用／削除予定★）"
-56,"TEXT_GAIUSC011_00948_SYSTEM_000_015","（★未使用／削除予定★）"
-57,"TEXT_GAIUSC011_00948_LANCEFER_000_020","……どうだった、妻の遺体は見つかったか？"
-58,"TEXT_GAIUSC011_00948_LANCEFER_000_030","……あぁ、たしかに妻に贈った指輪だ。
-あんたの仕事は護衛だってのに、手間をかけたな。"
-59,"TEXT_GAIUSC011_00948_LANCEFER_000_031","霊災直後、大氷壁のあたりには、まだ細い道が通っていた。
-……ファルコンネストに住んでいた俺たちは、
-そこを通って、都に避難しようとしたんだ。"
-60,"TEXT_GAIUSC011_00948_LANCEFER_000_032","だが、その最中に雪崩が起きて……
-みんなが逃げ惑う中、俺は妻の手を離してしまった。"
-61,"TEXT_GAIUSC011_00948_LANCEFER_000_033","ありがとう……あんたのおかげで、
-この5年間止まっていた俺の時間も動きそうだ。
-妻を弔って、彼女のためにも前向きに生きていくよ。"
+55,"TEXT_GAIUSC011_00948_DUMMYTODO_000_012",""
+56,"TEXT_GAIUSC011_00948_SYSTEM_000_015",""
+57,"TEXT_GAIUSC011_00948_LANCEFER_000_020","You are back so soon... Could you not find her? "
+58,"TEXT_GAIUSC011_00948_LANCEFER_000_030","Ah...that is the ring, the same I slipped on her hand when we were wed. Thank you, adventurer. You are a worker of wonders. In my heart, I had not expected to see this again."
+59,"TEXT_GAIUSC011_00948_LANCEFER_000_031","The freeze came quickly on the heels of the Calamity, but there was as yet a narrow defile. The entire hamlet gathered at its mouth, and we began to pass through it, to safety..."
+60,"TEXT_GAIUSC011_00948_LANCEFER_000_032","Not even half of us were through before a snowslide struck. In the confusion, her hand slipped from mine. The surge of snow and the crowd carried me to this side, and she was left behind. <Emphasis>I</Emphasis> left her behind."
+61,"TEXT_GAIUSC011_00948_LANCEFER_000_033","When a widowed man or woman takes back the ring of troth, the dead are free to wed again in the afterlife. She was young still and merry of heart. I would that she finds a mate again, though my heart cries out for her to wait for me..."

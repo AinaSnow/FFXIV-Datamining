@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNZ612_01880_SEQ_00","飛竜泊のマエヌは、冒険者に未知の怪物の正体を調べてほしいようだ。"
-1,"TEXT_HEAVNZ612_01880_SEQ_01","マエヌは、飛竜泊の下層で、見たこともない怪物に襲われたという。ドラヴァニア雲海の飛竜泊の下層で未知の怪物を討伐し、その一部を入手しよう。"
-2,"TEXT_HEAVNZ612_01880_SEQ_02","<Sheet(BNpcName,4295,0)/>を討伐し、<Sheet(EventItem,2001684,0)/>を入手した。飛竜泊の「マエヌ」に「<Sheet(EventItem,2001684,0)/>」を渡そう。"
-3,"TEXT_HEAVNZ612_01880_SEQ_03","マエヌに<Sheet(EventItem,2001684,0)/>を渡した。怪物の正体は、はるか昔の異端者の変わり果てた姿だった。異端者にとって、異形のものとして最期を遂げることは、はたして本懐だったのだろうか……？"
+0,"TEXT_HEAVNZ612_01880_SEQ_00","Maenne's wounds seem to have healed somewhat."
+1,"TEXT_HEAVNZ612_01880_SEQ_01","Maenne informs you that she was attacked suddenly while investigating the lower layer of the Rookery by a type of dragon she has never seen before. She worries that leaving the beast be will only result in more injured dragoons, and bids you slay it before any more come to harm. She also asks that you bring something from that battle that might help identify the true nature of such a dragon. Make your way to the lower layer of the Rookery and slay the dragon if you find it."
+2,"TEXT_HEAVNZ612_01880_SEQ_02","You encounter the enormous dragon and slay it after a violent struggle, recovering a piece of ancient and rusty armor from its corpse. Give the armor to Maenne to see if she can glean any knowledge from it."
+3,"TEXT_HEAVNZ612_01880_SEQ_03","After examining the piece of armor you present to her, Maenne declares that it was forged in Ishgard, and most likely dates back to hundreds of years ago. It seems the dragon you slew was once a heretic, his monstrous form resulting from overindulging in dragon blood. Maenne cannot understand the heretic's motivations, and wonders why anyone would choose to be transformed in such a way."
 4,"TEXT_HEAVNZ612_01880_SEQ_04",""
 5,"TEXT_HEAVNZ612_01880_SEQ_05",""
 6,"TEXT_HEAVNZ612_01880_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_HEAVNZ612_01880_SEQ_21",""
 22,"TEXT_HEAVNZ612_01880_SEQ_22",""
 23,"TEXT_HEAVNZ612_01880_SEQ_23",""
-24,"TEXT_HEAVNZ612_01880_TODO_00","飛竜泊の下層で未知の怪物を倒し、その一部を入手"
-25,"TEXT_HEAVNZ612_01880_TODO_01","マエヌに<Sheet(EventItem,2001684,0)/>を渡す"
+24,"TEXT_HEAVNZ612_01880_TODO_00","Search for and slay the Rookery master, and retrieve a part of it."
+25,"TEXT_HEAVNZ612_01880_TODO_01","Bring the rusted besagew to Maenne."
 26,"TEXT_HEAVNZ612_01880_TODO_02",""
 27,"TEXT_HEAVNZ612_01880_TODO_03",""
 28,"TEXT_HEAVNZ612_01880_TODO_04",""
@@ -49,27 +49,13 @@ int32,str,str
 45,"TEXT_HEAVNZ612_01880_TODO_21",""
 46,"TEXT_HEAVNZ612_01880_TODO_22",""
 47,"TEXT_HEAVNZ612_01880_TODO_23",""
-48,"TEXT_HEAVNZ612_01880_AIRPORTINVESTIGATOR01871_000_000","見たこともない怪物……。
-私が遭遇していたら、怪我どころではすまなかったでしょう。"
-49,"TEXT_HEAVNZ612_01880_MAENNE_000_000","ふぅ……なんとか錬金薬が効いてきたようだ……。
-ここ「飛竜泊」の下層を調べようと、立ち入ったのだが、
-巨大な影に不意を突かれてな……。"
-50,"TEXT_HEAVNZ612_01880_MAENNE_000_001","どうにか応戦して脱出したものの、仕留められなかった。
-ヤツを放置すれば、部下に被害が出る可能性は高い。
-ぜひ<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>殿に、始末してもらいたい。"
-51,"TEXT_HEAVNZ612_01880_MAENNE_000_002","怪物を倒したら、その一部を持って帰ってきてくれないか？
-ヤツの正体を確かめておきたいのだ……。"
-52,"TEXT_HEAVNZ612_01880_MAENNE_000_005","怪物を倒したら、その一部を持って帰ってきてくれないか？
-ヤツの正体を確かめておきたいのだ……。"
-53,"TEXT_HEAVNZ612_01880_MAENNE_000_010","どうだ、怪物を始末できたか……？"
-54,"TEXT_HEAVNZ612_01880_MAENNE_000_011","……この金属片が、ヤツの身体から？
-こ……これは……かなり古い年代のものだが、
-確かにイシュガルド様式の甲冑の一部だ！"
-55,"TEXT_HEAVNZ612_01880_MAENNE_000_012","そうか……。
-あの怪物の正体は、異端者の成れの果てということか。
-竜の血を飲み、あのような姿に……。"
-56,"TEXT_HEAVNZ612_01880_MAENNE_000_013","甲冑の様式から見て、数百年以上は前の人物だろう。
-彼はなぜ怪物となることを選んだのだろうか。
-異形として最期を遂げることが、本懐だったとでも？"
-57,"TEXT_HEAVNZ612_01880_MAENNE_000_014","……わからない、私にはわからないよ。
-ともかく、討伐してくれて助かった、ありがとう。"
+48,"TEXT_HEAVNZ612_01880_AIRPORTINVESTIGATOR01871_000_000","Maenne said she had never seen such a dragon before... If only I had been there, mayhap she would not have come to harm..."
+49,"TEXT_HEAVNZ612_01880_MAENNE_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>, the potion is doing its work, and before long I'll be fully recovered. I was investigating the lower layer of the Rookery, when a hulking shadow blotted my vision..."
+50,"TEXT_HEAVNZ612_01880_MAENNE_000_001","I managed to fight the beast off and escape, but I fear it still stalks this place. 'Twould be a grievous error to let it live─more dragoons could come to harm. I would ask you to slay the beast for us."
+51,"TEXT_HEAVNZ612_01880_MAENNE_000_002","Once the deed is done, bring something from the beast... Anything that would aid in identifying the true nature of the dragon."
+52,"TEXT_HEAVNZ612_01880_MAENNE_000_005","I would try and ascertain the true nature of the dragon that attacked me. Pray bring me something that could help me do so."
+53,"TEXT_HEAVNZ612_01880_MAENNE_000_010","I cannot in good conscience let our dragoons scout the area while that beast still lives. Were you able to track it down?"
+54,"TEXT_HEAVNZ612_01880_MAENNE_000_011","You pulled <Emphasis>this</Emphasis> from the beast's corpse? Hmmm...this armor dates back to before any of us were born, but there can be no mistake─it was forged in Ishgard!"
+55,"TEXT_HEAVNZ612_01880_MAENNE_000_012","This must mean that dragon was once a heretic, and drank of the dragon blood until he..."
+56,"TEXT_HEAVNZ612_01880_MAENNE_000_013","The gilding on the armor indicates it's hundreds of years old... What would drive a man to choose to become...<Emphasis>that</Emphasis>? To a heretic, does such a transformation indicate transcendence?"
+57,"TEXT_HEAVNZ612_01880_MAENNE_000_014","Mayhap 'tis not for me to understand the mind of a heretic. Nevertheless, we owe you our thanks for ridding us of that abomination."

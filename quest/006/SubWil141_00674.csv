@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBWIL141_00674_SEQ_00","ロイヤル・プロムナードのバーソロミューが、腕の立つ冒険者を探しているようだ。"
-1,"TEXT_SUBWIL141_00674_SEQ_01","リムサ・ロミンサのバデロンが、腕の立つ冒険者を探しているらしい。リムサ・ロミンサの溺れた海豚亭にいる「バデロン」に話しかけよう。"
-2,"TEXT_SUBWIL141_00674_SEQ_02","バデロンと話をすることができた。どうやら、彼の依頼はやっかいなものらしい。依頼に臨む準備を整えたら、バデロンからくわしい話を聞いてみよう。"
+0,"TEXT_SUBWIL141_00674_SEQ_00","Bartholomew has information that may be of interest to you."
+1,"TEXT_SUBWIL141_00674_SEQ_01","Baderon, the proprietor of the Drowning Wench in Limsa Lominsa, has need of a capable adventurer. Speak with him if you would know more."
+2,"TEXT_SUBWIL141_00674_SEQ_02","Baderon warns you that the job will entail considerable danger. If you are resolved to undertake it, speak to the man again to be briefed."
 3,"TEXT_SUBWIL141_00674_SEQ_03",""
 4,"TEXT_SUBWIL141_00674_SEQ_04",""
 5,"TEXT_SUBWIL141_00674_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_SUBWIL141_00674_SEQ_21",""
 22,"TEXT_SUBWIL141_00674_SEQ_22",""
 23,"TEXT_SUBWIL141_00674_SEQ_23",""
-24,"TEXT_SUBWIL141_00674_TODO_00","リムサ・ロミンサの溺れた海豚亭にいるバデロンと話す"
+24,"TEXT_SUBWIL141_00674_TODO_00","Speak with Baderon at the Drowning Wench in Limsa Lominsa."
 25,"TEXT_SUBWIL141_00674_TODO_01",""
 26,"TEXT_SUBWIL141_00674_TODO_02",""
 27,"TEXT_SUBWIL141_00674_TODO_03",""
@@ -49,29 +49,13 @@ int32,str,str
 45,"TEXT_SUBWIL141_00674_TODO_21",""
 46,"TEXT_SUBWIL141_00674_TODO_22",""
 47,"TEXT_SUBWIL141_00674_TODO_23",""
-48,"TEXT_SUBWIL141_00674_FLAME_000_1","ラウバーン局長との面会、お疲れさまでした。
-見事に大役を果たされた、その腕を見こんで、
-ひとつ、お頼みしたいことがあるのです。"
-49,"TEXT_SUBWIL141_00674_FLAME_000_2","以前、局長に従い、リムサ・ロミンサを表敬訪問したとき
-「バデロン」という人物の世話になりました。
-彼が腕の立つ冒険者を探しているらしいのです。"
-50,"TEXT_SUBWIL141_00674_FLAME_000_3","貴公は、飛空艇で三国を自由に旅することができる身。
-今一度、リムサ・ロミンサに赴き、
-溺れた海豚亭のバデロンの話を聞いてきてください。"
-51,"TEXT_SUBWIL141_00674_FLAME_000_10","あなたの腕を見こんで、お願みします。
-リムサ・ロミンサの溺れた海豚亭にいる
-「バデロン」という方に会っていただけませんか？"
-52,"TEXT_SUBWIL141_00674_BADERON_000_20","よう、いらっしゃい。
-空いてる席に座ってくんな！
-……っと、客じゃないようだな。"
-53,"TEXT_SUBWIL141_00674_BADERON_000_21","冒険者が来ると連絡を受けていたが……。
-誰かと思えば、まさか、おまえさんとはな！"
-54,"TEXT_SUBWIL141_00674_BADERON_000_22","ハッハッハ、こいつは頼もしい。
-<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
-おまえさんが来てくれたのなら、心配はいらないな。"
-55,"TEXT_SUBWIL141_00674_BADERON_000_23","……その姿。
-おまえさんが、連絡のあった冒険者だな。"
-56,"TEXT_SUBWIL141_00674_BADERON_000_24","俺が「溺れた海豚亭」の店主、バデロンだ。
-よく来てくれたな。"
-57,"TEXT_SUBWIL141_00674_BADERON_000_25","ちょっと、やっかい事を頼まれてほしくてな。
-準備ができたら、声をかけてくれよ。"
+48,"TEXT_SUBWIL141_00674_FLAME_000_1","Ah, <If(PlayerParameter(4))>my lady<Else/>my lord</If> envoy. I trust your stay in the sultanate has been pleasant. Now, if you do not mind my asking, do you perchance have plans to visit Limsa Lominsa in the near future? If so, I have information that may be of interest to you."
+49,"TEXT_SUBWIL141_00674_FLAME_000_2","I once accompanied the Flame General on an official visit to the seaside city–state, during which time I became acquainted with Baderon, the proprietor of the Drowning Wench. Well, the man sent word just now that he has a job for a capable adventurer."
+50,"TEXT_SUBWIL141_00674_FLAME_000_3","I can think of none with better credentials than you. Baderon would doubtless be pleased were you to offer him your services."
+51,"TEXT_SUBWIL141_00674_FLAME_000_10","Baderon has need of a capable adventurer, and I can think of none with better credentials than you. If you are not otherwise occupied, perhaps you might consider offering him your services."
+52,"TEXT_SUBWIL141_00674_BADERON_000_20","Welcome to the Drownin' Wench! Sit wherever ye like, <If(PlayerParameter(4))>lass<Else/>mate</If>. I'll be with ye in a─"
+53,"TEXT_SUBWIL141_00674_BADERON_000_21","Well, well, if it ain't the one an' only <Highlight>ObjectParameter(1)</Highlight>!"
+54,"TEXT_SUBWIL141_00674_BADERON_000_22","I was told a <Emphasis>distinguished</Emphasis> 'venturer might be reportin' fer duty. Fancy that 'venturer bein' you, eh!?"
+55,"TEXT_SUBWIL141_00674_BADERON_000_23","Hm? Aye, I'm Baderon, all right. Who's askin'?"
+56,"TEXT_SUBWIL141_00674_BADERON_000_24","Ah, 'eard as I've got a job fer a capable 'venturer, ye say? Well, yer bloody right!"
+57,"TEXT_SUBWIL141_00674_BADERON_000_25","Just so yer fairly warned, though, this ain't no job fer the faint of 'eart. Things're liable to get downright bleedin' 'airy. But if ye think yer still interested, let me know, an' I'll fill ye in on the details."

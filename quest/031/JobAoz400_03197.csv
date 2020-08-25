@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_JOBAOZ400_03197_SEQ_00","ウルダハの泣男のラトージャは、慌てているようだ。"
-1,"TEXT_JOBAOZ400_03197_SEQ_01","泣男のラトージャから、マーティンが闘技場で大怪我を負ってしまったと聞いた。そこへ、ヴァストラッハが現れ、代わりに試練を与えてくれるという。西ザナラーンのホライズン・エッジで「ヴァストラッハ」と話し、試練の相手を討伐しよう。"
-2,"TEXT_JOBAOZ400_03197_SEQ_02","試練の相手である魔導ヴァンガードを討伐した。ホライズン・エッジの「ヴァストラッハ」に報告しよう。"
-3,"TEXT_JOBAOZ400_03197_SEQ_03","ヴァストラッハに報告した。ウルダハのミルバネス礼拝堂付近で「ヴァストラッハ」と話そう。"
-4,"TEXT_JOBAOZ400_03197_SEQ_04","ヴァストラッハと話したところ、マーティンが現れた。ヴァストラッハは、疫病の治療薬の代金を払うと申し出るのだった。マーティンは旧友を信じて、病院へと戻っていった。存分に腕を磨き、青魔法「グラワー」をラーニングして、泣男のラトージャのもとへ戻ってこよう。
+0,"TEXT_JOBAOZ400_03197_SEQ_00","Latool Ja seems positively perturbed."
+1,"TEXT_JOBAOZ400_03197_SEQ_01","Latool Ja, in a state of panic, informs you that Martyn has been grievously wounded while performing in the Masked Carnivale, apparently a result of his exhaustion from appearing in a vastly increased number of shows. Just as you and Latool Ja are about to discuss what is to become of your training regime, Whastrach makes an unexpected arrival. Despite sharing a somewhat prickly relationship with Martyn, he offers to act as your mentor in his stead, and share his knowledge of blue magic. Although you have your suspicions, you agree to meet him in western Thanalan for your first lesson together."
+2,"TEXT_JOBAOZ400_03197_SEQ_02","Much to your surprise, you find Whastrach standing next to a magitek vanguard, which he says he had restored after it was abandoned by the Garleans. Since he apparently has no further use for it, he suggests using it as a target on which to practice your blue magic, neglecting to mention that the warmachina has been programmed to answer your assault with lethal force. Although you are accustomed to combating more organic foes, your spells prove to be equally effective against metallic opposition."
+3,"TEXT_JOBAOZ400_03197_SEQ_03","Whastrach praises your proficiency in the use of blue magic, although he views the art as a relic of a bygone age, along with all traditional disciplines of combat taught in Eorzea. He posits that the face of warfare has changed, leaving armed soldiers largely obsolete, with units of warmachina replacing them on the front lines. To power these magitek armies, vast amounts of ceruleum will be required, which Whastrach and his organization are looking to control. He even suggests that you would be well suited to serving his company in some unknown capacity, though he chooses not to pressure you into a decision at this juncture, giving you something to ponder on your way back to Ul'dah."
+4,"TEXT_JOBAOZ400_03197_SEQ_04","Outside the Celestium, your conversation with Whastrach is interrupted by Martyn, who has ignored the chirurgeon's orders and left the infirmary. To the surprise of everyone, Whastrach volunteers to assist in producing medicine and delivering it to the Whalaqee. While you cannot help but wonder how he came to know Martyn's closely guarded secret, a man of his influence and financial clout would be a valuable ally in the fight against the epidemic. Martyn clearly has reservations about letting Whastrach take over the operation while he remains bedridden, but swallows his pride and begrudgingly accepts. The ceruleum merchant leaves to begin the preparations, leaving Martyn free to voice his concerns, although he seems for the most part to have been convinced of Whastrach's sincerity. Fortunately for you, he has not forgotten about his promise to help you prepare for the Masked Carnivale, and recommends that you learn the spell Glower.
 
-※青魔道士のレベルが50以上になり、青魔法「グラワー」をラーニングすると、ミルバネス礼拝堂付近の泣男のラトージャから次の青魔道士クエストを受注することができます。"
+※The next blue mage quest will be available from Latool Ja upon reaching level 50 and learning Glower."
 5,"TEXT_JOBAOZ400_03197_SEQ_05",""
 6,"TEXT_JOBAOZ400_03197_SEQ_06",""
 7,"TEXT_JOBAOZ400_03197_SEQ_07",""
@@ -27,9 +27,9 @@ int32,str,str
 21,"TEXT_JOBAOZ400_03197_SEQ_21",""
 22,"TEXT_JOBAOZ400_03197_SEQ_22",""
 23,"TEXT_JOBAOZ400_03197_SEQ_23",""
-24,"TEXT_JOBAOZ400_03197_TODO_00","ホライズン・エッジのヴァストラッハと話し、試練の相手を討伐する"
-25,"TEXT_JOBAOZ400_03197_TODO_01","ヴァストラッハに報告"
-26,"TEXT_JOBAOZ400_03197_TODO_02","ウルダハのヴァストラッハと話す"
+24,"TEXT_JOBAOZ400_03197_TODO_00","Rendezvous with Whastrach in Horizon's Edge and complete the training exercise."
+25,"TEXT_JOBAOZ400_03197_TODO_01","Speak with Whastrach."
+26,"TEXT_JOBAOZ400_03197_TODO_02","Speak with Whastrach in Ul'dah."
 27,"TEXT_JOBAOZ400_03197_TODO_03",""
 28,"TEXT_JOBAOZ400_03197_TODO_04",""
 29,"TEXT_JOBAOZ400_03197_TODO_05",""
@@ -51,104 +51,46 @@ int32,str,str
 45,"TEXT_JOBAOZ400_03197_TODO_21",""
 46,"TEXT_JOBAOZ400_03197_TODO_22",""
 47,"TEXT_JOBAOZ400_03197_TODO_23",""
-48,"TEXT_JOBAOZ400_03197_LATOOLJA_100_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん。
-青魔道士と、して成長、目覚ましいようで、すが、
-青魔法「針千本」を、ラーニングしてきて、くださいま、せんか？"
-49,"TEXT_JOBAOZ400_03197_SYSTEM_100_001","青魔法「針千本」をラーニングすると、泣男のラトージャから、
-次の青魔道士クエストを受注することができます。"
-50,"TEXT_JOBAOZ400_03197_LATOOLJA_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>さん、大変で、す！
-先生、が闘技場、で魔物にこっぴどく、やられ、
-大怪我を、負ってしまいまし、た！"
-51,"TEXT_JOBAOZ400_03197_LATOOLJA_000_001","やっぱ、り、寝食削って、戦ったこと、で、
-無理が、たたってしまった、ようで、す。"
-52,"TEXT_JOBAOZ400_03197_LATOOLJA_000_002","青魔法「針千本」を、ラーニングして、きたようです、が、
-残念なが、ら今回の試練、は……"
-53,"TEXT_JOBAOZ400_03197_WHASTRACH_000_003","(-聞き覚えのある声-)それならば、私が代わりに試練を出そう……。"
-54,"TEXT_JOBAOZ400_03197_WHASTRACH_000_004","旧友が倒れたと聞いたもんでね、
-自分に何かできればと、駆けつけたところだ。"
-55,"TEXT_JOBAOZ400_03197_WHASTRACH_000_005","聞いているかもしれないが、私も青魔道士なんだ。
-はっきり言って、マーティンよりも実力は上だよ。
-彼の代わりに、君に試練を与えて修行の成果を見てあげよう。"
-56,"TEXT_JOBAOZ400_03197_LATOOLJA_000_006","確かに、ヴァストラッハ、さんは、
-先生も敵わ、ない、最強の青魔道士で、す。
-師として、まったく不足ありませ、ん……。"
-57,"TEXT_JOBAOZ400_03197_WHASTRACH_000_007","それでは、君の試練に格好の相手を用意するんで、
-西ザナラーンまで来てくれ。"
-58,"TEXT_JOBAOZ400_03197_LATOOLJA_000_009","内緒で、すが……
-先生、よりもヴァストラッハさん、の方が、
-師として、相応しい、かと存じま、す……。"
-59,"TEXT_JOBAOZ400_03197_WHASTRACH_000_010","誤解しないでくれたまえよ、私は帝国人じゃない。
-経営する商会が、アマジナ鉱山社の運営する、
-青燐精製所で下請け仕事をしていてね。"
-60,"TEXT_JOBAOZ400_03197_WHASTRACH_000_011","カストルム・メリディアヌムの近くに廃棄されていた、
-この魔導ヴァンガードを拾って、研究のために修理したんだ。"
-61,"TEXT_JOBAOZ400_03197_WHASTRACH_000_012","君の試練として相応しい強さに調整してあるから、
-こいつを倒してもらおう。
-では、準備はいいかな……？"
-62,"TEXT_JOBAOZ400_03197_Q1_000_013","準備はいいか？"
-63,"TEXT_JOBAOZ400_03197_WHASTRACH_000_020","見事だった。
-確かに君は立派な青魔道士になりつつある。
-だが、私は思うのだよ、剣や魔法の時代は終わりを迎えるとね……。"
-64,"TEXT_JOBAOZ400_03197_WHASTRACH_000_021","もちろん、帝国の侵略には抵抗しなければならないが、
-かの国の魔導兵器の力は目を見張るものがある。"
-65,"TEXT_JOBAOZ400_03197_WHASTRACH_000_022","エオルゼアでも、飛空艇を始め魔導技術の利用は進みつつある。
-そう遠くない未来、各国のグランドカンパニーにおいても、
-魔導兵器が主力になるかもしれない。"
-66,"TEXT_JOBAOZ400_03197_WHASTRACH_000_023","そうなると勝負を決めるのは、燃料となる青燐水だ。
-すでに、北ザナラーンでは青燐水をめぐって、
-帝国軍と不滅隊が睨み合っている。"
-67,"TEXT_JOBAOZ400_03197_WHASTRACH_000_024","これから世界のパワーバランスを決めるのは、
-エーテルやクリスタルではなく、青燐水となっていくのかもね……。"
-68,"TEXT_JOBAOZ400_03197_WHASTRACH_000_025","まあ、これは私の商人としての考えに過ぎないがね……。
-さて、ウルダハへ戻ることにしよう。"
-69,"TEXT_JOBAOZ400_03197_LATOOLJA_000_029","お帰りな、さい。
-ヴァストラッハ、さんから、の試練も、
-突破されたようで、何よりで、す……。"
-70,"TEXT_JOBAOZ400_03197_WHASTRACH_000_030","見事に試練を突破したわけだが、
-マーティンは、しばらく動けないだろうから、次回も私が……"
-71,"TEXT_JOBAOZ400_03197_MARTYN_000_031","(-マーティンの声-)待て、
-勝手に私の弟子をとらないでくれたまえ。"
-72,"TEXT_JOBAOZ400_03197_LATOOLJA_000_032","先生……！
-お体、の具合はもう、いいんです、か！？"
-73,"TEXT_JOBAOZ400_03197_MARTYN_000_033","いや、まだ歩くのがやっとだが、
-我が弟子の様子が気になったものでね……。"
-74,"TEXT_JOBAOZ400_03197_WHASTRACH_000_034","心配いらないさ、君の弟子は立派に成長している。
-それより、私は君と話がしたかったんだ。"
-75,"TEXT_JOBAOZ400_03197_WHASTRACH_000_035","ワラキ族に蔓延した疫病を撲滅しようとしているそうだね。
-なんで、私に相談してくれなかったんだ……？"
-76,"TEXT_JOBAOZ400_03197_MARTYN_000_036","君は、青魔法の研究費が打ち切られた途端、
-すぐにワラキ族に興味を失って去っていっただろう？
-合理主義の君のこと、利益にならない部族を救うとは思えなくてね。"
-77,"TEXT_JOBAOZ400_03197_WHASTRACH_000_037","見損なわないでくれたまえ。
-私だって、青魔法の研究のため、しばらく一緒に過ごした彼らに、
-まったく情がわかなかったわけじゃない。"
-78,"TEXT_JOBAOZ400_03197_WHASTRACH_000_038","なあマーティン、我が友よ。
-ワラキ族を救うため、私も協力しようじゃないか。
-君が倒れたことで、資金繰りが悪化して困っているのだろう？"
-79,"TEXT_JOBAOZ400_03197_MARTYN_000_039","ああ……その通りだ……。"
-80,"TEXT_JOBAOZ400_03197_WHASTRACH_000_040","ひとりでも多くの者を救うため、治療薬の生産は急いだほうがいい。
-我が商会の資金をもってすれば、すぐに必要な量を作れるだろう。
-あとは私に任せ、君は療養に徹したまえ。"
-81,"TEXT_JOBAOZ400_03197_MARTYN_000_041","確かに……君に頼るしかないようだ……。
-すまないが……よろしく頼む。"
-82,"TEXT_JOBAOZ400_03197_WHASTRACH_000_042","ああ、必要量の治療薬を生産できたら、
-私が責任を持って、新大陸のワラキ族に届けよう。"
-83,"TEXT_JOBAOZ400_03197_MARTYN_000_043","……ありがとう、ヴァストラッハ。"
-84,"TEXT_JOBAOZ400_03197_WHASTRACH_000_044","いいんだ、昔のよしみじゃないか。
-治療薬のレシピは、後で教えてもらおう。
-私は仕事があるんで、戻ることにするよ。"
-85,"TEXT_JOBAOZ400_03197_MARTYN_000_045","ヴァストラッハは損得しか考えない男だったが、
-こんな利他的なことをするなんてね。
-どうやら、私の目が曇っていたようだ……。"
-86,"TEXT_JOBAOZ400_03197_MARTYN_000_046","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>君。
-今回は、君の修行に付き合えなくてすまなかった。"
-87,"TEXT_JOBAOZ400_03197_MARTYN_000_047","ヴァストラッハから試練を受けたようだが、
-彼の青魔道士としての実力は確かなので、間違いないだろう。"
-88,"TEXT_JOBAOZ400_03197_MARTYN_000_048","さて、いよいよ最後の目標といこう。
-青魔法「グラワー」をラーニングしてくるのだ。
-そして、存分に腕を磨いたら、また戻ってきてくれたまえ。"
-89,"TEXT_JOBAOZ400_03197_MARTYN_000_049","一人前の青魔道士までもう少しだ！
-このまま駆け抜けるのだ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>よ！"
-90,"TEXT_JOBAOZ400_03197_MARTYN_000_050","とまあ、勇ましいことを言っといてなんだが、
-私は病院を抜け出してきたので、戻らなければならない。
-目標を達成したら、また泣男のラトージャ君に声をかけてくれ。"
+48,"TEXT_JOBAOZ400_03197_LATOOLJA_100_000","Martyn says that 1000 Needles is very hard to learn. Painful, too. Have you managed it yet?"
+49,"TEXT_JOBAOZ400_03197_SYSTEM_100_001","The next blue mage quest will be available from Latool Ja upon learning 1000 Needles."
+50,"TEXT_JOBAOZ400_03197_LATOOLJA_000_000","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! Something terrible happen! Martyn almost killed!"
+51,"TEXT_JOBAOZ400_03197_LATOOLJA_000_001","We told Martyn he work too hard, that he should rest. But he not listen! He wanted medical care for Whalaqee, but now he one who need help."
+52,"TEXT_JOBAOZ400_03197_LATOOLJA_000_002","Of course, Martyn cannot train you. Latool Ja want to help, but..."
+53,"TEXT_JOBAOZ400_03197_WHASTRACH_000_003","(-Familiar Voice-)""...Martyn's such a great teacher that no one could possibly replace him!“ Is that what you were about to say?"
+54,"TEXT_JOBAOZ400_03197_WHASTRACH_000_004","Ha ha, please excuse my little jest. I was as sorry as anyone to hear that my old friend had fallen foul of some pit beast. In fact, I came to offer my services."
+55,"TEXT_JOBAOZ400_03197_WHASTRACH_000_005","I expect that Martyn neglected to mention that I too am a blue mage. We both studied under the Whalaqee as part of our research. While I am not one to boast, I should point out that I took to the art like a fish to water, while he...floundered."
+56,"TEXT_JOBAOZ400_03197_LATOOLJA_000_006","Whastrach speak true. You can learn much from Whastrach."
+57,"TEXT_JOBAOZ400_03197_WHASTRACH_000_007","Yes, with Martyn bedridden, it would be a shame for his protégé to be left without a mentor. And as his friend, overseeing your training is the least I can do. I will be waiting for you at Horizon's Edge."
+58,"TEXT_JOBAOZ400_03197_LATOOLJA_000_009","Do not tell Martyn I say this, but I think Whastrach would be better mentor. Has Martyn taught you anything?"
+59,"TEXT_JOBAOZ400_03197_WHASTRACH_000_010","Don't let the magitek fool you─I've no connection to the Empire. Well, not a direct one, at least. My company carries out work at a ceruleum processing plant run by Amajina & Sons Mineral Concern. Perhaps some of it ends up in imperial hands, perhaps not."
+60,"TEXT_JOBAOZ400_03197_WHASTRACH_000_011","As for this vanguard, it was abandoned by the Garleans outside of Castrum Meridianum. It seemed like the perfect opportunity to learn something of their technology, so I had it restored."
+61,"TEXT_JOBAOZ400_03197_WHASTRACH_000_012","Ever since we finished gleaning all we could from it, it's been collecting dust, so I have no qualms about letting you smash it to pieces as part of your training, assuming you are up to the challenge."
+62,"TEXT_JOBAOZ400_03197_Q1_000_013","Are you ready?"
+63,"TEXT_JOBAOZ400_03197_WHASTRACH_000_020","So, you have some rudimentary understanding of blue magic. But have you considered how─nay, whether─it serves you? For there is one thing I know that Martyn, at least, has yet to realize─the age of sword and sorcery is coming to an end."
+64,"TEXT_JOBAOZ400_03197_WHASTRACH_000_021","Surely you have seen the power the Garleans wield. Their technology continues to advance, while we Eorzeans cling to our ancient ways. For now, we are able to keep the Empire at bay, but for how much longer?"
+65,"TEXT_JOBAOZ400_03197_WHASTRACH_000_022","I am not the only one who feels this way. There are those who seek to develop airships and engines of war to combat the imperial threat. It will not be long before the Grand Companies deploy magitek units of their own on the front lines."
+66,"TEXT_JOBAOZ400_03197_WHASTRACH_000_023","Even so, the most advanced weaponry will be worth little more than scrap metal without a steady supply of ceruleum. As we speak, the Garleans and the Immortal Flames are fighting to claim the supply in northern Thanalan."
+67,"TEXT_JOBAOZ400_03197_WHASTRACH_000_024","What I am trying to tell you is that people like Martyn waste their time on worthless relics of the past and fail to see the bigger picture. The future lies in ceruleum. If you ever decide you want to make a real difference in this world, I could use someone like you."
+68,"TEXT_JOBAOZ400_03197_WHASTRACH_000_025","There's no need to rush, though. Just give it some thought. Anyway, I think that's enough for one day─let's return to Ul'dah."
+69,"TEXT_JOBAOZ400_03197_LATOOLJA_000_029","Whastrach look pleased. <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> show him 1000 Needles, yes?"
+70,"TEXT_JOBAOZ400_03197_WHASTRACH_000_030","I have to say, I'm surprised that you've made so much progress with someone like Martyn as your mentor. Speaking of which, since he's still confined to the infirmary, your next training session will be─"
+71,"TEXT_JOBAOZ400_03197_MARTYN_000_031","(-Martyn's Voice-)Oi! What do you think you're doin', Whastrach!?"
+72,"TEXT_JOBAOZ400_03197_LATOOLJA_000_032","Martyn! Chirurgeon tell you to stay in bed!"
+73,"TEXT_JOBAOZ400_03197_MARTYN_000_033","I'm fine! True, it still hurts to walk. And breathe. But how can I lie there when my apprentice is tryin' so hard to earn a spot next to me in the arena?"
+74,"TEXT_JOBAOZ400_03197_WHASTRACH_000_034","You needn't worry about <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Even without your guidance, <If(PlayerParameter(4))>she<Else/>he</If> is well on <If(PlayerParameter(4))>her<Else/>his</If> way to becoming a competent blue mage. Actually, while you're here, there is something I wish to discuss. A proposition, if you will."
+75,"TEXT_JOBAOZ400_03197_WHASTRACH_000_035","I heard about the lengths you are going to for the sake of the Whalaqee. Why didn't you come to me?"
+76,"TEXT_JOBAOZ400_03197_MARTYN_000_036","For what? You'd only laugh in my face as soon as you realized there's no money in it. Or have you forgotten what happened when our research fundin' got cut? All of a sudden, you couldn't give a Qiqirn's arse about blue magic and the people who'd shared their homes with us!"
+77,"TEXT_JOBAOZ400_03197_WHASTRACH_000_037","That's hardly fair, Martyn. How could I carry on without bankrupting myself? Make no mistake, I'm as grateful to the Whalaqee as you are."
+78,"TEXT_JOBAOZ400_03197_WHASTRACH_000_038","We may have gone our separate ways, but there's never been any bad blood between us. Seeing as you're in no position to help anyone from your sickbed, I'd say that letting me lend a hand is your best option."
+79,"TEXT_JOBAOZ400_03197_MARTYN_000_039","I s'pose you've got a point."
+80,"TEXT_JOBAOZ400_03197_WHASTRACH_000_040","The quicker we can produce the medicine, the more lives we'll save. With my resources, it'll be ready in no time."
+81,"TEXT_JOBAOZ400_03197_MARTYN_000_041","All right, Whastrach. We'll do things your way."
+82,"TEXT_JOBAOZ400_03197_WHASTRACH_000_042","I'm glad we could see eye to eye for a change. Once we have a large enough shipment, I'll deliver it in person to the Whalaqee."
+83,"TEXT_JOBAOZ400_03197_MARTYN_000_043","Just don't bugger it up, you hear?"
+84,"TEXT_JOBAOZ400_03197_WHASTRACH_000_044","You can count on me, Martyn. There is a lot at stake here, and I intend to see this through. I have a few arrangements to make first, but I'll come by for the formula once I'm done. Until then, you should get some rest."
+85,"TEXT_JOBAOZ400_03197_MARTYN_000_045","You know, I never thought he'd raise a finger to help anyone but himself... Maybe he does have a shred of decency after all."
+86,"TEXT_JOBAOZ400_03197_MARTYN_000_046","I hope he hasn't been puttin' any funny ideas in your head, though. It still seems strange that he's showin' an interest in your trainin' in the first place. What's in it for him? Hmm... I'm probably just overthinkin', as per usual."
+87,"TEXT_JOBAOZ400_03197_MARTYN_000_047","I s'pose it's my fault for not bein' there for you. And you won't find anyone─besides me, of course─more qualified to teach blue magic. Unless you fancy makin' the trip to the New World, that is."
+88,"TEXT_JOBAOZ400_03197_MARTYN_000_048","One thing I can do is tell you which spell you should be learnin' next. It's called “Glower,” one of my personal favorites."
+89,"TEXT_JOBAOZ400_03197_MARTYN_000_049","If you can master this, I reckon you'll be ready to enter the Masked Carnivale! Best of luck, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>!"
+90,"TEXT_JOBAOZ400_03197_MARTYN_000_050","I should go back to bed if I want these wounds to heal. Since I won't be up and about for a while, you should continue to follow Latool Ja's lead for now."

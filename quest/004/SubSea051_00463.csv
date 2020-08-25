@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBSEA051_00463_SEQ_00","サマーフォード庄を取り仕切るシュテールヴィルンは、冒険者に仕事を任せるにあたって、適切な装備をしているか、確認したいようだ。"
-1,"TEXT_SUBSEA051_00463_SEQ_01","シュテールヴィルンから仕事を請け負うために、まずは装備を整えなければならない。「アイテムレベル5以上」の防具を頭、胴、手、脚、足に装備して、「シュテールヴィルン」に見せよう。"
-2,"TEXT_SUBSEA051_00463_SEQ_02","装備を確認して、シュテールヴィルンは冒険者を認めたようだ。これで彼から仕事を請け負うことができるだろう。"
+0,"TEXT_SUBSEA051_00463_SEQ_00","Staelwyrn, owner of Summerford Farms, wishes to inspect your equipment and thereby gauge your readiness for the tasks he has in mind."
+1,"TEXT_SUBSEA051_00463_SEQ_01","To be eligible for tasks from Staelwyrn, you must first assemble a respectable set of equipment. Equip your head, body, hands, legs, and feet with gear of item level 5 or above and present yourself to Staelwyrn for inspection."
+2,"TEXT_SUBSEA051_00463_SEQ_02","Staelwyrn likes the cut of your jib, and has work for you whenever you are ready."
 3,"TEXT_SUBSEA051_00463_SEQ_03",""
 4,"TEXT_SUBSEA051_00463_SEQ_04",""
 5,"TEXT_SUBSEA051_00463_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_SUBSEA051_00463_SEQ_21",""
 22,"TEXT_SUBSEA051_00463_SEQ_22",""
 23,"TEXT_SUBSEA051_00463_SEQ_23",""
-24,"TEXT_SUBSEA051_00463_TODO_00","シュテールヴィルンに装備を見せる"
+24,"TEXT_SUBSEA051_00463_TODO_00","Present yourself to Staelwyrn for inspection."
 25,"TEXT_SUBSEA051_00463_TODO_01",""
 26,"TEXT_SUBSEA051_00463_TODO_02",""
 27,"TEXT_SUBSEA051_00463_TODO_03",""
@@ -49,27 +49,13 @@ int32,str,str
 45,"TEXT_SUBSEA051_00463_TODO_21",""
 46,"TEXT_SUBSEA051_00463_TODO_22",""
 47,"TEXT_SUBSEA051_00463_TODO_23",""
-48,"TEXT_SUBSEA051_00463_STAELWYRN_000_1","さっそく仕事を頼みてえところだが……
-海賊上がりの農夫たちを相手にするにゃ、
-まずは「装備」を整えてもらう必要がある。"
-49,"TEXT_SUBSEA051_00463_STAELWYRN_000_2","お前が相手するのは、かつて海で暴れてた連中だ。
-十分な「装備」でないと、奴らにナメられて
-話もロクに聞いてもらえんだろうからな。"
-50,"TEXT_SUBSEA051_00463_STAELWYRN_000_3","わしが、お前の装備を確認してやるから、
-十分な強度の装備を装着したら、声をかけろ。"
-51,"TEXT_SUBSEA051_00463_SYSTEM_000_4","「アイテムレベル5以上」の防具を
-頭、胴、手、脚、足に装備して、
-シュテールヴィルンに声をかけましょう。"
-52,"TEXT_SUBSEA051_00463_STAELWYRN_000_11","どうだ、装備はそろったか？"
-53,"TEXT_SUBSEA051_00463_STAELWYRN_000_12","……ほほう、立派じゃねえか。
-その装備なら、こっちも安心して仕事を任せられる。"
-54,"TEXT_SUBSEA051_00463_STAELWYRN_000_13","海賊上がりの農夫は、慣れない野良仕事に
-不満を抱えてる奴が多くてな。
-すぐキレて、拳が出ちまうのさ。"
-55,"TEXT_SUBSEA051_00463_STAELWYRN_000_14","だが、今のお前なら大丈夫だろう。
-……これから、頼りにさせてもらうぞ。"
-56,"TEXT_SUBSEA051_00463_STAELWYRN_000_15","……悪いが、その装備じゃ、まだ甘い。
-もっと頑丈なのを身につけねえとな。"
-57,"TEXT_SUBSEA051_00463_SYSTEM_000_16","「アイテムレベル5以上」の防具を
-頭、胴、手、脚、足に装備して、
-シュテールヴィルンに声をかけましょう。"
+48,"TEXT_SUBSEA051_00463_STAELWYRN_000_1","I've a mind to set you a task, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>, but before I do, I need to be sure you're properly kitted out."
+49,"TEXT_SUBSEA051_00463_STAELWYRN_000_2","Pirates don't care to parley with dandies, you understand. It might well be that the ones here have traded in their cutlasses for coulters, but they're still rogues at heart."
+50,"TEXT_SUBSEA051_00463_STAELWYRN_000_3","I know a solid set of gear when I see it. Come back when you think you're more suitably equipped."
+51,"TEXT_SUBSEA051_00463_SYSTEM_000_4","Equip your head, body, hands, legs, and feet with gear of item level 5 or greater and speak with Staelwyrn."
+52,"TEXT_SUBSEA051_00463_STAELWYRN_000_11","Let's have a look at you, shall we?"
+53,"TEXT_SUBSEA051_00463_STAELWYRN_000_12","Oho! As long as you're <Emphasis>this</Emphasis> well covered, I won't feel any guilt throwin' you to the sharks."
+54,"TEXT_SUBSEA051_00463_STAELWYRN_000_13","Erstwhile buccaneers are an ornery lot. They rage in love for the sea, and care little for the laws of the land."
+55,"TEXT_SUBSEA051_00463_STAELWYRN_000_14","But they respect strength, and by the looks of you, I'd say you'll have little trouble gettin' their attention."
+56,"TEXT_SUBSEA051_00463_STAELWYRN_000_15","No, no, <If(PlayerParameter(4))>lass<Else/>lad</If>, I fear I can't give you work lookin' like that. It's not about just handlin' yourself in combat. You want to dress in such a way as to <Emphasis>terrorize</Emphasis> your foes, causin' them to regret challengin' you in the first place."
+57,"TEXT_SUBSEA051_00463_SYSTEM_000_16","Equip your head, body, hands, legs, and feet with gear of item level 5 or greater and speak with Staelwyrn."

@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSC505_00993_SEQ_00","「聖コイナク財団の調査地」のワンダリング・ブリーズには、冒険者に頼みたいことがあるようだ。"
-1,"TEXT_GAIUSC505_00993_SEQ_01","南に向かった調査隊が、ある魔物たちに調査を妨害されているらしい。「聖コイナク財団の調査地」の南にいる「困り果てた調査員」に話を聞いてみよう。"
-2,"TEXT_GAIUSC505_00993_SEQ_02","襲ってきた<Sheet(BNpcName,646,0)/>を倒した。聖コイナク財団の調査地に戻り「ワンダリング・ブリーズ」に報告しよう。"
-3,"TEXT_GAIUSC505_00993_SEQ_03","ワンダリング・ブリーズに報告した。<Sheet(BNpcName,646,0)/>は、第七霊災による食糧不足により、この地へ集まってきたという。霊災による被害は、エオルゼアの広い範囲に及んでいるようだ。"
+0,"TEXT_GAIUSC505_00993_SEQ_00","Wandering Breeze fears that an expedition from the Sons of Saint Coinach is about to become gigas fodder."
+1,"TEXT_GAIUSC505_00993_SEQ_01","According to Wandering Breeze, gigas have been harassing one of the Sons' expedition teams. Knowing gigas, it is unlikely they will content themselves with mere provocation for long. Head south and speak with the harried researcher."
+2,"TEXT_GAIUSC505_00993_SEQ_02","As expected, a gigas appears and launches an attack, expecting unarmed, low-fat snacks─and is instead fed a meal of metal. The researchers live to study another day, something Wandering Breeze would be relieved to know."
+3,"TEXT_GAIUSC505_00993_SEQ_03","You speak with Wandering Breeze, who appears to have quite the information network. Not only has he already been apprised of your heroics, he knows how these gigas came to be in these parts. A useful man, this Wandering Breeze... "
 4,"TEXT_GAIUSC505_00993_SEQ_04",""
 5,"TEXT_GAIUSC505_00993_SEQ_05",""
 6,"TEXT_GAIUSC505_00993_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSC505_00993_SEQ_21",""
 22,"TEXT_GAIUSC505_00993_SEQ_22",""
 23,"TEXT_GAIUSC505_00993_SEQ_23",""
-24,"TEXT_GAIUSC505_00993_TODO_00","困り果てた調査員と話す"
-25,"TEXT_GAIUSC505_00993_TODO_01","ワンダリング・ブリーズに報告"
+24,"TEXT_GAIUSC505_00993_TODO_00","Speak with the harried researcher."
+25,"TEXT_GAIUSC505_00993_TODO_01","Report to Wandering Breeze."
 26,"TEXT_GAIUSC505_00993_TODO_02",""
 27,"TEXT_GAIUSC505_00993_TODO_03",""
 28,"TEXT_GAIUSC505_00993_TODO_04",""
@@ -49,21 +49,11 @@ int32,str,str
 45,"TEXT_GAIUSC505_00993_TODO_21",""
 46,"TEXT_GAIUSC505_00993_TODO_22",""
 47,"TEXT_GAIUSC505_00993_TODO_23",""
-48,"TEXT_GAIUSC505_00993_WANDERINGBREEZE_000_000","南に向かった調査隊が「ギガース族」に
-調査を妨害されているという報告が入ってきた。
-深刻な被害が出る前に、様子を見てきてくれないか。"
-49,"TEXT_GAIUSC505_00993_WANDERINGBREEZE_000_001","（★未使用／削除予定★）"
-50,"TEXT_GAIUSC505_00993_NPCA_000_010","調査地から来てくれたのかい？
-ギガース族に襲われて困っているのさ。
-そうそう、ちょうどあんな感じの……で、でたぁぁぁ！！"
-51,"TEXT_GAIUSC505_00993_NPCA_000_015","ひいぃぃっ！
-ぼぼぼ、俺は食べても美味くないよぉぉ！"
-52,"TEXT_GAIUSC505_00993_NPCA_000_020","うへぇ、怖かった……君が来てくれて助かったよ！
-さて、調査を続けないと……。"
-53,"TEXT_GAIUSC505_00993_WANDERINGBREEZE_000_030","先ほど、別の調査員から、
-お前が撃退したとの報告をもらったところだ。
-ご苦労だったな。"
-54,"TEXT_GAIUSC505_00993_WANDERINGBREEZE_000_031","奴らは、もとは北アバラシア山脈に棲息していた巨人族。
-それが霊災を境にして、この地に大移動してきたらしい。
-今後も気をつけなくてはならないな。"
-55,"TEXT_GAIUSC505_00993_POP_MESSAGE_000","敵の気配を感じた！！"
+48,"TEXT_GAIUSC505_00993_WANDERINGBREEZE_000_000","I have here a message from an expedition to the south─they are troubled by gigas, and fear an attack must soon come. Head south forthwith, if you would help us."
+49,"TEXT_GAIUSC505_00993_WANDERINGBREEZE_000_001",""
+50,"TEXT_GAIUSC505_00993_NPCA_000_010","An adventurer! You come from the main camp? We feared the message would not reach you in time. The harassment by the gigas grows daily and─aaawk!"
+51,"TEXT_GAIUSC505_00993_NPCA_000_015","NOOO! If you must eat me, kill me first!"
+52,"TEXT_GAIUSC505_00993_NPCA_000_020","Phew, that was a close call. Thank Azeyma you were about. Well, I'd better return to my work. History never waits!"
+53,"TEXT_GAIUSC505_00993_WANDERINGBREEZE_000_030","Your reputation precedes you, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Slew a gigas, I hear. The rest should keep their distance for now."
+54,"TEXT_GAIUSC505_00993_WANDERINGBREEZE_000_031","The gigas were a part of a tribe from Abalathia's Spine, uprooted by the Calamity. We seek knowledge under the ground. They seek a new home upon that ground. A fray cannot be avoided..."
+55,"TEXT_GAIUSC505_00993_POP_MESSAGE_000","Something massive this way trundles!"

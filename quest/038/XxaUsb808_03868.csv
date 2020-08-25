@@ -1,12 +1,12 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_XXAUSB808_03868_SEQ_00","キャンプ・ドラゴンヘッドのオルシュファンは、冒険者に飛空艇の情報を与えたいようだ。"
-1,"TEXT_XXAUSB808_03868_SEQ_01","待ちに待った飛空艇の情報がもたらされた。外で待っている「困惑した男」から話を聞こう。"
-2,"TEXT_XXAUSB808_03868_SEQ_02","困惑した男と話した。彼によると、飛空艇はストーンヴィジル近郊に着地したらしい。キャンプ・ドラゴンヘッドの「オルシュファン」に相談しよう。"
-3,"TEXT_XXAUSB808_03868_SEQ_03","ストーンヴィジル探索のため、オルシュファンから<Sheet(EventItem,2003016,0)/>をもらった。アートボルグ砦群の「フランセル」にも話してみよう。"
-4,"TEXT_XXAUSB808_03868_SEQ_04","フランセルから<Sheet(EventItem,2003017,0)/>をもらった。この2通の紹介状をホワイトブリム前哨地の「ブルナディエ」に渡そう。"
-5,"TEXT_XXAUSB808_03868_SEQ_05","ホワイトブリム前哨地のブルナディエに紹介状を渡した。はたして冒険者は、目的地であるストーンヴィジルに行けるのだろうか……？"
+0,"TEXT_XXAUSB808_03868_SEQ_00","Lord Haurchefant would like to introduce you to his witness."
+1,"TEXT_XXAUSB808_03868_SEQ_01","Lord Haurchefant has bid you speak with the witness he discovered. The man in question should be waiting outside."
+2,"TEXT_XXAUSB808_03868_SEQ_02","The cataloger states that he saw the <Emphasis>Enterprise</Emphasis> land near the Stone Vigil several days before the Calamity, which means that it was almost certainly seized by the garrison which occupied it at the time. Report your findings to Lord Haurchefant and see what advice he proffers."
+3,"TEXT_XXAUSB808_03868_SEQ_03","Lord Haurchefant explains that the Stone Vigil is currently held by Dravanian forces, and that all access to the ruined outpost is restricted by House Durendaire. To help you obtain permission to enter the Stone Vigil, he writes for you a letter of introduction to Lord Drillemont of Whitebrim Front. However, he suspects that his endorsement alone will not suffice, and he advises you to ask Lord Francel to write a letter for you as well."
+4,"TEXT_XXAUSB808_03868_SEQ_04","Lord Francel is happy to oblige your request. Before you depart, he reminds you that the cravens who attempted to destroy House Haillenarte have yet to be revealed, and that they may target you in the future in retaliation for your interference. Duly warned, proceed to Whitebrim Front and present your letters to the sentry at the gates."
+5,"TEXT_XXAUSB808_03868_SEQ_05","The surly sentry's demeanor quickly changes when he recognizes the seals on the letters you bear. Nevertheless, he seems reluctant to simply wave you inside..."
 6,"TEXT_XXAUSB808_03868_SEQ_06",""
 7,"TEXT_XXAUSB808_03868_SEQ_07",""
 8,"TEXT_XXAUSB808_03868_SEQ_08",""
@@ -25,10 +25,10 @@ int32,str,str
 21,"TEXT_XXAUSB808_03868_SEQ_21",""
 22,"TEXT_XXAUSB808_03868_SEQ_22",""
 23,"TEXT_XXAUSB808_03868_SEQ_23",""
-24,"TEXT_XXAUSB808_03868_TODO_00","困惑した男と話す"
-25,"TEXT_XXAUSB808_03868_TODO_01","オルシュファンに相談する"
-26,"TEXT_XXAUSB808_03868_TODO_02","フランセルと話す"
-27,"TEXT_XXAUSB808_03868_TODO_03","ブルナディエに紹介状を渡す"
+24,"TEXT_XXAUSB808_03868_TODO_00","Speak with the witness."
+25,"TEXT_XXAUSB808_03868_TODO_01","Speak with Haurchefant."
+26,"TEXT_XXAUSB808_03868_TODO_02","Speak with Francel."
+27,"TEXT_XXAUSB808_03868_TODO_03","Deliver the letter to Brunadier."
 28,"TEXT_XXAUSB808_03868_TODO_04",""
 29,"TEXT_XXAUSB808_03868_TODO_05",""
 30,"TEXT_XXAUSB808_03868_TODO_06",""
@@ -49,52 +49,21 @@ int32,str,str
 45,"TEXT_XXAUSB808_03868_TODO_21",""
 46,"TEXT_XXAUSB808_03868_TODO_22",""
 47,"TEXT_XXAUSB808_03868_TODO_23",""
-48,"TEXT_XXAUSB808_03868_SYSTEM_100_000","受注するには、進行中のメインクエストを破棄する必要があります。
-メインコマンドの「コンテンツ情報」から、
-「ジャーナル」を選び、破棄してください。"
-49,"TEXT_XXAUSB808_03868_HAURCHEFANT_000_000","念願の、飛空艇の情報だ！
-目撃者はもう外に着いているはず……
-さっそく、話を聞いてくるといい。"
-50,"TEXT_XXAUSB808_03868_NPC_000_010","フランセル卿の嫌疑が取り下げられたとかで、
-急に小脇に抱えられ……すごい速さで……うう……。
-あなたに話をすればいいんですね……？"
-51,"TEXT_XXAUSB808_03868_NPC_000_011","あれは、私がアドネール占星台で星を見ていたころの話。
-忘れもしない第七霊災の数日前、北西に向けて飛んでいく
-蒼き翼の飛空艇をみかけたのです。"
-52,"TEXT_XXAUSB808_03868_NPC_000_012","あの軌道から考えると、着地地点は、
-北西の「ストーンヴィジル」あたりでしょう。
-なかなかに厄介な場所ですね……。"
-53,"TEXT_XXAUSB808_03868_NPC_000_013","ストーンヴィジルもまた、
-ドラゴン族に攻め落とされた砦ですから。
-どうすべきかは、私より騎士様に聞いてみるべきでは？"
-54,"TEXT_XXAUSB808_03868_HAURCHEFANT_000_050","そうか、ついに飛空艇の場所がわかったのか！
-うむ、お前の苦労も報われたな！"
-55,"TEXT_XXAUSB808_03868_HAURCHEFANT_000_051","だが、ストーンヴィジルとは……
-あの砦の奪還にあたっているのは、デュランデル家だ。
-どうせなら、我らの管轄に着地すればよかったものを。"
-56,"TEXT_XXAUSB808_03868_HAURCHEFANT_000_052","もちろん、私が紹介状を書いてやろう。
-だが、どうも私は彼らから嫌われているからな……
-アートボルグ砦群で「フランセル」にも一筆頼むといい。"
-57,"TEXT_XXAUSB808_03868_HAURCHEFANT_000_053","……ところで、どうだ。
-発つ前に、せめて今夜はゆっくりと……"
-58,"TEXT_XXAUSB808_03868_HAURCHEFANT_000_054","……む、ダメか。忙しいのだな。
-その気になったら、いつでも歓迎するぞ。
-なんといっても、お前は最高にイイからなっ！"
-59,"TEXT_XXAUSB808_03868_FRANCEL_000_060","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>！
-異端審問のときはありがとう。
-キミには、何度でもお礼を言わなければならないな。"
-60,"TEXT_XXAUSB808_03868_FRANCEL_000_061","飛空艇はストーンヴィジルに着陸したのか……。
-あの砦も、もとはアインハルト家が預かっていたのだが、
-霊災後の混乱に乗じたドラゴン族に、奪われてしまったんだ。"
-61,"TEXT_XXAUSB808_03868_FRANCEL_000_062","デュランデル家には、奪還を任せている立場だからね。
-力になれないかもしれないが、紹介状は書かせてもらうよ。
-これを「ホワイトブリム前哨地」の衛士に届けるといい。"
-62,"TEXT_XXAUSB808_03868_FRANCEL_000_063","僕たちを陥れた犯人も、まだ見つかっていないし……
-十分に気をつけて調査を進めてくれ。
-キミの行く道に、戦神ハルオーネ様の祝福を……。"
-63,"TEXT_XXAUSB808_03868_BRUNADIER_000_070","ウムム？　なんだ、貴様は。
-ここ「ホワイトブリム前哨地」は、
-貴様のような冒険者が来るところではないぞ！"
-64,"TEXT_XXAUSB808_03868_BRUNADIER_000_071","……紹介状だと？
-面倒なものを持ってきてくれたな。
-仕方があるまい……取り次ぐくらいはしてやろう。"
+48,"TEXT_XXAUSB808_03868_SYSTEM_100_000","To accept this quest, you must abandon the current main scenario quest. Open the corresponding entry in the journal or duty list and select “Abandon.”"
+49,"TEXT_XXAUSB808_03868_HAURCHEFANT_000_000","The man with knowledge of the <Emphasis>Enterprise</Emphasis> awaits you outside. I pray his information proves useful to you."
+50,"TEXT_XXAUSB808_03868_NPC_000_010","How quickly the commoners' opinions change. They say Lord Francel is innocent now, but just a few days prior..."
+51,"TEXT_XXAUSB808_03868_NPC_000_011","Anyway, you were inquiring as to the whereabouts of an airship last seen in Coerthas several days before the Calamity, yes? Well, it so happens that I was monitoring the night sky at the Observatorium during that period. I recall that a small vessel came from the direction of Gridania and landed near the Stone Vigil, in the far northwest."
+52,"TEXT_XXAUSB808_03868_NPC_000_012","The garrison almost certainly seized the vessel and brought it within their walls. If so, then you would need an army of knights to have any hope of securing it."
+53,"TEXT_XXAUSB808_03868_NPC_000_013","Though Lord Haurchefant is, from all indications, quite fond of you, so mayhap he can lend you a few? In any case, I have done my part. I shall pray for your success, friend."
+54,"TEXT_XXAUSB808_03868_HAURCHEFANT_000_050","Oh, so you've at last located the <Emphasis>Enterprise</Emphasis>! I believe congratulations are in order."
+55,"TEXT_XXAUSB808_03868_HAURCHEFANT_000_051","The Stone Vigil? Ah...perhaps I spoke too soon. The outpost has been held by the dragons for years, and all access is restricted by decree of House Durendaire."
+56,"TEXT_XXAUSB808_03868_HAURCHEFANT_000_052","I will write a letter to Lord Drillemont of Whitebrim Front and request that he grant you permission to enter. That said, I fear my influence alone will not suffice, so I suggest that you request Lord Francel do the same."
+57,"TEXT_XXAUSB808_03868_HAURCHEFANT_000_053","Now that your business in Camp Dragonhead is concluded, I suspect we may not meet again for some time."
+58,"TEXT_XXAUSB808_03868_HAURCHEFANT_000_054","I wish you well in your journeys, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. May Halone guide you."
+59,"TEXT_XXAUSB808_03868_FRANCEL_000_060","Wonderful to see you again, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! If there is anything I can do to repay you, name it."
+60,"TEXT_XXAUSB808_03868_FRANCEL_000_061","...So the airship you seek is likely inside the Stone Vigil. It shames me to say that it too was once an outpost held by House Haillenarte. In the chaos that followed the Calamity, the Dravanian Horde caught us unawares. The fiends have held the outpost ever since."
+61,"TEXT_XXAUSB808_03868_FRANCEL_000_062","As we lack the strength of arms to retake the Stone Vigil, House Durendaire instead has been charged with the duty. Given that, I doubt that my words will carry much weight with Lord Drillemont. Nevertheless, I will write you your letter."
+62,"TEXT_XXAUSB808_03868_FRANCEL_000_063","Before you depart, a word of caution: the cravens who attempted to destroy House Haillenarte have yet to be unmasked. Though their plans were foiled, they doubtless still harbor great hatred towards us─and towards <Emphasis>you</Emphasis> now as well."
+63,"TEXT_XXAUSB808_03868_BRUNADIER_000_070","You desire an audience with Lord Drillemont, do you? Hah! I desire a night in a warm bed with my wife, but wishing won't make it so."
+64,"TEXT_XXAUSB808_03868_BRUNADIER_000_071","What do we have here? Letters from Lords Haurchefant and Francel, is it? A likely─
+...Oh, you're serious. Hmmm...what to do, what to do..."

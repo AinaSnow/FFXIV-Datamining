@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_HEAVNZ632_01900_SEQ_00","キャンプ・クラウドトップのファブルレーは、悩んでいるようだ。"
-1,"TEXT_HEAVNZ632_01900_SEQ_01","ファブルレーから仕事を依頼された。アバラシア雲海のラストステップにいる「<Sheet(BNpcName,3504,0)/>」から「<Sheet(EventItem,2001655,0)/>」を4個入手しよう。"
-2,"TEXT_HEAVNZ632_01900_SEQ_02","<Sheet(EventItem,2001655,0)/>を4個手に入れた。キャンプ・クラウドトップの「ファブルレー」に「<Sheet(EventItem,2001655,0)/>」を渡そう。"
-3,"TEXT_HEAVNZ632_01900_SEQ_03","<Sheet(EventItem,2001655,0)/>をファブルレーに渡した。<Sheet(EventItem,2001655,0)/>は美味しくないらしいが、羊の飼育が落ち着くまでは、頼りにすることが続きそうだ。"
+0,"TEXT_HEAVNZ632_01900_SEQ_00","Fabrellet's troubled look suggests he needs a helping hand."
+1,"TEXT_HEAVNZ632_01900_SEQ_01","Camp Cloudtop's food reserves are running low, and Fabrellet needs your help to keep his men from going hungry. To accomplish this, he plans on using meat from wisents grazing north of the camp until a new shipment of provisions arrives. Slay the wisents north of Camp Cloudtop and obtain four slabs of their meat."
+2,"TEXT_HEAVNZ632_01900_SEQ_02","You obtain four slabs of wisent meat. Return to Camp Cloudtop and deliver them to Fabrellet."
+3,"TEXT_HEAVNZ632_01900_SEQ_03","You deliver the meat to Fabrellet, who thanks you for your swift work. He is grateful the wisents are present for just such an occasion. As it turns out, they are not indigenous to the islands, but were brought to serve as livestock. He goes on to say they plan to raise sheep as well, but for now they will settle for the less-than-savory meat of wisents. "
 4,"TEXT_HEAVNZ632_01900_SEQ_04",""
 5,"TEXT_HEAVNZ632_01900_SEQ_05",""
 6,"TEXT_HEAVNZ632_01900_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_HEAVNZ632_01900_SEQ_21",""
 22,"TEXT_HEAVNZ632_01900_SEQ_22",""
 23,"TEXT_HEAVNZ632_01900_SEQ_23",""
-24,"TEXT_HEAVNZ632_01900_TODO_00","<Sheet(BNpcName,3504,0)/>から<Sheet(EventItem,2001655,0)/>を入手"
-25,"TEXT_HEAVNZ632_01900_TODO_01","ファブルレーに<Sheet(EventItem,2001655,0)/>を渡す"
+24,"TEXT_HEAVNZ632_01900_TODO_00","Defeat wisents and obtain their meat."
+25,"TEXT_HEAVNZ632_01900_TODO_01","Deliver the meat to Fabrellet."
 26,"TEXT_HEAVNZ632_01900_TODO_02",""
 27,"TEXT_HEAVNZ632_01900_TODO_03",""
 28,"TEXT_HEAVNZ632_01900_TODO_04",""
@@ -49,24 +49,10 @@ int32,str,str
 45,"TEXT_HEAVNZ632_01900_TODO_21",""
 46,"TEXT_HEAVNZ632_01900_TODO_22",""
 47,"TEXT_HEAVNZ632_01900_TODO_23",""
-48,"TEXT_HEAVNZ632_01900_FABRELLET_000_000","これは……やばいな。
-お前さん、手を貸してくれないか？
-食料が結構ギリギリになっちまったんだ。"
-49,"TEXT_HEAVNZ632_01900_FABRELLET_000_001","「ラストステップ」辺りにいる「<Sheet(BNpcName,3504,0)/>」から、
-「<Sheet(EventItem,2001655,0)/>」を4頭ぶん取ってきてくれ。
-さして美味い肉じゃないが、贅沢はいってられないからな。"
-50,"TEXT_HEAVNZ632_01900_FABRELLET_000_010","「ラストステップ」辺りにいる「<Sheet(BNpcName,3504,0)/>」から、
-「<Sheet(EventItem,2001655,0)/>」を4頭ぶん取ってきてくれ。
-さして美味い肉じゃないが、贅沢はいってられないからな。"
-51,"TEXT_HEAVNZ632_01900_FABRELLET_000_020","「ラストステップ」辺りにいる「<Sheet(BNpcName,3504,0)/>」から、
-「<Sheet(EventItem,2001655,0)/>」を4頭ぶん取ってきてくれ。
-さして美味い肉じゃないが、贅沢はいってられないからな。"
-52,"TEXT_HEAVNZ632_01900_FABRELLET_000_021","……おお、助かった！
-これで少しの間、食糧にも余裕ができる。
-ウィセントがこの地に適応したことに感謝しないとな。"
-53,"TEXT_HEAVNZ632_01900_FABRELLET_000_022","奴らは最初にここに来た部隊が、連れ込んだものでね。
-浮島の草のせいなのか、肉の味は微妙だけど、
-おかげで新鮮な肉が手に入る……すばらしいと思わないか？"
-54,"TEXT_HEAVNZ632_01900_FABRELLET_000_023","最近じゃ、羊の飼育も始めてるんだが、
-雲海の特殊な環境に適応させるのに苦労していてな。
-そっちが落ち着くまで、ウィセント頼みは続きそうだ。"
+48,"TEXT_HEAVNZ632_01900_FABRELLET_000_000","No, no, this will not do at all. Ah, just the <If(PlayerParameter(4))>woman<Else/>man</If> I was hoping to see. I need your help to fortify our dwindling stock of provisions."
+49,"TEXT_HEAVNZ632_01900_FABRELLET_000_001","Our supply of meats is particularly low, but flesh from the wisents should hold us over until the next shipment of provisions comes in. If you can bring back four slabs of their meat, it would help us immensely. You can find them north of camp at Last Step."
+50,"TEXT_HEAVNZ632_01900_FABRELLET_000_010","You'll find the wisents north of here at Last Step. Four slabs of meat should last until the next shipment of provisions."
+51,"TEXT_HEAVNZ632_01900_FABRELLET_000_020","They leave much to be desired of taste, but we're in no position to be particular with our food. Were you able to retrieve their meat?"
+52,"TEXT_HEAVNZ632_01900_FABRELLET_000_021","Thank goodness. I can breathe easy the next time I take inventory. I'm honestly not sure where we'd be if not for the wisents grazing north of here."
+53,"TEXT_HEAVNZ632_01900_FABRELLET_000_022","And to think, they're not actually indigenous to these islands. They were originally brought here as livestock for just such an emergency."
+54,"TEXT_HEAVNZ632_01900_FABRELLET_000_023","Given time we will have sheep as well, but we've yet to breed stock suited to these altitudes. But enough of my rambling. You have ensured my men will not go wanting, at least for another few moons. If we should have need of more wisent meat, I know who to call."

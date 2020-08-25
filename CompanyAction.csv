@@ -2,23 +2,40 @@
 #,Name,Description,Icon,FCRank,Cost,Order,Purchasable
 int32,str,str,Image,FCRank,uint32,byte,bit&01
 0,"","",,"FCRank#0",0,0,True
-1,"討伐経験値アップ","24時間（地球時間）、敵討伐時の獲得経験値が5％増加する","ui/icon/064000/064213.tex","FCRank#5",3500,1,True
-2,"採集経験値アップ","24時間（地球時間）、採集時の獲得経験値が5％増加する","ui/icon/064000/064215.tex","FCRank#5",3500,2,True
-3,"製作経験値アップ","24時間（地球時間）、製作時の獲得経験値が5％増加する","ui/icon/064000/064216.tex","FCRank#5",3500,3,True
-4,"バディ経験値アップ","24時間（地球時間）、バディの獲得経験値が10％増加する","ui/icon/064000/064214.tex","FCRank#5",2800,4,True
-5,"対人戦績アップ","24時間（地球時間）、対人戦績の獲得量が5％上昇する","ui/icon/064000/064217.tex","FCRank#5",2800,5,True
-6,"軍票アップ","24時間（地球時間）、軍票の獲得量が5％上昇する","ui/icon/064000/064218.tex","FCRank#5",2800,6,True
-7,"ビギナーボーナス","24時間（地球時間）、Lv25以下のバトルクラスの全フィジカルパラメータが10％上昇する","ui/icon/064000/064201.tex","FCRank#5",1750,8,True
-8,"獲得力アップ","24時間（地球時間）、ギャザラーの獲得力が5上昇する","ui/icon/064000/064202.tex","FCRank#5",2800,9,True
-9,"識質力アップ","24時間（地球時間）、ギャザラーの識質力が5上昇する","ui/icon/064000/064203.tex","FCRank#5",2800,10,True
-10,"作業精度アップ","24時間（地球時間）、クラフターの作業精度が5上昇する","ui/icon/064000/064204.tex","FCRank#5",2800,11,True
-11,"加工精度アップ","24時間（地球時間）、クラフターの加工精度が5上昇する","ui/icon/064000/064205.tex","FCRank#5",2800,12,True
-12,"錬精度上昇量アップ","24時間（地球時間）、錬精度が上昇しやすくなる","ui/icon/064000/064209.tex","FCRank#5",3500,13,True
-13,"食事効果時間延長","24時間（地球時間）、食事の効果時間を5分延長する","ui/icon/064000/064208.tex","FCRank#5",2800,14,True
-14,"装備品劣化低減","24時間（地球時間）、装備品の耐久度の減少を10％低減する","ui/icon/064000/064210.tex","FCRank#5",3500,15,True
-15,"衰弱時間短縮","24時間（地球時間）、衰弱状態の効果時間を10％短縮する","ui/icon/064000/064211.tex","FCRank#5",2800,16,True
-16,"テレポ割引","24時間（地球時間）、テレポに必要なギルが20％割引される","ui/icon/064000/064212.tex","FCRank#5",3500,17,True
-17,"MGPアップ","24時間（地球時間）、マンダヴィル・ゴールドソーサーポイントの獲得量が5％上昇する","ui/icon/064000/064219.tex","FCRank#5",2800,7,True
+1,"The Heat of Battle","Increases EXP earned through battle by 5%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064213.tex","FCRank#5",3500,1,True
+2,"Earth and Water","Increases EXP earned through gathering by 5%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064215.tex","FCRank#5",3500,2,True
+3,"Helping Hand","Increases EXP earned through crafting by 5%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064216.tex","FCRank#5",3500,3,True
+4,"A Man's Best Friend","Increases EXP earned by companions by 10%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064214.tex","FCRank#5",2800,4,True
+5,"Mark Up","Increases Wolf Marks earned by 5%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064217.tex","FCRank#5",2800,5,True
+6,"Seal Sweetener","Increases company seals earned by 5%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064218.tex","FCRank#5",2800,6,True
+7,"Brave New World","Increases the attributes of all Disciple of War or Magic members under level 25 by 10%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064201.tex","FCRank#5",1750,8,True
+8,"Live off the Land","Increases gathering by 5.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064202.tex","FCRank#5",2800,9,True
+9,"What You See","Increases perception by 5.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064203.tex","FCRank#5",2800,10,True
+10,"Eat from the Hand","Increases craftsmanship by 5.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064204.tex","FCRank#5",2800,11,True
+11,"In Control","Increases control by 5.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064205.tex","FCRank#5",2800,12,True
+12,"That Which Binds Us","Increases spiritbonding speed.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064209.tex","FCRank#5",3500,13,True
+13,"Meat and Mead","Increases duration of food effects by five minutes.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064208.tex","FCRank#5",2800,14,True
+14,"Proper Care","Slows gear wear by 10%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064210.tex","FCRank#5",3500,15,True
+15,"Back on Your Feet","Reduces duration of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Weakness<UIGlow>01</UIGlow><UIForeground>01</UIForeground> after being revived by 10%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064211.tex","FCRank#5",2800,16,True
+16,"Reduced Rates","Reduces teleportation fees by 20%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064212.tex","FCRank#5",3500,17,True
+17,"Jackpot","Increases MGP payout by 5%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064219.tex","FCRank#5",2800,7,True
 18,"","",,"FCRank#0",0,0,False
 19,"","",,"FCRank#0",0,0,False
 20,"","",,"FCRank#0",0,0,False
@@ -32,23 +49,40 @@ int32,str,str,Image,FCRank,uint32,byte,bit&01
 28,"","",,"FCRank#0",0,0,False
 29,"","",,"FCRank#0",0,0,False
 30,"","",,"FCRank#0",0,0,False
-31,"討伐経験値アップII","24時間（地球時間）、敵討伐時の獲得経験値が10％増加する","ui/icon/064000/064238.tex","FCRank#8",7000,18,True
-32,"採集経験値アップII","24時間（地球時間）、採集時の獲得経験値が10％増加する","ui/icon/064000/064240.tex","FCRank#8",7000,19,True
-33,"製作経験値アップII","24時間（地球時間）、製作時の獲得経験値が10％増加する","ui/icon/064000/064241.tex","FCRank#8",7000,20,True
-34,"バディ経験値アップII","24時間（地球時間）、バディの獲得経験値が15％増加する","ui/icon/064000/064239.tex","FCRank#8",7000,21,True
-35,"対人戦績アップII","24時間（地球時間）、対人戦績の獲得量が10％上昇する","ui/icon/064000/064242.tex","FCRank#8",7000,22,True
-36,"軍票アップII","24時間（地球時間）、軍票の獲得量が10％上昇する","ui/icon/064000/064243.tex","FCRank#8",7000,23,True
-37,"ビギナーボーナスII","24時間（地球時間）、Lv49以下のバトルクラスの全フィジカルパラメータが5％上昇する","ui/icon/064000/064226.tex","FCRank#8",3500,25,True
-38,"獲得力アップII","24時間（地球時間）、ギャザラーの獲得力が10上昇する","ui/icon/064000/064227.tex","FCRank#8",7000,26,True
-39,"識質力アップII","24時間（地球時間）、ギャザラーの識質力が10上昇する","ui/icon/064000/064228.tex","FCRank#8",7000,27,True
-40,"作業精度アップII","24時間（地球時間）、クラフターの作業精度が10上昇する","ui/icon/064000/064229.tex","FCRank#8",7000,28,True
-41,"加工精度アップII","24時間（地球時間）、クラフターの加工精度が10上昇する","ui/icon/064000/064230.tex","FCRank#8",7000,29,True
-42,"錬精度上昇量アップII","24時間（地球時間）、錬精度が上昇しやすくなる","ui/icon/064000/064234.tex","FCRank#8",7000,30,True
-43,"食事効果時間延長II","24時間（地球時間）、食事の効果時間を10分延長する","ui/icon/064000/064233.tex","FCRank#8",7000,31,True
-44,"装備品劣化低減II","24時間（地球時間）、装備品の耐久度の減少を20％低減する","ui/icon/064000/064235.tex","FCRank#8",7000,32,True
-45,"衰弱時間短縮II","24時間（地球時間）、衰弱状態の効果時間を15％短縮する","ui/icon/064000/064236.tex","FCRank#8",5600,33,True
-46,"テレポ割引II","24時間（地球時間）、テレポに必要なギルが30％割引される","ui/icon/064000/064237.tex","FCRank#8",7000,34,True
-47,"MGPアップII","24時間（地球時間）、マンダヴィル・ゴールドソーサーポイントの獲得量が10％上昇する","ui/icon/064000/064244.tex","FCRank#8",7000,24,True
+31,"The Heat of Battle II","Increases EXP earned through battle by 10%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064238.tex","FCRank#8",7000,18,True
+32,"Earth and Water II","Increases EXP earned through gathering by 10%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064240.tex","FCRank#8",7000,19,True
+33,"Helping Hand II","Increases EXP earned through crafting by 10%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064241.tex","FCRank#8",7000,20,True
+34,"A Man's Best Friend II","Increases EXP earned by companions by 15%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064239.tex","FCRank#8",7000,21,True
+35,"Mark Up II","Increases Wolf Marks earned by 10%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064242.tex","FCRank#8",7000,22,True
+36,"Seal Sweetener II","Increases company seals earned by 10%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064243.tex","FCRank#8",7000,23,True
+37,"Brave New World II","Increases the attributes of all Disciple of War or Magic members under level 49 by 5%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064226.tex","FCRank#8",3500,25,True
+38,"Live off the Land II","Increases gathering by 10.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064227.tex","FCRank#8",7000,26,True
+39,"What You See II","Increases perception by 10.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064228.tex","FCRank#8",7000,27,True
+40,"Eat from the Hand II","Increases craftsmanship by 10.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064229.tex","FCRank#8",7000,28,True
+41,"In Control II","Increases control by 10.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064230.tex","FCRank#8",7000,29,True
+42,"That Which Binds Us II","Increases spiritbonding speed.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064234.tex","FCRank#8",7000,30,True
+43,"Meat and Mead II","Increases duration of food effects by ten minutes.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064233.tex","FCRank#8",7000,31,True
+44,"Proper Care II","Slows gear wear by 20%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064235.tex","FCRank#8",7000,32,True
+45,"Back on Your Feet II","Reduces duration of <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Weakness<UIGlow>01</UIGlow><UIForeground>01</UIForeground> after being revived by 15%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064236.tex","FCRank#8",5600,33,True
+46,"Reduced Rates II","Reduces teleportation fees by 30%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064237.tex","FCRank#8",7000,34,True
+47,"Jackpot II","Increases MGP payout by 10%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064244.tex","FCRank#8",7000,24,True
 48,"","",,"FCRank#0",0,0,False
 49,"","",,"FCRank#0",0,0,False
 50,"","",,"FCRank#0",0,0,False
@@ -62,23 +96,38 @@ int32,str,str,Image,FCRank,uint32,byte,bit&01
 58,"","",,"FCRank#0",0,0,False
 59,"","",,"FCRank#0",0,0,False
 60,"","",,"FCRank#0",0,0,False
-61,"討伐経験値アップIII","24時間（地球時間）、敵討伐時の獲得経験値が15％増加する","ui/icon/064000/064263.tex","FCRank#8",10500,35,False
-62,"採集経験値アップIII","24時間（地球時間）、採集時の獲得経験値が20％増加する","ui/icon/064000/064265.tex","FCRank#8",10500,36,False
-63,"製作経験値アップIII","24時間（地球時間）、製作時の獲得経験値が20％増加する","ui/icon/064000/064266.tex","FCRank#8",10500,37,False
-64,"バディ経験値アップIII","24時間（地球時間）、バディの獲得経験値が20％増加する","ui/icon/064000/064264.tex","FCRank#8",10500,38,False
-65,"対人戦績アップIII","24時間（地球時間）、対人戦績の獲得量が15％上昇する","ui/icon/064000/064267.tex","FCRank#8",10500,39,False
-66,"軍票アップIII","24時間（地球時間）、軍票の獲得量が15％上昇する","ui/icon/064000/064268.tex","FCRank#8",10500,40,False
+61,"The Heat of Battle III","Increases EXP earned through battle by 15%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064263.tex","FCRank#8",10500,35,False
+62,"Earth and Water III","Increases EXP earned through gathering by 20%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064265.tex","FCRank#8",10500,36,False
+63,"Helping Hand III","Increases EXP earned through crafting by 20%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064266.tex","FCRank#8",10500,37,False
+64,"A Man's Best Friend III","Increases EXP earned by companions by 20%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064264.tex","FCRank#8",10500,38,False
+65,"Mark Up III","Increases Wolf Marks earned by 15%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064267.tex","FCRank#8",10500,39,False
+66,"Seal Sweetener III","Increases company seals earned by 15%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064268.tex","FCRank#8",10500,40,False
 67,"","",,"FCRank#0",0,0,False
-68,"獲得力アップIII","24時間（地球時間）、ギャザラーの獲得力が15上昇する","ui/icon/064000/064252.tex","FCRank#8",10500,43,False
-69,"識質力アップIII","24時間（地球時間）、ギャザラーの識質力が15上昇する","ui/icon/064000/064253.tex","FCRank#8",10500,44,False
-70,"作業精度アップIII","24時間（地球時間）、クラフターの作業精度が15上昇する","ui/icon/064000/064254.tex","FCRank#8",10500,45,False
-71,"加工精度アップIII","24時間（地球時間）、クラフターの加工精度が15上昇する","ui/icon/064000/064255.tex","FCRank#8",10500,46,False
-72,"錬精度上昇量アップIII","24時間（地球時間）、錬精度が上昇しやすくなる","ui/icon/064000/064259.tex","FCRank#8",10500,47,False
-73,"食事効果時間延長III","24時間（地球時間）、食事の効果時間を15分延長する","ui/icon/064000/064258.tex","FCRank#8",10500,48,False
-74,"装備品劣化低減III","24時間（地球時間）、装備品の耐久度の減少を30％低減する","ui/icon/064000/064260.tex","FCRank#8",10500,49,False
+68,"Live off the Land III","Increases gathering by 15.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064252.tex","FCRank#8",10500,43,False
+69,"What You See III","Increases perception by 15.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064253.tex","FCRank#8",10500,44,False
+70,"Eat from the Hand III","Increases craftsmanship by 15.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064254.tex","FCRank#8",10500,45,False
+71,"In Control III","Increases control by 15.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064255.tex","FCRank#8",10500,46,False
+72,"That Which Binds Us III","Increases spiritbonding speed.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064259.tex","FCRank#8",10500,47,False
+73,"Meat and Mead III","Increases duration of food effects by fifteen minutes.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064258.tex","FCRank#8",10500,48,False
+74,"Proper Care III","Slows gear wear by 30%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064260.tex","FCRank#8",10500,49,False
 75,"","",,"FCRank#0",0,0,False
-76,"テレポ割引III","24時間（地球時間）、テレポに必要なギルが40％割引される","ui/icon/064000/064262.tex","FCRank#8",10500,51,False
-77,"MGPアップIII","24時間（地球時間）、マンダヴィル・ゴールドソーサーポイントの獲得量が15％上昇する","ui/icon/064000/064269.tex","FCRank#8",10500,41,False
+76,"Reduced Rates III","Reduces teleportation fees by 40%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064262.tex","FCRank#8",10500,51,False
+77,"Jackpot III","Increases MGP payout by 15%.
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>Duration:<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 24h","ui/icon/064000/064269.tex","FCRank#8",10500,41,False
 78,"","",,"FCRank#0",0,0,False
 79,"","",,"FCRank#0",0,0,False
 80,"","",,"FCRank#0",0,0,False

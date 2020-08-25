@@ -1,13 +1,13 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_STMBDZ413_02736_SEQ_00","ナマイ村のフクドは、冒険者に相談したいことがあるようだ。"
-1,"TEXT_STMBDZ413_02736_SEQ_01","フクドと話した。村に住む「人狼族」であるクロバナの力になってほしいと頼まれた。ナマイ村の「<Sheet(EObj,2008459,0)/>」で待機して、クロバナの帰りを待とう。"
-2,"TEXT_STMBDZ413_02736_SEQ_02","<Sheet(EObj,2008459,0)/>で待機していると、クロバナがやってきた。フクドから聞いた話をしたが、かなり弱気な様子だ。ナマイ村の「クロバナ」に、エモート「励ます」をしよう。"
-3,"TEXT_STMBDZ413_02736_SEQ_03","クロバナを励ましたところ、やる気を出し、魔物退治に向かった。無二江流域に魔物退治に向かった「クロバナ」を探し、敵が現れたら討伐しよう。"
-4,"TEXT_STMBDZ413_02736_SEQ_04","クロバナを見つけたところ、敵が現れたため、これを退けた。無二江流域にいる「クロバナ」を救助しよう。"
-5,"TEXT_STMBDZ413_02736_SEQ_05","クロバナを救助した。自分には、やはり戦いの才能はないのだと、肩を落として話すクロバナ。ナマイ村の「フクド」に経緯を報告しよう。"
-6,"TEXT_STMBDZ413_02736_SEQ_06","フクドに報告した。人狼族なので、武に長けているはずだと考えていたが、魔物退治以外のことをやらせてみようと語るフクドなのであった。"
+0,"TEXT_STMBDZ413_02736_SEQ_00","Fukudo would like you to lend him your ears."
+1,"TEXT_STMBDZ413_02736_SEQ_01","Upon entering Namai, you are approached by a man named Fukudo. He tells you of the history of a family of Lupin that have long lived in the village, acting as its loyal protectors. However, what remains of the current generation of this family leaves something to be desired. Its strongest member having been recruited by the Garlean army, all that is left is a sickly mother and her powerless son, Kurobana. Fukudo asks if you would grant your succor to the young Lupin, hoping that he may become a capable warrior yet."
+2,"TEXT_STMBDZ413_02736_SEQ_02","You soon find the young Lupin and he is immediately aware of just who put you up to helping him. Kurobana points out to you that if he were a warrior, he would have long since been called upon by the Empire, as his brother was. Refusing to give up, you do your best to rally Kurobana's spirits."
+3,"TEXT_STMBDZ413_02736_SEQ_03","Kurobana remains less than enthused, even after your attempts to pick his spirits up, but he agrees to fight a nearby beast if only to convince you that you are wasting your time. He heads off in search of an opponent and you follow, eager to see his strength, or lack of, for yourself."
+4,"TEXT_STMBDZ413_02736_SEQ_04","Try though he might, Kurobana is easily overwhelmed by his foe of choice. It falls upon you to vanquish the monsters and save the young Lupin from suffering anything other than embarrassment."
+5,"TEXT_STMBDZ413_02736_SEQ_05","After you have taken care of the beasts, Kurobana thanks you, saying he hopes you now realize he is truly a lost cause. Clearly disheartened, the Lupin boy slowly makes his way back to Namai. You decide not to pursue Kurobana any further and report to Fukudo instead."
+6,"TEXT_STMBDZ413_02736_SEQ_06","Upon hearing your report, Fukudo realizes that Kurobana will likely never be a warrior of his brother's caliber. He instead theorizes that Kurobana's talents may lie elsewhere. Fukudo asks that you extend your stay in Namai and try to help the Lupin boy discover a new way he can contribute to the village."
 7,"TEXT_STMBDZ413_02736_SEQ_07",""
 8,"TEXT_STMBDZ413_02736_SEQ_08",""
 9,"TEXT_STMBDZ413_02736_SEQ_09",""
@@ -25,11 +25,11 @@ int32,str,str
 21,"TEXT_STMBDZ413_02736_SEQ_21",""
 22,"TEXT_STMBDZ413_02736_SEQ_22",""
 23,"TEXT_STMBDZ413_02736_SEQ_23",""
-24,"TEXT_STMBDZ413_02736_TODO_00","<Sheet(EObj,2008459,0)/>で待機"
-25,"TEXT_STMBDZ413_02736_TODO_01","クロバナに「励ます」をする"
-26,"TEXT_STMBDZ413_02736_TODO_02","クロバナを探し、敵が現れたら討伐"
-27,"TEXT_STMBDZ413_02736_TODO_03","クロバナを救助"
-28,"TEXT_STMBDZ413_02736_TODO_04","フクドに報告"
+24,"TEXT_STMBDZ413_02736_TODO_00","Lie in wait at the designated location."
+25,"TEXT_STMBDZ413_02736_TODO_01","/rally Kurobana's spirits."
+26,"TEXT_STMBDZ413_02736_TODO_02","Find Kurobana."
+27,"TEXT_STMBDZ413_02736_TODO_03","Rescue Kurobana."
+28,"TEXT_STMBDZ413_02736_TODO_04","Report to Fukudo."
 29,"TEXT_STMBDZ413_02736_TODO_05",""
 30,"TEXT_STMBDZ413_02736_TODO_06",""
 31,"TEXT_STMBDZ413_02736_TODO_07",""
@@ -49,89 +49,38 @@ int32,str,str
 45,"TEXT_STMBDZ413_02736_TODO_21",""
 46,"TEXT_STMBDZ413_02736_TODO_22",""
 47,"TEXT_STMBDZ413_02736_TODO_23",""
-48,"TEXT_STMBDZ413_02736_FUKUDO_000_000","その見慣れぬ身なり、もしや旅の方か？
-もしそうなら、相談したいことがあるのだが、
-話だけでも聞いてはくれないだろうか？"
-49,"TEXT_STMBDZ413_02736_FUKUDO_000_001","そなたは、「人狼族」をご存知かな？
-狼のような姿をした獣人でな、
-戦に長けた、武の民として知られているのだ。"
-50,"TEXT_STMBDZ413_02736_FUKUDO_000_002","人狼族は、長くドマの殿様に仕えてきた歴史がある。
-もっとも、帝国の支配下となってからは、兵に取られたり、
-それを拒み野盗化した者がいたりと、散々な状況だがな。"
-51,"TEXT_STMBDZ413_02736_FUKUDO_000_003","ところで、ここナマイ村にも、
-はるか昔から代々暮らしてきた人狼族の一族がいる。
-危険な獣や魔物から、村を守ってくれていたのだが……。"
-52,"TEXT_STMBDZ413_02736_FUKUDO_000_004","大黒柱だった、長兄が帝国軍に徴兵されてしまい、
-次男と病がちな母親のふたりが、残されることになったのだ。"
-53,"TEXT_STMBDZ413_02736_FUKUDO_000_005","当然、村の皆は弟に、兄のような働きぶりを期待した。
-……ところが、その弟は、兄はおろか、
-ほかの人狼族とも比較にならぬ、ひ弱な者でな。"
-54,"TEXT_STMBDZ413_02736_FUKUDO_000_006","村を守るどころか、役にすら立てないでいる次第なのだ。
-そんな状況にあっては、人狼族特有の大食いも悪目立ちする。
-村の者からの視線も、厳しくなろうというものよな。"
-55,"TEXT_STMBDZ413_02736_FUKUDO_000_007","とはいえ、病弱な母を必死に支える優しい奴だから、
-陰口をたたかれる今の境遇が、どうにも不憫でならないのだ。"
-56,"TEXT_STMBDZ413_02736_FUKUDO_000_008","見たところ、そなたは、ただの風来坊ではなく、
-かなり腕の立つ武人とお見受けする。
-その腕で、どうか件の人狼族の力になってくれぬだろうか？"
-57,"TEXT_STMBDZ413_02736_FUKUDO_000_009","かたじけない。
-助けていただきたい青年の名は、「クロバナ」。
-彼の住まいは、西の高台の上だ……訪ねてみてほしい。"
-58,"TEXT_STMBDZ413_02736_FUKUDO_000_010","助けていただきたい青年の名は、「クロバナ」。
-彼の住まいは、西の高台の上だ……訪ねてみてほしい。"
-59,"TEXT_STMBDZ413_02736_KUROBANA_000_020","見ない顔だが……どちらさんで？
-うちに何か用でも？"
-60,"TEXT_STMBDZ413_02736_KUROBANA_000_021","フクドさんが、そんな話をしてたのか？
-あのおっさんも、本当に世話焼きだな、まったく……。"
-61,"TEXT_STMBDZ413_02736_KUROBANA_000_022","たしかに、あなたがフクドさんから聞いたとおり、
-俺には戦いの才能がないんだ。
-何度挑戦しても、うまくいった試しなんて一度もないしな。"
-62,"TEXT_STMBDZ413_02736_KUROBANA_000_023","もちろん、兄貴のように村の役に立ちたいとは思ってるさ。
-けれど、戦えないんじゃ、村の役に立ちようがないだろう？"
-63,"TEXT_STMBDZ413_02736_KUROBANA_000_024","病気がちな母さんを支えるために、自分で薬草を取って、
-村のみんなに迷惑をかけないようにするのが、
-俺にとっては、精一杯なんだよ……。"
-64,"TEXT_STMBDZ413_02736_KUROBANA_000_025","……さてと、そろそろ失礼してもいいかな？
-採ってきた薬草をすり潰して、
-母さんに飲ませてやらないといけないからさ。"
-65,"TEXT_STMBDZ413_02736_SYSTEM_000_026","クロバナは、かなり弱気なようだ。
-「励ます」と、彼もやる気を出してくれるかもしれない。"
-66,"TEXT_STMBDZ413_02736_KUROBANA_000_030","なんだい、まだ何か用かい？
-特に無いようなら、お引き取り願えるかな。"
-67,"TEXT_STMBDZ413_02736_KUROBANA_000_031","旅人のあなたが、なんでそこまで俺を気にかけるんだか……
-わかったよ、やってみればいいんだろう？
-ひさしぶりに無二江のあたりで、魔物退治に挑戦してみるよ。"
-68,"TEXT_STMBDZ413_02736_KUROBANA_000_032","けど、さっきも言ったとおり、
-うまくいった試しなんて一度もないんだ。
-期待しない方がいいと思うけどな……。"
-69,"TEXT_STMBDZ413_02736_KUROBANA_000_040","……どうもありがとう、助かったよ。
-でも、これであなたもわかったろ？"
-70,"TEXT_STMBDZ413_02736_KUROBANA_000_041","俺には戦いの才能がない、ってさ。
-ハクロウ兄さんとは、違うんだよ……。"
-71,"TEXT_STMBDZ413_02736_KUROBANA_000_042","さあ、俺への手助けは、もう終わりでいいよ。
-ちゃんと言われたとおり、力を貸したって、
-「フクド」さんに報告してやんな。"
-72,"TEXT_STMBDZ413_02736_FUKUDO_000_050","さっき、槍を持って出かけるクロバナの姿が見えたぞ。
-結果はどうだった？"
-73,"TEXT_STMBDZ413_02736_FUKUDO_000_051","そうか、ダメだったか……。
-兄のハクロウは、武に長けていたから、その血は、
-あいつにも、きっと流れていると思うんだがなぁ。"
-74,"TEXT_STMBDZ413_02736_FUKUDO_000_052","どうにかして今の境遇を変えてやりたいんだが、
-いったいどうしたものか……。"
-75,"TEXT_STMBDZ413_02736_Q1_000_000","どうするのがよい？"
-76,"TEXT_STMBDZ413_02736_A1_000_001","魔物退治以外のことに挑戦させてみたら？"
-77,"TEXT_STMBDZ413_02736_A1_000_002","…………。"
-78,"TEXT_STMBDZ413_02736_FUKUDO_000_053","魔物退治以外のことをやらせる？
-……そうか、そのとおりだ！
-なぜ、そんな単純な発想の転換ができなかったのか！"
-79,"TEXT_STMBDZ413_02736_FUKUDO_000_054","ううむ……いや、待てよ。
-いっそ、魔物退治にこだわらずに、
-ほかのことをやらせてみるのも手か……！？"
-80,"TEXT_STMBDZ413_02736_FUKUDO_000_055","人狼族であれば、誰もが武に長けているはずだと、
-頭が固くなってしまっていたようだ。
-まったく、年は重ねたくないものだな！"
-81,"TEXT_STMBDZ413_02736_FUKUDO_000_056","そうと決まれば、さっそくクロバナのやつに、
-魔物退治以外のことをやらせてみるとしよう。"
-82,"TEXT_STMBDZ413_02736_FUKUDO_000_057","旅の途中であろうに、止めてしまって悪いのだが、
-もし引き続き付き合ってくれるようなら、
-また私に声をかけてほしい。"
+48,"TEXT_STMBDZ413_02736_FUKUDO_000_000","I do not recall having seen you before. Would you happen to be a traveler? If so, may I request some of your time?"
+49,"TEXT_STMBDZ413_02736_FUKUDO_000_001","Have you heard of the Lupin? They are a race that appears to be half man, half wolf, and are known for their skill in combat."
+50,"TEXT_STMBDZ413_02736_FUKUDO_000_002","They have long served the king of Doma. However, when Doma fell to the Empire, many of them were conscribed into the imperial army; those who refused were forced to live out their lives as bandits."
+51,"TEXT_STMBDZ413_02736_FUKUDO_000_003","There is one family of Lupin that have called Namai their home for many a generation. They have acted as the village's protectors on countless occasions. We could not have survived without their aid."
+52,"TEXT_STMBDZ413_02736_FUKUDO_000_004","Their current oldest son had been the family's backbone up until he too was forced to enlist. Only the mother and her younger son remain now."
+53,"TEXT_STMBDZ413_02736_FUKUDO_000_005","The whole village expected their youngest to pick up where his brother left off. Sadly, he turned out to be one of the weakest Lupin I have ever seen."
+54,"TEXT_STMBDZ413_02736_FUKUDO_000_006","He has been unable to help the village in any way, much less protect it. The ferocious appetite his kind possess was looked upon kindly back when they kept the village safe, but people are not so understanding when the Lupin give back nothing in return."
+55,"TEXT_STMBDZ413_02736_FUKUDO_000_007","Even so, considering he spends most of his time looking after his sickly mother, I do not believe he is deserving of the villagers' ire."
+56,"TEXT_STMBDZ413_02736_FUKUDO_000_008","Assuming you are not just passing through, would you be willing to help the young Lupin?"
+57,"TEXT_STMBDZ413_02736_FUKUDO_000_009","My thanks. The boy I would have you help is named Kurobana. He lives up on that hill to the west."
+58,"TEXT_STMBDZ413_02736_FUKUDO_000_010","The Lupin I would have you help is named Kurobana. He lives up on that hill to the west."
+59,"TEXT_STMBDZ413_02736_KUROBANA_000_020","Do you have business with me?"
+60,"TEXT_STMBDZ413_02736_KUROBANA_000_021","Ah, the old man put you up to this? He certainly enjoys meddling in the affairs of others."
+61,"TEXT_STMBDZ413_02736_KUROBANA_000_022","It is as he says, I am not much of a fighter. My bite is as soft as a moogle's."
+62,"TEXT_STMBDZ413_02736_KUROBANA_000_023","Of course, I would love to protect the village just like my brother, but there is a reason he was conscribed and not I."
+63,"TEXT_STMBDZ413_02736_KUROBANA_000_024","The only thing I am good at is gathering herbs for my mother. I spend the rest of my time trying not to get in the way of the other villagers."
+64,"TEXT_STMBDZ413_02736_KUROBANA_000_025","At any rate, if you have no further business with me, I must head off to grind some herbs to make Mother's medicine."
+65,"TEXT_STMBDZ413_02736_SYSTEM_000_026","Kurobana could do with a confidence boost. Try to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>rally<UIGlow>01</UIGlow><UIForeground>01</UIForeground> his spirits."
+66,"TEXT_STMBDZ413_02736_KUROBANA_000_030","You again? If you have nothing to say to me, please leave me to tend to Mother."
+67,"TEXT_STMBDZ413_02736_KUROBANA_000_031","I have no idea why you are so interested in me, but fine. I shall do battle with one of the nearby beasts if that will satisfy you."
+68,"TEXT_STMBDZ413_02736_KUROBANA_000_032","That is not to say I will prove Fukudo wrong. I am merely doing this to show that you should not have expected aught of me."
+69,"TEXT_STMBDZ413_02736_KUROBANA_000_040","Thank you for intervening. I do hope you have seen enough now to accept that Fukudo was right."
+70,"TEXT_STMBDZ413_02736_KUROBANA_000_041","I am not and never will be a warrior. Hakuro is my brother in name only."
+71,"TEXT_STMBDZ413_02736_KUROBANA_000_042","Now please, leave me be. Tell Fukudo that you helped me and I once again proved to be hopeless."
+72,"TEXT_STMBDZ413_02736_FUKUDO_000_050","I caught a glimpse of Kurobana heading off somewhere with a spear a while ago. Tell me, how did he fare?"
+73,"TEXT_STMBDZ413_02736_FUKUDO_000_051","Hopeless as ever, you say? Hakuro is such a fine warrior─I cannot believe Kurobana does not possess the same potential."
+74,"TEXT_STMBDZ413_02736_FUKUDO_000_052","There must be some way we can help him. Surely."
+75,"TEXT_STMBDZ413_02736_Q1_000_000","What will you say?"
+76,"TEXT_STMBDZ413_02736_A1_000_001","Have him try something besides fighting."
+77,"TEXT_STMBDZ413_02736_A1_000_002","Nothing comes to mind..."
+78,"TEXT_STMBDZ413_02736_FUKUDO_000_053","I had not thought of that before, but it is quite an idea!"
+79,"TEXT_STMBDZ413_02736_FUKUDO_000_054","Yes, this is quite a predicament... Wait, there is no reason to force him to fight if he cannot. Let us have him try his hand at something else!"
+80,"TEXT_STMBDZ413_02736_FUKUDO_000_055","It seems my mind has grown slow in my old age. Not all Lupin are born fighters."
+81,"TEXT_STMBDZ413_02736_FUKUDO_000_056","Let us find Kurobana and see if there is not something else he is skilled at."
+82,"TEXT_STMBDZ413_02736_FUKUDO_000_057","I apologize for stopping you on your journey, but if you have the time to help, please let me know."

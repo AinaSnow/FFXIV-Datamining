@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSE403_00054_SEQ_00","石の家のアルフィノは、冒険者に協力を願いたいようだ。"
-1,"TEXT_GAIUSE403_00054_SEQ_01","アルフィノは、冒険者に対してイシュガルド特使との会談への出席を要請してきた。政治的な場への出席の許可を得るため、石の家の「ミンフィリア」と話そう。"
-2,"TEXT_GAIUSE403_00054_SEQ_02","ミンフィリアは、イシュガルド特使との会談を歓迎する意向を示した。会談に出席するため、クルザス中央高地のキャンプ・ドラゴンヘッドにいる「オルシュファン」を訪ねよう。"
-3,"TEXT_GAIUSE403_00054_SEQ_03","イシュガルド特使との会談のため、オルシュファンを訪ねたところ、無闇に歓迎された。特使が待つという応接室に案内してもらうため、キャンプ・ドラゴンヘッドの「フォルタン家の衛兵」に声をかけよう。"
-4,"TEXT_GAIUSE403_00054_SEQ_04","イシュガルドの特使、神殿騎士団総長のアイメリクと会談した。お互いの立場を表明しつつ、協力の道を模索するなか、レヴナンツトール開拓団向けの支援物資を運んでいた輸送隊が、異端者に襲われたという一報が舞い込むのだった。"
+0,"TEXT_GAIUSE403_00054_SEQ_00","An influential Ishgardian wishes to meet the Warrior of Light, and Alphinaud would like nothing more than to oblige him."
+1,"TEXT_GAIUSE403_00054_SEQ_01","Alphinaud has been granted an audience with Ser Aymeric, lord commander of the Ishgardian Temple Knights, who will be acting as a representative of the Holy See. Keen to ingratiate himself, Alphinaud has asked you to accompany him to the meeting, as Ser Aymeric has expressed a desire to meet the famous Warrior of Light. Minfilia will surely give you her blessing once she learns of the plan."
+2,"TEXT_GAIUSE403_00054_SEQ_02","Ever since the Battle of Silvertear Skies, the city–state of Ishgard has kept her neighbors at arm's length. Not even the threat posed by the VIIth Legion was enough to coax the reclusive nation back to the negotiating table. Now, however, after two decades of near silence, they have reached out─but to what end? Regardless of Ser Aymeric's agenda, Alphinaud is resolved to advance his own. Travel with him to Camp Dragonhead and speak with Lord Haurchefant upon your arrival."
+3,"TEXT_GAIUSE403_00054_SEQ_03","As always, you receive a warm welcome in Camp Dragonhead, and are informed that Ser Aymeric is already present and ready to meet with you and Alphinaud. Weary though you may be from your travels, make your way to the intercessory and prepare to meet the Ishgardian ambassador."
+4,"TEXT_GAIUSE403_00054_SEQ_04","After favoring you with a few kind words, Ser Aymeric and Alphinaud proceed to debate Ishgardian policies at length. Alas, the ambassador is not easily swayed, and it becomes apparent that the Holy See has no intention of rejoining the Eorzean Alliance. However, Ser Aymeric eventually reveals that he came to the meeting with a different purpose in mind... You learn that the astrologians of Ishgard have foretold the return of Midgardsormr─the fallen guardian of Silvertear Falls─and that Ser Aymeric wishes to enlist the Scions' aid in keeping watch over the great wyrm's remains. In exchange, he will ensure that the shipments of aid from House Fortemps to Revenant's Toll will continue unabated. Content with the arrangement, Alphinaud agrees─only to learn moments after that the latest shipment has been waylaid by Iceheart and her followers..."
 5,"TEXT_GAIUSE403_00054_SEQ_05",""
 6,"TEXT_GAIUSE403_00054_SEQ_06",""
 7,"TEXT_GAIUSE403_00054_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_GAIUSE403_00054_SEQ_21",""
 22,"TEXT_GAIUSE403_00054_SEQ_22",""
 23,"TEXT_GAIUSE403_00054_SEQ_23",""
-24,"TEXT_GAIUSE403_00054_TODO_00","ミンフィリアと話す"
-25,"TEXT_GAIUSE403_00054_TODO_01","キャンプ・ドラゴンヘッドのオルシュファンと話す"
-26,"TEXT_GAIUSE403_00054_TODO_02","フォルタン家の衛兵と話す"
+24,"TEXT_GAIUSE403_00054_TODO_00","Speak with Minfilia."
+25,"TEXT_GAIUSE403_00054_TODO_01","Speak with Haurchefant at Camp Dragonhead."
+26,"TEXT_GAIUSE403_00054_TODO_02","Speak with the House Fortemps guard."
 27,"TEXT_GAIUSE403_00054_TODO_03",""
 28,"TEXT_GAIUSE403_00054_TODO_04",""
 29,"TEXT_GAIUSE403_00054_TODO_05",""
@@ -49,128 +49,56 @@ int32,str,str
 45,"TEXT_GAIUSE403_00054_TODO_21",""
 46,"TEXT_GAIUSE403_00054_TODO_22",""
 47,"TEXT_GAIUSE403_00054_TODO_23",""
-48,"TEXT_GAIUSE403_00054_ALPHINAUD_000_031","君に頼みたいのは、先ほども説明したとおり、
-クルザスで行われる予定の会談への出席だ。"
-49,"TEXT_GAIUSE403_00054_ALPHINAUD_000_032","会談の相手は、宗教都市「イシュガルド」からの特使……。
-「アイメリク」卿という。"
-50,"TEXT_GAIUSE403_00054_ALPHINAUD_000_033","イシュガルド教皇庁直属の「神殿騎士団」において、
-総長を務める人物だ。
-かなりの大物といっていい。"
-51,"TEXT_GAIUSE403_00054_ALPHINAUD_000_034","先方には、会談の場に、君の同席を求められている。
-付き合ってもらえるとありがたい。"
-52,"TEXT_GAIUSE403_00054_ALPHINAUD_000_035","会談に向かう前に、まずは「暁」の盟主である、
-「ミンフィリア」に許可を取っておこう。"
-53,"TEXT_GAIUSE403_00054_ALPHINAUD_000_036","君自身がどう思っているかは別として、
-君は、「エオルゼアを救った英雄」という立場。
-政治的な場への出席には、それなりに気を使った方がいいからね。"
-54,"TEXT_GAIUSE403_00054_ALPHINAUD_000_040","まずは「ミンフィリア」に、
-君の会談出席について許可を取ろう。"
-55,"TEXT_GAIUSE403_00054_ALPHINAUD_000_041","いかに私がクリスタルブレイブの総帥だからといって、
-上部組織である「暁」の意向を無視することはできないさ。"
-56,"TEXT_GAIUSE403_00054_MINFILIA_000_050","……イシュガルドの特使との会談ですって？
-それは、もちろん構わないわ。"
-57,"TEXT_GAIUSE403_00054_MINFILIA_000_051","今のところ、蛮神やアシエンに目立った動きはないことだし、
-「暁」としては、何の問題もありません。"
-58,"TEXT_GAIUSE403_00054_MINFILIA_000_052","彼の国との交流は、エオルゼア全体の団結のためにも重要なこと。
-イシュガルドという国を理解するためにも、
-いい機会かもしれないわ。"
-59,"TEXT_GAIUSE403_00054_ALPHINAUD_000_001","助かるよ、ミンフィリア。
-先方たっての希望なのでね。"
-60,"TEXT_GAIUSE403_00054_MINFILIA_000_002","山の都「イシュガルド」……。
-それにしても、これまで接触を拒んでいた彼らが会談だなんて、
-いったい、どういうことなのかしら？"
-61,"TEXT_GAIUSE403_00054_ALPHINAUD_000_003","君たちにならば、伝えておいたほうがいいだろう。
-この先、また協力を願うこともあるだろうからね。"
-62,"TEXT_GAIUSE403_00054_ALPHINAUD_000_004","イシュガルドは、エオルゼアの都市国家群のひとつ。
-アルデナード小大陸を東西に貫くアバラシア山脈の中央に位置し、
-山岳地帯クルザスを領する、宗教国家だ。
-"
-63,"TEXT_GAIUSE403_00054_ALPHINAUD_000_005","国教である「イシュガルド正教」の指導者「教皇」が、
-君主を兼務している。"
-64,"TEXT_GAIUSE403_00054_ALPHINAUD_000_006","ガレマール帝国が、アラミゴを陥落させた直後のことだ……。
-彼らは、リムサ・ロミンサ、グリダニア、ウルダハとともに、
-「エオルゼア都市軍事同盟」の結成に参加した。
-"
-65,"TEXT_GAIUSE403_00054_ALPHINAUD_000_007","しかし、「銀泪湖上空戦」によって帝国軍の飛空戦艦隊が撤退し、
-目前に迫っていた脅威が過ぎ去ると、
-すぐさま「同盟」から離脱している。"
-66,"TEXT_GAIUSE403_00054_MINFILIA_000_008","それ以降、イシュガルドは、国としての扉を固く閉ざし、
-万事に対して静観の構えを崩さなかった……。"
-67,"TEXT_GAIUSE403_00054_ALPHINAUD_000_009","そう……第七霊災が迫る中で行われた、
-グリダニアによる必死の説得にも応じることなく、
-ついには「カルテノーの戦い」にも参加しなかった。
-"
-68,"TEXT_GAIUSE403_00054_ALPHINAUD_000_010","これまで何度か、各国もイシュガルドと接触を図っていたのだが、
-いずれも、限定的な協力しか引き出せてはいない。"
-69,"TEXT_GAIUSE403_00054_ALPHINAUD_000_011","第七霊災以降、私はイシュガルドに対し、
-同盟軍に再度加盟するよう、説得を続けていたのだ。"
-70,"TEXT_GAIUSE403_00054_ALPHINAUD_000_012","エオルゼア全体の強固な絆を作るため。
-そして、いつの日か帝国からアラミゴを奪還し、
-真のエオルゼアを取り戻すために。"
-71,"TEXT_GAIUSE403_00054_ALPHINAUD_000_013","……結果としては、一向に進展がなかったのだがね。"
-72,"TEXT_GAIUSE403_00054_MINFILIA_000_014","アルフィノ……。"
-73,"TEXT_GAIUSE403_00054_ALPHINAUD_000_015","そんな私の願いがようやく叶ったのか、先方から連絡があってね。
-ただの使者ではない、国を代表する「特使」が訪れる。
-これが、今回の会談だよ。"
-74,"TEXT_GAIUSE403_00054_ALPHINAUD_000_016","……むろん、気になることはある。
-これまで頑なだった彼らが、なぜ急に対話を受け入れたのか……
-きな臭さを感じなくもない。"
-75,"TEXT_GAIUSE403_00054_ALPHINAUD_000_017","だが、先にもたらされた、
-ガレマール帝国の内乱が終結したという情報が正しければ、
-帝国の脅威が、再び大きくなることは避けられない。"
-76,"TEXT_GAIUSE403_00054_MINFILIA_000_018","エオルゼアをひとつに束ね、帝国に対する体制を整えるには、
-彼ら、イシュガルドの協力が不可欠……。"
-77,"TEXT_GAIUSE403_00054_ALPHINAUD_000_019","そういうことさ。
-この状況で会談に挑めるのは、こちらとしても望むところだ。"
-78,"TEXT_GAIUSE403_00054_ALPHINAUD_000_020","これから、キャンプ・ドラゴンヘッドに向かう。
-確か、オルシュファン卿だったか……あそこの隊長殿は、
-以前のエンタープライズ探しの際にも、我々に好意的だった。"
-79,"TEXT_GAIUSE403_00054_ALPHINAUD_000_021","聞けば君は、あの後も彼と個人的に親交を深めているそうだね。
-その調子で、話がうまく進むと良いのだが……。"
-80,"TEXT_GAIUSE403_00054_MINFILIA_100_050","会談場所は、クルザスの「キャンプ・ドラゴンヘッド」ね。
-有意義な会談になるよう期待しているわ。"
-81,"TEXT_GAIUSE403_00054_HAURCHEFANT_000_060","おぉ、待っていたぞ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>！
-お前が会談に招かれたと聞き、
-今や遅しと、その到着を待ちわびていたところだ！"
-82,"TEXT_GAIUSE403_00054_HAURCHEFANT_000_061","相変わらずの美しい肉体……イイ！
-久方ぶりのクルザス訪問で、身体も冷え切っているのだろう？
-我が私室を温めてある、ぜひそこで……"
-83,"TEXT_GAIUSE403_00054_ALPHINAUD_000_062","それは助かる。
-私はどうも寒さが苦手でね。"
-84,"TEXT_GAIUSE403_00054_HAURCHEFANT_000_063","……これはこれは、アルフィノ殿。
-お早いご到着で…………。"
-85,"TEXT_GAIUSE403_00054_ALPHINAUD_000_064","お邪魔させていただいている、オルシュファン卿。
-いつぞやの「エンタープライズ」捜索の折には世話になった。
-さて、お言葉に甘えて少し暖ま……"
-86,"TEXT_GAIUSE403_00054_HAURCHEFANT_000_065","聞きましたぞ、アルフィノ殿！
-新組織を立ち上げたのだとか！
-その噂は、ここクルザスの地にも届いております。"
-87,"TEXT_GAIUSE403_00054_HAURCHEFANT_000_066","我らとしても可能なかぎり、協力させていただく所存。
-「暁の血盟」との協調は、望むところですからな。"
-88,"TEXT_GAIUSE403_00054_ALPHINAUD_000_067","（★未使用／削除予定★）"
-89,"TEXT_GAIUSE403_00054_HAURCHEFANT_100_067","実は以前より、本家を通じて、教皇庁に対し、
-「暁」との会談の場を設けるよう、進言していたのです。
-それが実現するとは、実に喜ばしい！"
-90,"TEXT_GAIUSE403_00054_HAURCHEFANT_000_068","ここ最近、「氷の巫女」の出現により、
-異端者たちの動きも、ますます活発化しておりましてな。
-教皇庁も、ようやく重い腰を上げたのでしょう。"
-91,"TEXT_GAIUSE403_00054_HAURCHEFANT_000_069","すでに、皇都より特使である「神殿騎士団」総長……
-アイメリク卿がいらしています。"
-92,"TEXT_GAIUSE403_00054_HAURCHEFANT_000_070","お二方がそろい次第、
-すぐにご案内するように申しつかっておりましてな……。"
-93,"TEXT_GAIUSE403_00054_HAURCHEFANT_000_071","お疲れのことと思いますが、さっそく応接室へ。
-「フォルタン家の衛兵」にお声がけいただければ、
-案内させていただきますゆえ。"
-94,"TEXT_GAIUSE403_00054_ALPHINAUD_000_072","……なるほど。
-そういうことなら、暖を取っている暇などないか。
-<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>、さっそく向かうとしよう。"
-95,"TEXT_GAIUSE403_00054_HAURCHEFANT_000_080","すでに、皇都より特使殿が到着している。
-会談の場まで案内させるゆえ、
-「フォルタン家の衛兵」に声をかけるといい。"
-96,"TEXT_GAIUSE403_00054_ALPHINAUD_000_090","いよいよ会談か……。
-これは歴史的な場になるかもしれないな。"
-97,"TEXT_GAIUSE403_00054_FORTEMPSGUARD00054_000_100","お待ちしておりました。
-さっそく、応接室に向かわれますか？"
-98,"TEXT_GAIUSE403_00054_FORTEMPSGUARD00054_Q1_000_1","「応接室」へ移動しますか？"
-99,"TEXT_GAIUSE403_00054_FORTEMPSGUARD00054_A1_000_1","はい"
-100,"TEXT_GAIUSE403_00054_FORTEMPSGUARD00054_A1_000_2","いいえ"
+48,"TEXT_GAIUSE403_00054_ALPHINAUD_000_031","We have been blessed with a rare opportunity, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>─an audience with an ambassador of the Holy See of Ishgard."
+49,"TEXT_GAIUSE403_00054_ALPHINAUD_000_032","We are to treat with Ser Aymeric, lord commander of the Temple Knights, in Camp Dragonhead."
+50,"TEXT_GAIUSE403_00054_ALPHINAUD_000_033","It is considered a great honor to serve the Holy See directly as a Temple Knight. Needless to say, their leader wields tremendous political influence. We would be wise to court his favor."
+51,"TEXT_GAIUSE403_00054_ALPHINAUD_000_034","For that reason, I consider your attendance essential. If Ser Aymeric wishes to meet the <If(PlayerParameter(4))>woman<Else/>man</If> behind the legend, I would not deny him the pleasure of your company."
+52,"TEXT_GAIUSE403_00054_ALPHINAUD_000_035","The Antecedent should see the wisdom of this plan when you request her permission to accompany me to Coerthas."
+53,"TEXT_GAIUSE403_00054_ALPHINAUD_000_036","...Mayhap you feel this to be a waste of your talents, which could doubtless be put to nobler use? If so, I should remind you that more good can be accomplished with the stroke of a pen than the thrust of a sword."
+54,"TEXT_GAIUSE403_00054_ALPHINAUD_000_040","If my many “adventures” in diplomacy have taught me anything, it is the importance of humoring those who have something one wants."
+55,"TEXT_GAIUSE403_00054_ALPHINAUD_000_041","Not every victory is won on a battlefield, my friend. 'Tis the lot of legendary heroes to be paraded about from time to time."
+56,"TEXT_GAIUSE403_00054_MINFILIA_000_050","...A meeting with an Ishgardian ambassador? By all means, I think it a wonderful idea."
+57,"TEXT_GAIUSE403_00054_MINFILIA_000_051","We have received no reports of aetheric disturbances or unusual beast tribe activity of late."
+58,"TEXT_GAIUSE403_00054_MINFILIA_000_052","If Alphinaud believes your presence may help him to secure more favorable terms, I see no reason to deny him."
+59,"TEXT_GAIUSE403_00054_ALPHINAUD_000_001","Antecedent. I take it <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/> has explained the situation?"
+60,"TEXT_GAIUSE403_00054_MINFILIA_000_002","<If(PlayerParameter(4))>She<Else/>He</If> has. Yet welcome though these overtures are, I cannot help but wonder what prompted them. The Ishgardians have spurned all contact with the other city–states for decades. Why reach out now?"
+61,"TEXT_GAIUSE403_00054_ALPHINAUD_000_003","Would that I knew... The question of their motives is one to which I have given no small amount of thought. Alas, I know no more than is generally known."
+62,"TEXT_GAIUSE403_00054_ALPHINAUD_000_004","The notoriously reclusive nation of Ishgard, situated at the center of Abalathia's Spine..."
+63,"TEXT_GAIUSE403_00054_ALPHINAUD_000_005","...Ruled by the Ishgardian Orthodox Church, at the head of which presides the archbishop."
+64,"TEXT_GAIUSE403_00054_ALPHINAUD_000_006","...Members of the original Eorzean Alliance, formed in the wake of Ala Mhigo's fall some two decades ago."
+65,"TEXT_GAIUSE403_00054_ALPHINAUD_000_007","...Friends of convenience who withdrew from the Alliance as soon as the imperial fleet was routed at the Battle of Silvertear Skies."
+66,"TEXT_GAIUSE403_00054_MINFILIA_000_008","...Since which time, their borders have remained closed to all outsiders."
+67,"TEXT_GAIUSE403_00054_ALPHINAUD_000_009","They have rejected every one of their former allies' calls to reopen dialogue, turning a deaf ear to their neighbors' pleas even when the Calamity loomed large."
+68,"TEXT_GAIUSE403_00054_ALPHINAUD_000_010","And on the fields of Carteneau, where brave men and women laid down their lives in defense of the realm, their banners were conspicuously absent..."
+69,"TEXT_GAIUSE403_00054_ALPHINAUD_000_011","I have tried to convince Ishgard to rejoin the Alliance at every opportunity."
+70,"TEXT_GAIUSE403_00054_ALPHINAUD_000_012","I have explained <Emphasis>over and over again</Emphasis> that unless Eorzea stands united, we cannot hope to preserve our freedom. One by one, our nations will fall, as once fell Ala Mhigo..."
+71,"TEXT_GAIUSE403_00054_ALPHINAUD_000_013","...And what have mine efforts yielded? Why, naught."
+72,"TEXT_GAIUSE403_00054_MINFILIA_000_014","Surely this can be considered a step in the right direction?"
+73,"TEXT_GAIUSE403_00054_ALPHINAUD_000_015","I should hope so. Rather than the lowly messengers we have been fobbed off with in the past, this time we shall meet with a man of genuine influence."
+74,"TEXT_GAIUSE403_00054_ALPHINAUD_000_016","Of course, I am not so naive as to think that they come to us out of the goodness of their hearts. We have something they desire, though I have yet to find out what."
+75,"TEXT_GAIUSE403_00054_ALPHINAUD_000_017","But such is the nature of diplomacy. They will bring their agendas to the negotiating table, and so will I─along with a handful of incontrovertible truths."
+76,"TEXT_GAIUSE403_00054_MINFILIA_000_018","The Empire will soon be at our doorstep once more."
+77,"TEXT_GAIUSE403_00054_ALPHINAUD_000_019","Indeed. You may be assured that I will expound upon this point and others."
+78,"TEXT_GAIUSE403_00054_ALPHINAUD_000_020","Let us depart for Camp Dragonhead, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Our old friend Lord Haurchefant is expecting us."
+79,"TEXT_GAIUSE403_00054_ALPHINAUD_000_021","Since our quest to recover the <Emphasis>Enterprise</Emphasis>, I understand you have further ingratiated yourself with the man. Excellent work. His fondness may prove useful to our cause."
+80,"TEXT_GAIUSE403_00054_MINFILIA_100_050","Though I know but little of Ser Aymeric, I have faith that Alphinaud's efforts are about to bear fruit."
+81,"TEXT_GAIUSE403_00054_HAURCHEFANT_000_060","Ah, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! Ever a welcome sight!"
+82,"TEXT_GAIUSE403_00054_HAURCHEFANT_000_061","Our hearths have been stoked to blazing in preparation for your arrival. It would not do for such a distinguished personage to catch cold whilst enjoying our hospitality."
+83,"TEXT_GAIUSE403_00054_ALPHINAUD_000_062","The gesture is much appreciated. I fear I shall ever struggle in cold climes."
+84,"TEXT_GAIUSE403_00054_HAURCHEFANT_000_063","...Ah, good Master Alphinaud. An honor, as always."
+85,"TEXT_GAIUSE403_00054_ALPHINAUD_000_064","Likewise, Lord Haurchefant. Forgive us yet another imposition─I fear we have relied overmuch on your aid since you so generously assisted us in locating the <Emphasis>Enterprise</Emphasis>."
+86,"TEXT_GAIUSE403_00054_HAURCHEFANT_000_065","Nonsense! Any debts incurred have long since been repaid. Besides, who can say what the future may bring?"
+87,"TEXT_GAIUSE403_00054_HAURCHEFANT_000_066","House Fortemps may even seek the aid of your newly formed Crystal Braves."
+88,"TEXT_GAIUSE403_00054_ALPHINAUD_000_067","(Marked for deletion)"
+89,"TEXT_GAIUSE403_00054_HAURCHEFANT_100_067","In any case, I am simply delighted that the Holy See is at last willing to grant you an audience."
+90,"TEXT_GAIUSE403_00054_HAURCHEFANT_000_068","No doubt your discoveries at Snowcloak helped to justify the decision. This recent resurgence in heretical activity is of grave concern to us all."
+91,"TEXT_GAIUSE403_00054_HAURCHEFANT_000_069","But to the matter at hand: Ser Aymeric arrived in Camp Dragonhead earlier, and I am told he is eager to meet with you at your first convenience."
+92,"TEXT_GAIUSE403_00054_HAURCHEFANT_000_070","You are doubtless weary from your journey and desirous to rest awhile by the warmth of our hearth..."
+93,"TEXT_GAIUSE403_00054_HAURCHEFANT_000_071","...But if you are willing to forgo such comforts, pray inform the knight stationed outside the intercessory. He will grant you entrance and send word to the other attendees."
+94,"TEXT_GAIUSE403_00054_ALPHINAUD_000_072","As inviting as your hearth sounds, I think it best we proceed to the intercessory forthwith."
+95,"TEXT_GAIUSE403_00054_HAURCHEFANT_000_080","You will find the entrance to the intercessory outside. It's just around the corner to the right. Speak with the guard stationed there when you are ready to begin the meeting."
+96,"TEXT_GAIUSE403_00054_ALPHINAUD_000_090","I see no reason to keep Ser Aymeric waiting, do you? Let us proceed to the intercessory."
+97,"TEXT_GAIUSE403_00054_FORTEMPSGUARD00054_000_100","We have been expecting you, <If(PlayerParameter(4))>madam<Else/>sir</If>. Pray take your ease inside and I shall summon the others."
+98,"TEXT_GAIUSE403_00054_FORTEMPSGUARD00054_Q1_000_1","Proceed to the intercessory?"
+99,"TEXT_GAIUSE403_00054_FORTEMPSGUARD00054_A1_000_1","Yes"
+100,"TEXT_GAIUSE403_00054_FORTEMPSGUARD00054_A1_000_2","No"

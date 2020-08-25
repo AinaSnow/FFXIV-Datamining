@@ -1,12 +1,12 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBSEA157_01290_SEQ_00","エールポートのスクリビルドは、獣の密輸について確認したいことがあるようだ。"
-1,"TEXT_SUBSEA157_01290_SEQ_01","スクリビルドから、ル・コンタイが危険な獣を手元に残していないか確認するよう頼まれた。エールポートの「ル・コンタイ」と話そう。"
-2,"TEXT_SUBSEA157_01290_SEQ_02","ル・コンタイと話した。クォーターストーンの周辺で、ル・コンタイが隠した「腹を空かせた子犬」に「<Sheet(EventItem,2001083,0)/>」を使おう。"
-3,"TEXT_SUBSEA157_01290_SEQ_03","腹を空かせた子犬に<Sheet(EventItem,2001083,0)/>を使った。今度は、「腹を空かせた子犬」にエモート「なだめる」をしよう。"
-4,"TEXT_SUBSEA157_01290_SEQ_04","腹を空かせた子犬をなだめた。エールポートの「スクリビルド」に報告しよう。"
-5,"TEXT_SUBSEA157_01290_SEQ_05","スクリビルドに報告した。話を聞いたスクリビルドは、海賊の手に子犬が渡らなかったことを喜んだ。子犬は冒険者に懐いているため、そのまま飼うほうがいいと、彼は語った。"
+0,"TEXT_SUBSEA157_01290_SEQ_00","Skribyld is ready to set his plans into motion."
+1,"TEXT_SUBSEA157_01290_SEQ_01","Skribyld believes R'kontai may be concealing more jackals for future black market sales. He has requested you speak with her to confirm his suspicions."
+2,"TEXT_SUBSEA157_01290_SEQ_02","R'kontai reveals that, although there are no longer jackals in her care, she has a wolf pup in her keeping. Fearing that the pirates will come and take him away, the remorseful merchant begs you to retrieve him. Find the wolf pup and give him a succulent bone to win his trust."
+3,"TEXT_SUBSEA157_01290_SEQ_03","The starved pup hungrily hunkers down on the bone, but still seems wary of you. Attempt to /soothe the frightened pup by rubbing his belly."
+4,"TEXT_SUBSEA157_01290_SEQ_04","You have earned the pup's trust, and he now seems willing to go with you. Make your way back to Skribyld and show him what you found."
+5,"TEXT_SUBSEA157_01290_SEQ_05","Skribyld is thrilled to hear that the pup is in good health and safe from the hands of the pirates. Seeing as the pup has grown so fond of you, Skribyld believes it best that he remains in your care."
 6,"TEXT_SUBSEA157_01290_SEQ_06",""
 7,"TEXT_SUBSEA157_01290_SEQ_07",""
 8,"TEXT_SUBSEA157_01290_SEQ_08",""
@@ -25,10 +25,10 @@ int32,str,str
 21,"TEXT_SUBSEA157_01290_SEQ_21",""
 22,"TEXT_SUBSEA157_01290_SEQ_22",""
 23,"TEXT_SUBSEA157_01290_SEQ_23",""
-24,"TEXT_SUBSEA157_01290_TODO_00","ル・コンタイと話す"
-25,"TEXT_SUBSEA157_01290_TODO_01","腹を空かせた子犬に<Sheet(EventItem,2001083,0)/>を使う"
-26,"TEXT_SUBSEA157_01290_TODO_02","腹を空かせた子犬に「なだめる」をする"
-27,"TEXT_SUBSEA157_01290_TODO_03","スクリビルドに報告"
+24,"TEXT_SUBSEA157_01290_TODO_00","Speak with R'kontai."
+25,"TEXT_SUBSEA157_01290_TODO_01","Give the succulent bone to the starved pup."
+26,"TEXT_SUBSEA157_01290_TODO_02","/soothe the starved pup."
+27,"TEXT_SUBSEA157_01290_TODO_03","Report to Skribyld."
 28,"TEXT_SUBSEA157_01290_TODO_04",""
 29,"TEXT_SUBSEA157_01290_TODO_05",""
 30,"TEXT_SUBSEA157_01290_TODO_06",""
@@ -49,49 +49,25 @@ int32,str,str
 45,"TEXT_SUBSEA157_01290_TODO_21",""
 46,"TEXT_SUBSEA157_01290_TODO_22",""
 47,"TEXT_SUBSEA157_01290_TODO_23",""
-48,"TEXT_SUBSEA157_01290_SKRIBYLD_000_000","さて、商人ル・コンタイについてだけど、
-彼女がまだ密輸用の獣を囲っている可能性がある。"
-49,"TEXT_SUBSEA157_01290_SKRIBYLD_000_001","悪いけど、もう一度、ル・コンタイに話を聞いて、
-危険な獣を手元に残していないか確認してくれるかい？"
-50,"TEXT_SUBSEA157_01290_RKONTAI_000_010","また、アンタかい……
-何、危険な獣をまだ隠していないかだって？
-……わかったよ、全部話すってば。"
-51,"TEXT_SUBSEA157_01290_RKONTAI_000_011","実は隠しておいた商品の狼犬の子供が、この近くにいてね。
-海賊がクァールに殺された猟犬を補充するためにさ、
-そいつを狙ってるみたいなんだよ。"
-52,"TEXT_SUBSEA157_01290_RKONTAI_000_012","この騒ぎのせいでしばらく世話していないから、
-きっと腹を空かせてるに違いないんだ。
-そんな状態じゃ、きっと海賊から逃げきれず捕まっちまう。"
-53,"TEXT_SUBSEA157_01290_RKONTAI_000_013","隠し場所を教えるからさ、アンタらで
-その「腹を空かせた子犬」を保護してやってくれないかい？"
-54,"TEXT_SUBSEA157_01290_RKONTAI_000_014","ただ、その子犬は警戒心が強くてね。
-この「<Sheet(EventItem,2001083,0)/>」で気を引き、「なだめて」やらないと、
-きっと大人しく捕まっちゃあくれないと思う。"
-55,"TEXT_SUBSEA157_01290_RKONTAI_000_015","子犬の隠し場所は「クォーターストーン」だ。
-海賊たちより先に手に入れておくれよ、頼んだからね。"
-56,"TEXT_SUBSEA157_01290_RKONTAI_000_016","「腹を空かせた子犬」はクォーターストーンにいる。
-「きれいな骨」でその子の気を引いて、
-「なだめて」やれば、きっとアンタに懐くはずさ。"
-57,"TEXT_SUBSEA157_01290_WOLF_000_030","ぐるるるる……。"
-58,"TEXT_SUBSEA157_01290_WOLF_000_031","ワンワンッ！"
-59,"TEXT_SUBSEA157_01290_WOLF_000_032","がるる……。"
-60,"TEXT_SUBSEA157_01290_WOLF_000_033","クゥ～ン。"
-61,"TEXT_SUBSEA157_01290_SKRIBYLD_000_020","話は聞いたよ、冒険者さん。
-クォーターストーンで「腹を空かせた子犬」を探すんだって？
-それで、みつかりそうなのかい？"
-62,"TEXT_SUBSEA157_01290_SKRIBYLD_000_021","……ふむふむ。
-この子がル・コンタイの言っていた子犬かい？"
-63,"TEXT_SUBSEA157_01290_SKRIBYLD_000_022","さきほど、商人のル・コンタイが来てね、
-事件について、いろいろと白状していったよ。
-ずいぶんと反省していたみたいだ。"
-64,"TEXT_SUBSEA157_01290_SKRIBYLD_000_023","それから、いい知らせがあるよ。"
-65,"TEXT_SUBSEA157_01290_SKRIBYLD_000_024","きみがル・コンタイのところへ行っていたあいだに、
-ぼくたちイエロージャケットが、件の海賊を検挙したのさ！"
-66,"TEXT_SUBSEA157_01290_SKRIBYLD_000_025","これで、一連の騒動も落ち着くだろう。
-協力、感謝するよ。"
-67,"TEXT_SUBSEA157_01290_SKRIBYLD_000_026","しかし、この子はずいぶんときみに懐いているね。
-ふむ、これじゃあ……きみと引き離すのはかわいそうだな。
-この子はきみに預けるのが一番よさそうだね。"
-68,"TEXT_SUBSEA157_01290_SKRIBYLD_000_027","どうせ、イエロージャケットの詰め所じゃあ、
-勝手に狼犬を飼うことはできないしね……。
-この子のこと、よろしく頼んだよ。"
+48,"TEXT_SUBSEA157_01290_SKRIBYLD_000_000","R'kontai has admitted to breeding jackals for pirates, but I fear she may be concealing more to be smuggled elsewhere."
+49,"TEXT_SUBSEA157_01290_SKRIBYLD_000_001","I bid you speak with her once more to prove my suspicions true. If she wishes to play the role of victim, perhaps this time she will be more forthcoming with information. Tell her that although we cannot grant her impunity, her cooperation will ensure a lighter sentencing."
+50,"TEXT_SUBSEA157_01290_RKONTAI_000_010","The Yellowjackets want to know if I'm hidin' more jackals?
+<sigh> Fine, I'll come clean if it means preservin' me liberty."
+51,"TEXT_SUBSEA157_01290_RKONTAI_000_011","All the jackals are long gone, but there's a wolf pup I was lookin' after not too far from here. Jackals are easy to come by in Aleport, but wolves? Ye can be sure folk will pay good money for 'em."
+52,"TEXT_SUBSEA157_01290_RKONTAI_000_012","With the Yellowjackets breathin' down me neck of late, though, I haven't had time to care for him. The poor thing's probably too weak from hunger to move."
+53,"TEXT_SUBSEA157_01290_RKONTAI_000_013","I'll tell ye where I hid him, but if ye want to take him, best move now. What with the coeurls runnin' wild, killin' the pirates' jackals an' all, it won't be long before they start snoopin' about for more animals to train."
+54,"TEXT_SUBSEA157_01290_RKONTAI_000_014","I have to warn ye, though, he may be a pup, but he'll likely make a meal of anyone what gets close to him. Try winnin' over his stomach with this here succulent bone. If that ain't enough, try rubbin' his belly to <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>soothe<UIGlow>01</UIGlow><UIForeground>01</UIForeground> him. Ye can bet he'll be followin' you everywhere."
+55,"TEXT_SUBSEA157_01290_RKONTAI_000_015","I left the critter in Quarterstone─hurry before the pirates find him!"
+56,"TEXT_SUBSEA157_01290_RKONTAI_000_016","Hurry to Quarterstone before it's too late. Just remember to give him the bone an' rub his belly."
+57,"TEXT_SUBSEA157_01290_WOLF_000_030","Grrrrrr..."
+58,"TEXT_SUBSEA157_01290_WOLF_000_031","Yip, yip, yip!"
+59,"TEXT_SUBSEA157_01290_WOLF_000_032","Grrr..."
+60,"TEXT_SUBSEA157_01290_WOLF_000_033","<sniff> <sniff>"
+61,"TEXT_SUBSEA157_01290_SKRIBYLD_000_020","I heard from R'kontai you went looking for the starved pup in Quarterstone. Did you have any luck?"
+62,"TEXT_SUBSEA157_01290_SKRIBYLD_000_021","Ah, so this is the pup R'kontai has been hiding. Well done."
+63,"TEXT_SUBSEA157_01290_SKRIBYLD_000_022","She was here not long ago, as a matter of fact. It seems she is willing to cooperate with the authorities and help set things right."
+64,"TEXT_SUBSEA157_01290_SKRIBYLD_000_023","But that's not all, friend."
+65,"TEXT_SUBSEA157_01290_SKRIBYLD_000_024","While you were searching for this pup, a group of pirates related to the investigation was taken into custody."
+66,"TEXT_SUBSEA157_01290_SKRIBYLD_000_025","We couldn't have done it without your help. The ringleader has yet to be found, but perhaps now Aleport can enjoy a moment of respite."
+67,"TEXT_SUBSEA157_01290_SKRIBYLD_000_026","All that remains is what to do with this pup. He seems to have taken a liking to you. Hmmm...perhaps it would be best if you looked after him."
+68,"TEXT_SUBSEA157_01290_SKRIBYLD_000_027","There's simply no room for him at headquarters, and letting him wander about on his own is out of the question. I realize how sudden this is, but please give him a good home."

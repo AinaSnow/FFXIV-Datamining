@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_CLSMIN011_00597_SEQ_00","採掘師ギルドに入門するためには、所定の手続きが必要らしい。採掘師ギルド受付の「リネット」に、入門の意志を伝えよう。"
-1,"TEXT_CLSMIN011_00597_SEQ_01","採掘師ギルドへ正式に入門するためには、ギルドマスターであるアダルベルタに認められなければならない。採掘師ギルドの「アダルベルタ」に話しかけよう。"
-2,"TEXT_CLSMIN011_00597_SEQ_02","アダルベルタから、冒険者は採掘師ギルドへの入門を許可された。彼女から、採掘師の仕事について説明があるようだ。今、受け取った「<Sheet(Item,2519,0)/>」を装備して、もう一度アダルベルタに話しかけよう。"
+0,"TEXT_CLSMIN011_00597_SEQ_00","Linette wishes you to reaffirm your desire to join the Miners' Guild."
+1,"TEXT_CLSMIN011_00597_SEQ_01","You have been referred to Adalberta, the master of the Miners' Guild. Meet her at the bar."
+2,"TEXT_CLSMIN011_00597_SEQ_02","Adalberta warmly welcomes you to the guild, and presents you with your very own─very <Emphasis>old</Emphasis>─pickaxe. Take up the tool of your new trade, and speak with the guildmaster again to be issued your first task."
 3,"TEXT_CLSMIN011_00597_SEQ_03",""
 4,"TEXT_CLSMIN011_00597_SEQ_04",""
 5,"TEXT_CLSMIN011_00597_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_CLSMIN011_00597_SEQ_21",""
 22,"TEXT_CLSMIN011_00597_SEQ_22",""
 23,"TEXT_CLSMIN011_00597_SEQ_23",""
-24,"TEXT_CLSMIN011_00597_TODO_00","アダルベルタと話す"
+24,"TEXT_CLSMIN011_00597_TODO_00","Speak with Adalberta, the master of the Miners' Guild."
 25,"TEXT_CLSMIN011_00597_TODO_01",""
 26,"TEXT_CLSMIN011_00597_TODO_02",""
 27,"TEXT_CLSMIN011_00597_TODO_03",""
@@ -49,55 +49,27 @@ int32,str,str
 45,"TEXT_CLSMIN011_00597_TODO_21",""
 46,"TEXT_CLSMIN011_00597_TODO_22",""
 47,"TEXT_CLSMIN011_00597_TODO_23",""
-48,"TEXT_CLSMIN011_00597_LINETTE_000_0","私に声をかけたということは、
-すでにお心を決められたのでしょうか？
-いかがです、採掘師ギルドに入門されますか？"
-49,"TEXT_CLSMIN011_00597_LINETTE_000_1","む、まだ決まりませんか。
-ですが、こちらも急かすようなことはしたくありません。
-入門は、焦って決めるようなことではありませんから。"
-50,"TEXT_CLSMIN011_00597_LINETTE_000_2","熟考し、ご自分が採掘師になるにあたって
-もっと適していると思ったとき……またおいでください。
-採掘師ギルドは、いつまでもあなたをお待ちしています。"
-51,"TEXT_CLSMIN011_00597_LINETTE_000_3","あなたのお気持ちは承知しました。"
-52,"TEXT_CLSMIN011_00597_LINETTE_000_4","ならば手続きを進めましょう……
-当ギルドのギルドマスターと、ご面会をお願いします。"
-53,"TEXT_CLSMIN011_00597_LINETTE_000_5","採掘師ギルドに入門するためには、
-ギルドマスターである「アダルベルタ」様の
-許可が必要なのです。"
-54,"TEXT_CLSMIN011_00597_LINETTE_000_6","アダルベルタ様は当代随一の採掘師。"
-55,"TEXT_CLSMIN011_00597_LINETTE_000_7","あなたが採掘師の道を進まれる上で、
-ためになる貴重な話もお聞かせくださると思います。"
-56,"TEXT_CLSMIN011_00597_LINETTE_000_8","さあ、あちらにおられる
-アダルベルタ様のところへどうぞ。"
-57,"TEXT_CLSMIN011_00597_ADALBERTA_000_10","や、キミが新しくギルドに入りたい人かな？
-あたしがギルドマスターの「アダルベルタ」よ。
-ヨロシクね。"
-58,"TEXT_CLSMIN011_00597_ADALBERTA_000_11","採掘師になりたいっていうのなら、ウチとしては大歓迎。
-現役の冒険者だってのなら、特にね。"
-59,"TEXT_CLSMIN011_00597_ADALBERTA_000_12","最近のザナラーンでは、技術革新によって
-低純度の鉱石からも製錬ができるようになってね。
-廃坑の再開発が進んでいるのさ。"
-60,"TEXT_CLSMIN011_00597_ADALBERTA_000_13","正直、人手はいくらあっても足りないくらいなの。
-体力のある冒険者なんて、まさに求めていた人材よ。"
-61,"TEXT_CLSMIN011_00597_ADALBERTA_000_14","それに、冒険者って行動範囲が広いから、
-ザナラーン以外の土地の情報が入りやすくなるっていう、
-ギルドにとってのメリットもあるの。"
-62,"TEXT_CLSMIN011_00597_ADALBERTA_000_15","キミは技術を学び、ギルドは労働力と知識を得る。
-お互い、得るものは大きいわけだし……
-入門を断る理由って、ないわよね？"
-63,"TEXT_CLSMIN011_00597_Q1_000_1","採掘師ギルドに入門する？"
-64,"TEXT_CLSMIN011_00597_A1_000_1","はい"
-65,"TEXT_CLSMIN011_00597_A2_000_1","いいえ"
-66,"TEXT_CLSMIN011_00597_ADALBERTA_000_16","ええっ！？　な、なんで、何が気に入らないの？
-ううん、でも無理強いはできないし……どうしよう。
-ねぇキミ、考え直さない？"
-67,"TEXT_CLSMIN011_00597_ADALBERTA_000_17","よし、いい返事ね！
-じゃあ、キミはたった今から採掘師よ！
-……ただし、駆け出しのね。"
-68,"TEXT_CLSMIN011_00597_ADALBERTA_000_18","まずは、これをあげる。
-あたしたちの商売道具、「<Sheet(Item,2519,0)/>」よ。
-採掘するには、これが絶対に必要なの。"
-69,"TEXT_CLSMIN011_00597_ADALBERTA_000_19","まずは、その「<Sheet(Item,2519,0)/>」を装備してみて。
-道具の重さを肌で知ってほしいの。"
-70,"TEXT_CLSMIN011_00597_ADALBERTA_000_20","装備できたら、あたしに声をかけてくれる？
-ちゃんと装備しているかどうか、見てあげるから。"
+48,"TEXT_CLSMIN011_00597_LINETTE_000_0","So, are you ready to join the Miners' Guild?"
+49,"TEXT_CLSMIN011_00597_LINETTE_000_1","Oh. Are you quite certain? I felt sure that you were destined to make the next big find... I pictured you grinning next to a lump of gold the size of your head."
+50,"TEXT_CLSMIN011_00597_LINETTE_000_2","'Tis truly a shame, but if you still have your doubts, there is no help for it. Should you be struck by a sudden desire to amass untold wealth, I shall be here to help."
+51,"TEXT_CLSMIN011_00597_LINETTE_000_3","Music to my ears! Aye, the kind made when one's pickaxe strikes gold!"
+52,"TEXT_CLSMIN011_00597_LINETTE_000_4","You must introduce yourself to Guildmaster Adalberta right away."
+53,"TEXT_CLSMIN011_00597_LINETTE_000_5","Her approval is required if you are to be formally admitted to our ranks."
+54,"TEXT_CLSMIN011_00597_LINETTE_000_6","In case you're unaware, Adalberta is perhaps the most accomplished of those miners who still swing a pickaxe."
+55,"TEXT_CLSMIN011_00597_LINETTE_000_7","Her understanding of our trade is unsurpassed, and her flair for prospecting uncanny. Her brain, in short, is a veritable <Emphasis>gold mine</Emphasis> of knowledge─much of it concerning the mining of gold.
+...Ha ha! Jesting apart, you stand to learn a great deal from her."
+56,"TEXT_CLSMIN011_00597_LINETTE_000_8","When you are ready, pray present yourself to Adalberta. You will find her down the steps yonder, over by the bar."
+57,"TEXT_CLSMIN011_00597_ADALBERTA_000_10","Well met, adventurer. Adalberta's my name, and I'm the master of this guild."
+58,"TEXT_CLSMIN011_00597_ADALBERTA_000_11","I take it you wish to become a miner. Well, our doors are open to all who aren't afraid to work hard and get dirty."
+59,"TEXT_CLSMIN011_00597_ADALBERTA_000_12","Thanks to recent advances in refining techniques, it's now possible to smelt even low-purity ores. I mention this because it's allowed us to reopen a number of mines which were long thought exhausted, prompting trade to flourish."
+60,"TEXT_CLSMIN011_00597_ADALBERTA_000_13","Truth be told, with business as it is at the moment, we can't take on enough new miners. And few folk make better miners than adventurers, you being a hardy lot."
+61,"TEXT_CLSMIN011_00597_ADALBERTA_000_14","What's more, you're well traveled, which serves to expand the guild's sphere of activity. Oh, but I'm not suggesting you join solely for <Emphasis>our</Emphasis> benefit."
+62,"TEXT_CLSMIN011_00597_ADALBERTA_000_15","For your part, you'll acquire skills that will prove to your profit─a mutually beneficial arrangement, I trust you'll agree. So what say you? You will join us, yes?"
+63,"TEXT_CLSMIN011_00597_Q1_000_1","Ready to work hard and get dirty?"
+64,"TEXT_CLSMIN011_00597_A1_000_1","Yes"
+65,"TEXT_CLSMIN011_00597_A2_000_1","No"
+66,"TEXT_CLSMIN011_00597_ADALBERTA_000_16","This is...unexpected. You have so much to gain and nothing to lose. Won't you reconsider?"
+67,"TEXT_CLSMIN011_00597_ADALBERTA_000_17","Then I bid you welcome to the Miners' Guild! May your toils never go unrewarded!"
+68,"TEXT_CLSMIN011_00597_ADALBERTA_000_18","Now then, here's a pickaxe to get you started. It's not the newest, but it should serve a novice well enough."
+69,"TEXT_CLSMIN011_00597_ADALBERTA_000_19","Go on and take it up─see how it feels in your hands."
+70,"TEXT_CLSMIN011_00597_ADALBERTA_000_20","Speak to me again when you're ready, and I'll assign you a little task to help you get into the swing of things."

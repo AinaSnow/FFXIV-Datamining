@@ -1,11 +1,11 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_SUBWIL160_00702_SEQ_00","スウィフト大闘佐は冒険者にマイチョコボの入手方法を教えたい。"
-1,"TEXT_SUBWIL160_00702_SEQ_01","補給担当官から、軍票と引き換えに「<Sheet(Item,6019,0)/>」を受け取り、「チョコボ屋 ミミグン」に渡すと「マイチョコボ」が手に入る。頑張って軍票を貯めよう。"
-2,"TEXT_SUBWIL160_00702_SEQ_02","ミミグンが「マイチョコボ」を連れてきた。チョコボに素敵な名前をつけてあげよう。"
-3,"TEXT_SUBWIL160_00702_SEQ_03","チョコボに<Highlight>ObjectParameter(55)</Highlight>とつけた。「チョコボ屋 ミミグン」と話そう。"
-4,"TEXT_SUBWIL160_00702_SEQ_04","チョコボ屋 ミミグンと話して、チョコボ支給手続きを済ませた。<Highlight>ObjectParameter(55)</Highlight>は、これからよい旅の友になるだろう。"
+0,"TEXT_SUBWIL160_00702_SEQ_00","Swift believes you should get yourself a chocobo."
+1,"TEXT_SUBWIL160_00702_SEQ_01","To obtain your personal chocobo, you must present Mimigun with a Flame Chocobo Issuance. This document can be obtained by exchanging company seals with the flame quartermaster. Here's hoping you have been setting aside your seals..."
+2,"TEXT_SUBWIL160_00702_SEQ_02","Mimigun brings you your bird, and it is love at first sight. Name your new companion, and make it official."
+3,"TEXT_SUBWIL160_00702_SEQ_03","After much deliberation, you decide on a name worthy of the noblest steed. Inform Mimigun to complete the last of the formalities."
+4,"TEXT_SUBWIL160_00702_SEQ_04","And so begins the adventures of <Highlight>ObjectParameter(1)</Highlight> and <Highlight>ObjectParameter(55)</Highlight>. May their friendship last for eternity!"
 5,"TEXT_SUBWIL160_00702_SEQ_05",""
 6,"TEXT_SUBWIL160_00702_SEQ_06",""
 7,"TEXT_SUBWIL160_00702_SEQ_07",""
@@ -25,9 +25,9 @@ int32,str,str
 21,"TEXT_SUBWIL160_00702_SEQ_21",""
 22,"TEXT_SUBWIL160_00702_SEQ_22",""
 23,"TEXT_SUBWIL160_00702_SEQ_23",""
-24,"TEXT_SUBWIL160_00702_TODO_00","ミミグンに<Sheet(Item,6019,0)/>を渡す"
-25,"TEXT_SUBWIL160_00702_TODO_01","チョコボに名前をつける"
-26,"TEXT_SUBWIL160_00702_TODO_02","ミミグンと話す"
+24,"TEXT_SUBWIL160_00702_TODO_00","Present a Flame Chocobo Issuance to Mimigun."
+25,"TEXT_SUBWIL160_00702_TODO_01","Name your chocobo."
+26,"TEXT_SUBWIL160_00702_TODO_02","Speak with Mimigun."
 27,"TEXT_SUBWIL160_00702_TODO_03",""
 28,"TEXT_SUBWIL160_00702_TODO_04",""
 29,"TEXT_SUBWIL160_00702_TODO_05",""
@@ -49,54 +49,27 @@ int32,str,str
 45,"TEXT_SUBWIL160_00702_TODO_21",""
 46,"TEXT_SUBWIL160_00702_TODO_22",""
 47,"TEXT_SUBWIL160_00702_TODO_23",""
-48,"TEXT_SUBWIL160_00702_Swift_000","貴様が噂の<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/><If(GreaterThan(PlayerParameter(54),0))><Sheet(GCRankUldahMaleText,PlayerParameter(54),0)/><Else/></If>か……。
-その活躍ぶりは聞いていたが、
-なかなかの面構えじゃないか。"
-49,"TEXT_SUBWIL160_00702_Swift_001","ところで貴様は、任務の際に、
-もっと迅速に移動できたらと感じたことはないか？"
-50,"TEXT_SUBWIL160_00702_Swift_002","そのような時に役立つのが俊足のチョコボだ。
-見たところ、貴様はまだ「マイチョコボ」を持っていない様子。
-貴様のような兵は、直ぐにでも取得すべきだろう。"
-51,"TEXT_SUBWIL160_00702_Swift_003","補給担当官から「<Sheet(Item,6019,0)/>」を、
-軍票にて取得し、「チョコボ屋 ミミグン」に渡せ。
-さすれば、貴様に最適のチョコボが支給されるだろう。"
-52,"TEXT_SUBWIL160_00702_Swift_010","補給担当官から「<Sheet(Item,6019,0)/>」を、
-軍票にて取得し、「チョコボ屋 ミミグン」に渡せ。
-さすれば、貴様に最適のチョコボが支給されるだろう。"
-53,"TEXT_SUBWIL160_00702_MIMIGUN_000","やあやあ、「マイチョコボ」が欲しいですって？
-それじゃあ「<Sheet(Item,6019,0)/>」をください。"
-54,"TEXT_SUBWIL160_00702_MIMIGUN_010","確かに、これはグランドカンパニーが発行した
-「<Sheet(Item,6019,0)/>」のようですね。"
-55,"TEXT_SUBWIL160_00702_MIMIGUN_011","こいつと引き換えに、お客さんに相応しい
-素敵なチョコボを連れてきますから、少々お待ちください！"
-56,"TEXT_SUBWIL160_00702_MIMIGUN_012","お客さんが来る少し前から、嬉しそうに騒いでました。
-お客さんとの対面を、予感していたのかもしれませんね。"
-57,"TEXT_SUBWIL160_00702_MIMIGUN_013","さあ、さあ、お客さん！
-早速、このオスのチョコボに名前をつけてあげてください！"
-58,"TEXT_SUBWIL160_00702_MIMIGUN_020","「マイチョコボ」が欲しいのでしょうか？
-そうしたら、グランドカンパニーの補給担当官から、
-「<Sheet(Item,6019,0)/>」をもらってきてください。"
-59,"TEXT_SUBWIL160_00702_MIMIGUN_021","確か、グランドカンパニーの任務でもらえる
-「軍票」とかいうものを貯めると、交換できるらしいですよ。"
-60,"TEXT_SUBWIL160_00702_CHOCOBO_000","クェ～ッ！"
-61,"TEXT_SUBWIL160_00702_MIMIGUN_030","さあ、さあ、お客さん！
-早速、このオスのチョコボに名前をつけてあげてください！"
-62,"TEXT_SUBWIL160_00702_MIMIGUN_040","あなたのつけた名前を、
-チョコボも気に入ってくれたみたいですね。"
-63,"TEXT_SUBWIL160_00702_MIMIGUN_041","さあ、こちらの「<Sheet(Item,6001,0)/>」を渡しましょう。
-これを吹き鳴らせば「マイチョコボ」が、
-駆けつけてくれます。"
-64,"TEXT_SUBWIL160_00702_MIMIGUN_042","ただし、人通りが多い都市内や、
-魔物が巣くう洞窟など、チョコボが嫌がる場所には
-来てくれませんからね、注意してください！"
-65,"TEXT_SUBWIL160_00702_MIMIGUN_043","それからもうひとつ、各都市が発行している
-「初級騎乗免許」もお渡ししておきましょう。"
-66,"TEXT_SUBWIL160_00702_MIMIGUN_044","さあ、これで手続きは完了しました！
-さっそく都市の外へと出て、マイチョコボとの旅を
-楽しんでみてはいかがですか？"
-67,"TEXT_SUBWIL160_00702_CHOCOBO_PROMPT_TITLE","マイチョコボの名前を入力してください"
-68,"TEXT_SUBWIL160_00702_CHOCOBO_PROMPT_CAPTION","名前"
-69,"TEXT_SUBWIL160_00702_CHOCOBO_PROMPT_MES0","アルファベット及びアポストロフィが使えます。
-2文字以上20文字以内の名前を入力してください。"
+48,"TEXT_SUBWIL160_00702_Swift_000","<Clickable(<If(GreaterThan(PlayerParameter(52),0))><Sheet(GCRankLimsaMaleText,PlayerParameter(52),8)/><Else/></If><If(GreaterThan(PlayerParameter(53),0))><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),8)/><Else/></If><If(GreaterThan(PlayerParameter(54),0))><Sheet(GCRankUldahMaleText,PlayerParameter(54),8)/><Else/></If>)/> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>, yes? A moment of your time, if you please."
+49,"TEXT_SUBWIL160_00702_Swift_001","You wish to carry out your duties swiftly, do you not? Well then, perhaps you should get yourself a chocobo."
+50,"TEXT_SUBWIL160_00702_Swift_002","If you're interested, the Immortal Flames will furnish you with one. It's not a complex process, but it does require some paperwork."
+51,"TEXT_SUBWIL160_00702_Swift_003","First, speak with the quartermaster to obtain a Flame Chocobo Issuance. You'll need to exchange company seals in order to do so. Once you've received your issuance, show it to Mimigun by the Gate of Nald. He'll be the one to furnish you with a bird."
+52,"TEXT_SUBWIL160_00702_Swift_010","If you wish to acquire your own personal chocobo, you'll need to get a Flame Chocobo Issuance from the quartermaster. Show the deed to Mimigun at the stables, and he'll furnish you with your own bird."
+53,"TEXT_SUBWIL160_00702_MIMIGUN_000","Want a bird issued, you say? Then I'll need to see your Flame Chocobo Issuance."
+54,"TEXT_SUBWIL160_00702_MIMIGUN_010","Yes, everything appears to be in order."
+55,"TEXT_SUBWIL160_00702_MIMIGUN_011","A moment please. I'll be right back with your chocobo."
+56,"TEXT_SUBWIL160_00702_MIMIGUN_012","And here he is! The fellow has been in high spirits the past few bells. He must have sensed that his master was coming!"
+57,"TEXT_SUBWIL160_00702_MIMIGUN_013","Now then, to make it official, you'll want to give your noble steed a name."
+58,"TEXT_SUBWIL160_00702_MIMIGUN_020","Want a bird issued, you say? Then I'll need to see your Flame Chocobo Issuance. You can get one from the Flame quartermaster, over at the Hall of Flames."
+59,"TEXT_SUBWIL160_00702_MIMIGUN_021","Of course, you will need to exchange Flame Seals for it. You can earn these by completing tasks for the Immortal Flames, Ul'dah's Grand Company."
+60,"TEXT_SUBWIL160_00702_CHOCOBO_000","Kweh!"
+61,"TEXT_SUBWIL160_00702_MIMIGUN_030","Now then, to make it official, you'll want to give your noble steed a name."
+62,"TEXT_SUBWIL160_00702_MIMIGUN_040","Heh heh! I daresay he likes his name!"
+63,"TEXT_SUBWIL160_00702_MIMIGUN_041","Here is your very own chocobo whistle. Simply blow into it, and your feathered friend will come bounding to your side."
+64,"TEXT_SUBWIL160_00702_MIMIGUN_042","But do forgive him if he doesn't respond when summoned in crowded city areas or monster-infested lairs. Chocobos are stout-hearted creatures, but they have their limits."
+65,"TEXT_SUBWIL160_00702_MIMIGUN_043","And lastly, I present you with your chocobo rider's license, as is required by law."
+66,"TEXT_SUBWIL160_00702_MIMIGUN_044","And that concludes all the formalities! I wish you and your chocobo long years of fulfilling companionship!"
+67,"TEXT_SUBWIL160_00702_CHOCOBO_PROMPT_TITLE","Name Your Chocobo"
+68,"TEXT_SUBWIL160_00702_CHOCOBO_PROMPT_CAPTION","Name"
+69,"TEXT_SUBWIL160_00702_CHOCOBO_PROMPT_MES0","Names must be between 2 and 20 alphabetic characters."
 70,"TEXT_SUBWIL160_00702_CHOCOBO_PROMPT_MES1",""
 71,"TEXT_SUBWIL160_00702_CHOCOBO_PROMPT_MES2",""

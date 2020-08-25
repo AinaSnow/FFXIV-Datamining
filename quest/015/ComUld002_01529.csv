@@ -1,9 +1,9 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_COMULD002_01529_SEQ_00","不滅隊：作戦本部のミミオ少闘士は、冒険者に依頼したい任務があるようだ。"
-1,"TEXT_COMULD002_01529_SEQ_01","「カルテノー平原」で出土した古代アラグ文明の遺跡の保有権を巡り、リムサ・ロミンサ、グリダニア、ウルダハの三都市が対立しているという。そこで、ミミオ少闘士から、不滅隊の一員として遺跡争奪戦に参加するように依頼された。ウルダハ・ランディングにいる「義士隊飛空兵」に話を聞きにいこう。"
-2,"TEXT_COMULD002_01529_SEQ_02","義士隊飛空兵から、遺跡争奪戦に関する説明を受けた。「アウトロー戦区」で行われている遺跡争奪戦に参加し、不滅隊のために活躍しよう。"
+0,"TEXT_COMULD002_01529_SEQ_00","Lieutenant Mimio is looking for a few good soldiers."
+1,"TEXT_COMULD002_01529_SEQ_01","The member nations of the Eorzean Alliance do not see eye to eye in all matters. Nevertheless, their disagreements have not been irreconcilable─until now. Control of the Carteneau Flats is to be decided on the field of battle, and Lieutenant Mimio would have you fight for the Immortal Flames. Speak with the Free Brigade flyer to learn more of this new conflict, and to decide if you wish to become involved."
+2,"TEXT_COMULD002_01529_SEQ_02","<Emphasis>Civilized</Emphasis> violence. <Emphasis>Civilized</Emphasis> war. The concept seems contradictory, if not ludicrous, yet your fellow soldiers take no issue with this proposed resolution. It is clear now that the Immortal Flames will not be swayed from their course. You, however, are yet free to decide. To embrace this cause, or to renounce it─it is your choice."
 3,"TEXT_COMULD002_01529_SEQ_03",""
 4,"TEXT_COMULD002_01529_SEQ_04",""
 5,"TEXT_COMULD002_01529_SEQ_05",""
@@ -25,7 +25,7 @@ int32,str,str
 21,"TEXT_COMULD002_01529_SEQ_21",""
 22,"TEXT_COMULD002_01529_SEQ_22",""
 23,"TEXT_COMULD002_01529_SEQ_23",""
-24,"TEXT_COMULD002_01529_TODO_00","ウルダハ・ランディングの義士隊飛空兵と話す"
+24,"TEXT_COMULD002_01529_TODO_00","Speak with the Free Brigade flyer at the airship landing."
 25,"TEXT_COMULD002_01529_TODO_01",""
 26,"TEXT_COMULD002_01529_TODO_02",""
 27,"TEXT_COMULD002_01529_TODO_03",""
@@ -49,54 +49,23 @@ int32,str,str
 45,"TEXT_COMULD002_01529_TODO_21",""
 46,"TEXT_COMULD002_01529_TODO_22",""
 47,"TEXT_COMULD002_01529_TODO_23",""
-48,"TEXT_COMULD002_01529_MIMIO_000_001","（★未使用／削除予定★）"
-49,"TEXT_COMULD002_01529_MIMIO_000_002","（★未使用／削除予定★）"
-50,"TEXT_COMULD002_01529_MIMIO_000_003","不滅隊の同志であるキミに、
-依頼したい特別な任務があるんだ！"
-51,"TEXT_COMULD002_01529_MIMIO_000_004","「カルテノー平原」を知っているかい？
-そう、5年前の「第七霊災」の中心地となった、
-エオルゼア同盟軍と帝国軍第VII軍団の決戦の地だよ。"
-52,"TEXT_COMULD002_01529_MIMIO_000_005","同地は、いずれの都市にも領有されていない状態だったけど、
-そこで発見された「古代アラグ文明の遺跡」を巡り、
-少々きな臭いことになっていてね……。"
-53,"TEXT_COMULD002_01529_MIMIO_000_006","我らが不滅隊の上層部は、件の遺跡を重要視しているらしい。
-各都市に対して、遺跡の調査、および保有権を主張したんだ。"
-54,"TEXT_COMULD002_01529_MIMIO_000_007","ところが、同盟参加国のリムサ・ロミンサやグリダニアもまた、
-同じく保有権を求めだしてね……。
-今や「カルテノー平原」は、権利を巡って一触即発の状態なんだ。"
-55,"TEXT_COMULD002_01529_MIMIO_000_008","三国の領袖たちは、この対立が同盟の亀裂とならないよう、
-同地で起きたあらゆる問題を外には持ち出さぬという、
-協定を交わした。"
-56,"TEXT_COMULD002_01529_MIMIO_000_009","こうして「カルテノー平原」は、
-「アウトロー戦区（法外戦区）」に指定され、
-今も激しい戦いが繰り広げられているんだ。"
-57,"TEXT_COMULD002_01529_MIMIO_000_010","……前置きが長くなったね。
-キミに依頼したい特別任務っていうのは、
-ずばり、この遺跡争奪戦への参加だよ。"
-58,"TEXT_COMULD002_01529_MIMIO_000_011","現在、立ち入りが制限されている「カルテノー平原」へは、
-飛空艇を用いて向かってもらう。"
-59,"TEXT_COMULD002_01529_MIMIO_000_012","最前線の戦列に加わる覚悟が決まったら、
-「ウルダハ・ランディング」で待機している、
-「義士隊飛空兵」に申し出てほしい。"
-60,"TEXT_COMULD002_01529_GISHITAIHIKUUHEI_000_020","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/><If(GreaterThan(PlayerParameter(54),0))><Sheet(GCRankUldahMaleText,PlayerParameter(54),0)/><Else/></If>に敬礼ッ！
-「アウトロー戦区」で行われている遺跡争奪戦について、
-ご説明いたします！"
-61,"TEXT_COMULD002_01529_GISHITAIHIKUUHEI_000_021","今回、我々が確保を目指すのは、
-平原南部に位置する「外縁遺跡群」であります！"
-62,"TEXT_COMULD002_01529_GISHITAIHIKUUHEI_000_022","作戦本部では、この遺跡群を掌握することで、
-数マルム北方に存在する「中枢遺跡」の防衛機構を
-制御できるのではないかと考えているそうです。"
-63,"TEXT_COMULD002_01529_GISHITAIHIKUUHEI_000_023","つまり、中枢遺跡に眠る古代の遺産を手にするためには、
-本作戦の成功が必要不可欠ということです！"
-64,"TEXT_COMULD002_01529_GISHITAIHIKUUHEI_000_024","これより、飛空艇にて「カルテノー平原」に進発。
-「アウトロー戦区」に指定されている平原南部に到着後、
-外縁遺跡群にある、複数の要所を確保してください。"
-65,"TEXT_COMULD002_01529_GISHITAIHIKUUHEI_000_025","無論、黒渦団や双蛇党も、兵力を投入してくることでしょう。
-ですが、彼の地は法の外に置かれた「アウトロー戦区」……
-同盟国相手であっても、容赦は不要です！"
-66,"TEXT_COMULD002_01529_GISHITAIHIKUUHEI_000_026","なお、斥候からの報告によれば、遺跡群中央のダラガブ片からは、
-アラグの防衛兵器が転送されてくることがあるとか。
-こちらは、十分に警戒してください！"
-67,"TEXT_COMULD002_01529_GISHITAIHIKUUHEI_000_027","さぁ、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/><If(GreaterThan(PlayerParameter(54),0))><Sheet(GCRankUldahMaleText,PlayerParameter(54),0)/><Else/></If>、
-飛空艇の出港準備は完了しております！
-各種兵装を確認次第、直ちに乗艇願います！"
+48,"TEXT_COMULD002_01529_MIMIO_000_001",""
+49,"TEXT_COMULD002_01529_MIMIO_000_002",""
+50,"TEXT_COMULD002_01529_MIMIO_000_003","Ah, <Clickable(<If(GreaterThan(PlayerParameter(52),0))><Sheet(GCRankLimsaMaleText,PlayerParameter(52),8)/><Else/></If><If(GreaterThan(PlayerParameter(53),0))><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),8)/><Else/></If><If(GreaterThan(PlayerParameter(54),0))><Sheet(GCRankUldahMaleText,PlayerParameter(54),8)/><Else/></If>)/> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>. If you have a moment, I would discuss a matter most grave which concerns the Flames─and by extension, <Emphasis>you</Emphasis>."
+51,"TEXT_COMULD002_01529_MIMIO_000_004","Perchance you're familiar with the Battle of Carteneau? Countless Eorzeans and Garleans massacred by an elder primal, end of an era, and so forth? Good, good. For a moment, I feared you had been living in a cave for the past five years."
+52,"TEXT_COMULD002_01529_MIMIO_000_005","Then surely you know that the Carteneau Flats, where the battle took place, is a hellish wasteland littered with the remnants of that fateful day."
+53,"TEXT_COMULD002_01529_MIMIO_000_006","Hardly anything of consequence to be found there now, eh? Certainly nothing worth protecting. And yet, in spite of that, the Eorzean Alliance continues to maintain a military presence in the region. Why do you suppose that is?"
+54,"TEXT_COMULD002_01529_MIMIO_000_007","Because there <Emphasis>is</Emphasis> something there of consequence. Allagan ruins, to be precise. They were discovered following the Calamity, and Allied scholars have been studying them ever since."
+55,"TEXT_COMULD002_01529_MIMIO_000_008","Three nations working in tandem for a greater good... It should come as no surprise that it would not last. You see, Ul'dah, Limsa Lominsa, and Gridania have all formally asserted a claim to the territory. Negotiations have thus far proved fruitless, and so we are to settle the dispute on the field of battle."
+56,"TEXT_COMULD002_01529_MIMIO_000_009","Oh, but do not misunderstand! We won't be going to <Emphasis>war</Emphasis> with our allies. Hostilities shall be confined to the disputed territories, and we shall fight to submission, not death."
+57,"TEXT_COMULD002_01529_MIMIO_000_010","So there is no cause for concern, oh no. You won't be expected to kill your opponent─merely deprive him of the will to fight."
+58,"TEXT_COMULD002_01529_MIMIO_000_011","I say <Emphasis>you</Emphasis>, because the only reason I deign to share this information with you is because your company needs you, <Clickable(<If(GreaterThan(PlayerParameter(52),0))><Sheet(GCRankLimsaMaleText,PlayerParameter(52),8)/><Else/></If><If(GreaterThan(PlayerParameter(53),0))><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),8)/><Else/></If><If(GreaterThan(PlayerParameter(54),0))><Sheet(GCRankUldahMaleText,PlayerParameter(54),8)/><Else/></If>)/>. We'll be damned if we're going to let a foreign power lay claim to these ruins, and so we need every able-bodied soldier we can muster on the front line."
+59,"TEXT_COMULD002_01529_MIMIO_000_012","I expect you still have questions and concerns. Very well─speak with our man at the airship landing. He will tell you everything you need to know."
+60,"TEXT_COMULD002_01529_GISHITAIHIKUUHEI_000_020","<Clickable(<If(GreaterThan(PlayerParameter(52),0))><Sheet(GCRankLimsaMaleText,PlayerParameter(52),8)/><Else/></If><If(GreaterThan(PlayerParameter(53),0))><Sheet(GCRankGridaniaMaleText,PlayerParameter(53),8)/><Else/></If><If(GreaterThan(PlayerParameter(54),0))><Sheet(GCRankUldahMaleText,PlayerParameter(54),8)/><Else/></If>)/> <Split(<Highlight>ObjectParameter(1)</Highlight>, ,2)/>! Come to join the fight, have we? Very good, very good indeed!"
+61,"TEXT_COMULD002_01529_GISHITAIHIKUUHEI_000_021","Now before we proceed, I must warn you: this isn't going to be like some jaunt in the Wolves' Den."
+62,"TEXT_COMULD002_01529_GISHITAIHIKUUHEI_000_022","You'll be pitted against wave after wave of fellow Alliance members in battle, and they won't care one whit that you're the Warrior of Light."
+63,"TEXT_COMULD002_01529_GISHITAIHIKUUHEI_000_023","This campaign will be long and brutal, and victories won today may be undone tomorrow. Consider the borderland ruins. We need only seize control of each ruin in the region, right? Wrong. Defense is paramount as well, for our rivals will muster forces to challenge our claims."
+64,"TEXT_COMULD002_01529_GISHITAIHIKUUHEI_000_024","It is for that reason we have established an airship route direct to the front line. Those who are ready and willing to fight will never want for transportation!"
+65,"TEXT_COMULD002_01529_GISHITAIHIKUUHEI_000_025","Ah, but that look on your face bespeaks confusion. “Are we at war or not? What is this bollocks about no killing? What in the seven hells is going on!?” That's what you're thinking, yes?"
+66,"TEXT_COMULD002_01529_GISHITAIHIKUUHEI_000_026","It's less “war” and more “organized violence to resolve a territorial dispute.” And yes, it is to be <Emphasis>civilized</Emphasis> violence. Killing Alliance members is strictly prohibited─though accidents have been known to happen, mind you."
+67,"TEXT_COMULD002_01529_GISHITAIHIKUUHEI_000_027","But you of all people have nothing to fear! You've escaped certain death more times than I can count; what are the odds you'll fail to do so this time, eh?"

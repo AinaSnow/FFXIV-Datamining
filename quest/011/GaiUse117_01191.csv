@@ -1,10 +1,10 @@
 ﻿key,0,1
 #,,
 int32,str,str
-0,"TEXT_GAIUSE117_01191_SEQ_00","ラヤ・オ・センナは、冒険者にさせたいことがあるようだ。"
-1,"TEXT_GAIUSE117_01191_SEQ_01","ラヤ・オ・センナから、善王モグル・モグXII世の討伐完了を報告するよう依頼された。不語仙の座卓にいる「カヌ・エ・センナ」に報告しよう。"
-2,"TEXT_GAIUSE117_01191_SEQ_02","カヌ・エ・センナらとの対話によれば、モーグリ族に召喚の方法を教えた人物は、やはりアシエンである可能性が高いようだ。砂の家にいる「ミンフィリア」に報告しよう。"
-3,"TEXT_GAIUSE117_01191_SEQ_03","ミンフィリアに報告することができた。どうやら、彼女からさらなる信頼を得ることができたようだ。"
+0,"TEXT_GAIUSE117_01191_SEQ_00","Raya–O–Senna wishes to congratulate you on your victory over Good King Moggle Mog XII."
+1,"TEXT_GAIUSE117_01191_SEQ_01","Raya–O–Senna declares that your brave deeds in service to the Twelveswood shall not be forgotten. Certain that her sister will be eager to hear the tale of Good King Moggle Mog XII's defeat from the mouth of the <If(PlayerParameter(4))>woman<Else/>man</If> responsible, she urges you to return to the Lotus Stand in Old Gridania."
+2,"TEXT_GAIUSE117_01191_SEQ_02","Your eloquent description of the events in Thornmarch serves to confirm the worst fears of the Elder Seedseer and your fellow Scions: like the primals of the beast tribes, Good King Moggle Mog XII was called forth by means of a rite imparted to the Mogglesguard by the Ascians. Papalymo bids you return to the Waking Sands and report these troubling findings to Minfilia while he and Yda discuss the matter of the Scions' compensation with the Elder Seedseer."
+3,"TEXT_GAIUSE117_01191_SEQ_03","Though Minfilia has already received word of your victory, she is nevertheless eager to hear your version of events. After listening to your account, she too is forced to conclude that Ascians were behind both of Good King Moggle Mog XII's recent appearances. Though unquestionably unfortunate, Minfilia reflects that this latest incident did at least provide an opportunity to remind the Elder Seedseer of the Scions' unique role in Eorzea─persuading her to proffer much-needed additional support."
 4,"TEXT_GAIUSE117_01191_SEQ_04",""
 5,"TEXT_GAIUSE117_01191_SEQ_05",""
 6,"TEXT_GAIUSE117_01191_SEQ_06",""
@@ -25,8 +25,8 @@ int32,str,str
 21,"TEXT_GAIUSE117_01191_SEQ_21",""
 22,"TEXT_GAIUSE117_01191_SEQ_22",""
 23,"TEXT_GAIUSE117_01191_SEQ_23",""
-24,"TEXT_GAIUSE117_01191_TODO_00","不語仙の座卓のカヌ・エ・センナに報告"
-25,"TEXT_GAIUSE117_01191_TODO_01","砂の家のミンフィリアに報告"
+24,"TEXT_GAIUSE117_01191_TODO_00","Speak with Kan–E–Senna at the Lotus Stand."
+25,"TEXT_GAIUSE117_01191_TODO_01","Report to Minfilia in the Waking Sands."
 26,"TEXT_GAIUSE117_01191_TODO_02",""
 27,"TEXT_GAIUSE117_01191_TODO_03",""
 28,"TEXT_GAIUSE117_01191_TODO_04",""
@@ -49,85 +49,38 @@ int32,str,str
 45,"TEXT_GAIUSE117_01191_TODO_21",""
 46,"TEXT_GAIUSE117_01191_TODO_22",""
 47,"TEXT_GAIUSE117_01191_TODO_23",""
-48,"TEXT_GAIUSE117_01191_RAYAOSENNA_000_000","善王モグル・モグXII世の討伐、ご苦労様。
-「カヌ・エ姉様」へも、あんたから詳しく
-報告してあげてくれない？"
-49,"TEXT_GAIUSE117_01191_RAYAOSENNA_000_001","いつものように、
-グリダニアの豊穣神祭壇にいる道士に申し出れば、
-「不語仙の座卓」へ通してもらえるようにしておくわ。"
-50,"TEXT_GAIUSE117_01191_RAYAOSENNA_000_005","善王モグル・モグXII世の討伐、ご苦労様。
-「カヌ・エ姉様」へも、あんたから詳しく
-報告してあげてくれない？"
-51,"TEXT_GAIUSE117_01191_DOORMANLOTUS_000_010","善王モグル・モグXII世の討伐、ご苦労だった。
-皆様がお待ちかねだぞ。
-さっそく「不語仙の座卓」へ向かうか？"
-52,"TEXT_GAIUSE117_01191_CHOICE1Q1_100_1","「不語仙の座卓」に移動しますか？"
-53,"TEXT_GAIUSE117_01191_CHOICE1A1_101_1","はい"
-54,"TEXT_GAIUSE117_01191_CHOICE1A2_102_2","いいえ"
-55,"TEXT_GAIUSE117_01191_YDA_000_010","お帰り！
-善王討伐について、いろいろ聞きたいところだけど、
-とにかく、まずはカヌ・エ様に報告してあげて。"
-56,"TEXT_GAIUSE117_01191_PAPALYMO_000_010","今回は、ご苦労様だったね。
-それにしても、いったい誰が
-家臣団に蛮神の召喚方法を教えたんだろう……。"
-57,"TEXT_GAIUSE117_01191_KUPLOKOPP_000_010","みんなで待ってたクポ！
-早くカヌ・エに報告してあげてクポ！"
-58,"TEXT_GAIUSE117_01191_KANESENNA_000_011","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>殿、ご苦労様でした。
-「善王モグル・モグXII世」を抑えていただけたこと、
-連絡を受けております。"
-59,"TEXT_GAIUSE117_01191_KANESENNA_000_012","さっそくですが……
-戦況を詳しく報告していただけますか？"
-60,"TEXT_GAIUSE117_01191_KANESENNA_000_013","……そのようなことが。"
-61,"TEXT_GAIUSE117_01191_YDA_000_014","やっぱりさぁ。
-その王様って、どう考えても「蛮神」だよね～。"
-62,"TEXT_GAIUSE117_01191_YDA_000_015","「神様じゃない蛮神」って感じ？
-ややこしいけど。"
-63,"TEXT_GAIUSE117_01191_PAPALYMO_000_016","信じる心と強き願いが、クリスタルの力を糧にして、
-見えぬ存在を具現化する……。
-まさに「蛮神召喚」だ。"
-64,"TEXT_GAIUSE117_01191_KANESENNA_000_017","問題は、その「神降ろし」の方法を、
-一体だれがモーグリ族に教えたのかということ……。"
-65,"TEXT_GAIUSE117_01191_YDA_000_018","それってまさか……。"
-66,"TEXT_GAIUSE117_01191_PAPALYMO_000_018","エオルゼア各地に出没している仮面の男……
-混沌の種を蒔く存在、アシエン！"
-67,"TEXT_GAIUSE117_01191_KUPLOKOPP_000_019","そういえば、家臣団が5年前に
-へんちくりんな仮面の男から、
-王様の呼び方を教わったって言ってたクポ！"
-68,"TEXT_GAIUSE117_01191_PAPALYMO_000_020","くそっ……。
-やはり、奴ら……アシエンを叩かないことには、
-蛮神の乱立は止められないのか。"
-69,"TEXT_GAIUSE117_01191_KANESENNA_000_021","闇を根絶しないかぎり、
-私たちが戦うべき蛮神は、この先も増え続ける……。"
-70,"TEXT_GAIUSE117_01191_KANESENNA_000_022","報告、承りました。
-依頼を解決していただいて感謝しております。
-……双蛇党も気を引き締めなければなりませんね。"
-71,"TEXT_GAIUSE117_01191_YDA_000_023","それはそうと、カヌ・エ様。
-例の件は、決めていただけましたか？"
-72,"TEXT_GAIUSE117_01191_KANESENNA_000_024","ええ、もちろんです。
-レヴナンツトールへの「暁」本部移転に必要な物資は、
-今回のお礼も兼ねて、支援させていただきます。"
-73,"TEXT_GAIUSE117_01191_YDA_000_025","ありがとうございます、カヌ・エ様。"
-74,"TEXT_GAIUSE117_01191_PAPALYMO_000_026","これで、砂の家で待つ「ミンフィリア」にも、
-いい報告ができそうだよ。
-君から、直接話してあげてくれないかい？"
-75,"TEXT_GAIUSE117_01191_YDA_000_027","グリダニアからの支援物資があれば、
-レヴナンツトールへの移転もはかどるはずだよ。"
-76,"TEXT_GAIUSE117_01191_PAPALYMO_000_028","砂の家で待つ「ミンフィリア」にも、
-いい報告ができそうだ。
-君から、直接話してあげてくれないかい？"
-77,"TEXT_GAIUSE117_01191_KUPLOKOPP_000_029","家臣団のヤツらは、反省してたクポ！
-ヤツらがまた王様を召喚しないように、
-モグが目を光らせておくクポ。"
-78,"TEXT_GAIUSE117_01191_DOORMANLOTUS_000_030","今回はご苦労であったな。
-貴殿ら「暁」の主にも、よろしく伝えられよ。"
-79,"TEXT_GAIUSE117_01191_KANESENNA_100_030","レヴナンツトールへの「暁」本部移転……
-すみやかに完了することを祈っています。"
-80,"TEXT_GAIUSE117_01191_MINFILIA_000_030","おかえり、イダとパパリモから報告は受けているわ。
-もちろん、モーグリ族の裏で動いていたアシエンの件もね。
-一刻も早く、彼らを止める方法を見つけなくては……。"
-81,"TEXT_GAIUSE117_01191_MINFILIA_000_031","でも、あせっても仕方ないわね。
-本部移転の件で、グリダニアからの物資援助を
-取り付けられたことだけでも、喜ばなくっちゃ。"
-82,"TEXT_GAIUSE117_01191_MINFILIA_000_032","本当にありがとう、<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>。
-やはり、あなたには人と人とを結びつける力があるようね。
-これからも、頼りにしているわよ。"
+48,"TEXT_GAIUSE117_01191_RAYAOSENNA_000_000","Your bravery in service to the Twelveswood and her moogles shall not be forgotten, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
+49,"TEXT_GAIUSE117_01191_RAYAOSENNA_000_001","My sister will doubtless wish to hear the tale of this great victory from the mouth of the <If(PlayerParameter(4))>woman<Else/>man</If> responsible. Pray return to the Lotus Stand and treat her to a full account of the day's events, while the details are yet fresh in your mind."
+50,"TEXT_GAIUSE117_01191_RAYAOSENNA_000_005","I know only too well how modest you are... If you take no pleasure in recounting your deeds, pray think instead of the pleasure others take from hearing about them. Surely <Emphasis>that</Emphasis> is motivation enough for one so selfless? Good! Off to the Lotus Stand with you."
+51,"TEXT_GAIUSE117_01191_DOORMANLOTUS_000_010","The Elder Seedseer is expecting you, <If(PlayerParameter(4))>madam<Else/>sir</If>. May I show you in?"
+52,"TEXT_GAIUSE117_01191_CHOICE1Q1_100_1","Proceed to the Lotus Stand?"
+53,"TEXT_GAIUSE117_01191_CHOICE1A1_101_1","Yes"
+54,"TEXT_GAIUSE117_01191_CHOICE1A2_102_2","No"
+55,"TEXT_GAIUSE117_01191_YDA_000_010","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>! Kuplo Kopp says you killed the king! I'm pleased, of course, but it completely spoiled the end of your story. Silly moogle."
+56,"TEXT_GAIUSE117_01191_PAPALYMO_000_010","By Louisoix's definition, the late King Moggle Mog XII was indeed a primal. But how can that be? It defies all precedent."
+57,"TEXT_GAIUSE117_01191_KUPLOKOPP_000_010","Everyone wants to hear your tale, kupo! What are you waiting for? Tell them! Tell them!"
+58,"TEXT_GAIUSE117_01191_KANESENNA_000_011","<Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. You are returned to us, unharmed and victorious. Thus have I two reasons to be glad."
+59,"TEXT_GAIUSE117_01191_KANESENNA_000_012","Yet many questions remain unanswered. If you would be so kind as to oblige me, I would fain hear all that occurred in Thornmarch."
+60,"TEXT_GAIUSE117_01191_KANESENNA_000_013","...Then it is as we feared."
+61,"TEXT_GAIUSE117_01191_YDA_000_014","The king really <Emphasis>is</Emphasis> a primal..."
+62,"TEXT_GAIUSE117_01191_YDA_000_015","...But he really <Emphasis>isn't</Emphasis>, is he? I mean, the moogles don't worship him, for one thing─he's not even a god to them! That doesn't sound like any primal I've ever heard of."
+63,"TEXT_GAIUSE117_01191_PAPALYMO_000_016","Then mayhap the fault lies with the definition. The fact remains that through a combination of the power contained in crystals and the force of their collective faith, the moogles called forth a being that by rights should not exist. Moreover, when slain, said being left no corpse─the aether which comprised him instead being scattered to the four winds."
+64,"TEXT_GAIUSE117_01191_KANESENNA_000_017","According to the accepted definition, he may not be a primal...but the mode of his manifestation was in every respect the same."
+65,"TEXT_GAIUSE117_01191_YDA_000_018","Which means..."
+66,"TEXT_GAIUSE117_01191_PAPALYMO_000_018","Ascians. This whole business <Emphasis>reeks</Emphasis> of their handiwork!"
+67,"TEXT_GAIUSE117_01191_KUPLOKOPP_000_019","Kupopo!? They...they said it was a masked man who had taught them how, years ago─b-but Gridania has no shortage of masked men, and...and I never thought to question..."
+68,"TEXT_GAIUSE117_01191_PAPALYMO_000_020","Confound it all! How many more will they ensnare with their tainted gifts...?"
+69,"TEXT_GAIUSE117_01191_KANESENNA_000_021","Too many, I fear. So long as there are Paragons to stir the embers, fools to build the pyre, and crystals to feed the flames, ever and again shall we suffer primal visitation. A somber thought, but a salutary one."
+70,"TEXT_GAIUSE117_01191_KANESENNA_000_022","My heartfelt thanks, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. Already, the information you have provided has proven invaluable. The grand serpent marshal and I have much to discuss."
+71,"TEXT_GAIUSE117_01191_YDA_000_023","Oh! Before you do, my lady, I was hoping we might finish discussing that <Emphasis>other</Emphasis> matter?"
+72,"TEXT_GAIUSE117_01191_KANESENNA_000_024","The matter of which you speak has even now been settled. The Scions shall not want for support. We shall be glad to send additional supplies to Revenant's Toll."
+73,"TEXT_GAIUSE117_01191_YDA_000_025","We knew we could count on you, my lady!"
+74,"TEXT_GAIUSE117_01191_PAPALYMO_000_026","While Yda and I remain to discuss the particulars of our arrangement with the Elder Seedseer, mayhap you could return to the Waking Sands and apprise the Antecedent of all that has transpired?"
+75,"TEXT_GAIUSE117_01191_YDA_000_027","Thanks to the Elder Seedseer's generous donation, the Rising Stones may actually be worth leaving the Waking Sands for!"
+76,"TEXT_GAIUSE117_01191_PAPALYMO_000_028","This business has taught us much, and the Antecedent must needs be informed of our findings. Pray leave matters here to us and return to the Waking Sands."
+77,"TEXT_GAIUSE117_01191_KUPLOKOPP_000_029","You don't have to worry about the Mogglesguard anymore, kupo! The chieftain made them apologize in front of absolutely everyone. And just to be sure, we're keeping a close eye on them, too."
+78,"TEXT_GAIUSE117_01191_DOORMANLOTUS_000_030","May the elementals see you safely home, <If(PlayerParameter(4))>madam<Else/>sir</If>."
+79,"TEXT_GAIUSE117_01191_KANESENNA_100_030","Please extend my personal thanks to the Antecedent, along with my best wishes for the Scions' forthcoming move."
+80,"TEXT_GAIUSE117_01191_MINFILIA_000_030","It is good to see you hale and healthy, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>. I received word from Yda and Papalymo that you had felled Good King Moggle Mog XII, but I had hoped to hear your version of the tale."
+81,"TEXT_GAIUSE117_01191_MINFILIA_000_031","...So it was as they said. Summoned with the same methods used by the beast tribes and taught by the Ascians."
+82,"TEXT_GAIUSE117_01191_MINFILIA_000_032","Though unfortunate, this incident did at least serve to remind the Elder Seedseer of our usefulness. Her offer of additional support could not have come at a better time. My thanks, <Split(<Highlight>ObjectParameter(1)</Highlight>, ,1)/>."
