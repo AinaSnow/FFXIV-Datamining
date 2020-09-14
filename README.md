@@ -1,2 +1,2 @@
-# FFXIV-database-for-Japanese/Chinaese
-FINAL FANTASY XIV ONLINE Game Database For Japanese/Chinaese
+# FFXIV-database-for-JA/CN
+FINAL FANTASY XIV ONLINE Game Database For Japanese/Simplified Chinese
