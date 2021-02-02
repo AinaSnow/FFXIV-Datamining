@@ -438,8 +438,8 @@ int32,GatheringCondition,uint32,uint16,GatheringPointBonusType,uint16,uint16,bit
 434,"獲得力 <Value>IntegerParameter(1)</Value>以上",2192,2411,"個数＋<Value>IntegerParameter(1)</Value>個（上昇タイプ）",2,4,False,0
 435,"GPmax <Value>IntegerParameter(1)</Value>以上",740,814,"採集回数／耐久＋<Value>IntegerParameter(1)</Value>（上昇タイプ）",1,2,False,0
 436,"GPmax <Value>IntegerParameter(1)</Value>以上",740,814,"採集回数／耐久＋<Value>IntegerParameter(1)</Value>（上昇タイプ）",2,4,False,0
-437,"<Sheet(Item,IntegerParameter(1),0)/><If(IntegerParameter(2))>装備時<Else/>非装備時</If>",30301,0,"",0,0,True,0
-438,"<Sheet(Item,IntegerParameter(1),0)/><If(IntegerParameter(2))>装備時<Else/>非装備時</If>",30302,0,"",0,0,True,0
+437,"<Sheet(Item,IntegerParameter(1),0)/><If(IntegerParameter(2))>装備時<Else/>非装備時</If>",30301,0,"<If(IntegerParameter(2))>収集品採集可能<Else/>収集品採集不可</If>",0,0,True,0
+438,"<Sheet(Item,IntegerParameter(1),0)/><If(IntegerParameter(2))>装備時<Else/>非装備時</If>",30302,0,"<If(IntegerParameter(2))>収集品採集可能<Else/>収集品採集不可</If>",0,0,True,0
 439,"識質力 <Value>IntegerParameter(1)</Value>以上",2336,3504,"HQ獲得率＋<Value>IntegerParameter(1)</Value>％（上昇タイプ）",20,30,False,0
 440,"識質力 <Value>IntegerParameter(1)</Value>以上",2336,3504,"HQ獲得率＋<Value>IntegerParameter(1)</Value>％（上昇タイプ）",30,50,False,0
 441,"獲得力 <Value>IntegerParameter(1)</Value>以上",2348,2582,"個数＋<Value>IntegerParameter(1)</Value>個（上昇タイプ）",1,2,False,0

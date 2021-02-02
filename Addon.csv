@@ -3673,6 +3673,12 @@ CLASS :"
 3787,"<Highlight>StringParameter(1)</Highlight>からの蘇生を受けますか？"
 3788,"<Sheet(PlaceName,<Sheet(Aetheryte,IntegerParameter(1),8)/>,0)/>"
 3789,"復帰地点に戻る"
+3790,"戦闘不能となったため「<Highlight>StringParameter(1)</Highlight>」から退出します。
+
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>※保留をしても戦闘不能から10分経過すると強制的に退出となりますのでご注意ください。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+"
+3791,"退出"
+3792,"コンテンツから退出"
 3800,"FISHING LOG"
 3801,"釣り手帳"
 3802,"REGION"
@@ -8594,6 +8600,7 @@ PvPコンテンツにはPvP専用のバトルシステムが用意されてお�
 よろしいですか？"
 8874,"カスタマイズした内容を適用します。
 よろしいですか？"
+8875,"戦闘開始までのカウントをコンテンツ内のプレイヤー全員に対して表示します。"
 8876,"戦闘開始までのカウントをパーティメンバーもしくはアライアンスメンバーに対して表示します。"
 8877,"カウント設定 (5秒～30秒)"
 8878,"実行"
@@ -11314,6 +11321,16 @@ DPS内のジョブは、[近接][遠隔物理][遠隔魔法][指定なし]
 (コントローラー専用)<Else/>キャラクター閲覧モードをON/OFFする
 (ゲームパッド専用)</If>"
 11544,"キャラクターの位置と回転状態をリセットする"
+11560,"全体強化度：<If(GreaterThan(IntegerParameter(3),0))><Value>IntegerParameter(1)</Value>/<Value>IntegerParameter(2)</Value><Else/><Value>IntegerParameter(2)</Value>（片手剣：<Value>IntegerParameter(4)</Value>/<Value>IntegerParameter(5)</Value> 盾：<Value>IntegerParameter(6)</Value>/<Value>IntegerParameter(7)</Value>）</If>"
+11561,"+<Value>IntegerParameter(1)</Value>"
+11562,"/<Value>IntegerParameter(1)</Value>"
+11563,"分配実行"
+11564,"分配した値で装備を強化します。
+よろしいですか？"
+11565,"現在、分配した状態を破棄します。
+よろしいですか？"
+11566,"変更した値で再分配します。
+よろしいですか？"
 11570,"DONATION BASKET"
 11571,"義援物資置き場"
 11572,"売却額比"
@@ -13661,6 +13678,7 @@ PvPチームの結成に同意しますか？"
 13986,"開戦準備中のクリティカルエンゲージメントに追加参戦可能！"
 13987,"参戦可能なクリティカルエンゲージメントが発生中！"
 13988,"クリティカルエンゲージメント"
+13989,"関連項目 <Value>IntegerParameter(1)</Value>/<Value>IntegerParameter(2)</Value>"
 14000,"ステッカーモード"
 14001,"画面上にステッカーを貼り付けて、
 装飾を行うステッカーモードに切り替えます。"
