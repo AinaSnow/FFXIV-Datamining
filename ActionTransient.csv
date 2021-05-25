@@ -24697,7 +24697,7 @@ int32,str
 20530,""
 20531,""
 20532,""
-20533,""
+20533,"自身の周囲の敵に無属性範囲魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>200"
 20534,""
 20535,""
 20536,""
@@ -25004,7 +25004,8 @@ int32,str
 20733,"味方ひとりを対象として、対象が継承中のロストアクションをものまねし、継承する。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身が非戦闘状態"
 20734,"運命のダイスをふる。何が起きるか分からない。
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身が戦闘状態"
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身が戦闘状態
+リキャストタイマーを<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「レジスタンスポーション」<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「レジスタンスエリクサー」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>と共有する。"
 20735,"対象を衰弱状態で蘇生する。"
 20736,"効果時間中に戦闘不能になると70％の確率で自動的に蘇生する。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>180分"
@@ -25026,7 +25027,8 @@ int32,str
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>30分
 リキャストタイマーを<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「レジスタンスポーションキット」<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「レジスタンスエーテルキット」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>と共有する。"
 20740,"自身のＨＰを継続回復する。
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>回復力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>5000　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>40秒"
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>回復力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>5000　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>40秒
+リキャストタイマーを<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「運命のダイス」<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「レジスタンスエリクサー」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>と共有する。"
 20741,"英雄の記憶を継承し、自身の与ダメージを80％上昇させる。
 他の<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「秘薬」「霊薬」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>系薬品とは同時に使えない。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>永続"
@@ -25844,11 +25846,11 @@ int32,str
 21491,""
 21492,""
 21493,""
-21494,""
-21495,""
+21494,"対象に物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>440"
+21495,"対象とその周囲の敵に範囲物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>400"
 21496,""
-21497,""
-21498,""
+21497,"対象のＨＰを回復する。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>回復力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>350"
+21498,"対象に無属性魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>210"
 21499,""
 21500,""
 21501,""
@@ -25958,10 +25960,17 @@ int32,str
 21605,""
 21606,""
 21607,""
-21608,""
-21609,""
+21608,"対象のＨＰを回復する。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>回復力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>400"
+21609,"自身と周囲のパーティメンバーのＨＰを回復する。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>回復力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>200
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>対象のＨＰを継続回復する
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>回復力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>100　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>15秒"
 21610,""
-21611,""
+21611,"自身を中心に不動宮を生成する。
+範囲内にいる自身およびパーティメンバーの被ダメージを10％軽減する。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>18秒
+さらに、範囲内にいる自身およびパーティメンバーに継続回復効果を付与する。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>回復力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>100　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>15秒
+効果時間中にアクションの実行や移動・ターンを行うと、不動宮は即座に消える。
+実行後にオートアタックを停止する。"
 21612,""
 21613,""
 21614,""
@@ -26202,7 +26211,8 @@ int32,str
 21849,""
 21850,""
 21851,""
-21852,""
+21852,"対象に氷属性魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>300
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身のＭＰを最大ＭＰの40％分回復する。"
 21853,""
 21854,""
 21855,""
@@ -26234,11 +26244,16 @@ int32,str
 21881,""
 21882,""
 21883,""
-21884,""
+21884,"対象とその周囲の敵に雷属性範囲魔法攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>200
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>対象に雷属性の継続ダメージを付与する
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>30　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>18秒"
 21885,""
-21886,""
+21886,"対象のＨＰを回復する。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>回復力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>700"
 21887,""
-21888,""
+21888,"自身と周囲のパーティメンバーのＨＰを回復する。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>回復力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>200
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>対象のＨＰを継続回復する
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>回復力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>100　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>15秒"
 21889,""
 21890,""
 21891,""
@@ -26271,7 +26286,8 @@ int32,str
 21918,""
 21919,""
 21920,""
-21921,""
+21921,"自身の周囲の敵の行動を阻害する。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>ブレイク効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>対象の移動や詠唱を妨害し、あらゆる行動を一定時間封じる。"
 21922,""
 21923,""
 21924,""
@@ -28412,22 +28428,87 @@ int32,str
 23904,""
 23905,""
 23906,""
-23907,""
-23908,""
-23909,""
-23910,""
-23911,""
-23912,""
-23913,""
-23914,""
-23915,""
-23916,""
-23917,""
-23918,""
-23919,""
-23920,""
-23921,""
-23922,""
+23907,"デジョンの効果を発動する。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身が非戦闘状態
+リキャストタイマーをウェポンスキルおよび魔法と共有する。"
+23908,"自身と周囲のパーティメンバーに、一定量のダメージを防ぐバリアを張る。
+このバリアは対象の最大ＨＰの10％分のダメージを軽減する。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>30秒"
+23909,"自身の周囲の敵に雷属性範囲魔法攻撃。<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>300
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>対象のアクション詠唱を中断させる。
+「魔法に弱い」敵に対して追加効果を与える。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>被ダメージを10％上昇させる
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>60秒"
+23910,"自身の周囲の敵に範囲物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>300
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>対象のアクション詠唱を中断させる。
+「物理に弱い」敵に対して追加効果を与える。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>被ダメージを10％上昇させる
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>60秒"
+23911,"自身に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ロスト・リフレク」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与する。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>ロスト・リフレク効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>効果時間中に受ける一部を除くすべての魔法を跳ね返す。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>10秒
+リキャストタイマーをウェポンスキルおよび魔法と共有する。"
+23912,"自身または味方ひとりを対象として、<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「リレイズ」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与する。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>リレイズ効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>効果時間中に戦闘不能になると80％の確率で自動的に蘇生する。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>180分"
+23913,"一定時間、魔法を詠唱時間無しで使用することができる。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>30秒
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身が戦闘状態
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「マジックバースト」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与する
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>マジックバースト効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身のＭＰ消費を増加させる代わりに、魔法カテゴリアクションによるダメージを45％上昇させる。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>30秒
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>司祭の薬時追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「マジックバースト」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>のMP消費増加効果が0になり、かつダメージ上昇効果が100％になる。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>斥候の薬時追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ロスト・チェインスペル」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>の効果時間が90秒になる。"
+23914,"対象に近接物理攻撃。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>350
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>背面攻撃時追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>対象を一定確率で戦闘不能にする。対象のＨＰが少ないほど成功率が上昇する。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>人狼の薬時追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ロスト・パワーフォント」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与する。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>ロスト・パワーフォント効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身の与ダメージを30％上昇させ、かつクリティカル発動率を40％上昇させる。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>18秒
+このウェポンスキルは固有のリキャストタイマーを持ち、他のウェポンスキルや魔法のリキャストタイマーの影響を受けない。"
+23915,"自身またはプレイヤーひとりを対象として、被物理ダメージを15％軽減するシールドを付与する。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>30分"
+23916,"自身またはプレイヤーひとりを対象として、被魔法ダメージを15％軽減するシールドを付与する。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>30分"
+23917,"自身またはプレイヤーひとりを対象として、最大ＨＰを30％上昇させる。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>600秒"
+23918,"自身の10m前方に向かって素早く移動する。
+バインド中は実行不可。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身と周囲のパーティメンバーに、<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ロスト・スウィフト」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与する
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>ロスト・スウィフト効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身の移動速度を大幅に上昇させる。
+他の移動速度上昇効果と同時に付与された場合、どれか1つのみが適用される。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>10秒
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>盗賊の薬時追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身と周囲のパーティメンバーの回避率を15％上昇させる
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>60秒
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>斥候の薬時追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身と周囲のパーティメンバーに、<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ファストリキャスト」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与する
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>ファストリキャスト効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>効果時間中に実行する1回のアビリティのリキャストタイムを25％短縮する。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>15秒"
+23919,"使用時に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「衰弱」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を除去し、一定時間、自身への一部を除くすべてのダメージを無効化し、かつ自身の与ダメージを65％上昇させる。
+※<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「衰弱［強］」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>は除去できない。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>10秒
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身が戦闘状態
+効果時間が終了すると、自身に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「英傑」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与する。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>英傑効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身の与ダメージを65％上昇させ、かつ受けるダメージを10％軽減させる。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>50秒"
+23920,"自身と周囲のパーティメンバーのＨＰとＭＰを全回復する。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身と周囲のパーティメンバーに、<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「オートポーション」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>および<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「オートエーテル」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与する
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>オートポーション効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>効果時間中にＨＰが50％以下になると自動的に回復する。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>600秒
+回復効果が発動すると50％の確率で効果が切れる。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>盗賊の薬時追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>回復効果発動時の消滅確率が10％になる。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>オートエーテル効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>効果時間中にＭＰが20％以下になると自動的に回復する。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>600秒
+回復効果が発動すると50％の確率で効果が切れる。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>盗賊の薬時追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>回復効果発動時の消滅確率が10％になる。"
+23921,"自身に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ロスト・ブラッドレイジ」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与する。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>ロスト・ブラッドレイジ効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>1スタックにつき、自身の与ダメージを15％上昇させ、かつ受けるダメージを5％軽減させる。効果時間中<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「突進移動系アクション」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を使用するたびにスタック数を増加し、効果時間をリセットする。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>18秒
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身が戦闘状態
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>最大スタック数：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>4
+最大スタックになると<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ロスト・ブラッドレイジ」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>が<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「血の覚醒」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>に変化する。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>血の覚醒効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身の与ダメージを60％上昇させ、かつＨＰとＭＰを継続回復させ、効果時間中に実行するアビリティのリキャストタイムを75％短縮する。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>30秒"
+23922,"自身のＨＰとＭＰを全回復する。
+リキャストタイマーを<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「レジスタンスポーション」<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「運命のダイス」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>と共有する。"
 23923,""
 23924,""
 23925,""
