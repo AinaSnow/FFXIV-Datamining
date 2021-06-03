@@ -438,8 +438,8 @@ int32,GatheringCondition,uint32,uint16,GatheringPointBonusType,uint16,uint16,bit
 434,"获得力 <Value>IntegerParameter(1)</Value>以上",2192,2411,"个数＋<Value>IntegerParameter(1)</Value>个（上升型）",2,4,False,0
 435,"采集力上限 <Value>IntegerParameter(1)</Value>以上",740,814,"采集次数/耐久＋<Value>IntegerParameter(1)</Value>次（上升型）",1,2,False,0
 436,"采集力上限 <Value>IntegerParameter(1)</Value>以上",740,814,"采集次数/耐久＋<Value>IntegerParameter(1)</Value>次（上升型）",2,4,False,0
-437,"<Sheet(Item,IntegerParameter(1),0)/><If(IntegerParameter(2))>装备时<Else/>未装备时</If>",30301,0,"",0,0,True,0
-438,"<Sheet(Item,IntegerParameter(1),0)/><If(IntegerParameter(2))>装备时<Else/>未装备时</If>",30302,0,"",0,0,True,0
+437,"<Sheet(Item,IntegerParameter(1),0)/><If(IntegerParameter(2))>装备时<Else/>未装备时</If>",30301,0,"<If(IntegerParameter(2))>可以采集收藏品<Else/>不可采集收藏品</If>",0,0,True,0
+438,"<Sheet(Item,IntegerParameter(1),0)/><If(IntegerParameter(2))>装备时<Else/>未装备时</If>",30302,0,"<If(IntegerParameter(2))>可以采集收藏品<Else/>不可采集收藏品</If>",0,0,True,0
 439,"鉴别力 <Value>IntegerParameter(1)</Value>以上",2336,3504,"优质获得率＋<Value>IntegerParameter(1)</Value>％（上升型）",20,30,False,0
 440,"鉴别力 <Value>IntegerParameter(1)</Value>以上",2336,3504,"优质获得率＋<Value>IntegerParameter(1)</Value>％（上升型）",30,50,False,0
 441,"获得力 <Value>IntegerParameter(1)</Value>以上",2348,2582,"个数＋<Value>IntegerParameter(1)</Value>个（上升型）",1,2,False,0
