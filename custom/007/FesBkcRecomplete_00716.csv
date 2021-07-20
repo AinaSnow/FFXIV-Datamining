@@ -8,16 +8,16 @@ int32,str,str
 2,"TEXT_FESBKCRECOMPLETE_00716_YESNOCHECK_000_002","・「シーズナルクエストリプレイ」を実行すると、
 　以下のクエストが未コンプリート状態となります。
 　　「<Sheet(Quest,IntegerParameter(1),0)/>」
-　　「<Sheet(Quest,IntegerParameter(2),0)/>」
-　　「<Sheet(Quest,IntegerParameter(3),0)/>」
-・クエストをコンプリートするまで、以下のNPCから、
+<If(Equal(IntegerParameter(2),0))><Else/>　　「<Sheet(Quest,IntegerParameter(2),0)/>」
+</If><If(Equal(IntegerParameter(3),0))><Else/>　　「<Sheet(Quest,IntegerParameter(3),0)/>」
+</If><If(Equal(IntegerParameter(4),0))><Else/>・クエストをコンプリートするまで、以下のNPCから、
 　関連アイテムの購入・交換ができなくなります。
 　　「<Sheet(ENpcResident,IntegerParameter(4),0)/>」
-　　「<Sheet(ENpcResident,IntegerParameter(5),0)/>」
-・開催期間終了後に、
+</If><If(Equal(IntegerParameter(5),0))><Else/>　　「<Sheet(ENpcResident,IntegerParameter(5),0)/>」
+</If><If(Equal(IntegerParameter(4),0))><Else/>・開催期間終了後に、
 　対象クエストが未コンプリートだった場合は、
 　関連アイテムの購入・交換ができないままとなります。
-・シーズナルクエストリプレイ中は、
+</If>・シーズナルクエストリプレイ中は、
 　対象クエストで報酬を得ることができません。
 
 「シーズナルクエストリプレイ」をご利用いただく際は、
