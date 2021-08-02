@@ -1,5 +1,5 @@
 ﻿key,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
-#,,Top,Bottom,Left,Right,TripleTriadCardRarity,TripleTriadCardType,SaleValue,SortKey,Order,UIPriority,Unknown[5-4],AcquisitionType,Acquisition,Location,Quest
+#,,Top,Bottom,Left,Right,TripleTriadCardRarity,TripleTriadCardType,SaleValue,SortKey,Order,UIPriority,,AcquisitionType,Acquisition,Location,Quest
 int32,uint16,byte,byte,byte,byte,TripleTriadCardRarity,TripleTriadCardType,uint16,byte,uint16,byte,bit&01,byte,Row,Row,Quest
 0,65535,0,0,0,0,"TripleTriadCardRarity#1","",0,0,0,0,False,0,,,
 1,0,4,3,4,2,"TripleTriadCardRarity#1","",0,1,1,0,True,1,,,"决斗！九宫幻卡"
@@ -203,7 +203,7 @@ int32,uint16,byte,byte,byte,byte,TripleTriadCardRarity,TripleTriadCardType,uint1
 199,198,2,8,7,8,"TripleTriadCardRarity#4","拂晓",0,37,186,0,True,11,"九宫卡手7",,"决斗！九宫幻卡"
 200,199,6,1,8,9,"TripleTriadCardRarity#4","拂晓",0,37,187,0,True,11,"街头决斗者6",,"决斗！九宫幻卡"
 201,200,6,7,10,6,"TripleTriadCardRarity#5","帝国",1500,43,188,0,True,3,"鏖战红莲阿拉米格",,"红莲之狂潮"
-202,201,2,5,10,10,"TripleTriadCardRarity#5","",1500,47,189,0,True,6,"九夏","Level#7101716","多玛"
+202,201,2,5,10,10,"TripleTriadCardRarity#5","",1500,47,189,0,True,6,"九夏","Level#7182307","多玛"
 203,202,5,5,1,2,"TripleTriadCardRarity#1","",100,1,190,0,True,10,"卡片兑换员","Level#5581330","跨越长城"
 204,203,7,2,6,2,"TripleTriadCardRarity#2","",300,8,191,0,True,10,"卡片兑换员","Level#5581330","梅弗里德的任务"
 205,204,1,7,5,5,"TripleTriadCardRarity#2","兽人",300,10,192,0,True,6,"伽利摩","Level#6794369","母亲的宠爱"
@@ -231,7 +231,7 @@ int32,uint16,byte,byte,byte,byte,TripleTriadCardRarity,TripleTriadCardType,uint1
 227,226,5,2,7,8,"TripleTriadCardRarity#3","",500,20,217,0,True,4,"苍蓝冰刃——娄希","d2aa","冰雪之地，其名为恒冰地带"
 228,227,2,7,8,7,"TripleTriadCardRarity#4","蛮神",800,35,209,0,True,3,"月读歼灭战",,"圆月"
 229,228,7,10,7,6,"TripleTriadCardRarity#5","",1500,41,210,0,True,2,"封闭圣塔黎铎拉纳大灯塔",,"演员之梦"
-230,229,10,10,2,5,"TripleTriadCardRarity#5","",1500,47,211,0,True,11,"九宫卡手8",,"决斗！九宫幻卡"
+230,229,10,10,2,5,"TripleTriadCardRarity#5","",0,47,211,0,True,11,"九宫卡手8",,"决斗！九宫幻卡"
 231,230,7,1,4,1,"TripleTriadCardRarity#1","",100,1,224,0,True,6,"北辰","Level#6782523","武器怪盗"
 232,231,3,1,7,7,"TripleTriadCardRarity#2","",300,8,218,0,True,10,"卡片兑换员","Level#5581330","前往山岳地带"
 233,232,2,6,7,6,"TripleTriadCardRarity#3","",500,20,219,0,True,3,"污染庭园圣茉夏娜植物园",,"污染庭园圣茉夏娜植物园"
@@ -306,15 +306,25 @@ int32,uint16,byte,byte,byte,byte,TripleTriadCardRarity,TripleTriadCardType,uint1
 302,301,1,8,7,9,"TripleTriadCardRarity#4","帝国",800,36,285,0,True,6,"很有气势的帝国兵","Level#8378786","神兵来袭"
 303,302,4,10,6,8,"TripleTriadCardRarity#5","",1500,41,286,0,True,2,"人偶军事基地",,"与2P的再会"
 304,303,2,10,5,10,"TripleTriadCardRarity#5","蛮神",1500,42,287,0,True,3,"光之战士歼灭战",,"起始与终结之光"
-305,0,0,0,0,0,"TripleTriadCardRarity#0","",0,0,0,0,False,0,,,
-306,305,3,7,6,3,"TripleTriadCardRarity#2","",300,8,291,0,False,3,"魔术工房玛托雅工作室",,"师徒情深"
-307,0,0,0,0,0,"TripleTriadCardRarity#0","",0,0,0,0,False,0,,,
-308,0,0,0,0,0,"TripleTriadCardRarity#0","",0,0,0,0,False,0,,,
-309,0,0,0,0,0,"TripleTriadCardRarity#0","",0,0,0,0,False,0,,,
-310,0,0,0,0,0,"TripleTriadCardRarity#0","",0,0,0,0,False,0,,,
-311,0,0,0,0,0,"TripleTriadCardRarity#0","",0,0,0,0,False,0,,,
-312,311,7,9,8,1,"TripleTriadCardRarity#4","帝国",800,36,292,0,False,3,"绿宝石神兵破坏作战",,"悲伤的阿莉"
-313,312,7,7,1,9,"TripleTriadCardRarity#4","",800,39,293,0,False,6,"琉托·素","Level#8610547","终将诞生于明日的生命诗篇"
-314,313,5,1,9,9,"TripleTriadCardRarity#4","",800,39,294,0,False,6,"琉托·素","Level#8610547","终将诞生于明日的生命诗篇"
-315,314,10,8,6,5,"TripleTriadCardRarity#5","",1500,40,295,0,False,3,"伊甸希望乐园 再生之章4",,"骑士之誓"
-316,315,5,6,9,9,"TripleTriadCardRarity#5","蛮神",0,42,296,0,False,11,"突出重围1",,"决斗！九宫幻卡"
+305,304,4,1,1,7,"TripleTriadCardRarity#1","",100,6,297,0,True,10,"泪男子拉图迦","Level#8157292","真正的齐格弗里德"
+306,305,3,7,6,3,"TripleTriadCardRarity#2","",300,8,291,0,True,3,"魔术工房玛托雅工作室",,"师徒情深"
+307,306,6,8,7,1,"TripleTriadCardRarity#3","",500,20,298,0,True,10,"义军补给兵","Level#8395975","神佑女王"
+308,307,8,6,1,7,"TripleTriadCardRarity#3","",500,20,299,0,True,10,"义军补给兵","Level#8395975","神佑女王"
+309,308,4,6,6,8,"TripleTriadCardRarity#3","",500,20,300,0,True,6,"德罗因","Level#8612500","永别了，初代蓝色假面"
+310,309,6,4,8,6,"TripleTriadCardRarity#3","",500,20,301,0,True,6,"德罗因","Level#8612500","永别了，初代蓝色假面"
+311,310,8,4,6,6,"TripleTriadCardRarity#3","",500,20,302,0,True,10,"泪男子拉图迦","Level#8157292","青魔法的未来"
+312,311,7,9,8,1,"TripleTriadCardRarity#4","帝国",800,36,292,0,True,3,"绿宝石神兵破坏作战",,"悲伤的阿莉"
+313,312,7,7,1,9,"TripleTriadCardRarity#4","",800,39,293,0,True,6,"琉托·素","Level#8610547","终将诞生于明日的生命诗篇"
+314,313,5,1,9,9,"TripleTriadCardRarity#4","",800,39,294,0,True,6,"琉托·素","Level#8610547","终将诞生于明日的生命诗篇"
+315,314,10,8,6,5,"TripleTriadCardRarity#5","",1500,40,295,0,True,3,"伊甸希望乐园 再生之章4",,"骑士之誓"
+316,315,5,6,9,9,"TripleTriadCardRarity#5","蛮神",0,42,296,0,True,11,"突出重围1",,"决斗！九宫幻卡"
+317,316,5,4,7,4,"TripleTriadCardRarity#2","",300,8,303,0,False,10,"广域交易商 苏儿·拉德","Level#7967619","妖灵乡伊尔美格"
+318,317,8,8,4,2,"TripleTriadCardRarity#3","蛮神",500,25,304,0,False,3,"黄金平原帕戈尔赞草原",,"战火燎原"
+319,318,7,8,3,5,"TripleTriadCardRarity#3","帝国",500,26,305,0,False,10,"卡片兑换员","Level#5581330","相伴到永远"
+320,0,0,0,0,0,"TripleTriadCardRarity#0","",0,0,0,0,False,0,,,
+321,0,0,0,0,0,"TripleTriadCardRarity#0","",0,0,0,0,False,0,,,
+322,0,0,0,0,0,"TripleTriadCardRarity#0","",0,0,0,0,False,0,,,
+323,322,9,7,8,1,"TripleTriadCardRarity#4","",800,32,306,0,False,10,"卡·因塔纳","Level#8332210","相伴到永远"
+324,323,9,7,1,8,"TripleTriadCardRarity#4","帝国",800,36,307,0,False,3,"钻石神兵捕获作战",,"熠熠生辉的生命"
+325,0,0,0,0,0,"TripleTriadCardRarity#0","",0,0,0,0,False,0,,,
+326,325,6,4,8,10,"TripleTriadCardRarity#5","",1500,41,308,0,False,2,"希望之炮台：“塔”",,"敌人现身"
