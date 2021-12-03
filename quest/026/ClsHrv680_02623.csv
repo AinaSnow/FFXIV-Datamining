@@ -7,8 +7,8 @@ int32,str,str
 3,"TEXT_CLSHRV680_02623_SEQ_03","<Sheet(EObj,2008181,0)/>を調べた。グリーングラブ菜園の「<Sheet(EObj,2008181,0)/>」を再度調べよう。"
 4,"TEXT_CLSHRV680_02623_SEQ_04","<Sheet(EventItem,2002166,0)/>を手に入れた。グリーングラブ菜園の「エドギス」に「<Sheet(EventItem,2002166,0)/>」を渡そう。"
 5,"TEXT_CLSHRV680_02623_SEQ_05","エドギスに<Sheet(EventItem,2002166,0)/>を渡した。彼女は何かに気がついたらしく、原因を確定させるための試薬の発注を冒険者に頼んだ。イディルシャイアのスティックキクス工房にいる「ゴルドオクス」に「<Sheet(EventItem,2002167,0)/>」を渡そう。"
-6,"TEXT_CLSHRV680_02623_SEQ_06","ゴルドオクスに<Sheet(EventItem,2002167,0)/>を渡した。<Sheet(EventItem,2002168,0)/>を作るには、材料が足りないらしい。スティックキクス工房の「ゴルドオクス」に「<Sheet(ItemHQ,17947,0)/>」を8個納品しよう。「<Sheet(ItemHQ,17947,0)/>」は紅玉海の螺旋海峡にある草刈場で草刈できる。"
-7,"TEXT_CLSHRV680_02623_SEQ_07","ゴルドオクスに<Sheet(ItemHQ,17947,0)/>を納品し、<Sheet(EventItem,2002168,0)/>を作ってもらった。グリーングラブ菜園の「エドギス」に「<Sheet(EventItem,2002168,0)/>」を渡そう。"
+6,"TEXT_CLSHRV680_02623_SEQ_06","ゴルドオクスに<Sheet(EventItem,2002167,0)/>を渡した。<Sheet(EventItem,2002168,0)/>を作るには、材料が足りないらしい。スティックキクス工房の「ゴルドオクス」に「<Sheet(Item,17947,0)/>」を20個納品しよう。「<Sheet(Item,17947,0)/>」は紅玉海の螺旋海峡にある草刈場で草刈できる。"
+7,"TEXT_CLSHRV680_02623_SEQ_07","ゴルドオクスに<Sheet(Item,17947,0)/>を納品し、<Sheet(EventItem,2002168,0)/>を作ってもらった。グリーングラブ菜園の「エドギス」に「<Sheet(EventItem,2002168,0)/>」を渡そう。"
 8,"TEXT_CLSHRV680_02623_SEQ_08","エドギスに<Sheet(EventItem,2002168,0)/>を渡した。それを使って確認したところ、第一世代の枯死の原因は、ネマトーダという虫によるものだとわかった。フフチャらが対応策を探している間、冒険者は何が起きてもいいように園芸師の技術を磨いておこう。
 
 ※園芸師のレベルが70以上になると、イディルシャイアのグリーングラブ菜園にいるエドギスから次の園芸師クエストを受注することができます。"
@@ -32,7 +32,7 @@ int32,str,str
 26,"TEXT_CLSHRV680_02623_TODO_02","<Sheet(EObj,2008181,0)/>を再度調べる"
 27,"TEXT_CLSHRV680_02623_TODO_03","エドギスに<Sheet(EventItem,2002166,0)/>を渡す"
 28,"TEXT_CLSHRV680_02623_TODO_04","ゴルドオクスに<Sheet(EventItem,2002167,0)/>を渡す"
-29,"TEXT_CLSHRV680_02623_TODO_05","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>螺旋海峡で<Sheet(ItemHQ,17947,0)/>を草刈<Else/>イディルシャイアのゴルドオクスに<Sheet(ItemHQ,17947,0)/>を納品</If>"
+29,"TEXT_CLSHRV680_02623_TODO_05","<If(LessThan(IntegerParameter(1),IntegerParameter(2)))>螺旋海峡で<Sheet(Item,17947,0)/>を草刈<Else/>イディルシャイアのゴルドオクスに<Sheet(Item,17947,0)/>を納品</If>"
 30,"TEXT_CLSHRV680_02623_TODO_06","エドギスに<Sheet(EventItem,2002168,0)/>を渡す"
 31,"TEXT_CLSHRV680_02623_TODO_07",""
 32,"TEXT_CLSHRV680_02623_TODO_08",""
@@ -130,17 +130,17 @@ int32,str,str
 78,"TEXT_CLSHRV680_02623_GOLDWOX_000_070","シュコォ……シュコォ……
 なるほど　なるほど　<Sheet(EventItem,2002168,0)/>が　ご入用！
 でもでも　いまは　作れない！"
-79,"TEXT_CLSHRV680_02623_GOLDWOX_000_071","欠かせぬ　素材　とっても希少な　「<Sheet(ItemHQ,17947,0)/>」
+79,"TEXT_CLSHRV680_02623_GOLDWOX_000_071","欠かせぬ　素材　とっても希少な　「<Sheet(Item,17947,0)/>」
 手持ちにないから　作れない！"
 80,"TEXT_CLSHRV680_02623_GOLDWOX_000_072","アンタは　園芸　できる人？
-ならなら　「<Sheet(ItemHQ,17947,0)/>」　採ってきて！
-8個もあれば　<Sheet(EventItem,2002168,0)/>　作れるぞ～！"
-81,"TEXT_CLSHRV680_02623_GOLDWOX_000_073","「<Sheet(ItemHQ,17947,0)/>」　遠い東の　海藻よ！
+ならなら　「<Sheet(Item,17947,0)/>」　採ってきて！
+20個もあれば　<Sheet(EventItem,2002168,0)/>　作れるぞ～！"
+81,"TEXT_CLSHRV680_02623_GOLDWOX_000_073","「<Sheet(Item,17947,0)/>」　遠い東の　海藻よ！
 紅玉海の　海の底　そこなら　そこそこ　採れるはず～！"
 82,"TEXT_CLSHRV680_02623_GOLDWOX_000_080","シュコォ……シュコォ……
-紅玉海の　「<Sheet(ItemHQ,17947,0)/>」　8個もあれば
+紅玉海の　「<Sheet(Item,17947,0)/>」　20個もあれば
 <Sheet(EventItem,2002168,0)/>が　作れるぞ～！"
-83,"TEXT_CLSHRV680_02623_GOLDWOX_000_081","これは　まさしく　「<Sheet(ItemHQ,17947,0)/>」だ！
+83,"TEXT_CLSHRV680_02623_GOLDWOX_000_081","これは　まさしく　「<Sheet(Item,17947,0)/>」だ！
 品質　良質　これならできる！
 ちょっと　待ってね　すぐすぐ　試薬を　作っちゃる！"
 84,"TEXT_CLSHRV680_02623_GOLDWOX_100_081","シュコォ……シュコォ……
