@@ -792,7 +792,8 @@ int32,byte,byte,Image,byte,str,str,str
 如果是跟与你有着相似实力的敌人进行战斗的话，
 陆行鸟或许能够更有效率地获得成长。","",""
 361,1,0,"ui/icon/151000/chs/151152.tex",0,"
-令陆行鸟参加战斗时需要准备一定的<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>基萨尔野菜<UIGlow>01</UIGlow><UIForeground>01</UIForeground>，这可是它们最喜欢的食物。
+想让陆行鸟参加战斗时需要用到<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>基萨尔野菜<UIGlow>01</UIGlow><UIForeground>01</UIForeground>，这是它们最喜欢的食物。
+
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>基萨尔野菜<UIGlow>01</UIGlow><UIForeground>01</UIForeground>可以在商店中购买。在野外使用便可以召唤出陆行鸟一起战斗。
 
 冒险路上有伙伴相伴，旅途中一定会更加热闹！","",""
@@ -1171,7 +1172,7 @@ int32,byte,byte,Image,byte,str,str,str
 581,1,0,"ui/icon/150000/chs/150692.tex",0,"
 捕鱼人接受采集系理符任务的流程与制作理符一样。
 
-首先和委托人对话，之后交纳任务指定的道具。交纳优质道具时还会得到额外的报酬。","",""
+首先和委托人对话，之后交纳任务指定的道具。","",""
 582,0,0,,0,"","",""
 583,0,0,,0,"","",""
 584,0,0,,0,"","",""
@@ -1794,13 +1795,17 @@ int32,byte,byte,Image,byte,str,str,str
 
 颜色完全由染剂的颜色决定，只要染剂有保证，那么同一个物品无论多少次都可以不断反复染色。","",""
 952,1,0,"ui/icon/151000/chs/151003.tex",0,"
-此外，在达成特定任务之前，
-有部分道具无法进行染色。
+此外，在完成特定任务之前，
+部分道具无法进行染色。
 
 可以通过染色窗口确认染色条件，
-并去完成相应的任务。","",""
-953,1,0,,0,"
-为家具染色时也是一样，既可以在背包中打开道具菜单选择<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>“染色”<UIGlow>01</UIGlow><UIForeground>01</UIForeground>指令，也可以在房屋菜单中选择<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>“染色”<UIGlow>01</UIGlow><UIForeground>01</UIForeground>指令。","",""
+完成相应的任务就可以进行染色了。","",""
+953,1,0,"ui/icon/151000/chs/151004.tex",0,"
+想要为家具染色时，
+可以在背包中打开道具的次级指令选择<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>“染色”<UIGlow>01</UIGlow><UIForeground>01</UIForeground>，
+也可以在房屋菜单中选择<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>“染色”<UIGlow>01</UIGlow><UIForeground>01</UIForeground>。
+
+为家居染上自己喜欢的颜色，试着搭配出时尚的房屋吧！","",""
 954,0,0,,0,"","",""
 955,0,0,,0,"","",""
 956,0,0,,0,"","",""
@@ -2035,9 +2040,11 @@ int32,byte,byte,Image,byte,str,str,str
 1088,0,0,,0,"","",""
 1089,0,0,,0,"","",""
 1090,1,0,"ui/icon/151000/chs/151291.tex",0,"
-通过搭配装备提高<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>“鉴别力”<UIGlow>01</UIGlow><UIForeground>01</UIForeground>可以更轻易地钓上更大尺寸的鱼。
+提高<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>鉴别力<UIGlow>01</UIGlow><UIForeground>01</UIForeground>可以更容易钓上尺寸大的鱼。
 
-鱼的体长超过一定长度之后，便会被判定为“大尺寸”属性。所以尽量向更大的目标努力吧！","",""
+超过一定尺寸的鱼会被判定为“大尺寸”。
+
+搭配装备提高鉴别力，试着钓上更大尺寸的鱼吧！","",""
 1091,0,0,,0,"","",""
 1092,0,0,,0,"","",""
 1093,0,0,,0,"","",""
@@ -3824,11 +3831,12 @@ int32,byte,byte,Image,byte,str,str,str
 <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>※若不指定外貌，则可以使召唤兽恢复原状。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>","",""
 2262,1,0,"ui/icon/152000/chs/152453.tex",0,"
 文本指令的示例
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>/召唤兽投影 红宝石兽 伊弗利特之灵<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>/召唤兽投影 宝石兽 伊弗利特之灵<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 
-执行该指令后咏唱“召唤II”，就可以将伊弗利特之灵以红宝石兽的模样召唤出来。
+执行该指令后咏唱“宝石兽召唤”，就可以将宝石兽以伊弗利特之灵的模样召唤出来。
 
-<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>※可选择的外貌种类请参照更新笔记。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>","",""
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>※使用下列文本指令后可查看能够选择的外貌种类
+/? /召唤兽投影。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>","",""
 2270,1,0,"ui/icon/152000/chs/152461.tex",0,"
 在身为冒险者提高名气、挑战更强的敌人时，不仅需要注意自己的职业和职业等级，还需要注意<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>装备品级<UIGlow>01</UIGlow><UIForeground>01</UIForeground>！
 
@@ -4284,7 +4292,7 @@ int32,byte,byte,Image,byte,str,str,str
 是在提升<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>收藏价值<UIGlow>01</UIGlow><UIForeground>01</UIForeground>后进行的特殊采集。
 
 详细内容请从窗口左下的“？”标识进行确认。","",""
-2553,1,0,,0,"
+2553,1,0,"ui/icon/152000/chs/152871.tex",0,"
 在进行采集时，触发<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>额外采集奖励<UIGlow>01</UIGlow><UIForeground>01</UIForeground>后，
 获得的道具数量将会额外增加一个。
 
@@ -4293,45 +4301,49 @@ int32,byte,byte,Image,byte,str,str,str
 
 通过搭配装备提高鉴别力，
 采集更多数量的道具吧！","",""
-2554,1,0,,0,"
+2554,1,0,"ui/icon/152000/chs/152881.tex",0,"
 当鉴别力未满足条件时将无法采集部分道具。
 
-采集道具所需的鉴别力条件可以通过采集笔记进行确认。
+采集道具所需的鉴别力可以通过采集笔记进行确认。
 
-通过搭配装备提高鉴别力，
-前往采集地点吧！","",""
-2555,1,0,,0,"刺鱼是一种捕鱼人专用的
+通过搭配装备提高鉴别力后，
+再前往采集地点吧！","",""
+2555,1,0,"ui/icon/152000/chs/152891.tex",0,"
+刺鱼是一种捕鱼人专用的
 用渔叉瞄准左右游动鱼类的小游戏。
 
-刺鱼过程中出现的鱼类存在一种名为<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>命中框<UIGlow>01</UIGlow><UIForeground>01</UIForeground>的弱点。
-使用<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>刺鱼<UIGlow>01</UIGlow><UIForeground>01</UIForeground>技能刺中该弱点便可以获取鱼类。
-命中框的范围会根据<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>获得力<UIGlow>01</UIGlow><UIForeground>01</UIForeground>的提高而变大，
-更容易方便瞄准。","",""
-2556,1,0,,0,"
-刺鱼过程中，鱼类会一直保持警惕，
-鱼群的警惕状态会由<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>警惕度<UIGlow>01</UIGlow><UIForeground>01</UIForeground>来进行表示。
+鱼的弱点会以<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>命中框<UIGlow>01</UIGlow><UIForeground>01</UIForeground>表示。
+使用<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>刺鱼<UIGlow>01</UIGlow><UIForeground>01</UIForeground>技能刺中框内便可获取该鱼。
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>获得力<UIGlow>01</UIGlow><UIForeground>01</UIForeground>越高，命中框越大，
+较大的命中框更方便瞄准。","",""
+2556,1,0,"ui/icon/152000/chs/152892.tex",0,"
+刺鱼过程中，鱼会一直保持警惕，
+鱼的警惕状态会由<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>警惕度<UIGlow>01</UIGlow><UIForeground>01</UIForeground>来进行表示。
 
-警惕度会随着时间的经过、发动刺鱼时上升，
-当警惕度达到最大值时，鱼群会消失得无影无踪，捕鱼过程也会结束。","",""
-2557,1,0,,0,"
-此外连续成功捕鱼时<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>连刺数<UIGlow>01</UIGlow><UIForeground>01</UIForeground>将会上升，
-该数值越高就越能抑制警惕度的上升。
+警惕度会随着时间经过、发动刺鱼上升，
+当警惕度达到最大值时鱼会消失，捕鱼也会结束。","",""
+2557,1,0,"ui/icon/152000/chs/152893.tex",0,"
+此外，连续成功捕鱼时<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>连刺数<UIGlow>01</UIGlow><UIForeground>01</UIForeground>会上升，
+连刺数越高，警惕度的上升速度越慢。
 
-精准地瞄准好鱼类，积攒连刺数，
-争取在鱼群因警惕而消失前，
-捕获大量的鱼类吧。","",""
-2558,1,0,,0,"在刺鱼过程中，
+精确瞄准鱼群，顺利积攒连刺数，
+争取在鱼群因警惕消失之前，
+捕获大量的鱼吧。","",""
+2558,1,0,"ui/icon/152000/chs/152901.tex",0,"
+在刺鱼过程中，
 获得一定数量的特定鱼类后，
 有可能触发<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>刺鱼人的直觉<UIGlow>01</UIGlow><UIForeground>01</UIForeground>。
 
-刺鱼人的直觉状态中，可以发现隐藏起来的鱼类，
-此时正是捕获平常捕不到鱼类的大好机会。","",""
-2559,1,0,,0,"
-可是随着时间的经过，
-难得现身的鱼类也会再次隐匿踪迹。
+刺鱼人的直觉状态中，
+可以发现隐藏起来的鱼，
+此时正是捕获稀少鱼的大好机会。","",""
+2559,1,0,"ui/icon/152000/chs/152902.tex",0,"
+随着时间的经过，
+难得现身的鱼也会提高警惕，
+从而再次隐匿踪迹。
 
-在察觉到珍稀鱼类的气息后，
-积极地将它们捕获吧！","",""
+在发现稀少鱼之后，
+就积极地捕获它们吧！","",""
 2560,0,0,,0,"","",""
 2561,0,0,,0,"","",""
 2562,0,0,,0,"","",""

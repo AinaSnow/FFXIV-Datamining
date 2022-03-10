@@ -258,7 +258,7 @@ int32,byte,byte,sbyte,sbyte,sbyte,str,str,str,str,str,TextCommandParam,uint32
 リアルイベント用コマンド。
 アーマリーチェスト内のアイテムをもとに、自動的にバトルジョブのギアセットを生成する。","","","pack",0
 33,3,2,7,15,0,"/petmirage","","/召唤兽投影 召唤兽的名字 外貌
-/egiglamour、/egimirage
+/petmirage、/egimirage
 可以改变接下来召唤的召唤兽外貌。
 但在对战任务中无效。
 >>召唤兽的名字
@@ -306,19 +306,21 @@ int32,byte,byte,sbyte,sbyte,sbyte,str,str,str,str,str,TextCommandParam,uint32
 /召唤兽尺寸 亚灵神巴哈姆特 中
 　将亚灵神巴哈姆特的尺寸变为“中”。
 /召唤兽尺寸 全部 小
- 所有召唤兽的显示尺寸全部变为小。","/召唤兽尺寸","/petsize","head",0
-35,3,0,0,0,0,"/ridepillion","","/共同骑乘 代名词 座位编号
-搭乘所选队友的坐骑。
+　所有召唤兽的显示尺寸全部变为“小”。","/召唤兽尺寸","","head",0
+35,3,0,0,0,0,"/ridepillion","","/共同骑乘 队员编号 座位编号
+/ridepillion
+搭乘所选队员的坐骑。
 
 >>座位编号（1-7）
 坐在指定座位编号的位置上。如果指定的座位已经填满，则会自动选择空着的座位。如果省略子命令，则会尝试坐在座位编号1的位置。
 
 >>示例
 /共同骑乘 <2> 1
-搭乘小队内编号为2的成员的坐骑，并坐在座位编号为1的位置。","/共同骑乘","/ridepillion ","head",0
+搭乘小队内编号为2的队员的坐骑，并坐在座位编号为1的位置。","/共同骑乘","","head",0
 36,1,0,0,0,0,"/patchnote","","/版本更新笔记
+/patchnote
 打开官方网站中的版本更新笔记页面。
-此时将启动浏览器。","/版本更新笔记","/patchnote","pack",1000
+此时将启动浏览器。","/版本更新笔记","","pack",1000
 91,1,0,0,0,0,"/pvpteam","/pt","/战队频道(/战) 发言内容
 /pvpteam、/pt
 向同一战队内的全体成员发送聊天消息，无论离多远、无论在哪个地区都可以看到。
@@ -535,7 +537,7 @@ int32,byte,byte,sbyte,sbyte,sbyte,str,str,str,str,str,TextCommandParam,uint32
 【指定在线状态】
 队长(leader)　离开(away)　忙碌(busy)　任务中(contents)　剧情中(event)　希望组队(lookingforparty)　接受镶嵌魔晶石请求(lookingformeld)　队员招募中(recruit)　新人(beginner)　指导者(mentor)　战斗指导者(pvementor)　制作采集指导者(tradementor)　对战指导者(pvpmentor)　角色扮演中(roleplay)　回归者(returner)
 【指定职业】
-剑术师(GLA)　格斗家(PGL)　斧术师(MRD)　枪术师(LNC)　弓箭手(ARC)　幻术师(CNJ)　双剑师(ROG)　咒术师(THM)　秘术师(ACN)　刻木匠(CRP)　锻铁匠(BSM)　铸甲匠(ARM)　雕金匠(GSM)　制革匠(LTW)　裁衣匠(WVR)　炼金术士(ALC)　烹调师(CUL)　采矿工(MIN)　园艺工(BTN)　捕鱼人(FSH)　骑士(PLD)　武僧(MNK)　战士(WAR)　龙骑士(DRG)　吟游诗人(BRD)　忍者(NIN)　白魔法师(WHM)　黑魔法师(BLM)　召唤师(SMN)　学者(SCH)　暗黑骑士(DRK)　占星术士(AST)　机工士(MCH)　武士(SAM)　赤魔法师(RDM)　青魔法师(BLU)　绝枪战士(GNB)　舞者(DNC)　钐镰客（RPR）　贤者（SGE）
+剑术师(GLA)　格斗家(PGL)　斧术师(MRD)　枪术师(LNC)　弓箭手(ARC)　幻术师(CNJ)　双剑师(ROG)　咒术师(THM)　秘术师(ACN)　刻木匠(CRP)　锻铁匠(BSM)　铸甲匠(ARM)　雕金匠(GSM)　制革匠(LTW)　裁衣匠(WVR)　炼金术士(ALC)　烹调师(CUL)　采矿工(MIN)　园艺工(BTN)　捕鱼人(FSH)　骑士(PLD)　武僧(MNK)　战士(WAR)　龙骑士(DRG)　吟游诗人(BRD)　忍者(NIN)　白魔法师(WHM)　黑魔法师(BLM)　召唤师(SMN)　学者(SCH)　暗黑骑士(DRK)　占星术士(AST)　机工士(MCH)　武士(SAM)　赤魔法师(RDM)　青魔法师(BLU)　绝枪战士(GNB)　舞者(DNC)　钐镰客(RPR)　贤者(SGE)
 　※省略该条件会默认为以所有职业为对象进行搜索。
 【指定等级】
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>数字<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -547,7 +549,7 @@ int32,byte,byte,sbyte,sbyte,sbyte,str,str,str,str,str,TextCommandParam,uint32
 黑涡团(Maelstrom)　双蛇党(Order of the Twin Adder)　恒辉队(Immortal Flames)
 　※指令中使用英文名字时需要用半角双引号将带有空格的军队名引用起来。
 【指定地点】
-全世界(world)　利姆萨·罗敏萨(Limsa Lominsa)　格里达尼亚(Gridania)　乌尔达哈(Ul‘dah)　金碟游乐场（The Gold Saucer）　狼狱（The Wolves’ Den）　伊修加德(Ishgard)　田园郡（Idyllshire）　黄金港（Kugane）　神拳痕（Rhalgr‘s Reach）　水晶都（The Crystarium）　游末邦（Eulmore）　旧萨雷安（Old Sharlayan）　拉札罕（Radz-at-Han）　拉诺西亚(La Noscea)　黑衣森林(The Black Shroud)　萨纳兰(Thanalan)　库尔札斯(Coerthas)　摩杜纳(Mor Dhona)　阿巴拉提亚(Abalathia)　龙堡(Dravania)　基拉巴尼亚(Gyr Abania)　奥萨德(Othard)　诺弗兰特(Norvrandt)　萨维奈岛（Thavnair）　加雷马（Garlemald）　迷津（Labyrinthos）　其他区域
+全世界(world)　利姆萨·罗敏萨(Limsa Lominsa)　格里达尼亚(Gridania)　乌尔达哈(Ul‘dah)　金碟游乐场（The Gold Saucer）　狼狱（The Wolves’ Den）　伊修加德(Ishgard)　田园郡（Idyllshire）　黄金港（Kugane）　神拳痕（Rhalgr‘s Reach）　水晶都（The Crystarium）　游末邦（Eulmore）　旧萨雷安（Old Sharlayan）　拉札罕（Radz-at-Han）　拉诺西亚(La Noscea)　黑衣森林(The Black Shroud)　萨纳兰(Thanalan)　库尔札斯(Coerthas)　摩杜纳(Mor Dhona)　阿巴拉提亚(Abalathia)　龙堡(Dravania)　基拉巴尼亚(Gyr Abania)　奥萨德(Othard)　诺弗兰特(Norvrandt)　萨维奈岛(Thavnair)　加雷马(Garlemald)　迷津(Labyrinthos)　其他区域
 　※省略该条件会默认为以全世界为对象进行搜索，使用英文名字时需要用半角双引号将带有空格的地名引用起来。
 >>示例
 /搜索命令 剑术师 20-30 拉诺西亚
@@ -669,9 +671,9 @@ int32,byte,byte,sbyte,sbyte,sbyte,str,str,str,str,str,TextCommandParam,uint32
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>标记名(A、B、C、D、1、2、3、4)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　设置标记。已设置的情况下则会撤除，如果指定代名词则会进行覆盖。
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>标记名(A、B、C、D、1、2、3、4)<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 代名词
-在指定目标脚下直接设置标记。
+　在指定目标脚下直接设置标记。
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>标记名(A、B、C、D、1、2、3、4)<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 地面关
-在当前所指位置直接设置标记。
+　在当前所指位置直接设置标记。
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>撤除(clear)或关(off)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　撤除所有设置中的标记。
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>保存(save) 存档编号1-5<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -991,8 +993,8 @@ int32,byte,byte,sbyte,sbyte,sbyte,str,str,str,str,str,TextCommandParam,uint32
 /beginnerchannelleave、/bchannelleave
 从新人频道中退出。
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>新人及回归者专用。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>","/退出新人频道","/退新","他人",1000
-226,3,2,7,15,0,"/egiglamour","","/召唤兽投影 召唤兽的名字 外貌
-/egiglamour、/egimirage
+226,3,2,7,15,0,"/egiglamour","","/召唤物投影 召唤兽的名字 外貌
+/petmirage、/egimirage
 可以改变接下来召唤的召唤兽外貌。
 但在对战任务中无效。
 >>召唤兽的名字
@@ -1012,7 +1014,7 @@ int32,byte,byte,sbyte,sbyte,sbyte,str,str,str,str,str,TextCommandParam,uint32
 召唤兽会恢复原状。
 >>示例
 /召唤兽投影 迦楼罗之灵 红宝石兽
-将迦楼罗之灵的外貌变成红宝石兽。","/召唤兽投影","/egimirage","head",0
+将迦楼罗之灵的外貌变成红宝石兽。","/召唤物投影","/egimirage","head",0
 227,3,1,2,0,0,"/title","","/称号 子命令
 /title
 改变称号。
@@ -1026,24 +1028,10 @@ int32,byte,byte,sbyte,sbyte,sbyte,str,str,str,str,str,TextCommandParam,uint32
 >>示例
 /称号 设置 银剑
 　将称号设为“银剑”。","/称号","/title","head",1000
-228,2,1,2,0,0,"/bahamutsize","","/巴哈姆特尺寸 子命令
+228,2,1,2,0,0,"/bahamutsize","","/巴哈姆特尺寸
 /bahamutsize
-变更亚灵神巴哈姆特的尺寸。
-本设定在对战区域内无效。
-另外，本设定只对自身生效，无法改变他人的巴哈姆特尺寸。
-
->>子命令
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>大<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　将亚灵神巴哈姆特的尺寸变为“大”。
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>中<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　将亚灵神巴哈姆特的尺寸变为“中”。
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>小<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　将亚灵神巴哈姆特的尺寸变为“小”。
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>无子命令<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　按“小→中→大”的顺序切换设置。
->>示例
-/巴哈姆特尺寸 中
-　将亚灵神巴哈姆特的尺寸变为“中”。","/巴哈姆特尺寸","/bahamutsize","head",0
+可以变更亚灵神巴哈姆特的尺寸。
+※此文本指令已和“/召唤兽尺寸”合并，今后请使用新指令。","/巴哈姆特尺寸","/bahamutsize","head",0
 229,6,3,2,2,2,"/alarm","","/闹钟 子命令
 /alarm
 设置闹钟。
@@ -1091,7 +1079,7 @@ int32,byte,byte,sbyte,sbyte,sbyte,str,str,str,str,str,TextCommandParam,uint32
 /lookingforparty、/lfp
 将在线状态设置为“希望组队”，并附加希望组队的职业。
 >>职业(※可以指定多个职业，顺序不限)
-剑术师(GLA)　格斗家(PGL)　斧术师(MRD)　枪术师(LNC)　弓箭手(ARC)　双剑师(ROG)　幻术师(CNJ)　咒术师(THM)　秘术师(ACN)　刻木匠(CRP)　锻铁匠(BSM)　铸甲匠(ARM)　雕金匠(GSM)　制革匠(LTW)　裁衣匠(WVR)　炼金术士(ALC)　烹调师(CUL)　采矿工(MIN)　园艺工(BTN)　捕鱼人(FSH)　骑士(PLD)　武僧(MNK)　战士(WAR)　龙骑士(DRG)　吟游诗人(BRD)　忍者(NIN)　白魔法师(WHM)　黑魔法师(BLM)　召唤师(SMN)　学者(SCH)　暗黑骑士(DRK)　机工士(MCH)　占星术士(AST)　武士(SAM)　赤魔法师(RDM)　青魔法师(BLU)　绝枪战士(GNB)　舞者(DNC)　贤者（SGE）　钐镰客（RPR）
+剑术师(GLA)　格斗家(PGL)　斧术师(MRD)　枪术师(LNC)　弓箭手(ARC)　双剑师(ROG)　幻术师(CNJ)　咒术师(THM)　秘术师(ACN)　刻木匠(CRP)　锻铁匠(BSM)　铸甲匠(ARM)　雕金匠(GSM)　制革匠(LTW)　裁衣匠(WVR)　炼金术士(ALC)　烹调师(CUL)　采矿工(MIN)　园艺工(BTN)　捕鱼人(FSH)　骑士(PLD)　武僧(MNK)　战士(WAR)　龙骑士(DRG)　吟游诗人(BRD)　忍者(NIN)　白魔法师(WHM)　黑魔法师(BLM)　召唤师(SMN)　学者(SCH)　暗黑骑士(DRK)　机工士(MCH)　占星术士(AST)　武士(SAM)　赤魔法师(RDM)　青魔法师(BLU)　绝枪战士(GNB)　舞者(DNC)　贤者(SGE)　钐镰客(RPR)
 ※省略该条件会默认为指定当前职业。
 >>子命令
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>开(on)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -1503,7 +1491,7 @@ int32,byte,byte,sbyte,sbyte,sbyte,str,str,str,str,str,TextCommandParam,uint32
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>他人(other)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　以“他人”为目标。
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>敌人(enemypc)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
-　以“敌人”为目标。
+　以“对战时的敌方玩家”为目标。
 >>类型
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>全部(all)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
 　设置为“完全显示”。
@@ -1537,7 +1525,7 @@ int32,byte,byte,sbyte,sbyte,sbyte,str,str,str,str,str,TextCommandParam,uint32
 经验值栏(ExpBar,exp)
 状态效果(BuffDebuffStatus,buff)
 状态效果：强化状态(Status:Buff)
-状态效果：触发
+状态效果：前置条件状态(Status:Trigger)
 状态效果：弱化状态(Status:Debuff)
 状态效果：其他状态(Status:Other)
 团队列表1(AllianceList1,alist1)
