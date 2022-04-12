@@ -247,7 +247,7 @@ int32,str
 さらに、ヴァルサンダーとヴァルエアロの威力を360に、ヴァルファイアとヴァルストーンの威力を300に上昇させる。"
 196,"自身に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ヒーリングリリー」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>が付与される。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>最大スタック数：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>3
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身が戦闘状態になり30秒が経過するたび"
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>自身が戦闘状態になり20秒が経過するたび"
 197,"ＩＮＴが8上昇する。"
 198,"ＩＮＴが16上昇する。"
 199,"ＩＮＴが24上昇する。"
@@ -329,7 +329,7 @@ int32,str
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>最大チャージ数：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>2"
 255,"スタンダードフィニッシュおよびテクニカルフィニッシュの成功時に、自身とパーティメンバーに<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「エスプリ」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>が付与されるようになる。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>自身に付与されたエスプリ効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>カスケード、リバースカスケード、ファウンテン、ファウンテンフォール、ウィンドミル、ライジングウィンドミル、ブレードシャワー、ブラッドシャワーを命中させると<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「エスプリ」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>が5上昇する。
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>パーティメンバーに付与されたエスプリ効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>パーティメンバーがウェポンスキルか魔法による攻撃を実行すると、自身の<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「エスプリ」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>が10上昇する。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>パーティメンバーに付与されたエスプリ効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>パーティメンバーがウェポンスキルか魔法による攻撃を命中させると、自身の<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「エスプリ」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>が10上昇する。
 パーティメンバーのエスプリ上昇効果の発動確率はジョブごとに異なる。"
 256,"アン・アヴァンの最大チャージ数が3に増加する。"
 257,"自身に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「ソイル」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>が付与される。
@@ -399,7 +399,7 @@ int32,str
 290,"クリーンショットがヒートクリーンショットに変化する。"
 291,"ホットショットがエアアンカーに変化する。"
 292,"ガウスラウンドとリコシェットの最大チャージ数が3に増加する。"
-293,"ワイルドファイアの「ウェポンスキル1回ごとの威力」が150に上昇する。"
+293,"ワイルドファイアの「ウェポンスキル1回ごとの威力」が200に上昇する。"
 294,"オートタレット・ルークがオートマトン・クイーンに、オーバードライブ・ルークがオーバードライブ・クイーンに変化する。"
 295,"自身に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「アンブラルハート」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>が3つ付与される。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>フリーズ実行時"
@@ -619,7 +619,7 @@ int32,str
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>12秒
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>ナイトの加護効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>対象のＨＰを継続回復する。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>回復力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>250"
-414,"ホーリースピリットとホーリーサークルにＨＰ回復効果を付与する。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>回復力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>400"
+414,"ホーリースピリット、ホーリーサークル、コンフィテオルにＨＰ回復効果を付与する。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>回復力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>400"
 415,"スピリッツウィズインがエクスピアシオンに変化する。"
 416,"ディヴァインヴェールのバリア効果が付与されるときに対象のＨＰを回復する。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>回復力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>400"
 417,"シェイクオフ実行時に、対象のＨＰを回復させる。
@@ -714,6 +714,7 @@ int32,str
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>攻めのタンゴ実行時"
 458,"<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「アストラルファイア」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>および<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「アンブラルブリザード」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>の最大スタック数が2に増加する。"
 459,"<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「アストラルファイア」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>および<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「アンブラルブリザード」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>の最大スタック数が3に増加する。
+3スタックした状態では、反対属性の魔法の詠唱時間が半減する。
 また、ファイラ実行時に自身に最大スタック分の<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「アストラルファイア」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>が、ブリザラ実行時に自身に最大スタック分の<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「アンブラルブリザード」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>が付与されるようになる。"
 460,"自身の与魔法ダメージを5％上昇させる。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground><UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「アストラルファイア」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>または<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「アンブラルブリザード」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>効果中
@@ -755,7 +756,7 @@ int32,str
 479,"ルインガ、ルビー・リチュアル、トパーズ・リチュアル、エメラルド・リチュアルの威力を上昇させる。
 
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>ルインガの威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>310
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>ルビー・リチュアルの威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>450
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>ルビー・リチュアルの威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>510
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>トパーズ・リチュアルの威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>330
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>エメラルド・リチュアルの威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>230"
 480,"守りの光がチャージアクションに変化する。
@@ -868,8 +869,7 @@ int32,str
 515,"終撃が夢幻三段に変化する。"
 516,"特定のアクションの威力を上昇させる。
 
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>双刃旋の威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>210
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>風断ちの威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>160
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>風断ちの威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>120
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>旋風刃の威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>140
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>強甲破点突の威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>140"
 517,"特定のアクションの威力を上昇させる。
@@ -888,9 +888,20 @@ int32,str
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>陰陽闘気斬の威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>340
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>六合星導脚の威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>550"
 519,"風雅が風光に変化する。"
-520,""
-521,""
-522,""
+520,"特定のアクションの威力を上昇させる。
+
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>刃風の威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>200
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>陣風の威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>120
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>士風の威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>120"
+521,"特定のアクションの威力を上昇させる。
+
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>月光の威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>120
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>花車の威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>120
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>雪風の威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>120"
+522,"特定のアクションの威力を上昇させる。
+
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>双刃旋の威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>220
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>風断ちの威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>160"
 523,""
 524,""
 525,""
