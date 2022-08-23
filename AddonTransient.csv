@@ -3,7 +3,7 @@
 int32,str
 0,""
 1,"<CommandIcon(10)/>トレード品を所持品に戻す"
-2,"<CommandIcon(12)/>+ <CommandIcon(13)/>貼り付け  <CommandIcon(10)/>削除  <If(GreaterThan(PlayerParameter(75),0))><CommandIcon(11)/>ソフトウェアキーボード<Else/><Indent/></If>"
+2,"<CommandIcon(12)/>+ <CommandIcon(13)/>貼り付け  <CommandIcon(10)/>削除  <If(PlayerParameter(94))><CommandIcon(11)/>ソフトウェアキーボード<Else/><Indent/></If>"
 3,"<CommandIcon(8)/>メンバーの並び順を変更  <CommandIcon(10)/>サブコマンド"
 4,"<CommandIcon(11)/>この条件でサーチ"
 5,"<CommandIcon(10)/>サブコマンド  <CommandIcon(8)/>購入  <CommandIcon(11)/>売却するアイテムを選択"
@@ -76,7 +76,7 @@ int32,str
 72,"<CommandIcon(10)/>サブコマンド <CommandIcon(1)/>ログを選択 <CommandIcon(2)/>選択タブの切り替え <CommandIcon(11)/>ログを拡大"
 73,"<CommandIcon(10)/>サブコマンド  <CommandIcon(9)/>チャットの操作に戻る  <CommandIcon(11)/>ログを拡大"
 74,"<CommandIcon(10)/>サブコマンド  <CommandIcon(9)/>チャットの操作に戻る  <CommandIcon(11)/>ログを通常サイズに戻す"
-75,"<CommandIcon(5)/>履歴  <CommandIcon(12)/>+ <CommandIcon(13)/>貼り付け  <CommandIcon(10)/>削除  <CommandIcon(13)/>定型文  <If(GreaterThan(PlayerParameter(75),0))><CommandIcon(11)/>ソフトウェアキーボード<Else/><Indent/></If>"
+75,"<CommandIcon(5)/>履歴  <CommandIcon(12)/>+ <CommandIcon(13)/>貼り付け  <CommandIcon(10)/>削除  <CommandIcon(13)/>定型文  <If(PlayerParameter(94))><CommandIcon(11)/>ソフトウェアキーボード<Else/><Indent/></If>"
 76,"<CommandIcon(3)/>戻る  <CommandIcon(4)/>進む  <CommandIcon(13)/>定型文"
 77,"<CommandIcon(10)/>サブコマンド  <CommandIcon(11)/>適用"
 78,"<CommandIcon(11)/>適用  <CommandIcon(10)/>設定を削除　"
@@ -239,7 +239,7 @@ Library programs for DUALSHOCK®4 and DualSense™ wireless controllers © 2021 
 177,"<CommandIcon(9)/>1つ前に戻る  <CommandIcon(11)/>ボイジャー出港"
 178,"<CommandIcon(10)/>サブコマンド"
 179,"<CommandIcon(8)/>選択 <CommandIcon(9)/>閉じる <CommandIcon(11)/>決定して閉じる"
-180,"<CommandIcon(5)/>履歴  <CommandIcon(12)/>+ <CommandIcon(13)/>貼り付け  <CommandIcon(10)/>削除  <If(GreaterThan(PlayerParameter(75),0))><CommandIcon(11)/>ソフトウェアキーボード<Else/><Indent/></If>"
+180,"<CommandIcon(5)/>履歴  <CommandIcon(12)/>+ <CommandIcon(13)/>貼り付け  <CommandIcon(10)/>削除  <If(PlayerParameter(94))><CommandIcon(11)/>ソフトウェアキーボード<Else/><Indent/></If>"
 181,"<CommandIcon(10)/>サブコマンド <CommandIcon(11)/>反映して閉じる"
 182,"<CommandIcon(9)/>反映して閉じる"
 183,"<CommandIcon(10)/>サブコマンド  <CommandIcon(11)/>ミニオンリストを表示する"
@@ -457,12 +457,12 @@ Library programs for DUALSHOCK®4 and DualSense™ wireless controllers © 2021 
 277,"<CommandIcon(8)/>呼び出す/かえす <CommandIcon(10)/>サブコマンド <CommandIcon(11)/>ミニオンホットバー編集 "
 278,"<CommandIcon(8)/>呼び出す/かえす <CommandIcon(10)/>サブコマンド <CommandIcon(11)/>ミニオンの入れ替え"
 279,"<CommandIcon(7)/>移動 <CommandIcon(11)/><CommandIcon(8)/>決定 <CommandIcon(9)/>キャンセル"
-280,"<CommandIcon(5)/>履歴  <CommandIcon(12)/>+ <CommandIcon(13)/>貼り付け  <CommandIcon(10)/>削除  <If(GreaterThan(PlayerParameter(75),0))><CommandIcon(11)/>ソフトウェアキーボード<Else/></If>"
+280,"<CommandIcon(5)/>履歴  <CommandIcon(12)/>+ <CommandIcon(13)/>貼り付け  <CommandIcon(10)/>削除  <If(PlayerParameter(94))><CommandIcon(11)/>ソフトウェアキーボード<Else/></If>"
 281,"<CommandIcon(5)/>移動 <CommandIcon(8)/>呼び出す/かえす <CommandIcon(10)/>サブコマンド"
 282,"<CommandIcon(8)/>実行する <CommandIcon(10)/>サブコマンド"
 283,"<CommandIcon(8)/>実行する <CommandIcon(10)/>サブコマンド <CommandIcon(11)/>マウントの入れ替え"
 284,"<CommandIcon(7)/>移動 <CommandIcon(11)/><CommandIcon(8)/>決定 <CommandIcon(9)/>キャンセル"
-285,"<CommandIcon(5)/>履歴  <CommandIcon(12)/>+ <CommandIcon(13)/>貼り付け  <CommandIcon(10)/>削除  <If(GreaterThan(PlayerParameter(75),0))><CommandIcon(11)/>ソフトウェアキーボード<Else/></If>"
+285,"<CommandIcon(5)/>履歴  <CommandIcon(12)/>+ <CommandIcon(13)/>貼り付け  <CommandIcon(10)/>削除  <If(PlayerParameter(94))><CommandIcon(11)/>ソフトウェアキーボード<Else/></If>"
 286,"<CommandIcon(5)/>移動 <CommandIcon(8)/>実行する <CommandIcon(10)/>サブコマンド"
 287,"<CommandIcon(7)/>移動 <CommandIcon(11)/><CommandIcon(8)/><CommandIcon(10)/>決定 <CommandIcon(9)/>キャンセル"
 288,"<CommandIcon(8)/>呼び出す/かえす <CommandIcon(10)/>サブコマンド"
@@ -482,7 +482,7 @@ Library programs for DUALSHOCK®4 and DualSense™ wireless controllers © 2021 
 302,"<CommandIcon(10)/>サブコマンド"
 303,"<CommandIcon(8)/><CommandIcon(10)/>個室プロフィールを見る"
 304,"<CommandIcon(8)/><CommandIcon(10)/>部屋プロフィールを見る"
-305,"<CommandIcon(10)/>削除<If(GreaterThan(PlayerParameter(75),0))> <CommandIcon(11)/>ソフトウェアキーボード<Else/></If>"
+305,"<CommandIcon(10)/>削除<If(PlayerParameter(94))> <CommandIcon(11)/>ソフトウェアキーボード<Else/></If>"
 306,"<CommandIcon(8)/><CommandIcon(10)/>サブコマンド"
 307,"<CommandIcon(8)/>実行する <CommandIcon(10)/>ホットバーに登録する <CommandIcon(11)/>ミニオンホットバー編集 "
 308,"<CommandIcon(8)/>実行する <CommandIcon(10)/>ホットバーに登録する "
@@ -563,7 +563,7 @@ Library programs for DUALSHOCK®4 and DualSense™ wireless controllers © 2021 
 383,"<CommandIcon(24)/>"
 384,"<CommandIcon(25)/>"
 385,"<CommandIcon(11)/>スクロールジャンプ <CommandIcon(10)/>サブコマンド"
-386,"<CommandIcon(5)/>履歴  <CommandIcon(12)/>+ <CommandIcon(13)/>貼り付け  <CommandIcon(10)/>削除  <If(GreaterThan(PlayerParameter(75),0))><CommandIcon(11)/>ソフトウェアキーボード<Else/></If>"
+386,"<CommandIcon(5)/>履歴  <CommandIcon(12)/>+ <CommandIcon(13)/>貼り付け  <CommandIcon(10)/>削除  <If(PlayerParameter(94))><CommandIcon(11)/>ソフトウェアキーボード<Else/></If>"
 387,"<CommandIcon(8)/>報酬の受け取り  <CommandIcon(10)/>サブコマンド"
 388,"<CommandIcon(10)/>サブコマンド"
 389,"<CommandIcon(10)/>サブコマンド"
@@ -589,7 +589,11 @@ Library programs for DUALSHOCK®4 and DualSense™ wireless controllers © 2021 
 409,"メインクエストで訪れたレベル71以降のインスタンスダンジョンは、
 仲間NPCの<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>幻体<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を連れて、攻略することができます。
 幻体は、攻略に参加させることで経験値を得て、
-レベルアップしていきます。"
+レベルアップしていきます。
+
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>※「フェイス」を利用してインスタンスダンジョンを攻略する際には、
+一部の宝箱の中身が減ります。加えて、一部のモンスターからの報酬が
+得られなくなります。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 410,"ミラージュプリズム"
 411,"レベルが80に到達した仲間NPCの幻体は、
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ミラージュプリズム<UIGlow>01</UIGlow><UIForeground>01</UIForeground>機能が開放されます。
@@ -609,7 +613,10 @@ Library programs for DUALSHOCK®4 and DualSense™ wireless controllers © 2021 
 
 もちろん、事前にプレイヤー同士でパーティを編成して
 突入することも可能で、<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>いずれの方法で突入<UIGlow>01</UIGlow><UIForeground>01</UIForeground>しても、
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>同じようにダンジョンを攻略可能<UIGlow>01</UIGlow><UIForeground>01</UIForeground>です。"
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>同じようにダンジョンを攻略可能<UIGlow>01</UIGlow><UIForeground>01</UIForeground>です。
+
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>※サポートNPCとの攻略の際は、報酬量の調整のため一部の宝箱の
+中身が減り、加えて一部モンスターからの報酬が得られなくなります。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
 416,"コンテンツサポーター"
 417,"プレイヤーである貴方は、<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>サポートNPC<UIGlow>01</UIGlow><UIForeground>01</UIForeground>の助けを借りることで、
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>単独でのダンジョン攻略に挑むことが可能<UIGlow>01</UIGlow><UIForeground>01</UIForeground>です。
@@ -629,22 +636,24 @@ Library programs for DUALSHOCK®4 and DualSense™ wireless controllers © 2021 
 
 <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>制限時間内に突入操作を行わないと参加辞退になり
 もう一度突入先選択からのやり直しが必要となります。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
-420,"攻略可能なダンジョン"
-421,"貴方の冒険が進めば、攻略可能なダンジョンはどんどん増えていきます。
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>コンテンツサポーターに未対応のダンジョンやコンテンツ<UIGlow>01</UIGlow><UIForeground>01</UIForeground>には、
+420,"攻略可能なコンテンツ"
+421,"貴方の冒険が進めば、攻略可能なダンジョンや討伐・討滅戦が
+どんどん増えていきます。
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>コンテンツサポーターに未対応のコンテンツ<UIGlow>01</UIGlow><UIForeground>01</UIForeground>には、
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>コンテンツファインダーを利用<UIGlow>01</UIGlow><UIForeground>01</UIForeground>して挑戦してみましょう！
 
-また、攻略済みのダンジョンは、後から繰り返し再挑戦可能です。
+また、攻略済みのダンジョンや討滅・討滅戦などのコンテンツは、
+後から繰り返し再挑戦可能です。
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>メインコマンド<UIGlow>01</UIGlow><UIForeground>01</UIForeground>の<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>「コンテンツ情報」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>から
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>「コンテンツファインダー」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>や、<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>「コンテンツサポーター」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を利用して
 再挑戦できます。"
 422,"パーティ編成"
-423,"メインクエストで訪れる<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>レベル71以降<UIGlow>01</UIGlow><UIForeground>01</UIForeground>のダンジョンは、
-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>サポートNPC<UIGlow>01</UIGlow><UIForeground>01</UIForeground>の一覧から<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>選択・編成したパーティ<UIGlow>01</UIGlow><UIForeground>01</UIForeground>で
+423,"メインクエストで訪れる<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>レベル71以降<UIGlow>01</UIGlow><UIForeground>01</UIForeground>のダンジョンや討滅・討滅戦は、
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>サポートNPC<UIGlow>01</UIGlow><UIForeground>01</UIForeground>の一覧から自分で<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>選択・編成したパーティ<UIGlow>01</UIGlow><UIForeground>01</UIForeground>で
 突入できるようになります。
 
 パーティメンバーの上でクリック、または決定ボタン操作にて
-そのダンジョンに<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>同行可能なサポートNPC<UIGlow>01</UIGlow><UIForeground>01</UIForeground>の一覧ウィンドウを
+その対象コンテンツに<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>同行可能なサポートNPC<UIGlow>01</UIGlow><UIForeground>01</UIForeground>の一覧ウィンドウを
 呼び出せます。"
 424,""
 425,""
@@ -690,29 +699,145 @@ Library programs for DUALSHOCK®4 and DualSense™ wireless controllers © 2021 
 438,"<CommandIcon(20)/>移動 <CommandIcon(25)/>回転 <CommandIcon(12)/>＋<CommandIcon(24)/>拡大・縮小"
 439,"<CommandIcon(10)/>サブコマンド"
 440,"<CommandIcon(10)/> サブコマンド"
-441,""
-442,""
-443,""
-444,""
-445,""
-446,""
-447,""
-448,""
-449,""
-450,""
-451,""
+441,"リプレイ再生中の基本操作"
+442,"※マウス・キーボードは初期割り当ての内容です。
+<If(Equal(PlayerParameter(78),99))><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>カメラの方向操作<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+ <CommandIcon(20)/>スティック／[W,A,S,D]キー（移動操作キー）
+ 
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>カメラの方向操作（リセット）<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<Gui(16)/>ボタン／[Z]キー（納刀／抜刀） 
+ 
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>カメラの注視対象切り替え<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<CommandIcon(7)/>方向キー・上下左右／[<If(Equal(PlayerParameter(78),3))>tab,shift+tab<Else/>Tab,Shift+Tab</If>]キー
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>リプレイの一時停止／再生<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<CommandIcon(11)/>ボタン／[<If(Equal(PlayerParameter(78),3))>space<Else/>Space</If>]キー（ジャンプ）
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>操作メニューの開閉<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<CommandIcon(10)/>ボタン／[R]キー、ボタン（オートラン）
+<Else/>
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>カメラの方向操作<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+[W,A,S,D]キー（移動操作キー）／  <CommandIcon(20)/>スティック
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>カメラの方向操作（リセット）<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+[Z]キー（納刀／抜刀）／ <Gui(16)/>ボタン
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>カメラの注視対象切り替え<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+[<If(Equal(PlayerParameter(78),3))>tab,shift+tab<Else/>Tab,Shift+Tab</If>]キー／ <CommandIcon(7)/>方向キー・上下左右
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>リプレイの一時停止／再生<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+[<If(Equal(PlayerParameter(78),3))>space<Else/>Space</If>]キー（ジャンプ）／ <CommandIcon(11)/>ボタン
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>操作メニューの開閉<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+[R]キー、ボタン（オートラン）／ <CommandIcon(10)/>ボタン</If>"
+443,"リプレイの記録方法"
+444,"リプレイを記録するには以下の条件を満たす必要があります。
+　1.リプレイ情報の記録設定を有効にする
+　2.リプレイの記録対象コンテンツに突入している
+　3.コンテンツに規定人数で突入している
+　4.リプレイレディチェックを実行している
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>1.リプレイ情報の記録設定を有効にする<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+自分のプレイ環境でリプレイを記録するかを設定します。
+本設定を有効にすることで、他の条件を満たした際にリプレイを再生するのに必要な情報の記録を行います。
+無効に設定した場合は、他の記録条件を満たしていても自分自身のリプレイ記録は行われません。
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>2.リプレイの記録対象コンテンツに突入している<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+リプレイの記録は指定されたコンテンツに限られています。
+そのため、リプレイの記録を行うには記録対象コンテンツに突入する必要があります。
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>3.コンテンツに規定人数で突入している<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+リプレイの記録はコンテンツで設定されている「規定人数」で突入した場合にのみ可能になります。
+※規定人数以下でのマッチングによるパーティの場合は記録は行われません。
+※「制限解除」が有効になっている場合、規定人数で突入していても記録は行われません。
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>4.リプレイレディチェックを実行している<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+実際に記録を開始するには、リプレイの記録を開始して良いかをパーティメンバーに確認するリプレイレディチェックを実行する必要があります。
+リプレイレディチェック実行後、全員が「はい」を押した場合にのみ記録が開始されます。
+※リプレイレディチェックはコンテンツ突入後5分以内に実行する必要があります。
+
+上記の条件を満たした場合にリプレイの記録が行われます。
+記録の際は3つのリプレイデータのうち、記録が古いものから順に上書きをしていきます。
+※2つまで上書き禁止の設定が可能です。"
+445,"リプレイの再生方法"
+446,"記録したリプレイデータを再生する場合、以下の条件を満たしている必要があります。
+　1.宿屋にいる
+　2.リプレイデータが最新バージョンである
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>1.宿屋にいる<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+リプレイは「宿屋」でのみ再生可能です。
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>2.リプレイデータが最新バージョンである<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+リプレイは現在のバージョンのデータのみ再生が行えます。
+メジャーアップデート以外のHotFixなどでも利用できなくなりますのでご注意ください。"
+447,"リプレイ再生中の基本操作"
+448,"※マウス・キーボードは初期割り当ての内容です。
+<If(Equal(PlayerParameter(78),99))><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>カメラの方向操作<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+ <CommandIcon(20)/>スティック／[W,A,S,D]キー（移動操作キー）
+ 
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>カメラの方向操作（リセット）<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<Gui(16)/>ボタン／[Z]キー（納刀／抜刀） 
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>カメラの注視対象切り替え<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<CommandIcon(7)/>方向キー・上下左右／[<If(Equal(PlayerParameter(78),3))>tab,shift+tab<Else/>Tab,Shift+Tab</If>]キー
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>リプレイの一時停止／再生<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<CommandIcon(11)/>ボタン／[<If(Equal(PlayerParameter(78),3))>space<Else/>Space</If>]キー（ジャンプ）
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>操作メニューの開閉<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<CommandIcon(10)/>ボタン／[R]キー、ボタン（オートラン）
+<Else/>
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>カメラの方向操作<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+[W,A,S,D]キー（移動操作キー）／  <CommandIcon(20)/>スティック
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>カメラの方向操作（リセット）<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+[Z]キー（納刀／抜刀）／ <Gui(16)/>ボタン
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>カメラの注視対象切り替え<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+[<If(Equal(PlayerParameter(78),3))>tab,shift+tab<Else/>Tab,Shift+Tab</If>]キー／ <CommandIcon(7)/>方向キー・上下左右
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>リプレイの一時停止／再生<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+[<If(Equal(PlayerParameter(78),3))>space<Else/>Space</If>]キー（ジャンプ）／ <CommandIcon(11)/>ボタン
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>操作メニューの開閉<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+[R]キー、ボタン（オートラン）／ <CommandIcon(10)/>ボタン</If>"
+449,"操作メニュー上の機能"
+450,"<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>リプレイの一時停止／再生<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+リプレイを一時停止または再開します。
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>チャプターセレクト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+リプレイ記録時に設定されたチャプターリストを表示します。
+リスト内の任意のチャプターを選択すると、そのチャプターまでスキップします。
+※指定したチャプターによってはスキップに時間がかかる場合があります。
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>前のチャプターへ<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+一番近い手前のチャプターにスキップします。
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>次のチャプターへ<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+一番近い次のチャプターにスキップします。
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>HUD表示切り替え<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+各種HUDの表示／非表示を切り替えます。
+※非表示に設定した場合は、次回のリプレイ再生時に操作メニューが連動して「非表示」で再生を開始します。
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>フォーカスターゲット<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+カメラの注視対象にフォーカスターゲットを設定します。
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>リプレイ終了<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+リプレイを終了します。"
+451,"<CommandIcon(10)/> サブコマンド"
 452,""
 453,""
 454,""
-455,""
-456,""
-457,""
-458,""
-459,""
+455,"<CommandIcon(10)/> サブコマンド"
+456,"<CommandIcon(8)/>ミニオンを放す  <CommandIcon(10)/>サブコマンド <CommandIcon(11)/>ミニオンの入れ替え"
+457,"<CommandIcon(10)/> サブコマンド"
+458,"<CommandIcon(10)/> サブコマンド"
+459,"<CommandIcon(10)/> サブコマンド"
 460,""
-461,""
-462,""
-463,""
+461,"<CommandIcon(5)/>移動 <CommandIcon(8)/>ミニオンを放す <CommandIcon(10)/>サブコマンド"
+462,"<CommandIcon(8)/>ミニオンを放す <CommandIcon(10)/>サブコマンド"
+463,"<CommandIcon(10)/> サブコマンド"
 464,""
 465,""
 466,""
@@ -1150,8 +1275,20 @@ GPを消費するため、GPの残りには注意しましょう。
 
 これらのアクションは、ホットバーから使用できるので、
 上手く使って、効率よく収集品の採集を行いましょう。"
-1045,""
-1046,""
+1045,"不定性をもつアイテムと昇華"
+1046,"不定性をもつ収集品は、
+収集価値を最大まで高めて精選することで、
+貴重なアイテムを生み出すことがあります。
+
+また、不定性をもつ収集品は、
+収集価値を最大にして採集を行った時に、
+「昇華」を起こすことがあります。
+
+昇華した収集品を精選した場合は、
+必ず、貴重なアイテムを生み出します。
+
+不定性をもつ収集品が昇華する確率は、
+プレイヤーの獲得力が高いほど、上昇します。"
 1047,""
 1048,""
 1049,""
@@ -1166,4 +1303,43 @@ GPを消費するため、GPの残りには注意しましょう。
 1058,""
 1059,""
 1060,""
+1061,""
+1062,""
+1063,""
+1064,""
+1065,""
+1066,""
+1067,""
+1068,""
+1069,""
+1070,""
+1071,""
+1072,""
+1073,""
+1074,""
+1075,""
+1076,""
+1077,""
+1078,""
+1079,""
+1080,""
+1081,""
+1082,""
+1083,""
+1084,""
+1085,""
+1086,""
+1087,""
+1088,""
+1089,""
+1090,""
+1091,""
+1092,""
+1093,""
+1094,""
+1095,""
+1096,""
+1097,""
+1098,""
+1099,""
 2000,""
