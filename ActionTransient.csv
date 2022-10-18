@@ -34240,7 +34240,7 @@ int32,str
 28507,""
 28508,""
 28509,"指定した地面に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「リタージー・オブ・ベル」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を設置し、自身に5スタックの<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「リタージー・オブ・ベル」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を付与する。
-<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>15秒
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>20秒
 リタージー・オブ・ベルの効果時間中に自身がダメージを受けると、スタックを1つ消費してリタージー・オブ・ベルの周囲20m以内にいる自身およびパーティメンバーを回復する。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>回復力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>400
 この効果は、発動後1秒間は再発動しない。
@@ -34837,6 +34837,7 @@ int32,str
 バインド中は実行不可。"
 29066,"パーティメンバーひとりを対象として、対象の目前まで素早く移動する。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>対象が受ける攻撃を肩代わりする。
+ただし、対象がオブジェクトにアクセスしている場合は、この効果が無効化される。
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>10秒
 <UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>発動条件：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>対象が10m以内に存在。
 バインド中は実行不可。"
@@ -36870,8 +36871,9 @@ int32,str
 29715,""
 29716,"対象の被ダメージを10％増加させ、ガードの被ダメージ軽減効果を25％減少させる。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>10秒"
 29717,""
-29718,""
-29719,""
+29718,"元気に雷を放出する。"
+29719,"元気に雷を放出する。
+※演出用アクション。特に効果は発生しない。"
 29720,"プレゼントの幻影を見せる。
 ※演出用アクション。特に効果は発生しない。"
 29721,""
@@ -36882,12 +36884,25 @@ int32,str
 29726,""
 29727,""
 29728,""
-29729,""
-29730,""
-29731,""
-29732,""
-29733,""
-29734,""
+29729,"対象のＨＰを回復する。<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>回復力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>14000
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>対象のＨＰを継続回復する
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>回復力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>4200　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>15秒
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>対象に<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>「徐々にＨＰ回復」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>が付与されている場合、回復力が2倍になる。
+このアクションの効果量は、パラメータの影響を受けない。"
+29730,"周囲の敵の敵視を最高位にし、自身への敵視を上昇させる。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>追加効果：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>対象をスタンさせる　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>4秒
+さらに一定時間、自身に向けられる敵視が大幅に上昇する。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>30秒"
+29731,"対象を衰弱状態で蘇生する。
+この魔法は固有のリキャストタイマーを持ち、他のウェポンスキルや魔法のリキャストタイマーの影響を受けない。"
+29732,"対象とその周囲の敵に継続ダメージを付与する。<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>威力：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>2040<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>
+効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>30秒
+このアクションの効果量は、パラメータやバフステータスの影響を受けない。"
+29733,"一定時間、自身の被ダメージを20％軽減させる。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>60秒
+さらに、自身に一定量のダメージを防ぐバリアを張る。このバリアは21000相当のダメージを軽減する。
+<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>8秒"
+29734,"対象を衰弱状態で蘇生する。このアクションは蘇生制限の影響を受けない。"
 29735,"自身が受けるダメージを90％軽減させる。
 さらに、浄化で解除可能な状態異常とノックバック、引き寄せの効果を無効化する。　<UIForeground>F201F8</UIForeground><UIGlow>F201F9</UIGlow>効果時間：<UIGlow>01</UIGlow><UIForeground>01</UIForeground>5秒
 効果時間中に再使用または他のアクションを実行するか、効果時間が経過すると防御が解除される。
@@ -37858,7 +37873,7 @@ int32,str
 30682,""
 30683,""
 30684,""
-30685,""
+30685,"AA"
 30686,""
 30687,""
 30688,""
@@ -38284,7 +38299,7 @@ int32,str
 31106,""
 31107,""
 31108,""
-31109,""
+31109,"AA"
 31110,""
 31111,""
 31112,""
