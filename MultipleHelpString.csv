@@ -1,0 +1,172 @@
+﻿key,0,1
+#,,
+int32,str,str
+0,"",""
+1,"",""
+2,"",""
+3,"",""
+4,"コンテンツの緩和","現在のパッチでは、零式コンテンツに下記の変更が適用されます。
+　・各層の攻略進行度が記録される仕組みが撤廃されます。
+　・参加条件から「進行度」が撤廃されます。
+　・宝箱が必ず2個出現するようになります。
+　・宝箱から得られるアイテムの週制限が撤廃されます。
+"
+5,"マッチング条件","<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>マッチング条件<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+「コンプリート済み」は該当コンテンツを過去に一度でも
+コンプリートしたことがある場合のみ選択可能になります。
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>目的<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+「コンプリート目的」は報酬が未取得時のみ選択可能になります。
+
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>練習フェーズの指定<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+目的が「練習」の場合のみ選択可能になります。
+実際にフェーズをスキップするものではありません。
+
+参加申請中にリセット時間を跨ぐと、申請がキャンセルされます。"
+6,"進行度の記録","零式コンテンツの攻略進行度は、プレイヤーごとに特定の
+タイミングで記録され、再開時に続きから攻略することができます。
+ 
+進行度の記録は<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow><ResetTime>1203</ResetTime><Switch(TopLevelParameter(220))><Case(1)>日</Case><Case(2)>月</Case><Case(3)>火</Case><Case(4)>水</Case><Case(5)>木</Case><Case(6)>金</Case><Case(7)>土</Case></Switch>曜日の<If(GreaterThanOrEqualTo(TopLevelParameter(218),12))>午後<Else/>午前</If><If(TopLevelParameter(218))><Switch(TopLevelParameter(218))><Case(1)>1</Case><Case(2)>2</Case><Case(3)>3</Case><Case(4)>4</Case><Case(5)>5</Case><Case(6)>6</Case><Case(7)>7</Case><Case(8)>8</Case><Case(9)>9</Case><Case(10)>10</Case><Case(11)>11</Case><Case(12)>0</Case><Case(13)>1</Case><Case(14)>2</Case><Case(15)>3</Case><Case(16)>4</Case><Case(17)>5</Case><Case(18)>6</Case><Case(19)>7</Case><Case(20)>8</Case><Case(21)>9</Case><Case(22)>10</Case><Case(23)>11</Case></Switch><Else/>0</If>時（地球時間）<UIGlow>01</UIGlow><UIForeground>01</UIForeground>にリセットされます。"
+7,"進行度による報酬取得制限","零式コンテンツにおいて自分の進行度未満の地点では、
+報酬を得られません。
+
+コンテンツを攻略済みのメンバー数により、宝箱の数が変動します。 
+　・攻略済みのメンバーが１～４人：宝箱１個 
+　・攻略済みのメンバーが５人以上：宝箱０個 
+ 
+1人もしくは8人未満のパーティで参加した場合、マッチング先のメンバーの進行度により宝箱の出現数が変動する可能性があります。 
+"
+8,"ジョブ構成","零式コンテンツでのパーティはジョブ重複なしで構成されます。
+　・DPSは[近接][遠隔物理][遠隔魔法][指定なし]の構成になります。
+
+目的の設定次第で「DPS：指定なし」のジョブ重複が決定されます。
+　・コンプリート目的：ジョブ重複不可 
+　・練習：ジョブ重複可
+
+零式コンテンツにてマッチングを利用して申請を行う場合、
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>[ピュアヒーラー]または[バリアヒーラー]のどちらかが2人以上いる
+パーティでは申請できません。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　・ピュアヒーラー：白魔道士・占星術師
+　※自身やパーティメンバーのＨＰを回復することを最も得意とする
+　　ジョブ。
+　・バリアヒーラー：学者・賢者
+　※自身やパーティメンバーに対して、一定量のダメージを防ぐ
+　　バリア効果を付与することを最も得意とするジョブ"
+9,"パーティ参加での進行度","零式コンテンツの攻略開始地点は、パーティリーダーの
+攻略進行度によって決定されます。
+
+開始条件を満たしていれば、リーダーと進行度の異なるメンバーも、
+同行させることができます。
+　・リーダーより進行度が進んでいない場合、進行度は更新されます。
+　・リーダーより進行度が進んでいる場合、進行度は更新されません。"
+10,"コンテンツファインダー","<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>プレイヤー同士<UIGlow>01</UIGlow><UIForeground>01</UIForeground>でダンジョンなどへ突入するための<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>便利な機能<UIGlow>01</UIGlow><UIForeground>01</UIForeground>、
+それが<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>「コンテンツファインダー」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>です。
+
+進入地点にアクセスし、<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>「他のプレイヤーと突入」を選ぶ<UIGlow>01</UIGlow><UIForeground>01</UIForeground>ことで、
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>コンテンツファインダーウィンドウ<UIGlow>01</UIGlow><UIForeground>01</UIForeground>が開きます。"
+11,"コンテンツの参加申請","<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>行きたいダンジョン名などを選択<UIGlow>01</UIGlow><UIForeground>01</UIForeground>し、<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>「参加申請」を押す<UIGlow>01</UIGlow><UIForeground>01</UIForeground>ことで、
+同じ目的を持った他のプレイヤーと、自動的にパーティを編成して
+くれます。これを<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>「マッチング」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>と呼びます。
+
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>※参加申請を行うコンテンツは同時に5つまで指定可能です。
+
+※鍵マークのついたコンテンツは、参加条件を満たしていないため、
+　参加申請を行うことはできません<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+12,"申請の予約状況","参加申請を行うと、目的リストに
+ファインダーアイコンが表示され、
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>予約状況<UIGlow>01</UIGlow><UIForeground>01</UIForeground>の確認が可能です。
+
+予約状況では、現在のマッチング状態、
+サーバー予約状況などを確認できます。"
+13,"突入確認ウィンドウ","<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>マッチングが完了<UIGlow>01</UIGlow><UIForeground>01</UIForeground>した際には、<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>アラームが鳴り<UIGlow>01</UIGlow><UIForeground>01</UIForeground>ます。
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>「突入」を押して<UIGlow>01</UIGlow><UIForeground>01</UIForeground>コンテンツに挑戦！
+
+<UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>制限時間内に突入操作を行わないと参加辞退になり
+もう一度突入先選択からのやり直しが必要となります。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>"
+14,"攻略可能なダンジョン","貴方の冒険が進めば、攻略可能なダンジョンはどんどん増えていきます。
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>コンテンツサポーターに未対応のダンジョンやコンテンツ<UIGlow>01</UIGlow><UIForeground>01</UIForeground>には、
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>コンテンツファインダーを利用<UIGlow>01</UIGlow><UIForeground>01</UIForeground>して挑戦してみましょう！
+
+また、攻略済みのダンジョンは、後から繰り返し再挑戦可能です。
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>メインコマンド<UIGlow>01</UIGlow><UIForeground>01</UIForeground>の<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>「コンテンツ情報」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>から
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>「コンテンツファインダー」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>や、<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>「コンテンツサポーター」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を利用して
+再挑戦できます。"
+15,"特殊ダンジョン探索の方法","専用NPCとの会話、またはメインコマンド「コンテンツ情報」内にある
+「<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>特殊ダンジョン探索<UIGlow>01</UIGlow><UIForeground>01</UIForeground>」を選択して開かれる専用ウィンドウから、
+特殊ダンジョン探索コンテンツへの突入を行います。
+
+突入の際に必要となる情報はウィンドウ内に表示されており、
+各種設定などもここから行います。"
+16,"ヴァリアントダンジョンの攻略","特殊ダンジョン探索のひとつである<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ヴァリアントダンジョン<UIGlow>01</UIGlow><UIForeground>01</UIForeground>は
+1～4人いずれの人数でも遊べる様に難易度が<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>自動調整<UIGlow>01</UIGlow><UIForeground>01</UIForeground>される
+仕組みが入っています。
+ひとりでの攻略も可能ですが、歯ごたえのある難易度となります。
+
+自分ひとりで、また仲間とのパーティメンバーのみで攻略する場合は
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>パーティが4人に満たない場合マッチングを利用する<UIGlow>01</UIGlow><UIForeground>01</UIForeground>の
+チェックボタンをオフにして突入します。（初期状態）
+
+4人パーティとなるようにマッチングを利用する場合は
+このチェックボタンをオンにして突入します。"
+17,"ヴァリアントアクション","自由なロール構成で攻略が楽しめるように、ヴァリアントダンジョン内で
+使える特殊なアクション「<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ヴァリアントアクション<UIGlow>01</UIGlow><UIForeground>01</UIForeground>」が用意されています。
+
+タンクやDPSロールでもヒーラーの役目ができるよう
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>特別なケアルやレイズ<UIGlow>01</UIGlow><UIForeground>01</UIForeground>などがあり、その他のロールについても同様の
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>特別なアクション<UIGlow>01</UIGlow><UIForeground>01</UIForeground>が用意されています。
+
+攻略中に使える2つのヴァリアントアクションは、いつでも
+ウィンドウ内にある<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ヴァリアントアクションを設定<UIGlow>01</UIGlow><UIForeground>01</UIForeground>ボタンにより
+表示されるヴァリアントアクション一覧から選択・設定できます。"
+18,"物語を発見する探検","ヴァリアントダンジョンは、その場所にまつわる人物とともに
+ダンジョン内の<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>分岐したルート<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を探検し、新たな<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>物語を発見<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+していくという要素を持ったコンテンツです。
+
+発見した物語は、ヴァリアントダンジョン専用の手記や記録と
+いった形でひとつずつ綴られていきます。
+
+ウィンドウ内にある人物のボタンをクリックまたは決定ボタンにて
+専用のサブウィンドウを呼び出し、発見した物語を読むことができます。"
+19,"アナザーダンジョンへの挑戦","特殊ダンジョン探索の高難易度コンテンツ
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>アナザーダンジョン<UIGlow>01</UIGlow><UIForeground>01</UIForeground>が開放されました。
+
+ウィンドウ上部の<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>表示切替ボタン<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を押すことで、
+ウィンドウ内の表示がアナザーダンジョン用に切り替わります。
+
+アナザーダンジョンでは、同行するNPCやルート分岐などはなく
+物語を発見する要素もないため、切り替えたウィンドウ内には
+それらの代わりに、<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>アナザーダンジョンリスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>や
+攻略により得られる<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>専用通貨<UIGlow>01</UIGlow><UIForeground>01</UIForeground>などの表示が追加されます。"
+20,"アナザーダンジョンでの制限","アナザーダンジョン攻略の際は、ヴァリアントダンジョンと異なり
+コンテンツ内での<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ジョブチェンジが制限<UIGlow>01</UIGlow><UIForeground>01</UIForeground>されます。
+レイズ等の通常アクションによる蘇生行動も制限され、
+専用の蘇生用ヴァリアントアクションでのみ蘇生が可能となります。
+
+さらに<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>零式<UIGlow>01</UIGlow><UIForeground>01</UIForeground>のアナザーダンジョンでは、
+ヴァリアントアクション自体が<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>使用不可<UIGlow>01</UIGlow><UIForeground>01</UIForeground>となります。
+
+この零式のアナザーダンジョンへ突入するには、
+条件を満たしたメンバー4人でパーティを編成する必要があります。"
+21,"パーティメンバー紹介について","パーティメンバーそれぞれのポートレートを表示して紹介するウィンドウです。ダンジョンや討伐・討滅戦などのコンテンツ開始時には、自動で表示されます。コンテンツ開始時の表示では、ウィンドウのサイズ変更や移動は行えません。
+
+コンテンツ開始時の表示は、キャラクターコンフィグまたは詳細設定から
+表示しないように設定を変更することができます。"
+22,"パーティメンバー紹介を開く方法","コンテンツ参加中に、メインコマンド＞コンテンツ情報＞コンテンツファインダーを選択して表示されるコンテンツメニューの「コンテンツ内機能」タブにある「パーティメンバー紹介表示」ボタンから行えます。
+
+また、パーティメンバー紹介がコンテンツ開始時に表示されたあとで、
+通知にも表示されますので、そこからでも開くことが可能です。"
+23,"詳細設定について","コンテンツメニューから開いた「パーティメンバー紹介表示」にある設定ボタンから、以下の項目についての設定を行えるようになっています。
+
+　・コンテンツ開始時にパーティメンバー紹介を表示する
+　・パーティメンバー紹介の通知を表示する
+　・ポートレートの表示を下詰めにする"
+24,"",""
+25,"特殊ダンジョン探索のアイテムレベル","特殊ダンジョン探索で<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>マッチング<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を利用して4人パーティを
+編成する場合、申請する全員がダンジョンに設定された
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>平均アイテムレベル<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を満たす必要があります。
+
+ひとりまたはパーティメンバーのみで攻略する場合は
+平均アイテムレベルを満たさずとも突入が可能です。"
+26,"アナザーダンジョンのマッチング条件","アナザーダンジョンに突入する際の<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>マッチング条件<UIGlow>01</UIGlow><UIForeground>01</UIForeground>の指定で
+「<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>コンプリート済み<UIGlow>01</UIGlow><UIForeground>01</UIForeground>」は該当コンテンツを過去に一度でも
+コンプリートしたことがある場合のみ選択可能になります。"

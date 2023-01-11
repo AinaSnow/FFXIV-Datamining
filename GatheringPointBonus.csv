@@ -78,7 +78,7 @@ int32,GatheringCondition,uint32,uint16,GatheringPointBonusType,uint16,uint16,bit
 74,"技術力 <Value>IntegerParameter(1)</Value>以上",1200,0,"獲得数ボーナス発生率＋<Value>IntegerParameter(1)</Value>%",30,0,False,0
 75,"技術力 <Value>IntegerParameter(1)</Value>以上",1350,0,"獲得数ボーナス発生率＋<Value>IntegerParameter(1)</Value>%",30,0,False,0
 76,"技術力 <Value>IntegerParameter(1)</Value>以上",1840,0,"獲得数ボーナス発生率＋<Value>IntegerParameter(1)</Value>%",30,0,False,0
-77,"",0,0,"",0,0,True,0
+77,"<Sheet(Item,IntegerParameter(1),0)/><If(IntegerParameter(2))>装備時<Else/>非装備時</If>",38723,0,"<If(IntegerParameter(2))>獲得可能<Else/>獲得率 <Value>IntegerParameter(1)</Value>％</If>",0,0,True,0
 78,"GPmax <Value>IntegerParameter(1)</Value>以上",740,770,"採集回数／耐久＋<Value>IntegerParameter(1)</Value>（上昇タイプ）",1,2,False,0
 79,"獲得力 <Value>IntegerParameter(1)</Value>以上",2244,2692,"獲得数＋<Value>IntegerParameter(1)</Value>個（上昇タイプ）",1,3,False,0
 80,"技術力 <Value>IntegerParameter(1)</Value>以上",2140,3210,"獲得数ボーナス発生率＋<Value>IntegerParameter(1)</Value>%（上昇タイプ）",30,100,False,0
@@ -91,8 +91,8 @@ int32,GatheringCondition,uint32,uint16,GatheringPointBonusType,uint16,uint16,bit
 87,"獲得力 <Value>IntegerParameter(1)</Value>以上",90,0,"格上レベルアイテム獲得率＋<Value>IntegerParameter(1)</Value>％",10,0,False,0
 88,"獲得力 <Value>IntegerParameter(1)</Value>以上",3910,0,"収集価値MAX時：昇華率＋<Value>IntegerParameter(1)</Value>%",50,0,False,0
 89,"獲得力 <Value>IntegerParameter(1)</Value>以上",3300,3497,"収集価値MAX時：昇華率＋<Value>IntegerParameter(1)</Value>%（上昇タイプ）",10,20,False,0
-90,"",0,0,"",0,0,False,0
-91,"",0,0,"",0,0,False,0
+90,"<Sheet(Item,IntegerParameter(1),0)/><If(IntegerParameter(2))>装備時<Else/>非装備時</If>",38734,0,"<If(IntegerParameter(2))>獲得可能<Else/>獲得率 <Value>IntegerParameter(1)</Value>％</If>",0,0,True,0
+91,"<Sheet(Item,IntegerParameter(1),0)/><If(IntegerParameter(2))>装備時<Else/>非装備時</If>",38724,0,"<If(IntegerParameter(2))>獲得可能<Else/>獲得率 <Value>IntegerParameter(1)</Value>％</If>",0,0,True,0
 92,"獲得力 <Value>IntegerParameter(1)</Value>以上",42,0,"格上レベルアイテム獲得率＋<Value>IntegerParameter(1)</Value>％",10,0,False,0
 93,"獲得力 <Value>IntegerParameter(1)</Value>以上",42,0,"格上レベルアイテム獲得率＋<Value>IntegerParameter(1)</Value>％",10,0,False,0
 94,"獲得力 <Value>IntegerParameter(1)</Value>以上",54,0,"格上レベルアイテム獲得率＋<Value>IntegerParameter(1)</Value>％",10,0,False,0
@@ -108,7 +108,7 @@ int32,GatheringCondition,uint32,uint16,GatheringPointBonusType,uint16,uint16,bit
 104,"獲得力 <Value>IntegerParameter(1)</Value>以上",138,0,"格上レベルアイテム獲得率＋<Value>IntegerParameter(1)</Value>％",10,0,False,0
 105,"獲得力 <Value>IntegerParameter(1)</Value>以上",138,0,"格上レベルアイテム獲得率＋<Value>IntegerParameter(1)</Value>％",10,0,False,0
 106,"獲得力 <Value>IntegerParameter(1)</Value>以上",138,0,"格上レベルアイテム獲得率＋<Value>IntegerParameter(1)</Value>％",10,0,False,0
-107,"",0,0,"",0,0,False,0
+107,"<Sheet(Item,IntegerParameter(1),0)/><If(IntegerParameter(2))>装備時<Else/>非装備時</If>",38735,0,"<If(IntegerParameter(2))>獲得可能<Else/>獲得率 <Value>IntegerParameter(1)</Value>％</If>",0,0,True,0
 108,"獲得力 <Value>IntegerParameter(1)</Value>以上",54,0,"採集回数／耐久＋<Value>IntegerParameter(1)</Value>",1,0,False,0
 109,"獲得力 <Value>IntegerParameter(1)</Value>以上",105,0,"採集回数／耐久＋<Value>IntegerParameter(1)</Value>",1,0,False,0
 110,"獲得力 <Value>IntegerParameter(1)</Value>以上",150,0,"採集回数／耐久＋<Value>IntegerParameter(1)</Value>",1,0,False,0
@@ -254,7 +254,7 @@ int32,GatheringCondition,uint32,uint16,GatheringPointBonusType,uint16,uint16,bit
 250,"GPmax <Value>IntegerParameter(1)</Value>以上",780,810,"採集回数／耐久＋<Value>IntegerParameter(1)</Value>（上昇タイプ）",1,2,False,0
 251,"GPmax <Value>IntegerParameter(1)</Value>以上",780,810,"採集回数／耐久＋<Value>IntegerParameter(1)</Value>（上昇タイプ）",1,2,False,0
 252,"GPmax <Value>IntegerParameter(1)</Value>以上",830,860,"採集回数／耐久＋<Value>IntegerParameter(1)</Value>（上昇タイプ）",1,2,False,0
-253,"",0,0,"",0,0,False,0
+253,"獲得力 <Value>IntegerParameter(1)</Value>以上",3950,0,"採集回数／耐久＋<Value>IntegerParameter(1)</Value>",2,0,False,0
 254,"",0,0,"",0,0,False,0
 255,"",0,0,"",0,0,False,0
 256,"",0,0,"",0,0,False,0
@@ -472,17 +472,17 @@ int32,GatheringCondition,uint32,uint16,GatheringPointBonusType,uint16,uint16,bit
 468,"技術力 <Value>IntegerParameter(1)</Value>以上",2316,0,"獲得数ボーナス発生率＋<Value>IntegerParameter(1)</Value>%",40,0,False,0
 469,"技術力 <Value>IntegerParameter(1)</Value>以上",2605,0,"獲得数ボーナス発生率＋<Value>IntegerParameter(1)</Value>%",40,0,False,0
 470,"",0,0,"",0,0,False,0
-471,"",0,0,"",0,0,False,0
+471,"技術力 <Value>IntegerParameter(1)</Value>以上",3145,3774,"獲得数ボーナス発生率＋<Value>IntegerParameter(1)</Value>%（上昇タイプ）",30,50,False,0
 472,"",0,0,"",0,0,False,0
 473,"",0,0,"",0,0,False,0
 474,"",0,0,"",0,0,False,0
-475,"",0,0,"",0,0,False,0
+475,"GPmax <Value>IntegerParameter(1)</Value>以上",900,0,"採集回数／耐久＋<Value>IntegerParameter(1)</Value>",1,0,False,0
 476,"",0,0,"",0,0,False,0
-477,"",0,0,"",0,0,False,0
+477,"技術力 <Value>IntegerParameter(1)</Value>以上",3230,3876,"獲得数ボーナス発生率＋<Value>IntegerParameter(1)</Value>%（上昇タイプ）",30,50,False,0
 478,"",0,0,"",0,0,False,0
 479,"",0,0,"",0,0,False,0
 480,"",0,0,"",0,0,False,0
-481,"",0,0,"",0,0,False,0
+481,"GPmax <Value>IntegerParameter(1)</Value>以上",850,920,"採集回数／耐久＋<Value>IntegerParameter(1)</Value>（上昇タイプ）",2,4,False,0
 482,"",0,0,"",0,0,False,0
 483,"",0,0,"",0,0,False,0
 484,"",0,0,"",0,0,False,0

@@ -144,7 +144,7 @@ int32,str
 140,"<CommandIcon(11)/>移動する"
 141,"<CommandIcon(20)/>移動 <CommandIcon(25)/>回転 <CommandIcon(12)/>＋<CommandIcon(24)/>拡大・縮小"
 142,"<CommandIcon(10)/>装備枠：サブコマンド <CommandIcon(20)/>移動 <CommandIcon(25)/>回転 <CommandIcon(12)/>＋<CommandIcon(24)/>拡大・縮小"
-143,"<CommandIcon(10)/>ホットバーに登録する"
+143,"<CommandIcon(10)/>ホットバーに登録"
 144,"<CommandIcon(10)/>サブコマンド <CommandIcon(1)/>ログを選択 <CommandIcon(2)/>選択タブの切り替え"
 145,"<CommandIcon(10)/>サブコマンド <CommandIcon(9)/>戻る"
 146,"<CommandIcon(1)/>ログを選択 <CommandIcon(2)/>選択タブの切り替え"
@@ -517,7 +517,7 @@ Library programs for DUALSHOCK®4 and DualSense™ wireless controllers © 2021 
 337,"<CommandIcon(10)/>サブコマンド"
 338,"<CommandIcon(10)/>サブコマンド  <CommandIcon(8)/>選択"
 339,"<CommandIcon(11)/>適用"
-340,"<CommandIcon(10)/>サブコマンド"
+340,"<CommandIcon(10)/>サブコマンド <CommandIcon(12)/><CommandIcon(13)/>ページ切り替え"
 341,"<CommandIcon(10)/>サブコマンド"
 342,"<CommandIcon(9)/>サンドボックスに戻る"
 343,"<CommandIcon(9)/>閉じるボタンへ"
@@ -701,7 +701,8 @@ Library programs for DUALSHOCK®4 and DualSense™ wireless controllers © 2021 
 440,"<CommandIcon(10)/> サブコマンド"
 441,"リプレイ再生中の基本操作"
 442,"※マウス・キーボードは初期割り当ての内容です。
-<If(Equal(PlayerParameter(78),99))><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>カメラの方向操作<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<If(Equal(PlayerParameter(78),99))>
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>カメラの方向操作<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
  <CommandIcon(20)/>スティック／[W,A,S,D]キー（移動操作キー）
  
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>カメラの方向操作（リセット）<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -772,7 +773,8 @@ Library programs for DUALSHOCK®4 and DualSense™ wireless controllers © 2021 
 メジャーアップデート以外のHotFixなどでも利用できなくなりますのでご注意ください。"
 447,"リプレイ再生中の基本操作"
 448,"※マウス・キーボードは初期割り当ての内容です。
-<If(Equal(PlayerParameter(78),99))><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>カメラの方向操作<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+<If(Equal(PlayerParameter(78),99))>
+<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>カメラの方向操作<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
  <CommandIcon(20)/>スティック／[W,A,S,D]キー（移動操作キー）
  
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>カメラの方向操作（リセット）<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
@@ -827,7 +829,7 @@ Library programs for DUALSHOCK®4 and DualSense™ wireless controllers © 2021 
 リプレイを終了します。"
 451,"<CommandIcon(10)/> サブコマンド"
 452,"<CommandIcon(24)/>文章のスクロール"
-453,"<CommandIcon(8)/>開く"
+453,"<CommandIcon(8)/>開く  <CommandIcon(24)/>詳細情報のスクロール"
 454,"<CommandIcon(24)/>詳細情報のスクロール"
 455,"<CommandIcon(10)/> サブコマンド"
 456,"<CommandIcon(8)/>ミニオンを放す  <CommandIcon(10)/>サブコマンド <CommandIcon(11)/>ミニオンの入れ替え"
@@ -848,12 +850,12 @@ Library programs for DUALSHOCK®4 and DualSense™ wireless controllers © 2021 
 471,""
 472,""
 473,""
-474,""
-475,""
-476,""
-477,""
-478,""
-479,""
+474,"<CommandIcon(11)/>探索地決定"
+475,"<CommandIcon(10)/>ホットバーに登録 <CommandIcon(12)/><CommandIcon(13)/>ページ切り替え"
+476,"<CommandIcon(12)/><CommandIcon(13)/>ページ切り替え"
+477,"<CommandIcon(8)/>代表的な漁場を表示する"
+478,"<CommandIcon(10)/>サブコマンド"
+479,"<CommandIcon(10)/>サブコマンド"
 480,""
 481,""
 482,""
@@ -1289,8 +1291,16 @@ GPを消費するため、GPの残りには注意しましょう。
 
 不定性をもつ収集品が昇華する確率は、
 プレイヤーの獲得力が高いほど、上昇します。"
-1047,""
-1048,""
+1047,"収集価値とは"
+1048,"収集価値とは、その収集品が持つ価値について表す数値です。
+
+収集品を採集する際に、
+納品に必要な収集価値が「必要収集価値」として表示されます。
+その数値を目標に、収集価値を上げて採集しましょう。
+
+※精選ができる収集品においては、
+クリスタル以外のアイテムを入手するために必要な収集価値が、
+「必要収集価値」として表示されます。"
 1049,""
 1050,"特殊ダンジョン探索の方法"
 1051,"専用NPCとの会話、またはメインコマンド「コンテンツ情報」内にある
