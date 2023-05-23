@@ -1073,10 +1073,15 @@ PlayStation™Storeで「製品版」をご購入ください。<Else/>モグス
 タイトル画面に戻り別のデータセンターを選択してください。
 なお、ワールド名に(LEGACY)が付いているものは1.0継続ワールドです。
 
-現在選択中のデータセンター : <Sheet(WorldDCGroupType,IntegerParameter(1),WORLDDCGROUPTYPE_NAME)/> <If(GreaterThan(IntegerParameter(3),0))><Switch(IntegerParameter(3))><Case(1)>日本</Case><Case(2)>北米</Case><Case(3)>欧州</Case><Case(4)>オセアニア</Case></Switch>推奨<Else/></If><If(GreaterThan(IntegerParameter(2),0))>
+現在選択中のデータセンター : <Sheet(WorldDCGroupType,IntegerParameter(1),WORLDDCGROUPTYPE_NAME)/> <If(GreaterThan(IntegerParameter(3),0))><Switch(IntegerParameter(3))><Case(1)>日本</Case><Case(2)>北米</Case><Case(3)>欧州</Case><Case(4)>オセアニア</Case></Switch>推奨<Else/></If><If(Equal(IntegerParameter(2),1))>
 
 <Gui(99)/><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>現在このワールドでは、新規作成されたキャラクターに対して、大幅な
-経験値ブーストが付与されるなどのボーナス特典を実施しています！<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/></If>","",""
+経験値ブーストが付与されるなどのボーナス特典を実施しています！<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/></If><If(Equal(IntegerParameter(2),2))>
+
+<UIForeground>F201FE</UIForeground><UIGlow>F201FF</UIGlow>このワールドは現在新規キャラクターの作成が制限されています。
+制限が解除されるのを待つか、他のワールドでキャラクターを作成してください。
+他のワールドでキャラクターを作成しゲームを開始後、ワールド間テレポの機能を使うことで
+このワールドに移動して遊ぶこともできます。<UIGlow>01</UIGlow><UIForeground>01</UIForeground><Else/></If>","",""
 821,0,0,0,"(Skipped)","",""
 822,0,0,0,"<Switch(IntegerParameter(2))><Case(1)><Sheet(Tribe,IntegerParameter(1),0)/>♂</Case><Case(2)><Sheet(Tribe,IntegerParameter(1),1)/>♀</Case></Switch>の外見やクラス・名前などのキャラクターメイクデータを一時保存データスロット<Value>IntegerParameter(3)</Value>に保存します。","",""
 823,0,0,0,"<Time(IntegerParameter(1))/><Value>TopLevelParameter(222)</Value>/<Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(219)</Value> <Value>TopLevelParameter(218)</Value>:<TwoDigitValue>TopLevelParameter(217)</TwoDigitValue>に保存したスロット<Value>IntegerParameter(2)</Value>の<Switch(IntegerParameter(4))><Case(1)><Sheet(Tribe,IntegerParameter(3),0)/>♂</Case><Case(2)><Sheet(Tribe,IntegerParameter(3),1)/>♀</Case></Switch>のキャラクターメイクデータを読み込みます。","",""
@@ -1617,9 +1622,11 @@ PlayStation™Storeで「製品版」をご購入ください。<Else/>モグス
 ログインするとキャラクターの開始国のエーテライトから再開できます。","",""
 1232,0,0,0,"空いているワールドへ移動するためには、一度ホームワールドに戻り、名前を変更する必要があります。","",""
 1233,0,0,0,"空いているワールドへ移動するためには、一度ホームワールドに戻り、リテイナーの名前を変更する必要があります。","",""
-1234,0,0,0,"","",""
-1235,0,0,0,"","",""
-1236,0,0,0,"","",""
+1234,0,0,0,"移動先として選択したワールド<Highlight>StringParameter(1)</Highlight>のある<Highlight>StringParameter(2)</Highlight>にはまだ一度も接続したことがないため、データセンタートラベル処理を行えませんでした。
+タイトル画面のデータセンターメニューから<Highlight>StringParameter(2)</Highlight>にあるいずれかのデータセンターを選び、一度キャラクター選択画面の表示を行うと、以降はこの地域にあるデータセンターへデータセンタートラベルが可能となります。","",""
+1235,0,0,0,"移動先として選択したワールド<Highlight>StringParameter(1)</Highlight>のある<Highlight>StringParameter(2)</Highlight>には、ご契約いただいているサービスで保有可能な上限までキャラクターが作成済みです。
+ホームワールドとは異なる地域にあるデータセンターへ移動するには、その地域での保有可能なキャラ数の上限から最低1キャラ分の余裕が必要となりますので、事前に<Highlight>StringParameter(2)</Highlight>にお持ちのキャラクターの数を調整してください。","",""
+1236,0,0,0,"このキャラクターはまだ前回のログアウト処理が完了していません。しばらく待ってからもう一度サブコマンドを選んでください。","",""
 1237,0,0,0,"","",""
 1238,0,0,0,"","",""
 1239,0,0,0,"","",""
@@ -2185,8 +2192,8 @@ PlayStation™Storeで「製品版」をご購入ください。<Else/>モグス
 1799,0,0,0,"","",""
 1800,0,0,0,"ログイン処理を中断してもよろしいですか？","",""
 1801,0,0,0,"一定時間操作が行われなかったため、自動的にログアウトされました。","",""
-1802,0,0,0,"","",""
-1803,0,0,0,"","",""
+1802,0,0,0,"<UIForeground>F201FE</UIForeground><UIGlow>F201FF</UIGlow>この種族を選択するには「<Sheet(ExVersion,IntegerParameter(1),0)/>」が必要です。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>","",""
+1803,0,0,0,"RGB : <Value>IntegerParameter(1)</Value>,<Value>IntegerParameter(2)</Value>,<Value>IntegerParameter(3)</Value>","",""
 1804,0,0,0,"","",""
 1805,0,0,0,"","",""
 1806,0,0,0,"","",""
@@ -2337,8 +2344,12 @@ PlayStation™Storeで「製品版」をご購入ください。<Else/>モグス
 1951,0,0,0,"作成するキャラクターの部族を選んでください。","",""
 1952,0,0,0,"キャラクターの性別を選んでください。","",""
 1953,0,0,0,"キャラクターの特徴を決めてください。","",""
-1954,0,0,0,"キャラクターの誕生日をエオルゼア歴で決めてください。","",""
-1955,0,0,0,"キャラクターの守護神を選んでください。","",""
+1954,0,0,0,"キャラクターの誕生日をエオルゼア暦で決めてください。
+
+<UIForeground>02</UIForeground><UIGlow>25</UIGlow>どの日を誕生日に設定しても、ゲームの進行に有利・不利となることはありません。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>","",""
+1955,0,0,0,"キャラクターの守護神を選んでください。
+
+<UIForeground>02</UIForeground><UIGlow>25</UIGlow>どの守護神を選択しても、ゲームの進行に有利・不利となることはありません。<UIGlow>01</UIGlow><UIForeground>01</UIForeground>","",""
 1956,0,0,0,"ゲーム開始時のバトルクラスを選んでください。","",""
 1957,0,0,0,"キャラクターを作成するワールドを選んでください。","",""
 1958,0,0,0,"キャラクターの名前を決めてください。","",""
@@ -2586,7 +2597,9 @@ First Name / Family Name それぞれ2文字以上15文字以内、
 2173,0,0,0,"<Time(IntegerParameter(1))/><Value>TopLevelParameter(222)</Value>/<Value>TopLevelParameter(221)</Value>/<Value>TopLevelParameter(219)</Value>保存","",""
 2174,0,0,0,"一時保存データスロット<Value>IntegerParameter(1)</Value>","",""
 2175,0,0,0,"<Switch(IntegerParameter(2))><Case(1)><Sheet(Tribe,IntegerParameter(1),0)/>♂</Case><Case(2)><Sheet(Tribe,IntegerParameter(1),1)/>♀</Case></Switch>","",""
-2176,0,0,0,"ここまでの外見データを保存しますか？","",""
+2176,0,0,0,"ここまで編集した外見データをファイルに保存しますか？
+外見データを保存しておくと、別のキャラクター作成時に
+ファイルを読み込むことで、すぐに続きを編集できます。","",""
 2177,0,0,0,"はい","",""
 2178,0,0,0,"いいえ","",""
 2179,0,0,0,"ファイルの形式が違うか、ファイルが壊れています。

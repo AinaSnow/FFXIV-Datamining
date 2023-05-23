@@ -140,7 +140,7 @@ int32,str
 136,"<CommandIcon(11)/>入れるアイテムを選択"
 137,"<CommandIcon(10)/>変更前に戻す"
 138,"<CommandIcon(10)/>サブコマンド <CommandIcon(11)/>調度品/庭具リスト"
-139,"<CommandIcon(10)/>サブコマンド <CommandIcon(11)/>所持品 <CommandIcon(14)/><CommandIcon(15)/>設置済み/倉庫切替"
+139,"<CommandIcon(10)/>サブコマンド <CommandIcon(11)/>所持品<If(Equal(PlayerParameter(105),0))> <CommandIcon(14)/><CommandIcon(15)/>設置済み/倉庫切替<Else/></If>"
 140,"<CommandIcon(11)/>移動する"
 141,"<CommandIcon(20)/>移動 <CommandIcon(25)/>回転 <CommandIcon(12)/>＋<CommandIcon(24)/>拡大・縮小"
 142,"<CommandIcon(10)/>装備枠：サブコマンド <CommandIcon(20)/>移動 <CommandIcon(25)/>回転 <CommandIcon(12)/>＋<CommandIcon(24)/>拡大・縮小"
@@ -642,13 +642,13 @@ Library programs for DUALSHOCK®4 and DualSense™ wireless controllers © 2021 
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>コンテンツサポーターに未対応のコンテンツ<UIGlow>01</UIGlow><UIForeground>01</UIForeground>には、
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>コンテンツファインダーを利用<UIGlow>01</UIGlow><UIForeground>01</UIForeground>して挑戦してみましょう！
 
-また、攻略済みのダンジョンや討滅・討滅戦などのコンテンツは、
+また、攻略済みのダンジョンや討伐・討滅戦などのコンテンツは、
 後から繰り返し再挑戦可能です。
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>メインコマンド<UIGlow>01</UIGlow><UIForeground>01</UIForeground>の<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>「コンテンツ情報」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>から
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>「コンテンツファインダー」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>や、<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>「コンテンツサポーター」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>を利用して
 再挑戦できます。"
 422,"パーティ編成"
-423,"メインクエストで訪れる<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>レベル71以降<UIGlow>01</UIGlow><UIForeground>01</UIForeground>のダンジョンや討滅・討滅戦は、
+423,"メインクエストで訪れる<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>レベル71以降<UIGlow>01</UIGlow><UIForeground>01</UIForeground>のダンジョンや討伐・討滅戦は、
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>サポートNPC<UIGlow>01</UIGlow><UIForeground>01</UIForeground>の一覧から自分で<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>選択・編成したパーティ<UIGlow>01</UIGlow><UIForeground>01</UIForeground>で
 突入できるようになります。
 
@@ -843,7 +843,7 @@ Library programs for DUALSHOCK®4 and DualSense™ wireless controllers © 2021 
 464,""
 465,""
 466,""
-467,""
+467,"<CommandIcon(8)/>MIP推薦を決定"
 468,""
 469,""
 470,""
@@ -857,17 +857,17 @@ Library programs for DUALSHOCK®4 and DualSense™ wireless controllers © 2021 
 478,"<CommandIcon(10)/>サブコマンド"
 479,"<CommandIcon(10)/>サブコマンド"
 480,""
-481,""
-482,""
-483,""
-484,""
+481,"<CommandIcon(18)/>無人島庭具の投影配置を終了する"
+482,"<Gui(13)/>＋<Gui(20)/>移動 <CommandIcon(14)/><CommandIcon(15)/>回転 <CommandIcon(10)/>サブコマンド <CommandIcon(11)/><If(IntegerParameter(1))>グリッドスナップ機能を有効にする<Else/>グリッドスナップ機能を無効にする</If>"
+483,"<CommandIcon(10)/>サブコマンド <CommandIcon(11)/>無人島庭具リスト"
+484,"<CommandIcon(10)/>サブコマンド <CommandIcon(11)/>所持品<If(Equal(PlayerParameter(105),0))> <CommandIcon(14)/><CommandIcon(15)/>登録済み/投影配置済み切替<Else/></If>"
 485,""
-486,""
-487,""
-488,""
-489,""
-490,""
-491,""
+486,"<CommandIcon(10)/>サブコマンド <CommandIcon(11)/><If(IntegerParameter(1))>グリッドスナップ機能を有効にする<Else/>グリッドスナップ機能を無効にする</If>"
+487,"<CommandIcon(10)/>サブコマンド"
+488,"<CommandIcon(18)/>庭具の染色を終了する"
+489,"<CommandIcon(18)/>庭具の配置を終了する"
+490,"<Gui(13)/>＋<Gui(20)/>移動 <CommandIcon(14)/><CommandIcon(15)/>回転 <CommandIcon(11)/><If(IntegerParameter(1))>グリッドスナップ機能を有効にする<Else/>グリッドスナップ機能を無効にする</If>"
+491,"<CommandIcon(11)/><If(IntegerParameter(1))>グリッドスナップ機能を有効にする<Else/>グリッドスナップ機能を無効にする</If>"
 492,""
 493,""
 494,""
