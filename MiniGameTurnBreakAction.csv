@@ -2,21 +2,32 @@
 #,,,,,,,,,,
 int32,int32,int32,byte,byte,byte,byte,byte,int32,str,str
 0,0,0,0,0,0,0,0,0,"",""
-1,0,0,0,0,0,0,0,0,"",""
-2,0,0,0,0,0,0,0,0,"",""
-3,0,0,0,0,0,0,0,0,"",""
-4,0,0,0,0,0,0,0,0,"",""
-5,0,0,0,0,0,0,0,0,"",""
-6,0,0,0,0,0,0,0,0,"",""
-7,0,0,0,0,0,0,0,0,"",""
-8,0,0,0,0,0,0,0,0,"",""
-9,0,0,0,0,0,0,0,0,"",""
-10,0,0,0,0,0,0,0,0,"",""
+1,20,0,30,3,1,1,1,15,"ポンポンファイア","モーグリの前方にいる敵1体に<Value>IntegerParameter(1)</Value>ダメージを与える。
+消費MP：<Value>IntegerParameter(3)</Value>　リキャストターン：<Value>IntegerParameter(4)</Value>"
+2,10,8,40,4,3,3,2,25,"ポンポンプチメテオ","モーグリから<Value>IntegerParameter(2)</Value>マス前方の1マスとその周囲の敵に<Value>IntegerParameter(1)</Value>ダメージを与える。
+消費MP：<Value>IntegerParameter(3)</Value>　リキャストターン：<Value>IntegerParameter(4)</Value>"
+3,15,0,80,10,0,0,3,50,"ポンポンメテオ","すべての敵に<Value>IntegerParameter(1)</Value>ダメージを与える。
+消費MP：<Value>IntegerParameter(3)</Value>　リキャストターン：<Value>IntegerParameter(4)</Value>"
+4,50,0,10,1,0,0,4,0,"ポンポンケアル","モーグリのHPを<Value>IntegerParameter(1)</Value>回復する。
+消費MP：<Value>IntegerParameter(3)</Value>　リキャストターン：<Value>IntegerParameter(4)</Value>"
+5,0,0,20,3,0,0,5,0,"ポンポンエスナ","モーグリにかかった死の宣告以外の弱体効果をすべて解除する。
+消費MP：<Value>IntegerParameter(3)</Value>　リキャストターン：<Value>IntegerParameter(4)</Value>"
+6,0,0,30,3,0,0,6,0,"ポンポンバリア","モーグリを対象として、ダメージを防ぐバリアを張る。
+効果ターン：<Value>IntegerParameter(5)</Value>
+消費MP：<Value>IntegerParameter(3)</Value>　リキャストターン：<Value>IntegerParameter(4)</Value>"
+7,0,0,20,3,0,0,7,0,"ポンポンレビテト","モーグリが浮遊し、床の影響を受けなくなる。
+効果ターン：<Value>IntegerParameter(5)</Value>
+消費MP：<Value>IntegerParameter(3)</Value>　リキャストターン：<Value>IntegerParameter(4)</Value>"
+8,0,0,50,99,0,0,8,0,"ポンポンリレイズ","効果中に戦闘不能になると自動的に蘇生する。
+効果ターン：永続
+消費MP：<Value>IntegerParameter(3)</Value>　リキャストターン：<Value>IntegerParameter(4)</Value>"
+9,100,0,0,0,0,0,0,0,"",""
+10,100,0,0,0,0,0,0,0,"",""
 11,0,0,0,0,0,0,0,0,"",""
 12,0,0,0,0,0,0,0,0,"",""
-13,0,0,0,0,0,0,0,0,"",""
-14,0,0,0,0,0,0,0,0,"",""
-15,0,0,0,0,0,0,0,0,"",""
+13,100,0,0,0,0,7,0,0,"",""
+14,10,2,0,0,0,1,0,0,"",""
+15,100,0,0,0,0,1,0,0,"",""
 16,0,0,0,0,0,0,0,0,"",""
 17,0,0,0,0,0,0,0,0,"",""
-18,0,0,0,0,0,0,0,0,"",""
+18,9999,0,0,0,0,0,0,0,"",""
