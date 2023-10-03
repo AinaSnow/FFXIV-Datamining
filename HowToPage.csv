@@ -501,7 +501,7 @@ int32,byte,byte,Image,byte,str,str,str
 行いましょう。
 
 ギアセットを使用すると、
-登録したクラスのメインアームと防具を
+登録したクラスの装備を
 瞬時に切り替えることができます。","",""
 112,0,0,,0,"","",""
 113,0,0,,0,"","",""
@@ -785,7 +785,7 @@ EXPバー上に黄色か青の
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>「パーティリスト」<UIGlow>01</UIGlow><UIForeground>01</UIForeground>が表示されます。
 パーティリストには仲間の状態が表示され
 パーティメンバーの状況を確認できます。
-また、方向キーの上下を押すことで、
+また、<If(Equal(PlayerParameter(106),99))>方向パッド<Else/>方向キー</If>の上下を押すことで、
 パーティメンバーを直接選択できます。
 仲間を回復したい時など、とっさの操作が
 必要な場合に利用してみましょう。
@@ -816,7 +816,7 @@ EXPバー上に黄色か青の
 
 　　　　　　　　　　　次のページヘ》","",""
 192,1,0,"ui/icon/150000/ja/150933.tex",0,"クロスホットバーは<Gui(14)/><Gui(15)/>ボタンの
-どちらかを押しながら、各方向キー、
+どちらかを押しながら、各<If(Equal(PlayerParameter(106),99))>方向パッド<Else/>方向キー</If>、
 または<Gui(11)/><Gui(8)/><Gui(9)/><Gui(10)/>のいずれかのボタンを押すことで、アクションを実行できます。
 
 <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>※新たに修得したアクションは、自動で
@@ -3934,7 +3934,7 @@ EXホットバーにセットされた
 
 敵をターゲットした状態で、
 <CommandIcon(19)/>で目的リストをフォーカスします。
-方向キーでアイコンを選び、
+<If(Equal(PlayerParameter(106),99))>方向パッド<Else/>方向キー</If>でアイコンを選び、
 <CommandIcon(8)/>を押せば、
 イベントアイテムを使用できます。","",""
 1274,0,0,,0,"","",""
@@ -3982,7 +3982,7 @@ EXホットバーにセットされた
 1291,1,0,"ui/icon/151000/ja/151472.tex",0,"このクエストは、イベントアイテムを
 指定された<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>範囲<UIGlow>01</UIGlow><UIForeground>01</UIForeground>に使うことで進行します。
 
-<CommandIcon(19)/>で<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>目的リスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>をフォーカスします。方向キーでアイコンを選び、
+<CommandIcon(19)/>で<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>目的リスト<UIGlow>01</UIGlow><UIForeground>01</UIForeground>をフォーカスします。<If(Equal(PlayerParameter(106),99))>方向パッド<Else/>方向キー</If>でアイコンを選び、
 <CommandIcon(8)/>を押せば、アイテムを使用する
 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>範囲を示すターゲット<UIGlow>01</UIGlow><UIForeground>01</UIForeground>が表示されます。
 
@@ -6593,9 +6593,9 @@ RPは他の冒険者と対戦した時のみ、
 詠唱すると、イフリート・エギの姿をした
 カーバンクルを召喚することができます。
 <UIForeground>F201F4</UIForeground><UIGlow>F201F5</UIGlow>※選択可能な見た目の種類は、
-　下記のテキストコマンドを実行すると
-　確認できます。
-　/? /petmirage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>","",""
+　下記のコマンドで確認できます。
+　/? /petmirage<UIGlow>01</UIGlow><UIForeground>01</UIForeground>
+　　　　　　　　　　　次のページヘ》","",""
 2270,1,0,"ui/icon/152000/ja/152461.tex",0,"あなたは冒険者として名を上げ、
 更なる強敵へ挑もうとしています。
 ここからはクラス・ジョブレベルだけでなく
