@@ -3815,7 +3815,7 @@ int32,str,str,Image,byte,byte,ClassJobCategory,byte,StatusHitEffect,StatusLoopVF
 3710,"","",,0,0,"",0,"","",False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
 3711,"","",,0,0,"",0,"","",False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
 3712,"マジカルブレス","無属性ダメージにより、ＨＰが徐々に失われる状態。","ui/icon/013000/013553.tex",0,0,"全クラス",2,"dk05th_stdn0t","",False,False,False,False,False,False,True,False,False,10,0,False,False,100,0,False,0,False,5,False,0,0,0,False
-3713,"","",,0,0,"",0,"","",False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3713,"粘着","粘液により、身動きが取れない状態。","ui/icon/014000/014111.tex",0,0,"全クラス",2,"dk05th_stdn0t","k5d2_stlp_neba_c0c2",True,False,True,False,False,False,False,True,False,200,0,False,False,0,4,False,0,False,0,False,0,0,0,False
 3714,"マーキング","獲物として狙いを付けられた状態。","ui/icon/015000/015026.tex",0,0,"全クラス",2,"dk05th_stdn0t","",False,False,False,False,False,False,False,True,True,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False
 3715,"移動命令：前","移動命令を受けた状態。この状態の効果が切れた際に、前方向に移動してしまう。","ui/icon/015000/015774.tex",0,0,"全クラス",2,"dk05th_stdn0t","o5d1_stlp_front_c0e1",False,False,False,False,False,False,False,False,False,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False
 3716,"移動命令：後","移動命令を受けた状態。この状態の効果が切れた際に、後方向に移動してしまう。","ui/icon/015000/015775.tex",0,0,"全クラス",2,"dk05th_stdn0t","o5d1_stlp_back_c0e1",False,False,False,False,False,False,False,False,False,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False
@@ -3826,7 +3826,7 @@ int32,str,str,Image,byte,byte,ClassJobCategory,byte,StatusHitEffect,StatusLoopVF
 3721,"回転角3倍","次に発動する攻撃の回転角が3倍になる状態。","ui/icon/016000/016748.tex",0,0,"全クラス",2,"dk05th_stdn0t","",False,False,False,False,False,False,False,True,False,199,0,False,False,0,0,False,0,False,0,False,0,0,0,False
 3722,"回転角4倍","次に発動する攻撃の回転角が4倍になる状態。",,0,0,"全クラス",2,"dk05th_stdn0t","",False,False,False,False,False,False,False,True,False,199,0,False,False,0,0,False,0,False,0,False,0,0,0,False
 3723,"爆撃目標","標的となった状態。効果時間が終了すると、周囲に双数爆撃が発動する。","ui/icon/016000/016750.tex",0,0,"全クラス",2,"dk05th_stdn0t","",False,False,False,False,False,False,False,False,False,199,0,False,False,0,0,False,0,False,0,False,0,0,0,False
-3724,"減算爆雷α","減算爆雷が付着し、効果時間が終了すると大爆発を起こす状態。地雷魔紋の攻撃を受けることでスタック数が減少し、0になると解除される。","ui/icon/018000/018391.tex",0,4,"全クラス",2,"dk05th_stdn0t","",False,False,False,False,False,False,False,False,False,199,0,False,False,0,27,False,0,False,0,False,0,0,0,False
+3724,"減算爆雷α","減算爆雷が付着し、戦闘不能時に大爆発を起こす状態。地雷魔紋の攻撃を受けることでスタック数が減少し、0になると解除される。","ui/icon/018000/018391.tex",0,4,"全クラス",2,"dk05th_stdn0t","",False,False,False,False,False,False,False,False,False,199,0,False,False,0,27,False,0,False,0,False,0,0,0,False
 3725,"減算爆雷β","減算爆雷が付着し、効果時間が終了すると大爆発を起こす状態。立体魔紋の攻撃を受けることでスタック数が減少し、0になると解除される。","ui/icon/018000/018396.tex",0,4,"全クラス",2,"dk05th_stdn0t","",False,False,False,False,False,False,False,False,False,199,0,False,False,0,27,False,0,False,0,False,0,0,0,False
 3726,"正面未解析","身体の正面のみ急所を見抜かれていない状態。
 背面、右側、左側から攻撃を受けると、大ダメージを受ける。","ui/icon/015000/015369.tex",0,0,"全クラス",2,"dk05th_stdn0t","",False,False,False,False,False,False,False,True,True,100,0,False,False,0,28,True,0,False,0,False,0,0,0,False
@@ -3855,7 +3855,7 @@ int32,str,str,Image,byte,byte,ClassJobCategory,byte,StatusHitEffect,StatusLoopVF
 3746,"バブルプリズン","魔力の泡に閉じ込められた状態。行動できず、風に流されてしまう。","ui/icon/015000/015301.tex",0,0,"全クラス",2,"dk05th_stdn0t","",False,True,True,True,False,True,False,True,True,200,0,False,False,0,12,True,0,False,0,False,0,0,0,False
 3747,"ターゲッティング：ハイドロフォール","標的となっている状態。効果終了時に、ハイドロフォールが発動する。","ui/icon/015000/015969.tex",0,0,"全クラス",2,"dk05th_stdn0t","",False,False,False,False,False,False,False,False,False,197,0,False,False,0,0,False,0,False,0,False,0,0,0,False
 3748,"ターゲッティング：ハイドロバレット","標的となっている状態。効果終了時に、ハイドロバレットが発動する。","ui/icon/015000/015996.tex",0,0,"全クラス",2,"dk05th_stdn0t","",False,False,False,False,False,False,False,False,False,198,0,False,False,0,0,False,0,False,0,False,0,0,0,False
-3749,"","",,0,0,"",0,"","",False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3749,"粘着","粘液により、身動きが取れない状態。","ui/icon/014000/014111.tex",0,0,"全クラス",2,"dk05th_stdn0t","k5d2_stlp_neba_c0c2",False,False,False,False,False,False,False,True,False,200,0,False,False,0,4,False,0,False,0,False,0,0,0,False
 3750,"拘束","行動できなくなった状態。","ui/icon/015000/015545.tex",0,0,"全クラス",2,"dk05th_stdn0t","kousoku02f",True,False,True,True,False,False,False,False,False,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False
 3751,"鍼バリア","一定量のダメージを軽減する状態。","ui/icon/014000/014988.tex",0,0,"全クラス",1,"dk05th_stup0t","",False,False,False,False,False,False,False,False,False,199,0,False,False,100,0,True,0,False,0,False,0,12,0,False
 3752,"憩いの水","連続してＨＰが回復している状態。","ui/icon/014000/014989.tex",137,0,"全クラス",1,"dk05th_stup0t","",False,False,False,False,False,False,False,False,False,198,0,False,False,100,0,True,0,False,0,False,0,0,0,False
@@ -3864,7 +3864,7 @@ int32,str,str,Image,byte,byte,ClassJobCategory,byte,StatusHitEffect,StatusLoopVF
 3755,"","",,0,0,"",0,"","",False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
 3756,"ダメージ上昇","与ダメージが大きく上昇した状態。","ui/icon/015000/015519.tex",0,0,"全クラス",1,"dk05th_stup0t","o5d1_stlp_atk0_c0c2",False,False,False,False,False,False,False,True,True,200,0,False,False,10,0,False,0,False,0,False,0,0,0,False
 3757,"被ダメージ低下","受けるダメージが大きく軽減される状態。","ui/icon/015000/015021.tex",0,0,"全クラス",1,"dk05th_stup0t","o5d1_stlp_def0_c0c2",False,False,False,False,False,False,False,True,True,200,0,False,False,-90,0,False,0,False,0,False,0,0,0,False
-3758,"","",,0,0,"",0,"","",False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3758,"ロネークの心熱","自身に向けられる敵視が上昇する状態。","ui/icon/012000/012551.tex",0,0,"全クラス",1,"dk05th_stup0t","",False,False,False,False,False,False,False,True,True,0,0,False,False,200,0,False,0,False,0,False,0,0,0,False
 3759,"狂騒","追い詰められ、想いだけが暴走している状態。","ui/icon/014000/014115.tex",0,0,"全クラス",1,"dk05th_stup0t","m0851_stlp_c1g",False,False,False,False,False,False,False,True,True,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False
 3760,"ビッグバーン","爆発的に展開された闇の力により、活性化している状態。","ui/icon/014000/014116.tex",0,0,"全クラス",1,"dk05th_stup0t","m0851_stlp_c0g",False,False,False,False,False,False,False,True,True,200,0,False,False,0,0,False,0,False,0,False,0,0,0,False
 3761,"ビッグバウンス","無属性ダメージにより、ＨＰが徐々に失われる状態。","ui/icon/014000/014117.tex",0,0,"全クラス",2,"dk05th_stdn0t","",False,False,False,False,False,False,False,False,False,200,0,False,False,10,0,False,0,False,5,False,0,0,0,False
@@ -3889,9 +3889,9 @@ int32,str,str,Image,byte,byte,ClassJobCategory,byte,StatusHitEffect,StatusLoopVF
 3780,"","",,0,0,"全クラス",2,"","",False,False,True,False,False,False,False,True,True,100,0,True,False,0,0,False,0,False,0,False,0,0,0,False
 3781,"","",,0,0,"",0,"","",False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
 3782,"バインド","移動できなくなった状態。","ui/icon/015000/015003.tex",0,0,"全クラス",2,"","dk10ht_bind0h",True,False,False,False,False,False,False,True,True,100,0,False,False,0,0,False,0,False,0,False,0,0,0,False
-3783,"","",,0,0,"",0,"","",False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
-3784,"","",,0,0,"",0,"","",False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
-3785,"","",,0,0,"",0,"","",False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
+3783,"ロネークの血潮","受けるダメージの一部が軽減される状態。","ui/icon/013000/013911.tex",0,0,"全クラス",1,"dk05th_stup0t","",False,False,False,False,False,False,False,False,False,0,0,False,False,-10,0,False,0,False,0,False,0,0,0,False
+3784,"ブラーシャの血潮","受けるダメージが軽減され、かつ物理攻撃を受けた場合に、反撃ダメージを与える状態。","ui/icon/010000/010256.tex",0,0,"全クラス",1,"dk05th_stup0t","",False,False,False,False,False,False,False,False,False,1,0,False,False,-30,0,False,0,False,0,False,0,0,0,False
+3785,"ルワテナの血潮","最大ＨＰが増加し、自身に対するＨＰ回復効果を向上させる状態。","ui/icon/010000/010254.tex",0,0,"全クラス",1,"dk05th_stup0t","",False,False,False,False,False,False,False,False,False,5,0,False,False,10,0,False,0,False,0,False,0,0,0,False
 3786,"成形","生長しきった状態。","ui/icon/015000/015971.tex",89,0,"全クラス",1,"dk05th_stup0t","",False,False,False,False,True,False,False,True,True,200,0,False,False,300,26,False,0,False,0,False,0,0,0,False
 3787,"","",,0,0,"",0,"","",False,False,False,False,False,False,False,False,False,0,0,False,False,0,0,False,0,False,0,False,0,0,0,False
 3788,"バブルフィッター","魔力の泡にまとわりつかれた状態。効果時間が終了するとバインド状態になる。","ui/icon/016000/016749.tex",0,0,"全クラス",2,"dk05th_stdn0t","",False,False,False,False,False,False,False,False,False,200,0,False,False,0,0,True,0,False,0,False,0,0,0,False
